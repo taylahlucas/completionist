@@ -8,7 +8,7 @@ interface QuestListHeaderProps {
 const QuestListHeader = ({ title }: QuestListHeaderProps): JSX.Element => {
   return (
     <View style={{ ...listStyles.selectableButton, backgroundColor: 'lightblue' }}>
-      <Text>{title}</Text>
+      <Text style={{ marginLeft: 16 }}>{title}</Text>
     </View>
   );
 };

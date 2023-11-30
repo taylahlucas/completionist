@@ -1,6 +1,6 @@
 import React from 'react';
-import { Text } from 'react-native';
 import { getQuestsForCategory, getQuestsForSubCategory } from '../../../data/functions.native';
+import QuestListItem from './QuestListItem.native';
 
 export interface QuestSubTypeMainListItemProps {
   category: string;
@@ -9,10 +9,17 @@ export interface QuestSubTypeMainListItemProps {
 
 const QuestSubTypeMainListItem = ({ category, isSubCategory = false }: QuestSubTypeMainListItemProps) => {
   const quests = isSubCategory ? getQuestsForSubCategory(category) : getQuestsForCategory(category);
-  console.log(quests)
+  
   return (
     <>
-      {quests?.map((quest, index) => <Text key={index} style={{  padding: 8, marginLeft: 16 }}>{quest.title}</Text>)}
+      {quests?.map((quest, index) => (
+        <QuestListItem 
+          key={index}
+          title={quest.title}
+          location={quest.location}
+          hold={quest.hold}
+        />
+      ))}
     </>
   );
 };

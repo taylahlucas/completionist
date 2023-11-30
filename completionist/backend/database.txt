@@ -1,215 +1,4 @@
 
-questCategory: Miscellaneous quests
-questSubCategoryType: Side Quests
-hold: Eastmarch
-location: Windhelm
-questTitle: Blood on the ice
-
-Miscellaneous Quests
-  Eastmarch
-    Windhelm
-      Side quests
-        Blood on the Ice
-        Repairing the Phial
-        The White Phial
-        Rise in the East
-
-      Miscellaneous Quests
-        Harsh Master
-        Find the Thalmor Assassin
-        Argonian Dock Workers
-        Shahvee's Amulet
-        Dungeon Delving
-        That Was Always There
-
-  Narzulbur
-      Miscellaneous quests
-        The Forgemaster's Fingers
-
-  Kynesgrove
-      Miscellaneous quests
-        Find Roggi Knot-Beard's Ancestral Shield
-
-Miscellaneous Quests
-  Falkreath Hold
-    Falkreath
-      Miscellaneous quests
-        Dark Ancestor
-        Find Runil's Journal
-        Hunter and Hunted
-        Kill the Bandit Leader
-        Speak to Lod
-        Steal the Private Letter for Dengeir
-        
-  Falkreath Hold
-    Angi's Camp
-      Miscellaneous quests
-        Composure, Speed, and Precision
-
-
-Miscellaneous Quests
-  Haafingar
-    Solitude
-      Side quests
-        Lights Out!
-        The Man Who Cried Wolf
-        The Wolf Queen Awakened
-      Miscellaneous quests
-        Return to Grace
-        The Spiced Wine
-        Fit for a Jarl
-        No News is Good News
-        Elisif's Tribute
-
-    Dragon Bridge
-      Miscellaneous quests
-        Dragon's Breath Mead
-
-Miscellaneous Quests
-  Hjaalmarch
-    Morthal
-      Side quests
-        Laid to Rest
-        Rising at Dawn
-
-    Folgunthur
-      Side quests
-        Forbidden Legend
-
-Miscellaneous Quests     
-  The Pale
-    Dawnstar
-      Miscellaneous quests
-        Visit the Museum in Dawnstar
-        Salty Sea-Dogs
-        Dungeon Delving
-
-
-Miscellaneous Quests  
-  The Reach
-    Markarth
-      Side quests
-        The Lost Expedition
-        The Heart of Dibella
-        The Forsworn Conspiracy
-        No One Escapes Cidhna Mine
-
-      Miscellaneous quests
-        Buy Dwarven artifact
-        Coated in Blood
-        Delivery to Calcelmo
-        Dibella's Shine
-        Nimhe, the Poisoned One
-        Recover Hrolfdir's Shield
-        Search and Seizure
-        Skilled Apprenticeship
-        The Steward's Potion
-
-Miscellaneous Quests  
-  The Reach
-    Karthwasten
-      Miscellaneous Quests
-        Sanuarach Mine
-
-Miscellaneous Quests  
-  The Reach
-    Soljund's Sinkhole
-      Miscellaneous quests
-        Soljund's Sinkhole
-
-    Left Hand Mine
-      Miscellaneous quests
-        Kolskeggr Mine
-
-    Salvius Farm
-      Miscellaneous quests
-        Rogatus's Letter
-
-    Old Hroldan Inn
-      Miscellaneous quests
-        The Ghost of Old Hroldan
-
-    Dushnikh Yal
-      Miscellaneous quests
-        Gharol's Message
-
-Miscellaneous Quests 
-  The Rift
-    Riften
-      Side quests
-        Promises to Keep
-        Unfathomable Depths
-        The Book of Love
-      Miscellaneous quests
-        Retrieve Grimsever
-        The Lover's Requital
-        Truth Ore Consequences
-        Ingun's Task
-        The Raid
-        Supply and Demand
-        Sealing the Deal
-        Stoking the Flames
-        Ice Cold
-        Hunt and Gather
-        Caught Red Handed
-        Ringmaker
-        Special Delivery
-        Pilgrimage
-
-Miscellaneous Quests 
-  The Rift      
-    Froki's Shack
-      Side quests
-        Kyne's Sacred Trials
-    Heartwood Mill
-      Miscellaneous quests
-        Flight or Fight
-    Ivarstead
-      Miscellaneous quests
-        Grin and Bear It
-        The Straw that Broke
-        Climb The Steps
-    Last Vigil
-      Side Quests
-        The Ebony Warrior
-        Merryfair Farm
-      Miscellaneous quests
-        Bow to the Master
-    Sarethi Farm
-      Miscellaneous quests
-        Smooth Jazbay
-    Shor's Stone
-      Miscellaneous quests
-        Mine or Yours
-        Special Delivery
-
-
-
-Miscellaneous Quests
-  Whiterun Hold
-    Whiterun
-      Side quests
-        Missing in Action
-        In My Time of Need
-        The Blessings of Nature
-
-      Miscellaneous quests
-        Andurs' Arkay Amulet
-        Greatsword for a Great Man
-        Dungeon Delving
-        Bullying Braith
-        Argonian Ale Extraction
-        Salt For Arcadia
-
-    Riverwood
-      Side quests
-        The Golden Claw
-      Miscellaneous quests
-        A Lovely Letter
-
-    Rorikstead
-      Miscellaneous quests
-        Erik the Slayer
 
 
 Miscellaneous Quests
@@ -219,9 +8,56 @@ Miscellaneous Quests
         Drowned Sorrows
         Dungeon Delving
 
-
+//
 
 Bounty quests
+  Forsworn
+    Kill the leader of Bilegulch Mine
+    Kill the leader of Bruca's Leap Redoubt
+    Kill the leader of Dragon Bridge Overlook
+    Kill the leader of Druadach Redoubt
+    Kill the leader of Lost Knife Hideout
+    Kill the leader of Pinemoon Cave
+    Kill the leader of Red Eagle Redoubt
+    Kill the leader of Stony Creek Cave
+    Kill the leader of Deepwood Redoubt
+
+  Bandits
+    Broken Oar Grotto
+      Kill the bandit leader
+      
+    Kill the bandit leader at Four Skull Lookout
+    Kill the bandit leader at Halted Stream Camp
+    Kill the bandit leader at Nilheim
+    Kill the bandit leader at Redoran's Retreat
+    Kill the bandit leader at Rift Watchtower
+    Kill the bandit leader at Silent Moons Camp
+    Kill the bandit leader at Winter War
+    Kill the bandit leader at Valtheim Towers
+
+  Giants
+    Kill the giant at Bleakwind Basin
+    Kill the giant at Broken Limb Camp
+    Kill the giant at Cradlecrush Rock
+    Kill the giant at Secunda's Kiss
+    Kill the giant at Sleeping Tree Camp
+    Kill the giant at Guldun Rock
+    Kill the giant at Steamcrag Camp
+    Kill the giant at Blizzard Rest
+
+  Dragons
+    Kill the dragon at Ancient's Ascent
+    Kill the dragon at Autumnwatch Tower
+    Kill the dragon at Bonestrewn Crest
+    Kill the dragon at Dragontooth Crater
+    Kill the dragon at Eldersblood Peak
+    Kill the dragon at Lost Tongue Overlook
+    Kill the dragon at Mount Anthor
+    Kill the dragon at Northwind Summit
+    Kill the dragon at Shearpoint
+    Kill the dragon at Skyborn Altar
+
+
 Global quests
 Creation Club quests
 Conflicting quests
