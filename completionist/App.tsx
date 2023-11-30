@@ -4,9 +4,7 @@ import Home from './src/screens/Home.native';
 
 const App = () => {
   return (
-    <SafeAreaView>
-      <Home />
-    </SafeAreaView>
+    <Home />
   )
 };
 

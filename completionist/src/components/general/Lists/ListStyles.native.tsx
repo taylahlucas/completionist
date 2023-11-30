@@ -3,10 +3,10 @@ import { StyleSheet } from 'react-native';
 const listStyles = StyleSheet.create({
   scrollableContent: {
     alignItems: 'center', 
-    alignSelf: 'center'
+    alignSelf: 'center',
   },
   scrollableList: {
-    padding: 16
+    padding: 16,
   },
   selectableButton: {
     justifyContent: 'center',
