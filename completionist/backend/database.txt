@@ -1,236 +1,230 @@
-Main Quest
-  Act I
-    Unbound
-    Before the Storm
-    Bleak Falls Barrow
-    Dragon Rising
-    The Way of the Voice
-    The Horn of Jurgen Windcaller
-  Act II
-    A Blade in the Dark
-    Diplomatic Immunity
-    A Cornered Rat
-    Alduin's Wall
-    The Throat of the World
-    Elder Knowledge
-    Alduin's Bane
-  Act III
-    Season Unending
-    The Fallen
-    Paarthurnax
-    The World-Eater's Eyrie
-    Sovngarde
-    Dragonslayer
-    Epilogue
 
-Faction Quest
-  Dark Brotherhood
-    Delayed Burial
-    Innocence Lost
-    With Friends Like These...
-    Sanctuary
-    Mourning Never Comes
-    Whispers in the Dark
-    The Silence Has Been Broken
-    Bound Until Death
-    Breaching Security
-    The Cure for Madness
-    Recipe for Disaster
-    To Kill an Empire
-    Death Incarnate
-    Hail Sithis!
+questCategory: Miscellaneous quests
+questSubCategoryType: Side Quests
+hold: Eastmarch
+location: Windhelm
+questTitle: Blood on the ice
 
-  Dark Brotherhood
-    Contracts
-      Contract: Kill Beitild
-      Contract: Kill Narfi
-      Contract: Kill Ennodius Papius
-      Contract: Kill Lurbuk
-      Contract: Kill Hern
-      Contract: Kill Deekus
-      Contract: Kill Ma'randru-jo
-      Contract: Kill Anoriath
-      Contract: Kill Agnis
-      Contract: Kill Maluril
-      Contract: Kill Helvard
-      Contract: Kill Safia
+Miscellaneous Quests
+  Eastmarch
+    Windhelm
+      Side quests
+        Blood on the Ice
+        Repairing the Phial
+        The White Phial
+        Rise in the East
 
-  Dark Brotherhood
-    Side quests
-      Locate the Assassin of Old
-      Honor Thy Family
-      Dark Brotherhood Forever
+      Miscellaneous Quests
+        Harsh Master
+        Find the Thalmor Assassin
+        Argonian Dock Workers
+        Shahvee's Amulet
+        Dungeon Delving
+        That Was Always There
 
-  Dark Brotherhood
-    Other quests
-      Destroy the Dark Brotherhood!
-      Where You Hang Your Enemy's Head
+  Narzulbur
+      Miscellaneous quests
+        The Forgemaster's Fingers
 
-Faction Quests
-  College of Winterhold
-    First Lessons
-    Under Saarthal
-    Hitting the Books
-    Good Intentions
-    Revealing the Unseen
-    Containment
-    The Staff of Magnus
-    The Eye of Magnus
+  Kynesgrove
+      Miscellaneous quests
+        Find Roggi Knot-Beard's Ancestral Shield
 
-College of Winterhold
-  Side quests
-    Arniel's Endeavor
-    Out of Balance
-    J'zargo's Experiment
-    Onmund's Request
-    Brelyna's Practice
-    Rejoining the College
-    Forgotten Names
-    Tolfdir the Absent-Minded
-
-College of Winterhold
-  Radiant quests
-    Fetch Me That Book!
-    Shalidor's Insights
-    Aftershock
-    Enchanting Pick-Up
-    Restocking Soul Gems
-
-College of Winterhold
-  Broken quests
-    The Missing Apprentices
-  
-College of Winterhold
-  Master-level spell quests
-    Alteration Ritual Spell
-    Conjuration Ritual Spell
-    Destruction Ritual Spell
-    Illusion Ritual Spell
-    Restoration Ritual Spell
-
-Faction Quests
-  The Companions
-    Take Up Arms
-    Proving Honor
-    The Silver Hand
-    Blood's Honor
-    Purity of Revenge
-    Glory of the Dead
-    
-  The Companions
-    Side quests
-      Stealing Plans
-      Striking the Heart
-      Retrieval
-      Totems of Hircine
-      Purity
-
-  The Companions
-    Radiant quests
-      Animal Extermination
-      Hired Muscle
-      Trouble in Skyrim
-      Family Heirloom
-      Escaped Criminal
-      Rescue Mission
-      Dragon Seekers
+Miscellaneous Quests
+  Falkreath Hold
+    Falkreath
+      Miscellaneous quests
+        Dark Ancestor
+        Find Runil's Journal
+        Hunter and Hunted
+        Kill the Bandit Leader
+        Speak to Lod
+        Steal the Private Letter for Dengeir
+        
+  Falkreath Hold
+    Angi's Camp
+      Miscellaneous quests
+        Composure, Speed, and Precision
 
 
+Miscellaneous Quests
+  Haafingar
+    Solitude
+      Side quests
+        Lights Out!
+        The Man Who Cried Wolf
+        The Wolf Queen Awakened
+      Miscellaneous quests
+        Return to Grace
+        The Spiced Wine
+        Fit for a Jarl
+        No News is Good News
+        Elisif's Tribute
 
-Thieves Guild
-  A Chance Arrangement
-  Taking Care of Business
-  Loud and Clear
-  Dampened Spirits
-  Scoundrel's Folly
-  Speaking With Silence
-  Hard Answers
-  The Pursuit
-  Trinity Restored
-  Blindsighted
-  Darkness Returns
-  Under New Management
+    Dragon Bridge
+      Miscellaneous quests
+        Dragon's Breath Mead
 
-Thieves Guild
-  Side quests
-    Imitation Amnesty
-    Summerset Shadows
-    Silver Lining
-    The Dainty Sload
-    No Stone Unturned
-    
-Thieves Guild
-  Radiant quests
-  The Bedlam Job
-  The Fishing Job
-  The Numbers Job
-  The Burglary Job
-  The Heist Job
-  The Shill Job
-  The Sweep Job
+Miscellaneous Quests
+  Hjaalmarch
+    Morthal
+      Side quests
+        Laid to Rest
+        Rising at Dawn
 
-The Blades
-  Paarthurnax
-  Rebuilding the Blades
-  Dragon Hunting
+    Folgunthur
+      Side quests
+        Forbidden Legend
 
-Bards College
-  Tending the Flames
-  Find Rjorn's Drum
-  Find Finn's Lute
-  Find Pantea's Flute
+Miscellaneous Quests     
+  The Pale
+    Dawnstar
+      Miscellaneous quests
+        Visit the Museum in Dawnstar
+        Salty Sea-Dogs
+        Dungeon Delving
 
 
-Civil War
-  Imperial Legion
-    Joining the Legion
-    The Jagged Crown
-    Message to Whiterun
-    Battle for Whiterun
-    Reunification of Skyrim
-    ​A False Front
-    The Battle for Fort Dunstad
-    Compelling Tribute
-    The Battle for Fort Greenwall
-    The Battle for Fort Sungard
-    Rescue from Fort Kastav
-    The Battle for Fort Neugrad
-    The Battle for Fort Amol
-    Battle for Windhelm
+Miscellaneous Quests  
+  The Reach
+    Markarth
+      Side quests
+        The Lost Expedition
+        The Heart of Dibella
+        The Forsworn Conspiracy
+        No One Escapes Cidhna Mine
 
-Civil War
-  Stormcloaks 
-    Joining the Stormcloaks
-    The Jagged Crown
-    Message to Whiterun
-    Battle for Whiterun
-    Liberation of Skyrim
-    Rescue from Fort Neugrad
-    Compelling Tribute
-    The Battle for Fort Sungard
-    The Battle for Fort Greenwall
-    A False Front
-    The Battle for Fort Snowhawk
-    The Battle for Fort Hraggstad
-    Battle for Solitude
+      Miscellaneous quests
+        Buy Dwarven artifact
+        Coated in Blood
+        Delivery to Calcelmo
+        Dibella's Shine
+        Nimhe, the Poisoned One
+        Recover Hrolfdir's Shield
+        Search and Seizure
+        Skilled Apprenticeship
+        The Steward's Potion
+
+Miscellaneous Quests  
+  The Reach
+    Karthwasten
+      Miscellaneous Quests
+        Sanuarach Mine
+
+Miscellaneous Quests  
+  The Reach
+    Soljund's Sinkhole
+      Miscellaneous quests
+        Soljund's Sinkhole
+
+    Left Hand Mine
+      Miscellaneous quests
+        Kolskeggr Mine
+
+    Salvius Farm
+      Miscellaneous quests
+        Rogatus's Letter
+
+    Old Hroldan Inn
+      Miscellaneous quests
+        The Ghost of Old Hroldan
+
+    Dushnikh Yal
+      Miscellaneous quests
+        Gharol's Message
+
+Miscellaneous Quests 
+  The Rift
+    Riften
+      Side quests
+        Promises to Keep
+        Unfathomable Depths
+        The Book of Love
+      Miscellaneous quests
+        Retrieve Grimsever
+        The Lover's Requital
+        Truth Ore Consequences
+        Ingun's Task
+        The Raid
+        Supply and Demand
+        Sealing the Deal
+        Stoking the Flames
+        Ice Cold
+        Hunt and Gather
+        Caught Red Handed
+        Ringmaker
+        Special Delivery
+        Pilgrimage
+
+Miscellaneous Quests 
+  The Rift      
+    Froki's Shack
+      Side quests
+        Kyne's Sacred Trials
+    Heartwood Mill
+      Miscellaneous quests
+        Flight or Fight
+    Ivarstead
+      Miscellaneous quests
+        Grin and Bear It
+        The Straw that Broke
+        Climb The Steps
+    Last Vigil
+      Side Quests
+        The Ebony Warrior
+        Merryfair Farm
+      Miscellaneous quests
+        Bow to the Master
+    Sarethi Farm
+      Miscellaneous quests
+        Smooth Jazbay
+    Shor's Stone
+      Miscellaneous quests
+        Mine or Yours
+        Special Delivery
 
 
 
+Miscellaneous Quests
+  Whiterun Hold
+    Whiterun
+      Side quests
+        Missing in Action
+        In My Time of Need
+        The Blessings of Nature
 
-Daedric quests
-Dungeon quests
-Miscellaneous quests
-Eastmarch
-Falkreath Hold
-Haafingar
-Hjaalmarch
-The Pale
-The Reach
-The Rift
-Whiterun Hold
-Winterhold Hold
+      Miscellaneous quests
+        Andurs' Arkay Amulet
+        Greatsword for a Great Man
+        Dungeon Delving
+        Bullying Braith
+        Argonian Ale Extraction
+        Salt For Arcadia
+
+    Riverwood
+      Side quests
+        The Golden Claw
+      Miscellaneous quests
+        A Lovely Letter
+
+    Rorikstead
+      Miscellaneous quests
+        Erik the Slayer
+
+
+Miscellaneous Quests
+  Winterhold Hold
+    Winterhold
+      Miscellaneous quests
+        Drowned Sorrows
+        Dungeon Delving
+
+
+
 Bounty quests
 Global quests
 Creation Club quests
 Conflicting quests
+
+
 
