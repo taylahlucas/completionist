@@ -3,6 +3,7 @@ import { Text } from 'react-native';
 import { getQuestSubCategoriesTypes } from '../../../data/functions.native';
 import Dropdown from '../../general/Dropdown/Dropdown.native';
 import QuestSubTypeListItem from './QuestSubTypeListItem.native';
+import QuestSubTypeMainListItem from './QuestSubTypeMainListItem.native';
 
 export interface QuestSubListItemProps {
   category: string;
@@ -20,10 +21,7 @@ const QuestSubListItem = ({ category }: QuestSubListItemProps) => {
         <Text style={{ color: 'blue', padding: 8 }}>{category}</Text>
       }
     >
-      {/* <Condition condition={mainQuests?.length > 0}>
-        <QuestSubTypeListItem category={category} type={'Main'} />
-      </Condition> */}
-      <QuestSubTypeListItem category={category} type={'Main'} />
+      <QuestSubTypeMainListItem category={category} isSubCategory={true} />
       {subCategoryTypes?.map((type, index) => {
         return (
           <QuestSubTypeListItem category={category} type={type} />
