@@ -1537,7 +1537,7 @@
   },
   {
     "mainCategory": "Daedric Quests",
-    "subCategory": "Azura",
+    "subCategory": "",
     "subCategoryType": "",
     "title": "The Black Star",
     "location": "Shrine of Zura",
@@ -1547,7 +1547,7 @@
   },
   {
     "mainCategory": "Daedric Quests",
-    "subCategory": "Boethiah",
+    "subCategory": "",
     "subCategoryType": "",
     "title": "Boethiah's Calling",
     "location": "Sacellum of Boethiah",
@@ -1557,7 +1557,7 @@
   },
   {
     "mainCategory": "Daedric Quests",
-    "subCategory": "Clavicus Vile",
+    "subCategory": "",
     "subCategoryType": "",
     "title": "A Daedra's Best Friend",
     "location": "Falkreath",
@@ -1567,7 +1567,7 @@
   },
   {
     "mainCategory": "Daedric Quests",
-    "subCategory": "Hermaeus Mora",
+    "subCategory": "",
     "subCategoryType": "",
     "title": "Discerning the Transmundane",
     "location": "Septimus Signus' Outpost",
@@ -1577,7 +1577,7 @@
   },
   {
     "mainCategory": "Daedric Quests",
-    "subCategory": "Hircine",
+    "subCategory": "",
     "subCategoryType": "",
     "title": "Ill Met by Moonlight",
     "location": "Falkreath",
@@ -1587,7 +1587,7 @@
   },
   {
     "mainCategory": "Daedric Quests",
-    "subCategory": "Malacath",
+    "subCategory": "",
     "subCategoryType": "",
     "title": "The Cursed Tribe",
     "location": "Largashbur",
@@ -1597,7 +1597,7 @@
   },
   {
     "mainCategory": "Daedric Quests",
-    "subCategory": "Mehrunes Dagon",
+    "subCategory": "",
     "subCategoryType": "",
     "title": "Pieces of the Past",
     "location": "Dawnstar",
@@ -1607,7 +1607,7 @@
   },
   {
     "mainCategory": "Daedric Quests",
-    "subCategory": "Mephala",
+    "subCategory": "",
     "subCategoryType": "",
     "title": "The Whispering Door",
     "location": "Dragonsreach",
@@ -1617,7 +1617,7 @@
   },
   {
     "mainCategory": "Daedric Quests",
-    "subCategory": "Meridia",
+    "subCategory": "",
     "subCategoryType": "",
     "title": "The Break of Dawn",
     "location": "Statue to Meridia",
@@ -1627,7 +1627,7 @@
   },
   {
     "mainCategory": "Daedric Quests",
-    "subCategory": "Molag Bal",
+    "subCategory": "",
     "subCategoryType": "",
     "title": "The House of Horrors",
     "location": "Markarth",
@@ -1637,7 +1637,7 @@
   },
   {
     "mainCategory": "Daedric Quests",
-    "subCategory": "Namira",
+    "subCategory": "",
     "subCategoryType": "",
     "title": "The Taste of Death",
     "location": "Markarth",
@@ -1647,7 +1647,7 @@
   },
   {
     "mainCategory": "Daedric Quests",
-    "subCategory": "Peryite",
+    "subCategory": "",
     "subCategoryType": "",
     "title": "The Only Cure",
     "location": "Shrine to Peryite",
@@ -1657,7 +1657,7 @@
   },
   {
     "mainCategory": "Daedric Quests",
-    "subCategory": "Sanguine",
+    "subCategory": "",
     "subCategoryType": "",
     "title": "A Night to Remember",
     "location": "Whiterun",
@@ -1667,7 +1667,7 @@
   },
   {
     "mainCategory": "Daedric Quests",
-    "subCategory": "Sheogorath",
+    "subCategory": "",
     "subCategoryType": "",
     "title": "The Mind of Madness",
     "location": "Blue Palace",
@@ -1677,7 +1677,7 @@
   },
   {
     "mainCategory": "Daedric Quests",
-    "subCategory": "Vaermina",
+    "subCategory": "",
     "subCategoryType": "",
     "title": "Waking Nightmare",
     "location": "Dawnstar",
@@ -1687,7 +1687,7 @@
   },
   {
     "mainCategory": "Daedric Quests",
-    "subCategory": "Nocturnal",
+    "subCategory": "",
     "subCategoryType": "Thieves Guild",
     "title": "Thieves Guild",
     "location": "Riften",

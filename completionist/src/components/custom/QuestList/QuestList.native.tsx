@@ -9,8 +9,8 @@ const QuestList = () => {
   
   return (
     <ScrollableList>
-      {questCategories.map((category: string) => (
-        <QuestMainListItem category={category} />
+      {questCategories.map((category: string, index: number) => (
+        <QuestMainListItem key={index} category={category} />
       ))}
     </ScrollableList>
   );

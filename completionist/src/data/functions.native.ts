@@ -51,3 +51,7 @@ export const getQuestSubCategoriesTypes = (subCategory: string): string[] => {
 export const getQuestsForSubCategory = (subCategory: string, subCategoryType: string = ''): SkyrimQuest[] => {
   return mappedQuests.filter(quest => quest.subCategory === subCategory && quest.subCategoryType === subCategoryType);
 }
+
+export const getQuestsForCategory = (mainCategory: string): SkyrimQuest[] => {
+  return mappedQuests.filter(quest => quest.mainCategory === mainCategory);
+}

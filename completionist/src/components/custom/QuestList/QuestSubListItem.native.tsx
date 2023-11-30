@@ -1,17 +1,17 @@
 import React, { useState } from 'react';
-import { Text, View } from 'react-native';
-import { getQuestsForSubCategory, getQuestSubCategories, getQuestSubCategoriesTypes } from '../../../data/functions.native';
+import { Text } from 'react-native';
+import { getQuestSubCategoriesTypes } from '../../../data/functions.native';
 import Dropdown from '../../general/Dropdown/Dropdown.native';
-import QuestListHeader from './QuestListHeader.native';
+import QuestSubTypeListItem from './QuestSubTypeListItem.native';
 
-export interface QuestListItemProps {
+export interface QuestSubListItemProps {
   category: string;
 }
 
-const QuestSubListItem = ({ category }: QuestListItemProps) => {
+const QuestSubListItem = ({ category }: QuestSubListItemProps) => {
   const [isOpen, setIsOpen] = useState(false);
   const subCategoryTypes = getQuestSubCategoriesTypes(category);
-  
+
   return (
     <Dropdown
       isOpen={isOpen}
@@ -20,16 +20,13 @@ const QuestSubListItem = ({ category }: QuestListItemProps) => {
         <Text style={{ color: 'blue', padding: 8 }}>{category}</Text>
       }
     >
-      {subCategoryTypes.map(type => {
-        const mainQuests = getQuestsForSubCategory(category, '');
-        const otherQuests = getQuestsForSubCategory(category, type);
-
+      {/* <Condition condition={mainQuests?.length > 0}>
+        <QuestSubTypeListItem category={category} type={'Main'} />
+      </Condition> */}
+      <QuestSubTypeListItem category={category} type={'Main'} />
+      {subCategoryTypes?.map((type, index) => {
         return (
-          <>
-            {mainQuests.map(quest => <Text style={{  padding: 8, marginLeft: 16 }}>{quest.title}</Text>)}
-            <Text style={{ color: 'red', padding: 8, marginLeft: 8 }}>{type}</Text>
-            {otherQuests.map(quest => <Text style={{  padding: 8, marginLeft: 16 }}>{quest.title}</Text>)}
-          </>
+          <QuestSubTypeListItem category={category} type={type} />
         )
       })}
     </Dropdown>

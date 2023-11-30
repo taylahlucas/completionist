@@ -1,19 +1,19 @@
 import React, { useState } from 'react';
 import { getQuestSubCategories } from '../../../data/functions.native';
+import Condition from '../../general/Condition.native';
 import Dropdown from '../../general/Dropdown/Dropdown.native';
 import QuestListHeader from './QuestListHeader.native';
 import QuestSubListItem from './QuestSubListItem.native';
+import QuestSubTypeMainListItem from './QuestSubTypeMainListItem.native';
 
-export interface QuestListItemProps {
+export interface QuestMainListItemProps {
   category: string;
 }
 
-const QuestMainListItem = ({ category }: QuestListItemProps) => {
+const QuestMainListItem = ({ category }: QuestMainListItemProps) => {
   const [isOpen, setIsOpen] = useState(false);
   const subCategories = getQuestSubCategories(category);
 
-  console.log("SUB CATEGORIES: ", subCategories)
-  
   return (
     <Dropdown
       isOpen={isOpen}
@@ -22,9 +22,12 @@ const QuestMainListItem = ({ category }: QuestListItemProps) => {
         <QuestListHeader title={category} />
       }
     >
-      {subCategories.map(subCategory => 
-        <QuestSubListItem category={subCategory} />
+      {subCategories.map((subCategory, index) => 
+        <QuestSubListItem key={index} category={subCategory} />
       )}
+      <Condition condition={subCategories.length === 0}>
+        <QuestSubTypeMainListItem category={category} />
+      </Condition>
     </Dropdown>
   );
 };

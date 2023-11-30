@@ -10,3 +10,4 @@ An app designed for game completionists which allows them to track their progres
 # Packages
 
 - styled-components
+ - @types/styled-components-react-native
