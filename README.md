@@ -7,6 +7,12 @@ An app designed for game completionists which allows them to track their progres
 - npm install
 - npm start
 
+## Backend
+
+- cd backend
+- npm install
+- node server.js
+
 # Packages
 
 - styled-components

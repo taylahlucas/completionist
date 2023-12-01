@@ -1,5 +1,5 @@
 export interface SkyrimQuest {
-  id: number;
+  id: string;
   mainCategory: string;
   subCategory?: string;
   subCategoryType?: string;

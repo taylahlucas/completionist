@@ -1,12 +1,9 @@
-import quests from '../../backend/quests.json';
+import quests from '../../backend/skyrim_quests.json';
 import { SkyrimQuest } from '../utils/CustomTypes.native';
 
 export const mapDataToQuests = (): SkyrimQuest[] => {
-  return quests.map((quest, index) => {
-   return {
-      ...quest,
-      id: index
-    } as SkyrimQuest
+  return quests.map(quest => {
+   return quest as SkyrimQuest
   })
 };
 
