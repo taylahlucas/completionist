@@ -6,7 +6,6 @@ import QuestMainListItem from './QuestMainListItem.native';
 
 const QuestList = () => {
   const questCategories = getQuestCategories();
-  const getCompletedTasks = 
   
   return (
     <ScrollableList>

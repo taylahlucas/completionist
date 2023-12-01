@@ -28,7 +28,7 @@ const writeJsonFile = (filePath, data) => {
 };
 
 // Specify the path to your JSON file
-const jsonFilePath = 'skyrim_quests.json';
+const jsonFilePath = 'quests.json';
 
 // Read objects from the JSON file
 const objects = readJsonFile(jsonFilePath);

@@ -1,0 +1,113 @@
+
+
+
+Can you do the same thing with the following data, replacing questSubCategory with
+
+Global quests
+  Quest all Beggars Have
+    Angrenor Once-Honored
+    Brenuin
+    Degaine
+    Dervenin
+    Edda
+    Lucia HF
+    Narfi
+    Noster Eagle-Eye
+    Silda the Unseen
+    Snilf
+    Svari
+
+Global quests
+  Quest all Drunks Have
+    Cosnach
+    Degaine
+    Embry
+    Karl
+    Ranmir
+    Razelan
+    Torbjorn Shatter-Shield
+
+Global quests
+  Rare Gifts
+    Brand-Shei
+    Captain Aldis
+    Lami
+    Rustleif
+    Siddgeir
+    Torbjorn Shatter-Shield
+    Ysolda
+
+Global quests
+  Some Light Theft
+    Dengeir of Stuhn
+    Malur Seloth
+    Stands-In-Shallows
+    Brenuin
+
+
+
+
+
+
+
+Creation Club quests
+
+Forgotten Seasons	
+  Runoff Caverns	
+  The Reach
+
+The Dwarven Crown	
+  Runoff Caverns	The Reach
+
+The Dwarven Horse	
+  Runoff Caverns	
+  The Reach
+
+
+Conflicting quests
+
+Quest name
+Conflict
+Effect
+
+Quest name: The Forgemaster's Fingers	
+Conflict Reason: Any quest which grants the player blood-kin status
+Effect: The Forgemaster's Fingers is only offered to players lacking blood-kin status. Most quests completed for any orc grants blood-kin status, rendering this quest unable to be completed.
+
+
+The Straw that Broke	
+Dark Brotherhood contract: Kill Narfi	
+As soon as you start Kill Narfi, you will be unable to start or complete The Straw that Broke.
+
+
+Hearthfire: Build your Falkreath home	
+Dark Brotherhood contract: Kill Helvard	
+Killing Helvard may make it impossible to raise Siddgeir's disposition enough to sell you a plot of land in Falkreath. This can be overcome if at any time the Stormcloaks take over and replace Siddgeir as Jarl, otherwise you miss out on a house and some achievements/trophies. You must side with the Stormcloaks to trigger this, for more details see the Civil War article.
+
+
+The Spiced Wine	
+Bound Until Death	
+Initiating quest 2 will render it impossible to complete quest 1.
+
+
+Blood on the Ice	
+Mourning Never Comes	
+During quest 2, you are given an extra reward for killing Nilsine Shatter Shield. Doing this will cause her mother to kill herself. This can cause a fair amount of problems with quest progression, so it is best to complete quest 1 first.
+
+Mourning Never Comes	
+Lost to the Ages	
+During quest 2 you are required to trek through Raldbthar, where Alain Dufont lives. If you kill him before starting quest 1, you cannot obtain the bonus reward in that quest. Fortunately, he is never hostile, unless provoked, so you can simply bypass him.
+
+Kill the Bandit Leader for Ahtar	
+Lights Out!	
+During quest 2 you are required to trek through Broken Oar Grotto, where Captain Hargar lives. If you kill him before starting quest 1, you will never be able to start that quest and be unable to recruit a potential follower.
+
+The Taste of Death	
+Civil War	
+If Markarth is handed to the Stormcloaks, quest 1 is nullified.
+Compelling Tribute (Stormcloaks)	Civil War	If Markarth is handed to the Stormcloaks, quest 1 is nullified.
+
+Delayed Burial	
+With Friends Like These...	
+Completing quest 2 will nullify quest 1.
+Season Unending	Civil War	Completing the Civil War questline for either side (Imperial or Stormcloak) will nullify quest 2.
