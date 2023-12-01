@@ -1,13 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import { Alert } from 'react-native';
-import { Button, SafeAreaView, ScrollView, StatusBar, Text, TextInput, View } from 'react-native';
+import { Button, SafeAreaView, ScrollView, StatusBar, Text, TextInput, View, Alert } from 'react-native';
 import StandardLayout from '../components/general/Layouts/StandardLayout.native';
 import QuestList from '../components/custom/QuestList/QuestList.native';
 import {
   GoogleSignin,
   GoogleSigninButton,
-  statusCodes
-  } from 'react-native-google-signin';
+  statusCodes,
+} from '@react-native-google-signin/google-signin';
 
 interface GoogleSignInError {
   code: number;
