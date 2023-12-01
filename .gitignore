@@ -1,2 +1,3 @@
 venv/
 completionist/backend/.env
+completionist/android/app/debug.keystore
