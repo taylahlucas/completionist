@@ -1,29 +1,6 @@
 
 Can you do the same thing with the following data, replacing questSubCategory with
 
-Global quests
-  Quest all Beggars Have
-    Angrenor Once-Honored
-    Brenuin
-    Degaine
-    Dervenin
-    Edda
-    Lucia HF
-    Narfi
-    Noster Eagle-Eye
-    Silda the Unseen
-    Snilf
-    Svari
-
-Global quests
-  Quest all Drunks Have
-    Cosnach
-    Degaine
-    Embry
-    Karl
-    Ranmir
-    Razelan
-    Torbjorn Shatter-Shield
 
 Global quests
   Rare Gifts

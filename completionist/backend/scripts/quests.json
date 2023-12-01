@@ -965,6 +965,230 @@
     "hold": "",
     "href": "",
     "isComplete": false
+  },
+
+  {
+    "questCategory": "Global quests",
+    "questSubCategory": "Quest all Beggars Have",
+    "questSubCategoryType": "",
+    "questTitle": "Give 1 coin to Angrenor Once-Honored",
+    "location": "",
+    "hold": "",
+    "href": "",
+    "isComplete": false
+  },
+  {
+    "questCategory": "Global quests",
+    "questSubCategory": "Quest all Beggars Have",
+    "questSubCategoryType": "",
+    "questTitle": "Give 1 coin to Brenuin",
+    "location": "",
+    "hold": "",
+    "href": "",
+    "isComplete": false
+  },
+  {
+    "questCategory": "Global quests",
+    "questSubCategory": "Quest all Beggars Have",
+    "questSubCategoryType": "",
+    "questTitle": "Give 1 coin to Degaine",
+    "location": "",
+    "hold": "",
+    "href": "",
+    "isComplete": false
+  },
+  {
+    "questCategory": "Global quests",
+    "questSubCategory": "Quest all Beggars Have",
+    "questSubCategoryType": "",
+    "questTitle": "Give 1 coin to Dervenin",
+    "location": "",
+    "hold": "",
+    "href": "",
+    "isComplete": false
+  },
+  {
+    "questCategory": "Global quests",
+    "questSubCategory": "Quest all Beggars Have",
+    "questSubCategoryType": "",
+    "questTitle": "Give 1 coin to Edda",
+    "location": "",
+    "hold": "",
+    "href": "",
+    "isComplete": false
+  },
+  {
+    "questCategory": "Global quests",
+    "questSubCategory": "Quest all Beggars Have",
+    "questSubCategoryType": "",
+    "questTitle": "Give 1 coin to Lucia HF",
+    "location": "",
+    "hold": "",
+    "href": "",
+    "isComplete": false
+  },
+  {
+    "questCategory": "Global quests",
+    "questSubCategory": "Quest all Beggars Have",
+    "questSubCategoryType": "",
+    "questTitle": "Give 1 coin to Narfi",
+    "location": "",
+    "hold": "",
+    "href": "",
+    "isComplete": false
+  },
+  {
+    "questCategory": "Global quests",
+    "questSubCategory": "Quest all Beggars Have",
+    "questSubCategoryType": "",
+    "questTitle": "Give 1 coin to Noster Eagle-Eye",
+    "location": "",
+    "hold": "",
+    "href": "",
+    "isComplete": false
+  },
+  {
+    "questCategory": "Global quests",
+    "questSubCategory": "Quest all Beggars Have",
+    "questSubCategoryType": "",
+    "questTitle": "Give 1 coin to Silda the Unseen",
+    "location": "",
+    "hold": "",
+    "href": "",
+    "isComplete": false
+  },
+  {
+    "questCategory": "Global quests",
+    "questSubCategory": "Quest all Beggars Have",
+    "questSubCategoryType": "",
+    "questTitle": "Give 1 coin to Snilf",
+    "location": "",
+    "hold": "",
+    "href": "",
+    "isComplete": false
+  },
+  {
+    "questCategory": "Global quests",
+    "questSubCategory": "Quest all Beggars Have",
+    "questSubCategoryType": "",
+    "questTitle": "Give 1 coin to Svari",
+    "location": "",
+    "hold": "",
+    "href": "",
+    "isComplete": false
+  },
+
+  {
+    "questCategory": "Global quests",
+    "questSubCategory": "Quest all Drunks Have",
+    "questSubCategoryType": "",
+    "questTitle": "Give an alcoholic beverage to Angrenor Once-Honored",
+    "location": "",
+    "hold": "",
+    "href": "",
+    "isComplete": false
+  },
+  {
+    "questCategory": "Global quests",
+    "questSubCategory": "Quest all Drunks Have",
+    "questSubCategoryType": "",
+    "questTitle": "Give an alcoholic beverage to Brenuin",
+    "location": "",
+    "hold": "",
+    "href": "",
+    "isComplete": false
+  },
+  {
+    "questCategory": "Global quests",
+    "questSubCategory": "Quest all Drunks Have",
+    "questSubCategoryType": "",
+    "questTitle": "Give an alcoholic beverage to Degaine",
+    "location": "",
+    "hold": "",
+    "href": "",
+    "isComplete": false
+  },
+  {
+    "questCategory": "Global quests",
+    "questSubCategory": "Quest all Drunks Have",
+    "questSubCategoryType": "",
+    "questTitle": "Give an alcoholic beverage to Dervenin",
+    "location": "",
+    "hold": "",
+    "href": "",
+    "isComplete": false
+  },
+  {
+    "questCategory": "Global quests",
+    "questSubCategory": "Quest all Drunks Have",
+    "questSubCategoryType": "",
+    "questTitle": "Give an alcoholic beverage to Edda",
+    "location": "",
+    "hold": "",
+    "href": "",
+    "isComplete": false
+  },
+  {
+    "questCategory": "Global quests",
+    "questSubCategory": "Quest all Drunks Have",
+    "questSubCategoryType": "",
+    "questTitle": "Give an alcoholic beverage to Lucia HF",
+    "location": "",
+    "hold": "",
+    "href": "",
+    "isComplete": false
+  },
+  {
+    "questCategory": "Global quests",
+    "questSubCategory": "Quest all Drunks Have",
+    "questSubCategoryType": "",
+    "questTitle": "Give an alcoholic beverage to Narfi",
+    "location": "",
+    "hold": "",
+    "href": "",
+    "isComplete": false
+  },
+  {
+    "questCategory": "Global quests",
+    "questSubCategory": "Quest all Drunks Have",
+    "questSubCategoryType": "",
+    "questTitle": "Give an alcoholic beverage to Noster Eagle-Eye",
+    "location": "",
+    "hold": "",
+    "href": "",
+    "isComplete": false
+  },
+  {
+    "questCategory": "Global quests",
+    "questSubCategory": "Quest all Drunks Have",
+    "questSubCategoryType": "",
+    "questTitle": "Give an alcoholic beverage to Silda the Unseen",
+    "location": "",
+    "hold": "",
+    "href": "",
+    "isComplete": false
+  },
+  {
+    "questCategory": "Global quests",
+    "questSubCategory": "Quest all Drunks Have",
+    "questSubCategoryType": "",
+    "questTitle": "Give an alcoholic beverage to Snilf",
+    "location": "",
+    "hold": "",
+    "href": "",
+    "isComplete": false
+  },
+  {
+    "questCategory": "Global quests",
+    "questSubCategory": "Quest all Drunks Have",
+    "questSubCategoryType": "",
+    "questTitle": "Give an alcoholic beverage to Svari",
+    "location": "",
+    "hold": "",
+    "href": "",
+    "isComplete": false
   }
 
+
 ]
+
