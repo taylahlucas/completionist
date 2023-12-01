@@ -1,6 +1,4 @@
 
-
-
 Can you do the same thing with the following data, replacing questSubCategory with
 
 Global quests
