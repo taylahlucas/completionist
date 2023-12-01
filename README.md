@@ -19,3 +19,10 @@ An app designed for game completionists which allows them to track their progres
  - @types/styled-components-react-native
 
 - @react-native-community/checkbox
+
+
+## Backend
+
+- mongoose
+- express
+- dotenv

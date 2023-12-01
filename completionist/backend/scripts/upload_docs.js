@@ -1,8 +1,9 @@
+require('dotenv').config()
 const { MongoClient } = require('mongodb');
 const fs = require('fs');
 
 // MongoDB Atlas connection string
-const uri = 'mongodb+srv://taylahlucasdev:JsSPrAgEMtht3QKC@completionist.eu0rfdl.mongodb.net/';
+const uri = process.env.MONGO_URL;
 
 // JSON file path
 const jsonFilePath = 'skyrim_quests.json';
