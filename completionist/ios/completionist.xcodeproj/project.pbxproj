@@ -14,7 +14,8 @@
 		7DD2371CBECACD61896C0C54 /* libPods-completionist-completionistTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C854D5AD9A27FA08C89619E /* libPods-completionist-completionistTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		BBAE62503FC4314DF002C3A6 /* libPods-completionist.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 735C725F60D27115A955D0C4 /* libPods-completionist.a */; };
-		D0F7D34A2B1A46C00030AD2C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D0F7D3492B1A46C00030AD2C /* GoogleService-Info.plist */; };
+		D044F0492B1B6F4E00C06D1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		D044F04B2B1B737300C06D1A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D044F04A2B1B737300C06D1A /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +45,7 @@
 		7BB57BB44B84C4920B7F4DB0 /* Pods-completionist.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-completionist.debug.xcconfig"; path = "Target Support Files/Pods-completionist/Pods-completionist.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = completionist/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD42E07496E9ECCC3E71200A /* Pods-completionist-completionistTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-completionist-completionistTests.release.xcconfig"; path = "Target Support Files/Pods-completionist-completionistTests/Pods-completionist-completionistTests.release.xcconfig"; sourceTree = "<group>"; };
-		D0F7D3492B1A46C00030AD2C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D044F04A2B1B737300C06D1A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -88,7 +89,7 @@
 		13B07FAE1A68108700A75B9A /* completionist */ = {
 			isa = PBXGroup;
 			children = (
-				D0F7D3492B1A46C00030AD2C /* GoogleService-Info.plist */,
+				D044F04A2B1B737300C06D1A /* GoogleService-Info.plist */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -248,7 +249,7 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				D0F7D34A2B1A46C00030AD2C /* GoogleService-Info.plist in Resources */,
+				D044F04B2B1B737300C06D1A /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +423,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D044F0492B1B6F4E00C06D1A /* main.m in Sources */,
 				00E356F31AD99517003FC87E /* completionistTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -456,7 +458,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = completionistTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -480,7 +482,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = completionistTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -509,6 +511,7 @@
 				INFOPLIST_FILE = completionist/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Completionist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -538,6 +541,7 @@
 				INFOPLIST_FILE = completionist/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Completionist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -605,7 +609,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
@@ -679,7 +683,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",

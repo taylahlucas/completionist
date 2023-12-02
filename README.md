@@ -21,6 +21,7 @@ An app designed for game completionists which allows them to track their progres
 - @react-native-community/checkbox
 
 - @react-native-google-signin/google-signin
+- @react-native-firebase/auth
 
 
 ## Backend
