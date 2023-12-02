@@ -1,5 +1,5 @@
 import React from 'react';
-import { Pressable, View } from 'react-native';
+import { Dimensions, Pressable, View } from 'react-native';
 import Condition from '../Condition.native';
 
 interface DropdownProps {
@@ -11,7 +11,7 @@ interface DropdownProps {
 
 const Dropdown = ({ header, children, isOpen, setOpen }: DropdownProps) => {
   return (
-    <View style={{ minWidth: 300 }}>
+    <View style={{ minWidth: Dimensions.get('window').width - 32 }}>
       <Pressable onPress={(): void => setOpen(!isOpen)}>{header}</Pressable>
       <Condition condition={isOpen}>
         {children}

@@ -1,4 +1,5 @@
 import React from 'react';
+import useGetTheme from '../../../styles/hooks/useGetTheme';
 import { StandardLayoutContainer } from './StandardLayoutStyledComponents.native';
 
 interface StandardLayoutProps {
@@ -6,9 +7,10 @@ interface StandardLayoutProps {
 }
 
 const StandardLayout = ({ children }: StandardLayoutProps) => {
+  const theme = useGetTheme();
 
   return (
-    <StandardLayoutContainer>
+    <StandardLayoutContainer color={theme.black}>
       {children}
     </StandardLayoutContainer>
   );
