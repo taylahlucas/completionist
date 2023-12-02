@@ -7,6 +7,10 @@ interface QuestListItemStyleProps {
   color: string;
 }
 
+export const QuestListSubListContainer = styled.View`
+  margin-top: 8px;
+`;
+
 export const QuestListSubItemContainer = styled.View`
   align-items: center;
   padding-bottom: 16px;

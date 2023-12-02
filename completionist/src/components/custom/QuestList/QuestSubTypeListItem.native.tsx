@@ -21,7 +21,7 @@ const QuestSubTypeListItem = ({ category, type }: QuestListSubItemTypeProps) => 
       isOpen={isOpen}
       setOpen={() => setIsOpen(!isOpen)}
       header={
-        <StyledText align={'left'} type={'ListItemSubTitle'} color={theme.lightGrey} style={{ padding: 16, marginLeft: 32 }}>{type}</StyledText>
+        <StyledText align={'left'} type={'ListItemSubTitleBold'} color={theme.lightGrey} style={{ padding: 16, marginLeft: 32 }}>{type}</StyledText>
       }
     >
      <QuestListSubItemContainer>

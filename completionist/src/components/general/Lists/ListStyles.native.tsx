@@ -12,7 +12,6 @@ const listStyles = StyleSheet.create({
     justifyContent: 'center',
     height: 50,
     borderRadius: 5,
-    marginBottom: 8
   }
 });
 

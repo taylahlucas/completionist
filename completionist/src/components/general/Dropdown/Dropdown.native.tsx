@@ -11,7 +11,7 @@ interface DropdownProps {
 
 const Dropdown = ({ header, children, isOpen, setOpen }: DropdownProps) => {
   return (
-    <View style={{ minWidth: Dimensions.get('window').width - 32 }}>
+    <View style={{ minWidth: Dimensions.get('window').width - 32, marginTop: 4, marginBottom: 4 }}>
       <Pressable onPress={(): void => setOpen(!isOpen)}>{header}</Pressable>
       <Condition condition={isOpen}>
         {children}
