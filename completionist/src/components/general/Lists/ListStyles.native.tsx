@@ -6,12 +6,12 @@ const listStyles = StyleSheet.create({
     alignSelf: 'center',
   },
   scrollableList: {
-    padding: 16,
+    padding: 16
   },
   selectableButton: {
     justifyContent: 'center',
     height: 50,
-    borderRadius: 10,
+    borderRadius: 5,
     marginBottom: 8
   }
 });

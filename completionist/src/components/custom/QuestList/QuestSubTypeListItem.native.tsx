@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
-import { Text } from 'react-native';
 import { getQuestsForSubCategory } from '../../../data/functions.native';
+import { QuestListSubItemContainer } from './QuestListStyledComponents.native';
+import useGetTheme from '../../../styles/hooks/useGetTheme';
 import Dropdown from '../../general/Dropdown/Dropdown.native';
+import StyledText from '../../general/Text/StyledText.native';
 import QuestListItem from './QuestListItem.native';
 
 export interface QuestListSubItemTypeProps {
@@ -10,17 +12,19 @@ export interface QuestListSubItemTypeProps {
 }
 
 const QuestSubTypeListItem = ({ category, type }: QuestListSubItemTypeProps) => {
+  const theme = useGetTheme();
   const [isOpen, setIsOpen] = useState(false);
-  const quests = getQuestsForSubCategory(category, type)
+  const quests = getQuestsForSubCategory(category, type === 'Main' ? '' : type);
 
   return (
     <Dropdown
       isOpen={isOpen}
       setOpen={() => setIsOpen(!isOpen)}
       header={
-        <Text style={{ color: 'red', padding: 8, marginLeft: 8 }}>{type}</Text>
+        <StyledText align={'left'} type={'ListItemSubTitle'} color={theme.lightGrey} style={{ padding: 16, marginLeft: 32 }}>{type}</StyledText>
       }
     >
+     <QuestListSubItemContainer>
       {quests?.map((quest, index) => (
         <QuestListItem 
           key={index}
@@ -29,7 +33,7 @@ const QuestSubTypeListItem = ({ category, type }: QuestListSubItemTypeProps) => 
           hold={quest.hold}
         />
       ))}
-
+      </QuestListSubItemContainer> 
     </Dropdown>
   );
 };

@@ -2,6 +2,7 @@ export type FontType =
   | 'Heading'
   | 'ListItemTitleBold'
   | 'ListItemSubTitleBold'
-  | 'ListItemSubTitle';
+  | 'ListItemSubTitle'
+  | 'ListItemSubDescription';
 
 export type AlignmentType = 'center' | 'left' | 'right';

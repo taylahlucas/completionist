@@ -1,7 +1,7 @@
 import React from 'react';
-import ScrollableList from '../../general/Lists/ScrollableList.native';
 import { getQuestCategories } from '../../../data/functions.native';
 import QuestMainListItem from './QuestMainListItem.native';
+import ScrollableList from '../../general/Lists/ScrollableList.native';
 
 const QuestList = () => {
   const questCategories = getQuestCategories();

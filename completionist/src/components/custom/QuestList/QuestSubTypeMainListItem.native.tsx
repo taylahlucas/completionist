@@ -1,5 +1,6 @@
 import React from 'react';
 import { getQuestsForCategory, getQuestsForSubCategory } from '../../../data/functions.native';
+import { QuestListSubItemContainer } from './QuestListStyledComponents.native';
 import QuestListItem from './QuestListItem.native';
 
 export interface QuestSubTypeMainListItemProps {
@@ -11,7 +12,7 @@ const QuestSubTypeMainListItem = ({ category, isSubCategory = false }: QuestSubT
   const quests = isSubCategory ? getQuestsForSubCategory(category) : getQuestsForCategory(category);
   
   return (
-    <>
+    <QuestListSubItemContainer>
       {quests?.map((quest, index) => (
         <QuestListItem 
           key={index}
@@ -20,7 +21,7 @@ const QuestSubTypeMainListItem = ({ category, isSubCategory = false }: QuestSubT
           hold={quest.hold}
         />
       ))}
-    </>
+    </QuestListSubItemContainer>
   );
 };
 

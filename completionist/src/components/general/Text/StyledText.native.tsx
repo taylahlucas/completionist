@@ -1,10 +1,9 @@
-import { Text } from 'react-native';
+import { Text, TextProps } from 'react-native';
 import { FontType, AlignmentType } from '../../../styles/Font/FontType';
 import defaultStyle from '../../../styles/Font/FontStyle';
 import useGetTheme from '../../../styles/hooks/useGetTheme';
 
-
-interface StyledTextProps {
+interface StyledTextProps extends TextProps {
   children: string;
   type?: FontType;
   color?: string;
@@ -17,12 +16,13 @@ const StyledText: React.FunctionComponent<StyledTextProps> = ({
   type = 'Heading', 
   color,
   style,
-  align = 'center'
+  align = 'center',
+  ...props
 }) => {
   const theme = useGetTheme();
   
   return (
-    <Text style={{ ...defaultStyle[type], ...defaultStyle[align], ...style, color: color ?? theme.midGrey }}>{children}</Text>
+    <Text numberOfLines={props.numberOfLines} ellipsizeMode='tail' style={{ ...defaultStyle[type], ...defaultStyle[align], ...style, color: color ?? theme.midGrey }}>{children}</Text>
   );
 };
 

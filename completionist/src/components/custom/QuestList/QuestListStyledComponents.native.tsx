@@ -1,17 +1,38 @@
+import { Dimensions } from 'react-native';
 import CheckBox from '@react-native-community/checkbox';
 import styled from 'styled-components/native';
+import StyledText from '../../general/Text/StyledText.native';
 
 interface QuestListItemStyleProps {
   color: string;
 }
 
+export const QuestListSubItemContainer = styled.View`
+  align-items: center;
+  padding-bottom: 16px;
+`;
+
+export const QuestListItemSubListHeader = styled(StyledText)`
+  padding: 8px;
+  margin-left: 16px;
+`;
+
 export const QuestListItemContainer = styled.View<QuestListItemStyleProps>`
   flex-direction: row;
-  align-items: center;
   border-radius: 5px;
   margin-top: 8px;
-  padding: 8px;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 50px;
+  width: ${() => Dimensions.get('window').width - 50}px;
   background-color: ${props => props.color};
+`;
+
+export const QuestListItemContentContainer = styled.View`
+  flex-direction: column;
+  padding-left: 16px;
+  justify-content: center;
+  width: ${() => Dimensions.get('window').width - 96}px;
 `;
 
 export const QuestListItemLocationContainer = styled.View`
@@ -20,16 +41,14 @@ export const QuestListItemLocationContainer = styled.View`
 
 export const QuestListItemTitle = styled.Text<QuestListItemStyleProps>`
   font-size: 16px;
-  padding-left: 16px;
+  flex-wrap: wrap;
   color: ${props => props.color};
-`;
-
-export const QuestListItemSubtitle = styled.Text`
-  color: lightgrey;
-  font-size: 12px;
+  padding-bottom: 8px;
+  padding-top: 8px;
 `;
 
 export const QuestListItemCheckBox = styled(CheckBox)`
   width: 30px;
   height: 30px;
+  margin-right: 16px;
 `;

@@ -33,6 +33,13 @@ export default StyleSheet.create({
     lineHeight: 22,
     fontWeight: REGULAR
   },
+  ListItemSubDescription: {
+    fontFamily: AVENIR_LIGHT,
+    fontSize: 12,
+    letterSpacing: 0.37,
+    lineHeight: 22,
+    fontWeight: REGULAR
+  },
   left: {
     textAlign: 'left'
   },
