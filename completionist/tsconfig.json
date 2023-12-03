@@ -3,5 +3,14 @@
   "compilerOptions": {
     "jsx": "react-native",
     "moduleSuffixes": [".android", ".ios", ""],
+    "baseUrl": "./",
+    "paths": {
+      "@components/*": ["src/components/*"],
+      "@data/*": ["src/data/*"],
+      "@navigation/*": ["src/navigation/*"],
+      "@screens/*": ["src/screens/*"],
+      "@styles/*": ["src/styles/*"],
+      "@utils/*": ["src/utils/*"],
+    }
   }
 }

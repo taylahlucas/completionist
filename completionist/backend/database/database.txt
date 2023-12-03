@@ -11,9 +11,6 @@ COLLECTABLES:
 // Books
 
 
-
-  
-
 id
 type
 subType
