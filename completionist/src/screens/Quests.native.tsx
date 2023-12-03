@@ -3,7 +3,7 @@ import StandardLayout from '../components/general/Layouts/StandardLayout.native'
 import QuestList from '../components/custom/QuestList/QuestList.native';
 import StyledText from '../components/general/Text/StyledText.native';
 
-const Home = () => {
+const Quests = () => {
   return (
     <StandardLayout>
       <StyledText>Quests</StyledText>
@@ -12,4 +12,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Quests;

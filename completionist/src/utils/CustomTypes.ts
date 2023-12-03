@@ -12,6 +12,20 @@ export interface SkyrimQuest {
   isComplete?: boolean;
 }
 
+export interface Location {
+  id: string;
+  name: string;
+  isComplete?: boolean;
+}
+
+export interface Collectable {
+  id: string;
+  type: string;
+  subType?: string;
+  name: string;
+  prerequisite?: string;
+}
+
 export interface NativeNavigation {
   navigate: (page: ScreenEnum, params?: any) => void;
   getCurrentScreenName: () => ScreenEnum | null;

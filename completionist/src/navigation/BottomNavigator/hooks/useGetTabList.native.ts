@@ -1,4 +1,5 @@
-import Home from '@screens/Home.native';
+import Quests from '@screens/Quests.native';
+import Locations from '@screens/Locations.native';
 import { ScreenEnum } from '@utils/CustomEnums';
 
 interface TabItemType {
@@ -14,21 +15,21 @@ const useGetTabList = (): TabItemType[] => {
       // icon: 'search',
       // iconType: IconTypeEnum.MaterialIcons,
       title: 'Quests',
-      screen: Home
+      screen: Quests
     },
     {
       id: ScreenEnum.Locations,
       // icon: 'format-list-bulleted',
       // iconType: IconTypeEnum.MaterialIcons,
       title: 'Locations',
-      screen: Home
+      screen: Locations
     },
     {
       id: ScreenEnum.Collectables,
       // icon: 'add-circle',
       // iconType: IconTypeEnum.MaterialIcons,
       title: 'Collectables',
-      screen: Home
+      screen: Quests
     },
   ]
 };

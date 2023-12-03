@@ -19,13 +19,13 @@ const QuestListItem = ({ title, location, hold, customStyle }: QuestListItemProp
   return (
     <QuestListItemContainer style={customStyle} color={theme.midGrey}>
       <QuestListItemContentContainer>
-        <QuestListItemTitle color={theme.lightestGrey}>{title}</QuestListItemTitle>
+        <QuestListItemTitle align={'left'} type={'ListItemSubTitle'} color={theme.lightestGrey}>{title}</QuestListItemTitle>
         <Condition condition={!!location || !!hold}>
           <QuestListItemLocationContainer>
             <StyledText 
               type={'ListItemSubDescription'} 
               color={theme.darkGrey}
-              ellipsizeMode={'clip'}
+              ellipsizeMode={'tail'}
               numberOfLines={1}
             >
               {locationString}

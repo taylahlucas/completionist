@@ -5,7 +5,6 @@ import ScrollableList from '../../general/Lists/ScrollableList.native';
 
 const QuestList = () => {
   const questCategories = getQuestCategories();
-  console.log(questCategories)
   
   return (
     <ScrollableList style={{ marginTop: 16 }}>

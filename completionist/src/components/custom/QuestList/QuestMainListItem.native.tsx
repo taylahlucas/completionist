@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import { getQuestSubCategories } from '../../../data/functions.native';
 import Condition from '../../general/Condition.native';
 import Dropdown from '../../general/Dropdown/Dropdown.native';
-import QuestListHeader from './QuestListHeader.native';
 import QuestSubListItem from './QuestSubListItem.native';
 import QuestSubTypeMainListItem from './QuestSubTypeMainListItem.native';
 import { QuestListSubListContainer } from './QuestListStyledComponents.native';
+import ListHeader from '@components/general/Lists/ListHeader.native';
 
 export interface QuestMainListItemProps {
   category: string;
@@ -20,7 +20,7 @@ const QuestMainListItem = ({ category }: QuestMainListItemProps) => {
       isOpen={isOpen}
       setOpen={() => setIsOpen(!isOpen)}
       header={
-        <QuestListHeader title={category} />
+        <ListHeader title={category} />
       }
     >
       <QuestListSubListContainer>

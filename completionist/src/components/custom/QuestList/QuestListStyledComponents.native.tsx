@@ -43,7 +43,7 @@ export const QuestListItemLocationContainer = styled.View`
   flex-direction: row;
 `;
 
-export const QuestListItemTitle = styled.Text<QuestListItemStyleProps>`
+export const QuestListItemTitle = styled(StyledText)<QuestListItemStyleProps>`
   font-size: 16px;
   flex-wrap: wrap;
   color: ${props => props.color};
