@@ -1,15 +1,7 @@
 
 Creation Club quests
+DLC Quetss
 Conflicting quests
-
-
-
-
-
-// DLC Quests
-COLLECTABLES:
-// Books
-
 
 id
 type
@@ -17,11 +9,71 @@ subType
 name
 prerequisite
 
+can you convert the following data to JSON with the structure, where value is the data given
 
-Can you do the same thing for the following data, where type is Armour Sets, subType is Unique Armour Sets, name is the given value and prerequisite is ""
+Locations & Books
+{
+  id: generated_uuid
+  name: string
+}
 
-can you do the same with the following data, replacing name with the given value and subType with Unique Armour Sets
+Collectables
+{
+  id: generated_uuid
+  type: string
+  subType?: string
+  name: string
+  prerequisite?: string
+}
 
-Bug in a Jar
+Quests
+{
+  id: generated_uuid
+  mainCategory: string
+  subCategory?: string
+  subCategoryType?: string
+  title: string
+  location?: string
+  hold?: string
+  href?: string
+}
 
 
+Can you do the same for the following data:
+
+Varieties of Daedra
+Varieties of Faith in the Empire
+Vernaccus and Bourlor
+
+Wabbajack
+Walking the World, Vol XI
+War of the First Council
+Warrior
+The Warrior's Charge
+Watcher Of Stones
+The Waters of Oblivion
+Where were you when the Dragon Broke?
+Whiterun Home Decorating Guide
+The Wild Elves
+Wind and Sand
+Wind and Sand
+Windhelm Home Decorating Guide
+The Windhelm Letters
+The Wispmother
+Withershins
+The Wolf Queen, Book I
+The Wolf Queen, Book II
+The Wolf Queen, Book III
+The Wolf Queen, Book IV
+The Wolf Queen, Book V
+The Wolf Queen, Book VI
+The Wolf Queen, Book VII
+The Wolf Queen, Book VIII
+The Woodcutter's Wife
+Words and Philosophy
+Words of Clan Mother Ahnissi
+Words of the Wind
+Wraith's Wedding Dowry
+
+Yellow Book of Riddles
+Yngol And The Sea-Ghosts

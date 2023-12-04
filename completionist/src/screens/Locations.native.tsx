@@ -1,12 +1,12 @@
 import React from 'react';
 import StandardLayout from '@components/general/Layouts/StandardLayout.native';
-import StyledText from '@components/general/Text/StyledText.native';
 import LocationList from '@components/custom/LocationList/LocationsList.native';
+import NavigationHeader from '@navigation/NavigationHeader.native';
 
 const Locations = () => {
   return (
     <StandardLayout>
-      <StyledText>Locations</StyledText>
+      <NavigationHeader title={'Locations'} />
       <LocationList />
     </StandardLayout>
   );

@@ -1,12 +1,12 @@
 import React from 'react';
 import StandardLayout from '@components/general/Layouts/StandardLayout.native';
-import StyledText from '@components/general/Text/StyledText.native';
 import CollectableList from '@components/custom/CollectableList/CollectableList.native';
+import NavigationHeader from '@navigation/NavigationHeader.native';
 
 const Collectables = () => {
   return (
     <StandardLayout>
-      <StyledText>Collectables</StyledText>
+      <NavigationHeader title={'Collectables'} />
       <CollectableList />
     </StandardLayout>
   );

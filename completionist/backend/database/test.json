@@ -1,0 +1,14 @@
+{
+  "getCurrentScreenName": [Function getCurrentScreenName
+  ],
+  "getParent": [Function getParent
+  ],
+  "goBack": [Function goBack
+  ],
+  "navigate": [Function navigate
+  ],
+  "openDrawer": [Function openDrawer
+  ],
+  "setOptions": [Function setOptions
+  ]
+}
