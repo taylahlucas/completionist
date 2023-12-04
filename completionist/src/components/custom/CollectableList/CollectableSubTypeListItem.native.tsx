@@ -14,18 +14,14 @@ export interface CollectableSubTypeListItemProps {
 
 const CollectableSubTypeListItem = ({ category, type }: CollectableSubTypeListItemProps) => {
   const theme = useGetTheme();
-  const { searchValue } = useMainState();
+  const { searchValue, showSearchResults} = useMainState();
   const { getCollectablesForSubCategory } = useGetCollectables();
   const [isOpen, setIsOpen] = useState(searchValue.length >= 3);
   const collectables = getCollectablesForSubCategory(category, type === 'Main' ? '' : type);
-  
-  useEffect(() => {
-    setIsOpen(searchValue.length >= 3)
-  }, [searchValue])
 
   return (
     <Dropdown
-      isOpen={isOpen}
+    isOpen={isOpen || showSearchResults}
       setOpen={() => setIsOpen(!isOpen)}
       header={
         <StyledText align={'left'} type={'ListItemSubTitleBold'} color={theme.lightGrey} style={{ padding: 16, marginLeft: 32 }}>{type}</StyledText>

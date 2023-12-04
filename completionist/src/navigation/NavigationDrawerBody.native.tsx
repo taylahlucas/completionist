@@ -8,31 +8,31 @@ import useMainDispatch from 'src/redux/hooks/useMainDispatch.native';
 
 const NavigationDrawerBody: React.FunctionComponent = () => {
   const navigation = useReactNavigation();
-  const { setSearchValue } = useMainDispatch();
+  const { reset, setSearchValue, triggerShowSearchResults } = useMainDispatch();
 
   return (
     <NavigationDrawerBodyContainer>
       <Pressable onPress={(): void => {
         navigation.navigate(ScreenEnum.Quests)
-        setSearchValue('');
+        reset();
       }}>
         <StyledText>Quests</StyledText>
       </Pressable>
       <Pressable onPress={(): void => {
         navigation.navigate(ScreenEnum.Collectables)
-        setSearchValue('');
+        reset();
       }}>
         <StyledText>Collectables</StyledText>
       </Pressable>
       <Pressable onPress={(): void => {
         navigation.navigate(ScreenEnum.Books)
-        setSearchValue('');
+        reset();
       }}>
         <StyledText>Books</StyledText>
       </Pressable>
       <Pressable onPress={(): void => {
         navigation.navigate(ScreenEnum.Locations)
-        setSearchValue('');
+        reset();
       }}>
         <StyledText>Locations</StyledText>
       </Pressable>

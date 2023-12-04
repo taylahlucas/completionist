@@ -15,18 +15,14 @@ export interface CollectableMainListItemProps {
 }
 
 const CollectableMainListItem = ({ category }: CollectableMainListItemProps) => {
-  const { searchValue } = useMainState();
+  const { searchValue, showSearchResults } = useMainState();
   const [isOpen, setIsOpen] = useState(searchValue.length >= 3);
   const subCategories = getCollectableSubCategories(category);
   const { getCollectablesForSubCategory, getCollectablesForCategory } = useGetCollectables();
 
-  useEffect(() => {
-    setIsOpen(searchValue.length >= 3)
-  }, [searchValue])
-
   return (
     <Dropdown
-      isOpen={isOpen}
+      isOpen={isOpen || showSearchResults}
       setOpen={() => setIsOpen(!isOpen)}
       header={
         <ListHeader title={category} />

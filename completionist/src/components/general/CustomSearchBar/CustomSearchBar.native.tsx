@@ -3,6 +3,7 @@ import { View, TextInput } from 'react-native';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import { styles } from './CustomSearchBarStyles.native';
 import useMainDispatch from 'src/redux/hooks/useMainDispatch.native';
+import useMainState from 'src/redux/hooks/useMainState.native';
 
 export interface CustomSearchBarProps {
   placeholder?: string;
@@ -11,6 +12,7 @@ export interface CustomSearchBarProps {
 const CustomSearchBar = ({ placeholder = 'Search items...' }: CustomSearchBarProps): JSX.Element => {
   const theme = useGetTheme();
   const { setSearchValue } = useMainDispatch();
+  const { searchValue } = useMainState();
   
   // TODO: Add cancel button and search icon
   return (
@@ -20,6 +22,7 @@ const CustomSearchBar = ({ placeholder = 'Search items...' }: CustomSearchBarPro
         style={{...styles.textInput, color: theme.lightGrey }}
         placeholder={placeholder}
         placeholderTextColor={theme.midGrey}
+        value={searchValue}
         onChange={(event): void => setSearchValue(event.nativeEvent.text ?? '')}
       />
     </View>

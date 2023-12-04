@@ -15,20 +15,15 @@ export interface QuestListSubItemTypeProps {
 
 const QuestSubTypeListItem = ({ category, type }: QuestListSubItemTypeProps) => {
   const theme = useGetTheme();
-  const { searchValue } = useMainState();
+  const { searchValue, showSearchResults } = useMainState();
   const [isOpen, setIsOpen] = useState(searchValue.length >= 3);
   const { getQuestsForSubCategory } = useGetQuests();
   const quests = getQuestsForSubCategory(category, type === 'Main' ? '' : type);
-  
-  // TODO: Refactor this
-  useEffect(() => {
-    setIsOpen(searchValue.length >= 3)
-  }, [searchValue])
 
   return (
     <Condition condition={quests.length > 0}>
       <Dropdown
-        isOpen={isOpen}
+        isOpen={showSearchResults || isOpen}
         setOpen={() => setIsOpen(!isOpen)}
         header={
           <StyledText align={'left'} type={'ListItemSubTitleBold'} color={theme.lightGrey} style={{ padding: 16, marginLeft: 32 }}>{type}</StyledText>

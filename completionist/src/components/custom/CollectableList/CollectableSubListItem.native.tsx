@@ -10,16 +10,12 @@ export interface CollectableSubListItemProps {
 }
 
 const CollectableSubListItem = ({ mainType, subType }: CollectableSubListItemProps) => {
-  const { searchValue } = useMainState();
+  const { searchValue, showSearchResults } = useMainState();
   const [isOpen, setIsOpen] = useState(searchValue.length >= 3);
-
-  useEffect(() => {
-    setIsOpen(searchValue.length >= 3)
-  }, [searchValue])
 
   return (
     <Dropdown
-      isOpen={isOpen}
+      isOpen={isOpen || showSearchResults}
       setOpen={() => setIsOpen(!isOpen)}
       header={
         <CollectableListItemSubListHeader type={'ListItemSubTitleBold'} align={'left'}>{subType}</CollectableListItemSubListHeader>

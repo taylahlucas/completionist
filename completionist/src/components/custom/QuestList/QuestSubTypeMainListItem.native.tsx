@@ -11,7 +11,6 @@ export interface QuestSubTypeMainListItemProps {
 const QuestSubTypeMainListItem = ({ category, isSubCategory = false }: QuestSubTypeMainListItemProps) => {
   const { getQuestsForSubCategory, getQuestsForCategory} = useGetQuests();
   const quests = isSubCategory ? getQuestsForSubCategory(category) : getQuestsForCategory(category);
-  console.log("HERE: ", quests)
   
   return (
     <QuestListSubItemContainer>

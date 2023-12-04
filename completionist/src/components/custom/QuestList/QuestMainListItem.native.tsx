@@ -14,18 +14,14 @@ export interface QuestMainListItemProps {
 }
 
 const QuestMainListItem = ({ category }: QuestMainListItemProps) => {
-  const { searchValue } = useMainState();
+  const { searchValue, showSearchResults } = useMainState();
   const { getQuestsForSubCategory } = useGetQuests();
   const [isOpen, setIsOpen] = useState(searchValue.length >= 3);
   const subCategories = getQuestSubCategories(category);
 
-  useEffect(() => {
-    setIsOpen(searchValue.length >= 3)
-  }, [searchValue])
-
   return (
     <Dropdown
-      isOpen={isOpen}
+      isOpen={showSearchResults || isOpen}
       setOpen={() => setIsOpen(!isOpen)}
       header={
         <ListHeader title={category} />
