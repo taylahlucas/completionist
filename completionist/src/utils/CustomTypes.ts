@@ -19,6 +19,12 @@ export interface Location {
   isComplete?: boolean;
 }
 
+export interface Book {
+  id: string;
+  name: string;
+  isComplete?: boolean;
+}
+
 export interface Collectable {
   id: string;
   type: string;
@@ -30,6 +36,7 @@ export interface Collectable {
 export type RootDrawerParamList = {
   Quests: undefined;
   Collectables: undefined;
+  Books: undefined;
   Locations: undefined;
 };
 

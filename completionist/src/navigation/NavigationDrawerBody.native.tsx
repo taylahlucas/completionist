@@ -16,6 +16,9 @@ const NavigationDrawerBody: React.FunctionComponent = () => {
       <Pressable onPress={(): void => navigation.navigate(ScreenEnum.Collectables)}>
         <StyledText>Collectables</StyledText>
       </Pressable>
+      <Pressable onPress={(): void => navigation.navigate(ScreenEnum.Books)}>
+        <StyledText>Books</StyledText>
+      </Pressable>
       <Pressable onPress={(): void => navigation.navigate(ScreenEnum.Locations)}>
         <StyledText>Locations</StyledText>
       </Pressable>

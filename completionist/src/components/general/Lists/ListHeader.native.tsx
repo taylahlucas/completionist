@@ -1,6 +1,6 @@
 import { View } from 'react-native';
 import useGetTheme from '@styles/hooks/useGetTheme';
-import listStyles from '@components/general/Lists/ListStyles.native';
+import { listStyles } from '@components/general/Lists/ListStyledComponents.native';
 import StyledText from '@components/general/Text/StyledText.native';
 
 interface ListHeaderProps {

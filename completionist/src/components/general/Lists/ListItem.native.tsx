@@ -1,35 +1,34 @@
 import React, { useState } from 'react';
 import useGetTheme from '../../../styles/hooks/useGetTheme';
-import StyledText from '../../general/Text/StyledText.native';
-import { LocationListItemContainer, LocationListItemCheckBox, LocationListItemTitle } from './LocationListStyledComponents.native';
+import StyledText from '../Text/StyledText.native';
+import { ListItemContainer, ListItemCheckBox, ListItemTitle } from './ListStyledComponents.native';
 
-interface LocationListItemProps {
+interface ListItemProps {
   name: string;
 }
 
-const LocationListItem = ({ name }: LocationListItemProps) => {
+const ListItem = ({ name }: ListItemProps) => {
   const theme = useGetTheme();
   const [toggle, setToggle] = useState<boolean>(false);
 
   return (
-    <LocationListItemContainer color={theme.midGrey}>
-      <LocationListItemTitle 
+    <ListItemContainer color={theme.midGrey}>
+      <ListItemTitle
         align={'left'}
         type={'ListItemSubTitle'} 
         ellipsizeMode={'tail'}
         numberOfLines={1}
-
         color={theme.lightestGrey}
       >
         {name}
-      </LocationListItemTitle>
-      <LocationListItemCheckBox
+      </ListItemTitle>
+      <ListItemCheckBox
         disabled={false}
         value={toggle}
         onValueChange={(): void => setToggle(!toggle)}
       />
-    </LocationListItemContainer>
+    </ListItemContainer>
   );
 };
 
-export default LocationListItem;
+export default ListItem;

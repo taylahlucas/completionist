@@ -27,7 +27,7 @@ export const QuestListItemContainer = styled.View<QuestListItemStyleProps>`
   margin-top: 8px;
   align-items: center;
   justify-content: space-between;
-  min-height: 50px;
+  height: 50px;
   width: ${() => Dimensions.get('window').width - 50}px;
   background-color: ${props => props.color};
 `;
@@ -47,8 +47,6 @@ export const QuestListItemTitle = styled(StyledText)<QuestListItemStyleProps>`
   font-size: 16px;
   flex-wrap: wrap;
   color: ${props => props.color};
-  padding-bottom: 8px;
-  padding-top: 8px;
 `;
 
 export const QuestListItemCheckBox = styled(CheckBox)`
