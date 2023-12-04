@@ -100,21 +100,21 @@
   {
     "id": "a5a77a8d-3d55-4db1-b9f3-2c065b8b98f1",
     "type": "Daedric Artefacts",
-    "subType": "Weapon",
+    "subType": "Weapons",
     "name": "The Black Star",
     "prerequisite": "Complete Artefact"
   },
   {
     "id": "7262c22c-4a8d-41fc-8d8d-8463a6f7af63",
     "type": "Daedric Artefacts",
-    "subType": "Weapon",
+    "subType": "Weapons",
     "name": "Dawnbreaker",
     "prerequisite": "Complete The Break Of Dawn"
   },
   {
     "id": "ef450f91-574a-4929-9ef3-1a2ea3e4d765",
     "type": "Daedric Artefacts",
-    "subType": "Weapon",
+    "subType": "Weapons",
     "name": "Ebony Blade",
     "prerequisite": "Complete The Whispering Door"
   },
@@ -128,7 +128,7 @@
   {
     "id": "5d849b86-9a13-4a8e-b72b-5a81a3ce4d2c",
     "type": "Daedric Artefacts",
-    "subType": "Weapon",
+    "subType": "Weapons",
     "name": "Mace of Molag Bal",
     "prerequisite": "Complete The House of Horrors"
   },
@@ -142,14 +142,14 @@
   {
     "id": "ac83c8da-dab9-4c3c-b95e-aa34602854c0",
     "type": "Daedric Artefacts",
-    "subType": "Weapon",
+    "subType": "Weapons",
     "name": "Mehrunes' Razor",
     "prerequisite": "Complete Pieces of the Past"
   },
   {
     "id": "3d4332fc-61fb-4955-9840-c22ccf615167",
     "type": "Daedric Artefacts",
-    "subType": "Artefact",
+    "subType": "Artefacts",
     "name": "Oghma Infinium",
     "prerequisite": "Complete Discerning the Transmundane"
   },
@@ -163,7 +163,7 @@
   {
     "id": "2b413f67-62e9-4a2c-afab-5d46a9bb6f98",
     "type": "Daedric Artefacts",
-    "subType": "Weapon",
+    "subType": "Weapons",
     "name": "Sanguine Rose",
     "prerequisite": "Complete A Night to Remember"
   },
@@ -177,14 +177,14 @@
   {
     "id": "0a9520b1-057c-4d62-9c43-0c11c7e9ed9f",
     "type": "Daedric Artefacts",
-    "subType": "Artefact",
+    "subType": "Artefacts",
     "name": "Skeleton Key",
     "prerequisite": "Complete Blindsighted"
   },
   {
     "id": "72f6468b-3699-4e7d-a751-2f13f60a6970",
     "type": "Daedric Artefacts",
-    "subType": "Weapon",
+    "subType": "Weapons",
     "name": "Skull of Corruption",
     "prerequisite": "Complete Waking Nightmare"
   },
@@ -198,14 +198,14 @@
   {
     "id": "25a0287a-ef49-4e4c-97eb-010729ed35b9",
     "type": "Daedric Artefacts",
-    "subType": "Weapon",
+    "subType": "Weapons",
     "name": "Volendrung",
     "prerequisite": "Complete The Cursed Tribe"
   },
   {
     "id": "af0e2a23-5e19-4c12-a4f7-103cf3c079c8",
     "type": "Daedric Artefacts",
-    "subType": "Weapon",
+    "subType": "Weapons",
     "name": "Wabbajack",
     "prerequisite": "Complete The Mind of Madness"
   },
@@ -264,14 +264,6 @@
     "type": "Bug in a Jar",
     "subType": "",
     "name": "Torchbug in a Jar",
-    "prerequisite": ""
-  },
-
-  {
-    "id": "f26c96a3-4a5a-4a1b-b42e-1b874636a0c1",
-    "type": "Shouts",
-    "subType": "Unrelenting Force",
-    "name": "Fus",
     "prerequisite": ""
   },
   {
@@ -503,20 +495,6 @@
     "type": "Shouts",
     "subType": "Dragon Aspect",
     "name": "Diiv",
-    "prerequisite": ""
-  },
-  {
-    "id": "25a7c336-37b8-4d9c-bd6f-35b769d5d874",
-    "type": "Shouts",
-    "subType": "Dragon Aspect (Mir)",
-    "name": "Mir",
-    "prerequisite": ""
-  },
-  {
-    "id": "25a7c336-37b8-4d9c-bd6f-35b769d5d874",
-    "type": "Shouts",
-    "subType": "Dragon Aspect (Tiid)",
-    "name": "Tiid",
     "prerequisite": ""
   },
   {

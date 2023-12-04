@@ -3,6 +3,8 @@ import { getQuestSubCategoriesTypes } from '../../../data/functions.native';
 import Dropdown from '../../general/Dropdown/Dropdown.native';
 import QuestSubTypeListItem from './QuestSubTypeListItem.native';
 import { QuestListItemSubListHeader } from './QuestListStyledComponents.native';
+import Condition from '@components/general/Condition.native';
+import QuestSubTypeMainListItem from './QuestSubTypeMainListItem.native';
 
 export interface QuestSubListItemProps {
   category: string;
@@ -20,8 +22,15 @@ const QuestSubListItem = ({ category }: QuestSubListItemProps) => {
         <QuestListItemSubListHeader type={'ListItemSubTitleBold'} align={'left'}>{category}</QuestListItemSubListHeader>
       }
     >
-      <QuestSubTypeListItem category={category} type={'Main'} />
-      {subCategoryTypes?.map((type, index) => {
+      <Condition 
+        condition={subCategoryTypes.length > 0}
+        conditionalElement={
+          <QuestSubTypeMainListItem category={category} isSubCategory={true} />
+        }  
+      >
+        <QuestSubTypeListItem category={category} type={'Main'} />
+      </Condition>
+      {subCategoryTypes?.map((type) => {
         return (
           <QuestSubTypeListItem category={category} type={type} />
         )

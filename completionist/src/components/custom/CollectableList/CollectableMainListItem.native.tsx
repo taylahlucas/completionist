@@ -2,8 +2,6 @@ import React, { useState } from 'react';
 import { getCollectableSubCategories } from '@data/functions.native';
 import Condition from '@components/general/Condition.native';
 import Dropdown from '@components/general/Dropdown/Dropdown.native';
-// import QuestSubListItem from './QuestSubListItem.native';
-// import QuestSubTypeMainListItem from './QuestSubTypeMainListItem.native';
 import { CollectableListSubListContainer } from './CollectableListStyledComponents.native';
 import ListHeader from '@components/general/Lists/ListHeader.native';
 import CollectableSubListItem from './CollectableSubListItem.native';
@@ -28,10 +26,10 @@ const CollectableMainListItem = ({ category }: CollectableMainListItemProps) => 
     >
       <CollectableListSubListContainer>
         {subCategories.map((subCategory, index) => 
-          <CollectableSubListItem key={index} category={subCategory} />
+          <CollectableSubListItem key={index} mainType={category} subType={subCategory} />
         )}
         <Condition condition={subCategories.length === 0}>
-          <CollectableSubTypeMainListItem type={category} />
+          <CollectableSubTypeMainListItem mainType={category} />
         </Condition>
       </CollectableListSubListContainer>
     </Dropdown>

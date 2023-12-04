@@ -4,7 +4,7 @@ import { CollectableListSubItemContainer } from './CollectableListStyledComponen
 import useGetTheme from '../../../styles/hooks/useGetTheme';
 import Dropdown from '../../general/Dropdown/Dropdown.native';
 import StyledText from '../../general/Text/StyledText.native';
-import CollectableListItem from './QuestListItem.native';
+import CollectableListItem from './CollectableListItem.native';
 
 export interface CollectableSubTypeListItemProps {
   category: string;

@@ -1,15 +1,16 @@
 import React from 'react';
 import { getCollectablesForSubCategory, getCollectablesForCategory } from '@data/functions.native';
 import { CollectableListSubItemContainer } from './CollectableListStyledComponents.native';
-import CollectableListItem from './QuestListItem.native';
+import CollectableListItem from './CollectableListItem.native';
 
 export interface CollectableSubTypeMainListItemProps {
-  type: string;
+  mainType: string;
+  subType?: string;
   isSubCategory?: boolean;
 }
 
-const CollectableSubTypeMainListItem = ({ type, isSubCategory = false }: CollectableSubTypeMainListItemProps) => {
-  const collectables = isSubCategory ? getCollectablesForSubCategory(type) : getCollectablesForCategory(type);
+const CollectableSubTypeMainListItem = ({ mainType, subType, isSubCategory = false }: CollectableSubTypeMainListItemProps) => {
+  const collectables = isSubCategory ? getCollectablesForSubCategory(mainType, subType) : getCollectablesForCategory(mainType);
   
   return (
     <CollectableListSubItemContainer>

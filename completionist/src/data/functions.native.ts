@@ -90,3 +90,17 @@ export const getCollectablesForCategory = (type: string): Collectable[] => {
 export const getCollectablesForSubCategory = (type: string, subType: string = ''): Collectable[] => {
   return mappedCollectables.filter(collectable => collectable.type === type && collectable.subType === subType);
 }
+
+// TODO: Is this used?
+export const getCollectablesSubCategoriesTypes = (subType: string): string[] => {
+  const filteredCollectables = mappedCollectables.filter(quest => quest.subType === subType);
+  let collectableSubCategoryTypes: string[] = [];
+  filteredCollectables.map(collectable => {
+    if (!collectableSubCategoryTypes.find(item => item === collectable.subType)) {
+      if (!!collectable.subType) {
+        collectableSubCategoryTypes.push(collectable.subType);
+      }
+    }
+  })
+  return collectableSubCategoryTypes;
+}
