@@ -1,5 +1,6 @@
 import { ScreenEnum } from './CustomEnums';
 import { NavigationAction, NavigationState, RouteProp } from '@react-navigation/native';
+import { MainState } from '../redux/MainState.native';
 
 export interface SkyrimQuest {
   id: string;
@@ -46,4 +47,8 @@ export interface NativeNavigation {
   getCurrentScreenName: () => ScreenEnum | null;
   goBack: () => void;
   setOptions: (options: any) => void;
+}
+
+export interface StoreState {
+  main: MainState;
 }

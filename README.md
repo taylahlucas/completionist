@@ -29,6 +29,11 @@ npx react-native run-ios --port 8002
 - @react-native-community/checkbox
 - babel-plugin-module-resolver
 
+- react-redux
+- @reduxjs/toolkit
+- redux-logger && @types/redux-logger
+- react-dom
+
 
 ## Backend
 

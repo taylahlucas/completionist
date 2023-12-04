@@ -1,16 +1,18 @@
 import React from 'react';
+import { Provider } from 'react-redux';
 import { NavigationContainer } from '@react-navigation/native';
-import Quests from './src/screens/Quests.native';
-import Locations from '@screens/Locations.native';
-import Collectables from '@screens/Collectables.native';
 import NavigationDrawer from '@navigation/NavigationDrawer.native';
+import configureStore from './src/redux/store.native';
+
+const store = configureStore;
 
 const App = () => {
   return (
-    <NavigationContainer>
-      {/* <Collectables /> */}
-      <NavigationDrawer title={'Skyrim'} />
-    </NavigationContainer>
+    <Provider store={store}>
+      <NavigationContainer>
+        <NavigationDrawer />
+      </NavigationContainer>
+    </Provider>
   )
 };
 

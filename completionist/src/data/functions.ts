@@ -14,8 +14,8 @@ export const mapDataToCollectables = (): Collectable[] => {
   })
 };
 
-const mappedQuests: SkyrimQuest[] = mapDataToQuests();
-const mappedCollectables: Collectable[] = mapDataToCollectables();
+export const mappedQuests: SkyrimQuest[] = mapDataToQuests();
+export const mappedCollectables: Collectable[] = mapDataToCollectables();
 
 export const getQuestCategories = (): string[] => {
   let questCategories: string[] = [];
@@ -53,14 +53,6 @@ export const getQuestSubCategoriesTypes = (subCategory: string): string[] => {
   return questSubCategoryTypes;
 }
 
-export const getQuestsForSubCategory = (subCategory: string, subCategoryType: string = ''): SkyrimQuest[] => {
-  return mappedQuests.filter(quest => quest.subCategory === subCategory && quest.subCategoryType === subCategoryType);
-}
-
-export const getQuestsForCategory = (mainCategory: string): SkyrimQuest[] => {
-  return mappedQuests.filter(quest => quest.mainCategory === mainCategory);
-}
-
 export const getCollectableCategories = (): string[] => {
   let collectableCategories: string[] = [];
   mappedCollectables.map(collectable => {
@@ -81,14 +73,6 @@ export const getCollectableSubCategories = (category: string): string[] => {
     }
   })
   return collectableSubCategories;
-}
-
-export const getCollectablesForCategory = (type: string): Collectable[] => {
-  return mappedCollectables.filter(collectable => collectable.type === type);
-}
-
-export const getCollectablesForSubCategory = (type: string, subType: string = ''): Collectable[] => {
-  return mappedCollectables.filter(collectable => collectable.type === type && collectable.subType === subType);
 }
 
 // TODO: Is this used?

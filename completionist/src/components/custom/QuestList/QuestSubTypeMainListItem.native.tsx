@@ -1,7 +1,7 @@
 import React from 'react';
-import { getQuestsForCategory, getQuestsForSubCategory } from '../../../data/functions.native';
 import { QuestListSubItemContainer } from './QuestListStyledComponents.native';
 import QuestListItem from './QuestListItem.native';
+import useGetQuests from './hooks/useGetQuests.native';
 
 export interface QuestSubTypeMainListItemProps {
   category: string;
@@ -9,7 +9,9 @@ export interface QuestSubTypeMainListItemProps {
 }
 
 const QuestSubTypeMainListItem = ({ category, isSubCategory = false }: QuestSubTypeMainListItemProps) => {
+  const { getQuestsForSubCategory, getQuestsForCategory} = useGetQuests();
   const quests = isSubCategory ? getQuestsForSubCategory(category) : getQuestsForCategory(category);
+  console.log("HERE: ", quests)
   
   return (
     <QuestListSubItemContainer>

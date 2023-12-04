@@ -1,10 +1,11 @@
-import React, { useState } from 'react';
-import { getCollectablesForSubCategory, } from '../../../data/functions.native';
+import React, { useEffect, useState } from 'react';
 import { CollectableListSubItemContainer } from './CollectableListStyledComponents.native';
 import useGetTheme from '../../../styles/hooks/useGetTheme';
 import Dropdown from '../../general/Dropdown/Dropdown.native';
 import StyledText from '../../general/Text/StyledText.native';
 import CollectableListItem from './CollectableListItem.native';
+import useGetCollectables from './hooks/useGetColletables.native';
+import useMainState from 'src/redux/hooks/useMainState.native';
 
 export interface CollectableSubTypeListItemProps {
   category: string;
@@ -13,8 +14,14 @@ export interface CollectableSubTypeListItemProps {
 
 const CollectableSubTypeListItem = ({ category, type }: CollectableSubTypeListItemProps) => {
   const theme = useGetTheme();
-  const [isOpen, setIsOpen] = useState(false);
+  const { searchValue } = useMainState();
+  const { getCollectablesForSubCategory } = useGetCollectables();
+  const [isOpen, setIsOpen] = useState(searchValue.length >= 3);
   const collectables = getCollectablesForSubCategory(category, type === 'Main' ? '' : type);
+  
+  useEffect(() => {
+    setIsOpen(searchValue.length >= 3)
+  }, [searchValue])
 
   return (
     <Dropdown

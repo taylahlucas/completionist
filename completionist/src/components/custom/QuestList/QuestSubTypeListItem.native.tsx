@@ -1,11 +1,12 @@
-import React, { useState } from 'react';
-import { getQuestsForSubCategory } from '../../../data/functions.native';
+import React, { useState, useEffect } from 'react';
 import { QuestListSubItemContainer } from './QuestListStyledComponents.native';
 import useGetTheme from '../../../styles/hooks/useGetTheme';
 import Dropdown from '../../general/Dropdown/Dropdown.native';
 import StyledText from '../../general/Text/StyledText.native';
 import QuestListItem from './QuestListItem.native';
 import Condition from '@components/general/Condition.native';
+import useGetQuests from './hooks/useGetQuests.native';
+import useMainState from 'src/redux/hooks/useMainState.native';
 
 export interface QuestListSubItemTypeProps {
   category: string;
@@ -14,8 +15,15 @@ export interface QuestListSubItemTypeProps {
 
 const QuestSubTypeListItem = ({ category, type }: QuestListSubItemTypeProps) => {
   const theme = useGetTheme();
-  const [isOpen, setIsOpen] = useState(false);
+  const { searchValue } = useMainState();
+  const [isOpen, setIsOpen] = useState(searchValue.length >= 3);
+  const { getQuestsForSubCategory } = useGetQuests();
   const quests = getQuestsForSubCategory(category, type === 'Main' ? '' : type);
+  
+  // TODO: Refactor this
+  useEffect(() => {
+    setIsOpen(searchValue.length >= 3)
+  }, [searchValue])
 
   return (
     <Condition condition={quests.length > 0}>

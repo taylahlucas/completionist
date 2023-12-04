@@ -1,19 +1,27 @@
-import React, { useState } from 'react';
-import { getQuestSubCategories } from '../../../data/functions.native';
+import React, { useEffect, useState } from 'react';
+import { getQuestSubCategories } from '../../../data/functions';
 import Condition from '../../general/Condition.native';
 import Dropdown from '../../general/Dropdown/Dropdown.native';
 import QuestSubListItem from './QuestSubListItem.native';
 import QuestSubTypeMainListItem from './QuestSubTypeMainListItem.native';
 import { QuestListSubListContainer } from './QuestListStyledComponents.native';
 import ListHeader from '@components/general/Lists/ListHeader.native';
+import useGetQuests from './hooks/useGetQuests.native';
+import useMainState from 'src/redux/hooks/useMainState.native';
 
 export interface QuestMainListItemProps {
   category: string;
 }
 
 const QuestMainListItem = ({ category }: QuestMainListItemProps) => {
-  const [isOpen, setIsOpen] = useState(false);
+  const { searchValue } = useMainState();
+  const { getQuestsForSubCategory } = useGetQuests();
+  const [isOpen, setIsOpen] = useState(searchValue.length >= 3);
   const subCategories = getQuestSubCategories(category);
+
+  useEffect(() => {
+    setIsOpen(searchValue.length >= 3)
+  }, [searchValue])
 
   return (
     <Dropdown
@@ -24,8 +32,10 @@ const QuestMainListItem = ({ category }: QuestMainListItemProps) => {
       }
     >
       <QuestListSubListContainer>
-        {subCategories.map((subCategory, index) => 
-          <QuestSubListItem key={index} category={subCategory} />
+        {subCategories.map((subCategory, index) =>
+          <Condition key={index} condition={getQuestsForSubCategory(subCategory).length > 0}>
+            <QuestSubListItem key={index} category={subCategory} />
+          </Condition>
         )}
         <Condition condition={subCategories.length === 0}>
           <QuestSubTypeMainListItem category={category} />
