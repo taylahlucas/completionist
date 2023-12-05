@@ -1,5 +1,4 @@
 import { Dimensions, StyleSheet } from 'react-native';
-import CheckBox from '@react-native-community/checkbox';
 import styled from 'styled-components/native';
 import StyledText from '../../general/Text/StyledText.native';
 
@@ -33,11 +32,6 @@ export const ListItemContainer = styled.View<ListItemStyleProps>`
   background-color: ${props => props.color};
 `;
 
-export const ListItemCheckBox = styled(CheckBox)`
-  width: 30px;
-  height: 30px;
-  margin-right: 16px;
-`;
 export const ListItemTitle = styled(StyledText)<ListItemStyleProps>`
   font-size: 16px;
   flex-wrap: wrap;

@@ -10,12 +10,13 @@ const LocationList = () => {
   const { searchValue } = useMainState();
   const getFormattedSearchString = useSearchStringFormatter();
   const filteredLocations: Location[] = locations.filter(location => getFormattedSearchString(location.name).includes(getFormattedSearchString(searchValue)));
-
+  const totalLocations: number = filteredLocations.length;
+  const completedLocations: number = 0;
   // TODO: Add custom mapping for locations
   return (
     <ScrollableList style={{ marginTop: 16 }}>
       {filteredLocations.map((location: Location, index: number) => (
-        <ListItem key={index} name={location.name} />
+        <ListItem key={index} name={location.name} action={() => null} />
       ))}
     </ScrollableList>
   );

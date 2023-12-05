@@ -48,9 +48,3 @@ export const QuestListItemTitle = styled(StyledText)<QuestListItemStyleProps>`
   flex-wrap: wrap;
   color: ${props => props.color};
 `;
-
-export const QuestListItemCheckBox = styled(CheckBox)`
-  width: 30px;
-  height: 30px;
-  margin-right: 16px;
-`;

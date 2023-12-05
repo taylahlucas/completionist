@@ -25,6 +25,7 @@ export const NavigationHeaderContainer = styled.View`
 export const NavigationHeaderMenuButton = styled.Pressable`
   position: absolute;
   align-items: center;
+  justfy-content: center;
   margin-left: 16px;
   z-index: 2;
 `;
@@ -32,12 +33,13 @@ export const NavigationHeaderMenuButton = styled.Pressable`
 export const NavigationHeaderMenuIcon = styled(Icon)`
   position: absolute;
   z-index: 1;
+  margin-top: 2px;
 `;
 
 export const NavigationHeaderMenuButtonBg = styled.View<NavigationHeaderProps>`
   width: 40px;
   height: 40px;
-  border-radius: 10px;
+  border-radius: 5px;
   background-color: ${(props): string => props.color};
 `;
 

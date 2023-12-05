@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import useMainState from 'src/redux/hooks/useMainState.native';
 import Dropdown from '../../general/Dropdown/Dropdown.native';
 import { CollectableListItemSubListHeader } from './CollectableListStyledComponents.native';

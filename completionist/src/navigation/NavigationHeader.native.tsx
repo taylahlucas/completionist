@@ -22,13 +22,12 @@ const NavigationHeader = ({ title }: NavigationHeaderProps) => {
       <NavigationHeaderMenuButton 
         onPress={(): void => navigation.dispatch(DrawerActions.openDrawer())}
       >
-        <NavigationHeaderMenuIcon 
-          style={{ position: 'absolute', zIndex: 1 }}
+        <NavigationHeaderMenuIcon
           name={'menu-sharp'} 
           type={IconTypeEnum.Ionicons} 
-          size={40}
+          size={35}
         />
-        <NavigationHeaderMenuButtonBg color={theme.lightPurple} />
+        <NavigationHeaderMenuButtonBg color={theme.primaryPurple} />
       </NavigationHeaderMenuButton>
       <NavigationHeaderText>{title}</NavigationHeaderText>
       </NavigationHeaderContainer>

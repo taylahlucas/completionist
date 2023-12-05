@@ -1,9 +1,10 @@
-import React, { useEffect, useState } from 'react';
+import CheckBox from '@components/general/Checkbox/CheckBox.native';
+import React, { useState } from 'react';
 import useGetTheme from '../../../styles/hooks/useGetTheme';
 import Condition from '../../general/Condition.native';
 import StyledText from '../../general/Text/StyledText.native';
 import useGetLocationString from './hooks/useGetLocationString.native';
-import { QuestListItemContainer, QuestListItemLocationContainer, QuestListItemTitle, QuestListItemCheckBox, QuestListItemContentContainer } from './QuestListStyledComponents.native';
+import { QuestListItemContainer, QuestListItemLocationContainer, QuestListItemTitle, QuestListItemContentContainer } from './QuestListStyledComponents.native';
 
 interface QuestListItemProps {
   title: string;
@@ -14,16 +15,16 @@ interface QuestListItemProps {
 
 const QuestListItem = ({ title, location, hold, customStyle }: QuestListItemProps) => {
   const theme = useGetTheme();
-  const [toggle, setToggle] = useState<boolean>(false);
+  const [toggled, setToggled] = useState<boolean>(false);
   const locationString = useGetLocationString({ hold, location });
   
   return (
-    <QuestListItemContainer style={customStyle} color={theme.midGrey}>
+    <QuestListItemContainer style={customStyle} color={toggled ? theme.darkGrey : theme.midGrey}>
       <QuestListItemContentContainer>
         <QuestListItemTitle 
           align={'left'} 
           type={'ListItemSubTitle'} 
-          color={theme.lightestGrey}
+          color={toggled ? theme.midGrey : theme.lightestGrey}
           ellipsizeMode={'tail'}
           numberOfLines={1}
         >{title}</QuestListItemTitle>
@@ -40,11 +41,7 @@ const QuestListItem = ({ title, location, hold, customStyle }: QuestListItemProp
           </QuestListItemLocationContainer>
         </Condition>
       </QuestListItemContentContainer>
-      <QuestListItemCheckBox
-        disabled={false}
-        value={toggle}
-        onValueChange={(): void => setToggle(!toggle)}
-      />
+      <CheckBox toggled={toggled} setToggled={setToggled} action={() => null} />
     </QuestListItemContainer>
   );
 };
