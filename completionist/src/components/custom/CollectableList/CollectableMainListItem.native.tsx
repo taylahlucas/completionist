@@ -11,9 +11,11 @@ import useMainState from 'src/redux/hooks/useMainState.native';
 
 export interface CollectableMainListItemProps {
   category: string;
+  completed: string;
+  total: string;
 }
 
-const CollectableMainListItem = ({ category }: CollectableMainListItemProps) => {
+const CollectableMainListItem = ({ category, completed, total }: CollectableMainListItemProps) => {
   const { showSearchResults } = useMainState();
   const [isOpen, setIsOpen] = useState<boolean>(false);
   const subCategories = getCollectableSubCategories(category);
@@ -24,7 +26,7 @@ const CollectableMainListItem = ({ category }: CollectableMainListItemProps) => 
       isOpen={isOpen || showSearchResults}
       setOpen={() => setIsOpen(!isOpen)}
       header={
-        <ListHeader title={category} />
+        <ListHeader title={category} completed={completed} total={total} />
       }
     >
       <CollectableListSubListContainer>

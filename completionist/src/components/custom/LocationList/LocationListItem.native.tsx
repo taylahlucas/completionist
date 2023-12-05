@@ -5,24 +5,24 @@ import { ListItemContainer, ListItemTitle } from '@components/general/Lists/List
 import useMainDispatch from 'src/redux/hooks/useMainDispatch.native';
 import useMainState from 'src/redux/hooks/useMainState.native';
 
-interface ListItemProps {
+interface LocationListItemProps {
   id: string;
   name: string;
   isComplete?: boolean;
 }
 
-const BookListItem = ({ id, name, isComplete = false }: ListItemProps) => {
+const LocationListItem = ({ id, name, isComplete = false }: LocationListItemProps) => {
   const theme = useGetTheme();
-  const { setCompletedBookIds } = useMainDispatch();
-  const { completedBookIds } = useMainState();
+  const { setCompletedLocationIds } = useMainDispatch();
+  const { completedLocationIds } = useMainState();
 
-  const addOrRemoveBook= () => {
+  const addOrRemoveLocation = () => {
     if (isComplete) {
-      setCompletedBookIds(completedBookIds.filter(bookId => bookId !== id));
+      setCompletedLocationIds(completedLocationIds.filter(locationId => locationId !== id));
     }
     else {
-      const updateCompletedLocations = [...completedBookIds, id]
-      setCompletedBookIds(updateCompletedLocations);
+      const updateCompletedLocations = [...completedLocationIds, id]
+      setCompletedLocationIds(updateCompletedLocations);
     }
   };
 
@@ -37,9 +37,9 @@ const BookListItem = ({ id, name, isComplete = false }: ListItemProps) => {
       >
         {name}
       </ListItemTitle>
-      <CheckBox isToggled={isComplete} action={() => addOrRemoveBook()} />
+      <CheckBox isToggled={isComplete} action={() => addOrRemoveLocation()} />
     </ListItemContainer>
   );
 }
 
-export default BookListItem;
+export default LocationListItem;

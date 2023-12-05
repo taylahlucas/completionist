@@ -10,4 +10,8 @@ export type IoniconType =
   | 'checkmark-circle-outline'
   | 'menu-sharp';
 
-export type IconType = MaterialIconsType | IoniconType;
+export type FontAwesomeType =
+  | 'circle-thin'
+  | 'check-circle';
+
+export type IconType = MaterialIconsType | IoniconType | FontAwesomeType;

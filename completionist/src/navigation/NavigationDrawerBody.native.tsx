@@ -16,25 +16,25 @@ const NavigationDrawerBody: React.FunctionComponent = () => {
         navigation.navigate(ScreenEnum.Quests)
         reset();
       }}>
-        <StyledText>Quests</StyledText>
+        <StyledText align={'left'}>Quests</StyledText>
       </Pressable>
       <Pressable onPress={(): void => {
         navigation.navigate(ScreenEnum.Collectables)
         reset();
       }}>
-        <StyledText>Collectables</StyledText>
+        <StyledText align={'left'}>Collectables</StyledText>
       </Pressable>
       <Pressable onPress={(): void => {
         navigation.navigate(ScreenEnum.Books)
         reset();
       }}>
-        <StyledText>Books</StyledText>
+        <StyledText align={'left'}>Books</StyledText>
       </Pressable>
       <Pressable onPress={(): void => {
         navigation.navigate(ScreenEnum.Locations)
         reset();
       }}>
-        <StyledText>Locations</StyledText>
+        <StyledText align={'left'}>Locations</StyledText>
       </Pressable>
     </NavigationDrawerBodyContainer>
   );

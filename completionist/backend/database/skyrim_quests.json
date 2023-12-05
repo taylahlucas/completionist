@@ -1,7 +1,7 @@
 [
   {
     "id": "c0c4db32-0e1a-4f9c-9707-6e510646237f",
-    "mainCategory": "Main Quest",
+    "mainCategory": "Main Quests",
     "subCategory": "Act I",
     "subCategoryType": "",
     "title": "Unbound",
@@ -11,7 +11,7 @@
   },
   {
     "id": "dd714d01-8537-48b0-85fe-8b2fcd45dc52",
-    "mainCategory": "Main Quest",
+    "mainCategory": "Main Quests",
     "subCategory": "Act I",
     "subCategoryType": "",
     "title": "Before the Storm",
@@ -21,7 +21,7 @@
   },
   {
     "id": "a46f8234-9760-4c26-b916-d3044be3b1b5",
-    "mainCategory": "Main Quest",
+    "mainCategory": "Main Quests",
     "subCategory": "Act I",
     "subCategoryType": "",
     "title": "Bleak Falls Barrow",
@@ -31,7 +31,7 @@
   },
   {
     "id": "ed82dc2c-3f4a-4483-b44e-303a17122213",
-    "mainCategory": "Main Quest",
+    "mainCategory": "Main Quests",
     "subCategory": "Act I",
     "subCategoryType": "",
     "title": "Dragon Rising",
@@ -41,7 +41,7 @@
   },
   {
     "id": "075d57bf-8137-45fb-ac1a-3f6a8a48501f",
-    "mainCategory": "Main Quest",
+    "mainCategory": "Main Quests",
     "subCategory": "Act I",
     "subCategoryType": "",
     "title": "The Way of the Voice",
@@ -51,7 +51,7 @@
   },
   {
     "id": "22c70509-908d-4876-b7db-bd411653daeb",
-    "mainCategory": "Main Quest",
+    "mainCategory": "Main Quests",
     "subCategory": "Act I",
     "subCategoryType": "",
     "title": "The Horn of Jurgen Windcaller",
@@ -61,7 +61,7 @@
   },
   {
     "id": "a4b7172b-5e77-4304-86ea-03e088d1461a",
-    "mainCategory": "Main Quest",
+    "mainCategory": "Main Quests",
     "subCategory": "Act II",
     "subCategoryType": "",
     "title": "A Blade in the Dark",
@@ -71,7 +71,7 @@
   },
   {
     "id": "6930b264-7906-4ba6-a8a3-341e6261d83b",
-    "mainCategory": "Main Quest",
+    "mainCategory": "Main Quests",
     "subCategory": "Act II",
     "subCategoryType": "",
     "title": "Diplomatic Immunity",
@@ -81,7 +81,7 @@
   },
   {
     "id": "5ff19f86-6585-4b80-8c66-8753a35845fc",
-    "mainCategory": "Main Quest",
+    "mainCategory": "Main Quests",
     "subCategory": "Act II",
     "subCategoryType": "",
     "title": "A Cornered Rat",
@@ -91,7 +91,7 @@
   },
   {
     "id": "da2214f5-82b8-47bb-b7a5-2a24c53aec4e",
-    "mainCategory": "Main Quest",
+    "mainCategory": "Main Quests",
     "subCategory": "Act II",
     "subCategoryType": "",
     "title": "Alduin's Wall",
@@ -101,7 +101,7 @@
   },
   {
     "id": "864150dd-edaf-449e-9bdf-79f85af6383f",
-    "mainCategory": "Main Quest",
+    "mainCategory": "Main Quests",
     "subCategory": "Act II",
     "subCategoryType": "",
     "title": "The Throat of the World",
@@ -111,7 +111,7 @@
   },
   {
     "id": "b04496c1-ace4-496b-a8a6-fd2a8214d07f",
-    "mainCategory": "Main Quest",
+    "mainCategory": "Main Quests",
     "subCategory": "Act II",
     "subCategoryType": "",
     "title": "Elder Knowledge",
@@ -121,7 +121,7 @@
   },
   {
     "id": "16f37c66-9bc5-4500-92ea-861a1bfcf085",
-    "mainCategory": "Main Quest",
+    "mainCategory": "Main Quests",
     "subCategory": "Act II",
     "subCategoryType": "",
     "title": "Alduin's Bane",
@@ -131,7 +131,7 @@
   },
   {
     "id": "28fde2e0-5724-4c50-a08b-db88dc1cf0d3",
-    "mainCategory": "Main Quest",
+    "mainCategory": "Main Quests",
     "subCategory": "Act III",
     "subCategoryType": "",
     "title": "Season Unending",
@@ -141,7 +141,7 @@
   },
   {
     "id": "5efb27ee-3655-4e01-a9a3-1570aff3b1cc",
-    "mainCategory": "Main Quest",
+    "mainCategory": "Main Quests",
     "subCategory": "Act III",
     "subCategoryType": "",
     "title": "The Fallen",
@@ -151,7 +151,7 @@
   },
   {
     "id": "ab8ab1eb-53d0-4e24-a679-5ea05484ae8c",
-    "mainCategory": "Main Quest",
+    "mainCategory": "Main Quests",
     "subCategory": "Act III",
     "subCategoryType": "",
     "title": "Paarthurnax",
@@ -161,7 +161,7 @@
   },
   {
     "id": "69224c20-09f3-4990-917a-d1c54ee34552",
-    "mainCategory": "Main Quest",
+    "mainCategory": "Main Quests",
     "subCategory": "Act III",
     "subCategoryType": "",
     "title": "The World-Eater's Eyrie",
@@ -171,7 +171,7 @@
   },
   {
     "id": "d04f651e-f18f-4eb2-ba10-ff9afd08f634",
-    "mainCategory": "Main Quest",
+    "mainCategory": "Main Quests",
     "subCategory": "Act III",
     "subCategoryType": "",
     "title": "Sovngarde",
@@ -181,7 +181,7 @@
   },
   {
     "id": "c945e161-f62c-4dbe-a65a-0c934ad08908",
-    "mainCategory": "Main Quest",
+    "mainCategory": "Main Quests",
     "subCategory": "Act III",
     "subCategoryType": "",
     "title": "Dragonslayer",
@@ -191,7 +191,7 @@
   },
   {
     "id": "1a80a1c3-648b-4584-9eac-b54713d69a2b",
-    "mainCategory": "Main Quest",
+    "mainCategory": "Main Quests",
     "subCategory": "Act III",
     "subCategoryType": "",
     "title": "Epilogue",
@@ -3247,7 +3247,7 @@
   },
   {
     "id": "d5173f48-ac83-4f46-9757-360754ad2d57",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "A Few Words with You",
     "subCategoryType": "",
     "title": "Convince Mikael to Stop Bothering Carlotta",
@@ -3257,7 +3257,7 @@
   },
   {
     "id": "b7c3cf93-f5aa-4714-a807-f25604cb5d1e",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "A Few Words with You",
     "subCategoryType": "",
     "title": "Convince Ranmir to Pay His Debts",
@@ -3267,7 +3267,7 @@
   },
   {
     "id": "4c8d2697-6690-400f-93e8-14cc0d63a9ce",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "A Few Words with You",
     "subCategoryType": "",
     "title": "Convince Roggi Knot-Beard to Forget His Debts",
@@ -3277,7 +3277,7 @@
   },
   {
     "id": "e10c4e2b-3e44-4dbe-8df8-878636332878",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "A Few Words with You",
     "subCategoryType": "",
     "title": "Convince Irnskar to Let Octieve San Off His Debts",
@@ -3287,7 +3287,7 @@
   },
   {
     "id": "f01128af-eadc-445d-8d57-0fa10c0c4c33",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "A Few Words with You",
     "subCategoryType": "",
     "title": "Convince Mulush to Treat the Smelting Workers with More Respect",
@@ -3297,7 +3297,7 @@
   },
   {
     "id": "663cdc98-eb1f-49c6-9ccc-181942ef564e",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "A Few Words with You",
     "subCategoryType": "",
     "title": "Convince Torbjorn to Raise the Argonians' Wages",
@@ -3307,7 +3307,7 @@
   },
   {
     "id": "a4d8991e-6377-4f91-a1e5-cf4d145d7307",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Chop Wood",
     "subCategoryType": "",
     "title": "Chop wood in Anga's Mill",
@@ -3317,7 +3317,7 @@
   },
   {
     "id": "f432cbfe-efa6-4af9-8f91-2253430427ab",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Chop Wood",
     "subCategoryType": "",
     "title": "Chop wood in Dragon Bridge",
@@ -3327,7 +3327,7 @@
   },
   {
     "id": "a4a72dce-6a1b-4833-af25-d40f2a2b4e9f",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Chop Wood",
     "subCategoryType": "",
     "title": "Chop wood in Half-Moon Mill",
@@ -3337,7 +3337,7 @@
   },
   {
     "id": "cbc479bb-83b7-455e-b4e9-ce8f23d66b2e",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Chop Wood",
     "subCategoryType": "",
     "title": "Chop wood in Heartwood Mill",
@@ -3347,7 +3347,7 @@
   },
   {
     "id": "e4d309fb-6eef-4cf6-9933-8e4c1f48f9b2",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Chop Wood",
     "subCategoryType": "",
     "title": "Chop wood in Ivarstead",
@@ -3357,7 +3357,7 @@
   },
   {
     "id": "082ee218-ad53-43aa-80e1-25d46a40d2a7",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Chop Wood",
     "subCategoryType": "",
     "title": "Chop wood in Mixwater Mill",
@@ -3367,7 +3367,7 @@
   },
   {
     "id": "1a0bf55c-bb31-4cb2-9079-c1ae07542138",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Chop Wood",
     "subCategoryType": "",
     "title": "Chop wood in Morthal",
@@ -3377,7 +3377,7 @@
   },
   {
     "id": "db0bd21b-aaa2-49bc-ac9f-0dc1b99d51d3",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Chop Wood",
     "subCategoryType": "",
     "title": "Chop wood in Riverwood",
@@ -3387,7 +3387,7 @@
   },
   {
     "id": "3886927a-d9e6-4a1a-adee-9c40e82ba2c2",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Chop Wood",
     "subCategoryType": "",
     "title": "Chop wood in Solitude Sawmill",
@@ -3397,7 +3397,7 @@
   },
   {
     "id": "36a1211e-5e72-4ad3-8aeb-b04131ec8be9",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Chop Wood",
     "subCategoryType": "",
     "title": "Chop wood in Steamscorch Mine",
@@ -3407,7 +3407,7 @@
   },
   {
     "id": "88afdaf0-8f5b-4525-8935-7ba37997e7a5",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Chop Wood",
     "subCategoryType": "",
     "title": "Chop wood in Whiterun",
@@ -3417,7 +3417,7 @@
   },
   {
     "id": "a318e1e5-b432-4fd9-98c3-63385681ee7b",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Delivery",
     "subCategoryType": "",
     "title": "Deliver Adonato's Book to Giraud",
@@ -3427,7 +3427,7 @@
   },
   {
     "id": "90fe1db6-0f0c-46b6-b4e6-020c2f4ee669",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Delivery",
     "subCategoryType": "",
     "title": "Deliver Aeri's Note to Skald",
@@ -3437,7 +3437,7 @@
   },
   {
     "id": "3b93d735-4dec-4b29-a964-feee026f80f2",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Delivery",
     "subCategoryType": "",
     "title": "Deliver Berit's Ashes to Runil",
@@ -3447,7 +3447,7 @@
   },
   {
     "id": "f1403b47-7940-4c5b-ae24-5805aca5dcfd",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Delivery",
     "subCategoryType": "",
     "title": "Deliver Idgrod's Note to Danica",
@@ -3457,7 +3457,7 @@
   },
   {
     "id": "a281ec5e-46fb-430b-b3be-df2bdd2487d5",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Delivery",
     "subCategoryType": "",
     "title": "Deliver Nightshade Extact to Wuunferth",
@@ -3467,7 +3467,7 @@
   },
   {
     "id": "6b828713-ec87-47a3-83da-adfe0b322840",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Delivery",
     "subCategoryType": "",
     "title": "Deliver Sondas's Note to Quintus",
@@ -3477,7 +3477,7 @@
   },
   {
     "id": "437b3a24-dbdc-44cf-8e1e-40ddf1110989",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Delivery",
     "subCategoryType": "",
     "title": "Deliver Spiced Beef to Voada",
@@ -3487,7 +3487,7 @@
   },
   {
     "id": "21b0ac6e-48a1-465b-a32a-67f38bc79c5b",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Delivery",
     "subCategoryType": "",
     "title": "Deliver Stros M'Kai Rum to Falk",
@@ -3497,7 +3497,7 @@
   },
   {
     "id": "b859b564-5752-4d65-afd8-5bd3ef131f25",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Fight! Fight!",
     "subCategoryType": "",
     "title": "Benor",
@@ -3507,7 +3507,7 @@
   },
   {
     "id": "a4926190-e5e8-4ca4-90f1-53a40d21ec0c",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Fight! Fight!",
     "subCategoryType": "",
     "title": "Chief Burguk",
@@ -3517,7 +3517,7 @@
   },
   {
     "id": "6f102c4b-4b8e-4e16-ba4e-83b01116edde",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Fight! Fight!",
     "subCategoryType": "",
     "title": "Chief Larak",
@@ -3527,7 +3527,7 @@
   },
   {
     "id": "73c23d6e-79eb-4c9b-91fc-c0a0ad936948",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Fight! Fight!",
     "subCategoryType": "",
     "title": "Chief Mauhulakh",
@@ -3537,7 +3537,7 @@
   },
   {
     "id": "223c9500-f145-4ce1-8e9b-36fa25e9c49a",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Fight! Fight!",
     "subCategoryType": "",
     "title": "Cosnach",
@@ -3547,7 +3547,7 @@
   },
   {
     "id": "ea2c7195-89cc-49ec-b5e1-c39bdef00255",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Fight! Fight!",
     "subCategoryType": "",
     "title": "Rolff Stone-Fist",
@@ -3557,7 +3557,7 @@
   },
   {
     "id": "f2656329-dfbd-49f5-8e31-752cab6147b1",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Fight! Fight!",
     "subCategoryType": "",
     "title": "Uthgerd the Unbroken",
@@ -3567,7 +3567,7 @@
   },
   {
     "id": "522f7378-6eba-45ee-9baa-463187ee4823",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Gather Wheat",
     "subCategoryType": "",
     "title": "Gather wheat in Battle-Born Farm",
@@ -3577,7 +3577,7 @@
   },
   {
     "id": "ccebc5fd-2725-4717-aded-1e6dad0b5b9e",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Gather Wheat",
     "subCategoryType": "",
     "title": "Gather wheat in Brandy-Mug Farm",
@@ -3587,7 +3587,7 @@
   },
   {
     "id": "1a0be10e-b906-44cb-a9f3-4bb33712cb9d",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Gather Wheat",
     "subCategoryType": "",
     "title": "Gather wheat in Corpselight Farm",
@@ -3597,7 +3597,7 @@
   },
   {
     "id": "53df90eb-a286-4980-9fa7-f097a45b6dd9",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Gather Wheat",
     "subCategoryType": "",
     "title": "Gather wheat in Cowflop Farm",
@@ -3607,7 +3607,7 @@
   },
   {
     "id": "23d51ee0-d519-4543-aa48-ef373ccb8df7",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Gather Wheat",
     "subCategoryType": "",
     "title": "Gather wheat in Dragon Bridge",
@@ -3617,7 +3617,7 @@
   },
   {
     "id": "53accafa-0ee8-42fd-9d58-ed5f6cbf2342",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Gather Wheat",
     "subCategoryType": "",
     "title": "Gather wheat in Fellstar Farm",
@@ -3627,7 +3627,7 @@
   },
   {
     "id": "cef85d8b-b2bd-48bd-9cdd-918ba14b763c",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Gather Wheat",
     "subCategoryType": "",
     "title": "Gather wheat in Hlaalu Farm",
@@ -3637,7 +3637,7 @@
   },
   {
     "id": "355ca659-f930-4a70-bf94-498034ff2a2d",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Gather Wheat",
     "subCategoryType": "",
     "title": "Gather wheat in Hollyfrost Farm",
@@ -3647,7 +3647,7 @@
   },
   {
     "id": "ac18c83c-3320-4999-ba6e-f7a8d9a46763",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Gather Wheat",
     "subCategoryType": "",
     "title": "Gather wheat in Katla's Farm",
@@ -3657,7 +3657,7 @@
   },
   {
     "id": "b62c2569-ef54-41b9-ab69-2d7e7e668ec1",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Gather Wheat",
     "subCategoryType": "",
     "title": "Gather wheat in Lemkil's Farm",
@@ -3667,7 +3667,7 @@
   },
   {
     "id": "24349490-61f2-481a-9f4b-87ad174304f9",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Gather Wheat",
     "subCategoryType": "",
     "title": "Gather wheat in Merryfair Farm",
@@ -3677,7 +3677,7 @@
   },
   {
     "id": "93081eb1-b077-42f4-a556-06263218ed6f",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Gather Wheat",
     "subCategoryType": "",
     "title": "Gather wheat in Pelagia Farm",
@@ -3687,7 +3687,7 @@
   },
   {
     "id": "bed86e59-efd9-4fec-8739-2c95a1415f57",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Gather Wheat",
     "subCategoryType": "",
     "title": "Gather wheat in Salvius Farm",
@@ -3697,7 +3697,7 @@
   },
   {
     "id": "4483cbe8-89b7-468c-b3f8-e699f3ebae00",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Gather Wheat",
     "subCategoryType": "",
     "title": "Gather wheat in Sarethi Farm",
@@ -3707,7 +3707,7 @@
   },
   {
     "id": "69301996-5bf0-4488-bbb8-01dc8714684b",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Gather Wheat",
     "subCategoryType": "",
     "title": "Gather wheat in Snow-Shod Farm",
@@ -3717,7 +3717,7 @@
   },
   {
     "id": "8dcfa47f-a269-4647-bae9-77041478af5c",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Mine Ore",
     "subCategoryType": "",
     "title": "Mine ore in Dushnikh Mine",
@@ -3727,7 +3727,7 @@
   },
   {
     "id": "d74666bc-c4e2-49af-8919-2b46200a8ee2",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Mine Ore",
     "subCategoryType": "",
     "title": "Mine ore in Gloombound Mine",
@@ -3737,7 +3737,7 @@
   },
   {
     "id": "cbc5db54-8929-4600-bb13-19ef58c0acd3",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Mine Ore",
     "subCategoryType": "",
     "title": "Mine ore in Goldenrock Mine",
@@ -3747,7 +3747,7 @@
   },
   {
     "id": "b51876c1-984c-4c6c-acae-7e34ce297b28",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Mine Ore",
     "subCategoryType": "",
     "title": "Mine ore in Iron-Breaker Mine",
@@ -3757,7 +3757,7 @@
   },
   {
     "id": "c812ca03-8f58-4e2f-80c3-b793d22241a1",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Mine Ore",
     "subCategoryType": "",
     "title": "Mine ore in Kolskeggr Mine",
@@ -3767,7 +3767,7 @@
   },
   {
     "id": "62ed167d-2ae7-4e2b-aa8f-6168e9aadb9b",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Mine Ore",
     "subCategoryType": "",
     "title": "Mine ore in Left Hand Mine",
@@ -3777,7 +3777,7 @@
   },
   {
     "id": "bbec2e79-1bd9-4a5f-b3c3-09af0168c040",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Mine Ore",
     "subCategoryType": "",
     "title": "Mine ore in Mor Khazgur Mine",
@@ -3787,7 +3787,7 @@
   },
   {
     "id": "eb2d1a56-5341-4c67-9f2c-60de71ee789f",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Mine Ore",
     "subCategoryType": "",
     "title": "Mine ore in Quicksilver Mine",
@@ -3797,7 +3797,7 @@
   },
   {
     "id": "2960c912-7ed6-4bda-b139-55d5165ff21c",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Mine Ore",
     "subCategoryType": "",
     "title": "Mine ore in Redbelly Mine",
@@ -3807,7 +3807,7 @@
   },
   {
     "id": "d684ee87-e612-40b0-9099-9afde2a8b86f",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Mine Ore",
     "subCategoryType": "",
     "title": "Mine ore in Rockwallow Mine",
@@ -3817,7 +3817,7 @@
   },
   {
     "id": "a9124830-b868-4f0f-a17d-50b1d544abec",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Mine Ore",
     "subCategoryType": "",
     "title": "Mine ore in Soljund's Sinkhole",
@@ -3827,7 +3827,7 @@
   },
   {
     "id": "83372737-c11d-4ed3-9a89-8654e2f5d2dd",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Mine Ore",
     "subCategoryType": "",
     "title": "Mine ore in Steamscorch Mine",
@@ -3837,7 +3837,7 @@
   },
   {
     "id": "8b308ea3-fdec-41a8-ba21-22040f943648",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Mine Ore",
     "subCategoryType": "",
     "title": "Mine ore in Whistling Mine",
@@ -3847,7 +3847,7 @@
   },
   {
     "id": "234f661e-3033-482d-830d-f5f0e05bb32e",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Quest all Beggars Have",
     "subCategoryType": "",
     "title": "Give 1 coin to Angrenor Once-Honored",
@@ -3857,7 +3857,7 @@
   },
   {
     "id": "706d6b4d-4bed-4139-a46f-bcc28305300e",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Quest all Beggars Have",
     "subCategoryType": "",
     "title": "Give 1 coin to Brenuin",
@@ -3867,7 +3867,7 @@
   },
   {
     "id": "5635f95b-18e8-4c80-a54f-2a5977fbc924",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Quest all Beggars Have",
     "subCategoryType": "",
     "title": "Give 1 coin to Degaine",
@@ -3877,7 +3877,7 @@
   },
   {
     "id": "23b5dc7b-4d7a-4c0f-852e-e41b63fab782",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Quest all Beggars Have",
     "subCategoryType": "",
     "title": "Give 1 coin to Dervenin",
@@ -3887,7 +3887,7 @@
   },
   {
     "id": "8571faea-7125-4c2d-9fd2-6d321ae786a5",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Quest all Beggars Have",
     "subCategoryType": "",
     "title": "Give 1 coin to Edda",
@@ -3897,7 +3897,7 @@
   },
   {
     "id": "154d7082-a067-44a7-9e1c-7e6b3039f568",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Quest all Beggars Have",
     "subCategoryType": "",
     "title": "Give 1 coin to Lucia HF",
@@ -3907,7 +3907,7 @@
   },
   {
     "id": "438b259f-1b18-43bc-bcc4-9eb49f680530",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Quest all Beggars Have",
     "subCategoryType": "",
     "title": "Give 1 coin to Narfi",
@@ -3917,7 +3917,7 @@
   },
   {
     "id": "2742f6d1-26e7-4205-b541-7296bf24b74e",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Quest all Beggars Have",
     "subCategoryType": "",
     "title": "Give 1 coin to Noster Eagle-Eye",
@@ -3927,7 +3927,7 @@
   },
   {
     "id": "6720b035-dcc5-4722-9b76-580296ca2b1d",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Quest all Beggars Have",
     "subCategoryType": "",
     "title": "Give 1 coin to Silda the Unseen",
@@ -3937,7 +3937,7 @@
   },
   {
     "id": "ae3ad877-04d8-4d73-a995-c0c9d7e2b559",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Quest all Beggars Have",
     "subCategoryType": "",
     "title": "Give 1 coin to Snilf",
@@ -3947,7 +3947,7 @@
   },
   {
     "id": "eb516446-db21-4906-ab20-1a2ad7a7feab",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Quest all Beggars Have",
     "subCategoryType": "",
     "title": "Give 1 coin to Svari",
@@ -3957,7 +3957,7 @@
   },
   {
     "id": "636a012c-1c15-4216-b2a3-5047c5d069fb",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Quest all Drunks Have",
     "subCategoryType": "",
     "title": "Give an alcoholic beverage to Angrenor Once-Honored",
@@ -3967,7 +3967,7 @@
   },
   {
     "id": "a6666d10-3c8e-4a28-8577-fd9f43ee418b",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Quest all Drunks Have",
     "subCategoryType": "",
     "title": "Give an alcoholic beverage to Brenuin",
@@ -3977,7 +3977,7 @@
   },
   {
     "id": "cc2216b6-5d65-4800-bac0-93d6eea488b2",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Quest all Drunks Have",
     "subCategoryType": "",
     "title": "Give an alcoholic beverage to Degaine",
@@ -3987,7 +3987,7 @@
   },
   {
     "id": "6930b804-ac68-4977-8be3-5aa04cbbd8f5",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Quest all Drunks Have",
     "subCategoryType": "",
     "title": "Give an alcoholic beverage to Dervenin",
@@ -3997,7 +3997,7 @@
   },
   {
     "id": "d70b1e7d-9a69-4061-abc9-acf4d8ac2ce3",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Quest all Drunks Have",
     "subCategoryType": "",
     "title": "Give an alcoholic beverage to Edda",
@@ -4007,7 +4007,7 @@
   },
   {
     "id": "6f67a036-5fe0-4323-9073-a367564afd77",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Quest all Drunks Have",
     "subCategoryType": "",
     "title": "Give an alcoholic beverage to Lucia HF",
@@ -4017,7 +4017,7 @@
   },
   {
     "id": "fce3005f-822c-461b-9d17-cf606801791e",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Quest all Drunks Have",
     "subCategoryType": "",
     "title": "Give an alcoholic beverage to Narfi",
@@ -4027,7 +4027,7 @@
   },
   {
     "id": "16f557d7-6158-4bc2-8a0b-1005978d731f",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Quest all Drunks Have",
     "subCategoryType": "",
     "title": "Give an alcoholic beverage to Noster Eagle-Eye",
@@ -4037,7 +4037,7 @@
   },
   {
     "id": "283b9ef5-021b-448e-8630-f21b5b00ba3e",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Quest all Drunks Have",
     "subCategoryType": "",
     "title": "Give an alcoholic beverage to Silda the Unseen",
@@ -4047,7 +4047,7 @@
   },
   {
     "id": "775e8a9e-2ad2-4cce-ada4-c6f39e97b0c5",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Quest all Drunks Have",
     "subCategoryType": "",
     "title": "Give an alcoholic beverage to Snilf",
@@ -4057,7 +4057,7 @@
   },
   {
     "id": "8d1c4197-a7ef-4a79-9349-9c88341e6c59",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Quest all Drunks Have",
     "subCategoryType": "",
     "title": "Give an alcoholic beverage to Svari",
@@ -4067,7 +4067,7 @@
   },
   {
     "id": "3d691f05-abe7-4b6f-8f3b-db7f885a32e9",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Rare Gifts",
     "subCategoryType": "",
     "title": "Bring a rare gift to Brand-Shei",
@@ -4077,7 +4077,7 @@
   },
   {
     "id": "4568f980-22ec-4f9b-a09a-0f8167302085",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Rare Gifts",
     "subCategoryType": "",
     "title": "Bring a rare gift to Captain Aldis",
@@ -4087,7 +4087,7 @@
   },
   {
     "id": "5e2f87c7-89bb-4f2f-bc1c-5fa6da757a25",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Rare Gifts",
     "subCategoryType": "",
     "title": "Bring a rare gift to Lami",
@@ -4097,7 +4097,7 @@
   },
   {
     "id": "d4ccb085-5900-4041-a433-304cc9b7df36",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Rare Gifts",
     "subCategoryType": "",
     "title": "Bring a rare gift to Rustleif",
@@ -4107,7 +4107,7 @@
   },
   {
     "id": "80848aee-0430-4ba0-93dc-cc4dac5d9201",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Rare Gifts",
     "subCategoryType": "",
     "title": "Bring a rare gift to Siddgeir",
@@ -4117,7 +4117,7 @@
   },
   {
     "id": "60273196-5e29-4ba9-bcbf-971ad89b6257",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Rare Gifts",
     "subCategoryType": "",
     "title": "Bring a rare gift to Torbjorn Shatter-Shield",
@@ -4127,7 +4127,7 @@
   },
   {
     "id": "53bec0b5-ed33-4269-b572-4f4c407aa879",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Rare Gifts",
     "subCategoryType": "",
     "title": "Bring a rare gift to Ysolda",
@@ -4137,7 +4137,7 @@
   },
   {
     "id": "b94f1c78-f7b2-4978-815c-35a789b4211e",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Some Light Theft",
     "subCategoryType": "",
     "title": "Steal something for Dengeir of Stuhn",
@@ -4147,7 +4147,7 @@
   },
   {
     "id": "df6f7851-3550-46d8-b2a0-ae9021abc631",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Some Light Theft",
     "subCategoryType": "",
     "title": "Steal something for Malur Seloth",
@@ -4157,7 +4157,7 @@
   },
   {
     "id": "a5ade658-36b7-428a-955d-e880799b0331",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Some Light Theft",
     "subCategoryType": "",
     "title": "Steal something for Stands-In-Shallows",
@@ -4167,7 +4167,7 @@
   },
   {
     "id": "40fbdac2-2897-4bad-aea9-51def329a77c",
-    "mainCategory": "Global quests",
+    "mainCategory": "Global Quests",
     "subCategory": "Some Light Theft",
     "subCategoryType": "",
     "title": "Steal something for Brenuin",

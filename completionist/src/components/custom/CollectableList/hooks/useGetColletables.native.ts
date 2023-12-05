@@ -16,9 +16,14 @@ const useGetCollectables = () => {
     return filteredCollectables.filter(collectable => collectable.type === type);
   }
 
+  const getAllCollectablesForCategory = (type: string): Collectable[] => {
+    return mappedCollectables.filter(collectable => collectable.type === type);
+  }
+
   return {
     getCollectablesForSubCategory,
-    getCollectablesForCategory
+    getCollectablesForCategory,
+    getAllCollectablesForCategory
   }
 };
 

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { getQuestSubCategories } from '../../../data/functions';
 import Condition from '../../general/Condition.native';
 import Dropdown from '../../general/Dropdown/Dropdown.native';
@@ -11,9 +11,11 @@ import useMainState from 'src/redux/hooks/useMainState.native';
 
 export interface QuestMainListItemProps {
   category: string;
+  completed: string;
+  total: string;
 }
 
-const QuestMainListItem = ({ category }: QuestMainListItemProps) => {
+const QuestMainListItem = ({ category, completed, total }: QuestMainListItemProps) => {
   const { showSearchResults } = useMainState();
   const { getQuestsForSubCategory } = useGetQuests();
   const [isOpen, setIsOpen] = useState<boolean>(false);
@@ -24,7 +26,7 @@ const QuestMainListItem = ({ category }: QuestMainListItemProps) => {
       isOpen={showSearchResults || isOpen}
       setOpen={() => setIsOpen(!isOpen)}
       header={
-        <ListHeader title={category} />
+        <ListHeader title={category} completed={completed} total={total} />
       }
     >
       <QuestListSubListContainer>

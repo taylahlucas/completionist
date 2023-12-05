@@ -57,4 +57,5 @@ export const NavigationDrawerContainer = styled.View`
 export const NavigationDrawerBodyContainer = styled.View`
   align-content: center;
   margin-top: 16px;
+  margin-left: 16px;
 `;

@@ -6,24 +6,36 @@ import Condition from '@components/general/Condition.native';
 import useGetQuests from './hooks/useGetQuests.native';
 import useMainDispatch from 'src/redux/hooks/useMainDispatch.native';
 import useMainState from 'src/redux/hooks/useMainState.native';
+import useCheckQuestComplete from './hooks/useCheckQuestComplete.native';
 
 const QuestList = () => {
-  const questCategories = getQuestCategories();
-  const { getQuestsForCategory } = useGetQuests();
   const { triggerShowSearchResults } = useMainDispatch();
   const { searchValue } = useMainState();
+  const questCategories = getQuestCategories();
+  const { getQuestsForCategory, getAllQuestsForCategory } = useGetQuests();
+  const { checkQuestsCompleteForCategory } = useCheckQuestComplete();
 
   useEffect(() => {
     triggerShowSearchResults(searchValue.length >= 3);
   }, [searchValue])
 
   return (
-    <ScrollableList style={{ marginTop: 16 }}>
-      {questCategories.map((category: string, index: number) => (
-        <Condition key={index} condition={getQuestsForCategory(category).length > 0}>
-          <QuestMainListItem key={index} category={category} />
-        </Condition>
-      ))}
+    <ScrollableList>
+      {questCategories.map((category: string, index: number) => {
+        const allQuestsForCategory = getAllQuestsForCategory(category)
+        const completedQuests = checkQuestsCompleteForCategory(allQuestsForCategory)
+
+        return (
+          <Condition key={index} condition={getQuestsForCategory(category).length > 0}>
+            <QuestMainListItem 
+              key={index} 
+              category={category}
+              completed={completedQuests.toString()}
+              total={allQuestsForCategory.length.toString()} 
+            />
+          </Condition>
+        )
+      })}
     </ScrollableList>
   );
 };

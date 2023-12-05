@@ -119,7 +119,7 @@
     "prerequisite": "Complete The Whispering Door"
   },
   {
-    "id": "c11b4389-61e2-4a61-9c91-69ed2c1ac3a8",
+    "id": "c11b4389-61e2-4a61-9c91-69ed2c1ac3a9",
     "type": "Daedric Artefacts",
     "subType": "Apparel",
     "name": "Ebony Mail",
@@ -154,7 +154,7 @@
     "prerequisite": "Complete Discerning the Transmundane"
   },
   {
-    "id": "f08f7f77-5ee1-4e6a-b1f4-69598b2e5567",
+    "id": "f08f7f77-5ee1-4e6a-b1f4-69598b2e5568",
     "type": "Daedric Artefacts",
     "subType": "Apparel",
     "name": "Ring of Namira",
@@ -218,14 +218,14 @@
     "prerequisite": ""
   },
   {
-    "id": "5d849b86-9a13-4a8e-b72b-5a81a3ce4d2c",
+    "id": "5d849b86-9a13-4a8e-b72b-5a81a3ce4d2d",
     "type": "Bug in a Jar",
     "subType": "",
     "name": "Bliss Bug in a Jar",
     "prerequisite": ""
   },
   {
-    "id": "236678d3-7a8a-4c58-bf55-dc43908ff9c8",
+    "id": "236678d3-7a8a-4c58-bf55-ec43908ff9c8",
     "type": "Bug in a Jar",
     "subType": "",
     "name": "Butterfly in a Jar",
@@ -267,14 +267,14 @@
     "prerequisite": ""
   },
   {
-    "id": "32b3f997-7c36-4e65-bb15-7a861f852b95",
+    "id": "32b3f997-7c36-4e65-bb15-7a861f852c95",
     "type": "Shouts",
     "subType": "Animal Allegiance",
     "name": "Raan",
     "prerequisite": ""
   },
   {
-    "id": "32b3f997-7c36-4e65-bb15-7a861f852b95",
+    "id": "32b4f997-7c36-4e65-bb15-7a861f852b95",
     "type": "Shouts",
     "subType": "Animal Allegiance",
     "name": "Mir",
@@ -288,14 +288,14 @@
     "prerequisite": ""
   },
   {
-    "id": "3a92ed78-01aa-4464-b2f5-4a0840a372b3",
+    "id": "3a92ed78-01aa-4464-b2f5-4a0840a372b4",
     "type": "Shouts",
     "subType": "Aura Whisper",
     "name": "Laas",
     "prerequisite": ""
   },
   {
-    "id": "3a92ed78-01aa-4464-b2f5-4a0840a372b3",
+    "id": "2a92ed78-01aa-4464-b2f5-4a0840a372b3",
     "type": "Shouts",
     "subType": "Aura Whisper",
     "name": "Yah",
@@ -309,14 +309,14 @@
     "prerequisite": ""
   },
   {
-    "id": "3e9c61b3-d50e-4f89-bcc9-13c79ed0839f",
+    "id": "3e1c61b3-d50e-4f89-bcc9-13c79ed0839f",
     "type": "Shouts",
     "subType": "Become Ethereal",
     "name": "Feim",
     "prerequisite": ""
   },
   {
-    "id": "3e9c61b3-d50e-4f89-bcc9-13c79ed0839f",
+    "id": "3e9c61b3-d50e-4f89-bcc9-13c79ed0839p",
     "type": "Shouts",
     "subType": "Become Ethereal",
     "name": "Zii",
@@ -330,14 +330,14 @@
     "prerequisite": ""
   },
   {
-    "id": "b0ef7980-bf6f-4f48-aaf1-66c82c3b36e1",
+    "id": "c0ef7980-bf6f-4f48-aaf1-66c82c3b36e1",
     "type": "Shouts",
     "subType": "Bend Will",
     "name": "Gol",
     "prerequisite": ""
   },
   {
-    "id": "b0ef7980-bf6f-4f48-aaf1-66c82c3b36e1",
+    "id": "b0ef7980-bf6f-4f48-aac1-66c82c3b36e1",
     "type": "Shouts",
     "subType": "Bend Will",
     "name": "Hah",
@@ -351,14 +351,14 @@
     "prerequisite": ""
   },
   {
-    "id": "1d625a8f-3b2a-4a71-a28f-cfcd0d9433f8",
+    "id": "3d625a8f-3b2a-4a71-a28f-cfcd0d9433f8",
     "type": "Shouts",
     "subType": "Call Dragon",
     "name": "Od",
     "prerequisite": ""
   },
   {
-    "id": "1d625a8f-3b2a-4a71-a28f-cfcd0d9433f8",
+    "id": "14625a8f-3b2a-4a71-a28f-cfcd0d9433f8",
     "type": "Shouts",
     "subType": "Call Dragon",
     "name": "Ah",
@@ -372,14 +372,14 @@
     "prerequisite": ""
   },
   {
-    "id": "c530a5d2-54cf-4d87-af5f-2b0f7f65b4f0",
+    "id": "c530a5d2-54cf-4d87-af5f-2b0f7f65b4f1",
     "type": "Shouts",
     "subType": "Call of Valor",
     "name": "Hun",
     "prerequisite": ""
   },
   {
-    "id": "c530a5d2-54cf-4d87-af5f-2b0f7f65b4f0",
+    "id": "c530a5d2-54cf-4d87-af5f-2b0f7f6cb4f0",
     "type": "Shouts",
     "subType": "Call of Valor",
     "name": "Kaar",
@@ -393,14 +393,14 @@
     "prerequisite": ""
   },
   {
-    "id": "8a6f5d26-48f4-42e9-9c2b-d4a83d25580d",
+    "id": "0a6f5d26-48f4-42e9-9c2b-d4a83d25580d",
     "type": "Shouts",
     "subType": "Clear Skies",
     "name": "Lok",
     "prerequisite": ""
   },
   {
-    "id": "8a6f5d26-48f4-42e9-9c2b-d4a83d25580d",
+    "id": "8a6f5d26-48f4-42e9-9c2b-d4a83d25c80d",
     "type": "Shouts",
     "subType": "Clear Skies",
     "name": "Vah",
@@ -414,14 +414,14 @@
     "prerequisite": ""
   },
   {
-    "id": "fbc41d24-12cf-48c2-9663-ba4c7319bebb",
+    "id": "fbc4cd24-12cf-48c2-9663-ba4c7319bebb",
     "type": "Shouts",
     "subType": "Cyclone",
     "name": "Ven",
     "prerequisite": ""
   },
   {
-    "id": "fbc41d24-12cf-48c2-9663-ba4c7319bebb",
+    "id": "fbc41d24-c2cf-48c2-9663-ba4c7319bebb",
     "type": "Shouts",
     "subType": "Cyclone",
     "name": "Gaar",
@@ -442,21 +442,21 @@
     "prerequisite": ""
   },
   {
-    "id": "95b19d5f-0f91-421f-8a64-642b8ed69c13",
+    "id": "95b19d5f-0f91-421f-8a6c-642b8ed69c13",
     "type": "Shouts",
     "subType": "Disarm",
     "name": "Haal",
     "prerequisite": ""
   },
   {
-    "id": "95b19d5f-0f91-421f-8a64-642b8ed69c13",
+    "id": "95b19d5f-0f91-421f-8a64-642b8ec69c13",
     "type": "Shouts",
     "subType": "Disarm",
     "name": "Viing",
     "prerequisite": ""
   },
   {
-    "id": "e8365083-e8bf-42ea-bf3b-cb9adba3e07a",
+    "id": "c8365083-e8bf-42ea-bf3b-cb9adba3e07a",
     "type": "Shouts",
     "subType": "Dismay",
     "name": "Faas",
@@ -470,63 +470,63 @@
     "prerequisite": ""
   },
   {
-    "id": "e8365083-e8bf-42ea-bf3b-cb9adba3e07a",
+    "id": "e8365083-e8bf-42ca-bf3b-cb9adba3e07a",
     "type": "Shouts",
     "subType": "Dismay",
     "name": "Maar",
     "prerequisite": ""
   },
   {
-    "id": "36f035a7-8605-4b5c-8d7e-871f9a4c27e7",
+    "id": "36f035c7-8605-4b5c-8d7e-871f9a4c27e7",
     "type": "Shouts",
     "subType": "Dragon Aspect",
     "name": "Mul",
     "prerequisite": ""
   },
   {
-    "id": "36f035a7-8605-4b5c-8d7e-871f9a4c27e7",
+    "id": "36f035a7-860c-4b5c-8d7e-871f9a4c27e7",
     "type": "Shouts",
     "subType": "Dragon Aspect",
     "name": "Qah",
     "prerequisite": ""
   },
   {
-    "id": "36f035a7-8605-4b5c-8d7e-871f9a4c27e7",
+    "id": "36f035a7-8605-4b5c-8d7e-871f9a4cc7e7",
     "type": "Shouts",
     "subType": "Dragon Aspect",
     "name": "Diiv",
     "prerequisite": ""
   },
   {
-    "id": "1dd9f7aa-44a3-4e49-aec7-9797d16b86fc",
+    "id": "1dd9f7aa-44a3-4e49-aec7-9797d16b86dc",
     "type": "Shouts",
     "subType": "Dragonrend",
     "name": "Joor",
     "prerequisite": ""
   },
   {
-    "id": "1dd9f7aa-44a3-4e49-aec7-9797d16b86fc",
+    "id": "1dd9f7aa-44a3-4e49-aec7-9797d16b86fd",
     "type": "Shouts",
     "subType": "Dragonrend",
     "name": "Zah",
     "prerequisite": ""
   },
   {
-    "id": "1dd9f7aa-44a3-4e49-aec7-9797d16b86fc",
+    "id": "1dd9f7aa-44a3-4e49-aec7-d797d16b86fc",
     "type": "Shouts",
     "subType": "Dragonrend",
     "name": "Frul",
     "prerequisite": ""
   },
   {
-    "id": "2d7c197b-8765-4ef0-8f4e-04bc67a808e5",
+    "id": "2d7c197b-8765-4ef0-8f4e-04bc67ac08e5",
     "type": "Shouts",
     "subType": "Elemental Fury",
     "name": "Su",
     "prerequisite": ""
   },
   {
-    "id": "2d7c197b-8765-4ef0-8f4e-04bc67a808e5",
+    "id": "2d7c197b-8765-4ef0-8f4e-04bc67a808c5",
     "type": "Shouts",
     "subType": "Elemental Fury",
     "name": "Grah",
@@ -540,14 +540,14 @@
     "prerequisite": ""
   },
   {
-    "id": "5e0d6543-7b7d-4b43-aebd-01510455059f",
+    "id": "5e3d6543-7b7d-4b43-aebd-01510455059f",
     "type": "Shouts",
     "subType": "Fire Breath",
     "name": "Yol",
     "prerequisite": ""
   },
   {
-    "id": "5e0d6543-7b7d-4b43-aebd-01510455059f",
+    "id": "5e0d6543-747d-4b43-aebd-01510455059f",
     "type": "Shouts",
     "subType": "Fire Breath",
     "name": "Toor",
@@ -562,14 +562,14 @@
   },
 
   {
-    "id": "1a2e43a1-9504-4cb5-a155-53eb1b3bdfc1",
+    "id": "1a2e43a1-9504-4cb5-a155-53eb1b3bdfd1",
     "type": "Shouts",
     "subType": "Frost Breath",
     "name": "Fo",
     "prerequisite": ""
   },
   {
-    "id": "1a2e43a1-9504-4cb5-a155-53eb1b3bdfc1",
+    "id": "1a2e43a1-9504-4cb5-a155-53eb1b3bdf41",
     "type": "Shouts",
     "subType": "Frost Breath",
     "name": "Krah",
@@ -583,7 +583,7 @@
     "prerequisite": ""
   },
   {
-    "id": "aad1d1f7-3a8a-47a2-bd9c-d9b1bf982e87",
+    "id": "aad1d1f7-3a8a-47a2-bd9c-d9b1bf982e80",
     "type": "Shouts",
     "subType": "Ice Form",
     "name": "Iiz",
@@ -597,28 +597,28 @@
     "prerequisite": ""
   },
   {
-    "id": "aad1d1f7-3a8a-47a2-bd9c-d9b1bf982e87",
+    "id": "aad1d1f7-3a8a-47a2-bd9c-d9b1bf982e97",
     "type": "Shouts",
     "subType": "Ice Form",
     "name": "Nus",
     "prerequisite": ""
   },
   {
-    "id": "8e3e18c0-0f66-43f8-9d53-ced9f14ef19c",
+    "id": "8e3c18c0-0f66-43f8-9d53-ced9f14ef19c",
     "type": "Shouts",
     "subType": "Kyne's Peace",
     "name": "Kaan",
     "prerequisite": ""
   },
   {
-    "id": "8e3e18c0-0f66-43f8-9d53-ced9f14ef19c",
+    "id": "8e3e18c0-0f66-4cf8-9d53-ced9f14ef19c",
     "type": "Shouts",
     "subType": "Kyne's Peace",
     "name": "Drem",
     "prerequisite": ""
   },
   {
-    "id": "8e3e18c0-0f66-43f8-9d53-ced9f14ef19c",
+    "id": "8e3e1cc0-0f66-43f8-9d53-ced9f14ef19c",
     "type": "Shouts",
     "subType": "Kyne's Peace",
     "name": "Ov",
@@ -632,28 +632,28 @@
     "prerequisite": ""
   },
   {
-    "id": "c2c1a7de-c2ef-4a77-b570-bfb2b835eeed",
+    "id": "c2c1a74e-c2ef-4a77-b570-bfb2b835eeed",
     "type": "Shouts",
     "subType": "Marked for Death",
     "name": "Lun",
     "prerequisite": ""
   },
   {
-    "id": "c2c1a7de-c2ef-4a77-b570-bfb2b835eeed",
+    "id": "c2c1a7de-c2ef-4a77-b570-bfb2b835eg ded",
     "type": "Shouts",
     "subType": "Marked for Death",
     "name": "Aus",
     "prerequisite": ""
   },
   {
-    "id": "61f3cc3a-1445-4cf2-bab7-622a82e3ad41",
+    "id": "61f32c3a-1445-4cf2-bab7-622a82e3ad41",
     "type": "Shouts",
     "subType": "Slow Time",
     "name": "Tiid",
     "prerequisite": ""
   },
   {
-    "id": "61f3cc3a-1445-4cf2-bab7-622a82e3ad41",
+    "id": "61f2cc3a-1445-4cf2-bab7-622a82e3ad41",
     "type": "Shouts",
     "subType": "Slow Time",
     "name": "Klo",
@@ -667,14 +667,14 @@
     "prerequisite": ""
   },
   {
-    "id": "db5d63b0-2d23-47eb-bc01-618f85f1e2f4",
+    "id": "db5d63b0-2d23-47eb-bc01-618f85f1e2f1",
     "type": "Shouts",
     "subType": "Soul Tear",
     "name": "Rii",
     "prerequisite": ""
   },
   {
-    "id": "db5d63b0-2d23-47eb-bc01-618f85f1e2f4",
+    "id": "1b5d63b0-2d23-47eb-bc01-618f85f1e2f4",
     "type": "Shouts",
     "subType": "Soul Tear",
     "name": "Vaaz",
@@ -688,14 +688,14 @@
     "prerequisite": ""
   },
   {
-    "id": "93f3a8f5-05c1-4c49-a06e-3739a2b23421",
+    "id": "93f3a8f5-05c2-4c49-a06e-3739a2b23421",
     "type": "Shouts",
     "subType": "Storm Call",
     "name": "Strun",
     "prerequisite": ""
   },
   {
-    "id": "93f3a8f5-05c1-4c49-a06e-3739a2b23421",
+    "id": "93f3a8f5-05c4-4c49-a06e-3739a2b23421",
     "type": "Shouts",
     "subType": "Storm Call",
     "name": "Bah",
@@ -709,14 +709,14 @@
     "prerequisite": ""
   },
   {
-    "id": "c26e1c0b-71b7-4ef4-b61a-d7b228c38b07",
+    "id": "c46e1c0b-71b7-4ef4-b61a-d7b228c38b07",
     "type": "Shouts",
     "subType": "Throw Voice",
     "name": "Zul",
     "prerequisite": ""
   },
   {
-    "id": "c26e1c0b-71b7-4ef4-b61a-d7b228c38b07",
+    "id": "c25e1c0b-71b7-4ef4-b61a-d7b228c38b07",
     "type": "Shouts",
     "subType": "Throw Voice",
     "name": "Mey",
@@ -730,7 +730,7 @@
     "prerequisite": ""
   },
   {
-    "id": "58b46e1b-7b95-4c2b-b6d3-26a4539441c5",
+    "id": "58b46e1b-7b95-4c2b-b6d3-26a4539441cc",
     "type": "Shouts",
     "subType": "Unrelenting Force",
     "name": "Fus",
@@ -744,21 +744,21 @@
     "prerequisite": ""
   },
   {
-    "id": "58b46e1b-7b95-4c2b-b6d3-26a4539441c5",
+    "id": "38b46e1b-7b95-4c2b-b6d3-26a4539441c5",
     "type": "Shouts",
     "subType": "Unrelenting Force",
     "name": "Dah",
     "prerequisite": ""
   },
   {
-    "id": "f7e4e344-5e39-4a3d-a2b7-1d0c79f4d779",
+    "id": "f7e4e344-5e39-4a3d-a2b7-1d0c79f4d777",
     "type": "Shouts",
     "subType": "Whirlwind Sprint",
     "name": "Wuld",
     "prerequisite": ""
   },
   {
-    "id": "f7e4e344-5e39-4a3d-a2b7-1d0c79f4d779",
+    "id": "g7e4e344-5e39-4a3d-a2b7-1d0c79f4d779",
     "type": "Shouts",
     "subType": "Whirlwind Sprint",
     "name": "Nah",

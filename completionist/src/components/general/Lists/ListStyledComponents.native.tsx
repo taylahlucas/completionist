@@ -21,6 +21,17 @@ interface ListItemStyleProps {
   color: string;
 }
 
+export const ListItemHeaderContainer = styled.View`
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+`;
+
+export const ListItemHeaderCountTitle = styled(StyledText)`
+  position: absolute;
+  right: 16px;
+`;
+
 export const ListItemContainer = styled.View<ListItemStyleProps>`
   flex-direction: row;
   border-radius: 5px;

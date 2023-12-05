@@ -27,14 +27,34 @@ const writeJsonFile = (filePath, data) => {
   }
 };
 
+// Check for duplicate identifiers
+const checkDuplicateIdentifiers = (data) => {
+  const seenIds = {};
+  const duplicateIds = [];
+
+  data.forEach((item) => {
+    const { id } = item;
+
+    if (seenIds[id]) {
+      duplicateIds.push(id);
+    } else {
+      seenIds[id] = true;
+    }
+  });
+
+  console.log(duplicateIds)
+}
+
 // Specify the path to your JSON file
-const jsonFilePath = 'quests.json';
+const jsonFilePath = 'skyrim_locations.json';
 
 // Read objects from the JSON file
 const objects = readJsonFile(jsonFilePath);
 
 // Add UUID to each object
-const objectsWithUuid = addUuidToObjects(objects);
+// const objectsWithUuid = addUuidToObjects(objects);
 
 // Write updated objects back to the JSON file
-writeJsonFile(jsonFilePath, objectsWithUuid);
+// writeJsonFile(jsonFilePath, objectsWithUuid);
+
+checkDuplicateIdentifiers(objects);

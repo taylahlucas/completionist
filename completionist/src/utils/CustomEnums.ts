@@ -9,4 +9,5 @@ export enum ScreenEnum {
 export enum IconTypeEnum {
   MaterialIcons = 'MaterialIcons',
   Ionicons = 'Ionicons',
+  FontAwesome = 'FontAwesome'
 }

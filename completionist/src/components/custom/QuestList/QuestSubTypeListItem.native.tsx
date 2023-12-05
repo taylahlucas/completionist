@@ -7,6 +7,7 @@ import QuestListItem from './QuestListItem.native';
 import Condition from '@components/general/Condition.native';
 import useGetQuests from './hooks/useGetQuests.native';
 import useMainState from 'src/redux/hooks/useMainState.native';
+import useCheckQuestComplete from './hooks/useCheckQuestComplete.native';
 
 export interface QuestListSubItemTypeProps {
   category: string;
@@ -19,6 +20,7 @@ const QuestSubTypeListItem = ({ category, type }: QuestListSubItemTypeProps) => 
   const [isOpen, setIsOpen] = useState<boolean>(false);
   const { getQuestsForSubCategory } = useGetQuests();
   const quests = getQuestsForSubCategory(category, type === 'Main' ? '' : type);
+  const { checkQuestComplete } = useCheckQuestComplete();
   
   return (
     <Condition condition={quests.length > 0}>
@@ -33,9 +35,11 @@ const QuestSubTypeListItem = ({ category, type }: QuestListSubItemTypeProps) => 
         {quests?.map((quest, index) => (
           <QuestListItem 
             key={index}
+            id={quest.id}
             title={quest.title}
             location={quest.location}
             hold={quest.hold}
+            isComplete={checkQuestComplete(quest.id)}
           />
         ))}
         </QuestListSubItemContainer> 

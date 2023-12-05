@@ -16,9 +16,14 @@ const useGetQuests = () => {
     return filteredQuests.filter(quest => quest.mainCategory === mainCategory);
   }
 
+  const getAllQuestsForCategory = (mainCategory: string): SkyrimQuest[] => {
+    return mappedQuests.filter(quest => quest.mainCategory === mainCategory);
+  }
+
   return {
     getQuestsForSubCategory,
-    getQuestsForCategory
+    getQuestsForCategory,
+    getAllQuestsForCategory
   }
 };
 export default useGetQuests;

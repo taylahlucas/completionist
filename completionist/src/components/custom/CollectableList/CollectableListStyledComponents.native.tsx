@@ -1,5 +1,4 @@
 import { Dimensions } from 'react-native';
-import CheckBox from '@react-native-community/checkbox';
 import styled from 'styled-components/native';
 import StyledText from '../../general/Text/StyledText.native';
 
@@ -31,12 +30,7 @@ export const CollectableListItemContainer = styled.View<CollectableListItemStyle
   width: ${() => Dimensions.get('window').width - 50}px;
   background-color: ${props => props.color};
 `;
-
-export const CollectableListItemCheckBox = styled(CheckBox)`
-  width: 30px;
-  height: 30px;
-  margin-right: 16px;
-`;
+ 
 export const CollectableListItemTitle = styled(StyledText)<CollectableListItemStyleProps>`
   font-size: 16px;
   flex-wrap: wrap;

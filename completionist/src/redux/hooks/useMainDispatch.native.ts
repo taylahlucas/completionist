@@ -2,15 +2,21 @@ import { Dispatch } from 'redux';
 import { 
   setSearchValue, 
   triggerShowSearchResults, 
-  reset,
-  setCompletedBookIds
+  setCompletedQuestIds,
+  setCompletedCollectableIds,
+  setCompletedBookIds,
+  setCompletedLocationIds,
+  reset
 } from '../MainState.native';
 import { useAppDispatch } from '../store.native';
 
 interface MainDispatch {
   setSearchValue: (value: string) => void;
   triggerShowSearchResults: (value: boolean) => void;
+  setCompletedQuestIds: (value: string[]) => void;
+  setCompletedCollectableIds: (value: string[]) => void;
   setCompletedBookIds: (value: string[]) => void;
+  setCompletedLocationIds: (value: string[]) => void;
   reset: () => void;
 }
 
@@ -24,8 +30,17 @@ const useMainDispatch = (): MainDispatch => {
     triggerShowSearchResults(value: boolean): void {
       dispatch(triggerShowSearchResults(value));
     },
+    setCompletedQuestIds(value: string[]): void {
+      dispatch(setCompletedQuestIds(value));
+    },
+    setCompletedCollectableIds(value: string[]): void {
+      dispatch(setCompletedCollectableIds(value));
+    },
     setCompletedBookIds(value: string[]): void {
       dispatch(setCompletedBookIds(value));
+    },
+    setCompletedLocationIds(value: string[]): void {
+      dispatch(setCompletedLocationIds(value));
     },
     reset(): void {
       dispatch(reset());
