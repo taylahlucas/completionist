@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { QuestListSubItemContainer } from './QuestListStyledComponents.native';
 import useGetTheme from '../../../styles/hooks/useGetTheme';
 import Dropdown from '../../general/Dropdown/Dropdown.native';
