@@ -5,7 +5,7 @@ import styled from 'styled-components/native';
 
 export default StyleSheet.create({
   drawerContainer: {
-    width: 200
+    width: 230
   },
   contentContainer: {
     minHeight: '100%'
@@ -20,6 +20,17 @@ export const NavigationHeaderContainer = styled.View`
   width: 100%;
   flex-direction: row;
   margin-top: 32px;
+`;
+
+export const NavigationHeaderTitleContainer = styled.Pressable`
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 16px;
+`;
+
+export const NavigationHeaderSubTitle = styled(StyledText)`
+  margin-top: 4px;
 `;
 
 export const NavigationHeaderMenuButton = styled.Pressable`
