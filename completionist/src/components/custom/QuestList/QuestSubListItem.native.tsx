@@ -12,8 +12,8 @@ export interface QuestSubListItemProps {
 }
 
 const QuestSubListItem = ({ category }: QuestSubListItemProps) => {
-  const { searchValue, showSearchResults } = useMainState();
-  const [isOpen, setIsOpen] = useState(searchValue.length >= 3);
+  const { showSearchResults } = useMainState();
+  const [isOpen, setIsOpen] = useState<boolean>(false);
   const subCategoryTypes = getQuestSubCategoriesTypes(category);
   
   return (
@@ -31,9 +31,9 @@ const QuestSubListItem = ({ category }: QuestSubListItemProps) => {
         <QuestSubTypeMainListItem category={category} isSubCategory={true} />
       </Condition>
 
-      {subCategoryTypes?.map((type) => {
+      {subCategoryTypes?.map((type, index) => {
         return (
-          <QuestSubTypeListItem category={category} type={type} />
+          <QuestSubTypeListItem key={index} category={category} type={type} />
         )
       })}
     </Dropdown>

@@ -11,7 +11,7 @@ export interface CollectableSubListItemProps {
 
 const CollectableSubListItem = ({ mainType, subType }: CollectableSubListItemProps) => {
   const { searchValue, showSearchResults } = useMainState();
-  const [isOpen, setIsOpen] = useState(searchValue.length >= 3);
+  const [isOpen, setIsOpen] = useState<boolean>(false);
 
   return (
     <Dropdown

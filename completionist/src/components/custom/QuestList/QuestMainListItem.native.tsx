@@ -14,9 +14,9 @@ export interface QuestMainListItemProps {
 }
 
 const QuestMainListItem = ({ category }: QuestMainListItemProps) => {
-  const { searchValue, showSearchResults } = useMainState();
+  const { showSearchResults } = useMainState();
   const { getQuestsForSubCategory } = useGetQuests();
-  const [isOpen, setIsOpen] = useState(searchValue.length >= 3);
+  const [isOpen, setIsOpen] = useState<boolean>(false);
   const subCategories = getQuestSubCategories(category);
 
   return (

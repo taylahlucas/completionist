@@ -1,7 +1,8 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import useGetTheme from '../../../styles/hooks/useGetTheme';
 import Condition from '../../general/Condition.native';
 import StyledText from '../../general/Text/StyledText.native';
+import useGetLocationString from './hooks/useGetLocationString.native';
 import { QuestListItemContainer, QuestListItemLocationContainer, QuestListItemTitle, QuestListItemCheckBox, QuestListItemContentContainer } from './QuestListStyledComponents.native';
 
 interface QuestListItemProps {
@@ -14,7 +15,7 @@ interface QuestListItemProps {
 const QuestListItem = ({ title, location, hold, customStyle }: QuestListItemProps) => {
   const theme = useGetTheme();
   const [toggle, setToggle] = useState<boolean>(false);
-  const locationString = `${location?.toLocaleUpperCase() ?? ''} - ${hold?.toLocaleUpperCase() ?? ''}`
+  const locationString = useGetLocationString({ hold, location });
   
   return (
     <QuestListItemContainer style={customStyle} color={theme.midGrey}>

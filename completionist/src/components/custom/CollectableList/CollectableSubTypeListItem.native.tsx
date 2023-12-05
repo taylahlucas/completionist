@@ -16,7 +16,7 @@ const CollectableSubTypeListItem = ({ category, type }: CollectableSubTypeListIt
   const theme = useGetTheme();
   const { searchValue, showSearchResults} = useMainState();
   const { getCollectablesForSubCategory } = useGetCollectables();
-  const [isOpen, setIsOpen] = useState(searchValue.length >= 3);
+  const [isOpen, setIsOpen] = useState<boolean>(false);
   const collectables = getCollectablesForSubCategory(category, type === 'Main' ? '' : type);
 
   return (

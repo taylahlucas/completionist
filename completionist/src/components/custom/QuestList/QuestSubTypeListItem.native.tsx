@@ -15,11 +15,11 @@ export interface QuestListSubItemTypeProps {
 
 const QuestSubTypeListItem = ({ category, type }: QuestListSubItemTypeProps) => {
   const theme = useGetTheme();
-  const { searchValue, showSearchResults } = useMainState();
-  const [isOpen, setIsOpen] = useState(searchValue.length >= 3);
+  const { showSearchResults } = useMainState();
+  const [isOpen, setIsOpen] = useState<boolean>(false);
   const { getQuestsForSubCategory } = useGetQuests();
   const quests = getQuestsForSubCategory(category, type === 'Main' ? '' : type);
-
+  
   return (
     <Condition condition={quests.length > 0}>
       <Dropdown

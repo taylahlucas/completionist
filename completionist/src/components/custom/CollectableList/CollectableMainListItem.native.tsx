@@ -15,8 +15,8 @@ export interface CollectableMainListItemProps {
 }
 
 const CollectableMainListItem = ({ category }: CollectableMainListItemProps) => {
-  const { searchValue, showSearchResults } = useMainState();
-  const [isOpen, setIsOpen] = useState(searchValue.length >= 3);
+  const { showSearchResults } = useMainState();
+  const [isOpen, setIsOpen] = useState<boolean>(false);
   const subCategories = getCollectableSubCategories(category);
   const { getCollectablesForSubCategory, getCollectablesForCategory } = useGetCollectables();
 

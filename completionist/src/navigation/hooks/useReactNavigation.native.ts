@@ -2,7 +2,7 @@ import { useRef } from 'react';
 import { DrawerActions as RNDrawerActions, ParamListBase } from '@react-navigation/routers';
 import { NavigationAction, NavigationState, useNavigation, useNavigationState } from '@react-navigation/native';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack/src/types';
-import { NativeNavigation } from '@utils/CustomTypes';
+import { NativeNavigation } from '@utils/CustomInterfaces';
 import { ScreenEnum } from '@utils/CustomEnums';
 
 export const DrawerActions = RNDrawerActions;

@@ -5,7 +5,7 @@ import Collectables from '@screens/Collectables.native';
 import Locations from '@screens/Locations.native';
 import Quests from '@screens/Quests.native';
 import { ScreenEnum } from '@utils/CustomEnums';
-import { RootDrawerParamList } from '@utils/CustomTypes';
+import { RootDrawerParamList } from '@utils/CustomInterfaces';
 import React from 'react';
 import NavigationDrawerBody from './NavigationDrawerBody.native';
 import style, { NavigationDrawerContainer } from './NavigationStyledComponents.native';

@@ -18,8 +18,7 @@ export const styles = StyleSheet.create({
     marginLeft: 16
   },
   textInput: {
-    // marginLeft: 48,    // with Icon
-    marginLeft: 16,
+    marginLeft: 48,
     marginRight: 16,
     fontSize: 17
   },
