@@ -21,6 +21,7 @@ const QuestSubListItem = ({ category, completed, total }: QuestSubListItemProps)
   const subCategoryTypes = getQuestSubCategoriesTypes(category);
   const { getQuestsForSubCategoryWithType } = useGetQuests();
   const { checkQuestsCompleteForCategory } = useCheckQuestComplete();
+  const mainQuests = getQuestsForSubCategoryWithType(category, '');
   
   return (
     <Dropdown
@@ -32,13 +33,20 @@ const QuestSubListItem = ({ category, completed, total }: QuestSubListItemProps)
     >
       <Condition 
         condition={subCategoryTypes?.length === 0}
-        conditionalElement={<QuestSubTypeListItem category={category} type={'Main'} completed={'0'} total={'0'} />}
+        conditionalElement={
+          <QuestSubTypeListItem 
+            category={category} 
+            type={'Main'} 
+            completed={checkQuestsCompleteForCategory(mainQuests).toString()} 
+            total={mainQuests.length.toString()} 
+          />
+        }
       >
         <QuestSubTypeMainListItem category={category} isSubCategory={true} />
       </Condition>
 
       {subCategoryTypes?.map((type, index) => {
-        const questsForType = getQuestsForSubCategoryWithType(type);
+        const questsForType = getQuestsForSubCategoryWithType(category, type);
         const completedQuests = checkQuestsCompleteForCategory(questsForType);
 
         return (
