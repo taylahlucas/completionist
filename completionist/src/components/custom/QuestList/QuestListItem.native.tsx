@@ -1,28 +1,62 @@
-import React, { useState } from 'react';
-import { QuestListItemContainer, QuestListItemLocationContainer, QuestListItemTitle, QuestListItemSubtitle, QuestListItemCheckBox } from './QuestListStyledComponents.native';
+import React from 'react';
+import useMainDispatch from '@redux/hooks/useMainDispatch';
+import useMainState from '@redux/hooks/useMainState';
+import useGetTheme from '@styles/hooks/useGetTheme';
+import Condition from '@components/general/Condition.native';
+import StyledText from '@components/general/Text/StyledText.native';
+import useGetLocationString from './hooks/useGetLocationString.native';
+import CheckBox from '@components/general/Checkbox/CheckBox.native';
+import { QuestListItemContainer, QuestListItemLocationContainer, QuestListItemTitle, QuestListItemContentContainer } from './QuestListStyledComponents.native';
 
 interface QuestListItemProps {
+  id: string;
   title: string;
   location?: string;
   hold?: string;
   customStyle?: any;
+  isComplete?: boolean;
 }
 
-const QuestListItem = ({ title, location, hold, customStyle }: QuestListItemProps) => {
-  const [toggle, setToggle] = useState<boolean>(false);
+const QuestListItem = ({ id, title, location, hold, customStyle, isComplete = false }: QuestListItemProps) => {
+  const theme = useGetTheme();
+  const { setCompletedQuestIds } = useMainDispatch();
+  const { completedQuestIds } = useMainState();
+  const locationString = useGetLocationString({ hold, location });
+  
+  const addOrRemoveQuest= () => {
+    if (isComplete) {
+      setCompletedQuestIds(completedQuestIds.filter(questId => questId !== id));
+    }
+    else {
+      const updateCompletedQuests = [...completedQuestIds, id]
+      setCompletedQuestIds(updateCompletedQuests);
+    }
+  };
   
   return (
-    <QuestListItemContainer style={customStyle}>
-      <QuestListItemCheckBox
-        disabled={false}
-        value={toggle}
-        onValueChange={(): void => setToggle(!toggle)}
-      />
-      <QuestListItemTitle>{title}</QuestListItemTitle>
-      <QuestListItemLocationContainer>
-        <QuestListItemSubtitle>{hold}</QuestListItemSubtitle>
-        <QuestListItemSubtitle>{location}</QuestListItemSubtitle>
-      </QuestListItemLocationContainer>
+    <QuestListItemContainer style={customStyle} color={isComplete ? theme.darkGrey : theme.midGrey}>
+      <QuestListItemContentContainer>
+        <QuestListItemTitle 
+          align={'left'} 
+          type={'ListItemSubTitle'} 
+          color={isComplete ? theme.midGrey : theme.lightestGrey}
+          ellipsizeMode={'tail'}
+          numberOfLines={1}
+        >{title}</QuestListItemTitle>
+        <Condition condition={!!location || !!hold}>
+          <QuestListItemLocationContainer>
+            <StyledText 
+              type={'ListItemSubDescription'} 
+              color={isComplete ? theme.midGrey : theme.darkGrey}
+              ellipsizeMode={'tail'}
+              numberOfLines={1}
+            >
+              {locationString}
+            </StyledText>
+          </QuestListItemLocationContainer>
+        </Condition>
+      </QuestListItemContentContainer>
+      <CheckBox isToggled={isComplete} action={() => addOrRemoveQuest()} />
     </QuestListItemContainer>
   );
 };

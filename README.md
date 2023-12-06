@@ -7,6 +7,8 @@ An app designed for game completionists which allows them to track their progres
 - npm install
 - npm start
 
+npx react-native run-ios --port 8002
+
 ## Backend
 
 - cd backend
@@ -16,9 +18,23 @@ An app designed for game completionists which allows them to track their progres
 # Packages
 
 - styled-components
- - @types/styled-components-react-native
+- @types/styled-components-react-native
+- react-native-vector-icons
+- @types/react-native-vector-icons
+
+- @react-navigation/native
+- @react-navigation/drawer
+- @react-navigation/native-stack
+- react-native-reanimated
+- react-native-gesture-handler
 
 - @react-native-community/checkbox
+- babel-plugin-module-resolver
+
+- react-redux
+- @reduxjs/toolkit
+- redux-logger && @types/redux-logger
+- react-dom
 
 - @react-native-google-signin/google-signin
 - @react-native-firebase/auth

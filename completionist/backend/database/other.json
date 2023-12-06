@@ -1,0 +1,267 @@
+{
+  "id": "a5a77a8d-3d55-4db1-b9f3-2c065b8b98f1",
+  "type": "Armour Sets",
+  "subType": "Heavy Armour",
+  "name": "Ancient Nord Armor",
+  "prerequisite": ""
+},
+{
+  "id": "7262c22c-4a8d-41fc-8d8d-8463a6f7af63",
+  "type": "Armour Sets",
+  "subType": "Heavy Armour",
+  "name": "Blades Armor",
+  "prerequisite": ""
+},
+{
+  "id": "ef450f91-574a-4929-9ef3-1a2ea3e4d765",
+  "type": "Armour Sets",
+  "subType": "Heavy Armour",
+  "name": "Bonemold Armor",
+  "prerequisite": ""
+},
+{
+  "id": "c11b4389-61e2-4a61-9c91-69ed2c1ac3a8",
+  "type": "Armour Sets",
+  "subType": "Heavy Armour",
+  "name": "Chitin Heavy Armor",
+  "prerequisite": ""
+},
+{
+  "id": "5d849b86-9a13-4a8e-b72b-5a81a3ce4d2c",
+  "type": "Armour Sets",
+  "subType": "Heavy Armour",
+  "name": "Daedric Armor",
+  "prerequisite": ""
+},
+{
+  "id": "236678d3-7a8a-4c58-bf55-dc43908ff9c8",
+  "type": "Armour Sets",
+  "subType": "Heavy Armour",
+  "name": "Dawnguard Heavy Armor",
+  "prerequisite": ""
+},
+{
+  "id": "ac83c8da-dab9-4c3c-b95e-aa34602854c0",
+  "type": "Armour Sets",
+  "subType": "Heavy Armour",
+  "name": "Dragonplate Armor",
+  "prerequisite": ""
+},
+{
+  "id": "3d4332fc-61fb-4955-9840-c22ccf615167",
+  "type": "Armour Sets",
+  "subType": "Heavy Armour",
+  "name": "Dwarven Armor",
+  "prerequisite": ""
+},
+{
+  "id": "f08f7f77-5ee1-4e6a-b1f4-69598b2e5567",
+  "type": "Armour Sets",
+  "subType": "Heavy Armour",
+  "name": "Ebony Armor",
+  "prerequisite": ""
+},
+{
+  "id": "145e2e3a-3f4f-4018-bd80-b2a97e2d3799",
+  "type": "Armour Sets",
+  "subType": "Heavy Armour",
+  "name": "Falmer Armor",
+  "prerequisite": ""
+},
+{
+  "id": "b432a161-e51f-4c63-97f0-ba2240d1d80f",
+  "type": "Armour Sets",
+  "subType": "Heavy Armour",
+  "name": "Falmer Heavy Armor",
+  "prerequisite": ""
+},
+{
+  "id": "2c02db8e-d743-4c14-ae60-350c87a4f59a",
+  "type": "Armour Sets",
+  "subType": "Heavy Armour",
+  "name": "Falmer Hardened Armor",
+  "prerequisite": ""
+},
+{
+  "id": "232b4a45-4392-4f57-8e55-7967f4e9184d",
+  "type": "Armour Sets",
+  "subType": "Heavy Armour",
+  "name": "Imperial Armor",
+  "prerequisite": ""
+},
+{
+  "id": "5e2296fe-1ee6-4ed2-80e7-bb0f8f7c4eb3",
+  "type": "Armour Sets",
+  "subType": "Heavy Armour",
+  "name": "Iron Armor",
+  "prerequisite": ""
+},
+{
+  "id": "6b5116a3-9ee4-4f26-95c5-c719d17e06c6",
+  "type": "Armour Sets",
+  "subType": "Heavy Armour",
+  "name": "Nordic Carved Armor",
+  "prerequisite": ""
+},
+{
+  "id": "3bf0ef3b-ebdd-4bfe-8687-4619816a1479",
+  "type": "Armour Sets",
+  "subType": "Heavy Armour",
+  "name": "Orcish Armor",
+  "prerequisite": ""
+},
+{
+  "id": "2a0e8653-74a7-4e01-a9ef-3d2620c28487",
+  "type": "Armour Sets",
+  "subType": "Heavy Armour",
+  "name": "Stalhrim Armor",
+  "prerequisite": ""
+},
+{
+  "id": "2281d34c-648a-45b4-b2db-e48e1f1e2a22",
+  "type": "Armour Sets",
+  "subType": "Heavy Armour",
+  "name": "Steel Armor",
+  "prerequisite": ""
+},
+{
+  "id": "8ac6c81c-44a4-4f9b-8749-362bb1c0918b",
+  "type": "Armour Sets",
+  "subType": "Heavy Armour",
+  "name": "Steel Plate Armor",
+  "prerequisite": ""
+},
+{
+  "id": "6c05e3b2-73fc-4efb-a65f-49c86265aa9f",
+  "type": "Armour Sets",
+  "subType": "Heavy Armour",
+  "name": "Wolf Armor",
+  "prerequisite": ""
+},
+
+{
+  "id": "c11b4389-61e2-4a61-9c91-69ed2c1ac3a8",
+  "type": "Armour Sets",
+  "subType": "Light Armour",
+  "name": "Chitin Armor",
+  "prerequisite": ""
+},
+{
+  "id": "5d849b86-9a13-4a8e-b72b-5a81a3ce4d2c",
+  "type": "Armour Sets",
+  "subType": "Light Armour",
+  "name": "Elven Armor",
+  "prerequisite": ""
+},
+{
+  "id": "236678d3-7a8a-4c58-bf55-dc43908ff9c8",
+  "type": "Armour Sets",
+  "subType": "Light Armour",
+  "name": "Forsworn Armor",
+  "prerequisite": ""
+},
+{
+  "id": "f08f7f77-5ee1-4e6a-b1f4-69598b2e5567",
+  "type": "Armour Sets",
+  "subType": "Light Armour",
+  "name": "Fur Armor",
+  "prerequisite": ""
+},
+{
+  "id": "145e2e3a-3f4f-4018-bd80-b2a97e2d3799",
+  "type": "Armour Sets",
+  "subType": "Light Armour",
+  "name": "Glass Armor",
+  "prerequisite": ""
+},
+{
+  "id": "b432a161-e51f-4c63-97f0-ba2240d1d80f",
+  "type": "Armour Sets",
+  "subType": "Light Armour",
+  "name": "Dawnguard Armor",
+  "prerequisite": ""
+},
+{
+  "id": "232b4a45-4392-4f57-8e55-7967f4e9184d",
+  "type": "Armour Sets",
+  "subType": "Light Armour",
+  "name": "Dragonscale Armor",
+  "prerequisite": ""
+},
+{
+  "id": "5e2296fe-1ee6-4ed2-80e7-bb0f8f7c4eb3",
+  "type": "Armour Sets",
+  "subType": "Light Armour",
+  "name": "Hide Armor",
+  "prerequisite": ""
+},
+{
+  "id": "6b5116a3-9ee4-4f26-95c5-c719d17e06c6",
+  "type": "Armour Sets",
+  "subType": "Light Armour",
+  "name": "Imperial Light Armor",
+  "prerequisite": ""
+},
+{
+  "id": "3bf0ef3b-ebdd-4bfe-8687-4619816a1479",
+  "type": "Armour Sets",
+  "subType": "Light Armour",
+  "name": "Leather Armor",
+  "prerequisite": ""
+},
+{
+  "id": "f792a6ba-399c-46e3-9b72-1f1e8d77f7f0",
+  "type": "Armour Sets",
+  "subType": "Light Armour",
+  "name": "Morag Tong Armor",
+  "prerequisite": ""
+},
+{
+  "id": "af0e2a23-5e19-4c12-a4f7-103cf3c079c8",
+  "type": "Armour Sets",
+  "subType": "Light Armour",
+  "name": "Penitus Oculatus Armor",
+  "prerequisite": ""
+},
+{
+  "id": "ac83c8da-dab9-4c3c-b95e-aa34602854c0",
+  "type": "Armour Sets",
+  "subType": "Light Armour",
+  "name": "Scaled Armor",
+  "prerequisite": ""
+},
+{
+  "id": "2c02db8e-d743-4c14-ae60-350c87a4f59a",
+  "type": "Armour Sets",
+  "subType": "Light Armour",
+  "name": "Shrouded Armor",
+  "prerequisite": ""
+},
+{
+  "id": "232b4a45-4392-4f57-8e55-7967f4e9184d",
+  "type": "Armour Sets",
+  "subType": "Light Armour",
+  "name": "Skaal Armor",
+  "prerequisite": ""
+},
+{
+  "id": "f08f7f77-5ee1-4e6a-b1f4-69598b2e5567",
+  "type": "Armour Sets",
+  "subType": "Light Armour",
+  "name": "Stalhrim Light Armor",
+  "prerequisite": ""
+},
+{
+  "id": "145e2e3a-3f4f-4018-bd80-b2a97e2d3799",
+  "type": "Armour Sets",
+  "subType": "Light Armour",
+  "name": "Stormcloak Armor",
+  "prerequisite": ""
+},
+{
+  "id": "b432a161-e51f-4c63-97f0-ba2240d1d80f",
+  "type": "Armour Sets",
+  "subType": "Light Armour",
+  "name": "Stormcloak Officer Armor",
+  "prerequisite": ""
+}

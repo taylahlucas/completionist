@@ -1,36 +1,50 @@
 import React, { useState } from 'react';
-import { Text } from 'react-native';
-import { getQuestsForSubCategory } from '../../../data/functions.native';
-import Dropdown from '../../general/Dropdown/Dropdown.native';
+import { QuestListSubItemContainer } from './QuestListStyledComponents.native';
+import Dropdown from '@components/general/Dropdown/Dropdown.native';
 import QuestListItem from './QuestListItem.native';
+import Condition from '@components/general/Condition.native';
+import useGetQuests from './hooks/useGetQuests.native';
+import useMainState from '@redux/hooks/useMainState';
+import useCheckQuestComplete from './hooks/useCheckQuestComplete.native';
+import SubTypeListHeader from '@components/general/Lists/SubTypeListHeader.native';
 
 export interface QuestListSubItemTypeProps {
   category: string;
   type: string;
+  completed: string;
+  total: string;
 }
 
-const QuestSubTypeListItem = ({ category, type }: QuestListSubItemTypeProps) => {
-  const [isOpen, setIsOpen] = useState(false);
-  const quests = getQuestsForSubCategory(category, type)
-
+const QuestSubTypeListItem = ({ category, type, completed, total }: QuestListSubItemTypeProps) => {
+  const { showSearchResults } = useMainState();
+  const [isOpen, setIsOpen] = useState<boolean>(false);
+  const { getQuestsForSubCategoryWithType } = useGetQuests();
+  const quests = getQuestsForSubCategoryWithType(category, type === 'Main' ? '' : type);
+  const { checkQuestComplete } = useCheckQuestComplete();
+  
   return (
-    <Dropdown
-      isOpen={isOpen}
-      setOpen={() => setIsOpen(!isOpen)}
-      header={
-        <Text style={{ color: 'red', padding: 8, marginLeft: 8 }}>{type}</Text>
-      }
-    >
-      {quests?.map((quest, index) => (
-        <QuestListItem 
-          key={index}
-          title={quest.title}
-          location={quest.location}
-          hold={quest.hold}
-        />
-      ))}
-
-    </Dropdown>
+    <Condition condition={quests.length > 0}>
+      <Dropdown
+        isOpen={showSearchResults || isOpen}
+        setOpen={() => setIsOpen(!isOpen)}
+        header={
+          <SubTypeListHeader title={type} completed={completed} total={total} />
+        }
+      >
+      <QuestListSubItemContainer>
+        {quests?.map((quest, index) => (
+          <QuestListItem 
+            key={index}
+            id={quest.id}
+            title={quest.title}
+            location={quest.location}
+            hold={quest.hold}
+            isComplete={checkQuestComplete(quest.id)}
+          />
+        ))}
+        </QuestListSubItemContainer> 
+      </Dropdown>
+    </Condition>
   );
 };
 

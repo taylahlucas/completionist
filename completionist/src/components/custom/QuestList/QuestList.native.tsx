@@ -1,17 +1,41 @@
-import React from 'react';
-import ScrollableList from '../../general/Lists/ScrollableList.native';
-import { getQuestCategories } from '../../../data/functions.native';
+import React, { useEffect } from 'react';
+import { getQuestCategories } from '@data/functions';
 import QuestMainListItem from './QuestMainListItem.native';
-
+import ScrollableList from '@components/general/Lists/ScrollableList.native';
+import Condition from '@components/general/Condition.native';
+import useGetQuests from './hooks/useGetQuests.native';
+import useMainDispatch from '@redux/hooks/useMainDispatch';
+import useMainState from '@redux/hooks/useMainState';
+import useCheckQuestComplete from './hooks/useCheckQuestComplete.native';
 
 const QuestList = () => {
+  const { triggerShowSearchResults } = useMainDispatch();
+  const { searchValue } = useMainState();
   const questCategories = getQuestCategories();
-  
+  const { getQuestsForCategory, getAllQuestsForCategory } = useGetQuests();
+  const { checkQuestsCompleteForCategory } = useCheckQuestComplete();
+
+  useEffect(() => {
+    triggerShowSearchResults(searchValue.length >= 3);
+  }, [searchValue])
+
   return (
     <ScrollableList>
-      {questCategories.map((category: string, index: number) => (
-        <QuestMainListItem key={index} category={category} />
-      ))}
+      {questCategories.map((category: string, index: number) => {
+        const allQuestsForCategory = getAllQuestsForCategory(category)
+        const completedQuests = checkQuestsCompleteForCategory(allQuestsForCategory)
+
+        return (
+          <Condition key={index} condition={getQuestsForCategory(category).length > 0}>
+            <QuestMainListItem 
+              key={index} 
+              category={category}
+              completed={completedQuests.toString()}
+              total={allQuestsForCategory.length.toString()} 
+            />
+          </Condition>
+        )
+      })}
     </ScrollableList>
   );
 };

@@ -1,6 +1,8 @@
 import React from 'react';
-import { getQuestsForCategory, getQuestsForSubCategory } from '../../../data/functions.native';
+import { QuestListSubItemContainer } from './QuestListStyledComponents.native';
 import QuestListItem from './QuestListItem.native';
+import useGetQuests from './hooks/useGetQuests.native';
+import useCheckQuestComplete from '../QuestList/hooks/useCheckQuestComplete.native';
 
 export interface QuestSubTypeMainListItemProps {
   category: string;
@@ -8,19 +10,23 @@ export interface QuestSubTypeMainListItemProps {
 }
 
 const QuestSubTypeMainListItem = ({ category, isSubCategory = false }: QuestSubTypeMainListItemProps) => {
-  const quests = isSubCategory ? getQuestsForSubCategory(category) : getQuestsForCategory(category);
+  const { getQuestsForSubCategoryWithType, getQuestsForCategory} = useGetQuests();
+  const quests = isSubCategory ? getQuestsForSubCategoryWithType(category) : getQuestsForCategory(category);
+  const { checkQuestComplete } = useCheckQuestComplete();
   
   return (
-    <>
+    <QuestListSubItemContainer>
       {quests?.map((quest, index) => (
         <QuestListItem 
           key={index}
+          id={quest.id}
           title={quest.title}
           location={quest.location}
           hold={quest.hold}
+          isComplete={checkQuestComplete(quest.id)}
         />
       ))}
-    </>
+    </QuestListSubItemContainer>
   );
 };
 
