@@ -47,7 +47,7 @@ const QuestListItem = ({ id, title, location, hold, customStyle, isComplete = fa
           <QuestListItemLocationContainer>
             <StyledText 
               type={'ListItemSubDescription'} 
-              color={theme.darkGrey}
+              color={isComplete ? theme.midGrey : theme.darkGrey}
               ellipsizeMode={'tail'}
               numberOfLines={1}
             >

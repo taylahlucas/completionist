@@ -1,29 +1,30 @@
 import React from 'react';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import { ListItemContainer, ListItemTitle } from './ListStyledComponents.native';
+import CheckBox from '../Checkbox/CheckBox.native';
 
 interface ListItemProps {
+  id: string;
   name: string;
-  isCompleted?: boolean;
+  isComplete?: boolean;
   action: () => void;
 }
 
-const ListItem = ({ name, isCompleted = false, action }: ListItemProps) => {
+const ListItem = ({ name, isComplete = false, action }: ListItemProps) => {
   const theme = useGetTheme();
-  // const [toggled, setToggled] = useState<boolean>(false);
 
   return (
-    <ListItemContainer color={isCompleted ? theme.darkGrey : theme.midGrey}>
+    <ListItemContainer color={isComplete ? theme.darkGrey : theme.midGrey}>
       <ListItemTitle
         align={'left'}
         type={'ListItemSubTitle'} 
         ellipsizeMode={'tail'}
         numberOfLines={1}
-        color={isCompleted ? theme.midGrey : theme.lightestGrey}
+        color={isComplete ? theme.midGrey : theme.lightestGrey}
       >
         {name}
       </ListItemTitle>
-      {/* <CheckBox isToggled={isCompleted} action={action} /> */}
+      <CheckBox isToggled={isComplete} action={action} />
     </ListItemContainer>
   );
 };

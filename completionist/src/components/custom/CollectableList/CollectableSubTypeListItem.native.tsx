@@ -3,9 +3,11 @@ import { CollectableListSubItemContainer } from './CollectableListStyledComponen
 import useGetTheme from '@styles/hooks/useGetTheme';
 import Dropdown from '@components/general/Dropdown/Dropdown.native';
 import StyledText from '@components/general/Text/StyledText.native';
-import CollectableListItem from './CollectableListItem.native';
 import useGetCollectables from './hooks/useGetColletables.native';
 import useMainState from '@redux/hooks/useMainState';
+import ListItem from '@components/general/Lists/ListItem.native';
+import useCheckCollectableComplete from './hooks/useCheckCollectableComplete.native';
+import useMainDispatch from '@redux/hooks/useMainDispatch';
 
 export interface CollectableSubTypeListItemProps {
   category: string;
@@ -14,10 +16,12 @@ export interface CollectableSubTypeListItemProps {
 
 const CollectableSubTypeListItem = ({ category, type }: CollectableSubTypeListItemProps) => {
   const theme = useGetTheme();
-  const { searchValue, showSearchResults} = useMainState();
+  const { setCompletedCollectableIds } = useMainDispatch();
+  const { completedCollectableIds, showSearchResults} = useMainState();
   const { getCollectablesForSubCategory } = useGetCollectables();
   const [isOpen, setIsOpen] = useState<boolean>(false);
   const collectables = getCollectablesForSubCategory(category, type === 'Main' ? '' : type);
+  const { checkCollectableComplete } = useCheckCollectableComplete()
 
   return (
     <Dropdown
@@ -29,9 +33,20 @@ const CollectableSubTypeListItem = ({ category, type }: CollectableSubTypeListIt
     >
      <CollectableListSubItemContainer>
       {collectables?.map((collectable, index) => (
-        <CollectableListItem 
+        <ListItem 
           key={index}
+          id={collectable.id}
           name={collectable.name}
+          isComplete={checkCollectableComplete(collectable.id)}
+          action={((): void => {
+            if (checkCollectableComplete(collectable.id)) {
+              setCompletedCollectableIds(completedCollectableIds.filter(collectableId => collectableId !== collectable.id));
+            }
+            else {
+              const updateCompletedCollectables = [...completedCollectableIds, collectable.id]
+              setCompletedCollectableIds(updateCompletedCollectables);
+            }
+          })}
         />
       ))}
       </CollectableListSubItemContainer> 
