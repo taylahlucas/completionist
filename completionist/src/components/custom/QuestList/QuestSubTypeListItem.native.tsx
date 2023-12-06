@@ -1,25 +1,25 @@
 import React, { useState } from 'react';
 import { QuestListSubItemContainer } from './QuestListStyledComponents.native';
-import useGetTheme from '@styles/hooks/useGetTheme';
 import Dropdown from '@components/general/Dropdown/Dropdown.native';
-import StyledText from '@components/general/Text/StyledText.native';
 import QuestListItem from './QuestListItem.native';
 import Condition from '@components/general/Condition.native';
 import useGetQuests from './hooks/useGetQuests.native';
 import useMainState from '@redux/hooks/useMainState';
 import useCheckQuestComplete from './hooks/useCheckQuestComplete.native';
+import SubTypeListHeader from '@components/general/Lists/SubTypeListHeader.native';
 
 export interface QuestListSubItemTypeProps {
   category: string;
   type: string;
+  completed: string;
+  total: string;
 }
 
-const QuestSubTypeListItem = ({ category, type }: QuestListSubItemTypeProps) => {
-  const theme = useGetTheme();
+const QuestSubTypeListItem = ({ category, type, completed, total }: QuestListSubItemTypeProps) => {
   const { showSearchResults } = useMainState();
   const [isOpen, setIsOpen] = useState<boolean>(false);
-  const { getQuestsForSubCategory } = useGetQuests();
-  const quests = getQuestsForSubCategory(category, type === 'Main' ? '' : type);
+  const { getQuestsForSubCategoryWithType } = useGetQuests();
+  const quests = getQuestsForSubCategoryWithType(category, type === 'Main' ? '' : type);
   const { checkQuestComplete } = useCheckQuestComplete();
   
   return (
@@ -28,7 +28,7 @@ const QuestSubTypeListItem = ({ category, type }: QuestListSubItemTypeProps) => 
         isOpen={showSearchResults || isOpen}
         setOpen={() => setIsOpen(!isOpen)}
         header={
-          <StyledText align={'left'} type={'ListItemSubTitleBold'} color={theme.lightGrey} style={{ padding: 16, marginLeft: 32 }}>{type}</StyledText>
+          <SubTypeListHeader title={type} completed={completed} total={total} />
         }
       >
       <QuestListSubItemContainer>

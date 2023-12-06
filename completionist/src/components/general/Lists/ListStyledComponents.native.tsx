@@ -32,6 +32,11 @@ export const ListItemHeaderCountTitle = styled(StyledText)`
   right: 16px;
 `;
 
+export const SubListHeaderTitle = styled(StyledText)`
+  padding: 8px;
+  margin-left: 16px;
+`;
+
 export const ListItemContainer = styled.View<ListItemStyleProps>`
   flex-direction: row;
   border-radius: 5px;

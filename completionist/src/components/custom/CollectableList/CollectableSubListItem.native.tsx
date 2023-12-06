@@ -1,16 +1,18 @@
 import React, { useState } from 'react';
 import useMainState from '@redux/hooks/useMainState';
 import Dropdown from '@components/general/Dropdown/Dropdown.native';
-import { CollectableListItemSubListHeader } from './CollectableListStyledComponents.native';
 import CollectableSubTypeMainListItem from './CollectableSubTypeMainListItem.native';
+import SubListHeader from '@components/general/Lists/SubListHeader.native';
 
 export interface CollectableSubListItemProps {
   mainType: string;
   subType: string;
+  completed: string;
+  total: string;
 }
 
-const CollectableSubListItem = ({ mainType, subType }: CollectableSubListItemProps) => {
-  const { searchValue, showSearchResults } = useMainState();
+const CollectableSubListItem = ({ mainType, subType, completed, total }: CollectableSubListItemProps) => {
+  const { showSearchResults } = useMainState();
   const [isOpen, setIsOpen] = useState<boolean>(false);
 
   return (
@@ -18,7 +20,7 @@ const CollectableSubListItem = ({ mainType, subType }: CollectableSubListItemPro
       isOpen={isOpen || showSearchResults}
       setOpen={() => setIsOpen(!isOpen)}
       header={
-        <CollectableListItemSubListHeader type={'ListItemSubTitleBold'} align={'left'}>{subType}</CollectableListItemSubListHeader>
+        <SubListHeader title={subType} completed={completed} total={total} />
       }
     >
       <CollectableSubTypeMainListItem mainType={mainType} subType={subType} isSubCategory={true} />

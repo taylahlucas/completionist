@@ -8,6 +8,7 @@ import CollectableSubListItem from './CollectableSubListItem.native';
 import CollectableSubTypeMainListItem from './CollectableSubTypeMainListItem.native';
 import useGetCollectables from './hooks/useGetColletables.native';
 import useMainState from '@redux/hooks/useMainState';
+import useCheckCollectableComplete from './hooks/useCheckCollectableComplete.native';
 
 export interface CollectableMainListItemProps {
   category: string;
@@ -20,6 +21,7 @@ const CollectableMainListItem = ({ category, completed, total }: CollectableMain
   const [isOpen, setIsOpen] = useState<boolean>(false);
   const subCategories = getCollectableSubCategories(category);
   const { getCollectablesForSubCategory, getCollectablesForCategory } = useGetCollectables();
+  const { checkCollectablesCompleteForCategory } = useCheckCollectableComplete();
 
   return (
     <Dropdown
@@ -30,10 +32,22 @@ const CollectableMainListItem = ({ category, completed, total }: CollectableMain
       }
     >
       <CollectableListSubListContainer>
-        {subCategories.map((subCategory, index) => 
-          <Condition key={index} condition={getCollectablesForSubCategory(category, subCategory).length > 0}>
-             <CollectableSubListItem key={index} mainType={category} subType={subCategory} />
-          </Condition>
+        {subCategories.map((subCategory, index) => {
+          const collectablesForCategory = getCollectablesForSubCategory(category, subCategory);
+          const completedCollectables = checkCollectablesCompleteForCategory(collectablesForCategory);
+
+          return (
+            <Condition key={index} condition={collectablesForCategory.length > 0}>
+            <CollectableSubListItem 
+              key={index} 
+              mainType={category} 
+              subType={subCategory}
+              completed={completedCollectables.toString()}
+              total={collectablesForCategory.length.toString()}
+            />
+         </Condition>
+          )
+        }
         )}
         <Condition condition={subCategories.length === 0 && getCollectablesForCategory(category).length > 0}>
           <CollectableSubTypeMainListItem mainType={category} />

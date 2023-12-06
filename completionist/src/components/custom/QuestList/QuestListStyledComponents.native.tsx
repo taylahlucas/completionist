@@ -15,11 +15,6 @@ export const QuestListSubItemContainer = styled.View`
   padding-bottom: 16px;
 `;
 
-export const QuestListItemSubListHeader = styled(StyledText)`
-  padding: 8px;
-  margin-left: 16px;
-`;
-
 export const QuestListItemContainer = styled.View<QuestListItemStyleProps>`
   flex-direction: row;
   border-radius: 5px;

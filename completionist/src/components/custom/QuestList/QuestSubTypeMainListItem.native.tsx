@@ -10,8 +10,8 @@ export interface QuestSubTypeMainListItemProps {
 }
 
 const QuestSubTypeMainListItem = ({ category, isSubCategory = false }: QuestSubTypeMainListItemProps) => {
-  const { getQuestsForSubCategory, getQuestsForCategory} = useGetQuests();
-  const quests = isSubCategory ? getQuestsForSubCategory(category) : getQuestsForCategory(category);
+  const { getQuestsForSubCategoryWithType, getQuestsForCategory} = useGetQuests();
+  const quests = isSubCategory ? getQuestsForSubCategoryWithType(category) : getQuestsForCategory(category);
   const { checkQuestComplete } = useCheckQuestComplete();
   
   return (

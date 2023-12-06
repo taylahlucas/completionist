@@ -8,6 +8,7 @@ import { QuestListSubListContainer } from './QuestListStyledComponents.native';
 import ListHeader from '@components/general/Lists/ListHeader.native';
 import useGetQuests from './hooks/useGetQuests.native';
 import useMainState from '@redux/hooks/useMainState';
+import useCheckQuestComplete from './hooks/useCheckQuestComplete.native';
 
 export interface QuestMainListItemProps {
   category: string;
@@ -17,9 +18,10 @@ export interface QuestMainListItemProps {
 
 const QuestMainListItem = ({ category, completed, total }: QuestMainListItemProps) => {
   const { showSearchResults } = useMainState();
-  const { getQuestsForSubCategory } = useGetQuests();
   const [isOpen, setIsOpen] = useState<boolean>(false);
+  const { getQuestsForSubCategory } = useGetQuests();
   const subCategories = getQuestSubCategories(category);
+  const { checkQuestsCompleteForCategory } = useCheckQuestComplete();
 
   return (
     <Dropdown
@@ -30,11 +32,21 @@ const QuestMainListItem = ({ category, completed, total }: QuestMainListItemProp
       }
     >
       <QuestListSubListContainer>
-        {subCategories.map((subCategory, index) =>
-          <Condition key={index} condition={getQuestsForSubCategory(subCategory).length > 0}>
-            <QuestSubListItem key={index} category={subCategory} />
-          </Condition>
-        )}
+        {subCategories.map((subCategory, index) => {
+          const questsForCategory = getQuestsForSubCategory(subCategory);
+          const completedQuests = checkQuestsCompleteForCategory(questsForCategory);
+
+          return (
+            <Condition key={index} condition={questsForCategory.length > 0}>
+              <QuestSubListItem 
+                key={index} 
+                category={subCategory}
+                completed={completedQuests.toString()}
+                total={questsForCategory.length.toString()}
+              />
+            </Condition>
+          )
+        })}
         <Condition condition={subCategories.length === 0}>
           <QuestSubTypeMainListItem category={category} />
         </Condition>

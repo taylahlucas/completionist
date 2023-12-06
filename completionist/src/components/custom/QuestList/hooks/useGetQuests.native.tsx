@@ -8,7 +8,11 @@ const useGetQuests = () => {
   const getFormattedSearchString = useSearchStringFormatter();
   const filteredQuests = mappedQuests.filter(quest => getFormattedSearchString(quest.title).includes(getFormattedSearchString(searchValue)));
 
-  const getQuestsForSubCategory = (subCategory: string, subCategoryType: string = ''): SkyrimQuest[] => {
+  const getQuestsForSubCategory = (subCategory: string): SkyrimQuest[] => {
+    return filteredQuests.filter(quest => quest.subCategory === subCategory);
+  }
+
+  const getQuestsForSubCategoryWithType = (subCategory: string, subCategoryType: string = ''): SkyrimQuest[] => {
     return filteredQuests.filter(quest => quest.subCategory === subCategory && quest.subCategoryType === subCategoryType);
   }
   
@@ -22,6 +26,7 @@ const useGetQuests = () => {
 
   return {
     getQuestsForSubCategory,
+    getQuestsForSubCategoryWithType,
     getQuestsForCategory,
     getAllQuestsForCategory
   }

@@ -15,11 +15,6 @@ export const CollectableListSubItemContainer = styled.View`
   padding-bottom: 16px;
 `;
 
-export const CollectableListItemSubListHeader = styled(StyledText)`
-  padding: 8px;
-  margin-left: 16px;
-`;
-
 export const CollectableListItemContainer = styled.View<CollectableListItemStyleProps>`
   flex-direction: row;
   border-radius: 5px;
