@@ -1,7 +1,6 @@
 import { Dimensions } from 'react-native';
-import CheckBox from '@react-native-community/checkbox';
 import styled from 'styled-components/native';
-import StyledText from '../../general/Text/StyledText.native';
+import StyledText from '@components/general/Text/StyledText.native';
 
 interface QuestListItemStyleProps {
   color: string;

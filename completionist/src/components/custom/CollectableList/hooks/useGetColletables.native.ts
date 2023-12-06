@@ -1,6 +1,6 @@
 import { mappedCollectables } from '@data/functions';
 import { Collectable } from '@utils/CustomInterfaces';
-import useMainState from 'src/redux/hooks/useMainState.native';
+import useMainState from '@redux/hooks/useMainState';
 import useSearchStringFormatter from '@utils/hooks/useSearchStringFormatter';
 
 const useGetCollectables = () => {

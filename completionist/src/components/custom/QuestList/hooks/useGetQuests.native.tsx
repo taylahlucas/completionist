@@ -1,6 +1,6 @@
 import { mappedQuests } from '@data/functions';
 import { SkyrimQuest } from '@utils/CustomInterfaces';
-import useMainState from 'src/redux/hooks/useMainState.native';
+import useMainState from '@redux/hooks/useMainState';
 import useSearchStringFormatter from '@utils/hooks/useSearchStringFormatter';
 
 const useGetQuests = () => {

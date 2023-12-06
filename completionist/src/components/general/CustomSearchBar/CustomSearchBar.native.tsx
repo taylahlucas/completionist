@@ -2,9 +2,9 @@ import React from 'react';
 import { View, TextInput, Pressable } from 'react-native';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import { styles } from './CustomSearchBarStyles.native';
-import useMainDispatch from 'src/redux/hooks/useMainDispatch.native';
+import useMainDispatch from '@redux/hooks/useMainDispatch';
 import Icon from '../Icon/Icon.native';
-import useMainState from 'src/redux/hooks/useMainState.native';
+import useMainState from '@redux/hooks/useMainState';
 
 export interface CustomSearchBarProps {
   placeholder?: string;

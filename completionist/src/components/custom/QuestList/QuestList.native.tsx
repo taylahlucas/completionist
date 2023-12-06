@@ -4,8 +4,8 @@ import QuestMainListItem from './QuestMainListItem.native';
 import ScrollableList from '@components/general/Lists/ScrollableList.native';
 import Condition from '@components/general/Condition.native';
 import useGetQuests from './hooks/useGetQuests.native';
-import useMainDispatch from 'src/redux/hooks/useMainDispatch.native';
-import useMainState from 'src/redux/hooks/useMainState.native';
+import useMainDispatch from '@redux/hooks/useMainDispatch';
+import useMainState from '@redux/hooks/useMainState';
 import useCheckQuestComplete from './hooks/useCheckQuestComplete.native';
 
 const QuestList = () => {

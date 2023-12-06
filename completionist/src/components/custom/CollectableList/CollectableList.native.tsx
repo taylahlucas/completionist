@@ -4,8 +4,8 @@ import ScrollableList from '@components/general/Lists/ScrollableList.native';
 import CollectableMainListItem from './CollectableMainListItem.native';
 import useGetCollectables from './hooks/useGetColletables.native';
 import Condition from '@components/general/Condition.native';
-import useMainDispatch from 'src/redux/hooks/useMainDispatch.native';
-import useMainState from 'src/redux/hooks/useMainState.native';
+import useMainDispatch from '@redux/hooks/useMainDispatch';
+import useMainState from '@redux/hooks/useMainState';
 import useCheckCollectableComplete from './hooks/useCheckCollectableComplete.native';
 
 const CollectableList = () => {

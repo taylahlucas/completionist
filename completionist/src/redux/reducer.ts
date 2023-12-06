@@ -1,5 +1,5 @@
 import { combineReducers } from '@reduxjs/toolkit';
-import mainReducer from './MainState.native';
+import mainReducer from './MainState';
 
 export const reducers = {
   main: mainReducer

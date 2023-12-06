@@ -1,6 +1,6 @@
 import quests from '../../backend/database/skyrim_quests.json';
 import collectables from '../../backend/database/skyrim_collectables.json';
-import { SkyrimQuest, Collectable } from '../utils/CustomInterfaces';
+import { SkyrimQuest, Collectable } from '@utils/CustomInterfaces';
 
 export const mapDataToQuests = (): SkyrimQuest[] => {
   return quests.map(quest => {

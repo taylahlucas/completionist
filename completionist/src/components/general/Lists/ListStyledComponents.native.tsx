@@ -1,6 +1,6 @@
 import { Dimensions, StyleSheet } from 'react-native';
 import styled from 'styled-components/native';
-import StyledText from '../../general/Text/StyledText.native';
+import StyledText from '@components/general/Text/StyledText.native';
 
 export const listStyles = StyleSheet.create({
   scrollableContent: {

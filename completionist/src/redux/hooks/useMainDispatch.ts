@@ -7,8 +7,8 @@ import {
   setCompletedBookIds,
   setCompletedLocationIds,
   reset
-} from '../MainState.native';
-import { useAppDispatch } from '../store.native';
+} from '../MainState';
+import { useAppDispatch } from '../store';
 
 interface MainDispatch {
   setSearchValue: (value: string) => void;

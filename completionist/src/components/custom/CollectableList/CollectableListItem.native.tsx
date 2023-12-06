@@ -1,8 +1,8 @@
+import React from 'react';
 import CheckBox from '@components/general/Checkbox/CheckBox.native';
-import React, { useState } from 'react';
-import useMainDispatch from 'src/redux/hooks/useMainDispatch.native';
-import useMainState from 'src/redux/hooks/useMainState.native';
-import useGetTheme from '../../../styles/hooks/useGetTheme';
+import useMainDispatch from '@redux/hooks/useMainDispatch';
+import useMainState from '@redux/hooks/useMainState';
+import useGetTheme from '@styles/hooks/useGetTheme';
 import { CollectableListItemContainer, CollectableListItemTitle } from './CollectableListStyledComponents.native'
 
 interface CollectableListItemProps {

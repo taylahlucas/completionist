@@ -5,7 +5,7 @@ import LocationList from '@components/custom/LocationList/LocationList.native';
 import NavigationHeader from '@navigation/NavigationHeader.native';
 import CustomSearchBar from '@components/general/CustomSearchBar/CustomSearchBar.native';
 import StyledText from '@components/general/Text/StyledText.native';
-import useMainState from 'src/redux/hooks/useMainState.native';
+import useMainState from '@redux/hooks/useMainState';
 
 const Locations = () => {
   const { completedLocationIds } = useMainState();

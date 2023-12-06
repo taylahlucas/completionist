@@ -1,4 +1,4 @@
-import useMainState from 'src/redux/hooks/useMainState.native';
+import useMainState from '@redux/hooks/useMainState';
 
 interface CheckLocationCompleteProps {
   id: string;

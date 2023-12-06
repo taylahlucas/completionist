@@ -1,5 +1,5 @@
 import React from 'react';
-import useGetTheme from '../../../styles/hooks/useGetTheme';
+import useGetTheme from '@styles/hooks/useGetTheme';
 import { StandardLayoutContainer } from './StandardLayoutStyledComponents.native';
 
 interface StandardLayoutProps {

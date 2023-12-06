@@ -1,5 +1,4 @@
 import { createSlice } from '@reduxjs/toolkit';
-import { Book } from '@utils/CustomInterfaces';
 
 export interface MainState {
   readonly searchValue: string;

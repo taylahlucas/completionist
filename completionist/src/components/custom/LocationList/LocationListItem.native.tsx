@@ -1,9 +1,9 @@
 import React from 'react';
-import useGetTheme from '../../../styles/hooks/useGetTheme';
+import useGetTheme from '@styles/hooks/useGetTheme';
 import CheckBox from '@components/general/Checkbox/CheckBox.native';
 import { ListItemContainer, ListItemTitle } from '@components/general/Lists/ListStyledComponents.native';
-import useMainDispatch from 'src/redux/hooks/useMainDispatch.native';
-import useMainState from 'src/redux/hooks/useMainState.native';
+import useMainDispatch from '@redux/hooks/useMainDispatch';
+import useMainState from '@redux/hooks/useMainState';
 
 interface LocationListItemProps {
   id: string;

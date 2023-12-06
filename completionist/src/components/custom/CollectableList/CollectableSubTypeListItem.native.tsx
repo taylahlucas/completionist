@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import { CollectableListSubItemContainer } from './CollectableListStyledComponents.native';
-import useGetTheme from '../../../styles/hooks/useGetTheme';
-import Dropdown from '../../general/Dropdown/Dropdown.native';
-import StyledText from '../../general/Text/StyledText.native';
+import useGetTheme from '@styles/hooks/useGetTheme';
+import Dropdown from '@components/general/Dropdown/Dropdown.native';
+import StyledText from '@components/general/Text/StyledText.native';
 import CollectableListItem from './CollectableListItem.native';
 import useGetCollectables from './hooks/useGetColletables.native';
-import useMainState from 'src/redux/hooks/useMainState.native';
+import useMainState from '@redux/hooks/useMainState';
 
 export interface CollectableSubTypeListItemProps {
   category: string;

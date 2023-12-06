@@ -7,7 +7,7 @@ import ListHeader from '@components/general/Lists/ListHeader.native';
 import CollectableSubListItem from './CollectableSubListItem.native';
 import CollectableSubTypeMainListItem from './CollectableSubTypeMainListItem.native';
 import useGetCollectables from './hooks/useGetColletables.native';
-import useMainState from 'src/redux/hooks/useMainState.native';
+import useMainState from '@redux/hooks/useMainState';
 
 export interface CollectableMainListItemProps {
   category: string;

@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import { QuestListSubItemContainer } from './QuestListStyledComponents.native';
-import useGetTheme from '../../../styles/hooks/useGetTheme';
-import Dropdown from '../../general/Dropdown/Dropdown.native';
-import StyledText from '../../general/Text/StyledText.native';
+import useGetTheme from '@styles/hooks/useGetTheme';
+import Dropdown from '@components/general/Dropdown/Dropdown.native';
+import StyledText from '@components/general/Text/StyledText.native';
 import QuestListItem from './QuestListItem.native';
 import Condition from '@components/general/Condition.native';
 import useGetQuests from './hooks/useGetQuests.native';
-import useMainState from 'src/redux/hooks/useMainState.native';
+import useMainState from '@redux/hooks/useMainState';
 import useCheckQuestComplete from './hooks/useCheckQuestComplete.native';
 
 export interface QuestListSubItemTypeProps {

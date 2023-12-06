@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
-import { getQuestSubCategories } from '../../../data/functions';
-import Condition from '../../general/Condition.native';
-import Dropdown from '../../general/Dropdown/Dropdown.native';
+import { getQuestSubCategories } from '@data/functions';
+import Condition from '@components/general/Condition.native';
+import Dropdown from '@components/general/Dropdown/Dropdown.native';
 import QuestSubListItem from './QuestSubListItem.native';
 import QuestSubTypeMainListItem from './QuestSubTypeMainListItem.native';
 import { QuestListSubListContainer } from './QuestListStyledComponents.native';
 import ListHeader from '@components/general/Lists/ListHeader.native';
 import useGetQuests from './hooks/useGetQuests.native';
-import useMainState from 'src/redux/hooks/useMainState.native';
+import useMainState from '@redux/hooks/useMainState';
 
 export interface QuestMainListItemProps {
   category: string;

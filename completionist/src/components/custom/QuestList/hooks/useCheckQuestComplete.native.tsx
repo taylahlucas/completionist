@@ -1,5 +1,5 @@
 import { SkyrimQuest } from '@utils/CustomInterfaces';
-import useMainState from 'src/redux/hooks/useMainState.native';
+import useMainState from '@redux/hooks/useMainState';
 
 interface CheckQuestCompleteReturnType {
   checkQuestComplete: (id: string) => boolean;

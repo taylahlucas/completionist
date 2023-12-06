@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import useMainState from 'src/redux/hooks/useMainState.native';
-import Dropdown from '../../general/Dropdown/Dropdown.native';
+import useMainState from '@redux/hooks/useMainState';
+import Dropdown from '@components/general/Dropdown/Dropdown.native';
 import { CollectableListItemSubListHeader } from './CollectableListStyledComponents.native';
 import CollectableSubTypeMainListItem from './CollectableSubTypeMainListItem.native';
 

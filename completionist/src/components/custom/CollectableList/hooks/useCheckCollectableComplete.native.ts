@@ -1,5 +1,5 @@
 import { Collectable } from '@utils/CustomInterfaces';
-import useMainState from 'src/redux/hooks/useMainState.native';
+import useMainState from '@redux/hooks/useMainState';
 
 interface CheckCollectableCompleteReturnType {
   checkCollectableComplete: (id: string) => boolean;

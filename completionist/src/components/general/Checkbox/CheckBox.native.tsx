@@ -1,5 +1,5 @@
 import React from 'react';
-import useGetTheme from '../../../styles/hooks/useGetTheme';
+import useGetTheme from '@styles/hooks/useGetTheme';
 import { IconTypeEnum } from '@utils/CustomEnums';
 import Icon from '../Icon/Icon.native';
 import { StyledCheckBox } from './CheckBoxStyledComponents.native';

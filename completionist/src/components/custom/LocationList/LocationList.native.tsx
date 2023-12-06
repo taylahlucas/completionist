@@ -1,8 +1,8 @@
 import React from 'react';
 import locations from '../../../../backend/database/skyrim_locations.json';
-import ScrollableList from '../../general/Lists/ScrollableList.native';
+import ScrollableList from '@components/general/Lists/ScrollableList.native';
 import { Location } from '@utils/CustomInterfaces';
-import useMainState from 'src/redux/hooks/useMainState.native';
+import useMainState from '@redux/hooks/useMainState';
 import useSearchStringFormatter from '@utils/hooks/useSearchStringFormatter';
 import LocationListItem from './LocationListItem.native';
 import useCheckLocationComplete from './hooks/useCheckLocationComplete.native';

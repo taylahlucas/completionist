@@ -1,6 +1,5 @@
 import React from 'react';
-import useGetTheme from '../../../styles/hooks/useGetTheme';
-import CheckBox from '../Checkbox/CheckBox.native';
+import useGetTheme from '@styles/hooks/useGetTheme';
 import { ListItemContainer, ListItemTitle } from './ListStyledComponents.native';
 
 interface ListItemProps {
