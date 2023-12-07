@@ -6,6 +6,7 @@ export const listStyles = StyleSheet.create({
   scrollableContent: {
     alignItems: 'center', 
     alignSelf: 'center',
+    paddingBottom: 100
   },
   scrollableList: {
     padding: 16
@@ -55,4 +56,5 @@ export const ListItemTitle = styled(StyledText)<ListItemStyleProps>`
   padding-bottom: 8px;
   padding-top: 8px;
   padding-left: 16px;
+  max-width: 270px;
 `;
