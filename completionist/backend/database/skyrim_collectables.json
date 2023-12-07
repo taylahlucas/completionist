@@ -770,6 +770,674 @@
     "subType": "Whirlwind Sprint",
     "name": "Kest",
     "prerequisite": ""
+  },
+
+  {
+    "id": "68f9a639-58f4-4e5a-93a0-16cd41947cc7",
+    "type": "Armour Sets",
+    "subType": "",
+    "name": "Ancient Falmer Armor",
+    "prerequisite": ""
+  },
+  {
+    "id": "4c0b3b36-1590-4fc3-95ea-dcbf74330137",
+    "type": "Armour Sets",
+    "subType": "",
+    "name": "Ancient Shrouded Armor",
+    "prerequisite": ""
+  },
+  {
+    "id": "0d1fe547-5237-4a8d-ba63-1f01c1479d32",
+    "type": "Armour Sets",
+    "subType": "",
+    "name": "Armor of the Old Gods",
+    "prerequisite": ""
+  },
+  {
+    "id": "9711a94a-3d7b-4427-84b3-3e5d7fc59a0b",
+    "type": "Armour Sets",
+    "subType": "",
+    "name": "Ahzidal's Armor",
+    "prerequisite": ""
+  },
+  {
+    "id": "fca7443d-86a5-4852-9db3-27a37e52a981",
+    "type": "Armour Sets",
+    "subType": "",
+    "name": "Blackguard's Armor",
+    "prerequisite": ""
+  },
+  {
+    "id": "4cfe570e-75a7-47bf-8d44-cbcf6c204c06",
+    "type": "Armour Sets",
+    "subType": "",
+    "name": "Deathbrand Armor",
+    "prerequisite": ""
+  },
+  {
+    "id": "a642943a-eb29-4e5f-b6c7-474d1e9f72c3",
+    "type": "Armour Sets",
+    "subType": "",
+    "name": "Guild Master's Armor Set",
+    "prerequisite": ""
+  },
+  {
+    "id": "c441327a-48f9-4bd0-ae5f-2c4a5ff7a907",
+    "type": "Armour Sets",
+    "subType": "",
+    "name": "Linwe's Armor Set",
+    "prerequisite": ""
+  },
+  {
+    "id": "a78e3d48-3c42-4a08-9be6-3e0c22de0732",
+    "type": "Armour Sets",
+    "subType": "",
+    "name": "Nightingale Armor",
+    "prerequisite": ""
+  },
+  {
+    "id": "cb37600a-346a-4090-ae6d-4e3711502b3a",
+    "type": "Armour Sets",
+    "subType": "",
+    "name": "Thieves Guild Armor",
+    "prerequisite": ""
+  },
+  {
+    "id": "6a352a2b-02d9-4c35-83c5-1a8f9603bf1a",
+    "type": "Armour Sets",
+    "subType": "",
+    "name": "Worn Shrouded Armor",
+    "prerequisite": ""
+  },
+  {
+    "id": "8d19cfdb-8c29-4e8a-8621-7e405ca1e1f7",
+    "type": "Unique Weapons",
+    "subType": "Daggers",
+    "name": "Alessandra's Dagger",
+    "prerequisite": "Dark Brotherhood questline"
+  },
+  {
+    "id": "f71e209d-3e48-4a7c-b168-7e1c0b8be0bf",
+    "type": "Unique Weapons",
+    "subType": "Daggers",
+    "name": "Blade of Woe",
+    "prerequisite": "Dark Brotherhood questline"
+  },
+  {
+    "id": "ae0794d5-1353-4d27-8c62-ced6c0377c93",
+    "type": "Unique Weapons",
+    "subType": "Daggers",
+    "name": "Blade of Sacrifice",
+    "prerequisite": "Daedric quest: "
+  },
+  {
+    "id": "b43976a9-1a98-4fc2-9e67-d88c88d0bb35",
+    "type": "Unique Weapons",
+    "subType": "Daggers",
+    "name": "Bloodthorn",
+    "prerequisite": "Side quest: Boethiah's Calling"
+  },
+  {
+    "id": "5c1618b0-5bc4-4c7f-90e7-7f9a6f13cfa5",
+    "type": "Unique Weapons",
+    "subType": "Daggers",
+    "name": "Borvir's Dagger",
+    "prerequisite": "Companions quest: Radiant quest"
+  },
+  {
+    "id": "7613ec84-587d-4ce8-b6b5-c59f891c9b0a",
+    "type": "Unique Weapons",
+    "subType": "Daggers",
+    "name": "Kahvozein's Fang",
+    "prerequisite": "Dragonborn DLC quest:: A Scroll For Anska"
+  },
+  {
+    "id": "3d80f7c7-8f48-419c-b748-1065c6ef4c38",
+    "type": "Unique Weapons",
+    "subType": "Daggers",
+    "name": "Keening",
+    "prerequisite": "Main quest: Arniel's Endeavor"
+  },
+  {
+    "id": "0e162f02-ebdb-4d3e-b4c4-c8f49357e16d",
+    "type": "Unique Weapons",
+    "subType": "Daggers",
+    "name": "Mehrunes' Razor",
+    "prerequisite": "Daedric quest: Pieces of the Past"
+  },
+  {
+    "id": "b6b2e53e-190d-4e42-b14e-4b3e3ac09b3d",
+    "type": "Unique Weapons",
+    "subType": "Daggers",
+    "name": "Nettlebane",
+    "prerequisite": "Main quest: The Blessings of Nature"
+  },
+  {
+    "id": "d4a712bd-2cfc-45fc-8a66-06e2bc4305e7",
+    "type": "Unique Weapons",
+    "subType": "Daggers",
+    "name": "Rundi's Dagger",
+    "prerequisite": "Companions quest: Radiant quest"
+  },
+  {
+    "id": "2b4b6d9a-789b-4eeb-927a-b1ccfe9883e7",
+    "type": "Unique Weapons",
+    "subType": "Daggers",
+    "name": "Valdr's Lucky Dagger",
+    "prerequisite": "Side quest: Hunter and Hunted"
+  },
+  {
+    "id": "0f3c8ee5-f512-4df1-a5b2-6d81e0ef173e",
+    "type": "Unique Weapons",
+    "subType": "Maces",
+    "name": "Horksbane",
+    "prerequisite": "Companions quest: Radiant quest"
+  },
+  {
+    "id": "7a4f8a9d-0c85-44fe-9e9a-905078650ed8",
+    "type": "Unique Weapons",
+    "subType": "Maces",
+    "name": "Lunar Iron Mace",
+    "prerequisite": "Craftable during the Lunar Weapons Creation"
+  },
+  {
+    "id": "c0a7c546-eeb6-4d65-94e4-6a64ed4bf42b",
+    "type": "Unique Weapons",
+    "subType": "Maces",
+    "name": "Lunar Steel Mace",
+    "prerequisite": "Craftable during the Lunar Weapons Creation"
+  },
+  {
+    "id": "e7ad586a-336d-4379-9fb8-17e2b8e7d7b1",
+    "type": "Unique Weapons",
+    "subType": "Maces",
+    "name": "Mace of Molag Bal",
+    "prerequisite": "Daedric quest: House of Horrors"
+  },
+  {
+    "id": "99f24df0-31d3-4299-83f3-fb7cb4f2b128",
+    "type": "Unique Weapons",
+    "subType": "Maces",
+    "name": "Prelate's Mace",
+    "prerequisite": "Theives Guild quest: The Litany of Larceny"
+  },
+
+  {
+    "id": "8d647647-0a2d-4c2c-9630-4057397c4dab",
+    "type": "Unique Weapons",
+    "subType": "Swords",
+    "name": "Akaviri Sword",
+    "prerequisite": "Obtained during the Blades questline"
+  },
+  {
+    "id": "6b0f0d60-0e0f-4c8b-a79d-20e0be4f38cd",
+    "type": "Unique Weapons",
+    "subType": "Swords",
+    "name": "Amren's Family Sword",
+    "prerequisite": "Quest: 'Amren's Sword'"
+  },
+  {
+    "id": "8fbf0ccf-7847-43a5-8e25-8d739ab18c67",
+    "type": "Unique Weapons",
+    "subType": "Swords",
+    "name": "Bloodscythe",
+    "prerequisite": "Dragonborn DLC quest: Deathbrand"
+  },
+  {
+    "id": "dea44f86-0bf7-4f9b-8ec0-d56866ee52f3",
+    "type": "Unique Weapons",
+    "subType": "Swords",
+    "name": "Bolar's Oathblade",
+    "prerequisite": "Given by Maluril during the quest: 'Bolar's Oathblade'"
+  },
+  {
+    "id": "d6f937bf-b8e8-4082-b188-23efbd18d8de",
+    "type": "Unique Weapons",
+    "subType": "Swords",
+    "name": "Ceremonial Sword",
+    "prerequisite": "Dark Brotherhood questline"
+  },
+  {
+    "id": "46d11b2a-20a7-4e6e-94e2-ebbe5571e1a1",
+    "type": "Unique Weapons",
+    "subType": "Swords",
+    "name": "Chillrend",
+    "prerequisite": "Thieves Guild questline"
+  },
+  {
+    "id": "97d3c7a4-677d-4fb3-a6ee-9ff91d51d7ab",
+    "type": "Unique Weapons",
+    "subType": "Swords",
+    "name": "Dawnbreaker",
+    "prerequisite": "Daedric quest: The Break of Dawn"
+  },
+  {
+    "id": "f0a14b4f-2bb5-40e7-88d4-b5b8b345b4bf",
+    "type": "Unique Weapons",
+    "subType": "Swords",
+    "name": "Dragonbane",
+    "prerequisite": "Main questline quest: Alduin's Bane"
+  },
+  {
+    "id": "c26c4d2f-4313-4b91-91b9-c6c9a671073b",
+    "type": "Unique Weapons",
+    "subType": "Swords",
+    "name": "Drainheart Sword",
+    "prerequisite": "Radiant quest in Labyrinthian"
+  },
+  {
+    "id": "f16b3b07-ec7e-4d6b-8ea8-91e8db03cc6f",
+    "type": "Unique Weapons",
+    "subType": "Swords",
+    "name": "Eduj",
+    "prerequisite": "Companions questline"
+  },
+  {
+    "id": "0c74b19b-d7e1-4e0c-83dd-7be1b27b42f9",
+    "type": "Unique Weapons",
+    "subType": "Swords",
+    "name": "Gauldur Blackblade",
+    "prerequisite": "Dungeon quest: Forbidden Legend"
+  },
+  {
+    "id": "ef18f7a1-e1e5-49d5-9e3f-9c7ec8d86da0",
+    "type": "Unique Weapons",
+    "subType": "Swords",
+    "name": "Ghostblade",
+    "prerequisite": "Dungeon quest: Ansilvund"
+  },
+  {
+    "id": "8a240740-3c6f-45ee-9f7d-96f489579aa3",
+    "type": "Unique Weapons",
+    "subType": "Swords",
+    "name": "Grimsever",
+    "prerequisite": "Thieves Guild quest: Hard Answers"
+  },
+  {
+    "id": "162b242b-03de-4ba7-99e9-efcf61bdcf45",
+    "type": "Unique Weapons",
+    "subType": "Swords",
+    "name": "Harkon's Sword",
+    "prerequisite": "Dawnguard quest: Kindred Judgment"
+  },
+  {
+    "id": "72556c7c-bd76-4b61-a6f1-8272922e8ee9",
+    "type": "Unique Weapons",
+    "subType": "Swords",
+    "name": "Herebane's Courage",
+    "prerequisite": "Dungeon quest: Rannveig's Fast"
+  },
+  {
+    "id": "e1aa11da-60f3-4eaf-9390-aa1e5bb620ea",
+    "type": "Unique Weapons",
+    "subType": "Swords",
+    "name": "Lunar Iron Sword",
+    "prerequisite": "Craftable during the Lunar Weapons Creation"
+  },
+  {
+    "id": "13b5ba8e-3e1a-4d96-8822-2a95e2047777",
+    "type": "Unique Weapons",
+    "subType": "Swords",
+    "name": "Lunar Steel Sword",
+    "prerequisite": "Craftable during the Lunar Weapons Creation"
+  },
+  {
+    "id": "5a04d9e1-5739-4d7f-86ed-721bb5ec3979",
+    "type": "Unique Weapons",
+    "subType": "Swords",
+    "name": "Miraak's Sword",
+    "prerequisite": "Dragonborn DLC quest: At the Summit of Apocrypha"
+  },
+  {
+    "id": "3f8f527e-29b0-4d37-a0c6-3fe4bba7e9d3",
+    "type": "Unique Weapons",
+    "subType": "Swords",
+    "name": "Nightingale Blade",
+    "prerequisite": "Thieves Guild questline"
+  },
+  {
+    "id": "9bca46b4-043b-4e92-845f-ae0bf898b235",
+    "type": "Unique Weapons",
+    "subType": "Swords",
+    "name": "Queen Freydis's Sword",
+    "prerequisite": "Companions: Radiant Quest"
+  },
+  {
+    "id": "480fa3f9-df48-4eb4-b6c8-d0f4a62b5ef3",
+    "type": "Unique Weapons",
+    "subType": "Swords",
+    "name": "Red Eagle's Bane",
+    "prerequisite": "Dungeon quest: Rebel's Cairn"
+  },
+  {
+    "id": "c773e512-6873-46b8-bd3c-00c01270a075",
+    "type": "Unique Weapons",
+    "subType": "Swords",
+    "name": "Red Eagle's Fury",
+    "prerequisite": "Dungeon quest: Rebel's Cairn"
+  },
+  {
+    "id": "61ea1e6a-df25-4462-925d-d6c74481b4b2",
+    "type": "Unique Weapons",
+    "subType": "Swords",
+    "name": "Soulrender",
+    "prerequisite": "Dragonborn DLC quest: Deathbrand"
+  },
+  {
+    "id": "9984d783-90ae-4e24-b8f1-5c03256c7b3d",
+    "type": "Unique Weapons",
+    "subType": "Swords",
+    "name": "The Pale Blade",
+    "prerequisite": "Dungeon quest: The Pale Lady"
+  },
+  {
+    "id": "080eefc5-12a5-420c-bd7c-034345e8e90a",
+    "type": "Unique Weapons",
+    "subType": "Swords",
+    "name": "Vilkas's Sword",
+    "prerequisite": "Companions: Radiant Quest"
+  },
+  {
+    "id": "4e82c74e-3e01-430e-9c68-0048f5c5c7b0",
+    "type": "Unique Weapons",
+    "subType": "Swords",
+    "name": "Windshear",
+    "prerequisite": "Dark Brotherhood quest: Hail Sithis!"
+  },
+
+  {
+    "id": "9faeb328-524f-4ecf-b1dd-768510fb72f5",
+    "type": "Unique Weapons",
+    "subType": "War Axes",
+    "name": "Ceremonial Axe",
+    "prerequisite": "Dark Brotherhood questline"
+  },
+  {
+    "id": "9e02bb11-6c08-47d6-8d06-9fcbe2fb12c4",
+    "type": "Unique Weapons",
+    "subType": "War Axes",
+    "name": "Dawnguard Rune Axe",
+    "prerequisite": "Dawnguard quest: Ancient Technology"
+  },
+  {
+    "id": "5c05d59f-105e-4e77-a4cf-59bcece40dfb",
+    "type": "Unique Weapons",
+    "subType": "War Axes",
+    "name": "Ghorbash's Ancestral Axe",
+    "prerequisite": "Companions: Radiant Quest"
+  },
+  {
+    "id": "0f29dbee-c3f0-4c89-b28c-d2d8966a8e58",
+    "type": "Unique Weapons",
+    "subType": "War Axes",
+    "name": "Hoarfrost",
+    "prerequisite": "Dawnguard quest: Ancient Technology"
+  },
+  {
+    "id": "2c44e3b1-03c8-4a82-88bb-11d7f4c3d2b8",
+    "type": "Unique Weapons",
+    "subType": "War Axes",
+    "name": "Lunar Iron War Axe",
+    "prerequisite": "Craftable during the Lunar Weapons Creation"
+  },
+  {
+    "id": "8d9dfc5c-9224-4c9f-8d62-f5d2ac5d8681",
+    "type": "Unique Weapons",
+    "subType": "War Axes",
+    "name": "Lunar Steel War Axe",
+    "prerequisite": "Craftable during the Lunar Weapons Creation"
+  },
+  {
+    "id": "b5a1c870-8aa0-484c-9b19-3a2fcf7a83bb",
+    "type": "Unique Weapons",
+    "subType": "War Axes",
+    "name": "Notched Pickaxe",
+    "prerequisite": "Found at the Throat of the World"
+  },
+  {
+    "id": "081d60d9-7394-490a-b99b-1b6e6f39bb9b",
+    "type": "Unique Weapons",
+    "subType": "War Axes",
+    "name": "Okin",
+    "prerequisite": "Companions questline"
+  },
+  {
+    "id": "f1aa1a9f-7f03-4b59-9fe4-1c5ad9074a1f",
+    "type": "Unique Weapons",
+    "subType": "War Axes",
+    "name": "Poacher's Axe",
+    "prerequisite": "Given during the quest: 'Poacher's Axe'"
+  },
+  {
+    "id": "d15e2db0-eb22-4e0f-93c9-4f1f18efc3e7",
+    "type": "Unique Weapons",
+    "subType": "War Axes",
+    "name": "Ulfric's War Axe",
+    "prerequisite": "Given by Ulfric Stormcloak during the Civil War questline"
+  },
+  {
+    "id": "a2459613-d2f2-4a90-8b0e-89913e4b3ae3",
+    "type": "Unique Weapons",
+    "subType": "Battleaxes",
+    "name": "Drainblood Battleaxe",
+    "prerequisite": "Labyrinthian quest: The Staff of Magnus"
+  },
+  {
+    "id": "3e9e271f-6204-4ac5-ba5c-8e898944d8f8",
+    "type": "Unique Weapons",
+    "subType": "Battleaxes",
+    "name": "Headsman's Axe",
+    "prerequisite": "Solitude quest: The Man Who Cried Wolf"
+  },
+  {
+    "id": "6a58c1c3-f108-4fe5-b1a2-0383f2d1a2da",
+    "type": "Unique Weapons",
+    "subType": "Battleaxes",
+    "name": "Steel Battleaxe of Fiery Souls",
+    "prerequisite": "Found in Ironbind Barrow"
+  },
+  {
+    "id": "5f5404ec-7b71-4a19-94ce-fa4ec2012320",
+    "type": "Unique Weapons",
+    "subType": "Battleaxes",
+    "name": "Rueful Axe",
+    "prerequisite": "Daedric quest: A Daedra's Best Friend"
+  },
+  {
+    "id": "c3e8fe4c-3b10-4eab-9c98-7b6920e91d2a",
+    "type": "Unique Weapons",
+    "subType": "Battleaxes",
+    "name": "The Woodsman's Friend",
+    "prerequisite": "Companions: Radiant Quest"
+  },
+  {
+    "id": "5c8f0d98-774b-4a9e-b759-607536a12cfb",
+    "type": "Unique Weapons",
+    "subType": "Battleaxes",
+    "name": "Tsun's Battle Axe",
+    "prerequisite": "Dragonborn DLC quest: Summoning Karstaag"
+  },
+  {
+    "id": "2434f367-4da9-45f7-b625-4a75f9f1b9b0",
+    "type": "Unique Weapons",
+    "subType": "Battleaxes",
+    "name": "Wuuthrad",
+    "prerequisite": "Companions questline"
+  },
+  {
+    "id": "3c4a6c25-2eae-4f43-bb02-60f9c891011a",
+    "type": "Unique Weapons",
+    "subType": "Greatswords",
+    "name": "Ebony Blade",
+    "prerequisite": "Daedric quest: The Whispering Door"
+  },
+  {
+    "id": "b7b9eae1-66fc-4ec0-91c1-d365b2f4a6b9",
+    "type": "Unique Weapons",
+    "subType": "Greatswords",
+    "name": "Balgruuf's Greatsword",
+    "prerequisite": "Companions: Radiant Quest"
+  },
+  {
+    "id": "9eac8d80-71ab-4e6e-a789-4fde9db487c7",
+    "type": "Unique Weapons",
+    "subType": "Greatswords",
+    "name": "Bloodskal Blade",
+    "prerequisite": "Dragonborn DLC quest: The Final Descent"
+  },
+  {
+    "id": "a87dbd74-0ac9-45c7-849a-66fb94b58792",
+    "type": "Unique Weapons",
+    "subType": "Greatswords",
+    "name": "Honed Ancient Nord Greatsword of Scorching",
+    "prerequisite": "Random loot or merchants"
+  },
+  {
+    "id": "c4b6b4a4-8e84-4681-b53b-af09f620c0d4",
+    "type": "Unique Weapons",
+    "subType": "Greatswords",
+    "name": "Stormfang",
+    "prerequisite": "Dragonborn DLC quest: The Final Descent"
+  },
+  {
+    "id": "72f57e98-6a10-40c8-b9a7-23487b7a52c6",
+    "type": "Unique Weapons",
+    "subType": "Warhammers",
+    "name": "Aegisbane",
+    "prerequisite": "Markarth quest: Find the Forgemaster's Fingers"
+  },
+  {
+    "id": "2b11d82d-9e3a-4e0b-9f7f-f040056fb86b",
+    "type": "Unique Weapons",
+    "subType": "Warhammers",
+    "name": "Champion's Cudgel",
+    "prerequisite": "Dragonborn DLC quest: Deathbrand"
+  },
+  {
+    "id": "ad82f0a3-7e43-4219-9a2a-4bf4574e46da",
+    "type": "Unique Weapons",
+    "subType": "Warhammers",
+    "name": "Dawnguard Rune Hammer",
+    "prerequisite": "Dawnguard quest: Lost Relic"
+  },
+  {
+    "id": "172b1562-f0db-4f22-91ef-2a0d982c7a88",
+    "type": "Unique Weapons",
+    "subType": "Warhammers",
+    "name": "Shagrol's Warhammer",
+    "prerequisite": "Daedric quest: The Cursed Tribe"
+  },
+  {
+    "id": "9e8e1162-141e-4ad5-9c79-7d7f0c539084",
+    "type": "Unique Weapons",
+    "subType": "Warhammers",
+    "name": "The Longhammer",
+    "prerequisite": ""
+  },
+  {
+    "id": "2c3d9fbf-e31a-4b2d-b6b3-13e27e5eb197",
+    "type": "Unique Weapons",
+    "subType": "Warhammers",
+    "name": "Trollsbane",
+    "prerequisite": "Random loot or merchants"
+  },
+  {
+    "id": "9f9f1bbd-7124-4954-b914-83d133b78b8b",
+    "type": "Unique Weapons",
+    "subType": "Warhammers",
+    "name": "Volendrung",
+    "prerequisite": "Daedric quest: The Cursed Tribe"
+  },
+
+  {
+    "id": "b31efb6f-1fcd-4db7-8900-d22a19ac7ea0",
+    "type": "Unique Weapons",
+    "subType": "Bows",
+    "name": "Angi's Bow",
+    "prerequisite": "Training with Angi quest: Angi's Camp"
+  },
+  {
+    "id": "57927107-2e4f-45e1-a9a0-18db34bf6391",
+    "type": "Unique Weapons",
+    "subType": "Bows",
+    "name": "Auriel's Bow",
+    "prerequisite": "Dawnguard quest: Touching the Sky"
+  },
+  {
+    "id": "1c0e1b8c-fc2b-4a2f-94fc-cf8f9f3d7e4f",
+    "type": "Unique Weapons",
+    "subType": "Bows",
+    "name": "Bow of the Hunt",
+    "prerequisite": "Companions: Radiant Quest"
+  },
+  {
+    "id": "2f576e0c-2f91-4c23-96a0-d3f5ea20a84f",
+    "type": "Unique Weapons",
+    "subType": "Bows",
+    "name": "Drainspell Bow",
+    "prerequisite": "Labyrinthian quest: The Staff of Magnus"
+  },
+  {
+    "id": "40d53e9a-745a-4c34-b6d7-dfe4b8b145a5",
+    "type": "Unique Weapons",
+    "subType": "Bows",
+    "name": "Dravin's Bow",
+    "prerequisite": "Found during the quest: Bow to the Master"
+  },
+  {
+    "id": "a06a19ac-8f1f-4a20-ae9f-d2b0c171f5f3",
+    "type": "Unique Weapons",
+    "subType": "Bows",
+    "name": "Dwarven Black Bow of Fate",
+    "prerequisite": "Dragonborn DLC quest: Lost to the Ages"
+  },
+  {
+    "id": "f3b82d4c-925a-4d3e-bfd3-83b12761fe5d",
+    "type": "Unique Weapons",
+    "subType": "Bows",
+    "name": "Firiniel's End",
+    "prerequisite": "Thieves Guild: Radiant Quest"
+  },
+  {
+    "id": "5ea6b1a2-0645-4bfc-9ac3-98aa97a15bfc",
+    "type": "Unique Weapons",
+    "subType": "Bows",
+    "name": "Froki's Bow",
+    "prerequisite": "Quest: Kyne's Sacred Trials"
+  },
+  {
+    "id": "ca10f3e9-d515-44c2-8b2f-97f0f1573327",
+    "type": "Unique Weapons",
+    "subType": "Bows",
+    "name": "Gauldur Blackbow",
+    "prerequisite": "Dungeon quest: Forbidden Legend"
+  },
+  {
+    "id": "8a9f97c2-1b79-4c27-b38a-bfe7c5206a08",
+    "type": "Unique Weapons",
+    "subType": "Bows",
+    "name": "Glass Bow of the Stag Prince",
+    "prerequisite": "Companions: Radiant Quest"
+  },
+  {
+    "id": "4b1e9d12-9e14-4eae-8b38-2b0ce9db5c4d",
+    "type": "Unique Weapons",
+    "subType": "Bows",
+    "name": "Karliah's Bow",
+    "prerequisite": "Thieves Guild quest: Blindsighted"
+  },
+  {
+    "id": "5c67b448-8f1a-415d-9c16-9c8c5ab5e8e8",
+    "type": "Unique Weapons",
+    "subType": "Bows",
+    "name": "Nightingale Bow",
+    "prerequisite": "Thieves Guild questline"
+  },
+  {
+    "id": "1ec4a96a-3cb5-4f20-b32d-4cf54a6b3e0e",
+    "type": "Unique Weapons",
+    "subType": "Bows",
+    "name": "Zephyr",
+    "prerequisite": "Dawnguard quest: Lost to the Ages"
   }
 ]
-  

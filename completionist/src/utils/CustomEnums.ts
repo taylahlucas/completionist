@@ -1,4 +1,5 @@
 export enum ScreenEnum {
+  Login = 'Login',
   LeftMenu = 'LeftMenu',
   Quests = 'Quests',
   Collectables = 'Collectables',

@@ -1,6 +1,6 @@
 import { ScreenEnum } from './CustomEnums';
 import { NavigationAction, NavigationState } from '@react-navigation/native';
-import { MainState } from '../redux/MainState.native';
+import { MainState } from '@redux/MainState';
 
 
 export interface SkyrimQuest {
@@ -36,6 +36,7 @@ export interface Collectable {
 }
 
 export type RootDrawerParamList = {
+  Login: undefined;
   Quests: undefined;
   Collectables: undefined;
   Books: undefined;

@@ -3,6 +3,7 @@ import { createDrawerNavigator } from '@react-navigation/drawer';
 import Books from '@screens/Books.native';
 import Collectables from '@screens/Collectables.native';
 import Locations from '@screens/Locations.native';
+import Login from '@screens/Login.native';
 import Quests from '@screens/Quests.native';
 import { ScreenEnum } from '@utils/CustomEnums';
 import { RootDrawerParamList } from '@utils/CustomInterfaces';
@@ -31,6 +32,7 @@ const NavigationDrawer = () => {
         drawerStyle: style.drawerContainer
       }}
     >
+      <Drawer.Screen name={ScreenEnum.Login} component={Login} />
       <Drawer.Screen name={ScreenEnum.Quests} component={Quests} />
       <Drawer.Screen name={ScreenEnum.Collectables} component={Collectables} />
       <Drawer.Screen name={ScreenEnum.Books} component={Books} />

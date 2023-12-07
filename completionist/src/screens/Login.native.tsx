@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from 'react';
-import { Button, SafeAreaView, ScrollView, StatusBar, Text, TextInput, View, Alert } from 'react-native';
+import { Button, SafeAreaView, ScrollView, StatusBar, Text, View } from 'react-native';
 import auth from '@react-native-firebase/auth';
 import StandardLayout from '../components/general/Layouts/StandardLayout.native';
-import QuestList from '../components/custom/QuestList/QuestList.native';
 import {
   GoogleSignin,
   GoogleSigninButton,
   statusCodes,
 } from '@react-native-google-signin/google-signin';
+import StyledText from '@components/general/Text/StyledText.native';
 
 interface GoogleSignInError {
   code: number;
@@ -28,7 +28,7 @@ const Login = () => {
 
       setLoggedIn(true);
       return auth().signInWithCredential(googleCredential);
-    } catch (error: any) {
+    } catch (error: GoogleSignInError | any) {
       if (error.code === statusCodes.SIGN_IN_CANCELLED) {
         // user cancelled the login flow
         console.log('Cancel: ', error.message);
@@ -44,36 +44,6 @@ const Login = () => {
       }
     }
   }
-
-  // const signIn = async () => {
-  //   try {
-  //     console.log("HERE: ", GoogleSignin)
-  //     const userInfo = await GoogleSignin.configure({
-  //       webClientId: config.webClientId
-  //     });
-  //     // setUser({ user });
-  //   } catch (error: GoogleSignInError | any) {
-  //     if (error.code === statusCodes.SIGN_IN_CANCELLED) {
-  //       // user cancelled the login flow
-  //       console.log('user cancelled the login flow')
-  //     } else if (error.code === statusCodes.IN_PROGRESS) {
-  //       // operation (e.g. sign in) is in progress already
-  //       console.log('operation (e.g. sign in) is in progress already')
-  //     } 
-  //     // else if (error.code === statusCodes.ONE_TAP_START_FAILED) {
-  //     //   // starting the one tap dialog failed
-  //     //   console.log('starting the one tap dialog failed: ', error.message)
-  //     // } else if (error.code === statusCodes.NO_SAVED_CREDENTIAL_FOUND) {
-  //     //   console.log('No saved credentials found.')
-  //     //   // No saved credentials found. Launch the One Tap sign-up flow (use GoogleOneTapSignIn.signUp)
-  //     //   // or do nothing and continue presenting the signed-out UI.
-  //     // } 
-  //     else {
-  //       // some other error happened
-  //       console.log('some other error happened')
-  //     }
-  //   }
-  // };
   
   const signOut = async () => {
     try {
@@ -98,12 +68,11 @@ const Login = () => {
 
   return (
     <StandardLayout>
-      <StatusBar barStyle="dark-content" />
-      <SafeAreaView>
-        <ScrollView
-          contentInsetAdjustmentBehavior="automatic">
-          <View>
-            <View>
+      <ScrollView contentInsetAdjustmentBehavior="automatic">
+          <View style={{ height: '100%' }}>
+            <View style={{ backgroundColor: 'red', height: '100%', justifyContent: 'center' }}>
+              <StyledText>Email</StyledText>
+              <StyledText>Password</StyledText>
               <GoogleSigninButton
                 style={{width: 192, height: 48}}
                 size={GoogleSigninButton.Size.Wide}
@@ -122,7 +91,6 @@ const Login = () => {
             </View>
           </View>
         </ScrollView>
-      </SafeAreaView>
     </StandardLayout>
   );
 };
