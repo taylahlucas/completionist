@@ -1,10 +1,12 @@
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import {
   GoogleSignin,
   statusCodes,
 } from '@react-native-google-signin/google-signin';
 import auth from '@react-native-firebase/auth';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
+import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
+import { ScreenEnum } from '@utils/CustomEnums';
 
 interface GoogleSignInError {
   code: number;
@@ -12,37 +14,44 @@ interface GoogleSignInError {
 }
 
 const useGetLoginMethods = () => {
+  const navigation = useReactNavigation();
   const { setLoggedIn } = useMainDispatch();
 
   const signIn = async () => {
     try {
       await GoogleSignin.hasPlayServices();
       const { idToken } = await GoogleSignin.signIn();
+      console.log("HERE: ", idToken)
       const googleCredential = auth.GoogleAuthProvider.credential(idToken);
-
       setLoggedIn(true);
-      return auth().signInWithCredential(googleCredential);
+
+      return auth().signInWithCredential(googleCredential)
+        .then((response) => {
+          console.log("RESPONSE: ", response);
+          navigation.navigate(ScreenEnum.Quests)
+        });
     } catch (error: GoogleSignInError | any) {
-      if (error.code === statusCodes.SIGN_IN_CANCELLED) {
-        // user cancelled the login flow
-        console.log('Cancel: ', error.message);
-      } else if (error.code === statusCodes.IN_PROGRESS) {
-        console.log('Signin in progress: ', error.message);
-        // operation (f.e. sign in) is in progress already
-      } else if (error.code === statusCodes.PLAY_SERVICES_NOT_AVAILABLE) {
-        console.log('PLAY_SERVICES_NOT_AVAILABLE: ', error.message);
-        // play services not available or outdated
-      } else {
-        // some other error happened
-        console.log("ERROR: ", error.message)
+      switch (error.code) {
+        case (statusCodes.SIGN_IN_CANCELLED):
+          console.log('Sign in cancelled: ', error.message);
+          break;
+        case (statusCodes.IN_PROGRESS):
+          console.log("Sign in in progress");
+          break;
+        case (statusCodes.PLAY_SERVICES_NOT_AVAILABLE):
+          console.log('Play services not available: ', error.message);
+          break;
+        default:
+          console.log("Sign in error: ", error.message)
       }
     }
   }
+
   const signOut = async () => {
     try {
       await GoogleSignin.revokeAccess();
       await GoogleSignin.signOut();
-      // await GoogleSignin.signOut(user.id);
+      navigation.navigate(ScreenEnum.Login);
       setLoggedIn(false);
     } catch (error) {
       console.error(error);

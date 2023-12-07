@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { ScrollView, View } from 'react-native';
 import StandardLayout from '../components/general/Layouts/StandardLayout.native';
 import StyledText from '@components/general/Text/StyledText.native';
@@ -9,7 +9,6 @@ import LoginFormSignInButtons from '@components/custom/LoginForm/LoginFormSignIn
 
 const Login = () => {
   const theme = useGetTheme();
-  const [loggedIn, setLoggedIn] = useState(false);
 
   return (
     <StandardLayout>
