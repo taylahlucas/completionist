@@ -1,6 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit';
 
 export interface MainState {
+  readonly loggedIn: boolean;
   readonly searchValue: string;
   readonly showSearchResults: boolean;
   readonly completedQuestIds: string[];
@@ -10,6 +11,7 @@ export interface MainState {
 }
 
 export const initialState: MainState = {
+  loggedIn: false,
   searchValue: '',
   showSearchResults: false,
   completedQuestIds: [],
@@ -22,6 +24,9 @@ const slice = createSlice({
   name: 'main',
   initialState: initialState,
   reducers: {
+    setLoggedIn: (state, action) => {
+      state.loggedIn = action.payload;
+    },
     setSearchValue: (state, action) => {
       state.searchValue = action.payload;
     },
@@ -48,6 +53,7 @@ const slice = createSlice({
 });
 
 export const {
+  setLoggedIn,
   setSearchValue,
   triggerShowSearchResults,
   setCompletedQuestIds,

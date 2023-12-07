@@ -6,14 +6,15 @@ export const styles = StyleSheet.create({
     width: Dimensions.get('window').width - 32,
     marginTop: 16,
     borderRadius: 5,
-    justifyContent: 'center'
+    alignItems: 'center',
+    flexDirection: 'row',
   },
   searchBarIcon: {
-    position: 'absolute',
-    marginLeft: 16
+    left: 16,
+    paddingRight: 16
   },
   textInput: {
-    marginLeft: 48,
+    marginLeft: 16,
     marginRight: 48,
     fontSize: 17
   },

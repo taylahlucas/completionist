@@ -1,8 +1,6 @@
-
 Creation Club quests
-DLC Quetss
+DLC Quests
 Conflicting quests
-Unique Weapons: https://elderscrolls.fandom.com/wiki/Unique_Weapons_(Skyrim)
 
 
 Locations & Books
@@ -31,64 +29,3 @@ Quests
   hold?: string
   href?: string
 }
-
-
-
-Can you convert the following values to JSON data with the following structure:
-
-{
-  id: generated_uuid
-  type: string
-  subType?: string
-  name: string
-  prerequisite?: string
-}
-
-can you do the same thing for the following skyrim Battleaxe unique weapons, setting subType to "Battleaxes" and ensuring the prerequisite string is formatted the same each time
-
-Drainblood Battleaxe
-Headsman's Axe
-Steel Battleaxe of Fiery Souls
-Rueful Axe
-The Woodsman's Friend
-Tsun's Battle Axe
-Wuuthrad
-
-
-
-can you do the same thing for the following skyrim Greatswords unique weapons, setting subType to "Greatswords" and ensuring the prerequisite string is formatted the same each time
-
-Ebony Blade
-Balgruuf's Greatsword
-Bloodskal Blades
-Honed Ancient Nord Greatsword of Scorching
-Stormfang
-
-
-
-
-can you do the same thing for the following skyrim Warhammers unique weapons, setting subType to "Warhammers" and ensuring the prerequisite string is formatted the same each time
-
-Aegisbane
-Champion's Cudgel
-Dawnguard Rune Hammer
-Shagrol's Warhammer
-The Longhammer
-Trollsbane
-Volendrung
-
-can you do the same thing for the following skyrim Bows unique weapons, setting subType to "Bows" and ensuring the prerequisite string is formatted the same each time
-
-Angi's Bow
-Auriel's Bow
-Bow of the Hunt
-Drainspell Bow
-Dravin's Bow
-Dwarven Black Bow of Fate
-Firiniel's End
-Froki's Bow
-Gauldur Blackbow
-Glass Bow of the Stag Prince
-Karliah's Bow
-Nightingale Bow
-Zephyr

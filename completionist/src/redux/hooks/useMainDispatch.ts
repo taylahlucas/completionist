@@ -1,5 +1,6 @@
 import { Dispatch } from 'redux';
 import { 
+  setLoggedIn,
   setSearchValue, 
   triggerShowSearchResults, 
   setCompletedQuestIds,
@@ -11,6 +12,7 @@ import {
 import { useAppDispatch } from '../store';
 
 interface MainDispatch {
+  setLoggedIn: (value: boolean) => void;
   setSearchValue: (value: string) => void;
   triggerShowSearchResults: (value: boolean) => void;
   setCompletedQuestIds: (value: string[]) => void;
@@ -24,6 +26,9 @@ const useMainDispatch = (): MainDispatch => {
   const dispatch: Dispatch = useAppDispatch();
 
   return {
+    setLoggedIn(value: boolean): void {
+      dispatch(setLoggedIn(value));
+    },
     setSearchValue(value: string): void {
       dispatch(setSearchValue(value));
     },

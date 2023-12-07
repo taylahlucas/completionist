@@ -26,7 +26,7 @@ const NavigationDrawer = () => {
   return (
     <Drawer.Navigator
       drawerContent={(): JSX.Element => <NavigationDrawerContent />}
-      initialRouteName={ScreenEnum.Quests}
+      initialRouteName={ScreenEnum.Login}
       screenOptions={{
         headerShown: false,
         drawerStyle: style.drawerContainer
