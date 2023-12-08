@@ -1,6 +1,8 @@
+import { UserFormData } from '@utils/CustomInterfaces';
 import { Dispatch } from 'redux';
 import { 
   setLoggedIn,
+  setUserFormData,
   setSearchValue, 
   triggerShowSearchResults, 
   setCompletedQuestIds,
@@ -13,6 +15,7 @@ import { useAppDispatch } from '../store';
 
 interface MainDispatch {
   setLoggedIn: (value: boolean) => void;
+  setUserFormData: (value: UserFormData) => void;
   setSearchValue: (value: string) => void;
   triggerShowSearchResults: (value: boolean) => void;
   setCompletedQuestIds: (value: string[]) => void;
@@ -28,6 +31,9 @@ const useMainDispatch = (): MainDispatch => {
   return {
     setLoggedIn(value: boolean): void {
       dispatch(setLoggedIn(value));
+    },
+    setUserFormData(value: UserFormData): void {
+      dispatch(setUserFormData(value));
     },
     setSearchValue(value: string): void {
       dispatch(setSearchValue(value));

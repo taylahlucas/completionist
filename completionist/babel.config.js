@@ -2,8 +2,19 @@ const path = require('path');
 
 module.exports = {
   presets: ['module:metro-react-native-babel-preset'],
+  sourceMaps: true,
   plugins: [
     'react-native-reanimated/plugin',
+    [
+      'module:react-native-dotenv', {
+        'envName': "completionist",
+        'moduleName': "@env",
+        'path': ".env",
+        'safe': false,
+        'allowUndefined': true,
+        'verbose': false
+      }
+    ],
     [
       'module-resolver',
       {
@@ -12,11 +23,12 @@ module.exports = {
         alias: {
           '@components': path.resolve(__dirname, 'src/components/'),
           '@data': path.resolve(__dirname, 'src/data/'),
+          '@graphql': path.resolve(__dirname, 'src/graphql/'),
           '@redux': path.resolve(__dirname, 'src/redux/'),
           '@navigation': path.resolve(__dirname, 'src/navigation/'),
           '@screens': path.resolve(__dirname, 'src/screens/'),
           '@styles': path.resolve(__dirname, 'src/styles/'),
-          '@utils': path.resolve(__dirname, 'src/utils/'),
+          '@utils': path.resolve(__dirname, 'src/utils/')
         }
       }
     ]

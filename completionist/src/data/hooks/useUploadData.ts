@@ -32,32 +32,9 @@ const useUploadData = () => {
     completedLocationIds
   } = useMainState();
 
-  // const readJsonFile = (filePath: string) => {
-  //   try {
-  //     const data = fs.readFileSync(filePath, 'utf8');
-  //     return JSON.parse(data);
-  //   } catch (err) {
-  //     console.error('Error reading JSON file:', err);
-  //     return [];
-  //   }
-  // };
-  
-  // // Write JSON file
-  // const writeJsonFile = (filePath: string, data: UserData) => {
-  //   try {
-  //     fs.writeFileSync(filePath, JSON.stringify(data, null, 2), 'utf8');
-  //     console.log('File updated successfully!');
-  //   } catch (err) {
-  //     console.error('Error writing JSON file:', err);
-  //   }
-  // };
-  
-
   const uploadData = async () => {
     // TODO: Upload data
     // const objects = userData;
-    // File
-    console.log("HERE: ", userData);
   };
 
   return { uploadData };

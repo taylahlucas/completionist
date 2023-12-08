@@ -28,8 +28,8 @@ npx react-native run-ios --port 8002
 - react-native-reanimated
 - react-native-gesture-handler
 
-- @react-native-community/checkbox
 - babel-plugin-module-resolver
+- react-native-dotenv
 
 - react-redux
 - @reduxjs/toolkit
@@ -38,6 +38,9 @@ npx react-native run-ios --port 8002
 
 - @react-native-google-signin/google-signin
 - @react-native-firebase/auth
+
+- graphql-request
+- @apollo/client
 
 
 ## Backend

@@ -25,8 +25,10 @@ const useGetLoginMethods = () => {
       setLoggedIn(true);
 
       return auth().signInWithCredential(googleCredential)
-        .then(() => {
+        .then((response) => {
           navigation.navigate(ScreenEnum.Quests);
+          console.log("RESPONSE: ", response)
+          // TODO: Create user mutation?
         });
     } catch (error: GoogleSignInError | any) {
       switch (error.code) {

@@ -13,3 +13,7 @@ export enum IconTypeEnum {
   Ionicons = 'Ionicons',
   FontAwesome = 'FontAwesome'
 }
+
+export enum SubscriptionTypeEnum {
+  SKYRIM = 'Skyrim'
+}

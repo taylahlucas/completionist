@@ -14,10 +14,9 @@ const RootStackNavigator = () => {
   useEffect(() => {
     const subscription = AppState.addEventListener('change', nextAppState => {
       if (nextAppState === 'active') {
-        console.log("HEREE active")
+        // Read data
       }
       else if (nextAppState === 'inactive') {
-        // console.log("HEREE inactive")
         uploadData();
       }
       appState.current = nextAppState;

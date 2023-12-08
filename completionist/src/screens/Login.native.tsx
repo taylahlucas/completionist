@@ -6,7 +6,6 @@ import LoginForm from '@components/custom/LoginForm/LoginForm.native';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import LoginFormSignInButtons from '@components/custom/LoginForm/LoginFormSignInButtons.native';
 
-
 const Login = () => {
   const theme = useGetTheme();
 

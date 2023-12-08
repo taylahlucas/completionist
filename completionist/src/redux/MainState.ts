@@ -1,7 +1,10 @@
 import { createSlice } from '@reduxjs/toolkit';
+import { SubscriptionTypeEnum } from '@utils/CustomEnums';
+import { UserFormData } from '@utils/CustomInterfaces';
 
 export interface MainState {
   readonly loggedIn: boolean;
+  readonly userFormData: UserFormData;
   readonly searchValue: string;
   readonly showSearchResults: boolean;
   readonly completedQuestIds: string[];
@@ -12,6 +15,17 @@ export interface MainState {
 
 export const initialState: MainState = {
   loggedIn: false,
+  userFormData: {
+    id: '',
+    name: '',
+    email: '',
+    subscription: [
+      {
+        id: SubscriptionTypeEnum.SKYRIM,
+        isActive: true
+      }
+    ]
+  },
   searchValue: '',
   showSearchResults: false,
   completedQuestIds: [],
@@ -26,6 +40,9 @@ const slice = createSlice({
   reducers: {
     setLoggedIn: (state, action) => {
       state.loggedIn = action.payload;
+    },
+    setUserFormData: (state, action) => {
+      state.userFormData = action.payload;
     },
     setSearchValue: (state, action) => {
       state.searchValue = action.payload;
@@ -54,6 +71,7 @@ const slice = createSlice({
 
 export const {
   setLoggedIn,
+  setUserFormData,
   setSearchValue,
   triggerShowSearchResults,
   setCompletedQuestIds,

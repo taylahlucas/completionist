@@ -2,3 +2,7 @@ venv/
 completionist/backend/.env
 completionist/android/app/debug.keystore
 completionist/ios/GoogleService-Info.plist
+completionist/.env
+completionist/package-lock.json
+completionist/.env.d.ts
+completionist/test.json

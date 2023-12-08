@@ -1,7 +1,15 @@
-import { ScreenEnum } from './CustomEnums';
+import { ScreenEnum, SubscriptionTypeEnum } from './CustomEnums';
 import { NavigationAction, NavigationState } from '@react-navigation/native';
 import { MainState } from '@redux/MainState';
+import { ObjectId } from 'mongoose';
 
+export interface UserFormData {
+  id: string;
+  name: string;
+  email: string;
+  userAvatar?: string;
+  subscription: Subscription[];
+}
 
 export interface SkyrimQuest {
   id: string;
@@ -35,6 +43,20 @@ export interface Collectable {
   prerequisite?: string;
 }
 
+// State & Environment
+
+export interface StoreState {
+  main: MainState;
+}
+
+export interface EnvironmentConfig {
+  APP_ID: string;
+  GRAPHQL_ENDPOINT: string;
+  WEB_CLIENT_ID: string;
+}
+
+// Navigation Interfaces
+
 export type RootDrawerParamList = {
   RootStackNavigator: undefined;
   Login: undefined;
@@ -52,6 +74,34 @@ export interface NativeNavigation {
   setOptions: (options: any) => void;
 }
 
-export interface StoreState {
-  main: MainState;
+// GraphQL Interfaces
+
+export interface Item {
+  _id: ObjectId;
+  isComplete: boolean;
+}
+
+export interface SkyrimData {
+  quests: Item[];
+  collectables: Item[];
+  books: Item[];
+  locations: Item[];
+}
+
+export interface UserData {
+  skyrim: SkyrimData;
+}
+
+export interface Subscription {
+  id: SubscriptionTypeEnum;
+  isActive: boolean;
+}
+
+export interface User {
+  _id: ObjectId;
+  name: string;
+  email: string;
+  userAvatar: string;
+  subscription: Subscription[];
+  data: UserData;
 }
