@@ -1,4 +1,5 @@
 export enum ScreenEnum {
+  RootStackNavigator = 'RootStackNavigator',
   Login = 'Login',
   LeftMenu = 'LeftMenu',
   Quests = 'Quests',

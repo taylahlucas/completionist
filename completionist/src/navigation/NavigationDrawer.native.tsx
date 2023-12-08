@@ -5,6 +5,7 @@ import Collectables from '@screens/Collectables.native';
 import Locations from '@screens/Locations.native';
 import Login from '@screens/Login.native';
 import Quests from '@screens/Quests.native';
+import RootStackNavigator from '@screens/RootStackNavigator.native';
 import { ScreenEnum } from '@utils/CustomEnums';
 import { RootDrawerParamList } from '@utils/CustomInterfaces';
 import React from 'react';
@@ -26,12 +27,13 @@ const NavigationDrawer = () => {
   return (
     <Drawer.Navigator
       drawerContent={(): JSX.Element => <NavigationDrawerContent />}
-      initialRouteName={ScreenEnum.Login}
+      initialRouteName={ScreenEnum.RootStackNavigator}
       screenOptions={{
         headerShown: false,
         drawerStyle: style.drawerContainer
       }}
     >
+      <Drawer.Screen name={ScreenEnum.RootStackNavigator} component={RootStackNavigator} />
       <Drawer.Screen name={ScreenEnum.Login} component={Login} />
       <Drawer.Screen name={ScreenEnum.Quests} component={Quests} />
       <Drawer.Screen name={ScreenEnum.Collectables} component={Collectables} />

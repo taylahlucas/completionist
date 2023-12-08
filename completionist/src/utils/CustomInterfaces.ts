@@ -36,6 +36,7 @@ export interface Collectable {
 }
 
 export type RootDrawerParamList = {
+  RootStackNavigator: undefined;
   Login: undefined;
   Quests: undefined;
   Collectables: undefined;

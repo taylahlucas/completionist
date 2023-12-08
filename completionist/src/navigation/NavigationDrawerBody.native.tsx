@@ -1,9 +1,9 @@
 import React from 'react';
-import { Pressable } from 'react-native';
 import {
   NavigationDrawerBodyContainer,
   NavigationHeaderTitleContainer,
-  NavigationHeaderSubTitle
+  NavigationHeaderSubTitle,
+  NavigationDrawerFooter
 } from './NavigationStyledComponents.native';
 import useReactNavigation from './hooks/useReactNavigation.native';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
@@ -33,12 +33,9 @@ const NavigationDrawerBody: React.FunctionComponent = () => {
           </NavigationHeaderSubTitle>
         </NavigationHeaderTitleContainer>
       ))}
-      <Pressable 
-        style={{ position: 'absolute', bottom: 32 }}
-        onPress={signOut}
-      >
+      <NavigationDrawerFooter onPress={signOut}>
         <StyledText align={'left'}>Logout</StyledText>
-      </Pressable>
+      </NavigationDrawerFooter>
     </NavigationDrawerBodyContainer>
   );
 };

@@ -1,6 +1,6 @@
+import { StyleSheet, Dimensions } from 'react-native';
 import Icon from '@components/general/Icon/Icon.native';
 import StyledText from '@components/general/Text/StyledText.native';
-import { StyleSheet } from 'react-native';
 import styled from 'styled-components/native';
 
 export default StyleSheet.create({
@@ -66,7 +66,13 @@ export const NavigationDrawerContainer = styled.View`
 `;
 
 export const NavigationDrawerBodyContainer = styled.View`
+  height: ${Dimensions.get('window').height - 64}px;
   align-content: center;
   margin-top: 16px;
   margin-left: 16px;
+`;
+
+export const NavigationDrawerFooter = styled.Pressable`
+  position: absolute;
+  bottom: 100px;
 `;

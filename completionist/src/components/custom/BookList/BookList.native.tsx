@@ -20,15 +20,15 @@ const BookList = () => {
       {filteredBooks.map((book: Book, index: number) => (
         <ListItem
           key={index} 
-          id={book.id}
+          id={book._id}
           name={book.name}
-          isComplete={checkBookComplete({ id: book.id })}
+          isComplete={checkBookComplete({ id: book._id })}
           action={(): void => {
-            if (checkBookComplete({ id: book.id })) {
-              setCompletedBookIds(completedBookIds.filter(bookId => bookId !== book.id));
+            if (checkBookComplete({ id: book._id })) {
+              setCompletedBookIds(completedBookIds.filter(bookId => bookId !== book._id));
             }
             else {
-              const updateCompletedBooks= [...completedBookIds, book.id]
+              const updateCompletedBooks= [...completedBookIds, book._id]
               setCompletedBookIds(updateCompletedBooks);
             }
           }}

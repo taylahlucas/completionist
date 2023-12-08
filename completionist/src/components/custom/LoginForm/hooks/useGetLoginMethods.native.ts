@@ -21,14 +21,12 @@ const useGetLoginMethods = () => {
     try {
       await GoogleSignin.hasPlayServices();
       const { idToken } = await GoogleSignin.signIn();
-      console.log("HERE: ", idToken)
       const googleCredential = auth.GoogleAuthProvider.credential(idToken);
       setLoggedIn(true);
 
       return auth().signInWithCredential(googleCredential)
-        .then((response) => {
-          console.log("RESPONSE: ", response);
-          navigation.navigate(ScreenEnum.Quests)
+        .then(() => {
+          navigation.navigate(ScreenEnum.Quests);
         });
     } catch (error: GoogleSignInError | any) {
       switch (error.code) {

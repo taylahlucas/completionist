@@ -23,16 +23,16 @@ const CollectableSubTypeMainListItem = ({ mainType, subType, isSubCategory = fal
     <CollectableListSubItemContainer>
       {collectables?.map((collectable, index) => (
         <ListItem 
-          id={collectable.id}
+          id={collectable._id}
           key={index}
           name={collectable.name}
-          isComplete={checkCollectableComplete(collectable.id)}
+          isComplete={checkCollectableComplete(collectable._id)}
           action={(): void => {
-            if (checkCollectableComplete(collectable.id)) {
-              setCompletedCollectableIds(completedCollectableIds.filter(collectableId => collectableId !== collectable.id));
+            if (checkCollectableComplete(collectable._id)) {
+              setCompletedCollectableIds(completedCollectableIds.filter(collectableId => collectableId !== collectable._id));
             }
             else {
-              const updateCompletedCollectables = [...completedCollectableIds, collectable.id]
+              const updateCompletedCollectables = [...completedCollectableIds, collectable._id]
               setCompletedCollectableIds(updateCompletedCollectables);
             }
           }}

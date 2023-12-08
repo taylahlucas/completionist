@@ -21,15 +21,15 @@ const LocationList = () => {
       {filteredLocations.map((location: Location, index: number) => (
         <ListItem 
           key={index} 
-          id={location.id} 
+          id={location._id} 
           name={location.name}
-          isComplete={checkLocationComplete({ id: location.id })}
+          isComplete={checkLocationComplete({ id: location._id })}
           action={(): void => {
-            if (checkLocationComplete({ id: location.id })) {
-              setCompletedLocationIds(completedLocationIds.filter(locationId => locationId !== location.id));
+            if (checkLocationComplete({ id: location._id })) {
+              setCompletedLocationIds(completedLocationIds.filter(locationId => locationId !== location._id));
             }
             else {
-              const updateCompletedLocations = [...completedLocationIds, location.id]
+              const updateCompletedLocations = [...completedLocationIds, location._id]
               setCompletedLocationIds(updateCompletedLocations);
             }
           }}

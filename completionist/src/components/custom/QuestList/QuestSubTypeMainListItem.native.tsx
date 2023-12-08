@@ -19,11 +19,11 @@ const QuestSubTypeMainListItem = ({ category, isSubCategory = false }: QuestSubT
       {quests?.map((quest, index) => (
         <QuestListItem 
           key={index}
-          id={quest.id}
+          id={quest._id}
           title={quest.title}
           location={quest.location}
           hold={quest.hold}
-          isComplete={checkQuestComplete(quest.id)}
+          isComplete={checkQuestComplete(quest._id)}
         />
       ))}
     </QuestListSubItemContainer>
