@@ -2,6 +2,7 @@ import StyledText from '@components/general/Text/StyledText.native';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 import Books from '@screens/Books.native';
 import Collectables from '@screens/Collectables.native';
+import Home from '@screens/Home.native';
 import Locations from '@screens/Locations.native';
 import Quests from '@screens/Quests.native';
 import { ScreenEnum } from '@utils/CustomEnums';
@@ -25,12 +26,13 @@ const NavigationDrawer = () => {
   return (
     <Drawer.Navigator
       drawerContent={(): JSX.Element => <NavigationDrawerContent />}
-      initialRouteName={ScreenEnum.Quests}
+      initialRouteName={ScreenEnum.Home}
       screenOptions={{
         headerShown: false,
         drawerStyle: style.drawerContainer
       }}
     >
+      <Drawer.Screen name={ScreenEnum.Home} component={Home} />
       <Drawer.Screen name={ScreenEnum.Quests} component={Quests} />
       <Drawer.Screen name={ScreenEnum.Collectables} component={Collectables} />
       <Drawer.Screen name={ScreenEnum.Books} component={Books} />

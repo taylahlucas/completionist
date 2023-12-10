@@ -1,6 +1,7 @@
 import Icon from '@components/general/Icon/Icon.native';
 import StyledText from '@components/general/Text/StyledText.native';
-import { StyleSheet } from 'react-native';
+import { DEFAULT_BORDER_RADIUS } from '@styles/global';
+import { Dimensions, StyleSheet } from 'react-native';
 import styled from 'styled-components/native';
 
 export default StyleSheet.create({
@@ -20,6 +21,7 @@ export const NavigationHeaderContainer = styled.View`
   width: 100%;
   flex-direction: row;
   margin-top: 32px;
+  padding-bottom: 16px;
 `;
 
 export const NavigationHeaderTitleContainer = styled.Pressable`
@@ -50,7 +52,7 @@ export const NavigationHeaderMenuIcon = styled(Icon)`
 export const NavigationHeaderMenuButtonBg = styled.View<NavigationHeaderProps>`
   width: 40px;
   height: 40px;
-  border-radius: 5px;
+  border-radius: ${DEFAULT_BORDER_RADIUS}px;
   background-color: ${(props): string => props.color};
 `;
 
@@ -66,7 +68,13 @@ export const NavigationDrawerContainer = styled.View`
 `;
 
 export const NavigationDrawerBodyContainer = styled.View`
+  height: ${Dimensions.get('window').height - 64}px;
   align-content: center;
   margin-top: 16px;
   margin-left: 16px;
+`;
+
+export const NavigationDrawerFooter = styled.View`
+  position: absolute;
+  bottom: 100px;
 `;

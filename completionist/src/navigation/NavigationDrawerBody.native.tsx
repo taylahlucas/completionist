@@ -2,12 +2,15 @@ import React from 'react';
 import {
   NavigationDrawerBodyContainer,
   NavigationHeaderTitleContainer,
-  NavigationHeaderSubTitle
+  NavigationHeaderSubTitle,
+  NavigationDrawerFooter
 } from './NavigationStyledComponents.native';
 import useReactNavigation from './hooks/useReactNavigation.native';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
 import useGetNavigationDrawerItems from './hooks/useGetNavigationDrawerItems.native';
 import StyledText from '@components/general/Text/StyledText.native';
+import { Pressable } from 'react-native';
+import { ScreenEnum } from '@utils/CustomEnums';
 
 const NavigationDrawerBody: React.FunctionComponent = () => {
   const navigation = useReactNavigation();
@@ -30,6 +33,11 @@ const NavigationDrawerBody: React.FunctionComponent = () => {
           </NavigationHeaderSubTitle>
         </NavigationHeaderTitleContainer>
       ))}
+      <NavigationDrawerFooter>
+        <Pressable onPress={(): void => navigation.navigate(ScreenEnum.Home)}>
+          <StyledText align={'left'}>Game Selection</StyledText>
+        </Pressable>
+      </NavigationDrawerFooter>
     </NavigationDrawerBodyContainer>
   );
 };
