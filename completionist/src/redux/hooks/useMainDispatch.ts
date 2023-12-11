@@ -1,6 +1,7 @@
 import { UserFormData } from '@utils/CustomInterfaces';
 import { Dispatch } from 'redux';
 import { 
+  setWebSignInConfigured,
   setLoggedIn,
   setUserFormData,
   setSearchValue, 
@@ -14,6 +15,7 @@ import {
 import { useAppDispatch } from '../store';
 
 interface MainDispatch {
+  setWebSignInConfigured: (value: boolean) => void;
   setLoggedIn: (value: boolean) => void;
   setUserFormData: (value: UserFormData) => void;
   setSearchValue: (value: string) => void;
@@ -29,6 +31,9 @@ const useMainDispatch = (): MainDispatch => {
   const dispatch: Dispatch = useAppDispatch();
 
   return {
+    setWebSignInConfigured(value: boolean): void {
+      dispatch(setWebSignInConfigured(value));
+    },
     setLoggedIn(value: boolean): void {
       dispatch(setLoggedIn(value));
     },

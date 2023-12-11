@@ -9,7 +9,7 @@ import useReactNavigation from './hooks/useReactNavigation.native';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
 import useGetNavigationDrawerItems from './hooks/useGetNavigationDrawerItems.native';
 import StyledText from '@components/general/Text/StyledText.native';
-import useGetLoginMethods from '@components/custom/LoginForm/hooks/useGetLoginMethods.native';
+import useGetLoginMethods from '@components/custom/LoginForm/hooks/useGetLoginMethods';
 
 const NavigationDrawerBody: React.FunctionComponent = () => {
   const { signOut } = useGetLoginMethods();

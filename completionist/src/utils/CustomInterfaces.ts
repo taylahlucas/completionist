@@ -4,7 +4,7 @@ import { MainState } from '@redux/MainState';
 import { ObjectId } from 'mongoose';
 
 export interface UserFormData {
-  id: string;
+  userId: string;
   name: string;
   email: string;
   userAvatar?: string;
@@ -45,12 +45,17 @@ export interface Collectable {
 
 // State & Environment
 
+export interface Base {
+  children?: React.ReactNode;
+}
+
 export interface StoreState {
   main: MainState;
 }
 
 export interface EnvironmentConfig {
   APP_ID: string;
+  ACCESS_TOKEN: string;
   GRAPHQL_ENDPOINT: string;
   WEB_CLIENT_ID: string;
 }
@@ -77,7 +82,7 @@ export interface NativeNavigation {
 // GraphQL Interfaces
 
 export interface Item {
-  _id: ObjectId;
+  id: string;
   isComplete: boolean;
 }
 
@@ -98,7 +103,7 @@ export interface Subscription {
 }
 
 export interface User {
-  _id: ObjectId;
+  userId: ObjectId;
   name: string;
   email: string;
   userAvatar: string;

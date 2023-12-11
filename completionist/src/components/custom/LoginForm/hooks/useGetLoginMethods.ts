@@ -7,6 +7,7 @@ import auth from '@react-native-firebase/auth';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
 import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
 import { ScreenEnum } from '@utils/CustomEnums';
+import useMainState from '@redux/hooks/useMainState';
 
 interface GoogleSignInError {
   code: number;
@@ -15,20 +16,27 @@ interface GoogleSignInError {
 
 const useGetLoginMethods = () => {
   const navigation = useReactNavigation();
-  const { setLoggedIn } = useMainDispatch();
+  const { setLoggedIn, setUserFormData } = useMainDispatch();
+  const { userFormData } = useMainState();
 
   const signIn = async () => {
     try {
       await GoogleSignin.hasPlayServices();
       const { idToken } = await GoogleSignin.signIn();
       const googleCredential = auth.GoogleAuthProvider.credential(idToken);
-      setLoggedIn(true);
 
       return auth().signInWithCredential(googleCredential)
         .then((response) => {
-          navigation.navigate(ScreenEnum.Quests);
           console.log("RESPONSE: ", response)
-          // TODO: Create user mutation?
+          if (!!response?.user?.displayName && !!response.user?.email) {
+            setUserFormData({
+              userId: response?.user?.uid,
+              name: response?.user?.displayName,
+              email: response?.user?.email,
+              userAvatar: response?.user.photoURL ?? undefined,
+              subscription: userFormData.subscription
+            });
+          }
         });
     } catch (error: GoogleSignInError | any) {
       switch (error.code) {

@@ -1,6 +1,6 @@
 import { GoogleSigninButton } from '@react-native-google-signin/google-signin';
 import React from 'react';
-import useGetLoginMethods from './hooks/useGetLoginMethods.native';
+import useGetLoginMethods from './hooks/useGetLoginMethods';
 
 const LoginFormSignInButtons = () => {
   const { signIn } = useGetLoginMethods();

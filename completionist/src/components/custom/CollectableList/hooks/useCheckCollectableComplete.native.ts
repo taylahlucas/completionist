@@ -17,7 +17,7 @@ const useCheckCollectableComplete = (): CheckCollectableCompleteReturnType => {
     let count = 0;
     completedCollectableIds.forEach((collectableId) => {
       collectables.forEach((collectable) => {
-        if (collectableId === collectable._id) {
+        if (collectableId === collectable.id) {
           count += 1;
         }
       });

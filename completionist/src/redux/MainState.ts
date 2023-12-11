@@ -3,6 +3,7 @@ import { SubscriptionTypeEnum } from '@utils/CustomEnums';
 import { UserFormData } from '@utils/CustomInterfaces';
 
 export interface MainState {
+  readonly webSignInConfigured: boolean;
   readonly loggedIn: boolean;
   readonly userFormData: UserFormData;
   readonly searchValue: string;
@@ -14,9 +15,10 @@ export interface MainState {
 }
 
 export const initialState: MainState = {
+  webSignInConfigured: false,
   loggedIn: false,
   userFormData: {
-    id: '',
+    userId: '',
     name: '',
     email: '',
     subscription: [
@@ -38,6 +40,9 @@ const slice = createSlice({
   name: 'main',
   initialState: initialState,
   reducers: {
+    setWebSignInConfigured: (state, action) => {
+      state.webSignInConfigured = action.payload;
+    },
     setLoggedIn: (state, action) => {
       state.loggedIn = action.payload;
     },
@@ -70,6 +75,7 @@ const slice = createSlice({
 });
 
 export const {
+  setWebSignInConfigured,
   setLoggedIn,
   setUserFormData,
   setSearchValue,

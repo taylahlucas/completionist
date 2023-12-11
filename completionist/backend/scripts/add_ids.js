@@ -3,7 +3,7 @@ const { v4: uuidv4 } = require('uuid');
 
 // Function to add UUID to each object in the array
 const addUuidToObjects = (objects) => {
-  return objects.map((obj) => ({ id: uuidv4(), ...obj }));
+  return objects.map((obj) => ({ _id: uuidv4(), ...obj }));
 };
 
 // Read JSON file
@@ -27,34 +27,14 @@ const writeJsonFile = (filePath, data) => {
   }
 };
 
-// Check for duplicate identifiers
-const checkDuplicateIdentifiers = (data) => {
-  const seenIds = {};
-  const duplicateIds = [];
-
-  data.forEach((item) => {
-    const { id } = item;
-
-    if (seenIds[id]) {
-      duplicateIds.push(id);
-    } else {
-      seenIds[id] = true;
-    }
-  });
-
-  console.log(duplicateIds)
-}
-
 // Specify the path to your JSON file
-const jsonFilePath = 'skyrim_locations.json';
+const jsonFilePath = 'file_path.json';
 
 // Read objects from the JSON file
 const objects = readJsonFile(jsonFilePath);
 
 // Add UUID to each object
-// const objectsWithUuid = addUuidToObjects(objects);
+const objectsWithUuid = addUuidToObjects(objects);
 
 // Write updated objects back to the JSON file
-// writeJsonFile(jsonFilePath, objectsWithUuid);
-
-checkDuplicateIdentifiers(objects);
+writeJsonFile(jsonFilePath, objectsWithUuid);

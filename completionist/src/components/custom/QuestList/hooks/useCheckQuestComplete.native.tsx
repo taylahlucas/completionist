@@ -17,7 +17,7 @@ const useCheckQuestComplete = (): CheckQuestCompleteReturnType => {
     let count = 0;
     completedQuestIds.forEach((questId) => {
       quests.forEach((quest) => {
-        if (questId === quest._id) {
+        if (questId === quest.id) {
           count += 1;
         }
       });

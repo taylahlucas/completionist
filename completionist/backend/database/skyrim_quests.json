@@ -1,6 +1,6 @@
 [
   {
-    "_id": "c0c4db32-0e1a-4f9c-9707-6e510646237f",
+    "id": "c0c4db32-0e1a-4f9c-9707-6e510646237f",
     "mainCategory": "Main Quests",
     "subCategory": "Act I",
     "subCategoryType": "",
@@ -10,7 +10,7 @@
     "href": ""
   },
   {
-    "_id": "dd714d01-8537-48b0-85fe-8b2fcd45dc52",
+    "id": "dd714d01-8537-48b0-85fe-8b2fcd45dc52",
     "mainCategory": "Main Quests",
     "subCategory": "Act I",
     "subCategoryType": "",
@@ -20,7 +20,7 @@
     "href": ""
   },
   {
-    "_id": "a46f8234-9760-4c26-b916-d3044be3b1b5",
+    "id": "a46f8234-9760-4c26-b916-d3044be3b1b5",
     "mainCategory": "Main Quests",
     "subCategory": "Act I",
     "subCategoryType": "",
@@ -30,7 +30,7 @@
     "href": ""
   },
   {
-    "_id": "ed82dc2c-3f4a-4483-b44e-303a17122213",
+    "id": "ed82dc2c-3f4a-4483-b44e-303a17122213",
     "mainCategory": "Main Quests",
     "subCategory": "Act I",
     "subCategoryType": "",
@@ -40,7 +40,7 @@
     "href": ""
   },
   {
-    "_id": "075d57bf-8137-45fb-ac1a-3f6a8a48501f",
+    "id": "075d57bf-8137-45fb-ac1a-3f6a8a48501f",
     "mainCategory": "Main Quests",
     "subCategory": "Act I",
     "subCategoryType": "",
@@ -50,7 +50,7 @@
     "href": ""
   },
   {
-    "_id": "22c70509-908d-4876-b7db-bd411653daeb",
+    "id": "22c70509-908d-4876-b7db-bd411653daeb",
     "mainCategory": "Main Quests",
     "subCategory": "Act I",
     "subCategoryType": "",
@@ -60,7 +60,7 @@
     "href": ""
   },
   {
-    "_id": "a4b7172b-5e77-4304-86ea-03e088d1461a",
+    "id": "a4b7172b-5e77-4304-86ea-03e088d1461a",
     "mainCategory": "Main Quests",
     "subCategory": "Act II",
     "subCategoryType": "",
@@ -70,7 +70,7 @@
     "href": ""
   },
   {
-    "_id": "6930b264-7906-4ba6-a8a3-341e6261d83b",
+    "id": "6930b264-7906-4ba6-a8a3-341e6261d83b",
     "mainCategory": "Main Quests",
     "subCategory": "Act II",
     "subCategoryType": "",
@@ -80,7 +80,7 @@
     "href": ""
   },
   {
-    "_id": "5ff19f86-6585-4b80-8c66-8753a35845fc",
+    "id": "5ff19f86-6585-4b80-8c66-8753a35845fc",
     "mainCategory": "Main Quests",
     "subCategory": "Act II",
     "subCategoryType": "",
@@ -90,7 +90,7 @@
     "href": ""
   },
   {
-    "_id": "da2214f5-82b8-47bb-b7a5-2a24c53aec4e",
+    "id": "da2214f5-82b8-47bb-b7a5-2a24c53aec4e",
     "mainCategory": "Main Quests",
     "subCategory": "Act II",
     "subCategoryType": "",
@@ -100,7 +100,7 @@
     "href": ""
   },
   {
-    "_id": "864150dd-edaf-449e-9bdf-79f85af6383f",
+    "id": "864150dd-edaf-449e-9bdf-79f85af6383f",
     "mainCategory": "Main Quests",
     "subCategory": "Act II",
     "subCategoryType": "",
@@ -110,7 +110,7 @@
     "href": ""
   },
   {
-    "_id": "b04496c1-ace4-496b-a8a6-fd2a8214d07f",
+    "id": "b04496c1-ace4-496b-a8a6-fd2a8214d07f",
     "mainCategory": "Main Quests",
     "subCategory": "Act II",
     "subCategoryType": "",
@@ -120,7 +120,7 @@
     "href": ""
   },
   {
-    "_id": "16f37c66-9bc5-4500-92ea-861a1bfcf085",
+    "id": "16f37c66-9bc5-4500-92ea-861a1bfcf085",
     "mainCategory": "Main Quests",
     "subCategory": "Act II",
     "subCategoryType": "",
@@ -130,7 +130,7 @@
     "href": ""
   },
   {
-    "_id": "28fde2e0-5724-4c50-a08b-db88dc1cf0d3",
+    "id": "28fde2e0-5724-4c50-a08b-db88dc1cf0d3",
     "mainCategory": "Main Quests",
     "subCategory": "Act III",
     "subCategoryType": "",
@@ -140,7 +140,7 @@
     "href": ""
   },
   {
-    "_id": "5efb27ee-3655-4e01-a9a3-1570aff3b1cc",
+    "id": "5efb27ee-3655-4e01-a9a3-1570aff3b1cc",
     "mainCategory": "Main Quests",
     "subCategory": "Act III",
     "subCategoryType": "",
@@ -150,7 +150,7 @@
     "href": ""
   },
   {
-    "_id": "ab8ab1eb-53d0-4e24-a679-5ea05484ae8c",
+    "id": "ab8ab1eb-53d0-4e24-a679-5ea05484ae8c",
     "mainCategory": "Main Quests",
     "subCategory": "Act III",
     "subCategoryType": "",
@@ -160,7 +160,7 @@
     "href": ""
   },
   {
-    "_id": "69224c20-09f3-4990-917a-d1c54ee34552",
+    "id": "69224c20-09f3-4990-917a-d1c54ee34552",
     "mainCategory": "Main Quests",
     "subCategory": "Act III",
     "subCategoryType": "",
@@ -170,7 +170,7 @@
     "href": ""
   },
   {
-    "_id": "d04f651e-f18f-4eb2-ba10-ff9afd08f634",
+    "id": "d04f651e-f18f-4eb2-ba10-ff9afd08f634",
     "mainCategory": "Main Quests",
     "subCategory": "Act III",
     "subCategoryType": "",
@@ -180,7 +180,7 @@
     "href": ""
   },
   {
-    "_id": "c945e161-f62c-4dbe-a65a-0c934ad08908",
+    "id": "c945e161-f62c-4dbe-a65a-0c934ad08908",
     "mainCategory": "Main Quests",
     "subCategory": "Act III",
     "subCategoryType": "",
@@ -190,7 +190,7 @@
     "href": ""
   },
   {
-    "_id": "1a80a1c3-648b-4584-9eac-b54713d69a2b",
+    "id": "1a80a1c3-648b-4584-9eac-b54713d69a2b",
     "mainCategory": "Main Quests",
     "subCategory": "Act III",
     "subCategoryType": "",
@@ -200,7 +200,7 @@
     "href": ""
   },
   {
-    "_id": "81f44aec-dbb6-4890-813d-f4728a59c79c",
+    "id": "81f44aec-dbb6-4890-813d-f4728a59c79c",
     "mainCategory": "Faction Quests",
     "subCategory": "Dark Brotherhood",
     "subCategoryType": "",
@@ -210,7 +210,7 @@
     "href": ""
   },
   {
-    "_id": "135a5799-44cf-4457-bd04-3424cf6baff0",
+    "id": "135a5799-44cf-4457-bd04-3424cf6baff0",
     "mainCategory": "Faction Quests",
     "subCategory": "Dark Brotherhood",
     "subCategoryType": "",
@@ -220,7 +220,7 @@
     "href": ""
   },
   {
-    "_id": "2ccacc0c-c87f-4335-b8a6-0f23dcfea6b7",
+    "id": "2ccacc0c-c87f-4335-b8a6-0f23dcfea6b7",
     "mainCategory": "Faction Quests",
     "subCategory": "Dark Brotherhood",
     "subCategoryType": "",
@@ -230,7 +230,7 @@
     "href": ""
   },
   {
-    "_id": "500cbc19-6c09-443c-ad2e-740e2b01d62c",
+    "id": "500cbc19-6c09-443c-ad2e-740e2b01d62c",
     "mainCategory": "Faction Quests",
     "subCategory": "Dark Brotherhood",
     "subCategoryType": "",
@@ -240,7 +240,7 @@
     "href": ""
   },
   {
-    "_id": "5ab747a6-edd5-4695-b616-703c6020b8a9",
+    "id": "5ab747a6-edd5-4695-b616-703c6020b8a9",
     "mainCategory": "Faction Quests",
     "subCategory": "Dark Brotherhood",
     "subCategoryType": "",
@@ -250,7 +250,7 @@
     "href": ""
   },
   {
-    "_id": "0bf2f46c-8c8b-446c-bdd0-a5c6ca2c115f",
+    "id": "0bf2f46c-8c8b-446c-bdd0-a5c6ca2c115f",
     "mainCategory": "Faction Quests",
     "subCategory": "Dark Brotherhood",
     "subCategoryType": "",
@@ -260,7 +260,7 @@
     "href": ""
   },
   {
-    "_id": "b0ee8d6c-d562-4c07-b7b2-d29b2e4a5dec",
+    "id": "b0ee8d6c-d562-4c07-b7b2-d29b2e4a5dec",
     "mainCategory": "Faction Quests",
     "subCategory": "Dark Brotherhood",
     "subCategoryType": "",
@@ -270,7 +270,7 @@
     "href": ""
   },
   {
-    "_id": "92bbc86e-4912-4db3-b70e-239f74809c33",
+    "id": "92bbc86e-4912-4db3-b70e-239f74809c33",
     "mainCategory": "Faction Quests",
     "subCategory": "Dark Brotherhood",
     "subCategoryType": "",
@@ -280,7 +280,7 @@
     "href": ""
   },
   {
-    "_id": "a81b6444-941d-4110-aa01-05941c4399f2",
+    "id": "a81b6444-941d-4110-aa01-05941c4399f2",
     "mainCategory": "Faction Quests",
     "subCategory": "Dark Brotherhood",
     "subCategoryType": "",
@@ -290,7 +290,7 @@
     "href": ""
   },
   {
-    "_id": "8054093c-5734-4568-bef1-47e8bdd612e2",
+    "id": "8054093c-5734-4568-bef1-47e8bdd612e2",
     "mainCategory": "Faction Quests",
     "subCategory": "Dark Brotherhood",
     "subCategoryType": "",
@@ -300,7 +300,7 @@
     "href": ""
   },
   {
-    "_id": "29e1e38d-cf37-4a21-866f-f7cc7e6dbf28",
+    "id": "29e1e38d-cf37-4a21-866f-f7cc7e6dbf28",
     "mainCategory": "Faction Quests",
     "subCategory": "Dark Brotherhood",
     "subCategoryType": "",
@@ -310,7 +310,7 @@
     "href": ""
   },
   {
-    "_id": "f84e3b46-958c-4a58-968f-c747adb628c6",
+    "id": "f84e3b46-958c-4a58-968f-c747adb628c6",
     "mainCategory": "Faction Quests",
     "subCategory": "Dark Brotherhood",
     "subCategoryType": "",
@@ -320,7 +320,7 @@
     "href": ""
   },
   {
-    "_id": "887a6714-3dba-4d3a-bfae-f1a672339201",
+    "id": "887a6714-3dba-4d3a-bfae-f1a672339201",
     "mainCategory": "Faction Quests",
     "subCategory": "Dark Brotherhood",
     "subCategoryType": "",
@@ -330,7 +330,7 @@
     "href": ""
   },
   {
-    "_id": "c9a491d8-1576-48eb-89fa-78d2d86a32b6",
+    "id": "c9a491d8-1576-48eb-89fa-78d2d86a32b6",
     "mainCategory": "Faction Quests",
     "subCategory": "Dark Brotherhood",
     "subCategoryType": "",
@@ -340,7 +340,7 @@
     "href": ""
   },
   {
-    "_id": "727fc9eb-0c44-4f95-989a-d1a8f2ab7537",
+    "id": "727fc9eb-0c44-4f95-989a-d1a8f2ab7537",
     "mainCategory": "Faction Quests",
     "subCategory": "Dark Brotherhood",
     "subCategoryType": "Contracts",
@@ -350,7 +350,7 @@
     "href": ""
   },
   {
-    "_id": "edbebf48-f182-42e1-b9bb-a168feca6cbf",
+    "id": "edbebf48-f182-42e1-b9bb-a168feca6cbf",
     "mainCategory": "Faction Quests",
     "subCategory": "Dark Brotherhood",
     "subCategoryType": "Contracts",
@@ -358,7 +358,7 @@
     "href": ""
   },
   {
-    "_id": "54890b96-aa80-44d6-bd1e-e8c21ecd9788",
+    "id": "54890b96-aa80-44d6-bd1e-e8c21ecd9788",
     "mainCategory": "Faction Quests",
     "subCategory": "Dark Brotherhood",
     "subCategoryType": "Contracts",
@@ -368,7 +368,7 @@
     "href": ""
   },
   {
-    "_id": "dd8c07a5-fa5f-43c3-afa5-08aa1fc09d42",
+    "id": "dd8c07a5-fa5f-43c3-afa5-08aa1fc09d42",
     "mainCategory": "Faction Quests",
     "subCategory": "Dark Brotherhood",
     "subCategoryType": "Contracts",
@@ -378,7 +378,7 @@
     "href": ""
   },
   {
-    "_id": "3ccf9614-a2d0-4b8d-bc1f-4836f06de6c4",
+    "id": "3ccf9614-a2d0-4b8d-bc1f-4836f06de6c4",
     "mainCategory": "Faction Quests",
     "subCategory": "Dark Brotherhood",
     "subCategoryType": "Contracts",
@@ -388,7 +388,7 @@
     "href": ""
   },
   {
-    "_id": "09d0dac1-87f6-4044-a06c-6f6fd38307bd",
+    "id": "09d0dac1-87f6-4044-a06c-6f6fd38307bd",
     "mainCategory": "Faction Quests",
     "subCategory": "Dark Brotherhood",
     "subCategoryType": "Contracts",
@@ -398,7 +398,7 @@
     "href": ""
   },
   {
-    "_id": "0373f777-3803-4eb7-9e91-15c93184a676",
+    "id": "0373f777-3803-4eb7-9e91-15c93184a676",
     "mainCategory": "Faction Quests",
     "subCategory": "Dark Brotherhood",
     "subCategoryType": "Contracts",
@@ -408,7 +408,7 @@
     "href": ""
   },
   {
-    "_id": "ba38ed60-fc02-43fd-8e5b-aae038a5e2d2",
+    "id": "ba38ed60-fc02-43fd-8e5b-aae038a5e2d2",
     "mainCategory": "Faction Quests",
     "subCategory": "Dark Brotherhood",
     "subCategoryType": "Contracts",
@@ -418,7 +418,7 @@
     "href": ""
   },
   {
-    "_id": "edfb60cd-7448-44ca-877b-332fe782c495",
+    "id": "edfb60cd-7448-44ca-877b-332fe782c495",
     "mainCategory": "Faction Quests",
     "subCategory": "Dark Brotherhood",
     "subCategoryType": "Contracts",
@@ -428,7 +428,7 @@
     "href": ""
   },
   {
-    "_id": "624549a8-6ef4-4771-a687-e3e9467d0e3e",
+    "id": "624549a8-6ef4-4771-a687-e3e9467d0e3e",
     "mainCategory": "Faction Quests",
     "subCategory": "Dark Brotherhood",
     "subCategoryType": "Contracts",
@@ -438,7 +438,7 @@
     "href": ""
   },
   {
-    "_id": "ae7e29d4-379d-4cb9-9624-7ab6bad71fe3",
+    "id": "ae7e29d4-379d-4cb9-9624-7ab6bad71fe3",
     "mainCategory": "Faction Quests",
     "subCategory": "Dark Brotherhood",
     "subCategoryType": "Contracts",
@@ -448,7 +448,7 @@
     "href": ""
   },
   {
-    "_id": "dcc7c4d5-4459-4654-8ee4-769b5a5e37f6",
+    "id": "dcc7c4d5-4459-4654-8ee4-769b5a5e37f6",
     "mainCategory": "Faction Quests",
     "subCategory": "Dark Brotherhood",
     "subCategoryType": "Contracts",
@@ -458,7 +458,7 @@
     "href": ""
   },
   {
-    "_id": "c1897c69-c14a-4882-a286-3bf1fae87d61",
+    "id": "c1897c69-c14a-4882-a286-3bf1fae87d61",
     "mainCategory": "Faction Quests",
     "subCategory": "Dark Brotherhood",
     "subCategoryType": "Side Quests",
@@ -468,7 +468,7 @@
     "href": ""
   },
   {
-    "_id": "4e53bee9-74ab-465f-9257-4ea6de22e18e",
+    "id": "4e53bee9-74ab-465f-9257-4ea6de22e18e",
     "mainCategory": "Faction Quests",
     "subCategory": "Dark Brotherhood",
     "subCategoryType": "Side Quests",
@@ -478,7 +478,7 @@
     "href": ""
   },
   {
-    "_id": "45a49c79-c337-410a-b974-1d1136d3bc64",
+    "id": "45a49c79-c337-410a-b974-1d1136d3bc64",
     "mainCategory": "Faction Quests",
     "subCategory": "Dark Brotherhood",
     "subCategoryType": "Side Quests",
@@ -488,7 +488,7 @@
     "href": ""
   },
   {
-    "_id": "bc153b91-e87a-4492-a676-92e7961ba850",
+    "id": "bc153b91-e87a-4492-a676-92e7961ba850",
     "mainCategory": "Faction Quests",
     "subCategory": "Dark Brotherhood",
     "subCategoryType": "Other quests",
@@ -498,7 +498,7 @@
     "href": ""
   },
   {
-    "_id": "aba9b1a4-be14-48c8-81ee-35f3ddf774fc",
+    "id": "aba9b1a4-be14-48c8-81ee-35f3ddf774fc",
     "mainCategory": "Faction Quests",
     "subCategory": "Dark Brotherhood",
     "subCategoryType": "Other quests",
@@ -508,7 +508,7 @@
     "href": ""
   },
   {
-    "_id": "c76c4b80-f13f-49b4-89a1-e654cab549bb",
+    "id": "c76c4b80-f13f-49b4-89a1-e654cab549bb",
     "mainCategory": "Faction Quests",
     "subCategory": "College of Winterhold",
     "subCategoryType": "",
@@ -518,7 +518,7 @@
     "href": ""
   },
   {
-    "_id": "b9ac7a31-e177-4c88-846a-63dd82a86ed0",
+    "id": "b9ac7a31-e177-4c88-846a-63dd82a86ed0",
     "mainCategory": "Faction Quests",
     "subCategory": "College of Winterhold",
     "subCategoryType": "",
@@ -528,7 +528,7 @@
     "href": ""
   },
   {
-    "_id": "f6095290-3e72-46e2-b01e-ed04222efb52",
+    "id": "f6095290-3e72-46e2-b01e-ed04222efb52",
     "mainCategory": "Faction Quests",
     "subCategory": "College of Winterhold",
     "subCategoryType": "",
@@ -538,7 +538,7 @@
     "href": ""
   },
   {
-    "_id": "099fdfc5-3a0f-4b92-b513-9d21edc1fd68",
+    "id": "099fdfc5-3a0f-4b92-b513-9d21edc1fd68",
     "mainCategory": "Faction Quests",
     "subCategory": "College of Winterhold",
     "subCategoryType": "",
@@ -548,7 +548,7 @@
     "href": ""
   },
   {
-    "_id": "a803dfb1-7cc5-4d9b-8c44-2d94e2d451c2",
+    "id": "a803dfb1-7cc5-4d9b-8c44-2d94e2d451c2",
     "mainCategory": "Faction Quests",
     "subCategory": "College of Winterhold",
     "subCategoryType": "",
@@ -558,7 +558,7 @@
     "href": ""
   },
   {
-    "_id": "c05946f2-2b76-47ad-893e-4e14173b627e",
+    "id": "c05946f2-2b76-47ad-893e-4e14173b627e",
     "mainCategory": "Faction Quests",
     "subCategory": "College of Winterhold",
     "subCategoryType": "",
@@ -568,7 +568,7 @@
     "href": ""
   },
   {
-    "_id": "669b90cb-cc31-45aa-878b-f30560e8f161",
+    "id": "669b90cb-cc31-45aa-878b-f30560e8f161",
     "mainCategory": "Faction Quests",
     "subCategory": "College of Winterhold",
     "subCategoryType": "",
@@ -578,7 +578,7 @@
     "href": ""
   },
   {
-    "_id": "89afbd0a-affd-4771-9702-f79a5b68dee5",
+    "id": "89afbd0a-affd-4771-9702-f79a5b68dee5",
     "mainCategory": "Faction Quests",
     "subCategory": "College of Winterhold",
     "subCategoryType": "",
@@ -588,7 +588,7 @@
     "href": ""
   },
   {
-    "_id": "e9aab076-d336-47b9-b081-97825dbc5919",
+    "id": "e9aab076-d336-47b9-b081-97825dbc5919",
     "mainCategory": "Faction Quests",
     "subCategory": "College of Winterhold",
     "subCategoryType": "Side Quests",
@@ -598,7 +598,7 @@
     "href": ""
   },
   {
-    "_id": "95687273-0062-45a3-879f-b64048f89659",
+    "id": "95687273-0062-45a3-879f-b64048f89659",
     "mainCategory": "Faction Quests",
     "subCategory": "College of Winterhold",
     "subCategoryType": "Side Quests",
@@ -608,7 +608,7 @@
     "href": ""
   },
   {
-    "_id": "3b6b2d2a-1fa6-4bcc-ac98-03c68447aac4",
+    "id": "3b6b2d2a-1fa6-4bcc-ac98-03c68447aac4",
     "mainCategory": "Faction Quests",
     "subCategory": "College of Winterhold",
     "subCategoryType": "Side Quests",
@@ -618,7 +618,7 @@
     "href": ""
   },
   {
-    "_id": "97aa89ea-e5f7-4f13-b5ef-a4c2fcfbefd4",
+    "id": "97aa89ea-e5f7-4f13-b5ef-a4c2fcfbefd4",
     "mainCategory": "Faction Quests",
     "subCategory": "College of Winterhold",
     "subCategoryType": "Side Quests",
@@ -628,7 +628,7 @@
     "href": ""
   },
   {
-    "_id": "d257a823-8341-4943-b5f4-a6187d572d12",
+    "id": "d257a823-8341-4943-b5f4-a6187d572d12",
     "mainCategory": "Faction Quests",
     "subCategory": "College of Winterhold",
     "subCategoryType": "Side Quests",
@@ -638,7 +638,7 @@
     "href": ""
   },
   {
-    "_id": "571f0ca4-2255-4d85-831f-31aed14b1a57",
+    "id": "571f0ca4-2255-4d85-831f-31aed14b1a57",
     "mainCategory": "Faction Quests",
     "subCategory": "College of Winterhold",
     "subCategoryType": "Side Quests",
@@ -648,7 +648,7 @@
     "href": ""
   },
   {
-    "_id": "518661f6-8d8a-4baf-9fa9-653eb04d4c57",
+    "id": "518661f6-8d8a-4baf-9fa9-653eb04d4c57",
     "mainCategory": "Faction Quests",
     "subCategory": "College of Winterhold",
     "subCategoryType": "Side Quests",
@@ -658,7 +658,7 @@
     "href": ""
   },
   {
-    "_id": "25aa4ae4-5378-493a-bf7a-ed9b75ae810e",
+    "id": "25aa4ae4-5378-493a-bf7a-ed9b75ae810e",
     "mainCategory": "Faction Quests",
     "subCategory": "College of Winterhold",
     "subCategoryType": "Side Quests",
@@ -668,7 +668,7 @@
     "href": ""
   },
   {
-    "_id": "ea73d9af-ab92-4703-a02f-c9854b73c3c6",
+    "id": "ea73d9af-ab92-4703-a02f-c9854b73c3c6",
     "mainCategory": "Faction Quests",
     "subCategory": "College of Winterhold",
     "subCategoryType": "Radiant quests",
@@ -678,7 +678,7 @@
     "href": ""
   },
   {
-    "_id": "567126a5-4037-4bb4-991e-bf0573b736e2",
+    "id": "567126a5-4037-4bb4-991e-bf0573b736e2",
     "mainCategory": "Faction Quests",
     "subCategory": "College of Winterhold",
     "subCategoryType": "Radiant quests",
@@ -688,7 +688,7 @@
     "href": ""
   },
   {
-    "_id": "b0c8e41b-0b90-43e7-ba08-b2f9e7b7f6a0",
+    "id": "b0c8e41b-0b90-43e7-ba08-b2f9e7b7f6a0",
     "mainCategory": "Faction Quests",
     "subCategory": "College of Winterhold",
     "subCategoryType": "Radiant quests",
@@ -698,7 +698,7 @@
     "href": ""
   },
   {
-    "_id": "4943d76e-c411-486b-90a3-696203d6b496",
+    "id": "4943d76e-c411-486b-90a3-696203d6b496",
     "mainCategory": "Faction Quests",
     "subCategory": "College of Winterhold",
     "subCategoryType": "Radiant quests",
@@ -708,7 +708,7 @@
     "href": ""
   },
   {
-    "_id": "028ac0fb-5ab3-4cbf-8f0f-2a13c5de8eaa",
+    "id": "028ac0fb-5ab3-4cbf-8f0f-2a13c5de8eaa",
     "mainCategory": "Faction Quests",
     "subCategory": "College of Winterhold",
     "subCategoryType": "Radiant quests",
@@ -718,7 +718,7 @@
     "href": ""
   },
   {
-    "_id": "f6b2ea9d-06ac-4e9b-8ef3-c5e7e55885fa",
+    "id": "f6b2ea9d-06ac-4e9b-8ef3-c5e7e55885fa",
     "mainCategory": "Faction Quests",
     "subCategory": "College of Winterhold",
     "subCategoryType": "Broken quests",
@@ -728,7 +728,7 @@
     "href": ""
   },
   {
-    "_id": "2cbfb76f-d9ac-43e4-abc5-bb8a0506b245",
+    "id": "2cbfb76f-d9ac-43e4-abc5-bb8a0506b245",
     "mainCategory": "Faction Quests",
     "subCategory": "College of Winterhold",
     "subCategoryType": "Master-level spell quests",
@@ -738,7 +738,7 @@
     "href": ""
   },
   {
-    "_id": "4a727462-ff65-4791-92bd-c5e0947d8054",
+    "id": "4a727462-ff65-4791-92bd-c5e0947d8054",
     "mainCategory": "Faction Quests",
     "subCategory": "College of Winterhold",
     "subCategoryType": "Master-level spell quests",
@@ -748,7 +748,7 @@
     "href": ""
   },
   {
-    "_id": "6b09d5a2-cd0a-470a-88a2-c491a86aa1b0",
+    "id": "6b09d5a2-cd0a-470a-88a2-c491a86aa1b0",
     "mainCategory": "Faction Quests",
     "subCategory": "College of Winterhold",
     "subCategoryType": "Master-level spell quests",
@@ -758,7 +758,7 @@
     "href": ""
   },
   {
-    "_id": "fcd026b0-b8d4-4ee1-941b-5aef270b2694",
+    "id": "fcd026b0-b8d4-4ee1-941b-5aef270b2694",
     "mainCategory": "Faction Quests",
     "subCategory": "College of Winterhold",
     "subCategoryType": "Master-level spell quests",
@@ -768,7 +768,7 @@
     "href": ""
   },
   {
-    "_id": "e68465aa-f2a3-4c45-bc80-c7a50bd85985",
+    "id": "e68465aa-f2a3-4c45-bc80-c7a50bd85985",
     "mainCategory": "Faction Quests",
     "subCategory": "College of Winterhold",
     "subCategoryType": "Master-level spell quests",
@@ -778,7 +778,7 @@
     "href": ""
   },
   {
-    "_id": "392c869e-2ed6-4b3b-af82-c556d2f0bafc",
+    "id": "392c869e-2ed6-4b3b-af82-c556d2f0bafc",
     "mainCategory": "Faction Quests",
     "subCategory": "The Companions",
     "subCategoryType": "",
@@ -788,7 +788,7 @@
     "href": ""
   },
   {
-    "_id": "d529e05a-7615-46f0-8c58-4f0f5881c624",
+    "id": "d529e05a-7615-46f0-8c58-4f0f5881c624",
     "mainCategory": "Faction Quests",
     "subCategory": "The Companions",
     "subCategoryType": "",
@@ -798,7 +798,7 @@
     "href": ""
   },
   {
-    "_id": "09a69a0e-8d7f-46b6-a94b-a12d695305d3",
+    "id": "09a69a0e-8d7f-46b6-a94b-a12d695305d3",
     "mainCategory": "Faction Quests",
     "subCategory": "The Companions",
     "subCategoryType": "",
@@ -808,7 +808,7 @@
     "href": ""
   },
   {
-    "_id": "e506ff94-550c-4eeb-95d2-9e6490da91b8",
+    "id": "e506ff94-550c-4eeb-95d2-9e6490da91b8",
     "mainCategory": "Faction Quests",
     "subCategory": "The Companions",
     "subCategoryType": "",
@@ -818,7 +818,7 @@
     "href": ""
   },
   {
-    "_id": "9dd84a3d-400d-4181-b210-6b421046d9f7",
+    "id": "9dd84a3d-400d-4181-b210-6b421046d9f7",
     "mainCategory": "Faction Quests",
     "subCategory": "The Companions",
     "subCategoryType": "",
@@ -828,7 +828,7 @@
     "href": ""
   },
   {
-    "_id": "b801d2ae-b39d-4b08-9fd0-eecc567122de",
+    "id": "b801d2ae-b39d-4b08-9fd0-eecc567122de",
     "mainCategory": "Faction Quests",
     "subCategory": "The Companions",
     "subCategoryType": "",
@@ -838,7 +838,7 @@
     "href": ""
   },
   {
-    "_id": "5fe83cde-671c-4749-8654-595b0ba4e857",
+    "id": "5fe83cde-671c-4749-8654-595b0ba4e857",
     "mainCategory": "Faction Quests",
     "subCategory": "The Companions",
     "subCategoryType": "Side Quests",
@@ -848,7 +848,7 @@
     "href": ""
   },
   {
-    "_id": "6e41ba54-10bf-40d2-b109-05cec6a71b02",
+    "id": "6e41ba54-10bf-40d2-b109-05cec6a71b02",
     "mainCategory": "Faction Quests",
     "subCategory": "The Companions",
     "subCategoryType": "Side Quests",
@@ -858,7 +858,7 @@
     "href": ""
   },
   {
-    "_id": "fc58a3a2-f82e-4362-af46-5129d84f389d",
+    "id": "fc58a3a2-f82e-4362-af46-5129d84f389d",
     "mainCategory": "Faction Quests",
     "subCategory": "The Companions",
     "subCategoryType": "Side Quests",
@@ -868,7 +868,7 @@
     "href": ""
   },
   {
-    "_id": "46a8342f-e5a6-41e9-9697-8fe4d812d8e6",
+    "id": "46a8342f-e5a6-41e9-9697-8fe4d812d8e6",
     "mainCategory": "Faction Quests",
     "subCategory": "The Companions",
     "subCategoryType": "Side Quests",
@@ -878,7 +878,7 @@
     "href": ""
   },
   {
-    "_id": "d91d2866-a83d-4ddc-8085-3e65b074c8d7",
+    "id": "d91d2866-a83d-4ddc-8085-3e65b074c8d7",
     "mainCategory": "Faction Quests",
     "subCategory": "The Companions",
     "subCategoryType": "Side Quests",
@@ -888,7 +888,7 @@
     "href": ""
   },
   {
-    "_id": "a28790d2-e22b-4a18-9c45-187bcc06b975",
+    "id": "a28790d2-e22b-4a18-9c45-187bcc06b975",
     "mainCategory": "Faction Quests",
     "subCategory": "The Companions",
     "subCategoryType": "Radiant quests",
@@ -898,7 +898,7 @@
     "href": ""
   },
   {
-    "_id": "7b06f811-9999-487d-81b6-a71146cfbbba",
+    "id": "7b06f811-9999-487d-81b6-a71146cfbbba",
     "mainCategory": "Faction Quests",
     "subCategory": "The Companions",
     "subCategoryType": "Radiant quests",
@@ -908,7 +908,7 @@
     "href": ""
   },
   {
-    "_id": "89803a05-9f6c-4672-bba9-786a0873203a",
+    "id": "89803a05-9f6c-4672-bba9-786a0873203a",
     "mainCategory": "Faction Quests",
     "subCategory": "The Companions",
     "subCategoryType": "Radiant quests",
@@ -918,7 +918,7 @@
     "href": ""
   },
   {
-    "_id": "a7c541b1-ba7e-4cb5-bcd3-ad20f44f0009",
+    "id": "a7c541b1-ba7e-4cb5-bcd3-ad20f44f0009",
     "mainCategory": "Faction Quests",
     "subCategory": "The Companions",
     "subCategoryType": "Radiant quests",
@@ -928,7 +928,7 @@
     "href": ""
   },
   {
-    "_id": "86cb73b5-d8ec-4151-b5c5-dc833bec7556",
+    "id": "86cb73b5-d8ec-4151-b5c5-dc833bec7556",
     "mainCategory": "Faction Quests",
     "subCategory": "The Companions",
     "subCategoryType": "Radiant quests",
@@ -938,7 +938,7 @@
     "href": ""
   },
   {
-    "_id": "b6e3c3a7-8851-4028-afe6-6d5f708a4524",
+    "id": "b6e3c3a7-8851-4028-afe6-6d5f708a4524",
     "mainCategory": "Faction Quests",
     "subCategory": "The Companions",
     "subCategoryType": "Radiant quests",
@@ -948,7 +948,7 @@
     "href": ""
   },
   {
-    "_id": "72d8825e-e2c9-4c80-ab90-e58666a7750c",
+    "id": "72d8825e-e2c9-4c80-ab90-e58666a7750c",
     "mainCategory": "Faction Quests",
     "subCategory": "The Companions",
     "subCategoryType": "Radiant quests",
@@ -958,7 +958,7 @@
     "href": ""
   },
   {
-    "_id": "904b4d97-a168-4352-a832-426eaeaf3320",
+    "id": "904b4d97-a168-4352-a832-426eaeaf3320",
     "mainCategory": "Faction Quests",
     "subCategory": "Thieves Guild",
     "subCategoryType": "",
@@ -968,7 +968,7 @@
     "href": ""
   },
   {
-    "_id": "c83c5fd3-95ba-4747-8159-9f2f19254111",
+    "id": "c83c5fd3-95ba-4747-8159-9f2f19254111",
     "mainCategory": "Faction Quests",
     "subCategory": "Thieves Guild",
     "subCategoryType": "",
@@ -978,7 +978,7 @@
     "href": ""
   },
   {
-    "_id": "516fc66f-e5f7-45a5-9335-047145d5a3e3",
+    "id": "516fc66f-e5f7-45a5-9335-047145d5a3e3",
     "mainCategory": "Faction Quests",
     "subCategory": "Thieves Guild",
     "subCategoryType": "",
@@ -988,7 +988,7 @@
     "href": ""
   },
   {
-    "_id": "d026c174-f872-4130-88ac-eda673262a04",
+    "id": "d026c174-f872-4130-88ac-eda673262a04",
     "mainCategory": "Faction Quests",
     "subCategory": "Thieves Guild",
     "subCategoryType": "",
@@ -998,7 +998,7 @@
     "href": ""
   },
   {
-    "_id": "05c2664b-9745-4e24-a8c9-cecb6892cadc",
+    "id": "05c2664b-9745-4e24-a8c9-cecb6892cadc",
     "mainCategory": "Faction Quests",
     "subCategory": "Thieves Guild",
     "subCategoryType": "",
@@ -1008,7 +1008,7 @@
     "href": ""
   },
   {
-    "_id": "69c7da11-575d-4f93-a859-6917a3e29f01",
+    "id": "69c7da11-575d-4f93-a859-6917a3e29f01",
     "mainCategory": "Faction Quests",
     "subCategory": "Thieves Guild",
     "subCategoryType": "",
@@ -1018,7 +1018,7 @@
     "href": ""
   },
   {
-    "_id": "06308bcb-451e-4261-8af0-119e346cd656",
+    "id": "06308bcb-451e-4261-8af0-119e346cd656",
     "mainCategory": "Faction Quests",
     "subCategory": "Thieves Guild",
     "subCategoryType": "",
@@ -1028,7 +1028,7 @@
     "href": ""
   },
   {
-    "_id": "10ce914d-5b2b-4b53-93ff-fb2348e577bb",
+    "id": "10ce914d-5b2b-4b53-93ff-fb2348e577bb",
     "mainCategory": "Faction Quests",
     "subCategory": "Thieves Guild",
     "subCategoryType": "",
@@ -1038,7 +1038,7 @@
     "href": ""
   },
   {
-    "_id": "b830390d-bbc2-4e69-a975-18b447f529dc",
+    "id": "b830390d-bbc2-4e69-a975-18b447f529dc",
     "mainCategory": "Faction Quests",
     "subCategory": "Thieves Guild",
     "subCategoryType": "",
@@ -1048,7 +1048,7 @@
     "href": ""
   },
   {
-    "_id": "19060894-15fc-4da0-a258-db38b5692375",
+    "id": "19060894-15fc-4da0-a258-db38b5692375",
     "mainCategory": "Faction Quests",
     "subCategory": "Thieves Guild",
     "subCategoryType": "",
@@ -1058,7 +1058,7 @@
     "href": ""
   },
   {
-    "_id": "6b967a11-bbad-4b65-bbe8-789b97b5013f",
+    "id": "6b967a11-bbad-4b65-bbe8-789b97b5013f",
     "mainCategory": "Faction Quests",
     "subCategory": "Thieves Guild",
     "subCategoryType": "",
@@ -1068,7 +1068,7 @@
     "href": ""
   },
   {
-    "_id": "22f7ef17-4764-4b8a-b251-1ca1b118714a",
+    "id": "22f7ef17-4764-4b8a-b251-1ca1b118714a",
     "mainCategory": "Faction Quests",
     "subCategory": "Thieves Guild",
     "subCategoryType": "",
@@ -1078,7 +1078,7 @@
     "href": ""
   },
   {
-    "_id": "41bec4d2-bdf6-42f4-97ff-3547f979a534",
+    "id": "41bec4d2-bdf6-42f4-97ff-3547f979a534",
     "mainCategory": "Faction Quests",
     "subCategory": "Thieves Guild",
     "subCategoryType": "Side Quests",
@@ -1088,7 +1088,7 @@
     "href": ""
   },
   {
-    "_id": "38971b1f-9b59-4f60-9378-618b68124daa",
+    "id": "38971b1f-9b59-4f60-9378-618b68124daa",
     "mainCategory": "Faction Quests",
     "subCategory": "Thieves Guild",
     "subCategoryType": "Side Quests",
@@ -1098,7 +1098,7 @@
     "href": ""
   },
   {
-    "_id": "17634033-5ad7-4ead-aa46-4dfcd86150c0",
+    "id": "17634033-5ad7-4ead-aa46-4dfcd86150c0",
     "mainCategory": "Faction Quests",
     "subCategory": "Thieves Guild",
     "subCategoryType": "Side Quests",
@@ -1108,7 +1108,7 @@
     "href": ""
   },
   {
-    "_id": "15c78deb-909a-4753-a0fc-30557de52971",
+    "id": "15c78deb-909a-4753-a0fc-30557de52971",
     "mainCategory": "Faction Quests",
     "subCategory": "Thieves Guild",
     "subCategoryType": "Side Quests",
@@ -1118,7 +1118,7 @@
     "href": ""
   },
   {
-    "_id": "a25fe56f-6984-4dd7-8185-955517577caa",
+    "id": "a25fe56f-6984-4dd7-8185-955517577caa",
     "mainCategory": "Faction Quests",
     "subCategory": "Thieves Guild",
     "subCategoryType": "Side Quests",
@@ -1128,7 +1128,7 @@
     "href": ""
   },
   {
-    "_id": "a10a4dd5-d48c-4075-b364-025b63d04c48",
+    "id": "a10a4dd5-d48c-4075-b364-025b63d04c48",
     "mainCategory": "Faction Quests",
     "subCategory": "Thieves Guild",
     "subCategoryType": "Radiant quests",
@@ -1138,7 +1138,7 @@
     "href": ""
   },
   {
-    "_id": "b5a1ee7c-ca19-4cab-b99f-8ddf2548de38",
+    "id": "b5a1ee7c-ca19-4cab-b99f-8ddf2548de38",
     "mainCategory": "Faction Quests",
     "subCategory": "Thieves Guild",
     "subCategoryType": "Radiant quests",
@@ -1148,7 +1148,7 @@
     "href": ""
   },
   {
-    "_id": "ec7a5b90-c56d-4541-8641-d9cd2781c73b",
+    "id": "ec7a5b90-c56d-4541-8641-d9cd2781c73b",
     "mainCategory": "Faction Quests",
     "subCategory": "Thieves Guild",
     "subCategoryType": "Radiant quests",
@@ -1158,7 +1158,7 @@
     "href": ""
   },
   {
-    "_id": "835cc9cd-0b65-47da-9b19-472292a986fb",
+    "id": "835cc9cd-0b65-47da-9b19-472292a986fb",
     "mainCategory": "Faction Quests",
     "subCategory": "Thieves Guild",
     "subCategoryType": "Radiant quests",
@@ -1168,7 +1168,7 @@
     "href": ""
   },
   {
-    "_id": "65fd1938-ebc8-4c8b-9e56-7265ccd3d533",
+    "id": "65fd1938-ebc8-4c8b-9e56-7265ccd3d533",
     "mainCategory": "Faction Quests",
     "subCategory": "Thieves Guild",
     "subCategoryType": "Radiant quests",
@@ -1178,7 +1178,7 @@
     "href": ""
   },
   {
-    "_id": "d85d502f-46fd-44d6-b8bf-dd4409da96ce",
+    "id": "d85d502f-46fd-44d6-b8bf-dd4409da96ce",
     "mainCategory": "Faction Quests",
     "subCategory": "Thieves Guild",
     "subCategoryType": "Radiant quests",
@@ -1188,7 +1188,7 @@
     "href": ""
   },
   {
-    "_id": "a6feb5db-28aa-47e5-b617-9cacfb3a5ffd",
+    "id": "a6feb5db-28aa-47e5-b617-9cacfb3a5ffd",
     "mainCategory": "Faction Quests",
     "subCategory": "Thieves Guild",
     "subCategoryType": "Radiant quests",
@@ -1198,7 +1198,7 @@
     "href": ""
   },
   {
-    "_id": "e1c4a27f-cc59-486f-aa0e-1f44167d2839",
+    "id": "e1c4a27f-cc59-486f-aa0e-1f44167d2839",
     "mainCategory": "Faction Quests",
     "subCategory": "The Blades",
     "subCategoryType": "",
@@ -1208,7 +1208,7 @@
     "href": ""
   },
   {
-    "_id": "4cb591df-459a-43f5-a77b-ac387174144a",
+    "id": "4cb591df-459a-43f5-a77b-ac387174144a",
     "mainCategory": "Faction Quests",
     "subCategory": "The Blades",
     "subCategoryType": "",
@@ -1218,7 +1218,7 @@
     "href": ""
   },
   {
-    "_id": "016c05c4-dd99-4f5b-ba2e-79b2d0de9394",
+    "id": "016c05c4-dd99-4f5b-ba2e-79b2d0de9394",
     "mainCategory": "Faction Quests",
     "subCategory": "The Blades",
     "subCategoryType": "",
@@ -1228,7 +1228,7 @@
     "href": ""
   },
   {
-    "_id": "07dbec26-1809-4eb9-96bf-fbe5642dbc4e",
+    "id": "07dbec26-1809-4eb9-96bf-fbe5642dbc4e",
     "mainCategory": "Faction Quests",
     "subCategory": "Bards College",
     "subCategoryType": "",
@@ -1238,7 +1238,7 @@
     "href": ""
   },
   {
-    "_id": "00dc3525-5341-4a02-803e-7c658b010d02",
+    "id": "00dc3525-5341-4a02-803e-7c658b010d02",
     "mainCategory": "Faction Quests",
     "subCategory": "Bards College",
     "subCategoryType": "",
@@ -1248,7 +1248,7 @@
     "href": ""
   },
   {
-    "_id": "650bd94d-89e0-48ca-8ffc-e58ec428c1c1",
+    "id": "650bd94d-89e0-48ca-8ffc-e58ec428c1c1",
     "mainCategory": "Faction Quests",
     "subCategory": "Bards College",
     "subCategoryType": "",
@@ -1258,7 +1258,7 @@
     "href": ""
   },
   {
-    "_id": "d79baf76-c116-4d39-b677-f547090d5bf6",
+    "id": "d79baf76-c116-4d39-b677-f547090d5bf6",
     "mainCategory": "Faction Quests",
     "subCategory": "Bards College",
     "subCategoryType": "",
@@ -1266,7 +1266,7 @@
     "href": ""
   },
   {
-    "_id": "fda3d9b1-9439-411e-9b4f-27e51906fc16",
+    "id": "fda3d9b1-9439-411e-9b4f-27e51906fc16",
     "mainCategory": "Civil War",
     "subCategory": "Imperial Legion",
     "subCategoryType": "",
@@ -1276,7 +1276,7 @@
     "href": ""
   },
   {
-    "_id": "90375e62-277c-44d2-907c-945027673886",
+    "id": "90375e62-277c-44d2-907c-945027673886",
     "mainCategory": "Civil War",
     "subCategory": "Imperial Legion",
     "subCategoryType": "",
@@ -1286,7 +1286,7 @@
     "href": ""
   },
   {
-    "_id": "0705b9cb-78e2-4084-9303-e00fdc71aa47",
+    "id": "0705b9cb-78e2-4084-9303-e00fdc71aa47",
     "mainCategory": "Civil War",
     "subCategory": "Imperial Legion",
     "subCategoryType": "",
@@ -1296,7 +1296,7 @@
     "href": ""
   },
   {
-    "_id": "026090f5-cedd-4a00-b480-8642144f0e0f",
+    "id": "026090f5-cedd-4a00-b480-8642144f0e0f",
     "mainCategory": "Civil War",
     "subCategory": "Imperial Legion",
     "subCategoryType": "",
@@ -1306,7 +1306,7 @@
     "href": ""
   },
   {
-    "_id": "81a07885-07e6-4d72-a4e1-1e6571bc6093",
+    "id": "81a07885-07e6-4d72-a4e1-1e6571bc6093",
     "mainCategory": "Civil War",
     "subCategory": "Imperial Legion",
     "subCategoryType": "",
@@ -1316,7 +1316,7 @@
     "href": ""
   },
   {
-    "_id": "331c88a8-06d5-4001-9c1b-9b77ed4280b3",
+    "id": "331c88a8-06d5-4001-9c1b-9b77ed4280b3",
     "mainCategory": "Civil War",
     "subCategory": "Imperial Legion",
     "subCategoryType": "",
@@ -1326,7 +1326,7 @@
     "href": ""
   },
   {
-    "_id": "02affc62-df58-4993-a43b-b28d856a8f69",
+    "id": "02affc62-df58-4993-a43b-b28d856a8f69",
     "mainCategory": "Civil War",
     "subCategory": "Imperial Legion",
     "subCategoryType": "",
@@ -1336,7 +1336,7 @@
     "href": ""
   },
   {
-    "_id": "5953a312-60d6-47db-9c3f-9b882421c959",
+    "id": "5953a312-60d6-47db-9c3f-9b882421c959",
     "mainCategory": "Civil War",
     "subCategory": "Imperial Legion",
     "subCategoryType": "",
@@ -1346,7 +1346,7 @@
     "href": ""
   },
   {
-    "_id": "16263466-9523-404a-b5c3-0afd8d3f8931",
+    "id": "16263466-9523-404a-b5c3-0afd8d3f8931",
     "mainCategory": "Civil War",
     "subCategory": "Imperial Legion",
     "subCategoryType": "",
@@ -1356,7 +1356,7 @@
     "href": ""
   },
   {
-    "_id": "bfc30bd9-1514-4d31-9095-db587dce2aa6",
+    "id": "bfc30bd9-1514-4d31-9095-db587dce2aa6",
     "mainCategory": "Civil War",
     "subCategory": "Imperial Legion",
     "subCategoryType": "",
@@ -1366,7 +1366,7 @@
     "href": ""
   },
   {
-    "_id": "080082f6-6fef-44ad-96a6-e1a66c1e0e50",
+    "id": "080082f6-6fef-44ad-96a6-e1a66c1e0e50",
     "mainCategory": "Civil War",
     "subCategory": "Imperial Legion",
     "subCategoryType": "",
@@ -1376,7 +1376,7 @@
     "href": ""
   },
   {
-    "_id": "8547f0eb-72b6-4fd5-9130-d9dd36dfb148",
+    "id": "8547f0eb-72b6-4fd5-9130-d9dd36dfb148",
     "mainCategory": "Civil War",
     "subCategory": "Imperial Legion",
     "subCategoryType": "",
@@ -1386,7 +1386,7 @@
     "href": ""
   },
   {
-    "_id": "b5bc166a-a425-423f-8c74-fb315b592da4",
+    "id": "b5bc166a-a425-423f-8c74-fb315b592da4",
     "mainCategory": "Civil War",
     "subCategory": "Imperial Legion",
     "subCategoryType": "",
@@ -1396,7 +1396,7 @@
     "href": ""
   },
   {
-    "_id": "e1aa5e61-7c46-4903-827b-98d9a3ced800",
+    "id": "e1aa5e61-7c46-4903-827b-98d9a3ced800",
     "mainCategory": "Civil War",
     "subCategory": "Imperial Legion",
     "subCategoryType": "",
@@ -1406,7 +1406,7 @@
     "href": ""
   },
   {
-    "_id": "bc9351ac-aecc-44d6-af3a-f7f15be54b59",
+    "id": "bc9351ac-aecc-44d6-af3a-f7f15be54b59",
     "mainCategory": "Civil War",
     "subCategory": "Stormcloaks",
     "subCategoryType": "",
@@ -1416,7 +1416,7 @@
     "href": ""
   },
   {
-    "_id": "03025ae0-6e00-4cb7-9edb-cf0037e45900",
+    "id": "03025ae0-6e00-4cb7-9edb-cf0037e45900",
     "mainCategory": "Civil War",
     "subCategory": "Stormcloaks",
     "subCategoryType": "",
@@ -1426,7 +1426,7 @@
     "href": ""
   },
   {
-    "_id": "7b96a604-540e-4417-9d3a-e83ac88ae51e",
+    "id": "7b96a604-540e-4417-9d3a-e83ac88ae51e",
     "mainCategory": "Civil War",
     "subCategory": "Stormcloaks",
     "subCategoryType": "",
@@ -1436,7 +1436,7 @@
     "href": ""
   },
   {
-    "_id": "f2eda5ac-2af6-4d4c-a9a4-8649b1fab919",
+    "id": "f2eda5ac-2af6-4d4c-a9a4-8649b1fab919",
     "mainCategory": "Civil War",
     "subCategory": "Stormcloaks",
     "subCategoryType": "",
@@ -1446,7 +1446,7 @@
     "href": ""
   },
   {
-    "_id": "54afd95e-2761-497c-b965-405edf5c3ce8",
+    "id": "54afd95e-2761-497c-b965-405edf5c3ce8",
     "mainCategory": "Civil War",
     "subCategory": "Stormcloaks",
     "subCategoryType": "",
@@ -1456,7 +1456,7 @@
     "href": ""
   },
   {
-    "_id": "403557de-4036-45ba-bf30-e25b42de6831",
+    "id": "403557de-4036-45ba-bf30-e25b42de6831",
     "mainCategory": "Civil War",
     "subCategory": "Stormcloaks",
     "subCategoryType": "",
@@ -1466,7 +1466,7 @@
     "href": ""
   },
   {
-    "_id": "68d5ba3a-d23f-4c14-9b09-1b3afd967a50",
+    "id": "68d5ba3a-d23f-4c14-9b09-1b3afd967a50",
     "mainCategory": "Civil War",
     "subCategory": "Stormcloaks",
     "subCategoryType": "",
@@ -1476,7 +1476,7 @@
     "href": ""
   },
   {
-    "_id": "92dab72a-7834-4f7c-b816-a2140cfca8ed",
+    "id": "92dab72a-7834-4f7c-b816-a2140cfca8ed",
     "mainCategory": "Civil War",
     "subCategory": "Stormcloaks",
     "subCategoryType": "",
@@ -1486,7 +1486,7 @@
     "href": ""
   },
   {
-    "_id": "0f37f9cd-229d-4cde-b295-76828af1e262",
+    "id": "0f37f9cd-229d-4cde-b295-76828af1e262",
     "mainCategory": "Civil War",
     "subCategory": "Stormcloaks",
     "subCategoryType": "",
@@ -1496,7 +1496,7 @@
     "href": ""
   },
   {
-    "_id": "78d26148-d6c3-4c4f-9238-7f6ca5ea50ae",
+    "id": "78d26148-d6c3-4c4f-9238-7f6ca5ea50ae",
     "mainCategory": "Civil War",
     "subCategory": "Stormcloaks",
     "subCategoryType": "",
@@ -1506,7 +1506,7 @@
     "href": ""
   },
   {
-    "_id": "1307d62b-1bf9-4761-8bf2-77e07a151a4c",
+    "id": "1307d62b-1bf9-4761-8bf2-77e07a151a4c",
     "mainCategory": "Civil War",
     "subCategory": "Stormcloaks",
     "subCategoryType": "",
@@ -1516,7 +1516,7 @@
     "href": ""
   },
   {
-    "_id": "245e30b5-1334-4474-b5fe-34ef5638c835",
+    "id": "245e30b5-1334-4474-b5fe-34ef5638c835",
     "mainCategory": "Civil War",
     "subCategory": "Stormcloaks",
     "subCategoryType": "",
@@ -1526,7 +1526,7 @@
     "href": ""
   },
   {
-    "_id": "c993a9c7-a8b8-4afb-a8f4-4210bb98fdd9",
+    "id": "c993a9c7-a8b8-4afb-a8f4-4210bb98fdd9",
     "mainCategory": "Civil War",
     "subCategory": "Stormcloaks",
     "subCategoryType": "",
@@ -1536,7 +1536,7 @@
     "href": ""
   },
   {
-    "_id": "a1e51e49-3222-47e7-b594-4948a88ec2fc",
+    "id": "a1e51e49-3222-47e7-b594-4948a88ec2fc",
     "mainCategory": "Daedric Quests",
     "subCategory": "",
     "subCategoryType": "",
@@ -1546,7 +1546,7 @@
     "href": ""
   },
   {
-    "_id": "6d29658a-71b6-4dd1-856c-08193df39edb",
+    "id": "6d29658a-71b6-4dd1-856c-08193df39edb",
     "mainCategory": "Daedric Quests",
     "subCategory": "",
     "subCategoryType": "",
@@ -1556,7 +1556,7 @@
     "href": ""
   },
   {
-    "_id": "67ad6e49-cb47-475c-80de-f8b1ddc915d0",
+    "id": "67ad6e49-cb47-475c-80de-f8b1ddc915d0",
     "mainCategory": "Daedric Quests",
     "subCategory": "",
     "subCategoryType": "",
@@ -1566,7 +1566,7 @@
     "href": ""
   },
   {
-    "_id": "792f21aa-5d8d-44ba-9031-6d36a6aa1131",
+    "id": "792f21aa-5d8d-44ba-9031-6d36a6aa1131",
     "mainCategory": "Daedric Quests",
     "subCategory": "",
     "subCategoryType": "",
@@ -1576,7 +1576,7 @@
     "href": ""
   },
   {
-    "_id": "443dc369-586f-4f84-a9fb-2c383f9c0c95",
+    "id": "443dc369-586f-4f84-a9fb-2c383f9c0c95",
     "mainCategory": "Daedric Quests",
     "subCategory": "",
     "subCategoryType": "",
@@ -1586,7 +1586,7 @@
     "href": ""
   },
   {
-    "_id": "a2e6391c-d38e-4785-a68c-82b8303a96c0",
+    "id": "a2e6391c-d38e-4785-a68c-82b8303a96c0",
     "mainCategory": "Daedric Quests",
     "subCategory": "",
     "subCategoryType": "",
@@ -1596,7 +1596,7 @@
     "href": ""
   },
   {
-    "_id": "f17f3e40-45c4-4820-96f7-8688811fe762",
+    "id": "f17f3e40-45c4-4820-96f7-8688811fe762",
     "mainCategory": "Daedric Quests",
     "subCategory": "",
     "subCategoryType": "",
@@ -1606,7 +1606,7 @@
     "href": ""
   },
   {
-    "_id": "6452f1b5-e5b0-4b76-bf9d-3967a862355e",
+    "id": "6452f1b5-e5b0-4b76-bf9d-3967a862355e",
     "mainCategory": "Daedric Quests",
     "subCategory": "",
     "subCategoryType": "",
@@ -1616,7 +1616,7 @@
     "href": ""
   },
   {
-    "_id": "9d13c87b-748b-4617-b5ff-f91ad9a26087",
+    "id": "9d13c87b-748b-4617-b5ff-f91ad9a26087",
     "mainCategory": "Daedric Quests",
     "subCategory": "",
     "subCategoryType": "",
@@ -1626,7 +1626,7 @@
     "href": ""
   },
   {
-    "_id": "ce5a6c3c-8fc8-4df2-95f1-1616ad7cc068",
+    "id": "ce5a6c3c-8fc8-4df2-95f1-1616ad7cc068",
     "mainCategory": "Daedric Quests",
     "subCategory": "",
     "subCategoryType": "",
@@ -1636,7 +1636,7 @@
     "href": ""
   },
   {
-    "_id": "11b2a8df-a712-4fd5-bdb4-3b39768f508b",
+    "id": "11b2a8df-a712-4fd5-bdb4-3b39768f508b",
     "mainCategory": "Daedric Quests",
     "subCategory": "",
     "subCategoryType": "",
@@ -1646,7 +1646,7 @@
     "href": ""
   },
   {
-    "_id": "ea5d57ff-ca96-49b8-bc88-baabc67d8190",
+    "id": "ea5d57ff-ca96-49b8-bc88-baabc67d8190",
     "mainCategory": "Daedric Quests",
     "subCategory": "",
     "subCategoryType": "",
@@ -1656,7 +1656,7 @@
     "href": ""
   },
   {
-    "_id": "3bd78fae-938b-445c-8ca9-a92e68482537",
+    "id": "3bd78fae-938b-445c-8ca9-a92e68482537",
     "mainCategory": "Daedric Quests",
     "subCategory": "",
     "subCategoryType": "",
@@ -1666,7 +1666,7 @@
     "href": ""
   },
   {
-    "_id": "651b7af0-0924-4057-b77b-a1ad0df621c9",
+    "id": "651b7af0-0924-4057-b77b-a1ad0df621c9",
     "mainCategory": "Daedric Quests",
     "subCategory": "",
     "subCategoryType": "",
@@ -1676,7 +1676,7 @@
     "href": ""
   },
   {
-    "_id": "364f7eb3-33f5-4802-bfbe-9a633cb4ae69",
+    "id": "364f7eb3-33f5-4802-bfbe-9a633cb4ae69",
     "mainCategory": "Daedric Quests",
     "subCategory": "",
     "subCategoryType": "",
@@ -1686,7 +1686,7 @@
     "href": ""
   },
   {
-    "_id": "aa115b5f-e313-47de-a1d0-d5c360e2c98c",
+    "id": "aa115b5f-e313-47de-a1d0-d5c360e2c98c",
     "mainCategory": "Daedric Quests",
     "subCategory": "",
     "subCategoryType": "Thieves Guild",
@@ -1696,7 +1696,7 @@
     "href": ""
   },
   {
-    "_id": "65a6534e-d630-4e67-9112-06524ce848f1",
+    "id": "65a6534e-d630-4e67-9112-06524ce848f1",
     "mainCategory": "Dungeon Quests",
     "subCategory": "",
     "subCategoryType": "",
@@ -1706,7 +1706,7 @@
     "href": ""
   },
   {
-    "_id": "eb36ba29-10d9-41ee-be4b-7ce5feb56981",
+    "id": "eb36ba29-10d9-41ee-be4b-7ce5feb56981",
     "mainCategory": "Dungeon Quests",
     "subCategory": "",
     "subCategoryType": "",
@@ -1716,7 +1716,7 @@
     "href": ""
   },
   {
-    "_id": "8a488437-95cd-4364-9ecf-f709ae8ba91a",
+    "id": "8a488437-95cd-4364-9ecf-f709ae8ba91a",
     "mainCategory": "Dungeon Quests",
     "subCategory": "",
     "subCategoryType": "",
@@ -1726,7 +1726,7 @@
     "href": ""
   },
   {
-    "_id": "be32b07c-7429-4598-ad3e-1336565565eb",
+    "id": "be32b07c-7429-4598-ad3e-1336565565eb",
     "mainCategory": "Dungeon Quests",
     "subCategory": "",
     "subCategoryType": "",
@@ -1736,7 +1736,7 @@
     "href": ""
   },
   {
-    "_id": "39a0a6c0-853b-48eb-832b-8d2d5d8f007c",
+    "id": "39a0a6c0-853b-48eb-832b-8d2d5d8f007c",
     "mainCategory": "Dungeon Quests",
     "subCategory": "",
     "subCategoryType": "",
@@ -1746,7 +1746,7 @@
     "href": ""
   },
   {
-    "_id": "64307531-61a3-484f-b75b-c41e51665df4",
+    "id": "64307531-61a3-484f-b75b-c41e51665df4",
     "mainCategory": "Dungeon Quests",
     "subCategory": "",
     "subCategoryType": "",
@@ -1756,7 +1756,7 @@
     "href": ""
   },
   {
-    "_id": "0a4d5916-fc9f-4251-9afc-0ec45af5292b",
+    "id": "0a4d5916-fc9f-4251-9afc-0ec45af5292b",
     "mainCategory": "Dungeon Quests",
     "subCategory": "",
     "subCategoryType": "",
@@ -1766,7 +1766,7 @@
     "href": ""
   },
   {
-    "_id": "3a923434-39d2-48d1-96e1-7719c0f57a64",
+    "id": "3a923434-39d2-48d1-96e1-7719c0f57a64",
     "mainCategory": "Dungeon Quests",
     "subCategory": "",
     "subCategoryType": "",
@@ -1776,7 +1776,7 @@
     "href": ""
   },
   {
-    "_id": "2f0e2b01-b40f-4e1e-ac56-22f7b75ca22a",
+    "id": "2f0e2b01-b40f-4e1e-ac56-22f7b75ca22a",
     "mainCategory": "Dungeon Quests",
     "subCategory": "",
     "subCategoryType": "",
@@ -1786,7 +1786,7 @@
     "href": ""
   },
   {
-    "_id": "b729c9ae-deb6-430d-b680-015eba8a6774",
+    "id": "b729c9ae-deb6-430d-b680-015eba8a6774",
     "mainCategory": "Dungeon Quests",
     "subCategory": "",
     "subCategoryType": "",
@@ -1796,7 +1796,7 @@
     "href": ""
   },
   {
-    "_id": "10e3ce59-36e5-48dc-9c49-9413fc8d96ec",
+    "id": "10e3ce59-36e5-48dc-9c49-9413fc8d96ec",
     "mainCategory": "Dungeon Quests",
     "subCategory": "",
     "subCategoryType": "",
@@ -1806,7 +1806,7 @@
     "href": ""
   },
   {
-    "_id": "49ba263d-4b16-481d-a224-5efb6050e056",
+    "id": "49ba263d-4b16-481d-a224-5efb6050e056",
     "mainCategory": "Dungeon Quests",
     "subCategory": "",
     "subCategoryType": "",
@@ -1816,7 +1816,7 @@
     "href": ""
   },
   {
-    "_id": "a37bab60-9588-4633-8129-41e498912d7c",
+    "id": "a37bab60-9588-4633-8129-41e498912d7c",
     "mainCategory": "Dungeon Quests",
     "subCategory": "",
     "subCategoryType": "",
@@ -1826,7 +1826,7 @@
     "href": ""
   },
   {
-    "_id": "7c078f65-6d5a-4fab-82ef-168e6f5a803b",
+    "id": "7c078f65-6d5a-4fab-82ef-168e6f5a803b",
     "mainCategory": "Dungeon Quests",
     "subCategory": "",
     "subCategoryType": "",
@@ -1836,7 +1836,7 @@
     "href": ""
   },
   {
-    "_id": "ef6ad3ab-403e-48b3-9e4c-eb85e3a5b802",
+    "id": "ef6ad3ab-403e-48b3-9e4c-eb85e3a5b802",
     "mainCategory": "Dungeon Quests",
     "subCategory": "",
     "subCategoryType": "",
@@ -1846,7 +1846,7 @@
     "href": ""
   },
   {
-    "_id": "189f19fd-70c1-4edb-ab04-85fe75c6d4b6",
+    "id": "189f19fd-70c1-4edb-ab04-85fe75c6d4b6",
     "mainCategory": "Dungeon Quests",
     "subCategory": "",
     "subCategoryType": "",
@@ -1856,7 +1856,7 @@
     "href": ""
   },
   {
-    "_id": "0a01a3d6-efd8-4367-87b4-e3d49a26c447",
+    "id": "0a01a3d6-efd8-4367-87b4-e3d49a26c447",
     "mainCategory": "Dungeon Quests",
     "subCategory": "",
     "subCategoryType": "",
@@ -1866,7 +1866,7 @@
     "href": ""
   },
   {
-    "_id": "d4065ddf-c65b-4d36-b178-885aba209259",
+    "id": "d4065ddf-c65b-4d36-b178-885aba209259",
     "mainCategory": "Dungeon Quests",
     "subCategory": "",
     "subCategoryType": "",
@@ -1876,7 +1876,7 @@
     "href": ""
   },
   {
-    "_id": "ea485b80-4b42-41ab-ad96-96955f456ed9",
+    "id": "ea485b80-4b42-41ab-ad96-96955f456ed9",
     "mainCategory": "Dungeon Quests",
     "subCategory": "",
     "subCategoryType": "",
@@ -1886,7 +1886,7 @@
     "href": ""
   },
   {
-    "_id": "604bb249-1362-4296-a1f1-c8855ef4d941",
+    "id": "604bb249-1362-4296-a1f1-c8855ef4d941",
     "mainCategory": "Dungeon Quests",
     "subCategory": "",
     "subCategoryType": "",
@@ -1896,7 +1896,7 @@
     "href": ""
   },
   {
-    "_id": "2bc0978e-969e-42dd-868d-bb7b120c92c0",
+    "id": "2bc0978e-969e-42dd-868d-bb7b120c92c0",
     "mainCategory": "Dungeon Quests",
     "subCategory": "",
     "subCategoryType": "",
@@ -1906,7 +1906,7 @@
     "href": ""
   },
   {
-    "_id": "5bfa7cb1-cd8d-4489-bc4e-71cd89bead62",
+    "id": "5bfa7cb1-cd8d-4489-bc4e-71cd89bead62",
     "mainCategory": "Dungeon Quests",
     "subCategory": "",
     "subCategoryType": "",
@@ -1916,7 +1916,7 @@
     "href": ""
   },
   {
-    "_id": "023e0d13-0693-48a4-9bcd-838387f82756",
+    "id": "023e0d13-0693-48a4-9bcd-838387f82756",
     "mainCategory": "Dungeon Quests",
     "subCategory": "",
     "subCategoryType": "",
@@ -1926,7 +1926,7 @@
     "href": ""
   },
   {
-    "_id": "af69bfbe-d865-453e-816f-cb572094616e",
+    "id": "af69bfbe-d865-453e-816f-cb572094616e",
     "mainCategory": "Dungeon Quests",
     "subCategory": "",
     "subCategoryType": "",
@@ -1936,7 +1936,7 @@
     "href": ""
   },
   {
-    "_id": "137afee0-15ac-41c6-adef-43c39b905a2c",
+    "id": "137afee0-15ac-41c6-adef-43c39b905a2c",
     "mainCategory": "Dungeon Quests",
     "subCategory": "",
     "subCategoryType": "",
@@ -1946,7 +1946,7 @@
     "href": ""
   },
   {
-    "_id": "4a4e864d-2c8a-430f-bf36-924854bc0cf4",
+    "id": "4a4e864d-2c8a-430f-bf36-924854bc0cf4",
     "mainCategory": "Dungeon Quests",
     "subCategory": "",
     "subCategoryType": "",
@@ -1956,7 +1956,7 @@
     "href": ""
   },
   {
-    "_id": "005eeb28-10a4-4568-87db-1bfe78229d02",
+    "id": "005eeb28-10a4-4568-87db-1bfe78229d02",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Windhelm",
     "subCategoryType": "Side Quests",
@@ -1966,7 +1966,7 @@
     "href": ""
   },
   {
-    "_id": "a74ea56e-2f04-409e-9a7a-c6beb5f89e4b",
+    "id": "a74ea56e-2f04-409e-9a7a-c6beb5f89e4b",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Windhelm",
     "subCategoryType": "Side Quests",
@@ -1976,7 +1976,7 @@
     "href": ""
   },
   {
-    "_id": "cd3bdb35-78c5-4576-a5fa-d85bb9756406",
+    "id": "cd3bdb35-78c5-4576-a5fa-d85bb9756406",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Windhelm",
     "subCategoryType": "Side Quests",
@@ -1986,7 +1986,7 @@
     "href": ""
   },
   {
-    "_id": "3ad61769-f61b-4edd-bfd4-c1281598276f",
+    "id": "3ad61769-f61b-4edd-bfd4-c1281598276f",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Windhelm",
     "subCategoryType": "Side Quests",
@@ -1996,7 +1996,7 @@
     "href": ""
   },
   {
-    "_id": "463ae645-ee83-4ed5-82f8-f3ecfbfd4ff9",
+    "id": "463ae645-ee83-4ed5-82f8-f3ecfbfd4ff9",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Windhelm",
     "subCategoryType": "",
@@ -2006,7 +2006,7 @@
     "href": ""
   },
   {
-    "_id": "e5515c4f-502b-4ba2-b943-0596f4ed2692",
+    "id": "e5515c4f-502b-4ba2-b943-0596f4ed2692",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Windhelm",
     "subCategoryType": "",
@@ -2016,7 +2016,7 @@
     "href": ""
   },
   {
-    "_id": "ba35c469-7906-4959-aa72-2675f000fe79",
+    "id": "ba35c469-7906-4959-aa72-2675f000fe79",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Windhelm",
     "subCategoryType": "",
@@ -2026,7 +2026,7 @@
     "href": ""
   },
   {
-    "_id": "f464081d-dece-4cde-acbe-1b377fee8398",
+    "id": "f464081d-dece-4cde-acbe-1b377fee8398",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Windhelm",
     "subCategoryType": "",
@@ -2036,7 +2036,7 @@
     "href": ""
   },
   {
-    "_id": "435a62e0-d833-4b29-9a0e-a25a04208778",
+    "id": "435a62e0-d833-4b29-9a0e-a25a04208778",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Windhelm",
     "subCategoryType": "",
@@ -2046,7 +2046,7 @@
     "href": ""
   },
   {
-    "_id": "165e3e1a-2027-4307-b118-e9bfe6a28617",
+    "id": "165e3e1a-2027-4307-b118-e9bfe6a28617",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Windhelm",
     "subCategoryType": "",
@@ -2056,7 +2056,7 @@
     "href": ""
   },
   {
-    "_id": "5a9b4515-3397-44a8-b8cd-3fbaca300b90",
+    "id": "5a9b4515-3397-44a8-b8cd-3fbaca300b90",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Narzulbur",
     "subCategoryType": "",
@@ -2066,7 +2066,7 @@
     "href": ""
   },
   {
-    "_id": "b0c4189c-7773-43c5-a3d7-0c2a1dad0ff8",
+    "id": "b0c4189c-7773-43c5-a3d7-0c2a1dad0ff8",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Kynesgrove",
     "subCategoryType": "",
@@ -2076,7 +2076,7 @@
     "href": ""
   },
   {
-    "_id": "1aa92314-6ba2-4bb4-a5dd-c48cff4bebee",
+    "id": "1aa92314-6ba2-4bb4-a5dd-c48cff4bebee",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Falkreath",
     "subCategoryType": "",
@@ -2086,7 +2086,7 @@
     "href": ""
   },
   {
-    "_id": "d764779a-2916-487e-89df-fb1ff3c60519",
+    "id": "d764779a-2916-487e-89df-fb1ff3c60519",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Falkreath",
     "subCategoryType": "",
@@ -2096,7 +2096,7 @@
     "href": ""
   },
   {
-    "_id": "b2094fdf-5f82-4ab8-b9c3-331a05d6d461",
+    "id": "b2094fdf-5f82-4ab8-b9c3-331a05d6d461",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Falkreath",
     "subCategoryType": "",
@@ -2106,7 +2106,7 @@
     "href": ""
   },
   {
-    "_id": "6132885a-c80b-4373-891b-3c1a2aaaa33e",
+    "id": "6132885a-c80b-4373-891b-3c1a2aaaa33e",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Falkreath",
     "subCategoryType": "",
@@ -2116,7 +2116,7 @@
     "href": ""
   },
   {
-    "_id": "6fbe99ed-70e1-48f5-93fe-c5fdf4aa75b2",
+    "id": "6fbe99ed-70e1-48f5-93fe-c5fdf4aa75b2",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Falkreath",
     "subCategoryType": "",
@@ -2126,7 +2126,7 @@
     "href": ""
   },
   {
-    "_id": "aec9311c-7991-4715-b184-58e3a57334c4",
+    "id": "aec9311c-7991-4715-b184-58e3a57334c4",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Falkreath",
     "subCategoryType": "",
@@ -2136,7 +2136,7 @@
     "href": ""
   },
   {
-    "_id": "d5119949-60b4-4acc-8c7e-1cf881339306",
+    "id": "d5119949-60b4-4acc-8c7e-1cf881339306",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Falkreath",
     "subCategoryType": "",
@@ -2146,7 +2146,7 @@
     "href": ""
   },
   {
-    "_id": "ec2483ea-5ef5-44c3-abbc-c5beeba289f0",
+    "id": "ec2483ea-5ef5-44c3-abbc-c5beeba289f0",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Falkreath",
     "subCategoryType": "",
@@ -2156,7 +2156,7 @@
     "href": ""
   },
   {
-    "_id": "67396ad3-efb2-41d5-b9ff-707831d1ff00",
+    "id": "67396ad3-efb2-41d5-b9ff-707831d1ff00",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Angi's Camp",
     "subCategoryType": "",
@@ -2166,7 +2166,7 @@
     "href": ""
   },
   {
-    "_id": "cda9b813-8d12-467b-b6c0-0a4852855144",
+    "id": "cda9b813-8d12-467b-b6c0-0a4852855144",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Solutide",
     "subCategoryType": "Side Quests",
@@ -2176,7 +2176,7 @@
     "href": ""
   },
   {
-    "_id": "0ce635bf-e596-4a53-8797-7c26e80b1593",
+    "id": "0ce635bf-e596-4a53-8797-7c26e80b1593",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Solutide",
     "subCategoryType": "Side Quests",
@@ -2186,7 +2186,7 @@
     "href": ""
   },
   {
-    "_id": "386cf6ef-598e-49f9-82d5-d2a683de6eae",
+    "id": "386cf6ef-598e-49f9-82d5-d2a683de6eae",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Solutide",
     "subCategoryType": "Side Quests",
@@ -2196,7 +2196,7 @@
     "href": ""
   },
   {
-    "_id": "196973b3-9eac-4556-a6cf-7a786542c091",
+    "id": "196973b3-9eac-4556-a6cf-7a786542c091",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Solutide",
     "subCategoryType": "",
@@ -2206,7 +2206,7 @@
     "href": ""
   },
   {
-    "_id": "ca537ec3-2b10-42c3-889f-2b85d29ea8eb",
+    "id": "ca537ec3-2b10-42c3-889f-2b85d29ea8eb",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Solutide",
     "subCategoryType": "",
@@ -2216,7 +2216,7 @@
     "href": ""
   },
   {
-    "_id": "7d8db0e2-d26e-4381-86da-1701796d7388",
+    "id": "7d8db0e2-d26e-4381-86da-1701796d7388",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Solutide",
     "subCategoryType": "",
@@ -2226,7 +2226,7 @@
     "href": ""
   },
   {
-    "_id": "101432a8-f7f2-4b07-9abf-b79d9c6f1569",
+    "id": "101432a8-f7f2-4b07-9abf-b79d9c6f1569",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Solutide",
     "subCategoryType": "",
@@ -2236,7 +2236,7 @@
     "href": ""
   },
   {
-    "_id": "27ae0fee-7211-42a2-ad7a-03a67450636b",
+    "id": "27ae0fee-7211-42a2-ad7a-03a67450636b",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Solutide",
     "subCategoryType": "",
@@ -2246,7 +2246,7 @@
     "href": ""
   },
   {
-    "_id": "b50f1d56-1d34-4049-b39d-0c0e24f6b99d",
+    "id": "b50f1d56-1d34-4049-b39d-0c0e24f6b99d",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Dragon Bridge",
     "subCategoryType": "",
@@ -2256,7 +2256,7 @@
     "href": ""
   },
   {
-    "_id": "ded0b14e-9ee6-4d2f-9cd8-bda90e78550b",
+    "id": "ded0b14e-9ee6-4d2f-9cd8-bda90e78550b",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Morthal",
     "subCategoryType": "Side Quests",
@@ -2266,7 +2266,7 @@
     "href": ""
   },
   {
-    "_id": "9ebbc0a0-4c90-4e57-b054-335c94506bdc",
+    "id": "9ebbc0a0-4c90-4e57-b054-335c94506bdc",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Morthal",
     "subCategoryType": "Side Quests",
@@ -2276,7 +2276,7 @@
     "href": ""
   },
   {
-    "_id": "48cdc5e8-19dd-40a1-ae33-3ca9bb0aba31",
+    "id": "48cdc5e8-19dd-40a1-ae33-3ca9bb0aba31",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Folgunthur",
     "subCategoryType": "Side Quests",
@@ -2286,7 +2286,7 @@
     "href": ""
   },
   {
-    "_id": "1c36280e-ce7c-4bea-9d1a-ce9cf5aacdd4",
+    "id": "1c36280e-ce7c-4bea-9d1a-ce9cf5aacdd4",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Dawnstar",
     "subCategoryType": "",
@@ -2296,7 +2296,7 @@
     "href": ""
   },
   {
-    "_id": "72b0e28d-a193-4324-94ff-6a1087103c9c",
+    "id": "72b0e28d-a193-4324-94ff-6a1087103c9c",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Dawnstar",
     "subCategoryType": "",
@@ -2306,7 +2306,7 @@
     "href": ""
   },
   {
-    "_id": "339b5042-2a4a-4fd3-90ca-6a1dee63bfcd",
+    "id": "339b5042-2a4a-4fd3-90ca-6a1dee63bfcd",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Dawnstar",
     "subCategoryType": "",
@@ -2316,7 +2316,7 @@
     "href": ""
   },
   {
-    "_id": "16dd99b0-889a-4794-9ec1-f05bcf8846f1",
+    "id": "16dd99b0-889a-4794-9ec1-f05bcf8846f1",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Markarth",
     "subCategoryType": "Side Quests",
@@ -2326,7 +2326,7 @@
     "href": ""
   },
   {
-    "_id": "8793ee04-5f2d-4919-81e1-23cd92eb0784",
+    "id": "8793ee04-5f2d-4919-81e1-23cd92eb0784",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Markarth",
     "subCategoryType": "Side Quests",
@@ -2336,7 +2336,7 @@
     "href": ""
   },
   {
-    "_id": "1a991000-3710-447d-ad55-5a96092c67de",
+    "id": "1a991000-3710-447d-ad55-5a96092c67de",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Markarth",
     "subCategoryType": "Side Quests",
@@ -2346,7 +2346,7 @@
     "href": ""
   },
   {
-    "_id": "0836580f-8802-4c97-ac61-c92b18d09ed5",
+    "id": "0836580f-8802-4c97-ac61-c92b18d09ed5",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Markarth",
     "subCategoryType": "Side Quests",
@@ -2356,7 +2356,7 @@
     "href": ""
   },
   {
-    "_id": "bb00facc-2796-4328-9673-068e98588618",
+    "id": "bb00facc-2796-4328-9673-068e98588618",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Markarth",
     "subCategoryType": "",
@@ -2366,7 +2366,7 @@
     "href": ""
   },
   {
-    "_id": "827d4968-d821-4c3b-8e99-53f63ae53787",
+    "id": "827d4968-d821-4c3b-8e99-53f63ae53787",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Markarth",
     "subCategoryType": "",
@@ -2376,7 +2376,7 @@
     "href": ""
   },
   {
-    "_id": "eda5448b-ae2f-4967-8a25-58247d5718a8",
+    "id": "eda5448b-ae2f-4967-8a25-58247d5718a8",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Markarth",
     "subCategoryType": "",
@@ -2386,7 +2386,7 @@
     "href": ""
   },
   {
-    "_id": "5f13163f-9fa0-48a7-979d-ac8b6fbd6021",
+    "id": "5f13163f-9fa0-48a7-979d-ac8b6fbd6021",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Markarth",
     "subCategoryType": "",
@@ -2396,7 +2396,7 @@
     "href": ""
   },
   {
-    "_id": "2c8f1b84-7adf-4e88-8c74-a9f68a87d1ef",
+    "id": "2c8f1b84-7adf-4e88-8c74-a9f68a87d1ef",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Markarth",
     "subCategoryType": "",
@@ -2406,7 +2406,7 @@
     "href": ""
   },
   {
-    "_id": "144f4e41-ae2d-46be-892f-a0d01b55140b",
+    "id": "144f4e41-ae2d-46be-892f-a0d01b55140b",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Markarth",
     "subCategoryType": "",
@@ -2416,7 +2416,7 @@
     "href": ""
   },
   {
-    "_id": "c7652d94-bea5-4d14-a0dd-6f3b32d74068",
+    "id": "c7652d94-bea5-4d14-a0dd-6f3b32d74068",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Markarth",
     "subCategoryType": "",
@@ -2426,7 +2426,7 @@
     "href": ""
   },
   {
-    "_id": "6b3d71ec-d735-4212-9969-f8a887a06765",
+    "id": "6b3d71ec-d735-4212-9969-f8a887a06765",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Markarth",
     "subCategoryType": "",
@@ -2436,7 +2436,7 @@
     "href": ""
   },
   {
-    "_id": "6c651b60-decd-4516-bf63-16960fbe2a4f",
+    "id": "6c651b60-decd-4516-bf63-16960fbe2a4f",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Markarth",
     "subCategoryType": "",
@@ -2446,7 +2446,7 @@
     "href": ""
   },
   {
-    "_id": "f98a43fb-bcb3-4c35-8725-491a691aa5b3",
+    "id": "f98a43fb-bcb3-4c35-8725-491a691aa5b3",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Karthwasten",
     "subCategoryType": "",
@@ -2456,7 +2456,7 @@
     "href": ""
   },
   {
-    "_id": "d43f86c0-8913-4b2b-9f6b-b366ede41872",
+    "id": "d43f86c0-8913-4b2b-9f6b-b366ede41872",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Soljund's Sinkhole",
     "subCategoryType": "",
@@ -2466,7 +2466,7 @@
     "href": ""
   },
   {
-    "_id": "aca96a83-c7e6-41be-84d2-02dec577483c",
+    "id": "aca96a83-c7e6-41be-84d2-02dec577483c",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Left Hand Mine",
     "subCategoryType": "",
@@ -2476,7 +2476,7 @@
     "href": ""
   },
   {
-    "_id": "018353ed-e7bf-46d3-82f4-6153dd655193",
+    "id": "018353ed-e7bf-46d3-82f4-6153dd655193",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Salvius Farm",
     "subCategoryType": "",
@@ -2486,7 +2486,7 @@
     "href": ""
   },
   {
-    "_id": "75b371f7-a262-4186-9e83-fcc717028406",
+    "id": "75b371f7-a262-4186-9e83-fcc717028406",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Old Hroldan Inn",
     "subCategoryType": "",
@@ -2496,7 +2496,7 @@
     "href": ""
   },
   {
-    "_id": "b35f37e5-9118-401c-a837-665dea5b7426",
+    "id": "b35f37e5-9118-401c-a837-665dea5b7426",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Dushnikh Yal",
     "subCategoryType": "",
@@ -2506,7 +2506,7 @@
     "href": ""
   },
   {
-    "_id": "a0b4f63e-0ebd-41e1-bbb2-fa4e90c627c2",
+    "id": "a0b4f63e-0ebd-41e1-bbb2-fa4e90c627c2",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Riften",
     "subCategoryType": "",
@@ -2516,7 +2516,7 @@
     "href": ""
   },
   {
-    "_id": "897b1855-aeda-44e0-a5f9-36979b5fb296",
+    "id": "897b1855-aeda-44e0-a5f9-36979b5fb296",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Riften",
     "subCategoryType": "",
@@ -2526,7 +2526,7 @@
     "href": ""
   },
   {
-    "_id": "9625c4d1-5ec0-473b-a94b-0f81a35d0b05",
+    "id": "9625c4d1-5ec0-473b-a94b-0f81a35d0b05",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Riften",
     "subCategoryType": "",
@@ -2536,7 +2536,7 @@
     "href": ""
   },
   {
-    "_id": "124d8635-bd0b-483e-ab4a-924474bdd14d",
+    "id": "124d8635-bd0b-483e-ab4a-924474bdd14d",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Riften",
     "subCategoryType": "",
@@ -2546,7 +2546,7 @@
     "href": ""
   },
   {
-    "_id": "4dda484a-f20a-46fe-b00b-f35bc71fbee9",
+    "id": "4dda484a-f20a-46fe-b00b-f35bc71fbee9",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Riften",
     "subCategoryType": "",
@@ -2556,7 +2556,7 @@
     "href": ""
   },
   {
-    "_id": "56606e42-c8dc-4371-9a5b-70b97c401335",
+    "id": "56606e42-c8dc-4371-9a5b-70b97c401335",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Riften",
     "subCategoryType": "",
@@ -2566,7 +2566,7 @@
     "href": ""
   },
   {
-    "_id": "cda90def-62d9-4ec0-89f7-8eef15cc93a2",
+    "id": "cda90def-62d9-4ec0-89f7-8eef15cc93a2",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Riften",
     "subCategoryType": "",
@@ -2576,7 +2576,7 @@
     "href": ""
   },
   {
-    "_id": "97e0277c-c7a4-4cd4-91e6-e886e8ed1d8d",
+    "id": "97e0277c-c7a4-4cd4-91e6-e886e8ed1d8d",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Riften",
     "subCategoryType": "",
@@ -2586,7 +2586,7 @@
     "href": ""
   },
   {
-    "_id": "ee2ae05c-7f2a-44f1-ad88-3225e94b31b2",
+    "id": "ee2ae05c-7f2a-44f1-ad88-3225e94b31b2",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Riften",
     "subCategoryType": "",
@@ -2596,7 +2596,7 @@
     "href": ""
   },
   {
-    "_id": "f85adceb-af88-452f-a91b-e67c77de9b68",
+    "id": "f85adceb-af88-452f-a91b-e67c77de9b68",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Riften",
     "subCategoryType": "",
@@ -2606,7 +2606,7 @@
     "href": ""
   },
   {
-    "_id": "cbe80bae-61fd-4f09-a29f-06b333dec3a1",
+    "id": "cbe80bae-61fd-4f09-a29f-06b333dec3a1",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Riften",
     "subCategoryType": "",
@@ -2616,7 +2616,7 @@
     "href": ""
   },
   {
-    "_id": "f4e95ed3-ead4-4b4e-87e0-2a74deb952a0",
+    "id": "f4e95ed3-ead4-4b4e-87e0-2a74deb952a0",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Riften",
     "subCategoryType": "",
@@ -2626,7 +2626,7 @@
     "href": ""
   },
   {
-    "_id": "40b26e71-bddb-43b1-94ca-84cb0f58815e",
+    "id": "40b26e71-bddb-43b1-94ca-84cb0f58815e",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Riften",
     "subCategoryType": "",
@@ -2636,7 +2636,7 @@
     "href": ""
   },
   {
-    "_id": "56b07689-4c17-4f40-8e93-81da030f023c",
+    "id": "56b07689-4c17-4f40-8e93-81da030f023c",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Riften",
     "subCategoryType": "",
@@ -2646,7 +2646,7 @@
     "href": ""
   },
   {
-    "_id": "1e98ee74-d782-47b0-a55d-9ee51e39ca3b",
+    "id": "1e98ee74-d782-47b0-a55d-9ee51e39ca3b",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Froki's Shack",
     "subCategoryType": "Side quests",
@@ -2656,7 +2656,7 @@
     "href": ""
   },
   {
-    "_id": "728170c8-3b33-495e-b9f8-aeb91c7b05ce",
+    "id": "728170c8-3b33-495e-b9f8-aeb91c7b05ce",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Heartwood Mill",
     "subCategoryType": "",
@@ -2666,7 +2666,7 @@
     "href": ""
   },
   {
-    "_id": "79100b5b-025d-4001-b726-401160f07d15",
+    "id": "79100b5b-025d-4001-b726-401160f07d15",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Ivarstead",
     "subCategoryType": "",
@@ -2676,7 +2676,7 @@
     "href": ""
   },
   {
-    "_id": "52cc00ab-411e-4119-9b7c-49a6754a2bf3",
+    "id": "52cc00ab-411e-4119-9b7c-49a6754a2bf3",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Ivarstead",
     "subCategoryType": "",
@@ -2686,7 +2686,7 @@
     "href": ""
   },
   {
-    "_id": "676e8f5e-db37-4047-b827-2ae8923c09ef",
+    "id": "676e8f5e-db37-4047-b827-2ae8923c09ef",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Ivarstead",
     "subCategoryType": "",
@@ -2696,7 +2696,7 @@
     "href": ""
   },
   {
-    "_id": "28381654-7b5f-442a-9433-5661b9994e45",
+    "id": "28381654-7b5f-442a-9433-5661b9994e45",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Merryfair Farm",
     "subCategoryType": "Side Quests",
@@ -2706,7 +2706,7 @@
     "href": ""
   },
   {
-    "_id": "94f156c2-d285-4f0b-9180-cff452c14c63",
+    "id": "94f156c2-d285-4f0b-9180-cff452c14c63",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Last Vigil",
     "subCategoryType": "",
@@ -2716,7 +2716,7 @@
     "href": ""
   },
   {
-    "_id": "fdebf673-fc21-4eb8-87dd-08e8337314d8",
+    "id": "fdebf673-fc21-4eb8-87dd-08e8337314d8",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Sarethi Farm",
     "subCategoryType": "",
@@ -2726,7 +2726,7 @@
     "href": ""
   },
   {
-    "_id": "028f2e43-28b5-4bd9-ab8a-7fb8e13b68ac",
+    "id": "028f2e43-28b5-4bd9-ab8a-7fb8e13b68ac",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Shor's Stone",
     "subCategoryType": "",
@@ -2736,7 +2736,7 @@
     "href": ""
   },
   {
-    "_id": "37842b6a-ffde-4a71-b118-875e0d105a9e",
+    "id": "37842b6a-ffde-4a71-b118-875e0d105a9e",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Shor's Stone",
     "subCategoryType": "",
@@ -2746,7 +2746,7 @@
     "href": ""
   },
   {
-    "_id": "a2ca12d3-390c-442c-bf5a-79f209aa364e",
+    "id": "a2ca12d3-390c-442c-bf5a-79f209aa364e",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Whiterun",
     "subCategoryType": "Whiterun",
@@ -2756,7 +2756,7 @@
     "href": ""
   },
   {
-    "_id": "10e3d5a1-273e-4908-95b1-7a0d42dfea1f",
+    "id": "10e3d5a1-273e-4908-95b1-7a0d42dfea1f",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Whiterun",
     "subCategoryType": "Whiterun",
@@ -2766,7 +2766,7 @@
     "href": ""
   },
   {
-    "_id": "7d4fe76d-ac5b-403c-af42-a37ee9bc5729",
+    "id": "7d4fe76d-ac5b-403c-af42-a37ee9bc5729",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Whiterun",
     "subCategoryType": "Whiterun",
@@ -2776,7 +2776,7 @@
     "href": ""
   },
   {
-    "_id": "d130a2ef-0b3e-4ea0-8e76-27835bd6fda0",
+    "id": "d130a2ef-0b3e-4ea0-8e76-27835bd6fda0",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Whiterun",
     "subCategoryType": "Whiterun",
@@ -2786,7 +2786,7 @@
     "href": ""
   },
   {
-    "_id": "a304e11d-fc9b-45d6-8ef7-22f617fcd1c5",
+    "id": "a304e11d-fc9b-45d6-8ef7-22f617fcd1c5",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Whiterun",
     "subCategoryType": "Whiterun",
@@ -2796,7 +2796,7 @@
     "href": ""
   },
   {
-    "_id": "cdee7062-9521-4045-aafd-747ee68974b4",
+    "id": "cdee7062-9521-4045-aafd-747ee68974b4",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Whiterun",
     "subCategoryType": "Whiterun",
@@ -2806,7 +2806,7 @@
     "href": ""
   },
   {
-    "_id": "c70e5a50-f5de-4c91-bb6b-37bf987ea68a",
+    "id": "c70e5a50-f5de-4c91-bb6b-37bf987ea68a",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Whiterun",
     "subCategoryType": "Whiterun",
@@ -2816,7 +2816,7 @@
     "href": ""
   },
   {
-    "_id": "b0df0a1b-20ae-476e-b68d-2b5fb17b9b86",
+    "id": "b0df0a1b-20ae-476e-b68d-2b5fb17b9b86",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Whiterun",
     "subCategoryType": "Whiterun",
@@ -2826,7 +2826,7 @@
     "href": ""
   },
   {
-    "_id": "415fd7be-d58e-4029-9c4d-79104ad72daf",
+    "id": "415fd7be-d58e-4029-9c4d-79104ad72daf",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Whiterun",
     "subCategoryType": "Whiterun",
@@ -2836,7 +2836,7 @@
     "href": ""
   },
   {
-    "_id": "581711ec-d2ad-41a9-90aa-275fa4106f7b",
+    "id": "581711ec-d2ad-41a9-90aa-275fa4106f7b",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Riverwood",
     "subCategoryType": "Riverwood",
@@ -2846,7 +2846,7 @@
     "href": ""
   },
   {
-    "_id": "31768dca-0fbd-44d6-96d7-e7a169d1bcd0",
+    "id": "31768dca-0fbd-44d6-96d7-e7a169d1bcd0",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Riverwood",
     "subCategoryType": "Riverwood",
@@ -2856,7 +2856,7 @@
     "href": ""
   },
   {
-    "_id": "7955a02c-f4f3-480d-9b7a-c674733d8fb1",
+    "id": "7955a02c-f4f3-480d-9b7a-c674733d8fb1",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Rorikstead",
     "subCategoryType": "Rorikstead",
@@ -2866,7 +2866,7 @@
     "href": ""
   },
   {
-    "_id": "6cc048a7-271e-4418-95bc-3bce16a26009",
+    "id": "6cc048a7-271e-4418-95bc-3bce16a26009",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Winterhold",
     "subCategoryType": "Winterhold",
@@ -2876,7 +2876,7 @@
     "href": ""
   },
   {
-    "_id": "f930c78b-c821-415e-b0c5-a4fa04874322",
+    "id": "f930c78b-c821-415e-b0c5-a4fa04874322",
     "mainCategory": "Miscellaneous Quests",
     "subCategory": "Winterhold",
     "subCategoryType": "Winterhold",
@@ -2886,7 +2886,7 @@
     "href": ""
   },
   {
-    "_id": "c9f286a0-9207-44a3-bca5-2400a878363f",
+    "id": "c9f286a0-9207-44a3-bca5-2400a878363f",
     "mainCategory": "Bounty Quests",
     "subCategory": "Foresworn",
     "subCategoryType": "",
@@ -2896,7 +2896,7 @@
     "href": ""
   },
   {
-    "_id": "19842623-0fa4-47a7-a301-ed6731c51503",
+    "id": "19842623-0fa4-47a7-a301-ed6731c51503",
     "mainCategory": "Bounty Quests",
     "subCategory": "Foresworn",
     "subCategoryType": "",
@@ -2906,7 +2906,7 @@
     "href": ""
   },
   {
-    "_id": "b7a8081e-2acf-4510-8a21-63651fbe5bc0",
+    "id": "b7a8081e-2acf-4510-8a21-63651fbe5bc0",
     "mainCategory": "Bounty Quests",
     "subCategory": "Foresworn",
     "subCategoryType": "",
@@ -2916,7 +2916,7 @@
     "href": ""
   },
   {
-    "_id": "f2edc549-cf92-4b5e-bb68-3ebec520086a",
+    "id": "f2edc549-cf92-4b5e-bb68-3ebec520086a",
     "mainCategory": "Bounty Quests",
     "subCategory": "Foresworn",
     "subCategoryType": "",
@@ -2926,7 +2926,7 @@
     "href": ""
   },
   {
-    "_id": "702f1664-d147-461c-a05a-d9c755ba35f6",
+    "id": "702f1664-d147-461c-a05a-d9c755ba35f6",
     "mainCategory": "Bounty Quests",
     "subCategory": "Foresworn",
     "subCategoryType": "",
@@ -2936,7 +2936,7 @@
     "href": ""
   },
   {
-    "_id": "7e228573-db23-46d6-bc1a-dc14b3c7580c",
+    "id": "7e228573-db23-46d6-bc1a-dc14b3c7580c",
     "mainCategory": "Bounty Quests",
     "subCategory": "Foresworn",
     "subCategoryType": "",
@@ -2946,7 +2946,7 @@
     "href": ""
   },
   {
-    "_id": "e69af693-4264-4143-b218-ef9d002e287e",
+    "id": "e69af693-4264-4143-b218-ef9d002e287e",
     "mainCategory": "Bounty Quests",
     "subCategory": "Foresworn",
     "subCategoryType": "",
@@ -2956,7 +2956,7 @@
     "href": ""
   },
   {
-    "_id": "91afb9e2-b3fa-4d77-9edf-9617402dca8a",
+    "id": "91afb9e2-b3fa-4d77-9edf-9617402dca8a",
     "mainCategory": "Bounty Quests",
     "subCategory": "Foresworn",
     "subCategoryType": "",
@@ -2966,7 +2966,7 @@
     "href": ""
   },
   {
-    "_id": "be53e13f-ca34-4d35-bef8-77da97b814e9",
+    "id": "be53e13f-ca34-4d35-bef8-77da97b814e9",
     "mainCategory": "Bounty Quests",
     "subCategory": "Foresworn",
     "subCategoryType": "",
@@ -2976,7 +2976,7 @@
     "href": ""
   },
   {
-    "_id": "859cc2ba-fb10-47ad-810a-f99551c7ded6",
+    "id": "859cc2ba-fb10-47ad-810a-f99551c7ded6",
     "mainCategory": "Bounty Quests",
     "subCategory": "Bandits",
     "subCategoryType": "",
@@ -2986,7 +2986,7 @@
     "href": ""
   },
   {
-    "_id": "175833a5-f48a-46c9-afb2-bb1b3193ed8f",
+    "id": "175833a5-f48a-46c9-afb2-bb1b3193ed8f",
     "mainCategory": "Bounty Quests",
     "subCategory": "Bandits",
     "subCategoryType": "",
@@ -2996,7 +2996,7 @@
     "href": ""
   },
   {
-    "_id": "f786225d-2b36-4554-9c07-0e554c09117c",
+    "id": "f786225d-2b36-4554-9c07-0e554c09117c",
     "mainCategory": "Bounty Quests",
     "subCategory": "Bandits",
     "subCategoryType": "",
@@ -3006,7 +3006,7 @@
     "href": ""
   },
   {
-    "_id": "9e772847-e437-4251-8f60-8fa241a6b8e0",
+    "id": "9e772847-e437-4251-8f60-8fa241a6b8e0",
     "mainCategory": "Bounty Quests",
     "subCategory": "Bandits",
     "subCategoryType": "",
@@ -3016,7 +3016,7 @@
     "href": ""
   },
   {
-    "_id": "e350f2fa-83a1-455c-b62d-fd12c255836e",
+    "id": "e350f2fa-83a1-455c-b62d-fd12c255836e",
     "mainCategory": "Bounty Quests",
     "subCategory": "Bandits",
     "subCategoryType": "",
@@ -3026,7 +3026,7 @@
     "href": ""
   },
   {
-    "_id": "bc082164-7767-40c1-9780-15f65865bccf",
+    "id": "bc082164-7767-40c1-9780-15f65865bccf",
     "mainCategory": "Bounty Quests",
     "subCategory": "Bandits",
     "subCategoryType": "",
@@ -3036,7 +3036,7 @@
     "href": ""
   },
   {
-    "_id": "690fe542-3114-40cd-afae-cf1e4443932c",
+    "id": "690fe542-3114-40cd-afae-cf1e4443932c",
     "mainCategory": "Bounty Quests",
     "subCategory": "Bandits",
     "subCategoryType": "",
@@ -3046,7 +3046,7 @@
     "href": ""
   },
   {
-    "_id": "0d721739-a0ea-4250-8859-a52ef171da00",
+    "id": "0d721739-a0ea-4250-8859-a52ef171da00",
     "mainCategory": "Bounty Quests",
     "subCategory": "Bandits",
     "subCategoryType": "",
@@ -3056,7 +3056,7 @@
     "href": ""
   },
   {
-    "_id": "4f31d895-2b5a-41f6-83e7-78d8510d6bee",
+    "id": "4f31d895-2b5a-41f6-83e7-78d8510d6bee",
     "mainCategory": "Bounty Quests",
     "subCategory": "Bandits",
     "subCategoryType": "",
@@ -3066,7 +3066,7 @@
     "href": ""
   },
   {
-    "_id": "1ed69d93-c683-45cc-a1a0-38ee9c6adcaa",
+    "id": "1ed69d93-c683-45cc-a1a0-38ee9c6adcaa",
     "mainCategory": "Bounty Quests",
     "subCategory": "Giants",
     "subCategoryType": "",
@@ -3076,7 +3076,7 @@
     "href": ""
   },
   {
-    "_id": "d8667aac-5ca9-450b-962a-3c000e6282b2",
+    "id": "d8667aac-5ca9-450b-962a-3c000e6282b2",
     "mainCategory": "Bounty Quests",
     "subCategory": "Giants",
     "subCategoryType": "",
@@ -3086,7 +3086,7 @@
     "href": ""
   },
   {
-    "_id": "f7906160-d2b8-44ef-97a0-cacbbbf9b424",
+    "id": "f7906160-d2b8-44ef-97a0-cacbbbf9b424",
     "mainCategory": "Bounty Quests",
     "subCategory": "Giants",
     "subCategoryType": "",
@@ -3096,7 +3096,7 @@
     "href": ""
   },
   {
-    "_id": "1bd36562-fcfe-4c05-b2f3-429b8b40e02e",
+    "id": "1bd36562-fcfe-4c05-b2f3-429b8b40e02e",
     "mainCategory": "Bounty Quests",
     "subCategory": "Giants",
     "subCategoryType": "",
@@ -3106,7 +3106,7 @@
     "href": ""
   },
   {
-    "_id": "526640e2-a798-49cb-95a8-7c74b2b635ba",
+    "id": "526640e2-a798-49cb-95a8-7c74b2b635ba",
     "mainCategory": "Bounty Quests",
     "subCategory": "Giants",
     "subCategoryType": "",
@@ -3116,7 +3116,7 @@
     "href": ""
   },
   {
-    "_id": "659a9e52-35ea-4634-bc20-95536329623a",
+    "id": "659a9e52-35ea-4634-bc20-95536329623a",
     "mainCategory": "Bounty Quests",
     "subCategory": "Giants",
     "subCategoryType": "",
@@ -3126,7 +3126,7 @@
     "href": ""
   },
   {
-    "_id": "fa306a61-03be-4b2c-8306-efce18cf2b52",
+    "id": "fa306a61-03be-4b2c-8306-efce18cf2b52",
     "mainCategory": "Bounty Quests",
     "subCategory": "Giants",
     "subCategoryType": "",
@@ -3136,7 +3136,7 @@
     "href": ""
   },
   {
-    "_id": "333f86a9-d5c9-433e-86d9-96b2cd7a988e",
+    "id": "333f86a9-d5c9-433e-86d9-96b2cd7a988e",
     "mainCategory": "Bounty Quests",
     "subCategory": "Giants",
     "subCategoryType": "",
@@ -3146,7 +3146,7 @@
     "href": ""
   },
   {
-    "_id": "1a0743fe-b124-479b-9a8d-0863867b962e",
+    "id": "1a0743fe-b124-479b-9a8d-0863867b962e",
     "mainCategory": "Bounty Quests",
     "subCategory": "Dragons",
     "subCategoryType": "",
@@ -3156,7 +3156,7 @@
     "href": ""
   },
   {
-    "_id": "db2dce7e-547e-43e9-9f82-33d81ccf295e",
+    "id": "db2dce7e-547e-43e9-9f82-33d81ccf295e",
     "mainCategory": "Bounty Quests",
     "subCategory": "Dragons",
     "subCategoryType": "",
@@ -3166,7 +3166,7 @@
     "href": ""
   },
   {
-    "_id": "7152fcda-99a4-418b-8572-eeb509c2fbd9",
+    "id": "7152fcda-99a4-418b-8572-eeb509c2fbd9",
     "mainCategory": "Bounty Quests",
     "subCategory": "Dragons",
     "subCategoryType": "",
@@ -3176,7 +3176,7 @@
     "href": ""
   },
   {
-    "_id": "9afb4624-dc71-45b1-aec9-9cbf45637ff4",
+    "id": "9afb4624-dc71-45b1-aec9-9cbf45637ff4",
     "mainCategory": "Bounty Quests",
     "subCategory": "Dragons",
     "subCategoryType": "",
@@ -3186,7 +3186,7 @@
     "href": ""
   },
   {
-    "_id": "ee6bce90-edd9-49f7-b8de-0cf18005d577",
+    "id": "ee6bce90-edd9-49f7-b8de-0cf18005d577",
     "mainCategory": "Bounty Quests",
     "subCategory": "Dragons",
     "subCategoryType": "",
@@ -3196,7 +3196,7 @@
     "href": ""
   },
   {
-    "_id": "f7711bbf-5792-49bf-a025-90f6ddcfda75",
+    "id": "f7711bbf-5792-49bf-a025-90f6ddcfda75",
     "mainCategory": "Bounty Quests",
     "subCategory": "Dragons",
     "subCategoryType": "",
@@ -3206,7 +3206,7 @@
     "href": ""
   },
   {
-    "_id": "6125ecbf-db56-4409-9204-4bc395de7d65",
+    "id": "6125ecbf-db56-4409-9204-4bc395de7d65",
     "mainCategory": "Bounty Quests",
     "subCategory": "Dragons",
     "subCategoryType": "",
@@ -3216,7 +3216,7 @@
     "href": ""
   },
   {
-    "_id": "4991bc79-cb91-4a3f-b20d-6e51fec5c2bf",
+    "id": "4991bc79-cb91-4a3f-b20d-6e51fec5c2bf",
     "mainCategory": "Bounty Quests",
     "subCategory": "Dragons",
     "subCategoryType": "",
@@ -3226,7 +3226,7 @@
     "href": ""
   },
   {
-    "_id": "c918a2a2-7747-4162-b804-09d04a332f3f",
+    "id": "c918a2a2-7747-4162-b804-09d04a332f3f",
     "mainCategory": "Bounty Quests",
     "subCategory": "Dragons",
     "subCategoryType": "",
@@ -3236,7 +3236,7 @@
     "href": ""
   },
   {
-    "_id": "b3e3f6d8-7184-4b74-b4be-1289be85520b",
+    "id": "b3e3f6d8-7184-4b74-b4be-1289be85520b",
     "mainCategory": "Bounty Quests",
     "subCategory": "Dragons",
     "subCategoryType": "",
@@ -3246,7 +3246,7 @@
     "href": ""
   },
   {
-    "_id": "d5173f48-ac83-4f46-9757-360754ad2d57",
+    "id": "d5173f48-ac83-4f46-9757-360754ad2d57",
     "mainCategory": "Global Quests",
     "subCategory": "A Few Words with You",
     "subCategoryType": "",
@@ -3256,7 +3256,7 @@
     "href": ""
   },
   {
-    "_id": "b7c3cf93-f5aa-4714-a807-f25604cb5d1e",
+    "id": "b7c3cf93-f5aa-4714-a807-f25604cb5d1e",
     "mainCategory": "Global Quests",
     "subCategory": "A Few Words with You",
     "subCategoryType": "",
@@ -3266,7 +3266,7 @@
     "href": ""
   },
   {
-    "_id": "4c8d2697-6690-400f-93e8-14cc0d63a9ce",
+    "id": "4c8d2697-6690-400f-93e8-14cc0d63a9ce",
     "mainCategory": "Global Quests",
     "subCategory": "A Few Words with You",
     "subCategoryType": "",
@@ -3276,7 +3276,7 @@
     "href": ""
   },
   {
-    "_id": "e10c4e2b-3e44-4dbe-8df8-878636332878",
+    "id": "e10c4e2b-3e44-4dbe-8df8-878636332878",
     "mainCategory": "Global Quests",
     "subCategory": "A Few Words with You",
     "subCategoryType": "",
@@ -3286,7 +3286,7 @@
     "href": ""
   },
   {
-    "_id": "f01128af-eadc-445d-8d57-0fa10c0c4c33",
+    "id": "f01128af-eadc-445d-8d57-0fa10c0c4c33",
     "mainCategory": "Global Quests",
     "subCategory": "A Few Words with You",
     "subCategoryType": "",
@@ -3296,7 +3296,7 @@
     "href": ""
   },
   {
-    "_id": "663cdc98-eb1f-49c6-9ccc-181942ef564e",
+    "id": "663cdc98-eb1f-49c6-9ccc-181942ef564e",
     "mainCategory": "Global Quests",
     "subCategory": "A Few Words with You",
     "subCategoryType": "",
@@ -3306,7 +3306,7 @@
     "href": ""
   },
   {
-    "_id": "a4d8991e-6377-4f91-a1e5-cf4d145d7307",
+    "id": "a4d8991e-6377-4f91-a1e5-cf4d145d7307",
     "mainCategory": "Global Quests",
     "subCategory": "Chop Wood",
     "subCategoryType": "",
@@ -3316,7 +3316,7 @@
     "href": ""
   },
   {
-    "_id": "f432cbfe-efa6-4af9-8f91-2253430427ab",
+    "id": "f432cbfe-efa6-4af9-8f91-2253430427ab",
     "mainCategory": "Global Quests",
     "subCategory": "Chop Wood",
     "subCategoryType": "",
@@ -3326,7 +3326,7 @@
     "href": ""
   },
   {
-    "_id": "a4a72dce-6a1b-4833-af25-d40f2a2b4e9f",
+    "id": "a4a72dce-6a1b-4833-af25-d40f2a2b4e9f",
     "mainCategory": "Global Quests",
     "subCategory": "Chop Wood",
     "subCategoryType": "",
@@ -3336,7 +3336,7 @@
     "href": ""
   },
   {
-    "_id": "cbc479bb-83b7-455e-b4e9-ce8f23d66b2e",
+    "id": "cbc479bb-83b7-455e-b4e9-ce8f23d66b2e",
     "mainCategory": "Global Quests",
     "subCategory": "Chop Wood",
     "subCategoryType": "",
@@ -3346,7 +3346,7 @@
     "href": ""
   },
   {
-    "_id": "e4d309fb-6eef-4cf6-9933-8e4c1f48f9b2",
+    "id": "e4d309fb-6eef-4cf6-9933-8e4c1f48f9b2",
     "mainCategory": "Global Quests",
     "subCategory": "Chop Wood",
     "subCategoryType": "",
@@ -3356,7 +3356,7 @@
     "href": ""
   },
   {
-    "_id": "082ee218-ad53-43aa-80e1-25d46a40d2a7",
+    "id": "082ee218-ad53-43aa-80e1-25d46a40d2a7",
     "mainCategory": "Global Quests",
     "subCategory": "Chop Wood",
     "subCategoryType": "",
@@ -3366,7 +3366,7 @@
     "href": ""
   },
   {
-    "_id": "1a0bf55c-bb31-4cb2-9079-c1ae07542138",
+    "id": "1a0bf55c-bb31-4cb2-9079-c1ae07542138",
     "mainCategory": "Global Quests",
     "subCategory": "Chop Wood",
     "subCategoryType": "",
@@ -3376,7 +3376,7 @@
     "href": ""
   },
   {
-    "_id": "db0bd21b-aaa2-49bc-ac9f-0dc1b99d51d3",
+    "id": "db0bd21b-aaa2-49bc-ac9f-0dc1b99d51d3",
     "mainCategory": "Global Quests",
     "subCategory": "Chop Wood",
     "subCategoryType": "",
@@ -3386,7 +3386,7 @@
     "href": ""
   },
   {
-    "_id": "3886927a-d9e6-4a1a-adee-9c40e82ba2c2",
+    "id": "3886927a-d9e6-4a1a-adee-9c40e82ba2c2",
     "mainCategory": "Global Quests",
     "subCategory": "Chop Wood",
     "subCategoryType": "",
@@ -3396,7 +3396,7 @@
     "href": ""
   },
   {
-    "_id": "36a1211e-5e72-4ad3-8aeb-b04131ec8be9",
+    "id": "36a1211e-5e72-4ad3-8aeb-b04131ec8be9",
     "mainCategory": "Global Quests",
     "subCategory": "Chop Wood",
     "subCategoryType": "",
@@ -3406,7 +3406,7 @@
     "href": ""
   },
   {
-    "_id": "88afdaf0-8f5b-4525-8935-7ba37997e7a5",
+    "id": "88afdaf0-8f5b-4525-8935-7ba37997e7a5",
     "mainCategory": "Global Quests",
     "subCategory": "Chop Wood",
     "subCategoryType": "",
@@ -3416,7 +3416,7 @@
     "href": ""
   },
   {
-    "_id": "a318e1e5-b432-4fd9-98c3-63385681ee7b",
+    "id": "a318e1e5-b432-4fd9-98c3-63385681ee7b",
     "mainCategory": "Global Quests",
     "subCategory": "Delivery",
     "subCategoryType": "",
@@ -3426,7 +3426,7 @@
     "href": ""
   },
   {
-    "_id": "90fe1db6-0f0c-46b6-b4e6-020c2f4ee669",
+    "id": "90fe1db6-0f0c-46b6-b4e6-020c2f4ee669",
     "mainCategory": "Global Quests",
     "subCategory": "Delivery",
     "subCategoryType": "",
@@ -3436,7 +3436,7 @@
     "href": ""
   },
   {
-    "_id": "3b93d735-4dec-4b29-a964-feee026f80f2",
+    "id": "3b93d735-4dec-4b29-a964-feee026f80f2",
     "mainCategory": "Global Quests",
     "subCategory": "Delivery",
     "subCategoryType": "",
@@ -3446,7 +3446,7 @@
     "href": ""
   },
   {
-    "_id": "f1403b47-7940-4c5b-ae24-5805aca5dcfd",
+    "id": "f1403b47-7940-4c5b-ae24-5805aca5dcfd",
     "mainCategory": "Global Quests",
     "subCategory": "Delivery",
     "subCategoryType": "",
@@ -3456,7 +3456,7 @@
     "href": ""
   },
   {
-    "_id": "a281ec5e-46fb-430b-b3be-df2bdd2487d5",
+    "id": "a281ec5e-46fb-430b-b3be-df2bdd2487d5",
     "mainCategory": "Global Quests",
     "subCategory": "Delivery",
     "subCategoryType": "",
@@ -3466,7 +3466,7 @@
     "href": ""
   },
   {
-    "_id": "6b828713-ec87-47a3-83da-adfe0b322840",
+    "id": "6b828713-ec87-47a3-83da-adfe0b322840",
     "mainCategory": "Global Quests",
     "subCategory": "Delivery",
     "subCategoryType": "",
@@ -3476,7 +3476,7 @@
     "href": ""
   },
   {
-    "_id": "437b3a24-dbdc-44cf-8e1e-40ddf1110989",
+    "id": "437b3a24-dbdc-44cf-8e1e-40ddf1110989",
     "mainCategory": "Global Quests",
     "subCategory": "Delivery",
     "subCategoryType": "",
@@ -3486,7 +3486,7 @@
     "href": ""
   },
   {
-    "_id": "21b0ac6e-48a1-465b-a32a-67f38bc79c5b",
+    "id": "21b0ac6e-48a1-465b-a32a-67f38bc79c5b",
     "mainCategory": "Global Quests",
     "subCategory": "Delivery",
     "subCategoryType": "",
@@ -3496,7 +3496,7 @@
     "href": ""
   },
   {
-    "_id": "b859b564-5752-4d65-afd8-5bd3ef131f25",
+    "id": "b859b564-5752-4d65-afd8-5bd3ef131f25",
     "mainCategory": "Global Quests",
     "subCategory": "Fight! Fight!",
     "subCategoryType": "",
@@ -3506,7 +3506,7 @@
     "href": ""
   },
   {
-    "_id": "a4926190-e5e8-4ca4-90f1-53a40d21ec0c",
+    "id": "a4926190-e5e8-4ca4-90f1-53a40d21ec0c",
     "mainCategory": "Global Quests",
     "subCategory": "Fight! Fight!",
     "subCategoryType": "",
@@ -3516,7 +3516,7 @@
     "href": ""
   },
   {
-    "_id": "6f102c4b-4b8e-4e16-ba4e-83b01116edde",
+    "id": "6f102c4b-4b8e-4e16-ba4e-83b01116edde",
     "mainCategory": "Global Quests",
     "subCategory": "Fight! Fight!",
     "subCategoryType": "",
@@ -3526,7 +3526,7 @@
     "href": ""
   },
   {
-    "_id": "73c23d6e-79eb-4c9b-91fc-c0a0ad936948",
+    "id": "73c23d6e-79eb-4c9b-91fc-c0a0ad936948",
     "mainCategory": "Global Quests",
     "subCategory": "Fight! Fight!",
     "subCategoryType": "",
@@ -3536,7 +3536,7 @@
     "href": ""
   },
   {
-    "_id": "223c9500-f145-4ce1-8e9b-36fa25e9c49a",
+    "id": "223c9500-f145-4ce1-8e9b-36fa25e9c49a",
     "mainCategory": "Global Quests",
     "subCategory": "Fight! Fight!",
     "subCategoryType": "",
@@ -3546,7 +3546,7 @@
     "href": ""
   },
   {
-    "_id": "ea2c7195-89cc-49ec-b5e1-c39bdef00255",
+    "id": "ea2c7195-89cc-49ec-b5e1-c39bdef00255",
     "mainCategory": "Global Quests",
     "subCategory": "Fight! Fight!",
     "subCategoryType": "",
@@ -3556,7 +3556,7 @@
     "href": ""
   },
   {
-    "_id": "f2656329-dfbd-49f5-8e31-752cab6147b1",
+    "id": "f2656329-dfbd-49f5-8e31-752cab6147b1",
     "mainCategory": "Global Quests",
     "subCategory": "Fight! Fight!",
     "subCategoryType": "",
@@ -3566,7 +3566,7 @@
     "href": ""
   },
   {
-    "_id": "522f7378-6eba-45ee-9baa-463187ee4823",
+    "id": "522f7378-6eba-45ee-9baa-463187ee4823",
     "mainCategory": "Global Quests",
     "subCategory": "Gather Wheat",
     "subCategoryType": "",
@@ -3576,7 +3576,7 @@
     "href": ""
   },
   {
-    "_id": "ccebc5fd-2725-4717-aded-1e6dad0b5b9e",
+    "id": "ccebc5fd-2725-4717-aded-1e6dad0b5b9e",
     "mainCategory": "Global Quests",
     "subCategory": "Gather Wheat",
     "subCategoryType": "",
@@ -3586,7 +3586,7 @@
     "href": ""
   },
   {
-    "_id": "1a0be10e-b906-44cb-a9f3-4bb33712cb9d",
+    "id": "1a0be10e-b906-44cb-a9f3-4bb33712cb9d",
     "mainCategory": "Global Quests",
     "subCategory": "Gather Wheat",
     "subCategoryType": "",
@@ -3596,7 +3596,7 @@
     "href": ""
   },
   {
-    "_id": "53df90eb-a286-4980-9fa7-f097a45b6dd9",
+    "id": "53df90eb-a286-4980-9fa7-f097a45b6dd9",
     "mainCategory": "Global Quests",
     "subCategory": "Gather Wheat",
     "subCategoryType": "",
@@ -3606,7 +3606,7 @@
     "href": ""
   },
   {
-    "_id": "23d51ee0-d519-4543-aa48-ef373ccb8df7",
+    "id": "23d51ee0-d519-4543-aa48-ef373ccb8df7",
     "mainCategory": "Global Quests",
     "subCategory": "Gather Wheat",
     "subCategoryType": "",
@@ -3616,7 +3616,7 @@
     "href": ""
   },
   {
-    "_id": "53accafa-0ee8-42fd-9d58-ed5f6cbf2342",
+    "id": "53accafa-0ee8-42fd-9d58-ed5f6cbf2342",
     "mainCategory": "Global Quests",
     "subCategory": "Gather Wheat",
     "subCategoryType": "",
@@ -3626,7 +3626,7 @@
     "href": ""
   },
   {
-    "_id": "cef85d8b-b2bd-48bd-9cdd-918ba14b763c",
+    "id": "cef85d8b-b2bd-48bd-9cdd-918ba14b763c",
     "mainCategory": "Global Quests",
     "subCategory": "Gather Wheat",
     "subCategoryType": "",
@@ -3636,7 +3636,7 @@
     "href": ""
   },
   {
-    "_id": "355ca659-f930-4a70-bf94-498034ff2a2d",
+    "id": "355ca659-f930-4a70-bf94-498034ff2a2d",
     "mainCategory": "Global Quests",
     "subCategory": "Gather Wheat",
     "subCategoryType": "",
@@ -3646,7 +3646,7 @@
     "href": ""
   },
   {
-    "_id": "ac18c83c-3320-4999-ba6e-f7a8d9a46763",
+    "id": "ac18c83c-3320-4999-ba6e-f7a8d9a46763",
     "mainCategory": "Global Quests",
     "subCategory": "Gather Wheat",
     "subCategoryType": "",
@@ -3656,7 +3656,7 @@
     "href": ""
   },
   {
-    "_id": "b62c2569-ef54-41b9-ab69-2d7e7e668ec1",
+    "id": "b62c2569-ef54-41b9-ab69-2d7e7e668ec1",
     "mainCategory": "Global Quests",
     "subCategory": "Gather Wheat",
     "subCategoryType": "",
@@ -3666,7 +3666,7 @@
     "href": ""
   },
   {
-    "_id": "24349490-61f2-481a-9f4b-87ad174304f9",
+    "id": "24349490-61f2-481a-9f4b-87ad174304f9",
     "mainCategory": "Global Quests",
     "subCategory": "Gather Wheat",
     "subCategoryType": "",
@@ -3676,7 +3676,7 @@
     "href": ""
   },
   {
-    "_id": "93081eb1-b077-42f4-a556-06263218ed6f",
+    "id": "93081eb1-b077-42f4-a556-06263218ed6f",
     "mainCategory": "Global Quests",
     "subCategory": "Gather Wheat",
     "subCategoryType": "",
@@ -3686,7 +3686,7 @@
     "href": ""
   },
   {
-    "_id": "bed86e59-efd9-4fec-8739-2c95a1415f57",
+    "id": "bed86e59-efd9-4fec-8739-2c95a1415f57",
     "mainCategory": "Global Quests",
     "subCategory": "Gather Wheat",
     "subCategoryType": "",
@@ -3696,7 +3696,7 @@
     "href": ""
   },
   {
-    "_id": "4483cbe8-89b7-468c-b3f8-e699f3ebae00",
+    "id": "4483cbe8-89b7-468c-b3f8-e699f3ebae00",
     "mainCategory": "Global Quests",
     "subCategory": "Gather Wheat",
     "subCategoryType": "",
@@ -3706,7 +3706,7 @@
     "href": ""
   },
   {
-    "_id": "69301996-5bf0-4488-bbb8-01dc8714684b",
+    "id": "69301996-5bf0-4488-bbb8-01dc8714684b",
     "mainCategory": "Global Quests",
     "subCategory": "Gather Wheat",
     "subCategoryType": "",
@@ -3716,7 +3716,7 @@
     "href": ""
   },
   {
-    "_id": "8dcfa47f-a269-4647-bae9-77041478af5c",
+    "id": "8dcfa47f-a269-4647-bae9-77041478af5c",
     "mainCategory": "Global Quests",
     "subCategory": "Mine Ore",
     "subCategoryType": "",
@@ -3726,7 +3726,7 @@
     "href": ""
   },
   {
-    "_id": "d74666bc-c4e2-49af-8919-2b46200a8ee2",
+    "id": "d74666bc-c4e2-49af-8919-2b46200a8ee2",
     "mainCategory": "Global Quests",
     "subCategory": "Mine Ore",
     "subCategoryType": "",
@@ -3736,7 +3736,7 @@
     "href": ""
   },
   {
-    "_id": "cbc5db54-8929-4600-bb13-19ef58c0acd3",
+    "id": "cbc5db54-8929-4600-bb13-19ef58c0acd3",
     "mainCategory": "Global Quests",
     "subCategory": "Mine Ore",
     "subCategoryType": "",
@@ -3746,7 +3746,7 @@
     "href": ""
   },
   {
-    "_id": "b51876c1-984c-4c6c-acae-7e34ce297b28",
+    "id": "b51876c1-984c-4c6c-acae-7e34ce297b28",
     "mainCategory": "Global Quests",
     "subCategory": "Mine Ore",
     "subCategoryType": "",
@@ -3756,7 +3756,7 @@
     "href": ""
   },
   {
-    "_id": "c812ca03-8f58-4e2f-80c3-b793d22241a1",
+    "id": "c812ca03-8f58-4e2f-80c3-b793d22241a1",
     "mainCategory": "Global Quests",
     "subCategory": "Mine Ore",
     "subCategoryType": "",
@@ -3766,7 +3766,7 @@
     "href": ""
   },
   {
-    "_id": "62ed167d-2ae7-4e2b-aa8f-6168e9aadb9b",
+    "id": "62ed167d-2ae7-4e2b-aa8f-6168e9aadb9b",
     "mainCategory": "Global Quests",
     "subCategory": "Mine Ore",
     "subCategoryType": "",
@@ -3776,7 +3776,7 @@
     "href": ""
   },
   {
-    "_id": "bbec2e79-1bd9-4a5f-b3c3-09af0168c040",
+    "id": "bbec2e79-1bd9-4a5f-b3c3-09af0168c040",
     "mainCategory": "Global Quests",
     "subCategory": "Mine Ore",
     "subCategoryType": "",
@@ -3786,7 +3786,7 @@
     "href": ""
   },
   {
-    "_id": "eb2d1a56-5341-4c67-9f2c-60de71ee789f",
+    "id": "eb2d1a56-5341-4c67-9f2c-60de71ee789f",
     "mainCategory": "Global Quests",
     "subCategory": "Mine Ore",
     "subCategoryType": "",
@@ -3796,7 +3796,7 @@
     "href": ""
   },
   {
-    "_id": "2960c912-7ed6-4bda-b139-55d5165ff21c",
+    "id": "2960c912-7ed6-4bda-b139-55d5165ff21c",
     "mainCategory": "Global Quests",
     "subCategory": "Mine Ore",
     "subCategoryType": "",
@@ -3806,7 +3806,7 @@
     "href": ""
   },
   {
-    "_id": "d684ee87-e612-40b0-9099-9afde2a8b86f",
+    "id": "d684ee87-e612-40b0-9099-9afde2a8b86f",
     "mainCategory": "Global Quests",
     "subCategory": "Mine Ore",
     "subCategoryType": "",
@@ -3816,7 +3816,7 @@
     "href": ""
   },
   {
-    "_id": "a9124830-b868-4f0f-a17d-50b1d544abec",
+    "id": "a9124830-b868-4f0f-a17d-50b1d544abec",
     "mainCategory": "Global Quests",
     "subCategory": "Mine Ore",
     "subCategoryType": "",
@@ -3826,7 +3826,7 @@
     "href": ""
   },
   {
-    "_id": "83372737-c11d-4ed3-9a89-8654e2f5d2dd",
+    "id": "83372737-c11d-4ed3-9a89-8654e2f5d2dd",
     "mainCategory": "Global Quests",
     "subCategory": "Mine Ore",
     "subCategoryType": "",
@@ -3836,7 +3836,7 @@
     "href": ""
   },
   {
-    "_id": "8b308ea3-fdec-41a8-ba21-22040f943648",
+    "id": "8b308ea3-fdec-41a8-ba21-22040f943648",
     "mainCategory": "Global Quests",
     "subCategory": "Mine Ore",
     "subCategoryType": "",
@@ -3846,7 +3846,7 @@
     "href": ""
   },
   {
-    "_id": "234f661e-3033-482d-830d-f5f0e05bb32e",
+    "id": "234f661e-3033-482d-830d-f5f0e05bb32e",
     "mainCategory": "Global Quests",
     "subCategory": "Quest all Beggars Have",
     "subCategoryType": "",
@@ -3856,7 +3856,7 @@
     "href": ""
   },
   {
-    "_id": "706d6b4d-4bed-4139-a46f-bcc28305300e",
+    "id": "706d6b4d-4bed-4139-a46f-bcc28305300e",
     "mainCategory": "Global Quests",
     "subCategory": "Quest all Beggars Have",
     "subCategoryType": "",
@@ -3866,7 +3866,7 @@
     "href": ""
   },
   {
-    "_id": "5635f95b-18e8-4c80-a54f-2a5977fbc924",
+    "id": "5635f95b-18e8-4c80-a54f-2a5977fbc924",
     "mainCategory": "Global Quests",
     "subCategory": "Quest all Beggars Have",
     "subCategoryType": "",
@@ -3876,7 +3876,7 @@
     "href": ""
   },
   {
-    "_id": "23b5dc7b-4d7a-4c0f-852e-e41b63fab782",
+    "id": "23b5dc7b-4d7a-4c0f-852e-e41b63fab782",
     "mainCategory": "Global Quests",
     "subCategory": "Quest all Beggars Have",
     "subCategoryType": "",
@@ -3886,7 +3886,7 @@
     "href": ""
   },
   {
-    "_id": "8571faea-7125-4c2d-9fd2-6d321ae786a5",
+    "id": "8571faea-7125-4c2d-9fd2-6d321ae786a5",
     "mainCategory": "Global Quests",
     "subCategory": "Quest all Beggars Have",
     "subCategoryType": "",
@@ -3896,7 +3896,7 @@
     "href": ""
   },
   {
-    "_id": "154d7082-a067-44a7-9e1c-7e6b3039f568",
+    "id": "154d7082-a067-44a7-9e1c-7e6b3039f568",
     "mainCategory": "Global Quests",
     "subCategory": "Quest all Beggars Have",
     "subCategoryType": "",
@@ -3906,7 +3906,7 @@
     "href": ""
   },
   {
-    "_id": "438b259f-1b18-43bc-bcc4-9eb49f680530",
+    "id": "438b259f-1b18-43bc-bcc4-9eb49f680530",
     "mainCategory": "Global Quests",
     "subCategory": "Quest all Beggars Have",
     "subCategoryType": "",
@@ -3916,7 +3916,7 @@
     "href": ""
   },
   {
-    "_id": "2742f6d1-26e7-4205-b541-7296bf24b74e",
+    "id": "2742f6d1-26e7-4205-b541-7296bf24b74e",
     "mainCategory": "Global Quests",
     "subCategory": "Quest all Beggars Have",
     "subCategoryType": "",
@@ -3926,7 +3926,7 @@
     "href": ""
   },
   {
-    "_id": "6720b035-dcc5-4722-9b76-580296ca2b1d",
+    "id": "6720b035-dcc5-4722-9b76-580296ca2b1d",
     "mainCategory": "Global Quests",
     "subCategory": "Quest all Beggars Have",
     "subCategoryType": "",
@@ -3936,7 +3936,7 @@
     "href": ""
   },
   {
-    "_id": "ae3ad877-04d8-4d73-a995-c0c9d7e2b559",
+    "id": "ae3ad877-04d8-4d73-a995-c0c9d7e2b559",
     "mainCategory": "Global Quests",
     "subCategory": "Quest all Beggars Have",
     "subCategoryType": "",
@@ -3946,7 +3946,7 @@
     "href": ""
   },
   {
-    "_id": "eb516446-db21-4906-ab20-1a2ad7a7feab",
+    "id": "eb516446-db21-4906-ab20-1a2ad7a7feab",
     "mainCategory": "Global Quests",
     "subCategory": "Quest all Beggars Have",
     "subCategoryType": "",
@@ -3956,7 +3956,7 @@
     "href": ""
   },
   {
-    "_id": "636a012c-1c15-4216-b2a3-5047c5d069fb",
+    "id": "636a012c-1c15-4216-b2a3-5047c5d069fb",
     "mainCategory": "Global Quests",
     "subCategory": "Quest all Drunks Have",
     "subCategoryType": "",
@@ -3966,7 +3966,7 @@
     "href": ""
   },
   {
-    "_id": "a6666d10-3c8e-4a28-8577-fd9f43ee418b",
+    "id": "a6666d10-3c8e-4a28-8577-fd9f43ee418b",
     "mainCategory": "Global Quests",
     "subCategory": "Quest all Drunks Have",
     "subCategoryType": "",
@@ -3976,7 +3976,7 @@
     "href": ""
   },
   {
-    "_id": "cc2216b6-5d65-4800-bac0-93d6eea488b2",
+    "id": "cc2216b6-5d65-4800-bac0-93d6eea488b2",
     "mainCategory": "Global Quests",
     "subCategory": "Quest all Drunks Have",
     "subCategoryType": "",
@@ -3986,7 +3986,7 @@
     "href": ""
   },
   {
-    "_id": "6930b804-ac68-4977-8be3-5aa04cbbd8f5",
+    "id": "6930b804-ac68-4977-8be3-5aa04cbbd8f5",
     "mainCategory": "Global Quests",
     "subCategory": "Quest all Drunks Have",
     "subCategoryType": "",
@@ -3996,7 +3996,7 @@
     "href": ""
   },
   {
-    "_id": "d70b1e7d-9a69-4061-abc9-acf4d8ac2ce3",
+    "id": "d70b1e7d-9a69-4061-abc9-acf4d8ac2ce3",
     "mainCategory": "Global Quests",
     "subCategory": "Quest all Drunks Have",
     "subCategoryType": "",
@@ -4006,7 +4006,7 @@
     "href": ""
   },
   {
-    "_id": "6f67a036-5fe0-4323-9073-a367564afd77",
+    "id": "6f67a036-5fe0-4323-9073-a367564afd77",
     "mainCategory": "Global Quests",
     "subCategory": "Quest all Drunks Have",
     "subCategoryType": "",
@@ -4016,7 +4016,7 @@
     "href": ""
   },
   {
-    "_id": "fce3005f-822c-461b-9d17-cf606801791e",
+    "id": "fce3005f-822c-461b-9d17-cf606801791e",
     "mainCategory": "Global Quests",
     "subCategory": "Quest all Drunks Have",
     "subCategoryType": "",
@@ -4026,7 +4026,7 @@
     "href": ""
   },
   {
-    "_id": "16f557d7-6158-4bc2-8a0b-1005978d731f",
+    "id": "16f557d7-6158-4bc2-8a0b-1005978d731f",
     "mainCategory": "Global Quests",
     "subCategory": "Quest all Drunks Have",
     "subCategoryType": "",
@@ -4036,7 +4036,7 @@
     "href": ""
   },
   {
-    "_id": "283b9ef5-021b-448e-8630-f21b5b00ba3e",
+    "id": "283b9ef5-021b-448e-8630-f21b5b00ba3e",
     "mainCategory": "Global Quests",
     "subCategory": "Quest all Drunks Have",
     "subCategoryType": "",
@@ -4046,7 +4046,7 @@
     "href": ""
   },
   {
-    "_id": "775e8a9e-2ad2-4cce-ada4-c6f39e97b0c5",
+    "id": "775e8a9e-2ad2-4cce-ada4-c6f39e97b0c5",
     "mainCategory": "Global Quests",
     "subCategory": "Quest all Drunks Have",
     "subCategoryType": "",
@@ -4056,7 +4056,7 @@
     "href": ""
   },
   {
-    "_id": "8d1c4197-a7ef-4a79-9349-9c88341e6c59",
+    "id": "8d1c4197-a7ef-4a79-9349-9c88341e6c59",
     "mainCategory": "Global Quests",
     "subCategory": "Quest all Drunks Have",
     "subCategoryType": "",
@@ -4066,7 +4066,7 @@
     "href": ""
   },
   {
-    "_id": "3d691f05-abe7-4b6f-8f3b-db7f885a32e9",
+    "id": "3d691f05-abe7-4b6f-8f3b-db7f885a32e9",
     "mainCategory": "Global Quests",
     "subCategory": "Rare Gifts",
     "subCategoryType": "",
@@ -4076,7 +4076,7 @@
     "href": ""
   },
   {
-    "_id": "4568f980-22ec-4f9b-a09a-0f8167302085",
+    "id": "4568f980-22ec-4f9b-a09a-0f8167302085",
     "mainCategory": "Global Quests",
     "subCategory": "Rare Gifts",
     "subCategoryType": "",
@@ -4086,7 +4086,7 @@
     "href": ""
   },
   {
-    "_id": "5e2f87c7-89bb-4f2f-bc1c-5fa6da757a25",
+    "id": "5e2f87c7-89bb-4f2f-bc1c-5fa6da757a25",
     "mainCategory": "Global Quests",
     "subCategory": "Rare Gifts",
     "subCategoryType": "",
@@ -4096,7 +4096,7 @@
     "href": ""
   },
   {
-    "_id": "d4ccb085-5900-4041-a433-304cc9b7df36",
+    "id": "d4ccb085-5900-4041-a433-304cc9b7df36",
     "mainCategory": "Global Quests",
     "subCategory": "Rare Gifts",
     "subCategoryType": "",
@@ -4106,7 +4106,7 @@
     "href": ""
   },
   {
-    "_id": "80848aee-0430-4ba0-93dc-cc4dac5d9201",
+    "id": "80848aee-0430-4ba0-93dc-cc4dac5d9201",
     "mainCategory": "Global Quests",
     "subCategory": "Rare Gifts",
     "subCategoryType": "",
@@ -4116,7 +4116,7 @@
     "href": ""
   },
   {
-    "_id": "60273196-5e29-4ba9-bcbf-971ad89b6257",
+    "id": "60273196-5e29-4ba9-bcbf-971ad89b6257",
     "mainCategory": "Global Quests",
     "subCategory": "Rare Gifts",
     "subCategoryType": "",
@@ -4126,7 +4126,7 @@
     "href": ""
   },
   {
-    "_id": "53bec0b5-ed33-4269-b572-4f4c407aa879",
+    "id": "53bec0b5-ed33-4269-b572-4f4c407aa879",
     "mainCategory": "Global Quests",
     "subCategory": "Rare Gifts",
     "subCategoryType": "",
@@ -4136,7 +4136,7 @@
     "href": ""
   },
   {
-    "_id": "b94f1c78-f7b2-4978-815c-35a789b4211e",
+    "id": "b94f1c78-f7b2-4978-815c-35a789b4211e",
     "mainCategory": "Global Quests",
     "subCategory": "Some Light Theft",
     "subCategoryType": "",
@@ -4146,7 +4146,7 @@
     "href": ""
   },
   {
-    "_id": "df6f7851-3550-46d8-b2a0-ae9021abc631",
+    "id": "df6f7851-3550-46d8-b2a0-ae9021abc631",
     "mainCategory": "Global Quests",
     "subCategory": "Some Light Theft",
     "subCategoryType": "",
@@ -4156,7 +4156,7 @@
     "href": ""
   },
   {
-    "_id": "a5ade658-36b7-428a-955d-e880799b0331",
+    "id": "a5ade658-36b7-428a-955d-e880799b0331",
     "mainCategory": "Global Quests",
     "subCategory": "Some Light Theft",
     "subCategoryType": "",
@@ -4166,7 +4166,7 @@
     "href": ""
   },
   {
-    "_id": "40fbdac2-2897-4bad-aea9-51def329a77c",
+    "id": "40fbdac2-2897-4bad-aea9-51def329a77c",
     "mainCategory": "Global Quests",
     "subCategory": "Some Light Theft",
     "subCategoryType": "",
