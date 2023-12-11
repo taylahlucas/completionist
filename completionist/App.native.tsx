@@ -1,25 +1,28 @@
 import React, { useEffect } from 'react';
 import { Provider } from 'react-redux';
+import { GoogleSignin } from '@react-native-google-signin/google-signin';
 import { NavigationContainer } from '@react-navigation/native';
+import config from '@utils/config';
 import NavigationDrawer from '@navigation/NavigationDrawer.native';
 import configureStore from '@redux/store';
-import { GoogleSignin } from '@react-native-google-signin/google-signin';
-import config from '@utils/config';
+import ApolloClientContainer from '@navigation/ApolloClientContainer.native';
 
 const store = configureStore;
 
-const App = () => { 
+const App = () => {
   useEffect(() => {
     GoogleSignin.configure({
       webClientId: config.webClientId
     });
   }, []);
-  
+
   return (
     <Provider store={store}>
-      <NavigationContainer>
-        <NavigationDrawer />
-      </NavigationContainer>
+      <ApolloClientContainer>
+        <NavigationContainer>
+          <NavigationDrawer />
+        </NavigationContainer>
+      </ApolloClientContainer>
     </Provider>
   )
 };
