@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import CustomTextInput from '@components/general/TextInput/CustomTextInput.native';
 import { LoginFormContainer, LoginTextInputContainer } from './LoginFormStyledComponents.native';
 import useGetTheme from '@styles/hooks/useGetTheme';
+import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
 
 interface LoginState {
   email: string;
@@ -10,12 +11,12 @@ interface LoginState {
 
 const LoginForm = () => {
   const theme = useGetTheme();
-  
   const [user, setUser] = useState<LoginState>({
     email: '',
     password: ''
   });
 
+  // TODO: Email/password login and signup
   return (
     <LoginFormContainer>
       <LoginTextInputContainer color={theme.darkGrey}>

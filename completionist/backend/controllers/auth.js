@@ -7,7 +7,6 @@ const jwt = require('jsonwebtoken');
 
 const signup = async (req, res) => {
   try {
-    // validation
     const { 
       userId,
       name,
@@ -21,8 +20,6 @@ const signup = async (req, res) => {
         error: "userId is required",
       });
     }
-
-    console.log("Checking email exists: ", email)
     const exist = await User.findOne({ email });
     if (exist) {
       return res.json({
@@ -32,8 +29,9 @@ const signup = async (req, res) => {
     // hash password
     // const hashedPassword = await hashPassword(password);
     try {
+      const _id = ObjectId(userId);
       const user = await new User({
-        userId: userId,
+        _id,
         name,
         email,
         userAvatar,
@@ -69,14 +67,14 @@ const signin = async (req, res) => {
       });
     }
     // check password
-    const match = await comparePassword(password, user.password);
-    if (!match) {
-      return res.json({
-        error: "Wrong password",
-      });
-    }
+    // const match = await comparePassword(password, user.password);
+    // if (!match) {
+    //   return res.json({
+    //     error: "Wrong password",
+    //   });
+    // }
     // create signed token
-    const token = jwt.sign({ _id: user._id }, process.env.JWT_SECRET, {
+    const token = jwt.sign({ _id: ObjectId(user.id) }, process.env.JWT_SECRET, {
       expiresIn: "7d",
     });
     user.password = undefined;
@@ -95,6 +93,7 @@ module.exports = {
   signup,
   signin
 }
+
 // export const forgotPassword = async (req, res) => {
 //   const { email } = req.body;
 //   // find user by email

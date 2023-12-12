@@ -1,16 +1,20 @@
 import { useEffect } from 'react';
 import axios from 'axios';
 import useMainState from '@redux/hooks/useMainState';
+import useMainDispatch from '@redux/hooks/useMainDispatch';
+import useGetEndpoints from '@data/hooks/useGetEndpoints';
 
 const useCreateOrGetUser = () => {
+  const { setLoggedIn } = useMainDispatch();
   const { userFormData, loggedIn } = useMainState();
+  const { getUserById } = useGetEndpoints();
 
   const handleSubmit = async () => {
-    console.log("HERE: ", loggedIn)
+    console.log("HandleSubmit: ", loggedIn)
+    // TODO: Move to createUser api
     if (!!userFormData.userId && !loggedIn) {
       try {
-        console.log("Posting api signup")
-        await axios.post('http://localhost:4000/api/signup',
+        await axios.post('http://localhost:4000/api/signin',
           {
             userId: userFormData.userId,
             name: userFormData.name,
@@ -27,20 +31,29 @@ const useCreateOrGetUser = () => {
             }
           }
         ).then(response => {
-          console.log("RESPONSE: ", response.data)
+          console.log("RESPONSE: ", response.data);
+          setLoggedIn(true);
+        })
+        .catch(error => {
+          console.log("Error createUser: ", error);
         })
       }
       catch (error) {
-        console.log("Error posting signup: ", error)
+        console.log("Error createUser: ", error)
       }
     }
   };
 
   useEffect(() => {
-    console.log("userFormData: ", userFormData)
-    console.log("\n")
     if (!!userFormData.userId) {
-      handleSubmit();
+      const user = getUserById({ userId: userFormData.userId });
+
+      if (!user) {
+        handleSubmit();
+      }
+      else {
+        setLoggedIn(true);
+      }
     }
   }, [userFormData])
 };

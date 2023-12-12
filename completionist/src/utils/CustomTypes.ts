@@ -15,3 +15,5 @@ export type FontAwesomeType =
   | 'check-circle';
 
 export type IconType = MaterialIconsType | IoniconType | FontAwesomeType;
+
+export type ButtonType = 'default' | 'text';

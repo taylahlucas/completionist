@@ -5,15 +5,14 @@ import StyledText from '@components/general/Text/StyledText.native';
 import LoginForm from '@components/custom/LoginForm/LoginForm.native';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import LoginFormSignInButtons from '@components/custom/LoginForm/LoginFormSignInButtons.native';
+import NavigationHeader from '@navigation/NavigationHeader.native';
 
 const Signup = () => {
-  const theme = useGetTheme();
-
   return (
     <StandardLayout>
-      <StyledText color={theme.lightestGrey}>Completionist.</StyledText>
+      <NavigationHeader title={'Completionist.'} leftAction={'back'} />
       <ScrollView contentInsetAdjustmentBehavior="automatic">
-          <View style={{ height: '100%' }}>
+          <View style={{ height: '100%', alignItems: 'center' }}>
             <LoginForm />
             <LoginFormSignInButtons />
           </View>

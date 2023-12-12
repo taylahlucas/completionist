@@ -65,7 +65,9 @@ export interface EnvironmentConfig {
 
 export type RootDrawerParamList = {
   RootStackNavigator: undefined;
+  // Landing: undefined;
   Login: undefined;
+  Signup: undefined;
   Quests: undefined;
   Collectables: undefined;
   Miscellaneous: undefined;
