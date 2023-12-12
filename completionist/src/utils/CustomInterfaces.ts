@@ -29,9 +29,10 @@ export interface Location {
   isComplete?: boolean;
 }
 
-export interface Book {
+export interface MiscItem {
   id: string;
   name: string;
+  type: string;
   isComplete?: boolean;
 }
 
@@ -57,7 +58,7 @@ export interface EnvironmentConfig {
   APP_ID: string;
   ACCESS_TOKEN: string;
   GRAPHQL_ENDPOINT: string;
-  WEB_CLIENT_ID: string;
+  GOOGLE_CLIENT_ID: string;
 }
 
 // Navigation Interfaces
@@ -67,7 +68,7 @@ export type RootDrawerParamList = {
   Login: undefined;
   Quests: undefined;
   Collectables: undefined;
-  Books: undefined;
+  Miscellaneous: undefined;
   Locations: undefined;
 };
 

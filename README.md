@@ -43,8 +43,20 @@ npx react-native run-ios --port 8002
 - @apollo/client
 
 
+
+
 ## Backend
 
 - mongoose
 - express
 - dotenv
+- jsonwebtoken
+
+// FOR BE OR FE?
+- mongoose
+- express
+- body-parser
+- express-session
+- passport
+- poassport-google-oauth20
+- crypto

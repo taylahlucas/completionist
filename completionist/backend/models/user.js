@@ -6,25 +6,25 @@ const userSchema = new mongoose.Schema({
   email: String,
   userAvatar: String,
   subscription: [{
-    id: mongoose.Types.ObjectId,
+    id: String,
     isActive: Boolean,
   }],
   data: {
     skyrim: {
       quests: {
-        id: mongoose.Types.ObjectId,
+        id: String,
         isComplete: Boolean,
       },
       collectables: {
-        id: mongoose.Types.ObjectId,
+        id: String,
         isComplete: Boolean,
       },
       books: {
-        id: mongoose.Types.ObjectId,
+        id: String,
         isComplete: Boolean,
       },
       locations: {
-        id: mongoose.Types.ObjectId,
+        id: String,
         isComplete: Boolean,
       },
     },

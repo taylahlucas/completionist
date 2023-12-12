@@ -1,27 +1,90 @@
 require('dotenv').config()
 const express = require('express');
-const { ApolloServer } = require('apollo-server-express');
+const session = require('express-session');
+const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
-const resolvers = require('./graphql/resolvers');
-const typeDefs = require('./graphql/schema');
+const passport = require('passport');
+const GoogleStrategy = require('passport-google-oauth20').Strategy;
+const authRoutes = require('./routes/auth');
 
-const PORT = process.env.PORT || 5001;
+const PORT = process.env.PORT || 4002;
 
-const uri = process.env.MONGO_URL;
-
-mongoose.connect(uri);
-
-const server = new ApolloServer({ typeDefs, resolvers })
 const app = express();
 
-async function startServer() {
-  await server.start();
+mongoose.connect(process.env.MONGO_URL)
+  .then(() => console.log("DB connected"))
+  .catch((err) => console.log("DB connection error: ", err))
 
-  server.applyMiddleware({ app });
+// Passport Configuration
 
-  app.listen(PORT, () => {
-    console.log(`Server is running on port http://localhost:${PORT}${server.graphqlPath}`);
-  });
-}
+// passport.use(new GoogleStrategy({
+//   clientID: process.env.GOOGLE_CLIENT_WEB_ID,
+//   clientSecret: process.env.GOOGLE_CLIENT_SECRET
+// },
+// (accessToken, refreshToken, profile, done) => {
+//   User.findOne({ googleId: profile.id }, (err, user) => {
+//     if (err) return done(err);
+//     if (!user) {
+//       const newUser = new User({
+//         googleId: profile.id,
+//         displayName: profile.displayName,
+//       });
+//       newUser.save((saveErr) => {
+//         if (saveErr) return done(saveErr);
+//         return done(null, newUser);
+//       });
+//     } else {
+//       return done(null, user);
+//     }
+//   });
+// }));
 
-startServer();
+// passport.serializeUser((user, done) => {
+//   done(null, user.id);
+// });
+
+// passport.deserializeUser((id, done) => {
+//   User.findById(id, (err, user) => {
+//     done(err, user);
+//   });
+// });
+
+// app.use(bodyParser.urlencoded({ extended: true }));
+// app.use(bodyParser.json());
+
+// app.use(session({
+//   secret: process.env.SESSION_SECRET,
+//   resave: false,
+//   saveUninitialized: true,
+// }));
+
+// app.use(passport.initialize());
+// app.use(passport.session());
+app.use('/api', authRoutes);
+
+// Google Sign-In Route
+
+// app.get('/auth/google',
+//   passport.authenticate('google', { scope: ['profile'] }));
+
+// app.get('/auth/google/callback',
+//   passport.authenticate('google', { failureRedirect: '/' }),
+//   (req, res) => {
+//     res.redirect('/');
+//   });
+
+// // Check if the user is authenticated
+
+// const isAuthenticated = (req, res, next) => {
+//   if (req.isAuthenticated()) return next();
+//   res.redirect('/');
+// };
+
+// // Example protected route
+// app.get('/protected', isAuthenticated, (req, res) => {
+//   res.send('This is a protected route.');
+// });
+
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
+});

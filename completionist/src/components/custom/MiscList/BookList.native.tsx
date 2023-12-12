@@ -1,7 +1,7 @@
 import React from 'react';
-import books from '../../../../backend/database/skyrim_books.json';
+import misc from '../../../../backend/database/skyrim_misc.json';
 import ScrollableList from '@components/general/Lists/ScrollableList.native';
-import { Book } from '@utils/CustomInterfaces';
+import { MiscItem } from '@utils/CustomInterfaces';
 import useMainState from '@redux/hooks/useMainState';
 import useSearchStringFormatter from '@utils/hooks/useSearchStringFormatter';
 import useCheckBookComplete from './hooks/useCheckBookComplete.native';
@@ -12,12 +12,12 @@ const BookList = () => {
   const { setCompletedBookIds } = useMainDispatch();
   const { searchValue, completedBookIds } = useMainState();
   const getFormattedSearchString = useSearchStringFormatter();
-  const filteredBooks: Book[] = books.filter(book => getFormattedSearchString(book.name).includes(getFormattedSearchString(searchValue)));
+  const filteredBooks: MiscItem[] = misc.filter(misc => getFormattedSearchString(misc.name).includes(getFormattedSearchString(searchValue)));
   const { checkBookComplete } = useCheckBookComplete();
   
   return (
     <ScrollableList>
-      {filteredBooks.map((book: Book, index: number) => (
+      {filteredBooks.map((book: MiscItem, index: number) => (
         <ListItem
           key={index} 
           id={book.id}

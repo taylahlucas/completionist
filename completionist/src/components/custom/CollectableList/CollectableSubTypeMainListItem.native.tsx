@@ -1,7 +1,7 @@
 import React from 'react';
 import { CollectableListSubItemContainer } from './CollectableListStyledComponents.native';
-import useGetCollectables from './hooks/useGetColletables.native';
-import useCheckCollectableComplete from './hooks/useCheckCollectableComplete.native';
+import useGetCollectables from './hooks/useGetCollectables';
+import useCheckCollectableComplete from './hooks/useCheckCollectableComplete';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
 import useMainState from '@redux/hooks/useMainState';
 import ListItem from '@components/general/Lists/ListItem.native';

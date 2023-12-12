@@ -2,11 +2,17 @@ Creation Club quests
 DLC Quests
 Conflicting quests
 
-
-Locations & Books
+Locations
 {
   id: generated_uuid
   name: string
+}
+
+Miscellaneous
+{
+  id: generated_uuid
+  name: string,
+  type: string
 }
 
 Collectables

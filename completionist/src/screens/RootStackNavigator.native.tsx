@@ -16,9 +16,11 @@ const RootStackNavigator = () => {
 
   useEffect(() => {
     const subscription = AppState.addEventListener('change', nextAppState => {
+      // App opening, read data
       if (nextAppState === 'active') {
         // Read data
       }
+      // App closing, upload data
       else if (nextAppState === 'inactive') {
         uploadData();
       }

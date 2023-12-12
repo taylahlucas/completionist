@@ -3,10 +3,10 @@ import { CollectableListSubItemContainer } from './CollectableListStyledComponen
 import useGetTheme from '@styles/hooks/useGetTheme';
 import Dropdown from '@components/general/Dropdown/Dropdown.native';
 import StyledText from '@components/general/Text/StyledText.native';
-import useGetCollectables from './hooks/useGetColletables.native';
+import useGetCollectables from './hooks/useGetCollectables';
 import useMainState from '@redux/hooks/useMainState';
 import ListItem from '@components/general/Lists/ListItem.native';
-import useCheckCollectableComplete from './hooks/useCheckCollectableComplete.native';
+import useCheckCollectableComplete from './hooks/useCheckCollectableComplete';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
 
 export interface CollectableSubTypeListItemProps {
@@ -25,7 +25,7 @@ const CollectableSubTypeListItem = ({ category, type }: CollectableSubTypeListIt
 
   return (
     <Dropdown
-    isOpen={isOpen || showSearchResults}
+      isOpen={isOpen || showSearchResults}
       setOpen={() => setIsOpen(!isOpen)}
       header={
         <StyledText align={'left'} type={'ListItemSubTitleBold'} color={theme.lightGrey} style={{ padding: 16, marginLeft: 32 }}>{type}</StyledText>

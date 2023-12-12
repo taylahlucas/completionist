@@ -1,6 +1,6 @@
 import StyledText from '@components/general/Text/StyledText.native';
 import { createDrawerNavigator } from '@react-navigation/drawer';
-import Books from '@screens/Books.native';
+import Miscellaneous from '@screens/Miscellaneous.native';
 import Collectables from '@screens/Collectables.native';
 import Locations from '@screens/Locations.native';
 import Login from '@screens/Login.native';
@@ -37,7 +37,7 @@ const NavigationDrawer = () => {
       <Drawer.Screen name={ScreenEnum.Login} component={Login} />
       <Drawer.Screen name={ScreenEnum.Quests} component={Quests} />
       <Drawer.Screen name={ScreenEnum.Collectables} component={Collectables} />
-      <Drawer.Screen name={ScreenEnum.Books} component={Books} />
+      <Drawer.Screen name={ScreenEnum.Miscellaneous} component={Miscellaneous} />
       <Drawer.Screen name={ScreenEnum.Locations} component={Locations} />
     </Drawer.Navigator>
   );

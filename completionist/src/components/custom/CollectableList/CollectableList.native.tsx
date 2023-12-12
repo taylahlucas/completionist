@@ -2,11 +2,11 @@ import React, { useEffect } from 'react';
 import { getCollectableCategories } from '@data/functions';
 import ScrollableList from '@components/general/Lists/ScrollableList.native';
 import CollectableMainListItem from './CollectableMainListItem.native';
-import useGetCollectables from './hooks/useGetColletables.native';
+import useGetCollectables from './hooks/useGetCollectables';
 import Condition from '@components/general/Condition.native';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
 import useMainState from '@redux/hooks/useMainState';
-import useCheckCollectableComplete from './hooks/useCheckCollectableComplete.native';
+import useCheckCollectableComplete from './hooks/useCheckCollectableComplete';
 
 const CollectableList = () => {
   const { triggerShowSearchResults } = useMainDispatch();

@@ -6,9 +6,9 @@ import { CollectableListSubListContainer } from './CollectableListStyledComponen
 import ListHeader from '@components/general/Lists/ListHeader.native';
 import CollectableSubListItem from './CollectableSubListItem.native';
 import CollectableSubTypeMainListItem from './CollectableSubTypeMainListItem.native';
-import useGetCollectables from './hooks/useGetColletables.native';
+import useGetCollectables from './hooks/useGetCollectables';
 import useMainState from '@redux/hooks/useMainState';
-import useCheckCollectableComplete from './hooks/useCheckCollectableComplete.native';
+import useCheckCollectableComplete from './hooks/useCheckCollectableComplete';
 
 export interface CollectableMainListItemProps {
   category: string;

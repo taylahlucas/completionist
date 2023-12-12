@@ -25,9 +25,9 @@ const useGetLoginMethods = () => {
       const { idToken } = await GoogleSignin.signIn();
       const googleCredential = auth.GoogleAuthProvider.credential(idToken);
 
-      return auth().signInWithCredential(googleCredential)
+      return auth()
+        .signInWithCredential(googleCredential)
         .then((response) => {
-          console.log("RESPONSE: ", response)
           if (!!response?.user?.displayName && !!response.user?.email) {
             setUserFormData({
               userId: response?.user?.uid,
@@ -65,15 +65,6 @@ const useGetLoginMethods = () => {
       console.error(error);
     }
   };
-
-  useEffect(() => {
-    GoogleSignin.configure({
-      scopes: ['email'], // what API you want to access on behalf of the user, default is email and profile
-      webClientId:
-        '418977770929-g9ou7r9eva1u78a3anassxxxxxxx.apps.googleusercontent.com', // client ID of type WEB for your server (needed to verify user ID and offline access)
-      offlineAccess: true, // if you want to access Google API on behalf of the user FROM YOUR SERVER
-    });
-  }, []);
 
   return { signIn, signOut }
 };
