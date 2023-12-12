@@ -82,7 +82,7 @@ export interface NativeNavigation {
   setOptions: (options: any) => void;
 }
 
-// GraphQL Interfaces
+// Data Interfaces
 
 export interface Item {
   id: string;
@@ -92,8 +92,8 @@ export interface Item {
 export interface SkyrimData {
   quests: Item[];
   collectables: Item[];
-  books: Item[];
   locations: Item[];
+  miscellaneous: Item[];
 }
 
 export interface UserData {

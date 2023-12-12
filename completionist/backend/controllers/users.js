@@ -1,8 +1,9 @@
-const getUserById = async (req, res) => {
-  const userId = req.params.userId;
+const User = require('../models/user');
 
+const getUserByUserId = async (req, res) => {
+  const userId = req.params.userId;
   try {
-    const user = await db.collection('users').findOne({ _id: ObjectId(userId) });
+    const user = await User.findOne({ userId: userId });
     if (user) {
       res.json(user);
     } else {
@@ -14,6 +15,32 @@ const getUserById = async (req, res) => {
   }
 };
 
+const updateUserData = async (req, res) => {
+  console.log("BE: ", req.body)
+  const { userId, skyrimData } = req.body;
+
+  try {
+    //Error getUserById:  [TypeError: Cannot read property 'skyrim' of undefined]
+
+    const result = await User.updateOne({ 
+      userId: userId,
+      data: {
+        skyrim: skyrimData
+      }
+     });
+     if (result.matchedCount > 0) {
+      console.log(`User with ID ${userId} updated successfully`);
+    } else {
+      console.log(`User with ID ${userId} not found`);
+    }
+  }
+  catch(error) {
+    console.log("Error updating user data: ", error);
+  }
+
+};
+
 module.exports = {
-  getUserById
+  getUserByUserId,
+  updateUserData
 }

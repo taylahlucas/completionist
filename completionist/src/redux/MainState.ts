@@ -4,7 +4,7 @@ import { UserFormData } from '@utils/CustomInterfaces';
 
 export interface MainState {
   readonly webSignInConfigured: boolean;
-  readonly loggedIn: boolean;
+  readonly isLoggedIn: boolean;
   readonly userFormData: UserFormData;
   readonly searchValue: string;
   readonly showSearchResults: boolean;
@@ -16,7 +16,7 @@ export interface MainState {
 
 export const initialState: MainState = {
   webSignInConfigured: false,
-  loggedIn: false,
+  isLoggedIn: false,
   userFormData: {
     userId: '',
     name: '',
@@ -44,7 +44,7 @@ const slice = createSlice({
       state.webSignInConfigured = action.payload;
     },
     setLoggedIn: (state, action) => {
-      state.loggedIn = action.payload;
+      state.isLoggedIn = action.payload;
     },
     setUserFormData: (state, action) => {
       state.userFormData = action.payload;

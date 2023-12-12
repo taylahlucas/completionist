@@ -1,6 +1,7 @@
 require("dotenv").config();
 const User = require('../models/user');
 const jwt = require('jsonwebtoken');
+const mongoose = require('mongoose');
 //{ hashPassword, comparePassword }
 // const authFunction = require("../helpers/auth")
 // sendgrid
@@ -29,9 +30,8 @@ const signup = async (req, res) => {
     // hash password
     // const hashedPassword = await hashPassword(password);
     try {
-      const _id = ObjectId(userId);
       const user = await new User({
-        _id,
+        userId,
         name,
         email,
         userAvatar,
@@ -39,7 +39,7 @@ const signup = async (req, res) => {
         data
       }).save();
       // create signed token
-      const token = jwt.sign({ _id: user._id }, process.env.JWT_SECRET, {
+      const token = jwt.sign({ _id: new mongoose.Types.ObjectId() }, process.env.JWT_SECRET, {
         expiresIn: "7d",
       });
       const { password, ...rest } = user._doc;
@@ -74,7 +74,7 @@ const signin = async (req, res) => {
     //   });
     // }
     // create signed token
-    const token = jwt.sign({ _id: ObjectId(user.id) }, process.env.JWT_SECRET, {
+    const token = jwt.sign({ _id: new mongoose.Types.ObjectId() }, process.env.JWT_SECRET, {
       expiresIn: "7d",
     });
     user.password = undefined;

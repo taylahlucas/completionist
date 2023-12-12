@@ -1,59 +1,64 @@
 import { useEffect } from 'react';
-import axios from 'axios';
 import useMainState from '@redux/hooks/useMainState';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
-import useGetEndpoints from '@data/hooks/useGetEndpoints';
+import useEndpoints from '@data/hooks/useEndpoints';
+import useKeychain from '@data/hooks/useKeychain.native';
+import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
+import { ScreenEnum } from '@utils/CustomEnums';
 
 const useCreateOrGetUser = () => {
+  const navigation = useReactNavigation();
   const { setLoggedIn } = useMainDispatch();
-  const { userFormData, loggedIn } = useMainState();
-  const { getUserById } = useGetEndpoints();
-
-  const handleSubmit = async () => {
-    console.log("HandleSubmit: ", loggedIn)
-    // TODO: Move to createUser api
-    if (!!userFormData.userId && !loggedIn) {
-      try {
-        await axios.post('http://localhost:4000/api/signin',
-          {
-            userId: userFormData.userId,
-            name: userFormData.name,
-            email: userFormData.email,
-            userAvatar: userFormData.userAvatar,
-            subscription: userFormData.subscription,
-            data: {
-              skyrim: {
-                quests: [],
-                collectables: [],
-                misc: [],
-                locations: []
-              }
-            }
-          }
-        ).then(response => {
-          console.log("RESPONSE: ", response.data);
-          setLoggedIn(true);
-        })
-        .catch(error => {
-          console.log("Error createUser: ", error);
-        })
-      }
-      catch (error) {
-        console.log("Error createUser: ", error)
-      }
-    }
-  };
+  const { userFormData, isLoggedIn } = useMainState();
+  const { createUser, getUserByUserId } = useEndpoints();
+  const { getCredentials, storeCredentials, checkIfCredentialsExist } = useKeychain();
 
   useEffect(() => {
-    if (!!userFormData.userId) {
-      const user = getUserById({ userId: userFormData.userId });
+    if (!!userFormData.userId && !isLoggedIn) {
+      // TODO: Fix login/signup flow
+        // getCredentials()
+        //   .then(credentials => {
+        //     if (!!credentials?.password) {
+        //       const exists = checkIfCredentialsExist(credentials?.password);
+        //       if (!exists) {
+        //         storeCredentials({
+        //           username: userFormData.name, 
+        //           password: userFormData.userId
+        //         });
+        //       }
+        //       setLoggedIn(true);
+        //     }
+        //   })
 
-      if (!user) {
-        handleSubmit();
-      }
-      else {
-        setLoggedIn(true);
-      }
+
+      getUserByUserId({ userId: userFormData.userId })
+        .then((response) => {
+          if (!response) {
+            createUser({ data: userFormData })
+              .then(() => {
+                navigation.navigate(ScreenEnum.Quests);
+                setLoggedIn(true);
+              });
+          }
+          else {
+            getCredentials()
+              .then(credentials => {
+                if (!!credentials?.password) {
+                  const exists = checkIfCredentialsExist(credentials?.password);
+                  if (!exists) {
+                    storeCredentials({
+                      username: userFormData.name, 
+                      password: userFormData.userId
+                    });
+                  }
+                  setLoggedIn(true);
+                }
+              })
+          }
+        })
+        .catch((error) => {
+          console.log("error: ", error)
+        }); 
     }
   }, [userFormData])
 };

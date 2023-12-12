@@ -1,9 +1,5 @@
 import useMainState from '@redux/hooks/useMainState';
-import userData from './userData.json';
 
-// const filePath = './userData.json';
-// const fs = require('fs');
-// https://www.mongodb.com/docs/atlas/app-services/graphql/
 interface UserData {
   data: SkyrimData
 }
@@ -15,7 +11,7 @@ interface SkyrimData {
 interface GeneralData {
   quests: Item[],
   collectables: Item[]
-  books: Item[]
+  miscellaneous: Item[]
   locations: Item[]
 }
 

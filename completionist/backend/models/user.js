@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 const userSchema = new mongoose.Schema({
-  _id: String,
+  userId: String,
   name: String,
   email: String,
   userAvatar: String,
@@ -19,7 +19,7 @@ const userSchema = new mongoose.Schema({
         id: String,
         isComplete: Boolean,
       },
-      books: {
+      miscellaneous: {
         id: String,
         isComplete: Boolean,
       },
