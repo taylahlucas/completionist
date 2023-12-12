@@ -21,10 +21,10 @@ interface UpdateUserDataProps {
 const useEndpoints = () => {
   const navigation = useReactNavigation();
   const {
-    setCompletedQuestIds,
+    setcompletedQuests,
     setCompletedCollectableIds,
-    setCompletedBookIds,
-    setCompletedLocationIds,
+    setcompletedMiscItems,
+    setcompletedLocations,
     setLoggedIn
   } = useMainDispatch();
   const { storeCredentials } = useKeychain();
@@ -62,22 +62,28 @@ const useEndpoints = () => {
     })
   };
 
-  const getUserByUserId = async ({ userId }: GetUserByUserIdProps) => {
-    await axios.get(`http://localhost:4000/users/${userId}`)
+  const getUserByUserId = async ({ userId }: GetUserByUserIdProps): Promise<(User | null)> => {
+   return  await axios.get(`http://localhost:4000/users/${userId}`)
       .then(response => {
         const user = response.data as User;
         // Store user in cache
         if (!!user) {
-          setLoggedIn(true);
-          setCompletedQuestIds(user.data.skyrim.quests.map(item => item.id));
-          setCompletedCollectableIds(user.data.skyrim.collectables.map(item => item.id));
-          setCompletedLocationIds(user.data.skyrim.locations.map(item => item.id));
-          setCompletedBookIds(user.data.skyrim.miscellaneous.map(item => item.id));
-          navigation.navigate(ScreenEnum.Quests) 
+          return user;
+          // setLoggedIn(true);
+          // setcompletedQuests(user.data.skyrim.quests.map(item => item.id));
+          // setCompletedCollectableIds(user.data.skyrim.collectables.map(item => item.id));
+          // setcompletedLocations(user.data.skyrim.locations.map(item => item.id));
+          // setcompletedMiscItems(user.data.skyrim.miscellaneous.map(item => item.id));
+          // navigation.navigate(ScreenEnum.Quests) 
+        }
+        else {
+          console.log("getUserByUserId Could not cast to User");
+          return null;
         }
       })
       .catch(error => {
-        console.log("Error getUserById: ", error);
+        console.log("Error getUserByUserId: ", error);
+        return null;
       });
   };
 

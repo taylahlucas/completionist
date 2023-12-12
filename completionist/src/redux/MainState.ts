@@ -1,17 +1,35 @@
 import { createSlice } from '@reduxjs/toolkit';
 import { SubscriptionTypeEnum } from '@utils/CustomEnums';
-import { UserFormData } from '@utils/CustomInterfaces';
+import { User, UserFormData } from '@utils/CustomInterfaces';
+
+const initialUser: User = {
+  userId: '',
+  name: '',
+  email: '',
+  userAvatar: '',
+  subscription: [
+    {
+      id: SubscriptionTypeEnum.SKYRIM,
+      isActive: true
+    }
+  ],
+  data: {
+    skyrim: {
+      quests: [],
+      collectables: [],
+      locations: [],
+      miscellaneous: []
+    }
+  }
+}
 
 export interface MainState {
   readonly webSignInConfigured: boolean;
   readonly isLoggedIn: boolean;
   readonly userFormData: UserFormData;
+  readonly user: User;
   readonly searchValue: string;
   readonly showSearchResults: boolean;
-  readonly completedQuestIds: string[];
-  readonly completedCollectableIds: string[];
-  readonly completedBookIds: string[];
-  readonly completedLocationIds: string[];
 }
 
 export const initialState: MainState = {
@@ -28,12 +46,9 @@ export const initialState: MainState = {
       }
     ]
   },
+  user: initialUser,
   searchValue: '',
-  showSearchResults: false,
-  completedQuestIds: [],
-  completedCollectableIds: [],
-  completedBookIds: [],
-  completedLocationIds: []
+  showSearchResults: false
 }
 
 const slice = createSlice({
@@ -49,23 +64,26 @@ const slice = createSlice({
     setUserFormData: (state, action) => {
       state.userFormData = action.payload;
     },
+    setUser: (state, action) => {
+      state.user = action.payload;
+    },
     setSearchValue: (state, action) => {
       state.searchValue = action.payload;
     },
     triggerShowSearchResults: (state, action) => {
       state.showSearchResults = action.payload;
     },
-    setCompletedQuestIds: (state, action) => {
-      state.completedQuestIds = action.payload;
+    setCompletedQuests: (state, action) => {
+      state.user.data.skyrim.quests = action.payload;
     },
-    setCompletedCollectableIds: (state, action) => {
-      state.completedCollectableIds = action.payload;
+    setCompletedCollectables: (state, action) => {
+      state.user.data.skyrim.collectables = action.payload;
     },
-    setCompletedBookIds: (state, action) => {
-      state.completedBookIds = action.payload;
+    setCompletedLocations: (state, action) => {
+      state.user.data.skyrim.locations = action.payload;
     },
-    setCompletedLocationIds: (state, action) => {
-      state.completedLocationIds = action.payload;
+    setCompletedMiscItems: (state, action) => {
+      state.user.data.skyrim.miscellaneous = action.payload;
     },
     reset: (state) => {
       state.searchValue = initialState.searchValue;
@@ -78,12 +96,13 @@ export const {
   setWebSignInConfigured,
   setLoggedIn,
   setUserFormData,
+  setUser,
   setSearchValue,
   triggerShowSearchResults,
-  setCompletedQuestIds,
-  setCompletedCollectableIds,
-  setCompletedBookIds,
-  setCompletedLocationIds,
+  setCompletedQuests,
+  setCompletedCollectables,
+  setCompletedMiscItems,
+  setCompletedLocations,
   reset
 } = slice.actions;
 export default slice.reducer;

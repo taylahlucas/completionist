@@ -7,17 +7,17 @@ interface CheckCollectableCompleteReturnType {
 }
 
 const useCheckCollectableComplete = (): CheckCollectableCompleteReturnType => {
-  const { completedCollectableIds } = useMainState();
+  const { user } = useMainState();
 
   const checkCollectableComplete = (id: string): boolean => {
-    return !!completedCollectableIds.find(collectableId => collectableId === id)
+    return !!user.data.skyrim.collectables.find(item => item.id === id);
   };
 
   const checkCollectablesCompleteForCategory = (collectables: Collectable[]): number => {
     let count = 0;
-    completedCollectableIds.forEach((collectableId) => {
-      collectables.forEach((collectable) => {
-        if (collectableId === collectable.id) {
+    user.data.skyrim.collectables.forEach((collectable) => {
+      collectables.forEach((item) => {
+        if (collectable.id === item.id) {
           count += 1;
         }
       });

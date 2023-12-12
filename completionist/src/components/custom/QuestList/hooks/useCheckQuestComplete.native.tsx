@@ -7,15 +7,15 @@ interface CheckQuestCompleteReturnType {
 }
 
 const useCheckQuestComplete = (): CheckQuestCompleteReturnType => {
-  const { completedQuestIds } = useMainState();
+  const { completedQuests } = useMainState();
 
   const checkQuestComplete = (id: string): boolean => {
-    return !!completedQuestIds.find(questId => questId === id)
+    return !!completedQuests.find(questId => questId === id)
   };
 
   const checkQuestsCompleteForCategory = (quests: SkyrimQuest[]): number => {
     let count = 0;
-    completedQuestIds.forEach((questId) => {
+    completedQuests.forEach((questId) => {
       quests.forEach((quest) => {
         if (questId === quest.id) {
           count += 1;

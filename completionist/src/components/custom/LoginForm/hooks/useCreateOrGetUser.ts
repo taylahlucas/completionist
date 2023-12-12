@@ -15,6 +15,7 @@ const useCreateOrGetUser = () => {
 
   useEffect(() => {
     if (!!userFormData.userId && !isLoggedIn) {
+      console.log("Calling getUserByUserId")
       // TODO: Fix login/signup flow
         // getCredentials()
         //   .then(credentials => {
@@ -30,35 +31,41 @@ const useCreateOrGetUser = () => {
         //     }
         //   })
 
-
       getUserByUserId({ userId: userFormData.userId })
-        .then((response) => {
-          if (!response) {
-            createUser({ data: userFormData })
-              .then(() => {
-                navigation.navigate(ScreenEnum.Quests);
-                setLoggedIn(true);
-              });
+        .then(user => {
+          console.log("USER: ", user)
+          if (!!user) {
+
           }
-          else {
-            getCredentials()
-              .then(credentials => {
-                if (!!credentials?.password) {
-                  const exists = checkIfCredentialsExist(credentials?.password);
-                  if (!exists) {
-                    storeCredentials({
-                      username: userFormData.name, 
-                      password: userFormData.userId
-                    });
-                  }
-                  setLoggedIn(true);
-                }
-              })
-          }
-        })
-        .catch((error) => {
-          console.log("error: ", error)
-        }); 
+        });
+
+      // getUserByUserId({ userId: userFormData.userId })
+      //   .then((response) => {
+      //     if (!response) {
+      //       createUser({ data: userFormData })
+      //         .then(() => {
+      //           navigation.navigate(ScreenEnum.Quests);
+      //         });
+      //     }
+      //     else {
+      //       getCredentials()
+      //         .then(credentials => {
+      //           if (!!credentials?.password) {
+      //             const exists = checkIfCredentialsExist(credentials?.password);
+      //             if (!exists) {
+      //               storeCredentials({
+      //                 username: userFormData.name, 
+      //                 password: userFormData.userId
+      //               });
+      //             }
+      //             setLoggedIn(true);
+      //           }
+      //         })
+      //     }
+      //   })
+      //   .catch((error) => {
+      //     console.log("error: ", error)
+      //   }); 
     }
   }, [userFormData])
 };

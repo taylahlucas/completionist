@@ -8,14 +8,14 @@ import { mappedQuests } from '@data/functions';
 import useMainState from '@redux/hooks/useMainState';
 
 const Quests = () => {
-  const { completedQuestIds } = useMainState();
+  const { completedQuests } = useMainState();
 
   return (
     <StandardLayout>
       <NavigationHeader title={'Quests'} />
       <CustomSearchBar />
       <StyledText style={{ marginTop: 16 }} type={'ListItemTitleBold'}>
-        {`${completedQuestIds.length}/${mappedQuests.length}`}
+        {`${completedQuests.length}/${mappedQuests.length}`}
       </StyledText>
       <QuestList />
     </StandardLayout>

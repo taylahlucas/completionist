@@ -8,10 +8,13 @@ import StyledText from '@components/general/Text/StyledText.native';
 import Button from '@components/general/Button/Button.native';
 import { ScreenEnum } from '@utils/CustomEnums';
 import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
+import useCreateOrGetUser from '@components/custom/LoginForm/hooks/useCreateOrGetUser';
 
 const Login = () => {
   const navigation = useReactNavigation();
   const theme = useGetTheme();
+
+  useCreateOrGetUser();
 
   // TODO: Add to styled components
   return (

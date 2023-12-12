@@ -1,15 +1,16 @@
-import { UserFormData } from '@utils/CustomInterfaces';
+import { Item, User, UserFormData } from '@utils/CustomInterfaces';
 import { Dispatch } from 'redux';
 import { 
   setWebSignInConfigured,
   setLoggedIn,
   setUserFormData,
+  setUser,
   setSearchValue, 
   triggerShowSearchResults, 
-  setCompletedQuestIds,
-  setCompletedCollectableIds,
-  setCompletedBookIds,
-  setCompletedLocationIds,
+  setCompletedQuests,
+  setCompletedCollectables,
+  setCompletedMiscItems,
+  setCompletedLocations,
   reset
 } from '../MainState';
 import { useAppDispatch } from '../store';
@@ -18,12 +19,13 @@ interface MainDispatch {
   setWebSignInConfigured: (value: boolean) => void;
   setLoggedIn: (value: boolean) => void;
   setUserFormData: (value: UserFormData) => void;
+  setUser: (value: User) => void;
   setSearchValue: (value: string) => void;
   triggerShowSearchResults: (value: boolean) => void;
-  setCompletedQuestIds: (value: string[]) => void;
-  setCompletedCollectableIds: (value: string[]) => void;
-  setCompletedBookIds: (value: string[]) => void;
-  setCompletedLocationIds: (value: string[]) => void;
+  setCompletedQuests: (value: Item[]) => void;
+  setCompletedCollectables: (value: Item[]) => void;
+  setCompletedMiscItems: (value: Item[]) => void;
+  setCompletedLocations: (value: Item[]) => void;
   reset: () => void;
 }
 
@@ -40,23 +42,26 @@ const useMainDispatch = (): MainDispatch => {
     setUserFormData(value: UserFormData): void {
       dispatch(setUserFormData(value));
     },
+    setUser(value: User): void {
+      dispatch(setUser(value));
+    },
     setSearchValue(value: string): void {
       dispatch(setSearchValue(value));
     },
     triggerShowSearchResults(value: boolean): void {
       dispatch(triggerShowSearchResults(value));
     },
-    setCompletedQuestIds(value: string[]): void {
-      dispatch(setCompletedQuestIds(value));
+    setCompletedQuests(value: Item[]): void {
+      dispatch(setCompletedQuests(value));
     },
-    setCompletedCollectableIds(value: string[]): void {
-      dispatch(setCompletedCollectableIds(value));
+    setCompletedCollectables(value: Item[]): void {
+      dispatch(setCompletedCollectables(value));
     },
-    setCompletedBookIds(value: string[]): void {
-      dispatch(setCompletedBookIds(value));
+    setCompletedMiscItems(value: Item[]): void {
+      dispatch(setCompletedMiscItems(value));
     },
-    setCompletedLocationIds(value: string[]): void {
-      dispatch(setCompletedLocationIds(value));
+    setCompletedLocations(value: Item[]): void {
+      dispatch(setCompletedLocations(value));
     },
     reset(): void {
       dispatch(reset());

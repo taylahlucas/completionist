@@ -39,10 +39,9 @@ npx react-native run-ios --port 8002
 - @react-native-google-signin/google-signin
 - @react-native-firebase/auth
 
-- graphql-request
 - @apollo/client
 
-
+- @react-native-async-storage/async-storage
 
 
 ## Backend

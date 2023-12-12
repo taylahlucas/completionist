@@ -64,17 +64,6 @@ app.use(passport.session());
 app.use('/api', authRoutes);
 app.use('/users', userRoutes);
 
-// Google Sign-In Route
-
-app.get('/auth/google',
-  passport.authenticate('google', { scope: ['profile'] }));
-
-app.get('/auth/google/callback',
-  passport.authenticate('google', { failureRedirect: '/' }),
-  (req, res) => {
-    res.redirect('/');
-  });
-
 // Check if the user is authenticated
 
 const isAuthenticated = (req, res, next) => {
@@ -86,6 +75,17 @@ const isAuthenticated = (req, res, next) => {
 app.get('/protected', isAuthenticated, (req, res) => {
   res.send('This is a protected route.');
 });
+
+// Google Sign-In Route
+
+app.get('/auth/google',
+  passport.authenticate('google', { scope: ['profile'] }));
+
+app.get('/auth/google/callback',
+  passport.authenticate('google', { failureRedirect: '/' }),
+  (req, res) => {
+    res.redirect('/');
+  });
 
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);

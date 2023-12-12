@@ -8,13 +8,13 @@ import StyledText from '@components/general/Text/StyledText.native';
 import useMainState from '@redux/hooks/useMainState';
 
 const Miscellaneous = () => {
-  const { completedBookIds } = useMainState();
+  const { completedMiscItems } = useMainState();
 
   return (
     <StandardLayout>
       <NavigationHeader title={'Miscellaneous'} />
       <CustomSearchBar />
-      <StyledText style={{ marginTop: 16 }} type={'ListItemTitleBold'}>{`${completedBookIds.length}/${books.length}`}</StyledText>
+      <StyledText style={{ marginTop: 16 }} type={'ListItemTitleBold'}>{`${completedMiscItems.length}/${books.length}`}</StyledText>
       <MiscList />
     </StandardLayout>
   );

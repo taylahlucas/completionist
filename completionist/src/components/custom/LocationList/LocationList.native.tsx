@@ -9,8 +9,8 @@ import useMainDispatch from '@redux/hooks/useMainDispatch';
 import ListItem from '@components/general/Lists/ListItem.native';
 
 const LocationList = () => {
-  const { setCompletedLocationIds } = useMainDispatch();
-  const { searchValue, completedLocationIds } = useMainState();
+  const { setcompletedLocations } = useMainDispatch();
+  const { searchValue, completedLocations } = useMainState();
   const getFormattedSearchString = useSearchStringFormatter();
   const filteredLocations: Location[] = locations.filter(location => getFormattedSearchString(location.name).includes(getFormattedSearchString(searchValue)));
   const { checkLocationComplete } = useCheckLocationComplete();
@@ -26,11 +26,11 @@ const LocationList = () => {
           isComplete={checkLocationComplete({ id: location.id })}
           action={(): void => {
             if (checkLocationComplete({ id: location.id })) {
-              setCompletedLocationIds(completedLocationIds.filter(locationId => locationId !== location.id));
+              setcompletedLocations(completedLocations.filter(locationId => locationId !== location.id));
             }
             else {
-              const updateCompletedLocations = [...completedLocationIds, location.id]
-              setCompletedLocationIds(updateCompletedLocations);
+              const updateCompletedLocations = [...completedLocations, location.id]
+              setcompletedLocations(updateCompletedLocations);
             }
           }}
         />

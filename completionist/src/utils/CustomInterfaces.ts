@@ -106,7 +106,7 @@ export interface Subscription {
 }
 
 export interface User {
-  userId: ObjectId;
+  userId: string;
   name: string;
   email: string;
   userAvatar: string;

@@ -9,8 +9,8 @@ import ListItem from '@components/general/Lists/ListItem.native';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
 
 const BookList = () => {
-  const { setCompletedBookIds } = useMainDispatch();
-  const { searchValue, completedBookIds } = useMainState();
+  const { setcompletedMiscItems } = useMainDispatch();
+  const { searchValue, completedMiscItems } = useMainState();
   const getFormattedSearchString = useSearchStringFormatter();
   const filteredBooks: MiscItem[] = misc.filter(misc => getFormattedSearchString(misc.name).includes(getFormattedSearchString(searchValue)));
   const { checkBookComplete } = useCheckBookComplete();
@@ -25,11 +25,11 @@ const BookList = () => {
           isComplete={checkBookComplete({ id: book.id })}
           action={(): void => {
             if (checkBookComplete({ id: book.id })) {
-              setCompletedBookIds(completedBookIds.filter(bookId => bookId !== book.id));
+              setcompletedMiscItems(completedMiscItems.filter(bookId => bookId !== book.id));
             }
             else {
-              const updateCompletedBooks= [...completedBookIds, book.id]
-              setCompletedBookIds(updateCompletedBooks);
+              const updateCompletedBooks= [...completedMiscItems, book.id]
+              setcompletedMiscItems(updateCompletedBooks);
             }
           }}
         />

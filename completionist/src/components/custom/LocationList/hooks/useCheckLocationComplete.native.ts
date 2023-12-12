@@ -9,10 +9,10 @@ interface CheckLocationCompleteReturnType {
 }
 
 const useCheckLocationComplete = (): CheckLocationCompleteReturnType => {
-  const { completedLocationIds } = useMainState();
+  const { completedLocations } = useMainState();
 
   const checkLocationComplete = ({ id }: CheckLocationCompleteProps): boolean => {
-    return !!completedLocationIds.find(locationId => locationId === id)
+    return !!completedLocations.find(locationId => locationId === id)
   };
 
   return { checkLocationComplete }

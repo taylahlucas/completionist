@@ -9,10 +9,10 @@ interface CheckLocationCompleteReturnType {
 }
 
 const useCheckBookComplete = (): CheckLocationCompleteReturnType => {
-  const { completedBookIds } = useMainState();
+  const { completedMiscItems } = useMainState();
 
   const checkBookComplete = ({ id }: CheckBookCompleteProps): boolean => {
-    return !!completedBookIds.find(bookId => bookId === id)
+    return !!completedMiscItems.find(bookId => bookId === id)
   };
 
   return { checkBookComplete }

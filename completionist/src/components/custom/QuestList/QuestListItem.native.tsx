@@ -19,17 +19,17 @@ interface QuestListItemProps {
 
 const QuestListItem = ({ id, title, location, hold, customStyle, isComplete = false }: QuestListItemProps) => {
   const theme = useGetTheme();
-  const { setCompletedQuestIds } = useMainDispatch();
-  const { completedQuestIds } = useMainState();
+  const { setcompletedQuests } = useMainDispatch();
+  const { completedQuests } = useMainState();
   const locationString = useGetLocationString({ hold, location });
   
   const addOrRemoveQuest= () => {
     if (isComplete) {
-      setCompletedQuestIds(completedQuestIds.filter(questId => questId !== id));
+      setcompletedQuests(completedQuests.filter(questId => questId !== id));
     }
     else {
-      const updateCompletedQuests = [...completedQuestIds, id]
-      setCompletedQuestIds(updateCompletedQuests);
+      const updateCompletedQuests = [...completedQuests, id]
+      setcompletedQuests(updateCompletedQuests);
     }
   };
   

@@ -22,10 +22,10 @@ interface Item {
 
 const useUploadData = () => {
   const {
-    completedQuestIds,
+    completedQuests,
     completedCollectableIds,
-    completedBookIds,
-    completedLocationIds
+    completedMiscItems,
+    completedLocations
   } = useMainState();
 
   const uploadData = async () => {

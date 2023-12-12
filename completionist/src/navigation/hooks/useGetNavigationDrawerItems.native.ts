@@ -11,28 +11,28 @@ interface NavigationDrawerItem {
 }
 
 const useGetNavigationDrawerItems = (): NavigationDrawerItem[] => {
-  const { completedQuestIds, completedCollectableIds, completedBookIds, completedLocationIds } = useMainState();
+  const { user } = useMainState();
   
   return ([
     {
       id: ScreenEnum.Quests,
       title: 'Quests',
-      subTitle: `${completedQuestIds.length}/${mappedQuests.length}`
+      subTitle: `${user.data.skyrim?.quests.length}/${mappedQuests.length}`
     },
     {
       id: ScreenEnum.Collectables,
       title: 'Collectables',
-      subTitle: `${completedCollectableIds.length}/${mappedCollectables.length}`
+      subTitle: `${user.data.skyrim?.collectables.length}/${mappedCollectables.length}`
     },
     {
       id: ScreenEnum.Locations,
       title: 'Locations',
-      subTitle: `${completedLocationIds.length}/${locations.length}`
+      subTitle: `${user.data.skyrim?.locations.length}/${locations.length}`
     },
     {
       id: ScreenEnum.Miscellaneous,
       title: 'Miscellaneous',
-      subTitle: `${completedBookIds.length}/${misc.length}`
+      subTitle: `${user.data.skyrim?.miscellaneous.length}/${misc.length}`
     },
   ]);
 };

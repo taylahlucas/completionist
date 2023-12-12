@@ -7,7 +7,7 @@ import useGetCollectables from './hooks/useGetCollectables';
 import useMainState from '@redux/hooks/useMainState';
 import ListItem from '@components/general/Lists/ListItem.native';
 import useCheckCollectableComplete from './hooks/useCheckCollectableComplete';
-import useMainDispatch from '@redux/hooks/useMainDispatch';
+import useUpdateCollectablesComplete from './hooks/useUpdateCollectablesComplete';
 
 export interface CollectableSubTypeListItemProps {
   category: string;
@@ -16,12 +16,12 @@ export interface CollectableSubTypeListItemProps {
 
 const CollectableSubTypeListItem = ({ category, type }: CollectableSubTypeListItemProps) => {
   const theme = useGetTheme();
-  const { setCompletedCollectableIds } = useMainDispatch();
-  const { completedCollectableIds, showSearchResults} = useMainState();
+  const { showSearchResults} = useMainState();
   const { getCollectablesForSubCategory } = useGetCollectables();
   const [isOpen, setIsOpen] = useState<boolean>(false);
   const collectables = getCollectablesForSubCategory(category, type === 'Main' ? '' : type);
   const { checkCollectableComplete } = useCheckCollectableComplete()
+  const { updateCollectablesComplete } = useUpdateCollectablesComplete();
 
   return (
     <Dropdown
@@ -38,15 +38,7 @@ const CollectableSubTypeListItem = ({ category, type }: CollectableSubTypeListIt
           id={collectable.id}
           name={collectable.name}
           isComplete={checkCollectableComplete(collectable.id)}
-          action={((): void => {
-            if (checkCollectableComplete(collectable.id)) {
-              setCompletedCollectableIds(completedCollectableIds.filter(collectableId => collectableId !== collectable.id));
-            }
-            else {
-              const updateCompletedCollectables = [...completedCollectableIds, collectable.id]
-              setCompletedCollectableIds(updateCompletedCollectables);
-            }
-          })}
+          action={((): void => updateCollectablesComplete(collectable.id))}
         />
       ))}
       </CollectableListSubItemContainer> 
