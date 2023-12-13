@@ -1,3 +1,3 @@
-export const signup = '/api/signup';
-export const getUserByUserId = 'users'
-export const updateUserData = 'users/update';
+export const signupUrl = '/api/signup';
+export const getUserByUserIdUrl = 'users'
+export const updateUserDataUrl = 'users/update';
