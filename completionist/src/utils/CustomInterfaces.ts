@@ -87,7 +87,7 @@ export interface Item {
   isComplete: boolean;
 }
 
-export interface SkyrimData {
+export interface GeneralData {
   quests: Item[];
   collectables: Item[];
   locations: Item[];
@@ -95,7 +95,8 @@ export interface SkyrimData {
 }
 
 export interface UserData {
-  skyrim: SkyrimData;
+  skyrim: GeneralData;
+  fallout4: GeneralData;
 }
 
 export interface Subscription {

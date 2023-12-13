@@ -22,8 +22,9 @@ const GameList = () => {
 
   return (
     <ScrollableList contentContainerStyle={{ flexDirection: 'row' }}>
-      {games.map(game => (
+      {games.map((game, index) => (
         <GameListItem 
+          key={index}
           color={theme.midGrey}
           title={game.id} 
           enabled={game.isActive}

@@ -66,7 +66,8 @@ const useInitUserData = () => {
           saveUserData(user);
           updateUserData({
             userId: user.userId,
-            skyrimData: user.data?.skyrim
+            skyrimData: user.data?.skyrim,
+            fallout4Data: user.data?.fallout4
           });
         }
         return;

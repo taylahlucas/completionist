@@ -7,8 +7,8 @@ export const styles = StyleSheet.create({
     width: Dimensions.get('window').width - 32,
     marginTop: 16,
     borderRadius: DEFAULT_BORDER_RADIUS,
-    justifyContent: 'center',
-    // flexDirection: 'row',
+    alignItems: 'center',
+    flexDirection: 'row'
   },
   searchBarIcon: {
     left: 16,

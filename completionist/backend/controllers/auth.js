@@ -15,7 +15,6 @@ const signup = async (req, res) => {
       userAvatar,
       subscription
      } = req.body;
-     console.log("REQ BODY: ", req.body)
     if (!userId) {
       return res.json({
         error: "userId is required",
@@ -30,16 +29,12 @@ const signup = async (req, res) => {
     // hash password
     // const hashedPassword = await hashPassword(password);
     try {
-      const data = {
-        skyrim: { quests: [], collectables: [], miscellaneous: [], locations: [] },
-      };
       const user = await new User({
         userId,
         name,
         email,
         userAvatar,
-        subscription,
-        data
+        subscription
       }).save();
       // create signed token
       const token = jwt.sign({ _id: new mongoose.Types.ObjectId() }, process.env.JWT_SECRET, {

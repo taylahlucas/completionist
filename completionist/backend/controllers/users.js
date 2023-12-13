@@ -16,15 +16,14 @@ const getUserByUserId = async (req, res) => {
 };
 
 const updateUserData = async (req, res) => {
-  console.log("BE: ", req.body)
-  const { userId, skyrimData } = req.body;
+  const { userId, skyrimData, fallout4Data } = req.body;
 
   try {
-    //Error getUserById:  [TypeError: Cannot read property 'skyrim' of undefined
     const result = await User.updateOne({ 
       userId: userId,
       data: {
-        skyrim: skyrimData
+        skyrim: skyrimData,
+        fallout4: fallout4Data
       }
      });
      if (result.matchedCount > 0) {

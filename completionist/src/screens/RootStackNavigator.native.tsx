@@ -1,7 +1,7 @@
 import React from 'react';
 import Condition from '@components/general/Condition.native';
 import useMainState from '@redux/hooks/useMainState';
-import Quests from './Quests.native';
+import Home from './Home.native';
 import Login from './Login.native';
 import useInitUserData from '@data/hooks/useInitUserData.native';
 
@@ -15,7 +15,7 @@ const RootStackNavigator = () => {
       condition={isLoggedIn && !!user.userId}
       conditionalElement={<Login />}
     >
-      <Quests />
+      <Home />
     </Condition>
   );
 };

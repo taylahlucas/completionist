@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { SkyrimData, User, UserFormData } from '@utils/CustomInterfaces';
+import { GeneralData, User, UserFormData } from '@utils/CustomInterfaces';
 import { UserResponse } from '@utils/CustomTypes';
 
 interface CreateUserProps {
@@ -12,7 +12,8 @@ interface GetUserByUserIdProps {
 
 interface UpdateUserDataProps {
   userId: string;
-  skyrimData: SkyrimData;
+  skyrimData: GeneralData;
+  fallout4Data: GeneralData;
 }
 
 // TODO: Add api to constants file and return type
@@ -24,15 +25,7 @@ const useEndpoints = () => {
         name: data.name,
         email: data.email,
         userAvatar: data.userAvatar,
-        subscription: data.subscription,
-        data: {
-          skyrim: {
-            quests: [],
-            collectables: [],
-            miscellaneous: [],
-            locations: []
-          }
-        }
+        subscription: data.subscription
       }
     )
     .then(response => !!response.data.user && response.data.user as User ? response.data.user : null)
@@ -51,10 +44,11 @@ const useEndpoints = () => {
       });
   };
 
-  const updateUserData = async ({ userId, skyrimData }: UpdateUserDataProps)  => {
+  const updateUserData = async ({ userId, skyrimData, fallout4Data }: UpdateUserDataProps)  => {
     return await axios.post('http://localhost:4000/users/update', {
       userId: userId,
-      skyrimData: skyrimData
+      skyrimData: skyrimData,
+      fallout4Data: fallout4Data
     })
     .catch(error => {
       console.log("Error updateUserData: ", error);

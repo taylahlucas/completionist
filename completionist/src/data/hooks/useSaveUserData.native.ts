@@ -20,7 +20,7 @@ const useSaveUserData = () => {
     setUser(user);
     saveToCache(user);
     setLoggedIn(true);
-    navigation.navigate(ScreenEnum.Quests);
+    navigation.navigate(ScreenEnum.Home);
   };
 
   const removeUserData = () => {
