@@ -4,17 +4,17 @@ import books from '../../backend/database/skyrim_misc.json';
 import NavigationHeader from '@navigation/NavigationHeader.native';
 import MiscList from '@components/custom/MiscList/MiscList.native';
 import CustomSearchBar from '@components/general/CustomSearchBar/CustomSearchBar.native';
-import StyledText from '@components/general/Text/StyledText.native';
+import { CompletedQuantityTitle } from '@components/general/Text/StyledTextStyledComponents.native';
 import useMainState from '@redux/hooks/useMainState';
 
 const Miscellaneous = () => {
-  const { completedMiscItems } = useMainState();
+  const { user } = useMainState();
 
   return (
     <StandardLayout>
       <NavigationHeader title={'Miscellaneous'} />
       <CustomSearchBar />
-      <StyledText style={{ marginTop: 16 }} type={'ListItemTitleBold'}>{`${completedMiscItems.length}/${books.length}`}</StyledText>
+      <CompletedQuantityTitle type={'ListItemTitleBold'}>{`${user.data.skyrim.miscellaneous.length}/${books.length}`}</CompletedQuantityTitle>
       <MiscList />
     </StandardLayout>
   );

@@ -1,6 +1,6 @@
 export enum ScreenEnum {
   RootStackNavigator = 'RootStackNavigator',
-  Landing = 'Landing',
+  // Landing = 'Landing',
   Login = 'Login',
   Signup = 'Signup',
   LeftMenu = 'LeftMenu',

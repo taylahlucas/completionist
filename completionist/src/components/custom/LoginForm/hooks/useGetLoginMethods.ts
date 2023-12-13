@@ -1,13 +1,8 @@
-import {
-  GoogleSignin,
-  statusCodes,
-} from '@react-native-google-signin/google-signin';
+import { GoogleSignin } from '@react-native-google-signin/google-signin';
 import auth from '@react-native-firebase/auth';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
-import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
-import { ScreenEnum } from '@utils/CustomEnums';
 import useMainState from '@redux/hooks/useMainState';
-import useCreateOrGetUser from './useCreateOrGetUser';
+import useSaveUserData from '@data/hooks/useSaveUserData.native';
 
 interface GoogleSignInError {
   code: number;
@@ -15,9 +10,9 @@ interface GoogleSignInError {
 }
 
 const useGetLoginMethods = () => {
-  const navigation = useReactNavigation();
-  const { setLoggedIn, setUserFormData } = useMainDispatch();
+  const { setUserFormData } = useMainDispatch();
   const { userFormData } = useMainState();
+  const { removeUserData } = useSaveUserData();
 
   const signIn = async () => {
     try {
@@ -39,19 +34,7 @@ const useGetLoginMethods = () => {
           }
         });
     } catch (error: GoogleSignInError | any) {
-      switch (error.code) {
-        case (statusCodes.SIGN_IN_CANCELLED):
-          console.log('Sign in cancelled: ', error.message);
-          break;
-        case (statusCodes.IN_PROGRESS):
-          console.log("Sign in in progress");
-          break;
-        case (statusCodes.PLAY_SERVICES_NOT_AVAILABLE):
-          console.log('Play services not available: ', error.message);
-          break;
-        default:
-          console.log("Sign in error: ", error.message)
-      }
+      console.log("Sign in error: ", error.message);
     }
   }
 
@@ -59,8 +42,7 @@ const useGetLoginMethods = () => {
     try {
       await GoogleSignin.revokeAccess();
       await GoogleSignin.signOut();
-      navigation.navigate(ScreenEnum.Login);
-      setLoggedIn(false);
+      removeUserData();
     } catch (error) {
       console.error(error);
     }

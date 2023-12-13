@@ -10,14 +10,14 @@ const useCheckQuestComplete = (): CheckQuestCompleteReturnType => {
   const { user } = useMainState();
 
   const checkQuestComplete = (id: string): boolean => {
-    return !!user.data.skyrim.quests.find(item => item.id === id)
+    return !!user.data.skyrim.quests.find(item => item.id === id && item.isComplete)
   };
 
   const checkQuestsCompleteForCategory = (quests: SkyrimQuest[]): number => {
     let count = 0;
-    user.data.skyrim.quests.forEach((completedQuest) => {
-      quests.forEach((quest) => {
-        if (completedQuest.id === quest.id) {
+    user.data.skyrim.quests.forEach((quest) => {
+      quests.forEach((item) => {
+        if (quest.id === item.id && quest.isComplete) {
           count += 1;
         }
       });

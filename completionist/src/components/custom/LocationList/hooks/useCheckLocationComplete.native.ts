@@ -8,7 +8,7 @@ const useCheckLocationComplete = (): CheckLocationCompleteReturnType => {
   const { user } = useMainState();
 
   const checkLocationComplete = (id: string): boolean => {
-    return !!user.data.skyrim.locations.find(item => item.id === id)
+    return !!user.data.skyrim.locations.find(item => item.id === id && item.isComplete);
   };
 
   return { checkLocationComplete }

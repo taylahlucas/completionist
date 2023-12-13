@@ -1,4 +1,9 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import useMainDispatch from '@redux/hooks/useMainDispatch';
+import { User } from '@utils/CustomInterfaces';
+import { UserResponse } from '@utils/CustomTypes';
+import useEndpoints from './useEndpoints';
+import useKeychain from './useKeychain.native';
 
 const CACHE_KEY = 'REST_GET_CACHE';
 const CACHE_EXPIRY_TIME = 60 * 60 * 1000; // 1 hour in milliseconds
@@ -9,6 +14,10 @@ interface CachedData {
 }
 
 const useCache = () => {
+  const { setUser, setLoggedIn } = useMainDispatch();
+  const { getUserByUserId } = useEndpoints();
+  const { deleteCredentials } = useKeychain();
+  
   const getFromCache = async (): Promise<any | null> => {
     try {
       const cachedDataString = await AsyncStorage.getItem(CACHE_KEY);
@@ -32,7 +41,7 @@ const useCache = () => {
     return null; // Cache miss or expired
   };
 
-  const saveToCache = async (data: any): Promise<void> => {
+  const saveToCache = async (data: User): Promise<void> => {
     try {
       const timestamp = new Date().getTime();
       const cacheData: CachedData = { data, timestamp };
@@ -44,29 +53,33 @@ const useCache = () => {
     }
   };
 
-  const fetchData = async (): Promise<any | null> => {
+  const fetchDataFromCache = async (userId: string): Promise<UserResponse> => {
     // Check if data is in cache
     const cachedData = await getFromCache();
 
-    if (cachedData !== null) {
-      // Data found in cache, return it
+    if (!!cachedData?.userId && cachedData as User) {
       return cachedData;
     }
 
     // If not in cache, fetch data from the server
-    // TODO: add url based on userId
-    // try {
-    //   const response = await fetch('https://api.example.com/data');
-    //   const data = await response.json();
-
-    //   // Save the fetched data to the cache
-    //   await saveToCache(data);
-
-    //   return data;
-    // } catch (error) {
-    //   console.error('Error fetching data:', error);
-    //   return null;
-    // }
+    try {
+      return await getUserByUserId({ userId })
+        .then((response: UserResponse) => {
+          if (!!response) {
+            setUser(response);
+            return response;
+          }
+          else {
+            clearCache();
+            deleteCredentials();
+            setLoggedIn(false);
+            return null;
+          }
+        })
+    } catch (error) {
+      console.error('Error fetching data:', error);
+      return null;
+    }
   };
 
   const clearCache = async (): Promise<void> => {
@@ -75,12 +88,13 @@ const useCache = () => {
       console.log('Cache cleared successfully');
     } catch (error) {
       console.error('Error clearing cache:', error);
+      return;
     }
   };
 
   return {
     getFromCache,
-    fetchData,
+    fetchDataFromCache,
     saveToCache,
     clearCache
   }

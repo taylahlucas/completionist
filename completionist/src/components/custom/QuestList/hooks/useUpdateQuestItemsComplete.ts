@@ -13,7 +13,8 @@ const useUpdateQuestItemsComplete = () => {
     if (checkQuestComplete(questId)) {
       const itemToUpdate = user.data.skyrim.quests.find(item => item.id === questId);
       if (!!itemToUpdate) {
-        const updateCompletedQuests: Item[] = [...user.data.skyrim.quests, { id: itemToUpdate?.id, isComplete: !itemToUpdate?.isComplete }];
+        const updatedObject = { id: itemToUpdate?.id, isComplete: !itemToUpdate?.isComplete }
+        const updateCompletedQuests: Item[] = user.data.skyrim.quests.map(quest => quest.id === itemToUpdate.id ? { ...quest, ...updatedObject } : quest)
         setCompletedQuests(updateCompletedQuests);
       }
     }

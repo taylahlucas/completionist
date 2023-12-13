@@ -12,7 +12,8 @@ const useUpdateMiscItemsComplete = () => {
     if (checkMiscItemComplete(miscItemId)) {
       const itemToUpdate = user.data.skyrim.miscellaneous.find(item => item.id === miscItemId);
       if (!!itemToUpdate) {
-        const updateCompletedMiscItems: Item[] = [...user.data.skyrim.miscellaneous, { id: itemToUpdate?.id, isComplete: !itemToUpdate?.isComplete }];
+        const updatedObject = { id: itemToUpdate?.id, isComplete: !itemToUpdate?.isComplete }
+        const updateCompletedMiscItems: Item[] = user.data.skyrim.miscellaneous.map(miscItem => miscItem.id === itemToUpdate.id ? { ...miscItem, ...updatedObject } : miscItem)
         setCompletedMiscItems(updateCompletedMiscItems);
       }
     }

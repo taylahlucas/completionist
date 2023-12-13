@@ -31,7 +31,8 @@ const Login = () => {
           <Button
             title={'Login'}
             style={{ marginTop: 32 }}
-            onPress={(): void => navigation.navigate(ScreenEnum.Login)}
+            // TODO: Login functionality
+            onPress={() => null}
           />
           <LoginFormSignInButtons />
           <Button

@@ -1,6 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit';
 import { SubscriptionTypeEnum } from '@utils/CustomEnums';
 import { User, UserFormData } from '@utils/CustomInterfaces';
+import { AppStateStatus } from 'react-native';
 
 export const initialUser: User = {
   userId: '',
@@ -23,7 +24,20 @@ export const initialUser: User = {
   }
 }
 
+export const initialFormData: UserFormData = {
+  userId: '',
+  name: '',
+  email: '',
+  subscription: [
+    {
+      id: SubscriptionTypeEnum.SKYRIM,
+      isActive: true
+    }
+  ]
+}
+
 export interface MainState {
+  readonly appState?: AppStateStatus,
   readonly webSignInConfigured: boolean;
   readonly isLoggedIn: boolean;
   readonly userFormData: UserFormData;
@@ -35,17 +49,7 @@ export interface MainState {
 export const initialState: MainState = {
   webSignInConfigured: false,
   isLoggedIn: false,
-  userFormData: {
-    userId: '',
-    name: '',
-    email: '',
-    subscription: [
-      {
-        id: SubscriptionTypeEnum.SKYRIM,
-        isActive: true
-      }
-    ]
-  },
+  userFormData: initialFormData,
   user: initialUser,
   searchValue: '',
   showSearchResults: false
@@ -55,6 +59,9 @@ const slice = createSlice({
   name: 'main',
   initialState: initialState,
   reducers: {
+    setAppState: (state, action) => {
+      state.appState = action.payload;
+    },
     setWebSignInConfigured: (state, action) => {
       state.webSignInConfigured = action.payload;
     },
@@ -93,6 +100,7 @@ const slice = createSlice({
 });
 
 export const {
+  setAppState,
   setWebSignInConfigured,
   setLoggedIn,
   setUserFormData,

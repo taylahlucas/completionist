@@ -1,20 +1,20 @@
 import React from 'react';
 import locations from '../../backend/database/skyrim_locations.json';
 import StandardLayout from '@components/general/Layouts/StandardLayout.native';
-import LocationList from '@components/custom/LocationList/LocationList.native';
+import { CompletedQuantityTitle } from '@components/general/Text/StyledTextStyledComponents.native';
 import NavigationHeader from '@navigation/NavigationHeader.native';
 import CustomSearchBar from '@components/general/CustomSearchBar/CustomSearchBar.native';
-import StyledText from '@components/general/Text/StyledText.native';
 import useMainState from '@redux/hooks/useMainState';
+import LocationList from '@components/custom/LocationList/LocationList.native';
 
 const Locations = () => {
-  const { completedLocations } = useMainState();
+  const { user } = useMainState();
 
   return (
     <StandardLayout>
       <NavigationHeader title={'Locations'} />
       <CustomSearchBar />
-      <StyledText style={{ marginTop: 16 }} type={'ListItemTitleBold'}>{`${completedLocations.length}/${locations.length}`}</StyledText>
+      <CompletedQuantityTitle type={'ListItemTitleBold'}>{`${user.data.skyrim.locations.length}/${locations.length}`}</CompletedQuantityTitle>
       <LocationList />
     </StandardLayout>
   );

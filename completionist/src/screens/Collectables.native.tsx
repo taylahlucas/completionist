@@ -4,19 +4,19 @@ import StandardLayout from '@components/general/Layouts/StandardLayout.native';
 import CollectableList from '@components/custom/CollectableList/CollectableList.native';
 import NavigationHeader from '@navigation/NavigationHeader.native';
 import CustomSearchBar from '@components/general/CustomSearchBar/CustomSearchBar.native';
-import StyledText from '@components/general/Text/StyledText.native';
+import { CompletedQuantityTitle } from '@components/general/Text/StyledTextStyledComponents.native';
 import useMainState from '@redux/hooks/useMainState';
 
 const Collectables = () => {
-  const { completedCollectableIds } = useMainState();
+  const { user } = useMainState();
 
   return (
     <StandardLayout>
       <NavigationHeader title={'Collectables'} />
       <CustomSearchBar />
-      <StyledText style={{ marginTop: 16 }} type={'ListItemTitleBold'}>
-        {`${completedCollectableIds.length}/${mappedCollectables.length}`}
-      </StyledText>
+      <CompletedQuantityTitle type={'ListItemTitleBold'}>
+        {`${user.data.skyrim.collectables.length}/${mappedCollectables.length}`}
+      </CompletedQuantityTitle>
       <CollectableList />
     </StandardLayout>
   );

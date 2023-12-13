@@ -1,6 +1,7 @@
 import { Item, User, UserFormData } from '@utils/CustomInterfaces';
 import { Dispatch } from 'redux';
 import { 
+  setAppState,
   setWebSignInConfigured,
   setLoggedIn,
   setUserFormData,
@@ -16,6 +17,7 @@ import {
 import { useAppDispatch } from '../store';
 
 interface MainDispatch {
+  setAppState: (value: string) => void;
   setWebSignInConfigured: (value: boolean) => void;
   setLoggedIn: (value: boolean) => void;
   setUserFormData: (value: UserFormData) => void;
@@ -24,8 +26,8 @@ interface MainDispatch {
   triggerShowSearchResults: (value: boolean) => void;
   setCompletedQuests: (value: Item[]) => void;
   setCompletedCollectables: (value: Item[]) => void;
-  setCompletedMiscItems: (value: Item[]) => void;
   setCompletedLocations: (value: Item[]) => void;
+  setCompletedMiscItems: (value: Item[]) => void;
   reset: () => void;
 }
 
@@ -33,6 +35,9 @@ const useMainDispatch = (): MainDispatch => {
   const dispatch: Dispatch = useAppDispatch();
 
   return {
+    setAppState(value: string): void {
+      dispatch(setAppState(value));
+    },
     setWebSignInConfigured(value: boolean): void {
       dispatch(setWebSignInConfigured(value));
     },
@@ -57,11 +62,11 @@ const useMainDispatch = (): MainDispatch => {
     setCompletedCollectables(value: Item[]): void {
       dispatch(setCompletedCollectables(value));
     },
-    setCompletedMiscItems(value: Item[]): void {
-      dispatch(setCompletedMiscItems(value));
-    },
     setCompletedLocations(value: Item[]): void {
       dispatch(setCompletedLocations(value));
+    },
+    setCompletedMiscItems(value: Item[]): void {
+      dispatch(setCompletedMiscItems(value));
     },
     reset(): void {
       dispatch(reset());

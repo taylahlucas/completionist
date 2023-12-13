@@ -13,7 +13,8 @@ const useUpdateLocationsComplete = () => {
     if (checkLocationComplete(locationId)) {
       const itemToUpdate = user.data.skyrim.locations.find(item => item.id === locationId);
       if (!!itemToUpdate) {
-        const updateCompletedLocations: Item[] = [...user.data.skyrim.locations, { id: itemToUpdate?.id, isComplete: !itemToUpdate?.isComplete }];
+        const updatedObject = { id: itemToUpdate?.id, isComplete: !itemToUpdate?.isComplete }
+        const updateCompletedLocations: Item[] = user.data.skyrim.locations.map(location => location.id === itemToUpdate.id ? { ...location, ...updatedObject } : location)
         setCompletedLocations(updateCompletedLocations);
       }
     }

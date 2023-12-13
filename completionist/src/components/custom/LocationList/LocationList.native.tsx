@@ -23,7 +23,7 @@ const LocationList = () => {
           key={index} 
           id={location.id} 
           name={location.name}
-          isComplete={checkLocationComplete({ id: location.id })}
+          isComplete={checkLocationComplete(location.id)}
           action={(): void => updateLocationsComplete(location.id)}
         />
       ))}

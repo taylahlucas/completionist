@@ -19,13 +19,15 @@ const useKeychain = () => {
   const getCredentials = async () => {
     try {
       const credentials = await Keychain.getGenericPassword();
-      if (credentials) {
+      if (credentials && credentials?.password !== '1') {
         return credentials;
       } else {
         console.log('No credentials found');
+        return null;
       }
     } catch (error) {
       console.error('Error retrieving credentials:', error);
+      return null;
     }
   };
 
@@ -38,23 +40,10 @@ const useKeychain = () => {
     }
   };
 
-  // const checkIfCredentialsExist = async (): Promise<boolean> => {
-  //   getCredentials()
-  //     .then(response => {
-  //       return response?.password !== '1';
-  //     });
-  //   return false;
-  // }
-  const checkIfCredentialsExist = (value: string): boolean => {
-    return value !== '1';
-  };
-  
-
   return {
     storeCredentials,
     getCredentials,
-    deleteCredentials,
-    checkIfCredentialsExist
+    deleteCredentials
   }
 };
 
