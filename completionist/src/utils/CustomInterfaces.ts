@@ -65,6 +65,7 @@ export type RootDrawerParamList = {
   // Landing: undefined;
   Login: undefined;
   Signup: undefined;
+  Home: undefined;
   Quests: undefined;
   Collectables: undefined;
   Miscellaneous: undefined;

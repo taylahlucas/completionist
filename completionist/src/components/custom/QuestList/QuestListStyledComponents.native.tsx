@@ -1,6 +1,7 @@
 import { Dimensions } from 'react-native';
 import styled from 'styled-components/native';
 import StyledText from '@components/general/Text/StyledText.native';
+import { DEFAULT_BORDER_RADIUS } from '@styles/global';
 
 interface QuestListItemStyleProps {
   color: string;
@@ -17,7 +18,7 @@ export const QuestListSubItemContainer = styled.View`
 
 export const QuestListItemContainer = styled.View<QuestListItemStyleProps>`
   flex-direction: row;
-  border-radius: 5px;
+  border-radius: ${DEFAULT_BORDER_RADIUS}px;
   margin-top: 8px;
   align-items: center;
   justify-content: space-between;

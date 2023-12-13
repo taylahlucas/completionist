@@ -3,6 +3,7 @@ export enum ScreenEnum {
   // Landing = 'Landing',
   Login = 'Login',
   Signup = 'Signup',
+  Home = 'Home',
   LeftMenu = 'LeftMenu',
   Quests = 'Quests',
   Collectables = 'Collectables',
@@ -17,5 +18,6 @@ export enum IconTypeEnum {
 }
 
 export enum SubscriptionTypeEnum {
-  SKYRIM = 'Skyrim'
+  SKYRIM = 'Skyrim',
+  FALLOUT_4 = 'Fallout 4'
 }
