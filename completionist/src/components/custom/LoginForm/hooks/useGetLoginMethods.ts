@@ -44,7 +44,8 @@ const useGetLoginMethods = () => {
       await GoogleSignin.signOut();
       removeUserData();
     } catch (error) {
-      console.error(error);
+      console.error("ERROR: ", error);
+      removeUserData();
     }
   };
 

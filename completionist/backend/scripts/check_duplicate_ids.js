@@ -31,7 +31,7 @@ const checkDuplicateIdentifiers = (data) => {
 }
 
 // Specify the path to your JSON file
-const jsonFilePath = 'file_path.json';
+const jsonFilePath = 'skyrim_locations.json';
 
 // Read objects from the JSON file
 const objects = readJsonFile(jsonFilePath);

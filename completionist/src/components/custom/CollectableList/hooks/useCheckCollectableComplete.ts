@@ -10,12 +10,12 @@ const useCheckCollectableComplete = (): CheckCollectableCompleteReturnType => {
   const { user } = useMainState();
 
   const checkCollectableComplete = (id: string): boolean => {
-    return !!user.data.skyrim.collectables.find(item => item.id === id && item.isComplete);
+    return !!user.data?.skyrim.collectables.find(item => item.id === id && item.isComplete);
   };
 
   const checkCollectablesCompleteForCategory = (collectables: Collectable[]): number => {
     let count = 0;
-    user.data.skyrim.collectables.forEach((collectable) => {
+    user.data?.skyrim.collectables.forEach((collectable) => {
       collectables.forEach((item) => {
         if (collectable.id === item.id && collectable.isComplete) {
           count += 1;

@@ -24,7 +24,16 @@ const useCreateOrGetUser = () => {
                   saveUserData(cachedData);
                 }
                 else {
-                  createUser({ data: userFormData });
+                  createUser({ data: userFormData })
+                    .then((response: UserResponse) => {
+                      console.log("RESPONSE: ", response)
+                      if (!!response) {
+                        saveUserData(response);
+                      }
+                      else {
+                        console.log("Error creating user");
+                      }
+                    });
                 }
               })
           }
@@ -35,7 +44,17 @@ const useCreateOrGetUser = () => {
                   saveUserData(user);
                 }
                 else {
-                  createUser({ data: userFormData });
+                  createUser({ data: userFormData })
+                  .then((response: UserResponse) => {
+                    console.log("RESPONSE: ", response)
+                    if (!!response) {
+                      saveUserData(response);
+                    }
+                    else {
+                      console.log("Error creating user");
+                    }
+                  });
+                    // .then((response: UserResponse) => !!response ? saveUserData(response) : console.log("Error creating user"));
                 }
               })
           }

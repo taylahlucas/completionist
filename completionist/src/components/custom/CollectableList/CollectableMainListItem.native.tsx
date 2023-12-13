@@ -38,14 +38,14 @@ const CollectableMainListItem = ({ category, completed, total }: CollectableMain
 
           return (
             <Condition key={index} condition={collectablesForCategory.length > 0}>
-            <CollectableSubListItem 
-              key={index} 
-              mainType={category} 
-              subType={subCategory}
-              completed={completedCollectables.toString()}
-              total={collectablesForCategory.length.toString()}
-            />
-         </Condition>
+              <CollectableSubListItem 
+                key={index} 
+                mainType={category} 
+                subType={subCategory}
+                completed={completedCollectables.toString()}
+                total={collectablesForCategory.length.toString()}
+              />
+          </Condition>
           )
         }
         )}

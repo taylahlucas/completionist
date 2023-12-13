@@ -10,24 +10,10 @@ const userSchema = new mongoose.Schema({
     isActive: Boolean,
   }],
   data: {
-    skyrim: {
-      quests: {
-        id: String,
-        isComplete: Boolean,
-      },
-      collectables: {
-        id: String,
-        isComplete: Boolean,
-      },
-      miscellaneous: {
-        id: String,
-        isComplete: Boolean,
-      },
-      locations: {
-        id: String,
-        isComplete: Boolean,
-      },
-    },
+    type: Object,
+    default: {
+      skyrim: { quests: [], collectables: [], miscellaneous: [], locations: [] },
+    }
   },
 });
 

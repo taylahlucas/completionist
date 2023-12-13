@@ -12,7 +12,7 @@ const RootStackNavigator = () => {
   
   return (
     <Condition 
-      condition={isLoggedIn && !!user}
+      condition={isLoggedIn && !!user.userId}
       conditionalElement={<Login />}
     >
       <Quests />

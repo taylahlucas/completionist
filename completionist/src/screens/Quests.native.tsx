@@ -15,7 +15,7 @@ const Quests = () => {
       <NavigationHeader title={'Quests'} />
       <CustomSearchBar />
       <CompletedQuantityTitle type={'ListItemTitleBold'}>
-        {`${user.data.skyrim.quests.length}/${mappedQuests.length}`}
+        {`${user.data?.skyrim?.quests.length ?? 0}/${mappedQuests.length}`}
       </CompletedQuantityTitle>
       <QuestList />
     </StandardLayout>

@@ -15,8 +15,9 @@ const useInitUserData = () => {
   const { getCredentials } = useKeychain();
   const { updateUserData } = useEndpoints();
   const { fetchDataFromCache } = useCache();
-  const { saveUserData } = useSaveUserData();
+  const { saveUserData, removeUserData } = useSaveUserData();
 
+  // TODO: createUser not creating with data 
   useEffect(() => {
     // TODO: Move this to custom function?
     getCredentials()
@@ -29,7 +30,7 @@ const useInitUserData = () => {
               }
             });
         }
-      })
+      });
   }, [])
 
   useEffect(() => {
@@ -46,24 +47,26 @@ const useInitUserData = () => {
   useEffect(() => {
     switch (appState) {
       case 'active':
-        getCredentials()
-          .then((credentials: CredentialsResponse) => {
-            if (!!credentials) {
-              fetchDataFromCache(credentials.password)
-                .then(cachedData => {
-                  if (!!cachedData) {
-                    saveUserData(cachedData);
-                  }
-                });
-            }
-          })
+        if (!isLoggedIn || !!user.userId) {
+          getCredentials()
+            .then((credentials: CredentialsResponse) => {
+              if (!!credentials) {
+                fetchDataFromCache(credentials.password)
+                  .then(cachedData => {
+                    if (!!cachedData) {
+                      saveUserData(cachedData);
+                    }
+                  });
+              }
+            })
+        }
         return;
       case 'inactive': 
         if (isLoggedIn && !!user.userId) {
           saveUserData(user);
           updateUserData({
             userId: user.userId,
-            skyrimData: user.data.skyrim
+            skyrimData: user.data?.skyrim
           });
         }
         return;

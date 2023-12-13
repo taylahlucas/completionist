@@ -2060,7 +2060,7 @@
     "name": "Yngol And The Sea-Ghosts"
   },
   {
-    "id": "1e73fb1a-bc68-4a1d-80c2-20c450675e50",
+    "id": "1e73fb1a-bc68-4a1d-80c2-20c450675e10",
     "type": "Spell Tome",
     "name": "Bane of the Undead"
   },
@@ -2070,7 +2070,7 @@
     "name": "Banish Daedra"
   },
   {
-    "id": "2b2e07d5-0bfc-4a6c-a134-2b7b1fb13f49",
+    "id": "2b2e07d5-0bfc-4a6c-a134-2b7b1fb13f09",
     "type": "Spell Tome",
     "name": "Banish Undead"
   },
@@ -2080,17 +2080,17 @@
     "name": "Blizzard"
   },
   {
-    "id": "64b1cde2-165a-4eb5-9252-12d4a1c7f8ee",
+    "id": "64b1cde2-1s5a-4eb5-9252-12d4a1c7f8ee",
     "type": "Spell Tome",
     "name": "Bound Battleaxe"
   },
   {
-    "id": "d45fcb79-0d29-4f4d-93d5-b4261f40e5b3",
+    "id": "d45fcb79-0d29-4f4d-93d5-b4261f40ecb3",
     "type": "Spell Tome",
     "name": "Bound Bow"
   },
   {
-    "id": "8a5873d9-827b-4f9a-8f54-64b1c5bb004e",
+    "id": "8a5873d9-827b-4f9a-8f54-64b1c5bb0c4e",
     "type": "Spell Tome",
     "name": "Bound Quiver"
   },
@@ -2125,22 +2125,22 @@
     "name": "Choking Grasp"
   },
   {
-    "id": "ef1a9143-8d37-4b9c-b69e-5c6d33f8701e",
+    "id": "ef1a9143-8d37-4b3c-b69e-5c6d33f8701e",
     "type": "Spell Tome",
     "name": "Circle Of Protection"
   },
   {
-    "id": "86f2b06e-4ac3-4ee2-a193-21ee234e0fc0",
+    "id": "86f2b06e-4ac3-4ee2-a193-a1ee234e0fc0",
     "type": "Spell Tome",
     "name": "Clairvoyance"
   },
   {
-    "id": "b1db9e4c-547d-4c74-b321-d4a28759c45c",
+    "id": "b1db9e4c-547d-4c74-b321-p4a28759c45c",
     "type": "Spell Tome",
     "name": "Close Wounds"
   },
   {
-    "id": "61f6a47d-9f34-477b-8395-91c9c94b66b0",
+    "id": "61f6a47x-9f34-477b-8395-91c9c94b66b0",
     "type": "Spell Tome",
     "name": "Command Daedra"
   },
@@ -2385,7 +2385,7 @@
     "name": "Fireball"
   },
   {
-    "id": "fe5a5988-3565-48cd-9f4e-ef54b3f0326a",
+    "id": "1e5a5988-3565-48cd-9f4e-ef54b3f0326a",
     "type": "Spell Tome",
     "name": "Firebolt"
   },
@@ -2395,17 +2395,17 @@
     "name": "Flame Cloak"
   },
   {
-    "id": "f303f4f3-9ac6-4fb2-af95-1938b76f58e9",
+    "id": "f303f4f3-9ac6-4fk2-af95-1938b76f58e9",
     "type": "Spell Tome",
     "name": "Flame Thrall"
   },
   {
-    "id": "64b1cde2-165a-4eb5-9252-12d4a1c7f8ee",
+    "id": "s4b1cde2-165a-4eb5-9252-12d4a1c7f8ee",
     "type": "Spell Tome",
     "name": "Flames"
   },
   {
-    "id": "d45fcb79-0d29-4f4d-93d5-b4261f40e5b3",
+    "id": "d45fcc79-0d29-4f4d-93d5-b4261f40e5b3",
     "type": "Spell Tome",
     "name": "Frenzy"
   },
@@ -2415,367 +2415,367 @@
     "name": "Frost Cloak"
   },
   {
-    "id": "e3f0f78a-8f13-43c1-9400-7a1eb8530f21",
+    "id": "e3f0f78a-8f13-43c1-9400-7a1eb8539f21",
     "type": "Spell Tome",
     "name": "Frost Rune"
   },
   {
-    "id": "b791a4de-35d7-47e5-b63e-c71e46d146a4",
+    "id": "b79ca4de-35d7-47e5-b63e-c71e46d146a4",
     "type": "Spell Tome",
     "name": "Frost Thrall"
   },
   {
-    "id": "e29e5a57-7802-4aa9-9965-8a0a845b6e5a",
+    "id": "e29e5a57-7802-caa9-9965-8a0a845b6e5a",
     "type": "Spell Tome",
     "name": "Frostbite"
   },
   {
-    "id": "b2bfbf39-1d44-4e5a-8a23-6098f1f87f94",
+    "id": "b2bfbf39-1d44-4e5a-8a23-6098fcf87f94",
     "type": "Spell Tome",
     "name": "Fury"
   },
   {
-    "id": "b1db9e4c-547d-4c74-b321-d4a28759c45c",
+    "id": "b1dc9e4c-547d-4c74-b321-d4a28759c45c",
     "type": "Spell Tome",
     "name": "Grand Healing"
   },
   {
-    "id": "61f6a47d-9f34-477b-8395-91c9c94b66b0",
+    "id": "61f6a47d-9f34-477b-x395-91c9c94b66b0",
     "type": "Spell Tome",
     "name": "Greater Ward"
   },
   {
-    "id": "86f2b06e-4ac3-4ee2-a193-21ee234e0fc0",
+    "id": "86f2b06e-4ac1-4ee2-a193-21ee234e0fc0",
     "type": "Spell Tome",
     "name": "Guardian Circle"
   },
   {
-    "id": "ef1a9143-8d37-4b9c-b69e-5c6d33f8701e",
+    "id": "ef1a9143-8d3c-cb9c-b69e-5c6d33f8701e",
     "type": "Spell Tome",
     "name": "Hangman's Noose"
   },
   {
-    "id": "86f2b06e-4ac3-4ee2-a193-21ee234e0fc0",
+    "id": "86f2b06e-4ac3-4ee2-c193-21ee234e0fc0",
     "type": "Spell Tome",
     "name": "Harmony"
   },
   {
-    "id": "b1db9e4c-547d-4c74-b321-d4a28759c45c",
+    "id": "b1db9e4c-547d-4c74-b32c-d4a28759c45c",
     "type": "Spell Tome",
     "name": "Heal Other"
   },
   {
-    "id": "61f6a47d-9f34-477b-8395-91c9c94b66b0",
+    "id": "61f6a47d-9f34-477x-8395-91c9c94b66b0",
     "type": "Spell Tome",
     "name": "Heal Undead"
   },
   {
-    "id": "ef1a9143-8d37-4b9c-b69e-5c6d33f8701e",
+    "id": "ef1a9143-8d37-1b9c-b69e-5c6d33f8701e",
     "type": "Spell Tome",
     "name": "Healing"
   },
   {
-    "id": "86f2b06e-4ac3-4ee2-a193-21ee234e0fc0",
+    "id": "86f2b06e-4ac3-4ee2-a193-21ee214e0fc0",
     "type": "Spell Tome",
     "name": "Healing Hands"
   },
   {
-    "id": "ef1a9143-8d37-4b9c-b69e-5c6d33f8701e",
+    "id": "ef1a9143-8d37-4b9c-b69e-506d33f8701e",
     "type": "Spell Tome",
     "name": "Hysteria"
   },
   {
-    "id": "86f2b06e-4ac3-4ee2-a193-21ee234e0fc0",
+    "id": "86f2b06e-4ac3-4ee2-a193-21ee231e0fc0",
     "type": "Spell Tome",
     "name": "Ice Spike"
   },
   {
-    "id": "b1db9e4c-547d-4c74-b321-d4a28759c45c",
+    "id": "b1db9e4c-547d-4c7c-b321-d4a28759c45c",
     "type": "Spell Tome",
     "name": "Ice Storm"
   },
   {
-    "id": "61f6a47d-9f34-477b-8395-91c9c94b66b0",
+    "id": "61f6a47d-9f34-477b-8395-91c9c94b66x0",
     "type": "Spell Tome",
     "name": "Icy Spear"
   },
   {
-    "id": "ef1a9143-8d37-4b9c-b69e-5c6d33f8701e",
+    "id": "ef1a9143-8d37-4b9c-b69e-5c6d33f87c1e",
     "type": "Spell Tome",
     "name": "Incinerate"
   },
   {
-    "id": "86f2b06e-4ac3-4ee2-a193-21ee234e0fc0",
+    "id": "86f2b06e-4ac3-4ee2-a113-21ee234e0fc0",
     "type": "Spell Tome",
     "name": "Invisibility"
   },
   {
-    "id": "b1db9e4c-547d-4c74-b321-d4a28759c45c",
+    "id": "b1db9e4c-547d-4c74-b321-d4a28759cw5c",
     "type": "Spell Tome",
     "name": "Ironflesh"
   },
   {
-    "id": "61f6a47d-9f34-477b-8395-91c9c94b66b0",
+    "id": "61f6a47d-9f34-477b-8395-91c9cx4b66b0",
     "type": "Spell Tome",
     "name": "Lesser Ward"
   },
   {
-    "id": "86f2b06e-4ac3-4ee2-a193-21ee234e0fc0",
+    "id": "86f2b06e-4ac3-4ee2-a193-21e2234e0fc0",
     "type": "Spell Tome",
     "name": "Lightning Bolt"
   },
   {
-    "id": "ef1a9143-8d37-4b9c-b69e-5c6d33f8701e",
+    "id": "ef1a9143-8d37-4b9c-b69e-5c6d33f8701c",
     "type": "Spell Tome",
     "name": "Lightning Cloak"
   },
   {
-    "id": "86f2b06e-4ac3-4ee2-a193-21ee234e0fc0",
+    "id": "86f2b06e-4ac3-4ee2-a193-21ee224e0fc0",
     "type": "Spell Tome",
     "name": "Lightning Rune"
   },
   {
-    "id": "b1db9e4c-547d-4c74-b321-d4a28759c45c",
+    "id": "b1db9e4c-547d-4c74-b321-d4a2875cc45c",
     "type": "Spell Tome",
     "name": "Lightning Storm"
   },
   {
-    "id": "61f6a47d-9f34-477b-8395-91c9c94b66b0",
+    "id": "61f6a47d-9f34-477b-8395-x1c9c94b66b0",
     "type": "Spell Tome",
     "name": "Magelight"
   },
   {
-    "id": "ef1a9143-8d37-4b9c-b69e-5c6d33f8701e",
+    "id": "ef1a9143-8d37-cb9c-b69e-5c6d33f8701e",
     "type": "Spell Tome",
     "name": "Mara's Wrath"
   },
   {
-    "id": "86f2b06e-4ac3-4ee2-a193-21ee234e0fc0",
+    "id": "c45fcb79-0d29-4f4d-93d5-b4261f40e5b3",
     "type": "Spell Tome",
     "name": "Mass Paralysis"
   },
   {
-    "id": "ef1a9143-8d37-4b9c-b69e-5c6d33f8701e",
+    "id": "ef1a9143-8dc7-4b9c-b69e-5c6d33f8701e",
     "type": "Spell Tome",
     "name": "Mayhem"
   },
   {
-    "id": "86f2b06e-4ac3-4ee2-a193-21ee234e0fc0",
+    "id": "61f6a47s-9f34-477p-8395-91c9c94b66b0",
     "type": "Spell Tome",
     "name": "Muffle"
   },
   {
-    "id": "b1db9e4c-547d-4c74-b321-d4a28759c45c",
+    "id": "b1db9e4c-547d-4c74-b321-d4a28759c4cc",
     "type": "Spell Tome",
     "name": "Necromancer's Ritual"
   },
   {
-    "id": "61f6a47d-9f34-477b-8395-91c9c94b66b0",
+    "id": "61fma47d-9f34-477b-8395-91c9c94b66b0",
     "type": "Spell Tome",
     "name": "Necromantic Healing"
   },
   {
-    "id": "ef1a9143-8d37-4b9c-b69e-5c6d33f8701e",
+    "id": "ef1a9143-cd37-4b9c-b69e-5c6d33f8701e",
     "type": "Spell Tome",
     "name": "Oakflesh"
   },
   {
-    "id": "86f2b06e-4ac3-4ee2-a193-21ee234e0fc0",
+    "id": "86f2b06e-4ac3-4ee2-a193-21e3234e0fc0",
     "type": "Spell Tome",
     "name": "Orum's Aquatic Escape"
   },
   {
-    "id": "b1db9e4c-547d-4c74-b321-d4a28759c45c",
+    "id": "bcdb9e4c-c47d-4c74-b321-d4a28759c45c",
     "type": "Spell Tome",
     "name": "Pacify"
   },
   {
-    "id": "61f6a47d-9f34-477b-8395-91c9c94b66b0",
+    "id": "61f6a47d-9fm4-477b-8395-91c9c94b66b0",
     "type": "Spell Tome",
     "name": "Paralysis Rune"
   },
   {
-    "id": "ef1a9143-8d37-4b9c-b69e-5c6d33f8701e",
+    "id": "cf1a9143-8d37-4b9c-b69e-5c6d33f8701e",
     "type": "Spell Tome",
     "name": "Paralyze"
   },
   {
-    "id": "86f2b06e-4ac3-4ee2-a193-21ee234e0fc0",
+    "id": "86f2b06e-3ac3-4ee2-a193-21ee234e0fc0",
     "type": "Spell Tome",
     "name": "Pride of Hirstaang"
   },
   {
-    "id": "ef1a9143-8d37-4b9c-b69e-5c6d33f8701e",
+    "id": "df1a9143-8d37-4b9c-b69e-5c6d33f8701e",
     "type": "Spell Tome",
     "name": "Raise Zombie"
   },
   {
-    "id": "86f2b06e-4ac3-4ee2-a193-21ee234e0fc0",
+    "id": "86f2b06e-4ac3-4ee2-a393-21ee234e0fc0",
     "type": "Spell Tome",
     "name": "Rally"
   },
   {
-    "id": "b1db9e4c-547d-4c74-b321-d4a28759c45c",
+    "id": "b1db9e4c-c47d-4c74-b321-d4a28759c45c",
     "type": "Spell Tome",
     "name": "Reanimate Corpse"
   },
   {
-    "id": "61f6a47d-9f34-477b-8395-91c9c94b66b0",
+    "id": "61f6a47d-9f34-477b-839m-91c9c94b66b0",
     "type": "Spell Tome",
     "name": "Repel Lesser Undead"
   },
   {
-    "id": "ef1a9143-8d37-4b9c-b69e-5c6d33f8701e",
+    "id": "ef1a9143-8d37-4b9c-b69e-5c6d33d8701e",
     "type": "Spell Tome",
     "name": "Repel Undead"
   },
   {
-    "id": "86f2b06e-4ac3-4ee2-a193-21ee234e0fc0",
+    "id": "86f2b06e-4ac3-4ee2-a133-21ee234e0fc0",
     "type": "Spell Tome",
     "name": "Revenant"
   },
   {
-    "id": "ef1a9143-8d37-4b9c-b69e-5c6d33f8701e",
+    "id": "ef1a9143-8d37-4b9c-369e-5c6d33f87d1e",
     "type": "Spell Tome",
     "name": "Rout"
   },
   {
-    "id": "86f2b06e-4ac3-4ee2-a193-21ee234e0fc0",
+    "id": "86f2b03e-4ac3-4ee2-a193-21ee2c4e0fc0",
     "type": "Spell Tome",
     "name": "Soul Split"
   },
   {
-    "id": "b1db9e4c-547d-4c74-b321-d4a28759c45c",
+    "id": "b1db9e4c-547d-cc74-b321-d4a28759c45c",
     "type": "Spell Tome",
     "name": "Soul Trap"
   },
   {
-    "id": "61f6a47d-9f34-477b-8395-91c9c94b66b0",
+    "id": "61f6a47d-9f34-477b-8395-91c9cm4b66b0",
     "type": "Spell Tome",
     "name": "Sparks"
   },
   {
-    "id": "ef1a9143-8d37-4b9c-b69e-5c6d33f8701e",
+    "id": "ef1a9143-8d37-4b9c-b69e-5c6d33f8701d",
     "type": "Spell Tome",
     "name": "Spectral Arrow"
   },
   {
-    "id": "86f2b06e-4ac3-4ee2-a193-21ee234e0fc0",
+    "id": "a6f2b06c-4ac3-4eec-a193-21ee234e0fc0",
     "type": "Spell Tome",
     "name": "Steadfast Ward"
   },
   {
-    "id": "ef1a9143-8d37-4b9c-b69e-5c6d33f8701e",
+    "id": "ef1ad143-8d37-4b9c-b69e-5c6d33f8701e",
     "type": "Spell Tome",
     "name": "Stendarr's Aura"
   },
   {
-    "id": "86f2b06e-4ac3-4ee2-a193-21ee234e0fc0",
+    "id": "86f2b06e-4ac3-4ee2-a193-21eea34e0fc0",
     "type": "Spell Tome",
     "name": "Stoneflesh"
   },
   {
-    "id": "ef1a9143-8d37-4b9c-b69e-5c6d33f8701e",
+    "id": "ef1a9143-8dd7-4b9c-b69e-5c6d33f8701e",
     "type": "Spell Tome",
     "name": "Storm Thrall"
   },
   {
-    "id": "86f2b06e-4ac3-4ee2-a193-21ee234e0fc0",
+    "id": "a6f2b06e-4pc3-4ee2-a193-21ee234e0fc0",
     "type": "Spell Tome",
     "name": "Strangulation"
   },
   {
-    "id": "b1db9e4c-547d-4c74-b321-d4a28759c45c",
+    "id": "b1db9e4c-547d-4c74-b3c1-d4a28759c45c",
     "type": "Spell Tome",
     "name": "Sun Fire"
   },
   {
-    "id": "61f6a47d-9f34-477b-8395-91c9c94b66b0",
+    "id": "61f6a47d-9f34-47cb-8395-91c9c94b66b0",
     "type": "Spell Tome",
     "name": "Telekinesis"
   },
   {
-    "id": "ef1a9143-8d37-4b9c-b69e-5c6d33f8701e",
+    "id": "ef1c9143-8d37-4b9c-b69e-5c6d33f870pe",
     "type": "Spell Tome",
     "name": "Telekinesis Arrows"
   },
   {
-    "id": "86f2b06e-4ac3-4ee2-a193-21ee234e0fc0",
+    "id": "86f2b06e-4ac3-4ee2-a193-2aee234e0fc0",
     "type": "Spell Tome",
     "name": "Teleport Pet Mudcrab"
   },
   {
-    "id": "a193-21ee234e0fc0",
+    "id": "rc5fcb79-0d29-4f4d-93d5-b4261f40e5b",
     "type": "Spell Tome",
     "name": "Teleport Pet Nix-Hound"
   },
   {
-    "id": "1d44-4e5a-8a23-6098f1f87f94",
+    "id": "d25fcb79-0d29-4f4d-93d5-b4261f40e5b",
     "type": "Spell Tome",
     "name": "Thunderbolt"
   },
   {
-    "id": "4a9a-9965-8a0a845b6e5a",
+    "id": "dc3fcb79-0d29-4f4d-93d5-b4261f40e5b",
     "type": "Spell Tome",
     "name": "Touch of Death"
   },
   {
-    "id": "b9c-b69e-5c6d33f8701e",
+    "id": "dc5fcb79-0d29-4f4d-93d5-b4261fr0e5b",
     "type": "Spell Tome",
     "name": "Transmute Mineral Ore"
   },
   {
-    "id": "547d-4c74-b321-d4a28759c45c",
+    "id": "dc5fcb79-0d29-4f4d-93d5-b4g61f40e5b",
     "type": "Spell Tome",
     "name": "Turn Greater Undead"
   },
   {
-    "id": "477b-8395-91c9c94b66b0",
+    "id": "dccfcb79-0d29-4f4d-93d5-b4261f40e5b",
     "type": "Spell Tome",
     "name": "Turn Lesser Undead"
   },
   {
-    "id": "4ac3-4ee2-a193-21ee234e0fc0",
+    "id": "dc5fcb79-0d29-4f4d-93d5-b4261f40e5b",
     "type": "Spell Tome",
     "name": "Turn Undead"
   },
   {
-    "id": "4ac3-4ee2-a193-21ee234e0fc0",
+    "id": "d45fcb79-0d29-4f4d-93d5-b4261f40e5c",
     "type": "Spell Tome",
     "name": "Unbounded Flames"
   },
   {
-    "id": "4b9c-b69e-5c6d33f8701e",
+    "id": "dc5fcb79-0g29-4f4d-93d5-b4261f40e5b",
     "type": "Spell Tome",
     "name": "Unbounded Freezing"
   },
   {
-    "id": "4ac3-4ee2-a193-21ee234e0fc0",
+    "id": "dc5fcb79-0d29-4f4d-93d5-b4261fc0e5b",
     "type": "Spell Tome",
     "name": "Unbounded Storms"
   },
   {
-    "id": "4b9c-b69e-5c6d33f8701e",
+    "id": "dc5fcb79-0d29-4f4d-93dc-b4261f40e5b",
     "type": "Spell Tome",
     "name": "Vampire's Bane"
   },
   {
-    "id": "547d-4c74-b321-d4a28759c45c",
+    "id": "dc5fcb79-0d29-4f4d-93d5-b4261f40ecb",
     "type": "Spell Tome",
     "name": "Wall of Flames"
   },
   {
-    "id": "477b-8395-91c9c94b66b0",
+    "id": "de5fcb79-0d29-4f4d-93d5-b4261f40e5b",
     "type": "Spell Tome",
     "name": "Wall of Frost"
   },
   {
-    "id": "4ac3-4ee2-a193-21ee234e0fc0",
+    "id": "dc5fcbc9-0d29-4f4d-93d5-b4261f40e5b",
     "type": "Spell Tome",
     "name": "Wall of Storms"
   },
   {
-    "id": "4ee2-a193-21ee234e0fc0",
+    "id": "dc5fcb79-0d29-4f4d-c3d5-b4261f40e5b",
     "type": "Spell Tome",
     "name": "Waterbreathing"
   }

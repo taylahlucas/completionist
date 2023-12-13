@@ -14,7 +14,7 @@ const Miscellaneous = () => {
     <StandardLayout>
       <NavigationHeader title={'Miscellaneous'} />
       <CustomSearchBar />
-      <CompletedQuantityTitle type={'ListItemTitleBold'}>{`${user.data.skyrim.miscellaneous.length}/${books.length}`}</CompletedQuantityTitle>
+      <CompletedQuantityTitle type={'ListItemTitleBold'}>{`${user.data?.skyrim.miscellaneous.length}/${books.length}`}</CompletedQuantityTitle>
       <MiscList />
     </StandardLayout>
   );

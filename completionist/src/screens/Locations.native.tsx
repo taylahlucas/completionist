@@ -14,7 +14,7 @@ const Locations = () => {
     <StandardLayout>
       <NavigationHeader title={'Locations'} />
       <CustomSearchBar />
-      <CompletedQuantityTitle type={'ListItemTitleBold'}>{`${user.data.skyrim.locations.length}/${locations.length}`}</CompletedQuantityTitle>
+      <CompletedQuantityTitle type={'ListItemTitleBold'}>{`${user.data?.skyrim.locations.length ?? 0}/${locations.length}`}</CompletedQuantityTitle>
       <LocationList />
     </StandardLayout>
   );

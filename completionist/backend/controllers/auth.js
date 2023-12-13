@@ -13,8 +13,7 @@ const signup = async (req, res) => {
       name,
       email,
       userAvatar,
-      subscription,
-      data
+      subscription
      } = req.body;
      console.log("REQ BODY: ", req.body)
     if (!userId) {
@@ -31,6 +30,9 @@ const signup = async (req, res) => {
     // hash password
     // const hashedPassword = await hashPassword(password);
     try {
+      const data = {
+        skyrim: { quests: [], collectables: [], miscellaneous: [], locations: [] },
+      };
       const user = await new User({
         userId,
         name,

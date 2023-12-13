@@ -15,7 +15,7 @@ const Collectables = () => {
       <NavigationHeader title={'Collectables'} />
       <CustomSearchBar />
       <CompletedQuantityTitle type={'ListItemTitleBold'}>
-        {`${user.data.skyrim.collectables.length}/${mappedCollectables.length}`}
+        {`${user.data?.skyrim.collectables.length ?? 0}/${mappedCollectables.length}`}
       </CompletedQuantityTitle>
       <CollectableList />
     </StandardLayout>

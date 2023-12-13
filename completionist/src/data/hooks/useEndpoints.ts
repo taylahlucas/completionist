@@ -35,7 +35,7 @@ const useEndpoints = () => {
         }
       }
     )
-    .then(response => !!response.data && response.data as User ? response.data : null)
+    .then(response => !!response.data.user && response.data.user as User ? response.data.user : null)
     .catch(error => {
       console.log("Error createUser: ", error);
       return null;
