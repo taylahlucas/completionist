@@ -54,8 +54,8 @@ export interface StoreState {
 export interface EnvironmentConfig {
   APP_ID: string;
   ACCESS_TOKEN: string;
-  GRAPHQL_ENDPOINT: string;
   GOOGLE_CLIENT_ID: string;
+  LOCAL_URL: string;
 }
 
 // Navigation Interfaces
@@ -81,6 +81,11 @@ export interface NativeNavigation {
 }
 
 // Data Interfaces
+
+export interface CachedData {
+  data: any;
+  timestamp: number;
+}
 
 export interface Item {
   id: string;

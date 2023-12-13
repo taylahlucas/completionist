@@ -20,6 +20,12 @@ export const initialUser: User = {
       collectables: [],
       locations: [],
       miscellaneous: []
+    },
+    fallout4: {
+      quests: [],
+      collectables: [],
+      locations: [],
+      miscellaneous: []
     }
   }
 }
@@ -31,6 +37,10 @@ export const initialFormData: UserFormData = {
   subscription: [
     {
       id: SubscriptionTypeEnum.SKYRIM,
+      isActive: true
+    },
+    {
+      id: SubscriptionTypeEnum.FALLOUT_4,
       isActive: true
     }
   ]

@@ -5,12 +5,33 @@ import useCache from './useCache.native';
 import useKeychain from './useKeychain.native';
 import { ScreenEnum } from '@utils/CustomEnums';
 import { initialFormData } from '@redux/MainState';
+import { CredentialsResponse } from '@utils/CustomTypes';
 
-const useSaveUserData = () => {
+interface SaveUserDataReturnType {
+  loadUserData: () => void;
+  saveUserData: (user: User) => void;
+  removeUserData: () => void;
+}
+
+const useSaveUserData = (): SaveUserDataReturnType => {
   const navigation = useReactNavigation();
   const { setUser, setUserFormData, setLoggedIn } = useMainDispatch();
-  const { saveToCache, clearCache } = useCache();
-  const { storeCredentials, deleteCredentials } = useKeychain();
+  const { fetchDataFromCache, saveToCache, clearCache } = useCache();
+  const { getCredentials, storeCredentials, deleteCredentials } = useKeychain();
+
+  const loadUserData = () => {
+    getCredentials()
+      .then((credentials: CredentialsResponse) => {
+        if (!!credentials?.password) {
+          fetchDataFromCache(credentials.password)
+            .then(cachedData => {
+              if (!!cachedData) {
+                saveUserData(cachedData);
+              }
+            });
+        }
+      });
+  };
 
   const saveUserData = (user: User) => {
     storeCredentials({
@@ -32,7 +53,7 @@ const useSaveUserData = () => {
     navigation.dispatch(DrawerActions.closeDrawer());
   }
 
-  return { saveUserData, removeUserData };
+  return { saveUserData, removeUserData, loadUserData };
 };
 
 export default useSaveUserData;

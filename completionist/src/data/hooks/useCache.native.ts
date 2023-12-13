@@ -1,19 +1,19 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
-import { User } from '@utils/CustomInterfaces';
+import { CACHE_EXPIRY_TIME, CACHE_KEY } from '@utils/constants';
+import { CachedData, User } from '@utils/CustomInterfaces';
 import { UserResponse } from '@utils/CustomTypes';
 import useEndpoints from './useEndpoints';
 import useKeychain from './useKeychain.native';
 
-const CACHE_KEY = 'REST_GET_CACHE';
-const CACHE_EXPIRY_TIME = 60 * 60 * 1000; // 1 hour in milliseconds
-
-interface CachedData {
-  data: any;
-  timestamp: number;
+interface CacheReturnType {
+  getFromCache: () => Promise<any | null>;
+  saveToCache: (data: User) => Promise<void>;
+  fetchDataFromCache: (userId: string) => Promise<UserResponse>;
+  clearCache: () => Promise<void> ;
 }
 
-const useCache = () => {
+const useCache = (): CacheReturnType => {
   const { setUser, setLoggedIn } = useMainDispatch();
   const { getUserByUserId } = useEndpoints();
   const { deleteCredentials } = useKeychain();
