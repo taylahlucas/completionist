@@ -8,14 +8,16 @@ import { mappedQuests } from '@data/functions';
 import useMainState from '@redux/hooks/useMainState';
 
 const Quests = () => {
-  const { completedQuests } = useMainState();
+  const { user } = useMainState();
+
+  console.log("HEREEEE: ", user.data)
 
   return (
     <StandardLayout>
       <NavigationHeader title={'Quests'} />
       <CustomSearchBar />
       <StyledText style={{ marginTop: 16 }} type={'ListItemTitleBold'}>
-        {`${completedQuests.length}/${mappedQuests.length}`}
+        {`${user.data.skyrim.quests.length}/${mappedQuests.length}`}
       </StyledText>
       <QuestList />
     </StandardLayout>

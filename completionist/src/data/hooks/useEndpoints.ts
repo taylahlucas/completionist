@@ -19,18 +19,10 @@ interface UpdateUserDataProps {
 }
 
 const useEndpoints = () => {
-  const navigation = useReactNavigation();
-  const {
-    setcompletedQuests,
-    setCompletedCollectableIds,
-    setcompletedMiscItems,
-    setcompletedLocations,
-    setLoggedIn
-  } = useMainDispatch();
   const { storeCredentials } = useKeychain();
   
-  const createUser = async ({ data }: CreateUserProps) => {
-    await axios.post('http://localhost:4000/api/signup',
+  const createUser = async ({ data }: CreateUserProps): Promise<(User | null)> => {
+    return await axios.post('http://localhost:4000/api/signup',
       {
         userId: data.userId,
         name: data.name,
@@ -41,7 +33,7 @@ const useEndpoints = () => {
           skyrim: {
             quests: [],
             collectables: [],
-            misc: [],
+            miscellaneous: [],
             locations: []
           }
         }
@@ -49,11 +41,9 @@ const useEndpoints = () => {
     )
     .then(response => {
       console.log("createUser: ", response.data)
-      if (!!response.data) {
-        storeCredentials({
-          username: response.data.user.name,
-          password: response.data.user.userId
-        });
+      const user = response.data as User;
+      if (!!user) {
+        return user;
       }
       return response.data;
     })
@@ -88,13 +78,13 @@ const useEndpoints = () => {
   };
 
   const updateUserData = async ({ userId, skyrimData }: UpdateUserDataProps) => {
-    console.log("USER DATA: ", skyrimData)
     await axios.post('http://localhost:4000/users/update', {
       userId: userId,
       skyrimData: skyrimData
     })
       .then(response => {
         console.log("updateUserData RESPONSE: ", response.data);
+        return response.data as User;
       })
       .catch(error => {
         console.log("Error getUserById: ", error);

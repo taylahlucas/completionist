@@ -6,6 +6,8 @@ import StyledText from '@components/general/Text/StyledText.native';
 import useGetMiscItems from './hooks/useGetMiscItems';
 import ListItem from '@components/general/Lists/ListItem.native';
 import { MiscItem } from '@utils/CustomInterfaces';
+import useUpdateMiscItemsComplete from './hooks/useUpdateMiscItemsComplete';
+import useCheckMiscItemComplete from './hooks/useCheckMiscItemComplete.native';
 
 export interface MiscMainListItemProps {
   category: string;
@@ -16,7 +18,9 @@ export interface MiscMainListItemProps {
 const MiscMainListItem = ({ category, completed, total }: MiscMainListItemProps) => {
   const { showSearchResults } = useMainState();
   const [isOpen, setIsOpen] = useState<boolean>(false);
-  const { getMiscItemsForCategory } = useGetMiscItems();
+  const { getMiscItemsForCategory } = useGetMiscItems()
+  const { updateMiscItemsComplete } = useUpdateMiscItemsComplete();
+  const { checkMiscItemComplete } = useCheckMiscItemComplete();
 
   return (
     <Dropdown
@@ -32,8 +36,8 @@ const MiscMainListItem = ({ category, completed, total }: MiscMainListItemProps)
           key={index}
           id={item.id}
           name={item.name}
-          isComplete={false}
-          action={(): void => {}}
+          isComplete={checkMiscItemComplete(item.id)}
+          action={(): void => updateMiscItemsComplete(item.id)}
         />
       ))}
     </Dropdown>

@@ -2,7 +2,7 @@ import { createSlice } from '@reduxjs/toolkit';
 import { SubscriptionTypeEnum } from '@utils/CustomEnums';
 import { User, UserFormData } from '@utils/CustomInterfaces';
 
-const initialUser: User = {
+export const initialUser: User = {
   userId: '',
   name: '',
   email: '',

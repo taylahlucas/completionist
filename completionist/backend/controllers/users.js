@@ -20,8 +20,7 @@ const updateUserData = async (req, res) => {
   const { userId, skyrimData } = req.body;
 
   try {
-    //Error getUserById:  [TypeError: Cannot read property 'skyrim' of undefined]
-
+    //Error getUserById:  [TypeError: Cannot read property 'skyrim' of undefined
     const result = await User.updateOne({ 
       userId: userId,
       data: {

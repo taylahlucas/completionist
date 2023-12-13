@@ -7,6 +7,8 @@ import StyledText from '@components/general/Text/StyledText.native';
 import useGetLocationString from './hooks/useGetLocationString.native';
 import CheckBox from '@components/general/Checkbox/CheckBox.native';
 import { QuestListItemContainer, QuestListItemLocationContainer, QuestListItemTitle, QuestListItemContentContainer } from './QuestListStyledComponents.native';
+import useUpdateCollectablesComplete from '../CollectableList/hooks/useUpdateCollectablesComplete';
+import useUpdateQuestItemsComplete from './hooks/useUpdateQuestItemsComplete';
 
 interface QuestListItemProps {
   id: string;
@@ -19,19 +21,8 @@ interface QuestListItemProps {
 
 const QuestListItem = ({ id, title, location, hold, customStyle, isComplete = false }: QuestListItemProps) => {
   const theme = useGetTheme();
-  const { setcompletedQuests } = useMainDispatch();
-  const { completedQuests } = useMainState();
   const locationString = useGetLocationString({ hold, location });
-  
-  const addOrRemoveQuest= () => {
-    if (isComplete) {
-      setcompletedQuests(completedQuests.filter(questId => questId !== id));
-    }
-    else {
-      const updateCompletedQuests = [...completedQuests, id]
-      setcompletedQuests(updateCompletedQuests);
-    }
-  };
+  const { updateQuestItemsComplete } = useUpdateQuestItemsComplete();
   
   return (
     <QuestListItemContainer style={customStyle} color={isComplete ? theme.darkGrey : theme.midGrey}>
@@ -56,7 +47,7 @@ const QuestListItem = ({ id, title, location, hold, customStyle, isComplete = fa
           </QuestListItemLocationContainer>
         </Condition>
       </QuestListItemContentContainer>
-      <CheckBox isToggled={isComplete} action={() => addOrRemoveQuest()} />
+      <CheckBox isToggled={isComplete} action={() => updateQuestItemsComplete(id)} />
     </QuestListItemContainer>
   );
 };

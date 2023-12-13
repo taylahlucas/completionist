@@ -12,27 +12,29 @@ interface NavigationDrawerItem {
 
 const useGetNavigationDrawerItems = (): NavigationDrawerItem[] => {
   const { user } = useMainState();
+
+  // TODO: User data not being set before coming here
   
   return ([
     {
       id: ScreenEnum.Quests,
       title: 'Quests',
-      subTitle: `${user.data.skyrim?.quests.length}/${mappedQuests.length}`
+      subTitle: `${user.data.skyrim.quests.length}/${mappedQuests.length}`
     },
     {
       id: ScreenEnum.Collectables,
       title: 'Collectables',
-      subTitle: `${user.data.skyrim?.collectables.length}/${mappedCollectables.length}`
+      subTitle: `${user.data.skyrim.collectables.length}/${mappedCollectables.length}`
     },
     {
       id: ScreenEnum.Locations,
       title: 'Locations',
-      subTitle: `${user.data.skyrim?.locations.length}/${locations.length}`
+      subTitle: `${user.data.skyrim.locations.length}/${locations.length}`
     },
     {
       id: ScreenEnum.Miscellaneous,
       title: 'Miscellaneous',
-      subTitle: `${user.data.skyrim?.miscellaneous.length}/${misc.length}`
+      subTitle: `${user.data.skyrim.miscellaneous.length}/${misc.length}`
     },
   ]);
 };

@@ -1,7 +1,6 @@
 import { ScreenEnum, SubscriptionTypeEnum } from './CustomEnums';
 import { NavigationAction, NavigationState } from '@react-navigation/native';
 import { MainState } from '@redux/MainState';
-import { ObjectId } from 'mongoose';
 
 export interface UserFormData {
   userId: string;
@@ -26,14 +25,12 @@ export interface SkyrimQuest {
 export interface Location {
   id: string;
   name: string;
-  isComplete?: boolean;
 }
 
 export interface MiscItem {
   id: string;
   name: string;
   type: string;
-  isComplete?: boolean;
 }
 
 export interface Collectable {

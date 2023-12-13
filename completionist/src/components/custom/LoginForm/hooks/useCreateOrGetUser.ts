@@ -5,6 +5,7 @@ import useEndpoints from '@data/hooks/useEndpoints';
 import useKeychain from '@data/hooks/useKeychain.native';
 import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
 import { ScreenEnum } from '@utils/CustomEnums';
+import useCache from '@data/hooks/useCache.native';
 
 const useCreateOrGetUser = () => {
   const navigation = useReactNavigation();
@@ -12,60 +13,39 @@ const useCreateOrGetUser = () => {
   const { userFormData, isLoggedIn } = useMainState();
   const { createUser, getUserByUserId } = useEndpoints();
   const { getCredentials, storeCredentials, checkIfCredentialsExist } = useKeychain();
+  const { saveToCache } = useCache();
 
   useEffect(() => {
     if (!!userFormData.userId && !isLoggedIn) {
       console.log("Calling getUserByUserId")
-      // TODO: Fix login/signup flow
-        // getCredentials()
-        //   .then(credentials => {
-        //     if (!!credentials?.password) {
-        //       const exists = checkIfCredentialsExist(credentials?.password);
-        //       if (!exists) {
-        //         storeCredentials({
-        //           username: userFormData.name, 
-        //           password: userFormData.userId
-        //         });
-        //       }
-        //       setLoggedIn(true);
-        //     }
-        //   })
 
       getUserByUserId({ userId: userFormData.userId })
         .then(user => {
           console.log("USER: ", user)
           if (!!user) {
-
+            storeCredentials({
+              username: userFormData.name, 
+              password: userFormData.userId
+            });
+            setLoggedIn(true);
+            saveToCache(user);
+          }
+          else {
+            createUser({ data: userFormData })
+              .then(newUser => {
+                console.log("TEST: ", newUser);
+                if (!!newUser) {
+                  storeCredentials({
+                    username: userFormData.name, 
+                    password: userFormData.userId
+                  });
+                  setLoggedIn(true);
+                  saveToCache(newUser);
+                  navigation.navigate(ScreenEnum.Quests);
+                }
+              });
           }
         });
-
-      // getUserByUserId({ userId: userFormData.userId })
-      //   .then((response) => {
-      //     if (!response) {
-      //       createUser({ data: userFormData })
-      //         .then(() => {
-      //           navigation.navigate(ScreenEnum.Quests);
-      //         });
-      //     }
-      //     else {
-      //       getCredentials()
-      //         .then(credentials => {
-      //           if (!!credentials?.password) {
-      //             const exists = checkIfCredentialsExist(credentials?.password);
-      //             if (!exists) {
-      //               storeCredentials({
-      //                 username: userFormData.name, 
-      //                 password: userFormData.userId
-      //               });
-      //             }
-      //             setLoggedIn(true);
-      //           }
-      //         })
-      //     }
-      //   })
-      //   .catch((error) => {
-      //     console.log("error: ", error)
-      //   }); 
     }
   }, [userFormData])
 };

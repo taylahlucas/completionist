@@ -69,10 +69,20 @@ const useCache = () => {
     // }
   };
 
+  const clearCache = async (): Promise<void> => {
+    try {
+      await AsyncStorage.clear();
+      console.log('Cache cleared successfully');
+    } catch (error) {
+      console.error('Error clearing cache:', error);
+    }
+  };
+
   return {
     getFromCache,
     fetchData,
-    saveToCache
+    saveToCache,
+    clearCache
   }
 };
 

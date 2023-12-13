@@ -5,15 +5,15 @@ import { Location } from '@utils/CustomInterfaces';
 import useMainState from '@redux/hooks/useMainState';
 import useSearchStringFormatter from '@utils/hooks/useSearchStringFormatter';
 import useCheckLocationComplete from './hooks/useCheckLocationComplete.native';
-import useMainDispatch from '@redux/hooks/useMainDispatch';
 import ListItem from '@components/general/Lists/ListItem.native';
+import useUpdateLocationsComplete from './hooks/useUpdateLocationsComplete';
 
 const LocationList = () => {
-  const { setcompletedLocations } = useMainDispatch();
-  const { searchValue, completedLocations } = useMainState();
+  const { searchValue } = useMainState();
   const getFormattedSearchString = useSearchStringFormatter();
   const filteredLocations: Location[] = locations.filter(location => getFormattedSearchString(location.name).includes(getFormattedSearchString(searchValue)));
   const { checkLocationComplete } = useCheckLocationComplete();
+  const { updateLocationsComplete } = useUpdateLocationsComplete();
   
   // TODO: Add custom map for locations
   return (
@@ -24,15 +24,7 @@ const LocationList = () => {
           id={location.id} 
           name={location.name}
           isComplete={checkLocationComplete({ id: location.id })}
-          action={(): void => {
-            if (checkLocationComplete({ id: location.id })) {
-              setcompletedLocations(completedLocations.filter(locationId => locationId !== location.id));
-            }
-            else {
-              const updateCompletedLocations = [...completedLocations, location.id]
-              setcompletedLocations(updateCompletedLocations);
-            }
-          }}
+          action={(): void => updateLocationsComplete(location.id)}
         />
       ))}
     </ScrollableList>

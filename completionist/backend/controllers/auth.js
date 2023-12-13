@@ -16,6 +16,7 @@ const signup = async (req, res) => {
       subscription,
       data
      } = req.body;
+     console.log("REQ BODY: ", req.body)
     if (!userId) {
       return res.json({
         error: "userId is required",
@@ -43,7 +44,7 @@ const signup = async (req, res) => {
         expiresIn: "7d",
       });
       const { password, ...rest } = user._doc;
-      console.log(user);
+
       return res.json({
         token,
         user: rest,

@@ -5,14 +5,18 @@ import useEndpoints from './useEndpoints';
 import useKeychain from './useKeychain.native';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
 import useCache from './useCache.native';
+import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
+import { ScreenEnum } from '@utils/CustomEnums';
+import { User } from '@utils/CustomInterfaces';
 
 const useInitUserData = () => {
   const appState = useRef(AppState.currentState);
-  const { setUser } = useMainDispatch();
+  const navigation = useReactNavigation();
+  const { setUser, setLoggedIn } = useMainDispatch();
   const { isLoggedIn } = useMainState();
   const { getCredentials, checkIfCredentialsExist } = useKeychain();
   const { getUserByUserId, updateUserData } = useEndpoints();
-  const { fetchData, saveToCache } = useCache();
+  const { fetchData, saveToCache, clearCache } = useCache();
   
   useEffect(() => {
     const subscription = AppState.addEventListener('change', nextAppState => {
@@ -25,18 +29,27 @@ const useInitUserData = () => {
               // Get user if user credentials exist
               if (exists) {
                 // Get user from cache
+                // TODO: TypeError: Cannot read property 'skyrim' of undefined
                 fetchData()
                   .then(userData => {
                     if (!!userData) {
-                      console.log("USER DATA: ", userData)
                       setUser(userData);
+                      saveToCache(userData);
+                      setLoggedIn(true);
+                      navigation.navigate(ScreenEnum.Quests);
+                    }
+                    else {
+                      getUserByUserId({ userId: response?.password })
+                        .then((user: (User | null)) => {
+                          if (!!user) {
+                            setUser(user);
+                            saveToCache(user);
+                            setLoggedIn(true);
+                            navigation.navigate(ScreenEnum.Quests);
+                          }
+                        });
                     }
                   });
-                // getUserByUserId({ userId: response?.password })
-                //   .then((user: (User | null)) => {
-                //     console.log("1-USER: ", user)
-                //     saveToCache(user);
-                //   });
               }
             }
           })

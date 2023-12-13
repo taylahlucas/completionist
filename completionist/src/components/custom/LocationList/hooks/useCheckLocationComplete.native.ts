@@ -1,18 +1,14 @@
 import useMainState from '@redux/hooks/useMainState';
 
-interface CheckLocationCompleteProps {
-  id: string;
-}
-
 interface CheckLocationCompleteReturnType {
-  checkLocationComplete: ({ id }: CheckLocationCompleteProps) => boolean;
+  checkLocationComplete: (id: string) => boolean;
 }
 
 const useCheckLocationComplete = (): CheckLocationCompleteReturnType => {
-  const { completedLocations } = useMainState();
+  const { user } = useMainState();
 
-  const checkLocationComplete = ({ id }: CheckLocationCompleteProps): boolean => {
-    return !!completedLocations.find(locationId => locationId === id)
+  const checkLocationComplete = (id: string): boolean => {
+    return !!user.data.skyrim.locations.find(item => item.id === id)
   };
 
   return { checkLocationComplete }
