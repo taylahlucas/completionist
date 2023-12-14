@@ -1,7 +1,9 @@
+import { SubscriptionTypeEnum } from '@utils/CustomEnums';
 import { Item, User, UserFormData } from '@utils/CustomInterfaces';
 import { Dispatch } from 'redux';
 import { 
   setAppState,
+  setSelectedGame,
   setWebSignInConfigured,
   setLoggedIn,
   setUserFormData,
@@ -18,6 +20,7 @@ import { useAppDispatch } from '../store';
 
 interface MainDispatch {
   setAppState: (value: string) => void;
+  setSelectedGame: (value: SubscriptionTypeEnum) => void;
   setWebSignInConfigured: (value: boolean) => void;
   setLoggedIn: (value: boolean) => void;
   setUserFormData: (value: UserFormData) => void;
@@ -37,6 +40,9 @@ const useMainDispatch = (): MainDispatch => {
   return {
     setAppState(value: string): void {
       dispatch(setAppState(value));
+    },
+    setSelectedGame(value: string): void {
+      dispatch(setSelectedGame(value));
     },
     setWebSignInConfigured(value: boolean): void {
       dispatch(setWebSignInConfigured(value));

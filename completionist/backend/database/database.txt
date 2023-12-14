@@ -1,7 +1,3 @@
-Creation Club quests
-DLC Quests
-Conflicting quests
-
 Locations
 {
   id: generated_uuid
@@ -35,3 +31,51 @@ Quests
   hold?: string
   href?: string
 }
+
+
+SKYRIM DLC
+  - Dawnguard (locations, quests, weapons, armour, books, unique items)
+  - Hearthfire
+  - Dragonborn
+  - Special Edition
+  - Creation Club
+
+
+Fallout 4 DLC
+- Automatron 
+- Far Harbor
+- Vault-Tec
+- Nuka-World
+
+
+
+War Never Changes
+Out of Time
+Jewel of the Commonwealth
+Unlikely Valentine
+Getting a Clue
+Reunions
+
+
+Dangerous Minds
+The Glowing Sea
+Hunter/Hunted
+The Molecular Level
+Institutionalized
+
+
+Can you do the convert the following fall4 Faction Quests quests
+to the following JSON:
+
+{
+  id: <generated_uuid>
+  mainCategory: "Faction Quests"
+  subCategory?: "Side Quests"
+  subCategoryType?: ""
+  title: <given value>
+  location?: <location of quest>
+  hold?: <hold of quest>
+  href?: ""
+}
+
+Can you do the same with the following fallout 4 faction quests, where mainCategory = Side Quests, subCategory = Unmarked Quests and subCategoryType = "", updating the location and hold of the quest if known

@@ -5,10 +5,13 @@ import ScrollableList from '@components/general/Lists/ScrollableList.native';
 import { ScreenEnum, SubscriptionTypeEnum } from '@utils/CustomEnums';
 import { Subscription } from '@utils/CustomInterfaces';
 import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
+import useMainDispatch from '@redux/hooks/useMainDispatch';
 
 const GameList = () => {
   const theme = useGetTheme();
   const navigation = useReactNavigation();
+  const { setSelectedGame, reset } = useMainDispatch();
+  
   const games: Subscription[] = [
     {
       id: SubscriptionTypeEnum.SKYRIM,
@@ -28,7 +31,11 @@ const GameList = () => {
           color={theme.midGrey}
           title={game.id} 
           enabled={game.isActive}
-          onPress={() => navigation.navigate(ScreenEnum.Quests)}
+          onPress={(): void => {
+            reset();
+            setSelectedGame(game.id);
+            navigation.navigate(ScreenEnum.Quests);
+          }}
         />
       ))}
     </ScrollableList>

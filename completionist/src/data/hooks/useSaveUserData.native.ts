@@ -6,6 +6,7 @@ import useKeychain from './useKeychain.native';
 import { ScreenEnum } from '@utils/CustomEnums';
 import { initialFormData } from '@redux/MainState';
 import { CredentialsResponse } from '@utils/CustomTypes';
+import { initialUserData } from '@redux/MainState';
 
 interface SaveUserDataReturnType {
   loadUserData: () => void;
@@ -19,6 +20,16 @@ const useSaveUserData = (): SaveUserDataReturnType => {
   const { fetchDataFromCache, saveToCache, clearCache } = useCache();
   const { getCredentials, storeCredentials, deleteCredentials } = useKeychain();
 
+  const validatedUserData = (user: User): User => {
+    return {
+      ...user,
+      data: {
+        skyrim: !!user.data?.skyrim ? user.data?.skyrim : initialUserData,
+        fallout4: !!user.data?.fallout4 ? user.data?.fallout4 : initialUserData
+      }
+    }
+  };
+
   const loadUserData = () => {
     getCredentials()
       .then((credentials: CredentialsResponse) => {
@@ -26,7 +37,7 @@ const useSaveUserData = (): SaveUserDataReturnType => {
           fetchDataFromCache(credentials.password)
             .then(cachedData => {
               if (!!cachedData) {
-                saveUserData(cachedData);
+                saveUserData(validatedUserData(cachedData));
               }
             });
         }

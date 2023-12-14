@@ -1,7 +1,14 @@
 import { createSlice } from '@reduxjs/toolkit';
 import { SubscriptionTypeEnum } from '@utils/CustomEnums';
-import { User, UserFormData } from '@utils/CustomInterfaces';
+import { GeneralData, User, UserFormData } from '@utils/CustomInterfaces';
 import { AppStateStatus } from 'react-native';
+
+export const initialUserData: GeneralData = {
+  quests: [],
+  collectables: [],
+  locations: [],
+  miscellaneous: []
+}
 
 export const initialUser: User = {
   userId: '',
@@ -48,6 +55,7 @@ export const initialFormData: UserFormData = {
 
 export interface MainState {
   readonly appState?: AppStateStatus,
+  readonly selectedGame: SubscriptionTypeEnum;
   readonly webSignInConfigured: boolean;
   readonly isLoggedIn: boolean;
   readonly userFormData: UserFormData;
@@ -57,6 +65,7 @@ export interface MainState {
 }
 
 export const initialState: MainState = {
+  selectedGame: SubscriptionTypeEnum.SKYRIM,
   webSignInConfigured: false,
   isLoggedIn: false,
   userFormData: initialFormData,
@@ -71,6 +80,9 @@ const slice = createSlice({
   reducers: {
     setAppState: (state, action) => {
       state.appState = action.payload;
+    },
+    setSelectedGame: (state, action) => {
+      state.selectedGame = action.payload;
     },
     setWebSignInConfigured: (state, action) => {
       state.webSignInConfigured = action.payload;
@@ -111,6 +123,7 @@ const slice = createSlice({
 
 export const {
   setAppState,
+  setSelectedGame,
   setWebSignInConfigured,
   setLoggedIn,
   setUserFormData,

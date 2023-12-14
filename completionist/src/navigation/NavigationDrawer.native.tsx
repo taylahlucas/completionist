@@ -13,14 +13,17 @@ import { RootDrawerParamList } from '@utils/CustomInterfaces';
 import NavigationDrawerBody from './NavigationDrawerBody.native';
 import style, { NavigationDrawerContainer } from './NavigationStyledComponents.native';
 import Signup from '@screens/Signup.native';
+import useMainState from '@redux/hooks/useMainState';
 
 const Drawer = createDrawerNavigator<RootDrawerParamList>();
 
 const NavigationDrawer = () => {
+  const { selectedGame } = useMainState();
+  
   const NavigationDrawerContent = (): JSX.Element => {
     return (
       <NavigationDrawerContainer>
-        <StyledText>Skyrim</StyledText>
+        <StyledText>{selectedGame}</StyledText>
         <NavigationDrawerBody />
       </NavigationDrawerContainer>
     );

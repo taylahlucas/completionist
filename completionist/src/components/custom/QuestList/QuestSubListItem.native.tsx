@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { getQuestSubCategoriesTypes } from '@data/functions';
 import Dropdown from '@components/general/Dropdown/Dropdown.native';
 import QuestSubTypeListItem from './QuestSubTypeListItem.native';
 import Condition from '@components/general/Condition.native';
@@ -18,8 +17,8 @@ export interface QuestSubListItemProps {
 const QuestSubListItem = ({ category, completed, total }: QuestSubListItemProps) => {
   const { showSearchResults } = useMainState();
   const [isOpen, setIsOpen] = useState<boolean>(false);
+  const { getQuestsForSubCategoryWithType, getQuestSubCategoriesTypes} = useGetQuests();
   const subCategoryTypes = getQuestSubCategoriesTypes(category);
-  const { getQuestsForSubCategoryWithType } = useGetQuests();
   const { checkQuestsCompleteForCategory } = useCheckQuestComplete();
   const mainQuests = getQuestsForSubCategoryWithType(category, '');
   

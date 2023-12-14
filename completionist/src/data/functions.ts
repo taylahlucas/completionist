@@ -1,11 +1,13 @@
-import quests from '../../backend/database/skyrim_quests.json';
+import skyrim_quests from '../../backend/database/skyrim_quests.json';
 import collectables from '../../backend/database/skyrim_collectables.json';
 import misc from '../../backend/database/skyrim_misc.json';
-import { SkyrimQuest, Collectable, MiscItem } from '@utils/CustomInterfaces';
+import { Quest, Collectable, MiscItem } from '@utils/CustomInterfaces';
+import { SubscriptionTypeEnum } from '@utils/CustomEnums';
 
-export const mapDataToQuests = (): SkyrimQuest[] => {
-  return quests.map(quest => {
-   return quest as SkyrimQuest
+// TOOD: Move to use Hook
+export const mapDataToQuests = (): Quest[] => {
+  return skyrim_quests.map(quest => {
+   return quest as Quest
   });
 };
 
@@ -21,7 +23,7 @@ export const mapDataToMiscItems= (): MiscItem[] => {
   });
 };
 
-export const mappedQuests: SkyrimQuest[] = mapDataToQuests();
+export const mappedQuests: Quest[] = mapDataToQuests();
 export const mappedCollectables: Collectable[] = mapDataToCollectables();
 export const mappedMiscItems: MiscItem[] = mapDataToMiscItems();
 

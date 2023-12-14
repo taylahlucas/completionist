@@ -27,7 +27,7 @@ const useInitUserData = () => {
   useEffect(() => {
     switch (appState) {
       case 'active':
-        if (!isLoggedIn || !!user.userId) {
+        if (!isLoggedIn || !user.userId) {
           loadUserData();
         }
         return;

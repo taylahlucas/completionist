@@ -1,13 +1,10 @@
 import React from 'react';
-import useMainDispatch from '@redux/hooks/useMainDispatch';
-import useMainState from '@redux/hooks/useMainState';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import Condition from '@components/general/Condition.native';
 import StyledText from '@components/general/Text/StyledText.native';
 import useGetLocationString from './hooks/useGetLocationString.native';
 import CheckBox from '@components/general/Checkbox/CheckBox.native';
 import { QuestListItemContainer, QuestListItemLocationContainer, QuestListItemTitle, QuestListItemContentContainer } from './QuestListStyledComponents.native';
-import useUpdateCollectablesComplete from '../CollectableList/hooks/useUpdateCollectablesComplete';
 import useUpdateQuestItemsComplete from './hooks/useUpdateQuestItemsComplete';
 
 interface QuestListItemProps {

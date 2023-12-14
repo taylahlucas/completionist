@@ -10,7 +10,7 @@ export interface UserFormData {
   subscription: Subscription[];
 }
 
-export interface SkyrimQuest {
+export interface Quest {
   id: string;
   mainCategory: string;
   subCategory?: string;
@@ -19,7 +19,6 @@ export interface SkyrimQuest {
   location?: string;
   hold?: string;
   href?: string;
-  isComplete?: boolean;
 }
 
 export interface Location {

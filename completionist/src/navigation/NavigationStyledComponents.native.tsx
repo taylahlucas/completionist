@@ -63,7 +63,7 @@ export const NavigationHeaderText = styled(StyledText)`
 `;
 
 export const NavigationDrawerContainer = styled.View`
-  margin-top: 60px;
+  margin-top: 84px;
   flex-direction: column;
 `;
 
