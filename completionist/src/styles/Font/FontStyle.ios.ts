@@ -35,7 +35,7 @@ export default StyleSheet.create({
   },
   ListItemSubDescription: {
     fontFamily: AVENIR_LIGHT,
-    fontSize: 12,
+    fontSize: 14,
     letterSpacing: 0.37,
     lineHeight: 22,
     fontWeight: REGULAR

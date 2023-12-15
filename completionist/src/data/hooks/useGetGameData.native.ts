@@ -8,7 +8,6 @@ import fallout4_collectables from '../../../backend/database/fallout4/fallout4_c
 import fallout4_misc from '../../../backend/database/fallout4/fallout4_misc.json';
 import { SubscriptionTypeEnum } from '@utils/CustomEnums';
 import { Collectable, Location, MiscItem, Quest } from '@utils/CustomInterfaces';
-import useMainState from '@redux/hooks/useMainState';
 
 interface GameDataReturnType {
   mapDataToQuests: () => Quest[];
@@ -17,8 +16,7 @@ interface GameDataReturnType {
   mapDataToLocations: () => Location[];
 }
 
-const useGetGameData = (): GameDataReturnType => {
-  const { selectedGame } = useMainState();
+const useGetGameData = (selectedGame: SubscriptionTypeEnum = SubscriptionTypeEnum.SKYRIM): GameDataReturnType => {
 
   const mapDataToQuests = (): Quest[] => {
     switch (selectedGame) {

@@ -13,9 +13,9 @@ interface GetLocationReturnType {
 
 const useGetLocations = (): GetLocationReturnType => {
   const { setCompletedLocations } = useMainDispatch();
-  const { searchValue } = useMainState();
+  const { searchValue, selectedGame } = useMainState();
   const getFormattedSearchString = useSearchStringFormatter();
-  const { mapDataToLocations } = useGetGameData();
+  const { mapDataToLocations } = useGetGameData(selectedGame);
   const locations = mapDataToLocations();
   const filteredLocations = locations.filter(item => getFormattedSearchString(item.name).includes(getFormattedSearchString(searchValue)));
   const { getUserLocations } = useGetUserGameData();

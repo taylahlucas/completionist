@@ -1,6 +1,6 @@
+import { Dispatch } from 'redux';
 import { SubscriptionTypeEnum } from '@utils/CustomEnums';
 import { Item, User, UserFormData } from '@utils/CustomInterfaces';
-import { Dispatch } from 'redux';
 import { 
   setAppState,
   setSelectedGame,

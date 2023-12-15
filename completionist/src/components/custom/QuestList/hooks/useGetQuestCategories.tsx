@@ -1,4 +1,5 @@
 import useGetGameData from '@data/hooks/useGetGameData.native';
+import useMainState from '@redux/hooks/useMainState';
 
 interface GetQuestCategoriesReturnType {
   getQuestCategories: () => string[];
@@ -7,7 +8,8 @@ interface GetQuestCategoriesReturnType {
 }
 
 const useGetQuestCategories = (): GetQuestCategoriesReturnType => {
-  const { mapDataToQuests } = useGetGameData();
+  const { selectedGame } = useMainState();
+  const { mapDataToQuests } = useGetGameData(selectedGame);
   const quests = mapDataToQuests();
 
   const getQuestCategories = (): string[] => {

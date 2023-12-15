@@ -6,10 +6,12 @@ import CustomSearchBar from '@components/general/CustomSearchBar/CustomSearchBar
 import { CompletedQuantityTitle } from '@components/general/Text/StyledTextStyledComponents.native';
 import useGetGameData from '@data/hooks/useGetGameData.native';
 import useGetUserGameData from '@data/hooks/useGetUserGameData.native';
+import useMainState from '@redux/hooks/useMainState';
 
 const Collectables = () => {
+  const { selectedGame } = useMainState();
   const { getUserCollectables } = useGetUserGameData();
-  const { mapDataToCollectables } = useGetGameData();
+  const { mapDataToCollectables } = useGetGameData(selectedGame);
 
   return (
     <StandardLayout>

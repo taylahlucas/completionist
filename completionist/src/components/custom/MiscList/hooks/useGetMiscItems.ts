@@ -12,9 +12,9 @@ interface GetMiscItemsReturnType {
 
 const useGetMiscItems = (): GetMiscItemsReturnType => {
   const { setCompletedMiscItems } = useMainDispatch();
-  const { searchValue } = useMainState();
+  const { searchValue, selectedGame } = useMainState();
   const getFormattedSearchString = useSearchStringFormatter();
-  const { mapDataToMiscItems } = useGetGameData();
+  const { mapDataToMiscItems } = useGetGameData(selectedGame);
   const miscItems = mapDataToMiscItems();
   const filteredMiscItems = miscItems.filter(item => getFormattedSearchString(item.name).includes(getFormattedSearchString(searchValue)));
   const { getUserMiscItems } = useGetUserGameData();

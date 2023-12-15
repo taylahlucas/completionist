@@ -2,6 +2,8 @@ import { UserCredentials } from 'react-native-keychain';
 import { User } from './CustomInterfaces';
 
 export type MaterialIconsType =
+  | 'arrow-right'
+  | 'arrow-drop-down'
   | 'cancel'
   | 'check-circle-outline'
   | 'radio-button-unchecked'

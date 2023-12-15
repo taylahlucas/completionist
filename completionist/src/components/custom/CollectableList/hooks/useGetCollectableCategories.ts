@@ -1,4 +1,5 @@
 import useGetGameData from '@data/hooks/useGetGameData.native';
+import useMainState from '@redux/hooks/useMainState';
 
 interface GameDataReturnType {
   getCollectableCategories: () => string[];
@@ -6,7 +7,8 @@ interface GameDataReturnType {
 }
 
 const useGetCollectableCategories = (): GameDataReturnType => {
-  const { mapDataToCollectables } = useGetGameData();
+  const { selectedGame } = useMainState();
+  const { mapDataToCollectables } = useGetGameData(selectedGame);
   const collectables = mapDataToCollectables();
 
   const getCollectableCategories = (): string[] => {

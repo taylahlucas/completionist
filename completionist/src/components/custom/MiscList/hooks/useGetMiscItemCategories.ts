@@ -1,11 +1,13 @@
 import useGetGameData from '@data/hooks/useGetGameData.native';
+import useMainState from '@redux/hooks/useMainState';
 
 interface CheckLocationCompleteReturnType {
   getMiscItemCategories: () => string[];
 }
 
 const useGetMiscItemCategories = (): CheckLocationCompleteReturnType => {
-  const { mapDataToMiscItems } = useGetGameData();
+  const { selectedGame } = useMainState();
+  const { mapDataToMiscItems } = useGetGameData(selectedGame);
   const miscItems = mapDataToMiscItems();
 
   const getMiscItemCategories = (): string[] => {

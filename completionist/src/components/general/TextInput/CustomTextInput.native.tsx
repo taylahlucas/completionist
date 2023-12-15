@@ -1,8 +1,8 @@
 import React from 'react';
-import { Pressable, TextInput } from 'react-native';
+import { TextInput } from 'react-native';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import { styles } from '../CustomSearchBar/CustomSearchBarStyles.native';
-import Icon from '../Icon/Icon.native';
+import IconButton from '../Icon/IconButton.native';
 
 export interface TextInputProps {
   placeholder?: string;
@@ -13,7 +13,7 @@ export interface TextInputProps {
 
 const CustomTextInput = ({ placeholder, value, onChange, onReset }: TextInputProps) => {
   const theme = useGetTheme();
-  
+
   return (
     <>
       <TextInput
@@ -23,12 +23,12 @@ const CustomTextInput = ({ placeholder, value, onChange, onReset }: TextInputPro
         value={value}
         onChange={(event): void => onChange(event.nativeEvent.text ?? '')}
       />
-        <Pressable 
-          style={{ position: 'absolute', right: 16 }}
-          onPress={onReset}
-        >
-        <Icon name={'cancel'} color={theme.midGrey} />
-      </Pressable>
+      <IconButton
+        style={{ position: 'absolute', right: 16 }}
+        onPress={onReset}
+        name={'cancel'}
+        color={theme.midGrey}
+      />
     </>
   );
 };

@@ -1,11 +1,13 @@
 import useGetGameData from '@data/hooks/useGetGameData.native';
+import useMainState from '@redux/hooks/useMainState';
 
 interface GetLocationReturnType {
   getLocationCategories: () => string[];
 }
 
 const useGetLocationCategories = (): GetLocationReturnType => {
-  const { mapDataToLocations } = useGetGameData();
+  const { selectedGame } = useMainState();
+  const { mapDataToLocations } = useGetGameData(selectedGame);
   const locations = mapDataToLocations();
 
   const getLocationCategories = (): string[] => {

@@ -45,7 +45,7 @@ export const initialFormData: UserFormData = {
 
 export interface MainState {
   readonly appState?: AppStateStatus,
-  readonly selectedGame: SubscriptionTypeEnum;
+  readonly selectedGame?: SubscriptionTypeEnum;
   readonly webSignInConfigured: boolean;
   readonly isLoggedIn: boolean;
   readonly userFormData: UserFormData;
@@ -55,7 +55,6 @@ export interface MainState {
 }
 
 export const initialState: MainState = {
-  selectedGame: SubscriptionTypeEnum.SKYRIM,
   webSignInConfigured: false,
   isLoggedIn: false,
   userFormData: initialFormData,
@@ -154,4 +153,5 @@ export const {
   setCompletedLocations,
   reset
 } = slice.actions;
+
 export default slice.reducer;

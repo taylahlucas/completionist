@@ -14,6 +14,8 @@ import NavigationDrawerBody from './NavigationDrawerBody.native';
 import style, { NavigationDrawerContainer } from './NavigationStyledComponents.native';
 import Signup from '@screens/Signup.native';
 import useMainState from '@redux/hooks/useMainState';
+import Settings from '@screens/Settings.native';
+import Condition from '@components/general/Condition.native';
 
 const Drawer = createDrawerNavigator<RootDrawerParamList>();
 
@@ -22,10 +24,12 @@ const NavigationDrawer = () => {
   
   const NavigationDrawerContent = (): JSX.Element => {
     return (
-      <NavigationDrawerContainer>
-        <StyledText>{selectedGame}</StyledText>
-        <NavigationDrawerBody />
-      </NavigationDrawerContainer>
+      <Condition condition={!!selectedGame}>
+        <NavigationDrawerContainer>
+          <StyledText>{selectedGame ?? ''}</StyledText>
+          <NavigationDrawerBody />
+        </NavigationDrawerContainer>
+      </Condition>
     );
   };
 
@@ -47,6 +51,7 @@ const NavigationDrawer = () => {
       <Drawer.Screen name={ScreenEnum.Collectables} component={Collectables} />
       <Drawer.Screen name={ScreenEnum.Miscellaneous} component={Miscellaneous} />
       <Drawer.Screen name={ScreenEnum.Locations} component={Locations} />
+      <Drawer.Screen name={ScreenEnum.Settings} component={Settings} />
     </Drawer.Navigator>
   );
 };

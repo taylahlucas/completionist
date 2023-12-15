@@ -6,10 +6,12 @@ import CustomSearchBar from '@components/general/CustomSearchBar/CustomSearchBar
 import LocationList from '@components/custom/LocationList/LocationList.native';
 import useGetGameData from '@data/hooks/useGetGameData.native';
 import useGetUserGameData from '@data/hooks/useGetUserGameData.native';
+import useMainState from '@redux/hooks/useMainState';
 
 const Locations = () => {
+  const { selectedGame } = useMainState();
   const { getUserLocations } = useGetUserGameData();
-  const { mapDataToLocations} = useGetGameData();
+  const { mapDataToLocations } = useGetGameData(selectedGame);
   
   return (
     <StandardLayout>

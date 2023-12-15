@@ -1,6 +1,7 @@
 import { ScreenEnum, SubscriptionTypeEnum } from './CustomEnums';
 import { NavigationAction, NavigationState } from '@react-navigation/native';
 import { MainState } from '@redux/MainState';
+import { SettingsState } from '@components/custom/SettingsContent/SettingsState';
 
 export interface UserFormData {
   userId: string;
@@ -49,6 +50,7 @@ export interface Base {
 
 export interface StoreState {
   main: MainState;
+  settings: SettingsState;
 }
 
 export interface EnvironmentConfig {
@@ -70,6 +72,7 @@ export type RootDrawerParamList = {
   Collectables: undefined;
   Miscellaneous: undefined;
   Locations: undefined;
+  Settings: undefined;
 };
 
 export interface NativeNavigation {

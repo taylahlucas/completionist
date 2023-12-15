@@ -25,9 +25,9 @@ const Button = ({ title, type = 'default', onPress, style }: ButtonProps) => {
     default:
       return (
         <StyledButtonDefault style={{ ...style }} onPress={onPress} color={theme.darkGrey}>
-        <StyledText>{title}</StyledText>
-      </StyledButtonDefault>
-    );
+          <StyledText>{title}</StyledText>
+        </StyledButtonDefault>
+      );
   }
 };
 

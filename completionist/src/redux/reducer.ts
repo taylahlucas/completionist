@@ -1,8 +1,10 @@
 import { combineReducers } from '@reduxjs/toolkit';
 import mainReducer from './MainState';
+import settingsReducer from '@components/custom/SettingsContent/SettingsState';
 
 export const reducers = {
-  main: mainReducer
+  main: mainReducer,
+  settings: settingsReducer
 }
 
 const rootReducer = combineReducers({ ...reducers })

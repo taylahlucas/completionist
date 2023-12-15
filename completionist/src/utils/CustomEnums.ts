@@ -8,7 +8,8 @@ export enum ScreenEnum {
   Quests = 'Quests',
   Collectables = 'Collectables',
   Miscellaneous = 'Miscellaneous',
-  Locations = 'Locations'
+  Locations = 'Locations',
+  Settings = 'Settings'
 }
 
 export enum IconTypeEnum {
