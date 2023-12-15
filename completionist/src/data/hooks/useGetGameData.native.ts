@@ -3,15 +3,25 @@ import skyrim_collectables from '../../../backend/database/skyrim/skyrim_collect
 import skyrim_locations from '../../../backend/database/skyrim/skyrim_locations.json';
 import skyrim_misc from '../../../backend/database/skyrim/skyrim_misc.json';
 import fallout4_quests from '../../../backend/database/fallout4/fallout4_quests.json';
+import fallout4_locations from '../../../backend/database/fallout4/fallout4_locations.json';
 import fallout4_collectables from '../../../backend/database/fallout4/fallout4_collectables.json';
 import fallout4_misc from '../../../backend/database/fallout4/fallout4_misc.json';
 import { SubscriptionTypeEnum } from '@utils/CustomEnums';
 import { Collectable, Location, MiscItem, Quest } from '@utils/CustomInterfaces';
+import useMainState from '@redux/hooks/useMainState';
 
-// TODO: Add return type
-const useGetGameData = () => {
-  const mapDataToQuests = (game: SubscriptionTypeEnum): Quest[] => {
-    switch (game) {
+interface GameDataReturnType {
+  mapDataToQuests: () => Quest[];
+  mapDataToCollectables: () => Collectable[];
+  mapDataToMiscItems: () => MiscItem[];
+  mapDataToLocations: () => Location[];
+}
+
+const useGetGameData = (): GameDataReturnType => {
+  const { selectedGame } = useMainState();
+
+  const mapDataToQuests = (): Quest[] => {
+    switch (selectedGame) {
       case SubscriptionTypeEnum.SKYRIM:
         return skyrim_quests.map((quest: Quest) => {
           return quest as Quest;
@@ -25,8 +35,8 @@ const useGetGameData = () => {
     }
   };
 
-  const mapDataToCollectables = (game: SubscriptionTypeEnum): Collectable[] => {
-    switch (game) {
+  const mapDataToCollectables = (): Collectable[] => {
+    switch (selectedGame) {
       case SubscriptionTypeEnum.SKYRIM:
         return skyrim_collectables.map((collectable: Collectable) => {
           return collectable as Collectable
@@ -40,8 +50,8 @@ const useGetGameData = () => {
     }
   };
 
-  const mapDataToMiscItems = (game: SubscriptionTypeEnum): MiscItem[] => {
-    switch (game) {
+  const mapDataToMiscItems = (): MiscItem[] => {
+    switch (selectedGame) {
       case SubscriptionTypeEnum.SKYRIM:
         return skyrim_misc.map((collectable: Collectable) => {
           return collectable as Collectable
@@ -55,14 +65,14 @@ const useGetGameData = () => {
     }
   };
 
-  const mapDataToLocations = (game: SubscriptionTypeEnum): Location[] => {
-    switch (game) {
+  const mapDataToLocations = (): Location[] => {
+    switch (selectedGame) {
       case SubscriptionTypeEnum.SKYRIM:
         return skyrim_locations.map((location: Location) => {
           return location as Location;
         });
       case SubscriptionTypeEnum.FALLOUT_4:
-        return skyrim_locations.map((location: Location) => {
+        return fallout4_locations.map((location: Location) => {
           return location as Location;
         });
       default: 

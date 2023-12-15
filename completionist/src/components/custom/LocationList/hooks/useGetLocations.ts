@@ -1,43 +1,28 @@
 import useGetGameData from '@data/hooks/useGetGameData.native';
+import useGetUserGameData from '@data/hooks/useGetUserGameData.native';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
 import useMainState from '@redux/hooks/useMainState';
-import { SubscriptionTypeEnum } from '@utils/CustomEnums';
 import { Item, Location } from '@utils/CustomInterfaces';
 import useSearchStringFormatter from '@utils/hooks/useSearchStringFormatter';
 
-// TODO: Add return type
-const useGetLocations = () => {
+interface GetLocationReturnType {
+  getLocationsForCategory: (category: string) => Location[];
+  getUserLocations: () => Item[];
+  updateLocationsComplete: (locationId: string) => void;
+}
+
+const useGetLocations = (): GetLocationReturnType => {
   const { setCompletedLocations } = useMainDispatch();
-  const { user, searchValue, selectedGame } = useMainState();
+  const { searchValue } = useMainState();
   const getFormattedSearchString = useSearchStringFormatter();
   const { mapDataToLocations } = useGetGameData();
-  const locations = mapDataToLocations(selectedGame);
+  const locations = mapDataToLocations();
   const filteredLocations = locations.filter(item => getFormattedSearchString(item.name).includes(getFormattedSearchString(searchValue)));
+  const { getUserLocations } = useGetUserGameData();
 
   const getLocationsForCategory = (category: string): Location[] => {
     return filteredLocations.filter(item => item.hold === category);
   };
-
-  const getLocationCategories = (): string[] => {
-    let locationCategories: string[] = [];
-    locations.map(location => {
-      if (!locationCategories.find(item => item === location.hold)) {
-        locationCategories.push(location.hold);
-      }
-    });
-    return locationCategories;
-  };
-
-  const getUserLocations = (): Item[] => {
-    switch (selectedGame) {
-      case SubscriptionTypeEnum.SKYRIM:
-        return user.data.skyrim.locations;
-      case SubscriptionTypeEnum.FALLOUT_4:
-        return user.data.fallout4.locations;
-      default: 
-        return []
-    }
-  }
 
   const updateLocationsComplete = (locationId: string) => {
     const userLocations = getUserLocations();
@@ -56,7 +41,6 @@ const useGetLocations = () => {
   return {
     getLocationsForCategory,
     getUserLocations,
-    getLocationCategories,
     updateLocationsComplete
   }
 };

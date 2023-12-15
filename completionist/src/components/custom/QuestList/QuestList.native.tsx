@@ -6,11 +6,13 @@ import useGetQuests from './hooks/useGetQuests';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
 import useMainState from '@redux/hooks/useMainState';
 import useCheckQuestComplete from './hooks/useCheckQuestComplete';
+import useGetQuestCategories from './hooks/useGetQuestCategories';
 
 const QuestList = () => {
   const { triggerShowSearchResults } = useMainDispatch();
   const { searchValue } = useMainState();
-  const { getQuestsForCategory, getAllQuestsForCategory, getQuestCategories } = useGetQuests();
+  const { getQuestsForCategory, getAllQuestsForCategory } = useGetQuests();
+  const { getQuestCategories } = useGetQuestCategories();
   const { checkQuestsCompleteForCategory } = useCheckQuestComplete();
 
   useEffect(() => {

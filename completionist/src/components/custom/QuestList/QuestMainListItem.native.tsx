@@ -8,6 +8,7 @@ import ListHeader from '@components/general/Lists/ListHeader.native';
 import useGetQuests from './hooks/useGetQuests';
 import useMainState from '@redux/hooks/useMainState';
 import useCheckQuestComplete from './hooks/useCheckQuestComplete';
+import useGetQuestCategories from './hooks/useGetQuestCategories';
 
 export interface QuestMainListItemProps {
   category: string;
@@ -18,7 +19,8 @@ export interface QuestMainListItemProps {
 const QuestMainListItem = ({ category, completed, total }: QuestMainListItemProps) => {
   const { showSearchResults } = useMainState();
   const [isOpen, setIsOpen] = useState<boolean>(false);
-  const { getQuestsForSubCategory, getQuestSubCategories } = useGetQuests();
+  const { getQuestsForSubCategory } = useGetQuests();
+  const { getQuestSubCategories } = useGetQuestCategories();
   const subCategories = getQuestSubCategories(category);
   const { checkQuestsCompleteForCategory } = useCheckQuestComplete();
 

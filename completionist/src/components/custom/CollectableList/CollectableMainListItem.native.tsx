@@ -8,6 +8,7 @@ import CollectableSubTypeMainListItem from './CollectableSubTypeMainListItem.nat
 import useGetCollectables from './hooks/useGetCollectables';
 import useMainState from '@redux/hooks/useMainState';
 import useCheckCollectableComplete from './hooks/useCheckCollectableComplete';
+import useGetCollectableCategories from './hooks/useGetCollectableCategories';
 
 export interface CollectableMainListItemProps {
   category: string;
@@ -18,7 +19,8 @@ export interface CollectableMainListItemProps {
 const CollectableMainListItem = ({ category, completed, total }: CollectableMainListItemProps) => {
   const { showSearchResults } = useMainState();
   const [isOpen, setIsOpen] = useState<boolean>(false);
-  const { getCollectablesForSubCategory, getCollectablesForCategory, getCollectableSubCategories } = useGetCollectables();
+  const { getCollectableSubCategories } = useGetCollectableCategories();
+  const { getCollectablesForSubCategory, getCollectablesForCategory } = useGetCollectables();
   const subCategories = getCollectableSubCategories(category);
   const { checkCollectablesCompleteForCategory } = useCheckCollectableComplete();
 

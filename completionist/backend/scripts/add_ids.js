@@ -3,7 +3,6 @@ const { v4: uuidv4 } = require('uuid');
 
 // Function to add UUID to each object in the array
 const addUuidToObjects = (objects) => {
-  // return objects.map((obj) => ({ _id: uuidv4(), ...obj }));
   return objects.map((obj) => ({ 
     id: obj.id,
     type: 'Book',
@@ -33,7 +32,7 @@ const writeJsonFile = (filePath, data) => {
 };
 
 // Specify the path to your JSON file
-const jsonFilePath = 'skyrim_misc.json';
+const jsonFilePath = 'skyrim_quests.json';
 
 // Read objects from the JSON file
 const objects = readJsonFile(jsonFilePath);

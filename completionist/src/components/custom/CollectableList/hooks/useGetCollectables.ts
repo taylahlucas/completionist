@@ -3,16 +3,23 @@ import useMainState from '@redux/hooks/useMainState';
 import useSearchStringFormatter from '@utils/hooks/useSearchStringFormatter';
 import useGetGameData from '@data/hooks/useGetGameData.native';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
-import { SubscriptionTypeEnum } from '@utils/CustomEnums';
+import useGetUserGameData from '@data/hooks/useGetUserGameData.native';
 
-// TODO: Add return type
-const useGetCollectables = () => {
+interface GameDataReturnType {
+  getCollectablesForSubCategory: (type: string, subType?: string) => Collectable[];
+  getCollectablesForCategory: (type: string) => Collectable[];
+  getAllCollectablesForCategory: (type: string) => Collectable[];
+  updateCollectablesComplete: (questId: string) => void;
+}
+
+const useGetCollectables = (): GameDataReturnType => {
   const { setCompletedCollectables } = useMainDispatch();
   const { user, searchValue, selectedGame } = useMainState();
   const getFormattedSearchString = useSearchStringFormatter();
   const { mapDataToCollectables } = useGetGameData();
-  const collectables = mapDataToCollectables(selectedGame);
+  const collectables = mapDataToCollectables();
   const filteredCollectables = collectables.filter(collectable => getFormattedSearchString(collectable.name).includes(getFormattedSearchString(searchValue)));
+  const { getUserCollectables } = useGetUserGameData();
 
   const getCollectablesForSubCategory = (type: string, subType: string = ''): Collectable[] => {
     return filteredCollectables.filter(collectable => collectable.type === type && collectable.subType === subType);
@@ -23,44 +30,10 @@ const useGetCollectables = () => {
   }
 
   const getAllCollectablesForCategory = (type: string): Collectable[] => {
-    return mapDataToCollectables(selectedGame).filter(collectable => collectable.type === type);
+    return collectables.filter(collectable => collectable.type === type);
   }
 
-  const getCollectableCategories = (): string[] => {
-    let collectableCategories: string[] = [];
-    collectables.map(collectable => {
-      if (!collectableCategories.find(item => item === collectable.type)) {
-        collectableCategories.push(collectable.type);
-      }
-    });
-    return collectableCategories;
-  }
-
-  const getCollectableSubCategories = (category: string): string[] => {
-    const filteredCollectables = collectables.filter(collectable => collectable.type === category);
-    let collectableSubCategories: string[] = [];
-    filteredCollectables.map(collectable => {
-      if (!collectableSubCategories.find(item => item === collectable.subType)) {
-        if (!!collectable.subType) {
-          collectableSubCategories.push(collectable.subType);
-        }
-      }
-    });
-    return collectableSubCategories;
-  }
-
-  const getUserCollectables = (): Item[] => {
-    switch (selectedGame) {
-      case SubscriptionTypeEnum.SKYRIM:
-        return user.data.skyrim.quests;
-      case SubscriptionTypeEnum.FALLOUT_4:
-        return user.data.fallout4.quests;
-      default: 
-        return []
-    }
-  }
-
-  const updateCollectablesComplete = (questId: string) => {
+  const updateCollectablesComplete = (questId: string): void => {
     const userCollectables = getUserCollectables();
     const itemToUpdate = userCollectables.find(item => item.id === questId);
     if (!!itemToUpdate) {
@@ -78,8 +51,6 @@ const useGetCollectables = () => {
     getCollectablesForSubCategory,
     getCollectablesForCategory,
     getAllCollectablesForCategory,
-    getCollectableCategories,
-    getCollectableSubCategories,
     updateCollectablesComplete
   }
 };

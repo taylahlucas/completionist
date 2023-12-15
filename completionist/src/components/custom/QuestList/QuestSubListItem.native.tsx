@@ -7,6 +7,7 @@ import useMainState from '@redux/hooks/useMainState';
 import SubListHeader from '@components/general/Lists/SubListHeader.native';
 import useCheckQuestComplete from './hooks/useCheckQuestComplete';
 import useGetQuests from './hooks/useGetQuests';
+import useGetQuestCategories from './hooks/useGetQuestCategories';
 
 export interface QuestSubListItemProps {
   category: string;
@@ -17,7 +18,8 @@ export interface QuestSubListItemProps {
 const QuestSubListItem = ({ category, completed, total }: QuestSubListItemProps) => {
   const { showSearchResults } = useMainState();
   const [isOpen, setIsOpen] = useState<boolean>(false);
-  const { getQuestsForSubCategoryWithType, getQuestSubCategoriesTypes} = useGetQuests();
+  const { getQuestsForSubCategoryWithType} = useGetQuests();
+  const { getQuestSubCategoriesTypes } = useGetQuestCategories();
   const subCategoryTypes = getQuestSubCategoriesTypes(category);
   const { checkQuestsCompleteForCategory } = useCheckQuestComplete();
   const mainQuests = getQuestsForSubCategoryWithType(category, '');

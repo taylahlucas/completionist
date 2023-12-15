@@ -6,11 +6,13 @@ import Condition from '@components/general/Condition.native';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
 import useMainState from '@redux/hooks/useMainState';
 import useCheckCollectableComplete from './hooks/useCheckCollectableComplete';
+import useGetCollectableCategories from './hooks/useGetCollectableCategories';
 
 const CollectableList = () => {
   const { triggerShowSearchResults } = useMainDispatch();
   const { searchValue } = useMainState();
-  const { getCollectablesForCategory, getAllCollectablesForCategory, getCollectableCategories } = useGetCollectables();
+  const { getCollectableCategories } = useGetCollectableCategories();
+  const { getCollectablesForCategory, getAllCollectablesForCategory } = useGetCollectables();
   const { checkCollectablesCompleteForCategory } = useCheckCollectableComplete();
   
   useEffect(() => {

@@ -4,267 +4,303 @@
     "type": "Bobbleheads",
     "name": "Agility Bobblehead",
     "subType": "",
-    "prerequisite": ""
+    "prerequisite": "",
+    "dlc": "None"
   },
   {
     "id": "2a3b45c6-7d89-012e-fgh2-345678i9j05o",
     "type": "Bobbleheads",
     "name": "Barter Bobblehead",
     "subType": "",
-    "prerequisite": ""
+    "prerequisite": "",
+    "dlc": "None"
   },
   {
     "id": "3a3b45c6-7d89-012e-fgh2-345678i9j05o",
     "type": "Bobbleheads",
     "name": "Big guns Bobblehead",
     "subType": "",
-    "prerequisite": ""
+    "prerequisite": "",
+    "dlc": "None"
   },
   {
     "id": "4a3b45c6-7d89-012e-fgh2-345678i9j05o",
     "type": "Bobbleheads",
     "name": "Charisma Bobblehead",
     "subType": "",
-    "prerequisite": ""
+    "prerequisite": "",
+    "dlc": "None"
   },
   {
     "id": "5a3b45c6-7d89-012e-fgh2-345678i9j05o",
     "type": "Bobbleheads",
     "name": "Endurance Bobblehead",
     "subType": "",
-    "prerequisite": ""
+    "prerequisite": "",
+    "dlc": "None"
   },
   {
     "id": "6a3b45c6-7d89-012e-fgh2-345678i9j05o",
     "type": "Bobbleheads",
     "name": "Energy weapons Bobblehead",
     "subType": "",
-    "prerequisite": ""
+    "prerequisite": "",
+    "dlc": "None"
   },
   {
     "id": "7a3b45c6-7d89-012e-fgh2-345678i9j05o",
     "type": "Bobbleheads",
     "name": "Explosives Bobblehead",
     "subType": "",
-    "prerequisite": ""
+    "prerequisite": "",
+    "dlc": "None"
   },
   {
     "id": "8a3b45c6-7d89-012e-fgh2-345678i9j05o",
     "type": "Bobbleheads",
     "name": "Intelligence Bobblehead",
     "subType": "",
-    "prerequisite": ""
+    "prerequisite": "",
+    "dlc": "None"
   },
   {
     "id": "9a3b45c6-7d89-012e-fgh2-345678i9j05o",
     "type": "Bobbleheads",
     "name": "Lock picking Bobblehead",
     "subType": "",
-    "prerequisite": ""
+    "prerequisite": "",
+    "dlc": "None"
   },
   {
     "id": "10a3b45c6-7d89-012e-fgh2-345678i9j05o",
     "type": "Bobbleheads",
     "name": "Luck Bobblehead",
     "subType": "",
-    "prerequisite": ""
+    "prerequisite": "",
+    "dlc": "None"
   },
   {
     "id": "11a3b45c6-7d89-012e-fgh2-345678i9j05o",
     "type": "Bobbleheads",
     "name": "Medicine Bobblehead",
     "subType": "",
-    "prerequisite": ""
+    "prerequisite": "",
+    "dlc": "None"
   },
   {
     "id": "12a3b45c6-7d89-012e-fgh2-345678i9j05o",
     "type": "Bobbleheads",
     "name": "Melee Bobblehead",
     "subType": "",
-    "prerequisite": ""
+    "prerequisite": "",
+    "dlc": "None"
   },
   {
     "id": "13a3b45c6-7d89-012e-fgh2-345678i9j05o",
     "type": "Bobbleheads",
     "name": "Perception Bobblehead",
     "subType": "",
-    "prerequisite": ""
+    "prerequisite": "",
+    "dlc": "None"
   },
   {
     "id": "14a3b45c6-7d89-012e-fgh2-345678i9j05o",
     "type": "Bobbleheads",
     "name": "Repair Bobblehead",
     "subType": "",
-    "prerequisite": ""
+    "prerequisite": "",
+    "dlc": "None"
   },
   {
     "id": "15a3b45c6-7d89-012e-fgh2-345678i9j05o",
     "type": "Bobbleheads",
     "name": "Science Bobblehead",
     "subType": "",
-    "prerequisite": ""
+    "prerequisite": "",
+    "dlc": "None"
   },
   {
     "id": "16a3b45c6-7d89-012e-fgh2-345678i9j05o",
     "type": "Bobbleheads",
     "name": "Small Guns Bobblehead",
     "subType": "",
-    "prerequisite": ""
+    "prerequisite": "",
+    "dlc": "None"
   },
   {
     "id": "17a3b45c6-7d89-012e-fgh2-345678i9j05o",
     "type": "Bobbleheads",
     "name": "Sneak Bobblehead",
     "subType": "",
-    "prerequisite": ""
+    "prerequisite": "",
+    "dlc": "None"
   },
   {
     "id": "18a3b45c6-7d89-012e-fgh2-345678i9j05o",
     "type": "Bobbleheads",
     "name": "Speech Bobblehead",
     "subType": "",
-    "prerequisite": ""
+    "prerequisite": "",
+    "dlc": "None"
   },
   {
     "id": "19a3b45c6-7d89-012e-fgh2-345678i9j05o",
     "type": "Bobbleheads",
     "name": "Strength Bobblehead",
     "subType": "",
-    "prerequisite": ""
+    "prerequisite": "",
+    "dlc": "None"
   },
   {
     "id": "20a3b45c6-7d89-012e-fgh2-345678i9j05o",
     "type": "Bobbleheads",
     "name": "Unarmed Bobblehead",
     "subType": "",
-    "prerequisite": ""
+    "prerequisite": "",
+    "dlc": "None"
   },
-
   {
     "id": "1a3b45c6-7d89-012e-fgh2-345678i9j06p",
     "type": "Magazines",
     "subType": "Perk Magazines",
     "name": "Astoundingly Awesome Tales",
-    "prerequisite": ""
+    "prerequisite": "",
+    "dlc": "None"
   },
   {
     "id": "2a3b45c6-7d89-012e-fgh2-345678i9j06p",
     "type": "Magazines",
     "subType": "Perk Magazines",
     "name": "Grognak the Barbarian",
-    "prerequisite": ""
+    "prerequisite": "",
+    "dlc": "None"
   },
   {
     "id": "3a3b45c6-7d89-012e-fgh2-345678i9j06p",
     "type": "Magazines",
     "subType": "Perk Magazines",
     "name": "Guns and Bullets",
-    "prerequisite": ""
+    "prerequisite": "",
+    "dlc": "None"
   },
   {
     "id": "4a3b45c6-7d89-012e-fgh2-345678i9j06p",
     "type": "Magazines",
     "subType": "Perk Magazines",
     "name": "Live & Love",
-    "prerequisite": ""
+    "prerequisite": "",
+    "dlc": "None"
   },
   {
     "id": "5a3b45c6-7d89-012e-fgh2-345678i9j06p",
     "type": "Magazines",
     "subType": "Perk Magazines",
     "name": "Massachusetts Surgical Journal",
-    "prerequisite": ""
+    "prerequisite": "",
+    "dlc": "None"
   },
   {
     "id": "6a3b45c6-7d89-012e-fgh2-345678i9j06p",
     "type": "Magazines",
     "subType": "Perk Magazines",
     "name": "Tales of a Junktown Jerky Vendor",
-    "prerequisite": ""
+    "prerequisite": "",
+    "dlc": "None"
   },
   {
     "id": "7a3b45c6-7d89-012e-fgh2-345678i9j06p",
     "type": "Magazines",
     "subType": "Perk Magazines",
     "name": "Tesla Science Magazine",
-    "prerequisite": ""
+    "prerequisite": "",
+    "dlc": "None"
   },
   {
     "id": "8a3b45c6-7d89-012e-fgh2-345678i9j06p",
     "type": "Magazines",
     "subType": "Perk Magazines",
     "name": "Tumblers Today",
-    "prerequisite": ""
+    "prerequisite": "",
+    "dlc": "None"
   },
   {
     "id": "9a3b45c6-7d89-012e-fgh2-345678i9j06p",
     "type": "Magazines",
     "subType": "Perk Magazines",
     "name": "U.S. Covert Operations",
-    "prerequisite": ""
+    "prerequisite": "",
+    "dlc": "None"
   },
   {
     "id": "10a3b45c6-7d89-012e-fgh2-345678i9j06p",
     "type": "Magazines",
     "subType": "Perk Magazines",
     "name": "Unstoppables",
-    "prerequisite": ""
+    "prerequisite": "",
+    "dlc": "None"
   },
   {
     "id": "11a3b45c6-7d89-012e-fgh2-345678i9j06p",
     "type": "Magazines",
     "subType": "Perk Magazines",
     "name": "Wasteland Survival Guide",
-    "prerequisite": ""
+    "prerequisite": "",
+    "dlc": "None"
   },
-
   {
     "id": "1a3b45c6-7d89-012e-fgh2-345678i9j07q",
     "type": "Magazines",
     "subType": "Miscellaneous Magazines",
     "name": "Hot Rodder",
-    "prerequisite": ""
+    "prerequisite": "",
+    "dlc": "None"
   },
   {
     "id": "2a3b45c6-7d89-012e-fgh2-345678i9j07q",
     "type": "Magazines",
     "subType": "Miscellaneous Magazines",
     "name": "La Coiffe",
-    "prerequisite": ""
+    "prerequisite": "",
+    "dlc": "None"
   },
   {
     "id": "3a3b45c6-7d89-012e-fgh2-345678i9j07q",
     "type": "Magazines",
     "subType": "Miscellaneous Magazines",
     "name": "Picket Fences",
-    "prerequisite": ""
+    "prerequisite": "",
+    "dlc": "None"
   },
   {
     "id": "4a3b45c6-7d89-012e-fgh2-345678i9j07q",
     "type": "Magazines",
     "subType": "Miscellaneous Magazines",
     "name": "RobCo",
-    "prerequisite": ""
+    "prerequisite": "",
+    "dlc": "None"
   },
   {
     "id": "5a3b45c6-7d89-012e-fgh2-345678i9j07q",
     "type": "Magazines",
     "subType": "Miscellaneous Magazines",
     "name": "Taboo Tattoos",
-    "prerequisite": ""
+    "prerequisite": "",
+    "dlc": "None"
   },
   {
     "id": "6a3b45c6-7d89-012e-fgh2-345678i9j07q",
     "type": "Magazines",
     "subType": "Miscellaneous Magazines",
     "name": "Total Hack",
-    "prerequisite": ""
+    "prerequisite": "",
+    "dlc": "None"
   },
   {
     "id": "7a3b45c6-7d89-012e-fgh2-345678i9j07q",
     "type": "Magazines",
     "subType": "Miscellaneous Magazines",
     "name": "You're SPECIAL!",
-    "prerequisite": ""
+    "prerequisite": "",
+    "dlc": "None"
   }
 ]

@@ -2,23 +2,26 @@ Locations
 {
   id: generated_uuid
   name: string,
-  hold: string
+  hold: string,
+  dlc: string
 }
 
 Miscellaneous
 {
   id: generated_uuid
   name: string,
-  type: string
+  type: string,
+  dlc: string
 }
 
 Collectables
 {
   id: generated_uuid
-  type: string
-  subType?: string
-  name: string
-  prerequisite?: string
+  type: string,
+  subType?: string,
+  name: string,
+  prerequisite?: string,
+  dlc: string
 }
 
 Quests
@@ -31,6 +34,7 @@ Quests
   location?: string
   hold?: string
   href?: string
+  dlc: string
 }
 
 
@@ -94,3 +98,110 @@ Can you convert the following fallout 4 location data to JSON with hold: "Quincy
   hold: "Quincy Ruins"
 }
 
+
+UNIQUE WEAPONS
+
+Ballistic Weapons
+  Deliverer
+  Eddie's Peace
+  Flare Gun
+  The Gainer
+  Justice
+  Kellogg's Pistol
+  The Last Minute
+  Le FUsil Terribles
+  Overseer's Guardian
+  Reba
+  Reba II
+  Silver Submachine Gun
+  Spray n' Pray
+  Tinker Tom Special
+  Wastelander's Friend
+
+  Far Harbor DLC
+    Deliverer
+    Kiloton Radium Rifle
+    Lucky Eddy
+    Old Reliable
+    Radical Conversion
+
+  Nuka World DLC
+    The Problem Solver
+    Splattercannon
+
+
+
+Energy Weapons
+  Alien Blaster Pistol
+  Cryolator
+  Experiment 18-A
+  Good Intensions
+  Lorenzo's Artifact
+  Old Faithful
+  Prototype UP77 "Limitless Potential"
+  Righteous Authority
+  Sentinel's Plasmacaster
+  Survivor's Special
+  Virgil's Rifle
+  Wazer Wifle
+
+  Nuka World DLC
+    Hub's Alien Blaster
+
+  Automatron
+    Protectron's Gaze
+    Salvaged Assaultron Head
+    Tesla Rifle
+
+
+
+Heavy Weapons
+  Ashmaker
+  Big Boy
+  Broadsider
+  Death From Above
+  Final Judgement
+  Partystarter
+
+  Far Harbour DLC
+    Admiral's Friend
+    Defender's Harpoon Gun
+    Sergeant Ash
+    Skipper's Last Stand
+    The Striker
+
+  Nuka World DLC
+    Aeternus
+    Nuka-nuke Launcher
+
+
+Melee Weapons
+  2076 World Series Baseball Bat
+  Big Jim
+  General Chao's Revenge
+  Grognak's Axe
+  Kremvh's Tooth
+  Pickman's Blade
+  Reckoning
+  Rockville Slugger
+  Shem Drowne Sword
+  Zao's Sword
+
+  Far Harbor DLC
+    Atom's Judgement
+    Bloodletter
+    Fencebuster
+    The Fish Catcher
+    The Harvester
+
+  Nuka World DLC
+    Cito's Shiny Slugger
+    Sword of Wonders
+    Throatslicer
+
+
+Unarmed Weapons
+  Furious Power Fist
+  
+  Far Harbor DLC
+    Butcher's Hook

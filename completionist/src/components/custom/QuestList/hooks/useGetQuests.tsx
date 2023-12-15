@@ -3,14 +3,22 @@ import useMainState from '@redux/hooks/useMainState';
 import useSearchStringFormatter from '@utils/hooks/useSearchStringFormatter';
 import useGetGameData from '@data/hooks/useGetGameData.native';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
-import { SubscriptionTypeEnum } from '@utils/CustomEnums';
+import useGetUserGameData from '@data/hooks/useGetUserGameData.native';
 
-// TODO: Add return type
-const useGetQuests = () => {
+interface GetQuestReturnType {
+  getQuestsForSubCategory: (subCategory: string) => Quest[];
+  getQuestsForSubCategoryWithType: (subCategory: string, subCategoryType?: string) => Quest[];
+  getQuestsForCategory: (mainCategory: string) => Quest[];
+  getAllQuestsForCategory: (mainCategory: string) => Quest[];
+  updateQuestItemsComplete: (questId: string) => void;
+}
+
+const useGetQuests = (): GetQuestReturnType => {
   const { setCompletedQuests } = useMainDispatch();
-  const { searchValue, selectedGame, user } = useMainState();
+  const { searchValue } = useMainState();
+  const { getUserQuests } = useGetUserGameData();
   const { mapDataToQuests } = useGetGameData();
-  const quests = mapDataToQuests(selectedGame);
+  const quests = mapDataToQuests();
   const getFormattedSearchString = useSearchStringFormatter();
   const filteredQuests = quests.filter(quest => getFormattedSearchString(quest.title).includes(getFormattedSearchString(searchValue)));
 
@@ -28,53 +36,6 @@ const useGetQuests = () => {
 
   const getAllQuestsForCategory = (mainCategory: string): Quest[] => {
     return quests.filter(quest => quest.mainCategory === mainCategory);
-  }
-
-  const getQuestCategories = (): string[] => {
-    let questCategories: string[] = [];
-    quests.map(quest => {
-      if (!questCategories.find(item => item === quest.mainCategory)) {
-        questCategories.push(quest.mainCategory);
-      }
-    });
-    return questCategories;
-  }
-
-  const getQuestSubCategories = (category: string): string[] => {
-    const filteredQuests = quests.filter(quest => quest.mainCategory === category);
-    let questSubCategories: string[] = [];
-    filteredQuests.map(quest => {
-      if (!questSubCategories.find(item => item === quest.subCategory)) {
-        if (!!quest.subCategory) {
-          questSubCategories.push(quest.subCategory);
-        }
-      }
-    });
-    return questSubCategories;
-  }
-
-  const getQuestSubCategoriesTypes = (subCategory: string): string[] => {
-    const filteredQuests = quests.filter(quest => quest.subCategory === subCategory);
-    let questSubCategoryTypes: string[] = [];
-    filteredQuests.map(quest => {
-      if (!questSubCategoryTypes.find(item => item === quest.subCategoryType)) {
-        if (!!quest.subCategoryType) {
-          questSubCategoryTypes.push(quest.subCategoryType);
-        }
-      }
-    });
-    return questSubCategoryTypes;
-  }
-
-  const getUserQuests = (): Item[] => {
-    switch (selectedGame) {
-      case SubscriptionTypeEnum.SKYRIM:
-        return user.data.skyrim.quests;
-      case SubscriptionTypeEnum.FALLOUT_4:
-        return user.data.fallout4.quests;
-      default: 
-        return []
-    }
   }
 
   const updateQuestItemsComplete = (questId: string) => {
@@ -96,9 +57,6 @@ const useGetQuests = () => {
     getQuestsForSubCategoryWithType,
     getQuestsForCategory,
     getAllQuestsForCategory,
-    getQuestCategories,
-    getQuestSubCategories,
-    getQuestSubCategoriesTypes,
     updateQuestItemsComplete
   }
 };

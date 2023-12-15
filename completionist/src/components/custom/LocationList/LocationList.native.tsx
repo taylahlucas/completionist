@@ -4,9 +4,11 @@ import useCheckLocationComplete from './hooks/useCheckLocationComplete';
 import useGetLocations from './hooks/useGetLocations';
 import Condition from '@components/general/Condition.native';
 import LocationMainListItem from './LocationMainListItem.native';
+import useGetLocationCategories from './hooks/useGetLocationCategories';
 
 const LocationList = () => {
-  const { getLocationsForCategory, getLocationCategories } = useGetLocations();
+  const { getLocationCategories } = useGetLocationCategories();
+  const { getLocationsForCategory } = useGetLocations();
   const { checkLocationsCompleteForCategory } = useCheckLocationComplete();
 
   return (

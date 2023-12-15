@@ -4,9 +4,11 @@ import MiscMainListItem from './MiscMainListItem.native';
 import useGetMiscItems from './hooks/useGetMiscItems';
 import useCheckMiscItemComplete from './hooks/useCheckMiscItemComplete';
 import Condition from '@components/general/Condition.native';
+import useGetMiscItemCategories from './hooks/useGetMiscItemCategories';
 
 const MiscList = () => {
-  const { getMiscItemsForCategory, getMiscItemCategories } = useGetMiscItems();
+  const { getMiscItemCategories } = useGetMiscItemCategories();
+  const { getMiscItemsForCategory } = useGetMiscItems();
   const { checkMiscItemsCompleteForCategory } = useCheckMiscItemComplete();
   
   return (

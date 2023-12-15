@@ -2,2286 +2,2731 @@
   {
     "id": "0e9e3bc5-63e7-42c4-8baa-15f0bca721aa",
     "name": "Back Bay",
-    "hold": "Back Bay"
+    "hold": "Back Bay",
+    "dlc": "None"
   },
   {
     "id": "31bd7d07-7448-4ebc-a2f8-d2e9d3cbf826",
     "name": "Boston Public Library",
-    "hold": "Back Bay"
+    "hold": "Back Bay",
+    "dlc": "None"
   },
   {
     "id": "e93a7f91-9bf2-49a7-93a5-59f8cefa4a2b",
     "name": "Copley station",
-    "hold": "Back Bay"
+    "hold": "Back Bay",
+    "dlc": "None"
   },
   {
     "id": "6b6e93f8-4e07-42b7-a2ce-576de5b98f09",
     "name": "Dartmouth Professional Building",
-    "hold": "Back Bay"
+    "hold": "Back Bay",
+    "dlc": "None"
   },
   {
     "id": "7cc7b4a1-1d13-4f96-b24f-32f3f3ea8e64",
     "name": "Hubris Comics",
-    "hold": "Back Bay"
+    "hold": "Back Bay",
+    "dlc": "None"
   },
   {
     "id": "c197d3d1-3bb7-42d3-8c60-19813cfd2f72",
     "name": "Jimbo's Tower",
-    "hold": "Back Bay"
+    "hold": "Back Bay",
+    "dlc": "None"
   },
   {
     "id": "a0778d06-e91b-4c50-8795-0f21c90749c7",
     "name": "Layton Towers",
-    "hold": "Back Bay"
+    "hold": "Back Bay",
+    "dlc": "None"
   },
   {
     "id": "e68798aa-0a95-4974-935b-b2f662d8c5f4",
     "name": "Prost bar",
-    "hold": "Back Bay"
+    "hold": "Back Bay",
+    "dlc": "None"
   },
   {
     "id": "8bade8de-2c94-4e5e-86c0-2e0eb57aa39f",
     "name": "Shenley's Oyster Bar",
-    "hold": "Back Bay"
+    "hold": "Back Bay",
+    "dlc": "None"
   },
   {
     "id": "2bf3491f-b84d-4fb5-a59a-1001ec12c160",
     "name": "Trinity Church",
-    "hold": "Back Bay"
+    "hold": "Back Bay",
+    "dlc": "None"
   },
   {
     "id": "ff06a0c4-54b0-49a9-8f1d-0194fe10a4a9",
     "name": "Trinity Plaza",
-    "hold": "Back Bay"
+    "hold": "Back Bay",
+    "dlc": "None"
   },
   {
     "id": "e883eaa1-05e3-4928-bc79-b9b4b77a8f67",
     "name": "Trinity Tower",
-    "hold": "Back Bay"
+    "hold": "Back Bay",
+    "dlc": "None"
   },
   {
     "id": "e8e8c53d-eabe-4d6e-8b65-ec06e4a1e6da",
     "name": "Vault 114",
-    "hold": "Back Bay"
+    "hold": "Back Bay",
+    "dlc": "None"
   },
   {
     "id": "c2f19b51-527e-4505-a0d0-16a45f4f1848",
     "name": "Warren Theater",
-    "hold": "Back Bay"
+    "hold": "Back Bay",
+    "dlc": "None"
   },
   {
     "id": "d6ff562e-1dd6-4e7e-a571-4872078d9c3e",
     "name": "Wilson Atomatoys corporate HQ",
-    "hold": "Back Bay"
+    "hold": "Back Bay",
+    "dlc": "None"
   },
   {
     "id": "3e2b7a7c-8b3d-4645-9c54-9f6e4ea63c53",
     "name": "Beacon Hill",
-    "hold": "Beacon Hill"
+    "hold": "Beacon Hill",
+    "dlc": "None"
   },
   {
     "id": "9b43a2c8-2f4b-4972-9cfc-dc0bb82a6359",
     "name": "Beacon Hill apartments",
-    "hold": "Beacon Hill"
+    "hold": "Beacon Hill",
+    "dlc": "None"
   },
   {
     "id": "0f319dab-8d97-429a-93a1-7b5d265a7b23",
     "name": "Boston Bugle building",
-    "hold": "Beacon Hill"
+    "hold": "Beacon Hill",
+    "dlc": "None"
   },
   {
     "id": "6e1478fb-3428-404d-90c4-7c6b12ab83df",
     "name": "Cabot House",
-    "hold": "Beacon Hill"
+    "hold": "Beacon Hill",
+    "dlc": "None"
   },
   {
     "id": "4b4d529a-5b14-4a22-b789-1bf70eae831d",
     "name": "Lil' Gentry playground",
-    "hold": "Beacon Hill"
+    "hold": "Beacon Hill",
+    "dlc": "None"
   },
   {
     "id": "e619ae4a-fc8a-4e87-b698-2177e9e429bf",
     "name": "Vault-Tec Regional HQ",
-    "hold": "Beacon Hill"
+    "hold": "Beacon Hill",
+    "dlc": "None"
   },
   {
     "id": "f7b01b8e-eb88-4787-87b0-b2f6a0b67f27",
     "name": "Boston Common",
-    "hold": "Boston Common"
+    "hold": "Boston Common",
+    "dlc": "None"
   },
   {
     "id": "cc1b8497-76a2-437c-b3a0-55be407e7a3e",
     "name": "Boylston Club",
-    "hold": "Boston Common"
+    "hold": "Boston Common",
+    "dlc": "None"
   },
   {
     "id": "0e412738-c9d8-4f68-ba9c-7ea265a6f9e3",
     "name": "Massachusetts State House",
-    "hold": "Boston Common"
+    "hold": "Boston Common",
+    "dlc": "None"
   },
   {
     "id": "768a5ae3-5cd3-46cf-8e4b-7122b07b1579",
     "name": "Old Granary burying ground",
-    "hold": "Boston Common"
+    "hold": "Boston Common",
+    "dlc": "None"
   },
   {
     "id": "f7a2f97c-0e22-4b4a-8ef4-5b21fba0f5e7",
     "name": "Park Street station",
-    "hold": "Boston Common"
+    "hold": "Boston Common",
+    "dlc": "None"
   },
   {
     "id": "e8b5e0f9-cff6-481e-80c5-0108a9c66ea7",
     "name": "Swan's Pond",
-    "hold": "Boston Common"
+    "hold": "Boston Common",
+    "dlc": "None"
   },
   {
     "id": "e9ef4a5b-ebc1-4ea4-b4df-781f3b86d9b3",
     "name": "Boston Harbor",
-    "hold": "Boston Harbor"
+    "hold": "Boston Harbor",
+    "dlc": "None"
   },
   {
     "id": "ea59a7e3-8a43-4a9e-803a-af844b1d4fe2",
     "name": "Columbus Park",
-    "hold": "Boston Harbor"
+    "hold": "Boston Harbor",
+    "dlc": "None"
   },
   {
     "id": "f48b50e7-4320-45ea-aed5-18c5c38a31d5",
     "name": "Custom House Tower",
-    "hold": "Boston Harbor"
+    "hold": "Boston Harbor",
+    "dlc": "None"
   },
   {
     "id": "a1847f69-fb43-4314-9ac7-bde73edc4ae2",
     "name": "Harbormaster Hotel",
-    "hold": "Boston Harbor"
+    "hold": "Boston Harbor",
+    "dlc": "None"
   },
   {
     "id": "65c12f13-7be7-4d32-8fe1-ced6a6f620cd",
     "name": "Long Wharf",
-    "hold": "Boston Harbor"
+    "hold": "Boston Harbor",
+    "dlc": "None"
   },
   {
     "id": "50c68b0a-648d-4f09-8a97-f3e3d4f10054",
     "name": "The Shamrock Taphouse",
-    "hold": "Boston Harbor"
+    "hold": "Boston Harbor",
+    "dlc": "None"
   },
   {
     "id": "3a8e545c-3909-4b0c-a9db-5a13a1f0a65b",
     "name": "Yangtze",
-    "hold": "Boston Harbor"
+    "hold": "Boston Harbor",
+    "dlc": "None"
   },
   {
     "id": "d86c3459-ebc0-4fb2-97f4-9d158f4463d2",
     "name": "Cambridge",
-    "hold": "Cambridge"
+    "hold": "Cambridge",
+    "dlc": "None"
   },
   {
     "id": "ed4a693d-5a23-4aae-8653-fc400ae66d72",
     "name": "C.I.T. ruins",
-    "hold": "Cambridge"
+    "hold": "Cambridge",
+    "dlc": "None"
   },
   {
     "id": "e4647e3c-8e38-4b63-8db6-69053c05e888",
     "name": "Cambridge Academic Center",
-    "hold": "Cambridge"
+    "hold": "Cambridge",
+    "dlc": "None"
   },
   {
     "id": "26d0b205-7081-4c44-8650-cd44820786e8",
     "name": "Cambridge campus diner",
-    "hold": "Cambridge"
+    "hold": "Cambridge",
+    "dlc": "None"
   },
   {
     "id": "864ebd8c-b576-4e06-8bc0-bc0a9054de5f",
     "name": "Cambridge church",
-    "hold": "Cambridge"
+    "hold": "Cambridge",
+    "dlc": "None"
   },
   {
     "id": "6fc8d7cc-6e5b-4bc9-a150-8eefb45e93f8",
     "name": "Cambridge construction site",
-    "hold": "Cambridge"
+    "hold": "Cambridge",
+    "dlc": "None"
   },
   {
     "id": "74f6b276-0a93-4c07-9c27-0d8c21d22c77",
     "name": "Cambridge crater",
-    "hold": "Cambridge"
+    "hold": "Cambridge",
+    "dlc": "None"
   },
   {
     "id": "c7e0eb78-55c2-4a5b-b29f-0fb29cf8aa4a",
     "name": "Cambridge hardware store",
-    "hold": "Cambridge"
+    "hold": "Cambridge",
+    "dlc": "None"
   },
   {
     "id": "019b7b8a-8948-4a08-a836-5a53e61d3c8f",
     "name": "Cambridge Police Station",
-    "hold": "Cambridge"
+    "hold": "Cambridge",
+    "dlc": "None"
   },
   {
     "id": "596e9b4b-d17b-4c91-8a22-ec0b4d2c7ce1",
     "name": "Cambridge Polymer Labs",
-    "hold": "Cambridge"
+    "hold": "Cambridge",
+    "dlc": "None"
   },
   {
     "id": "d157d758-fb58-4d7c-9ee0-3e16a79a1ae3",
     "name": "Cambridge raider base",
-    "hold": "Cambridge"
+    "hold": "Cambridge",
+    "dlc": "None"
   },
   {
     "id": "7bd7382a-2c16-41e6-8da7-005537214e10",
     "name": "Camp Kendall",
-    "hold": "Cambridge"
+    "hold": "Cambridge",
+    "dlc": "None"
   },
   {
     "id": "cc257001-e5b1-41c7-a25b-06f5b61844da",
     "name": "Campus law offices",
-    "hold": "Cambridge"
+    "hold": "Cambridge",
+    "dlc": "None"
   },
   {
     "id": "0e6a7fd7-3d96-407a-9b3b-7a7d0e1470f4",
     "name": "College Square",
-    "hold": "Cambridge"
+    "hold": "Cambridge",
+    "dlc": "None"
   },
   {
     "id": "f620d115-0f3f-4d5f-b564-b94c6c77c497",
     "name": "College Square station",
-    "hold": "Cambridge"
+    "hold": "Cambridge",
+    "dlc": "None"
   },
   {
     "id": "7a9e9cf0-7220-4d6e-852e-e5a3a7e6cbdb",
     "name": "Collegiate administration building",
-    "hold": "Cambridge"
+    "hold": "Cambridge",
+    "dlc": "None"
   },
   {
     "id": "bf08a037-535c-4f52-a4a7-15e2026f05ce",
     "name": "East C.I.T. raider camp",
-    "hold": "Cambridge"
+    "hold": "Cambridge",
+    "dlc": "None"
   },
   {
     "id": "1e0dbde7-0f67-4d08-a0c9-6e2e6d22b3d9",
     "name": "Fallon's (Monsignor Plaza)",
-    "hold": "Cambridge"
+    "hold": "Cambridge",
+    "dlc": "None"
   },
   {
     "id": "4f74c8bc-1ae4-4a0c-9343-ae46bc17a8db",
     "name": "Fraternal Post 115",
-    "hold": "Cambridge"
+    "hold": "Cambridge",
+    "dlc": "None"
   },
   {
     "id": "70f116bf-1a6f-4df0-a7e7-28a743b677b8",
     "name": "Greenetech Genetics",
-    "hold": "Cambridge"
+    "hold": "Cambridge",
+    "dlc": "None"
   },
   {
     "id": "1b799556-8b59-4ae4-9d04-3322381ed4a2",
     "name": "Ivy League Bridge",
-    "hold": "Cambridge"
+    "hold": "Cambridge",
+    "dlc": "None"
   },
   {
     "id": "ab6b519e-935e-4752-8d6b-bdab1864f56a",
     "name": "Kendall Hospital",
-    "hold": "Cambridge"
+    "hold": "Cambridge",
+    "dlc": "None"
   },
   {
     "id": "75b93bb4-68a4-45f3-bf89-50500791e5d5",
     "name": "Kendall Parking",
-    "hold": "Cambridge"
+    "hold": "Cambridge",
+    "dlc": "None"
   },
   {
     "id": "ad2a8307-46ec-44c0-a1d2-9f9c2b6703ab",
     "name": "Longfellow Bridge",
-    "hold": "Cambridge"
+    "hold": "Cambridge",
+    "dlc": "None"
   },
   {
     "id": "d7e66307-2f0e-4c52-b6ae-2a8982425512",
     "name": "Mass Chemical",
-    "hold": "Cambridge"
+    "hold": "Cambridge",
+    "dlc": "None"
   },
   {
     "id": "4efb8913-9f9f-4817-90b5-189e0bc3a77c",
     "name": "Monsignor Plaza",
-    "hold": "Cambridge"
+    "hold": "Cambridge",
+    "dlc": "None"
   },
   {
     "id": "53f18cf9-c4f3-4d29-a41a-6375db34d411",
     "name": "Plumber's Secret",
-    "hold": "Cambridge"
+    "hold": "Cambridge",
+    "dlc": "None"
   },
   {
     "id": "aa5d2495-74d1-4a6e-b858-0b2bfcf1e268",
     "name": "Prospect Hill",
-    "hold": "Cambridge"
+    "hold": "Cambridge",
+    "dlc": "None"
   },
   {
     "id": "edb02f7d-7076-4d0c-bf6b-6ce207b55469",
     "name": "Raider platforms",
-    "hold": "Cambridge"
+    "hold": "Cambridge",
+    "dlc": "None"
   },
   {
     "id": "5fc10c6e-7d2d-4f1f-96de-9d5e3720ba45",
     "name": "Red Rocket (Cambridge)",
-    "hold": "Cambridge"
+    "hold": "Cambridge",
+    "dlc": "None"
   },
   {
     "id": "a98daab5-2b60-4d11-a88c-3d28706a4687",
     "name": "Red Rocket (College Square)",
-    "hold": "Cambridge"
+    "hold": "Cambridge",
+    "dlc": "None"
   },
   {
     "id": "14edca54-303b-4d9e-8a20-0d74d4515ae1",
     "name": "Science Center gift shop",
-    "hold": "Cambridge"
+    "hold": "Cambridge",
+    "dlc": "None"
   },
   {
     "id": "64df55ac-0cf1-470b-a92c-611e769bb7f8",
     "name": "Ticonderoga",
-    "hold": "Cambridge"
+    "hold": "Cambridge",
+    "dlc": "None"
   },
   {
     "id": "1f712ad8-9500-4db6-9154-b8adbf1d2009",
     "name": "Union's Hope Cathedral",
-    "hold": "Cambridge"
+    "hold": "Cambridge",
+    "dlc": "None"
   },
   {
     "id": "365c10a2-98fe-4e1a-aa52-02c89c745eae",
     "name": "Walden Drugs",
-    "hold": "Cambridge"
+    "hold": "Cambridge",
+    "dlc": "None"
   },
   {
     "id": "0cd03c78-b0c0-4f13-8369-c41ab9a5e9a7",
     "name": "Wright's Inn",
-    "hold": "Cambridge"
+    "hold": "Cambridge",
+    "dlc": "None"
   },
   {
     "id": "e186b416-c2d2-4c07-9d17-27f4f2b764fe",
     "name": "Concord",
-    "hold": "Concord"
+    "hold": "Concord",
+    "dlc": "None"
   },
   {
     "id": "b40e3d38-53ef-4087-8ae7-5eb23b929a6e",
     "name": "Concord Church",
-    "hold": "Concord"
+    "hold": "Concord",
+    "dlc": "None"
   },
   {
     "id": "1997f9d3-f5cf-4a04-a66d-5bb5713343d5",
     "name": "Concord Civic Access",
-    "hold": "Concord"
+    "hold": "Concord",
+    "dlc": "None"
   },
   {
     "id": "1b08f800-ccff-4a29-a5c2-22e1912b7ac7",
     "name": "Concord Savings and Loan",
-    "hold": "Concord"
+    "hold": "Concord",
+    "dlc": "None"
   },
   {
     "id": "74df4565-6317-42ec-a7a0-4f5f8e201ec2",
     "name": "Concord Speakeasy",
-    "hold": "Concord"
+    "hold": "Concord",
+    "dlc": "None"
   },
   {
     "id": "b69756a2-b50d-4804-9d9c-1d4fb4b7f232",
     "name": "Fallon's (Concord)",
-    "hold": "Concord"
+    "hold": "Concord",
+    "dlc": "None"
   },
   {
     "id": "cde51c8d-b783-49c8-9e88-d8e90578b383",
     "name": "Hardware store",
-    "hold": "Concord"
+    "hold": "Concord",
+    "dlc": "None"
   },
   {
     "id": "33f88197-3c2b-4e1a-94f9-36a723e62d8e",
     "name": "Municipal plutonium well",
-    "hold": "Concord"
+    "hold": "Concord",
+    "dlc": "None"
   },
   {
     "id": "3f5775d2-8db9-4b43-bbed-23b8b48ed835",
     "name": "Museum of Freedom",
-    "hold": "Concord"
+    "hold": "Concord",
+    "dlc": "None"
   },
   {
     "id": "5da1cf6d-9d1b-4806-b340-bd52c8f8e0c7",
     "name": "Northwest house",
-    "hold": "Concord"
+    "hold": "Concord",
+    "dlc": "None"
   },
   {
     "id": "f1bc8a67-0866-4c85-8d15-6989ce593b68",
     "name": "Pinelli's Bakery (Concord)",
-    "hold": "Concord"
+    "hold": "Concord",
+    "dlc": "None"
   },
   {
     "id": "836da4c3-fa9b-41bb-8032-9fc5f3f9d5ab",
     "name": "Walden Drugs",
-    "hold": "Concord"
+    "hold": "Concord",
+    "dlc": "None"
   },
   {
     "id": "dbaf5a7f-ba5b-41d2-9d79-7c1f234fcb11",
     "name": "Workhouse",
-    "hold": "Concord"
+    "hold": "Concord",
+    "dlc": "None"
   },
   {
     "id": "c1045f3f-d80a-4388-9ea2-b73b7627a351",
     "name": "Wright's Inn",
-    "hold": "Concord"
+    "hold": "Concord",
+    "dlc": "None"
   },
   {
     "id": "1e4b4c3e-cf02-4b69-9a2d-63b17175ef24",
     "name": "Abbot's house",
-    "hold": "Diamond City"
+    "hold": "Diamond City",
+    "dlc": "None"
   },
   {
     "id": "1a00e0ea-83a0-46a9-8c61-dc48b49ce1f3",
     "name": "All Faiths Chapel",
-    "hold": "Diamond City"
+    "hold": "Diamond City",
+    "dlc": "None"
   },
   {
     "id": "be6e13b3-24ef-4a85-b447-3e0700ad23b9",
     "name": "Chem-I-Care",
-    "hold": "Diamond City"
+    "hold": "Diamond City",
+    "dlc": "None"
   },
   {
     "id": "a25c9d9a-6db5-4b18-9302-3b6d51ab2a11",
     "name": "Choice Chops",
-    "hold": "Diamond City"
+    "hold": "Diamond City",
+    "dlc": "None"
   },
   {
     "id": "9394ac7e-3d08-4b5b-b3e4-2c37a193f447",
     "name": "Codman residence",
-    "hold": "Diamond City"
+    "hold": "Diamond City",
+    "dlc": "None"
   },
   {
     "id": "5365feae-eb0c-4e45-a733-6c3b0ce8497c",
     "name": "Colonial Taphouse",
-    "hold": "Diamond City"
+    "hold": "Diamond City",
+    "dlc": "None"
   },
   {
     "id": "b0f399ac-e3c3-42a9-9225-3cf77d50f495",
     "name": "Commonwealth Weaponry",
-    "hold": "Diamond City"
+    "hold": "Diamond City",
+    "dlc": "None"
   },
   {
     "id": "63a346f2-c134-4304-bc0c-7c3c3f723b13",
     "name": "Cooke residence",
-    "hold": "Diamond City"
+    "hold": "Diamond City",
+    "dlc": "None"
   },
   {
     "id": "f2d46f63-4221-40a7-bf49-508d09f7aeb9",
     "name": "Diamond City market",
-    "hold": "Diamond City"
+    "hold": "Diamond City",
+    "dlc": "None"
   },
   {
     "id": "ad7a70b0-b7b3-4e23-8e95-6f0b7c0368ec",
     "name": "Diamond City Radio",
-    "hold": "Diamond City"
+    "hold": "Diamond City",
+    "dlc": "None"
   },
   {
     "id": "25e79906-4e10-4fbd-9223-157c7db2d17b",
     "name": "Diamond City Surplus",
-    "hold": "Diamond City"
+    "hold": "Diamond City",
+    "dlc": "None"
   },
   {
     "id": "3c25f9a5-6774-4c0f-b4da-d3e0aaed91d7",
     "name": "Doc Crocker's house",
-    "hold": "Diamond City"
+    "hold": "Diamond City",
+    "dlc": "None"
   },
   {
     "id": "5596d965-19bf-4802-9f0d-8a6f7854e17a",
     "name": "Doctor Sun's house",
-    "hold": "Diamond City"
+    "hold": "Diamond City",
+    "dlc": "None"
   },
   {
     "id": "9b1666e2-5c9e-4015-9c36-c4b39a6fe6a7",
     "name": "Dugout Inn",
-    "hold": "Diamond City"
+    "hold": "Diamond City",
+    "dlc": "None"
   },
   {
     "id": "5f13cb18-7b49-4421-8ac0-04ab5bfcf758",
     "name": "Earl Sterling's house",
-    "hold": "Diamond City"
+    "hold": "Diamond City",
+    "dlc": "None"
   },
   {
     "id": "99651d99-21b2-4b71-9963-dc4d5f2819f4",
     "name": "Fallon's Basement",
-    "hold": "Diamond City"
+    "hold": "Diamond City",
+    "dlc": "None"
   },
   {
     "id": "1ed9b5c2-d68a-4a11-91b9-86902d33d381",
     "name": "Greenhouse",
-    "hold": "Diamond City"
+    "hold": "Diamond City",
+    "dlc": "None"
   },
   {
     "id": "c9ef7c38-0689-4a2a-93cf-0c950d0c35c1",
     "name": "Hawthorne residence",
-    "hold": "Diamond City"
+    "hold": "Diamond City",
+    "dlc": "None"
   },
   {
     "id": "92f8a3c8-1c3a-4a5c-b988-77840cc0cb0f",
     "name": "Home Plate",
-    "hold": "Diamond City"
+    "hold": "Diamond City",
+    "dlc": "None"
   },
   {
     "id": "34e44af1-5b8a-4b5d-b68b-91540e3bc3a5",
     "name": "Kathy & John's Super Salon",
-    "hold": "Diamond City"
+    "hold": "Diamond City",
+    "dlc": "None"
   },
   {
     "id": "b134be9a-3472-4584-aebc-7e5af6da33c2",
     "name": "Kellogg's house",
-    "hold": "Diamond City"
+    "hold": "Diamond City",
+    "dlc": "None"
   },
   {
     "id": "79b6feeb-cfdb-427a-9d8e-3e7ba4507a05",
     "name": "Latimer residence",
-    "hold": "Diamond City"
+    "hold": "Diamond City",
+    "dlc": "None"
   },
   {
     "id": "8c4d74df-c7e9-4f56-a9b2-3f69bcfe70e7",
     "name": "Mayor McDonough's office",
-    "hold": "Diamond City"
+    "hold": "Diamond City",
+    "dlc": "None"
   },
   {
     "id": "86a66682-48b1-461c-a0cc-65a6b56ff978",
     "name": "Mega surgery center",
-    "hold": "Diamond City"
+    "hold": "Diamond City",
+    "dlc": "None"
   },
   {
     "id": "86b8c29c-0ea3-4ac3-bf7f-85be8c7de1cd",
     "name": "Pembroke residence",
-    "hold": "Diamond City"
+    "hold": "Diamond City",
+    "dlc": "None"
   },
   {
     "id": "1d3f8df6-79fb-40a2-a14f-e9022a1d08fc",
     "name": "Power Noodles",
-    "hold": "Diamond City"
+    "hold": "Diamond City",
+    "dlc": "None"
   },
   {
     "id": "53e161b8-e598-49c9-a8f5-0b2f70df742e",
     "name": "Publick Occurrences",
-    "hold": "Diamond City"
+    "hold": "Diamond City",
+    "dlc": "None"
   },
   {
     "id": "5d2f7625-dab3-44ce-aef0-8e42cb72a785",
     "name": "Schoolhouse",
-    "hold": "Diamond City"
+    "hold": "Diamond City",
+    "dlc": "None"
   },
   {
     "id": "fb058a88-44db-4bd0-8ea7-7d6c6bc2d907",
     "name": "Science! Center",
-    "hold": "Diamond City"
+    "hold": "Diamond City",
+    "dlc": "None"
   },
   {
     "id": "97a430be-8c19-4f3f-89e7-63dd9abbc3e4",
     "name": "Security office",
-    "hold": "Diamond City"
+    "hold": "Diamond City",
+    "dlc": "None"
   },
   {
     "id": "724f0fa0-4f13-40f1-ae56-4bea5d2e3bd5",
     "name": "Sheng Kawolski's house",
-    "hold": "Diamond City"
+    "hold": "Diamond City",
+    "dlc": "None"
   },
   {
     "id": "a86642de-d5dd-4ea1-868f-c8c2cdebb148",
     "name": "Swatters",
-    "hold": "Diamond City"
+    "hold": "Diamond City",
+    "dlc": "None"
   },
   {
     "id": "b84ffba7-1472-4b18-8c49-e0b001e823e5",
     "name": "The Wall",
-    "hold": "Diamond City"
+    "hold": "Diamond City",
+    "dlc": "None"
   },
   {
     "id": "d8af35e6-6eb3-427d-aeaf-cf8c38e2d781",
     "name": "Valentine Detective Agency",
-    "hold": "Diamond City"
+    "hold": "Diamond City",
+    "dlc": "None"
   },
   {
     "id": "3d2d06ac-82eb-4180-a27f-82e61c67cc74",
     "name": "East Boston",
-    "hold": "East Boston"
+    "hold": "East Boston",
+    "dlc": "None"
   },
   {
     "id": "4c67dbbd-4511-46c4-a0c9-43c46d225217",
     "name": "Boston Airport",
-    "hold": "East Boston"
+    "hold": "East Boston",
+    "dlc": "None"
   },
   {
     "id": "531a3f50-1c67-4852-85cd-21428ad915b8",
     "name": "Boston Airport ruins",
-    "hold": "East Boston"
+    "hold": "East Boston",
+    "dlc": "None"
   },
   {
     "id": "9d01292f-5e63-4659-bc3a-c26733212d85",
     "name": "Drumlin Diner",
-    "hold": "East Boston"
+    "hold": "East Boston",
+    "dlc": "None"
   },
   {
     "id": "8ee1b071-471d-47f2-9bc7-846ecf7ea4c3",
     "name": "East Boston police station",
-    "hold": "East Boston"
+    "hold": "East Boston",
+    "dlc": "None"
   },
   {
     "id": "c81a1f63-f181-48f9-85d7-120a5254b0ce",
     "name": "East Boston Preparatory School",
-    "hold": "East Boston"
+    "hold": "East Boston",
+    "dlc": "None"
   },
   {
     "id": "d12a0799-2d91-4fb5-83bf-af7c09cf1d8a",
     "name": "Easy City Downs",
-    "hold": "East Boston"
+    "hold": "East Boston",
+    "dlc": "None"
   },
   {
     "id": "5c127749-8420-4ee5-b5e7-9c838751f2e5",
     "name": "RobCo Sales & Service Center",
-    "hold": "East Boston"
+    "hold": "East Boston",
+    "dlc": "None"
   },
   {
     "id": "1f1ad697-004e-4a9f-b4c8-9c24fda10e8f",
     "name": "The Mechanist's lair",
-    "hold": "East Boston"
+    "hold": "East Boston",
+    "dlc": "None"
   },
   {
     "id": "16c6e381-3c25-44f3-ba32-6ef673891da2",
     "name": "The Prydwen",
-    "hold": "East Boston"
+    "hold": "East Boston",
+    "dlc": "None"
   },
   {
     "id": "81372aa5-c2f4-4e58-b2d1-6de2e4a6c04a",
     "name": "Esplanade",
-    "hold": "Esplanade"
+    "hold": "Esplanade",
+    "dlc": "None"
   },
   {
     "id": "7bf458ac-ee3e-49f3-b47f-fd056a3da847",
     "name": "Barricade and rooftops",
-    "hold": "Esplanade"
+    "hold": "Esplanade",
+    "dlc": "None"
   },
   {
     "id": "4d01f996-5c3d-4592-891b-6b1c6b545d4f",
     "name": "Charles View Amphitheater",
-    "hold": "Esplanade"
+    "hold": "Esplanade",
+    "dlc": "None"
   },
   {
     "id": "6c2b60a0-eace-45b1-b007-90563d5a6d35",
     "name": "Commonwealth Avenue",
-    "hold": "Esplanade"
+    "hold": "Esplanade",
+    "dlc": "None"
   },
   {
     "id": "356c23f8-c2df-4bb0-91ab-5a16e84d7434",
     "name": "Footbridge",
-    "hold": "Esplanade"
+    "hold": "Esplanade",
+    "dlc": "None"
   },
   {
     "id": "33d14a6f-5c0a-4e77-af96-b2b198b3f900",
     "name": "HalluciGen, Inc.",
-    "hold": "Esplanade"
+    "hold": "Esplanade",
+    "dlc": "None"
   },
   {
     "id": "f2c74f1a-d883-47b3-b14e-9331b4dd1413",
     "name": "Holy Mission Congregation",
-    "hold": "Esplanade"
+    "hold": "Esplanade",
+    "dlc": "None"
   },
   {
     "id": "6f03685a-ff49-4f89-8e86-3a2eb9e8c8df",
     "name": "Marlborough house",
-    "hold": "Esplanade"
+    "hold": "Esplanade",
+    "dlc": "None"
   },
   {
     "id": "b1b2e82f-d1f4-4aeb-985a-b7a25716c8a1",
     "name": "Financial District",
-    "hold": "Financial District"
+    "hold": "Financial District",
+    "dlc": "None"
   },
   {
     "id": "8a7cc9b8-ae16-4d66-a171-14f540df84c0",
     "name": "35 Court",
-    "hold": "Financial District"
+    "hold": "Financial District",
+    "dlc": "None"
   },
   {
     "id": "f19a033d-c1a4-4341-af7f-05f4f4729270",
     "name": "Baxter building",
-    "hold": "Financial District"
+    "hold": "Financial District",
+    "dlc": "None"
   },
   {
     "id": "f8260a9b-5c5b-4d5a-89ea-e5157e73a551",
     "name": "Broken monorail",
-    "hold": "Financial District"
+    "hold": "Financial District",
+    "dlc": "None"
   },
   {
     "id": "8b5a3c2c-ba23-442c-aae8-d24eef745bf3",
     "name": "Commonwealth Bank",
-    "hold": "Financial District"
+    "hold": "Financial District",
+    "dlc": "None"
   },
   {
     "id": "db67f193-408c-487e-97c9-9e91d9dbfa50",
     "name": "Congress Street garage",
-    "hold": "Financial District"
+    "hold": "Financial District",
+    "dlc": "None"
   },
   {
     "id": "4ce5c23d-c8cd-4a5a-8ea2-0033fb6f8bd4",
     "name": "Fallen skybridge",
-    "hold": "Financial District"
+    "hold": "Financial District",
+    "dlc": "None"
   },
   {
     "id": "a5d8fe55-2f06-4fe0-a40f-9ea6937dabbc",
     "name": "Fallon's (Financial District)",
-    "hold": "Financial District"
+    "hold": "Financial District",
+    "dlc": "None"
   },
   {
     "id": "ac1b8e16-c96a-4f54-b24a-4ac72750ce9a",
     "name": "Faneuil Hall",
-    "hold": "Financial District"
+    "hold": "Financial District",
+    "dlc": "None"
   },
   {
     "id": "1b81c6e2-f7c7-4887-85df-fdcd7d5f21f8",
     "name": "Garden terrace",
-    "hold": "Financial District"
+    "hold": "Financial District",
+    "dlc": "None"
   },
   {
     "id": "e6a7312b-0c5b-4a5c-b65a-1eaa5dd672c9",
     "name": "Haymarket Mall",
-    "hold": "Financial District"
+    "hold": "Financial District",
+    "dlc": "None"
   },
   {
     "id": "a9b40813-582d-40c5-ba2a-b71c6c5d22d8",
     "name": "Joe's Spuckies",
-    "hold": "Financial District"
+    "hold": "Financial District",
+    "dlc": "None"
   },
   {
     "id": "9ec3070e-c439-42fc-b197-59c4b18db0b5",
     "name": "Mass Fusion building",
-    "hold": "Financial District"
+    "hold": "Financial District",
+    "dlc": "None"
   },
   {
     "id": "bd990c8a-87da-4c20-9d97-6016a5a86d5c",
     "name": "Mass Fusion executive suite",
-    "hold": "Financial District"
+    "hold": "Financial District",
+    "dlc": "None"
   },
   {
     "id": "c9c2d384-b7de-40bb-a9e2-7be6f2ef899f",
     "name": "Old Corner Bookstore",
-    "hold": "Financial District"
+    "hold": "Financial District",
+    "dlc": "None"
   },
   {
     "id": "6c64024c-d648-4507-94d4-c76b442dc3c7",
     "name": "Pinnacle Highrise",
-    "hold": "Financial District"
+    "hold": "Financial District",
+    "dlc": "None"
   },
   {
     "id": "878ed781-ef6e-4e21-9c63-156f6f40710a",
     "name": "Postal Square",
-    "hold": "Financial District"
+    "hold": "Financial District",
+    "dlc": "None"
   },
   {
     "id": "ad4f7e91-41ee-4f9d-b7c4-54ba032f694e",
     "name": "Water Street apartments",
-    "hold": "Financial District"
+    "hold": "Financial District",
+    "dlc": "None"
   },
   {
     "id": "a9d3875a-764b-43eb-b98c-0374d45b92b9",
     "name": "General Atomics Galleria",
-    "hold": "General Atomics Galleria"
+    "hold": "General Atomics Galleria",
+    "dlc": "None"
   },
   {
     "id": "764290f2-6f04-45dd-a012-8b24543725f2",
     "name": "Back Alley Bowling",
-    "hold": "General Atomics Galleria"
+    "hold": "General Atomics Galleria",
+    "dlc": "None"
   },
   {
     "id": "22a6a7c7-9838-4883-a2e7-14c9357e04c7",
     "name": "Fallon's (General Atomics Galleria)",
-    "hold": "General Atomics Galleria"
+    "hold": "General Atomics Galleria",
+    "dlc": "None"
   },
   {
     "id": "55c01e02-1c96-4f84-8150-bc23799054c1",
     "name": "General Atomics outlet",
-    "hold": "General Atomics Galleria"
+    "hold": "General Atomics Galleria",
+    "dlc": "None"
   },
   {
     "id": "c9369d03-50ea-430e-b64c-662ce12eb5c9",
     "name": "Handy Eats",
-    "hold": "General Atomics Galleria"
+    "hold": "General Atomics Galleria",
+    "dlc": "None"
   },
   {
     "id": "b2e7c1b4-27c7-4609-9cc3-df4d17b5f1ec",
     "name": "Madden's gym",
-    "hold": "General Atomics Galleria"
+    "hold": "General Atomics Galleria",
+    "dlc": "None"
   },
   {
     "id": "4429e926-40ef-4b6b-a504-776dcd1a6b01",
     "name": "Pinelli's Bakery (General Atomics Galleria)",
-    "hold": "General Atomics Galleria"
+    "hold": "General Atomics Galleria",
+    "dlc": "None"
   },
   {
     "id": "69358fb5-5f35-40d9-85b5-1f27d7e5d0c2",
     "name": "Glowing Sea",
-    "hold": "Glowing Sea"
+    "hold": "Glowing Sea",
+    "dlc": "None"
   },
   {
     "id": "11cb156f-c67e-48da-bd0e-19f3a1001ae3",
     "name": "Atlantic Offices",
-    "hold": "Glowing Sea"
+    "hold": "Glowing Sea",
+    "dlc": "None"
   },
   {
     "id": "9e9fbd93-07ac-4003-9149-6a3e02907c24",
     "name": "Capsized factory",
-    "hold": "Glowing Sea"
+    "hold": "Glowing Sea",
+    "dlc": "None"
   },
   {
     "id": "4d8f545c-6fb0-4b80-926b-9d676b92ad4b",
     "name": "Cave (Glowing Sea)",
-    "hold": "Glowing Sea"
+    "hold": "Glowing Sea",
+    "dlc": "None"
   },
   {
     "id": "cfa2f9a9-6d08-41b4-839f-5ee0ad18657d",
     "name": "Crater of Atom",
-    "hold": "Glowing Sea"
+    "hold": "Glowing Sea",
+    "dlc": "None"
   },
   {
     "id": "a0f6e16e-2b07-4811-a8f2-e2cc3bf1f647",
     "name": "Decayed reactor site",
-    "hold": "Glowing Sea"
+    "hold": "Glowing Sea",
+    "dlc": "None"
   },
   {
     "id": "01f75702-c244-4375-bb91-e9a8d7fe5f96",
     "name": "Decrepit factory",
-    "hold": "Glowing Sea"
+    "hold": "Glowing Sea",
+    "dlc": "None"
   },
   {
     "id": "78b8c6f2-1c90-43c3-812c-0f19b6537af2",
     "name": "Edge of the Glowing Sea",
-    "hold": "Glowing Sea"
+    "hold": "Glowing Sea",
+    "dlc": "None"
   },
   {
     "id": "84a17e42-29f0-4f86-9787-5ed245b4a23b",
     "name": "Federal supply cache 84NE",
-    "hold": "Glowing Sea"
+    "hold": "Glowing Sea",
+    "dlc": "None"
   },
   {
     "id": "a4de7dcd-0502-4a1e-bde3-2642dfc3d2db",
     "name": "Federal Surveillance Center K-21B",
-    "hold": "Glowing Sea"
+    "hold": "Glowing Sea",
+    "dlc": "None"
   },
   {
     "id": "2c842d02-4c7d-4472-b9b4-3b4c6a0b7bf3",
     "name": "Forgotten church",
-    "hold": "Glowing Sea"
+    "hold": "Glowing Sea",
+    "dlc": "None"
   },
   {
     "id": "f536a07a-d6ef-4cda-86da-d14b29d53a15",
     "name": "Hopesmarch Pentecostal church",
-    "hold": "Glowing Sea"
+    "hold": "Glowing Sea",
+    "dlc": "None"
   },
   {
     "id": "30f55c06-1dbd-450a-a23f-148e50d68409",
     "name": "O'Neill Family Manufacturing",
-    "hold": "Glowing Sea"
+    "hold": "Glowing Sea",
+    "dlc": "None"
   },
   {
     "id": "8d4afbf1-5b09-47f9-a3c7-cf123f6ee049",
     "name": "Parking garage",
-    "hold": "Glowing Sea"
+    "hold": "Glowing Sea",
+    "dlc": "None"
   },
   {
     "id": "72e90e07-8c25-47b0-9ea9-46c1887fcf10",
     "name": "Red Rocket (Glowing Sea)",
-    "hold": "Glowing Sea"
+    "hold": "Glowing Sea",
+    "dlc": "None"
   },
   {
     "id": "d1c5ac19-8f10-4d99-9320-028477a5116e",
     "name": "Relay tower 0DB-521",
-    "hold": "Glowing Sea"
+    "hold": "Glowing Sea",
+    "dlc": "None"
   },
   {
     "id": "8f242f85-d36b-4bb0-9aaf-2f22a4310b38",
     "name": "Rocky cave",
-    "hold": "Glowing Sea"
+    "hold": "Glowing Sea",
+    "dlc": "None"
   },
   {
     "id": "5463b21f-07e7-45ed-b070-d78e0f8ad5cd",
     "name": "Sentinel site",
-    "hold": "Glowing Sea"
+    "hold": "Glowing Sea",
+    "dlc": "None"
   },
   {
     "id": "e8db85d8-8f6f-47b5-a137-c3959d8d7fc0",
     "name": "Skylanes Flight 1665",
-    "hold": "Glowing Sea"
+    "hold": "Glowing Sea",
+    "dlc": "None"
   },
   {
     "id": "d888e772-2817-40df-bb69-3f1ce7045e5f",
     "name": "Vertibird wreckage",
-    "hold": "Glowing Sea"
+    "hold": "Glowing Sea",
+    "dlc": "None"
   },
   {
     "id": "d2ac50e8-4d19-4eab-b79c-2b4646b71620",
     "name": "Goodneighbor",
-    "hold": "Goodneighbor"
+    "hold": "Goodneighbor",
+    "dlc": "None"
   },
   {
     "id": "66dd04f0-13db-4fcd-9425-07e5e8fece0a",
     "name": "Bobbi's place",
-    "hold": "Goodneighbor"
+    "hold": "Goodneighbor",
+    "dlc": "None"
   },
   {
     "id": "31828d4d-42c4-4c08-a16a-8ee115dd4a06",
     "name": "Daisy's Discounts",
-    "hold": "Goodneighbor"
+    "hold": "Goodneighbor",
+    "dlc": "None"
   },
   {
     "id": "78e35a0f-d22f-475d-a27f-17103450e273",
     "name": "Hotel Rexford",
-    "hold": "Goodneighbor"
+    "hold": "Goodneighbor",
+    "dlc": "None"
   },
   {
     "id": "a4f598f3-5c8a-41b8-a933-1d48d72954d4",
     "name": "Kill or Be Killed",
-    "hold": "Goodneighbor"
+    "hold": "Goodneighbor",
+    "dlc": "None"
   },
   {
     "id": "1a0791c2-7f22-43d8-bc0a-e8311393e21d",
     "name": "Memory Den",
-    "hold": "Goodneighbor"
+    "hold": "Goodneighbor",
+    "dlc": "None"
   },
   {
     "id": "7b57380e-4f85-43c0-920d-2cf84e45de1d",
     "name": "Old State House",
-    "hold": "Goodneighbor"
+    "hold": "Goodneighbor",
+    "dlc": "None"
   },
   {
     "id": "f90d59d2-ec3f-4ef6-89c4-6a729634b9a2",
     "name": "The Dig",
-    "hold": "Goodneighbor"
+    "hold": "Goodneighbor",
+    "dlc": "None"
   },
   {
     "id": "bbfb7e4e-1362-45a1-8d80-56b71e9a92cf",
     "name": "The Third Rail",
-    "hold": "Goodneighbor"
+    "hold": "Goodneighbor",
+    "dlc": "None"
   },
   {
     "id": "0b1ba723-f799-4b7e-8e43-ea57400b84ef",
     "name": "Warehouse (Goodneighbor)",
-    "hold": "Goodneighbor"
+    "hold": "Goodneighbor",
+    "dlc": "None"
   },
   {
     "id": "cb15a6c0-5eb9-4e2d-8c4f-0c00695fbf27",
     "name": "Lexington",
-    "hold": "Lexington"
+    "hold": "Lexington",
+    "dlc": "None"
   },
   {
     "id": "48d2d4cc-d58c-4e2f-826a-1bf0e2eb648f",
     "name": "Corvega assembly plant",
-    "hold": "Lexington"
+    "hold": "Lexington",
+    "dlc": "None"
   },
   {
     "id": "03f5b71b-5a05-4b68-8a1a-cd9266ac4721",
     "name": "Faded Glory laundromat",
-    "hold": "Lexington"
+    "hold": "Lexington",
+    "dlc": "None"
   },
   {
     "id": "d9c99856-8902-4a6b-83a1-623a5e7e7bbf",
     "name": "Lexington apartments",
-    "hold": "Lexington"
+    "hold": "Lexington",
+    "dlc": "None"
   },
   {
     "id": "b641120f-1fc3-4c23-bfdf-cb02b9e7dd4f",
     "name": "Lexington Bank",
-    "hold": "Lexington"
+    "hold": "Lexington",
+    "dlc": "None"
   },
   {
     "id": "9f340981-242a-4195-b3b6-5f5a98ed92db",
     "name": "Lexington Pharmacy",
-    "hold": "Lexington"
+    "hold": "Lexington",
+    "dlc": "None"
   },
   {
     "id": "132907d5-ef6f-45f7-9f9f-b45b102a622d",
     "name": "Mystic Pines",
-    "hold": "Lexington"
+    "hold": "Lexington",
+    "dlc": "None"
   },
   {
     "id": "048d2b67-c55b-4cf8-b0db-e56865b00fb7",
     "name": "Red Rocket (Lexington)",
-    "hold": "Lexington"
+    "hold": "Lexington",
+    "dlc": "None"
   },
   {
     "id": "0b4b8a4c-008f-40df-9cc6-fcb2701e7682",
     "name": "Slocum's Joe",
-    "hold": "Lexington"
+    "hold": "Lexington",
+    "dlc": "None"
   },
   {
     "id": "09a54772-4ac5-4ba2-bec3-e14ba77d38a3",
     "name": "Super Duper Mart",
-    "hold": "Lexington"
+    "hold": "Lexington",
+    "dlc": "None"
   },
   {
     "id": "905da1bb-b2db-46e5-bc5f-3fb88cd0df9a",
     "name": "The Switchboard",
-    "hold": "Lexington"
+    "hold": "Lexington",
+    "dlc": "None"
   },
   {
     "id": "997160b5-38d0-4b65-b890-8628f42a55c7",
     "name": "Malden",
-    "hold": "Malden"
+    "hold": "Malden",
+    "dlc": "None"
   },
   {
     "id": "f5785041-2dd1-46b7-a7bf-871d2ea7e21e",
     "name": "Garage alcove",
-    "hold": "Malden"
+    "hold": "Malden",
+    "dlc": "None"
   },
   {
     "id": "63a5d181-b679-4c66-b83d-6b23626753de",
     "name": "Greentop Nursery",
-    "hold": "Malden"
+    "hold": "Malden",
+    "dlc": "None"
   },
   {
     "id": "72d6dd29-e135-4e24-99a2-dc5a208e129f",
     "name": "Malden Center",
-    "hold": "Malden"
+    "hold": "Malden",
+    "dlc": "None"
   },
   {
     "id": "b50c208d-bdb6-429d-bef9-84063b6d7a16",
     "name": "Malden drainage",
-    "hold": "Malden"
+    "hold": "Malden",
+    "dlc": "None"
   },
   {
     "id": "f10adfb3-08cf-4a82-8529-5e87809580c1",
     "name": "Malden Middle School",
-    "hold": "Malden"
+    "hold": "Malden",
+    "dlc": "None"
   },
   {
     "id": "38c36c2d-e6ed-4b92-8b1c-8d4c2b5250f3",
     "name": "Malden police station",
-    "hold": "Malden"
+    "hold": "Malden",
+    "dlc": "None"
   },
   {
     "id": "d347b1c2-5360-42ad-b31e-0cd9e1af5440",
     "name": "Med-Tek Research",
-    "hold": "Malden"
+    "hold": "Malden",
+    "dlc": "None"
   },
   {
     "id": "49b187c2-15a3-46bf-936d-d21c29d04ce6",
     "name": "Medford Memorial Hospital",
-    "hold": "Malden"
+    "hold": "Malden",
+    "dlc": "None"
   },
   {
     "id": "16a07c2f-87b1-47c8-b4d8-02c721fbf7c1",
     "name": "Old Gullet sinkhole",
-    "hold": "Malden"
+    "hold": "Malden",
+    "dlc": "None"
   },
   {
     "id": "b73d6753-37ab-4b27-a923-f68ec80c34c7",
     "name": "Ruined clinic",
-    "hold": "Malden"
+    "hold": "Malden",
+    "dlc": "None"
   },
   {
     "id": "53f04a84-b498-4c7a-8f93-5b4b79920ac7",
     "name": "Slocum's Joe Corporate HQ",
-    "hold": "Malden"
+    "hold": "Malden",
+    "dlc": "None"
   },
   {
     "id": "bd4705e4-e021-4abf-82d8-2e460536da8e",
     "name": "Vault 75",
-    "hold": "Malden"
+    "hold": "Malden",
+    "dlc": "None"
   },
   {
     "id": "3b61f00f-453d-4db1-8f60-df1e17bf62b1",
     "name": "Nahant",
-    "hold": "Nahant"
+    "hold": "Nahant",
+    "dlc": "None"
   },
   {
     "id": "0aefb5e3-b7e9-41f3-9504-8a99e8cfa02d",
     "name": "Croup Manor",
-    "hold": "Nahant"
+    "hold": "Nahant",
+    "dlc": "None"
   },
   {
     "id": "2f21a0a2-74c4-40de-ae17-df14c1b12f8b",
     "name": "Nahant Bar and Restaurant",
-    "hold": "Nahant"
+    "hold": "Nahant",
+    "dlc": "None"
   },
   {
     "id": "4d78fddc-e32a-4658-af5a-b28d35a92485",
     "name": "Nahant Chapel",
-    "hold": "Nahant"
+    "hold": "Nahant",
+    "dlc": "None"
   },
   {
     "id": "d896764f-04fb-49f5-b6c5-ba0809a1b240",
     "name": "Nahant Oceanological Society",
-    "hold": "Nahant"
+    "hold": "Nahant",
+    "dlc": "None"
   },
   {
     "id": "f5c48e5c-0ef3-4d6d-8b4d-5df180e7d13c",
     "name": "Nahant Sherrif's Department",
-    "hold": "Nahant"
+    "hold": "Nahant",
+    "dlc": "None"
   },
   {
     "id": "ac18ea85-9812-4a22-b7f2-39b6eb39882f",
     "name": "Nahant Wharf",
-    "hold": "Nahant"
+    "hold": "Nahant",
+    "dlc": "None"
   },
   {
     "id": "6754b4f7-8237-4f98-9e3d-7195a1537f2c",
     "name": "Red Rocket (Nahant)",
-    "hold": "Nahant"
+    "hold": "Nahant",
+    "dlc": "None"
   },
   {
     "id": "8c48edfb-c88a-4f66-916a-23b2c7b6cfac",
     "name": "Natick",
-    "hold": "Natick"
+    "hold": "Natick",
+    "dlc": "None"
   },
   {
     "id": "d3016e23-8e84-47b8-b529-871e81024ad5",
     "name": "Hillside home",
-    "hold": "Natick"
+    "hold": "Natick",
+    "dlc": "None"
   },
   {
     "id": "aa3cbf67-7f6c-4913-8e6a-1f41f0b43c2e",
     "name": "Natick Banks",
-    "hold": "Natick"
+    "hold": "Natick",
+    "dlc": "None"
   },
   {
     "id": "238f387f-cc83-4e68-8f8a-6eab26e9e320",
     "name": "Natick Police Department",
-    "hold": "Natick"
+    "hold": "Natick",
+    "dlc": "None"
   },
   {
     "id": "b8e309cd-df3b-4fb8-a6f7-72ccf8d401f0",
     "name": "Natick power station",
-    "hold": "Natick"
+    "hold": "Natick",
+    "dlc": "None"
   },
   {
     "id": "432c9c0a-042a-442f-89f2-72e348f6a87a",
     "name": "Poseidon reservoir",
-    "hold": "Natick"
+    "hold": "Natick",
+    "dlc": "None"
   },
   {
     "id": "3a462ad9-26b2-4914-8560-7237480ba3a9",
     "name": "Red Rocket (Natick Banks)",
-    "hold": "Natick"
+    "hold": "Natick",
+    "dlc": "None"
   },
   {
     "id": "eb7fe3f1-2db4-4d7c-a5de-cc0983c856b8",
     "name": "Roadside Pines Motel",
-    "hold": "Natick"
+    "hold": "Natick",
+    "dlc": "None"
   },
   {
     "id": "e8b04b53-9fa1-4d0e-9ee2-2c787c02c53e",
     "name": "Settler campsite",
-    "hold": "Natick"
+    "hold": "Natick",
+    "dlc": "None"
   },
   {
     "id": "7b75d1c4-4d45-4919-95c9-4d6cbe6b218a",
     "name": "North End",
-    "hold": "North End"
+    "hold": "North End",
+    "dlc": "None"
   },
   {
     "id": "b8f06d7a-4478-47d5-a8d2-c6e75d8a29e1",
     "name": "Boxing Gym",
-    "hold": "North End"
+    "hold": "North End",
+    "dlc": "None"
   },
   {
     "id": "2143ed76-c1b9-4ad0-a611-12d2b6496f95",
     "name": "Hoarder's Apartment",
-    "hold": "North End"
+    "hold": "North End",
+    "dlc": "None"
   },
   {
     "id": "890c03eb-7f53-49fc-8cf1-5e0a59b497f3",
     "name": "Mean Pastries",
-    "hold": "North End"
+    "hold": "North End",
+    "dlc": "None"
   },
   {
     "id": "30a6a34e-1b65-4c44-9c5c-509fa3cc58b0",
     "name": "North End graveyard",
-    "hold": "North End"
+    "hold": "North End",
+    "dlc": "None"
   },
   {
     "id": "05f556ff-e2b2-4d1d-82fc-22b2c3e7bf9b",
     "name": "Old North Church",
-    "hold": "North End"
+    "hold": "North End",
+    "dlc": "None"
   },
   {
     "id": "2b1b861d-c50a-4c2e-9655-6bae33f82a01",
     "name": "Paul Revere House",
-    "hold": "North End"
+    "hold": "North End",
+    "dlc": "None"
   },
   {
     "id": "82d45a68-22e7-45cf-bb9b-12a016dc99ba",
     "name": "Paul Revere Monument",
-    "hold": "North End"
+    "hold": "North End",
+    "dlc": "None"
   },
   {
     "id": "c37a1a04-92f8-4cc9-8df6-6ba9d3e0b48f",
     "name": "Pickman Gallery",
-    "hold": "North End"
+    "hold": "North End",
+    "dlc": "None"
   },
   {
     "id": "d5dfc240-4500-4d97-87d9-28ea648f5cf6",
     "name": "Pizza parlor",
-    "hold": "North End"
+    "hold": "North End",
+    "dlc": "None"
   },
   {
     "id": "9f49e1b8-2a08-4ce1-bd7e-0d5ea1894951",
     "name": "Railroad HQ",
-    "hold": "North End"
+    "hold": "North End",
+    "dlc": "None"
   },
   {
     "id": "b0c4f7b2-4d07-4b9d-b17f-f6ffcd062c48",
     "name": "Valenti station",
-    "hold": "North End"
+    "hold": "North End",
+    "dlc": "None"
   },
   {
     "id": "d20729ec-5ab4-43ee-9c3b-5f8ec74e08f1",
     "name": "Wharfside cottage",
-    "hold": "North End"
+    "hold": "North End",
+    "dlc": "None"
   },
-
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p1",
     "name": "Quincy Ruins",
-    "hold": "Quincy Ruins"
+    "hold": "Quincy Ruins",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p2",
     "name": "Fentons Food Stuffs",
-    "hold": "Quincy Ruins"
+    "hold": "Quincy Ruins",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p3",
     "name": "Guns Guns Guns",
-    "hold": "Quincy Ruins"
+    "hold": "Quincy Ruins",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p4",
     "name": "Peabody house",
-    "hold": "Quincy Ruins"
+    "hold": "Quincy Ruins",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p5",
     "name": "Pinelli's Bakery (Quincy)",
-    "hold": "Quincy Ruins"
+    "hold": "Quincy Ruins",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p6",
     "name": "Quincy apartments",
-    "hold": "Quincy Ruins"
+    "hold": "Quincy Ruins",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p7",
     "name": "Quincy church",
-    "hold": "Quincy Ruins"
+    "hold": "Quincy Ruins",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p8",
     "name": "Quincy diner",
-    "hold": "Quincy Ruins"
+    "hold": "Quincy Ruins",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p9",
     "name": "Quincy pharmacy",
-    "hold": "Quincy Ruins"
+    "hold": "Quincy Ruins",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p10",
     "name": "Quincy police station",
-    "hold": "Quincy Ruins"
+    "hold": "Quincy Ruins",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p11",
     "name": "Quincy Quarries",
-    "hold": "Quincy Ruins"
+    "hold": "Quincy Ruins",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p12",
     "name": "Red Rocket (Quincy)",
-    "hold": "Quincy Ruins"
+    "hold": "Quincy Ruins",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p13",
     "name": "The Hole in the Wall",
-    "hold": "Quincy Ruins"
+    "hold": "Quincy Ruins",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p14",
     "name": "Vault 88",
-    "hold": "Quincy Ruins"
+    "hold": "Quincy Ruins",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p15",
     "name": "Revere",
-    "hold": "Revere"
+    "hold": "Revere",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p16",
     "name": "Drumlin Diner (Gibson Point Pier)",
-    "hold": "Revere"
+    "hold": "Revere",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p17",
     "name": "Gibson Point Pier",
-    "hold": "Revere"
+    "hold": "Revere",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p18",
     "name": "Reeb Marina",
-    "hold": "Revere"
+    "hold": "Revere",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p19",
     "name": "Revere Beach station",
-    "hold": "Revere"
+    "hold": "Revere",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p20",
     "name": "Revere Satellite Array",
-    "hold": "Revere"
+    "hold": "Revere",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p21",
     "name": "Salem",
-    "hold": "Salem"
+    "hold": "Salem",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p22",
     "name": "Drumlin Diner (Salem)",
-    "hold": "Salem"
+    "hold": "Salem",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p23",
     "name": "Museum of Witchcraft",
-    "hold": "Salem"
+    "hold": "Salem",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p24",
     "name": "Rook family house",
-    "hold": "Salem"
+    "hold": "Salem",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p25",
     "name": "Sandy Coves Convalescent Home",
-    "hold": "Salem"
+    "hold": "Salem",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p26",
     "name": "Sanctuary Hills",
-    "hold": "Sanctuary Hills"
+    "hold": "Sanctuary Hills",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p27",
     "name": "Minutemen Monument",
-    "hold": "Sanctuary Hills"
+    "hold": "Sanctuary Hills",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p28",
     "name": "Misty Lake",
-    "hold": "Sanctuary Hills"
+    "hold": "Sanctuary Hills",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p29",
     "name": "Old North Bridge",
-    "hold": "Sanctuary Hills"
+    "hold": "Sanctuary Hills",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p30",
     "name": "Root cellar",
-    "hold": "Sanctuary Hills"
+    "hold": "Sanctuary Hills",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p31",
     "name": "The House of Tomorrow",
-    "hold": "Sanctuary Hills"
+    "hold": "Sanctuary Hills",
+    "dlc": "None"
   },
-
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p32",
     "name": "South Boston",
-    "hold": "South Boston"
+    "hold": "South Boston",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p33",
     "name": "Andrew station",
-    "hold": "South Boston"
+    "hold": "South Boston",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p34",
     "name": "Bus and apartment wreckage",
-    "hold": "South Boston"
+    "hold": "South Boston",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p35",
     "name": "Dorchester Height monument",
-    "hold": "South Boston"
+    "hold": "South Boston",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p36",
     "name": "Factory (Fallout 4)",
-    "hold": "South Boston"
+    "hold": "South Boston",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p37",
     "name": "Four Leaf fishpacking plant",
-    "hold": "South Boston"
+    "hold": "South Boston",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p38",
     "name": "General Atomics factory",
-    "hold": "South Boston"
+    "hold": "South Boston",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p39",
     "name": "Gwinnett Brewery",
-    "hold": "South Boston"
+    "hold": "South Boston",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p40",
     "name": "Hawthorne Estate",
-    "hold": "South Boston"
+    "hold": "South Boston",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p41",
     "name": "Joe's Spuckies sandwich shop",
-    "hold": "South Boston"
+    "hold": "South Boston",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p42",
     "name": "L Street bathhouse",
-    "hold": "South Boston"
+    "hold": "South Boston",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p43",
     "name": "Marowski's chem lab",
-    "hold": "South Boston"
+    "hold": "South Boston",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p44",
     "name": "Sleepwalker's place",
-    "hold": "South Boston"
+    "hold": "South Boston",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p45",
     "name": "South Boston Church",
-    "hold": "South Boston"
+    "hold": "South Boston",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p46",
     "name": "South Boston High School",
-    "hold": "South Boston"
+    "hold": "South Boston",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p47",
     "name": "South Boston military checkpoint",
-    "hold": "South Boston"
+    "hold": "South Boston",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p48",
     "name": "South Boston Police Department",
-    "hold": "South Boston"
+    "hold": "South Boston",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p49",
     "name": "Sullivan's",
-    "hold": "South Boston"
+    "hold": "South Boston",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p50",
     "name": "The Castle",
-    "hold": "South Boston"
+    "hold": "South Boston",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p51",
     "name": "The Gwinnett Restaurant",
-    "hold": "South Boston"
+    "hold": "South Boston",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p52",
     "name": "Union Man's Circle",
-    "hold": "South Boston"
+    "hold": "South Boston",
+    "dlc": "None"
   },
-
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p53",
     "name": "The Fens",
-    "hold": "The Fens"
+    "hold": "The Fens",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p54",
     "name": "Anna's Cafe",
-    "hold": "The Fens"
+    "hold": "The Fens",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p55",
     "name": "Back Street Apparel",
-    "hold": "The Fens"
+    "hold": "The Fens",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p56",
     "name": "Bridgeway Trust",
-    "hold": "The Fens"
+    "hold": "The Fens",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p57",
     "name": "Brookline building",
-    "hold": "The Fens"
+    "hold": "The Fens",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p58",
     "name": "Evans Way Cul-de-Sac",
-    "hold": "The Fens"
+    "hold": "The Fens",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p59",
     "name": "Fens Cafe",
-    "hold": "The Fens"
+    "hold": "The Fens",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p60",
     "name": "Fens Street sewer",
-    "hold": "The Fens"
+    "hold": "The Fens",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p61",
     "name": "Fens Way station",
-    "hold": "The Fens"
+    "hold": "The Fens",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p62",
     "name": "Flagon Tunnel",
-    "hold": "The Fens"
+    "hold": "The Fens",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p63",
     "name": "Founder's Triangle",
-    "hold": "The Fens"
+    "hold": "The Fens",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p64",
     "name": "Hangman's Alley",
-    "hold": "The Fens"
+    "hold": "The Fens",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p65",
     "name": "Hardware Town",
-    "hold": "The Fens"
+    "hold": "The Fens",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p66",
     "name": "Hidden diner",
-    "hold": "The Fens"
+    "hold": "The Fens",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p67",
     "name": "Parkview Apartments",
-    "hold": "The Fens"
+    "hold": "The Fens",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p68",
     "name": "Police Precinct 8",
-    "hold": "The Fens"
+    "hold": "The Fens",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p69",
     "name": "Raider back-alley camp",
-    "hold": "The Fens"
+    "hold": "The Fens",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p70",
     "name": "South Fens Tower",
-    "hold": "The Fens"
+    "hold": "The Fens",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p71",
     "name": "Wreck of the USS Riptide",
-    "hold": "The Fens"
+    "hold": "The Fens",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p72",
     "name": "The Institute",
-    "hold": "The Institute"
+    "hold": "The Institute",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p73",
     "name": "FEV lab",
-    "hold": "The Institute"
+    "hold": "The Institute",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p74",
     "name": "Institute Advanced Systems",
-    "hold": "The Institute"
+    "hold": "The Institute",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p75",
     "name": "Institute BioScience",
-    "hold": "The Institute"
+    "hold": "The Institute",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p76",
     "name": "Institute concourse",
-    "hold": "The Institute"
+    "hold": "The Institute",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p77",
     "name": "Institute reactor",
-    "hold": "The Institute"
+    "hold": "The Institute",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p78",
     "name": "Institute Robotics",
-    "hold": "The Institute"
+    "hold": "The Institute",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p79",
     "name": "Institute SRB",
-    "hold": "The Institute"
+    "hold": "The Institute",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p80",
     "name": "Institute sublevel 21-D",
-    "hold": "The Institute"
+    "hold": "The Institute",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p81",
     "name": "Old Robotics",
-    "hold": "The Institute"
+    "hold": "The Institute",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p82",
     "name": "Theater District",
-    "hold": "Theater District"
+    "hold": "Theater District",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p83",
     "name": "Combat Zone",
-    "hold": "Theater District"
+    "hold": "Theater District",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p84",
     "name": "D.B. Technical High School",
-    "hold": "Theater District"
+    "hold": "Theater District",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p85",
     "name": "Freeway pileup",
-    "hold": "Theater District"
+    "hold": "Theater District",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p86",
     "name": "Hester's Consumer Robotics",
-    "hold": "Theater District"
+    "hold": "Theater District",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p87",
     "name": "Hub 360",
-    "hold": "Theater District"
+    "hold": "Theater District",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p88",
     "name": "Mass Bay Medical Center",
-    "hold": "Theater District"
+    "hold": "Theater District",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p89",
     "name": "Medical Center metro",
-    "hold": "Theater District"
+    "hold": "Theater District",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p90",
     "name": "Pearwood Residences",
-    "hold": "Theater District"
+    "hold": "Theater District",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p91",
     "name": "Slocum's Joe (Mass Bay Medical)",
-    "hold": "Theater District"
+    "hold": "Theater District",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p92",
     "name": "Ticker Tape Lounge",
-    "hold": "Theater District"
+    "hold": "Theater District",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p93",
     "name": "University Point",
-    "hold": "University Point"
+    "hold": "University Point",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p94",
     "name": "Sedgwick Hall",
-    "hold": "University Point"
+    "hold": "University Point",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p95",
     "name": "University Credit Union",
-    "hold": "University Point"
+    "hold": "University Point",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p96",
     "name": "University Point Pharmacy",
-    "hold": "University Point"
+    "hold": "University Point",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p97",
     "name": "West Roxbury",
-    "hold": "West Roxbury"
+    "hold": "West Roxbury",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p98",
     "name": "Fallon's department store",
-    "hold": "West Roxbury"
+    "hold": "West Roxbury",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p99",
     "name": "Milton General Hospital",
-    "hold": "West Roxbury"
+    "hold": "West Roxbury",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p100",
     "name": "Milton parking garage",
-    "hold": "West Roxbury"
+    "hold": "West Roxbury",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p101",
     "name": "Shaw High School",
-    "hold": "West Roxbury"
+    "hold": "West Roxbury",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p102",
     "name": "West Roxbury station",
-    "hold": "West Roxbury"
+    "hold": "West Roxbury",
+    "dlc": "None"
   },
-
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p103",
     "name": "The Commonwealth",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p104",
     "name": "Abernathy farm",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p105",
     "name": "ArcJet Systems",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p106",
     "name": "Atom Cats garage",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p107",
     "name": "Beantown Brewery",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p108",
     "name": "Bedford Station",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p109",
     "name": "Big John's Salvage",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p110",
     "name": "Boston mayoral shelter",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p111",
     "name": "Boston Police rationing site",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p112",
     "name": "Breakheart Banks",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p113",
     "name": "Chestnut Hillock Reservoir",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p114",
     "name": "Coast Guard pier",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p115",
     "name": "Coastal cottage",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p116",
     "name": "Combat Zone",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p117",
     "name": "County crossing",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p118",
     "name": "Covenant",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p119",
     "name": "Crater house",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p120",
     "name": "Cutler Bend",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p121",
     "name": "Dark Hollow Pond",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
-
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p122",
     "name": "Drumlin Diner",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p123",
     "name": "Dunwich Borers",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p124",
     "name": "Egret Tours Marina",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p125",
     "name": "Electrical Hobbyist's Club",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p126",
     "name": "Fairline Hill Estates",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p127",
     "name": "Federal ration stockpile",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p128",
     "name": "Fiddler's Green Trailer Estates",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p129",
     "name": "Finch farm",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p130",
     "name": "Forest Grove marsh",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p131",
     "name": "Fort Strong",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p132",
     "name": "Gorski cabin",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p133",
     "name": "Graygarden",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p134",
     "name": "Gunners plaza",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p135",
     "name": "Hub City Auto Wreckers",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p136",
     "name": "Hugo's Hole",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p137",
     "name": "Hyde Park",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p138",
     "name": "Irish Pride Industries shipyard",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p139",
     "name": "Jalbert Brothers Disposal",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p140",
     "name": "Jamaica Plain",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p141",
     "name": "Kingsport Lighthouse",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
-
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p142",
     "name": "Lake Cochituate",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p143",
     "name": "Lake Quannapowitt",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p144",
     "name": "Libertalia",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p145",
     "name": "Listening Post Bravo",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p146",
     "name": "Lonely Chapel",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p147",
     "name": "Longneck Lukowski's Cannery",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p148",
     "name": "Lynn Pier parking",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p149",
     "name": "Lynn Woods",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p150",
     "name": "Mahkra Fishpacking",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p151",
     "name": "Mass Fusion containment shed",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p152",
     "name": "Mass Fusion disposal site",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p153",
     "name": "Mass Gravel & Sand",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p154",
     "name": "Mass Pike Interchange",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p155",
     "name": "Mass Pike Tunnel east",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p156",
     "name": "Mass Pike Tunnel west",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p157",
     "name": "Murkwater construction site",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p158",
     "name": "National Guard training yard",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
-
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p159",
     "name": "Neponset Park",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p160",
     "name": "NH&M Freight Depot",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p161",
     "name": "Nordhagen Beach",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p162",
     "name": "Oberland station",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p163",
     "name": "Outpost Zimonja",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p164",
     "name": "Parsons Creamery",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p165",
     "name": "Parsons State Insane Asylum",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p166",
     "name": "Poseiden Energy Turbine 18-F",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p167",
     "name": "Poseidon Energy",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p168",
     "name": "Radio tower 3SM-U81",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p169",
     "name": "Ranger cabin",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p170",
     "name": "Recon bunker Theta",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p171",
     "name": "Red Rocket truck stop",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
-
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p172",
     "name": "Relay tower 0BB-915",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p173",
     "name": "Relay tower 0MC-810",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p174",
     "name": "Relay tower 0SC-527",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p175",
     "name": "Relay tower 1DL-109",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p176",
     "name": "Robotics disposal ground",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p177",
     "name": "Robotics Pioneer Park",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p178",
     "name": "Rocky Narrows Park",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p179",
     "name": "Rotten landfill",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p180",
     "name": "Saugus Ironworks",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p181",
     "name": "Scrap palace",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p182",
     "name": "Skylanes Flight 1981",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p183",
     "name": "Small raider shack",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p184",
     "name": "Somerville Place",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p185",
     "name": "Spectacle Island",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
-
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p186",
     "name": "Starlight Drive In",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p187",
     "name": "Sunshine Tidings co-op",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p188",
     "name": "Taffington boathouse",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p189",
     "name": "Tenpines Bluff",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p190",
     "name": "The Slog",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p191",
     "name": "Thicket Excavations",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p192",
     "name": "Tucker Memorial Bridge",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p193",
     "name": "USAF Satellite Station Olivia",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p194",
     "name": "USS Constitution",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p195",
     "name": "Vault 111",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p196",
     "name": "Vault 81",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p197",
     "name": "Vault 95",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
-
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p198",
     "name": "Vault-Tec Regional HQ",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p199",
     "name": "Walden Pond",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p200",
     "name": "Warwick homestead",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p201",
     "name": "Wattz Consumer Electronics",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p202",
     "name": "Waypoint Echo",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p203",
     "name": "West Everett Estates",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p204",
     "name": "Westing Estate",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p205",
     "name": "Weston water treatment plant",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p206",
     "name": "Wicked Shipping Fleet Lockup",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p207",
     "name": "Wildwood Cemetery",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p208",
     "name": "Wilson Atomatoys factory",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p209",
     "name": "Wreck of the FMS Northern Star",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   },
   {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p210",
     "name": "WRVR broadcast station",
-    "hold": "Other Locations"
+    "hold": "Other Locations",
+    "dlc": "None"
   }
 ]

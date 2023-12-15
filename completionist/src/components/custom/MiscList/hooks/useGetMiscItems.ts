@@ -3,42 +3,27 @@ import useMainState from '@redux/hooks/useMainState';
 import useSearchStringFormatter from '@utils/hooks/useSearchStringFormatter';
 import useGetGameData from '@data/hooks/useGetGameData.native';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
-import { SubscriptionTypeEnum } from '@utils/CustomEnums';
+import useGetUserGameData from '@data/hooks/useGetUserGameData.native';
 
-const useGetMiscItems = () => {
+interface GetMiscItemsReturnType {
+  getMiscItemsForCategory: (category: string) => MiscItem[];
+  updateMiscItemsComplete: (miscItemId: string) => void;
+}
+
+const useGetMiscItems = (): GetMiscItemsReturnType => {
   const { setCompletedMiscItems } = useMainDispatch();
-  const { user, searchValue, selectedGame } = useMainState();
+  const { searchValue } = useMainState();
   const getFormattedSearchString = useSearchStringFormatter();
   const { mapDataToMiscItems } = useGetGameData();
-  const miscItems = mapDataToMiscItems(selectedGame);
+  const miscItems = mapDataToMiscItems();
   const filteredMiscItems = miscItems.filter(item => getFormattedSearchString(item.name).includes(getFormattedSearchString(searchValue)));
+  const { getUserMiscItems } = useGetUserGameData();
 
   const getMiscItemsForCategory = (category: string): MiscItem[] => {
     return filteredMiscItems.filter(item => item.type === category);
   };
 
-  const getUserMiscItems = (): Item[] => {
-    switch (selectedGame) {
-      case SubscriptionTypeEnum.SKYRIM:
-        return user.data.skyrim.miscellaneous;
-      case SubscriptionTypeEnum.FALLOUT_4:
-        return user.data.fallout4.miscellaneous;
-      default: 
-        return []
-    }
-  }
-
-  const getMiscItemCategories = (): string[] => {
-    let miscItemCategories: string[] = [];
-    miscItems.map(miscItem => {
-      if (!miscItemCategories.find(item => item === miscItem.type)) {
-        miscItemCategories.push(miscItem.type);
-      }
-    });
-    return miscItemCategories;
-  };
-
-  const updateMiscItemsComplete = (miscItemId: string) => {
+  const updateMiscItemsComplete = (miscItemId: string): void => {
     const userMiscItems = getUserMiscItems();
     const itemToUpdate =userMiscItems.find(item => item.id === miscItemId);
     if (!!itemToUpdate) {
@@ -54,7 +39,6 @@ const useGetMiscItems = () => {
 
   return {
     getMiscItemsForCategory,
-    getMiscItemCategories,
     updateMiscItemsComplete
   }
 };
