@@ -1,8 +1,8 @@
 import { ScreenEnum } from '@utils/CustomEnums';
 import misc from '../../../backend/database/skyrim_misc.json';
 import locations from '../../../backend/database/skyrim_locations.json';
-import { mappedQuests, mappedCollectables } from '@data/functions';
 import useMainState from '@redux/hooks/useMainState';
+import useGetGameData from '@data/hooks/useGetGameData.native';
 
 interface NavigationDrawerItem {
   id: ScreenEnum;
@@ -11,18 +11,19 @@ interface NavigationDrawerItem {
 }
 
 const useGetNavigationDrawerItems = (): NavigationDrawerItem[] => {
-  const { user } = useMainState();
+  const { user, selectedGame } = useMainState();
+  const { mapDataToQuests, mapDataToCollectables } = useGetGameData();
   
   return ([
     {
       id: ScreenEnum.Quests,
       title: 'Quests',
-      subTitle: `${user.data?.skyrim?.quests.length ?? 0}/${mappedQuests.length}`
+      subTitle: `${user.data?.skyrim?.quests.length ?? 0}/${mapDataToQuests(selectedGame).length}`
     },
     {
       id: ScreenEnum.Collectables,
       title: 'Collectables',
-      subTitle: `${user.data?.skyrim?.collectables.length ?? 0}/${mappedCollectables.length}`
+      subTitle: `${user.data?.skyrim?.collectables.length ?? 0}/${mapDataToCollectables(selectedGame).length}`
     },
     {
       id: ScreenEnum.Locations,

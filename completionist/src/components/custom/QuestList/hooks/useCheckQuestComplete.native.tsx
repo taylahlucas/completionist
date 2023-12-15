@@ -45,7 +45,6 @@ const useCheckQuestComplete = (): CheckQuestCompleteReturnType => {
       default:
         return 0;
     }
-    
   }
 
   return { checkQuestComplete, checkQuestsCompleteForCategory }

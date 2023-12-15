@@ -1,10 +1,14 @@
-import { Quest } from '@utils/CustomInterfaces';
+import { Item, Quest } from '@utils/CustomInterfaces';
 import useMainState from '@redux/hooks/useMainState';
 import useSearchStringFormatter from '@utils/hooks/useSearchStringFormatter';
 import useGetGameData from '@data/hooks/useGetGameData.native';
+import useMainDispatch from '@redux/hooks/useMainDispatch';
+import { SubscriptionTypeEnum } from '@utils/CustomEnums';
 
+// TODO: Add return type
 const useGetQuests = () => {
-  const { searchValue, selectedGame } = useMainState();
+  const { setCompletedQuests } = useMainDispatch();
+  const { searchValue, selectedGame, user } = useMainState();
   const { mapDataToQuests } = useGetGameData();
   const quests = mapDataToQuests(selectedGame);
   const getFormattedSearchString = useSearchStringFormatter();
@@ -62,6 +66,31 @@ const useGetQuests = () => {
     return questSubCategoryTypes;
   }
 
+  const getUserQuests = (): Item[] => {
+    switch (selectedGame) {
+      case SubscriptionTypeEnum.SKYRIM:
+        return user.data.skyrim.quests;
+      case SubscriptionTypeEnum.FALLOUT_4:
+        return user.data.fallout4.quests;
+      default: 
+        return []
+    }
+  }
+
+  const updateQuestItemsComplete = (questId: string) => {
+    const userQuests = getUserQuests();
+    const itemToUpdate = userQuests.find(item => item.id === questId);
+    if (!!itemToUpdate) {
+      const updatedObject = { id: itemToUpdate?.id, isComplete: !itemToUpdate?.isComplete }
+      const updateCompletedQuests: Item[] = userQuests.map(quest => quest.id === itemToUpdate.id ? { ...quest, ...updatedObject } : quest)
+      setCompletedQuests(updateCompletedQuests);
+    }
+    else {
+      const updateCompletedQuests: Item[] = [...userQuests, { id: questId, isComplete: true }];
+      setCompletedQuests(updateCompletedQuests);
+    }
+  };
+
   return {
     getQuestsForSubCategory,
     getQuestsForSubCategoryWithType,
@@ -69,7 +98,8 @@ const useGetQuests = () => {
     getAllQuestsForCategory,
     getQuestCategories,
     getQuestSubCategories,
-    getQuestSubCategoriesTypes
+    getQuestSubCategoriesTypes,
+    updateQuestItemsComplete
   }
 };
 export default useGetQuests;

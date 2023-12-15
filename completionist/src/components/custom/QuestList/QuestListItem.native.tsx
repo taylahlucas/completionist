@@ -5,7 +5,8 @@ import StyledText from '@components/general/Text/StyledText.native';
 import useGetLocationString from './hooks/useGetLocationString.native';
 import CheckBox from '@components/general/Checkbox/CheckBox.native';
 import { QuestListItemContainer, QuestListItemLocationContainer, QuestListItemTitle, QuestListItemContentContainer } from './QuestListStyledComponents.native';
-import useUpdateQuestItemsComplete from './hooks/useUpdateQuestItemsComplete';
+
+import useGetQuests from './hooks/useGetQuests.native';
 
 interface QuestListItemProps {
   id: string;
@@ -19,7 +20,7 @@ interface QuestListItemProps {
 const QuestListItem = ({ id, title, location, hold, customStyle, isComplete = false }: QuestListItemProps) => {
   const theme = useGetTheme();
   const locationString = useGetLocationString({ hold, location });
-  const { updateQuestItemsComplete } = useUpdateQuestItemsComplete();
+  const { updateQuestItemsComplete } = useGetQuests();
   
   return (
     <QuestListItemContainer style={customStyle} color={isComplete ? theme.darkGrey : theme.midGrey}>

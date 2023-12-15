@@ -3,7 +3,6 @@ import { CollectableListSubItemContainer } from './CollectableListStyledComponen
 import useGetCollectables from './hooks/useGetCollectables';
 import useCheckCollectableComplete from './hooks/useCheckCollectableComplete';
 import ListItem from '@components/general/Lists/ListItem.native';
-import useUpdateCollectablesComplete from './hooks/useUpdateCollectablesComplete';
 
 export interface CollectableSubTypeMainListItemProps {
   mainType: string;
@@ -12,10 +11,9 @@ export interface CollectableSubTypeMainListItemProps {
 }
 
 const CollectableSubTypeMainListItem = ({ mainType, subType, isSubCategory = false }: CollectableSubTypeMainListItemProps) => {
-  const { getCollectablesForSubCategory, getCollectablesForCategory } = useGetCollectables();
+  const { getCollectablesForSubCategory, getCollectablesForCategory, updateCollectablesComplete } = useGetCollectables();
   const collectables = isSubCategory ? getCollectablesForSubCategory(mainType, subType) : getCollectablesForCategory(mainType);
   const { checkCollectableComplete } = useCheckCollectableComplete();
-  const { updateCollectablesComplete } = useUpdateCollectablesComplete();
   
   return (
     <CollectableListSubItemContainer>

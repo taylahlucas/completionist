@@ -30,7 +30,7 @@ const Quests = () => {
       <NavigationHeader title={'Quests'} />
       <CustomSearchBar />
       <CompletedQuantityTitle type={'ListItemTitleBold'}>
-        {`${completedQuests ?? 0}/${mapDataToQuests(selectedGame).length}`}
+        {`${completedQuests}/${mapDataToQuests(selectedGame).length}`}
       </CompletedQuantityTitle>
       <QuestList />
     </StandardLayout>

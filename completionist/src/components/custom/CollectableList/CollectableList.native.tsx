@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import { getCollectableCategories } from '@data/functions';
 import ScrollableList from '@components/general/Lists/ScrollableList.native';
 import CollectableMainListItem from './CollectableMainListItem.native';
 import useGetCollectables from './hooks/useGetCollectables';
@@ -11,8 +10,7 @@ import useCheckCollectableComplete from './hooks/useCheckCollectableComplete';
 const CollectableList = () => {
   const { triggerShowSearchResults } = useMainDispatch();
   const { searchValue } = useMainState();
-  const collectableCategories = getCollectableCategories();
-  const { getCollectablesForCategory, getAllCollectablesForCategory } = useGetCollectables();
+  const { getCollectablesForCategory, getAllCollectablesForCategory, getCollectableCategories } = useGetCollectables();
   const { checkCollectablesCompleteForCategory } = useCheckCollectableComplete();
   
   useEffect(() => {
@@ -21,7 +19,7 @@ const CollectableList = () => {
   
   return (
     <ScrollableList>
-      {collectableCategories.map((category: string, index: number) => {
+      {getCollectableCategories().map((category: string, index: number) => {
         const allCollectablesForCategory = getAllCollectablesForCategory(category)
         const completedCollectables = checkCollectablesCompleteForCategory(allCollectablesForCategory)
 

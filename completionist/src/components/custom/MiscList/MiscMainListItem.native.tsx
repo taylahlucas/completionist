@@ -5,7 +5,6 @@ import useMainState from '@redux/hooks/useMainState';
 import useGetMiscItems from './hooks/useGetMiscItems';
 import ListItem from '@components/general/Lists/ListItem.native';
 import { MiscItem } from '@utils/CustomInterfaces';
-import useUpdateMiscItemsComplete from './hooks/useUpdateMiscItemsComplete';
 import useCheckMiscItemComplete from './hooks/useCheckMiscItemComplete.native';
 
 export interface MiscMainListItemProps {
@@ -17,8 +16,7 @@ export interface MiscMainListItemProps {
 const MiscMainListItem = ({ category, completed, total }: MiscMainListItemProps) => {
   const { showSearchResults } = useMainState();
   const [isOpen, setIsOpen] = useState<boolean>(false);
-  const { getMiscItemsForCategory } = useGetMiscItems()
-  const { updateMiscItemsComplete } = useUpdateMiscItemsComplete();
+  const { getMiscItemsForCategory, updateMiscItemsComplete } = useGetMiscItems()
   const { checkMiscItemComplete } = useCheckMiscItemComplete();
 
   return (

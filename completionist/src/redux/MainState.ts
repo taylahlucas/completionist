@@ -103,16 +103,44 @@ const slice = createSlice({
       state.showSearchResults = action.payload;
     },
     setCompletedQuests: (state, action) => {
-      state.user.data.skyrim.quests = action.payload;
+      switch (state.selectedGame) {
+        case SubscriptionTypeEnum.SKYRIM:
+          state.user.data.skyrim.quests = action.payload;
+          break;
+        case SubscriptionTypeEnum.FALLOUT_4:
+          state.user.data.fallout4.quests = action.payload;
+          break;
+      }
     },
     setCompletedCollectables: (state, action) => {
-      state.user.data.skyrim.collectables = action.payload;
+      switch (state.selectedGame) {
+        case SubscriptionTypeEnum.SKYRIM:
+          state.user.data.skyrim.collectables = action.payload;
+          break;
+        case SubscriptionTypeEnum.FALLOUT_4:
+          state.user.data.fallout4.collectables = action.payload;
+          break;
+      }
     },
     setCompletedLocations: (state, action) => {
-      state.user.data.skyrim.locations = action.payload;
+      switch (state.selectedGame) {
+        case SubscriptionTypeEnum.SKYRIM:
+          state.user.data.skyrim.locations = action.payload;
+          break;
+        case SubscriptionTypeEnum.FALLOUT_4:
+          state.user.data.fallout4.locations = action.payload;
+          break;
+      }
     },
     setCompletedMiscItems: (state, action) => {
-      state.user.data.skyrim.miscellaneous = action.payload;
+      switch (state.selectedGame) {
+        case SubscriptionTypeEnum.SKYRIM:
+          state.user.data.skyrim.miscellaneous = action.payload;
+          break;
+        case SubscriptionTypeEnum.FALLOUT_4:
+          state.user.data.fallout4.miscellaneous = action.payload;
+          break;
+      }
     },
     reset: (state) => {
       state.searchValue = initialState.searchValue;

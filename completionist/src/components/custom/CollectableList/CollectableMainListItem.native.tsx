@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { getCollectableSubCategories } from '@data/functions';
 import Condition from '@components/general/Condition.native';
 import Dropdown from '@components/general/Dropdown/Dropdown.native';
 import { CollectableListSubListContainer } from './CollectableListStyledComponents.native';
@@ -19,8 +18,8 @@ export interface CollectableMainListItemProps {
 const CollectableMainListItem = ({ category, completed, total }: CollectableMainListItemProps) => {
   const { showSearchResults } = useMainState();
   const [isOpen, setIsOpen] = useState<boolean>(false);
+  const { getCollectablesForSubCategory, getCollectablesForCategory, getCollectableSubCategories } = useGetCollectables();
   const subCategories = getCollectableSubCategories(category);
-  const { getCollectablesForSubCategory, getCollectablesForCategory } = useGetCollectables();
   const { checkCollectablesCompleteForCategory } = useCheckCollectableComplete();
 
   return (
