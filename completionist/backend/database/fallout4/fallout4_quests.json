@@ -66,7 +66,7 @@
     "dlc": "None"
   },
   {
-    "id": "c6a4e21d-82c9-4a45-ba9b-4bd97d12c67e",
+    "id": "c6a4e21d-82c9-4ac5-ba9b-4bd97d12c67e",
     "mainCategory": "Main Quests",
     "subCategory": "Act II",
     "subCategoryType": "",
@@ -77,7 +77,7 @@
     "dlc": "None"
   },
   {
-    "id": "4fd4cbf0-8739-4b80-848d-99a7d6f6b8b1",
+    "id": "4fdccbf0-8739-4b80-848d-99a7d6f6b8b1",
     "mainCategory": "Main Quests",
     "subCategory": "Act II",
     "subCategoryType": "",
@@ -88,7 +88,7 @@
     "dlc": "None"
   },
   {
-    "id": "1c66d29c-9804-4e96-9b5c-b7ec3ee93f43",
+    "id": "1c66d29c-9804-4e96-9b5c-b7ec3ee93fc3",
     "mainCategory": "Main Quests",
     "subCategory": "Act II",
     "subCategoryType": "",
@@ -99,7 +99,7 @@
     "dlc": "None"
   },
   {
-    "id": "89f19d5c-05c8-4d2f-a42f-93cf900e2e0b",
+    "id": "89f19d5c-0cc8-4d2f-a42f-93cf900e2e0b",
     "mainCategory": "Main Quests",
     "subCategory": "Act II",
     "subCategoryType": "",
@@ -110,7 +110,7 @@
     "dlc": "None"
   },
   {
-    "id": "8d319bf0-795d-4cb0-910f-c541e4ea920a",
+    "id": "8c319bf0-795d-4cb0-910f-c541e4ea920a",
     "mainCategory": "Main Quests",
     "subCategory": "Act II",
     "subCategoryType": "",
@@ -143,7 +143,7 @@
     "dlc": "None"
   },
   {
-    "id": "1c66d29c-9804-4e96-9b5c-b7ec3ee93f43",
+    "id": "cc66d29c-9804-4e96-9b5c-b7ec3ee93f43",
     "mainCategory": "Faction Quests",
     "subCategory": "The Minutemen",
     "subCategoryType": "",
@@ -154,7 +154,7 @@
     "dlc": "None"
   },
   {
-    "id": "89f19d5c-05c8-4d2f-a42f-93cf900e2e0b",
+    "id": "89f19d5c-05c8-4d2f-a42f-93cf90ce2e0b",
     "mainCategory": "Faction Quests",
     "subCategory": "The Minutemen",
     "subCategoryType": "",
@@ -165,7 +165,7 @@
     "dlc": "None"
   },
   {
-    "id": "8d319bf0-795d-4cb0-910f-c541e4ea920a",
+    "id": "8d319bf0-795d-4cb0-910f-c541e4ca920a",
     "mainCategory": "Faction Quests",
     "subCategory": "The Minutemen",
     "subCategoryType": "",
