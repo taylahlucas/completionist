@@ -28,6 +28,16 @@ const useGetMiscItems = () => {
     }
   }
 
+  const getMiscItemCategories = (): string[] => {
+    let miscItemCategories: string[] = [];
+    miscItems.map(miscItem => {
+      if (!miscItemCategories.find(item => item === miscItem.type)) {
+        miscItemCategories.push(miscItem.type);
+      }
+    });
+    return miscItemCategories;
+  };
+
   const updateMiscItemsComplete = (miscItemId: string) => {
     const userMiscItems = getUserMiscItems();
     const itemToUpdate =userMiscItems.find(item => item.id === miscItemId);
@@ -44,6 +54,7 @@ const useGetMiscItems = () => {
 
   return {
     getMiscItemsForCategory,
+    getMiscItemCategories,
     updateMiscItemsComplete
   }
 };

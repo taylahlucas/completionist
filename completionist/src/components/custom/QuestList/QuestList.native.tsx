@@ -2,10 +2,10 @@ import React, { useEffect } from 'react';
 import QuestMainListItem from './QuestMainListItem.native';
 import ScrollableList from '@components/general/Lists/ScrollableList.native';
 import Condition from '@components/general/Condition.native';
-import useGetQuests from './hooks/useGetQuests.native';
+import useGetQuests from './hooks/useGetQuests';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
 import useMainState from '@redux/hooks/useMainState';
-import useCheckQuestComplete from './hooks/useCheckQuestComplete.native';
+import useCheckQuestComplete from './hooks/useCheckQuestComplete';
 
 const QuestList = () => {
   const { triggerShowSearchResults } = useMainDispatch();

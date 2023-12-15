@@ -12,16 +12,16 @@ const Locations = () => {
   const { user, selectedGame } = useMainState();
   const [completedLocations, setCompletedLocations] = useState<number>(0);
   const { mapDataToMiscItems } = useGetGameData();
-
-  // TODO: Refactor with location & Hold
+  
+  // TODO: Move to custom hook and return number instead of useState. Use in NavigationDrawer
   useEffect(() => {
     switch (selectedGame) {
       case SubscriptionTypeEnum.SKYRIM:
         setCompletedLocations(user.data?.skyrim?.locations?.length);
-        return
+        return;
       case SubscriptionTypeEnum.FALLOUT_4:
         setCompletedLocations(user.data?.fallout4?.locations?.length);
-        return
+        return;
       default:
     }
   }, [selectedGame])

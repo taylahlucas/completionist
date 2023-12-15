@@ -5,9 +5,9 @@ import QuestSubListItem from './QuestSubListItem.native';
 import QuestSubTypeMainListItem from './QuestSubTypeMainListItem.native';
 import { QuestListSubListContainer } from './QuestListStyledComponents.native';
 import ListHeader from '@components/general/Lists/ListHeader.native';
-import useGetQuests from './hooks/useGetQuests.native';
+import useGetQuests from './hooks/useGetQuests';
 import useMainState from '@redux/hooks/useMainState';
-import useCheckQuestComplete from './hooks/useCheckQuestComplete.native';
+import useCheckQuestComplete from './hooks/useCheckQuestComplete';
 
 export interface QuestMainListItemProps {
   category: string;

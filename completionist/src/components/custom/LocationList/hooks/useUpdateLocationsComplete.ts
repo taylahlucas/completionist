@@ -1,7 +1,7 @@
 import useMainDispatch from '@redux/hooks/useMainDispatch';
 import useMainState from '@redux/hooks/useMainState';
 import { Item } from '@utils/CustomInterfaces';
-import useCheckLocationComplete from './useCheckLocationComplete.native';
+import useCheckLocationComplete from './useCheckLocationComplete';
 
 
 const useUpdateLocationsComplete = () => {

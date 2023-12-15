@@ -1,8 +1,8 @@
 import React from 'react';
 import { QuestListSubItemContainer } from './QuestListStyledComponents.native';
 import QuestListItem from './QuestListItem.native';
-import useGetQuests from './hooks/useGetQuests.native';
-import useCheckQuestComplete from '../QuestList/hooks/useCheckQuestComplete.native';
+import useGetQuests from './hooks/useGetQuests';
+import useCheckQuestComplete from './hooks/useCheckQuestComplete';
 
 export interface QuestSubTypeMainListItemProps {
   category: string;

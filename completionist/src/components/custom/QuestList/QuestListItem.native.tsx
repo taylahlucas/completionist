@@ -2,11 +2,11 @@ import React from 'react';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import Condition from '@components/general/Condition.native';
 import StyledText from '@components/general/Text/StyledText.native';
-import useGetLocationString from './hooks/useGetLocationString.native';
+import useGetLocationString from './hooks/useGetLocationString';
 import CheckBox from '@components/general/Checkbox/CheckBox.native';
 import { QuestListItemContainer, QuestListItemLocationContainer, QuestListItemTitle, QuestListItemContentContainer } from './QuestListStyledComponents.native';
 
-import useGetQuests from './hooks/useGetQuests.native';
+import useGetQuests from './hooks/useGetQuests';
 
 interface QuestListItemProps {
   id: string;

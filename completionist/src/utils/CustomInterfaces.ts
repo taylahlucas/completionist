@@ -24,6 +24,7 @@ export interface Quest {
 export interface Location {
   id: string;
   name: string;
+  hold: string;
 }
 
 export interface MiscItem {

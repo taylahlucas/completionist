@@ -1,6 +1,6 @@
 import { ScreenEnum } from '@utils/CustomEnums';
-import misc from '../../../backend/database/skyrim_misc.json';
-import locations from '../../../backend/database/skyrim_locations.json';
+import misc from '../../../backend/database/skyrim/skyrim_misc.json';
+import locations from '../../../backend/database/skyrim/skyrim_locations.json';
 import useMainState from '@redux/hooks/useMainState';
 import useGetGameData from '@data/hooks/useGetGameData.native';
 
@@ -13,6 +13,8 @@ interface NavigationDrawerItem {
 const useGetNavigationDrawerItems = (): NavigationDrawerItem[] => {
   const { user, selectedGame } = useMainState();
   const { mapDataToQuests, mapDataToCollectables } = useGetGameData();
+
+  // TODO: Update based on selectedGame
   
   return ([
     {

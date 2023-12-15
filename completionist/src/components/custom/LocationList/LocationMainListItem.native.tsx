@@ -2,22 +2,22 @@ import React, { useState } from 'react';
 import Dropdown from '@components/general/Dropdown/Dropdown.native';
 import ListHeader from '@components/general/Lists/ListHeader.native';
 import useMainState from '@redux/hooks/useMainState';
-import useGetMiscItems from './hooks/useGetMiscItems';
+import useGetLocations from './hooks/useGetLocations';
 import ListItem from '@components/general/Lists/ListItem.native';
-import { MiscItem } from '@utils/CustomInterfaces';
-import useCheckMiscItemComplete from './hooks/useCheckMiscItemComplete';
+import { Location } from '@utils/CustomInterfaces';
+import useCheckLocationComplete from './hooks/useCheckLocationComplete';
 
-export interface MiscMainListItemProps {
+export interface LocationMainListItemProps {
   category: string;
   completed: string;
   total: string;
 }
 
-const MiscMainListItem = ({ category, completed, total }: MiscMainListItemProps) => {
+const LocationMainListItem = ({ category, completed, total }: LocationMainListItemProps) => {
   const { showSearchResults } = useMainState();
   const [isOpen, setIsOpen] = useState<boolean>(false);
-  const { getMiscItemsForCategory, updateMiscItemsComplete } = useGetMiscItems()
-  const { checkMiscItemComplete } = useCheckMiscItemComplete();
+  const { getLocationsForCategory, updateLocationsComplete } = useGetLocations()
+  const { checkLocationComplete } = useCheckLocationComplete();
 
   return (
     <Dropdown
@@ -27,17 +27,17 @@ const MiscMainListItem = ({ category, completed, total }: MiscMainListItemProps)
         <ListHeader title={category} completed={completed} total={total} />
       }
     >
-      {getMiscItemsForCategory(category).map((item: MiscItem, index: number) => (
+      {getLocationsForCategory(category).map((item: Location, index: number) => (
         <ListItem 
           key={index}
           id={item.id}
           name={item.name}
-          isComplete={checkMiscItemComplete(item.id)}
-          action={(): void => updateMiscItemsComplete(item.id)}
+          isComplete={checkLocationComplete(item.id)}
+          action={(): void => updateLocationsComplete(item.id)}
         />
       ))}
     </Dropdown>
   );
 };
 
-export default MiscMainListItem;
+export default LocationMainListItem;

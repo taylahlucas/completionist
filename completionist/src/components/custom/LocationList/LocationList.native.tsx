@@ -1,32 +1,31 @@
 import React from 'react';
-import locations from '../../../../backend/database/skyrim_locations.json';
 import ScrollableList from '@components/general/Lists/ScrollableList.native';
-import { Location } from '@utils/CustomInterfaces';
-import useMainState from '@redux/hooks/useMainState';
-import useSearchStringFormatter from '@utils/hooks/useSearchStringFormatter';
-import useCheckLocationComplete from './hooks/useCheckLocationComplete.native';
-import ListItem from '@components/general/Lists/ListItem.native';
-import useUpdateLocationsComplete from './hooks/useUpdateLocationsComplete';
+import useCheckLocationComplete from './hooks/useCheckLocationComplete';
+import useGetLocations from './hooks/useGetLocations';
+import Condition from '@components/general/Condition.native';
+import LocationMainListItem from './LocationMainListItem.native';
 
 const LocationList = () => {
-  const { searchValue } = useMainState();
-  const getFormattedSearchString = useSearchStringFormatter();
-  const filteredLocations: Location[] = locations.filter(location => getFormattedSearchString(location.name).includes(getFormattedSearchString(searchValue)));
-  const { checkLocationComplete } = useCheckLocationComplete();
-  const { updateLocationsComplete } = useUpdateLocationsComplete();
-  
-  // TODO: Add custom map for locations
+  const { getLocationsForCategory, getLocationCategories } = useGetLocations();
+  const { checkLocationsCompleteForCategory } = useCheckLocationComplete();
+
   return (
     <ScrollableList>
-      {filteredLocations.map((location: Location, index: number) => (
-        <ListItem 
-          key={index} 
-          id={location.id} 
-          name={location.name}
-          isComplete={checkLocationComplete(location.id)}
-          action={(): void => updateLocationsComplete(location.id)}
-        />
-      ))}
+      {getLocationCategories().map((category: string, index: number) => {
+        const allLocationsForCategory = getLocationsForCategory(category);
+        const completedLocations = checkLocationsCompleteForCategory(allLocationsForCategory);
+
+        return (
+          <Condition key={index} condition={allLocationsForCategory.length > 0}>
+            <LocationMainListItem
+              key={index}
+              category={category}
+              completed={completedLocations.toString()}
+              total={allLocationsForCategory.length.toString()}
+            />
+          </Condition>
+        );
+      })}
     </ScrollableList>
   );
 };

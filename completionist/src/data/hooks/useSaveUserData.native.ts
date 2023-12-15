@@ -6,7 +6,7 @@ import useKeychain from './useKeychain.native';
 import { ScreenEnum } from '@utils/CustomEnums';
 import { initialFormData } from '@redux/MainState';
 import { CredentialsResponse } from '@utils/CustomTypes';
-import { initialUserData } from '@redux/MainState';
+import { initialGameData } from '@redux/MainState';
 
 interface SaveUserDataReturnType {
   loadUserData: () => void;
@@ -20,12 +20,12 @@ const useSaveUserData = (): SaveUserDataReturnType => {
   const { fetchDataFromCache, saveToCache, clearCache } = useCache();
   const { getCredentials, storeCredentials, deleteCredentials } = useKeychain();
 
-  const validatedUserData = (user: User): User => {
+  const validateGameData = (user: User): User => {
     return {
       ...user,
       data: {
-        skyrim: !!user.data?.skyrim ? user.data?.skyrim : initialUserData,
-        fallout4: !!user.data?.fallout4 ? user.data?.fallout4 : initialUserData
+        skyrim: !!user.data?.skyrim ? user.data?.skyrim : initialGameData,
+        fallout4: !!user.data?.fallout4 ? user.data?.fallout4 : initialGameData
       }
     }
   };
@@ -37,7 +37,7 @@ const useSaveUserData = (): SaveUserDataReturnType => {
           fetchDataFromCache(credentials.password)
             .then(cachedData => {
               if (!!cachedData) {
-                saveUserData(validatedUserData(cachedData));
+                saveUserData(cachedData);
               }
             });
         }
@@ -49,8 +49,8 @@ const useSaveUserData = (): SaveUserDataReturnType => {
       username: user.name,
       password: user.userId
     });
-    setUser(user);
-    saveToCache(user);
+    setUser(validateGameData(user));
+    saveToCache(validateGameData(user));
     setLoggedIn(true);
     navigation.navigate(ScreenEnum.Home);
   };

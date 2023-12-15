@@ -5,8 +5,8 @@ import Condition from '@components/general/Condition.native';
 import QuestSubTypeMainListItem from './QuestSubTypeMainListItem.native';
 import useMainState from '@redux/hooks/useMainState';
 import SubListHeader from '@components/general/Lists/SubListHeader.native';
-import useCheckQuestComplete from './hooks/useCheckQuestComplete.native';
-import useGetQuests from './hooks/useGetQuests.native';
+import useCheckQuestComplete from './hooks/useCheckQuestComplete';
+import useGetQuests from './hooks/useGetQuests';
 
 export interface QuestSubListItemProps {
   category: string;

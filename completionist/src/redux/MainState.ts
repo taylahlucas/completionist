@@ -3,7 +3,7 @@ import { SubscriptionTypeEnum } from '@utils/CustomEnums';
 import { GeneralData, User, UserFormData } from '@utils/CustomInterfaces';
 import { AppStateStatus } from 'react-native';
 
-export const initialUserData: GeneralData = {
+export const initialGameData: GeneralData = {
   quests: [],
   collectables: [],
   locations: [],
@@ -22,18 +22,8 @@ export const initialUser: User = {
     }
   ],
   data: {
-    skyrim: {
-      quests: [],
-      collectables: [],
-      locations: [],
-      miscellaneous: []
-    },
-    fallout4: {
-      quests: [],
-      collectables: [],
-      locations: [],
-      miscellaneous: []
-    }
+    skyrim: initialGameData,
+    fallout4: initialGameData
   }
 }
 
