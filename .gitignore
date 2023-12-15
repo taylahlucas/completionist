@@ -7,3 +7,4 @@ completionist/package-lock.json
 completionist/.env.d.ts
 completionist/test.json
 completionist/backend/package-lock.json
+completionist/ios/GoogleService-Info.plist
