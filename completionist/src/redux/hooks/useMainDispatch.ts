@@ -1,6 +1,6 @@
 import { Dispatch } from 'redux';
 import { SubscriptionTypeEnum } from '@utils/CustomEnums';
-import { Item, User, UserFormData } from '@utils/CustomInterfaces';
+import { Item, SettingsConfig, User, UserFormData } from '@utils/CustomInterfaces';
 import { 
   setAppState,
   setSelectedGame,
@@ -14,6 +14,7 @@ import {
   setCompletedCollectables,
   setCompletedMiscItems,
   setCompletedLocations,
+  setSettingsConfig,
   reset
 } from '../MainState';
 import { useAppDispatch } from '../store';
@@ -31,6 +32,7 @@ interface MainDispatch {
   setCompletedCollectables: (value: Item[]) => void;
   setCompletedLocations: (value: Item[]) => void;
   setCompletedMiscItems: (value: Item[]) => void;
+  setSettingsConfig: (settings: SettingsConfig) => void;
   reset: () => void;
 }
 
@@ -73,6 +75,9 @@ const useMainDispatch = (): MainDispatch => {
     },
     setCompletedMiscItems(value: Item[]): void {
       dispatch(setCompletedMiscItems(value));
+    },
+    setSettingsConfig(settings: SettingsConfig): void {
+      dispatch(setSettingsConfig(settings));
     },
     reset(): void {
       dispatch(reset());

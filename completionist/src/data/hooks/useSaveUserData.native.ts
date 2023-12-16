@@ -1,12 +1,13 @@
 import useReactNavigation, { DrawerActions } from '@navigation/hooks/useReactNavigation.native';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
-import { User } from '@utils/CustomInterfaces';
+import { GeneralData, User } from '@utils/CustomInterfaces';
 import useCache from './useCache.native';
 import useKeychain from './useKeychain.native';
 import { ScreenEnum } from '@utils/CustomEnums';
 import { initialFormData } from '@redux/MainState';
 import { CredentialsResponse } from '@utils/CustomTypes';
 import { initialGameData } from '@redux/MainState';
+import { expectedDataKeys } from '@utils/constants';
 
 interface SaveUserDataReturnType {
   loadUserData: () => void;
@@ -18,16 +19,22 @@ const useSaveUserData = (): SaveUserDataReturnType => {
   const navigation = useReactNavigation();
   const { setUser, setUserFormData, setLoggedIn } = useMainDispatch();
   const { fetchDataFromCache, saveToCache, clearCache } = useCache();
-  const { getCredentials, storeCredentials, deleteCredentials } = useKeychain();
+  const { getCredentials, deleteCredentials } = useKeychain();
 
   const validateGameData = (user: User): User => {
-    return {
-      ...user,
-      data: {
-        skyrim: !!user.data?.skyrim ? user.data?.skyrim : initialGameData,
-        fallout4: !!user.data?.fallout4 ? user.data?.fallout4 : initialGameData
+    let updatedUser: User = user;
+    // Check if GeneralData contains all params
+    for (const key of expectedDataKeys) {
+      if (!(key in user)) {
+        if (!updatedUser.data.skyrim[key]) {
+          updatedUser.data.skyrim[key] = [];
+        }
+        if (!updatedUser.data.fallout4[key]) {
+          updatedUser.data.fallout4[key] = [];
+        }
       }
     }
+    return updatedUser;
   };
 
   const loadUserData = () => {
@@ -45,10 +52,7 @@ const useSaveUserData = (): SaveUserDataReturnType => {
   };
 
   const saveUserData = (user: User) => {
-    storeCredentials({
-      username: user.name,
-      password: user.userId
-    });
+    validateGameData(user)
     setUser(validateGameData(user));
     saveToCache(validateGameData(user));
     setLoggedIn(true);

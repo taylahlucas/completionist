@@ -1,27 +1,36 @@
-import React, { useEffect, useState } from 'react';
-import { View } from 'react-native';
-import Dropdown from '@components/general/Dropdown/Dropdown.native';
-import DropdownSelection from '@components/general/Dropdown/DropdownSelection.native';
-import { SubscriptionTypeEnum } from '@utils/CustomEnums';
-import DropdownSelectionContent from '@components/general/Dropdown/DropdownSelectionContent.native';
-import useSettingsState from './hooks/useSettingsState';
-import useSettingsDispatch from './hooks/useSettingsDispatch';
+import React from 'react';
+import { IconTypeEnum, SubscriptionTypeEnum } from '@utils/CustomEnums';
 import ScrollableList from '@components/general/Lists/ScrollableList.native';
 import useGetSettingsQuestCategories from './hooks/useGetSettingsQuestCategories';
-import StyledText from '@components/general/Text/StyledText.native';
 import useGetTheme from '@styles/hooks/useGetTheme';
+import { style, SettingsContentMainItem, SettingsContentMainItemTitle } from './SettingsContentStyledComponents.native';
+import IconButton from '@components/general/Icon/IconButton.native';
+import useSettingsState from './hooks/useSettingsState';
+import useMainState from '@redux/hooks/useMainState';
 
 const SettingsContentCollectionList = () => {
   const theme = useGetTheme();
-  const games = [SubscriptionTypeEnum.SKYRIM, SubscriptionTypeEnum.FALLOUT_4];
-  const { getSettingsQuestCategories, getSettingsQuestSubCategories } = useGetSettingsQuestCategories();
+  const { user } = useMainState();
+  const { selectedGameSettings } = useSettingsState();
+  const { getSettingsQuestCategories } = useGetSettingsQuestCategories();
 
-  // TODO: Center align
   return (
-    <ScrollableList style={{ width: '100%', position: 'absolute', marginTop: 108, maxHeight: 300 }}>
-      <View style={{ width: 300, backgroundColor: theme.darkGrey, justifyContent: 'center', alignItems: 'center' }}>
-        {getSettingsQuestCategories().map((category: string) => <StyledText>{category}</StyledText>)}
-      </View>
+    <ScrollableList 
+      style={{ ...style.scrollView, borderColor: theme.midGrey }}
+      contentContainerStyle={style.scrollContent}
+    >
+      {getSettingsQuestCategories(selectedGameSettings).map((category: string, index: number) => (
+        <SettingsContentMainItem key={index} color={theme.darkGrey}>
+          <SettingsContentMainItemTitle align={'left'} type={'ListItemTitleBold'}>{category}</SettingsContentMainItemTitle>
+          <IconButton 
+            name={'checkbox-outline'} 
+            type={IconTypeEnum.Ionicons} 
+            color={theme.lightGrey}
+            size={22}
+            onPress={() => null} 
+          />
+        </SettingsContentMainItem>
+      ))}
     </ScrollableList>
   );
 };

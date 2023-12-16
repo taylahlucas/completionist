@@ -100,6 +100,7 @@ export interface GeneralData {
   collectables: Item[];
   locations: Item[];
   miscellaneous: Item[];
+  settingsConfig: SettingsConfigItem[];
 }
 
 export interface UserData {
@@ -116,7 +117,18 @@ export interface User {
   userId: string;
   name: string;
   email: string;
-  userAvatar: string;
+  userAvatar?: string;
   subscription: Subscription[];
   data: UserData;
+}
+
+export interface SettingsConfigItem {
+  category: string;
+  subCategory?: string;
+  isActive: boolean;
+}
+
+export interface SettingsConfig {
+  skyrim: SettingsConfigItem[];
+  fallout4: SettingsConfigItem[];
 }

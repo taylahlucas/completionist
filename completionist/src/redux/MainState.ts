@@ -1,36 +1,21 @@
 import { createSlice } from '@reduxjs/toolkit';
 import { SubscriptionTypeEnum } from '@utils/CustomEnums';
-import { GeneralData, User, UserFormData } from '@utils/CustomInterfaces';
+import { GeneralData, SettingsConfig, User, UserFormData } from '@utils/CustomInterfaces';
 import { AppStateStatus } from 'react-native';
 
 export const initialGameData: GeneralData = {
   quests: [],
   collectables: [],
   locations: [],
-  miscellaneous: []
-}
-
-export const initialUser: User = {
-  userId: '',
-  name: '',
-  email: '',
-  userAvatar: '',
-  subscription: [
-    {
-      id: SubscriptionTypeEnum.SKYRIM,
-      isActive: true
-    }
-  ],
-  data: {
-    skyrim: initialGameData,
-    fallout4: initialGameData
-  }
+  miscellaneous: [],
+  settingsConfig: []
 }
 
 export const initialFormData: UserFormData = {
   userId: '',
   name: '',
   email: '',
+  userAvatar: '',
   subscription: [
     {
       id: SubscriptionTypeEnum.SKYRIM,
@@ -41,6 +26,14 @@ export const initialFormData: UserFormData = {
       isActive: true
     }
   ]
+}
+
+export const initialUser: User = {
+  ...initialFormData,
+  data: {
+    skyrim: initialGameData,
+    fallout4: initialGameData
+  }
 }
 
 export interface MainState {
@@ -60,7 +53,7 @@ export const initialState: MainState = {
   userFormData: initialFormData,
   user: initialUser,
   searchValue: '',
-  showSearchResults: false
+  showSearchResults: false,
 }
 
 const slice = createSlice({
@@ -131,6 +124,16 @@ const slice = createSlice({
           break;
       }
     },
+    setSettingsConfig: (state, action) => {
+      switch (state.selectedGame) {
+        case SubscriptionTypeEnum.SKYRIM:
+          state.user.data.skyrim.settingsConfig = action.payload;
+          break;
+        case SubscriptionTypeEnum.FALLOUT_4:
+          state.user.data.fallout4.settingsConfig = action.payload;
+          break;
+      }
+    },
     reset: (state) => {
       state.searchValue = initialState.searchValue;
       state.showSearchResults = initialState.showSearchResults;
@@ -151,6 +154,7 @@ export const {
   setCompletedCollectables,
   setCompletedMiscItems,
   setCompletedLocations,
+  setSettingsConfig,
   reset
 } = slice.actions;
 

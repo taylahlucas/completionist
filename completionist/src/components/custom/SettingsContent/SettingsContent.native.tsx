@@ -8,11 +8,11 @@ import useSettingsState from './hooks/useSettingsState';
 import useSettingsDispatch from './hooks/useSettingsDispatch';
 import StyledText from '@components/general/Text/StyledText.native';
 import SettingsContentCollectionList from './SettingsContentCollectionList.native';
+import { games } from '@utils/constants';
 
 const SettingsContent = () => {
   const { triggerSelectionOpen, setSelectedGameSettings } = useSettingsDispatch();
   const { isSelectionOpen, selectedGameSettings } = useSettingsState();
-  const games = [SubscriptionTypeEnum.SKYRIM, SubscriptionTypeEnum.FALLOUT_4];
 
   return (
     <View style={{ marginTop: 32 }}>

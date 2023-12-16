@@ -1,13 +1,11 @@
-import useSettingsState from '@components/custom/SettingsContent/hooks/useSettingsState';
 import useGetGameData from '@data/hooks/useGetGameData.native';
-import { Quest } from '@utils/CustomInterfaces';
+import { SubscriptionTypeEnum } from '@utils/CustomEnums';
 
+// TODO: Add return type
 const useGetSettingsQuestCategories = () => {
-  const { selectedGameSettings } = useSettingsState();
-  const { mapDataToQuests } = useGetGameData(selectedGameSettings);
-  const quests = mapDataToQuests();
-  
-  const getSettingsQuestCategories = (): string[] => {
+  const getSettingsQuestCategories = (selectedGameSettings: SubscriptionTypeEnum): string[] => {
+    const { mapDataToQuests } = useGetGameData(selectedGameSettings);
+    const quests = mapDataToQuests();
     let questCategories: string[] = [];
     quests.map(quest => {
       if (!questCategories.find(item => item === quest.mainCategory)) {
@@ -17,7 +15,9 @@ const useGetSettingsQuestCategories = () => {
     return questCategories;
   }
 
-  const getSettingsQuestSubCategories = (category: string): string[] => {
+  const getSettingsQuestSubCategories = (selectedGameSettings: SubscriptionTypeEnum, category: string): string[] => {
+    const { mapDataToQuests } = useGetGameData(selectedGameSettings);
+    const quests = mapDataToQuests();
     const filteredQuests = quests.filter(quest => quest.mainCategory === category);
     let questSubCategories: string[] = [];
     filteredQuests.map(quest => {

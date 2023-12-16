@@ -13,6 +13,7 @@ export type MaterialIconsType =
 export type IoniconType =
   | 'arrow-back'
   | 'checkmark-circle-outline'
+  | 'checkbox-outline'
   | 'menu-sharp';
 
 export type FontAwesomeType =

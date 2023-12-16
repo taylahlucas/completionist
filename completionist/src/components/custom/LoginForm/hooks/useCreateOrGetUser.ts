@@ -9,7 +9,7 @@ import useSaveUserData from '@data/hooks/useSaveUserData.native';
 const useCreateOrGetUser = () => {
   const { userFormData, isLoggedIn } = useMainState();
   const { createUser, getUserByUserId } = useEndpoints();
-  const { getCredentials } = useKeychain();
+  const { getCredentials, storeCredentials } = useKeychain();
   const { fetchDataFromCache } = useCache();
   const { saveUserData } = useSaveUserData();
 
@@ -41,20 +41,26 @@ const useCreateOrGetUser = () => {
             getUserByUserId({ userId: userFormData.userId })
               .then(user => {
                 if (!!user) {
+                  storeCredentials({
+                    username: user.name,
+                    password: user.userId
+                  });
                   saveUserData(user);
                 }
                 else {
                   createUser({ data: userFormData })
                   .then((response: UserResponse) => {
-                    console.log("RESPONSE: ", response)
                     if (!!response) {
+                      storeCredentials({
+                        username: response.name,
+                        password: response.userId
+                      });
                       saveUserData(response);
                     }
                     else {
                       console.log("Error creating user");
                     }
                   });
-                    // .then((response: UserResponse) => !!response ? saveUserData(response) : console.log("Error creating user"));
                 }
               })
           }

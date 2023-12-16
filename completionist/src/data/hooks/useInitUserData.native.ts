@@ -13,7 +13,10 @@ const useInitUserData = () => {
   const { loadUserData, saveUserData } = useSaveUserData();
 
   useEffect(() => {
-    loadUserData();
+    if (!isLoggedIn && !user.userId) {
+      console.log("LOADING 1")
+      loadUserData();
+    }
     const subscription = AppState.addEventListener('change', nextAppState => {
       setAppState(nextAppState);
       appStateRef.current = nextAppState;
@@ -28,6 +31,7 @@ const useInitUserData = () => {
     switch (appState) {
       case 'active':
         if (!isLoggedIn || !user.userId) {
+          console.log("LOADING 2")
           loadUserData();
         }
         return;
