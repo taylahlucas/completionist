@@ -15,7 +15,7 @@ const useInitSettingsConfig = () => {
     { game: SubscriptionTypeEnum.SKYRIM, config: user.data?.skyrim.settingsConfig },
     { game: SubscriptionTypeEnum.FALLOUT_4, config: user.data?.fallout4.settingsConfig },
   ]);
-  
+
   // TODO: Update settingsConfig with all categories and sub categories if it does not exist
   useEffect(() => {
     settingsData.map((settings, index) => {
@@ -55,25 +55,6 @@ const useInitSettingsConfig = () => {
       }
     });
 
-    //   const categories = getSettingsQuestCategories(game);
-    //   let gameSettings = [];
-
-    //   categories.map((category) => {
-    //     settingsData.push({
-    //       category: category,
-    //       isActive: true
-    //     });
-    //     const subCategories = getSettingsQuestSubCategories(game, category);
-    //   })
-
-
-    // })
-
-    // setSettingsConfig({
-    //   ...settingsConfig,
-    //   skyrim: {},
-    //   fallout4: {}
-    // })
   }, []);
 };
 

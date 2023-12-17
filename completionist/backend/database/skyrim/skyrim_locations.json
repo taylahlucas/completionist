@@ -1966,5 +1966,673 @@
     "name": "Ysgramor's Tomb",
     "hold": "Winterhold",
     "dlc": "None"
+  },
+
+  {
+    "id": "0cb0c23e-6937-4b49-aac7-b7a2f0c1e79c",
+    "name": "Castle Volkihar",
+    "hold": "Haafingar",
+    "dlc": "Dawnguard"
+  },
+  {
+    "id": "bbf5bfef-52c5-4214-862b-b8a3ef9a7d79",
+    "name": "Volkihar Dungeons",
+    "hold": "Haafingar",
+    "dlc": "Dawnguard"
+  },
+  {
+    "id": "fc9d1c0b-1393-4850-8279-7edcc086f168",
+    "name": "Fort Dawnguard",
+    "hold": "Dayspring Canyon",
+    "dlc": "Dawnguard"
+  },
+  {
+    "id": "ce8d2d49-1a1e-439f-9d8a-35e4fcdfb7f1",
+    "name": "Redwater Den",
+    "hold": "The Rift",
+    "dlc": "Dawnguard"
+  },
+  {
+    "id": "bf5a8256-12f8-4d97-b67f-b7d44b04e685",
+    "name": "Ancestor Glade",
+    "hold": "Falkreath Hold",
+    "dlc": "Dawnguard"
+  },
+  {
+    "id": "d21f7cda-ef82-4ec3-9be7-6e92ab45ec24",
+    "name": "Darkfall Cave",
+    "hold": "Falkreath Hold",
+    "dlc": "Dawnguard"
+  },
+  {
+    "id": "f5d91112-8014-44cd-94c4-d72e3e2e01b3",
+    "name": "Dead Drop Falls",
+    "hold": "The Pale",
+    "dlc": "Dawnguard"
+  },
+  {
+    "id": "5d68f0ec-7d7d-42e7-b86d-cb9e381b3c27",
+    "name": "Dimhollow Crypt",
+    "hold": "Falkreath Hold",
+    "dlc": "Dawnguard"
+  },
+  {
+    "id": "e5b2f1d3-5b0e-4382-8b92-8c202195c8c4",
+    "name": "Forebears' Holdout",
+    "hold": "Hjaalmarch",
+    "dlc": "Dawnguard"
+  },
+  {
+    "id": "4e97e44e-b6a9-4d84-88db-1a4398c98f8d",
+    "name": "Mossy Glen Cave",
+    "hold": "Falkreath Hold",
+    "dlc": "Dawnguard"
+  },
+  {
+    "id": "28cccd72-e8ff-4a9d-ba62-50b59dbb6a74",
+    "name": "Ruunvald",
+    "hold": "The Pale",
+    "dlc": "Dawnguard"
+  },
+  {
+    "id": "b7a04c8c-eab7-4c7e-b179-e2ba7363eb5b",
+    "name": "Arkngthamz",
+    "hold": "The Reach",
+    "dlc": "Dawnguard"
+  },
+
+  {
+    "id": "a6ff1cc7-785b-48bd-89cd-cb016aae2091",
+    "name": "Aetherium Forge",
+    "hold": "The Reach",
+    "dlc": "Dawnguard"
+  },
+  {
+    "id": "544005cc-4424-47fc-8e8b-e7480fb775a3",
+    "name": "Forgotten Vale",
+    "hold": "Haafingar",
+    "dlc": "Dawnguard"
+  },
+  {
+    "id": "1c708a79-1a01-4a21-97c4-b56e52b7ac14",
+    "name": "Darkfall Grotto",
+    "hold": "Falkreath Hold",
+    "dlc": "Dawnguard"
+  },
+  {
+    "id": "544b515a-0b05-4c60-9fc2-8603a7e27db7",
+    "name": "Forgotten Vale Cave",
+    "hold": "Haafingar",
+    "dlc": "Dawnguard"
+  },
+  {
+    "id": "2f94b9df-9b1a-4d88-93a2-0140e6c8ee67",
+    "name": "Forgotten Vale Forest",
+    "hold": "Haafingar",
+    "dlc": "Dawnguard"
+  },
+  {
+    "id": "bc84f167-098f-418a-912a-8fb187c9a98a",
+    "name": "Glacial Crevice",
+    "hold": "Haafingar",
+    "dlc": "Dawnguard"
+  },
+  {
+    "id": "4e72ea88-b0ea-43a2-8a56-e7f0b8ac2d02",
+    "name": "Inner Sanctum",
+    "hold": "Haafingar",
+    "dlc": "Dawnguard"
+  },
+  {
+    "id": "f57ef5ab-98a7-48e7-93c1-73d3c4c6a6d3",
+    "name": "Paragon Platform",
+    "hold": "Haafingar",
+    "dlc": "Dawnguard"
+  },
+  {
+    "id": "93e50ee2-c6ce-41f8-a76e-8d4c073496b6",
+    "name": "Sharpslope Cave",
+    "hold": "Falkreath Hold",
+    "dlc": "Dawnguard"
+  },
+  {
+    "id": "346e007a-b66b-49a2-87c2-26a9d91a75a8",
+    "name": "Icewater Jetty",
+    "hold": "Falkreath Hold",
+    "dlc": "Dawnguard"
+  },
+  {
+    "id": "b42f4bbf-0c75-4f8f-aedc-5dce5e76e93d",
+    "name": "Moldering Ruins",
+    "hold": "Falkreath Hold",
+    "dlc": "Dawnguard"
+  },
+  {
+    "id": "57b2e365-3a78-4bfc-ae5b-d2a716172f36",
+    "name": "Chantry of Auri-El",
+    "hold": "Falkreath Hold",
+    "dlc": "Dawnguard"
+  },
+  {
+    "id": "d773a88c-09c9-42da-b7ee-0f9e535f748d",
+    "name": "Dayspring Canyon",
+    "hold": "Falkreath Hold",
+    "dlc": "Dawnguard"
+  },
+  {
+    "id": "b9a071f3-08b4-4f19-9bb7-c8734d439a13",
+    "name": "Soul Cairn",
+    "hold": "Soul Cairn (Plane of Oblivion)",
+    "dlc": "Dawnguard"
+  },
+  {
+    "id": "bd8bc14e-b7cc-4c2c-9b2e-7b8cc97a6cf5",
+    "name": "Ancient King",
+    "hold": "Falkreath Hold",
+    "dlc": "Dawnguard"
+  },
+
+  {
+    "id": "9fc0f20a-3ce5-45de-8b2f-4c91b8f793da",
+    "name": "Abandoned Building",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "d5d07e0d-c3db-4c79-80d9-4bc7f1dfed6d",
+    "name": "Alor House",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "73e8e1ce-6e9c-4e7d-a20a-5e7465a8c2a0",
+    "name": "Caerellius House",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "b8e929a3-6fc7-4a2f-b9e7-4a4089f42934",
+    "name": "Coldcinder Cave",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "6f93336a-2b66-4cfc-bb9d-b1e7bc88d3bb",
+    "name": "Glover Mallory's House",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "153f0126-aa74-457b-835a-cbf8d58cfe5b",
+    "name": "Ienth Farm",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "b2046a84-0844-4bd4-bc2f-dc996b3b8a61",
+    "name": "Morvayn Ancestral Tomb",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "1613457e-36b5-4e16-9361-1dd6e670798f",
+    "name": "Morvayn Manor",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "f58512d0-6dd9-46c5-a2d8-1bf9a0123123",
+    "name": "Raven Rock Mine",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "9f2fb6f0-0a3a-426b-8d54-eaeb6f72bcfe",
+    "name": "Severin Manor",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "d5367b3b-6c75-4c36-9d52-56e4a5f902b3",
+    "name": "Temple",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "a201268c-9ec3-4752-8b95-f42e3a4be7a3",
+    "name": "The Retching Netch",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "a88d47e3-d2c5-4f42-b80d-242d84d54e3b",
+    "name": "The Bulwark",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "9d3f9304-05d5-47fc-9f60-56b59c86fecc",
+    "name": "The Bulwark Jail",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "d2fe9ae7-16da-4b8c-a3c2-1245a2ed1d8a",
+    "name": "Ulen Ancestral Tomb",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "b7e6355c-3ee6-4d8c-9dab-77f1d05a63f2",
+    "name": "Tel Mithryn",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "5e5f94bb-0ab8-401a-aa64-8f84a894f3bd",
+    "name": "Tel Mithryn Apothecary",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "2f9b6e20-793a-4692-835e-9da4e4b1a5d9",
+    "name": "Tel Mithryn Kitchen",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "ac6837b7-0213-4c0a-a5e2-c1ec3e118af9",
+    "name": "Tel Mithryn Steward's House",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "b7e6355c-3ee6-4d8c-9dab-77f1d05a63f2",
+    "name": "Tel Mithryn",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "5e5f94bb-0ab8-401a-aa64-8f84a894f3bd",
+    "name": "Tel Mithryn Apothecary",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "2f9b6e20-793a-4692-835e-9da4e4b1a5d9",
+    "name": "Tel Mithryn Kitchen",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "ac6837b7-0213-4c0a-a5e2-c1ec3e118af9",
+    "name": "Tel Mithryn Steward's House",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "8f8e2e14-0811-4a38-88b5-eb748b72063f",
+    "name": "Beast Stone",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "f7ac9c96-2d1e-4fc1-b818-244a832f4fb4",
+    "name": "Earth Stone",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "b1c0f90d-2e85-4202-80d1-7c5d682c3e0e",
+    "name": "Sun Stone",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "5b8c8b60-34fc-402b-8032-b77d7f65189a",
+    "name": "Tree Stone",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "1343f547-7a86-4a9a-a6a7-49c489732167",
+    "name": "Water Stone",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "6eeb23e4-091d-4c91-9f82-62e4b1706092",
+    "name": "Wind Stone",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "1d4d0e62-d040-45a7-b6f1-1ce46c68b1c7",
+    "name": "Bujold's Retreat",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "4b93ce5e-0b22-465f-8f24-ee5428a47c8f",
+    "name": "Haknir's Shoal",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "eb2e6959-1c94-45e2-98c0-d0f9170c8488",
+    "name": "Last Vigil",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+
+  {
+    "id": "f94af974-1cf4-45aa-ae94-255ea4eab3d1",
+    "name": "Bristleback Cave",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "3492441a-ba13-4cc1-97e5-28b10532f893",
+    "name": "Benkongerike",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "ab56bda8-2c7b-42ed-8139-85566da144a7",
+    "name": "Castle Karstaag Caverns",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "fca37a79-9bfe-4bc1-8d12-4a26c1f7e804",
+    "name": "Castle Karstaag Ruins",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "e6de2d6c-65a3-48ba-a1f9-7d5646ec6b68",
+    "name": "Frossel",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "5b6cccfb-55c4-46ea-9436-d80e5b8e4d42",
+    "name": "Frostmoon Crag",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "86438187-0280-4003-9c7d-6a2c8912e4d1",
+    "name": "Glacial Cave",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "d52b7a12-7087-49cb-90a7-53b122c5227c",
+    "name": "Hrothmund's Barrow",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+
+  {
+    "id": "227ab93d-4ecf-45e3-8794-0f1c6ba2ea4a",
+    "name": "Headwaters of Harstrad",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "a0f28a4b-74f7-4782-bf50-3bf772524b96",
+    "name": "Northshore Landing",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "d04a25dd-8d8d-4a61-80b9-b28bc4f27252",
+    "name": "Saering's Watch",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "7a7815ae-72a7-4e5b-8ea7-094e8bc87c7b",
+    "name": "Fahlbtharz",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "fc60d4cd-9fc7-44e3-b59b-7271edfd9f84",
+    "name": "Kagrumez",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "7d5a8b2a-d10f-40de-85bb-56ccf52a6d12",
+    "name": "Nchardak",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "c5c7e1a7-9e0b-4489-8a6e-8f3c5b5dd3da",
+    "name": "Old Attius Farm",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "e0bf1b10-0cd6-49d7-8252-946f18bf092a",
+    "name": "Ashfallow Citadel",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "6a244867-58fb-40c1-b61e-b780c7cc6771",
+    "name": "Frost Frostmoth",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "a652bbd4-021d-4f8f-a3d4-92ac27ce4095",
+    "name": "Highpoint Tower",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+
+  {
+    "id": "71a12e63-557b-4c48-a927-0a2a3e54e29a",
+    "name": "Altar of Thrond",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "a8c5d6da-b4b5-46e1-8759-24044c6215d8",
+    "name": "Brodir Grove",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "617f3d27-0f2d-4e9c-8e5a-b7b0981e1cc3",
+    "name": "Frykte Peak",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "e60f2a69-5c42-44e7-b0e9-1a8fbdb1a1c5",
+    "name": "Horker Island",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "3a0ad99b-b8dd-4159-8ba4-e6b8164cb697",
+    "name": "Hvitkald Peak",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "c8652a0c-d997-42aa-a6d2-836f071c250c",
+    "name": "Mount Moesring",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "d0707a3e-154d-4e56-98d1-6b8ce01eaaab",
+    "name": "Mortrag Peak",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "45f115d2-7a48-45bf-b3a8-f6b8ed5b68a3",
+    "name": "Stalhrim Source",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+
+  {
+    "id": "fc3a6b38-6ecf-4d91-9124-dc1353e98a9a",
+    "name": "Broken Tusk Mine",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "c2e9d27d-5849-4e14-b1d9-4b146a2442b1",
+    "name": "Damphall Mine",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "46d8f23c-7073-4b0a-8bea-1c184cf4640f",
+    "name": "Moesring Pass",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "47c881b9-e3e7-40b2-8a57-e1b45c11c09c",
+    "name": "Snowclad Ruins",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "ff50a819-6e71-4e5c-9a52-48fcb9951f34",
+    "name": "Bloodskal Barrow",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "ea4d56c3-9093-45db-a82d-1263aa7be3a0",
+    "name": "Glydenhul Barrow",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "9bbca4b7-548d-442a-9e7a-04779a7bd5cb",
+    "name": "Kolbjorn Barrow",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "b20d2f54-96ed-4017-8b6e-c06715321b7b",
+    "name": "Vahlok's Tomb",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "19d84b07-b724-41ea-a6d5-1b52d43b6345",
+    "name": "White Ridge Barrow",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+
+  {
+    "id": "c1c0e251-d31f-42a0-b924-914696fb0ff7",
+    "name": "Skaal Village",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "b10b6fe3-c748-4f44-9011-2609b8f6e586",
+    "name": "Baldor Iron-Shaper's House",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "f2c613e1-50d4-4e95-bc5a-cb47a2d362a9",
+    "name": "Deor Woodcutter's House",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "3fbf5e5b-7d1a-43b3-90fc-0d6b3ac1efc9",
+    "name": "Elda's House",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "68cb0194-6c25-47f5-a42a-2b95cb132883",
+    "name": "Greathall",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "865171d8-e76b-46c0-b3d3-3f731e8f3ff6",
+    "name": "Morwen's House",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "7c75d9f7-8da7-470d-b96b-c5f07c4ed1c5",
+    "name": "Oslaf's House",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "63317ee0-92fb-4392-b15e-678e4d165eda",
+    "name": "Shaman's Hut",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "74a8265f-f327-40f2-98f9-5a6ce3fba300",
+    "name": "Wulf Wild-Blood's House",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "1f9ec6ef-688b-4da5-9e2d-8015f19793f0",
+    "name": "Thirsk Mead Hall",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "04d07c96-6d5e-4140-8a54-f3eb9379677a",
+    "name": "Abandoned Lodge",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "b1ba546f-4823-4b7a-b5bf-4b6fe574ff11",
+    "name": "Hrodulf's House",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "5407d999-f5ec-4ad2-a394-6f44b8666125",
+    "name": "Ramshackle Trading Post",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "3c7125b2-6df7-4a6d-b979-67d900d196b2",
+    "name": "Northern Maiden",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "b0d11e29-54c9-480d-8e0c-3eeb94601257",
+    "name": "Wreck of the Strident Squall",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "637b3b47-d251-4a21-a139-f0fffd320117",
+    "name": "Temple of Miraak",
+    "hold": "Solstheim",
+    "dlc": "Dragonborn"
   }
 ]

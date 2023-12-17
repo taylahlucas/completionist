@@ -85,7 +85,7 @@
     "subType": "",
     "name": "Ahzidal Mask",
     "prerequisite": "Kill Ahzidal in Kolbjorn Barrow.",
-    "dlc": "None"
+    "dlc": "Dragonborn"
   },
   {
     "id": "2c0a65ea-b5c4-48f3-b6aa-7b75452b8b06",
@@ -93,7 +93,7 @@
     "subType": "",
     "name": "Dukaan Mask",
     "prerequisite": "Kill Dukaan in White Ridge Barrow.",
-    "dlc": "None"
+    "dlc": "Dragonborn"
   },
   {
     "id": "5d3c2689-048e-4f4a-bd16-7f4bc72f5df7",
@@ -101,7 +101,7 @@
     "subType": "",
     "name": "Zahkriisos Mask",
     "prerequisite": "Kill Zahkriisos in Bloodskal Barrow.",
-    "dlc": "None"
+    "dlc": "Dragonborn"
   },
   {
     "id": "7d590587-df48-4e3b-a1a6-8ed1f0a0634a",
@@ -109,7 +109,7 @@
     "subType": "",
     "name": "Miraak Mask",
     "prerequisite": "Kill Miraak at the end of the Dragonborn questline.",
-    "dlc": "None"
+    "dlc": "Dragonborn"
   },
   {
     "id": "a5a77a8d-3d55-4db1-b9f3-2c065b8b98f1",
@@ -352,6 +352,30 @@
     "dlc": "None"
   },
   {
+    "id": "3e1c61b3-d50e-4f89-bcc9-13c792d0839f",
+    "type": "Shouts",
+    "subType": "Battle Fury",
+    "name": "Mid",
+    "prerequisite": "",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "3e1c63b3-d50e-4f89-bcc9-13c792d0839f",
+    "type": "Shouts",
+    "subType": "Battle Fury",
+    "name": "Vur",
+    "prerequisite": "",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "321c61b3-d50e-4f89-bcc9-13c792d0839f",
+    "type": "Shouts",
+    "subType": "Battle Fury",
+    "name": "Shaan",
+    "prerequisite": "",
+    "dlc": "Dragonborn"
+  },
+  {
     "id": "3e1c61b3-d50e-4f89-bcc9-13c79ed0839f",
     "type": "Shouts",
     "subType": "Become Ethereal",
@@ -381,7 +405,7 @@
     "subType": "Bend Will",
     "name": "Gol",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "Dragonborn"
   },
   {
     "id": "b0ef7980-bf6f-4f48-aac1-66c82c3b36e1",
@@ -389,7 +413,7 @@
     "subType": "Bend Will",
     "name": "Hah",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "Dragonborn"
   },
   {
     "id": "b0ef7980-bf6f-4f48-aaf1-66c82c3b36e1",
@@ -397,7 +421,7 @@
     "subType": "Bend Will",
     "name": "Dov",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "Dragonborn"
   },
   {
     "id": "3d625a8f-3b2a-4a71-a28f-cfcd0d9433f8",
@@ -477,7 +501,7 @@
     "subType": "Cyclone",
     "name": "Ven",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "Dragonborn"
   },
   {
     "id": "fbc41d24-c2cf-48c2-9663-ba4c7319bebb",
@@ -485,7 +509,7 @@
     "subType": "Cyclone",
     "name": "Gaar",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "Dragonborn"
   },
   {
     "id": "fbc41d24-12cf-48c2-9663-ba4c7319bebb",
@@ -493,7 +517,7 @@
     "subType": "Cyclone",
     "name": "Nos",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "Dragonborn"
   },
   {
     "id": "95b19d5f-0f91-421f-8a64-642b8ed69c13",
@@ -549,7 +573,7 @@
     "subType": "Dragon Aspect",
     "name": "Mul",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "Dragonborn"
   },
   {
     "id": "36f035a7-860c-4b5c-8d7e-871f9a4c27e7",
@@ -557,7 +581,7 @@
     "subType": "Dragon Aspect",
     "name": "Qah",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "Dragonborn"
   },
   {
     "id": "36f035a7-8605-4b5c-8d7e-871f9a4cc7e7",
@@ -565,7 +589,7 @@
     "subType": "Dragon Aspect",
     "name": "Diiv",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "Dragonborn"
   },
   {
     "id": "1dd9f7aa-44a3-4e49-aec7-9797d16b86dc",
@@ -590,6 +614,30 @@
     "name": "Frul",
     "prerequisite": "",
     "dlc": "None"
+  },
+  {
+    "id": "95b19d5f-0f91-421f-8a64-642b8ed69c13",
+    "type": "Shouts",
+    "subType": "Drain Vitality",
+    "name": "Gaan",
+    "prerequisite": "",
+    "dlc": "Dawnguard"
+  },
+  {
+    "id": "95b19d5f-0f91-421f-8a64-642b8ed69c13",
+    "type": "Shouts",
+    "subType": "Drain Vitality",
+    "name": "Lah",
+    "prerequisite": "",
+    "dlc": "Dawnguard"
+  },
+  {
+    "id": "95b19d5f-0f91-421f-8a64-642b8ed69c13",
+    "type": "Shouts",
+    "subType": "Drain Vitality",
+    "name": "Shaan",
+    "prerequisite": "",
+    "dlc": "Dawnguard"
   },
   {
     "id": "2d7c197b-8765-4ef0-8f4e-04bc67ac08e5",
@@ -765,7 +813,7 @@
     "subType": "Soul Tear",
     "name": "Rii",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "Dawnguard"
   },
   {
     "id": "1b5d63b0-2d23-47eb-bc01-618f85f1e2f4",
@@ -773,7 +821,7 @@
     "subType": "Soul Tear",
     "name": "Vaaz",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "Dawnguard"
   },
   {
     "id": "db5d63b0-2d23-47eb-bc01-618f85f1e2f4",
@@ -781,7 +829,7 @@
     "subType": "Soul Tear",
     "name": "Zol",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "Dawnguard"
   },
   {
     "id": "93f3a8f5-05c2-4c49-a06e-3739a2b23421",
@@ -806,6 +854,30 @@
     "name": "Qo",
     "prerequisite": "",
     "dlc": "None"
+  },
+  {
+    "id": "95b19d5f-0f91-421f-8a64-642b8ed69c13",
+    "type": "Shouts",
+    "subType": "Summon Durnehviir",
+    "name": "Dur",
+    "prerequisite": "",
+    "dlc": "Dawnguard"
+  },
+  {
+    "id": "95b19d5f-0f91-421f-8a64-642b8ed69c13",
+    "type": "Shouts",
+    "subType": "Summon Durnehviir",
+    "name": "Neh",
+    "prerequisite": "",
+    "dlc": "Dawnguard"
+  },
+  {
+    "id": "95b19d5f-0f91-421f-8a64-642b8ed69c13",
+    "type": "Shouts",
+    "subType": "Summon Durnehviir",
+    "name": "Viir",
+    "prerequisite": "",
+    "dlc": "Dawnguard"
   },
   {
     "id": "c46e1c0b-71b7-4ef4-b61a-d7b228c38b07",
@@ -885,7 +957,7 @@
     "subType": "",
     "name": "Ancient Falmer Armor",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "Dawnguard"
   },
   {
     "id": "4c0b3b36-1590-4fc3-95ea-dcbf74330137",
@@ -909,7 +981,7 @@
     "subType": "",
     "name": "Ahzidal's Armor",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "Dragonborn"
   },
   {
     "id": "fca7443d-86a5-4852-9db3-27a37e52a981",
@@ -925,7 +997,7 @@
     "subType": "",
     "name": "Deathbrand Armor",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "Dragonborn"
   },
   {
     "id": "a642943a-eb29-4e5f-b6c7-474d1e9f72c3",
@@ -966,6 +1038,22 @@
     "name": "Worn Shrouded Armor",
     "prerequisite": "",
     "dlc": "None"
+  },
+  {
+    "id": "68f9a639-58f4-4e5a-93a0-16cd41947cc7",
+    "type": "Unique Armour Sets",
+    "subType": "",
+    "name": "Miraak's Robe",
+    "prerequisite": "",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "68f9a639-58f4-4e5a-93a0-16cd41947cc7",
+    "type": "Unique Armour Sets",
+    "subType": "",
+    "name": "Visage of Mzund",
+    "prerequisite": "",
+    "dlc": "Dragonborn"
   },
   {
     "id": "8d19cfdb-8c29-4e8a-8621-7e405ca1e1f7",
@@ -1012,8 +1100,8 @@
     "type": "Unique Weapons",
     "subType": "Daggers",
     "name": "Kahvozein's Fang",
-    "prerequisite": "Dragonborn DLC quest:: A Scroll For Anska",
-    "dlc": "None"
+    "prerequisite": "Dragonborn DLC quest: A Scroll For Anska",
+    "dlc": "Dragonborn"
   },
   {
     "id": "3d80f7c7-8f48-419c-b748-1065c6ef4c38",
@@ -1061,7 +1149,7 @@
     "subType": "Maces",
     "name": "Horksbane",
     "prerequisite": "Companions quest: Radiant quest",
-    "dlc": "None"
+    "dlc": "Dragonborn"
   },
   {
     "id": "7a4f8a9d-0c85-44fe-9e9a-905078650ed8",
@@ -1101,7 +1189,7 @@
     "subType": "Swords",
     "name": "Akaviri Sword",
     "prerequisite": "Obtained during the Blades questline",
-    "dlc": "None"
+    "dlc": "Dawnguard"
   },
   {
     "id": "6b0f0d60-0e0f-4c8b-a79d-20e0be4f38cd",
@@ -1117,7 +1205,7 @@
     "subType": "Swords",
     "name": "Bloodscythe",
     "prerequisite": "Dragonborn DLC quest: Deathbrand",
-    "dlc": "None"
+    "dlc": "Dragonborn"
   },
   {
     "id": "dea44f86-0bf7-4f9b-8ec0-d56866ee52f3",
@@ -1205,7 +1293,7 @@
     "subType": "Swords",
     "name": "Harkon's Sword",
     "prerequisite": "Dawnguard quest: Kindred Judgment",
-    "dlc": "None"
+    "dlc": "Dawnguard"
   },
   {
     "id": "72556c7c-bd76-4b61-a6f1-8272922e8ee9",
@@ -1234,10 +1322,18 @@
   {
     "id": "5a04d9e1-5739-4d7f-86ed-721bb5ec3979",
     "type": "Unique Weapons",
+    "subType": "Staffs",
+    "name": "Miraak's Staff",
+    "prerequisite": "Dragonborn DLC quest: At the Summit of Apocrypha",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "5a04d9e1-5739-4d7f-86ed-721bb5ec3979",
+    "type": "Unique Weapons",
     "subType": "Swords",
     "name": "Miraak's Sword",
     "prerequisite": "Dragonborn DLC quest: At the Summit of Apocrypha",
-    "dlc": "None"
+    "dlc": "Dragonborn"
   },
   {
     "id": "3f8f527e-29b0-4d37-a0c6-3fe4bba7e9d3",
@@ -1277,7 +1373,7 @@
     "subType": "Swords",
     "name": "Soulrender",
     "prerequisite": "Dragonborn DLC quest: Deathbrand",
-    "dlc": "None"
+    "dlc": "Dragonborn"
   },
   {
     "id": "9984d783-90ae-4e24-b8f1-5c03256c7b3d",
@@ -1317,7 +1413,7 @@
     "subType": "War Axes",
     "name": "Dawnguard Rune Axe",
     "prerequisite": "Dawnguard quest: Ancient Technology",
-    "dlc": "None"
+    "dlc": "Dawnguard"
   },
   {
     "id": "5c05d59f-105e-4e77-a4cf-59bcece40dfb",
@@ -1429,7 +1525,7 @@
     "subType": "Battleaxes",
     "name": "Tsun's Battle Axe",
     "prerequisite": "Dragonborn DLC quest: Summoning Karstaag",
-    "dlc": "None"
+    "dlc": "Dragonborn"
   },
   {
     "id": "2434f367-4da9-45f7-b625-4a75f9f1b9b0",
@@ -1461,7 +1557,7 @@
     "subType": "Greatswords",
     "name": "Bloodskal Blade",
     "prerequisite": "Dragonborn DLC quest: The Final Descent",
-    "dlc": "None"
+    "dlc": "Dragonborn"
   },
   {
     "id": "a87dbd74-0ac9-45c7-849a-66fb94b58792",
@@ -1477,7 +1573,7 @@
     "subType": "Greatswords",
     "name": "Stormfang",
     "prerequisite": "Dragonborn DLC quest: The Final Descent",
-    "dlc": "None"
+    "dlc": "Dragonborn"
   },
   {
     "id": "72f57e98-6a10-40c8-b9a7-23487b7a52c6",
@@ -1493,7 +1589,7 @@
     "subType": "Warhammers",
     "name": "Champion's Cudgel",
     "prerequisite": "Dragonborn DLC quest: Deathbrand",
-    "dlc": "None"
+    "dlc": "Dragonborn"
   },
   {
     "id": "ad82f0a3-7e43-4219-9a2a-4bf4574e46da",
@@ -1501,7 +1597,7 @@
     "subType": "Warhammers",
     "name": "Dawnguard Rune Hammer",
     "prerequisite": "Dawnguard quest: Lost Relic",
-    "dlc": "None"
+    "dlc": "Dawnguard"
   },
   {
     "id": "172b1562-f0db-4f22-91ef-2a0d982c7a88",
@@ -1549,7 +1645,7 @@
     "subType": "Bows",
     "name": "Auriel's Bow",
     "prerequisite": "Dawnguard quest: Touching the Sky",
-    "dlc": "None"
+    "dlc": "Dawnguard"
   },
   {
     "id": "1c0e1b8c-fc2b-4a2f-94fc-cf8f9f3d7e4f",
@@ -1581,7 +1677,7 @@
     "subType": "Bows",
     "name": "Dwarven Black Bow of Fate",
     "prerequisite": "Dragonborn DLC quest: Lost to the Ages",
-    "dlc": "None"
+    "dlc": "Dragonborn"
   },
   {
     "id": "f3b82d4c-925a-4d3e-bfd3-83b12761fe5d",
@@ -1637,6 +1733,6 @@
     "subType": "Bows",
     "name": "Zephyr",
     "prerequisite": "Dawnguard quest: Lost to the Ages",
-    "dlc": "None"
+    "dlc": "Dawnguard"
   }
 ]

@@ -10,7 +10,8 @@ const RootStackNavigator = () => {
   const { isLoggedIn, user } = useMainState();
 
   useInitUserData();
-  useInitSettingsConfig();
+  // TODO:
+  // useInitSettingsConfig();
   
   return (
     <Condition 
