@@ -76,3 +76,15 @@ T-51 Power Armour
 T-60 Power Armour
 X-01 Power Armour
 
+
+Dragonborn Books
+
+Can you do the convert the following skyrim books
+to the following JSON:
+
+  {
+    "id": <generated uuid>,
+    "type": "DLC Spell Tomes",
+    "name": <given value>,
+    "dlc": "Dragonborn"
+  },

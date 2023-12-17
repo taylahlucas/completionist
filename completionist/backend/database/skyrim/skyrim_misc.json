@@ -2595,7 +2595,7 @@
     "id": "55075d8c-1d99-46c3-b06b-f3a8fb8a5f8d",
     "type": "Spell Tomes",
     "name": "Conjure Boneman",
-    "dlc": "None"
+    "dlc": "Dawnguard"
   },
   {
     "id": "4bd07d3e-cb34-4685-88c1-bd81c5e1d8f9",
@@ -2685,7 +2685,13 @@
     "id": "cf28ef3b-d267-491e-811b-cd2a3a10a742",
     "type": "Spell Tomes",
     "name": "Conjure Mistman",
-    "dlc": "None"
+    "dlc": "Dawnguard"
+  },
+  {
+    "id": "cf28ef3b-d267-491e-811b-cd2a3a10a742",
+    "type": "Spell Tomes",
+    "name": "Conjure Dwarven Sphere",
+    "dlc": "Dawnguard"
   },
   {
     "id": "f0b3e776-9617-41ea-af0f-b7b001e8f8f9",
@@ -2745,7 +2751,7 @@
     "id": "e7f7c3bf-91a8-470a-9a38-8a48b2ec3b08",
     "type": "Spell Tomes",
     "name": "Conjure Wrathman",
-    "dlc": "None"
+    "dlc": "Dawnguard"
   },
   {
     "id": "e189fb52-7210-4c46-a0c8-eeab303a69ce",
@@ -2961,7 +2967,7 @@
     "id": "61f6a47d-9f34-477x-8395-91c9c94b66b0",
     "type": "Spell Tomes",
     "name": "Heal Undead",
-    "dlc": "None"
+    "dlc": "Dawnguard"
   },
   {
     "id": "ef1a9143-8d37-1b9c-b69e-5c6d33f8701e",
@@ -3087,7 +3093,7 @@
     "id": "61fma47d-9f34-477b-8395-91c9c94b66b0",
     "type": "Spell Tomes",
     "name": "Necromantic Healing",
-    "dlc": "None"
+    "dlc": "Dawnguard"
   },
   {
     "id": "ef1a9143-cd37-4b9c-b69e-5c6d33f8701e",
@@ -3201,7 +3207,7 @@
     "id": "ef1ad143-8d37-4b9c-b69e-5c6d33f8701e",
     "type": "Spell Tomes",
     "name": "Stendarr's Aura",
-    "dlc": "None"
+    "dlc": "Dawnguard"
   },
   {
     "id": "86f2b06e-4ac3-4ee2-a193-21eea34e0fc0",
@@ -3222,10 +3228,16 @@
     "dlc": "None"
   },
   {
+    "id": "61f6a47d-9f34-47cb-8395-91c9c94b66b0",
+    "type": "Spell Arvak",
+    "name": "Telekinesis",
+    "dlc": "Dawnguard"
+  },
+  {
     "id": "b1db9e4c-547d-4c74-b3c1-d4a28759c45c",
     "type": "Spell Tomes",
     "name": "Sun Fire",
-    "dlc": "None"
+    "dlc": "Dawnguard"
   },
   {
     "id": "61f6a47d-9f34-47cb-8395-91c9c94b66b0",
@@ -3309,7 +3321,13 @@
     "id": "dc5fcb79-0d29-4f4d-93dc-b4261f40e5b",
     "type": "Spell Tomes",
     "name": "Vampire's Bane",
-    "dlc": "None"
+    "dlc": "Dawnguard"
+  },
+  {
+    "id": "dc5fcb79-0d29-4f4d-93dc-b4261f40e5b",
+    "type": "Spell Tomes",
+    "name": "Vampire's Touch",
+    "dlc": "Dawnguard"
   },
   {
     "id": "dc5fcb79-0d29-4f4d-93d5-b4261f40ecb",
@@ -3334,5 +3352,447 @@
     "type": "Spell Tomes",
     "name": "Waterbreathing",
     "dlc": "None"
+  },
+
+  {
+    "id": "d6f1bf06-874c-4167-8420-0da9e8104f1b",
+    "type": "DLC Spell Tomes",
+    "name": "Ash Rune",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "f6b7627d-61d4-4a72-b16c-76eb86db2a79",
+    "type": "DLC Spell Tomes",
+    "name": "Ash Shell",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "5ab0a27b-1bb6-4e7c-bf04-10680034c7d2",
+    "type": "DLC Spell Tomes",
+    "name": "Bound Dagger",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "95cda3e9-c4c3-47f5-b3f1-3f55deeaaddd",
+    "type": "DLC Spell Tomes",
+    "name": "Conjure Ash Guardian",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "71da1e8c-5f99-4f79-b9ee-0b1461e015ad",
+    "type": "DLC Spell Tomes",
+    "name": "Conjure Ash Spawn",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "f2c8f686-1e1e-4e90-a366-4263fb188167",
+    "type": "DLC Spell Tomes",
+    "name": "Conjure Seeker",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "c652a606-6cc9-4b08-b881-d3db32a0a1f9",
+    "type": "DLC Spell Tomes",
+    "name": "Freeze",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "55c39bf8-dc01-4e0c-9b45-2593a9b3a835",
+    "type": "DLC Spell Tomes",
+    "name": "Ignite",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "a5ea3fda-99c4-4040-a4ae-193d48db55cd",
+    "type": "DLC Spell Tomes",
+    "name": "Whirlwind Cloak",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "f2730a64-df8b-4e9b-aa4f-c51bc004fbdd",
+    "type": "DLC Spell Tomes",
+    "name": "Frenzy Rune",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "f3bce460-cb7b-4d07-856b-28ff245a190c",
+    "type": "DLC Spell Tomes",
+    "name": "Poison Rune",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "43e86912-eb0b-4d7f-9166-4b07044d48d1",
+    "type": "DLC Books",
+    "name": "Confessions of a Khajiit Fur Trader",
+    "dlc": "Dawnguard"
+  },
+  {
+    "id": "06b0b6c9-9bd7-4c3f-bc25-c08d6319c926",
+    "type": "DLC Books",
+    "name": "Diary of Faire Agarwen",
+    "dlc": "Dawnguard"
+  },
+  {
+    "id": "1d6c0e57-9e9b-4c15-b5d3-2f4b8c5858e3",
+    "type": "DLC Books",
+    "name": "Notes on Dimhollow Crypt, Vol. 3",
+    "dlc": "Dawnguard"
+  },
+  {
+    "id": "c18aebc8-19f7-4644-baa2-940b23c8a16f",
+    "type": "DLC Books",
+    "name": "Saint Jiub's Opus",
+    "dlc": "Dawnguard"
+  },
+  {
+    "id": "5b1b1e46-5478-4b9d-8c9e-1d37a9d2d0e4",
+    "type": "DLC Books",
+    "name": "The Aetherium Wars",
+    "dlc": "Dawnguard"
+  },
+  {
+    "id": "1fca300a-524e-4a15-8c74-29ef7d62a938",
+    "type": "DLC Books",
+    "name": "The Book of Life and Service",
+    "dlc": "Dawnguard"
+  },
+  {
+    "id": "032cbf8b-02f8-4c77-87b3-8273ac6f164f",
+    "type": "DLC Books",
+    "name": "The Betrayed",
+    "dlc": "Dawnguard"
+  },
+  {
+    "id": "f9fc0414-788c-48b2-972d-1619d503f32b",
+    "type": "DLC Books",
+    "name": "The Sultry Argonian Bard",
+    "dlc": "Dawnguard"
+  },
+  {
+    "id": "430b5583-3bf3-44d7-9c33-0a1c86e76f1f",
+    "type": "DLC Books",
+    "name": "Touching the Sky",
+    "dlc": "Dawnguard"
+  },
+  {
+    "id": "631115b5-7a9d-4ae1-8e35-1e14a4bf2f57",
+    "type": "DLC Books",
+    "name": "Unknown Book, Vol. I",
+    "dlc": "Dawnguard"
+  },
+  {
+    "id": "d36a6345-78e5-45a4-9e13-29de202a41f9",
+    "type": "DLC Books",
+    "name": "Unknown Book, Vol. II",
+    "dlc": "Dawnguard"
+  },
+  {
+    "id": "e5a2eb55-d2f0-4a1c-93d9-d24e8e401af9",
+    "type": "DLC Books",
+    "name": "Unknown Book, Vol. III",
+    "dlc": "Dawnguard"
+  },
+  {
+    "id": "c534f5b9-f4b4-4125-b68f-82670ba1c0a4",
+    "type": "DLC Books",
+    "name": "Unknown Book, Vol. IV",
+    "dlc": "Dawnguard"
+  },
+
+  {
+    "id": "e3e74b1d-1194-46bb-9f22-d8a6b3f7b9e1",
+    "type": "DLC Books",
+    "name": "Ahzidal's Descent",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "2bcf4a29-6769-41f8-bb46-1f1de5ad3df4",
+    "type": "DLC Books",
+    "name": "Black Book: Epistolary Acumen",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "0d68e5de-5105-4f82-9aeb-9a458c848c35",
+    "type": "DLC Books",
+    "name": "Black Book: Filament and Filigree",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "aaf7a4fe-92ce-4c7e-8da7-9accc414d2f0",
+    "type": "DLC Books",
+    "name": "Black Book: The Hidden Twilight",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "58c34b4d-2ba9-44a4-9331-3811421393fc",
+    "type": "DLC Books",
+    "name": "Black Book: The Sallow Regent",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "8cbf897d-2685-4085-a1ec-73c933b735d7",
+    "type": "DLC Books",
+    "name": "Black Book: The Winds of Change",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "62e08191-8b59-4d64-b048-f153db779c29",
+    "type": "DLC Books",
+    "name": "Black Book: Untold Legends",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "a73d5b2d-f6a1-4b7c-91a8-5505a0cda524",
+    "type": "DLC Books",
+    "name": "Black Book: Waking Dreams",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "5bc257c9-6199-478b-9d82-8727a00a2b35",
+    "type": "DLC Books",
+    "name": "Bone, Part I",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "fa7a6c56-c713-45c2-9df0-1f34df637260",
+    "type": "DLC Books",
+    "name": "Bone, Part II",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "43d5cf4f-2184-4f46-963b-4897922eb6c6",
+    "type": "DLC Books",
+    "name": "Changed Ones",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "eb0f227b-702b-4a48-a8fe-9b3edf6be531",
+    "type": "DLC Books",
+    "name": "Children of the All-Maker",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "0010f622-7a76-4312-b2d2-c59778812cc3",
+    "type": "DLC Books",
+    "name": "Confessions of a Dunmer Skoomer Eater",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "cc6f21db-5c79-4cd5-b2a7-2e52bca2e29f",
+    "type": "DLC Books",
+    "name": "Deathbrand",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "bd9c69fc-df27-4014-bbda-d8c5197b5b42",
+    "type": "DLC Books",
+    "name": "History of Raven Rock, Vol. I",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "2c3d65c7-3c9c-4a34-8ce2-1e6ed9f408d1",
+    "type": "DLC Books",
+    "name": "History of Raven Rock, Vol. II",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "c3f28657-5f8d-4f72-9eb2-09f2d7b59536",
+    "type": "DLC Books",
+    "name": "History of Raven Rock, Vol. III",
+    "dlc": "Dragonborn"
+  },
+
+  {
+    "id": "1d1c5e5b-8685-4b02-8aeb-08e17709db45",
+    "type": "DLC Books",
+    "name": "Lives of the Saints",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "1e045f15-30c5-4f67-9601-61ba1f01e9c8",
+    "type": "DLC Books",
+    "name": "Nchunak's Fire and Faith",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "d4a3f634-23c5-488a-9381-fc96aae2f3b1",
+    "type": "DLC Books",
+    "name": "Nerevar at Red Mountain",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "2ea52315-1a86-4a21-86b0-1529a81fdd76",
+    "type": "DLC Books",
+    "name": "On Apocrypha: Boneless Limbs",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "fd011e02-6b67-4b92-84c2-3dd3f635cf2f",
+    "type": "DLC Books",
+    "name": "On Apocrypha: Delving Pincers",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "168991c7-e700-4b22-8d5e-0c43d97c3909",
+    "type": "DLC Books",
+    "name": "On Apocrypha: Gnashing Blades",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "cd8b1902-77f5-4ac1-a953-0eb8a692b3f0",
+    "type": "DLC Books",
+    "name": "On Apocrypha: Prying Orbs",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "f6f5758c-9a22-46cd-9c22-21ed6dbd56f4",
+    "type": "DLC Books",
+    "name": "The Axe Man",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "2b6aa62d-7e1e-43f8-8c65-9202d6fe6ef5",
+    "type": "DLC Books",
+    "name": "The Anticipations",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "2f4c7f4b-e88f-42cb-b9a0-c83f92c5d7e5",
+    "type": "DLC Books",
+    "name": "The Doors of Spirit",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "f7e157f1-32e3-4f8d-b0a3-d21b8788a7ed",
+    "type": "DLC Books",
+    "name": "The Five Far Stars",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "0e7aafcd-37ae-4a3f-b927-55bbf35468d2",
+    "type": "DLC Books",
+    "name": "The Guardian and the Traitor",
+    "dlc": "Dragonborn"
+  },
+
+  {
+    "id": "eeab2385-5b17-4c3c-9f9e-dcbfb3e4ff4a",
+    "type": "DLC Books",
+    "name": "The House of Troubles",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "a4209431-7850-4ba5-a24e-925943f01547",
+    "type": "DLC Books",
+    "name": "The Poison Song, Book I",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "2174f73b-59e7-4979-bd29-7a9d635d5659",
+    "type": "DLC Books",
+    "name": "The Poison Song, Book II",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "ec4fb8e7-67e1-4e9c-98bb-eed7baa1f5e9",
+    "type": "DLC Books",
+    "name": "The Poison Song, Book III",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "7351312f-63c2-4a8b-b351-c97f28be1f17",
+    "type": "DLC Books",
+    "name": "The Poison Song, Book IV",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "7240f493-f553-491e-a1c6-b41515a4a7b7",
+    "type": "DLC Books",
+    "name": "The Poison Song, Book V",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "b4890c61-d881-4484-8d12-7b106171011b",
+    "type": "DLC Books",
+    "name": "The Poison Song, Book VI",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "b944dcdb-4f4c-4f0a-baa0-e42297abfa8d",
+    "type": "DLC Books",
+    "name": "The Poison Song, Book VII",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "b3094820-1695-4f7a-a198-16d2465c0140",
+    "type": "DLC Books",
+    "name": "Thirsk, A Revised History",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "8f254d32-411b-4e15-8ed7-34f9f588a73b",
+    "type": "DLC Books",
+    "name": "The Reclamations",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "0e7a2c44-719e-46ee-81e7-09ce09719189",
+    "type": "DLC Books",
+    "name": "The Red Year, Vol I",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "9c21f2ef-8d5b-43cc-ae0b-d7e7d0fb51b5",
+    "type": "DLC Books",
+    "name": "The Red Year, Vol II",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "06f1b26a-3277-4a35-84cc-4b7a6c6c0b8c",
+    "type": "DLC Books",
+    "name": "The True Noble's Code",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "c8e542e8-8a68-4e85-ba91-e8e5564a18b9",
+    "type": "DLC Books",
+    "name": "Trap",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "bf06b348-719a-417f-b2c5-ea4b09c3cbbd",
+    "type": "DLC Books",
+    "name": "Varieties of Faith in the Empire",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "10c1661c-501a-4652-b2d4-9831f8d72c52",
+    "type": "DLC Books",
+    "name": "Where were you when the Dragon Broke?",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "bd554637-2da5-47eb-8a87-2c038f38c74b",
+    "type": "DLC Books",
+    "name": "Wind and Sand",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "116e13eb-0f48-47d1-9e02-1a8d3fe606e0",
+    "type": "DLC Books",
+    "name": "Words of the Wind",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "7e03d0c2-091b-4c0e-8788-f166f0b63467",
+    "type": "DLC Books",
+    "name": "Breezehome Furnishings",
+    "dlc": "Hearthfire"
+  },
+  {
+    "id": "e5066a67-268a-4ed4-8f9d-675bb066ad7e",
+    "type": "DLC Books",
+    "name": "The Beginner's Guide to Homesteading",
+    "dlc": "Hearthfire"
   }
 ]
