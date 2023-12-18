@@ -124,11 +124,5 @@ export interface User {
 
 export interface SettingsConfigItem {
   category: string;
-  subCategory?: string;
   isActive: boolean;
-}
-
-export interface SettingsConfig {
-  skyrim: SettingsConfigItem[];
-  fallout4: SettingsConfigItem[];
 }

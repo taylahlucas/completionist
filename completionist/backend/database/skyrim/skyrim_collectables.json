@@ -1734,5 +1734,255 @@
     "name": "Zephyr",
     "prerequisite": "Dawnguard quest: Lost to the Ages",
     "dlc": "Dawnguard"
+  },
+  {
+    "id": "f6b7627d-61d4-4a72-b16c-76eb86db2a79",
+    "type": "Shrines",
+    "subType": "",
+    "name": "Shrine of Akatosh",
+    "prerequisite": "",
+    "dlc": ""
+  },
+  {
+    "id": "da783c7f-8d53-4ac4-94a1-456e378d61c1",
+    "type": "Shrines",
+    "subType": "",
+    "name": "Shrine of Arkay",
+    "prerequisite": "",
+    "dlc": ""
+  },
+  {
+    "id": "15e4c505-6d37-40c7-8b23-7627cb5a9f91",
+    "type": "Shrines",
+    "subType": "",
+    "name": "Shrine of Dibella",
+    "prerequisite": "",
+    "dlc": ""
+  },
+  {
+    "id": "9c3d9f4d-880b-4475-8d8f-4bb7b50814eb",
+    "type": "Shrines",
+    "subType": "",
+    "name": "Shrine of Julianos",
+    "prerequisite": "",
+    "dlc": ""
+  },
+  {
+    "id": "fc8ee22d-77af-4b48-8b1e-d428b1f4a0cf",
+    "type": "Shrines",
+    "subType": "",
+    "name": "Shrine of Kynareth",
+    "prerequisite": "",
+    "dlc": ""
+  },
+  {
+    "id": "14c868d2-5b6c-4d20-930d-d16434b83369",
+    "type": "Shrines",
+    "subType": "",
+    "name": "Shrine of Mara",
+    "prerequisite": "",
+    "dlc": ""
+  },
+  {
+    "id": "bd6c00da-97d3-4171-8c02-7d2d2bc29552",
+    "type": "Shrines",
+    "subType": "",
+    "name": "Shrine of Stendarr",
+    "prerequisite": "",
+    "dlc": ""
+  },
+  {
+    "id": "1f92e9b3-217f-4f78-a132-1607748484e5",
+    "type": "Shrines",
+    "subType": "",
+    "name": "Shrine of Talos",
+    "prerequisite": "",
+    "dlc": ""
+  },
+  {
+    "id": "c6ee9f55-3d68-4d1a-bd85-9fe82abf6b43",
+    "type": "Shrines",
+    "subType": "",
+    "name": "Shrine of Zenithar",
+    "prerequisite": "",
+    "dlc": ""
+  },
+  {
+    "id": "f6b7627d-61d4-4a72-b16c-76eb86db2a79",
+    "type": "Shrines",
+    "subType": "",
+    "name": "Shrine of Azura",
+    "prerequisite": "",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "da783c7f-8d53-4ac4-94a1-456e378d61c1",
+    "type": "Shrines",
+    "subType": "",
+    "name": "Shrine of Boethiah",
+    "prerequisite": "",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "15e4c505-6d37-40c7-8b23-7627cb5a9f91",
+    "type": "Shrines",
+    "subType": "",
+    "name": "Shrine of Mephala",
+    "prerequisite": "",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "9c3d9f4d-880b-4475-8d8f-4bb7b50814eb",
+    "type": "Shrines",
+    "subType": "",
+    "name": "Shrine of Nocturnal",
+    "prerequisite": "",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "f6b7627d-61d4-4a72-b16c-76eb86db2a79",
+    "type": "Shrines",
+    "subType": "",
+    "name": "Shrine of Azura",
+    "prerequisite": "",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "da783c7f-8d53-4ac4-94a1-456e378d61c1",
+    "type": "Shrines",
+    "subType": "",
+    "name": "Shrine of Boethiah",
+    "prerequisite": "",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "15e4c505-6d37-40c7-8b23-7627cb5a9f91",
+    "type": "Shrines",
+    "subType": "",
+    "name": "Shrine of Mephala",
+    "prerequisite": "",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "9c3d9f4d-880b-4475-8d8f-4bb7b50814eb",
+    "type": "Shrines",
+    "subType": "",
+    "name": "Shrine of Nocturnal",
+    "prerequisite": "",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "f6b7627d-61d4-4a72-b16c-76eb86db2a79",
+    "type": "Shrines",
+    "subType": "",
+    "name": "Shrine of Auriel",
+    "prerequisite": "",
+    "dlc": "Dawnguard"
+  },
+
+  {
+    "id": "f6b7627d-61d4-4a72-b16c-76eb86db2a79",
+    "type": "Stones",
+    "subType": "",
+    "name": "The Apprentice Stone",
+    "prerequisite": "",
+    "dlc": ""
+  },
+  {
+    "id": "da783c7f-8d53-4ac4-94a1-456e378d61c1",
+    "type": "Stones",
+    "subType": "",
+    "name": "The Atronach Stone",
+    "prerequisite": "",
+    "dlc": ""
+  },
+  {
+    "id": "15e4c505-6d37-40c7-8b23-7627cb5a9f91",
+    "type": "Stones",
+    "subType": "",
+    "name": "The Lady Stone",
+    "prerequisite": "",
+    "dlc": ""
+  },
+  {
+    "id": "9c3d9f4d-880b-4475-8d8f-4bb7b50814eb",
+    "type": "Stones",
+    "subType": "",
+    "name": "The Lord Stone",
+    "prerequisite": "",
+    "dlc": ""
+  },
+  {
+    "id": "fc8ee22d-77af-4b48-8b1e-d428b1f4a0cf",
+    "type": "Stones",
+    "subType": "",
+    "name": "The Lover Stone",
+    "prerequisite": "",
+    "dlc": ""
+  },
+  {
+    "id": "14c868d2-5b6c-4d20-930d-d16434b83369",
+    "type": "Stones",
+    "subType": "",
+    "name": "The Mage Stone",
+    "prerequisite": "",
+    "dlc": ""
+  },
+  {
+    "id": "bd6c00da-97d3-4171-8c02-7d2d2bc29552",
+    "type": "Stones",
+    "subType": "",
+    "name": "The Ritual Stone",
+    "prerequisite": "",
+    "dlc": ""
+  },
+  {
+    "id": "1f92e9b3-217f-4f78-a132-1607748484e5",
+    "type": "Stones",
+    "subType": "",
+    "name": "The Serpent Stone",
+    "prerequisite": "",
+    "dlc": ""
+  },
+  {
+    "id": "c6ee9f55-3d68-4d1a-bd85-9fe82abf6b43",
+    "type": "Stones",
+    "subType": "",
+    "name": "The Shadow Stone",
+    "prerequisite": "",
+    "dlc": ""
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "type": "Stones",
+    "subType": "",
+    "name": "The Steed Stone",
+    "prerequisite": "",
+    "dlc": ""
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "type": "Stones",
+    "subType": "",
+    "name": "The Thief Stone",
+    "prerequisite": "",
+    "dlc": ""
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "type": "Stones",
+    "subType": "",
+    "name": "The Tower Stone",
+    "prerequisite": "",
+    "dlc": ""
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "type": "Stones",
+    "subType": "",
+    "name": "The Warrior Stone",
+    "prerequisite": "",
+    "dlc": ""
   }
+
 ]

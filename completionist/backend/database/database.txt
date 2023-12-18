@@ -37,54 +37,17 @@ Quests
   dlc: string
 }
 
-
-SKYRIM DLC
-  - Dawnguard (locations, quests, weapons, armour, books, unique items)
-  - Hearthfire
   - Dragonborn
-  - Special Edition
-
-
-Fallout 4 DLC
-- Automatron 
-- Far Harbor
-- Vault-Tec
-- Nuka-World
-
-
-Can you do the same thing with the following data?
-
-
-Can you do the convert the following fallout 4 Holotapes
-to the following JSON:
-
-{
-  id: <generated_uuid>
-  type: "Power Armour"
-  subType?: ""
-  name: <given value>
-  prerequisite?: ""
-}
-
-
-
-Power Armour Frame
-
-Raider Power Armour
-T-45 Power Armour
-T-51 Power Armour
-T-60 Power Armour
-X-01 Power Armour
-
-
-Dragonborn Books
-
-Can you do the convert the following skyrim books
+Can you do the convert the following fallout 4 locations
 to the following JSON:
 
   {
-    "id": <generated uuid>,
-    "type": "DLC Spell Tomes",
+    "id": <generated_uuid>,
     "name": <given value>,
-    "dlc": "Dragonborn"
-  },
+    "hold": "",
+    "dlc": "Automatron"
+  }
+
+Fort Hagen Hangar
+RobCo Sales & Service Center
+The Mechanist's Lair

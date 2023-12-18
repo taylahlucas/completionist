@@ -1,57 +1,64 @@
-import { useEffect, useState } from 'react';
-import useMainDispatch from '@redux/hooks/useMainDispatch';
+import { useEffect } from 'react';
 import useMainState from '@redux/hooks/useMainState';
-import useGetQuestCategories from '@components/custom/QuestList/hooks/useGetQuestCategories';
 import { SubscriptionTypeEnum } from '@utils/CustomEnums';
 import useGetSettingsQuestCategories from '@components/custom/SettingsContent/hooks/useGetSettingsQuestCategories';
-import { games } from '@utils/constants';
-import { GeneralData } from '@utils/CustomInterfaces';
+import { SettingsConfigItem } from '@utils/CustomInterfaces';
+import useSaveUserData from '@data/hooks/useSaveUserData.native';
+import useMainDispatch from '@redux/hooks/useMainDispatch';
 
 const useInitSettingsConfig = () => {
-  const { setSettingsConfig } = useMainDispatch();
   const { user } = useMainState();
-  const { getSettingsQuestCategories, getSettingsQuestSubCategories } = useGetSettingsQuestCategories();
-  const [settingsData, updateSettingsData] = useState([
+  const { getSettingsQuestCategories } = useGetSettingsQuestCategories();
+  const settingsData = [
     { game: SubscriptionTypeEnum.SKYRIM, config: user.data?.skyrim.settingsConfig },
     { game: SubscriptionTypeEnum.FALLOUT_4, config: user.data?.fallout4.settingsConfig },
-  ]);
+  ];
+  const { saveUserData } = useSaveUserData();
 
-  // TODO: Update settingsConfig with all categories and sub categories if it does not exist
   useEffect(() => {
     settingsData.map((settings, index) => {
-      // Check if settings config exists
+      // If settings config does not exist
       if (settings.config.length === 0) {
+        const configs: SettingsConfigItem[] = [];
+
         const categories = getSettingsQuestCategories(settings.game);
         // Add categories
         categories.map((category: string): void => {
-
-          // let updatedConfig = settings.config;
-          const updatedConfig = [
-            ...settings.config,
-            {
-              category: category,
-              isActive: true
-            }
-          ];
-          settingsData.findIndex(item => item.game === settings.game)
-
-          // testConfig.push({
-          //   category: category,
-          //   isActive: true
-          // });
-          
-          // console.log("TEST: ", test)
-          // updateSettingsData(test);
-
-          // Add sub categories
-          // const subCategories = getSettingsQuestSubCategories(settings.game, category);
-          // subCategories.map((subCategory: string): void => {
-          //   settings.data.settingsConfig.push({
-          //     category: subCategory,
-          //     isActive: true
-          //   });
-          // })
-        })
+          configs.push({
+            category: category,
+            isActive: true
+          });
+        });
+        settingsData[index] = {
+          game: settings.game,
+          config: configs
+        }
+        switch (settings.game) {
+          case SubscriptionTypeEnum.SKYRIM:
+            saveUserData({
+              ...user,
+              data: {
+                ...user.data,
+                skyrim: {
+                  ...user.data.skyrim,
+                  settingsConfig: configs
+                }
+              }
+            });
+            return;
+          case SubscriptionTypeEnum.FALLOUT_4:
+            saveUserData({
+              ...user,
+              data: {
+                ...user.data,
+                fallout4: {
+                  ...user.data.fallout4,
+                  settingsConfig: configs
+                }
+              }
+            });
+            return;
+        }
       }
     });
 

@@ -4,15 +4,12 @@ import useMainState from '@redux/hooks/useMainState';
 import Home from './Home.native';
 import Login from './Login.native';
 import useInitUserData from '@data/hooks/useInitUserData.native';
-import useInitSettingsConfig from '@utils/hooks/useInitSettingsConfig';
 
 const RootStackNavigator = () => {
   const { isLoggedIn, user } = useMainState();
 
   useInitUserData();
-  // TODO:
-  // useInitSettingsConfig();
-  
+
   return (
     <Condition 
       condition={isLoggedIn && !!user.userId}

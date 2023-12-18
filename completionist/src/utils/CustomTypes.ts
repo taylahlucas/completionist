@@ -14,7 +14,8 @@ export type IoniconType =
   | 'arrow-back'
   | 'checkmark-circle-outline'
   | 'checkbox-outline'
-  | 'menu-sharp';
+  | 'menu-sharp'
+  | 'square-outline';
 
 export type FontAwesomeType =
   | 'circle-thin'

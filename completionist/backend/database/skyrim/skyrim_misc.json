@@ -3422,377 +3422,1633 @@
   },
   {
     "id": "43e86912-eb0b-4d7f-9166-4b07044d48d1",
-    "type": "DLC Books",
+    "type": "Books",
     "name": "Confessions of a Khajiit Fur Trader",
     "dlc": "Dawnguard"
   },
   {
     "id": "06b0b6c9-9bd7-4c3f-bc25-c08d6319c926",
-    "type": "DLC Books",
+    "type": "Books",
     "name": "Diary of Faire Agarwen",
     "dlc": "Dawnguard"
   },
   {
     "id": "1d6c0e57-9e9b-4c15-b5d3-2f4b8c5858e3",
-    "type": "DLC Books",
+    "type": "Books",
     "name": "Notes on Dimhollow Crypt, Vol. 3",
     "dlc": "Dawnguard"
   },
   {
     "id": "c18aebc8-19f7-4644-baa2-940b23c8a16f",
-    "type": "DLC Books",
+    "type": "Books",
     "name": "Saint Jiub's Opus",
     "dlc": "Dawnguard"
   },
   {
     "id": "5b1b1e46-5478-4b9d-8c9e-1d37a9d2d0e4",
-    "type": "DLC Books",
+    "type": "Books",
     "name": "The Aetherium Wars",
     "dlc": "Dawnguard"
   },
   {
     "id": "1fca300a-524e-4a15-8c74-29ef7d62a938",
-    "type": "DLC Books",
+    "type": "Books",
     "name": "The Book of Life and Service",
     "dlc": "Dawnguard"
   },
   {
     "id": "032cbf8b-02f8-4c77-87b3-8273ac6f164f",
-    "type": "DLC Books",
+    "type": "Books",
     "name": "The Betrayed",
     "dlc": "Dawnguard"
   },
   {
     "id": "f9fc0414-788c-48b2-972d-1619d503f32b",
-    "type": "DLC Books",
+    "type": "Books",
     "name": "The Sultry Argonian Bard",
     "dlc": "Dawnguard"
   },
   {
     "id": "430b5583-3bf3-44d7-9c33-0a1c86e76f1f",
-    "type": "DLC Books",
+    "type": "Books",
     "name": "Touching the Sky",
     "dlc": "Dawnguard"
   },
   {
     "id": "631115b5-7a9d-4ae1-8e35-1e14a4bf2f57",
-    "type": "DLC Books",
+    "type": "Books",
     "name": "Unknown Book, Vol. I",
     "dlc": "Dawnguard"
   },
   {
     "id": "d36a6345-78e5-45a4-9e13-29de202a41f9",
-    "type": "DLC Books",
+    "type": "Books",
     "name": "Unknown Book, Vol. II",
     "dlc": "Dawnguard"
   },
   {
     "id": "e5a2eb55-d2f0-4a1c-93d9-d24e8e401af9",
-    "type": "DLC Books",
+    "type": "Books",
     "name": "Unknown Book, Vol. III",
     "dlc": "Dawnguard"
   },
   {
     "id": "c534f5b9-f4b4-4125-b68f-82670ba1c0a4",
-    "type": "DLC Books",
+    "type": "Books",
     "name": "Unknown Book, Vol. IV",
     "dlc": "Dawnguard"
   },
 
   {
     "id": "e3e74b1d-1194-46bb-9f22-d8a6b3f7b9e1",
-    "type": "DLC Books",
+    "type": "Books",
     "name": "Ahzidal's Descent",
     "dlc": "Dragonborn"
   },
   {
     "id": "2bcf4a29-6769-41f8-bb46-1f1de5ad3df4",
-    "type": "DLC Books",
+    "type": "Books",
     "name": "Black Book: Epistolary Acumen",
     "dlc": "Dragonborn"
   },
   {
     "id": "0d68e5de-5105-4f82-9aeb-9a458c848c35",
-    "type": "DLC Books",
+    "type": "Books",
     "name": "Black Book: Filament and Filigree",
     "dlc": "Dragonborn"
   },
   {
     "id": "aaf7a4fe-92ce-4c7e-8da7-9accc414d2f0",
-    "type": "DLC Books",
+    "type": "Books",
     "name": "Black Book: The Hidden Twilight",
     "dlc": "Dragonborn"
   },
   {
     "id": "58c34b4d-2ba9-44a4-9331-3811421393fc",
-    "type": "DLC Books",
+    "type": "Books",
     "name": "Black Book: The Sallow Regent",
     "dlc": "Dragonborn"
   },
   {
     "id": "8cbf897d-2685-4085-a1ec-73c933b735d7",
-    "type": "DLC Books",
+    "type": "Books",
     "name": "Black Book: The Winds of Change",
     "dlc": "Dragonborn"
   },
   {
     "id": "62e08191-8b59-4d64-b048-f153db779c29",
-    "type": "DLC Books",
+    "type": "Books",
     "name": "Black Book: Untold Legends",
     "dlc": "Dragonborn"
   },
   {
     "id": "a73d5b2d-f6a1-4b7c-91a8-5505a0cda524",
-    "type": "DLC Books",
+    "type": "Books",
     "name": "Black Book: Waking Dreams",
     "dlc": "Dragonborn"
   },
   {
     "id": "5bc257c9-6199-478b-9d82-8727a00a2b35",
-    "type": "DLC Books",
+    "type": "Books",
     "name": "Bone, Part I",
     "dlc": "Dragonborn"
   },
   {
     "id": "fa7a6c56-c713-45c2-9df0-1f34df637260",
-    "type": "DLC Books",
+    "type": "Books",
     "name": "Bone, Part II",
     "dlc": "Dragonborn"
   },
   {
     "id": "43d5cf4f-2184-4f46-963b-4897922eb6c6",
-    "type": "DLC Books",
+    "type": "Books",
     "name": "Changed Ones",
     "dlc": "Dragonborn"
   },
   {
     "id": "eb0f227b-702b-4a48-a8fe-9b3edf6be531",
-    "type": "DLC Books",
+    "type": "Books",
     "name": "Children of the All-Maker",
     "dlc": "Dragonborn"
   },
   {
     "id": "0010f622-7a76-4312-b2d2-c59778812cc3",
-    "type": "DLC Books",
+    "type": "Books",
     "name": "Confessions of a Dunmer Skoomer Eater",
     "dlc": "Dragonborn"
   },
   {
     "id": "cc6f21db-5c79-4cd5-b2a7-2e52bca2e29f",
-    "type": "DLC Books",
+    "type": "Books",
     "name": "Deathbrand",
     "dlc": "Dragonborn"
   },
   {
     "id": "bd9c69fc-df27-4014-bbda-d8c5197b5b42",
-    "type": "DLC Books",
+    "type": "Books",
     "name": "History of Raven Rock, Vol. I",
     "dlc": "Dragonborn"
   },
   {
     "id": "2c3d65c7-3c9c-4a34-8ce2-1e6ed9f408d1",
-    "type": "DLC Books",
+    "type": "Books",
     "name": "History of Raven Rock, Vol. II",
     "dlc": "Dragonborn"
   },
   {
     "id": "c3f28657-5f8d-4f72-9eb2-09f2d7b59536",
-    "type": "DLC Books",
+    "type": "Books",
     "name": "History of Raven Rock, Vol. III",
     "dlc": "Dragonborn"
   },
 
   {
     "id": "1d1c5e5b-8685-4b02-8aeb-08e17709db45",
-    "type": "DLC Books",
+    "type": "Books",
     "name": "Lives of the Saints",
     "dlc": "Dragonborn"
   },
   {
     "id": "1e045f15-30c5-4f67-9601-61ba1f01e9c8",
-    "type": "DLC Books",
+    "type": "Books",
     "name": "Nchunak's Fire and Faith",
     "dlc": "Dragonborn"
   },
   {
     "id": "d4a3f634-23c5-488a-9381-fc96aae2f3b1",
-    "type": "DLC Books",
+    "type": "Books",
     "name": "Nerevar at Red Mountain",
     "dlc": "Dragonborn"
   },
   {
     "id": "2ea52315-1a86-4a21-86b0-1529a81fdd76",
-    "type": "DLC Books",
+    "type": "Books",
     "name": "On Apocrypha: Boneless Limbs",
     "dlc": "Dragonborn"
   },
   {
     "id": "fd011e02-6b67-4b92-84c2-3dd3f635cf2f",
-    "type": "DLC Books",
+    "type": "Books",
     "name": "On Apocrypha: Delving Pincers",
     "dlc": "Dragonborn"
   },
   {
     "id": "168991c7-e700-4b22-8d5e-0c43d97c3909",
-    "type": "DLC Books",
+    "type": "Books",
     "name": "On Apocrypha: Gnashing Blades",
     "dlc": "Dragonborn"
   },
   {
     "id": "cd8b1902-77f5-4ac1-a953-0eb8a692b3f0",
-    "type": "DLC Books",
+    "type": "Books",
     "name": "On Apocrypha: Prying Orbs",
     "dlc": "Dragonborn"
   },
   {
     "id": "f6f5758c-9a22-46cd-9c22-21ed6dbd56f4",
-    "type": "DLC Books",
+    "type": "Books",
     "name": "The Axe Man",
     "dlc": "Dragonborn"
   },
   {
     "id": "2b6aa62d-7e1e-43f8-8c65-9202d6fe6ef5",
-    "type": "DLC Books",
+    "type": "Books",
     "name": "The Anticipations",
     "dlc": "Dragonborn"
   },
   {
     "id": "2f4c7f4b-e88f-42cb-b9a0-c83f92c5d7e5",
-    "type": "DLC Books",
+    "type": "Books",
     "name": "The Doors of Spirit",
     "dlc": "Dragonborn"
   },
   {
     "id": "f7e157f1-32e3-4f8d-b0a3-d21b8788a7ed",
-    "type": "DLC Books",
+    "type": "Books",
     "name": "The Five Far Stars",
     "dlc": "Dragonborn"
   },
   {
     "id": "0e7aafcd-37ae-4a3f-b927-55bbf35468d2",
-    "type": "DLC Books",
+    "type": "Books",
     "name": "The Guardian and the Traitor",
     "dlc": "Dragonborn"
   },
 
   {
     "id": "eeab2385-5b17-4c3c-9f9e-dcbfb3e4ff4a",
-    "type": "DLC Books",
+    "type": "Books",
     "name": "The House of Troubles",
     "dlc": "Dragonborn"
   },
   {
     "id": "a4209431-7850-4ba5-a24e-925943f01547",
-    "type": "DLC Books",
+    "type": "Books",
     "name": "The Poison Song, Book I",
     "dlc": "Dragonborn"
   },
   {
     "id": "2174f73b-59e7-4979-bd29-7a9d635d5659",
-    "type": "DLC Books",
+    "type": "Books",
     "name": "The Poison Song, Book II",
     "dlc": "Dragonborn"
   },
   {
     "id": "ec4fb8e7-67e1-4e9c-98bb-eed7baa1f5e9",
-    "type": "DLC Books",
+    "type": "Books",
     "name": "The Poison Song, Book III",
     "dlc": "Dragonborn"
   },
   {
     "id": "7351312f-63c2-4a8b-b351-c97f28be1f17",
-    "type": "DLC Books",
+    "type": "Books",
     "name": "The Poison Song, Book IV",
     "dlc": "Dragonborn"
   },
   {
     "id": "7240f493-f553-491e-a1c6-b41515a4a7b7",
-    "type": "DLC Books",
+    "type": "Books",
     "name": "The Poison Song, Book V",
     "dlc": "Dragonborn"
   },
   {
     "id": "b4890c61-d881-4484-8d12-7b106171011b",
-    "type": "DLC Books",
+    "type": "Books",
     "name": "The Poison Song, Book VI",
     "dlc": "Dragonborn"
   },
   {
     "id": "b944dcdb-4f4c-4f0a-baa0-e42297abfa8d",
-    "type": "DLC Books",
+    "type": "Books",
     "name": "The Poison Song, Book VII",
     "dlc": "Dragonborn"
   },
   {
     "id": "b3094820-1695-4f7a-a198-16d2465c0140",
-    "type": "DLC Books",
+    "type": "Books",
     "name": "Thirsk, A Revised History",
     "dlc": "Dragonborn"
   },
   {
     "id": "8f254d32-411b-4e15-8ed7-34f9f588a73b",
-    "type": "DLC Books",
+    "type": "Books",
     "name": "The Reclamations",
     "dlc": "Dragonborn"
   },
   {
     "id": "0e7a2c44-719e-46ee-81e7-09ce09719189",
-    "type": "DLC Books",
+    "type": "Books",
     "name": "The Red Year, Vol I",
     "dlc": "Dragonborn"
   },
   {
     "id": "9c21f2ef-8d5b-43cc-ae0b-d7e7d0fb51b5",
-    "type": "DLC Books",
+    "type": "Books",
     "name": "The Red Year, Vol II",
     "dlc": "Dragonborn"
   },
   {
     "id": "06f1b26a-3277-4a35-84cc-4b7a6c6c0b8c",
-    "type": "DLC Books",
+    "type": "Books",
     "name": "The True Noble's Code",
     "dlc": "Dragonborn"
   },
   {
     "id": "c8e542e8-8a68-4e85-ba91-e8e5564a18b9",
-    "type": "DLC Books",
+    "type": "Books",
     "name": "Trap",
     "dlc": "Dragonborn"
   },
   {
     "id": "bf06b348-719a-417f-b2c5-ea4b09c3cbbd",
-    "type": "DLC Books",
+    "type": "Books",
     "name": "Varieties of Faith in the Empire",
     "dlc": "Dragonborn"
   },
   {
     "id": "10c1661c-501a-4652-b2d4-9831f8d72c52",
-    "type": "DLC Books",
+    "type": "Books",
     "name": "Where were you when the Dragon Broke?",
     "dlc": "Dragonborn"
   },
   {
     "id": "bd554637-2da5-47eb-8a87-2c038f38c74b",
-    "type": "DLC Books",
+    "type": "Books",
     "name": "Wind and Sand",
     "dlc": "Dragonborn"
   },
   {
     "id": "116e13eb-0f48-47d1-9e02-1a8d3fe606e0",
-    "type": "DLC Books",
+    "type": "Books",
     "name": "Words of the Wind",
     "dlc": "Dragonborn"
   },
   {
     "id": "7e03d0c2-091b-4c0e-8788-f166f0b63467",
-    "type": "DLC Books",
+    "type": "Books",
     "name": "Breezehome Furnishings",
     "dlc": "Hearthfire"
   },
   {
     "id": "e5066a67-268a-4ed4-8f9d-675bb066ad7e",
-    "type": "DLC Books",
+    "type": "Books",
     "name": "The Beginner's Guide to Homesteading",
     "dlc": "Hearthfire"
+  },
+  {
+    "id": "f6b7627d-61d4-4a72-b16c-76eb86db2a79",
+    "type": "Journals",
+    "name": "Admonition Against Ebony",
+    "dlc": "None"
+  },
+  {
+    "id": "da783c7f-8d53-4ac4-94a1-456e378d61c1",
+    "type": "Journals",
+    "name": "Adonato Leotelli's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "15e4c505-6d37-40c7-8b23-7627cb5a9f91",
+    "type": "Journals",
+    "name": "Adventurer's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "9c3d9f4d-880b-4475-8d8f-4bb7b50814eb",
+    "type": "Journals",
+    "name": "Aesreal's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "fc8ee22d-77af-4b48-8b1e-d428b1f4a0cf",
+    "type": "Journals",
+    "name": "Agrius's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "14c868d2-5b6c-4d20-930d-d16434b83369",
+    "type": "Journals",
+    "name": "Aicantar's Lab Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "bd6c00da-97d3-4171-8c02-7d2d2bc29552",
+    "type": "Journals",
+    "name": "Alchemist's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "1f92e9b3-217f-4f78-a132-1607748484e5",
+    "type": "Journals",
+    "name": "Alva's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "c6ee9f55-3d68-4d1a-bd85-9fe82abf6b43",
+    "type": "Journals",
+    "name": "Arondil's Journal, Part 1",
+    "dlc": "None"
+  },
+  {
+    "id": "190217bf-5ce1-4650-8893-7176ab15a9a5",
+    "type": "Journals",
+    "name": "Arondil's Journal, Part 2",
+    "dlc": "None"
+  },
+  {
+    "id": "69ebf960-e32d-4017-96a2-c4cc30b3e7fc",
+    "type": "Journals",
+    "name": "Arondil's Journal, Part 3",
+    "dlc": "None"
+  },
+  {
+    "id": "e1f8f788-7771-4f90-8ff3-5988533e930e",
+    "type": "Journals",
+    "name": "Arondil's Journal, Part 4",
+    "dlc": "None"
+  },
+  {
+    "id": "0e497a50-660a-4710-8d57-87b3ff87be5d",
+    "type": "Journals",
+    "name": "Arvel's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "c5e2a73a-e48f-4bb9-bfbb-26b2498f4aeb",
+    "type": "Journals",
+    "name": "Assassin's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "a8b97ad7-afac-4ac8-9cbb-8a4ee1f4e7b3",
+    "type": "Journals",
+    "name": "Atronach Forge Manual",
+    "dlc": "None"
+  },
+  {
+    "id": "6d5b60cc-4db9-4084-a765-7b2cd52af4cd",
+    "type": "Journals",
+    "name": "Azarain's Journal",
+    "dlc": "None"
+  },
+  
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "type": "Journals",
+    "name": "Bandit Leader's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "d7bf61e8-d299-4aae-a6f9-0f43cf85ff23",
+    "type": "Journals",
+    "name": "Bandit's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "53a36816-2f48-4ef0-9941-94b3d8c0b689",
+    "type": "Journals",
+    "name": "Bjormund's Diary",
+    "dlc": "None"
+  },
+  {
+    "id": "5d1d2c72-c10a-4f19-9cd1-cbfeeb5b72cd",
+    "type": "Journals",
+    "name": "Blue God's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "f9a2676a-71c4-4a63-991d-52c88c0d4d52",
+    "type": "Journals",
+    "name": "Brutius's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "292b4c2c-4ce2-4b5c-b8b8-9c896c9d2f5c",
+    "type": "Journals",
+    "name": "Butcher Journal 1",
+    "dlc": "None"
+  },
+  {
+    "id": "7395e285-d3b8-4c0d-b557-e8c523e3e983",
+    "type": "Journals",
+    "name": "Butcher Journal 2",
+    "dlc": "None"
+  },
+  {
+    "id": "89c4d3a3-4f4c-418b-9e88-7740fc9a69b0",
+    "type": "Journals",
+    "name": "Butcher Journal 3",
+    "dlc": "None"
+  },
+
+  {
+    "id": "f6b7627d-61d4-4a72-b16c-76eb86db2a79",
+    "type": "Journals",
+    "name": "Captain's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "da783c7f-8d53-4ac4-94a1-456e378d61c1",
+    "type": "Journals",
+    "name": "Cicero's Journal - Final Volume",
+    "dlc": "None"
+  },
+  {
+    "id": "15e4c505-6d37-40c7-8b23-7627cb5a9f91",
+    "type": "Journals",
+    "name": "Cicero's Journal - Volume 1",
+    "dlc": "None"
+  },
+  {
+    "id": "9c3d9f4d-880b-4475-8d8f-4bb7b50814eb",
+    "type": "Journals",
+    "name": "Cicero's Journal - Volume 2",
+    "dlc": "None"
+  },
+  {
+    "id": "fc8ee22d-77af-4b48-8b1e-d428b1f4a0cf",
+    "type": "Journals",
+    "name": "Cicero's Journal - Volume 3",
+    "dlc": "None"
+  },
+  {
+    "id": "14c868d2-5b6c-4d20-930d-d16434b83369",
+    "type": "Journals",
+    "name": "Cicero's Journal - Volume 4",
+    "dlc": "None"
+  },
+  {
+    "id": "bd6c00da-97d3-4171-8c02-7d2d2bc29552",
+    "type": "Journals",
+    "name": "Cook's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "1f92e9b3-217f-4f78-a132-1607748484e5",
+    "type": "Journals",
+    "name": "Crypt of the Heart - Draft",
+    "dlc": "None"
+  },
+  {
+    "id": "c6ee9f55-3d68-4d1a-bd85-9fe82abf6b43",
+    "type": "Journals",
+    "name": "Cuinanthil's Journal",
+    "dlc": "None"
+  },
+  
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "type": "Journals",
+    "name": "Daynas Valen's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "d7bf61e8-d299-4aae-a6f9-0f43cf85ff23",
+    "type": "Journals",
+    "name": "Daynas Valen's Notes",
+    "dlc": "None"
+  },
+  {
+    "id": "53a36816-2f48-4ef0-9941-94b3d8c0b689",
+    "type": "Journals",
+    "name": "Death of a Crimson Dirk",
+    "dlc": "None"
+  },
+  {
+    "id": "5d1d2c72-c10a-4f19-9cd1-cbfeeb5b72cd",
+    "type": "Journals",
+    "name": "Decree of Monument",
+    "dlc": "None"
+  },
+  {
+    "id": "8dbb3a66-1733-4d3d-913a-16e4dd8e6fc1",
+    "type": "Journals",
+    "name": "Dwarven Crown Journal",
+    "dlc": "None"
+  },
+
+  {
+    "id": "f6b7627d-61d4-4a72-b16c-76eb86db2a79",
+    "type": "Journals",
+    "name": "Eisa's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "da783c7f-8d53-4ac4-94a1-456e378d61c1",
+    "type": "Journals",
+    "name": "Elberon's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "15e4c505-6d37-40c7-8b23-7627cb5a9f91",
+    "type": "Journals",
+    "name": "Elhiel's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "9c3d9f4d-880b-4475-8d8f-4bb7b50814eb",
+    "type": "Journals",
+    "name": "Endrast's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "fc8ee22d-77af-4b48-8b1e-d428b1f4a0cf",
+    "type": "Journals",
+    "name": "Eranya's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "14c868d2-5b6c-4d20-930d-d16434b83369",
+    "type": "Journals",
+    "name": "Erj's Notes",
+    "dlc": "None"
+  },
+  {
+    "id": "bd6c00da-97d3-4171-8c02-7d2d2bc29552",
+    "type": "Journals",
+    "name": "Ernanthil's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "1f92e9b3-217f-4f78-a132-1607748484e5",
+    "type": "Journals",
+    "name": "Erwan's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "c6ee9f55-3d68-4d1a-bd85-9fe82abf6b43",
+    "type": "Journals",
+    "name": "Evethra's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "type": "Journals",
+    "name": "Excavation Leader's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "d7bf61e8-d299-4aae-a6f9-0f43cf85ff23",
+    "type": "Journals",
+    "name": "Expedition Manifest",
+    "dlc": "None"
+  },
+  {
+    "id": "53a36816-2f48-4ef0-9941-94b3d8c0b689",
+    "type": "Journals",
+    "name": "Faded Diary",
+    "dlc": "None"
+  },
+  {
+    "id": "5d1d2c72-c10a-4f19-9cd1-cbfeeb5b72cd",
+    "type": "Journals",
+    "name": "Fenrik's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "8dbb3a66-1733-4d3d-913a-16e4dd8e6fc1",
+    "type": "Journals",
+    "name": "Fisherman's Journal (Skyrim)",
+    "dlc": "None"
+  },
+  
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "type": "Journals",
+    "name": "Gadnor's Last Wishes",
+    "dlc": "None"
+  },
+  {
+    "id": "d7bf61e8-d299-4aae-a6f9-0f43cf85ff23",
+    "type": "Journals",
+    "name": "Gallus's Encoded Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "53a36816-2f48-4ef0-9941-94b3d8c0b689",
+    "type": "Journals",
+    "name": "Gallus's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "5d1d2c72-c10a-4f19-9cd1-cbfeeb5b72cd",
+    "type": "Journals",
+    "name": "Guard Dossier: Aesreal",
+    "dlc": "None"
+  },
+  {
+    "id": "8dbb3a66-1733-4d3d-913a-16e4dd8e6fc1",
+    "type": "Journals",
+    "name": "Guard's Dossier: Antonius",
+    "dlc": "None"
+  },
+  {
+    "id": "53a36816-2f48-4ef0-9941-94b3d8c0b689",
+    "type": "Journals",
+    "name": "Guard's Dossier: Bjormund Wind-Strider",
+    "dlc": "None"
+  },
+  {
+    "id": "5d1d2c72-c10a-4f19-9cd1-cbfeeb5b72cd",
+    "type": "Journals",
+    "name": "Guard's Dossier: Yakhtu gra-Orklug",
+    "dlc": "None"
+  },
+
+  {
+    "id": "f6b7627d-61d4-4a72-b16c-76eb86db2a79",
+    "type": "Journals",
+    "name": "Habd's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "da783c7f-8d53-4ac4-94a1-456e378d61c1",
+    "type": "Journals",
+    "name": "Hajvarr's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "15e4c505-6d37-40c7-8b23-7627cb5a9f91",
+    "type": "Journals",
+    "name": "Halvar's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "9c3d9f4d-880b-4475-8d8f-4bb7b50814eb",
+    "type": "Journals",
+    "name": "Hamelyn's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "fc8ee22d-77af-4b48-8b1e-d428b1f4a0cf",
+    "type": "Journals",
+    "name": "Hand Indobar's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "14c868d2-5b6c-4d20-930d-d16434b83369",
+    "type": "Journals",
+    "name": "Hans's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "bd6c00da-97d3-4171-8c02-7d2d2bc29552",
+    "type": "Journals",
+    "name": "Hargar's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "1f92e9b3-217f-4f78-a132-1607748484e5",
+    "type": "Journals",
+    "name": "Heddic's Volunruud Notes",
+    "dlc": "None"
+  },
+  {
+    "id": "c6ee9f55-3d68-4d1a-bd85-9fe82abf6b43",
+    "type": "Journals",
+    "name": "Helm of Oreyn Bearclaw",
+    "dlc": "None"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "type": "Journals",
+    "name": "Hugin Ice-Shaper's Notebook",
+    "dlc": "None"
+  },
+  {
+    "id": "d7bf61e8-d299-4aae-a6f9-0f43cf85ff23",
+    "type": "Journals",
+    "name": "Hunter's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "53a36816-2f48-4ef0-9941-94b3d8c0b689",
+    "type": "Journals",
+    "name": "Husband's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "5d1d2c72-c10a-4f19-9cd1-cbfeeb5b72cd",
+    "type": "Journals",
+    "name": "Hyenril's Journal",
+    "dlc": "None"
+  },
+  
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "type": "Journals",
+    "name": "J'zhar's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "d7bf61e8-d299-4aae-a6f9-0f43cf85ff23",
+    "type": "Journals",
+    "name": "Janus' Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "53a36816-2f48-4ef0-9941-94b3d8c0b689",
+    "type": "Journals",
+    "name": "Japhet's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "5d1d2c72-c10a-4f19-9cd1-cbfeeb5b72cd",
+    "type": "Journals",
+    "name": "Jonquil's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "8dbb3a66-1733-4d3d-913a-16e4dd8e6fc1",
+    "type": "Journals",
+    "name": "Journal (Harmugstahl)",
+    "dlc": "None"
+  },
+  {
+    "id": "8dbb3a66-1733-4d3d-913a-16e4dd8e6fc1",
+    "type": "Journals",
+    "name": "Journal (Meeko's Shack)",
+    "dlc": "None"
+  },
+  {
+    "id": "8dbb3a66-1733-4d3d-913a-16e4dd8e6fc1",
+    "type": "Journals",
+    "name": "Journal (Reach Pond)",
+    "dlc": "None"
+  },
+  {
+    "id": "8dbb3a66-1733-4d3d-913a-16e4dd8e6fc1",
+    "type": "Journals",
+    "name": "Journal of Drokt",
+    "dlc": "None"
+  },
+  {
+    "id": "8dbb3a66-1733-4d3d-913a-16e4dd8e6fc1",
+    "type": "Journals",
+    "name": "Journal of Mirtil Angoth",
+    "dlc": "None"
+  },
+
+  {
+    "id": "f6b7627d-61d4-4a72-b16c-76eb86db2a79",
+    "type": "Journals",
+    "name": "Karan's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "da783c7f-8d53-4ac4-94a1-456e378d61c1",
+    "type": "Journals",
+    "name": "Kinthal's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "15e4c505-6d37-40c7-8b23-7627cb5a9f91",
+    "type": "Journals",
+    "name": "Kodlak's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "9c3d9f4d-880b-4475-8d8f-4bb7b50814eb",
+    "type": "Journals",
+    "name": "Krag's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "fc8ee22d-77af-4b48-8b1e-d428b1f4a0cf",
+    "type": "Journals",
+    "name": "Kyr's Log",
+    "dlc": "None"
+  },
+  {
+    "id": "14c868d2-5b6c-4d20-930d-d16434b83369",
+    "type": "Journals",
+    "name": "Log of Elberon the Great, Vol 2",
+    "dlc": "None"
+  },
+  {
+    "id": "bd6c00da-97d3-4171-8c02-7d2d2bc29552",
+    "type": "Journals",
+    "name": "Log of Elberon the Great, Vol 3",
+    "dlc": "None"
+  },
+  {
+    "id": "1f92e9b3-217f-4f78-a132-1607748484e5",
+    "type": "Journals",
+    "name": "Log of Elberon the Great, Vol 4",
+    "dlc": "None"
+  },
+  {
+    "id": "c6ee9f55-3d68-4d1a-bd85-9fe82abf6b43",
+    "type": "Journals",
+    "name": "Log of Elberon the Great, Vol 5",
+    "dlc": "None"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "type": "Journals",
+    "name": "Love Poem",
+    "dlc": "None"
+  },
+  {
+    "id": "d7bf61e8-d299-4aae-a6f9-0f43cf85ff23",
+    "type": "Journals",
+    "name": "Lu'ah's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "53a36816-2f48-4ef0-9941-94b3d8c0b689",
+    "type": "Journals",
+    "name": "Lymdrenn Tenvanni's Journal",
+    "dlc": "None"
+  },
+
+  {
+    "id": "f6b7627d-61d4-4a72-b16c-76eb86db2a79",
+    "type": "Journals",
+    "name": "M'Sharra's Diary",
+    "dlc": "None"
+  },
+  {
+    "id": "da783c7f-8d53-4ac4-94a1-456e378d61c1",
+    "type": "Journals",
+    "name": "Maluril's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "15e4c505-6d37-40c7-8b23-7627cb5a9f91",
+    "type": "Journals",
+    "name": "Malyn Varen's Grimoire",
+    "dlc": "None"
+  },
+  {
+    "id": "9c3d9f4d-880b-4475-8d8f-4bb7b50814eb",
+    "type": "Journals",
+    "name": "Margret's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "fc8ee22d-77af-4b48-8b1e-d428b1f4a0cf",
+    "type": "Journals",
+    "name": "Matriarch Drevlan's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "14c868d2-5b6c-4d20-930d-d16434b83369",
+    "type": "Journals",
+    "name": "Medresi's Notes",
+    "dlc": "None"
+  },
+  {
+    "id": "bd6c00da-97d3-4171-8c02-7d2d2bc29552",
+    "type": "Journals",
+    "name": "Merchant's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "1f92e9b3-217f-4f78-a132-1607748484e5",
+    "type": "Journals",
+    "name": "Midden Incident Report",
+    "dlc": "None"
+  },
+  {
+    "id": "c6ee9f55-3d68-4d1a-bd85-9fe82abf6b43",
+    "type": "Journals",
+    "name": "Miner's Journal (Skyrim)",
+    "dlc": "None"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "type": "Journals",
+    "name": "Mysterious Altar",
+    "dlc": "None"
+  },
+  {
+    "id": "d7bf61e8-d299-4aae-a6f9-0f43cf85ff23",
+    "type": "Journals",
+    "name": "Naara's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "53a36816-2f48-4ef0-9941-94b3d8c0b689",
+    "type": "Journals",
+    "name": "Necromancer's Journal (Bone Wolf)",
+    "dlc": "None"
+  },
+  {
+    "id": "5d1d2c72-c10a-4f19-9cd1-cbfeeb5b72cd",
+    "type": "Journals",
+    "name": "Necromancer's Journal (Plague of the Dead)",
+    "dlc": "None"
+  },
+  {
+    "id": "8dbb3a66-1733-4d3d-913a-16e4dd8e6fc1",
+    "type": "Journals",
+    "name": "Nepos' Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "8dbb3a66-1733-4d3d-913a-16e4dd8e6fc1",
+    "type": "Journals",
+    "name": "Nightgate Inn Patron's Note",
+    "dlc": "None"
+  },
+  {
+    "id": "8dbb3a66-1733-4d3d-913a-16e4dd8e6fc1",
+    "type": "Journals",
+    "name": "Nivenor's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "8dbb3a66-1733-4d3d-913a-16e4dd8e6fc1",
+    "type": "Journals",
+    "name": "Notes on the Bone Forge",
+    "dlc": "None"
+  },
+  {
+    "id": "8dbb3a66-1733-4d3d-913a-16e4dd8e6fc1",
+    "type": "Journals",
+    "name": "Notes on Yngol Barrow",
+    "dlc": "None"
+  },
+  {
+    "id": "8dbb3a66-1733-4d3d-913a-16e4dd8e6fc1",
+    "type": "Journals",
+    "name": "Nystrom's Journal",
+    "dlc": "None"
+  },
+
+  {
+    "id": "f6b7627d-61d4-4a72-b16c-76eb86db2a79",
+    "type": "Journals",
+    "name": "Old Tome",
+    "dlc": "None"
+  },
+  {
+    "id": "da783c7f-8d53-4ac4-94a1-456e378d61c1",
+    "type": "Journals",
+    "name": "Pale-Eyes' Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "15e4c505-6d37-40c7-8b23-7627cb5a9f91",
+    "type": "Journals",
+    "name": "Peddler's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "9c3d9f4d-880b-4475-8d8f-4bb7b50814eb",
+    "type": "Journals",
+    "name": "Physicalities of Werewolves",
+    "dlc": "None"
+  },
+  {
+    "id": "fc8ee22d-77af-4b48-8b1e-d428b1f4a0cf",
+    "type": "Journals",
+    "name": "Pickpocket's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "14c868d2-5b6c-4d20-930d-d16434b83369",
+    "type": "Journals",
+    "name": "Priest Drureth's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "bd6c00da-97d3-4171-8c02-7d2d2bc29552",
+    "type": "Journals",
+    "name": "Ramati's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "1f92e9b3-217f-4f78-a132-1607748484e5",
+    "type": "Journals",
+    "name": "Reclamation Priest's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "c6ee9f55-3d68-4d1a-bd85-9fe82abf6b43",
+    "type": "Journals",
+    "name": "Red Eagle's Rite",
+    "dlc": "None"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "type": "Journals",
+    "name": "Research Log",
+    "dlc": "None"
+  },
+  {
+    "id": "d7bf61e8-d299-4aae-a6f9-0f43cf85ff23",
+    "type": "Journals",
+    "name": "Research Notes (Skyrim)",
+    "dlc": "None"
+  },
+  {
+    "id": "53a36816-2f48-4ef0-9941-94b3d8c0b689",
+    "type": "Journals",
+    "name": "Rin's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "5d1d2c72-c10a-4f19-9cd1-cbfeeb5b72cd",
+    "type": "Journals",
+    "name": "Ruined Trailbook",
+    "dlc": "None"
+  },
+  {
+    "id": "8dbb3a66-1733-4d3d-913a-16e4dd8e6fc1",
+    "type": "Journals",
+    "name": "Runil's Journal",
+    "dlc": "None"
+  },
+
+  {
+    "id": "f6b7627d-61d4-4a72-b16c-76eb86db2a79",
+    "type": "Journals",
+    "name": "Saints Bandit Leader's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "da783c7f-8d53-4ac4-94a1-456e378d61c1",
+    "type": "Journals",
+    "name": "Sculptor Visthar's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "15e4c505-6d37-40c7-8b23-7627cb5a9f91",
+    "type": "Journals",
+    "name": "Seducers Bandit Leader's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "9c3d9f4d-880b-4475-8d8f-4bb7b50814eb",
+    "type": "Journals",
+    "name": "Seeks-Ancient-Artifacts' Journal, v1",
+    "dlc": "None"
+  },
+  {
+    "id": "fc8ee22d-77af-4b48-8b1e-d428b1f4a0cf",
+    "type": "Journals",
+    "name": "Seeks-Ancient-Artifacts' Journal, v2",
+    "dlc": "None"
+  },
+  {
+    "id": "14c868d2-5b6c-4d20-930d-d16434b83369",
+    "type": "Journals",
+    "name": "Sellonus's Confession",
+    "dlc": "None"
+  },
+  {
+    "id": "bd6c00da-97d3-4171-8c02-7d2d2bc29552",
+    "type": "Journals",
+    "name": "Sellonus's Journal Vol. 1",
+    "dlc": "None"
+  },
+  {
+    "id": "1f92e9b3-217f-4f78-a132-1607748484e5",
+    "type": "Journals",
+    "name": "Sellonus's Journal Vol. 2",
+    "dlc": "None"
+  },
+  {
+    "id": "c6ee9f55-3d68-4d1a-bd85-9fe82abf6b43",
+    "type": "Journals",
+    "name": "Sellonus's Journal Vol. 3",
+    "dlc": "None"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "type": "Journals",
+    "name": "Seviur's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "d7bf61e8-d299-4aae-a6f9-0f43cf85ff23",
+    "type": "Journals",
+    "name": "Shogarz's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "53a36816-2f48-4ef0-9941-94b3d8c0b689",
+    "type": "Journals",
+    "name": "Shurgoz's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "5d1d2c72-c10a-4f19-9cd1-cbfeeb5b72cd",
+    "type": "Journals",
+    "name": "Sild's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "8dbb3a66-1733-4d3d-913a-16e4dd8e6fc1",
+    "type": "Journals",
+    "name": "Sinderion's Field Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "8dbb3a66-1733-4d3d-913a-16e4dd8e6fc1",
+    "type": "Journals",
+    "name": "Skjol's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "8dbb3a66-1733-4d3d-913a-16e4dd8e6fc1",
+    "type": "Journals",
+    "name": "Skorm Snow-Strider's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "8dbb3a66-1733-4d3d-913a-16e4dd8e6fc1",
+    "type": "Journals",
+    "name": "Skorvild's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "8dbb3a66-1733-4d3d-913a-16e4dd8e6fc1",
+    "type": "Journals",
+    "name": "Smuggler's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "8dbb3a66-1733-4d3d-913a-16e4dd8e6fc1",
+    "type": "Journals",
+    "name": "Soran's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "8dbb3a66-1733-4d3d-913a-16e4dd8e6fc1",
+    "type": "Journals",
+    "name": "Staubin's Diary",
+    "dlc": "None"
+  },
+  {
+    "id": "8dbb3a66-1733-4d3d-913a-16e4dd8e6fc1",
+    "type": "Journals",
+    "name": "Stranger's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "8dbb3a66-1733-4d3d-913a-16e4dd8e6fc1",
+    "type": "Journals",
+    "name": "Stromm's Diary",
+    "dlc": "None"
+  },
+  {
+    "id": "8dbb3a66-1733-4d3d-913a-16e4dd8e6fc1",
+    "type": "Journals",
+    "name": "Sudi's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "8dbb3a66-1733-4d3d-913a-16e4dd8e6fc1",
+    "type": "Journals",
+    "name": "Sulla's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "8dbb3a66-1733-4d3d-913a-16e4dd8e6fc1",
+    "type": "Journals",
+    "name": "Suvaris Atheron's Logbook",
+    "dlc": "None"
+  },
+  {
+    "id": "8dbb3a66-1733-4d3d-913a-16e4dd8e6fc1",
+    "type": "Journals",
+    "name": "Svarig's Journal",
+    "dlc": "None"
+  },
+
+  {
+    "id": "f6b7627d-61d4-4a72-b16c-76eb86db2a79",
+    "type": "Journals",
+    "name": "Tattered Journal (Embershard Mine)",
+    "dlc": "None"
+  },
+  {
+    "id": "da783c7f-8d53-4ac4-94a1-456e378d61c1",
+    "type": "Journals",
+    "name": "Tattered Journal (Tolvald's Crossing)",
+    "dlc": "None"
+  },
+  {
+    "id": "15e4c505-6d37-40c7-8b23-7627cb5a9f91",
+    "type": "Journals",
+    "name": "Thalmor Dossier: Delphine",
+    "dlc": "None"
+  },
+  {
+    "id": "9c3d9f4d-880b-4475-8d8f-4bb7b50814eb",
+    "type": "Journals",
+    "name": "Thalmor Dossier: Esbern",
+    "dlc": "None"
+  },
+  {
+    "id": "fc8ee22d-77af-4b48-8b1e-d428b1f4a0cf",
+    "type": "Journals",
+    "name": "Thalmor Dossier: Ulfric Stormcloak",
+    "dlc": "None"
+  },
+  {
+    "id": "14c868d2-5b6c-4d20-930d-d16434b83369",
+    "type": "Journals",
+    "name": "The Keepers of the Razor",
+    "dlc": "None"
+  },
+  {
+    "id": "bd6c00da-97d3-4171-8c02-7d2d2bc29552",
+    "type": "Journals",
+    "name": "Thief's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "1f92e9b3-217f-4f78-a132-1607748484e5",
+    "type": "Journals",
+    "name": "Thonar's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "c6ee9f55-3d68-4d1a-bd85-9fe82abf6b43",
+    "type": "Journals",
+    "name": "Thoron's Journal - Volume 1",
+    "dlc": "None"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "type": "Journals",
+    "name": "Thoron's Journal - Volume 2",
+    "dlc": "None"
+  },
+  {
+    "id": "d7bf61e8-d299-4aae-a6f9-0f43cf85ff23",
+    "type": "Journals",
+    "name": "Thoron's Journal - Volume 3",
+    "dlc": "None"
+  },
+  {
+    "id": "53a36816-2f48-4ef0-9941-94b3d8c0b689",
+    "type": "Journals",
+    "name": "Tolif's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "5d1d2c72-c10a-4f19-9cd1-cbfeeb5b72cd",
+    "type": "Journals",
+    "name": "Ulfr's Book",
+    "dlc": "None"
+  },
+  {
+    "id": "8dbb3a66-1733-4d3d-913a-16e4dd8e6fc1",
+    "type": "Journals",
+    "name": "Umana's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "8dbb3a66-1733-4d3d-913a-16e4dd8e6fc1",
+    "type": "Journals",
+    "name": "Undercover Guard's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "8dbb3a66-1733-4d3d-913a-16e4dd8e6fc1",
+    "type": "Journals",
+    "name": "Urval's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "8dbb3a66-1733-4d3d-913a-16e4dd8e6fc1",
+    "type": "Journals",
+    "name": "Urzog's Journal",
+    "dlc": "None"
+  },
+
+  {
+    "id": "f6b7627d-61d4-4a72-b16c-76eb86db2a79",
+    "type": "Journals",
+    "name": "Vampire Naturalist's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "da783c7f-8d53-4ac4-94a1-456e378d61c1",
+    "type": "Journals",
+    "name": "Vesparth's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "15e4c505-6d37-40c7-8b23-7627cb5a9f91",
+    "type": "Journals",
+    "name": "Vigilant Enforcer's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "9c3d9f4d-880b-4475-8d8f-4bb7b50814eb",
+    "type": "Journals",
+    "name": "Vigilant's Report",
+    "dlc": "None"
+  },
+  {
+    "id": "fc8ee22d-77af-4b48-8b1e-d428b1f4a0cf",
+    "type": "Journals",
+    "name": "Volk's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "14c868d2-5b6c-4d20-930d-d16434b83369",
+    "type": "Journals",
+    "name": "Vonos' Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "bd6c00da-97d3-4171-8c02-7d2d2bc29552",
+    "type": "Journals",
+    "name": "Wife's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "1f92e9b3-217f-4f78-a132-1607748484e5",
+    "type": "Journals",
+    "name": "Wyndelius's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "c6ee9f55-3d68-4d1a-bd85-9fe82abf6b43",
+    "type": "Journals",
+    "name": "Yakhtu's Journal",
+    "dlc": "None"
+  },
+  {
+    "id": "f6b7627d-61d4-4a72-b16c-76eb86db2a79",
+    "type": "Journals",
+    "name": "Eydis' Journal",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "da783c7f-8d53-4ac4-94a1-456e378d61c1",
+    "type": "Journals",
+    "name": "Gratian's Journal",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "15e4c505-6d37-40c7-8b23-7627cb5a9f91",
+    "type": "Journals",
+    "name": "Hrodulf's Journal",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "9c3d9f4d-880b-4475-8d8f-4bb7b50814eb",
+    "type": "Journals",
+    "name": "Ildari's Journal, vol. I",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "fc8ee22d-77af-4b48-8b1e-d428b1f4a0cf",
+    "type": "Journals",
+    "name": "Ildari's Journal, vol. II",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "14c868d2-5b6c-4d20-930d-d16434b83369",
+    "type": "Journals",
+    "name": "Ildari's Journal, vol. III",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "bd6c00da-97d3-4171-8c02-7d2d2bc29552",
+    "type": "Journals",
+    "name": "Journal of a Madman",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "1f92e9b3-217f-4f78-a132-1607748484e5",
+    "type": "Journals",
+    "name": "Lord Woodborne's Private Journal VII",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "c6ee9f55-3d68-4d1a-bd85-9fe82abf6b43",
+    "type": "Journals",
+    "name": "Merilar's Journal",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "type": "Journals",
+    "name": "Raleth Eldri's Notes on Kagrumez",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "d7bf61e8-d299-4aae-a6f9-0f43cf85ff23",
+    "type": "Journals",
+    "name": "Saden's Journal",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "53a36816-2f48-4ef0-9941-94b3d8c0b689",
+    "type": "Journals",
+    "name": "Servos' Journal",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "5d1d2c72-c10a-4f19-9cd1-cbfeeb5b72cd",
+    "type": "Journals",
+    "name": "Spider Experiment Notes",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "8dbb3a66-1733-4d3d-913a-16e4dd8e6fc1",
+    "type": "Journals",
+    "name": "The Journal of Ralis Sedarys - Volume 19",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "da783c7f-8d53-4ac4-94a1-456e378d61c1",
+    "type": "Journals",
+    "name": "The Journal of Ralis Sedarys - Volume 20",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "15e4c505-6d37-40c7-8b23-7627cb5a9f91",
+    "type": "Journals",
+    "name": "The Journal of Ralis Sedarys - Volume 21",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "9c3d9f4d-880b-4475-8d8f-4bb7b50814eb",
+    "type": "Journals",
+    "name": "The Journal of Ralis Sedarys - Volume 22",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "fc8ee22d-77af-4b48-8b1e-d428b1f4a0cf",
+    "type": "Journals",
+    "name": "The Journal of Ralis Sedarys - Volume 23",
+    "dlc": "Dragonborn"
+  },
+  {
+    "id": "14c868d2-5b6c-4d20-930d-d16434b83369",
+    "type": "Journals",
+    "name": "Ulyn's Journal",
+    "dlc": "Dragonborn"
+  },
+
+  {
+    "id": "f6b7627d-61d4-4a72-b16c-76eb86db2a79",
+    "type": "Journals",
+    "name": "Confessions of a Khajiit Fur Trader",
+    "dlc": "Dawnguard"
+  },
+  {
+    "id": "da783c7f-8d53-4ac4-94a1-456e378d61c1",
+    "type": "Journals",
+    "name": "Discovering Ruunvald, Vol I",
+    "dlc": "Dawnguard"
+  },
+  {
+    "id": "15e4c505-6d37-40c7-8b23-7627cb5a9f91",
+    "type": "Journals",
+    "name": "Discovering Ruunvald, Vol II",
+    "dlc": "Dawnguard"
+  },
+  {
+    "id": "9c3d9f4d-880b-4475-8d8f-4bb7b50814eb",
+    "type": "Journals",
+    "name": "Discovering Ruunvald, Vol III",
+    "dlc": "Dawnguard"
+  },
+  {
+    "id": "fc8ee22d-77af-4b48-8b1e-d428b1f4a0cf",
+    "type": "Journals",
+    "name": "Discovering Ruunvald, Vol IV",
+    "dlc": "Dawnguard"
+  },
+  {
+    "id": "14c868d2-5b6c-4d20-930d-d16434b83369",
+    "type": "Journals",
+    "name": "Katria's Journal",
+    "dlc": "Dawnguard"
+  },
+  {
+    "id": "bd6c00da-97d3-4171-8c02-7d2d2bc29552",
+    "type": "Journals",
+    "name": "The Sultry Argonian Bard, v1",
+    "dlc": "Dawnguard"
+  },
+  {
+    "id": "1f92e9b3-217f-4f78-a132-1607748484e5",
+    "type": "Journals",
+    "name": "Valerica's Journal",
+    "dlc": "Dawnguard"
+  },
+  {
+    "id": "c6ee9f55-3d68-4d1a-bd85-9fe82abf6b43",
+    "type": "Journals",
+    "name": "Venarus Vulprin's Journal",
+    "dlc": "Dawnguard"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "type": "Journals",
+    "name": "Volk's Journal",
+    "dlc": "Dawnguard"
   }
 ]

@@ -2728,5 +2728,554 @@
     "name": "WRVR broadcast station",
     "hold": "Other Locations",
     "dlc": "None"
+  },
+
+  {
+    "id": "f6b7627d-61d4-4a72-b16c-76eb86db2a79",
+    "name": "Far Harbor",
+    "hold": "Far Harbor",
+    "dlc": "Far Harbor"
+  },
+  {
+    "id": "da783c7f-8d53-4ac4-94a1-456e378d61c1",
+    "name": "Acadia",
+    "hold": "Far Harbor",
+    "dlc": "Far Harbor"
+  },
+  {
+    "id": "15e4c505-6d37-40c7-8b23-7627cb5a9f91",
+    "name": "The Nucleus",
+    "hold": "Far Harbor",
+    "dlc": "Far Harbor"
+  },
+  {
+    "id": "9c3d9f4d-880b-4475-8d8f-4bb7b50814eb",
+    "name": "Dalton Farm",
+    "hold": "Far Harbor",
+    "dlc": "Far Harbor"
+  },
+  {
+    "id": "fc8ee22d-77af-4b48-8b1e-d428b1f4a0cf",
+    "name": "Echo Lake Lumber",
+    "hold": "Far Harbor",
+    "dlc": "Far Harbor"
+  },
+  {
+    "id": "14c868d2-5b6c-4d20-930d-d16434b83369",
+    "name": "Longfellow's Cabin",
+    "hold": "Far Harbor",
+    "dlc": "Far Harbor"
+  },
+  {
+    "id": "bd6c00da-97d3-4171-8c02-7d2d2bc29552",
+    "name": "National Park Visitor's Center",
+    "hold": "Far Harbor",
+    "dlc": "Far Harbor"
+  },
+  {
+    "id": "1f92e9b3-217f-4f78-a132-1607748484e5",
+    "name": "Aldersea Day Spa",
+    "hold": "Far Harbor",
+    "dlc": "Far Harbor"
+  },
+  {
+    "id": "c6ee9f55-3d68-4d1a-bd85-9fe82abf6b43",
+    "name": "Atom's Spring",
+    "hold": "Far Harbor",
+    "dlc": "Far Harbor"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "name": "Beaver Creek Lanes",
+    "hold": "Far Harbor",
+    "dlc": "Far Harbor"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "name": "Briney's Bait and Tackle",
+    "hold": "Far Harbor",
+    "dlc": "Far Harbor"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "name": "Brooke's Head Lighthouse",
+    "hold": "Far Harbor",
+    "dlc": "Far Harbor"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "name": "Children of Atom Shrine",
+    "hold": "Far Harbor",
+    "dlc": "Far Harbor"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "name": "Cliff's Edge Hotel",
+    "hold": "Far Harbor",
+    "dlc": "Far Harbor"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "name": "Cranberry Island Bog",
+    "hold": "Far Harbor",
+    "dlc": "Far Harbor"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "name": "Cranberry Island Docks",
+    "hold": "Far Harbor",
+    "dlc": "Far Harbor"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "name": "Cranberry Island Supply Shed",
+    "hold": "Far Harbor",
+    "dlc": "Far Harbor"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "name": "DiMA's Cache",
+    "hold": "Far Harbor",
+    "dlc": "Far Harbor"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "name": "Eagle's Cove Tannery",
+    "hold": "Far Harbor",
+    "dlc": "Far Harbor"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "name": "Eden Meadows Cinemas",
+    "hold": "Far Harbor",
+    "dlc": "Far Harbor"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "name": "Fringe Cove Docks",
+    "hold": "Far Harbor",
+    "dlc": "Far Harbor"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "name": "Glowing Grove",
+    "hold": "Far Harbor",
+    "dlc": "Far Harbor"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "name": "Haddock Cove",
+    "hold": "Far Harbor",
+    "dlc": "Far Harbor"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "name": "Harbor Grand Hotel",
+    "hold": "Far Harbor",
+    "dlc": "Far Harbor"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "name": "Horizon Flight 1207",
+    "hold": "Far Harbor",
+    "dlc": "Far Harbor"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "name": "Huntress Island",
+    "hold": "Far Harbor",
+    "dlc": "Far Harbor"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "name": "Kitteredge Pass",
+    "hold": "Far Harbor",
+    "dlc": "Far Harbor"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "name": "MS Azalea",
+    "hold": "Far Harbor",
+    "dlc": "Far Harbor"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "name": "Nakano Residence",
+    "hold": "Far Harbor",
+    "dlc": "Far Harbor"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "name": "National Park Campground",
+    "hold": "Far Harbor",
+    "dlc": "Far Harbor"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "name": "National Park HQ",
+    "hold": "Far Harbor",
+    "dlc": "Far Harbor"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "name": "Northwood Ridge Quarry",
+    "hold": "Far Harbor",
+    "dlc": "Far Harbor"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "name": "Oceanarium",
+    "hold": "Far Harbor",
+    "dlc": "Far Harbor"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "name": "Old Pond House",
+    "hold": "Far Harbor",
+    "dlc": "Far Harbor"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "name": "Pine Crest Cavern",
+    "hold": "Far Harbor",
+    "dlc": "Far Harbor"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "name": "Radiant Crest Shrine",
+    "hold": "Far Harbor",
+    "dlc": "Far Harbor"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "name": "Rayburn Point",
+    "hold": "Far Harbor",
+    "dlc": "Far Harbor"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "name": "Rock Point Camp",
+    "hold": "Far Harbor",
+    "dlc": "Far Harbor"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "name": "Ruined Church",
+    "hold": "Far Harbor",
+    "dlc": "Far Harbor"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "name": "Ruined Radio Tower",
+    "hold": "Far Harbor",
+    "dlc": "Far Harbor"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "name": "Southwest Harbor",
+    "hold": "Far Harbor",
+    "dlc": "Far Harbor"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "name": "Vim Pop Factory",
+    "hold": "Far Harbor",
+    "dlc": "Far Harbor"
+  },
+  {
+    "id": "f6b7627d-61d4-4a72-b16c-76eb86db2a79",
+    "name": "Waves Crest Orphanage",
+    "hold": "Far Harbor",
+    "dlc": "Far Harbor"
+  },
+  {
+    "id": "da783c7f-8d53-4ac4-94a1-456e378d61c1",
+    "name": "Wind Farm Maintenance",
+    "hold": "Far Harbor",
+    "dlc": "Far Harbor"
+  },
+  {
+    "id": "15e4c505-6d37-40c7-8b23-7627cb5a9f91",
+    "name": "Zephyr Ridge Camp",
+    "hold": "Far Harbor",
+    "dlc": "Far Harbor"
+  },
+  
+  {
+    "id": "4cf28d9e-b4a6-43fc-91af-2ae9a3b6a073",
+    "name": "Nuka-Town USA",
+    "hold": "Nuka-World",
+    "dlc": "Nuka-World"
+  },
+  {
+    "id": "d5a17222-5a62-4f82-a504-8936185b1f19",
+    "name": "Nuka-Town Market",
+    "hold": "Nuka-World",
+    "dlc": "Nuka-World"
+  },
+  {
+    "id": "6a6a2e02-7a5e-4b04-ae9a-18e4fe16b106",
+    "name": "Bradberton",
+    "hold": "Nuka-World",
+    "dlc": "Nuka-World"
+  },
+  {
+    "id": "8c72402a-6b71-4ab7-af49-3f50bdfb547c",
+    "name": "Bradberton Amphitheater",
+    "hold": "Nuka-World",
+    "dlc": "Nuka-World"
+  },
+  {
+    "id": "0e55153f-1198-4645-9b07-33ac9785e3d6",
+    "name": "Bradberton Overpass",
+    "hold": "Nuka-World",
+    "dlc": "Nuka-World"
+  },
+  {
+    "id": "fd50e7c4-846b-475d-8f5e-86c66b75c3bd",
+    "name": "Cappys Treehouse",
+    "hold": "Nuka-World",
+    "dlc": "Nuka-World"
+  },
+  {
+    "id": "b693ab3e-8964-4c1c-92da-172b8f6c4381",
+    "name": "Cola-Cars Arena",
+    "hold": "Nuka-World",
+    "dlc": "Nuka-World"
+  },
+  {
+    "id": "f1361b05-1cc8-4cb3-8d14-4fb65446912b",
+    "name": "Doc Phosphates Saloon",
+    "hold": "Nuka-World",
+    "dlc": "Nuka-World"
+  },
+  {
+    "id": "3c2c50e1-144c-4c6d-9a8e-0bca08e21790",
+    "name": "Dry Rock Gulch",
+    "hold": "Nuka-World",
+    "dlc": "Nuka-World"
+  },
+  {
+    "id": "c2b965d2-4e7e-4a91-bf1f-b8f31c282a50",
+    "name": "Dry Rock Gulch Employee Arena",
+    "hold": "Nuka-World",
+    "dlc": "Nuka-World"
+  },
+  {
+    "id": "b16bf43d-187a-4b80-8e4a-60dbd4f57b6b",
+    "name": "Dry Rock Gulch Theater",
+    "hold": "Nuka-World",
+    "dlc": "Nuka-World"
+  },
+  {
+    "id": "0df7c3e8-9744-47cd-9d8a-93544a064b77",
+    "name": "Dunmore Homestead",
+    "hold": "Nuka-World",
+    "dlc": "Nuka-World"
+  },
+  {
+    "id": "7bc264cf-c48d-4cfb-923f-6a77e1ad0945",
+    "name": "Evans Home",
+    "hold": "Nuka-World",
+    "dlc": "Nuka-World"
+  },
+  {
+    "id": "bdb6b8e9-eb6e-4d7a-8df3-0b43ff9a3497",
+    "name": "Ferris Wheel",
+    "hold": "Nuka-World",
+    "dlc": "Nuka-World"
+  },
+  {
+    "id": "d9b15423-cb76-4cf9-8c18-6fb1d85b9e61",
+    "name": "Fizztop Grille",
+    "hold": "Nuka-World",
+    "dlc": "Nuka-World"
+  },
+  {
+    "id": "2c0c0c54-3e99-4ba6-9a71-3b5a55db1643",
+    "name": "Fizztop Mountain",
+    "hold": "Nuka-World",
+    "dlc": "Nuka-World"
+  },
+  {
+    "id": "ed93be4e-1200-4c31-a365-46ee63075f53",
+    "name": "Fun House",
+    "hold": "Nuka-World",
+    "dlc": "Nuka-World"
+  },
+  {
+    "id": "b4f054f9-cb8c-4b36-a437-3d9e1f9a837c",
+    "name": "Galactic Zone",
+    "hold": "Nuka-World",
+    "dlc": "Nuka-World"
+  },
+  {
+    "id": "17db20ff-64e2-47a3-a9f3-195e0909f64f",
+    "name": "Grandchester Mystery Mansion",
+    "hold": "Nuka-World",
+    "dlc": "Nuka-World"
+  },
+
+  {
+    "id": "5db63b63-d13c-4c79-a3a7-af4e8bdf7dfb",
+    "name": "Hubologists Camp",
+    "hold": "Nuka-World",
+    "dlc": "Nuka-World"
+  },
+  {
+    "id": "7923fd18-2d1a-4f07-bbda-bba83171bbfe",
+    "name": "Kiddie Kingdom",
+    "hold": "Nuka-World",
+    "dlc": "Nuka-World"
+  },
+  {
+    "id": "31929c5f-3e9f-4e3a-8e0c-19e4b25f66a3",
+    "name": "King Colas Castle",
+    "hold": "Nuka-World",
+    "dlc": "Nuka-World"
+  },
+  {
+    "id": "97aa146e-31e1-4f13-9a88-9b7c336510b6",
+    "name": "Mad Mulligans Minecart Coaster",
+    "hold": "Nuka-World",
+    "dlc": "Nuka-World"
+  },
+  {
+    "id": "ff9d68d5-930e-49c5-8ef5-8b2b22e534cc",
+    "name": "Morton Residence",
+    "hold": "Nuka-World",
+    "dlc": "Nuka-World"
+  },
+  {
+    "id": "85c16187-7583-4c10-9362-0ad876e2ad7d",
+    "name": "Northpoint Reservoir",
+    "hold": "Nuka-World",
+    "dlc": "Nuka-World"
+  },
+  {
+    "id": "5372ff0b-9e85-4d05-96c9-2a3db7c6320a",
+    "name": "Nuka-Cola Bottling Plant",
+    "hold": "Nuka-World",
+    "dlc": "Nuka-World"
+  },
+  {
+    "id": "6edae5d6-7f84-4e16-9ab6-89b3dd17a8fe",
+    "name": "Nuka-Galaxy",
+    "hold": "Nuka-World",
+    "dlc": "Nuka-World"
+  },
+  {
+    "id": "7fb284a7-4dbb-47e9-b825-0f1f889c495c",
+    "name": "Nuka-Station",
+    "hold": "Nuka-World",
+    "dlc": "Nuka-World"
+  },
+  {
+    "id": "78a77d50-1b85-45c4-948b-2f936f1a1589",
+    "name": "Nuka-World Junkyard",
+    "hold": "Nuka-World",
+    "dlc": "Nuka-World"
+  },
+  {
+    "id": "6e192858-30ad-4f01-870f-36ef1246938a",
+    "name": "Nuka-World Power Plant",
+    "hold": "Nuka-World",
+    "dlc": "Nuka-World"
+  },
+  {
+    "id": "99d6f1a3-d855-4ce5-a31a-1cf2a6754b90",
+    "name": "Nuka-World Red Rocket",
+    "hold": "Nuka-World",
+    "dlc": "Nuka-World"
+  },
+  {
+    "id": "fa037a89-b35b-4291-b4c6-5bb3f129cd32",
+    "name": "Nuka-World Transit Center",
+    "hold": "Nuka-World",
+    "dlc": "Nuka-World"
+  },
+  {
+    "id": "a1b9b50d-909c-478b-99bb-6ec2d0e36509",
+    "name": "RobCo Battlezone",
+    "hold": "Nuka-World",
+    "dlc": "Nuka-World"
+  },
+  {
+    "id": "739dfec7-8b6d-480f-8923-5e8982a20187",
+    "name": "Safari Adventure",
+    "hold": "Nuka-World",
+    "dlc": "Nuka-World"
+  },
+  {
+    "id": "68775732-ee21-4c4f-b21e-0cb525ec5b18",
+    "name": "Safari Adventure Primate House",
+    "hold": "Nuka-World",
+    "dlc": "Nuka-World"
+  },
+  {
+    "id": "a281a648-bd1d-4ec4-b7ea-eb2e4a3fdeab",
+    "name": "Safari Adventure Reptile House",
+    "hold": "Nuka-World",
+    "dlc": "Nuka-World"
+  },
+  {
+    "id": "5352077e-b1f7-4a26-af5c-6b18d3453b82",
+    "name": "Starlight Interstellar Theater",
+    "hold": "Nuka-World",
+    "dlc": "Nuka-World"
+  },
+  {
+    "id": "b4b24a66-8423-4f06-a8e1-6a49fc762653",
+    "name": "Starport Nuka",
+    "hold": "Nuka-World",
+    "dlc": "Nuka-World"
+  },
+  {
+    "id": "8a4a119a-5952-43f5-8f82-54ff14cb6d8e",
+    "name": "The Angry Anaconda",
+    "hold": "Nuka-World",
+    "dlc": "Nuka-World"
+  },
+  {
+    "id": "55af63e2-5397-4f2c-9a56-6b684e9637ae",
+    "name": "The Parlor",
+    "hold": "Nuka-World",
+    "dlc": "Nuka-World"
+  },
+  {
+    "id": "5591f37a-7122-416a-8a9e-0c5a1ea8dd9a",
+    "name": "Vault-Tec: Among the Stars",
+    "hold": "Nuka-World",
+    "dlc": "Nuka-World"
+  },
+  {
+    "id": "f4b68e65-c9dd-493c-a6e4-5bbd6e4d2f47",
+    "name": "Wixons Shovel Museum",
+    "hold": "Nuka-World",
+    "dlc": "Nuka-World"
+  },
+  {
+    "id": "8a732f79-b542-4e1e-b271-642c9e81ba8a",
+    "name": "World Refreshment",
+    "hold": "Nuka-World",
+    "dlc": "Nuka-World"
+  },
+  {
+    "id": "0ae3cb1b-60d2-4964-b672-2e2e7d437cb7",
+    "name": "Fort Hagen Hangar",
+    "hold": "",
+    "dlc": "Automatron"
+  },
+  {
+    "id": "77c55068-56a7-4be5-a0d1-92c27208889a",
+    "name": "RobCo Sales & Service Center",
+    "hold": "",
+    "dlc": "Automatron"
+  },
+  {
+    "id": "3d7c9d44-5b63-4c90-8697-42bce0b3c348",
+    "name": "The Mechanist's Lair",
+    "hold": "",
+    "dlc": "Automatron"
   }
 ]

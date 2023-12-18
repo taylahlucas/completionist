@@ -873,5 +873,577 @@
     "name": "Butcher's Hook",
     "prerequisite": "",
     "dlc": "Far Harbor"
+  },
+
+  {
+    "id": "e35ebf4e-ec1d-4aaf-8ed6-99ef1f105f01",
+    "type": "Nuka-Cola Recipes",
+    "subType": "",
+    "name": "Nuka-Berry Recipe",
+    "prerequisite": "",
+    "dlc": "Nuka-Cola"
+  },
+  {
+    "id": "df8c6fc1-8a7a-4f24-8aa5-6aa85b3a54a2",
+    "type": "Nuka-Cola Recipes",
+    "subType": "",
+    "name": "Nuka-Bombdrop Recipe",
+    "prerequisite": "",
+    "dlc": "Nuka-Cola"
+  },
+  {
+    "id": "c8e5a731-cf98-4d9e-aa8c-59f1174e8cda",
+    "type": "Nuka-Cola Recipes",
+    "subType": "",
+    "name": "Nuka-Cide Recipe",
+    "prerequisite": "",
+    "dlc": "Nuka-Cola"
+  },
+  {
+    "id": "d8e1e994-1330-46c4-a3e3-5cf78e723aa3",
+    "type": "Nuka-Cola Recipes",
+    "subType": "",
+    "name": "Nuka-Cooler Recipe",
+    "prerequisite": "",
+    "dlc": "Nuka-Cola"
+  },
+  {
+    "id": "b3652e0d-5e1f-4b71-a363-7a37b8e14c62",
+    "type": "Nuka-Cola Recipes",
+    "subType": "",
+    "name": "Nuka-Frutti Recipe",
+    "prerequisite": "",
+    "dlc": "Nuka-Cola"
+  },
+  {
+    "id": "b663e63d-6478-4153-a8a3-0e44c8b45d",
+    "type": "Nuka-Cola Recipes",
+    "subType": "",
+    "name": "Nuka-Hearty Recipe",
+    "prerequisite": "",
+    "dlc": "Nuka-Cola"
+  },
+  {
+    "id": "e35ebf4e-ec1d-4aaf-8ed6-99ef1f105f02",
+    "type": "Nuka-Cola Recipes",
+    "subType": "",
+    "name": "Nuka-Lixir Recipe",
+    "prerequisite": "",
+    "dlc": "Nuka-Cola"
+  },
+  {
+    "id": "df8c6fc1-8a7a-4f24-8aa5-6aa85b3a54a3",
+    "type": "Nuka-Cola Recipes",
+    "subType": "",
+    "name": "Nuka-Love Recipe",
+    "prerequisite": "",
+    "dlc": "Nuka-Cola"
+  },
+  {
+    "id": "c8e5a731-cf98-4d9e-aa8c-59f1174e8cda",
+    "type": "Nuka-Cola Recipes",
+    "subType": "",
+    "name": "Nuka-Power Recipe",
+    "prerequisite": "",
+    "dlc": "Nuka-Cola"
+  },
+  {
+    "id": "d8e1e994-1330-46c4-a3e3-5cf78e723aa4",
+    "type": "Nuka-Cola Recipes",
+    "subType": "",
+    "name": "Nuka-Punch Recipe",
+    "prerequisite": "",
+    "dlc": "Nuka-Cola"
+  },
+  {
+    "id": "b3652e0d-5e1f-4b71-a363-7a37b8e14c64",
+    "type": "Nuka-Cola Recipes",
+    "subType": "",
+    "name": "Nuka-Ray Recipe",
+    "prerequisite": "",
+    "dlc": "Nuka-Cola"
+  },
+  {
+    "id": "b663e63d-6478-4153-a8a3-0e44c8b45d",
+    "type": "Nuka-Cola Recipes",
+    "subType": "",
+    "name": "Nuka-Rush Recipe",
+    "prerequisite": "",
+    "dlc": "Nuka-Cola"
+  },
+  {
+    "id": "e35ebf4e-ec1d-4aaf-8ed6-99ef1f105f03",
+    "type": "Nuka-Cola Recipes",
+    "subType": "",
+    "name": "Nuka-Sunrise Recipe",
+    "prerequisite": "",
+    "dlc": "Nuka-Cola"
+  },
+  {
+    "id": "df8c6fc1-8a7a-4f24-8aa5-6aa85b3a54a4",
+    "type": "Nuka-Cola Recipes",
+    "subType": "",
+    "name": "Nuka-Void Recipe",
+    "prerequisite": "",
+    "dlc": "Nuka-Cola"
+  },
+  {
+    "id": "c8e5a731-cf98-4d9e-aa8c-59f1174e8cda",
+    "type": "Nuka-Cola Recipes",
+    "subType": "",
+    "name": "Nuka-Xtreme Recipe",
+    "prerequisite": "",
+    "dlc": "Nuka-Cola"
+  },
+
+  {
+    "id": "e35ebf4e-ec1d-4aaf-8ed6-99ef1f105f01",
+    "type": "Unique Armour",
+    "subType": "",
+    "name": "Agatha's Dress",
+    "prerequisite": "",
+    "dlc": "None"
+  },
+  {
+    "id": "df8c6fc1-8a7a-4f24-8aa5-6aa85b3a54a2",
+    "type": "Unique Armour",
+    "subType": "",
+    "name": "Apocalypse Chestplate",
+    "prerequisite": "",
+    "dlc": "None"
+  },
+  {
+    "id": "c8e5a731-cf98-4d9e-aa8c-59f1174e8cda",
+    "type": "Unique Armour",
+    "subType": "",
+    "name": "Apocalypse Left Greave",
+    "prerequisite": "",
+    "dlc": "None"
+  },
+  {
+    "id": "d8e1e994-1330-46c4-a3e3-5cf78e723aa3",
+    "type": "Unique Armour",
+    "subType": "",
+    "name": "Black Ops Chestpiece",
+    "prerequisite": "",
+    "dlc": "None"
+  },
+  {
+    "id": "b3652e0d-5e1f-4b71-a363-7a37b8e14c62",
+    "type": "Unique Armour",
+    "subType": "",
+    "name": "Captain Ironsides' Hat",
+    "prerequisite": "",
+    "dlc": "None"
+  },
+  {
+    "id": "b663e63d-6478-4153-a8a3-0e44c8b45d",
+    "type": "Unique Armour",
+    "subType": "",
+    "name": "Champion Chestpiece",
+    "prerequisite": "",
+    "dlc": "None"
+  },
+  {
+    "id": "e35ebf4e-ec1d-4aaf-8ed6-99ef1f105f02",
+    "type": "Unique Armour",
+    "subType": "",
+    "name": "Champion Left Arm",
+    "prerequisite": "",
+    "dlc": "None"
+  },
+  {
+    "id": "df8c6fc1-8a7a-4f24-8aa5-6aa85b3a54a3",
+    "type": "Unique Armour",
+    "subType": "",
+    "name": "Champion Right Arm",
+    "prerequisite": "",
+    "dlc": "None"
+  },
+  {
+    "id": "c8e5a731-cf98-4d9e-aa8c-59f1174e8cda",
+    "type": "Unique Armour",
+    "subType": "",
+    "name": "Commando Chest Piece",
+    "prerequisite": "",
+    "dlc": "None"
+  },
+  {
+    "id": "d8e1e994-1330-46c4-a3e3-5cf78e723aa4",
+    "type": "Unique Armour",
+    "subType": "",
+    "name": "Commando Helmet",
+    "prerequisite": "",
+    "dlc": "None"
+  },
+  {
+    "id": "b3652e0d-5e1f-4b71-a363-7a37b8e14c64",
+    "type": "Unique Armour",
+    "subType": "",
+    "name": "DB Tech Varsity Uniform",
+    "prerequisite": "",
+    "dlc": "None"
+  },
+  {
+    "id": "b663e63d-6478-4153-a8a3-0e44c8b45d",
+    "type": "Unique Armour",
+    "subType": "",
+    "name": "Destroyer's Chest Piece",
+    "prerequisite": "",
+    "dlc": "None"
+  },
+  {
+    "id": "e35ebf4e-ec1d-4aaf-8ed6-99ef1f105f03",
+    "type": "Unique Armour",
+    "subType": "",
+    "name": "Destroyer's Helmet",
+    "prerequisite": "",
+    "dlc": "None"
+  },
+  {
+    "id": "df8c6fc1-8a7a-4f24-8aa5-6aa85b3a54a4",
+    "type": "Unique Armour",
+    "subType": "",
+    "name": "Destroyer's Left Arm",
+    "prerequisite": "",
+    "dlc": "None"
+  },
+  {
+    "id": "c8e5a731-cf98-4d9e-aa8c-59f1174e8cda",
+    "type": "Unique Armour",
+    "subType": "",
+    "name": "Destroyer's Left Leg",
+    "prerequisite": "",
+    "dlc": "None"
+  },
+  {
+    "id": "d8e1e994-1330-46c4-a3e3-5cf78e723aa5",
+    "type": "Unique Armour",
+    "subType": "",
+    "name": "Destroyer's Right Leg",
+    "prerequisite": "",
+    "dlc": "None"
+  },
+  {
+    "id": "b3652e0d-5e1f-4b71-a363-7a37b8e14c66",
+    "type": "Unique Armour",
+    "subType": "",
+    "name": "Devastator's Chestpiece",
+    "prerequisite": "",
+    "dlc": "None"
+  },
+  {
+    "id": "b663e63d-6478-4153-a8a3-0e44c8b45e",
+    "type": "Unique Armour",
+    "subType": "",
+    "name": "Devastator's Right Greave",
+    "prerequisite": "",
+    "dlc": "None"
+  },
+  {
+    "id": "e35ebf4e-ec1d-4aaf-8ed6-99ef1f105f04",
+    "type": "Unique Armour",
+    "subType": "",
+    "name": "Exemplar's T-60c Torso",
+    "prerequisite": "",
+    "dlc": "None"
+  },
+  {
+    "id": "df8c6fc1-8a7a-4f24-8aa5-6aa85b3a54a6",
+    "type": "Unique Armour",
+    "subType": "",
+    "name": "Freefall Armor Left Leg",
+    "prerequisite": "",
+    "dlc": "None"
+  },
+  {
+    "id": "c8e5a731-cf98-4d9e-aa8c-59f1174e8cda",
+    "type": "Unique Armour",
+    "subType": "",
+    "name": "Freefall Armor Right Leg",
+    "prerequisite": "",
+    "dlc": "None"
+  },
+  {
+    "id": "d8e1e994-1330-46c4-a3e3-5cf78e723aa7",
+    "type": "Unique Armour",
+    "subType": "",
+    "name": "Grognak Costume",
+    "prerequisite": "",
+    "dlc": "None"
+  },
+  {
+    "id": "b3652e0d-5e1f-4b71-a363-7a37b8e14c68",
+    "type": "Unique Armour",
+    "subType": "",
+    "name": "Honor",
+    "prerequisite": "",
+    "dlc": "None"
+  },
+
+  {
+    "id": "e35ebf4e-ec1d-4aaf-8ed6-99ef1f105f01",
+    "type": "Unique Armour",
+    "subType": "",
+    "name": "Liam's Glasses",
+    "prerequisite": "",
+    "dlc": "None"
+  },
+  {
+    "id": "df8c6fc1-8a7a-4f24-8aa5-6aa85b3a54a2",
+    "type": "Unique Armour",
+    "subType": "",
+    "name": "Lieutenant's Hat",
+    "prerequisite": "",
+    "dlc": "None"
+  },
+  {
+    "id": "c8e5a731-cf98-4d9e-aa8c-59f1174e8cda",
+    "type": "Unique Armour",
+    "subType": "",
+    "name": "Mantis Left Armguard",
+    "prerequisite": "",
+    "dlc": "None"
+  },
+  {
+    "id": "d8e1e994-1330-46c4-a3e3-5cf78e723aa3",
+    "type": "Unique Armour",
+    "subType": "",
+    "name": "Mantis Left Greave",
+    "prerequisite": "",
+    "dlc": "None"
+  },
+  {
+    "id": "b3652e0d-5e1f-4b71-a363-7a37b8e14c62",
+    "type": "Unique Armour",
+    "subType": "",
+    "name": "Mark 2 Synth Chest Piece",
+    "prerequisite": "",
+    "dlc": "None"
+  },
+  {
+    "id": "b663e63d-6478-4153-a8a3-0e44c8b45d",
+    "type": "Unique Armour",
+    "subType": "",
+    "name": "Mark 2 Synth Helmet",
+    "prerequisite": "",
+    "dlc": "None"
+  },
+  {
+    "id": "e35ebf4e-ec1d-4aaf-8ed6-99ef1f105f02",
+    "type": "Unique Armour",
+    "subType": "",
+    "name": "Mark 3 Synth Chest Piece",
+    "prerequisite": "",
+    "dlc": "None"
+  },
+  {
+    "id": "df8c6fc1-8a7a-4f24-8aa5-6aa85b3a54a3",
+    "type": "Unique Armour",
+    "subType": "",
+    "name": "Mark 3 Synth Right Arm",
+    "prerequisite": "",
+    "dlc": "None"
+  },
+  {
+    "id": "c8e5a731-cf98-4d9e-aa8c-59f1174e8cda",
+    "type": "Unique Armour",
+    "subType": "",
+    "name": "Mark 4 Synth Chest Piece",
+    "prerequisite": "",
+    "dlc": "None"
+  },
+  {
+    "id": "d8e1e994-1330-46c4-a3e3-5cf78e723aa4",
+    "type": "Unique Armour",
+    "subType": "",
+    "name": "Mark 4 Synth Left Leg",
+    "prerequisite": "",
+    "dlc": "None"
+  },
+  {
+    "id": "b3652e0d-5e1f-4b71-a363-7a37b8e14c64",
+    "type": "Unique Armour",
+    "subType": "",
+    "name": "Mascot Head",
+    "prerequisite": "",
+    "dlc": "None"
+  },
+  {
+    "id": "b663e63d-6478-4153-a8a3-0e44c8b45d",
+    "type": "Unique Armour",
+    "subType": "",
+    "name": "Minutemen General's Hat",
+    "prerequisite": "",
+    "dlc": "None"
+  },
+  {
+    "id": "e35ebf4e-ec1d-4aaf-8ed6-99ef1f105f03",
+    "type": "Unique Armour",
+    "subType": "",
+    "name": "Minutemen General's Uniform",
+    "prerequisite": "",
+    "dlc": "None"
+  },
+  {
+    "id": "df8c6fc1-8a7a-4f24-8aa5-6aa85b3a54a4",
+    "type": "Unique Armour",
+    "subType": "",
+    "name": "Overseer's Left Armguard",
+    "prerequisite": "",
+    "dlc": "None"
+  },
+  {
+    "id": "c8e5a731-cf98-4d9e-aa8c-59f1174e8cda",
+    "type": "Unique Armour",
+    "subType": "",
+    "name": "Overseer's Right Armguard",
+    "prerequisite": "",
+    "dlc": "None"
+  },
+  {
+    "id": "d8e1e994-1330-46c4-a3e3-5cf78e723aa5",
+    "type": "Unique Armour",
+    "subType": "",
+    "name": "Protector's Left Armguard",
+    "prerequisite": "",
+    "dlc": "None"
+  },
+  {
+    "id": "b3652e0d-5e1f-4b71-a363-7a37b8e14c66",
+    "type": "Unique Armour",
+    "subType": "",
+    "name": "Protector's Right Armguard",
+    "prerequisite": "",
+    "dlc": "None"
+  },
+  {
+    "id": "b663e63d-6478-4153-a8a3-0e44c8b45e",
+    "type": "Unique Armour",
+    "subType": "",
+    "name": "Piezonucleic Power Armor Chest",
+    "prerequisite": "",
+    "dlc": "None"
+  },
+
+  {
+    "id": "e35ebf4e-ec1d-4aaf-8ed6-99ef1f105f01",
+    "type": "Unique Armour",
+    "subType": "",
+    "name": "Reginal's Suit",
+    "prerequisite": "",
+    "dlc": "None"
+  },
+  {
+    "id": "df8c6fc1-8a7a-4f24-8aa5-6aa85b3a54a2",
+    "type": "Unique Armour",
+    "subType": "",
+    "name": "Silver Shroud Armor",
+    "prerequisite": "",
+    "dlc": "None"
+  },
+  {
+    "id": "c8e5a731-cf98-4d9e-aa8c-59f1174e8cda",
+    "type": "Unique Armour",
+    "subType": "",
+    "name": "Silver Shroud Hat",
+    "prerequisite": "",
+    "dlc": "None"
+  },
+  {
+    "id": "d8e1e994-1330-46c4-a3e3-5cf78e723aa3",
+    "type": "Unique Armour",
+    "subType": "",
+    "name": "Steadfast BOS Combat Armor Chest Piece",
+    "prerequisite": "",
+    "dlc": "None"
+  },
+  {
+    "id": "b3652e0d-5e1f-4b71-a363-7a37b8e14c62",
+    "type": "Unique Armour",
+    "subType": "",
+    "name": "Tessa's First",
+    "prerequisite": "",
+    "dlc": "None"
+  },
+  {
+    "id": "b663e63d-6478-4153-a8a3-0e44c8b45d",
+    "type": "Unique Armour",
+    "subType": "",
+    "name": "Visionary's T-60c Helm",
+    "prerequisite": "",
+    "dlc": "None"
+  },
+  {
+    "id": "e35ebf4e-ec1d-4aaf-8ed6-99ef1f105f02",
+    "type": "Unique Armour",
+    "subType": "",
+    "name": "Wastelander's Chest Piece",
+    "prerequisite": "",
+    "dlc": "None"
+  },
+  {
+    "id": "df8c6fc1-8a7a-4f24-8aa5-6aa85b3a54a3",
+    "type": "Unique Armour",
+    "subType": "",
+    "name": "Wastelander's Right Leg",
+    "prerequisite": "",
+    "dlc": "None"
+  },
+  {
+    "id": "c8e5a731-cf98-4d9e-aa8c-59f1174e8cda",
+    "type": "Unique Armour",
+    "subType": "",
+    "name": "Zeke's Jacket and Jeans",
+    "prerequisite": "",
+    "dlc": "None"
+  },
+  {
+    "id": "c8e5a731-cf98-4d9e-aa8c-59f1174e8cda",
+    "type": "Unique Armour",
+    "subType": "",
+    "name": "Legend of Vault 88",
+    "prerequisite": "",
+    "dlc": "Vault-Tech Workshop"
+  },
+  {
+    "id": "e35ebf4e-ec1d-4aaf-8ed6-99ef1f105f01",
+    "type": "Power Armour",
+    "subType": "",
+    "name": "Raider Power Armour",
+    "prerequisite": "",
+    "dlc": "None"
+  },
+  {
+    "id": "df8c6fc1-8a7a-4f24-8aa5-6aa85b3a54a2",
+    "type": "Power Armour",
+    "subType": "",
+    "name": "T-45 Power Armour",
+    "prerequisite": "",
+    "dlc": "None"
+  },
+  {
+    "id": "c8e5a731-cf98-4d9e-aa8c-59f1174e8cda",
+    "type": "Power Armour",
+    "subType": "",
+    "name": "T-51 Power Armour",
+    "prerequisite": "",
+    "dlc": "None"
+  },
+  {
+    "id": "d8e1e994-1330-46c4-a3e3-5cf78e723aa3",
+    "type": "Power Armour",
+    "subType": "",
+    "name": "T-60 Power Armour",
+    "prerequisite": "",
+    "dlc": "None"
+  },
+  {
+    "id": "b3652e0d-5e1f-4b71-a363-7a37b8e14c62",
+    "type": "Power Armour",
+    "subType": "",
+    "name": "X-01 Power Armour",
+    "prerequisite": "",
+    "dlc": "None"
   }
 ]

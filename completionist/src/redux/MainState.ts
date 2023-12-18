@@ -1,6 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit';
 import { SubscriptionTypeEnum } from '@utils/CustomEnums';
-import { GeneralData, SettingsConfig, User, UserFormData } from '@utils/CustomInterfaces';
+import { GeneralData, User, UserFormData } from '@utils/CustomInterfaces';
 import { AppStateStatus } from 'react-native';
 
 export const initialGameData: GeneralData = {
@@ -125,6 +125,7 @@ const slice = createSlice({
       }
     },
     setSettingsConfig: (state, action) => {
+      // TODO: Change to selected Game Settings
       switch (state.selectedGame) {
         case SubscriptionTypeEnum.SKYRIM:
           state.user.data.skyrim.settingsConfig = action.payload;
