@@ -7,7 +7,7 @@ interface DropdownProps {
   header: any;
   children: any;
   isOpen: boolean;
-  setOpen: (value: boolean) => void;
+  setOpen: () => void;
   enabled?: boolean;
 }
 
@@ -17,7 +17,7 @@ const Dropdown = ({ header, children, isOpen, setOpen, enabled = true }: Dropdow
       <DropdownPressable 
         enabled={enabled}
         disabled={!enabled}
-        onPress={(): void => setOpen(!isOpen)}
+        onPress={setOpen}
       >
         {header}
       </DropdownPressable>

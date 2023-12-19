@@ -3229,7 +3229,7 @@
   },
   {
     "id": "61f6a47d-9f34-47cb-8395-91c9c94b66b0",
-    "type": "Spell Arvak",
+    "type": "Spell Tomes",
     "name": "Telekinesis",
     "dlc": "Dawnguard"
   },
@@ -3353,70 +3353,69 @@
     "name": "Waterbreathing",
     "dlc": "None"
   },
-
   {
     "id": "d6f1bf06-874c-4167-8420-0da9e8104f1b",
-    "type": "DLC Spell Tomes",
+    "type": "Spell Tomes",
     "name": "Ash Rune",
     "dlc": "Dragonborn"
   },
   {
     "id": "f6b7627d-61d4-4a72-b16c-76eb86db2a79",
-    "type": "DLC Spell Tomes",
+    "type": "Spell Tomes",
     "name": "Ash Shell",
     "dlc": "Dragonborn"
   },
   {
     "id": "5ab0a27b-1bb6-4e7c-bf04-10680034c7d2",
-    "type": "DLC Spell Tomes",
+    "type": "Spell Tomes",
     "name": "Bound Dagger",
     "dlc": "Dragonborn"
   },
   {
     "id": "95cda3e9-c4c3-47f5-b3f1-3f55deeaaddd",
-    "type": "DLC Spell Tomes",
+    "type": "Spell Tomes",
     "name": "Conjure Ash Guardian",
     "dlc": "Dragonborn"
   },
   {
     "id": "71da1e8c-5f99-4f79-b9ee-0b1461e015ad",
-    "type": "DLC Spell Tomes",
+    "type": "Spell Tomes",
     "name": "Conjure Ash Spawn",
     "dlc": "Dragonborn"
   },
   {
     "id": "f2c8f686-1e1e-4e90-a366-4263fb188167",
-    "type": "DLC Spell Tomes",
+    "type": "Spell Tomes",
     "name": "Conjure Seeker",
     "dlc": "Dragonborn"
   },
   {
     "id": "c652a606-6cc9-4b08-b881-d3db32a0a1f9",
-    "type": "DLC Spell Tomes",
+    "type": "Spell Tomes",
     "name": "Freeze",
     "dlc": "Dragonborn"
   },
   {
     "id": "55c39bf8-dc01-4e0c-9b45-2593a9b3a835",
-    "type": "DLC Spell Tomes",
+    "type": "Spell Tomes",
     "name": "Ignite",
     "dlc": "Dragonborn"
   },
   {
     "id": "a5ea3fda-99c4-4040-a4ae-193d48db55cd",
-    "type": "DLC Spell Tomes",
+    "type": "Spell Tomes",
     "name": "Whirlwind Cloak",
     "dlc": "Dragonborn"
   },
   {
     "id": "f2730a64-df8b-4e9b-aa4f-c51bc004fbdd",
-    "type": "DLC Spell Tomes",
+    "type": "Spell Tomes",
     "name": "Frenzy Rune",
     "dlc": "Dragonborn"
   },
   {
     "id": "f3bce460-cb7b-4d07-856b-28ff245a190c",
-    "type": "DLC Spell Tomes",
+    "type": "Spell Tomes",
     "name": "Poison Rune",
     "dlc": "Dragonborn"
   },

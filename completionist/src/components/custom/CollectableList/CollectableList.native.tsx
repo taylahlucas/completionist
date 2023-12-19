@@ -14,6 +14,8 @@ const CollectableList = () => {
   const { getCollectableCategories } = useGetCollectableCategories();
   const { getCollectablesForCategory, getAllCollectablesForCategory } = useGetCollectables();
   const { checkCollectablesCompleteForCategory } = useCheckCollectableComplete();
+
+  //  TODO: Add subtitles for DLC
   
   useEffect(() => {
     triggerShowSearchResults(searchValue.length >= 3);
