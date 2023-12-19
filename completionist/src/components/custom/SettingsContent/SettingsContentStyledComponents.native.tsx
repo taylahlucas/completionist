@@ -11,16 +11,12 @@ export const style = StyleSheet.create({
   scrollView: {
     position: 'absolute',
     marginTop: 108,
-    maxHeight: 280,
+    maxHeight: 180,
     borderWidth: 1,
     borderRadius: DEFAULT_BORDER_RADIUS,
     alignSelf: 'center',
     zIndex: -1
-  },
-  scrollContent: {
-    justifyContent: 'center',
-    alignItems: 'center'
-  }   
+  }
 });
 
 export const SettingsContentMainItem = styled.Pressable<SettingsContentMainItemProps>`

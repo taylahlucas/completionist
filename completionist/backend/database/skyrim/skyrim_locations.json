@@ -554,7 +554,7 @@
   {
     "id": "f8a7e5c2-1100-4a6a-8723-44df64a70e06",
     "name": "Fort Fellhammer",
-    "hold": "Pale",
+    "hold": "The Pale",
     "dlc": "None"
   },
   {
@@ -668,7 +668,7 @@
   {
     "id": "0f3c07fc-0074-4c04-bc6a-c243a65cfedc",
     "name": "Goldenglow Estate",
-    "hold": "Riften Hold",
+    "hold": "The Rift",
     "dlc": "None"
   },
   {
@@ -1724,13 +1724,13 @@
   {
     "id": "d56d24e2-1573-442c-ba21-e11a255c0667",
     "name": "The Katariah",
-    "hold": "Solitude",
+    "hold": "Haafingar",
     "dlc": "None"
   },
   {
     "id": "89accd66-e257-4972-bc29-47b1ef51261d",
     "name": "Thieves Guild",
-    "hold": "Riften",
+    "hold": "The Rift",
     "dlc": "None"
   },
   {
@@ -1778,7 +1778,7 @@
   {
     "id": "694ad60b-6ff1-4a72-bc24-19015fc00aa0",
     "name": "Understone Keep",
-    "hold": "Markarth",
+    "hold": "The Reach",
     "dlc": "None"
   },
   {
@@ -1983,7 +1983,7 @@
   {
     "id": "fc9d1c0b-1393-4850-8279-7edcc086f168",
     "name": "Fort Dawnguard",
-    "hold": "Dayspring Canyon",
+    "hold": "The Rift",
     "dlc": "Dawnguard"
   },
   {
@@ -2122,7 +2122,7 @@
   {
     "id": "b9a071f3-08b4-4f19-9bb7-c8734d439a13",
     "name": "Soul Cairn",
-    "hold": "Soul Cairn (Plane of Oblivion)",
+    "hold": "Haafingar",
     "dlc": "Dawnguard"
   },
   {

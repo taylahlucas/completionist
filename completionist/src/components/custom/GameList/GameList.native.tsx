@@ -10,7 +10,7 @@ import useMainDispatch from '@redux/hooks/useMainDispatch';
 const GameList = () => {
   const theme = useGetTheme();
   const navigation = useReactNavigation();
-  const { setSelectedGame, reset } = useMainDispatch();
+  const { setSelectedGame, setSelectedGameSettings, reset } = useMainDispatch();
   
   const games: Subscription[] = [
     {
@@ -34,6 +34,7 @@ const GameList = () => {
           onPress={(): void => {
             reset();
             setSelectedGame(game.id);
+            setSelectedGameSettings(game.id);
             navigation.navigate(ScreenEnum.Quests);
           }}
         />

@@ -1,9 +1,10 @@
 import { Dispatch } from 'redux';
 import { SubscriptionTypeEnum } from '@utils/CustomEnums';
-import { Item, SettingsConfig, User, UserFormData } from '@utils/CustomInterfaces';
+import { Item, SettingsConfigItem, User, UserFormData } from '@utils/CustomInterfaces';
 import { 
   setAppState,
   setSelectedGame,
+  setSelectedGameSettings,
   setWebSignInConfigured,
   setLoggedIn,
   setUserFormData,
@@ -22,6 +23,7 @@ import { useAppDispatch } from '../store';
 interface MainDispatch {
   setAppState: (value: string) => void;
   setSelectedGame: (value: SubscriptionTypeEnum) => void;
+  setSelectedGameSettings: (value: SubscriptionTypeEnum) => void;
   setWebSignInConfigured: (value: boolean) => void;
   setLoggedIn: (value: boolean) => void;
   setUserFormData: (value: UserFormData) => void;
@@ -32,7 +34,7 @@ interface MainDispatch {
   setCompletedCollectables: (value: Item[]) => void;
   setCompletedLocations: (value: Item[]) => void;
   setCompletedMiscItems: (value: Item[]) => void;
-  setSettingsConfig: (settings: SettingsConfig) => void;
+  setSettingsConfig: (settings: SettingsConfigItem[]) => void;
   reset: () => void;
 }
 
@@ -45,6 +47,9 @@ const useMainDispatch = (): MainDispatch => {
     },
     setSelectedGame(value: string): void {
       dispatch(setSelectedGame(value));
+    },
+    setSelectedGameSettings(value: string): void {
+      dispatch(setSelectedGameSettings(value));
     },
     setWebSignInConfigured(value: boolean): void {
       dispatch(setWebSignInConfigured(value));
@@ -76,7 +81,7 @@ const useMainDispatch = (): MainDispatch => {
     setCompletedMiscItems(value: Item[]): void {
       dispatch(setCompletedMiscItems(value));
     },
-    setSettingsConfig(settings: SettingsConfig): void {
+    setSettingsConfig(settings: SettingsConfigItem[]): void {
       dispatch(setSettingsConfig(settings));
     },
     reset(): void {

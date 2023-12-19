@@ -5,9 +5,10 @@ import useGetSettingsQuestCategories from '@components/custom/SettingsContent/ho
 import { SettingsConfigItem } from '@utils/CustomInterfaces';
 import useSaveUserData from '@data/hooks/useSaveUserData.native';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
+import { setSelectedGameSettings } from '@redux/MainState';
 
 const useInitSettingsConfig = () => {
-  const { user } = useMainState();
+  const { user, selectedGameSettings } = useMainState();
   const { getSettingsQuestCategories } = useGetSettingsQuestCategories();
   const settingsData = [
     { game: SubscriptionTypeEnum.SKYRIM, config: user.data?.skyrim.settingsConfig },

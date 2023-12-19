@@ -11,7 +11,7 @@ import useMainState from '@redux/hooks/useMainState';
 const Quests = () => {
   const { selectedGame } = useMainState();
   const { getUserQuests } = useGetUserGameData();
-  const { mapDataToQuests } = useGetGameData(selectedGame);
+  const { mapDataToQuests } = useGetGameData();
 
   return (
     <StandardLayout>

@@ -1,72 +1,42 @@
 import React from 'react';
 import { IconTypeEnum, SubscriptionTypeEnum } from '@utils/CustomEnums';
 import ScrollableList from '@components/general/Lists/ScrollableList.native';
-import useGetSettingsQuestCategories from './hooks/useGetSettingsQuestCategories';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import { style, SettingsContentMainItem, SettingsContentMainItemTitle } from './SettingsContentStyledComponents.native';
 import IconButton from '@components/general/Icon/IconButton.native';
-import useSettingsState from './hooks/useSettingsState';
 import useMainState from '@redux/hooks/useMainState';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
+import { SettingsConfigItem } from '@utils/CustomInterfaces';
+import useUpdateSettingsConfig from './hooks/useUpdateSettingConfig';
+import useGetUserGameData from '@data/hooks/useGetUserGameData.native';
 
 const SettingsContentCollectionList = () => {
   const theme = useGetTheme();
   const { setSettingsConfig } = useMainDispatch();
-  const { user } = useMainState();
-  const { selectedGameSettings } = useSettingsState();
-  const { getSettingsQuestCategories } = useGetSettingsQuestCategories();
-
+  const { user, selectedGameSettings } = useMainState();
+  const { updateConfig } = useUpdateSettingsConfig();
+  const { getUserSettingsConfig } = useGetUserGameData();
+  
   return (
-    <ScrollableList 
-      style={{ ...style.scrollView, borderColor: theme.midGrey }}
-      contentContainerStyle={style.scrollContent}
-    >
-      {getSettingsQuestCategories(selectedGameSettings).map((category: string, index: number) => (
+    <ScrollableList style={{ ...style.scrollView, borderColor: theme.midGrey }}>
+      {getUserSettingsConfig().map((item: SettingsConfigItem, index: number) => (
         <SettingsContentMainItem key={index} color={theme.darkGrey}>
-          <SettingsContentMainItemTitle align={'left'} type={'ListItemTitleBold'}>{category}</SettingsContentMainItemTitle>
+          <SettingsContentMainItemTitle align={'left'} type={'ListItemTitleBold'}>{item.category}</SettingsContentMainItemTitle>
           <IconButton 
-            name={'checkbox-outline'} 
+            name={item.isActive ? 'checkbox-outline' : 'square-outline'} 
             type={IconTypeEnum.Ionicons} 
             color={theme.lightGrey}
             size={22}
             onPress={() => {
               switch (selectedGameSettings) {
                 case SubscriptionTypeEnum.SKYRIM:
-                  const config = user.data.skyrim.settingsConfig.find(config => config.category === category);
-                  if (!!config) {
-                   const updatedConfig = user.data.skyrim.settingsConfig.map(item => {
-                      if (item.category === category) {
-                        return {
-                          ...item,
-                          isActive: !item.isActive
-                        }
-                      }
-                      else {
-                        return item;
-                      }
-                    });
-                    // TODO: Won't work since setSettingsConfig uses selectedGame not selectedGameSettings
-                    // setSettingsConfig(updatedConfig);
-                  }
+                  const skyrimConfig = updateConfig(user.data.skyrim.settingsConfig, item)
+                  setSettingsConfig(skyrimConfig);
                   return
 
                 case SubscriptionTypeEnum.FALLOUT_4:
-                  // TODO Move to custom function
-                  const config2 = user.data.fallout4.settingsConfig.find(config => config.category === category);
-                  if (!!config2) {
-                   const updatedConfig = user.data.skyrim.settingsConfig.map(item => {
-                      if (item.category === category) {
-                        return {
-                          ...item,
-                          isActive: !item.isActive
-                        }
-                      }
-                      else {
-                        return item;
-                      }
-                    });
-                    // setSettingsConfig(updatedConfig);
-                  }
+                  const fallout4Config = updateConfig(user.data.fallout4.settingsConfig, item)
+                  setSettingsConfig(fallout4Config);
                   return
               }
             }} 

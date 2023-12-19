@@ -22,7 +22,7 @@ const DropdownSelectionContent = ({ content, onPress }: DropdownSelectionContent
           color={theme.darkGrey} 
           onPress={() => onPress(content)}
         >
-          <StyledText>{content}</StyledText>
+          <StyledText align={'left'}>{content}</StyledText>
         </DropdownSelectionContentItem>
       ))}
     </DropdownSelectionContentScrollContainer>

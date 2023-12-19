@@ -37,7 +37,6 @@ Quests
   dlc: string
 }
 
-  - Dragonborn
 Can you do the convert the following fallout 4 locations
 to the following JSON:
 
@@ -48,6 +47,6 @@ to the following JSON:
     "dlc": "Automatron"
   }
 
-Fort Hagen Hangar
-RobCo Sales & Service Center
-The Mechanist's Lair
+HEARTHFIRE QUESTS
+
+https://en.uesp.net/wiki/Category:Skyrim-Hearthfire-Quests

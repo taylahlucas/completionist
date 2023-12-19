@@ -59,3 +59,11 @@ export const DropdownSelectionContentItem = styled.Pressable<DropdownSelectionCo
   border-bottom-left-radius: ${(props): number => !!props.last ? DEFAULT_BORDER_RADIUS : 0}px;
   border-bottom-right-radius: ${(props): number => !!props.last ? DEFAULT_BORDER_RADIUS : 0}px;
 `;
+
+interface DropdownPressableProps {
+  enabled: boolean;
+}
+
+export const DropdownPressable = styled.Pressable<DropdownPressableProps>`
+  opacity: ${(props): number => props.enabled ? 1 : 0.4};
+`;

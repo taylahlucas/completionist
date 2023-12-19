@@ -27,7 +27,7 @@ const QuestList = () => {
 
         return (
           <Condition key={index} condition={getQuestsForCategory(category).length > 0}>
-            <QuestMainListItem 
+            <QuestMainListItem
               key={index} 
               category={category}
               completed={completedQuests.toString()}

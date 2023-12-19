@@ -17,17 +17,18 @@ export interface QuestMainListItemProps {
 }
 
 const QuestMainListItem = ({ category, completed, total }: QuestMainListItemProps) => {
-  const { showSearchResults } = useMainState();
+  const { showSearchResults, userSettings } = useMainState();
   const [isOpen, setIsOpen] = useState<boolean>(false);
   const { getQuestsForSubCategory } = useGetQuests();
   const { getQuestSubCategories } = useGetQuestCategories();
   const subCategories = getQuestSubCategories(category);
   const { checkQuestsCompleteForCategory } = useCheckQuestComplete();
-
+  
   return (
     <Dropdown
       isOpen={showSearchResults || isOpen}
       setOpen={() => setIsOpen(!isOpen)}
+      enabled={userSettings?.find(settings => settings.category === category)?.isActive ?? false}
       header={
         <ListHeader title={category} completed={completed} total={total} />
       }

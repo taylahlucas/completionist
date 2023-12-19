@@ -9,11 +9,16 @@ import useSettingsDispatch from './hooks/useSettingsDispatch';
 import StyledText from '@components/general/Text/StyledText.native';
 import SettingsContentCollectionList from './SettingsContentCollectionList.native';
 import { games } from '@utils/constants';
+import useMainState from '@redux/hooks/useMainState';
+import useMainDispatch from '@redux/hooks/useMainDispatch';
 
 const SettingsContent = () => {
-  const { triggerSelectionOpen, setSelectedGameSettings } = useSettingsDispatch();
-  const { isSelectionOpen, selectedGameSettings } = useSettingsState();
+  const { setSelectedGameSettings } = useMainDispatch();
+  const { selectedGameSettings } = useMainState();
+  const { triggerSelectionOpen } = useSettingsDispatch();
+  const { isSelectionOpen } = useSettingsState();
 
+  // TODO: Add button to enable/disable DLC
   return (
     <View style={{ marginTop: 32 }}>
       <StyledText style={{ marginLeft: 8, padding: 8 }} type={'ListItemSubTitle'} align={'left'}>Set collections:</StyledText>
@@ -21,13 +26,15 @@ const SettingsContent = () => {
         isOpen={isSelectionOpen}
         setOpen={() => null}
         header={
-          <DropdownSelection item={selectedGameSettings} isSelected={isSelectionOpen} onPress={(): void => triggerSelectionOpen(!isSelectionOpen)}/>
+          <DropdownSelection item={selectedGameSettings} isSelected={isSelectionOpen} onPress={(): void => triggerSelectionOpen(!isSelectionOpen)} />
         }
       >
-        <DropdownSelectionContent content={games} onPress={(value) => {
+        <DropdownSelectionContent
+          content={games}
+          onPress={(value) => {
             triggerSelectionOpen(false);
             setSelectedGameSettings(value as SubscriptionTypeEnum);
-          }} 
+          }}
         />
       </Dropdown>
       <SettingsContentCollectionList />

@@ -1,5 +1,6 @@
 import useGetGameData from '@data/hooks/useGetGameData.native';
 import { SubscriptionTypeEnum } from '@utils/CustomEnums';
+import { SettingsConfigItem } from '@utils/CustomInterfaces';
 
 // TODO: Add return type
 const useGetSettingsQuestCategories = () => {

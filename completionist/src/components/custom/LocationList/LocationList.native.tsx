@@ -11,6 +11,8 @@ const LocationList = () => {
   const { getLocationsForCategory } = useGetLocations();
   const { checkLocationsCompleteForCategory } = useCheckLocationComplete();
 
+  // TODO: Sort locations by dlc
+
   return (
     <ScrollableList>
       {getLocationCategories().map((category: string, index: number) => {
