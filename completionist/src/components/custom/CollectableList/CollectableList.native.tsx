@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import ScrollableList from '@components/general/Lists/ScrollableList.native';
-import CollectableMainListItem from './CollectableMainListItem.native';
+import CollectableMainDropdown from './CollectableMainDropdown.native';
 import useGetCollectables from './hooks/useGetCollectables';
 import Condition from '@components/general/Condition.native';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
@@ -28,7 +28,7 @@ const CollectableList = () => {
 
         return (
           <Condition key={index} condition={getCollectablesForCategory(category).length > 0}>
-            <CollectableMainListItem
+            <CollectableMainDropdown
               key={index} 
               category={category}
               completed={completedCollectables.toString()}

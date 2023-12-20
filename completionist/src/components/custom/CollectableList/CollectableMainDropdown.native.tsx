@@ -1,22 +1,22 @@
 import React, { useState } from 'react';
 import Condition from '@components/general/Condition.native';
 import Dropdown from '@components/general/Dropdown/Dropdown.native';
-import { CollectableListSubListContainer } from './CollectableListStyledComponents.native';
+import { CollectableSubDropdownContainer } from './CollectableListStyledComponents.native';
 import ListHeader from '@components/general/Lists/ListHeader.native';
-import CollectableSubListItem from './CollectableSubListItem.native';
-import CollectableSubTypeMainListItem from './CollectableSubTypeMainListItem.native';
+import CollectableSubDropdown from './CollectableSubDropdown.native';
+import CollectableMainList from './CollectableMainList.native';
 import useGetCollectables from './hooks/useGetCollectables';
 import useMainState from '@redux/hooks/useMainState';
 import useCheckCollectableComplete from './hooks/useCheckCollectableComplete';
 import useGetCollectableCategories from './hooks/useGetCollectableCategories';
 
-export interface CollectableMainListItemProps {
+export interface CollectableMainDropdownProps {
   category: string;
   completed: string;
   total: string;
 }
 
-const CollectableMainListItem = ({ category, completed, total }: CollectableMainListItemProps) => {
+const CollectableMainDropdown = ({ category, completed, total }: CollectableMainDropdownProps) => {
   const { showSearchResults } = useMainState();
   const [isOpen, setIsOpen] = useState<boolean>(false);
   const { getCollectableSubCategories } = useGetCollectableCategories();
@@ -32,14 +32,14 @@ const CollectableMainListItem = ({ category, completed, total }: CollectableMain
         <ListHeader title={category} completed={completed} total={total} />
       }
     >
-      <CollectableListSubListContainer>
+      <CollectableSubDropdownContainer>
         {subCategories.map((subCategory, index) => {
           const collectablesForCategory = getCollectablesForSubCategory(category, subCategory);
           const completedCollectables = checkCollectablesCompleteForCategory(collectablesForCategory);
 
           return (
             <Condition key={index} condition={collectablesForCategory.length > 0}>
-              <CollectableSubListItem 
+              <CollectableSubDropdown 
                 key={index} 
                 mainType={category} 
                 subType={subCategory}
@@ -48,14 +48,13 @@ const CollectableMainListItem = ({ category, completed, total }: CollectableMain
               />
           </Condition>
           )
-        }
-        )}
+        })}
         <Condition condition={subCategories.length === 0 && getCollectablesForCategory(category).length > 0}>
-          <CollectableSubTypeMainListItem mainType={category} />
+          <CollectableMainList mainType={category} />
         </Condition>
-      </CollectableListSubListContainer>
+      </CollectableSubDropdownContainer>
     </Dropdown>
   );
 };
 
-export default CollectableMainListItem;
+export default CollectableMainDropdown;

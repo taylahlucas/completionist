@@ -7,14 +7,14 @@ import useCheckLocationComplete from './hooks/useCheckLocationComplete';
 import useGetLocations from './hooks/useGetLocations';
 import { CollectableListSubItemContainer } from '../CollectableList/CollectableListStyledComponents.native';
 
-export interface LocationSubListItemProps {
+export interface LocationSubDropdownProps {
   dlc: string;
   hold: string;
   completed: string;
   total: string;
 }
 
-const LocationSubListItem = ({ dlc, hold, completed, total }: LocationSubListItemProps) => {
+const LocationSubDropdown = ({ dlc, hold, completed, total }: LocationSubDropdownProps) => {
   const { showSearchResults } = useMainState();
   const [isOpen, setIsOpen] = useState<boolean>(false);
   const { checkLocationComplete } = useCheckLocationComplete();
@@ -43,4 +43,4 @@ const LocationSubListItem = ({ dlc, hold, completed, total }: LocationSubListIte
   );
 };
 
-export default LocationSubListItem;
+export default LocationSubDropdown;

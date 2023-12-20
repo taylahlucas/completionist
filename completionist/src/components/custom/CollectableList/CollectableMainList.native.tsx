@@ -4,13 +4,13 @@ import useGetCollectables from './hooks/useGetCollectables';
 import useCheckCollectableComplete from './hooks/useCheckCollectableComplete';
 import ListItem from '@components/general/Lists/ListItem.native';
 
-export interface CollectableSubTypeMainListItemProps {
+export interface CollectableMainListProps {
   mainType: string;
   subType?: string;
   isSubCategory?: boolean;
 }
 
-const CollectableSubTypeMainListItem = ({ mainType, subType, isSubCategory = false }: CollectableSubTypeMainListItemProps) => {
+const CollectableMainList = ({ mainType, subType, isSubCategory = false }: CollectableMainListProps) => {
   const { getCollectablesForSubCategory, getCollectablesForCategory, updateCollectablesComplete } = useGetCollectables();
   const collectables = isSubCategory ? getCollectablesForSubCategory(mainType, subType) : getCollectablesForCategory(mainType);
   const { checkCollectableComplete } = useCheckCollectableComplete();
@@ -30,4 +30,4 @@ const CollectableSubTypeMainListItem = ({ mainType, subType, isSubCategory = fal
   );
 };
 
-export default CollectableSubTypeMainListItem;
+export default CollectableMainList;

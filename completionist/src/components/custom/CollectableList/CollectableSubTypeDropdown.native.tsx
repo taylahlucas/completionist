@@ -8,12 +8,12 @@ import useMainState from '@redux/hooks/useMainState';
 import ListItem from '@components/general/Lists/ListItem.native';
 import useCheckCollectableComplete from './hooks/useCheckCollectableComplete';
 
-export interface CollectableSubTypeListItemProps {
+export interface CollectableSubTypeDropdownProps {
   category: string;
   type: string;
 }
 
-const CollectableSubTypeListItem = ({ category, type }: CollectableSubTypeListItemProps) => {
+const CollectableSubTypeDropdown = ({ category, type }: CollectableSubTypeDropdownProps) => {
   const theme = useGetTheme();
   const { showSearchResults} = useMainState();
   const { getCollectablesForSubCategory, updateCollectablesComplete } = useGetCollectables();
@@ -44,4 +44,4 @@ const CollectableSubTypeListItem = ({ category, type }: CollectableSubTypeListIt
   );
 };
 
-export default CollectableSubTypeListItem;
+export default CollectableSubTypeDropdown;

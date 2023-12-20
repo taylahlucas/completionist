@@ -7,7 +7,7 @@ interface CollectableListItemStyleProps {
   color: string;
 }
 
-export const CollectableListSubListContainer = styled.View`
+export const CollectableSubDropdownContainer = styled.View`
   margin-top: 8px;
 `;
 

@@ -3,7 +3,7 @@ import ScrollableList from '@components/general/Lists/ScrollableList.native';
 import useCheckLocationComplete from './hooks/useCheckLocationComplete';
 import useGetLocations from './hooks/useGetLocations';
 import Condition from '@components/general/Condition.native';
-import LocationMainListItem from './LocationMainListItem.native';
+import LocationMainDropdown from './LocationMainDropdown';
 import useGetLocationCategories from './hooks/useGetLocationCategories';
 
 const LocationList = () => {
@@ -19,7 +19,7 @@ const LocationList = () => {
 
         return (
           <Condition key={index} condition={allLocationsForDLC.length > 0}>
-            <LocationMainListItem
+            <LocationMainDropdown
               key={index}
               dlc={dlc}
               completed={completedLocations.toString()}
