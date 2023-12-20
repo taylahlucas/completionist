@@ -26,6 +26,7 @@ export interface Location {
   id: string;
   name: string;
   hold: string;
+  dlc: string;
 }
 
 export interface MiscItem {
@@ -95,6 +96,12 @@ export interface Item {
   isComplete: boolean;
 }
 
+export interface SettingsConfigItem {
+  section: string;
+  category: string;
+  isActive: boolean;
+}
+
 export interface GeneralData {
   quests: Item[];
   collectables: Item[];
@@ -120,9 +127,4 @@ export interface User {
   userAvatar?: string;
   subscription: Subscription[];
   data: UserData;
-}
-
-export interface SettingsConfigItem {
-  category: string;
-  isActive: boolean;
 }

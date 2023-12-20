@@ -7,25 +7,23 @@ import LocationMainListItem from './LocationMainListItem.native';
 import useGetLocationCategories from './hooks/useGetLocationCategories';
 
 const LocationList = () => {
-  const { getLocationCategories } = useGetLocationCategories();
-  const { getLocationsForCategory } = useGetLocations();
-  const { checkLocationsCompleteForCategory } = useCheckLocationComplete();
-
-  // TODO: Sort locations by dlc
-
+  const { getLocationDLC } = useGetLocationCategories();
+  const { getLocationsForDLC } = useGetLocations();
+  const { checkLocationsCompleteForDLC } = useCheckLocationComplete();
+  
   return (
     <ScrollableList>
-      {getLocationCategories().map((category: string, index: number) => {
-        const allLocationsForCategory = getLocationsForCategory(category);
-        const completedLocations = checkLocationsCompleteForCategory(allLocationsForCategory);
+      {getLocationDLC().map((dlc: string, index: number) => {
+        const allLocationsForDLC = getLocationsForDLC(dlc);
+        const completedLocations = checkLocationsCompleteForDLC(allLocationsForDLC);
 
         return (
-          <Condition key={index} condition={allLocationsForCategory.length > 0}>
+          <Condition key={index} condition={allLocationsForDLC.length > 0}>
             <LocationMainListItem
               key={index}
-              category={category}
+              dlc={dlc}
               completed={completedLocations.toString()}
-              total={allLocationsForCategory.length.toString()}
+              total={allLocationsForDLC.length.toString()}
             />
           </Condition>
         );

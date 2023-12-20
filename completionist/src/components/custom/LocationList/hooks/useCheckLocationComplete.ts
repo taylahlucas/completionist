@@ -4,7 +4,8 @@ import { Location } from '@utils/CustomInterfaces';
 
 interface CheckLocationCompleteReturnType {
   checkLocationComplete: (id: string) => boolean;
-  checkLocationsCompleteForCategory: (locations: Location[]) => number;
+  checkLocationsCompleteForDLC: (locations: Location[]) => number;
+  checkLocationsCompleteForHoldsInDLC: (locations: Location[], subCategory: string) => number;
 }
 
 const useCheckLocationComplete = (): CheckLocationCompleteReturnType => {
@@ -21,7 +22,7 @@ const useCheckLocationComplete = (): CheckLocationCompleteReturnType => {
     }
   };
 
-  const checkLocationsCompleteForCategory = (locations: Location[]): number => {
+  const checkLocationsCompleteForDLC = (locations: Location[]): number => {
     let count = 0;
     switch (selectedGame) {
       case SubscriptionTypeEnum.SKYRIM:
@@ -47,7 +48,34 @@ const useCheckLocationComplete = (): CheckLocationCompleteReturnType => {
     }
   }
 
-  return { checkLocationComplete, checkLocationsCompleteForCategory }
+  const checkLocationsCompleteForHoldsInDLC = (locations: Location[], hold: string): number => {
+    let count = 0;
+    // TODO: Move switch statements to state
+    switch (selectedGame) {
+      case SubscriptionTypeEnum.SKYRIM:
+        user.data?.skyrim.locations.forEach((location) => {
+          locations.forEach((item) => {
+            if (location.id === item.id && location.isComplete && item.hold === hold) {
+              count += 1;
+            }
+          });
+        })
+        return count;
+      case SubscriptionTypeEnum.FALLOUT_4:
+        user.data?.fallout4.locations.forEach((location) => {
+          locations.forEach((item) => {
+            if (location.id === item.id && location.isComplete) {
+              count += 1;
+            }
+          });
+        })
+        return count;
+      default:
+        return 0;
+    }
+  };
+
+  return { checkLocationComplete, checkLocationsCompleteForDLC, checkLocationsCompleteForHoldsInDLC }
 }
 
 export default useCheckLocationComplete;

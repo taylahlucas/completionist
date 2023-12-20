@@ -10,7 +10,7 @@ const SettingsContentCollectionList = () => {
   const theme = useGetTheme();
   const { getUserSettingsConfig } = useGetUserGameData();
 
-  // Change to Quests, Collectables, Locations and Misc settings
+  // TODO: Change to Quests, Collectables, Locations and Misc settings
   return (
     <ScrollableList 
       style={{ ...style.scrollView, borderColor: theme.midGrey }}

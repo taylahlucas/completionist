@@ -2082,12 +2082,6 @@
     "dlc": "None"
   },
   {
-    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p103",
-    "name": "The Commonwealth",
-    "hold": "Other Locations",
-    "dlc": "None"
-  },
-  {
     "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p104",
     "name": "Abernathy farm",
     "hold": "Other Locations",
@@ -3263,19 +3257,19 @@
   {
     "id": "0ae3cb1b-60d2-4964-b672-2e2e7d437cb7",
     "name": "Fort Hagen Hangar",
-    "hold": "Other Locations",
+    "hold": "",
     "dlc": "Automatron"
   },
   {
     "id": "77c55068-56a7-4be5-a0d1-92c27208889a",
     "name": "RobCo Sales & Service Center",
-    "hold": "Other Locations",
+    "hold": "",
     "dlc": "Automatron"
   },
   {
     "id": "3d7c9d44-5b63-4c90-8697-42bce0b3c348",
     "name": "The Mechanist's Lair",
-    "hold": "Other Locations",
+    "hold": "",
     "dlc": "Automatron"
   }
 ]
