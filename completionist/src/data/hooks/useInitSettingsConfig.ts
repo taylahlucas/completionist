@@ -19,6 +19,7 @@ const useInitSettingsConfig = () => {
     { game: SubscriptionTypeEnum.SKYRIM, config: user.data?.skyrim.settingsConfig },
     { game: SubscriptionTypeEnum.FALLOUT_4, config: user.data?.fallout4.settingsConfig },
   ];
+  // TODO: Test if this works ith a new config
   const { saveUserData } = useSaveUserData();
 
   useEffect(() => {
@@ -33,9 +34,8 @@ const useInitSettingsConfig = () => {
             section: section,
             category: "",
             isActive: true
-          })
+          });
           let categories: string[] = [];
-
           switch (section) {
             case 'Quests':
               categories = getQuestCategories(settings.game);
@@ -67,7 +67,6 @@ const useInitSettingsConfig = () => {
                 ...user.data,
                 skyrim: {
                   ...user.data.skyrim,
-                  // settingsConfig: [],
                   settingsConfig: configs
                 }
               }
@@ -80,7 +79,6 @@ const useInitSettingsConfig = () => {
                 ...user.data,
                 fallout4: {
                   ...user.data.fallout4,
-                  // settingsConfig: []
                   settingsConfig: configs
                 }
               }

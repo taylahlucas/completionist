@@ -9,13 +9,6 @@ interface DropdownSelectionContainerProps {
   color: string;
 }
 
-export const style = StyleSheet.create({
-  scrollContent: {
-    justifyContent: 'center', 
-    alignItems: 'center'
-  }
-});
-
 export const DropdownSelectionContainer = styled.Pressable<DropdownSelectionContainerProps>`
   width: ${Dimensions.get('window').width - 64}px;
   height: 45px;
@@ -26,7 +19,7 @@ export const DropdownSelectionContainer = styled.Pressable<DropdownSelectionCont
   background-color: ${(props): string => props.color};
 `;
 
-export const DropdownSelectionContentContainer = styled.View`
+export const DropdownSelectionInnerContainer = styled.View`
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
@@ -36,14 +29,21 @@ export const DropdownSelectionTitle = styled(StyledText)`
   left: 32px;
 `;
 
+export const DropdownSelectionItemTitle = styled(StyledText)`
+  left: 24px;
+`;
+
+
 export const DropdownSelectionIconButton = styled(IconButton)`
   positon: absolute;
   right: 16px;
 `;
 
-export const DropdownSelectionContentScrollContainer = styled(ScrollableList)`
+export const DropdownSelectionContentContainer = styled.View`
   max-height: 200px;
-  margin-top: -18px;
+  align-items: center;
+  margin-top: -3px;
+  overflow: scroll;
 `;
 
 interface DropdownSelectionContentItemProps {
@@ -55,6 +55,7 @@ export const DropdownSelectionContentItem = styled.Pressable<DropdownSelectionCo
   background-color: ${(props): string => props.color}; 
   width: ${Dimensions.get('window').width - 64}px;
   height: 45px;
+  padding: 8px;
   justify-content: center;
   border-bottom-left-radius: ${(props): number => !!props.last ? DEFAULT_BORDER_RADIUS : 0}px;
   border-bottom-right-radius: ${(props): number => !!props.last ? DEFAULT_BORDER_RADIUS : 0}px;

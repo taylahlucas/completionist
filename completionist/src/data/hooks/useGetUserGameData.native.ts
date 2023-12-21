@@ -7,7 +7,8 @@ interface GetUserGameDataReturnType {
   getUserCollectables: () => Item[];
   getUserLocations: () => Item[];
   getUserMiscItems: () => Item[];
-  getUserSettingsConfig: () => SettingsConfigItem[];
+  getUserSettingsMainConfig: () => SettingsConfigItem[];
+  getUserSettingsSubConfig: (section: string) => SettingsConfigItem[];
 }
 
 const useGetUserGameData = (): GetUserGameDataReturnType => {
@@ -57,12 +58,23 @@ const useGetUserGameData = (): GetUserGameDataReturnType => {
     }
   };
 
-  const getUserSettingsConfig = (): SettingsConfigItem[] => {
+  const getUserSettingsMainConfig = (): SettingsConfigItem[] => {
     switch (selectedGameSettings) {
       case SubscriptionTypeEnum.SKYRIM:
-        return user.data.skyrim.settingsConfig;
+        return user.data.skyrim.settingsConfig.filter(item => item.category === "");
       case SubscriptionTypeEnum.FALLOUT_4:
-        return user.data.fallout4.settingsConfig;
+        return user.data.fallout4.settingsConfig.filter(item => item.category === "");
+      default:
+        return [];
+    }
+  }
+
+  const getUserSettingsSubConfig = (section: string): SettingsConfigItem[] => {
+    switch (selectedGameSettings) {
+      case SubscriptionTypeEnum.SKYRIM:
+        return user.data.skyrim.settingsConfig.filter(item => item.section === section && item.category !== "");
+      case SubscriptionTypeEnum.FALLOUT_4:
+        return user.data.fallout4.settingsConfig.filter(item => item.section === section && item.category !== "");
       default:
         return [];
     }
@@ -73,7 +85,8 @@ const useGetUserGameData = (): GetUserGameDataReturnType => {
     getUserCollectables,
     getUserLocations,
     getUserMiscItems,
-    getUserSettingsConfig
+    getUserSettingsMainConfig,
+    getUserSettingsSubConfig
   }
 };
 

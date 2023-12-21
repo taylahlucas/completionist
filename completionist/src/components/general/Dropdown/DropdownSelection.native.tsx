@@ -1,6 +1,6 @@
 import React from 'react';
 import useGetTheme from '@styles/hooks/useGetTheme';
-import { DropdownSelectionContainer, DropdownSelectionContentContainer, DropdownSelectionIconButton, DropdownSelectionTitle } from './DropdownStyledComponents.native';
+import { DropdownSelectionContainer, DropdownSelectionInnerContainer, DropdownSelectionIconButton, DropdownSelectionTitle } from './DropdownStyledComponents.native';
 
 interface DropdownSelectionProps {
   item: string;
@@ -13,7 +13,7 @@ const DropdownSelection = ({ item, isSelected = false, onPress }: DropdownSelect
   
   return (
     <DropdownSelectionContainer color={theme.darkGrey} onPress={onPress}>
-      <DropdownSelectionContentContainer>
+      <DropdownSelectionInnerContainer>
         <DropdownSelectionTitle color={theme.lightGrey}>{item}</DropdownSelectionTitle>
         <DropdownSelectionIconButton 
           name={isSelected ? 'arrow-drop-down' : 'arrow-right'}
@@ -21,7 +21,7 @@ const DropdownSelection = ({ item, isSelected = false, onPress }: DropdownSelect
           size={30} 
           color={theme.lightGrey} 
         />
-      </DropdownSelectionContentContainer>
+      </DropdownSelectionInnerContainer>
     </DropdownSelectionContainer>
   );
 };
