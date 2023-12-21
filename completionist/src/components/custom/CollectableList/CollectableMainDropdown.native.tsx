@@ -17,11 +17,11 @@ export interface CollectableMainDropdownProps {
 }
 
 const CollectableMainDropdown = ({ category, completed, total }: CollectableMainDropdownProps) => {
-  const { showSearchResults } = useMainState();
+  const { showSearchResults, selectedGame } = useMainState();
   const [isOpen, setIsOpen] = useState<boolean>(false);
   const { getCollectableSubCategories } = useGetCollectableCategories();
   const { getCollectablesForSubCategory, getCollectablesForCategory } = useGetCollectables();
-  const subCategories = getCollectableSubCategories(category);
+  const subCategories = getCollectableSubCategories(category, selectedGame);
   const { checkCollectablesCompleteForCategory } = useCheckCollectableComplete();
 
   return (

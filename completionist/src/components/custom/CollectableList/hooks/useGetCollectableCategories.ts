@@ -1,17 +1,16 @@
 import useGetGameData from '@data/hooks/useGetGameData.native';
-import useMainState from '@redux/hooks/useMainState';
+import { SubscriptionTypeEnum } from '@utils/CustomEnums';
 
 interface GameDataReturnType {
-  getCollectableCategories: () => string[];
-  getCollectableSubCategories: (category: string) => string[];
+  getCollectableCategories: (selectedGame?: SubscriptionTypeEnum) => string[];
+  getCollectableSubCategories: (category: string, selectedGame?: SubscriptionTypeEnum) => string[];
 }
 
 const useGetCollectableCategories = (): GameDataReturnType => {
-  const { selectedGame } = useMainState();
-  const { mapDataToCollectables } = useGetGameData(selectedGame);
-  const collectables = mapDataToCollectables();
+  const { mapDataToCollectables } = useGetGameData();
 
-  const getCollectableCategories = (): string[] => {
+  const getCollectableCategories = (selectedGame?: SubscriptionTypeEnum): string[] => {
+    const collectables = mapDataToCollectables(selectedGame);
     let collectableCategories: string[] = [];
     collectables.map(collectable => {
       if (!collectableCategories.find(item => item === collectable.type)) {
@@ -21,7 +20,8 @@ const useGetCollectableCategories = (): GameDataReturnType => {
     return collectableCategories;
   }
 
-  const getCollectableSubCategories = (category: string): string[] => {
+  const getCollectableSubCategories = (category: string, selectedGame?: SubscriptionTypeEnum): string[] => {
+    const collectables = mapDataToCollectables(selectedGame);
     const filteredCollectables = collectables.filter(collectable => collectable.type === category);
     let collectableSubCategories: string[] = [];
     filteredCollectables.map(collectable => {

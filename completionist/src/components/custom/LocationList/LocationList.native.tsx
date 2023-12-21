@@ -5,15 +5,17 @@ import useGetLocations from './hooks/useGetLocations';
 import Condition from '@components/general/Condition.native';
 import LocationMainDropdown from './LocationMainDropdown';
 import useGetLocationCategories from './hooks/useGetLocationCategories';
+import useMainState from '@redux/hooks/useMainState';
 
 const LocationList = () => {
+  const { selectedGame } = useMainState();
   const { getLocationDLC } = useGetLocationCategories();
   const { getLocationsForDLC } = useGetLocations();
   const { checkLocationsCompleteForDLC } = useCheckLocationComplete();
   
   return (
     <ScrollableList>
-      {getLocationDLC().map((dlc: string, index: number) => {
+      {getLocationDLC(selectedGame).map((dlc: string, index: number) => {
         const allLocationsForDLC = getLocationsForDLC(dlc);
         const completedLocations = checkLocationsCompleteForDLC(allLocationsForDLC);
 

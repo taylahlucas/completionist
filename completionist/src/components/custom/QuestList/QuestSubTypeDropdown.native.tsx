@@ -8,14 +8,14 @@ import useMainState from '@redux/hooks/useMainState';
 import useCheckQuestComplete from './hooks/useCheckQuestComplete';
 import SubTypeListHeader from '@components/general/Lists/SubTypeListHeader.native';
 
-export interface QuestListSubItemTypeProps {
+export interface QuestSubTypeDropdownProps {
   category: string;
   type: string;
   completed: string;
   total: string;
 }
 
-const QuestSubTypeListItem = ({ category, type, completed, total }: QuestListSubItemTypeProps) => {
+const QuestSubTypeDropdown = ({ category, type, completed, total }: QuestSubTypeDropdownProps) => {
   const { showSearchResults } = useMainState();
   const [isOpen, setIsOpen] = useState<boolean>(false);
   const { getQuestsForSubCategoryWithType } = useGetQuests();
@@ -48,4 +48,4 @@ const QuestSubTypeListItem = ({ category, type, completed, total }: QuestListSub
   );
 };
 
-export default QuestSubTypeListItem;
+export default QuestSubTypeDropdown;

@@ -1,18 +1,17 @@
 import useGetGameData from '@data/hooks/useGetGameData.native';
-import useMainState from '@redux/hooks/useMainState';
+import { SubscriptionTypeEnum } from '@utils/CustomEnums';
 
 interface GetQuestCategoriesReturnType {
-  getQuestCategories: () => string[];
-  getQuestSubCategories: (category: string) => string[];
-  getQuestSubCategoriesTypes: (subCategory: string) => string[];
+  getQuestCategories: (selectedGame?: SubscriptionTypeEnum) => string[];
+  getQuestSubCategories: (category: string, selectedGame?: SubscriptionTypeEnum) => string[];
+  getQuestSubCategoriesTypes: ( subCategory: string, selectedGame?: SubscriptionTypeEnum) => string[];
 }
 
 const useGetQuestCategories = (): GetQuestCategoriesReturnType => {
-  const { selectedGame } = useMainState();
-  const { mapDataToQuests } = useGetGameData(selectedGame);
-  const quests = mapDataToQuests();
+  const { mapDataToQuests } = useGetGameData();
 
-  const getQuestCategories = (): string[] => {
+  const getQuestCategories = (selectedGame?: SubscriptionTypeEnum): string[] => {
+    const quests = mapDataToQuests(selectedGame);
     let questCategories: string[] = [];
     quests.map(quest => {
       if (!questCategories.find(item => item === quest.mainCategory)) {
@@ -22,7 +21,8 @@ const useGetQuestCategories = (): GetQuestCategoriesReturnType => {
     return questCategories;
   }
 
-  const getQuestSubCategories = (category: string): string[] => {
+  const getQuestSubCategories = (category: string, selectedGame?: SubscriptionTypeEnum): string[] => {
+    const quests = mapDataToQuests(selectedGame);
     const filteredQuests = quests.filter(quest => quest.mainCategory === category);
     let questSubCategories: string[] = [];
     filteredQuests.map(quest => {
@@ -35,7 +35,8 @@ const useGetQuestCategories = (): GetQuestCategoriesReturnType => {
     return questSubCategories;
   }
 
-  const getQuestSubCategoriesTypes = (subCategory: string): string[] => {
+  const getQuestSubCategoriesTypes = (subCategory: string, selectedGame?: SubscriptionTypeEnum): string[] => {
+    const quests = mapDataToQuests(selectedGame);
     const filteredQuests = quests.filter(quest => quest.subCategory === subCategory);
     let questSubCategoryTypes: string[] = [];
     filteredQuests.map(quest => {

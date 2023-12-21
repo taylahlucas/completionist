@@ -11,15 +11,13 @@ import useMainState from '@redux/hooks/useMainState';
 const Miscellaneous = () => {
   const { selectedGame } = useMainState();
   const { getUserMiscItems } = useGetUserGameData();
-  const { mapDataToMiscItems } = useGetGameData(selectedGame);
-
+  const { mapDataToMiscItems } = useGetGameData();
   //  TODO: Add subtitles for DLC
-
   return (
     <StandardLayout>
       <NavigationHeader title={'Miscellaneous'} />
       <CustomSearchBar />
-      <CompletedQuantityTitle type={'ListItemTitleBold'}>{`${getUserMiscItems().length}/${mapDataToMiscItems().length}`}</CompletedQuantityTitle>
+      <CompletedQuantityTitle type={'ListItemTitleBold'}>{`${getUserMiscItems().length}/${mapDataToMiscItems(selectedGame).length}`}</CompletedQuantityTitle>
       <MiscList />
     </StandardLayout>
   );

@@ -39,6 +39,11 @@ export const SubListHeaderTitle = styled(StyledText)`
   margin-left: 16px;
 `;
 
+export const ListContainer = styled.View`
+  align-items: center;
+  padding-bottom: 16px;
+`;
+
 export const ListItemContainer = styled.View<ListItemStyleProps>`
   flex-direction: row;
   border-radius: ${DEFAULT_BORDER_RADIUS}px;

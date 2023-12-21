@@ -11,13 +11,13 @@ import { Collectable, Location, MiscItem, Quest, SettingsConfigItem } from '@uti
 import useMainState from '@redux/hooks/useMainState';
 
 interface GameDataReturnType {
-  mapDataToQuests: () => Quest[];
-  mapDataToCollectables: () => Collectable[];
-  mapDataToMiscItems: () => MiscItem[];
-  mapDataToLocations: () => Location[];
+  mapDataToQuests: (selectedGame?: SubscriptionTypeEnum) => Quest[];
+  mapDataToCollectables: (selectedGame?: SubscriptionTypeEnum) => Collectable[];
+  mapDataToMiscItems: (selectedGame?: SubscriptionTypeEnum) => MiscItem[];
+  mapDataToLocations: (selectedGame?: SubscriptionTypeEnum) => Location[];
 }
 
-const useGetGameData = (selectedGame: SubscriptionTypeEnum = SubscriptionTypeEnum.SKYRIM): GameDataReturnType => {
+const useGetGameData = (): GameDataReturnType => {
   const { user } = useMainState();
 
   const filterData = (config: SettingsConfigItem[], data: any[]) => {
@@ -28,7 +28,7 @@ const useGetGameData = (selectedGame: SubscriptionTypeEnum = SubscriptionTypeEnu
     return data;
   }
 
-  const mapDataToQuests = (): Quest[] => {
+  const mapDataToQuests = (selectedGame?: SubscriptionTypeEnum): Quest[] => {
     switch (selectedGame) {
       case SubscriptionTypeEnum.SKYRIM:
         let skyrimQuests = skyrim_quests.map((quest: Quest) => {
@@ -45,7 +45,7 @@ const useGetGameData = (selectedGame: SubscriptionTypeEnum = SubscriptionTypeEnu
     }
   };
 
-  const mapDataToCollectables = (): Collectable[] => {
+  const mapDataToCollectables = (selectedGame?: SubscriptionTypeEnum): Collectable[] => {
     switch (selectedGame) {
       case SubscriptionTypeEnum.SKYRIM:
         let skyrimCollectables = skyrim_collectables.map((collectable: Collectable) => {
@@ -62,7 +62,7 @@ const useGetGameData = (selectedGame: SubscriptionTypeEnum = SubscriptionTypeEnu
     }
   };
 
-  const mapDataToMiscItems = (): MiscItem[] => {
+  const mapDataToMiscItems = (selectedGame?: SubscriptionTypeEnum): MiscItem[] => {
     switch (selectedGame) {
       case SubscriptionTypeEnum.SKYRIM:
         let skyrimMisc = skyrim_misc.map((miscItem: MiscItem) => {
@@ -79,7 +79,7 @@ const useGetGameData = (selectedGame: SubscriptionTypeEnum = SubscriptionTypeEnu
     }
   };
   
-  const mapDataToLocations = (): Location[] => {
+  const mapDataToLocations = (selectedGame?: SubscriptionTypeEnum): Location[] => {
     switch (selectedGame) {
       case SubscriptionTypeEnum.SKYRIM:
         return skyrim_locations.map((location: Location) => {

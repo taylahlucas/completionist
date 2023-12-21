@@ -1,5 +1,5 @@
 import React from 'react';
-import { CollectableListSubItemContainer } from './CollectableListStyledComponents.native';
+import { ListContainer } from '@components/general/Lists/ListStyledComponents.native';
 import useGetCollectables from './hooks/useGetCollectables';
 import useCheckCollectableComplete from './hooks/useCheckCollectableComplete';
 import ListItem from '@components/general/Lists/ListItem.native';
@@ -16,9 +16,9 @@ const CollectableMainList = ({ mainType, subType, isSubCategory = false }: Colle
   const { checkCollectableComplete } = useCheckCollectableComplete();
   
   return (
-    <CollectableListSubItemContainer>
+    <ListContainer>
       {collectables?.map((collectable, index) => (
-        <ListItem 
+        <ListItem
           id={collectable.id}
           key={index}
           name={collectable.name}
@@ -26,7 +26,7 @@ const CollectableMainList = ({ mainType, subType, isSubCategory = false }: Colle
           action={(): void => updateCollectablesComplete(collectable.id)}
         />
       ))}
-    </CollectableListSubItemContainer>
+    </ListContainer>
   );
 };
 

@@ -50,3 +50,22 @@ to the following JSON:
 HEARTHFIRE QUESTS
 
 https://en.uesp.net/wiki/Category:Skyrim-Hearthfire-Quests
+
+
+Bandit Attack
+Build Your Own Home
+BYOH HouseFalkreath
+BYOH HouseHjaalmarch
+BYOH HousePale
+
+Speak to the Jarl of Dawnstar about the land for sale
+Speak to the Jarl of Falkreath
+Speak to the Steward of Falkreath about the land for sale
+Speak to the Steward of Morthal about the land for sale
+
+Use the Carpenter's Workbench to build the foundation of your house
+Use the Drafting Table to begin building your house
+
+Visit your new property in Falkreath hold
+Visit your new property in Hjaalmarch hold
+Visit your new property in The Pale hold

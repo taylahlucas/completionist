@@ -26,7 +26,6 @@ const useCreateOrGetUser = () => {
                 else {
                   createUser({ data: userFormData })
                     .then((response: UserResponse) => {
-                      console.log("RESPONSE: ", response)
                       if (!!response) {
                         saveUserData(response);
                       }

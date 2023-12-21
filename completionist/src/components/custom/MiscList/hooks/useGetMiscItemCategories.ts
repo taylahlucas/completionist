@@ -1,16 +1,15 @@
 import useGetGameData from '@data/hooks/useGetGameData.native';
-import useMainState from '@redux/hooks/useMainState';
+import { SubscriptionTypeEnum } from '@utils/CustomEnums';
 
 interface CheckLocationCompleteReturnType {
-  getMiscItemCategories: () => string[];
+  getMiscItemCategories: (selectedGame?: SubscriptionTypeEnum) => string[];
 }
 
 const useGetMiscItemCategories = (): CheckLocationCompleteReturnType => {
-  const { selectedGame } = useMainState();
-  const { mapDataToMiscItems } = useGetGameData(selectedGame);
-  const miscItems = mapDataToMiscItems();
+  const { mapDataToMiscItems } = useGetGameData();
 
-  const getMiscItemCategories = (): string[] => {
+  const getMiscItemCategories = (selectedGame?: SubscriptionTypeEnum): string[] => {
+    const miscItems = mapDataToMiscItems(selectedGame);
     let miscItemCategories: string[] = [];
     miscItems.map(miscItem => {
       if (!miscItemCategories.find(item => item === miscItem.type)) {

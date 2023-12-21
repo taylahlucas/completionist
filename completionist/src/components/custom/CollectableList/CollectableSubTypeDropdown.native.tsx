@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { CollectableListSubItemContainer } from './CollectableListStyledComponents.native';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import Dropdown from '@components/general/Dropdown/Dropdown.native';
 import StyledText from '@components/general/Text/StyledText.native';
@@ -7,6 +6,7 @@ import useGetCollectables from './hooks/useGetCollectables';
 import useMainState from '@redux/hooks/useMainState';
 import ListItem from '@components/general/Lists/ListItem.native';
 import useCheckCollectableComplete from './hooks/useCheckCollectableComplete';
+import { ListContainer } from '@components/general/Lists/ListStyledComponents.native';
 
 export interface CollectableSubTypeDropdownProps {
   category: string;
@@ -29,7 +29,7 @@ const CollectableSubTypeDropdown = ({ category, type }: CollectableSubTypeDropdo
         <StyledText align={'left'} type={'ListItemSubTitleBold'} color={theme.lightGrey} style={{ padding: 16, marginLeft: 32 }}>{type}</StyledText>
       }
     >
-     <CollectableListSubItemContainer>
+     <ListContainer>
       {collectables?.map((collectable, index) => (
         <ListItem 
           key={index}
@@ -39,7 +39,7 @@ const CollectableSubTypeDropdown = ({ category, type }: CollectableSubTypeDropdo
           action={((): void => updateCollectablesComplete(collectable.id))}
         />
       ))}
-      </CollectableListSubItemContainer> 
+      </ListContainer> 
     </Dropdown>
   );
 };

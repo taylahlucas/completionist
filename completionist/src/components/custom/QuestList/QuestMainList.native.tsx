@@ -4,12 +4,12 @@ import QuestListItem from './QuestListItem.native';
 import useGetQuests from './hooks/useGetQuests';
 import useCheckQuestComplete from './hooks/useCheckQuestComplete';
 
-export interface QuestSubTypeMainListItemProps {
+export interface QuestMainListProps {
   category: string;
   isSubCategory?: boolean;
 }
 
-const QuestSubTypeMainListItem = ({ category, isSubCategory = false }: QuestSubTypeMainListItemProps) => {
+const QuestMainList = ({ category, isSubCategory = false }: QuestMainListProps) => {
   const { getQuestsForSubCategoryWithType, getQuestsForCategory} = useGetQuests();
   const quests = isSubCategory ? getQuestsForSubCategoryWithType(category) : getQuestsForCategory(category);
   const { checkQuestComplete } = useCheckQuestComplete();
@@ -30,4 +30,4 @@ const QuestSubTypeMainListItem = ({ category, isSubCategory = false }: QuestSubT
   );
 };
 
-export default QuestSubTypeMainListItem;
+export default QuestMainList;

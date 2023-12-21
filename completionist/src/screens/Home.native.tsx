@@ -2,9 +2,10 @@ import React from 'react';
 import StandardLayout from '@components/general/Layouts/StandardLayout.native';
 import GameList from '@components/custom/GameList/GameList.native';
 import StyledText from '@components/general/Text/StyledText.native';
-import useInitSettingsConfig from '@utils/hooks/useInitSettingsConfig';
+import useInitSettingsConfig from '@data/hooks/useInitSettingsConfig';
 
 const Home = () => {
+
   useInitSettingsConfig();
   
   return (

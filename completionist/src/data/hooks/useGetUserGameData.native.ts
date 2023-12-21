@@ -1,8 +1,6 @@
-import useGetQuestCategories from '@components/custom/QuestList/hooks/useGetQuestCategories';
 import useMainState from '@redux/hooks/useMainState';
 import { SubscriptionTypeEnum } from '@utils/CustomEnums';
 import { Item, SettingsConfigItem } from '@utils/CustomInterfaces';
-import useGetGameData from './useGetGameData.native';
 
 interface GetUserGameDataReturnType {
   getUserQuests: () => Item[];
@@ -14,9 +12,6 @@ interface GetUserGameDataReturnType {
 
 const useGetUserGameData = (): GetUserGameDataReturnType => {
   const { user, selectedGame, selectedGameSettings } = useMainState();
-  const { getQuestCategories } = useGetQuestCategories();
-  const { mapDataToQuests } = useGetGameData();
-  const allQuests = mapDataToQuests();
 
   const getUserQuests = (): Item[] => {
     switch (selectedGame) {
@@ -63,7 +58,6 @@ const useGetUserGameData = (): GetUserGameDataReturnType => {
   };
 
   const getUserSettingsConfig = (): SettingsConfigItem[] => {
-    // TODO: Move all GET functions with switch statements to one file
     switch (selectedGameSettings) {
       case SubscriptionTypeEnum.SKYRIM:
         return user.data.skyrim.settingsConfig;

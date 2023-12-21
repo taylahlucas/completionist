@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import QuestMainListItem from './QuestMainListItem.native';
+import QuestMainDropdown from './QuestMainDropdown.native';
 import ScrollableList from '@components/general/Lists/ScrollableList.native';
 import Condition from '@components/general/Condition.native';
 import useGetQuests from './hooks/useGetQuests';
@@ -10,7 +10,7 @@ import useGetQuestCategories from './hooks/useGetQuestCategories';
 
 const QuestList = () => {
   const { triggerShowSearchResults } = useMainDispatch();
-  const { searchValue } = useMainState();
+  const { searchValue, selectedGame } = useMainState();
   const { getQuestsForCategory, getAllQuestsForCategory } = useGetQuests();
   const { getQuestCategories } = useGetQuestCategories();
   const { checkQuestsCompleteForCategory } = useCheckQuestComplete();
@@ -21,13 +21,13 @@ const QuestList = () => {
 
   return (
     <ScrollableList>
-      {getQuestCategories().map((category: string, index: number) => {
+      {getQuestCategories(selectedGame).map((category: string, index: number) => {
         const allQuestsForCategory = getAllQuestsForCategory(category);
         const completedQuests = checkQuestsCompleteForCategory(allQuestsForCategory);
 
         return (
           <Condition key={index} condition={getQuestsForCategory(category).length > 0}>
-            <QuestMainListItem
+            <QuestMainDropdown
               key={index} 
               category={category}
               completed={completedQuests.toString()}

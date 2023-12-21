@@ -1,25 +1,27 @@
 import React from 'react';
 import ScrollableList from '@components/general/Lists/ScrollableList.native';
-import MiscMainListItem from './MiscMainListItem.native';
+import MiscMainDropdown from './MiscMainDropdown.native';
 import useGetMiscItems from './hooks/useGetMiscItems';
 import useCheckMiscItemComplete from './hooks/useCheckMiscItemComplete';
 import Condition from '@components/general/Condition.native';
 import useGetMiscItemCategories from './hooks/useGetMiscItemCategories';
+import useMainState from '@redux/hooks/useMainState';
 
 const MiscList = () => {
+  const { selectedGame } = useMainState();
   const { getMiscItemCategories } = useGetMiscItemCategories();
   const { getMiscItemsForCategory } = useGetMiscItems();
   const { checkMiscItemsCompleteForCategory } = useCheckMiscItemComplete();
   
   return (
     <ScrollableList>
-      {getMiscItemCategories().map((category: string, index: number) => {
+      {getMiscItemCategories(selectedGame).map((category: string, index: number) => {
         const allMiscItemsForCategory = getMiscItemsForCategory(category);
         const completedMiscItems = checkMiscItemsCompleteForCategory(allMiscItemsForCategory);
 
         return (
           <Condition key={index} condition={allMiscItemsForCategory.length > 0}>
-            <MiscMainListItem
+            <MiscMainDropdown
               key={index} 
               category={category}
               completed={completedMiscItems.toString()}

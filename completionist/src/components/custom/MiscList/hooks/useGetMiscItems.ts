@@ -14,8 +14,8 @@ const useGetMiscItems = (): GetMiscItemsReturnType => {
   const { setCompletedMiscItems } = useMainDispatch();
   const { searchValue, selectedGame } = useMainState();
   const getFormattedSearchString = useSearchStringFormatter();
-  const { mapDataToMiscItems } = useGetGameData(selectedGame);
-  const miscItems = mapDataToMiscItems();
+  const { mapDataToMiscItems } = useGetGameData();
+  const miscItems = mapDataToMiscItems(selectedGame);
   const filteredMiscItems = miscItems.filter(item => getFormattedSearchString(item.name).includes(getFormattedSearchString(searchValue)));
   const { getUserMiscItems } = useGetUserGameData();
 

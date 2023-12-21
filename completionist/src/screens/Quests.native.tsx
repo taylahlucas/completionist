@@ -18,7 +18,7 @@ const Quests = () => {
       <NavigationHeader title={'Quests'} />
       <CustomSearchBar />
       <CompletedQuantityTitle type={'ListItemTitleBold'}>
-        {`${getUserQuests().length}/${mapDataToQuests().length}`}
+        {`${getUserQuests().length}/${mapDataToQuests(selectedGame).length}`}
       </CompletedQuantityTitle>
       <QuestList />
     </StandardLayout>

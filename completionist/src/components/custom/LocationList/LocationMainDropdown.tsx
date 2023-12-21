@@ -17,19 +17,19 @@ export interface LocationMainDropdownProps {
 }
 
 const LocationMainDropdown = ({ dlc, completed, total }: LocationMainDropdownProps) => {
-  const { showSearchResults } = useMainState();
+  const { showSearchResults, selectedGame } = useMainState();
   const [isOpen, setIsOpen] = useState<boolean>(false);
   const { getLocationHoldsInDLC } = useGetLocationCategories();
   const { checkLocationsCompleteForHoldsInDLC } = useCheckLocationComplete();
   const { getLocationsForDLC, getLocationsForHoldInDLC } = useGetLocations();
-  const holdsInDLC = getLocationHoldsInDLC(dlc);
+  const holdsInDLC = getLocationHoldsInDLC(dlc, selectedGame);
 
   return (
     <Dropdown
       isOpen={isOpen || showSearchResults}
       setOpen={() => setIsOpen(!isOpen)}
       header={
-        <ListHeader title={dlc} completed={completed} total={total} />
+        <ListHeader title={dlc === 'None' ? 'Main' : dlc} completed={completed} total={total} />
       }
     >
       <CollectableSubDropdownContainer>
@@ -39,7 +39,7 @@ const LocationMainDropdown = ({ dlc, completed, total }: LocationMainDropdownPro
 
           // TODO: MainListItem for when there is no hold
           return (
-            <Condition condition={locationsForHold.length > 0}>
+            <Condition key={index} condition={locationsForHold.length > 0}>
               <LocationSubDropdown
                 key={index}
                 dlc={dlc}

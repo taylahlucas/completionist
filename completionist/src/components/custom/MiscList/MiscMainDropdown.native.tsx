@@ -7,13 +7,13 @@ import ListItem from '@components/general/Lists/ListItem.native';
 import { MiscItem } from '@utils/CustomInterfaces';
 import useCheckMiscItemComplete from './hooks/useCheckMiscItemComplete';
 
-export interface MiscMainListItemProps {
+export interface MiscMainDropdownProps {
   category: string;
   completed: string;
   total: string;
 }
 
-const MiscMainListItem = ({ category, completed, total }: MiscMainListItemProps) => {
+const MiscMainDropdown = ({ category, completed, total }: MiscMainDropdownProps) => {
   const { showSearchResults } = useMainState();
   const [isOpen, setIsOpen] = useState<boolean>(false);
   const { getMiscItemsForCategory, updateMiscItemsComplete } = useGetMiscItems()
@@ -40,4 +40,4 @@ const MiscMainListItem = ({ category, completed, total }: MiscMainListItemProps)
   );
 };
 
-export default MiscMainListItem;
+export default MiscMainDropdown;

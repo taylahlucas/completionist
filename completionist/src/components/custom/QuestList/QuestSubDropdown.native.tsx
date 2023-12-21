@@ -1,26 +1,26 @@
 import React, { useState } from 'react';
 import Dropdown from '@components/general/Dropdown/Dropdown.native';
-import QuestSubTypeListItem from './QuestSubTypeListItem.native';
+import QuestSubTypeDropdown from './QuestSubTypeDropdown.native';
 import Condition from '@components/general/Condition.native';
-import QuestSubTypeMainListItem from './QuestSubTypeMainListItem.native';
+import QuestSubTypeMainListItem from './QuestMainList.native';
 import useMainState from '@redux/hooks/useMainState';
 import SubListHeader from '@components/general/Lists/SubListHeader.native';
 import useCheckQuestComplete from './hooks/useCheckQuestComplete';
 import useGetQuests from './hooks/useGetQuests';
 import useGetQuestCategories from './hooks/useGetQuestCategories';
 
-export interface QuestSubListItemProps {
+export interface QuestSubDropdownProps {
   category: string;
   completed: string;
   total: string;
 }
 
-const QuestSubListItem = ({ category, completed, total }: QuestSubListItemProps) => {
-  const { showSearchResults } = useMainState();
+const QuestSubDropdown = ({ category, completed, total }: QuestSubDropdownProps) => {
+  const { showSearchResults, selectedGame } = useMainState();
   const [isOpen, setIsOpen] = useState<boolean>(false);
   const { getQuestsForSubCategoryWithType} = useGetQuests();
   const { getQuestSubCategoriesTypes } = useGetQuestCategories();
-  const subCategoryTypes = getQuestSubCategoriesTypes(category);
+  const subCategoryTypes = getQuestSubCategoriesTypes(category, selectedGame);
   const { checkQuestsCompleteForCategory } = useCheckQuestComplete();
   const mainQuests = getQuestsForSubCategoryWithType(category, '');
   
@@ -35,7 +35,7 @@ const QuestSubListItem = ({ category, completed, total }: QuestSubListItemProps)
       <Condition 
         condition={subCategoryTypes?.length === 0}
         conditionalElement={
-          <QuestSubTypeListItem 
+          <QuestSubTypeDropdown 
             category={category} 
             type={'Main'} 
             completed={checkQuestsCompleteForCategory(mainQuests).toString()} 
@@ -51,7 +51,7 @@ const QuestSubListItem = ({ category, completed, total }: QuestSubListItemProps)
         const completedQuests = checkQuestsCompleteForCategory(questsForType);
 
         return (
-          <QuestSubTypeListItem 
+          <QuestSubTypeDropdown 
             key={index} 
             category={category} 
             type={type}
@@ -64,4 +64,4 @@ const QuestSubListItem = ({ category, completed, total }: QuestSubListItemProps)
   );
 };
 
-export default QuestSubListItem;
+export default QuestSubDropdown;

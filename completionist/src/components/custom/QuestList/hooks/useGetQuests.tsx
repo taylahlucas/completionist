@@ -17,8 +17,8 @@ const useGetQuests = (): GetQuestReturnType => {
   const { setCompletedQuests } = useMainDispatch();
   const { searchValue, selectedGame } = useMainState();
   const { getUserQuests } = useGetUserGameData();
-  const { mapDataToQuests } = useGetGameData(selectedGame);
-  const quests = mapDataToQuests();
+  const { mapDataToQuests } = useGetGameData();
+  const quests = mapDataToQuests(selectedGame);
   const getFormattedSearchString = useSearchStringFormatter();
   const filteredQuests = quests.filter(quest => getFormattedSearchString(quest.title).includes(getFormattedSearchString(searchValue)));
 

@@ -1,12 +1,11 @@
 import useReactNavigation, { DrawerActions } from '@navigation/hooks/useReactNavigation.native';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
-import { GeneralData, User } from '@utils/CustomInterfaces';
+import { User } from '@utils/CustomInterfaces';
 import useCache from './useCache.native';
 import useKeychain from './useKeychain.native';
 import { ScreenEnum } from '@utils/CustomEnums';
 import { initialFormData } from '@redux/MainState';
 import { CredentialsResponse } from '@utils/CustomTypes';
-import { initialGameData } from '@redux/MainState';
 import { expectedDataKeys } from '@utils/constants';
 
 interface SaveUserDataReturnType {
@@ -52,7 +51,6 @@ const useSaveUserData = (): SaveUserDataReturnType => {
   };
 
   const saveUserData = (user: User) => {
-    validateGameData(user)
     setUser(validateGameData(user));
     saveToCache(validateGameData(user));
     setLoggedIn(true);

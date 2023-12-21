@@ -11,11 +11,6 @@ export const CollectableSubDropdownContainer = styled.View`
   margin-top: 8px;
 `;
 
-export const CollectableListSubItemContainer = styled.View`
-  align-items: center;
-  padding-bottom: 16px;
-`;
-
 export const CollectableListItemContainer = styled.View<CollectableListItemStyleProps>`
   flex-direction: row;
   border-radius: ${DEFAULT_BORDER_RADIUS}px;

@@ -16,8 +16,8 @@ const useGetLocations = (): GetLocationReturnType => {
   const { setCompletedLocations } = useMainDispatch();
   const { searchValue, selectedGame } = useMainState();
   const getFormattedSearchString = useSearchStringFormatter();
-  const { mapDataToLocations } = useGetGameData(selectedGame);
-  const locations = mapDataToLocations();
+  const { mapDataToLocations } = useGetGameData();
+  const locations = mapDataToLocations(selectedGame);
   const filteredLocations = locations.filter(item => getFormattedSearchString(item.name).includes(getFormattedSearchString(searchValue)));
   const { getUserLocations } = useGetUserGameData();
 

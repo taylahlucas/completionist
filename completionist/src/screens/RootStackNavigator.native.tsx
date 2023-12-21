@@ -8,6 +8,7 @@ import useInitUserData from '@data/hooks/useInitUserData.native';
 const RootStackNavigator = () => {
   const { isLoggedIn, user } = useMainState();
 
+  // TODO: Debug here check commenting out settings hook
   useInitUserData();
 
   return (

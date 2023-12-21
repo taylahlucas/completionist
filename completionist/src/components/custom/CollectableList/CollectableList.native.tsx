@@ -10,19 +10,19 @@ import useGetCollectableCategories from './hooks/useGetCollectableCategories';
 
 const CollectableList = () => {
   const { triggerShowSearchResults } = useMainDispatch();
-  const { searchValue } = useMainState();
+  const { searchValue, selectedGame } = useMainState();
   const { getCollectableCategories } = useGetCollectableCategories();
   const { getCollectablesForCategory, getAllCollectablesForCategory } = useGetCollectables();
   const { checkCollectablesCompleteForCategory } = useCheckCollectableComplete();
 
-  //  TODO: Add subtitles for DLC
+  // TODO: Move this to custom hook
   useEffect(() => {
     triggerShowSearchResults(searchValue.length >= 3);
   }, [searchValue])
-  
+    //  TODO: Add subtitles for DLC
   return (
     <ScrollableList>
-      {getCollectableCategories().map((category: string, index: number) => {
+      {getCollectableCategories(selectedGame).map((category: string, index: number) => {
         const allCollectablesForCategory = getAllCollectablesForCategory(category)
         const completedCollectables = checkCollectablesCompleteForCategory(allCollectablesForCategory)
 

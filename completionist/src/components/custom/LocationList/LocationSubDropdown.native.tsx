@@ -5,7 +5,7 @@ import SubListHeader from '@components/general/Lists/SubListHeader.native';
 import ListItem from '@components/general/Lists/ListItem.native';
 import useCheckLocationComplete from './hooks/useCheckLocationComplete';
 import useGetLocations from './hooks/useGetLocations';
-import { CollectableListSubItemContainer } from '../CollectableList/CollectableListStyledComponents.native';
+import { ListContainer } from '@components/general/Lists/ListStyledComponents.native';
 
 export interface LocationSubDropdownProps {
   dlc: string;
@@ -28,7 +28,7 @@ const LocationSubDropdown = ({ dlc, hold, completed, total }: LocationSubDropdow
         <SubListHeader title={hold} completed={completed} total={total} />
       }
     >
-      <CollectableListSubItemContainer>
+      <ListContainer>
         {getLocationsForHoldInDLC(dlc, hold).map((item, index) => (
           <ListItem
             key={index}
@@ -38,7 +38,7 @@ const LocationSubDropdown = ({ dlc, hold, completed, total }: LocationSubDropdow
             action={(): void => updateLocationsComplete(item.id)}
           />
         ))}
-      </CollectableListSubItemContainer>
+      </ListContainer>
     </Dropdown>
   );
 };

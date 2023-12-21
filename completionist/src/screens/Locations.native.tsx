@@ -11,13 +11,13 @@ import useMainState from '@redux/hooks/useMainState';
 const Locations = () => {
   const { selectedGame } = useMainState();
   const { getUserLocations } = useGetUserGameData();
-  const { mapDataToLocations } = useGetGameData(selectedGame);
+  const { mapDataToLocations } = useGetGameData();
   
   return (
     <StandardLayout>
       <NavigationHeader title={'Locations'} />
       <CustomSearchBar />
-      <CompletedQuantityTitle type={'ListItemTitleBold'}>{`${getUserLocations().length}/${mapDataToLocations().length}`}</CompletedQuantityTitle>
+      <CompletedQuantityTitle type={'ListItemTitleBold'}>{`${getUserLocations().length}/${mapDataToLocations(selectedGame).length}`}</CompletedQuantityTitle>
       <LocationList />
     </StandardLayout>
   );

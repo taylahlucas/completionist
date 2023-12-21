@@ -1,7 +1,7 @@
 import React from 'react';
 import ListItem from '@components/general/Lists/ListItem.native';
 import useGetLocations from './hooks/useGetLocations';
-import { CollectableListSubItemContainer } from '../CollectableList/CollectableListStyledComponents.native';
+import { ListContainer } from '@components/general/Lists/ListStyledComponents.native';
 import useCheckLocationComplete from './hooks/useCheckLocationComplete';
 
 export interface LocationMainListProps {
@@ -15,9 +15,8 @@ const LocationMainList = ({ dlc, hold, isSubCategory = false }: LocationMainList
   const locations = getLocationsForDLC(dlc);
   const { checkLocationComplete } = useCheckLocationComplete();
   
-  // TODO: Move CollectableListSubItemContainer to different styled components
   return (
-    <CollectableListSubItemContainer>
+    <ListContainer>
       {locations?.map((collectable, index) => (
         <ListItem 
           id={collectable.id}
@@ -27,7 +26,7 @@ const LocationMainList = ({ dlc, hold, isSubCategory = false }: LocationMainList
           action={(): void => updateLocationsComplete(collectable.id)}
         />
       ))}
-    </CollectableListSubItemContainer>
+    </ListContainer>
   );
 };
 
