@@ -23,12 +23,12 @@ const QuestMainDropdown = ({ category, completed, total }: QuestMainDropdownProp
   const { getQuestSubCategories } = useGetQuestCategories();
   const subCategories = getQuestSubCategories(category, selectedGame);
   const { checkQuestsCompleteForCategory } = useCheckQuestComplete();
-  
+
   return (
     <Dropdown
       isOpen={showSearchResults || isOpen}
       setOpen={() => setIsOpen(!isOpen)}
-      enabled={userSettings?.find(settings => settings.category === category)?.isActive ?? false}
+      enabled={userSettings?.find(settings => settings.category === category && settings.section === "Quests")?.isActive ?? false}
       header={
         <ListHeader title={category} completed={completed} total={total} />
       }

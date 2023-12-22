@@ -16,8 +16,8 @@ const useGetCollectables = (): GameDataReturnType => {
   const { setCompletedCollectables } = useMainDispatch();
   const { searchValue, selectedGame } = useMainState();
   const getFormattedSearchString = useSearchStringFormatter();
-  const { mapDataToCollectables } = useGetGameData();
-  const collectables = mapDataToCollectables(selectedGame);
+  const { mapDataToFilteredCollectables } = useGetGameData();
+  const collectables = mapDataToFilteredCollectables(selectedGame);
   const filteredCollectables = collectables.filter(collectable => getFormattedSearchString(collectable.name).includes(getFormattedSearchString(searchValue)));
   const { getUserCollectables } = useGetUserGameData();
 

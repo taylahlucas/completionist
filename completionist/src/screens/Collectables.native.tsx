@@ -11,14 +11,14 @@ import useMainState from '@redux/hooks/useMainState';
 const Collectables = () => {
   const { selectedGame } = useMainState();
   const { getUserCollectables } = useGetUserGameData();
-  const { mapDataToCollectables } = useGetGameData();
+  const { mapDataToFilteredCollectables } = useGetGameData();
 
   return (
     <StandardLayout>
       <NavigationHeader title={'Collectables'} />
       <CustomSearchBar />
       <CompletedQuantityTitle type={'ListItemTitleBold'}>
-        {`${getUserCollectables().length}/${mapDataToCollectables(selectedGame).length}`}
+        {`${getUserCollectables().length}/${mapDataToFilteredCollectables(selectedGame).length}`}
       </CompletedQuantityTitle>
       <CollectableList />
     </StandardLayout>

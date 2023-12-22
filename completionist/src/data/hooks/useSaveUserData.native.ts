@@ -4,9 +4,9 @@ import { User } from '@utils/CustomInterfaces';
 import useCache from './useCache.native';
 import useKeychain from './useKeychain.native';
 import { ScreenEnum } from '@utils/CustomEnums';
-import { initialFormData } from '@redux/MainState';
+import { initialGameData, initialFormData } from '@redux/MainState';
 import { CredentialsResponse } from '@utils/CustomTypes';
-import { expectedDataKeys } from '@utils/constants';
+import { expectedUserDataKeys, expectedGeneralDataKeys } from '@utils/constants';
 
 interface SaveUserDataReturnType {
   loadUserData: () => void;
@@ -22,8 +22,19 @@ const useSaveUserData = (): SaveUserDataReturnType => {
 
   const validateGameData = (user: User): User => {
     let updatedUser: User = user;
+    // Check if UserData contains all params
+    for (const key of expectedUserDataKeys) {
+      if (!(key in user)) {
+        if (!updatedUser.data[key]) {
+          updatedUser.data[key] = initialGameData;
+        }
+        if (!updatedUser.data[key]) {
+          updatedUser.data[key] = initialGameData;
+        }
+      }
+    }
     // Check if GeneralData contains all params
-    for (const key of expectedDataKeys) {
+    for (const key of expectedGeneralDataKeys) {
       if (!(key in user)) {
         if (!updatedUser.data.skyrim[key]) {
           updatedUser.data.skyrim[key] = [];

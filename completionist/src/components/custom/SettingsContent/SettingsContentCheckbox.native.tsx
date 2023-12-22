@@ -14,7 +14,7 @@ interface SettingsContentCheckboxProps {
 const SettingsContentCheckbox = ({ item }: SettingsContentCheckboxProps) => {
   const theme = useGetTheme();
   const { selectedGameSettings, user } = useMainState();
-  const { setSettingsConfig } = useMainDispatch();
+  const { setUser } = useMainDispatch();
   const { updateConfig } = useUpdateSettingsConfig();
 
   return (
@@ -27,13 +27,31 @@ const SettingsContentCheckbox = ({ item }: SettingsContentCheckboxProps) => {
         switch (selectedGameSettings) {
           case SubscriptionTypeEnum.SKYRIM:
             const skyrimConfig = updateConfig(user.data.skyrim.settingsConfig, item)
-            setSettingsConfig(skyrimConfig);
-            return
+            setUser({
+              ...user,
+              data: {
+                ...user.data,
+                skyrim: {
+                  ...user.data.skyrim,
+                  settingsConfig: skyrimConfig
+                }
+              }
+            });
+            return;
 
           case SubscriptionTypeEnum.FALLOUT_4:
             const fallout4Config = updateConfig(user.data.fallout4.settingsConfig, item)
-            setSettingsConfig(fallout4Config);
-            return
+            setUser({
+              ...user,
+              data: {
+                ...user.data,
+                fallout4: {
+                  ...user.data.fallout4,
+                  settingsConfig: fallout4Config
+                }
+              }
+            });
+            return;
         }
       }}
     />

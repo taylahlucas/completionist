@@ -17,7 +17,7 @@ export interface CollectableMainDropdownProps {
 }
 
 const CollectableMainDropdown = ({ category, completed, total }: CollectableMainDropdownProps) => {
-  const { showSearchResults, selectedGame } = useMainState();
+  const { showSearchResults, selectedGame, userSettings } = useMainState();
   const [isOpen, setIsOpen] = useState<boolean>(false);
   const { getCollectableSubCategories } = useGetCollectableCategories();
   const { getCollectablesForSubCategory, getCollectablesForCategory } = useGetCollectables();
@@ -28,6 +28,7 @@ const CollectableMainDropdown = ({ category, completed, total }: CollectableMain
     <Dropdown
       isOpen={isOpen || showSearchResults}
       setOpen={() => setIsOpen(!isOpen)}
+      enabled={userSettings?.find(settings => settings.category === category && settings.section === "Collectables")?.isActive ?? false}
       header={
         <ListHeader title={category} completed={completed} total={total} />
       }

@@ -14,7 +14,20 @@ interface GetUserGameDataReturnType {
 const useGetUserGameData = (): GetUserGameDataReturnType => {
   const { user, selectedGame, selectedGameSettings } = useMainState();
 
+  const getDataForSelectedGame = () => {
+    switch (selectedGame) {
+      case SubscriptionTypeEnum.SKYRIM:
+        return user.data?.skyrim;
+      case SubscriptionTypeEnum.FALLOUT_4:
+        return user.data?.fallout4;
+      default:
+        return;
+    }
+  };
+
   const getUserQuests = (): Item[] => {
+    // TODO: Refactor all functions to use getDataForSelectedGame;
+    // const data = getDataForSelectedGame();
     switch (selectedGame) {
       case SubscriptionTypeEnum.SKYRIM:
         return user.data?.skyrim?.quests;
@@ -61,9 +74,9 @@ const useGetUserGameData = (): GetUserGameDataReturnType => {
   const getUserSettingsMainConfig = (): SettingsConfigItem[] => {
     switch (selectedGameSettings) {
       case SubscriptionTypeEnum.SKYRIM:
-        return user.data.skyrim.settingsConfig.filter(item => item.category === "");
+        return user.data.skyrim?.settingsConfig.filter(item => item.category === "");
       case SubscriptionTypeEnum.FALLOUT_4:
-        return user.data.fallout4.settingsConfig.filter(item => item.category === "");
+        return user.data.fallout4?.settingsConfig.filter(item => item.category === "");
       default:
         return [];
     }
@@ -72,9 +85,9 @@ const useGetUserGameData = (): GetUserGameDataReturnType => {
   const getUserSettingsSubConfig = (section: string): SettingsConfigItem[] => {
     switch (selectedGameSettings) {
       case SubscriptionTypeEnum.SKYRIM:
-        return user.data.skyrim.settingsConfig.filter(item => item.section === section && item.category !== "");
+        return user.data.skyrim?.settingsConfig.filter(item => item.section === section && item.category !== "");
       case SubscriptionTypeEnum.FALLOUT_4:
-        return user.data.fallout4.settingsConfig.filter(item => item.section === section && item.category !== "");
+        return user.data.fallout4?.settingsConfig.filter(item => item.section === section && item.category !== "");
       default:
         return [];
     }

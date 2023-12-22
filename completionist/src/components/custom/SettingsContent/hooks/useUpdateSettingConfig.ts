@@ -8,7 +8,7 @@ const useUpdateSettingsConfig = () => {
           return {
             section: configItem.section,
             category: configItem.category,
-            isActive: !item.isActive
+            isActive: !configItem.isActive
           }
         }
         else {
@@ -17,13 +17,22 @@ const useUpdateSettingsConfig = () => {
       })
     }
     else {
+      // TODO: Fix bug where section is active, disabled some sub sections, then enable section again
       return config.map(configItem => {
-        return (configItem.section === item.section && configItem.category === item.category)
-        ? {
-          ...item,
-          isActive: !item.isActive
+        if (item.section === configItem.section && configItem.category === "") {
+          return {
+            ...configItem,
+            isActive: true
+          }
         }
-        : configItem;
+        else {
+          return (configItem.section === item.section && configItem.category === item.category)
+            ? {
+              ...item,
+              isActive: !item.isActive
+            }
+            : configItem;
+        }
       });
     }
   }

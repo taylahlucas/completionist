@@ -24,11 +24,16 @@ export const NavigationHeaderContainer = styled.View`
   padding-bottom: 16px;
 `;
 
-export const NavigationHeaderTitleContainer = styled.Pressable`
+interface NavigationHeaderTitleContainerProps {
+  disabled: boolean;
+}
+
+export const NavigationHeaderTitleContainer = styled.Pressable<NavigationHeaderTitleContainerProps>`
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   padding-right: 16px;
+  opacity: ${(props): number => props.disabled ? 0.5 : 1}
 `;
 
 export const NavigationHeaderSubTitle = styled(StyledText)`

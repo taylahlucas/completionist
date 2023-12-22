@@ -19,12 +19,11 @@ const useInitSettingsConfig = () => {
     { game: SubscriptionTypeEnum.SKYRIM, config: user.data?.skyrim.settingsConfig },
     { game: SubscriptionTypeEnum.FALLOUT_4, config: user.data?.fallout4.settingsConfig },
   ];
-  // TODO: Test if this works ith a new config
+  // TODO: Test if this works with new config
   const { saveUserData } = useSaveUserData();
 
   useEffect(() => {
     settingsData.map((settings) => {
-      // If settings config does not exist
       if (settings.config.length === 0) {
         const configs: SettingsConfigItem[] = [];
         
@@ -43,7 +42,7 @@ const useInitSettingsConfig = () => {
             case 'Collectables':
               categories = getCollectableCategories(settings.game);
               break;
-            case 'Location':
+            case 'Locations':
               categories = getLocationDLC(settings.game);
               break;
             case 'Miscellaneous':

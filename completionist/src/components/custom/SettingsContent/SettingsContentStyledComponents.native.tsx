@@ -9,12 +9,9 @@ interface SettingsContentMainItemProps {
 }
 
 export const style = StyleSheet.create({
-  scrollView: {
-    width: Dimensions.get('window').width - 64,
-    height: 160
-  },
   scrollContent: {
-    width: Dimensions.get('window').width - 64
+    width: Dimensions.get('window').width - 64,
+    paddingBottom: 16
   }
 });
 

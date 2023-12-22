@@ -25,6 +25,7 @@ const NavigationDrawerBody: React.FunctionComponent = () => {
       {drawerItems.map(item => (
         <NavigationHeaderTitleContainer
           key={item.id}
+          disabled={!item.isEnabled}
           onPress={(): void => {
             navigation.navigate(item.id)
             reset();

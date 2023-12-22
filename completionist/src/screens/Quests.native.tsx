@@ -11,14 +11,14 @@ import useMainState from '@redux/hooks/useMainState';
 const Quests = () => {
   const { selectedGame } = useMainState();
   const { getUserQuests } = useGetUserGameData();
-  const { mapDataToQuests } = useGetGameData();
+  const { mapDataToFilteredQuests } = useGetGameData();
 
   return (
     <StandardLayout>
       <NavigationHeader title={'Quests'} />
       <CustomSearchBar />
       <CompletedQuantityTitle type={'ListItemTitleBold'}>
-        {`${getUserQuests().length}/${mapDataToQuests(selectedGame).length}`}
+        {`${getUserQuests().length}/${mapDataToFilteredQuests(selectedGame).length}`}
       </CompletedQuantityTitle>
       <QuestList />
     </StandardLayout>

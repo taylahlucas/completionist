@@ -7,6 +7,7 @@ import useMainDispatch from '@redux/hooks/useMainDispatch';
 import useMainState from '@redux/hooks/useMainState';
 import useCheckQuestComplete from './hooks/useCheckQuestComplete';
 import useGetQuestCategories from './hooks/useGetQuestCategories';
+import useCheckSectionEnabled from '@navigation/hooks/useCheckSectionEnabled.native';
 
 const QuestList = () => {
   const { triggerShowSearchResults } = useMainDispatch();
@@ -14,7 +15,9 @@ const QuestList = () => {
   const { getQuestsForCategory, getAllQuestsForCategory } = useGetQuests();
   const { getQuestCategories } = useGetQuestCategories();
   const { checkQuestsCompleteForCategory } = useCheckQuestComplete();
+  const { checkIsSectionEnabled } = useCheckSectionEnabled();
 
+  // TODO: Move to custom hook
   useEffect(() => {
     triggerShowSearchResults(searchValue.length >= 3);
   }, [searchValue])
@@ -24,9 +27,9 @@ const QuestList = () => {
       {getQuestCategories(selectedGame).map((category: string, index: number) => {
         const allQuestsForCategory = getAllQuestsForCategory(category);
         const completedQuests = checkQuestsCompleteForCategory(allQuestsForCategory);
-
+        
         return (
-          <Condition key={index} condition={getQuestsForCategory(category).length > 0}>
+          <Condition key={index} condition={getQuestsForCategory(category).length > 0 || !checkIsSectionEnabled(category)}>
             <QuestMainDropdown
               key={index} 
               category={category}

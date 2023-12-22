@@ -17,8 +17,8 @@ const useGetQuests = (): GetQuestReturnType => {
   const { setCompletedQuests } = useMainDispatch();
   const { searchValue, selectedGame } = useMainState();
   const { getUserQuests } = useGetUserGameData();
-  const { mapDataToQuests } = useGetGameData();
-  const quests = mapDataToQuests(selectedGame);
+  const { mapDataToQuests, mapDataToFilteredQuests } = useGetGameData();
+  const quests = mapDataToFilteredQuests(selectedGame);
   const getFormattedSearchString = useSearchStringFormatter();
   const filteredQuests = quests.filter(quest => getFormattedSearchString(quest.title).includes(getFormattedSearchString(searchValue)));
 
@@ -35,7 +35,7 @@ const useGetQuests = (): GetQuestReturnType => {
   }
 
   const getAllQuestsForCategory = (mainCategory: string): Quest[] => {
-    return quests.filter(quest => quest.mainCategory === mainCategory);
+    return mapDataToQuests(selectedGame).filter(quest => quest.mainCategory === mainCategory);
   }
 
   const updateQuestItemsComplete = (questId: string) => {

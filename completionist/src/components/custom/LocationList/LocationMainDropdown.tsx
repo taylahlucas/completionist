@@ -17,7 +17,7 @@ export interface LocationMainDropdownProps {
 }
 
 const LocationMainDropdown = ({ dlc, completed, total }: LocationMainDropdownProps) => {
-  const { showSearchResults, selectedGame } = useMainState();
+  const { showSearchResults, selectedGame, userSettings } = useMainState();
   const [isOpen, setIsOpen] = useState<boolean>(false);
   const { getLocationHoldsInDLC } = useGetLocationCategories();
   const { checkLocationsCompleteForHoldsInDLC } = useCheckLocationComplete();
@@ -28,6 +28,7 @@ const LocationMainDropdown = ({ dlc, completed, total }: LocationMainDropdownPro
     <Dropdown
       isOpen={isOpen || showSearchResults}
       setOpen={() => setIsOpen(!isOpen)}
+      enabled={userSettings?.find(settings => settings.category === dlc && settings.section === "Locations")?.isActive ?? false}
       header={
         <ListHeader title={dlc === 'None' ? 'Main' : dlc} completed={completed} total={total} />
       }
@@ -36,8 +37,7 @@ const LocationMainDropdown = ({ dlc, completed, total }: LocationMainDropdownPro
         {holdsInDLC.map((hold: string, index: number) => {
           const locationsForHold = getLocationsForHoldInDLC(dlc, hold);
           const completedLocations = checkLocationsCompleteForHoldsInDLC(locationsForHold, hold);
-
-          // TODO: MainListItem for when there is no hold
+          
           return (
             <Condition key={index} condition={locationsForHold.length > 0}>
               <LocationSubDropdown

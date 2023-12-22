@@ -92,6 +92,14 @@ const slice = createSlice({
     },
     setUser: (state, action) => {
       state.user = action.payload;
+      switch (state.selectedGame) {
+        case SubscriptionTypeEnum.SKYRIM:
+          state.userSettings = state.user.data.skyrim.settingsConfig;
+          break;
+        case SubscriptionTypeEnum.FALLOUT_4:
+          state.userSettings = state.user.data.fallout4.settingsConfig;
+          break;
+      }
     },
     setSearchValue: (state, action) => {
       state.searchValue = action.payload;
@@ -139,16 +147,6 @@ const slice = createSlice({
           break;
       }
     },
-    setSettingsConfig: (state, action) => {
-      switch (state.selectedGameSettings) {
-        case SubscriptionTypeEnum.SKYRIM:
-          state.user.data.skyrim.settingsConfig = action.payload;
-          break;
-        case SubscriptionTypeEnum.FALLOUT_4:
-          state.user.data.fallout4.settingsConfig = action.payload;
-          break;
-      }
-    },
     reset: (state) => {
       state.searchValue = initialState.searchValue;
       state.showSearchResults = initialState.showSearchResults;
@@ -170,7 +168,6 @@ export const {
   setCompletedCollectables,
   setCompletedMiscItems,
   setCompletedLocations,
-  setSettingsConfig,
   reset
 } = slice.actions;
 

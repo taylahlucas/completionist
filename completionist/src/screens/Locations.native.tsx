@@ -11,13 +11,14 @@ import useMainState from '@redux/hooks/useMainState';
 const Locations = () => {
   const { selectedGame } = useMainState();
   const { getUserLocations } = useGetUserGameData();
-  const { mapDataToLocations } = useGetGameData();
-  
+  const { mapDataToFilteredLocations } = useGetGameData();
+
+  // TODO: Fix amounts filtering
   return (
     <StandardLayout>
       <NavigationHeader title={'Locations'} />
       <CustomSearchBar />
-      <CompletedQuantityTitle type={'ListItemTitleBold'}>{`${getUserLocations().length}/${mapDataToLocations(selectedGame).length}`}</CompletedQuantityTitle>
+      <CompletedQuantityTitle type={'ListItemTitleBold'}>{`${getUserLocations().length}/${mapDataToFilteredLocations(selectedGame).length}`}</CompletedQuantityTitle>
       <LocationList />
     </StandardLayout>
   );
