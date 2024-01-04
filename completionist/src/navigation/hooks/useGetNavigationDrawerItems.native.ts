@@ -12,7 +12,7 @@ interface NavigationDrawerItem {
 }
 
 const useGetNavigationDrawerItems = (): NavigationDrawerItem[] => {
-  const { user, selectedGame } = useMainState();
+  const { selectedGame } = useMainState();
   const { getUserQuests, getUserCollectables, getUserLocations, getUserMiscItems } = useGetUserGameData();
   const {
     mapDataToFilteredQuests, 
@@ -21,7 +21,7 @@ const useGetNavigationDrawerItems = (): NavigationDrawerItem[] => {
     mapDataToFilteredMiscItems 
   } = useGetGameData();
   const { checkIsSectionEnabled } = useCheckSectionEnabled();
-  
+
   return ([
     {
       id: ScreenEnum.Quests,

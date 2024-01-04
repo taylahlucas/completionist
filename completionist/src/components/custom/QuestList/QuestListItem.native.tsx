@@ -6,7 +6,6 @@ import useGetLocationString from './hooks/useGetLocationString';
 import CheckBox from '@components/general/Checkbox/CheckBox.native';
 import { QuestListItemContainer, QuestListItemLocationContainer, QuestListItemTitle, QuestListItemContentContainer } from './QuestListStyledComponents.native';
 import useGetQuests from './hooks/useGetQuests';
-import useMainState from '@redux/hooks/useMainState';
 
 interface QuestListItemProps {
   id: string;

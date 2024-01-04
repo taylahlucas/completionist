@@ -42,7 +42,7 @@ const CollectableMainDropdown = ({ category, completed, total }: CollectableMain
             <Condition key={index} condition={collectablesForCategory.length > 0}>
               <CollectableSubDropdown 
                 key={index} 
-                mainType={category} 
+                mainCategory={category} 
                 subType={subCategory}
                 completed={completedCollectables.toString()}
                 total={collectablesForCategory.length.toString()}
@@ -51,7 +51,7 @@ const CollectableMainDropdown = ({ category, completed, total }: CollectableMain
           )
         })}
         <Condition condition={subCategories.length === 0 && getCollectablesForCategory(category).length > 0}>
-          <CollectableMainList mainType={category} />
+          <CollectableMainList mainCategory={category} />
         </Condition>
       </CollectableSubDropdownContainer>
     </Dropdown>

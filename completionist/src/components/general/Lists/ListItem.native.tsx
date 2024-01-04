@@ -14,7 +14,7 @@ const ListItem = ({ name, isComplete = false, action }: ListItemProps) => {
   const theme = useGetTheme();
 
   return (
-    <ListItemContainer color={isComplete ? theme.darkGrey : theme.midGrey}>
+    <ListItemContainer color={theme.darkGrey}>
       <ListItemTitle
         align={'left'}
         type={'ListItemSubTitle'} 

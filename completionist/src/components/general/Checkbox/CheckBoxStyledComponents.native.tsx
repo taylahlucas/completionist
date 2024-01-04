@@ -8,6 +8,5 @@ export const StyledCheckBox = styled.Pressable`
 export const StyledAnimation = styled(LottieView)`
   width: 36px;
   height: 36px;
-  right: 3px;
-  flex: 1;
+  left: 3px;
 `;

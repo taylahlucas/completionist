@@ -24,7 +24,7 @@ export default StyleSheet.create({
     fontSize: 17,
     letterSpacing: 0.37,
     lineHeight: 22,
-    fontWeight: BOLD,
+    fontWeight: BOLD
   },
   ListItemSubTitleItalic: {
     fontFamily: AVENIR_LIGHT,

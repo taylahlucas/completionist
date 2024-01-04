@@ -23,7 +23,7 @@ export const QuestListItemContainer = styled.View<QuestListItemStyleProps>`
   align-items: center;
   justify-content: space-between;
   height: 50px;
-  width: ${() => Dimensions.get('window').width - 50}px;
+  width: ${() => Dimensions.get('window').width - 32}px;
   background-color: ${props => props.color};
 `;
 

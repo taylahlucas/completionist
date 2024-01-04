@@ -1,5 +1,5 @@
 import React from 'react';
-import { Dimensions, View } from 'react-native';
+import { Dimensions, View, LayoutAnimation } from 'react-native';
 import Condition from '../Condition.native';
 import { DropdownPressable } from './DropdownStyledComponents.native';
 
@@ -7,17 +7,22 @@ interface DropdownProps {
   header: any;
   children: any;
   isOpen: boolean;
-  setOpen: () => void;
+  setOpen: (value: boolean) => void;
   enabled?: boolean;
 }
 
 const Dropdown = ({ header, children, isOpen, setOpen, enabled = true }: DropdownProps) => {
+  const toggleOpen = () => {
+    setOpen(!isOpen);
+    LayoutAnimation.configureNext(LayoutAnimation.Presets.easeInEaseOut);
+  }
+
   return (
     <View style={{ minWidth: Dimensions.get('window').width - 32, marginTop: 4, marginBottom: 4 }}>
       <DropdownPressable 
         enabled={enabled}
         disabled={!enabled}
-        onPress={setOpen}
+        onPress={toggleOpen}
       >
         {header}
       </DropdownPressable>

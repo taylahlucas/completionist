@@ -16,15 +16,18 @@ const CheckBox = ({ isToggled, action }: CheckBoxProps) => {
   const animationRef = useRef<LottieView>(null);
 
   useEffect(() => {
-    if (isToggled) {
-      if (animationRef.current) {
-        animationRef.current.play();
-      }
+    if (animationRef.current && isToggled) {
+      animationRef.current.play();
     }
   }, [isToggled])
 
   return (
-    <StyledCheckBox onPress={action}>
+    <StyledCheckBox onPress={() => {
+      if (animationRef.current && isToggled) {
+        animationRef.current.play();
+      }
+      action();
+    }}>
       <Condition 
         condition={isToggled}
         conditionalElement={
