@@ -23,7 +23,6 @@ module.exports = {
         alias: {
           '@components': path.resolve(__dirname, 'src/components/'),
           '@data': path.resolve(__dirname, 'src/data/'),
-          '@graphql': path.resolve(__dirname, 'src/graphql/'),
           '@redux': path.resolve(__dirname, 'src/redux/'),
           '@navigation': path.resolve(__dirname, 'src/navigation/'),
           '@screens': path.resolve(__dirname, 'src/screens/'),

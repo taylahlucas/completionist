@@ -83,12 +83,15 @@ const useCache = (): CacheReturnType => {
   };
 
   const clearCache = async (): Promise<void> => {
-    try {
-      await AsyncStorage.clear();
-      console.log('Cache cleared successfully');
-    } catch (error) {
-      console.error('Could not clear cache');
-      return;
+    const cachedData = await getFromCache();
+    if (!!cachedData) {
+      try {
+        await AsyncStorage.clear();
+        console.log('Cache cleared successfully');
+      } catch (error) {
+        console.error('Could not clear cache');
+        return;
+      }
     }
   };
 

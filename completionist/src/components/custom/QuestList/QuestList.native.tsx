@@ -29,7 +29,7 @@ const QuestList = () => {
         const completedQuests = checkQuestsCompleteForCategory(allQuestsForCategory);
         
         return (
-          <Condition key={index} condition={getQuestsForCategory(category).length > 0 || !checkIsSectionEnabled(category)}>
+          <Condition key={index} condition={getQuestsForCategory(category).length > 0 && !checkIsSectionEnabled(category)}>
             <QuestMainDropdown
               key={index} 
               category={category}

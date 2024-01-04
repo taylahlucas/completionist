@@ -7,7 +7,6 @@
     "paths": {
       "@components/*": ["src/components/*"],
       "@data/*": ["src/data/*"],
-      "@graphql/*": ["src/graphql/*"],
       "@redux/*": ["src/redux/*"],
       "@navigation/*": ["src/navigation/*"],
       "@screens/*": ["src/screens/*"],

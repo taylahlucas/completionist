@@ -15,6 +15,15 @@ export const style = StyleSheet.create({
   }
 });
 
+export const SettingsContentContainer = styled.View`
+  margin-top: 32px;
+`;
+
+export const SettingsContentDescription = styled(StyledText)`
+  margin-left: 8px;
+  padding: 8px;
+`;
+
 export const SettingsContentDropdownContainer = styled.View`
   width: ${Dimensions.get('window').width - 64}px;
   position: absolute;

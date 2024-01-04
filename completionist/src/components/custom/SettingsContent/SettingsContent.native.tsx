@@ -1,5 +1,5 @@
 import React from 'react';
-import { View } from 'react-native';
+import { SettingsContentContainer, SettingsContentDescription } from './SettingsContentStyledComponents.native';
 import StyledText from '@components/general/Text/StyledText.native';
 import SettingsContentCollectionList from './SettingsContentCollectionList.native';
 import SettingsContentSelectionDropdown from './SettingsContentSelectionDropdown.native';
@@ -7,11 +7,16 @@ import SettingsContentSelectionDropdown from './SettingsContentSelectionDropdown
 const SettingsContent = () => {
   // TODO: Add button to enable/disable DLC
   return (
-    <View style={{ marginTop: 32 }}>
-      <StyledText style={{ marginLeft: 8, padding: 8 }} type={'ListItemSubTitle'} align={'left'}>Set collections:</StyledText>
+    <SettingsContentContainer>
+      <SettingsContentDescription 
+        type={'ListItemSubTitle'} 
+        align={'left'}
+      >
+        Set collections:
+      </SettingsContentDescription>
       <SettingsContentSelectionDropdown />
       <SettingsContentCollectionList />
-    </View>
+    </SettingsContentContainer>
   );
 };
 
