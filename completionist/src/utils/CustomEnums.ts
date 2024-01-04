@@ -9,6 +9,7 @@ export enum ScreenEnum {
   Collectables = 'Collectables',
   Miscellaneous = 'Miscellaneous',
   Locations = 'Locations',
+  RequestGame = 'RequestGame',
   Settings = 'Settings'
 }
 

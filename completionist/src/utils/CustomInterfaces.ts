@@ -74,6 +74,7 @@ export type RootDrawerParamList = {
   Collectables: undefined;
   Miscellaneous: undefined;
   Locations: undefined;
+  RequestGame: undefined;
   Settings: undefined;
 };
 

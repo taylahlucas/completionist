@@ -16,6 +16,7 @@ import Signup from '@screens/Signup.native';
 import useMainState from '@redux/hooks/useMainState';
 import Settings from '@screens/Settings.native';
 import Condition from '@components/general/Condition.native';
+import RequestGame from '@screens/RequestGame.native';
 
 const Drawer = createDrawerNavigator<RootDrawerParamList>();
 
@@ -51,6 +52,7 @@ const NavigationDrawer = () => {
       <Drawer.Screen name={ScreenEnum.Collectables} component={Collectables} />
       <Drawer.Screen name={ScreenEnum.Miscellaneous} component={Miscellaneous} />
       <Drawer.Screen name={ScreenEnum.Locations} component={Locations} />
+      <Drawer.Screen name={ScreenEnum.RequestGame} component={RequestGame} />
       <Drawer.Screen name={ScreenEnum.Settings} component={Settings} />
     </Drawer.Navigator>
   );
