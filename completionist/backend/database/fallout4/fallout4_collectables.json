@@ -1,7 +1,7 @@
 [
   {
     "id": "1a3b45c6-7d89-012e-fgh2-345678i9j05o",
-    "type": "Bobbleheads",
+    "mainCategory": "Bobbleheads",
     "name": "Agility Bobblehead",
     "subType": "",
     "prerequisite": "",
@@ -9,7 +9,7 @@
   },
   {
     "id": "2a3b45c6-7d89-012e-fgh2-345678i9j05o",
-    "type": "Bobbleheads",
+    "mainCategory": "Bobbleheads",
     "name": "Barter Bobblehead",
     "subType": "",
     "prerequisite": "",
@@ -17,7 +17,7 @@
   },
   {
     "id": "3a3b45c6-7d89-012e-fgh2-345678i9j05o",
-    "type": "Bobbleheads",
+    "mainCategory": "Bobbleheads",
     "name": "Big guns Bobblehead",
     "subType": "",
     "prerequisite": "",
@@ -25,7 +25,7 @@
   },
   {
     "id": "4a3b45c6-7d89-012e-fgh2-345678i9j05o",
-    "type": "Bobbleheads",
+    "mainCategory": "Bobbleheads",
     "name": "Charisma Bobblehead",
     "subType": "",
     "prerequisite": "",
@@ -33,7 +33,7 @@
   },
   {
     "id": "5a3b45c6-7d89-012e-fgh2-345678i9j05o",
-    "type": "Bobbleheads",
+    "mainCategory": "Bobbleheads",
     "name": "Endurance Bobblehead",
     "subType": "",
     "prerequisite": "",
@@ -41,7 +41,7 @@
   },
   {
     "id": "6a3b45c6-7d89-012e-fgh2-345678i9j05o",
-    "type": "Bobbleheads",
+    "mainCategory": "Bobbleheads",
     "name": "Energy weapons Bobblehead",
     "subType": "",
     "prerequisite": "",
@@ -49,7 +49,7 @@
   },
   {
     "id": "7a3b45c6-7d89-012e-fgh2-345678i9j05o",
-    "type": "Bobbleheads",
+    "mainCategory": "Bobbleheads",
     "name": "Explosives Bobblehead",
     "subType": "",
     "prerequisite": "",
@@ -57,7 +57,7 @@
   },
   {
     "id": "8a3b45c6-7d89-012e-fgh2-345678i9j05o",
-    "type": "Bobbleheads",
+    "mainCategory": "Bobbleheads",
     "name": "Intelligence Bobblehead",
     "subType": "",
     "prerequisite": "",
@@ -65,7 +65,7 @@
   },
   {
     "id": "9a3b45c6-7d89-012e-fgh2-345678i9j05o",
-    "type": "Bobbleheads",
+    "mainCategory": "Bobbleheads",
     "name": "Lock picking Bobblehead",
     "subType": "",
     "prerequisite": "",
@@ -73,7 +73,7 @@
   },
   {
     "id": "10a3b45c6-7d89-012e-fgh2-345678i9j05o",
-    "type": "Bobbleheads",
+    "mainCategory": "Bobbleheads",
     "name": "Luck Bobblehead",
     "subType": "",
     "prerequisite": "",
@@ -81,7 +81,7 @@
   },
   {
     "id": "11a3b45c6-7d89-012e-fgh2-345678i9j05o",
-    "type": "Bobbleheads",
+    "mainCategory": "Bobbleheads",
     "name": "Medicine Bobblehead",
     "subType": "",
     "prerequisite": "",
@@ -89,7 +89,7 @@
   },
   {
     "id": "12a3b45c6-7d89-012e-fgh2-345678i9j05o",
-    "type": "Bobbleheads",
+    "mainCategory": "Bobbleheads",
     "name": "Melee Bobblehead",
     "subType": "",
     "prerequisite": "",
@@ -97,7 +97,7 @@
   },
   {
     "id": "13a3b45c6-7d89-012e-fgh2-345678i9j05o",
-    "type": "Bobbleheads",
+    "mainCategory": "Bobbleheads",
     "name": "Perception Bobblehead",
     "subType": "",
     "prerequisite": "",
@@ -105,7 +105,7 @@
   },
   {
     "id": "14a3b45c6-7d89-012e-fgh2-345678i9j05o",
-    "type": "Bobbleheads",
+    "mainCategory": "Bobbleheads",
     "name": "Repair Bobblehead",
     "subType": "",
     "prerequisite": "",
@@ -113,7 +113,7 @@
   },
   {
     "id": "15a3b45c6-7d89-012e-fgh2-345678i9j05o",
-    "type": "Bobbleheads",
+    "mainCategory": "Bobbleheads",
     "name": "Science Bobblehead",
     "subType": "",
     "prerequisite": "",
@@ -121,7 +121,7 @@
   },
   {
     "id": "16a3b45c6-7d89-012e-fgh2-345678i9j05o",
-    "type": "Bobbleheads",
+    "mainCategory": "Bobbleheads",
     "name": "Small Guns Bobblehead",
     "subType": "",
     "prerequisite": "",
@@ -129,7 +129,7 @@
   },
   {
     "id": "17a3b45c6-7d89-012e-fgh2-345678i9j05o",
-    "type": "Bobbleheads",
+    "mainCategory": "Bobbleheads",
     "name": "Sneak Bobblehead",
     "subType": "",
     "prerequisite": "",
@@ -137,7 +137,7 @@
   },
   {
     "id": "18a3b45c6-7d89-012e-fgh2-345678i9j05o",
-    "type": "Bobbleheads",
+    "mainCategory": "Bobbleheads",
     "name": "Speech Bobblehead",
     "subType": "",
     "prerequisite": "",
@@ -145,7 +145,7 @@
   },
   {
     "id": "19a3b45c6-7d89-012e-fgh2-345678i9j05o",
-    "type": "Bobbleheads",
+    "mainCategory": "Bobbleheads",
     "name": "Strength Bobblehead",
     "subType": "",
     "prerequisite": "",
@@ -153,7 +153,7 @@
   },
   {
     "id": "20a3b45c6-7d89-012e-fgh2-345678i9j05o",
-    "type": "Bobbleheads",
+    "mainCategory": "Bobbleheads",
     "name": "Unarmed Bobblehead",
     "subType": "",
     "prerequisite": "",
@@ -161,7 +161,7 @@
   },
   {
     "id": "1a3b45c6-7d89-012e-fgh2-345678i9j06p",
-    "type": "Magazines",
+    "mainCategory": "Magazines",
     "subType": "Perk Magazines",
     "name": "Astoundingly Awesome Tales",
     "prerequisite": "",
@@ -169,7 +169,7 @@
   },
   {
     "id": "2a3b45c6-7d89-012e-fgh2-345678i9j06p",
-    "type": "Magazines",
+    "mainCategory": "Magazines",
     "subType": "Perk Magazines",
     "name": "Grognak the Barbarian",
     "prerequisite": "",
@@ -177,7 +177,7 @@
   },
   {
     "id": "3a3b45c6-7d89-012e-fgh2-345678i9j06p",
-    "type": "Magazines",
+    "mainCategory": "Magazines",
     "subType": "Perk Magazines",
     "name": "Guns and Bullets",
     "prerequisite": "",
@@ -185,7 +185,7 @@
   },
   {
     "id": "4a3b45c6-7d89-012e-fgh2-345678i9j06p",
-    "type": "Magazines",
+    "mainCategory": "Magazines",
     "subType": "Perk Magazines",
     "name": "Live & Love",
     "prerequisite": "",
@@ -193,7 +193,7 @@
   },
   {
     "id": "5a3b45c6-7d89-012e-fgh2-345678i9j06p",
-    "type": "Magazines",
+    "mainCategory": "Magazines",
     "subType": "Perk Magazines",
     "name": "Massachusetts Surgical Journal",
     "prerequisite": "",
@@ -201,7 +201,7 @@
   },
   {
     "id": "6a3b45c6-7d89-012e-fgh2-345678i9j06p",
-    "type": "Magazines",
+    "mainCategory": "Magazines",
     "subType": "Perk Magazines",
     "name": "Tales of a Junktown Jerky Vendor",
     "prerequisite": "",
@@ -209,7 +209,7 @@
   },
   {
     "id": "7a3b45c6-7d89-012e-fgh2-345678i9j06p",
-    "type": "Magazines",
+    "mainCategory": "Magazines",
     "subType": "Perk Magazines",
     "name": "Tesla Science Magazine",
     "prerequisite": "",
@@ -217,7 +217,7 @@
   },
   {
     "id": "8a3b45c6-7d89-012e-fgh2-345678i9j06p",
-    "type": "Magazines",
+    "mainCategory": "Magazines",
     "subType": "Perk Magazines",
     "name": "Tumblers Today",
     "prerequisite": "",
@@ -225,7 +225,7 @@
   },
   {
     "id": "9a3b45c6-7d89-012e-fgh2-345678i9j06p",
-    "type": "Magazines",
+    "mainCategory": "Magazines",
     "subType": "Perk Magazines",
     "name": "U.S. Covert Operations",
     "prerequisite": "",
@@ -233,7 +233,7 @@
   },
   {
     "id": "10a3b45c6-7d89-012e-fgh2-345678i9j06p",
-    "type": "Magazines",
+    "mainCategory": "Magazines",
     "subType": "Perk Magazines",
     "name": "Unstoppables",
     "prerequisite": "",
@@ -241,7 +241,7 @@
   },
   {
     "id": "11a3b45c6-7d89-012e-fgh2-345678i9j06p",
-    "type": "Magazines",
+    "mainCategory": "Magazines",
     "subType": "Perk Magazines",
     "name": "Wasteland Survival Guide",
     "prerequisite": "",
@@ -249,7 +249,7 @@
   },
   {
     "id": "11a3b45c6-7d89-022e-fgh2-345678i9j06p",
-    "type": "Magazines",
+    "mainCategory": "Magazines",
     "subType": "Perk Magazines",
     "name": "Islander's Almanac",
     "prerequisite": "",
@@ -257,7 +257,7 @@
   },
   {
     "id": "11a3b45c6-7d89-012e-fgh2-34567859j06p",
-    "type": "Magazines",
+    "mainCategory": "Magazines",
     "subType": "Perk Magazines",
     "name": "SCAV!",
     "prerequisite": "",
@@ -265,7 +265,7 @@
   },
   {
     "id": "1a3b45c6-7d89-012e-fgh2-345678i9j07q",
-    "type": "Magazines",
+    "mainCategory": "Magazines",
     "subType": "Miscellaneous Magazines",
     "name": "Hot Rodder",
     "prerequisite": "",
@@ -273,7 +273,7 @@
   },
   {
     "id": "2a3b45c6-7d89-012e-fgh2-345678i9j07q",
-    "type": "Magazines",
+    "mainCategory": "Magazines",
     "subType": "Miscellaneous Magazines",
     "name": "La Coiffe",
     "prerequisite": "",
@@ -281,7 +281,7 @@
   },
   {
     "id": "3a3b45c6-7d89-012e-fgh2-345678i9j07q",
-    "type": "Magazines",
+    "mainCategory": "Magazines",
     "subType": "Miscellaneous Magazines",
     "name": "Picket Fences",
     "prerequisite": "",
@@ -289,7 +289,7 @@
   },
   {
     "id": "4a3b45c6-7d89-012e-fgh2-345678i9j07q",
-    "type": "Magazines",
+    "mainCategory": "Magazines",
     "subType": "Miscellaneous Magazines",
     "name": "RobCo",
     "prerequisite": "",
@@ -297,7 +297,7 @@
   },
   {
     "id": "5a3b45c6-7d89-012e-fgh2-345678i9j07q",
-    "type": "Magazines",
+    "mainCategory": "Magazines",
     "subType": "Miscellaneous Magazines",
     "name": "Taboo Tattoos",
     "prerequisite": "",
@@ -305,7 +305,7 @@
   },
   {
     "id": "6a3b45c6-7d89-012e-fgh2-345678i9j07q",
-    "type": "Magazines",
+    "mainCategory": "Magazines",
     "subType": "Miscellaneous Magazines",
     "name": "Total Hack",
     "prerequisite": "",
@@ -313,7 +313,7 @@
   },
   {
     "id": "7a3b45c6-7d89-012e-fgh2-345678i9j07q",
-    "type": "Magazines",
+    "mainCategory": "Magazines",
     "subType": "Miscellaneous Magazines",
     "name": "You're SPECIAL!",
     "prerequisite": "",
@@ -321,7 +321,7 @@
   },
   {
     "id": "733b45c6-7d89-012e-fgh2-345678i9j07q",
-    "type": "Magazines",
+    "mainCategory": "Magazines",
     "subType": "Miscellaneous Magazines",
     "name": "Slocum's Joe Franchise Kit",
     "prerequisite": "",
@@ -329,7 +329,7 @@
   },
   {
     "id": "65e8530c-91d7-4a7a-b3e0-7129d2069c5a",
-    "type": "Unique Weapons",
+    "mainCategory": "Unique Weapons",
     "subType": "Ballistic Weapons",
     "name": "Deliverer",
     "prerequisite": "",
@@ -337,7 +337,7 @@
   },
   {
     "id": "b3a7e8ef-dc4a-4d54-a14f-5f3efc2d23d3",
-    "type": "Unique Weapons",
+    "mainCategory": "Unique Weapons",
     "subType": "Ballistic Weapons",
     "name": "Eddie's Peace",
     "prerequisite": "",
@@ -345,7 +345,7 @@
   },
   {
     "id": "2e1e7aeb-5b43-4f2d-a8e6-02ea8fcfe0f4",
-    "type": "Unique Weapons",
+    "mainCategory": "Unique Weapons",
     "subType": "Ballistic Weapons",
     "name": "Flare Gun",
     "prerequisite": "",
@@ -353,7 +353,7 @@
   },
   {
     "id": "ea42b832-5a78-4c8d-9e7c-90772e0b097f",
-    "type": "Unique Weapons",
+    "mainCategory": "Unique Weapons",
     "subType": "Ballistic Weapons",
     "name": "The Gainer",
     "prerequisite": "",
@@ -361,7 +361,7 @@
   },
   {
     "id": "b5fc0758-267b-4d2a-a6eb-5378f0f0ee0f",
-    "type": "Unique Weapons",
+    "mainCategory": "Unique Weapons",
     "subType": "Ballistic Weapons",
     "name": "Justice",
     "prerequisite": "",
@@ -369,7 +369,7 @@
   },
   {
     "id": "ee432b0b-bd6e-4a3d-9078-366b6bfcc641",
-    "type": "Unique Weapons",
+    "mainCategory": "Unique Weapons",
     "subType": "Ballistic Weapons",
     "name": "Kellogg's Pistol",
     "prerequisite": "",
@@ -377,7 +377,7 @@
   },
   {
     "id": "46f523d4-bdaa-4a4e-8c47-ae832b422ecb",
-    "type": "Unique Weapons",
+    "mainCategory": "Unique Weapons",
     "subType": "Ballistic Weapons",
     "name": "The Last Minute",
     "prerequisite": "",
@@ -385,7 +385,7 @@
   },
   {
     "id": "c3d2c1d7-d1b3-4927-8f18-85a8bc11c568",
-    "type": "Unique Weapons",
+    "mainCategory": "Unique Weapons",
     "subType": "Ballistic Weapons",
     "name": "Le Fusil Terribles",
     "prerequisite": "",
@@ -393,7 +393,7 @@
   },
   {
     "id": "685292c8-7df2-46e6-9515-0c058c46cf3b",
-    "type": "Unique Weapons",
+    "mainCategory": "Unique Weapons",
     "subType": "Ballistic Weapons",
     "name": "Overseer's Guardian",
     "prerequisite": "",
@@ -401,7 +401,7 @@
   },
   {
     "id": "f8d50d42-39f8-4b8b-8c0f-d5683b66ee76",
-    "type": "Unique Weapons",
+    "mainCategory": "Unique Weapons",
     "subType": "Ballistic Weapons",
     "name": "Reba",
     "prerequisite": "",
@@ -409,7 +409,7 @@
   },
   {
     "id": "2e7dca91-02c3-4d37-baf5-5f32b0b43160",
-    "type": "Unique Weapons",
+    "mainCategory": "Unique Weapons",
     "subType": "Ballistic Weapons",
     "name": "Reba II",
     "prerequisite": "",
@@ -417,7 +417,7 @@
   },
   {
     "id": "81d12c95-e872-4ab1-b1cf-76f703c2344e",
-    "type": "Unique Weapons",
+    "mainCategory": "Unique Weapons",
     "subType": "Ballistic Weapons",
     "name": "Silver Submachine Gun",
     "prerequisite": "",
@@ -425,7 +425,7 @@
   },
   {
     "id": "38a67e46-084f-4b95-8b54-b2fe8755a2cb",
-    "type": "Unique Weapons",
+    "mainCategory": "Unique Weapons",
     "subType": "Ballistic Weapons",
     "name": "Spray n' Pray",
     "prerequisite": "",
@@ -433,7 +433,7 @@
   },
   {
     "id": "3b41bea4-b4a1-4e71-9977-0b2956c71ebf",
-    "type": "Unique Weapons",
+    "mainCategory": "Unique Weapons",
     "subType": "Ballistic Weapons",
     "name": "Tinker Tom Special",
     "prerequisite": "",
@@ -441,7 +441,7 @@
   },
   {
     "id": "e6f46a37-ebee-4dbd-82f3-14a1e64a7ad7",
-    "type": "Unique Weapons",
+    "mainCategory": "Unique Weapons",
     "subType": "Ballistic Weapons",
     "name": "Wastelander's Friend",
     "prerequisite": "",
@@ -449,7 +449,7 @@
   },
   {
     "id": "e36a0b0e-b78d-44a2-94ac-4eb5d5f19807",
-    "type": "Unique Weapons",
+    "mainCategory": "Unique Weapons",
     "subType": "Ballistic Weapons",
     "name": "Deliverer",
     "prerequisite": "",
@@ -457,7 +457,7 @@
   },
   {
     "id": "6b11e01c-74a5-4c8d-b8c8-319c5b398cc8",
-    "type": "Unique Weapons",
+    "mainCategory": "Unique Weapons",
     "subType": "Ballistic Weapons",
     "name": "Kiloton Radium Rifle",
     "prerequisite": "",
@@ -465,7 +465,7 @@
   },
   {
     "id": "bc70019b-bb8b-46f8-81bf-8810e5989d56",
-    "type": "Unique Weapons",
+    "mainCategory": "Unique Weapons",
     "subType": "Ballistic Weapons",
     "name": "Lucky Eddy",
     "prerequisite": "",
@@ -473,7 +473,7 @@
   },
   {
     "id": "c9f91e06-4c2d-44d1-bcb5-9f6de076adbd",
-    "type": "Unique Weapons",
+    "mainCategory": "Unique Weapons",
     "subType": "Ballistic Weapons",
     "name": "Old Reliable",
     "prerequisite": "",
@@ -481,7 +481,7 @@
   },
   {
     "id": "5cb16719-0e06-4b1f-b6cb-370491cc6b3f",
-    "type": "Unique Weapons",
+    "mainCategory": "Unique Weapons",
     "subType": "Ballistic Weapons",
     "name": "Radical Conversion",
     "prerequisite": "",
@@ -489,7 +489,7 @@
   },
   {
     "id": "8d7f9e76-4223-4b10-9e07-9b64d647d1ac",
-    "type": "Unique Weapons",
+    "mainCategory": "Unique Weapons",
     "subType": "Ballistic Weapons",
     "name": "The Problem Solver",
     "prerequisite": "",
@@ -497,7 +497,7 @@
   },
   {
     "id": "eab59142-65f9-4a5e-af3d-8a1b8d6c6eab",
-    "type": "Unique Weapons",
+    "mainCategory": "Unique Weapons",
     "subType": "Ballistic Weapons",
     "name": "Splattercannon",
     "prerequisite": "",
@@ -506,7 +506,7 @@
 
   {
     "id": "93d952ef-9e21-4b8e-8ea6-9c7f8d1c041b",
-    "type": "Unique Weapons",
+    "mainCategory": "Unique Weapons",
     "subType": "Energy Weapons",
     "name": "Alien Blaster Pistol",
     "prerequisite": "",
@@ -514,7 +514,7 @@
   },
   {
     "id": "6b9e5717-48a5-4bd3-b8b2-8b9159a60e69",
-    "type": "Unique Weapons",
+    "mainCategory": "Unique Weapons",
     "subType": "Energy Weapons",
     "name": "Cryolator",
     "prerequisite": "",
@@ -522,7 +522,7 @@
   },
   {
     "id": "ec4d1b85-c822-4a05-8c9f-14efeb2a6fc4",
-    "type": "Unique Weapons",
+    "mainCategory": "Unique Weapons",
     "subType": "Energy Weapons",
     "name": "Experiment 18-A",
     "prerequisite": "",
@@ -530,7 +530,7 @@
   },
   {
     "id": "ee1e96e3-99ac-4d9e-8ed7-f2024d707cfc",
-    "type": "Unique Weapons",
+    "mainCategory": "Unique Weapons",
     "subType": "Energy Weapons",
     "name": "Good Intentions",
     "prerequisite": "",
@@ -538,7 +538,7 @@
   },
   {
     "id": "163583e9-d441-42c2-86da-72e6ffed05f5",
-    "type": "Unique Weapons",
+    "mainCategory": "Unique Weapons",
     "subType": "Energy Weapons",
     "name": "Lorenzo's Artifact",
     "prerequisite": "",
@@ -546,7 +546,7 @@
   },
   {
     "id": "9b944d94-6d3f-4a8e-b44c-9800ab836d6c",
-    "type": "Unique Weapons",
+    "mainCategory": "Unique Weapons",
     "subType": "Energy Weapons",
     "name": "Old Faithful",
     "prerequisite": "",
@@ -554,7 +554,7 @@
   },
   {
     "id": "02de8f66-0a3b-4317-91ea-8cc7c22b3d1e",
-    "type": "Unique Weapons",
+    "mainCategory": "Unique Weapons",
     "subType": "Energy Weapons",
     "name": "Prototype UP77 'Limitless Potential'",
     "prerequisite": "",
@@ -562,7 +562,7 @@
   },
   {
     "id": "f0d31d18-c3e9-4bcf-afcd-2723e5d54e11",
-    "type": "Unique Weapons",
+    "mainCategory": "Unique Weapons",
     "subType": "Energy Weapons",
     "name": "Righteous Authority",
     "prerequisite": "",
@@ -570,7 +570,7 @@
   },
   {
     "id": "cf5db22e-63ba-4da3-9d7b-9b80f42dbff5",
-    "type": "Unique Weapons",
+    "mainCategory": "Unique Weapons",
     "subType": "Energy Weapons",
     "name": "Sentinel's Plasmacaster",
     "prerequisite": "",
@@ -578,7 +578,7 @@
   },
   {
     "id": "dcfeac72-21a3-4a52-9f0f-7ed68cb6a76b",
-    "type": "Unique Weapons",
+    "mainCategory": "Unique Weapons",
     "subType": "Energy Weapons",
     "name": "Survivor's Special",
     "prerequisite": "",
@@ -586,7 +586,7 @@
   },
   {
     "id": "de0ccfd8-d5b4-4cfe-88a2-722a1d34c855",
-    "type": "Unique Weapons",
+    "mainCategory": "Unique Weapons",
     "subType": "Energy Weapons",
     "name": "Virgil's Rifle",
     "prerequisite": "",
@@ -594,7 +594,7 @@
   },
   {
     "id": "de7ecbd4-630b-4278-8b2a-c74f2056b41c",
-    "type": "Unique Weapons",
+    "mainCategory": "Unique Weapons",
     "subType": "Energy Weapons",
     "name": "Wazer Wifle",
     "prerequisite": "",
@@ -602,7 +602,7 @@
   },
   {
     "id": "c21a54bf-8640-4a67-9637-13bb8827a264",
-    "type": "Unique Weapons",
+    "mainCategory": "Unique Weapons",
     "subType": "Energy Weapons",
     "name": "Hub's Alien Blaster",
     "prerequisite": "",
@@ -610,7 +610,7 @@
   },
   {
     "id": "26fd49d7-9f4d-4e5c-b321-b89d98381d4e",
-    "type": "Unique Weapons",
+    "mainCategory": "Unique Weapons",
     "subType": "Energy Weapons",
     "name": "Protectron's Gaze",
     "prerequisite": "",
@@ -618,7 +618,7 @@
   },
   {
     "id": "44b1d24e-8625-4914-b834-6a4abef2dbd3",
-    "type": "Unique Weapons",
+    "mainCategory": "Unique Weapons",
     "subType": "Energy Weapons",
     "name": "Salvaged Assaultron Head",
     "prerequisite": "",
@@ -626,7 +626,7 @@
   },
   {
     "id": "39893a60-02ed-4c7f-b0c5-2c4b84561fc8",
-    "type": "Unique Weapons",
+    "mainCategory": "Unique Weapons",
     "subType": "Energy Weapons",
     "name": "Tesla Rifle",
     "prerequisite": "",
@@ -635,7 +635,7 @@
 
   {
     "id": "85f3e9d2-3c24-4a74-82c3-b13c0c6ff2f2",
-    "type": "Unique Weapons",
+    "mainCategory": "Unique Weapons",
     "subType": "Heavy Weapons",
     "name": "Ashmaker",
     "prerequisite": "",
@@ -643,7 +643,7 @@
   },
   {
     "id": "b6302d24-9162-4a10-a720-784207878349",
-    "type": "Unique Weapons",
+    "mainCategory": "Unique Weapons",
     "subType": "Heavy Weapons",
     "name": "Big Boy",
     "prerequisite": "",
@@ -651,7 +651,7 @@
   },
   {
     "id": "bd2e16b5-2a05-426b-9825-8d2eb1b5fb38",
-    "type": "Unique Weapons",
+    "mainCategory": "Unique Weapons",
     "subType": "Heavy Weapons",
     "name": "Broadsider",
     "prerequisite": "",
@@ -659,7 +659,7 @@
   },
   {
     "id": "a6b3c813-54e3-487e-ae7c-e0fe2ffabfb7",
-    "type": "Unique Weapons",
+    "mainCategory": "Unique Weapons",
     "subType": "Heavy Weapons",
     "name": "Death From Above",
     "prerequisite": "",
@@ -667,7 +667,7 @@
   },
   {
     "id": "f378167d-8a3c-4e7f-9fbf-6f2b24345b02",
-    "type": "Unique Weapons",
+    "mainCategory": "Unique Weapons",
     "subType": "Heavy Weapons",
     "name": "Final Judgement",
     "prerequisite": "",
@@ -675,7 +675,7 @@
   },
   {
     "id": "fce16c02-95fe-4474-a2fe-0c5a287a68b3",
-    "type": "Unique Weapons",
+    "mainCategory": "Unique Weapons",
     "subType": "Heavy Weapons",
     "name": "Partystarter",
     "prerequisite": "",
@@ -683,7 +683,7 @@
   },
   {
     "id": "ca7c88fb-69c2-4e8f-9b77-7f2b7db8f00a",
-    "type": "Unique Weapons",
+    "mainCategory": "Unique Weapons",
     "subType": "Heavy Weapons",
     "name": "Admiral's Friend",
     "prerequisite": "",
@@ -691,7 +691,7 @@
   },
   {
     "id": "0e6356de-33b9-4c0d-bd56-d91df171651d",
-    "type": "Unique Weapons",
+    "mainCategory": "Unique Weapons",
     "subType": "Heavy Weapons",
     "name": "Defender's Harpoon Gun",
     "prerequisite": "",
@@ -699,7 +699,7 @@
   },
   {
     "id": "2c6ebc12-42d0-4e3a-9f7b-648d9b1d04db",
-    "type": "Unique Weapons",
+    "mainCategory": "Unique Weapons",
     "subType": "Heavy Weapons",
     "name": "Sergeant Ash",
     "prerequisite": "",
@@ -707,7 +707,7 @@
   },
   {
     "id": "0de89e88-5a3e-4e5b-80ef-48082247c53c",
-    "type": "Unique Weapons",
+    "mainCategory": "Unique Weapons",
     "subType": "Heavy Weapons",
     "name": "Skipper's Last Stand",
     "prerequisite": "",
@@ -715,7 +715,7 @@
   },
   {
     "id": "13a81613-9cb7-4e8c-b1e9-3e896e05147a",
-    "type": "Unique Weapons",
+    "mainCategory": "Unique Weapons",
     "subType": "Heavy Weapons",
     "name": "The Striker",
     "prerequisite": "",
@@ -723,7 +723,7 @@
   },
   {
     "id": "d25f04fb-169a-4d5d-90a6-cb3f49dcb9b7",
-    "type": "Unique Weapons",
+    "mainCategory": "Unique Weapons",
     "subType": "Heavy Weapons",
     "name": "Aeternus",
     "prerequisite": "",
@@ -731,7 +731,7 @@
   },
   {
     "id": "cd39855d-4db4-4b12-a272-93e16db33f27",
-    "type": "Unique Weapons",
+    "mainCategory": "Unique Weapons",
     "subType": "Heavy Weapons",
     "name": "Nuka-nuke Launcher",
     "prerequisite": "",
@@ -740,7 +740,7 @@
 
   {
     "id": "4d205662-c2d3-46d2-a7f4-34c82f7f768f",
-    "type": "Unique Weapons",
+    "mainCategory": "Unique Weapons",
     "subType": "Melee Weapons",
     "name": "2076 World Series Baseball Bat",
     "prerequisite": "",
@@ -748,7 +748,7 @@
   },
   {
     "id": "a6ebc3f3-32e3-4469-b4f1-3e051d351d9c",
-    "type": "Unique Weapons",
+    "mainCategory": "Unique Weapons",
     "subType": "Melee Weapons",
     "name": "Big Jim",
     "prerequisite": "",
@@ -756,7 +756,7 @@
   },
   {
     "id": "2c0c0e68-76cc-4907-8f35-e7a172864e78",
-    "type": "Unique Weapons",
+    "mainCategory": "Unique Weapons",
     "subType": "Melee Weapons",
     "name": "General Chao's Revenge",
     "prerequisite": "",
@@ -764,7 +764,7 @@
   },
   {
     "id": "13ac3845-29b7-4a77-b6a5-b23c3767a9ce",
-    "type": "Unique Weapons",
+    "mainCategory": "Unique Weapons",
     "subType": "Melee Weapons",
     "name": "Grognak's Axe",
     "prerequisite": "",
@@ -772,7 +772,7 @@
   },
   {
     "id": "6b0b62e2-0ea2-49d8-944d-2d31e19e6fe7",
-    "type": "Unique Weapons",
+    "mainCategory": "Unique Weapons",
     "subType": "Melee Weapons",
     "name": "Kremvh's Tooth",
     "prerequisite": "",
@@ -780,7 +780,7 @@
   },
   {
     "id": "2408c5d1-3b06-4bf6-a43d-9a00b8e4176d",
-    "type": "Unique Weapons",
+    "mainCategory": "Unique Weapons",
     "subType": "Melee Weapons",
     "name": "Pickman's Blade",
     "prerequisite": "",
@@ -788,7 +788,7 @@
   },
   {
     "id": "7b4b4ed3-315e-47e1-b7c5-88da4d4a46f8",
-    "type": "Unique Weapons",
+    "mainCategory": "Unique Weapons",
     "subType": "Melee Weapons",
     "name": "Reckoning",
     "prerequisite": "",
@@ -796,7 +796,7 @@
   },
   {
     "id": "9e745159-98a3-4db2-aa1f-62e757bda078",
-    "type": "Unique Weapons",
+    "mainCategory": "Unique Weapons",
     "subType": "Melee Weapons",
     "name": "Rockville Slugger",
     "prerequisite": "",
@@ -804,7 +804,7 @@
   },
   {
     "id": "ec453f4e-4c20-42fb-9134-b0a63a92c75f",
-    "type": "Unique Weapons",
+    "mainCategory": "Unique Weapons",
     "subType": "Melee Weapons",
     "name": "Shem Drowne Sword",
     "prerequisite": "",
@@ -812,7 +812,7 @@
   },
   {
     "id": "a0b49c53-fca3-4f1f-af4d-83974083a6ac",
-    "type": "Unique Weapons",
+    "mainCategory": "Unique Weapons",
     "subType": "Melee Weapons",
     "name": "Zao's Sword",
     "prerequisite": "",
@@ -820,7 +820,7 @@
   },
   {
     "id": "f8100c53-7b2c-408e-90b7-2b77867e7ef6",
-    "type": "Unique Weapons",
+    "mainCategory": "Unique Weapons",
     "subType": "Melee Weapons",
     "name": "Atom's Judgement",
     "prerequisite": "",
@@ -828,7 +828,7 @@
   },
   {
     "id": "287c0d12-409e-4a46-9c25-b2f9a739495a",
-    "type": "Unique Weapons",
+    "mainCategory": "Unique Weapons",
     "subType": "Melee Weapons",
     "name": "Bloodletter",
     "prerequisite": "",
@@ -836,7 +836,7 @@
   },
   {
     "id": "d7ef0e84-5cb2-4dcd-8017-767b7bfb79fc",
-    "type": "Unique Weapons",
+    "mainCategory": "Unique Weapons",
     "subType": "Melee Weapons",
     "name": "Fencebuster",
     "prerequisite": "",
@@ -844,7 +844,7 @@
   },
   {
     "id": "ce9e0c89-995e-4f94-8122-796f68a124d9",
-    "type": "Unique Weapons",
+    "mainCategory": "Unique Weapons",
     "subType": "Melee Weapons",
     "name": "The Fish Catcher",
     "prerequisite": "",
@@ -852,7 +852,7 @@
   },
   {
     "id": "1a24eb2f-4c67-4a87-93f0-20d5129f7c91",
-    "type": "Unique Weapons",
+    "mainCategory": "Unique Weapons",
     "subType": "Melee Weapons",
     "name": "The Harvester",
     "prerequisite": "",
@@ -860,7 +860,7 @@
   },
   {
     "id": "d15c280e-7c12-4e87-8d16-344cc6e9e169",
-    "type": "Unique Weapons",
+    "mainCategory": "Unique Weapons",
     "subType": "Unarmed Weapons",
     "name": "Furious Power Fist",
     "prerequisite": "",
@@ -868,7 +868,7 @@
   },
   {
     "id": "a855eeea-4d1c-4bd2-bd12-42eeb515e3a0",
-    "type": "Unique Weapons",
+    "mainCategory": "Unique Weapons",
     "subType": "Unarmed Weapons",
     "name": "Butcher's Hook",
     "prerequisite": "",
@@ -877,7 +877,7 @@
 
   {
     "id": "e35ebf4e-ec1d-4aaf-8ed6-99ef1f105f01",
-    "type": "Nuka-Cola Recipes",
+    "mainCategory": "Nuka-Cola Recipes",
     "subType": "",
     "name": "Nuka-Berry Recipe",
     "prerequisite": "",
@@ -885,7 +885,7 @@
   },
   {
     "id": "df8c6fc1-8a7a-4f24-8aa5-6aa85b3a54a2",
-    "type": "Nuka-Cola Recipes",
+    "mainCategory": "Nuka-Cola Recipes",
     "subType": "",
     "name": "Nuka-Bombdrop Recipe",
     "prerequisite": "",
@@ -893,7 +893,7 @@
   },
   {
     "id": "c8e5a731-cf98-4d9e-aa8c-59f1174e8cda",
-    "type": "Nuka-Cola Recipes",
+    "mainCategory": "Nuka-Cola Recipes",
     "subType": "",
     "name": "Nuka-Cide Recipe",
     "prerequisite": "",
@@ -901,7 +901,7 @@
   },
   {
     "id": "d8e1e994-1330-46c4-a3e3-5cf78e723aa3",
-    "type": "Nuka-Cola Recipes",
+    "mainCategory": "Nuka-Cola Recipes",
     "subType": "",
     "name": "Nuka-Cooler Recipe",
     "prerequisite": "",
@@ -909,7 +909,7 @@
   },
   {
     "id": "b3652e0d-5e1f-4b71-a363-7a37b8e14c62",
-    "type": "Nuka-Cola Recipes",
+    "mainCategory": "Nuka-Cola Recipes",
     "subType": "",
     "name": "Nuka-Frutti Recipe",
     "prerequisite": "",
@@ -917,7 +917,7 @@
   },
   {
     "id": "b663e63d-6478-4153-a8a3-0e44c8b45d",
-    "type": "Nuka-Cola Recipes",
+    "mainCategory": "Nuka-Cola Recipes",
     "subType": "",
     "name": "Nuka-Hearty Recipe",
     "prerequisite": "",
@@ -925,7 +925,7 @@
   },
   {
     "id": "e35ebf4e-ec1d-4aaf-8ed6-99ef1f105f02",
-    "type": "Nuka-Cola Recipes",
+    "mainCategory": "Nuka-Cola Recipes",
     "subType": "",
     "name": "Nuka-Lixir Recipe",
     "prerequisite": "",
@@ -933,7 +933,7 @@
   },
   {
     "id": "df8c6fc1-8a7a-4f24-8aa5-6aa85b3a54a3",
-    "type": "Nuka-Cola Recipes",
+    "mainCategory": "Nuka-Cola Recipes",
     "subType": "",
     "name": "Nuka-Love Recipe",
     "prerequisite": "",
@@ -941,7 +941,7 @@
   },
   {
     "id": "c8e5a731-cf98-4d9e-aa8c-59f1174e8cda",
-    "type": "Nuka-Cola Recipes",
+    "mainCategory": "Nuka-Cola Recipes",
     "subType": "",
     "name": "Nuka-Power Recipe",
     "prerequisite": "",
@@ -949,7 +949,7 @@
   },
   {
     "id": "d8e1e994-1330-46c4-a3e3-5cf78e723aa4",
-    "type": "Nuka-Cola Recipes",
+    "mainCategory": "Nuka-Cola Recipes",
     "subType": "",
     "name": "Nuka-Punch Recipe",
     "prerequisite": "",
@@ -957,7 +957,7 @@
   },
   {
     "id": "b3652e0d-5e1f-4b71-a363-7a37b8e14c64",
-    "type": "Nuka-Cola Recipes",
+    "mainCategory": "Nuka-Cola Recipes",
     "subType": "",
     "name": "Nuka-Ray Recipe",
     "prerequisite": "",
@@ -965,7 +965,7 @@
   },
   {
     "id": "b663e63d-6478-4153-a8a3-0e44c8b45d",
-    "type": "Nuka-Cola Recipes",
+    "mainCategory": "Nuka-Cola Recipes",
     "subType": "",
     "name": "Nuka-Rush Recipe",
     "prerequisite": "",
@@ -973,7 +973,7 @@
   },
   {
     "id": "e35ebf4e-ec1d-4aaf-8ed6-99ef1f105f03",
-    "type": "Nuka-Cola Recipes",
+    "mainCategory": "Nuka-Cola Recipes",
     "subType": "",
     "name": "Nuka-Sunrise Recipe",
     "prerequisite": "",
@@ -981,7 +981,7 @@
   },
   {
     "id": "df8c6fc1-8a7a-4f24-8aa5-6aa85b3a54a4",
-    "type": "Nuka-Cola Recipes",
+    "mainCategory": "Nuka-Cola Recipes",
     "subType": "",
     "name": "Nuka-Void Recipe",
     "prerequisite": "",
@@ -989,7 +989,7 @@
   },
   {
     "id": "c8e5a731-cf98-4d9e-aa8c-59f1174e8cda",
-    "type": "Nuka-Cola Recipes",
+    "mainCategory": "Nuka-Cola Recipes",
     "subType": "",
     "name": "Nuka-Xtreme Recipe",
     "prerequisite": "",
@@ -998,7 +998,7 @@
 
   {
     "id": "e35ebf4e-ec1d-4aaf-8ed6-99ef1f105f01",
-    "type": "Unique Armour",
+    "mainCategory": "Unique Armour",
     "subType": "",
     "name": "Agatha's Dress",
     "prerequisite": "",
@@ -1006,7 +1006,7 @@
   },
   {
     "id": "df8c6fc1-8a7a-4f24-8aa5-6aa85b3a54a2",
-    "type": "Unique Armour",
+    "mainCategory": "Unique Armour",
     "subType": "",
     "name": "Apocalypse Chestplate",
     "prerequisite": "",
@@ -1014,7 +1014,7 @@
   },
   {
     "id": "c8e5a731-cf98-4d9e-aa8c-59f1174e8cda",
-    "type": "Unique Armour",
+    "mainCategory": "Unique Armour",
     "subType": "",
     "name": "Apocalypse Left Greave",
     "prerequisite": "",
@@ -1022,7 +1022,7 @@
   },
   {
     "id": "d8e1e994-1330-46c4-a3e3-5cf78e723aa3",
-    "type": "Unique Armour",
+    "mainCategory": "Unique Armour",
     "subType": "",
     "name": "Black Ops Chestpiece",
     "prerequisite": "",
@@ -1030,7 +1030,7 @@
   },
   {
     "id": "b3652e0d-5e1f-4b71-a363-7a37b8e14c62",
-    "type": "Unique Armour",
+    "mainCategory": "Unique Armour",
     "subType": "",
     "name": "Captain Ironsides' Hat",
     "prerequisite": "",
@@ -1038,7 +1038,7 @@
   },
   {
     "id": "b663e63d-6478-4153-a8a3-0e44c8b45d",
-    "type": "Unique Armour",
+    "mainCategory": "Unique Armour",
     "subType": "",
     "name": "Champion Chestpiece",
     "prerequisite": "",
@@ -1046,7 +1046,7 @@
   },
   {
     "id": "e35ebf4e-ec1d-4aaf-8ed6-99ef1f105f02",
-    "type": "Unique Armour",
+    "mainCategory": "Unique Armour",
     "subType": "",
     "name": "Champion Left Arm",
     "prerequisite": "",
@@ -1054,7 +1054,7 @@
   },
   {
     "id": "df8c6fc1-8a7a-4f24-8aa5-6aa85b3a54a3",
-    "type": "Unique Armour",
+    "mainCategory": "Unique Armour",
     "subType": "",
     "name": "Champion Right Arm",
     "prerequisite": "",
@@ -1062,7 +1062,7 @@
   },
   {
     "id": "c8e5a731-cf98-4d9e-aa8c-59f1174e8cda",
-    "type": "Unique Armour",
+    "mainCategory": "Unique Armour",
     "subType": "",
     "name": "Commando Chest Piece",
     "prerequisite": "",
@@ -1070,7 +1070,7 @@
   },
   {
     "id": "d8e1e994-1330-46c4-a3e3-5cf78e723aa4",
-    "type": "Unique Armour",
+    "mainCategory": "Unique Armour",
     "subType": "",
     "name": "Commando Helmet",
     "prerequisite": "",
@@ -1078,7 +1078,7 @@
   },
   {
     "id": "b3652e0d-5e1f-4b71-a363-7a37b8e14c64",
-    "type": "Unique Armour",
+    "mainCategory": "Unique Armour",
     "subType": "",
     "name": "DB Tech Varsity Uniform",
     "prerequisite": "",
@@ -1086,7 +1086,7 @@
   },
   {
     "id": "b663e63d-6478-4153-a8a3-0e44c8b45d",
-    "type": "Unique Armour",
+    "mainCategory": "Unique Armour",
     "subType": "",
     "name": "Destroyer's Chest Piece",
     "prerequisite": "",
@@ -1094,7 +1094,7 @@
   },
   {
     "id": "e35ebf4e-ec1d-4aaf-8ed6-99ef1f105f03",
-    "type": "Unique Armour",
+    "mainCategory": "Unique Armour",
     "subType": "",
     "name": "Destroyer's Helmet",
     "prerequisite": "",
@@ -1102,7 +1102,7 @@
   },
   {
     "id": "df8c6fc1-8a7a-4f24-8aa5-6aa85b3a54a4",
-    "type": "Unique Armour",
+    "mainCategory": "Unique Armour",
     "subType": "",
     "name": "Destroyer's Left Arm",
     "prerequisite": "",
@@ -1110,7 +1110,7 @@
   },
   {
     "id": "c8e5a731-cf98-4d9e-aa8c-59f1174e8cda",
-    "type": "Unique Armour",
+    "mainCategory": "Unique Armour",
     "subType": "",
     "name": "Destroyer's Left Leg",
     "prerequisite": "",
@@ -1118,7 +1118,7 @@
   },
   {
     "id": "d8e1e994-1330-46c4-a3e3-5cf78e723aa5",
-    "type": "Unique Armour",
+    "mainCategory": "Unique Armour",
     "subType": "",
     "name": "Destroyer's Right Leg",
     "prerequisite": "",
@@ -1126,7 +1126,7 @@
   },
   {
     "id": "b3652e0d-5e1f-4b71-a363-7a37b8e14c66",
-    "type": "Unique Armour",
+    "mainCategory": "Unique Armour",
     "subType": "",
     "name": "Devastator's Chestpiece",
     "prerequisite": "",
@@ -1134,7 +1134,7 @@
   },
   {
     "id": "b663e63d-6478-4153-a8a3-0e44c8b45e",
-    "type": "Unique Armour",
+    "mainCategory": "Unique Armour",
     "subType": "",
     "name": "Devastator's Right Greave",
     "prerequisite": "",
@@ -1142,7 +1142,7 @@
   },
   {
     "id": "e35ebf4e-ec1d-4aaf-8ed6-99ef1f105f04",
-    "type": "Unique Armour",
+    "mainCategory": "Unique Armour",
     "subType": "",
     "name": "Exemplar's T-60c Torso",
     "prerequisite": "",
@@ -1150,7 +1150,7 @@
   },
   {
     "id": "df8c6fc1-8a7a-4f24-8aa5-6aa85b3a54a6",
-    "type": "Unique Armour",
+    "mainCategory": "Unique Armour",
     "subType": "",
     "name": "Freefall Armor Left Leg",
     "prerequisite": "",
@@ -1158,7 +1158,7 @@
   },
   {
     "id": "c8e5a731-cf98-4d9e-aa8c-59f1174e8cda",
-    "type": "Unique Armour",
+    "mainCategory": "Unique Armour",
     "subType": "",
     "name": "Freefall Armor Right Leg",
     "prerequisite": "",
@@ -1166,7 +1166,7 @@
   },
   {
     "id": "d8e1e994-1330-46c4-a3e3-5cf78e723aa7",
-    "type": "Unique Armour",
+    "mainCategory": "Unique Armour",
     "subType": "",
     "name": "Grognak Costume",
     "prerequisite": "",
@@ -1174,7 +1174,7 @@
   },
   {
     "id": "b3652e0d-5e1f-4b71-a363-7a37b8e14c68",
-    "type": "Unique Armour",
+    "mainCategory": "Unique Armour",
     "subType": "",
     "name": "Honor",
     "prerequisite": "",
@@ -1183,7 +1183,7 @@
 
   {
     "id": "e35ebf4e-ec1d-4aaf-8ed6-99ef1f105f01",
-    "type": "Unique Armour",
+    "mainCategory": "Unique Armour",
     "subType": "",
     "name": "Liam's Glasses",
     "prerequisite": "",
@@ -1191,7 +1191,7 @@
   },
   {
     "id": "df8c6fc1-8a7a-4f24-8aa5-6aa85b3a54a2",
-    "type": "Unique Armour",
+    "mainCategory": "Unique Armour",
     "subType": "",
     "name": "Lieutenant's Hat",
     "prerequisite": "",
@@ -1199,7 +1199,7 @@
   },
   {
     "id": "c8e5a731-cf98-4d9e-aa8c-59f1174e8cda",
-    "type": "Unique Armour",
+    "mainCategory": "Unique Armour",
     "subType": "",
     "name": "Mantis Left Armguard",
     "prerequisite": "",
@@ -1207,7 +1207,7 @@
   },
   {
     "id": "d8e1e994-1330-46c4-a3e3-5cf78e723aa3",
-    "type": "Unique Armour",
+    "mainCategory": "Unique Armour",
     "subType": "",
     "name": "Mantis Left Greave",
     "prerequisite": "",
@@ -1215,7 +1215,7 @@
   },
   {
     "id": "b3652e0d-5e1f-4b71-a363-7a37b8e14c62",
-    "type": "Unique Armour",
+    "mainCategory": "Unique Armour",
     "subType": "",
     "name": "Mark 2 Synth Chest Piece",
     "prerequisite": "",
@@ -1223,7 +1223,7 @@
   },
   {
     "id": "b663e63d-6478-4153-a8a3-0e44c8b45d",
-    "type": "Unique Armour",
+    "mainCategory": "Unique Armour",
     "subType": "",
     "name": "Mark 2 Synth Helmet",
     "prerequisite": "",
@@ -1231,7 +1231,7 @@
   },
   {
     "id": "e35ebf4e-ec1d-4aaf-8ed6-99ef1f105f02",
-    "type": "Unique Armour",
+    "mainCategory": "Unique Armour",
     "subType": "",
     "name": "Mark 3 Synth Chest Piece",
     "prerequisite": "",
@@ -1239,7 +1239,7 @@
   },
   {
     "id": "df8c6fc1-8a7a-4f24-8aa5-6aa85b3a54a3",
-    "type": "Unique Armour",
+    "mainCategory": "Unique Armour",
     "subType": "",
     "name": "Mark 3 Synth Right Arm",
     "prerequisite": "",
@@ -1247,7 +1247,7 @@
   },
   {
     "id": "c8e5a731-cf98-4d9e-aa8c-59f1174e8cda",
-    "type": "Unique Armour",
+    "mainCategory": "Unique Armour",
     "subType": "",
     "name": "Mark 4 Synth Chest Piece",
     "prerequisite": "",
@@ -1255,7 +1255,7 @@
   },
   {
     "id": "d8e1e994-1330-46c4-a3e3-5cf78e723aa4",
-    "type": "Unique Armour",
+    "mainCategory": "Unique Armour",
     "subType": "",
     "name": "Mark 4 Synth Left Leg",
     "prerequisite": "",
@@ -1263,7 +1263,7 @@
   },
   {
     "id": "b3652e0d-5e1f-4b71-a363-7a37b8e14c64",
-    "type": "Unique Armour",
+    "mainCategory": "Unique Armour",
     "subType": "",
     "name": "Mascot Head",
     "prerequisite": "",
@@ -1271,7 +1271,7 @@
   },
   {
     "id": "b663e63d-6478-4153-a8a3-0e44c8b45d",
-    "type": "Unique Armour",
+    "mainCategory": "Unique Armour",
     "subType": "",
     "name": "Minutemen General's Hat",
     "prerequisite": "",
@@ -1279,7 +1279,7 @@
   },
   {
     "id": "e35ebf4e-ec1d-4aaf-8ed6-99ef1f105f03",
-    "type": "Unique Armour",
+    "mainCategory": "Unique Armour",
     "subType": "",
     "name": "Minutemen General's Uniform",
     "prerequisite": "",
@@ -1287,7 +1287,7 @@
   },
   {
     "id": "df8c6fc1-8a7a-4f24-8aa5-6aa85b3a54a4",
-    "type": "Unique Armour",
+    "mainCategory": "Unique Armour",
     "subType": "",
     "name": "Overseer's Left Armguard",
     "prerequisite": "",
@@ -1295,7 +1295,7 @@
   },
   {
     "id": "c8e5a731-cf98-4d9e-aa8c-59f1174e8cda",
-    "type": "Unique Armour",
+    "mainCategory": "Unique Armour",
     "subType": "",
     "name": "Overseer's Right Armguard",
     "prerequisite": "",
@@ -1303,7 +1303,7 @@
   },
   {
     "id": "d8e1e994-1330-46c4-a3e3-5cf78e723aa5",
-    "type": "Unique Armour",
+    "mainCategory": "Unique Armour",
     "subType": "",
     "name": "Protector's Left Armguard",
     "prerequisite": "",
@@ -1311,7 +1311,7 @@
   },
   {
     "id": "b3652e0d-5e1f-4b71-a363-7a37b8e14c66",
-    "type": "Unique Armour",
+    "mainCategory": "Unique Armour",
     "subType": "",
     "name": "Protector's Right Armguard",
     "prerequisite": "",
@@ -1319,7 +1319,7 @@
   },
   {
     "id": "b663e63d-6478-4153-a8a3-0e44c8b45e",
-    "type": "Unique Armour",
+    "mainCategory": "Unique Armour",
     "subType": "",
     "name": "Piezonucleic Power Armor Chest",
     "prerequisite": "",
@@ -1328,7 +1328,7 @@
 
   {
     "id": "e35ebf4e-ec1d-4aaf-8ed6-99ef1f105f01",
-    "type": "Unique Armour",
+    "mainCategory": "Unique Armour",
     "subType": "",
     "name": "Reginal's Suit",
     "prerequisite": "",
@@ -1336,7 +1336,7 @@
   },
   {
     "id": "df8c6fc1-8a7a-4f24-8aa5-6aa85b3a54a2",
-    "type": "Unique Armour",
+    "mainCategory": "Unique Armour",
     "subType": "",
     "name": "Silver Shroud Armor",
     "prerequisite": "",
@@ -1344,7 +1344,7 @@
   },
   {
     "id": "c8e5a731-cf98-4d9e-aa8c-59f1174e8cda",
-    "type": "Unique Armour",
+    "mainCategory": "Unique Armour",
     "subType": "",
     "name": "Silver Shroud Hat",
     "prerequisite": "",
@@ -1352,7 +1352,7 @@
   },
   {
     "id": "d8e1e994-1330-46c4-a3e3-5cf78e723aa3",
-    "type": "Unique Armour",
+    "mainCategory": "Unique Armour",
     "subType": "",
     "name": "Steadfast BOS Combat Armor Chest Piece",
     "prerequisite": "",
@@ -1360,7 +1360,7 @@
   },
   {
     "id": "b3652e0d-5e1f-4b71-a363-7a37b8e14c62",
-    "type": "Unique Armour",
+    "mainCategory": "Unique Armour",
     "subType": "",
     "name": "Tessa's First",
     "prerequisite": "",
@@ -1368,7 +1368,7 @@
   },
   {
     "id": "b663e63d-6478-4153-a8a3-0e44c8b45d",
-    "type": "Unique Armour",
+    "mainCategory": "Unique Armour",
     "subType": "",
     "name": "Visionary's T-60c Helm",
     "prerequisite": "",
@@ -1376,7 +1376,7 @@
   },
   {
     "id": "e35ebf4e-ec1d-4aaf-8ed6-99ef1f105f02",
-    "type": "Unique Armour",
+    "mainCategory": "Unique Armour",
     "subType": "",
     "name": "Wastelander's Chest Piece",
     "prerequisite": "",
@@ -1384,7 +1384,7 @@
   },
   {
     "id": "df8c6fc1-8a7a-4f24-8aa5-6aa85b3a54a3",
-    "type": "Unique Armour",
+    "mainCategory": "Unique Armour",
     "subType": "",
     "name": "Wastelander's Right Leg",
     "prerequisite": "",
@@ -1392,7 +1392,7 @@
   },
   {
     "id": "c8e5a731-cf98-4d9e-aa8c-59f1174e8cda",
-    "type": "Unique Armour",
+    "mainCategory": "Unique Armour",
     "subType": "",
     "name": "Zeke's Jacket and Jeans",
     "prerequisite": "",
@@ -1400,7 +1400,7 @@
   },
   {
     "id": "c8e5a731-cf98-4d9e-aa8c-59f1174e8cda",
-    "type": "Unique Armour",
+    "mainCategory": "Unique Armour",
     "subType": "",
     "name": "Legend of Vault 88",
     "prerequisite": "",
@@ -1408,7 +1408,7 @@
   },
   {
     "id": "e35ebf4e-ec1d-4aaf-8ed6-99ef1f105f01",
-    "type": "Power Armour",
+    "mainCategory": "Power Armour",
     "subType": "",
     "name": "Raider Power Armour",
     "prerequisite": "",
@@ -1416,7 +1416,7 @@
   },
   {
     "id": "df8c6fc1-8a7a-4f24-8aa5-6aa85b3a54a2",
-    "type": "Power Armour",
+    "mainCategory": "Power Armour",
     "subType": "",
     "name": "T-45 Power Armour",
     "prerequisite": "",
@@ -1424,7 +1424,7 @@
   },
   {
     "id": "c8e5a731-cf98-4d9e-aa8c-59f1174e8cda",
-    "type": "Power Armour",
+    "mainCategory": "Power Armour",
     "subType": "",
     "name": "T-51 Power Armour",
     "prerequisite": "",
@@ -1432,7 +1432,7 @@
   },
   {
     "id": "d8e1e994-1330-46c4-a3e3-5cf78e723aa3",
-    "type": "Power Armour",
+    "mainCategory": "Power Armour",
     "subType": "",
     "name": "T-60 Power Armour",
     "prerequisite": "",
@@ -1440,7 +1440,7 @@
   },
   {
     "id": "b3652e0d-5e1f-4b71-a363-7a37b8e14c62",
-    "type": "Power Armour",
+    "mainCategory": "Power Armour",
     "subType": "",
     "name": "X-01 Power Armour",
     "prerequisite": "",

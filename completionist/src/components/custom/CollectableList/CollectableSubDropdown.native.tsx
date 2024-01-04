@@ -5,13 +5,13 @@ import CollectableMainList from './CollectableMainList.native';
 import SubListHeader from '@components/general/Lists/SubListHeader.native';
 
 export interface CollectableSubDropdownProps {
-  mainType: string;
+  mainCategory: string;
   subType: string;
   completed: string;
   total: string;
 }
 
-const CollectableSubDropdown = ({ mainType, subType, completed, total }: CollectableSubDropdownProps) => {
+const CollectableSubDropdown = ({ mainCategory, subType, completed, total }: CollectableSubDropdownProps) => {
   const { showSearchResults } = useMainState();
   const [isOpen, setIsOpen] = useState<boolean>(false);
 
@@ -23,7 +23,7 @@ const CollectableSubDropdown = ({ mainType, subType, completed, total }: Collect
         <SubListHeader title={subType} completed={completed} total={total} />
       }
     >
-      <CollectableMainList mainType={mainType} subType={subType} isSubCategory={true} />
+      <CollectableMainList mainCategory={mainCategory} subType={subType} isSubCategory={true} />
     </Dropdown>
   );
 };

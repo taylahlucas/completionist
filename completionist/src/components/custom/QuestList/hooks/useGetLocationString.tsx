@@ -1,13 +1,13 @@
 const useGetLocationString = ({ hold = '', location = '' }): string => {
   let locationString = ''
   if (hold?.length === 0) {
-    locationString = location?.toLocaleUpperCase();
+    locationString = location
   }
   else if (location?.length === 0) {
-    locationString = hold?.toLocaleUpperCase();
+    locationString = hold;
   }
   else {
-    locationString = `${location?.toLocaleUpperCase() ?? ''} - ${hold?.toLocaleUpperCase() ?? ''}`
+    locationString = `${location ?? ''} - ${hold ?? ''}`
   }
   return locationString;
 };

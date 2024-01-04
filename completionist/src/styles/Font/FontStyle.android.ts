@@ -26,6 +26,14 @@ export default StyleSheet.create({
     lineHeight: 22,
     fontWeight: BOLD
   },
+  ListItemSubTitleItalic: {
+    fontFamily: ROBOTO,
+    fontSize: 17,
+    letterSpacing: 0.37,
+    lineHeight: 22,
+    fontWeight: REGULAR,
+    fontStyle: 'italic'
+  },
   ListItemSubTitle: {
     fontFamily: ROBOTO,
     fontSize: 17,

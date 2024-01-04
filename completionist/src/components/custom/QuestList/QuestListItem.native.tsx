@@ -5,25 +5,24 @@ import StyledText from '@components/general/Text/StyledText.native';
 import useGetLocationString from './hooks/useGetLocationString';
 import CheckBox from '@components/general/Checkbox/CheckBox.native';
 import { QuestListItemContainer, QuestListItemLocationContainer, QuestListItemTitle, QuestListItemContentContainer } from './QuestListStyledComponents.native';
-
 import useGetQuests from './hooks/useGetQuests';
+import useMainState from '@redux/hooks/useMainState';
 
 interface QuestListItemProps {
   id: string;
   title: string;
   location?: string;
   hold?: string;
-  customStyle?: any;
   isComplete?: boolean;
 }
 
-const QuestListItem = ({ id, title, location, hold, customStyle, isComplete = false }: QuestListItemProps) => {
+const QuestListItem = ({ id, title, location, hold,  isComplete = false }: QuestListItemProps) => {
   const theme = useGetTheme();
   const locationString = useGetLocationString({ hold, location });
   const { updateQuestItemsComplete } = useGetQuests();
   
   return (
-    <QuestListItemContainer style={customStyle} color={isComplete ? theme.darkGrey : theme.midGrey}>
+    <QuestListItemContainer color={theme.darkGrey}>
       <QuestListItemContentContainer>
         <QuestListItemTitle 
           align={'left'} 
@@ -31,12 +30,14 @@ const QuestListItem = ({ id, title, location, hold, customStyle, isComplete = fa
           color={isComplete ? theme.midGrey : theme.lightestGrey}
           ellipsizeMode={'tail'}
           numberOfLines={1}
-        >{title}</QuestListItemTitle>
+        >
+          {title}
+        </QuestListItemTitle>
         <Condition condition={!!location || !!hold}>
           <QuestListItemLocationContainer>
             <StyledText 
               type={'ListItemSubDescription'} 
-              color={isComplete ? theme.midGrey : theme.darkGrey}
+              color={isComplete ? theme.midGrey : theme.lightGrey}
               ellipsizeMode={'tail'}
               numberOfLines={1}
             >

@@ -14,19 +14,27 @@ export const listStyles = StyleSheet.create({
   },
   selectableButton: {
     justifyContent: 'center',
-    height: 50,
-    borderRadius: DEFAULT_BORDER_RADIUS,
-  }
+    height: 45,
+    flexDirection: 'row'
+  },
+  subSelectableButton: {
+    marginLeft: 16
+  },
+  subTypeSelectableButton: {
+    marginLeft: 32
+  },
 });
 
 interface ListItemStyleProps {
   color: string;
 }
 
-export const ListItemHeaderContainer = styled.View`
+export const ListItemHeaderContainer = styled.View<ListItemStyleProps>`
   flex-direction: row;
   align-items: center;
   width: 100%;
+  border-bottom-color: ${props => props.color};
+  border-bottom-width: 1px;
 `;
 
 export const ListItemHeaderCountTitle = styled(StyledText)`

@@ -1,5 +1,4 @@
 import useGetGameData from '@data/hooks/useGetGameData.native';
-import useMainState from '@redux/hooks/useMainState';
 import { SubscriptionTypeEnum } from '@utils/CustomEnums';
 
 interface GetLocationReturnType {

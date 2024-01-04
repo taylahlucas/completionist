@@ -32,12 +32,13 @@ export interface Location {
 export interface MiscItem {
   id: string;
   name: string;
-  type: string;
+  mainCategory: string;
+  dlc: string;
 }
 
 export interface Collectable {
   id: string;
-  type: string;
+  mainCategory: string;
   subType?: string;
   name: string;
   prerequisite?: string;

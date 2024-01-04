@@ -20,21 +20,12 @@ const useUpdateSettingsConfig = () => {
     else {
       return config.map(configItem => {
         // Sub Category
-        if (!item.isActive === false && item.section === configItem.section && configItem.category === "") {
-          // When deactivating sub category
-          return {
-            ...configItem,
-            isActive: false
-          }
-        }
-        else {
-          return (configItem.section === item.section && configItem.category === item.category)
+        return (configItem.section === item.section && configItem.category === item.category)
             ? {
               ...item,
               isActive: !item.isActive
             }
             : configItem;
-        }
       });
     }
   }

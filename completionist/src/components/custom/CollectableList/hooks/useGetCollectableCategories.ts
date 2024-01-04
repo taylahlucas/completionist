@@ -13,8 +13,8 @@ const useGetCollectableCategories = (): GameDataReturnType => {
     const collectables = mapDataToCollectables(selectedGame);
     let collectableCategories: string[] = [];
     collectables.map(collectable => {
-      if (!collectableCategories.find(item => item === collectable.type)) {
-        collectableCategories.push(collectable.type);
+      if (!collectableCategories.find(item => item === collectable.mainCategory)) {
+        collectableCategories.push(collectable.mainCategory);
       }
     });
     return collectableCategories;
@@ -22,7 +22,7 @@ const useGetCollectableCategories = (): GameDataReturnType => {
 
   const getCollectableSubCategories = (category: string, selectedGame?: SubscriptionTypeEnum): string[] => {
     const collectables = mapDataToCollectables(selectedGame);
-    const filteredCollectables = collectables.filter(collectable => collectable.type === category);
+    const filteredCollectables = collectables.filter(collectable => collectable.mainCategory === category);
     let collectableSubCategories: string[] = [];
     filteredCollectables.map(collectable => {
       if (!collectableSubCategories.find(item => item === collectable.subType)) {

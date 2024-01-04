@@ -10,14 +10,14 @@ Miscellaneous
 {
   id: generated_uuid
   name: string,
-  type: string,
+  mainCategory: string,
   dlc: string
 }
 
 Collectables
 {
   id: generated_uuid
-  type: string,
+  mainCategory: string,
   subType?: string,
   name: string,
   prerequisite?: string,

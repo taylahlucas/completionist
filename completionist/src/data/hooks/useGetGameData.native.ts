@@ -26,9 +26,19 @@ const useGetGameData = (): GameDataReturnType => {
 
   const filterData = (config: SettingsConfigItem[], data: any[]) => {
     const filteredConfig = config.filter(item => !item.isActive);
-    // TODO: Only working for quests ? amounts not wokring
+
     filteredConfig.map(config => {
       data = data.filter(item => item.mainCategory !== config.category);
+    });
+    
+    return data;
+  }
+
+  const filterLocationData = (config: SettingsConfigItem[], data: any[]) => {
+    const filteredConfig = config.filter(item => !item.isActive);
+    
+    filteredConfig.map(config => {
+      data = data.filter(item => item.dlc !== config.category);
     });
     
     return data;
@@ -70,11 +80,11 @@ const useGetGameData = (): GameDataReturnType => {
     switch (selectedGame) {
       case SubscriptionTypeEnum.SKYRIM:
         return skyrim_collectables.map((collectable: Collectable) => {
-          return collectable as Collectable
+          return collectable as Collectable;
         });
       case SubscriptionTypeEnum.FALLOUT_4:
         return fallout4_collectables.map((collectable: Collectable) => {
-          return collectable as Collectable
+          return collectable as Collectable;
         });
       default: 
         return [];   
@@ -151,12 +161,12 @@ const useGetGameData = (): GameDataReturnType => {
         let skyrimLocations = skyrim_locations.map((location: Location) => {
           return location as Location
         });
-        return filterData(user.data.skyrim.settingsConfig, skyrimLocations);
+        return filterLocationData(user.data.skyrim.settingsConfig, skyrimLocations);
       case SubscriptionTypeEnum.FALLOUT_4:
         let fallout4Locations = fallout4_locations.map((location: Location) => {
           return location as Location
         });
-        return filterData(user.data.fallout4.settingsConfig, fallout4Locations);
+        return filterLocationData(user.data.fallout4.settingsConfig, fallout4Locations);
       default: 
         return [];   
     }

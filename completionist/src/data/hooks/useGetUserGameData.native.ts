@@ -14,25 +14,14 @@ interface GetUserGameDataReturnType {
 const useGetUserGameData = (): GetUserGameDataReturnType => {
   const { user, selectedGame, selectedGameSettings } = useMainState();
 
-  const getDataForSelectedGame = () => {
-    switch (selectedGame) {
-      case SubscriptionTypeEnum.SKYRIM:
-        return user.data?.skyrim;
-      case SubscriptionTypeEnum.FALLOUT_4:
-        return user.data?.fallout4;
-      default:
-        return;
-    }
-  };
-
   const getUserQuests = (): Item[] => {
     // TODO: Refactor all functions to use getDataForSelectedGame;
     // const data = getDataForSelectedGame();
     switch (selectedGame) {
       case SubscriptionTypeEnum.SKYRIM:
-        return user.data?.skyrim?.quests;
+        return user.data?.skyrim?.quests.filter(item => item.isComplete);
       case SubscriptionTypeEnum.FALLOUT_4:
-        return user.data?.fallout4?.quests;
+        return user.data?.fallout4?.quests.filter(item => item.isComplete);
       default:
         return [];
     }
@@ -41,9 +30,9 @@ const useGetUserGameData = (): GetUserGameDataReturnType => {
   const getUserCollectables = (): Item[] => {
     switch (selectedGame) {
       case SubscriptionTypeEnum.SKYRIM:
-        return user.data?.skyrim?.collectables;
+        return user.data?.skyrim?.collectables.filter(item => item.isComplete);
       case SubscriptionTypeEnum.FALLOUT_4:
-        return user.data?.fallout4?.collectables;
+        return user.data?.fallout4?.collectables.filter(item => item.isComplete);
       default:
         return [];
     }
@@ -52,9 +41,9 @@ const useGetUserGameData = (): GetUserGameDataReturnType => {
   const getUserLocations = (): Item[] => {
     switch (selectedGame) {
       case SubscriptionTypeEnum.SKYRIM:
-        return user.data?.skyrim?.locations;
+        return user.data?.skyrim?.locations.filter(item => item.isComplete);
       case SubscriptionTypeEnum.FALLOUT_4:
-        return user.data?.fallout4?.locations;
+        return user.data?.fallout4?.locations.filter(item => item.isComplete);
       default:
         return [];
     }
@@ -63,9 +52,9 @@ const useGetUserGameData = (): GetUserGameDataReturnType => {
   const getUserMiscItems = (): Item[] => {
     switch (selectedGame) {
       case SubscriptionTypeEnum.SKYRIM:
-        return user.data?.skyrim?.miscellaneous;
+        return user.data?.skyrim?.miscellaneous.filter(item => item.isComplete);
       case SubscriptionTypeEnum.FALLOUT_4:
-        return user.data?.fallout4?.miscellaneous;
+        return user.data?.fallout4?.miscellaneous.filter(item => item.isComplete);
       default:
         return [];
     }

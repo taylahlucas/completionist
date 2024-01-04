@@ -1,5 +1,7 @@
+import { View } from 'react-native';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import { 
+  listStyles,
   ListItemHeaderContainer,
   ListItemHeaderCountTitle, 
   SubListHeaderTitle
@@ -15,14 +17,16 @@ const SubListHeader = ({ title, completed, total }: SubListHeaderProps): JSX.Ele
   const theme = useGetTheme();
 
   return (
-    <ListItemHeaderContainer>
-      <SubListHeaderTitle type={'ListItemSubTitleBold'} align={'left'}>
-        {title}
-      </SubListHeaderTitle>
-      <ListItemHeaderCountTitle type={'ListItemSubTitle'} color={theme.midGrey}>
-        {`${completed} / ${total}`}
-      </ListItemHeaderCountTitle>
-    </ListItemHeaderContainer>
+    <View style={listStyles.subSelectableButton}>
+      <ListItemHeaderContainer color={theme.darkGrey}>
+        <SubListHeaderTitle type={'ListItemSubTitle'} align={'left'} color={theme.lightGrey}>
+          {title}
+        </SubListHeaderTitle>
+        <ListItemHeaderCountTitle type={'ListItemSubTitle'} color={theme.lightGrey}>
+          {`${completed} / ${total}`}
+        </ListItemHeaderCountTitle>
+      </ListItemHeaderContainer>
+    </View>
   );
 };
 

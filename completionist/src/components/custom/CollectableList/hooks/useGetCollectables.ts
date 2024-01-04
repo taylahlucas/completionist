@@ -6,9 +6,9 @@ import useMainDispatch from '@redux/hooks/useMainDispatch';
 import useGetUserGameData from '@data/hooks/useGetUserGameData.native';
 
 interface GameDataReturnType {
-  getCollectablesForSubCategory: (type: string, subType?: string) => Collectable[];
-  getCollectablesForCategory: (type: string) => Collectable[];
-  getAllCollectablesForCategory: (type: string) => Collectable[];
+  getCollectablesForSubCategory: (mainCategory: string, subType?: string) => Collectable[];
+  getCollectablesForCategory: (mainCategory: string) => Collectable[];
+  getAllCollectablesForCategory: (mainCategory: string) => Collectable[];
   updateCollectablesComplete: (questId: string) => void;
 }
 
@@ -21,16 +21,16 @@ const useGetCollectables = (): GameDataReturnType => {
   const filteredCollectables = collectables.filter(collectable => getFormattedSearchString(collectable.name).includes(getFormattedSearchString(searchValue)));
   const { getUserCollectables } = useGetUserGameData();
 
-  const getCollectablesForSubCategory = (type: string, subType: string = ''): Collectable[] => {
-    return filteredCollectables.filter(collectable => collectable.type === type && collectable.subType === subType);
+  const getCollectablesForSubCategory = (mainCategory: string, subType: string = ''): Collectable[] => {
+    return filteredCollectables.filter(collectable => collectable.mainCategory === mainCategory && collectable.subType === subType);
   }
 
-  const getCollectablesForCategory = (type: string): Collectable[] => {
-    return filteredCollectables.filter(collectable => collectable.type === type);
+  const getCollectablesForCategory = (mainCategory: string): Collectable[] => {
+    return filteredCollectables.filter(collectable => collectable.mainCategory === mainCategory);
   }
 
-  const getAllCollectablesForCategory = (type: string): Collectable[] => {
-    return collectables.filter(collectable => collectable.type === type);
+  const getAllCollectablesForCategory = (mainCategory: string): Collectable[] => {
+    return collectables.filter(collectable => collectable.mainCategory === mainCategory);
   }
 
   const updateCollectablesComplete = (questId: string): void => {

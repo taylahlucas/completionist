@@ -1,9 +1,11 @@
+import { View } from 'react-native';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import { 
   ListItemHeaderContainer,
-  ListItemHeaderCountTitle
+  ListItemHeaderCountTitle,
+  SubListHeaderTitle,
+  listStyles
 } from '@components/general/Lists/ListStyledComponents.native';
-import StyledText from '../Text/StyledText.native';
 
 interface SubTypeListHeaderProps {
   title: string;
@@ -15,14 +17,16 @@ const SubTypeListHeader = ({ title, completed, total }: SubTypeListHeaderProps):
   const theme = useGetTheme();
 
   return (
-    <ListItemHeaderContainer>
-      <StyledText type={'ListItemSubTitleBold'} color={theme.lightGrey} align={'left'} style={{ padding: 16, marginLeft: 32 }}>
-        {title}
-      </StyledText>
-      <ListItemHeaderCountTitle type={'ListItemSubTitle'} color={theme.lightGrey}>
-        {`${completed} / ${total}`}
-      </ListItemHeaderCountTitle>
-    </ListItemHeaderContainer>
+    <View style={listStyles.subTypeSelectableButton}>
+      <ListItemHeaderContainer color={theme.darkGrey}>
+        <SubListHeaderTitle type={'ListItemSubTitleItalic'} color={theme.midGrey} align={'left'}>
+          {title}
+        </SubListHeaderTitle>
+        <ListItemHeaderCountTitle type={'ListItemSubTitle'} color={theme.midGrey}>
+          {`${completed} / ${total}`}
+        </ListItemHeaderCountTitle>
+      </ListItemHeaderContainer>
+    </View>
   );
 };
 

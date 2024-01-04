@@ -7,7 +7,7 @@ import { ViewStyle } from 'react-native';
 
 export interface IconProps {
   name: IconType;
-  style?: ViewStyle;
+  style?: any;
   type?: IconTypeEnum;
   color?: string;
   size?: number;

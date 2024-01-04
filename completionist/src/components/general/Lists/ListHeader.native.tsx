@@ -3,9 +3,9 @@ import useGetTheme from '@styles/hooks/useGetTheme';
 import { 
   listStyles, 
   ListItemHeaderContainer,
-  ListItemHeaderCountTitle 
+  ListItemHeaderCountTitle,
+  SubListHeaderTitle
 } from '@components/general/Lists/ListStyledComponents.native';
-import StyledText from '@components/general/Text/StyledText.native';
 
 interface ListHeaderProps {
   title: string;
@@ -17,10 +17,10 @@ const ListHeader = ({ title, completed, total }: ListHeaderProps): JSX.Element =
   const theme = useGetTheme();
 
   return (
-    <View style={{ ...listStyles.selectableButton, backgroundColor: theme.darkGrey, flexDirection: 'row' }}>
-      <ListItemHeaderContainer>
-        <StyledText type={'ListItemSubTitle'} color={theme.lightGrey} style={{ marginLeft: 16 }}>{title}</StyledText>
-        <ListItemHeaderCountTitle type={'ListItemSubTitle'} color={theme.lightGrey}>
+    <View style={listStyles.selectableButton}>
+      <ListItemHeaderContainer color={theme.darkGrey}>
+        <SubListHeaderTitle type={'ListItemSubTitleBold'} color={theme.lightGrey}>{title}</SubListHeaderTitle>
+        <ListItemHeaderCountTitle type={'ListItemSubTitleBold'} color={theme.lightGrey}>
           {`${completed} / ${total}`}
         </ListItemHeaderCountTitle>
       </ListItemHeaderContainer>
