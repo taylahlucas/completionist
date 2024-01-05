@@ -52,8 +52,6 @@ npx react-native run-ios --port 8002
 - express
 - dotenv
 - jsonwebtoken
-
-// FOR BE OR FE?
 - mongoose
 - express
 - body-parser
@@ -61,3 +59,4 @@ npx react-native run-ios --port 8002
 - passport
 - poassport-google-oauth20
 - crypto
+- nodemailer

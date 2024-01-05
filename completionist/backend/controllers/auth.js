@@ -81,9 +81,10 @@ const signin = async (req, res) => {
       token,
       user,
     });
+    console.log('Signed in successfully');
   } catch (err) {
     console.log(err);
-    return res.status(400).send("Error. Try again.");
+    return res.status(400).send("Error signing in: ", err);
   }
 };
 

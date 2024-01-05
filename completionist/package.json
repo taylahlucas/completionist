@@ -6,7 +6,7 @@
     "android": "ENVFILE=.env react-native run-android",
     "ios": "ENVFILE=.env react-native run-ios",
     "lint": "eslint .",
-    "start": "react-native start",
+    "start": "react-native start --reset-cache",
     "test": "jest"
   },
   "dependencies": {

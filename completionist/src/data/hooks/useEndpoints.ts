@@ -1,7 +1,7 @@
-import axios from 'axios';
+import axios, { AxiosError } from 'axios';
 import { GeneralData, User, UserFormData } from '@utils/CustomInterfaces';
 import { UserResponse } from '@utils/CustomTypes';
-import { signupUrl, getUserByUserIdUrl, updateUserDataUrl } from '../urls';
+import { signupUrl, getUserByUserIdUrl, updateUserDataUrl, sendEmailUrl } from '../urls';
 
 interface CreateUserProps {
   data: UserFormData;
@@ -17,10 +17,17 @@ interface UpdateUserDataProps {
   fallout4Data: GeneralData;
 }
 
+interface EmailProps {
+  from: string;
+  subject: string;
+  text: string;
+}
+
 interface EndpointsReturnType {
   createUser: ({ data }: CreateUserProps) => Promise<UserResponse>;
   getUserByUserId: ({ userId }: GetUserByUserIdProps) => Promise<UserResponse>;
   updateUserData: ({ userId, skyrimData, fallout4Data }: UpdateUserDataProps) => Promise<void>;
+  sendEmail: ({ from, subject, text }: EmailProps) => Promise<void>;
 }
 
 const useEndpoints = (): EndpointsReturnType => {
@@ -35,8 +42,8 @@ const useEndpoints = (): EndpointsReturnType => {
       }
     )
     .then(response => !!response.data.user && response.data.user as User ? response.data.user : null)
-    .catch(error => {
-      console.log("Error createUser: ", error);
+    .catch((error: AxiosError)  => {
+      console.log("Error createUser: ", error.message);
       return null;
     })
   };
@@ -44,8 +51,8 @@ const useEndpoints = (): EndpointsReturnType => {
   const getUserByUserId = async ({ userId }: GetUserByUserIdProps): Promise<UserResponse> => {
    return await axios.get(`${process.env.LOCAL_URL}/${getUserByUserIdUrl}/${userId}`)
       .then(response => !!response.data && response.data as User ? response.data : null)
-      .catch(error => {
-        console.log("Error getUserByUserId: ", error);
+      .catch((error: AxiosError) => {
+        console.log("Error getUserByUserId: ", error.message);
         return null;
       });
   };
@@ -56,12 +63,24 @@ const useEndpoints = (): EndpointsReturnType => {
       skyrimData: skyrimData,
       fallout4Data: fallout4Data
     })
-    .catch(error => {
-      console.log("Error updateUserData: ", error);
+    .catch((error: AxiosError)  => {
+      console.log("Error updateUserData: ", error.message);
     })
   };
 
-  return { createUser, getUserByUserId, updateUserData };
+  const sendEmail = async ({ from, subject, text }: EmailProps): Promise<void> => {
+    console.log("SENDING TO: ", `${process.env.LOCAL_URL}/${sendEmailUrl}`)
+    await axios.post(`${process.env.LOCAL_URL}/${sendEmailUrl}`, {
+      from: from,
+      subject: subject,
+      text: text
+    })
+    .catch((error: AxiosError) => {
+      console.log("Error sendEmail: ", error.message);
+    })
+  }
+
+  return { createUser, getUserByUserId, updateUserData, sendEmail };
 };
 
 export default useEndpoints;

@@ -7,6 +7,7 @@ const passport = require('passport');
 const GoogleStrategy = require('passport-google-oauth20').Strategy;
 const authRoutes = require('./routes/auth');
 const userRoutes = require('./routes/users');
+const sendEmailRoutes = require('./routes/send_email');
 
 const PORT = process.env.PORT || 4002;
 
@@ -16,7 +17,7 @@ mongoose.connect(process.env.MONGO_URL)
   .then(() => console.log("DB connected"))
   .catch((err) => console.log("DB connection error: ", err))
 
-// Passport Configuration
+// Passport Configuration -- is this section used?
 
 passport.use(new GoogleStrategy({
   clientID: process.env.GOOGLE_CLIENT_WEB_ID,
@@ -63,6 +64,7 @@ app.use(passport.initialize());
 app.use(passport.session());
 app.use('/api', authRoutes);
 app.use('/users', userRoutes);
+app.use('/send_email', sendEmailRoutes);
 
 // Check if the user is authenticated
 
