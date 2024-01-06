@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key></key>
+	<string></string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
@@ -16,8 +18,14 @@
 	<string>$(PRODUCT_NAME)</string>
 	<key>NSAppTransportSecurity</key>
 	<dict>
-			<key>NSAllowsArbitraryLoads</key>
-			<true/>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>localhost</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+			</dict>
+		</dict>
 	</dict>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
@@ -28,6 +36,14 @@
 	<key>CFBundleURLTypes</key>
 	<array>
 		<dict>
+			<key>CFBundleURLName</key>
+			<string>CLIENT_ID</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>564447398670-mb8p4utaa5fsabm7fgm53rvu5mo6tbe7.apps.googleusercontent.com</string>
+			</array>
+		</dict>
+		<dict>
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>CFBundleURLName</key>
@@ -37,23 +53,11 @@
 				<string>com.googleusercontent.apps.564447398670-mb8p4utaa5fsabm7fgm53rvu5mo6tbe7</string>
 			</array>
 		</dict>
-		<dict/>
 	</array>
 	<key>CFBundleVersion</key>
 	<string>$(CURRENT_PROJECT_VERSION)</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
-	<key>NSAppTransportSecurity</key>
-	<dict>
-		<key>NSExceptionDomains</key>
-		<dict>
-			<key>localhost</key>
-			<dict>
-				<key>NSExceptionAllowsInsecureHTTPLoads</key>
-				<true/>
-			</dict>
-		</dict>
-	</dict>
 	<key>UIAppFonts</key>
 	<array>
 		<string>assets/icons/FontAwesome.ttf</string>

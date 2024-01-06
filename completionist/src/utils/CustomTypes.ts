@@ -6,9 +6,9 @@ export type MaterialIconsType =
   | 'arrow-drop-down'
   | 'cancel'
   | 'check-circle-outline'
+  | 'logout'
   | 'radio-button-unchecked'
   | 'search';
-
 
 export type IoniconType =
   | 'arrow-back'
@@ -28,3 +28,7 @@ export type ButtonType = 'default' | 'text';
 export type UserResponse = User | null;
 
 export type CredentialsResponse = UserCredentials | null;
+
+export type NavigationHeaderLeftActionTypes = 'back' | 'menu' | 'none';
+
+export type NavigationHeaderRightActionTypes = 'logout' | 'filter' | 'none';

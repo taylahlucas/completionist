@@ -1,5 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit';
-import { SubscriptionTypeEnum } from '@utils/CustomEnums';
+import { ScreenEnum, SubscriptionTypeEnum } from '@utils/CustomEnums';
 import { GeneralData, SettingsConfigItem, User, UserFormData } from '@utils/CustomInterfaces';
 import { AppStateStatus } from 'react-native';
 
@@ -38,6 +38,7 @@ export const initialUser: User = {
 
 export interface MainState {
   readonly appState?: AppStateStatus,
+  readonly currentScreen?: ScreenEnum;
   readonly selectedGame?: SubscriptionTypeEnum;
   readonly selectedGameSettings: SubscriptionTypeEnum;
   readonly webSignInConfigured: boolean;
@@ -51,6 +52,7 @@ export interface MainState {
 
 export const initialState: MainState = {
   webSignInConfigured: false,
+  currentScreen: ScreenEnum.Login,
   isLoggedIn: false,
   selectedGameSettings: SubscriptionTypeEnum.SKYRIM,
   userFormData: initialFormData,
@@ -66,6 +68,9 @@ const slice = createSlice({
   reducers: {
     setAppState: (state, action) => {
       state.appState = action.payload;
+    },
+    setCurrentScreen: (state, action) => {
+      state.currentScreen = action.payload;
     },
     setSelectedGame: (state, action) => {
       state.selectedGame = action.payload;
@@ -157,6 +162,7 @@ const slice = createSlice({
 
 export const {
   setAppState,
+  setCurrentScreen,
   setSelectedGame,
   setSelectedGameSettings,
   setWebSignInConfigured,

@@ -1,50 +1,46 @@
 import React from 'react';
-import useReactNavigation, { DrawerActions } from '@navigation/hooks/useReactNavigation.native';
-import { IconTypeEnum } from '@utils/CustomEnums';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import {
+  styles,
   NavigationHeaderContainer,
-  NavigationHeaderMenuButton,
-  NavigationHeaderMenuIcon,
-  NavigationHeaderMenuButtonBg,
-  NavigationHeaderText
+  NavigationHeaderText,
+  NavigationEmptyContainer
 } from './NavigationStyledComponents.native';
 import Condition from '@components/general/Condition.native';
-import Icon from '@components/general/Icon/Icon.native';
-
-type NavigationHeaderLeftActionTypes = 'back' | 'menu';
+import { NavigationHeaderLeftActionTypes, NavigationHeaderRightActionTypes } from '@utils/CustomTypes';
+import useGetLeftNavigationItem from './hooks/useGetLeftNavigationItem.native';
+import IconButton from '@components/general/Icon/IconButton.native';
+import useGetLoginMethods from '@components/custom/LoginForm/hooks/useGetLoginMethods';
 
 interface NavigationHeaderProps {
   title: string;
   leftAction?: NavigationHeaderLeftActionTypes;
+  rightAction?: NavigationHeaderRightActionTypes;
 }
 
-const NavigationHeader = ({ title, leftAction = 'menu' }: NavigationHeaderProps) => {
+const NavigationHeader = ({ title, leftAction = 'menu', rightAction = 'none' }: NavigationHeaderProps) => {
   const theme = useGetTheme();
-  const navigation = useReactNavigation();
+  const leftItem = useGetLeftNavigationItem(leftAction);
+  const { signOut } = useGetLoginMethods();
 
   return (
     <NavigationHeaderContainer>
+      {leftItem}
+      <NavigationHeaderText>{title}</NavigationHeaderText>
       <Condition
-        condition={leftAction === 'menu'}
+        condition={rightAction === 'logout'}
         conditionalElement={
-          <NavigationHeaderMenuButton onPress={(): void => navigation.goBack()}>
-            <Icon name={'arrow-back'} type={IconTypeEnum.Ionicons} color={theme.lightGrey} />
-          </NavigationHeaderMenuButton>
+          <NavigationEmptyContainer />
         }
       >
-        <NavigationHeaderMenuButton
-          onPress={(): void => navigation.dispatch(DrawerActions.openDrawer())}
-        >
-          <NavigationHeaderMenuIcon
-            name={'menu-sharp'}
-            type={IconTypeEnum.Ionicons}
-            size={35}
-          />
-          <NavigationHeaderMenuButtonBg color={theme.primaryPurple} />
-        </NavigationHeaderMenuButton>
+        <IconButton
+          style={styles.iconButton}
+          name={'logout'}
+          color={theme.lightGrey}
+          size={30}
+          onPress={signOut}
+        />
       </Condition>
-      <NavigationHeaderText>{title}</NavigationHeaderText>
     </NavigationHeaderContainer>
   );
 };

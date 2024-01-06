@@ -21,5 +21,8 @@
             <category android:name="android.intent.category.LAUNCHER" />
         </intent-filter>
       </activity>
+        <!-- <meta-data
+          android:name="com.google.android.gms.auth.api.signin.client.default_web_client_id"
+          android:value="@string/default_web_client_id" /> -->
     </application>
 </manifest>

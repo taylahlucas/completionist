@@ -20,7 +20,7 @@ const useGetMiscItems = (): GetMiscItemsReturnType => {
   const { getUserMiscItems } = useGetUserGameData();
 
   const getMiscItemsForCategory = (category: string): MiscItem[] => {
-    return filteredMiscItems.filter(item => item.type === category);
+    return filteredMiscItems.filter(item => item.mainCategory === category);
   };
 
   const updateMiscItemsComplete = (miscItemId: string): void => {

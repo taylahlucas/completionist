@@ -12,8 +12,8 @@ const useGetMiscItemCategories = (): CheckLocationCompleteReturnType => {
     const miscItems = mapDataToMiscItems(selectedGame);
     let miscItemCategories: string[] = [];
     miscItems.map(miscItem => {
-      if (!miscItemCategories.find(item => item === miscItem.type)) {
-        miscItemCategories.push(miscItem.type);
+      if (!miscItemCategories.find(item => item === miscItem.mainCategory)) {
+        miscItemCategories.push(miscItem.mainCategory);
       }
     });
     return miscItemCategories;

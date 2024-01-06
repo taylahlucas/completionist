@@ -11,7 +11,7 @@ import RootStackNavigator from '@screens/RootStackNavigator.native';
 import { ScreenEnum } from '@utils/CustomEnums';
 import { RootDrawerParamList } from '@utils/CustomInterfaces';
 import NavigationDrawerBody from './NavigationDrawerBody.native';
-import style, { NavigationDrawerContainer } from './NavigationStyledComponents.native';
+import { styles, NavigationDrawerContainer } from './NavigationStyledComponents.native';
 import Signup from '@screens/Signup.native';
 import useMainState from '@redux/hooks/useMainState';
 import Settings from '@screens/Settings.native';
@@ -40,7 +40,7 @@ const NavigationDrawer = () => {
       initialRouteName={ScreenEnum.RootStackNavigator}
       screenOptions={{
         headerShown: false,
-        drawerStyle: style.drawerContainer
+        drawerStyle: styles.drawerContainer
       }}
     >
       <Drawer.Screen name={ScreenEnum.RootStackNavigator} component={RootStackNavigator} />
