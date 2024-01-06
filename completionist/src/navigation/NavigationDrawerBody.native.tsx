@@ -45,7 +45,7 @@ const NavigationDrawerBody: React.FunctionComponent = () => {
           <StyledText align={'left'}>Game Selection</StyledText>
         </Pressable>
         <Pressable onPress={(): void => navigation.navigate(ScreenEnum.RequestGame)}>
-          <StyledText align={'left'}>Request Game</StyledText>
+          <StyledText align={'left'}>Send Request</StyledText>
         </Pressable>
         <Pressable onPress={(): void => navigation.navigate(ScreenEnum.Settings)}>
           <StyledText align={'left'}>Settings</StyledText>

@@ -10,21 +10,22 @@ interface ButtonProps {
   type?: ButtonType;
   onPress: () => void;
   style?: ViewStyle;
+  disabled?: boolean;
 }
 
-const Button = ({ title, type = 'default', onPress, style }: ButtonProps) => {
+const Button = ({ title, type = 'default', onPress, style, disabled = false }: ButtonProps) => {
   const theme = useGetTheme();
 
   switch (type) {
     case 'text':
       return (
-        <StyledButtonText style={{ ...style }} onPress={onPress} color={theme.darkGrey}>
+        <StyledButtonText style={{ ...style }} onPress={onPress} color={theme.darkGrey} disabled={disabled}>
           <StyledText type={'ListItemSubTitle'}>{title}</StyledText>
         </StyledButtonText>
       );
     default:
       return (
-        <StyledButtonDefault style={{ ...style }} onPress={onPress} color={theme.darkGrey}>
+        <StyledButtonDefault style={{ ...style }} onPress={onPress} color={theme.darkGrey} disabled={disabled}>
           <StyledText>{title}</StyledText>
         </StyledButtonDefault>
       );

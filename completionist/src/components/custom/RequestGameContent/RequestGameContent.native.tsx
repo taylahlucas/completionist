@@ -1,35 +1,69 @@
-import React from 'react';
-import { Pressable } from 'react-native';
+import React, { useState } from 'react';
 import useGetTheme from '@styles/hooks/useGetTheme';
-import { RequestGameContentInputContainer, RequestGameSubtitleContainer } from './RequestGameContentStyledComponents.native';
+import { RequestGameContentTextInput, RequestGameContainer } from './RequestGameContentStyledComponents.native';
 import StyledText from '@components/general/Text/StyledText.native';
 import useEndpoints from '@data/hooks/useEndpoints';
 import useMainState from '@redux/hooks/useMainState';
+import Button from '@components/general/Button/Button.native';
+import TextInput from '@components/general/TextInput/TextInput.native';
+
+interface RequestFormData {
+  subject: string;
+  text: string;
+}
 
 const RequestGameContent = () => {
   const theme = useGetTheme();
   const { user } = useMainState();
   const { sendEmail } = useEndpoints();
+  const [formData, setFormData] = useState<RequestFormData>({
+    subject: '',
+    text: ''
+  });
+
 
   const sendEmailAction = () => {
     sendEmail({
       from: user.email,
-      subject: 'TestSubject',
-      text: 'Email Body Content'
+      subject:  formData.subject,
+      text: formData.text
     })
   };
-  // TODO: Add button to enable/disable DLC
+
   return (
     <>
-      <RequestGameSubtitleContainer>
+      <RequestGameContainer>
         <StyledText type={'ListItemSubTitle'}>Feel free to request a game, report a bug or make some suggestions to improve the app!</StyledText>
-      </RequestGameSubtitleContainer>
-      <RequestGameContentInputContainer color={theme.darkGrey} />
-      <RequestGameSubtitleContainer>
-        <Pressable onPress={sendEmailAction}>
-          <StyledText>Send Email</StyledText>
-        </Pressable>
-      </RequestGameSubtitleContainer>
+      </RequestGameContainer>
+      <TextInput
+        placeholder={'Subject'}
+        value={formData.subject}
+        onChangeText={(value: string) => setFormData({
+          ...formData,
+          subject: value
+        })}
+        onReset={(): void => setFormData({
+          ...formData,
+          subject: ''
+        })}
+      />
+      <RequestGameContentTextInput
+        placeholder={'Write your request here...'}
+        value={formData.text}
+        color={theme.lightGrey}
+        onChangeText={(value: string) => setFormData({
+          ...formData,
+          text: value
+        })}
+        onReset={(): void => setFormData({
+          ...formData,
+          text: ''
+        })}
+        multiline={true}
+      />
+      <RequestGameContainer>
+        <Button title={'Send Request'} onPress={sendEmailAction} disabled={!formData.subject || !formData.text} />
+      </RequestGameContainer>
     </>
   );
 };

@@ -1,6 +1,7 @@
 import { StyleSheet } from 'react-native';
 
 const AVENIR_LIGHT = 'Avenir-Light';
+const MONTSERRAT = 'Montserrat';
 const BOLD = '700';
 const REGULAR = '400';
 

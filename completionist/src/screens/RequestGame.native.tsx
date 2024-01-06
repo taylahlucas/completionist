@@ -6,7 +6,7 @@ import RequestGameContent from '@components/custom/RequestGameContent/RequestGam
 const RequestGame = () => {
   return (
     <StandardLayout>
-      <NavigationHeader title={'Request Game'} />
+      <NavigationHeader title={'Send Request'} />
       <RequestGameContent />
     </StandardLayout>
   );
