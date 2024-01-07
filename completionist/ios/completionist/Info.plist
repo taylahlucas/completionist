@@ -64,6 +64,9 @@
 		<string>assets/icons/Ionicons.ttf</string>
 		<string>assets/icons/MaterialIcons.ttf</string>
 		<string>assets/fonts/Montserrat-Regular.ttf</string>
+		<string>assets/fonts/Montserrat-Medium.ttf</string>
+		<string>assets/fonts/Montserrat-Italic.ttf</string>
+		<string>assets/fonts/Montserrat-SemiBold.ttf</string>
 	</array>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string></string>

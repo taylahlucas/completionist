@@ -13,7 +13,7 @@ const SettingsContentMainHeader = ({ item }: SettingsContentMainHeaderProps) => 
 
   return (
     <SettingsContentMainItem color={theme.darkGrey}>
-      <SettingsContentMainItemTitle align={'left'} type={'ListItemSubTitle'} color={theme.lightGrey}>{item.section}</SettingsContentMainItemTitle>
+      <SettingsContentMainItemTitle align={'left'} type={'ListItemSubTitleBold'} color={theme.lightGrey}>{item.section}</SettingsContentMainItemTitle>
       <SettingsContentCheckbox item={item} />
     </SettingsContentMainItem>
   );

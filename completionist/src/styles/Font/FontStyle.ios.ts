@@ -1,62 +1,53 @@
 import { StyleSheet } from 'react-native';
 
-const AVENIR_LIGHT = 'Avenir-Light';
 const MONTSERRAT = 'Montserrat-Regular';
-const BOLD = '700';
+const MONTSERRAT_ITALIC = 'Montserrat-Italic';
+const MONTSERRAT_SEMIBOLD = 'Montserrat-SemiBold';
 const SEMIBOLD = '500';
 const REGULAR = '400';
 
 export default StyleSheet.create({
   Heading: {
-    // fontFamily: AVENIR_LIGHT,
-    fontFamily: MONTSERRAT,
+    fontFamily: MONTSERRAT_SEMIBOLD,
     fontSize: 22,
     letterSpacing: 0.37,
-    lineHeight: 41,
-    fontWeight: BOLD
+    lineHeight: 41
   },
     ListItemTitle: {
     fontFamily: MONTSERRAT,
     fontSize: 19,
     letterSpacing: 0.37,
-    lineHeight: 22,
-    fontWeight: SEMIBOLD,
+    lineHeight: 22
   },
   ListItemTitleBold: {
-    fontFamily: MONTSERRAT,
+    fontFamily: MONTSERRAT_SEMIBOLD,
     fontSize: 16,
     letterSpacing: 0.37,
-    lineHeight: 22,
-    fontWeight: BOLD
+    lineHeight: 22
   },
   ListItemSubTitleBold: {
-    fontFamily: MONTSERRAT,
+    fontFamily: MONTSERRAT_SEMIBOLD,
     fontSize: 16,
     letterSpacing: 0.37,
-    lineHeight: 22,
-    fontWeight: BOLD
+    lineHeight: 22
   },
   ListItemSubTitleItalic: {
-    fontFamily: MONTSERRAT,
+    fontFamily: MONTSERRAT_ITALIC,
     fontSize: 16,
     letterSpacing: 0.37,
-    lineHeight: 22,
-    fontWeight: REGULAR,
-    fontStyle: 'italic'
+    lineHeight: 22
   },
   ListItemSubTitle: {
     fontFamily: MONTSERRAT,
     fontSize: 16,
     letterSpacing: 0.37,
-    lineHeight: 22,
-    fontWeight: REGULAR,
+    lineHeight: 22
   },
   ListItemSubDescription: {
     fontFamily: MONTSERRAT,
     fontSize: 14,
     letterSpacing: 0.37,
-    lineHeight: 22,
-    fontWeight: REGULAR
+    lineHeight: 22
   },
   left: {
     textAlign: 'left'
