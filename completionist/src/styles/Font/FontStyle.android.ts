@@ -14,51 +14,43 @@ export default StyleSheet.create({
     fontFamily: MONTSERRAT_SEMIBOLD,
     fontSize: 22,
     letterSpacing: 0,
-    lineHeight: 36,
-    fontWeight: BOLD
+    lineHeight: 36
   },
   ListItemTitle: {
     fontFamily: MONTSERRAT_SEMIBOLD,
     fontSize: 19,
     letterSpacing: 0.37,
-    lineHeight: 22,
-    fontWeight: SEMIBOLD,
+    lineHeight: 22
   },
   ListItemTitleBold: {
     fontFamily: MONTSERRAT,
     fontSize: 17,
     letterSpacing: 0,
-    lineHeight: 18,
-    fontWeight: REGULAR
+    lineHeight: 18
   },
   ListItemSubTitleBold: {
     fontFamily: MONTSERRAT_SEMIBOLD,
     fontSize: 17,
     letterSpacing: 0.37,
-    lineHeight: 22,
-    fontWeight: BOLD
+    lineHeight: 22
   },
   ListItemSubTitleItalic: {
     fontFamily: MONTSERRAT_ITALIC,
     fontSize: 17,
     letterSpacing: 0.37,
-    lineHeight: 22,
-    fontWeight: REGULAR,
-    fontStyle: 'italic'
+    lineHeight: 22
   },
   ListItemSubTitle: {
     fontFamily: MONTSERRAT,
     fontSize: 17,
     letterSpacing: 0.37,
-    lineHeight: 22,
-    fontWeight: REGULAR
+    lineHeight: 22
   },
   ListItemSubDescription: {
     fontFamily: MONTSERRAT,
     fontSize: 14,
     letterSpacing: 0.37,
-    lineHeight: 22,
-    fontWeight: REGULAR
+    lineHeight: 22
   },
   left: {
     textAlign: 'left'

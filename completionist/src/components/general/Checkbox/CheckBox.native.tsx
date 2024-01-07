@@ -35,7 +35,7 @@ const CheckBox = ({ isToggled, action }: CheckBoxProps) => {
             name={'circle-thin'}
             type={IconTypeEnum.FontAwesome}
             size={34}
-            color={theme.midGrey}
+            color={theme.lightGrey}
           />
         }
       >
