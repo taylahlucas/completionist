@@ -28,6 +28,7 @@ module.exports = {
           '@screens': path.resolve(__dirname, 'src/screens/'),
           '@animations': path.resolve(__dirname, 'src/animations/'),
           '@styles': path.resolve(__dirname, 'src/styles/'),
+          '@assets': path.resolve(__dirname, 'src/assets/'),
           '@utils': path.resolve(__dirname, 'src/utils/')
         }
       }

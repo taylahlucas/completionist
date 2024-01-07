@@ -17,17 +17,19 @@ import useMainState from '@redux/hooks/useMainState';
 import Settings from '@screens/Settings.native';
 import Condition from '@components/general/Condition.native';
 import RequestGame from '@screens/RequestGame.native';
+import useGetTheme from '@styles/hooks/useGetTheme';
 
 const Drawer = createDrawerNavigator<RootDrawerParamList>();
 
 const NavigationDrawer = () => {
+  const theme = useGetTheme();
   const { selectedGame } = useMainState();
   
   const NavigationDrawerContent = (): JSX.Element => {
     return (
       <Condition condition={!!selectedGame}>
         <NavigationDrawerContainer>
-          <StyledText>{selectedGame ?? ''}</StyledText>
+          <StyledText color={theme.lightGrey}>{selectedGame ?? ''}</StyledText>
           <NavigationDrawerBody />
         </NavigationDrawerContainer>
       </Condition>
@@ -40,7 +42,10 @@ const NavigationDrawer = () => {
       initialRouteName={ScreenEnum.RootStackNavigator}
       screenOptions={{
         headerShown: false,
-        drawerStyle: styles.drawerContainer
+        drawerStyle: {
+          ...styles.drawerContainer,
+          backgroundColor: theme.darkGrey
+        }
       }}
     >
       <Drawer.Screen name={ScreenEnum.RootStackNavigator} component={RootStackNavigator} />

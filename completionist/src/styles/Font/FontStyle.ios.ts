@@ -1,17 +1,25 @@
 import { StyleSheet } from 'react-native';
 
 const AVENIR_LIGHT = 'Avenir-Light';
-const MONTSERRAT = 'Montserrat';
+const MONTSERRAT = 'Montserrat-Regular';
 const BOLD = '700';
+const SEMIBOLD = '500';
 const REGULAR = '400';
 
 export default StyleSheet.create({
   Heading: {
-    fontFamily: AVENIR_LIGHT,
+    fontFamily: MONTSERRAT,
     fontSize: 22,
     letterSpacing: 0.37,
     lineHeight: 41,
     fontWeight: BOLD
+  },
+    ListItemTitle: {
+    fontFamily: AVENIR_LIGHT,
+    fontSize: 19,
+    letterSpacing: 0.37,
+    lineHeight: 22,
+    fontWeight: SEMIBOLD,
   },
   ListItemTitleBold: {
     fontFamily: AVENIR_LIGHT,

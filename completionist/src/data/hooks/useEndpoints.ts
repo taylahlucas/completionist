@@ -2,6 +2,7 @@ import axios, { AxiosError } from 'axios';
 import { GeneralData, User, UserFormData } from '@utils/CustomInterfaces';
 import { UserResponse } from '@utils/CustomTypes';
 import { signupUrl, getUserByUserIdUrl, updateUserDataUrl, sendEmailUrl } from '../urls';
+import { Subscription } from 'react-redux';
 
 interface CreateUserProps {
   data: UserFormData;
@@ -13,6 +14,7 @@ interface GetUserByUserIdProps {
 
 interface UpdateUserDataProps {
   userId: string;
+  subscription: Subscription[];
   skyrimData: GeneralData;
   fallout4Data: GeneralData;
 }
@@ -26,7 +28,7 @@ interface EmailProps {
 interface EndpointsReturnType {
   createUser: ({ data }: CreateUserProps) => Promise<UserResponse>;
   getUserByUserId: ({ userId }: GetUserByUserIdProps) => Promise<UserResponse>;
-  updateUserData: ({ userId, skyrimData, fallout4Data }: UpdateUserDataProps) => Promise<void>;
+  updateUserData: ({ userId, subscription, skyrimData, fallout4Data }: UpdateUserDataProps) => Promise<void>;
   sendEmail: ({ from, subject, text }: EmailProps) => Promise<void>;
 }
 
@@ -57,9 +59,10 @@ const useEndpoints = (): EndpointsReturnType => {
       });
   };
 
-  const updateUserData = async ({ userId, skyrimData, fallout4Data }: UpdateUserDataProps): Promise<void> => {
+  const updateUserData = async ({ userId, subscription, skyrimData, fallout4Data }: UpdateUserDataProps): Promise<void> => {
     await axios.post(`${process.env.LOCAL_URL}/${updateUserDataUrl}`, {
       userId: userId,
+      subscription: subscription,
       skyrimData: skyrimData,
       fallout4Data: fallout4Data
     })

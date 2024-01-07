@@ -1,5 +1,6 @@
 export type FontType = 
   | 'Heading'
+  | 'ListItemTitle'
   | 'ListItemTitleBold'
   | 'ListItemSubTitleBold'
   | 'ListItemSubTitleItalic'

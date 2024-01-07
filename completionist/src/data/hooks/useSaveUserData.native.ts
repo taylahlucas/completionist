@@ -6,7 +6,11 @@ import useKeychain from './useKeychain.native';
 import { ScreenEnum } from '@utils/CustomEnums';
 import { initialGameData, initialFormData } from '@redux/MainState';
 import { CredentialsResponse } from '@utils/CustomTypes';
-import { expectedUserDataKeys, expectedGeneralDataKeys } from '@utils/constants';
+import { 
+  expectedUserDataKeys, 
+  expectedGeneralDataKeys,
+  expectedSubscriptionDataKeys 
+} from '@utils/constants';
 
 interface SaveUserDataReturnType {
   loadUserData: () => void;
@@ -31,6 +35,15 @@ const useSaveUserData = (): SaveUserDataReturnType => {
         if (!updatedUser.data[key]) {
           updatedUser.data[key] = initialGameData;
         }
+      }
+    }
+    // Check if all subscriptions are updated
+    for (const key of expectedSubscriptionDataKeys) {
+      if (!updatedUser.subscription.find(item => item.id === key)) {
+        updatedUser.subscription.push({
+          id: key,
+          isActive: true
+        })
       }
     }
     // Check if GeneralData contains all params

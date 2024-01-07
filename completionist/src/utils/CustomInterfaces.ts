@@ -64,6 +64,13 @@ export interface EnvironmentConfig {
 
 // Navigation Interfaces
 
+export interface NavigationDrawerItemData {
+  id: ScreenEnum;
+  title: string;
+  subTitle: string;
+  isEnabled: boolean;
+}
+
 export type RootDrawerParamList = {
   RootStackNavigator: undefined;
   // Landing: undefined;
@@ -81,7 +88,6 @@ export type RootDrawerParamList = {
 export interface NativeNavigation {
   navigate: (page: ScreenEnum, params?: any) => void;
   dispatch: (action: NavigationAction | ((state: NavigationState) => NavigationAction)) => void;
-  getCurrentScreenName: () => ScreenEnum | null;
   goBack: () => void;
   setOptions: (options: any) => void;
 }

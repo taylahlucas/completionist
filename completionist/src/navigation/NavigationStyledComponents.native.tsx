@@ -3,7 +3,6 @@ import Icon from '@components/general/Icon/Icon.native';
 import StyledText from '@components/general/Text/StyledText.native';
 import { DEFAULT_BORDER_RADIUS } from '@styles/global';
 import styled from 'styled-components/native';
-import IconButton from '@components/general/Icon/IconButton.native';
 
 export const styles = StyleSheet.create({
   drawerContainer: {
@@ -42,6 +41,10 @@ export const NavigationHeaderTitleContainer = styled.Pressable<NavigationHeaderT
   justify-content: space-between;
   padding-right: 16px;
   opacity: ${(props): number => props.disabled ? 0.5 : 1}
+`;
+
+export const NavigationDrawerTitle = styled(StyledText)`
+  padding: 8px;
 `;
 
 export const NavigationHeaderSubTitle = styled(StyledText)`

@@ -26,7 +26,7 @@ const NavigationHeader = ({ title, leftAction = 'menu', rightAction = 'none' }: 
   return (
     <NavigationHeaderContainer>
       {leftItem}
-      <NavigationHeaderText>{title}</NavigationHeaderText>
+      <NavigationHeaderText color={theme.lightGrey}>{title}</NavigationHeaderText>
       <Condition
         condition={rightAction === 'logout'}
         conditionalElement={

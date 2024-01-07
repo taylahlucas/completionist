@@ -3,15 +3,9 @@ import useGetGameData from '@data/hooks/useGetGameData.native';
 import useGetUserGameData from '@data/hooks/useGetUserGameData.native';
 import useMainState from '@redux/hooks/useMainState';
 import useCheckSectionEnabled from './useCheckSectionEnabled.native';
+import { NavigationDrawerItemData } from '@utils/CustomInterfaces';
 
-interface NavigationDrawerItem {
-  id: ScreenEnum;
-  title: string;
-  subTitle: string;
-  isEnabled: boolean;
-}
-
-const useGetNavigationDrawerItems = (): NavigationDrawerItem[] => {
+const useGetNavigationDrawerItems = (): NavigationDrawerItemData[] => {
   const { selectedGame } = useMainState();
   const { getUserQuests, getUserCollectables, getUserLocations, getUserMiscItems } = useGetUserGameData();
   const {

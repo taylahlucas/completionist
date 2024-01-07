@@ -48,18 +48,18 @@ const useCreateOrGetUser = () => {
                 }
                 else {
                   createUser({ data: userFormData })
-                  .then((response: UserResponse) => {
-                    if (!!response) {
-                      storeCredentials({
-                        username: response.name,
-                        password: response.userId
-                      });
-                      saveUserData(response);
-                    }
-                    else {
-                      console.log("Error creating user");
-                    }
-                  });
+                    .then((response: UserResponse) => {
+                      if (!!response) {
+                        storeCredentials({
+                          username: response.name,
+                          password: response.userId
+                        });
+                        saveUserData(response);
+                      }
+                      else {
+                        console.log("Error creating user");
+                      }
+                    });
                 }
               })
           }

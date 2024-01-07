@@ -2,6 +2,7 @@ import { StyleSheet } from 'react-native';
 
 const ROBOTO = 'Roboto';
 const BOLD = 'bold';
+const SEMIBOLD = '500';
 const REGULAR = 'normal';
 
 export default StyleSheet.create({
@@ -11,6 +12,13 @@ export default StyleSheet.create({
     letterSpacing: 0,
     lineHeight: 36,
     fontWeight: BOLD
+  },
+  ListItemTitle: {
+    fontFamily: ROBOTO,
+    fontSize: 19,
+    letterSpacing: 0.37,
+    lineHeight: 22,
+    fontWeight: SEMIBOLD,
   },
   ListItemTitleBold: {
     fontFamily: ROBOTO,

@@ -1,4 +1,4 @@
-import { useRef, useCallback, useState } from 'react';
+import { useRef, useCallback } from 'react';
 import { DrawerActions as RNDrawerActions, ParamListBase } from '@react-navigation/routers';
 import { NavigationAction, NavigationState, useFocusEffect, useNavigation, useNavigationState } from '@react-navigation/native';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack/src/types';
@@ -15,21 +15,13 @@ export const useReactNavigation = (): NativeNavigation => {
   
   useFocusEffect(
     useCallback(() => {
-      console.log("HERE")
       setCurrentScreen(screenName as ScreenEnum);
-      // This effect runs when the component is focused
-      // Update the screenName whenever the focus changes
-      // (i.e., when navigating to a different screen)
-      return () => {
-        // Cleanup if needed
-      };
     }, [screenName])
   );
 
   return useRef({
     navigate: (page: ScreenEnum, params?: any): void => navigation.navigate(page, params),
     dispatch: (action: NavigationAction | ((state: NavigationState) => NavigationAction)): void => navigation.dispatch(action),
-    getCurrentScreenName: (): ScreenEnum | null => screenName as ScreenEnum,
     goBack: (): void => navigation.goBack(),
     setOptions: (options: any): void => navigation.setOptions(options)
   }).current;

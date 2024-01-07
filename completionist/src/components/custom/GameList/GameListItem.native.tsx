@@ -1,25 +1,27 @@
 import React from 'react';
-import StyledText from '@components/general/Text/StyledText.native';
-import { GameListItemContainer } from './GameListItemStyledComponents.native';
+import { ImageURISource } from 'react-native';
+import { GameListItemContainer, GameListImage, GameItemTitle, GameItemScore } from './GameListItemStyledComponents.native';
 import useGetTheme from '@styles/hooks/useGetTheme';
 
 interface GameListItemProps {
-  color: string;
   title: string;
   enabled: boolean;
+  imageUrl: ImageURISource;
   onPress: () => void;
 }
 
-const GameListItem = ({ color, title, enabled, onPress }: GameListItemProps) => {
+const GameListItem = ({ title, enabled, imageUrl, onPress }: GameListItemProps) => {
   const theme = useGetTheme();
 
   return (
     <GameListItemContainer 
-      color={color} 
+      color={theme.midGrey} 
       disabled={!enabled}
       onPress={onPress}
     >
-      <StyledText color={theme.lightestGrey}>{title}</StyledText>
+      <GameListImage source={imageUrl} />
+      {/* <GameItemScore type={'ListItemSubTitle'} color={theme.lightestGrey}>0-12</GameItemScore> */}
+      <GameItemTitle color={theme.lightestGrey}>{title}</GameItemTitle>
     </GameListItemContainer>
   );
 };

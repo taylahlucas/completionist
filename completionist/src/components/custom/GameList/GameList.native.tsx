@@ -1,36 +1,28 @@
 import React from 'react';
 import GameListItem from './GameListItem.native';
-import useGetTheme from '@styles/hooks/useGetTheme';
 import ScrollableList from '@components/general/Lists/ScrollableList.native';
-import { ScreenEnum, SubscriptionTypeEnum } from '@utils/CustomEnums';
-import { Subscription } from '@utils/CustomInterfaces';
+import { ScreenEnum } from '@utils/CustomEnums';
+import { styles } from './GameListItemStyledComponents.native';
 import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
+import useMainState from '@redux/hooks/useMainState';
+import useGetGameImage from './hooks/useGetGameImage.native';
 
 const GameList = () => {
-  const theme = useGetTheme();
   const navigation = useReactNavigation();
   const { setSelectedGame, setSelectedGameSettings, reset } = useMainDispatch();
+  const { user } = useMainState();
+  const { getGameImage } = useGetGameImage();
   
-  const games: Subscription[] = [
-    {
-      id: SubscriptionTypeEnum.SKYRIM,
-      isActive: true
-    },
-    {
-      id: SubscriptionTypeEnum.FALLOUT_4,
-      isActive: true
-    }
-  ];
-
+  // TODO: get completion percentage
   return (
-    <ScrollableList contentContainerStyle={{ flexDirection: 'row' }}>
-      {games.map((game, index) => (
-        <GameListItem 
+    <ScrollableList contentContainerStyle={styles.scrollableContent}>
+      {user.subscription.map((game, index) => (
+        <GameListItem
           key={index}
-          color={theme.midGrey}
-          title={game.id} 
+          title={game.id}
           enabled={game.isActive}
+          imageUrl={getGameImage(game.id)}
           onPress={(): void => {
             reset();
             setSelectedGame(game.id);

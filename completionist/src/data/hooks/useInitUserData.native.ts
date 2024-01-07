@@ -38,6 +38,7 @@ const useInitUserData = () => {
           saveUserData(user);
           updateUserData({
             userId: user.userId,
+            subscription: user.subscription,
             skyrimData: user.data?.skyrim,
             fallout4Data: user.data?.fallout4
           });
