@@ -12,7 +12,6 @@ import { ScreenEnum } from '@utils/CustomEnums';
 import { RootDrawerParamList } from '@utils/CustomInterfaces';
 import NavigationDrawerBody from './NavigationDrawerBody.native';
 import { styles, NavigationDrawerContainer } from './NavigationStyledComponents.native';
-import Signup from '@screens/Signup.native';
 import useMainState from '@redux/hooks/useMainState';
 import Settings from '@screens/Settings.native';
 import Condition from '@components/general/Condition.native';
@@ -51,7 +50,6 @@ const NavigationDrawer = () => {
       <Drawer.Screen name={ScreenEnum.RootStackNavigator} component={RootStackNavigator} />
       {/* <Drawer.Screen name={ScreenEnum.Landing} component={Landing} /> */}
       <Drawer.Screen name={ScreenEnum.Login} component={Login} />
-      <Drawer.Screen name={ScreenEnum.Signup} component={Signup} />
       <Drawer.Screen name={ScreenEnum.Home} component={Home} />
       <Drawer.Screen name={ScreenEnum.Quests} component={Quests} />
       <Drawer.Screen name={ScreenEnum.Collectables} component={Collectables} />

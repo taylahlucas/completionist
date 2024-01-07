@@ -1,6 +1,11 @@
 import { StyleSheet } from 'react-native';
 
 const ROBOTO = 'Roboto';
+// TODO: Change to these and test on Android
+const MONTSERRAT = 'Montserrat-Regular';
+const MONTSERRAT_ITALIC = 'Montserrat-Italic';
+const MONTSERRAT_SEMIBOLD = 'Montserrat-SemiBold';
+
 const BOLD = 'bold';
 const SEMIBOLD = '500';
 const REGULAR = 'normal';

@@ -3,8 +3,6 @@ import { StyleSheet } from 'react-native';
 const MONTSERRAT = 'Montserrat-Regular';
 const MONTSERRAT_ITALIC = 'Montserrat-Italic';
 const MONTSERRAT_SEMIBOLD = 'Montserrat-SemiBold';
-const SEMIBOLD = '500';
-const REGULAR = '400';
 
 export default StyleSheet.create({
   Heading: {

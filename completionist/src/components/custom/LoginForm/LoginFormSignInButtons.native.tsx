@@ -2,16 +2,19 @@ import React from 'react';
 import useGetLoginMethods from './hooks/useGetLoginMethods';
 import Button from '@components/general/Button/Button.native';
 import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
-import { LoginFormButtonContainer } from './LoginFormStyledComponents.native';
+import { LoginFormButtonContainer, LoginFormFooterContainer } from './LoginFormStyledComponents.native';
 import { GoogleSigninButton } from '@react-native-google-signin/google-signin';
 import useLoginDispatch from './hooks/useLoginDispatch';
 import useLoginState from './hooks/useLoginState';
+import StyledText from '@components/general/Text/StyledText.native';
+import { View } from 'react-native';
+import Condition from '@components/general/Condition.native';
 
 const LoginFormSignInButtons = () => {
   const navigation = useReactNavigation();
   const { signIn } = useGetLoginMethods();
   const { triggerIsSigningUp } = useLoginDispatch();
-  const { isSigningUp } = useLoginState();
+  const { loginFormData, isSigningUp } = useLoginState();
 
   // TODO: Add to styled components && add facebok and apple signin
   return (
@@ -19,6 +22,7 @@ const LoginFormSignInButtons = () => {
       <Button
         title={isSigningUp ? 'Create Account' : 'Login'}
         style={{ marginTop: 16, marginBottom: 32 }}
+        disabled={!loginFormData.email || !loginFormData.password}
         // TODO: Login functionality
         onPress={() => null}
       />
@@ -26,16 +30,20 @@ const LoginFormSignInButtons = () => {
         <GoogleSigninButton
           style={{ width: 200 }}
           size={GoogleSigninButton.Size.Wide}
-          color={GoogleSigninButton.Color.Light}
+          color={GoogleSigninButton.Color.Dark}
           onPress={signIn}
         />
       </LoginFormButtonContainer>
-      <Button
-        title={!isSigningUp ? "Don't have an account? Sign up" : "Back to Login"}
-        type={'text'}
-        style={{ marginTop: 32 }}
-        onPress={(): void => triggerIsSigningUp(!isSigningUp)}
-      />
+      <LoginFormFooterContainer>
+        <Condition condition={!isSigningUp}>
+          <StyledText type={'ListItemSubTitle'}>Don't have an account?</StyledText>
+        </Condition>
+          <Button
+            title={!isSigningUp ? "Sign up" : "Back to Login"}
+            type={'text'}
+            onPress={(): void => triggerIsSigningUp(!isSigningUp)}
+          />
+      </LoginFormFooterContainer>
     </>
   );
 };

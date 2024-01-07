@@ -15,7 +15,7 @@ const LoginForm = () => {
   return (
     <LandingFormContainer>
       <Button title={'Login'} onPress={(): void => navigation.navigate(ScreenEnum.Login)} />
-      <LandingFormButton title={'Signup'} onPress={(): void => navigation.navigate(ScreenEnum.Signup)} />
+      <LandingFormButton title={'Signup'} onPress={(): void => navigation.navigate(ScreenEnum.Login)} />
     </LandingFormContainer>
   );
 };

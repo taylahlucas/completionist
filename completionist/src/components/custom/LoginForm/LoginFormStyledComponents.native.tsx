@@ -13,3 +13,7 @@ export const LoginFormContainer = styled.View`
 export const LoginFormButtonContainer = styled.View`
   margin-top: -16px;
 `;
+
+export const LoginFormFooterContainer = styled.View`
+  margin-top: 32px;
+`;

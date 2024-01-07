@@ -9,6 +9,7 @@ import Condition from '@components/general/Condition.native';
 const LoginForm = () => {
   const { setLoginFormData } = useLoginDispatch();
   const { loginFormData, isSigningUp } = useLoginState();
+  
   // TODO: Email/password login and signup
   return (
     <LoginFormContainer>
@@ -41,19 +42,21 @@ const LoginForm = () => {
         />
       </LoginFormButtonContainer>
       <Condition condition={isSigningUp}>
-        <TextInput
-          placeholder={'Password'}
-          inputStyle={'text'}
-          value={loginFormData.password}
-          onChangeText={(value) => setLoginFormData({
-            ...loginFormData,
-            password: value
-          })}
-          onReset={(): void => setLoginFormData({
-            ...loginFormData,
-            password: ''
-          })}
-        />
+        <LoginFormButtonContainer>
+          <TextInput
+            placeholder={'Username'}
+            inputStyle={'text'}
+            value={loginFormData.password}
+            onChangeText={(value) => setLoginFormData({
+              ...loginFormData,
+              password: value
+            })}
+            onReset={(): void => setLoginFormData({
+              ...loginFormData,
+              password: ''
+            })}
+          />
+        </LoginFormButtonContainer>
       </Condition>
       <Condition condition={!isSigningUp}>
         <Button
