@@ -20,7 +20,7 @@ const CustomSearchBar = ({ placeholder = 'Search items...' }: CustomSearchBarPro
     <TextInput
       placeholder={placeholder}
       value={searchValue}
-      style={styles.searchBar}
+      height={38}
       onChangeText={setSearchValue}
       onReset={(): void => reset()}
       leftComponent={<Icon style={styles.searchBarIcon} name={'search'} color={theme.midGrey} />}

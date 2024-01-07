@@ -1,4 +1,3 @@
-import TextInput from '@components/general/TextInput/TextInput.native';
 import { DEFAULT_BORDER_RADIUS } from '@styles/global';
 import { Dimensions } from 'react-native';
 import styled from 'styled-components/native';
@@ -18,8 +17,4 @@ export const RequestGameContentInputContainer = styled.View<RequestGameContentPr
   border-radius: ${DEFAULT_BORDER_RADIUS}px;
   background-color: ${(props): string => props.color};
   justify-content: center;
-`;
-
-export const RequestGameContentTextInput = styled(TextInput)<RequestGameContentProps>`
-  height: 200px;
 `;

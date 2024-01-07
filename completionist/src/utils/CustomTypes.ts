@@ -32,3 +32,5 @@ export type CredentialsResponse = UserCredentials | null;
 export type NavigationHeaderLeftActionTypes = 'back' | 'menu' | 'none';
 
 export type NavigationHeaderRightActionTypes = 'logout' | 'filter' | 'none';
+
+export type TextInputStyleType = 'default' | 'text';

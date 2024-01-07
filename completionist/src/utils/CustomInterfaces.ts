@@ -3,6 +3,12 @@ import { NavigationAction, NavigationState } from '@react-navigation/native';
 import { MainState } from '@redux/MainState';
 import { SettingsState } from '@components/custom/SettingsContent/SettingsState';
 
+export interface LoginFormData {
+  name: string;
+  email: string;
+  password: string;
+}
+
 export interface UserFormData {
   userId: string;
   name: string;
@@ -52,6 +58,7 @@ export interface Base {
 
 export interface StoreState {
   main: MainState;
+  login: LoginState;
   settings: SettingsState;
 }
 

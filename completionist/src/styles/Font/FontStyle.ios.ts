@@ -8,6 +8,7 @@ const REGULAR = '400';
 
 export default StyleSheet.create({
   Heading: {
+    // fontFamily: AVENIR_LIGHT,
     fontFamily: MONTSERRAT,
     fontSize: 22,
     letterSpacing: 0.37,
@@ -15,43 +16,43 @@ export default StyleSheet.create({
     fontWeight: BOLD
   },
     ListItemTitle: {
-    fontFamily: AVENIR_LIGHT,
+    fontFamily: MONTSERRAT,
     fontSize: 19,
     letterSpacing: 0.37,
     lineHeight: 22,
     fontWeight: SEMIBOLD,
   },
   ListItemTitleBold: {
-    fontFamily: AVENIR_LIGHT,
-    fontSize: 17,
+    fontFamily: MONTSERRAT,
+    fontSize: 16,
     letterSpacing: 0.37,
     lineHeight: 22,
     fontWeight: BOLD
   },
   ListItemSubTitleBold: {
-    fontFamily: AVENIR_LIGHT,
-    fontSize: 17,
+    fontFamily: MONTSERRAT,
+    fontSize: 16,
     letterSpacing: 0.37,
     lineHeight: 22,
     fontWeight: BOLD
   },
   ListItemSubTitleItalic: {
-    fontFamily: AVENIR_LIGHT,
-    fontSize: 17,
+    fontFamily: MONTSERRAT,
+    fontSize: 16,
     letterSpacing: 0.37,
     lineHeight: 22,
     fontWeight: REGULAR,
     fontStyle: 'italic'
   },
   ListItemSubTitle: {
-    fontFamily: AVENIR_LIGHT,
-    fontSize: 17,
+    fontFamily: MONTSERRAT,
+    fontSize: 16,
     letterSpacing: 0.37,
     lineHeight: 22,
     fontWeight: REGULAR,
   },
   ListItemSubDescription: {
-    fontFamily: AVENIR_LIGHT,
+    fontFamily: MONTSERRAT,
     fontSize: 14,
     letterSpacing: 0.37,
     lineHeight: 22,

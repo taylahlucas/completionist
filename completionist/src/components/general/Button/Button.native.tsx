@@ -19,13 +19,30 @@ const Button = ({ title, type = 'default', onPress, style, disabled = false }: B
   switch (type) {
     case 'text':
       return (
-        <StyledButtonText style={{ ...style }} onPress={onPress} color={theme.darkGrey} disabled={disabled}>
-          <StyledText type={'ListItemSubTitle'}>{title}</StyledText>
+        <StyledButtonText 
+          style={{ ...style }} 
+          onPress={onPress} 
+          color={theme.darkGrey} 
+          disabled={disabled}
+        >
+          <StyledText
+            style={{
+              textDecorationLine: 'underline'
+            }}
+            type={'ListItemSubTitle'}
+          >
+            {title}
+          </StyledText>
         </StyledButtonText>
       );
     default:
       return (
-        <StyledButtonDefault style={{ ...style }} onPress={onPress} color={theme.darkGrey} disabled={disabled}>
+        <StyledButtonDefault 
+          style={{ ...style }} 
+          onPress={onPress} 
+          color={theme.darkGrey} 
+          disabled={disabled}
+        >
           <StyledText>{title}</StyledText>
         </StyledButtonDefault>
       );

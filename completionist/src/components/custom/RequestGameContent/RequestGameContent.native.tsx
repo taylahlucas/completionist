@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import useGetTheme from '@styles/hooks/useGetTheme';
-import { RequestGameContentTextInput, RequestGameContainer } from './RequestGameContentStyledComponents.native';
+import { RequestGameContainer } from './RequestGameContentStyledComponents.native';
 import StyledText from '@components/general/Text/StyledText.native';
 import useEndpoints from '@data/hooks/useEndpoints';
 import useMainState from '@redux/hooks/useMainState';
@@ -47,10 +47,10 @@ const RequestGameContent = () => {
           subject: ''
         })}
       />
-      <RequestGameContentTextInput
+      <TextInput
         placeholder={'Write your request here...'}
         value={formData.text}
-        color={theme.lightGrey}
+        height={200}
         onChangeText={(value: string) => setFormData({
           ...formData,
           text: value

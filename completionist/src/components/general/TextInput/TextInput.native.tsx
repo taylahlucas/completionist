@@ -5,11 +5,14 @@ import { TextInputStyled, TextInputCancel } from './TextInputStyledComponents.na
 import { TextInputContainer } from './TextInputStyledComponents.native';
 import Condition from '../Condition.native';
 import defaultStyle from '@styles/Font/FontStyle';
+import { TextInputStyleType } from '@utils/CustomTypes';
+import useGetTextInputStyle from './hooks/useGetTextInputStyle.native';
 
 export interface TextInputProps {
   placeholder?: string;
   value: string;
-  style?: ViewStyle;
+  height?: number;
+  inputStyle?: TextInputStyleType;
   onChangeText: (value: string) => void;
   onReset: () => void;
   leftComponent?: JSX.Element;
@@ -19,16 +22,18 @@ export interface TextInputProps {
 const TextInput = ({ 
   placeholder, 
   value, 
-  style, 
+  height = 45, 
+  inputStyle = 'default',
   onChangeText, 
   onReset,
   leftComponent,
   multiline = false
 }: TextInputProps) => {
   const theme = useGetTheme();
+  const inputTypeStyle = useGetTextInputStyle(inputStyle)
 
   return (
-    <TextInputContainer color={theme.darkGrey} style={style} multiline={multiline}>
+    <TextInputContainer height={height} style={inputTypeStyle} multiline={multiline}>
       <Condition condition={!!leftComponent}>
         {leftComponent}
       </Condition>
@@ -42,11 +47,13 @@ const TextInput = ({
         onChange={(event: NativeSyntheticEvent<TextInputChangeEventData>): void => onChangeText(event.nativeEvent.text ?? '')}
         multiline={multiline}
       />
-      <TextInputCancel
-        onPress={onReset}
-        name={'cancel'}
-        color={theme.midGrey}
-      />
+      <Condition condition={!!value.length}>
+        <TextInputCancel
+          onPress={onReset}
+          name={'cancel'}
+          color={inputStyle === 'text' ? theme.darkGrey : theme.midGrey}
+        />
+      </Condition>
     </TextInputContainer>
   );
 };

@@ -1,45 +1,68 @@
-import React, { useState } from 'react';
+import React from 'react';
 import TextInput from '@components/general/TextInput/TextInput.native';
-import { LoginFormContainer } from './LoginFormStyledComponents.native';
-
-interface LoginState {
-  email: string;
-  password: string;
-}
+import { LoginFormContainer, LoginFormButtonContainer } from './LoginFormStyledComponents.native';
+import Button from '@components/general/Button/Button.native';
+import useLoginState from './hooks/useLoginState';
+import useLoginDispatch from './hooks/useLoginDispatch';
+import Condition from '@components/general/Condition.native';
 
 const LoginForm = () => {
-  const [user, setUser] = useState<LoginState>({
-    email: '',
-    password: ''
-  });
-
+  const { setLoginFormData } = useLoginDispatch();
+  const { loginFormData, isSigningUp } = useLoginState();
   // TODO: Email/password login and signup
   return (
     <LoginFormContainer>
       <TextInput
         placeholder={'Email'}
-        value={user.email}
-        onChangeText={(value) => setUser({
-          ...user,
+        inputStyle={'text'}
+        value={loginFormData.email}
+        onChangeText={(value) => setLoginFormData({
+          ...loginFormData,
           email: value
         })}
-        onReset={(): void => setUser({
-          ...user,
+        onReset={(): void => setLoginFormData({
+          ...loginFormData,
           email: ''
         })}
       />
-      <TextInput 
-        placeholder={'Password'}
-        value={user.password}
-        onChangeText={(value) => setUser({
-          ...user,
-          password: value
-        })}
-        onReset={(): void => setUser({
-          ...user,
-          password: ''
-        })}
-      />
+      <LoginFormButtonContainer>
+        <TextInput
+          placeholder={'Password'}
+          inputStyle={'text'}
+          value={loginFormData.password}
+          onChangeText={(value) => setLoginFormData({
+            ...loginFormData,
+            password: value
+          })}
+          onReset={(): void => setLoginFormData({
+            ...loginFormData,
+            password: ''
+          })}
+        />
+      </LoginFormButtonContainer>
+      <Condition condition={isSigningUp}>
+        <TextInput
+          placeholder={'Password'}
+          inputStyle={'text'}
+          value={loginFormData.password}
+          onChangeText={(value) => setLoginFormData({
+            ...loginFormData,
+            password: value
+          })}
+          onReset={(): void => setLoginFormData({
+            ...loginFormData,
+            password: ''
+          })}
+        />
+      </Condition>
+      <Condition condition={!isSigningUp}>
+        <Button
+          title={'Forgot Password?'}
+          type={'text'}
+          style={{ alignItems: 'flex-end' }}
+          onPress={() => null}
+        />
+      </Condition>
     </LoginFormContainer>
   );
 };

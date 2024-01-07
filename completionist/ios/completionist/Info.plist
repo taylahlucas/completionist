@@ -63,6 +63,7 @@
 		<string>assets/icons/FontAwesome.ttf</string>
 		<string>assets/icons/Ionicons.ttf</string>
 		<string>assets/icons/MaterialIcons.ttf</string>
+		<string>assets/fonts/Montserrat-Regular.ttf</string>
 	</array>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string></string>
