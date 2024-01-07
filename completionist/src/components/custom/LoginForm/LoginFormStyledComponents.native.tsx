@@ -9,9 +9,9 @@ export const LoginFormContainer = styled.View`
   margin-top: 40%;
   justify-content: center;
 `;
-
+//   margin-top: -16px;
 export const LoginFormButtonContainer = styled.View`
-  margin-top: -16px;
+
 `;
 
 export const LoginFormFooterContainer = styled.View`

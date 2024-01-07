@@ -41,7 +41,7 @@ const CheckBox = ({ isToggled, action }: CheckBoxProps) => {
       >
       <StyledAnimation
         ref={animationRef}
-        source={require('../../../animations/tick.json')}
+        source={require('@styles/animations/tick.json')}
         autoPlay={false}
         loop={false}
       />

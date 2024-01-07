@@ -8,3 +8,6 @@ completionist/.env.d.ts
 completionist/test.json
 completionist/backend/package-lock.json
 completionist/ios/GoogleService-Info.plist
+completionist/package-lock.json
+completionist/android/app/google-services.json
+completionist/android/app/debug.keystore

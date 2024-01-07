@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">completionist</string>
+    <string name="web_client_id">@string/WEB_CLIENT_ID</string>
 </resources>

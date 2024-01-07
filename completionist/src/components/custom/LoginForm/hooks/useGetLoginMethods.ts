@@ -17,9 +17,9 @@ const useGetLoginMethods = () => {
   const signIn = async () => {
     try {
       await GoogleSignin.hasPlayServices();
-      const { idToken } = await GoogleSignin.signIn();
+      const { idToken } =  await GoogleSignin.signIn();
       const googleCredential = auth.GoogleAuthProvider.credential(idToken);
-
+      
       return auth()
         .signInWithCredential(googleCredential)
         .then((response) => {

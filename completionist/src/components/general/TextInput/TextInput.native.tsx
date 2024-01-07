@@ -40,7 +40,7 @@ const TextInput = ({
       <TextInputStyled
         color={theme.lightGrey}
         hasLeftComponent={!!leftComponent}
-        style={{ ...defaultStyle['ListItemSubTitle'] }}
+        style={defaultStyle['ListItemSubTitle']}
         placeholder={placeholder}
         placeholderTextColor={theme.midGrey}
         value={value}

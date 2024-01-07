@@ -1,4 +1,4 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.taylahlucas.completionist">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -21,8 +21,8 @@
             <category android:name="android.intent.category.LAUNCHER" />
         </intent-filter>
       </activity>
-        <!-- <meta-data
-          android:name="com.google.android.gms.auth.api.signin.client.default_web_client_id"
-          android:value="@string/default_web_client_id" /> -->
+      <meta-data
+        android:name="com.google.android.gms.auth.api.signin.client.default_web_client_id"
+        android:value="@string/WEB_CLIENT_ID" />
     </application>
 </manifest>

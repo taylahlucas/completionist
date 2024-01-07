@@ -1,4 +1,4 @@
-package com.completionist;
+package com.taylahlucas.completionist;
 
 import android.app.Application;
 import com.facebook.react.PackageList;

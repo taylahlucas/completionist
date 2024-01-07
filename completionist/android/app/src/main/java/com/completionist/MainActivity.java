@@ -1,4 +1,4 @@
-package com.completionist;
+package com.taylahlucas.completionist;
 
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;

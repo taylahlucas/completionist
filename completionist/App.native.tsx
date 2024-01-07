@@ -8,7 +8,7 @@ import configureStore from '@redux/store';
 
 // https://www.youtube.com/watch?v=dfoZj7DPSAs
 GoogleSignin.configure({
-  webClientId: config.googleClientId
+  webClientId: config.webClientId
 });
 
 const store = configureStore;

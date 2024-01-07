@@ -1,8 +1,9 @@
+import { Platform } from 'react-native';
+import { Subscription } from 'react-redux';
 import axios, { AxiosError } from 'axios';
 import { GeneralData, User, UserFormData } from '@utils/CustomInterfaces';
 import { UserResponse } from '@utils/CustomTypes';
 import { signupUrl, getUserByUserIdUrl, updateUserDataUrl, sendEmailUrl } from '../urls';
-import { Subscription } from 'react-redux';
 
 interface CreateUserProps {
   data: UserFormData;
@@ -33,8 +34,10 @@ interface EndpointsReturnType {
 }
 
 const useEndpoints = (): EndpointsReturnType => {
+  const url = Platform.OS === 'ios' ? process.env.IOS_LOCAL_URL : process.env.ANDROID_LOCAL_URL;
+
   const createUser = async ({ data }: CreateUserProps): Promise<UserResponse> => {
-    return await axios.post(`${process.env.LOCAL_URL}/${signupUrl}`,
+    return await axios.post(`${url}/${signupUrl}`,
       {
         userId: data.userId,
         name: data.name,
@@ -51,7 +54,7 @@ const useEndpoints = (): EndpointsReturnType => {
   };
 
   const getUserByUserId = async ({ userId }: GetUserByUserIdProps): Promise<UserResponse> => {
-   return await axios.get(`${process.env.LOCAL_URL}/${getUserByUserIdUrl}/${userId}`)
+   return await axios.get(`${url}/${getUserByUserIdUrl}/${userId}`)
       .then(response => !!response.data && response.data as User ? response.data : null)
       .catch((error: AxiosError) => {
         console.log("Error getUserByUserId: ", error.message);
@@ -60,7 +63,7 @@ const useEndpoints = (): EndpointsReturnType => {
   };
 
   const updateUserData = async ({ userId, subscription, skyrimData, fallout4Data }: UpdateUserDataProps): Promise<void> => {
-    await axios.post(`${process.env.LOCAL_URL}/${updateUserDataUrl}`, {
+    await axios.post(`${url}/${updateUserDataUrl}`, {
       userId: userId,
       subscription: subscription,
       skyrimData: skyrimData,
@@ -72,8 +75,8 @@ const useEndpoints = (): EndpointsReturnType => {
   };
 
   const sendEmail = async ({ from, subject, text }: EmailProps): Promise<void> => {
-    console.log("SENDING TO: ", `${process.env.LOCAL_URL}/${sendEmailUrl}`)
-    await axios.post(`${process.env.LOCAL_URL}/${sendEmailUrl}`, {
+    console.log("SENDING TO: ", `${url}/${sendEmailUrl}`)
+    await axios.post(`${url}/${sendEmailUrl}`, {
       from: from,
       subject: subject,
       text: text

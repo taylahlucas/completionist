@@ -5,11 +5,11 @@ const useGetGameImage = () => {
   const getGameImage = (game: SubscriptionTypeEnum): ImageURISource => {
     switch (game) {
       case SubscriptionTypeEnum.SKYRIM:
-        return require('../../../../assets/images/skyrim.jpg');
+        return require('@styles/images/skyrim.jpg');
       case SubscriptionTypeEnum.FALLOUT_4:
-       return require('../../../../assets/images/fallout4.jpg');
+       return require('@styles/images/fallout4.jpg');
       default:
-        return require('../../../../assets/images/fallout4.jpg');
+        return require('@styles/images/fallout4.jpg');
     }
   };
 

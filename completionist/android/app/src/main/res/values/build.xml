@@ -1,0 +1,3 @@
+<resources>
+    <string name="WEB_CLIENT_ID">${WEB_CLIENT_ID}</string>
+</resources>

@@ -2,6 +2,7 @@ import { ScreenEnum, SubscriptionTypeEnum } from './CustomEnums';
 import { NavigationAction, NavigationState } from '@react-navigation/native';
 import { MainState } from '@redux/MainState';
 import { SettingsState } from '@components/custom/SettingsContent/SettingsState';
+import { LoginState } from '@components/custom/LoginForm/LoginState';
 
 export interface LoginFormData {
   name: string;
@@ -65,8 +66,9 @@ export interface StoreState {
 export interface EnvironmentConfig {
   APP_ID: string;
   ACCESS_TOKEN: string;
-  GOOGLE_CLIENT_ID: string;
-  LOCAL_URL: string;
+  WEB_CLIENT_ID: string;
+  IOS_LOCAL_URL: string;
+  ANDROID_LOCAL_URL: string;
 }
 
 // Navigation Interfaces

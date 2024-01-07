@@ -11,7 +11,6 @@ import { View } from 'react-native';
 import Condition from '@components/general/Condition.native';
 
 const LoginFormSignInButtons = () => {
-  const navigation = useReactNavigation();
   const { signIn } = useGetLoginMethods();
   const { triggerIsSigningUp } = useLoginDispatch();
   const { loginFormData, isSigningUp } = useLoginState();

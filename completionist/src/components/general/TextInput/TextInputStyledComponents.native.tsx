@@ -30,6 +30,7 @@ export const TextInputTextContainer = styled.View`
 export const TextInputStyled = styled.TextInput<TextInputProps>`
   margin-left: ${props => props.hasLeftComponent ? 50 : 16}px;
   margin-right: 48px;
+  padding: 2px;
 `;
 
 export const TextInputCancel = styled(IconButton)`
