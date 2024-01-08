@@ -1,16 +1,22 @@
-import React from 'react';
+import React, { useRef } from 'react';
+import { View } from 'react-native';
 import StandardLayout from '../components/general/Layouts/StandardLayout.native';
-import StyledText from '@components/general/Text/StyledText.native';
-import useGetTheme from '@styles/hooks/useGetTheme';
-import LandingForm from '@components/custom/LandingForm/LandingForm.native';
+import LottieView from 'lottie-react-native';
 
 const Landing = () => {
-  const theme = useGetTheme();
+  const animationRef = useRef<LottieView>(null);
 
   return (
     <StandardLayout>
-      <StyledText style={{ marginTop: 32 }} color={theme.lightestGrey}>Completionist.</StyledText>
-      <LandingForm />
+      <View style={{ height: '90%', justifyContent: 'center' }}>
+        <LottieView
+          ref={animationRef}
+          style={{ width: 150, height: 150 }}
+          source={require('../assets/animations/tick.json')}
+          autoPlay={true}
+          loop={true}
+        />
+      </View>
     </StandardLayout>
   );
 };

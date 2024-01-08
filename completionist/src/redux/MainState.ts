@@ -37,6 +37,7 @@ export const initialUser: User = {
 }
 
 export interface MainState {
+  readonly showSplashScreen: boolean;
   readonly appState?: AppStateStatus,
   readonly currentScreen?: ScreenEnum;
   readonly selectedGame?: SubscriptionTypeEnum;
@@ -51,6 +52,7 @@ export interface MainState {
 }
 
 export const initialState: MainState = {
+  showSplashScreen: true,
   webSignInConfigured: false,
   currentScreen: ScreenEnum.Login,
   isLoggedIn: false,
@@ -66,6 +68,9 @@ const slice = createSlice({
   name: 'main',
   initialState: initialState,
   reducers: {
+    setShowSplashScreen: (state, action) => {
+      state.showSplashScreen = action.payload;
+    },
     setAppState: (state, action) => {
       state.appState = action.payload;
     },
@@ -161,6 +166,7 @@ const slice = createSlice({
 });
 
 export const {
+  setShowSplashScreen,
   setAppState,
   setCurrentScreen,
   setSelectedGame,

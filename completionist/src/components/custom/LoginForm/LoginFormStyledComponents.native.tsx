@@ -1,7 +1,6 @@
 import styled from 'styled-components/native';
 
 export const LoginContentContainer = styled.View`
-  height: 100%;
   align-items: center;
 `;
 

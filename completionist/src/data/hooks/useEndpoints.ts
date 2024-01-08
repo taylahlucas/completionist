@@ -1,7 +1,7 @@
 import { Platform } from 'react-native';
 import { Subscription } from 'react-redux';
 import axios, { AxiosError } from 'axios';
-import { GeneralData, User, UserFormData } from '@utils/CustomInterfaces';
+import { GeneralData, User, UserFormData, Subscription } from '@utils/CustomInterfaces';
 import { UserResponse } from '@utils/CustomTypes';
 import { signupUrl, getUserByUserIdUrl, updateUserDataUrl, sendEmailUrl } from '../urls';
 

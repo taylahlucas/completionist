@@ -82,7 +82,7 @@ export interface NavigationDrawerItemData {
 
 export type RootDrawerParamList = {
   RootStackNavigator: undefined;
-  // Landing: undefined;
+  Landing: undefined;
   Login: undefined;
   Home: undefined;
   Quests: undefined;

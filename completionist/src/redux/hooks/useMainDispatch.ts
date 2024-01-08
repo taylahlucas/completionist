@@ -2,6 +2,7 @@ import { Dispatch } from 'redux';
 import { ScreenEnum, SubscriptionTypeEnum } from '@utils/CustomEnums';
 import { Item, User, UserFormData } from '@utils/CustomInterfaces';
 import { 
+  setShowSplashScreen,
   setAppState,
   setCurrentScreen,
   setSelectedGame,
@@ -22,6 +23,7 @@ import { useAppDispatch } from '../store';
 
 // TODO: Change from value to more descriptive value
 interface MainDispatch {
+  setShowSplashScreen: (value: boolean) => void;
   setAppState: (value: string) => void;
   setCurrentScreen: (value: ScreenEnum) => void;
   setSelectedGame: (value: SubscriptionTypeEnum) => void;
@@ -43,6 +45,9 @@ const useMainDispatch = (): MainDispatch => {
   const dispatch: Dispatch = useAppDispatch();
 
   return {
+    setShowSplashScreen(value: boolean): void {
+      dispatch(setShowSplashScreen(value));
+    },
     setAppState(value: string): void {
       dispatch(setAppState(value));
     },
