@@ -1,22 +1,30 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Condition from '@components/general/Condition.native';
 import useMainState from '@redux/hooks/useMainState';
 import Home from './Home.native';
 import Login from './Login.native';
 import useInitUserData from '@data/hooks/useInitUserData.native';
+import Landing from './Landing.native';
+import usePlaySplashScreen from '@utils/hooks/usePlaySplashScreen.native';
 
 const RootStackNavigator = () => {
-  const { isLoggedIn, user } = useMainState();
+  const { showSplashScreen, isLoggedIn, user } = useMainState();
 
-  // TODO: Debug here check commenting out settings hook
+  usePlaySplashScreen();
+    // TODO: Debug here check commenting out settings hook
   useInitUserData();
 
   return (
     <Condition 
-      condition={isLoggedIn && !!user.userId}
-      conditionalElement={<Login />}
+      condition={!showSplashScreen}
+      conditionalElement={<Landing />}
     >
-      <Home />
+      <Condition 
+        condition={isLoggedIn && !!user.userId}
+        conditionalElement={<Login />}
+      >
+        <Home />
+      </Condition>
     </Condition>
   );
 };

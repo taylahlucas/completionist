@@ -2,6 +2,7 @@ import { ScreenEnum, SubscriptionTypeEnum } from './CustomEnums';
 import { NavigationAction, NavigationState } from '@react-navigation/native';
 import { MainState } from '@redux/MainState';
 import { SettingsState } from '@components/custom/SettingsContent/SettingsState';
+import { LoginState } from '@components/custom/LoginForm/LoginState';
 
 export interface LoginFormData {
   name: string;
@@ -80,7 +81,7 @@ export interface NavigationDrawerItemData {
 
 export type RootDrawerParamList = {
   RootStackNavigator: undefined;
-  // Landing: undefined;
+  Landing: undefined;
   Login: undefined;
   Home: undefined;
   Quests: undefined;

@@ -17,6 +17,7 @@ import Settings from '@screens/Settings.native';
 import Condition from '@components/general/Condition.native';
 import RequestGame from '@screens/RequestGame.native';
 import useGetTheme from '@styles/hooks/useGetTheme';
+import Landing from '@screens/Landing.native';
 
 const Drawer = createDrawerNavigator<RootDrawerParamList>();
 
@@ -48,7 +49,7 @@ const NavigationDrawer = () => {
       }}
     >
       <Drawer.Screen name={ScreenEnum.RootStackNavigator} component={RootStackNavigator} />
-      {/* <Drawer.Screen name={ScreenEnum.Landing} component={Landing} /> */}
+      <Drawer.Screen name={ScreenEnum.Landing} component={Landing} />
       <Drawer.Screen name={ScreenEnum.Login} component={Login} />
       <Drawer.Screen name={ScreenEnum.Home} component={Home} />
       <Drawer.Screen name={ScreenEnum.Quests} component={Quests} />
