@@ -2,9 +2,8 @@ require("dotenv").config();
 const User = require('../models/user');
 const jwt = require('jsonwebtoken');
 const mongoose = require('mongoose');
-//{ hashPassword, comparePassword }
-// const authFunction = require("../helpers/auth")
-// sendgrid
+const hashPassword = require("../scripts/hash_password");
+const comparePasswords = require("../scripts/compare_passwords");
 
 const signup = async (req, res) => {
   try {
@@ -12,6 +11,7 @@ const signup = async (req, res) => {
       userId,
       name,
       email,
+      password,
       userAvatar,
       subscription
      } = req.body;
@@ -26,17 +26,22 @@ const signup = async (req, res) => {
         error: "Email is taken",
       });
     }
-    // hash password
-    // const hashedPassword = await hashPassword(password);
+    // Hash password
+    let hashedPassword = '';
+    if (password) {
+      hashedPassword = await hashPassword(password)
+    }
+
     try {
       const user = await new User({
         userId,
         name,
         email,
+        password: hashedPassword,
         userAvatar,
         subscription
       }).save();
-      // create signed token
+      // Create signed token
       const token = jwt.sign({ _id: new mongoose.Types.ObjectId() }, process.env.JWT_SECRET, {
         expiresIn: "7d",
       });
@@ -57,21 +62,21 @@ const signup = async (req, res) => {
 const signin = async (req, res) => {
   try {
     const { email, password } = req.body;
-    // check if our db has user with that email
+    // Check if db has user with that email
     const user = await User.findOne({ email });
     if (!user) {
       return res.json({
         error: "No user found",
       });
     }
-    // check password
-    // const match = await comparePassword(password, user.password);
-    // if (!match) {
-    //   return res.json({
-    //     error: "Wrong password",
-    //   });
-    // }
-    // create signed token
+
+    const match = await comparePasswords(password, user.password);
+    if (!match) {
+      return res.json({
+        error: "Wrong password",
+      });
+    }
+    // Create signed token
     const token = jwt.sign({ _id: new mongoose.Types.ObjectId() }, process.env.JWT_SECRET, {
       expiresIn: "7d",
     });
@@ -83,8 +88,7 @@ const signin = async (req, res) => {
     });
     console.log('Signed in successfully');
   } catch (err) {
-    console.log(err);
-    return res.status(400).send("Error signing in: ", err);
+    console.log('Error signing in: ', err)
   }
 };
 

@@ -4,13 +4,15 @@ import { User } from '@utils/CustomInterfaces';
 import useCache from './useCache.native';
 import useKeychain from './useKeychain.native';
 import { ScreenEnum } from '@utils/CustomEnums';
-import { initialGameData, initialFormData } from '@redux/MainState';
+import { initialGameData } from '@redux/MainState';
+import { initialFormData } from '@components/custom/LoginForm/LoginState';
 import { CredentialsResponse } from '@utils/CustomTypes';
 import { 
   expectedUserDataKeys, 
   expectedGeneralDataKeys,
   expectedSubscriptionDataKeys 
 } from '@utils/constants';
+import useLoginDispatch from '@components/custom/LoginForm/hooks/useLoginDispatch';
 
 interface SaveUserDataReturnType {
   loadUserData: () => void;
@@ -20,7 +22,8 @@ interface SaveUserDataReturnType {
 
 const useSaveUserData = (): SaveUserDataReturnType => {
   const navigation = useReactNavigation();
-  const { setUser, setUserFormData, setLoggedIn } = useMainDispatch();
+  const { setUser } = useMainDispatch();
+  const { setLoginFormData, setLoggedIn } = useLoginDispatch();
   const { fetchDataFromCache, saveToCache, clearCache } = useCache();
   const { getCredentials, deleteCredentials } = useKeychain();
 
@@ -82,7 +85,7 @@ const useSaveUserData = (): SaveUserDataReturnType => {
   };
 
   const removeUserData = () => {
-    setUserFormData(initialFormData);
+    setLoginFormData(initialFormData);
     clearCache();
     deleteCredentials();
     setLoggedIn(false);

@@ -1,6 +1,6 @@
 import { Dispatch } from 'redux';
 import { ScreenEnum, SubscriptionTypeEnum } from '@utils/CustomEnums';
-import { Item, User, UserFormData } from '@utils/CustomInterfaces';
+import { Item, User } from '@utils/CustomInterfaces';
 import { 
   setShowSplashScreen,
   setAppState,
@@ -8,8 +8,6 @@ import {
   setSelectedGame,
   setSelectedGameSettings,
   setWebSignInConfigured,
-  setLoggedIn,
-  setUserFormData,
   setUser,
   setSearchValue, 
   triggerShowSearchResults, 
@@ -29,8 +27,6 @@ interface MainDispatch {
   setSelectedGame: (value: SubscriptionTypeEnum) => void;
   setSelectedGameSettings: (value: SubscriptionTypeEnum) => void;
   setWebSignInConfigured: (value: boolean) => void;
-  setLoggedIn: (value: boolean) => void;
-  setUserFormData: (value: UserFormData) => void;
   setUser: (value: User) => void;
   setSearchValue: (value: string) => void;
   triggerShowSearchResults: (value: boolean) => void;
@@ -62,12 +58,6 @@ const useMainDispatch = (): MainDispatch => {
     },
     setWebSignInConfigured(value: boolean): void {
       dispatch(setWebSignInConfigured(value));
-    },
-    setLoggedIn(value: boolean): void {
-      dispatch(setLoggedIn(value));
-    },
-    setUserFormData(value: UserFormData): void {
-      dispatch(setUserFormData(value));
     },
     setUser(value: User): void {
       dispatch(setUser(value));

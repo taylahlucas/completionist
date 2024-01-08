@@ -5,15 +5,10 @@ import { SettingsState } from '@components/custom/SettingsContent/SettingsState'
 import { LoginState } from '@components/custom/LoginForm/LoginState';
 
 export interface LoginFormData {
-  name: string;
-  email: string;
-  password: string;
-}
-
-export interface UserFormData {
   userId: string;
   name: string;
   email: string;
+  password?: string;
   userAvatar?: string;
   subscription: Subscription[];
 }
@@ -136,11 +131,6 @@ export interface Subscription {
   isActive: boolean;
 }
 
-export interface User {
-  userId: string;
-  name: string;
-  email: string;
-  userAvatar?: string;
-  subscription: Subscription[];
+export interface User extends LoginFormData {
   data: UserData;
 }

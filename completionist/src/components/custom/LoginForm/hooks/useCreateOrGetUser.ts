@@ -1,20 +1,22 @@
 import { useEffect } from 'react';
-import useMainState from '@redux/hooks/useMainState';
 import useEndpoints from '@data/hooks/useEndpoints';
 import useKeychain from '@data/hooks/useKeychain.native';
 import useCache from '@data/hooks/useCache.native';
 import { CredentialsResponse, UserResponse } from '@utils/CustomTypes';
 import useSaveUserData from '@data/hooks/useSaveUserData.native';
+import useGetLoginMethods from './useGetLoginMethods';
+import useLoginState from './useLoginState';
 
 const useCreateOrGetUser = () => {
-  const { userFormData, isLoggedIn } = useMainState();
+  const { loginFormData, isLoggedIn } = useLoginState();
   const { createUser, getUserByUserId } = useEndpoints();
   const { getCredentials, storeCredentials } = useKeychain();
+  const { signUp } = useGetLoginMethods();
   const { fetchDataFromCache } = useCache();
   const { saveUserData } = useSaveUserData();
 
   useEffect(() => {
-    if (!!userFormData.userId && !isLoggedIn) {
+    if (!!loginFormData.userId && !isLoggedIn) {
       getCredentials()
         .then((credentials: CredentialsResponse) => {
           if (!!credentials) {
@@ -24,35 +26,27 @@ const useCreateOrGetUser = () => {
                   saveUserData(cachedData);
                 }
                 else {
-                  createUser({ data: userFormData })
-                    .then((response: UserResponse) => {
-                      if (!!response) {
-                        saveUserData(response);
-                      }
-                      else {
-                        console.log("Error creating user");
-                      }
-                    });
+                  signUp();
                 }
               })
           }
           else {
-            getUserByUserId({ userId: userFormData.userId })
+            getUserByUserId({ userId: loginFormData.userId })
               .then(user => {
                 if (!!user) {
                   storeCredentials({
                     username: user.name,
-                    password: user.userId
+                    password: user.userId ?? loginFormData.password ?? ''
                   });
                   saveUserData(user);
                 }
                 else {
-                  createUser({ data: userFormData })
+                  createUser({ data: loginFormData })
                     .then((response: UserResponse) => {
                       if (!!response) {
                         storeCredentials({
                           username: response.name,
-                          password: response.userId
+                          password: response.userId ?? loginFormData.password ?? ''
                         });
                         saveUserData(response);
                       }
@@ -65,7 +59,7 @@ const useCreateOrGetUser = () => {
           }
         })
     }
-  }, [userFormData])
+  }, [loginFormData])
 };
 
 export default useCreateOrGetUser;

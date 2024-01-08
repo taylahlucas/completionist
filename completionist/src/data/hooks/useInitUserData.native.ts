@@ -4,11 +4,13 @@ import { AppState } from 'react-native';
 import useEndpoints from './useEndpoints';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
 import useSaveUserData from './useSaveUserData.native';
+import useLoginState from '@components/custom/LoginForm/hooks/useLoginState';
 
 const useInitUserData = () => {
   const appStateRef = useRef(AppState.currentState);
   const { setAppState } = useMainDispatch();
-  const { isLoggedIn, user, appState } = useMainState();
+  const { user, appState } = useMainState();
+  const { isLoggedIn } = useLoginState();
   const { updateUserData } = useEndpoints();
   const { loadUserData, saveUserData } = useSaveUserData();
 

@@ -1,20 +1,55 @@
 import { GoogleSignin } from '@react-native-google-signin/google-signin';
 import auth from '@react-native-firebase/auth';
-import useMainDispatch from '@redux/hooks/useMainDispatch';
-import useMainState from '@redux/hooks/useMainState';
 import useSaveUserData from '@data/hooks/useSaveUserData.native';
+import useEndpoints from '@data/hooks/useEndpoints';
+import { UserResponse } from '@utils/CustomTypes';
+import useLoginDispatch from './useLoginDispatch';
+import useLoginState from './useLoginState';
+import { AxiosError } from 'axios';
 
 interface GoogleSignInError {
   code: number;
   message: string;
 }
 
-const useGetLoginMethods = () => {
-  const { setUserFormData } = useMainDispatch();
-  const { userFormData } = useMainState();
-  const { removeUserData } = useSaveUserData();
+interface GetLoginMethodsReturnType {
+  userSignIn: () => Promise<void>
+  signUp: () => Promise<void>;
+  googleSignIn: () => Promise<void>;
+  googleSignOut: () => Promise<void>;
+}
 
-  const signIn = async () => {
+const useGetLoginMethods = (): GetLoginMethodsReturnType => {
+  const { setLoginFormData } = useLoginDispatch();
+  const { loginFormData } = useLoginState();
+  const { saveUserData, removeUserData } = useSaveUserData();
+  const { signIn, createUser } = useEndpoints();
+
+  const userSignIn = async () => {
+    await signIn({ email: loginFormData.email, password: loginFormData.password ?? '' })
+      .then((response: UserResponse) => {
+        if (!!response) {
+          saveUserData(response);
+        }
+      })
+      .catch((error: AxiosError) => {
+        console.log("Error signing in: ", error.message)
+      });
+  }
+
+  const signUp = async () => {
+    await createUser({ data: loginFormData })
+      .then((response: UserResponse) => {
+        if (!!response) {
+          saveUserData(response);
+        }
+      })
+      .catch((error: AxiosError) => {
+        console.log("Error creating user: ", error.message)
+      });
+  };
+
+  const googleSignIn = async () => {
     try {
       await GoogleSignin.hasPlayServices();
       const { idToken } =  await GoogleSignin.signIn();
@@ -24,21 +59,21 @@ const useGetLoginMethods = () => {
         .signInWithCredential(googleCredential)
         .then((response) => {
           if (!!response?.user?.displayName && !!response.user?.email) {
-            setUserFormData({
+            setLoginFormData({
               userId: response?.user?.uid,
               name: response?.user?.displayName,
               email: response?.user?.email,
               userAvatar: response?.user.photoURL ?? undefined,
-              subscription: userFormData.subscription
+              subscription: loginFormData.subscription
             });
           }
         });
     } catch (error: GoogleSignInError | any) {
-      console.log("Sign in error: ", error.message);
+      console.log("Error with google sign in: ", error.message);
     }
   }
 
-  const signOut = async () => {
+  const googleSignOut = async () => {
     try {
       await GoogleSignin.revokeAccess();
       await GoogleSignin.signOut();
@@ -49,7 +84,7 @@ const useGetLoginMethods = () => {
     }
   };
 
-  return { signIn, signOut }
+  return { userSignIn, signUp, googleSignIn, googleSignOut }
 };
 
 export default useGetLoginMethods;

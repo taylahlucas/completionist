@@ -5,5 +5,4 @@ const { signup, signin } = require('../controllers/auth');
 router.post("/signup", signup);
 router.post("/signin", signin);
 // TODO: Forgot password / reset password
-
 module.exports = router;

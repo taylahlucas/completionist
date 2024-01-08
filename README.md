@@ -44,7 +44,8 @@ npx react-native run-ios --port 8002
 - @react-native-async-storage/async-storage
 
 - react-native-gif
-
+- uuid
+- @types/uuid
 
 ## Backend
 

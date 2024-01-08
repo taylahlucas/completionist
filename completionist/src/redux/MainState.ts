@@ -1,7 +1,8 @@
 import { createSlice } from '@reduxjs/toolkit';
 import { ScreenEnum, SubscriptionTypeEnum } from '@utils/CustomEnums';
-import { GeneralData, SettingsConfigItem, User, UserFormData } from '@utils/CustomInterfaces';
+import { GeneralData, SettingsConfigItem, User } from '@utils/CustomInterfaces';
 import { AppStateStatus } from 'react-native';
+import { initialFormData } from '@components/custom/LoginForm/LoginState';
 
 export const initialGameData: GeneralData = {
   quests: [],
@@ -9,23 +10,6 @@ export const initialGameData: GeneralData = {
   locations: [],
   miscellaneous: [],
   settingsConfig: []
-}
-
-export const initialFormData: UserFormData = {
-  userId: '',
-  name: '',
-  email: '',
-  userAvatar: '',
-  subscription: [
-    {
-      id: SubscriptionTypeEnum.SKYRIM,
-      isActive: true
-    },
-    {
-      id: SubscriptionTypeEnum.FALLOUT_4,
-      isActive: true
-    }
-  ]
 }
 
 export const initialUser: User = {
@@ -43,8 +27,6 @@ export interface MainState {
   readonly selectedGame?: SubscriptionTypeEnum;
   readonly selectedGameSettings: SubscriptionTypeEnum;
   readonly webSignInConfigured: boolean;
-  readonly isLoggedIn: boolean;
-  readonly userFormData: UserFormData;
   readonly user: User;
   readonly userSettings: SettingsConfigItem[];
   readonly searchValue: string;
@@ -55,9 +37,7 @@ export const initialState: MainState = {
   showSplashScreen: true,
   webSignInConfigured: false,
   currentScreen: ScreenEnum.Login,
-  isLoggedIn: false,
   selectedGameSettings: SubscriptionTypeEnum.SKYRIM,
-  userFormData: initialFormData,
   user: initialUser,
   userSettings: [],
   searchValue: '',
@@ -91,14 +71,8 @@ const slice = createSlice({
     setWebSignInConfigured: (state, action) => {
       state.webSignInConfigured = action.payload;
     },
-    setLoggedIn: (state, action) => {
-      state.isLoggedIn = action.payload;
-    },
     setSelectedGameSettings: (state, action) => {
       state.selectedGameSettings = action.payload;
-    },
-    setUserFormData: (state, action) => {
-      state.userFormData = action.payload;
     },
     setUser: (state, action) => {
       state.user = action.payload;
@@ -172,8 +146,6 @@ export const {
   setSelectedGame,
   setSelectedGameSettings,
   setWebSignInConfigured,
-  setLoggedIn,
-  setUserFormData,
   setUser,
   setSearchValue,
   triggerShowSearchResults,

@@ -10,7 +10,6 @@ const LoginForm = () => {
   const { setLoginFormData } = useLoginDispatch();
   const { loginFormData, isSigningUp } = useLoginState();
   
-  // TODO: Email/password login and signup
   return (
     <LoginFormContainer>
       <TextInput
@@ -30,7 +29,7 @@ const LoginForm = () => {
         <TextInput
           placeholder={'Password'}
           inputStyle={'text'}
-          value={loginFormData.password}
+          value={loginFormData.password ?? ''}
           onChangeText={(value) => setLoginFormData({
             ...loginFormData,
             password: value
@@ -46,14 +45,14 @@ const LoginForm = () => {
           <TextInput
             placeholder={'Username'}
             inputStyle={'text'}
-            value={loginFormData.password}
+            value={loginFormData.name}
             onChangeText={(value) => setLoginFormData({
               ...loginFormData,
-              password: value
+              name: value
             })}
             onReset={(): void => setLoginFormData({
               ...loginFormData,
-              password: ''
+              name: ''
             })}
           />
         </LoginFormButtonContainer>

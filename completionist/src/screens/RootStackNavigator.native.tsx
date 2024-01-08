@@ -6,9 +6,11 @@ import Login from './Login.native';
 import useInitUserData from '@data/hooks/useInitUserData.native';
 import Landing from './Landing.native';
 import usePlaySplashScreen from '@utils/hooks/usePlaySplashScreen.native';
+import useLoginState from '@components/custom/LoginForm/hooks/useLoginState';
 
 const RootStackNavigator = () => {
-  const { showSplashScreen, isLoggedIn, user } = useMainState();
+  const { isLoggedIn } = useLoginState();
+  const { showSplashScreen, user } = useMainState();
 
   usePlaySplashScreen();
     // TODO: Debug here check commenting out settings hook
