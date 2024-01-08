@@ -1,5 +1,5 @@
 import { Platform } from 'react-native';
-import axios from 'axios';
+import axios, { AxiosError } from 'axios';
 import { GeneralData, User, LoginFormData, Subscription } from '@utils/CustomInterfaces';
 import { UserResponse } from '@utils/CustomTypes';
 import { signupUrl, signinUrl, getUserByUserIdUrl, updateUserDataUrl, sendEmailUrl } from '../urls';
@@ -63,12 +63,20 @@ const useEndpoints = (): EndpointsReturnType => {
         subscription: data.subscription
       }
     )
-    .then(response => !!response.data.user && response.data.user as User ? response.data.user : null);
+    .then(response => !!response.data.user && response.data.user as User ? response.data.user : null)
+    .catch((error: AxiosError)  => {
+      console.log("Error createUser: ", error.message);
+      return null;
+    })
   };
 
   const getUserByUserId = async ({ userId }: GetUserByUserIdProps): Promise<UserResponse> => {
    return await axios.get(`${url}/${getUserByUserIdUrl}/${userId}`)
-      .then(response => !!response.data && response.data as User ? response.data : null);
+      .then(response => !!response.data && response.data as User ? response.data : null)
+      .catch((error: AxiosError) => {
+        console.log("Error getUserByUserId: ", error.message);
+        return null;
+      });
   };
 
   const updateUserData = async ({ userId, subscription, skyrimData, fallout4Data }: UpdateUserDataProps): Promise<void> => {
@@ -78,6 +86,9 @@ const useEndpoints = (): EndpointsReturnType => {
       skyrimData: skyrimData,
       fallout4Data: fallout4Data
     })
+    .catch((error: AxiosError)  => {
+      console.log("Error updateUserData: ", error.message);
+    })
   };
 
   const sendEmail = async ({ from, subject, text }: EmailProps): Promise<void> => {
@@ -85,6 +96,9 @@ const useEndpoints = (): EndpointsReturnType => {
       from: from,
       subject: subject,
       text: text
+    })
+    .catch((error: AxiosError) => {
+      console.log("Error sendEmail: ", error.message);
     })
   }
 
