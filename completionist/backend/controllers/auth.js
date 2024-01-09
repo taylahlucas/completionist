@@ -1,9 +1,10 @@
-require("dotenv").config();
+require('dotenv').config();
 const User = require('../models/user');
 const jwt = require('jsonwebtoken');
 const mongoose = require('mongoose');
-const hashPassword = require("../scripts/hash_password");
-const comparePasswords = require("../scripts/compare_passwords");
+const hashPassword = require('../helpers/hash_password');
+const comparePasswords = require('../helpers/compare_passwords');
+const request_codes = require('../helpers/request_codes');
 
 const signup = async (req, res) => {
   try {
@@ -22,8 +23,8 @@ const signup = async (req, res) => {
     }
     const exist = await User.findOne({ email });
     if (exist) {
-      return res.json({
-        error: "Email is taken",
+      return res.status(request_codes.EMAIL_TAKEN).json({
+        error: 'Email already exists.',
       });
     }
     // Hash password
@@ -53,9 +54,11 @@ const signup = async (req, res) => {
       });
     } catch (err) {
       console.log(err);
+      return res.status(err.status).json(err.message);
     }
   } catch (err) {
     console.log(err);
+    return res.status(err.status).json(err.message);
   }
 };
 
@@ -65,14 +68,14 @@ const signin = async (req, res) => {
     // Check if db has user with that email
     const user = await User.findOne({ email });
     if (!user) {
-      return res.json({
+      return res.status(request_codes.NO_USER_FOUND).json({
         error: "No user found",
       });
     }
 
     const match = await comparePasswords(password, user.password);
     if (!match) {
-      return res.json({
+      return res.status(request_codes.WRONG_PASSWORD).json({
         error: "Wrong password",
       });
     }
@@ -82,13 +85,14 @@ const signin = async (req, res) => {
     });
     user.password = undefined;
     user.secret = undefined;
-    res.json({
+    
+    return res.status(request_codes.SUCCESS).json({
       token,
       user,
     });
-    console.log('Signed in successfully');
   } catch (err) {
-    console.log('Error signing in: ', err)
+    console.log("Error signing in: ", err)
+    return res.status(err.status).json(err.message);
   }
 };
 

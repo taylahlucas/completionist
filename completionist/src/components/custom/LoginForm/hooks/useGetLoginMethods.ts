@@ -6,6 +6,7 @@ import { UserResponse } from '@utils/CustomTypes';
 import useLoginDispatch from './useLoginDispatch';
 import useLoginState from './useLoginState';
 import { AxiosError } from 'axios';
+import useKeychain from '@data/hooks/useKeychain.native';
 
 interface GoogleSignInError {
   code: number;
@@ -14,7 +15,7 @@ interface GoogleSignInError {
 
 interface GetLoginMethodsReturnType {
   userSignIn: () => Promise<void>
-  signUp: () => Promise<void>;
+  createUser: () => Promise<void>;
   googleSignIn: () => Promise<void>;
   googleSignOut: () => Promise<void>;
 }
@@ -22,8 +23,9 @@ interface GetLoginMethodsReturnType {
 const useGetLoginMethods = (): GetLoginMethodsReturnType => {
   const { setLoginFormData } = useLoginDispatch();
   const { loginFormData } = useLoginState();
+  const { storeCredentials } = useKeychain();
   const { saveUserData, removeUserData } = useSaveUserData();
-  const { signIn, createUser } = useEndpoints();
+  const { signIn, signUp } = useEndpoints();
 
   const userSignIn = async () => {
     await signIn({ email: loginFormData.email, password: loginFormData.password ?? '' })
@@ -37,10 +39,14 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
       });
   }
 
-  const signUp = async () => {
-    await createUser({ data: loginFormData })
+  const createUser = async () => {
+    await signUp({ data: loginFormData })
       .then((response: UserResponse) => {
         if (!!response) {
+          storeCredentials({
+            username: response.name,
+            password: response.userId ?? loginFormData.password ?? ''
+          });
           saveUserData(response);
         }
       })
@@ -84,7 +90,7 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
     }
   };
 
-  return { userSignIn, signUp, googleSignIn, googleSignOut }
+  return { userSignIn, createUser, googleSignIn, googleSignOut }
 };
 
 export default useGetLoginMethods;

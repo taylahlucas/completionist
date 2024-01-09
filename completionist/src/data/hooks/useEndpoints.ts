@@ -1,9 +1,10 @@
-import { Platform } from 'react-native';
+import { Alert, Platform } from 'react-native';
 import axios, { AxiosError } from 'axios';
 import { GeneralData, User, LoginFormData, Subscription } from '@utils/CustomInterfaces';
 import { UserResponse } from '@utils/CustomTypes';
 import { signupUrl, signinUrl, getUserByUserIdUrl, updateUserDataUrl, sendEmailUrl } from '../urls';
 import uuid from 'react-native-uuid';
+import { requestCodes } from '@utils/constants';
 
 interface CreateUserProps {
   data: LoginFormData;
@@ -33,7 +34,7 @@ interface EmailProps {
 
 interface EndpointsReturnType {
   signIn: ({ email, password }: SignInProps) => Promise<UserResponse>;
-  createUser: ({ data }: CreateUserProps) => Promise<UserResponse>;
+  signUp: ({ data }: CreateUserProps) => Promise<UserResponse>;
   getUserByUserId: ({ userId }: GetUserByUserIdProps) => Promise<UserResponse>;
   updateUserData: ({ userId, subscription, skyrimData, fallout4Data }: UpdateUserDataProps) => Promise<void>;
   sendEmail: ({ from, subject, text }: EmailProps) => Promise<void>;
@@ -50,9 +51,22 @@ const useEndpoints = (): EndpointsReturnType => {
       }
     )
     .then(response => !!response.data.user && response.data.user as User ? response.data.user : null)
+    .catch((error: AxiosError) => {
+      switch (error.request.status) {
+        case requestCodes.NO_USER_FOUND:
+          Alert.alert('Error', 'Email already exists.');
+          return;
+        case requestCodes.WRONG_PASSWORD:
+          Alert.alert('Error', 'Incorrect password. Please try again.');
+          return;
+        default: 
+          Alert.alert('Error', 'Internal server error. Please refresh the app');
+          return;
+      }
+    })
   };
 
-  const createUser = async ({ data }: CreateUserProps): Promise<UserResponse> => {
+  const signUp = async ({ data }: CreateUserProps): Promise<UserResponse> => {
     return await axios.post(`${url}/${signupUrl}`,
       {
         userId: data.userId ? data.userId : uuid.v4(),
@@ -65,8 +79,14 @@ const useEndpoints = (): EndpointsReturnType => {
     )
     .then(response => !!response.data.user && response.data.user as User ? response.data.user : null)
     .catch((error: AxiosError)  => {
-      console.log("Error createUser: ", error.message);
-      return null;
+      switch (error.request.status) {
+        case requestCodes.EMAIL_TAKEN:
+          Alert.alert('Error', 'Email already exists.');
+          return;
+        default: 
+          Alert.alert('Error', 'Internal server error. Please refresh the app');
+          return;
+      }
     })
   };
 
@@ -74,8 +94,14 @@ const useEndpoints = (): EndpointsReturnType => {
    return await axios.get(`${url}/${getUserByUserIdUrl}/${userId}`)
       .then(response => !!response.data && response.data as User ? response.data : null)
       .catch((error: AxiosError) => {
-        console.log("Error getUserByUserId: ", error.message);
-        return null;
+        switch (error.request.status) {
+          case requestCodes.NOT_FOUND:
+            Alert.alert('Error', 'User not found. Please refresh the app');
+            return;
+          default: 
+            Alert.alert('Error', 'Internal server error. Please refresh the app');
+            return;
+        }
       });
   };
 
@@ -87,7 +113,7 @@ const useEndpoints = (): EndpointsReturnType => {
       fallout4Data: fallout4Data
     })
     .catch((error: AxiosError)  => {
-      console.log("Error updateUserData: ", error.message);
+      Alert.alert('Something went wrong.', error.message);
     })
   };
 
@@ -98,11 +124,11 @@ const useEndpoints = (): EndpointsReturnType => {
       text: text
     })
     .catch((error: AxiosError) => {
-      console.log("Error sendEmail: ", error.message);
+      Alert.alert('Something went wrong.', error.message);
     })
   }
 
-  return { signIn, createUser, getUserByUserId, updateUserData, sendEmail };
+  return { signIn, signUp, getUserByUserId, updateUserData, sendEmail };
 };
 
 export default useEndpoints;

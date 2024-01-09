@@ -14,3 +14,11 @@ export const games = [
   SubscriptionTypeEnum.SKYRIM,
   SubscriptionTypeEnum.FALLOUT_4
 ]
+
+export const requestCodes = {
+  SUCCESS: 200,
+  NOT_FOUND: 404,
+  EMAIL_TAKEN: 600,
+  NO_USER_FOUND: 605,
+  WRONG_PASSWORD: 610
+}

@@ -9,9 +9,9 @@ import useLoginState from './useLoginState';
 
 const useCreateOrGetUser = () => {
   const { loginFormData, isLoggedIn } = useLoginState();
-  const { createUser, getUserByUserId } = useEndpoints();
+  const { getUserByUserId } = useEndpoints();
   const { getCredentials, storeCredentials } = useKeychain();
-  const { signUp } = useGetLoginMethods();
+  const { createUser } = useGetLoginMethods();
   const { fetchDataFromCache } = useCache();
   const { saveUserData } = useSaveUserData();
 
@@ -26,7 +26,7 @@ const useCreateOrGetUser = () => {
                   saveUserData(cachedData);
                 }
                 else {
-                  signUp();
+                  createUser();
                 }
               })
           }
@@ -41,19 +41,7 @@ const useCreateOrGetUser = () => {
                   saveUserData(user);
                 }
                 else {
-                  createUser({ data: loginFormData })
-                    .then((response: UserResponse) => {
-                      if (!!response) {
-                        storeCredentials({
-                          username: response.name,
-                          password: response.userId ?? loginFormData.password ?? ''
-                        });
-                        saveUserData(response);
-                      }
-                      else {
-                        console.log("Error creating user");
-                      }
-                    });
+                  createUser();
                 }
               })
           }
