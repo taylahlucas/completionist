@@ -10,7 +10,6 @@ import {
   setWebSignInConfigured,
   setUser,
   setSearchValue, 
-  triggerShowSearchResults, 
   setCompletedQuests,
   setCompletedCollectables,
   setCompletedMiscItems,
@@ -29,7 +28,6 @@ interface MainDispatch {
   setWebSignInConfigured: (value: boolean) => void;
   setUser: (value: User) => void;
   setSearchValue: (value: string) => void;
-  triggerShowSearchResults: (value: boolean) => void;
   setCompletedQuests: (value: Item[]) => void;
   setCompletedCollectables: (value: Item[]) => void;
   setCompletedLocations: (value: Item[]) => void;
@@ -64,9 +62,6 @@ const useMainDispatch = (): MainDispatch => {
     },
     setSearchValue(value: string): void {
       dispatch(setSearchValue(value));
-    },
-    triggerShowSearchResults(value: boolean): void {
-      dispatch(triggerShowSearchResults(value));
     },
     setCompletedQuests(value: Item[]): void {
       dispatch(setCompletedQuests(value));

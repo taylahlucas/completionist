@@ -12,7 +12,7 @@ import useQuestDispatch from '@components/custom/QuestList/hooks/useQuestDispatc
 
 const Quests = () => {
   const { selectedGame } = useMainState();
-  const { setSearchValue, triggerShowSearchResults } = useQuestDispatch();
+  const { setSearchValue } = useQuestDispatch();
   const { searchValue } = useQuestState();
   const { getUserQuests } = useGetUserGameData();
   const { mapDataToFilteredQuests } = useGetGameData();
@@ -23,10 +23,7 @@ const Quests = () => {
       <CustomSearchBar 
         searchValue={searchValue} 
         setSearchValue={setSearchValue}
-        onReset={(): void => {
-          setSearchValue('');
-          triggerShowSearchResults(false);
-        }} 
+        onReset={(): void => setSearchValue('')} 
       />
       <CompletedQuantityTitle type={'ListItemTitleBold'}>
         {`${getUserQuests().length}/${mapDataToFilteredQuests(selectedGame).length}`}

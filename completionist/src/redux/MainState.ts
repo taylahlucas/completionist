@@ -85,12 +85,8 @@ const slice = createSlice({
           break;
       }
     },
-    // TODO: Remove ?
     setSearchValue: (state, action) => {
       state.searchValue = action.payload;
-    },
-    triggerShowSearchResults: (state, action) => {
-      state.showSearchResults = action.payload;
     },
     setCompletedQuests: (state, action) => {
       switch (state.selectedGame) {
@@ -149,7 +145,6 @@ export const {
   setWebSignInConfigured,
   setUser,
   setSearchValue,
-  triggerShowSearchResults,
   setCompletedQuests,
   setCompletedCollectables,
   setCompletedMiscItems,
