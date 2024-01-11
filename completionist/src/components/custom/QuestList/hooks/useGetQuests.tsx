@@ -4,6 +4,7 @@ import useSearchStringFormatter from '@utils/hooks/useSearchStringFormatter';
 import useGetGameData from '@data/hooks/useGetGameData.native';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
 import useGetUserGameData from '@data/hooks/useGetUserGameData.native';
+import useQuestState from './useQuestState';
 
 interface GetQuestReturnType {
   getQuestsForSubCategory: (subCategory: string) => Quest[];
@@ -15,7 +16,8 @@ interface GetQuestReturnType {
 
 const useGetQuests = (): GetQuestReturnType => {
   const { setCompletedQuests } = useMainDispatch();
-  const { searchValue, selectedGame } = useMainState();
+  const { selectedGame } = useMainState();
+  const { searchValue } = useQuestState();
   const { getUserQuests } = useGetUserGameData();
   const { mapDataToQuests, mapDataToFilteredQuests } = useGetGameData();
   const quests = mapDataToFilteredQuests(selectedGame);

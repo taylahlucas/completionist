@@ -7,9 +7,13 @@ import LocationList from '@components/custom/LocationList/LocationList.native';
 import useGetGameData from '@data/hooks/useGetGameData.native';
 import useGetUserGameData from '@data/hooks/useGetUserGameData.native';
 import useMainState from '@redux/hooks/useMainState';
+import useLocationState from '@components/custom/LocationList/hooks/useLocationState';
+import useLocationDispatch from '@components/custom/LocationList/hooks/useLocationDispatch';
 
 const Locations = () => {
   const { selectedGame } = useMainState();
+  const { setSearchValue, triggerShowSearchResults } = useLocationDispatch();
+  const { searchValue } = useLocationState();
   const { getUserLocations } = useGetUserGameData();
   const { mapDataToFilteredLocations } = useGetGameData();
 
@@ -17,7 +21,14 @@ const Locations = () => {
   return (
     <StandardLayout>
       <NavigationHeader title={'Locations'} />
-      <CustomSearchBar />
+      <CustomSearchBar 
+        searchValue={searchValue} 
+        setSearchValue={setSearchValue}
+        onReset={(): void => {
+          setSearchValue('');
+          triggerShowSearchResults(false);
+        }} 
+      />
       <CompletedQuantityTitle type={'ListItemTitleBold'}>{`${getUserLocations().length}/${mapDataToFilteredLocations(selectedGame).length}`}</CompletedQuantityTitle>
       <LocationList />
     </StandardLayout>

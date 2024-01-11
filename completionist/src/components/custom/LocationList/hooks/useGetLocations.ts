@@ -4,6 +4,7 @@ import useMainDispatch from '@redux/hooks/useMainDispatch';
 import useMainState from '@redux/hooks/useMainState';
 import { Item, Location } from '@utils/CustomInterfaces';
 import useSearchStringFormatter from '@utils/hooks/useSearchStringFormatter';
+import useLocationState from './useLocationState';
 
 interface GetLocationReturnType {
   getLocationsForDLC: (dlc: string) => Location[];
@@ -14,7 +15,8 @@ interface GetLocationReturnType {
 
 const useGetLocations = (): GetLocationReturnType => {
   const { setCompletedLocations } = useMainDispatch();
-  const { searchValue, selectedGame } = useMainState();
+  const { selectedGame } = useMainState();
+  const { searchValue } = useLocationState();
   const getFormattedSearchString = useSearchStringFormatter();
   const { mapDataToLocations } = useGetGameData();
   const locations = mapDataToLocations(selectedGame);

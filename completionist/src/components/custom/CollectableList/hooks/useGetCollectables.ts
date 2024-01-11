@@ -4,6 +4,7 @@ import useSearchStringFormatter from '@utils/hooks/useSearchStringFormatter';
 import useGetGameData from '@data/hooks/useGetGameData.native';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
 import useGetUserGameData from '@data/hooks/useGetUserGameData.native';
+import useCollectableState from './useCollectableState';
 
 interface GameDataReturnType {
   getCollectablesForSubCategory: (mainCategory: string, subType?: string) => Collectable[];
@@ -14,7 +15,8 @@ interface GameDataReturnType {
 
 const useGetCollectables = (): GameDataReturnType => {
   const { setCompletedCollectables } = useMainDispatch();
-  const { searchValue, selectedGame } = useMainState();
+  const { selectedGame } = useMainState();
+  const { searchValue } = useCollectableState();
   const getFormattedSearchString = useSearchStringFormatter();
   const { mapDataToFilteredCollectables } = useGetGameData();
   const collectables = mapDataToFilteredCollectables(selectedGame);

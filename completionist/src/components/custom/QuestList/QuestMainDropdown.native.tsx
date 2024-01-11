@@ -9,6 +9,8 @@ import useGetQuests from './hooks/useGetQuests';
 import useMainState from '@redux/hooks/useMainState';
 import useCheckQuestComplete from './hooks/useCheckQuestComplete';
 import useGetQuestCategories from './hooks/useGetQuestCategories';
+import useQuestState from './hooks/useQuestState';
+import useQuestDispatch from './hooks/useQuestDispatch';
 
 export interface QuestMainDropdownProps {
   category: string;
@@ -17,8 +19,9 @@ export interface QuestMainDropdownProps {
 }
 
 const QuestMainDropdown = ({ category, completed, total }: QuestMainDropdownProps) => {
-  const { showSearchResults, userSettings, selectedGame } = useMainState();
-  const [isOpen, setIsOpen] = useState<boolean>(false);
+  const { userSettings, selectedGame } = useMainState();
+  const { setSelectedCategory } = useQuestDispatch();
+  const { selectedCategory, showSearchResults } = useQuestState();
   const { getQuestsForSubCategory } = useGetQuests();
   const { getQuestSubCategories } = useGetQuestCategories();
   const subCategories = getQuestSubCategories(category, selectedGame);
@@ -26,8 +29,8 @@ const QuestMainDropdown = ({ category, completed, total }: QuestMainDropdownProp
 
   return (
     <Dropdown
-      isOpen={showSearchResults || isOpen}
-      setOpen={() => setIsOpen(!isOpen)}
+      isOpen={category === selectedCategory || showSearchResults}
+      setOpen={() => setSelectedCategory(category === selectedCategory ? '' : category)}
       enabled={userSettings?.find(settings => settings.category === category && settings.section === "Quests")?.isActive ?? false}
       header={
         <ListHeader title={category} completed={completed} total={total} />

@@ -2,6 +2,8 @@ import { Dimensions, StyleSheet } from 'react-native';
 import styled from 'styled-components/native';
 import StyledText from '@components/general/Text/StyledText.native';
 import { DEFAULT_BORDER_RADIUS } from '@styles/global';
+import ScrollableList from './ScrollableList.native';
+import Button from '../Button/Button.native';
 
 export const listStyles = StyleSheet.create({
   scrollableContent: {
@@ -71,4 +73,13 @@ export const ListItemTitle = styled(StyledText)<ListItemStyleProps>`
   padding-top: 8px;
   padding-left: 16px;
   max-width: 270px;
+`;
+
+export const ListItemScrollableList = styled(ScrollableList)`
+  flex: 1;
+  max-height: 300px;
+`;
+
+export const ListShowMoreButton = styled(Button)`
+  padding: 8px;
 `;

@@ -10,8 +10,8 @@ export interface LocationMainListProps {
   isSubCategory?: boolean;
 }
 
-const LocationMainList = ({ dlc, hold, isSubCategory = false }: LocationMainListProps) => {
-  const { getLocationsForDLC, getLocationsForHoldInDLC, updateLocationsComplete } = useGetLocations();
+const LocationMainList = ({ dlc }: LocationMainListProps) => {
+  const { getLocationsForDLC, updateLocationsComplete } = useGetLocations();
   const locations = getLocationsForDLC(dlc);
   const { checkLocationComplete } = useCheckLocationComplete();
   

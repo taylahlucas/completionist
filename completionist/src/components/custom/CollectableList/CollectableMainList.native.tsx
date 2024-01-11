@@ -1,5 +1,5 @@
 import React from 'react';
-import { ListContainer } from '@components/general/Lists/ListStyledComponents.native';
+import { ListContainer, ListItemScrollableList } from '@components/general/Lists/ListStyledComponents.native';
 import useGetCollectables from './hooks/useGetCollectables';
 import useCheckCollectableComplete from './hooks/useCheckCollectableComplete';
 import ListItem from '@components/general/Lists/ListItem.native';

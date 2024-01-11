@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Dropdown from '@components/general/Dropdown/Dropdown.native';
 import ListHeader from '@components/general/Lists/ListHeader.native';
 import useMainState from '@redux/hooks/useMainState';
@@ -9,6 +9,8 @@ import LocationSubDropdown from './LocationSubDropdown.native';
 import Condition from '@components/general/Condition.native';
 import { CollectableSubDropdownContainer } from '../CollectableList/CollectableListStyledComponents.native';
 import LocationMainList from './LocationMainList.native';
+import useLocationState from './hooks/useLocationState';
+import useLocationDispatch from './hooks/useLocationDispatch';
 
 export interface LocationMainDropdownProps {
   dlc: string;
@@ -17,8 +19,9 @@ export interface LocationMainDropdownProps {
 }
 
 const LocationMainDropdown = ({ dlc, completed, total }: LocationMainDropdownProps) => {
-  const { showSearchResults, selectedGame, userSettings } = useMainState();
-  const [isOpen, setIsOpen] = useState<boolean>(false);
+  const { selectedGame, userSettings } = useMainState();
+  const { setSelectedCategory } = useLocationDispatch();
+  const { selectedCategory, showSearchResults } = useLocationState();
   const { getLocationHoldsInDLC } = useGetLocationCategories();
   const { checkLocationsCompleteForHoldsInDLC } = useCheckLocationComplete();
   const { getLocationsForDLC, getLocationsForHoldInDLC } = useGetLocations();
@@ -26,8 +29,11 @@ const LocationMainDropdown = ({ dlc, completed, total }: LocationMainDropdownPro
 
   return (
     <Dropdown
-      isOpen={isOpen || showSearchResults}
-      setOpen={() => setIsOpen(!isOpen)}
+      isOpen={dlc === selectedCategory.category || showSearchResults}
+      setOpen={() => setSelectedCategory({
+        ...selectedCategory,
+        category: dlc === selectedCategory.category ? '' : dlc
+      })}
       enabled={userSettings?.find(settings => settings.category === dlc && settings.section === "Locations")?.isActive ?? false}
       header={
         <ListHeader title={dlc === 'None' ? 'Main' : dlc} completed={completed} total={total} />

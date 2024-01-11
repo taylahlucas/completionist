@@ -7,16 +7,27 @@ import { CompletedQuantityTitle } from '@components/general/Text/StyledTextStyle
 import useGetGameData from '@data/hooks/useGetGameData.native';
 import useGetUserGameData from '@data/hooks/useGetUserGameData.native';
 import useMainState from '@redux/hooks/useMainState';
+import useCollectableState from '@components/custom/CollectableList/hooks/useCollectableState';
+import useCollectableDispatch from '@components/custom/CollectableList/hooks/useCollectableDispatch';
 
 const Collectables = () => {
   const { selectedGame } = useMainState();
+  const { setSearchValue, triggerShowSearchResults } = useCollectableDispatch();
+  const { searchValue } = useCollectableState();
   const { getUserCollectables } = useGetUserGameData();
   const { mapDataToFilteredCollectables } = useGetGameData();
 
   return (
     <StandardLayout>
       <NavigationHeader title={'Collectables'} />
-      <CustomSearchBar />
+      <CustomSearchBar 
+        searchValue={searchValue} 
+        setSearchValue={setSearchValue}
+        onReset={(): void => {
+          setSearchValue('');
+          triggerShowSearchResults(false);
+        }} 
+      />
       <CompletedQuantityTitle type={'ListItemTitleBold'}>
         {`${getUserCollectables().length}/${mapDataToFilteredCollectables(selectedGame).length}`}
       </CompletedQuantityTitle>

@@ -9,6 +9,9 @@ import useGetCollectables from './hooks/useGetCollectables';
 import useMainState from '@redux/hooks/useMainState';
 import useCheckCollectableComplete from './hooks/useCheckCollectableComplete';
 import useGetCollectableCategories from './hooks/useGetCollectableCategories';
+import useCollectableState from './hooks/useCollectableState';
+import useCollectableDispatch from './hooks/useCollectableDispatch';
+import { ListItemScrollableList } from '@components/general/Lists/ListStyledComponents.native';
 
 export interface CollectableMainDropdownProps {
   category: string;
@@ -17,8 +20,9 @@ export interface CollectableMainDropdownProps {
 }
 
 const CollectableMainDropdown = ({ category, completed, total }: CollectableMainDropdownProps) => {
-  const { showSearchResults, selectedGame, userSettings } = useMainState();
-  const [isOpen, setIsOpen] = useState<boolean>(false);
+  const { selectedGame, userSettings } = useMainState();
+  const { setSelectedCategory } = useCollectableDispatch();
+  const { selectedCategory, showSearchResults } = useCollectableState();
   const { getCollectableSubCategories } = useGetCollectableCategories();
   const { getCollectablesForSubCategory, getCollectablesForCategory } = useGetCollectables();
   const subCategories = getCollectableSubCategories(category, selectedGame);
@@ -26,8 +30,8 @@ const CollectableMainDropdown = ({ category, completed, total }: CollectableMain
 
   return (
     <Dropdown
-      isOpen={isOpen || showSearchResults}
-      setOpen={() => setIsOpen(!isOpen)}
+      isOpen={category === selectedCategory || showSearchResults}
+      setOpen={() => setSelectedCategory(category === selectedCategory ? ''  : category)}
       enabled={userSettings?.find(settings => settings.category === category && settings.section === "Collectables")?.isActive ?? false}
       header={
         <ListHeader title={category} completed={completed} total={total} />

@@ -21,7 +21,7 @@ const QuestListItem = ({ id, title, location, hold,  isComplete = false }: Quest
   const { updateQuestItemsComplete } = useGetQuests();
   
   return (
-    <QuestListItemContainer color={theme.darkGrey}>
+    <QuestListItemContainer color={isComplete ? theme.darkGrey : theme.midGrey}>
       <QuestListItemContentContainer>
         <QuestListItemTitle 
           align={'left'} 

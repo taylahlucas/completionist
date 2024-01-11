@@ -3,15 +3,17 @@ import QuestMainDropdown from './QuestMainDropdown.native';
 import ScrollableList from '@components/general/Lists/ScrollableList.native';
 import Condition from '@components/general/Condition.native';
 import useGetQuests from './hooks/useGetQuests';
-import useMainDispatch from '@redux/hooks/useMainDispatch';
 import useMainState from '@redux/hooks/useMainState';
 import useCheckQuestComplete from './hooks/useCheckQuestComplete';
 import useGetQuestCategories from './hooks/useGetQuestCategories';
 import useCheckSectionEnabled from '@navigation/hooks/useCheckSectionEnabled.native';
+import useQuestState from './hooks/useQuestState';
+import useQuestDispatch from './hooks/useQuestDispatch';
 
 const QuestList = () => {
-  const { triggerShowSearchResults } = useMainDispatch();
-  const { searchValue, selectedGame } = useMainState();
+  const { selectedGame } = useMainState();
+  const { triggerShowSearchResults } = useQuestDispatch();
+  const { searchValue } = useQuestState();
   const { getQuestsForCategory, getAllQuestsForCategory } = useGetQuests();
   const { getQuestCategories } = useGetQuestCategories();
   const { checkQuestsCompleteForCategory } = useCheckQuestComplete();

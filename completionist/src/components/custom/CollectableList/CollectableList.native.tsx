@@ -3,14 +3,16 @@ import ScrollableList from '@components/general/Lists/ScrollableList.native';
 import CollectableMainDropdown from './CollectableMainDropdown.native';
 import useGetCollectables from './hooks/useGetCollectables';
 import Condition from '@components/general/Condition.native';
-import useMainDispatch from '@redux/hooks/useMainDispatch';
 import useMainState from '@redux/hooks/useMainState';
 import useCheckCollectableComplete from './hooks/useCheckCollectableComplete';
 import useGetCollectableCategories from './hooks/useGetCollectableCategories';
+import useCollectableState from './hooks/useCollectableState';
+import useCollectableDispatch from './hooks/useCollectableDispatch';
 
 const CollectableList = () => {
-  const { triggerShowSearchResults } = useMainDispatch();
-  const { searchValue, selectedGame } = useMainState();
+  const { selectedGame } = useMainState();
+  const { triggerShowSearchResults } = useCollectableDispatch();
+  const { searchValue } = useCollectableState();
   const { getCollectableCategories } = useGetCollectableCategories();
   const { getCollectablesForCategory, getAllCollectablesForCategory } = useGetCollectables();
   const { checkCollectablesCompleteForCategory } = useCheckCollectableComplete();
@@ -20,6 +22,7 @@ const CollectableList = () => {
     triggerShowSearchResults(searchValue.length >= 3);
   }, [searchValue])
     //  TODO: Add subtitles for DLC
+    // TODO: Fix scroll views
   return (
     <ScrollableList>
       {getCollectableCategories(selectedGame).map((category: string, index: number) => {

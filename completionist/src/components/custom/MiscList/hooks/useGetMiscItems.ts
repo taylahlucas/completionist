@@ -4,6 +4,7 @@ import useSearchStringFormatter from '@utils/hooks/useSearchStringFormatter';
 import useGetGameData from '@data/hooks/useGetGameData.native';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
 import useGetUserGameData from '@data/hooks/useGetUserGameData.native';
+import useMiscState from './useMiscState';
 
 interface GetMiscItemsReturnType {
   getMiscItemsForCategory: (category: string) => MiscItem[];
@@ -12,7 +13,8 @@ interface GetMiscItemsReturnType {
 
 const useGetMiscItems = (): GetMiscItemsReturnType => {
   const { setCompletedMiscItems } = useMainDispatch();
-  const { searchValue, selectedGame } = useMainState();
+  const { selectedGame } = useMainState();
+  const { searchValue } = useMiscState();
   const getFormattedSearchString = useSearchStringFormatter();
   const { mapDataToMiscItems } = useGetGameData();
   const miscItems = mapDataToMiscItems(selectedGame);

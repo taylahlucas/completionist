@@ -7,16 +7,27 @@ import { CompletedQuantityTitle } from '@components/general/Text/StyledTextStyle
 import useGetGameData from '@data/hooks/useGetGameData.native';
 import useGetUserGameData from '@data/hooks/useGetUserGameData.native';
 import useMainState from '@redux/hooks/useMainState';
+import useQuestState from '@components/custom/QuestList/hooks/useQuestState';
+import useQuestDispatch from '@components/custom/QuestList/hooks/useQuestDispatch';
 
 const Quests = () => {
   const { selectedGame } = useMainState();
+  const { setSearchValue, triggerShowSearchResults } = useQuestDispatch();
+  const { searchValue } = useQuestState();
   const { getUserQuests } = useGetUserGameData();
   const { mapDataToFilteredQuests } = useGetGameData();
 
   return (
     <StandardLayout>
       <NavigationHeader title={'Quests'} />
-      <CustomSearchBar />
+      <CustomSearchBar 
+        searchValue={searchValue} 
+        setSearchValue={setSearchValue}
+        onReset={(): void => {
+          setSearchValue('');
+          triggerShowSearchResults(false);
+        }} 
+      />
       <CompletedQuantityTitle type={'ListItemTitleBold'}>
         {`${getUserQuests().length}/${mapDataToFilteredQuests(selectedGame).length}`}
       </CompletedQuantityTitle>

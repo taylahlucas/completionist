@@ -3,6 +3,10 @@ import { NavigationAction, NavigationState } from '@react-navigation/native';
 import { MainState } from '@redux/MainState';
 import { SettingsState } from '@components/custom/SettingsContent/SettingsState';
 import { LoginState } from '@components/custom/LoginForm/LoginState';
+import { MiscState } from '@components/custom/MiscList/MiscState';
+import { CollectableState } from '@components/custom/CollectableList/CollectableState';
+import { LocationState } from '@components/custom/LocationList/LocationState';
+import { QuestState } from '@components/custom/QuestList/QuestState';
 
 export interface LoginFormData {
   userId: string;
@@ -46,6 +50,12 @@ export interface Collectable {
   prerequisite?: string;
 }
 
+export interface DropDownType {
+  category: string;
+  subType?: string;
+  type?: string;
+}
+
 // State & Environment
 
 export interface Base {
@@ -56,6 +66,10 @@ export interface StoreState {
   main: MainState;
   login: LoginState;
   settings: SettingsState;
+  quest: QuestState;
+  collectable: CollectableState;
+  location: LocationState;
+  misc: MiscState;
 }
 
 export interface EnvironmentConfig {

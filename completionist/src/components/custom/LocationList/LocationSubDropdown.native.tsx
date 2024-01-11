@@ -1,11 +1,12 @@
-import React, { useState } from 'react';
-import useMainState from '@redux/hooks/useMainState';
+import React from 'react';
 import Dropdown from '@components/general/Dropdown/Dropdown.native';
 import SubListHeader from '@components/general/Lists/SubListHeader.native';
 import ListItem from '@components/general/Lists/ListItem.native';
 import useCheckLocationComplete from './hooks/useCheckLocationComplete';
 import useGetLocations from './hooks/useGetLocations';
 import { ListContainer } from '@components/general/Lists/ListStyledComponents.native';
+import useLocationDispatch from './hooks/useLocationDispatch';
+import useLocationState from './hooks/useLocationState';
 
 export interface LocationSubDropdownProps {
   dlc: string;
@@ -15,19 +16,22 @@ export interface LocationSubDropdownProps {
 }
 
 const LocationSubDropdown = ({ dlc, hold, completed, total }: LocationSubDropdownProps) => {
-  const { showSearchResults } = useMainState();
-  const [isOpen, setIsOpen] = useState<boolean>(false);
+  const { setSelectedCategory } = useLocationDispatch();
+  const { selectedCategory, showSearchResults } = useLocationState();
   const { checkLocationComplete } = useCheckLocationComplete();
   const { getLocationsForHoldInDLC, updateLocationsComplete } = useGetLocations()
-  
+
   return (
     <Dropdown
-      isOpen={isOpen || showSearchResults}
-      setOpen={() => setIsOpen(!isOpen)}
-      header={
-        <SubListHeader title={hold} completed={completed} total={total} />
-      }
-    >
+      isOpen={dlc === selectedCategory.category && hold === selectedCategory.subType || showSearchResults}
+      setOpen={() => setSelectedCategory({
+        ...selectedCategory,
+        subType: hold === selectedCategory.subType ? '' : hold
+      })}
+        header={
+          <SubListHeader title={hold} completed={completed} total={total} />
+        }
+      >
       <ListContainer>
         {getLocationsForHoldInDLC(dlc, hold).map((item, index) => (
           <ListItem

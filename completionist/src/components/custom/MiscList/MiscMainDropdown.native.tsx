@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Dropdown from '@components/general/Dropdown/Dropdown.native';
 import ListHeader from '@components/general/Lists/ListHeader.native';
 import useMainState from '@redux/hooks/useMainState';
@@ -6,6 +6,9 @@ import useGetMiscItems from './hooks/useGetMiscItems';
 import ListItem from '@components/general/Lists/ListItem.native';
 import { MiscItem } from '@utils/CustomInterfaces';
 import useCheckMiscItemComplete from './hooks/useCheckMiscItemComplete';
+import useMiscState from './hooks/useMiscState';
+import useMiscDispatch from './hooks/useMiscDispatch';
+import { ListItemScrollableList } from '@components/general/Lists/ListStyledComponents.native';
 
 export interface MiscMainDropdownProps {
   category: string;
@@ -14,28 +17,31 @@ export interface MiscMainDropdownProps {
 }
 
 const MiscMainDropdown = ({ category, completed, total }: MiscMainDropdownProps) => {
-  const { showSearchResults } = useMainState();
-  const [isOpen, setIsOpen] = useState<boolean>(false);
+  const { showSearchResults } = useMiscState();
+  const { setSelectedCategory } = useMiscDispatch();
+  const { selectedCategory } = useMiscState();
   const { getMiscItemsForCategory, updateMiscItemsComplete } = useGetMiscItems()
   const { checkMiscItemComplete } = useCheckMiscItemComplete();
 
   return (
     <Dropdown
-      isOpen={isOpen || showSearchResults}
-      setOpen={() => setIsOpen(!isOpen)}
+      isOpen={category === selectedCategory || showSearchResults}
+      setOpen={() => setSelectedCategory(category === selectedCategory ? '' : category)}
       header={
         <ListHeader title={category} completed={completed} total={total} />
       }
     >
-      {getMiscItemsForCategory(category).map((item: MiscItem, index: number) => (
-        <ListItem 
-          key={index}
-          id={item.id}
-          name={item.name}
-          isComplete={checkMiscItemComplete(item.id)}
-          action={(): void => updateMiscItemsComplete(item.id)}
-        />
-      ))}
+      <ListItemScrollableList>
+        {getMiscItemsForCategory(category).map((item: MiscItem, index: number) => (
+          <ListItem 
+            key={index}
+            id={item.id}
+            name={item.name}
+            isComplete={checkMiscItemComplete(item.id)}
+            action={(): void => updateMiscItemsComplete(item.id)}
+          />
+        ))}
+      </ListItemScrollableList>
     </Dropdown>
   );
 };
