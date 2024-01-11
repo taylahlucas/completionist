@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import ScrollableList from '@components/general/Lists/ScrollableList.native';
 import MiscMainDropdown from './MiscMainDropdown.native';
 import useGetMiscItems from './hooks/useGetMiscItems';
@@ -6,41 +6,40 @@ import useCheckMiscItemComplete from './hooks/useCheckMiscItemComplete';
 import Condition from '@components/general/Condition.native';
 import useGetMiscItemCategories from './hooks/useGetMiscItemCategories';
 import useMainState from '@redux/hooks/useMainState';
-import useMiscState from './hooks/useMiscState';
-import useMainDispatch from '@redux/hooks/useMainDispatch';
-import useMiscDispatch from './hooks/useMiscDispatch';
+import { setSearchValue } from '@redux/MainState';
+import MiscSearchResults from './MiscSearchResults.native';
 
 const MiscList = () => {
   const { selectedGame } = useMainState();
-  const { triggerShowSearchResults } = useMiscDispatch();
-  const { searchValue } = useMiscState();
   const { getMiscItemCategories } = useGetMiscItemCategories();
   const { getMiscItemsForCategory } = useGetMiscItems();
   const { checkMiscItemsCompleteForCategory } = useCheckMiscItemComplete();
-
-    // TODO: Move this to custom hook
-    useEffect(() => {
-      triggerShowSearchResults(searchValue.length >= 3);
-    }, [searchValue])
-  
+  // TODO: Fix scroll on nested list
   return (
-    <ScrollableList style={{ overflow: 'scroll' }}>
-      {getMiscItemCategories(selectedGame).map((category: string, index: number) => {
-        const allMiscItemsForCategory = getMiscItemsForCategory(category);
-        const completedMiscItems = checkMiscItemsCompleteForCategory(allMiscItemsForCategory);
+    <Condition
+      condition={setSearchValue.length > 2}
+      conditionalElement={
+        <MiscSearchResults />
+      }
+    >
+      <ScrollableList>
+        {getMiscItemCategories(selectedGame).map((category: string, index: number) => {
+          const allMiscItemsForCategory = getMiscItemsForCategory(category);
+          const completedMiscItems = checkMiscItemsCompleteForCategory(allMiscItemsForCategory);
 
-        return (
-          <Condition key={index} condition={allMiscItemsForCategory.length > 0}>
-            <MiscMainDropdown
-              key={index} 
-              category={category}
-              completed={completedMiscItems.toString()}
-              total={allMiscItemsForCategory.length.toString()}
-            />
-          </Condition>
-        )
-      })}
-    </ScrollableList>
+          return (
+            <Condition key={index} condition={allMiscItemsForCategory.length > 0}>
+              <MiscMainDropdown
+                key={index}
+                category={category}
+                completed={completedMiscItems.toString()}
+                total={allMiscItemsForCategory.length.toString()}
+              />
+            </Condition>
+          )
+        })}
+      </ScrollableList>
+    </Condition>
   );
 };
 

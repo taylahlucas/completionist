@@ -17,16 +17,16 @@ export interface LocationSubDropdownProps {
 
 const LocationSubDropdown = ({ dlc, hold, completed, total }: LocationSubDropdownProps) => {
   const { setSelectedCategory } = useLocationDispatch();
-  const { selectedCategory, showSearchResults } = useLocationState();
+  const { selectedCategory } = useLocationState();
   const { checkLocationComplete } = useCheckLocationComplete();
   const { getLocationsForHoldInDLC, updateLocationsComplete } = useGetLocations()
 
   return (
     <Dropdown
-      isOpen={dlc === selectedCategory.category && hold === selectedCategory.subType || showSearchResults}
+      isOpen={dlc === selectedCategory.category && hold === selectedCategory.subCategory}
       setOpen={() => setSelectedCategory({
         ...selectedCategory,
-        subType: hold === selectedCategory.subType ? '' : hold
+        subCategory: hold === selectedCategory.subCategory ? '' : hold
       })}
         header={
           <SubListHeader title={hold} completed={completed} total={total} />

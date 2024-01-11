@@ -1,18 +1,18 @@
 import React from 'react';
-import { ListContainer, ListItemScrollableList } from '@components/general/Lists/ListStyledComponents.native';
+import { ListContainer } from '@components/general/Lists/ListStyledComponents.native';
 import useGetCollectables from './hooks/useGetCollectables';
 import useCheckCollectableComplete from './hooks/useCheckCollectableComplete';
 import ListItem from '@components/general/Lists/ListItem.native';
 
 export interface CollectableMainListProps {
   mainCategory: string;
-  subType?: string;
+  subCategory?: string;
   isSubCategory?: boolean;
 }
 
-const CollectableMainList = ({ mainCategory, subType, isSubCategory = false }: CollectableMainListProps) => {
+const CollectableMainList = ({ mainCategory, subCategory, isSubCategory = false }: CollectableMainListProps) => {
   const { getCollectablesForSubCategory, getCollectablesForCategory, updateCollectablesComplete } = useGetCollectables();
-  const collectables = isSubCategory ? getCollectablesForSubCategory(mainCategory, subType) : getCollectablesForCategory(mainCategory);
+  const collectables = isSubCategory ? getCollectablesForSubCategory(mainCategory, subCategory) : getCollectablesForCategory(mainCategory);
   const { checkCollectableComplete } = useCheckCollectableComplete();
   
   return (

@@ -7,6 +7,7 @@ import useGetUserGameData from '@data/hooks/useGetUserGameData.native';
 import useMiscState from './useMiscState';
 
 interface GetMiscItemsReturnType {
+  getFilteredMiscItems: () => MiscItem[];
   getMiscItemsForCategory: (category: string) => MiscItem[];
   updateMiscItemsComplete: (miscItemId: string) => void;
 }
@@ -18,11 +19,14 @@ const useGetMiscItems = (): GetMiscItemsReturnType => {
   const getFormattedSearchString = useSearchStringFormatter();
   const { mapDataToMiscItems } = useGetGameData();
   const miscItems = mapDataToMiscItems(selectedGame);
-  const filteredMiscItems = miscItems.filter(item => getFormattedSearchString(item.name).includes(getFormattedSearchString(searchValue)));
   const { getUserMiscItems } = useGetUserGameData();
 
+  const getFilteredMiscItems = (): MiscItem[] => {
+    return miscItems.filter(item => getFormattedSearchString(item.name).includes(getFormattedSearchString(searchValue)));;
+  };
+
   const getMiscItemsForCategory = (category: string): MiscItem[] => {
-    return filteredMiscItems.filter(item => item.mainCategory === category);
+    return miscItems.filter(item => item.mainCategory === category);
   };
 
   const updateMiscItemsComplete = (miscItemId: string): void => {
@@ -40,6 +44,7 @@ const useGetMiscItems = (): GetMiscItemsReturnType => {
   };
 
   return {
+    getFilteredMiscItems,
     getMiscItemsForCategory,
     updateMiscItemsComplete
   }

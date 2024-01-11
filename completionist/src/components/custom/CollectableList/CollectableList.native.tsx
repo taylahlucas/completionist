@@ -7,40 +7,44 @@ import useMainState from '@redux/hooks/useMainState';
 import useCheckCollectableComplete from './hooks/useCheckCollectableComplete';
 import useGetCollectableCategories from './hooks/useGetCollectableCategories';
 import useCollectableState from './hooks/useCollectableState';
-import useCollectableDispatch from './hooks/useCollectableDispatch';
+import CollectableSearchResults from './CollectableSearchResults.native';
 
 const CollectableList = () => {
   const { selectedGame } = useMainState();
-  const { triggerShowSearchResults } = useCollectableDispatch();
   const { searchValue } = useCollectableState();
   const { getCollectableCategories } = useGetCollectableCategories();
-  const { getCollectablesForCategory, getAllCollectablesForCategory } = useGetCollectables();
+  const {
+    getCollectablesForCategory,
+    getAllCollectablesForCategory
+  } = useGetCollectables();
   const { checkCollectablesCompleteForCategory } = useCheckCollectableComplete();
 
-  // TODO: Move this to custom hook
-  useEffect(() => {
-    triggerShowSearchResults(searchValue.length >= 3);
-  }, [searchValue])
-    //  TODO: Add subtitles for DLC
-    // TODO: Fix scroll views
+  //  TODO: Add subtitles for DLC
   return (
-    <ScrollableList>
-      {getCollectableCategories(selectedGame).map((category: string, index: number) => {
-        const allCollectablesForCategory = getAllCollectablesForCategory(category)
-        const completedCollectables = checkCollectablesCompleteForCategory(allCollectablesForCategory)
+    <Condition
+      condition={searchValue.length < 2}
+      conditionalElement={
+        <CollectableSearchResults />
+      }
+    >
+      <ScrollableList>
+        {getCollectableCategories(selectedGame).map((category: string, index: number) => {
+          const allCollectablesForCategory = getAllCollectablesForCategory(category)
+          const completedCollectables = checkCollectablesCompleteForCategory(allCollectablesForCategory)
 
-        return (
-          <Condition key={index} condition={getCollectablesForCategory(category).length > 0}>
-            <CollectableMainDropdown
-              key={index} 
-              category={category}
-              completed={completedCollectables.toString()}
-              total={allCollectablesForCategory.length.toString()}
-            />
-          </Condition>
-        )
-      })}
-    </ScrollableList>
+          return (
+            <Condition key={index} condition={getCollectablesForCategory(category).length > 0}>
+              <CollectableMainDropdown
+                key={index}
+                category={category}
+                completed={completedCollectables.toString()}
+                total={allCollectablesForCategory.length.toString()}
+              />
+            </Condition>
+          )
+        })}
+      </ScrollableList>
+    </Condition>
   );
 };
 

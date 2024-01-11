@@ -45,14 +45,14 @@ export interface MiscItem {
 export interface Collectable {
   id: string;
   mainCategory: string;
-  subType?: string;
+  subCategory?: string;
   name: string;
   prerequisite?: string;
 }
 
 export interface DropDownType {
   category: string;
-  subType?: string;
+  subCategory?: string;
   type?: string;
 }
 

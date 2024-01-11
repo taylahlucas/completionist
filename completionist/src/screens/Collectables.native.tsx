@@ -12,7 +12,7 @@ import useCollectableDispatch from '@components/custom/CollectableList/hooks/use
 
 const Collectables = () => {
   const { selectedGame } = useMainState();
-  const { setSearchValue, triggerShowSearchResults } = useCollectableDispatch();
+  const { setSearchValue } = useCollectableDispatch();
   const { searchValue } = useCollectableState();
   const { getUserCollectables } = useGetUserGameData();
   const { mapDataToFilteredCollectables } = useGetGameData();
@@ -23,10 +23,7 @@ const Collectables = () => {
       <CustomSearchBar 
         searchValue={searchValue} 
         setSearchValue={setSearchValue}
-        onReset={(): void => {
-          setSearchValue('');
-          triggerShowSearchResults(false);
-        }} 
+        onReset={(): void => setSearchValue('')} 
       />
       <CompletedQuantityTitle type={'ListItemTitleBold'}>
         {`${getUserCollectables().length}/${mapDataToFilteredCollectables(selectedGame).length}`}

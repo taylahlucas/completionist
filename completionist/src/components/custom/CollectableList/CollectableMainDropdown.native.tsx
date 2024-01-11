@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Condition from '@components/general/Condition.native';
 import Dropdown from '@components/general/Dropdown/Dropdown.native';
 import { CollectableSubDropdownContainer } from './CollectableListStyledComponents.native';
@@ -11,7 +11,6 @@ import useCheckCollectableComplete from './hooks/useCheckCollectableComplete';
 import useGetCollectableCategories from './hooks/useGetCollectableCategories';
 import useCollectableState from './hooks/useCollectableState';
 import useCollectableDispatch from './hooks/useCollectableDispatch';
-import { ListItemScrollableList } from '@components/general/Lists/ListStyledComponents.native';
 
 export interface CollectableMainDropdownProps {
   category: string;
@@ -22,7 +21,7 @@ export interface CollectableMainDropdownProps {
 const CollectableMainDropdown = ({ category, completed, total }: CollectableMainDropdownProps) => {
   const { selectedGame, userSettings } = useMainState();
   const { setSelectedCategory } = useCollectableDispatch();
-  const { selectedCategory, showSearchResults } = useCollectableState();
+  const { selectedCategory } = useCollectableState();
   const { getCollectableSubCategories } = useGetCollectableCategories();
   const { getCollectablesForSubCategory, getCollectablesForCategory } = useGetCollectables();
   const subCategories = getCollectableSubCategories(category, selectedGame);
@@ -30,8 +29,11 @@ const CollectableMainDropdown = ({ category, completed, total }: CollectableMain
 
   return (
     <Dropdown
-      isOpen={category === selectedCategory || showSearchResults}
-      setOpen={() => setSelectedCategory(category === selectedCategory ? ''  : category)}
+      isOpen={category === selectedCategory.category}
+      setOpen={(): void => setSelectedCategory({
+        ...selectedCategory,
+        category: category === selectedCategory.category ? '' : category
+      })}
       enabled={userSettings?.find(settings => settings.category === category && settings.section === "Collectables")?.isActive ?? false}
       header={
         <ListHeader title={category} completed={completed} total={total} />
@@ -47,7 +49,7 @@ const CollectableMainDropdown = ({ category, completed, total }: CollectableMain
               <CollectableSubDropdown 
                 key={index} 
                 mainCategory={category} 
-                subType={subCategory}
+                subCategory={subCategory}
                 completed={completedCollectables.toString()}
                 total={collectablesForCategory.length.toString()}
               />

@@ -18,7 +18,7 @@ Collectables
 {
   id: generated_uuid
   mainCategory: string,
-  subType?: string,
+  subCategory?: string,
   name: string,
   prerequisite?: string,
   dlc: string

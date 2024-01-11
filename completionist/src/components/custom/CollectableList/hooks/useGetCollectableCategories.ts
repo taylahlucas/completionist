@@ -25,9 +25,9 @@ const useGetCollectableCategories = (): GameDataReturnType => {
     const filteredCollectables = collectables.filter(collectable => collectable.mainCategory === category);
     let collectableSubCategories: string[] = [];
     filteredCollectables.map(collectable => {
-      if (!collectableSubCategories.find(item => item === collectable.subType)) {
-        if (!!collectable.subType) {
-          collectableSubCategories.push(collectable.subType);
+      if (!collectableSubCategories.find(item => item === collectable.subCategory)) {
+        if (!!collectable.subCategory) {
+          collectableSubCategories.push(collectable.subCategory);
         }
       }
     });

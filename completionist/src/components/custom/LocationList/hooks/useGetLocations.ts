@@ -7,6 +7,7 @@ import useSearchStringFormatter from '@utils/hooks/useSearchStringFormatter';
 import useLocationState from './useLocationState';
 
 interface GetLocationReturnType {
+  getFilteredLocations: () => Location[];
   getLocationsForDLC: (dlc: string) => Location[];
   getLocationsForHoldInDLC: (dlc: string, hold: string) => Location[];
   getUserLocations: () => Item[];
@@ -20,15 +21,18 @@ const useGetLocations = (): GetLocationReturnType => {
   const getFormattedSearchString = useSearchStringFormatter();
   const { mapDataToLocations } = useGetGameData();
   const locations = mapDataToLocations(selectedGame);
-  const filteredLocations = locations.filter(item => getFormattedSearchString(item.name).includes(getFormattedSearchString(searchValue)));
   const { getUserLocations } = useGetUserGameData();
 
+  const getFilteredLocations = (): Location[] => {
+    return locations.filter(item => getFormattedSearchString(item.name).includes(getFormattedSearchString(searchValue)));;
+  };
+
   const getLocationsForDLC = (dlc: string): Location[] => {
-    return filteredLocations.filter(item => dlc === item.dlc);
+    return locations.filter(item => dlc === item.dlc);
   };
 
   const getLocationsForHoldInDLC = (dlc: string, hold: string): Location[] => {
-    return filteredLocations.filter(item => dlc === item.dlc && hold === item.hold);
+    return locations.filter(item => dlc === item.dlc && hold === item.hold);
   };
 
   const updateLocationsComplete = (locationId: string) => {
@@ -46,6 +50,7 @@ const useGetLocations = (): GetLocationReturnType => {
   };
 
   return {
+    getFilteredLocations,
     getLocationsForDLC,
     getLocationsForHoldInDLC,
     getUserLocations,

@@ -21,7 +21,7 @@ export interface LocationMainDropdownProps {
 const LocationMainDropdown = ({ dlc, completed, total }: LocationMainDropdownProps) => {
   const { selectedGame, userSettings } = useMainState();
   const { setSelectedCategory } = useLocationDispatch();
-  const { selectedCategory, showSearchResults } = useLocationState();
+  const { selectedCategory } = useLocationState();
   const { getLocationHoldsInDLC } = useGetLocationCategories();
   const { checkLocationsCompleteForHoldsInDLC } = useCheckLocationComplete();
   const { getLocationsForDLC, getLocationsForHoldInDLC } = useGetLocations();
@@ -29,7 +29,7 @@ const LocationMainDropdown = ({ dlc, completed, total }: LocationMainDropdownPro
 
   return (
     <Dropdown
-      isOpen={dlc === selectedCategory.category || showSearchResults}
+      isOpen={dlc === selectedCategory.category}
       setOpen={() => setSelectedCategory({
         ...selectedCategory,
         category: dlc === selectedCategory.category ? '' : dlc

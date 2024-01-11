@@ -7,9 +7,10 @@ import useGetUserGameData from '@data/hooks/useGetUserGameData.native';
 import useCollectableState from './useCollectableState';
 
 interface GameDataReturnType {
-  getCollectablesForSubCategory: (mainCategory: string, subType?: string) => Collectable[];
+  getFilteredCollectables: () => Collectable[];
+  getCollectablesForSubCategory: (mainCategory: string, subCategory?: string) => Collectable[];
   getCollectablesForCategory: (mainCategory: string) => Collectable[];
-  getAllCollectablesForCategory: (mainCategory: string) => Collectable[];
+  getAllCollectablesForCategory:(mainCategory: string) => Collectable[];
   updateCollectablesComplete: (questId: string) => void;
 }
 
@@ -20,15 +21,18 @@ const useGetCollectables = (): GameDataReturnType => {
   const getFormattedSearchString = useSearchStringFormatter();
   const { mapDataToFilteredCollectables } = useGetGameData();
   const collectables = mapDataToFilteredCollectables(selectedGame);
-  const filteredCollectables = collectables.filter(collectable => getFormattedSearchString(collectable.name).includes(getFormattedSearchString(searchValue)));
   const { getUserCollectables } = useGetUserGameData();
 
-  const getCollectablesForSubCategory = (mainCategory: string, subType: string = ''): Collectable[] => {
-    return filteredCollectables.filter(collectable => collectable.mainCategory === mainCategory && collectable.subType === subType);
+  const getFilteredCollectables = () => {
+    return collectables.filter(collectable => getFormattedSearchString(collectable.name).includes(getFormattedSearchString(searchValue)));
+  }
+
+  const getCollectablesForSubCategory = (mainCategory: string, subCategory: string = ''): Collectable[] => {
+    return collectables.filter(collectable => collectable.mainCategory === mainCategory && collectable.subCategory === subCategory);
   }
 
   const getCollectablesForCategory = (mainCategory: string): Collectable[] => {
-    return filteredCollectables.filter(collectable => collectable.mainCategory === mainCategory);
+    return collectables.filter(collectable => collectable.mainCategory === mainCategory);
   }
 
   const getAllCollectablesForCategory = (mainCategory: string): Collectable[] => {
@@ -50,6 +54,7 @@ const useGetCollectables = (): GameDataReturnType => {
   };
 
   return {
+    getFilteredCollectables,
     getCollectablesForSubCategory,
     getCollectablesForCategory,
     getAllCollectablesForCategory,
