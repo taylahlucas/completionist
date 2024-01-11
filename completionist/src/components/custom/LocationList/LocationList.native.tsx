@@ -18,7 +18,7 @@ const LocationList = () => {
 
   return (
     <Condition
-      condition={searchValue.length > 2}
+      condition={searchValue.length < 2}
       conditionalElement={
         <LocationSearchResults />
       }

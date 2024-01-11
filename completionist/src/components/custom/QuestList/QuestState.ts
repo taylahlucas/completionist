@@ -1,15 +1,16 @@
 import { createSlice } from '@reduxjs/toolkit';
+import { DropDownType } from '@utils/CustomInterfaces';
 
 export interface QuestState {
   readonly searchValue: string;
-  readonly showSearchResults: boolean;
-  readonly selectedCategory: string;
+  readonly selectedCategory: DropDownType;
 };
 
 export const initialState: QuestState = {
   searchValue: '',
-  showSearchResults: false,
-  selectedCategory: ''
+  selectedCategory: {
+    category: ''
+  }
 };
 
 const slice = createSlice({
@@ -19,9 +20,6 @@ const slice = createSlice({
     setSearchValue: (state, action) => {
       state.searchValue = action.payload;
     },
-    triggerShowSearchResults: (state, action) => {
-      state.showSearchResults = action.payload;
-    },
     setSelectedCategory: (state, action) => {
       state.selectedCategory = action.payload;
     }
@@ -30,7 +28,6 @@ const slice = createSlice({
 
 export const {
   setSearchValue,
-  triggerShowSearchResults,
   setSelectedCategory
 } = slice.actions;
 

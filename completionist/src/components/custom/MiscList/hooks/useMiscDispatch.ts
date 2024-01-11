@@ -4,10 +4,11 @@ import {
   setSelectedCategory
 } from '../MiscState';
 import { useAppDispatch } from '@redux/store';
+import { DropDownType } from '@utils/CustomInterfaces';
 
 interface MiscDispatch {
   setSearchValue: (value: string) => void;
-  setSelectedCategory: (category: string) => void;
+  setSelectedCategory: (category: DropDownType) => void;
 }
 
 const useMiscDispatch = (): MiscDispatch => {
@@ -17,7 +18,7 @@ const useMiscDispatch = (): MiscDispatch => {
     setSearchValue(value: string): void {
       dispatch(setSearchValue(value));
     },
-    setSelectedCategory(category: string): void {
+    setSelectedCategory(category: DropDownType): void {
       dispatch(setSelectedCategory(category));
     },
   }

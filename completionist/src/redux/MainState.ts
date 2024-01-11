@@ -85,6 +85,7 @@ const slice = createSlice({
           break;
       }
     },
+    // TODO: Remove ?
     setSearchValue: (state, action) => {
       state.searchValue = action.payload;
     },

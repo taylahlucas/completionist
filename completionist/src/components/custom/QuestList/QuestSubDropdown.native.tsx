@@ -12,51 +12,53 @@ import useQuestDispatch from './hooks/useQuestDispatch';
 import useQuestState from './hooks/useQuestState';
 
 export interface QuestSubDropdownProps {
-  category: string;
+  subCategory: string;
   completed: string;
   total: string;
 }
 
-const QuestSubDropdown = ({ category, completed, total }: QuestSubDropdownProps) => {
+const QuestSubDropdown = ({ subCategory, completed, total }: QuestSubDropdownProps) => {
   const { selectedGame } = useMainState();
   const { setSelectedCategory } = useQuestDispatch();
-  const { selectedCategory, showSearchResults } = useQuestState();
+  const { selectedCategory } = useQuestState();
   const { getQuestsForSubCategoryWithType } = useGetQuests();
   const { getQuestSubCategoriesTypes } = useGetQuestCategories();
-  const subCategoryTypes = getQuestSubCategoriesTypes(category, selectedGame);
+  const subCategoryTypes = getQuestSubCategoriesTypes(subCategory, selectedGame);
   const { checkQuestsCompleteForCategory } = useCheckQuestComplete();
-  const mainQuests = getQuestsForSubCategoryWithType(category, '');
+  const mainQuests = getQuestsForSubCategoryWithType(subCategory, '');
 
   return (
     <Dropdown
-      isOpen={category === selectedCategory || showSearchResults}
-      setOpen={() => setSelectedCategory(category === selectedCategory ? '' : category)}
+      isOpen={subCategory === selectedCategory.subCategory}
+      setOpen={() => setSelectedCategory({
+        ...selectedCategory,
+        subCategory: subCategory === selectedCategory.subCategory ? '' : subCategory
+      })}
       header={
-        <SubListHeader title={category} completed={completed} total={total} />
+        <SubListHeader title={subCategory} completed={completed} total={total} />
       }
     >
       <Condition
         condition={subCategoryTypes?.length === 0}
         conditionalElement={
           <QuestSubTypeDropdown
-            category={category}
+            subCategory={subCategory}
             type={'Main'}
             completed={checkQuestsCompleteForCategory(mainQuests).toString()}
             total={mainQuests.length.toString()}
           />
         }
       >
-        <QuestSubTypeMainListItem category={category} isSubCategory={true} />
+        <QuestSubTypeMainListItem category={subCategory} isSubCategory={true} />
       </Condition>
-
       {subCategoryTypes?.map((type, index) => {
-        const questsForType = getQuestsForSubCategoryWithType(category, type);
+        const questsForType = getQuestsForSubCategoryWithType(subCategory, type);
         const completedQuests = checkQuestsCompleteForCategory(questsForType);
 
         return (
           <QuestSubTypeDropdown
             key={index}
-            category={category}
+            subCategory={subCategory}
             type={type}
             completed={completedQuests.toString()}
             total={questsForType.length.toString()}

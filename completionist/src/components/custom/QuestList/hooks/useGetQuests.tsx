@@ -7,6 +7,7 @@ import useGetUserGameData from '@data/hooks/useGetUserGameData.native';
 import useQuestState from './useQuestState';
 
 interface GetQuestReturnType {
+  getFilteredQuests: () => Quest[];
   getQuestsForSubCategory: (subCategory: string) => Quest[];
   getQuestsForSubCategoryWithType: (subCategory: string, subCategoryType?: string) => Quest[];
   getQuestsForCategory: (mainCategory: string) => Quest[];
@@ -22,18 +23,21 @@ const useGetQuests = (): GetQuestReturnType => {
   const { mapDataToQuests, mapDataToFilteredQuests } = useGetGameData();
   const quests = mapDataToFilteredQuests(selectedGame);
   const getFormattedSearchString = useSearchStringFormatter();
-  const filteredQuests = quests.filter(quest => getFormattedSearchString(quest.title).includes(getFormattedSearchString(searchValue)));
+
+  const getFilteredQuests = (): Quest[] => {
+    return quests.filter(quest => getFormattedSearchString(quest.title).includes(getFormattedSearchString(searchValue)));
+  };
 
   const getQuestsForSubCategory = (subCategory: string): Quest[] => {
-    return filteredQuests.filter(quest => quest.subCategory === subCategory);
+    return quests.filter(quest => quest.subCategory === subCategory);
   }
 
   const getQuestsForSubCategoryWithType = (subCategory: string, subCategoryType: string = ''): Quest[] => {
-    return filteredQuests.filter(quest => quest.subCategory === subCategory && quest.subCategoryType === subCategoryType);
+    return quests.filter(quest => quest.subCategory === subCategory && quest.subCategoryType === subCategoryType);
   }
   
   const getQuestsForCategory = (mainCategory: string): Quest[] => {
-    return filteredQuests.filter(quest => quest.mainCategory === mainCategory);
+    return quests.filter(quest => quest.mainCategory === mainCategory);
   }
 
   const getAllQuestsForCategory = (mainCategory: string): Quest[] => {
@@ -55,6 +59,7 @@ const useGetQuests = (): GetQuestReturnType => {
   };
 
   return {
+    getFilteredQuests,
     getQuestsForSubCategory,
     getQuestsForSubCategoryWithType,
     getQuestsForCategory,

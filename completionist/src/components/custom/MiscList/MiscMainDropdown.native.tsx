@@ -1,7 +1,6 @@
 import React from 'react';
 import Dropdown from '@components/general/Dropdown/Dropdown.native';
 import ListHeader from '@components/general/Lists/ListHeader.native';
-import useMainState from '@redux/hooks/useMainState';
 import useGetMiscItems from './hooks/useGetMiscItems';
 import ListItem from '@components/general/Lists/ListItem.native';
 import { MiscItem } from '@utils/CustomInterfaces';
@@ -17,7 +16,6 @@ export interface MiscMainDropdownProps {
 }
 
 const MiscMainDropdown = ({ category, completed, total }: MiscMainDropdownProps) => {
-  const { showSearchResults } = useMiscState();
   const { setSelectedCategory } = useMiscDispatch();
   const { selectedCategory } = useMiscState();
   const { getMiscItemsForCategory, updateMiscItemsComplete } = useGetMiscItems()
@@ -25,8 +23,11 @@ const MiscMainDropdown = ({ category, completed, total }: MiscMainDropdownProps)
 
   return (
     <Dropdown
-      isOpen={category === selectedCategory || showSearchResults}
-      setOpen={() => setSelectedCategory(category === selectedCategory ? '' : category)}
+      isOpen={category === selectedCategory.category}
+      setOpen={() => setSelectedCategory({
+        ...selectedCategory,
+        category: category === selectedCategory.category ? '' : category
+      })}
       header={
         <ListHeader title={category} completed={completed} total={total} />
       }

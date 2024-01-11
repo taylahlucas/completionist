@@ -12,7 +12,7 @@ import useLocationDispatch from '@components/custom/LocationList/hooks/useLocati
 
 const Locations = () => {
   const { selectedGame } = useMainState();
-  const { setSearchValue, triggerShowSearchResults } = useLocationDispatch();
+  const { setSearchValue } = useLocationDispatch();
   const { searchValue } = useLocationState();
   const { getUserLocations } = useGetUserGameData();
   const { mapDataToFilteredLocations } = useGetGameData();
@@ -24,10 +24,7 @@ const Locations = () => {
       <CustomSearchBar 
         searchValue={searchValue} 
         setSearchValue={setSearchValue}
-        onReset={(): void => {
-          setSearchValue('');
-          triggerShowSearchResults(false);
-        }} 
+        onReset={(): void => setSearchValue('')} 
       />
       <CompletedQuantityTitle type={'ListItemTitleBold'}>{`${getUserLocations().length}/${mapDataToFilteredLocations(selectedGame).length}`}</CompletedQuantityTitle>
       <LocationList />

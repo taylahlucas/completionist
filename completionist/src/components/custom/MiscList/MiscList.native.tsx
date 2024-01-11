@@ -6,18 +6,19 @@ import useCheckMiscItemComplete from './hooks/useCheckMiscItemComplete';
 import Condition from '@components/general/Condition.native';
 import useGetMiscItemCategories from './hooks/useGetMiscItemCategories';
 import useMainState from '@redux/hooks/useMainState';
-import { setSearchValue } from '@redux/MainState';
 import MiscSearchResults from './MiscSearchResults.native';
+import useMiscState from './hooks/useMiscState';
 
 const MiscList = () => {
   const { selectedGame } = useMainState();
+  const { searchValue } = useMiscState();
   const { getMiscItemCategories } = useGetMiscItemCategories();
   const { getMiscItemsForCategory } = useGetMiscItems();
   const { checkMiscItemsCompleteForCategory } = useCheckMiscItemComplete();
   // TODO: Fix scroll on nested list
   return (
     <Condition
-      condition={setSearchValue.length > 2}
+      condition={searchValue.length < 2}
       conditionalElement={
         <MiscSearchResults />
       }

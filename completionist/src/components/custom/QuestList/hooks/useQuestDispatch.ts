@@ -1,15 +1,14 @@
 import { Dispatch } from 'redux';
 import { 
   setSearchValue,
-  triggerShowSearchResults,
   setSelectedCategory
 } from '../QuestState';
 import { useAppDispatch } from '@redux/store';
+import { DropDownType } from '@utils/CustomInterfaces';
 
 interface QuestDispatch {
   setSearchValue: (value: string) => void;
-  triggerShowSearchResults: (value: boolean) => void;
-  setSelectedCategory: (category: string) => void;
+  setSelectedCategory: (category: DropDownType) => void;
 }
 
 const useQuestDispatch = (): QuestDispatch => {
@@ -19,10 +18,7 @@ const useQuestDispatch = (): QuestDispatch => {
     setSearchValue(value: string): void {
       dispatch(setSearchValue(value));
     },
-    triggerShowSearchResults(value: boolean): void {
-      dispatch(triggerShowSearchResults(value));
-    },
-    setSelectedCategory(category: string): void {
+    setSelectedCategory(category: DropDownType): void {
       dispatch(setSelectedCategory(category));
     },
   }

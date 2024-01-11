@@ -21,7 +21,7 @@ export interface QuestMainDropdownProps {
 const QuestMainDropdown = ({ category, completed, total }: QuestMainDropdownProps) => {
   const { userSettings, selectedGame } = useMainState();
   const { setSelectedCategory } = useQuestDispatch();
-  const { selectedCategory, showSearchResults } = useQuestState();
+  const { selectedCategory } = useQuestState();
   const { getQuestsForSubCategory } = useGetQuests();
   const { getQuestSubCategories } = useGetQuestCategories();
   const subCategories = getQuestSubCategories(category, selectedGame);
@@ -29,8 +29,11 @@ const QuestMainDropdown = ({ category, completed, total }: QuestMainDropdownProp
 
   return (
     <Dropdown
-      isOpen={category === selectedCategory || showSearchResults}
-      setOpen={() => setSelectedCategory(category === selectedCategory ? '' : category)}
+      isOpen={category === selectedCategory.category}
+      setOpen={() => setSelectedCategory({
+        ...selectedCategory,
+        category: category === selectedCategory.category ? '' : category
+      })}
       enabled={userSettings?.find(settings => settings.category === category && settings.section === "Quests")?.isActive ?? false}
       header={
         <ListHeader title={category} completed={completed} total={total} />
@@ -45,7 +48,7 @@ const QuestMainDropdown = ({ category, completed, total }: QuestMainDropdownProp
             <Condition key={index} condition={questsForCategory.length > 0}>
               <QuestSubDropdown 
                 key={index} 
-                category={subCategory}
+                subCategory={subCategory}
                 completed={completedQuests.toString()}
                 total={questsForCategory.length.toString()}
               />

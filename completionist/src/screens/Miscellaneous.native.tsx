@@ -12,7 +12,7 @@ import useMiscDispatch from '@components/custom/MiscList/hooks/useMiscDispatch';
 
 const Miscellaneous = () => {
   const { selectedGame } = useMainState();
-  const { setSearchValue, triggerShowSearchResults } = useMiscDispatch();
+  const { setSearchValue } = useMiscDispatch();
   const { searchValue } = useMiscState();
   const { getUserMiscItems } = useGetUserGameData();
   const { mapDataToFilteredMiscItems } = useGetGameData();
@@ -21,12 +21,9 @@ const Miscellaneous = () => {
     <StandardLayout>
       <NavigationHeader title={'Miscellaneous'} />
       <CustomSearchBar 
-        searchValue={searchValue} 
+        searchValue={searchValue}
         setSearchValue={setSearchValue}
-        onReset={(): void => {
-          setSearchValue('');
-          triggerShowSearchResults(false);
-        }} 
+        onReset={(): void => setSearchValue('')} 
       />
       <CompletedQuantityTitle type={'ListItemTitleBold'}>{`${getUserMiscItems().length}/${mapDataToFilteredMiscItems(selectedGame).length}`}</CompletedQuantityTitle>
       <MiscList />
