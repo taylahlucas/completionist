@@ -12,7 +12,7 @@ const Landing = () => {
         <LottieView
           ref={animationRef}
           style={{ width: 150, height: 150 }}
-          source={require('../assets/animations/tick.json')}
+          source={require('../styles/animations/tick.json')}
           autoPlay={true}
           loop={true}
         />

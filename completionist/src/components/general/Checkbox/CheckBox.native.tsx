@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import LottieView from 'lottie-react-native';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import { IconTypeEnum } from '@utils/CustomEnums';
@@ -13,38 +13,38 @@ interface CheckBoxProps {
 
 const CheckBox = ({ isToggled, action }: CheckBoxProps) => {
   const theme = useGetTheme();
+  const [trigger, setTrigger] = useState(false);
   const animationRef = useRef<LottieView>(null);
 
   useEffect(() => {
-    if (animationRef.current && isToggled) {
-      animationRef.current.play();
+    if (trigger) {
+      animationRef?.current?.play();
     }
-  }, [isToggled])
+  }, [trigger]);
 
   return (
     <StyledCheckBox onPress={() => {
-      if (animationRef.current && isToggled) {
-        animationRef.current.play();
-      }
+      setTrigger(!isToggled);
       action();
     }}>
-      <Condition 
+      <Condition
         condition={isToggled}
         conditionalElement={
           <Icon
             name={'circle-thin'}
             type={IconTypeEnum.FontAwesome}
-            size={34}
+            size={33}
             color={theme.lightGrey}
           />
         }
       >
-      <StyledAnimation
-        ref={animationRef}
-        source={require('../../../assets/animations/tick.json')}
-        autoPlay={false}
-        loop={false}
-      />
+        <StyledAnimation
+          ref={animationRef}
+          source={require('../../../styles/animations/tick.json')}
+          progress={trigger ? 0 : 1}
+          loop={false}
+          onAnimationFinish={() => animationRef?.current?.render()}
+        />
       </Condition>
     </StyledCheckBox>
   );
