@@ -22,13 +22,14 @@ export interface MiscMainDropdownProps {
 }
 
 const MiscMainDropdown = ({ category, completed, total }: MiscMainDropdownProps) => {
-  const { selectedGame } = useMainState();
+  const { userSettings, selectedGame } = useMainState();
   const { setSelectedCategory } = useMiscDispatch();
   const { selectedCategory } = useMiscState();
-  const { getMiscItemsForCategory, getMiscItemsForSubCategory, updateMiscItemsComplete } = useGetMiscItems()
+  const { getMiscItemsForCategory, getMiscItemsForSubCategory } = useGetMiscItems()
   const { checkMiscItemsCompleteForCategory } = useCheckMiscItemComplete();
   const { getMiscItemSubCategories } = useGetMiscItemCategories();
   const subCategories = getMiscItemSubCategories(category, selectedGame);
+  const isEnabled: boolean = userSettings?.find(settings => settings.category === category && settings.section === "Misc")?.isActive ?? false;
 
   return (
     <Dropdown
@@ -37,8 +38,9 @@ const MiscMainDropdown = ({ category, completed, total }: MiscMainDropdownProps)
         ...selectedCategory,
         category: category === selectedCategory.category ? '' : category
       })}
+      enabled={isEnabled}
       header={
-        <ListHeader title={category} completed={completed} total={total} />
+        <ListHeader title={category} enabled={isEnabled} completed={completed} total={total} />
       }
     >
       <CollectableSubDropdownContainer>

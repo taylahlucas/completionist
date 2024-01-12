@@ -32,7 +32,7 @@ const ListItem = ({ title, location, hold, isComplete = false, action }: ListIte
         <Condition condition={!!location || !!hold}>
           <ListItemLocationContainer>
             <ListItemDLCTitle 
-              type={'ListItemSubDescriptionBold'} 
+              type={'ListItemSubDescription'} 
               color={isComplete ? theme.midGrey : theme.darkGrey}
               ellipsizeMode={'tail'}
               numberOfLines={1}

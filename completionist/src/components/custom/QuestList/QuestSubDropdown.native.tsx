@@ -2,7 +2,7 @@ import React from 'react';
 import Dropdown from '@components/general/Dropdown/Dropdown.native';
 import QuestSubTypeDropdown from './QuestSubTypeDropdown.native';
 import Condition from '@components/general/Condition.native';
-import QuestSubTypeMainListItem from './QuestMainList.native';
+import QuestMainList from './QuestMainList.native';
 import useMainState from '@redux/hooks/useMainState';
 import SubListHeader from '@components/general/Lists/SubListHeader.native';
 import useCheckQuestComplete from './hooks/useCheckQuestComplete';
@@ -23,8 +23,8 @@ const QuestSubDropdown = ({ subCategory, completed, total }: QuestSubDropdownPro
   const { selectedCategory } = useQuestState();
   const { getQuestsForSubCategoryWithType } = useGetQuests();
   const { getQuestSubCategoriesTypes } = useGetQuestCategories();
-  const subCategoryTypes = getQuestSubCategoriesTypes(subCategory, selectedGame);
   const { checkQuestsCompleteForCategory } = useCheckQuestComplete();
+  const subCategoryTypes = getQuestSubCategoriesTypes(subCategory, selectedGame);
   const mainQuests = getQuestsForSubCategoryWithType(subCategory, '');
 
   return (
@@ -49,7 +49,7 @@ const QuestSubDropdown = ({ subCategory, completed, total }: QuestSubDropdownPro
           />
         }
       >
-        <QuestSubTypeMainListItem category={subCategory} isSubCategory={true} />
+        <QuestMainList category={subCategory} isSubCategory={true} />
       </Condition>
       {subCategoryTypes?.map((type, index) => {
         const questsForType = getQuestsForSubCategoryWithType(subCategory, type);

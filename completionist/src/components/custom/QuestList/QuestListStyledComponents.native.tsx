@@ -11,11 +11,6 @@ export const QuestListSubListContainer = styled.View`
   margin-top: 8px;
 `;
 
-export const QuestListSubItemContainer = styled.View`
-  align-items: center;
-  padding-bottom: 16px;
-`;
-
 export const QuestListItemContainer = styled.View<QuestListItemStyleProps>`
   flex-direction: row;
   border-radius: ${DEFAULT_BORDER_RADIUS}px;

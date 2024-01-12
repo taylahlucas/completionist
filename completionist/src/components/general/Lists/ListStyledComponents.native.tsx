@@ -54,6 +54,10 @@ export const ListContainer = styled.View`
   padding-bottom: 16px;
 `;
 
+export const SubListContainer = styled.View`
+  margin-top: 8px;
+`;
+
 export const ListItemContainer = styled.View<ListItemStyleProps>`
   flex-direction: row;
   border-radius: ${DEFAULT_BORDER_RADIUS}px;
@@ -64,7 +68,6 @@ export const ListItemContainer = styled.View<ListItemStyleProps>`
   width: ${() => Dimensions.get('window').width - 32}px;
   background-color: ${props => props.color};
 `;
-
 
 export const ListItemContentContainer = styled.View`
   flex-direction: column;

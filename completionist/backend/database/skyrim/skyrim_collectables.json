@@ -1071,15 +1071,6 @@
     "subCategoryType": ""
   },
   {
-    "id": "68f9a639-58f4-4e5a-93a0-16cd41947cc7",
-    "mainCategory": "Dawnguard",
-    "subCategory": "Unique Armour Sets",
-    "name": "Ancient Falmer Armor",
-    "prerequisite": "",
-    "dlc": "Dawnguard",
-    "subCategoryType": ""
-  },
-  {
     "id": "4c0b3b36-1590-4fc3-95ea-dcbf74330137",
     "mainCategory": "Unique Armour Sets",
     "subCategory": "",
@@ -1095,6 +1086,15 @@
     "name": "Armor of the Old Gods",
     "prerequisite": "",
     "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "68f9a639-58f4-4e5a-93a0-16cd41947cc7",
+    "mainCategory": "Dawnguard",
+    "subCategory": "Unique Armour Sets",
+    "name": "Ancient Falmer Armor",
+    "prerequisite": "",
+    "dlc": "Dawnguard",
     "subCategoryType": ""
   },
   {

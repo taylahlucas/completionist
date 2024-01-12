@@ -5,6 +5,7 @@ import SettingsContentSelectionDropdown from './SettingsContentSelectionDropdown
 
 const SettingsContent = () => {
   // TODO: Add button to enable/disable DLC
+  // TODO: Open to hide hidden categories
   return (
     <SettingsContentContainer>
       <SettingsContentDescription 

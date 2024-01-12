@@ -1,5 +1,4 @@
 import React from 'react';
-import { QuestListSubItemContainer } from './QuestListStyledComponents.native';
 import Dropdown from '@components/general/Dropdown/Dropdown.native';
 import Condition from '@components/general/Condition.native';
 import useGetQuests from './hooks/useGetQuests';
@@ -8,6 +7,7 @@ import SubTypeListHeader from '@components/general/Lists/SubTypeListHeader.nativ
 import useQuestDispatch from './hooks/useQuestDispatch';
 import useQuestState from './hooks/useQuestState';
 import ListItem from '@components/general/Lists/ListItem.native';
+import { ListContainer } from '@components/general/Lists/ListStyledComponents.native';
 
 export interface QuestSubTypeDropdownProps {
   subCategory: string;
@@ -35,7 +35,7 @@ const QuestSubTypeDropdown = ({ subCategory, type, completed, total }: QuestSubT
           <SubTypeListHeader title={type} completed={completed} total={total} />
         }
       >
-        <QuestListSubItemContainer>
+        <ListContainer>
           {quests?.map((quest, index) => (
             <ListItem
               key={index}
@@ -47,7 +47,7 @@ const QuestSubTypeDropdown = ({ subCategory, type, completed, total }: QuestSubT
               action={(): void => updateQuestItemsComplete(quest.id)}
             />
           ))}
-        </QuestListSubItemContainer>
+        </ListContainer>
       </Dropdown>
     </Condition>
   );

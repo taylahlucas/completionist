@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Condition from '@components/general/Condition.native';
 import Dropdown from '@components/general/Dropdown/Dropdown.native';
 import QuestSubDropdown from './QuestSubDropdown.native';
@@ -11,6 +11,7 @@ import useCheckQuestComplete from './hooks/useCheckQuestComplete';
 import useGetQuestCategories from './hooks/useGetQuestCategories';
 import useQuestState from './hooks/useQuestState';
 import useQuestDispatch from './hooks/useQuestDispatch';
+import { SubListContainer } from '@components/general/Lists/ListStyledComponents.native';
 
 export interface QuestMainDropdownProps {
   category: string;
@@ -26,6 +27,7 @@ const QuestMainDropdown = ({ category, completed, total }: QuestMainDropdownProp
   const { getQuestSubCategories } = useGetQuestCategories();
   const subCategories = getQuestSubCategories(category, selectedGame);
   const { checkQuestsCompleteForCategory } = useCheckQuestComplete();
+  const isEnabled: boolean = userSettings?.find(settings => settings.category === category && settings.section === "Quests")?.isActive ?? false;
 
   return (
     <Dropdown
@@ -34,12 +36,12 @@ const QuestMainDropdown = ({ category, completed, total }: QuestMainDropdownProp
         ...selectedCategory,
         category: category === selectedCategory.category ? '' : category
       })}
-      enabled={userSettings?.find(settings => settings.category === category && settings.section === "Quests")?.isActive ?? false}
+      enabled={isEnabled}
       header={
-        <ListHeader title={category} completed={completed} total={total} />
+        <ListHeader title={category} enabled={isEnabled} completed={completed} total={total} />
       }
     >
-      <QuestListSubListContainer>
+      <SubListContainer>
         {subCategories.map((subCategory, index) => {
           const questsForCategory = getQuestsForSubCategory(subCategory);
           const completedQuests = checkQuestsCompleteForCategory(questsForCategory);
@@ -58,7 +60,7 @@ const QuestMainDropdown = ({ category, completed, total }: QuestMainDropdownProp
         <Condition condition={subCategories.length === 0}>
           <QuestMainList category={category} />
         </Condition>
-      </QuestListSubListContainer>
+      </SubListContainer>
     </Dropdown>
   );
 };

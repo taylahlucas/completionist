@@ -13,10 +13,17 @@ const useGetMiscItemCategories = (): CheckLocationCompleteReturnType => {
     const miscItems = mapDataToMiscItems(selectedGame);
     let miscItemCategories: string[] = [];
     miscItems.map(miscItem => {
+      if (!miscItemCategories.find(item => item === miscItem.mainCategory || miscItem.dlc !== 'None')) {
+        miscItemCategories.push(miscItem.mainCategory);
+      }
+    });
+    // Add DLC categories last
+    miscItems.map(miscItem => {
       if (!miscItemCategories.find(item => item === miscItem.mainCategory)) {
         miscItemCategories.push(miscItem.mainCategory);
       }
     });
+
     return miscItemCategories;
   };
 

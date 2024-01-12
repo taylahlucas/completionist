@@ -26,6 +26,7 @@ const LocationMainDropdown = ({ dlc, completed, total }: LocationMainDropdownPro
   const { checkLocationsCompleteForHoldsInDLC } = useCheckLocationComplete();
   const { getLocationsForDLC, getLocationsForHoldInDLC } = useGetLocations();
   const holdsInDLC = getLocationHoldsInDLC(dlc, selectedGame);
+  const isEnabled: boolean = userSettings?.find(settings => settings.category === dlc && settings.section === "Locations")?.isActive ?? false;
 
   return (
     <Dropdown
@@ -34,9 +35,9 @@ const LocationMainDropdown = ({ dlc, completed, total }: LocationMainDropdownPro
         ...selectedCategory,
         category: dlc === selectedCategory.category ? '' : dlc
       })}
-      enabled={userSettings?.find(settings => settings.category === dlc && settings.section === "Locations")?.isActive ?? false}
+      enabled={isEnabled}
       header={
-        <ListHeader title={dlc === 'None' ? 'Main' : dlc} completed={completed} total={total} />
+        <ListHeader title={dlc === 'None' ? 'Main' : dlc} enabled={isEnabled} completed={completed} total={total} />
       }
     >
       <CollectableSubDropdownContainer>

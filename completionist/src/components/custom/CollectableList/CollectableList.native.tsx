@@ -13,10 +13,7 @@ const CollectableList = () => {
   const { selectedGame } = useMainState();
   const { searchValue } = useCollectableState();
   const { getCollectableCategories } = useGetCollectableCategories();
-  const {
-    getCollectablesForCategory,
-    getAllCollectablesForCategory
-  } = useGetCollectables();
+  const { getAllCollectablesForCategory } = useGetCollectables();
   const { checkCollectablesCompleteForCategory } = useCheckCollectableComplete();
 
   return (

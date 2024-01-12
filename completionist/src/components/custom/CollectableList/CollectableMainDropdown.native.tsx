@@ -11,6 +11,7 @@ import useCheckCollectableComplete from './hooks/useCheckCollectableComplete';
 import useGetCollectableCategories from './hooks/useGetCollectableCategories';
 import useCollectableState from './hooks/useCollectableState';
 import useCollectableDispatch from './hooks/useCollectableDispatch';
+import { SubListContainer } from '@components/general/Lists/ListStyledComponents.native';
 
 export interface CollectableMainDropdownProps {
   category: string;
@@ -23,10 +24,11 @@ const CollectableMainDropdown = ({ category, completed, total }: CollectableMain
   const { setSelectedCategory } = useCollectableDispatch();
   const { selectedCategory } = useCollectableState();
   const { getCollectableSubCategories } = useGetCollectableCategories();
-  const { getCollectablesForSubCategory, getCollectablesForCategory } = useGetCollectables();
+  const { getCollectablesForSubCategory } = useGetCollectables();
   const subCategories = getCollectableSubCategories(category, selectedGame);
   const { checkCollectablesCompleteForCategory } = useCheckCollectableComplete();
-  
+  const isEnabled: boolean = userSettings?.find(settings => settings.category === category && settings.section === "Collectables")?.isActive ?? false;
+
   return (
     <Dropdown
       isOpen={category === selectedCategory.category}
@@ -34,32 +36,33 @@ const CollectableMainDropdown = ({ category, completed, total }: CollectableMain
         ...selectedCategory,
         category: category === selectedCategory.category ? '' : category
       })}
-      enabled={userSettings?.find(settings => settings.category === category && settings.section === "Collectables")?.isActive ?? false}
+      enabled={isEnabled}
       header={
-        <ListHeader title={category} completed={completed} total={total} />
+        <ListHeader title={category} enabled={isEnabled} completed={completed} total={total} />
       }
     >
-      <CollectableSubDropdownContainer>
-        {subCategories.map((subCategory, index) => {
-          const collectablesForCategory = getCollectablesForSubCategory(category, subCategory);
-          const completedCollectables = checkCollectablesCompleteForCategory(collectablesForCategory);
+      <SubListContainer>
+        <Condition
+          condition={subCategories.length > 0}
+          conditionalElement={
+            <CollectableMainList subCategory={category} />
+          }>
+          {subCategories.map((subCategory, index) => {
+            const collectablesForCategory = getCollectablesForSubCategory(category, subCategory);
+            const completedCollectables = checkCollectablesCompleteForCategory(collectablesForCategory);
 
-          return (
-            <Condition key={index} condition={collectablesForCategory.length > 0}>
-              <CollectableSubDropdown 
-                key={index} 
-                mainCategory={category} 
+            return (
+              <CollectableSubDropdown
+                key={index}
+                mainCategory={category}
                 subCategory={subCategory}
                 completed={completedCollectables.toString()}
                 total={collectablesForCategory.length.toString()}
               />
-          </Condition>
-          )
-        })}
-        <Condition condition={subCategories.length === 0 && getCollectablesForCategory(category).length > 0}>
-          <CollectableMainList mainCategory={category} />
+            )
+          })}
         </Condition>
-      </CollectableSubDropdownContainer>
+      </SubListContainer>
     </Dropdown>
   );
 };

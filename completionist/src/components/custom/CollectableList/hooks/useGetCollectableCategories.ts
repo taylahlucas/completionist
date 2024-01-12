@@ -4,6 +4,7 @@ import { SubscriptionTypeEnum } from '@utils/CustomEnums';
 interface GameDataReturnType {
   getCollectableCategories: (selectedGame?: SubscriptionTypeEnum) => string[];
   getCollectableSubCategories: (category: string, selectedGame?: SubscriptionTypeEnum) => string[];
+  getCollectableSubCategoriesTypes: (subCategory: string, selectedGame?: SubscriptionTypeEnum) => string[];
 }
 
 const useGetCollectableCategories = (): GameDataReturnType => {
@@ -12,6 +13,12 @@ const useGetCollectableCategories = (): GameDataReturnType => {
   const getCollectableCategories = (selectedGame?: SubscriptionTypeEnum): string[] => {
     const collectables = mapDataToCollectables(selectedGame);
     let collectableCategories: string[] = [];
+    collectables.map(collectable => {
+      if (!collectableCategories.find(item => item === collectable.mainCategory || collectable.dlc !== 'None')) {
+        collectableCategories.push(collectable.mainCategory);
+      }
+    });
+    // Add DLC categories last
     collectables.map(collectable => {
       if (!collectableCategories.find(item => item === collectable.mainCategory)) {
         collectableCategories.push(collectable.mainCategory);
@@ -33,9 +40,26 @@ const useGetCollectableCategories = (): GameDataReturnType => {
     });
     return collectableSubCategories;
   }
+
+  const getCollectableSubCategoriesTypes = (subCategory: string, selectedGame?: SubscriptionTypeEnum): string[] => {
+    const collectables = mapDataToCollectables(selectedGame);
+    const filteredCollectables = collectables.filter(collectable => collectable.subCategory === subCategory);
+    let collectableSubCategoryTypes: string[] = [];
+    filteredCollectables.map(collectable => {
+      if (!collectableSubCategoryTypes.find(item => item === collectable.subCategoryType)) {
+        if (!!collectable.subCategoryType) {
+          collectableSubCategoryTypes.push(collectable.subCategoryType);
+        }
+      }
+    });
+    return collectableSubCategoryTypes;
+  }
+
+
   return {
     getCollectableCategories,
-    getCollectableSubCategories
+    getCollectableSubCategories,
+    getCollectableSubCategoriesTypes
   }
 };
 

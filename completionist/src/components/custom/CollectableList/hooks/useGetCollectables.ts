@@ -8,10 +8,11 @@ import useCollectableState from './useCollectableState';
 
 interface GameDataReturnType {
   getFilteredCollectables: () => Collectable[];
-  getCollectablesForSubCategory: (mainCategory: string, subCategory?: string) => Collectable[];
+  getCollectablesForSubCategory: (mainCategory?: string, subCategory?: string) => Collectable[];
+  getCollectablesForSubCategoryWithType: (subCategory: string, subCategoryType?: string) => Collectable[];
   getCollectablesForCategory: (mainCategory: string) => Collectable[];
   getAllCollectablesForCategory:(mainCategory: string) => Collectable[];
-  updateCollectablesComplete: (questId: string) => void;
+  updateCollectablesComplete: (collectableId: string) => void;
 }
 
 const useGetCollectables = (): GameDataReturnType => {
@@ -31,6 +32,10 @@ const useGetCollectables = (): GameDataReturnType => {
     return collectables.filter(collectable => collectable.mainCategory === mainCategory && collectable.subCategory === subCategory);
   }
 
+  const getCollectablesForSubCategoryWithType = (subCategory: string, subCategoryType: string = ''): Collectable[] => {
+    return collectables.filter(collectable => collectable.subCategory === subCategory && collectable.subCategoryType === subCategoryType);
+  }
+
   const getCollectablesForCategory = (mainCategory: string): Collectable[] => {
     return collectables.filter(collectable => collectable.mainCategory === mainCategory);
   }
@@ -39,16 +44,16 @@ const useGetCollectables = (): GameDataReturnType => {
     return collectables.filter(collectable => collectable.mainCategory === mainCategory);
   }
 
-  const updateCollectablesComplete = (questId: string): void => {
+  const updateCollectablesComplete = (collectableId: string): void => {
     const userCollectables = getUserCollectables();
-    const itemToUpdate = userCollectables.find(item => item.id === questId);
+    const itemToUpdate = userCollectables.find(item => item.id === collectableId);
     if (!!itemToUpdate) {
       const updatedObject = { id: itemToUpdate?.id, isComplete: !itemToUpdate?.isComplete }
-      const updateCompletedCollectables: Item[] = userCollectables.map(quest => quest.id === itemToUpdate.id ? { ...quest, ...updatedObject } : quest)
+      const updateCompletedCollectables: Item[] = userCollectables.map(collectable => collectable.id === itemToUpdate.id ? { ...collectable, ...updatedObject } : collectable)
       setCompletedCollectables(updateCompletedCollectables);
     }
     else {
-      const updateCompletedCollectables: Item[] = [...userCollectables, { id: questId, isComplete: true }];
+      const updateCompletedCollectables: Item[] = [...userCollectables, { id: collectableId, isComplete: true }];
       setCompletedCollectables(updateCompletedCollectables);
     }
   };
@@ -56,6 +61,7 @@ const useGetCollectables = (): GameDataReturnType => {
   return {
     getFilteredCollectables,
     getCollectablesForSubCategory,
+    getCollectablesForSubCategoryWithType,
     getCollectablesForCategory,
     getAllCollectablesForCategory,
     updateCollectablesComplete
