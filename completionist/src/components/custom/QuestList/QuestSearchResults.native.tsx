@@ -1,23 +1,25 @@
-import ScrollableList from '@components/general/Lists/ScrollableList.native';
 import React from 'react';
+import ListItem from '@components/general/Lists/ListItem.native';
+import ScrollableList from '@components/general/Lists/ScrollableList.native';
 import useCheckQuestComplete from './hooks/useCheckQuestComplete';
 import useGetQuests from './hooks/useGetQuests';
-import QuestListItem from './QuestListItem.native';
 
 const QuestSearchResults = () => {
-  const { getFilteredQuests } = useGetQuests();
+  const { getFilteredQuests, updateQuestItemsComplete } = useGetQuests();
   const { checkQuestComplete } = useCheckQuestComplete();
 
   return (
     <ScrollableList>
       {getFilteredQuests().map((quest, index) => (
-        <QuestListItem
+        <ListItem
           key={index}
           id={quest.id}
           title={quest.title}
+          dlc={quest.dlc}
           location={quest.location}
           hold={quest.hold}
           isComplete={checkQuestComplete(quest.id)}
+          action={(): void => updateQuestItemsComplete(quest.id)}
         />
       ))}
     </ScrollableList>

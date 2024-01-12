@@ -25,6 +25,7 @@ export interface Quest {
   title: string;
   location?: string;
   hold?: string;
+  dlc: string;
   href?: string;
 }
 
@@ -48,6 +49,7 @@ export interface Collectable {
   subCategory?: string;
   name: string;
   prerequisite?: string;
+  dlc: string;
 }
 
 export interface DropDownType {

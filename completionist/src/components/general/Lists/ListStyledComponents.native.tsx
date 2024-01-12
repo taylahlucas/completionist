@@ -65,13 +65,19 @@ export const ListItemContainer = styled.View<ListItemStyleProps>`
   background-color: ${props => props.color};
 `;
 
+
+export const ListItemContentContainer = styled.View`
+  flex-direction: column;
+  padding-left: 32px;
+  padding-vertical: 8px;
+  justify-content: center;
+  width: ${() => Dimensions.get('window').width - 96}px;
+`;
+
 export const ListItemTitle = styled(StyledText)<ListItemStyleProps>`
   font-size: 16px;
   flex-wrap: wrap;
   color: ${props => props.color};
-  padding-bottom: 8px;
-  padding-top: 8px;
-  padding-left: 16px;
   max-width: 270px;
 `;
 
@@ -82,4 +88,13 @@ export const ListItemScrollableList = styled(ScrollableList)`
 
 export const ListShowMoreButton = styled(Button)`
   padding: 8px;
+`;
+
+export const ListItemDLCTitle = styled(StyledText)`
+
+`;
+
+
+export const ListItemLocationContainer = styled.View`
+  flex-direction: row;
 `;

@@ -33,13 +33,14 @@ const LocationSubDropdown = ({ dlc, hold, completed, total }: LocationSubDropdow
         }
       >
       <ListContainer>
-        {getLocationsForHoldInDLC(dlc, hold).map((item, index) => (
+        {getLocationsForHoldInDLC(dlc, hold).map((location, index) => (
           <ListItem
             key={index}
-            id={item.id}
-            name={item.name}
-            isComplete={checkLocationComplete(item.id)}
-            action={(): void => updateLocationsComplete(item.id)}
+            id={location.id}
+            title={location.name}
+            dlc={location.dlc}
+            isComplete={checkLocationComplete(location.id)}
+            action={(): void => updateLocationsComplete(location.id)}
           />
         ))}
       </ListContainer>

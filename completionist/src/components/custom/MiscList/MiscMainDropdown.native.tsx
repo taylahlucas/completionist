@@ -37,7 +37,8 @@ const MiscMainDropdown = ({ category, completed, total }: MiscMainDropdownProps)
           <ListItem 
             key={index}
             id={item.id}
-            name={item.name}
+            title={item.name}
+            dlc={item.dlc}
             isComplete={checkMiscItemComplete(item.id)}
             action={(): void => updateMiscItemsComplete(item.id)}
           />

@@ -17,13 +17,14 @@ const LocationMainList = ({ dlc }: LocationMainListProps) => {
   
   return (
     <ListContainer>
-      {locations?.map((collectable, index) => (
+      {locations?.map((location, index) => (
         <ListItem 
-          id={collectable.id}
+          id={location.id}
           key={index}
-          name={collectable.name}
-          isComplete={checkLocationComplete(collectable.id)}
-          action={(): void => updateLocationsComplete(collectable.id)}
+          title={location.name}
+          dlc={location.dlc}
+          isComplete={checkLocationComplete(location.id)}
+          action={(): void => updateLocationsComplete(location.id)}
         />
       ))}
     </ListContainer>

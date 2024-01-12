@@ -38,7 +38,8 @@ const CollectableSubTypeDropdown = ({ category, type }: CollectableSubTypeDropdo
           <ListItem
             key={index}
             id={collectable.id}
-            name={collectable.name}
+            title={collectable.name}
+            dlc={collectable.dlc}
             isComplete={checkCollectableComplete(collectable.id)}
             action={((): void => updateCollectablesComplete(collectable.id))}
           />

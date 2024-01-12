@@ -1,13 +1,13 @@
 import React from 'react';
 import { QuestListSubItemContainer } from './QuestListStyledComponents.native';
 import Dropdown from '@components/general/Dropdown/Dropdown.native';
-import QuestListItem from './QuestListItem.native';
 import Condition from '@components/general/Condition.native';
 import useGetQuests from './hooks/useGetQuests';
 import useCheckQuestComplete from './hooks/useCheckQuestComplete';
 import SubTypeListHeader from '@components/general/Lists/SubTypeListHeader.native';
 import useQuestDispatch from './hooks/useQuestDispatch';
 import useQuestState from './hooks/useQuestState';
+import ListItem from '@components/general/Lists/ListItem.native';
 
 export interface QuestSubTypeDropdownProps {
   subCategory: string;
@@ -19,7 +19,7 @@ export interface QuestSubTypeDropdownProps {
 const QuestSubTypeDropdown = ({ subCategory, type, completed, total }: QuestSubTypeDropdownProps) => {
   const { setSelectedCategory } = useQuestDispatch();
   const { selectedCategory } = useQuestState();
-  const { getQuestsForSubCategoryWithType } = useGetQuests();
+  const { getQuestsForSubCategoryWithType, updateQuestItemsComplete } = useGetQuests();
   const quests = getQuestsForSubCategoryWithType(subCategory, type === 'Main' ? '' : type);
   const { checkQuestComplete } = useCheckQuestComplete();
 
@@ -37,13 +37,15 @@ const QuestSubTypeDropdown = ({ subCategory, type, completed, total }: QuestSubT
       >
         <QuestListSubItemContainer>
           {quests?.map((quest, index) => (
-            <QuestListItem
+            <ListItem
               key={index}
               id={quest.id}
               title={quest.title}
+              dlc={quest.dlc}
               location={quest.location}
               hold={quest.hold}
               isComplete={checkQuestComplete(quest.id)}
+              action={(): void => updateQuestItemsComplete(quest.id)}
             />
           ))}
         </QuestListSubItemContainer>

@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import ScrollableList from '@components/general/Lists/ScrollableList.native';
 import CollectableMainDropdown from './CollectableMainDropdown.native';
 import useGetCollectables from './hooks/useGetCollectables';
@@ -19,7 +19,6 @@ const CollectableList = () => {
   } = useGetCollectables();
   const { checkCollectablesCompleteForCategory } = useCheckCollectableComplete();
 
-  //  TODO: Add subtitles for DLC
   return (
     <Condition
       condition={searchValue.length < 2}

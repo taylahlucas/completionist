@@ -5,6 +5,7 @@ export type FontType =
   | 'ListItemSubTitleBold'
   | 'ListItemSubTitleItalic'
   | 'ListItemSubTitle'
-  | 'ListItemSubDescription';
+  | 'ListItemSubDescription'
+  | 'ListItemSubDescriptionBold';
 
 export type AlignmentType = 'center' | 'left' | 'right';

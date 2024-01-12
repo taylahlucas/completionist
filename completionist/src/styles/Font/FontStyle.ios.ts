@@ -47,6 +47,12 @@ export default StyleSheet.create({
     letterSpacing: 0.37,
     lineHeight: 22
   },
+  ListItemSubDescriptionBold: {
+    fontFamily: MONTSERRAT_SEMIBOLD,
+    fontSize: 14,
+    letterSpacing: 0.37,
+    lineHeight: 22
+  },
   left: {
     textAlign: 'left'
   },
