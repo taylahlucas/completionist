@@ -3257,19 +3257,19 @@
   {
     "id": "0ae3cb1b-60d2-4964-b672-2e2e7d437cb7",
     "name": "Fort Hagen Hangar",
-    "hold": "",
+    "hold": "Automatron",
     "dlc": "Automatron"
   },
   {
     "id": "77c55068-56a7-4be5-a0d1-92c27208889a",
     "name": "RobCo Sales & Service Center",
-    "hold": "",
+    "hold": "Automatron",
     "dlc": "Automatron"
   },
   {
     "id": "3d7c9d44-5b63-4c90-8697-42bce0b3c348",
     "name": "The Mechanist's Lair",
-    "hold": "",
+    "hold": "Automatron",
     "dlc": "Automatron"
   }
 ]
