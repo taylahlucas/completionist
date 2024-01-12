@@ -22,7 +22,6 @@ const LocationMainList = ({ dlc }: LocationMainListProps) => {
           id={location.id}
           key={index}
           title={location.name}
-          dlc={location.dlc}
           isComplete={checkLocationComplete(location.id)}
           action={(): void => updateLocationsComplete(location.id)}
         />

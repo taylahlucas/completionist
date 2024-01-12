@@ -68,7 +68,7 @@ export const ListItemContainer = styled.View<ListItemStyleProps>`
 
 export const ListItemContentContainer = styled.View`
   flex-direction: column;
-  padding-left: 32px;
+  padding-left: 16px;
   padding-vertical: 8px;
   justify-content: center;
   width: ${() => Dimensions.get('window').width - 96}px;

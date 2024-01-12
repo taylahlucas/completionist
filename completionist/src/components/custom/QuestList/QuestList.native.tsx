@@ -13,7 +13,7 @@ import QuestSearchResults from './QuestSearchResults.native';
 const QuestList = () => {
   const { selectedGame } = useMainState();
   const { searchValue } = useQuestState();
-  const { getQuestsForCategory, getAllQuestsForCategory } = useGetQuests();
+  const { getAllQuestsForCategory } = useGetQuests();
   const { getQuestCategories } = useGetQuestCategories();
   const { checkQuestsCompleteForCategory } = useCheckQuestComplete();
   const { checkIsSectionEnabled } = useCheckSectionEnabled();
@@ -30,8 +30,9 @@ const QuestList = () => {
           const allQuestsForCategory = getAllQuestsForCategory(category);
           const completedQuests = checkQuestsCompleteForCategory(allQuestsForCategory);
 
+          // TOOD: Check checkIsSectionEnabled
           return (
-            <Condition key={index} condition={getQuestsForCategory(category).length > 0 && !checkIsSectionEnabled(category)}>
+            <Condition key={index} condition={!checkIsSectionEnabled(category)}>
               <QuestMainDropdown
                 key={index}
                 category={category}

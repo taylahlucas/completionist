@@ -32,14 +32,12 @@ const CollectableList = () => {
           const completedCollectables = checkCollectablesCompleteForCategory(allCollectablesForCategory)
 
           return (
-            <Condition key={index} condition={getCollectablesForCategory(category).length > 0}>
-              <CollectableMainDropdown
-                key={index}
-                category={category}
-                completed={completedCollectables.toString()}
-                total={allCollectablesForCategory.length.toString()}
-              />
-            </Condition>
+            <CollectableMainDropdown
+              key={index}
+              category={category}
+              completed={completedCollectables.toString()}
+              total={allCollectablesForCategory.length.toString()}
+            />
           )
         })}
       </ScrollableList>

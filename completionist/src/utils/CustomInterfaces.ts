@@ -40,6 +40,7 @@ export interface MiscItem {
   id: string;
   name: string;
   mainCategory: string;
+  subCategory?: string;
   dlc: string;
 }
 
@@ -47,6 +48,7 @@ export interface Collectable {
   id: string;
   mainCategory: string;
   subCategory?: string;
+  subCategoryType?: string;
   name: string;
   prerequisite?: string;
   dlc: string;

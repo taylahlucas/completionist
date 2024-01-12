@@ -9,6 +9,7 @@ import useMiscState from './useMiscState';
 interface GetMiscItemsReturnType {
   getFilteredMiscItems: () => MiscItem[];
   getMiscItemsForCategory: (category: string) => MiscItem[];
+  getMiscItemsForSubCategory: (mainCategory: string, subCategory?: string) => MiscItem[];
   updateMiscItemsComplete: (miscItemId: string) => void;
 }
 
@@ -29,9 +30,13 @@ const useGetMiscItems = (): GetMiscItemsReturnType => {
     return miscItems.filter(item => item.mainCategory === category);
   };
 
+  const getMiscItemsForSubCategory = (mainCategory: string, subCategory: string = ''): MiscItem[] => {
+    return miscItems.filter(item => item.mainCategory === mainCategory && item.subCategory === subCategory);
+  };
+
   const updateMiscItemsComplete = (miscItemId: string): void => {
     const userMiscItems = getUserMiscItems();
-    const itemToUpdate =userMiscItems.find(item => item.id === miscItemId);
+    const itemToUpdate = userMiscItems.find(item => item.id === miscItemId);
     if (!!itemToUpdate) {
       const updatedObject = { id: itemToUpdate?.id, isComplete: !itemToUpdate?.isComplete }
       const updateCompletedMiscItems: Item[] = userMiscItems.map(miscItem => miscItem.id === itemToUpdate.id ? { ...miscItem, ...updatedObject } : miscItem)
@@ -46,6 +51,7 @@ const useGetMiscItems = (): GetMiscItemsReturnType => {
   return {
     getFilteredMiscItems,
     getMiscItemsForCategory,
+    getMiscItemsForSubCategory,
     updateMiscItemsComplete
   }
 };

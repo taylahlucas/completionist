@@ -22,7 +22,6 @@ const QuestMainList = ({ category, isSubCategory = false }: QuestMainListProps) 
           key={index}
           id={quest.id}
           title={quest.title}
-          dlc={quest.dlc}
           location={quest.location}
           hold={quest.hold}
           isComplete={checkQuestComplete(quest.id)}

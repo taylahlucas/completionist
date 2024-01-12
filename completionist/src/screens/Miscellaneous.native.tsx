@@ -16,7 +16,7 @@ const Miscellaneous = () => {
   const { searchValue } = useMiscState();
   const { getUserMiscItems } = useGetUserGameData();
   const { mapDataToFilteredMiscItems } = useGetGameData();
-  //  TODO: Add subtitles for DLC
+  
   return (
     <StandardLayout>
       <NavigationHeader title={'Miscellaneous'} />

@@ -91,7 +91,6 @@ const slice = createSlice({
     setCompletedQuests: (state, action) => {
       switch (state.selectedGame) {
         case SubscriptionTypeEnum.SKYRIM:
-          console.log("updating quests")
           state.user.data.skyrim.quests = action.payload;
           break;
         case SubscriptionTypeEnum.FALLOUT_4:

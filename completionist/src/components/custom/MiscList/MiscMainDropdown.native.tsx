@@ -8,6 +8,12 @@ import useCheckMiscItemComplete from './hooks/useCheckMiscItemComplete';
 import useMiscState from './hooks/useMiscState';
 import useMiscDispatch from './hooks/useMiscDispatch';
 import { ListItemScrollableList } from '@components/general/Lists/ListStyledComponents.native';
+import useGetMiscItemCategories from './hooks/useGetMiscItemCategories';
+import useMainState from '@redux/hooks/useMainState';
+import Condition from '@components/general/Condition.native';
+import MiscItemSubDropdown from './MiscItemSubDropdown.native';
+import { CollectableSubDropdownContainer } from '../CollectableList/CollectableListStyledComponents.native';
+import MiscItemMainList from './MiscItemMainList.native';
 
 export interface MiscMainDropdownProps {
   category: string;
@@ -16,10 +22,13 @@ export interface MiscMainDropdownProps {
 }
 
 const MiscMainDropdown = ({ category, completed, total }: MiscMainDropdownProps) => {
+  const { selectedGame } = useMainState();
   const { setSelectedCategory } = useMiscDispatch();
   const { selectedCategory } = useMiscState();
-  const { getMiscItemsForCategory, updateMiscItemsComplete } = useGetMiscItems()
-  const { checkMiscItemComplete } = useCheckMiscItemComplete();
+  const { getMiscItemsForCategory, getMiscItemsForSubCategory, updateMiscItemsComplete } = useGetMiscItems()
+  const { checkMiscItemsCompleteForCategory } = useCheckMiscItemComplete();
+  const { getMiscItemSubCategories } = useGetMiscItemCategories();
+  const subCategories = getMiscItemSubCategories(category, selectedGame);
 
   return (
     <Dropdown
@@ -32,18 +41,27 @@ const MiscMainDropdown = ({ category, completed, total }: MiscMainDropdownProps)
         <ListHeader title={category} completed={completed} total={total} />
       }
     >
-      <ListItemScrollableList>
-        {getMiscItemsForCategory(category).map((item: MiscItem, index: number) => (
-          <ListItem 
-            key={index}
-            id={item.id}
-            title={item.name}
-            dlc={item.dlc}
-            isComplete={checkMiscItemComplete(item.id)}
-            action={(): void => updateMiscItemsComplete(item.id)}
-          />
-        ))}
-      </ListItemScrollableList>
+      <CollectableSubDropdownContainer>
+        {subCategories.map((subCategory, index) => {
+          const collectablesForCategory = getMiscItemsForSubCategory(category, subCategory);
+          const completedMiscItems = checkMiscItemsCompleteForCategory(collectablesForCategory);
+
+          return (
+            <Condition key={index} condition={collectablesForCategory.length > 0}>
+              <MiscItemSubDropdown
+                key={index}
+                mainCategory={category}
+                subCategory={subCategory}
+                completed={completedMiscItems.toString()}
+                total={collectablesForCategory.length.toString()}
+              />
+            </Condition>
+          )
+        })}
+        <Condition condition={subCategories.length === 0 && getMiscItemsForCategory(category).length > 0}>
+          <MiscItemMainList mainCategory={category} />
+        </Condition>
+      </CollectableSubDropdownContainer>
     </Dropdown>
   );
 };

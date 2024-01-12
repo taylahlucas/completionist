@@ -26,7 +26,7 @@ const CollectableMainDropdown = ({ category, completed, total }: CollectableMain
   const { getCollectablesForSubCategory, getCollectablesForCategory } = useGetCollectables();
   const subCategories = getCollectableSubCategories(category, selectedGame);
   const { checkCollectablesCompleteForCategory } = useCheckCollectableComplete();
-
+  
   return (
     <Dropdown
       isOpen={category === selectedCategory.category}

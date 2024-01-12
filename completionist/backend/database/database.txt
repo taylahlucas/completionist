@@ -11,6 +11,7 @@ Miscellaneous
   id: generated_uuid
   name: string,
   mainCategory: string,
+  subCategory?: string,
   dlc: string
 }
 
@@ -19,6 +20,7 @@ Collectables
   id: generated_uuid
   mainCategory: string,
   subCategory?: string,
+  subCategoryType?: string,
   name: string,
   prerequisite?: string,
   dlc: string
@@ -48,7 +50,6 @@ to the following JSON:
   }
 
 HEARTHFIRE QUESTS
-
 https://en.uesp.net/wiki/Category:Skyrim-Hearthfire-Quests
 
 

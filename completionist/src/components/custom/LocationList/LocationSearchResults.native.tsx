@@ -20,7 +20,6 @@ const LocationSearchResults = () => {
           key={index}
           id={location.id}
           title={location.name}
-          dlc={location.dlc}
           isComplete={checkLocationComplete(location.id)}
           action={((): void => updateLocationsComplete(location.id))}
         />

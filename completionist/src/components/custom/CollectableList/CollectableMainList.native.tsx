@@ -22,7 +22,6 @@ const CollectableMainList = ({ mainCategory, subCategory, isSubCategory = false 
           id={collectable.id}
           key={index}
           title={collectable.name}
-          dlc={collectable.dlc}
           isComplete={checkCollectableComplete(collectable.id)}
           action={(): void => updateCollectablesComplete(collectable.id)}
         />

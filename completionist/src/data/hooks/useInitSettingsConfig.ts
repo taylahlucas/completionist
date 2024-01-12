@@ -19,45 +19,40 @@ const useInitSettingsConfig = () => {
     { game: SubscriptionTypeEnum.SKYRIM, config: user.data?.skyrim.settingsConfig },
     { game: SubscriptionTypeEnum.FALLOUT_4, config: user.data?.fallout4.settingsConfig },
   ];
-  // TODO: Test if this works with new config
   const { saveUserData } = useSaveUserData();
 
-  useEffect(() => {
+  useEffect(() => {    
     settingsData.map((settings) => {
-      if (settings.config.length === 0) {
-        const configs: SettingsConfigItem[] = [];
-        
-        generalSections.map((section: string) => {
-          // Add sections to settings data
-          configs.push({
-            section: section,
-            category: "",
-            isActive: true
-          });
-          let categories: string[] = [];
-          switch (section) {
-            case 'Quests':
-              categories = getQuestCategories(settings.game);
-              break;
-            case 'Collectables':
-              categories = getCollectableCategories(settings.game);
-              break;
-            case 'Locations':
-              categories = getLocationDLC(settings.game);
-              break;
-            case 'Miscellaneous':
-              categories = getMiscItemCategories(settings.game);
-              break;
-          }
-          // Add categories to settings data
-          categories.map((category: string): void => {
+      const configs: SettingsConfigItem[] = [...settings.config];
+
+      generalSections.map((section) => {
+        let categories: string[] = [];
+        switch (section) {
+          case 'Quests':
+            categories = getQuestCategories(settings.game);
+            break;
+          case 'Collectables':
+            categories = getCollectableCategories(settings.game);
+            break;
+          case 'Locations':
+            categories = getLocationDLC(settings.game);
+            break;
+          case 'Miscellaneous':
+            categories = getMiscItemCategories(settings.game);
+            break;
+        }
+        categories.map(category => {
+          if (!settings.config.find(config => category === config.category && section === config.section)) {
             configs.push({
               section: section,
               category: category,
               isActive: true
             });
-          });
-        })
+          }
+        });
+      });
+
+      if (configs !== settings.config) {
         switch (settings.game) {
           case SubscriptionTypeEnum.SKYRIM:
             saveUserData({

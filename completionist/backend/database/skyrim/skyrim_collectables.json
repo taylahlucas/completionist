@@ -5,7 +5,8 @@
     "subCategory": "",
     "name": "Hevnoraak Mask",
     "prerequisite": "Kill Hevnoraak in Valthume.",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "862c86a3-08b3-4647-9d6d-64ad735c13bc",
@@ -13,7 +14,8 @@
     "subCategory": "",
     "name": "Krosis Mask",
     "prerequisite": "Kill Krosis in Shearpoint.",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "34cbb2f1-38eb-4b8e-bdcf-0d1a5a84ee96",
@@ -21,7 +23,8 @@
     "subCategory": "",
     "name": "Morokei Mask",
     "prerequisite": "Kill Morokei in Labyrinthian.",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "a07e1081-7ba3-47f7-b8cc-981f9b44a1e1",
@@ -29,7 +32,8 @@
     "subCategory": "",
     "name": "Nahkriin Mask",
     "prerequisite": "Kill Nahkriin in Skuldafn, during the main quest.",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "d50c16d5-cf99-48d7-9d9c-0e1710c2a5bb",
@@ -37,7 +41,8 @@
     "subCategory": "",
     "name": "Otar Mask",
     "prerequisite": "Kill Otar the Mad in Ragnvald.",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "eb7038c2-54af-4a02-b5c9-220c9be64636",
@@ -45,7 +50,8 @@
     "subCategory": "",
     "name": "Rahgot Mask",
     "prerequisite": "Kill Rahgot in Forelhost.",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "a7f63f06-28a5-4c64-8a7a-3c44895354d3",
@@ -53,7 +59,8 @@
     "subCategory": "",
     "name": "Vokun Mask",
     "prerequisite": "Kill Vokun in High Gate Ruins.",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "c10d7cd5-6e3e-40e5-87ce-99b9c2dfb6d8",
@@ -61,7 +68,8 @@
     "subCategory": "",
     "name": "Volsung Mask",
     "prerequisite": "Kill Volsung in Volskygge.",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "aa51ff74-8949-4d4c-a751-19715b3ee051",
@@ -69,7 +77,8 @@
     "subCategory": "",
     "name": "Wooden Mask",
     "prerequisite": "Go to the central barrow in Labyrinthian.",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "a848eaed-6c56-4be7-9d2d-979156fb80f7",
@@ -77,7 +86,8 @@
     "subCategory": "",
     "name": "Konahrik Mask",
     "prerequisite": "Bring the others to Bromjunaar Sanctuary.",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "b431e5d8-767c-4c8e-b3c3-38f0d3ed37ac",
@@ -85,7 +95,8 @@
     "subCategory": "",
     "name": "Ahzidal Mask",
     "prerequisite": "Kill Ahzidal in Kolbjorn Barrow.",
-    "dlc": "Dragonborn"
+    "dlc": "Dragonborn",
+    "subCategoryType": ""
   },
   {
     "id": "2c0a65ea-b5c4-48f3-b6aa-7b75452b8b06",
@@ -93,7 +104,8 @@
     "subCategory": "",
     "name": "Dukaan Mask",
     "prerequisite": "Kill Dukaan in White Ridge Barrow.",
-    "dlc": "Dragonborn"
+    "dlc": "Dragonborn",
+    "subCategoryType": ""
   },
   {
     "id": "5d3c2689-048e-4f4a-bd16-7f4bc72f5df7",
@@ -101,7 +113,8 @@
     "subCategory": "",
     "name": "Zahkriisos Mask",
     "prerequisite": "Kill Zahkriisos in Bloodskal Barrow.",
-    "dlc": "Dragonborn"
+    "dlc": "Dragonborn",
+    "subCategoryType": ""
   },
   {
     "id": "7d590587-df48-4e3b-a1a6-8ed1f0a0634a",
@@ -109,7 +122,8 @@
     "subCategory": "",
     "name": "Miraak Mask",
     "prerequisite": "Kill Miraak at the end of the Dragonborn questline.",
-    "dlc": "Dragonborn"
+    "dlc": "Dragonborn",
+    "subCategoryType": ""
   },
   {
     "id": "a5a77a8d-3d55-4db1-b9f3-2c065b8b98f1",
@@ -117,7 +131,8 @@
     "subCategory": "Weapons",
     "name": "The Black Star",
     "prerequisite": "Complete Artefact",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "7262c22c-4a8d-41fc-8d8d-8463a6f7af63",
@@ -125,7 +140,8 @@
     "subCategory": "Weapons",
     "name": "Dawnbreaker",
     "prerequisite": "Complete The Break Of Dawn",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "ef450f91-574a-4929-9ef3-1a2ea3e4d765",
@@ -133,7 +149,8 @@
     "subCategory": "Weapons",
     "name": "Ebony Blade",
     "prerequisite": "Complete The Whispering Door",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "c11b4389-61e2-4a61-9c91-69ed2c1ac3a9",
@@ -141,7 +158,8 @@
     "subCategory": "Apparel",
     "name": "Ebony Mail",
     "prerequisite": "Complete Boethiah's Calling",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "5d849b86-9a13-4a8e-b72b-5a81a3ce4d2c",
@@ -149,7 +167,8 @@
     "subCategory": "Weapons",
     "name": "Mace of Molag Bal",
     "prerequisite": "Complete The House of Horrors",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "236678d3-7a8a-4c58-bf55-dc43908ff9c8",
@@ -157,7 +176,8 @@
     "subCategory": "Apparel",
     "name": "Masque of Clavicus Vile",
     "prerequisite": "Complete A Daedra's Best Friend",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "ac83c8da-dab9-4c3c-b95e-aa34602854c0",
@@ -165,7 +185,8 @@
     "subCategory": "Weapons",
     "name": "Mehrunes' Razor",
     "prerequisite": "Complete Pieces of the Past",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "3d4332fc-61fb-4955-9840-c22ccf615167",
@@ -173,7 +194,8 @@
     "subCategory": "Artefacts",
     "name": "Oghma Infinium",
     "prerequisite": "Complete Discerning the Transmundane",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "f08f7f77-5ee1-4e6a-b1f4-69598b2e5568",
@@ -181,7 +203,8 @@
     "subCategory": "Apparel",
     "name": "Ring of Namira",
     "prerequisite": "Complete The Taste of Death",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "2b413f67-62e9-4a2c-afab-5d46a9bb6f98",
@@ -189,7 +212,8 @@
     "subCategory": "Weapons",
     "name": "Sanguine Rose",
     "prerequisite": "Complete A Night to Remember",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "ad046a4a-f82d-4eb2-b48e-944f9a164a16",
@@ -197,7 +221,8 @@
     "subCategory": "Apparel",
     "name": "Savior's Hide and/or Ring of Hircine",
     "prerequisite": "Complete Ill Met by Moonlight",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "0a9520b1-057c-4d62-9c43-0c11c7e9ed9f",
@@ -205,7 +230,8 @@
     "subCategory": "Artefacts",
     "name": "Skeleton Key",
     "prerequisite": "Complete Blindsighted",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "72f6468b-3699-4e7d-a751-2f13f60a6970",
@@ -213,7 +239,8 @@
     "subCategory": "Weapons",
     "name": "Skull of Corruption",
     "prerequisite": "Complete Waking Nightmare",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "525692a1-685f-4d7e-9c72-9b7582cbe397",
@@ -221,7 +248,8 @@
     "subCategory": "Apparel",
     "name": "Spellbreaker",
     "prerequisite": "Complete The Only Cure",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "25a0287a-ef49-4e4c-97eb-010729ed35b9",
@@ -229,7 +257,8 @@
     "subCategory": "Weapons",
     "name": "Volendrung",
     "prerequisite": "Complete The Cursed Tribe",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "af0e2a23-5e19-4c12-a4f7-103cf3c079c8",
@@ -237,7 +266,8 @@
     "subCategory": "Weapons",
     "name": "Wabbajack",
     "prerequisite": "Complete The Mind of Madness",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "c11b4389-61e2-4a61-9c91-69ed2c1ac3a8",
@@ -245,7 +275,8 @@
     "subCategory": "",
     "name": "Bee in a Jar",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "5d849b86-9a13-4a8e-b72b-5a81a3ce4d2d",
@@ -253,7 +284,8 @@
     "subCategory": "",
     "name": "Bliss Bug in a Jar",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "236678d3-7a8a-4c58-bf55-ec43908ff9c8",
@@ -261,7 +293,8 @@
     "subCategory": "",
     "name": "Butterfly in a Jar",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "f08f7f77-5ee1-4e6a-b1f4-69598b2e5567",
@@ -269,7 +302,8 @@
     "subCategory": "",
     "name": "Dragonfly in a Jar",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "145e2e3a-3f4f-4018-bd80-b2a97e2d3799",
@@ -277,7 +311,8 @@
     "subCategory": "",
     "name": "Green Butterfly in a Jar",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "b432a161-e51f-4c63-97f0-ba2240d1d80f",
@@ -285,7 +320,8 @@
     "subCategory": "",
     "name": "Moth in a Jar",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "232b4a45-4392-4f57-8e55-7967f4e9184d",
@@ -293,7 +329,8 @@
     "subCategory": "",
     "name": "Purple Butterfly in a Jar",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "5e2296fe-1ee6-4ed2-80e7-bb0f8f7c4eb3",
@@ -301,7 +338,8 @@
     "subCategory": "",
     "name": "Torchbug in a Jar",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "32b3f997-7c36-4e65-bb15-7a861f852c95",
@@ -309,7 +347,8 @@
     "subCategory": "Animal Allegiance",
     "name": "Raan",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "32b4f997-7c36-4e65-bb15-7a861f852b95",
@@ -317,7 +356,8 @@
     "subCategory": "Animal Allegiance",
     "name": "Mir",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "32b3f997-7c36-4e65-bb15-7a861f852b95",
@@ -325,7 +365,8 @@
     "subCategory": "Animal Allegiance",
     "name": "Tah",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "3a92ed78-01aa-4464-b2f5-4a0840a372b4",
@@ -333,7 +374,8 @@
     "subCategory": "Aura Whisper",
     "name": "Laas",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "2a92ed78-01aa-4464-b2f5-4a0840a372b3",
@@ -341,7 +383,8 @@
     "subCategory": "Aura Whisper",
     "name": "Yah",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "3a92ed78-01aa-4464-b2f5-4a0840a372b3",
@@ -349,7 +392,8 @@
     "subCategory": "Aura Whisper",
     "name": "Nir",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "3e1c61b3-d50e-4f89-bcc9-13c792d0839f",
@@ -357,7 +401,8 @@
     "subCategory": "Battle Fury",
     "name": "Mid",
     "prerequisite": "",
-    "dlc": "Dragonborn"
+    "dlc": "Dragonborn",
+    "subCategoryType": ""
   },
   {
     "id": "3e1c63b3-d50e-4f89-bcc9-13c792d0839f",
@@ -365,7 +410,8 @@
     "subCategory": "Battle Fury",
     "name": "Vur",
     "prerequisite": "",
-    "dlc": "Dragonborn"
+    "dlc": "Dragonborn",
+    "subCategoryType": ""
   },
   {
     "id": "321c61b3-d50e-4f89-bcc9-13c792d0839f",
@@ -373,7 +419,8 @@
     "subCategory": "Battle Fury",
     "name": "Shaan",
     "prerequisite": "",
-    "dlc": "Dragonborn"
+    "dlc": "Dragonborn",
+    "subCategoryType": ""
   },
   {
     "id": "3e1c61b3-d50e-4f89-bcc9-13c79ed0839f",
@@ -381,7 +428,8 @@
     "subCategory": "Become Ethereal",
     "name": "Feim",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "3e9c61b3-d50e-4f89-bcc9-13c79ed0839p",
@@ -389,7 +437,8 @@
     "subCategory": "Become Ethereal",
     "name": "Zii",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "3e9c61b3-d50e-4f89-bcc9-13c79ed0839f",
@@ -397,7 +446,8 @@
     "subCategory": "Become Ethereal",
     "name": "Gron",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "c0ef7980-bf6f-4f48-aaf1-66c82c3b36e1",
@@ -405,7 +455,8 @@
     "subCategory": "Bend Will",
     "name": "Gol",
     "prerequisite": "",
-    "dlc": "Dragonborn"
+    "dlc": "Dragonborn",
+    "subCategoryType": ""
   },
   {
     "id": "b0ef7980-bf6f-4f48-aac1-66c82c3b36e1",
@@ -413,7 +464,8 @@
     "subCategory": "Bend Will",
     "name": "Hah",
     "prerequisite": "",
-    "dlc": "Dragonborn"
+    "dlc": "Dragonborn",
+    "subCategoryType": ""
   },
   {
     "id": "b0ef7980-bf6f-4f48-aaf1-66c82c3b36e1",
@@ -421,7 +473,8 @@
     "subCategory": "Bend Will",
     "name": "Dov",
     "prerequisite": "",
-    "dlc": "Dragonborn"
+    "dlc": "Dragonborn",
+    "subCategoryType": ""
   },
   {
     "id": "3d625a8f-3b2a-4a71-a28f-cfcd0d9433f8",
@@ -429,7 +482,8 @@
     "subCategory": "Call Dragon",
     "name": "Od",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "14625a8f-3b2a-4a71-a28f-cfcd0d9433f8",
@@ -437,7 +491,8 @@
     "subCategory": "Call Dragon",
     "name": "Ah",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "1d625a8f-3b2a-4a71-a28f-cfcd0d9433f8",
@@ -445,7 +500,8 @@
     "subCategory": "Call Dragon",
     "name": "Viing",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "c530a5d2-54cf-4d87-af5f-2b0f7f65b4f1",
@@ -453,7 +509,8 @@
     "subCategory": "Call of Valor",
     "name": "Hun",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "c530a5d2-54cf-4d87-af5f-2b0f7f6cb4f0",
@@ -461,7 +518,8 @@
     "subCategory": "Call of Valor",
     "name": "Kaar",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "c530a5d2-54cf-4d87-af5f-2b0f7f65b4f0",
@@ -469,7 +527,8 @@
     "subCategory": "Call of Valor",
     "name": "Zun",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "0a6f5d26-48f4-42e9-9c2b-d4a83d25580d",
@@ -477,7 +536,8 @@
     "subCategory": "Clear Skies",
     "name": "Lok",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "8a6f5d26-48f4-42e9-9c2b-d4a83d25c80d",
@@ -485,7 +545,8 @@
     "subCategory": "Clear Skies",
     "name": "Vah",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "8a6f5d26-48f4-42e9-9c2b-d4a83d25580d",
@@ -493,7 +554,8 @@
     "subCategory": "Clear Skies",
     "name": "Koor",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "fbc4cd24-12cf-48c2-9663-ba4c7319bebb",
@@ -501,7 +563,8 @@
     "subCategory": "Cyclone",
     "name": "Ven",
     "prerequisite": "",
-    "dlc": "Dragonborn"
+    "dlc": "Dragonborn",
+    "subCategoryType": ""
   },
   {
     "id": "fbc41d24-c2cf-48c2-9663-ba4c7319bebb",
@@ -509,7 +572,8 @@
     "subCategory": "Cyclone",
     "name": "Gaar",
     "prerequisite": "",
-    "dlc": "Dragonborn"
+    "dlc": "Dragonborn",
+    "subCategoryType": ""
   },
   {
     "id": "fbc41d24-12cf-48c2-9663-ba4c7319bebb",
@@ -517,7 +581,8 @@
     "subCategory": "Cyclone",
     "name": "Nos",
     "prerequisite": "",
-    "dlc": "Dragonborn"
+    "dlc": "Dragonborn",
+    "subCategoryType": ""
   },
   {
     "id": "95b19d5f-0f91-421f-8a64-642b8ed69c13",
@@ -525,7 +590,8 @@
     "subCategory": "Disarm",
     "name": "Zun",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "95b19d5f-0f91-421f-8a6c-642b8ed69c13",
@@ -533,7 +599,8 @@
     "subCategory": "Disarm",
     "name": "Haal",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "95b19d5f-0f91-421f-8a64-642b8ec69c13",
@@ -541,7 +608,8 @@
     "subCategory": "Disarm",
     "name": "Viing",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "c8365083-e8bf-42ea-bf3b-cb9adba3e07a",
@@ -549,7 +617,8 @@
     "subCategory": "Dismay",
     "name": "Faas",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "e8365083-e8bf-42ea-bf3b-cb9adba3e07a",
@@ -557,7 +626,8 @@
     "subCategory": "Dismay",
     "name": "Ru",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "e8365083-e8bf-42ca-bf3b-cb9adba3e07a",
@@ -565,7 +635,8 @@
     "subCategory": "Dismay",
     "name": "Maar",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "36f035c7-8605-4b5c-8d7e-871f9a4c27e7",
@@ -573,7 +644,8 @@
     "subCategory": "Dragon Aspect",
     "name": "Mul",
     "prerequisite": "",
-    "dlc": "Dragonborn"
+    "dlc": "Dragonborn",
+    "subCategoryType": ""
   },
   {
     "id": "36f035a7-860c-4b5c-8d7e-871f9a4c27e7",
@@ -581,7 +653,8 @@
     "subCategory": "Dragon Aspect",
     "name": "Qah",
     "prerequisite": "",
-    "dlc": "Dragonborn"
+    "dlc": "Dragonborn",
+    "subCategoryType": ""
   },
   {
     "id": "36f035a7-8605-4b5c-8d7e-871f9a4cc7e7",
@@ -589,7 +662,8 @@
     "subCategory": "Dragon Aspect",
     "name": "Diiv",
     "prerequisite": "",
-    "dlc": "Dragonborn"
+    "dlc": "Dragonborn",
+    "subCategoryType": ""
   },
   {
     "id": "1dd9f7aa-44a3-4e49-aec7-9797d16b86dc",
@@ -597,7 +671,8 @@
     "subCategory": "Dragonrend",
     "name": "Joor",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "1dd9f7aa-44a3-4e49-aec7-9797d16b86fd",
@@ -605,7 +680,8 @@
     "subCategory": "Dragonrend",
     "name": "Zah",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "1dd9f7aa-44a3-4e49-aec7-d797d16b86fc",
@@ -613,31 +689,35 @@
     "subCategory": "Dragonrend",
     "name": "Frul",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "95b19d5f-0f91-421f-8a64-642b8ed69c13",
-    "mainCategory": "Shouts",
-    "subCategory": "Drain Vitality",
+    "mainCategory": "Dawnguard",
+    "subCategory": "Shouts",
     "name": "Gaan",
     "prerequisite": "",
-    "dlc": "Dawnguard"
+    "dlc": "Dawnguard",
+    "subCategoryType": "Drain Vitality"
   },
   {
     "id": "95b19d5f-0f91-421f-8a64-642b8ed69c13",
-    "mainCategory": "Shouts",
-    "subCategory": "Drain Vitality",
+    "mainCategory": "Dawnguard",
+    "subCategory": "Shouts",
     "name": "Lah",
     "prerequisite": "",
-    "dlc": "Dawnguard"
+    "dlc": "Dawnguard",
+    "subCategoryType": "Drain Vitality"
   },
   {
     "id": "95b19d5f-0f91-421f-8a64-642b8ed69c13",
-    "mainCategory": "Shouts",
-    "subCategory": "Drain Vitality",
+    "mainCategory": "Dawnguard",
+    "subCategory": "Shouts",
     "name": "Shaan",
     "prerequisite": "",
-    "dlc": "Dawnguard"
+    "dlc": "Dawnguard",
+    "subCategoryType": "Drain Vitality"
   },
   {
     "id": "2d7c197b-8765-4ef0-8f4e-04bc67ac08e5",
@@ -645,7 +725,8 @@
     "subCategory": "Elemental Fury",
     "name": "Su",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "2d7c197b-8765-4ef0-8f4e-04bc67a808c5",
@@ -653,7 +734,8 @@
     "subCategory": "Elemental Fury",
     "name": "Grah",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "2d7c197b-8765-4ef0-8f4e-04bc67a808e5",
@@ -661,7 +743,8 @@
     "subCategory": "Elemental Fury",
     "name": "Dun",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "5e3d6543-7b7d-4b43-aebd-01510455059f",
@@ -669,7 +752,8 @@
     "subCategory": "Fire Breath",
     "name": "Yol",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "5e0d6543-747d-4b43-aebd-01510455059f",
@@ -677,7 +761,8 @@
     "subCategory": "Fire Breath",
     "name": "Toor",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "5e0d6543-7b7d-4b43-aebd-01510455059f",
@@ -685,7 +770,8 @@
     "subCategory": "Fire Breath",
     "name": "Shul",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "1a2e43a1-9504-4cb5-a155-53eb1b3bdfd1",
@@ -693,7 +779,8 @@
     "subCategory": "Frost Breath",
     "name": "Fo",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "1a2e43a1-9504-4cb5-a155-53eb1b3bdf41",
@@ -701,7 +788,8 @@
     "subCategory": "Frost Breath",
     "name": "Krah",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "1a2e43a1-9504-4cb5-a155-53eb1b3bdfc1",
@@ -709,7 +797,8 @@
     "subCategory": "Frost Breath",
     "name": "Diin",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "aad1d1f7-3a8a-47a2-bd9c-d9b1bf982e80",
@@ -717,7 +806,8 @@
     "subCategory": "Ice Form",
     "name": "Iiz",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "aad1d1f7-3a8a-47a2-bd9c-d9b1bf982e87",
@@ -725,7 +815,8 @@
     "subCategory": "Ice Form",
     "name": "Slen",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "aad1d1f7-3a8a-47a2-bd9c-d9b1bf982e97",
@@ -733,7 +824,8 @@
     "subCategory": "Ice Form",
     "name": "Nus",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "8e3c18c0-0f66-43f8-9d53-ced9f14ef19c",
@@ -741,7 +833,8 @@
     "subCategory": "Kyne's Peace",
     "name": "Kaan",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "8e3e18c0-0f66-4cf8-9d53-ced9f14ef19c",
@@ -749,7 +842,8 @@
     "subCategory": "Kyne's Peace",
     "name": "Drem",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "8e3e1cc0-0f66-43f8-9d53-ced9f14ef19c",
@@ -757,7 +851,8 @@
     "subCategory": "Kyne's Peace",
     "name": "Ov",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "c2c1a7de-c2ef-4a77-b570-bfb2b835eeed",
@@ -765,7 +860,8 @@
     "subCategory": "Marked for Death",
     "name": "Krii",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "c2c1a74e-c2ef-4a77-b570-bfb2b835eeed",
@@ -773,7 +869,8 @@
     "subCategory": "Marked for Death",
     "name": "Lun",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "c2c1a7de-c2ef-4a77-b570-bfb2b835eg ded",
@@ -781,7 +878,8 @@
     "subCategory": "Marked for Death",
     "name": "Aus",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "61f32c3a-1445-4cf2-bab7-622a82e3ad41",
@@ -789,7 +887,8 @@
     "subCategory": "Slow Time",
     "name": "Tiid",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "61f2cc3a-1445-4cf2-bab7-622a82e3ad41",
@@ -797,7 +896,8 @@
     "subCategory": "Slow Time",
     "name": "Klo",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "61f3cc3a-1445-4cf2-bab7-622a82e3ad41",
@@ -805,31 +905,35 @@
     "subCategory": "Slow Time",
     "name": "Ul",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "db5d63b0-2d23-47eb-bc01-618f85f1e2f1",
-    "mainCategory": "Shouts",
-    "subCategory": "Soul Tear",
+    "mainCategory": "Dawnguard",
+    "subCategory": "Shouts",
     "name": "Rii",
     "prerequisite": "",
-    "dlc": "Dawnguard"
+    "dlc": "Dawnguard",
+    "subCategoryType": "Soul Tear"
   },
   {
     "id": "1b5d63b0-2d23-47eb-bc01-618f85f1e2f4",
-    "mainCategory": "Shouts",
-    "subCategory": "Soul Tear",
+    "mainCategory": "Dawnguard",
+    "subCategory": "Shouts",
     "name": "Vaaz",
     "prerequisite": "",
-    "dlc": "Dawnguard"
+    "dlc": "Dawnguard",
+    "subCategoryType": "Soul Tear"
   },
   {
     "id": "db5d63b0-2d23-47eb-bc01-618f85f1e2f4",
-    "mainCategory": "Shouts",
-    "subCategory": "Soul Tear",
+    "mainCategory": "Dawnguard",
+    "subCategory": "Shouts",
     "name": "Zol",
     "prerequisite": "",
-    "dlc": "Dawnguard"
+    "dlc": "Dawnguard",
+    "subCategoryType": "Soul Tear"
   },
   {
     "id": "93f3a8f5-05c2-4c49-a06e-3739a2b23421",
@@ -837,7 +941,8 @@
     "subCategory": "Storm Call",
     "name": "Strun",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "93f3a8f5-05c4-4c49-a06e-3739a2b23421",
@@ -845,7 +950,8 @@
     "subCategory": "Storm Call",
     "name": "Bah",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "93f3a8f5-05c1-4c49-a06e-3739a2b23421",
@@ -853,31 +959,35 @@
     "subCategory": "Storm Call",
     "name": "Qo",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "95b19d5f-0f91-421f-8a64-642b8ed69c13",
-    "mainCategory": "Shouts",
-    "subCategory": "Summon Durnehviir",
+    "mainCategory": "Dawnguard",
+    "subCategory": "Shouts",
     "name": "Dur",
     "prerequisite": "",
-    "dlc": "Dawnguard"
+    "dlc": "Dawnguard",
+    "subCategoryType":  "Summon Durnehviir"
   },
   {
     "id": "95b19d5f-0f91-421f-8a64-642b8ed69c13",
-    "mainCategory": "Shouts",
-    "subCategory": "Summon Durnehviir",
+    "mainCategory": "Dawnguard",
+    "subCategory": "Shouts",
     "name": "Neh",
     "prerequisite": "",
-    "dlc": "Dawnguard"
+    "dlc": "Dawnguard",
+    "subCategoryType": "Summon Durnehviir"
   },
   {
     "id": "95b19d5f-0f91-421f-8a64-642b8ed69c13",
-    "mainCategory": "Shouts",
-    "subCategory": "Summon Durnehviir",
+    "mainCategory": "Dawnguard",
+    "subCategory": "Shouts",
     "name": "Viir",
     "prerequisite": "",
-    "dlc": "Dawnguard"
+    "dlc": "Dawnguard",
+    "subCategoryType": "Summon Durnehviir"
   },
   {
     "id": "c46e1c0b-71b7-4ef4-b61a-d7b228c38b07",
@@ -885,7 +995,8 @@
     "subCategory": "Throw Voice",
     "name": "Zul",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "c25e1c0b-71b7-4ef4-b61a-d7b228c38b07",
@@ -893,7 +1004,8 @@
     "subCategory": "Throw Voice",
     "name": "Mey",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "c26e1c0b-71b7-4ef4-b61a-d7b228c38b07",
@@ -901,7 +1013,8 @@
     "subCategory": "Throw Voice",
     "name": "Gut",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "58b46e1b-7b95-4c2b-b6d3-26a4539441cc",
@@ -909,7 +1022,8 @@
     "subCategory": "Unrelenting Force",
     "name": "Fus",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "58b46e1b-7b95-4c2b-b6d3-26a4539441c5",
@@ -917,7 +1031,8 @@
     "subCategory": "Unrelenting Force",
     "name": "Ro",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "38b46e1b-7b95-4c2b-b6d3-26a4539441c5",
@@ -925,7 +1040,8 @@
     "subCategory": "Unrelenting Force",
     "name": "Dah",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "f7e4e344-5e39-4a3d-a2b7-1d0c79f4d777",
@@ -933,7 +1049,8 @@
     "subCategory": "Whirlwind Sprint",
     "name": "Wuld",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "g7e4e344-5e39-4a3d-a2b7-1d0c79f4d779",
@@ -941,7 +1058,8 @@
     "subCategory": "Whirlwind Sprint",
     "name": "Nah",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "f7e4e344-5e39-4a3d-a2b7-1d0c79f4d779",
@@ -949,15 +1067,17 @@
     "subCategory": "Whirlwind Sprint",
     "name": "Kest",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "68f9a639-58f4-4e5a-93a0-16cd41947cc7",
-    "mainCategory": "Unique Armour Sets",
-    "subCategory": "",
+    "mainCategory": "Dawnguard",
+    "subCategory": "Unique Armour Sets",
     "name": "Ancient Falmer Armor",
     "prerequisite": "",
-    "dlc": "Dawnguard"
+    "dlc": "Dawnguard",
+    "subCategoryType": ""
   },
   {
     "id": "4c0b3b36-1590-4fc3-95ea-dcbf74330137",
@@ -965,7 +1085,8 @@
     "subCategory": "",
     "name": "Ancient Shrouded Armor",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "0d1fe547-5237-4a8d-ba63-1f01c1479d32",
@@ -973,15 +1094,17 @@
     "subCategory": "",
     "name": "Armor of the Old Gods",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "9711a94a-3d7b-4427-84b3-3e5d7fc59a0b",
-    "mainCategory": "Unique Armour Sets",
-    "subCategory": "",
+    "mainCategory": "Dragonborn",
+    "subCategory": "Unique Armour Sets",
     "name": "Ahzidal's Armor",
     "prerequisite": "",
-    "dlc": "Dragonborn"
+    "dlc": "Dragonborn",
+    "subCategoryType": ""
   },
   {
     "id": "fca7443d-86a5-4852-9db3-27a37e52a981",
@@ -989,15 +1112,17 @@
     "subCategory": "",
     "name": "Blackguard's Armor",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "4cfe570e-75a7-47bf-8d44-cbcf6c204c06",
-    "mainCategory": "Unique Armour Sets",
-    "subCategory": "",
+    "mainCategory": "Dragonborn",
+    "subCategory": "Unique Armour Sets",
     "name": "Deathbrand Armor",
     "prerequisite": "",
-    "dlc": "Dragonborn"
+    "dlc": "Dragonborn",
+    "subCategoryType": ""
   },
   {
     "id": "a642943a-eb29-4e5f-b6c7-474d1e9f72c3",
@@ -1005,7 +1130,8 @@
     "subCategory": "",
     "name": "Guild Master's Armor Set",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "c441327a-48f9-4bd0-ae5f-2c4a5ff7a907",
@@ -1013,7 +1139,8 @@
     "subCategory": "",
     "name": "Linwe's Armor Set",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "a78e3d48-3c42-4a08-9be6-3e0c22de0732",
@@ -1021,7 +1148,8 @@
     "subCategory": "",
     "name": "Nightingale Armor",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "cb37600a-346a-4090-ae6d-4e3711502b3a",
@@ -1029,7 +1157,8 @@
     "subCategory": "",
     "name": "Thieves Guild Armor",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "6a352a2b-02d9-4c35-83c5-1a8f9603bf1a",
@@ -1037,23 +1166,26 @@
     "subCategory": "",
     "name": "Worn Shrouded Armor",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "68f9a639-58f4-4e5a-93a0-16cd41947cc7",
-    "mainCategory": "Unique Armour Sets",
-    "subCategory": "",
+    "mainCategory": "Dragonborn",
+    "subCategory": "Unique Armour Sets",
     "name": "Miraak's Robe",
     "prerequisite": "",
-    "dlc": "Dragonborn"
+    "dlc": "Dragonborn",
+    "subCategoryType": ""
   },
   {
     "id": "68f9a639-58f4-4e5a-93a0-16cd41947cc7",
-    "mainCategory": "Unique Armour Sets",
-    "subCategory": "",
+    "mainCategory": "Dragonborn",
+    "subCategory": "Unique Armour Sets",
     "name": "Visage of Mzund",
     "prerequisite": "",
-    "dlc": "Dragonborn"
+    "dlc": "Dragonborn",
+    "subCategoryType": ""
   },
   {
     "id": "8d19cfdb-8c29-4e8a-8621-7e405ca1e1f7",
@@ -1061,7 +1193,8 @@
     "subCategory": "Daggers",
     "name": "Alessandra's Dagger",
     "prerequisite": "Dark Brotherhood questline",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "f71e209d-3e48-4a7c-b168-7e1c0b8be0bf",
@@ -1069,7 +1202,8 @@
     "subCategory": "Daggers",
     "name": "Blade of Woe",
     "prerequisite": "Dark Brotherhood questline",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "ae0794d5-1353-4d27-8c62-ced6c0377c93",
@@ -1077,7 +1211,8 @@
     "subCategory": "Daggers",
     "name": "Blade of Sacrifice",
     "prerequisite": "Daedric quest: ",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "b43976a9-1a98-4fc2-9e67-d88c88d0bb35",
@@ -1085,7 +1220,8 @@
     "subCategory": "Daggers",
     "name": "Bloodthorn",
     "prerequisite": "Side quest: Boethiah's Calling",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "5c1618b0-5bc4-4c7f-90e7-7f9a6f13cfa5",
@@ -1093,15 +1229,17 @@
     "subCategory": "Daggers",
     "name": "Borvir's Dagger",
     "prerequisite": "Companions quest: Radiant quest",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "7613ec84-587d-4ce8-b6b5-c59f891c9b0a",
-    "mainCategory": "Unique Weapons",
-    "subCategory": "Daggers",
+    "mainCategory": "Dragonborn",
+    "subCategory": "Unique Weapons",
     "name": "Kahvozein's Fang",
     "prerequisite": "Dragonborn DLC quest: A Scroll For Anska",
-    "dlc": "Dragonborn"
+    "dlc": "Dragonborn",
+    "subCategoryType": "Daggers"
   },
   {
     "id": "3d80f7c7-8f48-419c-b748-1065c6ef4c38",
@@ -1109,7 +1247,8 @@
     "subCategory": "Daggers",
     "name": "Keening",
     "prerequisite": "Main quest: Arniel's Endeavor",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "0e162f02-ebdb-4d3e-b4c4-c8f49357e16d",
@@ -1117,7 +1256,8 @@
     "subCategory": "Daggers",
     "name": "Mehrunes' Razor",
     "prerequisite": "Daedric quest: Pieces of the Past",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "b6b2e53e-190d-4e42-b14e-4b3e3ac09b3d",
@@ -1125,7 +1265,8 @@
     "subCategory": "Daggers",
     "name": "Nettlebane",
     "prerequisite": "Main quest: The Blessings of Nature",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "d4a712bd-2cfc-45fc-8a66-06e2bc4305e7",
@@ -1133,7 +1274,8 @@
     "subCategory": "Daggers",
     "name": "Rundi's Dagger",
     "prerequisite": "Companions quest: Radiant quest",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "2b4b6d9a-789b-4eeb-927a-b1ccfe9883e7",
@@ -1141,15 +1283,17 @@
     "subCategory": "Daggers",
     "name": "Valdr's Lucky Dagger",
     "prerequisite": "Side quest: Hunter and Hunted",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "0f3c8ee5-f512-4df1-a5b2-6d81e0ef173e",
-    "mainCategory": "Unique Weapons",
-    "subCategory": "Maces",
+    "mainCategory": "Dragonborn",
+    "subCategory": "Unique Weapons",
     "name": "Horksbane",
     "prerequisite": "Companions quest: Radiant quest",
-    "dlc": "Dragonborn"
+    "dlc": "Dragonborn",
+    "subCategoryType": "Maces"
   },
   {
     "id": "7a4f8a9d-0c85-44fe-9e9a-905078650ed8",
@@ -1157,7 +1301,8 @@
     "subCategory": "Maces",
     "name": "Lunar Iron Mace",
     "prerequisite": "Craftable during the Lunar Weapons Creation",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "c0a7c546-eeb6-4d65-94e4-6a64ed4bf42b",
@@ -1165,7 +1310,8 @@
     "subCategory": "Maces",
     "name": "Lunar Steel Mace",
     "prerequisite": "Craftable during the Lunar Weapons Creation",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "e7ad586a-336d-4379-9fb8-17e2b8e7d7b1",
@@ -1173,7 +1319,8 @@
     "subCategory": "Maces",
     "name": "Mace of Molag Bal",
     "prerequisite": "Daedric quest: House of Horrors",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "99f24df0-31d3-4299-83f3-fb7cb4f2b128",
@@ -1181,15 +1328,17 @@
     "subCategory": "Maces",
     "name": "Prelate's Mace",
     "prerequisite": "Theives Guild quest: The Litany of Larceny",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "8d647647-0a2d-4c2c-9630-4057397c4dab",
-    "mainCategory": "Unique Weapons",
-    "subCategory": "Swords",
+    "mainCategory": "Dawnguard",
+    "subCategory": "Unique Weapons",
     "name": "Akaviri Sword",
     "prerequisite": "Obtained during the Blades questline",
-    "dlc": "Dawnguard"
+    "dlc": "Dawnguard",
+    "subCategoryType": "Swords"
   },
   {
     "id": "6b0f0d60-0e0f-4c8b-a79d-20e0be4f38cd",
@@ -1197,15 +1346,17 @@
     "subCategory": "Swords",
     "name": "Amren's Family Sword",
     "prerequisite": "Quest: 'Amren's Sword'",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "8fbf0ccf-7847-43a5-8e25-8d739ab18c67",
-    "mainCategory": "Unique Weapons",
-    "subCategory": "Swords",
+    "mainCategory": "Dragonborn",
+    "subCategory": "Unique Weapons",
     "name": "Bloodscythe",
     "prerequisite": "Dragonborn DLC quest: Deathbrand",
-    "dlc": "Dragonborn"
+    "dlc": "Dragonborn",
+    "subCategoryType": "Swords"
   },
   {
     "id": "dea44f86-0bf7-4f9b-8ec0-d56866ee52f3",
@@ -1213,7 +1364,8 @@
     "subCategory": "Swords",
     "name": "Bolar's Oathblade",
     "prerequisite": "Given by Maluril during the quest: 'Bolar's Oathblade'",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "d6f937bf-b8e8-4082-b188-23efbd18d8de",
@@ -1221,7 +1373,8 @@
     "subCategory": "Swords",
     "name": "Ceremonial Sword",
     "prerequisite": "Dark Brotherhood questline",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "46d11b2a-20a7-4e6e-94e2-ebbe5571e1a1",
@@ -1229,7 +1382,8 @@
     "subCategory": "Swords",
     "name": "Chillrend",
     "prerequisite": "Thieves Guild questline",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "97d3c7a4-677d-4fb3-a6ee-9ff91d51d7ab",
@@ -1237,7 +1391,8 @@
     "subCategory": "Swords",
     "name": "Dawnbreaker",
     "prerequisite": "Daedric quest: The Break of Dawn",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "f0a14b4f-2bb5-40e7-88d4-b5b8b345b4bf",
@@ -1245,7 +1400,8 @@
     "subCategory": "Swords",
     "name": "Dragonbane",
     "prerequisite": "Main questline quest: Alduin's Bane",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "c26c4d2f-4313-4b91-91b9-c6c9a671073b",
@@ -1253,7 +1409,8 @@
     "subCategory": "Swords",
     "name": "Drainheart Sword",
     "prerequisite": "Radiant quest in Labyrinthian",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "f16b3b07-ec7e-4d6b-8ea8-91e8db03cc6f",
@@ -1261,7 +1418,8 @@
     "subCategory": "Swords",
     "name": "Eduj",
     "prerequisite": "Companions questline",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "0c74b19b-d7e1-4e0c-83dd-7be1b27b42f9",
@@ -1269,7 +1427,8 @@
     "subCategory": "Swords",
     "name": "Gauldur Blackblade",
     "prerequisite": "Dungeon quest: Forbidden Legend",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "ef18f7a1-e1e5-49d5-9e3f-9c7ec8d86da0",
@@ -1277,7 +1436,8 @@
     "subCategory": "Swords",
     "name": "Ghostblade",
     "prerequisite": "Dungeon quest: Ansilvund",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "8a240740-3c6f-45ee-9f7d-96f489579aa3",
@@ -1285,15 +1445,17 @@
     "subCategory": "Swords",
     "name": "Grimsever",
     "prerequisite": "Thieves Guild quest: Hard Answers",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "162b242b-03de-4ba7-99e9-efcf61bdcf45",
-    "mainCategory": "Unique Weapons",
-    "subCategory": "Swords",
+    "mainCategory": "Dawnguard",
+    "subCategory": "Unique Weapons",
     "name": "Harkon's Sword",
     "prerequisite": "Dawnguard quest: Kindred Judgment",
-    "dlc": "Dawnguard"
+    "dlc": "Dawnguard",
+    "subCategoryType": "Swords"
   },
   {
     "id": "72556c7c-bd76-4b61-a6f1-8272922e8ee9",
@@ -1301,7 +1463,8 @@
     "subCategory": "Swords",
     "name": "Herebane's Courage",
     "prerequisite": "Dungeon quest: Rannveig's Fast",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "e1aa11da-60f3-4eaf-9390-aa1e5bb620ea",
@@ -1309,7 +1472,8 @@
     "subCategory": "Swords",
     "name": "Lunar Iron Sword",
     "prerequisite": "Craftable during the Lunar Weapons Creation",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "13b5ba8e-3e1a-4d96-8822-2a95e2047777",
@@ -1317,23 +1481,26 @@
     "subCategory": "Swords",
     "name": "Lunar Steel Sword",
     "prerequisite": "Craftable during the Lunar Weapons Creation",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "5a04d9e1-5739-4d7f-86ed-721bb5ec3979",
-    "mainCategory": "Unique Weapons",
-    "subCategory": "Staffs",
+    "mainCategory": "Dragonborn",
+    "subCategory": "Unique Weapons",
     "name": "Miraak's Staff",
     "prerequisite": "Dragonborn DLC quest: At the Summit of Apocrypha",
-    "dlc": "Dragonborn"
+    "dlc": "Dragonborn",
+    "subCategoryType": "Staffs"
   },
   {
     "id": "5a04d9e1-5739-4d7f-86ed-721bb5ec3979",
-    "mainCategory": "Unique Weapons",
-    "subCategory": "Swords",
+    "mainCategory": "Dragonborn",
+    "subCategory": "Unique Weapons",
     "name": "Miraak's Sword",
     "prerequisite": "Dragonborn DLC quest: At the Summit of Apocrypha",
-    "dlc": "Dragonborn"
+    "dlc": "Dragonborn",
+    "subCategoryType": "Swords"
   },
   {
     "id": "3f8f527e-29b0-4d37-a0c6-3fe4bba7e9d3",
@@ -1341,7 +1508,8 @@
     "subCategory": "Swords",
     "name": "Nightingale Blade",
     "prerequisite": "Thieves Guild questline",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "9bca46b4-043b-4e92-845f-ae0bf898b235",
@@ -1349,7 +1517,8 @@
     "subCategory": "Swords",
     "name": "Queen Freydis's Sword",
     "prerequisite": "Companions: Radiant Quest",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "480fa3f9-df48-4eb4-b6c8-d0f4a62b5ef3",
@@ -1357,7 +1526,8 @@
     "subCategory": "Swords",
     "name": "Red Eagle's Bane",
     "prerequisite": "Dungeon quest: Rebel's Cairn",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "c773e512-6873-46b8-bd3c-00c01270a075",
@@ -1365,15 +1535,17 @@
     "subCategory": "Swords",
     "name": "Red Eagle's Fury",
     "prerequisite": "Dungeon quest: Rebel's Cairn",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "61ea1e6a-df25-4462-925d-d6c74481b4b2",
-    "mainCategory": "Unique Weapons",
-    "subCategory": "Swords",
+    "mainCategory": "Dragonborn",
+    "subCategory": "Unique Weapons",
     "name": "Soulrender",
     "prerequisite": "Dragonborn DLC quest: Deathbrand",
-    "dlc": "Dragonborn"
+    "dlc": "Dragonborn",
+    "subCategoryType": "Swords"
   },
   {
     "id": "9984d783-90ae-4e24-b8f1-5c03256c7b3d",
@@ -1381,7 +1553,8 @@
     "subCategory": "Swords",
     "name": "The Pale Blade",
     "prerequisite": "Dungeon quest: The Pale Lady",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "080eefc5-12a5-420c-bd7c-034345e8e90a",
@@ -1389,7 +1562,8 @@
     "subCategory": "Swords",
     "name": "Vilkas's Sword",
     "prerequisite": "Companions: Radiant Quest",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "4e82c74e-3e01-430e-9c68-0048f5c5c7b0",
@@ -1397,7 +1571,8 @@
     "subCategory": "Swords",
     "name": "Windshear",
     "prerequisite": "Dark Brotherhood quest: Hail Sithis!",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "9faeb328-524f-4ecf-b1dd-768510fb72f5",
@@ -1405,15 +1580,17 @@
     "subCategory": "War Axes",
     "name": "Ceremonial Axe",
     "prerequisite": "Dark Brotherhood questline",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "9e02bb11-6c08-47d6-8d06-9fcbe2fb12c4",
-    "mainCategory": "Unique Weapons",
-    "subCategory": "War Axes",
+    "mainCategory": "Dawnguard",
+    "subCategory": "Unique Weapons",
     "name": "Dawnguard Rune Axe",
     "prerequisite": "Dawnguard quest: Ancient Technology",
-    "dlc": "Dawnguard"
+    "dlc": "Dawnguard",
+    "subCategoryType": "War Axes"
   },
   {
     "id": "5c05d59f-105e-4e77-a4cf-59bcece40dfb",
@@ -1421,7 +1598,8 @@
     "subCategory": "War Axes",
     "name": "Ghorbash's Ancestral Axe",
     "prerequisite": "Companions: Radiant Quest",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "0f29dbee-c3f0-4c89-b28c-d2d8966a8e58",
@@ -1429,7 +1607,8 @@
     "subCategory": "War Axes",
     "name": "Hoarfrost",
     "prerequisite": "Dawnguard quest: Ancient Technology",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "2c44e3b1-03c8-4a82-88bb-11d7f4c3d2b8",
@@ -1437,7 +1616,8 @@
     "subCategory": "War Axes",
     "name": "Lunar Iron War Axe",
     "prerequisite": "Craftable during the Lunar Weapons Creation",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "8d9dfc5c-9224-4c9f-8d62-f5d2ac5d8681",
@@ -1445,7 +1625,8 @@
     "subCategory": "War Axes",
     "name": "Lunar Steel War Axe",
     "prerequisite": "Craftable during the Lunar Weapons Creation",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "b5a1c870-8aa0-484c-9b19-3a2fcf7a83bb",
@@ -1453,7 +1634,8 @@
     "subCategory": "War Axes",
     "name": "Notched Pickaxe",
     "prerequisite": "Found at the Throat of the World",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "081d60d9-7394-490a-b99b-1b6e6f39bb9b",
@@ -1461,7 +1643,8 @@
     "subCategory": "War Axes",
     "name": "Okin",
     "prerequisite": "Companions questline",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "f1aa1a9f-7f03-4b59-9fe4-1c5ad9074a1f",
@@ -1469,7 +1652,8 @@
     "subCategory": "War Axes",
     "name": "Poacher's Axe",
     "prerequisite": "Given during the quest: 'Poacher's Axe'",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "d15e2db0-eb22-4e0f-93c9-4f1f18efc3e7",
@@ -1477,7 +1661,8 @@
     "subCategory": "War Axes",
     "name": "Ulfric's War Axe",
     "prerequisite": "Given by Ulfric Stormcloak during the Civil War questline",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "a2459613-d2f2-4a90-8b0e-89913e4b3ae3",
@@ -1485,7 +1670,8 @@
     "subCategory": "Battleaxes",
     "name": "Drainblood Battleaxe",
     "prerequisite": "Labyrinthian quest: The Staff of Magnus",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "3e9e271f-6204-4ac5-ba5c-8e898944d8f8",
@@ -1493,7 +1679,8 @@
     "subCategory": "Battleaxes",
     "name": "Headsman's Axe",
     "prerequisite": "Solitude quest: The Man Who Cried Wolf",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "6a58c1c3-f108-4fe5-b1a2-0383f2d1a2da",
@@ -1501,7 +1688,8 @@
     "subCategory": "Battleaxes",
     "name": "Steel Battleaxe of Fiery Souls",
     "prerequisite": "Found in Ironbind Barrow",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "5f5404ec-7b71-4a19-94ce-fa4ec2012320",
@@ -1509,7 +1697,8 @@
     "subCategory": "Battleaxes",
     "name": "Rueful Axe",
     "prerequisite": "Daedric quest: A Daedra's Best Friend",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "c3e8fe4c-3b10-4eab-9c98-7b6920e91d2a",
@@ -1517,15 +1706,17 @@
     "subCategory": "Battleaxes",
     "name": "The Woodsman's Friend",
     "prerequisite": "Companions: Radiant Quest",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "5c8f0d98-774b-4a9e-b759-607536a12cfb",
-    "mainCategory": "Unique Weapons",
-    "subCategory": "Battleaxes",
+    "mainCategory": "Dragonborn",
+    "subCategory": "Unique Weapons",
     "name": "Tsun's Battle Axe",
     "prerequisite": "Dragonborn DLC quest: Summoning Karstaag",
-    "dlc": "Dragonborn"
+    "dlc": "Dragonborn",
+    "subCategoryType": "Battleaxes"
   },
   {
     "id": "2434f367-4da9-45f7-b625-4a75f9f1b9b0",
@@ -1533,7 +1724,8 @@
     "subCategory": "Battleaxes",
     "name": "Wuuthrad",
     "prerequisite": "Companions questline",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "3c4a6c25-2eae-4f43-bb02-60f9c891011a",
@@ -1541,7 +1733,8 @@
     "subCategory": "Greatswords",
     "name": "Ebony Blade",
     "prerequisite": "Daedric quest: The Whispering Door",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "b7b9eae1-66fc-4ec0-91c1-d365b2f4a6b9",
@@ -1549,15 +1742,17 @@
     "subCategory": "Greatswords",
     "name": "Balgruuf's Greatsword",
     "prerequisite": "Companions: Radiant Quest",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "9eac8d80-71ab-4e6e-a789-4fde9db487c7",
-    "mainCategory": "Unique Weapons",
-    "subCategory": "Greatswords",
+    "mainCategory": "Dragonborn",
+    "subCategory": "Unique Weapons",
     "name": "Bloodskal Blade",
     "prerequisite": "Dragonborn DLC quest: The Final Descent",
-    "dlc": "Dragonborn"
+    "dlc": "Dragonborn",
+    "subCategoryType": "Greatswords"
   },
   {
     "id": "a87dbd74-0ac9-45c7-849a-66fb94b58792",
@@ -1565,15 +1760,17 @@
     "subCategory": "Greatswords",
     "name": "Honed Ancient Nord Greatsword of Scorching",
     "prerequisite": "Random loot or merchants",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "c4b6b4a4-8e84-4681-b53b-af09f620c0d4",
-    "mainCategory": "Unique Weapons",
-    "subCategory": "Greatswords",
+    "mainCategory": "Dragonborn",
+    "subCategory": "Unique Weapons",
     "name": "Stormfang",
     "prerequisite": "Dragonborn DLC quest: The Final Descent",
-    "dlc": "Dragonborn"
+    "dlc": "Dragonborn",
+    "subCategoryType": "Greatswords"
   },
   {
     "id": "72f57e98-6a10-40c8-b9a7-23487b7a52c6",
@@ -1581,23 +1778,26 @@
     "subCategory": "Warhammers",
     "name": "Aegisbane",
     "prerequisite": "Markarth quest: Find the Forgemaster's Fingers",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "2b11d82d-9e3a-4e0b-9f7f-f040056fb86b",
-    "mainCategory": "Unique Weapons",
-    "subCategory": "Warhammers",
+    "mainCategory": "Dragonborn",
+    "subCategory": "Unique Weapons",
     "name": "Champion's Cudgel",
     "prerequisite": "Dragonborn DLC quest: Deathbrand",
-    "dlc": "Dragonborn"
+    "dlc": "Dragonborn",
+    "subCategoryType": "Warhammers"
   },
   {
     "id": "ad82f0a3-7e43-4219-9a2a-4bf4574e46da",
-    "mainCategory": "Unique Weapons",
-    "subCategory": "Warhammers",
+    "mainCategory": "Dawnguard",
+    "subCategory": "Unique Weapons",
     "name": "Dawnguard Rune Hammer",
     "prerequisite": "Dawnguard quest: Lost Relic",
-    "dlc": "Dawnguard"
+    "dlc": "Dawnguard",
+    "subCategoryType": "Warhammers"
   },
   {
     "id": "172b1562-f0db-4f22-91ef-2a0d982c7a88",
@@ -1605,7 +1805,8 @@
     "subCategory": "Warhammers",
     "name": "Shagrol's Warhammer",
     "prerequisite": "Daedric quest: The Cursed Tribe",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "9e8e1162-141e-4ad5-9c79-7d7f0c539084",
@@ -1613,7 +1814,8 @@
     "subCategory": "Warhammers",
     "name": "The Longhammer",
     "prerequisite": "",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "2c3d9fbf-e31a-4b2d-b6b3-13e27e5eb197",
@@ -1621,7 +1823,8 @@
     "subCategory": "Warhammers",
     "name": "Trollsbane",
     "prerequisite": "Random loot or merchants",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "9f9f1bbd-7124-4954-b914-83d133b78b8b",
@@ -1629,7 +1832,8 @@
     "subCategory": "Warhammers",
     "name": "Volendrung",
     "prerequisite": "Daedric quest: The Cursed Tribe",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "b31efb6f-1fcd-4db7-8900-d22a19ac7ea0",
@@ -1637,15 +1841,17 @@
     "subCategory": "Bows",
     "name": "Angi's Bow",
     "prerequisite": "Training with Angi quest: Angi's Camp",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "57927107-2e4f-45e1-a9a0-18db34bf6391",
-    "mainCategory": "Unique Weapons",
-    "subCategory": "Bows",
+    "mainCategory": "Dawnguard",
+    "subCategory": "Unique Weapons",
     "name": "Auriel's Bow",
     "prerequisite": "Dawnguard quest: Touching the Sky",
-    "dlc": "Dawnguard"
+    "dlc": "Dawnguard",
+    "subCategoryType": "Bows"
   },
   {
     "id": "1c0e1b8c-fc2b-4a2f-94fc-cf8f9f3d7e4f",
@@ -1653,7 +1859,8 @@
     "subCategory": "Bows",
     "name": "Bow of the Hunt",
     "prerequisite": "Companions: Radiant Quest",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "2f576e0c-2f91-4c23-96a0-d3f5ea20a84f",
@@ -1661,7 +1868,8 @@
     "subCategory": "Bows",
     "name": "Drainspell Bow",
     "prerequisite": "Labyrinthian quest: The Staff of Magnus",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "40d53e9a-745a-4c34-b6d7-dfe4b8b145a5",
@@ -1669,15 +1877,17 @@
     "subCategory": "Bows",
     "name": "Dravin's Bow",
     "prerequisite": "Found during the quest: Bow to the Master",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "a06a19ac-8f1f-4a20-ae9f-d2b0c171f5f3",
-    "mainCategory": "Unique Weapons",
-    "subCategory": "Bows",
+    "mainCategory": "Dragonborn",
+    "subCategory": "Unique Weapons",
     "name": "Dwarven Black Bow of Fate",
     "prerequisite": "Dragonborn DLC quest: Lost to the Ages",
-    "dlc": "Dragonborn"
+    "dlc": "Dragonborn",
+    "subCategoryType": "Bows"
   },
   {
     "id": "f3b82d4c-925a-4d3e-bfd3-83b12761fe5d",
@@ -1685,7 +1895,8 @@
     "subCategory": "Bows",
     "name": "Firiniel's End",
     "prerequisite": "Thieves Guild: Radiant Quest",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "5ea6b1a2-0645-4bfc-9ac3-98aa97a15bfc",
@@ -1693,7 +1904,8 @@
     "subCategory": "Bows",
     "name": "Froki's Bow",
     "prerequisite": "Quest: Kyne's Sacred Trials",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "ca10f3e9-d515-44c2-8b2f-97f0f1573327",
@@ -1701,7 +1913,8 @@
     "subCategory": "Bows",
     "name": "Gauldur Blackbow",
     "prerequisite": "Dungeon quest: Forbidden Legend",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "8a9f97c2-1b79-4c27-b38a-bfe7c5206a08",
@@ -1709,7 +1922,8 @@
     "subCategory": "Bows",
     "name": "Glass Bow of the Stag Prince",
     "prerequisite": "Companions: Radiant Quest",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "4b1e9d12-9e14-4eae-8b38-2b0ce9db5c4d",
@@ -1717,7 +1931,8 @@
     "subCategory": "Bows",
     "name": "Karliah's Bow",
     "prerequisite": "Thieves Guild quest: Blindsighted",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "5c67b448-8f1a-415d-9c16-9c8c5ab5e8e8",
@@ -1725,15 +1940,17 @@
     "subCategory": "Bows",
     "name": "Nightingale Bow",
     "prerequisite": "Thieves Guild questline",
-    "dlc": "None"
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "1ec4a96a-3cb5-4f20-b32d-4cf54a6b3e0e",
-    "mainCategory": "Unique Weapons",
-    "subCategory": "Bows",
+    "mainCategory": "Dawnguard",
+    "subCategory": "Unique Weapons",
     "name": "Zephyr",
     "prerequisite": "Dawnguard quest: Lost to the Ages",
-    "dlc": "Dawnguard"
+    "dlc": "Dawnguard",
+    "subCategoryType": "Bows"
   },
   {
     "id": "f6b7627d-61d4-4a72-b16c-76eb86db2a79",
@@ -1741,7 +1958,8 @@
     "subCategory": "",
     "name": "Shrine of Akatosh",
     "prerequisite": "",
-    "dlc": ""
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "da783c7f-8d53-4ac4-94a1-456e378d61c1",
@@ -1749,7 +1967,8 @@
     "subCategory": "",
     "name": "Shrine of Arkay",
     "prerequisite": "",
-    "dlc": ""
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "15e4c505-6d37-40c7-8b23-7627cb5a9f91",
@@ -1757,7 +1976,8 @@
     "subCategory": "",
     "name": "Shrine of Dibella",
     "prerequisite": "",
-    "dlc": ""
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "9c3d9f4d-880b-4475-8d8f-4bb7b50814eb",
@@ -1765,7 +1985,8 @@
     "subCategory": "",
     "name": "Shrine of Julianos",
     "prerequisite": "",
-    "dlc": ""
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "fc8ee22d-77af-4b48-8b1e-d428b1f4a0cf",
@@ -1773,7 +1994,8 @@
     "subCategory": "",
     "name": "Shrine of Kynareth",
     "prerequisite": "",
-    "dlc": ""
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "14c868d2-5b6c-4d20-930d-d16434b83369",
@@ -1781,7 +2003,8 @@
     "subCategory": "",
     "name": "Shrine of Mara",
     "prerequisite": "",
-    "dlc": ""
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "bd6c00da-97d3-4171-8c02-7d2d2bc29552",
@@ -1789,7 +2012,8 @@
     "subCategory": "",
     "name": "Shrine of Stendarr",
     "prerequisite": "",
-    "dlc": ""
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "1f92e9b3-217f-4f78-a132-1607748484e5",
@@ -1797,7 +2021,8 @@
     "subCategory": "",
     "name": "Shrine of Talos",
     "prerequisite": "",
-    "dlc": ""
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "c6ee9f55-3d68-4d1a-bd85-9fe82abf6b43",
@@ -1805,88 +2030,98 @@
     "subCategory": "",
     "name": "Shrine of Zenithar",
     "prerequisite": "",
-    "dlc": ""
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "f6b7627d-61d4-4a72-b16c-76eb86db2a79",
-    "mainCategory": "Shrines",
-    "subCategory": "",
+    "mainCategory": "Dragonborn",
+    "subCategory": "Shrines",
     "name": "Shrine of Azura",
     "prerequisite": "",
-    "dlc": "Dragonborn"
+    "dlc": "Dragonborn",
+    "subCategoryType": ""
   },
   {
     "id": "da783c7f-8d53-4ac4-94a1-456e378d61c1",
-    "mainCategory": "Shrines",
-    "subCategory": "",
+    "mainCategory": "Dragonborn",
+    "subCategory": "Shrines",
     "name": "Shrine of Boethiah",
     "prerequisite": "",
-    "dlc": "Dragonborn"
+    "dlc": "Dragonborn",
+    "subCategoryType": ""
   },
   {
     "id": "15e4c505-6d37-40c7-8b23-7627cb5a9f91",
-    "mainCategory": "Shrines",
-    "subCategory": "",
+    "mainCategory": "Dragonborn",
+    "subCategory": "Shrines",
     "name": "Shrine of Mephala",
     "prerequisite": "",
-    "dlc": "Dragonborn"
+    "dlc": "Dragonborn",
+    "subCategoryType": ""
   },
   {
     "id": "9c3d9f4d-880b-4475-8d8f-4bb7b50814eb",
-    "mainCategory": "Shrines",
-    "subCategory": "",
+    "mainCategory": "Dragonborn",
+    "subCategory": "Shrines",
     "name": "Shrine of Nocturnal",
     "prerequisite": "",
-    "dlc": "Dragonborn"
+    "dlc": "Dragonborn",
+    "subCategoryType": ""
   },
   {
     "id": "f6b7627d-61d4-4a72-b16c-76eb86db2a79",
-    "mainCategory": "Shrines",
-    "subCategory": "",
+    "mainCategory": "Dragonborn",
+    "subCategory": "Shrines",
     "name": "Shrine of Azura",
     "prerequisite": "",
-    "dlc": "Dragonborn"
+    "dlc": "Dragonborn",
+    "subCategoryType": ""
   },
   {
     "id": "da783c7f-8d53-4ac4-94a1-456e378d61c1",
-    "mainCategory": "Shrines",
-    "subCategory": "",
+    "mainCategory": "Dragonborn",
+    "subCategory": "Shrines",
     "name": "Shrine of Boethiah",
     "prerequisite": "",
-    "dlc": "Dragonborn"
+    "dlc": "Dragonborn",
+    "subCategoryType": ""
   },
   {
     "id": "15e4c505-6d37-40c7-8b23-7627cb5a9f91",
-    "mainCategory": "Shrines",
-    "subCategory": "",
+    "mainCategory": "Dragonborn",
+    "subCategory": "Shrines",
     "name": "Shrine of Mephala",
     "prerequisite": "",
-    "dlc": "Dragonborn"
+    "dlc": "Dragonborn",
+    "subCategoryType": ""
   },
   {
     "id": "9c3d9f4d-880b-4475-8d8f-4bb7b50814eb",
-    "mainCategory": "Shrines",
-    "subCategory": "",
+    "mainCategory": "Dragonborn",
+    "subCategory": "Shrines",
     "name": "Shrine of Nocturnal",
     "prerequisite": "",
-    "dlc": "Dragonborn"
+    "dlc": "Dragonborn",
+    "subCategoryType": ""
   },
   {
     "id": "f6b7627d-61d4-4a72-b16c-76eb86db2a79",
-    "mainCategory": "Shrines",
-    "subCategory": "",
+    "mainCategory": "Dawnguard",
+    "subCategory": "Shrines",
     "name": "Shrine of Auriel",
     "prerequisite": "",
-    "dlc": "Dawnguard"
+    "dlc": "Dawnguard",
+    "subCategoryType": ""
   },
-
   {
     "id": "f6b7627d-61d4-4a72-b16c-76eb86db2a79",
     "mainCategory": "Stones",
     "subCategory": "",
     "name": "The Apprentice Stone",
     "prerequisite": "",
-    "dlc": ""
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "da783c7f-8d53-4ac4-94a1-456e378d61c1",
@@ -1894,7 +2129,8 @@
     "subCategory": "",
     "name": "The Atronach Stone",
     "prerequisite": "",
-    "dlc": ""
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "15e4c505-6d37-40c7-8b23-7627cb5a9f91",
@@ -1902,7 +2138,8 @@
     "subCategory": "",
     "name": "The Lady Stone",
     "prerequisite": "",
-    "dlc": ""
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "9c3d9f4d-880b-4475-8d8f-4bb7b50814eb",
@@ -1910,7 +2147,8 @@
     "subCategory": "",
     "name": "The Lord Stone",
     "prerequisite": "",
-    "dlc": ""
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "fc8ee22d-77af-4b48-8b1e-d428b1f4a0cf",
@@ -1918,7 +2156,8 @@
     "subCategory": "",
     "name": "The Lover Stone",
     "prerequisite": "",
-    "dlc": ""
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "14c868d2-5b6c-4d20-930d-d16434b83369",
@@ -1926,7 +2165,8 @@
     "subCategory": "",
     "name": "The Mage Stone",
     "prerequisite": "",
-    "dlc": ""
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "bd6c00da-97d3-4171-8c02-7d2d2bc29552",
@@ -1934,7 +2174,8 @@
     "subCategory": "",
     "name": "The Ritual Stone",
     "prerequisite": "",
-    "dlc": ""
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "1f92e9b3-217f-4f78-a132-1607748484e5",
@@ -1942,7 +2183,8 @@
     "subCategory": "",
     "name": "The Serpent Stone",
     "prerequisite": "",
-    "dlc": ""
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "c6ee9f55-3d68-4d1a-bd85-9fe82abf6b43",
@@ -1950,7 +2192,8 @@
     "subCategory": "",
     "name": "The Shadow Stone",
     "prerequisite": "",
-    "dlc": ""
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
@@ -1958,7 +2201,8 @@
     "subCategory": "",
     "name": "The Steed Stone",
     "prerequisite": "",
-    "dlc": ""
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
@@ -1966,7 +2210,8 @@
     "subCategory": "",
     "name": "The Thief Stone",
     "prerequisite": "",
-    "dlc": ""
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
@@ -1974,7 +2219,8 @@
     "subCategory": "",
     "name": "The Tower Stone",
     "prerequisite": "",
-    "dlc": ""
+    "dlc": "None",
+    "subCategoryType": ""
   },
   {
     "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
@@ -1982,7 +2228,7 @@
     "subCategory": "",
     "name": "The Warrior Stone",
     "prerequisite": "",
-    "dlc": ""
+    "dlc": "None",
+    "subCategoryType": ""
   }
-
 ]
