@@ -29,7 +29,7 @@ const MiscMainDropdown = ({ category, completed, total }: MiscMainDropdownProps)
   const { checkMiscItemsCompleteForCategory } = useCheckMiscItemComplete();
   const { getMiscItemSubCategories } = useGetMiscItemCategories();
   const subCategories = getMiscItemSubCategories(category, selectedGame);
-  const isEnabled: boolean = userSettings?.find(settings => settings.category === category && settings.section === "Misc")?.isActive ?? false;
+  const isEnabled: boolean = userSettings?.find(settings => settings.category === category && settings.section === "Miscellaneous")?.isActive ?? false;
 
   return (
     <Dropdown
