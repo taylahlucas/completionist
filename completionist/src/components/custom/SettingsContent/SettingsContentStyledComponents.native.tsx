@@ -15,19 +15,15 @@ export const style = StyleSheet.create({
   }
 });
 
-export const SettingsContentContainer = styled.View`
-  margin-top: 32px;
-`;
-
 export const SettingsContentDescription = styled(StyledText)`
-  margin-left: 8px;
+  width: ${Dimensions.get('window').width - 64}px;
   padding: 8px;
+  padding-top: 16px;
 `;
 
 export const SettingsContentDropdownContainer = styled.View`
   width: ${Dimensions.get('window').width - 64}px;
-  position: absolute;
-  margin-top: 108px;
+  margin-top: 16px;
   border-width: 1px;
   border-radius: ${DEFAULT_BORDER_RADIUS}px;
   border-color: grey;

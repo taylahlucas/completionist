@@ -131,6 +131,12 @@ export interface SettingsConfigItem {
   isActive: boolean;
 }
 
+export interface SettingsListItem {
+  id: string;
+  title: string;
+  isActive: boolean;
+}
+
 export interface GeneralData {
   quests: Item[];
   collectables: Item[];

@@ -26,7 +26,7 @@ const SettingsContentItemDropdown = ({ item }: SettingsContentItemDropdownProps)
       <SettingsContentScrollView contentContainerStyle={style.scrollContent}>
         {getUserSettingsSubConfig(item.section).map((item, index) => (
           <SettingsContentSubItemContainer key={index} color={theme.darkGrey}>
-            <StyledText color={theme.lightGrey} type={'ListItemSubTitle'} align={'left'}>
+            <StyledText color={theme.lightGrey} align={'left'}>
               {item.category === 'None' ? 'Main' : item.category}
             </StyledText>
             <SettingsContentCheckbox item={item} />

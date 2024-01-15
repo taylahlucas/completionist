@@ -20,7 +20,7 @@ const GameListItem = ({ title, enabled, imageUrl, onPress }: GameListItemProps) 
       onPress={onPress}
     >
       <GameListImage source={imageUrl} />
-      {/* <GameItemScore type={'ListItemSubTitle'} color={theme.lightestGrey}>0-12</GameItemScore> */}
+      {/* <GameItemScore color={theme.lightestGrey}>0-12</GameItemScore> */}
       <GameItemTitle color={theme.lightestGrey}>{title}</GameItemTitle>
     </GameListItemContainer>
   );

@@ -32,7 +32,7 @@ const LoginFormSignInButtons = () => {
       </LoginFormButtonContainer>
       <LoginFormFooterContainer>
         <Condition condition={!isSigningUp}>
-          <StyledText type={'ListItemSubTitle'}>Don't have an account?</StyledText>
+          <StyledText>Don't have an account?</StyledText>
         </Condition>
           <Button
             title={!isSigningUp ? "Sign up" : "Back to Login"}

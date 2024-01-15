@@ -100,3 +100,9 @@ export const ListShowMoreButton = styled(Button)`
 export const ListItemLocationContainer = styled.View`
   flex-direction: row;
 `;
+
+export const SelectionListContainer = styled.View``;
+
+export const SelectionListItemContainer = styled.View`
+  flex-direction: row;
+`;
