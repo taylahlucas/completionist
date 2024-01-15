@@ -16,7 +16,6 @@ const MiscList = () => {
   const { getMiscItemsForCategory } = useGetMiscItems();
   const { checkMiscItemsCompleteForCategory } = useCheckMiscItemComplete();
   
-  // TODO: Fix scroll on nested list
   return (
     <Condition
       condition={searchValue.length < 2}

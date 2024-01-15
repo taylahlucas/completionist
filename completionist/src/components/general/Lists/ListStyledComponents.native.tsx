@@ -14,6 +14,9 @@ export const listStyles = StyleSheet.create({
   scrollableList: {
     padding: 16
   },
+  listItemScrollableList: {
+    paddingBottom: 50
+  },
   selectableButton: {
     justifyContent: 'center',
     height: 45,
@@ -29,12 +32,14 @@ export const listStyles = StyleSheet.create({
 
 interface ListItemStyleProps {
   color: string;
+  backgroundColor?: string;
 }
 
 export const ListItemHeaderContainer = styled.View<ListItemStyleProps>`
   flex-direction: row;
   align-items: center;
   width: 100%;
+  background-color: ${props => props.backgroundColor};
   border-bottom-color: ${props => props.color};
   border-bottom-width: 1px;
 `;
@@ -49,9 +54,8 @@ export const SubListHeaderTitle = styled(StyledText)`
   margin-left: 16px;
 `;
 
-export const ListContainer = styled.View`
-  align-items: center;
-  padding-bottom: 16px;
+export const ListItemScrollView = styled(ScrollableList)`
+  max-height: 300px;
 `;
 
 export const SubListContainer = styled.View`
@@ -92,11 +96,6 @@ export const ListItemScrollableList = styled(ScrollableList)`
 export const ListShowMoreButton = styled(Button)`
   padding: 8px;
 `;
-
-export const ListItemDLCTitle = styled(StyledText)`
-
-`;
-
 
 export const ListItemLocationContainer = styled.View`
   flex-direction: row;

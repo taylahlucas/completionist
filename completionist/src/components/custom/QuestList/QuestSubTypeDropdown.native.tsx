@@ -7,7 +7,7 @@ import SubTypeListHeader from '@components/general/Lists/SubTypeListHeader.nativ
 import useQuestDispatch from './hooks/useQuestDispatch';
 import useQuestState from './hooks/useQuestState';
 import ListItem from '@components/general/Lists/ListItem.native';
-import { ListContainer } from '@components/general/Lists/ListStyledComponents.native';
+import { listStyles, ListItemScrollView } from '@components/general/Lists/ListStyledComponents.native';
 
 export interface QuestSubTypeDropdownProps {
   subCategory: string;
@@ -35,7 +35,7 @@ const QuestSubTypeDropdown = ({ subCategory, type, completed, total }: QuestSubT
           <SubTypeListHeader title={type} completed={completed} total={total} />
         }
       >
-        <ListContainer>
+        <ListItemScrollView contentContainerStyle={listStyles.listItemScrollableList}>
           {quests?.map((quest, index) => (
             <ListItem
               key={index}
@@ -47,7 +47,7 @@ const QuestSubTypeDropdown = ({ subCategory, type, completed, total }: QuestSubT
               action={(): void => updateQuestItemsComplete(quest.id)}
             />
           ))}
-        </ListContainer>
+        </ListItemScrollView>
       </Dropdown>
     </Condition>
   );

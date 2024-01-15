@@ -1,9 +1,10 @@
 import React from 'react';
 import useGetTheme from '@styles/hooks/useGetTheme';
-import { ListItemContainer, ListItemTitle, ListItemDLCTitle, ListItemContentContainer, ListItemLocationContainer } from './ListStyledComponents.native';
+import { ListItemContainer, ListItemTitle, ListItemContentContainer, ListItemLocationContainer } from './ListStyledComponents.native';
 import CheckBox from '../Checkbox/CheckBox.native';
 import Condition from '../Condition.native';
 import useGetLocationString from '@utils/hooks/useGetLocationString';
+import StyledText from '../Text/StyledText.native';
 
 interface ListItemProps {
   id: string;
@@ -31,14 +32,14 @@ const ListItem = ({ title, location, hold, isComplete = false, action }: ListIte
         </ListItemTitle>
         <Condition condition={!!location || !!hold}>
           <ListItemLocationContainer>
-            <ListItemDLCTitle 
+            <StyledText 
               type={'ListItemSubDescription'} 
               color={isComplete ? theme.midGrey : theme.darkGrey}
               ellipsizeMode={'tail'}
               numberOfLines={1}
             >
               {locationString}
-            </ListItemDLCTitle>
+            </StyledText>
           </ListItemLocationContainer>
         </Condition>
       </ListItemContentContainer>

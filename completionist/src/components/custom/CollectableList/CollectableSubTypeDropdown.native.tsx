@@ -1,10 +1,9 @@
 import React from 'react';
-import useGetTheme from '@styles/hooks/useGetTheme';
 import Dropdown from '@components/general/Dropdown/Dropdown.native';
 import useGetCollectables from './hooks/useGetCollectables';
 import ListItem from '@components/general/Lists/ListItem.native';
 import useCheckCollectableComplete from './hooks/useCheckCollectableComplete';
-import { ListContainer } from '@components/general/Lists/ListStyledComponents.native';
+import { listStyles, ListItemScrollView } from '@components/general/Lists/ListStyledComponents.native';
 import useCollectableDispatch from './hooks/useCollectableDispatch';
 import useCollectableState from './hooks/useCollectableState';
 import SubTypeListHeader from '@components/general/Lists/SubTypeListHeader.native';
@@ -34,7 +33,7 @@ const CollectableSubTypeDropdown = ({ subCategory, type, completed, total }: Col
         <SubTypeListHeader title={type} completed={completed} total={total} />
       }
     >
-      <ListContainer>
+      <ListItemScrollView contentContainerStyle={listStyles.listItemScrollableList}>
         {collectables?.map((collectable, index) => (
           <ListItem
             key={index}
@@ -44,7 +43,7 @@ const CollectableSubTypeDropdown = ({ subCategory, type, completed, total }: Col
             action={((): void => updateCollectablesComplete(collectable.id))}
           />
         ))}
-      </ListContainer>
+      </ListItemScrollView>
     </Dropdown>
   );
 };

@@ -1,7 +1,7 @@
 import React from 'react';
 import ListItem from '@components/general/Lists/ListItem.native';
 import useGetLocations from './hooks/useGetLocations';
-import { ListContainer } from '@components/general/Lists/ListStyledComponents.native';
+import { listStyles, ListItemScrollView } from '@components/general/Lists/ListStyledComponents.native';
 import useCheckLocationComplete from './hooks/useCheckLocationComplete';
 
 export interface LocationMainListProps {
@@ -16,7 +16,7 @@ const LocationMainList = ({ dlc }: LocationMainListProps) => {
   const { checkLocationComplete } = useCheckLocationComplete();
   
   return (
-    <ListContainer>
+    <ListItemScrollView contentContainerStyle={listStyles.listItemScrollableList}>
       {locations?.map((location, index) => (
         <ListItem 
           id={location.id}
@@ -26,7 +26,7 @@ const LocationMainList = ({ dlc }: LocationMainListProps) => {
           action={(): void => updateLocationsComplete(location.id)}
         />
       ))}
-    </ListContainer>
+    </ListItemScrollView>
   );
 };
 

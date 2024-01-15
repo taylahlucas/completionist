@@ -3,7 +3,6 @@ import Condition from '@components/general/Condition.native';
 import Dropdown from '@components/general/Dropdown/Dropdown.native';
 import QuestSubDropdown from './QuestSubDropdown.native';
 import QuestMainList from './QuestMainList.native';
-import { QuestListSubListContainer } from './QuestListStyledComponents.native';
 import ListHeader from '@components/general/Lists/ListHeader.native';
 import useGetQuests from './hooks/useGetQuests';
 import useMainState from '@redux/hooks/useMainState';

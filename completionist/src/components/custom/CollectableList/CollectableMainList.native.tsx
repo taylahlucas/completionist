@@ -1,5 +1,5 @@
 import React from 'react';
-import { ListContainer } from '@components/general/Lists/ListStyledComponents.native';
+import { listStyles, ListItemScrollView } from '@components/general/Lists/ListStyledComponents.native';
 import useGetCollectables from './hooks/useGetCollectables';
 import useCheckCollectableComplete from './hooks/useCheckCollectableComplete';
 import ListItem from '@components/general/Lists/ListItem.native';
@@ -16,7 +16,7 @@ const CollectableMainList = ({ mainCategory, subCategory, isSubCategory = false 
   const { checkCollectableComplete } = useCheckCollectableComplete();
   
   return (
-    <ListContainer>
+    <ListItemScrollView contentContainerStyle={listStyles.listItemScrollableList}>
       {collectables?.map((collectable, index) => (
         <ListItem
           id={collectable.id}
@@ -26,7 +26,7 @@ const CollectableMainList = ({ mainCategory, subCategory, isSubCategory = false 
           action={(): void => updateCollectablesComplete(collectable.id)}
         />
       ))}
-    </ListContainer>
+    </ListItemScrollView>
   );
 };
 

@@ -2,7 +2,7 @@ import React from 'react';
 import useGetQuests from './hooks/useGetQuests';
 import useCheckQuestComplete from './hooks/useCheckQuestComplete';
 import ListItem from '@components/general/Lists/ListItem.native';
-import { ListContainer } from '@components/general/Lists/ListStyledComponents.native';
+import { listStyles, ListItemScrollView } from '@components/general/Lists/ListStyledComponents.native';
 
 export interface QuestMainListProps {
   category: string;
@@ -15,7 +15,7 @@ const QuestMainList = ({ category, isSubCategory = false }: QuestMainListProps) 
   const { checkQuestComplete } = useCheckQuestComplete();
   
   return (
-    <ListContainer>
+    <ListItemScrollView contentContainerStyle={listStyles.listItemScrollableList}>
       {quests?.map((quest, index) => (
         <ListItem 
           key={index}
@@ -27,7 +27,7 @@ const QuestMainList = ({ category, isSubCategory = false }: QuestMainListProps) 
           action={(): void => updateQuestItemsComplete(quest.id)}
         />
       ))}
-    </ListContainer>
+    </ListItemScrollView>
   );
 };
 

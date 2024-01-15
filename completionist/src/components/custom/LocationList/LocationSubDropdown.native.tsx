@@ -4,7 +4,7 @@ import SubListHeader from '@components/general/Lists/SubListHeader.native';
 import ListItem from '@components/general/Lists/ListItem.native';
 import useCheckLocationComplete from './hooks/useCheckLocationComplete';
 import useGetLocations from './hooks/useGetLocations';
-import { ListContainer } from '@components/general/Lists/ListStyledComponents.native';
+import { listStyles, ListItemScrollView } from '@components/general/Lists/ListStyledComponents.native';
 import useLocationDispatch from './hooks/useLocationDispatch';
 import useLocationState from './hooks/useLocationState';
 
@@ -32,7 +32,7 @@ const LocationSubDropdown = ({ dlc, hold, completed, total }: LocationSubDropdow
           <SubListHeader title={hold} completed={completed} total={total} />
         }
       >
-      <ListContainer>
+      <ListItemScrollView contentContainerStyle={listStyles.listItemScrollableList}>
         {getLocationsForHoldInDLC(dlc, hold).map((location, index) => (
           <ListItem
             key={index}
@@ -42,7 +42,7 @@ const LocationSubDropdown = ({ dlc, hold, completed, total }: LocationSubDropdow
             action={(): void => updateLocationsComplete(location.id)}
           />
         ))}
-      </ListContainer>
+      </ListItemScrollView>
     </Dropdown>
   );
 };
