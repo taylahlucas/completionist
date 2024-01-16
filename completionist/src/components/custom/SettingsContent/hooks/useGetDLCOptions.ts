@@ -12,7 +12,7 @@ const useGetDLCOptions = (): SettingsListItem[] => {
         return {
           id: `${index}-${item}`,
           title: item,
-          isChecked: false
+          isActive: false
         }
       });
     case SubscriptionTypeEnum.FALLOUT_4:
@@ -20,7 +20,7 @@ const useGetDLCOptions = (): SettingsListItem[] => {
         return {
           id: `${index}-${item}`,
           title: item,
-          isChecked: false
+          isActive: false
         }
       });
   }

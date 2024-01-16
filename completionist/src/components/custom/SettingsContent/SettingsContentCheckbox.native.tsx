@@ -1,29 +1,24 @@
 import React from 'react';
-import IconButton from '@components/general/Icon/IconButton.native';
-import { IconTypeEnum, SubscriptionTypeEnum } from '@utils/CustomEnums';
+import { SubscriptionTypeEnum } from '@utils/CustomEnums';
 import { SettingsConfigItem } from '@utils/CustomInterfaces';
-import useGetTheme from '@styles/hooks/useGetTheme';
+import CheckBox from '@components/general/Checkbox/CheckBox.native';
 import useMainState from '@redux/hooks/useMainState';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
 import useUpdateSettingsConfig from './hooks/useUpdateSettingConfig';
 
-interface SettingsContentCheckboxProps {
+interface SettingsContentCheckBoxProps {
   item: SettingsConfigItem;
 }
 
-const SettingsContentCheckbox = ({ item }: SettingsContentCheckboxProps) => {
-  const theme = useGetTheme();
+const SettingsContentCheckBox = ({ item }: SettingsContentCheckBoxProps) => {
   const { selectedGameSettings, user } = useMainState();
   const { setUser } = useMainDispatch();
   const { updateConfig } = useUpdateSettingsConfig();
 
   return (
-    <IconButton
-      name={item.isActive ? 'checkbox-outline' : 'square-outline'}
-      type={IconTypeEnum.Ionicons}
-      color={theme.lightGrey}
-      size={22}
-      onPress={() => {
+    <CheckBox
+      isActive={item.isActive}
+      onPress={(): void => {
         switch (selectedGameSettings) {
           case SubscriptionTypeEnum.SKYRIM:
             const skyrimConfig = updateConfig(user.data.skyrim.settingsConfig, item)
@@ -58,4 +53,4 @@ const SettingsContentCheckbox = ({ item }: SettingsContentCheckboxProps) => {
   );
 };
 
-export default SettingsContentCheckbox;
+export default SettingsContentCheckBox;
