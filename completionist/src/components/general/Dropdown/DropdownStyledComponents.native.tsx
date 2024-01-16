@@ -1,6 +1,6 @@
 import { Dimensions, StyleSheet } from 'react-native';
 import styled from 'styled-components/native';
-import { DEFAULT_BORDER_RADIUS } from '@styles/global';
+import { DEFAULT_BORDER_RADIUS } from '@styles/global.native';
 import IconButton from '../Icon/IconButton.native';
 import StyledText from '../Text/StyledText.native';
 

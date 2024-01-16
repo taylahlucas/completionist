@@ -1,3 +1,4 @@
+import { LARGE_WIDTH } from '@styles/global.native';
 import { Dimensions } from 'react-native';
 import styled from 'styled-components/native';
 import IconButton from '../Icon/IconButton.native';
@@ -14,7 +15,7 @@ interface TextInputProps {
 
 export const TextInputContainer = styled.View<TextInputContainerProps>`
   height: ${(props): number => props.height}px;
-  width: ${Dimensions.get('window').width - 32}px;
+  width: ${LARGE_WIDTH}px;
   margin: 16px;
   padding-vertical: 8px;
   justify-content: ${props => !props.multiline ? 'center' : 'none'};
@@ -22,7 +23,7 @@ export const TextInputContainer = styled.View<TextInputContainerProps>`
 
 export const TextInputTextContainer = styled.View`
   height: 45px;
-  width: ${Dimensions.get('window').width - 32}px;
+  width: ${LARGE_WIDTH}px;
   margin: 16px;
   padding-vertical: 8px;
 `;

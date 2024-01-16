@@ -1,7 +1,7 @@
 import { Dimensions, StyleSheet } from 'react-native';
 import styled from 'styled-components/native';
 import StyledText from '@components/general/Text/StyledText.native';
-import { DEFAULT_BORDER_RADIUS } from '@styles/global';
+import { DEFAULT_BORDER_RADIUS, SMALL_WIDTH, STANDARD_WIDTH } from '@styles/global.native';
 import ScrollableList from '@components/general/Lists/ScrollableList.native';
 
 interface SettingsContentMainItemProps {
@@ -10,19 +10,19 @@ interface SettingsContentMainItemProps {
 
 export const style = StyleSheet.create({
   scrollContent: {
-    width: Dimensions.get('window').width - 64,
+    width: STANDARD_WIDTH,
     paddingBottom: 16
   }
 });
 
 export const SettingsContentDescription = styled(StyledText)`
-  width: ${Dimensions.get('window').width - 64}px;
+  width: ${STANDARD_WIDTH}px;
   padding: 8px;
   padding-top: 16px;
 `;
 
 export const SettingsContentDropdownContainer = styled.View`
-  width: ${Dimensions.get('window').width - 64}px;
+  width: ${STANDARD_WIDTH}px;
   margin-top: 16px;
   border-width: 1px;
   border-radius: ${DEFAULT_BORDER_RADIUS}px;
@@ -44,13 +44,13 @@ export const SettingsContentMainItem = styled.View<SettingsContentMainItemProps>
 `;
 
 export const SettingsContentMainItemTitle = styled(StyledText)`
-  width: ${Dimensions.get('window').width - 144}px;
+  width: ${SMALL_WIDTH}px;
   justify-content: center;
 `;
 
 export const SettingsContentSubDropdownContainer = styled.View`
   height: 120px;
-  width: ${Dimensions.get('window').width - 144}px;
+  width: ${SMALL_WIDTH}px;
   margin-left: 50px;
   overflow: scroll;
 `;
@@ -67,6 +67,6 @@ export const SettingsContentSubItemContainer = styled.View<SettingsContentMainIt
 
 export const SettingsContentScrollView = styled(ScrollableList)`
   background-color: #1d1f24;
-  width: ${Dimensions.get('window').width - 64}px;
+  width: ${STANDARD_WIDTH}px;
   height: 120px;
 `;

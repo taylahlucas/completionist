@@ -1,9 +1,10 @@
 import { Dimensions, StyleSheet } from 'react-native';
 import styled from 'styled-components/native';
 import StyledText from '@components/general/Text/StyledText.native';
-import { DEFAULT_BORDER_RADIUS } from '@styles/global';
+import { DEFAULT_BORDER_RADIUS, SMALL_WIDTH } from '@styles/global.native';
 import ScrollableList from './ScrollableList.native';
 import Button from '../Button/Button.native';
+import { LARGE_WIDTH, STANDARD_WIDTH } from '@styles/global.native';
 
 export const listStyles = StyleSheet.create({
   scrollableContent: {
@@ -69,7 +70,7 @@ export const ListItemContainer = styled.View<ListItemStyleProps>`
   align-items: center;
   justify-content: space-between;
   min-height: 50px;
-  width: ${() => Dimensions.get('window').width - 32}px;
+  width: ${LARGE_WIDTH}px;
   background-color: ${props => props.color};
 `;
 
@@ -101,8 +102,13 @@ export const ListItemLocationContainer = styled.View`
   flex-direction: row;
 `;
 
-export const SelectionListContainer = styled.View``;
+export const SelectionListContainer = styled.View`
+  width: ${STANDARD_WIDTH}px;
+  padding: 8px;
+`;
 
 export const SelectionListItemContainer = styled.View`
   flex-direction: row;
+  justify-content: space-between;
+  padding: 8px;
 `;
