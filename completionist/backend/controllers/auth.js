@@ -73,11 +73,13 @@ const signin = async (req, res) => {
       });
     }
 
-    const match = await comparePasswords(password, user.password);
-    if (!match) {
-      return res.status(request_codes.WRONG_PASSWORD).json({
-        error: "Wrong password",
-      });
+    if (!!user.password) {
+      const match = await comparePasswords(password, user.password);
+      if (!match) {
+        return res.status(request_codes.WRONG_PASSWORD).json({
+          error: "Wrong password",
+        });
+      }
     }
     // Create signed token
     const token = jwt.sign({ _id: new mongoose.Types.ObjectId() }, process.env.JWT_SECRET, {

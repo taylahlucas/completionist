@@ -69,8 +69,7 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
               userId: response?.user?.uid,
               name: response?.user?.displayName,
               email: response?.user?.email,
-              userAvatar: response?.user.photoURL ?? undefined,
-              subscription: loginFormData.subscription
+              userAvatar: response?.user.photoURL ?? undefined
             });
           }
         });

@@ -41,6 +41,7 @@ const useInitUserData = () => {
           updateUserData({
             userId: user.userId,
             subscription: user.subscription,
+            settings: user.settings,
             skyrimData: user.data?.skyrim,
             fallout4Data: user.data?.fallout4
           });

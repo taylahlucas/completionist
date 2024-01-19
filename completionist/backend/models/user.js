@@ -6,10 +6,26 @@ const userSchema = new mongoose.Schema({
   email: String,
   password: String,
   userAvatar: String,
-  subscription: [{
-    id: String,
-    isActive: Boolean,
-  }],
+  subscription: {
+    type: [{
+      id: String,
+      isActive: Boolean,
+    }],
+    default: [
+      { id: 'Skyrim', isActive: true },
+      { id: 'Fallout 4', isActive: true }
+    ]
+  },
+  settings: {
+    type: [{
+      type: String,
+      isActive: Boolean,
+    }],
+    default: [
+      { type: 'COMPLETED_ITEMS', isActive: true },
+      { type: 'DISABLED_SECTIONS', isActive: true }
+    ]
+  },
   data: {
     type: Object,
     default: {

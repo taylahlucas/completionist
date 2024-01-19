@@ -22,3 +22,8 @@ export enum SubscriptionTypeEnum {
   SKYRIM = 'Skyrim',
   FALLOUT_4 = 'Fallout 4'
 }
+
+export enum SettingsOptionEnum {
+  COMPLETED_ITEMS,
+  DISABLED_SECTIONS
+}

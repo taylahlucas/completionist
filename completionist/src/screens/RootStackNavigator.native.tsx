@@ -13,7 +13,6 @@ const RootStackNavigator = () => {
   const { showSplashScreen, user } = useMainState();
 
   usePlaySplashScreen();
-    // TODO: Debug here check commenting out settings hook
   useInitUserData();
 
   return (
