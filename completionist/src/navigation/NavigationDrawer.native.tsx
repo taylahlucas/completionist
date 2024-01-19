@@ -29,7 +29,7 @@ const NavigationDrawer = () => {
     return (
       <Condition condition={!!selectedGame}>
         <NavigationDrawerContainer>
-          <StyledText type={'Heading'} color={theme.lightGrey}>{selectedGame ?? ''}</StyledText>
+          <StyledText color={theme.lightGrey}>{selectedGame ?? ''}</StyledText>
           <NavigationDrawerBody />
         </NavigationDrawerContainer>
       </Condition>

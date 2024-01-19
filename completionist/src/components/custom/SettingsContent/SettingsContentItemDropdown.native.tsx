@@ -1,14 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Dropdown from '@components/general/Dropdown/Dropdown.native';
 import StyledText from '@components/general/Text/StyledText.native';
 import { SettingsConfigItem } from '@utils/CustomInterfaces';
 import SettingsContentMainHeader from './SettingsContentMainHeader.native';
 import useGetUserGameData from '@data/hooks/useGetUserGameData.native';
 import { style, SettingsContentSubItemContainer, SettingsContentScrollView } from './SettingsContentStyledComponents.native';
+import SettingsContentCheckbox from './SettingsContentCheckbox.native';
 import useGetTheme from '@styles/hooks/useGetTheme';
-import useSettingsState from './hooks/useSettingsState';
-import useSettingsDispatch from './hooks/useSettingsDispatch';
-// import SettingsContentCheckBox from './SettingsContentCheckBox.native';
 
 interface SettingsContentItemDropdownProps {
   item: SettingsConfigItem;
@@ -16,26 +14,22 @@ interface SettingsContentItemDropdownProps {
 
 const SettingsContentItemDropdown = ({ item }: SettingsContentItemDropdownProps) => {
   const theme = useGetTheme();
-  const { setSelectedCategory } = useSettingsDispatch();
-  const { selectedCategory } = useSettingsState();
+  const [isOpen, setOpen] = useState<boolean>(false);
   const { getUserSettingsSubConfig } = useGetUserGameData();
-  
+
   return (
     <Dropdown
-      isOpen={item.section === selectedCategory.category}
-      setOpen={(): void => setSelectedCategory({
-        ...selectedCategory,
-        category: item.section === selectedCategory.category ? '' : item.section
-      })}
+      isOpen={isOpen}
+      setOpen={() => setOpen(!isOpen)}
       header={<SettingsContentMainHeader item={item} />}
     >
       <SettingsContentScrollView contentContainerStyle={style.scrollContent}>
         {getUserSettingsSubConfig(item.section).map((item, index) => (
           <SettingsContentSubItemContainer key={index} color={theme.darkGrey}>
-            <StyledText color={theme.lightGrey} align={'left'}>
+            <StyledText color={theme.lightGrey} type={'ListItemSubTitle'} align={'left'}>
               {item.category === 'None' ? 'Main' : item.category}
             </StyledText>
-            {/* <SettingsContentCheckBox item={item} /> */}
+            <SettingsContentCheckbox item={item} />
           </SettingsContentSubItemContainer>
         ))}
       </SettingsContentScrollView>

@@ -1,7 +1,7 @@
 import React from 'react';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import { SettingsConfigItem } from '@utils/CustomInterfaces';
-// import SettingsContentCheckBox from './SettingsContentCheckBox.native';
+import SettingsContentCheckbox from './SettingsContentCheckbox.native';
 import { SettingsContentMainItem, SettingsContentMainItemTitle } from './SettingsContentStyledComponents.native';
 
 interface SettingsContentMainHeaderProps {
@@ -14,7 +14,7 @@ const SettingsContentMainHeader = ({ item }: SettingsContentMainHeaderProps) => 
   return (
     <SettingsContentMainItem color={theme.darkGrey}>
       <SettingsContentMainItemTitle align={'left'} type={'ListItemSubTitleBold'} color={theme.lightGrey}>{item.section}</SettingsContentMainItemTitle>
-      {/* <SettingsContentCheckBox item={item} /> */}
+      <SettingsContentCheckbox item={item} />
     </SettingsContentMainItem>
   );
 };

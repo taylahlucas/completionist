@@ -13,7 +13,8 @@ const signup = async (req, res) => {
       name,
       email,
       password,
-      userAvatar
+      userAvatar,
+      subscription
      } = req.body;
     if (!userId) {
       return res.json({
@@ -38,7 +39,8 @@ const signup = async (req, res) => {
         name,
         email,
         password: hashedPassword,
-        userAvatar
+        userAvatar,
+        subscription
       }).save();
       // Create signed token
       const token = jwt.sign({ _id: new mongoose.Types.ObjectId() }, process.env.JWT_SECRET, {
@@ -71,13 +73,11 @@ const signin = async (req, res) => {
       });
     }
 
-    if (!!user.password) {
-      const match = await comparePasswords(password, user.password);
-      if (!match) {
-        return res.status(request_codes.WRONG_PASSWORD).json({
-          error: "Wrong password",
-        });
-      }
+    const match = await comparePasswords(password, user.password);
+    if (!match) {
+      return res.status(request_codes.WRONG_PASSWORD).json({
+        error: "Wrong password",
+      });
     }
     // Create signed token
     const token = jwt.sign({ _id: new mongoose.Types.ObjectId() }, process.env.JWT_SECRET, {

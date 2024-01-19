@@ -17,13 +17,12 @@ const getUserByUserId = async (req, res) => {
 };
 
 const updateUserData = async (req, res) => {
-  const { userId, subscription, settings, skyrimData, fallout4Data } = req.body;
+  const { userId, subscription, skyrimData, fallout4Data } = req.body;
 
   try {
     const result = await User.updateOne({ 
       userId: userId,
       subscription: subscription,
-      settings: settings,
       data: {
         skyrim: skyrimData,
         fallout4: fallout4Data
@@ -39,8 +38,9 @@ const updateUserData = async (req, res) => {
   }
   catch(error) {
     console.log("Error updating data: ", error.message)
-    res.status(error.status).json(error.message);
+    return res.status(error.status).json(error.message);
   }
+
 };
 
 module.exports = {

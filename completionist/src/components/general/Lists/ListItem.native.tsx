@@ -1,7 +1,7 @@
 import React from 'react';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import { ListItemContainer, ListItemTitle, ListItemContentContainer, ListItemLocationContainer } from './ListStyledComponents.native';
-import AnimatedCheckBox from '../Checkbox/AnimatedCheckBox.native';
+import CheckBox from '../Checkbox/CheckBox.native';
 import Condition from '../Condition.native';
 import useGetLocationString from '@utils/hooks/useGetLocationString';
 import StyledText from '../Text/StyledText.native';
@@ -24,6 +24,7 @@ const ListItem = ({ title, location, hold, isComplete = false, action }: ListIte
       <ListItemContentContainer>
         <ListItemTitle
           align={'left'}
+          type={'ListItemSubTitle'}
           ellipsizeMode={'tail'}
           color={isComplete ? theme.midGrey : theme.lightestGrey}
         >
@@ -42,7 +43,7 @@ const ListItem = ({ title, location, hold, isComplete = false, action }: ListIte
           </ListItemLocationContainer>
         </Condition>
       </ListItemContentContainer>
-      <AnimatedCheckBox isToggled={isComplete} action={action} />
+      <CheckBox isToggled={isComplete} action={action} />
     </ListItemContainer>
   );
 };

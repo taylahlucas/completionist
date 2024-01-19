@@ -1,6 +1,7 @@
 import { useEffect, useRef } from 'react';
 import useMainState from '@redux/hooks/useMainState';
 import { AppState } from 'react-native';
+import useEndpoints from './useEndpoints';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
 import useSaveUserData from './useSaveUserData.native';
 import useLoginState from '@components/custom/LoginForm/hooks/useLoginState';
@@ -10,7 +11,8 @@ const useInitUserData = () => {
   const { setAppState } = useMainDispatch();
   const { user, appState } = useMainState();
   const { isLoggedIn } = useLoginState();
-  const { loadUserData, saveUserData, updateUser } = useSaveUserData();
+  const { updateUserData } = useEndpoints();
+  const { loadUserData, saveUserData } = useSaveUserData();
 
   useEffect(() => {
     if (!isLoggedIn && !user.userId) {
@@ -35,7 +37,13 @@ const useInitUserData = () => {
         return;
       case 'inactive': 
         if (isLoggedIn && !!user.userId) {
-          updateUser(user);
+          saveUserData(user);
+          updateUserData({
+            userId: user.userId,
+            subscription: user.subscription,
+            skyrimData: user.data?.skyrim,
+            fallout4Data: user.data?.fallout4
+          });
         }
         return;
     }

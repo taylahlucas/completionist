@@ -1,8 +1,9 @@
 import { Dimensions, StyleSheet } from 'react-native';
 import styled from 'styled-components/native';
-import { DEFAULT_BORDER_RADIUS } from '@styles/global.native';
+import { DEFAULT_BORDER_RADIUS } from '@styles/global';
 import IconButton from '../Icon/IconButton.native';
 import StyledText from '../Text/StyledText.native';
+import ScrollableList from '../Lists/ScrollableList.native';
 
 interface DropdownSelectionContainerProps {
   color: string;
@@ -40,10 +41,8 @@ export const DropdownSelectionIconButton = styled(IconButton)`
 
 export const DropdownSelectionContentContainer = styled.View`
   max-height: 200px;
-  position: absolute;
-  align-self: center;
   align-items: center;
-  top: 42px;
+  margin-top: -3px;
   overflow: scroll;
 `;
 

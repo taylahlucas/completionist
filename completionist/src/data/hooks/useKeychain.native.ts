@@ -24,7 +24,12 @@ const useKeychain = (): KeychainReturnTypes => {
   const getCredentials = async (): Promise<Keychain.UserCredentials | null> => {
     try {
       const credentials = await Keychain.getGenericPassword();
-      return credentials && credentials?.password !== '1' ? credentials : null;
+      if (credentials && credentials?.password !== '1') {
+        return credentials;
+      } else {
+        console.log('No credentials found');
+        return null;
+      }
     } catch (error) {
       console.error('Error retrieving credentials:', error);
       return null;

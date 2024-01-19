@@ -1,5 +1,5 @@
 import { Dimensions } from 'react-native';
-import { DEFAULT_BORDER_RADIUS } from '@styles/global.native';
+import { DEFAULT_BORDER_RADIUS } from '@styles/global';
 import styled from 'styled-components/native';
 
 interface StyledButtonProps {
