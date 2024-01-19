@@ -14,7 +14,7 @@ const PORT = process.env.PORT || 4002;
 const app = express();
 
 mongoose.connect(process.env.MONGO_URL)
-  .then(() => console.log("DB connected"))
+  .then(() => console.log("DB Connected"))
   .catch((err) => console.log("DB connection error: ", err))
 
 // Passport Configuration -- is this section used?
@@ -23,23 +23,23 @@ passport.use(new GoogleStrategy({
   clientID: process.env.GOOGLE_CLIENT_WEB_ID,
   clientSecret: process.env.GOOGLE_CLIENT_SECRET
 },
-(accessToken, refreshToken, profile, done) => {
-  User.findOne({ googleId: profile.id }, (err, user) => {
-    if (err) return done(err);
-    if (!user) {
-      const newUser = new User({
-        googleId: profile.id,
-        displayName: profile.displayName,
-      });
-      newUser.save((saveErr) => {
-        if (saveErr) return done(saveErr);
-        return done(null, newUser);
-      });
-    } else {
-      return done(null, user);
-    }
-  });
-}));
+  (accessToken, refreshToken, profile, done) => {
+    User.findOne({ googleId: profile.id }, (err, user) => {
+      if (err) return done(err);
+      if (!user) {
+        const newUser = new User({
+          googleId: profile.id,
+          displayName: profile.displayName,
+        });
+        newUser.save((saveErr) => {
+          if (saveErr) return done(saveErr);
+          return done(null, newUser);
+        });
+      } else {
+        return done(null, user);
+      }
+    });
+  }));
 
 passport.serializeUser((user, done) => {
   done(null, user.id);

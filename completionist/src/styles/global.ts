@@ -1,1 +1,0 @@
-export const DEFAULT_BORDER_RADIUS = 5;

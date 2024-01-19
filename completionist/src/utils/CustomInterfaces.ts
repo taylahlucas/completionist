@@ -1,4 +1,4 @@
-import { ScreenEnum, SubscriptionTypeEnum } from './CustomEnums';
+import { ScreenEnum, SettingsOptionEnum, SubscriptionTypeEnum } from './CustomEnums';
 import { NavigationAction, NavigationState } from '@react-navigation/native';
 import { MainState } from '@redux/MainState';
 import { SettingsState } from '@components/custom/SettingsContent/SettingsState';
@@ -7,15 +7,6 @@ import { MiscState } from '@components/custom/MiscList/MiscState';
 import { CollectableState } from '@components/custom/CollectableList/CollectableState';
 import { LocationState } from '@components/custom/LocationList/LocationState';
 import { QuestState } from '@components/custom/QuestList/QuestState';
-
-export interface LoginFormData {
-  userId: string;
-  name: string;
-  email: string;
-  password?: string;
-  userAvatar?: string;
-  subscription: Subscription[];
-}
 
 export interface Quest {
   id: string;
@@ -115,6 +106,15 @@ export interface NativeNavigation {
 
 // Data Interfaces
 
+export interface LoginFormData {
+  userId: string;
+  name: string;
+  email: string;
+  password?: string;
+  userAvatar?: string;
+}
+
+
 export interface CachedData {
   data: any;
   timestamp: number;
@@ -125,9 +125,25 @@ export interface Item {
   isComplete: boolean;
 }
 
+export interface SettingsOptionItem {
+  id: SettingsOptionEnum;
+  isActive: boolean;
+}
+
 export interface SettingsConfigItem {
   section: string;
   category: string;
+  isActive: boolean;
+}
+
+export interface SettingsListItem {
+  id: string;
+  title: string;
+  isActive: boolean;
+}
+
+export interface Subscription {
+  id: SubscriptionTypeEnum;
   isActive: boolean;
 }
 
@@ -144,11 +160,8 @@ export interface UserData {
   fallout4: GeneralData;
 }
 
-export interface Subscription {
-  id: SubscriptionTypeEnum;
-  isActive: boolean;
-}
-
 export interface User extends LoginFormData {
+  subscription: Subscription[];
+  settings: SettingsOptionItem[];
   data: UserData;
 }

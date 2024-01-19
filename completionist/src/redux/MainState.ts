@@ -1,5 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit';
-import { ScreenEnum, SubscriptionTypeEnum } from '@utils/CustomEnums';
+import { ScreenEnum, SettingsOptionEnum, SubscriptionTypeEnum } from '@utils/CustomEnums';
 import { GeneralData, SettingsConfigItem, User } from '@utils/CustomInterfaces';
 import { AppStateStatus } from 'react-native';
 import { initialFormData } from '@components/custom/LoginForm/LoginState';
@@ -14,6 +14,8 @@ export const initialGameData: GeneralData = {
 
 export const initialUser: User = {
   ...initialFormData,
+  subscription: [],
+  settings: [],
   data: {
     skyrim: initialGameData,
     fallout4: initialGameData

@@ -1,9 +1,9 @@
 import { Alert, Platform } from 'react-native';
+import uuid from 'react-native-uuid';
 import axios, { AxiosError } from 'axios';
-import { GeneralData, User, LoginFormData, Subscription } from '@utils/CustomInterfaces';
+import { GeneralData, User, LoginFormData, Subscription, SettingsOptionItem } from '@utils/CustomInterfaces';
 import { UserResponse } from '@utils/CustomTypes';
 import { signupUrl, signinUrl, getUserByUserIdUrl, updateUserDataUrl, sendEmailUrl } from '../urls';
-import uuid from 'react-native-uuid';
 import { requestCodes } from '@utils/constants';
 
 interface CreateUserProps {
@@ -22,6 +22,7 @@ interface GetUserByUserIdProps {
 interface UpdateUserDataProps {
   userId: string;
   subscription: Subscription[];
+  settings: SettingsOptionItem[];
   skyrimData: GeneralData;
   fallout4Data: GeneralData;
 }
@@ -36,7 +37,7 @@ interface EndpointsReturnType {
   signIn: ({ email, password }: SignInProps) => Promise<UserResponse>;
   signUp: ({ data }: CreateUserProps) => Promise<UserResponse>;
   getUserByUserId: ({ userId }: GetUserByUserIdProps) => Promise<UserResponse>;
-  updateUserData: ({ userId, subscription, skyrimData, fallout4Data }: UpdateUserDataProps) => Promise<void>;
+  updateUserData: ({ userId, subscription, settings, skyrimData, fallout4Data }: UpdateUserDataProps) => Promise<void>;
   sendEmail: ({ from, subject, text }: EmailProps) => Promise<void>;
 }
 
@@ -105,10 +106,11 @@ const useEndpoints = (): EndpointsReturnType => {
       });
   };
 
-  const updateUserData = async ({ userId, subscription, skyrimData, fallout4Data }: UpdateUserDataProps): Promise<void> => {
+  const updateUserData = async ({ userId, subscription, settings, skyrimData, fallout4Data }: UpdateUserDataProps): Promise<void> => {
     await axios.post(`${url}/${updateUserDataUrl}`, {
       userId: userId,
       subscription: subscription,
+      settings: settings,
       skyrimData: skyrimData,
       fallout4Data: fallout4Data
     })
