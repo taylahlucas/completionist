@@ -107,6 +107,7 @@ const useEndpoints = (): EndpointsReturnType => {
   };
 
   const updateUserData = async ({ userId, subscription, settings, skyrimData, fallout4Data }: UpdateUserDataProps): Promise<void> => {
+    console.log("skyrimData: ", skyrimData.settingsConfig)
     await axios.post(`${url}/${updateUserDataUrl}`, {
       userId: userId,
       subscription: subscription,

@@ -10,7 +10,7 @@ const useInitUserData = () => {
   const { setAppState } = useMainDispatch();
   const { user, appState } = useMainState();
   const { isLoggedIn } = useLoginState();
-  const { loadUserData, saveUserData, updateUser } = useSaveUserData();
+  const { loadUserData, updateUser } = useSaveUserData();
 
   useEffect(() => {
     if (!isLoggedIn && !user.userId) {

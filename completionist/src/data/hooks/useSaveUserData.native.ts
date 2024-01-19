@@ -8,6 +8,7 @@ import { initialFormData } from '@components/custom/LoginForm/LoginState';
 import { CredentialsResponse } from '@utils/CustomTypes';
 import useLoginDispatch from '@components/custom/LoginForm/hooks/useLoginDispatch';
 import useEndpoints from './useEndpoints';
+import { useRoute } from '@react-navigation/native';
 
 interface SaveUserDataReturnType {
   loadUserData: () => void;
@@ -46,6 +47,7 @@ const useSaveUserData = (): SaveUserDataReturnType => {
   };
 
   const updateUser = (user: User) => {
+    console.log("SAVING USER: ", user.data.skyrim.settingsConfig)
     saveUserData(user);
     updateUserData({
       userId: user.userId,
