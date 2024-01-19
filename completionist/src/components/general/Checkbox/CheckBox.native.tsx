@@ -1,24 +1,52 @@
-import React from 'react';
-import IconButton from '@components/general/Icon/IconButton.native';
-import { IconTypeEnum } from '@utils/CustomEnums';
+import React, { useState, useRef, useEffect } from 'react';
+import LottieView from 'lottie-react-native';
 import useGetTheme from '@styles/hooks/useGetTheme';
+import { IconTypeEnum } from '@utils/CustomEnums';
+import Icon from '../Icon/Icon.native';
+import { StyledCheckBox, StyledAnimation } from './CheckBoxStyledComponents.native';
+import Condition from '../Condition.native';
 
 interface CheckBoxProps {
-  isActive: boolean;
-  onPress: () => void;
+  isToggled: boolean;
+  action: () => void;
 }
 
-const CheckBox = ({ isActive, onPress }: CheckBoxProps) => {
+const CheckBox = ({ isToggled, action }: CheckBoxProps) => {
   const theme = useGetTheme();
+  const [trigger, setTrigger] = useState(false);
+  const animationRef = useRef<LottieView>(null);
+
+  useEffect(() => {
+    if (trigger) {
+      animationRef?.current?.play();
+    }
+  }, [trigger]);
 
   return (
-    <IconButton
-      name={isActive ? 'checkbox-outline' : 'square-outline'}
-      type={IconTypeEnum.Ionicons}
-      color={theme.lightGrey}
-      size={22}
-      onPress={onPress}
-    />
+    <StyledCheckBox onPress={() => {
+      setTrigger(!isToggled);
+      action();
+    }}>
+      <Condition
+        condition={isToggled}
+        conditionalElement={
+          <Icon
+            name={'circle-thin'}
+            type={IconTypeEnum.FontAwesome}
+            size={33}
+            color={theme.lightGrey}
+          />
+        }
+      >
+        <StyledAnimation
+          ref={animationRef}
+          source={require('../../../styles/animations/tick.json')}
+          progress={trigger ? 0 : 1}
+          loop={false}
+          onAnimationFinish={() => animationRef?.current?.render()}
+        />
+      </Condition>
+    </StyledCheckBox>
   );
 };
 

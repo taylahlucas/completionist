@@ -37,6 +37,7 @@ const NavigationDrawerItem = ({ item, isActive }: NavigationDrawerItemProps) => 
       </NavigationDrawerTitle>
       <NavigationHeaderSubTitle 
         color={isActive ? theme.lightGrey : theme.midGrey} 
+        type={'ListItemSubTitle'} 
         align={'right'}
       >
         {item.subTitle}

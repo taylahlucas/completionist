@@ -1,6 +1,5 @@
 import React from 'react';
-import { View, LayoutAnimation } from 'react-native';
-import { LARGE_WIDTH } from '@styles/global.native';
+import { Dimensions, View, LayoutAnimation } from 'react-native';
 import Condition from '../Condition.native';
 import { DropdownPressable } from './DropdownStyledComponents.native';
 
@@ -19,7 +18,7 @@ const Dropdown = ({ header, children, isOpen, setOpen, enabled = true }: Dropdow
   }
 
   return (
-    <View style={{ minWidth: LARGE_WIDTH, marginTop: 4, marginBottom: 4 }}>
+    <View style={{ minWidth: Dimensions.get('window').width - 32, marginTop: 4, marginBottom: 4 }}>
       <DropdownPressable 
         enabled={enabled}
         disabled={!enabled}

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Condition from '@components/general/Condition.native';
 import useMainState from '@redux/hooks/useMainState';
 import Home from './Home.native';
@@ -13,6 +13,7 @@ const RootStackNavigator = () => {
   const { showSplashScreen, user } = useMainState();
 
   usePlaySplashScreen();
+    // TODO: Debug here check commenting out settings hook
   useInitUserData();
 
   return (

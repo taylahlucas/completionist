@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import useGetTheme from '@styles/hooks/useGetTheme';
 import { RequestGameContainer } from './RequestGameContentStyledComponents.native';
 import StyledText from '@components/general/Text/StyledText.native';
 import useEndpoints from '@data/hooks/useEndpoints';
@@ -12,6 +13,7 @@ interface RequestFormData {
 }
 
 const RequestGameContent = () => {
+  const theme = useGetTheme();
   const { user } = useMainState();
   const { sendEmail } = useEndpoints();
   const [formData, setFormData] = useState<RequestFormData>({
@@ -31,7 +33,7 @@ const RequestGameContent = () => {
   return (
     <>
       <RequestGameContainer>
-        <StyledText>Feel free to request a game, report a bug or make some suggestions to improve the app!</StyledText>
+        <StyledText type={'ListItemSubTitle'}>Feel free to request a game, report a bug or make some suggestions to improve the app!</StyledText>
       </RequestGameContainer>
       <TextInput
         placeholder={'Subject'}

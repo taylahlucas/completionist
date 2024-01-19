@@ -1,7 +1,7 @@
 import { Dimensions } from 'react-native';
 import styled from 'styled-components/native';
 import StyledText from '@components/general/Text/StyledText.native';
-import { DEFAULT_BORDER_RADIUS } from '@styles/global.native';
+import { DEFAULT_BORDER_RADIUS } from '@styles/global';
 
 interface CollectableListItemStyleProps {
   color: string;

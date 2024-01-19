@@ -29,7 +29,7 @@ const SettingsContentSelectionDropdown = () => {
     >
       <DropdownSelectionContent
         content={games}
-        onPress={(value): void => {
+        onPress={(value) => {
           triggerSelectionOpen(false);
           setSelectedGameSettings(value as SubscriptionTypeEnum);
         }}

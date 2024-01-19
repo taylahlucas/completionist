@@ -13,7 +13,7 @@ interface StyledTextProps extends TextProps {
 
 const StyledText: React.FunctionComponent<StyledTextProps> = ({ 
   children, 
-  type = 'ListItemSubTitle',
+  type = 'Heading', 
   color,
   style,
   align = 'center',

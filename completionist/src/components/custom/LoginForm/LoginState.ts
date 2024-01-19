@@ -1,5 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit';
-import { SettingsOptionEnum, SubscriptionTypeEnum } from '@utils/CustomEnums';
+import { SubscriptionTypeEnum } from '@utils/CustomEnums';
 import { LoginFormData } from '@utils/CustomInterfaces';
 
 export interface LoginState {
@@ -12,7 +12,17 @@ export const initialFormData: LoginFormData = {
   userId: '',
   name: '',
   email: '',
-  userAvatar: ''
+  userAvatar: '',
+  subscription: [
+    {
+      id: SubscriptionTypeEnum.SKYRIM,
+      isActive: true
+    },
+    {
+      id: SubscriptionTypeEnum.FALLOUT_4,
+      isActive: true
+    }
+  ]
 }
 
 export const initialState: LoginState = {
