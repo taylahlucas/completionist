@@ -6,7 +6,8 @@ import SettingsConfigItemDropdown from './SettingsContentItemDropdown.native';
 
 const SettingsContentCollectionList = () => {
   const { getUserSettingsMainConfig } = useGetUserGameData();
-  console.log("TESTING: ", getUserSettingsMainConfig())
+
+  // TODO: Not showing the correct options
   return (
     <SettingsContentDropdownContainer>
       {getUserSettingsMainConfig().map((item: SettingsConfigItem, index: number) => (

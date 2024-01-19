@@ -8,7 +8,7 @@ import { style, SettingsContentSubItemContainer, SettingsContentScrollView } fro
 import useGetTheme from '@styles/hooks/useGetTheme';
 import useSettingsState from './hooks/useSettingsState';
 import useSettingsDispatch from './hooks/useSettingsDispatch';
-// import SettingsContentCheckBox from './SettingsContentCheckBox.native';
+import SettingsContentCheckBox from './SettingsContentCheckbox.native';
 
 interface SettingsContentItemDropdownProps {
   item: SettingsConfigItem;
@@ -35,7 +35,7 @@ const SettingsContentItemDropdown = ({ item }: SettingsContentItemDropdownProps)
             <StyledText color={theme.lightGrey} align={'left'}>
               {item.category === 'None' ? 'Main' : item.category}
             </StyledText>
-            {/* <SettingsContentCheckBox item={item} /> */}
+            <SettingsContentCheckBox item={item} />
           </SettingsContentSubItemContainer>
         ))}
       </SettingsContentScrollView>
