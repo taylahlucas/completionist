@@ -6,7 +6,7 @@ import config from '@utils/config';
 const useInitializeApp = () => {
   const initializeApp = async () => {
     GoogleSignin.configure({
-      webClientId: config.googleClientId
+      webClientId: config.webClientId
     });
     const store = configureStore;
 

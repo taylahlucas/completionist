@@ -1,7 +1,7 @@
 import { StyleSheet, Dimensions } from 'react-native';
 import Icon from '@components/general/Icon/Icon.native';
 import StyledText from '@components/general/Text/StyledText.native';
-import { DEFAULT_BORDER_RADIUS } from '@styles/global';
+import { DEFAULT_BORDER_RADIUS } from '@styles/global.native';
 import styled from 'styled-components/native';
 
 export const styles = StyleSheet.create({

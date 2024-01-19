@@ -19,9 +19,9 @@ const useInitSettingsConfig = () => {
     { game: SubscriptionTypeEnum.SKYRIM, config: user.data?.skyrim.settingsConfig },
     { game: SubscriptionTypeEnum.FALLOUT_4, config: user.data?.fallout4.settingsConfig },
   ];
-  const { saveUserData } = useSaveUserData();
+  const { saveUserData, updateUser } = useSaveUserData();
 
-  useEffect(() => {    
+  useEffect(() => {   
     settingsData.map((settings) => {
       const configs: SettingsConfigItem[] = [...settings.config];
 
@@ -41,6 +41,15 @@ const useInitSettingsConfig = () => {
             categories = getMiscItemCategories(settings.game);
             break;
         }
+        
+        if (!settings.config.find(config => config.section === section && config.category === "")) {
+          configs.push({
+            section: section,
+            category: "",
+            isActive: true
+          });
+        }
+
         categories.map(category => {
           if (!settings.config.find(config => category === config.category && section === config.section)) {
             configs.push({
@@ -51,7 +60,6 @@ const useInitSettingsConfig = () => {
           }
         });
       });
-
       if (configs !== settings.config) {
         switch (settings.game) {
           case SubscriptionTypeEnum.SKYRIM:
@@ -81,6 +89,8 @@ const useInitSettingsConfig = () => {
         }
       }
     });
+
+    updateUser(user);
   }, []);
 };
 

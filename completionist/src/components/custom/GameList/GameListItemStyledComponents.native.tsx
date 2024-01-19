@@ -1,6 +1,6 @@
 import { StyleSheet } from 'react-native';
 import styled from 'styled-components/native';
-import { DEFAULT_BORDER_RADIUS } from '@styles/global';
+import { DEFAULT_BORDER_RADIUS } from '@styles/global.native';
 import StyledText from '@components/general/Text/StyledText.native';
 
 export const styles = StyleSheet.create({

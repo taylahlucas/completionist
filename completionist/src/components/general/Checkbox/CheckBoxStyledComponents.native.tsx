@@ -1,7 +1,7 @@
 import styled from 'styled-components/native';
 import LottieView from 'lottie-react-native';
 
-export const StyledCheckBox = styled.Pressable`
+export const StyledAnimatedCheckBox = styled.Pressable`
   margin-right: 16px;
 `;
 

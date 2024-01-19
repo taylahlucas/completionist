@@ -29,7 +29,6 @@ const Button = ({ title, type = 'default', onPress, style, disabled = false }: B
             style={{
               textDecorationLine: 'underline'
             }}
-            type={'ListItemSubTitle'}
           >
             {title}
           </StyledText>
@@ -43,7 +42,7 @@ const Button = ({ title, type = 'default', onPress, style, disabled = false }: B
           color={theme.darkGrey} 
           disabled={disabled}
         >
-          <StyledText>{title}</StyledText>
+          <StyledText type={'Heading'}>{title}</StyledText>
         </StyledButtonDefault>
       );
   }

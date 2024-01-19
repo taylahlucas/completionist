@@ -2,10 +2,9 @@ import { GoogleSignin } from '@react-native-google-signin/google-signin';
 import auth from '@react-native-firebase/auth';
 import useSaveUserData from '@data/hooks/useSaveUserData.native';
 import useEndpoints from '@data/hooks/useEndpoints';
-import { UserResponse } from '@utils/CustomTypes';
+import { AxiosErrorResponse } from '@utils/CustomTypes';
 import useLoginDispatch from './useLoginDispatch';
 import useLoginState from './useLoginState';
-import { AxiosError } from 'axios';
 import useKeychain from '@data/hooks/useKeychain.native';
 
 interface GoogleSignInError {
@@ -28,31 +27,31 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
   const { signIn, signUp } = useEndpoints();
 
   const userSignIn = async () => {
-    await signIn({ email: loginFormData.email, password: loginFormData.password ?? '' })
-      .then((response: UserResponse) => {
-        if (!!response) {
-          saveUserData(response);
-        }
-      })
-      .catch((error: AxiosError) => {
-        console.log("Error signing in: ", error.message)
-      });
+    try {
+      const response = await signIn({ email: loginFormData.email, password: loginFormData.password ?? '' });
+      if (!!response) {
+        saveUserData(response);
+      }
+    }
+    catch (error: AxiosErrorResponse) {
+      console.log("Error signing in: ", error.message)
+    }
   }
 
   const createUser = async () => {
-    await signUp({ data: loginFormData })
-      .then((response: UserResponse) => {
-        if (!!response) {
-          storeCredentials({
-            username: response.name,
-            password: response.userId ?? loginFormData.password ?? ''
-          });
-          saveUserData(response);
-        }
-      })
-      .catch((error: AxiosError) => {
-        console.log("Error creating user: ", error.message)
-      });
+    try {
+      const response = await signUp({ data: loginFormData });
+      if (!!response) {
+        storeCredentials({
+          username: response.name,
+          password: response.userId ?? loginFormData.password ?? ''
+        });
+        saveUserData(response);
+      }
+    }
+    catch (error: AxiosErrorResponse) {
+      console.log("Error creating user: ", error.message)
+    }
   };
 
   const googleSignIn = async () => {
