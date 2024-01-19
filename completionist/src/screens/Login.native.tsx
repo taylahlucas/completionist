@@ -6,7 +6,7 @@ import NavigationHeader from '@navigation/NavigationHeader.native';
 
 const Login = () => {
   useCreateOrGetUser();
-  // TODO: Change NavigationHeader to thicker title
+  
   return (
     <StandardLayout>
       <NavigationHeader title={'Completionist.'} leftAction={'none'} />

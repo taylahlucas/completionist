@@ -52,9 +52,10 @@ const useEndpoints = (): EndpointsReturnType => {
     )
     .then(response => !!response.data.user && response.data.user as User ? response.data.user : null)
     .catch((error: AxiosError) => {
+      console.log("error: ", error.request)
       switch (error.request.status) {
         case requestCodes.NO_USER_FOUND:
-          Alert.alert('Error', 'Email already exists.');
+          console.log('User not found.')
           return;
         case requestCodes.WRONG_PASSWORD:
           Alert.alert('Error', 'Incorrect password. Please try again.');
@@ -73,8 +74,7 @@ const useEndpoints = (): EndpointsReturnType => {
         name: data.name,
         email: data.email,
         password: data.password ?? '',
-        userAvatar: data.userAvatar,
-        subscription: data.subscription
+        userAvatar: data.userAvatar
       }
     )
     .then(response => !!response.data.user && response.data.user as User ? response.data.user : null)
@@ -96,7 +96,7 @@ const useEndpoints = (): EndpointsReturnType => {
       .catch((error: AxiosError) => {
         switch (error.request.status) {
           case requestCodes.NOT_FOUND:
-            Alert.alert('Error', 'User not found. Please refresh the app');
+            console.log("User not found")
             return;
           default: 
             Alert.alert('Error', 'Internal server error. Please refresh the app');
