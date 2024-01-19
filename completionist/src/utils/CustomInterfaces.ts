@@ -126,7 +126,7 @@ export interface Item {
 }
 
 export interface SettingsOptionItem {
-  type: SettingsOptionEnum;
+  id: SettingsOptionEnum;
   isActive: boolean;
 }
 
@@ -142,6 +142,11 @@ export interface SettingsListItem {
   isActive: boolean;
 }
 
+export interface Subscription {
+  id: SubscriptionTypeEnum;
+  isActive: boolean;
+}
+
 export interface GeneralData {
   quests: Item[];
   collectables: Item[];
@@ -153,11 +158,6 @@ export interface GeneralData {
 export interface UserData {
   skyrim: GeneralData;
   fallout4: GeneralData;
-}
-
-export interface Subscription {
-  id: SubscriptionTypeEnum;
-  isActive: boolean;
 }
 
 export interface User extends LoginFormData {

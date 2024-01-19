@@ -1,3 +1,4 @@
+import { AxiosError } from 'axios';
 import { UserCredentials } from 'react-native-keychain';
 import { User } from './CustomInterfaces';
 
@@ -22,15 +23,13 @@ export type FontAwesomeType =
   | 'check-circle';
 
 export type IconType = MaterialIconsType | IoniconType | FontAwesomeType;
-
 export type ButtonType = 'default' | 'text';
-
-export type UserResponse = User | null;
-
-export type CredentialsResponse = UserCredentials | null;
+export type TextInputStyleType = 'default' | 'text';
 
 export type NavigationHeaderLeftActionTypes = 'back' | 'menu' | 'none';
-
 export type NavigationHeaderRightActionTypes = 'logout' | 'filter' | 'none';
 
-export type TextInputStyleType = 'default' | 'text';
+
+export type UserResponse = User | null;
+export type CredentialsResponse = UserCredentials | null;
+export type AxiosErrorResponse = AxiosError | any;

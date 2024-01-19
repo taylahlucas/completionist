@@ -14,7 +14,6 @@ const SettingsContent = () => {
   return (
     <ScrollableList>
       <SettingsGameSelectionContent />
-
       <SettingsContentDescription
         type={'ListItemSubTitle'}
         align={'left'}

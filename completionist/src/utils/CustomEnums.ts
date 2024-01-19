@@ -24,6 +24,6 @@ export enum SubscriptionTypeEnum {
 }
 
 export enum SettingsOptionEnum {
-  COMPLETED_ITEMS,
-  DISABLED_SECTIONS
+  COMPLETED_ITEMS = 'Completed Items',
+  DISABLED_SECTIONS = 'Disabled Sections'
 }

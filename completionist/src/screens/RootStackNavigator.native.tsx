@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import Condition from '@components/general/Condition.native';
 import useMainState from '@redux/hooks/useMainState';
 import Home from './Home.native';

@@ -5,10 +5,10 @@ import { SettingsConfigItem } from '@utils/CustomInterfaces';
 import SettingsContentMainHeader from './SettingsContentMainHeader.native';
 import useGetUserGameData from '@data/hooks/useGetUserGameData.native';
 import { style, SettingsContentSubItemContainer, SettingsContentScrollView } from './SettingsContentStyledComponents.native';
-import SettingsContentCheckBox from './SettingsContentCheckBox.native';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import useSettingsState from './hooks/useSettingsState';
 import useSettingsDispatch from './hooks/useSettingsDispatch';
+// import SettingsContentCheckBox from './SettingsContentCheckBox.native';
 
 interface SettingsContentItemDropdownProps {
   item: SettingsConfigItem;
@@ -35,7 +35,7 @@ const SettingsContentItemDropdown = ({ item }: SettingsContentItemDropdownProps)
             <StyledText color={theme.lightGrey} align={'left'}>
               {item.category === 'None' ? 'Main' : item.category}
             </StyledText>
-            <SettingsContentCheckBox item={item} />
+            {/* <SettingsContentCheckBox item={item} /> */}
           </SettingsContentSubItemContainer>
         ))}
       </SettingsContentScrollView>

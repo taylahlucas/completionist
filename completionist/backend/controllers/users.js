@@ -39,7 +39,7 @@ const updateUserData = async (req, res) => {
   }
   catch(error) {
     console.log("Error updating data: ", error.message)
-    return res.status(error.status).json(error.message);
+    res.status(error.status).json(error.message);
   }
 };
 

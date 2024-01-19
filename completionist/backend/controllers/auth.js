@@ -13,8 +13,7 @@ const signup = async (req, res) => {
       name,
       email,
       password,
-      userAvatar,
-      subscription
+      userAvatar
      } = req.body;
     if (!userId) {
       return res.json({
@@ -39,8 +38,7 @@ const signup = async (req, res) => {
         name,
         email,
         password: hashedPassword,
-        userAvatar,
-        subscription
+        userAvatar
       }).save();
       // Create signed token
       const token = jwt.sign({ _id: new mongoose.Types.ObjectId() }, process.env.JWT_SECRET, {

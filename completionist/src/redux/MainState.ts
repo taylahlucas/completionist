@@ -14,26 +14,8 @@ export const initialGameData: GeneralData = {
 
 export const initialUser: User = {
   ...initialFormData,
-  subscription: [
-    {
-      id: SubscriptionTypeEnum.SKYRIM,
-      isActive: true
-    },
-    {
-      id: SubscriptionTypeEnum.FALLOUT_4,
-      isActive: true
-    }
-  ],
-  settings: [
-    {
-      type: SettingsOptionEnum.COMPLETED_ITEMS,
-      isActive: true
-    },
-    {
-      type: SettingsOptionEnum.DISABLED_SECTIONS,
-      isActive: true
-    },
-  ],
+  subscription: [],
+  settings: [],
   data: {
     skyrim: initialGameData,
     fallout4: initialGameData

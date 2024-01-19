@@ -18,12 +18,12 @@ const userSchema = new mongoose.Schema({
   },
   settings: {
     type: [{
-      type: String,
+      id: String,
       isActive: Boolean,
     }],
     default: [
-      { type: 'COMPLETED_ITEMS', isActive: true },
-      { type: 'DISABLED_SECTIONS', isActive: true }
+      { id: 'Completed Items', isActive: true },
+      { id: 'Disabled Sections', isActive: true }
     ]
   },
   data: {

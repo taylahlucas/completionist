@@ -1,9 +1,9 @@
 import { Alert, Platform } from 'react-native';
+import uuid from 'react-native-uuid';
 import axios, { AxiosError } from 'axios';
 import { GeneralData, User, LoginFormData, Subscription, SettingsOptionItem } from '@utils/CustomInterfaces';
 import { UserResponse } from '@utils/CustomTypes';
 import { signupUrl, signinUrl, getUserByUserIdUrl, updateUserDataUrl, sendEmailUrl } from '../urls';
-import uuid from 'react-native-uuid';
 import { requestCodes } from '@utils/constants';
 
 interface CreateUserProps {
@@ -96,7 +96,6 @@ const useEndpoints = (): EndpointsReturnType => {
       .catch((error: AxiosError) => {
         switch (error.request.status) {
           case requestCodes.NOT_FOUND:
-            Alert.alert('Error', 'User not found. Please refresh the app');
             return;
           default: 
             Alert.alert('Error', 'Internal server error. Please refresh the app');
