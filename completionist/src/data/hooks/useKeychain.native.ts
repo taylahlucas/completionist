@@ -16,7 +16,6 @@ const useKeychain = (): KeychainReturnTypes => {
     if (!!username && !!password) {
       try {
         await Keychain.setGenericPassword(username, password, {});
-        console.log('Credentials stored successfully');
       } catch (error) {
         console.error('Error storing credentials:', error);
       }
@@ -36,7 +35,6 @@ const useKeychain = (): KeychainReturnTypes => {
   const deleteCredentials = async (): Promise<void> => {
     try {
       await Keychain.resetGenericPassword();
-      console.log('Credentials deleted successfully');
     } catch (error) {
       console.error('Error deleting credentials:', error);
     }

@@ -47,8 +47,6 @@ const useEndpoints = (): EndpointsReturnType => {
   const { getCredentials, storeCredentials } = useKeychain();
 
   const signIn = async ({ email, password }: SignInProps): Promise<UserResponse> => {
-    console.log("signIn");
-    console.log("\n")
     try {
       const token = getCredentials();
       const response = await axios.post(`${url}/${signinUrl}`,
@@ -62,10 +60,16 @@ const useEndpoints = (): EndpointsReturnType => {
           }
         }
       )
-      return !!response.data.user && response.data.user as User ? response.data.user : null;
+      if (!!response.data.user.userId && !!response.data.token) {
+        storeCredentials({
+          username: response.data.user.userId,
+          password: response.data.token
+        });
+        return response.data.user as User;
+      }
+      return null;
     }
     catch (error: AxiosErrorResponse) {
-      console.log("error: ", error.request.status)
       switch (error.request.status) {
         case requestCodes.WRONG_PASSWORD:
           Alert.alert('Error', 'Incorrect password. Please try again.');
@@ -78,8 +82,6 @@ const useEndpoints = (): EndpointsReturnType => {
   };
 
   const signUp = async ({ data }: CreateUserProps): Promise<UserResponse> => {
-    console.log("signUp");
-    console.log("\n")
     try {
       const response = await axios.post(`${url}/${signupUrl}`,
         {
@@ -95,8 +97,9 @@ const useEndpoints = (): EndpointsReturnType => {
           username: data.userId,
           password: response.data.token
         });
+        return response.data.user as User;
       }
-      return response.data.user as User;
+      return null;
     }
     catch (error: AxiosErrorResponse) {
       switch (error.request.status) {
@@ -111,8 +114,6 @@ const useEndpoints = (): EndpointsReturnType => {
   }
 
   const getUserByUserId = async ({ userId }: GetUserByUserIdProps): Promise<UserResponse> => {
-    console.log("getUserByUserId");
-    console.log("\n")
     try {
       const token = getCredentials();
       if (!!token) {
@@ -142,8 +143,6 @@ const useEndpoints = (): EndpointsReturnType => {
   };
 
   const updateUserData = async ({ userId, subscription, settings, skyrimData, fallout4Data }: UpdateUserDataProps): Promise<void> => {
-    console.log("updateUserData");
-    console.log("\n")
     try {
       const token = getCredentials();
       await axios.post(
@@ -169,8 +168,6 @@ const useEndpoints = (): EndpointsReturnType => {
   };
 
   const sendEmail = async ({ from, subject, text }: EmailProps): Promise<void> => {
-    console.log("sendEmail");
-    console.log("\n")
     try {
       const token = getCredentials();
       await axios.post(

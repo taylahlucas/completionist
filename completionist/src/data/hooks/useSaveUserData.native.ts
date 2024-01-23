@@ -28,8 +28,6 @@ const useSaveUserData = (): SaveUserDataReturnType => {
     getCredentials()
       .then((credentials: CredentialsResponse) => {
         if (!!credentials?.password) {
-          console.log("loadUserData Fetching data from cache")
-          console.log('\n')
           fetchDataFromCache(credentials.password)
             .then(cachedData => {
               if (!!cachedData) {

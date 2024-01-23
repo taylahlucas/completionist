@@ -16,7 +16,7 @@ interface GetLoginMethodsReturnType {
   userSignIn: () => Promise<void>
   createUser: () => Promise<void>;
   googleSignIn: () => Promise<void>;
-  googleSignOut: () => Promise<void>;
+  signOut: () => Promise<void>;
 }
 
 const useGetLoginMethods = (): GetLoginMethodsReturnType => {
@@ -27,10 +27,8 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 
   const createUser = async () => {
     try {
-      console.log("LOGIN FORM DATA: ", loginFormData)
       const response = await signUp({ data: loginFormData });
       if (!!response) {
-        console.log("createUser successful")
         saveUserAndLogin(response);
       }
     }
@@ -96,20 +94,17 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
     }
   }
 
-  const googleSignOut = async () => {
+  const signOut = async () => {
     try {
       await GoogleSignin.revokeAccess();
       await GoogleSignin.signOut();
       removeUserData();
     } catch (error) {
-      console.error("Error signing out: ", error);
       removeUserData();
     }
   };
-  
-  // TODO: Regular sign out
 
-  return { userSignIn, createUser, googleSignIn, googleSignOut }
+  return { userSignIn, createUser, googleSignIn, signOut }
 };
 
 export default useGetLoginMethods;

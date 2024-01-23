@@ -20,7 +20,7 @@ const NavigationDrawerBody: React.FunctionComponent = () => {
   const { currentScreen } = useMainState();
   const drawerItems = useGetNavigationDrawerItems();
   const footerItems = useGetNavigationFooterDrawerItems();
-  const { googleSignOut } = useGetLoginMethods();
+  const { signOut } = useGetLoginMethods();
 
   return (
     <NavigationDrawerBodyContainer>
@@ -39,7 +39,7 @@ const NavigationDrawerBody: React.FunctionComponent = () => {
             </NavigationDrawerTitle>
           </Pressable>
         ))}
-        <Pressable onPress={googleSignOut}>
+        <Pressable onPress={signOut}>
           <NavigationDrawerTitle
             type={'ListItemTitle'}
             color={currentScreen === ScreenEnum.Login ? theme.lightGrey : theme.midGrey}

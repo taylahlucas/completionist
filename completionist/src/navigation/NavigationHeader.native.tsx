@@ -21,7 +21,7 @@ interface NavigationHeaderProps {
 const NavigationHeader = ({ title, leftAction = 'menu', rightAction = 'none' }: NavigationHeaderProps) => {
   const theme = useGetTheme();
   const leftItem = useGetLeftNavigationItem(leftAction);
-  const { googleSignOut } = useGetLoginMethods();
+  const { signOut } = useGetLoginMethods();
 
   return (
     <NavigationHeaderContainer>
@@ -38,7 +38,7 @@ const NavigationHeader = ({ title, leftAction = 'menu', rightAction = 'none' }: 
           name={'logout'}
           color={theme.lightGrey}
           size={30}
-          onPress={googleSignOut}
+          onPress={signOut}
         />
       </Condition>
     </NavigationHeaderContainer>

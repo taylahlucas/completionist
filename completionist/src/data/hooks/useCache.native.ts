@@ -79,7 +79,7 @@ const useCache = (): CacheReturnType => {
         return null;
       }
     } catch (error) {
-      console.error('Error fetching data:', error);
+      console.error('Error fetching data: ', error);
       return null;
     }
   };
@@ -89,9 +89,8 @@ const useCache = (): CacheReturnType => {
     if (!!cachedData) {
       try {
         await AsyncStorage.clear();
-        console.log('Cache cleared successfully');
       } catch (error) {
-        console.error('Could not clear cache');
+        console.error('Could not clear cache: ', error);
         return;
       }
     }
