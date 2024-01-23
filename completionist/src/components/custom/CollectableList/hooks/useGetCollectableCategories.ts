@@ -1,30 +1,31 @@
-import useGetGameData from '@data/hooks/useGetGameData.native';
+import useGetGameData from '@data/hooks/useGetGameData';
+import useGetSettingsConfig from '@data/hooks/useGetSettingsConfig';
+import useMainState from '@redux/hooks/useMainState';
 import { SubscriptionTypeEnum } from '@utils/CustomEnums';
 
 interface GameDataReturnType {
-  getCollectableCategories: (selectedGame?: SubscriptionTypeEnum) => string[];
+  getCollectableCategories: () => string[];
   getCollectableSubCategories: (category: string, selectedGame?: SubscriptionTypeEnum) => string[];
   getCollectableSubCategoriesTypes: (subCategory: string, selectedGame?: SubscriptionTypeEnum) => string[];
 }
 
 const useGetCollectableCategories = (): GameDataReturnType => {
   const { mapDataToCollectables } = useGetGameData();
+  const { selectedGameData } = useMainState();
+  const {
+    shouldShowCompletedItems,
+    shouldShowDisabledSections
+  } = useGetSettingsConfig();
 
-  const getCollectableCategories = (selectedGame?: SubscriptionTypeEnum): string[] => {
-    const collectables = mapDataToCollectables(selectedGame);
-    let collectableCategories: string[] = [];
-    collectables.map(collectable => {
-      if (!collectableCategories.find(item => item === collectable.mainCategory || collectable.dlc !== 'None')) {
-        collectableCategories.push(collectable.mainCategory);
-      }
-    });
-    // Add DLC categories last
-    collectables.map(collectable => {
-      if (!collectableCategories.find(item => item === collectable.mainCategory)) {
-        collectableCategories.push(collectable.mainCategory);
-      }
-    });
-    return collectableCategories;
+  const getCollectableCategories = (): string[] => {
+    return (!!selectedGameData
+      ? selectedGameData?.settingsConfig.filter(config =>
+        config.section === "Collectables"
+        && config.category !== ""
+        && (!shouldShowDisabledSections() ? config.isActive : true)
+      )
+        .map(config => config.category)
+      : []);
   }
 
   const getCollectableSubCategories = (category: string, selectedGame?: SubscriptionTypeEnum): string[] => {

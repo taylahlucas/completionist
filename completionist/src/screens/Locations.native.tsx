@@ -4,8 +4,8 @@ import { CompletedQuantityTitle } from '@components/general/Text/StyledTextStyle
 import NavigationHeader from '@navigation/NavigationHeader.native';
 import CustomSearchBar from '@components/general/CustomSearchBar/CustomSearchBar.native';
 import LocationList from '@components/custom/LocationList/LocationList.native';
-import useGetGameData from '@data/hooks/useGetGameData.native';
-import useGetUserGameData from '@data/hooks/useGetUserGameData.native';
+import useGetGameData from '@data/hooks/useGetGameData';
+import useGetUserGameData from '@data/hooks/useGetUserGameData';
 import useMainState from '@redux/hooks/useMainState';
 import useLocationState from '@components/custom/LocationList/hooks/useLocationState';
 import useLocationDispatch from '@components/custom/LocationList/hooks/useLocationDispatch';

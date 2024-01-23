@@ -3,7 +3,7 @@ import Dropdown from '@components/general/Dropdown/Dropdown.native';
 import StyledText from '@components/general/Text/StyledText.native';
 import { SettingsConfigItem } from '@utils/CustomInterfaces';
 import SettingsContentMainHeader from './SettingsContentMainHeader.native';
-import useGetUserGameData from '@data/hooks/useGetUserGameData.native';
+import useGetUserGameData from '@data/hooks/useGetUserGameData';
 import { style, SettingsContentSubItemContainer, SettingsContentScrollView } from './SettingsContentStyledComponents.native';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import useSettingsState from './hooks/useSettingsState';

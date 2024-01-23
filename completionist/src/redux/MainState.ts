@@ -27,6 +27,7 @@ export interface MainState {
   readonly appState?: AppStateStatus,
   readonly currentScreen?: ScreenEnum;
   readonly selectedGame?: SubscriptionTypeEnum;
+  readonly selectedGameData?: GeneralData;
   readonly selectedGameSettings: SubscriptionTypeEnum;
   readonly webSignInConfigured: boolean;
   readonly user: User;
@@ -63,9 +64,11 @@ const slice = createSlice({
       state.selectedGame = action.payload;
       switch (state.selectedGame) {
         case SubscriptionTypeEnum.SKYRIM:
+          state.selectedGameData = state.user.data.skyrim;
           state.userSettings = state.user.data.skyrim.settingsConfig;
           break;
         case SubscriptionTypeEnum.FALLOUT_4:
+          state.selectedGameData = state.user.data.fallout4;
           state.userSettings = state.user.data.fallout4.settingsConfig;
           break;
       }

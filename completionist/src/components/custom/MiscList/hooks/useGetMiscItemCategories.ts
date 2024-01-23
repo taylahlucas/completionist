@@ -1,30 +1,30 @@
-import useGetGameData from '@data/hooks/useGetGameData.native';
+import useGetGameData from '@data/hooks/useGetGameData';
+import useGetSettingsConfig from '@data/hooks/useGetSettingsConfig';
+import useMainState from '@redux/hooks/useMainState';
 import { SubscriptionTypeEnum } from '@utils/CustomEnums';
 
 interface CheckLocationCompleteReturnType {
-  getMiscItemCategories: (selectedGame?: SubscriptionTypeEnum) => string[];
+  getMiscItemCategories: () => string[];
   getMiscItemSubCategories: (category: string, selectedGame?: SubscriptionTypeEnum) => string[];
 }
 
 const useGetMiscItemCategories = (): CheckLocationCompleteReturnType => {
   const { mapDataToMiscItems } = useGetGameData();
+  const { selectedGameData } = useMainState();
+  const {
+    shouldShowCompletedItems,
+    shouldShowDisabledSections
+  } = useGetSettingsConfig();
 
-  const getMiscItemCategories = (selectedGame?: SubscriptionTypeEnum): string[] => {
-    const miscItems = mapDataToMiscItems(selectedGame);
-    let miscItemCategories: string[] = [];
-    miscItems.map(miscItem => {
-      if (!miscItemCategories.find(item => item === miscItem.mainCategory || miscItem.dlc !== 'None')) {
-        miscItemCategories.push(miscItem.mainCategory);
-      }
-    });
-    // Add DLC categories last
-    miscItems.map(miscItem => {
-      if (!miscItemCategories.find(item => item === miscItem.mainCategory)) {
-        miscItemCategories.push(miscItem.mainCategory);
-      }
-    });
-
-    return miscItemCategories;
+  const getMiscItemCategories = (): string[] => {
+    return (!!selectedGameData
+      ? selectedGameData?.settingsConfig.filter(config =>
+        config.section === "Miscellaneous"
+        && config.category !== ""
+        && (!shouldShowDisabledSections() ? config.isActive : true)
+      )
+        .map(config => config.category)
+      : []);
   };
 
   const getMiscItemSubCategories = (category: string, selectedGame?: SubscriptionTypeEnum): string[] => {

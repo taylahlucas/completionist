@@ -1,5 +1,5 @@
-import useGetGameData from '@data/hooks/useGetGameData.native';
-import useGetUserGameData from '@data/hooks/useGetUserGameData.native';
+import useGetGameData from '@data/hooks/useGetGameData';
+import useGetUserGameData from '@data/hooks/useGetUserGameData';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
 import useMainState from '@redux/hooks/useMainState';
 import { Item, Location } from '@utils/CustomInterfaces';

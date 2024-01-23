@@ -60,6 +60,7 @@ const useEndpoints = (): EndpointsReturnType => {
           }
         }
       )
+      console.log("HERE: ", response.data)
       if (!!response.data.user.userId && !!response.data.token) {
         storeCredentials({
           username: response.data.user.userId,
@@ -125,7 +126,6 @@ const useEndpoints = (): EndpointsReturnType => {
             }
           }
         );
-  
         return response.data as User;
       }
       return null;
@@ -133,7 +133,6 @@ const useEndpoints = (): EndpointsReturnType => {
     catch (error: AxiosErrorResponse) {
       switch (error.request.status) {
         case requestCodes.NOT_FOUND:
-          console.log("getUserByUserId User not found")
           return null;
         default:
           Alert.alert('Error', 'Internal server error. Please refresh the app');

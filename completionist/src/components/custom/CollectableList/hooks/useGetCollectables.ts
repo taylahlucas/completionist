@@ -1,9 +1,9 @@
 import { Collectable, Item } from '@utils/CustomInterfaces';
 import useMainState from '@redux/hooks/useMainState';
 import useSearchStringFormatter from '@utils/hooks/useSearchStringFormatter';
-import useGetGameData from '@data/hooks/useGetGameData.native';
+import useGetGameData from '@data/hooks/useGetGameData';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
-import useGetUserGameData from '@data/hooks/useGetUserGameData.native';
+import useGetUserGameData from '@data/hooks/useGetUserGameData';
 import useCollectableState from './useCollectableState';
 
 interface GameDataReturnType {

@@ -3,9 +3,9 @@ import auth from '@react-native-firebase/auth';
 import useSaveUserData from '@data/hooks/useSaveUserData.native';
 import useEndpoints from '@data/hooks/useEndpoints';
 import { AxiosErrorResponse } from '@utils/CustomTypes';
-import useLoginDispatch from './useLoginDispatch';
 import useLoginState from './useLoginState';
 import { Alert } from 'react-native';
+import useKeychain from '@data/hooks/useKeychain.native';
 
 interface GoogleSignInError {
   code: number;
@@ -20,10 +20,10 @@ interface GetLoginMethodsReturnType {
 }
 
 const useGetLoginMethods = (): GetLoginMethodsReturnType => {
-  const { setLoginFormData } = useLoginDispatch();
   const { loginFormData } = useLoginState();
   const { saveUserAndLogin, removeUserData } = useSaveUserData();
   const { signIn, signUp, getUserByUserId } = useEndpoints();
+  const { storeCredentials } = useKeychain();
 
   const createUser = async () => {
     try {
@@ -60,7 +60,11 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
         .then((response) => {
           const { displayName, email, uid, photoURL } = response?.user || {};
 
-          if (displayName && email) {
+          if (displayName && email && idToken) {
+            storeCredentials({
+              username: uid,
+              password: idToken
+            });
             // Check if user exists with userID
             // If yes, return user. If no, create user
             getUserByUserId({ userId: uid })

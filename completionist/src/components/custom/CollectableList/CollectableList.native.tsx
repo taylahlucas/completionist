@@ -10,7 +10,6 @@ import useCollectableState from './hooks/useCollectableState';
 import CollectableSearchResults from './CollectableSearchResults.native';
 
 const CollectableList = () => {
-  const { selectedGame } = useMainState();
   const { searchValue } = useCollectableState();
   const { getCollectableCategories } = useGetCollectableCategories();
   const { getAllCollectablesForCategory } = useGetCollectables();
@@ -24,7 +23,7 @@ const CollectableList = () => {
       }
     >
       <ScrollableList>
-        {getCollectableCategories(selectedGame).map((category: string, index: number) => {
+        {getCollectableCategories().map((category: string, index: number) => {
           const allCollectablesForCategory = getAllCollectablesForCategory(category)
           const completedCollectables = checkCollectablesCompleteForCategory(allCollectablesForCategory)
 

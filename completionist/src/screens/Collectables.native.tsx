@@ -4,8 +4,8 @@ import CollectableList from '@components/custom/CollectableList/CollectableList.
 import NavigationHeader from '@navigation/NavigationHeader.native';
 import CustomSearchBar from '@components/general/CustomSearchBar/CustomSearchBar.native';
 import { CompletedQuantityTitle } from '@components/general/Text/StyledTextStyledComponents.native';
-import useGetGameData from '@data/hooks/useGetGameData.native';
-import useGetUserGameData from '@data/hooks/useGetUserGameData.native';
+import useGetGameData from '@data/hooks/useGetGameData';
+import useGetUserGameData from '@data/hooks/useGetUserGameData';
 import useMainState from '@redux/hooks/useMainState';
 import useCollectableState from '@components/custom/CollectableList/hooks/useCollectableState';
 import useCollectableDispatch from '@components/custom/CollectableList/hooks/useCollectableDispatch';

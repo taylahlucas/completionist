@@ -24,7 +24,6 @@ const useSettingsOptionsOnPress = () => {
   };
 
   const settingsOptionsOnPress = (id: string) => {
-    console.log("ID: ", id)
     switch (id) {
       case 'completed-items':
         setUser({

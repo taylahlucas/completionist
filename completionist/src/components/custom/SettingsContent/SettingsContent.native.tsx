@@ -11,8 +11,7 @@ const SettingsContent = () => {
   const { useGetDLCOptions, useSetDLCOptions } = useDLCOptions();
   const options = useGetShowHideOptions();
   const { settingsOptionsOnPress } = useSettingsOptionsOnPress();
-  // TODO: Add button to enable/disable DLC
-  // TODO: Option to hide hidden categories
+  
   return (
     <ScrollableList>
       <SettingsGameSelectionContent />

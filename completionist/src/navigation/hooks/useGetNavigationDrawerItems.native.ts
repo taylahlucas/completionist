@@ -1,6 +1,6 @@
 import { ScreenEnum } from '@utils/CustomEnums';
-import useGetGameData from '@data/hooks/useGetGameData.native';
-import useGetUserGameData from '@data/hooks/useGetUserGameData.native';
+import useGetGameData from '@data/hooks/useGetGameData';
+import useGetUserGameData from '@data/hooks/useGetUserGameData';
 import useMainState from '@redux/hooks/useMainState';
 import useCheckSectionEnabled from './useCheckSectionEnabled.native';
 import { NavigationDrawerItemData } from '@utils/CustomInterfaces';

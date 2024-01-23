@@ -1,4 +1,6 @@
-import useGetGameData from '@data/hooks/useGetGameData.native';
+import useGetGameData from '@data/hooks/useGetGameData';
+import useGetSettingsConfig from '@data/hooks/useGetSettingsConfig';
+import useMainState from '@redux/hooks/useMainState';
 import { SubscriptionTypeEnum } from '@utils/CustomEnums';
 
 interface GetQuestCategoriesReturnType {
@@ -9,22 +11,21 @@ interface GetQuestCategoriesReturnType {
 
 const useGetQuestCategories = (): GetQuestCategoriesReturnType => {
   const { mapDataToQuests } = useGetGameData();
+  const { selectedGameData } = useMainState();
+  const {
+    shouldShowCompletedItems,
+    shouldShowDisabledSections
+  } = useGetSettingsConfig();
 
-  const getQuestCategories = (selectedGame?: SubscriptionTypeEnum): string[] => {
-    const quests = mapDataToQuests(selectedGame);
-    let questCategories: string[] = [];
-    quests.map(quest => {
-      if (!questCategories.find(item => item === quest.mainCategory || quest.dlc !== 'None')) {
-        questCategories.push(quest.mainCategory);
-      }
-    });
-    // Add DLC categories last
-    quests.map(quest => {
-      if (!questCategories.find(item => item === quest.mainCategory)) {
-        questCategories.push(quest.mainCategory);
-      }
-    });
-    return questCategories;
+  const getQuestCategories = (): string[] => {
+    return (!!selectedGameData
+      ? selectedGameData?.settingsConfig.filter(config =>
+        config.section === "Quests"
+        && config.category !== ""
+        && (!shouldShowDisabledSections() ? config.isActive : true)
+      )
+        .map(config => config.category)
+      : []);
   }
 
   const getQuestSubCategories = (category: string, selectedGame?: SubscriptionTypeEnum): string[] => {

@@ -1,7 +1,7 @@
 import React from 'react';
 import { SettingsContentDropdownContainer } from './SettingsContentStyledComponents.native';
 import { SettingsConfigItem } from '@utils/CustomInterfaces';
-import useGetUserGameData from '@data/hooks/useGetUserGameData.native';
+import useGetUserGameData from '@data/hooks/useGetUserGameData';
 import SettingsConfigItemDropdown from './SettingsContentItemDropdown.native';
 
 const SettingsContentCollectionList = () => {
