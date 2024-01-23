@@ -33,3 +33,7 @@ export type NavigationHeaderRightActionTypes = 'logout' | 'filter' | 'none';
 export type UserResponse = User | null;
 export type CredentialsResponse = UserCredentials | null;
 export type AxiosErrorResponse = AxiosError | any;
+
+export type GameKey = 
+  | 'skyrim' 
+  | 'fallout4';

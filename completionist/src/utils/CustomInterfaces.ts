@@ -7,6 +7,7 @@ import { MiscState } from '@components/custom/MiscList/MiscState';
 import { CollectableState } from '@components/custom/CollectableList/CollectableState';
 import { LocationState } from '@components/custom/LocationList/LocationState';
 import { QuestState } from '@components/custom/QuestList/QuestState';
+import { GameKey } from './CustomTypes';
 
 export interface Quest {
   id: string;
@@ -144,6 +145,7 @@ export interface SettingsListItem {
 
 export interface Subscription {
   id: SubscriptionTypeEnum;
+  key: GameKey;
   isActive: boolean;
 }
 
