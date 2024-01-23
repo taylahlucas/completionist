@@ -9,7 +9,7 @@ const Home = () => {
   const { user } = useMainState();
   return (
     <StandardLayout>
-      <NavigationHeader title={`Welcome ${user.name}`} leftAction={'none'} rightAction={'logout'} />
+      <NavigationHeader title={`Welcome\n${user.name}`} leftAction={'none'} rightAction={'logout'} />
       <StyledText type={'ListItemSubTitleBold'}>Select a game</StyledText>
       <GameList />
     </StandardLayout>

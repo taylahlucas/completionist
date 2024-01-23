@@ -12,7 +12,7 @@ interface SelectionListProps {
 
 const SelectionList = ({ data, onPress }: SelectionListProps) => {
   const theme = useGetTheme();
-  // TODO: onPress
+  
   return (
     <SelectionListContainer>
       {data.map((item, index) => (
@@ -20,7 +20,7 @@ const SelectionList = ({ data, onPress }: SelectionListProps) => {
           <StyledText color={theme.lightGrey}>{item.title}</StyledText>
           <CheckBox 
             isActive={item.isActive}
-            onPress={(): void => onPress(item.title)}
+            onPress={(): void => onPress(item.id)}
           />
         </SelectionListItemContainer>
       ))}

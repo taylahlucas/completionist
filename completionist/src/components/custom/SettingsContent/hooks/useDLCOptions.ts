@@ -16,17 +16,17 @@ const useDLCOptions = (): DLCOptionsReturnType => {
   const useGetDLCOptions = (): SettingsListItem[] => {
     switch (selectedGameSettings) {
       case SubscriptionTypeEnum.SKYRIM:
-        return skyrimDLC.map((item, index) => {
+        return skyrimDLC.map((item) => {
           return {
-            id: `${index}-${item}`,
+            id: item,
             title: item,
             isActive: user.data.skyrim.settingsConfig.filter(config => config.category === item && config.isActive).length > 0
           }
         });
       case SubscriptionTypeEnum.FALLOUT_4:
-        return fallout4DLC.map((item, index) => {
+        return fallout4DLC.map((item) => {
           return {
-            id: `${index}-${item}`,
+            id: item,
             title: item,
             isActive: user.data.fallout4.settingsConfig.filter(config => config.category === item && config.isActive).length > 0
           }
@@ -34,7 +34,7 @@ const useDLCOptions = (): DLCOptionsReturnType => {
     }
   };
 
-  const useSetDLCOptions = (title: string) => {
+  const useSetDLCOptions = (id: string) => {
     switch (selectedGameSettings) {
       case SubscriptionTypeEnum.SKYRIM:
         setUser({
@@ -46,7 +46,7 @@ const useDLCOptions = (): DLCOptionsReturnType => {
               settingsConfig: user.data.skyrim.settingsConfig.map(config => {
                 return {
                   ...config,
-                  isActive: config.category === title ? !config.isActive : config.isActive
+                  isActive: config.category === id ? !config.isActive : config.isActive
                 }
               })
             }
@@ -64,7 +64,7 @@ const useDLCOptions = (): DLCOptionsReturnType => {
               settingsConfig: user.data.fallout4.settingsConfig.map(config => {
                 return {
                   ...config,
-                  isActive: config.category === title ? !config.isActive : config.isActive
+                  isActive: config.category === id ? !config.isActive : config.isActive
                 }
               })
             }
