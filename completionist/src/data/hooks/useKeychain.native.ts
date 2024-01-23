@@ -13,11 +13,13 @@ interface KeychainReturnTypes {
 
 const useKeychain = (): KeychainReturnTypes => {
   const storeCredentials = async ({ username, password }: StoreCredentialsProps): Promise<void> => {
-    try {
-      await Keychain.setGenericPassword(username, password);
-      console.log('Credentials stored successfully');
-    } catch (error) {
-      console.error('Error storing credentials:', error);
+    if (!!username && !!password) {
+      try {
+        await Keychain.setGenericPassword(username, password, {});
+        console.log('Credentials stored successfully');
+      } catch (error) {
+        console.error('Error storing credentials:', error);
+      }
     }
   };
 

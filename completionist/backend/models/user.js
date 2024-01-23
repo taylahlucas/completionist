@@ -12,6 +12,7 @@ const userSchema = new mongoose.Schema({
       isActive: Boolean,
     }],
     default: [
+      // TODO: Change this when adding subscription. Only add previously purchased/subscribed games
       { id: 'Skyrim', isActive: true },
       { id: 'Fallout 4', isActive: true }
     ]
@@ -28,6 +29,7 @@ const userSchema = new mongoose.Schema({
   },
   data: {
     type: Object,
+    // TODO: Change this when adding subscription. Only add previously purchased/subscribed games
     default: {
       skyrim: { quests: [], collectables: [], miscellaneous: [], locations: [], settingsConfig: [] },
       fallout4: { quests: [], collectables: [], miscellaneous: [], locations: [], settingsConfig: [] },

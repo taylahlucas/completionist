@@ -12,50 +12,51 @@ const signup = async (req, res) => {
       userId,
       name,
       email,
-      password,
+      password: userPassword,
       userAvatar
      } = req.body;
+
     if (!userId) {
-      return res.json({
-        error: "userId is required",
-      });
+      res.json({ error: "userId is required" });
     }
-    const exist = await User.findOne({ email });
-    if (exist) {
-      return res.status(request_codes.EMAIL_TAKEN).json({
-        error: 'Email already exists.',
-      });
+
+    // Check if user already exists
+    const existingUser = await User.findOne({ email });
+    if (existingUser) {
+      console.log("Logging email already exists");
+      return res.status(request_codes.EMAIL_TAKEN).json({ error: 'Email already exists.' });
     }
-    // Hash password
+
+    // Hash password if password is provided
     let hashedPassword = '';
-    if (password) {
-      hashedPassword = await hashPassword(password)
+    if (userPassword) {
+      hashedPassword = await hashPassword(userPassword)
     }
 
-    try {
-      const user = await new User({
-        userId,
-        name,
-        email,
-        password: hashedPassword,
-        userAvatar
-      }).save();
-      // Create signed token
-      const token = jwt.sign({ _id: new mongoose.Types.ObjectId() }, process.env.JWT_SECRET, {
-        expiresIn: "7d",
-      });
-      const { password, ...rest } = user._doc;
+    // Create new user
+    const user = await new User({
+      userId,
+      name,
+      email,
+      password: hashedPassword,
+      userAvatar
+    }).save();
 
-      return res.json({
-        token,
-        user: rest,
-      });
-    } catch (err) {
-      console.log(err);
-      return res.status(err.status).json(err.message);
-    }
+    // Create signed token
+    const token = jwt.sign({ _id: new mongoose.Types.ObjectId() }, process.env.JWT_SECRET, {
+      expiresIn: "7d",
+    });
+
+    // Remove password from the user object
+    const { password, ...rest } = user._doc;
+
+    // Response with token and user data
+    return res.json({
+      token,
+      user: rest,
+    });
   } catch (err) {
-    console.log(err);
+    console.log("Logging Error signing up: ", err)
     return res.status(err.status).json(err.message);
   }
 };
@@ -66,19 +67,23 @@ const signin = async (req, res) => {
     // Check if db has user with that email
     const user = await User.findOne({ email });
     if (!user) {
-      return res.status(request_codes.NO_USER_FOUND).json({
+      console.log("Logging no user found")
+      res.status(request_codes.NO_USER_FOUND).json({
         error: "No user found",
       });
     }
 
+    // If user has password, check if the password matches
     if (!!user.password) {
       const match = await comparePasswords(password, user.password);
       if (!match) {
+        console.log("Logging wrong password")
         return res.status(request_codes.WRONG_PASSWORD).json({
           error: "Wrong password",
         });
       }
     }
+
     // Create signed token
     const token = jwt.sign({ _id: new mongoose.Types.ObjectId() }, process.env.JWT_SECRET, {
       expiresIn: "7d",
@@ -86,12 +91,13 @@ const signin = async (req, res) => {
     user.password = undefined;
     user.secret = undefined;
     
+    // Response with token and user data
     return res.status(request_codes.SUCCESS).json({
       token,
       user,
     });
   } catch (err) {
-    console.log("Error signing in: ", err)
+    console.log("Logging Error signing in: ", err)
     return res.status(err.status).json(err.message);
   }
 };

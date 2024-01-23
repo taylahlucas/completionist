@@ -11,7 +11,7 @@ import useEndpoints from './useEndpoints';
 
 interface SaveUserDataReturnType {
   loadUserData: () => void;
-  saveUserData: (user: User) => void;
+  saveUserAndLogin: (user: User) => void;
   updateUser: (user: User) => void;
   removeUserData: () => void;
 }
@@ -28,17 +28,19 @@ const useSaveUserData = (): SaveUserDataReturnType => {
     getCredentials()
       .then((credentials: CredentialsResponse) => {
         if (!!credentials?.password) {
+          console.log("loadUserData Fetching data from cache")
+          console.log('\n')
           fetchDataFromCache(credentials.password)
             .then(cachedData => {
               if (!!cachedData) {
-                saveUserData(cachedData);
+                saveUserAndLogin(cachedData);
               }
             });
         }
       });
   };
 
-  const saveUserData = (user: User) => {
+  const saveUserAndLogin = (user: User) => {
     setUser(user);
     saveToCache(user);
     setLoggedIn(true);
@@ -46,7 +48,7 @@ const useSaveUserData = (): SaveUserDataReturnType => {
   };
 
   const updateUser = (user: User) => {
-    saveUserData(user);
+    saveUserAndLogin(user);
     updateUserData({
       userId: user.userId,
       subscription: user.subscription,
@@ -65,7 +67,7 @@ const useSaveUserData = (): SaveUserDataReturnType => {
     navigation.dispatch(DrawerActions.closeDrawer());
   }
 
-  return { saveUserData, updateUser, removeUserData, loadUserData };
+  return { saveUserAndLogin, updateUser, removeUserData, loadUserData };
 };
 
 export default useSaveUserData;

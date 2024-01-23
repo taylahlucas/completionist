@@ -1,10 +1,11 @@
 import { Alert, Platform } from 'react-native';
 import uuid from 'react-native-uuid';
-import axios, { AxiosError } from 'axios';
+import axios from 'axios';
 import { GeneralData, User, LoginFormData, Subscription, SettingsOptionItem } from '@utils/CustomInterfaces';
-import { UserResponse } from '@utils/CustomTypes';
+import { AxiosErrorResponse, UserResponse } from '@utils/CustomTypes';
 import { signupUrl, signinUrl, getUserByUserIdUrl, updateUserDataUrl, sendEmailUrl } from '../urls';
 import { requestCodes } from '@utils/constants';
+import useKeychain from './useKeychain.native';
 
 interface CreateUserProps {
   data: LoginFormData;
@@ -43,92 +44,152 @@ interface EndpointsReturnType {
 
 const useEndpoints = (): EndpointsReturnType => {
   const url = Platform.OS === 'ios' ? process.env.IOS_LOCAL_URL : process.env.ANDROID_LOCAL_URL;
+  const { getCredentials, storeCredentials } = useKeychain();
 
   const signIn = async ({ email, password }: SignInProps): Promise<UserResponse> => {
-    return await axios.post(`${url}/${signinUrl}`,
-      {
-        email: email,
-        password: password
-      }
-    )
-    .then(response => !!response.data.user && response.data.user as User ? response.data.user : null)
-    .catch((error: AxiosError) => {
-      console.log("error: ", error.request)
+    console.log("signIn");
+    console.log("\n")
+    try {
+      const token = getCredentials();
+      const response = await axios.post(`${url}/${signinUrl}`,
+        {
+          email: email,
+          password: password
+        },
+        {
+          headers: {
+            Authorization: `Bearer ${token}`
+          }
+        }
+      )
+      return !!response.data.user && response.data.user as User ? response.data.user : null;
+    }
+    catch (error: AxiosErrorResponse) {
+      console.log("error: ", error.request.status)
       switch (error.request.status) {
-        case requestCodes.NO_USER_FOUND:
-          console.log('User not found.')
-          return;
         case requestCodes.WRONG_PASSWORD:
           Alert.alert('Error', 'Incorrect password. Please try again.');
-          return;
-        default: 
-          Alert.alert('Error', 'Internal server error. Please refresh the app');
-          return;
+          return null;
+        default:
+          Alert.alert('User not found', 'Incorrect email or password.\nPlease try again.');
+          return null;
       }
-    })
+    }
   };
 
   const signUp = async ({ data }: CreateUserProps): Promise<UserResponse> => {
-    return await axios.post(`${url}/${signupUrl}`,
-      {
-        userId: data.userId ? data.userId : uuid.v4(),
-        name: data.name,
-        email: data.email,
-        password: data.password ?? '',
-        userAvatar: data.userAvatar
+    console.log("signUp");
+    console.log("\n")
+    try {
+      const response = await axios.post(`${url}/${signupUrl}`,
+        {
+          userId: data.userId ? data.userId : uuid.v4(),
+          name: data.name,
+          email: data.email,
+          password: data.password ?? '',
+          userAvatar: data.userAvatar
+        }
+      );
+      if (!!response.data.token) {
+        storeCredentials({
+          username: data.userId,
+          password: response.data.token
+        });
       }
-    )
-    .then(response => !!response.data.user && response.data.user as User ? response.data.user : null)
-    .catch((error: AxiosError)  => {
+      return response.data.user as User;
+    }
+    catch (error: AxiosErrorResponse) {
       switch (error.request.status) {
         case requestCodes.EMAIL_TAKEN:
           Alert.alert('Error', 'Email already exists.');
-          return;
-        default: 
+          return null;
+        default:
           Alert.alert('Error', 'Internal server error. Please refresh the app');
-          return;
+          return null;
       }
-    })
-  };
+    };
+  }
 
   const getUserByUserId = async ({ userId }: GetUserByUserIdProps): Promise<UserResponse> => {
-   return await axios.get(`${url}/${getUserByUserIdUrl}/${userId}`)
-      .then(response => !!response.data && response.data as User ? response.data : null)
-      .catch((error: AxiosError) => {
-        switch (error.request.status) {
-          case requestCodes.NOT_FOUND:
-            console.log("User not found")
-            return;
-          default: 
-            Alert.alert('Error', 'Internal server error. Please refresh the app');
-            return;
-        }
-      });
+    console.log("getUserByUserId");
+    console.log("\n")
+    try {
+      const token = getCredentials();
+      if (!!token) {
+        const response = await axios.get(
+          `${url}/${getUserByUserIdUrl}/${userId}`,
+          {
+            headers: {
+              Authorization: `Bearer ${token}`
+            }
+          }
+        );
+  
+        return response.data as User;
+      }
+      return null;
+    }
+    catch (error: AxiosErrorResponse) {
+      switch (error.request.status) {
+        case requestCodes.NOT_FOUND:
+          console.log("getUserByUserId User not found")
+          return null;
+        default:
+          Alert.alert('Error', 'Internal server error. Please refresh the app');
+          return null;
+      }
+    }
   };
 
   const updateUserData = async ({ userId, subscription, settings, skyrimData, fallout4Data }: UpdateUserDataProps): Promise<void> => {
-    console.log("skyrimData: ", skyrimData.settingsConfig)
-    await axios.post(`${url}/${updateUserDataUrl}`, {
-      userId: userId,
-      subscription: subscription,
-      settings: settings,
-      skyrimData: skyrimData,
-      fallout4Data: fallout4Data
-    })
-    .catch((error: AxiosError)  => {
+    console.log("updateUserData");
+    console.log("\n")
+    try {
+      const token = getCredentials();
+      await axios.post(
+        `${url}/${updateUserDataUrl}`,
+        {
+          userId: userId,
+          subscription: subscription,
+          settings: settings,
+          // TODO: Change this
+          skyrimData: skyrimData,
+          fallout4Data: fallout4Data
+        },
+        {
+          headers: {
+            Authorization: `Bearer ${token}`
+          }
+        }
+      )
+    }
+    catch (error: AxiosErrorResponse) {
       Alert.alert('Something went wrong.', error.message);
-    })
+    }
   };
 
   const sendEmail = async ({ from, subject, text }: EmailProps): Promise<void> => {
-    await axios.post(`${url}/${sendEmailUrl}`, {
-      from: from,
-      subject: subject,
-      text: text
-    })
-    .catch((error: AxiosError) => {
+    console.log("sendEmail");
+    console.log("\n")
+    try {
+      const token = getCredentials();
+      await axios.post(
+        `${url}/${sendEmailUrl}`,
+        {
+          from: from,
+          subject: subject,
+          text: text
+        },
+        {
+          headers: {
+            Authorization: `Bearer ${token}`
+          }
+        }
+      )
+    }
+    catch (error: AxiosErrorResponse) {
       Alert.alert('Something went wrong.', error.message);
-    })
+    }
   }
 
   return { signIn, signUp, getUserByUserId, updateUserData, sendEmail };

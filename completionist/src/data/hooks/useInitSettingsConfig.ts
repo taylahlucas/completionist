@@ -90,7 +90,7 @@ const useInitSettingsConfig = () => {
         }
       }
     });
-    updateUser(updatedUser);
+    // updateUser(updatedUser);
   }, []);
 };
 

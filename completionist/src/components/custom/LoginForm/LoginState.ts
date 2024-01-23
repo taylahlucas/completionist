@@ -1,5 +1,4 @@
 import { createSlice } from '@reduxjs/toolkit';
-import { SettingsOptionEnum, SubscriptionTypeEnum } from '@utils/CustomEnums';
 import { LoginFormData } from '@utils/CustomInterfaces';
 
 export interface LoginState {
@@ -30,6 +29,7 @@ const slice = createSlice({
     },
     setLoggedIn: (state, action) => {
       state.isLoggedIn = action.payload;
+      state.isSigningUp = false;
     },
     triggerIsSigningUp: (state, action) => {
       state.isSigningUp = action.payload;

@@ -15,7 +15,7 @@ interface CacheReturnType {
 }
 
 const useCache = (): CacheReturnType => {
-  const { setUser } = useMainDispatch();
+  // const { setUser } = useMainDispatch();
   const { setLoggedIn } = useLoginDispatch();
   const { getUserByUserId } = useEndpoints();
   const { deleteCredentials } = useKeychain();
@@ -63,21 +63,21 @@ const useCache = (): CacheReturnType => {
       return cachedData;
     }
 
-    // If not in cache, fetch data from the server
+    // If data is not in cache, fetch data from the server
     try {
-      return await getUserByUserId({ userId })
-        .then((response: UserResponse) => {
-          if (!!response) {
-            setUser(response);
-            return response;
-          }
-          else {
-            clearCache();
-            deleteCredentials();
-            setLoggedIn(false);
-            return null;
-          }
-        })
+      const user = await getUserByUserId({ userId });
+      if (!!user) {
+        //setUser(user)
+        saveUserAndLogin(user);
+        return user;
+      }
+      else {
+        // If no user is found on server, clear cache and keychain
+        clearCache();
+        deleteCredentials();
+        setLoggedIn(false);
+        return null;
+      }
     } catch (error) {
       console.error('Error fetching data:', error);
       return null;
@@ -106,3 +106,7 @@ const useCache = (): CacheReturnType => {
 };
 
 export default useCache;
+
+function saveUserAndLogin(cachedData: any) {
+  throw new Error('Function not implemented.');
+}

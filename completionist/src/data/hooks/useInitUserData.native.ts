@@ -16,6 +16,7 @@ const useInitUserData = () => {
     if (!isLoggedIn && !user.userId) {
       loadUserData();
     }
+
     const subscription = AppState.addEventListener('change', nextAppState => {
       setAppState(nextAppState);
       appStateRef.current = nextAppState;

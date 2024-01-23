@@ -13,41 +13,41 @@ const useCreateOrGetUser = () => {
   const { getCredentials, storeCredentials } = useKeychain();
   const { createUser } = useGetLoginMethods();
   const { fetchDataFromCache } = useCache();
-  const { saveUserData } = useSaveUserData();
+  const { saveUserAndLogin } = useSaveUserData();
 
-  useEffect(() => {
-    if (!!loginFormData.userId && !isLoggedIn) {
-      getCredentials()
-        .then((credentials: CredentialsResponse) => {
-          if (!!credentials) {
-            fetchDataFromCache(credentials.password)
-              .then((cachedData: UserResponse) => {
-                if (!!cachedData) {
-                  saveUserData(cachedData);
-                }
-                else {
-                  createUser();
-                }
-              })
-          }
-          else {
-            getUserByUserId({ userId: loginFormData.userId })
-              .then(user => {
-                if (!!user) {
-                  storeCredentials({
-                    username: user.name,
-                    password: user.userId ?? loginFormData.password ?? ''
-                  });
-                  saveUserData(user);
-                }
-                else {
-                  createUser();
-                }
-              })
-          }
-        })
-    }
-  }, [loginFormData])
+  // useEffect(() => {
+  //   if (!!loginFormData.userId && !isLoggedIn) {
+  //     console.log("useCreateOrGetUser GETTING CREDENTIALS")
+  //     getCredentials()
+  //       .then((credentials: CredentialsResponse) => {
+  //         // If credentials exist in the keychain, fetch data from the cache
+  //         if (!!credentials) {
+  //           fetchDataFromCache(credentials.password)
+  //             .then((cachedData: UserResponse) => {
+  //               if (!!cachedData) {
+  //                 saveUserAndLogin(cachedData);
+  //               }
+  //             })
+  //         }
+  //         else {
+  //           // If no credentials exist, get user by id or create user and store in keychain and cache
+  //           getUserByUserId({ userId: loginFormData.userId })
+  //             .then(user => {
+  //               if (!!user) {
+  //                 storeCredentials({
+  //                   username: user.name,
+  //                   password: user.userId ?? loginFormData.password ?? ''
+  //                 });
+  //                 saveUserAndLogin(user);
+  //               }
+  //               else {
+  //                 createUser();
+  //               }
+  //             })
+  //         }
+  //       })
+  //   }
+  // }, [loginFormData])
 };
 
 export default useCreateOrGetUser;

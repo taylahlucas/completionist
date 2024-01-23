@@ -6,7 +6,6 @@ import NavigationDrawer from '@navigation/NavigationDrawer.native';
 import configureStore from '@redux/store';
 import config from '@utils/config';
 
-// https://www.youtube.com/watch?v=dfoZj7DPSAs
 GoogleSignin.configure({
   webClientId: config.webClientId
 });
