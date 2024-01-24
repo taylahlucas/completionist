@@ -6,12 +6,12 @@ import {
 import { useAppDispatch } from '@redux/store';
 import { DropDownType } from '@utils/CustomInterfaces';
 
-interface CollectableDispatch {
+interface ContentDispatch {
   setSearchValue: (value: string) => void;
   setSelectedCategory: (category: DropDownType) => void;
 }
 
-const useCollectableDispatch = (): CollectableDispatch => {
+const useContentDispatch = (): ContentDispatch => {
   const dispatch: Dispatch = useAppDispatch();
 
   return {
@@ -24,4 +24,4 @@ const useCollectableDispatch = (): CollectableDispatch => {
   }
 }
 
-export default useCollectableDispatch;
+export default useContentDispatch;

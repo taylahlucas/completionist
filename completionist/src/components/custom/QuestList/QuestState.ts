@@ -14,7 +14,7 @@ export const initialState: QuestState = {
 };
 
 const slice = createSlice({
-  title: 'quest',
+  name: 'quest',
   initialState: initialState,
   reducers: {
     setSearchValue: (state, action) => {

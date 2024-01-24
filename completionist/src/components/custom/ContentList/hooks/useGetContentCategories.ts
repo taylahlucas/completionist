@@ -11,7 +11,7 @@ interface GameDataReturnType {
 }
 
 const useGetContentCategories = (type: ContentSection): GameDataReturnType => {
-  const { mapDataToCollectables } = useGetGameData();
+  const { mapDataTo } = useGetGameData();
   const { selectedGameData } = useMainState();
   const { shouldShowDisabledSections } = useGetSettingsConfig();
 
@@ -27,31 +27,36 @@ const useGetContentCategories = (type: ContentSection): GameDataReturnType => {
   }
 
   const getContentSubCategories = (category: string, selectedGame?: SubscriptionTypeEnum): string[] => {
-    const collectables = mapDataToCollectables(selectedGame);
-    const filteredCollectables = collectables.filter(collectable => collectable.mainCategory === category);
-    let collectableSubCategories: string[] = [];
-    filteredCollectables.map(collectable => {
-      if (!collectableSubCategories.find(item => item === collectable.subCategory)) {
-        if (!!collectable.subCategory) {
-          collectableSubCategories.push(collectable.subCategory);
-        }
-      }
-    });
-    return collectableSubCategories;
+    // TODO: 
+
+    // const collectables = mapDataToCollectables(selectedGame);
+    // const filteredCollectables = collectables.filter(collectable => collectable.mainCategory === category);
+    // let collectableSubCategories: string[] = [];
+    // filteredCollectables.map(collectable => {
+    //   if (!collectableSubCategories.find(item => item === collectable.subCategory)) {
+    //     if (!!collectable.subCategory) {
+    //       collectableSubCategories.push(collectable.subCategory);
+    //     }
+    //   }
+    // });
+    // return collectableSubCategories;
+    return []
   }
 
   const getContentSubCategoriesTypes = (subCategory: string, selectedGame?: SubscriptionTypeEnum): string[] => {
-    const collectables = mapDataToCollectables(selectedGame);
-    const filteredCollectables = collectables.filter(collectable => collectable.subCategory === subCategory);
-    let collectableSubCategoryTypes: string[] = [];
-    filteredCollectables.map(collectable => {
-      if (!collectableSubCategoryTypes.find(item => item === collectable.subCategoryType)) {
-        if (!!collectable.subCategoryType) {
-          collectableSubCategoryTypes.push(collectable.subCategoryType);
-        }
-      }
-    });
-    return collectableSubCategoryTypes;
+    // TODO:
+    return []
+    // const collectables = mapDataToCollectables(selectedGame);
+    // const filteredCollectables = collectables.filter(collectable => collectable.subCategory === subCategory);
+    // let collectableSubCategoryTypes: string[] = [];
+    // filteredCollectables.map(collectable => {
+    //   if (!collectableSubCategoryTypes.find(item => item === collectable.subCategoryType)) {
+    //     if (!!collectable.subCategoryType) {
+    //       collectableSubCategoryTypes.push(collectable.subCategoryType);
+    //     }
+    //   }
+    // });
+    // return collectableSubCategoryTypes;
   }
 
 

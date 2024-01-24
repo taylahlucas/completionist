@@ -14,7 +14,7 @@ export const initialState: MiscState = {
 };
 
 const slice = createSlice({
-  title: 'misc',
+  name: 'misc',
   initialState: initialState,
   reducers: {
     setSearchValue: (state, action) => {

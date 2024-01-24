@@ -5,7 +5,7 @@ const { v4: uuidv4 } = require('uuid');
 const addUuidToObjects = (objects) => {
   return objects.map((obj) => ({ 
       ...obj,
-      subCategoryType: ""
+      mainCategory: obj.dlc === "None" ? "Main" : obj.dlc
   }));
 };
 
@@ -31,7 +31,7 @@ const writeJsonFile = (filePath, data) => {
 };
 
 // Specify the path to your JSON file
-const jsonFilePath = 'skyrim_collectables.json';
+const jsonFilePath = 'fallout4_locations.json';
 
 // Read objects from the JSON file
 const objects = readJsonFile(jsonFilePath);

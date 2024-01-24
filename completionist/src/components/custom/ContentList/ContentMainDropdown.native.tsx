@@ -7,10 +7,10 @@ import CollectableSubDropdown from './CollectableSubDropdown.native';
 import CollectableMainList from './CollectableMainList.native';
 import useGetCollectables from './hooks/useGetContent';
 import useMainState from '@redux/hooks/useMainState';
-import useCheckCollectableComplete from './hooks/useCheckCollectableComplete';
+import useCheckCollectableComplete from './hooks/useCheckContentComplete';
 import useGetCollectableCategories from './hooks/useGetContentCategories';
 import useCollectableState from './hooks/useCollectableState';
-import useCollectableDispatch from './hooks/useCollectableDispatch';
+import useCollectableDispatch from './hooks/useContentDispatch';
 import { SubListContainer } from '@components/general/Lists/ListStyledComponents.native';
 
 export interface ContentMainDropdownProps {

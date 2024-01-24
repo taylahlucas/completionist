@@ -3,13 +3,13 @@ import Dropdown from '@components/general/Dropdown/Dropdown.native';
 import CollectableMainList from './CollectableMainList.native';
 import SubListHeader from '@components/general/Lists/SubListHeader.native';
 import useCollectableState from './hooks/useContentState';
-import useCollectableDispatch from './hooks/useCollectableDispatch';
+import useCollectableDispatch from './hooks/useContentDispatch';
 import useGetCollectableCategories from './hooks/useGetContentCategories';
 import useMainState from '@redux/hooks/useMainState';
 import Condition from '@components/general/Condition.native';
 import CollectableSubTypeDropdown from './ContentSubTypeDropdown.native';
 import useGetCollectables from './hooks/useGetContent';
-import useCheckCollectableComplete from './hooks/useCheckCollectableComplete';
+import useCheckCollectableComplete from './hooks/useCheckContentComplete';
 
 export interface ContentSubDropdownProps {
   mainCategory?: string;

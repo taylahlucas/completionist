@@ -63,6 +63,7 @@ const useMainDispatch = (): MainDispatch => {
     setSearchValue(value: string): void {
       dispatch(setSearchValue(value));
     },
+
     setCompletedQuests(value: Item[]): void {
       dispatch(setCompletedQuests(value));
     },
@@ -75,6 +76,7 @@ const useMainDispatch = (): MainDispatch => {
     setCompletedMiscItems(value: Item[]): void {
       dispatch(setCompletedMiscItems(value));
     },
+    
     reset(): void {
       dispatch(reset());
     }

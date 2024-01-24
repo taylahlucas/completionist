@@ -10,7 +10,7 @@ import { QuestState } from '@components/custom/QuestList/QuestState';
 import { GameKey } from './CustomTypes';
 import { ContentState } from '@components/custom/ContentList/ContentState';
 
-export interface Quest {
+export interface GameContentItem {
   id: string;
   mainCategory: string;
   subCategory?: string;
@@ -20,31 +20,6 @@ export interface Quest {
   hold?: string;
   dlc: string;
   href?: string;
-}
-
-export interface Location {
-  id: string;
-  title: string;
-  hold: string;
-  dlc: string;
-}
-
-export interface MiscItem {
-  id: string;
-  title: string;
-  mainCategory: string;
-  subCategory?: string;
-  dlc: string;
-}
-
-export interface Collectable {
-  id: string;
-  mainCategory: string;
-  subCategory?: string;
-  subCategoryType?: string;
-  title: string;
-  prerequisite?: string;
-  dlc: string;
 }
 
 export interface DropDownType {

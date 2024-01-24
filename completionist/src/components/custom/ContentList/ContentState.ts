@@ -14,7 +14,7 @@ export const initialState: ContentState = {
 };
 
 const slice = createSlice({
-  title: 'content',
+  name: 'content',
   initialState: initialState,
   reducers: {
     setSearchValue: (state, action) => {

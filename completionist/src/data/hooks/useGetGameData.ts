@@ -7,26 +7,20 @@ import fallout4_locations from '../../../backend/database/fallout4/fallout4_loca
 import fallout4_collectables from '../../../backend/database/fallout4/fallout4_collectables.json';
 import fallout4_misc from '../../../backend/database/fallout4/fallout4_misc.json';
 import { SubscriptionTypeEnum } from '@utils/CustomEnums';
-import { Collectable, Location, MiscItem, Quest, SettingsConfigItem } from '@utils/CustomInterfaces';
+import { GameContentItem, SettingsConfigItem } from '@utils/CustomInterfaces';
 import useMainState from '@redux/hooks/useMainState';
 import { ContentSection } from '@utils/CustomTypes';
 
-type MapDataReturnType = Quest | Collectable | Location | MiscItem;
-
 interface GameDataReturnType {
-  mapDataTo: (type: ContentSection, selectedGame?: SubscriptionTypeEnum) => MapDataReturnType[];
-  mapDataToQuests: (selectedGame?: SubscriptionTypeEnum) => Quest[];
-  mapDataToFilteredQuests: (selectedGame?: SubscriptionTypeEnum) => Quest[];
-  mapDataToCollectables: (selectedGame?: SubscriptionTypeEnum) => Collectable[];
-  mapDataToFilteredCollectables: (selectedGame?: SubscriptionTypeEnum) => Collectable[];
-  mapDataToLocations: (selectedGame?: SubscriptionTypeEnum) => Location[];
-  mapDataToFilteredLocations: (selectedGame?: SubscriptionTypeEnum) => Location[];
-  mapDataToMiscItems: (selectedGame?: SubscriptionTypeEnum) => MiscItem[];
-  mapDataToFilteredMiscItems: (selectedGame?: SubscriptionTypeEnum) => MiscItem[];
+  mapDataTo: (type: ContentSection, selectedGame?: SubscriptionTypeEnum, filter?: boolean) => GameContentItem[];
+  // mapDataToQuests: (selectedGame?: SubscriptionTypeEnum) => Quest[];
+  // mapDataToCollectables: (selectedGame?: SubscriptionTypeEnum) => Collectable[];
+  // mapDataToLocations: (selectedGame?: SubscriptionTypeEnum) => Location[];
+  // mapDataToMiscItems: (selectedGame?: SubscriptionTypeEnum) => MiscItem[];
 }
 
 const useGetGameData = (): GameDataReturnType => {
-  const { user } = useMainState();
+  const { user, selectedGameData } = useMainState();
 
   const filterData = (config: SettingsConfigItem[], data: any[]) => {
     const filteredConfig = config.filter(item => !item.isActive);
@@ -48,159 +42,89 @@ const useGetGameData = (): GameDataReturnType => {
     return data;
   }
 
-  const mapDataTo = (type: ContentSection, selectedGame?: SubscriptionTypeEnum): MapDataReturnType => {
+  const mapDataTo = (type: ContentSection, selectedGame?: SubscriptionTypeEnum, filter = false): GameContentItem[] => {
     switch (type) {
       case 'Quests':
-        return mapDataToQuests(selectedGame);
+        const quests = mapDataToQuests(selectedGame);
+        return !filter ? quests : filterData(selectedGameData?.settingsConfig ?? [], quests);
+
       case 'Collectables':
-        return mapDataToCollectables(selectedGame);
+        const collectables = mapDataToCollectables(selectedGame);
+        return !filter ? collectables : filterData(selectedGameData?.settingsConfig ?? [], collectables);
+
       case 'Locations':
-        return mapDataToLocations(selectedGame);
+        const locations = mapDataToLocations(selectedGame);
+        return !filter ? locations : filterData(selectedGameData?.settingsConfig ?? [], locations);
       case 'Miscellaneous':
-        return mapDataToMiscItems(selectedGame);
+        const miscItems = mapDataToMiscItems(selectedGame);
+        return !filter ? miscItems : filterData(selectedGameData?.settingsConfig ?? [], miscItems);
       default:
         return []
     }
   };
 
-  const mapDataToQuests = (selectedGame?: SubscriptionTypeEnum): Quest[] => {
+  const mapDataToQuests = (selectedGame?: SubscriptionTypeEnum): GameContentItem[] => {
     switch (selectedGame) {
       case SubscriptionTypeEnum.SKYRIM:
-        return skyrim_quests.map((quest: Quest) => {
-          return quest as Quest;
+        return skyrim_quests.map((quest: GameContentItem) => {
+          return quest as GameContentItem;
         });
       case SubscriptionTypeEnum.FALLOUT_4:
-        return fallout4_quests.map((quest: Quest) => {
-          return quest as Quest;
+        return fallout4_quests.map((quest: GameContentItem) => {
+          return quest as GameContentItem;
         });
       default: 
         return [];   
     }
   };
 
-  const mapDataToFilteredQuests = (selectedGame?: SubscriptionTypeEnum): Quest[] => {
+  const mapDataToCollectables = (selectedGame?: SubscriptionTypeEnum): GameContentItem[] => {
     switch (selectedGame) {
       case SubscriptionTypeEnum.SKYRIM:
-        let skyrimQuests = skyrim_quests.map((quest: Quest) => {
-          return quest as Quest;
-        });
-        return filterData(user.data.skyrim.settingsConfig, skyrimQuests);
-      case SubscriptionTypeEnum.FALLOUT_4:
-        let fallout4Quests = fallout4_quests.map((quest: Quest) => {
-          return quest as Quest;
-        });
-        return filterData(user.data.fallout4.settingsConfig, fallout4Quests);
-      default: 
-        return [];   
-    }
-  };
-
-  const mapDataToCollectables = (selectedGame?: SubscriptionTypeEnum): Collectable[] => {
-    switch (selectedGame) {
-      case SubscriptionTypeEnum.SKYRIM:
-        return skyrim_collectables.map((collectable: Collectable) => {
-          return collectable as Collectable;
+        return skyrim_collectables.map((collectable: Partial<GameContentItem>) => {
+          return collectable as GameContentItem;
         });
       case SubscriptionTypeEnum.FALLOUT_4:
-        return fallout4_collectables.map((collectable: Collectable) => {
-          return collectable as Collectable;
+        return fallout4_collectables.map((collectable: Partial<GameContentItem>) => {
+          return collectable as GameContentItem;
         });
       default: 
         return [];   
     }
   };
 
-  const mapDataToFilteredCollectables = (selectedGame?: SubscriptionTypeEnum): Collectable[] => {
+  const mapDataToMiscItems = (selectedGame?: SubscriptionTypeEnum): GameContentItem[] => {
     switch (selectedGame) {
       case SubscriptionTypeEnum.SKYRIM:
-        let skyrimCollectables = skyrim_collectables.map((collectable: Collectable) => {
-          return collectable as Collectable
-        });
-        return filterData(user.data.skyrim.settingsConfig, skyrimCollectables);
-      case SubscriptionTypeEnum.FALLOUT_4:
-        let fallout4Collectables = fallout4_collectables.map((collectable: Collectable) => {
-          return collectable as Collectable
-        });
-        return filterData(user.data.fallout4.settingsConfig, fallout4Collectables);
-      default: 
-        return [];   
-    }
-  };
-
-  const mapDataToMiscItems = (selectedGame?: SubscriptionTypeEnum): MiscItem[] => {
-    switch (selectedGame) {
-      case SubscriptionTypeEnum.SKYRIM:
-        return skyrim_misc.map((miscItem: MiscItem) => {
-          return miscItem as MiscItem
+        return skyrim_misc.map((miscItem: Partial<GameContentItem>) => {
+          return miscItem as GameContentItem
         });
       case SubscriptionTypeEnum.FALLOUT_4:
-        return fallout4_misc.map((miscItem: MiscItem) => {
-          return miscItem as MiscItem
+        return fallout4_misc.map((miscItem: Partial<GameContentItem>) => {
+          return miscItem as GameContentItem
         });
-      default: 
-        return [];   
-    }
-  };
-
-  const mapDataToFilteredMiscItems = (selectedGame?: SubscriptionTypeEnum): MiscItem[] => {
-    switch (selectedGame) {
-      case SubscriptionTypeEnum.SKYRIM:
-        let skyrimMisc = skyrim_misc.map((miscItem: MiscItem) => {
-          return miscItem as MiscItem
-        });
-        return filterData(user.data.skyrim.settingsConfig, skyrimMisc);
-      case SubscriptionTypeEnum.FALLOUT_4:
-        let fallout4Misc = fallout4_misc.map((miscItem: MiscItem) => {
-          return miscItem as MiscItem
-        });
-        return filterData(user.data.fallout4.settingsConfig, fallout4Misc);
       default: 
         return [];   
     }
   };
   
-  const mapDataToLocations = (selectedGame?: SubscriptionTypeEnum): Location[] => {
+  const mapDataToLocations = (selectedGame?: SubscriptionTypeEnum): GameContentItem[] => {
     switch (selectedGame) {
       case SubscriptionTypeEnum.SKYRIM:
-        return skyrim_locations.map((location: Location) => {
-          return location as Location;
+        return skyrim_locations.map((location: Partial<GameContentItem>) => {
+          return location as GameContentItem;
         });
       case SubscriptionTypeEnum.FALLOUT_4:
-        return fallout4_locations.map((location: Location) => {
-          return location as Location;
+        return fallout4_locations.map((location: Partial<GameContentItem>) => {
+          return location as GameContentItem;
         });
-      default: 
-        return [];   
-    }
-  };
-
-  const mapDataToFilteredLocations = (selectedGame?: SubscriptionTypeEnum): Location[] => {
-    switch (selectedGame) {
-      case SubscriptionTypeEnum.SKYRIM:
-        let skyrimLocations = skyrim_locations.map((location: Location) => {
-          return location as Location
-        });
-        return filterLocationData(user.data.skyrim.settingsConfig, skyrimLocations);
-      case SubscriptionTypeEnum.FALLOUT_4:
-        let fallout4Locations = fallout4_locations.map((location: Location) => {
-          return location as Location
-        });
-        return filterLocationData(user.data.fallout4.settingsConfig, fallout4Locations);
       default: 
         return [];   
     }
   };
 
   return {
-    mapDataTo,
-    mapDataToQuests,
-    mapDataToFilteredQuests,
-    mapDataToCollectables,
-    mapDataToFilteredCollectables,
-    mapDataToLocations,
-    mapDataToFilteredLocations,
-    mapDataToMiscItems,
-    mapDataToFilteredMiscItems
+    mapDataTo
   }
 };
 

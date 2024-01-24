@@ -2,9 +2,9 @@ import React from 'react';
 import Dropdown from '@components/general/Dropdown/Dropdown.native';
 import useGetCollectables from './hooks/useGetContent';
 import ListItem from '@components/general/Lists/ListItem.native';
-import useCheckCollectableComplete from './hooks/useCheckCollectableComplete';
+import useCheckCollectableComplete from './hooks/useCheckContentComplete';
 import { listStyles, ListItemScrollView } from '@components/general/Lists/ListStyledComponents.native';
-import useCollectableDispatch from './hooks/useCollectableDispatch';
+import useCollectableDispatch from './hooks/useContentDispatch';
 import useCollectableState from './hooks/useContentState';
 import SubTypeListHeader from '@components/general/Lists/SubTypeListHeader.native';
 

@@ -14,7 +14,7 @@ export const initialState: CollectableState = {
 };
 
 const slice = createSlice({
-  title: 'collectable',
+  name: 'collectable',
   initialState: initialState,
   reducers: {
     setSearchValue: (state, action) => {
