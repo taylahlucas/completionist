@@ -27,7 +27,7 @@ const ContentMainDropdown = ({ category, completed, total }: ContentMainDropdown
   const subCategories = getContentSubCategories(category, selectedGame);
   const { checkContentCompleteForCategory } = useCheckContentComplete();
   const isEnabled: boolean = selectedGameData?.settingsConfig.find(settings => settings.category === category && settings.section === sectionType)?.isActive ?? false;
-  
+
   // TODO: Misc main list not showing
   return (
     <Dropdown
@@ -42,25 +42,23 @@ const ContentMainDropdown = ({ category, completed, total }: ContentMainDropdown
       }
     >
       <SubListContainer>
-        <Condition
-          condition={subCategories.length > 0}
-          conditionalElement={
-            <ContentMainList subCategory={category} />
-          }>
-          {subCategories.map((subCategory, index) => {
-            const contentForCategory = getContentForSubCategory(category, subCategory);
-            const completedContent = checkContentCompleteForCategory(contentForCategory);
+        {subCategories.map((subCategory, index) => {
+          const questsForCategory = getContentForSubCategory(subCategory);
+          const completedQuests = checkContentCompleteForCategory(questsForCategory);
 
-            return (
+          return (
+            <Condition key={index} condition={questsForCategory.length > 0}>
               <ContentSubDropdown
                 key={index}
-                mainCategory={category}
                 subCategory={subCategory}
-                completed={completedContent.toString()}
-                total={contentForCategory.length.toString()}
+                completed={completedQuests.toString()}
+                total={questsForCategory.length.toString()}
               />
-            )
-          })}
+            </Condition>
+          )
+        })}
+        <Condition condition={subCategories.length === 0}>
+          <ContentMainList mainCategory={category} />
         </Condition>
       </SubListContainer>
     </Dropdown>
