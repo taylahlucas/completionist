@@ -19,7 +19,7 @@ const LocationSearchResults = () => {
         <ListItem
           key={index}
           id={location.id}
-          title={location.name}
+          title={location.title}
           isComplete={checkLocationComplete(location.id)}
           action={((): void => updateLocationsComplete(location.id))}
         />

@@ -8,6 +8,7 @@ import { CollectableState } from '@components/custom/CollectableList/Collectable
 import { LocationState } from '@components/custom/LocationList/LocationState';
 import { QuestState } from '@components/custom/QuestList/QuestState';
 import { GameKey } from './CustomTypes';
+import { ContentState } from '@components/custom/ContentList/ContentState';
 
 export interface Quest {
   id: string;
@@ -23,14 +24,14 @@ export interface Quest {
 
 export interface Location {
   id: string;
-  name: string;
+  title: string;
   hold: string;
   dlc: string;
 }
 
 export interface MiscItem {
   id: string;
-  name: string;
+  title: string;
   mainCategory: string;
   subCategory?: string;
   dlc: string;
@@ -41,7 +42,7 @@ export interface Collectable {
   mainCategory: string;
   subCategory?: string;
   subCategoryType?: string;
-  name: string;
+  title: string;
   prerequisite?: string;
   dlc: string;
 }
@@ -62,6 +63,8 @@ export interface StoreState {
   main: MainState;
   login: LoginState;
   settings: SettingsState;
+  content: ContentState;
+  // TODO: Remove?
   quest: QuestState;
   collectable: CollectableState;
   location: LocationState;
@@ -109,7 +112,7 @@ export interface NativeNavigation {
 
 export interface LoginFormData {
   userId: string;
-  name: string;
+  title: string;
   email: string;
   password?: string;
   userAvatar?: string;

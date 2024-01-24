@@ -9,8 +9,12 @@ import fallout4_misc from '../../../backend/database/fallout4/fallout4_misc.json
 import { SubscriptionTypeEnum } from '@utils/CustomEnums';
 import { Collectable, Location, MiscItem, Quest, SettingsConfigItem } from '@utils/CustomInterfaces';
 import useMainState from '@redux/hooks/useMainState';
+import { ContentSection } from '@utils/CustomTypes';
+
+type MapDataReturnType = Quest | Collectable | Location | MiscItem;
 
 interface GameDataReturnType {
+  mapDataTo: (type: ContentSection, selectedGame?: SubscriptionTypeEnum) => MapDataReturnType[];
   mapDataToQuests: (selectedGame?: SubscriptionTypeEnum) => Quest[];
   mapDataToFilteredQuests: (selectedGame?: SubscriptionTypeEnum) => Quest[];
   mapDataToCollectables: (selectedGame?: SubscriptionTypeEnum) => Collectable[];
@@ -43,6 +47,21 @@ const useGetGameData = (): GameDataReturnType => {
     
     return data;
   }
+
+  const mapDataTo = (type: ContentSection, selectedGame?: SubscriptionTypeEnum): MapDataReturnType => {
+    switch (type) {
+      case 'Quests':
+        return mapDataToQuests(selectedGame);
+      case 'Collectables':
+        return mapDataToCollectables(selectedGame);
+      case 'Locations':
+        return mapDataToLocations(selectedGame);
+      case 'Miscellaneous':
+        return mapDataToMiscItems(selectedGame);
+      default:
+        return []
+    }
+  };
 
   const mapDataToQuests = (selectedGame?: SubscriptionTypeEnum): Quest[] => {
     switch (selectedGame) {
@@ -173,6 +192,7 @@ const useGetGameData = (): GameDataReturnType => {
   };
 
   return {
+    mapDataTo,
     mapDataToQuests,
     mapDataToFilteredQuests,
     mapDataToCollectables,

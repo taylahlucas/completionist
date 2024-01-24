@@ -31,7 +31,7 @@ const AnimatedCheckBox = ({ isToggled, action }: AnimatedCheckBoxProps) => {
         condition={isToggled}
         conditionalElement={
           <Icon
-            name={'circle-thin'}
+            title={'circle-thin'}
             type={IconTypeEnum.FontAwesome}
             size={33}
             color={theme.lightGrey}

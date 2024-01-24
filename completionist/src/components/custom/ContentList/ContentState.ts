@@ -1,12 +1,12 @@
 import { createSlice } from '@reduxjs/toolkit';
 import { DropDownType } from '@utils/CustomInterfaces';
 
-export interface CollectableState {
+export interface ContentState {
   readonly searchValue: string;
   readonly selectedCategory: DropDownType;
 };
 
-export const initialState: CollectableState = {
+export const initialState: ContentState = {
   searchValue: '',
   selectedCategory: {
     category: ''
@@ -14,7 +14,7 @@ export const initialState: CollectableState = {
 };
 
 const slice = createSlice({
-  title: 'collectable',
+  title: 'content',
   initialState: initialState,
   reducers: {
     setSearchValue: (state, action) => {

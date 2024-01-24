@@ -24,7 +24,7 @@ const useGetLocations = (): GetLocationReturnType => {
   const { getUserLocations } = useGetUserGameData();
 
   const getFilteredLocations = (): Location[] => {
-    return locations.filter(item => getFormattedSearchString(item.name).includes(getFormattedSearchString(searchValue)));;
+    return locations.filter(item => getFormattedSearchString(item.title).includes(getFormattedSearchString(searchValue)));;
   };
 
   const getLocationsForDLC = (dlc: string): Location[] => {

@@ -1,7 +1,7 @@
 Locations
 {
   id: generated_uuid
-  name: string,
+  title: string,
   hold: string,
   dlc: string
 }
@@ -9,7 +9,7 @@ Locations
 Miscellaneous
 {
   id: generated_uuid
-  name: string,
+  title: string,
   mainCategory: string,
   subCategory?: string,
   dlc: string
@@ -21,7 +21,7 @@ Collectables
   mainCategory: string,
   subCategory?: string,
   subCategoryType?: string,
-  name: string,
+  title: string,
   prerequisite?: string,
   dlc: string
 }
@@ -44,7 +44,7 @@ to the following JSON:
 
   {
     "id": <generated_uuid>,
-    "name": <given value>,
+    "title": <given value>,
     "hold": "",
     "dlc": "Automatron"
   }

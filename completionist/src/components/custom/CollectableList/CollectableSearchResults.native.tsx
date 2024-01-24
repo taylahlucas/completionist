@@ -19,7 +19,7 @@ const CollectableSearchResults = () => {
         <ListItem
           key={index}
           id={collectable.id}
-          title={collectable.name}
+          title={collectable.title}
           isComplete={checkCollectableComplete(collectable.id)}
           action={((): void => updateCollectablesComplete(collectable.id))}
         />

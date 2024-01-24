@@ -14,7 +14,7 @@ export const initialState: LocationState = {
 };
 
 const slice = createSlice({
-  name: 'location',
+  title: 'location',
   initialState: initialState,
   reducers: {
     setSearchValue: (state, action) => {

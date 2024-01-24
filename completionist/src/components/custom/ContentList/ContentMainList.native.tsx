@@ -1,16 +1,16 @@
 import React from 'react';
-import useGetMiscItems from './hooks/useGetMiscItems';
-import useCheckMiscItemComplete from './hooks/useCheckMiscItemComplete';
+import useGetMiscItems from './hooks/useGetMiscItems.android';
+import useCheckMiscItemComplete from './hooks/useCheckMiscItemComplete.android';
 import ListItem from '@components/general/Lists/ListItem.native';
 import { listStyles, ListItemScrollView } from '@components/general/Lists/ListStyledComponents.native';
 
-export interface MiscItemMainListProps {
+export interface ContentMainListProps {
   mainCategory: string;
   subCategory?: string;
   isSubCategory?: boolean;
 }
 
-const MiscItemMainList = ({ mainCategory, subCategory, isSubCategory = false }: MiscItemMainListProps) => {
+const ContentMainList = ({ mainCategory, subCategory, isSubCategory = false }: ContentMainListProps) => {
   const { getMiscItemsForSubCategory, getMiscItemsForCategory, updateMiscItemsComplete } = useGetMiscItems();
   const miscItems = isSubCategory ? getMiscItemsForSubCategory(mainCategory, subCategory) : getMiscItemsForCategory(mainCategory);
   const { checkMiscItemComplete } = useCheckMiscItemComplete();
@@ -30,4 +30,5 @@ const MiscItemMainList = ({ mainCategory, subCategory, isSubCategory = false }: 
   );
 };
 
-export default MiscItemMainList;
+export default ContentMainList;
+

@@ -6,11 +6,14 @@ import questReducer from '@components/custom/QuestList/QuestState';
 import collectableReducer from '@components/custom/CollectableList/CollectableState';
 import locationReducer from '@components/custom/LocationList/LocationState';
 import miscReducer from '@components/custom/MiscList/MiscState';
+import contentReducer from '@components/custom/ContentList/ContentState';
 
 export const reducers = {
   main: mainReducer,
   login: loginReducer,
   settings: settingsReducer,
+  content: contentReducer,
+  // TOOD: Remove?
   quest: questReducer,
   collectable: collectableReducer,
   location: locationReducer,

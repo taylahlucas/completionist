@@ -23,7 +23,7 @@ const useGetMiscItems = (): GetMiscItemsReturnType => {
   const { getUserMiscItems } = useGetUserGameData();
 
   const getFilteredMiscItems = (): MiscItem[] => {
-    return miscItems.filter(item => getFormattedSearchString(item.name).includes(getFormattedSearchString(searchValue)));;
+    return miscItems.filter(item => getFormattedSearchString(item.title).includes(getFormattedSearchString(searchValue)));;
   };
 
   const getMiscItemsForCategory = (category: string): MiscItem[] => {

@@ -16,7 +16,7 @@ const DropdownSelection = ({ item, isSelected = false, onPress }: DropdownSelect
       <DropdownSelectionInnerContainer>
         <DropdownSelectionTitle type={'ListItemSubTitleBold'} color={theme.lightGrey}>{item}</DropdownSelectionTitle>
         <DropdownSelectionIconButton 
-          name={isSelected ? 'arrow-drop-down' : 'arrow-right'}
+          title={isSelected ? 'arrow-drop-down' : 'arrow-right'}
           onPress={onPress} 
           size={30} 
           color={theme.lightGrey} 

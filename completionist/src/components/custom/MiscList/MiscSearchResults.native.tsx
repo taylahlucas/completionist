@@ -19,7 +19,7 @@ const MiscSearchResults = () => {
         <ListItem
           key={index}
           id={item.id}
-          title={item.name}
+          title={item.title}
           isComplete={checkMiscItemComplete(item.id)}
           action={((): void => updateMiscItemsComplete(item.id))}
         />

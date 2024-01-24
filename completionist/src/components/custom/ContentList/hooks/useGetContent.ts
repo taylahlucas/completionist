@@ -5,6 +5,10 @@ import useGetGameData from '@data/hooks/useGetGameData';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
 import useGetUserGameData from '@data/hooks/useGetUserGameData';
 import useCollectableState from './useCollectableState';
+import { ContentSection } from '@utils/CustomTypes';
+
+import useGetQuests from '@components/custom/QuestList/hooks/useGetQuests';
+import useContentState from './useContentState';
 
 interface GameDataReturnType {
   getFilteredCollectables: () => Collectable[];
@@ -15,17 +19,17 @@ interface GameDataReturnType {
   updateCollectablesComplete: (collectableId: string) => void;
 }
 
-const useGetCollectables = (): GameDataReturnType => {
+const useGetContent = (type: ContentSection): GameDataReturnType => {
   const { setCompletedCollectables } = useMainDispatch();
   const { selectedGame } = useMainState();
-  const { searchValue } = useCollectableState();
+  const { searchValue } = useContentState();
   const getFormattedSearchString = useSearchStringFormatter();
-  const { mapDataToFilteredCollectables } = useGetGameData();
-  const collectables = mapDataToFilteredCollectables(selectedGame);
+  const { mapDataTo } = useGetGameData();
+  const items = mapDataTo(type, selectedGame);
   const { getUserCollectables } = useGetUserGameData();
 
-  const getFilteredCollectables = () => {
-    return collectables.filter(collectable => getFormattedSearchString(collectable.title).includes(getFormattedSearchString(searchValue)));
+  const getFilteredContent = () => {
+    return items.filter(item => getFormattedSearchString(item.title).includes(getFormattedSearchString(searchValue)));
   }
 
   const getCollectablesForSubCategory = (mainCategory: string, subCategory: string = ''): Collectable[] => {
@@ -68,4 +72,4 @@ const useGetCollectables = (): GameDataReturnType => {
   }
 };
 
-export default useGetCollectables;
+export default useGetContent;

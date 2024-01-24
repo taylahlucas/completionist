@@ -37,7 +37,7 @@ const LocationSubDropdown = ({ dlc, hold, completed, total }: LocationSubDropdow
           <ListItem
             key={index}
             id={location.id}
-            title={location.name}
+            title={location.title}
             isComplete={checkLocationComplete(location.id)}
             action={(): void => updateLocationsComplete(location.id)}
           />

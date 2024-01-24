@@ -21,7 +21,7 @@ const CustomSearchBar = ({ placeholder = 'Search items...', searchValue, setSear
       height={38}
       onChangeText={setSearchValue}
       onReset={onReset}
-      leftComponent={<Icon style={styles.searchBarIcon} name={'search'} color={theme.midGrey} />}
+      leftComponent={<Icon style={styles.searchBarIcon} title={'search'} color={theme.midGrey} />}
     />
 
   );
