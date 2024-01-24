@@ -25,11 +25,11 @@ const useGetContent = (): GameDataReturnType => {
   }
 
   const getContentForCategory = (mainCategory: string): GameContentItem[] => {
-    return items.filter(item => item.mainCategory === mainCategory);
+    return items.filter(item => item.mainCategory === (mainCategory === 'None' ? 'Main' : mainCategory));
   }
 
   const getContentForSubCategory = (mainCategory: string = '', subCategory: string = ''): GameContentItem[] => {
-    return items.filter(item => item.mainCategory === mainCategory && item.subCategory === subCategory);
+    return items.filter(item => item.mainCategory === (mainCategory === 'None' ? 'Main' : mainCategory) && item.subCategory === subCategory);
   }
 
   const getContentForSubCategoryWithType = (subCategory: string, subCategoryType: string = ''): GameContentItem[] => {
@@ -37,7 +37,7 @@ const useGetContent = (): GameDataReturnType => {
   }
 
   const getAllContentForCategory = (mainCategory: string): GameContentItem[] => {
-    return items.filter(item => item.mainCategory === mainCategory);
+    return items.filter(item => item.mainCategory === (mainCategory === 'None' ? 'Main' : mainCategory));
   }
 
   return {

@@ -29,7 +29,6 @@ const NavigationDrawerItem = ({ item, isActive }: NavigationDrawerItemProps) => 
       onPress={(): void => {
         navigation.navigate(item.id);
         if (item.id as ContentSection) {
-          console.log("SETTING SECTION TYPE: ", item.id)
           setSelectedSection(item.id as ContentSection);
         }
         reset();

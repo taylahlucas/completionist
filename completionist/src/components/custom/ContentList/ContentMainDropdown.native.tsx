@@ -28,33 +28,32 @@ const ContentMainDropdown = ({ category, completed, total }: ContentMainDropdown
   const { checkContentCompleteForCategory } = useCheckContentComplete();
   const isEnabled: boolean = selectedGameData?.settingsConfig.find(settings => settings.category === category && settings.section === sectionType)?.isActive ?? false;
 
-  // TODO: Misc main list not showing
   return (
     <Dropdown
       isOpen={category === selectedCategory.category}
       setOpen={(): void => setSelectedCategory({
         ...selectedCategory,
-        category: category === selectedCategory.category ? '' : category
+        category: category === selectedCategory.category ? '' : category,
+        subCategory: ''
       })}
       enabled={isEnabled}
       header={
-        <ListHeader title={category} enabled={isEnabled} completed={completed} total={total} />
+        <ListHeader title={category === 'None' ? 'Main' : category} enabled={isEnabled} completed={completed} total={total} />
       }
     >
       <SubListContainer>
         {subCategories.map((subCategory, index) => {
-          const questsForCategory = getContentForSubCategory(subCategory);
+          const questsForCategory = getContentForSubCategory(category, subCategory);
           const completedQuests = checkContentCompleteForCategory(questsForCategory);
-
+          
           return (
-            <Condition key={index} condition={questsForCategory.length > 0}>
-              <ContentSubDropdown
-                key={index}
-                subCategory={subCategory}
-                completed={completedQuests.toString()}
-                total={questsForCategory.length.toString()}
-              />
-            </Condition>
+            <ContentSubDropdown
+              key={index}
+              mainCategory={category}
+              subCategory={subCategory}
+              completed={completedQuests.toString()}
+              total={questsForCategory.length.toString()}
+            />
           )
         })}
         <Condition condition={subCategories.length === 0}>

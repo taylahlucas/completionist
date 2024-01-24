@@ -32,7 +32,8 @@ const ContentSubDropdown = ({ mainCategory, subCategory, completed, total }: Con
       isOpen={subCategory === selectedCategory.subCategory}
       setOpen={() => setSelectedCategory({
         ...selectedCategory,
-        subCategory: subCategory === selectedCategory.subCategory ? '' : subCategory
+        subCategory: subCategory === selectedCategory.subCategory ? '' : subCategory,
+        type: ''
       })}
       header={
         <SubListHeader title={subCategory} completed={completed} total={total} />

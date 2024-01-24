@@ -14,8 +14,7 @@ export interface ContentMainListProps {
 const ContentMainList = ({ mainCategory, subCategory, isSubCategory = false }: ContentMainListProps) => {
   const { getContentForCategory, getContentForSubCategory} = useGetContent();
   const { updateContentComplete } = useUpdateContent();
-  // TODO: Check here mainCategory ?? ''
-  const items = isSubCategory ? getContentForSubCategory(mainCategory, subCategory) : getContentForCategory(mainCategory ?? '');
+  const items = isSubCategory ? getContentForSubCategory(mainCategory, subCategory) : getContentForCategory(mainCategory ?? 'Main');
   const { checkContentComplete } = useCheckContentComplete();
 
   return (
