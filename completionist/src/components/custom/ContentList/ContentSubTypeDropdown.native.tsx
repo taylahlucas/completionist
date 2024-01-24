@@ -1,12 +1,13 @@
 import React from 'react';
 import Dropdown from '@components/general/Dropdown/Dropdown.native';
-import useGetCollectables from './hooks/useGetContent';
+import useGetContents from './hooks/useGetContent';
 import ListItem from '@components/general/Lists/ListItem.native';
-import useCheckCollectableComplete from './hooks/useCheckContentComplete';
+import useCheckContentComplete from './hooks/useCheckContentComplete';
 import { listStyles, ListItemScrollView } from '@components/general/Lists/ListStyledComponents.native';
-import useCollectableDispatch from './hooks/useContentDispatch';
-import useCollectableState from './hooks/useContentState';
+import useContentDispatch from './hooks/useContentDispatch';
+import useContentState from './hooks/useContentState';
 import SubTypeListHeader from '@components/general/Lists/SubTypeListHeader.native';
+import useUpdateContent from './hooks/useUpdateContent';
 
 export interface ContentSubTypeDropdownProps {
   subCategory: string;
@@ -16,11 +17,12 @@ export interface ContentSubTypeDropdownProps {
 }
 
 const ContentSubTypeDropdown = ({ subCategory, type, completed, total }: ContentSubTypeDropdownProps) => {
-  const { setSelectedCategory } = useCollectableDispatch();
-  const { selectedCategory } = useCollectableState();
-  const { getCollectablesForSubCategoryWithType, updateCollectablesComplete } = useGetCollectables();
-  const collectables = getCollectablesForSubCategoryWithType(subCategory, type);
-  const { checkCollectableComplete } = useCheckCollectableComplete();
+  const { setSelectedCategory } = useContentDispatch();
+  const { selectedCategory } = useContentState();
+  const { getContentForSubCategoryWithType } = useGetContents();
+  const { updateContentComplete } = useUpdateContent();
+  const items = getContentForSubCategoryWithType(subCategory, type);
+  const { checkContentComplete } = useCheckContentComplete();
   
   return (
     <Dropdown
@@ -34,13 +36,13 @@ const ContentSubTypeDropdown = ({ subCategory, type, completed, total }: Content
       }
     >
       <ListItemScrollView contentContainerStyle={listStyles.listItemScrollableList}>
-        {collectables?.map((collectable, index) => (
+        {items?.map((item, index) => (
           <ListItem
             key={index}
-            id={collectable.id}
-            title={collectable.title}
-            isComplete={checkCollectableComplete(collectable.id)}
-            action={((): void => updateCollectablesComplete(collectable.id))}
+            id={item.id}
+            title={item.title}
+            isComplete={checkContentComplete(item.id)}
+            action={((): void => updateContentComplete(item.id))}
           />
         ))}
       </ListItemScrollView>

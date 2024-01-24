@@ -1,16 +1,15 @@
 import React from 'react';
 import Condition from '@components/general/Condition.native';
 import Dropdown from '@components/general/Dropdown/Dropdown.native';
-import { CollectableSubDropdownContainer } from './CollectableListStyledComponents.native';
 import ListHeader from '@components/general/Lists/ListHeader.native';
-import CollectableSubDropdown from './CollectableSubDropdown.native';
-import CollectableMainList from './CollectableMainList.native';
-import useGetCollectables from './hooks/useGetContent';
+import ContentSubDropdown from './ContentSubDropdown.native';
+import ContentMainList from './ContentMainList.native';
+import useGetContents from './hooks/useGetContent';
 import useMainState from '@redux/hooks/useMainState';
-import useCheckCollectableComplete from './hooks/useCheckContentComplete';
-import useGetCollectableCategories from './hooks/useGetContentCategories';
-import useCollectableState from './hooks/useCollectableState';
-import useCollectableDispatch from './hooks/useContentDispatch';
+import useCheckContentComplete from './hooks/useCheckContentComplete';
+import useGetContentCategories from './hooks/useGetContentCategories';
+import useContentState from './hooks/useContentState';
+import useContentDispatch from './hooks/useContentDispatch';
 import { SubListContainer } from '@components/general/Lists/ListStyledComponents.native';
 
 export interface ContentMainDropdownProps {
@@ -21,13 +20,13 @@ export interface ContentMainDropdownProps {
 
 const ContentMainDropdown = ({ category, completed, total }: ContentMainDropdownProps) => {
   const { selectedGame, userSettings } = useMainState();
-  const { setSelectedCategory } = useCollectableDispatch();
-  const { selectedCategory } = useCollectableState();
-  const { getCollectableSubCategories } = useGetCollectableCategories();
-  const { getCollectablesForSubCategory } = useGetCollectables();
-  const subCategories = getCollectableSubCategories(category, selectedGame);
-  const { checkCollectablesCompleteForCategory } = useCheckCollectableComplete();
-  const isEnabled: boolean = userSettings?.find(settings => settings.category === category && settings.section === "Collectables")?.isActive ?? false;
+  const { setSelectedCategory } = useContentDispatch();
+  const { selectedCategory } = useContentState();
+  const { getContentSubCategories } = useGetContentCategories();
+  const { getContentForSubCategory } = useGetContents();
+  const subCategories = getContentSubCategories(category, selectedGame);
+  const { checkContentCompleteForCategory } = useCheckContentComplete();
+  const isEnabled: boolean = userSettings?.find(settings => settings.category === category && settings.section === "Contents")?.isActive ?? false;
 
   return (
     <Dropdown
@@ -45,19 +44,19 @@ const ContentMainDropdown = ({ category, completed, total }: ContentMainDropdown
         <Condition
           condition={subCategories.length > 0}
           conditionalElement={
-            <CollectableMainList subCategory={category} />
+            <ContentMainList subCategory={category} />
           }>
           {subCategories.map((subCategory, index) => {
-            const collectablesForCategory = getCollectablesForSubCategory(category, subCategory);
-            const completedCollectables = checkCollectablesCompleteForCategory(collectablesForCategory);
+            const contentForCategory = getContentForSubCategory(category, subCategory);
+            const completedContent = checkContentCompleteForCategory(contentForCategory);
 
             return (
-              <CollectableSubDropdown
+              <ContentSubDropdown
                 key={index}
                 mainCategory={category}
                 subCategory={subCategory}
-                completed={completedCollectables.toString()}
-                total={collectablesForCategory.length.toString()}
+                completed={completedContent.toString()}
+                total={contentForCategory.length.toString()}
               />
             )
           })}

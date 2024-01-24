@@ -1,11 +1,12 @@
 import useMainDispatch from '@redux/hooks/useMainDispatch';
 import useMainState from '@redux/hooks/useMainState';
 import { Item } from '@utils/CustomInterfaces';
-import { ContentSection } from '@utils/CustomTypes';
+import useContentState from './useContentState';
 
-const useUpdateContent = (type: ContentSection) => {
+const useUpdateContent = () => {
   const { setCompletedQuests, setCompletedCollectables, setCompletedLocations, setCompletedMiscItems } = useMainDispatch();
   const { selectedGameData } = useMainState();
+  const { sectionType } = useContentState();
 
   const updateContentAction = (itemId: string, completedContent: Item[], itemToUpdate?: Item) => {
     if (!!itemToUpdate) {
@@ -22,7 +23,7 @@ const useUpdateContent = (type: ContentSection) => {
 
   const updateContentComplete = (itemId: string) => {
     let completedContent = [];
-    switch (type) {
+    switch (sectionType) {
       case 'Quests':
         completedContent = selectedGameData?.quests.filter(item => item.isComplete) ?? [];
         break;
@@ -39,7 +40,7 @@ const useUpdateContent = (type: ContentSection) => {
     const itemToUpdate = completedContent.find(item => item.id === itemId);
     const updatedContent = updateContentAction(itemId, completedContent, itemToUpdate);
 
-    switch (type) {
+    switch (sectionType) {
       case 'Quests':
         setCompletedQuests(updatedContent);
         break;

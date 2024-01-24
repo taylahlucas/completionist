@@ -1,17 +1,19 @@
 import useMainState from '@redux/hooks/useMainState';
 import { GameContentItem } from '@utils/CustomInterfaces';
 import { ContentSection } from '@utils/CustomTypes';
+import useContentState from './useContentState';
 
 interface CheckContentCompleteReturnType {
   checkContentComplete: (id: string) => boolean;
   checkContentCompleteForCategory: (collectables: GameContentItem[]) => number;
 }
 
-const useCheckContentComplete = (type: ContentSection): CheckContentCompleteReturnType => {
+const useCheckContentComplete = (): CheckContentCompleteReturnType => {
   const { selectedGameData } = useMainState();
+  const { sectionType } = useContentState();
 
   const checkContentComplete = (id: string): boolean => {
-    switch (type) {
+    switch (sectionType) {
       case 'Quests':
         return !!selectedGameData?.quests.find(item => item.id === id && item.isComplete);
       case 'Collectables':
@@ -28,7 +30,7 @@ const useCheckContentComplete = (type: ContentSection): CheckContentCompleteRetu
   const checkContentCompleteForCategory = (items: GameContentItem[]): number => {
     let count = 0;
 
-    switch (type) {
+    switch (sectionType) {
       case 'Quests':
         selectedGameData?.quests.forEach((quest) => {
           items.forEach((item) => {

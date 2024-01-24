@@ -9,21 +9,17 @@ import SearchResults from './SearchResults.native';
 import ContentMainDropdown from './ContentMainDropdown.native';
 import useCheckContentComplete from './hooks/useCheckContentComplete';
 
-interface ContentListProps {
-  type: ContentSection;
-}
-
-const ContentList = ({ type = 'Quests' }: ContentListProps) => {
-  const { searchValue } = useContentState();
-  const { getContentCategories } = useGetContentCategories(type);
-  const { getAllContentForCategory } = useGetContent(type);
-  const { checkContentCompleteForCategory } = useCheckContentComplete(type);
+const ContentList = () => {
+  const { sectionType, searchValue } = useContentState();
+  const { getContentCategories } = useGetContentCategories();
+  const { getAllContentForCategory } = useGetContent();
+  const { checkContentCompleteForCategory } = useCheckContentComplete();
 
   return (
     <Condition
       condition={searchValue.length < 2}
       conditionalElement={
-        <SearchResults type={type} />
+        <SearchResults type={sectionType} />
       }
     >
       <ScrollableList>

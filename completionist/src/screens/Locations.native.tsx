@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import StandardLayout from '@components/general/Layouts/StandardLayout.native';
 import { CompletedQuantityTitle } from '@components/general/Text/StyledTextStyledComponents.native';
 import NavigationHeader from '@navigation/NavigationHeader.native';
@@ -7,17 +7,21 @@ import LocationList from '@components/custom/LocationList/LocationList.native';
 import useGetGameData from '@data/hooks/useGetGameData';
 import useGetUserGameData from '@data/hooks/useGetUserGameData';
 import useMainState from '@redux/hooks/useMainState';
-import useLocationState from '@components/custom/LocationList/hooks/useLocationState';
-import useLocationDispatch from '@components/custom/LocationList/hooks/useLocationDispatch';
+import useContentDispatch from '@components/custom/ContentList/hooks/useContentDispatch';
+import useContentState from '@components/custom/ContentList/hooks/useContentState';
 
 const Locations = () => {
+  const sectionType = 'Locations';
   const { selectedGame } = useMainState();
-  const { setSearchValue } = useLocationDispatch();
-  const { searchValue } = useLocationState();
+  const { setSectionType, setSearchValue } = useContentDispatch();
+  const { searchValue } = useContentState();
   const { getUserLocations } = useGetUserGameData();
-  const { mapDataToFilteredLocations } = useGetGameData();
+  const { mapDataTo } = useGetGameData();
 
-  // TODO: Fix amounts filtering
+  useEffect(() => {
+    setSectionType(sectionType);
+  }, []);
+
   return (
     <StandardLayout>
       <NavigationHeader title={'Locations'} />
@@ -26,7 +30,7 @@ const Locations = () => {
         setSearchValue={setSearchValue}
         onReset={(): void => setSearchValue('')} 
       />
-      <CompletedQuantityTitle type={'ListItemTitleBold'}>{`${getUserLocations().length}/${mapDataToFilteredLocations(selectedGame).length}`}</CompletedQuantityTitle>
+      <CompletedQuantityTitle type={'ListItemTitleBold'}>{`${getUserLocations().length}/${mapDataTo(sectionType, selectedGame, true).length}`}</CompletedQuantityTitle>
       <LocationList />
     </StandardLayout>
   );

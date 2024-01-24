@@ -1,12 +1,15 @@
 import { createSlice } from '@reduxjs/toolkit';
 import { DropDownType } from '@utils/CustomInterfaces';
+import { ContentSection } from '@utils/CustomTypes';
 
 export interface ContentState {
+  readonly sectionType: ContentSection;
   readonly searchValue: string;
   readonly selectedCategory: DropDownType;
 };
 
 export const initialState: ContentState = {
+  sectionType: 'Quests',
   searchValue: '',
   selectedCategory: {
     category: ''
@@ -17,6 +20,9 @@ const slice = createSlice({
   name: 'content',
   initialState: initialState,
   reducers: {
+    setSectionType: (state, action) => {
+      state.sectionType = action.payload;
+    },
     setSearchValue: (state, action) => {
       state.searchValue = action.payload;
     },
@@ -34,6 +40,7 @@ const slice = createSlice({
 });
 
 export const {
+  setSectionType,
   setSearchValue,
   setSelectedCategory
 } = slice.actions;

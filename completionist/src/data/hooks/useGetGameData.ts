@@ -13,10 +13,6 @@ import { ContentSection } from '@utils/CustomTypes';
 
 interface GameDataReturnType {
   mapDataTo: (type: ContentSection, selectedGame?: SubscriptionTypeEnum, filter?: boolean) => GameContentItem[];
-  // mapDataToQuests: (selectedGame?: SubscriptionTypeEnum) => Quest[];
-  // mapDataToCollectables: (selectedGame?: SubscriptionTypeEnum) => Collectable[];
-  // mapDataToLocations: (selectedGame?: SubscriptionTypeEnum) => Location[];
-  // mapDataToMiscItems: (selectedGame?: SubscriptionTypeEnum) => MiscItem[];
 }
 
 const useGetGameData = (): GameDataReturnType => {
@@ -27,16 +23,6 @@ const useGetGameData = (): GameDataReturnType => {
 
     filteredConfig.map(config => {
       data = data.filter(item => item.mainCategory !== config.category);
-    });
-    
-    return data;
-  }
-
-  const filterLocationData = (config: SettingsConfigItem[], data: any[]) => {
-    const filteredConfig = config.filter(item => !item.isActive);
-    
-    filteredConfig.map(config => {
-      data = data.filter(item => item.dlc !== config.category);
     });
     
     return data;

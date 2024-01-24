@@ -1,32 +1,37 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import StandardLayout from '@components/general/Layouts/StandardLayout.native';
 import NavigationHeader from '@navigation/NavigationHeader.native';
-import MiscList from '@components/custom/MiscList/MiscList.native';
 import CustomSearchBar from '@components/general/CustomSearchBar/CustomSearchBar.native';
 import { CompletedQuantityTitle } from '@components/general/Text/StyledTextStyledComponents.native';
 import useGetGameData from '@data/hooks/useGetGameData';
 import useGetUserGameData from '@data/hooks/useGetUserGameData';
 import useMainState from '@redux/hooks/useMainState';
-import useMiscState from '@components/custom/MiscList/hooks/useMiscState';
-import useMiscDispatch from '@components/custom/MiscList/hooks/useMiscDispatch';
+import useContentDispatch from '@components/custom/ContentList/hooks/useContentDispatch';
+import useContentState from '@components/custom/ContentList/hooks/useContentState';
+import ContentList from '@components/custom/ContentList/ContentList.native';
 
 const Miscellaneous = () => {
+  const sectionType = 'Miscellaneous';
   const { selectedGame } = useMainState();
-  const { setSearchValue } = useMiscDispatch();
-  const { searchValue } = useMiscState();
+  const { setSectionType, setSearchValue } = useContentDispatch();
+  const { searchValue } = useContentState();
   const { getUserMiscItems } = useGetUserGameData();
-  const { mapDataToFilteredMiscItems } = useGetGameData();
-  
+  const { mapDataTo } = useGetGameData();
+
+  useEffect(() => {
+    setSectionType(sectionType);
+  }, []);
+
   return (
     <StandardLayout>
-      <NavigationHeader title={'Miscellaneous'} />
+      <NavigationHeader title={sectionType} />
       <CustomSearchBar 
         searchValue={searchValue}
         setSearchValue={setSearchValue}
         onReset={(): void => setSearchValue('')} 
       />
-      <CompletedQuantityTitle type={'ListItemTitleBold'}>{`${getUserMiscItems().length}/${mapDataToFilteredMiscItems(selectedGame).length}`}</CompletedQuantityTitle>
-      <MiscList />
+      <CompletedQuantityTitle type={'ListItemTitleBold'}>{`${getUserMiscItems().length}/${mapDataTo(sectionType, selectedGame, true).length}`}</CompletedQuantityTitle>
+      <ContentList />
     </StandardLayout>
   );
 };

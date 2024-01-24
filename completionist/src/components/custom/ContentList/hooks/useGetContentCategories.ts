@@ -3,6 +3,7 @@ import useGetSettingsConfig from '@data/hooks/useGetSettingsConfig';
 import useMainState from '@redux/hooks/useMainState';
 import { SubscriptionTypeEnum } from '@utils/CustomEnums';
 import { ContentSection } from '@utils/CustomTypes';
+import useContentState from './useContentState';
 
 interface GameDataReturnType {
   getContentCategories: () => string[];
@@ -10,15 +11,16 @@ interface GameDataReturnType {
   getContentSubCategoriesTypes: (subCategory: string, selectedGame?: SubscriptionTypeEnum) => string[];
 }
 
-const useGetContentCategories = (type: ContentSection): GameDataReturnType => {
+const useGetContentCategories = (): GameDataReturnType => {
   const { mapDataTo } = useGetGameData();
+  const { sectionType } = useContentState();
   const { selectedGameData } = useMainState();
   const { shouldShowDisabledSections } = useGetSettingsConfig();
 
   const getContentCategories = (): string[] => {
     return (!!selectedGameData
       ? selectedGameData?.settingsConfig.filter(config =>
-        config.section === type
+        config.section === sectionType
         && config.category !== ""
         && (!shouldShowDisabledSections() ? config.isActive : true)
       )
@@ -27,36 +29,33 @@ const useGetContentCategories = (type: ContentSection): GameDataReturnType => {
   }
 
   const getContentSubCategories = (category: string, selectedGame?: SubscriptionTypeEnum): string[] => {
-    // TODO: 
+    const items = mapDataTo(sectionType, selectedGame);
+    const filteredItems = items.filter(item => item.mainCategory === category);
 
-    // const collectables = mapDataToCollectables(selectedGame);
-    // const filteredCollectables = collectables.filter(collectable => collectable.mainCategory === category);
-    // let collectableSubCategories: string[] = [];
-    // filteredCollectables.map(collectable => {
-    //   if (!collectableSubCategories.find(item => item === collectable.subCategory)) {
-    //     if (!!collectable.subCategory) {
-    //       collectableSubCategories.push(collectable.subCategory);
-    //     }
-    //   }
-    // });
-    // return collectableSubCategories;
-    return []
+    let itemSubCategories: string[] = [];
+    filteredItems.map(item => {
+      if (!itemSubCategories.find(category => category === item.subCategory)) {
+        if (!!item.subCategory) {
+          itemSubCategories.push(item.subCategory);
+        }
+      }
+    });
+    return itemSubCategories;
   }
 
   const getContentSubCategoriesTypes = (subCategory: string, selectedGame?: SubscriptionTypeEnum): string[] => {
-    // TODO:
-    return []
-    // const collectables = mapDataToCollectables(selectedGame);
-    // const filteredCollectables = collectables.filter(collectable => collectable.subCategory === subCategory);
-    // let collectableSubCategoryTypes: string[] = [];
-    // filteredCollectables.map(collectable => {
-    //   if (!collectableSubCategoryTypes.find(item => item === collectable.subCategoryType)) {
-    //     if (!!collectable.subCategoryType) {
-    //       collectableSubCategoryTypes.push(collectable.subCategoryType);
-    //     }
-    //   }
-    // });
-    // return collectableSubCategoryTypes;
+    const items = mapDataTo(sectionType, selectedGame);
+    const filteredItems = items.filter(collectable => collectable.subCategory === subCategory);
+    
+    let itemSubCategoriesTypes: string[] = [];
+    filteredItems.map(item => {
+      if (!itemSubCategoriesTypes.find(category => category === item.subCategoryType)) {
+        if (!!item.subCategoryType) {
+          itemSubCategoriesTypes.push(item.subCategoryType);
+        }
+      }
+    });
+    return itemSubCategoriesTypes;
   }
 
 
