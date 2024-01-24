@@ -81,14 +81,6 @@ const slice = createSlice({
     },
     setUser: (state, action) => {
       state.user = action.payload;
-      switch (state.selectedGame) {
-        case SubscriptionTypeEnum.SKYRIM:
-          state.userSettings = state.user.data.skyrim.settingsConfig;
-          break;
-        case SubscriptionTypeEnum.FALLOUT_4:
-          state.userSettings = state.user.data.fallout4.settingsConfig;
-          break;
-      }
     },
     setSearchValue: (state, action) => {
       state.searchValue = action.payload;
@@ -102,6 +94,9 @@ const slice = createSlice({
           state.user.data.fallout4.quests = action.payload;
           break;
       }
+      if (!!state.selectedGameData) {
+        state.selectedGameData.quests = action.payload;
+      }
     },
     setCompletedCollectables: (state, action) => {
       switch (state.selectedGame) {
@@ -111,6 +106,9 @@ const slice = createSlice({
         case SubscriptionTypeEnum.FALLOUT_4:
           state.user.data.fallout4.collectables = action.payload;
           break;
+      }
+      if (!!state.selectedGameData) {
+        state.selectedGameData.collectables = action.payload;
       }
     },
     setCompletedLocations: (state, action) => {
@@ -122,6 +120,9 @@ const slice = createSlice({
           state.user.data.fallout4.locations = action.payload;
           break;
       }
+      if (!!state.selectedGameData) {
+        state.selectedGameData.locations = action.payload;
+      }
     },
     setCompletedMiscItems: (state, action) => {
       switch (state.selectedGame) {
@@ -131,6 +132,9 @@ const slice = createSlice({
         case SubscriptionTypeEnum.FALLOUT_4:
           state.user.data.fallout4.miscellaneous = action.payload;
           break;
+      }
+      if (!!state.selectedGameData) {
+        state.selectedGameData.miscellaneous = action.payload;
       }
     },
     reset: (state) => {

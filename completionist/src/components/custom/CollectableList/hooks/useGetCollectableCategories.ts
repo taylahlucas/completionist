@@ -12,10 +12,7 @@ interface GameDataReturnType {
 const useGetCollectableCategories = (): GameDataReturnType => {
   const { mapDataToCollectables } = useGetGameData();
   const { selectedGameData } = useMainState();
-  const {
-    shouldShowCompletedItems,
-    shouldShowDisabledSections
-  } = useGetSettingsConfig();
+  const { shouldShowDisabledSections } = useGetSettingsConfig();
 
   const getCollectableCategories = (): string[] => {
     return (!!selectedGameData

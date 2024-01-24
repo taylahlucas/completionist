@@ -12,10 +12,7 @@ interface GetQuestCategoriesReturnType {
 const useGetQuestCategories = (): GetQuestCategoriesReturnType => {
   const { mapDataToQuests } = useGetGameData();
   const { selectedGameData } = useMainState();
-  const {
-    shouldShowCompletedItems,
-    shouldShowDisabledSections
-  } = useGetSettingsConfig();
+  const { shouldShowDisabledSections } = useGetSettingsConfig();
 
   const getQuestCategories = (): string[] => {
     return (!!selectedGameData

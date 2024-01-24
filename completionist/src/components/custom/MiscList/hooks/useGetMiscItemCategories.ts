@@ -11,10 +11,7 @@ interface CheckLocationCompleteReturnType {
 const useGetMiscItemCategories = (): CheckLocationCompleteReturnType => {
   const { mapDataToMiscItems } = useGetGameData();
   const { selectedGameData } = useMainState();
-  const {
-    shouldShowCompletedItems,
-    shouldShowDisabledSections
-  } = useGetSettingsConfig();
+  const { shouldShowDisabledSections } = useGetSettingsConfig();
 
   const getMiscItemCategories = (): string[] => {
     return (!!selectedGameData

@@ -11,10 +11,7 @@ interface GetLocationReturnType {
 const useGetLocationCategories = (): GetLocationReturnType => {
   const { selectedGameData } = useMainState();
   const { mapDataToLocations } = useGetGameData();
-  const {
-    shouldShowCompletedItems,
-    shouldShowDisabledSections
-  } = useGetSettingsConfig();
+  const { shouldShowDisabledSections } = useGetSettingsConfig();
 
   const getLocationDLC = (): string[] => {
     return (!!selectedGameData
