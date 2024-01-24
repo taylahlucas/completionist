@@ -14,7 +14,7 @@ export const initialState: SettingsState = {
 };
 
 const slice = createSlice({
-  title: 'settings',
+  name: 'settings',
   initialState: initialState,
   reducers: {
     triggerSelectionOpen: (state, action) => {

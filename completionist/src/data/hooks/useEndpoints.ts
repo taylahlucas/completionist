@@ -60,7 +60,6 @@ const useEndpoints = (): EndpointsReturnType => {
           }
         }
       )
-      console.log("HERE: ", response.data)
       if (!!response.data.user.userId && !!response.data.token) {
         storeCredentials({
           username: response.data.user.userId,

@@ -6,14 +6,11 @@ import React from 'react';
 import useCheckContentComplete from './hooks/useCheckContentComplete';
 import useGetContent from './hooks/useGetContent';
 
-interface SearchResultsProps {
-  type: ContentSection;
-}
 
-const SearchResults = ({ type }: SearchResultsProps) => {
-  const { getFilteredContent } = useGetContent(type);
-  const { checkContentComplete } = useCheckContentComplete(type);
-  const {  updateContentComplete } = useUpdateContent(type);
+const SearchResults = () => {
+  const { getFilteredContent } = useGetContent();
+  const { checkContentComplete } = useCheckContentComplete();
+  const {  updateContentComplete } = useUpdateContent();
   
   return (
     <ScrollableList>

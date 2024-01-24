@@ -2,7 +2,6 @@ import React from 'react';
 import ScrollableList from '@components/general/Lists/ScrollableList.native';
 import Condition from '@components/general/Condition.native';
 import useContentState from './hooks/useContentState';
-import { ContentSection } from '@utils/CustomTypes';
 import useGetContentCategories from './hooks/useGetContentCategories';
 import useGetContent from './hooks/useGetContent';
 import SearchResults from './SearchResults.native';
@@ -19,7 +18,7 @@ const ContentList = () => {
     <Condition
       condition={searchValue.length < 2}
       conditionalElement={
-        <SearchResults type={sectionType} />
+        <SearchResults />
       }
     >
       <ScrollableList>

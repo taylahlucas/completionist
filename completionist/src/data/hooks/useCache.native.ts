@@ -1,6 +1,5 @@
 import useLoginDispatch from '@components/custom/LoginForm/hooks/useLoginDispatch';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import useMainDispatch from '@redux/hooks/useMainDispatch';
 import { CACHE_EXPIRY_TIME, CACHE_KEY } from '@utils/constants';
 import { CachedData, User } from '@utils/CustomInterfaces';
 import { UserResponse } from '@utils/CustomTypes';
@@ -15,7 +14,6 @@ interface CacheReturnType {
 }
 
 const useCache = (): CacheReturnType => {
-  // const { setUser } = useMainDispatch();
   const { setLoggedIn } = useLoginDispatch();
   const { getUserByUserId } = useEndpoints();
   const { deleteCredentials } = useKeychain();
@@ -67,7 +65,6 @@ const useCache = (): CacheReturnType => {
     try {
       const user = await getUserByUserId({ userId });
       if (!!user) {
-        //setUser(user)
         saveUserAndLogin(user);
         return user;
       }

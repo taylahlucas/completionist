@@ -3,10 +3,6 @@ import { NavigationAction, NavigationState } from '@react-navigation/native';
 import { MainState } from '@redux/MainState';
 import { SettingsState } from '@components/custom/SettingsContent/SettingsState';
 import { LoginState } from '@components/custom/LoginForm/LoginState';
-import { MiscState } from '@components/custom/MiscList/MiscState';
-import { CollectableState } from '@components/custom/CollectableList/CollectableState';
-import { LocationState } from '@components/custom/LocationList/LocationState';
-import { QuestState } from '@components/custom/QuestList/QuestState';
 import { GameKey } from './CustomTypes';
 import { ContentState } from '@components/custom/ContentList/ContentState';
 
@@ -39,11 +35,6 @@ export interface StoreState {
   login: LoginState;
   settings: SettingsState;
   content: ContentState;
-  // TODO: Remove?
-  quest: QuestState;
-  collectable: CollectableState;
-  location: LocationState;
-  misc: MiscState;
 }
 
 export interface EnvironmentConfig {
@@ -87,7 +78,7 @@ export interface NativeNavigation {
 
 export interface LoginFormData {
   userId: string;
-  title: string;
+  name: string;
   email: string;
   password?: string;
   userAvatar?: string;

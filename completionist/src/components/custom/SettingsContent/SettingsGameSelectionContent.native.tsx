@@ -4,7 +4,6 @@ import SettingsContentCollectionList from './SettingsContentCollectionList.nativ
 import SettingsContentSelectionDropdown from './SettingsContentSelectionDropdown.native';
 
 const SettingsGameSelectionContent = () => {
-  // TODO: Option to hide hidden categories
   return (
     <>
       <SettingsContentDescription align={'left'}>
