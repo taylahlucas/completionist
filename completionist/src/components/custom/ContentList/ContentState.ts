@@ -20,7 +20,7 @@ const slice = createSlice({
   name: 'content',
   initialState: initialState,
   reducers: {
-    setSectionType: (state, action) => {
+    setSelectedSection: (state, action) => {
       state.sectionType = action.payload;
     },
     setSearchValue: (state, action) => {
@@ -40,7 +40,7 @@ const slice = createSlice({
 });
 
 export const {
-  setSectionType,
+  setSelectedSection,
   setSearchValue,
   setSelectedCategory
 } = slice.actions;

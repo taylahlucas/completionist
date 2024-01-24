@@ -19,15 +19,16 @@ export interface ContentMainDropdownProps {
 }
 
 const ContentMainDropdown = ({ category, completed, total }: ContentMainDropdownProps) => {
-  const { selectedGame, userSettings } = useMainState();
+  const { selectedGame, selectedGameData } = useMainState();
   const { setSelectedCategory } = useContentDispatch();
-  const { selectedCategory } = useContentState();
+  const { sectionType, selectedCategory } = useContentState();
   const { getContentSubCategories } = useGetContentCategories();
   const { getContentForSubCategory } = useGetContents();
   const subCategories = getContentSubCategories(category, selectedGame);
   const { checkContentCompleteForCategory } = useCheckContentComplete();
-  const isEnabled: boolean = userSettings?.find(settings => settings.category === category && settings.section === "Contents")?.isActive ?? false;
-
+  const isEnabled: boolean = selectedGameData?.settingsConfig.find(settings => settings.category === category && settings.section === sectionType)?.isActive ?? false;
+  
+  // TODO: Misc main list not showing
   return (
     <Dropdown
       isOpen={category === selectedCategory.category}

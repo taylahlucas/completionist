@@ -11,27 +11,23 @@ import useContentState from '@components/custom/ContentList/hooks/useContentStat
 import ContentList from '@components/custom/ContentList/ContentList.native';
 
 const Collectables = () => {
-  const sectionType = 'Collectables';
+  const type = 'Collectables';
   const { selectedGame } = useMainState();
-  const { setSectionType, setSearchValue } = useContentDispatch();
+  const { setSearchValue } = useContentDispatch();
   const { searchValue } = useContentState();
   const { getUserCollectables } = useGetUserGameData();
   const { mapDataTo } = useGetGameData();
 
-  useEffect(() => {
-    setSectionType(sectionType);
-  }, []);
-
   return (
     <StandardLayout>
-      <NavigationHeader title={sectionType} />
+      <NavigationHeader title={type} />
       <CustomSearchBar 
         searchValue={searchValue} 
         setSearchValue={setSearchValue}
         onReset={(): void => setSearchValue('')} 
       />
       <CompletedQuantityTitle type={'ListItemTitleBold'}>
-        {`${getUserCollectables().length}/${mapDataTo(sectionType, selectedGame, true).length}`}
+        {`${getUserCollectables().length}/${mapDataTo(type, selectedGame, true).length}`}
       </CompletedQuantityTitle>
       <ContentList />
     </StandardLayout>

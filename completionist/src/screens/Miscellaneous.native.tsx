@@ -13,14 +13,10 @@ import ContentList from '@components/custom/ContentList/ContentList.native';
 const Miscellaneous = () => {
   const sectionType = 'Miscellaneous';
   const { selectedGame } = useMainState();
-  const { setSectionType, setSearchValue } = useContentDispatch();
+  const { setSearchValue } = useContentDispatch();
   const { searchValue } = useContentState();
   const { getUserMiscItems } = useGetUserGameData();
   const { mapDataTo } = useGetGameData();
-
-  useEffect(() => {
-    setSectionType(sectionType);
-  }, []);
 
   return (
     <StandardLayout>

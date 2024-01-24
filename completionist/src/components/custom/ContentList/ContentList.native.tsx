@@ -9,7 +9,7 @@ import ContentMainDropdown from './ContentMainDropdown.native';
 import useCheckContentComplete from './hooks/useCheckContentComplete';
 
 const ContentList = () => {
-  const { sectionType, searchValue } = useContentState();
+  const { searchValue } = useContentState();
   const { getContentCategories } = useGetContentCategories();
   const { getAllContentForCategory } = useGetContent();
   const { checkContentCompleteForCategory } = useCheckContentComplete();

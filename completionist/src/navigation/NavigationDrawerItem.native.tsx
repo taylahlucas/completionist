@@ -8,6 +8,8 @@ import {
 } from './NavigationStyledComponents.native';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
+import useContentDispatch from '@components/custom/ContentList/hooks/useContentDispatch';
+import { ContentSection } from '@utils/CustomTypes';
 
 interface NavigationDrawerItemProps {
   item: NavigationDrawerItemData;
@@ -18,13 +20,18 @@ const NavigationDrawerItem = ({ item, isActive }: NavigationDrawerItemProps) => 
   const theme = useGetTheme();
   const navigation = useReactNavigation();
   const { reset } = useMainDispatch();
+  const { setSelectedSection } = useContentDispatch();
 
   return (
     <NavigationHeaderTitleContainer
       key={item.id}
       disabled={!item.isEnabled}
       onPress={(): void => {
-        navigation.navigate(item.id)
+        navigation.navigate(item.id);
+        if (item.id as ContentSection) {
+          console.log("SETTING SECTION TYPE: ", item.id)
+          setSelectedSection(item.id as ContentSection);
+        }
         reset();
       }}
     >

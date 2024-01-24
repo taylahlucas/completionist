@@ -13,7 +13,7 @@ const CheckBox = ({ isActive, onPress }: CheckBoxProps) => {
 
   return (
     <IconButton
-      title={isActive ? 'checkbox-outline' : 'square-outline'}
+      name={isActive ? 'checkbox-outline' : 'square-outline'}
       type={IconTypeEnum.Ionicons}
       color={theme.lightGrey}
       size={22}

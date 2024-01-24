@@ -8,38 +8,37 @@ import { NavigationDrawerItemData } from '@utils/CustomInterfaces';
 const useGetNavigationDrawerItems = (): NavigationDrawerItemData[] => {
   const { selectedGame } = useMainState();
   const { getUserQuests, getUserCollectables, getUserLocations, getUserMiscItems } = useGetUserGameData();
-  const {
-    mapDataToFilteredQuests, 
-    mapDataToFilteredCollectables, 
-    mapDataToFilteredLocations, 
-    mapDataToFilteredMiscItems 
-  } = useGetGameData();
+  const { mapDataTo } = useGetGameData();
   const { checkIsSectionEnabled } = useCheckSectionEnabled();
+  const questsSection = 'Quests';
+  const collectablesSection = 'Collectables';
+  const locationsSection = 'Locations';
+  const miscItemsSection = 'Miscellaneous';
 
   return ([
     {
       id: ScreenEnum.Quests,
-      title: 'Quests',
-      subTitle: checkIsSectionEnabled('Quests') ? `${getUserQuests().length}/${mapDataToFilteredQuests(selectedGame).length}` : '',
-      isEnabled: checkIsSectionEnabled('Quests')
+      title: questsSection,
+      subTitle: checkIsSectionEnabled(questsSection) ? `${getUserQuests().length}/${mapDataTo(questsSection, selectedGame, true).length}` : '',
+      isEnabled: checkIsSectionEnabled(questsSection)
     },
     {
       id: ScreenEnum.Collectables,
-      title: 'Collectables',
-      subTitle: checkIsSectionEnabled('Collectables') ? `${getUserCollectables().length}/${mapDataToFilteredCollectables(selectedGame).length}` : '',
-      isEnabled: checkIsSectionEnabled('Collectables')
+      title: collectablesSection,
+      subTitle: checkIsSectionEnabled(collectablesSection) ? `${getUserCollectables().length}/${mapDataTo(collectablesSection, selectedGame, true).length}` : '',
+      isEnabled: checkIsSectionEnabled(collectablesSection)
     },
     {
       id: ScreenEnum.Locations,
-      title: 'Locations',
-      subTitle:  checkIsSectionEnabled('Locations') ? `${getUserLocations().length}/${mapDataToFilteredLocations(selectedGame).length}` : '',
-      isEnabled: checkIsSectionEnabled('Locations')
+      title: locationsSection,
+      subTitle:  checkIsSectionEnabled(locationsSection) ? `${getUserLocations().length}/${mapDataTo(locationsSection, selectedGame, true).length}` : '',
+      isEnabled: checkIsSectionEnabled(locationsSection)
     },
     {
       id: ScreenEnum.Miscellaneous,
-      title: 'Miscellaneous',
-      subTitle: checkIsSectionEnabled('Miscellaneous') ? `${getUserMiscItems().length}/${mapDataToFilteredMiscItems(selectedGame).length}` : '',
-      isEnabled: checkIsSectionEnabled('Miscellaneous')
+      title: miscItemsSection,
+      subTitle: checkIsSectionEnabled(miscItemsSection) ? `${getUserMiscItems().length}/${mapDataTo(miscItemsSection, selectedGame, true).length}` : '',
+      isEnabled: checkIsSectionEnabled(miscItemsSection)
     },
   ]);
 };
