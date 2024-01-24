@@ -42,7 +42,7 @@ const useSaveUserData = (): SaveUserDataReturnType => {
     setUser(user);
     saveToCache(user);
     setLoggedIn(true);
-    navigation.navigate(ScreenEnum.Home);
+    navigation.navigate(ScreenEnum.GameSelection);
   };
 
   const updateUser = (user: User) => {

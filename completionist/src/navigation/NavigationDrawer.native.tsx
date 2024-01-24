@@ -3,7 +3,7 @@ import StyledText from '@components/general/Text/StyledText.native';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 import Miscellaneous from '@screens/Miscellaneous.native';
 import Collectables from '@screens/Collectables.native';
-import Home from '@screens/Home.native';
+import GameSelection from '@screens/GameSelection.native';
 import Locations from '@screens/Locations.native';
 import Login from '@screens/Login.native';
 import Quests from '@screens/Quests.native';
@@ -51,7 +51,7 @@ const NavigationDrawer = () => {
       <Drawer.Screen name={ScreenEnum.RootStackNavigator} component={RootStackNavigator} />
       <Drawer.Screen name={ScreenEnum.Landing} component={Landing} />
       <Drawer.Screen name={ScreenEnum.Login} component={Login} />
-      <Drawer.Screen name={ScreenEnum.Home} component={Home} />
+      <Drawer.Screen name={ScreenEnum.GameSelection} component={GameSelection} />
       <Drawer.Screen name={ScreenEnum.Quests} component={Quests} />
       <Drawer.Screen name={ScreenEnum.Collectables} component={Collectables} />
       <Drawer.Screen name={ScreenEnum.Miscellaneous} component={Miscellaneous} />

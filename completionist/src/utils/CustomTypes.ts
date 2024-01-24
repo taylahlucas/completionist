@@ -18,7 +18,8 @@ export type IoniconType =
   | 'checkmark-circle-outline'
   | 'checkbox-outline'
   | 'menu-sharp'
-  | 'square-outline';
+  | 'square-outline'
+  | 'wallet-outline';
 
 export type FontAwesomeType =
   | 'circle-thin'
@@ -30,7 +31,7 @@ export type TextInputStyleType = 'default' | 'text';
 
 // Navigation
 
-export type NavigationHeaderLeftActionTypes = 'back' | 'menu' | 'none';
+export type NavigationHeaderLeftActionTypes = 'back' | 'menu' | 'subscriptions' | 'none';
 export type NavigationHeaderRightActionTypes = 'logout' | 'filter' | 'none';
 
 // Responses

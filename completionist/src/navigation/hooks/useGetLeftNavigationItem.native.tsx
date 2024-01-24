@@ -1,11 +1,11 @@
 import React from 'react';
 import { NavigationHeaderLeftActionTypes } from '@utils/CustomTypes';
-import { 
+import {
   styles,
-  NavigationHeaderMenuButton, 
-  NavigationHeaderMenuButtonBg, 
+  NavigationHeaderMenuButton,
+  NavigationHeaderMenuButtonBg,
   NavigationHeaderMenuIcon,
-  NavigationEmptyContainer 
+  NavigationEmptyContainer
 } from '@navigation/NavigationStyledComponents.native';
 import { IconTypeEnum } from '@utils/CustomEnums';
 import useReactNavigation, { DrawerActions } from './useReactNavigation.native';
@@ -39,6 +39,17 @@ const useGetLeftNavigationItem = (leftAction: NavigationHeaderLeftActionTypes): 
           />
           <NavigationHeaderMenuButtonBg color={theme.primaryPurple} />
         </NavigationHeaderMenuButton>
+      );
+    case 'subscriptions':
+      return (
+        <IconButton
+          style={styles.iconButton}
+          name={'wallet-outline'}
+          type={IconTypeEnum.Ionicons}
+          color={theme.lightGrey}
+          size={35}
+          onPress={(): void => { }}
+        />
       );
     default:
       return (

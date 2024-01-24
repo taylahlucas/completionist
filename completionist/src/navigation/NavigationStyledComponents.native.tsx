@@ -52,6 +52,8 @@ export const NavigationHeaderSubTitle = styled(StyledText)`
 `;
 
 export const NavigationHeaderMenuButton = styled.Pressable`
+  width: 50px;
+  height: 50px;
   align-items: center;
   justfy-content: center;
   margin-right: 16px;

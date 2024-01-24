@@ -8,7 +8,7 @@ interface NavigationFooterDrawerItem {
 const useGetNavigationFooterDrawerItems = (): NavigationFooterDrawerItem[] => {
   return ([
     {
-      id: ScreenEnum.Home,
+      id: ScreenEnum.GameSelection,
       title: 'Game Selection'
     },
     {

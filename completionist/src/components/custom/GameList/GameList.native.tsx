@@ -7,30 +7,27 @@ import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
 import useMainState from '@redux/hooks/useMainState';
 import useGetGameImage from './hooks/useGetGameImage.native';
+import StyledText from '@components/general/Text/StyledText.native';
+import { View } from 'react-native';
+import GameListSectionDropdown from './GameListSectionDropdown.native';
 
-const GameList = () => {
-  const navigation = useReactNavigation();
-  const { setSelectedGame, setSelectedGameSettings, reset } = useMainDispatch();
+interface GameListProps {
+  searchValue: string;
+}
+
+const GameList = ({ searchValue }: GameListProps) => {
   const { user } = useMainState();
-  const { getGameImage } = useGetGameImage();
-  
   // TODO: get completion percentage
   return (
     <ScrollableList contentContainerStyle={styles.scrollableContent}>
-      {user.subscription.map((game, index) => (
-        <GameListItem
-          key={index}
-          title={game.id}
-          enabled={game.isActive}
-          imageUrl={getGameImage(game.id)}
-          onPress={(): void => {
-            reset();
-            setSelectedGame(game.id);
-            setSelectedGameSettings(game.id);
-            navigation.navigate(ScreenEnum.Quests);
-          }}
-        />
-      ))}
+      <GameListSectionDropdown 
+        title={'ACTIVE'}
+        data={user.subscription.filter(item => item.isActive)} 
+      />
+      <GameListSectionDropdown 
+        title={'INACTIVE'}
+        data={user.subscription.filter(item => !item.isActive)} 
+      />
     </ScrollableList>
   );
 };

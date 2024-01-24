@@ -5,7 +5,7 @@ import StyledText from '@components/general/Text/StyledText.native';
 
 export const styles = StyleSheet.create({
   scrollableContent: {
-    flexDirection: 'row'
+    flexDirection: 'column'
   }
 })
 
