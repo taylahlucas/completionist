@@ -1,6 +1,6 @@
 import { StyleSheet } from 'react-native';
 import styled from 'styled-components/native';
-import { DEFAULT_BORDER_RADIUS } from '@styles/global.native';
+import { DEFAULT_BORDER_RADIUS, LARGE_WIDTH } from '@styles/global.native';
 import StyledText from '@components/general/Text/StyledText.native';
 
 export const styles = StyleSheet.create({
@@ -40,4 +40,15 @@ export const GameItemScore = styled(StyledText)`
   position: absolute;
   right: 16px;
   top: 8px;
+`;
+
+export const GameListItemHeaderContainer = styled.View`
+  flex-direction: column;
+  width: ${LARGE_WIDTH}px;
+  height: 35px;
+`;
+
+export const GameListItemHeaderTitleContainer = styled.View`
+  flex-direction: row;
+  justify-content: space-between;
 `;

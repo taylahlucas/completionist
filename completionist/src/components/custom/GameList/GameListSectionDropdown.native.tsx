@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { View } from 'react-native';
 import Dropdown from '@components/general/Dropdown/Dropdown.native';
 import StyledText from '@components/general/Text/StyledText.native';
@@ -9,6 +9,7 @@ import useMainDispatch from '@redux/hooks/useMainDispatch';
 import GameListItem from './GameListItem.native';
 import { ScreenEnum } from '@utils/CustomEnums';
 import { Subscription } from '@utils/CustomInterfaces';
+import GameListSectionHeader from './GameListSectionHeader.native';
 
 interface GameListSectionDropdown {
   title: string;
@@ -19,12 +20,13 @@ const GameListSectionDropdown = ({ title, data }: GameListSectionDropdown) => {
   const navigation = useReactNavigation();
   const { setSelectedGame, setSelectedGameSettings, reset } = useMainDispatch();
   const { getGameImage } = useGetGameImage();
+  const [isOpen, setIsOpen] = useState(true);
   
   return (
     <Dropdown
-      header={<StyledText type={'ListItemSubTitleBold'}>{title}</StyledText>}
-      isOpen={true}
-      setOpen={() => { }}
+      header={<GameListSectionHeader isOpen={isOpen} title={title} />}
+      isOpen={isOpen}
+      setOpen={() => setIsOpen(!isOpen)}
     >
       <View style={{ flexDirection: 'row' }}>
         {data.map((game, index) => (

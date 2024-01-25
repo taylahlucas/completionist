@@ -39,7 +39,7 @@ const Button = ({ title, type = 'default', onPress, style, disabled = false }: B
         <StyledButtonDefault 
           style={{ ...style }} 
           onPress={onPress} 
-          color={theme.primaryPurple}
+          color={theme.darkGrey}
           disabled={disabled}
         >
           <StyledText type={'Heading'} color={theme.lightestGrey}>{title}</StyledText>
