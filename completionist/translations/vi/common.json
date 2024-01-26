@@ -1,0 +1,56 @@
+{
+  "appTitle": "Người theo chủ nghĩa hoàn thiện.",
+  "requestGameDesc": "Vui lòng yêu cầu trò chơi, báo cáo lỗi hoặc đưa ra một số đề xuất để cải thiện ứng dụng!",
+  "quests": "Nhiệm vụ",
+  "collectables": "Đồ sưu tầm",
+  "locations": "Địa điểm",
+  "miscellaneous": "Điều khoản khác",
+  "search": "Tìm kiếm các mục...",
+  "showMore": "Cho xem nhiều hơn",
+  "none": "Không có",
+  "main": "Chủ yếu",
+  "active": "TÍCH CỰC",
+  "inactive": "KHÔNG HOẠT ĐỘNG",
+  "auth": {
+    "email": "E-mail",
+    "password": "Mật khẩu",
+    "username": "tên tài khoản",
+    "forgotPassword": "Quên mật khẩu?",
+    "signUp": "Đăng ký",
+    "signIn": "Đăng nhập",
+    "createAccount": "Tạo tài khoản",
+    "requestAccount": "Bạn chưa có tài khoản?",
+    "backToLogin": "Quay lại đăng nhập"
+  },
+  "subscriptions": {
+    "title": "Đăng ký"
+  },
+  "sendRequest": {
+    "title": "Gửi yêu cầu",
+    "subject": "Chủ thể",
+    "writeRequest": "Viết yêu cầu của bạn ở đây..."
+  },
+  "settings": {
+    "title": "Cài đặt",
+    "description": "Vui lòng yêu cầu trò chơi, báo cáo lỗi hoặc đưa ra một số đề xuất để cải thiện ứng dụng!",
+    "setCollections": "Đặt bộ sưu tập:",
+    "enabledDLC": "Bật/Tắt DLC:",
+    "showHide": "Hiện an:",
+    "completedItems": "Các mục đã hoàn thành",
+    "disabledSections": "Phần bị vô hiệu hóa"
+  },
+  "errors": {
+    "noEmailExists": "Email không tồn tại",
+    "googleSignIn": "Lỗi đăng nhập google"
+  },
+  "skyrimDLC": {
+    "dawnguard": "Bình minh",
+    "dragonborn": "con rồng"
+  },
+  "fallout4DLC": {
+    "automatron": "Thế giới Nuka",
+    "farHarbor": "Cảng xa",
+    "nukaWorld": "Thế giới Nuka",
+    "vaultTecWorkshop": "Hội thảo Vault-Tec"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "appTitle": "完璧主義者。",
+  "requestGameDesc": "ゲームのリクエスト、バグの報告、アプリを改善するための提案など、お気軽にどうぞ！",
+  "quests": "クエスト",
+  "collectables": "収集品",
+  "locations": "所在地",
+  "miscellaneous": "その他",
+  "search": "アイテムを検索...",
+  "showMore": "もっと見せる",
+  "none": "なし",
+  "main": "主要",
+  "active": "アクティブ",
+  "inactive": "非活性",
+  "auth": {
+    "email": "Eメール",
+    "password": "パスワード",
+    "username": "ユーザー名",
+    "forgotPassword": "パスワードをお忘れですか？",
+    "signUp": "サインアップ",
+    "signIn": "サインイン",
+    "createAccount": "アカウントを作成する",
+    "requestAccount": "アカウントをお持ちでない場合は、",
+    "backToLogin": "ログインに戻る"
+  },
+  "subscriptions": {
+    "title": "定期購入"
+  },
+  "sendRequest": {
+    "title": "リクエストの送信",
+    "subject": "主題",
+    "writeRequest": "ここにリクエストを書いてください..."
+  },
+  "settings": {
+    "title": "設定",
+    "description": "ゲームのリクエスト、バグの報告、アプリを改善するための提案など、お気軽にどうぞ！",
+    "setCollections": "セットコレクション:",
+    "enabledDLC": "DLC を有効/無効にする:",
+    "showHide": "表示/非表示:",
+    "completedItems": "完成品",
+    "disabledSections": "無効化されたセクション"
+  },
+  "errors": {
+    "noEmailExists": "電子メールが存在しません",
+    "googleSignIn": "Googleサインインでエラーが発生する"
+  },
+  "skyrimDLC": {
+    "dawnguard": "ドーンガード",
+    "dragonborn": "ドラゴンボーン"
+  },
+  "fallout4DLC": {
+    "automatron": "ヌカ・ワールド",
+    "farHarbor": "ファーハーバー",
+    "nukaWorld": "ヌカ・ワールド",
+    "vaultTecWorkshop": "Vault-Tec ワークショップ"
+  }
+}

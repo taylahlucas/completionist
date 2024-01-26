@@ -1,0 +1,3817 @@
+[
+  {
+    "id": "0e9e3bc5-63e7-42c4-8baa-15f0bca721aa",
+    "title": "バックベイ",
+    "subCategory": "バックベイ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "31bd7d07-7448-4ebc-a2f8-d2e9d3cbf826",
+    "title": "ボストン公共図書館",
+    "subCategory": "バックベイ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "e93a7f91-9bf2-49a7-93a5-59f8cefa4a2b",
+    "title": "コプリー駅",
+    "subCategory": "バックベイ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "6b6e93f8-4e07-42b7-a2ce-576de5b98f09",
+    "title": "ダートマス プロフェッショナル ビルディング",
+    "subCategory": "バックベイ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "7cc7b4a1-1d13-4f96-b24f-32f3f3ea8e64",
+    "title": "ハブリス・コミックス",
+    "subCategory": "バックベイ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "c197d3d1-3bb7-42d3-8c60-19813cfd2f72",
+    "title": "神保の塔",
+    "subCategory": "バックベイ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a0778d06-e91b-4c50-8795-0f21c90749c7",
+    "title": "レイトン タワーズ",
+    "subCategory": "バックベイ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "e68798aa-0a95-4974-935b-b2f662d8c5f4",
+    "title": "プロストバー",
+    "subCategory": "バックベイ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "8bade8de-2c94-4e5e-86c0-2e0eb57aa39f",
+    "title": "シェンリーズ オイスター バー",
+    "subCategory": "バックベイ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "2bf3491f-b84d-4fb5-a59a-1001ec12c160",
+    "title": "トリニティ教会",
+    "subCategory": "バックベイ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "ff06a0c4-54b0-49a9-8f1d-0194fe10a4a9",
+    "title": "トリニティプラザ",
+    "subCategory": "バックベイ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "e883eaa1-05e3-4928-bc79-b9b4b77a8f67",
+    "title": "トリニティタワー",
+    "subCategory": "バックベイ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "e8e8c53d-eabe-4d6e-8b65-ec06e4a1e6da",
+    "title": "ボールト114",
+    "subCategory": "バックベイ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "c2f19b51-527e-4505-a0d0-16a45f4f1848",
+    "title": "ウォーレン シアター",
+    "subCategory": "バックベイ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "d6ff562e-1dd6-4e7e-a571-4872078d9c3e",
+    "title": "ウィルソン・アトマトイズ本社",
+    "subCategory": "バックベイ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "3e2b7a7c-8b3d-4645-9c54-9f6e4ea63c53",
+    "title": "ビーコンヒル",
+    "subCategory": "ビーコンヒル",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "9b43a2c8-2f4b-4972-9cfc-dc0bb82a6359",
+    "title": "ビーコン ヒルのアパートメント",
+    "subCategory": "ビーコンヒル",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "0f319dab-8d97-429a-93a1-7b5d265a7b23",
+    "title": "ボストンビューグルビル",
+    "subCategory": "ビーコンヒル",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "6e1478fb-3428-404d-90c4-7c6b12ab83df",
+    "title": "カボット ハウス",
+    "subCategory": "ビーコンヒル",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "4b4d529a-5b14-4a22-b789-1bf70eae831d",
+    "title": "リル・ジェントリーの遊び場",
+    "subCategory": "ビーコンヒル",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "e619ae4a-fc8a-4e87-b698-2177e9e429bf",
+    "title": "Vault-Tec 地域本社",
+    "subCategory": "ビーコンヒル",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "f7b01b8e-eb88-4787-87b0-b2f6a0b67f27",
+    "title": "ボストンコモン",
+    "subCategory": "ボストンコモン",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "cc1b8497-76a2-437c-b3a0-55be407e7a3e",
+    "title": "ボイルストンクラブ",
+    "subCategory": "ボストンコモン",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "0e412738-c9d8-4f68-ba9c-7ea265a6f9e3",
+    "title": "マサチューセッツ州議事堂",
+    "subCategory": "ボストンコモン",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "768a5ae3-5cd3-46cf-8e4b-7122b07b1579",
+    "title": "旧穀倉墓地",
+    "subCategory": "ボストンコモン",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "f7a2f97c-0e22-4b4a-8ef4-5b21fba0f5e7",
+    "title": "パークストリート駅",
+    "subCategory": "ボストンコモン",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "e8b5e0f9-cff6-481e-80c5-0108a9c66ea7",
+    "title": "白鳥の池",
+    "subCategory": "ボストンコモン",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "e9ef4a5b-ebc1-4ea4-b4df-781f3b86d9b3",
+    "title": "ボストン港",
+    "subCategory": "ボストン港",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "ea59a7e3-8a43-4a9e-803a-af844b1d4fe2",
+    "title": "コロンバスパーク",
+    "subCategory": "ボストン港",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "f48b50e7-4320-45ea-aed5-18c5c38a31d5",
+    "title": "カスタムハウスタワー",
+    "subCategory": "ボストン港",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1847f69-fb43-4314-9ac7-bde73edc4ae2",
+    "title": "ハーバーマスター ホテル",
+    "subCategory": "ボストン港",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "65c12f13-7be7-4d32-8fe1-ced6a6f620cd",
+    "title": "ロングワーフ",
+    "subCategory": "ボストン港",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "50c68b0a-648d-4f09-8a97-f3e3d4f10054",
+    "title": "ザ・シャムロック・タップハウス",
+    "subCategory": "ボストン港",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "3a8e545c-3909-4b0c-a9db-5a13a1f0a65b",
+    "title": "長江",
+    "subCategory": "ボストン港",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "d86c3459-ebc0-4fb2-97f4-9d158f4463d2",
+    "title": "ケンブリッジ",
+    "subCategory": "ケンブリッジ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "ed4a693d-5a23-4aae-8653-fc400ae66d72",
+    "title": "C.I.T.",
+    "subCategory": "ケンブリッジ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "e4647e3c-8e38-4b63-8db6-69053c05e888",
+    "title": "ケンブリッジ アカデミック センター",
+    "subCategory": "ケンブリッジ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "26d0b205-7081-4c44-8650-cd44820786e8",
+    "title": "ケンブリッジキャンパスのディナー",
+    "subCategory": "ケンブリッジ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "864ebd8c-b576-4e06-8bc0-bc0a9054de5f",
+    "title": "ケンブリッジ教会",
+    "subCategory": "ケンブリッジ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "6fc8d7cc-6e5b-4bc9-a150-8eefb45e93f8",
+    "title": "ケンブリッジの建設現場",
+    "subCategory": "ケンブリッジ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "74f6b276-0a93-4c07-9c27-0d8c21d22c77",
+    "title": "ケンブリッジクレーター",
+    "subCategory": "ケンブリッジ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "c7e0eb78-55c2-4a5b-b29f-0fb29cf8aa4a",
+    "title": "ケンブリッジの金物店",
+    "subCategory": "ケンブリッジ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "019b7b8a-8948-4a08-a836-5a53e61d3c8f",
+    "title": "ケンブリッジ警察署",
+    "subCategory": "ケンブリッジ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "596e9b4b-d17b-4c91-8a22-ec0b4d2c7ce1",
+    "title": "ケンブリッジポリマー研究所",
+    "subCategory": "ケンブリッジ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "d157d758-fb58-4d7c-9ee0-3e16a79a1ae3",
+    "title": "ケンブリッジ襲撃基地",
+    "subCategory": "ケンブリッジ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "7bd7382a-2c16-41e6-8da7-005537214e10",
+    "title": "キャンプ・ケンドール",
+    "subCategory": "ケンブリッジ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "cc257001-e5b1-41c7-a25b-06f5b61844da",
+    "title": "キャンパス法律事務所",
+    "subCategory": "ケンブリッジ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "0e6a7fd7-3d96-407a-9b3b-7a7d0e1470f4",
+    "title": "カレッジスクエア",
+    "subCategory": "ケンブリッジ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "f620d115-0f3f-4d5f-b564-b94c6c77c497",
+    "title": "カレッジスクエア駅",
+    "subCategory": "ケンブリッジ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "7a9e9cf0-7220-4d6e-852e-e5a3a7e6cbdb",
+    "title": "大学管理棟",
+    "subCategory": "ケンブリッジ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "bf08a037-535c-4f52-a4a7-15e2026f05ce",
+    "title": "イースト C.I.T.",
+    "subCategory": "ケンブリッジ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "1e0dbde7-0f67-4d08-a0c9-6e2e6d22b3d9",
+    "title": "ファロンズ (モンシニョールプラザ)",
+    "subCategory": "ケンブリッジ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "4f74c8bc-1ae4-4a0c-9343-ae46bc17a8db",
+    "title": "友愛ポスト 115",
+    "subCategory": "ケンブリッジ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "70f116bf-1a6f-4df0-a7e7-28a743b677b8",
+    "title": "グリーンテックジェネティクス",
+    "subCategory": "ケンブリッジ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "1b799556-8b59-4ae4-9d04-3322381ed4a2",
+    "title": "アイビー リーグ ブリッジ",
+    "subCategory": "ケンブリッジ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "ab6b519e-935e-4752-8d6b-bdab1864f56a",
+    "title": "ケンダル病院",
+    "subCategory": "ケンブリッジ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "75b93bb4-68a4-45f3-bf89-50500791e5d5",
+    "title": "ケンダル・パーキング",
+    "subCategory": "ケンブリッジ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "ad2a8307-46ec-44c0-a1d2-9f9c2b6703ab",
+    "title": "ロングフェロー橋",
+    "subCategory": "ケンブリッジ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "d7e66307-2f0e-4c52-b6ae-2a8982425512",
+    "title": "マスケミカル",
+    "subCategory": "ケンブリッジ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "4efb8913-9f9f-4817-90b5-189e0bc3a77c",
+    "title": "モンシニョール広場",
+    "subCategory": "ケンブリッジ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "53f18cf9-c4f3-4d29-a41a-6375db34d411",
+    "title": "配管工の秘密",
+    "subCategory": "ケンブリッジ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "aa5d2495-74d1-4a6e-b858-0b2bfcf1e268",
+    "title": "プロスペクト・ヒル",
+    "subCategory": "ケンブリッジ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "edb02f7d-7076-4d0c-bf6b-6ce207b55469",
+    "title": "レイダープラットフォーム",
+    "subCategory": "ケンブリッジ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "5fc10c6e-7d2d-4f1f-96de-9d5e3720ba45",
+    "title": "レッドロケット (ケンブリッジ)",
+    "subCategory": "ケンブリッジ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a98daab5-2b60-4d11-a88c-3d28706a4687",
+    "title": "レッドロケット（カレッジスクエア）",
+    "subCategory": "ケンブリッジ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "14edca54-303b-4d9e-8a20-0d74d4515ae1",
+    "title": "サイエンス センター ギフト ショップ",
+    "subCategory": "ケンブリッジ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "64df55ac-0cf1-470b-a92c-611e769bb7f8",
+    "title": "タイコンデロガ",
+    "subCategory": "ケンブリッジ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "1f712ad8-9500-4db6-9154-b8adbf1d2009",
+    "title": "ユニオンズ ホープ大聖堂",
+    "subCategory": "ケンブリッジ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "365c10a2-98fe-4e1a-aa52-02c89c745eae",
+    "title": "ウォールデン・ドラッグ",
+    "subCategory": "ケンブリッジ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "0cd03c78-b0c0-4f13-8369-c41ab9a5e9a7",
+    "title": "ライツ イン",
+    "subCategory": "ケンブリッジ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "e186b416-c2d2-4c07-9d17-27f4f2b764fe",
+    "title": "コンコルド",
+    "subCategory": "コンコルド",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "b40e3d38-53ef-4087-8ae7-5eb23b929a6e",
+    "title": "コンコード教会",
+    "subCategory": "コンコルド",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "1997f9d3-f5cf-4a04-a66d-5bb5713343d5",
+    "title": "コンコード シビック アクセス",
+    "subCategory": "コンコルド",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "1b08f800-ccff-4a29-a5c2-22e1912b7ac7",
+    "title": "コンコード貯蓄とローン",
+    "subCategory": "コンコルド",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "74df4565-6317-42ec-a7a0-4f5f8e201ec2",
+    "title": "コンコードのスピークイージー",
+    "subCategory": "コンコルド",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "b69756a2-b50d-4804-9d9c-1d4fb4b7f232",
+    "title": "ファロンズ (コンコード)",
+    "subCategory": "コンコルド",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "cde51c8d-b783-49c8-9e88-d8e90578b383",
+    "title": "金物店",
+    "subCategory": "コンコルド",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "33f88197-3c2b-4e1a-94f9-36a723e62d8e",
+    "title": "市営プルトニウム井戸",
+    "subCategory": "コンコルド",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "3f5775d2-8db9-4b43-bbed-23b8b48ed835",
+    "title": "自由博物館",
+    "subCategory": "コンコルド",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "5da1cf6d-9d1b-4806-b340-bd52c8f8e0c7",
+    "title": "北西の家",
+    "subCategory": "コンコルド",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "f1bc8a67-0866-4c85-8d15-6989ce593b68",
+    "title": "ピネリズ ベーカリー (コンコード)",
+    "subCategory": "コンコルド",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "836da4c3-fa9b-41bb-8032-9fc5f3f9d5ab",
+    "title": "ウォールデン・ドラッグ",
+    "subCategory": "コンコルド",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "dbaf5a7f-ba5b-41d2-9d79-7c1f234fcb11",
+    "title": "救貧院",
+    "subCategory": "コンコルド",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "c1045f3f-d80a-4388-9ea2-b73b7627a351",
+    "title": "ライツ イン",
+    "subCategory": "コンコルド",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "1e4b4c3e-cf02-4b69-9a2d-63b17175ef24",
+    "title": "修道院長の家",
+    "subCategory": "ダイヤモンドシティ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "1a00e0ea-83a0-46a9-8c61-dc48b49ce1f3",
+    "title": "オール フェイスズ チャペル",
+    "subCategory": "ダイヤモンドシティ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "be6e13b3-24ef-4a85-b447-3e0700ad23b9",
+    "title": "ケムアイケア",
+    "subCategory": "ダイヤモンドシティ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a25c9d9a-6db5-4b18-9302-3b6d51ab2a11",
+    "title": "チョイスチョップ",
+    "subCategory": "ダイヤモンドシティ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "9394ac7e-3d08-4b5b-b3e4-2c37a193f447",
+    "title": "コッドマン邸",
+    "subCategory": "ダイヤモンドシティ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "5365feae-eb0c-4e45-a733-6c3b0ce8497c",
+    "title": "コロニアルタップハウス",
+    "subCategory": "ダイヤモンドシティ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "b0f399ac-e3c3-42a9-9225-3cf77d50f495",
+    "title": "連邦兵器",
+    "subCategory": "ダイヤモンドシティ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "63a346f2-c134-4304-bc0c-7c3c3f723b13",
+    "title": "クック邸",
+    "subCategory": "ダイヤモンドシティ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "f2d46f63-4221-40a7-bf49-508d09f7aeb9",
+    "title": "ダイヤモンドシティマーケット",
+    "subCategory": "ダイヤモンドシティ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "ad7a70b0-b7b3-4e23-8e95-6f0b7c0368ec",
+    "title": "ダイヤモンドシティラジオ",
+    "subCategory": "ダイヤモンドシティ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "25e79906-4e10-4fbd-9223-157c7db2d17b",
+    "title": "ダイヤモンドシティ・サープラス",
+    "subCategory": "ダイヤモンドシティ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "3c25f9a5-6774-4c0f-b4da-d3e0aaed91d7",
+    "title": "ドク・クロッカーの家",
+    "subCategory": "ダイヤモンドシティ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "5596d965-19bf-4802-9f0d-8a6f7854e17a",
+    "title": "ドクター・サンの家",
+    "subCategory": "ダイヤモンドシティ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "9b1666e2-5c9e-4015-9c36-c4b39a6fe6a7",
+    "title": "ダグアウト イン",
+    "subCategory": "ダイヤモンドシティ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "5f13cb18-7b49-4421-8ac0-04ab5bfcf758",
+    "title": "アール・スターリングの家",
+    "subCategory": "ダイヤモンドシティ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "99651d99-21b2-4b71-9963-dc4d5f2819f4",
+    "title": "ファロンの地下室",
+    "subCategory": "ダイヤモンドシティ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "1ed9b5c2-d68a-4a11-91b9-86902d33d381",
+    "title": "温室",
+    "subCategory": "ダイヤモンドシティ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "c9ef7c38-0689-4a2a-93cf-0c950d0c35c1",
+    "title": "ホーソーン邸",
+    "subCategory": "ダイヤモンドシティ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "92f8a3c8-1c3a-4a5c-b988-77840cc0cb0f",
+    "title": "ホームプレート",
+    "subCategory": "ダイヤモンドシティ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "34e44af1-5b8a-4b5d-b68b-91540e3bc3a5",
+    "title": "キャシー",
+    "subCategory": "ダイヤモンドシティ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "b134be9a-3472-4584-aebc-7e5af6da33c2",
+    "title": "ケロッグの家",
+    "subCategory": "ダイヤモンドシティ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "79b6feeb-cfdb-427a-9d8e-3e7ba4507a05",
+    "title": "ラティマー邸",
+    "subCategory": "ダイヤモンドシティ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "8c4d74df-c7e9-4f56-a9b2-3f69bcfe70e7",
+    "title": "マクドノー市長室",
+    "subCategory": "ダイヤモンドシティ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "86a66682-48b1-461c-a0cc-65a6b56ff978",
+    "title": "メガサージェリーセンター",
+    "subCategory": "ダイヤモンドシティ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "86b8c29c-0ea3-4ac3-bf7f-85be8c7de1cd",
+    "title": "ペンブローク邸",
+    "subCategory": "ダイヤモンドシティ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "1d3f8df6-79fb-40a2-a14f-e9022a1d08fc",
+    "title": "パワーヌードル",
+    "subCategory": "ダイヤモンドシティ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "53e161b8-e598-49c9-a8f5-0b2f70df742e",
+    "title": "公の場での出来事",
+    "subCategory": "ダイヤモンドシティ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "5d2f7625-dab3-44ce-aef0-8e42cb72a785",
+    "title": "校舎",
+    "subCategory": "ダイヤモンドシティ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "fb058a88-44db-4bd0-8ea7-7d6c6bc2d907",
+    "title": "科学！",
+    "subCategory": "ダイヤモンドシティ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "97a430be-8c19-4f3f-89e7-63dd9abbc3e4",
+    "title": "警備室",
+    "subCategory": "ダイヤモンドシティ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "724f0fa0-4f13-40f1-ae56-4bea5d2e3bd5",
+    "title": "シェン・カウォルスキーの家",
+    "subCategory": "ダイヤモンドシティ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a86642de-d5dd-4ea1-868f-c8c2cdebb148",
+    "title": "たたき",
+    "subCategory": "ダイヤモンドシティ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "b84ffba7-1472-4b18-8c49-e0b001e823e5",
+    "title": "ザ・ウォール",
+    "subCategory": "ダイヤモンドシティ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "d8af35e6-6eb3-427d-aeaf-cf8c38e2d781",
+    "title": "バレンタイン探偵事務所",
+    "subCategory": "ダイヤモンドシティ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "3d2d06ac-82eb-4180-a27f-82e61c67cc74",
+    "title": "イーストボストン",
+    "subCategory": "イーストボストン",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "4c67dbbd-4511-46c4-a0c9-43c46d225217",
+    "title": "ボストン空港",
+    "subCategory": "イーストボストン",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "531a3f50-1c67-4852-85cd-21428ad915b8",
+    "title": "ボストン空港跡",
+    "subCategory": "イーストボストン",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "9d01292f-5e63-4659-bc3a-c26733212d85",
+    "title": "ドラムリンダイナー",
+    "subCategory": "イーストボストン",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "8ee1b071-471d-47f2-9bc7-846ecf7ea4c3",
+    "title": "東ボストン警察署",
+    "subCategory": "イーストボストン",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "c81a1f63-f181-48f9-85d7-120a5254b0ce",
+    "title": "イーストボストンプレパレーションスクール",
+    "subCategory": "イーストボストン",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "d12a0799-2d91-4fb5-83bf-af7c09cf1d8a",
+    "title": "イージー シティ ダウンズ",
+    "subCategory": "イーストボストン",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "5c127749-8420-4ee5-b5e7-9c838751f2e5",
+    "title": "ロブコセールス",
+    "subCategory": "イーストボストン",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "1f1ad697-004e-4a9f-b4c8-9c24fda10e8f",
+    "title": "メカニストの隠れ家",
+    "subCategory": "イーストボストン",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "16c6e381-3c25-44f3-ba32-6ef673891da2",
+    "title": "プリドゥエン",
+    "subCategory": "イーストボストン",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "81372aa5-c2f4-4e58-b2d1-6de2e4a6c04a",
+    "title": "遊歩道",
+    "subCategory": "遊歩道",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "7bf458ac-ee3e-49f3-b47f-fd056a3da847",
+    "title": "バリケードと屋上",
+    "subCategory": "遊歩道",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "4d01f996-5c3d-4592-891b-6b1c6b545d4f",
+    "title": "チャールズ ビュー アンフィシアター",
+    "subCategory": "遊歩道",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "6c2b60a0-eace-45b1-b007-90563d5a6d35",
+    "title": "コモンウェルス アベニュー",
+    "subCategory": "遊歩道",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "356c23f8-c2df-4bb0-91ab-5a16e84d7434",
+    "title": "歩道橋",
+    "subCategory": "遊歩道",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "33d14a6f-5c0a-4e77-af96-b2b198b3f900",
+    "title": "ハルシジェン株式会社",
+    "subCategory": "遊歩道",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "f2c74f1a-d883-47b3-b14e-9331b4dd1413",
+    "title": "聖宣教会",
+    "subCategory": "遊歩道",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "6f03685a-ff49-4f89-8e86-3a2eb9e8c8df",
+    "title": "マールボロ ハウス",
+    "subCategory": "遊歩道",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "b1b2e82f-d1f4-4aeb-985a-b7a25716c8a1",
+    "title": "金融街",
+    "subCategory": "金融街",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "8a7cc9b8-ae16-4d66-a171-14f540df84c0",
+    "title": "35 コート",
+    "subCategory": "金融街",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "f19a033d-c1a4-4341-af7f-05f4f4729270",
+    "title": "バクスタービル",
+    "subCategory": "金融街",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "f8260a9b-5c5b-4d5a-89ea-e5157e73a551",
+    "title": "壊れたモノレール",
+    "subCategory": "金融街",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "8b5a3c2c-ba23-442c-aae8-d24eef745bf3",
+    "title": "コモンウェルス銀行",
+    "subCategory": "金融街",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "db67f193-408c-487e-97c9-9e91d9dbfa50",
+    "title": "コングレスストリートガレージ",
+    "subCategory": "金融街",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "4ce5c23d-c8cd-4a5a-8ea2-0033fb6f8bd4",
+    "title": "落ちたスカイブリッジ",
+    "subCategory": "金融街",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a5d8fe55-2f06-4fe0-a40f-9ea6937dabbc",
+    "title": "ファロンズ (金融街)",
+    "subCategory": "金融街",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "ac1b8e16-c96a-4f54-b24a-4ac72750ce9a",
+    "title": "ファニエル・ホール",
+    "subCategory": "金融街",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "1b81c6e2-f7c7-4887-85df-fdcd7d5f21f8",
+    "title": "ガーデンテラス",
+    "subCategory": "金融街",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "e6a7312b-0c5b-4a5c-b65a-1eaa5dd672c9",
+    "title": "ヘイマーケット モール",
+    "subCategory": "金融街",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a9b40813-582d-40c5-ba2a-b71c6c5d22d8",
+    "title": "ジョーのスパッキーズ",
+    "subCategory": "金融街",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "9ec3070e-c439-42fc-b197-59c4b18db0b5",
+    "title": "マスフュージョンビル",
+    "subCategory": "金融街",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "bd990c8a-87da-4c20-9d97-6016a5a86d5c",
+    "title": "マス フュージョン エグゼクティブ スイート",
+    "subCategory": "金融街",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "c9c2d384-b7de-40bb-a9e2-7be6f2ef899f",
+    "title": "オールドコーナー書店",
+    "subCategory": "金融街",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "6c64024c-d648-4507-94d4-c76b442dc3c7",
+    "title": "ピナクル ハイライズ",
+    "subCategory": "金融街",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "878ed781-ef6e-4e21-9c63-156f6f40710a",
+    "title": "ポスタルスクエア",
+    "subCategory": "金融街",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "ad4f7e91-41ee-4f9d-b7c4-54ba032f694e",
+    "title": "ウォーター ストリート アパートメント",
+    "subCategory": "金融街",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a9d3875a-764b-43eb-b98c-0374d45b92b9",
+    "title": "ゼネラル・アトミックス・ガレリア",
+    "subCategory": "ゼネラル・アトミックス・ガレリア",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "764290f2-6f04-45dd-a012-8b24543725f2",
+    "title": "路地裏ボウリング",
+    "subCategory": "ゼネラル・アトミックス・ガレリア",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "22a6a7c7-9838-4883-a2e7-14c9357e04c7",
+    "title": "ファロンズ (ゼネラル・アトミックス・ガレリア)",
+    "subCategory": "ゼネラル・アトミックス・ガレリア",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "55c01e02-1c96-4f84-8150-bc23799054c1",
+    "title": "ゼネラル・アトミックスのアウトレット",
+    "subCategory": "ゼネラル・アトミックス・ガレリア",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "c9369d03-50ea-430e-b64c-662ce12eb5c9",
+    "title": "便利な食べ物",
+    "subCategory": "ゼネラル・アトミックス・ガレリア",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "b2e7c1b4-27c7-4609-9cc3-df4d17b5f1ec",
+    "title": "マッデンのジム",
+    "subCategory": "ゼネラル・アトミックス・ガレリア",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "4429e926-40ef-4b6b-a504-776dcd1a6b01",
+    "title": "ピネリズ ベーカリー (ゼネラル アトミックス ガレリア)",
+    "subCategory": "ゼネラル・アトミックス・ガレリア",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "69358fb5-5f35-40d9-85b5-1f27d7e5d0c2",
+    "title": "光る海",
+    "subCategory": "光る海",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "11cb156f-c67e-48da-bd0e-19f3a1001ae3",
+    "title": "アトランティックオフィス",
+    "subCategory": "光る海",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "9e9fbd93-07ac-4003-9149-6a3e02907c24",
+    "title": "転覆した工場",
+    "subCategory": "光る海",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "4d8f545c-6fb0-4b80-926b-9d676b92ad4b",
+    "title": "洞窟（光る海）",
+    "subCategory": "光る海",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "cfa2f9a9-6d08-41b4-839f-5ee0ad18657d",
+    "title": "アトムのクレーター",
+    "subCategory": "光る海",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a0f6e16e-2b07-4811-a8f2-e2cc3bf1f647",
+    "title": "朽ち果てた原子炉敷地",
+    "subCategory": "光る海",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "01f75702-c244-4375-bb91-e9a8d7fe5f96",
+    "title": "老朽化した工場",
+    "subCategory": "光る海",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "78b8c6f2-1c90-43c3-812c-0f19b6537af2",
+    "title": "光る海の端",
+    "subCategory": "光る海",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "84a17e42-29f0-4f86-9787-5ed245b4a23b",
+    "title": "連邦供給キャッシュ 84NE",
+    "subCategory": "光る海",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a4de7dcd-0502-4a1e-bde3-2642dfc3d2db",
+    "title": "連邦監視センター K-21B",
+    "subCategory": "光る海",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "2c842d02-4c7d-4472-b9b4-3b4c6a0b7bf3",
+    "title": "忘れられた教会",
+    "subCategory": "光る海",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "f536a07a-d6ef-4cda-86da-d14b29d53a15",
+    "title": "ホープスマーチ ペンテコステ派教会",
+    "subCategory": "光る海",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "30f55c06-1dbd-450a-a23f-148e50d68409",
+    "title": "オニール・ファミリー・マニュファクチャリング",
+    "subCategory": "光る海",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "8d4afbf1-5b09-47f9-a3c7-cf123f6ee049",
+    "title": "駐車場",
+    "subCategory": "光る海",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "72e90e07-8c25-47b0-9ea9-46c1887fcf10",
+    "title": "レッドロケット(光る海)",
+    "subCategory": "光る海",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "d1c5ac19-8f10-4d99-9320-028477a5116e",
+    "title": "中継塔 0DB-521",
+    "subCategory": "光る海",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "8f242f85-d36b-4bb0-9aaf-2f22a4310b38",
+    "title": "岩の洞窟",
+    "subCategory": "光る海",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "5463b21f-07e7-45ed-b070-d78e0f8ad5cd",
+    "title": "センチネルサイト",
+    "subCategory": "光る海",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "e8db85d8-8f6f-47b5-a137-c3959d8d7fc0",
+    "title": "スカイレーンズ 1665 便",
+    "subCategory": "光る海",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "d888e772-2817-40df-bb69-3f1ce7045e5f",
+    "title": "ベルチバードの残骸",
+    "subCategory": "光る海",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "d2ac50e8-4d19-4eab-b79c-2b4646b71620",
+    "title": "グッドネイバー",
+    "subCategory": "グッドネイバー",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "66dd04f0-13db-4fcd-9425-07e5e8fece0a",
+    "title": "ボッビの場所",
+    "subCategory": "グッドネイバー",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "31828d4d-42c4-4c08-a16a-8ee115dd4a06",
+    "title": "デイジーの割引",
+    "subCategory": "グッドネイバー",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "78e35a0f-d22f-475d-a27f-17103450e273",
+    "title": "ホテル レクスフォード",
+    "subCategory": "グッドネイバー",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a4f598f3-5c8a-41b8-a933-1d48d72954d4",
+    "title": "殺すか殺されるか",
+    "subCategory": "グッドネイバー",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "1a0791c2-7f22-43d8-bc0a-e8311393e21d",
+    "title": "メモリーデン",
+    "subCategory": "グッドネイバー",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "7b57380e-4f85-43c0-920d-2cf84e45de1d",
+    "title": "旧州議事堂",
+    "subCategory": "グッドネイバー",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "f90d59d2-ec3f-4ef6-89c4-6a729634b9a2",
+    "title": "ザ・ディグ",
+    "subCategory": "グッドネイバー",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "bbfb7e4e-1362-45a1-8d80-56b71e9a92cf",
+    "title": "第三のレール",
+    "subCategory": "グッドネイバー",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "0b1ba723-f799-4b7e-8e43-ea57400b84ef",
+    "title": "倉庫（グッドネイバー）",
+    "subCategory": "グッドネイバー",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "cb15a6c0-5eb9-4e2d-8c4f-0c00695fbf27",
+    "title": "レキシントン",
+    "subCategory": "レキシントン",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "48d2d4cc-d58c-4e2f-826a-1bf0e2eb648f",
+    "title": "コルベガ組立工場",
+    "subCategory": "レキシントン",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "03f5b71b-5a05-4b68-8a1a-cd9266ac4721",
+    "title": "フェイデッド・グローリー・コインランドリー",
+    "subCategory": "レキシントン",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "d9c99856-8902-4a6b-83a1-623a5e7e7bbf",
+    "title": "レキシントンのアパートメント",
+    "subCategory": "レキシントン",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "b641120f-1fc3-4c23-bfdf-cb02b9e7dd4f",
+    "title": "レキシントン銀行",
+    "subCategory": "レキシントン",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "9f340981-242a-4195-b3b6-5f5a98ed92db",
+    "title": "レキシントン薬局",
+    "subCategory": "レキシントン",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "132907d5-ef6f-45f7-9f9f-b45b102a622d",
+    "title": "ミスティック・パインズ",
+    "subCategory": "レキシントン",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "048d2b67-c55b-4cf8-b0db-e56865b00fb7",
+    "title": "レッドロケット (レキシントン)",
+    "subCategory": "レキシントン",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "0b4b8a4c-008f-40df-9cc6-fcb2701e7682",
+    "title": "スローカムズ・ジョー",
+    "subCategory": "レキシントン",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "09a54772-4ac5-4ba2-bec3-e14ba77d38a3",
+    "title": "スーパーデューパーマート",
+    "subCategory": "レキシントン",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "905da1bb-b2db-46e5-bc5f-3fb88cd0df9a",
+    "title": "配電盤",
+    "subCategory": "レキシントン",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "997160b5-38d0-4b65-b890-8628f42a55c7",
+    "title": "モールデン",
+    "subCategory": "モールデン",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "f5785041-2dd1-46b7-a7bf-871d2ea7e21e",
+    "title": "ガレージの床の間",
+    "subCategory": "モールデン",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "63a5d181-b679-4c66-b83d-6b23626753de",
+    "title": "グリーントップ保育園",
+    "subCategory": "モールデン",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "72d6dd29-e135-4e24-99a2-dc5a208e129f",
+    "title": "モールデン センター",
+    "subCategory": "モールデン",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "b50c208d-bdb6-429d-bef9-84063b6d7a16",
+    "title": "モールデン排水",
+    "subCategory": "モールデン",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "f10adfb3-08cf-4a82-8529-5e87809580c1",
+    "title": "モールデン中学校",
+    "subCategory": "モールデン",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "38c36c2d-e6ed-4b92-8b1c-8d4c2b5250f3",
+    "title": "モールデン警察署",
+    "subCategory": "モールデン",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "d347b1c2-5360-42ad-b31e-0cd9e1af5440",
+    "title": "メッドテックリサーチ",
+    "subCategory": "モールデン",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "49b187c2-15a3-46bf-936d-d21c29d04ce6",
+    "title": "メドフォード記念病院",
+    "subCategory": "モールデン",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "16a07c2f-87b1-47c8-b4d8-02c721fbf7c1",
+    "title": "古い食道シンクホール",
+    "subCategory": "モールデン",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "b73d6753-37ab-4b27-a923-f68ec80c34c7",
+    "title": "廃墟となった診療所",
+    "subCategory": "モールデン",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "53f04a84-b498-4c7a-8f93-5b4b79920ac7",
+    "title": "スローカムズ・ジョー本社",
+    "subCategory": "モールデン",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "bd4705e4-e021-4abf-82d8-2e460536da8e",
+    "title": "ボールト 75",
+    "subCategory": "モールデン",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "3b61f00f-453d-4db1-8f60-df1e17bf62b1",
+    "title": "ナハント",
+    "subCategory": "ナハント",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "0aefb5e3-b7e9-41f3-9504-8a99e8cfa02d",
+    "title": "クループ邸",
+    "subCategory": "ナハント",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "2f21a0a2-74c4-40de-ae17-df14c1b12f8b",
+    "title": "ナハント バー アンド レストラン",
+    "subCategory": "ナハント",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "4d78fddc-e32a-4658-af5a-b28d35a92485",
+    "title": "ナハント礼拝堂",
+    "subCategory": "ナハント",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "d896764f-04fb-49f5-b6c5-ba0809a1b240",
+    "title": "ナハント海洋学会",
+    "subCategory": "ナハント",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "f5c48e5c-0ef3-4d6d-8b4d-5df180e7d13c",
+    "title": "ナハント保安官局",
+    "subCategory": "ナハント",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "ac18ea85-9812-4a22-b7f2-39b6eb39882f",
+    "title": "ナハント埠頭",
+    "subCategory": "ナハント",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "6754b4f7-8237-4f98-9e3d-7195a1537f2c",
+    "title": "レッドロケット（ナハント）",
+    "subCategory": "ナハント",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "8c48edfb-c88a-4f66-916a-23b2c7b6cfac",
+    "title": "ナティック",
+    "subCategory": "ナティック",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "d3016e23-8e84-47b8-b529-871e81024ad5",
+    "title": "ヒルサイド ホーム",
+    "subCategory": "ナティック",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "aa3cbf67-7f6c-4913-8e6a-1f41f0b43c2e",
+    "title": "ナティック・バンクス",
+    "subCategory": "ナティック",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "238f387f-cc83-4e68-8f8a-6eab26e9e320",
+    "title": "ネイティック警察署",
+    "subCategory": "ナティック",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "b8e309cd-df3b-4fb8-a6f7-72ccf8d401f0",
+    "title": "ネーティック発電所",
+    "subCategory": "ナティック",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "432c9c0a-042a-442f-89f2-72e348f6a87a",
+    "title": "ポセイドン貯水池",
+    "subCategory": "ナティック",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "3a462ad9-26b2-4914-8560-7237480ba3a9",
+    "title": "レッドロケット（ネイティック・バンクス）",
+    "subCategory": "ナティック",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "eb7fe3f1-2db4-4d7c-a5de-cc0983c856b8",
+    "title": "ロードサイド パインズ モーテル",
+    "subCategory": "ナティック",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "e8b04b53-9fa1-4d0e-9ee2-2c787c02c53e",
+    "title": "入植者キャンプ場",
+    "subCategory": "ナティック",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "7b75d1c4-4d45-4919-95c9-4d6cbe6b218a",
+    "title": "ノースエンド",
+    "subCategory": "ノースエンド",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "b8f06d7a-4478-47d5-a8d2-c6e75d8a29e1",
+    "title": "ボクシングジム",
+    "subCategory": "ノースエンド",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "2143ed76-c1b9-4ad0-a611-12d2b6496f95",
+    "title": "ホーダーズ アパートメント",
+    "subCategory": "ノースエンド",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "890c03eb-7f53-49fc-8cf1-5e0a59b497f3",
+    "title": "ミーン・ペストリー",
+    "subCategory": "ノースエンド",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "30a6a34e-1b65-4c44-9c5c-509fa3cc58b0",
+    "title": "ノースエンド墓地",
+    "subCategory": "ノースエンド",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "05f556ff-e2b2-4d1d-82fc-22b2c3e7bf9b",
+    "title": "オールド ノース チャーチ",
+    "subCategory": "ノースエンド",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "2b1b861d-c50a-4c2e-9655-6bae33f82a01",
+    "title": "ポール・リビア・ハウス",
+    "subCategory": "ノースエンド",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "82d45a68-22e7-45cf-bb9b-12a016dc99ba",
+    "title": "ポール・リビア記念碑",
+    "subCategory": "ノースエンド",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "c37a1a04-92f8-4cc9-8df6-6ba9d3e0b48f",
+    "title": "ピックマン ギャラリー",
+    "subCategory": "ノースエンド",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "d5dfc240-4500-4d97-87d9-28ea648f5cf6",
+    "title": "ピザ屋",
+    "subCategory": "ノースエンド",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "9f49e1b8-2a08-4ce1-bd7e-0d5ea1894951",
+    "title": "鉄道本部",
+    "subCategory": "ノースエンド",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "b0c4f7b2-4d07-4b9d-b17f-f6ffcd062c48",
+    "title": "ヴァレンティ駅",
+    "subCategory": "ノースエンド",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "d20729ec-5ab4-43ee-9c3b-5f8ec74e08f1",
+    "title": "ワーフサイド コテージ",
+    "subCategory": "ノースエンド",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p1",
+    "title": "クインシー遺跡",
+    "subCategory": "クインシー遺跡",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p2",
+    "title": "フェントンの食品",
+    "subCategory": "クインシー遺跡",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p3",
+    "title": "ガンズ ガンズ ガンズ",
+    "subCategory": "クインシー遺跡",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p4",
+    "title": "ピーボディ ハウス",
+    "subCategory": "クインシー遺跡",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p5",
+    "title": "ピネリズ ベーカリー (クインシー)",
+    "subCategory": "クインシー遺跡",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p6",
+    "title": "クインシーのアパートメント",
+    "subCategory": "クインシー遺跡",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p7",
+    "title": "クインシー教会",
+    "subCategory": "クインシー遺跡",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p8",
+    "title": "クインシーダイナー",
+    "subCategory": "クインシー遺跡",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p9",
+    "title": "クインシー薬局",
+    "subCategory": "クインシー遺跡",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p10",
+    "title": "クインシー警察署",
+    "subCategory": "クインシー遺跡",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p11",
+    "title": "クインシー採石場",
+    "subCategory": "クインシー遺跡",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p12",
+    "title": "レッドロケット（クインシー）",
+    "subCategory": "クインシー遺跡",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p13",
+    "title": "壁の穴",
+    "subCategory": "クインシー遺跡",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p14",
+    "title": "ボールト88",
+    "subCategory": "クインシー遺跡",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p15",
+    "title": "リビア",
+    "subCategory": "リビア",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p16",
+    "title": "ドラムリン ダイナー (ギブソン ポイント ピア)",
+    "subCategory": "リビア",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p17",
+    "title": "ギブソン ポイント ピア",
+    "subCategory": "リビア",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p18",
+    "title": "リーブ マリーナ",
+    "subCategory": "リビア",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p19",
+    "title": "リビア ビーチ駅",
+    "subCategory": "リビア",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p20",
+    "title": "リビア衛星アレイ",
+    "subCategory": "リビア",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p21",
+    "title": "セーラム",
+    "subCategory": "セーラム",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p22",
+    "title": "ドラムリン・ダイナー (セーラム)",
+    "subCategory": "セーラム",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p23",
+    "title": "魔術博物館",
+    "subCategory": "セーラム",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p24",
+    "title": "ルーク家の家",
+    "subCategory": "セーラム",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p25",
+    "title": "サンディ コーブズ回復期ホーム",
+    "subCategory": "セーラム",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p26",
+    "title": "サンクチュアリ ヒルズ",
+    "subCategory": "サンクチュアリ ヒルズ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p27",
+    "title": "ミニッツメン記念碑",
+    "subCategory": "サンクチュアリ ヒルズ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p28",
+    "title": "ミスティ・レイク",
+    "subCategory": "サンクチュアリ ヒルズ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p29",
+    "title": "オールド ノース ブリッジ",
+    "subCategory": "サンクチュアリ ヒルズ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p30",
+    "title": "ルートセラー",
+    "subCategory": "サンクチュアリ ヒルズ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p31",
+    "title": "明日の家",
+    "subCategory": "サンクチュアリ ヒルズ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p32",
+    "title": "サウスボストン",
+    "subCategory": "サウスボストン",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p33",
+    "title": "アンドリュー駅",
+    "subCategory": "サウスボストン",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p34",
+    "title": "バスとアパートの残骸",
+    "subCategory": "サウスボストン",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p35",
+    "title": "ドーチェスター高地の記念碑",
+    "subCategory": "サウスボストン",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p36",
+    "title": "工場 (Fallout 4)",
+    "subCategory": "サウスボストン",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p37",
+    "title": "フォー・リーフの魚詰め工場",
+    "subCategory": "サウスボストン",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p38",
+    "title": "ゼネラル・アトミックス工場",
+    "subCategory": "サウスボストン",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p39",
+    "title": "グインネット ブルワリー",
+    "subCategory": "サウスボストン",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p40",
+    "title": "ホーソーン エステート",
+    "subCategory": "サウスボストン",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p41",
+    "title": "ジョーズ・スパッキーズのサンドイッチショップ",
+    "subCategory": "サウスボストン",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p42",
+    "title": "L通り浴場",
+    "subCategory": "サウスボストン",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p43",
+    "title": "マロースキーの化学研究室",
+    "subCategory": "サウスボストン",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p44",
+    "title": "夢遊病者の場所",
+    "subCategory": "サウスボストン",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p45",
+    "title": "サウスボストン教会",
+    "subCategory": "サウスボストン",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p46",
+    "title": "サウスボストン高校",
+    "subCategory": "サウスボストン",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p47",
+    "title": "南ボストン軍の検問所",
+    "subCategory": "サウスボストン",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p48",
+    "title": "サウスボストン警察署",
+    "subCategory": "サウスボストン",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p49",
+    "title": "サリバンの",
+    "subCategory": "サウスボストン",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p50",
+    "title": "城",
+    "subCategory": "サウスボストン",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p51",
+    "title": "グウィネット・レストラン",
+    "subCategory": "サウスボストン",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p52",
+    "title": "ユニオンマンズサークル",
+    "subCategory": "サウスボストン",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p53",
+    "title": "ザ・フェンズ",
+    "subCategory": "ザ・フェンズ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p54",
+    "title": "アンナズカフェ",
+    "subCategory": "ザ・フェンズ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p55",
+    "title": "バックストリートアパレル",
+    "subCategory": "ザ・フェンズ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p56",
+    "title": "ブリッジウェイ・トラスト",
+    "subCategory": "ザ・フェンズ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p57",
+    "title": "ブルックラインの建物",
+    "subCategory": "ザ・フェンズ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p58",
+    "title": "エバンス ウェイ 袋小路",
+    "subCategory": "ザ・フェンズ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p59",
+    "title": "フェンズカフェ",
+    "subCategory": "ザ・フェンズ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p60",
+    "title": "フェンズストリート下水道",
+    "subCategory": "ザ・フェンズ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p61",
+    "title": "フェンズウェイ駅",
+    "subCategory": "ザ・フェンズ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p62",
+    "title": "フラゴン トンネル",
+    "subCategory": "ザ・フェンズ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p63",
+    "title": "ファウンダーズ・トライアングル",
+    "subCategory": "ザ・フェンズ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p64",
+    "title": "ハングマンズ・アリー",
+    "subCategory": "ザ・フェンズ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p65",
+    "title": "ハードウェアタウン",
+    "subCategory": "ザ・フェンズ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p66",
+    "title": "隠れたダイナー",
+    "subCategory": "ザ・フェンズ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p67",
+    "title": "パークビュー アパートメンツ",
+    "subCategory": "ザ・フェンズ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p68",
+    "title": "警察第8分署",
+    "subCategory": "ザ・フェンズ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p69",
+    "title": "レイダーの路地裏キャンプ",
+    "subCategory": "ザ・フェンズ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p70",
+    "title": "サウスフェンズタワー",
+    "subCategory": "ザ・フェンズ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p71",
+    "title": "USSリップタイドの残骸",
+    "subCategory": "ザ・フェンズ",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p72",
+    "title": "研究所",
+    "subCategory": "研究所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p73",
+    "title": "FEVラボ",
+    "subCategory": "研究所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p74",
+    "title": "インスティチュート・アドバンスト・システムズ",
+    "subCategory": "研究所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p75",
+    "title": "バイオサイエンス研究所",
+    "subCategory": "研究所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p76",
+    "title": "研究所コンコース",
+    "subCategory": "研究所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p77",
+    "title": "研究所の原子炉",
+    "subCategory": "研究所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p78",
+    "title": "インスティチュート・ロボティクス",
+    "subCategory": "研究所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p79",
+    "title": "研究所SRB",
+    "subCategory": "研究所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p80",
+    "title": "インスティチュートのサブレベル 21-D",
+    "subCategory": "研究所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p81",
+    "title": "古いロボット工学",
+    "subCategory": "研究所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p82",
+    "title": "劇場地区",
+    "subCategory": "劇場地区",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p83",
+    "title": "コンバットゾーン",
+    "subCategory": "劇場地区",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p84",
+    "title": "DB",
+    "subCategory": "劇場地区",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p85",
+    "title": "高速道路の玉突き事故",
+    "subCategory": "劇場地区",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p86",
+    "title": "ヘスターのコンシューマ・ロボティクス",
+    "subCategory": "劇場地区",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p87",
+    "title": "ハブ360",
+    "subCategory": "劇場地区",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p88",
+    "title": "マス ベイ メディカル センター",
+    "subCategory": "劇場地区",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p89",
+    "title": "メディカル センター メトロ",
+    "subCategory": "劇場地区",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p90",
+    "title": "ピアウッド レジデンシーズ",
+    "subCategory": "劇場地区",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p91",
+    "title": "スローカムズ・ジョー (マスベイ医療)",
+    "subCategory": "劇場地区",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p92",
+    "title": "ティッカーテープラウンジ",
+    "subCategory": "劇場地区",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p93",
+    "title": "ユニバーシティ・ポイント",
+    "subCategory": "ユニバーシティ・ポイント",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p94",
+    "title": "セジウィック ホール",
+    "subCategory": "ユニバーシティ・ポイント",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p95",
+    "title": "大学信用組合",
+    "subCategory": "ユニバーシティ・ポイント",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p96",
+    "title": "ユニバーシティポイント薬局",
+    "subCategory": "ユニバーシティ・ポイント",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p97",
+    "title": "ウェスト・ロックスベリー",
+    "subCategory": "ウェスト・ロックスベリー",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p98",
+    "title": "ファロンズデパート",
+    "subCategory": "ウェスト・ロックスベリー",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p99",
+    "title": "ミルトン・ジェネラル病院",
+    "subCategory": "ウェスト・ロックスベリー",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p100",
+    "title": "ミルトン駐車場",
+    "subCategory": "ウェスト・ロックスベリー",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p101",
+    "title": "ショー高校",
+    "subCategory": "ウェスト・ロックスベリー",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p102",
+    "title": "ウェスト ロックスベリー駅",
+    "subCategory": "ウェスト・ロックスベリー",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p104",
+    "title": "アバナシー ファーム",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p105",
+    "title": "アークジェットシステム",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p106",
+    "title": "アトムキャッツのガレージ",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p107",
+    "title": "ビーンタウン ブルワリー",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p108",
+    "title": "ベッドフォード駅",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p109",
+    "title": "ビッグ・ジョンのサルベージ",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p110",
+    "title": "ボストン市長用シェルター",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p111",
+    "title": "ボストン警察の配給サイト",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p112",
+    "title": "ブレイクハート・バンクス",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p113",
+    "title": "チェスナット ヒロック貯水池",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p114",
+    "title": "沿岸警備隊の桟橋",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p115",
+    "title": "海岸沿いのコテージ",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p116",
+    "title": "コンバットゾーン",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p117",
+    "title": "カウンティークロッシング",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p118",
+    "title": "契約",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p119",
+    "title": "クレーターハウス",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p120",
+    "title": "カトラーベンド",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p121",
+    "title": "暗い中空の池",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p122",
+    "title": "ドラムリンダイナー",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p123",
+    "title": "ダンウィッチ・ボーラーズ",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p124",
+    "title": "イーグレ​​ット ツアーズ マリーナ",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p125",
+    "title": "電気愛好家クラブ",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p126",
+    "title": "フェアライン ヒル エステーツ",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p127",
+    "title": "連邦食糧備蓄",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p128",
+    "title": "フィドラーズ グリーン トレーラー エステート",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p129",
+    "title": "フィンチ・ファーム",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p130",
+    "title": "フォレストグローブ湿地",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p131",
+    "title": "フォート・ストロング",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p132",
+    "title": "ゴルスキ小屋",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p133",
+    "title": "グレイガーデン",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p134",
+    "title": "ガナーズプラザ",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p135",
+    "title": "ハブシティオートレッカーズ",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p136",
+    "title": "ヒューゴの穴",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p137",
+    "title": "ハイドパーク",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p138",
+    "title": "アイルランドのプライド・インダストリーズ造船所",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p139",
+    "title": "ジャルバート・ブラザーズの処分",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p140",
+    "title": "ジャマイカ プレイン",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p141",
+    "title": "キングスポート灯台",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p142",
+    "title": "コチチュエート湖",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p143",
+    "title": "クアナポウィット湖",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p144",
+    "title": "リベルタリア",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p145",
+    "title": "リスニングポストブラボー",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p146",
+    "title": "ロンリーチャペル",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p147",
+    "title": "ロングネック・ルコウスキーの缶詰工場",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p148",
+    "title": "リンピア駐車場",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p149",
+    "title": "リン・ウッズ",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p150",
+    "title": "マクラ・フィッシュパッキング",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p151",
+    "title": "マスフュージョン格納庫",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p152",
+    "title": "マスフュージョン廃棄場",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p153",
+    "title": "マス砂利",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p154",
+    "title": "マス パイク インターチェンジ",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p155",
+    "title": "マス パイク トンネル東",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p156",
+    "title": "マス・パイク・トンネル西",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p157",
+    "title": "マークウォーター建設現場",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p158",
+    "title": "州兵訓練場",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p159",
+    "title": "ネポンセット公園",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p160",
+    "title": "NH",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p161",
+    "title": "ノードハーゲン ビーチ",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p162",
+    "title": "オバーランド駅",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p163",
+    "title": "前哨基地ジモンジャ",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p164",
+    "title": "パーソンズ クリーマリー",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p165",
+    "title": "パーソンズ州立精神病院",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p166",
+    "title": "ポセイデンエネルギータービン18-F",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p167",
+    "title": "ポセイドン・エネルギー",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p168",
+    "title": "電波塔 3SM-U81",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p169",
+    "title": "レンジャーキャビン",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p170",
+    "title": "偵察バンカー シータ",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p171",
+    "title": "レッドロケット・トラックストップ",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p172",
+    "title": "中継塔 0BB-915",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p173",
+    "title": "中継塔0MC-810",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p174",
+    "title": "中継塔 0SC-527",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p175",
+    "title": "中継塔1DL-109",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p176",
+    "title": "ロボット廃棄場",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p177",
+    "title": "ロボティクス パイオニア パーク",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p178",
+    "title": "ロッキー ナローズ パーク",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p179",
+    "title": "腐った埋め立て地",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p180",
+    "title": "サウガス製鉄所",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p181",
+    "title": "スクラップパレス",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p182",
+    "title": "スカイレーンズ 1981 便",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p183",
+    "title": "小さなレイダー小屋",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p184",
+    "title": "サマービル・プレイス",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p185",
+    "title": "スペクタクル・アイランド",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p186",
+    "title": "スターライト ドライブ イン",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p187",
+    "title": "サンシャイン・タイディングス生協",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p188",
+    "title": "タフィントン ボートハウス",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p189",
+    "title": "テンパインズ ブラフ",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p190",
+    "title": "スロッグ",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p191",
+    "title": "茂みの発掘",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p192",
+    "title": "タッカー記念橋",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p193",
+    "title": "USAF 衛星ステーション オリビア",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p194",
+    "title": "USS コンスティテューション",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p195",
+    "title": "ボールト111",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p196",
+    "title": "ボールト81",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p197",
+    "title": "ボールト95",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p198",
+    "title": "Vault-Tec 地域本社",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p199",
+    "title": "ウォールデン・ポンド",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p200",
+    "title": "ワーウィック ホームステッド",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p201",
+    "title": "ワッツ・コンシューマー・エレクトロニクス",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p202",
+    "title": "ウェイポイントエコー",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p203",
+    "title": "ウェスト エベレット エステーツ",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p204",
+    "title": "ウェスティング エステート",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p205",
+    "title": "ウェストン浄水場",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p206",
+    "title": "邪悪な輸送船団のロックアップ",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p207",
+    "title": "ワイルドウッド墓地",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p208",
+    "title": "ウィルソン・アトマトイズ工場",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p209",
+    "title": "FMSノーザンスター号の残骸",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p210",
+    "title": "WRVR放送局",
+    "subCategory": "その他の場所",
+    "dlc": "なし",
+    "mainCategory": "主要"
+  },
+  {
+    "id": "f6b7627d-61d4-4a72-b16c-76eb86db2a79",
+    "title": "ファーハーバー",
+    "subCategory": "ファーハーバー",
+    "dlc": "ファーハーバー",
+    "mainCategory": "ファーハーバー"
+  },
+  {
+    "id": "da783c7f-8d53-4ac4-94a1-456e378d61c1",
+    "title": "アカディア",
+    "subCategory": "ファーハーバー",
+    "dlc": "ファーハーバー",
+    "mainCategory": "ファーハーバー"
+  },
+  {
+    "id": "15e4c505-6d37-40c7-8b23-7627cb5a9f91",
+    "title": "核",
+    "subCategory": "ファーハーバー",
+    "dlc": "ファーハーバー",
+    "mainCategory": "ファーハーバー"
+  },
+  {
+    "id": "9c3d9f4d-880b-4475-8d8f-4bb7b50814eb",
+    "title": "ダルトン ファーム",
+    "subCategory": "ファーハーバー",
+    "dlc": "ファーハーバー",
+    "mainCategory": "ファーハーバー"
+  },
+  {
+    "id": "fc8ee22d-77af-4b48-8b1e-d428b1f4a0cf",
+    "title": "エコーレイク材",
+    "subCategory": "ファーハーバー",
+    "dlc": "ファーハーバー",
+    "mainCategory": "ファーハーバー"
+  },
+  {
+    "id": "14c868d2-5b6c-4d20-930d-d16434b83369",
+    "title": "ロングフェローズ キャビン",
+    "subCategory": "ファーハーバー",
+    "dlc": "ファーハーバー",
+    "mainCategory": "ファーハーバー"
+  },
+  {
+    "id": "bd6c00da-97d3-4171-8c02-7d2d2bc29552",
+    "title": "国立公園ビジターズ センター",
+    "subCategory": "ファーハーバー",
+    "dlc": "ファーハーバー",
+    "mainCategory": "ファーハーバー"
+  },
+  {
+    "id": "1f92e9b3-217f-4f78-a132-1607748484e5",
+    "title": "アルダーシー デイ スパ",
+    "subCategory": "ファーハーバー",
+    "dlc": "ファーハーバー",
+    "mainCategory": "ファーハーバー"
+  },
+  {
+    "id": "c6ee9f55-3d68-4d1a-bd85-9fe82abf6b43",
+    "title": "アトムの泉",
+    "subCategory": "ファーハーバー",
+    "dlc": "ファーハーバー",
+    "mainCategory": "ファーハーバー"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "title": "ビーバークリークレーンズ",
+    "subCategory": "ファーハーバー",
+    "dlc": "ファーハーバー",
+    "mainCategory": "ファーハーバー"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "title": "ブライニーズ ベイト アンド タックル",
+    "subCategory": "ファーハーバー",
+    "dlc": "ファーハーバー",
+    "mainCategory": "ファーハーバー"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "title": "ブルックス ヘッド灯台",
+    "subCategory": "ファーハーバー",
+    "dlc": "ファーハーバー",
+    "mainCategory": "ファーハーバー"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "title": "アトム神社の子供たち",
+    "subCategory": "ファーハーバー",
+    "dlc": "ファーハーバー",
+    "mainCategory": "ファーハーバー"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "title": "クリフズ エッジ ホテル",
+    "subCategory": "ファーハーバー",
+    "dlc": "ファーハーバー",
+    "mainCategory": "ファーハーバー"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "title": "クランベリー島湿原",
+    "subCategory": "ファーハーバー",
+    "dlc": "ファーハーバー",
+    "mainCategory": "ファーハーバー"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "title": "クランベリー アイランド ドックス",
+    "subCategory": "ファーハーバー",
+    "dlc": "ファーハーバー",
+    "mainCategory": "ファーハーバー"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "title": "クランベリー島補給小屋",
+    "subCategory": "ファーハーバー",
+    "dlc": "ファーハーバー",
+    "mainCategory": "ファーハーバー"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "title": "DiMAのキャッシュ",
+    "subCategory": "ファーハーバー",
+    "dlc": "ファーハーバー",
+    "mainCategory": "ファーハーバー"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "title": "イーグルズ コーブ皮なめし工場",
+    "subCategory": "ファーハーバー",
+    "dlc": "ファーハーバー",
+    "mainCategory": "ファーハーバー"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "title": "エデン メドウズ シネマズ",
+    "subCategory": "ファーハーバー",
+    "dlc": "ファーハーバー",
+    "mainCategory": "ファーハーバー"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "title": "フリンジ コーブ ドックス",
+    "subCategory": "ファーハーバー",
+    "dlc": "ファーハーバー",
+    "mainCategory": "ファーハーバー"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "title": "グローイング グローブ",
+    "subCategory": "ファーハーバー",
+    "dlc": "ファーハーバー",
+    "mainCategory": "ファーハーバー"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "title": "ハドック コーブ",
+    "subCategory": "ファーハーバー",
+    "dlc": "ファーハーバー",
+    "mainCategory": "ファーハーバー"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "title": "ハーバー グランド ホテル",
+    "subCategory": "ファーハーバー",
+    "dlc": "ファーハーバー",
+    "mainCategory": "ファーハーバー"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "title": "ホライズン1207便",
+    "subCategory": "ファーハーバー",
+    "dlc": "ファーハーバー",
+    "mainCategory": "ファーハーバー"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "title": "ハントレス島",
+    "subCategory": "ファーハーバー",
+    "dlc": "ファーハーバー",
+    "mainCategory": "ファーハーバー"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "title": "キッタエッジパス",
+    "subCategory": "ファーハーバー",
+    "dlc": "ファーハーバー",
+    "mainCategory": "ファーハーバー"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "title": "MSアゼリア",
+    "subCategory": "ファーハーバー",
+    "dlc": "ファーハーバー",
+    "mainCategory": "ファーハーバー"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "title": "中野邸",
+    "subCategory": "ファーハーバー",
+    "dlc": "ファーハーバー",
+    "mainCategory": "ファーハーバー"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "title": "国立公園キャンプ場",
+    "subCategory": "ファーハーバー",
+    "dlc": "ファーハーバー",
+    "mainCategory": "ファーハーバー"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "title": "国立公園本部",
+    "subCategory": "ファーハーバー",
+    "dlc": "ファーハーバー",
+    "mainCategory": "ファーハーバー"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "title": "ノースウッド リッジ採石場",
+    "subCategory": "ファーハーバー",
+    "dlc": "ファーハーバー",
+    "mainCategory": "ファーハーバー"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "title": "海洋水族館",
+    "subCategory": "ファーハーバー",
+    "dlc": "ファーハーバー",
+    "mainCategory": "ファーハーバー"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "title": "オールドポンドハウス",
+    "subCategory": "ファーハーバー",
+    "dlc": "ファーハーバー",
+    "mainCategory": "ファーハーバー"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "title": "パインクレスト洞窟",
+    "subCategory": "ファーハーバー",
+    "dlc": "ファーハーバー",
+    "mainCategory": "ファーハーバー"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "title": "ラディアントクレスト神殿",
+    "subCategory": "ファーハーバー",
+    "dlc": "ファーハーバー",
+    "mainCategory": "ファーハーバー"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "title": "レイバーン ポイント",
+    "subCategory": "ファーハーバー",
+    "dlc": "ファーハーバー",
+    "mainCategory": "ファーハーバー"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "title": "ロック ポイント キャンプ",
+    "subCategory": "ファーハーバー",
+    "dlc": "ファーハーバー",
+    "mainCategory": "ファーハーバー"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "title": "廃墟の教会",
+    "subCategory": "ファーハーバー",
+    "dlc": "ファーハーバー",
+    "mainCategory": "ファーハーバー"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "title": "廃墟となった電波塔",
+    "subCategory": "ファーハーバー",
+    "dlc": "ファーハーバー",
+    "mainCategory": "ファーハーバー"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "title": "サウスウェストハーバー",
+    "subCategory": "ファーハーバー",
+    "dlc": "ファーハーバー",
+    "mainCategory": "ファーハーバー"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "title": "ヴィム ポップ ファクトリー",
+    "subCategory": "ファーハーバー",
+    "dlc": "ファーハーバー",
+    "mainCategory": "ファーハーバー"
+  },
+  {
+    "id": "f6b7627d-61d4-4a72-b16c-76eb86db2a79",
+    "title": "ウェーブス クレスト孤児院",
+    "subCategory": "ファーハーバー",
+    "dlc": "ファーハーバー",
+    "mainCategory": "ファーハーバー"
+  },
+  {
+    "id": "da783c7f-8d53-4ac4-94a1-456e378d61c1",
+    "title": "風力発電所のメンテナンス",
+    "subCategory": "ファーハーバー",
+    "dlc": "ファーハーバー",
+    "mainCategory": "ファーハーバー"
+  },
+  {
+    "id": "15e4c505-6d37-40c7-8b23-7627cb5a9f91",
+    "title": "ゼファー リッジ キャンプ",
+    "subCategory": "ファーハーバー",
+    "dlc": "ファーハーバー",
+    "mainCategory": "ファーハーバー"
+  },
+  {
+    "id": "4cf28d9e-b4a6-43fc-91af-2ae9a3b6a073",
+    "title": "ヌカタウン USA",
+    "subCategory": "ヌカ・ワールド",
+    "dlc": "ヌカ・ワールド",
+    "mainCategory": "ヌカ・ワールド"
+  },
+  {
+    "id": "d5a17222-5a62-4f82-a504-8936185b1f19",
+    "title": "ヌカタウン マーケット",
+    "subCategory": "ヌカ・ワールド",
+    "dlc": "ヌカ・ワールド",
+    "mainCategory": "ヌカ・ワールド"
+  },
+  {
+    "id": "6a6a2e02-7a5e-4b04-ae9a-18e4fe16b106",
+    "title": "ブラッドバートン",
+    "subCategory": "ヌカ・ワールド",
+    "dlc": "ヌカ・ワールド",
+    "mainCategory": "ヌカ・ワールド"
+  },
+  {
+    "id": "8c72402a-6b71-4ab7-af49-3f50bdfb547c",
+    "title": "ブラッドバートン アンフィシアター",
+    "subCategory": "ヌカ・ワールド",
+    "dlc": "ヌカ・ワールド",
+    "mainCategory": "ヌカ・ワールド"
+  },
+  {
+    "id": "0e55153f-1198-4645-9b07-33ac9785e3d6",
+    "title": "ブラッドバートン陸橋",
+    "subCategory": "ヌカ・ワールド",
+    "dlc": "ヌカ・ワールド",
+    "mainCategory": "ヌカ・ワールド"
+  },
+  {
+    "id": "fd50e7c4-846b-475d-8f5e-86c66b75c3bd",
+    "title": "キャッピーズ ツリーハウス",
+    "subCategory": "ヌカ・ワールド",
+    "dlc": "ヌカ・ワールド",
+    "mainCategory": "ヌカ・ワールド"
+  },
+  {
+    "id": "b693ab3e-8964-4c1c-92da-172b8f6c4381",
+    "title": "コーラ カーズ アリーナ",
+    "subCategory": "ヌカ・ワールド",
+    "dlc": "ヌカ・ワールド",
+    "mainCategory": "ヌカ・ワールド"
+  },
+  {
+    "id": "f1361b05-1cc8-4cb3-8d14-4fb65446912b",
+    "title": "ドクター・ホスフェート・サルーン",
+    "subCategory": "ヌカ・ワールド",
+    "dlc": "ヌカ・ワールド",
+    "mainCategory": "ヌカ・ワールド"
+  },
+  {
+    "id": "3c2c50e1-144c-4c6d-9a8e-0bca08e21790",
+    "title": "ドライロックガルチ",
+    "subCategory": "ヌカ・ワールド",
+    "dlc": "ヌカ・ワールド",
+    "mainCategory": "ヌカ・ワールド"
+  },
+  {
+    "id": "c2b965d2-4e7e-4a91-bf1f-b8f31c282a50",
+    "title": "ドライ ロック ガルチ 従業員アリーナ",
+    "subCategory": "ヌカ・ワールド",
+    "dlc": "ヌカ・ワールド",
+    "mainCategory": "ヌカ・ワールド"
+  },
+  {
+    "id": "b16bf43d-187a-4b80-8e4a-60dbd4f57b6b",
+    "title": "ドライ ロック ガルチ シアター",
+    "subCategory": "ヌカ・ワールド",
+    "dlc": "ヌカ・ワールド",
+    "mainCategory": "ヌカ・ワールド"
+  },
+  {
+    "id": "0df7c3e8-9744-47cd-9d8a-93544a064b77",
+    "title": "ダンモア ホームステッド",
+    "subCategory": "ヌカ・ワールド",
+    "dlc": "ヌカ・ワールド",
+    "mainCategory": "ヌカ・ワールド"
+  },
+  {
+    "id": "7bc264cf-c48d-4cfb-923f-6a77e1ad0945",
+    "title": "エバンス ホーム",
+    "subCategory": "ヌカ・ワールド",
+    "dlc": "ヌカ・ワールド",
+    "mainCategory": "ヌカ・ワールド"
+  },
+  {
+    "id": "bdb6b8e9-eb6e-4d7a-8df3-0b43ff9a3497",
+    "title": "観覧車",
+    "subCategory": "ヌカ・ワールド",
+    "dlc": "ヌカ・ワールド",
+    "mainCategory": "ヌカ・ワールド"
+  },
+  {
+    "id": "d9b15423-cb76-4cf9-8c18-6fb1d85b9e61",
+    "title": "フィズトップ グリル",
+    "subCategory": "ヌカ・ワールド",
+    "dlc": "ヌカ・ワールド",
+    "mainCategory": "ヌカ・ワールド"
+  },
+  {
+    "id": "2c0c0c54-3e99-4ba6-9a71-3b5a55db1643",
+    "title": "フィズトップ マウンテン",
+    "subCategory": "ヌカ・ワールド",
+    "dlc": "ヌカ・ワールド",
+    "mainCategory": "ヌカ・ワールド"
+  },
+  {
+    "id": "ed93be4e-1200-4c31-a365-46ee63075f53",
+    "title": "ファンハウス",
+    "subCategory": "ヌカ・ワールド",
+    "dlc": "ヌカ・ワールド",
+    "mainCategory": "ヌカ・ワールド"
+  },
+  {
+    "id": "b4f054f9-cb8c-4b36-a437-3d9e1f9a837c",
+    "title": "ギャラクティックゾーン",
+    "subCategory": "ヌカ・ワールド",
+    "dlc": "ヌカ・ワールド",
+    "mainCategory": "ヌカ・ワールド"
+  },
+  {
+    "id": "17db20ff-64e2-47a3-a9f3-195e0909f64f",
+    "title": "グランチェスター ミステリー マンション",
+    "subCategory": "ヌカ・ワールド",
+    "dlc": "ヌカ・ワールド",
+    "mainCategory": "ヌカ・ワールド"
+  },
+  {
+    "id": "5db63b63-d13c-4c79-a3a7-af4e8bdf7dfb",
+    "title": "ハボロジスト キャンプ",
+    "subCategory": "ヌカ・ワールド",
+    "dlc": "ヌカ・ワールド",
+    "mainCategory": "ヌカ・ワールド"
+  },
+  {
+    "id": "7923fd18-2d1a-4f07-bbda-bba83171bbfe",
+    "title": "キディキングダム",
+    "subCategory": "ヌカ・ワールド",
+    "dlc": "ヌカ・ワールド",
+    "mainCategory": "ヌカ・ワールド"
+  },
+  {
+    "id": "31929c5f-3e9f-4e3a-8e0c-19e4b25f66a3",
+    "title": "キング コラス城",
+    "subCategory": "ヌカ・ワールド",
+    "dlc": "ヌカ・ワールド",
+    "mainCategory": "ヌカ・ワールド"
+  },
+  {
+    "id": "97aa146e-31e1-4f13-9a88-9b7c336510b6",
+    "title": "マッド・マリガンズ トロッコ コースター",
+    "subCategory": "ヌカ・ワールド",
+    "dlc": "ヌカ・ワールド",
+    "mainCategory": "ヌカ・ワールド"
+  },
+  {
+    "id": "ff9d68d5-930e-49c5-8ef5-8b2b22e534cc",
+    "title": "モートン レジデンス",
+    "subCategory": "ヌカ・ワールド",
+    "dlc": "ヌカ・ワールド",
+    "mainCategory": "ヌカ・ワールド"
+  },
+  {
+    "id": "85c16187-7583-4c10-9362-0ad876e2ad7d",
+    "title": "ノースポイント貯水池",
+    "subCategory": "ヌカ・ワールド",
+    "dlc": "ヌカ・ワールド",
+    "mainCategory": "ヌカ・ワールド"
+  },
+  {
+    "id": "5372ff0b-9e85-4d05-96c9-2a3db7c6320a",
+    "title": "ヌカ・コーラ瓶詰め工場",
+    "subCategory": "ヌカ・ワールド",
+    "dlc": "ヌカ・ワールド",
+    "mainCategory": "ヌカ・ワールド"
+  },
+  {
+    "id": "6edae5d6-7f84-4e16-9ab6-89b3dd17a8fe",
+    "title": "ヌカ・ギャラクシー",
+    "subCategory": "ヌカ・ワールド",
+    "dlc": "ヌカ・ワールド",
+    "mainCategory": "ヌカ・ワールド"
+  },
+  {
+    "id": "7fb284a7-4dbb-47e9-b825-0f1f889c495c",
+    "title": "ぬか駅",
+    "subCategory": "ヌカ・ワールド",
+    "dlc": "ヌカ・ワールド",
+    "mainCategory": "ヌカ・ワールド"
+  },
+  {
+    "id": "78a77d50-1b85-45c4-948b-2f936f1a1589",
+    "title": "ヌカ・ワールドのジャンクヤード",
+    "subCategory": "ヌカ・ワールド",
+    "dlc": "ヌカ・ワールド",
+    "mainCategory": "ヌカ・ワールド"
+  },
+  {
+    "id": "6e192858-30ad-4f01-870f-36ef1246938a",
+    "title": "ヌカ・ワールド発電所",
+    "subCategory": "ヌカ・ワールド",
+    "dlc": "ヌカ・ワールド",
+    "mainCategory": "ヌカ・ワールド"
+  },
+  {
+    "id": "99d6f1a3-d855-4ce5-a31a-1cf2a6754b90",
+    "title": "ヌカ・ワールド・レッド・ロケット",
+    "subCategory": "ヌカ・ワールド",
+    "dlc": "ヌカ・ワールド",
+    "mainCategory": "ヌカ・ワールド"
+  },
+  {
+    "id": "fa037a89-b35b-4291-b4c6-5bb3f129cd32",
+    "title": "ヌカ・ワールド・トランジット・センター",
+    "subCategory": "ヌカ・ワールド",
+    "dlc": "ヌカ・ワールド",
+    "mainCategory": "ヌカ・ワールド"
+  },
+  {
+    "id": "a1b9b50d-909c-478b-99bb-6ec2d0e36509",
+    "title": "ロブコバトルゾーン",
+    "subCategory": "ヌカ・ワールド",
+    "dlc": "ヌカ・ワールド",
+    "mainCategory": "ヌカ・ワールド"
+  },
+  {
+    "id": "739dfec7-8b6d-480f-8923-5e8982a20187",
+    "title": "サファリアドベンチャー",
+    "subCategory": "ヌカ・ワールド",
+    "dlc": "ヌカ・ワールド",
+    "mainCategory": "ヌカ・ワールド"
+  },
+  {
+    "id": "68775732-ee21-4c4f-b21e-0cb525ec5b18",
+    "title": "サファリ アドベンチャー プライメイト ハウス",
+    "subCategory": "ヌカ・ワールド",
+    "dlc": "ヌカ・ワールド",
+    "mainCategory": "ヌカ・ワールド"
+  },
+  {
+    "id": "a281a648-bd1d-4ec4-b7ea-eb2e4a3fdeab",
+    "title": "サファリ アドベンチャー爬虫類ハウス",
+    "subCategory": "ヌカ・ワールド",
+    "dlc": "ヌカ・ワールド",
+    "mainCategory": "ヌカ・ワールド"
+  },
+  {
+    "id": "5352077e-b1f7-4a26-af5c-6b18d3453b82",
+    "title": "スターライト インターステラー シアター",
+    "subCategory": "ヌカ・ワールド",
+    "dlc": "ヌカ・ワールド",
+    "mainCategory": "ヌカ・ワールド"
+  },
+  {
+    "id": "b4b24a66-8423-4f06-a8e1-6a49fc762653",
+    "title": "スターポート・ヌカ",
+    "subCategory": "ヌカ・ワールド",
+    "dlc": "ヌカ・ワールド",
+    "mainCategory": "ヌカ・ワールド"
+  },
+  {
+    "id": "8a4a119a-5952-43f5-8f82-54ff14cb6d8e",
+    "title": "怒ったアナコンダ",
+    "subCategory": "ヌカ・ワールド",
+    "dlc": "ヌカ・ワールド",
+    "mainCategory": "ヌカ・ワールド"
+  },
+  {
+    "id": "55af63e2-5397-4f2c-9a56-6b684e9637ae",
+    "title": "ザ・パーラー",
+    "subCategory": "ヌカ・ワールド",
+    "dlc": "ヌカ・ワールド",
+    "mainCategory": "ヌカ・ワールド"
+  },
+  {
+    "id": "5591f37a-7122-416a-8a9e-0c5a1ea8dd9a",
+    "title": "Vault-Tec: スターの間で",
+    "subCategory": "ヌカ・ワールド",
+    "dlc": "ヌカ・ワールド",
+    "mainCategory": "ヌカ・ワールド"
+  },
+  {
+    "id": "f4b68e65-c9dd-493c-a6e4-5bbd6e4d2f47",
+    "title": "ウィクソンズ ショベル ミュージアム",
+    "subCategory": "ヌカ・ワールド",
+    "dlc": "ヌカ・ワールド",
+    "mainCategory": "ヌカ・ワールド"
+  },
+  {
+    "id": "8a732f79-b542-4e1e-b271-642c9e81ba8a",
+    "title": "ワールドリフレッシュメント",
+    "subCategory": "ヌカ・ワールド",
+    "dlc": "ヌカ・ワールド",
+    "mainCategory": "ヌカ・ワールド"
+  },
+  {
+    "id": "0ae3cb1b-60d2-4964-b672-2e2e7d437cb7",
+    "title": "ヘーゲン砦の格納庫",
+    "subCategory": "オートマトロン",
+    "dlc": "オートマトロン",
+    "mainCategory": "オートマトロン"
+  },
+  {
+    "id": "77c55068-56a7-4be5-a0d1-92c27208889a",
+    "title": "ロブコセールス",
+    "subCategory": "オートマトロン",
+    "dlc": "オートマトロン",
+    "mainCategory": "オートマトロン"
+  },
+  {
+    "id": "3d7c9d44-5b63-4c90-8697-42bce0b3c348",
+    "title": "メカニストの隠れ家",
+    "subCategory": "オートマトロン",
+    "dlc": "オートマトロン",
+    "mainCategory": "オートマトロン"
+  }
+]

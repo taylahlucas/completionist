@@ -1,0 +1,56 @@
+{
+  "appTitle": "Completista.",
+  "requestGameDesc": "Fique à vontade para solicitar um jogo, reportar um bug ou fazer sugestões para melhorar o app!",
+  "quests": "Missões",
+  "collectables": "Colecionáveis",
+  "locations": "Localizações",
+  "miscellaneous": "Diversos",
+  "search": "Pesquisar itens...",
+  "showMore": "Mostre mais",
+  "none": "Nenhum",
+  "main": "Principal",
+  "active": "ATIVO",
+  "inactive": "INATIVO",
+  "auth": {
+    "email": "E-mail",
+    "password": "Senha",
+    "username": "Nome de usuário",
+    "forgotPassword": "Esqueceu sua senha?",
+    "signUp": "Inscrever-se",
+    "signIn": "Entrar",
+    "createAccount": "Criar uma conta",
+    "requestAccount": "Não tem uma conta?",
+    "backToLogin": "Volte ao login"
+  },
+  "subscriptions": {
+    "title": "Assinaturas"
+  },
+  "sendRequest": {
+    "title": "Enviar pedido",
+    "subject": "Assunto",
+    "writeRequest": "Escreva aqui o seu pedido..."
+  },
+  "settings": {
+    "title": "Configurações",
+    "description": "Fique à vontade para solicitar um jogo, reportar um bug ou fazer sugestões para melhorar o app!",
+    "setCollections": "Definir coleções:",
+    "enabledDLC": "Ativar/Desativar DLC:",
+    "showHide": "Aparecer esconder:",
+    "completedItems": "Itens concluídos",
+    "disabledSections": "Seções desativadas"
+  },
+  "errors": {
+    "noEmailExists": "E-mail não existe",
+    "googleSignIn": "Erro ao fazer login no Google"
+  },
+  "skyrimDLC": {
+    "dawnguard": "Dawnguard",
+    "dragonborn": "Draconato"
+  },
+  "fallout4DLC": {
+    "automatron": "Nuka-Mundo",
+    "farHarbor": "Porto Distante",
+    "nukaWorld": "Nuka-Mundo",
+    "vaultTecWorkshop": "Oficina Vault-Tec"
+  }
+}

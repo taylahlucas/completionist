@@ -1,0 +1,56 @@
+{
+  "appTitle": "المكمل.",
+  "requestGameDesc": "لا تتردد في طلب لعبة أو الإبلاغ عن خطأ أو تقديم بعض الاقتراحات لتحسين التطبيق!",
+  "quests": "أسئلة",
+  "collectables": "مقتنيات",
+  "locations": "المواقع",
+  "miscellaneous": "متنوع",
+  "search": "عناصر البحث...",
+  "showMore": "أظهر المزيد",
+  "none": "لا أحد",
+  "main": "رئيسي",
+  "active": "نشيط",
+  "inactive": "غير نشط",
+  "auth": {
+    "email": "بريد إلكتروني",
+    "password": "كلمة المرور",
+    "username": "اسم المستخدم",
+    "forgotPassword": "هل نسيت كلمة السر؟",
+    "signUp": "اشتراك",
+    "signIn": "تسجيل الدخول",
+    "createAccount": "إنشاء حساب",
+    "requestAccount": "ليس لديك حساب؟",
+    "backToLogin": "العودة إلى تسجيل الدخول"
+  },
+  "subscriptions": {
+    "title": "الاشتراكات"
+  },
+  "sendRequest": {
+    "title": "ارسل طلب",
+    "subject": "موضوع",
+    "writeRequest": "أكتب طلبك هنا..."
+  },
+  "settings": {
+    "title": "إعدادات",
+    "description": "لا تتردد في طلب لعبة أو الإبلاغ عن خطأ أو تقديم بعض الاقتراحات لتحسين التطبيق!",
+    "setCollections": "تعيين المجموعات:",
+    "enabledDLC": "تمكين/تعطيل المحتوى القابل للتنزيل:",
+    "showHide": "اظهر المخفي:",
+    "completedItems": "العناصر المكتملة",
+    "disabledSections": "الأقسام المعطلة"
+  },
+  "errors": {
+    "noEmailExists": "البريد الإلكتروني غير موجود",
+    "googleSignIn": "حدث خطأ أثناء تسجيل الدخول إلى Google"
+  },
+  "skyrimDLC": {
+    "dawnguard": "داونغارد",
+    "dragonborn": "دراجونبورن"
+  },
+  "fallout4DLC": {
+    "automatron": "نوكا وورلد",
+    "farHarbor": "فار هاربور",
+    "nukaWorld": "نوكا وورلد",
+    "vaultTecWorkshop": "ورشة فولت تيك"
+  }
+}

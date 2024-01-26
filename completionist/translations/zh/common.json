@@ -1,0 +1,56 @@
+{
+  "appTitle": "完美主义者。",
+  "requestGameDesc": "请随意请求游戏、报告错误或提出一些改进应用程序的建议！",
+  "quests": "任务",
+  "collectables": "收藏品",
+  "locations": "地点",
+  "miscellaneous": "各种各样的",
+  "search": "搜索项目...",
+  "showMore": "展示更多",
+  "none": "没有任何",
+  "main": "主要的",
+  "active": "积极的",
+  "inactive": "不活跃",
+  "auth": {
+    "email": "电子邮件",
+    "password": "密码",
+    "username": "用户名",
+    "forgotPassword": "忘记密码？",
+    "signUp": "报名",
+    "signIn": "登入",
+    "createAccount": "创建账户",
+    "requestAccount": "没有帐户？",
+    "backToLogin": "回到登入"
+  },
+  "subscriptions": {
+    "title": "订阅"
+  },
+  "sendRequest": {
+    "title": "发送请求",
+    "subject": "主题",
+    "writeRequest": "在这里写下您的要求..."
+  },
+  "settings": {
+    "title": "设置",
+    "description": "请随意请求游戏、报告错误或提出一些改进应用程序的建议！",
+    "setCollections": "设置集合：",
+    "enabledDLC": "启用/禁用 DLC：",
+    "showHide": "显示隐藏：",
+    "completedItems": "已完成项目",
+    "disabledSections": "残疾人部分"
+  },
+  "errors": {
+    "noEmailExists": "电子邮件不存在",
+    "googleSignIn": "谷歌登录出错"
+  },
+  "skyrimDLC": {
+    "dawnguard": "黎明守卫",
+    "dragonborn": "龙裔"
+  },
+  "fallout4DLC": {
+    "automatron": "核子世界",
+    "farHarbor": "远港",
+    "nukaWorld": "核子世界",
+    "vaultTecWorkshop": "Vault-Tec 研讨会"
+  }
+}

@@ -1,0 +1,3817 @@
+[
+  {
+    "id": "0e9e3bc5-63e7-42c4-8baa-15f0bca721aa",
+    "title": "Hintere Bucht",
+    "subCategory": "Hintere Bucht",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "31bd7d07-7448-4ebc-a2f8-d2e9d3cbf826",
+    "title": "Boston Public Library",
+    "subCategory": "Hintere Bucht",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "e93a7f91-9bf2-49a7-93a5-59f8cefa4a2b",
+    "title": "Copley-Station",
+    "subCategory": "Hintere Bucht",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "6b6e93f8-4e07-42b7-a2ce-576de5b98f09",
+    "title": "Dartmouth Professional Building",
+    "subCategory": "Hintere Bucht",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "7cc7b4a1-1d13-4f96-b24f-32f3f3ea8e64",
+    "title": "Hybris Comics",
+    "subCategory": "Hintere Bucht",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "c197d3d1-3bb7-42d3-8c60-19813cfd2f72",
+    "title": "Jimbos Turm",
+    "subCategory": "Hintere Bucht",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a0778d06-e91b-4c50-8795-0f21c90749c7",
+    "title": "Layton Towers",
+    "subCategory": "Hintere Bucht",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "e68798aa-0a95-4974-935b-b2f662d8c5f4",
+    "title": "Prost-Bar",
+    "subCategory": "Hintere Bucht",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "8bade8de-2c94-4e5e-86c0-2e0eb57aa39f",
+    "title": "Shenleys Austernbar",
+    "subCategory": "Hintere Bucht",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "2bf3491f-b84d-4fb5-a59a-1001ec12c160",
+    "title": "Dreifaltigkeitskirche",
+    "subCategory": "Hintere Bucht",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "ff06a0c4-54b0-49a9-8f1d-0194fe10a4a9",
+    "title": "Trinity Plaza",
+    "subCategory": "Hintere Bucht",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "e883eaa1-05e3-4928-bc79-b9b4b77a8f67",
+    "title": "Dreifaltigkeitsturm",
+    "subCategory": "Hintere Bucht",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "e8e8c53d-eabe-4d6e-8b65-ec06e4a1e6da",
+    "title": "Tresor 114",
+    "subCategory": "Hintere Bucht",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "c2f19b51-527e-4505-a0d0-16a45f4f1848",
+    "title": "Warren Theater",
+    "subCategory": "Hintere Bucht",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "d6ff562e-1dd6-4e7e-a571-4872078d9c3e",
+    "title": "Firmenzentrale von Wilson Atomatoys",
+    "subCategory": "Hintere Bucht",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "3e2b7a7c-8b3d-4645-9c54-9f6e4ea63c53",
+    "title": "Beacon Hill",
+    "subCategory": "Beacon Hill",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "9b43a2c8-2f4b-4972-9cfc-dc0bb82a6359",
+    "title": "Beacon Hill Wohnungen",
+    "subCategory": "Beacon Hill",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "0f319dab-8d97-429a-93a1-7b5d265a7b23",
+    "title": "Boston Bugle-Gebäude",
+    "subCategory": "Beacon Hill",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "6e1478fb-3428-404d-90c4-7c6b12ab83df",
+    "title": "Cabot-Haus",
+    "subCategory": "Beacon Hill",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "4b4d529a-5b14-4a22-b789-1bf70eae831d",
+    "title": "Lil' Gentry-Spielplatz",
+    "subCategory": "Beacon Hill",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "e619ae4a-fc8a-4e87-b698-2177e9e429bf",
+    "title": "Regionaler Hauptsitz von Vault-Tec",
+    "subCategory": "Beacon Hill",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "f7b01b8e-eb88-4787-87b0-b2f6a0b67f27",
+    "title": "Boston Common",
+    "subCategory": "Boston Common",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "cc1b8497-76a2-437c-b3a0-55be407e7a3e",
+    "title": "Boylston Club",
+    "subCategory": "Boston Common",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "0e412738-c9d8-4f68-ba9c-7ea265a6f9e3",
+    "title": "Massachusetts State House",
+    "subCategory": "Boston Common",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "768a5ae3-5cd3-46cf-8e4b-7122b07b1579",
+    "title": "Alte Getreidespeicher-Grabstätte",
+    "subCategory": "Boston Common",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "f7a2f97c-0e22-4b4a-8ef4-5b21fba0f5e7",
+    "title": "Park Street Station",
+    "subCategory": "Boston Common",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "e8b5e0f9-cff6-481e-80c5-0108a9c66ea7",
+    "title": "Schwanenteich",
+    "subCategory": "Boston Common",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "e9ef4a5b-ebc1-4ea4-b4df-781f3b86d9b3",
+    "title": "Bostoner Hafen",
+    "subCategory": "Bostoner Hafen",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "ea59a7e3-8a43-4a9e-803a-af844b1d4fe2",
+    "title": "Columbus Park",
+    "subCategory": "Bostoner Hafen",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "f48b50e7-4320-45ea-aed5-18c5c38a31d5",
+    "title": "Zollhausturm",
+    "subCategory": "Bostoner Hafen",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1847f69-fb43-4314-9ac7-bde73edc4ae2",
+    "title": "Harbormaster Hotel",
+    "subCategory": "Bostoner Hafen",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "65c12f13-7be7-4d32-8fe1-ced6a6f620cd",
+    "title": "Langer Kai",
+    "subCategory": "Bostoner Hafen",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "50c68b0a-648d-4f09-8a97-f3e3d4f10054",
+    "title": "Das Shamrock Taphouse",
+    "subCategory": "Bostoner Hafen",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "3a8e545c-3909-4b0c-a9db-5a13a1f0a65b",
+    "title": "Jangtse",
+    "subCategory": "Bostoner Hafen",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "d86c3459-ebc0-4fb2-97f4-9d158f4463d2",
+    "title": "Cambridge",
+    "subCategory": "Cambridge",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "ed4a693d-5a23-4aae-8653-fc400ae66d72",
+    "title": "C.I.T. ",
+    "subCategory": "Cambridge",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "e4647e3c-8e38-4b63-8db6-69053c05e888",
+    "title": "Cambridge Academic Center",
+    "subCategory": "Cambridge",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "26d0b205-7081-4c44-8650-cd44820786e8",
+    "title": "Campus-Diner in Cambridge",
+    "subCategory": "Cambridge",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "864ebd8c-b576-4e06-8bc0-bc0a9054de5f",
+    "title": "Cambridge-Kirche",
+    "subCategory": "Cambridge",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "6fc8d7cc-6e5b-4bc9-a150-8eefb45e93f8",
+    "title": "Cambridge-Baustelle",
+    "subCategory": "Cambridge",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "74f6b276-0a93-4c07-9c27-0d8c21d22c77",
+    "title": "Cambridge-Krater",
+    "subCategory": "Cambridge",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "c7e0eb78-55c2-4a5b-b29f-0fb29cf8aa4a",
+    "title": "Baumarkt in Cambridge",
+    "subCategory": "Cambridge",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "019b7b8a-8948-4a08-a836-5a53e61d3c8f",
+    "title": "Polizeistation Cambridge",
+    "subCategory": "Cambridge",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "596e9b4b-d17b-4c91-8a22-ec0b4d2c7ce1",
+    "title": "Cambridge Polymer Labs",
+    "subCategory": "Cambridge",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "d157d758-fb58-4d7c-9ee0-3e16a79a1ae3",
+    "title": "Cambridge-Raider-Basis",
+    "subCategory": "Cambridge",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "7bd7382a-2c16-41e6-8da7-005537214e10",
+    "title": "Camp Kendall",
+    "subCategory": "Cambridge",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "cc257001-e5b1-41c7-a25b-06f5b61844da",
+    "title": "Anwaltskanzleien auf dem Campus",
+    "subCategory": "Cambridge",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "0e6a7fd7-3d96-407a-9b3b-7a7d0e1470f4",
+    "title": "College-Platz",
+    "subCategory": "Cambridge",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "f620d115-0f3f-4d5f-b564-b94c6c77c497",
+    "title": "Station College Square",
+    "subCategory": "Cambridge",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "7a9e9cf0-7220-4d6e-852e-e5a3a7e6cbdb",
+    "title": "Verwaltungsgebäude der Stiftskirche",
+    "subCategory": "Cambridge",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "bf08a037-535c-4f52-a4a7-15e2026f05ce",
+    "title": "East C.I.T. ",
+    "subCategory": "Cambridge",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "1e0dbde7-0f67-4d08-a0c9-6e2e6d22b3d9",
+    "title": "Fallon's (Monsignor Plaza)",
+    "subCategory": "Cambridge",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "4f74c8bc-1ae4-4a0c-9343-ae46bc17a8db",
+    "title": "Brüderlicher Beitrag 115",
+    "subCategory": "Cambridge",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "70f116bf-1a6f-4df0-a7e7-28a743b677b8",
+    "title": "Greenetech-Genetik",
+    "subCategory": "Cambridge",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "1b799556-8b59-4ae4-9d04-3322381ed4a2",
+    "title": "Ivy-League-Brücke",
+    "subCategory": "Cambridge",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "ab6b519e-935e-4752-8d6b-bdab1864f56a",
+    "title": "Kendall-Krankenhaus",
+    "subCategory": "Cambridge",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "75b93bb4-68a4-45f3-bf89-50500791e5d5",
+    "title": "Kendall-Parkplatz",
+    "subCategory": "Cambridge",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "ad2a8307-46ec-44c0-a1d2-9f9c2b6703ab",
+    "title": "Longfellow-Brücke",
+    "subCategory": "Cambridge",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "d7e66307-2f0e-4c52-b6ae-2a8982425512",
+    "title": "Massenchemikalie",
+    "subCategory": "Cambridge",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "4efb8913-9f9f-4817-90b5-189e0bc3a77c",
+    "title": "Monsignore Plaza",
+    "subCategory": "Cambridge",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "53f18cf9-c4f3-4d29-a41a-6375db34d411",
+    "title": "Das Geheimnis des Klempners",
+    "subCategory": "Cambridge",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "aa5d2495-74d1-4a6e-b858-0b2bfcf1e268",
+    "title": "Prospect Hill",
+    "subCategory": "Cambridge",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "edb02f7d-7076-4d0c-bf6b-6ce207b55469",
+    "title": "Raider-Plattformen",
+    "subCategory": "Cambridge",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "5fc10c6e-7d2d-4f1f-96de-9d5e3720ba45",
+    "title": "Rote Rakete (Cambridge)",
+    "subCategory": "Cambridge",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a98daab5-2b60-4d11-a88c-3d28706a4687",
+    "title": "Rote Rakete (College Square)",
+    "subCategory": "Cambridge",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "14edca54-303b-4d9e-8a20-0d74d4515ae1",
+    "title": "Geschenkeladen im Science Center",
+    "subCategory": "Cambridge",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "64df55ac-0cf1-470b-a92c-611e769bb7f8",
+    "title": "Ticonderoga",
+    "subCategory": "Cambridge",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "1f712ad8-9500-4db6-9154-b8adbf1d2009",
+    "title": "Kathedrale der Hoffnung der Union",
+    "subCategory": "Cambridge",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "365c10a2-98fe-4e1a-aa52-02c89c745eae",
+    "title": "Walden-Drogen",
+    "subCategory": "Cambridge",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "0cd03c78-b0c0-4f13-8369-c41ab9a5e9a7",
+    "title": "Wrights Inn",
+    "subCategory": "Cambridge",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "e186b416-c2d2-4c07-9d17-27f4f2b764fe",
+    "title": "Eintracht",
+    "subCategory": "Eintracht",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "b40e3d38-53ef-4087-8ae7-5eb23b929a6e",
+    "title": "Concordia-Kirche",
+    "subCategory": "Eintracht",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "1997f9d3-f5cf-4a04-a66d-5bb5713343d5",
+    "title": "Concord Civic Access",
+    "subCategory": "Eintracht",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "1b08f800-ccff-4a29-a5c2-22e1912b7ac7",
+    "title": "Concord Sparen und Darlehen",
+    "subCategory": "Eintracht",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "74df4565-6317-42ec-a7a0-4f5f8e201ec2",
+    "title": "Concord Speakeasy",
+    "subCategory": "Eintracht",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "b69756a2-b50d-4804-9d9c-1d4fb4b7f232",
+    "title": "Fallons (Concord)",
+    "subCategory": "Eintracht",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "cde51c8d-b783-49c8-9e88-d8e90578b383",
+    "title": "Baumarkt",
+    "subCategory": "Eintracht",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "33f88197-3c2b-4e1a-94f9-36a723e62d8e",
+    "title": "Städtischer Plutoniumbrunnen",
+    "subCategory": "Eintracht",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "3f5775d2-8db9-4b43-bbed-23b8b48ed835",
+    "title": "Museum der Freiheit",
+    "subCategory": "Eintracht",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "5da1cf6d-9d1b-4806-b340-bd52c8f8e0c7",
+    "title": "Nordwestliches Haus",
+    "subCategory": "Eintracht",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "f1bc8a67-0866-4c85-8d15-6989ce593b68",
+    "title": "Pinellis Bäckerei (Concord)",
+    "subCategory": "Eintracht",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "836da4c3-fa9b-41bb-8032-9fc5f3f9d5ab",
+    "title": "Walden-Drogen",
+    "subCategory": "Eintracht",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "dbaf5a7f-ba5b-41d2-9d79-7c1f234fcb11",
+    "title": "Arbeitshaus",
+    "subCategory": "Eintracht",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "c1045f3f-d80a-4388-9ea2-b73b7627a351",
+    "title": "Wrights Inn",
+    "subCategory": "Eintracht",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "1e4b4c3e-cf02-4b69-9a2d-63b17175ef24",
+    "title": "Abts Haus",
+    "subCategory": "Diamantenstadt",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "1a00e0ea-83a0-46a9-8c61-dc48b49ce1f3",
+    "title": "Kapelle aller Glaubensrichtungen",
+    "subCategory": "Diamantenstadt",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "be6e13b3-24ef-4a85-b447-3e0700ad23b9",
+    "title": "Chem-I-Care",
+    "subCategory": "Diamantenstadt",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a25c9d9a-6db5-4b18-9302-3b6d51ab2a11",
+    "title": "Auserlesene Koteletts",
+    "subCategory": "Diamantenstadt",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "9394ac7e-3d08-4b5b-b3e4-2c37a193f447",
+    "title": "Codman-Residenz",
+    "subCategory": "Diamantenstadt",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "5365feae-eb0c-4e45-a733-6c3b0ce8497c",
+    "title": "Koloniales Taphouse",
+    "subCategory": "Diamantenstadt",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "b0f399ac-e3c3-42a9-9225-3cf77d50f495",
+    "title": "Commonwealth-Waffen",
+    "subCategory": "Diamantenstadt",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "63a346f2-c134-4304-bc0c-7c3c3f723b13",
+    "title": "Cooke-Residenz",
+    "subCategory": "Diamantenstadt",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "f2d46f63-4221-40a7-bf49-508d09f7aeb9",
+    "title": "Diamond City-Markt",
+    "subCategory": "Diamantenstadt",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "ad7a70b0-b7b3-4e23-8e95-6f0b7c0368ec",
+    "title": "Diamond City Radio",
+    "subCategory": "Diamantenstadt",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "25e79906-4e10-4fbd-9223-157c7db2d17b",
+    "title": "Diamond City-Überschuss",
+    "subCategory": "Diamantenstadt",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "3c25f9a5-6774-4c0f-b4da-d3e0aaed91d7",
+    "title": "Das Haus von Doc Crocker",
+    "subCategory": "Diamantenstadt",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "5596d965-19bf-4802-9f0d-8a6f7854e17a",
+    "title": "Das Haus von Doktor Sun",
+    "subCategory": "Diamantenstadt",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "9b1666e2-5c9e-4015-9c36-c4b39a6fe6a7",
+    "title": "Dugout Inn",
+    "subCategory": "Diamantenstadt",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "5f13cb18-7b49-4421-8ac0-04ab5bfcf758",
+    "title": "Das Haus von Earl Sterling",
+    "subCategory": "Diamantenstadt",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "99651d99-21b2-4b71-9963-dc4d5f2819f4",
+    "title": "Fallons Keller",
+    "subCategory": "Diamantenstadt",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "1ed9b5c2-d68a-4a11-91b9-86902d33d381",
+    "title": "Gewächshaus",
+    "subCategory": "Diamantenstadt",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "c9ef7c38-0689-4a2a-93cf-0c950d0c35c1",
+    "title": "Hawthorne-Residenz",
+    "subCategory": "Diamantenstadt",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "92f8a3c8-1c3a-4a5c-b988-77840cc0cb0f",
+    "title": "Home-Plate",
+    "subCategory": "Diamantenstadt",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "34e44af1-5b8a-4b5d-b68b-91540e3bc3a5",
+    "title": "Kathy",
+    "subCategory": "Diamantenstadt",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "b134be9a-3472-4584-aebc-7e5af6da33c2",
+    "title": "Kelloggs Haus",
+    "subCategory": "Diamantenstadt",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "79b6feeb-cfdb-427a-9d8e-3e7ba4507a05",
+    "title": "Latimer-Residenz",
+    "subCategory": "Diamantenstadt",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "8c4d74df-c7e9-4f56-a9b2-3f69bcfe70e7",
+    "title": "Das Büro von Bürgermeister McDonough",
+    "subCategory": "Diamantenstadt",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "86a66682-48b1-461c-a0cc-65a6b56ff978",
+    "title": "Mega-Chirurgiezentrum",
+    "subCategory": "Diamantenstadt",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "86b8c29c-0ea3-4ac3-bf7f-85be8c7de1cd",
+    "title": "Pembroke-Residenz",
+    "subCategory": "Diamantenstadt",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "1d3f8df6-79fb-40a2-a14f-e9022a1d08fc",
+    "title": "Power-Nudeln",
+    "subCategory": "Diamantenstadt",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "53e161b8-e598-49c9-a8f5-0b2f70df742e",
+    "title": "Öffentliche Vorkommen",
+    "subCategory": "Diamantenstadt",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "5d2f7625-dab3-44ce-aef0-8e42cb72a785",
+    "title": "Schulhaus",
+    "subCategory": "Diamantenstadt",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "fb058a88-44db-4bd0-8ea7-7d6c6bc2d907",
+    "title": "Wissenschaft! ",
+    "subCategory": "Diamantenstadt",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "97a430be-8c19-4f3f-89e7-63dd9abbc3e4",
+    "title": "Sicherheitsbüro",
+    "subCategory": "Diamantenstadt",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "724f0fa0-4f13-40f1-ae56-4bea5d2e3bd5",
+    "title": "Sheng Kawolskis Haus",
+    "subCategory": "Diamantenstadt",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a86642de-d5dd-4ea1-868f-c8c2cdebb148",
+    "title": "Klatschen",
+    "subCategory": "Diamantenstadt",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "b84ffba7-1472-4b18-8c49-e0b001e823e5",
+    "title": "Die Mauer",
+    "subCategory": "Diamantenstadt",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "d8af35e6-6eb3-427d-aeaf-cf8c38e2d781",
+    "title": "Detektivbüro Valentine",
+    "subCategory": "Diamantenstadt",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "3d2d06ac-82eb-4180-a27f-82e61c67cc74",
+    "title": "Ost-Boston",
+    "subCategory": "Ost-Boston",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "4c67dbbd-4511-46c4-a0c9-43c46d225217",
+    "title": "Flughafen Boston",
+    "subCategory": "Ost-Boston",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "531a3f50-1c67-4852-85cd-21428ad915b8",
+    "title": "Ruinen des Flughafens Boston",
+    "subCategory": "Ost-Boston",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "9d01292f-5e63-4659-bc3a-c26733212d85",
+    "title": "Drumlin Diner",
+    "subCategory": "Ost-Boston",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "8ee1b071-471d-47f2-9bc7-846ecf7ea4c3",
+    "title": "Polizeistation East Boston",
+    "subCategory": "Ost-Boston",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "c81a1f63-f181-48f9-85d7-120a5254b0ce",
+    "title": "East Boston Vorbereitungsschule",
+    "subCategory": "Ost-Boston",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "d12a0799-2d91-4fb5-83bf-af7c09cf1d8a",
+    "title": "Einfache Stadtabfahrten",
+    "subCategory": "Ost-Boston",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "5c127749-8420-4ee5-b5e7-9c838751f2e5",
+    "title": "RobCo-Verkäufe",
+    "subCategory": "Ost-Boston",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "1f1ad697-004e-4a9f-b4c8-9c24fda10e8f",
+    "title": "Das Versteck des Mechanisten",
+    "subCategory": "Ost-Boston",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "16c6e381-3c25-44f3-ba32-6ef673891da2",
+    "title": "Die Prydwen",
+    "subCategory": "Ost-Boston",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "81372aa5-c2f4-4e58-b2d1-6de2e4a6c04a",
+    "title": "Promenade",
+    "subCategory": "Promenade",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "7bf458ac-ee3e-49f3-b47f-fd056a3da847",
+    "title": "Barrikade und Dächer",
+    "subCategory": "Promenade",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "4d01f996-5c3d-4592-891b-6b1c6b545d4f",
+    "title": "Charles View Amphitheater",
+    "subCategory": "Promenade",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "6c2b60a0-eace-45b1-b007-90563d5a6d35",
+    "title": "Commonwealth Avenue",
+    "subCategory": "Promenade",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "356c23f8-c2df-4bb0-91ab-5a16e84d7434",
+    "title": "Steg",
+    "subCategory": "Promenade",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "33d14a6f-5c0a-4e77-af96-b2b198b3f900",
+    "title": "HalluciGen, Inc.",
+    "subCategory": "Promenade",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "f2c74f1a-d883-47b3-b14e-9331b4dd1413",
+    "title": "Kongregation der Heiligen Mission",
+    "subCategory": "Promenade",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "6f03685a-ff49-4f89-8e86-3a2eb9e8c8df",
+    "title": "Marlborough-Haus",
+    "subCategory": "Promenade",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "b1b2e82f-d1f4-4aeb-985a-b7a25716c8a1",
+    "title": "Finanzviertel",
+    "subCategory": "Finanzviertel",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "8a7cc9b8-ae16-4d66-a171-14f540df84c0",
+    "title": "35 Gericht",
+    "subCategory": "Finanzviertel",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "f19a033d-c1a4-4341-af7f-05f4f4729270",
+    "title": "Baxter-Gebäude",
+    "subCategory": "Finanzviertel",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "f8260a9b-5c5b-4d5a-89ea-e5157e73a551",
+    "title": "Kaputte Einschienenbahn",
+    "subCategory": "Finanzviertel",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "8b5a3c2c-ba23-442c-aae8-d24eef745bf3",
+    "title": "Commonwealth Bank",
+    "subCategory": "Finanzviertel",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "db67f193-408c-487e-97c9-9e91d9dbfa50",
+    "title": "Garage in der Congress Street",
+    "subCategory": "Finanzviertel",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "4ce5c23d-c8cd-4a5a-8ea2-0033fb6f8bd4",
+    "title": "Gestürzte Skybridge",
+    "subCategory": "Finanzviertel",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a5d8fe55-2f06-4fe0-a40f-9ea6937dabbc",
+    "title": "Fallon's (Finanzviertel)",
+    "subCategory": "Finanzviertel",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "ac1b8e16-c96a-4f54-b24a-4ac72750ce9a",
+    "title": "Faneuil-Halle",
+    "subCategory": "Finanzviertel",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "1b81c6e2-f7c7-4887-85df-fdcd7d5f21f8",
+    "title": "Gartenterrasse",
+    "subCategory": "Finanzviertel",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "e6a7312b-0c5b-4a5c-b65a-1eaa5dd672c9",
+    "title": "Haymarket Mall",
+    "subCategory": "Finanzviertel",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a9b40813-582d-40c5-ba2a-b71c6c5d22d8",
+    "title": "Joes Spuckies",
+    "subCategory": "Finanzviertel",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "9ec3070e-c439-42fc-b197-59c4b18db0b5",
+    "title": "Mass Fusion-Gebäude",
+    "subCategory": "Finanzviertel",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "bd990c8a-87da-4c20-9d97-6016a5a86d5c",
+    "title": "Mass Fusion-Executive-Suite",
+    "subCategory": "Finanzviertel",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "c9c2d384-b7de-40bb-a9e2-7be6f2ef899f",
+    "title": "Alter Eckbuchladen",
+    "subCategory": "Finanzviertel",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "6c64024c-d648-4507-94d4-c76b442dc3c7",
+    "title": "Pinnacle-Hochhaus",
+    "subCategory": "Finanzviertel",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "878ed781-ef6e-4e21-9c63-156f6f40710a",
+    "title": "Postplatz",
+    "subCategory": "Finanzviertel",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "ad4f7e91-41ee-4f9d-b7c4-54ba032f694e",
+    "title": "Wohnungen in der Water Street",
+    "subCategory": "Finanzviertel",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a9d3875a-764b-43eb-b98c-0374d45b92b9",
+    "title": "General Atomics Galleria",
+    "subCategory": "General Atomics Galleria",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "764290f2-6f04-45dd-a012-8b24543725f2",
+    "title": "Back Alley Bowling",
+    "subCategory": "General Atomics Galleria",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "22a6a7c7-9838-4883-a2e7-14c9357e04c7",
+    "title": "Fallon's (General Atomics Galleria)",
+    "subCategory": "General Atomics Galleria",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "55c01e02-1c96-4f84-8150-bc23799054c1",
+    "title": "General Atomics-Filiale",
+    "subCategory": "General Atomics Galleria",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "c9369d03-50ea-430e-b64c-662ce12eb5c9",
+    "title": "Praktisches Essen",
+    "subCategory": "General Atomics Galleria",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "b2e7c1b4-27c7-4609-9cc3-df4d17b5f1ec",
+    "title": "Maddens Fitnessstudio",
+    "subCategory": "General Atomics Galleria",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "4429e926-40ef-4b6b-a504-776dcd1a6b01",
+    "title": "Pinellis Bäckerei (General Atomics Galleria)",
+    "subCategory": "General Atomics Galleria",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "69358fb5-5f35-40d9-85b5-1f27d7e5d0c2",
+    "title": "Glühendes Meer",
+    "subCategory": "Glühendes Meer",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "11cb156f-c67e-48da-bd0e-19f3a1001ae3",
+    "title": "Atlantic-Büros",
+    "subCategory": "Glühendes Meer",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "9e9fbd93-07ac-4003-9149-6a3e02907c24",
+    "title": "Gekenterte Fabrik",
+    "subCategory": "Glühendes Meer",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "4d8f545c-6fb0-4b80-926b-9d676b92ad4b",
+    "title": "Höhle (Glühendes Meer)",
+    "subCategory": "Glühendes Meer",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "cfa2f9a9-6d08-41b4-839f-5ee0ad18657d",
+    "title": "Krater des Atoms",
+    "subCategory": "Glühendes Meer",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a0f6e16e-2b07-4811-a8f2-e2cc3bf1f647",
+    "title": "Verfallenes Reaktorgelände",
+    "subCategory": "Glühendes Meer",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "01f75702-c244-4375-bb91-e9a8d7fe5f96",
+    "title": "Heruntergekommene Fabrik",
+    "subCategory": "Glühendes Meer",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "78b8c6f2-1c90-43c3-812c-0f19b6537af2",
+    "title": "Rand des leuchtenden Meeres",
+    "subCategory": "Glühendes Meer",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "84a17e42-29f0-4f86-9787-5ed245b4a23b",
+    "title": "Bundesversorgungslager 84NE",
+    "subCategory": "Glühendes Meer",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a4de7dcd-0502-4a1e-bde3-2642dfc3d2db",
+    "title": "Bundesüberwachungszentrum K-21B",
+    "subCategory": "Glühendes Meer",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "2c842d02-4c7d-4472-b9b4-3b4c6a0b7bf3",
+    "title": "Vergessene Kirche",
+    "subCategory": "Glühendes Meer",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "f536a07a-d6ef-4cda-86da-d14b29d53a15",
+    "title": "Hopesmarch Pfingstkirche",
+    "subCategory": "Glühendes Meer",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "30f55c06-1dbd-450a-a23f-148e50d68409",
+    "title": "O'Neill Family Manufacturing",
+    "subCategory": "Glühendes Meer",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "8d4afbf1-5b09-47f9-a3c7-cf123f6ee049",
+    "title": "Parkhaus",
+    "subCategory": "Glühendes Meer",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "72e90e07-8c25-47b0-9ea9-46c1887fcf10",
+    "title": "Rote Rakete (Glühendes Meer)",
+    "subCategory": "Glühendes Meer",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "d1c5ac19-8f10-4d99-9320-028477a5116e",
+    "title": "Relaisturm 0DB-521",
+    "subCategory": "Glühendes Meer",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "8f242f85-d36b-4bb0-9aaf-2f22a4310b38",
+    "title": "Felsige Höhle",
+    "subCategory": "Glühendes Meer",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "5463b21f-07e7-45ed-b070-d78e0f8ad5cd",
+    "title": "Sentinel-Site",
+    "subCategory": "Glühendes Meer",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "e8db85d8-8f6f-47b5-a137-c3959d8d7fc0",
+    "title": "Skylanes-Flug 1665",
+    "subCategory": "Glühendes Meer",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "d888e772-2817-40df-bb69-3f1ce7045e5f",
+    "title": "Vertibird-Wrack",
+    "subCategory": "Glühendes Meer",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "d2ac50e8-4d19-4eab-b79c-2b4646b71620",
+    "title": "Guter Nachbar",
+    "subCategory": "Guter Nachbar",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "66dd04f0-13db-4fcd-9425-07e5e8fece0a",
+    "title": "Bobbis Platz",
+    "subCategory": "Guter Nachbar",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "31828d4d-42c4-4c08-a16a-8ee115dd4a06",
+    "title": "Rabatte bei Daisy",
+    "subCategory": "Guter Nachbar",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "78e35a0f-d22f-475d-a27f-17103450e273",
+    "title": "Hotel Rexford",
+    "subCategory": "Guter Nachbar",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a4f598f3-5c8a-41b8-a933-1d48d72954d4",
+    "title": "Töten oder getötet werden",
+    "subCategory": "Guter Nachbar",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "1a0791c2-7f22-43d8-bc0a-e8311393e21d",
+    "title": "Erinnerungshöhle",
+    "subCategory": "Guter Nachbar",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "7b57380e-4f85-43c0-920d-2cf84e45de1d",
+    "title": "Altes Staatshaus",
+    "subCategory": "Guter Nachbar",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "f90d59d2-ec3f-4ef6-89c4-6a729634b9a2",
+    "title": "Der Graben",
+    "subCategory": "Guter Nachbar",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "bbfb7e4e-1362-45a1-8d80-56b71e9a92cf",
+    "title": "Die dritte Schiene",
+    "subCategory": "Guter Nachbar",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "0b1ba723-f799-4b7e-8e43-ea57400b84ef",
+    "title": "Lager (Goodneighbor)",
+    "subCategory": "Guter Nachbar",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "cb15a6c0-5eb9-4e2d-8c4f-0c00695fbf27",
+    "title": "Lexington",
+    "subCategory": "Lexington",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "48d2d4cc-d58c-4e2f-826a-1bf0e2eb648f",
+    "title": "Corvega-Montagewerk",
+    "subCategory": "Lexington",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "03f5b71b-5a05-4b68-8a1a-cd9266ac4721",
+    "title": "Faded Glory Waschsalon",
+    "subCategory": "Lexington",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "d9c99856-8902-4a6b-83a1-623a5e7e7bbf",
+    "title": "Lexington-Wohnungen",
+    "subCategory": "Lexington",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "b641120f-1fc3-4c23-bfdf-cb02b9e7dd4f",
+    "title": "Lexington Bank",
+    "subCategory": "Lexington",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "9f340981-242a-4195-b3b6-5f5a98ed92db",
+    "title": "Lexington-Apotheke",
+    "subCategory": "Lexington",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "132907d5-ef6f-45f7-9f9f-b45b102a622d",
+    "title": "Mystische Kiefern",
+    "subCategory": "Lexington",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "048d2b67-c55b-4cf8-b0db-e56865b00fb7",
+    "title": "Rote Rakete (Lexington)",
+    "subCategory": "Lexington",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "0b4b8a4c-008f-40df-9cc6-fcb2701e7682",
+    "title": "Slocums Joe",
+    "subCategory": "Lexington",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "09a54772-4ac5-4ba2-bec3-e14ba77d38a3",
+    "title": "Super Duper Mart",
+    "subCategory": "Lexington",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "905da1bb-b2db-46e5-bc5f-3fb88cd0df9a",
+    "title": "Die Telefonzentrale",
+    "subCategory": "Lexington",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "997160b5-38d0-4b65-b890-8628f42a55c7",
+    "title": "Malden",
+    "subCategory": "Malden",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "f5785041-2dd1-46b7-a7bf-871d2ea7e21e",
+    "title": "Garagennische",
+    "subCategory": "Malden",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "63a5d181-b679-4c66-b83d-6b23626753de",
+    "title": "Greentop-Kindergarten",
+    "subCategory": "Malden",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "72d6dd29-e135-4e24-99a2-dc5a208e129f",
+    "title": "Malden Center",
+    "subCategory": "Malden",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "b50c208d-bdb6-429d-bef9-84063b6d7a16",
+    "title": "Malden-Entwässerung",
+    "subCategory": "Malden",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "f10adfb3-08cf-4a82-8529-5e87809580c1",
+    "title": "Malden-Mittelschule",
+    "subCategory": "Malden",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "38c36c2d-e6ed-4b92-8b1c-8d4c2b5250f3",
+    "title": "Polizeistation Malden",
+    "subCategory": "Malden",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "d347b1c2-5360-42ad-b31e-0cd9e1af5440",
+    "title": "Med-Tek-Forschung",
+    "subCategory": "Malden",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "49b187c2-15a3-46bf-936d-d21c29d04ce6",
+    "title": "Medford Memorial Hospital",
+    "subCategory": "Malden",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "16a07c2f-87b1-47c8-b4d8-02c721fbf7c1",
+    "title": "Altes Schlundloch",
+    "subCategory": "Malden",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "b73d6753-37ab-4b27-a923-f68ec80c34c7",
+    "title": "Zerstörte Klinik",
+    "subCategory": "Malden",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "53f04a84-b498-4c7a-8f93-5b4b79920ac7",
+    "title": "Slocums Joe-Firmenzentrale",
+    "subCategory": "Malden",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "bd4705e4-e021-4abf-82d8-2e460536da8e",
+    "title": "Tresor 75",
+    "subCategory": "Malden",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "3b61f00f-453d-4db1-8f60-df1e17bf62b1",
+    "title": "Nahant",
+    "subCategory": "Nahant",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "0aefb5e3-b7e9-41f3-9504-8a99e8cfa02d",
+    "title": "Croup Manor",
+    "subCategory": "Nahant",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "2f21a0a2-74c4-40de-ae17-df14c1b12f8b",
+    "title": "Nahant Bar und Restaurant",
+    "subCategory": "Nahant",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "4d78fddc-e32a-4658-af5a-b28d35a92485",
+    "title": "Nahant-Kapelle",
+    "subCategory": "Nahant",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "d896764f-04fb-49f5-b6c5-ba0809a1b240",
+    "title": "Nahant Oceanological Society",
+    "subCategory": "Nahant",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "f5c48e5c-0ef3-4d6d-8b4d-5df180e7d13c",
+    "title": "Nahant Sherrifs Abteilung",
+    "subCategory": "Nahant",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "ac18ea85-9812-4a22-b7f2-39b6eb39882f",
+    "title": "Nahant Wharf",
+    "subCategory": "Nahant",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "6754b4f7-8237-4f98-9e3d-7195a1537f2c",
+    "title": "Rote Rakete (Nahant)",
+    "subCategory": "Nahant",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "8c48edfb-c88a-4f66-916a-23b2c7b6cfac",
+    "title": "Natick",
+    "subCategory": "Natick",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "d3016e23-8e84-47b8-b529-871e81024ad5",
+    "title": "Haus am Hang",
+    "subCategory": "Natick",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "aa3cbf67-7f6c-4913-8e6a-1f41f0b43c2e",
+    "title": "Natick Banks",
+    "subCategory": "Natick",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "238f387f-cc83-4e68-8f8a-6eab26e9e320",
+    "title": "Polizeibehörde Natick",
+    "subCategory": "Natick",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "b8e309cd-df3b-4fb8-a6f7-72ccf8d401f0",
+    "title": "Kraftwerk Natick",
+    "subCategory": "Natick",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "432c9c0a-042a-442f-89f2-72e348f6a87a",
+    "title": "Poseidon-Stausee",
+    "subCategory": "Natick",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "3a462ad9-26b2-4914-8560-7237480ba3a9",
+    "title": "Rote Rakete (Natick Banks)",
+    "subCategory": "Natick",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "eb7fe3f1-2db4-4d7c-a5de-cc0983c856b8",
+    "title": "Roadside Pines Motel",
+    "subCategory": "Natick",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "e8b04b53-9fa1-4d0e-9ee2-2c787c02c53e",
+    "title": "Siedlercampingplatz",
+    "subCategory": "Natick",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "7b75d1c4-4d45-4919-95c9-4d6cbe6b218a",
+    "title": "Nordende",
+    "subCategory": "Nordende",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "b8f06d7a-4478-47d5-a8d2-c6e75d8a29e1",
+    "title": "Boxhalle",
+    "subCategory": "Nordende",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "2143ed76-c1b9-4ad0-a611-12d2b6496f95",
+    "title": "Wohnung des Hamsterers",
+    "subCategory": "Nordende",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "890c03eb-7f53-49fc-8cf1-5e0a59b497f3",
+    "title": "Mittleres Gebäck",
+    "subCategory": "Nordende",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "30a6a34e-1b65-4c44-9c5c-509fa3cc58b0",
+    "title": "North End-Friedhof",
+    "subCategory": "Nordende",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "05f556ff-e2b2-4d1d-82fc-22b2c3e7bf9b",
+    "title": "Alte Nordkirche",
+    "subCategory": "Nordende",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "2b1b861d-c50a-4c2e-9655-6bae33f82a01",
+    "title": "Paul-Rere-Haus",
+    "subCategory": "Nordende",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "82d45a68-22e7-45cf-bb9b-12a016dc99ba",
+    "title": "Paul-Rere-Denkmal",
+    "subCategory": "Nordende",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "c37a1a04-92f8-4cc9-8df6-6ba9d3e0b48f",
+    "title": "Pickman-Galerie",
+    "subCategory": "Nordende",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "d5dfc240-4500-4d97-87d9-28ea648f5cf6",
+    "title": "Pizzeria",
+    "subCategory": "Nordende",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "9f49e1b8-2a08-4ce1-bd7e-0d5ea1894951",
+    "title": "Eisenbahnhauptquartier",
+    "subCategory": "Nordende",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "b0c4f7b2-4d07-4b9d-b17f-f6ffcd062c48",
+    "title": "Valenti-Station",
+    "subCategory": "Nordende",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "d20729ec-5ab4-43ee-9c3b-5f8ec74e08f1",
+    "title": "Ferienhaus am Kai",
+    "subCategory": "Nordende",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p1",
+    "title": "Quincy-Ruinen",
+    "subCategory": "Quincy-Ruinen",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p2",
+    "title": "Fentons Lebensmittel",
+    "subCategory": "Quincy-Ruinen",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p3",
+    "title": "Waffen, Waffen, Waffen",
+    "subCategory": "Quincy-Ruinen",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p4",
+    "title": "Peabody-Haus",
+    "subCategory": "Quincy-Ruinen",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p5",
+    "title": "Pinellis Bäckerei (Quincy)",
+    "subCategory": "Quincy-Ruinen",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p6",
+    "title": "Quincy-Wohnungen",
+    "subCategory": "Quincy-Ruinen",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p7",
+    "title": "Quincy-Kirche",
+    "subCategory": "Quincy-Ruinen",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p8",
+    "title": "Quincy-Diner",
+    "subCategory": "Quincy-Ruinen",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p9",
+    "title": "Quincy-Apotheke",
+    "subCategory": "Quincy-Ruinen",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p10",
+    "title": "Quincy-Polizeistation",
+    "subCategory": "Quincy-Ruinen",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p11",
+    "title": "Quincy-Steinbrüche",
+    "subCategory": "Quincy-Ruinen",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p12",
+    "title": "Rote Rakete (Quincy)",
+    "subCategory": "Quincy-Ruinen",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p13",
+    "title": "Das Loch in der Wand",
+    "subCategory": "Quincy-Ruinen",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p14",
+    "title": "Tresor 88",
+    "subCategory": "Quincy-Ruinen",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p15",
+    "title": "Verehren",
+    "subCategory": "Verehren",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p16",
+    "title": "Drumlin Diner (Gibson Point Pier)",
+    "subCategory": "Verehren",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p17",
+    "title": "Gibson Point Pier",
+    "subCategory": "Verehren",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p18",
+    "title": "Reeb Marina",
+    "subCategory": "Verehren",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p19",
+    "title": "Bahnhof Revere Beach",
+    "subCategory": "Verehren",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p20",
+    "title": "Revere-Satelliten-Array",
+    "subCategory": "Verehren",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p21",
+    "title": "Salem",
+    "subCategory": "Salem",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p22",
+    "title": "Drumlin Diner (Salem)",
+    "subCategory": "Salem",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p23",
+    "title": "Museum für Hexerei",
+    "subCategory": "Salem",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p24",
+    "title": "Haus der Familie Rook",
+    "subCategory": "Salem",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p25",
+    "title": "Erholungsheim Sandy Coves",
+    "subCategory": "Salem",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p26",
+    "title": "Sanctuary Hills",
+    "subCategory": "Sanctuary Hills",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p27",
+    "title": "Minutemen-Denkmal",
+    "subCategory": "Sanctuary Hills",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p28",
+    "title": "Nebeliger See",
+    "subCategory": "Sanctuary Hills",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p29",
+    "title": "Alte Nordbrücke",
+    "subCategory": "Sanctuary Hills",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p30",
+    "title": "Wurzelkeller",
+    "subCategory": "Sanctuary Hills",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p31",
+    "title": "Das Haus von morgen",
+    "subCategory": "Sanctuary Hills",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p32",
+    "title": "Südboston",
+    "subCategory": "Südboston",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p33",
+    "title": "Andrew-Station",
+    "subCategory": "Südboston",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p34",
+    "title": "Bus- und Wohnungswrack",
+    "subCategory": "Südboston",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p35",
+    "title": "Dorchester Height-Denkmal",
+    "subCategory": "Südboston",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p36",
+    "title": "Fabrik (Fallout 4)",
+    "subCategory": "Südboston",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p37",
+    "title": "Vierblättrige Fischverpackungsanlage",
+    "subCategory": "Südboston",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p38",
+    "title": "General Atomics-Fabrik",
+    "subCategory": "Südboston",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p39",
+    "title": "Gwinnett-Brauerei",
+    "subCategory": "Südboston",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p40",
+    "title": "Hawthorne-Anwesen",
+    "subCategory": "Südboston",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p41",
+    "title": "Joe's Spuckies Sandwichladen",
+    "subCategory": "Südboston",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p42",
+    "title": "L Street Badehaus",
+    "subCategory": "Südboston",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p43",
+    "title": "Marowskis Chemielabor",
+    "subCategory": "Südboston",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p44",
+    "title": "Die Wohnung des Schlafwandlers",
+    "subCategory": "Südboston",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p45",
+    "title": "Südboston-Kirche",
+    "subCategory": "Südboston",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p46",
+    "title": "South Boston High School",
+    "subCategory": "Südboston",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p47",
+    "title": "Militärkontrollpunkt in South Boston",
+    "subCategory": "Südboston",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p48",
+    "title": "Polizeibehörde South Boston",
+    "subCategory": "Südboston",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p49",
+    "title": "Sullivans",
+    "subCategory": "Südboston",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p50",
+    "title": "Die Burg",
+    "subCategory": "Südboston",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p51",
+    "title": "Das Gwinnett Restaurant",
+    "subCategory": "Südboston",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p52",
+    "title": "Union Man's Circle",
+    "subCategory": "Südboston",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p53",
+    "title": "Das Venn",
+    "subCategory": "Das Venn",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p54",
+    "title": "Annas Café",
+    "subCategory": "Das Venn",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p55",
+    "title": "Back Street-Bekleidung",
+    "subCategory": "Das Venn",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p56",
+    "title": "Bridgeway Trust",
+    "subCategory": "Das Venn",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p57",
+    "title": "Brookline-Gebäude",
+    "subCategory": "Das Venn",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p58",
+    "title": "Evans Way Sackgasse",
+    "subCategory": "Das Venn",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p59",
+    "title": "Fens Café",
+    "subCategory": "Das Venn",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p60",
+    "title": "Abwasserkanal Fens Street",
+    "subCategory": "Das Venn",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p61",
+    "title": "Station Fens Way",
+    "subCategory": "Das Venn",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p62",
+    "title": "Flagon-Tunnel",
+    "subCategory": "Das Venn",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p63",
+    "title": "Gründerdreieck",
+    "subCategory": "Das Venn",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p64",
+    "title": "Henkergasse",
+    "subCategory": "Das Venn",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p65",
+    "title": "Hardware-Stadt",
+    "subCategory": "Das Venn",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p66",
+    "title": "Verstecktes Abendessen",
+    "subCategory": "Das Venn",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p67",
+    "title": "Parkview Apartments",
+    "subCategory": "Das Venn",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p68",
+    "title": "Polizeirevier 8",
+    "subCategory": "Das Venn",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p69",
+    "title": "Raider-Hinterhoflager",
+    "subCategory": "Das Venn",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p70",
+    "title": "South Fens Tower",
+    "subCategory": "Das Venn",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p71",
+    "title": "Wrack der USS Riptide",
+    "subCategory": "Das Venn",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p72",
+    "title": "Das Institut",
+    "subCategory": "Das Institut",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p73",
+    "title": "FEV-Labor",
+    "subCategory": "Das Institut",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p74",
+    "title": "Institut für fortgeschrittene Systeme",
+    "subCategory": "Das Institut",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p75",
+    "title": "Institut BioScience",
+    "subCategory": "Das Institut",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p76",
+    "title": "Institutshalle",
+    "subCategory": "Das Institut",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p77",
+    "title": "Institutsreaktor",
+    "subCategory": "Das Institut",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p78",
+    "title": "Institut für Robotik",
+    "subCategory": "Das Institut",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p79",
+    "title": "Institut SRB",
+    "subCategory": "Das Institut",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p80",
+    "title": "Institutsunterebene 21-D",
+    "subCategory": "Das Institut",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p81",
+    "title": "Alte Robotik",
+    "subCategory": "Das Institut",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p82",
+    "title": "Theaterviertel",
+    "subCategory": "Theaterviertel",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p83",
+    "title": "Kampfzone",
+    "subCategory": "Theaterviertel",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p84",
+    "title": "D.B. ",
+    "subCategory": "Theaterviertel",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p85",
+    "title": "Massenkarambolage auf der Autobahn",
+    "subCategory": "Theaterviertel",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p86",
+    "title": "Hesters Consumer Robotics",
+    "subCategory": "Theaterviertel",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p87",
+    "title": "Hub 360",
+    "subCategory": "Theaterviertel",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p88",
+    "title": "Mass Bay Medical Center",
+    "subCategory": "Theaterviertel",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p89",
+    "title": "U-Bahn des medizinischen Zentrums",
+    "subCategory": "Theaterviertel",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p90",
+    "title": "Pearwood Residenzen",
+    "subCategory": "Theaterviertel",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p91",
+    "title": "Slocums Joe (Mass Bay Medical)",
+    "subCategory": "Theaterviertel",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p92",
+    "title": "Ticker Tape Lounge",
+    "subCategory": "Theaterviertel",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p93",
+    "title": "Universitätspunkt",
+    "subCategory": "Universitätspunkt",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p94",
+    "title": "Sedgwick Hall",
+    "subCategory": "Universitätspunkt",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p95",
+    "title": "Universitätskreditgenossenschaft",
+    "subCategory": "Universitätspunkt",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p96",
+    "title": "University Point Pharmacy",
+    "subCategory": "Universitätspunkt",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p97",
+    "title": "West Roxbury",
+    "subCategory": "West Roxbury",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p98",
+    "title": "Fallons Kaufhaus",
+    "subCategory": "West Roxbury",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p99",
+    "title": "Milton General Hospital",
+    "subCategory": "West Roxbury",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p100",
+    "title": "Milton-Parkhaus",
+    "subCategory": "West Roxbury",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p101",
+    "title": "Shaw High School",
+    "subCategory": "West Roxbury",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p102",
+    "title": "Bahnhof West Roxbury",
+    "subCategory": "West Roxbury",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p104",
+    "title": "Abernathy-Farm",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p105",
+    "title": "ArcJet-Systeme",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p106",
+    "title": "Atom Cats-Garage",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p107",
+    "title": "Beantown Brauerei",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p108",
+    "title": "Bedford Station",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p109",
+    "title": "Big Johns Bergung",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p110",
+    "title": "Unterschlupf des Bürgermeisters von Boston",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p111",
+    "title": "Rationierungsstelle der Bostoner Polizei",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p112",
+    "title": "Breakheart Banks",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p113",
+    "title": "Chestnut Hillock Reservoir",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p114",
+    "title": "Pier der Küstenwache",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p115",
+    "title": "Küstenhütte",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p116",
+    "title": "Kampfzone",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p117",
+    "title": "Kreisüberquerung",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p118",
+    "title": "Bund",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p119",
+    "title": "Kraterhaus",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p120",
+    "title": "Cutler Bend",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p121",
+    "title": "Dunkler hohler Teich",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p122",
+    "title": "Drumlin Diner",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p123",
+    "title": "Dunwich Borers",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p124",
+    "title": "Egret Tours Marina",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p125",
+    "title": "Elektro-Bastlerclub",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p126",
+    "title": "Fairline Hill Estates",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p127",
+    "title": "Vorrat an Bundesrationen",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p128",
+    "title": "Fiddler's Green Trailer Estates",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p129",
+    "title": "Finkenfarm",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p130",
+    "title": "Forest Grove Sumpf",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p131",
+    "title": "Fort Strong",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p132",
+    "title": "Gorski-Hütte",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p133",
+    "title": "Graugarten",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p134",
+    "title": "Gunners-Platz",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p135",
+    "title": "Hub City Auto Wreckers",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p136",
+    "title": "Hugos Loch",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p137",
+    "title": "Hyde Park",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p138",
+    "title": "Werft Irish Pride Industries",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p139",
+    "title": "Veräußerung durch Jalbert Brothers",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p140",
+    "title": "Jamaika-Ebene",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p141",
+    "title": "Leuchtturm von Kingsport",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p142",
+    "title": "Cochituate-See",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p143",
+    "title": "See Quannapowitt",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p144",
+    "title": "Libertalia",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p145",
+    "title": "Horchposten Bravo",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p146",
+    "title": "Einsame Kapelle",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p147",
+    "title": "Longneck Lukowskis Konservenfabrik",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p148",
+    "title": "Parkplatz am Lynn Pier",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p149",
+    "title": "Lynn Woods",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p150",
+    "title": "Mahkra-Fischverpackung",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p151",
+    "title": "Mass Fusion-Sicherheitsschuppen",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p152",
+    "title": "Massenfusionsdeponie",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p153",
+    "title": "Massenkies",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p154",
+    "title": "Massen-Pike-Austausch",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p155",
+    "title": "Mass Pike Tunnel Ost",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p156",
+    "title": "Mass Pike Tunnel West",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p157",
+    "title": "Murkwater-Baustelle",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p158",
+    "title": "Trainingsgelände der Nationalgarde",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p159",
+    "title": "Neponset-Park",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p160",
+    "title": "NH",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p161",
+    "title": "Strand von Nordhagen",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p162",
+    "title": "Bahnhof Oberland",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p163",
+    "title": "Außenposten Zimonja",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p164",
+    "title": "Parsons Molkerei",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p165",
+    "title": "Parsons State Irrenanstalt",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p166",
+    "title": "Poseiden-Energieturbine 18-F",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p167",
+    "title": "Poseidon-Energie",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p168",
+    "title": "Funkturm 3SM-U81",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p169",
+    "title": "Ranger-Hütte",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p170",
+    "title": "Aufklärungsbunker Theta",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p171",
+    "title": "Raststätte Red Rocket",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p172",
+    "title": "Relaisturm 0BB-915",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p173",
+    "title": "Relaisturm 0MC-810",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p174",
+    "title": "Relaisturm 0SC-527",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p175",
+    "title": "Relaisturm 1DL-109",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p176",
+    "title": "Robotik-Entsorgungsgelände",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p177",
+    "title": "Robotik-Pionierpark",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p178",
+    "title": "Rocky Narrows Park",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p179",
+    "title": "Verrottete Mülldeponie",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p180",
+    "title": "Saugus-Eisenhütte",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p181",
+    "title": "Schrottpalast",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p182",
+    "title": "Skylanes-Flug 1981",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p183",
+    "title": "Kleine Raider-Hütte",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p184",
+    "title": "Somerville Place",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p185",
+    "title": "Spektakelinsel",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p186",
+    "title": "Starlight Drive-In",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p187",
+    "title": "Sunshine Tidings Genossenschaft",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p188",
+    "title": "Taffington Bootshaus",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p189",
+    "title": "Tenpines Bluff",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p190",
+    "title": "Der Slog",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p191",
+    "title": "Dickichtausgrabungen",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p192",
+    "title": "Tucker Memorial Bridge",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p193",
+    "title": "USAF-Satellitenstation Olivia",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p194",
+    "title": "USS-Verfassung",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p195",
+    "title": "Tresor 111",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p196",
+    "title": "Tresor 81",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p197",
+    "title": "Tresor 95",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p198",
+    "title": "Regionaler Hauptsitz von Vault-Tec",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p199",
+    "title": "Walden Pond",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p200",
+    "title": "Warwick-Gehöft",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p201",
+    "title": "Wattz Unterhaltungselektronik",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p202",
+    "title": "Wegpunkt-Echo",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p203",
+    "title": "West Everett Estates",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p204",
+    "title": "Westing Estate",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p205",
+    "title": "Wasseraufbereitungsanlage Weston",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p206",
+    "title": "Böser Schiffsflotten-Überfall",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p207",
+    "title": "Wildwood-Friedhof",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p208",
+    "title": "Wilson Atomatoys-Fabrik",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p209",
+    "title": "Wrack der FMS Northern Star",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p210",
+    "title": "WRVR-Sender",
+    "subCategory": "Andere Standorte",
+    "dlc": "Keiner",
+    "mainCategory": "Hauptsächlich"
+  },
+  {
+    "id": "f6b7627d-61d4-4a72-b16c-76eb86db2a79",
+    "title": "Far Harbor",
+    "subCategory": "Far Harbor",
+    "dlc": "Far Harbor",
+    "mainCategory": "Far Harbor"
+  },
+  {
+    "id": "da783c7f-8d53-4ac4-94a1-456e378d61c1",
+    "title": "Akadien",
+    "subCategory": "Far Harbor",
+    "dlc": "Far Harbor",
+    "mainCategory": "Far Harbor"
+  },
+  {
+    "id": "15e4c505-6d37-40c7-8b23-7627cb5a9f91",
+    "title": "Der Kern",
+    "subCategory": "Far Harbor",
+    "dlc": "Far Harbor",
+    "mainCategory": "Far Harbor"
+  },
+  {
+    "id": "9c3d9f4d-880b-4475-8d8f-4bb7b50814eb",
+    "title": "Dalton Farm",
+    "subCategory": "Far Harbor",
+    "dlc": "Far Harbor",
+    "mainCategory": "Far Harbor"
+  },
+  {
+    "id": "fc8ee22d-77af-4b48-8b1e-d428b1f4a0cf",
+    "title": "Echo Lake Lumber",
+    "subCategory": "Far Harbor",
+    "dlc": "Far Harbor",
+    "mainCategory": "Far Harbor"
+  },
+  {
+    "id": "14c868d2-5b6c-4d20-930d-d16434b83369",
+    "title": "Longfellows Hütte",
+    "subCategory": "Far Harbor",
+    "dlc": "Far Harbor",
+    "mainCategory": "Far Harbor"
+  },
+  {
+    "id": "bd6c00da-97d3-4171-8c02-7d2d2bc29552",
+    "title": "Besucherzentrum des Nationalparks",
+    "subCategory": "Far Harbor",
+    "dlc": "Far Harbor",
+    "mainCategory": "Far Harbor"
+  },
+  {
+    "id": "1f92e9b3-217f-4f78-a132-1607748484e5",
+    "title": "Aldersea Day Spa",
+    "subCategory": "Far Harbor",
+    "dlc": "Far Harbor",
+    "mainCategory": "Far Harbor"
+  },
+  {
+    "id": "c6ee9f55-3d68-4d1a-bd85-9fe82abf6b43",
+    "title": "Atoms Frühling",
+    "subCategory": "Far Harbor",
+    "dlc": "Far Harbor",
+    "mainCategory": "Far Harbor"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "title": "Beaver Creek Lanes",
+    "subCategory": "Far Harbor",
+    "dlc": "Far Harbor",
+    "mainCategory": "Far Harbor"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "title": "Brineys Köder und Tackle",
+    "subCategory": "Far Harbor",
+    "dlc": "Far Harbor",
+    "mainCategory": "Far Harbor"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "title": "Brooke's Head Leuchtturm",
+    "subCategory": "Far Harbor",
+    "dlc": "Far Harbor",
+    "mainCategory": "Far Harbor"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "title": "Kinder des Atomschreins",
+    "subCategory": "Far Harbor",
+    "dlc": "Far Harbor",
+    "mainCategory": "Far Harbor"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "title": "Cliff's Edge Hotel",
+    "subCategory": "Far Harbor",
+    "dlc": "Far Harbor",
+    "mainCategory": "Far Harbor"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "title": "Cranberry Island Moor",
+    "subCategory": "Far Harbor",
+    "dlc": "Far Harbor",
+    "mainCategory": "Far Harbor"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "title": "Cranberry Island Docks",
+    "subCategory": "Far Harbor",
+    "dlc": "Far Harbor",
+    "mainCategory": "Far Harbor"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "title": "Cranberry Island-Versorgungsschuppen",
+    "subCategory": "Far Harbor",
+    "dlc": "Far Harbor",
+    "mainCategory": "Far Harbor"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "title": "DiMAs Cache",
+    "subCategory": "Far Harbor",
+    "dlc": "Far Harbor",
+    "mainCategory": "Far Harbor"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "title": "Eagle's Cove Gerberei",
+    "subCategory": "Far Harbor",
+    "dlc": "Far Harbor",
+    "mainCategory": "Far Harbor"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "title": "Eden Meadows Kinos",
+    "subCategory": "Far Harbor",
+    "dlc": "Far Harbor",
+    "mainCategory": "Far Harbor"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "title": "Fringe Cove Docks",
+    "subCategory": "Far Harbor",
+    "dlc": "Far Harbor",
+    "mainCategory": "Far Harbor"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "title": "Leuchtender Hain",
+    "subCategory": "Far Harbor",
+    "dlc": "Far Harbor",
+    "mainCategory": "Far Harbor"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "title": "Haddock Cove",
+    "subCategory": "Far Harbor",
+    "dlc": "Far Harbor",
+    "mainCategory": "Far Harbor"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "title": "Harbour Grand Hotel",
+    "subCategory": "Far Harbor",
+    "dlc": "Far Harbor",
+    "mainCategory": "Far Harbor"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "title": "Horizon-Flug 1207",
+    "subCategory": "Far Harbor",
+    "dlc": "Far Harbor",
+    "mainCategory": "Far Harbor"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "title": "Jägerin-Insel",
+    "subCategory": "Far Harbor",
+    "dlc": "Far Harbor",
+    "mainCategory": "Far Harbor"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "title": "Kitteredge-Pass",
+    "subCategory": "Far Harbor",
+    "dlc": "Far Harbor",
+    "mainCategory": "Far Harbor"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "title": "MS Azalea",
+    "subCategory": "Far Harbor",
+    "dlc": "Far Harbor",
+    "mainCategory": "Far Harbor"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "title": "Nakano Residenz",
+    "subCategory": "Far Harbor",
+    "dlc": "Far Harbor",
+    "mainCategory": "Far Harbor"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "title": "Campingplatz im Nationalpark",
+    "subCategory": "Far Harbor",
+    "dlc": "Far Harbor",
+    "mainCategory": "Far Harbor"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "title": "Hauptquartier des Nationalparks",
+    "subCategory": "Far Harbor",
+    "dlc": "Far Harbor",
+    "mainCategory": "Far Harbor"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "title": "Northwood Ridge Steinbruch",
+    "subCategory": "Far Harbor",
+    "dlc": "Far Harbor",
+    "mainCategory": "Far Harbor"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "title": "Ozeanarium",
+    "subCategory": "Far Harbor",
+    "dlc": "Far Harbor",
+    "mainCategory": "Far Harbor"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "title": "Altes Teichhaus",
+    "subCategory": "Far Harbor",
+    "dlc": "Far Harbor",
+    "mainCategory": "Far Harbor"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "title": "Pine Crest Cavern",
+    "subCategory": "Far Harbor",
+    "dlc": "Far Harbor",
+    "mainCategory": "Far Harbor"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "title": "Strahlender Wappenschrein",
+    "subCategory": "Far Harbor",
+    "dlc": "Far Harbor",
+    "mainCategory": "Far Harbor"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "title": "Rayburn Point",
+    "subCategory": "Far Harbor",
+    "dlc": "Far Harbor",
+    "mainCategory": "Far Harbor"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "title": "Rock Point Camp",
+    "subCategory": "Far Harbor",
+    "dlc": "Far Harbor",
+    "mainCategory": "Far Harbor"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "title": "Zerstörte Kirche",
+    "subCategory": "Far Harbor",
+    "dlc": "Far Harbor",
+    "mainCategory": "Far Harbor"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "title": "Zerstörter Funkturm",
+    "subCategory": "Far Harbor",
+    "dlc": "Far Harbor",
+    "mainCategory": "Far Harbor"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "title": "Südwesthafen",
+    "subCategory": "Far Harbor",
+    "dlc": "Far Harbor",
+    "mainCategory": "Far Harbor"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "title": "Vim Pop Factory",
+    "subCategory": "Far Harbor",
+    "dlc": "Far Harbor",
+    "mainCategory": "Far Harbor"
+  },
+  {
+    "id": "f6b7627d-61d4-4a72-b16c-76eb86db2a79",
+    "title": "Waves Crest Waisenhaus",
+    "subCategory": "Far Harbor",
+    "dlc": "Far Harbor",
+    "mainCategory": "Far Harbor"
+  },
+  {
+    "id": "da783c7f-8d53-4ac4-94a1-456e378d61c1",
+    "title": "Wartung von Windparks",
+    "subCategory": "Far Harbor",
+    "dlc": "Far Harbor",
+    "mainCategory": "Far Harbor"
+  },
+  {
+    "id": "15e4c505-6d37-40c7-8b23-7627cb5a9f91",
+    "title": "Zephyr Ridge Camp",
+    "subCategory": "Far Harbor",
+    "dlc": "Far Harbor",
+    "mainCategory": "Far Harbor"
+  },
+  {
+    "id": "4cf28d9e-b4a6-43fc-91af-2ae9a3b6a073",
+    "title": "Nuka-Town USA",
+    "subCategory": "Nuka-Welt",
+    "dlc": "Nuka-Welt",
+    "mainCategory": "Nuka-Welt"
+  },
+  {
+    "id": "d5a17222-5a62-4f82-a504-8936185b1f19",
+    "title": "Nuka-Town-Markt",
+    "subCategory": "Nuka-Welt",
+    "dlc": "Nuka-Welt",
+    "mainCategory": "Nuka-Welt"
+  },
+  {
+    "id": "6a6a2e02-7a5e-4b04-ae9a-18e4fe16b106",
+    "title": "Bradberton",
+    "subCategory": "Nuka-Welt",
+    "dlc": "Nuka-Welt",
+    "mainCategory": "Nuka-Welt"
+  },
+  {
+    "id": "8c72402a-6b71-4ab7-af49-3f50bdfb547c",
+    "title": "Bradberton Amphitheater",
+    "subCategory": "Nuka-Welt",
+    "dlc": "Nuka-Welt",
+    "mainCategory": "Nuka-Welt"
+  },
+  {
+    "id": "0e55153f-1198-4645-9b07-33ac9785e3d6",
+    "title": "Bradberton-Überführung",
+    "subCategory": "Nuka-Welt",
+    "dlc": "Nuka-Welt",
+    "mainCategory": "Nuka-Welt"
+  },
+  {
+    "id": "fd50e7c4-846b-475d-8f5e-86c66b75c3bd",
+    "title": "Cappys Baumhaus",
+    "subCategory": "Nuka-Welt",
+    "dlc": "Nuka-Welt",
+    "mainCategory": "Nuka-Welt"
+  },
+  {
+    "id": "b693ab3e-8964-4c1c-92da-172b8f6c4381",
+    "title": "Cola-Cars Arena",
+    "subCategory": "Nuka-Welt",
+    "dlc": "Nuka-Welt",
+    "mainCategory": "Nuka-Welt"
+  },
+  {
+    "id": "f1361b05-1cc8-4cb3-8d14-4fb65446912b",
+    "title": "Doc Phosphates Saloon",
+    "subCategory": "Nuka-Welt",
+    "dlc": "Nuka-Welt",
+    "mainCategory": "Nuka-Welt"
+  },
+  {
+    "id": "3c2c50e1-144c-4c6d-9a8e-0bca08e21790",
+    "title": "Trockene Felsschlucht",
+    "subCategory": "Nuka-Welt",
+    "dlc": "Nuka-Welt",
+    "mainCategory": "Nuka-Welt"
+  },
+  {
+    "id": "c2b965d2-4e7e-4a91-bf1f-b8f31c282a50",
+    "title": "Dry Rock Gulch-Mitarbeiterarena",
+    "subCategory": "Nuka-Welt",
+    "dlc": "Nuka-Welt",
+    "mainCategory": "Nuka-Welt"
+  },
+  {
+    "id": "b16bf43d-187a-4b80-8e4a-60dbd4f57b6b",
+    "title": "Dry Rock Gulch Theater",
+    "subCategory": "Nuka-Welt",
+    "dlc": "Nuka-Welt",
+    "mainCategory": "Nuka-Welt"
+  },
+  {
+    "id": "0df7c3e8-9744-47cd-9d8a-93544a064b77",
+    "title": "Dunmore Homestead",
+    "subCategory": "Nuka-Welt",
+    "dlc": "Nuka-Welt",
+    "mainCategory": "Nuka-Welt"
+  },
+  {
+    "id": "7bc264cf-c48d-4cfb-923f-6a77e1ad0945",
+    "title": "Evans-Haus",
+    "subCategory": "Nuka-Welt",
+    "dlc": "Nuka-Welt",
+    "mainCategory": "Nuka-Welt"
+  },
+  {
+    "id": "bdb6b8e9-eb6e-4d7a-8df3-0b43ff9a3497",
+    "title": "Riesenrad",
+    "subCategory": "Nuka-Welt",
+    "dlc": "Nuka-Welt",
+    "mainCategory": "Nuka-Welt"
+  },
+  {
+    "id": "d9b15423-cb76-4cf9-8c18-6fb1d85b9e61",
+    "title": "Fizztop-Grill",
+    "subCategory": "Nuka-Welt",
+    "dlc": "Nuka-Welt",
+    "mainCategory": "Nuka-Welt"
+  },
+  {
+    "id": "2c0c0c54-3e99-4ba6-9a71-3b5a55db1643",
+    "title": "Fizztop Mountain",
+    "subCategory": "Nuka-Welt",
+    "dlc": "Nuka-Welt",
+    "mainCategory": "Nuka-Welt"
+  },
+  {
+    "id": "ed93be4e-1200-4c31-a365-46ee63075f53",
+    "title": "Freudenhaus",
+    "subCategory": "Nuka-Welt",
+    "dlc": "Nuka-Welt",
+    "mainCategory": "Nuka-Welt"
+  },
+  {
+    "id": "b4f054f9-cb8c-4b36-a437-3d9e1f9a837c",
+    "title": "Galaktische Zone",
+    "subCategory": "Nuka-Welt",
+    "dlc": "Nuka-Welt",
+    "mainCategory": "Nuka-Welt"
+  },
+  {
+    "id": "17db20ff-64e2-47a3-a9f3-195e0909f64f",
+    "title": "Grandchester Mystery Mansion",
+    "subCategory": "Nuka-Welt",
+    "dlc": "Nuka-Welt",
+    "mainCategory": "Nuka-Welt"
+  },
+  {
+    "id": "5db63b63-d13c-4c79-a3a7-af4e8bdf7dfb",
+    "title": "Hubologists Camp",
+    "subCategory": "Nuka-Welt",
+    "dlc": "Nuka-Welt",
+    "mainCategory": "Nuka-Welt"
+  },
+  {
+    "id": "7923fd18-2d1a-4f07-bbda-bba83171bbfe",
+    "title": "Kinderreich",
+    "subCategory": "Nuka-Welt",
+    "dlc": "Nuka-Welt",
+    "mainCategory": "Nuka-Welt"
+  },
+  {
+    "id": "31929c5f-3e9f-4e3a-8e0c-19e4b25f66a3",
+    "title": "König-Colas-Schloss",
+    "subCategory": "Nuka-Welt",
+    "dlc": "Nuka-Welt",
+    "mainCategory": "Nuka-Welt"
+  },
+  {
+    "id": "97aa146e-31e1-4f13-9a88-9b7c336510b6",
+    "title": "Mad Mulligans Minecart Untersetzer",
+    "subCategory": "Nuka-Welt",
+    "dlc": "Nuka-Welt",
+    "mainCategory": "Nuka-Welt"
+  },
+  {
+    "id": "ff9d68d5-930e-49c5-8ef5-8b2b22e534cc",
+    "title": "Morton Residenz",
+    "subCategory": "Nuka-Welt",
+    "dlc": "Nuka-Welt",
+    "mainCategory": "Nuka-Welt"
+  },
+  {
+    "id": "85c16187-7583-4c10-9362-0ad876e2ad7d",
+    "title": "Northpoint-Stausee",
+    "subCategory": "Nuka-Welt",
+    "dlc": "Nuka-Welt",
+    "mainCategory": "Nuka-Welt"
+  },
+  {
+    "id": "5372ff0b-9e85-4d05-96c9-2a3db7c6320a",
+    "title": "Nuka-Cola-Abfüllanlage",
+    "subCategory": "Nuka-Welt",
+    "dlc": "Nuka-Welt",
+    "mainCategory": "Nuka-Welt"
+  },
+  {
+    "id": "6edae5d6-7f84-4e16-9ab6-89b3dd17a8fe",
+    "title": "Nuka-Galaxie",
+    "subCategory": "Nuka-Welt",
+    "dlc": "Nuka-Welt",
+    "mainCategory": "Nuka-Welt"
+  },
+  {
+    "id": "7fb284a7-4dbb-47e9-b825-0f1f889c495c",
+    "title": "Nuka-Station",
+    "subCategory": "Nuka-Welt",
+    "dlc": "Nuka-Welt",
+    "mainCategory": "Nuka-Welt"
+  },
+  {
+    "id": "78a77d50-1b85-45c4-948b-2f936f1a1589",
+    "title": "Nuka-World Junkyard",
+    "subCategory": "Nuka-Welt",
+    "dlc": "Nuka-Welt",
+    "mainCategory": "Nuka-Welt"
+  },
+  {
+    "id": "6e192858-30ad-4f01-870f-36ef1246938a",
+    "title": "Nuka-World-Kraftwerk",
+    "subCategory": "Nuka-Welt",
+    "dlc": "Nuka-Welt",
+    "mainCategory": "Nuka-Welt"
+  },
+  {
+    "id": "99d6f1a3-d855-4ce5-a31a-1cf2a6754b90",
+    "title": "Nuka-World Rote Rakete",
+    "subCategory": "Nuka-Welt",
+    "dlc": "Nuka-Welt",
+    "mainCategory": "Nuka-Welt"
+  },
+  {
+    "id": "fa037a89-b35b-4291-b4c6-5bb3f129cd32",
+    "title": "Nuka-World Transit Center",
+    "subCategory": "Nuka-Welt",
+    "dlc": "Nuka-Welt",
+    "mainCategory": "Nuka-Welt"
+  },
+  {
+    "id": "a1b9b50d-909c-478b-99bb-6ec2d0e36509",
+    "title": "RobCo Battlezone",
+    "subCategory": "Nuka-Welt",
+    "dlc": "Nuka-Welt",
+    "mainCategory": "Nuka-Welt"
+  },
+  {
+    "id": "739dfec7-8b6d-480f-8923-5e8982a20187",
+    "title": "Safari-Abenteuer",
+    "subCategory": "Nuka-Welt",
+    "dlc": "Nuka-Welt",
+    "mainCategory": "Nuka-Welt"
+  },
+  {
+    "id": "68775732-ee21-4c4f-b21e-0cb525ec5b18",
+    "title": "Safari-Abenteuer-Primatenhaus",
+    "subCategory": "Nuka-Welt",
+    "dlc": "Nuka-Welt",
+    "mainCategory": "Nuka-Welt"
+  },
+  {
+    "id": "a281a648-bd1d-4ec4-b7ea-eb2e4a3fdeab",
+    "title": "Safari-Abenteuer-Reptilienhaus",
+    "subCategory": "Nuka-Welt",
+    "dlc": "Nuka-Welt",
+    "mainCategory": "Nuka-Welt"
+  },
+  {
+    "id": "5352077e-b1f7-4a26-af5c-6b18d3453b82",
+    "title": "Starlight Interstellar Theater",
+    "subCategory": "Nuka-Welt",
+    "dlc": "Nuka-Welt",
+    "mainCategory": "Nuka-Welt"
+  },
+  {
+    "id": "b4b24a66-8423-4f06-a8e1-6a49fc762653",
+    "title": "Raumhafen Nuka",
+    "subCategory": "Nuka-Welt",
+    "dlc": "Nuka-Welt",
+    "mainCategory": "Nuka-Welt"
+  },
+  {
+    "id": "8a4a119a-5952-43f5-8f82-54ff14cb6d8e",
+    "title": "Die wütende Anakonda",
+    "subCategory": "Nuka-Welt",
+    "dlc": "Nuka-Welt",
+    "mainCategory": "Nuka-Welt"
+  },
+  {
+    "id": "55af63e2-5397-4f2c-9a56-6b684e9637ae",
+    "title": "Der Salon",
+    "subCategory": "Nuka-Welt",
+    "dlc": "Nuka-Welt",
+    "mainCategory": "Nuka-Welt"
+  },
+  {
+    "id": "5591f37a-7122-416a-8a9e-0c5a1ea8dd9a",
+    "title": "Vault-Tec: Unter den Sternen",
+    "subCategory": "Nuka-Welt",
+    "dlc": "Nuka-Welt",
+    "mainCategory": "Nuka-Welt"
+  },
+  {
+    "id": "f4b68e65-c9dd-493c-a6e4-5bbd6e4d2f47",
+    "title": "Wixons Schaufelmuseum",
+    "subCategory": "Nuka-Welt",
+    "dlc": "Nuka-Welt",
+    "mainCategory": "Nuka-Welt"
+  },
+  {
+    "id": "8a732f79-b542-4e1e-b271-642c9e81ba8a",
+    "title": "Welterfrischung",
+    "subCategory": "Nuka-Welt",
+    "dlc": "Nuka-Welt",
+    "mainCategory": "Nuka-Welt"
+  },
+  {
+    "id": "0ae3cb1b-60d2-4964-b672-2e2e7d437cb7",
+    "title": "Fort Hagen Hangar",
+    "subCategory": "Automatron",
+    "dlc": "Automatron",
+    "mainCategory": "Automatron"
+  },
+  {
+    "id": "77c55068-56a7-4be5-a0d1-92c27208889a",
+    "title": "RobCo-Verkäufe",
+    "subCategory": "Automatron",
+    "dlc": "Automatron",
+    "mainCategory": "Automatron"
+  },
+  {
+    "id": "3d7c9d44-5b63-4c90-8697-42bce0b3c348",
+    "title": "Das Versteck des Mechanisten",
+    "subCategory": "Automatron",
+    "dlc": "Automatron",
+    "mainCategory": "Automatron"
+  }
+]

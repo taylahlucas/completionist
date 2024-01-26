@@ -1,0 +1,2225 @@
+[
+  {
+    "id": "1c2c15c6-0834-4e3b-b5f3-0a9017b6c1f0",
+    "mainCategory": "龙祭司面具",
+    "subCategory": "",
+    "title": "海夫诺拉克面具",
+    "prerequisite": "在瓦尔苏姆杀死赫夫诺拉克。",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "862c86a3-08b3-4647-9d6d-64ad735c13bc",
+    "mainCategory": "龙祭司面具",
+    "subCategory": "",
+    "title": "克罗西斯面具",
+    "prerequisite": "在剪切点杀死克罗西斯。",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "34cbb2f1-38eb-4b8e-bdcf-0d1a5a84ee96",
+    "mainCategory": "龙祭司面具",
+    "subCategory": "",
+    "title": "莫罗基面具",
+    "prerequisite": "在迷宫中杀死莫罗基。",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "A07E1081-7BA3-47F7-B8CC-981F9B44A1E1",
+    "mainCategory": "龙祭司面具",
+    "subCategory": "",
+    "title": "纳克林面具",
+    "prerequisite": "在主线任务中杀死斯库尔达芬的纳克里因。",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "d50c16d5-cf99-48d7-9d9c-0e1710c2a5bb",
+    "mainCategory": "龙祭司面具",
+    "subCategory": "",
+    "title": "奥塔面膜",
+    "prerequisite": "杀死拉格瓦尔德的疯狂奥塔尔。",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "eb7038c2-54af-4a02-b5c9-220c9be64636",
+    "mainCategory": "龙祭司面具",
+    "subCategory": "",
+    "title": "拉赫戈特面具",
+    "prerequisite": "杀死福瑞尔霍斯特的拉赫戈特。",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "a7f63f06-28a5-4c64-8a7a-3c44895354d3",
+    "mainCategory": "龙祭司面具",
+    "subCategory": "",
+    "title": "沃昆面具",
+    "prerequisite": "在高门废墟中杀死沃昆。",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "c10d7cd5-6e3e-40e5-87ce-99b9c2dfb6d8",
+    "mainCategory": "龙祭司面具",
+    "subCategory": "",
+    "title": "沃尔松面具",
+    "prerequisite": "在沃尔斯基格杀死沃尔松格。",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "aa51ff74-8949-4d4c-a751-19715b3ee051",
+    "mainCategory": "龙祭司面具",
+    "subCategory": "",
+    "title": "木制面具",
+    "prerequisite": "前往迷宫的中央手推车。",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "a848eaed-6c56-4be7-9d2d-979156fb80f7",
+    "mainCategory": "龙祭司面具",
+    "subCategory": "",
+    "title": "科纳里克面具",
+    "prerequisite": "将其他人带到布罗姆朱纳尔保护区。",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "b431e5d8-767c-4c8e-b3c3-38f0d3ed37ac",
+    "mainCategory": "龙祭司面具",
+    "subCategory": "",
+    "title": "阿齐达尔面具",
+    "prerequisite": "杀死科尔布约恩巴罗的阿齐达尔。",
+    "dlc": "龙裔",
+    "subCategoryType": ""
+  },
+  {
+    "id": "2c0a65ea-b5c4-48f3-b6aa-7b75452b8b06",
+    "mainCategory": "龙祭司面具",
+    "subCategory": "",
+    "title": "杜坎面具",
+    "prerequisite": "杀死白岭巴罗的杜坎。",
+    "dlc": "龙裔",
+    "subCategoryType": ""
+  },
+  {
+    "id": "5d3c2689-048e-4f4a-bd16-7f4bc72f5df7",
+    "mainCategory": "龙祭司面具",
+    "subCategory": "",
+    "title": "扎克里索斯面具",
+    "prerequisite": "杀死血痕古墓中的扎克瑞索斯。",
+    "dlc": "龙裔",
+    "subCategoryType": ""
+  },
+  {
+    "id": "7d590587-df48-4e3b-a1a6-8ed1f0a0634a",
+    "mainCategory": "龙祭司面具",
+    "subCategory": "",
+    "title": "米拉克面具",
+    "prerequisite": "在龙裔任务线结束时杀死米拉克。",
+    "dlc": "龙裔",
+    "subCategoryType": ""
+  },
+  {
+    "id": "a5a77a8d-3d55-4db1-b9f3-2c065b8b98f1",
+    "mainCategory": "魔族文物",
+    "subCategory": "武器",
+    "title": "黑星",
+    "prerequisite": "完整的神器",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "7262c22c-4a8d-41fc-8d8d-8463a6f7af63",
+    "mainCategory": "魔族文物",
+    "subCategory": "武器",
+    "title": "破晓者",
+    "prerequisite": "完成黎明破晓",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "ef450f91-574a-4929-9ef3-1a2ea3e4d765",
+    "mainCategory": "魔族文物",
+    "subCategory": "武器",
+    "title": "乌木刀片",
+    "prerequisite": "完成低语之门",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "c11b4389-61e2-4a61-9c91-69ed2c1ac3a9",
+    "mainCategory": "魔族文物",
+    "subCategory": "服饰",
+    "title": "乌木邮件",
+    "prerequisite": "完成波耶西亚的召唤",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "5d849b86-9a13-4a8e-b72b-5a81a3ce4d2c",
+    "mainCategory": "魔族文物",
+    "subCategory": "武器",
+    "title": "莫拉格·巴尔之锤",
+    "prerequisite": "完成恐怖屋",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "236678d3-7a8a-4c58-bf55-dc43908ff9c8",
+    "mainCategory": "魔族文物",
+    "subCategory": "服饰",
+    "title": "克拉维库斯·维尔的假面",
+    "prerequisite": "完成魔族最好的朋友",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "ac83c8da-dab9-4c3c-b95e-aa34602854c0",
+    "mainCategory": "魔族文物",
+    "subCategory": "武器",
+    "title": "梅鲁内斯的剃刀",
+    "prerequisite": "完成过去的片段",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "3d4332fc-61fb-4955-9840-c22ccf615167",
+    "mainCategory": "魔族文物",
+    "subCategory": "文物",
+    "title": "欧格玛无限",
+    "prerequisite": "圆满辨识出世间",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "f08f7f77-5ee1-4e6a-b1f4-69598b2e5568",
+    "mainCategory": "魔族文物",
+    "subCategory": "服饰",
+    "title": "纳米拉之戒",
+    "prerequisite": "完成死亡的滋味",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "2b413f67-62e9-4a2c-afab-5d46a9bb6f98",
+    "mainCategory": "魔族文物",
+    "subCategory": "武器",
+    "title": "血红玫瑰",
+    "prerequisite": "完成一个难忘的夜晚",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "ad046a4a-f82d-4eb2-b48e-944f9a164a16",
+    "mainCategory": "魔族文物",
+    "subCategory": "服饰",
+    "title": "救世主之皮和/或海辛之戒",
+    "prerequisite": "完成《月光下的不幸》",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "0a9520b1-057c-4d62-9c43-0c11c7e9ed9f",
+    "mainCategory": "魔族文物",
+    "subCategory": "文物",
+    "title": "万能钥匙",
+    "prerequisite": "完全盲目",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "72f6468b-3699-4e7d-a751-2f13f60a6970",
+    "mainCategory": "魔族文物",
+    "subCategory": "武器",
+    "title": "腐化之颅",
+    "prerequisite": "完成醒来的噩梦",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "525692a1-685f-4d7e-9c72-9b7582cbe397",
+    "mainCategory": "魔族文物",
+    "subCategory": "服饰",
+    "title": "破法者",
+    "prerequisite": "完成唯一的治疗方法",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "25a0287a-ef49-4e4c-97eb-010729ed35b9",
+    "mainCategory": "魔族文物",
+    "subCategory": "武器",
+    "title": "福伦德隆",
+    "prerequisite": "完成被诅咒的部落",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "af0e2a23-5e19-4c12-a4f7-103cf3c079c8",
+    "mainCategory": "魔族文物",
+    "subCategory": "武器",
+    "title": "瓦巴杰克",
+    "prerequisite": "完成疯狂之心",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "c11b4389-61e2-4a61-9c91-69ed2c1ac3a8",
+    "mainCategory": "罐子里的虫子",
+    "subCategory": "",
+    "title": "罐子里的蜜蜂",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "5d849b86-9a13-4a8e-b72b-5a81a3ce4d2d",
+    "mainCategory": "罐子里的虫子",
+    "subCategory": "",
+    "title": "罐子里的极乐虫",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "236678d3-7a8a-4c58-bf55-ec43908ff9c8",
+    "mainCategory": "罐子里的虫子",
+    "subCategory": "",
+    "title": "罐子里的蝴蝶",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "f08f7f77-5ee1-4e6a-b1f4-69598b2e5567",
+    "mainCategory": "罐子里的虫子",
+    "subCategory": "",
+    "title": "罐子里的蜻蜓",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "145e2e3a-3f4f-4018-bd80-b2a97e2d3799",
+    "mainCategory": "罐子里的虫子",
+    "subCategory": "",
+    "title": "罐子里的绿色蝴蝶",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "B432A161-E51F-4C63-97F0-BA2240D1D80F",
+    "mainCategory": "罐子里的虫子",
+    "subCategory": "",
+    "title": "罐子里的飞蛾",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "232b4a45-4392-4f57-8e55-7967f4e9184d",
+    "mainCategory": "罐子里的虫子",
+    "subCategory": "",
+    "title": "罐子里的紫色蝴蝶",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "5e2296fe-1ee6-4ed2-80e7-bb0f8f7c4eb3",
+    "mainCategory": "罐子里的虫子",
+    "subCategory": "",
+    "title": "罐子里的火炬虫",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "32b3f997-7c36-4e65-bb15-7a861f852c95",
+    "mainCategory": "喊叫声",
+    "subCategory": "动物忠诚",
+    "title": "拉安",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "32b4f997-7c36-4e65-bb15-7a861f852b95",
+    "mainCategory": "喊叫声",
+    "subCategory": "动物忠诚",
+    "title": "米尔",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "32b3f997-7c36-4e65-bb15-7a861f852b95",
+    "mainCategory": "喊叫声",
+    "subCategory": "动物忠诚",
+    "title": "塔赫",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "3a92ed78-01aa-4464-b2f5-4a0840a372b4",
+    "mainCategory": "喊叫声",
+    "subCategory": "灵气低语",
+    "title": "拉斯",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "2a92ed78-01aa-4464-b2f5-4a0840a372b3",
+    "mainCategory": "喊叫声",
+    "subCategory": "灵气低语",
+    "title": "啊啊",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "3a92ed78-01aa-4464-b2f5-4a0840a372b3",
+    "mainCategory": "喊叫声",
+    "subCategory": "灵气低语",
+    "title": "尼尔",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "3e1c61b3-d50e-4f89-bcc9-13c792d0839f",
+    "mainCategory": "喊叫声",
+    "subCategory": "狂战",
+    "title": "中",
+    "prerequisite": "",
+    "dlc": "龙裔",
+    "subCategoryType": ""
+  },
+  {
+    "id": "3e1c63b3-d50e-4f89-bcc9-13c792d0839f",
+    "mainCategory": "喊叫声",
+    "subCategory": "狂战",
+    "title": "乌尔",
+    "prerequisite": "",
+    "dlc": "龙裔",
+    "subCategoryType": ""
+  },
+  {
+    "id": "321c61b3-d50e-4f89-bcc9-13c792d0839f",
+    "mainCategory": "喊叫声",
+    "subCategory": "狂战",
+    "title": "陕西",
+    "prerequisite": "",
+    "dlc": "龙裔",
+    "subCategoryType": ""
+  },
+  {
+    "id": "3e1c61b3-d50e-4f89-bcc9-13c79ed0839f",
+    "mainCategory": "喊叫声",
+    "subCategory": "变得空灵",
+    "title": "费姆",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "3e9c61b3-d50e-4f89-bcc9-13c79ed0839p",
+    "mainCategory": "喊叫声",
+    "subCategory": "变得空灵",
+    "title": "子伊",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "3e9c61b3-d50e-4f89-bcc9-13c79ed0839f",
+    "mainCategory": "喊叫声",
+    "subCategory": "变得空灵",
+    "title": "格隆",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "c0ef7980-bf6f-4f48-aaf1-66c82c3b36e1",
+    "mainCategory": "喊叫声",
+    "subCategory": "弯曲意志",
+    "title": "戈尔",
+    "prerequisite": "",
+    "dlc": "龙裔",
+    "subCategoryType": ""
+  },
+  {
+    "id": "b0ef7980-bf6f-4f48-aac1-66c82c3b36e1",
+    "mainCategory": "喊叫声",
+    "subCategory": "弯曲意志",
+    "title": "哈",
+    "prerequisite": "",
+    "dlc": "龙裔",
+    "subCategoryType": ""
+  },
+  {
+    "id": "b0ef7980-bf6f-4f48-aaf1-66c82c3b36e1",
+    "mainCategory": "喊叫声",
+    "subCategory": "弯曲意志",
+    "title": "多夫",
+    "prerequisite": "",
+    "dlc": "龙裔",
+    "subCategoryType": ""
+  },
+  {
+    "id": "3d625a8f-3b2a-4a71-a28f-cfcd0d9433f8",
+    "mainCategory": "喊叫声",
+    "subCategory": "召唤龙",
+    "title": "奥德",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "14625a8f-3b2a-4a71-a28f-cfcd0d9433f8",
+    "mainCategory": "喊叫声",
+    "subCategory": "召唤龙",
+    "title": "啊",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "1d625a8f-3b2a-4a71-a28f-cfcd0d9433f8",
+    "mainCategory": "喊叫声",
+    "subCategory": "召唤龙",
+    "title": "维英",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "c530a5d2-54cf-4d87-af5f-2b0f7f65b4f1",
+    "mainCategory": "喊叫声",
+    "subCategory": "勇气的召唤",
+    "title": "匈奴",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "c530a5d2-54cf-4d87-af5f-2b0f7f6cb4f0",
+    "mainCategory": "喊叫声",
+    "subCategory": "勇气的召唤",
+    "title": "卡尔",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "c530a5d2-54cf-4d87-af5f-2b0f7f65b4f0",
+    "mainCategory": "喊叫声",
+    "subCategory": "勇气的召唤",
+    "title": "尊",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "0a6f5d26-48f4-42e9-9c2b-d4a83d25580d",
+    "mainCategory": "喊叫声",
+    "subCategory": "晴朗的天空",
+    "title": "乐",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "8a6f5d26-48f4-42e9-9c2b-d4a83d25c80d",
+    "mainCategory": "喊叫声",
+    "subCategory": "晴朗的天空",
+    "title": "瓦赫",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "8a6f5d26-48f4-42e9-9c2b-d4a83d25580d",
+    "mainCategory": "喊叫声",
+    "subCategory": "晴朗的天空",
+    "title": "库尔",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "fbc4cd24-12cf-48c2-9663-ba4c7319bebb",
+    "mainCategory": "喊叫声",
+    "subCategory": "气旋",
+    "title": "文",
+    "prerequisite": "",
+    "dlc": "龙裔",
+    "subCategoryType": ""
+  },
+  {
+    "id": "fbc41d24-c2cf-48c2-9663-ba4c7319bebb",
+    "mainCategory": "喊叫声",
+    "subCategory": "气旋",
+    "title": "加尔",
+    "prerequisite": "",
+    "dlc": "龙裔",
+    "subCategoryType": ""
+  },
+  {
+    "id": "fbc41d24-12cf-48c2-9663-ba4c7319bebb",
+    "mainCategory": "喊叫声",
+    "subCategory": "气旋",
+    "title": "编号",
+    "prerequisite": "",
+    "dlc": "龙裔",
+    "subCategoryType": ""
+  },
+  {
+    "id": "95b19d5f-0f91-421f-8a64-642b8ed69c13",
+    "mainCategory": "喊叫声",
+    "subCategory": "解除武装",
+    "title": "尊",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "95b19d5f-0f91-421f-8a6c-642b8ed69c13",
+    "mainCategory": "喊叫声",
+    "subCategory": "解除武装",
+    "title": "哈尔",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "95b19d5f-0f91-421f-8a64-642b8ec69c13",
+    "mainCategory": "喊叫声",
+    "subCategory": "解除武装",
+    "title": "维英",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "c8365083-e8bf-42ea-bf3b-cb9adba3e07a",
+    "mainCategory": "喊叫声",
+    "subCategory": "沮丧",
+    "title": "法斯",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "e8365083-e8bf-42ea-bf3b-cb9adba3e07a",
+    "mainCategory": "喊叫声",
+    "subCategory": "沮丧",
+    "title": "茹",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "e8365083-e8bf-42ca-bf3b-cb9adba3e07a",
+    "mainCategory": "喊叫声",
+    "subCategory": "沮丧",
+    "title": "玛尔",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "36f035c7-8605-4b5c-8d7e-871f9a4c27e7",
+    "mainCategory": "喊叫声",
+    "subCategory": "龙之守护",
+    "title": "穆尔",
+    "prerequisite": "",
+    "dlc": "龙裔",
+    "subCategoryType": ""
+  },
+  {
+    "id": "36f035a7-860c-4b5c-8d7e-871f9a4c27e7",
+    "mainCategory": "喊叫声",
+    "subCategory": "龙之守护",
+    "title": "卡赫",
+    "prerequisite": "",
+    "dlc": "龙裔",
+    "subCategoryType": ""
+  },
+  {
+    "id": "36f035a7-8605-4b5c-8d7e-871f9a4cc7e7",
+    "mainCategory": "喊叫声",
+    "subCategory": "龙之守护",
+    "title": "迪夫",
+    "prerequisite": "",
+    "dlc": "龙裔",
+    "subCategoryType": ""
+  },
+  {
+    "id": "1dd9f7aa-44a3-4e49-aec7-9797d16b86dc",
+    "mainCategory": "喊叫声",
+    "subCategory": "龙裂",
+    "title": "乔尔",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "1dd9f7aa-44a3-4e49-aec7-9797d16b86fd",
+    "mainCategory": "喊叫声",
+    "subCategory": "龙裂",
+    "title": "扎赫",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "1dd9f7aa-44a3-4e49-aec7-d797d16b86fc",
+    "mainCategory": "喊叫声",
+    "subCategory": "龙裂",
+    "title": "弗鲁尔",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "95b19d5f-0f91-421f-8a64-642b8ed69c13",
+    "mainCategory": "黎明守卫",
+    "subCategory": "喊叫声",
+    "title": "加安",
+    "prerequisite": "",
+    "dlc": "黎明守卫",
+    "subCategoryType": "消耗活力"
+  },
+  {
+    "id": "95b19d5f-0f91-421f-8a64-642b8ed69c13",
+    "mainCategory": "黎明守卫",
+    "subCategory": "喊叫声",
+    "title": "拉赫",
+    "prerequisite": "",
+    "dlc": "黎明守卫",
+    "subCategoryType": "消耗活力"
+  },
+  {
+    "id": "95b19d5f-0f91-421f-8a64-642b8ed69c13",
+    "mainCategory": "黎明守卫",
+    "subCategory": "喊叫声",
+    "title": "陕西",
+    "prerequisite": "",
+    "dlc": "黎明守卫",
+    "subCategoryType": "消耗活力"
+  },
+  {
+    "id": "2d7c197b-8765-4ef0-8f4e-04bc67ac08e5",
+    "mainCategory": "喊叫声",
+    "subCategory": "元素之怒",
+    "title": "苏",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "2d7c197b-8765-4ef0-8f4e-04bc67a808c5",
+    "mainCategory": "喊叫声",
+    "subCategory": "元素之怒",
+    "title": "格拉赫",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "2d7c197b-8765-4ef0-8f4e-04bc67a808e5",
+    "mainCategory": "喊叫声",
+    "subCategory": "元素之怒",
+    "title": "逼债",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "5e3d6543-7b7d-4b43-aebd-01510455059f",
+    "mainCategory": "喊叫声",
+    "subCategory": "火息",
+    "title": "约尔",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "5e0d6543-747d-4b43-aebd-01510455059f",
+    "mainCategory": "喊叫声",
+    "subCategory": "火息",
+    "title": "图尔",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "5e0d6543-7b7d-4b43-aebd-01510455059f",
+    "mainCategory": "喊叫声",
+    "subCategory": "火息",
+    "title": "舒尔",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "1a2e43a1-9504-4cb5-a155-53eb1b3bdfd1",
+    "mainCategory": "喊叫声",
+    "subCategory": "冰霜呼吸",
+    "title": "佛",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "1a2e43a1-9504-4cb5-a155-53eb1b3bdf41",
+    "mainCategory": "喊叫声",
+    "subCategory": "冰霜呼吸",
+    "title": "克拉",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "1a2e43a1-9504-4cb5-a155-53eb1b3bdfc1",
+    "mainCategory": "喊叫声",
+    "subCategory": "冰霜呼吸",
+    "title": "迪因",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "aad1d1f7-3a8a-47a2-bd9c-d9b1bf982e80",
+    "mainCategory": "喊叫声",
+    "subCategory": "冰形态",
+    "title": "伊兹",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "aad1d1f7-3a8a-47a2-bd9c-d9b1bf982e87",
+    "mainCategory": "喊叫声",
+    "subCategory": "冰形态",
+    "title": "斯伦",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "aad1d1f7-3a8a-47a2-bd9c-d9b1bf982e97",
+    "mainCategory": "喊叫声",
+    "subCategory": "冰形态",
+    "title": "努斯",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "8e3c18c0-0f66-43f8-9d53-ced9f14ef19c",
+    "mainCategory": "喊叫声",
+    "subCategory": "凯恩的和平",
+    "title": "卡恩",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "8e3e18c0-0f66-4cf8-9d53-ced9f14ef19c",
+    "mainCategory": "喊叫声",
+    "subCategory": "凯恩的和平",
+    "title": "德雷姆",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "8e3e1cc0-0f66-43f8-9d53-ced9f14ef19c",
+    "mainCategory": "喊叫声",
+    "subCategory": "凯恩的和平",
+    "title": "奥夫",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "c2c1a7de-c2ef-4a77-b570-bfb2b835eeed",
+    "mainCategory": "喊叫声",
+    "subCategory": "标记为死亡",
+    "title": "克里伊",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "c2c1a74e-c2ef-4a77-b570-bfb2b835eeed",
+    "mainCategory": "喊叫声",
+    "subCategory": "标记为死亡",
+    "title": "伦",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "c2c1a7de-c2ef-4a77-b570-bfb2b835eg ded",
+    "mainCategory": "喊叫声",
+    "subCategory": "标记为死亡",
+    "title": "澳大利亚",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "61f32c3a-1445-4cf2-bab7-622a82e3ad41",
+    "mainCategory": "喊叫声",
+    "subCategory": "慢时光",
+    "title": "蒂德",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "61f2cc3a-1445-4cf2-bab7-622a82e3ad41",
+    "mainCategory": "喊叫声",
+    "subCategory": "慢时光",
+    "title": "克洛",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "61f3cc3a-1445-4cf2-bab7-622a82e3ad41",
+    "mainCategory": "喊叫声",
+    "subCategory": "慢时光",
+    "title": "乌尔",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "db5d63b0-2d23-47eb-bc01-618f85f1e2f1",
+    "mainCategory": "黎明守卫",
+    "subCategory": "喊叫声",
+    "title": "里伊",
+    "prerequisite": "",
+    "dlc": "黎明守卫",
+    "subCategoryType": "灵魂撕裂"
+  },
+  {
+    "id": "1b5d63b0-2d23-47eb-bc01-618f85f1e2f4",
+    "mainCategory": "黎明守卫",
+    "subCategory": "喊叫声",
+    "title": "瓦兹",
+    "prerequisite": "",
+    "dlc": "黎明守卫",
+    "subCategoryType": "灵魂撕裂"
+  },
+  {
+    "id": "db5d63b0-2d23-47eb-bc01-618f85f1e2f4",
+    "mainCategory": "黎明守卫",
+    "subCategory": "喊叫声",
+    "title": "佐尔",
+    "prerequisite": "",
+    "dlc": "黎明守卫",
+    "subCategoryType": "灵魂撕裂"
+  },
+  {
+    "id": "93f3a8f5-05c2-4c49-a06e-3739a2b23421",
+    "mainCategory": "喊叫声",
+    "subCategory": "风暴召唤",
+    "title": "斯特伦",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "93f3a8f5-05c4-4c49-a06e-3739a2b23421",
+    "mainCategory": "喊叫声",
+    "subCategory": "风暴召唤",
+    "title": "呸",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "93f3a8f5-05c1-4c49-a06e-3739a2b23421",
+    "mainCategory": "喊叫声",
+    "subCategory": "风暴召唤",
+    "title": "Qo",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "95b19d5f-0f91-421f-8a64-642b8ed69c13",
+    "mainCategory": "黎明守卫",
+    "subCategory": "喊叫声",
+    "title": "杜尔",
+    "prerequisite": "",
+    "dlc": "黎明守卫",
+    "subCategoryType": "召唤杜奈维尔"
+  },
+  {
+    "id": "95b19d5f-0f91-421f-8a64-642b8ed69c13",
+    "mainCategory": "黎明守卫",
+    "subCategory": "喊叫声",
+    "title": "内赫",
+    "prerequisite": "",
+    "dlc": "黎明守卫",
+    "subCategoryType": "召唤杜奈维尔"
+  },
+  {
+    "id": "95b19d5f-0f91-421f-8a64-642b8ed69c13",
+    "mainCategory": "黎明守卫",
+    "subCategory": "喊叫声",
+    "title": "维尔",
+    "prerequisite": "",
+    "dlc": "黎明守卫",
+    "subCategoryType": "召唤杜奈维尔"
+  },
+  {
+    "id": "c46e1c0b-71b7-4ef4-b61a-d7b228c38b07",
+    "mainCategory": "喊叫声",
+    "subCategory": "投掷语音",
+    "title": "祖尔",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "c25e1c0b-71b7-4ef4-b61a-d7b228c38b07",
+    "mainCategory": "喊叫声",
+    "subCategory": "投掷语音",
+    "title": "梅伊",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "c26e1c0b-71b7-4ef4-b61a-d7b228c38b07",
+    "mainCategory": "喊叫声",
+    "subCategory": "投掷语音",
+    "title": "肠道",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "58b46e1b-7b95-4c2b-b6d3-26a4539441cc",
+    "mainCategory": "喊叫声",
+    "subCategory": "不屈不挠的力量",
+    "title": "福斯",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "58b46e1b-7b95-4c2b-b6d3-26a4539441c5",
+    "mainCategory": "喊叫声",
+    "subCategory": "不屈不挠的力量",
+    "title": "罗",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "38b46e1b-7b95-4c2b-b6d3-26a4539441c5",
+    "mainCategory": "喊叫声",
+    "subCategory": "不屈不挠的力量",
+    "title": "达赫",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "f7e4e344-5e39-4a3d-a2b7-1d0c79f4d777",
+    "mainCategory": "喊叫声",
+    "subCategory": "旋风冲刺",
+    "title": "乌尔德",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "g7e4e344-5e39-4a3d-a2b7-1d0c79f4d779",
+    "mainCategory": "喊叫声",
+    "subCategory": "旋风冲刺",
+    "title": "不",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "f7e4e344-5e39-4a3d-a2b7-1d0c79f4d779",
+    "mainCategory": "喊叫声",
+    "subCategory": "旋风冲刺",
+    "title": "凯斯特",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "4c0b3b36-1590-4fc3-95ea-dcbf74330137",
+    "mainCategory": "独特的装甲套装",
+    "subCategory": "",
+    "title": "远古铠甲",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "0d1fe547-5237-4a8d-ba63-1f01c1479d32",
+    "mainCategory": "独特的装甲套装",
+    "subCategory": "",
+    "title": "上古之神的铠甲",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "68f9a639-58f4-4e5a-93a0-16cd41947cc7",
+    "mainCategory": "黎明守卫",
+    "subCategory": "独特的装甲套装",
+    "title": "远古法默盔甲",
+    "prerequisite": "",
+    "dlc": "黎明守卫",
+    "subCategoryType": ""
+  },
+  {
+    "id": "9711a94a-3d7b-4427-84b3-3e5d7fc59a0b",
+    "mainCategory": "龙裔",
+    "subCategory": "独特的装甲套装",
+    "title": "阿兹达尔的铠甲",
+    "prerequisite": "",
+    "dlc": "龙裔",
+    "subCategoryType": ""
+  },
+  {
+    "id": "fca7443d-86a5-4852-9db3-27a37e52a981",
+    "mainCategory": "独特的装甲套装",
+    "subCategory": "",
+    "title": "黑衣守卫的铠甲",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "4cfe570e-75a7-47bf-8d44-cbcf6c204c06",
+    "mainCategory": "龙裔",
+    "subCategory": "独特的装甲套装",
+    "title": "死亡烙印护甲",
+    "prerequisite": "",
+    "dlc": "龙裔",
+    "subCategoryType": ""
+  },
+  {
+    "id": "a642943a-eb29-4e5f-b6c7-474d1e9f72c3",
+    "mainCategory": "独特的装甲套装",
+    "subCategory": "",
+    "title": "公会大师的盔甲套装",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "c441327a-48f9-4bd0-ae5f-2c4a5ff7a907",
+    "mainCategory": "独特的装甲套装",
+    "subCategory": "",
+    "title": "林威的盔甲套装",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "a78e3d48-3c42-4a08-9be6-3e0c22de0732",
+    "mainCategory": "独特的装甲套装",
+    "subCategory": "",
+    "title": "夜莺铠甲",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "CB37600A-346A-4090-AE6D-4E3711502B3A",
+    "mainCategory": "独特的装甲套装",
+    "subCategory": "",
+    "title": "盗贼公会盔甲",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "6a352a2b-02d9-4c35-83c5-1a8f9603bf1a",
+    "mainCategory": "独特的装甲套装",
+    "subCategory": "",
+    "title": "破旧的铠甲",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "68f9a639-58f4-4e5a-93a0-16cd41947cc7",
+    "mainCategory": "龙裔",
+    "subCategory": "独特的装甲套装",
+    "title": "米拉克的长袍",
+    "prerequisite": "",
+    "dlc": "龙裔",
+    "subCategoryType": ""
+  },
+  {
+    "id": "68f9a639-58f4-4e5a-93a0-16cd41947cc7",
+    "mainCategory": "龙裔",
+    "subCategory": "独特的装甲套装",
+    "title": "姆祖德的面貌",
+    "prerequisite": "",
+    "dlc": "龙裔",
+    "subCategoryType": ""
+  },
+  {
+    "id": "8d19cfdb-8c29-4e8a-8621-7e405ca1e1f7",
+    "mainCategory": "独特的武器",
+    "subCategory": "匕首",
+    "title": "亚历山德拉的匕首",
+    "prerequisite": "黑暗兄弟会任务线",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "f71e209d-3e48-4a7c-b168-7e1c0b8be0bf",
+    "mainCategory": "独特的武器",
+    "subCategory": "匕首",
+    "title": "祸患之刃",
+    "prerequisite": "黑暗兄弟会任务线",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "ae0794d5-1353-4d27-8c62-ced6c0377c93",
+    "mainCategory": "独特的武器",
+    "subCategory": "匕首",
+    "title": "牺牲之刃",
+    "prerequisite": "迪德里克任务： ",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "b43976a9-1a98-4fc2-9e67-d88c88d0bb35",
+    "mainCategory": "独特的武器",
+    "subCategory": "匕首",
+    "title": "血棘",
+    "prerequisite": "支线任务：波耶西亚的召唤",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "5c1618b0-5bc4-4c7f-90e7-7f9a6f13cfa5",
+    "mainCategory": "独特的武器",
+    "subCategory": "匕首",
+    "title": "博维尔的匕首",
+    "prerequisite": "同伴任务：光辉任务",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "7613ec84-587d-4ce8-b6b5-c59f891c9b0a",
+    "mainCategory": "龙裔",
+    "subCategory": "独特的武器",
+    "title": "卡沃辛之牙",
+    "prerequisite": "Dragonborn DLC 任务：安斯卡的卷轴",
+    "dlc": "龙裔",
+    "subCategoryType": "匕首"
+  },
+  {
+    "id": "3d80f7c7-8f48-419c-b748-1065c6ef4c38",
+    "mainCategory": "独特的武器",
+    "subCategory": "匕首",
+    "title": "基宁",
+    "prerequisite": "主线任务：阿尼尔的努力",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "0e162f02-ebdb-4d3e-b4c4-c8f49357e16d",
+    "mainCategory": "独特的武器",
+    "subCategory": "匕首",
+    "title": "梅鲁内斯的剃刀",
+    "prerequisite": "魔族任务：过去的碎片",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "b6b2e53e-190d-4e42-b14e-4b3e3ac09b3d",
+    "mainCategory": "独特的武器",
+    "subCategory": "匕首",
+    "title": "荨麻",
+    "prerequisite": "主线任务：自然的祝福",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "d4a712bd-2cfc-45fc-8a66-06e2bc4305e7",
+    "mainCategory": "独特的武器",
+    "subCategory": "匕首",
+    "title": "伦迪的匕首",
+    "prerequisite": "同伴任务：光辉任务",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "2b4b6d9a-789b-4eeb-927a-b1ccfe9883e7",
+    "mainCategory": "独特的武器",
+    "subCategory": "匕首",
+    "title": "瓦尔德的幸运匕首",
+    "prerequisite": "支线任务：猎人与猎物",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "0f3c8ee5-f512-4df1-a5b2-6d81e0ef173e",
+    "mainCategory": "龙裔",
+    "subCategory": "独特的武器",
+    "title": "霍克斯班",
+    "prerequisite": "同伴任务：光辉任务",
+    "dlc": "龙裔",
+    "subCategoryType": "狼牙棒"
+  },
+  {
+    "id": "7a4f8a9d-0c85-44fe-9e9a-905078650ed8",
+    "mainCategory": "独特的武器",
+    "subCategory": "狼牙棒",
+    "title": "月铁锤",
+    "prerequisite": "在月球武器制造期间可制作",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "c0a7c546-eeb6-4d65-94e4-6a64ed4bf42b",
+    "mainCategory": "独特的武器",
+    "subCategory": "狼牙棒",
+    "title": "月钢狼牙棒",
+    "prerequisite": "在月球武器制造期间可制作",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "e7ad586a-336d-4379-9fb8-17e2b8e7d7b1",
+    "mainCategory": "独特的武器",
+    "subCategory": "狼牙棒",
+    "title": "莫拉格·巴尔之锤",
+    "prerequisite": "迪德里克任务：恐怖之屋",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "99f24df0-31d3-4299-83f3-fb7cb4f2b128",
+    "mainCategory": "独特的武器",
+    "subCategory": "狼牙棒",
+    "title": "主教的权杖",
+    "prerequisite": "盗贼公会任务：盗窃案",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "8d647647-0a2d-4c2c-9630-4057397c4dab",
+    "mainCategory": "黎明守卫",
+    "subCategory": "独特的武器",
+    "title": "阿卡维里剑",
+    "prerequisite": "在刀锋任务线中获得",
+    "dlc": "黎明守卫",
+    "subCategoryType": "剑"
+  },
+  {
+    "id": "6b0f0d60-0e0f-4c8b-a79d-20e0be4f38cd",
+    "mainCategory": "独特的武器",
+    "subCategory": "剑",
+    "title": "阿姆伦的家族剑",
+    "prerequisite": "任务：“阿姆伦之剑”",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "8fbf0ccf-7847-43a5-8e25-8d739ab18c67",
+    "mainCategory": "龙裔",
+    "subCategory": "独特的武器",
+    "title": "血镰",
+    "prerequisite": "龙裔 DLC 任务：死亡烙印",
+    "dlc": "龙裔",
+    "subCategoryType": "剑"
+  },
+  {
+    "id": "dea44f86-0bf7-4f9b-8ec0-d56866ee52f3",
+    "mainCategory": "独特的武器",
+    "subCategory": "剑",
+    "title": "波拉尔的誓言之刃",
+    "prerequisite": "马鲁瑞尔在任务中给予：“波拉尔的誓言之刃”",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "d6f937bf-b8e8-4082-b188-23efbd18d8de",
+    "mainCategory": "独特的武器",
+    "subCategory": "剑",
+    "title": "礼仪剑",
+    "prerequisite": "黑暗兄弟会任务线",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "46d11b2a-20a7-4e6e-94e2-ebbe5571e1a1",
+    "mainCategory": "独特的武器",
+    "subCategory": "剑",
+    "title": "奇尔伦德",
+    "prerequisite": "盗贼公会任务线",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "97d3c7a4-677d-4fb3-a6ee-9ff91d51d7ab",
+    "mainCategory": "独特的武器",
+    "subCategory": "剑",
+    "title": "破晓者",
+    "prerequisite": "魔族任务：破晓之时",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "f0a14b4f-2bb5-40e7-88d4-b5b8b345b4bf",
+    "mainCategory": "独特的武器",
+    "subCategory": "剑",
+    "title": "龙祸",
+    "prerequisite": "主线任务：奥杜因之祸",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "c26c4d2f-4313-4b91-91b9-c6c9a671073b",
+    "mainCategory": "独特的武器",
+    "subCategory": "剑",
+    "title": "汲心剑",
+    "prerequisite": "迷宫中的光辉任务",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "f16b3b07-ec7e-4d6b-8ea8-91e8db03cc6f",
+    "mainCategory": "独特的武器",
+    "subCategory": "剑",
+    "title": "教育",
+    "prerequisite": "同伴任务线",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "0c74b19b-d7e1-4e0c-83dd-7be1b27b42f9",
+    "mainCategory": "独特的武器",
+    "subCategory": "剑",
+    "title": "高杜·黑刃",
+    "prerequisite": "地下城任务：禁忌传说",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "ef18f7a1-e1e5-49d5-9e3f-9c7ec8d86da0",
+    "mainCategory": "独特的武器",
+    "subCategory": "剑",
+    "title": "鬼刃",
+    "prerequisite": "地下城任务：安西尔冯德",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "8a240740-3c6f-45ee-9f7d-96f489579aa3",
+    "mainCategory": "独特的武器",
+    "subCategory": "剑",
+    "title": "格里姆塞韦尔",
+    "prerequisite": "盗贼公会任务：困难的答案",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "162b242b-03de-4ba7-99e9-efcf61bdcf45",
+    "mainCategory": "黎明守卫",
+    "subCategory": "独特的武器",
+    "title": "哈肯之剑",
+    "prerequisite": "黎明守卫任务：亲属审判",
+    "dlc": "黎明守卫",
+    "subCategoryType": "剑"
+  },
+  {
+    "id": "72556c7c-bd76-4b61-a6f1-8272922e8ee9",
+    "mainCategory": "独特的武器",
+    "subCategory": "剑",
+    "title": "赫雷班的勇气",
+    "prerequisite": "地下城任务：兰维格的禁食",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "e1aa11da-60f3-4eaf-9390-aa1e5bb620ea",
+    "mainCategory": "独特的武器",
+    "subCategory": "剑",
+    "title": "月铁剑",
+    "prerequisite": "在月球武器制造期间可制作",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "13b5ba8e-3e1a-4d96-8822-2a95e2047777",
+    "mainCategory": "独特的武器",
+    "subCategory": "剑",
+    "title": "月钢剑",
+    "prerequisite": "在月球武器制造期间可制作",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "5a04d9e1-5739-4d7f-86ed-721bb5ec3979",
+    "mainCategory": "龙裔",
+    "subCategory": "独特的武器",
+    "title": "米拉克的法杖",
+    "prerequisite": "Dragonborn DLC 任务：Apocrypha 巅峰",
+    "dlc": "龙裔",
+    "subCategoryType": "员工"
+  },
+  {
+    "id": "5a04d9e1-5739-4d7f-86ed-721bb5ec3979",
+    "mainCategory": "龙裔",
+    "subCategory": "独特的武器",
+    "title": "米拉克之剑",
+    "prerequisite": "Dragonborn DLC 任务：Apocrypha 巅峰",
+    "dlc": "龙裔",
+    "subCategoryType": "剑"
+  },
+  {
+    "id": "3f8f527e-29b0-4d37-a0c6-3fe4bba7e9d3",
+    "mainCategory": "独特的武器",
+    "subCategory": "剑",
+    "title": "夜莺之刃",
+    "prerequisite": "盗贼公会任务线",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "9bca46b4-043b-4e92-845f-ae0bf898b235",
+    "mainCategory": "独特的武器",
+    "subCategory": "剑",
+    "title": "弗雷迪斯女王的剑",
+    "prerequisite": "同伴：光辉任务",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "480fa3f9-df48-4eb4-b6c8-d0f4a62b5ef3",
+    "mainCategory": "独特的武器",
+    "subCategory": "剑",
+    "title": "红鹰之祸",
+    "prerequisite": "地下城任务：叛军的石冢",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "c773e512-6873-46b8-bd3c-00c01270a075",
+    "mainCategory": "独特的武器",
+    "subCategory": "剑",
+    "title": "红鹰之怒",
+    "prerequisite": "地下城任务：叛军的石冢",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "61ea1e6a-df25-4462-925d-d6c74481b4b2",
+    "mainCategory": "龙裔",
+    "subCategory": "独特的武器",
+    "title": "灵魂渲染",
+    "prerequisite": "龙裔 DLC 任务：死亡烙印",
+    "dlc": "龙裔",
+    "subCategoryType": "剑"
+  },
+  {
+    "id": "9984d783-90ae-4e24-b8f1-5c03256c7b3d",
+    "mainCategory": "独特的武器",
+    "subCategory": "剑",
+    "title": "苍白之刃",
+    "prerequisite": "地下城任务：苍白女士",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "080eefc5-12a5-420c-bd7c-034345e8e90a",
+    "mainCategory": "独特的武器",
+    "subCategory": "剑",
+    "title": "维尔卡斯的剑",
+    "prerequisite": "同伴：光辉任务",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "4e82c74e-3e01-430e-9c68-0048f5c5c7b0",
+    "mainCategory": "独特的武器",
+    "subCategory": "剑",
+    "title": "风切变",
+    "prerequisite": "黑暗兄弟会任务：西蒂斯万岁！",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "9faeb328-524f-4ecf-b1dd-768510fb72f5",
+    "mainCategory": "独特的武器",
+    "subCategory": "战斧",
+    "title": "礼仪斧",
+    "prerequisite": "黑暗兄弟会任务线",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "9e02bb11-6c08-47d6-8d06-9fcbe2fb12c4",
+    "mainCategory": "黎明守卫",
+    "subCategory": "独特的武器",
+    "title": "黎明守卫符文斧",
+    "prerequisite": "黎明守卫任务：古代技术",
+    "dlc": "黎明守卫",
+    "subCategoryType": "战斧"
+  },
+  {
+    "id": "5c05d59f-105e-4e77-a4cf-59bcece40dfb",
+    "mainCategory": "独特的武器",
+    "subCategory": "战斧",
+    "title": "戈尔巴什的祖传斧头",
+    "prerequisite": "同伴：光辉任务",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "0f29dbee-c3f0-4c89-b28c-d2d8966a8e58",
+    "mainCategory": "独特的武器",
+    "subCategory": "战斧",
+    "title": "霜",
+    "prerequisite": "黎明守卫任务：古代技术",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "2c44e3b1-03c8-4a82-88bb-11d7f4c3d2b8",
+    "mainCategory": "独特的武器",
+    "subCategory": "战斧",
+    "title": "月铁战斧",
+    "prerequisite": "在月球武器制造期间可制作",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "8d9dfc5c-9224-4c9f-8d62-f5d2ac5d8681",
+    "mainCategory": "独特的武器",
+    "subCategory": "战斧",
+    "title": "月钢战斧",
+    "prerequisite": "在月球武器制造期间可制作",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "b5a1c870-8aa0-484c-9b19-3a2fcf7a83bb",
+    "mainCategory": "独特的武器",
+    "subCategory": "战斧",
+    "title": "缺口镐",
+    "prerequisite": "在世界的咽喉处发现",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "081d60d9-7394-490a-b99b-1b6e6f39bb9b",
+    "mainCategory": "独特的武器",
+    "subCategory": "战斧",
+    "title": "奥金",
+    "prerequisite": "同伴任务线",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "f1aa1a9f-7f03-4b59-9fe4-1c5ad9074a1f",
+    "mainCategory": "独特的武器",
+    "subCategory": "战斧",
+    "title": "偷猎者的斧头",
+    "prerequisite": "在任务中给予：“偷猎者的斧头”",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "d15e2db0-eb22-4e0f-93c9-4f1f18efc3e7",
+    "mainCategory": "独特的武器",
+    "subCategory": "战斧",
+    "title": "乌弗瑞克的战斧",
+    "prerequisite": "在内战任务线中由乌弗瑞克风暴斗篷给予",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "a2459613-d2f2-4a90-8b0e-89913e4b3ae3",
+    "mainCategory": "独特的武器",
+    "subCategory": "战斧",
+    "title": "吸血战斧",
+    "prerequisite": "迷宫任务：马格努斯之杖",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "3e9e271f-6204-4ac5-ba5c-8e898944d8f8",
+    "mainCategory": "独特的武器",
+    "subCategory": "战斧",
+    "title": "刽子手的斧头",
+    "prerequisite": "孤独任务：狼来了",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "6a58c1c3-f108-4fe5-b1a2-0383f2d1a2da",
+    "mainCategory": "独特的武器",
+    "subCategory": "战斧",
+    "title": "火魂钢战斧",
+    "prerequisite": "发现于铁缚古墓",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "5f5404ec-7b71-4a19-94ce-fa4ec2012320",
+    "mainCategory": "独特的武器",
+    "subCategory": "战斧",
+    "title": "悔恨之斧",
+    "prerequisite": "迪德拉任务：迪德拉最好的朋友",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "c3e8fe4c-3b10-4eab-9c98-7b6920e91d2a",
+    "mainCategory": "独特的武器",
+    "subCategory": "战斧",
+    "title": "樵夫的朋友",
+    "prerequisite": "同伴：光辉任务",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "5c8f0d98-774b-4a9e-b759-607536a12cfb",
+    "mainCategory": "龙裔",
+    "subCategory": "独特的武器",
+    "title": "祖的战斧",
+    "prerequisite": "龙裔 DLC 任务：召唤卡斯塔格",
+    "dlc": "龙裔",
+    "subCategoryType": "战斧"
+  },
+  {
+    "id": "2434f367-4da9-45f7-b625-4a75f9f1b9b0",
+    "mainCategory": "独特的武器",
+    "subCategory": "战斧",
+    "title": "武特拉德",
+    "prerequisite": "同伴任务线",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "3c4a6c25-2eae-4f43-bb02-60f9c891011a",
+    "mainCategory": "独特的武器",
+    "subCategory": "巨剑",
+    "title": "乌木刀片",
+    "prerequisite": "魔族任务：低语之门",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "b7b9eae1-66fc-4ec0-91c1-d365b2f4a6b9",
+    "mainCategory": "独特的武器",
+    "subCategory": "巨剑",
+    "title": "巴尔古夫的巨剑",
+    "prerequisite": "同伴：光辉任务",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "9eac8d80-71ab-4e6e-a789-4fde9db487c7",
+    "mainCategory": "龙裔",
+    "subCategory": "独特的武器",
+    "title": "血鳞之刃",
+    "prerequisite": "龙裔 DLC 任务：最后的降临",
+    "dlc": "龙裔",
+    "subCategoryType": "巨剑"
+  },
+  {
+    "id": "a87dbd74-0ac9-45c7-849a-66fb94b58792",
+    "mainCategory": "独特的武器",
+    "subCategory": "巨剑",
+    "title": "磨砺的古代诺德灼热巨剑",
+    "prerequisite": "随机战利品或商人",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "c4b6b4a4-8e84-4681-b53b-af09f620c0d4",
+    "mainCategory": "龙裔",
+    "subCategory": "独特的武器",
+    "title": "风暴之牙",
+    "prerequisite": "龙裔 DLC 任务：最后的降临",
+    "dlc": "龙裔",
+    "subCategoryType": "巨剑"
+  },
+  {
+    "id": "72f57e98-6a10-40c8-b9a7-23487b7a52c6",
+    "mainCategory": "独特的武器",
+    "subCategory": "战锤",
+    "title": "埃吉斯班",
+    "prerequisite": "马卡斯任务：找到锻造大师的手指",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "2b11d82d-9e3a-4e0b-9f7f-f040056fb86b",
+    "mainCategory": "龙裔",
+    "subCategory": "独特的武器",
+    "title": "冠军棒",
+    "prerequisite": "龙裔 DLC 任务：死亡烙印",
+    "dlc": "龙裔",
+    "subCategoryType": "战锤"
+  },
+  {
+    "id": "ad82f0a3-7e43-4219-9a2a-4bf4574e46da",
+    "mainCategory": "黎明守卫",
+    "subCategory": "独特的武器",
+    "title": "黎明守卫符文锤",
+    "prerequisite": "黎明守卫任务：失落的圣物",
+    "dlc": "黎明守卫",
+    "subCategoryType": "战锤"
+  },
+  {
+    "id": "172b1562-f0db-4f22-91ef-2a0d982c7a88",
+    "mainCategory": "独特的武器",
+    "subCategory": "战锤",
+    "title": "沙格罗尔的战锤",
+    "prerequisite": "迪德里克任务：被诅咒的部落",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "9e8e1162-141e-4ad5-9c79-7d7f0c539084",
+    "mainCategory": "独特的武器",
+    "subCategory": "战锤",
+    "title": "长锤",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "2c3d9fbf-e31a-4b2d-b6b3-13e27e5eb197",
+    "mainCategory": "独特的武器",
+    "subCategory": "战锤",
+    "title": "巨魔祸根",
+    "prerequisite": "随机战利品或商人",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "9f9f1bbd-7124-4954-b914-83d133b78b8b",
+    "mainCategory": "独特的武器",
+    "subCategory": "战锤",
+    "title": "福伦德隆",
+    "prerequisite": "迪德里克任务：被诅咒的部落",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "b31efb6f-1fcd-4db7-8900-d22a19ac7ea0",
+    "mainCategory": "独特的武器",
+    "subCategory": "弓",
+    "title": "安吉之弓",
+    "prerequisite": "与安吉一起训练任务：安吉的营地",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "57927107-2e4f-45e1-a9a0-18db34bf6391",
+    "mainCategory": "黎明守卫",
+    "subCategory": "独特的武器",
+    "title": "奥莉尔之弓",
+    "prerequisite": "黎明守卫任务：触摸天空",
+    "dlc": "黎明守卫",
+    "subCategoryType": "弓"
+  },
+  {
+    "id": "1c0e1b8c-fc2b-4a2f-94fc-cf8f9f3d7e4f",
+    "mainCategory": "独特的武器",
+    "subCategory": "弓",
+    "title": "狩猎之弓",
+    "prerequisite": "同伴：光辉任务",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "2f576e0c-2f91-4c23-96a0-d3f5ea20a84f",
+    "mainCategory": "独特的武器",
+    "subCategory": "弓",
+    "title": "汲术弓",
+    "prerequisite": "迷宫任务：马格努斯之杖",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "40d53e9a-745a-4c34-b6d7-dfe4b8b145a5",
+    "mainCategory": "独特的武器",
+    "subCategory": "弓",
+    "title": "德莱文之弓",
+    "prerequisite": "在任务中发现：向大师鞠躬",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "a06a19ac-8f1f-4a20-ae9f-d2b0c171f5f3",
+    "mainCategory": "龙裔",
+    "subCategory": "独特的武器",
+    "title": "矮人命运黑弓",
+    "prerequisite": "Dragonborn DLC 任务：失落于岁月",
+    "dlc": "龙裔",
+    "subCategoryType": "弓"
+  },
+  {
+    "id": "f3b82d4c-925a-4d3e-bfd3-83b12761fe5d",
+    "mainCategory": "独特的武器",
+    "subCategory": "弓",
+    "title": "菲里尼尔的终结",
+    "prerequisite": "盗贼公会：光辉任务",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "5ea6b1a2-0645-4bfc-9ac3-98aa97a15bfc",
+    "mainCategory": "独特的武器",
+    "subCategory": "弓",
+    "title": "弗洛基之弓",
+    "prerequisite": "任务：凯恩的神圣试炼",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "ca10f3e9-d515-44c2-8b2f-97f0f1573327",
+    "mainCategory": "独特的武器",
+    "subCategory": "弓",
+    "title": "高杜黑弓",
+    "prerequisite": "地下城任务：禁忌传说",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "8a9f97c2-1b79-4c27-b38a-bfe7c5206a08",
+    "mainCategory": "独特的武器",
+    "subCategory": "弓",
+    "title": "鹿王子的玻璃弓",
+    "prerequisite": "同伴：光辉任务",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "4b1e9d12-9e14-4eae-8b38-2b0ce9db5c4d",
+    "mainCategory": "独特的武器",
+    "subCategory": "弓",
+    "title": "卡利亚之弓",
+    "prerequisite": "盗贼公会任务：盲视",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "5c67b448-8f1a-415d-9c16-9c8c5ab5e8e8",
+    "mainCategory": "独特的武器",
+    "subCategory": "弓",
+    "title": "夜莺弓",
+    "prerequisite": "盗贼公会任务线",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "1ec4a96a-3cb5-4f20-b32d-4cf54a6b3e0e",
+    "mainCategory": "黎明守卫",
+    "subCategory": "独特的武器",
+    "title": "和风",
+    "prerequisite": "黎明守卫任务：失落于岁月之中",
+    "dlc": "黎明守卫",
+    "subCategoryType": "弓"
+  },
+  {
+    "id": "f6b7627d-61d4-4a72-b16c-76eb86db2a79",
+    "mainCategory": "神社",
+    "subCategory": "",
+    "title": "阿卡托什神殿",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "da783c7f-8d53-4ac4-94a1-456e378d61c1",
+    "mainCategory": "神社",
+    "subCategory": "",
+    "title": "阿尔凯神殿",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "15e4c505-6d37-40c7-8b23-7627cb5a9f91",
+    "mainCategory": "神社",
+    "subCategory": "",
+    "title": "迪贝拉神社",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "9c3d9f4d-880b-4475-8d8f-4bb7b50814eb",
+    "mainCategory": "神社",
+    "subCategory": "",
+    "title": "朱利亚诺斯神殿",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "fc8ee22d-77af-4b48-8b1e-d428b1f4a0cf",
+    "mainCategory": "神社",
+    "subCategory": "",
+    "title": "凯纳雷斯神殿",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "14c868d2-5b6c-4d20-930d-d16434b83369",
+    "mainCategory": "神社",
+    "subCategory": "",
+    "title": "玛拉神殿",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "bd6c00da-97d3-4171-8c02-7d2d2bc29552",
+    "mainCategory": "神社",
+    "subCategory": "",
+    "title": "斯坦达尔神殿",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "1f92e9b3-217f-4f78-a132-1607748484e5",
+    "mainCategory": "神社",
+    "subCategory": "",
+    "title": "塔洛斯神殿",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "c6ee9f55-3d68-4d1a-bd85-9fe82abf6b43",
+    "mainCategory": "神社",
+    "subCategory": "",
+    "title": "泽尼萨神殿",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "f6b7627d-61d4-4a72-b16c-76eb86db2a79",
+    "mainCategory": "龙裔",
+    "subCategory": "神社",
+    "title": "阿祖拉神殿",
+    "prerequisite": "",
+    "dlc": "龙裔",
+    "subCategoryType": ""
+  },
+  {
+    "id": "da783c7f-8d53-4ac4-94a1-456e378d61c1",
+    "mainCategory": "龙裔",
+    "subCategory": "神社",
+    "title": "波耶西亚神殿",
+    "prerequisite": "",
+    "dlc": "龙裔",
+    "subCategoryType": ""
+  },
+  {
+    "id": "15e4c505-6d37-40c7-8b23-7627cb5a9f91",
+    "mainCategory": "龙裔",
+    "subCategory": "神社",
+    "title": "梅法拉神殿",
+    "prerequisite": "",
+    "dlc": "龙裔",
+    "subCategoryType": ""
+  },
+  {
+    "id": "9c3d9f4d-880b-4475-8d8f-4bb7b50814eb",
+    "mainCategory": "龙裔",
+    "subCategory": "神社",
+    "title": "夜之神殿",
+    "prerequisite": "",
+    "dlc": "龙裔",
+    "subCategoryType": ""
+  },
+  {
+    "id": "da783c7f-8d53-4ac4-94a1-456e378d61c1",
+    "mainCategory": "龙裔",
+    "subCategory": "神社",
+    "title": "波耶西亚神殿",
+    "prerequisite": "",
+    "dlc": "龙裔",
+    "subCategoryType": ""
+  },
+  {
+    "id": "15e4c505-6d37-40c7-8b23-7627cb5a9f91",
+    "mainCategory": "龙裔",
+    "subCategory": "神社",
+    "title": "梅法拉神殿",
+    "prerequisite": "",
+    "dlc": "龙裔",
+    "subCategoryType": ""
+  },
+  {
+    "id": "9c3d9f4d-880b-4475-8d8f-4bb7b50814eb",
+    "mainCategory": "龙裔",
+    "subCategory": "神社",
+    "title": "夜之神殿",
+    "prerequisite": "",
+    "dlc": "龙裔",
+    "subCategoryType": ""
+  },
+  {
+    "id": "f6b7627d-61d4-4a72-b16c-76eb86db2a79",
+    "mainCategory": "黎明守卫",
+    "subCategory": "神社",
+    "title": "奥莉尔神殿",
+    "prerequisite": "",
+    "dlc": "黎明守卫",
+    "subCategoryType": ""
+  },
+  {
+    "id": "f6b7627d-61d4-4a72-b16c-76eb86db2a79",
+    "mainCategory": "石头",
+    "subCategory": "",
+    "title": "学徒石",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "da783c7f-8d53-4ac4-94a1-456e378d61c1",
+    "mainCategory": "石头",
+    "subCategory": "",
+    "title": "阿特罗纳克石",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "15e4c505-6d37-40c7-8b23-7627cb5a9f91",
+    "mainCategory": "石头",
+    "subCategory": "",
+    "title": "石女士",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "9c3d9f4d-880b-4475-8d8f-4bb7b50814eb",
+    "mainCategory": "石头",
+    "subCategory": "",
+    "title": "石主",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "fc8ee22d-77af-4b48-8b1e-d428b1f4a0cf",
+    "mainCategory": "石头",
+    "subCategory": "",
+    "title": "情人石",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "14c868d2-5b6c-4d20-930d-d16434b83369",
+    "mainCategory": "石头",
+    "subCategory": "",
+    "title": "法师石",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "bd6c00da-97d3-4171-8c02-7d2d2bc29552",
+    "mainCategory": "石头",
+    "subCategory": "",
+    "title": "仪式石",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "1f92e9b3-217f-4f78-a132-1607748484e5",
+    "mainCategory": "石头",
+    "subCategory": "",
+    "title": "蛇石",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "c6ee9f55-3d68-4d1a-bd85-9fe82abf6b43",
+    "mainCategory": "石头",
+    "subCategory": "",
+    "title": "暗影石",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "mainCategory": "石头",
+    "subCategory": "",
+    "title": "骏马石",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "mainCategory": "石头",
+    "subCategory": "",
+    "title": "盗石",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "mainCategory": "石头",
+    "subCategory": "",
+    "title": "塔石",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "mainCategory": "石头",
+    "subCategory": "",
+    "title": "武士石",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": ""
+  }
+]

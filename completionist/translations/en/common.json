@@ -1,0 +1,56 @@
+{
+  "appTitle": "Completionist.",
+  "requestGameDesc": "Feel free to request a game, report a bug or make some suggestions to improve the app!",
+  "quests": "Quests",
+  "collectables": "Collectables",
+  "locations": "Locations",
+  "miscellaneous": "Miscellaneous",
+  "search": "Search items...",
+  "showMore": "Show more",
+  "none": "None",
+  "main": "Main",
+  "active": "ACTIVE",
+  "inactive": "INACTIVE",
+  "auth": {
+    "email": "Email",
+    "password": "Password",
+    "username": "Username",
+    "forgotPassword": "Forgot Password?",
+    "signUp": "Sign Up",
+    "signIn": "Sign In",
+    "createAccount": "Create Account",
+    "requestAccount": "Don't have an account?",
+    "backToLogin": "Back to Login"
+  },
+  "subscriptions": {
+    "title": "Subscriptions"
+  },
+  "sendRequest": {
+    "title": "Send Request",
+    "subject": "Subject",
+    "writeRequest": "Write your request here..."
+  },
+  "settings": {
+    "title": "Settings",
+    "description": "Feel free to request a game, report a bug or make some suggestions to improve the app!",
+    "setCollections": "Set collections:",
+    "enabledDLC": "Enable/Disable DLC:",
+    "showHide": "Show/Hide:",
+    "completedItems": "Completed Items",
+    "disabledSections": "Disabled Sections"
+  },
+  "errors": {
+    "noEmailExists": "Email does not exist",
+    "googleSignIn": "Error with google sign in"
+  },
+  "skyrimDLC": {
+    "dawnguard": "Dawnguard",
+    "dragonborn": "Dragonborn"
+  },
+  "fallout4DLC": {
+    "automatron": "Nuka-World", 
+    "farHarbor": "Far Harbor",
+    "nukaWorld": "Nuka-World",
+    "vaultTecWorkshop": "Vault-Tec Workshop"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "appTitle": "Kompletionis.",
+  "requestGameDesc": "Jangan ragu untuk meminta permainan, melaporkan bug, atau memberikan beberapa saran untuk meningkatkan aplikasi!",
+  "quests": "Pencarian",
+  "collectables": "Barang koleksi",
+  "locations": "Lokasi",
+  "miscellaneous": "Aneka ragam",
+  "search": "Cari item...",
+  "showMore": "Menampilkan lebih banyak",
+  "none": "Tidak ada",
+  "main": "Utama",
+  "active": "AKTIF",
+  "inactive": "TIDAK AKTIF",
+  "auth": {
+    "email": "Surel",
+    "password": "Kata sandi",
+    "username": "Nama belakang",
+    "forgotPassword": "Tidak ingat kata sandi?",
+    "signUp": "Mendaftar",
+    "signIn": "Masuk",
+    "createAccount": "Buat Akun",
+    "requestAccount": "Belum punya akun?",
+    "backToLogin": "Kembali untuk masuk"
+  },
+  "subscriptions": {
+    "title": "Langganan"
+  },
+  "sendRequest": {
+    "title": "Kirim Permintaan",
+    "subject": "Subjek",
+    "writeRequest": "Tulis permintaan Anda di sini..."
+  },
+  "settings": {
+    "title": "Pengaturan",
+    "description": "Jangan ragu untuk meminta permainan, melaporkan bug, atau memberikan beberapa saran untuk meningkatkan aplikasi!",
+    "setCollections": "Tetapkan koleksi:",
+    "enabledDLC": "Aktifkan/Nonaktifkan DLC:",
+    "showHide": "Tunjukan Sembunyikan:",
+    "completedItems": "Barang Selesai",
+    "disabledSections": "Bagian yang Dinonaktifkan"
+  },
+  "errors": {
+    "noEmailExists": "Emailnya tidak ada",
+    "googleSignIn": "Kesalahan saat masuk Google"
+  },
+  "skyrimDLC": {
+    "dawnguard": "Penjaga Fajar",
+    "dragonborn": "lahir naga"
+  },
+  "fallout4DLC": {
+    "automatron": "Nuka-Dunia",
+    "farHarbor": "Pelabuhan Jauh",
+    "nukaWorld": "Nuka-Dunia",
+    "vaultTecWorkshop": "Lokakarya Vault-Tec"
+  }
+}

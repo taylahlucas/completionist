@@ -1,0 +1,56 @@
+{
+  "appTitle": "Tamamlayıcı.",
+  "requestGameDesc": "Bir oyun talep etmekten, bir hatayı bildirmekten veya uygulamayı geliştirmek için bazı önerilerde bulunmaktan çekinmeyin!",
+  "quests": "Görevler",
+  "collectables": "Koleksiyon parçaları",
+  "locations": "Konumlar",
+  "miscellaneous": "Çeşitli",
+  "search": "Öğeleri ara...",
+  "showMore": "Daha fazla göster",
+  "none": "Hiçbiri",
+  "main": "Ana",
+  "active": "AKTİF",
+  "inactive": "AKTİF DEĞİL",
+  "auth": {
+    "email": "E-posta",
+    "password": "Şifre",
+    "username": "Kullanıcı adı",
+    "forgotPassword": "Parolanızı mı unuttunuz?",
+    "signUp": "Üye olmak",
+    "signIn": "Kayıt olmak",
+    "createAccount": "Hesap oluşturmak",
+    "requestAccount": "Hesabınız yok mu?",
+    "backToLogin": "Girişe Geri Dön"
+  },
+  "subscriptions": {
+    "title": "Abonelikler"
+  },
+  "sendRequest": {
+    "title": "İstek gönder",
+    "subject": "Ders",
+    "writeRequest": "Talebinizi buraya yazın..."
+  },
+  "settings": {
+    "title": "Ayarlar",
+    "description": "Bir oyun talep etmekten, bir hatayı bildirmekten veya uygulamayı geliştirmek için bazı önerilerde bulunmaktan çekinmeyin!",
+    "setCollections": "Koleksiyonları ayarlayın:",
+    "enabledDLC": "DLC'yi Etkinleştir/Devre Dışı Bırak:",
+    "showHide": "Göster/Gizle:",
+    "completedItems": "Tamamlanan Öğeler",
+    "disabledSections": "Engelli Bölümler"
+  },
+  "errors": {
+    "noEmailExists": "E-posta mevcut değil",
+    "googleSignIn": "Google oturum açma hatası"
+  },
+  "skyrimDLC": {
+    "dawnguard": "Şafak Muhafızı",
+    "dragonborn": "Dragonborn"
+  },
+  "fallout4DLC": {
+    "automatron": "Nuka-Dünya",
+    "farHarbor": "Uzak Liman",
+    "nukaWorld": "Nuka-Dünya",
+    "vaultTecWorkshop": "Vault-Tec Atölyesi"
+  }
+}

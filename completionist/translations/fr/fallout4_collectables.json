@@ -1,0 +1,1613 @@
+[
+  {
+    "id": "1a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "mainCategory": "Figurines à pompons",
+    "title": "Figurine d'agilité",
+    "subCategory": "",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "2a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "mainCategory": "Figurines à pompons",
+    "title": "Figurine de troc",
+    "subCategory": "",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "3a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "mainCategory": "Figurines à pompons",
+    "title": "Gros canons Bobblehead",
+    "subCategory": "",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "4a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "mainCategory": "Figurines à pompons",
+    "title": "Figurine Charisme",
+    "subCategory": "",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "5a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "mainCategory": "Figurines à pompons",
+    "title": "Figurine Endurance",
+    "subCategory": "",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "6a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "mainCategory": "Figurines à pompons",
+    "title": "Armes à énergie Bobblehead",
+    "subCategory": "",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "7a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "mainCategory": "Figurines à pompons",
+    "title": "Bobblehead explosifs",
+    "subCategory": "",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "8a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "mainCategory": "Figurines à pompons",
+    "title": "Figurine à figurine intelligente",
+    "subCategory": "",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "9a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "mainCategory": "Figurines à pompons",
+    "title": "Crochetage de serrure Bobblehead",
+    "subCategory": "",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "10a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "mainCategory": "Figurines à pompons",
+    "title": "Figurine porte-bonheur",
+    "subCategory": "",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "11a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "mainCategory": "Figurines à pompons",
+    "title": "Figurine Médecine",
+    "subCategory": "",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "12a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "mainCategory": "Figurines à pompons",
+    "title": "Bobblehead de mêlée",
+    "subCategory": "",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "13a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "mainCategory": "Figurines à pompons",
+    "title": "Figurine à figurine Perception",
+    "subCategory": "",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "14a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "mainCategory": "Figurines à pompons",
+    "title": "Réparer la figurine",
+    "subCategory": "",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "15a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "mainCategory": "Figurines à pompons",
+    "title": "Figurine scientifique",
+    "subCategory": "",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "16a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "mainCategory": "Figurines à pompons",
+    "title": "Bobblehead pour petites armes",
+    "subCategory": "",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "17a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "mainCategory": "Figurines à pompons",
+    "title": "Bobblehead furtif",
+    "subCategory": "",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "18a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "mainCategory": "Figurines à pompons",
+    "title": "Figurine à figurine discours",
+    "subCategory": "",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "19a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "mainCategory": "Figurines à pompons",
+    "title": "Figurine de force",
+    "subCategory": "",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "20a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "mainCategory": "Figurines à pompons",
+    "title": "Bobblehead non armé",
+    "subCategory": "",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "1a3b45c6-7d89-012e-fgh2-345678i9j06p",
+    "mainCategory": "Les magazines",
+    "subCategory": "Magazines d’avantages",
+    "title": "Des contes incroyablement géniaux",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "2a3b45c6-7d89-012e-fgh2-345678i9j06p",
+    "mainCategory": "Les magazines",
+    "subCategory": "Magazines d’avantages",
+    "title": "Grognak le barbare",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "3a3b45c6-7d89-012e-fgh2-345678i9j06p",
+    "mainCategory": "Les magazines",
+    "subCategory": "Magazines d’avantages",
+    "title": "Armes à feu et balles",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "4a3b45c6-7d89-012e-fgh2-345678i9j06p",
+    "mainCategory": "Les magazines",
+    "subCategory": "Magazines d’avantages",
+    "title": "En direct",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "5a3b45c6-7d89-012e-fgh2-345678i9j06p",
+    "mainCategory": "Les magazines",
+    "subCategory": "Magazines d’avantages",
+    "title": "Journal chirurgical du Massachusetts",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "6a3b45c6-7d89-012e-fgh2-345678i9j06p",
+    "mainCategory": "Les magazines",
+    "subCategory": "Magazines d’avantages",
+    "title": "Contes d'un vendeur de viande séchée de Junktown",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "7a3b45c6-7d89-012e-fgh2-345678i9j06p",
+    "mainCategory": "Les magazines",
+    "subCategory": "Magazines d’avantages",
+    "title": "Magazine scientifique Tesla",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "8a3b45c6-7d89-012e-fgh2-345678i9j06p",
+    "mainCategory": "Les magazines",
+    "subCategory": "Magazines d’avantages",
+    "title": "Les gobelets aujourd'hui",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "9a3b45c6-7d89-012e-fgh2-345678i9j06p",
+    "mainCategory": "Les magazines",
+    "subCategory": "Magazines d’avantages",
+    "title": "Opérations secrètes américaines",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "10a3b45c6-7d89-012e-fgh2-345678i9j06p",
+    "mainCategory": "Les magazines",
+    "subCategory": "Magazines d’avantages",
+    "title": "Inarrêtables",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "11a3b45c6-7d89-012e-fgh2-345678i9j06p",
+    "mainCategory": "Les magazines",
+    "subCategory": "Magazines d’avantages",
+    "title": "Guide de survie des terres en friche",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "11a3b45c6-7d89-022e-fgh2-345678i9j06p",
+    "mainCategory": "Port lointain",
+    "subCategory": "Les magazines",
+    "subCategoryType": "Magazines d’avantages",
+    "title": "Almanach des insulaires",
+    "prerequisite": "",
+    "dlc": "Port lointain"
+  },
+  {
+    "id": "11a3b45c6-7d89-012e-fgh2-34567859j06p",
+    "mainCategory": "Nuka-Monde",
+    "subCategory": "Les magazines",
+    "subCategoryType": "Magazines d’avantages",
+    "title": "SCAV!",
+    "prerequisite": "",
+    "dlc": "Nuka-Monde"
+  },
+  {
+    "id": "1a3b45c6-7d89-012e-fgh2-345678i9j07q",
+    "mainCategory": "Les magazines",
+    "subCategory": "Divers Revues",
+    "title": "Hot Rodder",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "2a3b45c6-7d89-012e-fgh2-345678i9j07q",
+    "mainCategory": "Les magazines",
+    "subCategory": "Divers Revues",
+    "title": "La Coiffe",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "3a3b45c6-7d89-012e-fgh2-345678i9j07q",
+    "mainCategory": "Les magazines",
+    "subCategory": "Divers Revues",
+    "title": "Palissades",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "4a3b45c6-7d89-012e-fgh2-345678i9j07q",
+    "mainCategory": "Les magazines",
+    "subCategory": "Divers Revues",
+    "title": "RobCo",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "5a3b45c6-7d89-012e-fgh2-345678i9j07q",
+    "mainCategory": "Les magazines",
+    "subCategory": "Divers Revues",
+    "title": "Tatouages ​​​​tabous",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "6a3b45c6-7d89-012e-fgh2-345678i9j07q",
+    "mainCategory": "Les magazines",
+    "subCategory": "Divers Revues",
+    "title": "Piratage total",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "7a3b45c6-7d89-012e-fgh2-345678i9j07q",
+    "mainCategory": "Les magazines",
+    "subCategory": "Divers Revues",
+    "title": "Tu es spécial!",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "65e8530c-91d7-4a7a-b3e0-7129d2069c5a",
+    "mainCategory": "Armes uniques",
+    "subCategory": "Armes balistiques",
+    "title": "Livreur",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "b3a7e8ef-dc4a-4d54-a14f-5f3efc2d23d3",
+    "mainCategory": "Armes uniques",
+    "subCategory": "Armes balistiques",
+    "title": "La paix d'Eddie",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "2e1e7aeb-5b43-4f2d-a8e6-02ea8fcfe0f4",
+    "mainCategory": "Armes uniques",
+    "subCategory": "Armes balistiques",
+    "title": "Pistolet de détresse",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "ea42b832-5a78-4c8d-9e7c-90772e0b097f",
+    "mainCategory": "Armes uniques",
+    "subCategory": "Armes balistiques",
+    "title": "Le gagnant",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "b5fc0758-267b-4d2a-a6eb-5378f0f0ee0f",
+    "mainCategory": "Armes uniques",
+    "subCategory": "Armes balistiques",
+    "title": "Justice",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "ee432b0b-bd6e-4a3d-9078-366b6bfcc641",
+    "mainCategory": "Armes uniques",
+    "subCategory": "Armes balistiques",
+    "title": "Le pistolet Kellogg",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "46f523d4-bdaa-4a4e-8c47-ae832b422ecb",
+    "mainCategory": "Armes uniques",
+    "subCategory": "Armes balistiques",
+    "title": "La dernière minute",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "c3d2c1d7-d1b3-4927-8f18-85a8bc11c568",
+    "mainCategory": "Armes uniques",
+    "subCategory": "Armes balistiques",
+    "title": "Le Fusil Terribles",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "685292c8-7df2-46e6-9515-0c058c46cf3b",
+    "mainCategory": "Armes uniques",
+    "subCategory": "Armes balistiques",
+    "title": "Gardien du surveillant",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "f8d50d42-39f8-4b8b-8c0f-d5683b66ee76",
+    "mainCategory": "Armes uniques",
+    "subCategory": "Armes balistiques",
+    "title": "Réba",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "2e7dca91-02c3-4d37-baf5-5f32b0b43160",
+    "mainCategory": "Armes uniques",
+    "subCategory": "Armes balistiques",
+    "title": "Réba II",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "81d12c95-e872-4ab1-b1cf-76f703c2344e",
+    "mainCategory": "Armes uniques",
+    "subCategory": "Armes balistiques",
+    "title": "Mitraillette argentée",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "38a67e46-084f-4b95-8b54-b2fe8755a2cb",
+    "mainCategory": "Armes uniques",
+    "subCategory": "Armes balistiques",
+    "title": "Vaporisez et priez",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "3b41bea4-b4a1-4e71-9977-0b2956c71ebf",
+    "mainCategory": "Armes uniques",
+    "subCategory": "Armes balistiques",
+    "title": "Spécial Tom le bricoleur",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "e6f46a37-ebee-4dbd-82f3-14a1e64a7ad7",
+    "mainCategory": "Armes uniques",
+    "subCategory": "Armes balistiques",
+    "title": "L'ami de Wastelander",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "e36a0b0e-b78d-44a2-94ac-4eb5d5f19807",
+    "mainCategory": "Port lointain",
+    "subCategory": "Armes uniques",
+    "subCategoryType": "Armes balistiques",
+    "title": "Livreur",
+    "prerequisite": "",
+    "dlc": "Port lointain"
+  },
+  {
+    "id": "6b11e01c-74a5-4c8d-b8c8-319c5b398cc8",
+    "mainCategory": "Port lointain",
+    "subCategory": "Armes uniques",
+    "subCategoryType": "Armes balistiques",
+    "title": "Fusil à radium kilotonne",
+    "prerequisite": "",
+    "dlc": "Port lointain"
+  },
+  {
+    "id": "bc70019b-bb8b-46f8-81bf-8810e5989d56",
+    "mainCategory": "Port lointain",
+    "subCategory": "Armes uniques",
+    "subCategoryType": "Armes balistiques",
+    "title": "Eddy chanceux",
+    "prerequisite": "",
+    "dlc": "Port lointain"
+  },
+  {
+    "id": "c9f91e06-4c2d-44d1-bcb5-9f6de076adbd",
+    "mainCategory": "Port lointain",
+    "subCategory": "Armes uniques",
+    "subCategoryType": "Armes balistiques",
+    "title": "Vieux fiable",
+    "prerequisite": "",
+    "dlc": "Port lointain"
+  },
+  {
+    "id": "5cb16719-0e06-4b1f-b6cb-370491cc6b3f",
+    "mainCategory": "Port lointain",
+    "subCategory": "Armes uniques",
+    "subCategoryType": "Armes balistiques",
+    "title": "Conversion radicale",
+    "prerequisite": "",
+    "dlc": "Port lointain"
+  },
+  {
+    "id": "8d7f9e76-4223-4b10-9e07-9b64d647d1ac",
+    "mainCategory": "Nuka-Monde",
+    "subCategory": "Armes uniques",
+    "subCategoryType": "Armes balistiques",
+    "title": "Le résolveur de problèmes",
+    "prerequisite": "",
+    "dlc": "Nuka-Monde"
+  },
+  {
+    "id": "eab59142-65f9-4a5e-af3d-8a1b8d6c6eab",
+    "mainCategory": "Nuka-Monde",
+    "subCategory": "Armes uniques",
+    "subCategoryType": "Armes balistiques",
+    "title": "Canon à éclaboussures",
+    "prerequisite": "",
+    "dlc": "Nuka-Monde"
+  },
+  {
+    "id": "93d952ef-9e21-4b8e-8ea6-9c7f8d1c041b",
+    "mainCategory": "Armes uniques",
+    "subCategory": "Armes énergétiques",
+    "title": "Pistolet blaster extraterrestre",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "6b9e5717-48a5-4bd3-b8b2-8b9159a60e69",
+    "mainCategory": "Armes uniques",
+    "subCategory": "Armes énergétiques",
+    "title": "Cryolateur",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "ec4d1b85-c822-4a05-8c9f-14efeb2a6fc4",
+    "mainCategory": "Armes uniques",
+    "subCategory": "Armes énergétiques",
+    "title": "Expérience 18-A",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "ee1e96e3-99ac-4d9e-8ed7-f2024d707cfc",
+    "mainCategory": "Armes uniques",
+    "subCategory": "Armes énergétiques",
+    "title": "Bonnes intentions",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "163583e9-d441-42c2-86da-72e6ffed05f5",
+    "mainCategory": "Armes uniques",
+    "subCategory": "Armes énergétiques",
+    "title": "L'artefact de Lorenzo",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "9b944d94-6d3f-4a8e-b44c-9800ab836d6c",
+    "mainCategory": "Armes uniques",
+    "subCategory": "Armes énergétiques",
+    "title": "Vieux fidèle",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "02de8f66-0a3b-4317-91ea-8cc7c22b3d1e",
+    "mainCategory": "Armes uniques",
+    "subCategory": "Armes énergétiques",
+    "title": "Prototype UP77 « Potentiel illimité »",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "f0d31d18-c3e9-4bcf-afcd-2723e5d54e11",
+    "mainCategory": "Armes uniques",
+    "subCategory": "Armes énergétiques",
+    "title": "Autorité juste",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "cf5db22e-63ba-4da3-9d7b-9b80f42dbff5",
+    "mainCategory": "Armes uniques",
+    "subCategory": "Armes énergétiques",
+    "title": "Lanceur de plasma de Sentinelle",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "dcfeac72-21a3-4a52-9f0f-7ed68cb6a76b",
+    "mainCategory": "Armes uniques",
+    "subCategory": "Armes énergétiques",
+    "title": "Spécial survivant",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "de0ccfd8-d5b4-4cfe-88a2-722a1d34c855",
+    "mainCategory": "Armes uniques",
+    "subCategory": "Armes énergétiques",
+    "title": "Le fusil de Virgile",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "de7ecbd4-630b-4278-8b2a-c74f2056b41c",
+    "mainCategory": "Armes uniques",
+    "subCategory": "Armes énergétiques",
+    "title": "Wazer Femme",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "c21a54bf-8640-4a67-9637-13bb8827a264",
+    "mainCategory": "Nuka-Monde",
+    "subCategory": "Armes uniques",
+    "subCategoryType": "Armes énergétiques",
+    "title": "Alien Blaster de Hub",
+    "prerequisite": "",
+    "dlc": "Nuka-Monde"
+  },
+  {
+    "id": "26fd49d7-9f4d-4e5c-b321-b89d98381d4e",
+    "mainCategory": "Automatron",
+    "subCategory": "Armes uniques",
+    "subCategoryType": "Armes énergétiques",
+    "title": "Regard de Protectron",
+    "prerequisite": "",
+    "dlc": "Automatron"
+  },
+  {
+    "id": "44b1d24e-8625-4914-b834-6a4abef2dbd3",
+    "mainCategory": "Automatron",
+    "subCategory": "Armes uniques",
+    "subCategoryType": "Armes énergétiques",
+    "title": "Tête d'Assaultron récupérée",
+    "prerequisite": "",
+    "dlc": "Automatron"
+  },
+  {
+    "id": "39893a60-02ed-4c7f-b0c5-2c4b84561fc8",
+    "mainCategory": "Automatron",
+    "subCategory": "Armes uniques",
+    "subCategoryType": "Armes énergétiques",
+    "title": "Fusil Tesla",
+    "prerequisite": "",
+    "dlc": "Automatron"
+  },
+  {
+    "id": "85f3e9d2-3c24-4a74-82c3-b13c0c6ff2f2",
+    "mainCategory": "Armes uniques",
+    "subCategory": "Artillerie lourde",
+    "title": "Faiseur de cendres",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "b6302d24-9162-4a10-a720-784207878349",
+    "mainCategory": "Armes uniques",
+    "subCategory": "Artillerie lourde",
+    "title": "Grand garçon",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "bd2e16b5-2a05-426b-9825-8d2eb1b5fb38",
+    "mainCategory": "Armes uniques",
+    "subCategory": "Artillerie lourde",
+    "title": "Broadside",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "a6b3c813-54e3-487e-ae7c-e0fe2ffabfb7",
+    "mainCategory": "Armes uniques",
+    "subCategory": "Artillerie lourde",
+    "title": "Mort d'en haut",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "f378167d-8a3c-4e7f-9fbf-6f2b24345b02",
+    "mainCategory": "Armes uniques",
+    "subCategory": "Artillerie lourde",
+    "title": "Jugement final",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "fce16c02-95fe-4474-a2fe-0c5a287a68b3",
+    "mainCategory": "Armes uniques",
+    "subCategory": "Artillerie lourde",
+    "title": "Démarreur de fête",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "ca7c88fb-69c2-4e8f-9b77-7f2b7db8f00a",
+    "mainCategory": "Port lointain",
+    "subCategory": "Armes uniques",
+    "subCategoryType": "Artillerie lourde",
+    "title": "L'ami de l'amiral",
+    "prerequisite": "",
+    "dlc": "Port lointain"
+  },
+  {
+    "id": "0e6356de-33b9-4c0d-bd56-d91df171651d",
+    "mainCategory": "Port lointain",
+    "subCategory": "Armes uniques",
+    "subCategoryType": "Artillerie lourde",
+    "title": "Fusil-harpon du défenseur",
+    "prerequisite": "",
+    "dlc": "Port lointain"
+  },
+  {
+    "id": "2c6ebc12-42d0-4e3a-9f7b-648d9b1d04db",
+    "mainCategory": "Port lointain",
+    "subCategory": "Armes uniques",
+    "subCategoryType": "Artillerie lourde",
+    "title": "Sergent Cendre",
+    "prerequisite": "",
+    "dlc": "Port lointain"
+  },
+  {
+    "id": "0de89e88-5a3e-4e5b-80ef-48082247c53c",
+    "mainCategory": "Port lointain",
+    "subCategory": "Armes uniques",
+    "subCategoryType": "Artillerie lourde",
+    "title": "Le dernier combat du capitaine",
+    "prerequisite": "",
+    "dlc": "Port lointain"
+  },
+  {
+    "id": "13a81613-9cb7-4e8c-b1e9-3e896e05147a",
+    "mainCategory": "Port lointain",
+    "subCategory": "Armes uniques",
+    "subCategoryType": "Artillerie lourde",
+    "title": "L'attaquant",
+    "prerequisite": "",
+    "dlc": "Port lointain"
+  },
+  {
+    "id": "d25f04fb-169a-4d5d-90a6-cb3f49dcb9b7",
+    "mainCategory": "Nuka-Monde",
+    "subCategory": "Armes uniques",
+    "subCategoryType": "Artillerie lourde",
+    "title": "Éternus",
+    "prerequisite": "",
+    "dlc": "Nuka-Monde"
+  },
+  {
+    "id": "cd39855d-4db4-4b12-a272-93e16db33f27",
+    "mainCategory": "Nuka-Monde",
+    "subCategory": "Armes uniques",
+    "subCategoryType": "Artillerie lourde",
+    "title": "Lanceur Nuka-Nuke",
+    "prerequisite": "",
+    "dlc": "Nuka-Monde"
+  },
+  {
+    "id": "4d205662-c2d3-46d2-a7f4-34c82f7f768f",
+    "mainCategory": "Armes uniques",
+    "subCategory": "Armes de corps à corps",
+    "title": "Batte de baseball de la Série mondiale 2076",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "a6ebc3f3-32e3-4469-b4f1-3e051d351d9c",
+    "mainCategory": "Armes uniques",
+    "subCategory": "Armes de corps à corps",
+    "title": "Gros Jim",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "2c0c0e68-76cc-4907-8f35-e7a172864e78",
+    "mainCategory": "Armes uniques",
+    "subCategory": "Armes de corps à corps",
+    "title": "La vengeance du général Chao",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "13ac3845-29b7-4a77-b6a5-b23c3767a9ce",
+    "mainCategory": "Armes uniques",
+    "subCategory": "Armes de corps à corps",
+    "title": "Hache de Grognak",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "6b0b62e2-0ea2-49d8-944d-2d31e19e6fe7",
+    "mainCategory": "Armes uniques",
+    "subCategory": "Armes de corps à corps",
+    "title": "Dent de Kremvh",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "2408c5d1-3b06-4bf6-a43d-9a00b8e4176d",
+    "mainCategory": "Armes uniques",
+    "subCategory": "Armes de corps à corps",
+    "title": "Lame de Pickman",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "7b4b4ed3-315e-47e1-b7c5-88da4d4a46f8",
+    "mainCategory": "Armes uniques",
+    "subCategory": "Armes de corps à corps",
+    "title": "Compte",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "9e745159-98a3-4db2-aa1f-62e757bda078",
+    "mainCategory": "Armes uniques",
+    "subCategory": "Armes de corps à corps",
+    "title": "Cogneur de Rockville",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "ec453f4e-4c20-42fb-9134-b0a63a92c75f",
+    "mainCategory": "Armes uniques",
+    "subCategory": "Armes de corps à corps",
+    "title": "Épée Shem Drowne",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "a0b49c53-fca3-4f1f-af4d-83974083a6ac",
+    "mainCategory": "Armes uniques",
+    "subCategory": "Armes de corps à corps",
+    "title": "L'épée de Zao",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "f8100c53-7b2c-408e-90b7-2b77867e7ef6",
+    "mainCategory": "Port lointain",
+    "subCategory": "Armes uniques",
+    "subCategoryType": "Armes de corps à corps",
+    "title": "Le jugement de l'atome",
+    "prerequisite": "",
+    "dlc": "Port lointain"
+  },
+  {
+    "id": "287c0d12-409e-4a46-9c25-b2f9a739495a",
+    "mainCategory": "Port lointain",
+    "subCategory": "Armes uniques",
+    "subCategoryType": "Armes de corps à corps",
+    "title": "Lettre de sang",
+    "prerequisite": "",
+    "dlc": "Port lointain"
+  },
+  {
+    "id": "d7ef0e84-5cb2-4dcd-8017-767b7bfb79fc",
+    "mainCategory": "Port lointain",
+    "subCategory": "Armes uniques",
+    "subCategoryType": "Armes de corps à corps",
+    "title": "Brise-clôture",
+    "prerequisite": "",
+    "dlc": "Port lointain"
+  },
+  {
+    "id": "ce9e0c89-995e-4f94-8122-796f68a124d9",
+    "mainCategory": "Port lointain",
+    "subCategory": "Armes uniques",
+    "subCategoryType": "Armes de corps à corps",
+    "title": "L'attrape-poisson",
+    "prerequisite": "",
+    "dlc": "Port lointain"
+  },
+  {
+    "id": "1a24eb2f-4c67-4a87-93f0-20d5129f7c91",
+    "mainCategory": "Port lointain",
+    "subCategory": "Armes uniques",
+    "subCategoryType": "Armes de corps à corps",
+    "title": "La moissonneuse",
+    "prerequisite": "",
+    "dlc": "Port lointain"
+  },
+  {
+    "id": "d15c280e-7c12-4e87-8d16-344cc6e9e169",
+    "mainCategory": "Nuka-Monde",
+    "subCategory": "Armes uniques",
+    "subCategoryType": "Armes non armées",
+    "title": "Poing puissant furieux",
+    "prerequisite": "",
+    "dlc": "Nuka-Monde"
+  },
+  {
+    "id": "a855eeea-4d1c-4bd2-bd12-42eeb515e3a0",
+    "mainCategory": "Port lointain",
+    "subCategory": "Armes uniques",
+    "subCategoryType": "Armes non armées",
+    "title": "Crochet de boucher",
+    "prerequisite": "",
+    "dlc": "Port lointain"
+  },
+  {
+    "id": "e35ebf4e-ec1d-4aaf-8ed6-99ef1f105f01",
+    "mainCategory": "Nuka-Monde",
+    "subCategory": "Recettes Nuka-Cola",
+    "title": "Recette de Nuka-Berry",
+    "prerequisite": "",
+    "dlc": "Nuka-Monde",
+    "subCategoryType": ""
+  },
+  {
+    "id": "df8c6fc1-8a7a-4f24-8aa5-6aa85b3a54a2",
+    "mainCategory": "Nuka-Monde",
+    "subCategory": "Recettes Nuka-Cola",
+    "title": "Recette Nuka-Bombdrop",
+    "prerequisite": "",
+    "dlc": "Nuka-Monde",
+    "subCategoryType": ""
+  },
+  {
+    "id": "c8e5a731-cf98-4d9e-aa8c-59f1174e8cda",
+    "mainCategory": "Nuka-Monde",
+    "subCategory": "Recettes Nuka-Cola",
+    "title": "Recette Nuka-Cide",
+    "prerequisite": "",
+    "dlc": "Nuka-Monde",
+    "subCategoryType": ""
+  },
+  {
+    "id": "d8e1e994-1330-46c4-a3e3-5cf78e723aa3",
+    "mainCategory": "Nuka-Monde",
+    "subCategory": "Recettes Nuka-Cola",
+    "title": "Recette Nuka-Cooler",
+    "prerequisite": "",
+    "dlc": "Nuka-Monde",
+    "subCategoryType": ""
+  },
+  {
+    "id": "b3652e0d-5e1f-4b71-a363-7a37b8e14c62",
+    "mainCategory": "Nuka-Monde",
+    "subCategory": "Recettes Nuka-Cola",
+    "title": "Recette Nuka-Frutti",
+    "prerequisite": "",
+    "dlc": "Nuka-Monde",
+    "subCategoryType": ""
+  },
+  {
+    "id": "b663e63d-6478-4153-a8a3-0e44c8b45d",
+    "mainCategory": "Nuka-Monde",
+    "subCategory": "Recettes Nuka-Cola",
+    "title": "Recette copieuse de Nuka",
+    "prerequisite": "",
+    "dlc": "Nuka-Monde",
+    "subCategoryType": ""
+  },
+  {
+    "id": "e35ebf4e-ec1d-4aaf-8ed6-99ef1f105f02",
+    "mainCategory": "Nuka-Monde",
+    "subCategory": "Recettes Nuka-Cola",
+    "title": "Recette Nuka-Lixir",
+    "prerequisite": "",
+    "dlc": "Nuka-Monde",
+    "subCategoryType": ""
+  },
+  {
+    "id": "df8c6fc1-8a7a-4f24-8aa5-6aa85b3a54a3",
+    "mainCategory": "Nuka-Monde",
+    "subCategory": "Recettes Nuka-Cola",
+    "title": "Recette Nuka-Love",
+    "prerequisite": "",
+    "dlc": "Nuka-Monde",
+    "subCategoryType": ""
+  },
+  {
+    "id": "c8e5a731-cf98-4d9e-aa8c-59f1174e8cda",
+    "mainCategory": "Nuka-Monde",
+    "subCategory": "Recettes Nuka-Cola",
+    "title": "Recette Nuka-Power",
+    "prerequisite": "",
+    "dlc": "Nuka-Monde",
+    "subCategoryType": ""
+  },
+  {
+    "id": "d8e1e994-1330-46c4-a3e3-5cf78e723aa4",
+    "mainCategory": "Nuka-Monde",
+    "subCategory": "Recettes Nuka-Cola",
+    "title": "Recette Nuka-Punch",
+    "prerequisite": "",
+    "dlc": "Nuka-Monde",
+    "subCategoryType": ""
+  },
+  {
+    "id": "b3652e0d-5e1f-4b71-a363-7a37b8e14c64",
+    "mainCategory": "Nuka-Monde",
+    "subCategory": "Recettes Nuka-Cola",
+    "title": "Recette Nuka-Ray",
+    "prerequisite": "",
+    "dlc": "Nuka-Monde",
+    "subCategoryType": ""
+  },
+  {
+    "id": "b663e63d-6478-4153-a8a3-0e44c8b45d",
+    "mainCategory": "Nuka-Monde",
+    "subCategory": "Recettes Nuka-Cola",
+    "title": "Recette Nuka-Rush",
+    "prerequisite": "",
+    "dlc": "Nuka-Monde",
+    "subCategoryType": ""
+  },
+  {
+    "id": "e35ebf4e-ec1d-4aaf-8ed6-99ef1f105f03",
+    "mainCategory": "Nuka-Monde",
+    "subCategory": "Recettes Nuka-Cola",
+    "title": "Recette Nuka-Sunrise",
+    "prerequisite": "",
+    "dlc": "Nuka-Monde",
+    "subCategoryType": ""
+  },
+  {
+    "id": "df8c6fc1-8a7a-4f24-8aa5-6aa85b3a54a4",
+    "mainCategory": "Nuka-Monde",
+    "subCategory": "Recettes Nuka-Cola",
+    "title": "Recette Nuka-Void",
+    "prerequisite": "",
+    "dlc": "Nuka-Monde",
+    "subCategoryType": ""
+  },
+  {
+    "id": "c8e5a731-cf98-4d9e-aa8c-59f1174e8cda",
+    "mainCategory": "Nuka-Monde",
+    "subCategory": "Recettes Nuka-Cola",
+    "title": "Recette Nuka-Xtreme",
+    "prerequisite": "",
+    "dlc": "Nuka-Monde",
+    "subCategoryType": ""
+  },
+  {
+    "id": "e35ebf4e-ec1d-4aaf-8ed6-99ef1f105f01",
+    "mainCategory": "Armure unique",
+    "subCategory": "",
+    "title": "La robe d'Agathe",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "df8c6fc1-8a7a-4f24-8aa5-6aa85b3a54a2",
+    "mainCategory": "Armure unique",
+    "subCategory": "",
+    "title": "Plastron de l'Apocalypse",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "c8e5a731-cf98-4d9e-aa8c-59f1174e8cda",
+    "mainCategory": "Armure unique",
+    "subCategory": "",
+    "title": "Grève gauche de l'Apocalypse",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "d8e1e994-1330-46c4-a3e3-5cf78e723aa3",
+    "mainCategory": "Armure unique",
+    "subCategory": "",
+    "title": "Plastron des Black Ops",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "b3652e0d-5e1f-4b71-a363-7a37b8e14c62",
+    "mainCategory": "Armure unique",
+    "subCategory": "",
+    "title": "Chapeau du Capitaine Ironsides",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "b663e63d-6478-4153-a8a3-0e44c8b45d",
+    "mainCategory": "Armure unique",
+    "subCategory": "",
+    "title": "Plastron de champion",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "e35ebf4e-ec1d-4aaf-8ed6-99ef1f105f02",
+    "mainCategory": "Armure unique",
+    "subCategory": "",
+    "title": "Champion du bras gauche",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "df8c6fc1-8a7a-4f24-8aa5-6aa85b3a54a3",
+    "mainCategory": "Armure unique",
+    "subCategory": "",
+    "title": "Champion Bras Droit",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "c8e5a731-cf98-4d9e-aa8c-59f1174e8cda",
+    "mainCategory": "Armure unique",
+    "subCategory": "",
+    "title": "Pièce de coffre de commando",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "d8e1e994-1330-46c4-a3e3-5cf78e723aa4",
+    "mainCategory": "Armure unique",
+    "subCategory": "",
+    "title": "Casque de commando",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "b3652e0d-5e1f-4b71-a363-7a37b8e14c64",
+    "mainCategory": "Armure unique",
+    "subCategory": "",
+    "title": "Uniforme universitaire DB Tech",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "b663e63d-6478-4153-a8a3-0e44c8b45d",
+    "mainCategory": "Armure unique",
+    "subCategory": "",
+    "title": "Pièce de poitrine du destructeur",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "e35ebf4e-ec1d-4aaf-8ed6-99ef1f105f03",
+    "mainCategory": "Armure unique",
+    "subCategory": "",
+    "title": "Casque de destructeur",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "df8c6fc1-8a7a-4f24-8aa5-6aa85b3a54a4",
+    "mainCategory": "Armure unique",
+    "subCategory": "",
+    "title": "Bras gauche du destructeur",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "c8e5a731-cf98-4d9e-aa8c-59f1174e8cda",
+    "mainCategory": "Armure unique",
+    "subCategory": "",
+    "title": "Jambe gauche du destructeur",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "d8e1e994-1330-46c4-a3e3-5cf78e723aa5",
+    "mainCategory": "Armure unique",
+    "subCategory": "",
+    "title": "Jambe droite du destructeur",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "b3652e0d-5e1f-4b71-a363-7a37b8e14c66",
+    "mainCategory": "Armure unique",
+    "subCategory": "",
+    "title": "Plastron du Dévastateur",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "b663e63d-6478-4153-a8a3-0e44c8b45e",
+    "mainCategory": "Armure unique",
+    "subCategory": "",
+    "title": "Grève droite du dévastateur",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "e35ebf4e-ec1d-4aaf-8ed6-99ef1f105f04",
+    "mainCategory": "Armure unique",
+    "subCategory": "",
+    "title": "Torse T-60c exemplaire",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "df8c6fc1-8a7a-4f24-8aa5-6aa85b3a54a6",
+    "mainCategory": "Armure unique",
+    "subCategory": "",
+    "title": "Armure de chute libre, jambe gauche",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "c8e5a731-cf98-4d9e-aa8c-59f1174e8cda",
+    "mainCategory": "Armure unique",
+    "subCategory": "",
+    "title": "Armure de chute libre, jambe droite",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "d8e1e994-1330-46c4-a3e3-5cf78e723aa7",
+    "mainCategory": "Armure unique",
+    "subCategory": "",
+    "title": "Costume de Grognak",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "b3652e0d-5e1f-4b71-a363-7a37b8e14c68",
+    "mainCategory": "Armure unique",
+    "subCategory": "",
+    "title": "Honneur",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "e35ebf4e-ec1d-4aaf-8ed6-99ef1f105f01",
+    "mainCategory": "Armure unique",
+    "subCategory": "",
+    "title": "Les lunettes de Liam",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "df8c6fc1-8a7a-4f24-8aa5-6aa85b3a54a2",
+    "mainCategory": "Armure unique",
+    "subCategory": "",
+    "title": "Chapeau de lieutenant",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "c8e5a731-cf98-4d9e-aa8c-59f1174e8cda",
+    "mainCategory": "Armure unique",
+    "subCategory": "",
+    "title": "Garde-bras gauche Mantis",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "d8e1e994-1330-46c4-a3e3-5cf78e723aa3",
+    "mainCategory": "Armure unique",
+    "subCategory": "",
+    "title": "Grève gauche de Mantis",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "b3652e0d-5e1f-4b71-a363-7a37b8e14c62",
+    "mainCategory": "Armure unique",
+    "subCategory": "",
+    "title": "Pièce de coffre de synthétiseur Mark 2",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "b663e63d-6478-4153-a8a3-0e44c8b45d",
+    "mainCategory": "Armure unique",
+    "subCategory": "",
+    "title": "Casque synthétisé Mark 2",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "e35ebf4e-ec1d-4aaf-8ed6-99ef1f105f02",
+    "mainCategory": "Armure unique",
+    "subCategory": "",
+    "title": "Pièce de coffre de synthétiseur Mark 3",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "df8c6fc1-8a7a-4f24-8aa5-6aa85b3a54a3",
+    "mainCategory": "Armure unique",
+    "subCategory": "",
+    "title": "Bras droit du synthétiseur Mark 3",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "c8e5a731-cf98-4d9e-aa8c-59f1174e8cda",
+    "mainCategory": "Armure unique",
+    "subCategory": "",
+    "title": "Pièce de coffre de synthétiseur Mark 4",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "d8e1e994-1330-46c4-a3e3-5cf78e723aa4",
+    "mainCategory": "Armure unique",
+    "subCategory": "",
+    "title": "Jambe gauche du synthétiseur Mark 4",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "b3652e0d-5e1f-4b71-a363-7a37b8e14c64",
+    "mainCategory": "Armure unique",
+    "subCategory": "",
+    "title": "Tête de mascotte",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "b663e63d-6478-4153-a8a3-0e44c8b45d",
+    "mainCategory": "Armure unique",
+    "subCategory": "",
+    "title": "Chapeau de général des Minutemen",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "e35ebf4e-ec1d-4aaf-8ed6-99ef1f105f03",
+    "mainCategory": "Armure unique",
+    "subCategory": "",
+    "title": "Uniforme de général des Minutemen",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "df8c6fc1-8a7a-4f24-8aa5-6aa85b3a54a4",
+    "mainCategory": "Armure unique",
+    "subCategory": "",
+    "title": "Garde-bras gauche du surveillant",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "c8e5a731-cf98-4d9e-aa8c-59f1174e8cda",
+    "mainCategory": "Armure unique",
+    "subCategory": "",
+    "title": "Garde-bras droit du surveillant",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "d8e1e994-1330-46c4-a3e3-5cf78e723aa5",
+    "mainCategory": "Armure unique",
+    "subCategory": "",
+    "title": "Garde-bras gauche du protecteur",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "b3652e0d-5e1f-4b71-a363-7a37b8e14c66",
+    "mainCategory": "Armure unique",
+    "subCategory": "",
+    "title": "Garde-bras droit du protecteur",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "b663e63d-6478-4153-a8a3-0e44c8b45e",
+    "mainCategory": "Armure unique",
+    "subCategory": "",
+    "title": "Coffre d'armure assistée piézonucléique",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "e35ebf4e-ec1d-4aaf-8ed6-99ef1f105f01",
+    "mainCategory": "Armure unique",
+    "subCategory": "",
+    "title": "Le costume de Reginal",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "df8c6fc1-8a7a-4f24-8aa5-6aa85b3a54a2",
+    "mainCategory": "Armure unique",
+    "subCategory": "",
+    "title": "Armure du Linceul d'argent",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "c8e5a731-cf98-4d9e-aa8c-59f1174e8cda",
+    "mainCategory": "Armure unique",
+    "subCategory": "",
+    "title": "Chapeau Linceul Argenté",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "d8e1e994-1330-46c4-a3e3-5cf78e723aa3",
+    "mainCategory": "Armure unique",
+    "subCategory": "",
+    "title": "Pièce de poitrine d'armure de combat Steadfast BOS",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "b3652e0d-5e1f-4b71-a363-7a37b8e14c62",
+    "mainCategory": "Armure unique",
+    "subCategory": "",
+    "title": "La première de Tessa",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "b663e63d-6478-4153-a8a3-0e44c8b45d",
+    "mainCategory": "Armure unique",
+    "subCategory": "",
+    "title": "Casque T-60c du visionnaire",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "e35ebf4e-ec1d-4aaf-8ed6-99ef1f105f02",
+    "mainCategory": "Armure unique",
+    "subCategory": "",
+    "title": "Pièce de poitrine de Wastelander",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "df8c6fc1-8a7a-4f24-8aa5-6aa85b3a54a3",
+    "mainCategory": "Armure unique",
+    "subCategory": "",
+    "title": "Jambe droite de Wastelander",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "c8e5a731-cf98-4d9e-aa8c-59f1174e8cda",
+    "mainCategory": "Armure unique",
+    "subCategory": "",
+    "title": "Veste et jean de Zeke",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "c8e5a731-cf98-4d9e-aa8c-59f1174e8cda",
+    "mainCategory": "Atelier Vault-Tech",
+    "subCategory": "Armure unique",
+    "subCategoryType": "",
+    "title": "Légende de l'Abri 88",
+    "prerequisite": "",
+    "dlc": "Atelier Vault-Tech"
+  },
+  {
+    "id": "e35ebf4e-ec1d-4aaf-8ed6-99ef1f105f01",
+    "mainCategory": "Armure assistée",
+    "subCategory": "",
+    "title": "Armure assistée de raider",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "df8c6fc1-8a7a-4f24-8aa5-6aa85b3a54a2",
+    "mainCategory": "Armure assistée",
+    "subCategory": "",
+    "title": "Armure assistée T-45",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "c8e5a731-cf98-4d9e-aa8c-59f1174e8cda",
+    "mainCategory": "Armure assistée",
+    "subCategory": "",
+    "title": "Armure assistée T-51",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "d8e1e994-1330-46c4-a3e3-5cf78e723aa3",
+    "mainCategory": "Armure assistée",
+    "subCategory": "",
+    "title": "Armure assistée T-60",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  },
+  {
+    "id": "b3652e0d-5e1f-4b71-a363-7a37b8e14c62",
+    "mainCategory": "Armure assistée",
+    "subCategory": "",
+    "title": "Armure assistée X-01",
+    "prerequisite": "",
+    "dlc": "Aucun",
+    "subCategoryType": ""
+  }
+]

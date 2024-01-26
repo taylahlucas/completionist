@@ -1,0 +1,56 @@
+{
+  "appTitle": "पूर्णतावादी।",
+  "requestGameDesc": "बेझिझक किसी गेम के लिए अनुरोध करें, बग की रिपोर्ट करें या ऐप को बेहतर बनाने के लिए कुछ सुझाव दें!",
+  "quests": "खोज",
+  "collectables": "संग्रहणीय वस्तुएँ",
+  "locations": "स्थानों",
+  "miscellaneous": "मिश्रित",
+  "search": "आइटम खोजें...",
+  "showMore": "और दिखाओ",
+  "none": "कोई नहीं",
+  "main": "मुख्य",
+  "active": "सक्रिय",
+  "inactive": "निष्क्रिय",
+  "auth": {
+    "email": "ईमेल",
+    "password": "पासवर्ड",
+    "username": "उपयोगकर्ता नाम",
+    "forgotPassword": "पासवर्ड भूल गए?",
+    "signUp": "साइन अप करें",
+    "signIn": "दाखिल करना",
+    "createAccount": "खाता बनाएं",
+    "requestAccount": "कोई खाता नहीं है?",
+    "backToLogin": "लॉगिन पर वापस जाएं"
+  },
+  "subscriptions": {
+    "title": "सदस्यता"
+  },
+  "sendRequest": {
+    "title": "अनुरोध भेजा",
+    "subject": "विषय",
+    "writeRequest": "अपना अनुरोध यहां लिखें..."
+  },
+  "settings": {
+    "title": "समायोजन",
+    "description": "बेझिझक किसी गेम के लिए अनुरोध करें, बग की रिपोर्ट करें या ऐप को बेहतर बनाने के लिए कुछ सुझाव दें!",
+    "setCollections": "संग्रह सेट करें:",
+    "enabledDLC": "डीएलसी सक्षम/अक्षम करें:",
+    "showHide": "छिपा हुया दिखाओ:",
+    "completedItems": "पूर्ण आइटम",
+    "disabledSections": "विकलांग अनुभाग"
+  },
+  "errors": {
+    "noEmailExists": "ईमेल मौजूद नहीं है",
+    "googleSignIn": "गूगल साइन इन में त्रुटि"
+  },
+  "skyrimDLC": {
+    "dawnguard": "दावन्गार्ड",
+    "dragonborn": "ड्रैगनबोर्न"
+  },
+  "fallout4DLC": {
+    "automatron": "नुका-विश्व",
+    "farHarbor": "सुदूर बंदरगाह",
+    "nukaWorld": "नुका-विश्व",
+    "vaultTecWorkshop": "वॉल्ट-टेक कार्यशाला"
+  }
+}
