@@ -59,6 +59,7 @@ npx react-native run-ios --port 8002
 - glob
 - lodash
 - @types/lodash
+- moment
 
 ## Backend
 

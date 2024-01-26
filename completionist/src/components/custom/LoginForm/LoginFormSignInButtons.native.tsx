@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import useGetLoginMethods from './hooks/useGetLoginMethods';
 import Button from '@components/general/Button/Button.native';
 import { LoginFormButtonContainer, LoginFormFooterContainer } from './LoginFormStyledComponents.native';
@@ -9,6 +10,7 @@ import StyledText from '@components/general/Text/StyledText.native';
 import Condition from '@components/general/Condition.native';
 
 const LoginFormSignInButtons = () => {
+  const { t } = useTranslation();
   const { createUser, userSignIn, googleSignIn } = useGetLoginMethods();
   const { triggerIsSigningUp } = useLoginDispatch();
   const { loginFormData, isSigningUp } = useLoginState();
@@ -17,7 +19,7 @@ const LoginFormSignInButtons = () => {
   return (
     <>
       <Button
-        title={isSigningUp ? "Create Account" : "Login"}
+        title={isSigningUp ? t('common:auth.createAccount') : t('common:auth.login')}
         style={{ marginTop: 16, marginBottom: 32 }}
         disabled={!loginFormData.email || !loginFormData.password}
         onPress={() => isSigningUp ? createUser() : userSignIn()}
@@ -35,7 +37,7 @@ const LoginFormSignInButtons = () => {
           <StyledText>Don't have an account?</StyledText>
         </Condition>
           <Button
-            title={!isSigningUp ? "Sign up" : "Back to Login"}
+            title={!isSigningUp ? t('common:auth.signUp') : t('common:auth.backToLogin')}
             type={'text'}
             onPress={(): void => triggerIsSigningUp(!isSigningUp)}
           />

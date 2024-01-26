@@ -16,8 +16,8 @@
     "password": "Password",
     "username": "Username",
     "forgotPassword": "Forgot Password?",
+    "login": "Login",
     "signUp": "Sign Up",
-    "signIn": "Sign In",
     "createAccount": "Create Account",
     "requestAccount": "Don't have an account?",
     "backToLogin": "Back to Login"

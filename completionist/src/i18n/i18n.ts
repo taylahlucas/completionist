@@ -1,5 +1,3 @@
-// TODO: Uncommet when resources.json has been generated
-
 import i18n from 'i18next';
 import { languages, namespace } from './i18n-common';
 import XHR from 'i18next-http-backend';

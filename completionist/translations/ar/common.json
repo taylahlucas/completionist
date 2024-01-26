@@ -16,8 +16,8 @@
     "password": "كلمة المرور",
     "username": "اسم المستخدم",
     "forgotPassword": "هل نسيت كلمة السر؟",
+    "login": "تسجيل الدخول",
     "signUp": "اشتراك",
-    "signIn": "تسجيل الدخول",
     "createAccount": "إنشاء حساب",
     "requestAccount": "ليس لديك حساب؟",
     "backToLogin": "العودة إلى تسجيل الدخول"

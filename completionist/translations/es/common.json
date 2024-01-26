@@ -16,8 +16,8 @@
     "password": "Contraseña",
     "username": "Nombre de usuario",
     "forgotPassword": "¿Has olvidado tu contraseña?",
+    "login": "Acceso",
     "signUp": "Inscribirse",
-    "signIn": "Iniciar sesión",
     "createAccount": "Crear una cuenta",
     "requestAccount": "¿No tienes una cuenta?",
     "backToLogin": "Atrás para iniciar sesión"

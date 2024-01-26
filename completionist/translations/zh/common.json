@@ -16,8 +16,8 @@
     "password": "密码",
     "username": "用户名",
     "forgotPassword": "忘记密码？",
+    "login": "登录",
     "signUp": "报名",
-    "signIn": "登入",
     "createAccount": "创建账户",
     "requestAccount": "没有帐户？",
     "backToLogin": "回到登入"

@@ -16,8 +16,8 @@
     "password": "Şifre",
     "username": "Kullanıcı adı",
     "forgotPassword": "Parolanızı mı unuttunuz?",
+    "login": "Giriş yapmak",
     "signUp": "Üye olmak",
-    "signIn": "Kayıt olmak",
     "createAccount": "Hesap oluşturmak",
     "requestAccount": "Hesabınız yok mu?",
     "backToLogin": "Girişe Geri Dön"

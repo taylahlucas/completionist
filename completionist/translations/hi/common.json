@@ -16,8 +16,8 @@
     "password": "पासवर्ड",
     "username": "उपयोगकर्ता नाम",
     "forgotPassword": "पासवर्ड भूल गए?",
+    "login": "लॉग इन करें",
     "signUp": "साइन अप करें",
-    "signIn": "दाखिल करना",
     "createAccount": "खाता बनाएं",
     "requestAccount": "कोई खाता नहीं है?",
     "backToLogin": "लॉगिन पर वापस जाएं"

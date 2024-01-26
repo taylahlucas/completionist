@@ -18,8 +18,8 @@
         "password": "密码",
         "username": "用户名",
         "forgotPassword": "忘记密码？",
+        "login": "登录",
         "signUp": "报名",
-        "signIn": "登入",
         "createAccount": "创建账户",
         "requestAccount": "没有帐户？",
         "backToLogin": "回到登入"
@@ -76,8 +76,8 @@
         "password": "Mật khẩu",
         "username": "tên tài khoản",
         "forgotPassword": "Quên mật khẩu?",
+        "login": "Đăng nhập",
         "signUp": "Đăng ký",
-        "signIn": "Đăng nhập",
         "createAccount": "Tạo tài khoản",
         "requestAccount": "Bạn chưa có tài khoản?",
         "backToLogin": "Quay lại đăng nhập"
@@ -134,8 +134,8 @@
         "password": "Şifre",
         "username": "Kullanıcı adı",
         "forgotPassword": "Parolanızı mı unuttunuz?",
+        "login": "Giriş yapmak",
         "signUp": "Üye olmak",
-        "signIn": "Kayıt olmak",
         "createAccount": "Hesap oluşturmak",
         "requestAccount": "Hesabınız yok mu?",
         "backToLogin": "Girişe Geri Dön"
@@ -192,8 +192,8 @@
         "password": "Senha",
         "username": "Nome de usuário",
         "forgotPassword": "Esqueceu sua senha?",
+        "login": "Conecte-se",
         "signUp": "Inscrever-se",
-        "signIn": "Entrar",
         "createAccount": "Criar uma conta",
         "requestAccount": "Não tem uma conta?",
         "backToLogin": "Volte ao login"
@@ -250,8 +250,8 @@
         "password": "パスワード",
         "username": "ユーザー名",
         "forgotPassword": "パスワードをお忘れですか？",
+        "login": "ログイン",
         "signUp": "サインアップ",
-        "signIn": "サインイン",
         "createAccount": "アカウントを作成する",
         "requestAccount": "アカウントをお持ちでない場合は、",
         "backToLogin": "ログインに戻る"
@@ -308,8 +308,8 @@
         "password": "Parola d'ordine",
         "username": "Nome utente",
         "forgotPassword": "Ha dimenticato la password?",
+        "login": "Login",
         "signUp": "Iscrizione",
-        "signIn": "Registrazione",
         "createAccount": "Creare un account",
         "requestAccount": "Non hai un account?",
         "backToLogin": "Torna al login"
@@ -366,8 +366,8 @@
         "password": "Kata sandi",
         "username": "Nama belakang",
         "forgotPassword": "Tidak ingat kata sandi?",
+        "login": "Gabung",
         "signUp": "Mendaftar",
-        "signIn": "Masuk",
         "createAccount": "Buat Akun",
         "requestAccount": "Belum punya akun?",
         "backToLogin": "Kembali untuk masuk"
@@ -424,8 +424,8 @@
         "password": "पासवर्ड",
         "username": "उपयोगकर्ता नाम",
         "forgotPassword": "पासवर्ड भूल गए?",
+        "login": "लॉग इन करें",
         "signUp": "साइन अप करें",
-        "signIn": "दाखिल करना",
         "createAccount": "खाता बनाएं",
         "requestAccount": "कोई खाता नहीं है?",
         "backToLogin": "लॉगिन पर वापस जाएं"
@@ -482,8 +482,8 @@
         "password": "Mot de passe",
         "username": "Nom d'utilisateur",
         "forgotPassword": "Mot de passe oublié?",
+        "login": "Se connecter",
         "signUp": "S'inscrire",
-        "signIn": "Se connecter",
         "createAccount": "Créer un compte",
         "requestAccount": "Vous n'avez pas de compte ?",
         "backToLogin": "Retour connexion"
@@ -540,8 +540,8 @@
         "password": "Contraseña",
         "username": "Nombre de usuario",
         "forgotPassword": "¿Has olvidado tu contraseña?",
+        "login": "Acceso",
         "signUp": "Inscribirse",
-        "signIn": "Iniciar sesión",
         "createAccount": "Crear una cuenta",
         "requestAccount": "¿No tienes una cuenta?",
         "backToLogin": "Atrás para iniciar sesión"
@@ -598,8 +598,8 @@
         "password": "Password",
         "username": "Username",
         "forgotPassword": "Forgot Password?",
+        "login": "Login",
         "signUp": "Sign Up",
-        "signIn": "Sign In",
         "createAccount": "Create Account",
         "requestAccount": "Don't have an account?",
         "backToLogin": "Back to Login"
@@ -656,8 +656,8 @@
         "password": "Passwort",
         "username": "Nutzername",
         "forgotPassword": "Passwort vergessen?",
+        "login": "Anmeldung",
         "signUp": "Melden Sie sich an",
-        "signIn": "Anmelden",
         "createAccount": "Benutzerkonto erstellen",
         "requestAccount": "Sie haben noch kein Konto?",
         "backToLogin": "Zurück zur Anmeldung"
@@ -714,8 +714,8 @@
         "password": "كلمة المرور",
         "username": "اسم المستخدم",
         "forgotPassword": "هل نسيت كلمة السر؟",
+        "login": "تسجيل الدخول",
         "signUp": "اشتراك",
-        "signIn": "تسجيل الدخول",
         "createAccount": "إنشاء حساب",
         "requestAccount": "ليس لديك حساب؟",
         "backToLogin": "العودة إلى تسجيل الدخول"

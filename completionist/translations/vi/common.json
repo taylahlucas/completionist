@@ -16,8 +16,8 @@
     "password": "Mật khẩu",
     "username": "tên tài khoản",
     "forgotPassword": "Quên mật khẩu?",
+    "login": "Đăng nhập",
     "signUp": "Đăng ký",
-    "signIn": "Đăng nhập",
     "createAccount": "Tạo tài khoản",
     "requestAccount": "Bạn chưa có tài khoản?",
     "backToLogin": "Quay lại đăng nhập"

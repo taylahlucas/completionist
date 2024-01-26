@@ -16,8 +16,8 @@
     "password": "パスワード",
     "username": "ユーザー名",
     "forgotPassword": "パスワードをお忘れですか？",
+    "login": "ログイン",
     "signUp": "サインアップ",
-    "signIn": "サインイン",
     "createAccount": "アカウントを作成する",
     "requestAccount": "アカウントをお持ちでない場合は、",
     "backToLogin": "ログインに戻る"

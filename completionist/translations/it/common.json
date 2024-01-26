@@ -16,8 +16,8 @@
     "password": "Parola d'ordine",
     "username": "Nome utente",
     "forgotPassword": "Ha dimenticato la password?",
+    "login": "Login",
     "signUp": "Iscrizione",
-    "signIn": "Registrazione",
     "createAccount": "Creare un account",
     "requestAccount": "Non hai un account?",
     "backToLogin": "Torna al login"

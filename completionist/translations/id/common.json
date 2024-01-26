@@ -16,8 +16,8 @@
     "password": "Kata sandi",
     "username": "Nama belakang",
     "forgotPassword": "Tidak ingat kata sandi?",
+    "login": "Gabung",
     "signUp": "Mendaftar",
-    "signIn": "Masuk",
     "createAccount": "Buat Akun",
     "requestAccount": "Belum punya akun?",
     "backToLogin": "Kembali untuk masuk"
