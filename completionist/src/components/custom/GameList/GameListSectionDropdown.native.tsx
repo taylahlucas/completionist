@@ -1,10 +1,8 @@
 import React, { useState } from 'react';
 import { View } from 'react-native';
 import Dropdown from '@components/general/Dropdown/Dropdown.native';
-import StyledText from '@components/general/Text/StyledText.native';
 import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
 import useGetGameImage from './hooks/useGetGameImage.native';
-import useMainState from '@redux/hooks/useMainState';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
 import GameListItem from './GameListItem.native';
 import { ScreenEnum } from '@utils/CustomEnums';
@@ -21,7 +19,7 @@ const GameListSectionDropdown = ({ title, data }: GameListSectionDropdown) => {
   const { setSelectedGame, setSelectedGameSettings, reset } = useMainDispatch();
   const { getGameImage } = useGetGameImage();
   const [isOpen, setIsOpen] = useState(true);
-  
+
   return (
     <Dropdown
       header={<GameListSectionHeader isOpen={isOpen} title={title} />}

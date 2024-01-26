@@ -47,6 +47,14 @@ npx react-native run-ios --port 8002
 - uuid
 - @types/uuid
 
+- i18next-http-backend
+- i18n
+- react-i18next
+- react-native-localize
+- i18next-browser-languagedetector
+- glob
+- @types/lodash
+
 ## Backend
 
 - mongoose
@@ -61,3 +69,15 @@ npx react-native run-ios --port 8002
 - poassport-google-oauth20
 - crypto
 - nodemailer
+
+
+## Updating translations
+
+Pull from master:
+- git submodule foreach git pull origin branch_name
+
+Update:
+- git submodule update --init --recursive --remote translations
+
+Confirm:
+- npm run generate-locale
