@@ -9,20 +9,33 @@ import useGetTheme from '@styles/hooks/useGetTheme';
 import useSettingsState from './hooks/useSettingsState';
 import useSettingsDispatch from './hooks/useSettingsDispatch';
 import SettingsContentCheckBox from './SettingsContentCheckbox.native';
+import useMainState from '@redux/hooks/useMainState';
+import { useTranslation } from 'react-i18next';
 
 interface SettingsContentItemDropdownProps {
   item: SettingsConfigItem;
 }
 
 const SettingsContentItemDropdown = ({ item }: SettingsContentItemDropdownProps) => {
+  const { t } = useTranslation();
   const theme = useGetTheme();
+  const { selectedGameSettings } = useMainState();
   const { setSelectedCategory } = useSettingsDispatch();
   const { selectedCategory } = useSettingsState();
   const { getUserSettingsSubConfig } = useGetUserGameData();
 
+  const capitalize = (str: string) => {
+    return str.charAt(0).toUpperCase() + str.slice(1);
+  };
+
   const convertToCamelCase = (value: string) => {
-    const splitValue = value.split(/\s+|-/);
-    // todo: test here
+    let splitValue = value.split(/\s+|-/);
+
+    if (splitValue.length > 1) {
+      splitValue = splitValue.map((item, index) => index === 0 ? item.toLocaleLowerCase() : capitalize(item));
+      return splitValue.join().replace(",", '');
+    }
+    return splitValue[0].toLocaleLowerCase();
   };
 
   return (
@@ -38,7 +51,8 @@ const SettingsContentItemDropdown = ({ item }: SettingsContentItemDropdownProps)
         {getUserSettingsSubConfig(item.section).map((item, index) => (
           <SettingsContentSubItemContainer key={index} color={theme.darkGrey}>
             <StyledText color={theme.lightGrey} align={'left'}>
-              {item.category === 'None' ? 'Main' : item.category}
+              {/* // TODO: HEree */}
+            {item.category === 'None' ? 'Main' : t(`categories:${selectedGameSettings.toLocaleLowerCase()}.categories.${item.section.toLocaleLowerCase()}.${convertToCamelCase(item.category)}`)}
             </StyledText>
             <SettingsContentCheckBox item={item} />
           </SettingsContentSubItemContainer>
