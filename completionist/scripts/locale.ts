@@ -3,7 +3,8 @@ import { globSync } from 'glob';
 import fs from 'fs';
 import last from 'lodash/last';
 
-const localesPattern = './translations/*/common.json';
+// const localesPattern = './translations/*/common.json';
+const localesPattern = './translations/*/*.json';
 const resourcesDir = './src/i18n/locales/';
 const resourcesFile = resourcesDir + 'resources.json';
 

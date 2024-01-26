@@ -34,7 +34,7 @@ const LoginFormSignInButtons = () => {
       </LoginFormButtonContainer>
       <LoginFormFooterContainer>
         <Condition condition={!isSigningUp}>
-          <StyledText>Don't have an account?</StyledText>
+          <StyledText>{t('common:auth.requestAccount')}</StyledText>
         </Condition>
           <Button
             title={!isSigningUp ? t('common:auth.signUp') : t('common:auth.backToLogin')}

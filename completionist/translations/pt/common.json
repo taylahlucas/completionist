@@ -1,10 +1,6 @@
 {
   "appTitle": "Completista.",
-  "requestGameDesc": "Fique à vontade para solicitar um jogo, reportar um bug ou fazer sugestões para melhorar o app!",
-  "quests": "Missões",
-  "collectables": "Colecionáveis",
-  "locations": "Localizações",
-  "miscellaneous": "Diversos",
+  "welcome": "Bem-vindo",
   "search": "Pesquisar itens...",
   "showMore": "Mostre mais",
   "none": "Nenhum",
@@ -17,21 +13,28 @@
     "username": "Nome de usuário",
     "forgotPassword": "Esqueceu sua senha?",
     "login": "Conecte-se",
+    "logout": "Sair",
     "signUp": "Inscrever-se",
     "createAccount": "Criar uma conta",
     "requestAccount": "Não tem uma conta?",
     "backToLogin": "Volte ao login"
   },
-  "subscriptions": {
-    "title": "Assinaturas"
+  "screens": {
+    "quests": "Missões",
+    "collectables": "Colecionáveis",
+    "locations": "Localizações",
+    "miscellaneous": "Diversos",
+    "gameSelection": "Seleção de jogos",
+    "sendRequest": "Enviar pedido",
+    "subscriptions": "Assinaturas",
+    "settings": "Configurações"
   },
   "sendRequest": {
-    "title": "Enviar pedido",
     "subject": "Assunto",
-    "writeRequest": "Escreva aqui o seu pedido..."
+    "writeRequest": "Escreva aqui o seu pedido...",
+    "requestGameDesc": "Fique à vontade para solicitar um jogo, reportar um bug ou fazer sugestões para melhorar o app!"
   },
   "settings": {
-    "title": "Configurações",
     "description": "Fique à vontade para solicitar um jogo, reportar um bug ou fazer sugestões para melhorar o app!",
     "setCollections": "Definir coleções:",
     "enabledDLC": "Ativar/Desativar DLC:",
@@ -40,17 +43,9 @@
     "disabledSections": "Seções desativadas"
   },
   "errors": {
+    "error": "Erro",
+    "pleaseRefreshApp": "Atualize o aplicativo",
     "noEmailExists": "E-mail não existe",
     "googleSignIn": "Erro ao fazer login no Google"
-  },
-  "skyrimDLC": {
-    "dawnguard": "Dawnguard",
-    "dragonborn": "Draconato"
-  },
-  "fallout4DLC": {
-    "automatron": "Nuka-Mundo",
-    "farHarbor": "Porto Distante",
-    "nukaWorld": "Nuka-Mundo",
-    "vaultTecWorkshop": "Oficina Vault-Tec"
   }
 }

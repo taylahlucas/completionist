@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import SettingsGameSelectionContent from './SettingsGameSelectionContent.native';
 import ScrollableList from '@components/general/Lists/ScrollableList.native';
 import { SettingsContentDescription } from './SettingsContentStyledComponents.native';
@@ -8,6 +9,7 @@ import useGetShowHideOptions from './hooks/useGetShowHideOptions';
 import useSettingsOptionsOnPress from './hooks/useSettingsOptionsOnPress.native';
 
 const SettingsContent = () => {
+  const { t } = useTranslation();
   const { useGetDLCOptions, useSetDLCOptions } = useDLCOptions();
   const options = useGetShowHideOptions();
   const { settingsOptionsOnPress } = useSettingsOptionsOnPress();
@@ -19,7 +21,7 @@ const SettingsContent = () => {
         type={'ListItemSubTitle'}
         align={'left'}
       >
-        Enable/Disable DLC:
+        {t('common:settings.enabledDLC')}
       </SettingsContentDescription>
       <SelectionList data={useGetDLCOptions()} onPress={useSetDLCOptions} />
 
@@ -27,7 +29,7 @@ const SettingsContent = () => {
         type={'ListItemSubTitle'}
         align={'left'}
       >
-        Show/Hide:
+        {t('common:settings.showHide')}
       </SettingsContentDescription>
       <SelectionList data={options} onPress={(id: string): void => settingsOptionsOnPress(id)} />
     </ScrollableList>

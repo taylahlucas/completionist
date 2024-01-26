@@ -9,7 +9,7 @@ const Login = () => {
   
   return (
     <StandardLayout>
-      <NavigationHeader title={t('common:title')} leftAction={'none'} />
+      <NavigationHeader title={t('common:appTitle')} leftAction={'none'} />
       <LoginFormContent />
     </StandardLayout>
   );

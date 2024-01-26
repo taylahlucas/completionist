@@ -2,11 +2,7 @@
   "zh": {
     "common": {
       "appTitle": "完美主义者。",
-      "requestGameDesc": "请随意请求游戏、报告错误或提出一些改进应用程序的建议！",
-      "quests": "任务",
-      "collectables": "收藏品",
-      "locations": "地点",
-      "miscellaneous": "各种各样的",
+      "welcome": "欢迎",
       "search": "搜索项目...",
       "showMore": "展示更多",
       "none": "没有任何",
@@ -19,21 +15,28 @@
         "username": "用户名",
         "forgotPassword": "忘记密码？",
         "login": "登录",
+        "logout": "登出",
         "signUp": "报名",
         "createAccount": "创建账户",
         "requestAccount": "没有帐户？",
         "backToLogin": "回到登入"
       },
-      "subscriptions": {
-        "title": "订阅"
+      "screens": {
+        "quests": "任务",
+        "collectables": "收藏品",
+        "locations": "地点",
+        "miscellaneous": "各种各样的",
+        "gameSelection": "游戏选择",
+        "sendRequest": "发送请求",
+        "subscriptions": "订阅",
+        "settings": "设置"
       },
       "sendRequest": {
-        "title": "发送请求",
         "subject": "主题",
-        "writeRequest": "在这里写下您的要求..."
+        "writeRequest": "在这里写下您的要求...",
+        "requestGameDesc": "请随意请求游戏、报告错误或提出一些改进应用程序的建议！"
       },
       "settings": {
-        "title": "设置",
         "description": "请随意请求游戏、报告错误或提出一些改进应用程序的建议！",
         "setCollections": "设置集合：",
         "enabledDLC": "启用/禁用 DLC：",
@@ -42,29 +45,92 @@
         "disabledSections": "残疾人部分"
       },
       "errors": {
+        "error": "错误",
+        "pleaseRefreshApp": "请刷新应用程序",
         "noEmailExists": "电子邮件不存在",
         "googleSignIn": "谷歌登录出错"
+      }
+    },
+    "categories": {
+      "skyrim": {
+        "title": "天际",
+        "categories": {
+          "quests": {
+            "title": "任务",
+            "mainQuests": "主线任务",
+            "factionQuests": "派系任务",
+            "civilWar": "内战",
+            "daedricQuests": "魔族任务",
+            "dungeonQuests": "地下城任务",
+            "miscQuests": "杂项任务",
+            "bountyQuests": "赏金任务",
+            "globalQuests": "全球任务"
+          },
+          "collectables": {
+            "title": "收藏品",
+            "dragonPriestMasks": "龙祭司面具",
+            "daedricArtefacts": "魔族文物",
+            "bugInJar": "罐子里的虫子",
+            "shouts": "喊叫声",
+            "uniqueArmourSets": "独特的装甲套装",
+            "uniqueWeapons": "独特的武器",
+            "shrines": "神社",
+            "stones": "石头"
+          },
+          "locations": {
+            "title": "地点"
+          },
+          "miscellaneous": {
+            "title": "各种各样的",
+            "books": "图书",
+            "spellTomes": "法术书",
+            "journals": "期刊"
+          }
+        },
+        "dlc": {
+          "dawnguard": "黎明守卫",
+          "dragonborn": "龙裔",
+          "hearthfire": "炉火"
+        }
       },
-      "skyrimDLC": {
-        "dawnguard": "黎明守卫",
-        "dragonborn": "龙裔"
-      },
-      "fallout4DLC": {
-        "automatron": "核子世界",
-        "farHarbor": "远港",
-        "nukaWorld": "核子世界",
-        "vaultTecWorkshop": "Vault-Tec 研讨会"
+      "fallout4": {
+        "title": "辐射4",
+        "categories": {
+          "quests": {
+            "title": "任务",
+            "mainQuests": "主线任务",
+            "factionQuests": "派系任务",
+            "sideQuests": "支线任务"
+          },
+          "collectables": {
+            "title": "收藏品",
+            "boobleheads": "摇头娃娃",
+            "magazines": "杂志",
+            "uniqueWeapons": "独特的武器",
+            "uniqueArmour": "独特的盔甲",
+            "powerArmour": "动力装甲"
+          },
+          "locations": {
+            "title": "地点"
+          },
+          "miscellaneous": {
+            "title": "各种各样的",
+            "holotapes": "全息带"
+          }
+        },
+        "dlc": {
+          "automatron": "自动机",
+          "farHarbor": "远港",
+          "nukaWorld": "核子世界",
+          "vaultTecWorkshop": "Vault-Tec 研讨会"
+        }
       }
     }
   },
   "vi": {
     "common": {
       "appTitle": "Người theo chủ nghĩa hoàn thiện.",
-      "requestGameDesc": "Vui lòng yêu cầu trò chơi, báo cáo lỗi hoặc đưa ra một số đề xuất để cải thiện ứng dụng!",
-      "quests": "Nhiệm vụ",
-      "collectables": "Đồ sưu tầm",
-      "locations": "Địa điểm",
-      "miscellaneous": "Điều khoản khác",
+      "welcome": "Chào mừng",
       "search": "Tìm kiếm các mục...",
       "showMore": "Cho xem nhiều hơn",
       "none": "Không có",
@@ -77,21 +143,28 @@
         "username": "tên tài khoản",
         "forgotPassword": "Quên mật khẩu?",
         "login": "Đăng nhập",
+        "logout": "Đăng xuất",
         "signUp": "Đăng ký",
         "createAccount": "Tạo tài khoản",
         "requestAccount": "Bạn chưa có tài khoản?",
         "backToLogin": "Quay lại đăng nhập"
       },
-      "subscriptions": {
-        "title": "Đăng ký"
+      "screens": {
+        "quests": "Nhiệm vụ",
+        "collectables": "Đồ sưu tầm",
+        "locations": "Địa điểm",
+        "miscellaneous": "Điều khoản khác",
+        "gameSelection": "Lựa chọn trò chơi",
+        "sendRequest": "Gửi yêu cầu",
+        "subscriptions": "Đăng ký",
+        "settings": "Cài đặt"
       },
       "sendRequest": {
-        "title": "Gửi yêu cầu",
         "subject": "Chủ thể",
-        "writeRequest": "Viết yêu cầu của bạn ở đây..."
+        "writeRequest": "Viết yêu cầu của bạn ở đây...",
+        "requestGameDesc": "Vui lòng yêu cầu trò chơi, báo cáo lỗi hoặc đưa ra một số đề xuất để cải thiện ứng dụng!"
       },
       "settings": {
-        "title": "Cài đặt",
         "description": "Vui lòng yêu cầu trò chơi, báo cáo lỗi hoặc đưa ra một số đề xuất để cải thiện ứng dụng!",
         "setCollections": "Đặt bộ sưu tập:",
         "enabledDLC": "Bật/Tắt DLC:",
@@ -100,29 +173,92 @@
         "disabledSections": "Phần bị vô hiệu hóa"
       },
       "errors": {
+        "error": "Lỗi",
+        "pleaseRefreshApp": "Vui lòng làm mới ứng dụng",
         "noEmailExists": "Email không tồn tại",
         "googleSignIn": "Lỗi đăng nhập google"
+      }
+    },
+    "categories": {
+      "skyrim": {
+        "title": "Skyrim",
+        "categories": {
+          "quests": {
+            "title": "Nhiệm vụ",
+            "mainQuests": "Nhiệm vụ chính",
+            "factionQuests": "Nhiệm vụ phe phái",
+            "civilWar": "Nội chiến",
+            "daedricQuests": "Nhiệm vụ Daedric",
+            "dungeonQuests": "Nhiệm vụ ngục tối",
+            "miscQuests": "Nhiệm vụ khác",
+            "bountyQuests": "Nhiệm vụ tiền thưởng",
+            "globalQuests": "Nhiệm vụ toàn cầu"
+          },
+          "collectables": {
+            "title": "Đồ sưu tầm",
+            "dragonPriestMasks": "Mặt nạ linh mục rồng",
+            "daedricArtefacts": "Cổ vật Daedric",
+            "bugInJar": "Lỗi trong lọ",
+            "shouts": "Tiếng la hét",
+            "uniqueArmourSets": "Bộ áo giáp độc đáo",
+            "uniqueWeapons": "Vũ khí độc đáo",
+            "shrines": "Đền thờ",
+            "stones": "Đá"
+          },
+          "locations": {
+            "title": "Địa điểm"
+          },
+          "miscellaneous": {
+            "title": "Điều khoản khác",
+            "books": "Sách",
+            "spellTomes": "Sách đánh vần",
+            "journals": "tạp chí"
+          }
+        },
+        "dlc": {
+          "dawnguard": "Bình minh",
+          "dragonborn": "con rồng",
+          "hearthfire": "lửa lò sưởi"
+        }
       },
-      "skyrimDLC": {
-        "dawnguard": "Bình minh",
-        "dragonborn": "con rồng"
-      },
-      "fallout4DLC": {
-        "automatron": "Thế giới Nuka",
-        "farHarbor": "Cảng xa",
-        "nukaWorld": "Thế giới Nuka",
-        "vaultTecWorkshop": "Hội thảo Vault-Tec"
+      "fallout4": {
+        "title": "bụi phóng xạ 4",
+        "categories": {
+          "quests": {
+            "title": "Nhiệm vụ",
+            "mainQuests": "Nhiệm vụ chính",
+            "factionQuests": "Nhiệm vụ phe phái",
+            "sideQuests": "Nhiệm vụ phụ"
+          },
+          "collectables": {
+            "title": "Đồ sưu tầm",
+            "boobleheads": "tóc bồng bềnh",
+            "magazines": "Tạp chí thời sự",
+            "uniqueWeapons": "Vũ khí độc đáo",
+            "uniqueArmour": "Giáp độc nhất",
+            "powerArmour": "Giáp sức mạnh"
+          },
+          "locations": {
+            "title": "Địa điểm"
+          },
+          "miscellaneous": {
+            "title": "Điều khoản khác",
+            "holotapes": "ảnh ba chiều"
+          }
+        },
+        "dlc": {
+          "automatron": "Máy tự động",
+          "farHarbor": "Cảng xa",
+          "nukaWorld": "Thế giới Nuka",
+          "vaultTecWorkshop": "Hội thảo Vault-Tec"
+        }
       }
     }
   },
   "tr": {
     "common": {
       "appTitle": "Tamamlayıcı.",
-      "requestGameDesc": "Bir oyun talep etmekten, bir hatayı bildirmekten veya uygulamayı geliştirmek için bazı önerilerde bulunmaktan çekinmeyin!",
-      "quests": "Görevler",
-      "collectables": "Koleksiyon parçaları",
-      "locations": "Konumlar",
-      "miscellaneous": "Çeşitli",
+      "welcome": "Hoş geldin",
       "search": "Öğeleri ara...",
       "showMore": "Daha fazla göster",
       "none": "Hiçbiri",
@@ -135,21 +271,28 @@
         "username": "Kullanıcı adı",
         "forgotPassword": "Parolanızı mı unuttunuz?",
         "login": "Giriş yapmak",
+        "logout": "Çıkış Yap",
         "signUp": "Üye olmak",
         "createAccount": "Hesap oluşturmak",
         "requestAccount": "Hesabınız yok mu?",
         "backToLogin": "Girişe Geri Dön"
       },
-      "subscriptions": {
-        "title": "Abonelikler"
+      "screens": {
+        "quests": "Görevler",
+        "collectables": "Koleksiyon parçaları",
+        "locations": "Konumlar",
+        "miscellaneous": "Çeşitli",
+        "gameSelection": "Oyun Seçimi",
+        "sendRequest": "İstek gönder",
+        "subscriptions": "Abonelikler",
+        "settings": "Ayarlar"
       },
       "sendRequest": {
-        "title": "İstek gönder",
         "subject": "Ders",
-        "writeRequest": "Talebinizi buraya yazın..."
+        "writeRequest": "Talebinizi buraya yazın...",
+        "requestGameDesc": "Bir oyun talep etmekten, bir hatayı bildirmekten veya uygulamayı geliştirmek için bazı önerilerde bulunmaktan çekinmeyin!"
       },
       "settings": {
-        "title": "Ayarlar",
         "description": "Bir oyun talep etmekten, bir hatayı bildirmekten veya uygulamayı geliştirmek için bazı önerilerde bulunmaktan çekinmeyin!",
         "setCollections": "Koleksiyonları ayarlayın:",
         "enabledDLC": "DLC'yi Etkinleştir/Devre Dışı Bırak:",
@@ -158,29 +301,92 @@
         "disabledSections": "Engelli Bölümler"
       },
       "errors": {
+        "error": "Hata",
+        "pleaseRefreshApp": "Lütfen uygulamayı yenileyin",
         "noEmailExists": "E-posta mevcut değil",
         "googleSignIn": "Google oturum açma hatası"
+      }
+    },
+    "categories": {
+      "skyrim": {
+        "title": "Skyrim",
+        "categories": {
+          "quests": {
+            "title": "Görevler",
+            "mainQuests": "Ana Görevler",
+            "factionQuests": "Fraksiyon Görevleri",
+            "civilWar": "İç savaş",
+            "daedricQuests": "Daedrik Görevler",
+            "dungeonQuests": "Zindan Görevleri",
+            "miscQuests": "Çeşitli Görevler",
+            "bountyQuests": "Ödül Görevleri",
+            "globalQuests": "Küresel Görevler"
+          },
+          "collectables": {
+            "title": "Koleksiyon parçaları",
+            "dragonPriestMasks": "Ejderha Rahibi Maskeleri",
+            "daedricArtefacts": "Daedrik Eserler",
+            "bugInJar": "Kavanozdaki Böcek",
+            "shouts": "Bağırışlar",
+            "uniqueArmourSets": "Benzersiz Zırh Setleri",
+            "uniqueWeapons": "Benzersiz Silahlar",
+            "shrines": "Türbeler",
+            "stones": "Taşlar"
+          },
+          "locations": {
+            "title": "Konumlar"
+          },
+          "miscellaneous": {
+            "title": "Çeşitli",
+            "books": "Kitabın",
+            "spellTomes": "Büyü Kitapları",
+            "journals": "Günlükler"
+          }
+        },
+        "dlc": {
+          "dawnguard": "Şafak Muhafızı",
+          "dragonborn": "Dragonborn",
+          "hearthfire": "Ocak ateşi"
+        }
       },
-      "skyrimDLC": {
-        "dawnguard": "Şafak Muhafızı",
-        "dragonborn": "Dragonborn"
-      },
-      "fallout4DLC": {
-        "automatron": "Nuka-Dünya",
-        "farHarbor": "Uzak Liman",
-        "nukaWorld": "Nuka-Dünya",
-        "vaultTecWorkshop": "Vault-Tec Atölyesi"
+      "fallout4": {
+        "title": "Fallout 4",
+        "categories": {
+          "quests": {
+            "title": "Görevler",
+            "mainQuests": "Ana Görevler",
+            "factionQuests": "Fraksiyon Görevleri",
+            "sideQuests": "Yan Görevler"
+          },
+          "collectables": {
+            "title": "Koleksiyon parçaları",
+            "boobleheads": "Bobblehead'ler",
+            "magazines": "Dergiler",
+            "uniqueWeapons": "Benzersiz Silahlar",
+            "uniqueArmour": "Benzersiz Zırh",
+            "powerArmour": "Güç Zırhı"
+          },
+          "locations": {
+            "title": "Konumlar"
+          },
+          "miscellaneous": {
+            "title": "Çeşitli",
+            "holotapes": "Sanal bantlar"
+          }
+        },
+        "dlc": {
+          "automatron": "Otomatron",
+          "farHarbor": "Uzak Liman",
+          "nukaWorld": "Nuka-Dünya",
+          "vaultTecWorkshop": "Vault-Tec Atölyesi"
+        }
       }
     }
   },
   "pt": {
     "common": {
       "appTitle": "Completista.",
-      "requestGameDesc": "Fique à vontade para solicitar um jogo, reportar um bug ou fazer sugestões para melhorar o app!",
-      "quests": "Missões",
-      "collectables": "Colecionáveis",
-      "locations": "Localizações",
-      "miscellaneous": "Diversos",
+      "welcome": "Bem-vindo",
       "search": "Pesquisar itens...",
       "showMore": "Mostre mais",
       "none": "Nenhum",
@@ -193,21 +399,28 @@
         "username": "Nome de usuário",
         "forgotPassword": "Esqueceu sua senha?",
         "login": "Conecte-se",
+        "logout": "Sair",
         "signUp": "Inscrever-se",
         "createAccount": "Criar uma conta",
         "requestAccount": "Não tem uma conta?",
         "backToLogin": "Volte ao login"
       },
-      "subscriptions": {
-        "title": "Assinaturas"
+      "screens": {
+        "quests": "Missões",
+        "collectables": "Colecionáveis",
+        "locations": "Localizações",
+        "miscellaneous": "Diversos",
+        "gameSelection": "Seleção de jogos",
+        "sendRequest": "Enviar pedido",
+        "subscriptions": "Assinaturas",
+        "settings": "Configurações"
       },
       "sendRequest": {
-        "title": "Enviar pedido",
         "subject": "Assunto",
-        "writeRequest": "Escreva aqui o seu pedido..."
+        "writeRequest": "Escreva aqui o seu pedido...",
+        "requestGameDesc": "Fique à vontade para solicitar um jogo, reportar um bug ou fazer sugestões para melhorar o app!"
       },
       "settings": {
-        "title": "Configurações",
         "description": "Fique à vontade para solicitar um jogo, reportar um bug ou fazer sugestões para melhorar o app!",
         "setCollections": "Definir coleções:",
         "enabledDLC": "Ativar/Desativar DLC:",
@@ -216,29 +429,92 @@
         "disabledSections": "Seções desativadas"
       },
       "errors": {
+        "error": "Erro",
+        "pleaseRefreshApp": "Atualize o aplicativo",
         "noEmailExists": "E-mail não existe",
         "googleSignIn": "Erro ao fazer login no Google"
+      }
+    },
+    "categories": {
+      "skyrim": {
+        "title": "Skyrim",
+        "categories": {
+          "quests": {
+            "title": "Missões",
+            "mainQuests": "Missões principais",
+            "factionQuests": "Missões de facção",
+            "civilWar": "Guerra civil",
+            "daedricQuests": "Missões Daédricas",
+            "dungeonQuests": "Missões de masmorra",
+            "miscQuests": "Missões Diversas",
+            "bountyQuests": "Missões de recompensa",
+            "globalQuests": "Missões Globais"
+          },
+          "collectables": {
+            "title": "Colecionáveis",
+            "dragonPriestMasks": "Máscaras de Sacerdote Dragão",
+            "daedricArtefacts": "Artefatos Daédricos",
+            "bugInJar": "Bug em uma jarra",
+            "shouts": "Gritos",
+            "uniqueArmourSets": "Conjuntos de armadura exclusivos",
+            "uniqueWeapons": "Armas únicas",
+            "shrines": "Santuários",
+            "stones": "Pedras"
+          },
+          "locations": {
+            "title": "Localizações"
+          },
+          "miscellaneous": {
+            "title": "Diversos",
+            "books": "Livros",
+            "spellTomes": "Tomos de feitiços",
+            "journals": "Diários"
+          }
+        },
+        "dlc": {
+          "dawnguard": "Dawnguard",
+          "dragonborn": "Draconato",
+          "hearthfire": "Lareira"
+        }
       },
-      "skyrimDLC": {
-        "dawnguard": "Dawnguard",
-        "dragonborn": "Draconato"
-      },
-      "fallout4DLC": {
-        "automatron": "Nuka-Mundo",
-        "farHarbor": "Porto Distante",
-        "nukaWorld": "Nuka-Mundo",
-        "vaultTecWorkshop": "Oficina Vault-Tec"
+      "fallout4": {
+        "title": "Fallout 4",
+        "categories": {
+          "quests": {
+            "title": "Missões",
+            "mainQuests": "Missões principais",
+            "factionQuests": "Missões de facção",
+            "sideQuests": "Missões paralelas"
+          },
+          "collectables": {
+            "title": "Colecionáveis",
+            "boobleheads": "Bobbleheads",
+            "magazines": "Revistas",
+            "uniqueWeapons": "Armas únicas",
+            "uniqueArmour": "Armadura Única",
+            "powerArmour": "Armadura Potente"
+          },
+          "locations": {
+            "title": "Localizações"
+          },
+          "miscellaneous": {
+            "title": "Diversos",
+            "holotapes": "Holotapes"
+          }
+        },
+        "dlc": {
+          "automatron": "Autômato",
+          "farHarbor": "Porto Distante",
+          "nukaWorld": "Nuka-Mundo",
+          "vaultTecWorkshop": "Oficina Vault-Tec"
+        }
       }
     }
   },
   "ja": {
     "common": {
       "appTitle": "完璧主義者。",
-      "requestGameDesc": "ゲームのリクエスト、バグの報告、アプリを改善するための提案など、お気軽にどうぞ！",
-      "quests": "クエスト",
-      "collectables": "収集品",
-      "locations": "所在地",
-      "miscellaneous": "その他",
+      "welcome": "いらっしゃいませ",
       "search": "アイテムを検索...",
       "showMore": "もっと見せる",
       "none": "なし",
@@ -251,21 +527,28 @@
         "username": "ユーザー名",
         "forgotPassword": "パスワードをお忘れですか？",
         "login": "ログイン",
+        "logout": "ログアウト",
         "signUp": "サインアップ",
         "createAccount": "アカウントを作成する",
         "requestAccount": "アカウントをお持ちでない場合は、",
         "backToLogin": "ログインに戻る"
       },
-      "subscriptions": {
-        "title": "定期購入"
+      "screens": {
+        "quests": "クエスト",
+        "collectables": "収集品",
+        "locations": "所在地",
+        "miscellaneous": "その他",
+        "gameSelection": "ゲームの選択",
+        "sendRequest": "リクエストの送信",
+        "subscriptions": "定期購入",
+        "settings": "設定"
       },
       "sendRequest": {
-        "title": "リクエストの送信",
         "subject": "主題",
-        "writeRequest": "ここにリクエストを書いてください..."
+        "writeRequest": "ここにリクエストを書いてください...",
+        "requestGameDesc": "ゲームのリクエスト、バグの報告、アプリを改善するための提案など、お気軽にどうぞ！"
       },
       "settings": {
-        "title": "設定",
         "description": "ゲームのリクエスト、バグの報告、アプリを改善するための提案など、お気軽にどうぞ！",
         "setCollections": "セットコレクション:",
         "enabledDLC": "DLC を有効/無効にする:",
@@ -274,29 +557,92 @@
         "disabledSections": "無効化されたセクション"
       },
       "errors": {
+        "error": "エラー",
+        "pleaseRefreshApp": "アプリを更新してください",
         "noEmailExists": "電子メールが存在しません",
         "googleSignIn": "Googleサインインでエラーが発生する"
+      }
+    },
+    "categories": {
+      "skyrim": {
+        "title": "スカイリム",
+        "categories": {
+          "quests": {
+            "title": "クエスト",
+            "mainQuests": "メインクエスト",
+            "factionQuests": "派閥クエスト",
+            "civilWar": "内戦",
+            "daedricQuests": "デイドラクエスト",
+            "dungeonQuests": "ダンジョンクエスト",
+            "miscQuests": "その他のクエスト",
+            "bountyQuests": "賞金クエスト",
+            "globalQuests": "グローバルクエスト"
+          },
+          "collectables": {
+            "title": "収集品",
+            "dragonPriestMasks": "ドラゴン プリーストの仮面",
+            "daedricArtefacts": "デイドラアーティファクト",
+            "bugInJar": "瓶の中の虫",
+            "shouts": "叫び声",
+            "uniqueArmourSets": "ユニークな防具セット",
+            "uniqueWeapons": "ユニークな武器",
+            "shrines": "神社",
+            "stones": "石"
+          },
+          "locations": {
+            "title": "所在地"
+          },
+          "miscellaneous": {
+            "title": "その他",
+            "books": "本",
+            "spellTomes": "呪文の本",
+            "journals": "雑誌"
+          }
+        },
+        "dlc": {
+          "dawnguard": "ドーンガード",
+          "dragonborn": "ドラゴンボーン",
+          "hearthfire": "ハースファイア"
+        }
       },
-      "skyrimDLC": {
-        "dawnguard": "ドーンガード",
-        "dragonborn": "ドラゴンボーン"
-      },
-      "fallout4DLC": {
-        "automatron": "ヌカ・ワールド",
-        "farHarbor": "ファーハーバー",
-        "nukaWorld": "ヌカ・ワールド",
-        "vaultTecWorkshop": "Vault-Tec ワークショップ"
+      "fallout4": {
+        "title": "Fallout 4",
+        "categories": {
+          "quests": {
+            "title": "クエスト",
+            "mainQuests": "メインクエスト",
+            "factionQuests": "派閥クエスト",
+            "sideQuests": "サイドクエスト"
+          },
+          "collectables": {
+            "title": "収集品",
+            "boobleheads": "ボブルヘッド",
+            "magazines": "雑誌",
+            "uniqueWeapons": "ユニークな武器",
+            "uniqueArmour": "ユニークな鎧",
+            "powerArmour": "パワーアーマー"
+          },
+          "locations": {
+            "title": "所在地"
+          },
+          "miscellaneous": {
+            "title": "その他",
+            "holotapes": "ホロテープ"
+          }
+        },
+        "dlc": {
+          "automatron": "オートマトロン",
+          "farHarbor": "ファーハーバー",
+          "nukaWorld": "ヌカ・ワールド",
+          "vaultTecWorkshop": "Vault-Tec ワークショップ"
+        }
       }
     }
   },
   "it": {
     "common": {
       "appTitle": "Complezionista.",
-      "requestGameDesc": "Sentiti libero di richiedere un gioco, segnalare un bug o dare qualche suggerimento per migliorare l'app!",
-      "quests": "Missioni",
-      "collectables": "Oggetti da collezione",
-      "locations": "Posizioni",
-      "miscellaneous": "Varie",
+      "welcome": "Benvenuto",
       "search": "Cerca elementi...",
       "showMore": "Mostra di più",
       "none": "Nessuno",
@@ -309,21 +655,28 @@
         "username": "Nome utente",
         "forgotPassword": "Ha dimenticato la password?",
         "login": "Login",
+        "logout": "Disconnettersi",
         "signUp": "Iscrizione",
         "createAccount": "Creare un account",
         "requestAccount": "Non hai un account?",
         "backToLogin": "Torna al login"
       },
-      "subscriptions": {
-        "title": "Abbonamenti"
+      "screens": {
+        "quests": "Missioni",
+        "collectables": "Oggetti da collezione",
+        "locations": "Posizioni",
+        "miscellaneous": "Varie",
+        "gameSelection": "Selezione del gioco",
+        "sendRequest": "Invia richiesta",
+        "subscriptions": "Abbonamenti",
+        "settings": "Impostazioni"
       },
       "sendRequest": {
-        "title": "Invia richiesta",
         "subject": "Soggetto",
-        "writeRequest": "Scrivi qui la tua richiesta..."
+        "writeRequest": "Scrivi qui la tua richiesta...",
+        "requestGameDesc": "Sentiti libero di richiedere un gioco, segnalare un bug o dare qualche suggerimento per migliorare l'app!"
       },
       "settings": {
-        "title": "Impostazioni",
         "description": "Sentiti libero di richiedere un gioco, segnalare un bug o dare qualche suggerimento per migliorare l'app!",
         "setCollections": "Imposta raccolte:",
         "enabledDLC": "Abilita/Disabilita DLC:",
@@ -332,29 +685,92 @@
         "disabledSections": "Sezioni disabili"
       },
       "errors": {
+        "error": "Errore",
+        "pleaseRefreshApp": "Aggiorna l'app",
         "noEmailExists": "L'e-mail non esiste",
         "googleSignIn": "Errore con l'accesso a Google"
+      }
+    },
+    "categories": {
+      "skyrim": {
+        "title": "Skyrim",
+        "categories": {
+          "quests": {
+            "title": "Missioni",
+            "mainQuests": "Missioni principali",
+            "factionQuests": "Missioni di fazione",
+            "civilWar": "Guerra civile",
+            "daedricQuests": "Missioni daedriche",
+            "dungeonQuests": "Missioni nei sotterranei",
+            "miscQuests": "Missioni varie",
+            "bountyQuests": "Missioni di taglia",
+            "globalQuests": "Missioni globali"
+          },
+          "collectables": {
+            "title": "Oggetti da collezione",
+            "dragonPriestMasks": "Maschere del Sacerdote Drago",
+            "daedricArtefacts": "Manufatti daedrici",
+            "bugInJar": "Insetto in un barattolo",
+            "shouts": "Grida",
+            "uniqueArmourSets": "Set di armature unici",
+            "uniqueWeapons": "Armi uniche",
+            "shrines": "Santuari",
+            "stones": "Pietre"
+          },
+          "locations": {
+            "title": "Posizioni"
+          },
+          "miscellaneous": {
+            "title": "Varie",
+            "books": "Libri",
+            "spellTomes": "Tomi di incantesimi",
+            "journals": "Riviste"
+          }
+        },
+        "dlc": {
+          "dawnguard": "Dawnguard",
+          "dragonborn": "Sangue di Drago",
+          "hearthfire": "Focolare"
+        }
       },
-      "skyrimDLC": {
-        "dawnguard": "Dawnguard",
-        "dragonborn": "Sangue di Drago"
-      },
-      "fallout4DLC": {
-        "automatron": "Mondo Nuka",
-        "farHarbor": "Porto lontano",
-        "nukaWorld": "Mondo Nuka",
-        "vaultTecWorkshop": "Workshop Vault-Tec"
+      "fallout4": {
+        "title": "Fallout 4",
+        "categories": {
+          "quests": {
+            "title": "Missioni",
+            "mainQuests": "Missioni principali",
+            "factionQuests": "Missioni di fazione",
+            "sideQuests": "Missioni secondarie"
+          },
+          "collectables": {
+            "title": "Oggetti da collezione",
+            "boobleheads": "Teste molleggiate",
+            "magazines": "Riviste",
+            "uniqueWeapons": "Armi uniche",
+            "uniqueArmour": "Armatura unica",
+            "powerArmour": "Armatura potenziata"
+          },
+          "locations": {
+            "title": "Posizioni"
+          },
+          "miscellaneous": {
+            "title": "Varie",
+            "holotapes": "Olonastri"
+          }
+        },
+        "dlc": {
+          "automatron": "Automatron",
+          "farHarbor": "Porto lontano",
+          "nukaWorld": "Mondo Nuka",
+          "vaultTecWorkshop": "Workshop Vault-Tec"
+        }
       }
     }
   },
   "id": {
     "common": {
       "appTitle": "Kompletionis.",
-      "requestGameDesc": "Jangan ragu untuk meminta permainan, melaporkan bug, atau memberikan beberapa saran untuk meningkatkan aplikasi!",
-      "quests": "Pencarian",
-      "collectables": "Barang koleksi",
-      "locations": "Lokasi",
-      "miscellaneous": "Aneka ragam",
+      "welcome": "Selamat datang",
       "search": "Cari item...",
       "showMore": "Menampilkan lebih banyak",
       "none": "Tidak ada",
@@ -367,21 +783,28 @@
         "username": "Nama belakang",
         "forgotPassword": "Tidak ingat kata sandi?",
         "login": "Gabung",
+        "logout": "Keluar",
         "signUp": "Mendaftar",
         "createAccount": "Buat Akun",
         "requestAccount": "Belum punya akun?",
         "backToLogin": "Kembali untuk masuk"
       },
-      "subscriptions": {
-        "title": "Langganan"
+      "screens": {
+        "quests": "Pencarian",
+        "collectables": "Barang koleksi",
+        "locations": "Lokasi",
+        "miscellaneous": "Aneka ragam",
+        "gameSelection": "Pemilihan Permainan",
+        "sendRequest": "Kirim Permintaan",
+        "subscriptions": "Langganan",
+        "settings": "Pengaturan"
       },
       "sendRequest": {
-        "title": "Kirim Permintaan",
         "subject": "Subjek",
-        "writeRequest": "Tulis permintaan Anda di sini..."
+        "writeRequest": "Tulis permintaan Anda di sini...",
+        "requestGameDesc": "Jangan ragu untuk meminta permainan, melaporkan bug, atau memberikan beberapa saran untuk meningkatkan aplikasi!"
       },
       "settings": {
-        "title": "Pengaturan",
         "description": "Jangan ragu untuk meminta permainan, melaporkan bug, atau memberikan beberapa saran untuk meningkatkan aplikasi!",
         "setCollections": "Tetapkan koleksi:",
         "enabledDLC": "Aktifkan/Nonaktifkan DLC:",
@@ -390,29 +813,92 @@
         "disabledSections": "Bagian yang Dinonaktifkan"
       },
       "errors": {
+        "error": "Kesalahan",
+        "pleaseRefreshApp": "Harap segarkan aplikasi",
         "noEmailExists": "Emailnya tidak ada",
         "googleSignIn": "Kesalahan saat masuk Google"
+      }
+    },
+    "categories": {
+      "skyrim": {
+        "title": "Skyrim",
+        "categories": {
+          "quests": {
+            "title": "Pencarian",
+            "mainQuests": "Quest Utama",
+            "factionQuests": "Pencarian Fraksi",
+            "civilWar": "Perang sipil",
+            "daedricQuests": "Pencarian Daedrik",
+            "dungeonQuests": "Pencarian Bawah Tanah",
+            "miscQuests": "Quest Lain-Lain",
+            "bountyQuests": "Pencarian Hadiah",
+            "globalQuests": "Pencarian Global"
+          },
+          "collectables": {
+            "title": "Barang koleksi",
+            "dragonPriestMasks": "Topeng Pendeta Naga",
+            "daedricArtefacts": "Artefak Daedric",
+            "bugInJar": "Serangga dalam Toples",
+            "shouts": "Teriakan",
+            "uniqueArmourSets": "Set Armor Unik",
+            "uniqueWeapons": "Senjata Unik",
+            "shrines": "Kuil",
+            "stones": "Batu"
+          },
+          "locations": {
+            "title": "Lokasi"
+          },
+          "miscellaneous": {
+            "title": "Aneka ragam",
+            "books": "Buku",
+            "spellTomes": "Eja Tomes",
+            "journals": "Jurnal"
+          }
+        },
+        "dlc": {
+          "dawnguard": "Penjaga Fajar",
+          "dragonborn": "lahir naga",
+          "hearthfire": "api perapian"
+        }
       },
-      "skyrimDLC": {
-        "dawnguard": "Penjaga Fajar",
-        "dragonborn": "lahir naga"
-      },
-      "fallout4DLC": {
-        "automatron": "Nuka-Dunia",
-        "farHarbor": "Pelabuhan Jauh",
-        "nukaWorld": "Nuka-Dunia",
-        "vaultTecWorkshop": "Lokakarya Vault-Tec"
+      "fallout4": {
+        "title": "Kejatuhan 4",
+        "categories": {
+          "quests": {
+            "title": "Pencarian",
+            "mainQuests": "Quest Utama",
+            "factionQuests": "Pencarian Fraksi",
+            "sideQuests": "Pencarian Sampingan"
+          },
+          "collectables": {
+            "title": "Barang koleksi",
+            "boobleheads": "Bobblehead",
+            "magazines": "Majalah",
+            "uniqueWeapons": "Senjata Unik",
+            "uniqueArmour": "Baju Besi Unik",
+            "powerArmour": "Armor Kekuatan"
+          },
+          "locations": {
+            "title": "Lokasi"
+          },
+          "miscellaneous": {
+            "title": "Aneka ragam",
+            "holotapes": "Holotape"
+          }
+        },
+        "dlc": {
+          "automatron": "robot",
+          "farHarbor": "Pelabuhan Jauh",
+          "nukaWorld": "Nuka-Dunia",
+          "vaultTecWorkshop": "Lokakarya Vault-Tec"
+        }
       }
     }
   },
   "hi": {
     "common": {
       "appTitle": "पूर्णतावादी।",
-      "requestGameDesc": "बेझिझक किसी गेम के लिए अनुरोध करें, बग की रिपोर्ट करें या ऐप को बेहतर बनाने के लिए कुछ सुझाव दें!",
-      "quests": "खोज",
-      "collectables": "संग्रहणीय वस्तुएँ",
-      "locations": "स्थानों",
-      "miscellaneous": "मिश्रित",
+      "welcome": "स्वागत",
       "search": "आइटम खोजें...",
       "showMore": "और दिखाओ",
       "none": "कोई नहीं",
@@ -425,21 +911,28 @@
         "username": "उपयोगकर्ता नाम",
         "forgotPassword": "पासवर्ड भूल गए?",
         "login": "लॉग इन करें",
+        "logout": "लॉग आउट",
         "signUp": "साइन अप करें",
         "createAccount": "खाता बनाएं",
         "requestAccount": "कोई खाता नहीं है?",
         "backToLogin": "लॉगिन पर वापस जाएं"
       },
-      "subscriptions": {
-        "title": "सदस्यता"
+      "screens": {
+        "quests": "खोज",
+        "collectables": "संग्रहणीय वस्तुएँ",
+        "locations": "स्थानों",
+        "miscellaneous": "मिश्रित",
+        "gameSelection": "खेल चयन",
+        "sendRequest": "अनुरोध भेजा",
+        "subscriptions": "सदस्यता",
+        "settings": "समायोजन"
       },
       "sendRequest": {
-        "title": "अनुरोध भेजा",
         "subject": "विषय",
-        "writeRequest": "अपना अनुरोध यहां लिखें..."
+        "writeRequest": "अपना अनुरोध यहां लिखें...",
+        "requestGameDesc": "बेझिझक किसी गेम के लिए अनुरोध करें, बग की रिपोर्ट करें या ऐप को बेहतर बनाने के लिए कुछ सुझाव दें!"
       },
       "settings": {
-        "title": "समायोजन",
         "description": "बेझिझक किसी गेम के लिए अनुरोध करें, बग की रिपोर्ट करें या ऐप को बेहतर बनाने के लिए कुछ सुझाव दें!",
         "setCollections": "संग्रह सेट करें:",
         "enabledDLC": "डीएलसी सक्षम/अक्षम करें:",
@@ -448,29 +941,92 @@
         "disabledSections": "विकलांग अनुभाग"
       },
       "errors": {
+        "error": "गलती",
+        "pleaseRefreshApp": "कृपया ऐप को रीफ्रेश करें",
         "noEmailExists": "ईमेल मौजूद नहीं है",
         "googleSignIn": "गूगल साइन इन में त्रुटि"
+      }
+    },
+    "categories": {
+      "skyrim": {
+        "title": "Skyrim",
+        "categories": {
+          "quests": {
+            "title": "खोज",
+            "mainQuests": "मुख्य प्रश्न",
+            "factionQuests": "गुट क्वेस्ट",
+            "civilWar": "गृहयुद्ध",
+            "daedricQuests": "डेड्रिक क्वेस्ट",
+            "dungeonQuests": "कालकोठरी क्वेस्ट",
+            "miscQuests": "विविध खोज",
+            "bountyQuests": "बाउंटी क्वेस्ट",
+            "globalQuests": "वैश्विक खोज"
+          },
+          "collectables": {
+            "title": "संग्रहणीय वस्तुएँ",
+            "dragonPriestMasks": "ड्रैगन पुजारी मुखौटे",
+            "daedricArtefacts": "डेड्रिक कलाकृतियाँ",
+            "bugInJar": "एक जार में बग",
+            "shouts": "शाउट",
+            "uniqueArmourSets": "अद्वितीय कवच सेट",
+            "uniqueWeapons": "अनोखे हथियार",
+            "shrines": "तीर्थ",
+            "stones": "पत्थर"
+          },
+          "locations": {
+            "title": "स्थानों"
+          },
+          "miscellaneous": {
+            "title": "मिश्रित",
+            "books": "पुस्तकें",
+            "spellTomes": "टॉम्स वर्तनी",
+            "journals": "पत्रिकाओं"
+          }
+        },
+        "dlc": {
+          "dawnguard": "दावन्गार्ड",
+          "dragonborn": "ड्रैगनबोर्न",
+          "hearthfire": "चूल्हे की आग"
+        }
       },
-      "skyrimDLC": {
-        "dawnguard": "दावन्गार्ड",
-        "dragonborn": "ड्रैगनबोर्न"
-      },
-      "fallout4DLC": {
-        "automatron": "नुका-विश्व",
-        "farHarbor": "सुदूर बंदरगाह",
-        "nukaWorld": "नुका-विश्व",
-        "vaultTecWorkshop": "वॉल्ट-टेक कार्यशाला"
+      "fallout4": {
+        "title": "नतीजा 4",
+        "categories": {
+          "quests": {
+            "title": "खोज",
+            "mainQuests": "मुख्य प्रश्न",
+            "factionQuests": "गुट क्वेस्ट",
+            "sideQuests": "भीतर छिपे सवाल"
+          },
+          "collectables": {
+            "title": "संग्रहणीय वस्तुएँ",
+            "boobleheads": "बॉबलहेड्स",
+            "magazines": "पत्रिका",
+            "uniqueWeapons": "अनोखे हथियार",
+            "uniqueArmour": "अनोखा कवच",
+            "powerArmour": "शक्ति कवच"
+          },
+          "locations": {
+            "title": "स्थानों"
+          },
+          "miscellaneous": {
+            "title": "मिश्रित",
+            "holotapes": "होलोटेप्स"
+          }
+        },
+        "dlc": {
+          "automatron": "ऑटोमेट्रोन",
+          "farHarbor": "सुदूर बंदरगाह",
+          "nukaWorld": "नुका-विश्व",
+          "vaultTecWorkshop": "वॉल्ट-टेक कार्यशाला"
+        }
       }
     }
   },
   "fr": {
     "common": {
       "appTitle": "Finaliste.",
-      "requestGameDesc": "N'hésitez pas à demander un jeu, signaler un bug ou faire des suggestions pour améliorer l'application !",
-      "quests": "Quêtes",
-      "collectables": "Objets de collection",
-      "locations": "Emplacements",
-      "miscellaneous": "Divers",
+      "welcome": "Accueillir",
       "search": "Rechercher des éléments...",
       "showMore": "Montre plus",
       "none": "Aucun",
@@ -483,21 +1039,28 @@
         "username": "Nom d'utilisateur",
         "forgotPassword": "Mot de passe oublié?",
         "login": "Se connecter",
+        "logout": "Se déconnecter",
         "signUp": "S'inscrire",
         "createAccount": "Créer un compte",
         "requestAccount": "Vous n'avez pas de compte ?",
         "backToLogin": "Retour connexion"
       },
-      "subscriptions": {
-        "title": "Abonnements"
+      "screens": {
+        "quests": "Quêtes",
+        "collectables": "Objets de collection",
+        "locations": "Emplacements",
+        "miscellaneous": "Divers",
+        "gameSelection": "Sélection de jeux",
+        "sendRequest": "Envoyer une demande",
+        "subscriptions": "Abonnements",
+        "settings": "Paramètres"
       },
       "sendRequest": {
-        "title": "Envoyer une demande",
         "subject": "Sujet",
-        "writeRequest": "Écrivez votre demande ici..."
+        "writeRequest": "Écrivez votre demande ici...",
+        "requestGameDesc": "N'hésitez pas à demander un jeu, signaler un bug ou faire des suggestions pour améliorer l'application !"
       },
       "settings": {
-        "title": "Paramètres",
         "description": "N'hésitez pas à demander un jeu, signaler un bug ou faire des suggestions pour améliorer l'application !",
         "setCollections": "Définir les collections :",
         "enabledDLC": "Activer/Désactiver le DLC :",
@@ -506,29 +1069,92 @@
         "disabledSections": "Sections désactivées"
       },
       "errors": {
+        "error": "Erreur",
+        "pleaseRefreshApp": "Veuillez actualiser l'application",
         "noEmailExists": "L'e-mail n'existe pas",
         "googleSignIn": "Erreur avec la connexion Google"
+      }
+    },
+    "categories": {
+      "skyrim": {
+        "title": "Bordeciel",
+        "categories": {
+          "quests": {
+            "title": "Quêtes",
+            "mainQuests": "Quêtes principales",
+            "factionQuests": "Quêtes de faction",
+            "civilWar": "Guerre civile",
+            "daedricQuests": "Quêtes Daedra",
+            "dungeonQuests": "Quêtes de donjon",
+            "miscQuests": "Quêtes diverses",
+            "bountyQuests": "Quêtes de prime",
+            "globalQuests": "Quêtes globales"
+          },
+          "collectables": {
+            "title": "Objets de collection",
+            "dragonPriestMasks": "Masques de prêtre dragon",
+            "daedricArtefacts": "Artefacts Daedra",
+            "bugInJar": "Un bug dans un pot",
+            "shouts": "Des cris",
+            "uniqueArmourSets": "Ensembles d'armures uniques",
+            "uniqueWeapons": "Armes uniques",
+            "shrines": "Sanctuaires",
+            "stones": "Des pierres"
+          },
+          "locations": {
+            "title": "Emplacements"
+          },
+          "miscellaneous": {
+            "title": "Divers",
+            "books": "Livres",
+            "spellTomes": "Tomes de sorts",
+            "journals": "Journaux"
+          }
+        },
+        "dlc": {
+          "dawnguard": "Garde-aube",
+          "dragonborn": "Enfant de Dragon",
+          "hearthfire": "Feu de foyer"
+        }
       },
-      "skyrimDLC": {
-        "dawnguard": "Garde-aube",
-        "dragonborn": "Enfant de Dragon"
-      },
-      "fallout4DLC": {
-        "automatron": "Nuka-Monde",
-        "farHarbor": "Port lointain",
-        "nukaWorld": "Nuka-Monde",
-        "vaultTecWorkshop": "Atelier Vault-Tec"
+      "fallout4": {
+        "title": "Fallout 4",
+        "categories": {
+          "quests": {
+            "title": "Quêtes",
+            "mainQuests": "Quêtes principales",
+            "factionQuests": "Quêtes de faction",
+            "sideQuests": "Quêtes secondaires"
+          },
+          "collectables": {
+            "title": "Objets de collection",
+            "boobleheads": "Figurines à pompons",
+            "magazines": "Les magazines",
+            "uniqueWeapons": "Armes uniques",
+            "uniqueArmour": "Armure unique",
+            "powerArmour": "Armure assistée"
+          },
+          "locations": {
+            "title": "Emplacements"
+          },
+          "miscellaneous": {
+            "title": "Divers",
+            "holotapes": "Holobandes"
+          }
+        },
+        "dlc": {
+          "automatron": "Automatron",
+          "farHarbor": "Port lointain",
+          "nukaWorld": "Nuka-Monde",
+          "vaultTecWorkshop": "Atelier Vault-Tec"
+        }
       }
     }
   },
   "es": {
     "common": {
       "appTitle": "Completista.",
-      "requestGameDesc": "¡No dudes en solicitar un juego, informar un error o hacer algunas sugerencias para mejorar la aplicación!",
-      "quests": "Misiones",
-      "collectables": "Coleccionables",
-      "locations": "Ubicaciones",
-      "miscellaneous": "Misceláneas",
+      "welcome": "Bienvenido",
       "search": "Buscar elementos...",
       "showMore": "Mostrar más",
       "none": "Ninguno",
@@ -541,21 +1167,28 @@
         "username": "Nombre de usuario",
         "forgotPassword": "¿Has olvidado tu contraseña?",
         "login": "Acceso",
+        "logout": "Cerrar sesión",
         "signUp": "Inscribirse",
         "createAccount": "Crear una cuenta",
         "requestAccount": "¿No tienes una cuenta?",
         "backToLogin": "Atrás para iniciar sesión"
       },
-      "subscriptions": {
-        "title": "Suscripciones"
+      "screens": {
+        "quests": "Misiones",
+        "collectables": "Coleccionables",
+        "locations": "Ubicaciones",
+        "miscellaneous": "Misceláneas",
+        "gameSelection": "Selección de juego",
+        "sendRequest": "Enviar petición",
+        "subscriptions": "Suscripciones",
+        "settings": "Ajustes"
       },
       "sendRequest": {
-        "title": "Enviar petición",
         "subject": "Sujeto",
-        "writeRequest": "Escribe tu solicitud aquí..."
+        "writeRequest": "Escriba su solicitud aquí...",
+        "requestGameDesc": "¡No dudes en solicitar un juego, informar un error o hacer algunas sugerencias para mejorar la aplicación!"
       },
       "settings": {
-        "title": "Ajustes",
         "description": "¡No dudes en solicitar un juego, informar un error o hacer algunas sugerencias para mejorar la aplicación!",
         "setCollections": "Establecer colecciones:",
         "enabledDLC": "Activar/Desactivar DLC:",
@@ -564,29 +1197,92 @@
         "disabledSections": "Secciones deshabilitadas"
       },
       "errors": {
+        "error": "Error",
+        "pleaseRefreshApp": "Por favor actualiza la aplicación",
         "noEmailExists": "El correo electrónico no existe.",
         "googleSignIn": "Error al iniciar sesión en Google"
+      }
+    },
+    "categories": {
+      "skyrim": {
+        "title": "Skyrim",
+        "categories": {
+          "quests": {
+            "title": "Misiones",
+            "mainQuests": "Misiones principales",
+            "factionQuests": "Misiones de facción",
+            "civilWar": "Guerra civil",
+            "daedricQuests": "Misiones daédricas",
+            "dungeonQuests": "Misiones de mazmorra",
+            "miscQuests": "Misiones varias",
+            "bountyQuests": "Misiones de recompensa",
+            "globalQuests": "Misiones globales"
+          },
+          "collectables": {
+            "title": "Coleccionables",
+            "dragonPriestMasks": "Máscaras de sacerdote dragón",
+            "daedricArtefacts": "Artefactos daédricos",
+            "bugInJar": "Error en un frasco",
+            "shouts": "Gritos",
+            "uniqueArmourSets": "Conjuntos de armaduras únicos",
+            "uniqueWeapons": "Armas únicas",
+            "shrines": "Santuarios",
+            "stones": "piedras"
+          },
+          "locations": {
+            "title": "Ubicaciones"
+          },
+          "miscellaneous": {
+            "title": "Misceláneas",
+            "books": "Libros",
+            "spellTomes": "Tomos de hechizos",
+            "journals": "Revistas"
+          }
+        },
+        "dlc": {
+          "dawnguard": "guardia del alba",
+          "dragonborn": "nacido de dragón",
+          "hearthfire": "fuego de hogar"
+        }
       },
-      "skyrimDLC": {
-        "dawnguard": "guardia del alba",
-        "dragonborn": "nacido de dragón"
-      },
-      "fallout4DLC": {
-        "automatron": "Nuka-Mundo",
-        "farHarbor": "Puerto lejano",
-        "nukaWorld": "Nuka-Mundo",
-        "vaultTecWorkshop": "Taller Vault-Tec"
+      "fallout4": {
+        "title": "Fallout 4",
+        "categories": {
+          "quests": {
+            "title": "Misiones",
+            "mainQuests": "Misiones principales",
+            "factionQuests": "Misiones de facción",
+            "sideQuests": "Misiones secundarias"
+          },
+          "collectables": {
+            "title": "Coleccionables",
+            "boobleheads": "muñecos",
+            "magazines": "Revistas",
+            "uniqueWeapons": "Armas únicas",
+            "uniqueArmour": "Armadura única",
+            "powerArmour": "Armadura de poder"
+          },
+          "locations": {
+            "title": "Ubicaciones"
+          },
+          "miscellaneous": {
+            "title": "Misceláneas",
+            "holotapes": "holocintas"
+          }
+        },
+        "dlc": {
+          "automatron": "autómata",
+          "farHarbor": "Puerto lejano",
+          "nukaWorld": "Nuka-Mundo",
+          "vaultTecWorkshop": "Taller Vault-Tec"
+        }
       }
     }
   },
   "en": {
     "common": {
       "appTitle": "Completionist.",
-      "requestGameDesc": "Feel free to request a game, report a bug or make some suggestions to improve the app!",
-      "quests": "Quests",
-      "collectables": "Collectables",
-      "locations": "Locations",
-      "miscellaneous": "Miscellaneous",
+      "welcome": "Welcome",
       "search": "Search items...",
       "showMore": "Show more",
       "none": "None",
@@ -599,21 +1295,28 @@
         "username": "Username",
         "forgotPassword": "Forgot Password?",
         "login": "Login",
+        "Logout": "Logout",
         "signUp": "Sign Up",
         "createAccount": "Create Account",
         "requestAccount": "Don't have an account?",
         "backToLogin": "Back to Login"
       },
-      "subscriptions": {
-        "title": "Subscriptions"
+      "screens": {
+        "quests": "Quests",
+        "collectables": "Collectables",
+        "locations": "Locations",
+        "miscellaneous": "Miscellaneous",
+        "gameSelection": "Game Selection",
+        "sendRequest": "Send Request",
+        "subscriptions": "Subscriptions",
+        "settings": "Settings"
       },
       "sendRequest": {
-        "title": "Send Request",
         "subject": "Subject",
-        "writeRequest": "Write your request here..."
+        "writeRequest": "Write your request here...",
+        "requestGameDesc": "Feel free to request a game, report a bug or make some suggestions to improve the app!"
       },
       "settings": {
-        "title": "Settings",
         "description": "Feel free to request a game, report a bug or make some suggestions to improve the app!",
         "setCollections": "Set collections:",
         "enabledDLC": "Enable/Disable DLC:",
@@ -622,29 +1325,92 @@
         "disabledSections": "Disabled Sections"
       },
       "errors": {
+        "error": "Error",
+        "pleaseRefreshApp": "Please refresh the app",
         "noEmailExists": "Email does not exist",
         "googleSignIn": "Error with google sign in"
+      }
+    },
+    "categories": {
+      "skyrim": {
+        "title": "Skyrim",
+        "categories": {
+          "quests": {
+            "title": "Quests",
+            "mainQuests": "Main Quests",
+            "factionQuests": "Faction Quests",
+            "civilWar": "Civil War",
+            "daedricQuests": "Daedric Quests",
+            "dungeonQuests": "Dungeon Quests",
+            "miscQuests": "Miscellaneous Quests",
+            "bountyQuests": "Bounty Quests",
+            "globalQuests": "Global Quests"
+          },
+          "collectables": {
+            "title": "Collectables",
+            "dragonPriestMasks": "Dragon Priest Masks",
+            "daedricArtefacts": "Daedric Artefacts",
+            "bugInJar": "Bug in a Jar",
+            "shouts": "Shouts",
+            "uniqueArmourSets": "Unique Armour Sets",
+            "uniqueWeapons": "Unique Weapons",
+            "shrines": "Shrines",
+            "stones": "Stones"
+          },
+          "locations": {
+            "title": "Locations"
+          },
+          "miscellaneous": {
+            "title": "Miscellaneous",
+            "books": "Books",
+            "spellTomes": "Spell Tomes",
+            "journals": "Journals"
+          }
+        },
+        "dlc": {
+          "dawnguard": "Dawnguard",
+          "dragonborn": "Dragonborn",
+          "hearthfire": "Hearthfire"
+        }
       },
-      "skyrimDLC": {
-        "dawnguard": "Dawnguard",
-        "dragonborn": "Dragonborn"
-      },
-      "fallout4DLC": {
-        "automatron": "Nuka-World",
-        "farHarbor": "Far Harbor",
-        "nukaWorld": "Nuka-World",
-        "vaultTecWorkshop": "Vault-Tec Workshop"
+      "fallout4": {
+        "title": "Fallout4",
+        "categories": {
+          "quests": {
+            "title": "Quests",
+            "mainQuests": "Main Quests",
+            "factionQuests": "Faction Quests",
+            "sideQuests": "Side Quests"
+          },
+          "collectables": {
+            "title": "Collectables",
+            "boobleheads": "Bobbleheads",
+            "magazines": "Magazines",
+            "uniqueWeapons": "Unique Weapons",
+            "uniqueArmour": "Unique Armour",
+            "powerArmour": "Power Armour"
+          },
+          "locations": {
+            "title": "Locations"
+          },
+          "miscellaneous": {
+            "title": "Miscellaneous",
+            "holotapes": "Holotapes"
+          }
+        },
+        "dlc": {
+          "automatron": "Automatron",
+          "farHarbor": "Far Harbor",
+          "nukaWorld": "Nuka-World",
+          "vaultTecWorkshop": "Vault-Tec Workshop"
+        }
       }
     }
   },
   "de": {
     "common": {
       "appTitle": "Vervollständiger.",
-      "requestGameDesc": "Fordern Sie gerne ein Spiel an, melden Sie einen Fehler oder machen Sie Vorschläge zur Verbesserung der App!",
-      "quests": "Quests",
-      "collectables": "Sammlerstücke",
-      "locations": "Standorte",
-      "miscellaneous": "Verschiedenes",
+      "welcome": "Willkommen",
       "search": "Artikel suchen...",
       "showMore": "Zeig mehr",
       "none": "Keiner",
@@ -657,21 +1423,28 @@
         "username": "Nutzername",
         "forgotPassword": "Passwort vergessen?",
         "login": "Anmeldung",
+        "logout": "Ausloggen",
         "signUp": "Melden Sie sich an",
         "createAccount": "Benutzerkonto erstellen",
         "requestAccount": "Sie haben noch kein Konto?",
         "backToLogin": "Zurück zur Anmeldung"
       },
-      "subscriptions": {
-        "title": "Abonnements"
+      "screens": {
+        "quests": "Quests",
+        "collectables": "Sammlerstücke",
+        "locations": "Standorte",
+        "miscellaneous": "Verschiedenes",
+        "gameSelection": "Spielauswahl",
+        "sendRequest": "Anfrage senden",
+        "subscriptions": "Abonnements",
+        "settings": "Einstellungen"
       },
       "sendRequest": {
-        "title": "Anfrage senden",
         "subject": "Thema",
-        "writeRequest": "Schreiben Sie hier Ihre Anfrage..."
+        "writeRequest": "Schreiben Sie hier Ihre Anfrage...",
+        "requestGameDesc": "Fordern Sie gerne ein Spiel an, melden Sie einen Fehler oder machen Sie Vorschläge zur Verbesserung der App!"
       },
       "settings": {
-        "title": "Einstellungen",
         "description": "Fordern Sie gerne ein Spiel an, melden Sie einen Fehler oder machen Sie Vorschläge zur Verbesserung der App!",
         "setCollections": "Set-Sammlungen:",
         "enabledDLC": "DLC aktivieren/deaktivieren:",
@@ -680,29 +1453,92 @@
         "disabledSections": "Behindertenbereiche"
       },
       "errors": {
+        "error": "Fehler",
+        "pleaseRefreshApp": "Bitte aktualisieren Sie die App",
         "noEmailExists": "Email existiert nicht",
         "googleSignIn": "Fehler bei der Google-Anmeldung"
+      }
+    },
+    "categories": {
+      "skyrim": {
+        "title": "Skyrim",
+        "categories": {
+          "quests": {
+            "title": "Quests",
+            "mainQuests": "Hauptquests",
+            "factionQuests": "Fraktionsquests",
+            "civilWar": "Bürgerkrieg",
+            "daedricQuests": "Daedrische Quests",
+            "dungeonQuests": "Dungeon-Quests",
+            "miscQuests": "Verschiedene Quests",
+            "bountyQuests": "Kopfgeldquests",
+            "globalQuests": "Globale Quests"
+          },
+          "collectables": {
+            "title": "Sammlerstücke",
+            "dragonPriestMasks": "Drachenpriester-Masken",
+            "daedricArtefacts": "Daedrische Artefakte",
+            "bugInJar": "Käfer im Glas",
+            "shouts": "Geschrei",
+            "uniqueArmourSets": "Einzigartige Rüstungssets",
+            "uniqueWeapons": "Einzigartige Waffen",
+            "shrines": "Schreine",
+            "stones": "Steine"
+          },
+          "locations": {
+            "title": "Standorte"
+          },
+          "miscellaneous": {
+            "title": "Verschiedenes",
+            "books": "Bücher",
+            "spellTomes": "Zauberbücher",
+            "journals": "Zeitschriften"
+          }
+        },
+        "dlc": {
+          "dawnguard": "Dawnguard",
+          "dragonborn": "Drachengeborenes",
+          "hearthfire": "Herdfeuer"
+        }
       },
-      "skyrimDLC": {
-        "dawnguard": "Dawnguard",
-        "dragonborn": "Drachengeborenes"
-      },
-      "fallout4DLC": {
-        "automatron": "Nuka-Welt",
-        "farHarbor": "Far Harbor",
-        "nukaWorld": "Nuka-Welt",
-        "vaultTecWorkshop": "Vault-Tec-Workshop"
+      "fallout4": {
+        "title": "fallout4",
+        "categories": {
+          "quests": {
+            "title": "Quests",
+            "mainQuests": "Hauptquests",
+            "factionQuests": "Fraktionsquests",
+            "sideQuests": "Nebenmissionen"
+          },
+          "collectables": {
+            "title": "Sammlerstücke",
+            "boobleheads": "Wackelköpfe",
+            "magazines": "Zeitschriften",
+            "uniqueWeapons": "Einzigartige Waffen",
+            "uniqueArmour": "Einzigartige Rüstung",
+            "powerArmour": "Powerrüstung"
+          },
+          "locations": {
+            "title": "Standorte"
+          },
+          "miscellaneous": {
+            "title": "Verschiedenes",
+            "holotapes": "Holobänder"
+          }
+        },
+        "dlc": {
+          "automatron": "Automatron",
+          "farHarbor": "Far Harbor",
+          "nukaWorld": "Nuka-Welt",
+          "vaultTecWorkshop": "Vault-Tec-Workshop"
+        }
       }
     }
   },
   "ar": {
     "common": {
       "appTitle": "المكمل.",
-      "requestGameDesc": "لا تتردد في طلب لعبة أو الإبلاغ عن خطأ أو تقديم بعض الاقتراحات لتحسين التطبيق!",
-      "quests": "أسئلة",
-      "collectables": "مقتنيات",
-      "locations": "المواقع",
-      "miscellaneous": "متنوع",
+      "welcome": "مرحباً",
       "search": "عناصر البحث...",
       "showMore": "أظهر المزيد",
       "none": "لا أحد",
@@ -715,21 +1551,28 @@
         "username": "اسم المستخدم",
         "forgotPassword": "هل نسيت كلمة السر؟",
         "login": "تسجيل الدخول",
+        "logout": "تسجيل خروج",
         "signUp": "اشتراك",
         "createAccount": "إنشاء حساب",
         "requestAccount": "ليس لديك حساب؟",
         "backToLogin": "العودة إلى تسجيل الدخول"
       },
-      "subscriptions": {
-        "title": "الاشتراكات"
+      "screens": {
+        "quests": "أسئلة",
+        "collectables": "مقتنيات",
+        "locations": "المواقع",
+        "miscellaneous": "متنوع",
+        "gameSelection": "اختيار اللعبة",
+        "sendRequest": "ارسل طلب",
+        "subscriptions": "الاشتراكات",
+        "settings": "إعدادات"
       },
       "sendRequest": {
-        "title": "ارسل طلب",
         "subject": "موضوع",
-        "writeRequest": "أكتب طلبك هنا..."
+        "writeRequest": "أكتب طلبك هنا...",
+        "requestGameDesc": "لا تتردد في طلب لعبة أو الإبلاغ عن خطأ أو تقديم بعض الاقتراحات لتحسين التطبيق!"
       },
       "settings": {
-        "title": "إعدادات",
         "description": "لا تتردد في طلب لعبة أو الإبلاغ عن خطأ أو تقديم بعض الاقتراحات لتحسين التطبيق!",
         "setCollections": "تعيين المجموعات:",
         "enabledDLC": "تمكين/تعطيل المحتوى القابل للتنزيل:",
@@ -738,18 +1581,85 @@
         "disabledSections": "الأقسام المعطلة"
       },
       "errors": {
+        "error": "خطأ",
+        "pleaseRefreshApp": "يرجى تحديث التطبيق",
         "noEmailExists": "البريد الإلكتروني غير موجود",
         "googleSignIn": "حدث خطأ أثناء تسجيل الدخول إلى Google"
+      }
+    },
+    "categories": {
+      "skyrim": {
+        "title": "سكيريم",
+        "categories": {
+          "quests": {
+            "title": "أسئلة",
+            "mainQuests": "المهام الرئيسية",
+            "factionQuests": "أسئلة الفصائل",
+            "civilWar": "حرب اهلية",
+            "daedricQuests": "أسئلة ديدريك",
+            "dungeonQuests": "أسئلة الزنزانة",
+            "miscQuests": "أسئلة متنوعة",
+            "bountyQuests": "أسئلة المكافأة",
+            "globalQuests": "المهام العالمية"
+          },
+          "collectables": {
+            "title": "مقتنيات",
+            "dragonPriestMasks": "أقنعة كاهن التنين",
+            "daedricArtefacts": "التحف ديدريك",
+            "bugInJar": "علة في جرة",
+            "shouts": "صيحات",
+            "uniqueArmourSets": "مجموعات دروع فريدة من نوعها",
+            "uniqueWeapons": "أسلحة فريدة من نوعها",
+            "shrines": "المزارات",
+            "stones": "الحجارة"
+          },
+          "locations": {
+            "title": "المواقع"
+          },
+          "miscellaneous": {
+            "title": "متنوع",
+            "books": "كتب",
+            "spellTomes": "المجلدات الإملائية",
+            "journals": "المجلات"
+          }
+        },
+        "dlc": {
+          "dawnguard": "داونغارد",
+          "dragonborn": "دراجونبورن",
+          "hearthfire": "نار الموقد"
+        }
       },
-      "skyrimDLC": {
-        "dawnguard": "داونغارد",
-        "dragonborn": "دراجونبورن"
-      },
-      "fallout4DLC": {
-        "automatron": "نوكا وورلد",
-        "farHarbor": "فار هاربور",
-        "nukaWorld": "نوكا وورلد",
-        "vaultTecWorkshop": "ورشة فولت تيك"
+      "fallout4": {
+        "title": "تداعيات4",
+        "categories": {
+          "quests": {
+            "title": "أسئلة",
+            "mainQuests": "المهام الرئيسية",
+            "factionQuests": "أسئلة الفصائل",
+            "sideQuests": "أسئلة جانبية"
+          },
+          "collectables": {
+            "title": "مقتنيات",
+            "boobleheads": "رؤؤس فقاعية",
+            "magazines": "المجلات",
+            "uniqueWeapons": "أسلحة فريدة من نوعها",
+            "uniqueArmour": "درع فريد",
+            "powerArmour": "درع القوة"
+          },
+          "locations": {
+            "title": "المواقع"
+          },
+          "miscellaneous": {
+            "title": "متنوع",
+            "holotapes": "هولوتابس"
+          }
+        },
+        "dlc": {
+          "automatron": "آلي",
+          "farHarbor": "فار هاربور",
+          "nukaWorld": "نوكا وورلد",
+          "vaultTecWorkshop": "ورشة فولت تيك"
+        }
       }
     }
   }

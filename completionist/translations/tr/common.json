@@ -1,10 +1,6 @@
 {
   "appTitle": "Tamamlayıcı.",
-  "requestGameDesc": "Bir oyun talep etmekten, bir hatayı bildirmekten veya uygulamayı geliştirmek için bazı önerilerde bulunmaktan çekinmeyin!",
-  "quests": "Görevler",
-  "collectables": "Koleksiyon parçaları",
-  "locations": "Konumlar",
-  "miscellaneous": "Çeşitli",
+  "welcome": "Hoş geldin",
   "search": "Öğeleri ara...",
   "showMore": "Daha fazla göster",
   "none": "Hiçbiri",
@@ -17,21 +13,28 @@
     "username": "Kullanıcı adı",
     "forgotPassword": "Parolanızı mı unuttunuz?",
     "login": "Giriş yapmak",
+    "logout": "Çıkış Yap",
     "signUp": "Üye olmak",
     "createAccount": "Hesap oluşturmak",
     "requestAccount": "Hesabınız yok mu?",
     "backToLogin": "Girişe Geri Dön"
   },
-  "subscriptions": {
-    "title": "Abonelikler"
+  "screens": {
+    "quests": "Görevler",
+    "collectables": "Koleksiyon parçaları",
+    "locations": "Konumlar",
+    "miscellaneous": "Çeşitli",
+    "gameSelection": "Oyun Seçimi",
+    "sendRequest": "İstek gönder",
+    "subscriptions": "Abonelikler",
+    "settings": "Ayarlar"
   },
   "sendRequest": {
-    "title": "İstek gönder",
     "subject": "Ders",
-    "writeRequest": "Talebinizi buraya yazın..."
+    "writeRequest": "Talebinizi buraya yazın...",
+    "requestGameDesc": "Bir oyun talep etmekten, bir hatayı bildirmekten veya uygulamayı geliştirmek için bazı önerilerde bulunmaktan çekinmeyin!"
   },
   "settings": {
-    "title": "Ayarlar",
     "description": "Bir oyun talep etmekten, bir hatayı bildirmekten veya uygulamayı geliştirmek için bazı önerilerde bulunmaktan çekinmeyin!",
     "setCollections": "Koleksiyonları ayarlayın:",
     "enabledDLC": "DLC'yi Etkinleştir/Devre Dışı Bırak:",
@@ -40,17 +43,9 @@
     "disabledSections": "Engelli Bölümler"
   },
   "errors": {
+    "error": "Hata",
+    "pleaseRefreshApp": "Lütfen uygulamayı yenileyin",
     "noEmailExists": "E-posta mevcut değil",
     "googleSignIn": "Google oturum açma hatası"
-  },
-  "skyrimDLC": {
-    "dawnguard": "Şafak Muhafızı",
-    "dragonborn": "Dragonborn"
-  },
-  "fallout4DLC": {
-    "automatron": "Nuka-Dünya",
-    "farHarbor": "Uzak Liman",
-    "nukaWorld": "Nuka-Dünya",
-    "vaultTecWorkshop": "Vault-Tec Atölyesi"
   }
 }

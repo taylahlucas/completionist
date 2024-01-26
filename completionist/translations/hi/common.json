@@ -1,10 +1,6 @@
 {
   "appTitle": "पूर्णतावादी।",
-  "requestGameDesc": "बेझिझक किसी गेम के लिए अनुरोध करें, बग की रिपोर्ट करें या ऐप को बेहतर बनाने के लिए कुछ सुझाव दें!",
-  "quests": "खोज",
-  "collectables": "संग्रहणीय वस्तुएँ",
-  "locations": "स्थानों",
-  "miscellaneous": "मिश्रित",
+  "welcome": "स्वागत",
   "search": "आइटम खोजें...",
   "showMore": "और दिखाओ",
   "none": "कोई नहीं",
@@ -17,21 +13,28 @@
     "username": "उपयोगकर्ता नाम",
     "forgotPassword": "पासवर्ड भूल गए?",
     "login": "लॉग इन करें",
+    "logout": "लॉग आउट",
     "signUp": "साइन अप करें",
     "createAccount": "खाता बनाएं",
     "requestAccount": "कोई खाता नहीं है?",
     "backToLogin": "लॉगिन पर वापस जाएं"
   },
-  "subscriptions": {
-    "title": "सदस्यता"
+  "screens": {
+    "quests": "खोज",
+    "collectables": "संग्रहणीय वस्तुएँ",
+    "locations": "स्थानों",
+    "miscellaneous": "मिश्रित",
+    "gameSelection": "खेल चयन",
+    "sendRequest": "अनुरोध भेजा",
+    "subscriptions": "सदस्यता",
+    "settings": "समायोजन"
   },
   "sendRequest": {
-    "title": "अनुरोध भेजा",
     "subject": "विषय",
-    "writeRequest": "अपना अनुरोध यहां लिखें..."
+    "writeRequest": "अपना अनुरोध यहां लिखें...",
+    "requestGameDesc": "बेझिझक किसी गेम के लिए अनुरोध करें, बग की रिपोर्ट करें या ऐप को बेहतर बनाने के लिए कुछ सुझाव दें!"
   },
   "settings": {
-    "title": "समायोजन",
     "description": "बेझिझक किसी गेम के लिए अनुरोध करें, बग की रिपोर्ट करें या ऐप को बेहतर बनाने के लिए कुछ सुझाव दें!",
     "setCollections": "संग्रह सेट करें:",
     "enabledDLC": "डीएलसी सक्षम/अक्षम करें:",
@@ -40,17 +43,9 @@
     "disabledSections": "विकलांग अनुभाग"
   },
   "errors": {
+    "error": "गलती",
+    "pleaseRefreshApp": "कृपया ऐप को रीफ्रेश करें",
     "noEmailExists": "ईमेल मौजूद नहीं है",
     "googleSignIn": "गूगल साइन इन में त्रुटि"
-  },
-  "skyrimDLC": {
-    "dawnguard": "दावन्गार्ड",
-    "dragonborn": "ड्रैगनबोर्न"
-  },
-  "fallout4DLC": {
-    "automatron": "नुका-विश्व",
-    "farHarbor": "सुदूर बंदरगाह",
-    "nukaWorld": "नुका-विश्व",
-    "vaultTecWorkshop": "वॉल्ट-टेक कार्यशाला"
   }
 }

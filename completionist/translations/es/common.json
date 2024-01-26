@@ -1,10 +1,6 @@
 {
   "appTitle": "Completista.",
-  "requestGameDesc": "¡No dudes en solicitar un juego, informar un error o hacer algunas sugerencias para mejorar la aplicación!",
-  "quests": "Misiones",
-  "collectables": "Coleccionables",
-  "locations": "Ubicaciones",
-  "miscellaneous": "Misceláneas",
+  "welcome": "Bienvenido",
   "search": "Buscar elementos...",
   "showMore": "Mostrar más",
   "none": "Ninguno",
@@ -17,21 +13,28 @@
     "username": "Nombre de usuario",
     "forgotPassword": "¿Has olvidado tu contraseña?",
     "login": "Acceso",
+    "logout": "Cerrar sesión",
     "signUp": "Inscribirse",
     "createAccount": "Crear una cuenta",
     "requestAccount": "¿No tienes una cuenta?",
     "backToLogin": "Atrás para iniciar sesión"
   },
-  "subscriptions": {
-    "title": "Suscripciones"
+  "screens": {
+    "quests": "Misiones",
+    "collectables": "Coleccionables",
+    "locations": "Ubicaciones",
+    "miscellaneous": "Misceláneas",
+    "gameSelection": "Selección de juego",
+    "sendRequest": "Enviar petición",
+    "subscriptions": "Suscripciones",
+    "settings": "Ajustes"
   },
   "sendRequest": {
-    "title": "Enviar petición",
     "subject": "Sujeto",
-    "writeRequest": "Escribe tu solicitud aquí..."
+    "writeRequest": "Escriba su solicitud aquí...",
+    "requestGameDesc": "¡No dudes en solicitar un juego, informar un error o hacer algunas sugerencias para mejorar la aplicación!"
   },
   "settings": {
-    "title": "Ajustes",
     "description": "¡No dudes en solicitar un juego, informar un error o hacer algunas sugerencias para mejorar la aplicación!",
     "setCollections": "Establecer colecciones:",
     "enabledDLC": "Activar/Desactivar DLC:",
@@ -40,17 +43,9 @@
     "disabledSections": "Secciones deshabilitadas"
   },
   "errors": {
+    "error": "Error",
+    "pleaseRefreshApp": "Por favor actualiza la aplicación",
     "noEmailExists": "El correo electrónico no existe.",
     "googleSignIn": "Error al iniciar sesión en Google"
-  },
-  "skyrimDLC": {
-    "dawnguard": "guardia del alba",
-    "dragonborn": "nacido de dragón"
-  },
-  "fallout4DLC": {
-    "automatron": "Nuka-Mundo",
-    "farHarbor": "Puerto lejano",
-    "nukaWorld": "Nuka-Mundo",
-    "vaultTecWorkshop": "Taller Vault-Tec"
   }
 }

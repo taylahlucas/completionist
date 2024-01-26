@@ -1,17 +1,17 @@
 import * as RNLocalize from 'react-native-localize';
-import * as ar from '../../../translations/ar/index.js';
-import * as de from '../../../translations/de/index.js';
-import * as en from '../../../translations/en/index.js';
-import * as es from '../../../translations/es/index.js';
-import * as fr from '../../../translations/fr/index.js';
-import * as hi from '../../../translations/hi/index.js';
-import * as id from '../../../translations/id/index.js';
-import * as it from '../../../translations/it/index.js';
-import * as ja from '../../../translations/ja/index.js';
-import * as pt from '../../../translations/pt/index.js';
-import * as tr from '../../../translations/tr/index.js';
-import * as vi from '../../../translations/vi/index.js';
-import * as zh from '../../../translations/zh/index.js';
+import * as ar from '../../../translations/ar/db/index.js';
+import * as de from '../../../translations/de/db/index.js';
+import * as en from '../../../translations/en/db/index.js';
+import * as es from '../../../translations/es/db/index.js';
+import * as fr from '../../../translations/fr/db/index.js';
+import * as hi from '../../../translations/hi/db/index.js';
+import * as id from '../../../translations/id/db/index.js';
+import * as it from '../../../translations/it/db/index.js';
+import * as ja from '../../../translations/ja/db/index.js';
+import * as pt from '../../../translations/pt/db/index.js';
+import * as tr from '../../../translations/tr/db/index.js';
+import * as vi from '../../../translations/vi/db/index.js';
+import * as zh from '../../../translations/zh/db/index.js';
 
 interface TranslatedGameDataReturnType {
   skyrimQuests: any;

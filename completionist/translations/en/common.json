@@ -1,10 +1,6 @@
 {
   "appTitle": "Completionist.",
-  "requestGameDesc": "Feel free to request a game, report a bug or make some suggestions to improve the app!",
-  "quests": "Quests",
-  "collectables": "Collectables",
-  "locations": "Locations",
-  "miscellaneous": "Miscellaneous",
+  "welcome": "Welcome",
   "search": "Search items...",
   "showMore": "Show more",
   "none": "None",
@@ -17,21 +13,28 @@
     "username": "Username",
     "forgotPassword": "Forgot Password?",
     "login": "Login",
+    "Logout": "Logout",
     "signUp": "Sign Up",
     "createAccount": "Create Account",
     "requestAccount": "Don't have an account?",
     "backToLogin": "Back to Login"
   },
-  "subscriptions": {
-    "title": "Subscriptions"
+  "screens": {
+    "quests": "Quests",
+    "collectables": "Collectables",
+    "locations": "Locations",
+    "miscellaneous": "Miscellaneous",
+    "gameSelection": "Game Selection",
+    "sendRequest": "Send Request",
+    "subscriptions": "Subscriptions",
+    "settings": "Settings"
   },
   "sendRequest": {
-    "title": "Send Request",
     "subject": "Subject",
-    "writeRequest": "Write your request here..."
+    "writeRequest": "Write your request here...",
+    "requestGameDesc": "Feel free to request a game, report a bug or make some suggestions to improve the app!"
   },
   "settings": {
-    "title": "Settings",
     "description": "Feel free to request a game, report a bug or make some suggestions to improve the app!",
     "setCollections": "Set collections:",
     "enabledDLC": "Enable/Disable DLC:",
@@ -40,17 +43,9 @@
     "disabledSections": "Disabled Sections"
   },
   "errors": {
+    "error": "Error",
+    "pleaseRefreshApp": "Please refresh the app",
     "noEmailExists": "Email does not exist",
     "googleSignIn": "Error with google sign in"
-  },
-  "skyrimDLC": {
-    "dawnguard": "Dawnguard",
-    "dragonborn": "Dragonborn"
-  },
-  "fallout4DLC": {
-    "automatron": "Nuka-World", 
-    "farHarbor": "Far Harbor",
-    "nukaWorld": "Nuka-World",
-    "vaultTecWorkshop": "Vault-Tec Workshop"
   }
 }

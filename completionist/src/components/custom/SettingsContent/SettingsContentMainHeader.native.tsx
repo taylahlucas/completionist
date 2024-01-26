@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import { SettingsConfigItem } from '@utils/CustomInterfaces';
 import SettingsContentCheckBox from './SettingsContentCheckbox.native';
@@ -9,11 +10,12 @@ interface SettingsContentMainHeaderProps {
 }
 
 const SettingsContentMainHeader = ({ item }: SettingsContentMainHeaderProps) => {
+  const { t } = useTranslation();
   const theme = useGetTheme();
 
   return (
     <SettingsContentMainItem color={theme.darkGrey}>
-      <SettingsContentMainItemTitle align={'left'} type={'ListItemSubTitleBold'} color={theme.lightGrey}>{item.section}</SettingsContentMainItemTitle>
+      <SettingsContentMainItemTitle align={'left'} type={'ListItemSubTitleBold'} color={theme.lightGrey}>{t(`common:screens.${item.section.toLowerCase()}`)}</SettingsContentMainItemTitle>
       <SettingsContentCheckBox item={item} />
     </SettingsContentMainItem>
   );

@@ -1,10 +1,6 @@
 {
   "appTitle": "Kompletionis.",
-  "requestGameDesc": "Jangan ragu untuk meminta permainan, melaporkan bug, atau memberikan beberapa saran untuk meningkatkan aplikasi!",
-  "quests": "Pencarian",
-  "collectables": "Barang koleksi",
-  "locations": "Lokasi",
-  "miscellaneous": "Aneka ragam",
+  "welcome": "Selamat datang",
   "search": "Cari item...",
   "showMore": "Menampilkan lebih banyak",
   "none": "Tidak ada",
@@ -17,21 +13,28 @@
     "username": "Nama belakang",
     "forgotPassword": "Tidak ingat kata sandi?",
     "login": "Gabung",
+    "logout": "Keluar",
     "signUp": "Mendaftar",
     "createAccount": "Buat Akun",
     "requestAccount": "Belum punya akun?",
     "backToLogin": "Kembali untuk masuk"
   },
-  "subscriptions": {
-    "title": "Langganan"
+  "screens": {
+    "quests": "Pencarian",
+    "collectables": "Barang koleksi",
+    "locations": "Lokasi",
+    "miscellaneous": "Aneka ragam",
+    "gameSelection": "Pemilihan Permainan",
+    "sendRequest": "Kirim Permintaan",
+    "subscriptions": "Langganan",
+    "settings": "Pengaturan"
   },
   "sendRequest": {
-    "title": "Kirim Permintaan",
     "subject": "Subjek",
-    "writeRequest": "Tulis permintaan Anda di sini..."
+    "writeRequest": "Tulis permintaan Anda di sini...",
+    "requestGameDesc": "Jangan ragu untuk meminta permainan, melaporkan bug, atau memberikan beberapa saran untuk meningkatkan aplikasi!"
   },
   "settings": {
-    "title": "Pengaturan",
     "description": "Jangan ragu untuk meminta permainan, melaporkan bug, atau memberikan beberapa saran untuk meningkatkan aplikasi!",
     "setCollections": "Tetapkan koleksi:",
     "enabledDLC": "Aktifkan/Nonaktifkan DLC:",
@@ -40,17 +43,9 @@
     "disabledSections": "Bagian yang Dinonaktifkan"
   },
   "errors": {
+    "error": "Kesalahan",
+    "pleaseRefreshApp": "Harap segarkan aplikasi",
     "noEmailExists": "Emailnya tidak ada",
     "googleSignIn": "Kesalahan saat masuk Google"
-  },
-  "skyrimDLC": {
-    "dawnguard": "Penjaga Fajar",
-    "dragonborn": "lahir naga"
-  },
-  "fallout4DLC": {
-    "automatron": "Nuka-Dunia",
-    "farHarbor": "Pelabuhan Jauh",
-    "nukaWorld": "Nuka-Dunia",
-    "vaultTecWorkshop": "Lokakarya Vault-Tec"
   }
 }

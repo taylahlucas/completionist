@@ -1,10 +1,6 @@
 {
   "appTitle": "完璧主義者。",
-  "requestGameDesc": "ゲームのリクエスト、バグの報告、アプリを改善するための提案など、お気軽にどうぞ！",
-  "quests": "クエスト",
-  "collectables": "収集品",
-  "locations": "所在地",
-  "miscellaneous": "その他",
+  "welcome": "いらっしゃいませ",
   "search": "アイテムを検索...",
   "showMore": "もっと見せる",
   "none": "なし",
@@ -17,21 +13,28 @@
     "username": "ユーザー名",
     "forgotPassword": "パスワードをお忘れですか？",
     "login": "ログイン",
+    "logout": "ログアウト",
     "signUp": "サインアップ",
     "createAccount": "アカウントを作成する",
     "requestAccount": "アカウントをお持ちでない場合は、",
     "backToLogin": "ログインに戻る"
   },
-  "subscriptions": {
-    "title": "定期購入"
+  "screens": {
+    "quests": "クエスト",
+    "collectables": "収集品",
+    "locations": "所在地",
+    "miscellaneous": "その他",
+    "gameSelection": "ゲームの選択",
+    "sendRequest": "リクエストの送信",
+    "subscriptions": "定期購入",
+    "settings": "設定"
   },
   "sendRequest": {
-    "title": "リクエストの送信",
     "subject": "主題",
-    "writeRequest": "ここにリクエストを書いてください..."
+    "writeRequest": "ここにリクエストを書いてください...",
+    "requestGameDesc": "ゲームのリクエスト、バグの報告、アプリを改善するための提案など、お気軽にどうぞ！"
   },
   "settings": {
-    "title": "設定",
     "description": "ゲームのリクエスト、バグの報告、アプリを改善するための提案など、お気軽にどうぞ！",
     "setCollections": "セットコレクション:",
     "enabledDLC": "DLC を有効/無効にする:",
@@ -40,17 +43,9 @@
     "disabledSections": "無効化されたセクション"
   },
   "errors": {
+    "error": "エラー",
+    "pleaseRefreshApp": "アプリを更新してください",
     "noEmailExists": "電子メールが存在しません",
     "googleSignIn": "Googleサインインでエラーが発生する"
-  },
-  "skyrimDLC": {
-    "dawnguard": "ドーンガード",
-    "dragonborn": "ドラゴンボーン"
-  },
-  "fallout4DLC": {
-    "automatron": "ヌカ・ワールド",
-    "farHarbor": "ファーハーバー",
-    "nukaWorld": "ヌカ・ワールド",
-    "vaultTecWorkshop": "Vault-Tec ワークショップ"
   }
 }

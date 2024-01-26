@@ -1,10 +1,6 @@
 {
   "appTitle": "Người theo chủ nghĩa hoàn thiện.",
-  "requestGameDesc": "Vui lòng yêu cầu trò chơi, báo cáo lỗi hoặc đưa ra một số đề xuất để cải thiện ứng dụng!",
-  "quests": "Nhiệm vụ",
-  "collectables": "Đồ sưu tầm",
-  "locations": "Địa điểm",
-  "miscellaneous": "Điều khoản khác",
+  "welcome": "Chào mừng",
   "search": "Tìm kiếm các mục...",
   "showMore": "Cho xem nhiều hơn",
   "none": "Không có",
@@ -17,21 +13,28 @@
     "username": "tên tài khoản",
     "forgotPassword": "Quên mật khẩu?",
     "login": "Đăng nhập",
+    "logout": "Đăng xuất",
     "signUp": "Đăng ký",
     "createAccount": "Tạo tài khoản",
     "requestAccount": "Bạn chưa có tài khoản?",
     "backToLogin": "Quay lại đăng nhập"
   },
-  "subscriptions": {
-    "title": "Đăng ký"
+  "screens": {
+    "quests": "Nhiệm vụ",
+    "collectables": "Đồ sưu tầm",
+    "locations": "Địa điểm",
+    "miscellaneous": "Điều khoản khác",
+    "gameSelection": "Lựa chọn trò chơi",
+    "sendRequest": "Gửi yêu cầu",
+    "subscriptions": "Đăng ký",
+    "settings": "Cài đặt"
   },
   "sendRequest": {
-    "title": "Gửi yêu cầu",
     "subject": "Chủ thể",
-    "writeRequest": "Viết yêu cầu của bạn ở đây..."
+    "writeRequest": "Viết yêu cầu của bạn ở đây...",
+    "requestGameDesc": "Vui lòng yêu cầu trò chơi, báo cáo lỗi hoặc đưa ra một số đề xuất để cải thiện ứng dụng!"
   },
   "settings": {
-    "title": "Cài đặt",
     "description": "Vui lòng yêu cầu trò chơi, báo cáo lỗi hoặc đưa ra một số đề xuất để cải thiện ứng dụng!",
     "setCollections": "Đặt bộ sưu tập:",
     "enabledDLC": "Bật/Tắt DLC:",
@@ -40,17 +43,9 @@
     "disabledSections": "Phần bị vô hiệu hóa"
   },
   "errors": {
+    "error": "Lỗi",
+    "pleaseRefreshApp": "Vui lòng làm mới ứng dụng",
     "noEmailExists": "Email không tồn tại",
     "googleSignIn": "Lỗi đăng nhập google"
-  },
-  "skyrimDLC": {
-    "dawnguard": "Bình minh",
-    "dragonborn": "con rồng"
-  },
-  "fallout4DLC": {
-    "automatron": "Thế giới Nuka",
-    "farHarbor": "Cảng xa",
-    "nukaWorld": "Thế giới Nuka",
-    "vaultTecWorkshop": "Hội thảo Vault-Tec"
   }
 }

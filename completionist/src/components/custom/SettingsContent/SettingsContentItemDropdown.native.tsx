@@ -19,7 +19,12 @@ const SettingsContentItemDropdown = ({ item }: SettingsContentItemDropdownProps)
   const { setSelectedCategory } = useSettingsDispatch();
   const { selectedCategory } = useSettingsState();
   const { getUserSettingsSubConfig } = useGetUserGameData();
-  
+
+  const convertToCamelCase = (value: string) => {
+    const splitValue = value.split(/\s+|-/);
+    // todo: test here
+  };
+
   return (
     <Dropdown
       isOpen={item.section === selectedCategory.category}

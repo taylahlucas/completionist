@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { RequestGameContainer } from './RequestGameContentStyledComponents.native';
 import StyledText from '@components/general/Text/StyledText.native';
 import useEndpoints from '@data/hooks/useEndpoints';
@@ -12,6 +13,7 @@ interface RequestFormData {
 }
 
 const RequestGameContent = () => {
+  const { t } = useTranslation();
   const { user } = useMainState();
   const { sendEmail } = useEndpoints();
   const [formData, setFormData] = useState<RequestFormData>({
@@ -31,10 +33,10 @@ const RequestGameContent = () => {
   return (
     <>
       <RequestGameContainer>
-        <StyledText>Feel free to request a game, report a bug or make some suggestions to improve the app!</StyledText>
+        <StyledText>{t('common:sendRequest.requestGameDesc')}</StyledText>
       </RequestGameContainer>
       <TextInput
-        placeholder={'Subject'}
+        placeholder={t('common:sendRequest.subject')}
         value={formData.subject}
         onChangeText={(value: string) => setFormData({
           ...formData,
@@ -46,7 +48,7 @@ const RequestGameContent = () => {
         })}
       />
       <TextInput
-        placeholder={'Write your request here...'}
+        placeholder={t('common:sendRequest.writeRequest')}
         value={formData.text}
         height={200}
         onChangeText={(value: string) => setFormData({
@@ -60,7 +62,7 @@ const RequestGameContent = () => {
         multiline={true}
       />
       <RequestGameContainer>
-        <Button title={'Send Request'} onPress={sendEmailAction} disabled={!formData.subject || !formData.text} />
+        <Button title={t('common:screens.sendRequest')} onPress={sendEmailAction} disabled={!formData.subject || !formData.text} />
       </RequestGameContainer>
     </>
   );

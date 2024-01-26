@@ -1,5 +1,6 @@
 {
   "skyrim": {
+    "title": "スカイリム",
     "categories": {
       "quests": {
         "title": "クエスト",
@@ -40,6 +41,7 @@
     }
   },
   "fallout4": {
+    "title": "Fallout 4",
     "categories": {
       "quests": {
         "title": "クエスト",

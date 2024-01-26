@@ -3,6 +3,7 @@ import { ScrollView } from 'react-native';
 import { listStyles, ListShowMoreButton } from './ListStyledComponents.native';
 import { renderAmountConst } from '@utils/constants'
 import Condition from '../Condition.native';
+import { useTranslation } from 'react-i18next';
 
 interface CustomListProps {
   children: JSX.Element[];
@@ -13,6 +14,7 @@ interface CustomListProps {
 };
 
 const ScrollableList = ({ children, style, contentContainerStyle, isHorizontal = false, renderAmount = renderAmountConst }: CustomListProps) => {
+  const { t } = useTranslation();
   const [updatedRenderAmount, setUpdatedRenderAmount] = useState(renderAmount);
   
   return (
@@ -27,7 +29,7 @@ const ScrollableList = ({ children, style, contentContainerStyle, isHorizontal =
       >
         {children.slice(0, updatedRenderAmount)}
         <ListShowMoreButton
-          title={'Show more'}
+          title={t('common:showMore')}
           type={'text'}
           onPress={(): void => setUpdatedRenderAmount(updatedRenderAmount + renderAmountConst)}
         />

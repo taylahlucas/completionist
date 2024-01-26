@@ -1,4 +1,5 @@
 import { ScreenEnum } from '@utils/CustomEnums';
+import { useTranslation } from 'react-i18next';
 
 interface NavigationFooterDrawerItem {
   id: ScreenEnum;
@@ -6,18 +7,20 @@ interface NavigationFooterDrawerItem {
 }
 
 const useGetNavigationFooterDrawerItems = (): NavigationFooterDrawerItem[] => {
+  const { t } = useTranslation();
+
   return ([
     {
       id: ScreenEnum.GameSelection,
-      title: 'Game Selection'
+      title: t('common:screens.gameSelection')
     },
     {
       id: ScreenEnum.RequestGame,
-      title: 'Send Request'
+      title: t('common:screens.sendRequest')
     },
     {
       id: ScreenEnum.Settings,
-      title: 'Settings'
+      title: t('common:screens.settings')
     }
   ]);
 };

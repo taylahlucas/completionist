@@ -1,10 +1,6 @@
 {
   "appTitle": "Vervollständiger.",
-  "requestGameDesc": "Fordern Sie gerne ein Spiel an, melden Sie einen Fehler oder machen Sie Vorschläge zur Verbesserung der App!",
-  "quests": "Quests",
-  "collectables": "Sammlerstücke",
-  "locations": "Standorte",
-  "miscellaneous": "Verschiedenes",
+  "welcome": "Willkommen",
   "search": "Artikel suchen...",
   "showMore": "Zeig mehr",
   "none": "Keiner",
@@ -17,21 +13,28 @@
     "username": "Nutzername",
     "forgotPassword": "Passwort vergessen?",
     "login": "Anmeldung",
+    "logout": "Ausloggen",
     "signUp": "Melden Sie sich an",
     "createAccount": "Benutzerkonto erstellen",
     "requestAccount": "Sie haben noch kein Konto?",
     "backToLogin": "Zurück zur Anmeldung"
   },
-  "subscriptions": {
-    "title": "Abonnements"
+  "screens": {
+    "quests": "Quests",
+    "collectables": "Sammlerstücke",
+    "locations": "Standorte",
+    "miscellaneous": "Verschiedenes",
+    "gameSelection": "Spielauswahl",
+    "sendRequest": "Anfrage senden",
+    "subscriptions": "Abonnements",
+    "settings": "Einstellungen"
   },
   "sendRequest": {
-    "title": "Anfrage senden",
     "subject": "Thema",
-    "writeRequest": "Schreiben Sie hier Ihre Anfrage..."
+    "writeRequest": "Schreiben Sie hier Ihre Anfrage...",
+    "requestGameDesc": "Fordern Sie gerne ein Spiel an, melden Sie einen Fehler oder machen Sie Vorschläge zur Verbesserung der App!"
   },
   "settings": {
-    "title": "Einstellungen",
     "description": "Fordern Sie gerne ein Spiel an, melden Sie einen Fehler oder machen Sie Vorschläge zur Verbesserung der App!",
     "setCollections": "Set-Sammlungen:",
     "enabledDLC": "DLC aktivieren/deaktivieren:",
@@ -40,17 +43,9 @@
     "disabledSections": "Behindertenbereiche"
   },
   "errors": {
+    "error": "Fehler",
+    "pleaseRefreshApp": "Bitte aktualisieren Sie die App",
     "noEmailExists": "Email existiert nicht",
     "googleSignIn": "Fehler bei der Google-Anmeldung"
-  },
-  "skyrimDLC": {
-    "dawnguard": "Dawnguard",
-    "dragonborn": "Drachengeborenes"
-  },
-  "fallout4DLC": {
-    "automatron": "Nuka-Welt",
-    "farHarbor": "Far Harbor",
-    "nukaWorld": "Nuka-Welt",
-    "vaultTecWorkshop": "Vault-Tec-Workshop"
   }
 }

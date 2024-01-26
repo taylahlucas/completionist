@@ -1,10 +1,6 @@
 {
   "appTitle": "完美主义者。",
-  "requestGameDesc": "请随意请求游戏、报告错误或提出一些改进应用程序的建议！",
-  "quests": "任务",
-  "collectables": "收藏品",
-  "locations": "地点",
-  "miscellaneous": "各种各样的",
+  "welcome": "欢迎",
   "search": "搜索项目...",
   "showMore": "展示更多",
   "none": "没有任何",
@@ -17,21 +13,28 @@
     "username": "用户名",
     "forgotPassword": "忘记密码？",
     "login": "登录",
+    "logout": "登出",
     "signUp": "报名",
     "createAccount": "创建账户",
     "requestAccount": "没有帐户？",
     "backToLogin": "回到登入"
   },
-  "subscriptions": {
-    "title": "订阅"
+  "screens": {
+    "quests": "任务",
+    "collectables": "收藏品",
+    "locations": "地点",
+    "miscellaneous": "各种各样的",
+    "gameSelection": "游戏选择",
+    "sendRequest": "发送请求",
+    "subscriptions": "订阅",
+    "settings": "设置"
   },
   "sendRequest": {
-    "title": "发送请求",
     "subject": "主题",
-    "writeRequest": "在这里写下您的要求..."
+    "writeRequest": "在这里写下您的要求...",
+    "requestGameDesc": "请随意请求游戏、报告错误或提出一些改进应用程序的建议！"
   },
   "settings": {
-    "title": "设置",
     "description": "请随意请求游戏、报告错误或提出一些改进应用程序的建议！",
     "setCollections": "设置集合：",
     "enabledDLC": "启用/禁用 DLC：",
@@ -40,17 +43,9 @@
     "disabledSections": "残疾人部分"
   },
   "errors": {
+    "error": "错误",
+    "pleaseRefreshApp": "请刷新应用程序",
     "noEmailExists": "电子邮件不存在",
     "googleSignIn": "谷歌登录出错"
-  },
-  "skyrimDLC": {
-    "dawnguard": "黎明守卫",
-    "dragonborn": "龙裔"
-  },
-  "fallout4DLC": {
-    "automatron": "核子世界",
-    "farHarbor": "远港",
-    "nukaWorld": "核子世界",
-    "vaultTecWorkshop": "Vault-Tec 研讨会"
   }
 }

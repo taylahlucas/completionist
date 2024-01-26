@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import StandardLayout from '@components/general/Layouts/StandardLayout.native';
 import NavigationHeader from '@navigation/NavigationHeader.native';
 import CustomSearchBar from '@components/general/CustomSearchBar/CustomSearchBar.native';
@@ -11,7 +12,8 @@ import useContentState from '@components/custom/ContentList/hooks/useContentStat
 import useContentDispatch from '@components/custom/ContentList/hooks/useContentDispatch';
 
 const Quests = () => {
-  const type = 'Quests';
+  const { t } = useTranslation();
+  const sectionTitle = t('common:screens.quests');
   const { selectedGame } = useMainState();
   const { setSearchValue } = useContentDispatch();
   const { searchValue } = useContentState();
@@ -20,14 +22,14 @@ const Quests = () => {
 
   return (
     <StandardLayout>
-      <NavigationHeader title={type} />
+      <NavigationHeader title={sectionTitle} />
       <CustomSearchBar 
         searchValue={searchValue} 
         setSearchValue={setSearchValue}
         onReset={(): void => setSearchValue('')} 
       />
       <CompletedQuantityTitle type={'ListItemTitleBold'}>
-        {`${getUserQuests().length}/${mapDataTo(type, selectedGame, true).length}`}
+        {`${getUserQuests().length}/${mapDataTo('Quests', selectedGame, true).length}`}
       </CompletedQuantityTitle>
       <ContentList />
     </StandardLayout>

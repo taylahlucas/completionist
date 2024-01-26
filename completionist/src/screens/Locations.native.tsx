@@ -1,4 +1,5 @@
-import React, { useEffect } from 'react';
+import React from 'react';
+import { useTranslation } from 'react-i18next';
 import StandardLayout from '@components/general/Layouts/StandardLayout.native';
 import { CompletedQuantityTitle } from '@components/general/Text/StyledTextStyledComponents.native';
 import NavigationHeader from '@navigation/NavigationHeader.native';
@@ -11,7 +12,8 @@ import useContentState from '@components/custom/ContentList/hooks/useContentStat
 import ContentList from '@components/custom/ContentList/ContentList.native';
 
 const Locations = () => {
-  const type = 'Locations';
+  const { t } = useTranslation();
+  const sectionTitle = t('common:screens.locations');
   const { selectedGame } = useMainState();
   const { setSearchValue } = useContentDispatch();
   const { searchValue } = useContentState();
@@ -20,13 +22,13 @@ const Locations = () => {
 
   return (
     <StandardLayout>
-      <NavigationHeader title={'Locations'} />
+      <NavigationHeader title={sectionTitle} />
       <CustomSearchBar 
         searchValue={searchValue} 
         setSearchValue={setSearchValue}
         onReset={(): void => setSearchValue('')} 
       />
-      <CompletedQuantityTitle type={'ListItemTitleBold'}>{`${getUserLocations().length}/${mapDataTo(type, selectedGame, true).length}`}</CompletedQuantityTitle>
+      <CompletedQuantityTitle type={'ListItemTitleBold'}>{`${getUserLocations().length}/${mapDataTo('Locations', selectedGame, true).length}`}</CompletedQuantityTitle>
       <ContentList />
     </StandardLayout>
   );

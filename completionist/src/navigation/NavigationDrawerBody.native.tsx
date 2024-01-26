@@ -13,8 +13,10 @@ import useGetTheme from '@styles/hooks/useGetTheme';
 import useMainState from '@redux/hooks/useMainState';
 import useGetNavigationFooterDrawerItems from './hooks/useGetFooterNavigationDrawerItems.native';
 import NavigationDrawerItem from './NavigationDrawerItem.native';
+import { useTranslation } from 'react-i18next';
 
 const NavigationDrawerBody: React.FunctionComponent = () => {
+  const { t } = useTranslation();
   const navigation = useReactNavigation();
   const theme = useGetTheme();
   const { currentScreen } = useMainState();
@@ -45,7 +47,7 @@ const NavigationDrawerBody: React.FunctionComponent = () => {
             color={currentScreen === ScreenEnum.Login ? theme.lightGrey : theme.midGrey}
             align={'left'}
           >
-            Logout
+            {t('common:auth.logout')}
           </NavigationDrawerTitle>
         </Pressable>
       </NavigationDrawerFooter>

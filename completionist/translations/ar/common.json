@@ -1,10 +1,6 @@
 {
   "appTitle": "المكمل.",
-  "requestGameDesc": "لا تتردد في طلب لعبة أو الإبلاغ عن خطأ أو تقديم بعض الاقتراحات لتحسين التطبيق!",
-  "quests": "أسئلة",
-  "collectables": "مقتنيات",
-  "locations": "المواقع",
-  "miscellaneous": "متنوع",
+  "welcome": "مرحباً",
   "search": "عناصر البحث...",
   "showMore": "أظهر المزيد",
   "none": "لا أحد",
@@ -17,21 +13,28 @@
     "username": "اسم المستخدم",
     "forgotPassword": "هل نسيت كلمة السر؟",
     "login": "تسجيل الدخول",
+    "logout": "تسجيل خروج",
     "signUp": "اشتراك",
     "createAccount": "إنشاء حساب",
     "requestAccount": "ليس لديك حساب؟",
     "backToLogin": "العودة إلى تسجيل الدخول"
   },
-  "subscriptions": {
-    "title": "الاشتراكات"
+  "screens": {
+    "quests": "أسئلة",
+    "collectables": "مقتنيات",
+    "locations": "المواقع",
+    "miscellaneous": "متنوع",
+    "gameSelection": "اختيار اللعبة",
+    "sendRequest": "ارسل طلب",
+    "subscriptions": "الاشتراكات",
+    "settings": "إعدادات"
   },
   "sendRequest": {
-    "title": "ارسل طلب",
     "subject": "موضوع",
-    "writeRequest": "أكتب طلبك هنا..."
+    "writeRequest": "أكتب طلبك هنا...",
+    "requestGameDesc": "لا تتردد في طلب لعبة أو الإبلاغ عن خطأ أو تقديم بعض الاقتراحات لتحسين التطبيق!"
   },
   "settings": {
-    "title": "إعدادات",
     "description": "لا تتردد في طلب لعبة أو الإبلاغ عن خطأ أو تقديم بعض الاقتراحات لتحسين التطبيق!",
     "setCollections": "تعيين المجموعات:",
     "enabledDLC": "تمكين/تعطيل المحتوى القابل للتنزيل:",
@@ -40,17 +43,9 @@
     "disabledSections": "الأقسام المعطلة"
   },
   "errors": {
+    "error": "خطأ",
+    "pleaseRefreshApp": "يرجى تحديث التطبيق",
     "noEmailExists": "البريد الإلكتروني غير موجود",
     "googleSignIn": "حدث خطأ أثناء تسجيل الدخول إلى Google"
-  },
-  "skyrimDLC": {
-    "dawnguard": "داونغارد",
-    "dragonborn": "دراجونبورن"
-  },
-  "fallout4DLC": {
-    "automatron": "نوكا وورلد",
-    "farHarbor": "فار هاربور",
-    "nukaWorld": "نوكا وورلد",
-    "vaultTecWorkshop": "ورشة فولت تيك"
   }
 }

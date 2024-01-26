@@ -1,5 +1,6 @@
 {
   "skyrim": {
+    "title": "سكيريم",
     "categories": {
       "quests": {
         "title": "أسئلة",
@@ -40,6 +41,7 @@
     }
   },
   "fallout4": {
+    "title": "تداعيات4",
     "categories": {
       "quests": {
         "title": "أسئلة",

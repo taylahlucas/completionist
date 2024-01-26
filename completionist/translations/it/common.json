@@ -1,10 +1,6 @@
 {
   "appTitle": "Complezionista.",
-  "requestGameDesc": "Sentiti libero di richiedere un gioco, segnalare un bug o dare qualche suggerimento per migliorare l'app!",
-  "quests": "Missioni",
-  "collectables": "Oggetti da collezione",
-  "locations": "Posizioni",
-  "miscellaneous": "Varie",
+  "welcome": "Benvenuto",
   "search": "Cerca elementi...",
   "showMore": "Mostra di più",
   "none": "Nessuno",
@@ -17,21 +13,28 @@
     "username": "Nome utente",
     "forgotPassword": "Ha dimenticato la password?",
     "login": "Login",
+    "logout": "Disconnettersi",
     "signUp": "Iscrizione",
     "createAccount": "Creare un account",
     "requestAccount": "Non hai un account?",
     "backToLogin": "Torna al login"
   },
-  "subscriptions": {
-    "title": "Abbonamenti"
+  "screens": {
+    "quests": "Missioni",
+    "collectables": "Oggetti da collezione",
+    "locations": "Posizioni",
+    "miscellaneous": "Varie",
+    "gameSelection": "Selezione del gioco",
+    "sendRequest": "Invia richiesta",
+    "subscriptions": "Abbonamenti",
+    "settings": "Impostazioni"
   },
   "sendRequest": {
-    "title": "Invia richiesta",
     "subject": "Soggetto",
-    "writeRequest": "Scrivi qui la tua richiesta..."
+    "writeRequest": "Scrivi qui la tua richiesta...",
+    "requestGameDesc": "Sentiti libero di richiedere un gioco, segnalare un bug o dare qualche suggerimento per migliorare l'app!"
   },
   "settings": {
-    "title": "Impostazioni",
     "description": "Sentiti libero di richiedere un gioco, segnalare un bug o dare qualche suggerimento per migliorare l'app!",
     "setCollections": "Imposta raccolte:",
     "enabledDLC": "Abilita/Disabilita DLC:",
@@ -40,17 +43,9 @@
     "disabledSections": "Sezioni disabili"
   },
   "errors": {
+    "error": "Errore",
+    "pleaseRefreshApp": "Aggiorna l'app",
     "noEmailExists": "L'e-mail non esiste",
     "googleSignIn": "Errore con l'accesso a Google"
-  },
-  "skyrimDLC": {
-    "dawnguard": "Dawnguard",
-    "dragonborn": "Sangue di Drago"
-  },
-  "fallout4DLC": {
-    "automatron": "Mondo Nuka",
-    "farHarbor": "Porto lontano",
-    "nukaWorld": "Mondo Nuka",
-    "vaultTecWorkshop": "Workshop Vault-Tec"
   }
 }

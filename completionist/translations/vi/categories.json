@@ -1,5 +1,6 @@
 {
   "skyrim": {
+    "title": "Skyrim",
     "categories": {
       "quests": {
         "title": "Nhiệm vụ",
@@ -40,6 +41,7 @@
     }
   },
   "fallout4": {
+    "title": "bụi phóng xạ 4",
     "categories": {
       "quests": {
         "title": "Nhiệm vụ",

@@ -1,10 +1,6 @@
 {
   "appTitle": "Finaliste.",
-  "requestGameDesc": "N'hésitez pas à demander un jeu, signaler un bug ou faire des suggestions pour améliorer l'application !",
-  "quests": "Quêtes",
-  "collectables": "Objets de collection",
-  "locations": "Emplacements",
-  "miscellaneous": "Divers",
+  "welcome": "Accueillir",
   "search": "Rechercher des éléments...",
   "showMore": "Montre plus",
   "none": "Aucun",
@@ -17,21 +13,28 @@
     "username": "Nom d'utilisateur",
     "forgotPassword": "Mot de passe oublié?",
     "login": "Se connecter",
+    "logout": "Se déconnecter",
     "signUp": "S'inscrire",
     "createAccount": "Créer un compte",
     "requestAccount": "Vous n'avez pas de compte ?",
     "backToLogin": "Retour connexion"
   },
-  "subscriptions": {
-    "title": "Abonnements"
+  "screens": {
+    "quests": "Quêtes",
+    "collectables": "Objets de collection",
+    "locations": "Emplacements",
+    "miscellaneous": "Divers",
+    "gameSelection": "Sélection de jeux",
+    "sendRequest": "Envoyer une demande",
+    "subscriptions": "Abonnements",
+    "settings": "Paramètres"
   },
   "sendRequest": {
-    "title": "Envoyer une demande",
     "subject": "Sujet",
-    "writeRequest": "Écrivez votre demande ici..."
+    "writeRequest": "Écrivez votre demande ici...",
+    "requestGameDesc": "N'hésitez pas à demander un jeu, signaler un bug ou faire des suggestions pour améliorer l'application !"
   },
   "settings": {
-    "title": "Paramètres",
     "description": "N'hésitez pas à demander un jeu, signaler un bug ou faire des suggestions pour améliorer l'application !",
     "setCollections": "Définir les collections :",
     "enabledDLC": "Activer/Désactiver le DLC :",
@@ -40,17 +43,9 @@
     "disabledSections": "Sections désactivées"
   },
   "errors": {
+    "error": "Erreur",
+    "pleaseRefreshApp": "Veuillez actualiser l'application",
     "noEmailExists": "L'e-mail n'existe pas",
     "googleSignIn": "Erreur avec la connexion Google"
-  },
-  "skyrimDLC": {
-    "dawnguard": "Garde-aube",
-    "dragonborn": "Enfant de Dragon"
-  },
-  "fallout4DLC": {
-    "automatron": "Nuka-Monde",
-    "farHarbor": "Port lointain",
-    "nukaWorld": "Nuka-Monde",
-    "vaultTecWorkshop": "Atelier Vault-Tec"
   }
 }
