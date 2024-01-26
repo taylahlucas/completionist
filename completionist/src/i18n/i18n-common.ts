@@ -16,12 +16,5 @@ export const languages = ['ar', 'de', 'en', 'es', 'fr', 'hi', 'id', 'it', 'ja', 
 
 export const namespace = [
   'common',
-  'skyrim_quests',
-  'skyrim_collectables',
-  'skyrim_locations',
-  'skyrim_miscellaneous',
-  'fallout4_quests',
-  'fallout4_collectables',
-  'fallout4_locations',
-  'fallout4_miscellaneous',
+  'categories'
 ];

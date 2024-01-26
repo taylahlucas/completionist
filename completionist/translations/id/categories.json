@@ -1,0 +1,73 @@
+{
+  "skyrim": {
+    "categories": {
+      "quests": {
+        "title": "Pencarian",
+        "mainQuests": "Quest Utama",
+        "factionQuests": "Pencarian Fraksi",
+        "civilWar": "Perang sipil",
+        "daedricQuests": "Pencarian Daedrik",
+        "dungeonQuests": "Pencarian Bawah Tanah",
+        "miscQuests": "Quest Lain-Lain",
+        "bountyQuests": "Pencarian Hadiah",
+        "globalQuests": "Pencarian Global"
+      },
+      "collectables": {
+        "title": "Barang koleksi",
+        "dragonPriestMasks": "Topeng Pendeta Naga",
+        "daedricArtefacts": "Artefak Daedric",
+        "bugInJar": "Serangga dalam Toples",
+        "shouts": "Teriakan",
+        "uniqueArmourSets": "Set Armor Unik",
+        "uniqueWeapons": "Senjata Unik",
+        "shrines": "Kuil",
+        "stones": "Batu"
+      },
+      "locations": {
+        "title": "Lokasi"
+      },
+      "miscellaneous": {
+        "title": "Aneka ragam",
+        "books": "Buku",
+        "spellTomes": "Eja Tomes",
+        "journals": "Jurnal"
+      }
+    },
+    "dlc": {
+      "dawnguard": "Penjaga Fajar",
+      "dragonborn": "lahir naga",
+      "hearthfire": "api perapian"
+    }
+  },
+  "fallout4": {
+    "categories": {
+      "quests": {
+        "title": "Pencarian",
+        "mainQuests": "Quest Utama",
+        "factionQuests": "Pencarian Fraksi",
+        "sideQuests": "Pencarian Sampingan"
+      },
+      "collectables": {
+        "title": "Barang koleksi",
+        "boobleheads": "Bobblehead",
+        "magazines": "Majalah",
+        "uniqueWeapons": "Senjata Unik",
+        "uniqueArmour": "Baju Besi Unik",
+        "powerArmour": "Armor Kekuatan"
+      },
+      "locations": {
+        "title": "Lokasi"
+      },
+      "miscellaneous": {
+        "title": "Aneka ragam",
+        "holotapes": "Holotape"
+      }
+    },
+    "dlc": {
+      "automatron": "robot",
+      "farHarbor": "Pelabuhan Jauh",
+      "nukaWorld": "Nuka-Dunia",
+      "vaultTecWorkshop": "Lokakarya Vault-Tec"
+    }
+  }
+}

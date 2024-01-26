@@ -1,22 +1,26 @@
-import skyrim_quests from '../../../backend/database/skyrim/skyrim_quests.json';
-import skyrim_collectables from '../../../backend/database/skyrim/skyrim_collectables.json';
-import skyrim_locations from '../../../backend/database/skyrim/skyrim_locations.json';
-import skyrim_misc from '../../../backend/database/skyrim/skyrim_misc.json';
-import fallout4_quests from '../../../backend/database/fallout4/fallout4_quests.json';
-import fallout4_locations from '../../../backend/database/fallout4/fallout4_locations.json';
-import fallout4_collectables from '../../../backend/database/fallout4/fallout4_collectables.json';
-import fallout4_misc from '../../../backend/database/fallout4/fallout4_misc.json';
 import { SubscriptionTypeEnum } from '@utils/CustomEnums';
 import { GameContentItem, SettingsConfigItem } from '@utils/CustomInterfaces';
 import useMainState from '@redux/hooks/useMainState';
 import { ContentSection } from '@utils/CustomTypes';
+import useGetTranslatedGameData from './useGetTranslatedGameData.native';
 
 interface GameDataReturnType {
   mapDataTo: (type: ContentSection, selectedGame?: SubscriptionTypeEnum, filter?: boolean) => GameContentItem[];
 }
 
 const useGetGameData = (): GameDataReturnType => {
-  const { user, selectedGameData } = useMainState();
+  const {
+    skyrimQuests,
+    skyrimCollectables,
+    skyrimLocations,
+    skyrimMisc,
+
+    fallout4Quests,
+    fallout4Collectables,
+    fallout4Locations,
+    fallout4Misc
+  } = useGetTranslatedGameData();
+  const { selectedGameData } = useMainState();
 
   const filterData = (config: SettingsConfigItem[], data: any[]) => {
     const filteredConfig = config.filter(item => !item.isActive);
@@ -52,11 +56,11 @@ const useGetGameData = (): GameDataReturnType => {
   const mapDataToQuests = (selectedGame?: SubscriptionTypeEnum): GameContentItem[] => {
     switch (selectedGame) {
       case SubscriptionTypeEnum.SKYRIM:
-        return skyrim_quests.map((quest: GameContentItem) => {
+        return skyrimQuests.map((quest: GameContentItem) => {
           return quest as GameContentItem;
         });
       case SubscriptionTypeEnum.FALLOUT_4:
-        return fallout4_quests.map((quest: GameContentItem) => {
+        return fallout4Quests.map((quest: GameContentItem) => {
           return quest as GameContentItem;
         });
       default: 
@@ -67,11 +71,11 @@ const useGetGameData = (): GameDataReturnType => {
   const mapDataToCollectables = (selectedGame?: SubscriptionTypeEnum): GameContentItem[] => {
     switch (selectedGame) {
       case SubscriptionTypeEnum.SKYRIM:
-        return skyrim_collectables.map((collectable: Partial<GameContentItem>) => {
+        return skyrimCollectables.map((collectable: Partial<GameContentItem>) => {
           return collectable as GameContentItem;
         });
       case SubscriptionTypeEnum.FALLOUT_4:
-        return fallout4_collectables.map((collectable: Partial<GameContentItem>) => {
+        return fallout4Collectables.map((collectable: Partial<GameContentItem>) => {
           return collectable as GameContentItem;
         });
       default: 
@@ -82,11 +86,11 @@ const useGetGameData = (): GameDataReturnType => {
   const mapDataToMiscItems = (selectedGame?: SubscriptionTypeEnum): GameContentItem[] => {
     switch (selectedGame) {
       case SubscriptionTypeEnum.SKYRIM:
-        return skyrim_misc.map((miscItem: Partial<GameContentItem>) => {
+        return skyrimMisc.map((miscItem: Partial<GameContentItem>) => {
           return miscItem as GameContentItem
         });
       case SubscriptionTypeEnum.FALLOUT_4:
-        return fallout4_misc.map((miscItem: Partial<GameContentItem>) => {
+        return fallout4Misc.map((miscItem: Partial<GameContentItem>) => {
           return miscItem as GameContentItem
         });
       default: 
@@ -97,11 +101,11 @@ const useGetGameData = (): GameDataReturnType => {
   const mapDataToLocations = (selectedGame?: SubscriptionTypeEnum): GameContentItem[] => {
     switch (selectedGame) {
       case SubscriptionTypeEnum.SKYRIM:
-        return skyrim_locations.map((location: Partial<GameContentItem>) => {
+        return skyrimLocations.map((location: Partial<GameContentItem>) => {
           return location as GameContentItem;
         });
       case SubscriptionTypeEnum.FALLOUT_4:
-        return fallout4_locations.map((location: Partial<GameContentItem>) => {
+        return fallout4Locations.map((location: Partial<GameContentItem>) => {
           return location as GameContentItem;
         });
       default: 

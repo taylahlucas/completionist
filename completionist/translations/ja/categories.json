@@ -1,0 +1,73 @@
+{
+  "skyrim": {
+    "categories": {
+      "quests": {
+        "title": "クエスト",
+        "mainQuests": "メインクエスト",
+        "factionQuests": "派閥クエスト",
+        "civilWar": "内戦",
+        "daedricQuests": "デイドラクエスト",
+        "dungeonQuests": "ダンジョンクエスト",
+        "miscQuests": "その他のクエスト",
+        "bountyQuests": "賞金クエスト",
+        "globalQuests": "グローバルクエスト"
+      },
+      "collectables": {
+        "title": "収集品",
+        "dragonPriestMasks": "ドラゴン プリーストの仮面",
+        "daedricArtefacts": "デイドラアーティファクト",
+        "bugInJar": "瓶の中の虫",
+        "shouts": "叫び声",
+        "uniqueArmourSets": "ユニークな防具セット",
+        "uniqueWeapons": "ユニークな武器",
+        "shrines": "神社",
+        "stones": "石"
+      },
+      "locations": {
+        "title": "所在地"
+      },
+      "miscellaneous": {
+        "title": "その他",
+        "books": "本",
+        "spellTomes": "呪文の本",
+        "journals": "雑誌"
+      }
+    },
+    "dlc": {
+      "dawnguard": "ドーンガード",
+      "dragonborn": "ドラゴンボーン",
+      "hearthfire": "ハースファイア"
+    }
+  },
+  "fallout4": {
+    "categories": {
+      "quests": {
+        "title": "クエスト",
+        "mainQuests": "メインクエスト",
+        "factionQuests": "派閥クエスト",
+        "sideQuests": "サイドクエスト"
+      },
+      "collectables": {
+        "title": "収集品",
+        "boobleheads": "ボブルヘッド",
+        "magazines": "雑誌",
+        "uniqueWeapons": "ユニークな武器",
+        "uniqueArmour": "ユニークな鎧",
+        "powerArmour": "パワーアーマー"
+      },
+      "locations": {
+        "title": "所在地"
+      },
+      "miscellaneous": {
+        "title": "その他",
+        "holotapes": "ホロテープ"
+      }
+    },
+    "dlc": {
+      "automatron": "オートマトロン",
+      "farHarbor": "ファーハーバー",
+      "nukaWorld": "ヌカ・ワールド",
+      "vaultTecWorkshop": "Vault-Tec ワークショップ"
+    }
+  }
+}

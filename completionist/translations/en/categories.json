@@ -1,0 +1,73 @@
+{
+  "skyrim": {
+    "categories": {
+      "quests": {
+        "title": "Quests",
+        "mainQuests": "Main Quests",
+        "factionQuests": "Faction Quests",
+        "civilWar":  "Civil War",
+        "daedricQuests": "Daedric Quests",
+        "dungeonQuests": "Dungeon Quests",
+        "miscQuests": "Miscellaneous Quests",
+        "bountyQuests": "Bounty Quests",
+        "globalQuests": "Global Quests"
+      },
+      "collectables": {
+        "title": "Collectables",
+        "dragonPriestMasks": "Dragon Priest Masks",
+        "daedricArtefacts": "Daedric Artefacts",
+        "bugInJar": "Bug in a Jar",
+        "shouts": "Shouts",
+        "uniqueArmourSets":  "Unique Armour Sets",
+        "uniqueWeapons": "Unique Weapons",
+        "shrines": "Shrines",
+        "stones": "Stones"
+      },
+      "locations": {
+        "title": "Locations"
+      },
+      "miscellaneous": {
+        "title": "Miscellaneous",
+        "books": "Books",
+        "spellTomes": "Spell Tomes",
+        "journals": "Journals"
+      }
+    },
+    "dlc": {
+      "dawnguard": "Dawnguard",
+      "dragonborn": "Dragonborn",
+      "hearthfire": "Hearthfire"
+    }
+  },
+  "fallout4": {
+    "categories": {
+      "quests": {
+        "title": "Quests",
+        "mainQuests": "Main Quests",
+        "factionQuests": "Faction Quests",
+        "sideQuests": "Side Quests"
+      },
+      "collectables": {
+        "title": "Collectables",
+        "boobleheads": "Bobbleheads",
+        "magazines": "Magazines",
+        "uniqueWeapons": "Unique Weapons",
+        "uniqueArmour": "Unique Armour",
+        "powerArmour": "Power Armour"
+      },
+      "locations": {
+        "title": "Locations"
+      },
+      "miscellaneous": {
+        "title": "Miscellaneous",
+        "holotapes": "Holotapes"
+      }
+    },
+    "dlc": {
+      "automatron": "Automatron", 
+      "farHarbor": "Far Harbor",
+      "nukaWorld": "Nuka-World",
+      "vaultTecWorkshop": "Vault-Tec Workshop"
+    }
+  }
+}

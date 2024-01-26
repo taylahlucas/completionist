@@ -4,7 +4,7 @@ import i18n from 'i18next';
 import { languages, namespace } from './i18n-common';
 import XHR from 'i18next-http-backend';
 import LanguageDetector from 'i18next-browser-languagedetector';
-// import resources from '../locales/resources.json';
+import resources from './locales/resources.json';
 
 i18n
   .use(XHR)
@@ -15,7 +15,7 @@ i18n
     nonExplicitSupportedLngs: true,
     fallbackLng: 'en',
     ns: namespace,
-    // resources,
+    resources,
     detection: {
       lookupLocalStorage: 'language',
       caches: ['localStorage']

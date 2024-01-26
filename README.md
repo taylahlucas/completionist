@@ -21,6 +21,7 @@ npx react-native run-ios --port 8002
 - @types/styled-components-react-native
 - react-native-vector-icons
 - @types/react-native-vector-icons
+- @tsconfig/react-native
 
 - @react-navigation/native
 - @react-navigation/drawer

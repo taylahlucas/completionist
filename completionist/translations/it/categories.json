@@ -1,0 +1,73 @@
+{
+  "skyrim": {
+    "categories": {
+      "quests": {
+        "title": "Missioni",
+        "mainQuests": "Missioni principali",
+        "factionQuests": "Missioni di fazione",
+        "civilWar": "Guerra civile",
+        "daedricQuests": "Missioni daedriche",
+        "dungeonQuests": "Missioni nei sotterranei",
+        "miscQuests": "Missioni varie",
+        "bountyQuests": "Missioni di taglia",
+        "globalQuests": "Missioni globali"
+      },
+      "collectables": {
+        "title": "Oggetti da collezione",
+        "dragonPriestMasks": "Maschere del Sacerdote Drago",
+        "daedricArtefacts": "Manufatti daedrici",
+        "bugInJar": "Insetto in un barattolo",
+        "shouts": "Grida",
+        "uniqueArmourSets": "Set di armature unici",
+        "uniqueWeapons": "Armi uniche",
+        "shrines": "Santuari",
+        "stones": "Pietre"
+      },
+      "locations": {
+        "title": "Posizioni"
+      },
+      "miscellaneous": {
+        "title": "Varie",
+        "books": "Libri",
+        "spellTomes": "Tomi di incantesimi",
+        "journals": "Riviste"
+      }
+    },
+    "dlc": {
+      "dawnguard": "Dawnguard",
+      "dragonborn": "Sangue di Drago",
+      "hearthfire": "Focolare"
+    }
+  },
+  "fallout4": {
+    "categories": {
+      "quests": {
+        "title": "Missioni",
+        "mainQuests": "Missioni principali",
+        "factionQuests": "Missioni di fazione",
+        "sideQuests": "Missioni secondarie"
+      },
+      "collectables": {
+        "title": "Oggetti da collezione",
+        "boobleheads": "Teste molleggiate",
+        "magazines": "Riviste",
+        "uniqueWeapons": "Armi uniche",
+        "uniqueArmour": "Armatura unica",
+        "powerArmour": "Armatura potenziata"
+      },
+      "locations": {
+        "title": "Posizioni"
+      },
+      "miscellaneous": {
+        "title": "Varie",
+        "holotapes": "Olonastri"
+      }
+    },
+    "dlc": {
+      "automatron": "Automatron",
+      "farHarbor": "Porto lontano",
+      "nukaWorld": "Mondo Nuka",
+      "vaultTecWorkshop": "Workshop Vault-Tec"
+    }
+  }
+}

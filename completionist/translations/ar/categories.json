@@ -1,0 +1,73 @@
+{
+  "skyrim": {
+    "categories": {
+      "quests": {
+        "title": "أسئلة",
+        "mainQuests": "المهام الرئيسية",
+        "factionQuests": "أسئلة الفصائل",
+        "civilWar": "حرب اهلية",
+        "daedricQuests": "أسئلة ديدريك",
+        "dungeonQuests": "أسئلة الزنزانة",
+        "miscQuests": "أسئلة متنوعة",
+        "bountyQuests": "أسئلة المكافأة",
+        "globalQuests": "المهام العالمية"
+      },
+      "collectables": {
+        "title": "مقتنيات",
+        "dragonPriestMasks": "أقنعة كاهن التنين",
+        "daedricArtefacts": "التحف ديدريك",
+        "bugInJar": "علة في جرة",
+        "shouts": "صيحات",
+        "uniqueArmourSets": "مجموعات دروع فريدة من نوعها",
+        "uniqueWeapons": "أسلحة فريدة من نوعها",
+        "shrines": "المزارات",
+        "stones": "الحجارة"
+      },
+      "locations": {
+        "title": "المواقع"
+      },
+      "miscellaneous": {
+        "title": "متنوع",
+        "books": "كتب",
+        "spellTomes": "المجلدات الإملائية",
+        "journals": "المجلات"
+      }
+    },
+    "dlc": {
+      "dawnguard": "داونغارد",
+      "dragonborn": "دراجونبورن",
+      "hearthfire": "نار الموقد"
+    }
+  },
+  "fallout4": {
+    "categories": {
+      "quests": {
+        "title": "أسئلة",
+        "mainQuests": "المهام الرئيسية",
+        "factionQuests": "أسئلة الفصائل",
+        "sideQuests": "أسئلة جانبية"
+      },
+      "collectables": {
+        "title": "مقتنيات",
+        "boobleheads": "رؤؤس فقاعية",
+        "magazines": "المجلات",
+        "uniqueWeapons": "أسلحة فريدة من نوعها",
+        "uniqueArmour": "درع فريد",
+        "powerArmour": "درع القوة"
+      },
+      "locations": {
+        "title": "المواقع"
+      },
+      "miscellaneous": {
+        "title": "متنوع",
+        "holotapes": "هولوتابس"
+      }
+    },
+    "dlc": {
+      "automatron": "آلي",
+      "farHarbor": "فار هاربور",
+      "nukaWorld": "نوكا وورلد",
+      "vaultTecWorkshop": "ورشة فولت تيك"
+    }
+  }
+}

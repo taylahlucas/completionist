@@ -1,0 +1,73 @@
+{
+  "skyrim": {
+    "categories": {
+      "quests": {
+        "title": "Nhiệm vụ",
+        "mainQuests": "Nhiệm vụ chính",
+        "factionQuests": "Nhiệm vụ phe phái",
+        "civilWar": "Nội chiến",
+        "daedricQuests": "Nhiệm vụ Daedric",
+        "dungeonQuests": "Nhiệm vụ ngục tối",
+        "miscQuests": "Nhiệm vụ khác",
+        "bountyQuests": "Nhiệm vụ tiền thưởng",
+        "globalQuests": "Nhiệm vụ toàn cầu"
+      },
+      "collectables": {
+        "title": "Đồ sưu tầm",
+        "dragonPriestMasks": "Mặt nạ linh mục rồng",
+        "daedricArtefacts": "Cổ vật Daedric",
+        "bugInJar": "Lỗi trong lọ",
+        "shouts": "Tiếng la hét",
+        "uniqueArmourSets": "Bộ áo giáp độc đáo",
+        "uniqueWeapons": "Vũ khí độc đáo",
+        "shrines": "Đền thờ",
+        "stones": "Đá"
+      },
+      "locations": {
+        "title": "Địa điểm"
+      },
+      "miscellaneous": {
+        "title": "Điều khoản khác",
+        "books": "Sách",
+        "spellTomes": "Sách đánh vần",
+        "journals": "tạp chí"
+      }
+    },
+    "dlc": {
+      "dawnguard": "Bình minh",
+      "dragonborn": "con rồng",
+      "hearthfire": "lửa lò sưởi"
+    }
+  },
+  "fallout4": {
+    "categories": {
+      "quests": {
+        "title": "Nhiệm vụ",
+        "mainQuests": "Nhiệm vụ chính",
+        "factionQuests": "Nhiệm vụ phe phái",
+        "sideQuests": "Nhiệm vụ phụ"
+      },
+      "collectables": {
+        "title": "Đồ sưu tầm",
+        "boobleheads": "tóc bồng bềnh",
+        "magazines": "Tạp chí thời sự",
+        "uniqueWeapons": "Vũ khí độc đáo",
+        "uniqueArmour": "Giáp độc nhất",
+        "powerArmour": "Giáp sức mạnh"
+      },
+      "locations": {
+        "title": "Địa điểm"
+      },
+      "miscellaneous": {
+        "title": "Điều khoản khác",
+        "holotapes": "ảnh ba chiều"
+      }
+    },
+    "dlc": {
+      "automatron": "Máy tự động",
+      "farHarbor": "Cảng xa",
+      "nukaWorld": "Thế giới Nuka",
+      "vaultTecWorkshop": "Hội thảo Vault-Tec"
+    }
+  }
+}

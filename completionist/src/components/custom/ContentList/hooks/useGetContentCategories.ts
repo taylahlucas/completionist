@@ -2,7 +2,6 @@ import useGetGameData from '@data/hooks/useGetGameData';
 import useGetSettingsConfig from '@data/hooks/useGetSettingsConfig';
 import useMainState from '@redux/hooks/useMainState';
 import { SubscriptionTypeEnum } from '@utils/CustomEnums';
-import { ContentSection } from '@utils/CustomTypes';
 import useContentState from './useContentState';
 
 interface GameDataReturnType {

@@ -1,0 +1,73 @@
+{
+  "skyrim": {
+    "categories": {
+      "quests": {
+        "title": "Quests",
+        "mainQuests": "Hauptquests",
+        "factionQuests": "Fraktionsquests",
+        "civilWar": "Bürgerkrieg",
+        "daedricQuests": "Daedrische Quests",
+        "dungeonQuests": "Dungeon-Quests",
+        "miscQuests": "Verschiedene Quests",
+        "bountyQuests": "Kopfgeldquests",
+        "globalQuests": "Globale Quests"
+      },
+      "collectables": {
+        "title": "Sammlerstücke",
+        "dragonPriestMasks": "Drachenpriester-Masken",
+        "daedricArtefacts": "Daedrische Artefakte",
+        "bugInJar": "Käfer im Glas",
+        "shouts": "Geschrei",
+        "uniqueArmourSets": "Einzigartige Rüstungssets",
+        "uniqueWeapons": "Einzigartige Waffen",
+        "shrines": "Schreine",
+        "stones": "Steine"
+      },
+      "locations": {
+        "title": "Standorte"
+      },
+      "miscellaneous": {
+        "title": "Verschiedenes",
+        "books": "Bücher",
+        "spellTomes": "Zauberbücher",
+        "journals": "Zeitschriften"
+      }
+    },
+    "dlc": {
+      "dawnguard": "Dawnguard",
+      "dragonborn": "Drachengeborenes",
+      "hearthfire": "Herdfeuer"
+    }
+  },
+  "fallout4": {
+    "categories": {
+      "quests": {
+        "title": "Quests",
+        "mainQuests": "Hauptquests",
+        "factionQuests": "Fraktionsquests",
+        "sideQuests": "Nebenmissionen"
+      },
+      "collectables": {
+        "title": "Sammlerstücke",
+        "boobleheads": "Wackelköpfe",
+        "magazines": "Zeitschriften",
+        "uniqueWeapons": "Einzigartige Waffen",
+        "uniqueArmour": "Einzigartige Rüstung",
+        "powerArmour": "Powerrüstung"
+      },
+      "locations": {
+        "title": "Standorte"
+      },
+      "miscellaneous": {
+        "title": "Verschiedenes",
+        "holotapes": "Holobänder"
+      }
+    },
+    "dlc": {
+      "automatron": "Automatron",
+      "farHarbor": "Far Harbor",
+      "nukaWorld": "Nuka-Welt",
+      "vaultTecWorkshop": "Vault-Tec-Workshop"
+    }
+  }
+}

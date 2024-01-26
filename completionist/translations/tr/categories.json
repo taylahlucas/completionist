@@ -1,0 +1,73 @@
+{
+  "skyrim": {
+    "categories": {
+      "quests": {
+        "title": "Görevler",
+        "mainQuests": "Ana Görevler",
+        "factionQuests": "Fraksiyon Görevleri",
+        "civilWar": "İç savaş",
+        "daedricQuests": "Daedrik Görevler",
+        "dungeonQuests": "Zindan Görevleri",
+        "miscQuests": "Çeşitli Görevler",
+        "bountyQuests": "Ödül Görevleri",
+        "globalQuests": "Küresel Görevler"
+      },
+      "collectables": {
+        "title": "Koleksiyon parçaları",
+        "dragonPriestMasks": "Ejderha Rahibi Maskeleri",
+        "daedricArtefacts": "Daedrik Eserler",
+        "bugInJar": "Kavanozdaki Böcek",
+        "shouts": "Bağırışlar",
+        "uniqueArmourSets": "Benzersiz Zırh Setleri",
+        "uniqueWeapons": "Benzersiz Silahlar",
+        "shrines": "Türbeler",
+        "stones": "Taşlar"
+      },
+      "locations": {
+        "title": "Konumlar"
+      },
+      "miscellaneous": {
+        "title": "Çeşitli",
+        "books": "Kitabın",
+        "spellTomes": "Büyü Kitapları",
+        "journals": "Günlükler"
+      }
+    },
+    "dlc": {
+      "dawnguard": "Şafak Muhafızı",
+      "dragonborn": "Dragonborn",
+      "hearthfire": "Ocak ateşi"
+    }
+  },
+  "fallout4": {
+    "categories": {
+      "quests": {
+        "title": "Görevler",
+        "mainQuests": "Ana Görevler",
+        "factionQuests": "Fraksiyon Görevleri",
+        "sideQuests": "Yan Görevler"
+      },
+      "collectables": {
+        "title": "Koleksiyon parçaları",
+        "boobleheads": "Bobblehead'ler",
+        "magazines": "Dergiler",
+        "uniqueWeapons": "Benzersiz Silahlar",
+        "uniqueArmour": "Benzersiz Zırh",
+        "powerArmour": "Güç Zırhı"
+      },
+      "locations": {
+        "title": "Konumlar"
+      },
+      "miscellaneous": {
+        "title": "Çeşitli",
+        "holotapes": "Sanal bantlar"
+      }
+    },
+    "dlc": {
+      "automatron": "Otomatron",
+      "farHarbor": "Uzak Liman",
+      "nukaWorld": "Nuka-Dünya",
+      "vaultTecWorkshop": "Vault-Tec Atölyesi"
+    }
+  }
+}

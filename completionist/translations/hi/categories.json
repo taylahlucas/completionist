@@ -1,0 +1,73 @@
+{
+  "skyrim": {
+    "categories": {
+      "quests": {
+        "title": "खोज",
+        "mainQuests": "मुख्य प्रश्न",
+        "factionQuests": "गुट क्वेस्ट",
+        "civilWar": "गृहयुद्ध",
+        "daedricQuests": "डेड्रिक क्वेस्ट",
+        "dungeonQuests": "कालकोठरी क्वेस्ट",
+        "miscQuests": "विविध खोज",
+        "bountyQuests": "बाउंटी क्वेस्ट",
+        "globalQuests": "वैश्विक खोज"
+      },
+      "collectables": {
+        "title": "संग्रहणीय वस्तुएँ",
+        "dragonPriestMasks": "ड्रैगन पुजारी मुखौटे",
+        "daedricArtefacts": "डेड्रिक कलाकृतियाँ",
+        "bugInJar": "एक जार में बग",
+        "shouts": "शाउट",
+        "uniqueArmourSets": "अद्वितीय कवच सेट",
+        "uniqueWeapons": "अनोखे हथियार",
+        "shrines": "तीर्थ",
+        "stones": "पत्थर"
+      },
+      "locations": {
+        "title": "स्थानों"
+      },
+      "miscellaneous": {
+        "title": "मिश्रित",
+        "books": "पुस्तकें",
+        "spellTomes": "टॉम्स वर्तनी",
+        "journals": "पत्रिकाओं"
+      }
+    },
+    "dlc": {
+      "dawnguard": "दावन्गार्ड",
+      "dragonborn": "ड्रैगनबोर्न",
+      "hearthfire": "चूल्हे की आग"
+    }
+  },
+  "fallout4": {
+    "categories": {
+      "quests": {
+        "title": "खोज",
+        "mainQuests": "मुख्य प्रश्न",
+        "factionQuests": "गुट क्वेस्ट",
+        "sideQuests": "भीतर छिपे सवाल"
+      },
+      "collectables": {
+        "title": "संग्रहणीय वस्तुएँ",
+        "boobleheads": "बॉबलहेड्स",
+        "magazines": "पत्रिका",
+        "uniqueWeapons": "अनोखे हथियार",
+        "uniqueArmour": "अनोखा कवच",
+        "powerArmour": "शक्ति कवच"
+      },
+      "locations": {
+        "title": "स्थानों"
+      },
+      "miscellaneous": {
+        "title": "मिश्रित",
+        "holotapes": "होलोटेप्स"
+      }
+    },
+    "dlc": {
+      "automatron": "ऑटोमेट्रोन",
+      "farHarbor": "सुदूर बंदरगाह",
+      "nukaWorld": "नुका-विश्व",
+      "vaultTecWorkshop": "वॉल्ट-टेक कार्यशाला"
+    }
+  }
+}
