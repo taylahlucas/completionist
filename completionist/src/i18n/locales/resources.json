@@ -1,0 +1,756 @@
+{
+  "zh": {
+    "common": {
+      "appTitle": "完美主义者。",
+      "requestGameDesc": "请随意请求游戏、报告错误或提出一些改进应用程序的建议！",
+      "quests": "任务",
+      "collectables": "收藏品",
+      "locations": "地点",
+      "miscellaneous": "各种各样的",
+      "search": "搜索项目...",
+      "showMore": "展示更多",
+      "none": "没有任何",
+      "main": "主要的",
+      "active": "积极的",
+      "inactive": "不活跃",
+      "auth": {
+        "email": "电子邮件",
+        "password": "密码",
+        "username": "用户名",
+        "forgotPassword": "忘记密码？",
+        "signUp": "报名",
+        "signIn": "登入",
+        "createAccount": "创建账户",
+        "requestAccount": "没有帐户？",
+        "backToLogin": "回到登入"
+      },
+      "subscriptions": {
+        "title": "订阅"
+      },
+      "sendRequest": {
+        "title": "发送请求",
+        "subject": "主题",
+        "writeRequest": "在这里写下您的要求..."
+      },
+      "settings": {
+        "title": "设置",
+        "description": "请随意请求游戏、报告错误或提出一些改进应用程序的建议！",
+        "setCollections": "设置集合：",
+        "enabledDLC": "启用/禁用 DLC：",
+        "showHide": "显示隐藏：",
+        "completedItems": "已完成项目",
+        "disabledSections": "残疾人部分"
+      },
+      "errors": {
+        "noEmailExists": "电子邮件不存在",
+        "googleSignIn": "谷歌登录出错"
+      },
+      "skyrimDLC": {
+        "dawnguard": "黎明守卫",
+        "dragonborn": "龙裔"
+      },
+      "fallout4DLC": {
+        "automatron": "核子世界",
+        "farHarbor": "远港",
+        "nukaWorld": "核子世界",
+        "vaultTecWorkshop": "Vault-Tec 研讨会"
+      }
+    }
+  },
+  "vi": {
+    "common": {
+      "appTitle": "Người theo chủ nghĩa hoàn thiện.",
+      "requestGameDesc": "Vui lòng yêu cầu trò chơi, báo cáo lỗi hoặc đưa ra một số đề xuất để cải thiện ứng dụng!",
+      "quests": "Nhiệm vụ",
+      "collectables": "Đồ sưu tầm",
+      "locations": "Địa điểm",
+      "miscellaneous": "Điều khoản khác",
+      "search": "Tìm kiếm các mục...",
+      "showMore": "Cho xem nhiều hơn",
+      "none": "Không có",
+      "main": "Chủ yếu",
+      "active": "TÍCH CỰC",
+      "inactive": "KHÔNG HOẠT ĐỘNG",
+      "auth": {
+        "email": "E-mail",
+        "password": "Mật khẩu",
+        "username": "tên tài khoản",
+        "forgotPassword": "Quên mật khẩu?",
+        "signUp": "Đăng ký",
+        "signIn": "Đăng nhập",
+        "createAccount": "Tạo tài khoản",
+        "requestAccount": "Bạn chưa có tài khoản?",
+        "backToLogin": "Quay lại đăng nhập"
+      },
+      "subscriptions": {
+        "title": "Đăng ký"
+      },
+      "sendRequest": {
+        "title": "Gửi yêu cầu",
+        "subject": "Chủ thể",
+        "writeRequest": "Viết yêu cầu của bạn ở đây..."
+      },
+      "settings": {
+        "title": "Cài đặt",
+        "description": "Vui lòng yêu cầu trò chơi, báo cáo lỗi hoặc đưa ra một số đề xuất để cải thiện ứng dụng!",
+        "setCollections": "Đặt bộ sưu tập:",
+        "enabledDLC": "Bật/Tắt DLC:",
+        "showHide": "Hiện an:",
+        "completedItems": "Các mục đã hoàn thành",
+        "disabledSections": "Phần bị vô hiệu hóa"
+      },
+      "errors": {
+        "noEmailExists": "Email không tồn tại",
+        "googleSignIn": "Lỗi đăng nhập google"
+      },
+      "skyrimDLC": {
+        "dawnguard": "Bình minh",
+        "dragonborn": "con rồng"
+      },
+      "fallout4DLC": {
+        "automatron": "Thế giới Nuka",
+        "farHarbor": "Cảng xa",
+        "nukaWorld": "Thế giới Nuka",
+        "vaultTecWorkshop": "Hội thảo Vault-Tec"
+      }
+    }
+  },
+  "tr": {
+    "common": {
+      "appTitle": "Tamamlayıcı.",
+      "requestGameDesc": "Bir oyun talep etmekten, bir hatayı bildirmekten veya uygulamayı geliştirmek için bazı önerilerde bulunmaktan çekinmeyin!",
+      "quests": "Görevler",
+      "collectables": "Koleksiyon parçaları",
+      "locations": "Konumlar",
+      "miscellaneous": "Çeşitli",
+      "search": "Öğeleri ara...",
+      "showMore": "Daha fazla göster",
+      "none": "Hiçbiri",
+      "main": "Ana",
+      "active": "AKTİF",
+      "inactive": "AKTİF DEĞİL",
+      "auth": {
+        "email": "E-posta",
+        "password": "Şifre",
+        "username": "Kullanıcı adı",
+        "forgotPassword": "Parolanızı mı unuttunuz?",
+        "signUp": "Üye olmak",
+        "signIn": "Kayıt olmak",
+        "createAccount": "Hesap oluşturmak",
+        "requestAccount": "Hesabınız yok mu?",
+        "backToLogin": "Girişe Geri Dön"
+      },
+      "subscriptions": {
+        "title": "Abonelikler"
+      },
+      "sendRequest": {
+        "title": "İstek gönder",
+        "subject": "Ders",
+        "writeRequest": "Talebinizi buraya yazın..."
+      },
+      "settings": {
+        "title": "Ayarlar",
+        "description": "Bir oyun talep etmekten, bir hatayı bildirmekten veya uygulamayı geliştirmek için bazı önerilerde bulunmaktan çekinmeyin!",
+        "setCollections": "Koleksiyonları ayarlayın:",
+        "enabledDLC": "DLC'yi Etkinleştir/Devre Dışı Bırak:",
+        "showHide": "Göster/Gizle:",
+        "completedItems": "Tamamlanan Öğeler",
+        "disabledSections": "Engelli Bölümler"
+      },
+      "errors": {
+        "noEmailExists": "E-posta mevcut değil",
+        "googleSignIn": "Google oturum açma hatası"
+      },
+      "skyrimDLC": {
+        "dawnguard": "Şafak Muhafızı",
+        "dragonborn": "Dragonborn"
+      },
+      "fallout4DLC": {
+        "automatron": "Nuka-Dünya",
+        "farHarbor": "Uzak Liman",
+        "nukaWorld": "Nuka-Dünya",
+        "vaultTecWorkshop": "Vault-Tec Atölyesi"
+      }
+    }
+  },
+  "pt": {
+    "common": {
+      "appTitle": "Completista.",
+      "requestGameDesc": "Fique à vontade para solicitar um jogo, reportar um bug ou fazer sugestões para melhorar o app!",
+      "quests": "Missões",
+      "collectables": "Colecionáveis",
+      "locations": "Localizações",
+      "miscellaneous": "Diversos",
+      "search": "Pesquisar itens...",
+      "showMore": "Mostre mais",
+      "none": "Nenhum",
+      "main": "Principal",
+      "active": "ATIVO",
+      "inactive": "INATIVO",
+      "auth": {
+        "email": "E-mail",
+        "password": "Senha",
+        "username": "Nome de usuário",
+        "forgotPassword": "Esqueceu sua senha?",
+        "signUp": "Inscrever-se",
+        "signIn": "Entrar",
+        "createAccount": "Criar uma conta",
+        "requestAccount": "Não tem uma conta?",
+        "backToLogin": "Volte ao login"
+      },
+      "subscriptions": {
+        "title": "Assinaturas"
+      },
+      "sendRequest": {
+        "title": "Enviar pedido",
+        "subject": "Assunto",
+        "writeRequest": "Escreva aqui o seu pedido..."
+      },
+      "settings": {
+        "title": "Configurações",
+        "description": "Fique à vontade para solicitar um jogo, reportar um bug ou fazer sugestões para melhorar o app!",
+        "setCollections": "Definir coleções:",
+        "enabledDLC": "Ativar/Desativar DLC:",
+        "showHide": "Aparecer esconder:",
+        "completedItems": "Itens concluídos",
+        "disabledSections": "Seções desativadas"
+      },
+      "errors": {
+        "noEmailExists": "E-mail não existe",
+        "googleSignIn": "Erro ao fazer login no Google"
+      },
+      "skyrimDLC": {
+        "dawnguard": "Dawnguard",
+        "dragonborn": "Draconato"
+      },
+      "fallout4DLC": {
+        "automatron": "Nuka-Mundo",
+        "farHarbor": "Porto Distante",
+        "nukaWorld": "Nuka-Mundo",
+        "vaultTecWorkshop": "Oficina Vault-Tec"
+      }
+    }
+  },
+  "ja": {
+    "common": {
+      "appTitle": "完璧主義者。",
+      "requestGameDesc": "ゲームのリクエスト、バグの報告、アプリを改善するための提案など、お気軽にどうぞ！",
+      "quests": "クエスト",
+      "collectables": "収集品",
+      "locations": "所在地",
+      "miscellaneous": "その他",
+      "search": "アイテムを検索...",
+      "showMore": "もっと見せる",
+      "none": "なし",
+      "main": "主要",
+      "active": "アクティブ",
+      "inactive": "非活性",
+      "auth": {
+        "email": "Eメール",
+        "password": "パスワード",
+        "username": "ユーザー名",
+        "forgotPassword": "パスワードをお忘れですか？",
+        "signUp": "サインアップ",
+        "signIn": "サインイン",
+        "createAccount": "アカウントを作成する",
+        "requestAccount": "アカウントをお持ちでない場合は、",
+        "backToLogin": "ログインに戻る"
+      },
+      "subscriptions": {
+        "title": "定期購入"
+      },
+      "sendRequest": {
+        "title": "リクエストの送信",
+        "subject": "主題",
+        "writeRequest": "ここにリクエストを書いてください..."
+      },
+      "settings": {
+        "title": "設定",
+        "description": "ゲームのリクエスト、バグの報告、アプリを改善するための提案など、お気軽にどうぞ！",
+        "setCollections": "セットコレクション:",
+        "enabledDLC": "DLC を有効/無効にする:",
+        "showHide": "表示/非表示:",
+        "completedItems": "完成品",
+        "disabledSections": "無効化されたセクション"
+      },
+      "errors": {
+        "noEmailExists": "電子メールが存在しません",
+        "googleSignIn": "Googleサインインでエラーが発生する"
+      },
+      "skyrimDLC": {
+        "dawnguard": "ドーンガード",
+        "dragonborn": "ドラゴンボーン"
+      },
+      "fallout4DLC": {
+        "automatron": "ヌカ・ワールド",
+        "farHarbor": "ファーハーバー",
+        "nukaWorld": "ヌカ・ワールド",
+        "vaultTecWorkshop": "Vault-Tec ワークショップ"
+      }
+    }
+  },
+  "it": {
+    "common": {
+      "appTitle": "Complezionista.",
+      "requestGameDesc": "Sentiti libero di richiedere un gioco, segnalare un bug o dare qualche suggerimento per migliorare l'app!",
+      "quests": "Missioni",
+      "collectables": "Oggetti da collezione",
+      "locations": "Posizioni",
+      "miscellaneous": "Varie",
+      "search": "Cerca elementi...",
+      "showMore": "Mostra di più",
+      "none": "Nessuno",
+      "main": "Principale",
+      "active": "ATTIVO",
+      "inactive": "INATTIVO",
+      "auth": {
+        "email": "E-mail",
+        "password": "Parola d'ordine",
+        "username": "Nome utente",
+        "forgotPassword": "Ha dimenticato la password?",
+        "signUp": "Iscrizione",
+        "signIn": "Registrazione",
+        "createAccount": "Creare un account",
+        "requestAccount": "Non hai un account?",
+        "backToLogin": "Torna al login"
+      },
+      "subscriptions": {
+        "title": "Abbonamenti"
+      },
+      "sendRequest": {
+        "title": "Invia richiesta",
+        "subject": "Soggetto",
+        "writeRequest": "Scrivi qui la tua richiesta..."
+      },
+      "settings": {
+        "title": "Impostazioni",
+        "description": "Sentiti libero di richiedere un gioco, segnalare un bug o dare qualche suggerimento per migliorare l'app!",
+        "setCollections": "Imposta raccolte:",
+        "enabledDLC": "Abilita/Disabilita DLC:",
+        "showHide": "Mostra nascondi:",
+        "completedItems": "Articoli completati",
+        "disabledSections": "Sezioni disabili"
+      },
+      "errors": {
+        "noEmailExists": "L'e-mail non esiste",
+        "googleSignIn": "Errore con l'accesso a Google"
+      },
+      "skyrimDLC": {
+        "dawnguard": "Dawnguard",
+        "dragonborn": "Sangue di Drago"
+      },
+      "fallout4DLC": {
+        "automatron": "Mondo Nuka",
+        "farHarbor": "Porto lontano",
+        "nukaWorld": "Mondo Nuka",
+        "vaultTecWorkshop": "Workshop Vault-Tec"
+      }
+    }
+  },
+  "id": {
+    "common": {
+      "appTitle": "Kompletionis.",
+      "requestGameDesc": "Jangan ragu untuk meminta permainan, melaporkan bug, atau memberikan beberapa saran untuk meningkatkan aplikasi!",
+      "quests": "Pencarian",
+      "collectables": "Barang koleksi",
+      "locations": "Lokasi",
+      "miscellaneous": "Aneka ragam",
+      "search": "Cari item...",
+      "showMore": "Menampilkan lebih banyak",
+      "none": "Tidak ada",
+      "main": "Utama",
+      "active": "AKTIF",
+      "inactive": "TIDAK AKTIF",
+      "auth": {
+        "email": "Surel",
+        "password": "Kata sandi",
+        "username": "Nama belakang",
+        "forgotPassword": "Tidak ingat kata sandi?",
+        "signUp": "Mendaftar",
+        "signIn": "Masuk",
+        "createAccount": "Buat Akun",
+        "requestAccount": "Belum punya akun?",
+        "backToLogin": "Kembali untuk masuk"
+      },
+      "subscriptions": {
+        "title": "Langganan"
+      },
+      "sendRequest": {
+        "title": "Kirim Permintaan",
+        "subject": "Subjek",
+        "writeRequest": "Tulis permintaan Anda di sini..."
+      },
+      "settings": {
+        "title": "Pengaturan",
+        "description": "Jangan ragu untuk meminta permainan, melaporkan bug, atau memberikan beberapa saran untuk meningkatkan aplikasi!",
+        "setCollections": "Tetapkan koleksi:",
+        "enabledDLC": "Aktifkan/Nonaktifkan DLC:",
+        "showHide": "Tunjukan Sembunyikan:",
+        "completedItems": "Barang Selesai",
+        "disabledSections": "Bagian yang Dinonaktifkan"
+      },
+      "errors": {
+        "noEmailExists": "Emailnya tidak ada",
+        "googleSignIn": "Kesalahan saat masuk Google"
+      },
+      "skyrimDLC": {
+        "dawnguard": "Penjaga Fajar",
+        "dragonborn": "lahir naga"
+      },
+      "fallout4DLC": {
+        "automatron": "Nuka-Dunia",
+        "farHarbor": "Pelabuhan Jauh",
+        "nukaWorld": "Nuka-Dunia",
+        "vaultTecWorkshop": "Lokakarya Vault-Tec"
+      }
+    }
+  },
+  "hi": {
+    "common": {
+      "appTitle": "पूर्णतावादी।",
+      "requestGameDesc": "बेझिझक किसी गेम के लिए अनुरोध करें, बग की रिपोर्ट करें या ऐप को बेहतर बनाने के लिए कुछ सुझाव दें!",
+      "quests": "खोज",
+      "collectables": "संग्रहणीय वस्तुएँ",
+      "locations": "स्थानों",
+      "miscellaneous": "मिश्रित",
+      "search": "आइटम खोजें...",
+      "showMore": "और दिखाओ",
+      "none": "कोई नहीं",
+      "main": "मुख्य",
+      "active": "सक्रिय",
+      "inactive": "निष्क्रिय",
+      "auth": {
+        "email": "ईमेल",
+        "password": "पासवर्ड",
+        "username": "उपयोगकर्ता नाम",
+        "forgotPassword": "पासवर्ड भूल गए?",
+        "signUp": "साइन अप करें",
+        "signIn": "दाखिल करना",
+        "createAccount": "खाता बनाएं",
+        "requestAccount": "कोई खाता नहीं है?",
+        "backToLogin": "लॉगिन पर वापस जाएं"
+      },
+      "subscriptions": {
+        "title": "सदस्यता"
+      },
+      "sendRequest": {
+        "title": "अनुरोध भेजा",
+        "subject": "विषय",
+        "writeRequest": "अपना अनुरोध यहां लिखें..."
+      },
+      "settings": {
+        "title": "समायोजन",
+        "description": "बेझिझक किसी गेम के लिए अनुरोध करें, बग की रिपोर्ट करें या ऐप को बेहतर बनाने के लिए कुछ सुझाव दें!",
+        "setCollections": "संग्रह सेट करें:",
+        "enabledDLC": "डीएलसी सक्षम/अक्षम करें:",
+        "showHide": "छिपा हुया दिखाओ:",
+        "completedItems": "पूर्ण आइटम",
+        "disabledSections": "विकलांग अनुभाग"
+      },
+      "errors": {
+        "noEmailExists": "ईमेल मौजूद नहीं है",
+        "googleSignIn": "गूगल साइन इन में त्रुटि"
+      },
+      "skyrimDLC": {
+        "dawnguard": "दावन्गार्ड",
+        "dragonborn": "ड्रैगनबोर्न"
+      },
+      "fallout4DLC": {
+        "automatron": "नुका-विश्व",
+        "farHarbor": "सुदूर बंदरगाह",
+        "nukaWorld": "नुका-विश्व",
+        "vaultTecWorkshop": "वॉल्ट-टेक कार्यशाला"
+      }
+    }
+  },
+  "fr": {
+    "common": {
+      "appTitle": "Finaliste.",
+      "requestGameDesc": "N'hésitez pas à demander un jeu, signaler un bug ou faire des suggestions pour améliorer l'application !",
+      "quests": "Quêtes",
+      "collectables": "Objets de collection",
+      "locations": "Emplacements",
+      "miscellaneous": "Divers",
+      "search": "Rechercher des éléments...",
+      "showMore": "Montre plus",
+      "none": "Aucun",
+      "main": "Principal",
+      "active": "ACTIF",
+      "inactive": "INACTIF",
+      "auth": {
+        "email": "E-mail",
+        "password": "Mot de passe",
+        "username": "Nom d'utilisateur",
+        "forgotPassword": "Mot de passe oublié?",
+        "signUp": "S'inscrire",
+        "signIn": "Se connecter",
+        "createAccount": "Créer un compte",
+        "requestAccount": "Vous n'avez pas de compte ?",
+        "backToLogin": "Retour connexion"
+      },
+      "subscriptions": {
+        "title": "Abonnements"
+      },
+      "sendRequest": {
+        "title": "Envoyer une demande",
+        "subject": "Sujet",
+        "writeRequest": "Écrivez votre demande ici..."
+      },
+      "settings": {
+        "title": "Paramètres",
+        "description": "N'hésitez pas à demander un jeu, signaler un bug ou faire des suggestions pour améliorer l'application !",
+        "setCollections": "Définir les collections :",
+        "enabledDLC": "Activer/Désactiver le DLC :",
+        "showHide": "Afficher/Masquer :",
+        "completedItems": "Articles terminés",
+        "disabledSections": "Sections désactivées"
+      },
+      "errors": {
+        "noEmailExists": "L'e-mail n'existe pas",
+        "googleSignIn": "Erreur avec la connexion Google"
+      },
+      "skyrimDLC": {
+        "dawnguard": "Garde-aube",
+        "dragonborn": "Enfant de Dragon"
+      },
+      "fallout4DLC": {
+        "automatron": "Nuka-Monde",
+        "farHarbor": "Port lointain",
+        "nukaWorld": "Nuka-Monde",
+        "vaultTecWorkshop": "Atelier Vault-Tec"
+      }
+    }
+  },
+  "es": {
+    "common": {
+      "appTitle": "Completista.",
+      "requestGameDesc": "¡No dudes en solicitar un juego, informar un error o hacer algunas sugerencias para mejorar la aplicación!",
+      "quests": "Misiones",
+      "collectables": "Coleccionables",
+      "locations": "Ubicaciones",
+      "miscellaneous": "Misceláneas",
+      "search": "Buscar elementos...",
+      "showMore": "Mostrar más",
+      "none": "Ninguno",
+      "main": "Principal",
+      "active": "ACTIVO",
+      "inactive": "INACTIVO",
+      "auth": {
+        "email": "Correo electrónico",
+        "password": "Contraseña",
+        "username": "Nombre de usuario",
+        "forgotPassword": "¿Has olvidado tu contraseña?",
+        "signUp": "Inscribirse",
+        "signIn": "Iniciar sesión",
+        "createAccount": "Crear una cuenta",
+        "requestAccount": "¿No tienes una cuenta?",
+        "backToLogin": "Atrás para iniciar sesión"
+      },
+      "subscriptions": {
+        "title": "Suscripciones"
+      },
+      "sendRequest": {
+        "title": "Enviar petición",
+        "subject": "Sujeto",
+        "writeRequest": "Escribe tu solicitud aquí..."
+      },
+      "settings": {
+        "title": "Ajustes",
+        "description": "¡No dudes en solicitar un juego, informar un error o hacer algunas sugerencias para mejorar la aplicación!",
+        "setCollections": "Establecer colecciones:",
+        "enabledDLC": "Activar/Desactivar DLC:",
+        "showHide": "Mostrar ocultar:",
+        "completedItems": "Artículos completados",
+        "disabledSections": "Secciones deshabilitadas"
+      },
+      "errors": {
+        "noEmailExists": "El correo electrónico no existe.",
+        "googleSignIn": "Error al iniciar sesión en Google"
+      },
+      "skyrimDLC": {
+        "dawnguard": "guardia del alba",
+        "dragonborn": "nacido de dragón"
+      },
+      "fallout4DLC": {
+        "automatron": "Nuka-Mundo",
+        "farHarbor": "Puerto lejano",
+        "nukaWorld": "Nuka-Mundo",
+        "vaultTecWorkshop": "Taller Vault-Tec"
+      }
+    }
+  },
+  "en": {
+    "common": {
+      "appTitle": "Completionist.",
+      "requestGameDesc": "Feel free to request a game, report a bug or make some suggestions to improve the app!",
+      "quests": "Quests",
+      "collectables": "Collectables",
+      "locations": "Locations",
+      "miscellaneous": "Miscellaneous",
+      "search": "Search items...",
+      "showMore": "Show more",
+      "none": "None",
+      "main": "Main",
+      "active": "ACTIVE",
+      "inactive": "INACTIVE",
+      "auth": {
+        "email": "Email",
+        "password": "Password",
+        "username": "Username",
+        "forgotPassword": "Forgot Password?",
+        "signUp": "Sign Up",
+        "signIn": "Sign In",
+        "createAccount": "Create Account",
+        "requestAccount": "Don't have an account?",
+        "backToLogin": "Back to Login"
+      },
+      "subscriptions": {
+        "title": "Subscriptions"
+      },
+      "sendRequest": {
+        "title": "Send Request",
+        "subject": "Subject",
+        "writeRequest": "Write your request here..."
+      },
+      "settings": {
+        "title": "Settings",
+        "description": "Feel free to request a game, report a bug or make some suggestions to improve the app!",
+        "setCollections": "Set collections:",
+        "enabledDLC": "Enable/Disable DLC:",
+        "showHide": "Show/Hide:",
+        "completedItems": "Completed Items",
+        "disabledSections": "Disabled Sections"
+      },
+      "errors": {
+        "noEmailExists": "Email does not exist",
+        "googleSignIn": "Error with google sign in"
+      },
+      "skyrimDLC": {
+        "dawnguard": "Dawnguard",
+        "dragonborn": "Dragonborn"
+      },
+      "fallout4DLC": {
+        "automatron": "Nuka-World",
+        "farHarbor": "Far Harbor",
+        "nukaWorld": "Nuka-World",
+        "vaultTecWorkshop": "Vault-Tec Workshop"
+      }
+    }
+  },
+  "de": {
+    "common": {
+      "appTitle": "Vervollständiger.",
+      "requestGameDesc": "Fordern Sie gerne ein Spiel an, melden Sie einen Fehler oder machen Sie Vorschläge zur Verbesserung der App!",
+      "quests": "Quests",
+      "collectables": "Sammlerstücke",
+      "locations": "Standorte",
+      "miscellaneous": "Verschiedenes",
+      "search": "Artikel suchen...",
+      "showMore": "Zeig mehr",
+      "none": "Keiner",
+      "main": "Hauptsächlich",
+      "active": "AKTIV",
+      "inactive": "INAKTIV",
+      "auth": {
+        "email": "Email",
+        "password": "Passwort",
+        "username": "Nutzername",
+        "forgotPassword": "Passwort vergessen?",
+        "signUp": "Melden Sie sich an",
+        "signIn": "Anmelden",
+        "createAccount": "Benutzerkonto erstellen",
+        "requestAccount": "Sie haben noch kein Konto?",
+        "backToLogin": "Zurück zur Anmeldung"
+      },
+      "subscriptions": {
+        "title": "Abonnements"
+      },
+      "sendRequest": {
+        "title": "Anfrage senden",
+        "subject": "Thema",
+        "writeRequest": "Schreiben Sie hier Ihre Anfrage..."
+      },
+      "settings": {
+        "title": "Einstellungen",
+        "description": "Fordern Sie gerne ein Spiel an, melden Sie einen Fehler oder machen Sie Vorschläge zur Verbesserung der App!",
+        "setCollections": "Set-Sammlungen:",
+        "enabledDLC": "DLC aktivieren/deaktivieren:",
+        "showHide": "Anzeigen Ausblenden:",
+        "completedItems": "Abgeschlossene Artikel",
+        "disabledSections": "Behindertenbereiche"
+      },
+      "errors": {
+        "noEmailExists": "Email existiert nicht",
+        "googleSignIn": "Fehler bei der Google-Anmeldung"
+      },
+      "skyrimDLC": {
+        "dawnguard": "Dawnguard",
+        "dragonborn": "Drachengeborenes"
+      },
+      "fallout4DLC": {
+        "automatron": "Nuka-Welt",
+        "farHarbor": "Far Harbor",
+        "nukaWorld": "Nuka-Welt",
+        "vaultTecWorkshop": "Vault-Tec-Workshop"
+      }
+    }
+  },
+  "ar": {
+    "common": {
+      "appTitle": "المكمل.",
+      "requestGameDesc": "لا تتردد في طلب لعبة أو الإبلاغ عن خطأ أو تقديم بعض الاقتراحات لتحسين التطبيق!",
+      "quests": "أسئلة",
+      "collectables": "مقتنيات",
+      "locations": "المواقع",
+      "miscellaneous": "متنوع",
+      "search": "عناصر البحث...",
+      "showMore": "أظهر المزيد",
+      "none": "لا أحد",
+      "main": "رئيسي",
+      "active": "نشيط",
+      "inactive": "غير نشط",
+      "auth": {
+        "email": "بريد إلكتروني",
+        "password": "كلمة المرور",
+        "username": "اسم المستخدم",
+        "forgotPassword": "هل نسيت كلمة السر؟",
+        "signUp": "اشتراك",
+        "signIn": "تسجيل الدخول",
+        "createAccount": "إنشاء حساب",
+        "requestAccount": "ليس لديك حساب؟",
+        "backToLogin": "العودة إلى تسجيل الدخول"
+      },
+      "subscriptions": {
+        "title": "الاشتراكات"
+      },
+      "sendRequest": {
+        "title": "ارسل طلب",
+        "subject": "موضوع",
+        "writeRequest": "أكتب طلبك هنا..."
+      },
+      "settings": {
+        "title": "إعدادات",
+        "description": "لا تتردد في طلب لعبة أو الإبلاغ عن خطأ أو تقديم بعض الاقتراحات لتحسين التطبيق!",
+        "setCollections": "تعيين المجموعات:",
+        "enabledDLC": "تمكين/تعطيل المحتوى القابل للتنزيل:",
+        "showHide": "اظهر المخفي:",
+        "completedItems": "العناصر المكتملة",
+        "disabledSections": "الأقسام المعطلة"
+      },
+      "errors": {
+        "noEmailExists": "البريد الإلكتروني غير موجود",
+        "googleSignIn": "حدث خطأ أثناء تسجيل الدخول إلى Google"
+      },
+      "skyrimDLC": {
+        "dawnguard": "داونغارد",
+        "dragonborn": "دراجونبورن"
+      },
+      "fallout4DLC": {
+        "automatron": "نوكا وورلد",
+        "farHarbor": "فار هاربور",
+        "nukaWorld": "نوكا وورلد",
+        "vaultTecWorkshop": "ورشة فولت تيك"
+      }
+    }
+  }
+}

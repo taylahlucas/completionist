@@ -2,6 +2,7 @@
   "extends": "@tsconfig/react-native/tsconfig.json",
   "compilerOptions": {
     "jsx": "react-native",
+    "esModuleInterop": true,
     "moduleSuffixes": [".android", ".ios", ""],
     "baseUrl": "./",
     "paths": {

@@ -29,7 +29,10 @@ npx react-native run-ios --port 8002
 - react-native-gesture-handler
 
 - babel-plugin-module-resolver
+- babel-cli
+- babel-present-env
 - react-native-dotenv
+- @babel/node
 
 - react-redux
 - @reduxjs/toolkit
@@ -53,6 +56,7 @@ npx react-native run-ios --port 8002
 - react-native-localize
 - i18next-browser-languagedetector
 - glob
+- lodash
 - @types/lodash
 
 ## Backend
@@ -75,9 +79,13 @@ npx react-native run-ios --port 8002
 
 Pull from master:
 - git submodule foreach git pull origin branch_name
+-- Need to change 'translations' back to 'Completionist-Translations'
 
 Update:
 - git submodule update --init --recursive --remote translations
 
 Confirm:
 - npm run generate-locale
+
+
+npm install babel-core@7.0.0-bridge.0 --save-dev
