@@ -1,6 +1,6 @@
 import React from 'react';
 import ListItem from '@components/general/Lists/ListItem.native';
-import { ListItemScrollView } from '@components/general/Lists/ListStyledComponents.native';
+import { listStyles, ListItemScrollView } from '@components/general/Lists/ListStyledComponents.native';
 import useGetContent from './hooks/useGetContent';
 import useUpdateContent from './hooks/useUpdateContent';
 import useCheckContentComplete from './hooks/useCheckContentComplete';
@@ -21,7 +21,7 @@ const ContentMainList = ({ mainCategory, subCategory, isSubCategory = false }: C
   const { checkContentComplete } = useCheckContentComplete();
 
   return (
-    <ListItemScrollView>
+    <ListItemScrollView contentContainerStyle={listStyles.listItemList}>
       {items?.map((item, index) => (
         <ListItem
           id={item.id}

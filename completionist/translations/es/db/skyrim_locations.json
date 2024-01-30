@@ -23,7 +23,7 @@
   {
     "id": "1651892c-9d7d-4f5b-880f-468eb2d96068",
     "title": "Alftand",
-    "subCategory": "Subcategoría de invierno",
+    "subCategory": "Winterhold",
     "dlc": "Ninguno",
     "mainCategory": "Principal"
   },
@@ -44,7 +44,7 @@
   {
     "id": "8c78a44f-5b2c-4751-9cc0-54c5d9bc04b3",
     "title": "angarvundé",
-    "subCategory": "Marca del Este",
+    "subCategory": "Marca del este",
     "dlc": "Ninguno",
     "mainCategory": "Principal"
   },
@@ -65,7 +65,7 @@
   {
     "id": "5d50c9f7-4b56-4705-ae16-d12f8c2f1244",
     "title": "ansilvund",
-    "subCategory": "Marca del Este",
+    "subCategory": "Marca del este",
     "dlc": "Ninguno",
     "mainCategory": "Principal"
   },
@@ -142,7 +142,7 @@
   {
     "id": "e58e0310-64ea-42d8-8a88-2cfb9a0900b0",
     "title": "Cueva de la Costa Desolada",
-    "subCategory": "Subcategoría de invierno",
+    "subCategory": "Winterhold",
     "dlc": "Ninguno",
     "mainCategory": "Principal"
   },
@@ -198,7 +198,7 @@
   {
     "id": "9df896f2-6224-475e-bfe2-7f97e85a9322",
     "title": "Cresta cubierta de huesos",
-    "subCategory": "Marca del Este",
+    "subCategory": "Marca del este",
     "dlc": "Ninguno",
     "mainCategory": "Principal"
   },
@@ -310,7 +310,7 @@
   {
     "id": "e428dd1d-02f2-4712-b7b2-c5cf104c39db",
     "title": "Tarn de Primavera Clara",
-    "subCategory": "Marca del Este",
+    "subCategory": "Marca del este",
     "dlc": "Ninguno",
     "mainCategory": "Principal"
   },
@@ -338,28 +338,28 @@
   {
     "id": "d0cb04f9-37da-4b6a-99ac-0a8fcfc63f53",
     "title": "Torre de piedra de la cuna",
-    "subCategory": "Marca del Este",
+    "subCategory": "Marca del este",
     "dlc": "Ninguno",
     "mainCategory": "Principal"
   },
   {
     "id": "56ef7cf0-e5a4-417a-b759-3a72d9a1cb94",
     "title": "Roca aplastadora de cuna",
-    "subCategory": "Marca del Este",
+    "subCategory": "Marca del este",
     "dlc": "Ninguno",
     "mainCategory": "Principal"
   },
   {
     "id": "8b271363-65c4-46f5-9cd7-cac45a72a2b4",
     "title": "Caverna Cragslane",
-    "subCategory": "Marca del Este",
+    "subCategory": "Marca del este",
     "dlc": "Ninguno",
     "mainCategory": "Principal"
   },
   {
     "id": "a14d971d-9e5c-4c37-8b1b-522051bfed22",
     "title": "Pendiente del Risco",
-    "subCategory": "Subcategoría de invierno",
+    "subCategory": "Winterhold",
     "dlc": "Ninguno",
     "mainCategory": "Principal"
   },
@@ -373,7 +373,7 @@
   {
     "id": "0c3f48e3-573a-45b8-830a-41ce769f7d6e",
     "title": "Cueva de la deriva de cristal",
-    "subCategory": "Subcategoría de invierno",
+    "subCategory": "Winterhold",
     "dlc": "Ninguno",
     "mainCategory": "Principal"
   },
@@ -408,14 +408,14 @@
   {
     "id": "2d72e9d4-0a33-46d9-8124-6b7ed688227b",
     "title": "Cruce de aguas oscuras",
-    "subCategory": "Marca del Este",
+    "subCategory": "Marca del este",
     "dlc": "Ninguno",
     "mainCategory": "Principal"
   },
   {
     "id": "de9ad14e-4007-4c0a-82b2-29708614849b",
     "title": "Paso de aguas oscuras",
-    "subCategory": "Marca del Este",
+    "subCategory": "Marca del este",
     "dlc": "Ninguno",
     "mainCategory": "Principal"
   },
@@ -499,7 +499,7 @@
   {
     "id": "e8d5ab5c-b59c-4a5b-9e50-55e3a3701665",
     "title": "Refugio Sombra flotante",
-    "subCategory": "Subcategoría de invierno",
+    "subCategory": "Winterhold",
     "dlc": "Ninguno",
     "mainCategory": "Principal"
   },
@@ -534,14 +534,14 @@
   {
     "id": "d38718a9-0204-46a2-b87b-6c2d4fc6ff9b",
     "title": "Almacén de la Compañía East Empire",
-    "subCategory": "Marca del Este",
+    "subCategory": "Marca del este",
     "dlc": "Ninguno",
     "mainCategory": "Principal"
   },
   {
     "id": "47c62857-0d7d-47aa-a78d-29a6a865f4e6",
     "title": "Campamento Imperial de la Marca Oriental",
-    "subCategory": "Marca del Este",
+    "subCategory": "Marca del este",
     "dlc": "Ninguno",
     "mainCategory": "Principal"
   },
@@ -632,7 +632,7 @@
   {
     "id": "3f58612b-6af5-4d26-8a88-602670cc7a26",
     "title": "Fuerte Amol",
-    "subCategory": "Marca del Este",
+    "subCategory": "Marca del este",
     "dlc": "Ninguno",
     "mainCategory": "Principal"
   },
@@ -653,7 +653,7 @@
   {
     "id": "a7624e87-2e1f-4c9a-8251-44a9cf45c26e",
     "title": "Fuerte Muro Verde",
-    "subCategory": "Marca del Este",
+    "subCategory": "Marca del este",
     "dlc": "Ninguno",
     "mainCategory": "Principal"
   },
@@ -674,7 +674,7 @@
   {
     "id": "d8b3e897-1b3d-40f3-b07f-d5d791d8e22b",
     "title": "Fuerte Kastav",
-    "subCategory": "Subcategoría de invierno",
+    "subCategory": "Winterhold",
     "dlc": "Ninguno",
     "mainCategory": "Principal"
   },
@@ -716,7 +716,7 @@
   {
     "id": "59e0c05a-6654-4e34-8e1d-9170ddc630f4",
     "title": "Faro de flujo de escarcha",
-    "subCategory": "Subcategoría de invierno",
+    "subCategory": "Winterhold",
     "dlc": "Ninguno",
     "mainCategory": "Principal"
   },
@@ -737,14 +737,14 @@
   {
     "id": "4a876317-65fe-4fe1-8ce4-144d08a4e6eb",
     "title": "Salón de Geirmund",
-    "subCategory": "Marca del Este",
+    "subCategory": "Marca del este",
     "dlc": "Ninguno",
     "mainCategory": "Principal"
   },
   {
     "id": "97302e8a-67a9-4f37-822c-8b3a87972e09",
     "title": "Arboleda del gigante",
-    "subCategory": "Marca del Este",
+    "subCategory": "Marca del este",
     "dlc": "Ninguno",
     "mainCategory": "Principal"
   },
@@ -765,7 +765,7 @@
   {
     "id": "62c128c8-8032-4f78-9bb6-2a5e6723546f",
     "title": "Mina sombría",
-    "subCategory": "Marca del Este",
+    "subCategory": "Marca del este",
     "dlc": "Ninguno",
     "mainCategory": "Principal"
   },
@@ -793,14 +793,14 @@
   {
     "id": "32f3b551-1fd1-416f-8093-9ce5ac7fe5de",
     "title": "Gran ascensor en Alftand",
-    "subCategory": "Subcategoría de invierno",
+    "subCategory": "Winterhold",
     "dlc": "Ninguno",
     "mainCategory": "Principal"
   },
   {
     "id": "a612a0d4-bd32-4d2e-a07b-6a787fb80195",
     "title": "Gran ascensor en Mzinchaleft",
-    "subCategory": "Marca del Este",
+    "subCategory": "Marca del este",
     "dlc": "Ninguno",
     "mainCategory": "Principal"
   },
@@ -828,7 +828,7 @@
   {
     "id": "1513e2ff-5477-45d8-a4f8-ee9f76e0b848",
     "title": "Roca Guldún",
-    "subCategory": "Marca del Este",
+    "subCategory": "Marca del este",
     "dlc": "Ninguno",
     "mainCategory": "Principal"
   },
@@ -954,7 +954,7 @@
   {
     "id": "ac234bf1-4ad9-4da4-a5a1-43b3f60a0d9e",
     "title": "Cueva de la caída de Hob",
-    "subCategory": "Subcategoría de invierno",
+    "subCategory": "Winterhold",
     "dlc": "Ninguno",
     "mainCategory": "Principal"
   },
@@ -1010,7 +1010,7 @@
   {
     "id": "43d0e0a6-1a6c-4520-a147-cb9da1422922",
     "title": "Túmulo Vinculahierro",
-    "subCategory": "Subcategoría de invierno",
+    "subCategory": "Winterhold",
     "dlc": "Ninguno",
     "mainCategory": "Principal"
   },
@@ -1052,14 +1052,14 @@
   {
     "id": "0a26bf21-1727-43e5-9f5a-129f2e8b0c0f",
     "title": "La granja de Katla",
-    "subCategory": "Subcategoría de invierno",
+    "subCategory": "Winterhold",
     "dlc": "Ninguno",
     "mainCategory": "Principal"
   },
   {
     "id": "65eddd8c-3f6d-468d-82a8-85800e82bb32",
     "title": "Ruinas de Kjenstag",
-    "subCategory": "Subcategoría de invierno",
+    "subCategory": "Winterhold",
     "dlc": "Ninguno",
     "mainCategory": "Principal"
   },
@@ -1080,14 +1080,14 @@
   {
     "id": "d5cf72a5-04a9-4f92-bc25-1461b582e647",
     "title": "Korvanjund",
-    "subCategory": "Subcategoría de invierno",
+    "subCategory": "Winterhold",
     "dlc": "Ninguno",
     "mainCategory": "Principal"
   },
   {
     "id": "8f7f301f-0f8a-4c0d-b497-c1536ef059c5",
     "title": "Kynesgrove",
-    "subCategory": "Marca del Este",
+    "subCategory": "Marca del este",
     "dlc": "Ninguno",
     "mainCategory": "Principal"
   },
@@ -1136,7 +1136,7 @@
   {
     "id": "74b15d38-9b3a-47fb-aa7a-eb373fc2379b",
     "title": "Escondite de cuchillos perdidos",
-    "subCategory": "Marca del Este",
+    "subCategory": "Marca del este",
     "dlc": "Ninguno",
     "mainCategory": "Principal"
   },
@@ -1150,14 +1150,14 @@
   {
     "id": "6f940bc5-df8b-482d-87f7-33e46df0aa06",
     "title": "Mirador de la lengua perdida",
-    "subCategory": "Marca del Este",
+    "subCategory": "Marca del este",
     "dlc": "Ninguno",
     "mainCategory": "Principal"
   },
   {
     "id": "e7f38443-fda1-4bf3-b75f-75d7db849f4a",
     "title": "Valkigg perdida",
-    "subCategory": "Subcategoría de invierno",
+    "subCategory": "Winterhold",
     "dlc": "Ninguno",
     "mainCategory": "Principal"
   },
@@ -1227,14 +1227,14 @@
   {
     "id": "8a7329f4-fb3d-4093-88e3-b41bb6c9cb6b",
     "title": "Vigilancia de la niebla",
-    "subCategory": "Marca del Este",
+    "subCategory": "Marca del este",
     "dlc": "Ninguno",
     "mainCategory": "Principal"
   },
   {
     "id": "fa52e8fe-2f4d-46f5-af89-bf8fe3a9f04f",
     "title": "Molino de mezcla de agua",
-    "subCategory": "Marca del Este",
+    "subCategory": "Marca del este",
     "dlc": "Ninguno",
     "mainCategory": "Principal"
   },
@@ -1269,7 +1269,7 @@
   {
     "id": "a9a5b10b-9c74-48a2-a144-68a1eac191ad",
     "title": "Monte Anthor",
-    "subCategory": "Subcategoría de invierno",
+    "subCategory": "Winterhold",
     "dlc": "Ninguno",
     "mainCategory": "Principal"
   },
@@ -1290,14 +1290,14 @@
   {
     "id": "c2a2436c-d7f8-413d-a69b-9ab2ce24d4a3",
     "title": "Mzulft",
-    "subCategory": "Marca del Este",
+    "subCategory": "Marca del este",
     "dlc": "Ninguno",
     "mainCategory": "Principal"
   },
   {
     "id": "85636f21-c448-4a36-9a1f-d5d76e769f42",
     "title": "Narzulbur",
-    "subCategory": "Marca del Este",
+    "subCategory": "Marca del este",
     "dlc": "Ninguno",
     "mainCategory": "Principal"
   },
@@ -1339,7 +1339,7 @@
   {
     "id": "d1ed1a4a-63b4-4781-98a3-c4f68027c0f9",
     "title": "Paso Norte de Cold Rock",
-    "subCategory": "Subcategoría de invierno",
+    "subCategory": "Winterhold",
     "dlc": "Ninguno",
     "mainCategory": "Principal"
   },
@@ -1395,7 +1395,7 @@
   {
     "id": "587d9e10-499f-4a78-85ed-801ad99307ed",
     "title": "La lágrima del huérfano",
-    "subCategory": "Subcategoría de invierno",
+    "subCategory": "Winterhold",
     "dlc": "Ninguno",
     "mainCategory": "Principal"
   },
@@ -1409,7 +1409,7 @@
   {
     "id": "042c141f-36f5-4d56-8ea3-0b9b0cbb2421",
     "title": "Palacio de los Reyes",
-    "subCategory": "Marca del Este",
+    "subCategory": "Marca del este",
     "dlc": "Ninguno",
     "mainCategory": "Principal"
   },
@@ -1451,7 +1451,7 @@
   {
     "id": "11e2f151-5be5-4644-9f4c-4bf37b3ba66e",
     "title": "Torre de escarcha de pino",
-    "subCategory": "Subcategoría de invierno",
+    "subCategory": "Winterhold",
     "dlc": "Ninguno",
     "mainCategory": "Principal"
   },
@@ -1668,14 +1668,14 @@
   {
     "id": "f79ab922-4812-4815-a44e-3f34a13895e8",
     "title": "Saarthal",
-    "subCategory": "Subcategoría de invierno",
+    "subCategory": "Winterhold",
     "dlc": "Ninguno",
     "mainCategory": "Principal"
   },
   {
     "id": "4b315497-7832-469d-a951-9c5a01c3b680",
     "title": "Sacelum de Boethiah",
-    "subCategory": "Marca del Este",
+    "subCategory": "Marca del este",
     "dlc": "Ninguno",
     "mainCategory": "Principal"
   },
@@ -1703,7 +1703,7 @@
   {
     "id": "1b5e8c54-0a91-4f8d-8e1c-98a46bfe7242",
     "title": "Puesto avanzado de Septimus Signus",
-    "subCategory": "Subcategoría de invierno",
+    "subCategory": "Winterhold",
     "dlc": "Ninguno",
     "mainCategory": "Principal"
   },
@@ -1724,7 +1724,7 @@
   {
     "id": "31a2abfb-51f4-4c65-8e1d-66c1ff4c0b29",
     "title": "punto de corte",
-    "subCategory": "Subcategoría de invierno",
+    "subCategory": "Winterhold",
     "dlc": "Ninguno",
     "mainCategory": "Principal"
   },
@@ -1752,7 +1752,7 @@
   {
     "id": "f5b16ccf-0f52-47f8-896f-bd94f61d80f7",
     "title": "Santuario de Azura",
-    "subCategory": "Subcategoría de invierno",
+    "subCategory": "Winterhold",
     "dlc": "Ninguno",
     "mainCategory": "Principal"
   },
@@ -1787,7 +1787,7 @@
   {
     "id": "64e2c135-28c7-467f-a871-e3a04262c48f",
     "title": "Pozo ciego",
-    "subCategory": "Subcategoría de invierno",
+    "subCategory": "Winterhold",
     "dlc": "Ninguno",
     "mainCategory": "Principal"
   },
@@ -1801,7 +1801,7 @@
   {
     "id": "4f0a267f-dac3-44b0-b890-2d3fb5d408a9",
     "title": "Guarida de Silverdrift",
-    "subCategory": "Subcategoría de invierno",
+    "subCategory": "Winterhold",
     "dlc": "Ninguno",
     "mainCategory": "Principal"
   },
@@ -1843,14 +1843,14 @@
   {
     "id": "e5b12b72-5d05-4573-8325-d69b2d0b9309",
     "title": "Santuario del Velo de Nieve",
-    "subCategory": "Subcategoría de invierno",
+    "subCategory": "Winterhold",
     "dlc": "Ninguno",
     "mainCategory": "Principal"
   },
   {
     "id": "e3c67ee0-f4c1-4bc8-b2f3-1b8b783d5050",
     "title": "Baliza de punto de nieve",
-    "subCategory": "Subcategoría de invierno",
+    "subCategory": "Winterhold",
     "dlc": "Ninguno",
     "mainCategory": "Principal"
   },
@@ -1892,7 +1892,7 @@
   {
     "id": "c398e8a4-3e2f-4cf4-8b54-8c001254fe3b",
     "title": "Paso South Cold Rock",
-    "subCategory": "Subcategoría de invierno",
+    "subCategory": "Winterhold",
     "dlc": "Ninguno",
     "mainCategory": "Principal"
   },
@@ -1997,7 +1997,7 @@
   {
     "id": "f3315c79-7f7e-40c0-b4ab-071cb1731d11",
     "title": "Campamento de piedra parlante",
-    "subCategory": "Subcategoría de invierno",
+    "subCategory": "Winterhold",
     "dlc": "Ninguno",
     "mainCategory": "Principal"
   },
@@ -2032,14 +2032,14 @@
   {
     "id": "1f72e6a9-39b4-430c-8427-8a78b2e3b28e",
     "title": "La cueva de Tolvaldo",
-    "subCategory": "Subcategoría de invierno",
+    "subCategory": "Winterhold",
     "dlc": "Ninguno",
     "mainCategory": "Principal"
   },
   {
     "id": "1b08149d-3880-4154-a5c9-2a1639d83ef7",
     "title": "Torre de Mzark",
-    "subCategory": "Subcategoría de invierno",
+    "subCategory": "Winterhold",
     "dlc": "Ninguno",
     "mainCategory": "Principal"
   },
@@ -2067,7 +2067,7 @@
   {
     "id": "b61b8dd6-b935-4008-b00e-fba0e19909f9",
     "title": "Lanzador de espeleología Crepuscular",
-    "subCategory": "Marca del Este",
+    "subCategory": "Marca del este",
     "dlc": "Ninguno",
     "mainCategory": "Principal"
   },
@@ -2123,7 +2123,7 @@
   {
     "id": "eefba82d-d59a-46cf-9601-71c65e06231d",
     "title": "Pase descarriado",
-    "subCategory": "Subcategoría de invierno",
+    "subCategory": "Winterhold",
     "dlc": "Ninguno",
     "mainCategory": "Principal"
   },
@@ -2144,7 +2144,7 @@
   {
     "id": "e9e5da22-55f3-4b13-87fe-9b9a73ef60e7",
     "title": "Mina silbante",
-    "subCategory": "Subcategoría de invierno",
+    "subCategory": "Winterhold",
     "dlc": "Ninguno",
     "mainCategory": "Principal"
   },
@@ -2193,49 +2193,49 @@
   {
     "id": "10f26d91-1c13-4713-9b67-28e0e9147ef9",
     "title": "viento",
-    "subCategory": "Marca del Este",
+    "subCategory": "Marca del este",
     "dlc": "Ninguno",
     "mainCategory": "Principal"
   },
   {
     "id": "e15c72d5-8f02-47e2-8274-7b1fcf8882d5",
     "title": "Establos de Windhelm",
-    "subCategory": "Marca del Este",
+    "subCategory": "Marca del este",
     "dlc": "Ninguno",
     "mainCategory": "Principal"
   },
   {
     "id": "a3f62b72-6bea-4ef1-845c-cdf0a9ab0aa1",
     "title": "Ruinas de barlovento",
-    "subCategory": "Marca del Este",
+    "subCategory": "Marca del este",
     "dlc": "Ninguno",
     "mainCategory": "Principal"
   },
   {
     "id": "e0b84a7e-3fcd-45aa-8f76-850654204f0e",
-    "title": "Subcategoría de invierno",
-    "subCategory": "Subcategoría de invierno",
+    "title": "Winterhold",
+    "subCategory": "Winterhold",
     "dlc": "Ninguno",
     "mainCategory": "Principal"
   },
   {
     "id": "837e26c5-20d2-4671-a378-65c6b7cb97cc",
-    "title": "Campamento Imperial de subcategoría de invierno",
-    "subCategory": "Subcategoría de invierno",
+    "title": "Campamento imperial Winterhold",
+    "subCategory": "Winterhold",
     "dlc": "Ninguno",
     "mainCategory": "Principal"
   },
   {
     "id": "b9cde82a-158a-4ff8-8d82-7f1232995c47",
-    "title": "Campamento Stormcloak de subcategoría de invierno",
-    "subCategory": "Subcategoría de invierno",
+    "title": "Campamento Capa de Tormenta de Winterhold",
+    "subCategory": "Winterhold",
     "dlc": "Ninguno",
     "mainCategory": "Principal"
   },
   {
     "id": "b6653b1e-0a46-4e58-bdff-dac48cc3a003",
     "title": "Arboleda de la Niebla Bruja",
-    "subCategory": "Subcategoría de invierno",
+    "subCategory": "Winterhold",
     "dlc": "Ninguno",
     "mainCategory": "Principal"
   },
@@ -2249,49 +2249,49 @@
   {
     "id": "2d5d1c90-b2a2-4a2c-9ed0-92a7807f6a42",
     "title": "Naufragio del Brinehammer",
-    "subCategory": "Subcategoría de invierno",
+    "subCategory": "Winterhold",
     "dlc": "Ninguno",
     "mainCategory": "Principal"
   },
   {
     "id": "d9e7a9a5-3eb9-4f37-9236-1bc2f5538aa4",
     "title": "Naufragio del Orgullo de Tel Vos",
-    "subCategory": "Subcategoría de invierno",
+    "subCategory": "Winterhold",
     "dlc": "Ninguno",
     "mainCategory": "Principal"
   },
   {
     "id": "df281128-b7ce-43b8-af78-77986534ef31",
     "title": "Naufragio de la guerra de invierno",
-    "subCategory": "Subcategoría de invierno",
+    "subCategory": "Winterhold",
     "dlc": "Ninguno",
     "mainCategory": "Principal"
   },
   {
     "id": "bd414ad7-754c-45c7-af62-96c5c4b33d1b",
     "title": "Túmulo Yngol",
-    "subCategory": "Subcategoría de invierno",
+    "subCategory": "Winterhold",
     "dlc": "Ninguno",
     "mainCategory": "Principal"
   },
   {
     "id": "d1e98aa1-53a8-48d1-bfe6-56dd406fd41a",
     "title": "yngvild",
-    "subCategory": "Subcategoría de invierno",
+    "subCategory": "Winterhold",
     "dlc": "Ninguno",
     "mainCategory": "Principal"
   },
   {
     "id": "c0576c60-597d-475c-91b5-0c51328f7a3e",
     "title": "Mirador de Yorgrim",
-    "subCategory": "Marca del Este",
+    "subCategory": "Marca del este",
     "dlc": "Ninguno",
     "mainCategory": "Principal"
   },
   {
     "id": "fa732198-ea36-4a15-95f2-0207e4f31d11",
     "title": "Tumba de Ysgramor",
-    "subCategory": "Subcategoría de invierno",
+    "subCategory": "Winterhold",
     "dlc": "Ninguno",
     "mainCategory": "Principal"
   },
@@ -2661,7 +2661,7 @@
   },
   {
     "id": "b1c0f90d-2e85-4202-80d1-7c5d682c3e0e",
-    "title": "Piedra del Sol",
+    "title": "Piedra del sol",
     "subCategory": "Solstheim",
     "dlc": "nacido de dragón",
     "mainCategory": "nacido de dragón"

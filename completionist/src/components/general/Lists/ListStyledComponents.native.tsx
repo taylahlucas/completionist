@@ -8,14 +8,16 @@ import { LARGE_WIDTH, STANDARD_WIDTH } from '@styles/global.native';
 
 export const listStyles = StyleSheet.create({
   scrollableContent: {
-    alignItems: 'center', 
-    alignSelf: 'center',
     paddingBottom: 24
   },
   scrollableList: {
     padding: 16
   },
+  listItemList: {
+    alignItems: 'center'
+  },
   selectableButton: {
+    minHeight: 45,
     justifyContent: 'center',
     flexDirection: 'row'
   },

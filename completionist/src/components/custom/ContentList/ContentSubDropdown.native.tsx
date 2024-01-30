@@ -27,7 +27,7 @@ const ContentSubDropdown = ({ mainCategory, subCategory, completed, total }: Con
   const { getContentSubCategoriesTypes } = useGetContentCategories();
   const { checkContentCompleteForCategory } = useCheckContentComplete();
   const subCategoryTypes = getContentSubCategoriesTypes(subCategory, selectedGame);
-
+  
   return (
     <Dropdown
       isOpen={subCategory === selectedCategory.subCategory}

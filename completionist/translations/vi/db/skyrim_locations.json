@@ -23,7 +23,7 @@
   {
     "id": "1651892c-9d7d-4f5b-880f-468eb2d96068",
     "title": "Alftand",
-    "subCategory": "Danh mục Wintersub",
+    "subCategory": "mùa đông",
     "dlc": "Không có",
     "mainCategory": "Chủ yếu"
   },
@@ -142,13 +142,13 @@
   {
     "id": "e58e0310-64ea-42d8-8a88-2cfb9a0900b0",
     "title": "Hang vắng vẻ",
-    "subCategory": "Danh mục Wintersub",
+    "subCategory": "mùa đông",
     "dlc": "Không có",
     "mainCategory": "Chủ yếu"
   },
   {
     "id": "6a7d98d0-5866-4683-9b86-b2a9517e920a",
-    "title": "Lưu vực gió ảm đạm",
+    "title": "Lưu vực gió lặng",
     "subCategory": "Giữ Whiterun",
     "dlc": "Không có",
     "mainCategory": "Chủ yếu"
@@ -359,7 +359,7 @@
   {
     "id": "a14d971d-9e5c-4c37-8b1b-522051bfed22",
     "title": "Độ dốc Cragwallow",
-    "subCategory": "Danh mục Wintersub",
+    "subCategory": "mùa đông",
     "dlc": "Không có",
     "mainCategory": "Chủ yếu"
   },
@@ -373,7 +373,7 @@
   {
     "id": "0c3f48e3-573a-45b8-830a-41ce769f7d6e",
     "title": "Hang Pha Lê",
-    "subCategory": "Danh mục Wintersub",
+    "subCategory": "mùa đông",
     "dlc": "Không có",
     "mainCategory": "Chủ yếu"
   },
@@ -414,7 +414,7 @@
   },
   {
     "id": "de9ad14e-4007-4c0a-82b2-29708614849b",
-    "title": "Đèo Darkwater",
+    "title": "Đèo nước đen",
     "subCategory": "Eastmarch",
     "dlc": "Không có",
     "mainCategory": "Chủ yếu"
@@ -499,7 +499,7 @@
   {
     "id": "e8d5ab5c-b59c-4a5b-9e50-55e3a3701665",
     "title": "Nơi trú ẩn lũa",
-    "subCategory": "Danh mục Wintersub",
+    "subCategory": "mùa đông",
     "dlc": "Không có",
     "mainCategory": "Chủ yếu"
   },
@@ -674,7 +674,7 @@
   {
     "id": "d8b3e897-1b3d-40f3-b07f-d5d791d8e22b",
     "title": "Pháo đài Kastav",
-    "subCategory": "Danh mục Wintersub",
+    "subCategory": "mùa đông",
     "dlc": "Không có",
     "mainCategory": "Chủ yếu"
   },
@@ -716,7 +716,7 @@
   {
     "id": "59e0c05a-6654-4e34-8e1d-9170ddc630f4",
     "title": "Ngọn hải đăng Frostflow",
-    "subCategory": "Danh mục Wintersub",
+    "subCategory": "mùa đông",
     "dlc": "Không có",
     "mainCategory": "Chủ yếu"
   },
@@ -793,7 +793,7 @@
   {
     "id": "32f3b551-1fd1-416f-8093-9ce5ac7fe5de",
     "title": "Thang máy tuyệt vời tại Alftand",
-    "subCategory": "Danh mục Wintersub",
+    "subCategory": "mùa đông",
     "dlc": "Không có",
     "mainCategory": "Chủ yếu"
   },
@@ -954,7 +954,7 @@
   {
     "id": "ac234bf1-4ad9-4da4-a5a1-43b3f60a0d9e",
     "title": "Hang mùa thu Hob",
-    "subCategory": "Danh mục Wintersub",
+    "subCategory": "mùa đông",
     "dlc": "Không có",
     "mainCategory": "Chủ yếu"
   },
@@ -1010,7 +1010,7 @@
   {
     "id": "43d0e0a6-1a6c-4520-a147-cb9da1422922",
     "title": "Xe đẩy sắt",
-    "subCategory": "Danh mục Wintersub",
+    "subCategory": "mùa đông",
     "dlc": "Không có",
     "mainCategory": "Chủ yếu"
   },
@@ -1052,14 +1052,14 @@
   {
     "id": "0a26bf21-1727-43e5-9f5a-129f2e8b0c0f",
     "title": "Trang trại của Katla",
-    "subCategory": "Danh mục Wintersub",
+    "subCategory": "mùa đông",
     "dlc": "Không có",
     "mainCategory": "Chủ yếu"
   },
   {
     "id": "65eddd8c-3f6d-468d-82a8-85800e82bb32",
     "title": "Tàn tích Kjenstag",
-    "subCategory": "Danh mục Wintersub",
+    "subCategory": "mùa đông",
     "dlc": "Không có",
     "mainCategory": "Chủ yếu"
   },
@@ -1080,7 +1080,7 @@
   {
     "id": "d5cf72a5-04a9-4f92-bc25-1461b582e647",
     "title": "Korvanjund",
-    "subCategory": "Danh mục Wintersub",
+    "subCategory": "mùa đông",
     "dlc": "Không có",
     "mainCategory": "Chủ yếu"
   },
@@ -1157,7 +1157,7 @@
   {
     "id": "e7f38443-fda1-4bf3-b75f-75d7db849f4a",
     "title": "Valkygg bị mất",
-    "subCategory": "Danh mục Wintersub",
+    "subCategory": "mùa đông",
     "dlc": "Không có",
     "mainCategory": "Chủ yếu"
   },
@@ -1269,7 +1269,7 @@
   {
     "id": "a9a5b10b-9c74-48a2-a144-68a1eac191ad",
     "title": "Núi Anthor",
-    "subCategory": "Danh mục Wintersub",
+    "subCategory": "mùa đông",
     "dlc": "Không có",
     "mainCategory": "Chủ yếu"
   },
@@ -1339,7 +1339,7 @@
   {
     "id": "d1ed1a4a-63b4-4781-98a3-c4f68027c0f9",
     "title": "Đèo Đá Lạnh Bắc",
-    "subCategory": "Danh mục Wintersub",
+    "subCategory": "mùa đông",
     "dlc": "Không có",
     "mainCategory": "Chủ yếu"
   },
@@ -1359,7 +1359,7 @@
   },
   {
     "id": "531e5af0-d44f-43bb-9b41-255f73f10bc8",
-    "title": "Trạm canh gác phía Bắc",
+    "title": "Trạm canh gác phía bắc",
     "subCategory": "Haafingar",
     "dlc": "Không có",
     "mainCategory": "Chủ yếu"
@@ -1395,7 +1395,7 @@
   {
     "id": "587d9e10-499f-4a78-85ed-801ad99307ed",
     "title": "Nước mắt mồ côi",
-    "subCategory": "Danh mục Wintersub",
+    "subCategory": "mùa đông",
     "dlc": "Không có",
     "mainCategory": "Chủ yếu"
   },
@@ -1451,7 +1451,7 @@
   {
     "id": "11e2f151-5be5-4644-9f4c-4bf37b3ba66e",
     "title": "Tháp băng thông",
-    "subCategory": "Danh mục Wintersub",
+    "subCategory": "mùa đông",
     "dlc": "Không có",
     "mainCategory": "Chủ yếu"
   },
@@ -1668,7 +1668,7 @@
   {
     "id": "f79ab922-4812-4815-a44e-3f34a13895e8",
     "title": "Saarthal",
-    "subCategory": "Danh mục Wintersub",
+    "subCategory": "mùa đông",
     "dlc": "Không có",
     "mainCategory": "Chủ yếu"
   },
@@ -1703,7 +1703,7 @@
   {
     "id": "1b5e8c54-0a91-4f8d-8e1c-98a46bfe7242",
     "title": "Tiền đồn của Septimus Signus",
-    "subCategory": "Danh mục Wintersub",
+    "subCategory": "mùa đông",
     "dlc": "Không có",
     "mainCategory": "Chủ yếu"
   },
@@ -1724,7 +1724,7 @@
   {
     "id": "31a2abfb-51f4-4c65-8e1d-66c1ff4c0b29",
     "title": "điểm cắt",
-    "subCategory": "Danh mục Wintersub",
+    "subCategory": "mùa đông",
     "dlc": "Không có",
     "mainCategory": "Chủ yếu"
   },
@@ -1752,7 +1752,7 @@
   {
     "id": "f5b16ccf-0f52-47f8-896f-bd94f61d80f7",
     "title": "Đền thờ Azura",
-    "subCategory": "Danh mục Wintersub",
+    "subCategory": "mùa đông",
     "dlc": "Không có",
     "mainCategory": "Chủ yếu"
   },
@@ -1787,7 +1787,7 @@
   {
     "id": "64e2c135-28c7-467f-a871-e3a04262c48f",
     "title": "Hố vô hình",
-    "subCategory": "Danh mục Wintersub",
+    "subCategory": "mùa đông",
     "dlc": "Không có",
     "mainCategory": "Chủ yếu"
   },
@@ -1801,7 +1801,7 @@
   {
     "id": "4f0a267f-dac3-44b0-b890-2d3fb5d408a9",
     "title": "Hang ổ bạc",
-    "subCategory": "Danh mục Wintersub",
+    "subCategory": "mùa đông",
     "dlc": "Không có",
     "mainCategory": "Chủ yếu"
   },
@@ -1843,14 +1843,14 @@
   {
     "id": "e5b12b72-5d05-4573-8325-d69b2d0b9309",
     "title": "Thánh Điện Mạng Che Tuyết",
-    "subCategory": "Danh mục Wintersub",
+    "subCategory": "mùa đông",
     "dlc": "Không có",
     "mainCategory": "Chủ yếu"
   },
   {
     "id": "e3c67ee0-f4c1-4bc8-b2f3-1b8b783d5050",
     "title": "Đèn hiệu điểm tuyết",
-    "subCategory": "Danh mục Wintersub",
+    "subCategory": "mùa đông",
     "dlc": "Không có",
     "mainCategory": "Chủ yếu"
   },
@@ -1892,7 +1892,7 @@
   {
     "id": "c398e8a4-3e2f-4cf4-8b54-8c001254fe3b",
     "title": "Đèo Nam Lạnh",
-    "subCategory": "Danh mục Wintersub",
+    "subCategory": "mùa đông",
     "dlc": "Không có",
     "mainCategory": "Chủ yếu"
   },
@@ -1997,7 +1997,7 @@
   {
     "id": "f3315c79-7f7e-40c0-b4ab-071cb1731d11",
     "title": "Trại đá biết nói",
-    "subCategory": "Danh mục Wintersub",
+    "subCategory": "mùa đông",
     "dlc": "Không có",
     "mainCategory": "Chủ yếu"
   },
@@ -2032,14 +2032,14 @@
   {
     "id": "1f72e6a9-39b4-430c-8427-8a78b2e3b28e",
     "title": "Hang Tolvald",
-    "subCategory": "Danh mục Wintersub",
+    "subCategory": "mùa đông",
     "dlc": "Không có",
     "mainCategory": "Chủ yếu"
   },
   {
     "id": "1b08149d-3880-4154-a5c9-2a1639d83ef7",
     "title": "Tháp Mzark",
-    "subCategory": "Danh mục Wintersub",
+    "subCategory": "mùa đông",
     "dlc": "Không có",
     "mainCategory": "Chủ yếu"
   },
@@ -2123,7 +2123,7 @@
   {
     "id": "eefba82d-d59a-46cf-9601-71c65e06231d",
     "title": "Đèo bướng bỉnh",
-    "subCategory": "Danh mục Wintersub",
+    "subCategory": "mùa đông",
     "dlc": "Không có",
     "mainCategory": "Chủ yếu"
   },
@@ -2144,7 +2144,7 @@
   {
     "id": "e9e5da22-55f3-4b13-87fe-9b9a73ef60e7",
     "title": "Mỏ huýt sáo",
-    "subCategory": "Danh mục Wintersub",
+    "subCategory": "mùa đông",
     "dlc": "Không có",
     "mainCategory": "Chủ yếu"
   },
@@ -2206,36 +2206,36 @@
   },
   {
     "id": "a3f62b72-6bea-4ef1-845c-cdf0a9ab0aa1",
-    "title": "tàn tích đón gió",
+    "title": "Tàn tích hướng gió",
     "subCategory": "Eastmarch",
     "dlc": "Không có",
     "mainCategory": "Chủ yếu"
   },
   {
     "id": "e0b84a7e-3fcd-45aa-8f76-850654204f0e",
-    "title": "Danh mục Wintersub",
-    "subCategory": "Danh mục Wintersub",
+    "title": "mùa đông",
+    "subCategory": "mùa đông",
     "dlc": "Không có",
     "mainCategory": "Chủ yếu"
   },
   {
     "id": "837e26c5-20d2-4671-a378-65c6b7cb97cc",
-    "title": "WintersubThể loạiTrại Hoàng gia",
-    "subCategory": "Danh mục Wintersub",
+    "title": "Trại Hoàng gia Winterhold",
+    "subCategory": "mùa đông",
     "dlc": "Không có",
     "mainCategory": "Chủ yếu"
   },
   {
     "id": "b9cde82a-158a-4ff8-8d82-7f1232995c47",
-    "title": "WintersubCategoryTrại Stormcloak",
-    "subCategory": "Danh mục Wintersub",
+    "title": "Trại Áo Bão Mùa Đông",
+    "subCategory": "mùa đông",
     "dlc": "Không có",
     "mainCategory": "Chủ yếu"
   },
   {
     "id": "b6653b1e-0a46-4e58-bdff-dac48cc3a003",
     "title": "Rừng phù thủy",
-    "subCategory": "Danh mục Wintersub",
+    "subCategory": "mùa đông",
     "dlc": "Không có",
     "mainCategory": "Chủ yếu"
   },
@@ -2249,41 +2249,41 @@
   {
     "id": "2d5d1c90-b2a2-4a2c-9ed0-92a7807f6a42",
     "title": "Xác tàu Brinehammer",
-    "subCategory": "Danh mục Wintersub",
+    "subCategory": "mùa đông",
     "dlc": "Không có",
     "mainCategory": "Chủ yếu"
   },
   {
     "id": "d9e7a9a5-3eb9-4f37-9236-1bc2f5538aa4",
-    "title": "Xác tàu niềm kiêu hãnh của Tel Vos",
-    "subCategory": "Danh mục Wintersub",
+    "title": "Xác tàu niềm tự hào của Tel Vos",
+    "subCategory": "mùa đông",
     "dlc": "Không có",
     "mainCategory": "Chủ yếu"
   },
   {
     "id": "df281128-b7ce-43b8-af78-77986534ef31",
     "title": "Xác tàu của cuộc chiến tranh mùa đông",
-    "subCategory": "Danh mục Wintersub",
+    "subCategory": "mùa đông",
     "dlc": "Không có",
     "mainCategory": "Chủ yếu"
   },
   {
     "id": "bd414ad7-754c-45c7-af62-96c5c4b33d1b",
     "title": "Yngol Barrow",
-    "subCategory": "Danh mục Wintersub",
+    "subCategory": "mùa đông",
     "dlc": "Không có",
     "mainCategory": "Chủ yếu"
   },
   {
     "id": "d1e98aa1-53a8-48d1-bfe6-56dd406fd41a",
     "title": "Yngvild",
-    "subCategory": "Danh mục Wintersub",
+    "subCategory": "mùa đông",
     "dlc": "Không có",
     "mainCategory": "Chủ yếu"
   },
   {
     "id": "c0576c60-597d-475c-91b5-0c51328f7a3e",
-    "title": "Nhìn ra Yorgrim",
+    "title": "Yorgrim bỏ qua",
     "subCategory": "Eastmarch",
     "dlc": "Không có",
     "mainCategory": "Chủ yếu"
@@ -2291,7 +2291,7 @@
   {
     "id": "fa732198-ea36-4a15-95f2-0207e4f31d11",
     "title": "Lăng mộ Ysgramor",
-    "subCategory": "Danh mục Wintersub",
+    "subCategory": "mùa đông",
     "dlc": "Không có",
     "mainCategory": "Chủ yếu"
   },
@@ -2682,7 +2682,7 @@
   },
   {
     "id": "6eeb23e4-091d-4c91-9f82-62e4b1706092",
-    "title": "Đá gió",
+    "title": "Đá Gió",
     "subCategory": "Solstheim",
     "dlc": "con rồng",
     "mainCategory": "con rồng"

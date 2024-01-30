@@ -23,7 +23,7 @@
   {
     "id": "1651892c-9d7d-4f5b-880f-468eb2d96068",
     "title": "Alftand",
-    "subCategory": "Sous-Catégorie Hiver",
+    "subCategory": "Fort d'Hiver",
     "dlc": "Aucun",
     "mainCategory": "Principal"
   },
@@ -142,7 +142,7 @@
   {
     "id": "e58e0310-64ea-42d8-8a88-2cfb9a0900b0",
     "title": "Grotte de la Côte Sombre",
-    "subCategory": "Sous-Catégorie Hiver",
+    "subCategory": "Fort d'Hiver",
     "dlc": "Aucun",
     "mainCategory": "Principal"
   },
@@ -359,7 +359,7 @@
   {
     "id": "a14d971d-9e5c-4c37-8b1b-522051bfed22",
     "title": "Pente Cragwallow",
-    "subCategory": "Sous-Catégorie Hiver",
+    "subCategory": "Fort d'Hiver",
     "dlc": "Aucun",
     "mainCategory": "Principal"
   },
@@ -373,7 +373,7 @@
   {
     "id": "0c3f48e3-573a-45b8-830a-41ce769f7d6e",
     "title": "Grotte de la dérive cristalline",
-    "subCategory": "Sous-Catégorie Hiver",
+    "subCategory": "Fort d'Hiver",
     "dlc": "Aucun",
     "mainCategory": "Principal"
   },
@@ -499,7 +499,7 @@
   {
     "id": "e8d5ab5c-b59c-4a5b-9e50-55e3a3701665",
     "title": "Refuge Driftshade",
-    "subCategory": "Sous-Catégorie Hiver",
+    "subCategory": "Fort d'Hiver",
     "dlc": "Aucun",
     "mainCategory": "Principal"
   },
@@ -674,7 +674,7 @@
   {
     "id": "d8b3e897-1b3d-40f3-b07f-d5d791d8e22b",
     "title": "Fort Kastav",
-    "subCategory": "Sous-Catégorie Hiver",
+    "subCategory": "Fort d'Hiver",
     "dlc": "Aucun",
     "mainCategory": "Principal"
   },
@@ -716,7 +716,7 @@
   {
     "id": "59e0c05a-6654-4e34-8e1d-9170ddc630f4",
     "title": "Phare de Frostflow",
-    "subCategory": "Sous-Catégorie Hiver",
+    "subCategory": "Fort d'Hiver",
     "dlc": "Aucun",
     "mainCategory": "Principal"
   },
@@ -793,7 +793,7 @@
   {
     "id": "32f3b551-1fd1-416f-8093-9ce5ac7fe5de",
     "title": "Grand ascenseur à Alftand",
-    "subCategory": "Sous-Catégorie Hiver",
+    "subCategory": "Fort d'Hiver",
     "dlc": "Aucun",
     "mainCategory": "Principal"
   },
@@ -932,7 +932,7 @@
   },
   {
     "id": "25fcf53c-ace7-43c3-91dd-0913122d4c9c",
-    "title": "Tombe de Hillgrund",
+    "title": "Tombeau de Hillgrund",
     "subCategory": "Bastion de Blancherive",
     "dlc": "Aucun",
     "mainCategory": "Principal"
@@ -954,7 +954,7 @@
   {
     "id": "ac234bf1-4ad9-4da4-a5a1-43b3f60a0d9e",
     "title": "Grotte d'automne de Hob",
-    "subCategory": "Sous-Catégorie Hiver",
+    "subCategory": "Fort d'Hiver",
     "dlc": "Aucun",
     "mainCategory": "Principal"
   },
@@ -1010,7 +1010,7 @@
   {
     "id": "43d0e0a6-1a6c-4520-a147-cb9da1422922",
     "title": "Tumulus liéfer",
-    "subCategory": "Sous-Catégorie Hiver",
+    "subCategory": "Fort d'Hiver",
     "dlc": "Aucun",
     "mainCategory": "Principal"
   },
@@ -1052,14 +1052,14 @@
   {
     "id": "0a26bf21-1727-43e5-9f5a-129f2e8b0c0f",
     "title": "La ferme de Katla",
-    "subCategory": "Sous-Catégorie Hiver",
+    "subCategory": "Fort d'Hiver",
     "dlc": "Aucun",
     "mainCategory": "Principal"
   },
   {
     "id": "65eddd8c-3f6d-468d-82a8-85800e82bb32",
     "title": "Ruines du Kjenstag",
-    "subCategory": "Sous-Catégorie Hiver",
+    "subCategory": "Fort d'Hiver",
     "dlc": "Aucun",
     "mainCategory": "Principal"
   },
@@ -1080,7 +1080,7 @@
   {
     "id": "d5cf72a5-04a9-4f92-bc25-1461b582e647",
     "title": "Korvanjund",
-    "subCategory": "Sous-Catégorie Hiver",
+    "subCategory": "Fort d'Hiver",
     "dlc": "Aucun",
     "mainCategory": "Principal"
   },
@@ -1157,7 +1157,7 @@
   {
     "id": "e7f38443-fda1-4bf3-b75f-75d7db849f4a",
     "title": "Valkygg perdu",
-    "subCategory": "Sous-Catégorie Hiver",
+    "subCategory": "Fort d'Hiver",
     "dlc": "Aucun",
     "mainCategory": "Principal"
   },
@@ -1269,7 +1269,7 @@
   {
     "id": "a9a5b10b-9c74-48a2-a144-68a1eac191ad",
     "title": "Mont Anthor",
-    "subCategory": "Sous-Catégorie Hiver",
+    "subCategory": "Fort d'Hiver",
     "dlc": "Aucun",
     "mainCategory": "Principal"
   },
@@ -1339,7 +1339,7 @@
   {
     "id": "d1ed1a4a-63b4-4781-98a3-c4f68027c0f9",
     "title": "Col North Cold Rock",
-    "subCategory": "Sous-Catégorie Hiver",
+    "subCategory": "Fort d'Hiver",
     "dlc": "Aucun",
     "mainCategory": "Principal"
   },
@@ -1395,7 +1395,7 @@
   {
     "id": "587d9e10-499f-4a78-85ed-801ad99307ed",
     "title": "Larme d'orphelin",
-    "subCategory": "Sous-Catégorie Hiver",
+    "subCategory": "Fort d'Hiver",
     "dlc": "Aucun",
     "mainCategory": "Principal"
   },
@@ -1451,7 +1451,7 @@
   {
     "id": "11e2f151-5be5-4644-9f4c-4bf37b3ba66e",
     "title": "Tour de Givre de Pin",
-    "subCategory": "Sous-Catégorie Hiver",
+    "subCategory": "Fort d'Hiver",
     "dlc": "Aucun",
     "mainCategory": "Principal"
   },
@@ -1668,7 +1668,7 @@
   {
     "id": "f79ab922-4812-4815-a44e-3f34a13895e8",
     "title": "Sarthal",
-    "subCategory": "Sous-Catégorie Hiver",
+    "subCategory": "Fort d'Hiver",
     "dlc": "Aucun",
     "mainCategory": "Principal"
   },
@@ -1703,7 +1703,7 @@
   {
     "id": "1b5e8c54-0a91-4f8d-8e1c-98a46bfe7242",
     "title": "Avant-poste de Septimus Signus",
-    "subCategory": "Sous-Catégorie Hiver",
+    "subCategory": "Fort d'Hiver",
     "dlc": "Aucun",
     "mainCategory": "Principal"
   },
@@ -1724,7 +1724,7 @@
   {
     "id": "31a2abfb-51f4-4c65-8e1d-66c1ff4c0b29",
     "title": "Point de cisaillement",
-    "subCategory": "Sous-Catégorie Hiver",
+    "subCategory": "Fort d'Hiver",
     "dlc": "Aucun",
     "mainCategory": "Principal"
   },
@@ -1752,7 +1752,7 @@
   {
     "id": "f5b16ccf-0f52-47f8-896f-bd94f61d80f7",
     "title": "Sanctuaire d'Azura",
-    "subCategory": "Sous-Catégorie Hiver",
+    "subCategory": "Fort d'Hiver",
     "dlc": "Aucun",
     "mainCategory": "Principal"
   },
@@ -1787,7 +1787,7 @@
   {
     "id": "64e2c135-28c7-467f-a871-e3a04262c48f",
     "title": "Fosse aveugle",
-    "subCategory": "Sous-Catégorie Hiver",
+    "subCategory": "Fort d'Hiver",
     "dlc": "Aucun",
     "mainCategory": "Principal"
   },
@@ -1801,7 +1801,7 @@
   {
     "id": "4f0a267f-dac3-44b0-b890-2d3fb5d408a9",
     "title": "Repaire de Silverdrift",
-    "subCategory": "Sous-Catégorie Hiver",
+    "subCategory": "Fort d'Hiver",
     "dlc": "Aucun",
     "mainCategory": "Principal"
   },
@@ -1843,14 +1843,14 @@
   {
     "id": "e5b12b72-5d05-4573-8325-d69b2d0b9309",
     "title": "Sanctuaire du Voile de neige",
-    "subCategory": "Sous-Catégorie Hiver",
+    "subCategory": "Fort d'Hiver",
     "dlc": "Aucun",
     "mainCategory": "Principal"
   },
   {
     "id": "e3c67ee0-f4c1-4bc8-b2f3-1b8b783d5050",
     "title": "Balise de pointe de neige",
-    "subCategory": "Sous-Catégorie Hiver",
+    "subCategory": "Fort d'Hiver",
     "dlc": "Aucun",
     "mainCategory": "Principal"
   },
@@ -1892,7 +1892,7 @@
   {
     "id": "c398e8a4-3e2f-4cf4-8b54-8c001254fe3b",
     "title": "Col South Cold Rock",
-    "subCategory": "Sous-Catégorie Hiver",
+    "subCategory": "Fort d'Hiver",
     "dlc": "Aucun",
     "mainCategory": "Principal"
   },
@@ -1997,7 +1997,7 @@
   {
     "id": "f3315c79-7f7e-40c0-b4ab-071cb1731d11",
     "title": "Camp de pierre parlante",
-    "subCategory": "Sous-Catégorie Hiver",
+    "subCategory": "Fort d'Hiver",
     "dlc": "Aucun",
     "mainCategory": "Principal"
   },
@@ -2032,14 +2032,14 @@
   {
     "id": "1f72e6a9-39b4-430c-8427-8a78b2e3b28e",
     "title": "Grotte de Tolvald",
-    "subCategory": "Sous-Catégorie Hiver",
+    "subCategory": "Fort d'Hiver",
     "dlc": "Aucun",
     "mainCategory": "Principal"
   },
   {
     "id": "1b08149d-3880-4154-a5c9-2a1639d83ef7",
     "title": "Tour de Mzark",
-    "subCategory": "Sous-Catégorie Hiver",
+    "subCategory": "Fort d'Hiver",
     "dlc": "Aucun",
     "mainCategory": "Principal"
   },
@@ -2123,7 +2123,7 @@
   {
     "id": "eefba82d-d59a-46cf-9601-71c65e06231d",
     "title": "Col capricieux",
-    "subCategory": "Sous-Catégorie Hiver",
+    "subCategory": "Fort d'Hiver",
     "dlc": "Aucun",
     "mainCategory": "Principal"
   },
@@ -2144,7 +2144,7 @@
   {
     "id": "e9e5da22-55f3-4b13-87fe-9b9a73ef60e7",
     "title": "Mine sifflante",
-    "subCategory": "Sous-Catégorie Hiver",
+    "subCategory": "Fort d'Hiver",
     "dlc": "Aucun",
     "mainCategory": "Principal"
   },
@@ -2213,29 +2213,29 @@
   },
   {
     "id": "e0b84a7e-3fcd-45aa-8f76-850654204f0e",
-    "title": "Sous-Catégorie Hiver",
-    "subCategory": "Sous-Catégorie Hiver",
+    "title": "Fort d'Hiver",
+    "subCategory": "Fort d'Hiver",
     "dlc": "Aucun",
     "mainCategory": "Principal"
   },
   {
     "id": "837e26c5-20d2-4671-a378-65c6b7cb97cc",
-    "title": "Camp Impérial Sous-Catégorie Hiver",
-    "subCategory": "Sous-Catégorie Hiver",
+    "title": "Camp impérial de Winterhold",
+    "subCategory": "Fort d'Hiver",
     "dlc": "Aucun",
     "mainCategory": "Principal"
   },
   {
     "id": "b9cde82a-158a-4ff8-8d82-7f1232995c47",
-    "title": "Camp Stormcloak de la sous-catégorie Hiver",
-    "subCategory": "Sous-Catégorie Hiver",
+    "title": "Camp de Sombrage de Fort-Hiver",
+    "subCategory": "Fort d'Hiver",
     "dlc": "Aucun",
     "mainCategory": "Principal"
   },
   {
     "id": "b6653b1e-0a46-4e58-bdff-dac48cc3a003",
     "title": "Bosquet de Brume Sorcière",
-    "subCategory": "Sous-Catégorie Hiver",
+    "subCategory": "Fort d'Hiver",
     "dlc": "Aucun",
     "mainCategory": "Principal"
   },
@@ -2249,35 +2249,35 @@
   {
     "id": "2d5d1c90-b2a2-4a2c-9ed0-92a7807f6a42",
     "title": "Épave du Brinehammer",
-    "subCategory": "Sous-Catégorie Hiver",
+    "subCategory": "Fort d'Hiver",
     "dlc": "Aucun",
     "mainCategory": "Principal"
   },
   {
     "id": "d9e7a9a5-3eb9-4f37-9236-1bc2f5538aa4",
     "title": "Épave du Pride of Tel Vos",
-    "subCategory": "Sous-Catégorie Hiver",
+    "subCategory": "Fort d'Hiver",
     "dlc": "Aucun",
     "mainCategory": "Principal"
   },
   {
     "id": "df281128-b7ce-43b8-af78-77986534ef31",
     "title": "Épave de la guerre d'hiver",
-    "subCategory": "Sous-Catégorie Hiver",
+    "subCategory": "Fort d'Hiver",
     "dlc": "Aucun",
     "mainCategory": "Principal"
   },
   {
     "id": "bd414ad7-754c-45c7-af62-96c5c4b33d1b",
     "title": "Tumulus d'Yngol",
-    "subCategory": "Sous-Catégorie Hiver",
+    "subCategory": "Fort d'Hiver",
     "dlc": "Aucun",
     "mainCategory": "Principal"
   },
   {
     "id": "d1e98aa1-53a8-48d1-bfe6-56dd406fd41a",
     "title": "Yngvild",
-    "subCategory": "Sous-Catégorie Hiver",
+    "subCategory": "Fort d'Hiver",
     "dlc": "Aucun",
     "mainCategory": "Principal"
   },
@@ -2291,7 +2291,7 @@
   {
     "id": "fa732198-ea36-4a15-95f2-0207e4f31d11",
     "title": "Tombe d'Ysgramor",
-    "subCategory": "Sous-Catégorie Hiver",
+    "subCategory": "Fort d'Hiver",
     "dlc": "Aucun",
     "mainCategory": "Principal"
   },
