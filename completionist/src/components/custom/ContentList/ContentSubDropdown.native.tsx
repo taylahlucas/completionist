@@ -50,7 +50,7 @@ const ContentSubDropdown = ({ mainCategory, subCategory, completed, total }: Con
           <ContentMainList 
             mainCategory={mainCategory} 
             subCategory={subCategory} 
-            isSubCategory={true} 
+            isSubCategory={true}
           />
         }
       >

@@ -25,7 +25,8 @@
         "stones": "Stones"
       },
       "locations": {
-        "title": "Locations"
+        "title": "Locations",
+        "main": "Main"
       },
       "miscellaneous": {
         "title": "Miscellaneous",
@@ -51,14 +52,15 @@
       },
       "collectables": {
         "title": "Collectables",
-        "boobleheads": "Bobbleheads",
+        "boobleHeads": "Bobbleheads",
         "magazines": "Magazines",
         "uniqueWeapons": "Unique Weapons",
         "uniqueArmour": "Unique Armour",
         "powerArmour": "Power Armour"
       },
       "locations": {
-        "title": "Locations"
+        "title": "Locations",
+        "main": "Main"
       },
       "miscellaneous": {
         "title": "Miscellaneous",

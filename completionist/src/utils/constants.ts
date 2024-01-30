@@ -21,7 +21,7 @@ export const fallout4DLC = [
   'automatron',
   'farHarbor',
   'nukaWorld',
-  'vaultText'
+  'vaultTecWorkshop'
 ];
 
 export const requestCodes = {

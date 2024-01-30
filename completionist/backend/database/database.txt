@@ -41,9 +41,6 @@ Collectables
   dlc: string
 }
 
-Rules
--- If mainCategory && subCategogry exists, but subCategoryTypes does not, this wil represent the main quests for the sub category.
-The FE will convert this section to 'Main'.
 
 
 
