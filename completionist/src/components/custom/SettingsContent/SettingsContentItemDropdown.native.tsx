@@ -51,7 +51,7 @@ const SettingsContentItemDropdown = ({ item }: SettingsContentItemDropdownProps)
         {getUserSettingsSubConfig(item.section).map((item, index) => (
           <SettingsContentSubItemContainer key={index} color={theme.darkGrey}>
             <StyledText color={theme.lightGrey} align={'left'}>
-              {/* // TODO: HEree */}
+              {/* // TODO: Heree convert none and main to translations */}
             {item.category === 'None' ? 'Main' : t(`categories:${selectedGameSettings.toLocaleLowerCase()}.categories.${item.section.toLocaleLowerCase()}.${convertToCamelCase(item.category)}`)}
             </StyledText>
             <SettingsContentCheckBox item={item} />

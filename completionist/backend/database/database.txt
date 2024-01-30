@@ -1,3 +1,18 @@
+Quests
+{
+  id: generated_uuid
+  mainCategory: string
+  subCategory?: string
+  subCategoryType?: string
+  title: string
+  location?: string
+  hold?: string
+  href?: string
+  dlc: string
+  conflictingId
+}
+
+
 Locations
 {
   id: generated_uuid
@@ -23,19 +38,6 @@ Collectables
   subCategoryType?: string,
   title: string,
   prerequisite?: string,
-  dlc: string
-}
-
-Quests
-{
-  id: generated_uuid
-  mainCategory: string
-  subCategory?: string
-  subCategoryType?: string
-  title: string
-  location?: string
-  hold?: string
-  href?: string
   dlc: string
 }
 
