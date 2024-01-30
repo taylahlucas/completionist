@@ -1,11 +1,10 @@
-import { SubscriptionTypeEnum } from '@utils/CustomEnums';
+import { SubscriptionTypeEnum, ContentSectionEnum } from '@utils/CustomEnums';
 import { GameContentItem, SettingsConfigItem } from '@utils/CustomInterfaces';
 import useMainState from '@redux/hooks/useMainState';
-import { ContentSection } from '@utils/CustomTypes';
 import useGetTranslatedGameData from './useGetTranslatedGameData.native';
 
 interface GameDataReturnType {
-  mapDataTo: (type: ContentSection, selectedGame?: SubscriptionTypeEnum, filter?: boolean) => GameContentItem[];
+  mapDataTo: (type: ContentSectionEnum, selectedGame?: SubscriptionTypeEnum, filter?: boolean) => GameContentItem[];
 }
 
 const useGetGameData = (): GameDataReturnType => {
@@ -32,20 +31,20 @@ const useGetGameData = (): GameDataReturnType => {
     return data;
   }
 
-  const mapDataTo = (type: ContentSection, selectedGame?: SubscriptionTypeEnum, filter = false): GameContentItem[] => {
+  const mapDataTo = (type: ContentSectionEnum, selectedGame?: SubscriptionTypeEnum, filter = false): GameContentItem[] => {
     switch (type) {
-      case 'Quests':
+      case ContentSectionEnum.QUESTS:
         const quests = mapDataToQuests(selectedGame);
         return !filter ? quests : filterData(selectedGameData?.settingsConfig ?? [], quests);
 
-      case 'Collectables':
+      case ContentSectionEnum.COLLECTABLES:
         const collectables = mapDataToCollectables(selectedGame);
         return !filter ? collectables : filterData(selectedGameData?.settingsConfig ?? [], collectables);
 
-      case 'Locations':
+      case ContentSectionEnum.LOCATIONS:
         const locations = mapDataToLocations(selectedGame);
         return !filter ? locations : filterData(selectedGameData?.settingsConfig ?? [], locations);
-      case 'Miscellaneous':
+      case ContentSectionEnum.MISCELLANEOUS:
         const miscItems = mapDataToMiscItems(selectedGame);
         return !filter ? miscItems : filterData(selectedGameData?.settingsConfig ?? [], miscItems);
       default:

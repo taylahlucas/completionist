@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import { ScreenEnum } from '@utils/CustomEnums';
+import { ScreenEnum, ContentSectionEnum } from '@utils/CustomEnums';
 import useGetGameData from '@data/hooks/useGetGameData';
 import useGetUserGameData from '@data/hooks/useGetUserGameData';
 import useMainState from '@redux/hooks/useMainState';
@@ -12,10 +12,10 @@ const useGetNavigationDrawerItems = (): NavigationDrawerItemData[] => {
   const { getUserQuests, getUserCollectables, getUserLocations, getUserMiscItems } = useGetUserGameData();
   const { mapDataTo } = useGetGameData();
   const { checkIsSectionEnabled } = useCheckSectionEnabled();
-  const questsSection = 'Quests';
-  const collectablesSection = 'Collectables';
-  const locationsSection = 'Locations';
-  const miscItemsSection = 'Miscellaneous';
+  const questsSection = ContentSectionEnum.QUESTS;
+  const collectablesSection = ContentSectionEnum.COLLECTABLES;
+  const locationsSection = ContentSectionEnum.LOCATIONS;
+  const miscItemsSection = ContentSectionEnum.MISCELLANEOUS;
 
   return ([
     {

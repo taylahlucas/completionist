@@ -13,36 +13,15 @@ export const games = [
 ]
 
 export const skyrimDLC = [
-  {
-    id: 'dawnguard',
-    title: 'Dawnguard'
-  },
-  {
-    id: 'dragonborn',
-    title: 'Dragonborn'
-  },
-  {
-    id: 'hearthfire',
-    title: 'Hearthfire'
-  }
+  'dawnguard',
+  'dragonborn',
+  'hearthfire'
 ];
 export const fallout4DLC = [
-  {
-    id: 'automatron',
-    title: 'Automatron'
-  },
-  {
-    id: 'farHarbor',
-    title: 'Far Harbor'
-  },
-  {
-    id: 'nukaWorld',
-    title: 'Nuka-World'
-  },
-  {
-    id: 'vaultText',
-    title: 'Vault-Tec Workshop'
-  }
+  'automatron',
+  'farHarbor',
+  'nukaWorld',
+  'vaultText'
 ];
 
 export const requestCodes = {

@@ -9,6 +9,7 @@ import useSettingsState from './hooks/useSettingsState';
 import useSettingsDispatch from './hooks/useSettingsDispatch';
 import SettingsContentCheckBox from './SettingsContentCheckbox.native';
 import useTranslateGameContent from '@utils/hooks/useTranslateGameContent.native';
+import useMainState from '@redux/hooks/useMainState';
 
 interface SettingsContentItemDropdownProps {
   item: SettingsConfigItem;
@@ -16,10 +17,11 @@ interface SettingsContentItemDropdownProps {
 
 const SettingsContentItemDropdown = ({ item }: SettingsContentItemDropdownProps) => {
   const theme = useGetTheme();
+  const { selectedGameSettings } = useMainState();
   const { setSelectedCategory } = useSettingsDispatch();
   const { selectedCategory } = useSettingsState();
   const { getUserSettingsSubConfig } = useGetUserGameData();
-  const { translateSettingsCategoryName } = useTranslateGameContent();
+  const { translateCategoryName } = useTranslateGameContent();
   
   return (
     <Dropdown
@@ -34,7 +36,7 @@ const SettingsContentItemDropdown = ({ item }: SettingsContentItemDropdownProps)
         {getUserSettingsSubConfig(item.section).map((settingsItem, index) => (
           <SettingsContentSubItemContainer key={index} color={theme.darkGrey}>
             <SettingsContentTitle color={theme.lightGrey} align={'left'}>
-              {translateSettingsCategoryName(settingsItem)}
+              {translateCategoryName(selectedGameSettings, settingsItem)}
             </SettingsContentTitle>
             <SettingsContentCheckBox item={settingsItem} />
           </SettingsContentSubItemContainer>

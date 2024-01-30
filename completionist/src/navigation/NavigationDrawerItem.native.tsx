@@ -9,7 +9,7 @@ import {
 import useGetTheme from '@styles/hooks/useGetTheme';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
 import useContentDispatch from '@components/custom/ContentList/hooks/useContentDispatch';
-import { ContentSection } from '@utils/CustomTypes';
+import { ContentSectionEnum } from '@utils/CustomEnums';
 
 interface NavigationDrawerItemProps {
   item: NavigationDrawerItemData;
@@ -28,8 +28,9 @@ const NavigationDrawerItem = ({ item, isActive }: NavigationDrawerItemProps) => 
       disabled={!item.isEnabled}
       onPress={(): void => {
         navigation.navigate(item.id);
-        if (item.id as ContentSection) {
-          setSelectedSection(item.id as ContentSection);
+        const contentEnum = item.id.toLocaleLowerCase();
+        if (contentEnum as ContentSectionEnum) {
+          setSelectedSection(contentEnum as ContentSectionEnum);
         }
         reset();
       }}

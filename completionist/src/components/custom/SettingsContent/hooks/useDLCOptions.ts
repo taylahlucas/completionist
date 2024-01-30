@@ -36,17 +36,17 @@ const useDLCOptions = (): DLCOptionsReturnType => {
       case SubscriptionTypeEnum.SKYRIM:
         return skyrimDLC.map((item) => {
           return {
-            id: item.title,
-            title: t(`categories:skyrim.dlc.${item.id.toLowerCase()}`),
-            isActive: user.data.skyrim.settingsConfig.filter(config => config.category === item.title && config.isActive).length > 0
+            id: item,
+            title: t(`categories:skyrim.dlc.${item}`),
+            isActive: user.data.skyrim.settingsConfig.filter(config => config.category === item && config.isActive).length > 0
           }
         });
       case SubscriptionTypeEnum.FALLOUT_4:
         return fallout4DLC.map((item) => {
           return {
-            id: item.id,
-            title: t(`categories:fallout4.dlc.${item.id.toLowerCase()}`),
-            isActive: user.data.fallout4.settingsConfig.filter(config => config.category === item.title && config.isActive).length > 0
+            id: item,
+            title: t(`categories:fallout4.dlc.${item}`),
+            isActive: user.data.fallout4.settingsConfig.filter(config => config.category === item && config.isActive).length > 0
           }
         });
     }

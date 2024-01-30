@@ -95,7 +95,7 @@ const userSchema = new mongoose.Schema({
           {
             "category": "dragonPriestMasks",
             "isActive": true,
-            "section": "Collectables"
+            "section": "collectables"
           },
           {
             "category": "daedricArtefacts",

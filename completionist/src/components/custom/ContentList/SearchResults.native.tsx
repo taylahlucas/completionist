@@ -1,8 +1,7 @@
+import React from 'react';
 import ListItem from '@components/general/Lists/ListItem.native';
 import ScrollableList from '@components/general/Lists/ScrollableList.native';
 import useUpdateContent from '@components/custom/ContentList/hooks/useUpdateContent';
-import { ContentSection } from '@utils/CustomTypes';
-import React from 'react';
 import useCheckContentComplete from './hooks/useCheckContentComplete';
 import useGetContent from './hooks/useGetContent';
 

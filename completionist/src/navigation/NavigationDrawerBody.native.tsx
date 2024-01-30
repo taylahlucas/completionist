@@ -23,7 +23,7 @@ const NavigationDrawerBody: React.FunctionComponent = () => {
   const drawerItems = useGetNavigationDrawerItems();
   const footerItems = useGetNavigationFooterDrawerItems();
   const { signOut } = useGetLoginMethods();
-
+  
   return (
     <NavigationDrawerBodyContainer>
       {drawerItems.map((item, index) => (

@@ -13,7 +13,8 @@ const ContentList = () => {
   const { getContentCategories } = useGetContentCategories();
   const { getAllContentForCategory } = useGetContent();
   const { checkContentCompleteForCategory } = useCheckContentComplete();
-
+  
+  // TODO: Fix translations here
   return (
     <Condition
       condition={searchValue.length < 2}

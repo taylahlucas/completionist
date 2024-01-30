@@ -39,11 +39,3 @@ export type NavigationHeaderRightActionTypes = 'logout' | 'filter' | 'none';
 export type UserResponse = User | null;
 export type CredentialsResponse = UserCredentials | null;
 export type AxiosErrorResponse = AxiosError | any;
-
-// Data & Keys 
-
-export type ContentSection = 
-  | 'Quests'
-  | 'Collectables'
-  | 'Locations'
-  | 'Miscellaneous';
