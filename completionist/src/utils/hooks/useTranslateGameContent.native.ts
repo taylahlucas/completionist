@@ -22,7 +22,7 @@ const useTranslateGameContent = () => {
     })
 
     if (!translatedTitle) {
-      translatedTitle = item.category === 'None' 
+      translatedTitle = item.category === 'none' 
         ? t('common:main') 
         : t(`categories:${selectedGame}.categories.${item.section}.${item.category}`);
     }

@@ -7,14 +7,14 @@ import useGetContent from './hooks/useGetContent';
 import SearchResults from './SearchResults.native';
 import ContentMainDropdown from './ContentMainDropdown.native';
 import useCheckContentComplete from './hooks/useCheckContentComplete';
+import { CategoryType } from '@utils/CustomInterfaces';
 
 const ContentList = () => {
   const { searchValue } = useContentState();
   const { getContentCategories } = useGetContentCategories();
   const { getAllContentForCategory } = useGetContent();
   const { checkContentCompleteForCategory } = useCheckContentComplete();
-  
-  // TODO: Fix translations here
+
   return (
     <Condition
       condition={searchValue.length < 2}
@@ -23,16 +23,18 @@ const ContentList = () => {
       }
     >
       <ScrollableList>
-        {getContentCategories().map((category: string, index: number) => {
-          const allContentForCategory = getAllContentForCategory(category)
-          const completedContent = checkContentCompleteForCategory(allContentForCategory)
+        {getContentCategories().map((category: CategoryType, index: number) => {
+          const allContentForCategory = getAllContentForCategory(category.title)
+          // const completedContent = checkContentCompleteForCategory(allContentForCategory)
 
           return (
             <ContentMainDropdown
               key={index}
               category={category}
-              completed={completedContent.toString()}
+              // completed={completedContent.toString()}
               total={allContentForCategory.length.toString()}
+              completed={'0'}
+              // total={'0'}
             />
           )
         })}

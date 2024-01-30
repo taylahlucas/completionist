@@ -2,11 +2,12 @@ import useGetGameData from '@data/hooks/useGetGameData';
 import useGetSettingsConfig from '@data/hooks/useGetSettingsConfig';
 import useMainState from '@redux/hooks/useMainState';
 import { SubscriptionTypeEnum } from '@utils/CustomEnums';
+import { CategoryType } from '@utils/CustomInterfaces';
 import useTranslateGameContent from '@utils/hooks/useTranslateGameContent.native';
 import useContentState from './useContentState';
 
 interface GameDataReturnType {
-  getContentCategories: () => string[];
+  getContentCategories: () => CategoryType[];
   getContentSubCategories: (category: string, selectedGame?: SubscriptionTypeEnum) => string[];
   getContentSubCategoriesTypes: (subCategory: string, selectedGame?: SubscriptionTypeEnum) => string[];
 }
@@ -18,15 +19,18 @@ const useGetContentCategories = (): GameDataReturnType => {
   const { shouldShowDisabledSections } = useGetSettingsConfig();
   const { translateCategoryName } = useTranslateGameContent();
 
-  const getContentCategories = (): string[] => {
+  const getContentCategories = (): CategoryType[] => {
     return (!!selectedGame && !!selectedGameData
-      ? selectedGameData?.settingsConfig.filter(config =>
-        config.section === sectionType
-        && config.category !== ""
-        && (!shouldShowDisabledSections() ? config.isActive : true)
-      )
-        .map(config => translateCategoryName(selectedGame, config))
-      : []);
+        ? selectedGameData?.settingsConfig.filter(config =>
+          config.section === sectionType
+          && config.category !== ""
+          && (!shouldShowDisabledSections() ? config.isActive : true)
+        )
+          .map(config => ({
+            id: config.category,
+            title: translateCategoryName(selectedGame, config)
+          }))
+        : []);
   }
 
   const getContentSubCategories = (category: string, selectedGame?: SubscriptionTypeEnum): string[] => {
@@ -44,11 +48,11 @@ const useGetContentCategories = (): GameDataReturnType => {
     return itemSubCategories;
   }
 
-  const getContentSubCategoriesTypes = (subCategory: string, selectedGame?: SubscriptionTypeEnum): string[] => {
+  const getContentSubCategoriesTypes = (subCategory: string, selectedGame?: SubscriptionTypeEnum): string[] => {  
     const items = mapDataTo(sectionType, selectedGame);
     const filteredItems = items.filter(collectable => collectable.subCategory === subCategory);
-    
     let itemSubCategoriesTypes: string[] = [];
+
     filteredItems.map(item => {
       if (!itemSubCategoriesTypes.find(category => category === item.subCategoryType)) {
         if (!!item.subCategoryType) {

@@ -4,17 +4,22 @@ import { listStyles, ListItemScrollView } from '@components/general/Lists/ListSt
 import useGetContent from './hooks/useGetContent';
 import useUpdateContent from './hooks/useUpdateContent';
 import useCheckContentComplete from './hooks/useCheckContentComplete';
+import { CategoryType } from '@utils/CustomInterfaces';
+import { useTranslation } from 'react-i18next';
 
 export interface ContentMainListProps {
-  mainCategory?: string;
+  mainCategory?: CategoryType;
   subCategory?: string;
   isSubCategory?: boolean;
 }
 
 const ContentMainList = ({ mainCategory, subCategory, isSubCategory = false }: ContentMainListProps) => {
+  const { t } = useTranslation();
   const { getContentForCategory, getContentForSubCategory} = useGetContent();
   const { updateContentComplete } = useUpdateContent();
-  const items = isSubCategory ? getContentForSubCategory(mainCategory, subCategory) : getContentForCategory(mainCategory ?? 'Main');
+  const items = isSubCategory 
+    ? getContentForSubCategory(mainCategory?.title, subCategory) 
+    : getContentForCategory(mainCategory?.title ?? t('common:main'));
   const { checkContentComplete } = useCheckContentComplete();
 
   return (

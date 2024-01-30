@@ -23,6 +23,11 @@ export interface DropDownType {
   type?: string;
 }
 
+export interface CategoryType {
+  id: string;
+  title: string;
+}
+
 // State & Environment
 
 export interface Base {
