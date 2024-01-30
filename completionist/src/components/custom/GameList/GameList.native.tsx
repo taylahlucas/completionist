@@ -12,8 +12,7 @@ interface GameListProps {
 const GameList = ({ searchValue }: GameListProps) => {
   const { t } = useTranslation();
   const { user } = useMainState();
-
-  // TODO: get completion percentage
+  
   return (
     <ScrollableList contentContainerStyle={styles.scrollableContent}>
       <GameListSectionDropdown 

@@ -8,22 +8,19 @@ import useGetTheme from '@styles/hooks/useGetTheme';
 import useSettingsState from './hooks/useSettingsState';
 import useSettingsDispatch from './hooks/useSettingsDispatch';
 import SettingsContentCheckBox from './SettingsContentCheckbox.native';
-import useMainState from '@redux/hooks/useMainState';
-import { useTranslation } from 'react-i18next';
-import useTranslateGameContent from '../../../utils/hooks/useTranslateGameContent.native';
+import useTranslateGameContent from '@utils/hooks/useTranslateGameContent.native';
 
 interface SettingsContentItemDropdownProps {
   item: SettingsConfigItem;
 }
 
 const SettingsContentItemDropdown = ({ item }: SettingsContentItemDropdownProps) => {
-  const { t } = useTranslation();
   const theme = useGetTheme();
   const { setSelectedCategory } = useSettingsDispatch();
   const { selectedCategory } = useSettingsState();
   const { getUserSettingsSubConfig } = useGetUserGameData();
   const { translateSettingsCategoryName } = useTranslateGameContent();
-
+  
   return (
     <Dropdown
       isOpen={item.section === selectedCategory.category}

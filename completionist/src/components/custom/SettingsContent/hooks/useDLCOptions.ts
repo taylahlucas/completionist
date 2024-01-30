@@ -1,9 +1,9 @@
+import { useTranslation } from 'react-i18next';
 import useMainState from '@redux/hooks/useMainState';
 import { SubscriptionTypeEnum } from '@utils/CustomEnums';
 import { skyrimDLC, fallout4DLC } from '@utils/constants';
 import { SettingsConfigItem, SettingsListItem } from '@utils/CustomInterfaces';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
-import { useTranslation } from 'react-i18next';
 
 interface DLCOptionsReturnType {
   getDLCOptions: () => SettingsListItem[];
@@ -15,14 +15,14 @@ const useDLCOptions = (): DLCOptionsReturnType => {
   const { setUser } = useMainDispatch();
   const { selectedGameSettings, user } = useMainState();
 
-  const updateSettingsConfig = (gameKey: string, id: string) => {
+  const updateSettingsConfig = (gameKey: SubscriptionTypeEnum, id: string) => {
     setUser({
       ...user,
       data: {
         ...user.data,
         [gameKey]: {
-          ...(user.data as any)[gameKey],
-          settingsConfig: (user.data as any)[gameKey].settingsConfig.map((config: SettingsConfigItem) => ({
+          ...user.data[gameKey],
+          settingsConfig: user.data[gameKey].settingsConfig.map((config: SettingsConfigItem) => ({
             ...config,
             isActive: config.category === id ? !config.isActive : config.isActive,
           })),
@@ -53,15 +53,7 @@ const useDLCOptions = (): DLCOptionsReturnType => {
   };
 
   const setDLCOptions = (id: string) => {
-    switch (selectedGameSettings) {
-      case SubscriptionTypeEnum.SKYRIM:
-        updateSettingsConfig('skyrim', id);
-        return;
-
-      case SubscriptionTypeEnum.FALLOUT_4:
-        updateSettingsConfig('fallout4', id);
-        return;
-    }
+    updateSettingsConfig(selectedGameSettings, id);
   };
 
   return { getDLCOptions, setDLCOptions };

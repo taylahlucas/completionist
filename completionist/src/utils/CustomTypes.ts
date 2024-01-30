@@ -42,10 +42,6 @@ export type AxiosErrorResponse = AxiosError | any;
 
 // Data & Keys 
 
-export type GameKey = 
-  | 'skyrim' 
-  | 'fallout4';
-
 export type ContentSection = 
   | 'Quests'
   | 'Collectables'

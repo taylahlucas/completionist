@@ -1,23 +1,18 @@
-const useFormatter = () => {
-  const getFormattedSearchString = (value: string) => {
-    return value.toLocaleLowerCase().replace(/[&\/\\#,+()$~%.'":*?<>{}]/g, '');
-  };
+interface FormatterReturnType {
+  capitalize: (str: string) => string;
+  getFormattedSearchString: (value: string) => string;
+}
 
+const useFormatter = (): FormatterReturnType => {
   const capitalize = (str: string) => {
     return str.charAt(0).toUpperCase() + str.slice(1);
   };
 
-  const convertToTranslationKey = (value: string) => {
-    let splitValue = value.split(/\s+|-/);
-
-    if (splitValue.length > 1) {
-      splitValue = splitValue.map((item, index) => index === 0 ? item.toLocaleLowerCase() : capitalize(item));
-      return splitValue.join().replaceAll(",", '');
-    }
-    return splitValue[0].toLocaleLowerCase();
+  const getFormattedSearchString = (value: string) => {
+    return value.toLocaleLowerCase().replace(/[&\/\\#,+()$~%.'":*?<>{}]/g, '');
   };
-  
-  return { getFormattedSearchString, convertToTranslationKey };
+
+  return { capitalize, getFormattedSearchString };
 };
 
 export default useFormatter;

@@ -5,7 +5,6 @@ import CheckBox from '@components/general/Checkbox/CheckBox.native';
 import useMainState from '@redux/hooks/useMainState';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
 import useUpdateSettingsConfig from './hooks/useUpdateSettingConfig';
-import { GameKey } from '@utils/CustomTypes';
 
 interface SettingsContentCheckBoxProps {
   item: SettingsConfigItem;
@@ -16,8 +15,9 @@ const SettingsContentCheckBox = ({ item }: SettingsContentCheckBoxProps) => {
   const { setUser } = useMainDispatch();
   const { updateConfig } = useUpdateSettingsConfig();
 
-  const updateGameSettings = (gameKey: GameKey) => {
+  const updateGameSettings = (gameKey: SubscriptionTypeEnum) => {
     const gameConfig = updateConfig(user.data[gameKey].settingsConfig, item);
+
     setUser({
       ...user,
       data: {
@@ -33,17 +33,7 @@ const SettingsContentCheckBox = ({ item }: SettingsContentCheckBoxProps) => {
   return (
     <CheckBox
       isActive={item.isActive}
-      onPress={(): void => {
-        switch (selectedGameSettings) {
-          case SubscriptionTypeEnum.SKYRIM:
-            updateGameSettings('skyrim');
-            return;
-
-          case SubscriptionTypeEnum.FALLOUT_4:
-            updateGameSettings('fallout4');
-            return;
-        }
-      }}
+      onPress={(): void => updateGameSettings(selectedGameSettings)}
     />
   );
 };

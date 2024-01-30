@@ -19,8 +19,8 @@ export enum IconTypeEnum {
 }
 
 export enum SubscriptionTypeEnum {
-  SKYRIM = 'Skyrim',
-  FALLOUT_4 = 'Fallout 4'
+  SKYRIM = 'skyrim',
+  FALLOUT_4 = 'fallout4'
 }
 
 export enum SettingsOptionEnum {

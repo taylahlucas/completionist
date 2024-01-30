@@ -3,17 +3,18 @@ import Dropdown from '@components/general/Dropdown/Dropdown.native';
 import DropdownSelection from '@components/general/Dropdown/DropdownSelection.native';
 import DropdownSelectionContent from '@components/general/Dropdown/DropdownSelectionContent.native';
 import useMainState from '@redux/hooks/useMainState';
-import { SubscriptionTypeEnum } from '@utils/CustomEnums';
 import { games } from '@utils/constants';
 import useSettingsDispatch from './hooks/useSettingsDispatch';
 import useSettingsState from './hooks/useSettingsState';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
+import useTranslateGameContent from '@utils/hooks/useTranslateGameContent.native';
 
 const SettingsContentSelectionDropdown = () => {
   const { setSelectedGameSettings } = useMainDispatch();
   const { selectedGameSettings } = useMainState();
   const { triggerSelectionOpen } = useSettingsDispatch();
   const { isSelectionOpen } = useSettingsState();
+  const { translateGameName } = useTranslateGameContent();
   
   return (
     <Dropdown
@@ -21,7 +22,7 @@ const SettingsContentSelectionDropdown = () => {
       setOpen={() => null}
       header={
         <DropdownSelection 
-          item={selectedGameSettings} 
+          title={translateGameName(selectedGameSettings)} 
           isSelected={isSelectionOpen} 
           onPress={(): void => triggerSelectionOpen(!isSelectionOpen)} 
         />
@@ -31,7 +32,7 @@ const SettingsContentSelectionDropdown = () => {
         content={games}
         onPress={(value): void => {
           triggerSelectionOpen(false);
-          setSelectedGameSettings(value as SubscriptionTypeEnum);
+          setSelectedGameSettings(value);
         }}
       />
     </Dropdown>

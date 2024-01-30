@@ -1,5 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit';
-import { ScreenEnum, SettingsOptionEnum, SubscriptionTypeEnum } from '@utils/CustomEnums';
+import { ScreenEnum, SubscriptionTypeEnum } from '@utils/CustomEnums';
 import { GeneralData, SettingsConfigItem, User } from '@utils/CustomInterfaces';
 import { AppStateStatus } from 'react-native';
 import { initialFormData } from '@components/custom/LoginForm/LoginState';
@@ -81,6 +81,14 @@ const slice = createSlice({
     },
     setUser: (state, action) => {
       state.user = action.payload;
+      switch (state.selectedGame) {
+        case SubscriptionTypeEnum.SKYRIM:
+          state.selectedGameData = state.user.data.skyrim;
+          break;
+        case SubscriptionTypeEnum.FALLOUT_4:
+          state.selectedGameData = state.user.data.fallout4;
+          break;
+      }
     },
     setSearchValue: (state, action) => {
       state.searchValue = action.payload;

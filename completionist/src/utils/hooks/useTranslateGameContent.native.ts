@@ -1,14 +1,17 @@
 import { useTranslation } from 'react-i18next';
 import useMainState from '@redux/hooks/useMainState';
 import { SettingsConfigItem } from '@utils/CustomInterfaces';
-import useDLCOptions from '../../components/custom/SettingsContent/hooks/useDLCOptions';
-import useFormatter from './useFormatter';
+import useDLCOptions from '@components/custom/SettingsContent/hooks/useDLCOptions';
+import { SubscriptionTypeEnum } from '@utils/CustomEnums';
 
 const useTranslateGameContent = () => {
   const { t } = useTranslation();
   const { selectedGameSettings } = useMainState();
   const { getDLCOptions } = useDLCOptions();
-  const { convertToTranslationKey  } = useFormatter();
+
+  const translateGameName = (title: SubscriptionTypeEnum): string => {
+    return t(`categories:${title}.title`);
+  } ;
 
   const translateSettingsCategoryName = (item: SettingsConfigItem): string => {
     const dlc = getDLCOptions();
@@ -20,13 +23,15 @@ const useTranslateGameContent = () => {
     })
 
     if (!translatedTitle) {
-      translatedTitle = item.category === 'None' ? t('common:main') : t(`categories:${selectedGameSettings.toLocaleLowerCase()}.categories.${item.section.toLocaleLowerCase()}.${convertToTranslationKey(item.category)}`);
+      translatedTitle = item.category === 'None' 
+        ? t('common:main') 
+        : t(`categories:${selectedGameSettings}.categories.${item.section}.${item.category}`);
     }
 
     return translatedTitle;
   };
 
-  return { translateSettingsCategoryName } ;
+  return { translateSettingsCategoryName, translateGameName } ;
 };
 
 export default useTranslateGameContent;

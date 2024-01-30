@@ -72,5 +72,5 @@ export const SettingsContentScrollView = styled(ScrollableList)`
 `;
 
 export const SettingsContentTitle = styled(StyledText)`
-  margin-right: 32px;
+  margin-right: 16px;
 `;

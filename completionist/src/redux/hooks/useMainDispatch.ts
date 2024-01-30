@@ -51,7 +51,7 @@ const useMainDispatch = (): MainDispatch => {
     setSelectedGame(value: string): void {
       dispatch(setSelectedGame(value));
     },
-    setSelectedGameSettings(value: string): void {
+    setSelectedGameSettings(value: SubscriptionTypeEnum): void {
       dispatch(setSelectedGameSettings(value));
     },
     setWebSignInConfigured(value: boolean): void {
