@@ -1392,7 +1392,8 @@
             "powerArmour": "Power Armour"
           },
           "locations": {
-            "title": "Locations"
+            "title": "Locations",
+            "main": "Main"
           },
           "miscellaneous": {
             "title": "Miscellaneous",

@@ -10,6 +10,7 @@ import useMainState from '@redux/hooks/useMainState';
 import ContentList from '@components/custom/ContentList/ContentList.native';
 import useContentState from '@components/custom/ContentList/hooks/useContentState';
 import useContentDispatch from '@components/custom/ContentList/hooks/useContentDispatch';
+import { ContentSectionEnum } from '@utils/CustomEnums';
 
 const Quests = () => {
   const { t } = useTranslation();
@@ -29,7 +30,7 @@ const Quests = () => {
         onReset={(): void => setSearchValue('')} 
       />
       <CompletedQuantityTitle type={'ListItemTitleBold'}>
-        {`${getUserQuests().length}/${mapDataTo('Quests', selectedGame, true).length}`}
+        {`${getUserQuests().length}/${mapDataTo(ContentSectionEnum.QUESTS, selectedGame, true).length}`}
       </CompletedQuantityTitle>
       <ContentList />
     </StandardLayout>

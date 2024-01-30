@@ -10,6 +10,7 @@ import useMainState from '@redux/hooks/useMainState';
 import useContentDispatch from '@components/custom/ContentList/hooks/useContentDispatch';
 import useContentState from '@components/custom/ContentList/hooks/useContentState';
 import ContentList from '@components/custom/ContentList/ContentList.native';
+import { ContentSectionEnum } from '@utils/CustomEnums';
 
 const Collectables = () => {
   const { t } = useTranslation();
@@ -29,7 +30,7 @@ const Collectables = () => {
         onReset={(): void => setSearchValue('')} 
       />
       <CompletedQuantityTitle type={'ListItemTitleBold'}>
-        {`${getUserCollectables().length}/${mapDataTo('Collectables', selectedGame, true).length}`}
+        {`${getUserCollectables().length}/${mapDataTo(ContentSectionEnum.COLLECTABLES, selectedGame, true).length}`}
       </CompletedQuantityTitle>
       <ContentList />
     </StandardLayout>
