@@ -1,6 +1,11 @@
 # Completionist
 An app designed for game completionists which allows them to track their progress in various games.
 
+NOTE: Currently only available on localhost. Must request .env file to run.
+
+
+https://github.com/taylahlucas/Completionist/assets/53559103/2902dd9d-e1be-431f-91b8-9a85c4499336
+
 # Setup
 
 - cd completionist
