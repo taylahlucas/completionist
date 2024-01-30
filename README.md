@@ -90,4 +90,5 @@ Confirm:
 - npm run generate-locale
 
 
-npm install babel-core@7.0.0-bridge.0 --save-dev
+- Translations in categories.json must match the name of the category in camel case.
+

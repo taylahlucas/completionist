@@ -41,6 +41,7 @@ export type CredentialsResponse = UserCredentials | null;
 export type AxiosErrorResponse = AxiosError | any;
 
 // Data & Keys 
+
 export type GameKey = 
   | 'skyrim' 
   | 'fallout4';

@@ -10,7 +10,7 @@ import useSettingsOptionsOnPress from './hooks/useSettingsOptionsOnPress.native'
 
 const SettingsContent = () => {
   const { t } = useTranslation();
-  const { useGetDLCOptions, useSetDLCOptions } = useDLCOptions();
+  const { getDLCOptions, setDLCOptions } = useDLCOptions();
   const options = useGetShowHideOptions();
   const { settingsOptionsOnPress } = useSettingsOptionsOnPress();
   
@@ -23,7 +23,7 @@ const SettingsContent = () => {
       >
         {t('common:settings.enabledDLC')}
       </SettingsContentDescription>
-      <SelectionList data={useGetDLCOptions()} onPress={useSetDLCOptions} />
+      <SelectionList data={getDLCOptions()} onPress={setDLCOptions} />
 
       <SettingsContentDescription
         type={'ListItemSubTitle'}

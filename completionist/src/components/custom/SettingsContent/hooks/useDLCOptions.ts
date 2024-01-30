@@ -6,8 +6,8 @@ import useMainDispatch from '@redux/hooks/useMainDispatch';
 import { useTranslation } from 'react-i18next';
 
 interface DLCOptionsReturnType {
-  useGetDLCOptions: () => SettingsListItem[];
-  useSetDLCOptions: (title: string) => void;
+  getDLCOptions: () => SettingsListItem[];
+  setDLCOptions: (title: string) => void;
 }
 
 const useDLCOptions = (): DLCOptionsReturnType => {
@@ -31,7 +31,7 @@ const useDLCOptions = (): DLCOptionsReturnType => {
     });
   };
 
-  const useGetDLCOptions = (): SettingsListItem[] => {
+  const getDLCOptions = (): SettingsListItem[] => {
     switch (selectedGameSettings) {
       case SubscriptionTypeEnum.SKYRIM:
         return skyrimDLC.map((item) => {
@@ -52,7 +52,7 @@ const useDLCOptions = (): DLCOptionsReturnType => {
     }
   };
 
-  const useSetDLCOptions = (id: string) => {
+  const setDLCOptions = (id: string) => {
     switch (selectedGameSettings) {
       case SubscriptionTypeEnum.SKYRIM:
         updateSettingsConfig('skyrim', id);
@@ -64,7 +64,7 @@ const useDLCOptions = (): DLCOptionsReturnType => {
     }
   };
 
-  return { useGetDLCOptions, useSetDLCOptions };
+  return { getDLCOptions, setDLCOptions };
 };
 
 export default useDLCOptions;

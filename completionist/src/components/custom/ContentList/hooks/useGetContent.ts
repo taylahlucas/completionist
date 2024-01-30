@@ -1,8 +1,8 @@
 import { GameContentItem } from '@utils/CustomInterfaces';
 import useMainState from '@redux/hooks/useMainState';
-import useSearchStringFormatter from '@utils/hooks/useSearchStringFormatter';
 import useGetGameData from '@data/hooks/useGetGameData';
 import useContentState from './useContentState';
+import useFormatter from '@utils/hooks/useFormatter';
 
 interface GameDataReturnType {
   getFilteredContent: () => GameContentItem[];
@@ -16,7 +16,7 @@ const useGetContent = (): GameDataReturnType => {
   const { sectionType } = useContentState();
   const { selectedGame } = useMainState();
   const { searchValue } = useContentState();
-  const getFormattedSearchString = useSearchStringFormatter();
+  const { getFormattedSearchString } = useFormatter();
   const { mapDataTo } = useGetGameData();
   const items = mapDataTo(sectionType, selectedGame);
 
