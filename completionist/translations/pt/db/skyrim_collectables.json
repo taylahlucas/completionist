@@ -1,0 +1,2225 @@
+[
+  {
+    "id": "1c2c15c6-0834-4e3b-b5f3-0a9017b6c1f0",
+    "mainCategory": "Máscaras de Sacerdote Dragão",
+    "subCategory": "",
+    "title": "Máscara Hevnoraak",
+    "prerequisite": "Mate Hevnoraak em Valthume.",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "862c86a3-08b3-4647-9d6d-64ad735c13bc",
+    "mainCategory": "Máscaras de Sacerdote Dragão",
+    "subCategory": "",
+    "title": "Máscara de Crose",
+    "prerequisite": "Mate Krosis em Shearpoint.",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "34cbb2f1-38eb-4b8e-bdcf-0d1a5a84ee96",
+    "mainCategory": "Máscaras de Sacerdote Dragão",
+    "subCategory": "",
+    "title": "Máscara Morokei",
+    "prerequisite": "Mate Morokei no Labirinto.",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "a07e1081-7ba3-47f7-b8cc-981f9b44a1e1",
+    "mainCategory": "Máscaras de Sacerdote Dragão",
+    "subCategory": "",
+    "title": "Máscara Nahkriin",
+    "prerequisite": "Mate Nahkriin em Skuldafn, durante a missão principal.",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "d50c16d5-cf99-48d7-9d9c-0e1710c2a5bb",
+    "mainCategory": "Máscaras de Sacerdote Dragão",
+    "subCategory": "",
+    "title": "Máscara de Otar",
+    "prerequisite": "Mate Otar, o Louco, em Ragnvald.",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "eb7038c2-54af-4a02-b5c9-220c9be64636",
+    "mainCategory": "Máscaras de Sacerdote Dragão",
+    "subCategory": "",
+    "title": "Máscara Rahgot",
+    "prerequisite": "Mate Rahgot em Forelhost.",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "a7f63f06-28a5-4c64-8a7a-3c44895354d3",
+    "mainCategory": "Máscaras de Sacerdote Dragão",
+    "subCategory": "",
+    "title": "Máscara Vokun",
+    "prerequisite": "Mate Vokun nas Ruínas do Portão Alto.",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "c10d7cd5-6e3e-40e5-87ce-99b9c2dfb6d8",
+    "mainCategory": "Máscaras de Sacerdote Dragão",
+    "subCategory": "",
+    "title": "Máscara Volsung",
+    "prerequisite": "Mate Volsung em Volskygge.",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "aa51ff74-8949-4d4c-a751-19715b3ee051",
+    "mainCategory": "Máscaras de Sacerdote Dragão",
+    "subCategory": "",
+    "title": "Máscara de madeira",
+    "prerequisite": "Vá para o túmulo central em Labyrinthian.",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "a848eaed-6c56-4be7-9d2d-979156fb80f7",
+    "mainCategory": "Máscaras de Sacerdote Dragão",
+    "subCategory": "",
+    "title": "Máscara Konahrik",
+    "prerequisite": "Leve os outros para o Santuário Bromjunaar.",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "b431e5d8-767c-4c8e-b3c3-38f0d3ed37ac",
+    "mainCategory": "Máscaras de Sacerdote Dragão",
+    "subCategory": "",
+    "title": "Máscara Azidal",
+    "prerequisite": "Mate Ahzidal em Kolbjorn Barrow.",
+    "dlc": "Draconato",
+    "subCategoryType": ""
+  },
+  {
+    "id": "2c0a65ea-b5c4-48f3-b6aa-7b75452b8b06",
+    "mainCategory": "Máscaras de Sacerdote Dragão",
+    "subCategory": "",
+    "title": "Máscara Dukaan",
+    "prerequisite": "Mate Dukaan em White Ridge Barrow.",
+    "dlc": "Draconato",
+    "subCategoryType": ""
+  },
+  {
+    "id": "5d3c2689-048e-4f4a-bd16-7f4bc72f5df7",
+    "mainCategory": "Máscaras de Sacerdote Dragão",
+    "subCategory": "",
+    "title": "Máscara Zahkriisos",
+    "prerequisite": "Mate Zahkriisos em Bloodskal Barrow.",
+    "dlc": "Draconato",
+    "subCategoryType": ""
+  },
+  {
+    "id": "7d590587-df48-4e3b-a1a6-8ed1f0a0634a",
+    "mainCategory": "Máscaras de Sacerdote Dragão",
+    "subCategory": "",
+    "title": "Máscara Miraak",
+    "prerequisite": "Mate Miraak no final da missão Dragonborn.",
+    "dlc": "Draconato",
+    "subCategoryType": ""
+  },
+  {
+    "id": "a5a77a8d-3d55-4db1-b9f3-2c065b8b98f1",
+    "mainCategory": "Artefatos Daédricos",
+    "subCategory": "Armas",
+    "title": "A Estrela Negra",
+    "prerequisite": "Artefato completo",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "7262c22c-4a8d-41fc-8d8d-8463a6f7af63",
+    "mainCategory": "Artefatos Daédricos",
+    "subCategory": "Armas",
+    "title": "Nascer do sol",
+    "prerequisite": "Conclua O Amanhecer",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "ef450f91-574a-4929-9ef3-1a2ea3e4d765",
+    "mainCategory": "Artefatos Daédricos",
+    "subCategory": "Armas",
+    "title": "Lâmina de Ébano",
+    "prerequisite": "Conclua a porta sussurrante",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "c11b4389-61e2-4a61-9c91-69ed2c1ac3a9",
+    "mainCategory": "Artefatos Daédricos",
+    "subCategory": "Vestuário",
+    "title": "Correio de ébano",
+    "prerequisite": "Conclua o chamado de Boethiah",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "5d849b86-9a13-4a8e-b72b-5a81a3ce4d2c",
+    "mainCategory": "Artefatos Daédricos",
+    "subCategory": "Armas",
+    "title": "Maça de Molag Bal",
+    "prerequisite": "Conclua A Casa dos Horrores",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "236678d3-7a8a-4c58-bf55-dc43908ff9c8",
+    "mainCategory": "Artefatos Daédricos",
+    "subCategory": "Vestuário",
+    "title": "Máscara de Clavicus Vile",
+    "prerequisite": "Conclua O Melhor Amigo de Uma Daedra",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "ac83c8da-dab9-4c3c-b95e-aa34602854c0",
+    "mainCategory": "Artefatos Daédricos",
+    "subCategory": "Armas",
+    "title": "Navalha de Mehrunes",
+    "prerequisite": "Pedaços completos do passado",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "3d4332fc-61fb-4955-9840-c22ccf615167",
+    "mainCategory": "Artefatos Daédricos",
+    "subCategory": "Artefatos",
+    "title": "Oghma Infinium",
+    "prerequisite": "Discernindo o Transmundano Completamente",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "f08f7f77-5ee1-4e6a-b1f4-69598b2e5568",
+    "mainCategory": "Artefatos Daédricos",
+    "subCategory": "Vestuário",
+    "title": "Anel de Namira",
+    "prerequisite": "Conclua O Gosto da Morte",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "2b413f67-62e9-4a2c-afab-5d46a9bb6f98",
+    "mainCategory": "Artefatos Daédricos",
+    "subCategory": "Armas",
+    "title": "Rosa Sanguínea",
+    "prerequisite": "Complete uma noite inesquecível",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "ad046a4a-f82d-4eb2-b48e-944f9a164a16",
+    "mainCategory": "Artefatos Daédricos",
+    "subCategory": "Vestuário",
+    "title": "Pele do Salvador e/ou Anel de Hircine",
+    "prerequisite": "Conclua Ill Met by Moonlight",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "0a9520b1-057c-4d62-9c43-0c11c7e9ed9f",
+    "mainCategory": "Artefatos Daédricos",
+    "subCategory": "Artefatos",
+    "title": "Chave Mestra",
+    "prerequisite": "Completamente cego",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "72f6468b-3699-4e7d-a751-2f13f60a6970",
+    "mainCategory": "Artefatos Daédricos",
+    "subCategory": "Armas",
+    "title": "Caveira da Corrupção",
+    "prerequisite": "Pesadelo Acordado Completo",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "525692a1-685f-4d7e-9c72-9b7582cbe397",
+    "mainCategory": "Artefatos Daédricos",
+    "subCategory": "Vestuário",
+    "title": "Quebra-feitiço",
+    "prerequisite": "Complete a única cura",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "25a0287a-ef49-4e4c-97eb-010729ed35b9",
+    "mainCategory": "Artefatos Daédricos",
+    "subCategory": "Armas",
+    "title": "Volendrung",
+    "prerequisite": "Complete a tribo amaldiçoada",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "af0e2a23-5e19-4c12-a4f7-103cf3c079c8",
+    "mainCategory": "Artefatos Daédricos",
+    "subCategory": "Armas",
+    "title": "Wabbajack",
+    "prerequisite": "Complete A Mente da Loucura",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "c11b4389-61e2-4a61-9c91-69ed2c1ac3a8",
+    "mainCategory": "Bug em uma jarra",
+    "subCategory": "",
+    "title": "Abelha em uma jarra",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "5d849b86-9a13-4a8e-b72b-5a81a3ce4d2d",
+    "mainCategory": "Bug em uma jarra",
+    "subCategory": "",
+    "title": "Bliss Bug em uma jarra",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "236678d3-7a8a-4c58-bf55-ec43908ff9c8",
+    "mainCategory": "Bug em uma jarra",
+    "subCategory": "",
+    "title": "Borboleta em uma jarra",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "f08f7f77-5ee1-4e6a-b1f4-69598b2e5567",
+    "mainCategory": "Bug em uma jarra",
+    "subCategory": "",
+    "title": "Libélula em uma jarra",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "145e2e3a-3f4f-4018-bd80-b2a97e2d3799",
+    "mainCategory": "Bug em uma jarra",
+    "subCategory": "",
+    "title": "Borboleta Verde em uma Jarra",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "b432a161-e51f-4c63-97f0-ba2240d1d80f",
+    "mainCategory": "Bug em uma jarra",
+    "subCategory": "",
+    "title": "Mariposa em uma jarra",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "232b4a45-4392-4f57-8e55-7967f4e9184d",
+    "mainCategory": "Bug em uma jarra",
+    "subCategory": "",
+    "title": "Borboleta roxa em uma jarra",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "5e2296fe-1ee6-4ed2-80e7-bb0f8f7c4eb3",
+    "mainCategory": "Bug em uma jarra",
+    "subCategory": "",
+    "title": "Torchbug em uma jarra",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "32b3f997-7c36-4e65-bb15-7a861f852c95",
+    "mainCategory": "Gritos",
+    "subCategory": "Fidelidade Animal",
+    "title": "Raan",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "32b4f997-7c36-4e65-bb15-7a861f852b95",
+    "mainCategory": "Gritos",
+    "subCategory": "Fidelidade Animal",
+    "title": "Mir",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "32b3f997-7c36-4e65-bb15-7a861f852b95",
+    "mainCategory": "Gritos",
+    "subCategory": "Fidelidade Animal",
+    "title": "Tah",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "3a92ed78-01aa-4464-b2f5-4a0840a372b4",
+    "mainCategory": "Gritos",
+    "subCategory": "Sussurro de Aura",
+    "title": "Laas",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "2a92ed78-01aa-4464-b2f5-4a0840a372b3",
+    "mainCategory": "Gritos",
+    "subCategory": "Sussurro de Aura",
+    "title": "Sim",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "3a92ed78-01aa-4464-b2f5-4a0840a372b3",
+    "mainCategory": "Gritos",
+    "subCategory": "Sussurro de Aura",
+    "title": "Nir",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "3e1c61b3-d50e-4f89-bcc9-13c792d0839f",
+    "mainCategory": "Gritos",
+    "subCategory": "Fúria de Batalha",
+    "title": "Meio",
+    "prerequisite": "",
+    "dlc": "Draconato",
+    "subCategoryType": ""
+  },
+  {
+    "id": "3e1c63b3-d50e-4f89-bcc9-13c792d0839f",
+    "mainCategory": "Gritos",
+    "subCategory": "Fúria de Batalha",
+    "title": "Vur",
+    "prerequisite": "",
+    "dlc": "Draconato",
+    "subCategoryType": ""
+  },
+  {
+    "id": "321c61b3-d50e-4f89-bcc9-13c792d0839f",
+    "mainCategory": "Gritos",
+    "subCategory": "Fúria de Batalha",
+    "title": "Shaan",
+    "prerequisite": "",
+    "dlc": "Draconato",
+    "subCategoryType": ""
+  },
+  {
+    "id": "3e1c61b3-d50e-4f89-bcc9-13c79ed0839f",
+    "mainCategory": "Gritos",
+    "subCategory": "Torne-se Etéreo",
+    "title": "Feim",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "3e9c61b3-d50e-4f89-bcc9-13c79ed0839p",
+    "mainCategory": "Gritos",
+    "subCategory": "Torne-se Etéreo",
+    "title": "Zii",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "3e9c61b3-d50e-4f89-bcc9-13c79ed0839f",
+    "mainCategory": "Gritos",
+    "subCategory": "Torne-se Etéreo",
+    "title": "Gronelândia",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "c0ef7980-bf6f-4f48-aaf1-66c82c3b36e1",
+    "mainCategory": "Gritos",
+    "subCategory": "Dobrar a Vontade",
+    "title": "Gol",
+    "prerequisite": "",
+    "dlc": "Draconato",
+    "subCategoryType": ""
+  },
+  {
+    "id": "b0ef7980-bf6f-4f48-aac1-66c82c3b36e1",
+    "mainCategory": "Gritos",
+    "subCategory": "Dobrar a Vontade",
+    "title": "Hah",
+    "prerequisite": "",
+    "dlc": "Draconato",
+    "subCategoryType": ""
+  },
+  {
+    "id": "b0ef7980-bf6f-4f48-aaf1-66c82c3b36e1",
+    "mainCategory": "Gritos",
+    "subCategory": "Dobrar a Vontade",
+    "title": "Dov",
+    "prerequisite": "",
+    "dlc": "Draconato",
+    "subCategoryType": ""
+  },
+  {
+    "id": "3d625a8f-3b2a-4a71-a28f-cfcd0d9433f8",
+    "mainCategory": "Gritos",
+    "subCategory": "Chamar Dragão",
+    "title": "Od",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "14625a8f-3b2a-4a71-a28f-cfcd0d9433f8",
+    "mainCategory": "Gritos",
+    "subCategory": "Chamar Dragão",
+    "title": "Ah",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "1d625a8f-3b2a-4a71-a28f-cfcd0d9433f8",
+    "mainCategory": "Gritos",
+    "subCategory": "Chamar Dragão",
+    "title": "Competindo",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "c530a5d2-54cf-4d87-af5f-2b0f7f65b4f1",
+    "mainCategory": "Gritos",
+    "subCategory": "Chamado de Valor",
+    "title": "Huno",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "c530a5d2-54cf-4d87-af5f-2b0f7f6cb4f0",
+    "mainCategory": "Gritos",
+    "subCategory": "Chamado de Valor",
+    "title": "Kaar",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "c530a5d2-54cf-4d87-af5f-2b0f7f65b4f0",
+    "mainCategory": "Gritos",
+    "subCategory": "Chamado de Valor",
+    "title": "Zun",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "0a6f5d26-48f4-42e9-9c2b-d4a83d25580d",
+    "mainCategory": "Gritos",
+    "subCategory": "Céu limpo",
+    "title": "Lok",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "8a6f5d26-48f4-42e9-9c2b-d4a83d25c80d",
+    "mainCategory": "Gritos",
+    "subCategory": "Céu limpo",
+    "title": "Vai",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "8a6f5d26-48f4-42e9-9c2b-d4a83d25580d",
+    "mainCategory": "Gritos",
+    "subCategory": "Céu limpo",
+    "title": "Koor",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "fbc4cd24-12cf-48c2-9663-ba4c7319bebb",
+    "mainCategory": "Gritos",
+    "subCategory": "Ciclone",
+    "title": "Ven",
+    "prerequisite": "",
+    "dlc": "Draconato",
+    "subCategoryType": ""
+  },
+  {
+    "id": "fbc41d24-c2cf-48c2-9663-ba4c7319bebb",
+    "mainCategory": "Gritos",
+    "subCategory": "Ciclone",
+    "title": "Gaar",
+    "prerequisite": "",
+    "dlc": "Draconato",
+    "subCategoryType": ""
+  },
+  {
+    "id": "fbc41d24-12cf-48c2-9663-ba4c7319bebb",
+    "mainCategory": "Gritos",
+    "subCategory": "Ciclone",
+    "title": "Não",
+    "prerequisite": "",
+    "dlc": "Draconato",
+    "subCategoryType": ""
+  },
+  {
+    "id": "95b19d5f-0f91-421f-8a64-642b8ed69c13",
+    "mainCategory": "Gritos",
+    "subCategory": "Desarmar",
+    "title": "Zun",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "95b19d5f-0f91-421f-8a6c-642b8ed69c13",
+    "mainCategory": "Gritos",
+    "subCategory": "Desarmar",
+    "title": "Haal",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "95b19d5f-0f91-421f-8a64-642b8ec69c13",
+    "mainCategory": "Gritos",
+    "subCategory": "Desarmar",
+    "title": "Competindo",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "c8365083-e8bf-42ea-bf3b-cb9adba3e07a",
+    "mainCategory": "Gritos",
+    "subCategory": "Desânimo",
+    "title": "Faas",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "e8365083-e8bf-42ea-bf3b-cb9adba3e07a",
+    "mainCategory": "Gritos",
+    "subCategory": "Desânimo",
+    "title": "ru",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "e8365083-e8bf-42ca-bf3b-cb9adba3e07a",
+    "mainCategory": "Gritos",
+    "subCategory": "Desânimo",
+    "title": "Mas",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "36f035c7-8605-4b5c-8d7e-871f9a4c27e7",
+    "mainCategory": "Gritos",
+    "subCategory": "Aspecto do Dragão",
+    "title": "Mul",
+    "prerequisite": "",
+    "dlc": "Draconato",
+    "subCategoryType": ""
+  },
+  {
+    "id": "36f035a7-860c-4b5c-8d7e-871f9a4c27e7",
+    "mainCategory": "Gritos",
+    "subCategory": "Aspecto do Dragão",
+    "title": "Qah",
+    "prerequisite": "",
+    "dlc": "Draconato",
+    "subCategoryType": ""
+  },
+  {
+    "id": "36f035a7-8605-4b5c-8d7e-871f9a4cc7e7",
+    "mainCategory": "Gritos",
+    "subCategory": "Aspecto do Dragão",
+    "title": "Diiv",
+    "prerequisite": "",
+    "dlc": "Draconato",
+    "subCategoryType": ""
+  },
+  {
+    "id": "1dd9f7aa-44a3-4e49-aec7-9797d16b86dc",
+    "mainCategory": "Gritos",
+    "subCategory": "Renda Dracônica",
+    "title": "Joor",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "1dd9f7aa-44a3-4e49-aec7-9797d16b86fd",
+    "mainCategory": "Gritos",
+    "subCategory": "Renda Dracônica",
+    "title": "Zah",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "1dd9f7aa-44a3-4e49-aec7-d797d16b86fc",
+    "mainCategory": "Gritos",
+    "subCategory": "Renda Dracônica",
+    "title": "Frul",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "95b19d5f-0f91-421f-8a64-642b8ed69c13",
+    "mainCategory": "Dawnguard",
+    "subCategory": "Gritos",
+    "title": "Gaan",
+    "prerequisite": "",
+    "dlc": "Dawnguard",
+    "subCategoryType": "Drenar Vitalidade"
+  },
+  {
+    "id": "95b19d5f-0f91-421f-8a64-642b8ed69c13",
+    "mainCategory": "Dawnguard",
+    "subCategory": "Gritos",
+    "title": "Ah",
+    "prerequisite": "",
+    "dlc": "Dawnguard",
+    "subCategoryType": "Drenar Vitalidade"
+  },
+  {
+    "id": "95b19d5f-0f91-421f-8a64-642b8ed69c13",
+    "mainCategory": "Dawnguard",
+    "subCategory": "Gritos",
+    "title": "Shaan",
+    "prerequisite": "",
+    "dlc": "Dawnguard",
+    "subCategoryType": "Drenar Vitalidade"
+  },
+  {
+    "id": "2d7c197b-8765-4ef0-8f4e-04bc67ac08e5",
+    "mainCategory": "Gritos",
+    "subCategory": "Fúria Elemental",
+    "title": "Su",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "2d7c197b-8765-4ef0-8f4e-04bc67a808c5",
+    "mainCategory": "Gritos",
+    "subCategory": "Fúria Elemental",
+    "title": "Grah",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "2d7c197b-8765-4ef0-8f4e-04bc67a808e5",
+    "mainCategory": "Gritos",
+    "subCategory": "Fúria Elemental",
+    "title": "Dun",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "5e3d6543-7b7d-4b43-aebd-01510455059f",
+    "mainCategory": "Gritos",
+    "subCategory": "Sopro de Fogo",
+    "title": "Yol",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "5e0d6543-747d-4b43-aebd-01510455059f",
+    "mainCategory": "Gritos",
+    "subCategory": "Sopro de Fogo",
+    "title": "Toor",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "5e0d6543-7b7d-4b43-aebd-01510455059f",
+    "mainCategory": "Gritos",
+    "subCategory": "Sopro de Fogo",
+    "title": "Sinagoga",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "1a2e43a1-9504-4cb5-a155-53eb1b3bdfd1",
+    "mainCategory": "Gritos",
+    "subCategory": "Respiração Gélida",
+    "title": "Fo",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "1a2e43a1-9504-4cb5-a155-53eb1b3bdf41",
+    "mainCategory": "Gritos",
+    "subCategory": "Respiração Gélida",
+    "title": "Krah",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "1a2e43a1-9504-4cb5-a155-53eb1b3bdfc1",
+    "mainCategory": "Gritos",
+    "subCategory": "Respiração Gélida",
+    "title": "Diin",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "aad1d1f7-3a8a-47a2-bd9c-d9b1bf982e80",
+    "mainCategory": "Gritos",
+    "subCategory": "Forma de Gelo",
+    "title": "Iiz",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "aad1d1f7-3a8a-47a2-bd9c-d9b1bf982e87",
+    "mainCategory": "Gritos",
+    "subCategory": "Forma de Gelo",
+    "title": "Slen",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "aad1d1f7-3a8a-47a2-bd9c-d9b1bf982e97",
+    "mainCategory": "Gritos",
+    "subCategory": "Forma de Gelo",
+    "title": "Nus",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "8e3c18c0-0f66-43f8-9d53-ced9f14ef19c",
+    "mainCategory": "Gritos",
+    "subCategory": "A Paz de Kyne",
+    "title": "Kaan",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "8e3e18c0-0f66-4cf8-9d53-ced9f14ef19c",
+    "mainCategory": "Gritos",
+    "subCategory": "A Paz de Kyne",
+    "title": "Drem",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "8e3e1cc0-0f66-43f8-9d53-ced9f14ef19c",
+    "mainCategory": "Gritos",
+    "subCategory": "A Paz de Kyne",
+    "title": "Ah",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "c2c1a7de-c2ef-4a77-b570-bfb2b835eeed",
+    "mainCategory": "Gritos",
+    "subCategory": "Marcado para a Morte",
+    "title": "Krii",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "c2c1a74e-c2ef-4a77-b570-bfb2b835eeed",
+    "mainCategory": "Gritos",
+    "subCategory": "Marcado para a Morte",
+    "title": "Lun",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "c2c1a7de-c2ef-4a77-b570-bfb2b835eg ded",
+    "mainCategory": "Gritos",
+    "subCategory": "Marcado para a Morte",
+    "title": "Aus",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "61f32c3a-1445-4cf2-bab7-622a82e3ad41",
+    "mainCategory": "Gritos",
+    "subCategory": "Tempo lento",
+    "title": "Tiido",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "61f2cc3a-1445-4cf2-bab7-622a82e3ad41",
+    "mainCategory": "Gritos",
+    "subCategory": "Tempo lento",
+    "title": "Klo",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "61f3cc3a-1445-4cf2-bab7-622a82e3ad41",
+    "mainCategory": "Gritos",
+    "subCategory": "Tempo lento",
+    "title": "Ul",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "db5d63b0-2d23-47eb-bc01-618f85f1e2f1",
+    "mainCategory": "Dawnguard",
+    "subCategory": "Gritos",
+    "title": "Rii",
+    "prerequisite": "",
+    "dlc": "Dawnguard",
+    "subCategoryType": "Lágrima da Alma"
+  },
+  {
+    "id": "1b5d63b0-2d23-47eb-bc01-618f85f1e2f4",
+    "mainCategory": "Dawnguard",
+    "subCategory": "Gritos",
+    "title": "Vaaz",
+    "prerequisite": "",
+    "dlc": "Dawnguard",
+    "subCategoryType": "Lágrima da Alma"
+  },
+  {
+    "id": "db5d63b0-2d23-47eb-bc01-618f85f1e2f4",
+    "mainCategory": "Dawnguard",
+    "subCategory": "Gritos",
+    "title": "Zol",
+    "prerequisite": "",
+    "dlc": "Dawnguard",
+    "subCategoryType": "Lágrima da Alma"
+  },
+  {
+    "id": "93f3a8f5-05c2-4c49-a06e-3739a2b23421",
+    "mainCategory": "Gritos",
+    "subCategory": "Chamada da Tempestade",
+    "title": "Strun",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "93f3a8f5-05c4-4c49-a06e-3739a2b23421",
+    "mainCategory": "Gritos",
+    "subCategory": "Chamada da Tempestade",
+    "title": "Bah",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "93f3a8f5-05c1-4c49-a06e-3739a2b23421",
+    "mainCategory": "Gritos",
+    "subCategory": "Chamada da Tempestade",
+    "title": "QO",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "95b19d5f-0f91-421f-8a64-642b8ed69c13",
+    "mainCategory": "Dawnguard",
+    "subCategory": "Gritos",
+    "title": "Dur",
+    "prerequisite": "",
+    "dlc": "Dawnguard",
+    "subCategoryType": "Convocar Durnehviir"
+  },
+  {
+    "id": "95b19d5f-0f91-421f-8a64-642b8ed69c13",
+    "mainCategory": "Dawnguard",
+    "subCategory": "Gritos",
+    "title": "Não",
+    "prerequisite": "",
+    "dlc": "Dawnguard",
+    "subCategoryType": "Convocar Durnehviir"
+  },
+  {
+    "id": "95b19d5f-0f91-421f-8a64-642b8ed69c13",
+    "mainCategory": "Dawnguard",
+    "subCategory": "Gritos",
+    "title": "Viir",
+    "prerequisite": "",
+    "dlc": "Dawnguard",
+    "subCategoryType": "Convocar Durnehviir"
+  },
+  {
+    "id": "c46e1c0b-71b7-4ef4-b61a-d7b228c38b07",
+    "mainCategory": "Gritos",
+    "subCategory": "Lançar voz",
+    "title": "Zul",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "c25e1c0b-71b7-4ef4-b61a-d7b228c38b07",
+    "mainCategory": "Gritos",
+    "subCategory": "Lançar voz",
+    "title": "Olá",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "c26e1c0b-71b7-4ef4-b61a-d7b228c38b07",
+    "mainCategory": "Gritos",
+    "subCategory": "Lançar voz",
+    "title": "Intestino",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "58b46e1b-7b95-4c2b-b6d3-26a4539441cc",
+    "mainCategory": "Gritos",
+    "subCategory": "Força implacável",
+    "title": "Fus",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "58b46e1b-7b95-4c2b-b6d3-26a4539441c5",
+    "mainCategory": "Gritos",
+    "subCategory": "Força implacável",
+    "title": "Ro",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "38b46e1b-7b95-4c2b-b6d3-26a4539441c5",
+    "mainCategory": "Gritos",
+    "subCategory": "Força implacável",
+    "title": "Ah",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "f7e4e344-5e39-4a3d-a2b7-1d0c79f4d777",
+    "mainCategory": "Gritos",
+    "subCategory": "Corrida em redemoinho",
+    "title": "Gostaria",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "g7e4e344-5e39-4a3d-a2b7-1d0c79f4d779",
+    "mainCategory": "Gritos",
+    "subCategory": "Corrida em redemoinho",
+    "title": "Não",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "f7e4e344-5e39-4a3d-a2b7-1d0c79f4d779",
+    "mainCategory": "Gritos",
+    "subCategory": "Corrida em redemoinho",
+    "title": "Kest",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "4c0b3b36-1590-4fc3-95ea-dcbf74330137",
+    "mainCategory": "Conjuntos de armadura exclusivos",
+    "subCategory": "",
+    "title": "Armadura Envolta Antiga",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "0d1fe547-5237-4a8d-ba63-1f01c1479d32",
+    "mainCategory": "Conjuntos de armadura exclusivos",
+    "subCategory": "",
+    "title": "Armadura dos Deuses Antigos",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "68f9a639-58f4-4e5a-93a0-16cd41947cc7",
+    "mainCategory": "Dawnguard",
+    "subCategory": "Conjuntos de armadura exclusivos",
+    "title": "Armadura Falmer Antiga",
+    "prerequisite": "",
+    "dlc": "Dawnguard",
+    "subCategoryType": ""
+  },
+  {
+    "id": "9711a94a-3d7b-4427-84b3-3e5d7fc59a0b",
+    "mainCategory": "Draconato",
+    "subCategory": "Conjuntos de armadura exclusivos",
+    "title": "Armadura de Ahzidal",
+    "prerequisite": "",
+    "dlc": "Draconato",
+    "subCategoryType": ""
+  },
+  {
+    "id": "fca7443d-86a5-4852-9db3-27a37e52a981",
+    "mainCategory": "Conjuntos de armadura exclusivos",
+    "subCategory": "",
+    "title": "Armadura do Guarda Negro",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "4cfe570e-75a7-47bf-8d44-cbcf6c204c06",
+    "mainCategory": "Draconato",
+    "subCategory": "Conjuntos de armadura exclusivos",
+    "title": "Armadura Marca da Morte",
+    "prerequisite": "",
+    "dlc": "Draconato",
+    "subCategoryType": ""
+  },
+  {
+    "id": "a642943a-eb29-4e5f-b6c7-474d1e9f72c3",
+    "mainCategory": "Conjuntos de armadura exclusivos",
+    "subCategory": "",
+    "title": "Conjunto de Armadura do Mestre da Guilda",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "c441327a-48f9-4bd0-ae5f-2c4a5ff7a907",
+    "mainCategory": "Conjuntos de armadura exclusivos",
+    "subCategory": "",
+    "title": "Conjunto de Armadura de Linwe",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "a78e3d48-3c42-4a08-9be6-3e0c22de0732",
+    "mainCategory": "Conjuntos de armadura exclusivos",
+    "subCategory": "",
+    "title": "Armadura de Rouxinol",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "cb37600a-346a-4090-ae6d-4e3711502b3a",
+    "mainCategory": "Conjuntos de armadura exclusivos",
+    "subCategory": "",
+    "title": "Armadura da Guilda dos Ladrões",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "6a352a2b-02d9-4c35-83c5-1a8f9603bf1a",
+    "mainCategory": "Conjuntos de armadura exclusivos",
+    "subCategory": "",
+    "title": "Armadura Envolta Desgastada",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "68f9a639-58f4-4e5a-93a0-16cd41947cc7",
+    "mainCategory": "Draconato",
+    "subCategory": "Conjuntos de armadura exclusivos",
+    "title": "Manto de Miraak",
+    "prerequisite": "",
+    "dlc": "Draconato",
+    "subCategoryType": ""
+  },
+  {
+    "id": "68f9a639-58f4-4e5a-93a0-16cd41947cc7",
+    "mainCategory": "Draconato",
+    "subCategory": "Conjuntos de armadura exclusivos",
+    "title": "Visão de Mzund",
+    "prerequisite": "",
+    "dlc": "Draconato",
+    "subCategoryType": ""
+  },
+  {
+    "id": "8d19cfdb-8c29-4e8a-8621-7e405ca1e1f7",
+    "mainCategory": "Armas únicas",
+    "subCategory": "Adagas",
+    "title": "Adaga de Alessandra",
+    "prerequisite": "Linha de missões da Dark Brotherhood",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "f71e209d-3e48-4a7c-b168-7e1c0b8be0bf",
+    "mainCategory": "Armas únicas",
+    "subCategory": "Adagas",
+    "title": "Lâmina da Aflição",
+    "prerequisite": "Linha de missões da Dark Brotherhood",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "ae0794d5-1353-4d27-8c62-ced6c0377c93",
+    "mainCategory": "Armas únicas",
+    "subCategory": "Adagas",
+    "title": "Lâmina do Sacrifício",
+    "prerequisite": "Missão Daédrica: ",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "b43976a9-1a98-4fc2-9e67-d88c88d0bb35",
+    "mainCategory": "Armas únicas",
+    "subCategory": "Adagas",
+    "title": "Espinheiro Sangrento",
+    "prerequisite": "Missão paralela: O chamado de Boethiah",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "5c1618b0-5bc4-4c7f-90e7-7f9a6f13cfa5",
+    "mainCategory": "Armas únicas",
+    "subCategory": "Adagas",
+    "title": "Adaga de Borvir",
+    "prerequisite": "Missão de companheiros: missão radiante",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "7613ec84-587d-4ce8-b6b5-c59f891c9b0a",
+    "mainCategory": "Draconato",
+    "subCategory": "Armas únicas",
+    "title": "Presa de Kahvozein",
+    "prerequisite": "Missão DLC Dragonborn: Um pergaminho para Anska",
+    "dlc": "Draconato",
+    "subCategoryType": "Adagas"
+  },
+  {
+    "id": "3d80f7c7-8f48-419c-b748-1065c6ef4c38",
+    "mainCategory": "Armas únicas",
+    "subCategory": "Adagas",
+    "title": "Ansioso",
+    "prerequisite": "Missão principal: O esforço de Arniel",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "0e162f02-ebdb-4d3e-b4c4-c8f49357e16d",
+    "mainCategory": "Armas únicas",
+    "subCategory": "Adagas",
+    "title": "Navalha de Mehrunes",
+    "prerequisite": "Missão Daédrica: Pedaços do Passado",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "b6b2e53e-190d-4e42-b14e-4b3e3ac09b3d",
+    "mainCategory": "Armas únicas",
+    "subCategory": "Adagas",
+    "title": "Urtiga",
+    "prerequisite": "Missão principal: As Bênçãos da Natureza",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "d4a712bd-2cfc-45fc-8a66-06e2bc4305e7",
+    "mainCategory": "Armas únicas",
+    "subCategory": "Adagas",
+    "title": "Adaga de Rundi",
+    "prerequisite": "Missão de companheiros: missão radiante",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "2b4b6d9a-789b-4eeb-927a-b1ccfe9883e7",
+    "mainCategory": "Armas únicas",
+    "subCategory": "Adagas",
+    "title": "Adaga da Sorte de Valdr",
+    "prerequisite": "Missão paralela: Caçador e Caçado",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "0f3c8ee5-f512-4df1-a5b2-6d81e0ef173e",
+    "mainCategory": "Draconato",
+    "subCategory": "Armas únicas",
+    "title": "Horksbane",
+    "prerequisite": "Missão de companheiros: missão radiante",
+    "dlc": "Draconato",
+    "subCategoryType": "Maças"
+  },
+  {
+    "id": "7a4f8a9d-0c85-44fe-9e9a-905078650ed8",
+    "mainCategory": "Armas únicas",
+    "subCategory": "Maças",
+    "title": "Maça de Ferro Lunar",
+    "prerequisite": "Fabricável durante a criação de armas lunares",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "c0a7c546-eeb6-4d65-94e4-6a64ed4bf42b",
+    "mainCategory": "Armas únicas",
+    "subCategory": "Maças",
+    "title": "Maça de Aço Lunar",
+    "prerequisite": "Fabricável durante a criação de armas lunares",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "e7ad586a-336d-4379-9fb8-17e2b8e7d7b1",
+    "mainCategory": "Armas únicas",
+    "subCategory": "Maças",
+    "title": "Maça de Molag Bal",
+    "prerequisite": "Missão Daédrica: Casa dos Horrores",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "99f24df0-31d3-4299-83f3-fb7cb4f2b128",
+    "mainCategory": "Armas únicas",
+    "subCategory": "Maças",
+    "title": "Mace do Prelado",
+    "prerequisite": "Missão da Guilda dos Ladrões: A Ladainha do Furto",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "8d647647-0a2d-4c2c-9630-4057397c4dab",
+    "mainCategory": "Dawnguard",
+    "subCategory": "Armas únicas",
+    "title": "Espada Akaviri",
+    "prerequisite": "Obtido durante a missão Blades",
+    "dlc": "Dawnguard",
+    "subCategoryType": "Espadas"
+  },
+  {
+    "id": "6b0f0d60-0e0f-4c8b-a79d-20e0be4f38cd",
+    "mainCategory": "Armas únicas",
+    "subCategory": "Espadas",
+    "title": "Espada da Família de Amren",
+    "prerequisite": "Missão: 'Espada de Amren'",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "8fbf0ccf-7847-43a5-8e25-8d739ab18c67",
+    "mainCategory": "Draconato",
+    "subCategory": "Armas únicas",
+    "title": "Foice de sangue",
+    "prerequisite": "Missão DLC Dragonborn: Deathbrand",
+    "dlc": "Draconato",
+    "subCategoryType": "Espadas"
+  },
+  {
+    "id": "dea44f86-0bf7-4f9b-8ec0-d56866ee52f3",
+    "mainCategory": "Armas únicas",
+    "subCategory": "Espadas",
+    "title": "Lâmina Juramento de Bolar",
+    "prerequisite": "Dado por Maluril durante a missão: 'Bolar's Oathblade'",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "d6f937bf-b8e8-4082-b188-23efbd18d8de",
+    "mainCategory": "Armas únicas",
+    "subCategory": "Espadas",
+    "title": "Espada Cerimonial",
+    "prerequisite": "Linha de missões da Dark Brotherhood",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "46d11b2a-20a7-4e6e-94e2-ebbe5571e1a1",
+    "mainCategory": "Armas únicas",
+    "subCategory": "Espadas",
+    "title": "Chillrend",
+    "prerequisite": "Série de missões da Guilda dos Ladrões",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "97d3c7a4-677d-4fb3-a6ee-9ff91d51d7ab",
+    "mainCategory": "Armas únicas",
+    "subCategory": "Espadas",
+    "title": "Nascer do sol",
+    "prerequisite": "Missão Daédrica: Amanhecer",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "f0a14b4f-2bb5-40e7-88d4-b5b8b345b4bf",
+    "mainCategory": "Armas únicas",
+    "subCategory": "Espadas",
+    "title": "Dragonbane",
+    "prerequisite": "Missão principal da linha de missão: Ruína de Alduin",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "c26c4d2f-4313-4b91-91b9-c6c9a671073b",
+    "mainCategory": "Armas únicas",
+    "subCategory": "Espadas",
+    "title": "Espada Drenar Coração",
+    "prerequisite": "Missão radiante no Labirinto",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "f16b3b07-ec7e-4d6b-8ea8-91e8db03cc6f",
+    "mainCategory": "Armas únicas",
+    "subCategory": "Espadas",
+    "title": "Eduj",
+    "prerequisite": "Série de missões de companheiros",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "0c74b19b-d7e1-4e0c-83dd-7be1b27b42f9",
+    "mainCategory": "Armas únicas",
+    "subCategory": "Espadas",
+    "title": "Gauldur Lâmina Negra",
+    "prerequisite": "Missão de masmorra: Lenda Proibida",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "ef18f7a1-e1e5-49d5-9e3f-9c7ec8d86da0",
+    "mainCategory": "Armas únicas",
+    "subCategory": "Espadas",
+    "title": "Lâmina Fantasma",
+    "prerequisite": "Missão da masmorra: Ansilvund",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "8a240740-3c6f-45ee-9f7d-96f489579aa3",
+    "mainCategory": "Armas únicas",
+    "subCategory": "Espadas",
+    "title": "Grimsever",
+    "prerequisite": "Missão da Guilda dos Ladrões: Respostas Difíceis",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "162b242b-03de-4ba7-99e9-efcf61bdcf45",
+    "mainCategory": "Dawnguard",
+    "subCategory": "Armas únicas",
+    "title": "Espada de Harkon",
+    "prerequisite": "Missão Dawnguard: Julgamento Membro",
+    "dlc": "Dawnguard",
+    "subCategoryType": "Espadas"
+  },
+  {
+    "id": "72556c7c-bd76-4b61-a6f1-8272922e8ee9",
+    "mainCategory": "Armas únicas",
+    "subCategory": "Espadas",
+    "title": "A coragem de Herebane",
+    "prerequisite": "Missão de masmorra: Rápido de Rannveig",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "e1aa11da-60f3-4eaf-9390-aa1e5bb620ea",
+    "mainCategory": "Armas únicas",
+    "subCategory": "Espadas",
+    "title": "Espada de Ferro Lunar",
+    "prerequisite": "Fabricável durante a criação de armas lunares",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "13b5ba8e-3e1a-4d96-8822-2a95e2047777",
+    "mainCategory": "Armas únicas",
+    "subCategory": "Espadas",
+    "title": "Espada Lunar de Aço",
+    "prerequisite": "Fabricável durante a criação de armas lunares",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "5a04d9e1-5739-4d7f-86ed-721bb5ec3979",
+    "mainCategory": "Draconato",
+    "subCategory": "Armas únicas",
+    "title": "Cajado de Miraak",
+    "prerequisite": "Missão DLC Dragonborn: No Summit of Apocrypha",
+    "dlc": "Draconato",
+    "subCategoryType": "Cajados"
+  },
+  {
+    "id": "5a04d9e1-5739-4d7f-86ed-721bb5ec3979",
+    "mainCategory": "Draconato",
+    "subCategory": "Armas únicas",
+    "title": "Espada de Miraak",
+    "prerequisite": "Missão DLC Dragonborn: No Summit of Apocrypha",
+    "dlc": "Draconato",
+    "subCategoryType": "Espadas"
+  },
+  {
+    "id": "3f8f527e-29b0-4d37-a0c6-3fe4bba7e9d3",
+    "mainCategory": "Armas únicas",
+    "subCategory": "Espadas",
+    "title": "Lâmina Rouxinol",
+    "prerequisite": "Série de missões da Guilda dos Ladrões",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "9bca46b4-043b-4e92-845f-ae0bf898b235",
+    "mainCategory": "Armas únicas",
+    "subCategory": "Espadas",
+    "title": "Espada da Rainha Freydis",
+    "prerequisite": "Companheiros: Missão Radiante",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "480fa3f9-df48-4eb4-b6c8-d0f4a62b5ef3",
+    "mainCategory": "Armas únicas",
+    "subCategory": "Espadas",
+    "title": "Maldição da Águia Vermelha",
+    "prerequisite": "Missão da masmorra: Cairn do Rebelde",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "c773e512-6873-46b8-bd3c-00c01270a075",
+    "mainCategory": "Armas únicas",
+    "subCategory": "Espadas",
+    "title": "Fúria da Águia Vermelha",
+    "prerequisite": "Missão da masmorra: Cairn do Rebelde",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "61ea1e6a-df25-4462-925d-d6c74481b4b2",
+    "mainCategory": "Draconato",
+    "subCategory": "Armas únicas",
+    "title": "Rendição de Almas",
+    "prerequisite": "Missão DLC Dragonborn: Deathbrand",
+    "dlc": "Draconato",
+    "subCategoryType": "Espadas"
+  },
+  {
+    "id": "9984d783-90ae-4e24-b8f1-5c03256c7b3d",
+    "mainCategory": "Armas únicas",
+    "subCategory": "Espadas",
+    "title": "A Lâmina Pálida",
+    "prerequisite": "Missão da masmorra: A Dama Pálida",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "080eefc5-12a5-420c-bd7c-034345e8e90a",
+    "mainCategory": "Armas únicas",
+    "subCategory": "Espadas",
+    "title": "Espada de Vilkas",
+    "prerequisite": "Companheiros: Missão Radiante",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "4e82c74e-3e01-430e-9c68-0048f5c5c7b0",
+    "mainCategory": "Armas únicas",
+    "subCategory": "Espadas",
+    "title": "Cisalhamento do vento",
+    "prerequisite": "Missão da Irmandade Negra: Salve Sithis!",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "9faeb328-524f-4ecf-b1dd-768510fb72f5",
+    "mainCategory": "Armas únicas",
+    "subCategory": "Machados de Guerra",
+    "title": "Machado Cerimonial",
+    "prerequisite": "Linha de missões da Dark Brotherhood",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "9e02bb11-6c08-47d6-8d06-9fcbe2fb12c4",
+    "mainCategory": "Dawnguard",
+    "subCategory": "Armas únicas",
+    "title": "Machado Rúnico Dawnguard",
+    "prerequisite": "Missão Dawnguard: Tecnologia Antiga",
+    "dlc": "Dawnguard",
+    "subCategoryType": "Machados de Guerra"
+  },
+  {
+    "id": "5c05d59f-105e-4e77-a4cf-59bcece40dfb",
+    "mainCategory": "Armas únicas",
+    "subCategory": "Machados de Guerra",
+    "title": "Machado Ancestral de Ghorbash",
+    "prerequisite": "Companheiros: Missão Radiante",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "0f29dbee-c3f0-4c89-b28c-d2d8966a8e58",
+    "mainCategory": "Armas únicas",
+    "subCategory": "Machados de Guerra",
+    "title": "Geada",
+    "prerequisite": "Missão Dawnguard: Tecnologia Antiga",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "2c44e3b1-03c8-4a82-88bb-11d7f4c3d2b8",
+    "mainCategory": "Armas únicas",
+    "subCategory": "Machados de Guerra",
+    "title": "Machado de Guerra de Ferro Lunar",
+    "prerequisite": "Fabricável durante a criação de armas lunares",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "8d9dfc5c-9224-4c9f-8d62-f5d2ac5d8681",
+    "mainCategory": "Armas únicas",
+    "subCategory": "Machados de Guerra",
+    "title": "Machado de Guerra de Aço Lunar",
+    "prerequisite": "Fabricável durante a criação de armas lunares",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "b5a1c870-8aa0-484c-9b19-3a2fcf7a83bb",
+    "mainCategory": "Armas únicas",
+    "subCategory": "Machados de Guerra",
+    "title": "Picareta Entalhada",
+    "prerequisite": "Encontrado na Garganta do Mundo",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "081d60d9-7394-490a-b99b-1b6e6f39bb9b",
+    "mainCategory": "Armas únicas",
+    "subCategory": "Machados de Guerra",
+    "title": "Ok",
+    "prerequisite": "Série de missões de companheiros",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "f1aa1a9f-7f03-4b59-9fe4-1c5ad9074a1f",
+    "mainCategory": "Armas únicas",
+    "subCategory": "Machados de Guerra",
+    "title": "Machado de caçador furtivo",
+    "prerequisite": "Dado durante a missão: 'Machado do Caçador Furtivo'",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "d15e2db0-eb22-4e0f-93c9-4f1f18efc3e7",
+    "mainCategory": "Armas únicas",
+    "subCategory": "Machados de Guerra",
+    "title": "Machado de Guerra de Ulfric",
+    "prerequisite": "Dado por Ulfric Stormcloak durante a missão da Guerra Civil",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "a2459613-d2f2-4a90-8b0e-89913e4b3ae3",
+    "mainCategory": "Armas únicas",
+    "subCategory": "Machados de batalha",
+    "title": "Machado de Batalha Drainblood",
+    "prerequisite": "Missão labiríntica: O Cajado de Magnus",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "3e9e271f-6204-4ac5-ba5c-8e898944d8f8",
+    "mainCategory": "Armas únicas",
+    "subCategory": "Machados de batalha",
+    "title": "Machado do Carrasco",
+    "prerequisite": "Missão de solidão: O homem que gritou lobo",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "6a58c1c3-f108-4fe5-b1a2-0383f2d1a2da",
+    "mainCategory": "Armas únicas",
+    "subCategory": "Machados de batalha",
+    "title": "Machado de Batalha de Aço das Almas Ardentes",
+    "prerequisite": "Encontrado em Ironbind Barrow",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "5f5404ec-7b71-4a19-94ce-fa4ec2012320",
+    "mainCategory": "Armas únicas",
+    "subCategory": "Machados de batalha",
+    "title": "Machado Arrependido",
+    "prerequisite": "Missão Daedric: o melhor amigo de um Daedra",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "c3e8fe4c-3b10-4eab-9c98-7b6920e91d2a",
+    "mainCategory": "Armas únicas",
+    "subCategory": "Machados de batalha",
+    "title": "O amigo do lenhador",
+    "prerequisite": "Companheiros: Missão Radiante",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "5c8f0d98-774b-4a9e-b759-607536a12cfb",
+    "mainCategory": "Draconato",
+    "subCategory": "Armas únicas",
+    "title": "Machado de Batalha de Tsun",
+    "prerequisite": "Missão DLC Dragonborn: Convocando Karstaag",
+    "dlc": "Draconato",
+    "subCategoryType": "Machados de batalha"
+  },
+  {
+    "id": "2434f367-4da9-45f7-b625-4a75f9f1b9b0",
+    "mainCategory": "Armas únicas",
+    "subCategory": "Machados de batalha",
+    "title": "Wuutrad",
+    "prerequisite": "Série de missões de companheiros",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "3c4a6c25-2eae-4f43-bb02-60f9c891011a",
+    "mainCategory": "Armas únicas",
+    "subCategory": "Grandes palavras",
+    "title": "Lâmina de Ébano",
+    "prerequisite": "Missão Daédrica: A Porta Sussurrante",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "b7b9eae1-66fc-4ec0-91c1-d365b2f4a6b9",
+    "mainCategory": "Armas únicas",
+    "subCategory": "Grandes palavras",
+    "title": "Espada Grande de Balgruuf",
+    "prerequisite": "Companheiros: Missão Radiante",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "9eac8d80-71ab-4e6e-a789-4fde9db487c7",
+    "mainCategory": "Draconato",
+    "subCategory": "Armas únicas",
+    "title": "Lâmina Sangrenta",
+    "prerequisite": "Missão DLC Dragonborn: A Descida Final",
+    "dlc": "Draconato",
+    "subCategoryType": "Grandes palavras"
+  },
+  {
+    "id": "a87dbd74-0ac9-45c7-849a-66fb94b58792",
+    "mainCategory": "Armas únicas",
+    "subCategory": "Grandes palavras",
+    "title": "Espada Grande do Antigo Nórdico Afiada e Escaldante",
+    "prerequisite": "Saques aleatórios ou comerciantes",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "c4b6b4a4-8e84-4681-b53b-af09f620c0d4",
+    "mainCategory": "Draconato",
+    "subCategory": "Armas únicas",
+    "title": "Presa da Tempestade",
+    "prerequisite": "Missão DLC Dragonborn: A Descida Final",
+    "dlc": "Draconato",
+    "subCategoryType": "Grandes palavras"
+  },
+  {
+    "id": "72f57e98-6a10-40c8-b9a7-23487b7a52c6",
+    "mainCategory": "Armas únicas",
+    "subCategory": "Martelos de guerra",
+    "title": "Aegisbane",
+    "prerequisite": "Missão Markarth: Encontre os Dedos do Mestre Forjador",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "2b11d82d-9e3a-4e0b-9f7f-f040056fb86b",
+    "mainCategory": "Draconato",
+    "subCategory": "Armas únicas",
+    "title": "Cajado do Campeão",
+    "prerequisite": "Missão DLC Dragonborn: Deathbrand",
+    "dlc": "Draconato",
+    "subCategoryType": "Martelos de guerra"
+  },
+  {
+    "id": "ad82f0a3-7e43-4219-9a2a-4bf4574e46da",
+    "mainCategory": "Dawnguard",
+    "subCategory": "Armas únicas",
+    "title": "Martelo Rúnico Dawnguard",
+    "prerequisite": "Missão Dawnguard: Relíquia Perdida",
+    "dlc": "Dawnguard",
+    "subCategoryType": "Martelos de guerra"
+  },
+  {
+    "id": "172b1562-f0db-4f22-91ef-2a0d982c7a88",
+    "mainCategory": "Armas únicas",
+    "subCategory": "Martelos de guerra",
+    "title": "Martelo de Guerra de Shagrol",
+    "prerequisite": "Missão Daédrica: A Tribo Amaldiçoada",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "9e8e1162-141e-4ad5-9c79-7d7f0c539084",
+    "mainCategory": "Armas únicas",
+    "subCategory": "Martelos de guerra",
+    "title": "O Martelo Longo",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "2c3d9fbf-e31a-4b2d-b6b3-13e27e5eb197",
+    "mainCategory": "Armas únicas",
+    "subCategory": "Martelos de guerra",
+    "title": "Terror dos trolls",
+    "prerequisite": "Saques aleatórios ou comerciantes",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "9f9f1bbd-7124-4954-b914-83d133b78b8b",
+    "mainCategory": "Armas únicas",
+    "subCategory": "Martelos de guerra",
+    "title": "Volendrung",
+    "prerequisite": "Missão Daédrica: A Tribo Amaldiçoada",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "b31efb6f-1fcd-4db7-8900-d22a19ac7ea0",
+    "mainCategory": "Armas únicas",
+    "subCategory": "Arcos",
+    "title": "Arco de Angi",
+    "prerequisite": "Treinamento com missão Angi: Acampamento de Angi",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "57927107-2e4f-45e1-a9a0-18db34bf6391",
+    "mainCategory": "Dawnguard",
+    "subCategory": "Armas únicas",
+    "title": "Arco de Auriel",
+    "prerequisite": "Missão Dawnguard: Tocando o Céu",
+    "dlc": "Dawnguard",
+    "subCategoryType": "Arcos"
+  },
+  {
+    "id": "1c0e1b8c-fc2b-4a2f-94fc-cf8f9f3d7e4f",
+    "mainCategory": "Armas únicas",
+    "subCategory": "Arcos",
+    "title": "Arco da Caça",
+    "prerequisite": "Companheiros: Missão Radiante",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "2f576e0c-2f91-4c23-96a0-d3f5ea20a84f",
+    "mainCategory": "Armas únicas",
+    "subCategory": "Arcos",
+    "title": "Arco Drenagem Encantada",
+    "prerequisite": "Missão labiríntica: O Cajado de Magnus",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "40d53e9a-745a-4c34-b6d7-dfe4b8b145a5",
+    "mainCategory": "Armas únicas",
+    "subCategory": "Arcos",
+    "title": "Arco de Dravin",
+    "prerequisite": "Encontrado durante a missão: Curve-se ao Mestre",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "a06a19ac-8f1f-4a20-ae9f-d2b0c171f5f3",
+    "mainCategory": "Draconato",
+    "subCategory": "Armas únicas",
+    "title": "Arco Negro Anão do Destino",
+    "prerequisite": "Missão DLC Dragonborn: Perdida para os Séculos",
+    "dlc": "Draconato",
+    "subCategoryType": "Arcos"
+  },
+  {
+    "id": "f3b82d4c-925a-4d3e-bfd3-83b12761fe5d",
+    "mainCategory": "Armas únicas",
+    "subCategory": "Arcos",
+    "title": "O Fim de Firiniel",
+    "prerequisite": "Guilda dos Ladrões: Missão Radiante",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "5ea6b1a2-0645-4bfc-9ac3-98aa97a15bfc",
+    "mainCategory": "Armas únicas",
+    "subCategory": "Arcos",
+    "title": "Arco de Froki",
+    "prerequisite": "Missão: Provas Sagradas de Kyne",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "ca10f3e9-d515-44c2-8b2f-97f0f1573327",
+    "mainCategory": "Armas únicas",
+    "subCategory": "Arcos",
+    "title": "Gauldur Arco Negro",
+    "prerequisite": "Missão de masmorra: Lenda Proibida",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "8a9f97c2-1b79-4c27-b38a-bfe7c5206a08",
+    "mainCategory": "Armas únicas",
+    "subCategory": "Arcos",
+    "title": "Arco de Vidro do Príncipe Veado",
+    "prerequisite": "Companheiros: Missão Radiante",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "4b1e9d12-9e14-4eae-8b38-2b0ce9db5c4d",
+    "mainCategory": "Armas únicas",
+    "subCategory": "Arcos",
+    "title": "Arco de Karliah",
+    "prerequisite": "Missão da Guilda dos Ladrões: Cego",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "5c67b448-8f1a-415d-9c16-9c8c5ab5e8e8",
+    "mainCategory": "Armas únicas",
+    "subCategory": "Arcos",
+    "title": "Arco Rouxinol",
+    "prerequisite": "Série de missões da Guilda dos Ladrões",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "1ec4a96a-3cb5-4f20-b32d-4cf54a6b3e0e",
+    "mainCategory": "Dawnguard",
+    "subCategory": "Armas únicas",
+    "title": "Zéfiro",
+    "prerequisite": "Missão Dawnguard: Perdida para Sempre",
+    "dlc": "Dawnguard",
+    "subCategoryType": "Arcos"
+  },
+  {
+    "id": "f6b7627d-61d4-4a72-b16c-76eb86db2a79",
+    "mainCategory": "Santuários",
+    "subCategory": "",
+    "title": "Santuário de Akatosh",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "da783c7f-8d53-4ac4-94a1-456e378d61c1",
+    "mainCategory": "Santuários",
+    "subCategory": "",
+    "title": "Santuário de Arkay",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "15e4c505-6d37-40c7-8b23-7627cb5a9f91",
+    "mainCategory": "Santuários",
+    "subCategory": "",
+    "title": "Santuário de Dibella",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "9c3d9f4d-880b-4475-8d8f-4bb7b50814eb",
+    "mainCategory": "Santuários",
+    "subCategory": "",
+    "title": "Santuário de Julianos",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "fc8ee22d-77af-4b48-8b1e-d428b1f4a0cf",
+    "mainCategory": "Santuários",
+    "subCategory": "",
+    "title": "Santuário de Kynareth",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "14c868d2-5b6c-4d20-930d-d16434b83369",
+    "mainCategory": "Santuários",
+    "subCategory": "",
+    "title": "Santuário de Mara",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "bd6c00da-97d3-4171-8c02-7d2d2bc29552",
+    "mainCategory": "Santuários",
+    "subCategory": "",
+    "title": "Santuário de Stendarr",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "1f92e9b3-217f-4f78-a132-1607748484e5",
+    "mainCategory": "Santuários",
+    "subCategory": "",
+    "title": "Santuário de Talos",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "c6ee9f55-3d68-4d1a-bd85-9fe82abf6b43",
+    "mainCategory": "Santuários",
+    "subCategory": "",
+    "title": "Santuário de Zenitar",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "f6b7627d-61d4-4a72-b16c-76eb86db2a79",
+    "mainCategory": "Draconato",
+    "subCategory": "Santuários",
+    "title": "Santuário de Azura",
+    "prerequisite": "",
+    "dlc": "Draconato",
+    "subCategoryType": ""
+  },
+  {
+    "id": "da783c7f-8d53-4ac4-94a1-456e378d61c1",
+    "mainCategory": "Draconato",
+    "subCategory": "Santuários",
+    "title": "Santuário de Boécia",
+    "prerequisite": "",
+    "dlc": "Draconato",
+    "subCategoryType": ""
+  },
+  {
+    "id": "15e4c505-6d37-40c7-8b23-7627cb5a9f91",
+    "mainCategory": "Draconato",
+    "subCategory": "Santuários",
+    "title": "Santuário de Mephala",
+    "prerequisite": "",
+    "dlc": "Draconato",
+    "subCategoryType": ""
+  },
+  {
+    "id": "9c3d9f4d-880b-4475-8d8f-4bb7b50814eb",
+    "mainCategory": "Draconato",
+    "subCategory": "Santuários",
+    "title": "Santuário do Noturno",
+    "prerequisite": "",
+    "dlc": "Draconato",
+    "subCategoryType": ""
+  },
+  {
+    "id": "da783c7f-8d53-4ac4-94a1-456e378d61c1",
+    "mainCategory": "Draconato",
+    "subCategory": "Santuários",
+    "title": "Santuário de Boécia",
+    "prerequisite": "",
+    "dlc": "Draconato",
+    "subCategoryType": ""
+  },
+  {
+    "id": "15e4c505-6d37-40c7-8b23-7627cb5a9f91",
+    "mainCategory": "Draconato",
+    "subCategory": "Santuários",
+    "title": "Santuário de Mephala",
+    "prerequisite": "",
+    "dlc": "Draconato",
+    "subCategoryType": ""
+  },
+  {
+    "id": "9c3d9f4d-880b-4475-8d8f-4bb7b50814eb",
+    "mainCategory": "Draconato",
+    "subCategory": "Santuários",
+    "title": "Santuário do Noturno",
+    "prerequisite": "",
+    "dlc": "Draconato",
+    "subCategoryType": ""
+  },
+  {
+    "id": "f6b7627d-61d4-4a72-b16c-76eb86db2a79",
+    "mainCategory": "Dawnguard",
+    "subCategory": "Santuários",
+    "title": "Santuário de Auriel",
+    "prerequisite": "",
+    "dlc": "Dawnguard",
+    "subCategoryType": ""
+  },
+  {
+    "id": "f6b7627d-61d4-4a72-b16c-76eb86db2a79",
+    "mainCategory": "Pedras",
+    "subCategory": "",
+    "title": "A Pedra do Aprendiz",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "da783c7f-8d53-4ac4-94a1-456e378d61c1",
+    "mainCategory": "Pedras",
+    "subCategory": "",
+    "title": "A Pedra Atronach",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "15e4c505-6d37-40c7-8b23-7627cb5a9f91",
+    "mainCategory": "Pedras",
+    "subCategory": "",
+    "title": "A Senhora Pedra",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "9c3d9f4d-880b-4475-8d8f-4bb7b50814eb",
+    "mainCategory": "Pedras",
+    "subCategory": "",
+    "title": "A Pedra do Senhor",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "fc8ee22d-77af-4b48-8b1e-d428b1f4a0cf",
+    "mainCategory": "Pedras",
+    "subCategory": "",
+    "title": "A Pedra do Amante",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "14c868d2-5b6c-4d20-930d-d16434b83369",
+    "mainCategory": "Pedras",
+    "subCategory": "",
+    "title": "A Pedra do Mago",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "bd6c00da-97d3-4171-8c02-7d2d2bc29552",
+    "mainCategory": "Pedras",
+    "subCategory": "",
+    "title": "A Pedra Ritual",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "1f92e9b3-217f-4f78-a132-1607748484e5",
+    "mainCategory": "Pedras",
+    "subCategory": "",
+    "title": "A Pedra da Serpente",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "c6ee9f55-3d68-4d1a-bd85-9fe82abf6b43",
+    "mainCategory": "Pedras",
+    "subCategory": "",
+    "title": "A Pedra da Sombra",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "mainCategory": "Pedras",
+    "subCategory": "",
+    "title": "A Pedra do Corcel",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "mainCategory": "Pedras",
+    "subCategory": "",
+    "title": "A pedra do ladrão",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "mainCategory": "Pedras",
+    "subCategory": "",
+    "title": "A Pedra da Torre",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "mainCategory": "Pedras",
+    "subCategory": "",
+    "title": "A Pedra Guerreira",
+    "prerequisite": "",
+    "dlc": "Nenhum",
+    "subCategoryType": ""
+  }
+]

@@ -1,0 +1,75 @@
+{
+  "skyrim": {
+    "title": "Bordeciel",
+    "categories": {
+      "quests": {
+        "title": "Quêtes",
+        "mainQuests": "Quêtes principales",
+        "factionQuests": "Quêtes de faction",
+        "civilWar": "Guerre civile",
+        "daedricQuests": "Quêtes Daedra",
+        "dungeonQuests": "Quêtes de donjon",
+        "miscellaneousQuests": "Quêtes diverses",
+        "bountyQuests": "Quêtes de prime",
+        "globalQuests": "Quêtes globales"
+      },
+      "collectables": {
+        "title": "Objets de collection",
+        "dragonPriestMasks": "Masques de prêtre dragon",
+        "daedricArtefacts": "Artefacts Daedra",
+        "bugInAJar": "Un bug dans un pot",
+        "shouts": "Des cris",
+        "uniqueArmourSets": "Ensembles d'armures uniques",
+        "uniqueWeapons": "Armes uniques",
+        "shrines": "Sanctuaires",
+        "stones": "Des pierres"
+      },
+      "locations": {
+        "title": "Emplacements"
+      },
+      "miscellaneous": {
+        "title": "Divers",
+        "books": "Livres",
+        "spellTomes": "Tomes de sorts",
+        "journals": "Journaux"
+      }
+    },
+    "dlc": {
+      "dawnguard": "Garde-aube",
+      "dragonborn": "Enfant de Dragon",
+      "hearthfire": "Feu de foyer"
+    }
+  },
+  "fallout4": {
+    "title": "Fallout 4",
+    "categories": {
+      "quests": {
+        "title": "Quêtes",
+        "mainQuests": "Quêtes principales",
+        "factionQuests": "Quêtes de faction",
+        "sideQuests": "Quêtes secondaires"
+      },
+      "collectables": {
+        "title": "Objets de collection",
+        "boobleheads": "Figurines à pompons",
+        "magazines": "Les magazines",
+        "uniqueWeapons": "Armes uniques",
+        "uniqueArmour": "Armure unique",
+        "powerArmour": "Armure assistée"
+      },
+      "locations": {
+        "title": "Emplacements"
+      },
+      "miscellaneous": {
+        "title": "Divers",
+        "holotapes": "Holobandes"
+      }
+    },
+    "dlc": {
+      "automatron": "Automatron",
+      "farHarbor": "Port lointain",
+      "nukaWorld": "Nuka-Monde",
+      "vaultTecWorkshop": "Atelier Vault-Tec"
+    }
+  }
+}

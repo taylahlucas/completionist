@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import StandardLayout from '@components/general/Layouts/StandardLayout.native';
 import NavigationHeader from '@navigation/NavigationHeader.native';
 import CustomSearchBar from '@components/general/CustomSearchBar/CustomSearchBar.native';
@@ -9,9 +10,11 @@ import useMainState from '@redux/hooks/useMainState';
 import ContentList from '@components/custom/ContentList/ContentList.native';
 import useContentState from '@components/custom/ContentList/hooks/useContentState';
 import useContentDispatch from '@components/custom/ContentList/hooks/useContentDispatch';
+import { ContentSectionEnum } from '@utils/CustomEnums';
 
 const Quests = () => {
-  const type = 'Quests';
+  const { t } = useTranslation();
+  const sectionTitle = t('common:screens.quests');
   const { selectedGame } = useMainState();
   const { setSearchValue } = useContentDispatch();
   const { searchValue } = useContentState();
@@ -20,14 +23,14 @@ const Quests = () => {
 
   return (
     <StandardLayout>
-      <NavigationHeader title={type} />
+      <NavigationHeader title={sectionTitle} />
       <CustomSearchBar 
         searchValue={searchValue} 
         setSearchValue={setSearchValue}
         onReset={(): void => setSearchValue('')} 
       />
       <CompletedQuantityTitle type={'ListItemTitleBold'}>
-        {`${getUserQuests().length}/${mapDataTo(type, selectedGame, true).length}`}
+        {`${getUserQuests().length}/${mapDataTo(ContentSectionEnum.QUESTS, selectedGame, true).length}`}
       </CompletedQuantityTitle>
       <ContentList />
     </StandardLayout>

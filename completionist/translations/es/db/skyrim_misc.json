@@ -1,0 +1,5875 @@
+[
+  {
+    "id": "e5c3e954-4c62-4f04-b8a0-5c7cc5d57631",
+    "mainCategory": "Libros",
+    "title": "16 Acuerdos de Locura, v. IX",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "af6cf09c-5a91-47e2-81c9-d63f9739d0d5",
+    "mainCategory": "Libros",
+    "title": "16 Acuerdos de Locura, v.VI",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "1c9f684d-ea2d-4a34-b44d-8c2fb4f36cc7",
+    "mainCategory": "Libros",
+    "title": "16 Acuerdos de Locura, v. XII",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "b639b006-619f-47ee-8df0-3e5d3b9f7275",
+    "mainCategory": "Libros",
+    "title": "2920, vol 01 - Estrella de la mañana",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "6b1593a9-ffdb-4bf5-86f5-2bf755fa90d7",
+    "mainCategory": "Libros",
+    "title": "2920, vol 02 - El amanecer del sol",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "f18d54bf-7c53-4c82-a940-c71b299e8bd2",
+    "mainCategory": "Libros",
+    "title": "2920, vol 03 - Primera semilla",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "617a8b03-9921-4501-93d3-1956bae19a5b",
+    "mainCategory": "Libros",
+    "title": "2920, vol 04 - La mano de la lluvia",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "39955014-d8cd-4cd7-a93f-2e8a107bc0e2",
+    "mainCategory": "Libros",
+    "title": "2920, vol 05 - Segunda semilla",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "8490d3b5-52e8-43a5-bf11-500f8bc5b15f",
+    "mainCategory": "Libros",
+    "title": "2920, vol 06 - Mitad de año",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "0410c724-5a0a-43f7-8431-9fe6884e0d0c",
+    "mainCategory": "Libros",
+    "title": "2920, vol 07 - La altura del sol",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "dedc9e71-864c-4cf4-b8f2-6369c6924cd3",
+    "mainCategory": "Libros",
+    "title": "2920, vol 08 - Última semilla",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "e58b5c5b-42cd-49b9-8c1b-8c157c1be107",
+    "mainCategory": "Libros",
+    "title": "2920, vol 09 - Fuego de hogar",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "7b1d23cd-53a8-4a1e-9a21-f8168b78a4d0",
+    "mainCategory": "Libros",
+    "title": "2920, vol 10 - Escarcha",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "baa7f8c1-23e3-4e64-8ce1-50806418ed42",
+    "mainCategory": "Libros",
+    "title": "2920, vol 11 - El anochecer del sol",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "307913c7-2a61-4218-856f-9362a66744f8",
+    "mainCategory": "Libros",
+    "title": "2920, vol 12 - Estrella de la tarde",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "417b5cb3-84b2-4d0b-b8f3-372f11c75fb4",
+    "mainCategory": "Libros",
+    "title": "Una anuada infantil",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "676f3f9e-7002-4b72-b748-820d818cd0d5",
+    "mainCategory": "Libros",
+    "title": "Una danza en fuego, libro I",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "417ec343-5740-4e5f-ae29-79e0e2c5b1bd",
+    "mainCategory": "Libros",
+    "title": "Una danza en fuego, Libro II",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "cec5761a-530e-41e6-8e14-1b87fb40b5a2",
+    "mainCategory": "Libros",
+    "title": "Una danza en fuego, Libro III",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "e2047cfb-43ab-43f4-8e06-c3fb3dfc201a",
+    "mainCategory": "Libros",
+    "title": "Una danza en fuego, libro IV",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "e489d587-7b91-4af5-9d69-48143003bf6b",
+    "mainCategory": "Libros",
+    "title": "Una danza en fuego, libro V",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "0e6ba08c-258d-4e6d-9b3e-1227326fb0b1",
+    "mainCategory": "Libros",
+    "title": "Una danza en fuego, Libro VI",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "60f35a13-8034-4e92-9617-8c8ebf8e99fc",
+    "mainCategory": "Libros",
+    "title": "Una danza en fuego, Libro VII",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "05fb6b98-822e-4ef2-8c90-7b946488541c",
+    "mainCategory": "Libros",
+    "title": "Un sueño de Sovngarde",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "c180e50f-46d2-46ab-8a3c-bb621e6bb7c2",
+    "mainCategory": "Libros",
+    "title": "Un juego en la cena",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "ebd124d1-9796-4e0a-b6f1-9062d2a65ea0",
+    "mainCategory": "Libros",
+    "title": "Una guía para caballeros sobre Whiterun",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "bf2bc746-0841-4e77-b499-41d9fdd55a23",
+    "mainCategory": "Libros",
+    "title": "Una traición hipotética",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "12f91c13-0b5e-4e11-b81b-9c00c14441c3",
+    "mainCategory": "Libros",
+    "title": "Un beso, dulce madre.",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "66687fc4-1d8a-4b1e-a5d9-3bcb83506e9d",
+    "mainCategory": "Libros",
+    "title": "Un laberinto menor",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "30a2c5b9-7ad4-4e0b-8c7c-7e69d1c79a0e",
+    "mainCategory": "Libros",
+    "title": "Una tragedia en negro",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "865d9c74-698b-4fb8-b1db-75dbf0a2fc82",
+    "mainCategory": "Libros",
+    "title": "El Adabal-a",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "69f7f10c-25b1-4c65-8eb4-0d907be9bf71",
+    "mainCategory": "Libros",
+    "title": "El libro de Adonato",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "c614ea54-19e3-42f3-81b8-d2b57e057605",
+    "mainCategory": "Libros",
+    "title": "Avances en la apertura de cerraduras",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "ad7dfb77-d20e-4a88-bbd7-1f1b7ecf7eeb",
+    "mainCategory": "Libros",
+    "title": "Aedra y Daedra",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "f5c5a4b7-4621-4bbd-83d0-440861df43e0",
+    "mainCategory": "Libros",
+    "title": "Las guerras del aeterio",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "47b5b8a1-2f5a-4f3c-b870-e9da9881ea8c",
+    "mainCategory": "Libros",
+    "title": "Aevar Stone-Cantante",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "6891d225-4a6c-40bf-83f5-678ac3fc1842",
+    "mainCategory": "Libros",
+    "title": "El descenso de Ahzidal",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "cd56dd04-3f3a-4ef0-94fb-c1f8b69c44ed",
+    "mainCategory": "Libros",
+    "title": "Ahzirr Traajijazeri",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "a03a5647-8c68-480f-86de-6ad606f18574",
+    "mainCategory": "Libros",
+    "title": "Alduino es real",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "3b7fb015-7f5f-4884-9b8c-8dbb6ab81d91",
+    "mainCategory": "Libros",
+    "title": "La dicotomía Alduin-Akatosh",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "d8ceadec-464c-4bf8-b999-2da9f2eaac54",
+    "mainCategory": "Libros",
+    "title": "Entre los Draugr",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "e11887bf-431e-4e06-b1c8-e9da036b4960",
+    "mainCategory": "Libros",
+    "title": "El amuleto de los reyes",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "fd46e887-618f-4a92-9f2f-9dca85c58b86",
+    "mainCategory": "Libros",
+    "title": "Una contabilidad de los rollos",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "f6795815-5d08-4964-8a0f-8288508e18a7",
+    "mainCategory": "Libros",
+    "title": "Una guía para el explorador de Skyrim",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "fe0025ef-8f29-4b6f-94f9-94b01f24a004",
+    "mainCategory": "Libros",
+    "title": "Los ancestros y los dunmer",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "4f02fb42-3b6c-4ee0-812c-5e4506d70a1d",
+    "mainCategory": "Libros",
+    "title": "Anales de la Guardia del Dragón",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "8d9bfca0-9c23-4c65-8ee3-4a7e93d11e5f",
+    "mainCategory": "Libros",
+    "title": "Antecedentes de la Ley Dwemer",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "3a0ba26a-183b-446f-ae08-bb491c6d2b49",
+    "mainCategory": "Libros",
+    "title": "Las anticipaciones",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "ce4883f8-ae72-4b90-9797-d2ad4ff29df2",
+    "mainCategory": "Libros",
+    "title": "El asistente del aprendiz",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "bf2a14e9-17b3-45d8-a132-5f5f3c686c0e",
+    "mainCategory": "Libros",
+    "title": "Arcanos restaurados",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "a55a4f0c-87fb-4ea2-b169-2a78615f8ba0",
+    "mainCategory": "Libros",
+    "title": "La herejía arcturiana",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "a107c095-4a3f-487c-b71d-ee9b1d1b02b9",
+    "mainCategory": "Libros",
+    "title": "El relato argoniano, libro I",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "19d68e07-93c0-49ec-aa25-199cebf8ee2c",
+    "mainCategory": "Libros",
+    "title": "El relato argoniano, libro II",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "1ab79a08-f3f3-45b0-8ab3-d9565ef517ae",
+    "mainCategory": "Libros",
+    "title": "El relato argoniano, libro III",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "2f7eddfb-d24e-4c2b-bc66-6dd3a3f93368",
+    "mainCategory": "Libros",
+    "title": "El relato argoniano, libro IV",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "ce7a0e61-c373-42b8-8b90-b38f2f356899",
+    "mainCategory": "Libros",
+    "title": "El desafío del armero",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "b34a063b-b0d7-4f4a-a0ec-c8764dfbbd1b",
+    "mainCategory": "Libros",
+    "title": "El arte de la magia de guerra",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "2c58f0d7-5d3c-4e86-8395-1d541ca24105",
+    "mainCategory": "Libros",
+    "title": "Atlas de dragones",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "b4d42087-c7cc-45e1-8000-3497c65c695f",
+    "mainCategory": "Libros",
+    "title": "El hombre del hacha",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "9c53f1c9-45a5-41a7-923f-aa8b660c6aa1",
+    "mainCategory": "Libros",
+    "title": "Azura y la caja",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "c43f1d85-21c4-4be7-bf65-192249f6fada",
+    "mainCategory": "Libros",
+    "title": "La batalla de la Montaña Roja",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "8cc18d1c-1767-4db9-9e47-11954d6805d1",
+    "mainCategory": "Libros",
+    "title": "Batalla de Sancre Tor",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "38f4ad7c-2d3a-45a2-a647-3f5e631bf09d",
+    "mainCategory": "Libros",
+    "title": "El oso de Markarth",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "8b0c9c14-97b8-4f6f-a014-eeab53c1e7bb",
+    "mainCategory": "Libros",
+    "title": "Antes de las edades del hombre",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "d86b8d87-06a9-4c81-b7f3-ff7f097b01e4",
+    "mainCategory": "Libros",
+    "title": "Mendigo",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "9ad7122b-bd4b-41b4-8c4b-63eafed25916",
+    "mainCategory": "Libros",
+    "title": "Príncipe mendigo",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "42c2f6b7-f18d-4d9c-a7fb-d8f4580595aa",
+    "mainCategory": "Libros",
+    "title": "La guía para principiantes sobre la agricultura",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "5f8a546b-662c-4d79-a45a-0a98f5c18b95",
+    "mainCategory": "Libros",
+    "title": "El traicionado",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "0d8101df-c300-4d7f-8ee5-18ac7d0cb6b1",
+    "mainCategory": "Libros",
+    "title": "Biografía de Barenziah, v1",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "613d85d8-9c31-4c4e-9a2a-98c5a779d7e1",
+    "mainCategory": "Libros",
+    "title": "Biografía de Barenziah, v2",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "7be0e7b0-8e6d-4709-a8aa-06b03b4e23b8",
+    "mainCategory": "Libros",
+    "title": "Biografía de Barenziah, v3",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "f0e527df-39aa-49b9-9cc6-aa18ab8d472b",
+    "mainCategory": "Libros",
+    "title": "Biografía de la Reina Lobo",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "06711e0d-5c5a-4c6a-94c9-9c0e2a4df9b2",
+    "mainCategory": "Libros",
+    "title": "La flecha negra, v1",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "c50fe295-06c0-4d25-a82d-3d89f15d0664",
+    "mainCategory": "Libros",
+    "title": "La flecha negra, v2",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "1e777be5-9cfb-4f25-8ef4-8d3510363a43",
+    "mainCategory": "Libros",
+    "title": "Las artes negras a prueba",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "01d90f64-f982-4e54-b42e-56e0455a9a8a",
+    "mainCategory": "Libros",
+    "title": "Libro negro: perspicacia epistolar",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "8f92abff-2c22-4c1e-a5a3-66f96fbf85b0",
+    "mainCategory": "Libros",
+    "title": "Libro Negro: Filamento y Filigrana",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "3dfda1a1-52f0-439b-8c8f-72ec0aa8a188",
+    "mainCategory": "Libros",
+    "title": "Libro Negro: El Crepúsculo Oculto",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "2847ff61-0c9e-4d1c-8c81-49f5b2e2ef6a",
+    "mainCategory": "Libros",
+    "title": "Libro negro: El regente cetrino",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "3b450f23-6f2c-4422-a1e2-89a8520ad8c1",
+    "mainCategory": "Libros",
+    "title": "Libro Negro: Los vientos del cambio",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "2141c1b0-2b62-4b7f-bfa6-920f11c2425a",
+    "mainCategory": "Libros",
+    "title": "Libro Negro: Leyendas no contadas",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "52596da1-68da-4c21-83df-739a3d381c77",
+    "mainCategory": "Libros",
+    "title": "Libro negro: sueños despiertos",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "a95f5a0e-54a3-4d0a-89f0-197623a424b2",
+    "mainCategory": "Libros",
+    "title": "La gloria de Boethiah",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "1c763f15-21f7-4e50-981e-77d328fcf037",
+    "mainCategory": "Libros",
+    "title": "La prueba de Boethiah",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "9c5efc42-2700-4d2d-9f10-49d80bc43d42",
+    "mainCategory": "Libros",
+    "title": "Hueso, Parte I",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "c6c05d63-34d9-4003-869e-fd6c82f09a2e",
+    "mainCategory": "Libros",
+    "title": "Hueso, Parte II",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "ea26a3cf-d85c-40a9-b4ef-1ef2ee9fc9b8",
+    "mainCategory": "Libros",
+    "title": "El libro de Daedra",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "f200764c-4e4f-400a-a7d7-3664a3ac8403",
+    "mainCategory": "Libros",
+    "title": "El libro del destino",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "ce0dd2b5-48f3-4be1-ae0a-e6979f54bc85",
+    "mainCategory": "Libros",
+    "title": "El Libro de la Vida y el Servicio",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "2567f0a3-cfda-4301-87f5-1d14c5a20b3b",
+    "mainCategory": "Libros",
+    "title": "El libro del dragón nacido",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "79c05848-d44b-4b61-a68a-0f39e7de6263",
+    "mainCategory": "Libros",
+    "title": "Respirar agua",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "c3f10c31-6365-488b-a49d-4b03c43d72b1",
+    "mainCategory": "Libros",
+    "title": "Breve Historia del Imperio, v1",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "daea1a18-78b4-45a7-bd36-1e89ba2ff29a",
+    "mainCategory": "Libros",
+    "title": "Breve Historia del Imperio, v2",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "b3e11126-84e3-4ef0-9a72-865297af8ef0",
+    "mainCategory": "Libros",
+    "title": "Breve Historia del Imperio, v3",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "aaed70eb-c252-447b-8999-9c228d7e622e",
+    "mainCategory": "Libros",
+    "title": "Breve Historia del Imperio, v4",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "62c1baf9-d07b-4a19-8e0f-29917a9d0d92",
+    "mainCategory": "Libros",
+    "title": "Hermanos de la oscuridad",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "8b93f05d-81d5-4aa6-bb0f-eaa865dc9df9",
+    "mainCategory": "Libros",
+    "title": "El juego de las compras",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "184b24f1-9bbf-40d9-b3b6-b6cf83b17934",
+    "mainCategory": "Libros",
+    "title": "La cabaña en el bosque",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "e7eb3ef4-3344-430b-bfa6-7a6b4f875d38",
+    "mainCategory": "Libros",
+    "title": "El pastel y el diamante",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "4e14294c-0b87-4b76-9ab0-af35fc13e4fb",
+    "mainCategory": "Libros",
+    "title": "Catálogo de encantamientos de armaduras",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "a0ce9b5d-d197-448d-98a4-00e5c5da97eb",
+    "mainCategory": "Libros",
+    "title": "Catálogo de encantamientos de armas",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "001c2dd3-7cb4-4c8f-8253-1bba1363c31c",
+    "mainCategory": "Libros",
+    "title": "gatos de skyrim",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "51d15793-d349-47da-8f46-25e40bf3b7d5",
+    "mainCategory": "Libros",
+    "title": "La locura del azar",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "313c9166-6b54-4e8c-83a9-d720cfccf43a",
+    "mainCategory": "Libros",
+    "title": "Los cambiados",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "b907d9ea-98ad-430c-8ea2-e81a2e86469a",
+    "mainCategory": "Libros",
+    "title": "Cartas Charwich-Koniinge, v1",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "9fe67545-39ab-42c5-bb05-31ab1a88291d",
+    "mainCategory": "Libros",
+    "title": "Cartas Charwich-Koniinge, v2",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "e9794db0-d09d-4f3c-9d0d-550f1c3c1a4c",
+    "mainCategory": "Libros",
+    "title": "Cartas Charwich-Koniinge, v3",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "1717494c-1a56-4c44-92d1-70cc68ed97aa",
+    "mainCategory": "Libros",
+    "title": "Cartas Charwich-Koniinge, v4",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "a42c27c3-56a4-4eeb-bb02-f24f1b5580b2",
+    "mainCategory": "Libros",
+    "title": "Pastel de Chaurus: una receta",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "3a390050-9ef5-4ad9-9ed3-6ba98c78688e",
+    "mainCategory": "Libros",
+    "title": "El corazón de Cherim",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "127d4e26-9091-404c-a1b7-41a8c7f61149",
+    "mainCategory": "Libros",
+    "title": "Hijos del Creador de Todo",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "312e6d22-c6da-4e27-b330-95d2097c74e1",
+    "mainCategory": "Libros",
+    "title": "hijos del cielo",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "c5838435-854a-4c21-b4c7-92fb6e2702ec",
+    "mainCategory": "Libros",
+    "title": "chimarvamidio",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "a45e7f7d-520d-4e63-858f-5ecf3f897a7a",
+    "mainCategory": "Libros",
+    "title": "Crónicas de Nchuleft",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "d33078b0-523b-4f6b-9a94-ef66352b3ce1",
+    "mainCategory": "Libros",
+    "title": "La ciudad de piedra",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "b6b469a7-212e-41ec-8c74-4ea11e131d08",
+    "mainCategory": "Libros",
+    "title": "Limpieza del Fane",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "b9c59bd0-796f-4d61-8cc6-3087f57c5af1",
+    "mainCategory": "Libros",
+    "title": "El Código de Malacath",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "191f3766-7bfe-49e7-9ef2-85e77c9bf7ce",
+    "mainCategory": "Libros",
+    "title": "Confesiones de un comedor Dunmer Skooma",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "3f87cf4e-6d86-4715-9fe3-88a72ccfbf2a",
+    "mainCategory": "Libros",
+    "title": "Confesiones de un comerciante de pieles khajiita",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "d239a4d3-944d-40ff-b1db-557b61d14dc0",
+    "mainCategory": "Libros",
+    "title": "Considere la adopción",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "d3096667-9e60-47f8-8b4f-3458b3db95e6",
+    "mainCategory": "Libros",
+    "title": "La oscuridad más oscura",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "5e19d207-39e9-40c5-8c86-8dd52d5d5fc3",
+    "mainCategory": "Libros",
+    "title": "Hija del Niben",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "b457832d-bce3-4c68-bf48-54f2bbd8138e",
+    "mainCategory": "Libros",
+    "title": "De Rerum Dirennis",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "79da9f5f-2a0d-470e-8e1e-117b2f21a6e2",
+    "mainCategory": "Libros",
+    "title": "Golpe mortal de Abernanit",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "f53e618e-f0f8-4f21-8d5b-8a155a3b9bd8",
+    "mainCategory": "Libros",
+    "title": "Muerte de un vagabundo",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "a29e6c57-7a61-47f4-8f6d-bf66f18b56f1",
+    "mainCategory": "Libros",
+    "title": "marca de muerte",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "ea02b551-29d5-4da4-9a50-2875fbd2bb12",
+    "mainCategory": "Libros",
+    "title": "Diario de la feria Agarwen",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "38c5bfe1-9a5e-4fc8-b95e-7b0ed1d0518d",
+    "mainCategory": "Libros",
+    "title": "Las puertas del olvido",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "f3b5ef85-ba62-4a34-8ebf-52d45a3d62ac",
+    "mainCategory": "Libros",
+    "title": "Las puertas del espíritu",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "b0bf8a4b-bb9e-4f03-9fe3-37868a48d8ad",
+    "mainCategory": "Libros",
+    "title": "la dote",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "d86cd5b9-91a1-481a-87c0-ec71e16ff4ce",
+    "mainCategory": "Libros",
+    "title": "La ruptura del dragón",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "03258e14-071a-4df0-a35e-1e79334c918c",
+    "mainCategory": "Libros",
+    "title": "Lenguaje del Dragón: No más mitos",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "ff72071e-41d3-47b9-9373-8c7c7f124428",
+    "mainCategory": "Libros",
+    "title": "La guerra del dragón",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "784c03db-bc7a-4ee0-8d5b-bf6d6724c667",
+    "mainCategory": "Libros",
+    "title": "El paso del sueño",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "f31f77b0-45f4-4a36-b5cd-3ffbb229ab74",
+    "mainCategory": "Libros",
+    "title": "Dunmer de Skyrim",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "1be3ccf5-b6ee-4614-bf22-64e31d1a2f7d",
+    "mainCategory": "Libros",
+    "title": "Enanos, v1",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "30da96d2-8cf9-471f-bf0f-695313a7d47d",
+    "mainCategory": "Libros",
+    "title": "Enanos, v2",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "16998597-54a2-48ce-ba2a-ec9b9138525c",
+    "mainCategory": "Libros",
+    "title": "Enanos, v3",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "18691d1e-4306-4f85-8a0b-c3f929f8f553",
+    "mainCategory": "Libros",
+    "title": "Historia y cultura dwemer",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "9a6374e8-634d-4b5f-937d-c66fb381be7c",
+    "mainCategory": "Libros",
+    "title": "Consultas Dwemer Vol I",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "130e5af5-e3c4-4f15-b36f-49062e4fda07",
+    "mainCategory": "Libros",
+    "title": "Consultas Dwemer Vol II",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "5c9438b8-5e08-4fc7-9dd6-7d4318a6b9fc",
+    "mainCategory": "Libros",
+    "title": "Consultas Dwemer Volumen III",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "62f0c01f-7c82-4f33-8502-28a2e4712e8f",
+    "mainCategory": "Libros",
+    "title": "Efectos de los Elder Scrolls",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "15a20622-5a7a-4a84-8a41-cb5279fba4d8",
+    "mainCategory": "Libros",
+    "title": "Manual del encantador",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "ee484d13-b3b9-4ce2-8d06-70edc2b5f93e",
+    "mainCategory": "Libros",
+    "title": "El éxodo",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "fc61d9de-0212-4d7b-9a3e-2e19dd4f64e1",
+    "mainCategory": "Libros",
+    "title": "Caída de la gloria",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "2d6ff77b-46d2-4e66-ba6e-bce76e2a10d7",
+    "mainCategory": "Libros",
+    "title": "Caída del Príncipe de las Nieves",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "8a708e20-f655-45dd-901a-f41b88cddcf1",
+    "mainCategory": "Libros",
+    "title": "El Falmer: un estudio",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "20ea5a5b-4dab-4e13-9355-53e11cf408f5",
+    "mainCategory": "Libros",
+    "title": "Padre del Niben",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "f2457bd3-3fb0-4b5a-84f7-af397ec61ef3",
+    "mainCategory": "Libros",
+    "title": "Feyfolken, Libro I",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "6c515c21-1f58-471d-854a-b45c5f8759b0",
+    "mainCategory": "Libros",
+    "title": "Feyfolken, Libro II",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "73209899-08c1-495c-a746-2f5c1b6a1f71",
+    "mainCategory": "Libros",
+    "title": "Gente feyana, Libro III",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "c343b6aa-783b-412b-b021-7166e1e46bfb",
+    "mainCategory": "Libros",
+    "title": "Lección final",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "6cb915c6-7321-4c20-a4f1-448c90ebd952",
+    "mainCategory": "Libros",
+    "title": "Fuego y oscuridad",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "a187b8a4-dba3-4f49-badf-42a4f3c1c853",
+    "mainCategory": "Libros",
+    "title": "El firmamento",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "e8882f8a-f6c3-40b7-93e3-825d0d586b61",
+    "mainCategory": "Libros",
+    "title": "La revuelta del primer dominio",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "fd8c74bf-b924-4b64-bf79-6c56d4e17c2d",
+    "mainCategory": "Libros",
+    "title": "Las cinco estrellas lejanas",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "136e55f0-9a2a-4b35-befb-6a4f2080634e",
+    "mainCategory": "Libros",
+    "title": "Cinco canciones del rey Wulfharth",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "6e5a5bc4-b938-48a1-9ba3-f144de5e9ba0",
+    "mainCategory": "Libros",
+    "title": "Vuelo desde el Thalmor",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "8ff4de64-9383-442e-b19d-870d17d21a4a",
+    "mainCategory": "Libros",
+    "title": "Forja, martillo y yunque",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "7d764799-4eb1-4c50-9e35-22ef559cc080",
+    "mainCategory": "Libros",
+    "title": "Los cuatro tótems de Volskygge",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "d6c0e553-48e6-4c1b-a24c-1948ec8c64ac",
+    "mainCategory": "Libros",
+    "title": "Fragmento: Sobre Artaeum",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "f8a7b3c3-b7e8-40d0-9b31-16c50a1c1019",
+    "mainCategory": "Libros",
+    "title": "Frontera, Conquista",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "4bc4b11b-31f3-470d-9396-c1cd5a0f8e50",
+    "mainCategory": "Libros",
+    "title": "Galerion el Místico",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "0a4a7365-74f1-4d5a-87fe-7b802d2d6dd4",
+    "mainCategory": "Libros",
+    "title": "Fantasmas en la tormenta",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "d2d4dfb6-4a0d-4a7b-a013-2995462bfe2c",
+    "mainCategory": "Libros",
+    "title": "Glorias y Lamentos",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "6a45f928-6a34-4043-b6cd-88f5d26b09d2",
+    "mainCategory": "Libros",
+    "title": "Dioses y adoración",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "51c8de4e-cd15-4e01-85ea-674328191d23",
+    "mainCategory": "Libros",
+    "title": "La Cinta Dorada del Mérito",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "3f46d5c1-5dfe-45ec-8190-f17e1d38d8c8",
+    "mainCategory": "Libros",
+    "title": "Grandes presagios",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "01b30ddc-dc62-4301-b94e-7c4b3f887b69",
+    "mainCategory": "Libros",
+    "title": "La gran Guerra",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "7fb36536-8c21-46ac-810c-1776d5e17ddc",
+    "mainCategory": "Libros",
+    "title": "El guardián y el traidor",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "f476849f-84c2-4b37-b9e1-6a05bf587dc7",
+    "mainCategory": "Libros",
+    "title": "Guía para robar mejor",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "d43a6efb-baac-4aeb-b90e-0e670ac5fb02",
+    "mainCategory": "Libros",
+    "title": "El cuento de Hallgerd",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "be0a0837-ff4e-4df9-9e18-4dfc86b66027",
+    "mainCategory": "Libros",
+    "title": "Jardines colgantes",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "ca229b7a-e431-4bae-96ce-8a6c61da65d0",
+    "mainCategory": "Libros",
+    "title": "Cosecha de veneno de araña congelado",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "dd0aa51f-38d8-43e8-9187-18c3e07999a3",
+    "mainCategory": "Libros",
+    "title": "Forja de armadura pesada",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "6b4b604e-4885-437b-93e7-b09c3ad2d5a9",
+    "mainCategory": "Libros",
+    "title": "Guía del herbolario de Skyrim",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "4e50554d-51f2-4f79-9074-d987f4d18715",
+    "mainCategory": "Libros",
+    "title": "Bestiario de Herbane: Autómatas",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "fb30df57-3a35-4b13-a83e-9d4d6891a35f",
+    "mainCategory": "Libros",
+    "title": "Bestiario de Herbane: Hagravens",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "6e4b1a16-e00c-40ed-9447-f16a8088f9d3",
+    "mainCategory": "Libros",
+    "title": "Bestiario de Herbane: Espectros de hielo",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "b3014f9e-2af5-4fc1-878d-56b31d46f5a2",
+    "mainCategory": "Libros",
+    "title": "Historia de Raven Rock, vol. ",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "a9fe0ee3-7960-496f-96cc-f6c1f65c19de",
+    "mainCategory": "Libros",
+    "title": "Historia de Raven Rock, vol. ",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "9b20b906-f58b-4ed6-b513-fb61b9a894e8",
+    "mainCategory": "Libros",
+    "title": "Historia de Raven Rock, vol. ",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "8aa3e89b-1676-421f-a017-9c2b58f11b13",
+    "mainCategory": "Libros",
+    "title": "Participaciones de Jarl Gjalund",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "2b6c6bda-1879-45e3-ba37-23ef724202dd",
+    "mainCategory": "Libros",
+    "title": "Las fortalezas de Skyrim",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "d224671e-2a02-4778-9d74-3ee1000b4dd1",
+    "mainCategory": "Libros",
+    "title": "La esperanza de los redoran",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "13c2cb7e-6bd5-4154-800b-3c4a30884c63",
+    "mainCategory": "Libros",
+    "title": "Ataques de horqueros",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "74fe1e92-6030-419e-9fa6-42b99a01132e",
+    "mainCategory": "Libros",
+    "title": "Horror del Castillo Xyr",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "c61a66e7-5455-4c3c-8cd6-3e1c1443d2e5",
+    "mainCategory": "Libros",
+    "title": "La casa de los problemas",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "9a8221d2-e4fe-432d-8310-6013d13e295e",
+    "mainCategory": "Libros",
+    "title": "Hielo y quitina",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "21690c5d-2fc8-4a7c-80e2-6a4684a39f5e",
+    "mainCategory": "Libros",
+    "title": "Sangre inmortal",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "0ff2b3b2-c864-4203-8a06-08b8c6d6bf0e",
+    "mainCategory": "Libros",
+    "title": "Informe imperial sobre Saarthal",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "c30dbdc7-df96-4a24-b74f-d2c9b688b9d5",
+    "mainCategory": "Libros",
+    "title": "La importancia de dónde",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "dd193ff2-2aa3-47d8-8d63-fc35475923e0",
+    "mainCategory": "Libros",
+    "title": "Incidente en Necrom",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "e0d122c9-c8ea-4a6a-97f7-0a74ce6f368b",
+    "mainCategory": "Libros",
+    "title": "Invocación de Azura",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "6c0c7b0d-89da-4b31-9bea-384fb4e3aafa",
+    "mainCategory": "Libros",
+    "title": "El último baile de Jornibret",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "cf67b614-193e-4392-80f0-19885c3bf940",
+    "mainCategory": "Libros",
+    "title": "Diario de Mirtil Angoth",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "b171ef65-8ed4-4f1d-84c6-522a69a8c82e",
+    "mainCategory": "Libros",
+    "title": "Matar: antes de que te maten",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "168b46f2-ef2a-4b4f-a28a-6c56cb149708",
+    "mainCategory": "Libros",
+    "title": "Rey",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "c7779f69-73ac-46cc-a319-7a8b1f2d55de",
+    "mainCategory": "Libros",
+    "title": "El verso del rey Olaf",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "b511e27c-7de7-4a16-b194-49525ce554ed",
+    "mainCategory": "Libros",
+    "title": "Los caballeros de los nueve",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "be674351-c3e9-47b1-b54e-8f26d7e6367c",
+    "mainCategory": "Libros",
+    "title": "Kolb y el dragón",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "75bdf843-7f48-48d8-aadc-c0176785d0ab",
+    "mainCategory": "Libros",
+    "title": "Carta de Lakeview Manor",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "fc8f193b-091b-4b59-b43a-f09ec80016f1",
+    "mainCategory": "Libros",
+    "title": "El último rey de los ayleids",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "52af3a67-7420-40a7-94f4-44a23a9d3ea3",
+    "mainCategory": "Libros",
+    "title": "La última vaina de Akrash",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "c0a07545-861c-42c3-bc49-89a1117a45c9",
+    "mainCategory": "Libros",
+    "title": "Leyenda de la casa Krately",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "2430b474-b05a-4bfc-a0f9-3a0e9ff368c9",
+    "mainCategory": "Libros",
+    "title": "La leyenda del águila roja",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "7593d8fe-bf25-4f93-a4ee-5a2a00b2d77a",
+    "mainCategory": "Libros",
+    "title": "El legendario Sancre Tor",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "b7d9e79a-50ff-40f2-a8a5-25df2653b25d",
+    "mainCategory": "Libros",
+    "title": "El flagelo legendario",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "8c05498d-1c19-4ac5-96c5-9a011f46a7e1",
+    "mainCategory": "Libros",
+    "title": "Carta del Jarl de Falkreath",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "a09c8fcf-52e3-4cc5-a066-7447ab824920",
+    "mainCategory": "Libros",
+    "title": "Carta del mayordomo de Falkreath",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "f013108e-6364-4755-b4b1-0a92218d0154",
+    "mainCategory": "Libros",
+    "title": "Vida de Uriel Septim VII",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "e7b34b82-fa7d-4ed7-835e-b2907d2a07b3",
+    "mainCategory": "Libros",
+    "title": "Forja de armadura ligera",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "4aa2a86b-82c9-4669-bc50-104d7c9f8b62",
+    "mainCategory": "Libros",
+    "title": "Puentes liminales",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "ed20f0f3-48b2-4a09-a450-156e480c9b20",
+    "mainCategory": "Libros",
+    "title": "Vidas de los santos",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "40a10b93-7edc-4ef7-aa53-fc0f69b6c6d0",
+    "mainCategory": "Libros",
+    "title": "La habitación cerrada",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "174189fc-6ba6-4f3d-a662-2657cf66a4b2",
+    "mainCategory": "Libros",
+    "title": "Leyendas perdidas",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "0a51e4b4-9171-4e39-af16-363a00181ac3",
+    "mainCategory": "Libros",
+    "title": "El Lorkhan Lunar",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "af22f641-70b3-4a52-af89-3d5519b42e2c",
+    "mainCategory": "Libros",
+    "title": "La lujuriosa criada argoniana vol 1",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "3b29ec36-02bb-4615-850e-eb1ab4f34a7a",
+    "mainCategory": "Libros",
+    "title": "La lujuriosa criada argoniana vol 2",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "cb4ba6a0-5a66-4b33-a57c-0b9ab35162e1",
+    "mainCategory": "Libros",
+    "title": "Leyendas licantrópicas de Skyrim",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "7ff1b2e7-1872-4929-b792-b5b1cf31a5d7",
+    "mainCategory": "Libros",
+    "title": "Etiqueta de maza",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "ff8a0319-303a-4e6a-907d-1540da5a5d62",
+    "mainCategory": "Libros",
+    "title": "Los \"locos\" del alcance",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "14e4e95f-13ed-4bb4-9cc1-2720a6ed586b",
+    "mainCategory": "Libros",
+    "title": "La locura de Pelagio",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "e29a9bc5-9e5d-45e7-8f38-bde2c6bc174e",
+    "mainCategory": "Libros",
+    "title": "Magia del cielo",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "534f2ef7-1eb5-4ab9-9df8-9f7f53778aae",
+    "mainCategory": "Libros",
+    "title": "Grimorio de Malyn Varen",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "7b1e55f7-9c19-47da-b95d-5b21799b8f57",
+    "mainCategory": "Libros",
+    "title": "Mannimarco, rey de los gusanos",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "eb1be0b7-cc80-4953-b3e2-0805bf8a8a9f",
+    "mainCategory": "Libros",
+    "title": "Guía de decoración del hogar de Markarth",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "7c2a3e18-4d07-46c5-9a2b-53022f6a6a23",
+    "mainCategory": "Libros",
+    "title": "La lección de puntería",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "694e36cd-24a5-4f10-8700-468c8320e7e3",
+    "mainCategory": "Libros",
+    "title": "El espejo",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "853772e0-18bf-41a4-bb13-605e4ea429f7",
+    "mainCategory": "Libros",
+    "title": "Tácticas de unidades mixtas",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "fd12fc85-d37c-4900-860b-42982e189ec4",
+    "mainCategory": "Libros",
+    "title": "El monomito",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "78af7c53-25f4-4b05-8993-2fb11997a5ee",
+    "mainCategory": "Libros",
+    "title": "Akavir misterioso",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "c0b55b7a-3d3f-4c7f-8f2a-64f81d8df1b8",
+    "mainCategory": "Libros",
+    "title": "Misterio de Talara, v 1",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "1366e5db-b44f-4dab-8a8d-b9a2ec8f1b60",
+    "mainCategory": "Libros",
+    "title": "Misterio de Talara, v 2",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "16e7ee8c-7073-46f3-9a43-ee8eef186a0d",
+    "mainCategory": "Libros",
+    "title": "Misterio de Talara, v 3",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "f6963ef6-3965-43e3-aa90-44f7f4623a38",
+    "mainCategory": "Libros",
+    "title": "Misterio de Talara, v 4",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "7afdb5cf-9303-4f09-a667-d6547e2674d2",
+    "mainCategory": "Libros",
+    "title": "Misterio de Talara, v 5",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "d141b7b9-e7c7-42a3-8fb0-dc6dbb0ef3b3",
+    "mainCategory": "Libros",
+    "title": "Comentarios del amanecer mítico 1",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "5f3fe5d5-ae14-4d62-959b-d85d81f240cc",
+    "mainCategory": "Libros",
+    "title": "Comentarios del amanecer mítico 2",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "2492e170-9f3f-4784-8810-525cf6182354",
+    "mainCategory": "Libros",
+    "title": "Comentarios del amanecer mítico 3",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "d7a77923-0bd7-4d7e-9b20-0e87da4a1e57",
+    "mainCategory": "Libros",
+    "title": "Comentarios del amanecer mítico 4",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "05987bf3-1d2d-41cb-947b-d2a2d6e2a256",
+    "mainCategory": "Libros",
+    "title": "Mitos de Sheogorath",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "9f8a5c45-4f52-4a34-b07d-9d55dbca48df",
+    "mainCategory": "Libros",
+    "title": "¡N'Gasta! ",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "c1af0fc4-98ee-4a03-aa90-8b3ac3f33661",
+    "mainCategory": "Libros",
+    "title": "El fuego y la fe de Nchunak",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "e6a35e6e-0c50-4fc7-8a10-0aa26f68a36f",
+    "mainCategory": "Libros",
+    "title": "Nerevar en la Montaña Roja",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "032e1223-8c42-42f0-9df1-00d5d64a848f",
+    "mainCategory": "Libros",
+    "title": "Nerevar Luna y Estrella",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "7d30d1f9-9886-4b90-9f03-98b29ab97d84",
+    "mainCategory": "Libros",
+    "title": "Cae la noche en Sentinel",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "4165fc27-c1cc-4011-8b06-3cf536a672fc",
+    "mainCategory": "Libros",
+    "title": "La verdad de la madre de la noche",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "3941958b-30b7-4c0c-9e7e-5ad0bf07bdef",
+    "mainCategory": "Libros",
+    "title": "Noche de lágrimas",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "b7ec14da-20b5-4f4c-9e6d-b54c7d8585f4",
+    "mainCategory": "Libros",
+    "title": "Los ruiseñores vol. ",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "a30c59e4-bfea-495f-87d4-5f57e464d780",
+    "mainCategory": "Libros",
+    "title": "Los ruiseñores vol. ",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "bbdab77d-0bb6-4cd6-8e5a-b6a46ba04957",
+    "mainCategory": "Libros",
+    "title": "Ruiseñores: ¿realidad o ficción?",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "0eb55145-d7a7-4d0b-aaae-1850ce685378",
+    "mainCategory": "Libros",
+    "title": "La misiva Nirnoot",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "6c62a057-af0f-4324-bdea-5293b51f8d0b",
+    "mainCategory": "Libros",
+    "title": "¡Levántense los nórdicos!",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "2df86e27-1df8-41a0-99a9-d9db1d939d98",
+    "mainCategory": "Libros",
+    "title": "Nórdicos de Skyrim",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "e0c530c8-4c5d-4eac-8bc1-b5f5fc2670b5",
+    "mainCategory": "Libros",
+    "title": "Notas sobre Dimhollow Crypt, vol. ",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "6ef06d8e-4aa5-49fc-a7f5-1a63c116cd4b",
+    "mainCategory": "Libros",
+    "title": "Notas sobre la Forja Lunar",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "7afae696-7f13-4b02-9827-9299618d5c60",
+    "mainCategory": "Libros",
+    "title": "Notas sobre Yngol Barrow",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "4740a3d5-d057-4eac-a5c2-f498bb107db1",
+    "mainCategory": "Libros",
+    "title": "La crisis del olvido",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "3f04794c-d00d-4b2e-810e-5a1a8b899a2d",
+    "mainCategory": "Libros",
+    "title": "Oda a los zancudos de la tundra",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "53e11918-5f21-43da-8f08-c4f6f62e93aa",
+    "mainCategory": "Libros",
+    "title": "De dagas cruzadas",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "eb8c7934-5403-4c8c-8016-565a6a11c1e6",
+    "mainCategory": "Libros",
+    "title": "De Fjori y Holgeir",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "a5088fd9-bc19-44c2-a3c2-2e2e88b1309d",
+    "mainCategory": "Libros",
+    "title": "Oghma Infinium",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "61d47e2e-69df-4a1a-8df2-9a92f95e16d3",
+    "mainCategory": "Libros",
+    "title": "Olaf y el dragón",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "582f7e82-3729-4e09-9cf3-5a9cf4a40d95",
+    "mainCategory": "Libros",
+    "title": "Las viejas costumbres",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "a3956c43-8ea4-4c61-b16c-9a3e40e4ab58",
+    "mainCategory": "Libros",
+    "title": "En libros apócrifos: miembros deshuesados",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "f16a2e7b-4d97-48a0-a8b3-d6f7f0b4b6aa",
+    "mainCategory": "Libros",
+    "title": "Sobre apócrifos: pinzas excavadoras",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "1a226587-fb89-4b36-9f41-90009c25cf57",
+    "mainCategory": "Libros",
+    "title": "En apócrifos: cuchillas crujientes",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "f0039944-0671-4e4b-a789-d5018c3179ae",
+    "mainCategory": "Libros",
+    "title": "En apócrifos: orbes entrometidos",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "550ff5eb-e6a4-47de-88a1-c50c10c4bc72",
+    "mainCategory": "Libros",
+    "title": "Sobre el olvido",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "9b4d4da4-5983-4f70-9cb2-51e8662c8012",
+    "mainCategory": "Libros",
+    "title": "Al pisar ligeramente",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "50d58a61-42a4-4b91-8392-6d1339cfaa7b",
+    "mainCategory": "Libros",
+    "title": "Sobre el gran colapso",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "f60f5c72-76f7-4d23-bc71-2f6b7a762c7a",
+    "mainCategory": "Libros",
+    "title": "Opusculus Lamae Bal",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "fa1bb9c2-0b49-4d1c-8749-5bf89b82bdea",
+    "mainCategory": "Libros",
+    "title": "Orsinio y los orcos",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "f16e83c2-82e4-4b7b-99ea-ee417b0a4ed7",
+    "mainCategory": "Libros",
+    "title": "Pala, Libro I",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "0a1f613f-15d3-42df-ae61-5cb8662f9d5c",
+    "mainCategory": "Libros",
+    "title": "Pala, Libro II",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "a85642e7-190f-4719-8f97-786f2d5d4a21",
+    "mainCategory": "Libros",
+    "title": "Pensión de la polilla ancestral",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "799eb6fc-0d94-4d3e-9535-78d6784a8705",
+    "mainCategory": "Libros",
+    "title": "Aspectos físicos de los hombres lobo",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "450f7e6c-6f89-495a-b88f-c09f59aa9839",
+    "mainCategory": "Libros",
+    "title": "Los niños cerdo",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "26a0a363-96c4-4200-bd6b-16b8e74f77a2",
+    "mainCategory": "Libros",
+    "title": "Rey Pirata de Abecean",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "56be4be3-17f5-408b-839c-0c7985c02e22",
+    "mainCategory": "Libros",
+    "title": "La canción venenosa, libro I",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "64d5ef4a-2292-4a89-aa49-37cdde7e3f79",
+    "mainCategory": "Libros",
+    "title": "La canción venenosa, libro II",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "f9f7d1d0-7a89-478e-9a6f-dbf0f61493b5",
+    "mainCategory": "Libros",
+    "title": "La canción venenosa, libro III",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "f1483d7a-46cc-4822-a2f1-d5a38f15d2b8",
+    "mainCategory": "Libros",
+    "title": "La canción venenosa, libro IV",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "48a8cf15-1f7e-464e-9aa7-6928f4fe4e67",
+    "mainCategory": "Libros",
+    "title": "La canción venenosa, libro V",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "41c06656-30e9-4b3c-808f-1cde5a1f8b18",
+    "mainCategory": "Libros",
+    "title": "La canción venenosa, libro VI",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "4e0e2a3d-cce7-4614-b529-df369a7c6566",
+    "mainCategory": "Libros",
+    "title": "La canción venenosa, libro VII",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "19440f1a-3f72-417a-b2c9-6d37c90b4bd5",
+    "mainCategory": "Libros",
+    "title": "El anuncio de la caza",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "3a41f585-61f3-4a15-bf7f-88d642a37050",
+    "mainCategory": "Libros",
+    "title": "Poder de los elementos",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "7c6e0c8d-e6e7-4b10-8d5f-5f2e9b9e7319",
+    "mainCategory": "Libros",
+    "title": "Diseño de cerradura adecuado",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "29c0c89a-4b7e-4f84-9daa-8278c6a44ee2",
+    "mainCategory": "Libros",
+    "title": "Sombras robadas",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "eafe5b5a-465b-4d87-a14d-106ad734d2c5",
+    "mainCategory": "Libros",
+    "title": "Filogenia racial",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "227ea3bf-e0a1-4f6b-b20f-8e31af78a773",
+    "mainCategory": "Libros",
+    "title": "El rescate de Zarek",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "8396db10-ccdf-4bb2-af24-5b9e31435cf1",
+    "mainCategory": "Libros",
+    "title": "La verdadera Barenziah, Libro I",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "55404514-25b7-4b4a-a877-92798254556e",
+    "mainCategory": "Libros",
+    "title": "La Real Barenziah, Libro II",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "334ac41f-3008-45f7-840f-d32f11bfcd5b",
+    "mainCategory": "Libros",
+    "title": "La Real Barenziah, Libro III",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "c45ee06e-6070-4db1-88bb-d1a7b82d8ed8",
+    "mainCategory": "Libros",
+    "title": "La Real Barenziah, Libro IV",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "da4ab17d-76c8-4513-b7f8-4fc8f7f22a60",
+    "mainCategory": "Libros",
+    "title": "La verdadera Barenziah, Libro V",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "2ea80d69-b028-49cd-a52d-f6068fc43aa3",
+    "mainCategory": "Libros",
+    "title": "Realidad",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "3e56f1c2-61ce-413a-8bb4-dbaac021c7eb",
+    "mainCategory": "Libros",
+    "title": "La retaguardia",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "a03172ff-e8b2-4b43-87e7-413196c712cc",
+    "mainCategory": "Libros",
+    "title": "Las Reclamaciones",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "7452b53b-78d3-4515-a36f-50e2431e9a44",
+    "mainCategory": "Libros",
+    "title": "El libro rojo de los acertijos",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "a4d0c53d-7a36-43ce-a036-140a586b1de7",
+    "mainCategory": "Libros",
+    "title": "El lector de la cocina roja",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "76499469-5365-48e1-a8a9-6de717c1d686",
+    "mainCategory": "Libros",
+    "title": "El año rojo, volumen I",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "e3ba39c9-c87c-4d37-ba2d-00886c7515da",
+    "mainCategory": "Libros",
+    "title": "El año rojo, volumen II",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "3d9f75d7-1253-4e62-8ebc-f3c62e194670",
+    "mainCategory": "Libros",
+    "title": "Los refugiados",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "875f4563-ff71-47bb-946d-9acac0c22df0",
+    "mainCategory": "Libros",
+    "title": "remanada",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "93c5e991-54f1-49f8-8aa0-92de55c13be0",
+    "mainCategory": "Libros",
+    "title": "Informe: Desastre en Ionith",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "24213e2c-09cf-47e4-9f95-6d4c66b2ee1e",
+    "mainCategory": "Libros",
+    "title": "Respuesta al discurso de Bero",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "7fb6de5e-5e56-46a1-b0fc-ba62c20c3b62",
+    "mainCategory": "Libros",
+    "title": "Guía de decoración del hogar Riften",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "162a895f-e56a-4b5a-9099-8b8652eaaacf",
+    "mainCategory": "Libros",
+    "title": "El ascenso y la caída de las espadas",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "9f1bd20b-60d4-4c09-af52-b5e4708a0d98",
+    "mainCategory": "Libros",
+    "title": "Amenaza creciente, vol. ",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "429b7fe9-739e-45cc-87d5-240bf42a62f9",
+    "mainCategory": "Libros",
+    "title": "Amenaza creciente, vol. ",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "c90ab422-5f0f-44e6-9a5b-b778cf578271",
+    "mainCategory": "Libros",
+    "title": "Amenaza creciente, vol. ",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "c90f9ff5-e57a-4c10-bf96-c56aae3d4bd2",
+    "mainCategory": "Libros",
+    "title": "Amenaza creciente, vol. ",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "30092732-8b90-4a04-8a7a-e2aa26c7844f",
+    "mainCategory": "Libros",
+    "title": "Rislav el justo",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "c75d94a3-5bf5-42dd-a4d5-1f4396a0e2d0",
+    "mainCategory": "Libros",
+    "title": "Ruinas de Kemel-Ze",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "67ef8496-32e9-40f5-8da4-c818b2e5df10",
+    "mainCategory": "Libros",
+    "title": "Reflexiones sobre los Elder Scrolls",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "0d7b0e20-fc05-4c84-a2c9-2490af7b1302",
+    "mainCategory": "Libros",
+    "title": "Testimonio Sagrado",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "b80f60d5-82f3-4fc1-906c-45f94e0b84da",
+    "mainCategory": "Libros",
+    "title": "Opus de San Jiub",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "1c9ed53e-cb85-4a8c-b17a-1b9bc97ea9a8",
+    "mainCategory": "Libros",
+    "title": "Azote del Barrio Gris",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "9f78d04d-7724-4cd2-9a0e-c260ec0dbf24",
+    "mainCategory": "Libros",
+    "title": "Los secretos de Ragnvald",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "b1876f89-c0a5-42f1-a1b8-3c157f8b8f88",
+    "mainCategory": "Libros",
+    "title": "La semilla",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "6b9a5bb2-19c4-4670-b9a4-5f8bf03b17d3",
+    "mainCategory": "Libros",
+    "title": "Marcas de sombra",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "db2b508e-c177-4c67-a44c-3d2a1df7e3b3",
+    "mainCategory": "Libros",
+    "title": "Shezarr y los Divinos",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "174b7c9e-5c8a-4f29-bd8b-7cd4cc2650d0",
+    "mainCategory": "Libros",
+    "title": "Breve historia de Morrowind",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "84d157fe-bd9d-40b5-9b1b-c272d746e71b",
+    "mainCategory": "Libros",
+    "title": "Sithis",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "2f6d997d-dc86-40e9-aae4-6f2d4f91a14a",
+    "mainCategory": "Libros",
+    "title": "La regla de Skyrim",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "c698e5a9-bbea-4b92-ba8f-89f84409cc63",
+    "mainCategory": "Libros",
+    "title": "Guía de decoración del hogar de Soledad",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "7c5f6ac7-67d1-4a6d-9bb2-e0f3e32b63ea",
+    "mainCategory": "Libros",
+    "title": "Canción de Hrormir",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "b53e1485-7c5c-4eb7-99b2-63a7893b4f22",
+    "mainCategory": "Libros",
+    "title": "La Canción de Pelinal, Libro I",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "e58da9db-1981-49eb-953c-90265b9d6712",
+    "mainCategory": "Libros",
+    "title": "La Canción de Pelinal, Libro II",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "078595bd-5576-4ef9-aa62-df8e5676f7a2",
+    "mainCategory": "Libros",
+    "title": "La Canción de Pelinal, Libro III",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "a889647a-11f5-4a24-9aa0-c9ea6d383b67",
+    "mainCategory": "Libros",
+    "title": "La Canción de Pelinal, Libro IV",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "a6972a10-c5b9-42bb-97e8-e29c3ad7a5b1",
+    "mainCategory": "Libros",
+    "title": "La Canción de Pelinal, Libro V",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "bf1af8e8-cf95-470a-af7d-01e8cb9b3136",
+    "mainCategory": "Libros",
+    "title": "La Canción de Pelinal, Libro VI",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "1a85f65f-8bb6-4df1-b99c-ee82ac95a6ea",
+    "mainCategory": "Libros",
+    "title": "La Canción de Pelinal, Libro VII",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "1b3e3547-8c80-4e6b-836b-f933fe14b96a",
+    "mainCategory": "Libros",
+    "title": "La Canción de Pelinal, Libro VIII",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "67d25fb0-d160-448d-906e-0e22daa14427",
+    "mainCategory": "Libros",
+    "title": "Canción de los alquimistas",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "aef7c8a3-7b95-4f8d-aa6c-91ec3632a97e",
+    "mainCategory": "Libros",
+    "title": "Canción de los hombres de Askelde",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "5e695f71-331d-4b51-8a3a-ff2d5d917ce3",
+    "mainCategory": "Libros",
+    "title": "Canciones de Skyrim",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "76a18b9a-12a0-44f1-bf5e-df3645d7af91",
+    "mainCategory": "Libros",
+    "title": "Canciones de Skyrim: revisadas",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "d1dca68c-f83d-4321-a3e4-ecc5db78ee75",
+    "mainCategory": "Libros",
+    "title": "Canciones del regreso, Vol 19",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "39412a72-4303-4c7b-831a-d3765109e1a7",
+    "mainCategory": "Libros",
+    "title": "Canciones del regreso, volumen 2",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "b7472c56-0e11-446c-a2d0-453036401a2f",
+    "mainCategory": "Libros",
+    "title": "Canciones del regreso, Vol 24",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "dc63e839-78e4-4a79-9b6c-67b34c4e87d0",
+    "mainCategory": "Libros",
+    "title": "Canciones del regreso, Vol 56",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "f6d2283e-67b1-4b91-8ac4-6d1718b6534f",
+    "mainCategory": "Libros",
+    "title": "Canciones del regreso, volumen 7",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "3d5b8c80-7e20-4892-8e87-2e68de0bf03e",
+    "mainCategory": "Libros",
+    "title": "Almas, Blanco y Negro",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "b6c71d24-c57d-464f-a4bc-40cd0975f7a9",
+    "mainCategory": "Libros",
+    "title": "Sovngarde, un reexamen",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "b99b8cf4-2f5e-439c-ba23-3ef4ee34050d",
+    "mainCategory": "Libros",
+    "title": "Espíritu de Nirn",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "f7f7699e-4d02-474c-8c62-108d6190b889",
+    "mainCategory": "Libros",
+    "title": "Espíritu de los Daedra",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "6e164d77-2d8a-4fa7-990e-12db41d7a06d",
+    "mainCategory": "Libros",
+    "title": "El sensual bardo argoniano, v1",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "7fb56e3d-9203-4c82-aa9d-1d21a8cc719d",
+    "mainCategory": "Libros",
+    "title": "Exceso de ladrones",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "3f58c6e9-fac3-4705-8b93-7c8d7eb0e6c8",
+    "mainCategory": "Libros",
+    "title": "El cuento de Dro'Zina",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "6a9b509f-5c7a-4a7d-84a2-7d69e1b32049",
+    "mainCategory": "Libros",
+    "title": "El error de Talos",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "47119ab3-efcd-40fb-bd02-9f0c83b1ab2d",
+    "mainCategory": "Libros",
+    "title": "Habrá dragones",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "46089b45-95ed-4d71-8bb5-18a1d5e44f4b",
+    "mainCategory": "Libros",
+    "title": "Ladrón",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "7290dce5-9a9d-44cc-b924-303e6354db07",
+    "mainCategory": "Libros",
+    "title": "Ladrón de virtud",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "e650b1f8-ebe7-437d-9cd4-914a0b8c4375",
+    "mainCategory": "Libros",
+    "title": "La tercera puerta",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "170287d5-8e1e-4e3c-9e22-ff6e3e4b1e05",
+    "mainCategory": "Libros",
+    "title": "La línea de tiempo de la Tercera Era",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "9ab8b6a1-fa64-44f3-9e68-16bb1d0809eb",
+    "mainCategory": "Libros",
+    "title": "Sed, una historia revisada",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "d4f2f6f7-988a-4cf2-a9a4-b6a35619e80e",
+    "mainCategory": "Libros",
+    "title": "tres ladrones",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "27272e07-26a7-4bda-9516-4bc7c9c2e79b",
+    "mainCategory": "Libros",
+    "title": "Los tótems de Hircine",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "e90676d8-cf9c-4fd4-aa2b-9cb913c56812",
+    "mainCategory": "Libros",
+    "title": "Tocando el cielo",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "f25db4c4-2df0-4d61-9eae-775bc6a03dd4",
+    "mainCategory": "Libros",
+    "title": "Trampa",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "842ea4c5-3a1b-47b4-b71a-b0a202641a23",
+    "mainCategory": "Libros",
+    "title": "Tratado sobre las ciudades ayleídicas",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "a32ea2ed-1cd4-4e43-87e5-52e18b34d74c",
+    "mainCategory": "Libros",
+    "title": "Juicios de Santa Alessia",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "22915f4a-e4f3-47e9-baed-8458496baa15",
+    "mainCategory": "Libros",
+    "title": "Matanza de trolls",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "1318396f-d2fc-4d4f-9465-e8f0a0147361",
+    "mainCategory": "Libros",
+    "title": "La verdadera naturaleza de los orcos",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "84ad61f8-37ff-4fa9-b60c-d14537f2ebff",
+    "mainCategory": "Libros",
+    "title": "El código del verdadero noble",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "a69b9db4-28de-4c17-8d57-8da5769974bf",
+    "mainCategory": "Libros",
+    "title": "Secretos gemelos",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "e8ce4015-f2b0-4603-aed0-14c0fead1e46",
+    "mainCategory": "Libros",
+    "title": "El libro de Ulfr",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "f24b81c4-c073-4c5b-9b62-20f27a87a0e9",
+    "mainCategory": "Libros",
+    "title": "Sabor poco común",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "21eeab1a-942c-4b31-8ad0-6bc03d0c89c2",
+    "mainCategory": "Libros",
+    "title": "Sabor poco común - Firmado",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "81a7f489-5a3b-4a0f-9c36-3e88a17b5ee9",
+    "mainCategory": "Libros",
+    "title": "Libro desconocido, vol. ",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "adecb09c-0ddc-4be4-a27d-2aa82b95170f",
+    "mainCategory": "Libros",
+    "title": "Libro desconocido, vol. ",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "e97f146a-183f-4760-9da4-cff18c25e836",
+    "mainCategory": "Libros",
+    "title": "Libro desconocido, vol. ",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "ab05e556-8c01-41f0-8ad0-4f3062b2f0c0",
+    "mainCategory": "Libros",
+    "title": "Libro desconocido, vol. ",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "828a4d96-653a-47ef-9f74-54dfddc13aaf",
+    "mainCategory": "Libros",
+    "title": "Variedades de daedra",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "3a62d0d5-3207-461a-9c72-6a667d7584a5",
+    "mainCategory": "Libros",
+    "title": "Variedades de fe en el Imperio",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "eb597f2e-b847-4f5a-83a2-3e49981d72a7",
+    "mainCategory": "Libros",
+    "title": "Vernaccus y Bourlor",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "d2653ba6-5930-4c9e-bf7b-b8a5c0810510",
+    "mainCategory": "Libros",
+    "title": "wabbjack",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "670fd889-5c18-4ed0-8ff6-4a38abed9947",
+    "mainCategory": "Libros",
+    "title": "Caminando por el mundo, volumen XI",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "a06ff4e0-25e5-4b6d-baaf-9e940b8f9ff7",
+    "mainCategory": "Libros",
+    "title": "Guerra del Primer Consejo",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "4a57044d-fa90-47c5-a4a0-cd923a29d9d4",
+    "mainCategory": "Libros",
+    "title": "Guerrero",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "e915d4c2-3b1e-4f8d-9e36-cc0d626be8cd",
+    "mainCategory": "Libros",
+    "title": "La carga del guerrero",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "89d902f9-1467-4b19-8185-f319d8f3a97e",
+    "mainCategory": "Libros",
+    "title": "Vigilante de piedras",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "a88c870c-1b53-4f6a-90a0-9565b80b8996",
+    "mainCategory": "Libros",
+    "title": "Las aguas del olvido",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "56e0b3c7-efcc-4c9b-8be0-df46d78556e8",
+    "mainCategory": "Libros",
+    "title": "¿Dónde estabas cuando el Dragón se rompió?",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "c6b4e23b-779d-4a91-b4e1-057c662d3f18",
+    "mainCategory": "Libros",
+    "title": "Guía de decoración del hogar de Whiterun",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "b41cf7e0-69b3-4e6d-bbfc-97d3013ba801",
+    "mainCategory": "Libros",
+    "title": "Los elfos salvajes",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "f68de193-c133-4ea6-9a34-e28e57d12b15",
+    "mainCategory": "Libros",
+    "title": "Viento y arena",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "e40b75f4-f1c2-4a3d-84e8-3d724de2c1e2",
+    "mainCategory": "Libros",
+    "title": "Guía de decoración del hogar de Windhelm",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "05c93c4c-4ef9-4656-aebe-1d6ffec09cfd",
+    "mainCategory": "Libros",
+    "title": "Las cartas de Windhelm",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "cb0d9c91-dc6d-4e56-82d3-9e180a476a2b",
+    "mainCategory": "Libros",
+    "title": "La Madre Luz",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "db3e6b0c-8e49-4bb2-9f3a-0ee38b1a17d2",
+    "mainCategory": "Libros",
+    "title": "Withershins",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "5a660a6d-2074-4395-8972-35d2ed34f13a",
+    "mainCategory": "Libros",
+    "title": "La Reina Loba, Libro I",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "a16d1b11-f01c-475d-baf1-4e25ab133b10",
+    "mainCategory": "Libros",
+    "title": "La Reina Loba, Libro II",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "a961bd8b-986c-4b3e-b593-10017a0c7416",
+    "mainCategory": "Libros",
+    "title": "La Reina Loba, Libro III",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "8dfdd580-bc5b-418c-8bf7-7461ee91e83e",
+    "mainCategory": "Libros",
+    "title": "La Reina Loba, Libro IV",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "ac7fb50e-cac3-4384-b899-6dfc4327c607",
+    "mainCategory": "Libros",
+    "title": "La Reina Loba, Libro V",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "a1972ab4-4b74-4b21-b0b5-28de75018ac5",
+    "mainCategory": "Libros",
+    "title": "La Reina Loba, Libro VI",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "e6b33a84-aa4b-4e72-b8ea-8c184e04bc38",
+    "mainCategory": "Libros",
+    "title": "La Reina Loba, Libro VII",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "a52309b0-2625-4c65-804b-59dfacdc9f1b",
+    "mainCategory": "Libros",
+    "title": "La Reina Loba, Libro VIII",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "55fbf44c-dc8a-40b8-b9df-2b43fb9944e7",
+    "mainCategory": "Libros",
+    "title": "La esposa del leñador",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "9d06b242-6973-457e-b39a-874c4ed4e925",
+    "mainCategory": "Libros",
+    "title": "Palabras y Filosofía",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "d5d53ed3-3320-4aef-aed8-4fe6e618c98d",
+    "mainCategory": "Libros",
+    "title": "Palabras de la madre del clan Ahnissi",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "750125bb-1910-4c5a-b5a4-290c139568c4",
+    "mainCategory": "Libros",
+    "title": "palabras del viento",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "363c74ac-3d2b-47e7-8f2a-170f1c56a2a7",
+    "mainCategory": "Libros",
+    "title": "La dote de boda de Wraith",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "a5d747ef-f1eb-4e9d-8566-6cb0d4ff6df2",
+    "mainCategory": "Libros",
+    "title": "Libro amarillo de acertijos",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "ebe15578-3fe5-4523-8bc2-bffcd5e94e78",
+    "mainCategory": "Libros",
+    "title": "Yngol y los fantasmas del mar",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "1e73fb1a-bc68-4a1d-80c2-20c450675e10",
+    "mainCategory": "Tomos de hechizos",
+    "title": "La perdición de los no muertos",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "fe5a5988-3565-48cd-9f4e-ef54b3f0326a",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Desterrar a los daedra",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "2b2e07d5-0bfc-4a6c-a134-2b7b1fb13f09",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Desterrar a los no-muertos",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "f303f4f3-9ac6-4fb2-af95-1938b76f58e9",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Tormenta de nieve",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "64b1cde2-1s5a-4eb5-9252-12d4a1c7f8ee",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Hacha de batalla atada",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "d45fcb79-0d29-4f4d-93d5-b4261f40ecb3",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Arco atado",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "8a5873d9-827b-4f9a-8f54-64b1c5bb0c4e",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Carcaj atado",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "e3f0f78a-8f13-43c1-9400-7a1eb8530f21",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Espada atada",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "b791a4de-35d7-47e5-b63e-c71e46d146a4",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Llamar a las armas",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "e29e5a57-7802-4aa9-9965-8a0a845b6e5a",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Calma",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "b2bfbf39-1d44-4e5a-8a23-6098f1f87f94",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Luz de una vela",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "7b5451e3-525b-4b92-b61b-82c47d8c4f23",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Cadena de relámpagos",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "8c0f1a8c-778a-4375-aee5-b6f62cde5d6a",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Agarre de asfixia",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "ef1a9143-8d37-4b3c-b69e-5c6d33f8701e",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Círculo de protección",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "86f2b06e-4ac3-4ee2-a193-a1ee234e0fc0",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Clarividencia",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "b1db9e4c-547d-4c74-b321-p4a28759c45c",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Cerrar heridas",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "61f6a47x-9f34-477b-8395-91c9c94b66b0",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Comando Daedra",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "e5e44a07-bfad-4cf5-b3bb-4d81ff632bb3",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Conjurar antiguo sacerdote de la muerte",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "d1c98ff0-938c-46f8-8d1e-161bc5b4b736",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Conjurar a Ayleid Lich",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "651a9f0c-23c9-4f3b-8e14-d5d015e03724",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Conjurar coloso óseo",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "55075d8c-1d99-46c3-b06b-f3a8fb8a5f8d",
+    "mainCategory": "guardia del alba",
+    "title": "Conjurar Boneman",
+    "dlc": "guardia del alba",
+    "subCategory": "Tomos de hechizos"
+  },
+  {
+    "id": "4bd07d3e-cb34-4685-88c1-bd81c5e1d8f9",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Conjurar espectro maldito",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "6bb6f4ce-ae92-4e8d-94c8-789d6de8105a",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Conjurar caballo daédrico",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "f2373ff9-154b-43b8-879c-68872ddbb22d",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Conjurar arquero seductor oscuro",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "f8c57dfe-23d5-4c05-9241-aa9fba8855ea",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Conjurar guerrero seductor oscuro",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "43d6c0fe-8552-4f23-b1a3-13a276d93ee4",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Conjurar al Señor Dremora",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "b40fb4ff-0d95-4f70-ba37-4e5155398e7d",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Conjurar familiar",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "d72952bb-1599-48b7-ba8e-48e89941dab6",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Conjurar llama Atronach",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "301f597b-667e-47d3-bd95-e8357d7c862f",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Conjurar familiar llameante",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "c2d91679-c1d2-46f1-9d1b-e097afe145e7",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Conjurar zombi asqueroso",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "3d2ea236-4f45-4e15-8327-6175ee2e4c36",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Conjurar Atronach Escarchado",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "61d93ac3-1e0b-493b-bd13-64a7139c8eae",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Conjurar el Santo Arquero Dorado",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "79c33d4a-fb0e-4b8a-8e53-21ff162e346f",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Conjurar guerrero santo dorado",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "cde8ef29-1b98-42e8-a5d2-1c424bc7085d",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Conjurar espíritu inquietante",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "5c35d511-f40d-4289-99cf-83f98f2055d3",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Conjurar zombi maligno",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "cf28ef3b-d267-491e-811b-cd2a3a10a742",
+    "mainCategory": "guardia del alba",
+    "subCategory": "Tomos de hechizos",
+    "title": "Conjurar al hombre de la niebla",
+    "dlc": "guardia del alba"
+  },
+  {
+    "id": "cf28ef3b-d267-491e-811b-cd2a3a10a742",
+    "mainCategory": "guardia del alba",
+    "title": "Conjurar esfera enana",
+    "dlc": "guardia del alba",
+    "subCategory": "Tomos de hechizos"
+  },
+  {
+    "id": "f0b3e776-9617-41ea-af0f-b7b001e8f8f9",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Conjurar zombi pútrido",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "a3a3e6f7-91e3-46d8-90b5-442eac10cf96",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Conjurar campeón esqueleto",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "18a20b29-04ea-48f7-a6da-63da19ab430b",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Conjurar tirador esqueleto",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "2ef7d1fe-7331-4f8a-8f05-20664e1ebe97",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Conjurar Minion Esqueleto",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "0c9f9f20-287b-41a3-b3c8-4990bc4ed0f8",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Conjurar brujo esqueleto",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "88d9bfeb-1c42-4bb5-9f8b-16d24194723a",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Conjurar Staada",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "d13a4891-d1cc-4af9-9c95-c7987c281c61",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Conjurar tormenta Atronach",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "4e2f6c11-34b9-45d9-b13a-1dbff5f7ce0f",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Conjurar guardián de la tumba",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "23a7b451-1bf8-46d9-8423-7d8918c7592d",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Conjurar fantasma inmortal",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "e7f7c3bf-91a8-470a-9a38-8a48b2ec3b08",
+    "mainCategory": "guardia del alba",
+    "subCategory": "Tomos de hechizos",
+    "title": "Conjurar al hombre de la ira",
+    "dlc": "guardia del alba"
+  },
+  {
+    "id": "e189fb52-7210-4c46-a0c8-eeab303a69ce",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Conjurar zombi",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "35c62cd2-937d-4c16-a2cc-6e6c95dbd53c",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Coraje",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "9bc3808e-115f-4680-bcf9-e4c590f98fe0",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Esclavo muerto",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "f6208b8a-89a1-404f-b6e5-8914e3ff4cbf",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Detectar vida",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "3af3988e-d5b2-41bf-ae7c-4ed4b13106b0",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Detectar muertos vivientes",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "b707c9ea-1b7d-43ea-a595-2e11c128ec42",
+    "mainCategory": "Tomos de hechizos",
+    "title": "piel de dragón",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "fa9534db-9aa3-4380-a20b-f5e377c4fbb4",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Zombi aterrador",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "9290d0de-7b85-4c8d-bac9-bc6c748d7c8d",
+    "mainCategory": "Tomos de hechizos",
+    "title": "carne de ébano",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "6c3099d2-e3b0-42f5-9eac-8b78e18d56a9",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Explosión elemental",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "4e06ec8a-161d-4c6c-bbbd-498d13239d26",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Rayo elemental",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "3c7d52d3-2c61-4a18-8202-8a1201a4c487",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Explosión elemental",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "ad228d4b-c0b7-4d0f-8b08-9ec4db97b8d1",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Equilibrio",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "2d225a15-51ce-4b8f-8fbb-f5e88f62b5e5",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Expulsar a Daedra",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "ed51d63a-b787-4a3a-9270-726f2397e879",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Curación Rápida",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "b56e4d52-5a67-4eab-83d0-e81b6f7dbdb1",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Miedo",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "dd5cfdd4-4292-41fe-91f8-2a51b965f1b2",
+    "mainCategory": "Tomos de hechizos",
+    "title": "La bienvenida de Fenrik",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "2c3c7d32-399c-4f3a-bbf9-731f01c98fc9",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Runa de fuego",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "635faa6d-e684-41a5-b32d-5a04ef8a1313",
+    "mainCategory": "Tomos de hechizos",
+    "title": "tormenta de fuego",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "1e73fb1a-bc68-4a1d-80c2-20c450675e50",
+    "mainCategory": "Tomos de hechizos",
+    "title": "bola de fuego",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "1e5a5988-3565-48cd-9f4e-ef54b3f0326a",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Saeta de fuego",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "2b2e07d5-0bfc-4a6c-a134-2b7b1fb13f49",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Capa de llamas",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "f303f4f3-9ac6-4fk2-af95-1938b76f58e9",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Esclavo de llamas",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "s4b1cde2-165a-4eb5-9252-12d4a1c7f8ee",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Llamas",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "d45fcc79-0d29-4f4d-93d5-b4261f40e5b3",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Frenesí",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "8a5873d9-827b-4f9a-8f54-64b1c5bb004e",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Capa de escarcha",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "e3f0f78a-8f13-43c1-9400-7a1eb8539f21",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Runa de escarcha",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "b79ca4de-35d7-47e5-b63e-c71e46d146a4",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Esclavo de escarcha",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "e29e5a57-7802-caa9-9965-8a0a845b6e5a",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Congelación",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "b2bfbf39-1d44-4e5a-8a23-6098fcf87f94",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Furia",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "b1dc9e4c-547d-4c74-b321-d4a28759c45c",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Gran curación",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "61f6a47d-9f34-477b-x395-91c9c94b66b0",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Barrio mayor",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "86f2b06e-4ac1-4ee2-a193-21ee234e0fc0",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Círculo de guardianes",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "ef1a9143-8d3c-cb9c-b69e-5c6d33f8701e",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Lazo del ahorcado",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "86f2b06e-4ac3-4ee2-c193-21ee234e0fc0",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Armonía",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "b1db9e4c-547d-4c74-b32c-d4a28759c45c",
+    "mainCategory": "Tomos de hechizos",
+    "title": "sanar a otros",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "61f6a47d-9f34-477x-8395-91c9c94b66b0",
+    "mainCategory": "guardia del alba",
+    "subCategory": "Tomos de hechizos",
+    "title": "curar muertos vivientes",
+    "dlc": "guardia del alba"
+  },
+  {
+    "id": "ef1a9143-8d37-1b9c-b69e-5c6d33f8701e",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Cicatrización",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "86f2b06e-4ac3-4ee2-a193-21ee214e0fc0",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Manos curativas",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "ef1a9143-8d37-4b9c-b69e-506d33f8701e",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Histeria",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "86f2b06e-4ac3-4ee2-a193-21ee231e0fc0",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Pico de hielo",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "b1db9e4c-547d-4c7c-b321-d4a28759c45c",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Tormenta de nieve",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "61f6a47d-9f34-477b-8395-91c9c94b66x0",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Lanza helada",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "ef1a9143-8d37-4b9c-b69e-5c6d33f87c1e",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Incinerar",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "86f2b06e-4ac3-4ee2-a113-21ee234e0fc0",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Invisibilidad",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "b1db9e4c-547d-4c74-b321-d4a28759cw5c",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Carne de hierro",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "61f6a47d-9f34-477b-8395-91c9cx4b66b0",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Barrio menor",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "86f2b06e-4ac3-4ee2-a193-21e2234e0fc0",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Rayo",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "ef1a9143-8d37-4b9c-b69e-5c6d33f8701c",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Capa de relámpago",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "86f2b06e-4ac3-4ee2-a193-21ee224e0fc0",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Runa relámpago",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "b1db9e4c-547d-4c74-b321-d4a2875cc45c",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Tormenta eléctrica",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "61f6a47d-9f34-477b-8395-x1c9c94b66b0",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Luz mágica",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "ef1a9143-8d37-cb9c-b69e-5c6d33f8701e",
+    "mainCategory": "Tomos de hechizos",
+    "title": "La ira de Mara",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "c45fcb79-0d29-4f4d-93d5-b4261f40e5b3",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Parálisis masiva",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "ef1a9143-8dc7-4b9c-b69e-5c6d33f8701e",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Violencia",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "61f6a47s-9f34-477p-8395-91c9c94b66b0",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Amortiguar",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "b1db9e4c-547d-4c74-b321-d4a28759c4cc",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Ritual del nigromante",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "61fma47d-9f34-477b-8395-91c9c94b66b0",
+    "mainCategory": "guardia del alba",
+    "subCategory": "Tomos de hechizos",
+    "title": "Curación nigromántica",
+    "dlc": "guardia del alba"
+  },
+  {
+    "id": "ef1a9143-cd37-4b9c-b69e-5c6d33f8701e",
+    "mainCategory": "Tomos de hechizos",
+    "title": "carne de roble",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "86f2b06e-4ac3-4ee2-a193-21e3234e0fc0",
+    "mainCategory": "Tomos de hechizos",
+    "title": "El escape acuático de Orum",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "bcdb9e4c-c47d-4c74-b321-d4a28759c45c",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Pacificar",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "61f6a47d-9fm4-477b-8395-91c9c94b66b0",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Runa de parálisis",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "cf1a9143-8d37-4b9c-b69e-5c6d33f8701e",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Paralizar",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "86f2b06e-3ac3-4ee2-a193-21ee234e0fc0",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Orgullo de Hirstaang",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "df1a9143-8d37-4b9c-b69e-5c6d33f8701e",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Levantar zombi",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "86f2b06e-4ac3-4ee2-a393-21ee234e0fc0",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Reunión",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "b1db9e4c-c47d-4c74-b321-d4a28759c45c",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Reanimar cadáver",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "61f6a47d-9f34-477b-839m-91c9c94b66b0",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Repeler a los no-muertos menores",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "ef1a9143-8d37-4b9c-b69e-5c6d33d8701e",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Repeler a los no-muertos",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "86f2b06e-4ac3-4ee2-a133-21ee234e0fc0",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Renacido",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "ef1a9143-8d37-4b9c-369e-5c6d33f87d1e",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Derrota",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "86f2b03e-4ac3-4ee2-a193-21ee2c4e0fc0",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Alma dividida",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "b1db9e4c-547d-cc74-b321-d4a28759c45c",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Trampa del alma",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "61f6a47d-9f34-477b-8395-91c9cm4b66b0",
+    "mainCategory": "Tomos de hechizos",
+    "title": "chispas",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "ef1a9143-8d37-4b9c-b69e-5c6d33f8701d",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Flecha espectral",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "a6f2b06c-4ac3-4eec-a193-21ee234e0fc0",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Guardián firme",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "ef1ad143-8d37-4b9c-b69e-5c6d33f8701e",
+    "mainCategory": "guardia del alba",
+    "subCategory": "Tomos de hechizos",
+    "title": "Aura de Stendarr",
+    "dlc": "guardia del alba"
+  },
+  {
+    "id": "86f2b06e-4ac3-4ee2-a193-21eea34e0fc0",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Carne de piedra",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "ef1a9143-8dd7-4b9c-b69e-5c6d33f8701e",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Esclavo de la tormenta",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "a6f2b06e-4pc3-4ee2-a193-21ee234e0fc0",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Estrangulación",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "61f6a47d-9f34-47cb-8395-91c9c94b66b0",
+    "mainCategory": "guardia del alba",
+    "subCategory": "Tomos de hechizos",
+    "title": "Telequinesia",
+    "dlc": "guardia del alba"
+  },
+  {
+    "id": "b1db9e4c-547d-4c74-b3c1-d4a28759c45c",
+    "mainCategory": "guardia del alba",
+    "subCategory": "Tomos de hechizos",
+    "title": "fuego solar",
+    "dlc": "guardia del alba"
+  },
+  {
+    "id": "61f6a47d-9f34-47cb-8395-91c9c94b66b0",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Telequinesia",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "ef1c9143-8d37-4b9c-b69e-5c6d33f870pe",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Flechas de telequinesis",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "86f2b06e-4ac3-4ee2-a193-2aee234e0fc0",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Teletransporte mascota cangrejo de barro",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "rc5fcb79-0d29-4f4d-93d5-b4261f40e5b",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Teletransporte a la mascota Nix-Hound",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "d25fcb79-0d29-4f4d-93d5-b4261f40e5b",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Rayo",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "dc3fcb79-0d29-4f4d-93d5-b4261f40e5b",
+    "mainCategory": "Tomos de hechizos",
+    "title": "toque de muerte",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "dc5fcb79-0d29-4f4d-93d5-b4261fr0e5b",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Transmutar mineral",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "dc5fcb79-0d29-4f4d-93d5-b4g61f40e5b",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Convertir a los no-muertos mayores",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "dccfcb79-0d29-4f4d-93d5-b4261f40e5b",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Convertir a los muertos vivientes menores",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "dc5fcb79-0d29-4f4d-93d5-b4261f40e5b",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Convertir no-muertos",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "d45fcb79-0d29-4f4d-93d5-b4261f40e5c",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Llamas ilimitadas",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "dc5fcb79-0g29-4f4d-93d5-b4261f40e5b",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Congelación ilimitada",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "dc5fcb79-0d29-4f4d-93d5-b4261fc0e5b",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Tormentas ilimitadas",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "dc5fcb79-0d29-4f4d-93dc-b4261f40e5b",
+    "mainCategory": "guardia del alba",
+    "subCategory": "Tomos de hechizos",
+    "title": "La perdición del vampiro",
+    "dlc": "guardia del alba"
+  },
+  {
+    "id": "dc5fcb79-0d29-4f4d-93dc-b4261f40e5b",
+    "mainCategory": "guardia del alba",
+    "subCategory": "Tomos de hechizos",
+    "title": "El toque del vampiro",
+    "dlc": "guardia del alba"
+  },
+  {
+    "id": "dc5fcb79-0d29-4f4d-93d5-b4261f40ecb",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Muro de llamas",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "de5fcb79-0d29-4f4d-93d5-b4261f40e5b",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Muro de escarcha",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "dc5fcbc9-0d29-4f4d-93d5-b4261f40e5b",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Muro de tormentas",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "dc5fcb79-0d29-4f4d-c3d5-b4261f40e5b",
+    "mainCategory": "Tomos de hechizos",
+    "title": "Respiración de agua",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "d6f1bf06-874c-4167-8420-0da9e8104f1b",
+    "mainCategory": "nacido de dragón",
+    "subCategory": "Tomos de hechizos",
+    "title": "Runa de ceniza",
+    "dlc": "nacido de dragón"
+  },
+  {
+    "id": "f6b7627d-61d4-4a72-b16c-76eb86db2a79",
+    "mainCategory": "nacido de dragón",
+    "subCategory": "Tomos de hechizos",
+    "title": "Cáscara de ceniza",
+    "dlc": "nacido de dragón"
+  },
+  {
+    "id": "5ab0a27b-1bb6-4e7c-bf04-10680034c7d2",
+    "mainCategory": "nacido de dragón",
+    "subCategory": "Tomos de hechizos",
+    "title": "Daga atada",
+    "dlc": "nacido de dragón"
+  },
+  {
+    "id": "95cda3e9-c4c3-47f5-b3f1-3f55deeaaddd",
+    "mainCategory": "nacido de dragón",
+    "subCategory": "Tomos de hechizos",
+    "title": "Conjurar guardián de cenizas",
+    "dlc": "nacido de dragón"
+  },
+  {
+    "id": "71da1e8c-5f99-4f79-b9ee-0b1461e015ad",
+    "mainCategory": "nacido de dragón",
+    "subCategory": "Tomos de hechizos",
+    "title": "Conjurar engendros de ceniza",
+    "dlc": "nacido de dragón"
+  },
+  {
+    "id": "f2c8f686-1e1e-4e90-a366-4263fb188167",
+    "mainCategory": "nacido de dragón",
+    "subCategory": "Tomos de hechizos",
+    "title": "Conjurar buscador",
+    "dlc": "nacido de dragón"
+  },
+  {
+    "id": "c652a606-6cc9-4b08-b881-d3db32a0a1f9",
+    "mainCategory": "nacido de dragón",
+    "subCategory": "Tomos de hechizos",
+    "title": "Congelar",
+    "dlc": "nacido de dragón"
+  },
+  {
+    "id": "55c39bf8-dc01-4e0c-9b45-2593a9b3a835",
+    "mainCategory": "nacido de dragón",
+    "subCategory": "Tomos de hechizos",
+    "title": "Encender",
+    "dlc": "nacido de dragón"
+  },
+  {
+    "id": "a5ea3fda-99c4-4040-a4ae-193d48db55cd",
+    "mainCategory": "nacido de dragón",
+    "subCategory": "Tomos de hechizos",
+    "title": "Capa de torbellino",
+    "dlc": "nacido de dragón"
+  },
+  {
+    "id": "f2730a64-df8b-4e9b-aa4f-c51bc004fbdd",
+    "mainCategory": "nacido de dragón",
+    "subCategory": "Tomos de hechizos",
+    "title": "Runa de frenesí",
+    "dlc": "nacido de dragón"
+  },
+  {
+    "id": "f3bce460-cb7b-4d07-856b-28ff245a190c",
+    "mainCategory": "nacido de dragón",
+    "subCategory": "Tomos de hechizos",
+    "title": "Runa venenosa",
+    "dlc": "nacido de dragón"
+  },
+  {
+    "id": "43e86912-eb0b-4d7f-9166-4b07044d48d1",
+    "mainCategory": "guardia del alba",
+    "subCategory": "Libros",
+    "title": "Confesiones de un comerciante de pieles khajiita",
+    "dlc": "guardia del alba"
+  },
+  {
+    "id": "06b0b6c9-9bd7-4c3f-bc25-c08d6319c926",
+    "mainCategory": "guardia del alba",
+    "subCategory": "Libros",
+    "title": "Diario de la feria Agarwen",
+    "dlc": "guardia del alba"
+  },
+  {
+    "id": "1d6c0e57-9e9b-4c15-b5d3-2f4b8c5858e3",
+    "mainCategory": "guardia del alba",
+    "subCategory": "Libros",
+    "title": "Notas sobre Dimhollow Crypt, vol. ",
+    "dlc": "guardia del alba"
+  },
+  {
+    "id": "c18aebc8-19f7-4644-baa2-940b23c8a16f",
+    "mainCategory": "guardia del alba",
+    "subCategory": "Libros",
+    "title": "Opus de San Jiub",
+    "dlc": "guardia del alba"
+  },
+  {
+    "id": "5b1b1e46-5478-4b9d-8c9e-1d37a9d2d0e4",
+    "mainCategory": "guardia del alba",
+    "subCategory": "Libros",
+    "title": "Las guerras del aeterio",
+    "dlc": "guardia del alba"
+  },
+  {
+    "id": "1fca300a-524e-4a15-8c74-29ef7d62a938",
+    "mainCategory": "guardia del alba",
+    "subCategory": "Libros",
+    "title": "El Libro de la Vida y el Servicio",
+    "dlc": "guardia del alba"
+  },
+  {
+    "id": "032cbf8b-02f8-4c77-87b3-8273ac6f164f",
+    "mainCategory": "guardia del alba",
+    "subCategory": "Libros",
+    "title": "El traicionado",
+    "dlc": "guardia del alba"
+  },
+  {
+    "id": "f9fc0414-788c-48b2-972d-1619d503f32b",
+    "mainCategory": "guardia del alba",
+    "subCategory": "Libros",
+    "title": "El sensual bardo argoniano",
+    "dlc": "guardia del alba"
+  },
+  {
+    "id": "430b5583-3bf3-44d7-9c33-0a1c86e76f1f",
+    "mainCategory": "guardia del alba",
+    "subCategory": "Libros",
+    "title": "Tocando el cielo",
+    "dlc": "guardia del alba"
+  },
+  {
+    "id": "631115b5-7a9d-4ae1-8e35-1e14a4bf2f57",
+    "mainCategory": "guardia del alba",
+    "subCategory": "Libros",
+    "title": "Libro desconocido, vol. ",
+    "dlc": "guardia del alba"
+  },
+  {
+    "id": "d36a6345-78e5-45a4-9e13-29de202a41f9",
+    "mainCategory": "guardia del alba",
+    "subCategory": "Libros",
+    "title": "Libro desconocido, vol. ",
+    "dlc": "guardia del alba"
+  },
+  {
+    "id": "e5a2eb55-d2f0-4a1c-93d9-d24e8e401af9",
+    "mainCategory": "guardia del alba",
+    "subCategory": "Libros",
+    "title": "Libro desconocido, vol. ",
+    "dlc": "guardia del alba"
+  },
+  {
+    "id": "c534f5b9-f4b4-4125-b68f-82670ba1c0a4",
+    "mainCategory": "guardia del alba",
+    "subCategory": "Libros",
+    "title": "Libro desconocido, vol. ",
+    "dlc": "guardia del alba"
+  },
+  {
+    "id": "e3e74b1d-1194-46bb-9f22-d8a6b3f7b9e1",
+    "mainCategory": "nacido de dragón",
+    "subCategory": "Libros",
+    "title": "El descenso de Ahzidal",
+    "dlc": "nacido de dragón"
+  },
+  {
+    "id": "2bcf4a29-6769-41f8-bb46-1f1de5ad3df4",
+    "mainCategory": "nacido de dragón",
+    "subCategory": "Libros",
+    "title": "Libro negro: perspicacia epistolar",
+    "dlc": "nacido de dragón"
+  },
+  {
+    "id": "0d68e5de-5105-4f82-9aeb-9a458c848c35",
+    "mainCategory": "nacido de dragón",
+    "subCategory": "Libros",
+    "title": "Libro Negro: Filamento y Filigrana",
+    "dlc": "nacido de dragón"
+  },
+  {
+    "id": "aaf7a4fe-92ce-4c7e-8da7-9accc414d2f0",
+    "mainCategory": "nacido de dragón",
+    "subCategory": "Libros",
+    "title": "Libro Negro: El Crepúsculo Oculto",
+    "dlc": "nacido de dragón"
+  },
+  {
+    "id": "58c34b4d-2ba9-44a4-9331-3811421393fc",
+    "mainCategory": "nacido de dragón",
+    "subCategory": "Libros",
+    "title": "Libro negro: El regente cetrino",
+    "dlc": "nacido de dragón"
+  },
+  {
+    "id": "8cbf897d-2685-4085-a1ec-73c933b735d7",
+    "mainCategory": "nacido de dragón",
+    "subCategory": "Libros",
+    "title": "Libro Negro: Los vientos del cambio",
+    "dlc": "nacido de dragón"
+  },
+  {
+    "id": "62e08191-8b59-4d64-b048-f153db779c29",
+    "mainCategory": "nacido de dragón",
+    "subCategory": "Libros",
+    "title": "Libro Negro: Leyendas no contadas",
+    "dlc": "nacido de dragón"
+  },
+  {
+    "id": "a73d5b2d-f6a1-4b7c-91a8-5505a0cda524",
+    "mainCategory": "nacido de dragón",
+    "subCategory": "Libros",
+    "title": "Libro negro: sueños despiertos",
+    "dlc": "nacido de dragón"
+  },
+  {
+    "id": "5bc257c9-6199-478b-9d82-8727a00a2b35",
+    "mainCategory": "nacido de dragón",
+    "subCategory": "Libros",
+    "title": "Hueso, Parte I",
+    "dlc": "nacido de dragón"
+  },
+  {
+    "id": "fa7a6c56-c713-45c2-9df0-1f34df637260",
+    "mainCategory": "nacido de dragón",
+    "subCategory": "Libros",
+    "title": "Hueso, Parte II",
+    "dlc": "nacido de dragón"
+  },
+  {
+    "id": "43d5cf4f-2184-4f46-963b-4897922eb6c6",
+    "mainCategory": "nacido de dragón",
+    "subCategory": "Libros",
+    "title": "Los cambiados",
+    "dlc": "nacido de dragón"
+  },
+  {
+    "id": "eb0f227b-702b-4a48-a8fe-9b3edf6be531",
+    "mainCategory": "nacido de dragón",
+    "subCategory": "Libros",
+    "title": "Hijos del Creador de Todo",
+    "dlc": "nacido de dragón"
+  },
+  {
+    "id": "0010f622-7a76-4312-b2d2-c59778812cc3",
+    "mainCategory": "nacido de dragón",
+    "subCategory": "Libros",
+    "title": "Confesiones de un devorador de Dunmer Skoomer",
+    "dlc": "nacido de dragón"
+  },
+  {
+    "id": "cc6f21db-5c79-4cd5-b2a7-2e52bca2e29f",
+    "mainCategory": "nacido de dragón",
+    "subCategory": "Libros",
+    "title": "marca de muerte",
+    "dlc": "nacido de dragón"
+  },
+  {
+    "id": "bd9c69fc-df27-4014-bbda-d8c5197b5b42",
+    "mainCategory": "nacido de dragón",
+    "subCategory": "Libros",
+    "title": "Historia de Raven Rock, vol. ",
+    "dlc": "nacido de dragón"
+  },
+  {
+    "id": "2c3d65c7-3c9c-4a34-8ce2-1e6ed9f408d1",
+    "mainCategory": "nacido de dragón",
+    "subCategory": "Libros",
+    "title": "Historia de Raven Rock, vol. ",
+    "dlc": "nacido de dragón"
+  },
+  {
+    "id": "c3f28657-5f8d-4f72-9eb2-09f2d7b59536",
+    "mainCategory": "nacido de dragón",
+    "subCategory": "Libros",
+    "title": "Historia de Raven Rock, vol. ",
+    "dlc": "nacido de dragón"
+  },
+  {
+    "id": "1d1c5e5b-8685-4b02-8aeb-08e17709db45",
+    "mainCategory": "nacido de dragón",
+    "subCategory": "Libros",
+    "title": "Vidas de los santos",
+    "dlc": "nacido de dragón"
+  },
+  {
+    "id": "1e045f15-30c5-4f67-9601-61ba1f01e9c8",
+    "mainCategory": "nacido de dragón",
+    "subCategory": "Libros",
+    "title": "El fuego y la fe de Nchunak",
+    "dlc": "nacido de dragón"
+  },
+  {
+    "id": "d4a3f634-23c5-488a-9381-fc96aae2f3b1",
+    "mainCategory": "nacido de dragón",
+    "subCategory": "Libros",
+    "title": "Nerevar en la Montaña Roja",
+    "dlc": "nacido de dragón"
+  },
+  {
+    "id": "2ea52315-1a86-4a21-86b0-1529a81fdd76",
+    "mainCategory": "nacido de dragón",
+    "subCategory": "Libros",
+    "title": "En libros apócrifos: miembros deshuesados",
+    "dlc": "nacido de dragón"
+  },
+  {
+    "id": "fd011e02-6b67-4b92-84c2-3dd3f635cf2f",
+    "mainCategory": "nacido de dragón",
+    "subCategory": "Libros",
+    "title": "Sobre apócrifos: pinzas excavadoras",
+    "dlc": "nacido de dragón"
+  },
+  {
+    "id": "168991c7-e700-4b22-8d5e-0c43d97c3909",
+    "mainCategory": "nacido de dragón",
+    "subCategory": "Libros",
+    "title": "En apócrifos: cuchillas crujientes",
+    "dlc": "nacido de dragón"
+  },
+  {
+    "id": "cd8b1902-77f5-4ac1-a953-0eb8a692b3f0",
+    "mainCategory": "nacido de dragón",
+    "subCategory": "Libros",
+    "title": "En apócrifos: orbes entrometidos",
+    "dlc": "nacido de dragón"
+  },
+  {
+    "id": "f6f5758c-9a22-46cd-9c22-21ed6dbd56f4",
+    "mainCategory": "nacido de dragón",
+    "subCategory": "Libros",
+    "title": "El hombre del hacha",
+    "dlc": "nacido de dragón"
+  },
+  {
+    "id": "2b6aa62d-7e1e-43f8-8c65-9202d6fe6ef5",
+    "mainCategory": "nacido de dragón",
+    "subCategory": "Libros",
+    "title": "Las anticipaciones",
+    "dlc": "nacido de dragón"
+  },
+  {
+    "id": "2f4c7f4b-e88f-42cb-b9a0-c83f92c5d7e5",
+    "mainCategory": "nacido de dragón",
+    "subCategory": "Libros",
+    "title": "Las puertas del espíritu",
+    "dlc": "nacido de dragón"
+  },
+  {
+    "id": "f7e157f1-32e3-4f8d-b0a3-d21b8788a7ed",
+    "mainCategory": "nacido de dragón",
+    "subCategory": "Libros",
+    "title": "Las cinco estrellas lejanas",
+    "dlc": "nacido de dragón"
+  },
+  {
+    "id": "0e7aafcd-37ae-4a3f-b927-55bbf35468d2",
+    "mainCategory": "nacido de dragón",
+    "subCategory": "Libros",
+    "title": "El guardián y el traidor",
+    "dlc": "nacido de dragón"
+  },
+  {
+    "id": "eeab2385-5b17-4c3c-9f9e-dcbfb3e4ff4a",
+    "mainCategory": "nacido de dragón",
+    "subCategory": "Libros",
+    "title": "La casa de los problemas",
+    "dlc": "nacido de dragón"
+  },
+  {
+    "id": "a4209431-7850-4ba5-a24e-925943f01547",
+    "mainCategory": "nacido de dragón",
+    "subCategory": "Libros",
+    "title": "La canción venenosa, libro I",
+    "dlc": "nacido de dragón"
+  },
+  {
+    "id": "2174f73b-59e7-4979-bd29-7a9d635d5659",
+    "mainCategory": "nacido de dragón",
+    "subCategory": "Libros",
+    "title": "La canción venenosa, libro II",
+    "dlc": "nacido de dragón"
+  },
+  {
+    "id": "ec4fb8e7-67e1-4e9c-98bb-eed7baa1f5e9",
+    "mainCategory": "nacido de dragón",
+    "subCategory": "Libros",
+    "title": "La canción venenosa, libro III",
+    "dlc": "nacido de dragón"
+  },
+  {
+    "id": "7351312f-63c2-4a8b-b351-c97f28be1f17",
+    "mainCategory": "nacido de dragón",
+    "subCategory": "Libros",
+    "title": "La canción venenosa, libro IV",
+    "dlc": "nacido de dragón"
+  },
+  {
+    "id": "7240f493-f553-491e-a1c6-b41515a4a7b7",
+    "mainCategory": "nacido de dragón",
+    "subCategory": "Libros",
+    "title": "La canción venenosa, libro V",
+    "dlc": "nacido de dragón"
+  },
+  {
+    "id": "b4890c61-d881-4484-8d12-7b106171011b",
+    "mainCategory": "nacido de dragón",
+    "subCategory": "Libros",
+    "title": "La canción venenosa, libro VI",
+    "dlc": "nacido de dragón"
+  },
+  {
+    "id": "b944dcdb-4f4c-4f0a-baa0-e42297abfa8d",
+    "mainCategory": "nacido de dragón",
+    "subCategory": "Libros",
+    "title": "La canción venenosa, libro VII",
+    "dlc": "nacido de dragón"
+  },
+  {
+    "id": "b3094820-1695-4f7a-a198-16d2465c0140",
+    "mainCategory": "nacido de dragón",
+    "subCategory": "Libros",
+    "title": "Sed, una historia revisada",
+    "dlc": "nacido de dragón"
+  },
+  {
+    "id": "8f254d32-411b-4e15-8ed7-34f9f588a73b",
+    "mainCategory": "nacido de dragón",
+    "subCategory": "Libros",
+    "title": "Las Reclamaciones",
+    "dlc": "nacido de dragón"
+  },
+  {
+    "id": "0e7a2c44-719e-46ee-81e7-09ce09719189",
+    "mainCategory": "nacido de dragón",
+    "subCategory": "Libros",
+    "title": "El año rojo, volumen I",
+    "dlc": "nacido de dragón"
+  },
+  {
+    "id": "9c21f2ef-8d5b-43cc-ae0b-d7e7d0fb51b5",
+    "mainCategory": "nacido de dragón",
+    "subCategory": "Libros",
+    "title": "El año rojo, volumen II",
+    "dlc": "nacido de dragón"
+  },
+  {
+    "id": "06f1b26a-3277-4a35-84cc-4b7a6c6c0b8c",
+    "mainCategory": "nacido de dragón",
+    "subCategory": "Libros",
+    "title": "El código del verdadero noble",
+    "dlc": "nacido de dragón"
+  },
+  {
+    "id": "c8e542e8-8a68-4e85-ba91-e8e5564a18b9",
+    "mainCategory": "nacido de dragón",
+    "subCategory": "Libros",
+    "title": "Trampa",
+    "dlc": "nacido de dragón"
+  },
+  {
+    "id": "bf06b348-719a-417f-b2c5-ea4b09c3cbbd",
+    "mainCategory": "nacido de dragón",
+    "subCategory": "Libros",
+    "title": "Variedades de fe en el Imperio",
+    "dlc": "nacido de dragón"
+  },
+  {
+    "id": "10c1661c-501a-4652-b2d4-9831f8d72c52",
+    "mainCategory": "nacido de dragón",
+    "subCategory": "Libros",
+    "title": "¿Dónde estabas cuando el Dragón se rompió?",
+    "dlc": "nacido de dragón"
+  },
+  {
+    "id": "bd554637-2da5-47eb-8a87-2c038f38c74b",
+    "mainCategory": "nacido de dragón",
+    "subCategory": "Libros",
+    "title": "Viento y arena",
+    "dlc": "nacido de dragón"
+  },
+  {
+    "id": "116e13eb-0f48-47d1-9e02-1a8d3fe606e0",
+    "mainCategory": "nacido de dragón",
+    "subCategory": "Libros",
+    "title": "palabras del viento",
+    "dlc": "nacido de dragón"
+  },
+  {
+    "id": "7e03d0c2-091b-4c0e-8788-f166f0b63467",
+    "mainCategory": "fuego de hogar",
+    "subCategory": "Libros",
+    "title": "Muebles Breezehome",
+    "dlc": "fuego de hogar"
+  },
+  {
+    "id": "e5066a67-268a-4ed4-8f9d-675bb066ad7e",
+    "mainCategory": "fuego de hogar",
+    "subCategory": "Libros",
+    "title": "La guía para principiantes sobre la agricultura",
+    "dlc": "fuego de hogar"
+  },
+  {
+    "id": "f6b7627d-61d4-4a72-b16c-76eb86db2a79",
+    "mainCategory": "Revistas",
+    "title": "Advertencia contra el ébano",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "da783c7f-8d53-4ac4-94a1-456e378d61c1",
+    "mainCategory": "Revistas",
+    "title": "El diario de Adonato Leotelli",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "15e4c505-6d37-40c7-8b23-7627cb5a9f91",
+    "mainCategory": "Revistas",
+    "title": "Diario del aventurero",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "9c3d9f4d-880b-4475-8d8f-4bb7b50814eb",
+    "mainCategory": "Revistas",
+    "title": "Diario de Aesreal",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "fc8ee22d-77af-4b48-8b1e-d428b1f4a0cf",
+    "mainCategory": "Revistas",
+    "title": "Diario de Agrio",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "14c868d2-5b6c-4d20-930d-d16434b83369",
+    "mainCategory": "Revistas",
+    "title": "Diario de laboratorio de Aicantar",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "bd6c00da-97d3-4171-8c02-7d2d2bc29552",
+    "mainCategory": "Revistas",
+    "title": "Diario del alquimista",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "1f92e9b3-217f-4f78-a132-1607748484e5",
+    "mainCategory": "Revistas",
+    "title": "El diario de Alva",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "c6ee9f55-3d68-4d1a-bd85-9fe82abf6b43",
+    "mainCategory": "Revistas",
+    "title": "Diario de Arondil, Parte 1",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "190217bf-5ce1-4650-8893-7176ab15a9a5",
+    "mainCategory": "Revistas",
+    "title": "Diario de Arondil, Parte 2",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "69ebf960-e32d-4017-96a2-c4cc30b3e7fc",
+    "mainCategory": "Revistas",
+    "title": "Diario de Arondil, Parte 3",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "e1f8f788-7771-4f90-8ff3-5988533e930e",
+    "mainCategory": "Revistas",
+    "title": "Diario de Arondil, Parte 4",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "0e497a50-660a-4710-8d57-87b3ff87be5d",
+    "mainCategory": "Revistas",
+    "title": "Diario de Arvel",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "c5e2a73a-e48f-4bb9-bfbb-26b2498f4aeb",
+    "mainCategory": "Revistas",
+    "title": "Diario del asesino",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "a8b97ad7-afac-4ac8-9cbb-8a4ee1f4e7b3",
+    "mainCategory": "Revistas",
+    "title": "Manual de forja de Atronach",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "6d5b60cc-4db9-4084-a765-7b2cd52af4cd",
+    "mainCategory": "Revistas",
+    "title": "El diario de Azarain",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "mainCategory": "Revistas",
+    "title": "Diario del líder bandido",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "d7bf61e8-d299-4aae-a6f9-0f43cf85ff23",
+    "mainCategory": "Revistas",
+    "title": "Diario del bandido",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "53a36816-2f48-4ef0-9941-94b3d8c0b689",
+    "mainCategory": "Revistas",
+    "title": "El diario de Björmund",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "5d1d2c72-c10a-4f19-9cd1-cbfeeb5b72cd",
+    "mainCategory": "Revistas",
+    "title": "Diario del Dios Azul",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "f9a2676a-71c4-4a63-991d-52c88c0d4d52",
+    "mainCategory": "Revistas",
+    "title": "Diario de Brucio",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "292b4c2c-4ce2-4b5c-b8b8-9c896c9d2f5c",
+    "mainCategory": "Revistas",
+    "title": "Diario de carnicero 1",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "7395e285-d3b8-4c0d-b557-e8c523e3e983",
+    "mainCategory": "Revistas",
+    "title": "Diario de carnicero 2",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "89c4d3a3-4f4c-418b-9e88-7740fc9a69b0",
+    "mainCategory": "Revistas",
+    "title": "Diario de carnicero 3",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "f6b7627d-61d4-4a72-b16c-76eb86db2a79",
+    "mainCategory": "Revistas",
+    "title": "Diario del capitán",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "da783c7f-8d53-4ac4-94a1-456e378d61c1",
+    "mainCategory": "Revistas",
+    "title": "Diario de Cicerón - Volumen final",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "15e4c505-6d37-40c7-8b23-7627cb5a9f91",
+    "mainCategory": "Revistas",
+    "title": "Diario de Cicerón - Volumen 1",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "9c3d9f4d-880b-4475-8d8f-4bb7b50814eb",
+    "mainCategory": "Revistas",
+    "title": "Diario de Cicerón - Volumen 2",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "fc8ee22d-77af-4b48-8b1e-d428b1f4a0cf",
+    "mainCategory": "Revistas",
+    "title": "Diario de Cicerón - Volumen 3",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "14c868d2-5b6c-4d20-930d-d16434b83369",
+    "mainCategory": "Revistas",
+    "title": "Diario de Cicerón - Volumen 4",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "bd6c00da-97d3-4171-8c02-7d2d2bc29552",
+    "mainCategory": "Revistas",
+    "title": "Diario del cocinero",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "1f92e9b3-217f-4f78-a132-1607748484e5",
+    "mainCategory": "Revistas",
+    "title": "Cripta del Corazón - Borrador",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "c6ee9f55-3d68-4d1a-bd85-9fe82abf6b43",
+    "mainCategory": "Revistas",
+    "title": "Diario de Cuinanthil",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "mainCategory": "Revistas",
+    "title": "El diario de Daynas Valen",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "d7bf61e8-d299-4aae-a6f9-0f43cf85ff23",
+    "mainCategory": "Revistas",
+    "title": "Notas de Daynas Valen",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "53a36816-2f48-4ef0-9941-94b3d8c0b689",
+    "mainCategory": "Revistas",
+    "title": "Muerte de un puñal carmesí",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "5d1d2c72-c10a-4f19-9cd1-cbfeeb5b72cd",
+    "mainCategory": "Revistas",
+    "title": "Decreto de Monumento",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "8dbb3a66-1733-4d3d-913a-16e4dd8e6fc1",
+    "mainCategory": "Revistas",
+    "title": "Diario de la corona enana",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "f6b7627d-61d4-4a72-b16c-76eb86db2a79",
+    "mainCategory": "Revistas",
+    "title": "El diario de Eisa",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "da783c7f-8d53-4ac4-94a1-456e378d61c1",
+    "mainCategory": "Revistas",
+    "title": "El diario de Elberon",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "15e4c505-6d37-40c7-8b23-7627cb5a9f91",
+    "mainCategory": "Revistas",
+    "title": "El diario de Elhiel",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "9c3d9f4d-880b-4475-8d8f-4bb7b50814eb",
+    "mainCategory": "Revistas",
+    "title": "El diario de Endrast",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "fc8ee22d-77af-4b48-8b1e-d428b1f4a0cf",
+    "mainCategory": "Revistas",
+    "title": "El diario de Eranya",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "14c868d2-5b6c-4d20-930d-d16434b83369",
+    "mainCategory": "Revistas",
+    "title": "Notas de Erj",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "bd6c00da-97d3-4171-8c02-7d2d2bc29552",
+    "mainCategory": "Revistas",
+    "title": "Diario de Ernanthil",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "1f92e9b3-217f-4f78-a132-1607748484e5",
+    "mainCategory": "Revistas",
+    "title": "El diario de Erwan",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "c6ee9f55-3d68-4d1a-bd85-9fe82abf6b43",
+    "mainCategory": "Revistas",
+    "title": "Diario de Evetra",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "mainCategory": "Revistas",
+    "title": "Diario del líder de excavación",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "d7bf61e8-d299-4aae-a6f9-0f43cf85ff23",
+    "mainCategory": "Revistas",
+    "title": "Manifiesto de expedición",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "53a36816-2f48-4ef0-9941-94b3d8c0b689",
+    "mainCategory": "Revistas",
+    "title": "Diario descolorido",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "5d1d2c72-c10a-4f19-9cd1-cbfeeb5b72cd",
+    "mainCategory": "Revistas",
+    "title": "El diario de Fenrik",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "8dbb3a66-1733-4d3d-913a-16e4dd8e6fc1",
+    "mainCategory": "Revistas",
+    "title": "Diario del pescador (Skyrim)",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "mainCategory": "Revistas",
+    "title": "Los últimos deseos de Gadnor",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "d7bf61e8-d299-4aae-a6f9-0f43cf85ff23",
+    "mainCategory": "Revistas",
+    "title": "Diario codificado de Galo",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "53a36816-2f48-4ef0-9941-94b3d8c0b689",
+    "mainCategory": "Revistas",
+    "title": "Diario de Galo",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "5d1d2c72-c10a-4f19-9cd1-cbfeeb5b72cd",
+    "mainCategory": "Revistas",
+    "title": "Expediente de la Guardia: Aesreal",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "8dbb3a66-1733-4d3d-913a-16e4dd8e6fc1",
+    "mainCategory": "Revistas",
+    "title": "Expediente de la guardia: Antonio",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "53a36816-2f48-4ef0-9941-94b3d8c0b689",
+    "mainCategory": "Revistas",
+    "title": "Expediente del guardia: Bjormund Wind-Strider",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "5d1d2c72-c10a-4f19-9cd1-cbfeeb5b72cd",
+    "mainCategory": "Revistas",
+    "title": "Expediente de la guardia: Yakhtu gra-Orklug",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "f6b7627d-61d4-4a72-b16c-76eb86db2a79",
+    "mainCategory": "Revistas",
+    "title": "Diario de Habd",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "da783c7f-8d53-4ac4-94a1-456e378d61c1",
+    "mainCategory": "Revistas",
+    "title": "El diario de Hajvarr",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "15e4c505-6d37-40c7-8b23-7627cb5a9f91",
+    "mainCategory": "Revistas",
+    "title": "Diario de Halvar",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "9c3d9f4d-880b-4475-8d8f-4bb7b50814eb",
+    "mainCategory": "Revistas",
+    "title": "El diario de Hamelyn",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "fc8ee22d-77af-4b48-8b1e-d428b1f4a0cf",
+    "mainCategory": "Revistas",
+    "title": "Diario de mano de Indobar",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "14c868d2-5b6c-4d20-930d-d16434b83369",
+    "mainCategory": "Revistas",
+    "title": "El diario de Hans",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "bd6c00da-97d3-4171-8c02-7d2d2bc29552",
+    "mainCategory": "Revistas",
+    "title": "Diario de Hargar",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "1f92e9b3-217f-4f78-a132-1607748484e5",
+    "mainCategory": "Revistas",
+    "title": "Notas Volunruud de Heddic",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "c6ee9f55-3d68-4d1a-bd85-9fe82abf6b43",
+    "mainCategory": "Revistas",
+    "title": "Yelmo de Oreyn Garra de Oso",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "mainCategory": "Revistas",
+    "title": "Cuaderno de Hugin Moldeador de Hielo",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "d7bf61e8-d299-4aae-a6f9-0f43cf85ff23",
+    "mainCategory": "Revistas",
+    "title": "Diario del cazador",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "53a36816-2f48-4ef0-9941-94b3d8c0b689",
+    "mainCategory": "Revistas",
+    "title": "Diario del marido",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "5d1d2c72-c10a-4f19-9cd1-cbfeeb5b72cd",
+    "mainCategory": "Revistas",
+    "title": "Diario de Hyenril",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "mainCategory": "Revistas",
+    "title": "Diario de J'zhar",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "d7bf61e8-d299-4aae-a6f9-0f43cf85ff23",
+    "mainCategory": "Revistas",
+    "title": "Diario de Jano",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "53a36816-2f48-4ef0-9941-94b3d8c0b689",
+    "mainCategory": "Revistas",
+    "title": "El diario de Jafet",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "5d1d2c72-c10a-4f19-9cd1-cbfeeb5b72cd",
+    "mainCategory": "Revistas",
+    "title": "Diario de Jonquil",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "8dbb3a66-1733-4d3d-913a-16e4dd8e6fc1",
+    "mainCategory": "Revistas",
+    "title": "Diario (Harmugstahl)",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "8dbb3a66-1733-4d3d-913a-16e4dd8e6fc1",
+    "mainCategory": "Revistas",
+    "title": "Diario (La choza de Meeko)",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "8dbb3a66-1733-4d3d-913a-16e4dd8e6fc1",
+    "mainCategory": "Revistas",
+    "title": "Diario (alcance del estanque)",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "8dbb3a66-1733-4d3d-913a-16e4dd8e6fc1",
+    "mainCategory": "Revistas",
+    "title": "Diario de Drokt",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "8dbb3a66-1733-4d3d-913a-16e4dd8e6fc1",
+    "mainCategory": "Revistas",
+    "title": "Diario de Mirtil Angoth",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "f6b7627d-61d4-4a72-b16c-76eb86db2a79",
+    "mainCategory": "Revistas",
+    "title": "El diario de Karan",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "da783c7f-8d53-4ac4-94a1-456e378d61c1",
+    "mainCategory": "Revistas",
+    "title": "El diario de Kinthal",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "15e4c505-6d37-40c7-8b23-7627cb5a9f91",
+    "mainCategory": "Revistas",
+    "title": "El diario de Kodlak",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "9c3d9f4d-880b-4475-8d8f-4bb7b50814eb",
+    "mainCategory": "Revistas",
+    "title": "Diario de Krag",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "fc8ee22d-77af-4b48-8b1e-d428b1f4a0cf",
+    "mainCategory": "Revistas",
+    "title": "Registro de Kyr",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "14c868d2-5b6c-4d20-930d-d16434b83369",
+    "mainCategory": "Revistas",
+    "title": "Bitácora de Elberon el Grande, volumen 2",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "bd6c00da-97d3-4171-8c02-7d2d2bc29552",
+    "mainCategory": "Revistas",
+    "title": "Bitácora de Elberon el Grande, volumen 3",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "1f92e9b3-217f-4f78-a132-1607748484e5",
+    "mainCategory": "Revistas",
+    "title": "Bitácora de Elberon el Grande, volumen 4",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "c6ee9f55-3d68-4d1a-bd85-9fe82abf6b43",
+    "mainCategory": "Revistas",
+    "title": "Bitácora de Elberon el Grande, volumen 5",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "mainCategory": "Revistas",
+    "title": "Poema de amor",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "d7bf61e8-d299-4aae-a6f9-0f43cf85ff23",
+    "mainCategory": "Revistas",
+    "title": "Diario de Lu'ah",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "53a36816-2f48-4ef0-9941-94b3d8c0b689",
+    "mainCategory": "Revistas",
+    "title": "Diario de Lymdrenn Tenvanni",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "f6b7627d-61d4-4a72-b16c-76eb86db2a79",
+    "mainCategory": "Revistas",
+    "title": "El diario de M'Sharra",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "da783c7f-8d53-4ac4-94a1-456e378d61c1",
+    "mainCategory": "Revistas",
+    "title": "Diario de Maluril",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "15e4c505-6d37-40c7-8b23-7627cb5a9f91",
+    "mainCategory": "Revistas",
+    "title": "Grimorio de Malyn Varen",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "9c3d9f4d-880b-4475-8d8f-4bb7b50814eb",
+    "mainCategory": "Revistas",
+    "title": "El diario de Margarita",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "fc8ee22d-77af-4b48-8b1e-d428b1f4a0cf",
+    "mainCategory": "Revistas",
+    "title": "Diario de la matriarca Drevlan",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "14c868d2-5b6c-4d20-930d-d16434b83369",
+    "mainCategory": "Revistas",
+    "title": "Notas de Medresi",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "bd6c00da-97d3-4171-8c02-7d2d2bc29552",
+    "mainCategory": "Revistas",
+    "title": "Diario del comerciante",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "1f92e9b3-217f-4f78-a132-1607748484e5",
+    "mainCategory": "Revistas",
+    "title": "Informe de incidente de Midden",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "c6ee9f55-3d68-4d1a-bd85-9fe82abf6b43",
+    "mainCategory": "Revistas",
+    "title": "Diario del minero (Skyrim)",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "mainCategory": "Revistas",
+    "title": "Altar misterioso",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "d7bf61e8-d299-4aae-a6f9-0f43cf85ff23",
+    "mainCategory": "Revistas",
+    "title": "El diario de Naara",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "53a36816-2f48-4ef0-9941-94b3d8c0b689",
+    "mainCategory": "Revistas",
+    "title": "Diario del nigromante (lobo de hueso)",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "5d1d2c72-c10a-4f19-9cd1-cbfeeb5b72cd",
+    "mainCategory": "Revistas",
+    "title": "Diario del nigromante (Plaga de los muertos)",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "8dbb3a66-1733-4d3d-913a-16e4dd8e6fc1",
+    "mainCategory": "Revistas",
+    "title": "Diario de Nepote",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "8dbb3a66-1733-4d3d-913a-16e4dd8e6fc1",
+    "mainCategory": "Revistas",
+    "title": "Nota del cliente de Nightgate Inn",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "8dbb3a66-1733-4d3d-913a-16e4dd8e6fc1",
+    "mainCategory": "Revistas",
+    "title": "El diario de Nivenor",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "8dbb3a66-1733-4d3d-913a-16e4dd8e6fc1",
+    "mainCategory": "Revistas",
+    "title": "Notas sobre la forja de huesos",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "8dbb3a66-1733-4d3d-913a-16e4dd8e6fc1",
+    "mainCategory": "Revistas",
+    "title": "Notas sobre Yngol Barrow",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "8dbb3a66-1733-4d3d-913a-16e4dd8e6fc1",
+    "mainCategory": "Revistas",
+    "title": "Diario de Nystrom",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "f6b7627d-61d4-4a72-b16c-76eb86db2a79",
+    "mainCategory": "Revistas",
+    "title": "viejo tomo",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "da783c7f-8d53-4ac4-94a1-456e378d61c1",
+    "mainCategory": "Revistas",
+    "title": "Diario de ojos pálidos",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "15e4c505-6d37-40c7-8b23-7627cb5a9f91",
+    "mainCategory": "Revistas",
+    "title": "Diario del vendedor ambulante",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "9c3d9f4d-880b-4475-8d8f-4bb7b50814eb",
+    "mainCategory": "Revistas",
+    "title": "Aspectos físicos de los hombres lobo",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "fc8ee22d-77af-4b48-8b1e-d428b1f4a0cf",
+    "mainCategory": "Revistas",
+    "title": "Diario del carterista",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "14c868d2-5b6c-4d20-930d-d16434b83369",
+    "mainCategory": "Revistas",
+    "title": "Diario del sacerdote Drureth",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "bd6c00da-97d3-4171-8c02-7d2d2bc29552",
+    "mainCategory": "Revistas",
+    "title": "El diario de Ramati",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "1f92e9b3-217f-4f78-a132-1607748484e5",
+    "mainCategory": "Revistas",
+    "title": "Diario del sacerdote de la recuperación",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "c6ee9f55-3d68-4d1a-bd85-9fe82abf6b43",
+    "mainCategory": "Revistas",
+    "title": "Rito del Águila Roja",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "mainCategory": "Revistas",
+    "title": "Registro de investigación",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "d7bf61e8-d299-4aae-a6f9-0f43cf85ff23",
+    "mainCategory": "Revistas",
+    "title": "Notas de investigación (Skyrim)",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "53a36816-2f48-4ef0-9941-94b3d8c0b689",
+    "mainCategory": "Revistas",
+    "title": "El diario de Rin",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "5d1d2c72-c10a-4f19-9cd1-cbfeeb5b72cd",
+    "mainCategory": "Revistas",
+    "title": "Libro de ruta en ruinas",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "8dbb3a66-1733-4d3d-913a-16e4dd8e6fc1",
+    "mainCategory": "Revistas",
+    "title": "Diario de Runil",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "f6b7627d-61d4-4a72-b16c-76eb86db2a79",
+    "mainCategory": "Revistas",
+    "title": "Diario del líder de los santos bandidos",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "da783c7f-8d53-4ac4-94a1-456e378d61c1",
+    "mainCategory": "Revistas",
+    "title": "Diario del escultor Visthar",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "15e4c505-6d37-40c7-8b23-7627cb5a9f91",
+    "mainCategory": "Revistas",
+    "title": "Diario del líder de los bandidos seductores",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "9c3d9f4d-880b-4475-8d8f-4bb7b50814eb",
+    "mainCategory": "Revistas",
+    "title": "Diario de búsqueda de artefactos antiguos, v1",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "fc8ee22d-77af-4b48-8b1e-d428b1f4a0cf",
+    "mainCategory": "Revistas",
+    "title": "Diario de busca-artefactos-antiguos, v2",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "14c868d2-5b6c-4d20-930d-d16434b83369",
+    "mainCategory": "Revistas",
+    "title": "La confesión de Sellono",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "bd6c00da-97d3-4171-8c02-7d2d2bc29552",
+    "mainCategory": "Revistas",
+    "title": "Diario de Sellonus vol. ",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "1f92e9b3-217f-4f78-a132-1607748484e5",
+    "mainCategory": "Revistas",
+    "title": "Diario de Sellonus vol. ",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "c6ee9f55-3d68-4d1a-bd85-9fe82abf6b43",
+    "mainCategory": "Revistas",
+    "title": "Diario de Sellonus vol. ",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "mainCategory": "Revistas",
+    "title": "Diario de Seviur",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "d7bf61e8-d299-4aae-a6f9-0f43cf85ff23",
+    "mainCategory": "Revistas",
+    "title": "El diario de Shogarz",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "53a36816-2f48-4ef0-9941-94b3d8c0b689",
+    "mainCategory": "Revistas",
+    "title": "El diario de Shurgoz",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "5d1d2c72-c10a-4f19-9cd1-cbfeeb5b72cd",
+    "mainCategory": "Revistas",
+    "title": "Diario de Sild",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "8dbb3a66-1733-4d3d-913a-16e4dd8e6fc1",
+    "mainCategory": "Revistas",
+    "title": "Diario de campo de Sinderion",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "8dbb3a66-1733-4d3d-913a-16e4dd8e6fc1",
+    "mainCategory": "Revistas",
+    "title": "Diario de Skjol",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "8dbb3a66-1733-4d3d-913a-16e4dd8e6fc1",
+    "mainCategory": "Revistas",
+    "title": "Diario de Skorm Caminante de Nieve",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "8dbb3a66-1733-4d3d-913a-16e4dd8e6fc1",
+    "mainCategory": "Revistas",
+    "title": "Diario de Skorvild",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "8dbb3a66-1733-4d3d-913a-16e4dd8e6fc1",
+    "mainCategory": "Revistas",
+    "title": "Diario del contrabandista",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "8dbb3a66-1733-4d3d-913a-16e4dd8e6fc1",
+    "mainCategory": "Revistas",
+    "title": "El diario de Soran",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "8dbb3a66-1733-4d3d-913a-16e4dd8e6fc1",
+    "mainCategory": "Revistas",
+    "title": "El diario de Staubin",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "8dbb3a66-1733-4d3d-913a-16e4dd8e6fc1",
+    "mainCategory": "Revistas",
+    "title": "Diario del extraño",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "8dbb3a66-1733-4d3d-913a-16e4dd8e6fc1",
+    "mainCategory": "Revistas",
+    "title": "El diario de Stromm",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "8dbb3a66-1733-4d3d-913a-16e4dd8e6fc1",
+    "mainCategory": "Revistas",
+    "title": "El diario de Sudi",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "8dbb3a66-1733-4d3d-913a-16e4dd8e6fc1",
+    "mainCategory": "Revistas",
+    "title": "El diario de Sila",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "8dbb3a66-1733-4d3d-913a-16e4dd8e6fc1",
+    "mainCategory": "Revistas",
+    "title": "Cuaderno de bitácora de Suvaris Atheron",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "8dbb3a66-1733-4d3d-913a-16e4dd8e6fc1",
+    "mainCategory": "Revistas",
+    "title": "El diario de Svarig",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "f6b7627d-61d4-4a72-b16c-76eb86db2a79",
+    "mainCategory": "Revistas",
+    "title": "Diario andrajoso (Mina Embershard)",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "da783c7f-8d53-4ac4-94a1-456e378d61c1",
+    "mainCategory": "Revistas",
+    "title": "Diario andrajoso (El cruce de Tolvald)",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "15e4c505-6d37-40c7-8b23-7627cb5a9f91",
+    "mainCategory": "Revistas",
+    "title": "Dossier Thalmor: Delphine",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "9c3d9f4d-880b-4475-8d8f-4bb7b50814eb",
+    "mainCategory": "Revistas",
+    "title": "Dossier Thalmor: Esbern",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "fc8ee22d-77af-4b48-8b1e-d428b1f4a0cf",
+    "mainCategory": "Revistas",
+    "title": "Dossier de Thalmor: Ulfric Capa de Tormenta",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "14c868d2-5b6c-4d20-930d-d16434b83369",
+    "mainCategory": "Revistas",
+    "title": "Los guardianes de la navaja",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "bd6c00da-97d3-4171-8c02-7d2d2bc29552",
+    "mainCategory": "Revistas",
+    "title": "Diario del ladrón",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "1f92e9b3-217f-4f78-a132-1607748484e5",
+    "mainCategory": "Revistas",
+    "title": "Diario de Thonar",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "c6ee9f55-3d68-4d1a-bd85-9fe82abf6b43",
+    "mainCategory": "Revistas",
+    "title": "Diario de Thoron - Volumen 1",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "mainCategory": "Revistas",
+    "title": "Diario de Thoron - Volumen 2",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "d7bf61e8-d299-4aae-a6f9-0f43cf85ff23",
+    "mainCategory": "Revistas",
+    "title": "Diario de Thoron - Volumen 3",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "53a36816-2f48-4ef0-9941-94b3d8c0b689",
+    "mainCategory": "Revistas",
+    "title": "El diario de Tolif",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "5d1d2c72-c10a-4f19-9cd1-cbfeeb5b72cd",
+    "mainCategory": "Revistas",
+    "title": "El libro de Ulfr",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "8dbb3a66-1733-4d3d-913a-16e4dd8e6fc1",
+    "mainCategory": "Revistas",
+    "title": "Diario de Umaña",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "8dbb3a66-1733-4d3d-913a-16e4dd8e6fc1",
+    "mainCategory": "Revistas",
+    "title": "Diario del guardia encubierto",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "8dbb3a66-1733-4d3d-913a-16e4dd8e6fc1",
+    "mainCategory": "Revistas",
+    "title": "El diario de Urval",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "8dbb3a66-1733-4d3d-913a-16e4dd8e6fc1",
+    "mainCategory": "Revistas",
+    "title": "El diario de Urzog",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "f6b7627d-61d4-4a72-b16c-76eb86db2a79",
+    "mainCategory": "Revistas",
+    "title": "Diario del naturalista vampiro",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "da783c7f-8d53-4ac4-94a1-456e378d61c1",
+    "mainCategory": "Revistas",
+    "title": "Diario de Vesparth",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "15e4c505-6d37-40c7-8b23-7627cb5a9f91",
+    "mainCategory": "Revistas",
+    "title": "Diario del ejecutor vigilante",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "9c3d9f4d-880b-4475-8d8f-4bb7b50814eb",
+    "mainCategory": "Revistas",
+    "title": "Informe del vigilante",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "fc8ee22d-77af-4b48-8b1e-d428b1f4a0cf",
+    "mainCategory": "Revistas",
+    "title": "Diario de Volk",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "14c868d2-5b6c-4d20-930d-d16434b83369",
+    "mainCategory": "Revistas",
+    "title": "Diario de Vonos",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "bd6c00da-97d3-4171-8c02-7d2d2bc29552",
+    "mainCategory": "Revistas",
+    "title": "Diario de la esposa",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "1f92e9b3-217f-4f78-a132-1607748484e5",
+    "mainCategory": "Revistas",
+    "title": "El diario de Wyndelius",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "c6ee9f55-3d68-4d1a-bd85-9fe82abf6b43",
+    "mainCategory": "Revistas",
+    "title": "El diario de Yakhtu",
+    "dlc": "Ninguno",
+    "subCategory": ""
+  },
+  {
+    "id": "f6b7627d-61d4-4a72-b16c-76eb86db2a79",
+    "mainCategory": "nacido de dragón",
+    "subCategory": "Revistas",
+    "title": "El diario de Eydis",
+    "dlc": "nacido de dragón"
+  },
+  {
+    "id": "da783c7f-8d53-4ac4-94a1-456e378d61c1",
+    "mainCategory": "nacido de dragón",
+    "subCategory": "Revistas",
+    "title": "El diario de Graciano",
+    "dlc": "nacido de dragón"
+  },
+  {
+    "id": "15e4c505-6d37-40c7-8b23-7627cb5a9f91",
+    "mainCategory": "nacido de dragón",
+    "subCategory": "Revistas",
+    "title": "El diario de Hrodulf",
+    "dlc": "nacido de dragón"
+  },
+  {
+    "id": "9c3d9f4d-880b-4475-8d8f-4bb7b50814eb",
+    "mainCategory": "nacido de dragón",
+    "subCategory": "Revistas",
+    "title": "Diario de Ildari, vol. ",
+    "dlc": "nacido de dragón"
+  },
+  {
+    "id": "fc8ee22d-77af-4b48-8b1e-d428b1f4a0cf",
+    "mainCategory": "nacido de dragón",
+    "subCategory": "Revistas",
+    "title": "Diario de Ildari, vol. ",
+    "dlc": "nacido de dragón"
+  },
+  {
+    "id": "14c868d2-5b6c-4d20-930d-d16434b83369",
+    "mainCategory": "nacido de dragón",
+    "subCategory": "Revistas",
+    "title": "Diario de Ildari, vol. ",
+    "dlc": "nacido de dragón"
+  },
+  {
+    "id": "bd6c00da-97d3-4171-8c02-7d2d2bc29552",
+    "mainCategory": "nacido de dragón",
+    "subCategory": "Revistas",
+    "title": "Diario de un loco",
+    "dlc": "nacido de dragón"
+  },
+  {
+    "id": "1f92e9b3-217f-4f78-a132-1607748484e5",
+    "mainCategory": "nacido de dragón",
+    "subCategory": "Revistas",
+    "title": "Diario privado de Lord Woodborne VII",
+    "dlc": "nacido de dragón"
+  },
+  {
+    "id": "c6ee9f55-3d68-4d1a-bd85-9fe82abf6b43",
+    "mainCategory": "nacido de dragón",
+    "subCategory": "Revistas",
+    "title": "Diario de Merilar",
+    "dlc": "nacido de dragón"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "mainCategory": "nacido de dragón",
+    "subCategory": "Revistas",
+    "title": "Notas de Raleth Eldri sobre Kagrumez",
+    "dlc": "nacido de dragón"
+  },
+  {
+    "id": "d7bf61e8-d299-4aae-a6f9-0f43cf85ff23",
+    "mainCategory": "nacido de dragón",
+    "subCategory": "Revistas",
+    "title": "Diario de Saden",
+    "dlc": "nacido de dragón"
+  },
+  {
+    "id": "53a36816-2f48-4ef0-9941-94b3d8c0b689",
+    "mainCategory": "nacido de dragón",
+    "subCategory": "Revistas",
+    "title": "Diario de servos",
+    "dlc": "nacido de dragón"
+  },
+  {
+    "id": "5d1d2c72-c10a-4f19-9cd1-cbfeeb5b72cd",
+    "mainCategory": "nacido de dragón",
+    "subCategory": "Revistas",
+    "title": "Notas del experimento de la araña",
+    "dlc": "nacido de dragón"
+  },
+  {
+    "id": "8dbb3a66-1733-4d3d-913a-16e4dd8e6fc1",
+    "mainCategory": "nacido de dragón",
+    "subCategory": "Revistas",
+    "title": "El diario de Ralis Sedarys - Volumen 19",
+    "dlc": "nacido de dragón"
+  },
+  {
+    "id": "da783c7f-8d53-4ac4-94a1-456e378d61c1",
+    "mainCategory": "nacido de dragón",
+    "subCategory": "Revistas",
+    "title": "El diario de Ralis Sedarys - Volumen 20",
+    "dlc": "nacido de dragón"
+  },
+  {
+    "id": "15e4c505-6d37-40c7-8b23-7627cb5a9f91",
+    "mainCategory": "nacido de dragón",
+    "subCategory": "Revistas",
+    "title": "El diario de Ralis Sedarys - Volumen 21",
+    "dlc": "nacido de dragón"
+  },
+  {
+    "id": "9c3d9f4d-880b-4475-8d8f-4bb7b50814eb",
+    "mainCategory": "nacido de dragón",
+    "subCategory": "Revistas",
+    "title": "El diario de Ralis Sedarys - Volumen 22",
+    "dlc": "nacido de dragón"
+  },
+  {
+    "id": "fc8ee22d-77af-4b48-8b1e-d428b1f4a0cf",
+    "mainCategory": "nacido de dragón",
+    "subCategory": "Revistas",
+    "title": "El diario de Ralis Sedarys - Volumen 23",
+    "dlc": "nacido de dragón"
+  },
+  {
+    "id": "14c868d2-5b6c-4d20-930d-d16434b83369",
+    "mainCategory": "nacido de dragón",
+    "subCategory": "Revistas",
+    "title": "El diario de Ulyn",
+    "dlc": "nacido de dragón"
+  },
+  {
+    "id": "f6b7627d-61d4-4a72-b16c-76eb86db2a79",
+    "mainCategory": "guardia del alba",
+    "subCategory": "Revistas",
+    "title": "Confesiones de un comerciante de pieles khajiita",
+    "dlc": "guardia del alba"
+  },
+  {
+    "id": "da783c7f-8d53-4ac4-94a1-456e378d61c1",
+    "mainCategory": "guardia del alba",
+    "subCategory": "Revistas",
+    "title": "Descubriendo Ruunvald, Volumen I",
+    "dlc": "guardia del alba"
+  },
+  {
+    "id": "15e4c505-6d37-40c7-8b23-7627cb5a9f91",
+    "mainCategory": "guardia del alba",
+    "subCategory": "Revistas",
+    "title": "Descubriendo Ruunvald, Volumen II",
+    "dlc": "guardia del alba"
+  },
+  {
+    "id": "9c3d9f4d-880b-4475-8d8f-4bb7b50814eb",
+    "mainCategory": "guardia del alba",
+    "subCategory": "Revistas",
+    "title": "Descubriendo Ruunvald, Volumen III",
+    "dlc": "guardia del alba"
+  },
+  {
+    "id": "fc8ee22d-77af-4b48-8b1e-d428b1f4a0cf",
+    "mainCategory": "guardia del alba",
+    "subCategory": "Revistas",
+    "title": "Descubriendo Ruunvald, Volumen IV",
+    "dlc": "guardia del alba"
+  },
+  {
+    "id": "14c868d2-5b6c-4d20-930d-d16434b83369",
+    "mainCategory": "guardia del alba",
+    "subCategory": "Revistas",
+    "title": "El diario de Katria",
+    "dlc": "guardia del alba"
+  },
+  {
+    "id": "bd6c00da-97d3-4171-8c02-7d2d2bc29552",
+    "mainCategory": "guardia del alba",
+    "subCategory": "Revistas",
+    "title": "El sensual bardo argoniano, v1",
+    "dlc": "guardia del alba"
+  },
+  {
+    "id": "1f92e9b3-217f-4f78-a132-1607748484e5",
+    "mainCategory": "guardia del alba",
+    "subCategory": "Revistas",
+    "title": "El diario de Valerica",
+    "dlc": "guardia del alba"
+  },
+  {
+    "id": "c6ee9f55-3d68-4d1a-bd85-9fe82abf6b43",
+    "mainCategory": "guardia del alba",
+    "subCategory": "Revistas",
+    "title": "Diario de Venarus Vulprin",
+    "dlc": "guardia del alba"
+  },
+  {
+    "id": "f18820ed-46d6-40bf-8c3a-b0dd2d08516a",
+    "mainCategory": "guardia del alba",
+    "subCategory": "Revistas",
+    "title": "Diario de Volk",
+    "dlc": "guardia del alba"
+  }
+]

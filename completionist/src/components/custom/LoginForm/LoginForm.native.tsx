@@ -5,15 +5,17 @@ import Button from '@components/general/Button/Button.native';
 import useLoginState from './hooks/useLoginState';
 import useLoginDispatch from './hooks/useLoginDispatch';
 import Condition from '@components/general/Condition.native';
+import { useTranslation } from 'react-i18next';
 
 const LoginForm = () => {
+  const { t } = useTranslation();
   const { setLoginFormData } = useLoginDispatch();
   const { loginFormData, isSigningUp } = useLoginState();
   
   return (
     <LoginFormContainer>
       <TextInput
-        placeholder={'Email'}
+        placeholder={t('common:auth.email')}
         inputStyle={'text'}
         value={loginFormData.email}
         onChangeText={(value) => setLoginFormData({
@@ -27,7 +29,7 @@ const LoginForm = () => {
       />
       <LoginFormButtonContainer>
         <TextInput
-          placeholder={'Password'}
+          placeholder={t('common:auth.password')}
           inputStyle={'text'}
           value={loginFormData.password ?? ''}
           onChangeText={(value) => setLoginFormData({
@@ -43,7 +45,7 @@ const LoginForm = () => {
       <Condition condition={isSigningUp}>
         <LoginFormButtonContainer>
           <TextInput
-            placeholder={'Username'}
+            placeholder={t('common:auth.username')}
             inputStyle={'text'}
             value={loginFormData.name}
             onChangeText={(value) => setLoginFormData({
@@ -59,7 +61,7 @@ const LoginForm = () => {
       </Condition>
       <Condition condition={!isSigningUp}>
         <Button
-          title={'Forgot Password?'}
+          title={t('common:auth.forgotPassword')}
           type={'text'}
           style={{ alignItems: 'flex-end' }}
           onPress={() => null}

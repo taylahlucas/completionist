@@ -3,6 +3,7 @@ import useGetTheme from '@styles/hooks/useGetTheme';
 import { styles } from './CustomSearchBarStyles.native';
 import Icon from '../Icon/Icon.native';
 import TextInput from '../TextInput/TextInput.native';
+import { useTranslation } from 'react-i18next';
 
 export interface CustomSearchBarProps {
   placeholder?: string;
@@ -11,12 +12,13 @@ export interface CustomSearchBarProps {
   onReset: () => void;
 }
 
-const CustomSearchBar = ({ placeholder = 'Search items...', searchValue, setSearchValue, onReset }: CustomSearchBarProps): JSX.Element => {
+const CustomSearchBar = ({ placeholder, searchValue, setSearchValue, onReset }: CustomSearchBarProps): JSX.Element => {
+  const { t } = useTranslation();
   const theme = useGetTheme();
   
   return (
     <TextInput
-      placeholder={placeholder}
+      placeholder={!!placeholder ? placeholder : t('common:search')}
       value={searchValue}
       height={38}
       onChangeText={setSearchValue}

@@ -1,0 +1,51 @@
+{
+  "appTitle": "Completionist.",
+  "welcome": "Welcome",
+  "search": "Search items...",
+  "showMore": "Show more",
+  "none": "None",
+  "main": "Main",
+  "active": "ACTIVE",
+  "inactive": "INACTIVE",
+  "auth": {
+    "email": "Email",
+    "password": "Password",
+    "username": "Username",
+    "forgotPassword": "Forgot Password?",
+    "login": "Login",
+    "logout": "logout",
+    "signUp": "Sign Up",
+    "createAccount": "Create Account",
+    "requestAccount": "Don't have an account?",
+    "backToLogin": "Back to Login"
+  },
+  "screens": {
+    "quests": "Quests",
+    "collectables": "Collectables",
+    "locations": "Locations",
+    "miscellaneous": "Miscellaneous",
+    "gameSelection": "Game Selection",
+    "sendRequest": "Send Request",
+    "subscriptions": "Subscriptions",
+    "settings": "Settings"
+  },
+  "sendRequest": {
+    "subject": "Subject",
+    "writeRequest": "Write your request here...",
+    "requestGameDesc": "Feel free to request a game, report a bug or make some suggestions to improve the app!"
+  },
+  "settings": {
+    "description": "Feel free to request a game, report a bug or make some suggestions to improve the app!",
+    "setCollections": "Set collections:",
+    "enabledDLC": "Enable/Disable DLC:",
+    "showHide": "Show/Hide:",
+    "completedItems": "Completed Items",
+    "disabledSections": "Disabled Sections"
+  },
+  "errors": {
+    "error": "Error",
+    "pleaseRefreshApp": "Please refresh the app",
+    "noEmailExists": "Email does not exist",
+    "googleSignIn": "Error with google sign in"
+  }
+}

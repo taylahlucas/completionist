@@ -12,8 +12,17 @@ export const games = [
   SubscriptionTypeEnum.FALLOUT_4
 ]
 
-export const skyrimDLC = ['Dawnguard', 'Dragonborn'];
-export const fallout4DLC = ['Automatron', 'Far Harbor', 'Nuka-World', 'Vault-Tec Workshop'];
+export const skyrimDLC = [
+  'dawnguard',
+  'dragonborn',
+  'hearthfire'
+];
+export const fallout4DLC = [
+  'automatron',
+  'farHarbor',
+  'nukaWorld',
+  'vaultTecWorkshop'
+];
 
 export const requestCodes = {
   SUCCESS: 200,

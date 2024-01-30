@@ -26,6 +26,7 @@ npx react-native run-ios --port 8002
 - @types/styled-components-react-native
 - react-native-vector-icons
 - @types/react-native-vector-icons
+- @tsconfig/react-native
 
 - @react-navigation/native
 - @react-navigation/drawer
@@ -34,7 +35,10 @@ npx react-native run-ios --port 8002
 - react-native-gesture-handler
 
 - babel-plugin-module-resolver
+- babel-cli
+- babel-present-env
 - react-native-dotenv
+- @babel/node
 
 - react-redux
 - @reduxjs/toolkit
@@ -52,6 +56,16 @@ npx react-native run-ios --port 8002
 - uuid
 - @types/uuid
 
+- i18next-http-backend
+- i18n
+- react-i18next
+- react-native-localize
+- i18next-browser-languagedetector
+- glob
+- lodash
+- @types/lodash
+- moment
+
 ## Backend
 
 - mongoose
@@ -66,3 +80,20 @@ npx react-native run-ios --port 8002
 - poassport-google-oauth20
 - crypto
 - nodemailer
+
+
+## Updating translations
+
+Pull from master:
+- git submodule foreach git pull origin branch_name
+-- Need to change 'translations' back to 'Completionist-Translations'
+
+Update:
+- git submodule update --init --recursive --remote translations
+
+Confirm:
+- npm run generate-locale
+
+
+- Translations in categories.json must match the name of the category in camel case.
+

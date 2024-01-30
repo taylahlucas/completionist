@@ -1,0 +1,75 @@
+{
+  "skyrim": {
+    "title": "Skyrim",
+    "categories": {
+      "quests": {
+        "title": "Misiones",
+        "mainQuests": "Misiones principales",
+        "factionQuests": "Misiones de facción",
+        "civilWar": "Guerra civil",
+        "daedricQuests": "Misiones daédricas",
+        "dungeonQuests": "Misiones de mazmorra",
+        "miscellaneousQuests": "Misiones varias",
+        "bountyQuests": "Misiones de recompensa",
+        "globalQuests": "Misiones globales"
+      },
+      "collectables": {
+        "title": "Coleccionables",
+        "dragonPriestMasks": "Máscaras de sacerdote dragón",
+        "daedricArtefacts": "Artefactos daédricos",
+        "bugInAJar": "Error en un frasco",
+        "shouts": "Gritos",
+        "uniqueArmourSets": "Conjuntos de armaduras únicos",
+        "uniqueWeapons": "Armas únicas",
+        "shrines": "Santuarios",
+        "stones": "piedras"
+      },
+      "locations": {
+        "title": "Ubicaciones"
+      },
+      "miscellaneous": {
+        "title": "Misceláneas",
+        "books": "Libros",
+        "spellTomes": "Tomos de hechizos",
+        "journals": "Revistas"
+      }
+    },
+    "dlc": {
+      "dawnguard": "guardia del alba",
+      "dragonborn": "nacido de dragón",
+      "hearthfire": "fuego de hogar"
+    }
+  },
+  "fallout4": {
+    "title": "Fallout 4",
+    "categories": {
+      "quests": {
+        "title": "Misiones",
+        "mainQuests": "Misiones principales",
+        "factionQuests": "Misiones de facción",
+        "sideQuests": "Misiones secundarias"
+      },
+      "collectables": {
+        "title": "Coleccionables",
+        "boobleheads": "muñecos",
+        "magazines": "Revistas",
+        "uniqueWeapons": "Armas únicas",
+        "uniqueArmour": "Armadura única",
+        "powerArmour": "Armadura de poder"
+      },
+      "locations": {
+        "title": "Ubicaciones"
+      },
+      "miscellaneous": {
+        "title": "Misceláneas",
+        "holotapes": "holocintas"
+      }
+    },
+    "dlc": {
+      "automatron": "autómata",
+      "farHarbor": "Puerto lejano",
+      "nukaWorld": "Nuka-Mundo",
+      "vaultTecWorkshop": "Taller Vault-Tec"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "appTitle": "Finaliste.",
+  "welcome": "Accueillir",
+  "search": "Rechercher des éléments...",
+  "showMore": "Montre plus",
+  "none": "Aucun",
+  "main": "Principal",
+  "active": "ACTIF",
+  "inactive": "INACTIF",
+  "auth": {
+    "email": "E-mail",
+    "password": "Mot de passe",
+    "username": "Nom d'utilisateur",
+    "forgotPassword": "Mot de passe oublié?",
+    "login": "Se connecter",
+    "logout": "Se déconnecter",
+    "signUp": "S'inscrire",
+    "createAccount": "Créer un compte",
+    "requestAccount": "Vous n'avez pas de compte ?",
+    "backToLogin": "Retour connexion"
+  },
+  "screens": {
+    "quests": "Quêtes",
+    "collectables": "Objets de collection",
+    "locations": "Emplacements",
+    "miscellaneous": "Divers",
+    "gameSelection": "Sélection de jeux",
+    "sendRequest": "Envoyer une demande",
+    "subscriptions": "Abonnements",
+    "settings": "Paramètres"
+  },
+  "sendRequest": {
+    "subject": "Sujet",
+    "writeRequest": "Écrivez votre demande ici...",
+    "requestGameDesc": "N'hésitez pas à demander un jeu, signaler un bug ou faire des suggestions pour améliorer l'application !"
+  },
+  "settings": {
+    "description": "N'hésitez pas à demander un jeu, signaler un bug ou faire des suggestions pour améliorer l'application !",
+    "setCollections": "Définir les collections :",
+    "enabledDLC": "Activer/Désactiver le DLC :",
+    "showHide": "Afficher/Masquer :",
+    "completedItems": "Articles terminés",
+    "disabledSections": "Sections désactivées"
+  },
+  "errors": {
+    "error": "Erreur",
+    "pleaseRefreshApp": "Veuillez actualiser l'application",
+    "noEmailExists": "L'e-mail n'existe pas",
+    "googleSignIn": "Erreur avec la connexion Google"
+  }
+}

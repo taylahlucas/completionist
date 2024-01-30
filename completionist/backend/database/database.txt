@@ -1,3 +1,18 @@
+Quests
+{
+  id: generated_uuid
+  mainCategory: string
+  subCategory?: string
+  subCategoryType?: string
+  title: string
+  location?: string
+  hold?: string
+  href?: string
+  dlc: string
+  conflictingId
+}
+
+
 Locations
 {
   id: generated_uuid
@@ -26,28 +41,10 @@ Collectables
   dlc: string
 }
 
-Quests
-{
-  id: generated_uuid
-  mainCategory: string
-  subCategory?: string
-  subCategoryType?: string
-  title: string
-  location?: string
-  hold?: string
-  href?: string
-  dlc: string
-}
 
-Can you do the convert the following fallout 4 locations
-to the following JSON:
 
-  {
-    "id": <generated_uuid>,
-    "title": <given value>,
-    "hold": "",
-    "dlc": "Automatron"
-  }
+
+TODO: 
 
 HEARTHFIRE QUESTS
 https://en.uesp.net/wiki/Category:Skyrim-Hearthfire-Quests

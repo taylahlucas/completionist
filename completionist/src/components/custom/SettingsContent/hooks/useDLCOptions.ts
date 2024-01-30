@@ -1,26 +1,28 @@
+import { useTranslation } from 'react-i18next';
 import useMainState from '@redux/hooks/useMainState';
 import { SubscriptionTypeEnum } from '@utils/CustomEnums';
 import { skyrimDLC, fallout4DLC } from '@utils/constants';
-import { SettingsConfigItem, SettingsListItem, UserData } from '@utils/CustomInterfaces';
+import { SettingsConfigItem, SettingsListItem } from '@utils/CustomInterfaces';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
 
 interface DLCOptionsReturnType {
-  useGetDLCOptions: () => SettingsListItem[];
-  useSetDLCOptions: (title: string) => void;
+  getDLCOptions: () => SettingsListItem[];
+  setDLCOptions: (title: string) => void;
 }
 
 const useDLCOptions = (): DLCOptionsReturnType => {
+  const { t } = useTranslation();
   const { setUser } = useMainDispatch();
   const { selectedGameSettings, user } = useMainState();
 
-  const updateSettingsConfig = (gameKey: string, id: string) => {
+  const updateSettingsConfig = (gameKey: SubscriptionTypeEnum, id: string) => {
     setUser({
       ...user,
       data: {
         ...user.data,
         [gameKey]: {
-          ...(user.data as any)[gameKey],
-          settingsConfig: (user.data as any)[gameKey].settingsConfig.map((config: SettingsConfigItem) => ({
+          ...user.data[gameKey],
+          settingsConfig: user.data[gameKey].settingsConfig.map((config: SettingsConfigItem) => ({
             ...config,
             isActive: config.category === id ? !config.isActive : config.isActive,
           })),
@@ -29,13 +31,13 @@ const useDLCOptions = (): DLCOptionsReturnType => {
     });
   };
 
-  const useGetDLCOptions = (): SettingsListItem[] => {
+  const getDLCOptions = (): SettingsListItem[] => {
     switch (selectedGameSettings) {
       case SubscriptionTypeEnum.SKYRIM:
         return skyrimDLC.map((item) => {
           return {
             id: item,
-            title: item,
+            title: t(`categories:skyrim.dlc.${item}`),
             isActive: user.data.skyrim.settingsConfig.filter(config => config.category === item && config.isActive).length > 0
           }
         });
@@ -43,56 +45,18 @@ const useDLCOptions = (): DLCOptionsReturnType => {
         return fallout4DLC.map((item) => {
           return {
             id: item,
-            title: item,
+            title: t(`categories:fallout4.dlc.${item}`),
             isActive: user.data.fallout4.settingsConfig.filter(config => config.category === item && config.isActive).length > 0
           }
         });
     }
   };
 
-  const useSetDLCOptions = (id: string) => {
-    switch (selectedGameSettings) {
-      case SubscriptionTypeEnum.SKYRIM:
-        updateSettingsConfig('skyrim', id);
-        // setUser({
-        //   ...user,
-        //   data: {
-        //     ...user.data,
-        //     skyrim: {
-        //       ...user.data.skyrim,
-        //       settingsConfig: user.data.skyrim.settingsConfig.map(config => {
-        //         return {
-        //           ...config,
-        //           isActive: config.category === id ? !config.isActive : config.isActive
-        //         }
-        //       })
-        //     }
-        //   }
-        // });
-        return;
-
-      case SubscriptionTypeEnum.FALLOUT_4:
-        updateSettingsConfig('fallout4', id);
-        // setUser({
-        //   ...user,
-        //   data: {
-        //     ...user.data,
-        //     fallout4: {
-        //       ...user.data.fallout4,
-        //       settingsConfig: user.data.fallout4.settingsConfig.map(config => {
-        //         return {
-        //           ...config,
-        //           isActive: config.category === id ? !config.isActive : config.isActive
-        //         }
-        //       })
-        //     }
-        //   }
-        // });
-        return;
-    }
+  const setDLCOptions = (id: string) => {
+    updateSettingsConfig(selectedGameSettings, id);
   };
 
-  return { useGetDLCOptions, useSetDLCOptions };
+  return { getDLCOptions, setDLCOptions };
 };
 
 export default useDLCOptions;

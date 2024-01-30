@@ -70,3 +70,7 @@ export const SettingsContentScrollView = styled(ScrollableList)`
   width: ${STANDARD_WIDTH}px;
   height: 120px;
 `;
+
+export const SettingsContentTitle = styled(StyledText)`
+  margin-right: 16px;
+`;

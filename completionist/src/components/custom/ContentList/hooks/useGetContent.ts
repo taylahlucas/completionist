@@ -1,8 +1,9 @@
+import { useTranslation } from 'react-i18next';
 import { GameContentItem } from '@utils/CustomInterfaces';
 import useMainState from '@redux/hooks/useMainState';
-import useSearchStringFormatter from '@utils/hooks/useSearchStringFormatter';
 import useGetGameData from '@data/hooks/useGetGameData';
 import useContentState from './useContentState';
+import useFormatter from '@utils/hooks/useFormatter';
 
 interface GameDataReturnType {
   getFilteredContent: () => GameContentItem[];
@@ -13,10 +14,11 @@ interface GameDataReturnType {
 }
 
 const useGetContent = (): GameDataReturnType => {
+  const { t } = useTranslation();
   const { sectionType } = useContentState();
   const { selectedGame } = useMainState();
   const { searchValue } = useContentState();
-  const getFormattedSearchString = useSearchStringFormatter();
+  const { getFormattedSearchString } = useFormatter();
   const { mapDataTo } = useGetGameData();
   const items = mapDataTo(sectionType, selectedGame);
 
@@ -25,11 +27,11 @@ const useGetContent = (): GameDataReturnType => {
   }
 
   const getContentForCategory = (mainCategory: string): GameContentItem[] => {
-    return items.filter(item => item.mainCategory === (mainCategory === 'None' ? 'Main' : mainCategory));
+    return items.filter(item => item.mainCategory === mainCategory);
   }
 
   const getContentForSubCategory = (mainCategory: string = '', subCategory: string = ''): GameContentItem[] => {
-    return items.filter(item => item.mainCategory === (mainCategory === 'None' ? 'Main' : mainCategory) && item.subCategory === subCategory);
+    return items.filter(item => item.mainCategory === mainCategory && item.subCategory === subCategory);
   }
 
   const getContentForSubCategoryWithType = (subCategory: string, subCategoryType: string = ''): GameContentItem[] => {
@@ -37,7 +39,7 @@ const useGetContent = (): GameDataReturnType => {
   }
 
   const getAllContentForCategory = (mainCategory: string): GameContentItem[] => {
-    return items.filter(item => item.mainCategory === (mainCategory === 'None' ? 'Main' : mainCategory));
+    return items.filter(item => item.mainCategory === mainCategory);
   }
 
   return {

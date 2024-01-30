@@ -1,14 +1,15 @@
 import React from 'react';
 import Dropdown from '@components/general/Dropdown/Dropdown.native';
-import StyledText from '@components/general/Text/StyledText.native';
 import { SettingsConfigItem } from '@utils/CustomInterfaces';
 import SettingsContentMainHeader from './SettingsContentMainHeader.native';
 import useGetUserGameData from '@data/hooks/useGetUserGameData';
-import { style, SettingsContentSubItemContainer, SettingsContentScrollView } from './SettingsContentStyledComponents.native';
+import { style, SettingsContentSubItemContainer, SettingsContentScrollView, SettingsContentTitle} from './SettingsContentStyledComponents.native';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import useSettingsState from './hooks/useSettingsState';
 import useSettingsDispatch from './hooks/useSettingsDispatch';
 import SettingsContentCheckBox from './SettingsContentCheckbox.native';
+import useTranslateGameContent from '@utils/hooks/useTranslateGameContent.native';
+import useMainState from '@redux/hooks/useMainState';
 
 interface SettingsContentItemDropdownProps {
   item: SettingsConfigItem;
@@ -16,9 +17,11 @@ interface SettingsContentItemDropdownProps {
 
 const SettingsContentItemDropdown = ({ item }: SettingsContentItemDropdownProps) => {
   const theme = useGetTheme();
+  const { selectedGameSettings } = useMainState();
   const { setSelectedCategory } = useSettingsDispatch();
   const { selectedCategory } = useSettingsState();
   const { getUserSettingsSubConfig } = useGetUserGameData();
+  const { translateCategoryName } = useTranslateGameContent();
   
   return (
     <Dropdown
@@ -30,12 +33,12 @@ const SettingsContentItemDropdown = ({ item }: SettingsContentItemDropdownProps)
       header={<SettingsContentMainHeader item={item} />}
     >
       <SettingsContentScrollView contentContainerStyle={style.scrollContent}>
-        {getUserSettingsSubConfig(item.section).map((item, index) => (
+        {getUserSettingsSubConfig(item.section).map((settingsItem, index) => (
           <SettingsContentSubItemContainer key={index} color={theme.darkGrey}>
-            <StyledText color={theme.lightGrey} align={'left'}>
-              {item.category === 'None' ? 'Main' : item.category}
-            </StyledText>
-            <SettingsContentCheckBox item={item} />
+            <SettingsContentTitle color={theme.lightGrey} align={'left'}>
+              {translateCategoryName(selectedGameSettings, settingsItem)}
+            </SettingsContentTitle>
+            <SettingsContentCheckBox item={settingsItem} />
           </SettingsContentSubItemContainer>
         ))}
       </SettingsContentScrollView>

@@ -1,0 +1,75 @@
+{
+  "skyrim": {
+    "title": "Skyrim",
+    "categories": {
+      "quests": {
+        "title": "Missões",
+        "mainQuests": "Missões principais",
+        "factionQuests": "Missões de facção",
+        "civilWar": "Guerra civil",
+        "daedricQuests": "Missões Daédricas",
+        "dungeonQuests": "Missões de masmorra",
+        "miscellaneousQuests": "Missões Diversas",
+        "bountyQuests": "Missões de recompensa",
+        "globalQuests": "Missões Globais"
+      },
+      "collectables": {
+        "title": "Colecionáveis",
+        "dragonPriestMasks": "Máscaras de Sacerdote Dragão",
+        "daedricArtefacts": "Artefatos Daédricos",
+        "bugInAJar": "Bug em uma jarra",
+        "shouts": "Gritos",
+        "uniqueArmourSets": "Conjuntos de armadura exclusivos",
+        "uniqueWeapons": "Armas únicas",
+        "shrines": "Santuários",
+        "stones": "Pedras"
+      },
+      "locations": {
+        "title": "Localizações"
+      },
+      "miscellaneous": {
+        "title": "Diversos",
+        "books": "Livros",
+        "spellTomes": "Tomos de feitiços",
+        "journals": "Diários"
+      }
+    },
+    "dlc": {
+      "dawnguard": "Dawnguard",
+      "dragonborn": "Draconato",
+      "hearthfire": "Lareira"
+    }
+  },
+  "fallout4": {
+    "title": "Fallout 4",
+    "categories": {
+      "quests": {
+        "title": "Missões",
+        "mainQuests": "Missões principais",
+        "factionQuests": "Missões de facção",
+        "sideQuests": "Missões paralelas"
+      },
+      "collectables": {
+        "title": "Colecionáveis",
+        "boobleheads": "Bobbleheads",
+        "magazines": "Revistas",
+        "uniqueWeapons": "Armas únicas",
+        "uniqueArmour": "Armadura Única",
+        "powerArmour": "Armadura Potente"
+      },
+      "locations": {
+        "title": "Localizações"
+      },
+      "miscellaneous": {
+        "title": "Diversos",
+        "holotapes": "Holotapes"
+      }
+    },
+    "dlc": {
+      "automatron": "Autômato",
+      "farHarbor": "Porto Distante",
+      "nukaWorld": "Nuka-Mundo",
+      "vaultTecWorkshop": "Oficina Vault-Tec"
+    }
+  }
+}

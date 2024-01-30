@@ -1,0 +1,51 @@
+{
+  "appTitle": "完璧主義者。",
+  "welcome": "いらっしゃいませ",
+  "search": "アイテムを検索...",
+  "showMore": "もっと見せる",
+  "none": "なし",
+  "main": "主要",
+  "active": "アクティブ",
+  "inactive": "非活性",
+  "auth": {
+    "email": "Eメール",
+    "password": "パスワード",
+    "username": "ユーザー名",
+    "forgotPassword": "パスワードをお忘れですか？",
+    "login": "ログイン",
+    "logout": "ログアウト",
+    "signUp": "サインアップ",
+    "createAccount": "アカウントを作成する",
+    "requestAccount": "アカウントをお持ちでない場合は、",
+    "backToLogin": "ログインに戻る"
+  },
+  "screens": {
+    "quests": "クエスト",
+    "collectables": "収集品",
+    "locations": "所在地",
+    "miscellaneous": "その他",
+    "gameSelection": "ゲームの選択",
+    "sendRequest": "リクエストの送信",
+    "subscriptions": "定期購入",
+    "settings": "設定"
+  },
+  "sendRequest": {
+    "subject": "主題",
+    "writeRequest": "ここにリクエストを書いてください...",
+    "requestGameDesc": "ゲームのリクエスト、バグの報告、アプリを改善するための提案など、お気軽にどうぞ！"
+  },
+  "settings": {
+    "description": "ゲームのリクエスト、バグの報告、アプリを改善するための提案など、お気軽にどうぞ！",
+    "setCollections": "セットコレクション:",
+    "enabledDLC": "DLC を有効/無効にする:",
+    "showHide": "表示/非表示:",
+    "completedItems": "完成品",
+    "disabledSections": "無効化されたセクション"
+  },
+  "errors": {
+    "error": "エラー",
+    "pleaseRefreshApp": "アプリを更新してください",
+    "noEmailExists": "電子メールが存在しません",
+    "googleSignIn": "Googleサインインでエラーが発生する"
+  }
+}

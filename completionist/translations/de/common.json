@@ -1,0 +1,51 @@
+{
+  "appTitle": "Vervollständiger.",
+  "welcome": "Willkommen",
+  "search": "Artikel suchen...",
+  "showMore": "Zeig mehr",
+  "none": "Keiner",
+  "main": "Hauptsächlich",
+  "active": "AKTIV",
+  "inactive": "INAKTIV",
+  "auth": {
+    "email": "Email",
+    "password": "Passwort",
+    "username": "Nutzername",
+    "forgotPassword": "Passwort vergessen?",
+    "login": "Anmeldung",
+    "logout": "Ausloggen",
+    "signUp": "Melden Sie sich an",
+    "createAccount": "Benutzerkonto erstellen",
+    "requestAccount": "Sie haben noch kein Konto?",
+    "backToLogin": "Zurück zur Anmeldung"
+  },
+  "screens": {
+    "quests": "Quests",
+    "collectables": "Sammlerstücke",
+    "locations": "Standorte",
+    "miscellaneous": "Verschiedenes",
+    "gameSelection": "Spielauswahl",
+    "sendRequest": "Anfrage senden",
+    "subscriptions": "Abonnements",
+    "settings": "Einstellungen"
+  },
+  "sendRequest": {
+    "subject": "Thema",
+    "writeRequest": "Schreiben Sie hier Ihre Anfrage...",
+    "requestGameDesc": "Fordern Sie gerne ein Spiel an, melden Sie einen Fehler oder machen Sie Vorschläge zur Verbesserung der App!"
+  },
+  "settings": {
+    "description": "Fordern Sie gerne ein Spiel an, melden Sie einen Fehler oder machen Sie Vorschläge zur Verbesserung der App!",
+    "setCollections": "Set-Sammlungen:",
+    "enabledDLC": "DLC aktivieren/deaktivieren:",
+    "showHide": "Anzeigen Ausblenden:",
+    "completedItems": "Abgeschlossene Artikel",
+    "disabledSections": "Behindertenbereiche"
+  },
+  "errors": {
+    "error": "Fehler",
+    "pleaseRefreshApp": "Bitte aktualisieren Sie die App",
+    "noEmailExists": "Email existiert nicht",
+    "googleSignIn": "Fehler bei der Google-Anmeldung"
+  }
+}

@@ -18,18 +18,20 @@ import Condition from '@components/general/Condition.native';
 import RequestGame from '@screens/RequestGame.native';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import Landing from '@screens/Landing.native';
+import useTranslateGameContent from '@utils/hooks/useTranslateGameContent.native';
 
 const Drawer = createDrawerNavigator<RootDrawerParamList>();
 
 const NavigationDrawer = () => {
   const theme = useGetTheme();
   const { selectedGame } = useMainState();
+  const { translateGameName } = useTranslateGameContent();
   
   const NavigationDrawerContent = (): JSX.Element => {
     return (
       <Condition condition={!!selectedGame}>
         <NavigationDrawerContainer>
-          <StyledText type={'Heading'} color={theme.lightGrey}>{selectedGame ?? ''}</StyledText>
+          <StyledText type={'Heading'} color={theme.lightGrey}>{!!selectedGame ? translateGameName(selectedGame) : ''}</StyledText>
           <NavigationDrawerBody />
         </NavigationDrawerContainer>
       </Condition>

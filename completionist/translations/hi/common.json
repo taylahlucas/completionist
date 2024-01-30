@@ -1,0 +1,51 @@
+{
+  "appTitle": "पूर्णतावादी।",
+  "welcome": "स्वागत",
+  "search": "आइटम खोजें...",
+  "showMore": "और दिखाओ",
+  "none": "कोई नहीं",
+  "main": "मुख्य",
+  "active": "सक्रिय",
+  "inactive": "निष्क्रिय",
+  "auth": {
+    "email": "ईमेल",
+    "password": "पासवर्ड",
+    "username": "उपयोगकर्ता नाम",
+    "forgotPassword": "पासवर्ड भूल गए?",
+    "login": "लॉग इन करें",
+    "logout": "लॉग आउट",
+    "signUp": "साइन अप करें",
+    "createAccount": "खाता बनाएं",
+    "requestAccount": "कोई खाता नहीं है?",
+    "backToLogin": "लॉगिन पर वापस जाएं"
+  },
+  "screens": {
+    "quests": "खोज",
+    "collectables": "संग्रहणीय वस्तुएँ",
+    "locations": "स्थानों",
+    "miscellaneous": "मिश्रित",
+    "gameSelection": "खेल चयन",
+    "sendRequest": "अनुरोध भेजा",
+    "subscriptions": "सदस्यता",
+    "settings": "समायोजन"
+  },
+  "sendRequest": {
+    "subject": "विषय",
+    "writeRequest": "अपना अनुरोध यहां लिखें...",
+    "requestGameDesc": "बेझिझक किसी गेम के लिए अनुरोध करें, बग की रिपोर्ट करें या ऐप को बेहतर बनाने के लिए कुछ सुझाव दें!"
+  },
+  "settings": {
+    "description": "बेझिझक किसी गेम के लिए अनुरोध करें, बग की रिपोर्ट करें या ऐप को बेहतर बनाने के लिए कुछ सुझाव दें!",
+    "setCollections": "संग्रह सेट करें:",
+    "enabledDLC": "डीएलसी सक्षम/अक्षम करें:",
+    "showHide": "छिपा हुया दिखाओ:",
+    "completedItems": "पूर्ण आइटम",
+    "disabledSections": "विकलांग अनुभाग"
+  },
+  "errors": {
+    "error": "गलती",
+    "pleaseRefreshApp": "कृपया ऐप को रीफ्रेश करें",
+    "noEmailExists": "ईमेल मौजूद नहीं है",
+    "googleSignIn": "गूगल साइन इन में त्रुटि"
+  }
+}

@@ -1,15 +1,15 @@
 import { createSlice } from '@reduxjs/toolkit';
 import { DropDownType } from '@utils/CustomInterfaces';
-import { ContentSection } from '@utils/CustomTypes';
+import { ContentSectionEnum } from '@utils/CustomEnums';
 
 export interface ContentState {
-  readonly sectionType: ContentSection;
+  readonly sectionType: ContentSectionEnum;
   readonly searchValue: string;
   readonly selectedCategory: DropDownType;
 };
 
 export const initialState: ContentState = {
-  sectionType: 'Quests',
+  sectionType: ContentSectionEnum.QUESTS,
   searchValue: '',
   selectedCategory: {
     category: ''

@@ -1,0 +1,51 @@
+{
+  "appTitle": "Kompletionis.",
+  "welcome": "Selamat datang",
+  "search": "Cari item...",
+  "showMore": "Menampilkan lebih banyak",
+  "none": "Tidak ada",
+  "main": "Utama",
+  "active": "AKTIF",
+  "inactive": "TIDAK AKTIF",
+  "auth": {
+    "email": "Surel",
+    "password": "Kata sandi",
+    "username": "Nama belakang",
+    "forgotPassword": "Tidak ingat kata sandi?",
+    "login": "Gabung",
+    "logout": "Keluar",
+    "signUp": "Mendaftar",
+    "createAccount": "Buat Akun",
+    "requestAccount": "Belum punya akun?",
+    "backToLogin": "Kembali untuk masuk"
+  },
+  "screens": {
+    "quests": "Pencarian",
+    "collectables": "Barang koleksi",
+    "locations": "Lokasi",
+    "miscellaneous": "Aneka ragam",
+    "gameSelection": "Pemilihan Permainan",
+    "sendRequest": "Kirim Permintaan",
+    "subscriptions": "Langganan",
+    "settings": "Pengaturan"
+  },
+  "sendRequest": {
+    "subject": "Subjek",
+    "writeRequest": "Tulis permintaan Anda di sini...",
+    "requestGameDesc": "Jangan ragu untuk meminta permainan, melaporkan bug, atau memberikan beberapa saran untuk meningkatkan aplikasi!"
+  },
+  "settings": {
+    "description": "Jangan ragu untuk meminta permainan, melaporkan bug, atau memberikan beberapa saran untuk meningkatkan aplikasi!",
+    "setCollections": "Tetapkan koleksi:",
+    "enabledDLC": "Aktifkan/Nonaktifkan DLC:",
+    "showHide": "Tunjukan Sembunyikan:",
+    "completedItems": "Barang Selesai",
+    "disabledSections": "Bagian yang Dinonaktifkan"
+  },
+  "errors": {
+    "error": "Kesalahan",
+    "pleaseRefreshApp": "Harap segarkan aplikasi",
+    "noEmailExists": "Emailnya tidak ada",
+    "googleSignIn": "Kesalahan saat masuk Google"
+  }
+}

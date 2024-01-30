@@ -1,15 +1,14 @@
 import React, { useState } from 'react';
 import { View } from 'react-native';
 import Dropdown from '@components/general/Dropdown/Dropdown.native';
-import StyledText from '@components/general/Text/StyledText.native';
 import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
 import useGetGameImage from './hooks/useGetGameImage.native';
-import useMainState from '@redux/hooks/useMainState';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
 import GameListItem from './GameListItem.native';
 import { ScreenEnum } from '@utils/CustomEnums';
 import { Subscription } from '@utils/CustomInterfaces';
 import GameListSectionHeader from './GameListSectionHeader.native';
+import useTranslateGameContent from '@utils/hooks/useTranslateGameContent.native';
 
 interface GameListSectionDropdown {
   title: string;
@@ -20,8 +19,9 @@ const GameListSectionDropdown = ({ title, data }: GameListSectionDropdown) => {
   const navigation = useReactNavigation();
   const { setSelectedGame, setSelectedGameSettings, reset } = useMainDispatch();
   const { getGameImage } = useGetGameImage();
+  const { translateGameName } = useTranslateGameContent();
   const [isOpen, setIsOpen] = useState(true);
-  
+
   return (
     <Dropdown
       header={<GameListSectionHeader isOpen={isOpen} title={title} />}
@@ -32,7 +32,7 @@ const GameListSectionDropdown = ({ title, data }: GameListSectionDropdown) => {
         {data.map((game, index) => (
           <GameListItem
             key={index}
-            title={game.id}
+            title={translateGameName(game.id)}
             enabled={game.isActive}
             imageUrl={getGameImage(game.id)}
             onPress={(): void => {

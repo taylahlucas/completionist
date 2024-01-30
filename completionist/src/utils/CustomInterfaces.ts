@@ -3,7 +3,6 @@ import { NavigationAction, NavigationState } from '@react-navigation/native';
 import { MainState } from '@redux/MainState';
 import { SettingsState } from '@components/custom/SettingsContent/SettingsState';
 import { LoginState } from '@components/custom/LoginForm/LoginState';
-import { GameKey } from './CustomTypes';
 import { ContentState } from '@components/custom/ContentList/ContentState';
 
 export interface GameContentItem {
@@ -22,6 +21,11 @@ export interface DropDownType {
   category: string;
   subCategory?: string;
   type?: string;
+}
+
+export interface CategoryType {
+  id: string;
+  title: string;
 }
 
 // State & Environment
@@ -114,7 +118,6 @@ export interface SettingsListItem {
 
 export interface Subscription {
   id: SubscriptionTypeEnum;
-  key: GameKey;
   isActive: boolean;
 }
 

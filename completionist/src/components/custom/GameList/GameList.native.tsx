@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import ScrollableList from '@components/general/Lists/ScrollableList.native';
 import { styles } from './GameListItemStyledComponents.native';
 import useMainState from '@redux/hooks/useMainState';
@@ -9,20 +10,20 @@ interface GameListProps {
 }
 
 const GameList = ({ searchValue }: GameListProps) => {
+  const { t } = useTranslation();
   const { user } = useMainState();
-
-  // TODO: get completion percentage
+  
   return (
     <ScrollableList contentContainerStyle={styles.scrollableContent}>
       <GameListSectionDropdown 
-        title={'ACTIVE'}
+        title={t('common:active')}
         data={user.subscription
           .filter(item => item.isActive)
           .filter(item => searchValue?.length > 0 ? (item.id as String).includes(searchValue) : true)
         } 
       />
       <GameListSectionDropdown 
-        title={'INACTIVE'}
+        title={t('common:inactive')}
         data={user.subscription
           .filter(item => !item.isActive)
           .filter(item => searchValue?.length > 0 ? (item.id as String).includes(searchValue) : true)

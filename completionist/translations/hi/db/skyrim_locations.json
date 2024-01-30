@@ -1,0 +1,3068 @@
+[
+  {
+    "id": "56e78c2a-4a1c-4c7d-9d94-0a98fcf3930a",
+    "title": "परित्यक्त जेल",
+    "subCategory": "फ़ॉकरेथ",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "6a889ff0-4bb1-429c-b66f-14b5e94cc5c5",
+    "title": "परित्यक्त झोपड़ी",
+    "subCategory": "हाफ़िंगर",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "e07289dd-11e8-4d54-8981-ecacab4768f0",
+    "title": "कीमियागर की झोपड़ी",
+    "subCategory": "मित्र",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "1651892c-9d7d-4f5b-880f-468eb2d96068",
+    "title": "अल्फटैंड",
+    "subCategory": "शीतकालीनउपश्रेणी",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "c63f6f56-6600-4ea7-bc7b-d15b1011fe8b",
+    "title": "प्राचीन का आरोहण",
+    "subCategory": "हजालमार्च",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "cf45a92f-e32f-41bf-82b9-c3426c152b3d",
+    "title": "अंगा की मिल",
+    "subCategory": "दरार",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "8c78a44f-5b2c-4751-9cc0-54c5d9bc04b3",
+    "title": "अंगारवुंडे",
+    "subCategory": "ईस्टमार्च",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "075a650d-1a13-4284-91e1-2c1e6cf0ef1b",
+    "title": "एंजी का शिविर",
+    "subCategory": "फ़ॉकरेथ",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "1ed05e55-6955-4c27-bb94-b22a145aa0f9",
+    "title": "अनीस का केबिन",
+    "subCategory": "फ़ॉकरेथ",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "5d50c9f7-4b56-4705-ae16-d12f8c2f1244",
+    "title": "Ansilvund",
+    "subCategory": "ईस्टमार्च",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "905f4c0c-3bd7-4ce1-aef9-5e688f18f18e",
+    "title": "आर्कविंड पॉइंट",
+    "subCategory": "पहुंच",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "5b99c613-12f5-400a-8c86-7d438c84fc81",
+    "title": "शरद् छाया समाशोधन",
+    "subCategory": "दरार",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "dfc13dd7-99c1-4423-8a08-1a8cd7380d5a",
+    "title": "ऑटमवॉच टॉवर",
+    "subCategory": "मित्र",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "f3f1b465-ff7e-4997-8b9b-4b96aa0f963f",
+    "title": "अवंचन्ज़ेल",
+    "subCategory": "दरार",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "16bfaa4a-4ab1-4211-a09e-1923c0f22f9d",
+    "title": "बैनरमिस्ट टॉवर",
+    "subCategory": "व्हीटरुन होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "504b0ea1-485f-4b79-96b2-d3b8e6d3d4f5",
+    "title": "बार्ड्स लीप शिखर सम्मेलन",
+    "subCategory": "हाफ़िंगर",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "9df896f2-6224-475e-bfe2-7f97e85a9321",
+    "title": "युद्ध-जनित फार्म",
+    "subCategory": "व्हीटरुन होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "a0a005fc-038e-40bb-964d-23205eaa7d13",
+    "title": "बिलेगुल्च खदान",
+    "subCategory": "फ़ॉकरेथ",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "8229e2a6-500e-4dbf-832a-cda8581d7172",
+    "title": "ब्लैक-ब्रायर लॉज",
+    "subCategory": "दरार",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "5ee2503a-e8bf-4275-b9f1-9e3ec67f6b4d",
+    "title": "ब्लेक फॉल्स बैरो (स्थान)",
+    "subCategory": "व्हीटरुन होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "e58e0310-64ea-42d8-8a88-2cfb9a0900b0",
+    "title": "ब्लेककोस्ट गुफा",
+    "subCategory": "शीतकालीनउपश्रेणी",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "6a7d98d0-5866-4683-9b86-b2a9517e920a",
+    "title": "धूमिल पवन बेसिन",
+    "subCategory": "व्हीटरुन होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "b7a69c7f-3305-45f9-87ec-6b021ce97c06",
+    "title": "धूमिल हवा का झोंका",
+    "subCategory": "व्हीटरुन होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "318c9e5c-2de5-4f9d-8f56-3146884629d4",
+    "title": "अंधी चट्टान गुफा",
+    "subCategory": "हाफ़िंगर",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "64513e09-df92-4f7c-848b-eaf17310d268",
+    "title": "बर्फ़ीला तूफ़ान आराम",
+    "subCategory": "मित्र",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "e8451eae-6c19-4a27-bcf5-63d3691a446c",
+    "title": "फूला हुआ आदमी का कुटी",
+    "subCategory": "फ़ॉकरेथ",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "e8451eae-6c19-4a27-bcf5-63d3691a4466",
+    "title": "रक्तपात सिंहासन",
+    "subCategory": "फ़ॉकरेथ",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "a0a005fc-038e-40bb-964d-2c205eaa7d13",
+    "title": "नीला महल",
+    "subCategory": "हाफ़िंगर",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "9df896f2-6224-475e-bfe2-7f97e85a9322",
+    "title": "हड्डीदार शिखा",
+    "subCategory": "ईस्टमार्च",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "99d54e2e-d687-46fc-8db7-95ef74a8de44",
+    "title": "बोल्डरफ़ॉल गुफा",
+    "subCategory": "दरार",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "b0a66b76-df21-4cf4-90de-d300cd6f7ad3",
+    "title": "ब्रांडी-मग फार्म",
+    "subCategory": "व्हीटरुन होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "45e268f8-3fe4-43f5-a8f0-bf2097fe1932",
+    "title": "ब्राइनवाटर ग्रोटो",
+    "subCategory": "हाफ़िंगर",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "4c6a54a8-8783-41e4-b7df-cac4c7a22f06",
+    "title": "टूटी फेंग गुफा",
+    "subCategory": "फ़ॉकरेथ",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "a6f07fc2-3f4e-4ab2-aa6c-1c84ba54497a",
+    "title": "टूटा हुआ हेल्म खोखला",
+    "subCategory": "फ़ॉकरेथ",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "6d45c8cd-2e3f-4a6a-8ec4-87db5b69f703",
+    "title": "टूटा हुआ अंग शिविर",
+    "subCategory": "पहुंच",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "d202b2d9-7774-4ee7-a1cc-4fb477944c3e",
+    "title": "टूटा हुआ चप्पू कुटी",
+    "subCategory": "हाफ़िंगर",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "3a5c29b8-d862-4db6-b96c-3cfc21a00279",
+    "title": "टूटा हुआ टॉवर पुनर्संदेह",
+    "subCategory": "पहुंच",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "8902d8c4-8324-4a89-bbfd-c83daa6d67c7",
+    "title": "कांस्य जल गुफा",
+    "subCategory": "फ़ॉकरेथ",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "e19c59b9-3e77-4c54-aa79-507d7d0a6a9c",
+    "title": "ब्रूड कैवर्न",
+    "subCategory": "फ़ॉकरेथ",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "a86a43a9-1eb4-4ab4-afaf-d51ef9359d9b",
+    "title": "ब्रुका की छलांग पुनर्संदेह",
+    "subCategory": "पहुंच",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "108793cb-5a3b-4c6a-8052-8d8913df0867",
+    "title": "Bthardamz",
+    "subCategory": "पहुंच",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "f1adec85-d23a-4ba4-87ec-993384dab328",
+    "title": "चिलिफ़रो फार्म",
+    "subCategory": "व्हीटरुन होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "6d07d652-1e93-407a-94fe-1464b93509b5",
+    "title": "सर्द हवा की गहराई",
+    "subCategory": "हजालमार्च",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "dd9e9e6c-b8a9-4f10-831c-7eb1b5c8b639",
+    "title": "क्लियरपाइन तालाब",
+    "subCategory": "मित्र",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "e428dd1d-02f2-4712-b7b2-c5cf104c39db",
+    "title": "क्लीयरस्प्रिंग टार्न",
+    "subCategory": "ईस्टमार्च",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "d4c15a4c-3bf7-4e2b-b47b-1bc1092c7d17",
+    "title": "क्लिफसाइड रिट्रीट",
+    "subCategory": "पहुंच",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "1f55775f-6760-470d-87d9-0e013fcf77de",
+    "title": "क्रैबर की शांति",
+    "subCategory": "हजालमार्च",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "3a525ec2-bca3-40d2-89a4-789db76ba81d",
+    "title": "फटा हुआ दांत रखें",
+    "subCategory": "फ़ॉकरेथ",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "d0cb04f9-37da-4b6a-99ac-0a8fcfc63f53",
+    "title": "पालना पत्थर टॉवर",
+    "subCategory": "ईस्टमार्च",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "56ef7cf0-e5a4-417a-b759-3a72d9a1cb94",
+    "title": "क्रैडलक्रश रॉक",
+    "subCategory": "ईस्टमार्च",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "8b271363-65c4-46f5-9cd7-cac45a72a2b4",
+    "title": "क्रैग्सलेन गुफा",
+    "subCategory": "ईस्टमार्च",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "a14d971d-9e5c-4c37-8b1b-522051bfed22",
+    "title": "क्रैगवालो ढलान",
+    "subCategory": "शीतकालीनउपश्रेणी",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "7f17cfb0-4771-4ae7-ba10-e39f1c5a413e",
+    "title": "क्रोनवांग्र गुफा",
+    "subCategory": "व्हीटरुन होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "0c3f48e3-573a-45b8-830a-41ce769f7d6e",
+    "title": "क्रिस्टलड्रिफ्ट गुफा",
+    "subCategory": "शीतकालीनउपश्रेणी",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "c90396d8-64dd-42fb-af70-8d4c5523e786",
+    "title": "सुंदर स्लोड",
+    "subCategory": "हाफ़िंगर",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "af3c4e43-8ee4-4e95-b2a1-695acba7e6b5",
+    "title": "डार्क ब्रदरहुड अभयारण्य",
+    "subCategory": "फ़ॉकरेथ",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "8e70a7aa-59ed-42df-b53b-8d51e7925b4e",
+    "title": "डार्कलाइट टॉवर",
+    "subCategory": "दरार",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "3b3bc90a-6071-40f3-8e92-45ad41a8769e",
+    "title": "डार्कशेड",
+    "subCategory": "दरार",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "2d72e9d4-0a33-46d9-8124-6b7ed688227b",
+    "title": "डार्कवाटर क्रॉसिंग",
+    "subCategory": "ईस्टमार्च",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "de9ad14e-4007-4c0a-82b2-29708614849b",
+    "title": "डार्कवॉटर पास",
+    "subCategory": "ईस्टमार्च",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "b6bf81d3-fbe5-4b26-a28d-d6a0e28c4db6",
+    "title": "डॉनस्टार",
+    "subCategory": "मित्र",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "3e7e4397-f1db-442b-b3cc-3b1d7f4f25c4",
+    "title": "डॉनस्टार अभयारण्य",
+    "subCategory": "मित्र",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "aa179076-6ef4-4d6b-bf9b-3e13b6c4a319",
+    "title": "डेड क्रोन रॉक",
+    "subCategory": "पहुंच",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "cb4ff702-8537-4ec0-8f95-0ff6cf87f20d",
+    "title": "मृत पुरुषों की राहत",
+    "subCategory": "हजालमार्च",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "6a5f7b12-62f5-44b5-8f13-05e1e17c151c",
+    "title": "डीप फोक क्रॉसिंग",
+    "subCategory": "दरार",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "de0e99b9-72dd-4ea6-836d-3094e29e3c2d",
+    "title": "डीपवुड रिडाउट",
+    "subCategory": "पहुंच",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "8780191ए-3सीएफ4-40सी3-बी768-एफबीबी36बीएफई312ए",
+    "title": "ड्रैगन ब्रिज",
+    "subCategory": "हाफ़िंगर",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "319ed98f-65a4-42e3-8181-16b4d8f61a7f",
+    "title": "ड्रैगन ब्रिज ओवरलुक",
+    "subCategory": "हाफ़िंगर",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "bf6e128b-912b-41d8-9483-274224a1110e",
+    "title": "ड्रैगन्सरीच",
+    "subCategory": "व्हीटरुन होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "7d5a7983-3e5d-4179-bf25-146297eb2463",
+    "title": "ड्रैगनटूथ क्रेटर",
+    "subCategory": "पहुंच",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "7c5b1b80-d93b-4672-8c32-4a37a3b1c064",
+    "title": "ड्रेलास कॉटेज",
+    "subCategory": "व्हीटरुन होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "e8d5ab5c-b59c-4a5b-9e50-55e3a3701665",
+    "title": "ड्रिफ्टशेड शरण",
+    "subCategory": "शीतकालीनउपश्रेणी",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "679e038c-068f-41a4-9df6-618edc75e8d3",
+    "title": "ड्रूडाच रिडाउट",
+    "subCategory": "पहुंच",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "d6baf4e7-0b1c-40dd-b104-8e94d8bcb032",
+    "title": "दुश्निख याल",
+    "subCategory": "पहुंच",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "34b3bf10-b478-42b1-9cb8-9c586e9a2b23",
+    "title": "डस्कग्लो क्रेविस",
+    "subCategory": "दरार",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "50a4ed27-575d-4e17-a2c7-1563cfbd1df3",
+    "title": "डस्टमैन का केयर्न",
+    "subCategory": "व्हीटरुन होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "d38718a9-0204-46a2-b87b-6c2d4fc6ff9b",
+    "title": "ईस्ट एम्पायर कंपनी गोदाम",
+    "subCategory": "ईस्टमार्च",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "47c62857-0d7d-47aa-a78d-29a6a865f4e6",
+    "title": "ईस्टमार्च इंपीरियल कैंप",
+    "subCategory": "ईस्टमार्च",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "50b5bfe5-3bcf-4f1b-8d7c-3618a9c05c2b",
+    "title": "एल्डर्सब्लड पीक",
+    "subCategory": "हजालमार्च",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "79e271bb-300b-464e-976a-5ed9e0a6d951",
+    "title": "एंबरशार्ड खदान",
+    "subCategory": "फ़ॉकरेथ",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "5a8c69b0-e36e-4e1f-a623-3285d70e7de1",
+    "title": "सदाबहार ग्रोव",
+    "subCategory": "दरार",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "a076ce65-6503-4bd7-89e1-9c4e4142b2ac",
+    "title": "फलदार का दांत",
+    "subCategory": "दरार",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "b8f3f4eb-c956-4ed7-8246-e9cf24a2a1c1",
+    "title": "फ़ॉकरेथ",
+    "subCategory": "फ़ॉकरेथ",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "14cb2121-702b-4707-9276-8aa4e93d4ba2",
+    "title": "फ़ॉकरेथ स्टॉर्मक्लोक कैंप",
+    "subCategory": "फ़ॉकरेथ",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "f2ee8c7d-4f8b-4b88-a006-103a0ab7d04b",
+    "title": "फ़ॉक्रेथ वॉचटावर",
+    "subCategory": "फ़ॉकरेथ",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "b6f5a3aa-7682-4da2-9fe2-d39e3d9cd5c7",
+    "title": "फालोस्टोन गुफा",
+    "subCategory": "फ़ॉकरेथ",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "585f65e7-5e72-4d01-b89d-5b67d10cfc8c",
+    "title": "फेलग्लो कीप",
+    "subCategory": "व्हीटरुन होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "7bc00c1a-e3a4-45c0-b008-0101dd1a6bd9",
+    "title": "फोल्गुन्थुर",
+    "subCategory": "हजालमार्च",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "e9a5b867-8395-4883-83e2-11f35c5a1b48",
+    "title": "फ़ोरेलहोस्ट",
+    "subCategory": "दरार",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "aeeaa5a5-75b4-4f04-a4e9-49ed1551c16c",
+    "title": "छोड़ी गई गुफा",
+    "subCategory": "पहुंच",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "3f58612b-6af5-4d26-8a88-602670cc7a26",
+    "title": "किला अमोल",
+    "subCategory": "ईस्टमार्च",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "29a1e6a3-40d1-4d72-b7c5-8677be0bbf04",
+    "title": "फोर्ट डनस्टैड",
+    "subCategory": "व्हीटरुन होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "f8a7e5c2-1100-4a6a-8723-44df64a70e06",
+    "title": "फोर्ट फेलहैमर",
+    "subCategory": "मित्र",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "a7624e87-2e1f-4c9a-8251-44a9cf45c26e",
+    "title": "फोर्ट ग्रीनवॉल",
+    "subCategory": "ईस्टमार्च",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "300aa3db-3da7-4ecf-a17c-242da6da0fcd",
+    "title": "फोर्ट ग्रेमूर",
+    "subCategory": "व्हीटरुन होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "9379e75a-cffa-403f-b625-bc28fbb1b16c",
+    "title": "फोर्ट ह्रैगस्टैड",
+    "subCategory": "हाफ़िंगर",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "d8b3e897-1b3d-40f3-b07f-d5d791d8e22b",
+    "title": "किला कस्तव",
+    "subCategory": "शीतकालीनउपश्रेणी",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "5c1970bb-11e8-4bb0-b7fc-aa04e354e7c1",
+    "title": "फोर्ट न्यूग्राड",
+    "subCategory": "फ़ॉकरेथ होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "6da1fc2c-b95e-457f-ba4d-3fbc2956b7c8",
+    "title": "फोर्ट स्नोहॉक",
+    "subCategory": "हजालमार्च",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "e9aafbd2-26ac-4eef-9d90-8c00a6d36e99",
+    "title": "फोर्ट सनगार्ड",
+    "subCategory": "पहुंच",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "88e682f3-2df1-4b46-aa1d-c8c61e94aa93",
+    "title": "फोर स्कल लुकआउट",
+    "subCategory": "हजालमार्च",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "1a3455e7-165a-46c1-8e0a-1e3cbe10e893",
+    "title": "फ्रोकी की झोपड़ी",
+    "subCategory": "दरार",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "59e0c05a-6654-4e34-8e1d-9170ddc630f4",
+    "title": "फ्रॉस्टफ़्लो लाइटहाउस",
+    "subCategory": "शीतकालीनउपश्रेणी",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "e7eb8fc4-c7e8-4109-bf98-3bfbca5681cd",
+    "title": "फ्रॉस्टमेरे क्रिप्ट",
+    "subCategory": "हजालमार्च",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "723d6c97-f6f2-4d6f-ae66-2e068f6954d2",
+    "title": "फाँसी की चट्टान",
+    "subCategory": "व्हीटरुन होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "4a876317-65fe-4fe1-8ce4-144d08a4e6eb",
+    "title": "जिरमंड का हॉल",
+    "subCategory": "ईस्टमार्च",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "97302e8a-67a9-4f37-822c-8b3a87972e09",
+    "title": "जाइंट्स ग्रोव",
+    "subCategory": "ईस्टमार्च",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "346d6e9b-6af3-4ac4-882b-fb5295a7d4c2",
+    "title": "गजुकर का स्मारक",
+    "subCategory": "व्हीटरुन होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "be1b0bb5-8ebe-4047-9487-44a2c40fbd8c",
+    "title": "ग्लेनमोरिल कोवेन",
+    "subCategory": "फ़ॉकरेथ होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "62c128c8-8032-4f78-9bb6-2a5e6723546f",
+    "title": "उदास खदान",
+    "subCategory": "ईस्टमार्च",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "667b8b4e-46a0-4f85-8ec4-7ea9ba6e1c67",
+    "title": "ग्लोमरीच",
+    "subCategory": "पहुंच",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "0f3c07fc-0074-4c04-bc6a-c243a65cfedc",
+    "title": "गोल्डेनग्लो एस्टेट",
+    "subCategory": "दरार",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "71bdc10e-06cc-41d7-9cc7-2a21df9bf860",
+    "title": "ग्रेविंटर वॉच",
+    "subCategory": "व्हीटरुन होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "32f3b551-1fd1-416f-8093-9ce5ac7fe5de",
+    "title": "अल्फटैंड में शानदार लिफ्ट",
+    "subCategory": "शीतकालीनउपश्रेणी",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "a612a0d4-bd32-4d2e-a07b-6a787fb80195",
+    "title": "मज़िनचलेफ्ट पर शानदार लिफ्ट",
+    "subCategory": "ईस्टमार्च",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "e3842e79-3a4f-4f1a-80ff-5b03617031db",
+    "title": "राल्डबथर में शानदार लिफ्ट",
+    "subCategory": "मित्र",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "3166a3d0-e0aa-4dcb-8109-d900b84700f1",
+    "title": "ग्रीनस्प्रिंग खोखला",
+    "subCategory": "व्हीटरुन होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "74891e4c-bc8d-471c-8de3-19d1e3e189e4",
+    "title": "ग्रेवाटर ग्रोटो",
+    "subCategory": "फ़ॉकरेथ होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "1513e2ff-5477-45d8-a4f8-ee9f76e0b848",
+    "title": "गुलदुन रॉक",
+    "subCategory": "ईस्टमार्च",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "524a6e0d-5539-42b7-ae7a-fa937537141b",
+    "title": "हाफ़िंगर स्टॉर्मक्लोक कैंप",
+    "subCategory": "हाफ़िंगर",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "c3bc4a01-bd61-4c59-b30e-0ef9e933fbb2",
+    "title": "हेमर की शर्म",
+    "subCategory": "दरार",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "6d76218c-59a0-4929-9d6a-37ac0c4cfa2f",
+    "title": "हग का अंत",
+    "subCategory": "पहुंच",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "7df72ef7-978d-4c34-8fe0-af5abed01ea4",
+    "title": "हाग रॉक रिडाउट",
+    "subCategory": "पहुंच",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "1c1070a0-6543-41da-b6bf-fffa7a6a5504",
+    "title": "हाफ-मून मिल",
+    "subCategory": "फ़ॉकरेथ होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "da8f4ac2-80db-40dd-bdb5-c6f06609d38e",
+    "title": "विजिलेंट का हॉल",
+    "subCategory": "फ़ॉकरेथ होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "e573a7d3-3a01-4651-9eeb-7260ed53de13",
+    "title": "रुका हुआ स्ट्रीम कैंप",
+    "subCategory": "व्हीटरुन होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "33b4cf90-6c5d-4de2-8439-f0a8a24ef7e1",
+    "title": "हमवीर का विश्राम",
+    "subCategory": "व्हीटरुन होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "8eaae60e-1040-43ec-9650-1b6b18bc9d3d",
+    "title": "हरमुगस्टाहल",
+    "subCategory": "पहुंच",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "c1ecbbf5-662e-4a68-b9ce-92b51214bf9b",
+    "title": "हार्टवुड मिल",
+    "subCategory": "दरार",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "6e15d072-2c16-4d08-b414-99c2b9b21d79",
+    "title": "हेला की मूर्खता",
+    "subCategory": "हाफ़िंगर",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "2b99419c-212c-41a3-b14f-b10d17b4a255",
+    "title": "हेल्गेन",
+    "subCategory": "फ़ॉकरेथ होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "b550c318-e74c-42a5-ae38-c396d62377a3",
+    "title": "ऊँचे गेट के खंडहर",
+    "subCategory": "व्हीटरुन होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "b2098a8a-6f4b-4f8b-8e5c-5abbe77e9af6",
+    "title": "हाई ह्रोथगर",
+    "subCategory": "व्हीटरुन होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "25fcf53c-ace7-43c3-91dd-0913122d4c9c",
+    "title": "हिलग्रंड का मकबरा",
+    "subCategory": "व्हीटरुन होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "b71a307f-cc56-4aae-8b60-c1b36ef14f27",
+    "title": "हजालमार्च स्टॉर्मक्लोक कैंप",
+    "subCategory": "हजालमार्च",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "77f71eb5-f2e5-458c-9bd4-ea22e9637c93",
+    "title": "हलालु फार्म",
+    "subCategory": "व्हीटरुन होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "ac234bf1-4ad9-4da4-a5a1-43b3f60a0d9e",
+    "title": "होब की पतन गुफा",
+    "subCategory": "शीतकालीनउपश्रेणी",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "a4534c16-b59f-4c22-81b7-7d47db07aefa",
+    "title": "होलीफ्रॉस्ट फार्म",
+    "subCategory": "व्हीटरुन होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "d5ad91a3-00d3-4d42-8683-2b826aa4dd79",
+    "title": "हनीस्ट्रैंड गुफा",
+    "subCategory": "मित्र",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "9c1cb79e-8184-4653-a216-5cf59f8a67f1",
+    "title": "होनिंगब्रू मीडरी",
+    "subCategory": "व्हीटरुन होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "b6b015d0-144d-491d-9d3d-3b3d2e2f14ab",
+    "title": "शिकारी का विश्राम",
+    "subCategory": "पहुंच",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "9e6d8707-80e5-4c2a-86f2-9c5a9dfc5ea7",
+    "title": "इलिनाल्टा की दीप",
+    "subCategory": "फ़ॉकरेथ होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "35d8a191-10cb-42da-94a4-93c0e9f47bbd",
+    "title": "इर्कंगथैंड",
+    "subCategory": "मित्र",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "72d8c9f8-eae3-4c2b-9e99-769dc07a4ed4",
+    "title": "आयरनबैक ठिकाना",
+    "subCategory": "पहुंच",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "43d0e0a6-1a6c-4520-a147-cb9da1422922",
+    "title": "आयरनबाइंड बैरो",
+    "subCategory": "शीतकालीनउपश्रेणी",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "9e1c4b7e-3df3-4e72-b5b9-0b2b2bc26757",
+    "title": "इवरस्टेड",
+    "subCategory": "दरार",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "d14d32d7-7c14-4c87-9e1d-38a484d9d5b2",
+    "title": "जर्नीमैन का नुक्कड़",
+    "subCategory": "मित्र",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "7d3b24e9-d86d-420d-9856-0a23d22c700d",
+    "title": "कार्थस्पायर",
+    "subCategory": "पहुंच",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "67ce9d02-6af3-4ea4-9a15-4a837ac8f3ac",
+    "title": "कार्थस्पायर कैंप",
+    "subCategory": "पहुंच",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "e57a390e-3284-460f-aa56-1de6c5f6ef92",
+    "title": "कार्थवास्टेन",
+    "subCategory": "पहुंच",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "0a26bf21-1727-43e5-9f5a-129f2e8b0c0f",
+    "title": "कतला का खेत",
+    "subCategory": "शीतकालीनउपश्रेणी",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "65eddd8c-3f6d-468d-82a8-85800e82bb32",
+    "title": "केजेनस्टैग खंडहर",
+    "subCategory": "शीतकालीनउपश्रेणी",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "e2993449-61ce-4e0c-bc4f-7f83b0ac534e",
+    "title": "नाइफपॉइंट रिज",
+    "subCategory": "पहुंच",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "20a28a4d-3a2b-4480-b0d1-465cd9ef0de9",
+    "title": "कोलस्केगर खदान",
+    "subCategory": "पहुंच",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "d5cf72a5-04a9-4f92-bc25-1461b582e647",
+    "title": "कोरवंजुंड",
+    "subCategory": "शीतकालीनउपश्रेणी",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "8f7f301f-0f8a-4c0d-b497-c1536ef059c5",
+    "title": "काइन्सग्रोव",
+    "subCategory": "ईस्टमार्च",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "1c058744-1583-4b5b-aa21-01b5820a3d98",
+    "title": "भूलभुलैया",
+    "subCategory": "हजालमार्च",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "c38422d8-8cb1-40e3-aa38-6f27f8e162c8",
+    "title": "लार्गाशबुर",
+    "subCategory": "दरार",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "1bb10379-f587-497e-86c4-74f38b3e0ebd",
+    "title": "बायां हाथ मेरा",
+    "subCategory": "पहुंच",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "87fcdb84-b7fc-410a-af25-21cb5f69ef33",
+    "title": "झूठे की वापसी",
+    "subCategory": "दरार",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "6c0476e3-4ec1-409f-bfd5-fa4a5f18d99e",
+    "title": "लोरियस फार्म",
+    "subCategory": "व्हीटरुन होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "b7ed45ee-2ec5-4930-aabb-0c3dab3d75fc",
+    "title": "खोई हुई इको गुफा",
+    "subCategory": "मित्र",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "74b15d38-9b3a-47fb-aa7a-eb373fc2379b",
+    "title": "चाकू का ठिकाना खो गया",
+    "subCategory": "ईस्टमार्च",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "aa41ee6a-8e1c-46b4-8d2a-1bb27fb5c8e1",
+    "title": "खोई हुई संभावना खदान",
+    "subCategory": "दरार",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "6f940bc5-df8b-482d-87f7-33e46df0aa06",
+    "title": "खोई हुई जीभ की अनदेखी",
+    "subCategory": "ईस्टमार्च",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "e7f38443-fda1-4bf3-b75f-75d7db849f4a",
+    "title": "वल्क्यग को खो दिया",
+    "subCategory": "शीतकालीनउपश्रेणी",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "b8bfe8b0-cd76-4274-9381-9d835aa1cd3d",
+    "title": "लॉस्ट वैली रिडाउट",
+    "subCategory": "पहुंच",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "4f74f54c-5587-48f3-830e-01a16a4ea868",
+    "title": "निचला स्टीपफॉल बरो",
+    "subCategory": "दरार",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "5efc1b2c-b64f-4b53-a9d3-9094ea101fb0",
+    "title": "लंड की कुटिया",
+    "subCategory": "व्हीटरुन होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "f28a02f7-1cb6-41ff-88c7-124159e93921",
+    "title": "मारा की आँख तालाब",
+    "subCategory": "हजालमार्च",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "d3b7fe4a-bc0a-44c1-8775-b6e984b6c282",
+    "title": "मार्कार्थ",
+    "subCategory": "पहुंच",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "1d1d1aeb-6cb6-430c-9634-9d8d3421eb14",
+    "title": "मार्कार्थ अस्तबल",
+    "subCategory": "पहुंच",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "42f59826-fb5d-487c-b2e4-f9a7f70f29f2",
+    "title": "मीको की झोपड़ी",
+    "subCategory": "हजालमार्च",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "625672ef-2687-4da2-b98e-d95108fbcb2c",
+    "title": "मेरीफ़ेयर फ़ार्म",
+    "subCategory": "व्हीटरुन होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "8e0a5c35-f3c3-4283-8b65-ea04d3e21f97",
+    "title": "मिस्टवील कीप",
+    "subCategory": "दरार",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "8a7329f4-fb3d-4093-88e3-b41bb6c9cb6b",
+    "title": "मिस्टवॉच",
+    "subCategory": "ईस्टमार्च",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "fa52e8fe-2f4d-46f5-af89-bf8fe3a9f04f",
+    "title": "मिक्सवाटर मिल",
+    "subCategory": "ईस्टमार्च",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "15e08fe1-0e79-4b4b-b5a1-e8dbdd547873",
+    "title": "मोर खज़गुर",
+    "subCategory": "पहुंच",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "fd8a666c-5c79-4c35-8355-68d56b2f380f",
+    "title": "नश्वर",
+    "subCategory": "हजालमार्च",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "c4e07729-0bc5-46e1-9c68-1801c8ea0d9b",
+    "title": "मोरवुंस्कर",
+    "subCategory": "व्हीटरुन होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "2b522f20-549e-4ecb-9b7a-875f06475c1d",
+    "title": "मॉस मदर कैवर्न",
+    "subCategory": "फ़ॉकरेथ होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "a9a5b10b-9c74-48a2-a144-68a1eac191ad",
+    "title": "माउंट एंथोर",
+    "subCategory": "शीतकालीनउपश्रेणी",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "f01c45db-342b-4e16-b947-429d0b50b509",
+    "title": "मोवर्थ की खोह",
+    "subCategory": "हजालमार्च",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "a6c172a2-eb21-4307-b0c3-7fc0c092dbd6",
+    "title": "मज़िनचलेफ़्ट",
+    "subCategory": "पहुंच",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "c2a2436c-d7f8-413d-a69b-9ab2ce24d4a3",
+    "title": "Mzulft",
+    "subCategory": "ईस्टमार्च",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "85636f21-c448-4a36-9a1f-d5d76e769f42",
+    "title": "नरज़ुल्बुर",
+    "subCategory": "ईस्टमार्च",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "61c6947d-9dbb-4c7f-8c3d-e4e85653d4f9",
+    "title": "नाइटकॉलर मंदिर",
+    "subCategory": "मित्र",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "9d8e9f33-7d12-4f6d-8814-77a4767a93cd",
+    "title": "नाइटगेट इन",
+    "subCategory": "मित्र",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "f2f2d642-1a6f-4d0c-a93e-87ce0c3c9c3a",
+    "title": "नाइटिंगेल हॉल",
+    "subCategory": "फ़ॉकरेथ होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "00a40d8c-ff21-4eeb-a62c-437e9d98f8a7",
+    "title": "निलहेम",
+    "subCategory": "हजालमार्च",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "9af5d88c-76ef-4a65-bb4d-11d4b9fdd184",
+    "title": "उत्तर ब्रिटलशिन दर्रा",
+    "subCategory": "व्हीटरुन होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "d1ed1a4a-63b4-4781-98a3-c4f68027c0f9",
+    "title": "नॉर्थ कोल्ड रॉक पास",
+    "subCategory": "शीतकालीनउपश्रेणी",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "4e49a2c8-19c3-4cfd-8924-7111738d9d47",
+    "title": "उत्तर श्रीकविंड बैस्टियन",
+    "subCategory": "फ़ॉकरेथ होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "a792f877-6b94-4e8e-a7bf-480b32554568",
+    "title": "नॉर्थ स्काईबाउंड वॉच",
+    "subCategory": "हजालमार्च",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "531e5af0-d44f-43bb-9b41-255f73f10bc8",
+    "title": "नॉर्थवॉच कीप",
+    "subCategory": "हाफ़िंगर",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "72ef5b45-4f0f-49a5-848b-446f32e868c2",
+    "title": "नॉर्थविंड माइन",
+    "subCategory": "मित्र",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "5a74be0a-1c0d-4be7-94f9-e6a4a9a04219",
+    "title": "नॉर्थविंड शिखर सम्मेलन",
+    "subCategory": "मित्र",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "1daa665a-09de-4ba3-a8c7-6a7e0c50370c",
+    "title": "पुराना ह्रोल्डन",
+    "subCategory": "पहुंच",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "86ac850a-b907-4c62-92a1-dc88f67865e0",
+    "title": "ओरोथीम",
+    "subCategory": "व्हीटरुन होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "587d9e10-499f-4a78-85ed-801ad99307ed",
+    "title": "अनाथ का आंसू",
+    "subCategory": "शीतकालीनउपश्रेणी",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "8cc453b9-e99d-4a36-bb23-02f4f8e0fbab",
+    "title": "अनाथ रॉक",
+    "subCategory": "फ़ॉकरेथ होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "042c141f-36f5-4d56-8ea3-0b9b0cbb2421",
+    "title": "राजाओं का महल",
+    "subCategory": "ईस्टमार्च",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "0c98145f-c1e0-491f-9290-3b9e303534f9",
+    "title": "पीला शाही शिविर",
+    "subCategory": "मित्र",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "004aaacc-9133-4e63-b256-bf191351441a",
+    "title": "पेल स्टॉर्मक्लोक कैंप",
+    "subCategory": "मित्र",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "845d79fe-c1c9-48d2-90b2-5b0f9f3e3ce7",
+    "title": "पीक का शेड टॉवर",
+    "subCategory": "हजालमार्च",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "4df07a76-9307-42ee-8834-2a3df8bc978e",
+    "title": "पेलागिया फार्म",
+    "subCategory": "व्हीटरुन होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "ba882be0-b2c3-4d0b-9fe9-11531831221d",
+    "title": "तीर्थयात्री की खाई",
+    "subCategory": "हजालमार्च",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "11e2f151-5be5-4644-9f4c-4bf37b3ba66e",
+    "title": "पाइनफ्रॉस्ट टॉवर",
+    "subCategory": "शीतकालीनउपश्रेणी",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "cbf49ec9-32a8-4d63-85b5-1c6a06db7f10",
+    "title": "पाइनमून गुफा",
+    "subCategory": "दरार",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "f5d4c9c5-568c-42e1-844c-6e5e4ed0e038",
+    "title": "पाइनपीक गुफा",
+    "subCategory": "व्हीटरुन होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "9d5e7f13-2df9-407f-8ae0-c0737639d2e2",
+    "title": "पाइनवॉच",
+    "subCategory": "फ़ॉकरेथ होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "4421e2fc-fc9a-48c0-aa5e-f5f51326ed4d",
+    "title": "प्योरवॉटर रन",
+    "subCategory": "फ़ॉकरेथ होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "636e62cd-06bf-47e6-810c-9a15d1de8e04",
+    "title": "रैगनवाल्ड",
+    "subCategory": "हजालमार्च",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "a7de862d-e098-4dd4-82e6-c8b6478919c3",
+    "title": "राल्दबथर",
+    "subCategory": "दरार",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "95ebad7b-0c1a-4397-a8da-180b057a9f80",
+    "title": "रैनवेग का तेज़",
+    "subCategory": "व्हीटरुन होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "1e10872f-c300-45c0-9ac2-263e37e70f24",
+    "title": "रेवेन्सकर खोखला",
+    "subCategory": "पहुंच",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "7ed088f2-371a-419d-b872-23d92c281b72",
+    "title": "स्टॉर्मक्लोक कैम्प पहुँचें",
+    "subCategory": "पहुंच",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "e2426ba1-c06c-43e5-816d-343f64a73572",
+    "title": "रीचक्लिफ गुफा",
+    "subCategory": "पहुंच",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "5e31ccaf-092d-46cf-9e94-d8b1d757a764",
+    "title": "रीचक्लिफ़ गुप्त प्रवेश",
+    "subCategory": "पहुंच",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "758f16cf-पिता0-46eb-9d71-89c53c14162d",
+    "title": "रीचवाटर रॉक",
+    "subCategory": "पहुंच",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "ea150e47-08ae-4cb2-94b3-42ce2baed5b0",
+    "title": "रीचविंड आइरी",
+    "subCategory": "पहुंच",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "0c369d9e-13cb-416b-b794-34047cbe991b",
+    "title": "विद्रोही का केयर्न",
+    "subCategory": "पहुंच",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "ba0b8b9f-3dd6-4eaf-bbd4-5f1d7c448151",
+    "title": "रेड ईगल रिडाउट",
+    "subCategory": "पहुंच",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "64c36ebc-ea77-4e76-bd05-5c75c00616a9",
+    "title": "रेड रोड पास",
+    "subCategory": "व्हीटरुन होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "c2e947a2-2f23-43f5-8eb2-305b8642b0c1",
+    "title": "रेडोरन रिट्रीट",
+    "subCategory": "व्हीटरुन होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "e75b7b71-702b-4da2-a309-ffbb9a43e284",
+    "title": "शरणार्थियों का विश्राम",
+    "subCategory": "मित्र",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "6a4c5ef0-bb22-4cc1-baa3-6a2a191d010b",
+    "title": "रिफ्ट इंपीरियल कैंप",
+    "subCategory": "दरार",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "0125d870-6c66-4e0a-b52d-50c160413579",
+    "title": "दरार प्रहरीदुर्ग",
+    "subCategory": "दरार",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "c61df84e-eb44-46a3-9b2f-62545bdf56d9",
+    "title": "रिफ़टेन",
+    "subCategory": "दरार",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "1fc2fc78-147f-4a6f-bb90-ba0aa28e8fe3",
+    "title": "रिफ़टेन अस्तबल",
+    "subCategory": "दरार",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "8bbf8ff5-0130-4b6f-ae77-dac7210c0845",
+    "title": "रिमरॉक बरो",
+    "subCategory": "हाफ़िंगर",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "d0b8d430-e17d-4c2c-85ce-62d1be6ba832",
+    "title": "नदी किनारे की झोपड़ी",
+    "subCategory": "व्हीटरुन होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "ca330bc0-23ce-41cf-a3f0-8c3f703f3c3c",
+    "title": "रिवरवुड",
+    "subCategory": "व्हीटरुन होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "e165a40b-0d2d-4a2e-a7c7-798181f3311d",
+    "title": "सड़क किनारे खंडहर",
+    "subCategory": "पहुंच",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "36728799-ea6b-4e4d-b8da-b6fb67879e8b",
+    "title": "डाकू का कण्ठ",
+    "subCategory": "व्हीटरुन होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "9360a742-90f0-43ec-8f7a-cb3ef9e6c72b",
+    "title": "रोरिकस्टेड",
+    "subCategory": "व्हीटरुन होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "c58f383d-0cd5-4e56-891b-78f9d97be4cf",
+    "title": "बथाल्फ़्ट के खंडहर",
+    "subCategory": "पहुंच",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "a19fc91a-c6de-4ae0-90ce-0f44b4ba6d2c",
+    "title": "रकुंड के खंडहर",
+    "subCategory": "पहुंच",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "f79ab922-4812-4815-a44e-3f34a13895e8",
+    "title": "सारथल",
+    "subCategory": "शीतकालीनउपश्रेणी",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "4b315497-7832-469d-a951-9c5a01c3b680",
+    "title": "बोथियाह का सैसेलम",
+    "subCategory": "ईस्टमार्च",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "6eef7a7c-6d6d-408c-9960-53ed87ee35cc",
+    "title": "साल्वियस फार्म",
+    "subCategory": "पहुंच",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "7fc2f2b5-7fbb-44b0-aeae-9e7cf7c62d04",
+    "title": "सरेठी फार्म",
+    "subCategory": "दरार",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "775be0d9-6b1e-4d8d-9d9e-9394ea5d1dc4",
+    "title": "सिकुंडा का चुम्बन",
+    "subCategory": "हाफ़िंगर",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "1b5e8c54-0a91-4f8d-8e1c-98a46bfe7242",
+    "title": "सेप्टिमस साइनस की चौकी",
+    "subCategory": "शीतकालीनउपश्रेणी",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "fc212ec5-e6c9-4ec3-aeed-dacfd7e9c8d3",
+    "title": "सर्पेंट ब्लफ़ रिडाउट",
+    "subCategory": "फ़ॉकरेथ होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "8d602d42-b732-4ad8-8a36-f1d0a18bc5a3",
+    "title": "शैडोग्रीन गुफा",
+    "subCategory": "फ़ॉकरेथ होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "31a2abfb-51f4-4c65-8e1d-66c1ff4c0b29",
+    "title": "शियरपॉइंट",
+    "subCategory": "शीतकालीनउपश्रेणी",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "e160cc23-148e-41b4-8a76-465774c9b67b",
+    "title": "शिमरमिस्ट गुफा",
+    "subCategory": "व्हीटरुन होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "6629d0a6-457c-4429-8ef6-bb72d7e83cb8",
+    "title": "शोर का पत्थर",
+    "subCategory": "दरार",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "b17b7b79-8627-47da-b9aa-100157e15ee9",
+    "title": "शोर का प्रहरीदुर्ग",
+    "subCategory": "व्हीटरुन होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "f5b16ccf-0f52-47f8-896f-bd94f61d80f7",
+    "title": "अज़ुरा का तीर्थ",
+    "subCategory": "शीतकालीनउपश्रेणी",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "f1b13cb0-e428-4f66-9e17-22f74beaf102",
+    "title": "मेहरुन्स डैगन का तीर्थ",
+    "subCategory": "फ़ॉकरेथ होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "23ef8195-cd97-4f1b-9ea6-6be72c67c0f5",
+    "title": "पेरियाइट का तीर्थ",
+    "subCategory": "पहुंच",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "5bc8ab42-4d98-46d2-818d-8e2d8fb205fe",
+    "title": "कफन चूल्हा बैरो",
+    "subCategory": "मित्र",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "136e9162-9ef7-4bd0-bde5-8d593cd5daeb",
+    "title": "ढका हुआ उपवन",
+    "subCategory": "हाफ़िंगर",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "64e2c135-28c7-467f-a871-e3a04262c48f",
+    "title": "दृष्टिहीन गड्ढा",
+    "subCategory": "शीतकालीनउपश्रेणी",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "83c2fbec-e2d7-49f9-932e-2844e0e5ddcf",
+    "title": "साइलेंट मून्स कैंप",
+    "subCategory": "व्हीटरुन होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "4f0a267f-dac3-44b0-b890-2d3fb5d408a9",
+    "title": "सिल्वरड्रिफ्ट लेयर",
+    "subCategory": "शीतकालीनउपश्रेणी",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "4d009c90-9c2f-43d4-9a86-0c6302ecb145",
+    "title": "स्काईबॉर्न अल्टार",
+    "subCategory": "व्हीटरुन होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "a3a06761-99e2-4d16-987a-6251c90d4b0a",
+    "title": "स्काईटेम्पल खंडहर",
+    "subCategory": "हाफ़िंगर",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "d07c8b20-f08f-49d7-98cb-3c10b88e8b9b",
+    "title": "स्लीपिंग ट्री कैंप",
+    "subCategory": "व्हीटरुन होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "55c676c1-8d1a-4d71-b238-576f117fd9c5",
+    "title": "स्नैपलेग गुफा",
+    "subCategory": "व्हीटरुन होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "55fe369e-bae6-44fe-bfd7-bd381eeb4fb0",
+    "title": "स्नो-शॉड फार्म",
+    "subCategory": "व्हीटरुन होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "e5b12b72-5d05-4573-8325-d69b2d0b9309",
+    "title": "हिम आवरण गर्भगृह",
+    "subCategory": "शीतकालीनउपश्रेणी",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "e3c67ee0-f4c1-4bc8-b2f3-1b8b783d5050",
+    "title": "स्नोपॉइंट बीकन",
+    "subCategory": "शीतकालीनउपश्रेणी",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "ca748524-4f6f-4f12-bb24-5b8ed497e45d",
+    "title": "अकेलापन",
+    "subCategory": "हाफ़िंगर",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "eb2a77ee-cdb9-4f3e-a9d7-3c349651f89c",
+    "title": "एकांत प्रकाशस्तंभ",
+    "subCategory": "हाफ़िंगर",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "0a2ad4d7-05f2-4d9d-b59c-9de68eb700da",
+    "title": "एकांत सॉमिलन",
+    "subCategory": "हाफ़िंगर",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "80f41656-6d5c-4ddc-b3d5-769923d157a3",
+    "title": "सोलजंड का सिंकहोल",
+    "subCategory": "हजालमार्च",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "d7b057f4-100d-4859-84f2-7ffbc58ad552",
+    "title": "दक्षिण ब्रिटलशिन दर्रा",
+    "subCategory": "फ़ॉकरेथ होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "c398e8a4-3e2f-4cf4-8b54-8c001254fe3b",
+    "title": "साउथ कोल्ड रॉक पास",
+    "subCategory": "शीतकालीनउपश्रेणी",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "a42da197-5ce6-4e1f-8487-ecc91cb204bb",
+    "title": "दक्षिण श्रीकविंड बैस्टियन",
+    "subCategory": "फ़ॉकरेथ होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "16b634bb-3f5a-4cb4-b79e-eb2f03763f79",
+    "title": "साउथ स्काईबाउंड वॉच",
+    "subCategory": "व्हीटरुन होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "f1e6f0b8-6f99-4f2d-bb0c-17c81df8cd09",
+    "title": "साउथफ्रिंज गर्भगृह",
+    "subCategory": "फ़ॉकरेथ होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "20c9f5d4-2567-43d9-826c-1ac6614b1693",
+    "title": "मेरिडिया की मूर्ति",
+    "subCategory": "मित्र",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "40dd4f91-d20c-4b77-b73b-5eef0f8755c7",
+    "title": "स्टीमक्रैग कैंप",
+    "subCategory": "पहुंच",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "8f2d10c5-bfea-4d09-82ce-e63ffda5ec0d",
+    "title": "स्टीपफॉल बरो",
+    "subCategory": "दरार",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "759e80cb-e6c3-45f7-a0d9-90ff0a010529",
+    "title": "स्टेंडर का बीकन",
+    "subCategory": "दरार",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "afea1eaf-50d2-4bc5-9b4f-44f7a992f068",
+    "title": "स्टिलबॉर्न गुफा",
+    "subCategory": "हजालमार्च",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "76c6a342-d012-41d3-9c01-b29c49beffef",
+    "title": "स्टोनी क्रीक गुफा",
+    "subCategory": "व्हीटरुन होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "d9566564-c04e-4a29-9e67-06ad206cfcf5",
+    "title": "स्टोनहिल ब्लफ़",
+    "subCategory": "पहुंच",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "eb4d9650-35a9-4973-b5da-5ff34327be60",
+    "title": "स्टोनहिल्स",
+    "subCategory": "पहुंच",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "6a5b63ec-b28d-42a5-8c0f-c73c39867595",
+    "title": "सुंदर मीनारें",
+    "subCategory": "हाफ़िंगर",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "53b24465-dfe3-4156-bdd2-800758a6836e",
+    "title": "सुंदरस्टोन कण्ठ",
+    "subCategory": "फ़ॉकरेथ होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "0fc9a69c-66d2-47e1-bd4f-2dfcc53c66fe",
+    "title": "ठगों का अड्डा",
+    "subCategory": "व्हीटरुन होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "f3315c79-7f7e-40c0-b4ab-071cb1731d11",
+    "title": "बात कर रहे पत्थर शिविर",
+    "subCategory": "शीतकालीनउपश्रेणी",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "4d3f287a-b66f-4b85-8b6d-7f8797ee031c",
+    "title": "थाल्मोर दूतावास",
+    "subCategory": "हाफ़िंगर",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "d56d24e2-1573-442c-ba21-e11a255c0667",
+    "title": "कटारिया",
+    "subCategory": "हाफ़िंगर",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "89accd66-e257-4972-bc29-47b1ef51261d",
+    "title": "चोरों का निकाय",
+    "subCategory": "दरार",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "d0770d36-cf63-4f74-9aa2-13db330982ff",
+    "title": "विश्व का गला",
+    "subCategory": "व्हीटरुन होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "1f72e6a9-39b4-430c-8427-8a78b2e3b28e",
+    "title": "टॉलवाल्ड की गुफा",
+    "subCategory": "शीतकालीनउपश्रेणी",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "1b08149d-3880-4154-a5c9-2a1639d83ef7",
+    "title": "मजार्क की मीनार",
+    "subCategory": "शीतकालीनउपश्रेणी",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "f7d6e3ef-b8b1-40b2-9aaf-400c1f8e189d",
+    "title": "गद्दार की पोस्ट",
+    "subCategory": "फ़ॉकरेथ होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "b1aa44b2-5d16-42ef-9c4a-21a50815e7c7",
+    "title": "ट्रेवा की घड़ी",
+    "subCategory": "दरार",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "c68b9f6a-c702-48c8-b8da-38400c63513a",
+    "title": "टम्बल आर्क पास",
+    "subCategory": "पहुंच",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "b61b8dd6-b935-4008-b00e-fba0e19909f9",
+    "title": "गोधूलि स्पेलुंचर",
+    "subCategory": "ईस्टमार्च",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "694ad60b-6ff1-4a72-bc24-19015fc00aa0",
+    "title": "अंडरस्टोन रखें",
+    "subCategory": "पहुंच",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "5c683ce9-3211-4d72-b983-21b100b1156d",
+    "title": "Ustengrav",
+    "subCategory": "हजालमार्च",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "200bb9eb-04dd-4f51-98db-bfe6fe586a2a",
+    "title": "उटरिंग हिल्स गुफा",
+    "subCategory": "व्हीटरुन होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "5425e673-1a13-47d7-9eaa-8f1b227bfb4d",
+    "title": "वाल्थीम टावर्स",
+    "subCategory": "व्हीटरुन होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "14a4a595-7d9b-4f8e-8c95-8bf0bb595e84",
+    "title": "वाल्थ्यूम",
+    "subCategory": "हजालमार्च",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "be2605c4-7e77-4d06-a30a-2f36cdd150d3",
+    "title": "वोल्स्कीगे",
+    "subCategory": "हाफ़िंगर",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "3bd60bb5-1a2e-4157-9f17-62585ff5ec57",
+    "title": "Volunruud",
+    "subCategory": "मित्र",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "eefba82d-d59a-46cf-9601-71c65e06231d",
+    "title": "स्वच्छंद दर्रा",
+    "subCategory": "शीतकालीनउपश्रेणी",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "df065f14-cb7d-420d-8b20-75bc49108147",
+    "title": "पश्चिमी प्रहरीदुर्ग",
+    "subCategory": "व्हीटरुन होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "3eb8e61d-2a7e-47e8-9787-9830f5a084ec",
+    "title": "वेयनॉन स्टोन्स",
+    "subCategory": "व्हीटरुन होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "e9e5da22-55f3-4b13-87fe-9b9a73ef60e7",
+    "title": "सीटी बजाना मेरा",
+    "subCategory": "शीतकालीनउपश्रेणी",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "bb42c868-3341-4e7d-ba6f-d61ccfe03c53",
+    "title": "व्हाइट रिवर वॉच",
+    "subCategory": "व्हीटरुन होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "889c208a-d150-4bea-8399-4e3a3f5da871",
+    "title": "Whiterun",
+    "subCategory": "व्हीटरुन होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "1a9f8e36-29d1-466a-a0b4-5ec6d56fc8c3",
+    "title": "व्हीटरन अस्तबल",
+    "subCategory": "व्हीटरुन होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "1746df7f-2e54-4fb6-87f3-6847b1bc6409",
+    "title": "व्हीटरन स्टॉर्मक्लोक कैंप",
+    "subCategory": "व्हीटरुन होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "fc3c9db4-e739-4b8b-a39f-0f49325a10b4",
+    "title": "व्हाइटवॉच टॉवर",
+    "subCategory": "व्हीटरुन होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "a305ff99-8d0c-4e48-bbbe-0ab34462e0bf",
+    "title": "विधवा की घड़ी के खंडहर",
+    "subCategory": "फ़ॉकरेथ होल्ड",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "10f26d91-1c13-4713-9b67-28e0e9147ef9",
+    "title": "विंडहेल्म",
+    "subCategory": "ईस्टमार्च",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "e15c72d5-8f02-47e2-8274-7b1fcf8882d5",
+    "title": "विंडहेल्म अस्तबल",
+    "subCategory": "ईस्टमार्च",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "a3f62b72-6bea-4ef1-845c-cdf0a9ab0aa1",
+    "title": "हवा की ओर खंडहर",
+    "subCategory": "ईस्टमार्च",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "e0b84a7e-3fcd-45aa-8f76-850654204f0e",
+    "title": "शीतकालीनउपश्रेणी",
+    "subCategory": "शीतकालीनउपश्रेणी",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "837e26c5-20d2-4671-a378-65c6b7cb97cc",
+    "title": "विंटरसबश्रेणी इंपीरियल कैंप",
+    "subCategory": "शीतकालीनउपश्रेणी",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "b9cde82a-158a-4ff8-8d82-7f1232995c47",
+    "title": "विंटरसबकैटेगरी स्टॉर्मक्लोक कैंप",
+    "subCategory": "शीतकालीनउपश्रेणी",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "b6653b1e-0a46-4e58-bdff-dac48cc3a003",
+    "title": "विचमिस्ट ग्रोव",
+    "subCategory": "शीतकालीनउपश्रेणी",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "d3efef68-9cb8-4b16-8e17-39c38726d81a",
+    "title": "वुल्फस्कुल गुफा",
+    "subCategory": "हाफ़िंगर",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "2d5d1c90-b2a2-4a2c-9ed0-92a7807f6a42",
+    "title": "ब्राइनहैमर का मलबा",
+    "subCategory": "शीतकालीनउपश्रेणी",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "d9e7a9a5-3eb9-4f37-9236-1bc2f5538aa4",
+    "title": "द प्राइड ऑफ टेल वोस का मलबा",
+    "subCategory": "शीतकालीनउपश्रेणी",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "df281128-b7ce-43b8-af78-77986534ef31",
+    "title": "शीतकालीन युद्ध का कहर",
+    "subCategory": "शीतकालीनउपश्रेणी",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "bd414ad7-754c-45c7-af62-96c5c4b33d1b",
+    "title": "यंगोल बैरो",
+    "subCategory": "शीतकालीनउपश्रेणी",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "d1e98aa1-53a8-48d1-bfe6-56dd406fd41a",
+    "title": "यंगविल्ड",
+    "subCategory": "शीतकालीनउपश्रेणी",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "c0576c60-597d-475c-91b5-0c51328f7a3e",
+    "title": "योरग्रिम ओवरलुक",
+    "subCategory": "ईस्टमार्च",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "fa732198-ea36-4a15-95f2-0207e4f31d11",
+    "title": "यसग्रामर का मकबरा",
+    "subCategory": "शीतकालीनउपश्रेणी",
+    "dlc": "कोई नहीं",
+    "mainCategory": "मुख्य"
+  },
+  {
+    "id": "0cb0c23e-6937-4b49-aac7-b7a2f0c1e79c",
+    "title": "कैसल वोल्किहार",
+    "subCategory": "हाफ़िंगर",
+    "dlc": "दावन्गार्ड",
+    "mainCategory": "दावन्गार्ड"
+  },
+  {
+    "id": "bbf5bfef-52c5-4214-862b-b8a3ef9a7d79",
+    "title": "वोल्किहार कालकोठरी",
+    "subCategory": "हाफ़िंगर",
+    "dlc": "दावन्गार्ड",
+    "mainCategory": "दावन्गार्ड"
+  },
+  {
+    "id": "fc9d1c0b-1393-4850-8279-7edcc086f168",
+    "title": "फोर्ट डावंगार्ड",
+    "subCategory": "दरार",
+    "dlc": "दावन्गार्ड",
+    "mainCategory": "दावन्गार्ड"
+  },
+  {
+    "id": "CE8d2d49-1a1e-439f-9d8a-35e4fcdfb7f1",
+    "title": "रेडवॉटर डेन",
+    "subCategory": "दरार",
+    "dlc": "दावन्गार्ड",
+    "mainCategory": "दावन्गार्ड"
+  },
+  {
+    "id": "bf5a8256-12f8-4d97-b67f-b7d44b04e685",
+    "title": "पूर्वज ग्लेड",
+    "subCategory": "फ़ॉकरेथ होल्ड",
+    "dlc": "दावन्गार्ड",
+    "mainCategory": "दावन्गार्ड"
+  },
+  {
+    "id": "d21f7cda-ef82-4ec3-9be7-6e92ab45ec24",
+    "title": "अँधेरी गुफा",
+    "subCategory": "फ़ॉकरेथ होल्ड",
+    "dlc": "दावन्गार्ड",
+    "mainCategory": "दावन्गार्ड"
+  },
+  {
+    "id": "f5d91112-8014-44cd-94c4-d72e3e2e01b3",
+    "title": "डेड ड्रॉप फॉल्स",
+    "subCategory": "मित्र",
+    "dlc": "दावन्गार्ड",
+    "mainCategory": "दावन्गार्ड"
+  },
+  {
+    "id": "5d68f0ec-7d7d-42e7-b86d-cb9e381b3c27",
+    "title": "डिमहोलो क्रिप्ट",
+    "subCategory": "फ़ॉकरेथ होल्ड",
+    "dlc": "दावन्गार्ड",
+    "mainCategory": "दावन्गार्ड"
+  },
+  {
+    "id": "e5b2f1d3-5b0e-4382-8b92-8c202195c8c4",
+    "title": "फ़ोरबियर्स होल्डआउट",
+    "subCategory": "हजालमार्च",
+    "dlc": "दावन्गार्ड",
+    "mainCategory": "दावन्गार्ड"
+  },
+  {
+    "id": "4e97e44e-b6a9-4d84-88db-1a4398c98f8d",
+    "title": "मोसी ग्लेन गुफा",
+    "subCategory": "फ़ॉकरेथ होल्ड",
+    "dlc": "दावन्गार्ड",
+    "mainCategory": "दावन्गार्ड"
+  },
+  {
+    "id": "28ccd72-e8ff-4a9d-ba62-50b59dbb6a74",
+    "title": "रूनवल्ड",
+    "subCategory": "मित्र",
+    "dlc": "दावन्गार्ड",
+    "mainCategory": "दावन्गार्ड"
+  },
+  {
+    "id": "b7a04c8c-eab7-4c7e-b179-e2ba7363eb5b",
+    "title": "आर्कनगथम्ज़",
+    "subCategory": "पहुंच",
+    "dlc": "दावन्गार्ड",
+    "mainCategory": "दावन्गार्ड"
+  },
+  {
+    "id": "a6ff1cc7-785b-48bd-89cd-cb016aae2091",
+    "title": "एथेरियम फोर्ज",
+    "subCategory": "पहुंच",
+    "dlc": "दावन्गार्ड",
+    "mainCategory": "दावन्गार्ड"
+  },
+  {
+    "id": "544005cc-4424-47fc-8e8b-e7480fb775a3",
+    "title": "भूली हुई घाटी",
+    "subCategory": "हाफ़िंगर",
+    "dlc": "दावन्गार्ड",
+    "mainCategory": "दावन्गार्ड"
+  },
+  {
+    "id": "1c708a79-1a01-4a21-97c4-b56e52b7ac14",
+    "title": "डार्कफ़ॉल ग्रोटो",
+    "subCategory": "फ़ॉकरेथ होल्ड",
+    "dlc": "दावन्गार्ड",
+    "mainCategory": "दावन्गार्ड"
+  },
+  {
+    "id": "544b515a-0b05-4c60-9fc2-8603a7e27db7",
+    "title": "भूली हुई घाटी गुफा",
+    "subCategory": "हाफ़िंगर",
+    "dlc": "दावन्गार्ड",
+    "mainCategory": "दावन्गार्ड"
+  },
+  {
+    "id": "2f94b9df-9b1a-4d88-93a2-0140e6c8ee67",
+    "title": "भूले हुए घाटी वन",
+    "subCategory": "हाफ़िंगर",
+    "dlc": "दावन्गार्ड",
+    "mainCategory": "दावन्गार्ड"
+  },
+  {
+    "id": "bc84f167-098f-418a-912a-8fb187c9a98a",
+    "title": "हिमानी दरार",
+    "subCategory": "हाफ़िंगर",
+    "dlc": "दावन्गार्ड",
+    "mainCategory": "दावन्गार्ड"
+  },
+  {
+    "id": "4e72ea88-b0ea-43a2-8a56-e7f0b8ac2d02",
+    "title": "मन के अंदर",
+    "subCategory": "हाफ़िंगर",
+    "dlc": "दावन्गार्ड",
+    "mainCategory": "दावन्गार्ड"
+  },
+  {
+    "id": "f57ef5ab-98a7-48e7-93c1-73d3c4c6a6d3",
+    "title": "पैरागॉन प्लेटफार्म",
+    "subCategory": "हाफ़िंगर",
+    "dlc": "दावन्गार्ड",
+    "mainCategory": "दावन्गार्ड"
+  },
+  {
+    "id": "93e50ee2-c6ce-41f8-a76e-8d4c073496b6",
+    "title": "शार्पस्लोप गुफा",
+    "subCategory": "फ़ॉकरेथ होल्ड",
+    "dlc": "दावन्गार्ड",
+    "mainCategory": "दावन्गार्ड"
+  },
+  {
+    "id": "346e007a-b66b-49a2-87c2-26a9d91a75a8",
+    "title": "बर्फ़ का पानी घाट",
+    "subCategory": "फ़ॉकरेथ होल्ड",
+    "dlc": "दावन्गार्ड",
+    "mainCategory": "दावन्गार्ड"
+  },
+  {
+    "id": "b42f4bbf-0c75-4f8f-aedc-5dce5e76e93d",
+    "title": "मोल्डिंग खंडहर",
+    "subCategory": "फ़ॉकरेथ होल्ड",
+    "dlc": "दावन्गार्ड",
+    "mainCategory": "दावन्गार्ड"
+  },
+  {
+    "id": "57b2e365-3a78-4bfc-ae5b-d2a716172f36",
+    "title": "औरी-एल का मंत्रोच्चार",
+    "subCategory": "फ़ॉकरेथ होल्ड",
+    "dlc": "दावन्गार्ड",
+    "mainCategory": "दावन्गार्ड"
+  },
+  {
+    "id": "d773a88c-09c9-42da-b7ee-0f9e535f748d",
+    "title": "डेस्प्रिंग कैन्यन",
+    "subCategory": "फ़ॉकरेथ होल्ड",
+    "dlc": "दावन्गार्ड",
+    "mainCategory": "दावन्गार्ड"
+  },
+  {
+    "id": "b9a071f3-08b4-4f19-9bb7-c8734d439a13",
+    "title": "सोल केयर्न",
+    "subCategory": "हाफ़िंगर",
+    "dlc": "दावन्गार्ड",
+    "mainCategory": "दावन्गार्ड"
+  },
+  {
+    "id": "bd8bc14e-b7cc-4c2c-9b2e-7b8cc97a6cf5",
+    "title": "प्राचीन राजा",
+    "subCategory": "फ़ॉकरेथ होल्ड",
+    "dlc": "दावन्गार्ड",
+    "mainCategory": "दावन्गार्ड"
+  },
+  {
+    "id": "9fc0f20a-3ce5-45de-8b2f-4c91b8f793da",
+    "title": "परित्यक्त भवन",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "d5d07e0d-c3db-4c79-80d9-4bc7f1dfed6d",
+    "title": "अलोर हाउस",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "73e8e1ce-6e9c-4e7d-a20a-5e7465a8c2a0",
+    "title": "कैरेलियस हाउस",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "b8e929a3-6fc7-4a2f-b9e7-4a4089f42934",
+    "title": "कोल्डसिंडर गुफा",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "6f93336a-2b66-4cfc-bb9d-b1e7bc88d3bb",
+    "title": "ग्लोवर मैलोरी का घर",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "153f0126-aa74-457b-835a-cbf8d58cfe5b",
+    "title": "इवेंथ फार्म",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "b2046a84-0844-4bd4-bc2f-dc996b3b8a61",
+    "title": "मोर्वेन पैतृक मकबरा",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "1613457e-36b5-4e16-9361-1dd6e670798f",
+    "title": "मोर्वेन मनोर",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "f58512d0-6dd9-46c5-a2d8-1bf9a0123123",
+    "title": "रेवेन रॉक माइन",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "9f2fb6f0-0a3a-426b-8d54-eaeb6f72bcfe",
+    "title": "सेवेरिन मनोर",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "d5367b3b-6c75-4c36-9d52-56e4a5f902b3",
+    "title": "मंदिर",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "a201268c-9ec3-4752-8b95-f42e3a4be7a3",
+    "title": "रीचिंग नेच",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "a88d47e3-d2c5-4f42-b80d-242d84d54e3b",
+    "title": "बुलवार्क",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "9d3f9304-05d5-47fc-9f60-56b59c86fecc",
+    "title": "बुलवार्क जेल",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "d2fe9ae7-16da-4b8c-a3c2-1245a2ed1d8a",
+    "title": "उलेन पैतृक मकबरा",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "b7e6355c-3ee6-4d8c-9dab-77f1d05a63f2",
+    "title": "तेल मिथ्रिन",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "5e5f94bb-0ab8-401a-aa64-8f84a894f3bd",
+    "title": "तेल मिथ्रिन औषधालय",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "2f9b6e20-793a-4692-835e-9da4e4b1a5d9",
+    "title": "तेल मिथ्रिन रसोई",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "ac6837b7-0213-4c0a-a5e2-c1ec3e118af9",
+    "title": "तेल मिथ्रिन स्टीवर्ड का घर",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "b7e6355c-3ee6-4d8c-9dab-77f1d05a63f2",
+    "title": "तेल मिथ्रिन",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "5e5f94bb-0ab8-401a-aa64-8f84a894f3bd",
+    "title": "तेल मिथ्रिन औषधालय",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "2f9b6e20-793a-4692-835e-9da4e4b1a5d9",
+    "title": "तेल मिथ्रिन रसोई",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "ac6837b7-0213-4c0a-a5e2-c1ec3e118af9",
+    "title": "तेल मिथ्रिन स्टीवर्ड का घर",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "8f8e2e14-0811-4a38-88b5-eb748b72063f",
+    "title": "जानवर पत्थर",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "f7ac9c96-2d1e-4fc1-b818-244a832f4fb4",
+    "title": "पृथ्वी पत्थर",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "b1c0f90d-2e85-4202-80d1-7c5d682c3e0e",
+    "title": "सन स्टोन",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "5b8c8b60-34fc-402b-8032-b77d7f65189a",
+    "title": "वृक्ष पत्थर",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "1343f547-7a86-4a9a-a6a7-49c489732167",
+    "title": "पानी पत्थर",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "6eeb23e4-091d-4c91-9f82-62e4b1706092",
+    "title": "पवन पत्थर",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "1d4d0e62-d040-45a7-b6f1-1ce46c68b1c7",
+    "title": "बुजॉल्ड्स रिट्रीट",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "4b93ce5e-0b22-465f-8f24-ee5428a47c8f",
+    "title": "हकनिर का शोल",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "eb2e6959-1c94-45e2-98c0-d0f9170c8488",
+    "title": "अंतिम जागरण",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "f94af974-1cf4-45aa-ae94-255ea4eab3d1",
+    "title": "ब्रिसलबैक गुफा",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "3492441a-ba13-4cc1-97e5-28b10532f893",
+    "title": "बेनकॉन्गेरिके",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "ab56bda8-2c7b-42ed-8139-85566da144a7",
+    "title": "कैसल कार्स्टाग कैवर्न्स",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "fca37a79-9bfe-4bc1-8d12-4a26c1f7e804",
+    "title": "कैसल कार्स्टाग खंडहर",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "e6de2d6c-65a3-48ba-a1f9-7d5646ec6b68",
+    "title": "फ्रोसेल",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "5b6cccfb-55c4-46ea-9436-d80e5b8e4d42",
+    "title": "फ्रॉस्टमून क्रैग",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "86438187-0280-4003-9c7d-6a2c8912e4d1",
+    "title": "हिमानी गुफा",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "d52b7a12-7087-49cb-90a7-53b122c5227c",
+    "title": "ह्रोथमुंड का बैरो",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "227ab93d-4ecf-45e3-8794-0f1c6ba2ea4a",
+    "title": "हरस्ट्राड के हेडवाटर्स",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "a0f28a4b-74f7-4782-bf50-3bf772524b96",
+    "title": "नॉर्थशोर लैंडिंग",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "d04a25dd-8d8d-4a61-80b9-b28bc4f27252",
+    "title": "सेरिंग की घड़ी",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "7a7815ae-72a7-4e5b-8ea7-094e8bc87c7b",
+    "title": "फ़हलबथर्ज़",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "fc60d4cd-9fc7-44e3-b59b-7271edfd9f84",
+    "title": "कग्रुमेज़",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "7d5a8b2a-d10f-40de-85bb-56ccf52a6d12",
+    "title": "Nchardak",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "c5c7e1a7-9e0b-4489-8a6e-8f3c5b5dd3da",
+    "title": "पुराना एटिअस फार्म",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "e0bf1b10-0cd6-49d7-8252-946f18bf092a",
+    "title": "राख का गढ़",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "6a244867-58fb-40c1-b61e-b780c7cc6771",
+    "title": "फ्रॉस्ट फ्रॉस्टमोथ",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "a652bbd4-021d-4f8f-a3d4-92ac27ce4095",
+    "title": "हाईप्वाइंट टावर",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "71a12e63-557b-4c48-a927-0a2a3e54e29a",
+    "title": "सिंहासन की वेदी",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "a8c5d6da-b4b5-46e1-8759-24044c6215d8",
+    "title": "ब्रोडिर ग्रोव",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "617f3d27-0f2d-4e9c-8e5a-b7b0981e1cc3",
+    "title": "फ्रिक्टे पीक",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "e60f2a69-5c42-44e7-b0e9-1a8fbdb1a1c5",
+    "title": "हॉर्कर द्वीप",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "3a0ad99b-b8dd-4159-8ba4-e6b8164cb697",
+    "title": "ह्विटकाल्ड पीक",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "c8652a0c-d997-42aa-a6d2-836f071c250c",
+    "title": "माउंट मोएसरिंग",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "d0707a3e-154d-4e56-98d1-6b8ce01eaaab",
+    "title": "मॉर्ट्रैग पीक",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "45f115d2-7a48-45bf-b3a8-f6b8ed5b68a3",
+    "title": "स्टालहिम स्रोत",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "fc3a6b38-6ecf-4d91-9124-dc1353e98a9a",
+    "title": "टूटी दांत की खान",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "c2e9d27d-5849-4e14-b1d9-4b146a2442b1",
+    "title": "डम्फॉल खदान",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "46d8f23c-7073-4b0a-8bea-1c184cf4640f",
+    "title": "मोएसरिंग दर्रा",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "47c881b9-e3e7-40b2-8a57-e1b45c11c09c",
+    "title": "बर्फ़ से ढके खंडहर",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "ff50a819-6e71-4e5c-9a52-48fcb9951f34",
+    "title": "ब्लडस्कल बैरो",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "ea4d56c3-9093-45db-a82d-1263aa7be3a0",
+    "title": "ग्लाइडेनहुल बैरो",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "9bbca4b7-548d-442a-9e7a-04779a7bd5cb",
+    "title": "कोल्बजॉर्न बैरो",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "b20d2f54-96ed-4017-8b6e-c06715321b7b",
+    "title": "वाहलोक का मकबरा",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "19d84b07-b724-41ea-a6d5-1b52d43b6345",
+    "title": "व्हाइट रिज बैरो",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "c1c0e251-d31f-42a0-b924-914696fb0ff7",
+    "title": "स्काल गांव",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "b10b6fe3-c748-4f44-9011-2609b8f6e586",
+    "title": "बाल्डोर आयरन-शेपर्स हाउस",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "f2c613e1-50d4-4e95-bc5a-cb47a2d362a9",
+    "title": "डेओर वुडकटर का घर",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "3fbf5e5b-7d1a-43b3-90fc-0d6b3ac1efc9",
+    "title": "एल्डा का घर",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "68cb0194-6c25-47f5-a42a-2b95cb132883",
+    "title": "बड़ा हॉल",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "865171d8-e76b-46c0-b3d3-3f731e8f3ff6",
+    "title": "मोरवेन का घर",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "7c75d9f7-8da7-470d-b96b-c5f07c4ed1c5",
+    "title": "ओस्लाफ का घर",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "63317ee0-92fb-4392-b15e-678e4d165eda",
+    "title": "शमां की झोपड़ी",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "74a8265f-f327-40f2-98f9-5a6ce3fba300",
+    "title": "वुल्फ वाइल्ड-ब्लड हाउस",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "1f9ec6ef-688b-4da5-9e2d-8015f19793f0",
+    "title": "थिर्स्क मीड हॉल",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "04d07c96-6d5e-4140-8a54-f3eb9379677a",
+    "title": "परित्यक्त लॉज",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "b1ba546f-4823-4b7a-b5bf-4b6fe574ff11",
+    "title": "ह्रोडल्फ़ का घर",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "5407d999-f5ec-4ad2-a394-6f44b8666125",
+    "title": "रामशैकल ट्रेडिंग पोस्ट",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "3c7125b2-6df7-4a6d-b979-67d900d196b2",
+    "title": "उत्तरी युवती",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "b0d11e29-54c9-480d-8e0c-3eeb94601257",
+    "title": "स्ट्रिडेंट स्क्वॉल का मलबा",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  },
+  {
+    "id": "637b3b47-d251-4a21-a139-f0fffd320117",
+    "title": "मिराक का मंदिर",
+    "subCategory": "सोल्स्टाइम",
+    "dlc": "ड्रैगनबोर्न",
+    "mainCategory": "ड्रैगनबोर्न"
+  }
+]

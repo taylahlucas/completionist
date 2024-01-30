@@ -3,7 +3,6 @@ import Ionicon from 'react-native-vector-icons/Ionicons';
 import FontAwesome from 'react-native-vector-icons/FontAwesome';
 import { IconTypeEnum } from '@utils/CustomEnums';
 import { IconType } from '@utils/CustomTypes';
-import { ViewStyle } from 'react-native';
 
 export interface IconProps {
   name: IconType;

@@ -1,0 +1,51 @@
+{
+  "appTitle": "Completista.",
+  "welcome": "Bienvenido",
+  "search": "Buscar elementos...",
+  "showMore": "Mostrar más",
+  "none": "Ninguno",
+  "main": "Principal",
+  "active": "ACTIVO",
+  "inactive": "INACTIVO",
+  "auth": {
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "username": "Nombre de usuario",
+    "forgotPassword": "¿Has olvidado tu contraseña?",
+    "login": "Acceso",
+    "logout": "Cerrar sesión",
+    "signUp": "Inscribirse",
+    "createAccount": "Crear una cuenta",
+    "requestAccount": "¿No tienes una cuenta?",
+    "backToLogin": "Atrás para iniciar sesión"
+  },
+  "screens": {
+    "quests": "Misiones",
+    "collectables": "Coleccionables",
+    "locations": "Ubicaciones",
+    "miscellaneous": "Misceláneas",
+    "gameSelection": "Selección de juego",
+    "sendRequest": "Enviar petición",
+    "subscriptions": "Suscripciones",
+    "settings": "Ajustes"
+  },
+  "sendRequest": {
+    "subject": "Sujeto",
+    "writeRequest": "Escriba su solicitud aquí...",
+    "requestGameDesc": "¡No dudes en solicitar un juego, informar un error o hacer algunas sugerencias para mejorar la aplicación!"
+  },
+  "settings": {
+    "description": "¡No dudes en solicitar un juego, informar un error o hacer algunas sugerencias para mejorar la aplicación!",
+    "setCollections": "Establecer colecciones:",
+    "enabledDLC": "Activar/Desactivar DLC:",
+    "showHide": "Mostrar ocultar:",
+    "completedItems": "Artículos completados",
+    "disabledSections": "Secciones deshabilitadas"
+  },
+  "errors": {
+    "error": "Error",
+    "pleaseRefreshApp": "Por favor actualiza la aplicación",
+    "noEmailExists": "El correo electrónico no existe.",
+    "googleSignIn": "Error al iniciar sesión en Google"
+  }
+}

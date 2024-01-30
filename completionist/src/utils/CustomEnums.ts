@@ -19,11 +19,18 @@ export enum IconTypeEnum {
 }
 
 export enum SubscriptionTypeEnum {
-  SKYRIM = 'Skyrim',
-  FALLOUT_4 = 'Fallout 4'
+  SKYRIM = 'skyrim',
+  FALLOUT_4 = 'fallout4'
 }
 
 export enum SettingsOptionEnum {
-  COMPLETED_ITEMS = 'Completed Items',
-  DISABLED_SECTIONS = 'Disabled Sections'
+  COMPLETED_ITEMS = 'completedItems',
+  DISABLED_SECTIONS = 'disabledSections'
+}
+
+export enum ContentSectionEnum {
+  QUESTS = 'quests',
+  COLLECTABLES = 'collectables',
+  LOCATIONS = 'locations',
+  MISCELLANEOUS = 'miscellaneous'
 }

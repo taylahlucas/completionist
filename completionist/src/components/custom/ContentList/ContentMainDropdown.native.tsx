@@ -11,9 +11,10 @@ import useGetContentCategories from './hooks/useGetContentCategories';
 import useContentState from './hooks/useContentState';
 import useContentDispatch from './hooks/useContentDispatch';
 import { SubListContainer } from '@components/general/Lists/ListStyledComponents.native';
+import { CategoryType } from '@utils/CustomInterfaces';
 
 export interface ContentMainDropdownProps {
-  category: string;
+  category: CategoryType;
   completed: string;
   total: string;
 }
@@ -24,26 +25,31 @@ const ContentMainDropdown = ({ category, completed, total }: ContentMainDropdown
   const { sectionType, selectedCategory } = useContentState();
   const { getContentSubCategories } = useGetContentCategories();
   const { getContentForSubCategory } = useGetContents();
-  const subCategories = getContentSubCategories(category, selectedGame);
+  const subCategories = getContentSubCategories(category.title, selectedGame);
   const { checkContentCompleteForCategory } = useCheckContentComplete();
-  const isEnabled: boolean = selectedGameData?.settingsConfig.find(settings => settings.category === category && settings.section === sectionType)?.isActive ?? false;
+  const isEnabled: boolean = selectedGameData?.settingsConfig.find(settings => settings.category === category.id && settings.section === sectionType)?.isActive ?? false;
 
   return (
     <Dropdown
-      isOpen={category === selectedCategory.category}
+      isOpen={category.id === selectedCategory.category}
       setOpen={(): void => setSelectedCategory({
         ...selectedCategory,
-        category: category === selectedCategory.category ? '' : category,
+        category: category.id === selectedCategory.category ? '' : category.id,
         subCategory: ''
       })}
       enabled={isEnabled}
       header={
-        <ListHeader title={category === 'None' ? 'Main' : category} enabled={isEnabled} completed={completed} total={total} />
+        <ListHeader 
+          title={category.title} 
+          enabled={isEnabled} 
+          completed={completed} 
+          total={total} 
+        />
       }
     >
       <SubListContainer>
         {subCategories.map((subCategory, index) => {
-          const questsForCategory = getContentForSubCategory(category, subCategory);
+          const questsForCategory = getContentForSubCategory(category.title, subCategory);
           const completedQuests = checkContentCompleteForCategory(questsForCategory);
           
           return (

@@ -6,6 +6,7 @@ import { AxiosErrorResponse } from '@utils/CustomTypes';
 import useLoginState from './useLoginState';
 import { Alert } from 'react-native';
 import useKeychain from '@data/hooks/useKeychain.native';
+import { useTranslation } from 'react-i18next';
 
 interface GoogleSignInError {
   code: number;
@@ -20,6 +21,7 @@ interface GetLoginMethodsReturnType {
 }
 
 const useGetLoginMethods = (): GetLoginMethodsReturnType => {
+  const { t } = useTranslation();
   const { loginFormData } = useLoginState();
   const { saveUserAndLogin, removeUserData } = useSaveUserData();
   const { signIn, signUp, getUserByUserId } = useEndpoints();
@@ -90,7 +92,7 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
               });
           }
           else {
-            Alert.alert("Error with google sign in", "Email does not exist");
+            Alert.alert(t('common:errors.googleSignIn'), t('common:errors.noEmailExists'));
           }
         });
     } catch (error: GoogleSignInError | any) {
