@@ -1,3 +1,4 @@
+import { useTranslation } from 'react-i18next';
 import useGetGameData from '@data/hooks/useGetGameData';
 import useGetSettingsConfig from '@data/hooks/useGetSettingsConfig';
 import useMainState from '@redux/hooks/useMainState';
@@ -13,6 +14,7 @@ interface GameDataReturnType {
 }
 
 const useGetContentCategories = (): GameDataReturnType => {
+  const { t } = useTranslation();
   const { mapDataTo } = useGetGameData();
   const { sectionType } = useContentState();
   const { selectedGame, selectedGameData } = useMainState();
@@ -52,7 +54,7 @@ const useGetContentCategories = (): GameDataReturnType => {
     const items = mapDataTo(sectionType, selectedGame);
     const filteredItems = items.filter(collectable => collectable.subCategory === subCategory);
     let itemSubCategoriesTypes: string[] = [];
-
+    
     filteredItems.map(item => {
       if (!itemSubCategoriesTypes.find(category => category === item.subCategoryType)) {
         if (!!item.subCategoryType) {

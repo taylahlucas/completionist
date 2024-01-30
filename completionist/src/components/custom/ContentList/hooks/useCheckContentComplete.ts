@@ -1,6 +1,6 @@
 import useMainState from '@redux/hooks/useMainState';
 import { GameContentItem } from '@utils/CustomInterfaces';
-import { ContentSection } from '@utils/CustomTypes';
+import { ContentSectionEnum } from '@utils/CustomEnums';
 import useContentState from './useContentState';
 
 interface CheckContentCompleteReturnType {
@@ -14,13 +14,13 @@ const useCheckContentComplete = (): CheckContentCompleteReturnType => {
 
   const checkContentComplete = (id: string): boolean => {
     switch (sectionType) {
-      case 'Quests':
+      case ContentSectionEnum.QUESTS:
         return !!selectedGameData?.quests.find(item => item.id === id && item.isComplete);
-      case 'Collectables':
+      case ContentSectionEnum.COLLECTABLES:
         return !!selectedGameData?.collectables.find(item => item.id === id && item.isComplete);
-      case 'Locations':
+      case ContentSectionEnum.LOCATIONS:
         return !!selectedGameData?.locations.find(item => item.id === id && item.isComplete);
-      case 'Miscellaneous':
+      case ContentSectionEnum.MISCELLANEOUS:
         return !!selectedGameData?.miscellaneous.find(item => item.id === id && item.isComplete);
       default:
         return false;
@@ -29,9 +29,8 @@ const useCheckContentComplete = (): CheckContentCompleteReturnType => {
 
   const checkContentCompleteForCategory = (items: GameContentItem[]): number => {
     let count = 0;
-
     switch (sectionType) {
-      case 'Quests':
+      case ContentSectionEnum.QUESTS:
         selectedGameData?.quests.forEach((quest) => {
           items.forEach((item) => {
             if (quest.id === item.id && quest.isComplete) {
@@ -40,7 +39,7 @@ const useCheckContentComplete = (): CheckContentCompleteReturnType => {
           });
         });
         return count;
-      case 'Collectables':
+      case ContentSectionEnum.COLLECTABLES:
         selectedGameData?.collectables.forEach((collectable) => {
           items.forEach((item) => {
             if (collectable.id === item.id && collectable.isComplete) {
@@ -49,7 +48,7 @@ const useCheckContentComplete = (): CheckContentCompleteReturnType => {
           });
         });
         return count;
-      case 'Locations':
+      case ContentSectionEnum.LOCATIONS:
         selectedGameData?.locations.forEach((location) => {
           items.forEach((item) => {
             if (location.id === item.id && location.isComplete) {
@@ -58,7 +57,7 @@ const useCheckContentComplete = (): CheckContentCompleteReturnType => {
           });
         });
         return count;
-      case 'Miscellaneous':
+      case ContentSectionEnum.MISCELLANEOUS:
         selectedGameData?.miscellaneous.forEach((miscItem) => {
           items.forEach((item) => {
             if (miscItem.id === item.id && miscItem.isComplete) {

@@ -35,7 +35,7 @@ const ContentSubTypeDropdown = ({ subCategory, type, completed, total }: Content
         <SubTypeListHeader title={type} completed={completed} total={total} />
       }
     >
-      <ListItemScrollView contentContainerStyle={listStyles.listItemScrollableList}>
+      <ListItemScrollView>
         {items?.map((item, index) => (
           <ListItem
             key={index}

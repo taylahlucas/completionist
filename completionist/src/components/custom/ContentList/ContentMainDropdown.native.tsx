@@ -24,7 +24,7 @@ const ContentMainDropdown = ({ category, completed, total }: ContentMainDropdown
   const { setSelectedCategory } = useContentDispatch();
   const { sectionType, selectedCategory } = useContentState();
   const { getContentSubCategories } = useGetContentCategories();
-  const { getContentForSubCategory, getMainTitle } = useGetContents();
+  const { getContentForSubCategory } = useGetContents();
   const subCategories = getContentSubCategories(category.title, selectedGame);
   const { checkContentCompleteForCategory } = useCheckContentComplete();
   const isEnabled: boolean = selectedGameData?.settingsConfig.find(settings => settings.category === category.id && settings.section === sectionType)?.isActive ?? false;
@@ -40,7 +40,7 @@ const ContentMainDropdown = ({ category, completed, total }: ContentMainDropdown
       enabled={isEnabled}
       header={
         <ListHeader 
-          title={getMainTitle(category.title)} 
+          title={category.title} 
           enabled={isEnabled} 
           completed={completed} 
           total={total} 
@@ -49,18 +49,16 @@ const ContentMainDropdown = ({ category, completed, total }: ContentMainDropdown
     >
       <SubListContainer>
         {subCategories.map((subCategory, index) => {
-          // const questsForCategory = getContentForSubCategory(category.title, subCategory);
-          // const completedQuests = checkContentCompleteForCategory(questsForCategory);
+          const questsForCategory = getContentForSubCategory(category.title, subCategory);
+          const completedQuests = checkContentCompleteForCategory(questsForCategory);
           
           return (
             <ContentSubDropdown
               key={index}
               mainCategory={category}
               subCategory={subCategory}
-              // completed={completedQuests.toString()}
-              // total={questsForCategory.length.toString()}
-              completed={'0'}
-              total={'0'}
+              completed={completedQuests.toString()}
+              total={questsForCategory.length.toString()}
             />
           )
         })}

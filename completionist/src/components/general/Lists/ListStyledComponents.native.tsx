@@ -10,13 +10,10 @@ export const listStyles = StyleSheet.create({
   scrollableContent: {
     alignItems: 'center', 
     alignSelf: 'center',
-    paddingBottom: 100
+    paddingBottom: 24
   },
   scrollableList: {
     padding: 16
-  },
-  listItemScrollableList: {
-    paddingBottom: 50
   },
   selectableButton: {
     justifyContent: 'center',

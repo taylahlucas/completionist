@@ -1295,7 +1295,7 @@
         "username": "Username",
         "forgotPassword": "Forgot Password?",
         "login": "Login",
-        "Logout": "Logout",
+        "logout": "logout",
         "signUp": "Sign Up",
         "createAccount": "Create Account",
         "requestAccount": "Don't have an account?",

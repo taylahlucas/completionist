@@ -13,7 +13,7 @@ import useCheckContentComplete from './hooks/useCheckContentComplete';
 import { CategoryType } from '@utils/CustomInterfaces';
 
 export interface ContentSubDropdownProps {
-  mainCategory?: CategoryType;
+  mainCategory: CategoryType;
   subCategory: string;
   completed: string;
   total: string;
@@ -37,13 +37,21 @@ const ContentSubDropdown = ({ mainCategory, subCategory, completed, total }: Con
         type: ''
       })}
       header={
-        <SubListHeader title={subCategory} completed={completed} total={total} />
+        <SubListHeader 
+          title={subCategory} 
+          completed={completed} 
+          total={total} 
+        />
       }
     >
       <Condition
         condition={subCategoryTypes?.length > 0}
         conditionalElement={
-          <ContentMainList mainCategory={mainCategory} subCategory={subCategory} isSubCategory={true} />
+          <ContentMainList 
+            mainCategory={mainCategory} 
+            subCategory={subCategory} 
+            isSubCategory={true} 
+          />
         }
       >
         {subCategoryTypes?.map((type, index) => {

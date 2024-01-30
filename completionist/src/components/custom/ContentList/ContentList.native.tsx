@@ -25,16 +25,14 @@ const ContentList = () => {
       <ScrollableList>
         {getContentCategories().map((category: CategoryType, index: number) => {
           const allContentForCategory = getAllContentForCategory(category.title)
-          // const completedContent = checkContentCompleteForCategory(allContentForCategory)
+          const completedContent = checkContentCompleteForCategory(allContentForCategory)
 
           return (
             <ContentMainDropdown
               key={index}
               category={category}
-              // completed={completedContent.toString()}
+              completed={completedContent.toString()}
               total={allContentForCategory.length.toString()}
-              completed={'0'}
-              // total={'0'}
             />
           )
         })}

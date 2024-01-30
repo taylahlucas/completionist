@@ -41,15 +41,13 @@ Collectables
   dlc: string
 }
 
-Can you do the convert the following fallout 4 locations
-to the following JSON:
+Rules
+-- If mainCategory && subCategogry exists, but subCategoryTypes does not, this wil represent the main quests for the sub category.
+The FE will convert this section to 'Main'.
 
-  {
-    "id": <generated_uuid>,
-    "title": <given value>,
-    "hold": "",
-    "dlc": "Automatron"
-  }
+
+
+TODO: 
 
 HEARTHFIRE QUESTS
 https://en.uesp.net/wiki/Category:Skyrim-Hearthfire-Quests
