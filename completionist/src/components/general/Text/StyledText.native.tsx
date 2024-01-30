@@ -22,7 +22,13 @@ const StyledText: React.FunctionComponent<StyledTextProps> = ({
   const theme = useGetTheme();
   
   return (
-    <Text numberOfLines={props.numberOfLines} ellipsizeMode='tail' style={{ ...defaultStyle[type], ...defaultStyle[align], ...style, color: color ?? theme.midGrey }}>{children}</Text>
+    <Text 
+      numberOfLines={props.numberOfLines} 
+      ellipsizeMode='tail' 
+      style={{ ...defaultStyle[type], ...defaultStyle[align], ...style, color: color ?? theme.midGrey }}
+    >
+      {children}
+    </Text>
   );
 };
 

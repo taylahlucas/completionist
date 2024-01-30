@@ -1,7 +1,7 @@
 import { Dimensions, StyleSheet } from 'react-native';
 import styled from 'styled-components/native';
 import StyledText from '@components/general/Text/StyledText.native';
-import { DEFAULT_BORDER_RADIUS, SMALL_WIDTH } from '@styles/global.native';
+import { DEFAULT_BORDER_RADIUS } from '@styles/global.native';
 import ScrollableList from './ScrollableList.native';
 import Button from '../Button/Button.native';
 import { LARGE_WIDTH, STANDARD_WIDTH } from '@styles/global.native';
@@ -17,7 +17,6 @@ export const listStyles = StyleSheet.create({
   },
   selectableButton: {
     justifyContent: 'center',
-    height: 45,
     flexDirection: 'row'
   },
   subSelectableButton: {
@@ -50,6 +49,7 @@ export const ListItemHeaderCountTitle = styled(StyledText)`
 export const SubListHeaderTitle = styled(StyledText)`
   padding: 8px;
   margin-left: 16px;
+  margin-right: 64px;
 `;
 
 export const ListItemScrollView = styled(ScrollableList)`

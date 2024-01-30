@@ -9,6 +9,7 @@ import { ScreenEnum } from '@utils/CustomEnums';
 import { Subscription } from '@utils/CustomInterfaces';
 import GameListSectionHeader from './GameListSectionHeader.native';
 import useTranslateGameContent from '@utils/hooks/useTranslateGameContent.native';
+import useContentDispatch from '../ContentList/hooks/useContentDispatch';
 
 interface GameListSectionDropdown {
   title: string;
@@ -18,6 +19,7 @@ interface GameListSectionDropdown {
 const GameListSectionDropdown = ({ title, data }: GameListSectionDropdown) => {
   const navigation = useReactNavigation();
   const { setSelectedGame, setSelectedGameSettings, reset } = useMainDispatch();
+  const { reset: contentReset } = useContentDispatch();
   const { getGameImage } = useGetGameImage();
   const { translateGameName } = useTranslateGameContent();
   const [isOpen, setIsOpen] = useState(true);
@@ -36,6 +38,7 @@ const GameListSectionDropdown = ({ title, data }: GameListSectionDropdown) => {
             enabled={game.isActive}
             imageUrl={getGameImage(game.id)}
             onPress={(): void => {
+              contentReset();
               reset();
               setSelectedGame(game.id);
               setSelectedGameSettings(game.id);

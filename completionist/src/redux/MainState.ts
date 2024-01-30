@@ -148,6 +148,8 @@ const slice = createSlice({
     reset: (state) => {
       state.searchValue = initialState.searchValue;
       state.showSearchResults = initialState.showSearchResults;
+      
+      state.currentScreen = ScreenEnum.Quests;
     }
   }
 });

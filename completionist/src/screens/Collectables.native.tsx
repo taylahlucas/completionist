@@ -14,7 +14,6 @@ import { ContentSectionEnum } from '@utils/CustomEnums';
 
 const Collectables = () => {
   const { t } = useTranslation();
-  const sectionTitle = t('common:screens.locations');
   const { selectedGame } = useMainState();
   const { setSearchValue } = useContentDispatch();
   const { searchValue } = useContentState();
@@ -23,7 +22,7 @@ const Collectables = () => {
 
   return (
     <StandardLayout>
-      <NavigationHeader title={sectionTitle} />
+      <NavigationHeader title={t('common:screens.collectables')} />
       <CustomSearchBar 
         searchValue={searchValue} 
         setSearchValue={setSearchValue}

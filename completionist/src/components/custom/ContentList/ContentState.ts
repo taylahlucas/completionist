@@ -35,6 +35,13 @@ const slice = createSlice({
       else {
         state.selectedCategory = action.payload;
       }
+    },
+    reset: (state) => {
+      state.sectionType = ContentSectionEnum.QUESTS;
+      state.searchValue = '';
+      state.selectedCategory = {
+        category: ''
+      }
     }
   }
 });
@@ -42,7 +49,8 @@ const slice = createSlice({
 export const {
   setSelectedSection,
   setSearchValue,
-  setSelectedCategory
+  setSelectedCategory,
+  reset
 } = slice.actions;
 
 export default slice.reducer;

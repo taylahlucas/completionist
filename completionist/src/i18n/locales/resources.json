@@ -104,7 +104,7 @@
           },
           "collectables": {
             "title": "收藏品",
-            "boobleheads": "摇头娃娃",
+            "bobbleheads": "摇头娃娃",
             "magazines": "杂志",
             "uniqueWeapons": "独特的武器",
             "uniqueArmour": "独特的盔甲",
@@ -232,7 +232,7 @@
           },
           "collectables": {
             "title": "Đồ sưu tầm",
-            "boobleheads": "tóc bồng bềnh",
+            "bobbleheads": "tóc bồng bềnh",
             "magazines": "Tạp chí thời sự",
             "uniqueWeapons": "Vũ khí độc đáo",
             "uniqueArmour": "Giáp độc nhất",
@@ -360,7 +360,7 @@
           },
           "collectables": {
             "title": "Koleksiyon parçaları",
-            "boobleheads": "Bobblehead'ler",
+            "bobbleheads": "Bobblehead'ler",
             "magazines": "Dergiler",
             "uniqueWeapons": "Benzersiz Silahlar",
             "uniqueArmour": "Benzersiz Zırh",
@@ -488,7 +488,7 @@
           },
           "collectables": {
             "title": "Colecionáveis",
-            "boobleheads": "Bobbleheads",
+            "bobbleheads": "Bobbleheads",
             "magazines": "Revistas",
             "uniqueWeapons": "Armas únicas",
             "uniqueArmour": "Armadura Única",
@@ -616,7 +616,7 @@
           },
           "collectables": {
             "title": "収集品",
-            "boobleheads": "ボブルヘッド",
+            "bobbleheads": "ボブルヘッド",
             "magazines": "雑誌",
             "uniqueWeapons": "ユニークな武器",
             "uniqueArmour": "ユニークな鎧",
@@ -744,7 +744,7 @@
           },
           "collectables": {
             "title": "Oggetti da collezione",
-            "boobleheads": "Teste molleggiate",
+            "bobbleheads": "Teste molleggiate",
             "magazines": "Riviste",
             "uniqueWeapons": "Armi uniche",
             "uniqueArmour": "Armatura unica",
@@ -872,7 +872,7 @@
           },
           "collectables": {
             "title": "Barang koleksi",
-            "boobleheads": "Bobblehead",
+            "bobbleheads": "Bobblehead",
             "magazines": "Majalah",
             "uniqueWeapons": "Senjata Unik",
             "uniqueArmour": "Baju Besi Unik",
@@ -1000,7 +1000,7 @@
           },
           "collectables": {
             "title": "संग्रहणीय वस्तुएँ",
-            "boobleheads": "बॉबलहेड्स",
+            "bobbleheads": "बॉबलहेड्स",
             "magazines": "पत्रिका",
             "uniqueWeapons": "अनोखे हथियार",
             "uniqueArmour": "अनोखा कवच",
@@ -1128,7 +1128,7 @@
           },
           "collectables": {
             "title": "Objets de collection",
-            "boobleheads": "Figurines à pompons",
+            "bobbleheads": "Figurines à pompons",
             "magazines": "Les magazines",
             "uniqueWeapons": "Armes uniques",
             "uniqueArmour": "Armure unique",
@@ -1256,7 +1256,7 @@
           },
           "collectables": {
             "title": "Coleccionables",
-            "boobleheads": "muñecos",
+            "bobbleheads": "muñecos",
             "magazines": "Revistas",
             "uniqueWeapons": "Armas únicas",
             "uniqueArmour": "Armadura única",
@@ -1385,7 +1385,7 @@
           },
           "collectables": {
             "title": "Collectables",
-            "boobleHeads": "Bobbleheads",
+            "bobbleheads": "Bobbleheads",
             "magazines": "Magazines",
             "uniqueWeapons": "Unique Weapons",
             "uniqueArmour": "Unique Armour",
@@ -1514,7 +1514,7 @@
           },
           "collectables": {
             "title": "Sammlerstücke",
-            "boobleheads": "Wackelköpfe",
+            "bobbleheads": "Wackelköpfe",
             "magazines": "Zeitschriften",
             "uniqueWeapons": "Einzigartige Waffen",
             "uniqueArmour": "Einzigartige Rüstung",
@@ -1642,7 +1642,7 @@
           },
           "collectables": {
             "title": "مقتنيات",
-            "boobleheads": "رؤؤس فقاعية",
+            "bobbleheads": "رؤؤس فقاعية",
             "magazines": "المجلات",
             "uniqueWeapons": "أسلحة فريدة من نوعها",
             "uniqueArmour": "درع فريد",

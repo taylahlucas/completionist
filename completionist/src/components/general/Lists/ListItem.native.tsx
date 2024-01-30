@@ -31,7 +31,7 @@ const ListItem = ({ title, location, hold, isComplete = false, action }: ListIte
         </ListItemTitle>
         <Condition condition={!!location || !!hold}>
           <ListItemLocationContainer>
-            <StyledText 
+            <StyledText
               type={'ListItemSubDescription'} 
               color={isComplete ? theme.midGrey : theme.darkGrey}
               ellipsizeMode={'tail'}

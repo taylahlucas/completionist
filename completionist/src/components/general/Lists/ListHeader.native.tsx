@@ -21,7 +21,13 @@ const ListHeader = ({ title, enabled = true, completed, total }: ListHeaderProps
   return (
     <View style={listStyles.selectableButton}>
       <ListItemHeaderContainer backgroundColor={theme.black} color={theme.darkGrey}>
-        <SubListHeaderTitle type={'ListItemSubTitleBold'} color={theme.lightGrey}>{title}</SubListHeaderTitle>
+        <SubListHeaderTitle
+          type={'ListItemSubTitleBold'} 
+          align={'left'}
+          color={theme.lightGrey}
+        >
+          {title}
+        </SubListHeaderTitle>
         <Condition condition={enabled}>
           <ListItemHeaderCountTitle type={'ListItemSubTitleBold'} color={theme.lightGrey}>
             {`${completed} / ${total}`}

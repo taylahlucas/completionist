@@ -51,7 +51,7 @@
       },
       "collectables": {
         "title": "収集品",
-        "boobleheads": "ボブルヘッド",
+        "bobbleheads": "ボブルヘッド",
         "magazines": "雑誌",
         "uniqueWeapons": "ユニークな武器",
         "uniqueArmour": "ユニークな鎧",

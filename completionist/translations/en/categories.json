@@ -52,7 +52,7 @@
       },
       "collectables": {
         "title": "Collectables",
-        "boobleHeads": "Bobbleheads",
+        "bobbleheads": "Bobbleheads",
         "magazines": "Magazines",
         "uniqueWeapons": "Unique Weapons",
         "uniqueArmour": "Unique Armour",
