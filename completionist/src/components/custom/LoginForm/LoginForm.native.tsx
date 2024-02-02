@@ -31,6 +31,7 @@ const LoginForm = () => {
         <TextInput
           placeholder={t('common:auth.password')}
           inputStyle={'text'}
+          secureTextEntry={true}
           value={loginFormData.password ?? ''}
           onChangeText={(value) => setLoginFormData({
             ...loginFormData,

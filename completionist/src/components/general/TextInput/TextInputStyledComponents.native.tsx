@@ -1,6 +1,5 @@
-import { LARGE_WIDTH } from '@styles/global.native';
-import { Dimensions } from 'react-native';
 import styled from 'styled-components/native';
+import { LARGE_WIDTH } from '@styles/global.native';
 import IconButton from '../Icon/IconButton.native';
 
 interface TextInputContainerProps {
@@ -34,8 +33,13 @@ export const TextInputStyled = styled.TextInput<TextInputProps>`
   padding: 2px;
 `;
 
+export const TextInputSecure = styled(IconButton)`
+  margin-right: 16px;
+  padding: 8px 0 8px;
+`;
+
 export const TextInputCancel = styled(IconButton)`
   position: absolute;
   right: 16px;
-  padding-vertical: 8px;
+  padding: 8px 0 8px;
 `;

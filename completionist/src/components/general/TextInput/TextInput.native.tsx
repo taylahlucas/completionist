@@ -1,5 +1,5 @@
-import React from 'react';
-import { NativeSyntheticEvent, TextInputChangeEventData, ViewStyle } from 'react-native';
+import React, { useState } from 'react';
+import { NativeSyntheticEvent, TextInputChangeEventData, TextInputProps as RNTextInputProps } from 'react-native';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import { TextInputStyled, TextInputCancel } from './TextInputStyledComponents.native';
 import { TextInputContainer } from './TextInputStyledComponents.native';
@@ -7,33 +7,30 @@ import Condition from '../Condition.native';
 import defaultStyle from '@styles/Font/FontStyle';
 import { TextInputStyleType } from '@utils/CustomTypes';
 import useGetTextInputStyle from './hooks/useGetTextInputStyle.native';
+import { IconTypeEnum } from '@utils/CustomEnums';
 
-export interface TextInputProps {
-  placeholder?: string;
-  value: string;
+export interface TextInputProps extends RNTextInputProps {
+  onChangeText: (value: string) => void;
   height?: number;
   inputStyle?: TextInputStyleType;
-  onChangeText: (value: string) => void;
   onReset: () => void;
   leftComponent?: JSX.Element;
-  multiline?: boolean;
 }
 
 const TextInput = ({ 
-  placeholder, 
-  value, 
+  onChangeText,
   height = 45, 
   inputStyle = 'default',
-  onChangeText, 
   onReset,
   leftComponent,
-  multiline = false
+  ...props
 }: TextInputProps) => {
   const theme = useGetTheme();
   const inputTypeStyle = useGetTextInputStyle(inputStyle)
-
+  const [isSecure, setIsSecure] = useState(props.secureTextEntry ?? false);
+  
   return (
-    <TextInputContainer height={height} style={inputTypeStyle} multiline={multiline}>
+    <TextInputContainer height={height} style={inputTypeStyle} multiline={props.multiline ?? false}>
       <Condition condition={!!leftComponent}>
         {leftComponent}
       </Condition>
@@ -41,13 +38,22 @@ const TextInput = ({
         color={theme.lightGrey}
         hasLeftComponent={!!leftComponent}
         style={defaultStyle['ListItemSubTitle']}
-        placeholder={placeholder}
+        placeholder={props.placeholder}
         placeholderTextColor={theme.midGrey}
-        value={value}
+        value={props.value}
         onChange={(event: NativeSyntheticEvent<TextInputChangeEventData>): void => onChangeText(event.nativeEvent.text ?? '')}
-        multiline={multiline}
+        multiline={props.multiline ?? false}
+        secureTextEntry={isSecure}
       />
-      <Condition condition={!!value.length}>
+      <Condition condition={props.secureTextEntry ?? false}>
+        <TextInputCancel
+          onPress={(): void => setIsSecure(!isSecure)}
+          name={isSecure ? 'eye-off-outline' : 'eye-outline'}
+          type={IconTypeEnum.Ionicons}
+          color={theme.midGrey}
+        />
+      </Condition>
+      <Condition condition={!!props.value && props.value?.length > 0 && !props.secureTextEntry}>
         <TextInputCancel
           onPress={onReset}
           name={'cancel'}

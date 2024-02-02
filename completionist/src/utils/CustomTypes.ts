@@ -17,6 +17,8 @@ export type IoniconType =
   | 'arrow-back'
   | 'checkmark-circle-outline'
   | 'checkbox-outline'
+  | 'eye-outline'
+  | 'eye-off-outline'
   | 'menu-sharp'
   | 'square-outline'
   | 'wallet-outline';
