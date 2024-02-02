@@ -35,11 +35,11 @@ export const TextInputStyled = styled.TextInput<TextInputProps>`
 
 export const TextInputSecure = styled(IconButton)`
   margin-right: 16px;
-  padding: 8px 0 8px;
+  padding-vertical: 8px;
 `;
 
 export const TextInputCancel = styled(IconButton)`
   position: absolute;
   right: 16px;
-  padding: 8px 0 8px;
+  padding-vertical: 8px;
 `;
