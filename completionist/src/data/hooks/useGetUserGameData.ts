@@ -1,5 +1,5 @@
 import useMainState from '@redux/hooks/useMainState';
-import { SubscriptionTypeEnum } from '@utils/CustomEnums';
+import { GameKeyEnum } from '@utils/CustomEnums';
 import { Item, SettingsConfigItem } from '@utils/CustomInterfaces';
 
 interface GetUserGameDataReturnType {

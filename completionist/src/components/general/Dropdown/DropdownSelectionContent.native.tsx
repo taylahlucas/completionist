@@ -1,11 +1,11 @@
 import React from 'react';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import { DropdownSelectionItemTitle, DropdownSelectionContentContainer, DropdownSelectionContentItem } from './DropdownStyledComponents.native';
-import { SubscriptionTypeEnum } from '@utils/CustomEnums';
+import { GameKeyEnum } from '@utils/CustomEnums';
 
 interface DropdownSelectionContentProps {
-  content: SubscriptionTypeEnum[];
-  onPress: (value: SubscriptionTypeEnum) => void;
+  content: GameKeyEnum[];
+  onPress: (value: GameKeyEnum) => void;
 }
 
 const DropdownSelectionContent = ({ content, onPress }: DropdownSelectionContentProps) => {

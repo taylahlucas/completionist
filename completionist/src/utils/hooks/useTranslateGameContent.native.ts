@@ -1,17 +1,17 @@
 import { useTranslation } from 'react-i18next';
 import { SettingsConfigItem } from '@utils/CustomInterfaces';
 import useDLCOptions from '@components/custom/SettingsContent/hooks/useDLCOptions';
-import { SubscriptionTypeEnum } from '@utils/CustomEnums';
+import { GameKeyEnum } from '@utils/CustomEnums';
 
 const useTranslateGameContent = () => {
   const { t } = useTranslation();
   const { getDLCOptions } = useDLCOptions();
 
-  const translateGameName = (title: SubscriptionTypeEnum): string => {
+  const translateGameName = (title: GameKeyEnum): string => {
     return t(`categories:${title}.title`);
   };
 
-  const translateCategoryName = (selectedGame: SubscriptionTypeEnum, item: SettingsConfigItem): string => {
+  const translateCategoryName = (selectedGame: GameKeyEnum, item: SettingsConfigItem): string => {
     const dlc = getDLCOptions();
     let translatedTitle;
 

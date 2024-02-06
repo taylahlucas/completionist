@@ -1,5 +1,5 @@
 import React from 'react';
-import { SubscriptionTypeEnum } from '@utils/CustomEnums';
+import { GameKeyEnum } from '@utils/CustomEnums';
 import { SettingsConfigItem } from '@utils/CustomInterfaces';
 import CheckBox from '@components/general/Checkbox/CheckBox.native';
 import useMainState from '@redux/hooks/useMainState';
@@ -15,7 +15,7 @@ const SettingsContentCheckBox = ({ item }: SettingsContentCheckBoxProps) => {
   const { setUser } = useMainDispatch();
   const { updateConfig } = useUpdateSettingsConfig();
 
-  const updateGameSettings = (gameKey: SubscriptionTypeEnum) => {
+  const updateGameSettings = (gameKey: GameKeyEnum) => {
     const gameConfig = updateConfig(user.data[gameKey].settingsConfig, item);
 
     setUser({

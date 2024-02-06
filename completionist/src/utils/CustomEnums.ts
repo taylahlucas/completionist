@@ -9,18 +9,31 @@ export enum ScreenEnum {
   Miscellaneous = 'Miscellaneous',
   Locations = 'Locations',
   RequestGame = 'RequestGame',
+  Subscriptions = 'Subscriptions',
   Settings = 'Settings'
 }
 
 export enum IconTypeEnum {
   MaterialIcons = 'MaterialIcons',
+  MaterialCommunityIcons = 'MaterialCommunityIcons',
   Ionicons = 'Ionicons',
   FontAwesome = 'FontAwesome'
 }
 
-export enum SubscriptionTypeEnum {
+export enum GameKeyEnum {
   SKYRIM = 'skyrim',
   FALLOUT_4 = 'fallout4'
+}
+
+export enum SubscriptionTypeEnum {
+  BRONZE,
+  SILVER,
+  GOLD
+}
+
+export enum DatePeriodEnum {
+  MONTHLY = 'monthly',
+  YEARLY = 'yearly'
 }
 
 export enum SettingsOptionEnum {

@@ -1,4 +1,4 @@
-import { SubscriptionTypeEnum } from './CustomEnums';
+import { GameKeyEnum } from './CustomEnums';
 
 export const CACHE_KEY = 'REST_GET_CACHE';
 export const CACHE_EXPIRY_TIME = 60 * 60 * 1000;    // 1 hour in milliseconds
@@ -8,8 +8,8 @@ export const renderAmountConst = 20;
 export const generalSections = ['Quests', 'Collectables', 'Locations', 'Miscellaneous'];
 
 export const games = [
-  SubscriptionTypeEnum.SKYRIM,
-  SubscriptionTypeEnum.FALLOUT_4
+  GameKeyEnum.SKYRIM,
+  GameKeyEnum.FALLOUT_4
 ]
 
 export const skyrimDLC = [

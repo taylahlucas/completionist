@@ -2,15 +2,15 @@ import { useTranslation } from 'react-i18next';
 import useGetGameData from '@data/hooks/useGetGameData';
 import useGetSettingsConfig from '@data/hooks/useGetSettingsConfig';
 import useMainState from '@redux/hooks/useMainState';
-import { SubscriptionTypeEnum } from '@utils/CustomEnums';
+import { GameKeyEnum } from '@utils/CustomEnums';
 import { CategoryType } from '@utils/CustomInterfaces';
 import useTranslateGameContent from '@utils/hooks/useTranslateGameContent.native';
 import useContentState from './useContentState';
 
 interface GameDataReturnType {
   getContentCategories: () => CategoryType[];
-  getContentSubCategories: (category: string, selectedGame?: SubscriptionTypeEnum) => string[];
-  getContentSubCategoriesTypes: (subCategory: string, selectedGame?: SubscriptionTypeEnum) => string[];
+  getContentSubCategories: (category: string, selectedGame?: GameKeyEnum) => string[];
+  getContentSubCategoriesTypes: (subCategory: string, selectedGame?: GameKeyEnum) => string[];
 }
 
 const useGetContentCategories = (): GameDataReturnType => {
@@ -35,7 +35,7 @@ const useGetContentCategories = (): GameDataReturnType => {
         : []);
   }
 
-  const getContentSubCategories = (category: string, selectedGame?: SubscriptionTypeEnum): string[] => {
+  const getContentSubCategories = (category: string, selectedGame?: GameKeyEnum): string[] => {
     const items = mapDataTo(sectionType, selectedGame);
     const filteredItems = items.filter(item => item.mainCategory === category);
 
@@ -50,7 +50,7 @@ const useGetContentCategories = (): GameDataReturnType => {
     return itemSubCategories;
   }
 
-  const getContentSubCategoriesTypes = (subCategory: string, selectedGame?: SubscriptionTypeEnum): string[] => {  
+  const getContentSubCategoriesTypes = (subCategory: string, selectedGame?: GameKeyEnum): string[] => {  
     const items = mapDataTo(sectionType, selectedGame);
     const filteredItems = items.filter(collectable => collectable.subCategory === subCategory);
     let itemSubCategoriesTypes: string[] = [];

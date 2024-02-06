@@ -7,7 +7,7 @@ import {
   NavigationHeaderMenuIcon,
   NavigationEmptyContainer
 } from '@navigation/NavigationStyledComponents.native';
-import { IconTypeEnum } from '@utils/CustomEnums';
+import { IconTypeEnum, ScreenEnum } from '@utils/CustomEnums';
 import useReactNavigation, { DrawerActions } from './useReactNavigation.native';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import IconButton from '@components/general/Icon/IconButton.native';
@@ -48,7 +48,7 @@ const useGetLeftNavigationItem = (leftAction: NavigationHeaderLeftActionTypes): 
           type={IconTypeEnum.Ionicons}
           color={theme.lightGrey}
           size={35}
-          onPress={(): void => { }}
+          onPress={(): void => navigation.navigate(ScreenEnum.Subscriptions)}
         />
       );
     default:

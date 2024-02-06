@@ -11,7 +11,12 @@ export type MaterialIconsType =
   | 'check-circle-outline'
   | 'logout'
   | 'radio-button-unchecked'
-  | 'search';
+  | 'search'
+  | 'steam';
+
+export type MaterialCommunityIcons =
+  | 'cancel'
+  | 'steam';
 
 export type IoniconType =
   | 'arrow-back'
@@ -27,7 +32,7 @@ export type FontAwesomeType =
   | 'circle-thin'
   | 'check-circle';
 
-export type IconType = MaterialIconsType | IoniconType | FontAwesomeType;
+export type IconType = MaterialIconsType | MaterialCommunityIcons | IoniconType | FontAwesomeType;
 export type ButtonType = 'default' | 'text';
 export type TextInputStyleType = 'default' | 'text';
 

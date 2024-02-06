@@ -13,7 +13,11 @@ const GameSelection = () => {
   
   return (
     <StandardLayout>
-      <NavigationHeader title={`${t('common:welcome')}\n${user.name}`} leftAction={'subscriptions'} rightAction={'logout'} />
+      <NavigationHeader 
+        title={`${t('common:welcome')}\n${user.name}`}
+        leftAction={'subscriptions'} 
+        rightAction={'logout'} 
+      />
       <CustomSearchBar 
         searchValue={searchValue} 
         setSearchValue={setSearchValue}

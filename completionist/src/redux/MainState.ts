@@ -1,5 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit';
-import { ScreenEnum, SubscriptionTypeEnum } from '@utils/CustomEnums';
+import { ScreenEnum, GameKeyEnum } from '@utils/CustomEnums';
 import { GeneralData, SettingsConfigItem, User } from '@utils/CustomInterfaces';
 import { AppStateStatus } from 'react-native';
 import { initialFormData } from '@components/custom/LoginForm/LoginState';
@@ -26,9 +26,9 @@ export interface MainState {
   readonly showSplashScreen: boolean;
   readonly appState?: AppStateStatus,
   readonly currentScreen?: ScreenEnum;
-  readonly selectedGame?: SubscriptionTypeEnum;
+  readonly selectedGame?: GameKeyEnum;
   readonly selectedGameData?: GeneralData;
-  readonly selectedGameSettings: SubscriptionTypeEnum;
+  readonly selectedGameSettings: GameKeyEnum;
   readonly webSignInConfigured: boolean;
   readonly user: User;
   readonly userSettings: SettingsConfigItem[];
@@ -40,7 +40,7 @@ export const initialState: MainState = {
   showSplashScreen: true,
   webSignInConfigured: false,
   currentScreen: ScreenEnum.Login,
-  selectedGameSettings: SubscriptionTypeEnum.SKYRIM,
+  selectedGameSettings: GameKeyEnum.SKYRIM,
   user: initialUser,
   userSettings: [],
   searchValue: '',
@@ -63,11 +63,11 @@ const slice = createSlice({
     setSelectedGame: (state, action) => {
       state.selectedGame = action.payload;
       switch (state.selectedGame) {
-        case SubscriptionTypeEnum.SKYRIM:
+        case GameKeyEnum.SKYRIM:
           state.selectedGameData = state.user.data.skyrim;
           state.userSettings = state.user.data.skyrim.settingsConfig;
           break;
-        case SubscriptionTypeEnum.FALLOUT_4:
+        case GameKeyEnum.FALLOUT_4:
           state.selectedGameData = state.user.data.fallout4;
           state.userSettings = state.user.data.fallout4.settingsConfig;
           break;
@@ -82,10 +82,10 @@ const slice = createSlice({
     setUser: (state, action) => {
       state.user = action.payload;
       switch (state.selectedGame) {
-        case SubscriptionTypeEnum.SKYRIM:
+        case GameKeyEnum.SKYRIM:
           state.selectedGameData = state.user.data.skyrim;
           break;
-        case SubscriptionTypeEnum.FALLOUT_4:
+        case GameKeyEnum.FALLOUT_4:
           state.selectedGameData = state.user.data.fallout4;
           break;
       }
@@ -95,10 +95,10 @@ const slice = createSlice({
     },
     setCompletedQuests: (state, action) => {
       switch (state.selectedGame) {
-        case SubscriptionTypeEnum.SKYRIM:
+        case GameKeyEnum.SKYRIM:
           state.user.data.skyrim.quests = action.payload;
           break;
-        case SubscriptionTypeEnum.FALLOUT_4:
+        case GameKeyEnum.FALLOUT_4:
           state.user.data.fallout4.quests = action.payload;
           break;
       }
@@ -108,10 +108,10 @@ const slice = createSlice({
     },
     setCompletedCollectables: (state, action) => {
       switch (state.selectedGame) {
-        case SubscriptionTypeEnum.SKYRIM:
+        case GameKeyEnum.SKYRIM:
           state.user.data.skyrim.collectables = action.payload;
           break;
-        case SubscriptionTypeEnum.FALLOUT_4:
+        case GameKeyEnum.FALLOUT_4:
           state.user.data.fallout4.collectables = action.payload;
           break;
       }
@@ -121,10 +121,10 @@ const slice = createSlice({
     },
     setCompletedLocations: (state, action) => {
       switch (state.selectedGame) {
-        case SubscriptionTypeEnum.SKYRIM:
+        case GameKeyEnum.SKYRIM:
           state.user.data.skyrim.locations = action.payload;
           break;
-        case SubscriptionTypeEnum.FALLOUT_4:
+        case GameKeyEnum.FALLOUT_4:
           state.user.data.fallout4.locations = action.payload;
           break;
       }
@@ -134,10 +134,10 @@ const slice = createSlice({
     },
     setCompletedMiscItems: (state, action) => {
       switch (state.selectedGame) {
-        case SubscriptionTypeEnum.SKYRIM:
+        case GameKeyEnum.SKYRIM:
           state.user.data.skyrim.miscellaneous = action.payload;
           break;
-        case SubscriptionTypeEnum.FALLOUT_4:
+        case GameKeyEnum.FALLOUT_4:
           state.user.data.fallout4.miscellaneous = action.payload;
           break;
       }

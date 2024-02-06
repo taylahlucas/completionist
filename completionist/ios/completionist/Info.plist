@@ -62,6 +62,7 @@
 	<string></string>
 	<key>UIAppFonts</key>
 	<array>
+		<string>assets/icons/MaterialCommunityIcons.ttf</string>
 		<string>assets/icons/FontAwesome.ttf</string>
 		<string>assets/icons/Ionicons.ttf</string>
 		<string>assets/icons/MaterialIcons.ttf</string>

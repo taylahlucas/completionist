@@ -11,9 +11,10 @@ interface ButtonProps {
   onPress: () => void;
   style?: ViewStyle;
   disabled?: boolean;
+  color?: string;
 }
 
-const Button = ({ title, type = 'default', onPress, style, disabled = false }: ButtonProps) => {
+const Button = ({ title, type = 'default', onPress, style, disabled = false, color }: ButtonProps) => {
   const theme = useGetTheme();
 
   switch (type) {
@@ -39,7 +40,7 @@ const Button = ({ title, type = 'default', onPress, style, disabled = false }: B
         <StyledButtonDefault 
           style={{ ...style }} 
           onPress={onPress} 
-          color={theme.darkGrey}
+          color={!!color ? color : theme.darkGrey}
           disabled={disabled}
         >
           <StyledText type={'Heading'} color={theme.lightestGrey}>{title}</StyledText>

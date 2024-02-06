@@ -1,9 +1,10 @@
-import { ScreenEnum, SettingsOptionEnum, SubscriptionTypeEnum } from './CustomEnums';
+import { ScreenEnum, SettingsOptionEnum, GameKeyEnum, DatePeriodEnum } from './CustomEnums';
 import { NavigationAction, NavigationState } from '@react-navigation/native';
 import { MainState } from '@redux/MainState';
 import { SettingsState } from '@components/custom/SettingsContent/SettingsState';
 import { LoginState } from '@components/custom/LoginForm/LoginState';
 import { ContentState } from '@components/custom/ContentList/ContentState';
+import { SubscriptionState } from '@components/custom/SubscriptionContent/SubscriptionState';
 
 export interface GameContentItem {
   id: string;
@@ -28,6 +29,12 @@ export interface CategoryType {
   title: string;
 }
 
+export interface PriceProps {
+  type: DatePeriodEnum;
+  title: string;
+  value: number;
+}
+
 // State & Environment
 
 export interface Base {
@@ -39,6 +46,7 @@ export interface StoreState {
   login: LoginState;
   settings: SettingsState;
   content: ContentState;
+  subscription: SubscriptionState;
 }
 
 export interface EnvironmentConfig {
@@ -68,6 +76,7 @@ export type RootDrawerParamList = {
   Miscellaneous: undefined;
   Locations: undefined;
   RequestGame: undefined;
+  Subscriptions: undefined;
   Settings: undefined;
 };
 
@@ -117,7 +126,7 @@ export interface SettingsListItem {
 }
 
 export interface Subscription {
-  id: SubscriptionTypeEnum;
+  id: GameKeyEnum;
   isActive: boolean;
 }
 
