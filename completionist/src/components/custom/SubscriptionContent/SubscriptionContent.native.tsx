@@ -5,17 +5,16 @@ import Button from '@components/general/Button/Button.native';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import SubscriptionPriceList from './SubscriptionOptionsList.native';
 import StyledText from '@components/general/Text/StyledText.native';
+import { styles } from './SubscriptionContentStyledComponents.native';
 
 
 const SubscriptionContent = () => {
-    const { t } = useTranslation();
     const theme = useGetTheme();
 
-    // TODO: Move to scroll styles
     // TODO: Add translations
     // TODO: Add more Bold title
     return (
-        <ScrollableList contentContainerStyle={{ paddingBottom: 64, alignItems: 'center' }}>
+        <ScrollableList contentContainerStyle={styles.scrollContent}>
             <StyledText>
                 {"With a Silver or Gold subscription,\nyou will gain access to Premium Features such as:"}
             </StyledText>

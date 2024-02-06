@@ -1,8 +1,8 @@
 import { 
-    FeatureListContainer, 
-    FeatureListInnerContainer,
-    FeatureListItemContainer, 
-    FeatureListTitle 
+    SubscriptionFeatureListContainer, 
+    SubscriptionFeatureListInnerContainer,
+    SubscriptionFeatureListItemContainer, 
+    SubscriptionFeatureListTitle 
 } from './SubscriptionContentStyledComponents.native';
 import useGetSubscriptionFeatureList from './hooks/useGetSubscriptionFeatureList';
 import Seperator from '@components/general/Seperator.native';
@@ -12,10 +12,10 @@ const SubscriptionFeatureList = () => {
     const featureList = useGetSubscriptionFeatureList();
 
     return (
-        <FeatureListContainer>
+        <SubscriptionFeatureListContainer>
             {featureList.map(item => (
-                <FeatureListInnerContainer key={item.id}>
-                    <FeatureListItemContainer>
+                <SubscriptionFeatureListInnerContainer key={item.id}>
+                    <SubscriptionFeatureListItemContainer>
                         <Icon
                             style={{ alignSelf: 'center' }}
                             name={item.icon}
@@ -23,12 +23,12 @@ const SubscriptionFeatureList = () => {
                             size={30}
                             color={item.color}
                         />
-                        <FeatureListTitle align={'left'}>{item.title}</FeatureListTitle>
-                    </FeatureListItemContainer>
+                        <SubscriptionFeatureListTitle align={'left'}>{item.title}</SubscriptionFeatureListTitle>
+                    </SubscriptionFeatureListItemContainer>
                     <Seperator />
-                </FeatureListInnerContainer>
+                </SubscriptionFeatureListInnerContainer>
             ))}
-        </FeatureListContainer>
+        </SubscriptionFeatureListContainer>
     )
 };
 

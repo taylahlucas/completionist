@@ -10,7 +10,6 @@ interface SubscriptionPriceListProps {
 const SubscriptionPriceList = ({ items }: SubscriptionPriceListProps) => {
     const theme = useGetTheme();
     
-    // TODO: Add currency converter
     return (
         <SubscriptionPriceContainer>
             {items.map(item => (

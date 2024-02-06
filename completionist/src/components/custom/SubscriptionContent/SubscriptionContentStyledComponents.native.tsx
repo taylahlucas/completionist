@@ -1,26 +1,34 @@
+import { StyleSheet } from 'react-native';
+import styled from 'styled-components/native';
 import StyledText from '@components/general/Text/StyledText.native';
 import { DEFAULT_BORDER_RADIUS, STANDARD_WIDTH } from '@styles/global.native';
-import styled from 'styled-components/native';
 
 interface PriceProps {
     borderColor: string;
 }
 
-export const FeatureListContainer = styled.View`
+export const styles = StyleSheet.create({
+    scrollContent: {
+        paddingBottom: 64,
+        alignItems: 'center'
+    }
+})
+
+export const SubscriptionFeatureListContainer = styled.View`
     width: ${STANDARD_WIDTH}px;
     padding-top: 16px;
     padding-bottom: 16px;
 `;
 
-export const FeatureListItemContainer = styled.View`
+export const SubscriptionFeatureListItemContainer = styled.View`
     flex-direction: row;
 `;
 
-export const FeatureListInnerContainer = styled.View`
+export const SubscriptionFeatureListInnerContainer = styled.View`
     flex-direction: column;
 `;
 
-export const FeatureListTitle = styled(StyledText)`
+export const SubscriptionFeatureListTitle = styled(StyledText)`
     padding-left: 16px;
     padding-right: 32px;
     align-self: center;
