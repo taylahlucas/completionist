@@ -17,16 +17,16 @@ const GameList = ({ searchValue }: GameListProps) => {
     <ScrollableList contentContainerStyle={styles.scrollableContent}>
       <GameListSectionDropdown 
         title={t('common:active')}
-        data={user.subscription
+        data={user.subscription.data
           .filter(item => item.isActive)
-          .filter(item => searchValue?.length > 0 ? (item.id as String).includes(searchValue) : true)
+          .filter(item => searchValue?.length > 0 ? (item.id as String).toLocaleLowerCase().includes(searchValue) : true)
         } 
       />
       <GameListSectionDropdown 
         title={t('common:inactive')}
-        data={user.subscription
+        data={user.subscription.data
           .filter(item => !item.isActive)
-          .filter(item => searchValue?.length > 0 ? (item.id as String).includes(searchValue) : true)
+          .filter(item => searchValue?.length > 0 ? (item.id as String).toLocaleLowerCase().includes(searchValue) : true)
         } 
       />
     </ScrollableList>

@@ -12,7 +12,7 @@ interface SelectionListProps {
 
 const SelectionList = ({ data, onPress }: SelectionListProps) => {
   const theme = useGetTheme();
-  
+
   return (
     <SelectionListContainer>
       {data.map((item, index) => (

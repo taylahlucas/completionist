@@ -36,6 +36,21 @@ export type IconType = MaterialIconsType | MaterialCommunityIcons | IoniconType 
 export type ButtonType = 'default' | 'text';
 export type TextInputStyleType = 'default' | 'text';
 
+export type LanguageType = 
+  | 'ar'
+  | 'de'
+  | 'en'
+  | 'es'
+  | 'fr'
+  | 'hi'
+  | 'id'
+  | 'it'
+  | 'ja'
+  | 'pt'
+  | 'tr'
+  | 'vi'
+  | 'zh'
+
 // Navigation
 
 export type NavigationHeaderLeftActionTypes = 'back' | 'menu' | 'subscriptions' | 'none';

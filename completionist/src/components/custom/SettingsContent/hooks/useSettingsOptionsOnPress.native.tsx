@@ -8,7 +8,7 @@ const useSettingsOptionsOnPress = () => {
   const { setUser } = useMainDispatch();
 
   const triggerItem = (id: SettingsOptionEnum): SettingsOptionItem[] => {
-    const settings = [...user.settings];
+    const settings = [...user.settings.configs];
 
     return settings.map(item => {
       if (item.id === id) {
@@ -23,12 +23,15 @@ const useSettingsOptionsOnPress = () => {
     })
   };
 
-  const settingsOptionsOnPress = (id: string) => {
+  const setSettingsOptionsOnPress = (id: string) => {
     switch (id) {
       case 'completed-items':
         setUser({
           ...user,
-          settings: triggerItem(SettingsOptionEnum.COMPLETED_ITEMS)
+          settings: {
+            ...user.settings,
+            configs: triggerItem(SettingsOptionEnum.COMPLETED_ITEMS)
+          }
         });
 
         return;
@@ -36,13 +39,16 @@ const useSettingsOptionsOnPress = () => {
       case 'disabled-sections':
         setUser({
           ...user,
-          settings: triggerItem(SettingsOptionEnum.DISABLED_SECTIONS)
+          settings: {
+            ...user.settings,
+            configs: triggerItem(SettingsOptionEnum.DISABLED_SECTIONS)
+          }
         });
         return;
     }
   };
 
-  return { settingsOptionsOnPress };
+  return { setSettingsOptionsOnPress };
 };
 
 export default useSettingsOptionsOnPress;

@@ -1,10 +1,11 @@
-import { ScreenEnum, SettingsOptionEnum, GameKeyEnum, DatePeriodEnum } from './CustomEnums';
+import { ScreenEnum, SettingsOptionEnum, GameKeyEnum, DatePeriodEnum, SubscriptionTypeEnum } from './CustomEnums';
 import { NavigationAction, NavigationState } from '@react-navigation/native';
 import { MainState } from '@redux/MainState';
 import { SettingsState } from '@components/custom/SettingsContent/SettingsState';
 import { LoginState } from '@components/custom/LoginForm/LoginState';
 import { ContentState } from '@components/custom/ContentList/ContentState';
 import { SubscriptionState } from '@components/custom/SubscriptionContent/SubscriptionState';
+import { LanguageType } from './CustomTypes';
 
 export interface GameContentItem {
   id: string;
@@ -113,6 +114,11 @@ export interface SettingsOptionItem {
   isActive: boolean;
 }
 
+export interface UserSettings {
+  lang: LanguageType;
+  configs: SettingsOptionItem[];
+}
+
 export interface SettingsConfigItem {
   section: string;
   category: string;
@@ -125,9 +131,15 @@ export interface SettingsListItem {
   isActive: boolean;
 }
 
-export interface Subscription {
+export interface SubscriptionData {
   id: GameKeyEnum;
   isActive: boolean;
+}
+
+export interface Subscription {
+  tier: SubscriptionTypeEnum;
+  changesLeft: number;
+  data: SubscriptionData[];
 }
 
 export interface GeneralData {
@@ -144,7 +156,7 @@ export interface UserData {
 }
 
 export interface User extends LoginFormData {
-  subscription: Subscription[];
-  settings: SettingsOptionItem[];
+  subscription: Subscription;
+  settings: UserSettings;
   data: UserData;
 }

@@ -23,7 +23,7 @@ const GameSelection = () => {
         setSearchValue={setSearchValue}
         onReset={(): void => setSearchValue('')} 
       />
-      <GameList searchValue={searchValue} />
+      <GameList searchValue={searchValue.toLocaleLowerCase()} />
     </StandardLayout>
   );
 };

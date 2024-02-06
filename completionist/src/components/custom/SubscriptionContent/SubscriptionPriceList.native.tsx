@@ -9,11 +9,11 @@ interface SubscriptionPriceListProps {
 
 const SubscriptionPriceList = ({ items }: SubscriptionPriceListProps) => {
     const theme = useGetTheme();
-    
+
     return (
         <SubscriptionPriceContainer>
-            {items.map(item => (
-                <SubscriptionPriceItemContainer>
+            {items.map((item, index) => (
+                <SubscriptionPriceItemContainer key={index}>
                     <StyledText type={'Heading'} color={theme.lightGrey}>{`£${item.value.toString()}`}</StyledText>
                     <StyledText type={'ListItemSubTitleItalic'}>{item.title}</StyledText>
                 </SubscriptionPriceItemContainer>

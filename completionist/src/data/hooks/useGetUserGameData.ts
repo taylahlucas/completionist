@@ -1,5 +1,4 @@
 import useMainState from '@redux/hooks/useMainState';
-import { GameKeyEnum } from '@utils/CustomEnums';
 import { Item, SettingsConfigItem } from '@utils/CustomInterfaces';
 
 interface GetUserGameDataReturnType {
@@ -12,7 +11,7 @@ interface GetUserGameDataReturnType {
 }
 
 const useGetUserGameData = (): GetUserGameDataReturnType => {
-  const { selectedGameData } = useMainState();
+  const { user, selectedGameData, selectedGameSettings } = useMainState();
 
   const getUserQuests = (): Item[] => {
     return !!selectedGameData
@@ -40,13 +39,13 @@ const useGetUserGameData = (): GetUserGameDataReturnType => {
 
   const getUserSettingsMainConfig = (): SettingsConfigItem[] => {
     return !!selectedGameData
-      ? selectedGameData?.settingsConfig.filter(item => item.category === "")
+      ? user.data[selectedGameSettings]?.settingsConfig.filter(item => item.category === "")
       : [];
   }
 
   const getUserSettingsSubConfig = (section: string): SettingsConfigItem[] => {
     return !!selectedGameData
-      ? selectedGameData?.settingsConfig.filter(item => item.section === section && item.category !== "")
+      ? user.data[selectedGameSettings]?.settingsConfig.filter(item => item.section === section && item.category !== "")
       : [];
   }
 

@@ -25,6 +25,7 @@ interface TranslatedGameDataReturnType {
   fallout4Misc: any;
 }
 
+// TODO: Fix fr and zh
 const useGetTranslatedGameData = (): TranslatedGameDataReturnType => {
   const userLocale = RNLocalize.getLocales()[0]?.languageCode || 'en';
 

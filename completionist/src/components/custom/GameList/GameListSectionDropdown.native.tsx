@@ -6,14 +6,14 @@ import useGetGameImage from './hooks/useGetGameImage.native';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
 import GameListItem from './GameListItem.native';
 import { ScreenEnum } from '@utils/CustomEnums';
-import { Subscription } from '@utils/CustomInterfaces';
+import { Subscription, SubscriptionData } from '@utils/CustomInterfaces';
 import GameListSectionHeader from './GameListSectionHeader.native';
 import useTranslateGameContent from '@utils/hooks/useTranslateGameContent.native';
 import useContentDispatch from '../ContentList/hooks/useContentDispatch';
 
 interface GameListSectionDropdown {
   title: string;
-  data: Subscription[]
+  data: SubscriptionData[];
 }
 
 const GameListSectionDropdown = ({ title, data }: GameListSectionDropdown) => {

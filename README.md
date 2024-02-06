@@ -80,6 +80,7 @@ npx react-native run-ios --port 8002
 - poassport-google-oauth20
 - crypto
 - nodemailer
+- migrate-mongo
 
 
 ## Updating translations
@@ -97,3 +98,10 @@ Confirm:
 
 - Translations in categories.json must match the name of the category in camel case.
 
+
+## Migrating db
+
+- cd backend
+- migrate-mongo create migration_name
+- Run changes: npx migrate-mongo up
+- Drop changes: npx migrate-mongo down

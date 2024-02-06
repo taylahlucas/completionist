@@ -11,25 +11,21 @@ const userSchema = new mongoose.Schema({
   password: String,
   userAvatar: String,
   subscription: {
-    type: [{
-      id: String,
-      isActive: Boolean,
-    }],
-    default: [
-      // TODO: Change this when adding subscription. Only add previously purchased/subscribed games
-      { id: 'skyrim', isActive: true },
-      { id: 'fallout4', isActive: true }
+    tier: String,
+    changesLeft: Number,
+    data: [
+      {
+        id: String,
+        isActive: Boolean,
+      }
     ]
   },
   settings: {
-    type: [{
+    lang: String,
+    configs: [{
       id: String,
       isActive: Boolean,
-    }],
-    default: [
-      { id: 'completedItems', isActive: true },
-      { id: 'disabledSections', isActive: true }
-    ]
+    }]
   },
   data: {
     type: Object,
@@ -43,5 +39,16 @@ const userSchema = new mongoose.Schema({
     }
   },
 });
+
+userSchema.path('subscription.tier').default('bronze');
+userSchema.path('subscription.changesLeft').default(0);
+userSchema.path('subscription.data').default([
+  { id: 'skyrim', isActive: true },
+  { id: 'fallout4', isActive: true }
+]);
+userSchema.path('settings.lang').default('en');
+userSchema.path('settings.configs').default([
+  { id: 'disabledSections', isActive: true }
+]);
 
 module.exports = mongoose.model('User', userSchema);

@@ -9,14 +9,9 @@ const useGetShowHideOptions = (): SettingsListItem[] => {
 
   return [
     {
-      id: 'completed-items',
-      title: t('common:settings.completedItems'),
-      isActive: user.settings.find(item => item.id === SettingsOptionEnum.COMPLETED_ITEMS)?.isActive ?? false
-    },
-    {
       id: 'disabled-sections',
       title: t('common:settings.disabledSections'),
-      isActive: user.settings.find(item => item.id === SettingsOptionEnum.DISABLED_SECTIONS)?.isActive ?? false
+      isActive: user.settings.configs.find(item => item.id === SettingsOptionEnum.DISABLED_SECTIONS)?.isActive ?? false
     },
   ];
 };

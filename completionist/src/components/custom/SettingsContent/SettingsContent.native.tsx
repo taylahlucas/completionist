@@ -12,8 +12,10 @@ const SettingsContent = () => {
   const { t } = useTranslation();
   const { getDLCOptions, setDLCOptions } = useDLCOptions();
   const options = useGetShowHideOptions();
-  const { settingsOptionsOnPress } = useSettingsOptionsOnPress();
+  const { setSettingsOptionsOnPress } = useSettingsOptionsOnPress();
   
+  // TODO: Bug here, in Skyrim, deselecting miscellaneous disables Hearthfire DLC
+  // TODO: Fix dropdown titles
   return (
     <ScrollableList>
       <SettingsGameSelectionContent />
@@ -23,6 +25,7 @@ const SettingsContent = () => {
       >
         {t('common:settings.enabledDLC')}
       </SettingsContentDescription>
+      
       <SelectionList data={getDLCOptions()} onPress={setDLCOptions} />
 
       <SettingsContentDescription
@@ -31,7 +34,7 @@ const SettingsContent = () => {
       >
         {t('common:settings.showHide')}
       </SettingsContentDescription>
-      <SelectionList data={options} onPress={(id: string): void => settingsOptionsOnPress(id)} />
+      <SelectionList data={options} onPress={(id: string): void => setSettingsOptionsOnPress(id)} />
     </ScrollableList>
   );
 };

@@ -20,7 +20,6 @@ const useTranslateGameContent = () => {
         translatedTitle = dlcItem.title;
       }
     })
-
     if (!translatedTitle) {
       translatedTitle = t(`categories:${selectedGame}.categories.${item.section}.${item.category}`);
     }
