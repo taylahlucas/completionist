@@ -41,7 +41,6 @@ export interface MainState {
   readonly selectedGameSettings: GameKeyEnum;
   readonly webSignInConfigured: boolean;
   readonly user: User;
-  readonly userSettings: SettingsConfigItem[];
   readonly searchValue: string;
   readonly showSearchResults: boolean;
 }
@@ -52,7 +51,6 @@ export const initialState: MainState = {
   currentScreen: ScreenEnum.Login,
   selectedGameSettings: GameKeyEnum.SKYRIM,
   user: initialUser,
-  userSettings: [],
   searchValue: '',
   showSearchResults: false,
 }
@@ -75,12 +73,9 @@ const slice = createSlice({
       switch (state.selectedGame) {
         case GameKeyEnum.SKYRIM:
           state.selectedGameData = state.user.data.skyrim;
-          // TODO: Is userSettings used?
-          state.userSettings = state.user.data.skyrim.settingsConfig.general;
           break;
         case GameKeyEnum.FALLOUT_4:
           state.selectedGameData = state.user.data.fallout4;
-          state.userSettings = state.user.data.fallout4.settingsConfig.general;
           break;
       }
     },

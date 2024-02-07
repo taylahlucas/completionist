@@ -22,9 +22,7 @@ const useGetGameData = (): GameDataReturnType => {
   const { selectedGameData } = useMainState();
 
   const filterData = (config: SettingsConfigItem[], data: any[]) => {
-    // TODO: Check here
     const filteredConfig = config.filter(item => !item.section.isActive);
-
     filteredConfig.map(config => {
       data = data.filter(item => item.mainCategory !== config.section);
     });

@@ -27,7 +27,7 @@ const ContentMainDropdown = ({ category, completed, total }: ContentMainDropdown
   const { getContentForSubCategory } = useGetContents();
   const subCategories = getContentSubCategories(category.title, selectedGame);
   const { checkContentCompleteForCategory } = useCheckContentComplete();
-  // const isEnabled: boolean = selectedGameData?.settingsConfig.find(settings => settings.section === category.id && settings.section === sectionType)?.isActive ?? false;
+  const isEnabled: boolean = selectedGameData?.settingsConfig.general.find(settings => settings.section.id === category.id && settings.section.id === sectionType)?.section.isActive ?? false;
 
   return (
     <Dropdown
@@ -37,11 +37,11 @@ const ContentMainDropdown = ({ category, completed, total }: ContentMainDropdown
         category: category.id === selectedCategory.category ? '' : category.id,
         subCategory: ''
       })}
-      // enabled={isEnabled}
+      enabled={isEnabled}
       header={
         <ListHeader 
           title={category.title} 
-          // enabled={isEnabled} 
+          enabled={isEnabled} 
           completed={completed} 
           total={total} 
         />
