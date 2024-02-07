@@ -4,10 +4,10 @@ import { listStyles, ListItemScrollView } from '@components/general/Lists/ListSt
 import useGetContent from './hooks/useGetContent';
 import useUpdateContent from './hooks/useUpdateContent';
 import useCheckContentComplete from './hooks/useCheckContentComplete';
-import { CategoryType } from '@utils/CustomInterfaces';
+import { SettingsListItem } from '@utils/CustomInterfaces';
 
 export interface ContentMainListProps {
-  mainCategory?: CategoryType;
+  mainCategory?: SettingsListItem;
   subCategory?: string;
   isSubCategory?: boolean;
 }

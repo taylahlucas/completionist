@@ -2,12 +2,12 @@ import useGetGameData from '@data/hooks/useGetGameData';
 import useGetSettingsConfig from '@data/hooks/useGetSettingsConfig';
 import useMainState from '@redux/hooks/useMainState';
 import { GameKeyEnum } from '@utils/CustomEnums';
-import { CategoryType } from '@utils/CustomInterfaces';
+import { SettingsListItem } from '@utils/CustomInterfaces';
 import useTranslateGameContent from '@utils/hooks/useTranslateGameContent.native';
 import useContentState from './useContentState';
 
 interface GameDataReturnType {
-  getContentCategories: () => CategoryType[];
+  getContentCategories: () => SettingsListItem[];
   getContentSubCategories: (category: string, selectedGame?: GameKeyEnum) => string[];
   getContentSubCategoriesTypes: (subCategory: string, selectedGame?: GameKeyEnum) => string[];
 }
@@ -19,7 +19,7 @@ const useGetContentCategories = (): GameDataReturnType => {
   const { shouldShowDisabledSections } = useGetSettingsConfig();
   const { translateCategoryName, translateDLCName } = useTranslateGameContent();
 
-  const getContentCategories = (): CategoryType[] => {
+  const getContentCategories = (): SettingsListItem[] => {
     return (!!selectedGame && !!selectedGameData)
       ? selectedGameData?.settingsConfig.general.filter(config =>
         config.section.id === sectionType
@@ -29,11 +29,13 @@ const useGetContentCategories = (): GameDataReturnType => {
           const categories = section.categories
             .map(category => ({
               id: category.id,
-              title: translateCategoryName(selectedGame, section.section.id, category.id)
+              title: translateCategoryName(selectedGame, section.section.id, category.id),
+              isActive: category.isActive
             }))
             const dlc = section.dlc.map(category => ({
               id: category.id,
-              title: translateDLCName(selectedGame, category.id)
+              title: translateDLCName(selectedGame, category.id),
+              isActive: category.isActive
             }))
 
             return categories.concat(dlc);

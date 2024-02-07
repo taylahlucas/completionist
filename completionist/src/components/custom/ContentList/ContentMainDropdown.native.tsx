@@ -11,23 +11,22 @@ import useGetContentCategories from './hooks/useGetContentCategories';
 import useContentState from './hooks/useContentState';
 import useContentDispatch from './hooks/useContentDispatch';
 import { SubListContainer } from '@components/general/Lists/ListStyledComponents.native';
-import { CategoryType } from '@utils/CustomInterfaces';
+import { SettingsListItem } from '@utils/CustomInterfaces';
 
 export interface ContentMainDropdownProps {
-  category: CategoryType;
+  category: SettingsListItem;
   completed: string;
   total: string;
 }
 
 const ContentMainDropdown = ({ category, completed, total }: ContentMainDropdownProps) => {
-  const { selectedGame, selectedGameData } = useMainState();
+  const { selectedGame } = useMainState();
   const { setSelectedCategory } = useContentDispatch();
-  const { sectionType, selectedCategory } = useContentState();
+  const { selectedCategory } = useContentState();
   const { getContentSubCategories } = useGetContentCategories();
   const { getContentForSubCategory } = useGetContents();
   const subCategories = getContentSubCategories(category.title, selectedGame);
   const { checkContentCompleteForCategory } = useCheckContentComplete();
-  const isEnabled: boolean = selectedGameData?.settingsConfig.general.find(settings => settings.section.id === category.id && settings.section.id === sectionType)?.section.isActive ?? false;
 
   return (
     <Dropdown
@@ -37,11 +36,11 @@ const ContentMainDropdown = ({ category, completed, total }: ContentMainDropdown
         category: category.id === selectedCategory.category ? '' : category.id,
         subCategory: ''
       })}
-      enabled={isEnabled}
+      enabled={category.isActive}
       header={
         <ListHeader 
           title={category.title} 
-          enabled={isEnabled} 
+          enabled={category.isActive} 
           completed={completed} 
           total={total} 
         />

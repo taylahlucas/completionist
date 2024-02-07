@@ -9,7 +9,6 @@ import {
 import useGetTheme from '@styles/hooks/useGetTheme';
 import useContentDispatch from '@components/custom/ContentList/hooks/useContentDispatch';
 import { ContentSectionEnum } from '@utils/CustomEnums';
-import useMainDispatch from '@redux/hooks/useMainDispatch';
 
 interface NavigationDrawerItemProps {
   item: NavigationDrawerItemData;
@@ -19,7 +18,6 @@ interface NavigationDrawerItemProps {
 const NavigationDrawerItem = ({ item, isActive }: NavigationDrawerItemProps) => {
   const theme = useGetTheme();
   const navigation = useReactNavigation();
-  const { reset } = useMainDispatch();
   const { setSelectedSection, setSelectedCategory } = useContentDispatch();
 
   return (
@@ -32,7 +30,6 @@ const NavigationDrawerItem = ({ item, isActive }: NavigationDrawerItemProps) => 
         if (contentEnum as ContentSectionEnum) {
           setSelectedSection(contentEnum as ContentSectionEnum);
         }
-        reset();
         setSelectedCategory({
           category: ''
         });

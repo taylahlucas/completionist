@@ -25,11 +25,6 @@ export interface DropDownType {
   type?: string;
 }
 
-export interface CategoryType {
-  id: string;
-  title: string;
-}
-
 export interface PriceProps {
   type: DatePeriodEnum;
   title: string;
@@ -132,7 +127,7 @@ export interface SettingsConfigItem {
 
 export interface SettingsListItem {
   id: string;
-  title?: string;
+  title: string;
   isActive: boolean;
 }
 

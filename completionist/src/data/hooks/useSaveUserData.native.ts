@@ -40,6 +40,7 @@ const useSaveUserData = (): SaveUserDataReturnType => {
 
   const saveUserAndLogin = (user: User) => {
     setUser(user);
+    // TODO: Move saveToCache to piggyback off getUserById and createUser endpoints
     saveToCache(user);
     setLoggedIn(true);
     navigation.navigate(ScreenEnum.GameSelection);

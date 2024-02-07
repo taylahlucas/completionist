@@ -42,7 +42,6 @@ export interface MainState {
   readonly webSignInConfigured: boolean;
   readonly user: User;
   readonly searchValue: string;
-  readonly showSearchResults: boolean;
 }
 
 export const initialState: MainState = {
@@ -51,8 +50,7 @@ export const initialState: MainState = {
   currentScreen: ScreenEnum.Login,
   selectedGameSettings: GameKeyEnum.SKYRIM,
   user: initialUser,
-  searchValue: '',
-  showSearchResults: false,
+  searchValue: ''
 }
 
 const slice = createSlice({
@@ -153,9 +151,6 @@ const slice = createSlice({
     },
     reset: (state) => {
       state.searchValue = initialState.searchValue;
-      state.showSearchResults = initialState.showSearchResults;
-      
-      state.currentScreen = ScreenEnum.Quests;
     }
   }
 });

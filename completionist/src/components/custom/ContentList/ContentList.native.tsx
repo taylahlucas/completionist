@@ -7,7 +7,7 @@ import useGetContent from './hooks/useGetContent';
 import SearchResults from './SearchResults.native';
 import ContentMainDropdown from './ContentMainDropdown.native';
 import useCheckContentComplete from './hooks/useCheckContentComplete';
-import { CategoryType } from '@utils/CustomInterfaces';
+import { SettingsListItem } from '@utils/CustomInterfaces';
 
 const ContentList = () => {
   const { searchValue } = useContentState();
@@ -23,7 +23,7 @@ const ContentList = () => {
       }
     >
       <ScrollableList>
-        {getContentCategories().map((category: CategoryType, index: number) => {
+        {getContentCategories().map((category: SettingsListItem, index: number) => {
           const allContentForCategory = getAllContentForCategory(category.title)
           const completedContent = checkContentCompleteForCategory(allContentForCategory)
 

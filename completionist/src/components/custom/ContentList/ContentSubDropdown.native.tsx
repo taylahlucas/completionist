@@ -10,10 +10,10 @@ import Condition from '@components/general/Condition.native';
 import ContentSubTypeDropdown from './ContentSubTypeDropdown.native';
 import useGetContents from './hooks/useGetContent';
 import useCheckContentComplete from './hooks/useCheckContentComplete';
-import { CategoryType } from '@utils/CustomInterfaces';
+import { SettingsListItem } from '@utils/CustomInterfaces';
 
 export interface ContentSubDropdownProps {
-  mainCategory: CategoryType;
+  mainCategory: SettingsListItem;
   subCategory: string;
   completed: string;
   total: string;

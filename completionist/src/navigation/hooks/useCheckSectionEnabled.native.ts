@@ -7,9 +7,9 @@ const useCheckSectionEnabled = () => {
   const checkIsSectionEnabled = (section: string) => {
     switch (selectedGame) {
       case GameKeyEnum.SKYRIM:
-        return user.data.skyrim.settingsConfig.general.filter(config => config.section.id === section)[0]?.section.isActive ?? false
+        return user.data.skyrim.settingsConfig.general.filter(config => config.section.id === section)[0]?.section.isActive;
       case GameKeyEnum.FALLOUT_4:
-        return user.data.fallout4.settingsConfig.general.filter(config => config.section.id === section)[0]?.section.isActive ?? false
+        return user.data.fallout4.settingsConfig.general.filter(config => config.section.id === section)[0]?.section.isActive;
       default:
         return false
     }
