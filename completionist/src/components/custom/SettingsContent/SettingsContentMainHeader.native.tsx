@@ -1,12 +1,12 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import useGetTheme from '@styles/hooks/useGetTheme';
-import { SettingsConfigItem } from '@utils/CustomInterfaces';
+import { SettingsListItem } from '@utils/CustomInterfaces';
 import SettingsContentCheckBox from './SettingsContentCheckbox.native';
 import { SettingsContentMainItem, SettingsContentMainItemTitle } from './SettingsContentStyledComponents.native';
 
 interface SettingsContentMainHeaderProps {
-  item: SettingsConfigItem;
+  item: SettingsListItem;
 }
 
 const SettingsContentMainHeader = ({ item }: SettingsContentMainHeaderProps) => {
@@ -15,7 +15,13 @@ const SettingsContentMainHeader = ({ item }: SettingsContentMainHeaderProps) => 
 
   return (
     <SettingsContentMainItem color={theme.darkGrey}>
-      <SettingsContentMainItemTitle align={'left'} type={'ListItemSubTitleBold'} color={theme.lightGrey}>{t(`common:screens.${item.section.toLowerCase()}`)}</SettingsContentMainItemTitle>
+      <SettingsContentMainItemTitle 
+        align={'left'} 
+        type={'ListItemSubTitleBold'} 
+        color={theme.lightGrey}
+      >
+        {t(`common:screens.${item.id.toLowerCase()}`)}
+      </SettingsContentMainItemTitle>
       <SettingsContentCheckBox item={item} />
     </SettingsContentMainItem>
   );

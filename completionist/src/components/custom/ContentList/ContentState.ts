@@ -37,11 +37,9 @@ const slice = createSlice({
       }
     },
     reset: (state) => {
-      state.sectionType = ContentSectionEnum.QUESTS;
-      state.searchValue = '';
-      state.selectedCategory = {
-        category: ''
-      }
+      state.sectionType = initialState.sectionType;
+      state.searchValue = initialState.searchValue;
+      state.selectedCategory = initialState.selectedCategory;
     }
   }
 });

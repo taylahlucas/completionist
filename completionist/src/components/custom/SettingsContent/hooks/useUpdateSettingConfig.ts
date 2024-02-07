@@ -1,33 +1,58 @@
-import { SettingsConfigItem } from '@utils/CustomInterfaces';
+import { SettingsConfigItem, SettingsListItem } from '@utils/CustomInterfaces';
 
 const useUpdateSettingsConfig = () => {
-  const updateConfig = (config: SettingsConfigItem[], item: SettingsConfigItem): SettingsConfigItem[] => {
-    if (item.category === "") {
-      // Main Category
-      return config.map(configItem => {
-        if (configItem.section === item.section) {
-          return {
-            section: configItem.section,
-            category: configItem.category,
-            isActive: item.isActive === false
-          }
-        }
-        else {
-          return configItem
-        }
-      })
-    }
-    else {
-      return config.map(configItem => {
-        // Sub Category
-        return (configItem.section === item.section && configItem.category === item.category)
-            ? {
-              ...item,
-              isActive: !item.isActive
+  const updateConfig = (config: SettingsConfigItem[], item: SettingsListItem): SettingsConfigItem[] => {
+    return config.map(section => {
+      // Main category
+      if (item.id === section.section.id) {
+        return {
+          section: {
+            id: section.section.id,
+            isActive: !section.section.isActive
+          },
+          categories: section.categories.map(category => {
+            return {
+              id: category.id,
+              isActive: !section.section.isActive
             }
-            : configItem;
-      });
-    }
+          }),
+          dlc: section.dlc?.map(dlc => {
+            return {
+              id: dlc.id,
+              isActive: !section.section.isActive
+            }
+          }),
+        }
+      }
+      else {
+        // Sub category
+        return {
+          section: section.section,
+          categories: section.categories.map(category => {
+            if (category.id === item.id) {
+              return {
+                id: category.id,
+                isActive: !category.isActive
+              }
+            }
+            else {
+              return category;
+            }
+          }),
+          dlc: section.dlc?.map(dlc => {
+            if (dlc.id === item.id) {
+              return {
+                id: dlc.id,
+                isActive: !dlc.isActive
+              }
+            }
+            else {
+              return dlc;
+            }
+          })
+        }
+      }
+    });
   }
 
   return { updateConfig };

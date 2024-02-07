@@ -1,12 +1,11 @@
 import React from 'react';
-import { SettingsListItem } from '@utils/CustomInterfaces';
 import StyledText from '../Text/StyledText.native';
 import { SelectionListContainer, SelectionListItemContainer } from './ListStyledComponents.native';
 import CheckBox from '../Checkbox/CheckBox.native';
 import useGetTheme from '@styles/hooks/useGetTheme';
 
 interface SelectionListProps {
-  data: SettingsListItem[];
+  data: SettingsListItemOption[];
   onPress: (title: string) => void;
 }
 

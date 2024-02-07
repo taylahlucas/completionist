@@ -1,13 +1,14 @@
 import useMainState from '@redux/hooks/useMainState';
-import { Item, SettingsConfigItem } from '@utils/CustomInterfaces';
+import { Item, SettingsListItem } from '@utils/CustomInterfaces';
 
 interface GetUserGameDataReturnType {
   getUserQuests: () => Item[];
   getUserCollectables: () => Item[];
   getUserLocations: () => Item[];
   getUserMiscItems: () => Item[];
-  getUserSettingsMainConfig: () => SettingsConfigItem[];
-  getUserSettingsSubConfig: (section: string) => SettingsConfigItem[];
+  getUserSettingsMainConfig: () => SettingsListItem[];
+  getUserSettingsSubConfig: (section: string) => SettingsListItem[];
+  getUserSettingsDLC: (section: string) => SettingsListItem[];
 }
 
 const useGetUserGameData = (): GetUserGameDataReturnType => {
@@ -37,16 +38,16 @@ const useGetUserGameData = (): GetUserGameDataReturnType => {
       : [];
   };
 
-  const getUserSettingsMainConfig = (): SettingsConfigItem[] => {
-    return !!selectedGameData
-      ? user.data[selectedGameSettings]?.settingsConfig.filter(item => item.category === "")
-      : [];
+  const getUserSettingsMainConfig = (): SettingsListItem[] => {
+    return user.data[selectedGameSettings]?.settingsConfig.general?.map(item => item.section);
   }
 
-  const getUserSettingsSubConfig = (section: string): SettingsConfigItem[] => {
-    return !!selectedGameData
-      ? user.data[selectedGameSettings]?.settingsConfig.filter(item => item.section === section && item.category !== "")
-      : [];
+  const getUserSettingsSubConfig = (section: string): SettingsListItem[] => {
+    return user.data[selectedGameSettings]?.settingsConfig.general?.find(item => item.section.id === section)?.categories ?? [];
+  }
+
+  const getUserSettingsDLC = (section: string): SettingsListItem[] => {
+    return user.data[selectedGameSettings]?.settingsConfig.general?.find(item => item.section.id === section)?.dlc ?? [];
   }
 
   return {
@@ -55,7 +56,8 @@ const useGetUserGameData = (): GetUserGameDataReturnType => {
     getUserLocations,
     getUserMiscItems,
     getUserSettingsMainConfig,
-    getUserSettingsSubConfig
+    getUserSettingsSubConfig,
+    getUserSettingsDLC
   }
 };
 

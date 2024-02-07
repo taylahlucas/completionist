@@ -1,5 +1,5 @@
 import { GameKeyEnum, ContentSectionEnum } from '@utils/CustomEnums';
-import { GameContentItem, SettingsConfigItem } from '@utils/CustomInterfaces';
+import { GameContentItem, SettingsConfigItem, SettingsListItem } from '@utils/CustomInterfaces';
 import useMainState from '@redux/hooks/useMainState';
 import useGetTranslatedGameData from './useGetTranslatedGameData.native';
 
@@ -22,10 +22,11 @@ const useGetGameData = (): GameDataReturnType => {
   const { selectedGameData } = useMainState();
 
   const filterData = (config: SettingsConfigItem[], data: any[]) => {
-    const filteredConfig = config.filter(item => !item.isActive);
+    // TODO: Check here
+    const filteredConfig = config.filter(item => !item.section.isActive);
 
     filteredConfig.map(config => {
-      data = data.filter(item => item.mainCategory !== config.category);
+      data = data.filter(item => item.mainCategory !== config.section);
     });
     
     return data;
@@ -35,18 +36,18 @@ const useGetGameData = (): GameDataReturnType => {
     switch (type) {
       case ContentSectionEnum.QUESTS:
         const quests = mapDataToQuests(selectedGame);
-        return !filter ? quests : filterData(selectedGameData?.settingsConfig ?? [], quests);
+        return !filter ? quests : filterData(selectedGameData?.settingsConfig.general ?? [], quests);
 
       case ContentSectionEnum.COLLECTABLES:
         const collectables = mapDataToCollectables(selectedGame);
-        return !filter ? collectables : filterData(selectedGameData?.settingsConfig ?? [], collectables);
+        return !filter ? collectables : filterData(selectedGameData?.settingsConfig.general ?? [], collectables);
 
       case ContentSectionEnum.LOCATIONS:
         const locations = mapDataToLocations(selectedGame);
-        return !filter ? locations : filterData(selectedGameData?.settingsConfig ?? [], locations);
+        return !filter ? locations : filterData(selectedGameData?.settingsConfig.general ?? [], locations);
       case ContentSectionEnum.MISCELLANEOUS:
         const miscItems = mapDataToMiscItems(selectedGame);
-        return !filter ? miscItems : filterData(selectedGameData?.settingsConfig ?? [], miscItems);
+        return !filter ? miscItems : filterData(selectedGameData?.settingsConfig.general ?? [], miscItems);
       default:
         return []
     }

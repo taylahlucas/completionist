@@ -31,10 +31,18 @@ const userSchema = new mongoose.Schema({
     type: Object,
     default: {
       skyrim: {
-        quests: [], collectables: [], miscellaneous: [], locations: [], settingsConfig: skyrimSettingsConfig
+        quests: [], 
+        collectables: [], 
+        miscellaneous: [], 
+        locations: [], 
+        settingsConfig: skyrimSettingsConfig
       },
       fallout4: {
-        quests: [], collectables: [], miscellaneous: [], locations: [], settingsConfig: fallout4SettingsConfig
+        quests: [], 
+        collectables: [], 
+        miscellaneous: [], 
+        locations: [], 
+        settingsConfig: fallout4SettingsConfig
       },
     }
   },

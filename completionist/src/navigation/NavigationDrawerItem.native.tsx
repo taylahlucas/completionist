@@ -7,9 +7,9 @@ import {
   NavigationDrawerTitle 
 } from './NavigationStyledComponents.native';
 import useGetTheme from '@styles/hooks/useGetTheme';
-import useMainDispatch from '@redux/hooks/useMainDispatch';
 import useContentDispatch from '@components/custom/ContentList/hooks/useContentDispatch';
 import { ContentSectionEnum } from '@utils/CustomEnums';
+import useMainDispatch from '@redux/hooks/useMainDispatch';
 
 interface NavigationDrawerItemProps {
   item: NavigationDrawerItemData;
@@ -20,7 +20,7 @@ const NavigationDrawerItem = ({ item, isActive }: NavigationDrawerItemProps) => 
   const theme = useGetTheme();
   const navigation = useReactNavigation();
   const { reset } = useMainDispatch();
-  const { setSelectedSection } = useContentDispatch();
+  const { setSelectedSection, setSelectedCategory } = useContentDispatch();
 
   return (
     <NavigationHeaderTitleContainer
@@ -33,6 +33,9 @@ const NavigationDrawerItem = ({ item, isActive }: NavigationDrawerItemProps) => 
           setSelectedSection(contentEnum as ContentSectionEnum);
         }
         reset();
+        setSelectedCategory({
+          category: ''
+        });
       }}
     >
       <NavigationDrawerTitle 

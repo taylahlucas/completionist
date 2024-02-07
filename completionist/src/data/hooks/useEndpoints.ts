@@ -1,7 +1,7 @@
 import { Alert, Platform } from 'react-native';
 import uuid from 'react-native-uuid';
 import axios from 'axios';
-import { GeneralData, User, LoginFormData, Subscription, SettingsOptionItem } from '@utils/CustomInterfaces';
+import { GeneralData, User, LoginFormData, Subscription, SettingsOptionItem, UserSettings } from '@utils/CustomInterfaces';
 import { AxiosErrorResponse, UserResponse } from '@utils/CustomTypes';
 import { signupUrl, signinUrl, getUserByUserIdUrl, updateUserDataUrl, sendEmailUrl } from '../urls';
 import { requestCodes } from '@utils/constants';
@@ -22,8 +22,8 @@ interface GetUserByUserIdProps {
 
 interface UpdateUserDataProps {
   userId: string;
-  subscription: Subscription[];
-  settings: SettingsOptionItem[];
+  subscription: Subscription;
+  settings: UserSettings;
   skyrimData: GeneralData;
   fallout4Data: GeneralData;
 }

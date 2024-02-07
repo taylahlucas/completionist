@@ -1,6 +1,6 @@
 import React from 'react';
 import { SettingsContentDropdownContainer } from './SettingsContentStyledComponents.native';
-import { SettingsConfigItem } from '@utils/CustomInterfaces';
+import { SettingsListItem } from '@utils/CustomInterfaces';
 import useGetUserGameData from '@data/hooks/useGetUserGameData';
 import SettingsConfigItemDropdown from './SettingsContentItemDropdown.native';
 
@@ -9,7 +9,7 @@ const SettingsContentCollectionList = () => {
   
   return (
     <SettingsContentDropdownContainer>
-      {getUserSettingsMainConfig().map((item: SettingsConfigItem, index: number) => (
+      {getUserSettingsMainConfig().map((item: SettingsListItem, index: number) => (
         <SettingsConfigItemDropdown key={index} item={item} />
       ))}
     </SettingsContentDropdownContainer>

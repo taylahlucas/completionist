@@ -1,13 +1,13 @@
 import React from 'react';
 import { GameKeyEnum } from '@utils/CustomEnums';
-import { SettingsConfigItem } from '@utils/CustomInterfaces';
+import { SettingsListItem } from '@utils/CustomInterfaces';
 import CheckBox from '@components/general/Checkbox/CheckBox.native';
 import useMainState from '@redux/hooks/useMainState';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
 import useUpdateSettingsConfig from './hooks/useUpdateSettingConfig';
 
 interface SettingsContentCheckBoxProps {
-  item: SettingsConfigItem;
+  item: SettingsListItem;
 }
 
 const SettingsContentCheckBox = ({ item }: SettingsContentCheckBoxProps) => {
@@ -16,15 +16,18 @@ const SettingsContentCheckBox = ({ item }: SettingsContentCheckBoxProps) => {
   const { updateConfig } = useUpdateSettingsConfig();
 
   const updateGameSettings = (gameKey: GameKeyEnum) => {
-    const gameConfig = updateConfig(user.data[gameKey].settingsConfig, item);
-
+    const gameConfig = updateConfig(user.data[gameKey].settingsConfig.general, item);
+    
     setUser({
       ...user,
       data: {
         ...user.data,
         [gameKey]: {
           ...user.data[gameKey],
-          settingsConfig: gameConfig,
+          settingsConfig: {
+            general: gameConfig,
+            dlc: user.data[gameKey].settingsConfig.dlc
+          },
         },
       },
     });

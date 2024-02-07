@@ -9,7 +9,10 @@ export const initialGameData: GeneralData = {
   collectables: [],
   locations: [],
   miscellaneous: [],
-  settingsConfig: []
+  settingsConfig: {
+    general: [],
+    dlc: []
+  }
 }
 
 export const initialUser: User = {
@@ -72,11 +75,12 @@ const slice = createSlice({
       switch (state.selectedGame) {
         case GameKeyEnum.SKYRIM:
           state.selectedGameData = state.user.data.skyrim;
-          state.userSettings = state.user.data.skyrim.settingsConfig;
+          // TODO: Is userSettings used?
+          state.userSettings = state.user.data.skyrim.settingsConfig.general;
           break;
         case GameKeyEnum.FALLOUT_4:
           state.selectedGameData = state.user.data.fallout4;
-          state.userSettings = state.user.data.fallout4.settingsConfig;
+          state.userSettings = state.user.data.fallout4.settingsConfig.general;
           break;
       }
     },

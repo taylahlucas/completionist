@@ -12,18 +12,6 @@ export const games = [
   GameKeyEnum.FALLOUT_4
 ]
 
-export const skyrimDLC = [
-  'dawnguard',
-  'dragonborn',
-  'hearthfire'
-];
-export const fallout4DLC = [
-  'automatron',
-  'farHarbor',
-  'nukaWorld',
-  'vaultTecWorkshop'
-];
-
 export const requestCodes = {
   SUCCESS: 200,
   NOT_FOUND: 404,

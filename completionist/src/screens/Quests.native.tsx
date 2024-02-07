@@ -17,6 +17,7 @@ const Quests = () => {
   const { selectedGame } = useMainState();
   const { setSearchValue } = useContentDispatch();
   const { searchValue } = useContentState();
+  
   const { getUserQuests } = useGetUserGameData();
   const { mapDataTo } = useGetGameData();
 

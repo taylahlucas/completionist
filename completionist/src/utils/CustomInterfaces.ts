@@ -119,15 +119,20 @@ export interface UserSettings {
   configs: SettingsOptionItem[];
 }
 
+export interface SettingsConfig {
+  general: SettingsConfigItem[];
+  dlc: SettingsListItem[];
+}
+
 export interface SettingsConfigItem {
-  section: string;
-  category: string;
-  isActive: boolean;
+  section: SettingsListItem;
+  categories: SettingsListItem[];
+  dlc: SettingsListItem[];
 }
 
 export interface SettingsListItem {
   id: string;
-  title: string;
+  title?: string;
   isActive: boolean;
 }
 
@@ -147,7 +152,7 @@ export interface GeneralData {
   collectables: Item[];
   locations: Item[];
   miscellaneous: Item[];
-  settingsConfig: SettingsConfigItem[];
+  settingsConfig: SettingsConfig;
 }
 
 export interface UserData {
