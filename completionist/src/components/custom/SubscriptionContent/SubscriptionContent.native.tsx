@@ -1,4 +1,3 @@
-import { useTranslation } from 'react-i18next';
 import ScrollableList from '@components/general/Lists/ScrollableList.native';
 import SubscriptionFeatureList from './SubscriptionFeatureList.native';
 import Button from '@components/general/Button/Button.native';

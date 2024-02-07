@@ -16,8 +16,8 @@ const SubscriptionOptionsList = () => {
     return (
         <SubscriptionOptionsContainer>
             {optionsList.map(item => (
-                <SubscriptionOptionsItemContainer 
-                    key={item.id} 
+                <SubscriptionOptionsItemContainer
+                    key={item.id}
                     borderColor={selectedSubscription === item.id ? theme.primaryPurple : theme.lightGrey}
                     onPress={(): void => setSelectedSubscription(item.id)}
                 >

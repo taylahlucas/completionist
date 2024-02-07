@@ -29,6 +29,25 @@
     "subscriptions": "Subscriptions",
     "settings": "Settings"
   },
+  "subscriptions": {
+    "subscriptionDesc": "With a Silver or Gold subscription,\nyou will gain access to Premium Features such as:",
+    "purchaseSubscription": "Purchase Subscription",
+    "bronze": "Bronze",
+    "silver": "Silver",
+    "gold": "Gold",
+    "accessMultipleGames": "Access to multiple games",
+    "noAds": "No Ads",
+    "withAds": "With Ads",
+    "accessSteam": "Access steam achievements",
+    "prerequisiteTracking": "Automated prerequisite tracking",
+    "accessPremiumFeatures": "Access to Premium Features",
+    "accessOneGame": "Access to one game per month",
+    "accessFiveGames": "Access to five games per month",
+    "accessAllGames": "Access to all games",
+    "revokedAccess": "Revoked access to Features",
+    "monthly": "Monthly",
+    "yearly": "Yearly"
+  },
   "sendRequest": {
     "subject": "Subject",
     "writeRequest": "Write your request here...",
