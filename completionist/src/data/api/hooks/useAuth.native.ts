@@ -1,23 +1,11 @@
-import { useEffect, useState } from 'react';
 import useKeychain from '@data/hooks/useKeychain.native';
-import { CredentialsResponse, UserResponse } from '@utils/CustomTypes';
 
 const useAuth = () => {
 	const { storeCredentials, getCredentials } = useKeychain();
-	const [authToken, setAuthToken] = useState('');
 
-	useEffect(() => {
-		getAuthToken()
-			.then((token) => {
-				if (!!token) {
-					setAuthToken(token)
-				}
-			});
-	}, [])
-
-	const getAuthToken = async () => {
+	const getAuthToken = async (): Promise<string> => {
 		return await getCredentials()
-			.then((token) => !!token ? token?.password : null);
+			.then((token) => !!token ? token?.password : '');
 	  };
 
 	const setAuthHeaders = (token: string) => {
@@ -37,16 +25,7 @@ const useAuth = () => {
 		 }
 	}
 
-	// const withToken = (apiFunction: (args: any) => Promise<UserResponse>) => async (args: any) => {
-	// 	if (!!authToken) {
-	// 	  return await apiFunction(args);
-	// 	} else {
-	// 	  console.log('Could not get token');
-	// 	  return;
-	// 	}
-	//   };
-
-	return { setAuthHeaders, setCredentials, getAuthToken, authToken };
+	return { setAuthHeaders, setCredentials, getAuthToken };
 };
 
 export default useAuth;

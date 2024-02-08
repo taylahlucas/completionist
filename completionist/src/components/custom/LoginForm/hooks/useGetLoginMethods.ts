@@ -61,7 +61,6 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
         .signInWithCredential(googleCredential)
         .then((response) => {
           const { displayName, email, uid, photoURL } = response?.user || {};
-
           if (displayName && email && idToken) {
             storeCredentials({
               username: uid,
@@ -71,6 +70,8 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
             // If yes, return user. If no, create user
             getUserByUserId({ userId: uid })
               .then((existingUser) => {
+				console.log("existingUser; ", existingUser)
+				console.log("\n")
                 if (!!existingUser) {
                   saveUserAndLogin(existingUser);
                 }

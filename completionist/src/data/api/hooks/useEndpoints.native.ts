@@ -4,7 +4,6 @@ import axios from 'axios';
 import { User } from '@utils/CustomInterfaces';
 import { AxiosErrorResponse, UserResponse } from '@utils/CustomTypes';
 import { signupUrl, signinUrl, getUserByUserIdUrl, updateUserDataUrl, sendEmailUrl } from '../../urls';
-import useKeychain from '../../hooks/useKeychain.native';
 import {
 	CreateUserProps,
 	SignInProps,
@@ -14,12 +13,14 @@ import {
 	EndpointsReturnType
 } from '@data/api/EndpointInterfaces.native';
 import useHandleAxiosError from './useHandleAxiosError';
+import useAuth from './useAuth.native';
+import useMainState from '@redux/hooks/useMainState';
 
 const useEndpoints = (): EndpointsReturnType => {
 	const url = Platform.OS === 'ios'
 		? process.env.IOS_LOCAL_URL
 		: process.env.ANDROID_LOCAL_URL;
-	const { setAuthHeaders, setCredentials, authToken } = useAuth();
+	const { setAuthHeaders, setCredentials, getAuthToken } = useAuth();
 	const { handleAxiosError } = useHandleAxiosError();
 
 	// TODO: Work out a better way to handle authToken
@@ -45,27 +46,25 @@ const useEndpoints = (): EndpointsReturnType => {
 	}
 
 	const signIn = async ({ email, password }: SignInProps): Promise<UserResponse> => {
-		if (!!authToken) {
-			try {
-				const response = await axios.post(`${url}/${signinUrl}`,
-					{
-						email: email,
-						password: password
-					},
-					setAuthHeaders(authToken)
-				);
-				setCredentials(response.data.user.userId, response.data.token);
-				return response.data.user as User;
-			}
-			catch (error: AxiosErrorResponse) {
-				handleAxiosError(error);
-				return;
-			}
+		try {
+			const response = await axios.post(`${url}/${signinUrl}`,
+				{
+					email: email,
+					password: password
+				}
+			);
+			setCredentials(response.data.user.userId, response.data.token);
+			return response.data.user as User;
+		}
+		catch (error: AxiosErrorResponse) {
+			handleAxiosError(error);
+			return;
 		}
 	};
 
 
 	const getUserByUserId = async ({ userId }: GetUserByUserIdProps): Promise<UserResponse> => {
+		const authToken = await getAuthToken();
 		if (!!authToken) {
 			try {
 				const response = await axios.get(
@@ -82,6 +81,7 @@ const useEndpoints = (): EndpointsReturnType => {
 	};
 
 	const updateUserData = async ({ userId, subscription, settings, skyrimData, fallout4Data }: UpdateUserDataProps): Promise<UserResponse> => {
+		const authToken = await getAuthToken();
 		if (!!authToken) {
 			try {
 				await axios.post(
