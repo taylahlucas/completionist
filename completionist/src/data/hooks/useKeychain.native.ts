@@ -26,7 +26,8 @@ const useKeychain = (): KeychainReturnTypes => {
     try {
       const credentials = await Keychain.getGenericPassword();
       return credentials && credentials?.password !== '1' ? credentials : null;
-    } catch (error) {
+    } 
+	catch (error) {
       console.error('Error retrieving credentials:', error);
       return null;
     }

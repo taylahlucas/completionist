@@ -1,10 +1,26 @@
+import { useEffect, useState } from 'react';
 import useKeychain from '@data/hooks/useKeychain.native';
 import { CredentialsResponse, UserResponse } from '@utils/CustomTypes';
 
 const useAuth = () => {
 	const { storeCredentials, getCredentials } = useKeychain();
+	const [authToken, setAuthToken] = useState('');
 
-	const setAuthHeaders = (token: Promise<CredentialsResponse>) => {
+	useEffect(() => {
+		getAuthToken()
+			.then((token) => {
+				if (!!token) {
+					setAuthToken(token)
+				}
+			});
+	}, [])
+
+	const getAuthToken = async () => {
+		return await getCredentials()
+			.then((token) => !!token ? token?.password : null);
+	  };
+
+	const setAuthHeaders = (token: string) => {
 		return {
 			headers: {
 				Authorization: `Bearer ${token}`
@@ -21,18 +37,16 @@ const useAuth = () => {
 		 }
 	}
 
-	const withToken = (apiFunction: (...args: any[]) => Promise<UserResponse>) => async (...args: any[]) => {
-		const token = getCredentials();
-		if (!!token) {
-		  const response = await apiFunction(...args.concat(setAuthHeaders(token)));
-		  return response as UserResponse;
-		} else {
-		  console.log('Could not get token');
-		  return;
-		}
-	  };
+	// const withToken = (apiFunction: (args: any) => Promise<UserResponse>) => async (args: any) => {
+	// 	if (!!authToken) {
+	// 	  return await apiFunction(args);
+	// 	} else {
+	// 	  console.log('Could not get token');
+	// 	  return;
+	// 	}
+	//   };
 
-	return { setAuthHeaders, setCredentials, withToken };
+	return { setAuthHeaders, setCredentials, getAuthToken, authToken };
 };
 
 export default useAuth;

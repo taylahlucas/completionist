@@ -5,7 +5,6 @@ import { User } from '@utils/CustomInterfaces';
 import { AxiosErrorResponse, UserResponse } from '@utils/CustomTypes';
 import { signupUrl, signinUrl, getUserByUserIdUrl, updateUserDataUrl, sendEmailUrl } from '../../urls';
 import useKeychain from '../../hooks/useKeychain.native';
-import useSetAuthHeaders from './useAuth.native';
 import {
 	CreateUserProps,
 	SignInProps,
@@ -20,26 +19,11 @@ const useEndpoints = (): EndpointsReturnType => {
 	const url = Platform.OS === 'ios'
 		? process.env.IOS_LOCAL_URL
 		: process.env.ANDROID_LOCAL_URL;
-	const { setCredentials, withToken } = useSetAuthHeaders();
+	const { setAuthHeaders, setCredentials, authToken } = useAuth();
 	const { handleAxiosError } = useHandleAxiosError();
 
-	const signIn = withToken(async ({ email, password }: SignInProps): Promise<UserResponse> => {
-		try {
-			const response = await axios.post(`${url}/${signinUrl}`,
-				{
-					email: email,
-					password: password
-				}
-			)
-			setCredentials(response.data.user.userId, response.data.token);
-			return response.data.user as User;
-		}
-		catch (error: AxiosErrorResponse) {
-			handleAxiosError(error);
-			return;
-		}
-	});
-
+	// TODO: Work out a better way to handle authToken
+	// TODO: Test if authToken is doing anything currently (in terms of security)
 	const signUp = async ({ data }: CreateUserProps): Promise<UserResponse> => {
 		try {
 			const response = await axios.post(`${url}/${signupUrl}`,
@@ -60,39 +44,66 @@ const useEndpoints = (): EndpointsReturnType => {
 		};
 	}
 
-	const getUserByUserId = withToken(async ({ userId }: GetUserByUserIdProps): Promise<UserResponse> => {
-		try {
-			const response = await axios.get(
-				`${url}/${getUserByUserIdUrl}/${userId}`
-			);
-			return response.data as User;
+	const signIn = async ({ email, password }: SignInProps): Promise<UserResponse> => {
+		if (!!authToken) {
+			try {
+				const response = await axios.post(`${url}/${signinUrl}`,
+					{
+						email: email,
+						password: password
+					},
+					setAuthHeaders(authToken)
+				);
+				setCredentials(response.data.user.userId, response.data.token);
+				return response.data.user as User;
+			}
+			catch (error: AxiosErrorResponse) {
+				handleAxiosError(error);
+				return;
+			}
 		}
-		catch (error: AxiosErrorResponse) {
-			handleAxiosError(error);
-			return;
-		}
-	});
+	};
 
-	const updateUserData = withToken(async ({ userId, subscription, settings, skyrimData, fallout4Data }: UpdateUserDataProps): Promise<UserResponse> => {
-		try {
-			await axios.post(
-				`${url}/${updateUserDataUrl}`,
-				{
-					userId: userId,
-					subscription: subscription,
-					settings: settings,
-					// TODO: Change this
-					skyrimData: skyrimData,
-					fallout4Data: fallout4Data
-				}
-			);
-		}
-		catch (error: AxiosErrorResponse) {
-			handleAxiosError(error);
-		}
-	});
 
-	const sendEmail = withToken(async ({ from, subject, text }: EmailProps): Promise<UserResponse> => {
+	const getUserByUserId = async ({ userId }: GetUserByUserIdProps): Promise<UserResponse> => {
+		if (!!authToken) {
+			try {
+				const response = await axios.get(
+					`${url}/${getUserByUserIdUrl}/${userId}`,
+					setAuthHeaders(authToken)
+				);
+				return response.data as User;
+			}
+			catch (error: AxiosErrorResponse) {
+				handleAxiosError(error);
+				return;
+			}
+		}
+	};
+
+	const updateUserData = async ({ userId, subscription, settings, skyrimData, fallout4Data }: UpdateUserDataProps): Promise<UserResponse> => {
+		if (!!authToken) {
+			try {
+				await axios.post(
+					`${url}/${updateUserDataUrl}`,
+					{
+						userId: userId,
+						subscription: subscription,
+						settings: settings,
+						// TODO: Change this
+						skyrimData: skyrimData,
+						fallout4Data: fallout4Data
+					},
+					setAuthHeaders(authToken)
+				);
+			}
+			catch (error: AxiosErrorResponse) {
+				handleAxiosError(error);
+			}
+		}
+	};
+
+	const sendEmail = async ({ from, subject, text }: EmailProps): Promise<UserResponse> => {
 		try {
 			await axios.post(
 				`${url}/${sendEmailUrl}`,
@@ -100,13 +111,14 @@ const useEndpoints = (): EndpointsReturnType => {
 					from: from,
 					subject: subject,
 					text: text
-				}
+				},
+				setAuthHeaders('')
 			)
 		}
 		catch (error: AxiosErrorResponse) {
 			handleAxiosError(error);
 		}
-	});
+	};
 
 	return { signIn, signUp, getUserByUserId, updateUserData, sendEmail };
 };
