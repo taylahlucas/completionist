@@ -41,6 +41,8 @@ const ContentSubTypeDropdown = ({ subCategory, type, completed, total }: Content
             key={index}
             id={item.id}
             title={item.title}
+            location={item.location}
+            hold={item.hold}
             isComplete={checkContentComplete(item.id)}
             action={((): void => updateContentComplete(item.id))}
           />

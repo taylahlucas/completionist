@@ -22,18 +22,18 @@ const useUpdateContent = () => {
   };
 
   const updateContentComplete = (itemId: string) => {
-    let completedContent = [];
+    let completedContent: Item[] = [];
     switch (sectionType) {
-      case 'Quests':
+      case 'quests':
         completedContent = selectedGameData?.quests.filter(item => item.isComplete) ?? [];
         break;
-      case 'Collectables':
+      case 'collectables':
         completedContent = selectedGameData?.collectables.filter(item => item.isComplete) ?? [];
         break;
-      case 'Locations':
+      case 'locations':
         completedContent = selectedGameData?.locations.filter(item => item.isComplete) ?? [];
         break;
-      case 'Miscellaneous':
+      case 'miscellaneous':
         completedContent = selectedGameData?.miscellaneous.filter(item => item.isComplete) ?? [];
         break;
     }
@@ -41,16 +41,16 @@ const useUpdateContent = () => {
     const updatedContent = updateContentAction(itemId, completedContent, itemToUpdate);
 
     switch (sectionType) {
-      case 'Quests':
+      case 'quests':
         setCompletedQuests(updatedContent);
         break;
-      case 'Collectables':
+      case 'collectables':
         setCompletedCollectables(updatedContent);
         break;
-      case 'Locations':
+      case 'locations':
         setCompletedLocations(updatedContent);
         break;
-      case 'Miscellaneous':
+      case 'miscellaneous':
         setCompletedMiscItems(updatedContent);
         break;
     }

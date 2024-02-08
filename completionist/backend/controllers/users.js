@@ -32,7 +32,7 @@ const updateUserData = async (req, res) => {
      });
      if (result.matchedCount > 0) {
       console.log(`User with ID ${userId} updated successfully`);
-      return res.status(200);
+      return res.status(request_codes.SUCCESS).json(result.user);
     } else {
       return res.status(404).json({ error: 'User not found' });
     }

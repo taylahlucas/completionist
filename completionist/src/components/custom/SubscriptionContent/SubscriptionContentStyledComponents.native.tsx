@@ -39,7 +39,7 @@ export const SubscriptionOptionsContainer = styled.View`
 `;
 
 export const SubscriptionOptionsItemContainer = styled.Pressable<PriceProps>`
-    border-width: 4px;
+    border-width: 6px;
     border-color: ${props => props.borderColor};
     border-radius: ${DEFAULT_BORDER_RADIUS}px;
     margin-bottom: 8px;
