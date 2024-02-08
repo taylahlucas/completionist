@@ -5,8 +5,6 @@ import useGetTheme from '@styles/hooks/useGetTheme';
 import SubscriptionPriceList from './SubscriptionOptionsList.native';
 import StyledText from '@components/general/Text/StyledText.native';
 import { styles } from './SubscriptionContentStyledComponents.native';
-import { useEffect } from 'react';
-import useSubscriptionDispatch from './hooks/useContentDispatch';
 import useMainState from '@redux/hooks/useMainState';
 import useSubscriptionState from './hooks/useContentState';
 import useReactNavigation from '@navigation/hooks/useReactNavigation.native';

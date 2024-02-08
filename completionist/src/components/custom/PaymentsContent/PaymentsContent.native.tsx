@@ -6,14 +6,19 @@ import SubscriptionOptionDescription from '../SubscriptionContent/SubscriptionOp
 import PriceItem from '@components/general/PriceItem/PriceItem.native';
 import { PaymentPriceItem, PaymentPricesContainer, PaymentPlanSubtitle } from './PaymentsContentStyledComponents.native';
 import { useState } from 'react';
+import { ScreenEnum } from '@utils/CustomEnums';
+import Button from '@components/general/Button/Button.native';
+import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
+import ScrollableList from '@components/general/Lists/ScrollableList.native';
 
 const PaymentsContent = () => {
 	const theme = useGetTheme();
+	const navigation = useReactNavigation();
 	const { selectedSubscription } = useSubscriptionState();
 	const [selectedPrice, setSelectedPrice] = useState(selectedSubscription.prices[0]);
 
 	return (
-		<>
+		<ScrollableList>
 			<SelectableItem
 				item={selectedSubscription}
 				isSelected={true}
@@ -30,9 +35,9 @@ const PaymentsContent = () => {
 
 			<PaymentPricesContainer>
 				{selectedSubscription.prices.map((item) => (
-					<SelectableItem 
+					<SelectableItem
 						item={selectedSubscription} 
-						isSelected={item === selectedPrice}
+						isSelected={item.type === selectedPrice.type}
 						onPress={(): void => setSelectedPrice(item)}
 					>
 						<PaymentPriceItem>
@@ -47,7 +52,14 @@ const PaymentsContent = () => {
 			</PaymentPlanSubtitle>
 
 			{/* // TODO: Add paypal and apple pay */}
-		</>
+
+			<Button
+				style={{ marginTop: 64, alignSelf: 'center' }}
+                title={'Confirm Purchase'}
+                onPress={(): void => navigation.navigate(ScreenEnum.GameSelection)}
+                color={theme.primaryPurple}
+            />
+		</ScrollableList>
 	);
 };
 
