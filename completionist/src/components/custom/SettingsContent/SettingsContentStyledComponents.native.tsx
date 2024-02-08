@@ -8,11 +8,14 @@ interface SettingsContentMainItemProps {
   color: string;
 }
 
-export const style = StyleSheet.create({
+export const styles = StyleSheet.create({
   scrollContent: {
     width: STANDARD_WIDTH,
     paddingBottom: 16
-  }
+  },
+	contentContainer: {
+		paddingBottom: 84
+	}
 });
 
 export const SettingsContentDescription = styled(StyledText)`

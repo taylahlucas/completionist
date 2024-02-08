@@ -9,6 +9,7 @@ export type MaterialIconsType =
   | 'arrow-drop-down'
   | 'cancel'
   | 'check-circle-outline'
+  | 'forward-to-inbox'
   | 'logout'
   | 'radio-button-unchecked'
   | 'search'
@@ -26,6 +27,7 @@ export type IoniconType =
   | 'eye-outline'
   | 'eye-off-outline'
   | 'menu-sharp'
+  | 'settings-outline'
   | 'square-outline'
   | 'wallet-outline';
 

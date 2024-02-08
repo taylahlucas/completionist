@@ -69,6 +69,8 @@ const useGetTranslatedGameData = (): TranslatedGameDataReturnType => {
 		case 'zh':
 			languageDb = zh;
 			break;
+		default:
+			languageDb = en;
 	}
 
 	return {

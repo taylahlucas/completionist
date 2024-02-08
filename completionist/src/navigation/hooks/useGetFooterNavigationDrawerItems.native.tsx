@@ -1,28 +1,42 @@
-import { ScreenEnum } from '@utils/CustomEnums';
+import { IconTypeEnum, ScreenEnum } from '@utils/CustomEnums';
+import { IconType } from '@utils/CustomTypes';
 import { useTranslation } from 'react-i18next';
 
 interface NavigationFooterDrawerItem {
-  id: ScreenEnum;
-  title: string;
+	id: ScreenEnum;
+	title: string;
+	icon: IconType;
+	iconType?: IconTypeEnum;
 }
 
 const useGetNavigationFooterDrawerItems = (): NavigationFooterDrawerItem[] => {
-  const { t } = useTranslation();
+	const { t } = useTranslation();
 
-  return ([
-    {
-      id: ScreenEnum.GameSelection,
-      title: t('common:screens.gameSelection')
-    },
-    {
-      id: ScreenEnum.RequestGame,
-      title: t('common:screens.sendRequest')
-    },
-    {
-      id: ScreenEnum.Settings,
-      title: t('common:screens.settings')
-    }
-  ]);
+	return ([
+		{
+			id: ScreenEnum.GameSelection,
+			title: t('common:screens.gameSelection'),
+			icon: 'menu-sharp',
+			iconType: IconTypeEnum.Ionicons
+		},
+		{
+			id: ScreenEnum.Subscriptions,
+			title: t('common:screens.subscriptions'),
+			icon: 'wallet-outline',
+			iconType: IconTypeEnum.Ionicons
+		},
+		{
+			id: ScreenEnum.RequestGame,
+			title: t('common:screens.sendRequest'),
+			icon: 'forward-to-inbox'
+		},
+		{
+			id: ScreenEnum.Settings,
+			title: t('common:screens.settings'),
+			icon: 'settings-outline',
+			iconType: IconTypeEnum.Ionicons
+		}
+	]);
 };
 
 export default useGetNavigationFooterDrawerItems;

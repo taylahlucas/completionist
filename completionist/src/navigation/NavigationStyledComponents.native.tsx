@@ -4,22 +4,23 @@ import StyledText from '@components/general/Text/StyledText.native';
 import { DEFAULT_BORDER_RADIUS } from '@styles/global.native';
 import styled from 'styled-components/native';
 
+const drawerWidth = 250;
 export const styles = StyleSheet.create({
-  drawerContainer: {
-    width: 250
-  },
-  contentContainer: {
-    minHeight: '100%'
-  },
-  iconButton: {
-    marginRight: 16,
-    marginLeft: 16,
-    zIndex: 2
-  }
+	drawerContainer: {
+		width: drawerWidth
+	},
+	contentContainer: {
+		minHeight: '100%'
+	},
+	iconButton: {
+		marginRight: 16,
+		marginLeft: 16,
+		zIndex: 2
+	}
 });
 
 interface NavigationHeaderProps {
-  color: string;
+	color: string;
 }
 
 export const NavigationHeaderContainer = styled.View`
@@ -32,20 +33,30 @@ export const NavigationHeaderContainer = styled.View`
 `;
 
 interface NavigationHeaderTitleContainerProps {
-  disabled: boolean;
+	disabled: boolean;
 }
 
 export const NavigationHeaderTitleContainer = styled.Pressable<NavigationHeaderTitleContainerProps>`
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  padding-right: 16px;
-  opacity: ${(props): number => props.disabled ? 0.5 : 1}
+	max-width: ${drawerWidth}px;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	padding-right: 16px;
+	opacity: ${(props): number => props.disabled ? 0.5 : 1}
+`;
+
+export const NavigationDrawerFooterItem = styled.Pressable`
+	flex-direction: row;
+	align-items: center;
+`;
+
+export const NavigationDrawerFooterIcon = styled(Icon)`
+	padding-right: 8px;
 `;
 
 export const NavigationDrawerTitle = styled(StyledText)`
   padding: 8px;
-  width: 160px;
+	width: ${drawerWidth - 40}px;
 `;
 
 export const NavigationHeaderSubTitle = styled(StyledText)`

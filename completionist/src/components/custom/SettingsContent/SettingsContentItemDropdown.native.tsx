@@ -3,7 +3,10 @@ import Dropdown from '@components/general/Dropdown/Dropdown.native';
 import { SettingsListItem } from '@utils/CustomInterfaces';
 import SettingsContentMainHeader from './SettingsContentMainHeader.native';
 import useGetUserGameData from '@data/hooks/useGetUserGameData';
-import { style, SettingsContentSubItemContainer, SettingsContentScrollView, SettingsContentTitle } from './SettingsContentStyledComponents.native';
+import { 
+	styles, 
+	SettingsContentSubItemContainer, SettingsContentScrollView, SettingsContentTitle 
+} from './SettingsContentStyledComponents.native';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import useSettingsState from './hooks/useSettingsState';
 import useSettingsDispatch from './hooks/useSettingsDispatch';
@@ -32,7 +35,7 @@ const SettingsContentItemDropdown = ({ item }: SettingsContentItemDropdownProps)
       })}
       header={<SettingsContentMainHeader item={item} />}
     >
-      <SettingsContentScrollView contentContainerStyle={style.scrollContent}>
+      <SettingsContentScrollView contentContainerStyle={styles.scrollContent}>
         {getUserSettingsSubConfig(item.id).map((settingsItem, index) => (
           <SettingsContentSubItemContainer key={index} color={theme.darkGrey}>
             <SettingsContentTitle color={theme.lightGrey} align={'left'}>

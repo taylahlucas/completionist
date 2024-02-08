@@ -2,7 +2,7 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import SettingsGameSelectionContent from './SettingsGameSelectionContent.native';
 import ScrollableList from '@components/general/Lists/ScrollableList.native';
-import { SettingsContentDescription } from './SettingsContentStyledComponents.native';
+import { styles, SettingsContentDescription } from './SettingsContentStyledComponents.native';
 import SelectionList from '@components/general/Lists/SelectionList.native';
 import useDLCOptions from './hooks/useDLCOptions';
 import useGetShowHideOptions from './hooks/useGetShowHideOptions';
@@ -17,7 +17,7 @@ const SettingsContent = () => {
 
 	// TODO: Translations
 	return (
-		<ScrollableList contentContainerStyle={{ paddingBottom: 64 }}>
+		<ScrollableList contentContainerStyle={styles.contentContainer}>
 			<SettingsGameSelectionContent />
 
 			<SettingsContentDescription align={'left'}>

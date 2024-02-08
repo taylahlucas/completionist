@@ -102,8 +102,9 @@ export const ListItemLocationContainer = styled.View`
 `;
 
 export const SelectionListContainer = styled.View`
-  width: ${STANDARD_WIDTH}px;
-  padding: 8px;
+  width: ${LARGE_WIDTH}px;
+  padding-left: 24px;
+	padding-right: 24px;
 `;
 
 export const SelectionListItemContainer = styled.View`

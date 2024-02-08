@@ -24,7 +24,7 @@ interface MainDispatch {
   setShowSplashScreen: (value: boolean) => void;
   setAppState: (value: string) => void;
   setCurrentScreen: (value: ScreenEnum) => void;
-  setSelectedGame: (value: GameKeyEnum) => void;
+  setSelectedGame: (value?: GameKeyEnum) => void;
   setSelectedGameSettings: (value: GameKeyEnum) => void;
   setWebSignInConfigured: (value: boolean) => void;
   setUser: (value: User) => void;
@@ -50,7 +50,7 @@ const useMainDispatch = (): MainDispatch => {
     setCurrentScreen(value: string): void {
       dispatch(setCurrentScreen(value));
     },
-    setSelectedGame(value: string): void {
+    setSelectedGame(value?: GameKeyEnum): void {
       dispatch(setSelectedGame(value));
     },
     setSelectedGameSettings(value: GameKeyEnum): void {
