@@ -6,7 +6,7 @@ import styled from 'styled-components/native';
 
 export const styles = StyleSheet.create({
   drawerContainer: {
-    width: 230
+    width: 250
   },
   contentContainer: {
     minHeight: '100%'
@@ -45,6 +45,7 @@ export const NavigationHeaderTitleContainer = styled.Pressable<NavigationHeaderT
 
 export const NavigationDrawerTitle = styled(StyledText)`
   padding: 8px;
+  width: 160px;
 `;
 
 export const NavigationHeaderSubTitle = styled(StyledText)`

@@ -1,6 +1,5 @@
 import React from 'react';
-import StyledText from '../Text/StyledText.native';
-import { SelectionListContainer, SelectionListItemContainer } from './ListStyledComponents.native';
+import { SelectionListContainer, SelectionListItemContainer, SelectListTitle } from './ListStyledComponents.native';
 import CheckBox from '../Checkbox/CheckBox.native';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import { SettingsListItem } from '@utils/CustomInterfaces';
@@ -17,7 +16,7 @@ const SelectionList = ({ data, onPress }: SelectionListProps) => {
     <SelectionListContainer>
       {data.map((item, index) => (
         <SelectionListItemContainer key={index}>
-          <StyledText color={theme.lightGrey}>{item.title}</StyledText>
+          <SelectListTitle align={'left'} color={theme.lightGrey}>{item.title}</SelectListTitle>
           <CheckBox 
             isActive={item.isActive}
             onPress={(): void => onPress(item.id)}

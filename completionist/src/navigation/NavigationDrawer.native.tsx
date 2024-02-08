@@ -33,7 +33,11 @@ const NavigationDrawer = () => {
     return (
       <Condition condition={!!selectedGame}>
         <NavigationDrawerContainer>
-          <StyledText type={'Heading'} color={theme.lightGrey}>{!!selectedGame ? translateGameName(selectedGame) : ''}</StyledText>
+          <StyledText 
+		  	type={'Heading'} 
+			color={theme.lightGrey}>
+				{!!selectedGame ? translateGameName(selectedGame) : ''}
+			</StyledText>
           <NavigationDrawerBody />
         </NavigationDrawerContainer>
       </Condition>

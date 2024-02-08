@@ -12,74 +12,76 @@ import * as pt from '../../../translations/pt/db/index.js';
 import * as tr from '../../../translations/tr/db/index.js';
 import * as vi from '../../../translations/vi/db/index.js';
 import * as zh from '../../../translations/zh/db/index.js';
+import useMainState from '@redux/hooks/useMainState';
 
 interface TranslatedGameDataReturnType {
-  skyrimQuests: any;
-  skyrimCollectables: any;
-  skyrimLocations: any;
-  skyrimMisc: any;
+	skyrimQuests: any;
+	skyrimCollectables: any;
+	skyrimLocations: any;
+	skyrimMisc: any;
 
-  fallout4Quests: any;
-  fallout4Collectables: any;
-  fallout4Locations: any;
-  fallout4Misc: any;
+	fallout4Quests: any;
+	fallout4Collectables: any;
+	fallout4Locations: any;
+	fallout4Misc: any;
 }
 
-// TODO: Fix fr and zh
 const useGetTranslatedGameData = (): TranslatedGameDataReturnType => {
-  const userLocale = RNLocalize.getLocales()[0]?.languageCode || 'en';
+	const { user } = useMainState();
+	// TODO: When creating user, set initial lang to RNLocalize.getLocales()[0]?.languageCode
+	const userLocale = !!user ? user.settings.lang : RNLocalize.getLocales()[0]?.languageCode;
 
-  let languageDb = en;
-  switch (userLocale) {
-    case 'ar':
-      languageDb = ar;
-      break;
-    case 'de':
-      languageDb = de;
-      break;
-    case 'es':
-      languageDb = es;
-      break;
-    case 'fr':
-      languageDb = fr;
-      break;
-    case 'hi':
-      languageDb = hi;
-      break;
-    case 'id':
-      languageDb = id;
-      break;
-    case 'it':
-      languageDb = it;
-      break;
-    case 'ja':
-      languageDb = ja;
-      break;
-    case 'pt':
-      languageDb = pt;
-      break;
-    case 'tr':
-      languageDb = tr;
-      break;
-    case 'vi':
-      languageDb = vi;
-      break;
-    case 'zh':
-      languageDb = zh;
-      break;
-  }
+	let languageDb = en;
+	switch (userLocale) {
+		case 'ar':
+			languageDb = ar;
+			break;
+		case 'de':
+			languageDb = de;
+			break;
+		case 'es':
+			languageDb = es;
+			break;
+		case 'fr':
+			languageDb = fr;
+			break;
+		case 'hi':
+			languageDb = hi;
+			break;
+		case 'id':
+			languageDb = id;
+			break;
+		case 'it':
+			languageDb = it;
+			break;
+		case 'ja':
+			languageDb = ja;
+			break;
+		case 'pt':
+			languageDb = pt;
+			break;
+		case 'tr':
+			languageDb = tr;
+			break;
+		case 'vi':
+			languageDb = vi;
+			break;
+		case 'zh':
+			languageDb = zh;
+			break;
+	}
 
-  return {
-    skyrimQuests: languageDb.skyrimQuests,
-    skyrimCollectables: languageDb.skyrimCollectables,
-    skyrimLocations: languageDb.skyrimLocations,
-    skyrimMisc: languageDb.skyrimMisc,
+	return {
+		skyrimQuests: languageDb.skyrimQuests,
+		skyrimCollectables: languageDb.skyrimCollectables,
+		skyrimLocations: languageDb.skyrimLocations,
+		skyrimMisc: languageDb.skyrimMisc,
 
-    fallout4Quests: languageDb.fallout4Quests,
-    fallout4Collectables: languageDb.fallout4Collectables,
-    fallout4Locations: languageDb.fallout4Locations,
-    fallout4Misc: languageDb.fallout4Misc
-  };
+		fallout4Quests: languageDb.fallout4Quests,
+		fallout4Collectables: languageDb.fallout4Collectables,
+		fallout4Locations: languageDb.fallout4Locations,
+		fallout4Misc: languageDb.fallout4Misc
+	};
 };
 
 export default useGetTranslatedGameData;

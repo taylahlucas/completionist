@@ -10,46 +10,50 @@ import useSettingsOptionsOnPress from './hooks/useSettingsOptionsOnPress.native'
 import SettingsContentSelectLanguage from './SettingsContentSelectLanguage.native';
 
 const SettingsContent = () => {
-  const { t } = useTranslation();
-  const { getDLCOptions, setDLCOptions } = useDLCOptions();
-  const options = useGetShowHideOptions();
-  const { setSettingsOptionsOnPress } = useSettingsOptionsOnPress();
+	const { t } = useTranslation();
+	const { getDLCOptions, setDLCOptions } = useDLCOptions();
+	const options = useGetShowHideOptions();
+	const { setSettingsOptionsOnPress } = useSettingsOptionsOnPress();
 
-  return (
-    <ScrollableList contentContainerStyle={{ paddingBottom: 64 }}>
-      <SettingsGameSelectionContent />
-      
-      <SettingsContentDescription align={'left'}>
-        {t('common:settings.enabledDLC')}
-      </SettingsContentDescription>
+	// TODO: Translations
+	return (
+		<ScrollableList contentContainerStyle={{ paddingBottom: 64 }}>
+			<SettingsGameSelectionContent />
 
-      <SelectionList data={getDLCOptions()} onPress={setDLCOptions} />
+			<SettingsContentDescription align={'left'}>
+				{t('common:settings.enabledDLC')}
+			</SettingsContentDescription>
 
-      <SettingsContentDescription align={'left'}>
-        {t('common:settings.showHide')}
-      </SettingsContentDescription>
-      <SelectionList data={options} onPress={(id: string): void => setSettingsOptionsOnPress(id)} />
+			<SelectionList data={getDLCOptions()} onPress={setDLCOptions} />
 
-	  <SettingsContentDescription align={'left'}>
-		Select language:
-	  </SettingsContentDescription>
+			<SettingsContentDescription align={'left'}>
+				{t('common:settings.showHide')}
+			</SettingsContentDescription>
+			<SelectionList
+				data={options}
+				onPress={(id: string): void => setSettingsOptionsOnPress(id)}
+			/>
 
-	  <SettingsContentSelectLanguage />
+			<SettingsContentDescription align={'left'}>
+				Select language:
+			</SettingsContentDescription>
 
-	  <SettingsContentDescription align={'left'}>
-		Select primary color:
-	  </SettingsContentDescription>
+			<SettingsContentSelectLanguage />
 
-	  <SettingsContentDescription align={'left'}>
-		Change username:
-	  </SettingsContentDescription>
+			<SettingsContentDescription align={'left'}>
+				Select primary color:
+			</SettingsContentDescription>
 
-	  <SettingsContentDescription align={'left'}>
-		Change email:
-	  </SettingsContentDescription>
+			<SettingsContentDescription align={'left'}>
+				Change username:
+			</SettingsContentDescription>
 
-    </ScrollableList>
-  );
+			<SettingsContentDescription align={'left'}>
+				Change email:
+			</SettingsContentDescription>
+
+		</ScrollableList>
+	);
 };
 
 export default SettingsContent;

@@ -36,6 +36,8 @@ const NavigationDrawerBody: React.FunctionComponent = () => {
               type={'ListItemTitle'}
               color={currentScreen === item.id ? theme.lightGrey : theme.midGrey}
               align={'left'}
+			  ellipsizeMode='tail'
+			  numberOfLines={1}
             >
               {item.title}
             </NavigationDrawerTitle>
@@ -46,6 +48,8 @@ const NavigationDrawerBody: React.FunctionComponent = () => {
             type={'ListItemTitle'}
             color={currentScreen === ScreenEnum.Login ? theme.lightGrey : theme.midGrey}
             align={'left'}
+			ellipsizeMode='tail'
+			numberOfLines={1}
           >
             {t('common:auth.logout')}
           </NavigationDrawerTitle>

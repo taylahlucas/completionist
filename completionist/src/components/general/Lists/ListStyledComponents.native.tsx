@@ -111,3 +111,7 @@ export const SelectionListItemContainer = styled.View`
   justify-content: space-between;
   padding: 8px;
 `;
+
+export const SelectListTitle = styled(StyledText)`
+	margin-right: 32px;
+`;

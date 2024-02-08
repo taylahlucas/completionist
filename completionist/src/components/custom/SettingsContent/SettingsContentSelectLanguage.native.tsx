@@ -1,37 +1,52 @@
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import Dropdown from '@components/general/Dropdown/Dropdown.native';
 import DropdownSelection from '@components/general/Dropdown/DropdownSelection.native';
 import DropdownSelectionContent from '@components/general/Dropdown/DropdownSelectionContent.native';
 import { languages } from 'src/i18n/i18n-common';
+import useMainState from '@redux/hooks/useMainState';
+import useMainDispatch from '@redux/hooks/useMainDispatch';
+import { LanguageType } from '@utils/CustomTypes';
+import useGetLanguageInEn from './hooks/useGetLanguageInEn.native';
 
 const SettingsContentSelectLanguage = () => {
-  const [isSelectionOpen, triggerSelectionOpen] = useState(false);
+	const { t, i18n } = useTranslation();
+	const { setUser } = useMainDispatch();
+	const { user } = useMainState();
+	const [isSelectionOpen, triggerSelectionOpen] = useState(false);
+	const { getLanguageInEn } = useGetLanguageInEn();
 
-  // TODO Fix here -- background not working & not scrollable.
-  return (
-    <Dropdown
-      isOpen={isSelectionOpen}
-      setOpen={() => null}
-      header={
-        <DropdownSelection
-          title={'English'}
-          isSelected={isSelectionOpen}
-          onPress={(): void => triggerSelectionOpen(!isSelectionOpen)}
-        />
-      }
-    >
-      <DropdownSelectionContent
-        content={languages.map(lang => ({
-          id: lang,
-          title: 'English'
-        }))}
-        onPress={(value): void => {
-          triggerSelectionOpen(false);
-		  // TODO: Set selected language
-        }}
-      />
-    </Dropdown>
-  );
+	return (
+		<Dropdown
+			isOpen={isSelectionOpen}
+			setOpen={() => null}
+			header={
+				<DropdownSelection
+					title={`${t(`common:languages.${user.settings.lang}`)} (${getLanguageInEn(user.settings.lang)})`}
+					isSelected={isSelectionOpen}
+					onPress={(): void => triggerSelectionOpen(!isSelectionOpen)}
+				/>
+			}
+		>
+			<DropdownSelectionContent
+				content={languages.map((lang) => ({
+					id: lang,
+					title: `${t(`common:languages.${lang}`)} (${getLanguageInEn(lang as LanguageType)})`
+				}))}
+				onPress={(value): void => {
+					triggerSelectionOpen(false);
+					i18n.changeLanguage(value);
+					setUser({
+						...user,
+						settings: {
+							...user.settings,
+							lang: value as LanguageType
+						}
+					});
+				}}
+			/>
+		</Dropdown>
+	);
 };
 
 export default SettingsContentSelectLanguage;
