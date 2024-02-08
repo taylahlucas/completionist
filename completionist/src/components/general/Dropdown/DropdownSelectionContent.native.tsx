@@ -4,20 +4,21 @@ import { DropdownSelectionItemTitle, DropdownSelectionContentContainer, Dropdown
 import { GameKeyEnum } from '@utils/CustomEnums';
 
 interface DropdownSelectionProps {
-  id: GameKeyEnum,
+  id: string;
   title: string;
 }
 
 interface DropdownSelectionContentProps {
   content: DropdownSelectionProps[];
-  onPress: (value: GameKeyEnum) => void;
+  onPress: (value: string) => void;
 }
 
 const DropdownSelectionContent = ({ content, onPress }: DropdownSelectionContentProps) => {
   const theme = useGetTheme();
   
   return (
-    <DropdownSelectionContentContainer>
+    <DropdownSelectionContentContainer bounces={false} contentContainerStyle={{ alignSelf: 'center',
+		alignItems: 'center' }}>
       {content.map((item, index) => (
         <DropdownSelectionContentItem 
           key={index}

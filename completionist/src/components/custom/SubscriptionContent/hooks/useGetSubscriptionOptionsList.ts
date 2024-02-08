@@ -1,5 +1,6 @@
 import { DatePeriodEnum, SubscriptionTypeEnum } from '@utils/CustomEnums';
 import { PriceProps } from '@utils/CustomInterfaces';
+import { useTranslation } from 'react-i18next';
 
 export interface SubscriptionOptionsListProps {
     id: SubscriptionTypeEnum;
@@ -9,25 +10,27 @@ export interface SubscriptionOptionsListProps {
 }
 
 const useGetSubscriptionOptionsList = (): SubscriptionOptionsListProps[] => {
+	const { t } = useTranslation();
+
     return ([
         {
             id: SubscriptionTypeEnum.GOLD,
             prices: [
                 {
                     type: DatePeriodEnum.MONTHLY,
-                    title: "Monthly",
+                    title: t('common:subscriptions.monthly'),
                     value: 9.99
                 },
                 {
                     type: DatePeriodEnum.YEARLY,
-                    title: "Yearly",
+                    title: t('common:subscriptions.yearly'),
                     value: 79.99
                 }
             ],
-            title: "Gold",
+            title: t('common:subscriptions.gold'),
             description: [
-                "Access to Premium Features",
-                "Access to all games"
+                t('common:subscriptions.accessPremiumFeatures'),
+				t('common:subscriptions.accessAllGames')
             ]
         },
         {
@@ -35,19 +38,19 @@ const useGetSubscriptionOptionsList = (): SubscriptionOptionsListProps[] => {
             prices: [
                 {
                     type: DatePeriodEnum.MONTHLY,
-                    title: "Monthly",
+                    title: t('common:subscriptions.monthly'),
                     value: 3.99
                 },
                 {
                     type: DatePeriodEnum.YEARLY,
-                    title: "Yearly",
+                    title: t('common:subscriptions.yearly'),
                     value: 29.99
                 }
             ],
-            title: "Silver",
+            title: t('common:subscriptions.silver'),
             description: [
-                "Access to Premium Features",
-                "Access to five games per month"
+                t('common:subscriptions.accessPremiumFeatures'),
+                t('common:subscriptions.accessFiveGames')
             ]
         },
         {
@@ -55,15 +58,15 @@ const useGetSubscriptionOptionsList = (): SubscriptionOptionsListProps[] => {
             prices: [
                 {
                     type: DatePeriodEnum.MONTHLY,
-                    title: "Monthly",
+                    title: t('common:subscriptions.monthly'),
                     value: 0.00
                 }
             ],
-            title: "Bronze",
+            title: t('common:subscriptions.bronze'),
             description: [
-                "With Ads",
-                "Revoked access to Features",
-                "Access to one game per month"
+				t('common:subscriptions.withAds'),
+				t('common:subscriptions.revokedAccess'),
+				t('common:subscriptions.accessOneGame')
             ]
         },
     ]);

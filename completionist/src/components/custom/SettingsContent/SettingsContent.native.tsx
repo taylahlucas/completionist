@@ -7,6 +7,7 @@ import SelectionList from '@components/general/Lists/SelectionList.native';
 import useDLCOptions from './hooks/useDLCOptions';
 import useGetShowHideOptions from './hooks/useGetShowHideOptions';
 import useSettingsOptionsOnPress from './hooks/useSettingsOptionsOnPress.native';
+import SettingsContentSelectLanguage from './SettingsContentSelectLanguage.native';
 
 const SettingsContent = () => {
   const { t } = useTranslation();
@@ -15,25 +16,38 @@ const SettingsContent = () => {
   const { setSettingsOptionsOnPress } = useSettingsOptionsOnPress();
 
   return (
-    <ScrollableList>
+    <ScrollableList contentContainerStyle={{ paddingBottom: 64 }}>
       <SettingsGameSelectionContent />
       
-      <SettingsContentDescription
-        type={'ListItemSubTitle'}
-        align={'left'}
-      >
+      <SettingsContentDescription align={'left'}>
         {t('common:settings.enabledDLC')}
       </SettingsContentDescription>
 
       <SelectionList data={getDLCOptions()} onPress={setDLCOptions} />
 
-      <SettingsContentDescription
-        type={'ListItemSubTitle'}
-        align={'left'}
-      >
+      <SettingsContentDescription align={'left'}>
         {t('common:settings.showHide')}
       </SettingsContentDescription>
       <SelectionList data={options} onPress={(id: string): void => setSettingsOptionsOnPress(id)} />
+
+	  <SettingsContentDescription align={'left'}>
+		Select language:
+	  </SettingsContentDescription>
+
+	  <SettingsContentSelectLanguage />
+
+	  <SettingsContentDescription align={'left'}>
+		Select primary color:
+	  </SettingsContentDescription>
+
+	  <SettingsContentDescription align={'left'}>
+		Change username:
+	  </SettingsContentDescription>
+
+	  <SettingsContentDescription align={'left'}>
+		Change email:
+	  </SettingsContentDescription>
+
     </ScrollableList>
   );
 };

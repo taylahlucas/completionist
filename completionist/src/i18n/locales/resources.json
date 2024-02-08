@@ -29,7 +29,32 @@
         "gameSelection": "游戏选择",
         "sendRequest": "发送请求",
         "subscriptions": "订阅",
+        "payments": "支付",
         "settings": "设置"
+      },
+      "subscriptions": {
+        "subscriptionDesc": "通过银牌或金牌订阅，\n",
+        "purchaseSubscription": "购买订阅",
+        "bronze": "青铜",
+        "silver": "银",
+        "gold": "金子",
+        "accessMultipleGames": "访问多个游戏",
+        "noAds": "无广告",
+        "withAds": "有广告",
+        "accessSteam": "访问 Steam 成就",
+        "prerequisiteTracking": "自动先决条件跟踪",
+        "accessPremiumFeatures": "访问高级功能",
+        "accessOneGame": "每月可玩一款游戏",
+        "accessFiveGames": "每月可玩五场游戏",
+        "accessAllGames": "访问所有游戏",
+        "revokedAccess": "撤销对功能的访问权限",
+        "monthly": "每月",
+        "yearly": "每年"
+      },
+      "payments": {
+        "selectPlan": "选择付款计划：",
+        "selectType": "选择付款类型：",
+        "confirm": "确认购买"
       },
       "sendRequest": {
         "subject": "主题",
@@ -49,6 +74,21 @@
         "pleaseRefreshApp": "请刷新应用程序",
         "noEmailExists": "电子邮件不存在",
         "googleSignIn": "谷歌登录出错"
+      },
+      "languages": {
+        "ar": "阿拉伯",
+        "de": "德语",
+        "en": "英语",
+        "es": "西班牙语",
+        "fr": "法语",
+        "hi": "印地语",
+        "id": "印度尼西亚",
+        "it": "意大利语",
+        "ja": "日本人",
+        "pt": "葡萄牙语",
+        "tr": "土耳其",
+        "vi": "越南语",
+        "zh": "中国人"
       }
     },
     "categories": {
@@ -157,7 +197,32 @@
         "gameSelection": "Lựa chọn trò chơi",
         "sendRequest": "Gửi yêu cầu",
         "subscriptions": "Đăng ký",
+        "payments": "Sự chi trả",
         "settings": "Cài đặt"
+      },
+      "subscriptions": {
+        "subscriptionDesc": "Với đăng ký Bạc hoặc Vàng,\n",
+        "purchaseSubscription": "Mua đăng ký",
+        "bronze": "đồng",
+        "silver": "Bạc",
+        "gold": "Vàng",
+        "accessMultipleGames": "Truy cập vào nhiều trò chơi",
+        "noAds": "Không quảng cáo",
+        "withAds": "Có quảng cáo",
+        "accessSteam": "Truy cập thành tích Steam",
+        "prerequisiteTracking": "Theo dõi điều kiện tiên quyết tự động",
+        "accessPremiumFeatures": "Truy cập vào các tính năng cao cấp",
+        "accessOneGame": "Truy cập vào một trò chơi mỗi tháng",
+        "accessFiveGames": "Truy cập vào năm trò chơi mỗi tháng",
+        "accessAllGames": "Truy cập vào tất cả các trò chơi",
+        "revokedAccess": "Đã thu hồi quyền truy cập vào Tính năng",
+        "monthly": "hàng tháng",
+        "yearly": "Hàng năm"
+      },
+      "payments": {
+        "selectPlan": "Chọn gói thanh toán:",
+        "selectType": "Chọn phương thức thanh toán:",
+        "confirm": "Xác nhận mua hàng"
       },
       "sendRequest": {
         "subject": "Chủ thể",
@@ -177,6 +242,21 @@
         "pleaseRefreshApp": "Vui lòng làm mới ứng dụng",
         "noEmailExists": "Email không tồn tại",
         "googleSignIn": "Lỗi đăng nhập google"
+      },
+      "languages": {
+        "ar": "tiếng Ả Rập",
+        "de": "tiếng Đức",
+        "en": "Tiếng Anh",
+        "es": "người Tây Ban Nha",
+        "fr": "người Pháp",
+        "hi": "Tiếng Hindi",
+        "id": "tiếng Indonesia",
+        "it": "người Ý",
+        "ja": "tiếng Nhật",
+        "pt": "tiếng Bồ Đào Nha",
+        "tr": "tiếng Thổ Nhĩ Kỳ",
+        "vi": "Tiếng Việt",
+        "zh": "người Trung Quốc"
       }
     },
     "categories": {
@@ -285,7 +365,32 @@
         "gameSelection": "Oyun Seçimi",
         "sendRequest": "İstek gönder",
         "subscriptions": "Abonelikler",
+        "payments": "Ödeme",
         "settings": "Ayarlar"
+      },
+      "subscriptions": {
+        "subscriptionDesc": "Silver veya Gold abonelikle,\n",
+        "purchaseSubscription": "Abonelik Satın Al",
+        "bronze": "Bronz",
+        "silver": "Gümüş",
+        "gold": "Altın",
+        "accessMultipleGames": "Birden fazla oyuna erişim",
+        "noAds": "Reklamsız",
+        "withAds": "Reklamlı",
+        "accessSteam": "Steam başarımlarına erişin",
+        "prerequisiteTracking": "Otomatik önkoşul takibi",
+        "accessPremiumFeatures": "Premium Özelliklere Erişim",
+        "accessOneGame": "Ayda bir oyuna erişim",
+        "accessFiveGames": "Ayda beş oyuna erişim",
+        "accessAllGames": "Tüm oyunlara erişim",
+        "revokedAccess": "Özelliklere erişimin iptal edilmesi",
+        "monthly": "Aylık",
+        "yearly": "Yıllık"
+      },
+      "payments": {
+        "selectPlan": "Ödeme planını seçin:",
+        "selectType": "Ödeme türünü seçin:",
+        "confirm": "Satın Alma İşlemini Onayla"
       },
       "sendRequest": {
         "subject": "Ders",
@@ -298,13 +403,28 @@
         "enabledDLC": "DLC'yi Etkinleştir/Devre Dışı Bırak:",
         "showHide": "Göster/Gizle:",
         "completedItems": "Tamamlanan Öğeler",
-        "disabledSections": "Engelli Bölümler"
+        "disabledSections": "Engelli Bölümleri"
       },
       "errors": {
         "error": "Hata",
         "pleaseRefreshApp": "Lütfen uygulamayı yenileyin",
         "noEmailExists": "E-posta mevcut değil",
         "googleSignIn": "Google oturum açma hatası"
+      },
+      "languages": {
+        "ar": "Arapça",
+        "de": "Almanca",
+        "en": "İngilizce",
+        "es": "İspanyol",
+        "fr": "Fransızca",
+        "hi": "Hintçe",
+        "id": "Endonezya dili",
+        "it": "İtalyan",
+        "ja": "Japonca",
+        "pt": "Portekizce",
+        "tr": "Türkçe",
+        "vi": "Vietnam",
+        "zh": "Çince"
       }
     },
     "categories": {
@@ -413,7 +533,32 @@
         "gameSelection": "Seleção de jogos",
         "sendRequest": "Enviar pedido",
         "subscriptions": "Assinaturas",
+        "payments": "Pagamento",
         "settings": "Configurações"
+      },
+      "subscriptions": {
+        "subscriptionDesc": "Com uma assinatura Silver ou Gold,\n",
+        "purchaseSubscription": "Comprar assinatura",
+        "bronze": "Bronze",
+        "silver": "Prata",
+        "gold": "Ouro",
+        "accessMultipleGames": "Acesso a vários jogos",
+        "noAds": "Sem anúncios",
+        "withAds": "Com anúncios",
+        "accessSteam": "Acesse conquistas do Steam",
+        "prerequisiteTracking": "Rastreamento automatizado de pré-requisitos",
+        "accessPremiumFeatures": "Acesso a recursos premium",
+        "accessOneGame": "Acesso a um jogo por mês",
+        "accessFiveGames": "Acesso a cinco jogos por mês",
+        "accessAllGames": "Acesso a todos os jogos",
+        "revokedAccess": "Acesso revogado aos recursos",
+        "monthly": "Por mês",
+        "yearly": "Anual"
+      },
+      "payments": {
+        "selectPlan": "Selecione o plano de pagamento:",
+        "selectType": "Selecione o tipo de pagamento:",
+        "confirm": "Confirmar compra"
       },
       "sendRequest": {
         "subject": "Assunto",
@@ -433,6 +578,21 @@
         "pleaseRefreshApp": "Atualize o aplicativo",
         "noEmailExists": "E-mail não existe",
         "googleSignIn": "Erro ao fazer login no Google"
+      },
+      "languages": {
+        "ar": "árabe",
+        "de": "Alemão",
+        "en": "Inglês",
+        "es": "Espanhol",
+        "fr": "Francês",
+        "hi": "hindi",
+        "id": "indonésio",
+        "it": "italiano",
+        "ja": "japonês",
+        "pt": "Português",
+        "tr": "turco",
+        "vi": "vietnamita",
+        "zh": "chinês"
       }
     },
     "categories": {
@@ -541,7 +701,32 @@
         "gameSelection": "ゲームの選択",
         "sendRequest": "リクエストの送信",
         "subscriptions": "定期購入",
+        "payments": "支払い",
         "settings": "設定"
+      },
+      "subscriptions": {
+        "subscriptionDesc": "シルバーまたはゴールドのサブスクリプションでは、\n",
+        "purchaseSubscription": "サブスクリプションを購入する",
+        "bronze": "ブロンズ",
+        "silver": "銀",
+        "gold": "金",
+        "accessMultipleGames": "複数のゲームへのアクセス",
+        "noAds": "広告なし",
+        "withAds": "広告あり",
+        "accessSteam": "Steam の実績にアクセスする",
+        "prerequisiteTracking": "自動化された前提条件の追跡",
+        "accessPremiumFeatures": "プレミアム機能へのアクセス",
+        "accessOneGame": "毎月 1 つのゲームにアクセスできます",
+        "accessFiveGames": "毎月 5 つのゲームにアクセスできる",
+        "accessAllGames": "すべてのゲームへのアクセス",
+        "revokedAccess": "機能へのアクセスが取り消されました",
+        "monthly": "毎月",
+        "yearly": "毎年"
+      },
+      "payments": {
+        "selectPlan": "支払いプランを選択してください:",
+        "selectType": "支払いタイプを選択してください:",
+        "confirm": "購入を確認します"
       },
       "sendRequest": {
         "subject": "主題",
@@ -561,6 +746,21 @@
         "pleaseRefreshApp": "アプリを更新してください",
         "noEmailExists": "電子メールが存在しません",
         "googleSignIn": "Googleサインインでエラーが発生する"
+      },
+      "languages": {
+        "ar": "アラビア語",
+        "de": "ドイツ人",
+        "en": "英語",
+        "es": "スペイン語",
+        "fr": "フランス語",
+        "hi": "ヒンディー語",
+        "id": "インドネシア語",
+        "it": "イタリアの",
+        "ja": "日本語",
+        "pt": "ポルトガル語",
+        "tr": "トルコ語",
+        "vi": "ベトナム語",
+        "zh": "中国語"
       }
     },
     "categories": {
@@ -669,7 +869,32 @@
         "gameSelection": "Selezione del gioco",
         "sendRequest": "Invia richiesta",
         "subscriptions": "Abbonamenti",
+        "payments": "Pagamento",
         "settings": "Impostazioni"
+      },
+      "subscriptions": {
+        "subscriptionDesc": "Con un abbonamento Silver o Gold,\n",
+        "purchaseSubscription": "Acquista abbonamento",
+        "bronze": "Bronzo",
+        "silver": "Argento",
+        "gold": "Oro",
+        "accessMultipleGames": "Accesso a più giochi",
+        "noAds": "Nessuna pubblicità",
+        "withAds": "Con annunci",
+        "accessSteam": "Accedi agli obiettivi di Steam",
+        "prerequisiteTracking": "Monitoraggio automatizzato dei prerequisiti",
+        "accessPremiumFeatures": "Accesso alle funzionalità premium",
+        "accessOneGame": "Accesso a un gioco al mese",
+        "accessFiveGames": "Accesso a cinque giochi al mese",
+        "accessAllGames": "Accesso a tutti i giochi",
+        "revokedAccess": "Accesso revocato alle funzionalità",
+        "monthly": "Mensile",
+        "yearly": "Annuale"
+      },
+      "payments": {
+        "selectPlan": "Seleziona il piano di pagamento:",
+        "selectType": "Seleziona il tipo di pagamento:",
+        "confirm": "Confermare l'acquisto"
       },
       "sendRequest": {
         "subject": "Soggetto",
@@ -689,6 +914,21 @@
         "pleaseRefreshApp": "Aggiorna l'app",
         "noEmailExists": "L'e-mail non esiste",
         "googleSignIn": "Errore con l'accesso a Google"
+      },
+      "languages": {
+        "ar": "Arabo",
+        "de": "Tedesco",
+        "en": "Inglese",
+        "es": "spagnolo",
+        "fr": "francese",
+        "hi": "hindi",
+        "id": "indonesiano",
+        "it": "Italiano",
+        "ja": "giapponese",
+        "pt": "portoghese",
+        "tr": "Turco",
+        "vi": "vietnamita",
+        "zh": "Cinese"
       }
     },
     "categories": {
@@ -769,7 +1009,7 @@
   },
   "id": {
     "common": {
-      "appTitle": "Kompletionis.",
+      "appTitle": "Penyelesaian.",
       "welcome": "Selamat datang",
       "search": "Cari item...",
       "showMore": "Menampilkan lebih banyak",
@@ -797,7 +1037,32 @@
         "gameSelection": "Pemilihan Permainan",
         "sendRequest": "Kirim Permintaan",
         "subscriptions": "Langganan",
+        "payments": "Pembayaran",
         "settings": "Pengaturan"
+      },
+      "subscriptions": {
+        "subscriptionDesc": "Dengan langganan Perak atau Emas,\n",
+        "purchaseSubscription": "Langganan Pembelian",
+        "bronze": "Perunggu",
+        "silver": "Perak",
+        "gold": "Emas",
+        "accessMultipleGames": "Akses ke banyak permainan",
+        "noAds": "Tanpa iklan",
+        "withAds": "Dengan Iklan",
+        "accessSteam": "Akses pencapaian uap",
+        "prerequisiteTracking": "Pelacakan prasyarat otomatis",
+        "accessPremiumFeatures": "Akses ke Fitur Premium",
+        "accessOneGame": "Akses ke satu game per bulan",
+        "accessFiveGames": "Akses ke lima game per bulan",
+        "accessAllGames": "Akses ke semua game",
+        "revokedAccess": "Mencabut akses ke Fitur",
+        "monthly": "Bulanan",
+        "yearly": "Tahunan"
+      },
+      "payments": {
+        "selectPlan": "Pilih paket pembayaran:",
+        "selectType": "Pilih jenis pembayaran:",
+        "confirm": "Konfirmasi pembelian"
       },
       "sendRequest": {
         "subject": "Subjek",
@@ -817,6 +1082,21 @@
         "pleaseRefreshApp": "Harap segarkan aplikasi",
         "noEmailExists": "Emailnya tidak ada",
         "googleSignIn": "Kesalahan saat masuk Google"
+      },
+      "languages": {
+        "ar": "Arab",
+        "de": "Jerman",
+        "en": "Bahasa inggris",
+        "es": "Orang Spanyol",
+        "fr": "Perancis",
+        "hi": "Hindi",
+        "id": "bahasa Indonesia",
+        "it": "Italia",
+        "ja": "Jepang",
+        "pt": "Portugis",
+        "tr": "Turki",
+        "vi": "Orang Vietnam",
+        "zh": "Cina"
       }
     },
     "categories": {
@@ -925,7 +1205,32 @@
         "gameSelection": "खेल चयन",
         "sendRequest": "अनुरोध भेजा",
         "subscriptions": "सदस्यता",
+        "payments": "भुगतान",
         "settings": "समायोजन"
+      },
+      "subscriptions": {
+        "subscriptionDesc": "चांदी या सोने की सदस्यता के साथ,\n",
+        "purchaseSubscription": "सदस्यता खरीदें",
+        "bronze": "पीतल",
+        "silver": "चाँदी",
+        "gold": "सोना",
+        "accessMultipleGames": "अनेक खेलों तक पहुंच",
+        "noAds": "विज्ञापन नहीं",
+        "withAds": "विज्ञापनों के साथ",
+        "accessSteam": "भाप उपलब्धियों तक पहुंचें",
+        "prerequisiteTracking": "स्वचालित पूर्वावश्यकता ट्रैकिंग",
+        "accessPremiumFeatures": "प्रीमियम सुविधाओं तक पहुंच",
+        "accessOneGame": "प्रति माह एक गेम तक पहुंच",
+        "accessFiveGames": "प्रति माह पांच खेलों तक पहुंच",
+        "accessAllGames": "सभी खेलों तक पहुंच",
+        "revokedAccess": "सुविधाओं तक पहुंच रद्द कर दी गई",
+        "monthly": "महीने के",
+        "yearly": "सालाना"
+      },
+      "payments": {
+        "selectPlan": "भुगतान योजना चुनें:",
+        "selectType": "भुगतान प्रकार चुनें:",
+        "confirm": "खरीदी की पुष्टि करें"
       },
       "sendRequest": {
         "subject": "विषय",
@@ -945,6 +1250,21 @@
         "pleaseRefreshApp": "कृपया ऐप को रीफ्रेश करें",
         "noEmailExists": "ईमेल मौजूद नहीं है",
         "googleSignIn": "गूगल साइन इन में त्रुटि"
+      },
+      "languages": {
+        "ar": "अरबी",
+        "de": "जर्मन",
+        "en": "अंग्रेज़ी",
+        "es": "स्पैनिश",
+        "fr": "फ़्रेंच",
+        "hi": "हिंदी",
+        "id": "इन्डोनेशियाई",
+        "it": "इतालवी",
+        "ja": "जापानी",
+        "pt": "पुर्तगाली",
+        "tr": "तुर्की",
+        "vi": "वियतनामी",
+        "zh": "चीनी"
       }
     },
     "categories": {
@@ -1053,7 +1373,32 @@
         "gameSelection": "Sélection de jeux",
         "sendRequest": "Envoyer une demande",
         "subscriptions": "Abonnements",
+        "payments": "Paiement",
         "settings": "Paramètres"
+      },
+      "subscriptions": {
+        "subscriptionDesc": "Avec un abonnement Silver ou Gold,\n",
+        "purchaseSubscription": "Acheter un abonnement",
+        "bronze": "Bronze",
+        "silver": "Argent",
+        "gold": "Or",
+        "accessMultipleGames": "Accès à plusieurs jeux",
+        "noAds": "Pas de pubs",
+        "withAds": "Avec des publicités",
+        "accessSteam": "Accéder aux succès Steam",
+        "prerequisiteTracking": "Suivi automatisé des prérequis",
+        "accessPremiumFeatures": "Accès aux fonctionnalités premium",
+        "accessOneGame": "Accès à un jeu par mois",
+        "accessFiveGames": "Accès à cinq jeux par mois",
+        "accessAllGames": "Accès à tous les jeux",
+        "revokedAccess": "Accès révoqué aux fonctionnalités",
+        "monthly": "Mensuel",
+        "yearly": "Annuel"
+      },
+      "payments": {
+        "selectPlan": "Sélectionnez le plan de paiement :",
+        "selectType": "Sélectionnez le type de paiement :",
+        "confirm": "Confirmer l'achat"
       },
       "sendRequest": {
         "subject": "Sujet",
@@ -1073,6 +1418,21 @@
         "pleaseRefreshApp": "Veuillez actualiser l'application",
         "noEmailExists": "L'e-mail n'existe pas",
         "googleSignIn": "Erreur avec la connexion Google"
+      },
+      "languages": {
+        "ar": "arabe",
+        "de": "Allemand",
+        "en": "Anglais",
+        "es": "Espagnol",
+        "fr": "Français",
+        "hi": "hindi",
+        "id": "indonésien",
+        "it": "italien",
+        "ja": "Japonais",
+        "pt": "Portugais",
+        "tr": "turc",
+        "vi": "vietnamien",
+        "zh": "Chinois"
       }
     },
     "categories": {
@@ -1181,11 +1541,36 @@
         "gameSelection": "Selección de juego",
         "sendRequest": "Enviar petición",
         "subscriptions": "Suscripciones",
+        "payments": "Pago",
         "settings": "Ajustes"
+      },
+      "subscriptions": {
+        "subscriptionDesc": "Con una suscripción Silver u Gold,\n",
+        "purchaseSubscription": "Comprar suscripción",
+        "bronze": "Bronce",
+        "silver": "Plata",
+        "gold": "Oro",
+        "accessMultipleGames": "Acceso a múltiples juegos.",
+        "noAds": "Sin anuncios",
+        "withAds": "Con anuncios",
+        "accessSteam": "Accede a los logros de Steam.",
+        "prerequisiteTracking": "Seguimiento automatizado de requisitos previos",
+        "accessPremiumFeatures": "Acceso a funciones premium",
+        "accessOneGame": "Acceso a un juego por mes",
+        "accessFiveGames": "Acceso a cinco juegos por mes",
+        "accessAllGames": "Acceso a todos los juegos.",
+        "revokedAccess": "Acceso revocado a funciones",
+        "monthly": "Mensual",
+        "yearly": "Anual"
+      },
+      "payments": {
+        "selectPlan": "Seleccione plan de pago:",
+        "selectType": "Seleccione tipo de pago:",
+        "confirm": "Confirmar compra"
       },
       "sendRequest": {
         "subject": "Sujeto",
-        "writeRequest": "Escriba su solicitud aquí...",
+        "writeRequest": "Escribe tu solicitud aquí...",
         "requestGameDesc": "¡No dudes en solicitar un juego, informar un error o hacer algunas sugerencias para mejorar la aplicación!"
       },
       "settings": {
@@ -1201,6 +1586,21 @@
         "pleaseRefreshApp": "Por favor actualiza la aplicación",
         "noEmailExists": "El correo electrónico no existe.",
         "googleSignIn": "Error al iniciar sesión en Google"
+      },
+      "languages": {
+        "ar": "Arábica",
+        "de": "Alemán",
+        "en": "Inglés",
+        "es": "Español",
+        "fr": "Francés",
+        "hi": "hindi",
+        "id": "indonesio",
+        "it": "italiano",
+        "ja": "japonés",
+        "pt": "portugués",
+        "tr": "turco",
+        "vi": "vietnamita",
+        "zh": "Chino"
       }
     },
     "categories": {
@@ -1309,7 +1709,32 @@
         "gameSelection": "Game Selection",
         "sendRequest": "Send Request",
         "subscriptions": "Subscriptions",
+        "payments": "Payment",
         "settings": "Settings"
+      },
+      "subscriptions": {
+        "subscriptionDesc": "With a Silver or Gold subscription,\nyou will gain access to Premium Features such as:",
+        "purchaseSubscription": "Purchase Subscription",
+        "bronze": "Bronze",
+        "silver": "Silver",
+        "gold": "Gold",
+        "accessMultipleGames": "Access to multiple games",
+        "noAds": "No Ads",
+        "withAds": "With Ads",
+        "accessSteam": "Access steam achievements",
+        "prerequisiteTracking": "Automated prerequisite tracking",
+        "accessPremiumFeatures": "Access to Premium Features",
+        "accessOneGame": "Access to one game per month",
+        "accessFiveGames": "Access to five games per month",
+        "accessAllGames": "Access to all games",
+        "revokedAccess": "Revoked access to Features",
+        "monthly": "Monthly",
+        "yearly": "Yearly"
+      },
+      "payments": {
+        "selectPlan": "Select payment plan:",
+        "selectType": "Select payment type:",
+        "confirm": "Confirm Purchase"
       },
       "sendRequest": {
         "subject": "Subject",
@@ -1329,6 +1754,21 @@
         "pleaseRefreshApp": "Please refresh the app",
         "noEmailExists": "Email does not exist",
         "googleSignIn": "Error with google sign in"
+      },
+      "languages": {
+        "ar": "Arabic",
+        "de": "German",
+        "en": "English",
+        "es": "Spanish",
+        "fr": "French",
+        "hi": "Hindi",
+        "id": "Indonesian",
+        "it": "Italian",
+        "ja": "Japanese",
+        "pt": "Portuguese",
+        "tr": "Turkish",
+        "vi": "Vietnamese",
+        "zh": "Chinese"
       }
     },
     "categories": {
@@ -1439,7 +1879,32 @@
         "gameSelection": "Spielauswahl",
         "sendRequest": "Anfrage senden",
         "subscriptions": "Abonnements",
+        "payments": "Zahlung",
         "settings": "Einstellungen"
+      },
+      "subscriptions": {
+        "subscriptionDesc": "Mit einem Silber- oder Gold-Abonnement,\n",
+        "purchaseSubscription": "Abonnement kaufen",
+        "bronze": "Bronze",
+        "silver": "Silber",
+        "gold": "Gold",
+        "accessMultipleGames": "Zugriff auf mehrere Spiele",
+        "noAds": "Keine Werbung",
+        "withAds": "Mit Werbung",
+        "accessSteam": "Greifen Sie auf Steam-Erfolge zu",
+        "prerequisiteTracking": "Automatisierte Voraussetzungsverfolgung",
+        "accessPremiumFeatures": "Zugriff auf Premium-Funktionen",
+        "accessOneGame": "Zugriff auf ein Spiel pro Monat",
+        "accessFiveGames": "Zugriff auf fünf Spiele pro Monat",
+        "accessAllGames": "Zugriff auf alle Spiele",
+        "revokedAccess": "Zugriff auf Funktionen widerrufen",
+        "monthly": "Monatlich",
+        "yearly": "Jährlich"
+      },
+      "payments": {
+        "selectPlan": "Zahlungsplan auswählen:",
+        "selectType": "Wähle eine Zahlmethode aus:",
+        "confirm": "Bestätige den Kauf"
       },
       "sendRequest": {
         "subject": "Thema",
@@ -1452,13 +1917,28 @@
         "enabledDLC": "DLC aktivieren/deaktivieren:",
         "showHide": "Anzeigen Ausblenden:",
         "completedItems": "Abgeschlossene Artikel",
-        "disabledSections": "Behindertenbereiche"
+        "disabledSections": "Behindertengerechte Abschnitte"
       },
       "errors": {
         "error": "Fehler",
         "pleaseRefreshApp": "Bitte aktualisieren Sie die App",
         "noEmailExists": "Email existiert nicht",
         "googleSignIn": "Fehler bei der Google-Anmeldung"
+      },
+      "languages": {
+        "ar": "Arabisch",
+        "de": "Deutsch",
+        "en": "Englisch",
+        "es": "Spanisch",
+        "fr": "Französisch",
+        "hi": "Hindi",
+        "id": "Indonesisch",
+        "it": "Italienisch",
+        "ja": "japanisch",
+        "pt": "Portugiesisch",
+        "tr": "Türkisch",
+        "vi": "Vietnamesisch",
+        "zh": "Chinesisch"
       }
     },
     "categories": {
@@ -1567,7 +2047,32 @@
         "gameSelection": "اختيار اللعبة",
         "sendRequest": "ارسل طلب",
         "subscriptions": "الاشتراكات",
+        "payments": "قسط",
         "settings": "إعدادات"
+      },
+      "subscriptions": {
+        "subscriptionDesc": "مع الاشتراك الفضي أو الذهبي\n",
+        "purchaseSubscription": "شراء الاشتراك",
+        "bronze": "برونزية",
+        "silver": "فضة",
+        "gold": "ذهب",
+        "accessMultipleGames": "الوصول إلى ألعاب متعددة",
+        "noAds": "لا اعلانات",
+        "withAds": "مع الإعلانات",
+        "accessSteam": "الوصول إلى إنجازات البخار",
+        "prerequisiteTracking": "التتبع الآلي للمتطلبات الأساسية",
+        "accessPremiumFeatures": "الوصول إلى الميزات المميزة",
+        "accessOneGame": "إمكانية الوصول إلى لعبة واحدة شهريًا",
+        "accessFiveGames": "الوصول إلى خمس مباريات شهريا",
+        "accessAllGames": "الوصول إلى جميع الألعاب",
+        "revokedAccess": "تم إبطال الوصول إلى الميزات",
+        "monthly": "شهريا",
+        "yearly": "سنوي"
+      },
+      "payments": {
+        "selectPlan": "اختر خطة الدفع:",
+        "selectType": "اختر طريقة الدفع:",
+        "confirm": "تأكيد الشراء"
       },
       "sendRequest": {
         "subject": "موضوع",
@@ -1587,6 +2092,21 @@
         "pleaseRefreshApp": "يرجى تحديث التطبيق",
         "noEmailExists": "البريد الإلكتروني غير موجود",
         "googleSignIn": "حدث خطأ أثناء تسجيل الدخول إلى Google"
+      },
+      "languages": {
+        "ar": "عربي",
+        "de": "ألمانية",
+        "en": "إنجليزي",
+        "es": "الأسبانية",
+        "fr": "فرنسي",
+        "hi": "الهندية",
+        "id": "الاندونيسية",
+        "it": "ايطالي",
+        "ja": "اليابانية",
+        "pt": "البرتغالية",
+        "tr": "اللغة التركية",
+        "vi": "الفيتنامية",
+        "zh": "صينى"
       }
     },
     "categories": {

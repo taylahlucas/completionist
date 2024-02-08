@@ -19,7 +19,7 @@ const Dropdown = ({ header, children, isOpen, setOpen, enabled = true }: Dropdow
   }
 
   return (
-    <View style={{ minWidth: LARGE_WIDTH, marginTop: 4, marginBottom: 4 }}>
+    <View style={{ minWidth: LARGE_WIDTH, marginTop: 4, marginBottom: 4, zIndex: 2 }}>
       <DropdownPressable 
         enabled={enabled}
         disabled={!enabled}

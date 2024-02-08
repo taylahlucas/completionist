@@ -1,11 +1,11 @@
 import { useState } from 'react';
-import { ScrollView } from 'react-native';
+import { ScrollView, ScrollViewProps } from 'react-native';
 import { listStyles, ListShowMoreButton } from './ListStyledComponents.native';
 import { renderAmountConst } from '@utils/constants'
 import Condition from '../Condition.native';
 import { useTranslation } from 'react-i18next';
 
-interface CustomListProps {
+interface CustomListProps extends ScrollViewProps {
   children: JSX.Element[];
   style?: any;
   contentContainerStyle?: any;
@@ -13,8 +13,16 @@ interface CustomListProps {
   renderAmount?: number;
 };
 
-const ScrollableList = ({ children, style, contentContainerStyle, isHorizontal = false, renderAmount = renderAmountConst }: CustomListProps) => {
+const ScrollableList = ({ 
+	children, 
+	style, 
+	contentContainerStyle,
+	isHorizontal = false, 
+	renderAmount = renderAmountConst,
+	...props
+}: CustomListProps) => {
   const { t } = useTranslation();
+  const { bounces } = props;
   const [updatedRenderAmount, setUpdatedRenderAmount] = useState(renderAmount);
   
   return (
@@ -22,6 +30,7 @@ const ScrollableList = ({ children, style, contentContainerStyle, isHorizontal =
       contentContainerStyle={{...listStyles.scrollableContent, ...contentContainerStyle}}
       style={{...listStyles.scrollableList, ...style}}
       horizontal={isHorizontal}
+	  bounces={bounces}
     >
       <Condition 
         condition={children.length > updatedRenderAmount}

@@ -1,11 +1,12 @@
-import { Dimensions, StyleSheet } from 'react-native';
+import { Dimensions } from 'react-native';
 import styled from 'styled-components/native';
 import { DEFAULT_BORDER_RADIUS } from '@styles/global.native';
 import IconButton from '../Icon/IconButton.native';
 import StyledText from '../Text/StyledText.native';
+import ScrollableList from '../Lists/ScrollableList.native';
 
 interface DropdownSelectionContainerProps {
-  color: string;
+	color: string;
 }
 
 export const DropdownSelectionContainer = styled.Pressable<DropdownSelectionContainerProps>`
@@ -38,18 +39,16 @@ export const DropdownSelectionIconButton = styled(IconButton)`
   right: 16px;
 `;
 
-export const DropdownSelectionContentContainer = styled.View`
-  max-height: 200px;
-  position: absolute;
-  align-self: center;
-  align-items: center;
-  top: 42px;
-  overflow: scroll;
+export const DropdownSelectionContentContainer = styled(ScrollableList)`
+	max-height: 130px;
+	position: absolute;
+	top: 42px;
+	padding-top: 0px;
 `;
 
 interface DropdownSelectionContentItemProps {
-  color: string;
-  last?: boolean;
+	color: string;
+	last?: boolean;
 }
 
 export const DropdownSelectionContentItem = styled.Pressable<DropdownSelectionContentItemProps>`
@@ -63,7 +62,7 @@ export const DropdownSelectionContentItem = styled.Pressable<DropdownSelectionCo
 `;
 
 interface DropdownPressableProps {
-  enabled: boolean;
+	enabled: boolean;
 }
 
 export const DropdownPressable = styled.Pressable<DropdownPressableProps>`

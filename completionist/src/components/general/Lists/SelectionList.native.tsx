@@ -3,9 +3,10 @@ import StyledText from '../Text/StyledText.native';
 import { SelectionListContainer, SelectionListItemContainer } from './ListStyledComponents.native';
 import CheckBox from '../Checkbox/CheckBox.native';
 import useGetTheme from '@styles/hooks/useGetTheme';
+import { SettingsListItem } from '@utils/CustomInterfaces';
 
 interface SelectionListProps {
-  data: SettingsListItemOption[];
+  data: SettingsListItem[];
   onPress: (title: string) => void;
 }
 

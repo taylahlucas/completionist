@@ -27,7 +27,32 @@
     "gameSelection": "Spielauswahl",
     "sendRequest": "Anfrage senden",
     "subscriptions": "Abonnements",
+    "payments": "Zahlung",
     "settings": "Einstellungen"
+  },
+  "subscriptions": {
+    "subscriptionDesc": "Mit einem Silber- oder Gold-Abonnement,\n",
+    "purchaseSubscription": "Abonnement kaufen",
+    "bronze": "Bronze",
+    "silver": "Silber",
+    "gold": "Gold",
+    "accessMultipleGames": "Zugriff auf mehrere Spiele",
+    "noAds": "Keine Werbung",
+    "withAds": "Mit Werbung",
+    "accessSteam": "Greifen Sie auf Steam-Erfolge zu",
+    "prerequisiteTracking": "Automatisierte Voraussetzungsverfolgung",
+    "accessPremiumFeatures": "Zugriff auf Premium-Funktionen",
+    "accessOneGame": "Zugriff auf ein Spiel pro Monat",
+    "accessFiveGames": "Zugriff auf fünf Spiele pro Monat",
+    "accessAllGames": "Zugriff auf alle Spiele",
+    "revokedAccess": "Zugriff auf Funktionen widerrufen",
+    "monthly": "Monatlich",
+    "yearly": "Jährlich"
+  },
+  "payments": {
+    "selectPlan": "Zahlungsplan auswählen:",
+    "selectType": "Wähle eine Zahlmethode aus:",
+    "confirm": "Bestätige den Kauf"
   },
   "sendRequest": {
     "subject": "Thema",
@@ -40,12 +65,27 @@
     "enabledDLC": "DLC aktivieren/deaktivieren:",
     "showHide": "Anzeigen Ausblenden:",
     "completedItems": "Abgeschlossene Artikel",
-    "disabledSections": "Behindertenbereiche"
+    "disabledSections": "Behindertengerechte Abschnitte"
   },
   "errors": {
     "error": "Fehler",
     "pleaseRefreshApp": "Bitte aktualisieren Sie die App",
     "noEmailExists": "Email existiert nicht",
     "googleSignIn": "Fehler bei der Google-Anmeldung"
+  },
+  "languages": {
+    "ar": "Arabisch",
+    "de": "Deutsch",
+    "en": "Englisch",
+    "es": "Spanisch",
+    "fr": "Französisch",
+    "hi": "Hindi",
+    "id": "Indonesisch",
+    "it": "Italienisch",
+    "ja": "japanisch",
+    "pt": "Portugiesisch",
+    "tr": "Türkisch",
+    "vi": "Vietnamesisch",
+    "zh": "Chinesisch"
   }
 }

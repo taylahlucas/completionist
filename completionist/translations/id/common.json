@@ -1,5 +1,5 @@
 {
-  "appTitle": "Kompletionis.",
+  "appTitle": "Penyelesaian.",
   "welcome": "Selamat datang",
   "search": "Cari item...",
   "showMore": "Menampilkan lebih banyak",
@@ -27,7 +27,32 @@
     "gameSelection": "Pemilihan Permainan",
     "sendRequest": "Kirim Permintaan",
     "subscriptions": "Langganan",
+    "payments": "Pembayaran",
     "settings": "Pengaturan"
+  },
+  "subscriptions": {
+    "subscriptionDesc": "Dengan langganan Perak atau Emas,\n",
+    "purchaseSubscription": "Langganan Pembelian",
+    "bronze": "Perunggu",
+    "silver": "Perak",
+    "gold": "Emas",
+    "accessMultipleGames": "Akses ke banyak permainan",
+    "noAds": "Tanpa iklan",
+    "withAds": "Dengan Iklan",
+    "accessSteam": "Akses pencapaian uap",
+    "prerequisiteTracking": "Pelacakan prasyarat otomatis",
+    "accessPremiumFeatures": "Akses ke Fitur Premium",
+    "accessOneGame": "Akses ke satu game per bulan",
+    "accessFiveGames": "Akses ke lima game per bulan",
+    "accessAllGames": "Akses ke semua game",
+    "revokedAccess": "Mencabut akses ke Fitur",
+    "monthly": "Bulanan",
+    "yearly": "Tahunan"
+  },
+  "payments": {
+    "selectPlan": "Pilih paket pembayaran:",
+    "selectType": "Pilih jenis pembayaran:",
+    "confirm": "Konfirmasi pembelian"
   },
   "sendRequest": {
     "subject": "Subjek",
@@ -47,5 +72,20 @@
     "pleaseRefreshApp": "Harap segarkan aplikasi",
     "noEmailExists": "Emailnya tidak ada",
     "googleSignIn": "Kesalahan saat masuk Google"
+  },
+  "languages": {
+    "ar": "Arab",
+    "de": "Jerman",
+    "en": "Bahasa inggris",
+    "es": "Orang Spanyol",
+    "fr": "Perancis",
+    "hi": "Hindi",
+    "id": "bahasa Indonesia",
+    "it": "Italia",
+    "ja": "Jepang",
+    "pt": "Portugis",
+    "tr": "Turki",
+    "vi": "Orang Vietnam",
+    "zh": "Cina"
   }
 }

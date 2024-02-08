@@ -1,3 +1,5 @@
+import { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import SelectableItem from '@components/general/SelectableItem/SelectableItem';
 import StyledText from '@components/general/Text/StyledText.native';
 import useSubscriptionState from '../SubscriptionContent/hooks/useContentState';
@@ -5,13 +7,13 @@ import useGetTheme from '@styles/hooks/useGetTheme';
 import SubscriptionOptionDescription from '../SubscriptionContent/SubscriptionOptionDescription.native';
 import PriceItem from '@components/general/PriceItem/PriceItem.native';
 import { PaymentPriceItem, PaymentPricesContainer, PaymentPlanSubtitle } from './PaymentsContentStyledComponents.native';
-import { useState } from 'react';
 import { ScreenEnum } from '@utils/CustomEnums';
 import Button from '@components/general/Button/Button.native';
 import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
 import ScrollableList from '@components/general/Lists/ScrollableList.native';
 
 const PaymentsContent = () => {
+	const { t } = useTranslation();
 	const theme = useGetTheme();
 	const navigation = useReactNavigation();
 	const { selectedSubscription } = useSubscriptionState();
@@ -30,12 +32,13 @@ const PaymentsContent = () => {
 			</SelectableItem>
 
 			<PaymentPlanSubtitle align={'left'} color={theme.midGrey}>
-				Select payment plan:
+				{t('common:payments:selectPlan')}
 			</PaymentPlanSubtitle>
 
 			<PaymentPricesContainer>
-				{selectedSubscription.prices.map((item) => (
+				{selectedSubscription.prices.map((item, index) => (
 					<SelectableItem
+						key={index}
 						item={selectedSubscription} 
 						isSelected={item.type === selectedPrice.type}
 						onPress={(): void => setSelectedPrice(item)}
@@ -48,14 +51,14 @@ const PaymentsContent = () => {
 			</PaymentPricesContainer>
 
 			<PaymentPlanSubtitle align={'left'} color={theme.midGrey}>
-				Select payment type:
+			{t('common:payments:selectType')}
 			</PaymentPlanSubtitle>
 
 			{/* // TODO: Add paypal and apple pay */}
 
 			<Button
 				style={{ marginTop: 64, alignSelf: 'center' }}
-                title={'Confirm Purchase'}
+                title={t('common:payments.confirm')}
                 onPress={(): void => navigation.navigate(ScreenEnum.GameSelection)}
                 color={theme.primaryPurple}
             />

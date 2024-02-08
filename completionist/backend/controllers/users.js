@@ -20,7 +20,6 @@ const getUserByUserId = async (req, res) => {
 const updateUserData = async (req, res) => {
   try {
     const { userId, subscription, settings, skyrimData, fallout4Data } = req.body;
-	console.log("HERE: ", req.headers)
 
     const result = await User.updateOne({ 
       userId: userId,

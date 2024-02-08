@@ -27,7 +27,32 @@
     "gameSelection": "اختيار اللعبة",
     "sendRequest": "ارسل طلب",
     "subscriptions": "الاشتراكات",
+    "payments": "قسط",
     "settings": "إعدادات"
+  },
+  "subscriptions": {
+    "subscriptionDesc": "مع الاشتراك الفضي أو الذهبي\n",
+    "purchaseSubscription": "شراء الاشتراك",
+    "bronze": "برونزية",
+    "silver": "فضة",
+    "gold": "ذهب",
+    "accessMultipleGames": "الوصول إلى ألعاب متعددة",
+    "noAds": "لا اعلانات",
+    "withAds": "مع الإعلانات",
+    "accessSteam": "الوصول إلى إنجازات البخار",
+    "prerequisiteTracking": "التتبع الآلي للمتطلبات الأساسية",
+    "accessPremiumFeatures": "الوصول إلى الميزات المميزة",
+    "accessOneGame": "إمكانية الوصول إلى لعبة واحدة شهريًا",
+    "accessFiveGames": "الوصول إلى خمس مباريات شهريا",
+    "accessAllGames": "الوصول إلى جميع الألعاب",
+    "revokedAccess": "تم إبطال الوصول إلى الميزات",
+    "monthly": "شهريا",
+    "yearly": "سنوي"
+  },
+  "payments": {
+    "selectPlan": "اختر خطة الدفع:",
+    "selectType": "اختر طريقة الدفع:",
+    "confirm": "تأكيد الشراء"
   },
   "sendRequest": {
     "subject": "موضوع",
@@ -47,5 +72,20 @@
     "pleaseRefreshApp": "يرجى تحديث التطبيق",
     "noEmailExists": "البريد الإلكتروني غير موجود",
     "googleSignIn": "حدث خطأ أثناء تسجيل الدخول إلى Google"
+  },
+  "languages": {
+    "ar": "عربي",
+    "de": "ألمانية",
+    "en": "إنجليزي",
+    "es": "الأسبانية",
+    "fr": "فرنسي",
+    "hi": "الهندية",
+    "id": "الاندونيسية",
+    "it": "ايطالي",
+    "ja": "اليابانية",
+    "pt": "البرتغالية",
+    "tr": "اللغة التركية",
+    "vi": "الفيتنامية",
+    "zh": "صينى"
   }
 }

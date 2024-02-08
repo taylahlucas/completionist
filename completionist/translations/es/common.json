@@ -27,11 +27,36 @@
     "gameSelection": "Selección de juego",
     "sendRequest": "Enviar petición",
     "subscriptions": "Suscripciones",
+    "payments": "Pago",
     "settings": "Ajustes"
+  },
+  "subscriptions": {
+    "subscriptionDesc": "Con una suscripción Silver u Gold,\n",
+    "purchaseSubscription": "Comprar suscripción",
+    "bronze": "Bronce",
+    "silver": "Plata",
+    "gold": "Oro",
+    "accessMultipleGames": "Acceso a múltiples juegos.",
+    "noAds": "Sin anuncios",
+    "withAds": "Con anuncios",
+    "accessSteam": "Accede a los logros de Steam.",
+    "prerequisiteTracking": "Seguimiento automatizado de requisitos previos",
+    "accessPremiumFeatures": "Acceso a funciones premium",
+    "accessOneGame": "Acceso a un juego por mes",
+    "accessFiveGames": "Acceso a cinco juegos por mes",
+    "accessAllGames": "Acceso a todos los juegos.",
+    "revokedAccess": "Acceso revocado a funciones",
+    "monthly": "Mensual",
+    "yearly": "Anual"
+  },
+  "payments": {
+    "selectPlan": "Seleccione plan de pago:",
+    "selectType": "Seleccione tipo de pago:",
+    "confirm": "Confirmar compra"
   },
   "sendRequest": {
     "subject": "Sujeto",
-    "writeRequest": "Escriba su solicitud aquí...",
+    "writeRequest": "Escribe tu solicitud aquí...",
     "requestGameDesc": "¡No dudes en solicitar un juego, informar un error o hacer algunas sugerencias para mejorar la aplicación!"
   },
   "settings": {
@@ -47,5 +72,20 @@
     "pleaseRefreshApp": "Por favor actualiza la aplicación",
     "noEmailExists": "El correo electrónico no existe.",
     "googleSignIn": "Error al iniciar sesión en Google"
+  },
+  "languages": {
+    "ar": "Arábica",
+    "de": "Alemán",
+    "en": "Inglés",
+    "es": "Español",
+    "fr": "Francés",
+    "hi": "hindi",
+    "id": "indonesio",
+    "it": "italiano",
+    "ja": "japonés",
+    "pt": "portugués",
+    "tr": "turco",
+    "vi": "vietnamita",
+    "zh": "Chino"
   }
 }

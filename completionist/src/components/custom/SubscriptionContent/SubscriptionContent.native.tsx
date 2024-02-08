@@ -1,3 +1,4 @@
+import { useTranslation } from 'react-i18next';
 import ScrollableList from '@components/general/Lists/ScrollableList.native';
 import SubscriptionFeatureList from './SubscriptionFeatureList.native';
 import Button from '@components/general/Button/Button.native';
@@ -11,22 +12,22 @@ import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
 import { ScreenEnum } from '@utils/CustomEnums';
 
 const SubscriptionContent = () => {
+	const { t } = useTranslation();
     const theme = useGetTheme();
 	const navigation = useReactNavigation();
 	const { user } = useMainState();
 	const { selectedSubscription } = useSubscriptionState();
 	
-    // TODO: Add translations
     // TODO: Add more Bold title
     return (
         <ScrollableList contentContainerStyle={styles.scrollContent}>
             <StyledText>
-                {"With a Silver or Gold subscription,\nyou will gain access to Premium Features such as:"}
+				{t('common:subscriptions.subscriptionDesc')}
             </StyledText>
             <SubscriptionFeatureList />
             <SubscriptionPriceList />
             <Button
-                title={'Purchase Subscription'}
+                title={t('common:subscriptions.purchaseSubscription')}
                 onPress={(): void => navigation.navigate(ScreenEnum.Payments)}
 				disabled={selectedSubscription.id === user.subscription.tier}
                 color={theme.primaryPurple}

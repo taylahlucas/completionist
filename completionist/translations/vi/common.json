@@ -27,7 +27,32 @@
     "gameSelection": "Lựa chọn trò chơi",
     "sendRequest": "Gửi yêu cầu",
     "subscriptions": "Đăng ký",
+    "payments": "Sự chi trả",
     "settings": "Cài đặt"
+  },
+  "subscriptions": {
+    "subscriptionDesc": "Với đăng ký Bạc hoặc Vàng,\n",
+    "purchaseSubscription": "Mua đăng ký",
+    "bronze": "đồng",
+    "silver": "Bạc",
+    "gold": "Vàng",
+    "accessMultipleGames": "Truy cập vào nhiều trò chơi",
+    "noAds": "Không quảng cáo",
+    "withAds": "Có quảng cáo",
+    "accessSteam": "Truy cập thành tích Steam",
+    "prerequisiteTracking": "Theo dõi điều kiện tiên quyết tự động",
+    "accessPremiumFeatures": "Truy cập vào các tính năng cao cấp",
+    "accessOneGame": "Truy cập vào một trò chơi mỗi tháng",
+    "accessFiveGames": "Truy cập vào năm trò chơi mỗi tháng",
+    "accessAllGames": "Truy cập vào tất cả các trò chơi",
+    "revokedAccess": "Đã thu hồi quyền truy cập vào Tính năng",
+    "monthly": "hàng tháng",
+    "yearly": "Hàng năm"
+  },
+  "payments": {
+    "selectPlan": "Chọn gói thanh toán:",
+    "selectType": "Chọn phương thức thanh toán:",
+    "confirm": "Xác nhận mua hàng"
   },
   "sendRequest": {
     "subject": "Chủ thể",
@@ -47,5 +72,20 @@
     "pleaseRefreshApp": "Vui lòng làm mới ứng dụng",
     "noEmailExists": "Email không tồn tại",
     "googleSignIn": "Lỗi đăng nhập google"
+  },
+  "languages": {
+    "ar": "tiếng Ả Rập",
+    "de": "tiếng Đức",
+    "en": "Tiếng Anh",
+    "es": "người Tây Ban Nha",
+    "fr": "người Pháp",
+    "hi": "Tiếng Hindi",
+    "id": "tiếng Indonesia",
+    "it": "người Ý",
+    "ja": "tiếng Nhật",
+    "pt": "tiếng Bồ Đào Nha",
+    "tr": "tiếng Thổ Nhĩ Kỳ",
+    "vi": "Tiếng Việt",
+    "zh": "người Trung Quốc"
   }
 }

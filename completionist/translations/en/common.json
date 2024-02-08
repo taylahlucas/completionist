@@ -27,6 +27,7 @@
     "gameSelection": "Game Selection",
     "sendRequest": "Send Request",
     "subscriptions": "Subscriptions",
+	"payments": "Payment",
     "settings": "Settings"
   },
   "subscriptions": {
@@ -48,6 +49,11 @@
     "monthly": "Monthly",
     "yearly": "Yearly"
   },
+  "payments": {
+	"selectPlan": "Select payment plan:",
+	"selectType": "Select payment type:",
+	"confirm": "Confirm Purchase"
+  },
   "sendRequest": {
     "subject": "Subject",
     "writeRequest": "Write your request here...",
@@ -66,5 +72,20 @@
     "pleaseRefreshApp": "Please refresh the app",
     "noEmailExists": "Email does not exist",
     "googleSignIn": "Error with google sign in"
+  },
+  "languages": {
+	"ar": "Arabic",
+	"de": "German",
+	"en": "English",
+	"es": "Spanish",
+	"fr": "French",
+	"hi": "Hindi",
+	"id": "Indonesian",
+	"it": "Italian",
+	"ja": "Japanese",
+	"pt": "Portuguese",
+	"tr": "Turkish",
+	"vi": "Vietnamese",
+	"zh": "Chinese"
   }
 }

@@ -27,7 +27,32 @@
     "gameSelection": "Sélection de jeux",
     "sendRequest": "Envoyer une demande",
     "subscriptions": "Abonnements",
+    "payments": "Paiement",
     "settings": "Paramètres"
+  },
+  "subscriptions": {
+    "subscriptionDesc": "Avec un abonnement Silver ou Gold,\n",
+    "purchaseSubscription": "Acheter un abonnement",
+    "bronze": "Bronze",
+    "silver": "Argent",
+    "gold": "Or",
+    "accessMultipleGames": "Accès à plusieurs jeux",
+    "noAds": "Pas de pubs",
+    "withAds": "Avec des publicités",
+    "accessSteam": "Accéder aux succès Steam",
+    "prerequisiteTracking": "Suivi automatisé des prérequis",
+    "accessPremiumFeatures": "Accès aux fonctionnalités premium",
+    "accessOneGame": "Accès à un jeu par mois",
+    "accessFiveGames": "Accès à cinq jeux par mois",
+    "accessAllGames": "Accès à tous les jeux",
+    "revokedAccess": "Accès révoqué aux fonctionnalités",
+    "monthly": "Mensuel",
+    "yearly": "Annuel"
+  },
+  "payments": {
+    "selectPlan": "Sélectionnez le plan de paiement :",
+    "selectType": "Sélectionnez le type de paiement :",
+    "confirm": "Confirmer l'achat"
   },
   "sendRequest": {
     "subject": "Sujet",
@@ -47,5 +72,20 @@
     "pleaseRefreshApp": "Veuillez actualiser l'application",
     "noEmailExists": "L'e-mail n'existe pas",
     "googleSignIn": "Erreur avec la connexion Google"
+  },
+  "languages": {
+    "ar": "arabe",
+    "de": "Allemand",
+    "en": "Anglais",
+    "es": "Espagnol",
+    "fr": "Français",
+    "hi": "hindi",
+    "id": "indonésien",
+    "it": "italien",
+    "ja": "Japonais",
+    "pt": "Portugais",
+    "tr": "turc",
+    "vi": "vietnamien",
+    "zh": "Chinois"
   }
 }
