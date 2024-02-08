@@ -3,17 +3,17 @@ import {
   setSelectedSubscription
 } from '../SubscriptionState';
 import { useAppDispatch } from '@redux/store';
-import { SubscriptionTypeEnum } from '@utils/CustomEnums';
+import { SubscriptionOptionsListProps } from './useGetSubscriptionOptionsList';
 
 interface SubscriptionDispatch {
-  setSelectedSubscription: (type: SubscriptionTypeEnum) => void;
+  setSelectedSubscription: (type: SubscriptionOptionsListProps) => void;
 }
 
 const useSubscriptionDispatch = (): SubscriptionDispatch => {
   const dispatch: Dispatch = useAppDispatch();
 
   return {
-    setSelectedSubscription(type: SubscriptionTypeEnum): void {
+    setSelectedSubscription(type: SubscriptionOptionsListProps): void {
       dispatch(setSelectedSubscription(type));
     }
   }

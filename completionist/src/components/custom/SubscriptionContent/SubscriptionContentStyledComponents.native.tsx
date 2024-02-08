@@ -1,10 +1,10 @@
 import { StyleSheet } from 'react-native';
 import styled from 'styled-components/native';
 import StyledText from '@components/general/Text/StyledText.native';
-import { DEFAULT_BORDER_RADIUS, STANDARD_WIDTH } from '@styles/global.native';
+import { STANDARD_WIDTH } from '@styles/global.native';
 
 interface PriceProps {
-    borderColor: string;
+    color: string;
 }
 
 export const styles = StyleSheet.create({
@@ -38,13 +38,6 @@ export const SubscriptionOptionsContainer = styled.View`
     margin-bottom: 16px;
 `;
 
-export const SubscriptionOptionsItemContainer = styled.Pressable<PriceProps>`
-    border-width: 6px;
-    border-color: ${props => props.borderColor};
-    border-radius: ${DEFAULT_BORDER_RADIUS}px;
-    margin-bottom: 8px;
-`;
-
 export const SubscriptionOptionDescriptionContainer = styled.View`
     padding-right: 16px;
     padding-left: 16px;
@@ -59,8 +52,4 @@ export const SubscriptionPriceContainer = styled.View`
     flex-direction: row;
     justify-content: space-evenly;
     padding-bottom: 16px;
-`;
-
-export const SubscriptionPriceItemContainer = styled.View`
-    flex-direction: column;
 `;

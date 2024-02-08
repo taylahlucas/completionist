@@ -20,6 +20,7 @@ import useGetTheme from '@styles/hooks/useGetTheme';
 import Landing from '@screens/Landing.native';
 import useTranslateGameContent from '@utils/hooks/useTranslateGameContent.native';
 import Subscriptions from '@screens/Subscriptions.native';
+import Payments from '@screens/Payments.native';
 
 const Drawer = createDrawerNavigator<RootDrawerParamList>();
 
@@ -61,6 +62,7 @@ const NavigationDrawer = () => {
       <Drawer.Screen name={ScreenEnum.Locations} component={Locations} />
       <Drawer.Screen name={ScreenEnum.RequestGame} component={RequestGame} />
       <Drawer.Screen name={ScreenEnum.Subscriptions} component={Subscriptions} />
+	  <Drawer.Screen name={ScreenEnum.Payments} component={Payments} />
       <Drawer.Screen name={ScreenEnum.Settings} component={Settings} />
     </Drawer.Navigator>
   );

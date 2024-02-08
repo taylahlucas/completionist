@@ -1,7 +1,7 @@
 import { DatePeriodEnum, SubscriptionTypeEnum } from '@utils/CustomEnums';
 import { PriceProps } from '@utils/CustomInterfaces';
 
-interface SubscriptionOptionsListProps {
+export interface SubscriptionOptionsListProps {
     id: SubscriptionTypeEnum;
     prices: PriceProps[];
     title: string;

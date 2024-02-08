@@ -1,10 +1,12 @@
-import useGetSubscriptionOptionsList from './hooks/useGetSubscriptionOptionsList';
+import { useEffect } from 'react';
+import useGetSubscriptionOptionsList, { SubscriptionOptionsListProps } from './hooks/useGetSubscriptionOptionsList';
 import StyledText from '@components/general/Text/StyledText.native';
-import { SubscriptionOptionsContainer, SubscriptionOptionsItemContainer } from './SubscriptionContentStyledComponents.native';
+import { SubscriptionOptionsContainer } from './SubscriptionContentStyledComponents.native';
 import SubscriptionOptionDescription from './SubscriptionOptionDescription.native';
 import SubscriptionPriceList from './SubscriptionPriceList.native';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import useSubscriptionState from './hooks/useContentState';
+import SubscriptionSelectableItem from '../../general/SelectableItem/SelectableItem';
 import useSubscriptionDispatch from './hooks/useContentDispatch';
 
 const SubscriptionOptionsList = () => {
@@ -13,13 +15,18 @@ const SubscriptionOptionsList = () => {
 	const { setSelectedSubscription } = useSubscriptionDispatch();
 	const { selectedSubscription } = useSubscriptionState();
 
+	useEffect(() => {
+		setSelectedSubscription(optionsList[0]);
+	}, [])
+
 	return (
 		<SubscriptionOptionsContainer>
-			{optionsList.map(item => (
-				<SubscriptionOptionsItemContainer
+			{optionsList.map((item: SubscriptionOptionsListProps) => (
+				<SubscriptionSelectableItem
 					key={item.id}
-					borderColor={selectedSubscription === item.id ? theme.primaryPurple : theme.darkGrey}
-					onPress={(): void => setSelectedSubscription(item.id)}
+					item={item}
+					isSelected={selectedSubscription.id === item.id}
+					onPress={(): void => setSelectedSubscription(item)}
 				>
 					<StyledText
 						type={'Heading'}
@@ -27,10 +34,9 @@ const SubscriptionOptionsList = () => {
 					>
 						{item.title}
 					</StyledText>
-
 					<SubscriptionPriceList items={item.prices} />
 					<SubscriptionOptionDescription items={item.description} />
-				</SubscriptionOptionsItemContainer>
+				</SubscriptionSelectableItem>
 			))}
 		</SubscriptionOptionsContainer>
 	)

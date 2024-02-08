@@ -18,6 +18,7 @@ const useGetLeftNavigationItem = (leftAction: NavigationHeaderLeftActionTypes): 
 
   switch (leftAction) {
     case 'back':
+		// TODO: Fix back action, not going to correct screen
       return (
         <IconButton
           style={styles.iconButton}

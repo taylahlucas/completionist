@@ -73,6 +73,7 @@ export type RootDrawerParamList = {
   Locations: undefined;
   RequestGame: undefined;
   Subscriptions: undefined;
+  Payments: undefined;
   Settings: undefined;
 };
 

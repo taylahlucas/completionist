@@ -10,6 +10,7 @@ export enum ScreenEnum {
   Locations = 'Locations',
   RequestGame = 'RequestGame',
   Subscriptions = 'Subscriptions',
+  Payments = 'Payments',
   Settings = 'Settings'
 }
 

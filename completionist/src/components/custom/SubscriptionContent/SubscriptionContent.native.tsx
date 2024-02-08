@@ -5,11 +5,19 @@ import useGetTheme from '@styles/hooks/useGetTheme';
 import SubscriptionPriceList from './SubscriptionOptionsList.native';
 import StyledText from '@components/general/Text/StyledText.native';
 import { styles } from './SubscriptionContentStyledComponents.native';
-
+import { useEffect } from 'react';
+import useSubscriptionDispatch from './hooks/useContentDispatch';
+import useMainState from '@redux/hooks/useMainState';
+import useSubscriptionState from './hooks/useContentState';
+import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
+import { ScreenEnum } from '@utils/CustomEnums';
 
 const SubscriptionContent = () => {
     const theme = useGetTheme();
-
+	const navigation = useReactNavigation();
+	const { user } = useMainState();
+	const { selectedSubscription } = useSubscriptionState();
+	
     // TODO: Add translations
     // TODO: Add more Bold title
     return (
@@ -21,7 +29,8 @@ const SubscriptionContent = () => {
             <SubscriptionPriceList />
             <Button
                 title={'Purchase Subscription'}
-                onPress={(): void => {}}
+                onPress={(): void => navigation.navigate(ScreenEnum.Payments)}
+				disabled={selectedSubscription.id === user.subscription.tier}
                 color={theme.primaryPurple}
             />
         </ScrollableList>
