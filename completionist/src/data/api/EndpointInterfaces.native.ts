@@ -32,6 +32,6 @@ export interface EndpointsReturnType {
 	signIn: ({ email, password }: SignInProps) => Promise<UserResponse>;
 	signUp: ({ data }: CreateUserProps) => Promise<UserResponse>;
 	getUserByUserId: ({ userId }: GetUserByUserIdProps) => Promise<UserResponse>;
-	updateUserData: ({ userId, subscription, settings, skyrimData, fallout4Data }: UpdateUserDataProps) => Promise<void>;
-	sendEmail: ({ from, subject, text }: EmailProps) => Promise<void>;
+	updateUserData: ({ userId, subscription, settings, skyrimData, fallout4Data }: UpdateUserDataProps) => Promise<UserResponse>;
+	sendEmail: ({ from, subject, text }: EmailProps) => Promise<UserResponse>;
 }

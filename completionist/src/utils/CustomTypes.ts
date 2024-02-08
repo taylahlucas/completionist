@@ -58,6 +58,6 @@ export type NavigationHeaderRightActionTypes = 'logout' | 'filter' | 'none';
 
 // Responses
 
-export type UserResponse = User | null;
-export type CredentialsResponse = UserCredentials | null;
+export type UserResponse = User | void;
 export type AxiosErrorResponse = AxiosError | any;
+export type CredentialsResponse = UserCredentials | null;

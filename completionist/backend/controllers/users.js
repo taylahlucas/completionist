@@ -9,7 +9,7 @@ const getUserByUserId = async (req, res) => {
     if (user) {
       return res.status(request_codes.SUCCESS).json(user);
     } else {
-      return res.status(404).json({ error: 'User not found' });
+      return res.status(605).json({ error: 'User not found' });
     }
   } catch (error) {
     console.error('Logging Error retrieving user:', error.message);
@@ -20,6 +20,7 @@ const getUserByUserId = async (req, res) => {
 const updateUserData = async (req, res) => {
   try {
     const { userId, subscription, settings, skyrimData, fallout4Data } = req.body;
+	console.log("HERE: ", req.headers)
 
     const result = await User.updateOne({ 
       userId: userId,

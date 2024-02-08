@@ -9,7 +9,7 @@ import Landing from './Landing.native';
 import usePlaySplashScreen from '@utils/hooks/usePlaySplashScreen.native';
 import useLoginState from '@components/custom/LoginForm/hooks/useLoginState';
 import i18n from 'src/i18n/i18n.native';
-import useTimedDataUpdate from '@data/hooks/useTimedDataUpdate.native';
+import useTimedDataUpdate from '@data/api/hooks/useTimedDataUpdate.native';
 
 const RootStackNavigator = () => {
   const { isLoggedIn } = useLoginState();

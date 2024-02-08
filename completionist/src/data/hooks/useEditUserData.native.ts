@@ -1,13 +1,13 @@
 import useReactNavigation, { DrawerActions } from '@navigation/hooks/useReactNavigation.native';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
 import { User } from '@utils/CustomInterfaces';
-import useCache from './useCache.native';
+import useCache from '../api/hooks/useCache.native';
 import useKeychain from './useKeychain.native';
 import { ScreenEnum } from '@utils/CustomEnums';
 import { initialFormData } from '@components/custom/LoginForm/LoginState';
 import { CredentialsResponse } from '@utils/CustomTypes';
 import useLoginDispatch from '@components/custom/LoginForm/hooks/useLoginDispatch';
-import useEndpoints from './useEndpoints.native';
+import useEndpoints from '../api/hooks/useEndpoints.native';
 
 interface EditUserDataReturnType {
 	loadUserData: () => void;

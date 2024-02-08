@@ -4,7 +4,7 @@ import { CACHE_EXPIRY_TIME, CACHE_KEY } from '@utils/constants';
 import { CachedData, User } from '@utils/CustomInterfaces';
 import { UserResponse } from '@utils/CustomTypes';
 import useEndpoints from './useEndpoints.native';
-import useKeychain from './useKeychain.native';
+import useKeychain from '../../hooks/useKeychain.native';
 
 interface CacheReturnType {
   getFromCache: () => Promise<any | null>;
@@ -73,11 +73,11 @@ const useCache = (): CacheReturnType => {
         clearCache();
         deleteCredentials();
         setLoggedIn(false);
-        return null;
+        return;
       }
     } catch (error) {
       console.error('Error fetching data: ', error);
-      return null;
+      return;
     }
   };
 

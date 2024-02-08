@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { RequestGameContainer } from './RequestGameContentStyledComponents.native';
 import StyledText from '@components/general/Text/StyledText.native';
-import useEndpoints from '@data/hooks/useEndpoints.native';
+import useEndpoints from '@data/api/hooks/useEndpoints.native';
 import useMainState from '@redux/hooks/useMainState';
 import Button from '@components/general/Button/Button.native';
 import TextInput from '@components/general/TextInput/TextInput.native';
