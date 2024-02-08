@@ -1,6 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit';
 import { ScreenEnum, GameKeyEnum, SubscriptionTypeEnum } from '@utils/CustomEnums';
-import { GeneralData, SettingsConfigItem, User } from '@utils/CustomInterfaces';
+import { GeneralData, User } from '@utils/CustomInterfaces';
 import { AppStateStatus } from 'react-native';
 import { initialFormData } from '@components/custom/LoginForm/LoginState';
 

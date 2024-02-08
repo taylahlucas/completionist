@@ -1,6 +1,6 @@
 import { GoogleSignin } from '@react-native-google-signin/google-signin';
 import auth from '@react-native-firebase/auth';
-import useSaveUserData from '@data/hooks/useSaveUserData.native';
+import useSaveUserData from '@data/hooks/useEditUserData.native';
 import useEndpoints from '@data/hooks/useEndpoints';
 import { AxiosErrorResponse } from '@utils/CustomTypes';
 import useLoginState from './useLoginState';
