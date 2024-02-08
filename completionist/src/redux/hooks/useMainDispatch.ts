@@ -9,6 +9,7 @@ import {
   setSelectedGameSettings,
   setWebSignInConfigured,
   setUser,
+  setShouldUpdateUser,
   setSearchValue, 
   setCompletedQuests,
   setCompletedCollectables,
@@ -27,6 +28,7 @@ interface MainDispatch {
   setSelectedGameSettings: (value: GameKeyEnum) => void;
   setWebSignInConfigured: (value: boolean) => void;
   setUser: (value: User) => void;
+  setShouldUpdateUser: (value: boolean) => void;
   setSearchValue: (value: string) => void;
   setCompletedQuests: (value: Item[]) => void;
   setCompletedCollectables: (value: Item[]) => void;
@@ -60,10 +62,12 @@ const useMainDispatch = (): MainDispatch => {
     setUser(value: User): void {
       dispatch(setUser(value));
     },
+	setShouldUpdateUser(value: boolean): void {
+		dispatch(setShouldUpdateUser(value));
+	},
     setSearchValue(value: string): void {
       dispatch(setSearchValue(value));
     },
-
     setCompletedQuests(value: Item[]): void {
       dispatch(setCompletedQuests(value));
     },
