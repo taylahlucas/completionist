@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import useEndpoints from './useEndpoints';
+import useEndpoints from './useEndpoints.native';
 import useMainState from '@redux/hooks/useMainState';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
 import useLoginState from '@components/custom/LoginForm/hooks/useLoginState';

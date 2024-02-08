@@ -1,72 +1,47 @@
 import { Alert, Platform } from 'react-native';
 import uuid from 'react-native-uuid';
 import axios from 'axios';
-import { GeneralData, User, LoginFormData, Subscription, SettingsOptionItem, UserSettings } from '@utils/CustomInterfaces';
+import { User } from '@utils/CustomInterfaces';
 import { AxiosErrorResponse, UserResponse } from '@utils/CustomTypes';
 import { signupUrl, signinUrl, getUserByUserIdUrl, updateUserDataUrl, sendEmailUrl } from '../urls';
 import { requestCodes } from '@utils/constants';
 import useKeychain from './useKeychain.native';
-
-interface CreateUserProps {
-	data: LoginFormData;
-}
-
-interface SignInProps {
-	email: string;
-	password: string;
-}
-
-interface GetUserByUserIdProps {
-	userId: string;
-}
-
-interface UpdateUserDataProps {
-	userId: string;
-	subscription: Subscription;
-	settings: UserSettings;
-	skyrimData: GeneralData;
-	fallout4Data: GeneralData;
-}
-
-interface EmailProps {
-	from: string;
-	subject: string;
-	text: string;
-}
-
-interface EndpointsReturnType {
-	signIn: ({ email, password }: SignInProps) => Promise<UserResponse>;
-	signUp: ({ data }: CreateUserProps) => Promise<UserResponse>;
-	getUserByUserId: ({ userId }: GetUserByUserIdProps) => Promise<UserResponse>;
-	updateUserData: ({ userId, subscription, settings, skyrimData, fallout4Data }: UpdateUserDataProps) => Promise<void>;
-	sendEmail: ({ from, subject, text }: EmailProps) => Promise<void>;
-}
+import useSetAuthHeaders from './useSetAuthHeaders.native';
+import { 
+	CreateUserProps,
+	SignInProps,
+	GetUserByUserIdProps,
+	UpdateUserDataProps,
+	EmailProps,
+	EndpointsReturnType 
+} from '@data/EndpointInterfaces.native';
 
 const useEndpoints = (): EndpointsReturnType => {
 	const url = Platform.OS === 'ios' ? process.env.IOS_LOCAL_URL : process.env.ANDROID_LOCAL_URL;
 	const { getCredentials, storeCredentials } = useKeychain();
+	const { setAuthHeaders } = useSetAuthHeaders();
 
+	// TODO: Refactor to use AuthenticatedUser
 	const signIn = async ({ email, password }: SignInProps): Promise<UserResponse> => {
 		try {
 			const token = getCredentials();
-			const response = await axios.post(`${url}/${signinUrl}`,
-				{
-					email: email,
-					password: password
-				},
-				{
-					headers: {
-						Authorization: `Bearer ${token}`
-					}
+			if (!!token) {
+				const response = await axios.post(`${url}/${signinUrl}`,
+					{
+						email: email,
+						password: password
+					},
+					setAuthHeaders(token)
+				)
+				if (!!response.data.user.userId && !!response.data.token) {
+					storeCredentials({
+						username: response.data.user.userId,
+						password: response.data.token
+					});
+					return response.data.user as User;
 				}
-			)
-			if (!!response.data.user.userId && !!response.data.token) {
-				storeCredentials({
-					username: response.data.user.userId,
-					password: response.data.token
-				});
-				return response.data.user as User;
 			}
+			console.log("Could not get token")
 			return null;
 		}
 		catch (error: AxiosErrorResponse) {
@@ -119,14 +94,11 @@ const useEndpoints = (): EndpointsReturnType => {
 			if (!!token) {
 				const response = await axios.get(
 					`${url}/${getUserByUserIdUrl}/${userId}`,
-					{
-						headers: {
-							Authorization: `Bearer ${token}`
-						}
-					}
+					setAuthHeaders(token)
 				);
 				return response.data as User;
 			}
+			console.log("Could not get token")
 			return null;
 		}
 		catch (error: AxiosErrorResponse) {
@@ -143,22 +115,21 @@ const useEndpoints = (): EndpointsReturnType => {
 	const updateUserData = async ({ userId, subscription, settings, skyrimData, fallout4Data }: UpdateUserDataProps): Promise<void> => {
 		try {
 			const token = getCredentials();
-			await axios.post(
-				`${url}/${updateUserDataUrl}`,
-				{
-					userId: userId,
-					subscription: subscription,
-					settings: settings,
-					// TODO: Change this
-					skyrimData: skyrimData,
-					fallout4Data: fallout4Data
-				},
-				{
-					headers: {
-						Authorization: `Bearer ${token}`
-					}
-				}
-			)
+			if (!!token) {
+				await axios.post(
+					`${url}/${updateUserDataUrl}`,
+					{
+						userId: userId,
+						subscription: subscription,
+						settings: settings,
+						// TODO: Change this
+						skyrimData: skyrimData,
+						fallout4Data: fallout4Data
+					},
+					setAuthHeaders(token)
+				)
+			}
+			console.log("Could not get token");
 		}
 		catch (error: AxiosErrorResponse) {
 			Alert.alert('Something went wrong.', error.message);
@@ -168,19 +139,18 @@ const useEndpoints = (): EndpointsReturnType => {
 	const sendEmail = async ({ from, subject, text }: EmailProps): Promise<void> => {
 		try {
 			const token = getCredentials();
-			await axios.post(
-				`${url}/${sendEmailUrl}`,
-				{
-					from: from,
-					subject: subject,
-					text: text
-				},
-				{
-					headers: {
-						Authorization: `Bearer ${token}`
-					}
-				}
-			)
+			if (!!token) {
+				await axios.post(
+					`${url}/${sendEmailUrl}`,
+					{
+						from: from,
+						subject: subject,
+						text: text
+					},
+					setAuthHeaders(token)
+				)
+			}
+			console.log("Could not get token");
 		}
 		catch (error: AxiosErrorResponse) {
 			Alert.alert('Something went wrong.', error.message);

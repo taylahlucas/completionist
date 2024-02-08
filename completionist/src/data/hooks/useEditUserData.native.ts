@@ -7,7 +7,7 @@ import { ScreenEnum } from '@utils/CustomEnums';
 import { initialFormData } from '@components/custom/LoginForm/LoginState';
 import { CredentialsResponse } from '@utils/CustomTypes';
 import useLoginDispatch from '@components/custom/LoginForm/hooks/useLoginDispatch';
-import useEndpoints from './useEndpoints';
+import useEndpoints from './useEndpoints.native';
 
 interface EditUserDataReturnType {
 	loadUserData: () => void;

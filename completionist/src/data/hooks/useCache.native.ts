@@ -3,7 +3,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import { CACHE_EXPIRY_TIME, CACHE_KEY } from '@utils/constants';
 import { CachedData, User } from '@utils/CustomInterfaces';
 import { UserResponse } from '@utils/CustomTypes';
-import useEndpoints from './useEndpoints';
+import useEndpoints from './useEndpoints.native';
 import useKeychain from './useKeychain.native';
 
 interface CacheReturnType {
