@@ -36,6 +36,7 @@ const GameListSectionDropdown = ({ testID, title, data }: GameListSectionDropdow
         {data.map((game, index) => (
           <GameListItem
             key={index}
+						testID={game.id}
             title={translateGameName(game.id)}
             enabled={game.isActive}
             imageUrl={getGameImage(game.id)}

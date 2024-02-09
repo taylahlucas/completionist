@@ -53,7 +53,8 @@ jest.mock('@react-navigation/native', () => {
       getCurrentPageName: jest.fn(),
       setOptions: jest.fn()
     }),
-    useNavigationState: (): any => jest.fn()
+    useNavigationState: (): any => jest.fn(),
+		useFocusEffect: jest.fn()
   };
 });
 jest.mock('react-native-localize', () => reactNativeLocalizeMock);

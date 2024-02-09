@@ -1,30 +1,3 @@
-// module.exports = {
-//   preset: 'react-native',
-//   testEnvironment: 'node',
-//   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
-	// moduleNameMapper: {
-	// 	'^@components/(.*)$': '<rootDir>/src/components/$1',
-	// 	'^@data/(.*)$': '<rootDir>/src/data/$1',
-	// 	'^@navigation/(.*)$': '<rootDir>/src/navigation/$1',
-	// 	'^@redux/(.*)$': '<rootDir>/src/redux/$1',
-	// 	'^@screens/(.*)$': '<rootDir>/src/screens/$1',
-	// 	'^@styles/(.*)$': '<rootDir>/src/styles/$1',
-	// 	'^@utils/(.*)$': '<rootDir>/src/utils/$1',
-	// },
-//   transform: {
-//     "^.+\\.js$": "babel-jest",
-// 		'\\.(ts|tsx)$': 'ts-jest'
-//   },  
-// 	setupFiles: ['<rootDir>/src/utils/test-helper/setupReactAdapter.native.tsx'],
-// 	testPathIgnorePatterns: ['node_modules'],
-//   setupFilesAfterEnv: ['@testing-library/jest-native/extend-expect'],
-// 	testEnvironment: 'jest-environment-node',
-	// transformIgnorePatterns: [
-	// 	'/node_modules/(?!(@react-native|react-native)/).*/',
-  //   'node_modules/(?!(jest-)?@react-native|react-native|@react-native-community|@react-navigation/.*)'
-  // ],
-// };
-
 import { defaults as tsjPreset } from 'ts-jest/presets'
 import type { JestConfigWithTsJest } from 'ts-jest'
 
@@ -42,8 +15,8 @@ const jestConfig: JestConfigWithTsJest = {
     ],
   },
 	setupFiles: ['<rootDir>/src/utils/test-helper/setupReactAdapter.native.tsx'],
-	setupFilesAfterEnv: ['<rootDir>/src/utils/test-helper/setupTests.js'],
-  moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json'],
+	setupFilesAfterEnv: ['@testing-library/jest-native/extend-expect'],
+  moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
 	moduleNameMapper: {
 		'^@components/(.*)$': '<rootDir>/src/components/$1',
 		'^@data/(.*)$': '<rootDir>/src/data/$1',
@@ -59,8 +32,7 @@ const jestConfig: JestConfigWithTsJest = {
     window: {}
   },
 	transformIgnorePatterns: [
-		'/node_modules/(?!(@react-native|react-native)/).*/',
-    'node_modules/(?!(jest-)?@react-native|react-native|@react-native-community|@react-navigation/.*)'
+    'node_modules/(?!(jest-)?@react-native|react-native|react-native-vector-icons|@react-native-community|@react-navigation/.*)',
   ]
 }
 

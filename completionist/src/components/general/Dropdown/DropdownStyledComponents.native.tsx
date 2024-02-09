@@ -61,7 +61,7 @@ export const DropdownSelectionContentItem = styled.Pressable<DropdownSelectionCo
 `;
 
 export const DropdownContainer = styled.View`
-	min-width: ${LARGE_WIDTH};
+	min-width: ${LARGE_WIDTH}px;
 	margin-top: 4px; 
 	margin-bottom: 4px; 
 	z-index: 2;
