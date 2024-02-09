@@ -3,11 +3,12 @@ import Dropdown from '@components/general/Dropdown/Dropdown.native';
 import useGetContents from './hooks/useGetContent';
 import ListItem from '@components/general/Lists/ListItem.native';
 import useCheckContentComplete from './hooks/useCheckContentComplete';
-import { listStyles, ListItemScrollView } from '@components/general/Lists/ListStyledComponents.native';
+import { listStyles } from '@components/general/Lists/ListStyledComponents.native';
 import useContentDispatch from './hooks/useContentDispatch';
 import useContentState from './hooks/useContentState';
 import SubTypeListHeader from '@components/general/Lists/SubTypeListHeader.native';
 import useUpdateContent from './hooks/useUpdateContent';
+import ScrollableList from '@components/general/Lists/ScrollableList.native';
 
 export interface ContentSubTypeDropdownProps {
   subCategory: string;
@@ -35,7 +36,7 @@ const ContentSubTypeDropdown = ({ subCategory, type, completed, total }: Content
         <SubTypeListHeader title={type} completed={completed} total={total} />
       }
     >
-      <ListItemScrollView contentContainerStyle={listStyles.listItemList}>
+      <ScrollableList style={{ maxHeight: 300 }} contentContainerStyle={listStyles.listItemList}>
         {items?.map((item, index) => (
           <ListItem
             key={index}
@@ -47,7 +48,7 @@ const ContentSubTypeDropdown = ({ subCategory, type, completed, total }: Content
             action={((): void => updateContentComplete(item.id))}
           />
         ))}
-      </ListItemScrollView>
+      </ScrollableList>
     </Dropdown>
   );
 };

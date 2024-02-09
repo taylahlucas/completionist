@@ -1,3 +1,4 @@
+import React from 'react';
 import { Text, TextProps } from 'react-native';
 import { FontType, AlignmentType } from '@styles/Font/FontType';
 import defaultStyle from '@styles/Font/FontStyle';

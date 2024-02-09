@@ -12,11 +12,12 @@ import useTranslateGameContent from '@utils/hooks/useTranslateGameContent.native
 import useContentDispatch from '../ContentList/hooks/useContentDispatch';
 
 interface GameListSectionDropdown {
+	testID?: string;
   title: string;
   data: SubscriptionData[];
 }
 
-const GameListSectionDropdown = ({ title, data }: GameListSectionDropdown) => {
+const GameListSectionDropdown = ({ testID, title, data }: GameListSectionDropdown) => {
   const navigation = useReactNavigation();
   const { setSelectedGame, setSelectedGameSettings, reset } = useMainDispatch();
   const { reset: contentReset } = useContentDispatch();
@@ -26,6 +27,7 @@ const GameListSectionDropdown = ({ title, data }: GameListSectionDropdown) => {
 
   return (
     <Dropdown
+			testID={testID}
       header={<GameListSectionHeader isOpen={isOpen} title={title} />}
       isOpen={isOpen}
       setOpen={() => setIsOpen(!isOpen)}

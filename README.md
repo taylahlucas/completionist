@@ -66,6 +66,19 @@ npx react-native run-ios --port 8002
 - @types/lodash
 - moment
 
+- @testing-library/react-native
+- @testing-library/jest-native
+- jest
+- @types/jest
+- jest-react-native
+- babel-jest
+- react-test-renderer
+- jest-styled-components
+- ts-jest
+- @babel/preset-typescript
+- babel-plugin-styled-components
+- ts-node
+
 ## Backend
 
 - mongoose

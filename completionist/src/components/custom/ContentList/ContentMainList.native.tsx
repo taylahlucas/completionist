@@ -1,10 +1,11 @@
 import React from 'react';
 import ListItem from '@components/general/Lists/ListItem.native';
-import { listStyles, ListItemScrollView } from '@components/general/Lists/ListStyledComponents.native';
+import { listStyles } from '@components/general/Lists/ListStyledComponents.native';
 import useGetContent from './hooks/useGetContent';
 import useUpdateContent from './hooks/useUpdateContent';
 import useCheckContentComplete from './hooks/useCheckContentComplete';
 import { SettingsListItem } from '@utils/CustomInterfaces';
+import ScrollableList from '@components/general/Lists/ScrollableList.native';
 
 export interface ContentMainListProps {
   mainCategory?: SettingsListItem;
@@ -21,7 +22,7 @@ const ContentMainList = ({ mainCategory, subCategory, isSubCategory = false }: C
   const { checkContentComplete } = useCheckContentComplete();
 
   return (
-    <ListItemScrollView contentContainerStyle={listStyles.listItemList}>
+    <ScrollableList style={{ maxHeight: 300 }} contentContainerStyle={listStyles.listItemList}>
       {items?.map((item, index) => (
         <ListItem
           id={item.id}
@@ -31,7 +32,7 @@ const ContentMainList = ({ mainCategory, subCategory, isSubCategory = false }: C
           action={(): void => updateContentComplete(item.id)}
         />
       ))}
-    </ListItemScrollView>
+    </ScrollableList>
   );
 };
 

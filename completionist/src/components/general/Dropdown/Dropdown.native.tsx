@@ -1,10 +1,10 @@
 import React from 'react';
-import { View, LayoutAnimation } from 'react-native';
-import { LARGE_WIDTH } from '@styles/global.native';
+import { LayoutAnimation } from 'react-native';
 import Condition from '../Condition.native';
-import { DropdownPressable } from './DropdownStyledComponents.native';
+import { DropdownPressable, DropdownContainer } from './DropdownStyledComponents.native';
 
 interface DropdownProps {
+	testID?: string;
   header: any;
   children: any;
   isOpen: boolean;
@@ -12,14 +12,14 @@ interface DropdownProps {
   enabled?: boolean;
 }
 
-const Dropdown = ({ header, children, isOpen, setOpen, enabled = true }: DropdownProps) => {
+const Dropdown = ({ testID, header, children, isOpen, setOpen, enabled = true }: DropdownProps) => {
   const toggleOpen = () => {
     setOpen(!isOpen);
     LayoutAnimation.configureNext(LayoutAnimation.Presets.easeInEaseOut);
   }
 
   return (
-    <View style={{ minWidth: LARGE_WIDTH, marginTop: 4, marginBottom: 4, zIndex: 2 }}>
+    <DropdownContainer testID={testID}>
       <DropdownPressable 
         enabled={enabled}
         disabled={!enabled}
@@ -30,7 +30,7 @@ const Dropdown = ({ header, children, isOpen, setOpen, enabled = true }: Dropdow
       <Condition condition={isOpen}>
         {children}
       </Condition>
-    </View>
+    </DropdownContainer>
   );
 };
 

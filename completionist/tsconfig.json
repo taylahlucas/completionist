@@ -1,7 +1,10 @@
 {
   "extends": "@tsconfig/react-native/tsconfig.json",
   "compilerOptions": {
-    "jsx": "react-native",
+		"module": "commonjs",
+		"target": "es6",
+    "jsx": "react",
+		"allowSyntheticDefaultImports": true,
     "resolveJsonModule": true,
     "esModuleInterop": true,
     "moduleSuffixes": [".android", ".ios", ""],
@@ -16,5 +19,6 @@
       "@styles/*": ["src/styles/*"],
       "@utils/*": ["src/utils/*"]
     }
-  }
+  },
+	// "exclude": ["node_modules", "metro.config.js", "*.spec.*"]
 }

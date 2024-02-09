@@ -4,7 +4,7 @@ import StyledText from '@components/general/Text/StyledText.native';
 import { DEFAULT_BORDER_RADIUS } from '@styles/global.native';
 import ScrollableList from './ScrollableList.native';
 import Button from '../Button/Button.native';
-import { LARGE_WIDTH, STANDARD_WIDTH } from '@styles/global.native';
+import { LARGE_WIDTH } from '@styles/global.native';
 
 export const listStyles = StyleSheet.create({
   scrollableContent: {
@@ -54,10 +54,6 @@ export const SubListHeaderTitle = styled(StyledText)`
   margin-right: 64px;
 `;
 
-export const ListItemScrollView = styled(ScrollableList)`
-  max-height: 300px;
-`;
-
 export const SubListContainer = styled.View`
   margin-top: 8px;
 `;
@@ -86,11 +82,6 @@ export const ListItemTitle = styled(StyledText)<ListItemStyleProps>`
   flex-wrap: wrap;
   color: ${props => props.color};
   max-width: 270px;
-`;
-
-export const ListItemScrollableList = styled(ScrollableList)`
-  flex: 1;
-  max-height: 300px;
 `;
 
 export const ListShowMoreButton = styled(Button)`

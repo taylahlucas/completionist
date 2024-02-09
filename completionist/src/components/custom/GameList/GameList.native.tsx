@@ -12,10 +12,12 @@ interface GameListProps {
 const GameList = ({ searchValue }: GameListProps) => {
   const { t } = useTranslation();
   const { user } = useMainState();
+	console.log("HERE-1: ", user)
   
   return (
-    <ScrollableList contentContainerStyle={styles.scrollableContent}>
-      <GameListSectionDropdown 
+    <ScrollableList testID={'active-games'} contentContainerStyle={styles.scrollableContent}>
+      <GameListSectionDropdown
+				testID={'active-games'}
         title={t('common:active')}
         data={user.subscription.data
           .filter(item => item.isActive)
@@ -23,6 +25,7 @@ const GameList = ({ searchValue }: GameListProps) => {
         } 
       />
       <GameListSectionDropdown 
+				testID={'inactive-games'}
         title={t('common:inactive')}
         data={user.subscription.data
           .filter(item => !item.isActive)
