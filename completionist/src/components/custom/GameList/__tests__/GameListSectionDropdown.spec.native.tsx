@@ -14,14 +14,16 @@ describe('GameListSelectionDropdown', () => {
     jest.clearAllMocks();
   })
 
-	// it('renders active games in the active section', () => {
-  //   const initialState = {
-  //     main: {
-  //       ...mainState,
-  //       user: userMock
-  //     } 
-  //   };
-  //   const { queryByTestId } = render(<GameListSectionDropdown {...props} />, { initialState });
-	// 	const test = queryByTestId('active-games')?.findByProps({ propName: 'data' })
-  // });
+	it('renders the correct game list items', () => {
+    const initialState = {
+      main: {
+        ...mainState,
+        user: userMock
+      } 
+    };
+    const { queryByTestId } = render(<GameListSectionDropdown {...props} />, { initialState });
+
+		expect(queryByTestId('skyrim')).toBeTruthy();
+		expect(queryByTestId('fallout4')).toBeTruthy();
+  });
 });

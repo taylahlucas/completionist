@@ -6,7 +6,6 @@ import Condition from '../Condition.native';
 import { useTranslation } from 'react-i18next';
 
 interface CustomListProps extends ScrollViewProps {
-	testID?: string;
   children: JSX.Element[];
   style?: any;
   contentContainerStyle?: any;
@@ -29,7 +28,7 @@ const ScrollableList = ({
   
   return (
     <ScrollView 
-			testID={testID}
+			testID={'scrollable-list'}
       contentContainerStyle={{...listStyles.scrollableContent, ...contentContainerStyle}}
       style={{...listStyles.scrollableList, ...style }}
       horizontal={isHorizontal}
