@@ -9,6 +9,7 @@ const useGetGameImage = () => {
       case GameKeyEnum.FALLOUT_4:
        return require('@styles/images/fallout4.jpg');
       default:
+				// TODO: Change this to 'No image'
         return require('@styles/images/fallout4.jpg');
     }
   };

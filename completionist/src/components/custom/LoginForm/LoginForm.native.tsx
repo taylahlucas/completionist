@@ -15,6 +15,7 @@ const LoginForm = () => {
   return (
     <LoginFormContainer>
       <TextInput
+				testID={'email'}
         placeholder={t('common:auth.email')}
         inputStyle={'text'}
         value={loginFormData.email}
@@ -29,6 +30,7 @@ const LoginForm = () => {
       />
       <LoginFormButtonContainer>
         <TextInput
+					testID={'password'}
           placeholder={t('common:auth.password')}
           inputStyle={'text'}
           secureTextEntry={true}
@@ -46,6 +48,7 @@ const LoginForm = () => {
       <Condition condition={isSigningUp}>
         <LoginFormButtonContainer>
           <TextInput
+						testID={'username'}
             placeholder={t('common:auth.username')}
             inputStyle={'text'}
             value={loginFormData.name}
@@ -62,6 +65,7 @@ const LoginForm = () => {
       </Condition>
       <Condition condition={!isSigningUp}>
         <Button
+					testID={'forgot-password'}
           title={t('common:auth.forgotPassword')}
           type={'text'}
           style={{ alignItems: 'flex-end' }}

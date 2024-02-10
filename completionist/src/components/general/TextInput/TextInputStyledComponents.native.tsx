@@ -38,7 +38,7 @@ export const TextInputSecure = styled(IconButton)`
   padding-vertical: 8px;
 `;
 
-export const TextInputCancel = styled(IconButton)`
+export const TextInputIcon = styled(IconButton)`
   position: absolute;
   right: 16px;
   padding-vertical: 8px;

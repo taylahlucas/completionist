@@ -12,7 +12,7 @@ describe('GameListSelectionDropdown', () => {
 
   afterEach(() => {
     jest.clearAllMocks();
-  })
+  });
 
 	it('renders the correct game list items', () => {
     const initialState = {

@@ -5,7 +5,7 @@ import { userMock } from '@utils/test-helper/mocks';
 describe('useFilterGameList', () => {
 	afterEach(() => {
     jest.clearAllMocks();
-  })
+  });
 
 	it('returns the correct data for active games', () => {
 		const { result } = renderHook(() => useFilterGameList());

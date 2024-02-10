@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { NativeSyntheticEvent, TextInputChangeEventData, TextInputProps as RNTextInputProps } from 'react-native';
 import useGetTheme from '@styles/hooks/useGetTheme';
-import { TextInputStyled, TextInputCancel } from './TextInputStyledComponents.native';
+import { TextInputStyled, TextInputIcon } from './TextInputStyledComponents.native';
 import { TextInputContainer } from './TextInputStyledComponents.native';
 import Condition from '../Condition.native';
 import defaultStyle from '@styles/Font/FontStyle';
@@ -26,35 +26,39 @@ const TextInput = ({
   ...props
 }: TextInputProps) => {
   const theme = useGetTheme();
+	const { testID, value, placeholder, multiline, secureTextEntry } = props;
   const inputTypeStyle = useGetTextInputStyle(inputStyle)
-  const [isSecure, setIsSecure] = useState(props.secureTextEntry ?? false);
-  
+  const [isSecure, setIsSecure] = useState(secureTextEntry ?? false);
+	
   return (
-    <TextInputContainer height={height} style={inputTypeStyle} multiline={props.multiline ?? false}>
+    <TextInputContainer height={height} style={inputTypeStyle} multiline={multiline ?? false}>
       <Condition condition={!!leftComponent}>
         {leftComponent}
       </Condition>
       <TextInputStyled
+				testID={testID}
         color={theme.lightGrey}
         hasLeftComponent={!!leftComponent}
         style={defaultStyle['ListItemSubTitle']}
-        placeholder={props.placeholder}
+        placeholder={placeholder}
         placeholderTextColor={theme.midGrey}
-        value={props.value}
+        value={value}
         onChange={(event: NativeSyntheticEvent<TextInputChangeEventData>): void => onChangeText(event.nativeEvent.text ?? '')}
-        multiline={props.multiline ?? false}
+        multiline={multiline ?? false}
         secureTextEntry={isSecure}
       />
-      <Condition condition={props.secureTextEntry ?? false}>
-        <TextInputCancel
+      <Condition condition={secureTextEntry ?? false}>
+        <TextInputIcon
+					testID={'show-password'}
           onPress={(): void => setIsSecure(!isSecure)}
           name={isSecure ? 'eye-off-outline' : 'eye-outline'}
           type={IconTypeEnum.Ionicons}
           color={theme.midGrey}
         />
       </Condition>
-      <Condition condition={!!props.value && props.value?.length > 0 && !props.secureTextEntry}>
-        <TextInputCancel
+      <Condition condition={!!value && value?.length > 0 && !secureTextEntry}>
+        <TextInputIcon
+					testID={'reset-input'}
           onPress={onReset}
           name={'cancel'}
           color={inputStyle === 'text' ? theme.darkGrey : theme.midGrey}

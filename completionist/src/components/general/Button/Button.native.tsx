@@ -6,6 +6,7 @@ import useGetTheme from '@styles/hooks/useGetTheme';
 import { ButtonType } from '@utils/CustomTypes';
 
 interface ButtonProps {
+	testID?: string;
   title: string;
   type?: ButtonType;
   onPress: () => void;
@@ -14,13 +15,14 @@ interface ButtonProps {
   color?: string;
 }
 
-const Button = ({ title, type = 'default', onPress, style, disabled = false, color }: ButtonProps) => {
+const Button = ({ testID, title, type = 'default', onPress, style, disabled = false, color }: ButtonProps) => {
   const theme = useGetTheme();
 
   switch (type) {
     case 'text':
       return (
-        <StyledButtonText 
+        <StyledButtonText
+					testID={testID}
           style={{ ...style }} 
           onPress={onPress} 
           color={theme.darkGrey} 
@@ -37,7 +39,8 @@ const Button = ({ title, type = 'default', onPress, style, disabled = false, col
       );
     default:
       return (
-        <StyledButtonDefault 
+        <StyledButtonDefault
+					testID={testID}
           style={{ ...style }} 
           onPress={onPress} 
           color={!!color ? color : theme.darkGrey}

@@ -5,7 +5,7 @@ import GameList from '../GameList.native';
 describe('GameList', () => {
   afterEach(() => {
     jest.clearAllMocks();
-  })
+  });
 
 	it('renders the game list', () => {
 		const { queryByTestId } = render(<GameList searchValue={''} />);
