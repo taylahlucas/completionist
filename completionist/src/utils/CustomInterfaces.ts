@@ -51,6 +51,7 @@ export interface EnvironmentConfig {
   WEB_CLIENT_ID: string;
   IOS_LOCAL_URL: string;
   ANDROID_LOCAL_URL: string;
+	STEAM_API_TOKEN: string;
 }
 
 // Navigation Interfaces

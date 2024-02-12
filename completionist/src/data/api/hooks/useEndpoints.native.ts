@@ -14,6 +14,7 @@ import {
 } from '@data/api/EndpointInterfaces.native';
 import useHandleAxiosError from './useHandleAxiosError';
 import useAuth from './useAuth.native';
+import config from '@utils/config';
 
 const useEndpoints = (): EndpointsReturnType => {
 	const url = Platform.OS === 'ios'
@@ -119,7 +120,28 @@ const useEndpoints = (): EndpointsReturnType => {
 		}
 	};
 
-	return { signIn, signUp, getUserByUserId, updateUserData, sendEmail };
+	// skyrim SE 489830, skyrim 72850, VR 611670
+	// 377160 fallout 4
+	// View Profile => copy id address at https://steamcommunity.com/profiles/76561198244929042/
+	// Privacy Settings -> Game Inventory must be public
+	const getSteamUser = async () => {
+		try {
+			const response = await axios.get(
+				`https://api.steampowered.com/ISteamUserStats/GetPlayerAchievements/v0001/?appid=377160&key=${config.steamApiToken}&steamid=76561198244929042`
+				// `https://api.steampowered.com/ISteamUserStats/GetUserStatsForGame/v0002/?appid=377160&key=${config.steamApiToken}&steamid=76561198244929042`,
+				// `https://api.steampowered.com/ISteamUserStats/GetSchemaForGame/v2/?appid=377160&key=${config.steamApiToken}`
+			)
+			console.log("RESPONSE: ", response.data.playerstats)
+		}
+		catch (error: AxiosErrorResponse) {
+			// handleAxiosError(error);
+			console.log("HERE: ", error.response)
+		}
+	};
+
+
+
+	return { signIn, signUp, getUserByUserId, updateUserData, sendEmail, getSteamUser };
 };
 
 export default useEndpoints;
