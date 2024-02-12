@@ -1,9 +1,9 @@
+import React from 'react';
 import 'react-native-gesture-handler/jestSetup';
 import mockAsyncStorage from '@react-native-async-storage/async-storage/jest/async-storage-mock';
-import i18next from 'i18next';
-import React from 'react';
 import { Image, NativeModules as RNNativeModules } from 'react-native';
 import * as reactNativeLocalizeMock from './reactNativeLocalizeMock.native';
+
 
 interface TransProps {
 	i18nKey: string;

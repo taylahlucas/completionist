@@ -27,6 +27,7 @@
     "@testing-library/jest-native": "^5.4.3",
     "@types/react-native": "^0.72.8",
     "axios": "^1.6.2",
+    "axios-mock-adapter": "^1.22.0",
     "babel-node": "^0.0.1-security",
     "glob": "^10.3.10",
     "graphql": "^16.8.1",

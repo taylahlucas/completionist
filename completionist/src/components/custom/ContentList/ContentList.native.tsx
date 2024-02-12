@@ -12,19 +12,17 @@ import { SettingsListItem } from '@utils/CustomInterfaces';
 const ContentList = () => {
   const { searchValue } = useContentState();
   const { getContentCategories } = useGetContentCategories();
-  const { getAllContentForCategory } = useGetContent();
+  const { getContentForCategory } = useGetContent();
   const { checkContentCompleteForCategory } = useCheckContentComplete();
   
   return (
     <Condition
       condition={searchValue.length < 2}
-      conditionalElement={
-        <SearchResults />
-      }
+      conditionalElement={<SearchResults />}
     >
       <ScrollableList>
         {getContentCategories().map((category: SettingsListItem, index: number) => {
-          const allContentForCategory = getAllContentForCategory(category.title)
+          const allContentForCategory = getContentForCategory(category.title)
           const completedContent = checkContentCompleteForCategory(allContentForCategory)
 
           return (

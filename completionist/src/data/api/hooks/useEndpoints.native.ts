@@ -14,7 +14,6 @@ import {
 } from '@data/api/EndpointInterfaces.native';
 import useHandleAxiosError from './useHandleAxiosError';
 import useAuth from './useAuth.native';
-import useMainState from '@redux/hooks/useMainState';
 
 const useEndpoints = (): EndpointsReturnType => {
 	const url = Platform.OS === 'ios'
@@ -25,6 +24,7 @@ const useEndpoints = (): EndpointsReturnType => {
 
 	// TODO: Work out a better way to handle authToken
 	// TODO: Test if authToken is doing anything currently (in terms of security)
+	// TODO: Cache items here
 	const signUp = async ({ data }: CreateUserProps): Promise<UserResponse> => {
 		try {
 			const response = await axios.post(`${url}/${signupUrl}`,
@@ -61,7 +61,6 @@ const useEndpoints = (): EndpointsReturnType => {
 			return;
 		}
 	};
-
 
 	const getUserByUserId = async ({ userId }: GetUserByUserIdProps): Promise<UserResponse> => {
 		const authToken = await getAuthToken();

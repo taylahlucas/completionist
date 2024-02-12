@@ -1,13 +1,13 @@
 import React from 'react';
 import { render } from '@utils/TestLibraryUtils.native';
 import { initialState as mainState } from '@redux/MainState';
-import { userMock } from '@utils/test-helper/mocks';
+import { userMockInitial } from '@utils/test-helper/__mocks__/mocks';
 import GameListSectionDropdown from '../GameListSectionDropdown.native';
 
 describe('GameListSelectionDropdown', () => {
 	const props = {
 		title: 'Active',
-		data: userMock.subscription.data
+		data: userMockInitial.subscription.data
 	};
 
   afterEach(() => {
@@ -18,7 +18,7 @@ describe('GameListSelectionDropdown', () => {
     const initialState = {
       main: {
         ...mainState,
-        user: userMock
+        user: userMockInitial
       } 
     };
     const { queryByTestId } = render(<GameListSectionDropdown {...props} />, { initialState });

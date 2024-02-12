@@ -20,9 +20,9 @@ export interface ContentSubTypeDropdownProps {
 const ContentSubTypeDropdown = ({ subCategory, type, completed, total }: ContentSubTypeDropdownProps) => {
   const { setSelectedCategory } = useContentDispatch();
   const { selectedCategory } = useContentState();
-  const { getContentForSubCategoryWithType } = useGetContents();
+  const { getContentForSubCategoryType } = useGetContents();
   const { updateContentComplete } = useUpdateContent();
-  const items = getContentForSubCategoryWithType(subCategory, type);
+  const items = getContentForSubCategoryType(subCategory, type);
   const { checkContentComplete } = useCheckContentComplete();
   
   return (

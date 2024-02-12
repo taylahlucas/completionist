@@ -1,4 +1,3 @@
-import { useTranslation } from 'react-i18next';
 import { GameContentItem } from '@utils/CustomInterfaces';
 import useMainState from '@redux/hooks/useMainState';
 import useGetGameData from '@data/hooks/useGetGameData';
@@ -9,12 +8,10 @@ interface GameDataReturnType {
   getFilteredContent: () => GameContentItem[];
   getContentForCategory: (mainCategory: string) => GameContentItem[];
   getContentForSubCategory: (mainCategory?: string, subCategory?: string) => GameContentItem[];
-  getContentForSubCategoryWithType: (subCategory: string, subCategoryType?: string) => GameContentItem[];
-  getAllContentForCategory:(mainCategory: string) => GameContentItem[];
+  getContentForSubCategoryType: (subCategory: string, subCategoryType?: string) => GameContentItem[];
 }
 
 const useGetContent = (): GameDataReturnType => {
-  const { t } = useTranslation();
   const { sectionType } = useContentState();
   const { selectedGame } = useMainState();
   const { searchValue } = useContentState();
@@ -34,20 +31,15 @@ const useGetContent = (): GameDataReturnType => {
     return items.filter(item => item.mainCategory === mainCategory && item.subCategory === subCategory);
   }
 
-  const getContentForSubCategoryWithType = (subCategory: string, subCategoryType: string = ''): GameContentItem[] => {
+  const getContentForSubCategoryType = (subCategory: string, subCategoryType: string = ''): GameContentItem[] => {
     return items.filter(item => item.subCategory === subCategory && item.subCategoryType === subCategoryType);
-  }
-
-  const getAllContentForCategory = (mainCategory: string): GameContentItem[] => {
-    return items.filter(item => item.mainCategory === mainCategory);
   }
 
   return {
     getFilteredContent,
     getContentForCategory,
     getContentForSubCategory,
-    getContentForSubCategoryWithType,
-    getAllContentForCategory
+    getContentForSubCategoryType
   }
 };
 

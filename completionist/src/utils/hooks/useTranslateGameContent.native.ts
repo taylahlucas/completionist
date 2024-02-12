@@ -1,5 +1,4 @@
 import { useTranslation } from 'react-i18next';
-import useDLCOptions from '@components/custom/SettingsContent/hooks/useDLCOptions';
 import { GameKeyEnum } from '@utils/CustomEnums';
 
 const useTranslateGameContent = () => {

@@ -23,7 +23,7 @@ const ContentSubDropdown = ({ mainCategory, subCategory, completed, total }: Con
   const { selectedGame } = useMainState();
   const { setSelectedCategory } = useContentDispatch();
   const { selectedCategory } = useContentState();
-  const { getContentForSubCategoryWithType } = useGetContents();
+  const { getContentForSubCategoryType } = useGetContents();
   const { getContentSubCategoriesTypes } = useGetContentCategories();
   const { checkContentCompleteForCategory } = useCheckContentComplete();
   const subCategoryTypes = getContentSubCategoriesTypes(subCategory, selectedGame);
@@ -55,7 +55,7 @@ const ContentSubDropdown = ({ mainCategory, subCategory, completed, total }: Con
         }
       >
         {subCategoryTypes?.map((type, index) => {
-          const contentForType = getContentForSubCategoryWithType(subCategory, type);
+          const contentForType = getContentForSubCategoryType(subCategory, type);
           const completedContent = checkContentCompleteForCategory(contentForType);
 
           return (

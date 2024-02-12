@@ -21,10 +21,12 @@ const StyledText: React.FunctionComponent<StyledTextProps> = ({
   ...props
 }) => {
   const theme = useGetTheme();
+	const { testID, numberOfLines } = props;
   
   return (
-    <Text 
-      numberOfLines={props.numberOfLines} 
+    <Text
+			testID={testID}
+      numberOfLines={numberOfLines} 
       ellipsizeMode='tail' 
       style={{ ...defaultStyle[type], ...defaultStyle[align], ...style, color: color ?? theme.midGrey }}
     >

@@ -2,9 +2,15 @@ import useMainDispatch from '@redux/hooks/useMainDispatch';
 import useMainState from '@redux/hooks/useMainState';
 import { Item } from '@utils/CustomInterfaces';
 import useContentState from './useContentState';
+import { ContentSectionEnum } from '@utils/CustomEnums';
 
 const useUpdateContent = () => {
-  const { setCompletedQuests, setCompletedCollectables, setCompletedLocations, setCompletedMiscItems } = useMainDispatch();
+  const { 
+		setCompletedQuests, 
+		setCompletedCollectables, 
+		setCompletedLocations, 
+		setCompletedMiscItems 
+	} = useMainDispatch();
   const { selectedGameData } = useMainState();
   const { sectionType } = useContentState();
 
@@ -24,16 +30,16 @@ const useUpdateContent = () => {
   const updateContentComplete = (itemId: string) => {
     let completedContent: Item[] = [];
     switch (sectionType) {
-      case 'quests':
+      case ContentSectionEnum.QUESTS:
         completedContent = selectedGameData?.quests.filter(item => item.isComplete) ?? [];
         break;
-      case 'collectables':
+      case ContentSectionEnum.COLLECTABLES:
         completedContent = selectedGameData?.collectables.filter(item => item.isComplete) ?? [];
         break;
-      case 'locations':
+      case ContentSectionEnum.LOCATIONS:
         completedContent = selectedGameData?.locations.filter(item => item.isComplete) ?? [];
         break;
-      case 'miscellaneous':
+      case ContentSectionEnum.MISCELLANEOUS:
         completedContent = selectedGameData?.miscellaneous.filter(item => item.isComplete) ?? [];
         break;
     }
@@ -41,16 +47,16 @@ const useUpdateContent = () => {
     const updatedContent = updateContentAction(itemId, completedContent, itemToUpdate);
 
     switch (sectionType) {
-      case 'quests':
+      case ContentSectionEnum.QUESTS:
         setCompletedQuests(updatedContent);
         break;
-      case 'collectables':
+      case ContentSectionEnum.COLLECTABLES:
         setCompletedCollectables(updatedContent);
         break;
-      case 'locations':
+      case ContentSectionEnum.LOCATIONS:
         setCompletedLocations(updatedContent);
         break;
-      case 'miscellaneous':
+      case ContentSectionEnum.MISCELLANEOUS:
         setCompletedMiscItems(updatedContent);
         break;
     }

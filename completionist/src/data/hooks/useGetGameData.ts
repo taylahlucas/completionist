@@ -1,5 +1,5 @@
 import { GameKeyEnum, ContentSectionEnum } from '@utils/CustomEnums';
-import { GameContentItem, SettingsConfigItem, SettingsListItem } from '@utils/CustomInterfaces';
+import { GameContentItem, SettingsConfigItem } from '@utils/CustomInterfaces';
 import useMainState from '@redux/hooks/useMainState';
 import useGetTranslatedGameData from './useGetTranslatedGameData.native';
 
@@ -21,6 +21,7 @@ const useGetGameData = (): GameDataReturnType => {
   } = useGetTranslatedGameData();
   const { selectedGameData } = useMainState();
 
+	// Filter active sections
   const filterData = (config: SettingsConfigItem[], data: any[]) => {
     const filteredConfig = config.filter(item => !item.section.isActive);
     filteredConfig.map(config => {

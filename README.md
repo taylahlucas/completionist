@@ -78,6 +78,7 @@ npx react-native run-ios --port 8002
 - @babel/preset-typescript
 - babel-plugin-styled-components
 - ts-node
+- axios-mock-adapter
 
 ## Backend
 
