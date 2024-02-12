@@ -25,51 +25,51 @@ import Payments from '@screens/Payments.native';
 const Drawer = createDrawerNavigator<RootDrawerParamList>();
 
 const NavigationDrawer = () => {
-  const theme = useGetTheme();
-  const { selectedGame } = useMainState();
-  const { translateGameName } = useTranslateGameContent();
-  
-  const NavigationDrawerContent = (): JSX.Element => {
-    return (
-      <Condition condition={!!selectedGame}>
-        <NavigationDrawerContainer>
-          <StyledText 
-		  	type={'Heading'} 
-			color={theme.lightGrey}>
-				{!!selectedGame ? translateGameName(selectedGame) : ''}
-			</StyledText>
-          <NavigationDrawerBody />
-        </NavigationDrawerContainer>
-      </Condition>
-    );
-  };
+	const theme = useGetTheme();
+	const { selectedGame } = useMainState();
+	const { translateGameName } = useTranslateGameContent();
 
-  return (
-    <Drawer.Navigator
-      drawerContent={(): JSX.Element => <NavigationDrawerContent />}
-      initialRouteName={ScreenEnum.RootStackNavigator}
-      screenOptions={{
-        headerShown: false,
-        drawerStyle: {
-          ...styles.drawerContainer,
-          backgroundColor: theme.darkGrey
-        }
-      }}
-    >
-      <Drawer.Screen name={ScreenEnum.RootStackNavigator} component={RootStackNavigator} />
-      <Drawer.Screen name={ScreenEnum.Landing} component={Landing} />
-      <Drawer.Screen name={ScreenEnum.Login} component={Login} />
-      <Drawer.Screen name={ScreenEnum.GameSelection} component={GameSelection} />
-      <Drawer.Screen name={ScreenEnum.Quests} component={Quests} />
-      <Drawer.Screen name={ScreenEnum.Collectables} component={Collectables} />
-      <Drawer.Screen name={ScreenEnum.Miscellaneous} component={Miscellaneous} />
-      <Drawer.Screen name={ScreenEnum.Locations} component={Locations} />
-      <Drawer.Screen name={ScreenEnum.RequestGame} component={RequestGame} />
-      <Drawer.Screen name={ScreenEnum.Subscriptions} component={Subscriptions} />
-	  <Drawer.Screen name={ScreenEnum.Payments} component={Payments} />
-      <Drawer.Screen name={ScreenEnum.Settings} component={Settings} />
-    </Drawer.Navigator>
-  );
+	const NavigationDrawerContent = (): JSX.Element => {
+		return (
+			<Condition condition={!!selectedGame}>
+				<NavigationDrawerContainer>
+					<StyledText
+						type={'Heading'}
+						color={theme.lightGrey}>
+						{!!selectedGame ? translateGameName(selectedGame) : ''}
+					</StyledText>
+					<NavigationDrawerBody />
+				</NavigationDrawerContainer>
+			</Condition>
+		);
+	};
+
+	return (
+		<Drawer.Navigator
+			drawerContent={(): JSX.Element => <NavigationDrawerContent />}
+			initialRouteName={ScreenEnum.RootStackNavigator}
+			screenOptions={{
+				headerShown: false,
+				drawerStyle: {
+					...styles.drawerContainer,
+					backgroundColor: theme.darkGrey
+				}
+			}}
+		>
+			<Drawer.Screen name={ScreenEnum.RootStackNavigator} component={RootStackNavigator} />
+			<Drawer.Screen name={ScreenEnum.Landing} component={Landing} />
+			<Drawer.Screen name={ScreenEnum.Login} component={Login} />
+			<Drawer.Screen name={ScreenEnum.GameSelection} component={GameSelection} />
+			<Drawer.Screen name={ScreenEnum.Quests} component={Quests} />
+			<Drawer.Screen name={ScreenEnum.Collectables} component={Collectables} />
+			<Drawer.Screen name={ScreenEnum.Miscellaneous} component={Miscellaneous} />
+			<Drawer.Screen name={ScreenEnum.Locations} component={Locations} />
+			<Drawer.Screen name={ScreenEnum.RequestGame} component={RequestGame} />
+			<Drawer.Screen name={ScreenEnum.Subscriptions} component={Subscriptions} />
+			<Drawer.Screen name={ScreenEnum.Payments} component={Payments} />
+			<Drawer.Screen name={ScreenEnum.Settings} component={Settings} />
+		</Drawer.Navigator>
+	);
 };
 
 export default NavigationDrawer;

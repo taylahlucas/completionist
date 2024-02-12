@@ -4,7 +4,8 @@ import {
 	NavigationDrawerFooter,
 	NavigationDrawerTitle,
 	NavigationDrawerFooterItem,
-	NavigationDrawerFooterIcon
+	NavigationDrawerFooterIcon,
+	NavigationDrawerFooterTitle
 } from './NavigationStyledComponents.native';
 import useReactNavigation from './hooks/useReactNavigation.native';
 import useGetNavigationDrawerItems from './hooks/useGetNavigationDrawerItems.native';
@@ -15,7 +16,6 @@ import useMainState from '@redux/hooks/useMainState';
 import useGetNavigationFooterDrawerItems from './hooks/useGetFooterNavigationDrawerItems.native';
 import NavigationDrawerItem from './NavigationDrawerItem.native';
 import { useTranslation } from 'react-i18next';
-import Icon from '@components/general/Icon/Icon.native';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
 
 const NavigationDrawerBody: React.FunctionComponent = () => {
@@ -47,7 +47,7 @@ const NavigationDrawerBody: React.FunctionComponent = () => {
 							color={theme.lightGrey}
 							size={24}
 						/>
-						<NavigationDrawerTitle
+						<NavigationDrawerFooterTitle
 							type={'ListItemTitle'}
 							color={currentScreen === item.id ? theme.lightGrey : theme.midGrey}
 							align={'left'}
@@ -55,7 +55,7 @@ const NavigationDrawerBody: React.FunctionComponent = () => {
 							numberOfLines={1}
 						>
 							{item.title}
-						</NavigationDrawerTitle>
+						</NavigationDrawerFooterTitle>
 					</NavigationDrawerFooterItem>
 				))}
 				<NavigationDrawerFooterItem onPress={signOut}>
@@ -65,15 +65,13 @@ const NavigationDrawerBody: React.FunctionComponent = () => {
 						color={theme.lightGrey}
 						size={24}
 					/>
-					<NavigationDrawerTitle
+					<NavigationDrawerFooterTitle
 						type={'ListItemTitle'}
 						color={currentScreen === ScreenEnum.Login ? theme.lightGrey : theme.midGrey}
 						align={'left'}
-						ellipsizeMode='tail'
-						numberOfLines={1}
 					>
 						{t('common:auth.logout')}
-					</NavigationDrawerTitle>
+					</NavigationDrawerFooterTitle>
 				</NavigationDrawerFooterItem>
 			</NavigationDrawerFooter>
 		</NavigationDrawerBodyContainer>

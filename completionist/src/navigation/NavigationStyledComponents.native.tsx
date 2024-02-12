@@ -37,12 +37,10 @@ interface NavigationHeaderTitleContainerProps {
 }
 
 export const NavigationHeaderTitleContainer = styled.Pressable<NavigationHeaderTitleContainerProps>`
-	max-width: ${drawerWidth}px;
 	flex-direction: row;
 	align-items: center;
-	justify-content: space-around;
-	padding-right: 16px;
-	opacity: ${(props): number => props.disabled ? 0.5 : 1}
+	justify-content: space-between;
+	opacity: ${(props): number => props.disabled ? 0.5 : 1};
 `;
 
 export const NavigationDrawerFooterItem = styled.Pressable`
@@ -55,12 +53,20 @@ export const NavigationDrawerFooterIcon = styled(Icon)`
 `;
 
 export const NavigationDrawerTitle = styled(StyledText)`
-  padding: 8px;
-	width: ${drawerWidth - 40}px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	width: ${drawerWidth - 100}px;
+`;
+
+export const NavigationDrawerFooterTitle = styled(StyledText)`
+	padding-top: 8px;
+	padding-bottom: 8px;
+	width: ${drawerWidth - 70}px;
 `;
 
 export const NavigationHeaderSubTitle = styled(StyledText)`
   margin-top: 4px;
+	padding-right: 8px;
 `;
 
 export const NavigationHeaderMenuButton = styled.Pressable`
