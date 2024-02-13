@@ -9,11 +9,11 @@ const getUserByUserId = async (req, res) => {
     if (user) {
       return res.status(request_codes.SUCCESS).json(user);
     } else {
-      return res.status(605).json({ error: 'User not found' });
+      return res.status(request_codes.EMAIL_NOT_FOUND).json({ error: 'User not found' });
     }
   } catch (error) {
     console.error('Logging Error retrieving user:', error.message);
-    return res.status(500).json(error.message);
+    return res.status(request_codes.NOT_FOUND).json(error.message);
   }
 };
 
@@ -30,12 +30,11 @@ const updateUserInfo = async (req, res) => {
       console.log(`User info with ID ${userId} updated successfully`);
       return res.status(request_codes.SUCCESS).json(result.user);
     } else {
-      return res.status(404).json({ error: 'User not found' });
+      return res.status(request_codes.NOT_FOUND).json({ error: 'User not found' });
     }
   }
   catch(error) {
-    console.log("Logging Error updating info: ", error.message)
-    res.status(error.status).json(error.message);
+    return res.status(error.status).json(error.message);
   }
 };
 
@@ -54,12 +53,11 @@ const updateUserData = async (req, res) => {
       console.log(`User data with ID ${userId} updated successfully`);
       return res.status(request_codes.SUCCESS).json(result.user);
     } else {
-      return res.status(404).json({ error: 'User not found' });
+      return res.status(request_codes.NOT_FOUND).json({ error: 'User not found' });
     }
   }
   catch(error) {
-    console.log("Logging Error updating data: ", error.message)
-    res.status(error.status).json(error.message);
+    return res.status(error.status).json(error.message);
   }
 };
 

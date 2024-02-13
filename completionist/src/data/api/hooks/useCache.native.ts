@@ -1,23 +1,15 @@
-import useLoginDispatch from '@components/custom/LoginForm/hooks/useLoginDispatch';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { CACHE_EXPIRY_TIME, CACHE_KEY } from '@utils/constants';
 import { CachedData, User } from '@utils/CustomInterfaces';
 import { UserResponse } from '@utils/CustomTypes';
-import useEndpoints from './useEndpoints.native';
-import useKeychain from '../../hooks/useKeychain.native';
 
 interface CacheReturnType {
-  getFromCache: () => Promise<any | null>;
   saveToCache: (data: User) => Promise<void>;
-  fetchDataFromCache: (userId: string) => Promise<UserResponse>;
+  fetchUserFromCache: (userId: string) => Promise<UserResponse>;
   clearCache: () => Promise<void> ;
 }
 
-const useCache = (): CacheReturnType => {
-  const { setLoggedIn } = useLoginDispatch();
-  const { getUserByUserId } = useEndpoints();
-  const { deleteCredentials } = useKeychain();
-  
+const useCache = (): CacheReturnType => {  
   const getFromCache = async (): Promise<any | null> => {
     try {
       const cachedDataString = await AsyncStorage.getItem(CACHE_KEY);
@@ -41,6 +33,16 @@ const useCache = (): CacheReturnType => {
     return null; // Cache miss or expired
   };
 
+	const fetchUserFromCache = async (): Promise<UserResponse> => {
+    // Check if user is in cache
+    const cachedData = await getFromCache();
+		
+    if (!!cachedData?.userId && cachedData as User) {
+      return cachedData;
+    }
+		return;
+  };
+
   const saveToCache = async (data: User): Promise<void> => {
     try {
       const timestamp = new Date().getTime();
@@ -50,34 +52,6 @@ const useCache = (): CacheReturnType => {
       await AsyncStorage.setItem(CACHE_KEY, cacheDataString);
     } catch (error) {
       console.error('Error saving to cache:', error);
-    }
-  };
-
-  const fetchDataFromCache = async (userId: string): Promise<UserResponse> => {
-    // Check if data is in cache
-    const cachedData = await getFromCache();
-
-    if (!!cachedData?.userId && cachedData as User) {
-      return cachedData;
-    }
-
-    // If data is not in cache, fetch data from the server
-    try {
-      const user = await getUserByUserId({ userId });
-      if (!!user) {
-        saveUserAndLogin(user);
-        return user;
-      }
-      else {
-        // If no user is found on server, clear cache and keychain
-        clearCache();
-        deleteCredentials();
-        setLoggedIn(false);
-        return;
-      }
-    } catch (error) {
-      console.error('Error fetching data: ', error);
-      return;
     }
   };
 
@@ -94,15 +68,10 @@ const useCache = (): CacheReturnType => {
   };
 
   return {
-    getFromCache,
-    fetchDataFromCache,
+    fetchUserFromCache,
     saveToCache,
     clearCache
   }
 };
 
 export default useCache;
-
-function saveUserAndLogin(cachedData: any) {
-  throw new Error('Function not implemented.');
-}

@@ -100,12 +100,12 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 	}
 
 	const signOut = async () => {
+		removeUserData();
 		try {
 			await GoogleSignin.revokeAccess();
 			await GoogleSignin.signOut();
-			removeUserData();
 		} catch (error) {
-			removeUserData();
+			console.log("Error signing out: ", error)
 		}
 	};
 

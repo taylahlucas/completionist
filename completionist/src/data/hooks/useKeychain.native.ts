@@ -36,6 +36,7 @@ const useKeychain = (): KeychainReturnTypes => {
   const deleteCredentials = async (): Promise<void> => {
     try {
       await Keychain.resetGenericPassword();
+			console.log("deleteCredentials")
     } catch (error) {
       console.error('Error deleting credentials:', error);
     }

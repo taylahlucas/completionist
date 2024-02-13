@@ -16,7 +16,7 @@ const useAuth = () => {
 		}
 	};
 
-	const setCredentials = (userId: string, token: string) => {
+	const storeUserCredentials = (userId: string, token: string) => {
 		if (!!userId && !!token) {
 			storeCredentials({
 				username: userId,
@@ -25,7 +25,7 @@ const useAuth = () => {
 		 }
 	}
 
-	return { setAuthHeaders, setCredentials, getAuthToken };
+	return { setAuthHeaders, storeUserCredentials, getAuthToken };
 };
 
 export default useAuth;

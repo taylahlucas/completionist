@@ -1,15 +1,17 @@
 import { Alert } from 'react-native';
-import { AxiosErrorResponse } from '@utils/CustomTypes';
 import { requestCodes } from '@utils/constants';
 
 const useHandleAxiosError = () => {
-	const handleAxiosError = (error: AxiosErrorResponse): void => {
-		switch (error.request.status) {
+	const handleAxiosError = (status: number): void => {
+		switch (status) {
 			case requestCodes.WRONG_PASSWORD:
 				Alert.alert('Error', 'Incorrect password. Please try again.');
 				break;
 			case requestCodes.EMAIL_TAKEN:
 				Alert.alert('Error', 'Email already exists.');
+				break;
+			case requestCodes.EMAIL_NOT_FOUND:
+				Alert.alert('Email Not Found', 'Please check your credentials and try again.');
 				break;
 			case requestCodes.NOT_FOUND:
 			case requestCodes.NO_USER_FOUND:

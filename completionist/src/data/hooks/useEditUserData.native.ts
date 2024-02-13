@@ -8,6 +8,7 @@ import { initialFormData } from '@components/custom/LoginForm/LoginState';
 import { CredentialsResponse } from '@utils/CustomTypes';
 import useLoginDispatch from '@components/custom/LoginForm/hooks/useLoginDispatch';
 import useEndpoints from '../api/hooks/useEndpoints.native';
+import useAuth from '@data/api/hooks/useAuth.native';
 
 interface EditUserDataReturnType {
 	loadUserData: () => void;
@@ -20,27 +21,46 @@ const useEditUserData = (): EditUserDataReturnType => {
 	const navigation = useReactNavigation();
 	const { setUser } = useMainDispatch();
 	const { setLoginFormData, setLoggedIn } = useLoginDispatch();
-	const { fetchDataFromCache, saveToCache, clearCache } = useCache();
+	const { fetchUserFromCache, clearCache } = useCache();
+	const { getAuthToken } = useAuth();
 	const { getCredentials, deleteCredentials } = useKeychain();
-	const { updateUserInfo, updateUserData } = useEndpoints();
+	const { getUserByUserId, updateUserInfo, updateUserData } = useEndpoints();
 
-	const loadUserData = () => {
-		getCredentials()
-			.then((credentials: CredentialsResponse) => {
-				if (!!credentials?.password) {
-					fetchDataFromCache(credentials.password)
-						.then(cachedData => {
-							if (!!cachedData) {
-								saveUserAndLogin(cachedData);
-							}
-						});
-				}
+	const loadUserData = async () => {
+		const credentials = await getCredentials();
+
+		if (!!credentials) {
+			fetchUserFromCache(credentials.password)
+				.then((cachedData) => {
+					if (!!cachedData) {
+						saveUserAndLogin(cachedData);
+					}
+					else {
+						getUserByUserId({ userId: credentials.username })
+							.then((user) => {
+								if (!!user) {
+									saveUserAndLogin(user);
+								}
+							})
+					}
 			});
+		}
+		// getCredentials()
+		// 	.then((credentials: CredentialsResponse) => {
+		// 		if (!!credentials?.password) {
+		// 			fetchUserFromCache(credentials.password)
+		// 				.then(cachedData => {
+		// 					if (!!cachedData) {
+		// 						saveUserAndLogin(cachedData);
+		// 					}
+		// 				});
+		// 		}
+		// 	});
 	};
 
 	const saveUserAndLogin = (user: User) => {
 		setUser(user);
-		saveToCache(user);
+		// saveToCache(user);
 		setLoggedIn(true);
 		navigation.navigate(ScreenEnum.GameSelection);
 	};

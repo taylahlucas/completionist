@@ -23,17 +23,18 @@ import {
 import useHandleAxiosError from './useHandleAxiosError';
 import useAuth from './useAuth.native';
 import config from '@utils/config';
+import useCache from './useCache.native';
 
 const useEndpoints = (): EndpointsReturnType => {
 	const url = Platform.OS === 'ios'
 		? process.env.IOS_LOCAL_URL
 		: process.env.ANDROID_LOCAL_URL;
-	const { setAuthHeaders, setCredentials, getAuthToken } = useAuth();
+	const { setAuthHeaders, storeUserCredentials, getAuthToken } = useAuth();
 	const { handleAxiosError } = useHandleAxiosError();
+	const { saveToCache } = useCache();
 
 	// TODO: Work out a better way to handle authToken
 	// TODO: Test if authToken is doing anything currently (in terms of security)
-	// TODO: Cache items here
 	const signUp = async ({ data }: CreateUserProps): Promise<UserResponse> => {
 		try {
 			const response = await axios.post(`${url}/${signupUrl}`,
@@ -45,12 +46,12 @@ const useEndpoints = (): EndpointsReturnType => {
 					userAvatar: data.userAvatar
 				}
 			);
-			setCredentials(data.userId, response.data.token);
+			storeUserCredentials(data.userId, response.data.token);
+			console.log("HERE: ", response.data)
 			return response.data.user as User;
 		}
 		catch (error: AxiosErrorResponse) {
-			handleAxiosError(error);
-			return;
+			handleAxiosError(error.response.status);
 		};
 	}
 
@@ -62,28 +63,36 @@ const useEndpoints = (): EndpointsReturnType => {
 					password: password
 				}
 			);
-			setCredentials(response.data.user.userId, response.data.token);
-			return response.data.user as User;
+			console.log("HERE:" , response.data)
+			if (!!response.data.user) {
+				storeUserCredentials(response.data.user.userId, response.data.token);
+				saveToCache(response.data.user);
+				return response.data.user as User;
+			}
 		}
 		catch (error: AxiosErrorResponse) {
-			handleAxiosError(error);
-			return;
+			console.log("ERROR: " , error.response.status)
+			handleAxiosError(error.response.status);
 		}
 	};
 
 	const getUserByUserId = async ({ userId }: GetUserByUserIdProps): Promise<UserResponse> => {
 		const authToken = await getAuthToken();
+
 		if (!!authToken) {
 			try {
 				const response = await axios.get(
 					`${url}/${getUserByUserIdUrl}/${userId}`,
 					setAuthHeaders(authToken)
 				);
-				return response.data as User;
+				if (!!response.data) {
+					storeUserCredentials(response.data.userId, response.data.token);
+					saveToCache(response.data);
+					return response.data as User;
+				}
 			}
 			catch (error: AxiosErrorResponse) {
-				handleAxiosError(error);
-				return;
+				handleAxiosError(error.response.status);
 			}
 		}
 	};
@@ -105,7 +114,7 @@ const useEndpoints = (): EndpointsReturnType => {
 				);
 			}
 			catch (error: AxiosErrorResponse) {
-				handleAxiosError(error);
+				handleAxiosError(error.response.status);
 			}
 		}
 	};
@@ -124,7 +133,7 @@ const useEndpoints = (): EndpointsReturnType => {
 				);
 			}
 			catch (error: AxiosErrorResponse) {
-				handleAxiosError(error);
+				handleAxiosError(error.response.status);
 			}
 		}
 	};
@@ -139,10 +148,10 @@ const useEndpoints = (): EndpointsReturnType => {
 					text: text
 				},
 				setAuthHeaders('')
-			)
+			);
 		}
 		catch (error: AxiosErrorResponse) {
-			handleAxiosError(error);
+			handleAxiosError(error.response.status);
 		}
 	};
 	
@@ -178,10 +187,10 @@ const useEndpoints = (): EndpointsReturnType => {
 		}
 		catch (error: AxiosErrorResponse) {
 			// handleAxiosError(error);
-			console.log("HERE: ", error.response)
+			console.log("HERE: ", error.response.status)
 		}
 	};
-	
+
 	return { 
 		signIn, 
 		signUp, 

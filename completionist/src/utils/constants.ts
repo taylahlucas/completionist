@@ -14,8 +14,9 @@ export const games = [
 
 export const requestCodes = {
   SUCCESS: 200,
-  NOT_FOUND: 404,
+	NOT_FOUND: 500,
   EMAIL_TAKEN: 600,
+	EMAIL_NOT_FOUND: 602,
   NO_USER_FOUND: 605,
   WRONG_PASSWORD: 610
 }

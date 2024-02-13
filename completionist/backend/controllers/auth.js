@@ -23,7 +23,6 @@ const signup = async (req, res) => {
     // Check if user already exists
     const existingUser = await User.findOne({ email });
     if (existingUser) {
-      console.log("Logging email already exists");
       return res.status(request_codes.EMAIL_TAKEN).json({ error: 'Email already exists.' });
     }
 
@@ -56,7 +55,6 @@ const signup = async (req, res) => {
       user: rest,
     });
   } catch (err) {
-    console.log("Logging Error signing up: ", err)
     return res.status(err.status).json(err.message);
   }
 };
@@ -67,8 +65,7 @@ const signin = async (req, res) => {
     // Check if db has user with that email
     const user = await User.findOne({ email });
     if (!user) {
-      console.log("Logging no user found")
-      res.status(request_codes.NO_USER_FOUND).json({
+      return res.status(request_codes.EMAIL_NOT_FOUND).json({
         error: "No user found",
       });
     }
@@ -77,7 +74,6 @@ const signin = async (req, res) => {
     if (!!user.password) {
       const match = await comparePasswords(password, user.password);
       if (!match) {
-        console.log("Logging wrong password")
         return res.status(request_codes.WRONG_PASSWORD).json({
           error: "Wrong password",
         });
@@ -97,7 +93,6 @@ const signin = async (req, res) => {
       user,
     });
   } catch (err) {
-    console.log("Logging Error signing in: ", err)
     return res.status(err.status).json(err.message);
   }
 };
