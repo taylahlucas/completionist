@@ -73,7 +73,6 @@ export type RootDrawerParamList = {
   Miscellaneous: undefined;
   Locations: undefined;
   RequestGame: undefined;
-	AddSteamID: undefined;
 	SteamAchievements: undefined;
   Subscriptions: undefined;
   Payments: undefined;
@@ -89,14 +88,13 @@ export interface NativeNavigation {
 
 // Data Interfaces
 
-export interface LoginFormData {
-  userId: string;
-  name: string;
-  email: string;
-  password?: string;
-  userAvatar?: string;
+export interface SteamAchievement {
+	displayName: string;
+	description: string;
+	icon: string;
+	icongray: string;
+	name: string;
 }
-
 
 export interface CachedData {
   data: any;
@@ -165,4 +163,12 @@ export interface User extends LoginFormData {
   subscription: Subscription;
   settings: UserSettings;
   data: UserData;
+}
+
+export interface LoginFormData {
+  userId: string;
+  name: string;
+  email: string;
+  password?: string;
+  userAvatar?: string;
 }

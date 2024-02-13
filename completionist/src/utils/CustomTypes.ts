@@ -61,5 +61,6 @@ export type NavigationHeaderRightActionTypes = 'logout' | 'filter' | 'none';
 // Responses
 
 export type UserResponse = User | void;
+export type StringResponse = string | void;
 export type AxiosErrorResponse = AxiosError | any;
 export type CredentialsResponse = UserCredentials | null;

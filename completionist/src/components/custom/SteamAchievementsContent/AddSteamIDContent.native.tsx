@@ -8,11 +8,17 @@ import Button from '@components/general/Button/Button.native';
 import { styles } from './SteamAchievementsStyledComponents.native';
 import useEndpoints from '@data/api/hooks/useEndpoints.native';
 import useMainState from '@redux/hooks/useMainState';
+import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
+import useMainDispatch from '@redux/hooks/useMainDispatch';
+import useAuth from '@data/api/hooks/useAuth.native';
 
 const AddSteamIDContent = () => {
+	const navigation = useReactNavigation();
 	const [steamId, setSteamId] = useState<string>('');
-	const { selectedGameData } = useMainState();
-	const { getSteamUserById } = useEndpoints();
+	const { setUser } = useMainDispatch();
+	const { user, selectedGameData } = useMainState();
+	const { getSteamUserById, updateUserInfo } = useEndpoints();
+	const { saveUserData } = useAuth();
 
 	// TODO: Add translations
 	return (
@@ -41,20 +47,23 @@ const AddSteamIDContent = () => {
 			<StyledText>You will also need to ensure your profile is public.</StyledText>
 			<Spacing />
 			<StyledText>{`You can do this by heading to Steam Prefences -> Privacy Settings`}</StyledText>
-
 			<Image
-				style={{ width: 200, marginTop: -32 }}
-				source={require('@styles/images/steam-privacy-settings.png')}
-				resizeMode='contain'
-			/>
-			<Image
-				style={{ width: 300, marginTop: -58 }}
+				style={{ width: 300, marginTop: -12 }}
 				source={require('@styles/images/steam-public-details.png')}
 				resizeMode='contain'
 			/>
 			<Button
 				title={'Continue'}
-				onPress={(): Promise<void> => getSteamUserById(selectedGameData?.appId ?? '', steamId)}
+				onPress={async (): Promise<void> => {
+					const verifiedSteamId = await getSteamUserById(selectedGameData?.appId ?? '', steamId);
+
+					if (!!verifiedSteamId) {
+						saveUserData({
+							...user,
+							steamId: verifiedSteamId
+						});
+					}
+				}}
 			/>
 		</ScrollableList>
 	);

@@ -1,8 +1,8 @@
 import { Alert, Platform } from 'react-native';
 import uuid from 'react-native-uuid';
 import axios from 'axios';
-import { User } from '@utils/CustomInterfaces';
-import { AxiosErrorResponse, UserResponse } from '@utils/CustomTypes';
+import { SteamAchievement, User } from '@utils/CustomInterfaces';
+import { AxiosErrorResponse, StringResponse, UserResponse } from '@utils/CustomTypes';
 import { 
 	signupUrl, 
 	signinUrl, 
@@ -23,15 +23,14 @@ import {
 import useHandleAxiosError from './useHandleAxiosError';
 import useAuth from './useAuth.native';
 import config from '@utils/config';
-import useCache from './useCache.native';
+import { requestCodes } from '@utils/constants';
 
 const useEndpoints = (): EndpointsReturnType => {
 	const url = Platform.OS === 'ios'
 		? process.env.IOS_LOCAL_URL
 		: process.env.ANDROID_LOCAL_URL;
-	const { setAuthHeaders, storeUserCredentials, getAuthToken } = useAuth();
+	const { saveUserData, setAuthHeaders, storeUserCredentials, getAuthToken } = useAuth();
 	const { handleAxiosError } = useHandleAxiosError();
-	const { saveToCache } = useCache();
 
 	// TODO: Work out a better way to handle authToken
 	// TODO: Test if authToken is doing anything currently (in terms of security)
@@ -47,7 +46,7 @@ const useEndpoints = (): EndpointsReturnType => {
 				}
 			);
 			storeUserCredentials(data.userId, response.data.token);
-			console.log("HERE: ", response.data)
+			saveUserData(response.data.user);
 			return response.data.user as User;
 		}
 		catch (error: AxiosErrorResponse) {
@@ -63,15 +62,13 @@ const useEndpoints = (): EndpointsReturnType => {
 					password: password
 				}
 			);
-			console.log("HERE:" , response.data)
 			if (!!response.data.user) {
 				storeUserCredentials(response.data.user.userId, response.data.token);
-				saveToCache(response.data.user);
+				saveUserData(response.data.user)
 				return response.data.user as User;
 			}
 		}
 		catch (error: AxiosErrorResponse) {
-			console.log("ERROR: " , error.response.status)
 			handleAxiosError(error.response.status);
 		}
 	};
@@ -87,7 +84,7 @@ const useEndpoints = (): EndpointsReturnType => {
 				);
 				if (!!response.data) {
 					storeUserCredentials(response.data.userId, response.data.token);
-					saveToCache(response.data);
+					saveUserData(response.data);
 					return response.data as User;
 				}
 			}
@@ -155,39 +152,56 @@ const useEndpoints = (): EndpointsReturnType => {
 		}
 	};
 	
-	const getSteamUserById = async (appId: string, steamId: string) => {
+	const getSteamUserById = async (appId: string, steamId: string): Promise<StringResponse> => {
 		try {
 			const response = await axios.get(
 				`https://api.steampowered.com/ISteamUserStats/GetUserStatsForGame/v0001/?appid=${appId}&key=${config.steamApiToken}&steamid=${steamId}`
-			)
+			);
+
 			if (!!response?.data?.playerstats?.steamID) {
-				// TODO: Set steamID for user
-				return response?.data?.response?.players[0].steamid;
+				return response?.data?.playerstats?.steamID;
 			}
 			else {
 				Alert.alert('Steam ID not found.');
 			}
 		}
 		catch (error: AxiosErrorResponse) {
-			if (error?.response?.status === 403) {
+			if (error?.response?.status === requestCodes.NO_PERMISSION) {
 				Alert.alert('Permission Denied', 'Please allow access through your Steam settings.');
-				return;
 			}
 		}
 	};
 
-	const getSteamAchievementsById = async (appId: string) => {
+	const getSteamPlayerAchievements = async (appId: string, steamId: string) => {
+		try {
+			const response = await axios.get(
+				`https://api.steampowered.com/ISteamUserStats/GetUserStatsForGame/v0001/?appid=${appId}&key=${config.steamApiToken}&steamid=${steamId}`
+			);
+
+			if (!!response?.data?.playerstats) {
+				return response?.data?.playerstats;
+			}
+		}
+		catch (error: AxiosErrorResponse) {
+			if (error?.response?.status === requestCodes.NO_PERMISSION) {
+				Alert.alert('Permission Denied', 'Please allow access through your Steam settings.');
+			}
+			else {
+				Alert.alert('Error', 'Could not get achievements for this game.');
+			}
+		}
+	};
+
+	const getSteamAchievementsById = async (appId: string): Promise<(SteamAchievement[] | void)> => {
 		try {
 			const response = await axios.get(
 				`https://api.steampowered.com/ISteamUserStats/GetSchemaForGame/v0002/?key=${config.steamApiToken}&appid=${appId}&l=english&format=json`
-			)
+			);
 
-			// TODO: Return response
-			console.log("RESPONSE: ", response.data.game.availableGameStats.achievements)
+			return response.data.game.availableGameStats.achievements as SteamAchievement[];
 		}
 		catch (error: AxiosErrorResponse) {
-			// handleAxiosError(error);
-			console.log("HERE: ", error.response.status)
+			console.log('Could not get achievements for this game.');
 		}
 	};
 
@@ -199,7 +213,8 @@ const useEndpoints = (): EndpointsReturnType => {
 		updateUserData,
 		sendEmail, 
 		getSteamUserById, 
-		getSteamAchievementsById 
+		getSteamPlayerAchievements,
+		getSteamAchievementsById
 	};
 };
 

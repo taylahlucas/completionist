@@ -19,16 +19,17 @@ const getUserByUserId = async (req, res) => {
 
 const updateUserInfo = async (req, res) => {
   try {
-    const { userId, subscription, settings } = req.body;
+    const { userId, steamId, subscription, settings } = req.body;
 
     const result = await User.updateOne({ 
       userId: userId,
+			steamId: steamId,
       subscription: subscription,
       settings: settings
      });
      if (result.matchedCount > 0) {
       console.log(`User info with ID ${userId} updated successfully`);
-      return res.status(request_codes.SUCCESS).json(result.user);
+      return res.status(request_codes.SUCCESS);
     } else {
       return res.status(request_codes.NOT_FOUND).json({ error: 'User not found' });
     }
@@ -51,7 +52,7 @@ const updateUserData = async (req, res) => {
      });
      if (result.matchedCount > 0) {
       console.log(`User data with ID ${userId} updated successfully`);
-      return res.status(request_codes.SUCCESS).json(result.user);
+      return res.status(request_codes.SUCCESS);
     } else {
       return res.status(request_codes.NOT_FOUND).json({ error: 'User not found' });
     }

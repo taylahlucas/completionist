@@ -3,19 +3,22 @@ import StandardLayout from '@components/general/Layouts/StandardLayout.native';
 import NavigationHeader from '@navigation/NavigationHeader.native';
 import SteamAchievementsContent from '@components/custom/SteamAchievementsContent/SteamAchievementsContent.native';
 import useMainState from '@redux/hooks/useMainState';
-import useInitSteamAchievements from '@components/custom/SteamAchievementsContent/hooks/useInitSteamAchievements.native';
+import Condition from '@components/general/Condition.native';
+import AddSteamIDContent from '@components/custom/SteamAchievementsContent/AddSteamIDContent.native';
 
 
 const SteamAchievements = () => {
-	const { selectedGame } = useMainState();
-
-	// TODO: Need to check if steam integrated and !!user.steamId
-	useInitSteamAchievements();
+	const { user } = useMainState();
 
 	return (
 		<StandardLayout>
-			<NavigationHeader title={'Steam Achievements'} />
-			<SteamAchievementsContent />
+			<NavigationHeader title={!user.steamId ? 'Add Steam ID' : 'Steam Achievements'} />
+			<Condition 
+				condition={!user.steamId}
+				conditionalElement={<SteamAchievementsContent />}
+			>
+				<AddSteamIDContent />
+			</Condition>
 		</StandardLayout>
 	);
 };

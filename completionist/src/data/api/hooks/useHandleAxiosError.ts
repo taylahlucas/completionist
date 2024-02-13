@@ -3,6 +3,7 @@ import { requestCodes } from '@utils/constants';
 
 const useHandleAxiosError = () => {
 	const handleAxiosError = (status: number): void => {
+		// TODO: Add translations
 		switch (status) {
 			case requestCodes.WRONG_PASSWORD:
 				Alert.alert('Error', 'Incorrect password. Please try again.');

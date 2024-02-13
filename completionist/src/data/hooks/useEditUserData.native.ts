@@ -5,10 +5,8 @@ import useCache from '../api/hooks/useCache.native';
 import useKeychain from './useKeychain.native';
 import { ScreenEnum } from '@utils/CustomEnums';
 import { initialFormData } from '@components/custom/LoginForm/LoginState';
-import { CredentialsResponse } from '@utils/CustomTypes';
 import useLoginDispatch from '@components/custom/LoginForm/hooks/useLoginDispatch';
 import useEndpoints from '../api/hooks/useEndpoints.native';
-import useAuth from '@data/api/hooks/useAuth.native';
 
 interface EditUserDataReturnType {
 	loadUserData: () => void;
@@ -22,7 +20,6 @@ const useEditUserData = (): EditUserDataReturnType => {
 	const { setUser } = useMainDispatch();
 	const { setLoginFormData, setLoggedIn } = useLoginDispatch();
 	const { fetchUserFromCache, clearCache } = useCache();
-	const { getAuthToken } = useAuth();
 	const { getCredentials, deleteCredentials } = useKeychain();
 	const { getUserByUserId, updateUserInfo, updateUserData } = useEndpoints();
 
@@ -45,22 +42,10 @@ const useEditUserData = (): EditUserDataReturnType => {
 					}
 			});
 		}
-		// getCredentials()
-		// 	.then((credentials: CredentialsResponse) => {
-		// 		if (!!credentials?.password) {
-		// 			fetchUserFromCache(credentials.password)
-		// 				.then(cachedData => {
-		// 					if (!!cachedData) {
-		// 						saveUserAndLogin(cachedData);
-		// 					}
-		// 				});
-		// 		}
-		// 	});
 	};
 
 	const saveUserAndLogin = (user: User) => {
 		setUser(user);
-		// saveToCache(user);
 		setLoggedIn(true);
 		navigation.navigate(ScreenEnum.GameSelection);
 	};
