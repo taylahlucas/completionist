@@ -12,8 +12,7 @@ export type MaterialIconsType =
   | 'forward-to-inbox'
   | 'logout'
   | 'radio-button-unchecked'
-  | 'search'
-  | 'steam';
+  | 'search';
 
 export type MaterialCommunityIcons =
   | 'cancel'

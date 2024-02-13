@@ -41,7 +41,7 @@ const useGetNavigationDrawerItems = (): NavigationDrawerItemData[] => {
       title: t('common:screens.miscellaneous'),
       subTitle: checkIsSectionEnabled(miscItemsSection) ? `${getUserMiscItems().length}/${mapDataTo(miscItemsSection, selectedGame, true).length}` : '',
       isEnabled: checkIsSectionEnabled(miscItemsSection)
-    },
+    }
   ]);
 };
 

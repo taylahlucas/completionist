@@ -6,6 +6,7 @@ const {
 
 const userSchema = new mongoose.Schema({
   userId: String,
+	steamId: String,
   name: String,
   email: String,
   password: String,
@@ -31,6 +32,7 @@ const userSchema = new mongoose.Schema({
     type: Object,
     default: {
       skyrim: {
+				appId: 72850,
         quests: [], 
         collectables: [], 
         miscellaneous: [], 
@@ -38,6 +40,7 @@ const userSchema = new mongoose.Schema({
         settingsConfig: skyrimSettingsConfig
       },
       fallout4: {
+				appId: 377160,
         quests: [], 
         collectables: [], 
         miscellaneous: [], 
@@ -60,3 +63,12 @@ userSchema.path('settings.configs').default([
 ]);
 
 module.exports = mongoose.model('User', userSchema);
+
+
+// { id: '72850', title: 'Skyrim' }, 
+// { id: '489830', title: 'Skyrim Special Edition' }, 
+// { id: '611670', title: 'Skyrim VR' }
+
+// { id: '377160', title: 'Fallout 4' },
+// { id: '199943', title: 'Fallout 4 G.O.T.Y Edition' },
+// { id: '611660', title: 'Fallout 4 VR' },

@@ -1,4 +1,4 @@
-import { Platform } from 'react-native';
+import { Alert, Platform } from 'react-native';
 import uuid from 'react-native-uuid';
 import axios from 'axios';
 import { User } from '@utils/CustomInterfaces';
@@ -119,19 +119,36 @@ const useEndpoints = (): EndpointsReturnType => {
 			handleAxiosError(error);
 		}
 	};
-
-	// skyrim SE 489830, skyrim 72850, VR 611670
-	// 377160 fallout 4
-	// View Profile => copy id address at https://steamcommunity.com/profiles/76561198244929042/
-	// Privacy Settings -> Game Inventory must be public
-	const getSteamUser = async () => {
+	
+	const getSteamUserById = async (appId: string, steamId: string) => {
 		try {
 			const response = await axios.get(
-				`https://api.steampowered.com/ISteamUserStats/GetPlayerAchievements/v0001/?appid=377160&key=${config.steamApiToken}&steamid=76561198244929042`
-				// `https://api.steampowered.com/ISteamUserStats/GetUserStatsForGame/v0002/?appid=377160&key=${config.steamApiToken}&steamid=76561198244929042`,
-				// `https://api.steampowered.com/ISteamUserStats/GetSchemaForGame/v2/?appid=377160&key=${config.steamApiToken}`
+				`https://api.steampowered.com/ISteamUserStats/GetUserStatsForGame/v0001/?appid=${appId}&key=${config.steamApiToken}&steamid=${steamId}`
 			)
-			console.log("RESPONSE: ", response.data.playerstats)
+			if (!!response?.data?.playerstats?.steamID) {
+				// TODO: Set steamID for user
+				return response?.data?.response?.players[0].steamid;
+			}
+			else {
+				Alert.alert('Steam ID not found.');
+			}
+		}
+		catch (error: AxiosErrorResponse) {
+			if (error?.response?.status === 403) {
+				Alert.alert('Permission Denied', 'Please allow access through your Steam settings.');
+				return;
+			}
+		}
+	};
+
+	const getSteamAchievementsById = async (appId: string) => {
+		try {
+			const response = await axios.get(
+				`https://api.steampowered.com/ISteamUserStats/GetSchemaForGame/v0002/?key=${config.steamApiToken}&appid=${appId}&l=english&format=json`
+			)
+
+			// TODO: Return response
+			console.log("RESPONSE: ", response.data.game.availableGameStats.achievements)
 		}
 		catch (error: AxiosErrorResponse) {
 			// handleAxiosError(error);
@@ -141,7 +158,15 @@ const useEndpoints = (): EndpointsReturnType => {
 
 
 
-	return { signIn, signUp, getUserByUserId, updateUserData, sendEmail, getSteamUser };
+	return { 
+		signIn, 
+		signUp, 
+		getUserByUserId, 
+		updateUserData, 
+		sendEmail, 
+		getSteamUserById, 
+		getSteamAchievementsById 
+	};
 };
 
 export default useEndpoints;

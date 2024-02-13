@@ -20,6 +20,13 @@ const useGetNavigationFooterDrawerItems = (): NavigationFooterDrawerItem[] => {
 			iconType: IconTypeEnum.Ionicons
 		},
 		{
+			id: ScreenEnum.SteamAchievements,
+			// TODO: Translations && fix logic here
+			title: 'Steam Achievements',
+			icon: 'steam',
+			iconType: IconTypeEnum.MaterialCommunityIcons
+		},
+		{
 			id: ScreenEnum.Subscriptions,
 			title: t('common:screens.subscriptions'),
 			icon: 'wallet-outline',

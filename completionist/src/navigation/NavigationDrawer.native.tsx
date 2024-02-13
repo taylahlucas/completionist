@@ -21,6 +21,8 @@ import Landing from '@screens/Landing.native';
 import useTranslateGameContent from '@utils/hooks/useTranslateGameContent.native';
 import Subscriptions from '@screens/Subscriptions.native';
 import Payments from '@screens/Payments.native';
+import AddSteamID from '@screens/AddSteamID.native';
+import SteamAchievements from '@screens/SteamAchievements.native';
 
 const Drawer = createDrawerNavigator<RootDrawerParamList>();
 
@@ -65,6 +67,8 @@ const NavigationDrawer = () => {
 			<Drawer.Screen name={ScreenEnum.Miscellaneous} component={Miscellaneous} />
 			<Drawer.Screen name={ScreenEnum.Locations} component={Locations} />
 			<Drawer.Screen name={ScreenEnum.RequestGame} component={RequestGame} />
+			<Drawer.Screen name={ScreenEnum.AddSteamID} component={AddSteamID} />
+			<Drawer.Screen name={ScreenEnum.SteamAchievements} component={SteamAchievements} />
 			<Drawer.Screen name={ScreenEnum.Subscriptions} component={Subscriptions} />
 			<Drawer.Screen name={ScreenEnum.Payments} component={Payments} />
 			<Drawer.Screen name={ScreenEnum.Settings} component={Settings} />

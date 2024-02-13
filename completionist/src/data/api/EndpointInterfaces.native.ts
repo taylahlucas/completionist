@@ -34,5 +34,6 @@ export interface EndpointsReturnType {
 	getUserByUserId: ({ userId }: GetUserByUserIdProps) => Promise<UserResponse>;
 	updateUserData: ({ userId, subscription, settings, skyrimData, fallout4Data }: UpdateUserDataProps) => Promise<UserResponse>;
 	sendEmail: ({ from, subject, text }: EmailProps) => Promise<UserResponse>;
-	getSteamUser: () => Promise<void>;
+	getSteamUserById: (appId: string, steamId: string) => Promise<void>;
+	getSteamAchievementsById: (appId: string) => Promise<void>;
 }

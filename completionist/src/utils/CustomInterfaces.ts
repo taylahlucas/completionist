@@ -73,6 +73,8 @@ export type RootDrawerParamList = {
   Miscellaneous: undefined;
   Locations: undefined;
   RequestGame: undefined;
+	AddSteamID: undefined;
+	SteamAchievements: undefined;
   Subscriptions: undefined;
   Payments: undefined;
   Settings: undefined;
@@ -145,6 +147,7 @@ export interface Subscription {
 }
 
 export interface GeneralData {
+	appId: string;
   quests: Item[];
   collectables: Item[];
   locations: Item[];
@@ -158,6 +161,7 @@ export interface UserData {
 }
 
 export interface User extends LoginFormData {
+	steamId?: string;
   subscription: Subscription;
   settings: UserSettings;
   data: UserData;

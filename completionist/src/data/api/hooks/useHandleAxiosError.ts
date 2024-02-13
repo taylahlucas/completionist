@@ -11,12 +11,9 @@ const useHandleAxiosError = () => {
 			case requestCodes.EMAIL_TAKEN:
 				Alert.alert('Error', 'Email already exists.');
 				break;
-			case requestCodes.NO_USER_FOUND:
-				// When signing in
-				Alert.alert('User not found', 'Incorrect email or password.\nPlease try again.');
-				break;
 			case requestCodes.NOT_FOUND:
-				// When searching for user in database
+			case requestCodes.NO_USER_FOUND:
+				// When searching for user in database && signing in
 				break;
 			default:
 				Alert.alert(

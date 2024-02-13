@@ -26,7 +26,7 @@ const TextInput = ({
   ...props
 }: TextInputProps) => {
   const theme = useGetTheme();
-	const { testID, value, placeholder, multiline, secureTextEntry } = props;
+	const { testID, value, placeholder, multiline, secureTextEntry, inputMode } = props;
   const inputTypeStyle = useGetTextInputStyle(inputStyle)
   const [isSecure, setIsSecure] = useState(secureTextEntry ?? false);
 	
@@ -46,6 +46,7 @@ const TextInput = ({
         onChange={(event: NativeSyntheticEvent<TextInputChangeEventData>): void => onChangeText(event.nativeEvent.text ?? '')}
         multiline={multiline ?? false}
         secureTextEntry={isSecure}
+				inputMode={inputMode}
       />
       <Condition condition={secureTextEntry ?? false}>
         <TextInputIcon

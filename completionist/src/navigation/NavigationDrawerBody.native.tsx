@@ -2,7 +2,6 @@ import React from 'react';
 import {
 	NavigationDrawerBodyContainer,
 	NavigationDrawerFooter,
-	NavigationDrawerTitle,
 	NavigationDrawerFooterItem,
 	NavigationDrawerFooterIcon,
 	NavigationDrawerFooterTitle
@@ -45,14 +44,12 @@ const NavigationDrawerBody: React.FunctionComponent = () => {
 							name={item.icon}
 							type={item.iconType}
 							color={theme.lightGrey}
-							size={24}
+							size={item.id === ScreenEnum.SteamAchievements ? 26 : 24}
 						/>
 						<NavigationDrawerFooterTitle
 							type={'ListItemTitle'}
 							color={currentScreen === item.id ? theme.lightGrey : theme.midGrey}
 							align={'left'}
-							ellipsizeMode='tail'
-							numberOfLines={1}
 						>
 							{item.title}
 						</NavigationDrawerFooterTitle>

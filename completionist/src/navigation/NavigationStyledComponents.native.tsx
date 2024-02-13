@@ -55,7 +55,6 @@ export const NavigationDrawerFooterIcon = styled(Icon)`
 export const NavigationDrawerTitle = styled(StyledText)`
 	padding-top: 8px;
 	padding-bottom: 8px;
-	width: ${drawerWidth - 100}px;
 `;
 
 export const NavigationDrawerFooterTitle = styled(StyledText)`
@@ -66,7 +65,8 @@ export const NavigationDrawerFooterTitle = styled(StyledText)`
 
 export const NavigationHeaderSubTitle = styled(StyledText)`
   margin-top: 4px;
-	padding-right: 8px;
+	margin-right: 4px;
+	max-width: 80px;
 `;
 
 export const NavigationHeaderMenuButton = styled.Pressable`

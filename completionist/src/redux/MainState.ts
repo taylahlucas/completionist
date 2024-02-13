@@ -5,6 +5,7 @@ import { AppStateStatus } from 'react-native';
 import { initialFormData } from '@components/custom/LoginForm/LoginState';
 
 export const initialGameData: GeneralData = {
+	appId: '',
 	quests: [],
 	collectables: [],
 	locations: [],

@@ -9,7 +9,7 @@ interface ButtonProps {
 	testID?: string;
   title: string;
   type?: ButtonType;
-  onPress: () => void;
+  onPress: () => void | Promise<void>;
   style?: ViewStyle;
   disabled?: boolean;
   color?: string;
@@ -43,7 +43,7 @@ const Button = ({ testID, title, type = 'default', onPress, style, disabled = fa
 					testID={testID}
           style={{ ...style }} 
           onPress={onPress} 
-          color={!!color ? color : theme.darkGrey}
+          color={!!color ? color : theme.primaryPurple}
           disabled={disabled}
         >
           <StyledText type={'Heading'} color={theme.lightestGrey}>{title}</StyledText>

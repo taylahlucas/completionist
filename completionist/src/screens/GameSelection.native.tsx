@@ -11,11 +11,11 @@ const GameSelection = () => {
   const { t } = useTranslation();
   const { user } = useMainState();
   const [searchValue, setSearchValue] = useState('');
-	const { getSteamUser } = useEndpoints();
+	// const { getSteamUser } = useEndpoints();
 
-	useEffect(() => {
-		getSteamUser();
-	}, [])
+	// useEffect(() => {
+	// 	getSteamUser();
+	// }, [])
   
   return (
     <StandardLayout>
