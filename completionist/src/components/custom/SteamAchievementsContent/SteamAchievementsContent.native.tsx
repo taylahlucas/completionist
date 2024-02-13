@@ -1,44 +1,38 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import ScrollableList from '@components/general/Lists/ScrollableList.native';
-import useEndpoints from '@data/api/hooks/useEndpoints.native';
-import useMainState from '@redux/hooks/useMainState';
-import { SteamAchievement, SteamPlayerAchievement } from '@utils/CustomInterfaces';
+import { SteamAchievement } from '@utils/CustomInterfaces';
 import SteamAchievementItem from './SteamAchievementItem.native';
+import useSteamAchievements from './hooks/useSteamAchievements.native';
+import StyledText from '@components/general/Text/StyledText.native';
+import Spacing from '@components/general/Spacing.native';
+import useMainState from '@redux/hooks/useMainState';
 
 const SteamAchievementsContent = () => {
-	const [combinedResults, setCombinedResults] = useState([]);
-	const { user, selectedGame, selectedGameData } = useMainState();
-	const { getSteamAchievementsById, getSteamPlayerAchievements } = useEndpoints();
-	
-	useEffect(() => {
-		if (!!selectedGameData?.appId) {
-			getSteamAchievementsById(selectedGameData?.appId)
-				.then((result) => {
-					if (!!result) {
-						getSteamPlayerAchievements(selectedGameData?.appId, user.steamId ?? '')
-							.then((playerResult) => {
-								if (!!playerResult) {
-									const updatedResults = result.map((item: SteamAchievement) => {
-										const updatedResult = playerResult.find((playerItem: SteamPlayerAchievement) => item.name === playerItem.name);
-										return {
-											...item,
-											achieved: updatedResult?.achieved ?? false
-										}
-									});
+	const [achievements, setAchievements] = useState([]);
+	const [completed, setCompleted] = useState([]);
+	const { selectedGame } = useMainState();
+	const { fetchSteamAchievements } = useSteamAchievements();
 
-									setCombinedResults(updatedResults);
-								}
-							});
-					}
-				});
-		}
+	useEffect(() => {
+		fetchSteamAchievements()
+		.then((result) => {
+			if (!!result) {
+				setAchievements(result);
+				const completed = result.filter((item: SteamAchievement) => item.achieved);
+				setCompleted(completed);
+			}
+		});
 	}, [selectedGame]);
 
 	return (
 		<ScrollableList>
-			{combinedResults.map((achievement: SteamAchievement, index: number) => (
-				<SteamAchievementItem key={index} achievement={achievement} />
-			))}
+			<StyledText>{`${completed.length.toString()} / ${achievements.length.toString()}`}</StyledText>
+			<Spacing />
+			<>
+				{achievements.map((achievement: SteamAchievement, index: number) => (
+					<SteamAchievementItem key={index} achievement={achievement} />
+				))}
+			</>
 		</ScrollableList>
 
 	);

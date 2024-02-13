@@ -32,6 +32,7 @@ const useEndpoints = (): EndpointsReturnType => {
 	const { saveUserData, setAuthHeaders, storeUserCredentials, getAuthToken } = useAuth();
 	const { handleAxiosError } = useHandleAxiosError();
 
+	// TODO: Add axios caching https://www.npmjs.com/package/axios-cache-adapter
 	// TODO: Work out a better way to handle authToken
 	// TODO: Test if authToken is doing anything currently (in terms of security)
 	const signUp = async ({ data }: CreateUserProps): Promise<UserResponse> => {
@@ -171,7 +172,7 @@ const useEndpoints = (): EndpointsReturnType => {
 			}
 		}
 	};
-
+	
 	const getSteamPlayerAchievements = async (appId: string, steamId: string): Promise<SteamPlayerAchievement | void> => {
 		try {
 			const response = await axios.get(
@@ -185,7 +186,7 @@ const useEndpoints = (): EndpointsReturnType => {
 						name: item.apiname
 					}
 				});
-				return mappedStats;
+				return mappedStats as SteamPlayerAchievement;
 			}
 		}
 		catch (error: AxiosErrorResponse) {
