@@ -73,7 +73,7 @@ const isAuthenticated = (req, res, next) => {
   res.redirect('/');
 };
 
-// Example protected route
+// TODO: Implement Example protected route
 app.get('/protected', isAuthenticated, (req, res) => {
   res.send('This is a protected route.');
 });

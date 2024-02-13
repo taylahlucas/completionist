@@ -22,7 +22,7 @@ const useEditUserData = (): EditUserDataReturnType => {
 	const { setLoginFormData, setLoggedIn } = useLoginDispatch();
 	const { fetchDataFromCache, saveToCache, clearCache } = useCache();
 	const { getCredentials, deleteCredentials } = useKeychain();
-	const { updateUserData } = useEndpoints();
+	const { updateUserInfo, updateUserData } = useEndpoints();
 
 	const loadUserData = () => {
 		getCredentials()
@@ -47,12 +47,19 @@ const useEditUserData = (): EditUserDataReturnType => {
 
 	const updateUser = (user: User) => {
 		saveUserAndLogin(user);
-		updateUserData({
+		updateUserInfo({
 			userId: user.userId,
+			steamId: user.steamId,
 			subscription: user.subscription,
 			settings: user.settings,
-			skyrimData: user.data?.skyrim,
-			fallout4Data: user.data?.fallout4
+			userAvatar: user.userAvatar
+		});
+		updateUserData({
+			userId: user.userId,
+			data: {
+				skyrim: user.data.skyrim,
+				fallout4: user.data.fallout4
+			}
 		});
 	}
 

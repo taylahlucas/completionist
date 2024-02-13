@@ -5,7 +5,7 @@ import useMainDispatch from '@redux/hooks/useMainDispatch';
 import useLoginState from '@components/custom/LoginForm/hooks/useLoginState';
 
 const useTimedDataUpdate = () => {
-	const { updateUserData } = useEndpoints();
+	const { updateUserInfo, updateUserData } = useEndpoints();
 	const { setShouldUpdateUser } = useMainDispatch();
 	const { user, shouldUpdateUser } = useMainState();
 	const { isLoggedIn } = useLoginState();
@@ -14,12 +14,19 @@ const useTimedDataUpdate = () => {
 		// Set up a timer to fetch data every 5 minutes (5 * 60 * 1000)
 		const timerId = setInterval(() => {
 			if (shouldUpdateUser && isLoggedIn) {
-				updateUserData({
+				updateUserInfo({
 					userId: user.userId,
+					steamId: user.steamId,
 					subscription: user.subscription,
 					settings: user.settings,
-					skyrimData: user.data.skyrim,
-					fallout4Data: user.data.fallout4
+					userAvatar: user.userAvatar
+				});
+				updateUserData({
+					userId: user.userId,
+					data: {
+						skyrim: user.data.skyrim,
+						fallout4: user.data.fallout4
+					}
 				});
 				setShouldUpdateUser(false);
 			}

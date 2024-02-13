@@ -14,6 +14,7 @@ const AddSteamIDContent = () => {
 	const { selectedGameData } = useMainState();
 	const { getSteamUserById } = useEndpoints();
 
+	// TODO: Add translations
 	return (
 		<ScrollableList
 			style={styles.scrollStyle} 
@@ -35,7 +36,7 @@ const AddSteamIDContent = () => {
 				onReset={() => setSteamId('')}
 			/>
 			<Spacing />
-			<StyledText type={'ListItemSubTitleBold'}>Step 2. Update your profile preferences</StyledText>
+			<StyledText type={'ListItemSubTitleBold'}>Step 2. Update your privacy preferences</StyledText>
 			<Spacing />
 			<StyledText>You will also need to ensure your profile is public.</StyledText>
 			<Spacing />

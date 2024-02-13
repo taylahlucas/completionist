@@ -1,4 +1,4 @@
-import { GeneralData, LoginFormData, Subscription, SettingsOptionItem, UserSettings } from '@utils/CustomInterfaces';
+import { LoginFormData, Subscription, UserSettings, UserData } from '@utils/CustomInterfaces';
 import { UserResponse } from '@utils/CustomTypes';
 
 export interface CreateUserProps {
@@ -14,12 +14,17 @@ export interface GetUserByUserIdProps {
 	userId: string;
 }
 
-export interface UpdateUserDataProps {
+export interface UpdateUserInfoProps {
 	userId: string;
+	steamId?: string;
 	subscription: Subscription;
 	settings: UserSettings;
-	skyrimData: GeneralData;
-	fallout4Data: GeneralData;
+	userAvatar?: string;
+}
+
+export interface UpdateUserDataProps {
+	userId: string;
+	data: UserData;
 }
 
 export interface EmailProps {
@@ -32,7 +37,8 @@ export interface EndpointsReturnType {
 	signIn: ({ email, password }: SignInProps) => Promise<UserResponse>;
 	signUp: ({ data }: CreateUserProps) => Promise<UserResponse>;
 	getUserByUserId: ({ userId }: GetUserByUserIdProps) => Promise<UserResponse>;
-	updateUserData: ({ userId, subscription, settings, skyrimData, fallout4Data }: UpdateUserDataProps) => Promise<UserResponse>;
+	updateUserInfo: ({ userId, steamId, subscription, settings, userAvatar }: UpdateUserInfoProps) => Promise<UserResponse>;
+	updateUserData: ({ userId, data }: UpdateUserDataProps) => Promise<UserResponse>;
 	sendEmail: ({ from, subject, text }: EmailProps) => Promise<UserResponse>;
 	getSteamUserById: (appId: string, steamId: string) => Promise<void>;
 	getSteamAchievementsById: (appId: string) => Promise<void>;

@@ -3,11 +3,19 @@ import uuid from 'react-native-uuid';
 import axios from 'axios';
 import { User } from '@utils/CustomInterfaces';
 import { AxiosErrorResponse, UserResponse } from '@utils/CustomTypes';
-import { signupUrl, signinUrl, getUserByUserIdUrl, updateUserDataUrl, sendEmailUrl } from '../../urls';
+import { 
+	signupUrl, 
+	signinUrl, 
+	getUserByUserIdUrl, 
+	updateUserInfoUrl,
+	updateUserDataUrl, 
+	sendEmailUrl 
+} from '../../urls';
 import {
 	CreateUserProps,
 	SignInProps,
 	GetUserByUserIdProps,
+	UpdateUserInfoProps,
 	UpdateUserDataProps,
 	EmailProps,
 	EndpointsReturnType
@@ -80,7 +88,29 @@ const useEndpoints = (): EndpointsReturnType => {
 		}
 	};
 
-	const updateUserData = async ({ userId, subscription, settings, skyrimData, fallout4Data }: UpdateUserDataProps): Promise<UserResponse> => {
+	const updateUserInfo = async ({ userId, steamId, subscription, settings, userAvatar }: UpdateUserInfoProps): Promise<UserResponse> => {
+		const authToken = await getAuthToken();
+		if (!!authToken) {
+			try {
+				await axios.post(
+					`${url}/${updateUserInfoUrl}`,
+					{
+						userId: userId,
+						steamId: steamId,
+						subscription: subscription,
+						settings: settings,
+						userAvatar: userAvatar
+					},
+					setAuthHeaders(authToken)
+				);
+			}
+			catch (error: AxiosErrorResponse) {
+				handleAxiosError(error);
+			}
+		}
+	};
+
+	const updateUserData = async ({ userId, data }: UpdateUserDataProps): Promise<UserResponse> => {
 		const authToken = await getAuthToken();
 		if (!!authToken) {
 			try {
@@ -88,11 +118,7 @@ const useEndpoints = (): EndpointsReturnType => {
 					`${url}/${updateUserDataUrl}`,
 					{
 						userId: userId,
-						subscription: subscription,
-						settings: settings,
-						// TODO: Change this
-						skyrimData: skyrimData,
-						fallout4Data: fallout4Data
+						data: data
 					},
 					setAuthHeaders(authToken)
 				);
@@ -155,14 +181,13 @@ const useEndpoints = (): EndpointsReturnType => {
 			console.log("HERE: ", error.response)
 		}
 	};
-
-
-
+	
 	return { 
 		signIn, 
 		signUp, 
 		getUserByUserId, 
-		updateUserData, 
+		updateUserInfo,
+		updateUserData,
 		sendEmail, 
 		getSteamUserById, 
 		getSteamAchievementsById 

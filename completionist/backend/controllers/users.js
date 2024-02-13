@@ -17,21 +17,41 @@ const getUserByUserId = async (req, res) => {
   }
 };
 
-const updateUserData = async (req, res) => {
+const updateUserInfo = async (req, res) => {
   try {
-    const { userId, subscription, settings, skyrimData, fallout4Data } = req.body;
+    const { userId, subscription, settings } = req.body;
 
     const result = await User.updateOne({ 
       userId: userId,
       subscription: subscription,
-      settings: settings,
+      settings: settings
+     });
+     if (result.matchedCount > 0) {
+      console.log(`User info with ID ${userId} updated successfully`);
+      return res.status(request_codes.SUCCESS).json(result.user);
+    } else {
+      return res.status(404).json({ error: 'User not found' });
+    }
+  }
+  catch(error) {
+    console.log("Logging Error updating info: ", error.message)
+    res.status(error.status).json(error.message);
+  }
+};
+
+const updateUserData = async (req, res) => {
+  try {
+    const { userId, data } = req.body;
+
+    const result = await User.updateOne({ 
+      userId: userId,
       data: {
-        skyrim: skyrimData,
-        fallout4: fallout4Data
+        skyrim: data.skyrim,
+        fallout4: data.fallout4
       }
      });
      if (result.matchedCount > 0) {
-      console.log(`User with ID ${userId} updated successfully`);
+      console.log(`User data with ID ${userId} updated successfully`);
       return res.status(request_codes.SUCCESS).json(result.user);
     } else {
       return res.status(404).json({ error: 'User not found' });
@@ -45,5 +65,6 @@ const updateUserData = async (req, res) => {
 
 module.exports = {
   getUserByUserId,
-  updateUserData
+  updateUserInfo,
+	updateUserData
 }
