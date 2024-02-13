@@ -94,6 +94,12 @@ export interface SteamAchievement {
 	icon: string;
 	icongray: string;
 	name: string;
+	achieved?: boolean;
+}
+
+export interface SteamPlayerAchievement {
+	achieved: boolean;
+	name: string;
 }
 
 export interface CachedData {

@@ -29,9 +29,11 @@ const NavigationDrawerBody: React.FunctionComponent = () => {
 
 	return (
 		<NavigationDrawerBodyContainer>
+			{/* Main items */}
 			{drawerItems.map((item, index) => (
 				<NavigationDrawerItem key={index} item={item} isActive={currentScreen === item.id} />
 			))}
+			{/* Footer items */}
 			<NavigationDrawerFooter>
 				{footerItems.map((item, index) => (
 					<NavigationDrawerFooterItem key={index} onPress={(): void => {

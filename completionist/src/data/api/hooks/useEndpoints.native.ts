@@ -1,7 +1,7 @@
 import { Alert, Platform } from 'react-native';
 import uuid from 'react-native-uuid';
 import axios from 'axios';
-import { SteamAchievement, User } from '@utils/CustomInterfaces';
+import { SteamAchievement, SteamPlayerAchievement, User } from '@utils/CustomInterfaces';
 import { AxiosErrorResponse, StringResponse, UserResponse } from '@utils/CustomTypes';
 import { 
 	signupUrl, 
@@ -172,14 +172,20 @@ const useEndpoints = (): EndpointsReturnType => {
 		}
 	};
 
-	const getSteamPlayerAchievements = async (appId: string, steamId: string) => {
+	const getSteamPlayerAchievements = async (appId: string, steamId: string): Promise<SteamPlayerAchievement | void> => {
 		try {
 			const response = await axios.get(
-				`https://api.steampowered.com/ISteamUserStats/GetUserStatsForGame/v0001/?appid=${appId}&key=${config.steamApiToken}&steamid=${steamId}`
+				`https://api.steampowered.com/ISteamUserStats/GetPlayerAchievements/v0001/?appid=${appId}&key=${config.steamApiToken}&steamid=${steamId}`
 			);
 
 			if (!!response?.data?.playerstats) {
-				return response?.data?.playerstats;
+				const mappedStats = response?.data?.playerstats.achievements.map((item: any) => {
+					return {
+						achieved: item.achieved === 1,
+						name: item.apiname
+					}
+				});
+				return mappedStats;
 			}
 		}
 		catch (error: AxiosErrorResponse) {
@@ -201,7 +207,7 @@ const useEndpoints = (): EndpointsReturnType => {
 			return response.data.game.availableGameStats.achievements as SteamAchievement[];
 		}
 		catch (error: AxiosErrorResponse) {
-			console.log('Could not get achievements for this game.');
+			console.log('Could not get achievements for this game.', error.message);
 		}
 	};
 

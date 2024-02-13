@@ -46,6 +46,7 @@ export const NavigationHeaderTitleContainer = styled.Pressable<NavigationHeaderT
 export const NavigationDrawerFooterItem = styled.Pressable`
 	flex-direction: row;
 	align-items: center;
+	margin-top: 4px;
 `;
 
 export const NavigationDrawerFooterIcon = styled(Icon)`

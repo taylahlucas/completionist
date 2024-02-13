@@ -7,8 +7,7 @@ const useAuth = () => {
 	const { setUser } = useMainDispatch();
 	const { saveToCache } = useCache();
 	const { storeCredentials, getCredentials } = useKeychain();
-
-	// TODO: Remove saveDataAndLogin and replace with this
+	
 	const saveUserData = (user: User) => {
 		saveToCache(user);
 		setUser(user);
