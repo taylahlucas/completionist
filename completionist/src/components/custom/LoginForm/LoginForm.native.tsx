@@ -69,7 +69,7 @@ const LoginForm = () => {
           title={t('common:auth.forgotPassword')}
           type={'text'}
           style={{ alignItems: 'flex-end' }}
-          onPress={() => null}
+          onPress={() => {}}
         />
       </Condition>
     </LoginFormContainer>

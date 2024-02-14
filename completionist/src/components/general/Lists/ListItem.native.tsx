@@ -6,6 +6,7 @@ import AnimatedCheckBox from '../Checkbox/AnimatedCheckBox.native';
 import Condition from '../Condition.native';
 import useGetLocationString from '@utils/hooks/useGetLocationString';
 import StyledText from '../Text/StyledText.native';
+import useFormatter from '@utils/hooks/useFormatter';
 
 interface ListItemProps {
   id: string;
@@ -18,6 +19,7 @@ interface ListItemProps {
 
 const ListItem = ({ title, location, hold, isComplete = false, action }: ListItemProps) => {
   const theme = useGetTheme();
+	const { capitalize } = useFormatter();
   const locationString = useGetLocationString({ hold, location });
 	const fadeValue = useRef(new Animated.Value(isComplete ? 0 : 1)).current;
 
@@ -45,7 +47,7 @@ const ListItem = ({ title, location, hold, isComplete = false, action }: ListIte
           ellipsizeMode={'tail'}
           color={isComplete ? theme.midGrey : theme.lightestGrey}
         >
-          {title}
+          {capitalize(title)}
         </ListItemTitle>
         <Condition condition={!!location || !!hold}>
           <ListItemLocationContainer>
