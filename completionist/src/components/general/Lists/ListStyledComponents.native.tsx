@@ -1,4 +1,4 @@
-import { Dimensions, StyleSheet } from 'react-native';
+import { Animated, Dimensions, StyleSheet } from 'react-native';
 import styled from 'styled-components/native';
 import StyledText from '@components/general/Text/StyledText.native';
 import { DEFAULT_BORDER_RADIUS } from '@styles/global.native';
@@ -58,7 +58,7 @@ export const SubListContainer = styled.View`
   margin-top: 8px;
 `;
 
-export const ListItemContainer = styled.View<ListItemStyleProps>`
+export const ListItemContainer = styled(Animated.View)<ListItemStyleProps>`
   flex-direction: row;
   border-radius: ${DEFAULT_BORDER_RADIUS}px;
   margin-top: 8px;

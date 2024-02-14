@@ -47,6 +47,7 @@ const NavigationDrawer = () => {
 
 	return (
 		<Drawer.Navigator
+			backBehavior='history'
 			drawerContent={(): JSX.Element => <NavigationDrawerContent />}
 			initialRouteName={ScreenEnum.RootStackNavigator}
 			screenOptions={{

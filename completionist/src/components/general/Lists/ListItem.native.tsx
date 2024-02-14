@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useRef } from 'react';
+import { Animated } from 'react-native';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import { ListItemContainer, ListItemTitle, ListItemContentContainer, ListItemLocationContainer } from './ListStyledComponents.native';
 import AnimatedCheckBox from '../Checkbox/AnimatedCheckBox.native';
@@ -18,9 +19,26 @@ interface ListItemProps {
 const ListItem = ({ title, location, hold, isComplete = false, action }: ListItemProps) => {
   const theme = useGetTheme();
   const locationString = useGetLocationString({ hold, location });
+	const fadeValue = useRef(new Animated.Value(isComplete ? 0 : 1)).current;
 
+	const fadeAnimation = (fadeOut: boolean) => {
+		Animated.timing(fadeValue, {
+			toValue: fadeOut ? 1 : 0,
+			duration: 500,
+			useNativeDriver: true
+		}).start();
+	}
+
+	const interpolatedBackgroundColor = fadeValue.interpolate({
+    inputRange: [0, 1],
+    outputRange: [theme.darkGrey, theme.midGrey],
+  });
+	
   return (
-    <ListItemContainer color={isComplete ? theme.darkGrey : theme.midGrey}>
+    <ListItemContainer 
+			color={isComplete ? theme.darkGrey : theme.midGrey} 
+			style={{ backgroundColor: interpolatedBackgroundColor }}
+		>
       <ListItemContentContainer>
         <ListItemTitle
           align={'left'}
@@ -42,9 +60,14 @@ const ListItem = ({ title, location, hold, isComplete = false, action }: ListIte
           </ListItemLocationContainer>
         </Condition>
       </ListItemContentContainer>
-      <AnimatedCheckBox isToggled={isComplete} action={action} />
+      <AnimatedCheckBox isToggled={isComplete} action={() => {
+					action();
+					fadeAnimation(isComplete);
+				}} />
     </ListItemContainer>
   );
 };
 
 export default ListItem;
+
+
