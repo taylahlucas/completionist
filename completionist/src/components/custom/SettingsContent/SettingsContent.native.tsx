@@ -8,6 +8,8 @@ import useDLCOptions from './hooks/useDLCOptions';
 import useGetShowHideOptions from './hooks/useGetShowHideOptions';
 import useSettingsOptionsOnPress from './hooks/useSettingsOptionsOnPress.native';
 import SettingsContentSelectLanguage from './SettingsContentSelectLanguage.native';
+import TextInput from '@components/general/TextInput/TextInput.native';
+import { View } from 'react-native';
 
 const SettingsContent = () => {
 	const { t } = useTranslation();
@@ -44,9 +46,18 @@ const SettingsContent = () => {
 				Select primary color:
 			</SettingsContentDescription>
 
-			<SettingsContentDescription align={'left'}>
-				Change username:
-			</SettingsContentDescription>
+{/* // TODO: */}
+			<View>
+				<SettingsContentDescription align={'left'}>
+					Change username:
+				</SettingsContentDescription>
+				<TextInput
+					placeholder={'Enter Username'}
+					value={''}
+					onChangeText={(): void => { }}
+					onReset={(): void => { }}
+				/>
+			</View>
 
 			<SettingsContentDescription align={'left'}>
 				Change email:

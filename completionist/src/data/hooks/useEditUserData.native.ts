@@ -55,12 +55,10 @@ const useEditUserData = (): EditUserDataReturnType => {
 	const saveUserAndSignUp = (user: User) => {
 		setUser(user);
 		setLoggedIn(true);
-		console.log("saveUserAndSignUp USER: ", user.userId)
-		navigation.navigate(!!user.name ? ScreenEnum.SelectFirstGame : ScreenEnum.SetUserName);
+		navigation.navigate(ScreenEnum.SelectFirstGame);
 	};
 
 	const updateUser = (user: User) => {
-		console.log("UPDATING USER: ", user.subscription)
 		updateUserInfo({
 			userId: user.userId,
 			steamId: user.steamId,

@@ -71,7 +71,6 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 						// If yes, return user. If no, create user
 						getUserByUserId({ userId: uid })
 							.then((existingUser) => {
-								console.log("HERE existingUser from login: ", existingUser)
 								if (!!existingUser) {
 									saveUserAndLogin(existingUser);
 								}

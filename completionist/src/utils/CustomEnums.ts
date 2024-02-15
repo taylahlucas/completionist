@@ -2,7 +2,6 @@ export enum ScreenEnum {
   RootStackNavigator = 'RootStackNavigator',
   Landing = 'Landing',
   Login = 'Login',
-	SetUserName = 'SetUserName',
 	SelectFirstGame = 'SelectFirstGame',
   GameSelection = 'GameSelection',
   LeftMenu = 'LeftMenu',

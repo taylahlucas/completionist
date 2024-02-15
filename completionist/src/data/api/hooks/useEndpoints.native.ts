@@ -41,7 +41,7 @@ const useEndpoints = (): EndpointsReturnType => {
 				{
 					userId: data.userId ? data.userId : uuid.v4(),
 					name: data.name,
-					email: data.email,
+					email: data.email.toLocaleLowerCase(),
 					password: data.password ?? '',
 					userAvatar: data.userAvatar
 				}
@@ -61,7 +61,7 @@ const useEndpoints = (): EndpointsReturnType => {
 		try {
 			const response = await axios.post(`${url}/${signinUrl}`,
 				{
-					email: email,
+					email: email.toLocaleLowerCase(),
 					password: password
 				}
 			);
