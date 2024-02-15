@@ -22,6 +22,8 @@ import useTranslateGameContent from '@utils/hooks/useTranslateGameContent.native
 import Subscriptions from '@screens/Subscriptions.native';
 import Payments from '@screens/Payments.native';
 import SteamAchievements from '@screens/SteamAchievements.native';
+import SetUserName from '@screens/SetUserName.native';
+import SelectFirstGame from '@screens/SelectFirstGame.native';
 
 const Drawer = createDrawerNavigator<RootDrawerParamList>();
 
@@ -45,6 +47,7 @@ const NavigationDrawer = () => {
 		);
 	};
 
+	// TODO: Move non-drawer screens to Stack.Screen navigator?
 	return (
 		<Drawer.Navigator
 			backBehavior='history'
@@ -61,6 +64,8 @@ const NavigationDrawer = () => {
 			<Drawer.Screen name={ScreenEnum.RootStackNavigator} component={RootStackNavigator} />
 			<Drawer.Screen name={ScreenEnum.Landing} component={Landing} />
 			<Drawer.Screen name={ScreenEnum.Login} component={Login} />
+			<Drawer.Screen name={ScreenEnum.SetUserName} component={SetUserName} />
+			<Drawer.Screen name={ScreenEnum.SelectFirstGame} component={SelectFirstGame} />
 			<Drawer.Screen name={ScreenEnum.GameSelection} component={GameSelection} />
 			<Drawer.Screen name={ScreenEnum.Quests} component={Quests} />
 			<Drawer.Screen name={ScreenEnum.Collectables} component={Collectables} />

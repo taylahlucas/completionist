@@ -10,6 +10,7 @@ import { SubscriptionData } from '@utils/CustomInterfaces';
 import GameListSectionHeader from './GameListSectionHeader.native';
 import useTranslateGameContent from '@utils/hooks/useTranslateGameContent.native';
 import useContentDispatch from '../ContentList/hooks/useContentDispatch';
+import useGetTheme from '@styles/hooks/useGetTheme';
 
 interface GameListSectionDropdown {
 	testID?: string;
@@ -18,6 +19,7 @@ interface GameListSectionDropdown {
 }
 
 const GameListSectionDropdown = ({ testID, title, data }: GameListSectionDropdown) => {
+	const theme = useGetTheme();
   const navigation = useReactNavigation();
   const { setSelectedGame, setSelectedGameSettings, reset } = useMainDispatch();
   const { reset: contentReset } = useContentDispatch();
@@ -39,6 +41,7 @@ const GameListSectionDropdown = ({ testID, title, data }: GameListSectionDropdow
 						testID={game.id}
             title={translateGameName(game.id)}
             enabled={game.isActive}
+						enabledColor={game.isActive ? theme.lightGrey : theme.midGrey}
             imageUrl={getGameImage(game.id)}
             onPress={(): void => {
               contentReset();

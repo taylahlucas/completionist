@@ -9,7 +9,7 @@ const getUserByUserId = async (req, res) => {
     if (user) {
       return res.status(request_codes.SUCCESS).json(user);
     } else {
-      return res.status(request_codes.EMAIL_NOT_FOUND).json({ error: 'User not found' });
+      res.status(request_codes.EMAIL_NOT_FOUND).json({ error: 'User not found' });
     }
   } catch (error) {
     console.error('Logging Error retrieving user:', error.message);

@@ -11,6 +11,7 @@ import useEndpoints from '../api/hooks/useEndpoints.native';
 interface EditUserDataReturnType {
 	loadUserData: () => void;
 	saveUserAndLogin: (user: User) => void;
+	saveUserAndSignUp: (user: User) => void;
 	updateUser: (user: User) => void;
 	removeUserData: () => void;
 }
@@ -50,6 +51,12 @@ const useEditUserData = (): EditUserDataReturnType => {
 		navigation.navigate(ScreenEnum.GameSelection);
 	};
 
+	const saveUserAndSignUp = (user: User) => {
+		setUser(user);
+		setLoggedIn(true);
+		navigation.navigate(!!user.name ? ScreenEnum.SelectFirstGame : ScreenEnum.SetUserName);
+	};
+
 	const updateUser = (user: User) => {
 		saveUserAndLogin(user);
 		updateUserInfo({
@@ -77,7 +84,7 @@ const useEditUserData = (): EditUserDataReturnType => {
 		navigation.dispatch(DrawerActions.closeDrawer());
 	}
 
-	return { saveUserAndLogin, removeUserData, updateUser, loadUserData };
+	return { saveUserAndLogin, saveUserAndSignUp, removeUserData, updateUser, loadUserData };
 };
 
 export default useEditUserData;

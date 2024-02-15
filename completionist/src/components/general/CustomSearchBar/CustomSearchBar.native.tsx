@@ -20,12 +20,11 @@ const CustomSearchBar = ({ placeholder, searchValue, setSearchValue, onReset }: 
     <TextInput
       placeholder={!!placeholder ? placeholder : t('common:search')}
       value={searchValue}
-      height={38}
+      height={42}
       onChangeText={setSearchValue}
       onReset={onReset}
       leftComponent={<Icon style={styles.searchBarIcon} name={'search'} color={theme.midGrey} />}
     />
-
   );
 };
 

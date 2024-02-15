@@ -54,8 +54,8 @@ const userSchema = new mongoose.Schema({
 userSchema.path('subscription.tier').default('bronze');
 userSchema.path('subscription.changesLeft').default(0);
 userSchema.path('subscription.data').default([
-  { id: 'skyrim', isActive: true },
-  { id: 'fallout4', isActive: true }
+  { id: 'skyrim', isActive: false },
+  { id: 'fallout4', isActive: false }
 ]);
 userSchema.path('settings.lang').default('en');
 userSchema.path('settings.configs').default([

@@ -23,7 +23,7 @@ interface GetLoginMethodsReturnType {
 const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 	const { t } = useTranslation();
 	const { loginFormData } = useLoginState();
-	const { saveUserAndLogin, removeUserData } = useSaveUserData();
+	const { saveUserAndLogin, saveUserAndSignUp, removeUserData } = useSaveUserData();
 	const { signIn, signUp, getUserByUserId } = useEndpoints();
 	const { storeCredentials } = useKeychain();
 
@@ -31,7 +31,7 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 		try {
 			const response = await signUp({ data: loginFormData });
 			if (!!response) {
-				saveUserAndLogin(response);
+				saveUserAndSignUp(response);
 			}
 		}
 		catch (error: AxiosErrorResponse) {
@@ -84,7 +84,7 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 									})
 										.then((response) => {
 											if (!!response) {
-												saveUserAndLogin(response);
+												saveUserAndSignUp(response);
 											}
 										})
 								}
