@@ -10,8 +10,7 @@ const GameSelection = () => {
   const { t } = useTranslation();
   const { user } = useMainState();
   const [searchValue, setSearchValue] = useState('');
-  
-	// TODO: Implement htis on SelectFirstGame
+	
   return (
     <StandardLayout>
       <NavigationHeader 
