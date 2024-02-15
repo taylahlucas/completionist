@@ -9,7 +9,7 @@
 			"subCategoryType": "",
 			"location": "",
 			"href": "",
-			"conflictingId": ""
+			"conflictingIds": ""
 	},
 	{
 			"id": "a8a38811-11d4-4e7f-9f77-8db4b8a0c703",
@@ -21,7 +21,7 @@
 			"subCategoryType": "",
 			"location": "",
 			"href": "",
-			"conflictingId": ""
+			"conflictingIds": ""
 	},
 	{
 			"id": "4e69345f-ef93-4478-80aa-fdd76b6a67b2",
@@ -33,7 +33,7 @@
 			"subCategoryType": "",
 			"location": "",
 			"href": "",
-			"conflictingId": ""
+			"conflictingIds": ""
 	},
 	{
 			"id": "66322bfb-e711-4178-9d6e-6869133d4b33",
@@ -45,7 +45,7 @@
 			"subCategoryType": "",
 			"location": "",
 			"href": "",
-			"conflictingId": ""
+			"conflictingIds": ""
 	},
 	{
 			"id": "16d6f178-c8f9-4a08-8963-5f7b9a60a3cc",
@@ -57,7 +57,7 @@
 			"subCategoryType": "",
 			"location": "",
 			"href": "",
-			"conflictingId": ""
+			"conflictingIds": ""
 	},
 	// {
 	// 		"id": "98e3d3d5-5563-468a-990b-ee72d1d3a126",
@@ -69,7 +69,7 @@
 	// 		"subCategoryType": "",
 	// 		"location": "",
 	// 		"href": "",
-	// 		"conflictingId": ""
+	// 		"conflictingIds": ""
 	// },
 	{
 			"id": "e498fbce-32c3-4d68-9301-6c35d8438c16",
@@ -81,7 +81,7 @@
 			"subCategoryType": "Velen",
 			"location": "",
 			"href": "",
-			"conflictingId": ""
+			"conflictingIds": ""
 	},
 	{
 			"id": "9fc255b5-653d-4c71-8eaf-9bc86b18c7c1",
@@ -93,7 +93,7 @@
 			"subCategoryType": "Velen",
 			"location": "",
 			"href": "",
-			"conflictingId": ""
+			"conflictingIds": ""
 	},
 	{
 			"id": "654d72c4-6e96-4850-a6f8-c58b07c06ad2",
@@ -105,7 +105,7 @@
 			"subCategoryType": "Velen",
 			"location": "",
 			"href": "",
-			"conflictingId": ""
+			"conflictingIds": ""
 	},
 	{
 			"id": "20b7a6a1-6b0a-4ce6-a6f7-9f2b65e58dfb",
@@ -117,7 +117,7 @@
 			"subCategoryType": "Velen",
 			"location": "",
 			"href": "",
-			"conflictingId": ""
+			"conflictingIds": ""
 	},
 	{
 			"id": "c35a3cb8-af87-42a3-8194-8db2074a5ee7",
@@ -129,7 +129,7 @@
 			"subCategoryType": "Velen",
 			"location": "",
 			"href": "",
-			"conflictingId": ""
+			"conflictingIds": ""
 	},
 	{
 			"id": "0c0cc13d-641f-42d9-a6de-6798480f6b7f",
@@ -141,7 +141,7 @@
 			"subCategoryType": "Velen",
 			"location": "",
 			"href": "",
-			"conflictingId": ""
+			"conflictingIds": ""
 	},
 	{
 			"id": "b5b37f11-02db-4b49-81b7-b2a9d2f2b5b3",
@@ -153,7 +153,7 @@
 			"subCategoryType": "Velen",
 			"location": "",
 			"href": "",
-			"conflictingId": ""
+			"conflictingIds": ""
 	},
 	{
 			"id": "647b3307-4e15-4a5e-80cf-0013cb874ea9",
@@ -165,7 +165,7 @@
 			"subCategoryType": "Velen",
 			"location": "",
 			"href": "",
-			"conflictingId": ""
+			"conflictingIds": ""
 	},
 	{
 			"id": "af7e61f7-207d-4a5a-9011-42c65d5d5b5a",
@@ -177,7 +177,7 @@
 			"subCategoryType": "Velen",
 			"location": "",
 			"href": "",
-			"conflictingId": ""
+			"conflictingIds": ""
 	},
 	{
 			"id": "a4c6c819-656e-4b7e-9b69-963a2e1c8a0b",
@@ -189,7 +189,7 @@
 			"subCategoryType": "Velen",
 			"location": "",
 			"href": "",
-			"conflictingId": ""
+			"conflictingIds": ""
 	},
 	{
 			"id": "bfe6e2d9-83e6-4598-8a38-14b021b48fbf",
@@ -201,7 +201,7 @@
 			"subCategoryType": "Velen",
 			"location": "",
 			"href": "",
-			"conflictingId": ""
+			"conflictingIds": ""
 	},
 	{
 			"id": "b7de6a8a-0f50-4a5c-8bd9-63e5d432c33d",
@@ -213,7 +213,7 @@
 			"subCategoryType": "Velen",
 			"location": "",
 			"href": "",
-			"conflictingId": ""
+			"conflictingIds": ""
 	},
 	{
 			"id": "4c450489-f198-4e27-915d-1ab9ea6536ee",
@@ -225,7 +225,7 @@
 			"subCategoryType": "Novigrad",
 			"location": "",
 			"href": "",
-			"conflictingId": ""
+			"conflictingIds": ""
 	},
 	{
 			"id": "f078c1b9-1db0-4b3f-8490-9ec416e9d7f7",
@@ -237,7 +237,7 @@
 			"subCategoryType": "Novigrad",
 			"location": "",
 			"href": "",
-			"conflictingId": ""
+			"conflictingIds": ""
 	},
 	{
 			"id": "ac47725f-d10f-432a-b098-bc5d8d6e7713",
@@ -249,7 +249,7 @@
 			"subCategoryType": "Novigrad",
 			"location": "",
 			"href": "",
-			"conflictingId": ""
+			"conflictingIds": ""
 	},
 	{
 			"id": "1b7bf7a5-847b-4b1b-a3b2-43d89940c2ea",
@@ -261,7 +261,7 @@
 			"subCategoryType": "Novigrad",
 			"location": "",
 			"href": "",
-			"conflictingId": ""
+			"conflictingIds": ""
 	},
 	{
 			"id": "f8562e8e-43a9-4033-a4e7-8437b16a6826",
@@ -273,7 +273,7 @@
 			"subCategoryType": "Novigrad",
 			"location": "",
 			"href": "",
-			"conflictingId": ""
+			"conflictingIds": ""
 	},
 	{
 			"id": "f60f2021-9f8b-4f2a-aa65-10bf22b91a08",
@@ -285,7 +285,7 @@
 			"subCategoryType": "Novigrad",
 			"location": "",
 			"href": "",
-			"conflictingId": ""
+			"conflictingIds": ""
 	},
 	{
 			"id": "541ad57e-b51a-4cf3-a1e5-1c5f7753fe19",
@@ -297,7 +297,7 @@
 			"subCategoryType": "Novigrad",
 			"location": "",
 			"href": "",
-			"conflictingId": ""
+			"conflictingIds": ""
 	},
 	{
 			"id": "2729aa24-c105-4e05-b795-29784fc20776",
@@ -309,7 +309,7 @@
 			"subCategoryType": "Novigrad",
 			"location": "",
 			"href": "",
-			"conflictingId": ""
+			"conflictingIds": ""
 	},
 	{
 			"id": "32de4c27-1d03-41a4-92f9-5359d7a2a1d2",
@@ -321,7 +321,7 @@
 			"subCategoryType": "Novigrad",
 			"location": "",
 			"href": "",
-			"conflictingId": ""
+			"conflictingIds": ""
 	},
 	{
 			"id": "9c42b1a5-e87a-4328-a345-7ac4bc2dbd1b",
@@ -333,7 +333,7 @@
 			"subCategoryType": "Novigrad",
 			"location": "",
 			"href": "",
-			"conflictingId": ""
+			"conflictingIds": ""
 	},
 	{
 			"id": "7fc9ebc8-1db7-4f0f-96f2-876d4372db5b",
@@ -345,7 +345,7 @@
 			"subCategoryType": "Act I - In Ciri's Footsteps",
 			"location": "",
 			"href": "",
-			"conflictingId": ""
+			"conflictingIds": ""
 	},
 	{
 			"id": "3450b13b-400a-43e1-b52b-1596f2df42c3",
@@ -357,7 +357,7 @@
 			"subCategoryType": "Act I - In Ciri's Footsteps",
 			"location": "",
 			"href": "",
-			"conflictingId": ""
+			"conflictingIds": ""
 	},
 	{
 			"id": "708d1a5d-b6d4-4c47-ba03-6192b54d5a6b",
@@ -369,7 +369,7 @@
 			"subCategoryType": "Act I - In Ciri's Footsteps",
 			"location": "",
 			"href": "",
-			"conflictingId": ""
+			"conflictingIds": ""
 	},
 	{
 			"id": "86cf940d-b55a-4749-8f26-12ebf83e9bc7",
@@ -381,7 +381,7 @@
 			"subCategoryType": "Act I - In Ciri's Footsteps",
 			"location": "",
 			"href": "",
-			"conflictingId": ""
+			"conflictingIds": ""
 	},
 	{
 			"id": "d9e0193c-253d-48e2-982e-cce36688173e",
@@ -393,7 +393,7 @@
 			"subCategoryType": "Act I - In Ciri's Footsteps",
 			"location": "",
 			"href": "",
-			"conflictingId": ""
+			"conflictingIds": ""
 	},
 	{
 			"id": "9ab5f9de-b189-4b1f-bd0a-579cda1e002b",
@@ -405,7 +405,7 @@
 			"subCategoryType": "Act I - In Ciri's Footsteps",
 			"location": "",
 			"href": "",
-			"conflictingId": ""
+			"conflictingIds": ""
 	},
 	{
 			"id": "4e4b6d3d-2345-4a32-8427-6010b37e3180",
@@ -417,7 +417,7 @@
 			"subCategoryType": "Act I - In Ciri's Footsteps",
 			"location": "",
 			"href": "",
-			"conflictingId": ""
+			"conflictingIds": ""
 	},	
 	{
 			"id": "8f2f2d0b-6dfe-420d-950c-29a017f93e6b",
@@ -429,7 +429,7 @@
 			"subCategoryType": "",
 			"location": "",
 			"href": "",
-			"conflictingId": ""
+			"conflictingIds": ""
 	},
 	{
 			"id": "b8250b53-964a-40b8-8a8c-4f4a3134e7fc",
@@ -441,7 +441,7 @@
 			"subCategoryType": "",
 			"location": "",
 			"href": "",
-			"conflictingId": ""
+			"conflictingIds": ""
 	},
 	{
 			"id": "f47be96a-07f0-4f3e-9e19-5b3a24db1570",
@@ -453,7 +453,7 @@
 			"subCategoryType": "",
 			"location": "",
 			"href": "",
-			"conflictingId": ""
+			"conflictingIds": ""
 	},
 	{
 			"id": "65311d54-b6f8-4e16-bf2a-5e132f6e5c82",
@@ -465,7 +465,7 @@
 			"subCategoryType": "",
 			"location": "",
 			"href": "",
-			"conflictingId": ""
+			"conflictingIds": ""
 	},
 	{
 			"id": "bb03bfbb-3d9a-4f0e-827b-bf0f9e6d2e3d",
@@ -477,7 +477,7 @@
 			"subCategoryType": "",
 			"location": "",
 			"href": "",
-			"conflictingId": ""
+			"conflictingIds": ""
 	},
 	{
 			"id": "e2a90a71-8b65-41e8-b49d-8aa9da4b8755",
@@ -489,7 +489,7 @@
 			"subCategoryType": "",
 			"location": "",
 			"href": "",
-			"conflictingId": ""
+			"conflictingIds": ""
 	},
 	{
 			"id": "f08304e0-5ea4-4c85-af99-91b615ba98d8",
@@ -501,7 +501,7 @@
 			"subCategoryType": "",
 			"location": "",
 			"href": "",
-			"conflictingId": ""
+			"conflictingIds": ""
 	},
 	{
 			"id": "319ac9bf-9a4b-45f9-bde0-60d892cb163b",
@@ -513,7 +513,7 @@
 			"subCategoryType": "",
 			"location": "",
 			"href": "",
-			"conflictingId": ""
+			"conflictingIds": ""
 	},
 	{
 			"id": "6e9afbcc-5a0f-4f2a-80d5-d9401782f89f",
@@ -525,7 +525,7 @@
 			"subCategoryType": "",
 			"location": "",
 			"href": "",
-			"conflictingId": ""
+			"conflictingIds": ""
 	},
 	{
 			"id": "3c47b378-dcee-4c04-944a-05b6b4d9e530",
@@ -537,7 +537,7 @@
 			"subCategoryType": "",
 			"location": "",
 			"href": "",
-			"conflictingId": ""
+			"conflictingIds": ""
 	},
 	{
 			"id": "e53144fb-73c3-4b89-a6ec-ae77a8f12899",
@@ -549,7 +549,7 @@
 			"subCategoryType": "",
 			"location": "",
 			"href": "",
-			"conflictingId": ""
+			"conflictingIds": ""
 	},
 	{
 			"id": "3511193c-6e5f-4c33-9dcb-95d58c682ab1",
@@ -561,7 +561,7 @@
 			"subCategoryType": "",
 			"location": "",
 			"href": "",
-			"conflictingId": ""
+			"conflictingIds": ""
 	},
 	{
 			"id": "e8cb7c69-527f-4b5e-8fc7-bd4b1431f388",
@@ -573,7 +573,7 @@
 			"subCategoryType": "",
 			"location": "",
 			"href": "",
-			"conflictingId": ""
+			"conflictingIds": ""
 	},
 	{
 			"id": "8f9c0d92-5a14-4dfb-a899-4f4f2568bf91",
@@ -585,7 +585,7 @@
 			"subCategoryType": "",
 			"location": "",
 			"href": "",
-			"conflictingId": ""
+			"conflictingIds": ""
 	},
 	{
 			"id": "be6d0d6f-8e4d-46b3-b255-050879d99672",
@@ -597,7 +597,7 @@
 			"subCategoryType": "",
 			"location": "",
 			"href": "",
-			"conflictingId": ""
+			"conflictingIds": ""
 	},
 	{
 			"id": "bfecb3eb-06de-4a90-a0bf-7b04d1c2f51d",
@@ -609,7 +609,7 @@
 			"subCategoryType": "",
 			"location": "",
 			"href": "",
-			"conflictingId": ""
+			"conflictingIds": ""
 	},
 	{
 			"id": "126b9975-257a-4aa0-84b6-705144362f65",
@@ -621,7 +621,7 @@
 			"subCategoryType": "",
 			"location": "",
 			"href": "",
-			"conflictingId": ""
+			"conflictingIds": ""
 	},
 	{
 			"id": "cfeaa930-dc62-4d12-8a94-9a92e512d189",
@@ -633,7 +633,7 @@
 			"subCategoryType": "",
 			"location": "",
 			"href": "",
-			"conflictingId": ""
+			"conflictingIds": ""
 	},
 	{
 			"id": "1947a63b-d541-4a3a-87b8-cf16b7201915",
@@ -645,7 +645,7 @@
 			"subCategoryType": "",
 			"location": "",
 			"href": "",
-			"conflictingId": ""
+			"conflictingIds": ""
 	},
 	{
 			"id": "d82a54de-0b6c-4e7c-b24b-7927ac0cda3d",
@@ -657,7 +657,7 @@
 			"subCategoryType": "",
 			"location": "",
 			"href": "",
-			"conflictingId": ""
+			"conflictingIds": ""
 	},
 	{
 			"id": "b72f29f7-1664-4bae-bc12-384e8d3c5da3",
@@ -669,7 +669,7 @@
 			"subCategoryType": "",
 			"location": "",
 			"href": "",
-			"conflictingId": ""
+			"conflictingIds": ""
 	},
 	{
 			"id": "c9da41fc-1227-497e-bf50-158c192e54e3",
@@ -681,7 +681,7 @@
 			"subCategoryType": "",
 			"location": "",
 			"href": "",
-			"conflictingId": ""
+			"conflictingIds": ""
 	},
 	{
 			"id": "0e05e777-18c4-4f6d-a2b8-558554f5f18e",
@@ -693,7 +693,7 @@
 			"subCategoryType": "",
 			"location": "",
 			"href": "",
-			"conflictingId": ""
+			"conflictingIds": ""
 	},
 	{
 			"id": "5b6a5313-b6f5-47c9-b3ab-d53a312b438f",
@@ -705,7 +705,7 @@
 			"subCategoryType": "",
 			"location": "",
 			"href": "",
-			"conflictingId": ""
+			"conflictingIds": ""
 	},
 	{
 			"id": "c48622fe-131f-4f1f-bf80-3c1fe692ff92",
@@ -717,7 +717,7 @@
 			"subCategoryType": "",
 			"location": "",
 			"href": "",
-			"conflictingId": ""
+			"conflictingIds": ""
 	},
 	{
 			"id": "12c36c91-8a3c-4a4e-9c13-0dbd10475b3d",
@@ -729,7 +729,7 @@
 			"subCategoryType": "",
 			"location": "",
 			"href": "",
-			"conflictingId": ""
+			"conflictingIds": ""
 	},
 	{
 			"id": "c5932145-d54c-4ef1-8796-48740ccddfb0",
@@ -741,7 +741,7 @@
 			"subCategoryType": "",
 			"location": "",
 			"href": "",
-			"conflictingId": ""
+			"conflictingIds": ""
 	}
 	// TODO: Secondary quests
 ]
