@@ -67,3 +67,63 @@ Use the Drafting Table to begin building your house
 Visit your new property in Falkreath hold
 Visit your new property in Hjaalmarch hold
 Visit your new property in The Pale hold
+
+
+can you convert the following Witcher 3 secondary quests to the following json data, replacing id with a uniquely generated uuid:
+
+	{
+			"id": <generated_uuid>,
+			"mainCategory": "Contract Quests",
+			"title": <quest title>
+			"hold": "Velen"
+			"dlc": "None",
+			"subCategory": "Velen",
+			"subCategoryType": "",
+			"location": "",
+			"href": "",
+			"conflictingIds": []
+	}
+
+Can you do the same for the following data:
+
+
+CONTRACTS 
+
+Velen
+
+Contract: Jenny o' the Woods
+Contract: Missing Brother
+Contract: Mysterious Tracks
+Contract: Patrol Gone Missing
+Contract: Phantom of the Trade Route
+Contract: Shrieker
+Contract: Swamp Thing
+Contract: The Beast of Honorton
+Contract: The Griffin from the Highlands
+Contract: The Merry Widow
+Contract: The Mystery of the Byways Murders
+Contract: Woodland Beast
+
+Novigrad
+
+Contract: An Elusive Thief
+Contract: Deadly Delights
+Contract: Doors Slamming Shut
+Contract: Lord of the Wood
+Contract: The Apiarian Phantom
+Contract: The Creature from Oxenfurt Forest
+Contract: The Oxenfurt Drunk
+Contract: The White Lady
+
+
+Skellige 
+
+Contract: Dragon
+Contract: Here Comes the Groom
+Contract: Missing Miners
+Contract: Missing Son
+Contract: Muire D'yaeblen
+Contract: Skellige's Most Wanted
+Contract: Strange Beast
+Contract: The Phantom of Eldberg
+In the Heart of the Woods

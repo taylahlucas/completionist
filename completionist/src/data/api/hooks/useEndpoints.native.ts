@@ -36,7 +36,6 @@ const useEndpoints = (): EndpointsReturnType => {
 	// TODO: Work out a better way to handle authToken
 	// TODO: Test if authToken is doing anything currently (in terms of security)
 	const signUp = async ({ data }: CreateUserProps): Promise<UserResponse> => {
-		console.log("signing up")
 		try {
 			const response = await axios.post(`${url}/${signupUrl}`,
 				{
@@ -47,9 +46,11 @@ const useEndpoints = (): EndpointsReturnType => {
 					userAvatar: data.userAvatar
 				}
 			);
-			storeUserCredentials(data.userId, response.data.token);
-			saveUserData(response.data.user);
-			return response.data.user as User;
+			if (!!response.data.user) {
+				storeUserCredentials(data.userId, response.data.token);
+				saveUserData(response.data.user);
+				return response.data.user as User;
+			}
 		}
 		catch (error: AxiosErrorResponse) {
 			handleAxiosError(error.response.status);
@@ -57,7 +58,6 @@ const useEndpoints = (): EndpointsReturnType => {
 	}
 
 	const signIn = async ({ email, password }: SignInProps): Promise<UserResponse> => {
-		console.log("signing in")
 		try {
 			const response = await axios.post(`${url}/${signinUrl}`,
 				{
@@ -77,7 +77,6 @@ const useEndpoints = (): EndpointsReturnType => {
 	};
 
 	const getUserByUserId = async ({ userId }: GetUserByUserIdProps): Promise<UserResponse> => {
-		console.log("get user by user id")
 		const authToken = await getAuthToken();
 		if (!!authToken) {
 			try {

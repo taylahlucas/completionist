@@ -7,6 +7,7 @@ import useLoginState from './useLoginState';
 import { Alert } from 'react-native';
 import useKeychain from '@data/hooks/useKeychain.native';
 import { useTranslation } from 'react-i18next';
+import { LoginFormData } from '@utils/CustomInterfaces';
 
 interface GoogleSignInError {
 	code: number;
@@ -27,9 +28,9 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 	const { signIn, signUp, getUserByUserId } = useEndpoints();
 	const { storeCredentials } = useKeychain();
 
-	const createUser = async () => {
+	const createUser = async (user?: LoginFormData) => {
 		try {
-			const response = await signUp({ data: loginFormData });
+			const response = await signUp({ data: !!user ? user : loginFormData });
 			if (!!response) {
 				saveUserAndSignUp(response);
 			}
@@ -59,7 +60,7 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 
 			return auth()
 				.signInWithCredential(googleCredential)
-				.then((response) => {
+				.then((response): void => {
 					const { displayName, email, uid, photoURL } = response?.user || {};
 					if (displayName && email && idToken) {
 						storeCredentials({
@@ -70,23 +71,17 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 						// If yes, return user. If no, create user
 						getUserByUserId({ userId: uid })
 							.then((existingUser) => {
+								console.log("HERE existingUser from login: ", existingUser)
 								if (!!existingUser) {
 									saveUserAndLogin(existingUser);
 								}
 								else {
-									signUp({
-										data: {
-											userId: uid,
-											name: displayName,
-											email: email,
-											userAvatar: photoURL ?? undefined
-										}
-									})
-										.then((response) => {
-											if (!!response) {
-												saveUserAndSignUp(response);
-											}
-										})
+									createUser({
+										userId: uid,
+										name: displayName,
+										email: email,
+										userAvatar: photoURL ?? undefined
+									});
 								}
 							});
 					}

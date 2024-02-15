@@ -15,29 +15,31 @@ import GameListItem from '@components/custom/GameList/GameListItem.native';
 import useTranslateGameContent from '@utils/hooks/useTranslateGameContent.native';
 import useGetGameImage from '@components/custom/GameList/hooks/useGetGameImage.native';
 import { SubscriptionData } from '@utils/CustomInterfaces';
-import useEndpoints from '@data/api/hooks/useEndpoints.native';
 import Spacing from '@components/general/Spacing.native';
 import useFormatter from '@utils/hooks/useFormatter';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
+import useEditUserData from '@data/hooks/useEditUserData.native';
+import useEndpoints from '@data/api/hooks/useEndpoints.native';
 
 const SelectFirstGame = () => {
 	// const { t } = useTranslation();
 	const theme = useGetTheme();
+	const navigation = useReactNavigation();
 	const [searchValue, setSearchValue] = useState('');
 	const [selectedGame, setSelectedGame] = useState<SubscriptionData>();
 	const { setUser } = useMainDispatch();
 	const { user } = useMainState();
-	const navigation = useReactNavigation();
 	const { filterGameList } = useFilterGameList();
 	const { translateGameName } = useTranslateGameContent();
 	const { getGameImage } = useGetGameImage();
 	const { updateUserInfo } = useEndpoints();
 	const { getFormattedSearchString } = useFormatter();
+	const { saveUserAndLogin } = useEditUserData();
 
 	return (
 		<StandardLayout>
-			<NavigationHeader title={'Select a Game'} leftAction='back' />
+			<NavigationHeader title={'Select a Game'} leftAction='none' />
 			<CustomSearchBar
 				searchValue={searchValue}
 				setSearchValue={(value: string): void => setSearchValue(value)}
@@ -77,13 +79,18 @@ const SelectFirstGame = () => {
 									isActive: true
 								} : data;
 						});
-						setUser({
+						const updatedUser = {
 							...user,
 							subscription: {
 								...user.subscription,
 								data: updatedGames
 							}
-						});
+						};
+						console.log("user ID: ", updatedUser.userId)
+						console.log("SelectFirstGame updatedUser: " , updatedUser.subscription)
+						updateUserInfo(updatedUser);
+						setSelectedGame(undefined);
+						saveUserAndLogin(updatedUser);
 						navigation.navigate(ScreenEnum.GameSelection);
 					}}
 				/>

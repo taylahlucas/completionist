@@ -7,6 +7,7 @@ import { ScreenEnum } from '@utils/CustomEnums';
 import { initialFormData } from '@components/custom/LoginForm/LoginState';
 import useLoginDispatch from '@components/custom/LoginForm/hooks/useLoginDispatch';
 import useEndpoints from '../api/hooks/useEndpoints.native';
+import { initialUser } from '@redux/MainState';
 
 interface EditUserDataReturnType {
 	loadUserData: () => void;
@@ -54,11 +55,12 @@ const useEditUserData = (): EditUserDataReturnType => {
 	const saveUserAndSignUp = (user: User) => {
 		setUser(user);
 		setLoggedIn(true);
+		console.log("saveUserAndSignUp USER: ", user.userId)
 		navigation.navigate(!!user.name ? ScreenEnum.SelectFirstGame : ScreenEnum.SetUserName);
 	};
 
 	const updateUser = (user: User) => {
-		saveUserAndLogin(user);
+		console.log("UPDATING USER: ", user.subscription)
 		updateUserInfo({
 			userId: user.userId,
 			steamId: user.steamId,
@@ -73,9 +75,11 @@ const useEditUserData = (): EditUserDataReturnType => {
 				fallout4: user.data.fallout4
 			}
 		});
+		saveUserAndLogin(user);
 	}
 
 	const removeUserData = () => {
+		setUser(initialUser);
 		setLoginFormData(initialFormData);
 		clearCache();
 		deleteCredentials();
