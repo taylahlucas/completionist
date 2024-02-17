@@ -86,88 +86,18 @@ can you convert the following Witcher 3 Blood And Wine  Quests to the following 
 			"conflictingIds": []
 	}
 
+// TODO: Update location items to have subCategoryType
+
 Can you do the same thing for the following data:
 
-can you convert the following Witcher 3 collectables to the following json data, replacing id with a uniquely generated uuid:
+can you convert the following Witcher 3 Locations to the following json data, replacing id with a uniquely generated uuid:
 
 	{
-    "id": <generated_uuid>,
-    "mainCategory": "Diagrams",
-    "subCategory": "Trousers",
-		"subCategoryType": "",
-    "title": <given value>
-    "prerequisite": "",
-    "dlc": "None"
-  },
-
-Can you do the same thing for the following data:
-
-
-Sapper's trousers
-Scoia'tael trousers
-Superior Feline trousers
-Superior Griffin trousers
-Superior legendary Feline trousers
-Superior legendary Griffin trousers
-Superior legendary Ursine trousers
-Superior legendary Wolven trousers
-Superior Ursine trousers
-Superior Wolven trousers
-Tracker's trousers
-Ursine trousers
-Wolven trousers
-
--- Other
-
-An'ferthe
-Angrenian cuirass
-Arbitrator
-Ard Skellig aketon
-Beann'shie
-Black Unicorn
-Blade from the Bits
-Bounty hunter's gambeson
-Bremervoord blade
-Cidarian gambeson
-The Digger
-Disglair
-Draconid leather
-Dwarven blade
-Eirlithrad
-Faustino
-Gnomish gwyhyr
-Gven'nel
-Haft
-Hardened leather
-Hardened timber
-Harpy
-Infused dust
-Kaedweni gambeson
-Koviri cutlass
-Leather cured using the Rivian method
-Leather scraps
-Linen
-Longclaw
-Mag Deira cuirass
-Melltith
-Negotiator
-Refined dimeritium ore
-Refined silver ore
-Resin
-Salmian brigandine
-Silk
-Skellige gambeson
-Spikeroog aketon
-Steiger
-String
-The Tamer
-Temerian poniard
-Thread
-Tir Tochair blade
-Tor'haerne
-Torlunn
-Verden archer's gambeson
-Warrior's leather jacket
-Weeper
-Witch Slayer
-Zerrikanian powder
+		"id": <generated_uuid>,
+		"mainCategory": "Hearts Of Stone",
+		"subCategory": "Diagrams",
+		"subCategoryType": "Other",
+		"title":  <given_value>,
+		"prerequisite": "",
+		"dlc": "Hearts Of Stone"
+	},

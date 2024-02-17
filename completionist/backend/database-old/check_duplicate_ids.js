@@ -31,7 +31,7 @@ const checkDuplicateIdentifiers = (data) => {
 }
 
 // Specify the path to your JSON file
-const jsonFilePath = 'witcher3_quests.json';
+const jsonFilePath = 'witcher3_locations.json';
 
 // Read objects from the JSON file
 const objects = readJsonFile(jsonFilePath);

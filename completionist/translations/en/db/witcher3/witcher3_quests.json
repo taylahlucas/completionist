@@ -732,7 +732,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "1a234567-89bc-4d6f-8hij-klmnopqrstuv",
+		"id": "1a23c567-89bc-4d6f-8hij-klmnopqrstuv",
 		"mainCategory": "Secondary Quests",
 		"title": "Black Pearl",
 		"hold": "Novigrad",
@@ -744,7 +744,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "2b345678-9cde-4f6h-ijkl-mnopqrstu1v2",
+		"id": "2b345478-9cde-4f6h-ijkl-mnopqrstu1v2",
 		"mainCategory": "Secondary Quests",
 		"title": "Collect 'Em All",
 		"hold": "",
@@ -756,7 +756,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "3c456789-def0-4ghi-jklm-nopqrstuv12",
+		"id": "3c456789-def0-4ghi-jklm-nopqrstuv1v",
 		"mainCategory": "Secondary Quests",
 		"title": "Following the Thread",
 		"hold": "Novigrad",
@@ -768,7 +768,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "4d567890-ef01-4ghij-klmn-opqrstuv123",
+		"id": "4d56789w-ef01-4ghij-klmn-opqrstuv123",
 		"mainCategory": "Secondary Quests",
 		"title": "From a Land Far, Far Away",
 		"hold": "Novigrad",
@@ -780,7 +780,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "1a234567-89bc-4d6f-8hij-klmnopqrstuv",
+		"id": "1c234567-89bc-4d6f-8hij-klmnopqrstuv",
 		"mainCategory": "Secondary Quests",
 		"title": "Gwent: Old Pals",
 		"hold": "Novigrad",
@@ -792,7 +792,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "2b345678-9cde-4f6h-ijkl-mnopqrstu1v2",
+		"id": "2b345678-9cde-4f6h-ijkl-mnop4rstu1v2",
 		"mainCategory": "Secondary Quests",
 		"title": "Master Armorers",
 		"hold": "Velen",
@@ -804,7 +804,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "3c456789-def0-4ghi-jklm-nopqrstuv12",
+		"id": "3c456789-dcf0-4ghi-jklm-nopqrstuv12",
 		"mainCategory": "Secondary Quests",
 		"title": "Never Trust Children",
 		"hold": "Novigrad",
@@ -816,7 +816,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "1a234567-89bc-4d6f-8hij-klmnopqrstuv",
+		"id": "1a234567-89bc-4d6f-vhij-klmnopqrstuv",
 		"mainCategory": "Secondary Quests",
 		"title": "A Frying Pan, Spick and Span",
 		"hold": "White Orchard",
@@ -828,7 +828,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "2b345678-9cde-4f6h-ijkl-mnopqrstu1v2",
+		"id": "2b345678-9cde-4f6h-ijkl-mnopqr4tu1v2",
 		"mainCategory": "Secondary Quests",
 		"title": "Faithful Friend",
 		"hold": "White Orchard",
@@ -840,7 +840,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "3c456789-def0-4ghi-jklm-nopqrstuv12",
+		"id": "3c45c789-def0-4ghi-jklm-nopqrstuv12",
 		"mainCategory": "Secondary Quests",
 		"title": "Missing in Action",
 		"hold": "White Orchard",
@@ -852,7 +852,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "4d567890-ef01-4ghij-klmn-opqrstuv123",
+		"id": "qdw67890-ef01-4ghij-klmn-opqrstuv123",
 		"mainCategory": "Secondary Quests",
 		"title": "On Death's Bed",
 		"hold": "White Orchard",
@@ -864,7 +864,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "5e678901-f12a-4bc3-def4-ghijklmnopqr",
+		"id": "5e678901-f12a-4bc3-deb4-ghijklmnopqr",
 		"mainCategory": "Secondary Quests",
 		"title": "Precious Cargo",
 		"hold": "White Orchard",
@@ -876,7 +876,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "6f789012-34cd-4e56-789f-012345678901",
+		"id": "6f789012-r4cd-4e56-789f-012345678901",
 		"mainCategory": "Secondary Quests",
 		"title": "Twisted Firestarter",
 		"hold": "White Orchard",
@@ -888,7 +888,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "1a234567-89bc-4d6f-8hij-klmnopqrstuv",
+		"id": "1a234567-89bc-4d6f-8hij-klmnvpqrstuv",
 		"mainCategory": "Secondary Quests",
 		"title": "A Dog's Life",
 		"hold": "Velen",
@@ -900,7 +900,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "2b345678-9cde-4f6h-ijkl-mnopqrstu1v2",
+		"id": "2b345673-9cde-4f6h-ijkl-mnopqrstu1v2",
 		"mainCategory": "Secondary Quests",
 		"title": "A Favor for a Friend",
 		"hold": "Velen",
@@ -912,7 +912,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "3c456789-def0-4ghi-jklm-nopqrstuv12",
+		"id": "3c456789-def0-4gci-jklm-nopqrstuv12",
 		"mainCategory": "Secondary Quests",
 		"title": "A Greedy God",
 		"hold": "Velen",
@@ -924,7 +924,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "4d567890-ef01-4ghij-klmn-opqrstuv123",
+		"id": "4d567890-ef01-4gcdj-klmn-opqrstuv123",
 		"mainCategory": "Secondary Quests",
 		"title": "A Towerful of Mice",
 		"hold": "Velen",
@@ -936,7 +936,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "5e678901-f12a-4bc3-def4-ghijklmnopqr",
+		"id": "5e67df01-f12a-4bc3-def4-ghijklmnopqr",
 		"mainCategory": "Secondary Quests",
 		"title": "An Invitation from Keira Metz",
 		"hold": "Velen",
@@ -948,7 +948,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "6f789012-34cd-4e56-789f-012345678901",
+		"id": "6f789012-34ce-4e56-789f-012345678901",
 		"mainCategory": "Secondary Quests",
 		"title": "At the Mercy of Strangers",
 		"hold": "Velen",
@@ -960,7 +960,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "7g890123-45de-4f67-8901-234567890123",
+		"id": "7g890123-45de-4vv7-8901-234567890123",
 		"mainCategory": "Secondary Quests",
 		"title": "Bitter Harvest",
 		"hold": "Velen",
@@ -972,7 +972,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "8h901234-56ij-4klm-7890-123456789012",
+		"id": "8h901234-56ij-welm-7890-123456789012",
 		"mainCategory": "Secondary Quests",
 		"title": "Blood Ties",
 		"hold": "Velen",
@@ -984,7 +984,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "9i012345-67jk-4lmn-8901-234567890123",
+		"id": "9i0c2345-67jk-4lmn-8901-234567890123",
 		"mainCategory": "Secondary Quests",
 		"title": "Caravan Attack",
 		"hold": "Velen",
@@ -996,7 +996,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "0j123456-78kl-4mno-9012-345678901234",
+		"id": "0j123456-78kl-4mno-9012-34567890d234",
 		"mainCategory": "Secondary Quests",
 		"title": "Ciri's Room",
 		"hold": "Velen",
@@ -1008,7 +1008,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "1k234567-89lm-4nop-0123-456789012345",
+		"id": "1k234567-89lm-4nop-0123-4567890v2345",
 		"mainCategory": "Secondary Quests",
 		"title": "Deadly Crossing",
 		"hold": "Velen",
@@ -1020,7 +1020,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "2l345678-90mn-4opq-1234-567890123456",
+		"id": "2l34d678-90mn-4opq-1234-567890123456",
 		"mainCategory": "Secondary Quests",
 		"title": "Death By Fire",
 		"hold": "Velen",
@@ -1032,7 +1032,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "3m456789-01no-4pqr-2345-678901234567",
+		"id": "3m456789-01no-4pdr-2345-678901234567",
 		"mainCategory": "Secondary Quests",
 		"title": "Defender of the Faith",
 		"hold": "Velen",
@@ -1044,7 +1044,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "4n567890-12op-4qrs-3456-789012345678",
+		"id": "4n56w890-12op-4qrs-3456-789012345678",
 		"mainCategory": "Secondary Quests",
 		"title": "Face Me if You Dare!",
 		"hold": "Velen",
@@ -1056,7 +1056,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "5o678901-23pq-4rst-4567-890123456789",
+		"id": "5o678901-23pq-4rst-4567-890f23456789",
 		"mainCategory": "Secondary Quests",
 		"title": "Fake Papers",
 		"hold": "Velen",
@@ -1068,7 +1068,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "6p789012-34qr-4stu-5678-901234567890",
+		"id": "6p789012-34qc-4stu-5678-901234567890",
 		"mainCategory": "Secondary Quests",
 		"title": "Fists of Fury: Velen",
 		"hold": "Velen",
@@ -1080,7 +1080,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "1a234567-89bc-4d6f-8hij-klmnopqrstuv",
+		"id": "1a23v567-89bc-4d6f-8hij-klmnopqrstuv",
 		"mainCategory": "Secondary Quests",
 		"title": "Fools' Gold",
 		"hold": "Velen",
@@ -1092,7 +1092,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "2b345678-9cde-4f6h-ijkl-mnopqrstu1v2",
+		"id": "2b345378-9cde-4f6h-ijkl-mnopqrstu1v2",
 		"mainCategory": "Secondary Quests",
 		"title": "For the Advancement of Learning",
 		"hold": "Velen",
@@ -1104,7 +1104,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "3c456789-def0-4ghi-jklm-nopqrstuv12",
+		"id": "3c456789-def0-4ghi-jklm-nopcrstuv12",
 		"mainCategory": "Secondary Quests",
 		"title": "Forefathers' Eve",
 		"hold": "Velen",
@@ -1116,7 +1116,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "4d567890-ef01-4ghij-klmn-opqrstuv123",
+		"id": "4d567890-cd01-4ghij-klmn-opqrstuv123",
 		"mainCategory": "Secondary Quests",
 		"title": "Funeral Pyres",
 		"hold": "Velen",
@@ -1128,7 +1128,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "5e678901-f12a-4bc3-def4-ghijklmnopqr",
+		"id": "5e678901-f12a-4bc3-def4-ghifglmnopqr",
 		"mainCategory": "Secondary Quests",
 		"title": "Ghosts of the Past",
 		"hold": "Velen",
@@ -1140,7 +1140,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "6f789012-34cd-4e56-789f-012345678901",
+		"id": "6f789012-34cd-4ew6-789f-012345678901",
 		"mainCategory": "Secondary Quests",
 		"title": "Gwent: Velen Players",
 		"hold": "Velen",
@@ -1152,7 +1152,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "7g890123-45de-4f67-8901-234567890123",
+		"id": "7g890123-45de-4f67-8901-2vv567890123",
 		"mainCategory": "Secondary Quests",
 		"title": "Harassing a Troll",
 		"hold": "Velen",
@@ -1164,7 +1164,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "8h901234-56ij-4klm-7890-123456789012",
+		"id": "8h9er234-56ij-4klm-7890-123456789012",
 		"mainCategory": "Secondary Quests",
 		"title": "Hazardous Goods",
 		"hold": "Velen",
@@ -1176,7 +1176,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "9i012345-67jk-4lmn-8901-234567890123",
+		"id": "9i012345-67jk-4lmn-8901-23456c890123",
 		"mainCategory": "Secondary Quests",
 		"title": "Highway Robbery",
 		"hold": "Velen",
@@ -1188,7 +1188,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "0j123456-78kl-4mno-9012-345678901234",
+		"id": "0j123456-78kl-4mdo-9012-345678901234",
 		"mainCategory": "Secondary Quests",
 		"title": "Highwayman's Cache",
 		"hold": "Velen",
@@ -1200,7 +1200,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "1k234567-89lm-4nop-0123-456789012345",
+		"id": "1k234567-89lm-4nop-012v-456789012345",
 		"mainCategory": "Secondary Quests",
 		"title": "In the Eternal Fire's Shadow",
 		"hold": "Velen",
@@ -1212,7 +1212,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "2l345678-90mn-4opq-1234-567890123456",
+		"id": "2l345678-90dn-4opq-1234-567890123456",
 		"mainCategory": "Secondary Quests",
 		"title": "Last Rites",
 		"hold": "Velen",
@@ -1224,7 +1224,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "3m456789-01no-4pqr-2345-678901234567",
+		"id": "3m456789-01no-4pqr-2345-67890123456d",
 		"mainCategory": "Secondary Quests",
 		"title": "Looters",
 		"hold": "Velen",
@@ -1236,7 +1236,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "4n567890-12op-4qrs-3456-789012345678",
+		"id": "4n567890-12op-4qrs-3456-7890123e5678",
 		"mainCategory": "Secondary Quests",
 		"title": "Love's Cruel Snares",
 		"hold": "Velen",
@@ -1260,7 +1260,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "1a234567-89bc-4d6f-8hij-klmnopqrstuv",
+		"id": "1a2v4567-89bc-4d6f-8hij-klmnopqrstuv",
 		"mainCategory": "Secondary Quests",
 		"title": "Magic Lamp",
 		"hold": "Velen",
@@ -1272,7 +1272,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "2b345678-9cde-4f6h-ijkl-mnopqrstu1v2",
+		"id": "2b345678-9cde-4f63-ijkl-mnopqrstu1v2",
 		"mainCategory": "Secondary Quests",
 		"title": "Man's Best Friend",
 		"hold": "Velen",
@@ -1284,7 +1284,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "3c456789-def0-4ghi-jklm-nopqrstuv12",
+		"id": "3c4567c9-def0-4ghi-jklm-nopqrstuv12",
 		"mainCategory": "Secondary Quests",
 		"title": "Races: Crow's Perch",
 		"hold": "Velen",
@@ -1296,7 +1296,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "4d567890-ef01-4ghij-klmn-opqrstuv123",
+		"id": "4d567890-ef01-4ghij-klmn-cdqrstuv123",
 		"mainCategory": "Secondary Quests",
 		"title": "Return to Crookback Bog",
 		"hold": "Velen",
@@ -1308,7 +1308,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "5e678901-f12a-4bc3-def4-ghijklmnopqr",
+		"id": "5e678901-f12a-4bfg-def4-ghijklmnopqr",
 		"mainCategory": "Secondary Quests",
 		"title": "Take What You Want",
 		"hold": "Velen",
@@ -1320,7 +1320,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "6f789012-34cd-4e56-789f-012345678901",
+		"id": "6f789012-34cd-4e56-789f-01234w678901",
 		"mainCategory": "Secondary Quests",
 		"title": "The Fall of the House of Reardon",
 		"hold": "Velen",
@@ -1332,7 +1332,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "7g890123-45de-4f67-8901-234567890123",
+		"id": "7g890123-45de-4f67-8901-2345678901vv",
 		"mainCategory": "Secondary Quests",
 		"title": "The Truth is in the Stars",
 		"hold": "Velen",
@@ -1344,7 +1344,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "8h901234-56ij-4klm-7890-123456789012",
+		"id": "8r901234-56ij-4klm-7890-123456789012",
 		"mainCategory": "Secondary Quests",
 		"title": "The Whispering Hillock",
 		"hold": "Velen",
@@ -1356,7 +1356,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "9i012345-67jk-4lmn-8901-234567890123",
+		"id": "9i012345-67jk-4dmn-8901-234567890123",
 		"mainCategory": "Secondary Quests",
 		"title": "Thou Shalt Not Pass",
 		"hold": "Velen",
@@ -1368,7 +1368,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "0j123456-78kl-4mno-9012-345678901234",
+		"id": "0j123c56-78kl-4mno-9012-345678901234",
 		"mainCategory": "Secondary Quests",
 		"title": "Where the Cat and Wolf Play...",
 		"hold": "Velen",
@@ -1380,7 +1380,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "1k234567-89lm-4nop-0123-456789012345",
+		"id": "1k234567-8dlm-4nop-0123-456789012345",
 		"mainCategory": "Secondary Quests",
 		"title": "Wild at Heart",
 		"hold": "Velen",
@@ -1392,7 +1392,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "2l345678-90mn-4opq-1234-567890123456",
+		"id": "2l345678-90mn-4opq-1234-567890123w56",
 		"mainCategory": "Secondary Quests",
 		"title": "Witcher Wannabe",
 		"hold": "Velen",
@@ -1404,7 +1404,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "1a234567-89bc-4d6f-8hij-klmnopqrstuv",
+		"id": "1a234567-89bc-4d6f-8vij-klmnopqrstuv",
 		"mainCategory": "Secondary Quests",
 		"title": "A Barnful of Trouble",
 		"hold": "Novigrad",
@@ -1416,7 +1416,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "2b345678-9cde-4f6h-ijkl-mnopqrstu1v2",
+		"id": "2b345628-9cde-4f6h-ijkl-mnopqrstu1v2",
 		"mainCategory": "Secondary Quests",
 		"title": "A Dangerous Game",
 		"hold": "Novigrad",
@@ -1428,7 +1428,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "3c456789-def0-4ghi-jklm-nopqrstuv12",
+		"id": "3c456789-defc-4ghi-jklm-nopqrstuv12",
 		"mainCategory": "Secondary Quests",
 		"title": "A Deadly Plot",
 		"hold": "Novigrad",
@@ -1440,7 +1440,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "4d567890-ef01-4ghij-klmn-opqrstuv123",
+		"id": "4d567890-ef01-4ghij-cdmn-opqrstuv123",
 		"mainCategory": "Secondary Quests",
 		"title": "A Feast for Crows",
 		"hold": "Novigrad",
@@ -1452,7 +1452,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "5e678901-f12a-4bc3-def4-ghijklmnopqr",
+		"id": "5we78901-f12a-4bc3-def4-ghijklmnopqr",
 		"mainCategory": "Secondary Quests",
 		"title": "A Matter of Life and Death",
 		"hold": "Novigrad",
@@ -1464,7 +1464,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "6f789012-34cd-4e56-789f-012345678901",
+		"id": "6f7w9012-34cd-4e56-789f-012c45678901",
 		"mainCategory": "Secondary Quests",
 		"title": "A Tome Entombed",
 		"hold": "Novigrad",
@@ -1476,7 +1476,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "7g890123-45de-4f67-8901-234567890123",
+		"id": "7g890123-45de-4f67-8901-234567df0123",
 		"mainCategory": "Secondary Quests",
 		"title": "A Walk on the Waterfront",
 		"hold": "Novigrad",
@@ -1488,7 +1488,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "8h901234-56ij-4klm-7890-123456789012",
+		"id": "8h901234-56ij-4rlm-7890-123456789012",
 		"mainCategory": "Secondary Quests",
 		"title": "A Warm Welcome",
 		"hold": "Novigrad",
@@ -1500,7 +1500,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "9i012345-67jk-4lmn-8901-234567890123",
+		"id": "9i012345-62jk-4lmn-8901-234567890123",
 		"mainCategory": "Secondary Quests",
 		"title": "An Eye for an Eye",
 		"hold": "Novigrad",
@@ -1512,7 +1512,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "0j123456-78kl-4mno-9012-345678901234",
+		"id": "0j123456-78kl-4mno-9012-34567e901234",
 		"mainCategory": "Secondary Quests",
 		"title": "Cabaret",
 		"hold": "Novigrad",
@@ -1524,7 +1524,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "1k234567-89lm-4nop-0123-456789012345",
+		"id": "1k234567-89lm-4nop-0123-4567d9012345",
 		"mainCategory": "Secondary Quests",
 		"title": "Carnal Sins",
 		"hold": "Novigrad",
@@ -1536,7 +1536,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "2l345678-90mn-4opq-1234-567890123456",
+		"id": "2l345678-90mn-4opq-1234-5w7890123456",
 		"mainCategory": "Secondary Quests",
 		"title": "Drunken Rabble",
 		"hold": "Novigrad",
@@ -1548,7 +1548,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "3m456789-01no-4pqr-2345-678901234567",
+		"id": "3m456789-01no-4pqr-2345-678901d34567",
 		"mainCategory": "Secondary Quests",
 		"title": "Empty Coop",
 		"hold": "Novigrad",
@@ -1560,7 +1560,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "4n567890-12op-4qrs-3456-789012345678",
+		"id": "4n567890-12op-4qrs-3e56-789012345678",
 		"mainCategory": "Secondary Quests",
 		"title": "Fencing Lessons",
 		"hold": "Novigrad",
@@ -1572,7 +1572,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "5o678901-23pq-4rst-4567-890123456789",
+		"id": "5o6789w1-23pq-4rst-4567-890123456789",
 		"mainCategory": "Secondary Quests",
 		"title": "Fists of Fury: Novigrad",
 		"hold": "Novigrad",
@@ -1584,7 +1584,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "6p789012-34qr-4stu-5678-901234567890",
+		"id": "6p78c012-34qr-4stu-5678-901234567890",
 		"mainCategory": "Secondary Quests",
 		"title": "Gwent: Big City Players",
 		"hold": "Novigrad",
@@ -1596,7 +1596,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "7q890123-45rs-4tu-6789-012345678901",
+		"id": "7q890123-45rs-4tu-6789-012345678901c",
 		"mainCategory": "Secondary Quests",
 		"title": "Gwent: Playing Innkeeps",
 		"hold": "Novigrad",
@@ -1608,7 +1608,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "8r901234-56st-4uv-7890-123456789012",
+		"id": "8r901234-56st-4ucv-7890-123456789012",
 		"mainCategory": "Secondary Quests",
 		"title": "Gwent: Playing Thaler",
 		"hold": "Novigrad",
@@ -1620,7 +1620,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "1a234567-89bc-4d6f-8hij-klmnopqrstuv",
+		"id": "1a234567-8vbc-4d6f-8hij-klmnopqrstuv",
 		"mainCategory": "Secondary Quests",
 		"title": "Haunted House",
 		"hold": "Novigrad",
@@ -1632,7 +1632,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "2b345678-9cde-4f6h-ijkl-mnopqrstu1v2",
+		"id": "23345678-9cde-4f6h-ijkl-mnopqrstu1v2",
 		"mainCategory": "Secondary Quests",
 		"title": "Hey, You Wanna Look at my Stuff?",
 		"hold": "Novigrad",
@@ -1644,7 +1644,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "3c456789-def0-4ghi-jklm-nopqrstuv12",
+		"id": "3c456789-def0-4gdi-jklm-nopqrstuv12",
 		"mainCategory": "Secondary Quests",
 		"title": "Hidden Messages of the Nilfgaardian Kind",
 		"hold": "Novigrad",
@@ -1656,7 +1656,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "4d567890-ef01-4ghij-klmn-opqrstuv123",
+		"id": "4d567890-ef01-cdhij-klmn-opqrstuv123",
 		"mainCategory": "Secondary Quests",
 		"title": "High Stakes",
 		"hold": "Novigrad",
@@ -1668,7 +1668,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "5e678901-f12a-4bc3-def4-ghijklmnopqr",
+		"id": "5e678901-f12a-4bc3-def4-ghijklweopqr",
 		"mainCategory": "Secondary Quests",
 		"title": "Honor Among Thieves",
 		"hold": "Novigrad",
@@ -1680,7 +1680,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "6f789012-34cd-4e56-789f-012345678901",
+		"id": "6f789012-34cd-4e56-789f-0123456789w1",
 		"mainCategory": "Secondary Quests",
 		"title": "Karmic Justice",
 		"hold": "Novigrad",
@@ -1692,7 +1692,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "7g890123-45de-4f67-8901-234567890123",
+		"id": "7g8df123-45de-4f67-8901-234567890123",
 		"mainCategory": "Secondary Quests",
 		"title": "Little Red",
 		"hold": "Novigrad",
@@ -1704,7 +1704,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "8h901234-56ij-4klm-7890-123456789012",
+		"id": "8h901er4-56ij-4klm-7890-123456789012",
 		"mainCategory": "Secondary Quests",
 		"title": "Message from an Old Friend",
 		"hold": "Novigrad",
@@ -1716,7 +1716,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "9i012345-67jk-4lmn-8901-234567890123",
+		"id": "9i012345-67jk-4lmn-8901-234567892123",
 		"mainCategory": "Secondary Quests",
 		"title": "Novigrad Hospitality",
 		"hold": "Novigrad",
@@ -1728,7 +1728,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "0j123456-78kl-4mno-9012-345678901234",
+		"id": "0j123456-78kl-4mno-9012-34567890123f",
 		"mainCategory": "Secondary Quests",
 		"title": "Novigrad, Closed City",
 		"hold": "Novigrad",
@@ -1740,7 +1740,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "1k234567-89lm-4nop-0123-456789012345",
+		"id": "1k234567-89lm-4nop-0123-456789c12g45",
 		"mainCategory": "Secondary Quests",
 		"title": "Now or Never",
 		"hold": "Novigrad",
@@ -1752,7 +1752,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "2l345678-90mn-4opq-1234-567890123456",
+		"id": "2l345678-90mn-4opq-1c34-567890123456",
 		"mainCategory": "Secondary Quests",
 		"title": "Of Dairy and Darkness",
 		"hold": "Novigrad",
@@ -1764,7 +1764,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "1a234567-89bc-4d6f-8hij-klmnopqrstuv",
+		"id": "1a234v67-89bc-4d6f-8hij-klmnopqrstuv",
 		"mainCategory": "Secondary Quests",
 		"title": "Of Swords and Dumplings",
 		"hold": "Novigrad",
@@ -1776,7 +1776,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "2b345678-9cde-4f6h-ijkl-mnopqrstu1v2",
+		"id": "2b345178-9cde-4f6h-ijkl-mnopqrstu1v2",
 		"mainCategory": "Secondary Quests",
 		"title": "Out On Your Arse!",
 		"hold": "Novigrad",
@@ -1788,7 +1788,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "3c456789-def0-4ghi-jklm-nopqrstuv12",
+		"id": "3c456789-def0-4ghi-jklm-nodqrstuv12",
 		"mainCategory": "Secondary Quests",
 		"title": "Race: The Great Erasmus Vegelbud Memorial Derby",
 		"hold": "Novigrad",
@@ -1800,7 +1800,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "4d567890-ef01-4ghij-klmn-opqrstuv123",
+		"id": "4d56cd90-ef01-4ghij-klmn-opqrstuv123",
 		"mainCategory": "Secondary Quests",
 		"title": "Racists of Novigrad",
 		"hold": "Novigrad",
@@ -1812,7 +1812,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "5e678901-f12a-4bc3-def4-ghijklmnopqr",
+		"id": "5e678901-f12a-4bc3-def4-ghijkcfnopqr",
 		"mainCategory": "Secondary Quests",
 		"title": "Reason of State",
 		"hold": "Novigrad",
@@ -1824,7 +1824,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "6f789012-34cd-4e56-789f-012345678901",
+		"id": "6f789012-34cd-4e56-78wf-012345678901",
 		"mainCategory": "Secondary Quests",
 		"title": "Redania's Most Wanted",
 		"hold": "Novigrad",
@@ -1836,7 +1836,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "7g890123-45de-4f67-8901-234567890123",
+		"id": "7g890123-45de-4df7-8901-234567890123",
 		"mainCategory": "Secondary Quests",
 		"title": "Rough Neighborhood",
 		"hold": "Novigrad",
@@ -1848,7 +1848,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "8h901234-56ij-4klm-7890-123456789012",
+		"id": "8h901234-56ij-4krm-7890-123456789012",
 		"mainCategory": "Secondary Quests",
 		"title": "Spooked Mare",
 		"hold": "Novigrad",
@@ -1860,7 +1860,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "9i012345-67jk-4lmn-8901-234567890123",
+		"id": "9i012345-67jk-4lmn-8901-2345678sd123",
 		"mainCategory": "Secondary Quests",
 		"title": "Strangers in the Night",
 		"hold": "Novigrad",
@@ -1872,7 +1872,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "0j123456-78kl-4mno-9012-345678901234",
+		"id": "0j123456-78kl-4mno-9012-3456789d1234",
 		"mainCategory": "Secondary Quests",
 		"title": "Strumpet in Distress",
 		"hold": "Novigrad",
@@ -1884,7 +1884,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "1k234567-89lm-4nop-0123-456789012345",
+		"id": "1k234567-89lm-4nop-0123-456789012g45",
 		"mainCategory": "Secondary Quests",
 		"title": "Suspicious Shakedown",
 		"hold": "Novigrad",
@@ -1896,7 +1896,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "2l345678-90mn-4opq-1234-567890123456",
+		"id": "2l345678-90mc-4opq-1234-567890123456",
 		"mainCategory": "Secondary Quests",
 		"title": "The Dwarven Document Dilemma",
 		"hold": "Novigrad",
@@ -1932,7 +1932,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "5o678901-23pq-4rst-4567-890123456789",
+		"id": "5o678901-23pq-4rst-4567-89012w456789",
 		"mainCategory": "Secondary Quests",
 		"title": "The Most Truest of Basilisks",
 		"hold": "Novigrad",
@@ -1944,7 +1944,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "6p789012-34qr-4stu-5678-901234567890",
+		"id": "6p789012-34qr-4stu-5678-90123c567890",
 		"mainCategory": "Secondary Quests",
 		"title": "The Nobleman Statuette",
 		"hold": "Novigrad",
@@ -1956,7 +1956,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "7q890123-45rs-4tu-6789-012345678901",
+		"id": "7q890123-45rs-4tu-6789-012c345678901",
 		"mainCategory": "Secondary Quests",
 		"title": "The Price of Passage",
 		"hold": "Novigrad",
@@ -2016,7 +2016,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "1a234567-89bc-4d6f-8hij-klmnopqrstuv",
+		"id": "1a2q4567-89bc-4d6f-8hij-klmnopqrstuv",
 		"mainCategory": "Secondary Quests",
 		"title": "A Bard's Beloved",
 		"hold": "Skellige",
@@ -2028,7 +2028,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "2b345678-9cde-4f6h-ijkl-mnopqrstu1v2",
+		"id": "2b3c5678-9cde-4f6h-ijkl-mnopqrstu1v1",
 		"mainCategory": "Secondary Quests",
 		"title": "A Hallowed Horn",
 		"hold": "Skellige",
@@ -2040,7 +2040,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "3c456789-def0-4ghi-jklm-nopqrstuv12",
+		"id": "3c456d89-def0-4ghi-jklm-nopqrstuv12",
 		"mainCategory": "Secondary Quests",
 		"title": "Abandoned Sawmill",
 		"hold": "Skellige",
@@ -2052,7 +2052,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "4d567890-ef01-4ghij-klmn-opqrstuv123",
+		"id": "4dew7890-ef01-4ghij-klmn-opqrstuv123",
 		"mainCategory": "Secondary Quests",
 		"title": "An Unpaid Debt",
 		"hold": "Skellige",
@@ -2064,7 +2064,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "5e678901-f12a-4bc3-def4-ghijklmnopqr",
+		"id": "5e678901-f12a-4cv3-def4-ghijklmnopqr",
 		"mainCategory": "Secondary Quests",
 		"title": "Armed Assault",
 		"hold": "Skellige",
@@ -2076,7 +2076,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "6f789012-34cd-4e56-789f-012345678901",
+		"id": "6f789012-3wcd-4e56-789f-012345678901",
 		"mainCategory": "Secondary Quests",
 		"title": "Brave Fools Die Young",
 		"hold": "Skellige",
@@ -2088,7 +2088,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "7g890123-45de-4f67-8901-234567890123",
+		"id": "7g890123-45de-4f67-89df-234567890123",
 		"mainCategory": "Secondary Quests",
 		"title": "Call of the Wild",
 		"hold": "Skellige",
@@ -2100,7 +2100,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "8h901234-56ij-4klm-7890-123456789012",
+		"id": "8h901234-56ij-4klm-7890-rr3456789012",
 		"mainCategory": "Secondary Quests",
 		"title": "Coronation",
 		"hold": "Skellige",
@@ -2112,7 +2112,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "9i012345-67jk-4lmn-8901-234567890123",
+		"id": "9i012345-67jk-4lmn-8901-2fv567890123",
 		"mainCategory": "Secondary Quests",
 		"title": "Crime and Punishment",
 		"hold": "Skellige",
@@ -2124,7 +2124,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "0j123456-78kl-4mno-9012-345678901234",
+		"id": "0j123e56-78kl-4mno-9012-345678901234",
 		"mainCategory": "Secondary Quests",
 		"title": "Farting Trolls",
 		"hold": "Skellige",
@@ -2136,7 +2136,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "1k234567-89lm-4nop-0123-456789012345",
+		"id": "1k234567-89lm-4nop-0123-45678901234g",
 		"mainCategory": "Secondary Quests",
 		"title": "Finders Keepers",
 		"hold": "Skellige",
@@ -2148,7 +2148,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "2l345678-90mn-4opq-1234-567890123456",
+		"id": "2l345678-90mn-4opq-1234-567890e23456",
 		"mainCategory": "Secondary Quests",
 		"title": "Fists of Fury: Champion of Champions",
 		"hold": "Skellige",
@@ -2160,7 +2160,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "3m456789-01no-4pqr-2345-678901234567",
+		"id": "3m456789-01no-4pqc-2345-678901234567",
 		"mainCategory": "Secondary Quests",
 		"title": "Fists of Fury: Skellige",
 		"hold": "Skellige",
@@ -2172,7 +2172,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "4n567890-12op-4qrs-3456-789012345678",
+		"id": "4n567890-12op-4qrs-3456-789012345c78",
 		"mainCategory": "Secondary Quests",
 		"title": "Flesh for Sale",
 		"hold": "Skellige",
@@ -2184,7 +2184,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "5o678901-23pq-4rst-4567-890123456789",
+		"id": "5o678901-23pq-4r3t-4567-890123456789",
 		"mainCategory": "Secondary Quests",
 		"title": "For Fame and Glory",
 		"hold": "Skellige",
@@ -2196,7 +2196,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "6p789012-34qr-4stu-5678-901234567890",
+		"id": "6p789012-34qr-4stu-5678-9012345678c0",
 		"mainCategory": "Secondary Quests",
 		"title": "Free Spirit",
 		"hold": "Skellige",
@@ -2208,7 +2208,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "1a234567-89bc-4d6f-8hij-klmnopqrstuv",
+		"id": "1aq34567-89bc-4d6f-8hij-klmnopqrstuv",
 		"mainCategory": "Secondary Quests",
 		"title": "Gwent: Skellige Style",
 		"hold": "Skellige",
@@ -2220,7 +2220,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "2b345678-9cde-4f6h-ijkl-mnopqrstu1v2",
+		"id": "2b345678-9cde-4f6h-ijkl-mnopqrstu1v1",
 		"mainCategory": "Secondary Quests",
 		"title": "Hard Times",
 		"hold": "Skellige",
@@ -2232,7 +2232,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "3c456789-def0-4ghi-jklm-nopqrstuv12",
+		"id": "3cw56789-def0-4ghi-jklm-nopqrstuv12",
 		"mainCategory": "Secondary Quests",
 		"title": "In Wolf's Clothing",
 		"hold": "Skellige",
@@ -2244,7 +2244,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "4d567890-ef01-4ghij-klmn-opqrstuv123",
+		"id": "4d567890-ef01-4ghij-klmn-opqrst32123",
 		"mainCategory": "Secondary Quests",
 		"title": "Iron Maiden",
 		"hold": "Skellige",
@@ -2256,7 +2256,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "5e678901-f12a-4bc3-def4-ghijklmnopqr",
+		"id": "5e678901-fcva-4bc3-def4-ghijklmnopqr",
 		"mainCategory": "Secondary Quests",
 		"title": "King's Gambit",
 		"hold": "Skellige",
@@ -2268,7 +2268,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "6f789012-34cd-4e56-789f-012345678901",
+		"id": "6f789012-34cd-4e5w-789f-012345678901",
 		"mainCategory": "Secondary Quests",
 		"title": "Master of the Arena",
 		"hold": "Skellige",
@@ -2280,7 +2280,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "7g890123-45de-4f67-8901-234567890123",
+		"id": "7g890123-45de-4f67-8901-234dfv890123",
 		"mainCategory": "Secondary Quests",
 		"title": "Peace Disturbed",
 		"hold": "Skellige",
@@ -2304,7 +2304,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "9i012345-67jk-4lmn-8901-234567890123",
+		"id": "9i012345-67jk-4lmn-8901-234567890vf3",
 		"mainCategory": "Secondary Quests",
 		"title": "Practicum in Advanced Alchemy",
 		"hold": "Skellige",
@@ -2316,7 +2316,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "0j123456-78kl-4mno-9012-345678901234",
+		"id": "0jc23456-78kl-4mno-9012-345678901234",
 		"mainCategory": "Secondary Quests",
 		"title": "Shock Therapy",
 		"hold": "Skellige",
@@ -2328,7 +2328,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "1k234567-89lm-4nop-0123-456789012345",
+		"id": "1k2345g7-89lm-4nop-0123-456789012345",
 		"mainCategory": "Secondary Quests",
 		"title": "Siren's Call",
 		"hold": "Skellige",
@@ -2340,7 +2340,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "2l345678-90mn-4opq-1234-567890123456",
+		"id": "2l345e78-90mn-4opq-1234-567890123456",
 		"mainCategory": "Secondary Quests",
 		"title": "Stranger in a Strange Land",
 		"hold": "Skellige",
@@ -2352,7 +2352,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "3m456789-01no-4pqr-2345-678901234567",
+		"id": "3m456789-01no-4pqr-2345-6789012c4567",
 		"mainCategory": "Secondary Quests",
 		"title": "Taken as a Lass",
 		"hold": "Skellige",
@@ -2364,7 +2364,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "1a234567-89bc-4d6f-8hij-klmnopqrstuv",
+		"id": "1a234567-89bc-4d6f-8hij-klmnopqrsquv",
 		"mainCategory": "Secondary Quests",
 		"title": "The Cave of Dreams",
 		"hold": "Skellige",
@@ -2376,7 +2376,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "2b345678-9cde-4f6h-ijkl-mnopqrstu1v2",
+		"id": "2b345678-9cde-4ffh-ijkl-mnopqrstu1v2",
 		"mainCategory": "Secondary Quests",
 		"title": "The Family Blade",
 		"hold": "Skellige",
@@ -2388,7 +2388,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "3c456789-def0-4ghi-jklm-nopqrstuv12",
+		"id": "3c456789-def0-4ghi-jklm-wopqrstuv12",
 		"mainCategory": "Secondary Quests",
 		"title": "The Four Faces of Hemdall",
 		"hold": "Skellige",
@@ -2400,7 +2400,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "4d567890-ef01-4ghij-klmn-opqrstuv123",
+		"id": "4d537890-ef01-4ghij-klmn-opqrstuv123",
 		"mainCategory": "Secondary Quests",
 		"title": "The Heroes' Pursuits: Fayrlund",
 		"hold": "Skellige",
@@ -2412,7 +2412,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "5e678901-f12a-4bc3-def4-ghijklmnopqr",
+		"id": "5edd8901-f12a-4bc3-def4-ghijklmnopqr",
 		"mainCategory": "Secondary Quests",
 		"title": "The Heroes' Pursuits: For the Goddess' Glory",
 		"hold": "Skellige",
@@ -2424,7 +2424,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "6f789012-34cd-4e56-789f-012345678901",
+		"id": "6f789012-34ed-4e56-789f-01234w678901",
 		"mainCategory": "Secondary Quests",
 		"title": "The Heroes Pursuits: Fyresdal",
 		"hold": "Skellige",
@@ -2436,7 +2436,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "7g890123-45de-4f67-8901-234567890123",
+		"id": "7g220123-45de-4f67-8901-234567890123",
 		"mainCategory": "Secondary Quests",
 		"title": "The Heroes' Pursuits: Kaer Trolde",
 		"hold": "Skellige",
@@ -2448,7 +2448,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "8h901234-56ij-4klm-7890-123456789012",
+		"id": "8y901234-56ij-4klm-7890-123456789012",
 		"mainCategory": "Secondary Quests",
 		"title": "The Last Wish",
 		"hold": "Skellige",
@@ -2460,7 +2460,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "9i012345-67jk-4lmn-8901-234567890123",
+		"id": "9i012345-67jk-4lmn-8901-2345678df123",
 		"mainCategory": "Secondary Quests",
 		"title": "The Lord of Undvik",
 		"hold": "Skellige",
@@ -2472,7 +2472,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "0j123456-78kl-4mno-9012-345678901234",
+		"id": "0j123456-78kl-4mnr-9012-345678901234",
 		"mainCategory": "Secondary Quests",
 		"title": "The Nithing",
 		"hold": "Skellige",
@@ -2484,7 +2484,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "1k234567-89lm-4nop-0123-456789012345",
+		"id": "1kw34567-89lm-4nop-0123-456789012345",
 		"mainCategory": "Secondary Quests",
 		"title": "The Path of Warriors",
 		"hold": "Skellige",
@@ -2496,7 +2496,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "2l345678-90mn-4opq-1234-567890123456",
+		"id": "el345678-90mn-4opq-1234-567890123456",
 		"mainCategory": "Secondary Quests",
 		"title": "The Price of Honor",
 		"hold": "Skellige",
@@ -2508,7 +2508,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "3m456789-01no-4pqr-2345-678901234567",
+		"id": "3m4d6789-01no-4pqr-2345-678901234567",
 		"mainCategory": "Secondary Quests",
 		"title": "The Sad Tale of the Grossbart Brothers",
 		"hold": "Skellige",
@@ -2520,7 +2520,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "4n567890-12op-4qrs-3456-789012345678",
+		"id": "4n567890-12op-4qrs-3d56-789012345678",
 		"mainCategory": "Secondary Quests",
 		"title": "The Tower Outta Nowheres",
 		"hold": "Skellige",
@@ -2532,7 +2532,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "5o678901-23pq-4rst-4567-890123456789",
+		"id": "54678901-23pq-4rst-4567-890123456789",
 		"mainCategory": "Secondary Quests",
 		"title": "Woe is Me",
 		"hold": "Skellige",
@@ -2556,7 +2556,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "7q890123-45rs-4tu-6789-012345678901",
+		"id": "7q890d123-45rs-4tu-6789-012345678901",
 		"mainCategory": "Secondary Quests",
 		"title": "Yustianna Disturbed",
 		"hold": "Skellige",
@@ -2580,7 +2580,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "1a234567-89bc-4d6f-8hij-klmnopqrstuv",
+		"id": "1a234567-89bc-4d6f-8hij-qlmnopqrstuv",
 		"mainCategory": "Contracts",
 		"title": "Contract: Jenny o' the Woods",
 		"hold": "Velen",
@@ -2592,7 +2592,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "2b345678-9cde-4f6h-ijkl-mnopqrstu1v2",
+		"id": "2b34567f-9cde-4f6h-ijkl-mnopqrstu1v2",
 		"mainCategory": "Contracts",
 		"title": "Contract: Missing Brother",
 		"hold": "Velen",
@@ -2604,7 +2604,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "3c456789-def0-4ghi-jklm-nopqrstuv12",
+		"id": "3c456789-def0-4ghi-jklm-nopqrstuv1w",
 		"mainCategory": "Contracts",
 		"title": "Contract: Mysterious Tracks",
 		"hold": "Velen",
@@ -2616,7 +2616,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "4d567890-ef01-4ghij-klmn-opqrstuv123",
+		"id": "43567890-ef01-4ghij-klmn-opqrstuv123",
 		"mainCategory": "Contracts",
 		"title": "Contract: Patrol Gone Missing",
 		"hold": "Velen",
@@ -2628,7 +2628,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "5e678901-f12a-4bc3-def4-ghijklmnopqr",
+		"id": "5e678901-f12a-4bc3-def4-ghijddmnopqr",
 		"mainCategory": "Contracts",
 		"title": "Contract: Phantom of the Trade Route",
 		"hold": "Velen",
@@ -2640,7 +2640,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "6f789012-34cd-4e56-789f-012345678901",
+		"id": "6f7w9c12-34cd-4e56-789f-012345678901",
 		"mainCategory": "Contracts",
 		"title": "Contract: Shrieker",
 		"hold": "Velen",
@@ -2652,7 +2652,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "7g890123-45de-4f67-8901-234567890123",
+		"id": "7g890123-45de-4f67-2201-234567890123",
 		"mainCategory": "Contracts",
 		"title": "Contract: Swamp Thing",
 		"hold": "Velen",
@@ -2664,7 +2664,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "8h901234-56ij-4klm-7890-123456789012",
+		"id": "8h901234-56ij-4klm-7890-1234yy789012",
 		"mainCategory": "Contracts",
 		"title": "Contract: The Beast of Honorton",
 		"hold": "Velen",
@@ -2676,7 +2676,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "9i012345-67jk-4lmn-8901-234567890123",
+		"id": "9i012345-67jk-4lmn-8901-2345678901dd",
 		"mainCategory": "Contracts",
 		"title": "Contract: The Griffin from the Highlands",
 		"hold": "Velen",
@@ -2688,7 +2688,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "0j123456-78kl-4mno-9012-345678901234",
+		"id": "0j123456-78kl-4mno-9012-34g678901234",
 		"mainCategory": "Contracts",
 		"title": "Contract: The Merry Widow",
 		"hold": "Velen",
@@ -2700,7 +2700,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "1k234567-89lm-4nop-0123-456789012345",
+		"id": "1k234567-89lm-4nop-0123-456w89012345",
 		"mainCategory": "Contracts",
 		"title": "Contract: The Mystery of the Byways Murders",
 		"hold": "Velen",
@@ -2712,7 +2712,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "2l345678-90mn-4opq-1234-567890123456",
+		"id": "2l34e678-90mn-4opq-1234-567890123456",
 		"mainCategory": "Contracts",
 		"title": "Contract: Woodland Beast",
 		"hold": "Velen",
@@ -2724,7 +2724,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "1a234567-89bc-4d6f-8hij-klmnopqrstuv",
+		"id": "1a234567-89bc-4d6f-8qij-klmnopqrstuv",
 		"mainCategory": "Contract Quests",
 		"title": "Contract: An Elusive Thief",
 		"hold": "Novigrad",
@@ -2736,7 +2736,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "2b345678-9cde-4f6h-ijkl-mnopqrstu1v2",
+		"id": "2b34f678-9cde-4f6h-ijkl-mnopqrstu1v2",
 		"mainCategory": "Contract Quests",
 		"title": "Contract: Deadly Delights",
 		"hold": "Novigrad",
@@ -2748,7 +2748,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "3c456789-def0-4ghi-jklm-nopqrstuv12",
+		"id": "3c456789-def0-4ghi-jklm-nowqrstuv12",
 		"mainCategory": "Contract Quests",
 		"title": "Contract: Doors Slamming Shut",
 		"hold": "Novigrad",
@@ -2760,7 +2760,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "4d567890-ef01-4ghij-klmn-opqrstuv123",
+		"id": "4d567890-ef01-4ghij-k4mn-opqrstuv123",
 		"mainCategory": "Contract Quests",
 		"title": "Contract: Lord of the Wood",
 		"hold": "Novigrad",
@@ -2772,7 +2772,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "5e678901-f12a-4bc3-def4-ghijklmnopqr",
+		"id": "5e678901-f12a-4bc3-ddd4-ghijklmnopqr",
 		"mainCategory": "Contract Quests",
 		"title": "Contract: The Apiarian Phantom",
 		"hold": "Novigrad",
@@ -2784,7 +2784,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "6f789012-34cd-4e56-789f-012345678901",
+		"id": "6f789012-34cd-4e56-789f-012345678w01",
 		"mainCategory": "Contract Quests",
 		"title": "Contract: The Creature from Oxenfurt Forest",
 		"hold": "Novigrad",
@@ -2796,7 +2796,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "7g890123-45de-4f67-8901-234567890123",
+		"id": "7g890123-45de-4f67-8901-234522890123",
 		"mainCategory": "Contract Quests",
 		"title": "Contract: The Oxenfurt Drunk",
 		"hold": "Novigrad",
@@ -2808,7 +2808,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "8h901234-56ij-4klm-7890-123456789012",
+		"id": "8h901234-56ij-4klm-7890-1yy456789012",
 		"mainCategory": "Contract Quests",
 		"title": "Contract: The White Lady",
 		"hold": "Novigrad",
@@ -2820,7 +2820,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "1a234567-89bc-4d6f-8hij-klmnopqrstuv",
+		"id": "1a234567-89bq-4d6f-8hij-klmnopqrstuv",
 		"mainCategory": "Contracts",
 		"title": "Contract: Dragon",
 		"hold": "Skellige",
@@ -2832,7 +2832,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "2b345678-9cde-4f6h-ijkl-mnopqrstu1v2",
+		"id": "fb345678-9cde-4f6h-ijkl-mnopqrstu1v2",
 		"mainCategory": "Contracts",
 		"title": "Contract: Here Comes the Groom",
 		"hold": "Skellige",
@@ -2844,7 +2844,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "3c456789-def0-4ghi-jklm-nopqrstuv12",
+		"id": "3c456789-def0-4ghf-jklm-nopqrstuv12",
 		"mainCategory": "Contracts",
 		"title": "Contract: Missing Miners",
 		"hold": "Skellige",
@@ -2856,7 +2856,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "4d567890-ef01-4ghij-klmn-opqrstuv123",
+		"id": "4d567890-ef01-4ghij-klmn-opqrst4v123",
 		"mainCategory": "Contracts",
 		"title": "Contract: Missing Son",
 		"hold": "Skellige",
@@ -2868,7 +2868,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "5e678901-f12a-4bc3-def4-ghijklmnopqr",
+		"id": "5e678901-f12a-4bc3-def4-ghijklmnopdd",
 		"mainCategory": "Contracts",
 		"title": "Contract: Muire D'yaeblen",
 		"hold": "Skellige",
@@ -2880,7 +2880,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "6f789012-34cd-4e56-789f-012345678901",
+		"id": "6f789012-34cd-4e56-7v9f-012345678901",
 		"mainCategory": "Contracts",
 		"title": "Contract: Skellige's Most Wanted",
 		"hold": "Skellige",
@@ -2892,7 +2892,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "7g890123-45de-4f67-8901-234567890123",
+		"id": "7g890123-45de-4f237-8901-234567890123",
 		"mainCategory": "Contracts",
 		"title": "Contract: Strange Beast",
 		"hold": "Skellige",
@@ -2904,7 +2904,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "8h901234-56ij-4klm-7890-123456789012",
+		"id": "8h901234-56ij-4klm-7890-12345678rt12",
 		"mainCategory": "Contracts",
 		"title": "Contract: The Phantom of Eldberg",
 		"hold": "Skellige",
@@ -2916,7 +2916,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "9i012345-67jk-4lmn-8901-234567890123",
+		"id": "9i01vf45-67jk-4lmn-8901-234567890123",
 		"mainCategory": "Contracts",
 		"title": "In the Heart of the Woods",
 		"hold": "Skellige",
@@ -2928,7 +2928,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "1a234567-89bc-4d6f-8hij-klmnopqrstuv",
+		"id": "1a234q6w-89bc-4d6f-8hij-klmnopqrstuv",
 		"mainCategory": "Treasure Hunts",
 		"title": "Deserter Gold",
 		"hold": "White Orchard",
@@ -2940,7 +2940,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "2b345678-9cde-4f6h-ijkl-mnopqrstu1v2",
+		"id": "2b345678-9cde-ff6h-ijkl-mnopqrstu1v2",
 		"mainCategory": "Treasure Hunts",
 		"title": "Dirty Funds",
 		"hold": "White Orchard",
@@ -2952,7 +2952,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "3c456789-def0-4ghi-jklm-nopqrstuv12",
+		"id": "3cf56789-def0-4ghi-jklm-nopqrstuv12",
 		"mainCategory": "Treasure Hunts",
 		"title": "Scavenger Hunt: Viper School Gear",
 		"hold": "White Orchard",
@@ -2964,7 +2964,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "4d567890-ef01-4ghij-klmn-opqrstuv123",
+		"id": "4d567890-ef01-4ghij-klmn-opqrstuv124",
 		"mainCategory": "Treasure Hunts",
 		"title": "Temerian Valuables",
 		"hold": "White Orchard",
@@ -2976,7 +2976,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "1a234567-89bc-4d6f-8hij-klmnopqrstuv",
+		"id": "1a23w567-89bc-4d6f-8hij-klmnopqrstuv",
 		"mainCategory": "Treasure Hunts",
 		"title": "A Costly Mistake",
 		"hold": "Velen",
@@ -2988,7 +2988,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "2b345678-9cde-4f6h-ijkl-mnopqrstu1v2",
+		"id": "2b345f78-9cde-4f6h-ijkl-mnopqrstu1v2",
 		"mainCategory": "Treasure Hunts",
 		"title": "A Plea Ignored",
 		"hold": "Velen",
@@ -3000,7 +3000,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "3c456789-def0-4ghi-jklm-nopqrstuv12",
+		"id": "3c456789-def0-4ghi-jklm-nopqfstuv12",
 		"mainCategory": "Treasure Hunts",
 		"title": "An Unfortunate Turn of Events",
 		"hold": "Velen",
@@ -3012,7 +3012,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "4d567890-ef01-4ghij-klmn-opqrstuv123",
+		"id": "4d567890-ef01-4gh4j-klmn-opqrstuv123",
 		"mainCategory": "Treasure Hunts",
 		"title": "Battlefield Loot",
 		"hold": "Velen",
@@ -3024,7 +3024,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "5e678901-f12a-4bc3-def4-ghijklmnopqr",
+		"id": "5e678901-f12a-ddc3-def4-ghijklmnopqr",
 		"mainCategory": "Treasure Hunts",
 		"title": "Blood Gold",
 		"hold": "Velen",
@@ -3036,7 +3036,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "6f789012-34cd-4e56-789f-012345678901",
+		"id": "6f789012-34cd-4e56-789f-0123456v8901",
 		"mainCategory": "Treasure Hunts",
 		"title": "Don't Play with the Gods",
 		"hold": "Velen",
@@ -3048,7 +3048,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "7g890123-45de-4f67-8901-234567890123",
+		"id": "7g890123-45de-4347-8901-234567890123",
 		"mainCategory": "Treasure Hunts",
 		"title": "Dowry",
 		"hold": "Velen",
@@ -3060,7 +3060,7 @@
 		"conflictingIds": []
 	},
 	{
-		"id": "8h901234-56ij-4klm-7890-123456789012",
+		"id": "8h901234-56ij-4klm-7yt0-123456789012",
 		"mainCategory": "Treasure Hunts",
 		"title": "Hidden from the World",
 		"hold": "Velen",
@@ -3073,7 +3073,7 @@
 	},
 	
   {
-    "id": "1a234567-89bc-4d6f-8hij-klmnopqrstuv",
+    "id": "1a234567-89bc-4d6f-8hij-klmnopqrswev",
     "mainCategory": "Treasure Hunts",
     "title": "Lost Goods",
     "hold": "Velen",
@@ -3085,7 +3085,7 @@
     "conflictingIds": []
   },
   {
-    "id": "2b345678-9cde-4f6h-ijkl-mnopqrstu1v2",
+    "id": "2b345678-9cde-4f6h-fjkl-mnopqrstu1v2",
     "mainCategory": "Treasure Hunts",
     "title": "Out of the Frying Pan, into the Fire",
     "hold": "Velen",
@@ -3097,7 +3097,7 @@
     "conflictingIds": []
   },
   {
-    "id": "3c456789-def0-4ghi-jklm-nopqrstuv12",
+    "id": "3c456789-def0-4ghi-jklm-nopqrstuv1f",
     "mainCategory": "Treasure Hunts",
     "title": "Queen Zuleyka's Treasure",
     "hold": "Velen",
@@ -3109,7 +3109,7 @@
     "conflictingIds": []
   },
   {
-    "id": "4d567890-ef01-4ghij-klmn-opqrstuv123",
+    "id": "4d567834-ef01-4ghij-klmn-opqrstuv123",
     "mainCategory": "Treasure Hunts",
     "title": "Scavenger Hunt: Bear School Gear Upgrade Diagrams - Part 3",
     "hold": "Velen",
@@ -3121,7 +3121,7 @@
     "conflictingIds": []
   },
   {
-    "id": "5e678901-f12a-4bc3-def4-ghijklmnopqr",
+    "id": "5e678901-fdda-4bc3-def4-ghijklmnopqr",
     "mainCategory": "Treasure Hunts",
     "title": "Scavenger Hunt: Bear School Gear Upgrade Diagrams - Part 4",
     "hold": "Velen",
@@ -3133,7 +3133,7 @@
     "conflictingIds": []
   },
   {
-    "id": "6f789012-34cd-4e56-789f-012345678901",
+    "id": "6f78v012-34cd-4e56-789f-012345678901",
     "mainCategory": "Treasure Hunts",
     "title": "Scavenger Hunt: Cat School Gear Upgrade Diagrams - Part 2",
     "hold": "Velen",
@@ -3145,7 +3145,7 @@
     "conflictingIds": []
   },
   {
-    "id": "7g890123-45de-4f67-8901-234567890123",
+    "id": "7g890123-45de-4f67-8901-23456c890123",
     "mainCategory": "Treasure Hunts",
     "title": "Scavenger Hunt: Griffin School Gear",
     "hold": "Velen",
@@ -3157,7 +3157,7 @@
     "conflictingIds": []
   },
   {
-    "id": "8h901234-56ij-4klm-7890-123456789012",
+    "id": "8h901234-56ij-4klm-7440-123456789012",
     "mainCategory": "Treasure Hunts",
     "title": "Scavenger Hunt: Griffin School Gear Upgrade Diagrams - Part 1",
     "hold": "Velen",
@@ -3169,7 +3169,7 @@
     "conflictingIds": []
   },
   {
-    "id": "9i012345-67jk-4lmn-8901-234567890123",
+    "id": "9i012345-67jk-4vmn-8901-234567890123",
     "mainCategory": "Treasure Hunts",
     "title": "Scavenger Hunt: Griffin School Gear Upgrade Diagrams - Part 2",
     "hold": "Velen",
@@ -3181,7 +3181,7 @@
     "conflictingIds": []
   },
   {
-    "id": "10j123456-78kl-4mno-9012-345678901234",
+    "id": "10j123456-78kl-4mno-9012-34567890d234",
     "mainCategory": "Treasure Hunts",
     "title": "Scavenger Hunt: Wolf School Gear Upgrade Diagrams - Part 1",
     "hold": "Velen",
@@ -3193,7 +3193,7 @@
     "conflictingIds": []
   },
   {
-    "id": "11k234567-89lm-4nop-1234-567890123456",
+    "id": "11k234567-89lm-4nop-1234-567d90123456",
     "mainCategory": "Treasure Hunts",
     "title": "Scavenger Hunt: Wolf School Gear Upgrade Diagrams - Part 5",
     "hold": "Velen",
@@ -3266,7 +3266,7 @@
   },
 
   {
-    "id": "1a234567-89bc-4d6f-8hij-klmnopqrstuv",
+    "id": "1a234567-89bc-4qwf-8hij-klmnopqrstuv",
     "mainCategory": "Treasure Hunts",
     "title": "Coast of Wrecks",
     "hold": "Novigrad",
@@ -3278,7 +3278,7 @@
     "conflictingIds": []
   },
   {
-    "id": "2b345678-9cde-4f6h-ijkl-mnopqrstu1v2",
+    "id": "2b345678-9cde-4f6h-ijkl-mnopqdxcu1v2",
     "mainCategory": "Treasure Hunts",
     "title": "Scavenger Hunt: Cat School Gear",
     "hold": "Novigrad",
@@ -3290,7 +3290,7 @@
     "conflictingIds": []
   },
   {
-    "id": "3c456789-def0-4ghi-jklm-nopqrstuv12",
+    "id": "3c456789-def0-4fhi-jklm-nopqrstuv12",
     "mainCategory": "Treasure Hunts",
     "title": "Scavenger Hunt: Cat School Gear Upgrade Diagrams - Part 1",
     "hold": "Novigrad",
@@ -3302,7 +3302,7 @@
     "conflictingIds": []
   },
   {
-    "id": "4d567890-ef01-4ghij-klmn-opqrstuv123",
+    "id": "4d567890-ef01-34hij-klmn-opqrstuv123",
     "mainCategory": "Treasure Hunts",
     "title": "Scavenger Hunt: Cat School Gear Upgrade Diagrams - Part 3",
     "hold": "Novigrad",
@@ -3315,7 +3315,7 @@
   },
 
   {
-    "id": "1a234567-89bc-4d6f-8hij-klmnopqrstuv",
+    "id": "1a234567-89bc-4d6f-8hij-klmndwqrstuv",
     "mainCategory": "Treasure Hunts",
     "title": "Family Fortune",
     "hold": "Skellige",
@@ -3327,7 +3327,7 @@
     "conflictingIds": []
   },
   {
-    "id": "2b345678-9cde-4f6h-ijkl-mnopqrstu1v2",
+    "id": "2b3456d8-9cde-4f6h-ijkl-mnopqrstu1v2",
     "mainCategory": "Treasure Hunts",
     "title": "Freya Be Praised!",
     "hold": "Skellige",
@@ -3339,7 +3339,7 @@
     "conflictingIds": []
   },
   {
-    "id": "3c456789-def0-4ghi-jklm-nopqrstuv12",
+    "id": "3c4567f9-def0-4ghi-jklm-nopqrstuv12",
     "mainCategory": "Treasure Hunts",
     "title": "Hidden in the Depths",
     "hold": "Skellige",
@@ -3351,7 +3351,7 @@
     "conflictingIds": []
   },
   {
-    "id": "4d567890-ef01-4ghij-klmn-opqrstuv123",
+    "id": "4d567890-ef01-4ghij-klmn-o45rstuv123",
     "mainCategory": "Treasure Hunts",
     "title": "Inheritance",
     "hold": "Skellige",
@@ -3387,7 +3387,7 @@
     "conflictingIds": []
   },
   {
-    "id": "7g890123-45de-4f67-8901-234567890123",
+    "id": "7g890123-45de-4f67-8901-234567890c23",
     "mainCategory": "Treasure Hunts",
     "title": "Not Only Eagles Dare",
     "hold": "Skellige",
@@ -3399,7 +3399,7 @@
     "conflictingIds": []
   },
   {
-    "id": "8h901234-56ij-4klm-7890-123456789012",
+    "id": "8h901234-5rij-4klm-7890-123456789012",
     "mainCategory": "Treasure Hunts",
     "title": "Pearls of the Coast",
     "hold": "Skellige",
@@ -3411,7 +3411,7 @@
     "conflictingIds": []
   },
   {
-    "id": "9i012345-67jk-4lmn-8901-234567890123",
+    "id": "9i012345-67jk-4lmn-89vf-234567890123",
     "mainCategory": "Treasure Hunts",
     "title": "Precious Haul",
     "hold": "Skellige",
@@ -3423,7 +3423,7 @@
     "conflictingIds": []
   },
   {
-    "id": "10j123456-78kl-4mno-9012-345678901234",
+    "id": "10j123456-78kl-4mco-9012-345678901234",
     "mainCategory": "Treasure Hunts",
     "title": "Ruins, Hidden Treasure, You Know...",
     "hold": "Skellige",
@@ -3448,7 +3448,7 @@
     "conflictingIds": []
   },
   {
-    "id": "2b345678-9cde-4f6h-ijkl-mnopqrstu1v2",
+    "id": "2b345678-9cde-4f6h-ijkl-mnopqrstd1v2",
     "mainCategory": "Treasure Hunts",
     "title": "Scavenger Hunt: Bear School Gear Upgrade Diagrams - Part 1",
     "hold": "None",
@@ -3460,7 +3460,7 @@
     "conflictingIds": []
   },
   {
-    "id": "3c456789-def0-4ghi-jklm-nopqrstuv12",
+    "id": "3c4f6789-def0-4ghi-jklm-nopqrstuv12",
     "mainCategory": "Treasure Hunts",
     "title": "Scavenger Hunt: Bear School Gear Upgrade Diagrams - Part 2",
     "hold": "None",
@@ -3484,7 +3484,7 @@
     "conflictingIds": []
   },
   {
-    "id": "5e678901-f12a-4bc3-def4-ghijklmnopqr",
+    "id": "5e678901-f12a-4bc3-def4-ghcjklmnopqr",
     "mainCategory": "Treasure Hunts",
     "title": "Scavenger Hunt: Griffin School Gear Upgrade Diagrams - Part 3",
     "hold": "None",
@@ -3496,7 +3496,7 @@
     "conflictingIds": []
   },
   {
-    "id": "6f789012-34cd-4e56-789f-012345678901",
+    "id": "6f789012-34cd-4e56-7e9f-012345678f01",
     "mainCategory": "Treasure Hunts",
     "title": "Scavenger Hunt: Griffin School Gear Upgrade Diagrams - Part 4",
     "hold": "None",
@@ -3508,7 +3508,7 @@
     "conflictingIds": []
   },
   {
-    "id": "7g890123-45de-4f67-8901-234567890123",
+    "id": "7g890123-45de-4f67-8c01-2345678c0123",
     "mainCategory": "Treasure Hunts",
     "title": "Scavenger Hunt: Wolf School Gear Upgrade Diagrams - Part 3",
     "hold": "None",
@@ -3520,7 +3520,7 @@
     "conflictingIds": []
   },
   {
-    "id": "8h901234-56ij-4klm-7890-123456789012",
+    "id": "8h901c34-56ij-4klm-7890-123456789012",
     "mainCategory": "Treasure Hunts",
     "title": "Scavenger Hunt: Wolf School Gear Upgrade Diagrams - Part 6",
     "hold": "None",
@@ -3569,7 +3569,7 @@
   },
 
   {
-    "id": "1a234567-89bc-4d6f-8hij-klmnopqrstuv",
+    "id": "1a234567-89bc-4d6f-8hij-klmncpqrstuv",
     "mainCategory": "Treasure Hunts",
     "title": "Scavenger Hunt: Forgotten Wolf School Gear Diagrams",
     "hold": "Kaer Morhen",
@@ -3581,7 +3581,7 @@
     "conflictingIds": []
   },
   {
-    "id": "2b345678-9cde-4f6h-ijkl-mnopqrstu1v2",
+    "id": "2xc45678-9cde-4f6h-ijkl-mnopqdstu1v2",
     "mainCategory": "Treasure Hunts",
     "title": "Scavenger Hunt: Wolf School Gear",
     "hold": "Kaer Morhen",
@@ -3593,7 +3593,7 @@
     "conflictingIds": []
   },
   {
-    "id": "3c456789-def0-4ghi-jklm-nopqrstuv12",
+    "id": "3f456789-def0-4ghi-jklm-nopqrstuv12",
     "mainCategory": "Treasure Hunts",
     "title": "Scavenger Hunt: Wolf School Gear Upgrade Diagrams - Part 2",
     "hold": "Kaer Morhen",
@@ -3605,7 +3605,7 @@
     "conflictingIds": []
   },
   {
-    "id": "4d567890-ef01-4ghij-klmn-opqrstuv123",
+    "id": "4d567890-ef01-4ghij-klmn-opqrstuc123",
     "mainCategory": "Treasure Hunts",
     "title": "Scavenger Hunt: Wolf School Gear Upgrade Diagrams - Part 4",
     "hold": "Kaer Morhen",
@@ -3618,11 +3618,11 @@
   },
 
   {
-    "id": "1a234567-89bc-4d6f-8hij-klmnopqrstuv",
-    "mainCategory": "Hearts of Stone Quests",
+    "id": "1a234567-89bc-4d6f-8hij-klmnopqrstux",
+    "mainCategory": "Hearts Of stone Quests",
     "title": "Evil's Soft First Touches",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Hearts Of stone",
     "subCategory": "Main Quests",
     "subCategoryType": "",
     "location": "",
@@ -3630,11 +3630,11 @@
     "conflictingIds": []
   },
   {
-    "id": "2b345678-9cde-4f6h-ijkl-mnopqrstu1v2",
-    "mainCategory": "Hearts of Stone Quests",
+    "id": "2b345678-9cde-4f6h-ijdl-mnopqrstu1v2",
+    "mainCategory": "Hearts Of stone Quests",
     "title": "Dead Man's Party",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Hearts Of stone",
     "subCategory": "Main Quests",
     "subCategoryType": "",
     "location": "",
@@ -3642,11 +3642,11 @@
     "conflictingIds": []
   },
   {
-    "id": "3c456789-def0-4ghi-jklm-nopqrstuv12",
-    "mainCategory": "Hearts of Stone Quests",
+    "id": "3c456789-def0-4gei-jklm-nopqrstuv12",
+    "mainCategory": "Hearts Of stone Quests",
     "title": "Open Sesame!",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Hearts Of stone",
     "subCategory": "Main Quests",
     "subCategoryType": "",
     "location": "",
@@ -3654,11 +3654,11 @@
     "conflictingIds": []
   },
   {
-    "id": "4d567890-ef01-4ghij-klmn-opqrstuv123",
-    "mainCategory": "Hearts of Stone Quests",
+    "id": "4d567890-ef01-4gcij-klmn-opqrstuv123",
+    "mainCategory": "Hearts Of stone Quests",
     "title": "Open Sesame: Witcher Seasonings",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Hearts Of stone",
     "subCategory": "Main Quests",
     "subCategoryType": "",
     "location": "",
@@ -3666,11 +3666,11 @@
     "conflictingIds": []
   },
   {
-    "id": "5e678901-f12a-4bc3-def4-ghijklmnopqr",
-    "mainCategory": "Hearts of Stone Quests",
+    "id": "5e6789c1-f12a-4bc3-def4-ghijklmnopqr",
+    "mainCategory": "Hearts Of stone Quests",
     "title": "Open Sesame: Breaking and Entering",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Hearts Of stone",
     "subCategory": "Main Quests",
     "subCategoryType": "",
     "location": "",
@@ -3678,11 +3678,11 @@
     "conflictingIds": []
   },
   {
-    "id": "6f789012-34cd-4e56-789f-012345678901",
-    "mainCategory": "Hearts of Stone Quests",
+    "id": "6f789e12-34cd-4e56-789f-012345678901",
+    "mainCategory": "Hearts Of stone Quests",
     "title": "Open Sesame: The Safecracker",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Hearts Of stone",
     "subCategory": "Main Quests",
     "subCategoryType": "",
     "location": "",
@@ -3690,11 +3690,11 @@
     "conflictingIds": []
   },
   {
-    "id": "7g890123-45de-4f67-8901-234567890123",
-    "mainCategory": "Hearts of Stone Quests",
+    "id": "7g890c23-45de-4f67-8901-234567890123",
+    "mainCategory": "Hearts Of stone Quests",
     "title": "Scenes From a Marriage",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Hearts Of stone",
     "subCategory": "Main Quests",
     "subCategoryType": "",
     "location": "",
@@ -3702,11 +3702,11 @@
     "conflictingIds": []
   },
   {
-    "id": "8h901234-56ij-4klm-7890-123456789012",
-    "mainCategory": "Hearts of Stone Quests",
+    "id": "8h901234-56ij-4klm-7890-12c456789012",
+    "mainCategory": "Hearts Of stone Quests",
     "title": "Whatsoever a Man Soweth...",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Hearts Of stone",
     "subCategory": "Main Quests",
     "subCategoryType": "",
     "location": "",
@@ -3715,11 +3715,11 @@
   },
 
   {
-    "id": "1a234567-89bc-4d6f-8hij-klmnopqrstuv",
-    "mainCategory": "Hearts of Stone Quests",
+    "id": "1a234567-89bc-4d6f-xhij-klmnopqrstuv",
+    "mainCategory": "Hearts Of stone Quests",
     "title": "A Midnight Clear",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Hearts Of stone",
     "subCategory": "Secondary Quests",
     "subCategoryType": "",
     "location": "",
@@ -3727,11 +3727,11 @@
     "conflictingIds": []
   },
   {
-    "id": "2b345678-9cde-4f6h-ijkl-mnopqrstu1v2",
-    "mainCategory": "Hearts of Stone Quests",
+    "id": "2b34d678-9cde-4f6h-ijkl-mnopqrstu1v2",
+    "mainCategory": "Hearts Of stone Quests",
     "title": "Avid Collector",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Hearts Of stone",
     "subCategory": "Secondary Quests",
     "subCategoryType": "",
     "location": "",
@@ -3739,11 +3739,11 @@
     "conflictingIds": []
   },
   {
-    "id": "3c456789-def0-4ghi-jklm-nopqrstuv12",
-    "mainCategory": "Hearts of Stone Quests",
+    "id": "3c456789-def0-eghi-jklm-nopqrstuv12",
+    "mainCategory": "Hearts Of stone Quests",
     "title": "Enchanting: Quality Has Its Price",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Hearts Of stone",
     "subCategory": "Secondary Quests",
     "subCategoryType": "",
     "location": "",
@@ -3751,11 +3751,11 @@
     "conflictingIds": []
   },
   {
-    "id": "4d567890-ef01-4ghij-klmn-opqrstuv123",
-    "mainCategory": "Hearts of Stone Quests",
+    "id": "4dc67890-ef01-4ghij-klmn-opqrstuv123",
+    "mainCategory": "Hearts Of stone Quests",
     "title": "Enchanting: Start-up Costs",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Hearts Of stone",
     "subCategory": "Secondary Quests",
     "subCategoryType": "",
     "location": "",
@@ -3763,11 +3763,11 @@
     "conflictingIds": []
   },
   {
-    "id": "5e678901-f12a-4bc3-def4-ghijklmnopqr",
-    "mainCategory": "Hearts of Stone Quests",
+    "id": "5e678901-f12a-cbc3-def4-ghijklmnopqr",
+    "mainCategory": "Hearts Of stone Quests",
     "title": "Races: Swift as the Western Winds",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Hearts Of stone",
     "subCategory": "Secondary Quests",
     "subCategoryType": "",
     "location": "",
@@ -3775,11 +3775,11 @@
     "conflictingIds": []
   },
   {
-    "id": "6f789012-34cd-4e56-789f-012345678901",
-    "mainCategory": "Hearts of Stone Quests",
+    "id": "6f789012-34cd-4e56-789f-0123456789e1",
+    "mainCategory": "Hearts Of stone Quests",
     "title": "Rose on a Red Field",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Hearts Of stone",
     "subCategory": "Secondary Quests",
     "subCategoryType": "",
     "location": "",
@@ -3787,11 +3787,11 @@
     "conflictingIds": []
   },
   {
-    "id": "7g890123-45de-4f67-8901-234567890123",
-    "mainCategory": "Hearts of Stone Quests",
+    "id": "7g890123-45de-4f67-8c01-234567890123",
+    "mainCategory": "Hearts Of stone Quests",
     "title": "The Taxman Cometh",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Hearts Of stone",
     "subCategory": "Secondary Quests",
     "subCategoryType": "",
     "location": "",
@@ -3799,11 +3799,11 @@
     "conflictingIds": []
   },
   {
-    "id": "8h901234-56ij-4klm-7890-123456789012",
-    "mainCategory": "Hearts of Stone Quests",
+    "id": "8h901234-56ij-4kcm-7890-123456789012",
+    "mainCategory": "Hearts Of stone Quests",
     "title": "Without a Trace",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Hearts Of stone",
     "subCategory": "Secondary Quests",
     "subCategoryType": "",
     "location": "",
@@ -3812,11 +3812,11 @@
   },
 
   {
-    "id": "1a234567-89bc-4d6f-8hij-klmnopqrstuv",
-    "mainCategory": "Hearts of Stone Quests",
+    "id": "1a234567-8cbc-4d6f-8hij-klmnopqrstuv",
+    "mainCategory": "Hearts Of stone Quests",
     "title": "A Dark Legacy",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Hearts Of stone",
     "subCategory": "Treasure Hunts",
     "subCategoryType": "",
     "location": "",
@@ -3824,11 +3824,11 @@
     "conflictingIds": []
   },
   {
-    "id": "2b345678-9cde-4f6h-ijkl-mnopqrstu1v2",
-    "mainCategory": "Hearts of Stone Quests",
+    "id": "2w3d5678-9cde-4f6h-ijkl-mnopqrstu1v2",
+    "mainCategory": "Hearts Of stone Quests",
     "title": "A Surprise Inheritance",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Hearts Of stone",
     "subCategory": "Treasure Hunts",
     "subCategoryType": "",
     "location": "",
@@ -3836,11 +3836,11 @@
     "conflictingIds": []
   },
   {
-    "id": "3c456789-def0-4ghi-jklm-nopqrstuv12",
-    "mainCategory": "Hearts of Stone Quests",
+    "id": "3c456789-dez0-4ghi-jklm-nopqrstuv12",
+    "mainCategory": "Hearts Of stone Quests",
     "title": "From Ofier's Distant Shores",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Hearts Of stone",
     "subCategory": "Treasure Hunts",
     "subCategoryType": "",
     "location": "",
@@ -3848,11 +3848,11 @@
     "conflictingIds": []
   },
   {
-    "id": "4d567890-ef01-4ghij-klmn-opqrstuv123",
-    "mainCategory": "Hearts of Stone Quests",
+    "id": "4d567890-ef01-4ghij-klmn-oqqrstuv123",
+    "mainCategory": "Hearts Of stone Quests",
     "title": "The Cursed Chapel",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Hearts Of stone",
     "subCategory": "Treasure Hunts",
     "subCategoryType": "",
     "location": "",
@@ -3860,11 +3860,11 @@
     "conflictingIds": []
   },
   {
-    "id": "5e678901-f12a-4bc3-def4-ghijklmnopqr",
-    "mainCategory": "Hearts of Stone Quests",
+    "id": "5e678901-f12a-4bc3-defv-ghijklmnopqr",
+    "mainCategory": "Hearts Of stone Quests",
     "title": "The Drakenborg Redemption",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Hearts Of stone",
     "subCategory": "Treasure Hunts",
     "subCategoryType": "",
     "location": "",
@@ -3872,11 +3872,11 @@
     "conflictingIds": []
   },
   {
-    "id": "6f789012-34cd-4e56-789f-012345678901",
-    "mainCategory": "Hearts of Stone Quests",
+    "id": "ef789012-34cd-4e56-789f-012345678901",
+    "mainCategory": "Hearts Of stone Quests",
     "title": "The Royal Air Force",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Hearts Of stone",
     "subCategory": "Treasure Hunts",
     "subCategoryType": "",
     "location": "",
@@ -3885,10 +3885,10 @@
   },
   {
     "id": "7g890123-45de-4f67-8901-234567890123",
-    "mainCategory": "Hearts of Stone Quests",
+    "mainCategory": "Hearts Of stone Quests",
     "title": "The Secret Life of Count Romilly",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Hearts Of stone",
     "subCategory": "Treasure Hunts",
     "subCategoryType": "",
     "location": "",
@@ -3896,11 +3896,11 @@
     "conflictingIds": []
   },
   {
-    "id": "8h901234-56ij-4klm-7890-123456789012",
-    "mainCategory": "Hearts of Stone Quests",
+    "id": "8h901234-56ij-4klm-7890-12345678sd12",
+    "mainCategory": "Hearts Of stone Quests",
     "title": "The Sword, Famine, and Perfidy",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Hearts Of stone",
     "subCategory": "Treasure Hunts",
     "subCategoryType": "",
     "location": "",
@@ -3908,11 +3908,11 @@
     "conflictingIds": []
   },
   {
-    "id": "9i012345-67jk-4lmn-opqr-567890123456",
-    "mainCategory": "Hearts of Stone Quests",
+    "id": "9i012345-67jk-4lmn-opqr-564890123456",
+    "mainCategory": "Hearts Of stone Quests",
     "title": "Tinker, Hunter, Soldier, Spy",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Hearts Of stone",
     "subCategory": "Treasure Hunts",
     "subCategoryType": "",
     "location": "",
@@ -3921,11 +3921,11 @@
   },
 
   {
-    "id": "1a234567-89bc-4d6f-8hij-klmnopqrstuv",
+    "id": "1a233567-89bc-4d6f-8hij-klmnopqrstuv",
     "mainCategory": "Blood And Wine Quests",
     "title": "Envoys, Wineboys",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Main Quests",
     "subCategoryType": "",
     "location": "",
@@ -3933,11 +3933,11 @@
     "conflictingIds": []
   },
   {
-    "id": "2b345678-9cde-4f6h-ijkl-mnopqrstu1v2",
+    "id": "2bw45678-9cde-4f6h-ijkl-mnopqrstu1v2",
     "mainCategory": "Blood And Wine Quests",
     "title": "The Beast of Toussaint",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Main Quests",
     "subCategoryType": "",
     "location": "",
@@ -3945,11 +3945,11 @@
     "conflictingIds": []
   },
   {
-    "id": "3c456789-def0-4ghi-jklm-nopqrstuv12",
+    "id": "3c456789-def0-4ghi-jklm-nzpqrstuv12",
     "mainCategory": "Blood And Wine Quests",
     "title": "Blood Run",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Main Quests",
     "subCategoryType": "",
     "location": "",
@@ -3957,11 +3957,11 @@
     "conflictingIds": []
   },
   {
-    "id": "4d567890-ef01-4ghij-klmn-opqrstuv123",
+    "id": "4d567890-efc1-4ghij-klmn-opqrstuv123",
     "mainCategory": "Blood And Wine Quests",
     "title": "La Cage au Fou",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Main Quests",
     "subCategoryType": "",
     "location": "",
@@ -3969,11 +3969,11 @@
     "conflictingIds": []
   },
   {
-    "id": "5e678901-f12a-4bc3-def4-ghijklmnopqr",
+    "id": "5e678901-f12a-4bc3-def4-ghijklmnovqr",
     "mainCategory": "Blood And Wine Quests",
     "title": "Where Children Toil, Toys Waste Away",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Main Quests",
     "subCategoryType": "",
     "location": "",
@@ -3981,11 +3981,11 @@
     "conflictingIds": []
   },
   {
-    "id": "6f789012-34cd-4e56-789f-012345678901",
+    "id": "6f789012-34cd-4e56-7eff-012345678901",
     "mainCategory": "Blood And Wine Quests",
     "title": "Wine is Sacred",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Main Quests",
     "subCategoryType": "",
     "location": "",
@@ -3993,11 +3993,11 @@
     "conflictingIds": []
   },
   {
-    "id": "7g890123-45de-4f67-8901-234567890123",
+    "id": "7g890123-45de-4f67-8901-2c4567c90123",
     "mainCategory": "Blood And Wine Quests",
     "title": "The Man from Cintra",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Main Quests",
     "subCategoryType": "",
     "location": "",
@@ -4005,11 +4005,11 @@
     "conflictingIds": []
   },
   {
-    "id": "8h901234-56ij-4klm-7890-123456789012",
+    "id": "8h901234-56ij-4klm-7890-12345sdf9012",
     "mainCategory": "Blood And Wine Quests",
     "title": "Capture the Castle",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Main Quests",
     "subCategoryType": "",
     "location": "",
@@ -4017,11 +4017,11 @@
     "conflictingIds": []
   },
   {
-    "id": "9i012345-67jk-4lmn-opqr-567890123456",
+    "id": "9i012345-67jk-4lmn-4pqr-567890123456",
     "mainCategory": "Blood And Wine Quests",
     "title": "The Night of Long Fangs",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Main Quests",
     "subCategoryType": "",
     "location": "",
@@ -4029,11 +4029,11 @@
     "conflictingIds": []
   },
   {
-    "id": "0j123456-78kl-9mno-pqrs-tuv123456789",
+    "id": "0j123456-78kl-9mno-pqrs-tuv123456c89",
     "mainCategory": "Blood And Wine Quests",
     "title": "Beyond Hill and Dale...",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Main Quests",
     "subCategoryType": "",
     "location": "",
@@ -4045,7 +4045,7 @@
     "mainCategory": "Blood And Wine Quests",
     "title": "Blood Simple",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Main Quests",
     "subCategoryType": "",
     "location": "",
@@ -4053,11 +4053,11 @@
     "conflictingIds": []
   },
   {
-    "id": "2l345678-90mn-opqr-stuv-123456789012",
+    "id": "2l345678-90mn-opqr-stuv-12345678901c",
     "mainCategory": "Blood And Wine Quests",
     "title": "What Lies Unseen",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Main Quests",
     "subCategoryType": "",
     "location": "",
@@ -4065,11 +4065,11 @@
     "conflictingIds": []
   },
   {
-    "id": "3m456789-01no-pqrs-tuv1-234567890123",
+    "id": "3m456789-01no-pqrs-tuee-234567890123",
     "mainCategory": "Blood And Wine Quests",
     "title": "Tesham Mutna",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Main Quests",
     "subCategoryType": "",
     "location": "",
@@ -4081,7 +4081,7 @@
     "mainCategory": "Blood And Wine Quests",
     "title": "Pomp and Strange Circumstance",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Main Quests",
     "subCategoryType": "",
     "location": "",
@@ -4093,7 +4093,7 @@
     "mainCategory": "Blood And Wine Quests",
     "title": "Burlap is the New Stripe",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Main Quests",
     "subCategoryType": "",
     "location": "",
@@ -4105,7 +4105,7 @@
     "mainCategory": "Blood And Wine Quests",
     "title": "Be It Ever So Humble...",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Main Quests",
     "subCategoryType": "",
     "location": "",
@@ -4114,11 +4114,11 @@
   },
 
   {
-    "id": "1a234567-89bc-4d6f-8hij-klmnopqrstuv",
+    "id": "12234567-89bc-4d6f-8hij-klmnopqrstuv",
     "mainCategory": "Blood And Wine Quests",
     "title": "A Knight's Tales",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Secondary Quests",
     "subCategoryType": "",
     "location": "",
@@ -4126,11 +4126,11 @@
     "conflictingIds": []
   },
   {
-    "id": "2b345678-9cde-4f6h-ijkl-mnopqrstu1v2",
+    "id": "2b345678-9cde-4w6h-ijkl-mnopqrstu1v2",
     "mainCategory": "Blood And Wine Quests",
     "title": "A Portrait of the Witcher as an Old Man",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Secondary Quests",
     "subCategoryType": "",
     "location": "",
@@ -4138,11 +4138,11 @@
     "conflictingIds": []
   },
   {
-    "id": "3c456789-def0-4ghi-jklm-nopqrstuv12",
+    "id": "3c456789-def0-4ghz-jklm-nopqrstuv12",
     "mainCategory": "Blood And Wine Quests",
     "title": "Amidst the Mill's Grist",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Secondary Quests",
     "subCategoryType": "",
     "location": "",
@@ -4150,11 +4150,11 @@
     "conflictingIds": []
   },
   {
-    "id": "4d567890-ef01-4ghij-klmn-opqrstuv123",
+    "id": "4d5678c0-ef01-4ghij-klmn-opqrstuv123",
     "mainCategory": "Blood And Wine Quests",
     "title": "Big Feet to Fill",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Secondary Quests",
     "subCategoryType": "",
     "location": "",
@@ -4162,11 +4162,11 @@
     "conflictingIds": []
   },
   {
-    "id": "5e678901-f12a-4bc3-def4-ghijklmnopqr",
+    "id": "5e6v8901-f12a-4bc3-def4-ghijklmnopqr",
     "mainCategory": "Blood And Wine Quests",
     "title": "Big Feet to Fill: The Fifth Group",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Secondary Quests",
     "subCategoryType": "",
     "location": "",
@@ -4174,11 +4174,11 @@
     "conflictingIds": []
   },
   {
-    "id": "6f789012-34cd-4e56-789f-012345678901",
+    "id": "6f789012-3ecd-4e56-789f-012345678901",
     "mainCategory": "Blood And Wine Quests",
     "title": "Big Feet to Fill: The First Group",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Secondary Quests",
     "subCategoryType": "",
     "location": "",
@@ -4186,11 +4186,11 @@
     "conflictingIds": []
   },
   {
-    "id": "7g890123-45de-4f67-8901-234567890123",
+    "id": "7g890123-45de-4f67-8901-234567c90123",
     "mainCategory": "Blood And Wine Quests",
     "title": "Big Feet to Fill: The Fourth Group",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Secondary Quests",
     "subCategoryType": "",
     "location": "",
@@ -4198,11 +4198,11 @@
     "conflictingIds": []
   },
   {
-    "id": "8h901234-56ij-4klm-7890-123456789012",
+    "id": "8h901234-56ij-4klm-7890-sd3456789012",
     "mainCategory": "Blood And Wine Quests",
     "title": "Big Feet to Fill: The Second Group",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Secondary Quests",
     "subCategoryType": "",
     "location": "",
@@ -4210,11 +4210,11 @@
     "conflictingIds": []
   },
   {
-    "id": "9i012345-67jk-4lmn-opqr-567890123456",
+    "id": "9i012333-67jk-4lmn-opqr-567890123456",
     "mainCategory": "Blood And Wine Quests",
     "title": "Big Feet to Fill: The Third Group",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Secondary Quests",
     "subCategoryType": "",
     "location": "",
@@ -4222,11 +4222,11 @@
     "conflictingIds": []
   },
   {
-    "id": "0j123456-78kl-9mno-pqrs-tuv123456789",
+    "id": "0j12c456-78kl-9eno-pqrs-tuv123456789",
     "mainCategory": "Blood And Wine Quests",
     "title": "Duck, Duck, Goosed!",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Secondary Quests",
     "subCategoryType": "",
     "location": "",
@@ -4234,11 +4234,11 @@
     "conflictingIds": []
   },
   {
-    "id": "1k234567-89lm-0nop-qrst-uv1234567890",
+    "id": "1k234567-89lm-0nop-qrst-uv12345d7890",
     "mainCategory": "Blood And Wine Quests",
     "title": "Extreme Cosplay",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Secondary Quests",
     "subCategoryType": "",
     "location": "",
@@ -4246,11 +4246,11 @@
     "conflictingIds": []
   },
   {
-    "id": "2l345678-90mn-opqr-stuv-123456789012",
+    "id": "2l345678-90mn-opcr-stuv-123456789012",
     "mainCategory": "Blood And Wine Quests",
     "title": "Father Knows Worst",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Secondary Quests",
     "subCategoryType": "",
     "location": "",
@@ -4258,11 +4258,11 @@
     "conflictingIds": []
   },
   {
-    "id": "3m456789-01no-pqrs-tuv1-234567890123",
+    "id": "3m456789-01eo-pqrs-tuv1-234567890123",
     "mainCategory": "Blood And Wine Quests",
     "title": "Fists of Fury: Toussaint",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Secondary Quests",
     "subCategoryType": "",
     "location": "",
@@ -4271,11 +4271,11 @@
   },
 
   {
-    "id": "1a234567-89bc-4d6f-8hij-klmnopqrstuv",
+    "id": "1a234567-89bc-4d6f-8hij-klmnop3rstuv",
     "mainCategory": "Blood And Wine Quests",
     "title": "Goodness, Gracious, Great Balls of Granite!",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Secondary Quests",
     "subCategoryType": "",
     "location": "",
@@ -4283,11 +4283,11 @@
     "conflictingIds": []
   },
   {
-    "id": "2b345678-9cde-4f6h-ijkl-mnopqrstu1v2",
+    "id": "2b345678-9cde-4f6h-ijwl-mnopqrstu1v2",
     "mainCategory": "Blood And Wine Quests",
     "title": "Gwent: Never Fear, Skellige's Here",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Secondary Quests",
     "subCategoryType": "",
     "location": "",
@@ -4295,11 +4295,11 @@
     "conflictingIds": []
   },
   {
-    "id": "3c456789-def0-4ghi-jklm-nopqrstuv12",
+    "id": "3c4567z9-def0-4ghi-jklm-nopqrstuv12",
     "mainCategory": "Blood And Wine Quests",
     "title": "Gwent: To Everything - Turn, Turn, Tournament!",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Secondary Quests",
     "subCategoryType": "",
     "location": "",
@@ -4307,11 +4307,11 @@
     "conflictingIds": []
   },
   {
-    "id": "4d567890-ef01-4ghij-klmn-opqrstuv123",
+    "id": "4d567890-ef01-4ghwj-klmn-opqrstuv123",
     "mainCategory": "Blood And Wine Quests",
     "title": "Knight for Hire",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Secondary Quests",
     "subCategoryType": "",
     "location": "",
@@ -4319,11 +4319,11 @@
     "conflictingIds": []
   },
   {
-    "id": "5e678901-f12a-4bc3-def4-ghijklmnopqr",
+    "id": "ve678901-f12a-4bc3-def4-ghijklmnopqr",
     "mainCategory": "Blood And Wine Quests",
     "title": "Master Master Master Master!",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Secondary Quests",
     "subCategoryType": "",
     "location": "",
@@ -4331,11 +4331,11 @@
     "conflictingIds": []
   },
   {
-    "id": "6f789012-34cd-4e56-789f-012345678901",
+    "id": "6f78r012-34cd-4e56-789f-012345678901",
     "mainCategory": "Blood And Wine Quests",
     "title": "Mutual of Beauclair's Wild Kingdom",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Secondary Quests",
     "subCategoryType": "",
     "location": "",
@@ -4343,11 +4343,11 @@
     "conflictingIds": []
   },
   {
-    "id": "7g890123-45de-4f67-8901-234567890123",
+    "id": "7g89ee23-45de-4f67-8901-234567890123",
     "mainCategory": "Blood And Wine Quests",
     "title": "No Place Like Home",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Secondary Quests",
     "subCategoryType": "",
     "location": "",
@@ -4355,11 +4355,11 @@
     "conflictingIds": []
   },
   {
-    "id": "8h901234-56ij-4klm-7890-123456789012",
+    "id": "8h901234-56ij-4klm-7890-1234567890gf",
     "mainCategory": "Blood And Wine Quests",
     "title": "Of Sheers and a Witcher I Sing",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Secondary Quests",
     "subCategoryType": "",
     "location": "",
@@ -4367,11 +4367,11 @@
     "conflictingIds": []
   },
   {
-    "id": "9i012345-67jk-4lmn-opqr-567890123456",
+    "id": "9i032345-67jk-4lmn-opqr-567890123456",
     "mainCategory": "Blood And Wine Quests",
     "title": "Paperchase",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Secondary Quests",
     "subCategoryType": "",
     "location": "",
@@ -4383,7 +4383,7 @@
     "mainCategory": "Blood And Wine Quests",
     "title": "Raging Wolf",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Secondary Quests",
     "subCategoryType": "",
     "location": "",
@@ -4391,11 +4391,11 @@
     "conflictingIds": []
   },
   {
-    "id": "1k234567-89lm-0nop-qrst-uv1234567890",
+    "id": "1k234567-89lm-0nod-qrst-uv1234567890",
     "mainCategory": "Blood And Wine Quests",
     "title": "The Hunger Game",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Secondary Quests",
     "subCategoryType": "",
     "location": "",
@@ -4403,11 +4403,11 @@
     "conflictingIds": []
   },
   {
-    "id": "2l345678-90mn-opqr-stuv-123456789012",
+    "id": "2lc45678-90mn-opqr-stuv-123456789012",
     "mainCategory": "Blood And Wine Quests",
     "title": "The Perks of Being a Jailbird",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Secondary Quests",
     "subCategoryType": "",
     "location": "",
@@ -4419,7 +4419,7 @@
     "mainCategory": "Blood And Wine Quests",
     "title": "The Warble of a Smitten Knight",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Secondary Quests",
     "subCategoryType": "",
     "location": "",
@@ -4431,7 +4431,7 @@
     "mainCategory": "Blood And Wine Quests",
     "title": "The Words of the Prophets Are Written on Sarcophagi",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Secondary Quests",
     "subCategoryType": "",
     "location": "",
@@ -4443,7 +4443,7 @@
     "mainCategory": "Blood And Wine Quests",
     "title": "There Can Be Only One",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Secondary Quests",
     "subCategoryType": "",
     "location": "",
@@ -4455,7 +4455,7 @@
     "mainCategory": "Blood And Wine Quests",
     "title": "Till Death Do You Part",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Secondary Quests",
     "subCategoryType": "",
     "location": "",
@@ -4467,7 +4467,7 @@
     "mainCategory": "Blood And Wine Quests",
     "title": "Turn and Face the Strange",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Secondary Quests",
     "subCategoryType": "",
     "location": "",
@@ -4476,11 +4476,11 @@
   },
 
   {
-    "id": "1a234567-89bc-4d6f-8hij-klmnopqrstuv",
+    "id": "1a234567-89bc-4d6f-8h3j-klmnopqrstuv",
     "mainCategory": "Blood And Wine Quests",
     "title": "Vintner's Contract: Chuchote Cave",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Secondary Quests",
     "subCategoryType": "",
     "location": "",
@@ -4488,11 +4488,11 @@
     "conflictingIds": []
   },
   {
-    "id": "2b345678-9cde-4f6h-ijkl-mnopqrstu1v2",
+    "id": "2b345678-9cde-4f6h-ijkl-mnowqrstu1v2",
     "mainCategory": "Blood And Wine Quests",
     "title": "Vintner's Contract: Cleaning Those Hard-to-Reach Places",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Secondary Quests",
     "subCategoryType": "",
     "location": "",
@@ -4500,11 +4500,11 @@
     "conflictingIds": []
   },
   {
-    "id": "3c456789-def0-4ghi-jklm-nopqrstuv12",
+    "id": "3cz56789-def0-4ghi-jklm-nopqrstuv12",
     "mainCategory": "Blood And Wine Quests",
     "title": "Vintner's Contract: Duchaton Crest",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Secondary Quests",
     "subCategoryType": "",
     "location": "",
@@ -4512,11 +4512,11 @@
     "conflictingIds": []
   },
   {
-    "id": "4d567890-ef01-4ghij-klmn-opqrstuv123",
+    "id": "4d56w890-ef01-4ghij-klmn-opqrstuv123",
     "mainCategory": "Blood And Wine Quests",
     "title": "Vintner's Contract: Dun Tynne Hillside",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Secondary Quests",
     "subCategoryType": "",
     "location": "",
@@ -4524,11 +4524,11 @@
     "conflictingIds": []
   },
   {
-    "id": "5e678901-f12a-4bc3-def4-ghijklmnopqr",
+    "id": "5e678901-f1ba-4bc3-def4-ghijklmnopqr",
     "mainCategory": "Blood And Wine Quests",
     "title": "Vintner's Contract: Rivecalme Storehouse",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Secondary Quests",
     "subCategoryType": "",
     "location": "",
@@ -4536,11 +4536,11 @@
     "conflictingIds": []
   },
   {
-    "id": "6f789012-34cd-4e56-789f-012345678901",
+    "id": "6f789012-34cd-4e56-789f-012345r78901",
     "mainCategory": "Blood And Wine Quests",
     "title": "Wine Wars: Belgaard",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Secondary Quests",
     "subCategoryType": "",
     "location": "",
@@ -4548,11 +4548,11 @@
     "conflictingIds": []
   },
   {
-    "id": "7g890123-45de-4f67-8901-234567890123",
+    "id": "7g890123-45de-4f67-8901-2345rr890123",
     "mainCategory": "Blood And Wine Quests",
     "title": "Wine Wars: Consorting",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Secondary Quests",
     "subCategoryType": "",
     "location": "",
@@ -4560,11 +4560,11 @@
     "conflictingIds": []
   },
   {
-    "id": "8h901234-56ij-4klm-7890-123456789012",
+    "id": "8h901234-56ij-4klm-7890-12345678fg12",
     "mainCategory": "Blood And Wine Quests",
     "title": "Wine Wars: Coronata",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Secondary Quests",
     "subCategoryType": "",
     "location": "",
@@ -4576,7 +4576,7 @@
     "mainCategory": "Blood And Wine Quests",
     "title": "Wine Wars: The Deus in the Machina",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Secondary Quests",
     "subCategoryType": "",
     "location": "",
@@ -4584,11 +4584,11 @@
     "conflictingIds": []
   },
   {
-    "id": "0j123456-78kl-9mno-pqrs-tuv123456789",
+    "id": "0j12c456-78kl-9mno-pqrs-tuv123456789",
     "mainCategory": "Blood And Wine Quests",
     "title": "Wine Wars: Vermentino",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Secondary Quests",
     "subCategoryType": "",
     "location": "",
@@ -4597,11 +4597,11 @@
   },
 
   {
-    "id": "1a234567-89bc-4d6f-8hij-klmnopqrstuv",
+    "id": "1a234567-89bc-4d6f-8hij-kl3nopqrstuv",
     "mainCategory": "Blood And Wine Quests",
     "title": "Big Game Hunter",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Contracts",
     "subCategoryType": "",
     "location": "",
@@ -4609,11 +4609,11 @@
     "conflictingIds": []
   },
   {
-    "id": "2b345678-9cde-4f6h-ijkl-mnopqrstu1v2",
+    "id": "2b345678-9cde-4f6h-ijkl-mwopqrstu1v2",
     "mainCategory": "Blood And Wine Quests",
     "title": "Contract: Bovine Blues",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Contracts",
     "subCategoryType": "",
     "location": "",
@@ -4621,11 +4621,11 @@
     "conflictingIds": []
   },
   {
-    "id": "3c456789-def0-4ghi-jklm-nopqrstuv12",
+    "id": "3c456789-def0-4ghi-jklz-nopqrstuv12",
     "mainCategory": "Blood And Wine Quests",
     "title": "Contract: The Tufo Monster",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Contracts",
     "subCategoryType": "",
     "location": "",
@@ -4633,11 +4633,11 @@
     "conflictingIds": []
   },
   {
-    "id": "4d567890-ef01-4ghij-klmn-opqrstuv123",
+    "id": "4d567890-ef01-4ghij-klmn-opqrstwv123",
     "mainCategory": "Blood And Wine Quests",
     "title": "Equine Phantoms",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Contracts",
     "subCategoryType": "",
     "location": "",
@@ -4645,11 +4645,11 @@
     "conflictingIds": []
   },
   {
-    "id": "5e678901-f12a-4bc3-def4-ghijklmnopqr",
+    "id": "5e678901-f12a-4bc3-defb-ghijklmnopqr",
     "mainCategory": "Blood And Wine Quests",
     "title": "Feet as Cold as Ice",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Contracts",
     "subCategoryType": "",
     "location": "",
@@ -4658,11 +4658,11 @@
   },
 
   {
-    "id": "1a234567-89bc-4d6f-8hij-klmnopqrstuv",
+    "id": "1a434567-89bc-4d6f-8hij-klmnopqrstuv",
     "mainCategory": "Blood And Wine Quests",
     "title": "Applied Escapology",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Treasure Hunts",
     "subCategoryType": "",
     "location": "",
@@ -4670,11 +4670,11 @@
     "conflictingIds": []
   },
   {
-    "id": "2b345678-9cde-4f6h-ijkl-mnopqrstu1v2",
+    "id": "2b345678-9cde-4f6h-ijkl-wnopqrstu1v2",
     "mainCategory": "Blood And Wine Quests",
     "title": "Around the World in... Eight Days",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Treasure Hunts",
     "subCategoryType": "",
     "location": "",
@@ -4682,11 +4682,11 @@
     "conflictingIds": []
   },
   {
-    "id": "3c456789-def0-4ghi-jklm-nopqrstuv12",
+    "id": "3c456789-def0-4ghi-jklm-nopqzstuv12",
     "mainCategory": "Blood And Wine Quests",
     "title": "But Other Than That, How Did You Enjoy the Play?",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Treasure Hunts",
     "subCategoryType": "",
     "location": "",
@@ -4694,11 +4694,11 @@
     "conflictingIds": []
   },
   {
-    "id": "4d567890-ef01-4ghij-klmn-opqrstuv123",
+    "id": "4d567890-ef01-4ghij-kwmn-opqrstuv123",
     "mainCategory": "Blood And Wine Quests",
     "title": "Coin Doesn't Stink",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Treasure Hunts",
     "subCategoryType": "",
     "location": "",
@@ -4706,11 +4706,11 @@
     "conflictingIds": []
   },
   {
-    "id": "5e678901-f12a-4bc3-def4-ghijklmnopqr",
+    "id": "5e678901-f12a-4bc3-def4-ghijblmnopqr",
     "mainCategory": "Blood And Wine Quests",
     "title": "Don't Take Candy from a Stranger",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Treasure Hunts",
     "subCategoryType": "",
     "location": "",
@@ -4718,11 +4718,11 @@
     "conflictingIds": []
   },
   {
-    "id": "6f789012-34cd-4e56-789f-012345678901",
+    "id": "6f789012-34cd-4e56-789f-01234567890r",
     "mainCategory": "Blood And Wine Quests",
     "title": "Filibert Always Pays His Debts",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Treasure Hunts",
     "subCategoryType": "",
     "location": "",
@@ -4730,11 +4730,11 @@
     "conflictingIds": []
   },
   {
-    "id": "7g890123-45de-4f67-8901-234567890123",
+    "id": "7g890123-45de-4df67-8901-234567890123",
     "mainCategory": "Blood And Wine Quests",
     "title": "Scavenger Hunt: Grandmaster Feline Gear",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Treasure Hunts",
     "subCategoryType": "",
     "location": "",
@@ -4742,11 +4742,11 @@
     "conflictingIds": []
   },
   {
-    "id": "8h901234-56ij-4klm-7890-123456789012",
+    "id": "8h901234-56ij-4klm-7890-1234df789012",
     "mainCategory": "Blood And Wine Quests",
     "title": "Scavenger Hunt: Grandmaster Griffin Gear",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Treasure Hunts",
     "subCategoryType": "",
     "location": "",
@@ -4754,11 +4754,11 @@
     "conflictingIds": []
   },
   {
-    "id": "9i012345-67jk-4lmn-opqr-567890123456",
+    "id": "9i012345-67jk-4lmn-o44r-567890123456",
     "mainCategory": "Blood And Wine Quests",
     "title": "Scavenger Hunt: Grandmaster Manticore Gear",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Treasure Hunts",
     "subCategoryType": "",
     "location": "",
@@ -4766,11 +4766,11 @@
     "conflictingIds": []
   },
   {
-    "id": "0j123456-78kl-9mno-pqrs-tuv123456789",
+    "id": "0j123456-78kl-9mno-pcrs-tuv123456789",
     "mainCategory": "Blood And Wine Quests",
     "title": "Scavenger Hunt: Grandmaster Ursine Gear",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Treasure Hunts",
     "subCategoryType": "",
     "location": "",
@@ -4782,7 +4782,7 @@
     "mainCategory": "Blood And Wine Quests",
     "title": "Scavenger Hunt: Grandmaster Wolven Gear",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Treasure Hunts",
     "subCategoryType": "",
     "location": "",
@@ -4791,11 +4791,11 @@
   },
 
   {
-    "id": "1a234567-89bc-4d6f-8hij-klmnopqrstuv",
+    "id": "14234567-89bc-4d6f-8hij-klmnopqrstuv",
     "mainCategory": "Blood And Wine Quests",
     "title": "Spoontaneous Profits!",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Treasure Hunts",
     "subCategoryType": "",
     "location": "",
@@ -4803,11 +4803,11 @@
     "conflictingIds": []
   },
   {
-    "id": "2b345678-9cde-4f6h-ijkl-mnopqrstu1v2",
+    "id": "2b345678-9cde-4f6h-ijkl-mnopqrstuwv2",
     "mainCategory": "Blood And Wine Quests",
     "title": "The Black Widow",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Treasure Hunts",
     "subCategoryType": "",
     "location": "",
@@ -4815,11 +4815,11 @@
     "conflictingIds": []
   },
   {
-    "id": "3c456789-def0-4ghi-jklm-nopqrstuv12",
+    "id": "3c456789-def0-4ghi-jklm-nopqrstuv1c",
     "mainCategory": "Blood And Wine Quests",
     "title": "The Curse of Carnarvon",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Treasure Hunts",
     "subCategoryType": "",
     "location": "",
@@ -4827,11 +4827,11 @@
     "conflictingIds": []
   },
   {
-    "id": "4d567890-ef01-4ghij-klmn-opqrstuv123",
+    "id": "4d567890-efw1-4ghij-klmn-opqrstuv123",
     "mainCategory": "Blood And Wine Quests",
     "title": "The Inconstant Gardener",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Treasure Hunts",
     "subCategoryType": "",
     "location": "",
@@ -4839,11 +4839,11 @@
     "conflictingIds": []
   },
   {
-    "id": "5e678901-f12a-4bc3-def4-ghijklmnopqr",
+    "id": "5e678901-f12b-4bc3-def4-ghijklmnopqr",
     "mainCategory": "Blood And Wine Quests",
     "title": "The Last Exploits of Selina's Gang",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Treasure Hunts",
     "subCategoryType": "",
     "location": "",
@@ -4851,11 +4851,11 @@
     "conflictingIds": []
   },
   {
-    "id": "6f789012-34cd-4e56-789f-012345678901",
+    "id": "6fr89012-34cd-4e56-789f-012345678901",
     "mainCategory": "Blood And Wine Quests",
     "title": "The Suffering of Young Francois",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Treasure Hunts",
     "subCategoryType": "",
     "location": "",
@@ -4863,11 +4863,11 @@
     "conflictingIds": []
   },
   {
-    "id": "7g890123-45de-4f67-8901-234567890123",
+    "id": "7g890123-4dfe-4f67-8901-234567890123",
     "mainCategory": "Blood And Wine Quests",
     "title": "The Toussaint Prison Experiment",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Treasure Hunts",
     "subCategoryType": "",
     "location": "",
@@ -4875,11 +4875,11 @@
     "conflictingIds": []
   },
   {
-    "id": "8h901234-56ij-4klm-7890-123456789012",
+    "id": "8h901234-56ij-4klm-7890-qw3456789012",
     "mainCategory": "Blood And Wine Quests",
     "title": "Waiting for Goe and Doh",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Treasure Hunts",
     "subCategoryType": "",
     "location": "",
@@ -4887,11 +4887,11 @@
     "conflictingIds": []
   },
   {
-    "id": "9i012345-67jk-4lmn-opqr-567890123456",
+    "id": "9i012345-67jk-4lmn-opqr-567890123446",
     "mainCategory": "Blood And Wine Quests",
     "title": "What Was This About Again?",
     "hold": "",
-    "dlc": "None",
+    "dlc": "Blood And Wine",
     "subCategory": "Treasure Hunts",
     "subCategoryType": "",
     "location": "",

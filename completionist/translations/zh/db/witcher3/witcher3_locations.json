@@ -1,0 +1,2978 @@
+[
+  {
+    "id": "b1f85d8b-0c7d-4b08-8e2b-d0fedf1f89ac",
+    "title": "废弃村庄",
+    "mainCategory": "主要的",
+    "subCategory": "白果园",
+    "subCategoryType": "",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a9e1fffd-6397-4b78-942b-1462dcd3a7r9",
+    "title": "阿马韦特堡垒遗址",
+    "mainCategory": "主要的",
+    "subCategory": "白果园",
+    "subCategoryType": "",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a8260ac7-1a13-4fb3-9cf8-204ee79e2q13",
+    "title": "断桥",
+    "mainCategory": "主要的",
+    "subCategory": "白果园",
+    "subCategoryType": "",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "b29219f5-11e1-4xc2-b5ac-9fb825e5ecbd",
+    "title": "考克勒桥",
+    "mainCategory": "主要的",
+    "subCategory": "白果园",
+    "subCategoryType": "",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a87d6978-c9fc-4ba6-8a41-722e2c527e3q",
+    "title": "福特",
+    "mainCategory": "主要的",
+    "subCategory": "白果园",
+    "subCategoryType": "",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a50b8f95-11v8-4c6b-9a5f-5b647e3904f1",
+    "title": "磨",
+    "mainCategory": "主要的",
+    "subCategory": "白果园",
+    "subCategoryType": "",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "abfc015c-139e-4dbd-8c0a-3ef86406c2t3",
+    "title": "尼弗迦德驻军",
+    "mainCategory": "主要的",
+    "subCategory": "白果园",
+    "subCategoryType": "",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "ad53b6c3-b0f7-4bx2-b60c-23c387aa3f4e",
+    "title": "被洗劫的村庄",
+    "mainCategory": "主要的",
+    "subCategory": "白果园",
+    "subCategoryType": "",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "b41b6f03-d2c5-4a13-a20e-4f9c74d3c4db",
+    "title": "锯木厂",
+    "mainCategory": "主要的",
+    "subCategory": "白果园",
+    "subCategoryType": "",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "af0c72d2-cb54-43bf-a86f-99c91a25db4a",
+    "title": "白果园公墓",
+    "mainCategory": "主要的",
+    "subCategory": "白果园",
+    "subCategoryType": "",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "ad893c90-54d7-495e-a33d-5abeb070c62b",
+    "title": "白果园村",
+    "mainCategory": "主要的",
+    "subCategory": "白果园",
+    "subCategoryType": "",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "ad545f54-6b21-4753-836f-ff373356593c",
+    "title": "月松大桥",
+    "mainCategory": "主要的",
+    "subCategory": "白果园",
+    "subCategoryType": "",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "b1f85d8b-0c7d-4b08-8c2b-d0fe2f1f89ac",
+    "title": "废弃塔",
+    "mainCategory": "主要的",
+    "subCategory": "维伦",
+    "subCategoryType": "乌鸦栖息处",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a9e1fffd-6397-4b78-94yb-1462dcd3a799",
+    "title": "布莱克伯",
+    "mainCategory": "主要的",
+    "subCategory": "维伦",
+    "subCategoryType": "乌鸦栖息处",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a8260ac7-1a13-4fb3-9cfq-204ee79e2f13",
+    "title": "烧毁的废墟",
+    "mainCategory": "主要的",
+    "subCategory": "维伦",
+    "subCategoryType": "乌鸦栖息处",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "b29219fx-11e1-41c2-b5ac-9fb825e5ecbd",
+    "title": "乌鸦栖息处",
+    "mainCategory": "主要的",
+    "subCategory": "维伦",
+    "subCategoryType": "乌鸦栖息处",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a87d6978-c9fc-4ba6-8q41-722e2c527e33",
+    "title": "鹰身女妖饲养场",
+    "mainCategory": "主要的",
+    "subCategory": "维伦",
+    "subCategoryType": "乌鸦栖息处",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a50b8f95-1188-4c6b-fa5f-5b647e3904f1",
+    "title": "希瑟顿",
+    "mainCategory": "主要的",
+    "subCategory": "维伦",
+    "subCategoryType": "乌鸦栖息处",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "abfc015c-139e-4dbd-8c0a-3ef86406c2ct",
+    "title": "孤立的小屋",
+    "mainCategory": "主要的",
+    "subCategory": "维伦",
+    "subCategoryType": "乌鸦栖息处",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "ad53b6c3-b0f7-4b92-b60c-23x387aa3f4e",
+    "title": "洛恩鲁克",
+    "mainCategory": "主要的",
+    "subCategory": "维伦",
+    "subCategoryType": "乌鸦栖息处",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "b41b6f03-d2c5-4a13-a20f-4f9c74d3c4db",
+    "title": "巨魔桥",
+    "mainCategory": "主要的",
+    "subCategory": "维伦",
+    "subCategoryType": "乌鸦栖息处",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "af0c72d2-3b54-43bf-a86f-99c91a35db4a",
+    "title": "狼林空地",
+    "mainCategory": "主要的",
+    "subCategory": "维伦",
+    "subCategoryType": "乌鸦栖息处",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "b1fc5d8b-0c7d-4b08-8e2b-d0fe2f1f89ac",
+    "title": "边境哨所",
+    "mainCategory": "主要的",
+    "subCategory": "维伦",
+    "subCategoryType": "灰岩",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "b1f85d8b-0c7d-4b08-8e2b-d0fe2f1e89ac",
+    "title": "古橡树",
+    "mainCategory": "主要的",
+    "subCategory": "维伦",
+    "subCategoryType": "秃头山",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a9e1fffd-6397-4b78-942b-1462dcd3a795",
+    "title": "秃头山",
+    "mainCategory": "主要的",
+    "subCategory": "维伦",
+    "subCategoryType": "秃头山",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a8260ac7-1a13-4qb3-9cf8-204ee79e2f13",
+    "title": "十字路口",
+    "mainCategory": "主要的",
+    "subCategory": "维伦",
+    "subCategoryType": "秃头山",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "b29249f5-11e1-41c2-b5ac-9fb825e5ecbd",
+    "title": "被摧毁的堡垒",
+    "mainCategory": "主要的",
+    "subCategory": "维伦",
+    "subCategoryType": "秃头山",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a87dq978-c9fc-4ba6-8a41-722e2c527e33",
+    "title": "通往秃山之路",
+    "mainCategory": "主要的",
+    "subCategory": "维伦",
+    "subCategoryType": "秃头山",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a9e1fffd-6397-4b78-942b-1462dcd3a799",
+    "title": "卡尔维特瞭望塔",
+    "mainCategory": "主要的",
+    "subCategory": "维伦",
+    "subCategoryType": "灰岩",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a8260aq7-1a13-4fb3-9cf8-204ee79e2f13",
+    "title": "科杰斯采石场",
+    "mainCategory": "主要的",
+    "subCategory": "维伦",
+    "subCategoryType": "灰岩",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "b29219f5-11e1-41c2-b54c-9fb825e5ecbd",
+    "title": "恶魔深渊",
+    "mainCategory": "主要的",
+    "subCategory": "维伦",
+    "subCategoryType": "灰岩",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a87d6978-c9fc-4ba6-8a41-q22e2c527e33",
+    "title": "轮渡站",
+    "mainCategory": "主要的",
+    "subCategory": "维伦",
+    "subCategoryType": "灰岩",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a50b8f95-1188-4c6b-9a5f-5b647e39e4f1",
+    "title": "火爆港",
+    "mainCategory": "主要的",
+    "subCategory": "维伦",
+    "subCategoryType": "灰岩",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "abfc015c-139e-4dbd-8c0t-3ef86406c2c3",
+    "title": "半岛",
+    "mainCategory": "主要的",
+    "subCategory": "维伦",
+    "subCategoryType": "灰岩",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "ad53b6c3-b0f7-4b92-b60c-23c387aa3x4e",
+    "title": "吊人树",
+    "mainCategory": "主要的",
+    "subCategory": "维伦",
+    "subCategoryType": "灰岩",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "b41b6f03-d2c5-4a13-a20d-4f9c74d3c4db",
+    "title": "欣德霍尔德",
+    "mainCategory": "主要的",
+    "subCategory": "维伦",
+    "subCategoryType": "灰岩",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "af0c72d2-3c54-43bf-a86f-99c91a35db4a",
+    "title": "马尔布里代尔",
+    "mainCategory": "主要的",
+    "subCategory": "维伦",
+    "subCategoryType": "灰岩",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "ad893d90-54d7-495e-a33d-5abeb070c62b",
+    "title": "昂船洲聚居地",
+    "mainCategory": "主要的",
+    "subCategory": "维伦",
+    "subCategoryType": "灰岩",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "ad545f54-6b21-4753-836f-ff373c56593c",
+    "title": "白鹰堡",
+    "mainCategory": "主要的",
+    "subCategory": "维伦",
+    "subCategoryType": "灰岩",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "b1f85d8b-0c7d-4b08-8e2b-d0fe2f1fd9ac",
+    "title": "唐沃伦",
+    "mainCategory": "主要的",
+    "subCategory": "维伦",
+    "subCategoryType": "弯背沼泽",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a9e1effd-6397-4bc8-942b-1462dcd3a799",
+    "title": "屠龙者石窟",
+    "mainCategory": "主要的",
+    "subCategory": "维伦",
+    "subCategoryType": "弯背沼泽",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a8260ac7-1a13-4fb3-9cf8-204ee39e2f13",
+    "title": "喘息之家",
+    "mainCategory": "主要的",
+    "subCategory": "维伦",
+    "subCategoryType": "弯背沼泽",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "b29219f5-11e1-41c2-b5ac-9fb825e5ecbd",
+    "title": "金博尔特路",
+    "mainCategory": "主要的",
+    "subCategory": "维伦",
+    "subCategoryType": "弯背沼泽",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a87d6978-c9fc-4ba6-8a41-722e2c52qe33",
+    "title": "尼弗迦德集团军群“中心”营地",
+    "mainCategory": "主要的",
+    "subCategory": "维伦",
+    "subCategoryType": "弯背沼泽",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a50b8f95-1188-4c6b-9a5f-5b64ee3904f1",
+    "title": "废塔",
+    "mainCategory": "主要的",
+    "subCategory": "维伦",
+    "subCategoryType": "弯背沼泽",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "abfc01tc-139e-4dbd-8c0a-3ef86406c2c3",
+    "title": "驼背沼泽的孤儿",
+    "mainCategory": "主要的",
+    "subCategory": "维伦",
+    "subCategoryType": "弯背沼泽",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "b1f85d8b-0c7h-4b08-8e2b-d0fe2f1f89ac",
+    "title": "鲍里斯的营地",
+    "mainCategory": "主要的",
+    "subCategory": "维伦",
+    "subCategoryType": "泥犁",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "aee1fffd-6397-4b78-942b-146cdcd3a799",
+    "title": "十字路口旅馆",
+    "mainCategory": "主要的",
+    "subCategory": "维伦",
+    "subCategoryType": "泥犁",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "b1f85d8b-0c7d-4b08-8e2b-d0fe2fhf89ac",
+    "title": "刽子手巷",
+    "mainCategory": "主要的",
+    "subCategory": "维伦",
+    "subCategoryType": "喷火式悬崖",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a9e1cfd-6397-4b78-9422-1462dcd3a799",
+    "title": "沉船海岸",
+    "mainCategory": "主要的",
+    "subCategory": "维伦",
+    "subCategoryType": "喷火式悬崖",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a8260ac7-1313-4fb3-9cf8-204ee79e2f13",
+    "title": "髁",
+    "mainCategory": "主要的",
+    "subCategory": "维伦",
+    "subCategoryType": "喷火式悬崖",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "b29c19f5-11e1-41c2-b5ac-9fb825e5ecbd",
+    "title": "森林小屋",
+    "mainCategory": "主要的",
+    "subCategory": "维伦",
+    "subCategoryType": "喷火式悬崖",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a87d6978-c9fc-4ba6-8a41-722e2c527e33",
+    "title": "凯拉·梅斯的小屋",
+    "mainCategory": "主要的",
+    "subCategory": "维伦",
+    "subCategoryType": "喷火式悬崖",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a50b8f95-1188-4c6b-4a5f-5b647e3904f1",
+    "title": "中林",
+    "mainCategory": "主要的",
+    "subCategory": "维伦",
+    "subCategoryType": "喷火式悬崖",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "abft015c-139e-4dbd-8c0a-3ef86406c2c3",
+    "title": "难民营",
+    "mainCategory": "主要的",
+    "subCategory": "维伦",
+    "subCategoryType": "喷火式悬崖",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "b1f85h8b-0c7d-4b08-8e2b-d0fe2f1f89ac",
+    "title": "血统",
+    "mainCategory": "主要的",
+    "subCategory": "维伦",
+    "subCategoryType": "血统",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a9e1ffcd-6397-4b78-942b-1462dcd3a299",
+    "title": "贝内克",
+    "mainCategory": "主要的",
+    "subCategory": "维伦",
+    "subCategoryType": "血统",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "acf60ac7-1a13-4fb3-9cf8-204ee79e2f13",
+    "title": "鸟岛",
+    "mainCategory": "主要的",
+    "subCategory": "维伦",
+    "subCategoryType": "血统",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "b29219f5-11e1-41c2-b5ac-9fb825c5ecbd",
+    "title": "石窟",
+    "mainCategory": "主要的",
+    "subCategory": "维伦",
+    "subCategoryType": "血统",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a87z6978-c9fc-4ba6-8a41-722e2c527e33",
+    "title": "林登维尔",
+    "mainCategory": "主要的",
+    "subCategory": "维伦",
+    "subCategoryType": "血统",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a50b8f95-1188-4c6b-9a5f-5b647e3904f1",
+    "title": "勒奇",
+    "mainCategory": "主要的",
+    "subCategory": "维伦",
+    "subCategoryType": "血统",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "abfc015c-139e-4dbt-8c0a-3ef86406c2c3",
+    "title": "掠夺者桥",
+    "mainCategory": "主要的",
+    "subCategory": "维伦",
+    "subCategoryType": "血统",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "ad53b6c3-b0f7-4b9c-b60c-23c387aa3f4e",
+    "title": "莫赫斯特",
+    "mainCategory": "主要的",
+    "subCategory": "维伦",
+    "subCategoryType": "血统",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "b41b6f03-d2c5-4a13-a200-4f9c74d3f4db",
+    "title": "里尔登庄园",
+    "mainCategory": "主要的",
+    "subCategory": "维伦",
+    "subCategoryType": "血统",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "af0c72d2-3b54-43bf-a86f-99c91a35dbca",
+    "title": "托德拉斯",
+    "mainCategory": "主要的",
+    "subCategory": "维伦",
+    "subCategoryType": "血统",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "b1f85d8b-0c7d-4b08-8e2b-d0fe2f1f89a2",
+    "title": "鹅的小穴",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "草丘",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a9e1fffd-6397-4b78-942b-146ddcd3a799",
+    "title": "德拉希姆城堡",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "草丘",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a8260ac7-1a13-4fc3-9cf8-204ee79e2f13",
+    "title": "永火教堂",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "草丘",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "b29219f5-11e1-41cc-b5ac-9fb825e5ecbd",
+    "title": "灯塔",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "草丘",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a87d6978-c9fc-4ba6-8a41-7z2e2c527e33",
+    "title": "伐木工小屋",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "草丘",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a50b8f95-11c8-4c6b-9a5f-5b647e3904f1",
+    "title": "卢锡安的风车",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "草丘",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "abfc015c-139e-4dbd-8c0t-3ef86c06c2c3",
+    "title": "松鼠党贸易营地",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "草丘",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "ad53b6c3-b0f7-4b92-b60c-23c387aa3f4e",
+    "title": "乌尔斯滕",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "草丘",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "b41b6f03-d2c5-4a13-a200-4f9c74d3c4db",
+    "title": "寡妇石窟",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "草丘",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "b1f85d8b-0c7d-4b08-8e3b-d0fe2f1f89ac",
+    "title": "艾拉玛斯的废弃庄园",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "古斯特菲尔德",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a9e1cfd-6397-4b78-942b-1462dcd3aq99",
+    "title": "阿尔内斯",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "古斯特菲尔德",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a8260ac7-1a13-4fb3-9cf8-204ee79eaf13",
+    "title": "阿雷特",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "古斯特菲尔德",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "b29219f5-1ce1-41c2-b5ac-9fb825e5ecbd",
+    "title": "巴克霍尔特山",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "古斯特菲尔德",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a87d6978-c9fc-4ba6-8a41-722e2c527e3z",
+    "title": "卡斯滕",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "古斯特菲尔德",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a50b8f95-1188-4c6b-9a5f-5b64fe3904f1",
+    "title": "洞穴",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "古斯特菲尔德",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "abfc015c-139e-4dbd-8c0a-3ef86406t2c3",
+    "title": "十字路口",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "古斯特菲尔德",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "ad53b6c3-b0f7-4b92-b60c-23c387aa3fce",
+    "title": "跳舞的风车",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "古斯特菲尔德",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "b41b6f03-d2c5-4a13-a200-4f9c74d3cdcb",
+    "title": "东塔伊尔",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "古斯特菲尔德",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "af0ce2d2-3b54-43bf-a86f-99c91a35db4a",
+    "title": "加斯特菲尔德农场",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "古斯特菲尔德",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "b41b6f03-d2c5-4a13-a200-4f9cd4d3c4db",
+    "title": "草药师小屋",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "古斯特菲尔德",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "abfc015c-139e-4dbd-8c0a-3ef86406c2c3",
+    "title": "蜂蜜填充米德工厂",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "古斯特菲尔德",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "b1f85d8b-037d-4b08-8e2b-d0fe2f1f89ac",
+    "title": "孤立的小屋",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "古斯特菲尔德",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a9e1fffd-63q7-4b78-942b-1462dcd3a799",
+    "title": "马丁·弗耶的农庄",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "古斯特菲尔德",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a8260ac7-1a13-4fb3-9cf8-204ee79e2f1a",
+    "title": "摩尔达维亚住宅",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "古斯特菲尔德",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "b29219c5-11e1-41c2-b5ac-9fb825e5ecbd",
+    "title": "萨拉辛农庄",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "古斯特菲尔德",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a8zd6978-c9fc-4ba6-8a41-722e2c527e33",
+    "title": "七猫旅馆",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "古斯特菲尔德",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a50b8f95-1188-4c6b-9a5d-5b647e3904f1",
+    "title": "泰莫利亚游击队藏身处",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "古斯特菲尔德",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "abfc015c-139e-4dbd-8c0a-3efc6406c2c3",
+    "title": "维格尔布德住宅酒店",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "古斯特菲尔德",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "ad53b6c3-b0f7-4b92-b60c-23cd87aa3f4e",
+    "title": "麦田",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "古斯特菲尔德",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "b41b6f03-d2c5-4c13-a200-4f9c74d3c4db",
+    "title": "酒泉农庄",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "古斯特菲尔德",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "ae0c72d2-3b54-43bf-a86f-99c91a35db4a",
+    "title": "扬特拉",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "古斯特菲尔德",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "b1f85d3b-0c7d-4b08-8e2b-d0fe2f1f89ac",
+    "title": "选民广场",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "诺维格勒市",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a9eqfffd-6397-4b78-942b-1462dcd3a799",
+    "title": "教主之门",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "诺维格勒市",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a8260aa7-1a13-4fb3-9cf8-204ee79e2f13",
+    "title": "荣耀之门",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "诺维格勒市",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "b29219f5-11e1-41c2-e5ac-9fb825e5ecbd",
+    "title": "等级广场",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "诺维格勒市",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a87d6978-c9fc-4be6-8a41-722e2c527e33",
+    "title": "诺维格勒码头",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "诺维格勒市",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a50b8f95-1188-4c6b-9a5f-5b647e3d04f1",
+    "title": "左舷门",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "诺维格勒市",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "abfce15c-139e-4dbd-8c0a-3ef86406c2c3",
+    "title": "南门",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "诺维格勒市",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "ad53b6c3-b0f7-4b92-b60c-23c387da3f4e",
+    "title": "圣格雷戈里桥",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "诺维格勒市",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "b41bcf03-d2c5-4a13-a200-4f9c74d3c4db",
+    "title": "特雷托戈尔门",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "诺维格勒市",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "af0c72d2-3b54-43bf-ae6f-99c91a35db4a",
+    "title": "吉尔多夫区商店",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "诺维格勒市",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "b1f85d8b-0c7d-4b08-8e2b-d0fe2f1f84ac",
+    "title": "书籍和卷轴",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "诺维格勒市",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a9e1ffqd-6397-4b78-942b-1462dcd3a799",
+    "title": "屠夫场剧院",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "诺维格勒市",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a8260ac7-1a1a-4fb3-9cf8-204ee79e2f13",
+    "title": "残废的凯特",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "诺维格勒市",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "b2921wf5-11e1-41c2-b5ac-9fb825e5ecbd",
+    "title": "远角",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "诺维格勒市",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a87d6978-c9fc-4ba6-8a41-722e2w527e33",
+    "title": "海鲜市场",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "诺维格勒市",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a50b8f95-1188-4c6b-9a5f-5b647e3f04f1",
+    "title": "吉尔多夫下水道",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "诺维格勒市",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "abfc015c-139e-4ded-8c0a-3ef86406c2c3",
+    "title": "伟大的永恒之火神殿",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "诺维格勒市",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "ad53b6c3-b0f7-4b92-b60c-23d387aa3f4e",
+    "title": "拉瓦莱特男爵夫人的别墅",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "诺维格勒市",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "b41bef03-d2c5-4a13-a200-4f9c74d3c4db",
+    "title": "马拉贝拉幼儿学校",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "诺维格勒市",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "af0c72d2-3be4-43bf-a86f-99c91a35db4a",
+    "title": "诺维格勒太平间",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "诺维格勒市",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "b1f85d8b-0c7d-4b08-8e2b-d0fe2f1f89a4",
+    "title": "诺维格勒下水道",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "诺维格勒市",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a9e1fffd-6397-4b78-942b-1462dcd3aq99",
+    "title": "鲁道夫·德容克尔故居",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "诺维格勒市",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a8260ac7-1a13-4fb3-9cfz-204ee79e2f13",
+    "title": "西番莲属",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "诺维格勒市",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "b29219f5-11e1-41c2-b5ac-9fb825e5ecbw",
+    "title": "Percival Schuttenbach 的商店（无法访问）",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "诺维格勒市",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a87dc978-c9fc-4wa6-8a41-722e2c527e33",
+    "title": "腐烂的格罗夫",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "诺维格勒市",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a50b8f95-1188-4c6b-9a5f-5b647e3904ff",
+    "title": "迷迭香和百里香",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "诺维格勒市",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "abfc015c-139e-4dbd-8cra-3ef86406c2c3",
+    "title": "西吉斯蒙德的浴室",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "诺维格勒市",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "ad53b6c3-b0f7-4b92-b60c-d3c387aa3f4e",
+    "title": "金鲟",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "诺维格勒市",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "b41b6f03-d2c5-4a13-a200-4f9c74d3c4eb",
+    "title": "翠鸟旅馆",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "诺维格勒市",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "af0c72d2-3b54-43bf-a8ef-99c91a35db4a",
+    "title": "无处旅馆",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "诺维格勒市",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a50bcf95-1188-4c6b-9a5f-5b647e3904f1",
+    "title": "特莉丝的家",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "诺维格勒市",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "abcc015c-139e-4dbd-8c0a-3ef86406c2c3",
+    "title": "瓦尔阿特别墅",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "诺维格勒市",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "ad53bqc3-b0f7-4b92-b60c-23c387aa3f4e",
+    "title": "维尔梅里斯医院",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "诺维格勒市",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "b41b6f03-d2c5-4a13-a200-4frc74d3c4db",
+    "title": "小妓女的藏身处",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "诺维格勒市",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "af0c72d2-3b54-43bf-a86f-99c91a3edb4a",
+    "title": "妓女少年的竞技场",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "诺维格勒市",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "af0c72d2-3b54-43bf-a86f-99c91a35dbea",
+    "title": "妓女少年的赌场",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "诺维格勒市",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "af0c72d2-3b54-z3bf-a86f-99c91a35db4a",
+    "title": "女巫猎人兵营前哨站",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "诺维格勒市",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a9e1fffd-6397-4b78-942b-1462dcd31799",
+    "title": "炼金术",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "奥克森福特",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a8260ac7-1a13-4fb3-9cf8-20zee79e2f13",
+    "title": "理发师",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "奥克森福特",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "b29219f5-11e1-41c2-b5ac-9fbw25e5ecbd",
+    "title": "博尔索迪兄弟",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "奥克森福特",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a87d6978-c9fc-4ba6-8a41-722e2c527e3w",
+    "title": "迪雷德监狱",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "奥克森福特",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a50b8f95-1188-4ceb-9a5f-5b647e3904f1",
+    "title": "HMS 奥克森福特-特雷托戈尔号",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "奥克森福特",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "abfc015c-139e-4dbd-8c0a-3efv6406c2c3",
+    "title": "诺维格勒门",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "奥克森福特",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "ad53b6c3-b0f7-4b92-b60c-23c387ag3f4e",
+    "title": "奥克森福特国际象棋俱乐部",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "奥克森福特",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "b41b6f03-d2c5-4a13-a200-4f9c74d3c4dt",
+    "title": "奥克森弗特港",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "奥克森福特",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "af0c72dz-3b54-43bf-a86f-99c91a35db4a",
+    "title": "西门",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "奥克森福特",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a5cb8f95-1188-4c6b-9a5f-5b647e3904f1",
+    "title": "妓女少年的豪宅",
+    "mainCategory": "主要的",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "奥克森福特",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "b1f45d8b-0c7d-4b08-8e2b-d0fe2f1f89ac",
+    "title": "阿恩斯克鲁尼城堡遗址",
+    "mainCategory": "石之心",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "古斯特菲尔德",
+    "dlc": "石之心"
+  },
+  {
+    "id": "a9e1fffd-6197-4b78-942b-1462dcd3a799",
+    "title": "血腐坑",
+    "mainCategory": "石之心",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "古斯特菲尔德",
+    "dlc": "石之心"
+  },
+  {
+    "id": "a8260ac7-1a13-4fb3-9cf8-204ee79e2f1z",
+    "title": "鲍登",
+    "mainCategory": "石之心",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "古斯特菲尔德",
+    "dlc": "石之心"
+  },
+  {
+    "id": "b29219f5-11e1-41c2-b5ac-9fb8x5e5ecbd",
+    "title": "布伦威奇",
+    "mainCategory": "石之心",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "古斯特菲尔德",
+    "dlc": "石之心"
+  },
+  {
+    "id": "a87d6978-c9fc-4ba6-8w41-722e2c527e33",
+    "title": "鹤角",
+    "mainCategory": "石之心",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "古斯特菲尔德",
+    "dlc": "石之心"
+  },
+  {
+    "id": "a50b8f95-1188-4c6b-9a5f-5b647e39d4f1",
+    "title": "德拉肯山谷前哨站",
+    "mainCategory": "石之心",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "古斯特菲尔德",
+    "dlc": "石之心"
+  },
+  {
+    "id": "abfc015c-139e-4dbd-vc0a-3ef86406c2c3",
+    "title": "埃尔德",
+    "mainCategory": "石之心",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "古斯特菲尔德",
+    "dlc": "石之心"
+  },
+  {
+    "id": "b4f85d8b-0c7d-4b08-8e2b-d0fe2f1f89ac",
+    "title": "堕落骑士的裂变科技实验室",
+    "mainCategory": "石之心",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "古斯特菲尔德",
+    "dlc": "石之心"
+  },
+  {
+    "id": "a9e1fffd-6397-4b78-942b-1462dcd3a791",
+    "title": "加林庄园",
+    "mainCategory": "石之心",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "古斯特菲尔德",
+    "dlc": "石之心"
+  },
+  {
+    "id": "a8260ac7-1a13-4fb3-9cf8-204ee7ze2f13",
+    "title": "赫德尔",
+    "mainCategory": "石之心",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "古斯特菲尔德",
+    "dlc": "石之心"
+  },
+  {
+    "id": "b29219f5-11ex-41c2-b5ac-9fb825e5ecbd",
+    "title": "猎人小屋",
+    "mainCategory": "石之心",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "古斯特菲尔德",
+    "dlc": "石之心"
+  },
+  {
+    "id": "a87d697c-c9fc-4ba6-8a41-7w2e2c527e33",
+    "title": "基尔克林废墟",
+    "mainCategory": "石之心",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "古斯特菲尔德",
+    "dlc": "石之心"
+  },
+  {
+    "id": "a50b8f95-1188-4c6b-9a5f-5b647e3904c1",
+    "title": "主题大师的小屋",
+    "mainCategory": "石之心",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "古斯特菲尔德",
+    "dlc": "石之心"
+  },
+  {
+    "id": "abfc015c-139e-vdbd-8c0a-3ef86406c2c3",
+    "title": "莫林村",
+    "mainCategory": "石之心",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "古斯特菲尔德",
+    "dlc": "石之心"
+  },
+  {
+    "id": "ad53b6c3-b0f7-4f92-b60c-23c387aa3f4e",
+    "title": "老教堂",
+    "mainCategory": "石之心",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "古斯特菲尔德",
+    "dlc": "石之心"
+  },
+  {
+    "id": "b41b6f03-d2c5-4a13-a200-4f9g74d3c4db",
+    "title": "上磨坊",
+    "mainCategory": "石之心",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "古斯特菲尔德",
+    "dlc": "石之心"
+  },
+  {
+    "id": "af0c72d2-3b54-43bf-a86f-99z91a35db4a",
+    "title": "冯埃弗里克庄园",
+    "mainCategory": "石之心",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "古斯特菲尔德",
+    "dlc": "石之心"
+  },
+  {
+    "id": "a50b8f95-1188-4c6b-9a5f-5x647e3904f1",
+    "title": "祖埃策城堡",
+    "mainCategory": "石之心",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "古斯特菲尔德",
+    "dlc": "石之心"
+  },
+  {
+    "id": "b1f85d8b-0c7d-4b08-8e2b-d0f32f1f89ac",
+    "title": "博尔索迪兄弟拍卖行",
+    "mainCategory": "石之心",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "奥克森福特",
+    "dlc": "石之心"
+  },
+  {
+    "id": "a9e1fffd-6397-4b78-942b-1462dcd1a799",
+    "title": "奥克森弗特学院",
+    "mainCategory": "石之心",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "奥克森福特",
+    "dlc": "石之心"
+  },
+  {
+    "id": "a82z0ac7-1a13-4fb3-9cf8-204ee79e2f13",
+    "title": "奥克森弗特下水道",
+    "mainCategory": "石之心",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "奥克森福特",
+    "dlc": "石之心"
+  },
+  {
+    "id": "b292x9f5-11e1-41c2-b5ac-9fb825e5ecbd",
+    "title": "莎士洛克的房子",
+    "mainCategory": "石之心",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "奥克森福特",
+    "dlc": "石之心"
+  },
+  {
+    "id": "a87d6e78-c9fc-4ba6-8a41-722e2c527e33",
+    "title": "莎妮诊所",
+    "mainCategory": "石之心",
+    "subCategory": "诺维格勒",
+    "subCategoryType": "奥克森福特",
+    "dlc": "石之心"
+  },
+  {
+    "id": "b1f85d8b-0c7d-4b48-8e2b-d0fe2f1f89ac",
+    "title": "风之湾",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "斯凯利格岛",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a9e1fffd-6397-4b78-942b-1461dcd3a799",
+    "title": "通往英瓦之牙的小径",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "斯凯利格岛",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a826xac7-1a13-4fb3-9cf8-204ee79e2f13",
+    "title": "乌里亚拉港",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "斯凯利格岛",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "b29219f5-11e1-41c2-b5ac-9fbx25e5ecbd",
+    "title": "英瓦尔的尖牙",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "斯凯利格岛",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "b1f85d8b-0c7d-4b08-8e2b-dcfe2f1f89a4",
+    "title": "废弃的锯木厂",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "阿德斯凯利格",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a9e1fffd-6317-4b78-942b-1462dcd3a799",
+    "title": "古代墓穴",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "阿德斯凯利格",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a8260ac7-1a13-4fb3-9cf8-204ee79e2fa3",
+    "title": "阿林比约恩",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "阿德斯凯利格",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "b29219f5-11x1-41c2-b5ac-9fb825e5ecbd",
+    "title": "布兰代尔",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "阿德斯凯利格",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a87w6978-c9fc-4ba6-8a41-722e2c527e33",
+    "title": "博克斯霍尔姆",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "阿德斯凯利格",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a50b8f95-1188-4c6b-9a5f-5b647ex904f1",
+    "title": "通往凯尔特罗尔德的桥梁",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "阿德斯凯利格",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "abfv015c-139e-4dbd-8c0a-3ef86406c2c3",
+    "title": "十字路口",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "阿德斯凯利格",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "ad53b6c3-b0g7-4b92-b60c-23c387aa3f4e",
+    "title": "酒厂",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "阿德斯凯利格",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "b41b6f03-d2c5-4ag3-a200-4f9c74d3c4db",
+    "title": "德鲁伊营地",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "阿德斯凯利格",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "af0c72d2-3b54-43zf-a86f-99c91a35db4a",
+    "title": "埃尔德伯格灯塔",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "阿德斯凯利格",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a50b8f95-1188-4c6b-9a5f-5b647e390xf1",
+    "title": "埃尔沃鲁姆灯塔",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "阿德斯凯利格",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a87d6978-c9fc-4bw6-8a41-722e2c527e33",
+    "title": "费伦德",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "阿德斯凯利格",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "b1f85d8b-0c7d-4b08-8e2b-d0fe2f1f89ac",
+    "title": "废弃的锯木厂",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "阿德斯凯利格",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a9e1f1fd-6397-4b78-942b-1462dcd3a799",
+    "title": "古代墓穴",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "阿德斯凯利格",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a8260ac7-1a13-4fb3-9cf8-204ae79e2f13",
+    "title": "阿林比约恩",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "阿德斯凯利格",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "b29219f5-11e1-41c2-b5ac-9fb825e5xcbd",
+    "title": "布兰代尔",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "阿德斯凯利格",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a87d6978-c9fc-4ba6-8a41-7w2e2c527e33",
+    "title": "博克斯霍尔姆",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "阿德斯凯利格",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a50b8f95-1x88-4c6b-9a5f-5b647e3904f1",
+    "title": "通往凯尔特罗尔德的桥梁",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "阿德斯凯利格",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "abfc015c-139e-4dbd-8c02-3ef86406c2c3",
+    "title": "十字路口",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "阿德斯凯利格",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "ad53b6c3-b0f7-4b92-b60c-23c387aa3f4g",
+    "title": "酒厂",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "阿德斯凯利格",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "b41b6f03-d2c5-4a13-a200-4g9c74d3c4db",
+    "title": "德鲁伊营地",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "阿德斯凯利格",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "af0c72d2-zb54-43bf-a86f-99c91a35db4a",
+    "title": "埃尔德伯格灯塔",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "阿德斯凯利格",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "ad53b6c3-b0f7-4q92-b60c-23c387aa3f4e",
+    "title": "埃尔沃鲁姆灯塔",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "阿德斯凯利格",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "b41b6f03-d2c5-4a13-a200-4f9c7gd3c4db",
+    "title": "费伦德",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "阿德斯凯利格",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "b1f85d8b-0c7d-4bd8-8e2b-d0fe2f1f89ac",
+    "title": "埃特尼尔堡",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "阿德斯凯利格",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a9e1fffd-6397-4b78-942b-1462dcd3c799",
+    "title": "格林姆贾尔堡",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "阿德斯凯利格",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a8260ac7-1a13-4fb3-9ca8-204ee79e2f13",
+    "title": "菲雷斯达尔",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "阿德斯凯利格",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "b29219f5-11e1-41c2-b5ac-9fb825e5ecxd",
+    "title": "格迪奈斯",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "阿德斯凯利格",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a87d6978-c9fc-4wa6-8a41-722e2c527e34",
+    "title": "巨人的脚趾",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "阿德斯凯利格",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a50b8f95-118x-4c6b-9a5f-5b647e3904f1",
+    "title": "石窟",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "阿德斯凯利格",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "abfc015c-139e-4dbd-8c0a-3ef8640622c3",
+    "title": "格林姆贾尔纪念碑",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "阿德斯凯利格",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "ad53b6c3-b0f7-4b92-b60q-23c387aa3f4e",
+    "title": "亨格",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "阿德斯凯利格",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "af0c72d2-3b54-43bf-a86f-99c91a25cb4a",
+    "title": "霍尔姆斯坦港",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "阿德斯凯利格",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "ad53b6c3-b0f7-4b92-b60c-23c38qaa3f4e",
+    "title": "卡尔杜",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "阿德斯凯利格",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "b41b6f03-d2c5-4a1g-a200-4f9c74d3c4db",
+    "title": "凯尔·格伦",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "阿德斯凯利格",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "af0c72d2-3b54-43bf-a862-99c91a35db4a",
+    "title": "凯尔·缪尔",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "阿德斯凯利格",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "ad53bqc3-b0fc-4b92-b60c-23c387aa3f4e",
+    "title": "凯尔·尼森",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "阿德斯凯利格",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "b41b6f0g-d2c5-4a13-a200-4f9c74d3c4db",
+    "title": "卡尔特罗尔德城堡",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "阿德斯凯利格",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "af0c72d2-3254-43bf-a86f-99c91a35db4a",
+    "title": "卡尔特罗尔德港",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "阿德斯凯利格",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "b1d85d8b-0c7d-4b08-8e2b-d0fe2f1f89ac",
+    "title": "克瓦尔海姆岛",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "阿德斯凯利格",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a9e1fffd-6397-4b78-94fb-1462dcd3a799",
+    "title": "矿工营地",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "阿德斯凯利格",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a8a60ac7-1a13-4fb3-9cf8-204ee79e2f13",
+    "title": "栅栏",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "阿德斯凯利格",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "b29x19f5-11e1-41c2-b5ac-9fb825e5ecbd",
+    "title": "兰韦格",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "阿德斯凯利格",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a87d6978-c9fc-4ba6-8a41-722e2c5w7e33",
+    "title": "红吉尔",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "阿德斯凯利格",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a50b8f95-118v-4c6b-9a5f-5b647e3904f1",
+    "title": "罗涅",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "阿德斯凯利格",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "abfc015c-139e-4dbd-8c0a-vef86406c2c3",
+    "title": "废墟旅馆",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "阿德斯凯利格",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "qd53b6c3-b0f7-4b92-b60c-23c387aa3f4e",
+    "title": "锯木厂（Crait）",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "阿德斯凯利格",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "af2c72d2-3b54-43bf-a86f-99c91a35db4a",
+    "title": "锯木厂（德拉蒙德）",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "阿德斯凯利格",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "ad53b6c3-b0f7-4b92-b6xc-23c387aa3f4e",
+    "title": "桑德",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "阿德斯凯利格",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "b41g6f03-d2c5-4a1e-a200-4f9c74d3c4db",
+    "title": "鲸鱼墓地",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "阿德斯凯利格",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "af0c72d2-3b54-43bf-a82f-99c91a35db4a",
+    "title": "狂野海岸",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "阿德斯凯利格",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "ad53b6c3-b0f7-4b92-b60c-23c387aa3f4x",
+    "title": "尤斯蒂安娜的石窟",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "阿德斯凯利格",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "5e038126-fc8a-4b05-9b8f-62e93d7243fd",
+    "title": "哈维肯",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "法罗群岛",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "d639d151-6c3e-428b-9e43-4d68b02c6e03",
+    "title": "特罗特海姆",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "法罗群岛",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "1a19d20a-3f24-40d9-bfbe-4b7f9d6757c5",
+    "title": "芙蕾雅的花园",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "欣达尔斯山",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "be8f4d37-50da-49f4-9c72-5c7d80a06ff1",
+    "title": "拉尔维克",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "欣达尔斯山",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "675586cd-226c-496d-bac8-e3f76f2df429",
+    "title": "罗弗敦群岛",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "欣达尔斯山",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "991653a9-2ab3-4c78-a65a-b1cfd476a3a9",
+    "title": "罗弗敦公墓",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "欣达尔斯山",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "22c1df6b-6325-413e-8c91-7d2ac4c80ab5",
+    "title": "鲁森",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "欣达尔斯山",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "606d688d-d3aa-43d2-b6a5-0d1770f24a14",
+    "title": "孤立的小屋",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "欣达尔斯山",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "0f0e2361-5249-4c4e-8ed7-dbf27f7a2f92",
+    "title": "霍夫",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "斯派克罗格",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "3116f5f0-1ea1-4c0c-994d-cac32c36bd44",
+    "title": "旧了望塔",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "斯派克罗格",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "25e07b6c-0147-4c52-bf09-65a3d1de7162",
+    "title": "斯沃拉格",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "斯派克罗格",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "4f0c0c65-34b2-4c9e-8e94-1a8a4dbf8e88",
+    "title": "废弃村庄",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "温德维克",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "39f899aa-1912-48e3-9bd3-2460a8769c9d",
+    "title": "托达洛熔炉氏族",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "温德维克",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "8eb1d6c8-7357-4a16-81ed-f4fba11592a7",
+    "title": "多尔夫遗址",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "温德维克",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "90d45b94-877a-4f90-b34b-e43a1359ba64",
+    "title": "海鸥角",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "温德维克",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "0a72b006-15b0-4ef1-aa5a-15957b9f98a7",
+    "title": "马林海岸",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "温德维克",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "2180a3d9-1d94-4a9b-aeaa-6db789aa1e34",
+    "title": "托格瓦奇卡",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "温德维克",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "b294d5f8-9c4a-42f9-b7e3-3f4b6fb25a5c",
+    "title": "乌尔斯卡",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "温德维克",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "f2544ea9-3bf5-47a8-a2e9-c576635160fc",
+    "title": "乌德维克造船厂",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "温德维克",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a57c8e0d-6f4c-4d1b-9e2d-097ee3f5d321",
+    "title": "斯尼霍尔岛",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "其他",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "b7c0c1c9-0a3b-4cc7-b6f1-3e7d6d0a9be1",
+    "title": "腾格尔斯特兰德岛",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "其他",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "671f8e4b-97a8-43c1-9b0d-96b8f8a0b662",
+    "title": "巴利峡海岸",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "其他",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "87ff8c8e-bb58-4b4d-872e-3bae43853e6e",
+    "title": "英达伦岛",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "其他",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "e301e2ab-d23a-4c4d-b1a3-86e9cb9d68c4",
+    "title": "海姆达尔的手指",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "其他",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "9f1f2fe3-6b85-4c5c-8c38-04b71dbaa2ae",
+    "title": "纳瓦岛",
+    "mainCategory": "主要的",
+    "subCategory": "史凯利格",
+    "subCategoryType": "其他",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "f3c33a93-9aa0-4b09-9e5d-8f05e2656a8e",
+    "title": "堡垒",
+    "mainCategory": "主要的",
+    "subCategory": "凯尔莫罕山谷",
+    "subCategoryType": "",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "2349e824-b387-4859-a6b4-3e4b3c3891c2",
+    "title": "元素圈",
+    "mainCategory": "主要的",
+    "subCategory": "凯尔莫罕山谷",
+    "subCategoryType": "",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "cd10ac5e-1463-4c97-8e0f-0b35e9ec82bb",
+    "title": "铁矿",
+    "mainCategory": "主要的",
+    "subCategory": "凯尔莫罕山谷",
+    "subCategoryType": "",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "d72f1ed4-9a49-4ea8-92c8-796c52ea6d16",
+    "title": "凯尔莫罕",
+    "mainCategory": "主要的",
+    "subCategory": "凯尔莫罕山谷",
+    "subCategoryType": "",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "183b5487-309a-4a61-a4d9-47c5f8a01165",
+    "title": "湖边小屋",
+    "mainCategory": "主要的",
+    "subCategory": "凯尔莫罕山谷",
+    "subCategoryType": "",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "9d4fc9cb-1a0d-4e36-b086-30f6c7f07eb4",
+    "title": "利奥的坟墓",
+    "mainCategory": "主要的",
+    "subCategory": "凯尔莫罕山谷",
+    "subCategoryType": "",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "df0f90d3-2e0d-4e45-a073-eb0a8c5f8e89",
+    "title": "瞭望塔废墟",
+    "mainCategory": "主要的",
+    "subCategory": "凯尔莫罕山谷",
+    "subCategoryType": "",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "29a3870a-11c8-4b42-a8e6-56d134e9121b",
+    "title": "迪迪威特沙漠",
+    "mainCategory": "主要的",
+    "subCategory": "其他",
+    "subCategoryType": "",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "0c493994-2e2e-404b-bbf6-1e0b952adff8",
+    "title": "冰原",
+    "mainCategory": "主要的",
+    "subCategory": "其他",
+    "subCategoryType": "",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "97e0a16e-548c-4ddc-82e5-1e5b13ed4f6a",
+    "title": "迷雾岛",
+    "mainCategory": "主要的",
+    "subCategory": "其他",
+    "subCategoryType": "",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "a0321a9c-5ebc-4291-a7e8-6f6c7e9c6820",
+    "title": "蒂尔娜利亚",
+    "mainCategory": "主要的",
+    "subCategory": "其他",
+    "subCategoryType": "",
+    "dlc": "没有任何"
+  },
+  {
+    "id": "b53e2a7b-c2f3-4d64-940e-3a52ee45e83d",
+    "title": "冈特·奥迪姆的世界",
+    "mainCategory": "石之心",
+    "subCategory": "其他",
+    "subCategoryType": "",
+    "dlc": "石之心"
+  },
+  {
+    "id": "c480e1aa-89c2-4aa4-bbff-b3a8f1a0978a",
+    "title": "彩绘世界",
+    "mainCategory": "石之心",
+    "subCategory": "其他",
+    "subCategoryType": "",
+    "dlc": "石之心"
+  },
+  {
+    "id": "3e8f356d-73d5-4813-a4a5-fc50d98855e2",
+    "title": "千个寓言之地",
+    "mainCategory": "血与酒",
+    "subCategory": "其他",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "e58f29fd-462d-49bf-87b2-ecf97ecb17b8",
+    "title": "阿罗纳克斯码头",
+    "mainCategory": "血与酒",
+    "subCategory": "博克莱尔",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "4a394ea5-7cd9-4eb5-8ac1-b5d3fcb8d2c9",
+    "title": "鲍克莱尔宫",
+    "mainCategory": "血与酒",
+    "subCategory": "博克莱尔",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "7499a29d-2414-4b6f-9377-6bc183c174bf",
+    "title": "鲍克莱尔港",
+    "mainCategory": "血与酒",
+    "subCategory": "博克莱尔",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "4f9c05b7-3d36-432c-831e-1c570b01c2b9",
+    "title": "鲍克莱尔的美女们",
+    "mainCategory": "血与酒",
+    "subCategory": "博克莱尔",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "f62ddc89-1397-427d-b80c-387e902177f8",
+    "title": "钱凡内利银行",
+    "mainCategory": "血与酒",
+    "subCategory": "博克莱尔",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "8c465183-b6af-4467-87a8-8c4d8c3fb396",
+    "title": "聪明木屐酒馆",
+    "mainCategory": "血与酒",
+    "subCategory": "博克莱尔",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "c39e553b-2a7b-47c7-ae0f-3320663eb34a",
+    "title": "库珀斯之门",
+    "mainCategory": "血与酒",
+    "subCategory": "博克莱尔",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "2eeff8d3-c8d5-4144-b83d-507db46b191b",
+    "title": "公爵哨所",
+    "mainCategory": "血与酒",
+    "subCategory": "博克莱尔",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "d2d3a804-1a65-42c5-aef8-2db906b92a4c",
+    "title": "艾波纳广场",
+    "mainCategory": "血与酒",
+    "subCategory": "博克莱尔",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "f3d3c843-8bf3-4817-a4b9-c2b87d4c55a7",
+    "title": "格兰广场",
+    "mainCategory": "血与酒",
+    "subCategory": "博克莱尔",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "9a520a62-49a7-41a1-af2d-ffaa3f2d7c6e",
+    "title": "海港门",
+    "mainCategory": "血与酒",
+    "subCategory": "博克莱尔",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "aba183aa-d2fd-4a4c-b40e-46f792dfdc09",
+    "title": "骑士休眠广场",
+    "mainCategory": "血与酒",
+    "subCategory": "博克莱尔",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "1e00c186-cc09-4a36-9014-dc76d798db12",
+    "title": "慈悲孤儿院",
+    "mainCategory": "血与酒",
+    "subCategory": "博克莱尔",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "6f12c40e-e006-47d7-badc-41f4d21d7ef7",
+    "title": "雷比奥达之门",
+    "mainCategory": "血与酒",
+    "subCategory": "博克莱尔",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "6e769a91-ae15-4eb3-9d2f-2d0f09f8a684",
+    "title": "罗里维尔广场",
+    "mainCategory": "血与酒",
+    "subCategory": "博克莱尔",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "c0d84ff4-cd72-4d57-b736-e46d4a89f22a",
+    "title": "麦提那门",
+    "mainCategory": "血与酒",
+    "subCategory": "博克莱尔",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "2b8c7919-48c9-4a1b-b6fe-1f74eb8de4e8",
+    "title": "尼弗迦德大使馆",
+    "mainCategory": "血与酒",
+    "subCategory": "博克莱尔",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "59c8c4e8-8c24-437e-8b47-7cda49e0c276",
+    "title": "奥莉安娜夫人的庄园",
+    "mainCategory": "血与酒",
+    "subCategory": "博克莱尔",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "4cd55f23-15ae-46ce-af49-dc8a1e22455e",
+    "title": "奥尔莱穆尔斯公墓",
+    "mainCategory": "血与酒",
+    "subCategory": "博克莱尔",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "e3345f21-6b06-42b2-8752-ba0e4d5f0129",
+    "title": "皇宫花园",
+    "mainCategory": "血与酒",
+    "subCategory": "博克莱尔",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "652edc11-1315-4d04-a4b7-5bfa75c741bd",
+    "title": "雉鸡",
+    "mainCategory": "血与酒",
+    "subCategory": "博克莱尔",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "dccf527f-598e-4b7c-9c54-6db4d8e3b91c",
+    "title": "玫瑰树山",
+    "mainCategory": "血与酒",
+    "subCategory": "博克莱尔",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "fc14d0b5-e8c3-4eab-a561-0a0b3466fbbf",
+    "title": "圣塞巴斯蒂安",
+    "mainCategory": "血与酒",
+    "subCategory": "博克莱尔",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "4999741a-0485-4a36-a188-4a5a3a12b775",
+    "title": "雷金纳德·奥布里雕像",
+    "mainCategory": "血与酒",
+    "subCategory": "博克莱尔",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "e4b6d740-7f22-4a32-9d7b-168c5ef6665d",
+    "title": "寺庙墓园",
+    "mainCategory": "血与酒",
+    "subCategory": "博克莱尔",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "f173bb7d-9a38-42c7-87e3-fb4d328b309b",
+    "title": "废弃的库珀工作室",
+    "mainCategory": "血与酒",
+    "subCategory": "卡罗伯塔·伍兹",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "e6071d9f-8f07-4c50-8187-c9b726b0184a",
+    "title": "废弃的仓库",
+    "mainCategory": "血与酒",
+    "subCategory": "卡罗伯塔·伍兹",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "36ab18f8-8e1c-4f5d-9134-6660669a60d1",
+    "title": "贝尔加德庄园",
+    "mainCategory": "血与酒",
+    "subCategory": "卡罗伯塔·伍兹",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "b155cd5c-5db3-4ad8-8d13-c6472a81d4e5",
+    "title": "贝尔加德葡萄园",
+    "mainCategory": "血与酒",
+    "subCategory": "卡罗伯塔·伍兹",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "40b2173e-6db0-40cd-8c80-0e185c456ee7",
+    "title": "多伦阿尔玛庄园",
+    "mainCategory": "血与酒",
+    "subCategory": "卡罗伯塔·伍兹",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "63b924f7-e5b2-4f77-a6ee-54831909e7c8",
+    "title": "吊桥",
+    "mainCategory": "血与酒",
+    "subCategory": "卡罗伯塔·伍兹",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "1082957e-97fb-439d-a90d-d963f6c1f4d5",
+    "title": "雷比奥达的洞穴",
+    "mainCategory": "血与酒",
+    "subCategory": "卡罗伯塔·伍兹",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "c8b747b2-53ea-4938-9df2-e69344a2c365",
+    "title": "精灵庇护所遗址",
+    "mainCategory": "血与酒",
+    "subCategory": "卡罗伯塔·伍兹",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "4e91efcf-bb87-4c7c-8a64-dde5c651feab",
+    "title": "弗朗科拉茨",
+    "mainCategory": "血与酒",
+    "subCategory": "卡罗伯塔·伍兹",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "a4ef55a5-9c9f-4d3f-a075-1db5f9237925",
+    "title": "盖伦瑟农场",
+    "mainCategory": "血与酒",
+    "subCategory": "卡罗伯塔·伍兹",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "b40d9a9b-0717-44ed-9eae-f1f08aa1b62c",
+    "title": "霍顿斯庄园",
+    "mainCategory": "血与酒",
+    "subCategory": "卡罗伯塔·伍兹",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "0d3e47f4-808d-4bf3-9f42-9aa141f0d36b",
+    "title": "霍滕斯葡萄园",
+    "mainCategory": "血与酒",
+    "subCategory": "卡罗伯塔·伍兹",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "169e9f05-5b72-4f3d-97e6-ea40f14a1d7a",
+    "title": "拉雪兹隆格梅尔公墓",
+    "mainCategory": "血与酒",
+    "subCategory": "卡罗伯塔·伍兹",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "a0d6ebef-e611-44f4-94d1-887cc6df2f66",
+    "title": "暗木",
+    "mainCategory": "血与酒",
+    "subCategory": "卡罗伯塔·伍兹",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "2c01047c-48e2-4a8b-b485-0c76b81d4c43",
+    "title": "泰尔梅斯宫殿遗址",
+    "mainCategory": "血与酒",
+    "subCategory": "卡罗伯塔·伍兹",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "c89c1612-bad1-4169-932b-3b021fbbf90c",
+    "title": "特沙姆穆特纳遗址",
+    "mainCategory": "血与酒",
+    "subCategory": "卡罗伯塔·伍兹",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "3a4370f2-042b-41b1-80b2-51b3d3e8f505",
+    "title": "蒂莉·菲尔德",
+    "mainCategory": "血与酒",
+    "subCategory": "卡罗伯塔·伍兹",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "3a8e6c3c-839b-4711-9a0c-5b6e8872a146",
+    "title": "特拉斯塔玛拉庄园遗址",
+    "mainCategory": "血与酒",
+    "subCategory": "卡罗伯塔·伍兹",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "ef05fbb5-1936-4a8e-b36e-4b2c501bce50",
+    "title": "特拉斯塔马拉狩猎小屋",
+    "mainCategory": "血与酒",
+    "subCategory": "卡罗伯塔·伍兹",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "a2d65011-3185-46f3-b034-6d172a2d7da3",
+    "title": "阿达索采石场",
+    "mainCategory": "血与酒",
+    "subCategory": "香榭丽舍大街",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "8f6e122f-cc3d-4c79-9336-4b82c0ad724a",
+    "title": "巴桑农场",
+    "mainCategory": "血与酒",
+    "subCategory": "香榭丽舍大街",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "a9161b15-03f7-4e0c-a5fb-303fed29d35f",
+    "title": "福林",
+    "mainCategory": "血与酒",
+    "subCategory": "香榭丽舍大街",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "620af64a-1591-49b2-9259-381e6d13b30c",
+    "title": "卡斯泰尔达恰废弃庄园",
+    "mainCategory": "血与酒",
+    "subCategory": "香榭丽舍大街",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "5680facc-72a5-4e77-9d85-bc160f48dd53",
+    "title": "达纳梅比神庙遗址",
+    "mainCategory": "血与酒",
+    "subCategory": "香榭丽舍大街",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "cdb8d944-45a8-4d9e-9db1-0b81e13d44d3",
+    "title": "德伦弗山口",
+    "mainCategory": "血与酒",
+    "subCategory": "香榭丽舍大街",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "17ea8237-1a94-4dbf-8c7c-c5d45eeff1f8",
+    "title": "乌萨尔堡遗址",
+    "mainCategory": "血与酒",
+    "subCategory": "香榭丽舍大街",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "3bdc2f82-2d6e-4f18-8b5d-c8f3d7f801a3",
+    "title": "自由码头",
+    "mainCategory": "血与酒",
+    "subCategory": "香榭丽舍大街",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "f3e4e6d1-2f47-4ac5-b2e5-63c9531b4b20",
+    "title": "奥布雷比斯海",
+    "mainCategory": "血与酒",
+    "subCategory": "香榭丽舍大街",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "c7b246d1-1e4f-4344-98b7-b539b3b2b6f5",
+    "title": "克兰山城堡",
+    "mainCategory": "血与酒",
+    "subCategory": "香榭丽舍大街",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "a97fe54c-b4a1-4702-b119-3fc7a1545c9d",
+    "title": "蒙特克兰公墓",
+    "mainCategory": "血与酒",
+    "subCategory": "香榭丽舍大街",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "d62d0310-c7ef-4b4d-a9f3-8b18c0057735",
+    "title": "麻烦",
+    "mainCategory": "血与酒",
+    "subCategory": "香榭丽舍大街",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "e3dbf3c1-634d-4cf3-b6b3-d1657bd3c7b7",
+    "title": "邓廷恩城堡",
+    "mainCategory": "血与酒",
+    "subCategory": "邓泰恩",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "5bb72f42-e6e9-44a1-8e2d-9d4f86ed3d54",
+    "title": "邓廷恩十字路口",
+    "mainCategory": "血与酒",
+    "subCategory": "邓泰恩",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "cd4891e3-5e01-4f86-b5bb-3bb49f824e41",
+    "title": "邓廷恩山坡",
+    "mainCategory": "血与酒",
+    "subCategory": "邓泰恩",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "a96bc4f5-d82a-4c6a-b8ee-0567a9c22b4b",
+    "title": "橄榄园",
+    "mainCategory": "血与酒",
+    "subCategory": "邓泰恩",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "694ab1a3-2d33-41f0-850a-c9cf11c162ed",
+    "title": "皮纳斯特里冬宫",
+    "mainCategory": "血与酒",
+    "subCategory": "邓泰恩",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "c8499025-17d8-45c8-9a1a-2956ee5ea2b0",
+    "title": "阿尔伯特石窟",
+    "mainCategory": "血与酒",
+    "subCategory": "戈尔贡山麓",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "3d1c8b46-5e2a-4d68-a3a3-667ba327d0b7",
+    "title": "巴斯托伊监狱遗址",
+    "mainCategory": "血与酒",
+    "subCategory": "戈尔贡山麓",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "af1f3c86-5c7e-42a1-b0f2-95d017a48e6f",
+    "title": "楚乔特洞穴",
+    "mainCategory": "血与酒",
+    "subCategory": "戈尔贡山麓",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "1a11e9e2-df4c-4d6f-8a01-6f7e1d0cbb0d",
+    "title": "库珀斯斜坡",
+    "mainCategory": "血与酒",
+    "subCategory": "戈尔贡山麓",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "c222b80c-46b7-4812-b8f8-56b0b005a0f5",
+    "title": "卡特林庄园",
+    "mainCategory": "血与酒",
+    "subCategory": "戈尔贡山麓",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "ecdc5b33-6a09-4f3b-950c-3d8773f4f37e",
+    "title": "丹丹林地",
+    "mainCategory": "血与酒",
+    "subCategory": "戈尔贡山麓",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "d7bca9aa-8827-40bb-8a85-7a029943e0e7",
+    "title": "杜查顿冠",
+    "mainCategory": "血与酒",
+    "subCategory": "戈尔贡山麓",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "0e1673b1-16a2-4ae9-a3fe-056cc20bc523",
+    "title": "阿斯特雷堡遗址",
+    "mainCategory": "血与酒",
+    "subCategory": "戈尔贡山麓",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "60d92b52-7fb1-48b9-b45a-4bd1e5d2f3a9",
+    "title": "福克斯霍洛",
+    "mainCategory": "血与酒",
+    "subCategory": "戈尔贡山麓",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "5eb3c861-cd2c-46d4-af26-3eaef163dc6d",
+    "title": "汉·盖德",
+    "mainCategory": "血与酒",
+    "subCategory": "戈尔贡山麓",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "c6c2ce38-9a4d-4da1-9d54-03a8a5517c5b",
+    "title": "塞拉维湖",
+    "mainCategory": "血与酒",
+    "subCategory": "戈尔贡山麓",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "46eecc90-396c-4e2f-b7b1-431af2b0f1a0",
+    "title": "山猫岩",
+    "mainCategory": "血与酒",
+    "subCategory": "戈尔贡山麓",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "9a0b8a6c-4415-4cfb-aa52-3c8e5dd49318",
+    "title": "黑暗探索",
+    "mainCategory": "血与酒",
+    "subCategory": "戈尔贡山麓",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "0f3b5d3f-b42b-4a04-b581-bc189b5a8820",
+    "title": "帕沃内坡",
+    "mainCategory": "血与酒",
+    "subCategory": "戈尔贡山麓",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "6df9b6c2-3ec8-4e3a-9a0f-157cfed7da18",
+    "title": "里约-戛纳前哨站",
+    "mainCategory": "血与酒",
+    "subCategory": "戈尔贡山麓",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "7d96a591-9b42-43a4-a24f-5fcf822df34f",
+    "title": "塞德赫·利加德",
+    "mainCategory": "血与酒",
+    "subCategory": "戈尔贡山麓",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "9a68f56d-17c3-4184-a17a-d72a22d6623e",
+    "title": "塞德赫利加德露天剧场",
+    "mainCategory": "血与酒",
+    "subCategory": "戈尔贡山麓",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "8e9c0d3a-1785-4568-9fc8-7d474bba979d",
+    "title": "图拉森斯洞穴",
+    "mainCategory": "血与酒",
+    "subCategory": "戈尔贡山麓",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "ddc16388-922c-4d1c-bc8f-8f9cf51c3da3",
+    "title": "鸡蛇旅馆",
+    "mainCategory": "血与酒",
+    "subCategory": "桑斯雷图尔沼泽",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "a2c06c84-6ec5-4b9b-89de-dc71f692a4f5",
+    "title": "德拉克鲁瓦伯爵的磨坊",
+    "mainCategory": "血与酒",
+    "subCategory": "桑斯雷图尔沼泽",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "38135164-5ac2-4ea4-a2e2-cd671065b07e",
+    "title": "鹤岛",
+    "mainCategory": "血与酒",
+    "subCategory": "桑斯雷图尔沼泽",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "b64a69c1-3a8b-4959-9b34-50a8fb9aa5bf",
+    "title": "细丝流",
+    "mainCategory": "血与酒",
+    "subCategory": "桑斯雷图尔沼泽",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "fdf996c8-430a-4310-aef2-8b6a3988a408",
+    "title": "弗洛维夫",
+    "mainCategory": "血与酒",
+    "subCategory": "桑斯雷图尔沼泽",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "a94b0a43-94ce-4d8e-b13a-3f8e8d9d1bd4",
+    "title": "马尔森特森林",
+    "mainCategory": "血与酒",
+    "subCategory": "桑斯雷图尔沼泽",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "8e74b73e-1731-4aa7-9bd7-09c27b4c906f",
+    "title": "杜桑监狱",
+    "mainCategory": "血与酒",
+    "subCategory": "桑斯雷图尔沼泽",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "BD45BF56-5D23-49B8-8162-1D3E7F50FE7C",
+    "title": "图佛葡萄园",
+    "mainCategory": "血与酒",
+    "subCategory": "桑斯雷图尔沼泽",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "3c54ef95-f88f-4c7f-907d-6da44e33cf52",
+    "title": "猫头鹰眼石窟",
+    "mainCategory": "血与酒",
+    "subCategory": "桑斯雷图尔沼泽",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "334794ac-3c60-4822-a60a-2820d4b31c48",
+    "title": "九谷",
+    "mainCategory": "血与酒",
+    "subCategory": "桑斯雷图尔沼泽",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "a3427fe0-2a1f-4fbb-bd50-417f94385741",
+    "title": "废弃的先知莱比奥达神庙",
+    "mainCategory": "血与酒",
+    "subCategory": "无忧谷",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "27f7d68c-06e7-4e44-bc2e-17d8cda0b1a5",
+    "title": "拉维罗城堡",
+    "mainCategory": "血与酒",
+    "subCategory": "无忧谷",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "e31b2621-5e92-4311-8e4b-3d8c6d3d8b01",
+    "title": "栗子海岸",
+    "mainCategory": "血与酒",
+    "subCategory": "无忧谷",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "a070d5e9-5d7c-4973-922f-3d0d3c6c22c4",
+    "title": "科罗纳塔",
+    "mainCategory": "血与酒",
+    "subCategory": "无忧谷",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "84245dcb-5903-4c34-8161-147245d0a265",
+    "title": "白科尔沃",
+    "mainCategory": "血与酒",
+    "subCategory": "无忧谷",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "ebdb45e2-23d8-40f8-89f2-951117bf5b59",
+    "title": "杜尔西内亚风车",
+    "mainCategory": "血与酒",
+    "subCategory": "无忧谷",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "ba85237e-2d18-4d52-a98a-1991fc8603a0",
+    "title": "森林植物标本馆",
+    "mainCategory": "血与酒",
+    "subCategory": "无忧谷",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "ecc940db-6f5a-4954-82d8-c72b03e63a29",
+    "title": "四磨坊",
+    "mainCategory": "血与酒",
+    "subCategory": "无忧谷",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "f9be7ce4-b0b5-4c82-a0e4-b1e5f36174c8",
+    "title": "帕特里斯·格莱德",
+    "mainCategory": "血与酒",
+    "subCategory": "无忧谷",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "6b90c1ab-2c74-4c80-94b7-497e3aa71be6",
+    "title": "皮塔帕特河渡口",
+    "mainCategory": "血与酒",
+    "subCategory": "无忧谷",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "a70b75e4-d38a-4ec0-9900-21ff856b228e",
+    "title": "普莱蒙德桥",
+    "mainCategory": "血与酒",
+    "subCategory": "无忧谷",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "6bfb0953-17b4-4a86-88a2-ecf0d38f1323",
+    "title": "先知莱比奥达雕像",
+    "mainCategory": "血与酒",
+    "subCategory": "无忧谷",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "a7ab85de-bd45-4a1a-a5e2-e91f37ed3fc0",
+    "title": "里维卡尔梅仓库",
+    "mainCategory": "血与酒",
+    "subCategory": "无忧谷",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "ccbb8df2-cff2-4b6d-a074-7cb32f5d9db2",
+    "title": "交易站",
+    "mainCategory": "血与酒",
+    "subCategory": "无忧谷",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "ad480a5a-52ac-4974-bd86-7c9a3e92e5d3",
+    "title": "锦标赛场地",
+    "mainCategory": "血与酒",
+    "subCategory": "无忧谷",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "0212a163-4307-41b3-8cfe-d172937d936b",
+    "title": "杜桑国税局",
+    "mainCategory": "血与酒",
+    "subCategory": "无忧谷",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "152d02c4-3014-4080-9e90-44ea52dd7a27",
+    "title": "维蒙蒂诺葡萄园",
+    "mainCategory": "血与酒",
+    "subCategory": "无忧谷",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "1c57a5b5-2d4c-4d79-80c3-6a101fa49b3f",
+    "title": "维宁岩",
+    "mainCategory": "血与酒",
+    "subCategory": "无忧谷",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "7e0e1a71-0f6e-4a6f-80d2-6ebfb7c16219",
+    "title": "阿尔萨赫宫遗址",
+    "mainCategory": "血与酒",
+    "subCategory": "维代特谷",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "f8c0a4ac-7d34-442d-af11-32ac10ed648c",
+    "title": "布鲁姆坑",
+    "mainCategory": "血与酒",
+    "subCategory": "维代特谷",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "c010f1df-0dcd-4b2b-8189-dfb0c9c1f7e5",
+    "title": "银火蜥蜴旅馆",
+    "mainCategory": "血与酒",
+    "subCategory": "维代特谷",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  },
+  {
+    "id": "7c0f0844-b4a5-4a56-a39d-93e12206c1c2",
+    "title": "维黛特别墅",
+    "mainCategory": "血与酒",
+    "subCategory": "维代特谷",
+    "subCategoryType": "",
+    "dlc": "血与酒"
+  }
+]

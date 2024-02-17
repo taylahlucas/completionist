@@ -1,0 +1,8 @@
+{
+  "key": "Ini adalah hari yang indah!",
+  "nested": {
+    "key": "Apa kabarmu?"
+  },
+  "interpolated": "Semoga harimu menyenangkan, {{name}}!",
+  "pluralKey_other": "Ini adalah contoh yang bagus."
+}
