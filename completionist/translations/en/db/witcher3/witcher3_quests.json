@@ -2725,7 +2725,7 @@
 	},
 	{
 		"id": "1a234567-89bc-4d6f-8qij-klmnopqrstuv",
-		"mainCategory": "Contract Quests",
+		"mainCategory": "Contracts",
 		"title": "Contract: An Elusive Thief",
 		"hold": "Novigrad",
 		"dlc": "None",
@@ -2737,7 +2737,7 @@
 	},
 	{
 		"id": "2b34f678-9cde-4f6h-ijkl-mnopqrstu1v2",
-		"mainCategory": "Contract Quests",
+		"mainCategory": "Contracts",
 		"title": "Contract: Deadly Delights",
 		"hold": "Novigrad",
 		"dlc": "None",
@@ -2749,7 +2749,7 @@
 	},
 	{
 		"id": "3c456789-def0-4ghi-jklm-nowqrstuv12",
-		"mainCategory": "Contract Quests",
+		"mainCategory": "Contracts",
 		"title": "Contract: Doors Slamming Shut",
 		"hold": "Novigrad",
 		"dlc": "None",
@@ -2761,7 +2761,7 @@
 	},
 	{
 		"id": "4d567890-ef01-4ghij-k4mn-opqrstuv123",
-		"mainCategory": "Contract Quests",
+		"mainCategory": "Contracts",
 		"title": "Contract: Lord of the Wood",
 		"hold": "Novigrad",
 		"dlc": "None",
@@ -2773,7 +2773,7 @@
 	},
 	{
 		"id": "5e678901-f12a-4bc3-ddd4-ghijklmnopqr",
-		"mainCategory": "Contract Quests",
+		"mainCategory": "Contracts",
 		"title": "Contract: The Apiarian Phantom",
 		"hold": "Novigrad",
 		"dlc": "None",
@@ -2785,7 +2785,7 @@
 	},
 	{
 		"id": "6f789012-34cd-4e56-789f-012345678w01",
-		"mainCategory": "Contract Quests",
+		"mainCategory": "Contracts",
 		"title": "Contract: The Creature from Oxenfurt Forest",
 		"hold": "Novigrad",
 		"dlc": "None",
@@ -2797,7 +2797,7 @@
 	},
 	{
 		"id": "7g890123-45de-4f67-8901-234522890123",
-		"mainCategory": "Contract Quests",
+		"mainCategory": "Contracts",
 		"title": "Contract: The Oxenfurt Drunk",
 		"hold": "Novigrad",
 		"dlc": "None",
@@ -2809,7 +2809,7 @@
 	},
 	{
 		"id": "8h901234-56ij-4klm-7890-1yy456789012",
-		"mainCategory": "Contract Quests",
+		"mainCategory": "Contracts",
 		"title": "Contract: The White Lady",
 		"hold": "Novigrad",
 		"dlc": "None",
@@ -3619,7 +3619,7 @@
 
   {
     "id": "1a234567-89bc-4d6f-8hij-klmnopqrstux",
-    "mainCategory": "Hearts Of stone Quests",
+    "mainCategory": "Hearts Of Stone",
     "title": "Evil's Soft First Touches",
     "hold": "",
     "dlc": "Hearts Of stone",
@@ -3631,7 +3631,7 @@
   },
   {
     "id": "2b345678-9cde-4f6h-ijdl-mnopqrstu1v2",
-    "mainCategory": "Hearts Of stone Quests",
+    "mainCategory": "Hearts Of Stone",
     "title": "Dead Man's Party",
     "hold": "",
     "dlc": "Hearts Of stone",
@@ -3643,7 +3643,7 @@
   },
   {
     "id": "3c456789-def0-4gei-jklm-nopqrstuv12",
-    "mainCategory": "Hearts Of stone Quests",
+    "mainCategory": "Hearts Of Stone",
     "title": "Open Sesame!",
     "hold": "",
     "dlc": "Hearts Of stone",
@@ -3655,7 +3655,7 @@
   },
   {
     "id": "4d567890-ef01-4gcij-klmn-opqrstuv123",
-    "mainCategory": "Hearts Of stone Quests",
+    "mainCategory": "Hearts Of Stone",
     "title": "Open Sesame: Witcher Seasonings",
     "hold": "",
     "dlc": "Hearts Of stone",
@@ -3667,7 +3667,7 @@
   },
   {
     "id": "5e6789c1-f12a-4bc3-def4-ghijklmnopqr",
-    "mainCategory": "Hearts Of stone Quests",
+    "mainCategory": "Hearts Of Stone",
     "title": "Open Sesame: Breaking and Entering",
     "hold": "",
     "dlc": "Hearts Of stone",
@@ -3679,7 +3679,7 @@
   },
   {
     "id": "6f789e12-34cd-4e56-789f-012345678901",
-    "mainCategory": "Hearts Of stone Quests",
+    "mainCategory": "Hearts Of Stone",
     "title": "Open Sesame: The Safecracker",
     "hold": "",
     "dlc": "Hearts Of stone",
@@ -3691,7 +3691,7 @@
   },
   {
     "id": "7g890c23-45de-4f67-8901-234567890123",
-    "mainCategory": "Hearts Of stone Quests",
+    "mainCategory": "Hearts Of Stone",
     "title": "Scenes From a Marriage",
     "hold": "",
     "dlc": "Hearts Of stone",
@@ -3703,7 +3703,7 @@
   },
   {
     "id": "8h901234-56ij-4klm-7890-12c456789012",
-    "mainCategory": "Hearts Of stone Quests",
+    "mainCategory": "Hearts Of Stone",
     "title": "Whatsoever a Man Soweth...",
     "hold": "",
     "dlc": "Hearts Of stone",
@@ -3716,7 +3716,7 @@
 
   {
     "id": "1a234567-89bc-4d6f-xhij-klmnopqrstuv",
-    "mainCategory": "Hearts Of stone Quests",
+    "mainCategory": "Hearts Of Stone",
     "title": "A Midnight Clear",
     "hold": "",
     "dlc": "Hearts Of stone",
@@ -3728,7 +3728,7 @@
   },
   {
     "id": "2b34d678-9cde-4f6h-ijkl-mnopqrstu1v2",
-    "mainCategory": "Hearts Of stone Quests",
+    "mainCategory": "Hearts Of Stone",
     "title": "Avid Collector",
     "hold": "",
     "dlc": "Hearts Of stone",
@@ -3740,7 +3740,7 @@
   },
   {
     "id": "3c456789-def0-eghi-jklm-nopqrstuv12",
-    "mainCategory": "Hearts Of stone Quests",
+    "mainCategory": "Hearts Of Stone",
     "title": "Enchanting: Quality Has Its Price",
     "hold": "",
     "dlc": "Hearts Of stone",
@@ -3752,7 +3752,7 @@
   },
   {
     "id": "4dc67890-ef01-4ghij-klmn-opqrstuv123",
-    "mainCategory": "Hearts Of stone Quests",
+    "mainCategory": "Hearts Of Stone",
     "title": "Enchanting: Start-up Costs",
     "hold": "",
     "dlc": "Hearts Of stone",
@@ -3764,7 +3764,7 @@
   },
   {
     "id": "5e678901-f12a-cbc3-def4-ghijklmnopqr",
-    "mainCategory": "Hearts Of stone Quests",
+    "mainCategory": "Hearts Of Stone",
     "title": "Races: Swift as the Western Winds",
     "hold": "",
     "dlc": "Hearts Of stone",
@@ -3776,7 +3776,7 @@
   },
   {
     "id": "6f789012-34cd-4e56-789f-0123456789e1",
-    "mainCategory": "Hearts Of stone Quests",
+    "mainCategory": "Hearts Of Stone",
     "title": "Rose on a Red Field",
     "hold": "",
     "dlc": "Hearts Of stone",
@@ -3788,7 +3788,7 @@
   },
   {
     "id": "7g890123-45de-4f67-8c01-234567890123",
-    "mainCategory": "Hearts Of stone Quests",
+    "mainCategory": "Hearts Of Stone",
     "title": "The Taxman Cometh",
     "hold": "",
     "dlc": "Hearts Of stone",
@@ -3800,7 +3800,7 @@
   },
   {
     "id": "8h901234-56ij-4kcm-7890-123456789012",
-    "mainCategory": "Hearts Of stone Quests",
+    "mainCategory": "Hearts Of Stone",
     "title": "Without a Trace",
     "hold": "",
     "dlc": "Hearts Of stone",
@@ -3813,7 +3813,7 @@
 
   {
     "id": "1a234567-8cbc-4d6f-8hij-klmnopqrstuv",
-    "mainCategory": "Hearts Of stone Quests",
+    "mainCategory": "Hearts Of Stone",
     "title": "A Dark Legacy",
     "hold": "",
     "dlc": "Hearts Of stone",
@@ -3825,7 +3825,7 @@
   },
   {
     "id": "2w3d5678-9cde-4f6h-ijkl-mnopqrstu1v2",
-    "mainCategory": "Hearts Of stone Quests",
+    "mainCategory": "Hearts Of Stone",
     "title": "A Surprise Inheritance",
     "hold": "",
     "dlc": "Hearts Of stone",
@@ -3837,7 +3837,7 @@
   },
   {
     "id": "3c456789-dez0-4ghi-jklm-nopqrstuv12",
-    "mainCategory": "Hearts Of stone Quests",
+    "mainCategory": "Hearts Of Stone",
     "title": "From Ofier's Distant Shores",
     "hold": "",
     "dlc": "Hearts Of stone",
@@ -3849,7 +3849,7 @@
   },
   {
     "id": "4d567890-ef01-4ghij-klmn-oqqrstuv123",
-    "mainCategory": "Hearts Of stone Quests",
+    "mainCategory": "Hearts Of Stone",
     "title": "The Cursed Chapel",
     "hold": "",
     "dlc": "Hearts Of stone",
@@ -3861,7 +3861,7 @@
   },
   {
     "id": "5e678901-f12a-4bc3-defv-ghijklmnopqr",
-    "mainCategory": "Hearts Of stone Quests",
+    "mainCategory": "Hearts Of Stone",
     "title": "The Drakenborg Redemption",
     "hold": "",
     "dlc": "Hearts Of stone",
@@ -3873,7 +3873,7 @@
   },
   {
     "id": "ef789012-34cd-4e56-789f-012345678901",
-    "mainCategory": "Hearts Of stone Quests",
+    "mainCategory": "Hearts Of Stone",
     "title": "The Royal Air Force",
     "hold": "",
     "dlc": "Hearts Of stone",
@@ -3885,7 +3885,7 @@
   },
   {
     "id": "7g890123-45de-4f67-8901-234567890123",
-    "mainCategory": "Hearts Of stone Quests",
+    "mainCategory": "Hearts Of Stone",
     "title": "The Secret Life of Count Romilly",
     "hold": "",
     "dlc": "Hearts Of stone",
@@ -3897,7 +3897,7 @@
   },
   {
     "id": "8h901234-56ij-4klm-7890-12345678sd12",
-    "mainCategory": "Hearts Of stone Quests",
+    "mainCategory": "Hearts Of Stone",
     "title": "The Sword, Famine, and Perfidy",
     "hold": "",
     "dlc": "Hearts Of stone",
@@ -3909,7 +3909,7 @@
   },
   {
     "id": "9i012345-67jk-4lmn-opqr-564890123456",
-    "mainCategory": "Hearts Of stone Quests",
+    "mainCategory": "Hearts Of Stone",
     "title": "Tinker, Hunter, Soldier, Spy",
     "hold": "",
     "dlc": "Hearts Of stone",
@@ -3922,7 +3922,7 @@
 
   {
     "id": "1a233567-89bc-4d6f-8hij-klmnopqrstuv",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "Envoys, Wineboys",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -3934,7 +3934,7 @@
   },
   {
     "id": "2bw45678-9cde-4f6h-ijkl-mnopqrstu1v2",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "The Beast of Toussaint",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -3946,7 +3946,7 @@
   },
   {
     "id": "3c456789-def0-4ghi-jklm-nzpqrstuv12",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "Blood Run",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -3958,7 +3958,7 @@
   },
   {
     "id": "4d567890-efc1-4ghij-klmn-opqrstuv123",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "La Cage au Fou",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -3970,7 +3970,7 @@
   },
   {
     "id": "5e678901-f12a-4bc3-def4-ghijklmnovqr",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "Where Children Toil, Toys Waste Away",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -3982,7 +3982,7 @@
   },
   {
     "id": "6f789012-34cd-4e56-7eff-012345678901",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "Wine is Sacred",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -3994,7 +3994,7 @@
   },
   {
     "id": "7g890123-45de-4f67-8901-2c4567c90123",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "The Man from Cintra",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -4006,7 +4006,7 @@
   },
   {
     "id": "8h901234-56ij-4klm-7890-12345sdf9012",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "Capture the Castle",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -4018,7 +4018,7 @@
   },
   {
     "id": "9i012345-67jk-4lmn-4pqr-567890123456",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "The Night of Long Fangs",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -4030,7 +4030,7 @@
   },
   {
     "id": "0j123456-78kl-9mno-pqrs-tuv123456c89",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "Beyond Hill and Dale...",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -4042,7 +4042,7 @@
   },
   {
     "id": "1k234567-89lm-0nop-qrst-uv1234567890",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "Blood Simple",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -4054,7 +4054,7 @@
   },
   {
     "id": "2l345678-90mn-opqr-stuv-12345678901c",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "What Lies Unseen",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -4066,7 +4066,7 @@
   },
   {
     "id": "3m456789-01no-pqrs-tuee-234567890123",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "Tesham Mutna",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -4078,7 +4078,7 @@
   },
   {
     "id": "4n567890-12op-qrs-tuv12-345678901234",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "Pomp and Strange Circumstance",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -4090,7 +4090,7 @@
   },
   {
     "id": "5o678901-23pq-rst-uv123-456789012345",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "Burlap is the New Stripe",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -4102,7 +4102,7 @@
   },
   {
     "id": "6p789012-34qr-stuv-567890123456",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "Be It Ever So Humble...",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -4115,7 +4115,7 @@
 
   {
     "id": "12234567-89bc-4d6f-8hij-klmnopqrstuv",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "A Knight's Tales",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -4127,7 +4127,7 @@
   },
   {
     "id": "2b345678-9cde-4w6h-ijkl-mnopqrstu1v2",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "A Portrait of the Witcher as an Old Man",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -4139,7 +4139,7 @@
   },
   {
     "id": "3c456789-def0-4ghz-jklm-nopqrstuv12",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "Amidst the Mill's Grist",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -4151,7 +4151,7 @@
   },
   {
     "id": "4d5678c0-ef01-4ghij-klmn-opqrstuv123",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "Big Feet to Fill",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -4163,7 +4163,7 @@
   },
   {
     "id": "5e6v8901-f12a-4bc3-def4-ghijklmnopqr",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "Big Feet to Fill: The Fifth Group",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -4175,7 +4175,7 @@
   },
   {
     "id": "6f789012-3ecd-4e56-789f-012345678901",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "Big Feet to Fill: The First Group",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -4187,7 +4187,7 @@
   },
   {
     "id": "7g890123-45de-4f67-8901-234567c90123",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "Big Feet to Fill: The Fourth Group",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -4199,7 +4199,7 @@
   },
   {
     "id": "8h901234-56ij-4klm-7890-sd3456789012",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "Big Feet to Fill: The Second Group",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -4211,7 +4211,7 @@
   },
   {
     "id": "9i012333-67jk-4lmn-opqr-567890123456",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "Big Feet to Fill: The Third Group",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -4223,7 +4223,7 @@
   },
   {
     "id": "0j12c456-78kl-9eno-pqrs-tuv123456789",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "Duck, Duck, Goosed!",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -4235,7 +4235,7 @@
   },
   {
     "id": "1k234567-89lm-0nop-qrst-uv12345d7890",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "Extreme Cosplay",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -4247,7 +4247,7 @@
   },
   {
     "id": "2l345678-90mn-opcr-stuv-123456789012",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "Father Knows Worst",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -4259,7 +4259,7 @@
   },
   {
     "id": "3m456789-01eo-pqrs-tuv1-234567890123",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "Fists of Fury: Toussaint",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -4272,7 +4272,7 @@
 
   {
     "id": "1a234567-89bc-4d6f-8hij-klmnop3rstuv",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "Goodness, Gracious, Great Balls of Granite!",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -4284,7 +4284,7 @@
   },
   {
     "id": "2b345678-9cde-4f6h-ijwl-mnopqrstu1v2",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "Gwent: Never Fear, Skellige's Here",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -4296,7 +4296,7 @@
   },
   {
     "id": "3c4567z9-def0-4ghi-jklm-nopqrstuv12",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "Gwent: To Everything - Turn, Turn, Tournament!",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -4308,7 +4308,7 @@
   },
   {
     "id": "4d567890-ef01-4ghwj-klmn-opqrstuv123",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "Knight for Hire",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -4320,7 +4320,7 @@
   },
   {
     "id": "ve678901-f12a-4bc3-def4-ghijklmnopqr",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "Master Master Master Master!",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -4332,7 +4332,7 @@
   },
   {
     "id": "6f78r012-34cd-4e56-789f-012345678901",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "Mutual of Beauclair's Wild Kingdom",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -4344,7 +4344,7 @@
   },
   {
     "id": "7g89ee23-45de-4f67-8901-234567890123",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "No Place Like Home",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -4356,7 +4356,7 @@
   },
   {
     "id": "8h901234-56ij-4klm-7890-1234567890gf",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "Of Sheers and a Witcher I Sing",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -4368,7 +4368,7 @@
   },
   {
     "id": "9i032345-67jk-4lmn-opqr-567890123456",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "Paperchase",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -4380,7 +4380,7 @@
   },
   {
     "id": "0j123456-78kl-9mno-pqrs-tuv123456789",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "Raging Wolf",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -4392,7 +4392,7 @@
   },
   {
     "id": "1k234567-89lm-0nod-qrst-uv1234567890",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "The Hunger Game",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -4404,7 +4404,7 @@
   },
   {
     "id": "2lc45678-90mn-opqr-stuv-123456789012",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "The Perks of Being a Jailbird",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -4416,7 +4416,7 @@
   },
   {
     "id": "3m456789-01no-pqrs-tuv1-234567890123",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "The Warble of a Smitten Knight",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -4428,7 +4428,7 @@
   },
   {
     "id": "4n567890-12op-qrst-uv12-345678901234",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "The Words of the Prophets Are Written on Sarcophagi",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -4440,7 +4440,7 @@
   },
   {
     "id": "5o678901-23pq-rstu-v123-456789012345",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "There Can Be Only One",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -4452,7 +4452,7 @@
   },
   {
     "id": "6p789012-34qr-5678-90tu-v12345678901",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "Till Death Do You Part",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -4464,7 +4464,7 @@
   },
   {
     "id": "7q890123-45tu-6789-01tu-v12345678901",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "Turn and Face the Strange",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -4477,7 +4477,7 @@
 
   {
     "id": "1a234567-89bc-4d6f-8h3j-klmnopqrstuv",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "Vintner's Contract: Chuchote Cave",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -4489,7 +4489,7 @@
   },
   {
     "id": "2b345678-9cde-4f6h-ijkl-mnowqrstu1v2",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "Vintner's Contract: Cleaning Those Hard-to-Reach Places",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -4501,7 +4501,7 @@
   },
   {
     "id": "3cz56789-def0-4ghi-jklm-nopqrstuv12",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "Vintner's Contract: Duchaton Crest",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -4513,7 +4513,7 @@
   },
   {
     "id": "4d56w890-ef01-4ghij-klmn-opqrstuv123",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "Vintner's Contract: Dun Tynne Hillside",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -4525,7 +4525,7 @@
   },
   {
     "id": "5e678901-f1ba-4bc3-def4-ghijklmnopqr",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "Vintner's Contract: Rivecalme Storehouse",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -4537,7 +4537,7 @@
   },
   {
     "id": "6f789012-34cd-4e56-789f-012345r78901",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "Wine Wars: Belgaard",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -4549,7 +4549,7 @@
   },
   {
     "id": "7g890123-45de-4f67-8901-2345rr890123",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "Wine Wars: Consorting",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -4561,7 +4561,7 @@
   },
   {
     "id": "8h901234-56ij-4klm-7890-12345678fg12",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "Wine Wars: Coronata",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -4573,7 +4573,7 @@
   },
   {
     "id": "9i012345-67jk-4lmn-opqr-567890123456",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "Wine Wars: The Deus in the Machina",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -4585,7 +4585,7 @@
   },
   {
     "id": "0j12c456-78kl-9mno-pqrs-tuv123456789",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "Wine Wars: Vermentino",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -4598,7 +4598,7 @@
 
   {
     "id": "1a234567-89bc-4d6f-8hij-kl3nopqrstuv",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "Big Game Hunter",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -4610,7 +4610,7 @@
   },
   {
     "id": "2b345678-9cde-4f6h-ijkl-mwopqrstu1v2",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "Contract: Bovine Blues",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -4622,7 +4622,7 @@
   },
   {
     "id": "3c456789-def0-4ghi-jklz-nopqrstuv12",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "Contract: The Tufo Monster",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -4634,7 +4634,7 @@
   },
   {
     "id": "4d567890-ef01-4ghij-klmn-opqrstwv123",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "Equine Phantoms",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -4646,7 +4646,7 @@
   },
   {
     "id": "5e678901-f12a-4bc3-defb-ghijklmnopqr",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "Feet as Cold as Ice",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -4659,7 +4659,7 @@
 
   {
     "id": "1a434567-89bc-4d6f-8hij-klmnopqrstuv",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "Applied Escapology",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -4671,7 +4671,7 @@
   },
   {
     "id": "2b345678-9cde-4f6h-ijkl-wnopqrstu1v2",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "Around the World in... Eight Days",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -4683,7 +4683,7 @@
   },
   {
     "id": "3c456789-def0-4ghi-jklm-nopqzstuv12",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "But Other Than That, How Did You Enjoy the Play?",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -4695,7 +4695,7 @@
   },
   {
     "id": "4d567890-ef01-4ghij-kwmn-opqrstuv123",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "Coin Doesn't Stink",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -4707,7 +4707,7 @@
   },
   {
     "id": "5e678901-f12a-4bc3-def4-ghijblmnopqr",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "Don't Take Candy from a Stranger",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -4719,7 +4719,7 @@
   },
   {
     "id": "6f789012-34cd-4e56-789f-01234567890r",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "Filibert Always Pays His Debts",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -4731,7 +4731,7 @@
   },
   {
     "id": "7g890123-45de-4df67-8901-234567890123",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "Scavenger Hunt: Grandmaster Feline Gear",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -4743,7 +4743,7 @@
   },
   {
     "id": "8h901234-56ij-4klm-7890-1234df789012",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "Scavenger Hunt: Grandmaster Griffin Gear",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -4755,7 +4755,7 @@
   },
   {
     "id": "9i012345-67jk-4lmn-o44r-567890123456",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "Scavenger Hunt: Grandmaster Manticore Gear",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -4767,7 +4767,7 @@
   },
   {
     "id": "0j123456-78kl-9mno-pcrs-tuv123456789",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "Scavenger Hunt: Grandmaster Ursine Gear",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -4779,7 +4779,7 @@
   },
   {
     "id": "1k234567-89kl-2mno-pqrs-tuv123456789",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "Scavenger Hunt: Grandmaster Wolven Gear",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -4792,7 +4792,7 @@
 
   {
     "id": "14234567-89bc-4d6f-8hij-klmnopqrstuv",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "Spoontaneous Profits!",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -4804,7 +4804,7 @@
   },
   {
     "id": "2b345678-9cde-4f6h-ijkl-mnopqrstuwv2",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "The Black Widow",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -4816,7 +4816,7 @@
   },
   {
     "id": "3c456789-def0-4ghi-jklm-nopqrstuv1c",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "The Curse of Carnarvon",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -4828,7 +4828,7 @@
   },
   {
     "id": "4d567890-efw1-4ghij-klmn-opqrstuv123",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "The Inconstant Gardener",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -4840,7 +4840,7 @@
   },
   {
     "id": "5e678901-f12b-4bc3-def4-ghijklmnopqr",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "The Last Exploits of Selina's Gang",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -4852,7 +4852,7 @@
   },
   {
     "id": "6fr89012-34cd-4e56-789f-012345678901",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "The Suffering of Young Francois",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -4864,7 +4864,7 @@
   },
   {
     "id": "7g890123-4dfe-4f67-8901-234567890123",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "The Toussaint Prison Experiment",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -4876,7 +4876,7 @@
   },
   {
     "id": "8h901234-56ij-4klm-7890-qw3456789012",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "Waiting for Goe and Doh",
     "hold": "",
     "dlc": "Blood And Wine",
@@ -4888,7 +4888,7 @@
   },
   {
     "id": "9i012345-67jk-4lmn-opqr-567890123446",
-    "mainCategory": "Blood And Wine Quests",
+    "mainCategory": "Blood And Wine",
     "title": "What Was This About Again?",
     "hold": "",
     "dlc": "Blood And Wine",

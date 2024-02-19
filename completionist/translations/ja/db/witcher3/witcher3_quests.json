@@ -2725,7 +2725,7 @@
   },
   {
     "id": "1a234567-89bc-4d6f-8qij-klmnopqrstuv",
-    "mainCategory": "契約クエスト",
+    "mainCategory": "契約",
     "title": "契約: とらえどころのない泥棒",
     "hold": "ノヴィグラド",
     "dlc": "なし",
@@ -2737,7 +2737,7 @@
   },
   {
     "id": "2b34f678-9cde-4f6h-ijkl-mnopqrstu1v2",
-    "mainCategory": "契約クエスト",
+    "mainCategory": "契約",
     "title": "契約: 致命的な喜び",
     "hold": "ノヴィグラド",
     "dlc": "なし",
@@ -2749,7 +2749,7 @@
   },
   {
     "id": "3c456789-def0-4ghi-jklm-nowqrstuv12",
-    "mainCategory": "契約クエスト",
+    "mainCategory": "契約",
     "title": "契約: ドアがバタンと閉まる",
     "hold": "ノヴィグラド",
     "dlc": "なし",
@@ -2761,7 +2761,7 @@
   },
   {
     "id": "4d567890-ef01-4ghij-k4mn-opqrstuv123",
-    "mainCategory": "契約クエスト",
+    "mainCategory": "契約",
     "title": "契約: ロード・オブ・ザ・ウッド",
     "hold": "ノヴィグラド",
     "dlc": "なし",
@@ -2773,7 +2773,7 @@
   },
   {
     "id": "5e678901-f12a-4bc3-ddd4-ghijklmnopqr",
-    "mainCategory": "契約クエスト",
+    "mainCategory": "契約",
     "title": "契約: アピアリアン・ファントム",
     "hold": "ノヴィグラド",
     "dlc": "なし",
@@ -2785,7 +2785,7 @@
   },
   {
     "id": "6f789012-34cd-4e56-789f-012345678w01",
-    "mainCategory": "契約クエスト",
+    "mainCategory": "契約",
     "title": "契約：オクセンフルトの森の生き物",
     "hold": "ノヴィグラド",
     "dlc": "なし",
@@ -2797,7 +2797,7 @@
   },
   {
     "id": "7g890123-45de-4f67-8901-234522890123",
-    "mainCategory": "契約クエスト",
+    "mainCategory": "契約",
     "title": "契約書：オクセンフルトの酔客",
     "hold": "ノヴィグラド",
     "dlc": "なし",
@@ -2809,7 +2809,7 @@
   },
   {
     "id": "8h901234-56ij-4klm-7890-1yy456789012",
-    "mainCategory": "契約クエスト",
+    "mainCategory": "契約",
     "title": "契約: ホワイト・レディ",
     "hold": "ノヴィグラド",
     "dlc": "なし",
@@ -3613,7 +3613,7 @@
   },
   {
     "id": "1a234567-89bc-4d6f-8hij-klmnopqrstux",
-    "mainCategory": "ハートオブストーンクエスト",
+    "mainCategory": "ハーツ・オブ・ストーン",
     "title": "悪のソフトファーストタッチ",
     "hold": "",
     "dlc": "石の心",
@@ -3625,7 +3625,7 @@
   },
   {
     "id": "2b345678-9cde-4f6h-ijdl-mnopqrstu1v2",
-    "mainCategory": "ハートオブストーンクエスト",
+    "mainCategory": "ハーツ・オブ・ストーン",
     "title": "デッドマンズパーティー",
     "hold": "",
     "dlc": "石の心",
@@ -3637,7 +3637,7 @@
   },
   {
     "id": "3c456789-def0-4gei-jklm-nopqrstuv12",
-    "mainCategory": "ハートオブストーンクエスト",
+    "mainCategory": "ハーツ・オブ・ストーン",
     "title": "開けゴマ！",
     "hold": "",
     "dlc": "石の心",
@@ -3649,7 +3649,7 @@
   },
   {
     "id": "4d567890-ef01-4gcij-klmn-opqrstuv123",
-    "mainCategory": "ハートオブストーンクエスト",
+    "mainCategory": "ハーツ・オブ・ストーン",
     "title": "オープンゴマ：ウィッチャー調味料",
     "hold": "",
     "dlc": "石の心",
@@ -3661,7 +3661,7 @@
   },
   {
     "id": "5e6789c1-f12a-4bc3-def4-ghijklmnopqr",
-    "mainCategory": "ハートオブストーンクエスト",
+    "mainCategory": "ハーツ・オブ・ストーン",
     "title": "オープンセサミ：割って入る",
     "hold": "",
     "dlc": "石の心",
@@ -3673,7 +3673,7 @@
   },
   {
     "id": "6f789e12-34cd-4e56-789f-012345678901",
-    "mainCategory": "ハートオブストーンクエスト",
+    "mainCategory": "ハーツ・オブ・ストーン",
     "title": "オープンセサミ: 金庫破り",
     "hold": "",
     "dlc": "石の心",
@@ -3685,7 +3685,7 @@
   },
   {
     "id": "7g890c23-45de-4f67-8901-234567890123",
-    "mainCategory": "ハートオブストーンクエスト",
+    "mainCategory": "ハーツ・オブ・ストーン",
     "title": "ある結婚の風景",
     "hold": "",
     "dlc": "石の心",
@@ -3697,7 +3697,7 @@
   },
   {
     "id": "8h901234-56ij-4klm-7890-12c456789012",
-    "mainCategory": "ハートオブストーンクエスト",
+    "mainCategory": "ハーツ・オブ・ストーン",
     "title": "人間が何を植えようとも...",
     "hold": "",
     "dlc": "石の心",
@@ -3709,7 +3709,7 @@
   },
   {
     "id": "1a234567-89bc-4d6f-xhij-klmnopqrstuv",
-    "mainCategory": "ハートオブストーンクエスト",
+    "mainCategory": "ハーツ・オブ・ストーン",
     "title": "真夜中の晴れ",
     "hold": "",
     "dlc": "石の心",
@@ -3721,7 +3721,7 @@
   },
   {
     "id": "2b34d678-9cde-4f6h-ijkl-mnopqrstu1v2",
-    "mainCategory": "ハートオブストーンクエスト",
+    "mainCategory": "ハーツ・オブ・ストーン",
     "title": "熱心なコレクター",
     "hold": "",
     "dlc": "石の心",
@@ -3733,7 +3733,7 @@
   },
   {
     "id": "3c456789-def0-eghi-jklm-nopqrstuv12",
-    "mainCategory": "ハートオブストーンクエスト",
+    "mainCategory": "ハーツ・オブ・ストーン",
     "title": "魅力的: 品質には代償がある",
     "hold": "",
     "dlc": "石の心",
@@ -3745,7 +3745,7 @@
   },
   {
     "id": "4dc67890-ef01-4ghij-klmn-opqrstuv123",
-    "mainCategory": "ハートオブストーンクエスト",
+    "mainCategory": "ハーツ・オブ・ストーン",
     "title": "エンチャント: 初期費用",
     "hold": "",
     "dlc": "石の心",
@@ -3757,7 +3757,7 @@
   },
   {
     "id": "5e678901-f12a-cbc3-def4-ghijklmnopqr",
-    "mainCategory": "ハートオブストーンクエスト",
+    "mainCategory": "ハーツ・オブ・ストーン",
     "title": "レース: 西風のように速く",
     "hold": "",
     "dlc": "石の心",
@@ -3769,7 +3769,7 @@
   },
   {
     "id": "6f789012-34cd-4e56-789f-0123456789e1",
-    "mainCategory": "ハートオブストーンクエスト",
+    "mainCategory": "ハーツ・オブ・ストーン",
     "title": "赤い野原のバラ",
     "hold": "",
     "dlc": "石の心",
@@ -3781,7 +3781,7 @@
   },
   {
     "id": "7g890123-45de-4f67-8c01-234567890123",
-    "mainCategory": "ハートオブストーンクエスト",
+    "mainCategory": "ハーツ・オブ・ストーン",
     "title": "税務官がやってくる",
     "hold": "",
     "dlc": "石の心",
@@ -3793,7 +3793,7 @@
   },
   {
     "id": "8h901234-56ij-4kcm-7890-123456789012",
-    "mainCategory": "ハートオブストーンクエスト",
+    "mainCategory": "ハーツ・オブ・ストーン",
     "title": "跡形もなく",
     "hold": "",
     "dlc": "石の心",
@@ -3805,7 +3805,7 @@
   },
   {
     "id": "1a234567-8cbc-4d6f-8hij-klmnopqrstuv",
-    "mainCategory": "ハートオブストーンクエスト",
+    "mainCategory": "ハーツ・オブ・ストーン",
     "title": "暗い遺産",
     "hold": "",
     "dlc": "石の心",
@@ -3817,7 +3817,7 @@
   },
   {
     "id": "2w3d5678-9cde-4f6h-ijkl-mnopqrstu1v2",
-    "mainCategory": "ハートオブストーンクエスト",
+    "mainCategory": "ハーツ・オブ・ストーン",
     "title": "驚きの相続",
     "hold": "",
     "dlc": "石の心",
@@ -3829,7 +3829,7 @@
   },
   {
     "id": "3c456789-dez0-4ghi-jklm-nopqrstuv12",
-    "mainCategory": "ハートオブストーンクエスト",
+    "mainCategory": "ハーツ・オブ・ストーン",
     "title": "オフィエの遠い岸より",
     "hold": "",
     "dlc": "石の心",
@@ -3841,7 +3841,7 @@
   },
   {
     "id": "4d567890-ef01-4ghij-klmn-oqqrstuv123",
-    "mainCategory": "ハートオブストーンクエスト",
+    "mainCategory": "ハーツ・オブ・ストーン",
     "title": "呪われた礼拝堂",
     "hold": "",
     "dlc": "石の心",
@@ -3853,7 +3853,7 @@
   },
   {
     "id": "5e678901-f12a-4bc3-defv-ghijklmnopqr",
-    "mainCategory": "ハートオブストーンクエスト",
+    "mainCategory": "ハーツ・オブ・ストーン",
     "title": "ドラケンボーグの救い",
     "hold": "",
     "dlc": "石の心",
@@ -3865,7 +3865,7 @@
   },
   {
     "id": "ef789012-34cd-4e56-789f-012345678901",
-    "mainCategory": "ハートオブストーンクエスト",
+    "mainCategory": "ハーツ・オブ・ストーン",
     "title": "イギリス空軍",
     "hold": "",
     "dlc": "石の心",
@@ -3877,7 +3877,7 @@
   },
   {
     "id": "7g890123-45de-4f67-8901-234567890123",
-    "mainCategory": "ハートオブストーンクエスト",
+    "mainCategory": "ハーツ・オブ・ストーン",
     "title": "ロミリー伯爵の秘密の生活",
     "hold": "",
     "dlc": "石の心",
@@ -3889,7 +3889,7 @@
   },
   {
     "id": "8h901234-56ij-4klm-7890-12345678sd12",
-    "mainCategory": "ハートオブストーンクエスト",
+    "mainCategory": "ハーツ・オブ・ストーン",
     "title": "剣、飢餓、そして不法行為",
     "hold": "",
     "dlc": "石の心",
@@ -3901,7 +3901,7 @@
   },
   {
     "id": "9i012345-67jk-4lmn-opqr-564890123456",
-    "mainCategory": "ハートオブストーンクエスト",
+    "mainCategory": "ハーツ・オブ・ストーン",
     "title": "ティンカー、ハンター、ソルジャー、スパイ",
     "hold": "",
     "dlc": "石の心",
@@ -3913,7 +3913,7 @@
   },
   {
     "id": "1a233567-89bc-4d6f-8hij-klmnopqrstuv",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "エンボイズ、ワインボーイズ",
     "hold": "",
     "dlc": "血とワイン",
@@ -3925,7 +3925,7 @@
   },
   {
     "id": "2bw45678-9cde-4f6h-ijkl-mnopqrstu1v2",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "トゥサンの野獣",
     "hold": "",
     "dlc": "血とワイン",
@@ -3937,7 +3937,7 @@
   },
   {
     "id": "3c456789-def0-4ghi-jklm-nzpqrstuv12",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "ブラッドラン",
     "hold": "",
     "dlc": "血とワイン",
@@ -3949,7 +3949,7 @@
   },
   {
     "id": "4d567890-efc1-4ghij-klmn-opqrstuv123",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "ラ・カージュ・オ・フウ",
     "hold": "",
     "dlc": "血とワイン",
@@ -3961,7 +3961,7 @@
   },
   {
     "id": "5e678901-f12a-4bc3-def4-ghijklmnovqr",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "子どもたちが苦労しておもちゃが捨てられる場所",
     "hold": "",
     "dlc": "血とワイン",
@@ -3973,7 +3973,7 @@
   },
   {
     "id": "6f789012-34cd-4e56-7eff-012345678901",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "ワインは神聖なもの",
     "hold": "",
     "dlc": "血とワイン",
@@ -3985,7 +3985,7 @@
   },
   {
     "id": "7g890123-45de-4f67-8901-2c4567c90123",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "シントラから来た男",
     "hold": "",
     "dlc": "血とワイン",
@@ -3997,7 +3997,7 @@
   },
   {
     "id": "8h901234-56ij-4klm-7890-12345sdf9012",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "城を占領する",
     "hold": "",
     "dlc": "血とワイン",
@@ -4009,7 +4009,7 @@
   },
   {
     "id": "9i012345-67jk-4lmn-4pqr-567890123456",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "長い牙の夜",
     "hold": "",
     "dlc": "血とワイン",
@@ -4021,7 +4021,7 @@
   },
   {
     "id": "0j123456-78kl-9mno-pqrs-tuv123456c89",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "ヒルとデールを越えて…",
     "hold": "",
     "dlc": "血とワイン",
@@ -4033,7 +4033,7 @@
   },
   {
     "id": "1k234567-89lm-0nop-qrst-uv1234567890",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "ブラッドシンプル",
     "hold": "",
     "dlc": "血とワイン",
@@ -4045,7 +4045,7 @@
   },
   {
     "id": "2l345678-90mn-opqr-stuv-12345678901c",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "目に見えないもの",
     "hold": "",
     "dlc": "血とワイン",
@@ -4057,7 +4057,7 @@
   },
   {
     "id": "3m456789-01no-pqrs-tuee-234567890123",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "テシャム・ムトナ",
     "hold": "",
     "dlc": "血とワイン",
@@ -4069,7 +4069,7 @@
   },
   {
     "id": "4n567890-12op-qrs-tuv12-345678901234",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "威風堂々とした奇妙な状況",
     "hold": "",
     "dlc": "血とワイン",
@@ -4081,7 +4081,7 @@
   },
   {
     "id": "5o678901-23pq-rst-uv123-456789012345",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "黄麻布は新しいストライプです",
     "hold": "",
     "dlc": "血とワイン",
@@ -4093,7 +4093,7 @@
   },
   {
     "id": "6p789012-34qr-stuv-567890123456",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "いつまでも謙虚でいてください...",
     "hold": "",
     "dlc": "血とワイン",
@@ -4105,7 +4105,7 @@
   },
   {
     "id": "12234567-89bc-4d6f-8hij-klmnopqrstuv",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "騎士の物語",
     "hold": "",
     "dlc": "血とワイン",
@@ -4117,7 +4117,7 @@
   },
   {
     "id": "2b345678-9cde-4w6h-ijkl-mnopqrstu1v2",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "老人としてのウィッチャーの肖像",
     "hold": "",
     "dlc": "血とワイン",
@@ -4129,7 +4129,7 @@
   },
   {
     "id": "3c456789-def0-4ghz-jklm-nopqrstuv12",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "ミルズ・グリストの真っ只中",
     "hold": "",
     "dlc": "血とワイン",
@@ -4141,7 +4141,7 @@
   },
   {
     "id": "4d5678c0-ef01-4ghij-klmn-opqrstuv123",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "大きな足を埋める",
     "hold": "",
     "dlc": "血とワイン",
@@ -4153,7 +4153,7 @@
   },
   {
     "id": "5e6v8901-f12a-4bc3-def4-ghijklmnopqr",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "満たすべき大きな足: 第 5 グループ",
     "hold": "",
     "dlc": "血とワイン",
@@ -4165,7 +4165,7 @@
   },
   {
     "id": "6f789012-3ecd-4e56-789f-012345678901",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "大きな足を埋める: 最初のグループ",
     "hold": "",
     "dlc": "血とワイン",
@@ -4177,7 +4177,7 @@
   },
   {
     "id": "7g890123-45de-4f67-8901-234567c90123",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "大きな足を埋める: 第 4 グループ",
     "hold": "",
     "dlc": "血とワイン",
@@ -4189,7 +4189,7 @@
   },
   {
     "id": "8h901234-56ij-4klm-7890-sd3456789012",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "大きな足を埋める: 2 番目のグループ",
     "hold": "",
     "dlc": "血とワイン",
@@ -4201,7 +4201,7 @@
   },
   {
     "id": "9i012333-67jk-4lmn-opqr-567890123456",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "満たすべき大きな足: 3 番目のグループ",
     "hold": "",
     "dlc": "血とワイン",
@@ -4213,7 +4213,7 @@
   },
   {
     "id": "0j12c456-78kl-9eno-pqrs-tuv123456789",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "アヒル、アヒル、ガチョウ！",
     "hold": "",
     "dlc": "血とワイン",
@@ -4225,7 +4225,7 @@
   },
   {
     "id": "1k234567-89lm-0nop-qrst-uv12345d7890",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "エクストリームコスプレ",
     "hold": "",
     "dlc": "血とワイン",
@@ -4237,7 +4237,7 @@
   },
   {
     "id": "2l345678-90mn-opcr-stuv-123456789012",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "父は最悪のことを知っている",
     "hold": "",
     "dlc": "血とワイン",
@@ -4249,7 +4249,7 @@
   },
   {
     "id": "3m456789-01eo-pqrs-tuv1-234567890123",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "怒りの拳: トゥサン",
     "hold": "",
     "dlc": "血とワイン",
@@ -4261,7 +4261,7 @@
   },
   {
     "id": "1a234567-89bc-4d6f-8hij-klmnop3rstuv",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "素晴らしく、親切で、素晴らしい花崗岩のボールです。",
     "hold": "",
     "dlc": "血とワイン",
@@ -4273,7 +4273,7 @@
   },
   {
     "id": "2b345678-9cde-4f6h-ijwl-mnopqrstu1v2",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "グウェント: 恐れるな、スケリッジはここだ",
     "hold": "",
     "dlc": "血とワイン",
@@ -4285,7 +4285,7 @@
   },
   {
     "id": "3c4567z9-def0-4ghi-jklm-nopqrstuv12",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "グウェント：すべてへ - ターン、ターン、トーナメント！",
     "hold": "",
     "dlc": "血とワイン",
@@ -4297,7 +4297,7 @@
   },
   {
     "id": "4d567890-ef01-4ghwj-klmn-opqrstuv123",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "雇われ騎士",
     "hold": "",
     "dlc": "血とワイン",
@@ -4309,7 +4309,7 @@
   },
   {
     "id": "ve678901-f12a-4bc3-def4-ghijklmnopqr",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "マスターマスターマスターマスター！",
     "hold": "",
     "dlc": "血とワイン",
@@ -4321,7 +4321,7 @@
   },
   {
     "id": "6f78r012-34cd-4e56-789f-012345678901",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "ボークレールの野生の王国の相互",
     "hold": "",
     "dlc": "血とワイン",
@@ -4333,7 +4333,7 @@
   },
   {
     "id": "7g89ee23-45de-4f67-8901-234567890123",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "我が家に勝る所はありません",
     "hold": "",
     "dlc": "血とワイン",
@@ -4345,7 +4345,7 @@
   },
   {
     "id": "8h901234-56ij-4klm-7890-1234567890gf",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "シアーズとウィッチャーについて、私は歌う",
     "hold": "",
     "dlc": "血とワイン",
@@ -4357,7 +4357,7 @@
   },
   {
     "id": "9i032345-67jk-4lmn-opqr-567890123456",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "ペーパーチェイス",
     "hold": "",
     "dlc": "血とワイン",
@@ -4369,7 +4369,7 @@
   },
   {
     "id": "0j123456-78kl-9mno-pqrs-tuv123456789",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "レイジングウルフ",
     "hold": "",
     "dlc": "血とワイン",
@@ -4381,7 +4381,7 @@
   },
   {
     "id": "1k234567-89lm-0nod-qrst-uv1234567890",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "ハンガー・ゲーム",
     "hold": "",
     "dlc": "血とワイン",
@@ -4393,7 +4393,7 @@
   },
   {
     "id": "2lc45678-90mn-opqr-stuv-123456789012",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "ジェイルバードであることの特典",
     "hold": "",
     "dlc": "血とワイン",
@@ -4405,7 +4405,7 @@
   },
   {
     "id": "3m456789-01no-pqrs-tuv1-234567890123",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "惚れられた騎士の雄叫び",
     "hold": "",
     "dlc": "血とワイン",
@@ -4417,7 +4417,7 @@
   },
   {
     "id": "4n567890-12op-qrst-uv12-345678901234",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "預言者の言葉は石棺に書かれている",
     "hold": "",
     "dlc": "血とワイン",
@@ -4429,7 +4429,7 @@
   },
   {
     "id": "5o678901-23pq-rstu-v123-456789012345",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "一つだけ存在することができます",
     "hold": "",
     "dlc": "血とワイン",
@@ -4441,7 +4441,7 @@
   },
   {
     "id": "6p789012-34qr-5678-90tu-v12345678901",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "死が二人を分かつまで",
     "hold": "",
     "dlc": "血とワイン",
@@ -4453,7 +4453,7 @@
   },
   {
     "id": "7q890123-45tu-6789-01tu-v12345678901",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "向きを変えて奇妙なものに立ち向かう",
     "hold": "",
     "dlc": "血とワイン",
@@ -4465,7 +4465,7 @@
   },
   {
     "id": "1a234567-89bc-4d6f-8h3j-klmnopqrstuv",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "ワイントナーの契約: チュチョテ洞窟",
     "hold": "",
     "dlc": "血とワイン",
@@ -4477,7 +4477,7 @@
   },
   {
     "id": "2b345678-9cde-4f6h-ijkl-mnowqrstu1v2",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "ヴィントナーの契約: 手の届きにくい場所の清掃",
     "hold": "",
     "dlc": "血とワイン",
@@ -4489,7 +4489,7 @@
   },
   {
     "id": "3cz56789-def0-4ghi-jklm-nopqrstuv12",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "ヴィントナーズ契約: デュシャトン・クレスト",
     "hold": "",
     "dlc": "血とワイン",
@@ -4501,7 +4501,7 @@
   },
   {
     "id": "4d56w890-ef01-4ghij-klmn-opqrstuv123",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "ヴィントナーズ契約: ダン・ティン・ヒルサイド",
     "hold": "",
     "dlc": "血とワイン",
@@ -4513,7 +4513,7 @@
   },
   {
     "id": "5e678901-f1ba-4bc3-def4-ghijklmnopqr",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "ワイントナーの契約: Rivecalme 倉庫",
     "hold": "",
     "dlc": "血とワイン",
@@ -4525,7 +4525,7 @@
   },
   {
     "id": "6f789012-34cd-4e56-789f-012345r78901",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "ワイン戦争: ベルガード",
     "hold": "",
     "dlc": "血とワイン",
@@ -4537,7 +4537,7 @@
   },
   {
     "id": "7g890123-45de-4f67-8901-2345rr890123",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "ワイン戦争: 組み合わせ",
     "hold": "",
     "dlc": "血とワイン",
@@ -4549,7 +4549,7 @@
   },
   {
     "id": "8h901234-56ij-4klm-7890-12345678fg12",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "ワイン戦争: コロナータ",
     "hold": "",
     "dlc": "血とワイン",
@@ -4561,7 +4561,7 @@
   },
   {
     "id": "9i012345-67jk-4lmn-opqr-567890123456",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "ワイン戦争: マキナのデウス",
     "hold": "",
     "dlc": "血とワイン",
@@ -4573,7 +4573,7 @@
   },
   {
     "id": "0j12c456-78kl-9mno-pqrs-tuv123456789",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "ワイン戦争: ヴェルメンティーノ",
     "hold": "",
     "dlc": "血とワイン",
@@ -4585,7 +4585,7 @@
   },
   {
     "id": "1a234567-89bc-4d6f-8hij-kl3nopqrstuv",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "ビッグゲームハンター",
     "hold": "",
     "dlc": "血とワイン",
@@ -4597,7 +4597,7 @@
   },
   {
     "id": "2b345678-9cde-4f6h-ijkl-mwopqrstu1v2",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "契約: ボバイン・ブルース",
     "hold": "",
     "dlc": "血とワイン",
@@ -4609,7 +4609,7 @@
   },
   {
     "id": "3c456789-def0-4ghi-jklz-nopqrstuv12",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "契約: トゥーフォモンスター",
     "hold": "",
     "dlc": "血とワイン",
@@ -4621,7 +4621,7 @@
   },
   {
     "id": "4d567890-ef01-4ghij-klmn-opqrstwv123",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "馬の怪人",
     "hold": "",
     "dlc": "血とワイン",
@@ -4633,7 +4633,7 @@
   },
   {
     "id": "5e678901-f12a-4bc3-defb-ghijklmnopqr",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "氷のように冷たい足",
     "hold": "",
     "dlc": "血とワイン",
@@ -4645,7 +4645,7 @@
   },
   {
     "id": "1a434567-89bc-4d6f-8hij-klmnopqrstuv",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "応用エスカポロジー",
     "hold": "",
     "dlc": "血とワイン",
@@ -4657,7 +4657,7 @@
   },
   {
     "id": "2b345678-9cde-4f6h-ijkl-wnopqrstu1v2",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "8日間で世界一周",
     "hold": "",
     "dlc": "血とワイン",
@@ -4669,7 +4669,7 @@
   },
   {
     "id": "3c456789-def0-4ghi-jklm-nopqzstuv12",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "それ以外では、芝居はどうでしたか？",
     "hold": "",
     "dlc": "血とワイン",
@@ -4681,7 +4681,7 @@
   },
   {
     "id": "4d567890-ef01-4ghij-kwmn-opqrstuv123",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "コインは臭くない",
     "hold": "",
     "dlc": "血とワイン",
@@ -4693,7 +4693,7 @@
   },
   {
     "id": "5e678901-f12a-4bc3-def4-ghijblmnopqr",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "見知らぬ人からキャンディーを取らないでください",
     "hold": "",
     "dlc": "血とワイン",
@@ -4705,7 +4705,7 @@
   },
   {
     "id": "6f789012-34cd-4e56-789f-01234567890r",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "フィリベルトは必ず借金を返す",
     "hold": "",
     "dlc": "血とワイン",
@@ -4717,7 +4717,7 @@
   },
   {
     "id": "7g890123-45de-4df67-8901-234567890123",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "スカベンジャー ハント: グランドマスター ネコ科装備",
     "hold": "",
     "dlc": "血とワイン",
@@ -4729,7 +4729,7 @@
   },
   {
     "id": "8h901234-56ij-4klm-7890-1234df789012",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "スカベンジャー ハント: グランドマスター グリフィン ギア",
     "hold": "",
     "dlc": "血とワイン",
@@ -4741,7 +4741,7 @@
   },
   {
     "id": "9i012345-67jk-4lmn-o44r-567890123456",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "スカベンジャー ハント: グランドマスター マンティコア ギア",
     "hold": "",
     "dlc": "血とワイン",
@@ -4753,7 +4753,7 @@
   },
   {
     "id": "0j123456-78kl-9mno-pcrs-tuv123456789",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "スカベンジャー ハント: グランドマスター アーシン ギア",
     "hold": "",
     "dlc": "血とワイン",
@@ -4765,7 +4765,7 @@
   },
   {
     "id": "1k234567-89kl-2mno-pqrs-tuv123456789",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "スカベンジャー ハント: グランドマスター ウルブン ギア",
     "hold": "",
     "dlc": "血とワイン",
@@ -4777,7 +4777,7 @@
   },
   {
     "id": "14234567-89bc-4d6f-8hij-klmnopqrstuv",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "突然の利益！",
     "hold": "",
     "dlc": "血とワイン",
@@ -4789,7 +4789,7 @@
   },
   {
     "id": "2b345678-9cde-4f6h-ijkl-mnopqrstuwv2",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "ブラック・ウィドウ",
     "hold": "",
     "dlc": "血とワイン",
@@ -4801,7 +4801,7 @@
   },
   {
     "id": "3c456789-def0-4ghi-jklm-nopqrstuv1c",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "カーナーヴォンの呪い",
     "hold": "",
     "dlc": "血とワイン",
@@ -4813,7 +4813,7 @@
   },
   {
     "id": "4d567890-efw1-4ghij-klmn-opqrstuv123",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "変わらない庭師",
     "hold": "",
     "dlc": "血とワイン",
@@ -4825,7 +4825,7 @@
   },
   {
     "id": "5e678901-f12b-4bc3-def4-ghijklmnopqr",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "セリーナのギャングの最後の悪用",
     "hold": "",
     "dlc": "血とワイン",
@@ -4837,7 +4837,7 @@
   },
   {
     "id": "6fr89012-34cd-4e56-789f-012345678901",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "若きフランソワの苦しみ",
     "hold": "",
     "dlc": "血とワイン",
@@ -4849,7 +4849,7 @@
   },
   {
     "id": "7g890123-4dfe-4f67-8901-234567890123",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "トゥサン監獄実験",
     "hold": "",
     "dlc": "血とワイン",
@@ -4861,7 +4861,7 @@
   },
   {
     "id": "8h901234-56ij-4klm-7890-qw3456789012",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "ゴエとドーを待っています",
     "hold": "",
     "dlc": "血とワイン",
@@ -4873,7 +4873,7 @@
   },
   {
     "id": "9i012345-67jk-4lmn-opqr-567890123446",
-    "mainCategory": "血とワインのクエスト",
+    "mainCategory": "血とワイン",
     "title": "またこれは何についてでしたか？",
     "hold": "",
     "dlc": "血とワイン",

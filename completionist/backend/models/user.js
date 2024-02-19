@@ -1,7 +1,8 @@
 const mongoose = require('mongoose');
 const {
   skyrimSettingsConfig,
-  fallout4SettingsConfig
+  fallout4SettingsConfig,
+	witcher3SettingsConfig
 } = require('./initialUserData');
 
 const userSchema = new mongoose.Schema({
@@ -31,6 +32,14 @@ const userSchema = new mongoose.Schema({
   data: {
     type: Object,
     default: {
+			fallout4: {
+				appId: 377160,
+        quests: [], 
+        collectables: [], 
+        miscellaneous: [], 
+        locations: [], 
+        settingsConfig: fallout4SettingsConfig
+      },
       skyrim: {
 				appId: 72850,
         quests: [], 
@@ -39,13 +48,13 @@ const userSchema = new mongoose.Schema({
         locations: [], 
         settingsConfig: skyrimSettingsConfig
       },
-      fallout4: {
-				appId: 377160,
+			witcher3: {
+				appId: 292030,
         quests: [], 
         collectables: [], 
         miscellaneous: [], 
         locations: [], 
-        settingsConfig: fallout4SettingsConfig
+        settingsConfig: witcher3SettingsConfig
       },
     }
   },
@@ -54,8 +63,9 @@ const userSchema = new mongoose.Schema({
 userSchema.path('subscription.tier').default('bronze');
 userSchema.path('subscription.changesLeft').default(0);
 userSchema.path('subscription.data').default([
+	{ id: 'fallout4', isActive: false },
   { id: 'skyrim', isActive: false },
-  { id: 'fallout4', isActive: false }
+	{ id: 'witcher3', isActive: false }
 ]);
 userSchema.path('settings.lang').default('en');
 userSchema.path('settings.configs').default([
@@ -72,3 +82,5 @@ module.exports = mongoose.model('User', userSchema);
 // { id: '377160', title: 'Fallout 4' },
 // { id: '199943', title: 'Fallout 4 G.O.T.Y Edition' },
 // { id: '611660', title: 'Fallout 4 VR' },
+
+	// witcher3 complete collection: 124923

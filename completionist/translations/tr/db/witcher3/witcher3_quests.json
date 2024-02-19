@@ -2725,7 +2725,7 @@
   },
   {
     "id": "1a234567-89bc-4d6f-8qij-klmnopqrstuv",
-    "mainCategory": "Sözleşme Görevleri",
+    "mainCategory": "Sözleşmeler",
     "title": "Sözleşme: Ele Geçirilmesi Zor Bir Hırsız",
     "hold": "Novigrad",
     "dlc": "Hiçbiri",
@@ -2737,7 +2737,7 @@
   },
   {
     "id": "2b34f678-9cde-4f6h-ijkl-mnopqrstu1v2",
-    "mainCategory": "Sözleşme Görevleri",
+    "mainCategory": "Sözleşmeler",
     "title": "Sözleşme: Ölümcül Zevkler",
     "hold": "Novigrad",
     "dlc": "Hiçbiri",
@@ -2749,7 +2749,7 @@
   },
   {
     "id": "3c456789-def0-4ghi-jklm-nowqrstuv12",
-    "mainCategory": "Sözleşme Görevleri",
+    "mainCategory": "Sözleşmeler",
     "title": "Sözleşme: Kapılar Çarparak Kapanıyor",
     "hold": "Novigrad",
     "dlc": "Hiçbiri",
@@ -2761,7 +2761,7 @@
   },
   {
     "id": "4d567890-ef01-4ghij-k4mn-opqrstuv123",
-    "mainCategory": "Sözleşme Görevleri",
+    "mainCategory": "Sözleşmeler",
     "title": "Sözleşme: Ormanın Efendisi",
     "hold": "Novigrad",
     "dlc": "Hiçbiri",
@@ -2773,7 +2773,7 @@
   },
   {
     "id": "5e678901-f12a-4bc3-ddd4-ghijklmnopqr",
-    "mainCategory": "Sözleşme Görevleri",
+    "mainCategory": "Sözleşmeler",
     "title": "Sözleşme: Arıcı Hayalet",
     "hold": "Novigrad",
     "dlc": "Hiçbiri",
@@ -2785,7 +2785,7 @@
   },
   {
     "id": "6f789012-34cd-4e56-789f-012345678w01",
-    "mainCategory": "Sözleşme Görevleri",
+    "mainCategory": "Sözleşmeler",
     "title": "Sözleşme: Oxenfurt Ormanındaki Yaratık",
     "hold": "Novigrad",
     "dlc": "Hiçbiri",
@@ -2797,7 +2797,7 @@
   },
   {
     "id": "7g890123-45de-4f67-8901-234522890123",
-    "mainCategory": "Sözleşme Görevleri",
+    "mainCategory": "Sözleşmeler",
     "title": "Sözleşme: Oxenfurt Sarhoş",
     "hold": "Novigrad",
     "dlc": "Hiçbiri",
@@ -2809,7 +2809,7 @@
   },
   {
     "id": "8h901234-56ij-4klm-7890-1yy456789012",
-    "mainCategory": "Sözleşme Görevleri",
+    "mainCategory": "Sözleşmeler",
     "title": "Sözleşme: Beyaz Hanım",
     "hold": "Novigrad",
     "dlc": "Hiçbiri",
@@ -2954,7 +2954,7 @@
   {
     "id": "3cf56789-def0-4ghi-jklm-nopqrstuv12",
     "mainCategory": "Hazine avı",
-    "title": "Çöpçü Avı: Engerek Okulu Teçhizatı",
+    "title": "Çöpçü Avı: Engerek Okulu Donanımı",
     "hold": "Beyaz Meyve Bahçesi",
     "dlc": "Hiçbiri",
     "subCategory": "Beyaz Meyve Bahçesi",
@@ -3613,7 +3613,7 @@
   },
   {
     "id": "1a234567-89bc-4d6f-8hij-klmnopqrstux",
-    "mainCategory": "Taş Kalpler Görevler",
+    "mainCategory": "Taş Kalpler",
     "title": "Kötülüğün Yumuşak İlk Dokunuşları",
     "hold": "",
     "dlc": "Taş Kalpler",
@@ -3625,7 +3625,7 @@
   },
   {
     "id": "2b345678-9cde-4f6h-ijdl-mnopqrstu1v2",
-    "mainCategory": "Taş Kalpler Görevler",
+    "mainCategory": "Taş Kalpler",
     "title": "Ölü Adamın Partisi",
     "hold": "",
     "dlc": "Taş Kalpler",
@@ -3637,7 +3637,7 @@
   },
   {
     "id": "3c456789-def0-4gei-jklm-nopqrstuv12",
-    "mainCategory": "Taş Kalpler Görevler",
+    "mainCategory": "Taş Kalpler",
     "title": "Susam'ı aç!",
     "hold": "",
     "dlc": "Taş Kalpler",
@@ -3649,7 +3649,7 @@
   },
   {
     "id": "4d567890-ef01-4gcij-klmn-opqrstuv123",
-    "mainCategory": "Taş Kalpler Görevler",
+    "mainCategory": "Taş Kalpler",
     "title": "Açık Susam: Witcher Baharatları",
     "hold": "",
     "dlc": "Taş Kalpler",
@@ -3661,7 +3661,7 @@
   },
   {
     "id": "5e6789c1-f12a-4bc3-def4-ghijklmnopqr",
-    "mainCategory": "Taş Kalpler Görevler",
+    "mainCategory": "Taş Kalpler",
     "title": "Açık Susam: Kırmak ve Girmek",
     "hold": "",
     "dlc": "Taş Kalpler",
@@ -3673,7 +3673,7 @@
   },
   {
     "id": "6f789e12-34cd-4e56-789f-012345678901",
-    "mainCategory": "Taş Kalpler Görevler",
+    "mainCategory": "Taş Kalpler",
     "title": "Açık Susam: Kasa Hırsızı",
     "hold": "",
     "dlc": "Taş Kalpler",
@@ -3685,7 +3685,7 @@
   },
   {
     "id": "7g890c23-45de-4f67-8901-234567890123",
-    "mainCategory": "Taş Kalpler Görevler",
+    "mainCategory": "Taş Kalpler",
     "title": "Bir Evlilikten Sahneler",
     "hold": "",
     "dlc": "Taş Kalpler",
@@ -3697,7 +3697,7 @@
   },
   {
     "id": "8h901234-56ij-4klm-7890-12c456789012",
-    "mainCategory": "Taş Kalpler Görevler",
+    "mainCategory": "Taş Kalpler",
     "title": "Bir İnsan Ne Ekerse...",
     "hold": "",
     "dlc": "Taş Kalpler",
@@ -3709,7 +3709,7 @@
   },
   {
     "id": "1a234567-89bc-4d6f-xhij-klmnopqrstuv",
-    "mainCategory": "Taş Kalpler Görevler",
+    "mainCategory": "Taş Kalpler",
     "title": "Gece Yarısı Temizliği",
     "hold": "",
     "dlc": "Taş Kalpler",
@@ -3721,7 +3721,7 @@
   },
   {
     "id": "2b34d678-9cde-4f6h-ijkl-mnopqrstu1v2",
-    "mainCategory": "Taş Kalpler Görevler",
+    "mainCategory": "Taş Kalpler",
     "title": "Hırslı Koleksiyoncu",
     "hold": "",
     "dlc": "Taş Kalpler",
@@ -3733,7 +3733,7 @@
   },
   {
     "id": "3c456789-def0-eghi-jklm-nopqrstuv12",
-    "mainCategory": "Taş Kalpler Görevler",
+    "mainCategory": "Taş Kalpler",
     "title": "Büyüleyici: Kalitenin bir bedeli vardır",
     "hold": "",
     "dlc": "Taş Kalpler",
@@ -3745,7 +3745,7 @@
   },
   {
     "id": "4dc67890-ef01-4ghij-klmn-opqrstuv123",
-    "mainCategory": "Taş Kalpler Görevler",
+    "mainCategory": "Taş Kalpler",
     "title": "Büyüleyici: Başlangıç ​​Maliyetleri",
     "hold": "",
     "dlc": "Taş Kalpler",
@@ -3757,7 +3757,7 @@
   },
   {
     "id": "5e678901-f12a-cbc3-def4-ghijklmnopqr",
-    "mainCategory": "Taş Kalpler Görevler",
+    "mainCategory": "Taş Kalpler",
     "title": "Yarışlar: Batı Rüzgârları Kadar Hızlı",
     "hold": "",
     "dlc": "Taş Kalpler",
@@ -3769,7 +3769,7 @@
   },
   {
     "id": "6f789012-34cd-4e56-789f-0123456789e1",
-    "mainCategory": "Taş Kalpler Görevler",
+    "mainCategory": "Taş Kalpler",
     "title": "Kırmızı Alanda Gül",
     "hold": "",
     "dlc": "Taş Kalpler",
@@ -3781,7 +3781,7 @@
   },
   {
     "id": "7g890123-45de-4f67-8c01-234567890123",
-    "mainCategory": "Taş Kalpler Görevler",
+    "mainCategory": "Taş Kalpler",
     "title": "Vergi Memuru Cometh",
     "hold": "",
     "dlc": "Taş Kalpler",
@@ -3793,7 +3793,7 @@
   },
   {
     "id": "8h901234-56ij-4kcm-7890-123456789012",
-    "mainCategory": "Taş Kalpler Görevler",
+    "mainCategory": "Taş Kalpler",
     "title": "İz bırakmadan",
     "hold": "",
     "dlc": "Taş Kalpler",
@@ -3805,7 +3805,7 @@
   },
   {
     "id": "1a234567-8cbc-4d6f-8hij-klmnopqrstuv",
-    "mainCategory": "Taş Kalpler Görevler",
+    "mainCategory": "Taş Kalpler",
     "title": "Karanlık Bir Miras",
     "hold": "",
     "dlc": "Taş Kalpler",
@@ -3817,7 +3817,7 @@
   },
   {
     "id": "2w3d5678-9cde-4f6h-ijkl-mnopqrstu1v2",
-    "mainCategory": "Taş Kalpler Görevler",
+    "mainCategory": "Taş Kalpler",
     "title": "Sürpriz Bir Miras",
     "hold": "",
     "dlc": "Taş Kalpler",
@@ -3829,7 +3829,7 @@
   },
   {
     "id": "3c456789-dez0-4ghi-jklm-nopqrstuv12",
-    "mainCategory": "Taş Kalpler Görevler",
+    "mainCategory": "Taş Kalpler",
     "title": "Ofier'in Uzak Kıyılarından",
     "hold": "",
     "dlc": "Taş Kalpler",
@@ -3841,7 +3841,7 @@
   },
   {
     "id": "4d567890-ef01-4ghij-klmn-oqqrstuv123",
-    "mainCategory": "Taş Kalpler Görevler",
+    "mainCategory": "Taş Kalpler",
     "title": "Lanetli Şapel",
     "hold": "",
     "dlc": "Taş Kalpler",
@@ -3853,7 +3853,7 @@
   },
   {
     "id": "5e678901-f12a-4bc3-defv-ghijklmnopqr",
-    "mainCategory": "Taş Kalpler Görevler",
+    "mainCategory": "Taş Kalpler",
     "title": "Drakenborg'un Kurtuluşu",
     "hold": "",
     "dlc": "Taş Kalpler",
@@ -3865,7 +3865,7 @@
   },
   {
     "id": "ef789012-34cd-4e56-789f-012345678901",
-    "mainCategory": "Taş Kalpler Görevler",
+    "mainCategory": "Taş Kalpler",
     "title": "Kraliyet Hava Kuvvetleri",
     "hold": "",
     "dlc": "Taş Kalpler",
@@ -3877,7 +3877,7 @@
   },
   {
     "id": "7g890123-45de-4f67-8901-234567890123",
-    "mainCategory": "Taş Kalpler Görevler",
+    "mainCategory": "Taş Kalpler",
     "title": "Kont Romilly'nin Gizli Hayatı",
     "hold": "",
     "dlc": "Taş Kalpler",
@@ -3889,7 +3889,7 @@
   },
   {
     "id": "8h901234-56ij-4klm-7890-12345678sd12",
-    "mainCategory": "Taş Kalpler Görevler",
+    "mainCategory": "Taş Kalpler",
     "title": "Kılıç, Kıtlık ve Hainlik",
     "hold": "",
     "dlc": "Taş Kalpler",
@@ -3901,7 +3901,7 @@
   },
   {
     "id": "9i012345-67jk-4lmn-opqr-564890123456",
-    "mainCategory": "Taş Kalpler Görevler",
+    "mainCategory": "Taş Kalpler",
     "title": "Tamirci, Avcı, Asker, Casus",
     "hold": "",
     "dlc": "Taş Kalpler",
@@ -3913,7 +3913,7 @@
   },
   {
     "id": "1a233567-89bc-4d6f-8hij-klmnopqrstuv",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Elçiler, Şarap Çocukları",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -3925,7 +3925,7 @@
   },
   {
     "id": "2bw45678-9cde-4f6h-ijkl-mnopqrstu1v2",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Toussaint'in Canavarı",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -3937,7 +3937,7 @@
   },
   {
     "id": "3c456789-def0-4ghi-jklm-nzpqrstuv12",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Kan Koşusu",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -3949,7 +3949,7 @@
   },
   {
     "id": "4d567890-efc1-4ghij-klmn-opqrstuv123",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "La Cage au Fou",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -3961,7 +3961,7 @@
   },
   {
     "id": "5e678901-f12a-4bc3-def4-ghijklmnovqr",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Çocukların Emek Verdiği, Oyuncakların Çöpe Atıldığı Yer",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -3973,7 +3973,7 @@
   },
   {
     "id": "6f789012-34cd-4e56-7eff-012345678901",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Şarap Kutsaldır",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -3985,7 +3985,7 @@
   },
   {
     "id": "7g890123-45de-4f67-8901-2c4567c90123",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Cintralı Adam",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -3997,7 +3997,7 @@
   },
   {
     "id": "8h901234-56ij-4klm-7890-12345sdf9012",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Kaleyi Ele Geçirin",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -4009,7 +4009,7 @@
   },
   {
     "id": "9i012345-67jk-4lmn-4pqr-567890123456",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Uzun Dişlerin Gecesi",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -4021,7 +4021,7 @@
   },
   {
     "id": "0j123456-78kl-9mno-pqrs-tuv123456c89",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Hill ve Dale'in Ötesinde...",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -4033,7 +4033,7 @@
   },
   {
     "id": "1k234567-89lm-0nop-qrst-uv1234567890",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Kan Basit",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -4045,7 +4045,7 @@
   },
   {
     "id": "2l345678-90mn-opqr-stuv-12345678901c",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Görünmeyen Neler Var",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -4057,7 +4057,7 @@
   },
   {
     "id": "3m456789-01no-pqrs-salı-234567890123",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Tesham Mutna",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -4069,7 +4069,7 @@
   },
   {
     "id": "4n567890-12op-qrs-tuv12-345678901234",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Gösteriş ve Garip Durum",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -4081,7 +4081,7 @@
   },
   {
     "id": "5o678901-23pq-rst-uv123-456789012345",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Çuval bezi yeni şerittir",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -4093,7 +4093,7 @@
   },
   {
     "id": "6p789012-34qr-stuv-567890123456",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Her Zaman Bu Kadar Mütevazı Olun...",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -4105,7 +4105,7 @@
   },
   {
     "id": "12234567-89bc-4d6f-8hij-klmnopqrstuv",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Bir Şövalyenin Hikayeleri",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -4117,7 +4117,7 @@
   },
   {
     "id": "2b345678-9cde-4w6h-ijkl-mnopqrstu1v2",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Witcher'ın Yaşlı Bir Adam Olarak Portresi",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -4129,7 +4129,7 @@
   },
   {
     "id": "3c456789-def0-4ghz-jklm-nopqrstuv12",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Mill's Grist'in Ortasında",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -4141,7 +4141,7 @@
   },
   {
     "id": "4d5678c0-ef01-4ghij-klmn-opqrstuv123",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Doldurulacak Büyük Ayaklar",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -4153,7 +4153,7 @@
   },
   {
     "id": "5e6v8901-f12a-4bc3-def4-ghijklmnopqr",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Doldurulacak Büyük Ayaklar: Beşinci Grup",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -4165,7 +4165,7 @@
   },
   {
     "id": "6f789012-3ecd-4e56-789f-012345678901",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Doldurulacak Büyük Ayaklar: Birinci Grup",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -4177,7 +4177,7 @@
   },
   {
     "id": "7g890123-45de-4f67-8901-234567c90123",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Doldurulacak Büyük Ayaklar: Dördüncü Grup",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -4189,7 +4189,7 @@
   },
   {
     "id": "8h901234-56ij-4klm-7890-sd3456789012",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Doldurulacak Büyük Ayaklar: İkinci Grup",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -4201,7 +4201,7 @@
   },
   {
     "id": "9i012333-67jk-4lmn-opqr-567890123456",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Doldurulacak Büyük Ayaklar: Üçüncü Grup",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -4213,7 +4213,7 @@
   },
   {
     "id": "0j12c456-78kl-9eno-pqrs-tuv123456789",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Ördek, Ördek, Kazlanmış!",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -4225,7 +4225,7 @@
   },
   {
     "id": "1k234567-89lm-0nop-qrst-uv12345d7890",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Aşırı Cosplay",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -4237,7 +4237,7 @@
   },
   {
     "id": "2l345678-90mn-opcr-stuv-123456789012",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Baba En Kötüsünü Bilir",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -4249,7 +4249,7 @@
   },
   {
     "id": "3m456789-01eo-pqrs-tuv1-234567890123",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Öfkenin Yumrukları: Toussaint",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -4261,7 +4261,7 @@
   },
   {
     "id": "1a234567-89bc-4d6f-8hij-klmnop3rstuv",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "İyilik, Rahman, Büyük Granit Topları!",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -4273,7 +4273,7 @@
   },
   {
     "id": "2b345678-9cde-4f6h-ijwl-mnopqrstu1v2",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Gwent: Asla Korkma, Skellige Burada",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -4285,7 +4285,7 @@
   },
   {
     "id": "3c4567z9-def0-4ghi-jklm-nopqrstuv12",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Gwent: Her Şeye - Dön, Dön, Turnuva!",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -4297,7 +4297,7 @@
   },
   {
     "id": "4d567890-ef01-4ghwj-klmn-opqrstuv123",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Kiralık Şövalye",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -4309,7 +4309,7 @@
   },
   {
     "id": "ve678901-f12a-4bc3-def4-ghijklmnopqr",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Usta usta usta usta!",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -4321,7 +4321,7 @@
   },
   {
     "id": "6f78r012-34cd-4e56-789f-012345678901",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Beauclair'in Vahşi Krallığının Karşılığı",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -4333,7 +4333,7 @@
   },
   {
     "id": "7g89ee23-45de-4f67-8901-234567890123",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Ev gibisi yok",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -4345,7 +4345,7 @@
   },
   {
     "id": "8h901234-56ij-4klm-7890-1234567890gf",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Sheers ve Witcher'a dair şarkı söylüyorum",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -4357,7 +4357,7 @@
   },
   {
     "id": "9i032345-67jk-4lmn-opqr-567890123456",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Kağıt kovalamaca",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -4369,7 +4369,7 @@
   },
   {
     "id": "0j123456-78kl-9mno-pqrs-tuv123456789",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Azgın Kurt",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -4381,7 +4381,7 @@
   },
   {
     "id": "1k234567-89lm-0nod-qrst-uv1234567890",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Açlık Oyunu",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -4393,7 +4393,7 @@
   },
   {
     "id": "2lc45678-90mn-opqr-stuv-123456789012",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Hapishane Kuşu Olmanın Avantajları",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -4405,7 +4405,7 @@
   },
   {
     "id": "3m456789-01no-pqrs-tuv1-234567890123",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Vurulmuş Şövalyenin Övüşü",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -4417,7 +4417,7 @@
   },
   {
     "id": "4n567890-12op-qrst-uv12-345678901234",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Lahitlerde Peygamberlerin Sözleri Yazılmaktadır",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -4429,7 +4429,7 @@
   },
   {
     "id": "5o678901-23pq-rstu-v123-456789012345",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Sadece bir tane olabilir",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -4441,7 +4441,7 @@
   },
   {
     "id": "6p789012-34qr-5678-90tu-v12345678901",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Ölüme Kadar Ayrılır mısın",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -4453,7 +4453,7 @@
   },
   {
     "id": "7q890123-45tu-6789-01tu-v12345678901",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Dönün ve Gariple Yüzleşin",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -4465,7 +4465,7 @@
   },
   {
     "id": "1a234567-89bc-4d6f-8h3j-klmnopqrstuv",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Vintner'ın Sözleşmesi: Chuchote Mağarası",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -4477,7 +4477,7 @@
   },
   {
     "id": "2b345678-9cde-4f6h-ijkl-mnowqrstu1v2",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Vintner'ın Sözleşmesi: Ulaşılması Zor Yerlerin Temizlenmesi",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -4489,7 +4489,7 @@
   },
   {
     "id": "3cz56789-def0-4ghi-jklm-nopqrstuv12",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Vintner'ın Sözleşmesi: Duchaton Crest",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -4501,7 +4501,7 @@
   },
   {
     "id": "4d56w890-ef01-4ghij-klmn-opqrstuv123",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Vintner'ın Sözleşmesi: Dun Tynne Hillside",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -4513,7 +4513,7 @@
   },
   {
     "id": "5e678901-f1ba-4bc3-def4-ghijklmnopqr",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Vintner'ın Sözleşmesi: Rivecalme Deposu",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -4525,7 +4525,7 @@
   },
   {
     "id": "6f789012-34cd-4e56-789f-012345r78901",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Şarap Savaşları: Belgaard",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -4537,7 +4537,7 @@
   },
   {
     "id": "7g890123-45de-4f67-8901-2345rr890123",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Şarap Savaşları: Konsorsiyum",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -4549,7 +4549,7 @@
   },
   {
     "id": "8h901234-56ij-4klm-7890-12345678fg12",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Şarap Savaşları: Coronata",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -4561,7 +4561,7 @@
   },
   {
     "id": "9i012345-67jk-4lmn-opqr-567890123456",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Şarap Savaşları: Machina'daki Deus",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -4573,7 +4573,7 @@
   },
   {
     "id": "0j12c456-78kl-9mno-pqrs-tuv123456789",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Şarap Savaşları: Vermentino",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -4585,7 +4585,7 @@
   },
   {
     "id": "1a234567-89bc-4d6f-8hij-kl3nopqrstuv",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Büyük Oyun Avcısı",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -4597,7 +4597,7 @@
   },
   {
     "id": "2b345678-9cde-4f6h-ijkl-mwopqrstu1v2",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Sözleşme: Sığır Blues",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -4609,7 +4609,7 @@
   },
   {
     "id": "3c456789-def0-4ghi-jklz-nopqrstuv12",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Sözleşme: Tufo Canavarı",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -4621,7 +4621,7 @@
   },
   {
     "id": "4d567890-ef01-4ghij-klmn-opqrstwv123",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "At Hayaletleri",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -4633,7 +4633,7 @@
   },
   {
     "id": "5e678901-f12a-4bc3-defb-ghijklmnopqr",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Ayaklar Buz Kadar Soğuk",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -4645,7 +4645,7 @@
   },
   {
     "id": "1a434567-89bc-4d6f-8hij-klmnopqrstuv",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Uygulamalı Kaçış",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -4657,7 +4657,7 @@
   },
   {
     "id": "2b345678-9cde-4f6h-ijkl-wnopqrstu1v2",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Sekiz Günde Dünya Turu",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -4669,7 +4669,7 @@
   },
   {
     "id": "3c456789-def0-4ghi-jklm-nopqzstuv12",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Ama Bunun Dışında Oyundan Nasıl Keyif Aldınız?",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -4681,7 +4681,7 @@
   },
   {
     "id": "4d567890-ef01-4ghij-kwmn-opqrstuv123",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Para Kokmaz",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -4693,7 +4693,7 @@
   },
   {
     "id": "5e678901-f12a-4bc3-def4-ghijblmnopqr",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Bir Yabancıdan Şeker Almayın",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -4705,7 +4705,7 @@
   },
   {
     "id": "6f789012-34cd-4e56-789f-01234567890r",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Filibert Her Zaman Borçlarını Ödüyor",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -4717,7 +4717,7 @@
   },
   {
     "id": "7g890123-45de-4df67-8901-234567890123",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Çöpçü Avı: Büyük Usta Feline Donanımı",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -4729,7 +4729,7 @@
   },
   {
     "id": "8h901234-56ij-4klm-7890-1234df789012",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Çöpçü Avı: Büyük Usta Griffin Donanımı",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -4741,7 +4741,7 @@
   },
   {
     "id": "9i012345-67jk-4lmn-o44r-567890123456",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Çöpçü Avı: Büyük Usta Mantikor Donanımı",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -4753,7 +4753,7 @@
   },
   {
     "id": "0j123456-78kl-9mno-pcrs-tuv123456789",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Çöpçü Avı: Büyük Usta Ursine Donanımı",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -4765,7 +4765,7 @@
   },
   {
     "id": "1k234567-89kl-2mno-pqrs-tuv123456789",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Çöpçü Avı: Büyük Usta Kurt Donanımı",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -4777,7 +4777,7 @@
   },
   {
     "id": "14234567-89bc-4d6f-8hij-klmnopqrstuv",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Kaşıkçı Kazançlar!",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -4789,7 +4789,7 @@
   },
   {
     "id": "2b345678-9cde-4f6h-ijkl-mnopqrstuwv2",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Kara dul",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -4801,7 +4801,7 @@
   },
   {
     "id": "3c456789-def0-4ghi-jklm-nopqrstuv1c",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Carnarvon'un Laneti",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -4813,7 +4813,7 @@
   },
   {
     "id": "4d567890-efw1-4ghij-klmn-opqrstuv123",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Tutarsız Bahçıvan",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -4825,7 +4825,7 @@
   },
   {
     "id": "5e678901-f12b-4bc3-def4-ghijklmnopqr",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Selina Çetesinin Son İstismarları",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -4837,7 +4837,7 @@
   },
   {
     "id": "6fr89012-34cd-4e56-789f-012345678901",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Genç François'nin Acısı",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -4849,7 +4849,7 @@
   },
   {
     "id": "7g890123-4dfe-4f67-8901-234567890123",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Toussaint Hapishanesi Deneyi",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -4861,7 +4861,7 @@
   },
   {
     "id": "8h901234-56ij-4klm-7890-qw3456789012",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Goe ve Doh'u bekliyorum",
     "hold": "",
     "dlc": "Kan ve Şarap",
@@ -4873,7 +4873,7 @@
   },
   {
     "id": "9i012345-67jk-4lmn-opqr-567890123446",
-    "mainCategory": "Kan ve Şarap Görevleri",
+    "mainCategory": "Kan ve Şarap",
     "title": "Bu Yine Neyle İlgiliydi?",
     "hold": "",
     "dlc": "Kan ve Şarap",

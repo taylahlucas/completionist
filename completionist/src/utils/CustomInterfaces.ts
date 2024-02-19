@@ -163,6 +163,7 @@ export interface GeneralData {
 export interface UserData {
   skyrim: GeneralData;
   fallout4: GeneralData;
+	witcher3: GeneralData;
 }
 
 export interface User extends LoginFormData {

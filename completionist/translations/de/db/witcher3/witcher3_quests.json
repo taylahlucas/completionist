@@ -2725,7 +2725,7 @@
   },
   {
     "id": "1a234567-89bc-4d6f-8qij-klmnopqrstuv",
-    "mainCategory": "Vertragsquests",
+    "mainCategory": "Verträge",
     "title": "Vertrag: Ein schwer fassbarer Dieb",
     "hold": "Novigrad",
     "dlc": "Keiner",
@@ -2737,7 +2737,7 @@
   },
   {
     "id": "2b34f678-9cde-4f6h-ijkl-mnopqrstu1v2",
-    "mainCategory": "Vertragsquests",
+    "mainCategory": "Verträge",
     "title": "Vertrag: Tödliche Freuden",
     "hold": "Novigrad",
     "dlc": "Keiner",
@@ -2749,7 +2749,7 @@
   },
   {
     "id": "3c456789-def0-4ghi-jklm-nowqrstuv12",
-    "mainCategory": "Vertragsquests",
+    "mainCategory": "Verträge",
     "title": "Vertrag: Türen werden zugeschlagen",
     "hold": "Novigrad",
     "dlc": "Keiner",
@@ -2761,7 +2761,7 @@
   },
   {
     "id": "4d567890-ef01-4ghij-k4mn-opqrstuv123",
-    "mainCategory": "Vertragsquests",
+    "mainCategory": "Verträge",
     "title": "Vertrag: Herr des Waldes",
     "hold": "Novigrad",
     "dlc": "Keiner",
@@ -2773,7 +2773,7 @@
   },
   {
     "id": "5e678901-f12a-4bc3-ddd4-ghijklmnopqr",
-    "mainCategory": "Vertragsquests",
+    "mainCategory": "Verträge",
     "title": "Vertrag: Das Apiarian Phantom",
     "hold": "Novigrad",
     "dlc": "Keiner",
@@ -2785,7 +2785,7 @@
   },
   {
     "id": "6f789012-34cd-4e56-789f-012345678w01",
-    "mainCategory": "Vertragsquests",
+    "mainCategory": "Verträge",
     "title": "Vertrag: Die Kreatur aus dem Oxenfurter Wald",
     "hold": "Novigrad",
     "dlc": "Keiner",
@@ -2797,7 +2797,7 @@
   },
   {
     "id": "7g890123-45de-4f67-8901-234522890123",
-    "mainCategory": "Vertragsquests",
+    "mainCategory": "Verträge",
     "title": "Vertrag: Der Oxenfurter Trunkenbold",
     "hold": "Novigrad",
     "dlc": "Keiner",
@@ -2809,7 +2809,7 @@
   },
   {
     "id": "8h901234-56ij-4klm-7890-1yy456789012",
-    "mainCategory": "Vertragsquests",
+    "mainCategory": "Verträge",
     "title": "Vertrag: Die Weiße Dame",
     "hold": "Novigrad",
     "dlc": "Keiner",
@@ -3613,7 +3613,7 @@
   },
   {
     "id": "1a234567-89bc-4d6f-8hij-klmnopqrstux",
-    "mainCategory": "Hearts Of Stone-Quests",
+    "mainCategory": "Herzen aus Stein",
     "title": "Die sanften ersten Berührungen des Bösen",
     "hold": "",
     "dlc": "Herzen aus Stein",
@@ -3625,7 +3625,7 @@
   },
   {
     "id": "2b345678-9cde-4f6h-ijdl-mnopqrstu1v2",
-    "mainCategory": "Hearts Of Stone-Quests",
+    "mainCategory": "Herzen aus Stein",
     "title": "Party des toten Mannes",
     "hold": "",
     "dlc": "Herzen aus Stein",
@@ -3637,7 +3637,7 @@
   },
   {
     "id": "3c456789-def0-4gei-jklm-nopqrstuv12",
-    "mainCategory": "Hearts Of Stone-Quests",
+    "mainCategory": "Herzen aus Stein",
     "title": "Sesam öffne dich!",
     "hold": "",
     "dlc": "Herzen aus Stein",
@@ -3649,7 +3649,7 @@
   },
   {
     "id": "4d567890-ef01-4gcij-klmn-opqrstuv123",
-    "mainCategory": "Hearts Of Stone-Quests",
+    "mainCategory": "Herzen aus Stein",
     "title": "Öffne Sesam: Witcher-Gewürze",
     "hold": "",
     "dlc": "Herzen aus Stein",
@@ -3661,7 +3661,7 @@
   },
   {
     "id": "5e6789c1-f12a-4bc3-def4-ghijklmnopqr",
-    "mainCategory": "Hearts Of Stone-Quests",
+    "mainCategory": "Herzen aus Stein",
     "title": "Sesam öffne dich: Einbrechen und Eintreten",
     "hold": "",
     "dlc": "Herzen aus Stein",
@@ -3673,7 +3673,7 @@
   },
   {
     "id": "6f789e12-34cd-4e56-789f-012345678901",
-    "mainCategory": "Hearts Of Stone-Quests",
+    "mainCategory": "Herzen aus Stein",
     "title": "Sesam öffne dich: Der Safeknacker",
     "hold": "",
     "dlc": "Herzen aus Stein",
@@ -3685,7 +3685,7 @@
   },
   {
     "id": "7g890c23-45de-4f67-8901-234567890123",
-    "mainCategory": "Hearts Of Stone-Quests",
+    "mainCategory": "Herzen aus Stein",
     "title": "Szenen aus einer Ehe",
     "hold": "",
     "dlc": "Herzen aus Stein",
@@ -3697,7 +3697,7 @@
   },
   {
     "id": "8h901234-56ij-4klm-7890-12c456789012",
-    "mainCategory": "Hearts Of Stone-Quests",
+    "mainCategory": "Herzen aus Stein",
     "title": "Was auch immer ein Mann sät...",
     "hold": "",
     "dlc": "Herzen aus Stein",
@@ -3709,7 +3709,7 @@
   },
   {
     "id": "1a234567-89bc-4d6f-xhij-klmnopqrstuv",
-    "mainCategory": "Hearts Of Stone-Quests",
+    "mainCategory": "Herzen aus Stein",
     "title": "Eine klare Mitternacht",
     "hold": "",
     "dlc": "Herzen aus Stein",
@@ -3721,7 +3721,7 @@
   },
   {
     "id": "2b34d678-9cde-4f6h-ijkl-mnopqrstu1v2",
-    "mainCategory": "Hearts Of Stone-Quests",
+    "mainCategory": "Herzen aus Stein",
     "title": "Begeisterter Sammler",
     "hold": "",
     "dlc": "Herzen aus Stein",
@@ -3733,7 +3733,7 @@
   },
   {
     "id": "3c456789-def0-eghi-jklm-nopqrstuv12",
-    "mainCategory": "Hearts Of Stone-Quests",
+    "mainCategory": "Herzen aus Stein",
     "title": "Bezaubernd: Qualität hat ihren Preis",
     "hold": "",
     "dlc": "Herzen aus Stein",
@@ -3745,7 +3745,7 @@
   },
   {
     "id": "4dc67890-ef01-4ghij-klmn-opqrstuv123",
-    "mainCategory": "Hearts Of Stone-Quests",
+    "mainCategory": "Herzen aus Stein",
     "title": "Bezaubernd: Anlaufkosten",
     "hold": "",
     "dlc": "Herzen aus Stein",
@@ -3757,7 +3757,7 @@
   },
   {
     "id": "5e678901-f12a-cbc3-def4-ghijklmnopqr",
-    "mainCategory": "Hearts Of Stone-Quests",
+    "mainCategory": "Herzen aus Stein",
     "title": "Rassen: Schnell wie die Westwinde",
     "hold": "",
     "dlc": "Herzen aus Stein",
@@ -3769,7 +3769,7 @@
   },
   {
     "id": "6f789012-34cd-4e56-789f-0123456789e1",
-    "mainCategory": "Hearts Of Stone-Quests",
+    "mainCategory": "Herzen aus Stein",
     "title": "Rose auf einem roten Feld",
     "hold": "",
     "dlc": "Herzen aus Stein",
@@ -3781,7 +3781,7 @@
   },
   {
     "id": "7g890123-45de-4f67-8c01-234567890123",
-    "mainCategory": "Hearts Of Stone-Quests",
+    "mainCategory": "Herzen aus Stein",
     "title": "Der Finanzbeamte kommt",
     "hold": "",
     "dlc": "Herzen aus Stein",
@@ -3793,7 +3793,7 @@
   },
   {
     "id": "8h901234-56ij-4kcm-7890-123456789012",
-    "mainCategory": "Hearts Of Stone-Quests",
+    "mainCategory": "Herzen aus Stein",
     "title": "Ohne jede Spur",
     "hold": "",
     "dlc": "Herzen aus Stein",
@@ -3805,7 +3805,7 @@
   },
   {
     "id": "1a234567-8cbc-4d6f-8hij-klmnopqrstuv",
-    "mainCategory": "Hearts Of Stone-Quests",
+    "mainCategory": "Herzen aus Stein",
     "title": "Ein dunkles Erbe",
     "hold": "",
     "dlc": "Herzen aus Stein",
@@ -3817,7 +3817,7 @@
   },
   {
     "id": "2w3d5678-9cde-4f6h-ijkl-mnopqrstu1v2",
-    "mainCategory": "Hearts Of Stone-Quests",
+    "mainCategory": "Herzen aus Stein",
     "title": "Ein überraschendes Erbe",
     "hold": "",
     "dlc": "Herzen aus Stein",
@@ -3829,7 +3829,7 @@
   },
   {
     "id": "3c456789-dez0-4ghi-jklm-nopqrstuv12",
-    "mainCategory": "Hearts Of Stone-Quests",
+    "mainCategory": "Herzen aus Stein",
     "title": "Aus Ofiers Distant Shores",
     "hold": "",
     "dlc": "Herzen aus Stein",
@@ -3841,7 +3841,7 @@
   },
   {
     "id": "4d567890-ef01-4ghij-klmn-oqqrstuv123",
-    "mainCategory": "Hearts Of Stone-Quests",
+    "mainCategory": "Herzen aus Stein",
     "title": "Die verfluchte Kapelle",
     "hold": "",
     "dlc": "Herzen aus Stein",
@@ -3853,7 +3853,7 @@
   },
   {
     "id": "5e678901-f12a-4bc3-defv-ghijklmnopqr",
-    "mainCategory": "Hearts Of Stone-Quests",
+    "mainCategory": "Herzen aus Stein",
     "title": "Die Drakenborg-Erlösung",
     "hold": "",
     "dlc": "Herzen aus Stein",
@@ -3865,7 +3865,7 @@
   },
   {
     "id": "ef789012-34cd-4e56-789f-012345678901",
-    "mainCategory": "Hearts Of Stone-Quests",
+    "mainCategory": "Herzen aus Stein",
     "title": "Die Royal Air Force",
     "hold": "",
     "dlc": "Herzen aus Stein",
@@ -3877,7 +3877,7 @@
   },
   {
     "id": "7g890123-45de-4f67-8901-234567890123",
-    "mainCategory": "Hearts Of Stone-Quests",
+    "mainCategory": "Herzen aus Stein",
     "title": "Das geheime Leben des Grafen Romilly",
     "hold": "",
     "dlc": "Herzen aus Stein",
@@ -3889,7 +3889,7 @@
   },
   {
     "id": "8h901234-56ij-4klm-7890-12345678sd12",
-    "mainCategory": "Hearts Of Stone-Quests",
+    "mainCategory": "Herzen aus Stein",
     "title": "Das Schwert, die Hungersnot und die Perfidie",
     "hold": "",
     "dlc": "Herzen aus Stein",
@@ -3901,7 +3901,7 @@
   },
   {
     "id": "9i012345-67jk-4lmn-opqr-564890123456",
-    "mainCategory": "Hearts Of Stone-Quests",
+    "mainCategory": "Herzen aus Stein",
     "title": "Bastler, Jäger, Soldat, Spion",
     "hold": "",
     "dlc": "Herzen aus Stein",
@@ -3913,7 +3913,7 @@
   },
   {
     "id": "1a233567-89bc-4d6f-8hij-klmnopqrstuv",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Gesandte, Wineboys",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -3925,7 +3925,7 @@
   },
   {
     "id": "2bw45678-9cde-4f6h-ijkl-mnopqrstu1v2",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Das Biest von Toussaint",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -3937,7 +3937,7 @@
   },
   {
     "id": "3c456789-def0-4ghi-jklm-nzpqrstuv12",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Blutlauf",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -3949,7 +3949,7 @@
   },
   {
     "id": "4d567890-efc1-4ghij-klmn-opqrstuv123",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "La Cage au Fou",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -3961,7 +3961,7 @@
   },
   {
     "id": "5e678901-f12a-4bc3-def4-ghijklmnovqr",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Wo Kinder schuften, verschwendet Spielzeug",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -3973,7 +3973,7 @@
   },
   {
     "id": "6f789012-34cd-4e56-7eff-012345678901",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Wein ist heilig",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -3985,7 +3985,7 @@
   },
   {
     "id": "7g890123-45de-4f67-8901-2c4567c90123",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Der Mann aus Cintra",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -3997,7 +3997,7 @@
   },
   {
     "id": "8h901234-56ij-4klm-7890-12345sdf9012",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Erobere das Schloss",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -4009,7 +4009,7 @@
   },
   {
     "id": "9i012345-67jk-4lmn-4pqr-567890123456",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Die Nacht der langen Fangzähne",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -4021,7 +4021,7 @@
   },
   {
     "id": "0j123456-78kl-9mno-pqrs-tuv123456c89",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Jenseits von Hill und Dale...",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -4033,7 +4033,7 @@
   },
   {
     "id": "1k234567-89lm-0nop-qrst-uv1234567890",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Blut einfach",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -4045,7 +4045,7 @@
   },
   {
     "id": "2l345678-90mn-opqr-stuv-12345678901c",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Was unsichtbar bleibt",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -4057,7 +4057,7 @@
   },
   {
     "id": "3m456789-01no-pqrs-tuee-234567890123",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Tesham Mutna",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -4069,7 +4069,7 @@
   },
   {
     "id": "4n567890-12op-qrs-tuv12-345678901234",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Pomp und seltsame Umstände",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -4081,7 +4081,7 @@
   },
   {
     "id": "5o678901-23pq-rst-uv123-456789012345",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Sackleinen ist der neue Streifen",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -4093,7 +4093,7 @@
   },
   {
     "id": "6p789012-34qr-stuv-567890123456",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Sei es noch so bescheiden ...",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -4105,7 +4105,7 @@
   },
   {
     "id": "12234567-89bc-4d6f-8hij-klmnopqrstuv",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Die Geschichten eines Ritters",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -4117,7 +4117,7 @@
   },
   {
     "id": "2b345678-9cde-4w6h-ijkl-mnopqrstu1v2",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Ein Porträt des Hexers als alter Mann",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -4129,7 +4129,7 @@
   },
   {
     "id": "3c456789-def0-4ghz-jklm-nopqrstuv12",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Inmitten des Mühlenmehls",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -4141,7 +4141,7 @@
   },
   {
     "id": "4d5678c0-ef01-4ghij-klmn-opqrstuv123",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Große Füße zum Füllen",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -4153,7 +4153,7 @@
   },
   {
     "id": "5e6v8901-f12a-4bc3-def4-ghijklmnopqr",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Große Füße zum Füllen: Die fünfte Gruppe",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -4165,7 +4165,7 @@
   },
   {
     "id": "6f789012-3ecd-4e56-789f-012345678901",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Große Füße zum Füllen: Die erste Gruppe",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -4177,7 +4177,7 @@
   },
   {
     "id": "7g890123-45de-4f67-8901-234567c90123",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Große Füße zum Füllen: Die vierte Gruppe",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -4189,7 +4189,7 @@
   },
   {
     "id": "8h901234-56ij-4klm-7890-sd3456789012",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Große Füße zum Ausfüllen: Die zweite Gruppe",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -4201,7 +4201,7 @@
   },
   {
     "id": "9i012333-67jk-4lmn-opqr-567890123456",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Große Füße zum Füllen: Die dritte Gruppe",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -4213,7 +4213,7 @@
   },
   {
     "id": "0j12c456-78kl-9eno-pqrs-tuv123456789",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Ente, Ente, Gänsehaut!",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -4225,7 +4225,7 @@
   },
   {
     "id": "1k234567-89lm-0nop-qrst-uv12345d7890",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Extremes Cosplay",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -4237,7 +4237,7 @@
   },
   {
     "id": "2l345678-90mn-opcr-stuv-123456789012",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Vater weiß es am schlimmsten",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -4249,7 +4249,7 @@
   },
   {
     "id": "3m456789-01eo-pqrs-tuv1-234567890123",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Fäuste der Wut: Toussaint",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -4261,7 +4261,7 @@
   },
   {
     "id": "1a234567-89bc-4d6f-8hij-klmnop3rstuv",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Meine Güte, tolle Granitkugeln!",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -4273,7 +4273,7 @@
   },
   {
     "id": "2b345678-9cde-4f6h-ijwl-mnopqrstu1v2",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Gwent: Keine Angst, Skellige ist hier",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -4285,7 +4285,7 @@
   },
   {
     "id": "3c4567z9-def0-4ghi-jklm-nopqrstuv12",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Gwent: To Everything – Turn, Turn, Tournament!",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -4297,7 +4297,7 @@
   },
   {
     "id": "4d567890-ef01-4ghwj-klmn-opqrstuv123",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Ritter zu mieten",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -4309,7 +4309,7 @@
   },
   {
     "id": "ve678901-f12a-4bc3-def4-ghijklmnopqr",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Meister Meister Meister Meister!",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -4321,7 +4321,7 @@
   },
   {
     "id": "6f78r012-34cd-4e56-789f-012345678901",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Gegenseitigkeit von Beauclairs wildem Königreich",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -4333,7 +4333,7 @@
   },
   {
     "id": "7g89ee23-45de-4f67-8901-234567890123",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Kein Platz ist wie Zuhause",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -4345,7 +4345,7 @@
   },
   {
     "id": "8h901234-56ij-4klm-7890-1234567890gf",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Von Sheers und einem Hexer singe ich",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -4357,7 +4357,7 @@
   },
   {
     "id": "9i032345-67jk-4lmn-opqr-567890123456",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Schnitzeljagd",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -4369,7 +4369,7 @@
   },
   {
     "id": "0j123456-78kl-9mno-pqrs-tuv123456789",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Wütender Wolf",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -4381,7 +4381,7 @@
   },
   {
     "id": "1k234567-89lm-0nod-qrst-uv1234567890",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Das Hungerspiel",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -4393,7 +4393,7 @@
   },
   {
     "id": "2lc45678-90mn-opqr-stuv-123456789012",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Die Vorteile, ein Gefängniswärter zu sein",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -4405,7 +4405,7 @@
   },
   {
     "id": "3m456789-01no-pqrs-tuv1-234567890123",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Das Trällern eines geschlagenen Ritters",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -4417,7 +4417,7 @@
   },
   {
     "id": "4n567890-12op-qrst-uv12-345678901234",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Die Worte der Propheten sind auf Sarkophage geschrieben",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -4429,7 +4429,7 @@
   },
   {
     "id": "5o678901-23pq-rstu-v123-456789012345",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Es kann nur einen geben",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -4441,7 +4441,7 @@
   },
   {
     "id": "6p789012-34qr-5678-90tu-v12345678901",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Bis der Tod dich scheidet",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -4453,7 +4453,7 @@
   },
   {
     "id": "7q890123-45tu-6789-01tu-v12345678901",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Drehen Sie sich um und stellen Sie sich dem Fremden",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -4465,7 +4465,7 @@
   },
   {
     "id": "1a234567-89bc-4d6f-8h3j-klmnopqrstuv",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Winzervertrag: Chuchote-Höhle",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -4477,7 +4477,7 @@
   },
   {
     "id": "2b345678-9cde-4f6h-ijkl-mnowqrstu1v2",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Winzervertrag: Reinigung schwer zugänglicher Stellen",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -4489,7 +4489,7 @@
   },
   {
     "id": "3cz56789-def0-4ghi-jklm-nopqrstuv12",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Winzervertrag: Duchaton Crest",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -4501,7 +4501,7 @@
   },
   {
     "id": "4d56w890-ef01-4ghij-klmn-opqrstuv123",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Winzervertrag: Dun Tynne Hillside",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -4513,7 +4513,7 @@
   },
   {
     "id": "5e678901-f1ba-4bc3-def4-ghijklmnopqr",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Winzervertrag: Rivecalme-Lagerhaus",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -4525,7 +4525,7 @@
   },
   {
     "id": "6f789012-34cd-4e56-789f-012345r78901",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Weinkriege: Belgaard",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -4537,7 +4537,7 @@
   },
   {
     "id": "7g890123-45de-4f67-8901-2345rr890123",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Wine Wars: Consorting",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -4549,7 +4549,7 @@
   },
   {
     "id": "8h901234-56ij-4klm-7890-12345678fg12",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Weinkriege: Coronata",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -4561,7 +4561,7 @@
   },
   {
     "id": "9i012345-67jk-4lmn-opqr-567890123456",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Weinkriege: Der Deus in der Machina",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -4573,7 +4573,7 @@
   },
   {
     "id": "0j12c456-78kl-9mno-pqrs-tuv123456789",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Weinkriege: Vermentino",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -4585,7 +4585,7 @@
   },
   {
     "id": "1a234567-89bc-4d6f-8hij-kl3nopqrstuv",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Großwildjäger",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -4597,7 +4597,7 @@
   },
   {
     "id": "2b345678-9cde-4f6h-ijkl-mwopqrstu1v2",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Vertrag: Bovine Blues",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -4609,7 +4609,7 @@
   },
   {
     "id": "3c456789-def0-4ghi-jklz-nopqrstuv12",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Vertrag: Das Tufo-Monster",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -4621,7 +4621,7 @@
   },
   {
     "id": "4d567890-ef01-4ghij-klmn-opqrstwv123",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Pferdephantome",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -4633,7 +4633,7 @@
   },
   {
     "id": "5e678901-f12a-4bc3-defb-ghijklmnopqr",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Füße so kalt wie Eis",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -4645,7 +4645,7 @@
   },
   {
     "id": "1a434567-89bc-4d6f-8hij-klmnopqrstuv",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Angewandte Eskapologie",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -4657,7 +4657,7 @@
   },
   {
     "id": "2b345678-9cde-4f6h-ijkl-wnopqrstu1v2",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Um die Welt in... Acht Tagen",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -4669,7 +4669,7 @@
   },
   {
     "id": "3c456789-def0-4ghi-jklm-nopqzstuv12",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Aber wie hat Ihnen das Stück ansonsten gefallen?",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -4681,7 +4681,7 @@
   },
   {
     "id": "4d567890-ef01-4ghij-kwmn-opqrstuv123",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Münzen stinken nicht",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -4693,7 +4693,7 @@
   },
   {
     "id": "5e678901-f12a-4bc3-def4-ghijblmnopqr",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Nimm keine Süßigkeiten von einem Fremden",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -4705,7 +4705,7 @@
   },
   {
     "id": "6f789012-34cd-4e56-789f-01234567890r",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Filibert zahlt immer seine Schulden",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -4717,7 +4717,7 @@
   },
   {
     "id": "7g890123-45de-4df67-8901-234567890123",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Schnitzeljagd: Großmeister-Katzenausrüstung",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -4729,7 +4729,7 @@
   },
   {
     "id": "8h901234-56ij-4klm-7890-1234df789012",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Schnitzeljagd: Großmeister-Griffin-Ausrüstung",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -4741,7 +4741,7 @@
   },
   {
     "id": "9i012345-67jk-4lmn-o44r-567890123456",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Schnitzeljagd: Großmeister-Manticore-Ausrüstung",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -4753,7 +4753,7 @@
   },
   {
     "id": "0j123456-78kl-9mno-pcrs-tuv123456789",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Schnitzeljagd: Großmeister-Ursine-Ausrüstung",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -4765,7 +4765,7 @@
   },
   {
     "id": "1k234567-89kl-2mno-pqrs-tuv123456789",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Schnitzeljagd: Großmeister-Wolfsausrüstung",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -4777,7 +4777,7 @@
   },
   {
     "id": "14234567-89bc-4d6f-8hij-klmnopqrstuv",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Löffelweise Gewinne!",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -4789,7 +4789,7 @@
   },
   {
     "id": "2b345678-9cde-4f6h-ijkl-mnopqrstuwv2",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Die schwarze Witwe",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -4801,7 +4801,7 @@
   },
   {
     "id": "3c456789-def0-4ghi-jklm-nopqrstuv1c",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Der Fluch von Carnarvon",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -4813,7 +4813,7 @@
   },
   {
     "id": "4d567890-efw1-4ghij-klmn-opqrstuv123",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Der unbeständige Gärtner",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -4825,7 +4825,7 @@
   },
   {
     "id": "5e678901-f12b-4bc3-def4-ghijklmnopqr",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Die letzten Heldentaten von Selinas Bande",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -4837,7 +4837,7 @@
   },
   {
     "id": "6fr89012-34cd-4e56-789f-012345678901",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Das Leiden des jungen Francois",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -4849,7 +4849,7 @@
   },
   {
     "id": "7g890123-4dfe-4f67-8901-234567890123",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Das Toussaint-Gefängnis-Experiment",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -4861,7 +4861,7 @@
   },
   {
     "id": "8h901234-56ij-4klm-7890-qw3456789012",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Warten auf Goe und Doh",
     "hold": "",
     "dlc": "Blut und Wein",
@@ -4873,7 +4873,7 @@
   },
   {
     "id": "9i012345-67jk-4lmn-opqr-567890123446",
-    "mainCategory": "Blut- und Weinquests",
+    "mainCategory": "Blut und Wein",
     "title": "Worum ging es nochmal?",
     "hold": "",
     "dlc": "Blut und Wein",

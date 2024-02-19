@@ -45,6 +45,15 @@ const useDLCOptions = (): DLCOptionsReturnType => {
 
   const getDLCOptions = (): SettingsListItem[] => {
     switch (selectedGameSettings) {
+			case GameKeyEnum.FALLOUT_4:
+        return user.data.fallout4.settingsConfig.dlc.map((item) => {
+          return {
+            id: item.id,
+            title: t(`categories:fallout4.dlc.${item.id}`),
+            isActive: item.isActive
+          }
+        });
+				
       case GameKeyEnum.SKYRIM:
         return user.data.skyrim.settingsConfig.dlc.map((item) => {
           return {
@@ -53,14 +62,17 @@ const useDLCOptions = (): DLCOptionsReturnType => {
             isActive: item.isActive
           }
         });
-      case GameKeyEnum.FALLOUT_4:
-        return user.data.fallout4.settingsConfig.dlc.map((item) => {
-          return {
-            id: item.id,
-            title: t(`categories:fallout4.dlc.${item.id}`),
-            isActive: item.isActive
-          }
-        });
+
+				case GameKeyEnum.WITCHER_3:
+					return user.data.witcher3.settingsConfig.dlc.map((item) => {
+						return {
+							id: item.id,
+							// TODO: Title
+							title:item.title,
+							// title: t(`categories:fallout4.dlc.${item.id}`),
+							isActive: item.isActive
+						}
+					});
     }
     return []
   };

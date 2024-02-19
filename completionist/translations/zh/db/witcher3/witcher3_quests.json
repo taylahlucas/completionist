@@ -2725,7 +2725,7 @@
   },
   {
     "id": "1a234567-89bc-4d6f-8qij-klmnopqrstuv",
-    "mainCategory": "契约任务",
+    "mainCategory": "合约",
     "title": "契约：难以捉摸的小偷",
     "hold": "诺维格勒",
     "dlc": "没有任何",
@@ -2737,7 +2737,7 @@
   },
   {
     "id": "2b34f678-9cde-4f6h-ijkl-mnopqrstu1v2",
-    "mainCategory": "契约任务",
+    "mainCategory": "合约",
     "title": "契约：致命愉悦",
     "hold": "诺维格勒",
     "dlc": "没有任何",
@@ -2749,7 +2749,7 @@
   },
   {
     "id": "3c456789-def0-4ghi-jklm-nowqrstuv12",
-    "mainCategory": "契约任务",
+    "mainCategory": "合约",
     "title": "合同：门砰地关上",
     "hold": "诺维格勒",
     "dlc": "没有任何",
@@ -2761,7 +2761,7 @@
   },
   {
     "id": "4d567890-ef01-4ghij-k4mn-opqrstuv123",
-    "mainCategory": "契约任务",
+    "mainCategory": "合约",
     "title": "契约：森林之王",
     "hold": "诺维格勒",
     "dlc": "没有任何",
@@ -2773,7 +2773,7 @@
   },
   {
     "id": "5e678901-f12a-4bc3-ddd4-ghijklmnopqr",
-    "mainCategory": "契约任务",
+    "mainCategory": "合约",
     "title": "契约：养蜂人幻影",
     "hold": "诺维格勒",
     "dlc": "没有任何",
@@ -2785,7 +2785,7 @@
   },
   {
     "id": "6f789012-34cd-4e56-789f-012345678w01",
-    "mainCategory": "契约任务",
+    "mainCategory": "合约",
     "title": "契约：牛弗森林的生物",
     "hold": "诺维格勒",
     "dlc": "没有任何",
@@ -2797,7 +2797,7 @@
   },
   {
     "id": "7G890123-45DE-4F67-8901-234522890123",
-    "mainCategory": "契约任务",
+    "mainCategory": "合约",
     "title": "契约：牛堡醉汉",
     "hold": "诺维格勒",
     "dlc": "没有任何",
@@ -2809,7 +2809,7 @@
   },
   {
     "id": "8h901234-56ij-4klm-7890-1yy456789012",
-    "mainCategory": "契约任务",
+    "mainCategory": "合约",
     "title": "契约：白娘子",
     "hold": "诺维格勒",
     "dlc": "没有任何",
@@ -3613,7 +3613,7 @@
   },
   {
     "id": "1a234567-89bc-4d6f-8hij-klmnopqrstux",
-    "mainCategory": "石之心任务",
+    "mainCategory": "石之心",
     "title": "邪恶的柔软初次接触",
     "hold": "",
     "dlc": "石之心",
@@ -3625,7 +3625,7 @@
   },
   {
     "id": "2b345678-9cde-4f6h-ijdl-mnopqrstu1v2",
-    "mainCategory": "石之心任务",
+    "mainCategory": "石之心",
     "title": "亡灵派对",
     "hold": "",
     "dlc": "石之心",
@@ -3637,7 +3637,7 @@
   },
   {
     "id": "3c456789-def0-4gei-jklm-nopqrstuv12",
-    "mainCategory": "石之心任务",
+    "mainCategory": "石之心",
     "title": "芝麻开门！",
     "hold": "",
     "dlc": "石之心",
@@ -3649,7 +3649,7 @@
   },
   {
     "id": "4d567890-ef01-4gcij-klmn-opqrstuv123",
-    "mainCategory": "石之心任务",
+    "mainCategory": "石之心",
     "title": "芝麻开门：巫师调味料",
     "hold": "",
     "dlc": "石之心",
@@ -3661,7 +3661,7 @@
   },
   {
     "id": "5e6789c1-f12a-4bc3-def4-ghijklmnopqr",
-    "mainCategory": "石之心任务",
+    "mainCategory": "石之心",
     "title": "芝麻开门：闯入",
     "hold": "",
     "dlc": "石之心",
@@ -3673,7 +3673,7 @@
   },
   {
     "id": "6f789e12-34cd-4e56-789f-012345678901",
-    "mainCategory": "石之心任务",
+    "mainCategory": "石之心",
     "title": "芝麻开门：保险箱窃贼",
     "hold": "",
     "dlc": "石之心",
@@ -3685,7 +3685,7 @@
   },
   {
     "id": "7G890C23-45DE-4F67-8901-234567890123",
-    "mainCategory": "石之心任务",
+    "mainCategory": "石之心",
     "title": "婚姻场景",
     "hold": "",
     "dlc": "石之心",
@@ -3697,7 +3697,7 @@
   },
   {
     "id": "8h901234-56ij-4klm-7890-12c456789012",
-    "mainCategory": "石之心任务",
+    "mainCategory": "石之心",
     "title": "人无论播种什么...",
     "hold": "",
     "dlc": "石之心",
@@ -3709,7 +3709,7 @@
   },
   {
     "id": "1a234567-89bc-4d6f-xhij-klmnopqrstuv",
-    "mainCategory": "石之心任务",
+    "mainCategory": "石之心",
     "title": "午夜晴朗",
     "hold": "",
     "dlc": "石之心",
@@ -3721,7 +3721,7 @@
   },
   {
     "id": "2b34d678-9cde-4f6h-ijkl-mnopqrstu1v2",
-    "mainCategory": "石之心任务",
+    "mainCategory": "石之心",
     "title": "狂热收藏家",
     "hold": "",
     "dlc": "石之心",
@@ -3733,7 +3733,7 @@
   },
   {
     "id": "3c456789-def0-eghi-jklm-nopqrstuv12",
-    "mainCategory": "石之心任务",
+    "mainCategory": "石之心",
     "title": "迷人：品质有代价",
     "hold": "",
     "dlc": "石之心",
@@ -3745,7 +3745,7 @@
   },
   {
     "id": "4dc67890-ef01-4ghij-klmn-opqrstuv123",
-    "mainCategory": "石之心任务",
+    "mainCategory": "石之心",
     "title": "迷人：启动成本",
     "hold": "",
     "dlc": "石之心",
@@ -3757,7 +3757,7 @@
   },
   {
     "id": "5e678901-f12a-cbc3-def4-ghijklmnopqr",
-    "mainCategory": "石之心任务",
+    "mainCategory": "石之心",
     "title": "种族：疾如西风",
     "hold": "",
     "dlc": "石之心",
@@ -3769,7 +3769,7 @@
   },
   {
     "id": "6f789012-34cd-4e56-789f-0123456789e1",
-    "mainCategory": "石之心任务",
+    "mainCategory": "石之心",
     "title": "红色田野上的玫瑰",
     "hold": "",
     "dlc": "石之心",
@@ -3781,7 +3781,7 @@
   },
   {
     "id": "7g890123-45de-4f67-8c01-234567890123",
-    "mainCategory": "石之心任务",
+    "mainCategory": "石之心",
     "title": "税务员来了",
     "hold": "",
     "dlc": "石之心",
@@ -3793,7 +3793,7 @@
   },
   {
     "id": "8h901234-56ij-4kcm-7890-123456789012",
-    "mainCategory": "石之心任务",
+    "mainCategory": "石之心",
     "title": "无迹可寻",
     "hold": "",
     "dlc": "石之心",
@@ -3805,7 +3805,7 @@
   },
   {
     "id": "1a234567-8cbc-4d6f-8hij-klmnopqrstuv",
-    "mainCategory": "石之心任务",
+    "mainCategory": "石之心",
     "title": "黑暗遗产",
     "hold": "",
     "dlc": "石之心",
@@ -3817,7 +3817,7 @@
   },
   {
     "id": "2w3d5678-9cde-4f6h-ijkl-mnopqrstu1v2",
-    "mainCategory": "石之心任务",
+    "mainCategory": "石之心",
     "title": "惊喜传承",
     "hold": "",
     "dlc": "石之心",
@@ -3829,7 +3829,7 @@
   },
   {
     "id": "3c456789-dez0-4ghi-jklm-nopqrstuv12",
-    "mainCategory": "石之心任务",
+    "mainCategory": "石之心",
     "title": "来自奥菲尔的遥远海岸",
     "hold": "",
     "dlc": "石之心",
@@ -3841,7 +3841,7 @@
   },
   {
     "id": "4d567890-ef01-4ghij-klmn-oqqrstuv123",
-    "mainCategory": "石之心任务",
+    "mainCategory": "石之心",
     "title": "被诅咒的教堂",
     "hold": "",
     "dlc": "石之心",
@@ -3853,7 +3853,7 @@
   },
   {
     "id": "5e678901-f12a-4bc3-defv-ghijklmnopqr",
-    "mainCategory": "石之心任务",
+    "mainCategory": "石之心",
     "title": "德拉肯堡的救赎",
     "hold": "",
     "dlc": "石之心",
@@ -3865,7 +3865,7 @@
   },
   {
     "id": "ef789012-34cd-4e56-789f-012345678901",
-    "mainCategory": "石之心任务",
+    "mainCategory": "石之心",
     "title": "英国皇家空军",
     "hold": "",
     "dlc": "石之心",
@@ -3877,7 +3877,7 @@
   },
   {
     "id": "7G890123-45DE-4F67-8901-234567890123",
-    "mainCategory": "石之心任务",
+    "mainCategory": "石之心",
     "title": "罗米利伯爵的秘密生活",
     "hold": "",
     "dlc": "石之心",
@@ -3889,7 +3889,7 @@
   },
   {
     "id": "8h901234-56ij-4klm-7890-12345678sd12",
-    "mainCategory": "石之心任务",
+    "mainCategory": "石之心",
     "title": "剑、饥荒和背信弃义",
     "hold": "",
     "dlc": "石之心",
@@ -3901,7 +3901,7 @@
   },
   {
     "id": "9i012345-67jk-4lmn-opqr-564890123456",
-    "mainCategory": "石之心任务",
+    "mainCategory": "石之心",
     "title": "修补匠、猎人、士兵、间谍",
     "hold": "",
     "dlc": "石之心",
@@ -3913,7 +3913,7 @@
   },
   {
     "id": "1a233567-89bc-4d6f-8hij-klmnopqrstuv",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "使者、酒童",
     "hold": "",
     "dlc": "血与酒",
@@ -3925,7 +3925,7 @@
   },
   {
     "id": "2bw45678-9cde-4f6h-ijkl-mnopqrstu1v2",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "杜桑的野兽",
     "hold": "",
     "dlc": "血与酒",
@@ -3937,7 +3937,7 @@
   },
   {
     "id": "3c456789-def0-4ghi-jklm-nzpqrstuv12",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "热血奔跑",
     "hold": "",
     "dlc": "血与酒",
@@ -3949,7 +3949,7 @@
   },
   {
     "id": "4d567890-efc1-4ghij-klmn-opqrstuv123",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "狂人之笼",
     "hold": "",
     "dlc": "血与酒",
@@ -3961,7 +3961,7 @@
   },
   {
     "id": "5e678901-f12a-4bc3-def4-ghijklmnovqr",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "孩子们劳作的地方，玩具就被浪费了",
     "hold": "",
     "dlc": "血与酒",
@@ -3973,7 +3973,7 @@
   },
   {
     "id": "6f789012-34cd-4e56-7eff-012345678901",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "酒是神圣的",
     "hold": "",
     "dlc": "血与酒",
@@ -3985,7 +3985,7 @@
   },
   {
     "id": "7g890123-45de-4f67-8901-2c4567c90123",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "来自辛特拉的男人",
     "hold": "",
     "dlc": "血与酒",
@@ -3997,7 +3997,7 @@
   },
   {
     "id": "8h901234-56ij-4klm-7890-12345sdf9012",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "占领城堡",
     "hold": "",
     "dlc": "血与酒",
@@ -4009,7 +4009,7 @@
   },
   {
     "id": "9i012345-67jk-4lmn-4pqr-567890123456",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "长牙之夜",
     "hold": "",
     "dlc": "血与酒",
@@ -4021,7 +4021,7 @@
   },
   {
     "id": "0j123456-78kl-9mno-pqrs-tuv123456c89",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "超越希尔和戴尔...",
     "hold": "",
     "dlc": "血与酒",
@@ -4033,7 +4033,7 @@
   },
   {
     "id": "1k234567-89lm-0nop-qrst-uv1234567890",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "血液简单",
     "hold": "",
     "dlc": "血与酒",
@@ -4045,7 +4045,7 @@
   },
   {
     "id": "2l345678-90mn-opqr-stuv-12345678901c",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "什么是看不见的",
     "hold": "",
     "dlc": "血与酒",
@@ -4057,7 +4057,7 @@
   },
   {
     "id": "3m456789-01no-pqrs-tuee-234567890123",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "特沙姆·穆特纳",
     "hold": "",
     "dlc": "血与酒",
@@ -4069,7 +4069,7 @@
   },
   {
     "id": "4n567890-12op-qrs-tuv12-345678901234",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "盛况和奇怪的情况",
     "hold": "",
     "dlc": "血与酒",
@@ -4081,7 +4081,7 @@
   },
   {
     "id": "5o678901-23pq-rst-uv123-456789012345",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "粗麻布是新条纹",
     "hold": "",
     "dlc": "血与酒",
@@ -4093,7 +4093,7 @@
   },
   {
     "id": "6p789012-34qr-stuv-567890123456",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "永远如此谦虚...",
     "hold": "",
     "dlc": "血与酒",
@@ -4105,7 +4105,7 @@
   },
   {
     "id": "12234567-89bc-4d6f-8hij-klmnopqrstuv",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "骑士的故事",
     "hold": "",
     "dlc": "血与酒",
@@ -4117,7 +4117,7 @@
   },
   {
     "id": "2b345678-9cde-4w6h-ijkl-mnopqrstu1v2",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "巫师老人肖像",
     "hold": "",
     "dlc": "血与酒",
@@ -4129,7 +4129,7 @@
   },
   {
     "id": "3c456789-def0-4ghz-jklm-nopqrstuv12",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "在磨坊的谷物之中",
     "hold": "",
     "dlc": "血与酒",
@@ -4141,7 +4141,7 @@
   },
   {
     "id": "4d5678c0-ef01-4ghij-klmn-opqrstuv123",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "大脚要填满",
     "hold": "",
     "dlc": "血与酒",
@@ -4153,7 +4153,7 @@
   },
   {
     "id": "5e6v8901-f12a-4bc3-def4-ghijklmnopqr",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "大脚要填补：第五组",
     "hold": "",
     "dlc": "血与酒",
@@ -4165,7 +4165,7 @@
   },
   {
     "id": "6f789012-3ecd-4e56-789f-012345678901",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "大脚要填补：第一组",
     "hold": "",
     "dlc": "血与酒",
@@ -4177,7 +4177,7 @@
   },
   {
     "id": "7g890123-45de-4f67-8901-234567c90123",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "大脚要填补：第四组",
     "hold": "",
     "dlc": "血与酒",
@@ -4189,7 +4189,7 @@
   },
   {
     "id": "8h901234-56ij-4klm-7890-sd3456789012",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "大脚要填补：第二组",
     "hold": "",
     "dlc": "血与酒",
@@ -4201,7 +4201,7 @@
   },
   {
     "id": "9i012333-67jk-4lmn-opqr-567890123456",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "大脚要填补：第三组",
     "hold": "",
     "dlc": "血与酒",
@@ -4213,7 +4213,7 @@
   },
   {
     "id": "0j12c456-78kl-9eno-pqrs-tuv123456789",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "鸭子，鸭子，鹅！",
     "hold": "",
     "dlc": "血与酒",
@@ -4225,7 +4225,7 @@
   },
   {
     "id": "1k234567-89lm-0nop-qrst-uv12345d7890",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "极限角色扮演",
     "hold": "",
     "dlc": "血与酒",
@@ -4237,7 +4237,7 @@
   },
   {
     "id": "2l345678-90mn-opcr-stuv-123456789012",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "父亲知道最坏的情况",
     "hold": "",
     "dlc": "血与酒",
@@ -4249,7 +4249,7 @@
   },
   {
     "id": "3m456789-01eo-pqrs-tuv1-234567890123",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "愤怒之拳：杜桑",
     "hold": "",
     "dlc": "血与酒",
@@ -4261,7 +4261,7 @@
   },
   {
     "id": "1a234567-89bc-4d6f-8hij-klmnop3rstuv",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "天哪，仁慈的，伟大的花岗岩球！",
     "hold": "",
     "dlc": "血与酒",
@@ -4273,7 +4273,7 @@
   },
   {
     "id": "2b345678-9cde-4f6h-ijwl-mnopqrstu1v2",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "昆特牌：别害怕，史凯利杰就在这里",
     "hold": "",
     "dlc": "血与酒",
@@ -4285,7 +4285,7 @@
   },
   {
     "id": "3c4567z9-def0-4ghi-jklm-nopqrstuv12",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "昆特牌：致一切 - 转身，转身，锦标赛！",
     "hold": "",
     "dlc": "血与酒",
@@ -4297,7 +4297,7 @@
   },
   {
     "id": "4d567890-ef01-4ghwj-klmn-opqrstuv123",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "雇佣骑士",
     "hold": "",
     "dlc": "血与酒",
@@ -4309,7 +4309,7 @@
   },
   {
     "id": "ve678901-f12a-4bc3-def4-ghijklmnopqr",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "大师大师大师大师！",
     "hold": "",
     "dlc": "血与酒",
@@ -4321,7 +4321,7 @@
   },
   {
     "id": "6f78r012-34cd-4e56-789f-012345678901",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "鲍克莱尔野生王国互助",
     "hold": "",
     "dlc": "血与酒",
@@ -4333,7 +4333,7 @@
   },
   {
     "id": "7g89ee23-45de-4f67-8901-234567890123",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "没有一个地方比得上家",
     "hold": "",
     "dlc": "血与酒",
@@ -4345,7 +4345,7 @@
   },
   {
     "id": "8h901234-56ij-4klm-7890-1234567890gf",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "我唱的纯粹和巫师",
     "hold": "",
     "dlc": "血与酒",
@@ -4357,7 +4357,7 @@
   },
   {
     "id": "9i032345-67jk-4lmn-opqr-567890123456",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "追纸",
     "hold": "",
     "dlc": "血与酒",
@@ -4369,7 +4369,7 @@
   },
   {
     "id": "0j123456-78kl-9mno-pqrs-tuv123456789",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "愤怒的狼",
     "hold": "",
     "dlc": "血与酒",
@@ -4381,7 +4381,7 @@
   },
   {
     "id": "1k234567-89lm-0nod-qrst-uv1234567890",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "饥饿游戏",
     "hold": "",
     "dlc": "血与酒",
@@ -4393,7 +4393,7 @@
   },
   {
     "id": "2lc45678-90mn-opqr-stuv-123456789012",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "成为一名囚犯的好处",
     "hold": "",
     "dlc": "血与酒",
@@ -4405,7 +4405,7 @@
   },
   {
     "id": "3m456789-01no-pqrs-tuv1-234567890123",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "被击垮的骑士的歌声",
     "hold": "",
     "dlc": "血与酒",
@@ -4417,7 +4417,7 @@
   },
   {
     "id": "4n567890-12op-qrst-uv12-345678901234",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "先知的话写在石棺上",
     "hold": "",
     "dlc": "血与酒",
@@ -4429,7 +4429,7 @@
   },
   {
     "id": "5o678901-23pq-rstu-v123-456789012345",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "只可以有一个人",
     "hold": "",
     "dlc": "血与酒",
@@ -4441,7 +4441,7 @@
   },
   {
     "id": "6p789012-34qr-5678-90tu-v12345678901",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "直到死亡将你们分开",
     "hold": "",
     "dlc": "血与酒",
@@ -4453,7 +4453,7 @@
   },
   {
     "id": "7q890123-45tu-6789-01tu-v12345678901",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "转身面对陌生的人",
     "hold": "",
     "dlc": "血与酒",
@@ -4465,7 +4465,7 @@
   },
   {
     "id": "1a234567-89bc-4d6f-8h3j-klmnopqrstuv",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "酒商的契约：Chuchote Cave",
     "hold": "",
     "dlc": "血与酒",
@@ -4477,7 +4477,7 @@
   },
   {
     "id": "2b345678-9cde-4f6h-ijkl-mnowqrstu1v2",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "葡萄酒商的合同：清理那些难以到达的地方",
     "hold": "",
     "dlc": "血与酒",
@@ -4489,7 +4489,7 @@
   },
   {
     "id": "3cz56789-def0-4ghi-jklm-nopqrstuv12",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "酒商的合同：Duchaton Crest",
     "hold": "",
     "dlc": "血与酒",
@@ -4501,7 +4501,7 @@
   },
   {
     "id": "4d56w890-ef01-4ghij-klmn-opqrstuv123",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "葡萄酒商的合同：Dun Tynne Hillside",
     "hold": "",
     "dlc": "血与酒",
@@ -4513,7 +4513,7 @@
   },
   {
     "id": "5e678901-f1ba-4bc3-def4-ghijklmnopqr",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "酒商的契约：Rivecalme 仓库",
     "hold": "",
     "dlc": "血与酒",
@@ -4525,7 +4525,7 @@
   },
   {
     "id": "6f789012-34cd-4e56-789f-012345r78901",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "葡萄酒大战：贝尔加德",
     "hold": "",
     "dlc": "血与酒",
@@ -4537,7 +4537,7 @@
   },
   {
     "id": "7G890123-45DE-4F67-8901-2345rr890123",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "葡萄酒大战：联姻",
     "hold": "",
     "dlc": "血与酒",
@@ -4549,7 +4549,7 @@
   },
   {
     "id": "8h901234-56ij-4klm-7890-12345678fg12",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "葡萄酒大战：科罗纳塔",
     "hold": "",
     "dlc": "血与酒",
@@ -4561,7 +4561,7 @@
   },
   {
     "id": "9i012345-67jk-4lmn-opqr-567890123456",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "葡萄酒战争：机械中的神灵",
     "hold": "",
     "dlc": "血与酒",
@@ -4573,7 +4573,7 @@
   },
   {
     "id": "0j12c456-78kl-9mno-pqrs-tuv123456789",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "葡萄酒大战：维蒙蒂诺",
     "hold": "",
     "dlc": "血与酒",
@@ -4585,7 +4585,7 @@
   },
   {
     "id": "1a234567-89bc-4d6f-8hij-kl3nopqrstuv",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "大型游戏猎人",
     "hold": "",
     "dlc": "血与酒",
@@ -4597,7 +4597,7 @@
   },
   {
     "id": "2b345678-9cde-4f6h-ijkl-mwopqrstu1v2",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "合同：牛布鲁斯",
     "hold": "",
     "dlc": "血与酒",
@@ -4609,7 +4609,7 @@
   },
   {
     "id": "3c456789-def0-4ghi-jklz-nopqrstuv12",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "契约：图佛怪物",
     "hold": "",
     "dlc": "血与酒",
@@ -4621,7 +4621,7 @@
   },
   {
     "id": "4d567890-ef01-4ghij-klmn-opqrstwv123",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "马幻影",
     "hold": "",
     "dlc": "血与酒",
@@ -4633,7 +4633,7 @@
   },
   {
     "id": "5e678901-f12a-4bc3-defb-ghijklmnopqr",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "脚冷如冰",
     "hold": "",
     "dlc": "血与酒",
@@ -4645,7 +4645,7 @@
   },
   {
     "id": "1a434567-89bc-4d6f-8hij-klmnopqrstuv",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "应用逃生学",
     "hold": "",
     "dlc": "血与酒",
@@ -4657,7 +4657,7 @@
   },
   {
     "id": "2b345678-9cde-4f6h-ijkl-wnopqrstu1v2",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "环游世界......八天",
     "hold": "",
     "dlc": "血与酒",
@@ -4669,7 +4669,7 @@
   },
   {
     "id": "3c456789-def0-4ghi-jklm-nopqzstuv12",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "但除此之外，你觉得这部剧怎么样？",
     "hold": "",
     "dlc": "血与酒",
@@ -4681,7 +4681,7 @@
   },
   {
     "id": "4d567890-ef01-4ghij-kwmn-opqrstuv123",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "硬币不臭",
     "hold": "",
     "dlc": "血与酒",
@@ -4693,7 +4693,7 @@
   },
   {
     "id": "5e678901-f12a-4bc3-def4-ghijblmnopqr",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "不要接受陌生人的糖果",
     "hold": "",
     "dlc": "血与酒",
@@ -4705,7 +4705,7 @@
   },
   {
     "id": "6f789012-34cd-4e56-789f-01234567890r",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "菲利伯特总是偿还他的债务",
     "hold": "",
     "dlc": "血与酒",
@@ -4717,7 +4717,7 @@
   },
   {
     "id": "7g890123-45de-4df67-8901-234567890123",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "寻宝游戏：宗师猫科动物装备",
     "hold": "",
     "dlc": "血与酒",
@@ -4729,7 +4729,7 @@
   },
   {
     "id": "8h901234-56ij-4klm-7890-1234df789012",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "寻宝游戏：大师狮鹫装备",
     "hold": "",
     "dlc": "血与酒",
@@ -4741,7 +4741,7 @@
   },
   {
     "id": "9i012345-67jk-4lmn-o44r-567890123456",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "寻宝游戏：宗师蝎狮装备",
     "hold": "",
     "dlc": "血与酒",
@@ -4753,7 +4753,7 @@
   },
   {
     "id": "0j123456-78kl-9mno-PCR-tuv123456789",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "寻宝游戏：宗师熊装备",
     "hold": "",
     "dlc": "血与酒",
@@ -4765,7 +4765,7 @@
   },
   {
     "id": "1k234567-89kl-2mno-pqrs-tuv123456789",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "寻宝游戏：宗师狼装备",
     "hold": "",
     "dlc": "血与酒",
@@ -4777,7 +4777,7 @@
   },
   {
     "id": "14234567-89bc-4d6f-8hij-klmnopqrstuv",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "暴利暴发！",
     "hold": "",
     "dlc": "血与酒",
@@ -4789,7 +4789,7 @@
   },
   {
     "id": "2b345678-9cde-4f6h-ijkl-mnopqrstuwv2",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "黑寡妇",
     "hold": "",
     "dlc": "血与酒",
@@ -4801,7 +4801,7 @@
   },
   {
     "id": "3c456789-def0-4ghi-jklm-nopqrstuv1c",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "卡那封的诅咒",
     "hold": "",
     "dlc": "血与酒",
@@ -4813,7 +4813,7 @@
   },
   {
     "id": "4d567890-efw1-4ghij-klmn-opqrstuv123",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "反复无常的园丁",
     "hold": "",
     "dlc": "血与酒",
@@ -4825,7 +4825,7 @@
   },
   {
     "id": "5e678901-f12b-4bc3-def4-ghijklmnopqr",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "赛琳娜帮的最后功绩",
     "hold": "",
     "dlc": "血与酒",
@@ -4837,7 +4837,7 @@
   },
   {
     "id": "6fr89012-34cd-4e56-789f-012345678901",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "年轻弗朗索瓦的苦难",
     "hold": "",
     "dlc": "血与酒",
@@ -4849,7 +4849,7 @@
   },
   {
     "id": "7g890123-4dfe-4f67-8901-234567890123",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "杜桑监狱实验",
     "hold": "",
     "dlc": "血与酒",
@@ -4861,7 +4861,7 @@
   },
   {
     "id": "8h901234-56ij-4klm-7890-qw3456789012",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "等待Goe和Doh",
     "hold": "",
     "dlc": "血与酒",
@@ -4873,7 +4873,7 @@
   },
   {
     "id": "9i012345-67jk-4lmn-opqr-567890123446",
-    "mainCategory": "血与酒任务",
+    "mainCategory": "血与酒",
     "title": "这又是关于什么的？",
     "hold": "",
     "dlc": "血与酒",

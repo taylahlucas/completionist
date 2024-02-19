@@ -9,15 +9,19 @@ interface GameDataReturnType {
 
 const useGetGameData = (): GameDataReturnType => {
   const {
-    skyrimQuests,
+    fallout4Quests,
+    fallout4Collectables,
+    fallout4Locations,
+    fallout4Misc,
+
+		skyrimQuests,
     skyrimCollectables,
     skyrimLocations,
     skyrimMisc,
 
-    fallout4Quests,
-    fallout4Collectables,
-    fallout4Locations,
-    fallout4Misc
+		witcher3Quests,
+		witcher3Collectables,
+		witcher3Locations
   } = useGetTranslatedGameData();
   const { selectedGameData } = useMainState();
 
@@ -44,9 +48,11 @@ const useGetGameData = (): GameDataReturnType => {
       case ContentSectionEnum.LOCATIONS:
         const locations = mapDataToLocations(selectedGame);
         return !filter ? locations : filterData(selectedGameData?.settingsConfig.general ?? [], locations);
+
       case ContentSectionEnum.MISCELLANEOUS:
         const miscItems = mapDataToMiscItems(selectedGame);
         return !filter ? miscItems : filterData(selectedGameData?.settingsConfig.general ?? [], miscItems);
+
       default:
         return []
     }
@@ -54,29 +60,41 @@ const useGetGameData = (): GameDataReturnType => {
 
   const mapDataToQuests = (selectedGame?: GameKeyEnum): GameContentItem[] => {
     switch (selectedGame) {
+			case GameKeyEnum.FALLOUT_4:
+        return fallout4Quests.map((quest: GameContentItem) => {
+          return quest as GameContentItem;
+        });
+
       case GameKeyEnum.SKYRIM:
         return skyrimQuests.map((quest: GameContentItem) => {
           return quest as GameContentItem;
         });
-      case GameKeyEnum.FALLOUT_4:
-        return fallout4Quests.map((quest: GameContentItem) => {
-          return quest as GameContentItem;
-        });
-      default: 
+
+			case GameKeyEnum.WITCHER_3:
+				return witcher3Quests.map((quest: GameContentItem) => {
+					return quest as GameContentItem;
+				});
+      default:
         return [];   
     }
   };
 
   const mapDataToCollectables = (selectedGame?: GameKeyEnum): GameContentItem[] => {
     switch (selectedGame) {
+			case GameKeyEnum.FALLOUT_4:
+        return fallout4Collectables.map((collectable: Partial<GameContentItem>) => {
+          return collectable as GameContentItem;
+        });
+
       case GameKeyEnum.SKYRIM:
         return skyrimCollectables.map((collectable: Partial<GameContentItem>) => {
           return collectable as GameContentItem;
         });
-      case GameKeyEnum.FALLOUT_4:
-        return fallout4Collectables.map((collectable: Partial<GameContentItem>) => {
-          return collectable as GameContentItem;
-        });
+		
+			case GameKeyEnum.WITCHER_3:
+				return witcher3Collectables.map((collectable: Partial<GameContentItem>) => {
+					return collectable as GameContentItem;
+				});
       default: 
         return [];   
     }
@@ -84,12 +102,13 @@ const useGetGameData = (): GameDataReturnType => {
 
   const mapDataToMiscItems = (selectedGame?: GameKeyEnum): GameContentItem[] => {
     switch (selectedGame) {
-      case GameKeyEnum.SKYRIM:
-        return skyrimMisc.map((miscItem: Partial<GameContentItem>) => {
+			case GameKeyEnum.FALLOUT_4:
+        return fallout4Misc.map((miscItem: Partial<GameContentItem>) => {
           return miscItem as GameContentItem
         });
-      case GameKeyEnum.FALLOUT_4:
-        return fallout4Misc.map((miscItem: Partial<GameContentItem>) => {
+
+      case GameKeyEnum.SKYRIM:
+        return skyrimMisc.map((miscItem: Partial<GameContentItem>) => {
           return miscItem as GameContentItem
         });
       default: 
@@ -99,14 +118,20 @@ const useGetGameData = (): GameDataReturnType => {
   
   const mapDataToLocations = (selectedGame?: GameKeyEnum): GameContentItem[] => {
     switch (selectedGame) {
+			case GameKeyEnum.FALLOUT_4:
+        return fallout4Locations.map((location: Partial<GameContentItem>) => {
+          return location as GameContentItem;
+        });
+
       case GameKeyEnum.SKYRIM:
         return skyrimLocations.map((location: Partial<GameContentItem>) => {
           return location as GameContentItem;
         });
-      case GameKeyEnum.FALLOUT_4:
-        return fallout4Locations.map((location: Partial<GameContentItem>) => {
-          return location as GameContentItem;
-        });
+			
+			case GameKeyEnum.WITCHER_3:
+				return witcher3Locations.map((miscItem: Partial<GameContentItem>) => {
+					return miscItem as GameContentItem
+				});
       default: 
         return [];   
     }

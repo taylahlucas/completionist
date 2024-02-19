@@ -24,8 +24,9 @@ const useTimedDataUpdate = () => {
 				updateUserData({
 					userId: user.userId,
 					data: {
+						fallout4: user.data.fallout4,
 						skyrim: user.data.skyrim,
-						fallout4: user.data.fallout4
+						witcher3: user.data.witcher3
 					}
 				});
 				setShouldUpdateUser(false);

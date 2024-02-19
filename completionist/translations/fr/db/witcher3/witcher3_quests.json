@@ -2725,7 +2725,7 @@
   },
   {
     "id": "1a234567-89bc-4d6f-8qij-klmnopqrstuv",
-    "mainCategory": "Quêtes de contrat",
+    "mainCategory": "Contrats",
     "title": "Contrat : un voleur insaisissable",
     "hold": "Novigrad",
     "dlc": "Aucun",
@@ -2737,7 +2737,7 @@
   },
   {
     "id": "2b34f678-9cde-4f6h-ijkl-mnopqrstu1v2",
-    "mainCategory": "Quêtes de contrat",
+    "mainCategory": "Contrats",
     "title": "Contrat : Délices mortels",
     "hold": "Novigrad",
     "dlc": "Aucun",
@@ -2749,7 +2749,7 @@
   },
   {
     "id": "3c456789-def0-4ghi-jklm-nowqrstuv12",
-    "mainCategory": "Quêtes de contrat",
+    "mainCategory": "Contrats",
     "title": "Contrat : Les portes se ferment en claquant",
     "hold": "Novigrad",
     "dlc": "Aucun",
@@ -2761,7 +2761,7 @@
   },
   {
     "id": "4d567890-ef01-4ghij-k4mn-opqrstuv123",
-    "mainCategory": "Quêtes de contrat",
+    "mainCategory": "Contrats",
     "title": "Contrat : Seigneur du Bois",
     "hold": "Novigrad",
     "dlc": "Aucun",
@@ -2773,7 +2773,7 @@
   },
   {
     "id": "5e678901-f12a-4bc3-ddd4-ghijklmnopqr",
-    "mainCategory": "Quêtes de contrat",
+    "mainCategory": "Contrats",
     "title": "Contrat : Le fantôme du rucher",
     "hold": "Novigrad",
     "dlc": "Aucun",
@@ -2785,7 +2785,7 @@
   },
   {
     "id": "6f789012-34cd-4e56-789f-012345678w01",
-    "mainCategory": "Quêtes de contrat",
+    "mainCategory": "Contrats",
     "title": "Contrat : La créature de la forêt d'Oxenfurt",
     "hold": "Novigrad",
     "dlc": "Aucun",
@@ -2797,7 +2797,7 @@
   },
   {
     "id": "7g890123-45de-4f67-8901-234522890123",
-    "mainCategory": "Quêtes de contrat",
+    "mainCategory": "Contrats",
     "title": "Contrat : L'ivrogne d'Oxenfurt",
     "hold": "Novigrad",
     "dlc": "Aucun",
@@ -2809,7 +2809,7 @@
   },
   {
     "id": "8h901234-56ij-4klm-7890-1yy456789012",
-    "mainCategory": "Quêtes de contrat",
+    "mainCategory": "Contrats",
     "title": "Contrat : La Dame Blanche",
     "hold": "Novigrad",
     "dlc": "Aucun",
@@ -3613,7 +3613,7 @@
   },
   {
     "id": "1a234567-89bc-4d6f-8hij-klmnopqrstux",
-    "mainCategory": "Quêtes des coeurs de pierre",
+    "mainCategory": "Coeurs de pierre",
     "title": "Les premiers contacts doux du mal",
     "hold": "",
     "dlc": "Coeurs de pierre",
@@ -3625,7 +3625,7 @@
   },
   {
     "id": "2b345678-9cde-4f6h-ijdl-mnopqrstu1v2",
-    "mainCategory": "Quêtes des coeurs de pierre",
+    "mainCategory": "Coeurs de pierre",
     "title": "La fête du mort",
     "hold": "",
     "dlc": "Coeurs de pierre",
@@ -3637,7 +3637,7 @@
   },
   {
     "id": "3c456789-def0-4gei-jklm-nopqrstuv12",
-    "mainCategory": "Quêtes des coeurs de pierre",
+    "mainCategory": "Coeurs de pierre",
     "title": "Sésame ouvre-toi!",
     "hold": "",
     "dlc": "Coeurs de pierre",
@@ -3649,7 +3649,7 @@
   },
   {
     "id": "4d567890-ef01-4gcij-klmn-opqrstuv123",
-    "mainCategory": "Quêtes des coeurs de pierre",
+    "mainCategory": "Coeurs de pierre",
     "title": "Sésame ouvert : assaisonnements Witcher",
     "hold": "",
     "dlc": "Coeurs de pierre",
@@ -3661,7 +3661,7 @@
   },
   {
     "id": "5e6789c1-f12a-4bc3-def4-ghijklmnopqr",
-    "mainCategory": "Quêtes des coeurs de pierre",
+    "mainCategory": "Coeurs de pierre",
     "title": "Sésame ouvert : introduction par effraction",
     "hold": "",
     "dlc": "Coeurs de pierre",
@@ -3673,7 +3673,7 @@
   },
   {
     "id": "6f789e12-34cd-4e56-789f-012345678901",
-    "mainCategory": "Quêtes des coeurs de pierre",
+    "mainCategory": "Coeurs de pierre",
     "title": "Sésame ouvert : le Safecracker",
     "hold": "",
     "dlc": "Coeurs de pierre",
@@ -3685,7 +3685,7 @@
   },
   {
     "id": "7g890c23-45de-4f67-8901-234567890123",
-    "mainCategory": "Quêtes des coeurs de pierre",
+    "mainCategory": "Coeurs de pierre",
     "title": "Scènes d'un mariage",
     "hold": "",
     "dlc": "Coeurs de pierre",
@@ -3697,7 +3697,7 @@
   },
   {
     "id": "8h901234-56ij-4klm-7890-12c456789012",
-    "mainCategory": "Quêtes des coeurs de pierre",
+    "mainCategory": "Coeurs de pierre",
     "title": "Tout ce qu'un homme sème...",
     "hold": "",
     "dlc": "Coeurs de pierre",
@@ -3709,7 +3709,7 @@
   },
   {
     "id": "1a234567-89bc-4d6f-xhij-klmnopqrstuv",
-    "mainCategory": "Quêtes des coeurs de pierre",
+    "mainCategory": "Coeurs de pierre",
     "title": "Un clair de minuit",
     "hold": "",
     "dlc": "Coeurs de pierre",
@@ -3721,7 +3721,7 @@
   },
   {
     "id": "2b34d678-9cde-4f6h-ijkl-mnopqrstu1v2",
-    "mainCategory": "Quêtes des coeurs de pierre",
+    "mainCategory": "Coeurs de pierre",
     "title": "Collectionneur passionné",
     "hold": "",
     "dlc": "Coeurs de pierre",
@@ -3733,7 +3733,7 @@
   },
   {
     "id": "3c456789-def0-eghi-jklm-nopqrstuv12",
-    "mainCategory": "Quêtes des coeurs de pierre",
+    "mainCategory": "Coeurs de pierre",
     "title": "Enchanteur : la qualité a son prix",
     "hold": "",
     "dlc": "Coeurs de pierre",
@@ -3745,7 +3745,7 @@
   },
   {
     "id": "4dc67890-ef01-4ghij-klmn-opqrstuv123",
-    "mainCategory": "Quêtes des coeurs de pierre",
+    "mainCategory": "Coeurs de pierre",
     "title": "Enchantement : coûts de démarrage",
     "hold": "",
     "dlc": "Coeurs de pierre",
@@ -3757,7 +3757,7 @@
   },
   {
     "id": "5e678901-f12a-cbc3-def4-ghijklmnopqr",
-    "mainCategory": "Quêtes des coeurs de pierre",
+    "mainCategory": "Coeurs de pierre",
     "title": "Courses : rapides comme les vents d’ouest",
     "hold": "",
     "dlc": "Coeurs de pierre",
@@ -3769,7 +3769,7 @@
   },
   {
     "id": "6f789012-34cd-4e56-789f-0123456789e1",
-    "mainCategory": "Quêtes des coeurs de pierre",
+    "mainCategory": "Coeurs de pierre",
     "title": "Rose sur un champ rouge",
     "hold": "",
     "dlc": "Coeurs de pierre",
@@ -3781,7 +3781,7 @@
   },
   {
     "id": "7g890123-45de-4f67-8c01-234567890123",
-    "mainCategory": "Quêtes des coeurs de pierre",
+    "mainCategory": "Coeurs de pierre",
     "title": "Le fisc arrive",
     "hold": "",
     "dlc": "Coeurs de pierre",
@@ -3793,7 +3793,7 @@
   },
   {
     "id": "8h901234-56ij-4kcm-7890-123456789012",
-    "mainCategory": "Quêtes des coeurs de pierre",
+    "mainCategory": "Coeurs de pierre",
     "title": "Sans laisser de trace",
     "hold": "",
     "dlc": "Coeurs de pierre",
@@ -3805,7 +3805,7 @@
   },
   {
     "id": "1a234567-8cbc-4d6f-8hij-klmnopqrstuv",
-    "mainCategory": "Quêtes des coeurs de pierre",
+    "mainCategory": "Coeurs de pierre",
     "title": "Un sombre héritage",
     "hold": "",
     "dlc": "Coeurs de pierre",
@@ -3817,7 +3817,7 @@
   },
   {
     "id": "2w3d5678-9cde-4f6h-ijkl-mnopqrstu1v2",
-    "mainCategory": "Quêtes des coeurs de pierre",
+    "mainCategory": "Coeurs de pierre",
     "title": "Un héritage surprise",
     "hold": "",
     "dlc": "Coeurs de pierre",
@@ -3829,7 +3829,7 @@
   },
   {
     "id": "3c456789-dez0-4ghi-jklm-nopqrstuv12",
-    "mainCategory": "Quêtes des coeurs de pierre",
+    "mainCategory": "Coeurs de pierre",
     "title": "Des rivages lointains d'Ofier",
     "hold": "",
     "dlc": "Coeurs de pierre",
@@ -3841,7 +3841,7 @@
   },
   {
     "id": "4d567890-ef01-4ghij-klmn-oqqrstuv123",
-    "mainCategory": "Quêtes des coeurs de pierre",
+    "mainCategory": "Coeurs de pierre",
     "title": "La Chapelle Maudite",
     "hold": "",
     "dlc": "Coeurs de pierre",
@@ -3853,7 +3853,7 @@
   },
   {
     "id": "5e678901-f12a-4bc3-defv-ghijklmnopqr",
-    "mainCategory": "Quêtes des coeurs de pierre",
+    "mainCategory": "Coeurs de pierre",
     "title": "La rédemption de Drakenborg",
     "hold": "",
     "dlc": "Coeurs de pierre",
@@ -3865,7 +3865,7 @@
   },
   {
     "id": "ef789012-34cd-4e56-789f-012345678901",
-    "mainCategory": "Quêtes des coeurs de pierre",
+    "mainCategory": "Coeurs de pierre",
     "title": "La Royal Air Force",
     "hold": "",
     "dlc": "Coeurs de pierre",
@@ -3877,7 +3877,7 @@
   },
   {
     "id": "7g890123-45de-4f67-8901-234567890123",
-    "mainCategory": "Quêtes des coeurs de pierre",
+    "mainCategory": "Coeurs de pierre",
     "title": "La vie secrète du comte Romilly",
     "hold": "",
     "dlc": "Coeurs de pierre",
@@ -3889,7 +3889,7 @@
   },
   {
     "id": "8h901234-56ij-4klm-7890-12345678sd12",
-    "mainCategory": "Quêtes des coeurs de pierre",
+    "mainCategory": "Coeurs de pierre",
     "title": "L'épée, la famine et la perfidie",
     "hold": "",
     "dlc": "Coeurs de pierre",
@@ -3901,7 +3901,7 @@
   },
   {
     "id": "9i012345-67jk-4lmn-opqr-564890123456",
-    "mainCategory": "Quêtes des coeurs de pierre",
+    "mainCategory": "Coeurs de pierre",
     "title": "Bricoleur, chasseur, soldat, espion",
     "hold": "",
     "dlc": "Coeurs de pierre",
@@ -3913,7 +3913,7 @@
   },
   {
     "id": "1a233567-89bc-4d6f-8hij-klmnopqrstuv",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "Envoyés, Wineboys",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -3925,7 +3925,7 @@
   },
   {
     "id": "2bw45678-9cde-4f6h-ijkl-mnopqrstu1v2",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "La Bête de Toussaint",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -3937,7 +3937,7 @@
   },
   {
     "id": "3c456789-def0-4ghi-jklm-nzpqrstuv12",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "Course de sang",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -3949,7 +3949,7 @@
   },
   {
     "id": "4d567890-efc1-4ghij-klmn-opqrstuv123",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "La Cage au Fou",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -3961,7 +3961,7 @@
   },
   {
     "id": "5e678901-f12a-4bc3-def4-ghijklmnovqr",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "Là où les enfants peinent, les jouets dépérissent",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -3973,7 +3973,7 @@
   },
   {
     "id": "6f789012-34cd-4e56-7eff-012345678901",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "Le vin est sacré",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -3985,7 +3985,7 @@
   },
   {
     "id": "7g890123-45de-4f67-8901-2c4567c90123",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "L'homme de Cintra",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -3997,7 +3997,7 @@
   },
   {
     "id": "8h901234-56ij-4klm-7890-12345sdf9012",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "Capturez le château",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -4009,7 +4009,7 @@
   },
   {
     "id": "9i012345-67jk-4lmn-4pqr-567890123456",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "La Nuit des Longs Crocs",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -4021,7 +4021,7 @@
   },
   {
     "id": "0j123456-78kl-9mno-pqrs-tuv123456c89",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "Au-delà de Hill et Dale...",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -4033,8 +4033,8 @@
   },
   {
     "id": "1k234567-89lm-0nop-qrst-uv1234567890",
-    "mainCategory": "Quêtes de sang et de vin",
-    "title": "Sang simple",
+    "mainCategory": "Du sang et du vin",
+    "title": "Sang Simple",
     "hold": "",
     "dlc": "Du sang et du vin",
     "subCategory": "Quêtes principales",
@@ -4045,7 +4045,7 @@
   },
   {
     "id": "2l345678-90mn-opqr-stuv-12345678901c",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "Ce qui reste invisible",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -4057,7 +4057,7 @@
   },
   {
     "id": "3m456789-01no-pqrs-mar-234567890123",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "Tesham Mutna",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -4069,7 +4069,7 @@
   },
   {
     "id": "4n567890-12op-qrs-tuv12-345678901234",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "Pompe et circonstance étrange",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -4081,7 +4081,7 @@
   },
   {
     "id": "5o678901-23pq-rst-uv123-456789012345",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "La toile de jute est la nouvelle rayure",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -4093,7 +4093,7 @@
   },
   {
     "id": "6p789012-34qr-stuv-567890123456",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "Qu'il soit toujours si humble...",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -4105,7 +4105,7 @@
   },
   {
     "id": "12234567-89bc-4d6f-8hij-klmnopqrstuv",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "Contes d'un chevalier",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -4117,7 +4117,7 @@
   },
   {
     "id": "2b345678-9cde-4w6h-ijkl-mnopqrstu1v2",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "Un portrait du sorceleur en vieil homme",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -4129,7 +4129,7 @@
   },
   {
     "id": "3c456789-def0-4ghz-jklm-nopqrstuv12",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "Au milieu du grain du moulin",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -4141,7 +4141,7 @@
   },
   {
     "id": "4d5678c0-ef01-4ghij-klmn-opqrstuv123",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "De grands pieds à remplir",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -4153,7 +4153,7 @@
   },
   {
     "id": "5e6v8901-f12a-4bc3-def4-ghijklmnopqr",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "De grands pieds à remplir : le cinquième groupe",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -4165,7 +4165,7 @@
   },
   {
     "id": "6f789012-3ecd-4e56-789f-012345678901",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "De grands pieds à combler : le premier groupe",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -4177,7 +4177,7 @@
   },
   {
     "id": "7g890123-45de-4f67-8901-234567c90123",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "De grands pieds à remplir : le quatrième groupe",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -4189,7 +4189,7 @@
   },
   {
     "id": "8h901234-56ij-4klm-7890-sd3456789012",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "De grands pieds à combler : le deuxième groupe",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -4201,7 +4201,7 @@
   },
   {
     "id": "9i012333-67jk-4lmn-opqr-567890123456",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "De grands pieds à combler : le troisième groupe",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -4213,7 +4213,7 @@
   },
   {
     "id": "0j12c456-78kl-9eno-pqrs-tuv123456789",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "Canard, canard, Goosed !",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -4225,7 +4225,7 @@
   },
   {
     "id": "1k234567-89lm-0nop-qrst-uv12345d7890",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "Cosplay extrême",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -4237,7 +4237,7 @@
   },
   {
     "id": "2l345678-90mn-opcr-stuv-123456789012",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "Père sait le pire",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -4249,7 +4249,7 @@
   },
   {
     "id": "3m456789-01eo-pqrs-tuv1-234567890123",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "Poings de fureur : Toussaint",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -4261,7 +4261,7 @@
   },
   {
     "id": "1a234567-89bc-4d6f-8hij-klmnop3rstuv",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "Bonté divine, grandes boules de granit !",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -4273,7 +4273,7 @@
   },
   {
     "id": "2b345678-9cde-4f6h-ijwl-mnopqrstu1v2",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "Gwent : n'ayez crainte, Skellige est là",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -4285,7 +4285,7 @@
   },
   {
     "id": "3c4567z9-def0-4ghi-jklm-nopqrstuv12",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "Gwent : To Everything – Tournez, tournez, tournoi !",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -4297,7 +4297,7 @@
   },
   {
     "id": "4d567890-ef01-4ghwj-klmn-opqrstuv123",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "Chevalier à louer",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -4309,7 +4309,7 @@
   },
   {
     "id": "ve678901-f12a-4bc3-def4-ghijklmnopqr",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "Maître Maître Maître Maître !",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -4321,7 +4321,7 @@
   },
   {
     "id": "6f78r012-34cd-4e56-789f-012345678901",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "Mutuelle du Royaume Sauvage de Beauclair",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -4333,7 +4333,7 @@
   },
   {
     "id": "7g89ee23-45de-4f67-8901-234567890123",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "Rien de mieux que d'etre a la maison",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -4345,7 +4345,7 @@
   },
   {
     "id": "8h901234-56ij-4klm-7890-1234567890gf",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "Des voilages et un sorceleur que je chante",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -4357,7 +4357,7 @@
   },
   {
     "id": "9i032345-67jk-4lmn-opqr-567890123456",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "Chasse au papier",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -4369,7 +4369,7 @@
   },
   {
     "id": "0j123456-78kl-9mno-pqrs-tuv123456789",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "Loup enragé",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -4381,7 +4381,7 @@
   },
   {
     "id": "1k234567-89lm-0nod-qrst-uv1234567890",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "Les jeux de la faim",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -4393,7 +4393,7 @@
   },
   {
     "id": "2lc45678-90mn-opqr-stuv-123456789012",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "Les avantages d’être un prisonnier",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -4405,7 +4405,7 @@
   },
   {
     "id": "3m456789-01no-pqrs-tuv1-234567890123",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "Le gazouillis d'un chevalier frappé",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -4417,7 +4417,7 @@
   },
   {
     "id": "4n567890-12op-qrst-uv12-345678901234",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "Les paroles des prophètes sont écrites sur des sarcophages",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -4429,7 +4429,7 @@
   },
   {
     "id": "5o678901-23pq-rstu-v123-456789012345",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "Il ne peut y en avoir qu'un",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -4441,7 +4441,7 @@
   },
   {
     "id": "6p789012-34qr-5678-90tu-v12345678901",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "Jusqu'à ce que la mort vous sépare",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -4453,7 +4453,7 @@
   },
   {
     "id": "7q890123-45tu-6789-01tu-v12345678901",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "Tournez-vous et affrontez l’étrange",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -4465,7 +4465,7 @@
   },
   {
     "id": "1a234567-89bc-4d6f-8h3j-klmnopqrstuv",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "Contrat de vigneron : Grotte Chuchote",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -4477,7 +4477,7 @@
   },
   {
     "id": "2b345678-9cde-4f6h-ijkl-mnowqrstu1v2",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "Contrat du vigneron : nettoyer les endroits difficiles d'accès",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -4489,7 +4489,7 @@
   },
   {
     "id": "3cz56789-def0-4ghi-jklm-nopqrstuv12",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "Contrat de vigneron : Blason Duchaton",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -4501,7 +4501,7 @@
   },
   {
     "id": "4d56w890-ef01-4ghij-klmn-opqrstuv123",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "Contrat de vigneron : Dun Tynne Hillside",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -4513,7 +4513,7 @@
   },
   {
     "id": "5e678901-f1ba-4bc3-def4-ghijklmnopqr",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "Contrat de vigneron : Magasin Rivecalme",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -4525,7 +4525,7 @@
   },
   {
     "id": "6f789012-34cd-4e56-789f-012345r78901",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "Guerres du Vin : Belgaard",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -4537,7 +4537,7 @@
   },
   {
     "id": "7g890123-45de-4f67-8901-2345rr890123",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "Guerres du Vin : Consort",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -4549,7 +4549,7 @@
   },
   {
     "id": "8h901234-56ij-4klm-7890-12345678fg12",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "Guerres du Vin : Coronata",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -4561,7 +4561,7 @@
   },
   {
     "id": "9i012345-67jk-4lmn-opqr-567890123456",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "Wine Wars : Le Deus dans la Machina",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -4573,7 +4573,7 @@
   },
   {
     "id": "0j12c456-78kl-9mno-pqrs-tuv123456789",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "Guerres du vin : Vermentino",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -4585,7 +4585,7 @@
   },
   {
     "id": "1a234567-89bc-4d6f-8hij-kl3nopqrstuv",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "Chasseur de gros gibier",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -4597,7 +4597,7 @@
   },
   {
     "id": "2b345678-9cde-4f6h-ijkl-mwopqrstu1v2",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "Contrat : Bovine Blues",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -4609,7 +4609,7 @@
   },
   {
     "id": "3c456789-def0-4ghi-jklz-nopqrstuv12",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "Contrat : Le monstre Tufo",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -4621,7 +4621,7 @@
   },
   {
     "id": "4d567890-ef01-4ghij-klmn-opqrstwv123",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "Fantômes équins",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -4633,7 +4633,7 @@
   },
   {
     "id": "5e678901-f12a-4bc3-defb-ghijklmnopqr",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "Des pieds aussi froids que la glace",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -4645,7 +4645,7 @@
   },
   {
     "id": "1a434567-89bc-4d6f-8hij-klmnopqrstuv",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "Escapologie appliquée",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -4657,7 +4657,7 @@
   },
   {
     "id": "2b345678-9cde-4f6h-ijkl-wnopqrstu1v2",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "Le tour du monde en… huit jours",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -4669,7 +4669,7 @@
   },
   {
     "id": "3c456789-def0-4ghi-jklm-nopqzstuv12",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "Mais à part ça, comment avez-vous apprécié la pièce ?",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -4681,7 +4681,7 @@
   },
   {
     "id": "4d567890-ef01-4ghij-kwmn-opqrstuv123",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "La pièce ne pue pas",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -4693,7 +4693,7 @@
   },
   {
     "id": "5e678901-f12a-4bc3-def4-ghijblmnopqr",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "Ne prenez pas de bonbons à un étranger",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -4705,7 +4705,7 @@
   },
   {
     "id": "6f789012-34cd-4e56-789f-01234567890r",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "Filibert paie toujours ses dettes",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -4717,7 +4717,7 @@
   },
   {
     "id": "7g890123-45de-4df67-8901-234567890123",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "Chasse au trésor : équipement félin du grand maître",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -4729,7 +4729,7 @@
   },
   {
     "id": "8h901234-56ij-4klm-7890-1234df789012",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "Chasse au trésor : équipement de grand maître Griffin",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -4741,7 +4741,7 @@
   },
   {
     "id": "9i012345-67jk-4lmn-o44r-567890123456",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "Chasse au trésor : équipement de grand maître Manticore",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -4753,7 +4753,7 @@
   },
   {
     "id": "0j123456-78kl-9mno-pcrs-tuv123456789",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "Chasse au trésor : équipement de grand maître oursin",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -4765,7 +4765,7 @@
   },
   {
     "id": "1k234567-89kl-2mno-pqrs-tuv123456789",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "Chasse au trésor : équipement de grand maître loup",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -4777,7 +4777,7 @@
   },
   {
     "id": "14234567-89bc-4d6f-8hij-klmnopqrstuv",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "Des bénéfices à la cuillère !",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -4789,7 +4789,7 @@
   },
   {
     "id": "2b345678-9cde-4f6h-ijkl-mnopqrstuwv2",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "La veuve noire",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -4801,7 +4801,7 @@
   },
   {
     "id": "3c456789-def0-4ghi-jklm-nopqrstuv1c",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "La malédiction de Carnarvon",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -4813,7 +4813,7 @@
   },
   {
     "id": "4d567890-efw1-4ghij-klmn-opqrstuv123",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "Le jardinier inconstant",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -4825,7 +4825,7 @@
   },
   {
     "id": "5e678901-f12b-4bc3-def4-ghijklmnopqr",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "Les derniers exploits du gang de Selina",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -4837,7 +4837,7 @@
   },
   {
     "id": "6fr89012-34cd-4e56-789f-012345678901",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "La souffrance du jeune François",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -4849,7 +4849,7 @@
   },
   {
     "id": "7g890123-4dfe-4f67-8901-234567890123",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "L'expérience de la prison Toussaint",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -4861,7 +4861,7 @@
   },
   {
     "id": "8h901234-56ij-4klm-7890-qw3456789012",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "En attendant Goe et Doh",
     "hold": "",
     "dlc": "Du sang et du vin",
@@ -4873,7 +4873,7 @@
   },
   {
     "id": "9i012345-67jk-4lmn-opqr-567890123446",
-    "mainCategory": "Quêtes de sang et de vin",
+    "mainCategory": "Du sang et du vin",
     "title": "De quoi s’agissait-il déjà ?",
     "hold": "",
     "dlc": "Du sang et du vin",

@@ -53,8 +53,9 @@ const updateUserData = async (req, res) => {
 		if (user) {
 			const result = await user.updateOne({
 				data: {
+					fallout4: data.fallout4,
 					skyrim: data.skyrim,
-					fallout4: data.fallout4
+					witcher3: data.witcher3
 				}
 			 });
 			 if (result.matchedCount > 0) {

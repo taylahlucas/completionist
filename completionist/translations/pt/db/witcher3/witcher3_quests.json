@@ -2725,7 +2725,7 @@
   },
   {
     "id": "1a234567-89bc-4d6f-8qij-klmnopqrstuv",
-    "mainCategory": "Missões de contrato",
+    "mainCategory": "Contratos",
     "title": "Contrato: um ladrão esquivo",
     "hold": "Novigrad",
     "dlc": "Nenhum",
@@ -2737,7 +2737,7 @@
   },
   {
     "id": "2b34f678-9cde-4f6h-ijkl-mnopqrstu1v2",
-    "mainCategory": "Missões de contrato",
+    "mainCategory": "Contratos",
     "title": "Contrato: Delícias Mortais",
     "hold": "Novigrad",
     "dlc": "Nenhum",
@@ -2749,7 +2749,7 @@
   },
   {
     "id": "3c456789-def0-4ghi-jklm-nowqrstuv12",
-    "mainCategory": "Missões de contrato",
+    "mainCategory": "Contratos",
     "title": "Contrato: Portas se fechando",
     "hold": "Novigrad",
     "dlc": "Nenhum",
@@ -2761,7 +2761,7 @@
   },
   {
     "id": "4d567890-ef01-4ghij-k4mn-opqrstuv123",
-    "mainCategory": "Missões de contrato",
+    "mainCategory": "Contratos",
     "title": "Contrato: Senhor da Madeira",
     "hold": "Novigrad",
     "dlc": "Nenhum",
@@ -2773,7 +2773,7 @@
   },
   {
     "id": "5e678901-f12a-4bc3-ddd4-ghijklmnopqr",
-    "mainCategory": "Missões de contrato",
+    "mainCategory": "Contratos",
     "title": "Contrato: O Fantasma Apicultor",
     "hold": "Novigrad",
     "dlc": "Nenhum",
@@ -2785,7 +2785,7 @@
   },
   {
     "id": "6f789012-34cd-4e56-789f-012345678w01",
-    "mainCategory": "Missões de contrato",
+    "mainCategory": "Contratos",
     "title": "Contrato: A Criatura da Floresta de Oxenfurt",
     "hold": "Novigrad",
     "dlc": "Nenhum",
@@ -2797,7 +2797,7 @@
   },
   {
     "id": "7g890123-45de-4f67-8901-234522890123",
-    "mainCategory": "Missões de contrato",
+    "mainCategory": "Contratos",
     "title": "Contrato: O Bêbado de Oxenfurt",
     "hold": "Novigrad",
     "dlc": "Nenhum",
@@ -2809,7 +2809,7 @@
   },
   {
     "id": "8h901234-56ij-4klm-7890-1yy456789012",
-    "mainCategory": "Missões de contrato",
+    "mainCategory": "Contratos",
     "title": "Contrato: A Dama Branca",
     "hold": "Novigrad",
     "dlc": "Nenhum",
@@ -3613,7 +3613,7 @@
   },
   {
     "id": "1a234567-89bc-4d6f-8hij-klmnopqrstux",
-    "mainCategory": "Missões de corações de pedra",
+    "mainCategory": "Corações de pedra",
     "title": "Os primeiros toques suaves do mal",
     "hold": "",
     "dlc": "Corações de pedra",
@@ -3625,7 +3625,7 @@
   },
   {
     "id": "2b345678-9cde-4f6h-ijdl-mnopqrstu1v2",
-    "mainCategory": "Missões de corações de pedra",
+    "mainCategory": "Corações de pedra",
     "title": "Festa do Morto",
     "hold": "",
     "dlc": "Corações de pedra",
@@ -3637,7 +3637,7 @@
   },
   {
     "id": "3c456789-def0-4gei-jklm-nopqrstuv12",
-    "mainCategory": "Missões de corações de pedra",
+    "mainCategory": "Corações de pedra",
     "title": "Abre-te Sésamo!",
     "hold": "",
     "dlc": "Corações de pedra",
@@ -3649,7 +3649,7 @@
   },
   {
     "id": "4d567890-ef01-4gcij-klmn-opqrstuv123",
-    "mainCategory": "Missões de corações de pedra",
+    "mainCategory": "Corações de pedra",
     "title": "Gergelim aberto: temperos de bruxo",
     "hold": "",
     "dlc": "Corações de pedra",
@@ -3661,7 +3661,7 @@
   },
   {
     "id": "5e6789c1-f12a-4bc3-def4-ghijklmnopqr",
-    "mainCategory": "Missões de corações de pedra",
+    "mainCategory": "Corações de pedra",
     "title": "Sésamo aberto: arrombamento e invasão",
     "hold": "",
     "dlc": "Corações de pedra",
@@ -3673,7 +3673,7 @@
   },
   {
     "id": "6f789e12-34cd-4e56-789f-012345678901",
-    "mainCategory": "Missões de corações de pedra",
+    "mainCategory": "Corações de pedra",
     "title": "Abra Sesame: O arrombador de cofres",
     "hold": "",
     "dlc": "Corações de pedra",
@@ -3685,7 +3685,7 @@
   },
   {
     "id": "7g890c23-45de-4f67-8901-234567890123",
-    "mainCategory": "Missões de corações de pedra",
+    "mainCategory": "Corações de pedra",
     "title": "Cenas de um casamento",
     "hold": "",
     "dlc": "Corações de pedra",
@@ -3697,7 +3697,7 @@
   },
   {
     "id": "8h901234-56ij-4klm-7890-12c456789012",
-    "mainCategory": "Missões de corações de pedra",
+    "mainCategory": "Corações de pedra",
     "title": "Tudo o que um homem semeia...",
     "hold": "",
     "dlc": "Corações de pedra",
@@ -3709,7 +3709,7 @@
   },
   {
     "id": "1a234567-89bc-4d6f-xhij-klmnopqrstuv",
-    "mainCategory": "Missões de corações de pedra",
+    "mainCategory": "Corações de pedra",
     "title": "Uma meia-noite clara",
     "hold": "",
     "dlc": "Corações de pedra",
@@ -3721,7 +3721,7 @@
   },
   {
     "id": "2b34d678-9cde-4f6h-ijkl-mnopqrstu1v2",
-    "mainCategory": "Missões de corações de pedra",
+    "mainCategory": "Corações de pedra",
     "title": "Colecionador ávido",
     "hold": "",
     "dlc": "Corações de pedra",
@@ -3733,7 +3733,7 @@
   },
   {
     "id": "3c456789-def0-eghi-jklm-nopqrstuv12",
-    "mainCategory": "Missões de corações de pedra",
+    "mainCategory": "Corações de pedra",
     "title": "Encantamento: a qualidade tem seu preço",
     "hold": "",
     "dlc": "Corações de pedra",
@@ -3745,7 +3745,7 @@
   },
   {
     "id": "4dc67890-ef01-4ghij-klmn-opqrstuv123",
-    "mainCategory": "Missões de corações de pedra",
+    "mainCategory": "Corações de pedra",
     "title": "Encantador: custos iniciais",
     "hold": "",
     "dlc": "Corações de pedra",
@@ -3757,7 +3757,7 @@
   },
   {
     "id": "5e678901-f12a-cbc3-def4-ghijklmnopqr",
-    "mainCategory": "Missões de corações de pedra",
+    "mainCategory": "Corações de pedra",
     "title": "Corridas: rápidas como os ventos ocidentais",
     "hold": "",
     "dlc": "Corações de pedra",
@@ -3769,7 +3769,7 @@
   },
   {
     "id": "6f789012-34cd-4e56-789f-0123456789e1",
-    "mainCategory": "Missões de corações de pedra",
+    "mainCategory": "Corações de pedra",
     "title": "Rosa em um campo vermelho",
     "hold": "",
     "dlc": "Corações de pedra",
@@ -3781,7 +3781,7 @@
   },
   {
     "id": "7g890123-45de-4f67-8c01-234567890123",
-    "mainCategory": "Missões de corações de pedra",
+    "mainCategory": "Corações de pedra",
     "title": "O cobrador de impostos vem",
     "hold": "",
     "dlc": "Corações de pedra",
@@ -3793,7 +3793,7 @@
   },
   {
     "id": "8h901234-56ij-4kcm-7890-123456789012",
-    "mainCategory": "Missões de corações de pedra",
+    "mainCategory": "Corações de pedra",
     "title": "Sem deixar vestígios",
     "hold": "",
     "dlc": "Corações de pedra",
@@ -3805,7 +3805,7 @@
   },
   {
     "id": "1a234567-8cbc-4d6f-8hij-klmnopqrstuv",
-    "mainCategory": "Missões de corações de pedra",
+    "mainCategory": "Corações de pedra",
     "title": "Um legado sombrio",
     "hold": "",
     "dlc": "Corações de pedra",
@@ -3817,7 +3817,7 @@
   },
   {
     "id": "2w3d5678-9cde-4f6h-ijkl-mnopqrstu1v2",
-    "mainCategory": "Missões de corações de pedra",
+    "mainCategory": "Corações de pedra",
     "title": "Uma herança surpresa",
     "hold": "",
     "dlc": "Corações de pedra",
@@ -3829,7 +3829,7 @@
   },
   {
     "id": "3c456789-dez0-4ghi-jklm-nopqrstuv12",
-    "mainCategory": "Missões de corações de pedra",
+    "mainCategory": "Corações de pedra",
     "title": "Das costas distantes de Ofier",
     "hold": "",
     "dlc": "Corações de pedra",
@@ -3841,7 +3841,7 @@
   },
   {
     "id": "4d567890-ef01-4ghij-klmn-oqqrstuv123",
-    "mainCategory": "Missões de corações de pedra",
+    "mainCategory": "Corações de pedra",
     "title": "A Capela Amaldiçoada",
     "hold": "",
     "dlc": "Corações de pedra",
@@ -3853,7 +3853,7 @@
   },
   {
     "id": "5e678901-f12a-4bc3-defv-ghijklmnopqr",
-    "mainCategory": "Missões de corações de pedra",
+    "mainCategory": "Corações de pedra",
     "title": "A Redenção de Drakenborg",
     "hold": "",
     "dlc": "Corações de pedra",
@@ -3865,7 +3865,7 @@
   },
   {
     "id": "ef789012-34cd-4e56-789f-012345678901",
-    "mainCategory": "Missões de corações de pedra",
+    "mainCategory": "Corações de pedra",
     "title": "A Força Aérea Real",
     "hold": "",
     "dlc": "Corações de pedra",
@@ -3877,7 +3877,7 @@
   },
   {
     "id": "7g890123-45de-4f67-8901-234567890123",
-    "mainCategory": "Missões de corações de pedra",
+    "mainCategory": "Corações de pedra",
     "title": "A vida secreta do conde Romilly",
     "hold": "",
     "dlc": "Corações de pedra",
@@ -3889,7 +3889,7 @@
   },
   {
     "id": "8h901234-56ij-4klm-7890-12345678sd12",
-    "mainCategory": "Missões de corações de pedra",
+    "mainCategory": "Corações de pedra",
     "title": "A espada, a fome e a perfídia",
     "hold": "",
     "dlc": "Corações de pedra",
@@ -3901,7 +3901,7 @@
   },
   {
     "id": "9i012345-67jk-4lmn-opqr-564890123456",
-    "mainCategory": "Missões de corações de pedra",
+    "mainCategory": "Corações de pedra",
     "title": "Funileiro, Caçador, Soldado, Espião",
     "hold": "",
     "dlc": "Corações de pedra",
@@ -3913,7 +3913,7 @@
   },
   {
     "id": "1a233567-89bc-4d6f-8hij-klmnopqrstuv",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "Enviados, Wineboys",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -3925,7 +3925,7 @@
   },
   {
     "id": "2bw45678-9cde-4f6h-ijkl-mnopqrstu1v2",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "A Besta de Toussaint",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -3937,7 +3937,7 @@
   },
   {
     "id": "3c456789-def0-4ghi-jklm-nzpqrstuv12",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "Corrida de sangue",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -3949,7 +3949,7 @@
   },
   {
     "id": "4d567890-efc1-4ghij-klmn-opqrstuv123",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "La Cage au Fou",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -3961,7 +3961,7 @@
   },
   {
     "id": "5e678901-f12a-4bc3-def4-ghijklmnovqr",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "Onde as crianças trabalham, os brinquedos são desperdiçados",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -3973,7 +3973,7 @@
   },
   {
     "id": "6f789012-34cd-4e56-7eff-012345678901",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "O vinho é sagrado",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -3985,7 +3985,7 @@
   },
   {
     "id": "7g890123-45de-4f67-8901-2c4567c90123",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "O Homem de Cintra",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -3997,7 +3997,7 @@
   },
   {
     "id": "8h901234-56ij-4klm-7890-12345sdf9012",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "Capture o Castelo",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -4009,7 +4009,7 @@
   },
   {
     "id": "9i012345-67jk-4lmn-4pqr-567890123456",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "A Noite das Presas Longas",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -4021,7 +4021,7 @@
   },
   {
     "id": "0j123456-78kl-9mno-pqrs-tuv123456c89",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "Além de Hill e Dale...",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -4033,7 +4033,7 @@
   },
   {
     "id": "1k234567-89lm-0nop-qrst-uv1234567890",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "Sangue Simples",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -4045,7 +4045,7 @@
   },
   {
     "id": "2l345678-90mn-opqr-stuv-12345678901c",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "O que está invisível",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -4057,7 +4057,7 @@
   },
   {
     "id": "3m456789-01no-pqrs-tuee-234567890123",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "Tesham Mutna",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -4069,7 +4069,7 @@
   },
   {
     "id": "4n567890-12op-qrs-tuv12-345678901234",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "Pompa e Circunstância Estranha",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -4081,7 +4081,7 @@
   },
   {
     "id": "5o678901-23pq-rst-uv123-456789012345",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "Serapilheira é a nova listra",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -4093,7 +4093,7 @@
   },
   {
     "id": "6p789012-34qr-stuv-567890123456",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "Seja sempre tão humilde...",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -4105,7 +4105,7 @@
   },
   {
     "id": "12234567-89bc-4d6f-8hij-klmnopqrstuv",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "Contos de um Cavaleiro",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -4117,7 +4117,7 @@
   },
   {
     "id": "2b345678-9cde-4w6h-ijkl-mnopqrstu1v2",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "Um retrato do bruxo quando velho",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -4129,7 +4129,7 @@
   },
   {
     "id": "3c456789-def0-4ghz-jklm-nopqrstuv12",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "Em meio ao grão do moinho",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -4141,7 +4141,7 @@
   },
   {
     "id": "4d5678c0-ef01-4ghij-klmn-opqrstuv123",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "Pés grandes para preencher",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -4153,7 +4153,7 @@
   },
   {
     "id": "5e6v8901-f12a-4bc3-def4-ghijklmnopqr",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "Pés grandes para preencher: o quinto grupo",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -4165,7 +4165,7 @@
   },
   {
     "id": "6f789012-3ecd-4e56-789f-012345678901",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "Pés grandes para preencher: o primeiro grupo",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -4177,7 +4177,7 @@
   },
   {
     "id": "7g890123-45de-4f67-8901-234567c90123",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "Pés grandes para preencher: o quarto grupo",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -4189,7 +4189,7 @@
   },
   {
     "id": "8h901234-56ij-4klm-7890-sd3456789012",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "Pés grandes para preencher: o segundo grupo",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -4201,7 +4201,7 @@
   },
   {
     "id": "9i012333-67jk-4lmn-opqr-567890123456",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "Pés grandes para preencher: o terceiro grupo",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -4213,7 +4213,7 @@
   },
   {
     "id": "0j12c456-78kl-9eno-pqrs-tuv123456789",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "Pato, Pato, Ganso!",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -4225,7 +4225,7 @@
   },
   {
     "id": "1k234567-89lm-0nop-qrst-uv12345d7890",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "Cosplay Extremo",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -4237,7 +4237,7 @@
   },
   {
     "id": "2l345678-90mn-opcr-stuv-123456789012",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "Pai sabe o pior",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -4249,7 +4249,7 @@
   },
   {
     "id": "3m456789-01eo-pqrs-tuv1-234567890123",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "Punhos da Fúria: Toussaint",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -4261,7 +4261,7 @@
   },
   {
     "id": "1a234567-89bc-4d6f-8hij-klmnop3rstuv",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "Meu Deus, meu Deus, grandes bolas de granito!",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -4273,7 +4273,7 @@
   },
   {
     "id": "2b345678-9cde-4f6h-ijwl-mnopqrstu1v2",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "Gwent: Não tenha medo, Skellige está aqui",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -4285,7 +4285,7 @@
   },
   {
     "id": "3c4567z9-def0-4ghi-jklm-nopqrstuv12",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "Gwent: Para Tudo - Turno, Turno, Torneio!",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -4297,7 +4297,7 @@
   },
   {
     "id": "4d567890-ef01-4ghwj-klmn-opqrstuv123",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "Cavaleiro de aluguel",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -4309,7 +4309,7 @@
   },
   {
     "id": "ve678901-f12a-4bc3-def4-ghijklmnopqr",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "Mestre Mestre Mestre Mestre!",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -4321,7 +4321,7 @@
   },
   {
     "id": "6f78r012-34cd-4e56-789f-012345678901",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "Mútuo do Reino Selvagem de Beauclair",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -4333,7 +4333,7 @@
   },
   {
     "id": "7g89ee23-45de-4f67-8901-234567890123",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "Não há lugar como o lar",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -4345,7 +4345,7 @@
   },
   {
     "id": "8h901234-56ij-4klm-7890-1234567890gf",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "De Sheers e um Witcher eu canto",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -4357,7 +4357,7 @@
   },
   {
     "id": "9i032345-67jk-4lmn-opqr-567890123456",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "Caçada de papel",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -4369,7 +4369,7 @@
   },
   {
     "id": "0j123456-78kl-9mno-pqrs-tuv123456789",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "Lobo Furioso",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -4381,7 +4381,7 @@
   },
   {
     "id": "1k234567-89lm-0nod-qrst-uv1234567890",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "O jogo voraz",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -4393,7 +4393,7 @@
   },
   {
     "id": "2lc45678-90mn-opqr-stuv-123456789012",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "As vantagens de ser um Jailbird",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -4405,7 +4405,7 @@
   },
   {
     "id": "3m456789-01no-pqrs-tuv1-234567890123",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "O gorjeio de um cavaleiro ferido",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -4417,7 +4417,7 @@
   },
   {
     "id": "4n567890-12op-qrst-uv12-345678901234",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "As palavras dos profetas estão escritas em sarcófagos",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -4429,7 +4429,7 @@
   },
   {
     "id": "5o678901-23pq-rstu-v123-456789012345",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "Só pode haver um",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -4441,7 +4441,7 @@
   },
   {
     "id": "6p789012-34qr-5678-90tu-v12345678901",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "Até que a morte os separe",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -4453,7 +4453,7 @@
   },
   {
     "id": "7q890123-45tu-6789-01tu-v12345678901",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "Vire-se e enfrente o estranho",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -4465,7 +4465,7 @@
   },
   {
     "id": "1a234567-89bc-4d6f-8h3j-klmnopqrstuv",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "Contrato do Vintner: Caverna Chuchote",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -4477,7 +4477,7 @@
   },
   {
     "id": "2b345678-9cde-4f6h-ijkl-mnowqrstu1v2",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "Contrato da Vintner: Limpando aqueles lugares de difícil acesso",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -4489,7 +4489,7 @@
   },
   {
     "id": "3cz56789-def0-4ghi-jklm-nopqrstuv12",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "Contrato de Vintner: Duchaton Crest",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -4501,7 +4501,7 @@
   },
   {
     "id": "4d56w890-ef01-4ghij-klmn-opqrstuv123",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "Contrato de Vintner: Dun Tynne Hillside",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -4513,7 +4513,7 @@
   },
   {
     "id": "5e678901-f1ba-4bc3-def4-ghijklmnopqr",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "Contrato da Vintner: Armazém Rivecalme",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -4525,7 +4525,7 @@
   },
   {
     "id": "6f789012-34cd-4e56-789f-012345r78901",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "Guerras do Vinho: Belgaard",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -4537,7 +4537,7 @@
   },
   {
     "id": "7g890123-45de-4f67-8901-2345rr890123",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "Guerras do Vinho: Consórcio",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -4549,7 +4549,7 @@
   },
   {
     "id": "8h901234-56ij-4klm-7890-12345678fg12",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "Guerras do Vinho: Coronata",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -4561,7 +4561,7 @@
   },
   {
     "id": "9i012345-67jk-4lmn-opqr-567890123456",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "Guerras do Vinho: O Deus na Machina",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -4573,7 +4573,7 @@
   },
   {
     "id": "0j12c456-78kl-9mno-pqrs-tuv123456789",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "Guerras do Vinho: Vermentino",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -4585,7 +4585,7 @@
   },
   {
     "id": "1a234567-89bc-4d6f-8hij-kl3nopqrstuv",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "Caçador de Grande Jogo",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -4597,7 +4597,7 @@
   },
   {
     "id": "2b345678-9cde-4f6h-ijkl-mwopqrstu1v2",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "Contrato: Bovino Blues",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -4609,7 +4609,7 @@
   },
   {
     "id": "3c456789-def0-4ghi-jklz-nopqrstuv12",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "Contrato: O Monstro Tufo",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -4621,7 +4621,7 @@
   },
   {
     "id": "4d567890-ef01-4ghij-klmn-opqrstwv123",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "Fantasmas Equinos",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -4633,7 +4633,7 @@
   },
   {
     "id": "5e678901-f12a-4bc3-defb-ghijklmnopqr",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "Pés frios como gelo",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -4645,7 +4645,7 @@
   },
   {
     "id": "1a434567-89bc-4d6f-8hij-klmnopqrstuv",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "Escapologia Aplicada",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -4657,7 +4657,7 @@
   },
   {
     "id": "2b345678-9cde-4f6h-ijkl-wnopqrstu1v2",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "A Volta ao Mundo em... Oito Dias",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -4669,7 +4669,7 @@
   },
   {
     "id": "3c456789-def0-4ghi-jklm-nopqzstuv12",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "Mas fora isso, como você gostou da peça?",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -4681,7 +4681,7 @@
   },
   {
     "id": "4d567890-ef01-4ghij-kwmn-opqrstuv123",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "Moeda não fede",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -4693,7 +4693,7 @@
   },
   {
     "id": "5e678901-f12a-4bc3-def4-ghijblmnopqr",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "Não aceite doces de um estranho",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -4705,7 +4705,7 @@
   },
   {
     "id": "6f789012-34cd-4e56-789f-01234567890r",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "Filibert sempre paga suas dívidas",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -4717,7 +4717,7 @@
   },
   {
     "id": "7g890123-45de-4df67-8901-234567890123",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "Caça ao tesouro: equipamento felino do Grão-Mestre",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -4729,7 +4729,7 @@
   },
   {
     "id": "8h901234-56ij-4klm-7890-1234df789012",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "Caça ao Tesouro: Equipamento do Grão-Mestre Griffin",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -4741,7 +4741,7 @@
   },
   {
     "id": "9i012345-67jk-4lmn-o44r-567890123456",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "Caça ao Tesouro: Equipamento do Grão-mestre Manticore",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -4753,7 +4753,7 @@
   },
   {
     "id": "0j123456-78kl-9mno-pcrs-tuv123456789",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "Caça ao Tesouro: Equipamento do Grão-Mestre Ursine",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -4765,7 +4765,7 @@
   },
   {
     "id": "1k234567-89kl-2mno-pqrs-tuv123456789",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "Caça ao Tesouro: Equipamento do Grão-Mestre Wolven",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -4777,7 +4777,7 @@
   },
   {
     "id": "14234567-89bc-4d6f-8hij-klmnopqrstuv",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "Lucros espontâneos!",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -4789,7 +4789,7 @@
   },
   {
     "id": "2b345678-9cde-4f6h-ijkl-mnopqrstuwv2",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "A viúva negra",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -4801,7 +4801,7 @@
   },
   {
     "id": "3c456789-def0-4ghi-jklm-nopqrstuv1c",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "A Maldição de Carnarvon",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -4813,7 +4813,7 @@
   },
   {
     "id": "4d567890-efw1-4ghij-klmn-opqrstuv123",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "O Jardineiro Inconstante",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -4825,7 +4825,7 @@
   },
   {
     "id": "5e678901-f12b-4bc3-def4-ghijklmnopqr",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "As últimas façanhas da gangue de Selina",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -4837,7 +4837,7 @@
   },
   {
     "id": "6fr89012-34cd-4e56-789f-012345678901",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "O sofrimento do jovem François",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -4849,7 +4849,7 @@
   },
   {
     "id": "7g890123-4dfe-4f67-8901-234567890123",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "A experiência da prisão de Toussaint",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -4861,7 +4861,7 @@
   },
   {
     "id": "8h901234-56ij-4klm-7890-qw3456789012",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "Esperando por Goe e Doh",
     "hold": "",
     "dlc": "Sangue e Vinho",
@@ -4873,7 +4873,7 @@
   },
   {
     "id": "9i012345-67jk-4lmn-opqr-567890123446",
-    "mainCategory": "Missões de sangue e vinho",
+    "mainCategory": "Sangue e Vinho",
     "title": "O que foi isso de novo?",
     "hold": "",
     "dlc": "Sangue e Vinho",
