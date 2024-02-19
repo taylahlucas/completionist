@@ -92,11 +92,39 @@
       }
     },
     "categories": {
+      "fallout4": {
+        "title": "辐射4",
+        "categories": {
+          "quests": {
+            "mainQuests": "主线任务",
+            "factionQuests": "派系任务",
+            "sideQuests": "支线任务"
+          },
+          "collectables": {
+            "bobbleheads": "摇头娃娃",
+            "magazines": "杂志",
+            "uniqueWeapons": "独特的武器",
+            "uniqueArmour": "独特的盔甲",
+            "powerArmour": "动力装甲"
+          },
+          "locations": {
+            "main": "主要的"
+          },
+          "miscellaneous": {
+            "holotapes": "全息带"
+          }
+        },
+        "dlc": {
+          "automatron": "自动机",
+          "farHarbor": "远港",
+          "nukaWorld": "核子世界",
+          "vaultTecWorkshop": "Vault-Tec 研讨会"
+        }
+      },
       "skyrim": {
         "title": "天际",
         "categories": {
           "quests": {
-            "title": "任务",
             "mainQuests": "主线任务",
             "factionQuests": "派系任务",
             "civilWar": "内战",
@@ -107,7 +135,6 @@
             "globalQuests": "全球任务"
           },
           "collectables": {
-            "title": "收藏品",
             "dragonPriestMasks": "龙祭司面具",
             "daedricArtefacts": "魔族文物",
             "bugInAJar": "罐子里的虫子",
@@ -118,10 +145,9 @@
             "stones": "石头"
           },
           "locations": {
-            "title": "地点"
+            "main": "主要的"
           },
           "miscellaneous": {
-            "title": "各种各样的",
             "books": "图书",
             "spellTomes": "法术书",
             "journals": "期刊"
@@ -133,36 +159,25 @@
           "hearthfire": "炉火"
         }
       },
-      "fallout4": {
-        "title": "辐射4",
+      "witcher3": {
+        "title": "巫师 3：狂猎",
         "categories": {
           "quests": {
-            "title": "任务",
             "mainQuests": "主线任务",
-            "factionQuests": "派系任务",
-            "sideQuests": "支线任务"
+            "secondaryQuests": "次要任务",
+            "contracts": "合约",
+            "treasureHunts": "寻宝"
           },
           "collectables": {
-            "title": "收藏品",
-            "bobbleheads": "摇头娃娃",
-            "magazines": "杂志",
-            "uniqueWeapons": "独特的武器",
-            "uniqueArmour": "独特的盔甲",
-            "powerArmour": "动力装甲"
+            "diagrams": "图表"
           },
           "locations": {
-            "title": "地点"
-          },
-          "miscellaneous": {
-            "title": "各种各样的",
-            "holotapes": "全息带"
+            "main": "主要的"
           }
         },
         "dlc": {
-          "automatron": "自动机",
-          "farHarbor": "远港",
-          "nukaWorld": "核子世界",
-          "vaultTecWorkshop": "Vault-Tec 研讨会"
+          "bloodAndWine": "血与酒",
+          "heartsOfStone": "石之心"
         }
       }
     }
@@ -260,11 +275,39 @@
       }
     },
     "categories": {
+      "fallout4": {
+        "title": "bụi phóng xạ 4",
+        "categories": {
+          "quests": {
+            "mainQuests": "Nhiệm vụ chính",
+            "factionQuests": "Nhiệm vụ phe phái",
+            "sideQuests": "Nhiệm vụ phụ"
+          },
+          "collectables": {
+            "bobbleheads": "tóc bồng bềnh",
+            "magazines": "Tạp chí thời sự",
+            "uniqueWeapons": "Vũ khí độc đáo",
+            "uniqueArmour": "Giáp độc nhất",
+            "powerArmour": "Giáp sức mạnh"
+          },
+          "locations": {
+            "main": "Chủ yếu"
+          },
+          "miscellaneous": {
+            "holotapes": "ảnh ba chiều"
+          }
+        },
+        "dlc": {
+          "automatron": "Máy tự động",
+          "farHarbor": "Cảng xa",
+          "nukaWorld": "Thế giới Nuka",
+          "vaultTecWorkshop": "Hội thảo Vault-Tec"
+        }
+      },
       "skyrim": {
         "title": "Skyrim",
         "categories": {
           "quests": {
-            "title": "Nhiệm vụ",
             "mainQuests": "Nhiệm vụ chính",
             "factionQuests": "Nhiệm vụ phe phái",
             "civilWar": "Nội chiến",
@@ -275,7 +318,6 @@
             "globalQuests": "Nhiệm vụ toàn cầu"
           },
           "collectables": {
-            "title": "Đồ sưu tầm",
             "dragonPriestMasks": "Mặt nạ linh mục rồng",
             "daedricArtefacts": "Cổ vật Daedric",
             "bugInAJar": "Lỗi trong lọ",
@@ -286,10 +328,9 @@
             "stones": "Đá"
           },
           "locations": {
-            "title": "Địa điểm"
+            "main": "Chủ yếu"
           },
           "miscellaneous": {
-            "title": "Điều khoản khác",
             "books": "Sách",
             "spellTomes": "Sách đánh vần",
             "journals": "tạp chí"
@@ -301,36 +342,25 @@
           "hearthfire": "lửa lò sưởi"
         }
       },
-      "fallout4": {
-        "title": "bụi phóng xạ 4",
+      "witcher3": {
+        "title": "The Witcher 3: Cuộc săn hoang dã",
         "categories": {
           "quests": {
-            "title": "Nhiệm vụ",
             "mainQuests": "Nhiệm vụ chính",
-            "factionQuests": "Nhiệm vụ phe phái",
-            "sideQuests": "Nhiệm vụ phụ"
+            "secondaryQuests": "Nhiệm vụ phụ",
+            "contracts": "Hợp đồng",
+            "treasureHunts": "Săn lùng kho báu"
           },
           "collectables": {
-            "title": "Đồ sưu tầm",
-            "bobbleheads": "tóc bồng bềnh",
-            "magazines": "Tạp chí thời sự",
-            "uniqueWeapons": "Vũ khí độc đáo",
-            "uniqueArmour": "Giáp độc nhất",
-            "powerArmour": "Giáp sức mạnh"
+            "diagrams": "Sơ đồ"
           },
           "locations": {
-            "title": "Địa điểm"
-          },
-          "miscellaneous": {
-            "title": "Điều khoản khác",
-            "holotapes": "ảnh ba chiều"
+            "main": "Chủ yếu"
           }
         },
         "dlc": {
-          "automatron": "Máy tự động",
-          "farHarbor": "Cảng xa",
-          "nukaWorld": "Thế giới Nuka",
-          "vaultTecWorkshop": "Hội thảo Vault-Tec"
+          "bloodAndWine": "máuvàrượu",
+          "heartsOfStone": "trái timOfStone"
         }
       }
     }
@@ -428,11 +458,39 @@
       }
     },
     "categories": {
+      "fallout4": {
+        "title": "Serpinti 4",
+        "categories": {
+          "quests": {
+            "mainQuests": "Ana Görevler",
+            "factionQuests": "Fraksiyon Görevleri",
+            "sideQuests": "Yan Görevler"
+          },
+          "collectables": {
+            "bobbleheads": "Bobblehead'ler",
+            "magazines": "Dergiler",
+            "uniqueWeapons": "Benzersiz Silahlar",
+            "uniqueArmour": "Benzersiz Zırh",
+            "powerArmour": "Güç Zırhı"
+          },
+          "locations": {
+            "main": "Ana"
+          },
+          "miscellaneous": {
+            "holotapes": "Sanal bantlar"
+          }
+        },
+        "dlc": {
+          "automatron": "Otomatron",
+          "farHarbor": "Uzak Liman",
+          "nukaWorld": "Nuka-Dünya",
+          "vaultTecWorkshop": "Vault-Tec Atölyesi"
+        }
+      },
       "skyrim": {
         "title": "Skyrim",
         "categories": {
           "quests": {
-            "title": "Görevler",
             "mainQuests": "Ana Görevler",
             "factionQuests": "Fraksiyon Görevleri",
             "civilWar": "İç savaş",
@@ -443,8 +501,7 @@
             "globalQuests": "Küresel Görevler"
           },
           "collectables": {
-            "title": "Koleksiyon parçaları",
-            "dragonPriestMasks": "Ejderha Rahibi Maskeleri",
+            "dragonPriestMasks": "Ejderha Rahip Maskeleri",
             "daedricArtefacts": "Daedrik Eserler",
             "bugInAJar": "Kavanozdaki Böcek",
             "shouts": "Bağırışlar",
@@ -454,10 +511,9 @@
             "stones": "Taşlar"
           },
           "locations": {
-            "title": "Konumlar"
+            "main": "Ana"
           },
           "miscellaneous": {
-            "title": "Çeşitli",
             "books": "Kitabın",
             "spellTomes": "Büyü Kitapları",
             "journals": "Günlükler"
@@ -469,36 +525,25 @@
           "hearthfire": "Ocak ateşi"
         }
       },
-      "fallout4": {
-        "title": "Fallout 4",
+      "witcher3": {
+        "title": "Witcher 3: Vahşi Av",
         "categories": {
           "quests": {
-            "title": "Görevler",
             "mainQuests": "Ana Görevler",
-            "factionQuests": "Fraksiyon Görevleri",
-            "sideQuests": "Yan Görevler"
+            "secondaryQuests": "İkincil Görevler",
+            "contracts": "Sözleşmeler",
+            "treasureHunts": "Hazine avı"
           },
           "collectables": {
-            "title": "Koleksiyon parçaları",
-            "bobbleheads": "Bobblehead'ler",
-            "magazines": "Dergiler",
-            "uniqueWeapons": "Benzersiz Silahlar",
-            "uniqueArmour": "Benzersiz Zırh",
-            "powerArmour": "Güç Zırhı"
+            "diagrams": "Diyagramlar"
           },
           "locations": {
-            "title": "Konumlar"
-          },
-          "miscellaneous": {
-            "title": "Çeşitli",
-            "holotapes": "Sanal bantlar"
+            "main": "Ana"
           }
         },
         "dlc": {
-          "automatron": "Otomatron",
-          "farHarbor": "Uzak Liman",
-          "nukaWorld": "Nuka-Dünya",
-          "vaultTecWorkshop": "Vault-Tec Atölyesi"
+          "bloodAndWine": "kanveşarap",
+          "heartsOfStone": "kalplerOfTaş"
         }
       }
     }
@@ -596,13 +641,41 @@
       }
     },
     "categories": {
+      "fallout4": {
+        "title": "Efeito Fallout 4",
+        "categories": {
+          "quests": {
+            "mainQuests": "Missões principais",
+            "factionQuests": "Missões de Facção",
+            "sideQuests": "Missões paralelas"
+          },
+          "collectables": {
+            "bobbleheads": "Bobbleheads",
+            "magazines": "Revistas",
+            "uniqueWeapons": "Armas únicas",
+            "uniqueArmour": "Armadura Única",
+            "powerArmour": "Armadura Potente"
+          },
+          "locations": {
+            "main": "Principal"
+          },
+          "miscellaneous": {
+            "holotapes": "Holotapes"
+          }
+        },
+        "dlc": {
+          "automatron": "Autômato",
+          "farHarbor": "Porto Distante",
+          "nukaWorld": "Nuka-Mundo",
+          "vaultTecWorkshop": "Oficina Vault-Tec"
+        }
+      },
       "skyrim": {
         "title": "Skyrim",
         "categories": {
           "quests": {
-            "title": "Missões",
             "mainQuests": "Missões principais",
-            "factionQuests": "Missões de facção",
+            "factionQuests": "Missões de Facção",
             "civilWar": "Guerra civil",
             "daedricQuests": "Missões Daédricas",
             "dungeonQuests": "Missões de masmorra",
@@ -611,7 +684,6 @@
             "globalQuests": "Missões Globais"
           },
           "collectables": {
-            "title": "Colecionáveis",
             "dragonPriestMasks": "Máscaras de Sacerdote Dragão",
             "daedricArtefacts": "Artefatos Daédricos",
             "bugInAJar": "Bug em uma jarra",
@@ -622,10 +694,9 @@
             "stones": "Pedras"
           },
           "locations": {
-            "title": "Localizações"
+            "main": "Principal"
           },
           "miscellaneous": {
-            "title": "Diversos",
             "books": "Livros",
             "spellTomes": "Tomos de feitiços",
             "journals": "Diários"
@@ -637,36 +708,25 @@
           "hearthfire": "Lareira"
         }
       },
-      "fallout4": {
-        "title": "Fallout 4",
+      "witcher3": {
+        "title": "The Witcher 3: Caça Selvagem",
         "categories": {
           "quests": {
-            "title": "Missões",
             "mainQuests": "Missões principais",
-            "factionQuests": "Missões de facção",
-            "sideQuests": "Missões paralelas"
+            "secondaryQuests": "Missões Secundárias",
+            "contracts": "Contratos",
+            "treasureHunts": "Caças ao tesouro"
           },
           "collectables": {
-            "title": "Colecionáveis",
-            "bobbleheads": "Bobbleheads",
-            "magazines": "Revistas",
-            "uniqueWeapons": "Armas únicas",
-            "uniqueArmour": "Armadura Única",
-            "powerArmour": "Armadura Potente"
+            "diagrams": "Diagramas"
           },
           "locations": {
-            "title": "Localizações"
-          },
-          "miscellaneous": {
-            "title": "Diversos",
-            "holotapes": "Holotapes"
+            "main": "Principal"
           }
         },
         "dlc": {
-          "automatron": "Autômato",
-          "farHarbor": "Porto Distante",
-          "nukaWorld": "Nuka-Mundo",
-          "vaultTecWorkshop": "Oficina Vault-Tec"
+          "bloodAndWine": "sangue e vinho",
+          "heartsOfStone": "coraçõesOfStone"
         }
       }
     }
@@ -764,11 +824,39 @@
       }
     },
     "categories": {
+      "fallout4": {
+        "title": "フォールアウト4",
+        "categories": {
+          "quests": {
+            "mainQuests": "メインクエスト",
+            "factionQuests": "派閥クエスト",
+            "sideQuests": "サイドクエスト"
+          },
+          "collectables": {
+            "bobbleheads": "ボブルヘッド",
+            "magazines": "雑誌",
+            "uniqueWeapons": "ユニークな武器",
+            "uniqueArmour": "ユニークな鎧",
+            "powerArmour": "パワーアーマー"
+          },
+          "locations": {
+            "main": "主要"
+          },
+          "miscellaneous": {
+            "holotapes": "ホロテープ"
+          }
+        },
+        "dlc": {
+          "automatron": "オートマトロン",
+          "farHarbor": "ファーハーバー",
+          "nukaWorld": "ヌカ・ワールド",
+          "vaultTecWorkshop": "Vault-Tec ワークショップ"
+        }
+      },
       "skyrim": {
         "title": "スカイリム",
         "categories": {
           "quests": {
-            "title": "クエスト",
             "mainQuests": "メインクエスト",
             "factionQuests": "派閥クエスト",
             "civilWar": "内戦",
@@ -779,7 +867,6 @@
             "globalQuests": "グローバルクエスト"
           },
           "collectables": {
-            "title": "収集品",
             "dragonPriestMasks": "ドラゴン プリーストの仮面",
             "daedricArtefacts": "デイドラアーティファクト",
             "bugInAJar": "瓶の中の虫",
@@ -790,10 +877,9 @@
             "stones": "石"
           },
           "locations": {
-            "title": "所在地"
+            "main": "主要"
           },
           "miscellaneous": {
-            "title": "その他",
             "books": "本",
             "spellTomes": "呪文の本",
             "journals": "雑誌"
@@ -805,36 +891,25 @@
           "hearthfire": "ハースファイア"
         }
       },
-      "fallout4": {
-        "title": "Fallout 4",
+      "witcher3": {
+        "title": "ウィッチャー3: ワイルドハント",
         "categories": {
           "quests": {
-            "title": "クエスト",
             "mainQuests": "メインクエスト",
-            "factionQuests": "派閥クエスト",
-            "sideQuests": "サイドクエスト"
+            "secondaryQuests": "二次クエスト",
+            "contracts": "契約",
+            "treasureHunts": "宝探し"
           },
           "collectables": {
-            "title": "収集品",
-            "bobbleheads": "ボブルヘッド",
-            "magazines": "雑誌",
-            "uniqueWeapons": "ユニークな武器",
-            "uniqueArmour": "ユニークな鎧",
-            "powerArmour": "パワーアーマー"
+            "diagrams": "図表"
           },
           "locations": {
-            "title": "所在地"
-          },
-          "miscellaneous": {
-            "title": "その他",
-            "holotapes": "ホロテープ"
+            "main": "主要"
           }
         },
         "dlc": {
-          "automatron": "オートマトロン",
-          "farHarbor": "ファーハーバー",
-          "nukaWorld": "ヌカ・ワールド",
-          "vaultTecWorkshop": "Vault-Tec ワークショップ"
+          "bloodAndWine": "血とワイン",
+          "heartsOfStone": "ハートオブストーン"
         }
       }
     }
@@ -932,77 +1007,92 @@
       }
     },
     "categories": {
-      "skyrim": {
-        "title": "Skyrim",
+      "fallout4": {
+        "title": "フォールアウト4",
         "categories": {
           "quests": {
-            "title": "Missioni",
-            "mainQuests": "Missioni principali",
-            "factionQuests": "Missioni di fazione",
-            "civilWar": "Guerra civile",
-            "daedricQuests": "Missioni daedriche",
-            "dungeonQuests": "Missioni nei sotterranei",
-            "miscellaneousQuests": "Missioni varie",
-            "bountyQuests": "Missioni di taglia",
-            "globalQuests": "Missioni globali"
+            "mainQuests": "メインクエスト",
+            "factionQuests": "派閥クエスト",
+            "sideQuests": "サイドクエスト"
           },
           "collectables": {
-            "title": "Oggetti da collezione",
-            "dragonPriestMasks": "Maschere del Sacerdote Drago",
-            "daedricArtefacts": "Manufatti daedrici",
-            "bugInAJar": "Insetto in un barattolo",
-            "shouts": "Grida",
-            "uniqueArmourSets": "Set di armature unici",
-            "uniqueWeapons": "Armi uniche",
-            "shrines": "Santuari",
-            "stones": "Pietre"
+            "bobbleheads": "ボブルヘッド",
+            "magazines": "雑誌",
+            "uniqueWeapons": "ユニークな武器",
+            "uniqueArmour": "ユニークな鎧",
+            "powerArmour": "パワーアーマー"
           },
           "locations": {
-            "title": "Posizioni"
+            "main": "主要"
           },
           "miscellaneous": {
-            "title": "Varie",
-            "books": "Libri",
-            "spellTomes": "Tomi di incantesimi",
-            "journals": "Riviste"
+            "holotapes": "ホロテープ"
           }
         },
         "dlc": {
-          "dawnguard": "Dawnguard",
-          "dragonborn": "Sangue di Drago",
-          "hearthfire": "Focolare"
+          "automatron": "オートマトロン",
+          "farHarbor": "ファーハーバー",
+          "nukaWorld": "ヌカ・ワールド",
+          "vaultTecWorkshop": "Vault-Tec ワークショップ"
         }
       },
-      "fallout4": {
-        "title": "Fallout 4",
+      "skyrim": {
+        "title": "スカイリム",
         "categories": {
           "quests": {
-            "title": "Missioni",
-            "mainQuests": "Missioni principali",
-            "factionQuests": "Missioni di fazione",
-            "sideQuests": "Missioni secondarie"
+            "mainQuests": "メインクエスト",
+            "factionQuests": "派閥クエスト",
+            "civilWar": "内戦",
+            "daedricQuests": "デイドラクエスト",
+            "dungeonQuests": "ダンジョンクエスト",
+            "miscellaneousQuests": "その他のクエスト",
+            "bountyQuests": "賞金クエスト",
+            "globalQuests": "グローバルクエスト"
           },
           "collectables": {
-            "title": "Oggetti da collezione",
-            "bobbleheads": "Teste molleggiate",
-            "magazines": "Riviste",
-            "uniqueWeapons": "Armi uniche",
-            "uniqueArmour": "Armatura unica",
-            "powerArmour": "Armatura potenziata"
+            "dragonPriestMasks": "ドラゴン プリーストの仮面",
+            "daedricArtefacts": "デイドラアーティファクト",
+            "bugInAJar": "瓶の中の虫",
+            "shouts": "叫び声",
+            "uniqueArmourSets": "ユニークな防具セット",
+            "uniqueWeapons": "ユニークな武器",
+            "shrines": "神社",
+            "stones": "石"
           },
           "locations": {
-            "title": "Posizioni"
+            "main": "主要"
           },
           "miscellaneous": {
-            "title": "Varie",
-            "holotapes": "Olonastri"
+            "books": "本",
+            "spellTomes": "呪文の本",
+            "journals": "雑誌"
           }
         },
         "dlc": {
-          "automatron": "Automatron",
-          "farHarbor": "Porto lontano",
-          "nukaWorld": "Mondo Nuka",
-          "vaultTecWorkshop": "Workshop Vault-Tec"
+          "dawnguard": "ドーンガード",
+          "dragonborn": "ドラゴンボーン",
+          "hearthfire": "ハースファイア"
+        }
+      },
+      "witcher3": {
+        "title": "ウィッチャー3: ワイルドハント",
+        "categories": {
+          "quests": {
+            "mainQuests": "メインクエスト",
+            "secondaryQuests": "二次クエスト",
+            "contracts": "契約",
+            "treasureHunts": "宝探し"
+          },
+          "collectables": {
+            "diagrams": "図表"
+          },
+          "locations": {
+            "main": "主要"
+          }
+        },
+        "dlc": {
+          "bloodAndWine": "血とワイン",
+          "heartsOfStone": "ハートオブストーン"
         }
       }
     }
@@ -1100,11 +1190,39 @@
       }
     },
     "categories": {
+      "fallout4": {
+        "title": "Kejatuhan 4",
+        "categories": {
+          "quests": {
+            "mainQuests": "Quest Utama",
+            "factionQuests": "Pencarian Fraksi",
+            "sideQuests": "Pencarian Sampingan"
+          },
+          "collectables": {
+            "bobbleheads": "Bobblehead",
+            "magazines": "Majalah",
+            "uniqueWeapons": "Senjata Unik",
+            "uniqueArmour": "Baju Besi Unik",
+            "powerArmour": "Armor Kekuatan"
+          },
+          "locations": {
+            "main": "Utama"
+          },
+          "miscellaneous": {
+            "holotapes": "Holotape"
+          }
+        },
+        "dlc": {
+          "automatron": "robot",
+          "farHarbor": "Pelabuhan Jauh",
+          "nukaWorld": "Nuka-Dunia",
+          "vaultTecWorkshop": "Lokakarya Vault-Tec"
+        }
+      },
       "skyrim": {
         "title": "Skyrim",
         "categories": {
           "quests": {
-            "title": "Pencarian",
             "mainQuests": "Quest Utama",
             "factionQuests": "Pencarian Fraksi",
             "civilWar": "Perang sipil",
@@ -1115,7 +1233,6 @@
             "globalQuests": "Pencarian Global"
           },
           "collectables": {
-            "title": "Barang koleksi",
             "dragonPriestMasks": "Topeng Pendeta Naga",
             "daedricArtefacts": "Artefak Daedric",
             "bugInAJar": "Serangga dalam Toples",
@@ -1126,10 +1243,9 @@
             "stones": "Batu"
           },
           "locations": {
-            "title": "Lokasi"
+            "main": "Utama"
           },
           "miscellaneous": {
-            "title": "Aneka ragam",
             "books": "Buku",
             "spellTomes": "Eja Tomes",
             "journals": "Jurnal"
@@ -1141,36 +1257,25 @@
           "hearthfire": "api perapian"
         }
       },
-      "fallout4": {
-        "title": "Kejatuhan 4",
+      "witcher3": {
+        "title": "The Witcher 3: Perburuan Liar",
         "categories": {
           "quests": {
-            "title": "Pencarian",
             "mainQuests": "Quest Utama",
-            "factionQuests": "Pencarian Fraksi",
-            "sideQuests": "Pencarian Sampingan"
+            "secondaryQuests": "Quest Sekunder",
+            "contracts": "Kontrak",
+            "treasureHunts": "Perburuan Harta Karun"
           },
           "collectables": {
-            "title": "Barang koleksi",
-            "bobbleheads": "Bobblehead",
-            "magazines": "Majalah",
-            "uniqueWeapons": "Senjata Unik",
-            "uniqueArmour": "Baju Besi Unik",
-            "powerArmour": "Armor Kekuatan"
+            "diagrams": "Diagram"
           },
           "locations": {
-            "title": "Lokasi"
-          },
-          "miscellaneous": {
-            "title": "Aneka ragam",
-            "holotapes": "Holotape"
+            "main": "Utama"
           }
         },
         "dlc": {
-          "automatron": "robot",
-          "farHarbor": "Pelabuhan Jauh",
-          "nukaWorld": "Nuka-Dunia",
-          "vaultTecWorkshop": "Lokakarya Vault-Tec"
+          "bloodAndWine": "darah dan anggur",
+          "heartsOfStone": "hatiDariBatu"
         }
       }
     }
@@ -1268,11 +1373,39 @@
       }
     },
     "categories": {
+      "fallout4": {
+        "title": "नतीजा 4",
+        "categories": {
+          "quests": {
+            "mainQuests": "मुख्य प्रश्न",
+            "factionQuests": "गुट क्वेस्ट",
+            "sideQuests": "भीतर छिपे सवाल"
+          },
+          "collectables": {
+            "bobbleheads": "बॉबलहेड्स",
+            "magazines": "पत्रिका",
+            "uniqueWeapons": "अनोखे हथियार",
+            "uniqueArmour": "अनोखा कवच",
+            "powerArmour": "शक्ति कवच"
+          },
+          "locations": {
+            "main": "मुख्य"
+          },
+          "miscellaneous": {
+            "holotapes": "होलोटेप्स"
+          }
+        },
+        "dlc": {
+          "automatron": "ऑटोमेट्रोन",
+          "farHarbor": "सुदूर बंदरगाह",
+          "nukaWorld": "नुका-विश्व",
+          "vaultTecWorkshop": "वॉल्ट-टेक कार्यशाला"
+        }
+      },
       "skyrim": {
         "title": "Skyrim",
         "categories": {
           "quests": {
-            "title": "खोज",
             "mainQuests": "मुख्य प्रश्न",
             "factionQuests": "गुट क्वेस्ट",
             "civilWar": "गृहयुद्ध",
@@ -1283,7 +1416,6 @@
             "globalQuests": "वैश्विक खोज"
           },
           "collectables": {
-            "title": "संग्रहणीय वस्तुएँ",
             "dragonPriestMasks": "ड्रैगन पुजारी मुखौटे",
             "daedricArtefacts": "डेड्रिक कलाकृतियाँ",
             "bugInAJar": "एक जार में बग",
@@ -1294,10 +1426,9 @@
             "stones": "पत्थर"
           },
           "locations": {
-            "title": "स्थानों"
+            "main": "मुख्य"
           },
           "miscellaneous": {
-            "title": "मिश्रित",
             "books": "पुस्तकें",
             "spellTomes": "टॉम्स वर्तनी",
             "journals": "पत्रिकाओं"
@@ -1309,36 +1440,25 @@
           "hearthfire": "चूल्हे की आग"
         }
       },
-      "fallout4": {
-        "title": "नतीजा 4",
+      "witcher3": {
+        "title": "द विचर 3: वाइल्ड हंट",
         "categories": {
           "quests": {
-            "title": "खोज",
             "mainQuests": "मुख्य प्रश्न",
-            "factionQuests": "गुट क्वेस्ट",
-            "sideQuests": "भीतर छिपे सवाल"
+            "secondaryQuests": "माध्यमिक क्वेस्ट",
+            "contracts": "ठेके",
+            "treasureHunts": "खजाने की खोज"
           },
           "collectables": {
-            "title": "संग्रहणीय वस्तुएँ",
-            "bobbleheads": "बॉबलहेड्स",
-            "magazines": "पत्रिका",
-            "uniqueWeapons": "अनोखे हथियार",
-            "uniqueArmour": "अनोखा कवच",
-            "powerArmour": "शक्ति कवच"
+            "diagrams": "चित्र"
           },
           "locations": {
-            "title": "स्थानों"
-          },
-          "miscellaneous": {
-            "title": "मिश्रित",
-            "holotapes": "होलोटेप्स"
+            "main": "मुख्य"
           }
         },
         "dlc": {
-          "automatron": "ऑटोमेट्रोन",
-          "farHarbor": "सुदूर बंदरगाह",
-          "nukaWorld": "नुका-विश्व",
-          "vaultTecWorkshop": "वॉल्ट-टेक कार्यशाला"
+          "bloodAndWine": "रक्त और शराब",
+          "heartsOfStone": "heartofstone"
         }
       }
     }
@@ -1436,11 +1556,39 @@
       }
     },
     "categories": {
+      "fallout4": {
+        "title": "Fallout 4",
+        "categories": {
+          "quests": {
+            "mainQuests": "Quêtes principales",
+            "factionQuests": "Quêtes de faction",
+            "sideQuests": "Quêtes secondaires"
+          },
+          "collectables": {
+            "bobbleheads": "Figurines à pompons",
+            "magazines": "Les magazines",
+            "uniqueWeapons": "Armes uniques",
+            "uniqueArmour": "Armure unique",
+            "powerArmour": "Armure assistée"
+          },
+          "locations": {
+            "main": "Principal"
+          },
+          "miscellaneous": {
+            "holotapes": "Holobandes"
+          }
+        },
+        "dlc": {
+          "automatron": "Automatron",
+          "farHarbor": "Port lointain",
+          "nukaWorld": "Nuka-Monde",
+          "vaultTecWorkshop": "Atelier Vault-Tec"
+        }
+      },
       "skyrim": {
         "title": "Bordeciel",
         "categories": {
           "quests": {
-            "title": "Quêtes",
             "mainQuests": "Quêtes principales",
             "factionQuests": "Quêtes de faction",
             "civilWar": "Guerre civile",
@@ -1451,7 +1599,6 @@
             "globalQuests": "Quêtes globales"
           },
           "collectables": {
-            "title": "Objets de collection",
             "dragonPriestMasks": "Masques de prêtre dragon",
             "daedricArtefacts": "Artefacts Daedra",
             "bugInAJar": "Un bug dans un pot",
@@ -1462,10 +1609,9 @@
             "stones": "Des pierres"
           },
           "locations": {
-            "title": "Emplacements"
+            "main": "Principal"
           },
           "miscellaneous": {
-            "title": "Divers",
             "books": "Livres",
             "spellTomes": "Tomes de sorts",
             "journals": "Journaux"
@@ -1477,36 +1623,25 @@
           "hearthfire": "Feu de foyer"
         }
       },
-      "fallout4": {
-        "title": "Fallout 4",
+      "witcher3": {
+        "title": "The Witcher 3 : Chasse Sauvage",
         "categories": {
           "quests": {
-            "title": "Quêtes",
             "mainQuests": "Quêtes principales",
-            "factionQuests": "Quêtes de faction",
-            "sideQuests": "Quêtes secondaires"
+            "secondaryQuests": "Quêtes secondaires",
+            "contracts": "Contrats",
+            "treasureHunts": "Chasses aux trésors"
           },
           "collectables": {
-            "title": "Objets de collection",
-            "bobbleheads": "Figurines à pompons",
-            "magazines": "Les magazines",
-            "uniqueWeapons": "Armes uniques",
-            "uniqueArmour": "Armure unique",
-            "powerArmour": "Armure assistée"
+            "diagrams": "Diagrammes"
           },
           "locations": {
-            "title": "Emplacements"
-          },
-          "miscellaneous": {
-            "title": "Divers",
-            "holotapes": "Holobandes"
+            "main": "Principal"
           }
         },
         "dlc": {
-          "automatron": "Automatron",
-          "farHarbor": "Port lointain",
-          "nukaWorld": "Nuka-Monde",
-          "vaultTecWorkshop": "Atelier Vault-Tec"
+          "bloodAndWine": "sangEtVin",
+          "heartsOfStone": "coeursdepierre"
         }
       }
     }
@@ -1604,11 +1739,39 @@
       }
     },
     "categories": {
+      "fallout4": {
+        "title": "consecuencias 4",
+        "categories": {
+          "quests": {
+            "mainQuests": "Misiones principales",
+            "factionQuests": "Misiones de facción",
+            "sideQuests": "Misiones secundarias"
+          },
+          "collectables": {
+            "bobbleheads": "muñecos",
+            "magazines": "Revistas",
+            "uniqueWeapons": "Armas únicas",
+            "uniqueArmour": "Armadura única",
+            "powerArmour": "Armadura de poder"
+          },
+          "locations": {
+            "main": "Principal"
+          },
+          "miscellaneous": {
+            "holotapes": "holocintas"
+          }
+        },
+        "dlc": {
+          "automatron": "autómata",
+          "farHarbor": "Puerto lejano",
+          "nukaWorld": "Nuka-Mundo",
+          "vaultTecWorkshop": "Taller Vault-Tec"
+        }
+      },
       "skyrim": {
         "title": "Skyrim",
         "categories": {
           "quests": {
-            "title": "Misiones",
             "mainQuests": "Misiones principales",
             "factionQuests": "Misiones de facción",
             "civilWar": "Guerra civil",
@@ -1619,7 +1782,6 @@
             "globalQuests": "Misiones globales"
           },
           "collectables": {
-            "title": "Coleccionables",
             "dragonPriestMasks": "Máscaras de sacerdote dragón",
             "daedricArtefacts": "Artefactos daédricos",
             "bugInAJar": "Error en un frasco",
@@ -1630,10 +1792,9 @@
             "stones": "piedras"
           },
           "locations": {
-            "title": "Ubicaciones"
+            "main": "Principal"
           },
           "miscellaneous": {
-            "title": "Misceláneas",
             "books": "Libros",
             "spellTomes": "Tomos de hechizos",
             "journals": "Revistas"
@@ -1645,36 +1806,25 @@
           "hearthfire": "fuego de hogar"
         }
       },
-      "fallout4": {
-        "title": "Fallout 4",
+      "witcher3": {
+        "title": "The Witcher 3: Caza salvaje",
         "categories": {
           "quests": {
-            "title": "Misiones",
             "mainQuests": "Misiones principales",
-            "factionQuests": "Misiones de facción",
-            "sideQuests": "Misiones secundarias"
+            "secondaryQuests": "Misiones secundarias",
+            "contracts": "Contratos",
+            "treasureHunts": "Búsqueda del tesoro"
           },
           "collectables": {
-            "title": "Coleccionables",
-            "bobbleheads": "muñecos",
-            "magazines": "Revistas",
-            "uniqueWeapons": "Armas únicas",
-            "uniqueArmour": "Armadura única",
-            "powerArmour": "Armadura de poder"
+            "diagrams": "Diagramas"
           },
           "locations": {
-            "title": "Ubicaciones"
-          },
-          "miscellaneous": {
-            "title": "Misceláneas",
-            "holotapes": "holocintas"
+            "main": "Principal"
           }
         },
         "dlc": {
-          "automatron": "autómata",
-          "farHarbor": "Puerto lejano",
-          "nukaWorld": "Nuka-Mundo",
-          "vaultTecWorkshop": "Taller Vault-Tec"
+          "bloodAndWine": "sangreyvino",
+          "heartsOfStone": "corazonesdepiedra"
         }
       }
     }
@@ -1772,11 +1922,39 @@
       }
     },
     "categories": {
+      "fallout4": {
+        "title": "Fallout 4",
+        "categories": {
+          "quests": {
+            "mainQuests": "Main Quests",
+            "factionQuests": "Faction Quests",
+            "sideQuests": "Side Quests"
+          },
+          "collectables": {
+            "bobbleheads": "Bobbleheads",
+            "magazines": "Magazines",
+            "uniqueWeapons": "Unique Weapons",
+            "uniqueArmour": "Unique Armour",
+            "powerArmour": "Power Armour"
+          },
+          "locations": {
+            "main": "Main"
+          },
+          "miscellaneous": {
+            "holotapes": "Holotapes"
+          }
+        },
+        "dlc": {
+          "automatron": "Automatron",
+          "farHarbor": "Far Harbor",
+          "nukaWorld": "Nuka-World",
+          "vaultTecWorkshop": "Vault-Tec Workshop"
+        }
+      },
       "skyrim": {
         "title": "Skyrim",
         "categories": {
           "quests": {
-            "title": "Quests",
             "mainQuests": "Main Quests",
             "factionQuests": "Faction Quests",
             "civilWar": "Civil War",
@@ -1787,7 +1965,6 @@
             "globalQuests": "Global Quests"
           },
           "collectables": {
-            "title": "Collectables",
             "dragonPriestMasks": "Dragon Priest Masks",
             "daedricArtefacts": "Daedric Artefacts",
             "bugInAJar": "Bug in a Jar",
@@ -1798,11 +1975,9 @@
             "stones": "Stones"
           },
           "locations": {
-            "title": "Locations",
             "main": "Main"
           },
           "miscellaneous": {
-            "title": "Miscellaneous",
             "books": "Books",
             "spellTomes": "Spell Tomes",
             "journals": "Journals"
@@ -1814,37 +1989,25 @@
           "hearthfire": "Hearthfire"
         }
       },
-      "fallout4": {
-        "title": "Fallout 4",
+      "witcher3": {
+        "title": "The Witcher 3: Wild Hunt",
         "categories": {
           "quests": {
-            "title": "Quests",
             "mainQuests": "Main Quests",
-            "factionQuests": "Faction Quests",
-            "sideQuests": "Side Quests"
+            "secondaryQuests": "Secondary Quests",
+            "contracts": "Contracts",
+            "treasureHunts": "Treasure Hunts"
           },
           "collectables": {
-            "title": "Collectables",
-            "bobbleheads": "Bobbleheads",
-            "magazines": "Magazines",
-            "uniqueWeapons": "Unique Weapons",
-            "uniqueArmour": "Unique Armour",
-            "powerArmour": "Power Armour"
+            "diagrams": "Diagrams"
           },
           "locations": {
-            "title": "Locations",
             "main": "Main"
-          },
-          "miscellaneous": {
-            "title": "Miscellaneous",
-            "holotapes": "Holotapes"
           }
         },
         "dlc": {
-          "automatron": "Automatron",
-          "farHarbor": "Far Harbor",
-          "nukaWorld": "Nuka-World",
-          "vaultTecWorkshop": "Vault-Tec Workshop"
+          "bloodAndWine": "bloodAndWine",
+          "heartsOfStone": "heartsOfStone"
         }
       }
     }
@@ -1942,11 +2105,39 @@
       }
     },
     "categories": {
+      "fallout4": {
+        "title": "Fallout 4",
+        "categories": {
+          "quests": {
+            "mainQuests": "Hauptquests",
+            "factionQuests": "Fraktionsquests",
+            "sideQuests": "Nebenmissionen"
+          },
+          "collectables": {
+            "bobbleheads": "Wackelköpfe",
+            "magazines": "Zeitschriften",
+            "uniqueWeapons": "Einzigartige Waffen",
+            "uniqueArmour": "Einzigartige Rüstung",
+            "powerArmour": "Powerrüstung"
+          },
+          "locations": {
+            "main": "Hauptsächlich"
+          },
+          "miscellaneous": {
+            "holotapes": "Holobänder"
+          }
+        },
+        "dlc": {
+          "automatron": "Automatron",
+          "farHarbor": "Far Harbor",
+          "nukaWorld": "Nuka-Welt",
+          "vaultTecWorkshop": "Vault-Tec-Workshop"
+        }
+      },
       "skyrim": {
         "title": "Skyrim",
         "categories": {
           "quests": {
-            "title": "Quests",
             "mainQuests": "Hauptquests",
             "factionQuests": "Fraktionsquests",
             "civilWar": "Bürgerkrieg",
@@ -1957,7 +2148,6 @@
             "globalQuests": "Globale Quests"
           },
           "collectables": {
-            "title": "Sammlerstücke",
             "dragonPriestMasks": "Drachenpriester-Masken",
             "daedricArtefacts": "Daedrische Artefakte",
             "bugInAJar": "Käfer im Glas",
@@ -1968,10 +2158,9 @@
             "stones": "Steine"
           },
           "locations": {
-            "title": "Standorte"
+            "main": "Hauptsächlich"
           },
           "miscellaneous": {
-            "title": "Verschiedenes",
             "books": "Bücher",
             "spellTomes": "Zauberbücher",
             "journals": "Zeitschriften"
@@ -1983,36 +2172,25 @@
           "hearthfire": "Herdfeuer"
         }
       },
-      "fallout4": {
-        "title": "Fallout 4",
+      "witcher3": {
+        "title": "The Witcher 3: Wild Hunt",
         "categories": {
           "quests": {
-            "title": "Quests",
             "mainQuests": "Hauptquests",
-            "factionQuests": "Fraktionsquests",
-            "sideQuests": "Nebenmissionen"
+            "secondaryQuests": "Sekundäre Quests",
+            "contracts": "Verträge",
+            "treasureHunts": "Schatzsuche"
           },
           "collectables": {
-            "title": "Sammlerstücke",
-            "bobbleheads": "Wackelköpfe",
-            "magazines": "Zeitschriften",
-            "uniqueWeapons": "Einzigartige Waffen",
-            "uniqueArmour": "Einzigartige Rüstung",
-            "powerArmour": "Powerrüstung"
+            "diagrams": "Diagramme"
           },
           "locations": {
-            "title": "Standorte"
-          },
-          "miscellaneous": {
-            "title": "Verschiedenes",
-            "holotapes": "Holobänder"
+            "main": "Hauptsächlich"
           }
         },
         "dlc": {
-          "automatron": "Automatron",
-          "farHarbor": "Far Harbor",
-          "nukaWorld": "Nuka-Welt",
-          "vaultTecWorkshop": "Vault-Tec-Workshop"
+          "bloodAndWine": "Blut und Wein",
+          "heartsOfStone": "heartsOfStone"
         }
       }
     }
@@ -2110,11 +2288,39 @@
       }
     },
     "categories": {
+      "fallout4": {
+        "title": "تداعيات 4",
+        "categories": {
+          "quests": {
+            "mainQuests": "المهام الرئيسية",
+            "factionQuests": "أسئلة الفصائل",
+            "sideQuests": "أسئلة جانبية"
+          },
+          "collectables": {
+            "bobbleheads": "رؤؤس فقاعية",
+            "magazines": "المجلات",
+            "uniqueWeapons": "أسلحة فريدة من نوعها",
+            "uniqueArmour": "درع فريد",
+            "powerArmour": "درع القوة"
+          },
+          "locations": {
+            "main": "رئيسي"
+          },
+          "miscellaneous": {
+            "holotapes": "هولوتابس"
+          }
+        },
+        "dlc": {
+          "automatron": "آلي",
+          "farHarbor": "فار هاربور",
+          "nukaWorld": "نوكا وورلد",
+          "vaultTecWorkshop": "ورشة فولت تيك"
+        }
+      },
       "skyrim": {
         "title": "سكيريم",
         "categories": {
           "quests": {
-            "title": "أسئلة",
             "mainQuests": "المهام الرئيسية",
             "factionQuests": "أسئلة الفصائل",
             "civilWar": "حرب اهلية",
@@ -2125,7 +2331,6 @@
             "globalQuests": "المهام العالمية"
           },
           "collectables": {
-            "title": "مقتنيات",
             "dragonPriestMasks": "أقنعة كاهن التنين",
             "daedricArtefacts": "التحف ديدريك",
             "bugInAJar": "علة في جرة",
@@ -2136,10 +2341,9 @@
             "stones": "الحجارة"
           },
           "locations": {
-            "title": "المواقع"
+            "main": "رئيسي"
           },
           "miscellaneous": {
-            "title": "متنوع",
             "books": "كتب",
             "spellTomes": "المجلدات الإملائية",
             "journals": "المجلات"
@@ -2151,36 +2355,25 @@
           "hearthfire": "نار الموقد"
         }
       },
-      "fallout4": {
-        "title": "تداعيات4",
+      "witcher3": {
+        "title": "الويتشر 3: الصيد البري",
         "categories": {
           "quests": {
-            "title": "أسئلة",
             "mainQuests": "المهام الرئيسية",
-            "factionQuests": "أسئلة الفصائل",
-            "sideQuests": "أسئلة جانبية"
+            "secondaryQuests": "أسئلة ثانوية",
+            "contracts": "انكماش",
+            "treasureHunts": "البحث عن الكنز"
           },
           "collectables": {
-            "title": "مقتنيات",
-            "bobbleheads": "رؤؤس فقاعية",
-            "magazines": "المجلات",
-            "uniqueWeapons": "أسلحة فريدة من نوعها",
-            "uniqueArmour": "درع فريد",
-            "powerArmour": "درع القوة"
+            "diagrams": "المخططات"
           },
           "locations": {
-            "title": "المواقع"
-          },
-          "miscellaneous": {
-            "title": "متنوع",
-            "holotapes": "هولوتابس"
+            "main": "رئيسي"
           }
         },
         "dlc": {
-          "automatron": "آلي",
-          "farHarbor": "فار هاربور",
-          "nukaWorld": "نوكا وورلد",
-          "vaultTecWorkshop": "ورشة فولت تيك"
+          "bloodAndWine": "bloodAndWine",
+          "heartsOfStone": "HeartsOfStone"
         }
       }
     }

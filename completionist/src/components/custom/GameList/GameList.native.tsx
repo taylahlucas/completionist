@@ -5,6 +5,7 @@ import { styles } from './GameListItemStyledComponents.native';
 import useMainState from '@redux/hooks/useMainState';
 import GameListSectionDropdown from './GameListSectionDropdown.native';
 import useFilterGameList from './hooks/useFilterGameList.native';
+import useCache from '@data/api/hooks/useCache.native';
 
 interface GameListProps {
   searchValue: string;

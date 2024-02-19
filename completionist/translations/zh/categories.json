@@ -1,9 +1,37 @@
 {
+  "fallout4": {
+    "title": "辐射4",
+    "categories": {
+      "quests": {
+        "mainQuests": "主线任务",
+        "factionQuests": "派系任务",
+        "sideQuests": "支线任务"
+      },
+      "collectables": {
+        "bobbleheads": "摇头娃娃",
+        "magazines": "杂志",
+        "uniqueWeapons": "独特的武器",
+        "uniqueArmour": "独特的盔甲",
+        "powerArmour": "动力装甲"
+      },
+      "locations": {
+        "main": "主要的"
+      },
+      "miscellaneous": {
+        "holotapes": "全息带"
+      }
+    },
+    "dlc": {
+      "automatron": "自动机",
+      "farHarbor": "远港",
+      "nukaWorld": "核子世界",
+      "vaultTecWorkshop": "Vault-Tec 研讨会"
+    }
+  },
   "skyrim": {
     "title": "天际",
     "categories": {
       "quests": {
-        "title": "任务",
         "mainQuests": "主线任务",
         "factionQuests": "派系任务",
         "civilWar": "内战",
@@ -14,7 +42,6 @@
         "globalQuests": "全球任务"
       },
       "collectables": {
-        "title": "收藏品",
         "dragonPriestMasks": "龙祭司面具",
         "daedricArtefacts": "魔族文物",
         "bugInAJar": "罐子里的虫子",
@@ -25,10 +52,9 @@
         "stones": "石头"
       },
       "locations": {
-        "title": "地点"
+        "main": "主要的"
       },
       "miscellaneous": {
-        "title": "各种各样的",
         "books": "图书",
         "spellTomes": "法术书",
         "journals": "期刊"
@@ -40,36 +66,25 @@
       "hearthfire": "炉火"
     }
   },
-  "fallout4": {
-    "title": "辐射4",
+  "witcher3": {
+    "title": "巫师 3：狂猎",
     "categories": {
       "quests": {
-        "title": "任务",
         "mainQuests": "主线任务",
-        "factionQuests": "派系任务",
-        "sideQuests": "支线任务"
+        "secondaryQuests": "次要任务",
+        "contracts": "合约",
+        "treasureHunts": "寻宝"
       },
       "collectables": {
-        "title": "收藏品",
-        "bobbleheads": "摇头娃娃",
-        "magazines": "杂志",
-        "uniqueWeapons": "独特的武器",
-        "uniqueArmour": "独特的盔甲",
-        "powerArmour": "动力装甲"
+        "diagrams": "图表"
       },
       "locations": {
-        "title": "地点"
-      },
-      "miscellaneous": {
-        "title": "各种各样的",
-        "holotapes": "全息带"
+        "main": "主要的"
       }
     },
     "dlc": {
-      "automatron": "自动机",
-      "farHarbor": "远港",
-      "nukaWorld": "核子世界",
-      "vaultTecWorkshop": "Vault-Tec 研讨会"
+      "bloodAndWine": "血与酒",
+      "heartsOfStone": "石之心"
     }
   }
 }

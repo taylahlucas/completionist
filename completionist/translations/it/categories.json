@@ -1,75 +1,90 @@
 {
-  "skyrim": {
-    "title": "Skyrim",
+  "fallout4": {
+    "title": "フォールアウト4",
     "categories": {
       "quests": {
-        "title": "Missioni",
-        "mainQuests": "Missioni principali",
-        "factionQuests": "Missioni di fazione",
-        "civilWar": "Guerra civile",
-        "daedricQuests": "Missioni daedriche",
-        "dungeonQuests": "Missioni nei sotterranei",
-        "miscellaneousQuests": "Missioni varie",
-        "bountyQuests": "Missioni di taglia",
-        "globalQuests": "Missioni globali"
+        "mainQuests": "メインクエスト",
+        "factionQuests": "派閥クエスト",
+        "sideQuests": "サイドクエスト"
       },
       "collectables": {
-        "title": "Oggetti da collezione",
-        "dragonPriestMasks": "Maschere del Sacerdote Drago",
-        "daedricArtefacts": "Manufatti daedrici",
-        "bugInAJar": "Insetto in un barattolo",
-        "shouts": "Grida",
-        "uniqueArmourSets": "Set di armature unici",
-        "uniqueWeapons": "Armi uniche",
-        "shrines": "Santuari",
-        "stones": "Pietre"
+        "bobbleheads": "ボブルヘッド",
+        "magazines": "雑誌",
+        "uniqueWeapons": "ユニークな武器",
+        "uniqueArmour": "ユニークな鎧",
+        "powerArmour": "パワーアーマー"
       },
       "locations": {
-        "title": "Posizioni"
+        "main": "主要"
       },
       "miscellaneous": {
-        "title": "Varie",
-        "books": "Libri",
-        "spellTomes": "Tomi di incantesimi",
-        "journals": "Riviste"
+        "holotapes": "ホロテープ"
       }
     },
     "dlc": {
-      "dawnguard": "Dawnguard",
-      "dragonborn": "Sangue di Drago",
-      "hearthfire": "Focolare"
+      "automatron": "オートマトロン",
+      "farHarbor": "ファーハーバー",
+      "nukaWorld": "ヌカ・ワールド",
+      "vaultTecWorkshop": "Vault-Tec ワークショップ"
     }
   },
-  "fallout4": {
-    "title": "Fallout 4",
+  "skyrim": {
+    "title": "スカイリム",
     "categories": {
       "quests": {
-        "title": "Missioni",
-        "mainQuests": "Missioni principali",
-        "factionQuests": "Missioni di fazione",
-        "sideQuests": "Missioni secondarie"
+        "mainQuests": "メインクエスト",
+        "factionQuests": "派閥クエスト",
+        "civilWar": "内戦",
+        "daedricQuests": "デイドラクエスト",
+        "dungeonQuests": "ダンジョンクエスト",
+        "miscellaneousQuests": "その他のクエスト",
+        "bountyQuests": "賞金クエスト",
+        "globalQuests": "グローバルクエスト"
       },
       "collectables": {
-        "title": "Oggetti da collezione",
-        "bobbleheads": "Teste molleggiate",
-        "magazines": "Riviste",
-        "uniqueWeapons": "Armi uniche",
-        "uniqueArmour": "Armatura unica",
-        "powerArmour": "Armatura potenziata"
+        "dragonPriestMasks": "ドラゴン プリーストの仮面",
+        "daedricArtefacts": "デイドラアーティファクト",
+        "bugInAJar": "瓶の中の虫",
+        "shouts": "叫び声",
+        "uniqueArmourSets": "ユニークな防具セット",
+        "uniqueWeapons": "ユニークな武器",
+        "shrines": "神社",
+        "stones": "石"
       },
       "locations": {
-        "title": "Posizioni"
+        "main": "主要"
       },
       "miscellaneous": {
-        "title": "Varie",
-        "holotapes": "Olonastri"
+        "books": "本",
+        "spellTomes": "呪文の本",
+        "journals": "雑誌"
       }
     },
     "dlc": {
-      "automatron": "Automatron",
-      "farHarbor": "Porto lontano",
-      "nukaWorld": "Mondo Nuka",
-      "vaultTecWorkshop": "Workshop Vault-Tec"
+      "dawnguard": "ドーンガード",
+      "dragonborn": "ドラゴンボーン",
+      "hearthfire": "ハースファイア"
+    }
+  },
+  "witcher3": {
+    "title": "ウィッチャー3: ワイルドハント",
+    "categories": {
+      "quests": {
+        "mainQuests": "メインクエスト",
+        "secondaryQuests": "二次クエスト",
+        "contracts": "契約",
+        "treasureHunts": "宝探し"
+      },
+      "collectables": {
+        "diagrams": "図表"
+      },
+      "locations": {
+        "main": "主要"
+      }
+    },
+    "dlc": {
+      "bloodAndWine": "血とワイン",
+      "heartsOfStone": "ハートオブストーン"
     }
   }
 }

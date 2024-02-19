@@ -1,11 +1,39 @@
 {
+  "fallout4": {
+    "title": "Efeito Fallout 4",
+    "categories": {
+      "quests": {
+        "mainQuests": "Missões principais",
+        "factionQuests": "Missões de Facção",
+        "sideQuests": "Missões paralelas"
+      },
+      "collectables": {
+        "bobbleheads": "Bobbleheads",
+        "magazines": "Revistas",
+        "uniqueWeapons": "Armas únicas",
+        "uniqueArmour": "Armadura Única",
+        "powerArmour": "Armadura Potente"
+      },
+      "locations": {
+        "main": "Principal"
+      },
+      "miscellaneous": {
+        "holotapes": "Holotapes"
+      }
+    },
+    "dlc": {
+      "automatron": "Autômato",
+      "farHarbor": "Porto Distante",
+      "nukaWorld": "Nuka-Mundo",
+      "vaultTecWorkshop": "Oficina Vault-Tec"
+    }
+  },
   "skyrim": {
     "title": "Skyrim",
     "categories": {
       "quests": {
-        "title": "Missões",
         "mainQuests": "Missões principais",
-        "factionQuests": "Missões de facção",
+        "factionQuests": "Missões de Facção",
         "civilWar": "Guerra civil",
         "daedricQuests": "Missões Daédricas",
         "dungeonQuests": "Missões de masmorra",
@@ -14,7 +42,6 @@
         "globalQuests": "Missões Globais"
       },
       "collectables": {
-        "title": "Colecionáveis",
         "dragonPriestMasks": "Máscaras de Sacerdote Dragão",
         "daedricArtefacts": "Artefatos Daédricos",
         "bugInAJar": "Bug em uma jarra",
@@ -25,10 +52,9 @@
         "stones": "Pedras"
       },
       "locations": {
-        "title": "Localizações"
+        "main": "Principal"
       },
       "miscellaneous": {
-        "title": "Diversos",
         "books": "Livros",
         "spellTomes": "Tomos de feitiços",
         "journals": "Diários"
@@ -40,36 +66,25 @@
       "hearthfire": "Lareira"
     }
   },
-  "fallout4": {
-    "title": "Fallout 4",
+  "witcher3": {
+    "title": "The Witcher 3: Caça Selvagem",
     "categories": {
       "quests": {
-        "title": "Missões",
         "mainQuests": "Missões principais",
-        "factionQuests": "Missões de facção",
-        "sideQuests": "Missões paralelas"
+        "secondaryQuests": "Missões Secundárias",
+        "contracts": "Contratos",
+        "treasureHunts": "Caças ao tesouro"
       },
       "collectables": {
-        "title": "Colecionáveis",
-        "bobbleheads": "Bobbleheads",
-        "magazines": "Revistas",
-        "uniqueWeapons": "Armas únicas",
-        "uniqueArmour": "Armadura Única",
-        "powerArmour": "Armadura Potente"
+        "diagrams": "Diagramas"
       },
       "locations": {
-        "title": "Localizações"
-      },
-      "miscellaneous": {
-        "title": "Diversos",
-        "holotapes": "Holotapes"
+        "main": "Principal"
       }
     },
     "dlc": {
-      "automatron": "Autômato",
-      "farHarbor": "Porto Distante",
-      "nukaWorld": "Nuka-Mundo",
-      "vaultTecWorkshop": "Oficina Vault-Tec"
+      "bloodAndWine": "sangue e vinho",
+      "heartsOfStone": "coraçõesOfStone"
     }
   }
 }

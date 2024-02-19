@@ -19,7 +19,7 @@ export const GameListItemContainer = styled.Pressable<GameListItemContainerProps
   margin: 8px;
   border-radius: ${DEFAULT_BORDER_RADIUS}px;
   border-color: ${(props): string => props.color};
-  border-width: 2px;
+  border-width: 3px;
 `;
 
 export const GameListImage = styled.Image`
@@ -30,10 +30,16 @@ export const GameListImage = styled.Image`
   opacity: 0.3;
 `;
 
+export const GameItemTitleContainer = styled.View`
+	width: 150px;
+	height: 150px;
+`;
+
 export const GameItemTitle = styled(StyledText)`
-  position: absolute;
-  right: 16px;
-  bottom: 8px;
+	max-width: 125px;
+	position: absolute;
+	right: 12px;
+	bottom: 8px;
 `;
 
 export const GameItemScore = styled(StyledText)`

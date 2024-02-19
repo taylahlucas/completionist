@@ -1,9 +1,37 @@
 {
+  "fallout4": {
+    "title": "नतीजा 4",
+    "categories": {
+      "quests": {
+        "mainQuests": "मुख्य प्रश्न",
+        "factionQuests": "गुट क्वेस्ट",
+        "sideQuests": "भीतर छिपे सवाल"
+      },
+      "collectables": {
+        "bobbleheads": "बॉबलहेड्स",
+        "magazines": "पत्रिका",
+        "uniqueWeapons": "अनोखे हथियार",
+        "uniqueArmour": "अनोखा कवच",
+        "powerArmour": "शक्ति कवच"
+      },
+      "locations": {
+        "main": "मुख्य"
+      },
+      "miscellaneous": {
+        "holotapes": "होलोटेप्स"
+      }
+    },
+    "dlc": {
+      "automatron": "ऑटोमेट्रोन",
+      "farHarbor": "सुदूर बंदरगाह",
+      "nukaWorld": "नुका-विश्व",
+      "vaultTecWorkshop": "वॉल्ट-टेक कार्यशाला"
+    }
+  },
   "skyrim": {
     "title": "Skyrim",
     "categories": {
       "quests": {
-        "title": "खोज",
         "mainQuests": "मुख्य प्रश्न",
         "factionQuests": "गुट क्वेस्ट",
         "civilWar": "गृहयुद्ध",
@@ -14,7 +42,6 @@
         "globalQuests": "वैश्विक खोज"
       },
       "collectables": {
-        "title": "संग्रहणीय वस्तुएँ",
         "dragonPriestMasks": "ड्रैगन पुजारी मुखौटे",
         "daedricArtefacts": "डेड्रिक कलाकृतियाँ",
         "bugInAJar": "एक जार में बग",
@@ -25,10 +52,9 @@
         "stones": "पत्थर"
       },
       "locations": {
-        "title": "स्थानों"
+        "main": "मुख्य"
       },
       "miscellaneous": {
-        "title": "मिश्रित",
         "books": "पुस्तकें",
         "spellTomes": "टॉम्स वर्तनी",
         "journals": "पत्रिकाओं"
@@ -40,36 +66,25 @@
       "hearthfire": "चूल्हे की आग"
     }
   },
-  "fallout4": {
-    "title": "नतीजा 4",
+  "witcher3": {
+    "title": "द विचर 3: वाइल्ड हंट",
     "categories": {
       "quests": {
-        "title": "खोज",
         "mainQuests": "मुख्य प्रश्न",
-        "factionQuests": "गुट क्वेस्ट",
-        "sideQuests": "भीतर छिपे सवाल"
+        "secondaryQuests": "माध्यमिक क्वेस्ट",
+        "contracts": "ठेके",
+        "treasureHunts": "खजाने की खोज"
       },
       "collectables": {
-        "title": "संग्रहणीय वस्तुएँ",
-        "bobbleheads": "बॉबलहेड्स",
-        "magazines": "पत्रिका",
-        "uniqueWeapons": "अनोखे हथियार",
-        "uniqueArmour": "अनोखा कवच",
-        "powerArmour": "शक्ति कवच"
+        "diagrams": "चित्र"
       },
       "locations": {
-        "title": "स्थानों"
-      },
-      "miscellaneous": {
-        "title": "मिश्रित",
-        "holotapes": "होलोटेप्स"
+        "main": "मुख्य"
       }
     },
     "dlc": {
-      "automatron": "ऑटोमेट्रोन",
-      "farHarbor": "सुदूर बंदरगाह",
-      "nukaWorld": "नुका-विश्व",
-      "vaultTecWorkshop": "वॉल्ट-टेक कार्यशाला"
+      "bloodAndWine": "रक्त और शराब",
+      "heartsOfStone": "heartofstone"
     }
   }
 }

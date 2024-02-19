@@ -1,9 +1,37 @@
 {
+  "fallout4": {
+    "title": "consecuencias 4",
+    "categories": {
+      "quests": {
+        "mainQuests": "Misiones principales",
+        "factionQuests": "Misiones de facción",
+        "sideQuests": "Misiones secundarias"
+      },
+      "collectables": {
+        "bobbleheads": "muñecos",
+        "magazines": "Revistas",
+        "uniqueWeapons": "Armas únicas",
+        "uniqueArmour": "Armadura única",
+        "powerArmour": "Armadura de poder"
+      },
+      "locations": {
+        "main": "Principal"
+      },
+      "miscellaneous": {
+        "holotapes": "holocintas"
+      }
+    },
+    "dlc": {
+      "automatron": "autómata",
+      "farHarbor": "Puerto lejano",
+      "nukaWorld": "Nuka-Mundo",
+      "vaultTecWorkshop": "Taller Vault-Tec"
+    }
+  },
   "skyrim": {
     "title": "Skyrim",
     "categories": {
       "quests": {
-        "title": "Misiones",
         "mainQuests": "Misiones principales",
         "factionQuests": "Misiones de facción",
         "civilWar": "Guerra civil",
@@ -14,7 +42,6 @@
         "globalQuests": "Misiones globales"
       },
       "collectables": {
-        "title": "Coleccionables",
         "dragonPriestMasks": "Máscaras de sacerdote dragón",
         "daedricArtefacts": "Artefactos daédricos",
         "bugInAJar": "Error en un frasco",
@@ -25,10 +52,9 @@
         "stones": "piedras"
       },
       "locations": {
-        "title": "Ubicaciones"
+        "main": "Principal"
       },
       "miscellaneous": {
-        "title": "Misceláneas",
         "books": "Libros",
         "spellTomes": "Tomos de hechizos",
         "journals": "Revistas"
@@ -40,36 +66,25 @@
       "hearthfire": "fuego de hogar"
     }
   },
-  "fallout4": {
-    "title": "Fallout 4",
+  "witcher3": {
+    "title": "The Witcher 3: Caza salvaje",
     "categories": {
       "quests": {
-        "title": "Misiones",
         "mainQuests": "Misiones principales",
-        "factionQuests": "Misiones de facción",
-        "sideQuests": "Misiones secundarias"
+        "secondaryQuests": "Misiones secundarias",
+        "contracts": "Contratos",
+        "treasureHunts": "Búsqueda del tesoro"
       },
       "collectables": {
-        "title": "Coleccionables",
-        "bobbleheads": "muñecos",
-        "magazines": "Revistas",
-        "uniqueWeapons": "Armas únicas",
-        "uniqueArmour": "Armadura única",
-        "powerArmour": "Armadura de poder"
+        "diagrams": "Diagramas"
       },
       "locations": {
-        "title": "Ubicaciones"
-      },
-      "miscellaneous": {
-        "title": "Misceláneas",
-        "holotapes": "holocintas"
+        "main": "Principal"
       }
     },
     "dlc": {
-      "automatron": "autómata",
-      "farHarbor": "Puerto lejano",
-      "nukaWorld": "Nuka-Mundo",
-      "vaultTecWorkshop": "Taller Vault-Tec"
+      "bloodAndWine": "sangreyvino",
+      "heartsOfStone": "corazonesdepiedra"
     }
   }
 }

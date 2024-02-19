@@ -1,9 +1,37 @@
 {
+  "fallout4": {
+    "title": "Kejatuhan 4",
+    "categories": {
+      "quests": {
+        "mainQuests": "Quest Utama",
+        "factionQuests": "Pencarian Fraksi",
+        "sideQuests": "Pencarian Sampingan"
+      },
+      "collectables": {
+        "bobbleheads": "Bobblehead",
+        "magazines": "Majalah",
+        "uniqueWeapons": "Senjata Unik",
+        "uniqueArmour": "Baju Besi Unik",
+        "powerArmour": "Armor Kekuatan"
+      },
+      "locations": {
+        "main": "Utama"
+      },
+      "miscellaneous": {
+        "holotapes": "Holotape"
+      }
+    },
+    "dlc": {
+      "automatron": "robot",
+      "farHarbor": "Pelabuhan Jauh",
+      "nukaWorld": "Nuka-Dunia",
+      "vaultTecWorkshop": "Lokakarya Vault-Tec"
+    }
+  },
   "skyrim": {
     "title": "Skyrim",
     "categories": {
       "quests": {
-        "title": "Pencarian",
         "mainQuests": "Quest Utama",
         "factionQuests": "Pencarian Fraksi",
         "civilWar": "Perang sipil",
@@ -14,7 +42,6 @@
         "globalQuests": "Pencarian Global"
       },
       "collectables": {
-        "title": "Barang koleksi",
         "dragonPriestMasks": "Topeng Pendeta Naga",
         "daedricArtefacts": "Artefak Daedric",
         "bugInAJar": "Serangga dalam Toples",
@@ -25,10 +52,9 @@
         "stones": "Batu"
       },
       "locations": {
-        "title": "Lokasi"
+        "main": "Utama"
       },
       "miscellaneous": {
-        "title": "Aneka ragam",
         "books": "Buku",
         "spellTomes": "Eja Tomes",
         "journals": "Jurnal"
@@ -40,36 +66,25 @@
       "hearthfire": "api perapian"
     }
   },
-  "fallout4": {
-    "title": "Kejatuhan 4",
+  "witcher3": {
+    "title": "The Witcher 3: Perburuan Liar",
     "categories": {
       "quests": {
-        "title": "Pencarian",
         "mainQuests": "Quest Utama",
-        "factionQuests": "Pencarian Fraksi",
-        "sideQuests": "Pencarian Sampingan"
+        "secondaryQuests": "Quest Sekunder",
+        "contracts": "Kontrak",
+        "treasureHunts": "Perburuan Harta Karun"
       },
       "collectables": {
-        "title": "Barang koleksi",
-        "bobbleheads": "Bobblehead",
-        "magazines": "Majalah",
-        "uniqueWeapons": "Senjata Unik",
-        "uniqueArmour": "Baju Besi Unik",
-        "powerArmour": "Armor Kekuatan"
+        "diagrams": "Diagram"
       },
       "locations": {
-        "title": "Lokasi"
-      },
-      "miscellaneous": {
-        "title": "Aneka ragam",
-        "holotapes": "Holotape"
+        "main": "Utama"
       }
     },
     "dlc": {
-      "automatron": "robot",
-      "farHarbor": "Pelabuhan Jauh",
-      "nukaWorld": "Nuka-Dunia",
-      "vaultTecWorkshop": "Lokakarya Vault-Tec"
+      "bloodAndWine": "darah dan anggur",
+      "heartsOfStone": "hatiDariBatu"
     }
   }
 }

@@ -1,9 +1,37 @@
 {
+  "fallout4": {
+    "title": "フォールアウト4",
+    "categories": {
+      "quests": {
+        "mainQuests": "メインクエスト",
+        "factionQuests": "派閥クエスト",
+        "sideQuests": "サイドクエスト"
+      },
+      "collectables": {
+        "bobbleheads": "ボブルヘッド",
+        "magazines": "雑誌",
+        "uniqueWeapons": "ユニークな武器",
+        "uniqueArmour": "ユニークな鎧",
+        "powerArmour": "パワーアーマー"
+      },
+      "locations": {
+        "main": "主要"
+      },
+      "miscellaneous": {
+        "holotapes": "ホロテープ"
+      }
+    },
+    "dlc": {
+      "automatron": "オートマトロン",
+      "farHarbor": "ファーハーバー",
+      "nukaWorld": "ヌカ・ワールド",
+      "vaultTecWorkshop": "Vault-Tec ワークショップ"
+    }
+  },
   "skyrim": {
     "title": "スカイリム",
     "categories": {
       "quests": {
-        "title": "クエスト",
         "mainQuests": "メインクエスト",
         "factionQuests": "派閥クエスト",
         "civilWar": "内戦",
@@ -14,7 +42,6 @@
         "globalQuests": "グローバルクエスト"
       },
       "collectables": {
-        "title": "収集品",
         "dragonPriestMasks": "ドラゴン プリーストの仮面",
         "daedricArtefacts": "デイドラアーティファクト",
         "bugInAJar": "瓶の中の虫",
@@ -25,10 +52,9 @@
         "stones": "石"
       },
       "locations": {
-        "title": "所在地"
+        "main": "主要"
       },
       "miscellaneous": {
-        "title": "その他",
         "books": "本",
         "spellTomes": "呪文の本",
         "journals": "雑誌"
@@ -40,36 +66,25 @@
       "hearthfire": "ハースファイア"
     }
   },
-  "fallout4": {
-    "title": "Fallout 4",
+  "witcher3": {
+    "title": "ウィッチャー3: ワイルドハント",
     "categories": {
       "quests": {
-        "title": "クエスト",
         "mainQuests": "メインクエスト",
-        "factionQuests": "派閥クエスト",
-        "sideQuests": "サイドクエスト"
+        "secondaryQuests": "二次クエスト",
+        "contracts": "契約",
+        "treasureHunts": "宝探し"
       },
       "collectables": {
-        "title": "収集品",
-        "bobbleheads": "ボブルヘッド",
-        "magazines": "雑誌",
-        "uniqueWeapons": "ユニークな武器",
-        "uniqueArmour": "ユニークな鎧",
-        "powerArmour": "パワーアーマー"
+        "diagrams": "図表"
       },
       "locations": {
-        "title": "所在地"
-      },
-      "miscellaneous": {
-        "title": "その他",
-        "holotapes": "ホロテープ"
+        "main": "主要"
       }
     },
     "dlc": {
-      "automatron": "オートマトロン",
-      "farHarbor": "ファーハーバー",
-      "nukaWorld": "ヌカ・ワールド",
-      "vaultTecWorkshop": "Vault-Tec ワークショップ"
+      "bloodAndWine": "血とワイン",
+      "heartsOfStone": "ハートオブストーン"
     }
   }
 }

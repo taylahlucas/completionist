@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import SelectableItem from '@components/general/SelectableItem/SelectableItem';
 import StyledText from '@components/general/Text/StyledText.native';
@@ -11,6 +11,8 @@ import { ScreenEnum } from '@utils/CustomEnums';
 import Button from '@components/general/Button/Button.native';
 import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
 import ScrollableList from '@components/general/Lists/ScrollableList.native';
+import useEndpoints from '@data/api/hooks/useEndpoints.native';
+import useMainState from '@redux/hooks/useMainState';
 
 const PaymentsContent = () => {
 	const { t } = useTranslation();
@@ -18,6 +20,8 @@ const PaymentsContent = () => {
 	const navigation = useReactNavigation();
 	const { selectedSubscription } = useSubscriptionState();
 	const [selectedPrice, setSelectedPrice] = useState(selectedSubscription.prices[0]);
+	const { user } = useMainState();
+	const { updateUserInfo } = useEndpoints();
 
 	return (
 		<ScrollableList>
@@ -39,7 +43,7 @@ const PaymentsContent = () => {
 				{selectedSubscription.prices.map((item, index) => (
 					<SelectableItem
 						key={index}
-						item={selectedSubscription} 
+						item={selectedSubscription}
 						isSelected={item.type === selectedPrice.type}
 						onPress={(): void => setSelectedPrice(item)}
 					>
@@ -51,17 +55,26 @@ const PaymentsContent = () => {
 			</PaymentPricesContainer>
 
 			<PaymentPlanSubtitle align={'left'} color={theme.midGrey}>
-			{t('common:payments:selectType')}
+				{t('common:payments:selectType')}
 			</PaymentPlanSubtitle>
 
 			{/* // TODO: Add paypal and apple pay */}
 
 			<Button
 				style={{ marginTop: 64, alignSelf: 'center' }}
-                title={t('common:payments.confirm')}
-                onPress={(): void => navigation.navigate(ScreenEnum.GameSelection)}
-                color={theme.primaryPurple}
-            />
+				title={t('common:payments.confirm')}
+				onPress={(): void => {
+					updateUserInfo({
+						...user,
+						subscription: {
+							...user.subscription,
+							tier: selectedSubscription.id
+						}
+					})
+					navigation.navigate(ScreenEnum.GameSelection);
+				}}
+				color={theme.primaryPurple}
+			/>
 		</ScrollableList>
 	);
 };

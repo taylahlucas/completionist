@@ -1,6 +1,6 @@
 import React from 'react';
 import { ImageURISource } from 'react-native';
-import { GameListItemContainer, GameListImage, GameItemTitle } from './GameListItemStyledComponents.native';
+import { GameListItemContainer, GameListImage, GameItemTitle, GameItemTitleContainer } from './GameListItemStyledComponents.native';
 import useGetTheme from '@styles/hooks/useGetTheme';
 
 interface GameListItemProps {
@@ -24,7 +24,15 @@ const GameListItem = ({ testID, title, enabledColor = 'grey', enabled, imageUrl,
     >
       <GameListImage source={imageUrl} />
       {/* <GameItemScore color={theme.lightestGrey}>0-12</GameItemScore> */}
-      <GameItemTitle type={'Heading'} color={enabled ? theme.lightestGrey : theme.midGrey}>{title}</GameItemTitle>
+			<GameItemTitleContainer>
+      	<GameItemTitle 
+					type='SubHeading'
+					color={enabled ? theme.lightestGrey : theme.lightGrey}
+					align='left'
+					ellipsizeMode='tail'
+					numberOfLines={2}
+				>{title}</GameItemTitle>
+			</GameItemTitleContainer>
     </GameListItemContainer>
   );
 };

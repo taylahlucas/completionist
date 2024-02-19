@@ -11,6 +11,12 @@ export default StyleSheet.create({
     letterSpacing: 0,
     lineHeight: 36
   },
+	SubHeading: {
+    fontFamily: MONTSERRAT_SEMIBOLD,
+    fontSize: 20,
+    letterSpacing: 0.37,
+    lineHeight: 41
+	},
   ListItemTitle: {
     fontFamily: MONTSERRAT_SEMIBOLD,
     fontSize: 19,

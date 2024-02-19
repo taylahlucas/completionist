@@ -1,9 +1,37 @@
 {
+  "fallout4": {
+    "title": "Fallout 4",
+    "categories": {
+      "quests": {
+        "mainQuests": "Quêtes principales",
+        "factionQuests": "Quêtes de faction",
+        "sideQuests": "Quêtes secondaires"
+      },
+      "collectables": {
+        "bobbleheads": "Figurines à pompons",
+        "magazines": "Les magazines",
+        "uniqueWeapons": "Armes uniques",
+        "uniqueArmour": "Armure unique",
+        "powerArmour": "Armure assistée"
+      },
+      "locations": {
+        "main": "Principal"
+      },
+      "miscellaneous": {
+        "holotapes": "Holobandes"
+      }
+    },
+    "dlc": {
+      "automatron": "Automatron",
+      "farHarbor": "Port lointain",
+      "nukaWorld": "Nuka-Monde",
+      "vaultTecWorkshop": "Atelier Vault-Tec"
+    }
+  },
   "skyrim": {
     "title": "Bordeciel",
     "categories": {
       "quests": {
-        "title": "Quêtes",
         "mainQuests": "Quêtes principales",
         "factionQuests": "Quêtes de faction",
         "civilWar": "Guerre civile",
@@ -14,7 +42,6 @@
         "globalQuests": "Quêtes globales"
       },
       "collectables": {
-        "title": "Objets de collection",
         "dragonPriestMasks": "Masques de prêtre dragon",
         "daedricArtefacts": "Artefacts Daedra",
         "bugInAJar": "Un bug dans un pot",
@@ -25,10 +52,9 @@
         "stones": "Des pierres"
       },
       "locations": {
-        "title": "Emplacements"
+        "main": "Principal"
       },
       "miscellaneous": {
-        "title": "Divers",
         "books": "Livres",
         "spellTomes": "Tomes de sorts",
         "journals": "Journaux"
@@ -40,36 +66,25 @@
       "hearthfire": "Feu de foyer"
     }
   },
-  "fallout4": {
-    "title": "Fallout 4",
+  "witcher3": {
+    "title": "The Witcher 3 : Chasse Sauvage",
     "categories": {
       "quests": {
-        "title": "Quêtes",
         "mainQuests": "Quêtes principales",
-        "factionQuests": "Quêtes de faction",
-        "sideQuests": "Quêtes secondaires"
+        "secondaryQuests": "Quêtes secondaires",
+        "contracts": "Contrats",
+        "treasureHunts": "Chasses aux trésors"
       },
       "collectables": {
-        "title": "Objets de collection",
-        "bobbleheads": "Figurines à pompons",
-        "magazines": "Les magazines",
-        "uniqueWeapons": "Armes uniques",
-        "uniqueArmour": "Armure unique",
-        "powerArmour": "Armure assistée"
+        "diagrams": "Diagrammes"
       },
       "locations": {
-        "title": "Emplacements"
-      },
-      "miscellaneous": {
-        "title": "Divers",
-        "holotapes": "Holobandes"
+        "main": "Principal"
       }
     },
     "dlc": {
-      "automatron": "Automatron",
-      "farHarbor": "Port lointain",
-      "nukaWorld": "Nuka-Monde",
-      "vaultTecWorkshop": "Atelier Vault-Tec"
+      "bloodAndWine": "sangEtVin",
+      "heartsOfStone": "coeursdepierre"
     }
   }
 }

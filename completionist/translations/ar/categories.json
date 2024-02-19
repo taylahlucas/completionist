@@ -1,9 +1,37 @@
 {
+  "fallout4": {
+    "title": "تداعيات 4",
+    "categories": {
+      "quests": {
+        "mainQuests": "المهام الرئيسية",
+        "factionQuests": "أسئلة الفصائل",
+        "sideQuests": "أسئلة جانبية"
+      },
+      "collectables": {
+        "bobbleheads": "رؤؤس فقاعية",
+        "magazines": "المجلات",
+        "uniqueWeapons": "أسلحة فريدة من نوعها",
+        "uniqueArmour": "درع فريد",
+        "powerArmour": "درع القوة"
+      },
+      "locations": {
+        "main": "رئيسي"
+      },
+      "miscellaneous": {
+        "holotapes": "هولوتابس"
+      }
+    },
+    "dlc": {
+      "automatron": "آلي",
+      "farHarbor": "فار هاربور",
+      "nukaWorld": "نوكا وورلد",
+      "vaultTecWorkshop": "ورشة فولت تيك"
+    }
+  },
   "skyrim": {
     "title": "سكيريم",
     "categories": {
       "quests": {
-        "title": "أسئلة",
         "mainQuests": "المهام الرئيسية",
         "factionQuests": "أسئلة الفصائل",
         "civilWar": "حرب اهلية",
@@ -14,7 +42,6 @@
         "globalQuests": "المهام العالمية"
       },
       "collectables": {
-        "title": "مقتنيات",
         "dragonPriestMasks": "أقنعة كاهن التنين",
         "daedricArtefacts": "التحف ديدريك",
         "bugInAJar": "علة في جرة",
@@ -25,10 +52,9 @@
         "stones": "الحجارة"
       },
       "locations": {
-        "title": "المواقع"
+        "main": "رئيسي"
       },
       "miscellaneous": {
-        "title": "متنوع",
         "books": "كتب",
         "spellTomes": "المجلدات الإملائية",
         "journals": "المجلات"
@@ -40,36 +66,25 @@
       "hearthfire": "نار الموقد"
     }
   },
-  "fallout4": {
-    "title": "تداعيات4",
+  "witcher3": {
+    "title": "الويتشر 3: الصيد البري",
     "categories": {
       "quests": {
-        "title": "أسئلة",
         "mainQuests": "المهام الرئيسية",
-        "factionQuests": "أسئلة الفصائل",
-        "sideQuests": "أسئلة جانبية"
+        "secondaryQuests": "أسئلة ثانوية",
+        "contracts": "انكماش",
+        "treasureHunts": "البحث عن الكنز"
       },
       "collectables": {
-        "title": "مقتنيات",
-        "bobbleheads": "رؤؤس فقاعية",
-        "magazines": "المجلات",
-        "uniqueWeapons": "أسلحة فريدة من نوعها",
-        "uniqueArmour": "درع فريد",
-        "powerArmour": "درع القوة"
+        "diagrams": "المخططات"
       },
       "locations": {
-        "title": "المواقع"
-      },
-      "miscellaneous": {
-        "title": "متنوع",
-        "holotapes": "هولوتابس"
+        "main": "رئيسي"
       }
     },
     "dlc": {
-      "automatron": "آلي",
-      "farHarbor": "فار هاربور",
-      "nukaWorld": "نوكا وورلد",
-      "vaultTecWorkshop": "ورشة فولت تيك"
+      "bloodAndWine": "bloodAndWine",
+      "heartsOfStone": "HeartsOfStone"
     }
   }
 }

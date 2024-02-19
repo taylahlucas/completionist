@@ -1,9 +1,37 @@
 {
+  "fallout4": {
+    "title": "Fallout 4",
+    "categories": {
+      "quests": {
+        "mainQuests": "Hauptquests",
+        "factionQuests": "Fraktionsquests",
+        "sideQuests": "Nebenmissionen"
+      },
+      "collectables": {
+        "bobbleheads": "Wackelköpfe",
+        "magazines": "Zeitschriften",
+        "uniqueWeapons": "Einzigartige Waffen",
+        "uniqueArmour": "Einzigartige Rüstung",
+        "powerArmour": "Powerrüstung"
+      },
+      "locations": {
+        "main": "Hauptsächlich"
+      },
+      "miscellaneous": {
+        "holotapes": "Holobänder"
+      }
+    },
+    "dlc": {
+      "automatron": "Automatron",
+      "farHarbor": "Far Harbor",
+      "nukaWorld": "Nuka-Welt",
+      "vaultTecWorkshop": "Vault-Tec-Workshop"
+    }
+  },
   "skyrim": {
     "title": "Skyrim",
     "categories": {
       "quests": {
-        "title": "Quests",
         "mainQuests": "Hauptquests",
         "factionQuests": "Fraktionsquests",
         "civilWar": "Bürgerkrieg",
@@ -14,7 +42,6 @@
         "globalQuests": "Globale Quests"
       },
       "collectables": {
-        "title": "Sammlerstücke",
         "dragonPriestMasks": "Drachenpriester-Masken",
         "daedricArtefacts": "Daedrische Artefakte",
         "bugInAJar": "Käfer im Glas",
@@ -25,10 +52,9 @@
         "stones": "Steine"
       },
       "locations": {
-        "title": "Standorte"
+        "main": "Hauptsächlich"
       },
       "miscellaneous": {
-        "title": "Verschiedenes",
         "books": "Bücher",
         "spellTomes": "Zauberbücher",
         "journals": "Zeitschriften"
@@ -40,36 +66,25 @@
       "hearthfire": "Herdfeuer"
     }
   },
-  "fallout4": {
-    "title": "Fallout 4",
+  "witcher3": {
+    "title": "The Witcher 3: Wild Hunt",
     "categories": {
       "quests": {
-        "title": "Quests",
         "mainQuests": "Hauptquests",
-        "factionQuests": "Fraktionsquests",
-        "sideQuests": "Nebenmissionen"
+        "secondaryQuests": "Sekundäre Quests",
+        "contracts": "Verträge",
+        "treasureHunts": "Schatzsuche"
       },
       "collectables": {
-        "title": "Sammlerstücke",
-        "bobbleheads": "Wackelköpfe",
-        "magazines": "Zeitschriften",
-        "uniqueWeapons": "Einzigartige Waffen",
-        "uniqueArmour": "Einzigartige Rüstung",
-        "powerArmour": "Powerrüstung"
+        "diagrams": "Diagramme"
       },
       "locations": {
-        "title": "Standorte"
-      },
-      "miscellaneous": {
-        "title": "Verschiedenes",
-        "holotapes": "Holobänder"
+        "main": "Hauptsächlich"
       }
     },
     "dlc": {
-      "automatron": "Automatron",
-      "farHarbor": "Far Harbor",
-      "nukaWorld": "Nuka-Welt",
-      "vaultTecWorkshop": "Vault-Tec-Workshop"
+      "bloodAndWine": "Blut und Wein",
+      "heartsOfStone": "heartsOfStone"
     }
   }
 }

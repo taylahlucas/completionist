@@ -1,3 +1,4 @@
+import React from 'react';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import StyledText from '../Text/StyledText.native';
 import { PriceProps } from '@utils/CustomInterfaces';
