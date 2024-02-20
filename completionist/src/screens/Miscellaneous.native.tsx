@@ -28,7 +28,7 @@ const Miscellaneous = () => {
         setSearchValue={setSearchValue}
         onReset={(): void => setSearchValue('')} 
       />
-      <CompletedQuantityTitle type={'ListItemTitleBold'}>{`${getUserMiscItems().length}/${mapDataTo(ContentSectionEnum.MISCELLANEOUS, selectedGame, true).length}`}</CompletedQuantityTitle>
+      <CompletedQuantityTitle type={'ListItemSubTitleBold'}>{`${getUserMiscItems().length}/${mapDataTo(ContentSectionEnum.MISCELLANEOUS, selectedGame, true).length}`}</CompletedQuantityTitle>
       <ContentList />
     </StandardLayout>
   );

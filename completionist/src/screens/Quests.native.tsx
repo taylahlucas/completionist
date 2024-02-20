@@ -29,7 +29,7 @@ const Quests = () => {
         setSearchValue={setSearchValue}
         onReset={(): void => setSearchValue('')} 
       />
-      <CompletedQuantityTitle type={'ListItemTitleBold'}>
+      <CompletedQuantityTitle type={'ListItemSubTitleBold'}>
         {`${getUserQuests().length}/${mapDataTo(ContentSectionEnum.QUESTS, selectedGame, true).length}`}
       </CompletedQuantityTitle>
       <ContentList />

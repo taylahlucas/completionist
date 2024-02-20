@@ -28,7 +28,7 @@ const Locations = () => {
         setSearchValue={setSearchValue}
         onReset={(): void => setSearchValue('')} 
       />
-      <CompletedQuantityTitle type={'ListItemTitleBold'}>{`${getUserLocations().length}/${mapDataTo(ContentSectionEnum.LOCATIONS, selectedGame, true).length}`}</CompletedQuantityTitle>
+      <CompletedQuantityTitle type={'ListItemSubTitleBold'}>{`${getUserLocations().length}/${mapDataTo(ContentSectionEnum.LOCATIONS, selectedGame, true).length}`}</CompletedQuantityTitle>
       <ContentList />
     </StandardLayout>
   );

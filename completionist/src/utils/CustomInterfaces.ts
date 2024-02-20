@@ -78,6 +78,7 @@ export type RootDrawerParamList = {
   Subscriptions: undefined;
   Payments: undefined;
   Settings: undefined;
+	AccountDetails: undefined;
 };
 
 export interface NativeNavigation {

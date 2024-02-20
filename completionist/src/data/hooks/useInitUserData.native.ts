@@ -36,7 +36,7 @@ const useInitUserData = () => {
         return;
       case 'inactive': 
         if (isLoggedIn && !!user.userId) {
-					saveUserAndCache(user, true, true);
+					saveUserAndCache(user);
         }
         return;
     }

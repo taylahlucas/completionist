@@ -104,6 +104,10 @@ can you convert the following Hogwarts Legacy Quests to the following json data,
 
 // https://game8.co/games/Hogwarts-Legacy/archives/403791#hl_1
 
+// https://hogwarts-legacy.fandom.com/wiki/Beasts
+
 //https://www.powerpyx.com/hogwarts-legacy-collectibles-guide-100-completion/
 
 //https://hogwarts-legacy.fandom.com/wiki/Collections
+
+// TODO: Reconvert witcher 3 quests

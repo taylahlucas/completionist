@@ -72,7 +72,7 @@ const PaymentsContent = () => {
 							tier: selectedSubscription.id
 						}
 					};
-					saveUserAndCache(updatedUser, true, false);
+					saveUserAndCache(updatedUser);
 					navigation.navigate(ScreenEnum.GameSelection);
 				}}
 				color={theme.primaryPurple}

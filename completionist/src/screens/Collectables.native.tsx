@@ -28,7 +28,7 @@ const Collectables = () => {
         setSearchValue={setSearchValue}
         onReset={(): void => setSearchValue('')} 
       />
-      <CompletedQuantityTitle type={'ListItemTitleBold'}>
+      <CompletedQuantityTitle type={'ListItemSubTitleBold'}>
         {`${getUserCollectables().length}/${mapDataTo(ContentSectionEnum.COLLECTABLES, selectedGame, true).length}`}
       </CompletedQuantityTitle>
       <ContentList />

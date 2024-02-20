@@ -14,7 +14,7 @@ export const styles = StyleSheet.create({
     paddingBottom: 16
   },
 	contentContainer: {
-		paddingBottom: 84
+		paddingBottom: 184
 	}
 });
 
@@ -22,6 +22,10 @@ export const SettingsContentDescription = styled(StyledText)`
   width: ${STANDARD_WIDTH}px;
   padding: 8px;
   padding-top: 16px;
+`;
+
+export const SettingsContentInputContainer = styled.View`
+	align-self: center;
 `;
 
 export const SettingsContentDropdownContainer = styled.View`

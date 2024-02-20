@@ -23,6 +23,7 @@ import Subscriptions from '@screens/Subscriptions.native';
 import Payments from '@screens/Payments.native';
 import SteamAchievements from '@screens/SteamAchievements.native';
 import SelectFirstGame from '@screens/SelectFirstGame.native';
+import AccountDetails from '@screens/AccountDetails.native';
 
 const Drawer = createDrawerNavigator<RootDrawerParamList>();
 
@@ -74,6 +75,7 @@ const NavigationDrawer = () => {
 			<Drawer.Screen name={ScreenEnum.Subscriptions} component={Subscriptions} />
 			<Drawer.Screen name={ScreenEnum.Payments} component={Payments} />
 			<Drawer.Screen name={ScreenEnum.Settings} component={Settings} />
+			<Drawer.Screen name={ScreenEnum.AccountDetails} component={AccountDetails} />
 		</Drawer.Navigator>
 	);
 };

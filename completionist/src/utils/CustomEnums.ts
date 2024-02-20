@@ -13,7 +13,8 @@ export enum ScreenEnum {
 	SteamAchievements = 'SteamAchievements',
   Subscriptions = 'Subscriptions',
   Payments = 'Payments',
-  Settings = 'Settings'
+  Settings = 'Settings',
+	AccountDetails = 'AccountDetails'
 }
 
 export enum IconTypeEnum {

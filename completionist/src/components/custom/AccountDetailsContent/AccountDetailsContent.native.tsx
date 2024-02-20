@@ -1,0 +1,74 @@
+import React, { useState } from 'react';
+import ScrollableList from '@components/general/Lists/ScrollableList.native';
+import { SettingsContentDescription, SettingsContentInputContainer } from '../SettingsContent/SettingsContentStyledComponents.native';
+import TextInput from '@components/general/TextInput/TextInput.native';
+import useMainState from '@redux/hooks/useMainState';
+import Button from '@components/general/Button/Button.native';
+import useEditUserData from '@data/hooks/useEditUserData.native';
+import Condition from '@components/general/Condition.native';
+
+const AccountDetailsContent = () => {
+	const { user } = useMainState();
+	const [username, setUsername] = useState(user.name);
+	// TODO: email and password validation
+	const [email, setEmail] = useState(user.email);
+	const [password, setPassword] = useState(user.password);
+	const { saveUserAndCache } = useEditUserData();
+	
+	// TODO: Translations && change password
+	return (
+		<ScrollableList>
+			<SettingsContentDescription align={'left'}>
+				Change username:
+			</SettingsContentDescription>
+			<SettingsContentInputContainer>
+				<TextInput
+					placeholder={'Enter Username'}
+					value={username}
+					inputStyle='text'
+					onChangeText={(value: string): void => setUsername(value)}
+					onReset={(): void => setUsername('')}
+				/>
+			</SettingsContentInputContainer>
+
+			<SettingsContentDescription align={'left'}>
+				Change email:
+			</SettingsContentDescription>
+			<SettingsContentInputContainer>
+				<TextInput
+					placeholder={'Enter Email'}
+					value={email}
+					inputStyle='text'
+					onChangeText={(value: string): void => setEmail(value)}
+					onReset={(): void => setEmail('')}
+				/>
+			</SettingsContentInputContainer>
+			<Condition condition={!!user.password}>
+				<SettingsContentDescription align={'left'}>
+					Change password:
+				</SettingsContentDescription>
+				<SettingsContentInputContainer>
+					<TextInput
+						placeholder={''}
+						value={email}
+						secureTextEntry={true}
+						inputStyle='text'
+						onChangeText={(value: string): void => setEmail(value)}
+						onReset={(): void => setEmail('')}
+					/>
+				</SettingsContentInputContainer>
+			</Condition>
+			<Button 
+				title={'Update Details'}
+				onPress={(): void => saveUserAndCache({
+					...user,
+					name: username,
+					// TODO: Email validation
+					// email: email
+				})}
+			/>
+		</ScrollableList>
+	);
+};
+
+export default AccountDetailsContent;

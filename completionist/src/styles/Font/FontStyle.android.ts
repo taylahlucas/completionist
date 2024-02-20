@@ -25,7 +25,7 @@ export default StyleSheet.create({
   },
   ListItemTitleBold: {
     fontFamily: MONTSERRAT,
-    fontSize: 17,
+    fontSize: 19,
     letterSpacing: 0,
     lineHeight: 18
   },

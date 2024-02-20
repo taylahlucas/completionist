@@ -112,7 +112,7 @@ export const NavigationDrawerContainer = styled.View`
 `;
 
 export const NavigationDrawerBodyContainer = styled.View`
-  height: ${Dimensions.get('window').height - 64}px;
+  height: ${Dimensions.get('window').height - 84}px;
   align-content: center;
   margin-top: 16px;
   margin-left: 16px;
