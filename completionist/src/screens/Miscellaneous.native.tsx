@@ -22,7 +22,7 @@ const Miscellaneous = () => {
 
   return (
     <StandardLayout>
-      <NavigationHeader title={t('common:screens.miscellaneous')} />
+      <NavigationHeader title={t('common:screens.miscellaneous')} rightAction='filter' />
       <CustomSearchBar 
         searchValue={searchValue}
         setSearchValue={setSearchValue}

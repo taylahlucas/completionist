@@ -46,7 +46,7 @@ const SettingsContent = () => {
 				Select primary color:
 			</SettingsContentDescription>
 
-{/* // TODO: */}
+{/* // TODO: Fix styles and logic */}
 			<View>
 				<SettingsContentDescription align={'left'}>
 					Change username:

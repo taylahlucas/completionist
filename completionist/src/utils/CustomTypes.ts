@@ -24,6 +24,7 @@ export type IoniconType =
   | 'checkmark-circle-outline'
   | 'checkbox-outline'
   | 'checkmark-sharp'
+	| 'filter-outline'
   | 'eye-outline'
   | 'eye-off-outline'
   | 'menu-sharp'
@@ -57,7 +58,7 @@ export type LanguageType =
 // Navigation
 
 export type NavigationHeaderLeftActionTypes = 'back' | 'menu' | 'subscriptions' | 'none';
-export type NavigationHeaderRightActionTypes = 'logout' | 'gameSelection' | 'filter' | 'none';
+export type NavigationHeaderRightActionTypes = 'logout' | 'filter' | 'none';
 
 // Responses
 

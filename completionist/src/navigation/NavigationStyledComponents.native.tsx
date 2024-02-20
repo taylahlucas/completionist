@@ -119,6 +119,6 @@ export const NavigationDrawerBodyContainer = styled.View`
 `;
 
 export const NavigationDrawerFooter = styled.Pressable`
-  position: absolute;
-  bottom: 92px;
+	position: absolute;
+	bottom: 96px;
 `;

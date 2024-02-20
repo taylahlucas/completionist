@@ -1150,6 +1150,151 @@
     "location": "",
     "href": "",
     "conflictingIds": []
+  },
+
+  {
+    "id": "a6a3d84e-9808-43f6-b60c-4f10730e6db4",
+    "mainCategory": "Side Quests",
+    "title": "Crossed Wands: Round 1",
+    "hold": "",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "",
+    "href": "",
+    "conflictingIds": []
+  },
+  {
+    "id": "b23c378a-7b3c-4ea2-85a4-40ee50b69550",
+    "mainCategory": "Side Quests",
+    "title": "Crossed Wands: Round 2",
+    "hold": "",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "",
+    "href": "",
+    "conflictingIds": []
+  },
+  {
+    "id": "27a83a89-d370-4a12-9f02-d4657be6a93d",
+    "mainCategory": "Side Quests",
+    "title": "Crossed Wands: Round 3",
+    "hold": "",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "",
+    "href": "",
+    "conflictingIds": []
+  },
+  {
+    "id": "f49d3f21-83d5-4ac2-8772-0ed2cfe2b422",
+    "mainCategory": "Side Quests",
+    "title": "Cursed Tomb Treasure",
+    "hold": "",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "",
+    "href": "",
+    "conflictingIds": []
+  },
+  {
+    "id": "e12da6b7-107c-4972-95e1-2ef235f41f41",
+    "mainCategory": "Side Quests",
+    "title": "'Dissending' for Sweets",
+    "hold": "",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "",
+    "href": "",
+    "conflictingIds": []
+  },
+  {
+    "id": "dc79dfb8-8387-4b7e-968b-1a2c3d08c05d",
+    "mainCategory": "Side Quests",
+    "title": "E-vase-ive Manoeuvre",
+    "hold": "",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "",
+    "href": "",
+    "conflictingIds": []
+  },
+  {
+    "id": "b91a9f66-041f-4b06-8ed0-bd7f038b36e4",
+    "mainCategory": "Side Quests",
+    "title": "Flight Test",
+    "hold": "",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "",
+    "href": "",
+    "conflictingIds": []
+  },
+  {
+    "id": "a005fc64-44ab-4f89-8e85-274a1fb10a5d",
+    "mainCategory": "Side Quests",
+    "title": "Flying Off the Shelves",
+    "hold": "",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "",
+    "href": "",
+    "conflictingIds": []
+  },
+  {
+    "id": "d2380eb3-72a0-47de-a9d1-bfbae5e3e8f4",
+    "mainCategory": "Side Quests",
+    "title": "Foal of the Dead",
+    "hold": "",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "",
+    "href": "",
+    "conflictingIds": []
+  },
+  {
+    "id": "fb8e4ea5-1540-4960-b80b-4b5730ec3f43",
+    "mainCategory": "Side Quests",
+    "title": "Follow the Butterflies",
+    "hold": "",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "",
+    "href": "",
+    "conflictingIds": []
+  },
+  {
+    "id": "ad33366e-80c4-4b12-9e1b-0c72a8e0d2ee",
+    "mainCategory": "Side Quests",
+    "title": "Ghost of Our Love",
+    "hold": "",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "",
+    "href": "",
+    "conflictingIds": []
+  },
+  {
+    "id": "5eef9e8f-7541-48d2-a8b9-2e0e3b9270a5",
+    "mainCategory": "Side Quests",
+    "title": "Gobs of Gobstones",
+    "hold": "",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "",
+    "href": "",
+    "conflictingIds": []
   }
 
 ]

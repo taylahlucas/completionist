@@ -102,19 +102,6 @@ can you convert the following Hogwarts Legacy Quests to the following json data,
 			"conflictingIds": []
 	}
 
-Crossed Wands: Round 1
-Crossed Wands: Round 2
-Crossed Wands: Round 3
-Cursed Tomb Treasure
-'Dissending' for Sweets
-E-vase-ive Manoeuvre
-Flight Test
-Flying Off the Shelves
-Foal of the Dead
-Follow the Butterflies
-Ghost of Our Love
-Gobs of Gobstones
-
 History of Magic Class
 Interior Decorating
 Kidnapped Cabbage
@@ -126,6 +113,7 @@ Portrait in a Pickle
 Rescuing Rococo
 Sacking Selwyn
 Solved by the Bell
+
 Spell Combination Practice 1
 Spell Combination Practice 2
 Spot Removal
