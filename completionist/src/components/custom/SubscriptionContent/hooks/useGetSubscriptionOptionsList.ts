@@ -3,73 +3,53 @@ import { PriceProps } from '@utils/CustomInterfaces';
 import { useTranslation } from 'react-i18next';
 
 export interface SubscriptionOptionsListProps {
-    id: SubscriptionTypeEnum;
-    prices: PriceProps[];
-    title: string;
-    description: string[];
+	id: SubscriptionTypeEnum;
+	prices: PriceProps[];
+	title: string;
+	description: string[];
 }
 
 const useGetSubscriptionOptionsList = (): SubscriptionOptionsListProps[] => {
 	const { t } = useTranslation();
 
-    return ([
-        {
-            id: SubscriptionTypeEnum.GOLD,
-            prices: [
-                {
-                    type: DatePeriodEnum.MONTHLY,
-                    title: t('common:subscriptions.monthly'),
-                    value: 9.99
-                },
-                {
-                    type: DatePeriodEnum.YEARLY,
-                    title: t('common:subscriptions.yearly'),
-                    value: 79.99
-                }
-            ],
-            title: t('common:subscriptions.gold'),
-            description: [
-                t('common:subscriptions.accessPremiumFeatures'),
+	return ([
+		{
+			id: SubscriptionTypeEnum.PREMIUM,
+			prices: [
+				{
+					type: DatePeriodEnum.MONTHLY,
+					title: t('common:subscriptions.monthly'),
+					value: 9.99
+				},
+				{
+					type: DatePeriodEnum.YEARLY,
+					title: t('common:subscriptions.yearly'),
+					value: 79.99
+				}
+			],
+			title: t('common:subscriptions.premium'),
+			description: [
+				t('common:subscriptions.accessPremiumFeatures'),
 				t('common:subscriptions.accessAllGames')
-            ]
-        },
-        {
-            id: SubscriptionTypeEnum.SILVER,
-            prices: [
-                {
-                    type: DatePeriodEnum.MONTHLY,
-                    title: t('common:subscriptions.monthly'),
-                    value: 3.99
-                },
-                {
-                    type: DatePeriodEnum.YEARLY,
-                    title: t('common:subscriptions.yearly'),
-                    value: 29.99
-                }
-            ],
-            title: t('common:subscriptions.silver'),
-            description: [
-                t('common:subscriptions.accessPremiumFeatures'),
-                t('common:subscriptions.accessFiveGames')
-            ]
-        },
-        {
-            id: SubscriptionTypeEnum.BRONZE,
-            prices: [
-                {
-                    type: DatePeriodEnum.MONTHLY,
-                    title: t('common:subscriptions.monthly'),
-                    value: 0.00
-                }
-            ],
-            title: t('common:subscriptions.bronze'),
-            description: [
+			]
+		},
+		{
+			id: SubscriptionTypeEnum.FREE,
+			prices: [
+				{
+					type: DatePeriodEnum.MONTHLY,
+					title: t('common:subscriptions.monthly'),
+					value: 0.00
+				}
+			],
+			title: t('common:subscriptions.free'),
+			description: [
 				t('common:subscriptions.withAds'),
 				t('common:subscriptions.revokedAccess'),
 				t('common:subscriptions.accessOneGame')
-            ]
-        },
-    ]);
+			]
+		},
+	]);
 };
 
 export default useGetSubscriptionOptionsList;

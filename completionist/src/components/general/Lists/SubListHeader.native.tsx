@@ -20,7 +20,7 @@ const SubListHeader = ({ title, completed, total }: SubListHeaderProps): JSX.Ele
   return (
     <View style={listStyles.subSelectableButton}>
       <ListItemHeaderContainer color={theme.darkGrey}>
-        <SubListHeaderTitle align={'left'} color={theme.lightGrey}>
+        <SubListHeaderTitle align='left' color={theme.lightGrey}>
           {title}
         </SubListHeaderTitle>
         <ListItemHeaderCountTitle color={theme.lightGrey}>

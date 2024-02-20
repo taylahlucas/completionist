@@ -29,7 +29,7 @@ const useHandleGameSelection = () => {
 			const gameName: string = translateGameName(game.id);
 
 			switch (user.subscription.tier) {
-				case SubscriptionTypeEnum.BRONZE:
+				case SubscriptionTypeEnum.FREE:
 					if (user.subscription.changesLeft > 0) {
 						const newChangesLeft = user.subscription.changesLeft - 1;
 						Alert.alert(
@@ -54,7 +54,7 @@ const useHandleGameSelection = () => {
 						);
 					}
 					break;
-				case SubscriptionTypeEnum.GOLD:
+				case SubscriptionTypeEnum.PREMIUM:
 					Alert.alert(
 						`Activate ${gameName}?`,
 						'',

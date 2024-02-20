@@ -58,7 +58,7 @@ const userSchema = new mongoose.Schema({
   },
 });
 
-userSchema.path('subscription.tier').default('bronze');
+userSchema.path('subscription.tier').default('free');
 userSchema.path('subscription.changesLeft').default(2);
 userSchema.path('subscription.data').default([
 	{ id: 'fallout4', isActive: false },

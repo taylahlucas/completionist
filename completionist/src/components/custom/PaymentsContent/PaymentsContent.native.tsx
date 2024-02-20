@@ -13,6 +13,7 @@ import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
 import ScrollableList from '@components/general/Lists/ScrollableList.native';
 import useMainState from '@redux/hooks/useMainState';
 import useEditUserData from '@data/hooks/useEditUserData.native';
+import Spacing from '@components/general/Spacing.native';
 
 const PaymentsContent = () => {
 	const { t } = useTranslation();
@@ -29,13 +30,13 @@ const PaymentsContent = () => {
 				item={selectedSubscription}
 				isSelected={true}
 			>
-				<StyledText type={'Heading'} color={theme.lightGrey}>
+				<StyledText type='Heading' color={theme.lightGrey}>
 					{selectedSubscription.title}
 				</StyledText>
 				<SubscriptionOptionDescription items={selectedSubscription.description} />
 			</SelectableItem>
 
-			<PaymentPlanSubtitle align={'left'} color={theme.midGrey}>
+			<PaymentPlanSubtitle align='left' color={theme.midGrey}>
 				{t('common:payments:selectPlan')}
 			</PaymentPlanSubtitle>
 
@@ -54,14 +55,14 @@ const PaymentsContent = () => {
 				))}
 			</PaymentPricesContainer>
 
-			<PaymentPlanSubtitle align={'left'} color={theme.midGrey}>
+			<PaymentPlanSubtitle align='left' color={theme.midGrey}>
 				{t('common:payments:selectType')}
 			</PaymentPlanSubtitle>
 
 			{/* // TODO: Add paypal and apple pay */}
+			<Spacing />
 
 			<Button
-				style={{ marginTop: 64, alignSelf: 'center' }}
 				title={t('common:payments.confirm')}
 				onPress={(): void => {
 					const updatedUser = {

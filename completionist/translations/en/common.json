@@ -42,11 +42,10 @@
 		"selectGameDesc3": "Don't worry if you make a mistake, you'll be able to change this twice per month"
 	},
 	"subscriptions": {
-		"subscriptionDesc": "With a Silver or Gold subscription,\nyou will gain access to Premium Features such as:",
+		"subscriptionDesc": "With a Premium subscription,\nyou will gain access to Premium Features such as:",
 		"purchaseSubscription": "Purchase Subscription",
-		"bronze": "Bronze",
-		"silver": "Silver",
-		"gold": "Gold",
+		"free": "Free",
+		"premium": "Premium",
 		"accessMultipleGames": "Access to multiple games",
 		"noAds": "No Ads",
 		"withAds": "With Ads",
@@ -103,7 +102,10 @@
 	},
 	"alerts": {
 		"activate": "Activate",
-		"cancel": "Cancel"
+		"cancel": "Cancel",
+		"changesLeft": "You will have {{changesLeft}} change{{s}} left.",
+		"noChangesLeft": "No Changes Left",
+		"noChangesLeftMessage": "Sorry, you have no game changes left for this month.\n Please upgrade to a premium subscription, or wait until the 1st of next month."
 	},
 	"languages": {
 		"ar": "Arabic",

@@ -23,7 +23,7 @@ const ListHeader = ({ title, enabled = true, completed, total }: ListHeaderProps
       <ListItemHeaderContainer backgroundColor={theme.black} color={theme.darkGrey}>
         <SubListHeaderTitle
           type={'ListItemSubTitleBold'} 
-          align={'left'}
+          align='left'
           color={theme.lightGrey}
         >
           {title}

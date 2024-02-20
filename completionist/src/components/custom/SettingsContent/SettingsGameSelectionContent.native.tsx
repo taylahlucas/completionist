@@ -9,7 +9,7 @@ const SettingsGameSelectionContent = () => {
 
   return (
     <>
-      <SettingsContentDescription align={'left'}>
+      <SettingsContentDescription align='left'>
         {t('common:settings.setCollections')}
       </SettingsContentDescription>
       <SettingsContentSelectionDropdown />

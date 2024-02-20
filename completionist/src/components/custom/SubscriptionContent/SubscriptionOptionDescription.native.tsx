@@ -9,7 +9,7 @@ const SubscriptionOptionDescription = ({ items }: SubscriptionOptionDescriptionP
     return (
         <SubscriptionOptionDescriptionContainer>
             {items.map((item, index) => (
-                <SubscriptionOptionTitle key={index} align={'left'}>{`- ${item}`}</SubscriptionOptionTitle>
+                <SubscriptionOptionTitle key={index} align='left'>{`- ${item}`}</SubscriptionOptionTitle>
             ))}
         </SubscriptionOptionDescriptionContainer>
     )

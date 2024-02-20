@@ -38,7 +38,7 @@ const NavigationDrawerItem = ({ item, isActive }: NavigationDrawerItemProps) => 
 			<NavigationDrawerTitle
 				type={'ListItemTitle'}
 				color={isActive ? theme.lightGrey : theme.midGrey}
-				align={'left'}
+				align='left'
 				ellipsizeMode='tail'
 				numberOfLines={1}
 			>
@@ -46,7 +46,7 @@ const NavigationDrawerItem = ({ item, isActive }: NavigationDrawerItemProps) => 
 			</NavigationDrawerTitle>
 			<NavigationHeaderSubTitle
 				color={isActive ? theme.lightGrey : theme.midGrey}
-				align={'left'}
+				align='left'
 				ellipsizeMode='tail'
 				numberOfLines={1}
 			>

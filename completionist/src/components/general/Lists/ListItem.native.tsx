@@ -43,7 +43,7 @@ const ListItem = ({ title, location, hold, isComplete = false, action }: ListIte
 		>
       <ListItemContentContainer>
         <ListItemTitle
-          align={'left'}
+          align='left'
           ellipsizeMode={'tail'}
           color={isComplete ? theme.midGrey : theme.lightestGrey}
         >

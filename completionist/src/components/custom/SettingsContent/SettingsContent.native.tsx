@@ -27,13 +27,13 @@ const SettingsContent = () => {
 		<ScrollableList contentContainerStyle={styles.contentContainer}>
 			<SettingsContentAccountDetails />
 
-			<SettingsContentDescription align={'left'}>
+			<SettingsContentDescription align='left'>
 				{t('common:settings.enabledDLC')}
 			</SettingsContentDescription>
 
 			<SelectionList data={getDLCOptions()} onPress={setDLCOptions} />
 
-			<SettingsContentDescription align={'left'}>
+			<SettingsContentDescription align='left'>
 				{t('common:settings.showHide')}
 			</SettingsContentDescription>
 			<SelectionList
@@ -41,7 +41,7 @@ const SettingsContent = () => {
 				onPress={(id: string): void => setSettingsOptionsOnPress(id)}
 			/>
 
-			<SettingsContentDescription align={'left'}>
+			<SettingsContentDescription align='left'>
 				Select language:
 			</SettingsContentDescription>
 

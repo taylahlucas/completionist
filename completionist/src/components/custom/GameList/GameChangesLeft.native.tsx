@@ -26,7 +26,7 @@ const GameChangesLeft = () => {
 
 	return (
 		<Condition
-			condition={user.subscription.tier === SubscriptionTypeEnum.BRONZE}
+			condition={user.subscription.tier === SubscriptionTypeEnum.FREE}
 			conditionalElement={renderSubscriptionComponent({ marginRight: 34 })}
 		>
 			<GameSelectionChangeLeftContainer>

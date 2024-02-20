@@ -31,9 +31,8 @@ export enum GameKeyEnum {
 }
 
 export enum SubscriptionTypeEnum {
-  BRONZE = 'bronze',
-  SILVER = 'silver',
-  GOLD = 'gold'
+  FREE = 'free',
+	PREMIUM = 'premium'
 }
 
 export enum DatePeriodEnum {

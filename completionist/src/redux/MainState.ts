@@ -19,7 +19,7 @@ export const initialGameData: GeneralData = {
 export const initialUser: User = {
 	...initialFormData,
 	subscription: {
-		tier: SubscriptionTypeEnum.BRONZE,
+		tier: SubscriptionTypeEnum.FREE,
 		changesLeft: 2,
 		data: []
 	},

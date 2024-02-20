@@ -51,7 +51,7 @@ const NavigationDrawerBody: React.FunctionComponent = () => {
 						<NavigationDrawerFooterTitle
 							type={'ListItemTitle'}
 							color={currentScreen === item.id ? theme.lightGrey : theme.midGrey}
-							align={'left'}
+							align='left'
 						>
 							{item.title}
 						</NavigationDrawerFooterTitle>
@@ -67,7 +67,7 @@ const NavigationDrawerBody: React.FunctionComponent = () => {
 					<NavigationDrawerFooterTitle
 						type={'ListItemTitle'}
 						color={currentScreen === ScreenEnum.Login ? theme.lightGrey : theme.midGrey}
-						align={'left'}
+						align='left'
 					>
 						{t('common:auth.logout')}
 					</NavigationDrawerFooterTitle>

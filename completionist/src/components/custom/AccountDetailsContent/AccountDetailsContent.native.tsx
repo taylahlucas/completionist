@@ -20,7 +20,7 @@ const AccountDetailsContent = () => {
 	// TODO: Translations && change password
 	return (
 		<ScrollableList>
-			<SettingsContentDescription align={'left'}>
+			<SettingsContentDescription align='left'>
 				Change username:
 			</SettingsContentDescription>
 			<SettingsContentInputContainer>
@@ -33,7 +33,7 @@ const AccountDetailsContent = () => {
 				/>
 			</SettingsContentInputContainer>
 
-			<SettingsContentDescription align={'left'}>
+			<SettingsContentDescription align='left'>
 				Change email:
 			</SettingsContentDescription>
 			<SettingsContentInputContainer>
@@ -46,7 +46,7 @@ const AccountDetailsContent = () => {
 				/>
 			</SettingsContentInputContainer>
 			<Condition condition={!!user.password}>
-				<SettingsContentDescription align={'left'}>
+				<SettingsContentDescription align='left'>
 					Change password:
 				</SettingsContentDescription>
 				<SettingsContentInputContainer>

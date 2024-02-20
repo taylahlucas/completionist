@@ -28,6 +28,7 @@ export const StyledButtonNavigation = styled.Pressable<StyledButtonNavigationPro
 	background-color: ${(props): string => props.color};
 	border-radius: ${DEFAULT_BORDER_RADIUS}px;
 	justify-content: space-between;
+	align-self: center;
 	align-items: center;
 	margin: 16px 0px 16px 0px;
 	padding: 0px 16px 0px 16px;

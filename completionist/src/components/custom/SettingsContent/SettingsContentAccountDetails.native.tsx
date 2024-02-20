@@ -26,7 +26,6 @@ const SettingsContentAccountDetails = () => {
 				{user.email}
 			</SettingsContentEmail>
 			<Button
-				style={{ alignSelf: 'center' }}
 				type='navigation'
 				title={'Change Account Details'}
 				onPress={(): void => navigation.navigate(ScreenEnum.AccountDetails)}

@@ -17,7 +17,7 @@ const DropdownSelection = ({ title, isSelected = false, onPress }: DropdownSelec
 				<DropdownSelectionTitle
 					type={'ListItemSubTitleBold'}
 					color={theme.lightGrey}
-					align={'left'}
+					align='left'
 					ellipsizeMode='tail'
 					numberOfLines={1}
 				>

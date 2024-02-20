@@ -16,7 +16,7 @@ const SettingsContentMainHeader = ({ item }: SettingsContentMainHeaderProps) => 
   return (
     <SettingsContentMainItem color={theme.darkGrey}>
       <SettingsContentMainItemTitle 
-        align={'left'} 
+        align='left' 
         type={'ListItemSubTitleBold'} 
         color={theme.lightGrey}
       >

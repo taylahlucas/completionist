@@ -16,7 +16,7 @@ const SelectionList = ({ data, onPress }: SelectionListProps) => {
     <SelectionListContainer>
       {data.map((item, index) => (
         <SelectionListItemContainer key={index}>
-          <SelectListTitle align={'left'} color={theme.lightGrey}>{item.title}</SelectListTitle>
+          <SelectListTitle align='left' color={theme.lightGrey}>{item.title}</SelectListTitle>
           <CheckBox 
             isActive={item.isActive}
             onPress={(): void => onPress(item.id)}
