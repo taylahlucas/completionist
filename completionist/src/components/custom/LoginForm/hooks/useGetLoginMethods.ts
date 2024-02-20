@@ -1,6 +1,6 @@
 import { GoogleSignin } from '@react-native-google-signin/google-signin';
 import auth from '@react-native-firebase/auth';
-import useSaveUserData from '@data/hooks/useEditUserData.native';
+import useEditUserData from '@data/hooks/useEditUserData.native';
 import useEndpoints from '@data/api/hooks/useEndpoints.native';
 import { AxiosErrorResponse } from '@utils/CustomTypes';
 import useLoginState from './useLoginState';
@@ -8,6 +8,7 @@ import { Alert } from 'react-native';
 import useKeychain from '@data/hooks/useKeychain.native';
 import { useTranslation } from 'react-i18next';
 import { LoginFormData } from '@utils/CustomInterfaces';
+import useMainState from '@redux/hooks/useMainState';
 
 interface GoogleSignInError {
 	code: number;
@@ -23,8 +24,9 @@ interface GetLoginMethodsReturnType {
 
 const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 	const { t } = useTranslation();
+	const { user } = useMainState();
 	const { loginFormData } = useLoginState();
-	const { saveUserAndLogin, saveUserAndSignUp, removeUserData } = useSaveUserData();
+	const { saveUserAndLogin, saveUserAndSignUp, saveUserAndCache, removeUserData } = useEditUserData();
 	const { signIn, signUp, getUserByUserId } = useEndpoints();
 	const { storeCredentials } = useKeychain();
 
@@ -94,10 +96,11 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 	}
 
 	const signOut = async () => {
-		removeUserData();
+		saveUserAndCache(user, true, true);
 		try {
 			await GoogleSignin.revokeAccess();
 			await GoogleSignin.signOut();
+			removeUserData();
 		} catch (error) {
 			console.log("Error signing out: ", error)
 		}

@@ -8,26 +8,29 @@ import { initialFormData } from '@components/custom/LoginForm/LoginState';
 import useLoginDispatch from '@components/custom/LoginForm/hooks/useLoginDispatch';
 import useEndpoints from '../api/hooks/useEndpoints.native';
 import { initialUser } from '@redux/MainState';
+import useMainState from '@redux/hooks/useMainState';
 
 interface EditUserDataReturnType {
 	loadUserData: () => void;
 	saveUserAndLogin: (user: User) => void;
 	saveUserAndSignUp: (user: User) => void;
-	saveUserAndCache: (user: User, updateInfo: boolean, updateData: boolean) => void;
+	saveUserAndCache: (user: User) => void;
 	removeUserData: () => void;
 }
 
 const useEditUserData = (): EditUserDataReturnType => {
 	const navigation = useReactNavigation();
-	const { setUser } = useMainDispatch();
+	const { setUser, setShouldUpdateUser } = useMainDispatch();
+	const { shouldUpdateUser } = useMainState();
 	const { setLoginFormData, setLoggedIn } = useLoginDispatch();
 	const { saveToCache, fetchUserFromCache, clearCache } = useCache();
 	const { getCredentials, deleteCredentials } = useKeychain();
-	const { getUserByUserId, updateUserInfo, updateUserData } = useEndpoints();
+	const { getUserByUserId, updateUser } = useEndpoints();
 
 	const loadUserData = async () => {
 		const credentials = await getCredentials();
 
+		// Check if data is stored in cache, if not fetch from db and login
 		if (!!credentials) {
 			fetchUserFromCache(credentials.password)
 				.then((cachedData) => {
@@ -46,40 +49,39 @@ const useEditUserData = (): EditUserDataReturnType => {
 		}
 	};
 
+	// TODO: Refactor this
 	const saveUserAndLogin = (user: User) => {
 		setUser(user);
+		saveToCache(user);
 		setLoggedIn(true);
 		navigation.navigate(ScreenEnum.GameSelection);
 	};
 
 	const saveUserAndSignUp = (user: User) => {
 		setUser(user);
+		saveToCache(user);
 		setLoggedIn(true);
 		navigation.navigate(ScreenEnum.SelectFirstGame);
 	};
 
-	const saveUserAndCache = (user: User, updateInfo: boolean, updateData: boolean) => {
-		if (updateInfo) {
-			updateUserInfo({
+	const saveUserAndCache = (user: User) => {
+		if (shouldUpdateUser) {
+			updateUser({
 				userId: user.userId,
 				steamId: user.steamId,
 				subscription: user.subscription,
 				settings: user.settings,
-				userAvatar: user.userAvatar
-			});
-		}
-		if (updateData) {
-			updateUserData({
-				userId: user.userId,
+				userAvatar: user.userAvatar,
 				data: {
 					fallout4: user.data.fallout4,
 					skyrim: user.data.skyrim,
 					witcher3: user.data.witcher3
 				}
 			});
+			setShouldUpdateUser(false);
+			setUser(user);
+			saveToCache(user);
 		}
-		setUser(user);
-		saveToCache(user);
 	};
 
 	const removeUserData = () => {

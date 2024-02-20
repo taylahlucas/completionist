@@ -13,11 +13,9 @@ import useMainDispatch from '@redux/hooks/useMainDispatch';
 import useAuth from '@data/api/hooks/useAuth.native';
 
 const AddSteamIDContent = () => {
-	const navigation = useReactNavigation();
 	const [steamId, setSteamId] = useState<string>('');
-	const { setUser } = useMainDispatch();
 	const { user, selectedGameData } = useMainState();
-	const { getSteamUserById, updateUserInfo } = useEndpoints();
+	const { getSteamUserById } = useEndpoints();
 	const { saveUserData } = useAuth();
 
 	// TODO: Add translations

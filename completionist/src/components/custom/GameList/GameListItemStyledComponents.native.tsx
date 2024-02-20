@@ -13,13 +13,17 @@ interface GameListItemContainerProps {
   color: string;
 }
 
+interface GameItemTitleContainerProps {
+	enabled: boolean;
+}
+
 export const GameListItemContainer = styled.Pressable<GameListItemContainerProps>`
   width: 150px;
   height: 150px;
   margin: 8px;
   border-radius: ${DEFAULT_BORDER_RADIUS}px;
   border-color: ${(props): string => props.color};
-  border-width: 3px;
+  border-width: 2px;
 `;
 
 export const GameListImage = styled.Image`
@@ -29,9 +33,10 @@ export const GameListImage = styled.Image`
   opacity: 0.3;
 `;
 
-export const GameItemTitleContainer = styled.View`
+export const GameItemTitleContainer = styled.View<GameItemTitleContainerProps>`
 	width: 150px;
 	height: 150px;
+	opacity: ${props => props.enabled ? 1 : 0.5};
 `;
 
 export const GameItemTitle = styled(StyledText)`
@@ -56,4 +61,10 @@ export const GameListItemHeaderContainer = styled.View`
 export const GameListItemHeaderTitleContainer = styled.View`
   flex-direction: row;
   justify-content: space-between;
+`;
+
+export const GameSelectionChangeLeftContainer = styled.View`
+	flex-direction: row; 
+	margin-left: 16px;
+	padding-bottom: 8px;
 `;

@@ -5,6 +5,13 @@ const {
 	witcher3SettingsConfig
 } = require('./initialUserData');
 
+const initialGameData = {
+	quests: [], 
+	collectables: [], 
+	miscellaneous: [], 
+	locations: [], 
+}
+
 const userSchema = new mongoose.Schema({
   userId: String,
 	steamId: String,
@@ -34,26 +41,17 @@ const userSchema = new mongoose.Schema({
     default: {
 			fallout4: {
 				appId: 377160,
-        quests: [], 
-        collectables: [], 
-        miscellaneous: [], 
-        locations: [], 
+				...initialGameData,
         settingsConfig: fallout4SettingsConfig
       },
       skyrim: {
 				appId: 72850,
-        quests: [], 
-        collectables: [], 
-        miscellaneous: [], 
-        locations: [], 
+				...initialGameData,
         settingsConfig: skyrimSettingsConfig
       },
 			witcher3: {
 				appId: 292030,
-        quests: [], 
-        collectables: [], 
-        miscellaneous: [], 
-        locations: [], 
+				...initialGameData,
         settingsConfig: witcher3SettingsConfig
       },
     }
@@ -61,7 +59,7 @@ const userSchema = new mongoose.Schema({
 });
 
 userSchema.path('subscription.tier').default('bronze');
-userSchema.path('subscription.changesLeft').default(0);
+userSchema.path('subscription.changesLeft').default(2);
 userSchema.path('subscription.data').default([
 	{ id: 'fallout4', isActive: false },
   { id: 'skyrim', isActive: false },

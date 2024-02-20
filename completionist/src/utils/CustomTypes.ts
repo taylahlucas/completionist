@@ -15,6 +15,7 @@ export type MaterialIconsType =
   | 'search';
 
 export type MaterialCommunityIcons =
+	| 'arrow-u-right-top'
   | 'cancel'
   | 'steam';
 
@@ -56,7 +57,7 @@ export type LanguageType =
 // Navigation
 
 export type NavigationHeaderLeftActionTypes = 'back' | 'menu' | 'subscriptions' | 'none';
-export type NavigationHeaderRightActionTypes = 'logout' | 'filter' | 'none';
+export type NavigationHeaderRightActionTypes = 'logout' | 'gameSelection' | 'filter' | 'none';
 
 // Responses
 

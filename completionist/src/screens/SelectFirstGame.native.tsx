@@ -4,12 +4,13 @@ import NavigationHeader from '@navigation/NavigationHeader.native';
 import CustomSearchBar from '@components/general/CustomSearchBar/CustomSearchBar.native';
 import { SubscriptionData } from '@utils/CustomInterfaces';
 import SelectFirstGameContent from '@components/custom/LoginForm/SelectFirstGameContent.native';
-import SelectFirstGameButton from '@components/custom/LoginForm/SelectFirstGameButton.native';
+import SelectFirstGameButton from '@components/custom/LoginForm/SelectFirstGameButton';
 
 const SelectFirstGame = () => {
 	const [searchValue, setSearchValue] = useState('');
 	const [selectedGame, setSelectedGame] = useState<SubscriptionData>();
 
+	// TOOD: Add to translations
 	return (
 		<StandardLayout>
 			<NavigationHeader title={'Select a Game'} leftAction='none' />
@@ -23,7 +24,10 @@ const SelectFirstGame = () => {
 				selectedGame={selectedGame}
 				setSelectedGame={setSelectedGame} 
 			/>
-			<SelectFirstGameButton selectedGame={selectedGame} setSelectedGame={setSelectedGame} />
+			<SelectFirstGameButton 
+				selectedGame={selectedGame} 
+				setSelectedGame={setSelectedGame} 
+			/>
 		</StandardLayout>
 	);
 };

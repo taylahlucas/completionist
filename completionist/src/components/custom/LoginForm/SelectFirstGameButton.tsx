@@ -7,6 +7,8 @@ import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
 import { ScreenEnum } from '@utils/CustomEnums';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import { SelectFirstGameButtonContainer, SelectFirstGameButtonStyle } from './LoginFormStyledComponents.native';
+import useActivateGameSubscription from '@utils/hooks/useActivateGameSubscription.native';
+import useLoginDispatch from './hooks/useLoginDispatch';
 
 interface SelectFirstGameButtonProps {
 	selectedGame?: SubscriptionData;
@@ -16,9 +18,8 @@ interface SelectFirstGameButtonProps {
 const SelectFirstGameButton = ({ selectedGame, setSelectedGame }: SelectFirstGameButtonProps) => {
 	const theme = useGetTheme();
 	const navigation = useReactNavigation();
-	const { user } = useMainState();
-	const { updateUserInfo } = useEndpoints();
-	const { saveUserAndLogin } = useEditUserData();
+	const { setLoggedIn } = useLoginDispatch();
+	const { activateGameSubscription } = useActivateGameSubscription();
 
 	return (
 		<SelectFirstGameButtonContainer style={{ backgroundColor: theme.black }}>
@@ -26,24 +27,12 @@ const SelectFirstGameButton = ({ selectedGame, setSelectedGame }: SelectFirstGam
 				title={'Continue'}
 				disabled={!selectedGame}
 				onPress={async (): Promise<void> => {
-					const updatedGames: SubscriptionData[] = user.subscription.data.map(data => {
-						return (data.id === selectedGame?.id)
-							? {
-								id: data.id,
-								isActive: true
-							} : data;
-					});
-					const updatedUser = {
-						...user,
-						subscription: {
-							...user.subscription,
-							data: updatedGames
-						}
-					};
-					updateUserInfo(updatedUser);
-					setSelectedGame(undefined);
-					saveUserAndLogin(updatedUser);
-					navigation.navigate(ScreenEnum.GameSelection);
+					if (!!selectedGame) {
+						activateGameSubscription(selectedGame);
+						setSelectedGame(undefined);
+						setLoggedIn(true);
+						navigation.navigate(ScreenEnum.GameSelection);
+					}
 				}}
 			/>
 		</SelectFirstGameButtonContainer>

@@ -6,17 +6,15 @@ import { AxiosErrorResponse, StringResponse, UserResponse } from '@utils/CustomT
 import { 
 	signupUrl, 
 	signinUrl, 
-	getUserByUserIdUrl, 
-	updateUserInfoUrl,
-	updateUserDataUrl, 
+	getUserByUserIdUrl,
+	updateUserUrl,
 	sendEmailUrl 
 } from '../../urls';
 import {
 	CreateUserProps,
 	SignInProps,
 	GetUserByUserIdProps,
-	UpdateUserInfoProps,
-	UpdateUserDataProps,
+	UpdateUserProps,
 	EmailProps,
 	EndpointsReturnType
 } from '@data/api/EndpointInterfaces.native';
@@ -96,40 +94,22 @@ const useEndpoints = (): EndpointsReturnType => {
 		}
 	};
 
-	const updateUserInfo = async ({ userId, steamId, subscription, settings, userAvatar }: UpdateUserInfoProps): Promise<UserResponse> => {
+	const updateUser = async ({ userId, steamId, subscription, settings, userAvatar, data }: UpdateUserProps): Promise<UserResponse> => {
 		const authToken = await getAuthToken();
 		if (!!authToken) {
 			try {
-				await axios.post(
-					`${url}/${updateUserInfoUrl}`,
+				await axios.patch(
+					`${url}/${updateUserUrl}`,
 					{
 						userId: userId,
 						steamId: steamId,
 						subscription: subscription,
 						settings: settings,
-						userAvatar: userAvatar
-					},
-					setAuthHeaders(authToken)
-				)
-			}
-			catch (error: AxiosErrorResponse) {
-				handleAxiosError(error.response.status);
-			}
-		}
-	};
-
-	const updateUserData = async ({ userId, data }: UpdateUserDataProps): Promise<UserResponse> => {
-		const authToken = await getAuthToken();
-		if (!!authToken) {
-			try {
-				await axios.post(
-					`${url}/${updateUserDataUrl}`,
-					{
-						userId: userId,
+						userAvatar: userAvatar,
 						data: data
 					},
 					setAuthHeaders(authToken)
-				);
+				)
 			}
 			catch (error: AxiosErrorResponse) {
 				handleAxiosError(error.response.status);
@@ -216,9 +196,8 @@ const useEndpoints = (): EndpointsReturnType => {
 	return { 
 		signIn, 
 		signUp, 
-		getUserByUserId, 
-		updateUserInfo,
-		updateUserData,
+		getUserByUserId,
+		updateUser,
 		sendEmail, 
 		getSteamUserById, 
 		getSteamPlayerAchievements,

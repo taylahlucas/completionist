@@ -1,0 +1,50 @@
+import useEditUserData from '@data/hooks/useEditUserData.native';
+import useMainState from '@redux/hooks/useMainState';
+import { SubscriptionData } from '@utils/CustomInterfaces';
+
+const useActivateGameSubscription = () => {
+	const { user } = useMainState();
+	const { saveUserAndCache } = useEditUserData();
+
+	// Free users
+	const changeGameSubscription = (selectedGame: SubscriptionData, changesLeft: number) => {
+		const updatedGames: SubscriptionData[] = user.subscription.data.map((data: SubscriptionData) => {
+			return {
+				id: data.id,
+				isActive: data.id === selectedGame?.id
+			};
+		});
+
+		const updatedUser = {
+			...user,
+			subscription: {
+				...user.subscription,
+				changesLeft: changesLeft,
+				data: updatedGames
+			}
+		};
+		saveUserAndCache(updatedUser);
+	};
+	
+	const activateGameSubscription = (selectedGame: SubscriptionData) => {
+		const updatedGames: SubscriptionData[] = user.subscription.data.map((data: SubscriptionData) => {
+			return (data.id === selectedGame?.id)
+				? {
+					id: data.id,
+					isActive: true
+				} : data;
+		});
+		const updatedUser = {
+			...user,
+			subscription: {
+				...user.subscription,
+				data: updatedGames
+			}
+		};
+		saveUserAndCache(updatedUser);
+	};
+
+	return { changeGameSubscription, activateGameSubscription };
+};
+
+export default useActivateGameSubscription;

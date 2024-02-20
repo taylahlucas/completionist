@@ -66,7 +66,7 @@ export const NavigationDrawerFooterTitle = styled(StyledText)`
 
 export const NavigationHeaderSubTitle = styled(StyledText)`
   margin-top: 4px;
-	margin-right: 4px;
+	margin-right: 8px;
 	max-width: 80px;
 `;
 

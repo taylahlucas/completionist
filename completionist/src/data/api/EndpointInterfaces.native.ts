@@ -14,16 +14,12 @@ export interface GetUserByUserIdProps {
 	userId: string;
 }
 
-export interface UpdateUserInfoProps {
+export interface UpdateUserProps {
 	userId: string;
 	steamId?: string;
 	subscription: Subscription;
 	settings: UserSettings;
 	userAvatar?: string;
-}
-
-export interface UpdateUserDataProps {
-	userId: string;
 	data: UserData;
 }
 
@@ -37,8 +33,7 @@ export interface EndpointsReturnType {
 	signIn: ({ email, password }: SignInProps) => Promise<UserResponse>;
 	signUp: ({ data }: CreateUserProps) => Promise<UserResponse>;
 	getUserByUserId: ({ userId }: GetUserByUserIdProps) => Promise<UserResponse>;
-	updateUserInfo: ({ userId, steamId, subscription, settings, userAvatar }: UpdateUserInfoProps) => Promise<UserResponse>;
-	updateUserData: ({ userId, data }: UpdateUserDataProps) => Promise<UserResponse>;
+	updateUser: ({ userId, steamId, subscription, settings, userAvatar, data }: UpdateUserProps) => Promise<UserResponse>;
 	sendEmail: ({ from, subject, text }: EmailProps) => Promise<UserResponse>;
 	getSteamUserById: (appId: string, steamId: string) => Promise<StringResponse>;
 	getSteamPlayerAchievements: (appId: string, steamId: string) => Promise<any>;

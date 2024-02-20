@@ -1,4 +1,5 @@
 import React from 'react';
+import { View } from 'react-native';
 import ScrollableList from '@components/general/Lists/ScrollableList.native';
 import Condition from '@components/general/Condition.native';
 import useContentState from './hooks/useContentState';
@@ -14,14 +15,18 @@ const ContentList = () => {
   const { getContentCategories } = useGetContentCategories();
   const { getContentForCategory } = useGetContent();
   const { checkContentCompleteForCategory } = useCheckContentComplete();
-  
+	const categories = getContentCategories();
+	
+	if (!categories) {
+		return <View />;
+	}
   return (
     <Condition
-      condition={searchValue.length < 2}
+      condition={searchValue.length < 2 && !!categories}
       conditionalElement={<SearchResults />}
     >
       <ScrollableList>
-        {getContentCategories().map((category: SettingsListItem, index: number) => {
+        {categories.map((category: SettingsListItem, index: number) => {
           const allContentForCategory = getContentForCategory(category.title)
           const completedContent = checkContentCompleteForCategory(allContentForCategory)
 
