@@ -49,7 +49,7 @@ const NavigationDrawerBody: React.FunctionComponent = () => {
 							size={item.id === ScreenEnum.SteamAchievements ? 26 : 24}
 						/>
 						<NavigationDrawerFooterTitle
-							type={'ListItemTitle'}
+							type='ListItemTitle'
 							color={currentScreen === item.id ? theme.lightGrey : theme.midGrey}
 							align='left'
 						>
@@ -65,7 +65,7 @@ const NavigationDrawerBody: React.FunctionComponent = () => {
 						size={24}
 					/>
 					<NavigationDrawerFooterTitle
-						type={'ListItemTitle'}
+						type='ListItemTitle'
 						color={currentScreen === ScreenEnum.Login ? theme.lightGrey : theme.midGrey}
 						align='left'
 					>

@@ -36,7 +36,7 @@ const NavigationDrawerItem = ({ item, isActive }: NavigationDrawerItemProps) => 
 			}}
 		>
 			<NavigationDrawerTitle
-				type={'ListItemTitle'}
+				type='ListItemTitle'
 				color={isActive ? theme.lightGrey : theme.midGrey}
 				align='left'
 				ellipsizeMode='tail'

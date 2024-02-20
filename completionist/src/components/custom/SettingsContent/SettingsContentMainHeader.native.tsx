@@ -17,7 +17,7 @@ const SettingsContentMainHeader = ({ item }: SettingsContentMainHeaderProps) => 
     <SettingsContentMainItem color={theme.darkGrey}>
       <SettingsContentMainItemTitle 
         align='left' 
-        type={'ListItemSubTitleBold'} 
+        type='ListItemSubTitleBold'
         color={theme.lightGrey}
       >
         {t(`common:screens.${item.id.toLowerCase()}`)}

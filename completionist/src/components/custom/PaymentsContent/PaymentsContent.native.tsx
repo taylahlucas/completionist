@@ -28,7 +28,7 @@ const PaymentsContent = () => {
 		<ScrollableList>
 			<SelectableItem
 				item={selectedSubscription}
-				isSelected={true}
+				isSelected
 			>
 				<StyledText type='Heading' color={theme.lightGrey}>
 					{selectedSubscription.title}

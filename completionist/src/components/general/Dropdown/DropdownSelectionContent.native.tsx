@@ -26,7 +26,7 @@ const DropdownSelectionContent = ({ content, onPress }: DropdownSelectionContent
           color={theme.darkGrey} 
           onPress={() => onPress(item.id)}
         >
-          <DropdownSelectionItemTitle type={'ListItemSubTitleBold'} align='left'>{item.title}</DropdownSelectionItemTitle>
+          <DropdownSelectionItemTitle type='ListItemSubTitleBold' align='left'>{item.title}</DropdownSelectionItemTitle>
         </DropdownSelectionContentItem>
       ))}
     </DropdownSelectionContentContainer>

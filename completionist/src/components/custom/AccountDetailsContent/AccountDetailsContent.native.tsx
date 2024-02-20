@@ -53,7 +53,7 @@ const AccountDetailsContent = () => {
 					<TextInput
 						placeholder={t('common:auth.password')}
 						value={password}
-						secureTextEntry={true}
+						secureTextEntry
 						inputStyle='text'
 						onChangeText={(value: string): void => setPassword(value)}
 						onReset={(): void => setPassword('')}

@@ -19,10 +19,10 @@ const SubTypeListHeader = ({ title, completed, total }: SubTypeListHeaderProps):
   return (
     <View style={listStyles.subTypeSelectableButton}>
       <ListItemHeaderContainer color={theme.darkGrey}>
-        <SubListHeaderTitle type={'ListItemSubTitleItalic'} color={theme.lightGrey} align='left'>
+        <SubListHeaderTitle type='ListItemSubTitleItalic' color={theme.lightGrey} align='left'>
           {title}
         </SubListHeaderTitle>
-        <ListItemHeaderCountTitle type={'ListItemSubTitleItalic'} color={theme.lightGrey}>
+        <ListItemHeaderCountTitle type='ListItemSubTitleItalic' color={theme.lightGrey}>
           {`${completed} / ${total}`}
         </ListItemHeaderCountTitle>
       </ListItemHeaderContainer>

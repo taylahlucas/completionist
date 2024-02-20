@@ -33,7 +33,7 @@ const LoginForm = () => {
 					testID={'password'}
           placeholder={t('common:auth.password')}
           inputStyle={'text'}
-          secureTextEntry={true}
+          secureTextEntry
           value={loginFormData.password ?? ''}
           onChangeText={(value) => setLoginFormData({
             ...loginFormData,
@@ -67,7 +67,7 @@ const LoginForm = () => {
         <Button
 					testID={'forgot-password'}
           title={t('common:auth.forgotPassword')}
-          type={'text'}
+          type='text'
           style={{ alignItems: 'flex-end' }}
           onPress={() => {}}
         />

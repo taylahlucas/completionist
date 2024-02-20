@@ -13,8 +13,8 @@ const Landing = () => {
           ref={animationRef}
           style={{ width: 150, height: 150 }}
           source={require('../styles/animations/tick.json')}
-          autoPlay={true}
-          loop={true}
+          autoPlay
+          loop
         />
       </View>
     </StandardLayout>

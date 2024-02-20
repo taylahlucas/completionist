@@ -59,7 +59,7 @@ const RequestGameContent = () => {
           ...formData,
           text: ''
         })}
-        multiline={true}
+        multiline
       />
       <RequestGameContainer>
         <Button title={t('common:screens.sendRequest')} onPress={sendEmailAction} disabled={!formData.subject || !formData.text} />
