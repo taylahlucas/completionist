@@ -1,3 +1,4 @@
+import React from 'react';
 import { PriceProps } from '@utils/CustomInterfaces';
 import { SubscriptionPriceContainer } from './SubscriptionContentStyledComponents.native';
 import PriceItem from '@components/general/PriceItem/PriceItem.native';

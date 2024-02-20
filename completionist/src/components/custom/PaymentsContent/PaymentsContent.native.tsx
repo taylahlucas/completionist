@@ -11,7 +11,6 @@ import { ScreenEnum } from '@utils/CustomEnums';
 import Button from '@components/general/Button/Button.native';
 import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
 import ScrollableList from '@components/general/Lists/ScrollableList.native';
-import useEndpoints from '@data/api/hooks/useEndpoints.native';
 import useMainState from '@redux/hooks/useMainState';
 import useEditUserData from '@data/hooks/useEditUserData.native';
 

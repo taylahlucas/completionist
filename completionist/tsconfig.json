@@ -19,6 +19,5 @@
       "@styles/*": ["src/styles/*"],
       "@utils/*": ["src/utils/*"]
     }
-  },
-	// "exclude": ["node_modules", "metro.config.js", "*.spec.*"]
+  }
 }

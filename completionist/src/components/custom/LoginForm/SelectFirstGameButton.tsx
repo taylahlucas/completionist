@@ -1,8 +1,5 @@
 import React from 'react';
 import { SubscriptionData } from '@utils/CustomInterfaces';
-import useMainState from '@redux/hooks/useMainState';
-import useEndpoints from '@data/api/hooks/useEndpoints.native';
-import useEditUserData from '@data/hooks/useEditUserData.native';
 import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
 import { ScreenEnum } from '@utils/CustomEnums';
 import useGetTheme from '@styles/hooks/useGetTheme';

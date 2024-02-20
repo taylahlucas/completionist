@@ -6,8 +6,10 @@ import useMainState from '@redux/hooks/useMainState';
 import Button from '@components/general/Button/Button.native';
 import useEditUserData from '@data/hooks/useEditUserData.native';
 import Condition from '@components/general/Condition.native';
+import { useTranslation } from 'react-i18next';
 
 const AccountDetailsContent = () => {
+	const { t }  = useTranslation();
 	const { user } = useMainState();
 	const [username, setUsername] = useState(user.name);
 	// TODO: email and password validation
@@ -23,7 +25,7 @@ const AccountDetailsContent = () => {
 			</SettingsContentDescription>
 			<SettingsContentInputContainer>
 				<TextInput
-					placeholder={'Enter Username'}
+					placeholder={t('common:auth.username')}
 					value={username}
 					inputStyle='text'
 					onChangeText={(value: string): void => setUsername(value)}
@@ -36,7 +38,7 @@ const AccountDetailsContent = () => {
 			</SettingsContentDescription>
 			<SettingsContentInputContainer>
 				<TextInput
-					placeholder={'Enter Email'}
+					placeholder={t('common:auth.email')}
 					value={email}
 					inputStyle='text'
 					onChangeText={(value: string): void => setEmail(value)}
@@ -49,12 +51,12 @@ const AccountDetailsContent = () => {
 				</SettingsContentDescription>
 				<SettingsContentInputContainer>
 					<TextInput
-						placeholder={''}
-						value={email}
+						placeholder={t('common:auth.password')}
+						value={password}
 						secureTextEntry={true}
 						inputStyle='text'
-						onChangeText={(value: string): void => setEmail(value)}
-						onReset={(): void => setEmail('')}
+						onChangeText={(value: string): void => setPassword(value)}
+						onReset={(): void => setPassword('')}
 					/>
 				</SettingsContentInputContainer>
 			</Condition>

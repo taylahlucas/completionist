@@ -8,8 +8,6 @@ import Button from '@components/general/Button/Button.native';
 import { styles } from './SteamAchievementsStyledComponents.native';
 import useEndpoints from '@data/api/hooks/useEndpoints.native';
 import useMainState from '@redux/hooks/useMainState';
-import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
-import useMainDispatch from '@redux/hooks/useMainDispatch';
 import useAuth from '@data/api/hooks/useAuth.native';
 
 const AddSteamIDContent = () => {
@@ -17,8 +15,7 @@ const AddSteamIDContent = () => {
 	const { user, selectedGameData } = useMainState();
 	const { getSteamUserById } = useEndpoints();
 	const { saveUserData } = useAuth();
-
-	// TODO: Add translations
+	
 	return (
 		<ScrollableList
 			style={styles.scrollStyle} 
@@ -34,8 +31,8 @@ const AddSteamIDContent = () => {
 			<TextInput
 				placeholder={'Steam ID'}
 				value={steamId}
-				inputStyle={'text'}
-				inputMode={'numeric'}
+				inputStyle='text'
+				inputMode='numeric'
 				onChangeText={(value: string): void => setSteamId(value)}
 				onReset={() => setSteamId('')}
 			/>
@@ -52,6 +49,7 @@ const AddSteamIDContent = () => {
 			/>
 			<Button
 				title={'Continue'}
+				disabled={steamId.length < 17}
 				onPress={async (): Promise<void> => {
 					const verifiedSteamId = await getSteamUserById(selectedGameData?.appId ?? '', steamId);
 

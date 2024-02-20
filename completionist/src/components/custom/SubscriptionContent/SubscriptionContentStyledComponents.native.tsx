@@ -3,15 +3,11 @@ import styled from 'styled-components/native';
 import StyledText from '@components/general/Text/StyledText.native';
 import { STANDARD_WIDTH } from '@styles/global.native';
 
-interface PriceProps {
-    color: string;
-}
-
 export const styles = StyleSheet.create({
-    scrollContent: {
-        paddingBottom: 64,
-        alignItems: 'center'
-    }
+	scrollContent: {
+		paddingBottom: 64,
+		alignItems: 'center'
+	}
 })
 
 export const SubscriptionFeatureListContainer = styled.View`

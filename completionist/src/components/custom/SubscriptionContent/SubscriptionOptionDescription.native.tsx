@@ -1,3 +1,4 @@
+import React from 'react';
 import { SubscriptionOptionDescriptionContainer, SubscriptionOptionTitle } from './SubscriptionContentStyledComponents.native';
 
 interface SubscriptionOptionDescriptionProps {

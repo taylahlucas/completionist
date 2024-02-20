@@ -1,3 +1,4 @@
+import React from 'react';
 import { useTranslation } from 'react-i18next';
 import StandardLayout from '@components/general/Layouts/StandardLayout.native';
 import NavigationHeader from '@navigation/NavigationHeader.native';
@@ -11,7 +12,9 @@ const Subscriptions = () => {
     // TODO: Pop up from bottom
     return (
         <StandardLayout>
-            <NavigationHeader title={t('common:screens.subscriptions')} leftAction={!!selectedGame ? 'menu' : 'back'} />
+            <NavigationHeader 
+							title={t('common:screens.subscriptions')} leftAction={!!selectedGame ? 'menu' : 'back'} 
+						/>
             <SubscriptionContent />
         </StandardLayout>
     )
