@@ -102,39 +102,8 @@ can you convert the following Hogwarts Legacy Quests to the following json data,
 			"conflictingIds": []
 	}
 
-History of Magic Class
-Interior Decorating
-Kidnapped Cabbage
-Like a Moth to a Frame
-'Mer-ky' Depths
-Minding Your Own Business (PlayStation only)
-Phoenix Rising
-Portrait in a Pickle
-Rescuing Rococo
-Sacking Selwyn
-Solved by the Bell
+// https://game8.co/games/Hogwarts-Legacy/archives/403791#hl_1
 
-Spell Combination Practice 1
-Spell Combination Practice 2
-Spot Removal
-Summoner's Court: Match 1
-Summoner's Court: Match 2
-Summoner's Court: Match 3
-Summoner's Court: Match 4
-Summoner's Court: Match 5
-Sweeping the Competition
-Take the Biscuit
-Tangled Web
-The Daedalian Keys
-The Hall of Herodiana
-The Hippogriff Marks the Spot
-The Lost Astrolabe
-The Tale of Rowland Oakes
-The Man Behind the Moons
-The Plight of the House-Elf
-The Sky is the Limit
-The Unique Unicorn
-Troll Control
-Venomous Revenge
-Venomous Valour
-Well, Well, Well
+//https://www.powerpyx.com/hogwarts-legacy-collectibles-guide-100-completion/
+
+//https://hogwarts-legacy.fandom.com/wiki/Collections
