@@ -13,7 +13,7 @@ interface EditUserDataReturnType {
 	loadUserData: () => void;
 	saveUserAndLogin: (user: User) => void;
 	saveUserAndSignUp: (user: User) => void;
-	updateUser: (user: User) => void;
+	saveUserAndCache: (user: User, updateInfo: boolean, updateData: boolean) => void;
 	removeUserData: () => void;
 }
 
@@ -21,7 +21,7 @@ const useEditUserData = (): EditUserDataReturnType => {
 	const navigation = useReactNavigation();
 	const { setUser } = useMainDispatch();
 	const { setLoginFormData, setLoggedIn } = useLoginDispatch();
-	const { fetchUserFromCache, clearCache } = useCache();
+	const { saveToCache, fetchUserFromCache, clearCache } = useCache();
 	const { getCredentials, deleteCredentials } = useKeychain();
 	const { getUserByUserId, updateUserInfo, updateUserData } = useEndpoints();
 
@@ -58,24 +58,29 @@ const useEditUserData = (): EditUserDataReturnType => {
 		navigation.navigate(ScreenEnum.SelectFirstGame);
 	};
 
-	const updateUser = (user: User) => {
-		updateUserInfo({
-			userId: user.userId,
-			steamId: user.steamId,
-			subscription: user.subscription,
-			settings: user.settings,
-			userAvatar: user.userAvatar
-		});
-		updateUserData({
-			userId: user.userId,
-			data: {
-				fallout4: user.data.fallout4,
-				skyrim: user.data.skyrim,
-				witcher3: user.data.witcher3
-			}
-		});
-		saveUserAndLogin(user);
-	}
+	const saveUserAndCache = (user: User, updateInfo: boolean, updateData: boolean) => {
+		if (updateInfo) {
+			updateUserInfo({
+				userId: user.userId,
+				steamId: user.steamId,
+				subscription: user.subscription,
+				settings: user.settings,
+				userAvatar: user.userAvatar
+			});
+		}
+		if (updateData) {
+			updateUserData({
+				userId: user.userId,
+				data: {
+					fallout4: user.data.fallout4,
+					skyrim: user.data.skyrim,
+					witcher3: user.data.witcher3
+				}
+			});
+		}
+		setUser(user);
+		saveToCache(user);
+	};
 
 	const removeUserData = () => {
 		setUser(initialUser);
@@ -87,7 +92,13 @@ const useEditUserData = (): EditUserDataReturnType => {
 		navigation.dispatch(DrawerActions.closeDrawer());
 	}
 
-	return { saveUserAndLogin, saveUserAndSignUp, removeUserData, updateUser, loadUserData };
+	return { 
+		saveUserAndLogin, 
+		saveUserAndSignUp, 
+		saveUserAndCache,
+		removeUserData, 
+		loadUserData 
+	};
 };
 
 export default useEditUserData;

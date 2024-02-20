@@ -83,8 +83,8 @@
       }
     },
     "dlc": {
-      "bloodAndWine": "kanveşarap",
-      "heartsOfStone": "kalplerOfTaş"
+			"bloodAndWine": "Kan ve Şarap",
+			"heartsOfStone": "Taş Kalpler"
     }
   }
 }

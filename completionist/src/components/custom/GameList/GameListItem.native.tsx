@@ -31,7 +31,9 @@ const GameListItem = ({ testID, title, enabledColor = 'grey', enabled, imageUrl,
 					align='left'
 					ellipsizeMode='tail'
 					numberOfLines={2}
-				>{title}</GameItemTitle>
+				>
+					{title}
+				</GameItemTitle>
 			</GameItemTitleContainer>
     </GameListItemContainer>
   );

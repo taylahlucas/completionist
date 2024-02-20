@@ -110,7 +110,7 @@ const useEndpoints = (): EndpointsReturnType => {
 						userAvatar: userAvatar
 					},
 					setAuthHeaders(authToken)
-				);
+				)
 			}
 			catch (error: AxiosErrorResponse) {
 				handleAxiosError(error.response.status);

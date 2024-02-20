@@ -26,7 +26,6 @@ export const GameListImage = styled.Image`
   width: 148px;
   height: 148px;
   position: absolute;
-  border-radius: ${DEFAULT_BORDER_RADIUS}px;
   opacity: 0.3;
 `;
 

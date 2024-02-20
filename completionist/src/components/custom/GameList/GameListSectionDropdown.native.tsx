@@ -5,12 +5,13 @@ import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
 import useGetGameImage from './hooks/useGetGameImage.native';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
 import GameListItem from './GameListItem.native';
-import { ScreenEnum } from '@utils/CustomEnums';
+import { ScreenEnum, SubscriptionTypeEnum } from '@utils/CustomEnums';
 import { SubscriptionData } from '@utils/CustomInterfaces';
 import GameListSectionHeader from './GameListSectionHeader.native';
 import useTranslateGameContent from '@utils/hooks/useTranslateGameContent.native';
 import useContentDispatch from '../ContentList/hooks/useContentDispatch';
 import useGetTheme from '@styles/hooks/useGetTheme';
+import useMainState from '@redux/hooks/useMainState';
 
 interface GameListSectionDropdown {
 	testID?: string;
@@ -22,11 +23,12 @@ const GameListSectionDropdown = ({ testID, title, data }: GameListSectionDropdow
 	const theme = useGetTheme();
   const navigation = useReactNavigation();
   const { setSelectedGame, setSelectedGameSettings, reset } = useMainDispatch();
+	const { user } = useMainState();
   const { reset: contentReset } = useContentDispatch();
   const { getGameImage } = useGetGameImage();
   const { translateGameName } = useTranslateGameContent();
   const [isOpen, setIsOpen] = useState(true);
-
+	
   return (
     <Dropdown
 			testID={testID}
@@ -40,15 +42,25 @@ const GameListSectionDropdown = ({ testID, title, data }: GameListSectionDropdow
             key={index}
 						testID={game.id}
             title={translateGameName(game.id)}
-            enabled={game.isActive}
+            enabled={game.isActive || user.subscription.tier !== SubscriptionTypeEnum.BRONZE}
 						enabledColor={game.isActive ? theme.lightGrey : theme.midGrey}
             imageUrl={getGameImage(game.id)}
             onPress={(): void => {
-              contentReset();
-              reset();
-              setSelectedGame(game.id);
-              setSelectedGameSettings(game.id);
-              navigation.navigate(ScreenEnum.Quests);
+							contentReset();
+							reset();
+							setSelectedGame(game.id);
+							setSelectedGameSettings(game.id);
+							navigation.navigate(ScreenEnum.Quests);
+							// if (game.isActive) {
+							// 	contentReset();
+							// 	reset();
+							// 	setSelectedGame(game.id);
+							// 	setSelectedGameSettings(game.id);
+							// 	navigation.navigate(ScreenEnum.Quests);
+							// }
+							// else {
+								
+							// }
             }}
           />
         ))}

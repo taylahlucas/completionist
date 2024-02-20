@@ -13,6 +13,7 @@ import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
 import ScrollableList from '@components/general/Lists/ScrollableList.native';
 import useEndpoints from '@data/api/hooks/useEndpoints.native';
 import useMainState from '@redux/hooks/useMainState';
+import useEditUserData from '@data/hooks/useEditUserData.native';
 
 const PaymentsContent = () => {
 	const { t } = useTranslation();
@@ -21,7 +22,7 @@ const PaymentsContent = () => {
 	const { selectedSubscription } = useSubscriptionState();
 	const [selectedPrice, setSelectedPrice] = useState(selectedSubscription.prices[0]);
 	const { user } = useMainState();
-	const { updateUserInfo } = useEndpoints();
+	const { saveUserAndCache } = useEditUserData();
 
 	return (
 		<ScrollableList>
@@ -64,13 +65,14 @@ const PaymentsContent = () => {
 				style={{ marginTop: 64, alignSelf: 'center' }}
 				title={t('common:payments.confirm')}
 				onPress={(): void => {
-					updateUserInfo({
+					const updatedUser = {
 						...user,
 						subscription: {
 							...user.subscription,
 							tier: selectedSubscription.id
 						}
-					})
+					};
+					saveUserAndCache(updatedUser, true, false);
 					navigation.navigate(ScreenEnum.GameSelection);
 				}}
 				color={theme.primaryPurple}

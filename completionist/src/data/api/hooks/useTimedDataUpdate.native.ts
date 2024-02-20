@@ -1,34 +1,20 @@
 import { useEffect } from 'react';
-import useEndpoints from './useEndpoints.native';
 import useMainState from '@redux/hooks/useMainState';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
 import useLoginState from '@components/custom/LoginForm/hooks/useLoginState';
+import useEditUserData from '@data/hooks/useEditUserData.native';
 
 const useTimedDataUpdate = () => {
-	const { updateUserInfo, updateUserData } = useEndpoints();
 	const { setShouldUpdateUser } = useMainDispatch();
 	const { user, shouldUpdateUser } = useMainState();
 	const { isLoggedIn } = useLoginState();
+	const { saveUserAndCache } = useEditUserData();
 
 	useEffect(() => {
 		// Set up a timer to fetch data every 5 minutes (5 * 60 * 1000)
 		const timerId = setInterval(() => {
 			if (shouldUpdateUser && isLoggedIn) {
-				updateUserInfo({
-					userId: user.userId,
-					steamId: user.steamId,
-					subscription: user.subscription,
-					settings: user.settings,
-					userAvatar: user.userAvatar
-				});
-				updateUserData({
-					userId: user.userId,
-					data: {
-						fallout4: user.data.fallout4,
-						skyrim: user.data.skyrim,
-						witcher3: user.data.witcher3
-					}
-				});
+				saveUserAndCache(user, true, true);
 				setShouldUpdateUser(false);
 			}
 		}, 5 * 60 * 1000)

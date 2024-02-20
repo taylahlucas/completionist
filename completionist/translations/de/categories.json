@@ -83,8 +83,8 @@
       }
     },
     "dlc": {
-      "bloodAndWine": "Blut und Wein",
-      "heartsOfStone": "heartsOfStone"
+			"bloodAndWine": "Blut und Wein",
+			"heartsOfStone": "Herzen aus Stein"
     }
   }
 }
