@@ -42,8 +42,6 @@ Collectables
 }
 
 
-
-
 TODO: 
 
 HEARTHFIRE QUESTS
@@ -109,5 +107,3 @@ can you convert the following Hogwarts Legacy Quests to the following json data,
 //https://www.powerpyx.com/hogwarts-legacy-collectibles-guide-100-completion/
 
 //https://hogwarts-legacy.fandom.com/wiki/Collections
-
-// TODO: Reconvert witcher 3 quests

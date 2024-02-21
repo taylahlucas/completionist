@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import Condition from '@components/general/Condition.native';
 import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
 import useMainState from '@redux/hooks/useMainState';
@@ -10,6 +11,7 @@ import { SettingsContentAvatarContainer, SettingsContentEmail } from './Settings
 
 const SettingsContentAccountDetails = () => {
 	const navigation = useReactNavigation();
+	const { t } = useTranslation();
 	const { user } = useMainState();
 
 	return (
@@ -27,7 +29,7 @@ const SettingsContentAccountDetails = () => {
 			</SettingsContentEmail>
 			<Button
 				type='navigation'
-				title={'Change Account Details'}
+				title={t('common:settings.changeAccountDetails')}
 				onPress={(): void => navigation.navigate(ScreenEnum.AccountDetails)}
 			/>
 			<SettingsGameSelectionContent />

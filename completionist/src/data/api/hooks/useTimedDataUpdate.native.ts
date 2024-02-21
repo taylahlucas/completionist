@@ -11,7 +11,8 @@ const useTimedDataUpdate = () => {
 	useEffect(() => {
 		// Set up a timer to fetch data every 5 minutes (5 * 60 * 1000)
 		const timerId = setInterval(() => {
-			if (isLoggedIn) {
+			if (isLoggedIn && shouldUpdateUser) {
+				console.log("timed update")
 				saveUserAndCache(user);
 			}
 		}, 5 * 60 * 1000)

@@ -18,6 +18,7 @@ const GameListSectionDropdown = ({ testID, title, data }: GameListSectionDropdow
   const [isOpen, setIsOpen] = useState(true);
 	const { handleGameSelection }  = useHandleGameSelection();
 
+	// TODO: Add to styled components
   return (
     <Dropdown
 			testID={testID}

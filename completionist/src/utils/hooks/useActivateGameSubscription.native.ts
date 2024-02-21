@@ -26,6 +26,7 @@ const useActivateGameSubscription = () => {
 		saveUserAndCache(updatedUser);
 	};
 	
+	// User set up and premium users
 	const activateGameSubscription = (selectedGame: SubscriptionData) => {
 		const updatedGames: SubscriptionData[] = user.subscription.data.map((data: SubscriptionData) => {
 			return (data.id === selectedGame?.id)

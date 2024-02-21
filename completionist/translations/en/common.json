@@ -92,7 +92,7 @@
 		"addSteamIdStep2": "Step 2. Update your privacy preferences",
 		"addSteamIdDesc3": "You will also need to ensure your profile is public.",
 		"addSteamIdDesc4": "You can do this by heading to Steam Prefences -> Privacy Settings",
-		"steamIdPleaceholder": "Steam ID"
+		"steamIdPlaceholder": "Steam ID"
 	},
 	"errors": {
 		"error": "Error",

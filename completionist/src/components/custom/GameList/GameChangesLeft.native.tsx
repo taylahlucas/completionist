@@ -1,5 +1,6 @@
-import useMainState from '@redux/hooks/useMainState';
 import React from 'react';
+import { useTranslation } from 'react-i18next';
+import useMainState from '@redux/hooks/useMainState';
 import { GameSelectionChangeLeftContainer } from './GameListItemStyledComponents.native';
 import Condition from '@components/general/Condition.native';
 import { IconTypeEnum, SubscriptionTypeEnum } from '@utils/CustomEnums';
@@ -10,6 +11,7 @@ import { ViewStyle } from 'react-native';
 
 const GameChangesLeft = () => {
 	const theme = useGetTheme();
+	const { t } = useTranslation();
 	const { user } = useMainState();
 
 	const renderSubscriptionComponent = (style: ViewStyle) => {
@@ -41,8 +43,7 @@ const GameChangesLeft = () => {
 					type='ListItemSubDescription'
 					align='left'
 				>
-					{/* // TODO: Add to translations */}
-					{`CHANGES LEFT: ${user.subscription.changesLeft}`}
+					{`${t('common:changesLeft')}${user.subscription.changesLeft}`}
 				</StyledText>
 				{renderSubscriptionComponent({ position: 'absolute', right: 34 })}
 			</GameSelectionChangeLeftContainer>

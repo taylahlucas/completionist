@@ -1,15 +1,17 @@
 {
   "appTitle": "Complezionista.",
   "welcome": "Benvenuto",
+  "continue": "Continua",
   "search": "Cerca elementi...",
   "showMore": "Mostra di più",
   "none": "Nessuno",
   "main": "Principale",
+  "changesLeft": "CAMBIAMENTI RIMASTI: ",
   "active": "ATTIVO",
   "inactive": "INATTIVO",
   "auth": {
     "email": "E-mail",
-    "password": "Parola d'ordine",
+    "userpw": "Parola d'ordine",
     "username": "Nome utente",
     "forgotPassword": "Ha dimenticato la password?",
     "login": "Login",
@@ -27,15 +29,23 @@
     "gameSelection": "Selezione del gioco",
     "sendRequest": "Invia richiesta",
     "subscriptions": "Abbonamenti",
+    "selectAGame": "Seleziona un gioco",
+    "addSteamId": "Aggiungi l'ID Steam",
+    "steamAchievements": "Risultati di Steam",
     "payments": "Pagamento",
-    "settings": "Impostazioni"
+    "settings": "Impostazioni",
+    "accountDetails": "Dettagli account"
+  },
+  "selectGame": {
+    "selectGameDesc1": "Con un account gratuito, puoi selezionare un gioco al mese da monitorare.",
+    "selectGameDesc2": "Seleziona il tuo primo gioco qui sotto!",
+    "selectGameDesc3": "Non preoccuparti se commetti un errore, potrai modificarlo due volte al mese"
   },
   "subscriptions": {
-    "subscriptionDesc": "Con un abbonamento Silver o Gold,\n",
+    "subscriptionDesc": "Con un abbonamento Premium,\n",
     "purchaseSubscription": "Acquista abbonamento",
-    "bronze": "Bronzo",
-    "silver": "Argento",
-    "gold": "Oro",
+    "free": "Gratuito",
+    "premium": "Premio",
     "accessMultipleGames": "Accesso a più giochi",
     "noAds": "Nessuna pubblicità",
     "withAds": "Con annunci",
@@ -65,13 +75,37 @@
     "enabledDLC": "Abilita/Disabilita DLC:",
     "showHide": "Mostra nascondi:",
     "completedItems": "Articoli completati",
-    "disabledSections": "Sezioni disabili"
+    "disabledSections": "Sezioni disabili",
+    "changeAccountDetails": "Modifica i dettagli dell'account",
+    "selectLanguage": "Seleziona la lingua:"
+  },
+  "accountDetails": {
+    "changeUsername": "Cambia nome utente",
+    "changeEmail": "Cambia email",
+    "changePassword": "Cambiare la password",
+    "updateDetails": "Aggiorna dettagli"
+  },
+  "steamAchievements": {
+    "addSteamIdStep1": "Passaggio 1. Trova e aggiungi il tuo ID Steam",
+    "addSteamIdDesc1": "Per trovare il tuo ID Steam, vai su Steam e seleziona \"Visualizza profilo\".",
+    "addSteamIdDesc2": "Puoi trovare l'ID nella parte superiore del tuo profilo. ",
+    "addSteamIdStep2": "Passaggio 2. Aggiorna le tue preferenze sulla privacy",
+    "addSteamIdDesc3": "Dovrai anche assicurarti che il tuo profilo sia pubblico.",
+    "addSteamIdDesc4": "Puoi farlo andando su Preferenze di Steam -> Impostazioni sulla privacy",
+    "steamIdPlaceholder": "ID di Steam"
   },
   "errors": {
     "error": "Errore",
     "pleaseRefreshApp": "Aggiorna l'app",
     "noEmailExists": "L'e-mail non esiste",
     "googleSignIn": "Errore con l'accesso a Google"
+  },
+  "alerts": {
+    "activate": "Attivare",
+    "cancel": "Annulla",
+    "changesLeft": "Tu avrai {{changesLeft}} modifica{{s}} Sinistra.",
+    "noChangesLeft": "Nessuna modifica rimasta",
+    "noChangesLeftMessage": "Siamo spiacenti, non sono rimaste modifiche al gioco per questo mese.\n "
   },
   "languages": {
     "ar": "Arabo",

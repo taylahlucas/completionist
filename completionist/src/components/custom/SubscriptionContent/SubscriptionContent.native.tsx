@@ -18,8 +18,7 @@ const SubscriptionContent = () => {
 	const navigation = useReactNavigation();
 	const { user } = useMainState();
 	const { selectedSubscription } = useSubscriptionState();
-
-	// TODO: Add more Bold title
+	
 	return (
 		<ScrollableList contentContainerStyle={styles.scrollContent}>
 			<StyledText>

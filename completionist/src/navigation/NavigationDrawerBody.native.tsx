@@ -60,7 +60,7 @@ const NavigationDrawerBody: React.FunctionComponent = () => {
 				<NavigationDrawerFooterItem onPress={signOut}>
 					<NavigationDrawerFooterIcon
 						style={{ marginLeft: 4 }}
-						name={'logout'}
+						name='logout'
 						color={theme.lightGrey}
 						size={24}
 					/>

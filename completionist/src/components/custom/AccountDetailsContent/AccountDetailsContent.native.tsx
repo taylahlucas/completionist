@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import ScrollableList from '@components/general/Lists/ScrollableList.native';
-import { SettingsContentDescription, SettingsContentInputContainer } from '../SettingsContent/SettingsContentStyledComponents.native';
+import { 
+	SettingsContentDescription, 
+	SettingsContentInputContainer
+} from '../SettingsContent/SettingsContentStyledComponents.native';
 import TextInput from '@components/general/TextInput/TextInput.native';
 import useMainState from '@redux/hooks/useMainState';
 import Button from '@components/general/Button/Button.native';
@@ -17,11 +20,11 @@ const AccountDetailsContent = () => {
 	const [password, setPassword] = useState(user.password);
 	const { saveUserAndCache } = useEditUserData();
 	
-	// TODO: Translations && change password
+	// TODO: Change password
 	return (
 		<ScrollableList>
 			<SettingsContentDescription align='left'>
-				Change username:
+				{t('common:accountDetails.changeUsername')}
 			</SettingsContentDescription>
 			<SettingsContentInputContainer>
 				<TextInput
@@ -34,7 +37,7 @@ const AccountDetailsContent = () => {
 			</SettingsContentInputContainer>
 
 			<SettingsContentDescription align='left'>
-				Change email:
+			{t('common:accountDetails.changeEmail')}
 			</SettingsContentDescription>
 			<SettingsContentInputContainer>
 				<TextInput
@@ -47,7 +50,7 @@ const AccountDetailsContent = () => {
 			</SettingsContentInputContainer>
 			<Condition condition={!!user.password}>
 				<SettingsContentDescription align='left'>
-					Change password:
+				{t('common:accountDetails.changePassword')}
 				</SettingsContentDescription>
 				<SettingsContentInputContainer>
 					<TextInput
@@ -61,7 +64,7 @@ const AccountDetailsContent = () => {
 				</SettingsContentInputContainer>
 			</Condition>
 			<Button 
-				title={'Update Details'}
+				title={t('common:accountDetails.updateDetails')}
 				onPress={(): void => saveUserAndCache({
 					...user,
 					name: username,

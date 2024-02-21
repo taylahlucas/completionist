@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { SubscriptionData } from '@utils/CustomInterfaces';
 import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
 import { ScreenEnum } from '@utils/CustomEnums';
@@ -14,6 +15,7 @@ interface SelectFirstGameButtonProps {
 
 const SelectFirstGameButton = ({ selectedGame, setSelectedGame }: SelectFirstGameButtonProps) => {
 	const theme = useGetTheme();
+	const { t } = useTranslation();
 	const navigation = useReactNavigation();
 	const { setLoggedIn } = useLoginDispatch();
 	const { activateGameSubscription } = useActivateGameSubscription();
@@ -21,7 +23,7 @@ const SelectFirstGameButton = ({ selectedGame, setSelectedGame }: SelectFirstGam
 	return (
 		<SelectFirstGameButtonContainer style={{ backgroundColor: theme.black }}>
 			<SelectFirstGameButtonStyle
-				title={'Continue'}
+				title={t('common:continue')}
 				disabled={!selectedGame}
 				onPress={async (): Promise<void> => {
 					if (!!selectedGame) {

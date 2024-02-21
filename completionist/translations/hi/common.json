@@ -1,15 +1,17 @@
 {
   "appTitle": "पूर्णतावादी।",
   "welcome": "स्वागत",
+  "continue": "जारी रखना",
   "search": "आइटम खोजें...",
   "showMore": "और दिखाओ",
   "none": "कोई नहीं",
   "main": "मुख्य",
+  "changesLeft": "परिवर्तन शेष: ",
   "active": "सक्रिय",
   "inactive": "निष्क्रिय",
   "auth": {
     "email": "ईमेल",
-    "password": "पासवर्ड",
+    "userpw": "पासवर्ड",
     "username": "उपयोगकर्ता नाम",
     "forgotPassword": "पासवर्ड भूल गए?",
     "login": "लॉग इन करें",
@@ -27,19 +29,27 @@
     "gameSelection": "खेल चयन",
     "sendRequest": "अनुरोध भेजा",
     "subscriptions": "सदस्यता",
+    "selectAGame": "एक गेम चुनें",
+    "addSteamId": "स्टीम आईडी जोड़ें",
+    "steamAchievements": "भाप उपलब्धियाँ",
     "payments": "भुगतान",
-    "settings": "समायोजन"
+    "settings": "समायोजन",
+    "accountDetails": "खाता विवरण"
+  },
+  "selectGame": {
+    "selectGameDesc1": "निःशुल्क खाते के साथ, आप ट्रैक करने के लिए प्रति माह एक गेम का चयन कर सकते हैं।",
+    "selectGameDesc2": "नीचे अपना पहला गेम चुनें!",
+    "selectGameDesc3": "यदि आपसे कोई गलती हो तो चिंता न करें, आप इसे प्रति माह दो बार बदल सकेंगे"
   },
   "subscriptions": {
-    "subscriptionDesc": "चांदी या सोने की सदस्यता के साथ,\n",
+    "subscriptionDesc": "प्रीमियम सदस्यता के साथ,\n",
     "purchaseSubscription": "सदस्यता खरीदें",
-    "bronze": "पीतल",
-    "silver": "चाँदी",
-    "gold": "सोना",
+    "free": "मुक्त",
+    "premium": "अधिमूल्य",
     "accessMultipleGames": "अनेक खेलों तक पहुंच",
     "noAds": "विज्ञापन नहीं",
     "withAds": "विज्ञापनों के साथ",
-    "accessSteam": "भाप उपलब्धियों तक पहुंचें",
+    "accessSteam": "भाप उपलब्धियों तक पहुँचें",
     "prerequisiteTracking": "स्वचालित पूर्वावश्यकता ट्रैकिंग",
     "accessPremiumFeatures": "प्रीमियम सुविधाओं तक पहुंच",
     "accessOneGame": "प्रति माह एक गेम तक पहुंच",
@@ -65,13 +75,37 @@
     "enabledDLC": "डीएलसी सक्षम/अक्षम करें:",
     "showHide": "छिपा हुया दिखाओ:",
     "completedItems": "पूर्ण आइटम",
-    "disabledSections": "विकलांग अनुभाग"
+    "disabledSections": "विकलांग अनुभाग",
+    "changeAccountDetails": "खाता विवरण बदलें",
+    "selectLanguage": "भाषा चुने:"
+  },
+  "accountDetails": {
+    "changeUsername": "उपयोगकर्ता नाम परिवर्तन करें",
+    "changeEmail": "बदले ई - मेल",
+    "changePassword": "पासवर्ड बदलें",
+    "updateDetails": "अद्यतन विवरण"
+  },
+  "steamAchievements": {
+    "addSteamIdStep1": "चरण 1. अपनी स्टीम आईडी ढूंढें और जोड़ें",
+    "addSteamIdDesc1": "अपनी स्टीम आईडी ढूंढने के लिए, स्टीम पर जाएं और 'प्रोफ़ाइल देखें' चुनें।",
+    "addSteamIdDesc2": "आप आईडी को अपनी प्रोफ़ाइल के शीर्ष पर पा सकते हैं। ",
+    "addSteamIdStep2": "चरण 2. अपनी गोपनीयता प्राथमिकताएँ अद्यतन करें",
+    "addSteamIdDesc3": "आपको यह भी सुनिश्चित करना होगा कि आपकी प्रोफ़ाइल सार्वजनिक है।",
+    "addSteamIdDesc4": "आप स्टीम प्रीफ़ेंस -> गोपनीयता सेटिंग्स पर जाकर ऐसा कर सकते हैं",
+    "steamIdPlaceholder": "भाप में बनी इडली"
   },
   "errors": {
     "error": "गलती",
     "pleaseRefreshApp": "कृपया ऐप को रीफ्रेश करें",
     "noEmailExists": "ईमेल मौजूद नहीं है",
     "googleSignIn": "गूगल साइन इन में त्रुटि"
+  },
+  "alerts": {
+    "activate": "सक्रिय",
+    "cancel": "रद्द करना",
+    "changesLeft": "आपके पास होगा {{changesLeft}} परिवर्तन{{s}} बाएं।",
+    "noChangesLeft": "कोई परिवर्तन शेष नहीं",
+    "noChangesLeftMessage": "क्षमा करें, आपके पास इस महीने के लिए कोई गेम परिवर्तन नहीं बचा है।\n "
   },
   "languages": {
     "ar": "अरबी",

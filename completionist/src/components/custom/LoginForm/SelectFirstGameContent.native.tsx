@@ -9,6 +9,7 @@ import useFormatter from '@utils/hooks/useFormatter';
 import { SubscriptionData } from '@utils/CustomInterfaces';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import { SelectFirstGameContentContainer } from './LoginFormStyledComponents.native';
+import { useTranslation } from 'react-i18next';
 
 interface SelectFirstGameContentProps {
 	searchValue: string;
@@ -18,31 +19,30 @@ interface SelectFirstGameContentProps {
 
 const SelectFirstGameContent = ({ searchValue, selectedGame, setSelectedGame }: SelectFirstGameContentProps) => {
 	const theme = useGetTheme();
+	const { t } = useTranslation();
 	const { user } = useMainState();
 	const { filterGameList } = useFilterGameList();
 	const { getFormattedSearchString } = useFormatter();
 
 	return (
-		
-			<ScrollableList>
-				<StyledText>With a Free account, you can select one game per month to track.</StyledText>
-				<Spacing />
-				<StyledText>Select your first game below!</StyledText>
-				<Spacing />
-				<StyledText type='ListItemSubTitleItalic'>(Don't worry if you make a mistake, you'll be able to change this twice per month)</StyledText>
-				<SelectFirstGameContentContainer>
-					{filterGameList(user.subscription.data, false, getFormattedSearchString(searchValue)).map((game, index) => (
-						<GameListItem
-							key={index}
-							game={game}
-							enabled={selectedGame?.id === game.id ?? false}
-							enabledColor={selectedGame?.id === game.id ? theme.lightPurple : theme.midGrey}
-							onPress={(): void => setSelectedGame(game)}
-						/>
-					))}
-				</SelectFirstGameContentContainer>
-			</ScrollableList>
-		</>
+		<ScrollableList>
+			<StyledText>{t('common:selectGame.selectGameDesc1')}</StyledText>
+			<Spacing />
+			<StyledText>{t('common:selectGame.selectGameDesc2')}</StyledText>
+			<Spacing />
+			<StyledText type='ListItemSubTitleItalic'>{t('common:selectGame.selectGameDesc3')}</StyledText>
+			<SelectFirstGameContentContainer>
+				{filterGameList(user.subscription.data, false, getFormattedSearchString(searchValue)).map((game, index) => (
+					<GameListItem
+						key={index}
+						game={game}
+						enabled={selectedGame?.id === game.id ?? false}
+						enabledColor={selectedGame?.id === game.id ? theme.lightPurple : theme.midGrey}
+						onPress={(): void => setSelectedGame(game)}
+					/>
+				))}
+			</SelectFirstGameContentContainer>
+		</ScrollableList>
 	);
 };
 

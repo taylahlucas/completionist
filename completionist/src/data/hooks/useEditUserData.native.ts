@@ -65,23 +65,21 @@ const useEditUserData = (): EditUserDataReturnType => {
 	};
 
 	const saveUserAndCache = (user: User) => {
-		if (shouldUpdateUser) {
-			updateUser({
-				userId: user.userId,
-				steamId: user.steamId,
-				subscription: user.subscription,
-				settings: user.settings,
-				userAvatar: user.userAvatar,
-				data: {
-					fallout4: user.data.fallout4,
-					skyrim: user.data.skyrim,
-					witcher3: user.data.witcher3
-				}
-			});
-			setShouldUpdateUser(false);
-			setUser(user);
-			saveToCache(user);
-		}
+		updateUser({
+			userId: user.userId,
+			steamId: user.steamId,
+			subscription: user.subscription,
+			settings: user.settings,
+			userAvatar: user.userAvatar,
+			data: {
+				fallout4: user.data.fallout4,
+				skyrim: user.data.skyrim,
+				witcher3: user.data.witcher3
+			}
+		});
+		setShouldUpdateUser(false);
+		setUser(user);
+		saveToCache(user);
 	};
 
 	const removeUserData = () => {

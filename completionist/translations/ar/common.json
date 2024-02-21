@@ -1,15 +1,17 @@
 {
   "appTitle": "المكمل.",
   "welcome": "مرحباً",
+  "continue": "يكمل",
   "search": "عناصر البحث...",
   "showMore": "أظهر المزيد",
   "none": "لا أحد",
   "main": "رئيسي",
+  "changesLeft": "التغييرات المتبقية: ",
   "active": "نشيط",
   "inactive": "غير نشط",
   "auth": {
     "email": "بريد إلكتروني",
-    "password": "كلمة المرور",
+    "userpw": "كلمة المرور",
     "username": "اسم المستخدم",
     "forgotPassword": "هل نسيت كلمة السر؟",
     "login": "تسجيل الدخول",
@@ -27,15 +29,23 @@
     "gameSelection": "اختيار اللعبة",
     "sendRequest": "ارسل طلب",
     "subscriptions": "الاشتراكات",
+    "selectAGame": "اختر لعبة",
+    "addSteamId": "أضف معرف البخار",
+    "steamAchievements": "إنجازات البخار",
     "payments": "قسط",
-    "settings": "إعدادات"
+    "settings": "إعدادات",
+    "accountDetails": "تفاصيل الحساب"
+  },
+  "selectGame": {
+    "selectGameDesc1": "باستخدام الحساب المجاني، يمكنك اختيار لعبة واحدة كل شهر لتتبعها.",
+    "selectGameDesc2": "اختر لعبتك الأولى أدناه!",
+    "selectGameDesc3": "لا تقلق إذا ارتكبت أي خطأ، فستتمكن من تغيير هذا مرتين شهريًا"
   },
   "subscriptions": {
-    "subscriptionDesc": "مع الاشتراك الفضي أو الذهبي\n",
+    "subscriptionDesc": "مع اشتراك بريميوم،\n",
     "purchaseSubscription": "شراء الاشتراك",
-    "bronze": "برونزية",
-    "silver": "فضة",
-    "gold": "ذهب",
+    "free": "حر",
+    "premium": "غالي",
     "accessMultipleGames": "الوصول إلى ألعاب متعددة",
     "noAds": "لا اعلانات",
     "withAds": "مع الإعلانات",
@@ -65,13 +75,37 @@
     "enabledDLC": "تمكين/تعطيل المحتوى القابل للتنزيل:",
     "showHide": "اظهر المخفي:",
     "completedItems": "العناصر المكتملة",
-    "disabledSections": "الأقسام المعطلة"
+    "disabledSections": "الأقسام المعطلة",
+    "changeAccountDetails": "تغيير تفاصيل الحساب",
+    "selectLanguage": "اختار اللغة:"
+  },
+  "accountDetails": {
+    "changeUsername": "غير اسم المستخدم",
+    "changeEmail": "تغيير الايميل",
+    "changePassword": "تغيير كلمة المرور",
+    "updateDetails": "تحديث التفاصيل"
+  },
+  "steamAchievements": {
+    "addSteamIdStep1": "الخطوة 1. ابحث عن معرف Steam الخاص بك وأضفه",
+    "addSteamIdDesc1": "للعثور على معرف Steam الخاص بك، توجه إلى Steam وحدد \"عرض الملف الشخصي\".",
+    "addSteamIdDesc2": "يمكنك العثور على المعرف في الجزء العلوي من ملفك الشخصي. ",
+    "addSteamIdStep2": "الخطوة 2. قم بتحديث تفضيلات الخصوصية الخاصة بك",
+    "addSteamIdDesc3": "ستحتاج أيضًا إلى التأكد من أن ملفك الشخصي عام.",
+    "addSteamIdDesc4": "يمكنك القيام بذلك عن طريق التوجه إلى تفضيلات Steam -> إعدادات الخصوصية",
+    "steamIdPlaceholder": "معرف البخار"
   },
   "errors": {
     "error": "خطأ",
     "pleaseRefreshApp": "يرجى تحديث التطبيق",
     "noEmailExists": "البريد الإلكتروني غير موجود",
     "googleSignIn": "حدث خطأ أثناء تسجيل الدخول إلى Google"
+  },
+  "alerts": {
+    "activate": "تفعيل",
+    "cancel": "يلغي",
+    "changesLeft": "ستملك {{changesLeft}} يتغير{{s}} غادر.",
+    "noChangesLeft": "لا توجد تغييرات اليسار",
+    "noChangesLeftMessage": "عذرًا، لم يتبق لديك أي تغييرات في اللعبة لهذا الشهر.\n "
   },
   "languages": {
     "ar": "عربي",

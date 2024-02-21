@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Image } from 'react-native';
+import { useTranslation } from 'react-i18next';
 import StyledText from '@components/general/Text/StyledText.native';
 import TextInput from '@components/general/TextInput/TextInput.native';
 import ScrollableList from '@components/general/Lists/ScrollableList.native';
@@ -11,6 +12,7 @@ import useMainState from '@redux/hooks/useMainState';
 import useAuth from '@data/api/hooks/useAuth.native';
 
 const AddSteamIDContent = () => {
+	const { t } = useTranslation();
 	const [steamId, setSteamId] = useState<string>('');
 	const { user, selectedGameData } = useMainState();
 	const { getSteamUserById } = useEndpoints();
@@ -21,15 +23,15 @@ const AddSteamIDContent = () => {
 			style={styles.scrollStyle} 
 			contentContainerStyle={styles.contentScrollStyle}
 		>
-			<StyledText type={'ListItemSubTitleBold'}>Step 1. Find and add your Steam ID</StyledText>
+			<StyledText type={'ListItemSubTitleBold'}>{t('common:steamAchievements.addSteamIdDesc1')}</StyledText>
 			<Spacing />
-			<StyledText>To find your steam ID, head to Steam and select 'View Profile'.</StyledText>
+			<StyledText>{t('common:steamAchievements.addSteamIdDesc2')}</StyledText>
 			<Spacing />
-			<StyledText>You can find the ID at the top of your profile. It will look like:</StyledText>
+			<StyledText>{t('common:steamAchievements.addSteamIdDesc3')}</StyledText>
 			<Spacing />
 			<StyledText>https://steamcommunity.com/profiles/id/</StyledText>
 			<TextInput
-				placeholder={'Steam ID'}
+				placeholder={t('common:steamAchievements.steamIdPlaceholder')}
 				value={steamId}
 				inputStyle='text'
 				inputMode='numeric'
@@ -37,18 +39,18 @@ const AddSteamIDContent = () => {
 				onReset={() => setSteamId('')}
 			/>
 			<Spacing />
-			<StyledText type={'ListItemSubTitleBold'}>Step 2. Update your privacy preferences</StyledText>
+			<StyledText type={'ListItemSubTitleBold'}>{t('common:settings.addSteamIdStep2')}</StyledText>
 			<Spacing />
-			<StyledText>You will also need to ensure your profile is public.</StyledText>
+			<StyledText>{t('common:settings.addSteamIdDesc3')}</StyledText>
 			<Spacing />
-			<StyledText>{`You can do this by heading to Steam Prefences -> Privacy Settings`}</StyledText>
+			<StyledText>{t('common:settings.addSteamIdDesc4')}</StyledText>
 			<Image
 				style={{ width: 300, marginTop: -12 }}
 				source={require('@styles/images/steam-public-details.png')}
 				resizeMode='contain'
 			/>
 			<Button
-				title={'Continue'}
+				title={t('common:continue')}
 				disabled={steamId.length < 17}
 				onPress={async (): Promise<void> => {
 					const verifiedSteamId = await getSteamUserById(selectedGameData?.appId ?? '', steamId);

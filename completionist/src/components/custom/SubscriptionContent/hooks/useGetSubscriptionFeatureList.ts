@@ -32,13 +32,13 @@ const useGetSubscriptionFeatureList = (): SubscriptionFeatureListProps[] => {
             title: "Access steam achievements",
             icon: 'steam',
             iconType: IconTypeEnum.MaterialCommunityIcons
-        },
-        {
-            id: 'prerequisite_tracking',
-            title: "Automated prerequisite tracking",
-            icon: 'menu-sharp',
-            iconType: IconTypeEnum.Ionicons
-        },
+        }
+        // {
+        //     id: 'prerequisite_tracking',
+        //     title: "Automated prerequisite tracking",
+        //     icon: 'menu-sharp',
+        //     iconType: IconTypeEnum.Ionicons
+        // },
     ]);
 };
 

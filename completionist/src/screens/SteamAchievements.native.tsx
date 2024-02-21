@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import StandardLayout from '@components/general/Layouts/StandardLayout.native';
 import NavigationHeader from '@navigation/NavigationHeader.native';
 import SteamAchievementsContent from '@components/custom/SteamAchievementsContent/SteamAchievementsContent.native';
@@ -8,11 +9,15 @@ import AddSteamIDContent from '@components/custom/SteamAchievementsContent/AddSt
 
 
 const SteamAchievements = () => {
+	const { t } = useTranslation();
 	const { user } = useMainState();
 
 	return (
 		<StandardLayout>
-			<NavigationHeader title={!user.steamId ? 'Add Steam ID' : 'Steam Achievements'} />
+			<NavigationHeader title={!user.steamId 
+				? t('common:screens.addSteamId')
+				: t('common:screens.steamAchievements')} 
+			/>
 			<Condition 
 				condition={!user.steamId}
 				conditionalElement={<SteamAchievementsContent />}

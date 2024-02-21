@@ -5,8 +5,6 @@ export const CACHE_EXPIRY_TIME = 60 * 60 * 1000;    // 1 hour in milliseconds
 
 export const renderAmountConst = 20;
 
-export const generalSections = ['Quests', 'Collectables', 'Locations', 'Miscellaneous'];
-
 export const games = [
   GameKeyEnum.SKYRIM,
   GameKeyEnum.FALLOUT_4
