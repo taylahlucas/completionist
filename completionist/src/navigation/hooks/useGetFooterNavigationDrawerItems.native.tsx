@@ -22,7 +22,7 @@ const useGetNavigationFooterDrawerItems = (): NavigationFooterDrawerItem[] => {
 		{
 			id: ScreenEnum.SteamAchievements,
 			// TODO: Translations && fix logic here to only work for premium
-			title: 'Steam Achievements',
+			title: t('common:screens.steamAchievements'),
 			icon: 'steam',
 			iconType: IconTypeEnum.MaterialCommunityIcons
 		},

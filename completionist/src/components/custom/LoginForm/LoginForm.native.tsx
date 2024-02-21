@@ -15,9 +15,9 @@ const LoginForm = () => {
   return (
     <LoginFormContainer>
       <TextInput
-				testID={'email'}
+				testID='email'
         placeholder={t('common:auth.email')}
-        inputStyle={'text'}
+        inputStyle='text'
         value={loginFormData.email}
         onChangeText={(value) => setLoginFormData({
           ...loginFormData,
@@ -30,9 +30,9 @@ const LoginForm = () => {
       />
       <LoginFormButtonContainer>
         <TextInput
-					testID={'password'}
+					testID='password'
           placeholder={t('common:auth.password')}
-          inputStyle={'text'}
+          inputStyle='text'
           secureTextEntry
           value={loginFormData.password ?? ''}
           onChangeText={(value) => setLoginFormData({
@@ -48,9 +48,9 @@ const LoginForm = () => {
       <Condition condition={isSigningUp}>
         <LoginFormButtonContainer>
           <TextInput
-						testID={'username'}
+						testID='username'
             placeholder={t('common:auth.username')}
-            inputStyle={'text'}
+            inputStyle='text'
             value={loginFormData.name}
             onChangeText={(value) => setLoginFormData({
               ...loginFormData,
@@ -65,7 +65,7 @@ const LoginForm = () => {
       </Condition>
       <Condition condition={!isSigningUp}>
         <Button
-					testID={'forgot-password'}
+					testID='forgot-password'
           title={t('common:auth.forgotPassword')}
           type='text'
           style={{ alignItems: 'flex-end' }}
