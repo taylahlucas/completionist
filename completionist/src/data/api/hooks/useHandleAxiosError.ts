@@ -1,15 +1,18 @@
 import { Alert } from 'react-native';
+import { useTranslation } from 'react-i18next';
 import { requestCodes } from '@utils/constants';
 
 const useHandleAxiosError = () => {
+	const { t } = useTranslation();
+	
 	const handleAxiosError = (status: number): void => {
 		// TODO: Add translations
 		switch (status) {
 			case requestCodes.WRONG_PASSWORD:
-				Alert.alert('Error', 'Incorrect password. Please try again.');
+				Alert.alert(t('common:errors.error'), 'Incorrect password. Please try again.');
 				break;
 			case requestCodes.EMAIL_TAKEN:
-				Alert.alert('Error', 'Email already exists.');
+				Alert.alert(t('common:errors.error'), 'Email already exists.');
 				break;
 			case requestCodes.EMAIL_NOT_FOUND:
 				Alert.alert('Email Not Found', 'Please check your credentials and try again.');
@@ -20,8 +23,8 @@ const useHandleAxiosError = () => {
 				break;
 			default:
 				Alert.alert(
-					'Error',
-					'Internal server error. Please refresh the app'
+					t('common:errors.error'),
+					t('common:errors.pleaseRefreshApp')
 				);
 				break;
 		}

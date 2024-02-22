@@ -95,10 +95,14 @@
     "steamIdPlaceholder": "スチームID"
   },
   "errors": {
-    "error": "エラー",
-    "pleaseRefreshApp": "アプリを更新してください",
-    "noEmailExists": "電子メールが存在しません",
-    "googleSignIn": "Googleサインインでエラーが発生する"
+		"error": "エラー",
+		"pleaseRefreshApp": "アプリを更新してください",
+		"emailAlreadyExists": "メールは既に存在します。",
+		"emailNotFound": "メールが見つかりません",
+		"noEmailExists": "電子メールが存在しません",
+		"checkCredentials": "資格情報を確認して、再試行してください。",
+		"incorrectPw": "パスワードが間違っています。",
+		"googleSignIn": "Googleサインインでのエラー"
   },
   "alerts": {
     "activate": "活性化",

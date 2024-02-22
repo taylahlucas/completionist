@@ -99,8 +99,12 @@
       "errors": {
         "error": "错误",
         "pleaseRefreshApp": "请刷新应用程序",
+        "emailAlreadyExists": "电子邮件已经存在。",
+        "emailNotFound": "电子邮件找不到",
         "noEmailExists": "电子邮件不存在",
-        "googleSignIn": "谷歌登录出错"
+        "checkCredentials": "请检查您的凭据并重试。",
+        "incorrectPw": "密码错误。",
+        "googleSignIn": "Google 登录时出错"
       },
       "alerts": {
         "activate": "启用",
@@ -316,8 +320,12 @@
       "errors": {
         "error": "Lỗi",
         "pleaseRefreshApp": "Vui lòng làm mới ứng dụng",
+        "emailAlreadyExists": "Email đã tồn tại.",
+        "emailNotFound": "Không tìm thấy email",
         "noEmailExists": "Email không tồn tại",
-        "googleSignIn": "Lỗi đăng nhập google"
+        "checkCredentials": "Vui lòng kiểm tra thông tin xác thực của bạn và thử lại.",
+        "incorrectPw": "Mật khẩu không đúng. ",
+        "googleSignIn": "Lỗi đăng nhập bằng Google"
       },
       "alerts": {
         "activate": "Kích hoạt",
@@ -533,8 +541,12 @@
       "errors": {
         "error": "Hata",
         "pleaseRefreshApp": "Lütfen uygulamayı yenileyin",
+        "emailAlreadyExists": "Bu e-posta zaten var.",
+        "emailNotFound": "Email bulunamadı",
         "noEmailExists": "E-posta mevcut değil",
-        "googleSignIn": "Google oturum açma hatası"
+        "checkCredentials": "Lütfen kimlik bilgilerinizi kontrol edip tekrar deneyin.",
+        "incorrectPw": "Yanlış parola. ",
+        "googleSignIn": "Google ile Oturum Açma Hatası"
       },
       "alerts": {
         "activate": "Etkinleştir",
@@ -750,8 +762,12 @@
       "errors": {
         "error": "Erro",
         "pleaseRefreshApp": "Atualize o aplicativo",
+        "emailAlreadyExists": "E-mail já existe.",
+        "emailNotFound": "Email não encontrado",
         "noEmailExists": "E-mail não existe",
-        "googleSignIn": "Erro ao fazer login no Google"
+        "checkCredentials": "Verifique suas credenciais e tente novamente.",
+        "incorrectPw": "Senha incorreta. ",
+        "googleSignIn": "Erro com login do Google"
       },
       "alerts": {
         "activate": "Ativar",
@@ -967,8 +983,12 @@
       "errors": {
         "error": "エラー",
         "pleaseRefreshApp": "アプリを更新してください",
+        "emailAlreadyExists": "メールは既に存在します。",
+        "emailNotFound": "メールが見つかりません",
         "noEmailExists": "電子メールが存在しません",
-        "googleSignIn": "Googleサインインでエラーが発生する"
+        "checkCredentials": "資格情報を確認して、再試行してください。",
+        "incorrectPw": "パスワードが間違っています。",
+        "googleSignIn": "Googleサインインでのエラー"
       },
       "alerts": {
         "activate": "活性化",
@@ -1184,7 +1204,11 @@
       "errors": {
         "error": "Errore",
         "pleaseRefreshApp": "Aggiorna l'app",
+        "emailAlreadyExists": "Email già esistente.",
+        "emailNotFound": "E-mail non trovata",
         "noEmailExists": "L'e-mail non esiste",
+        "checkCredentials": "Controlla le tue credenziali e riprova.",
+        "incorrectPw": "Password errata. ",
         "googleSignIn": "Errore con l'accesso a Google"
       },
       "alerts": {
@@ -1401,8 +1425,12 @@
       "errors": {
         "error": "Kesalahan",
         "pleaseRefreshApp": "Harap segarkan aplikasi",
+        "emailAlreadyExists": "Email sudah ada.",
+        "emailNotFound": "Email Tidak Ditemukan",
         "noEmailExists": "Emailnya tidak ada",
-        "googleSignIn": "Kesalahan saat masuk Google"
+        "checkCredentials": "Silakan periksa kredensial Anda dan coba lagi.",
+        "incorrectPw": "Kata kunci Salah. ",
+        "googleSignIn": "Terjadi kesalahan saat Masuk dengan Google"
       },
       "alerts": {
         "activate": "Mengaktifkan",
@@ -1618,8 +1646,12 @@
       "errors": {
         "error": "गलती",
         "pleaseRefreshApp": "कृपया ऐप को रीफ्रेश करें",
+        "emailAlreadyExists": "ईमेल पहले से ही मौजूद है।",
+        "emailNotFound": "ईमेल नहीं मिला",
         "noEmailExists": "ईमेल मौजूद नहीं है",
-        "googleSignIn": "गूगल साइन इन में त्रुटि"
+        "checkCredentials": "कृपया अपनी साख जांचें और पुनः प्रयास करें।",
+        "incorrectPw": "गलत पासवर्ड। ",
+        "googleSignIn": "Google साइन इन में त्रुटि"
       },
       "alerts": {
         "activate": "सक्रिय",
@@ -1835,7 +1867,11 @@
       "errors": {
         "error": "Erreur",
         "pleaseRefreshApp": "Veuillez actualiser l'application",
+        "emailAlreadyExists": "L'email existe déjà.",
+        "emailNotFound": "Email non trouvé",
         "noEmailExists": "L'e-mail n'existe pas",
+        "checkCredentials": "Veuillez vérifier vos informations d'identification et réessayer.",
+        "incorrectPw": "Mot de passe incorrect. ",
         "googleSignIn": "Erreur avec la connexion Google"
       },
       "alerts": {
@@ -2052,7 +2088,11 @@
       "errors": {
         "error": "Error",
         "pleaseRefreshApp": "Por favor actualiza la aplicación",
+        "emailAlreadyExists": "El Email ya existe.",
+        "emailNotFound": "El correo electrónico no encontrado",
         "noEmailExists": "El correo electrónico no existe.",
+        "checkCredentials": "Por favor verifique sus credenciales e inténtelo nuevamente.",
+        "incorrectPw": "Contraseña incorrecta. ",
         "googleSignIn": "Error al iniciar sesión en Google"
       },
       "alerts": {
@@ -2269,8 +2309,12 @@
       "errors": {
         "error": "Error",
         "pleaseRefreshApp": "Please refresh the app",
+        "emailAlreadyExists": "Email already exists.",
+        "emailNotFound": "Email Not Found",
         "noEmailExists": "Email does not exist",
-        "googleSignIn": "Error with google sign in"
+        "checkCredentials": "Please check your credentials and try again.",
+        "incorrectPw": "Incorrect password. Please try again.",
+        "googleSignIn": "Error with Google Sign In"
       },
       "alerts": {
         "activate": "Activate",
@@ -2486,7 +2530,11 @@
       "errors": {
         "error": "Fehler",
         "pleaseRefreshApp": "Bitte aktualisieren Sie die App",
+        "emailAlreadyExists": "E-Mail existiert bereits.",
+        "emailNotFound": "Email wurde nicht gefunden",
         "noEmailExists": "Email existiert nicht",
+        "checkCredentials": "Bitte überprüfen Sie Ihre Anmeldedaten und versuchen Sie es erneut.",
+        "incorrectPw": "Falsches Passwort. ",
         "googleSignIn": "Fehler bei der Google-Anmeldung"
       },
       "alerts": {
@@ -2703,7 +2751,11 @@
       "errors": {
         "error": "خطأ",
         "pleaseRefreshApp": "يرجى تحديث التطبيق",
+        "emailAlreadyExists": "البريد الالكتروني موجود بالفعل.",
+        "emailNotFound": "البريد الإلكتروني غير موجود",
         "noEmailExists": "البريد الإلكتروني غير موجود",
+        "checkCredentials": "يرجى التحقق من بيانات الاعتماد الخاصة بك وحاول مرة أخرى.",
+        "incorrectPw": "كلمة سر خاطئة. ",
         "googleSignIn": "حدث خطأ أثناء تسجيل الدخول إلى Google"
       },
       "alerts": {

@@ -95,10 +95,14 @@
     "steamIdPlaceholder": "Steam Kimliği"
   },
   "errors": {
-    "error": "Hata",
-    "pleaseRefreshApp": "Lütfen uygulamayı yenileyin",
-    "noEmailExists": "E-posta mevcut değil",
-    "googleSignIn": "Google oturum açma hatası"
+		"error": "Hata",
+		"pleaseRefreshApp": "Lütfen uygulamayı yenileyin",
+		"emailAlreadyExists": "Bu e-posta zaten var.",
+		"emailNotFound": "Email bulunamadı",
+		"noEmailExists": "E-posta mevcut değil",
+		"checkCredentials": "Lütfen kimlik bilgilerinizi kontrol edip tekrar deneyin.",
+		"incorrectPw": "Yanlış parola. ",
+		"googleSignIn": "Google ile Oturum Açma Hatası"
   },
   "alerts": {
     "activate": "Etkinleştir",

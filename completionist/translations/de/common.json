@@ -95,10 +95,14 @@
     "steamIdPlaceholder": "Steam-ID"
   },
   "errors": {
-    "error": "Fehler",
-    "pleaseRefreshApp": "Bitte aktualisieren Sie die App",
-    "noEmailExists": "Email existiert nicht",
-    "googleSignIn": "Fehler bei der Google-Anmeldung"
+		"error": "Fehler",
+		"pleaseRefreshApp": "Bitte aktualisieren Sie die App",
+		"emailAlreadyExists": "E-Mail existiert bereits.",
+		"emailNotFound": "Email wurde nicht gefunden",
+		"noEmailExists": "Email existiert nicht",
+		"checkCredentials": "Bitte überprüfen Sie Ihre Anmeldedaten und versuchen Sie es erneut.",
+		"incorrectPw": "Falsches Passwort. ",
+		"googleSignIn": "Fehler bei der Google-Anmeldung"
   },
   "alerts": {
     "activate": "aktivieren Sie",

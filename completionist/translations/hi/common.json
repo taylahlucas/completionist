@@ -95,10 +95,14 @@
     "steamIdPlaceholder": "भाप में बनी इडली"
   },
   "errors": {
-    "error": "गलती",
-    "pleaseRefreshApp": "कृपया ऐप को रीफ्रेश करें",
-    "noEmailExists": "ईमेल मौजूद नहीं है",
-    "googleSignIn": "गूगल साइन इन में त्रुटि"
+		"error": "गलती",
+		"pleaseRefreshApp": "कृपया ऐप को रीफ्रेश करें",
+		"emailAlreadyExists": "ईमेल पहले से ही मौजूद है।",
+		"emailNotFound": "ईमेल नहीं मिला",
+		"noEmailExists": "ईमेल मौजूद नहीं है",
+		"checkCredentials": "कृपया अपनी साख जांचें और पुनः प्रयास करें।",
+		"incorrectPw": "गलत पासवर्ड। ",
+		"googleSignIn": "Google साइन इन में त्रुटि"
   },
   "alerts": {
     "activate": "सक्रिय",

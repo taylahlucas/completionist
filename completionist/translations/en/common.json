@@ -97,8 +97,12 @@
 	"errors": {
 		"error": "Error",
 		"pleaseRefreshApp": "Please refresh the app",
+		"emailAlreadyExists": "Email already exists.",
+		"emailNotFound": "Email Not Found",
 		"noEmailExists": "Email does not exist",
-		"googleSignIn": "Error with google sign in"
+		"checkCredentials": "Please check your credentials and try again.",
+		"incorrectPw": "Incorrect password. Please try again.",
+		"googleSignIn": "Error with Google Sign In"
 	},
 	"alerts": {
 		"activate": "Activate",

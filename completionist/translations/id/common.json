@@ -95,10 +95,14 @@
     "steamIdPlaceholder": "ID Uap"
   },
   "errors": {
-    "error": "Kesalahan",
-    "pleaseRefreshApp": "Harap segarkan aplikasi",
-    "noEmailExists": "Emailnya tidak ada",
-    "googleSignIn": "Kesalahan saat masuk Google"
+		"error": "Kesalahan",
+		"pleaseRefreshApp": "Harap segarkan aplikasi",
+		"emailAlreadyExists": "Email sudah ada.",
+		"emailNotFound": "Email Tidak Ditemukan",
+		"noEmailExists": "Emailnya tidak ada",
+		"checkCredentials": "Silakan periksa kredensial Anda dan coba lagi.",
+		"incorrectPw": "Kata kunci Salah. ",
+		"googleSignIn": "Terjadi kesalahan saat Masuk dengan Google"
   },
   "alerts": {
     "activate": "Mengaktifkan",

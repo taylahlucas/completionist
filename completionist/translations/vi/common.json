@@ -95,10 +95,14 @@
     "steamIdPlaceholder": "ID hơi nước"
   },
   "errors": {
-    "error": "Lỗi",
-    "pleaseRefreshApp": "Vui lòng làm mới ứng dụng",
-    "noEmailExists": "Email không tồn tại",
-    "googleSignIn": "Lỗi đăng nhập google"
+		"error": "Lỗi",
+		"pleaseRefreshApp": "Vui lòng làm mới ứng dụng",
+		"emailAlreadyExists": "Email đã tồn tại.",
+		"emailNotFound": "Không tìm thấy email",
+		"noEmailExists": "Email không tồn tại",
+		"checkCredentials": "Vui lòng kiểm tra thông tin xác thực của bạn và thử lại.",
+		"incorrectPw": "Mật khẩu không đúng. ",
+		"googleSignIn": "Lỗi đăng nhập bằng Google"
   },
   "alerts": {
     "activate": "Kích hoạt",

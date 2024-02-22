@@ -65,6 +65,7 @@ const useEditUserData = (): EditUserDataReturnType => {
 	};
 
 	const saveUserAndCache = (user: User) => {
+		console.log("updatingUser: ", user.subscription.data)
 		updateUser({
 			userId: user.userId,
 			steamId: user.steamId,

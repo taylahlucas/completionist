@@ -95,10 +95,14 @@
     "steamIdPlaceholder": "ID di Steam"
   },
   "errors": {
-    "error": "Errore",
-    "pleaseRefreshApp": "Aggiorna l'app",
-    "noEmailExists": "L'e-mail non esiste",
-    "googleSignIn": "Errore con l'accesso a Google"
+		"error": "Errore",
+		"pleaseRefreshApp": "Aggiorna l'app",
+		"emailAlreadyExists": "Email già esistente.",
+		"emailNotFound": "E-mail non trovata",
+		"noEmailExists": "L'e-mail non esiste",
+		"checkCredentials": "Controlla le tue credenziali e riprova.",
+		"incorrectPw": "Password errata. ",
+		"googleSignIn": "Errore con l'accesso a Google"
   },
   "alerts": {
     "activate": "Attivare",

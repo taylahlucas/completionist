@@ -31,7 +31,7 @@ const LoginForm = () => {
       <LoginFormButtonContainer>
         <TextInput
 					testID='password'
-          placeholder={t('common:auth.password')}
+          placeholder={t('common:auth.userpw')}
           inputStyle='text'
           secureTextEntry
           value={loginFormData.password ?? ''}

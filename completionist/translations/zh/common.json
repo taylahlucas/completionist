@@ -95,10 +95,14 @@
     "steamIdPlaceholder": "蒸汽 ID"
   },
   "errors": {
-    "error": "错误",
-    "pleaseRefreshApp": "请刷新应用程序",
-    "noEmailExists": "电子邮件不存在",
-    "googleSignIn": "谷歌登录出错"
+		"error": "错误",
+		"pleaseRefreshApp": "请刷新应用程序",
+		"emailAlreadyExists": "电子邮件已经存在。",
+		"emailNotFound": "电子邮件找不到",
+		"noEmailExists": "电子邮件不存在",
+		"checkCredentials": "请检查您的凭据并重试。",
+		"incorrectPw": "密码错误。",
+		"googleSignIn": "Google 登录时出错"
   },
   "alerts": {
     "activate": "启用",

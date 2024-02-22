@@ -95,10 +95,14 @@
     "steamIdPlaceholder": "ID de vapor"
   },
   "errors": {
-    "error": "Erro",
-    "pleaseRefreshApp": "Atualize o aplicativo",
-    "noEmailExists": "E-mail não existe",
-    "googleSignIn": "Erro ao fazer login no Google"
+		"error": "Erro",
+		"pleaseRefreshApp": "Atualize o aplicativo",
+		"emailAlreadyExists": "E-mail já existe.",
+		"emailNotFound": "Email não encontrado",
+		"noEmailExists": "E-mail não existe",
+		"checkCredentials": "Verifique suas credenciais e tente novamente.",
+		"incorrectPw": "Senha incorreta. ",
+		"googleSignIn": "Erro com login do Google"
   },
   "alerts": {
     "activate": "Ativar",

@@ -97,6 +97,7 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 
 	const signOut = async () => {
 		saveUserAndCache(user);
+		// TODO: Check if should update user?
 		try {
 			await GoogleSignin.revokeAccess();
 			await GoogleSignin.signOut();

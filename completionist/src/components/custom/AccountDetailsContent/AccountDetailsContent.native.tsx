@@ -54,7 +54,7 @@ const AccountDetailsContent = () => {
 				</SettingsContentDescription>
 				<SettingsContentInputContainer>
 					<TextInput
-						placeholder={t('common:auth.password')}
+						placeholder={t('common:auth.userpw')}
 						value={password}
 						secureTextEntry
 						inputStyle='text'

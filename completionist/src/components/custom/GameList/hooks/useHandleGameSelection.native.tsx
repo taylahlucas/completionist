@@ -7,16 +7,17 @@ import { ScreenEnum, SubscriptionTypeEnum } from '@utils/CustomEnums';
 import { SubscriptionData } from '@utils/CustomInterfaces';
 import useTranslateGameContent from '@utils/hooks/useTranslateGameContent.native';
 import useActivateGameSubscription from '@utils/hooks/useActivateGameSubscription.native';
+import { useTranslation } from 'react-i18next';
 
 const useHandleGameSelection = () => {
 	const navigation = useReactNavigation();
+	const { t } = useTranslation();
 	const { setSelectedGame, setSelectedGameSettings, reset } = useMainDispatch();
 	const { user } = useMainState();
 	const { reset: contentReset } = useContentDispatch();
 	const { translateGameName } = useTranslateGameContent();
 	const { changeGameSubscription, activateGameSubscription } = useActivateGameSubscription();
-
-	// TODO: Add to translations
+	
 	const handleGameSelection = (game: SubscriptionData) => {
 		if (game.isActive) {
 			contentReset();
@@ -33,15 +34,20 @@ const useHandleGameSelection = () => {
 					if (user.subscription.changesLeft > 0) {
 						const newChangesLeft = user.subscription.changesLeft - 1;
 						Alert.alert(
-							`Activate ${translateGameName(game.id)}?`,
-							`You will have ${newChangesLeft} change${newChangesLeft === 1 ? '' : 's'} left.`,
+							`${t('common:alerts.activate')} ${gameName}?`,
+							t('common:alerts.changesLeft',
+								{
+									changesLeft: newChangesLeft,
+									s: newChangesLeft === 1 ? 's' : ''
+								}
+							),
 							[
 								{
-									text: 'Activate',
+									text: t('common:alerts.activate'),
 									onPress: () => changeGameSubscription(game, newChangesLeft)
 								},
 								{
-									text: 'Cancel',
+									text: t('common:alerts.cancel'),
 									style: 'cancel'
 								}
 							]
@@ -49,22 +55,22 @@ const useHandleGameSelection = () => {
 					}
 					else {
 						Alert.alert(
-							'No changes left',
-							'Sorry, you have no game changes left for this month.\n Please upgrade to a premium subscription, or wait until the 1st of next month.'
+							t('common:alerts.noChangesLeft'),
+							t('common:alerts.noChangesLeftMessage')
 						);
 					}
 					break;
 				case SubscriptionTypeEnum.PREMIUM:
 					Alert.alert(
-						`Activate ${gameName}?`,
+						`${t('common:alerts.activate')} ${gameName}?`,
 						'',
 						[
 							{
-								text: 'Activate',
+								text: t('common:alerts.activate'),
 								onPress: () => activateGameSubscription(game)
 							},
 							{
-								text: 'Cancel',
+								text: t('common:alerts.cancel'),
 								style: 'cancel'
 							}
 						]

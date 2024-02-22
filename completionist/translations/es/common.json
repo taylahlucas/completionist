@@ -95,10 +95,14 @@
     "steamIdPlaceholder": "Identificacion de Steam"
   },
   "errors": {
-    "error": "Error",
-    "pleaseRefreshApp": "Por favor actualiza la aplicación",
-    "noEmailExists": "El correo electrónico no existe.",
-    "googleSignIn": "Error al iniciar sesión en Google"
+		"error": "Error",
+		"pleaseRefreshApp": "Por favor actualiza la aplicación",
+		"emailAlreadyExists": "El Email ya existe.",
+		"emailNotFound": "El correo electrónico no encontrado",
+		"noEmailExists": "El correo electrónico no existe.",
+		"checkCredentials": "Por favor verifique sus credenciales e inténtelo nuevamente.",
+		"incorrectPw": "Contraseña incorrecta. ",
+		"googleSignIn": "Error al iniciar sesión en Google"
   },
   "alerts": {
     "activate": "Activar",

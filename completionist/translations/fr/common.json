@@ -95,10 +95,14 @@
     "steamIdPlaceholder": "ID de vapeur"
   },
   "errors": {
-    "error": "Erreur",
-    "pleaseRefreshApp": "Veuillez actualiser l'application",
-    "noEmailExists": "L'e-mail n'existe pas",
-    "googleSignIn": "Erreur avec la connexion Google"
+		"error": "Erreur",
+		"pleaseRefreshApp": "Veuillez actualiser l'application",
+		"emailAlreadyExists": "L'email existe déjà.",
+		"emailNotFound": "Email non trouvé",
+		"noEmailExists": "L'e-mail n'existe pas",
+		"checkCredentials": "Veuillez vérifier vos informations d'identification et réessayer.",
+		"incorrectPw": "Mot de passe incorrect. ",
+		"googleSignIn": "Erreur avec la connexion Google"
   },
   "alerts": {
     "activate": "Activer",

@@ -95,10 +95,14 @@
     "steamIdPlaceholder": "معرف البخار"
   },
   "errors": {
-    "error": "خطأ",
-    "pleaseRefreshApp": "يرجى تحديث التطبيق",
-    "noEmailExists": "البريد الإلكتروني غير موجود",
-    "googleSignIn": "حدث خطأ أثناء تسجيل الدخول إلى Google"
+		"error": "خطأ",
+		"pleaseRefreshApp": "يرجى تحديث التطبيق",
+		"emailAlreadyExists": "البريد الالكتروني موجود بالفعل.",
+		"emailNotFound": "البريد الإلكتروني غير موجود",
+		"noEmailExists": "البريد الإلكتروني غير موجود",
+		"checkCredentials": "يرجى التحقق من بيانات الاعتماد الخاصة بك وحاول مرة أخرى.",
+		"incorrectPw": "كلمة سر خاطئة. ",
+		"googleSignIn": "حدث خطأ أثناء تسجيل الدخول إلى Google"
   },
   "alerts": {
     "activate": "تفعيل",
