@@ -6,7 +6,7 @@ export const LoginContentContainer = styled.View`
 `;
 
 export const LoginFormContainer = styled.View`
-  margin-top: 40%;
+  margin-top: 120px;
   justify-content: center;
 `;
 

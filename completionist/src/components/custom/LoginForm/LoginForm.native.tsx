@@ -11,7 +11,7 @@ const LoginForm = () => {
   const { t } = useTranslation();
   const { setLoginFormData } = useLoginDispatch();
   const { loginFormData, isSigningUp } = useLoginState();
-  
+	
   return (
     <LoginFormContainer>
       <TextInput
@@ -69,7 +69,7 @@ const LoginForm = () => {
           title={t('common:auth.forgotPassword')}
           type={'text'}
           style={{ alignItems: 'flex-end' }}
-          onPress={() => null}
+          onPress={() => console.log("Forgot Password //TODO")}
         />
       </Condition>
     </LoginFormContainer>

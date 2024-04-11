@@ -51,13 +51,14 @@ const TextInput = ({
       <Condition condition={secureTextEntry ?? false}>
         <TextInputIcon
 					testID={'show-password'}
+					style={{ marginRight: !!value && value?.length > 0 ? 32 : 0 }}
           onPress={(): void => setIsSecure(!isSecure)}
           name={isSecure ? 'eye-off-outline' : 'eye-outline'}
           type={IconTypeEnum.Ionicons}
           color={theme.midGrey}
         />
       </Condition>
-      <Condition condition={!!value && value?.length > 0 && !secureTextEntry}>
+      <Condition condition={!!value && value?.length > 0}>
         <TextInputIcon
 					testID={'reset-input'}
           onPress={onReset}

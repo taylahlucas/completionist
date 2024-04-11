@@ -6,6 +6,8 @@ const hashPassword = require('../helpers/hash_password');
 const comparePasswords = require('../helpers/compare_passwords');
 const request_codes = require('../helpers/request_codes');
 
+// https://medium.com/@xiaominghu19922/authentication-and-authorization-with-nodejs-react-and-typescript-part-2-ae9d320e4f74
+
 const signup = async (req, res) => {
   try {
     const { 
