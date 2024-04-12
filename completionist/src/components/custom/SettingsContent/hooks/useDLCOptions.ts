@@ -11,7 +11,7 @@ interface DLCOptionsReturnType {
 
 const useDLCOptions = (): DLCOptionsReturnType => {
   const { t } = useTranslation();
-  const { setUser } = useMainDispatch();
+  const { setUser, setShouldUpdateUser } = useMainDispatch();
   const { selectedGameSettings, user } = useMainState();
 
   const updateDLCSettingsConfig = (gameKey: GameKeyEnum, id: string) => {
@@ -41,6 +41,7 @@ const useDLCOptions = (): DLCOptionsReturnType => {
         },
       },
     });
+		setShouldUpdateUser(true);
   };
 
   const getDLCOptions = (): SettingsListItem[] => {

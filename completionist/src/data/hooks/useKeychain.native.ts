@@ -15,7 +15,7 @@ const useKeychain = (): KeychainReturnTypes => {
   const storeCredentials = async ({ username, password }: StoreCredentialsProps): Promise<void> => {
     if (!!username && !!password) {
       try {
-        await Keychain.setGenericPassword(username, password, {});
+        await Keychain.setGenericPassword(username, password.replace(' ', ''), {});
       } catch (error) {
         console.error('Error storing credentials:', error);
       }

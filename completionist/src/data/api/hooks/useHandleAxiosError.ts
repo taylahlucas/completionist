@@ -18,6 +18,9 @@ const useHandleAxiosError = () => {
 			case requestCodes.NO_USER_FOUND:
 				// When searching for user in database && signing in
 				break;
+			case requestCodes.UNAUTHORIZED:
+				Alert.alert('Unauthorized', 'You are unauthorized to use this account. Please try logging in again.');
+				break;
 			default:
 				Alert.alert(
 					'Error',

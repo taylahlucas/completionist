@@ -96,9 +96,6 @@ const slice = createSlice({
 					state.selectedGameData = state.user.data.fallout4;
 					break;
 			}
-			if (!!state.user.userId) {
-				state.shouldUpdateUser = true;
-			}
 		},
 		setShouldUpdateUser: (state, action) => {
 			state.shouldUpdateUser = action.payload;

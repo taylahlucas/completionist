@@ -7,19 +7,23 @@ import { ScreenEnum } from '@utils/CustomEnums';
 import { initialFormData } from '@components/custom/LoginForm/LoginState';
 import useLoginDispatch from '@components/custom/LoginForm/hooks/useLoginDispatch';
 import useEndpoints from '../api/hooks/useEndpoints.native';
+import useLoginState from '@components/custom/LoginForm/hooks/useLoginState';
+import useMainState from '@redux/hooks/useMainState';
 
 interface EditUserDataReturnType {
 	loadUserData: () => void;
-	saveUserAndLogin: (user: User) => void;
+	saveUserAndLogin: (user: User, shouldLogin: boolean) => void;
 	updateUser: (user: User) => void;
 	removeUserData: () => void;
 }
 
 const useEditUserData = (): EditUserDataReturnType => {
 	const navigation = useReactNavigation();
-	const { setUser } = useMainDispatch();
+	const { shouldUpdateUser } = useMainState();
+	const { setUser, setShouldUpdateUser  } = useMainDispatch();
+	const { isLoggedIn } = useLoginState();
 	const { setLoginFormData, setLoggedIn } = useLoginDispatch();
-	const { fetchUserFromCache, clearCache } = useCache();
+	const { fetchUserFromCache, saveToCache, clearCache } = useCache();
 	const { getCredentials, deleteCredentials } = useKeychain();
 	const { getUserByUserId, updateUserInfo, updateUserData } = useEndpoints();
 
@@ -30,13 +34,13 @@ const useEditUserData = (): EditUserDataReturnType => {
 			fetchUserFromCache(credentials.password)
 				.then((cachedData) => {
 					if (!!cachedData) {
-						saveUserAndLogin(cachedData);
+						saveUserAndLogin(cachedData, true);
 					}
 					else {
-						getUserByUserId({ userId: credentials.username })
+						getUserByUserId({ authToken: credentials.password, userId: credentials.username })
 							.then((user) => {
 								if (!!user) {
-									saveUserAndLogin(user);
+									saveUserAndLogin(user, true);
 								}
 							})
 					}
@@ -44,28 +48,46 @@ const useEditUserData = (): EditUserDataReturnType => {
 		}
 	};
 
-	const saveUserAndLogin = (user: User) => {
+	const saveUserAndLogin = (user: User, shouldLogin: boolean) => {
 		setUser(user);
-		setLoggedIn(true);
-		navigation.navigate(ScreenEnum.GameSelection);
+		saveToCache(user);
+		setShouldUpdateUser(false);
+
+		if (shouldLogin) {
+			setLogin();
+		}
 	};
 
-	const updateUser = (user: User) => {
-		saveUserAndLogin(user);
-		updateUserInfo({
-			userId: user.userId,
-			steamId: user.steamId,
-			subscription: user.subscription,
-			settings: user.settings,
-			userAvatar: user.userAvatar
-		});
-		updateUserData({
-			userId: user.userId,
-			data: {
-				skyrim: user.data.skyrim,
-				fallout4: user.data.fallout4
-			}
-		});
+	const setLogin = () => {
+		setLoggedIn(true);
+		navigation.navigate(ScreenEnum.GameSelection);
+	}
+
+	const updateUser = async (user: User) => {
+		if (shouldUpdateUser && isLoggedIn) {
+			await getCredentials()
+				.then((credentials) => {
+					if (!!credentials) {
+						updateUserInfo({
+							authToken: credentials.password,
+							userId: user.userId,
+							steamId: user.steamId,
+							subscription: user.subscription,
+							settings: user.settings,
+							userAvatar: user.userAvatar
+						});
+						updateUserData({
+							authToken: credentials.password,
+							userId: user.userId,
+							data: {
+								skyrim: user.data.skyrim,
+								fallout4: user.data.fallout4
+							}
+						});
+						saveUserAndLogin(user, false);
+					}
+				});
+		}
 	}
 
 	const removeUserData = () => {

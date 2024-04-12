@@ -62,6 +62,9 @@ app.use(session({
 
 app.use(passport.initialize());
 app.use(passport.session());
+
+//
+
 app.use('/api', authRoutes);
 app.use('/users', userRoutes);
 app.use('/send_email', sendEmailRoutes);

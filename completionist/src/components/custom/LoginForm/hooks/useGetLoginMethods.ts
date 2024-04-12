@@ -1,12 +1,12 @@
+import { useTranslation } from 'react-i18next';
 import { GoogleSignin } from '@react-native-google-signin/google-signin';
 import auth from '@react-native-firebase/auth';
-import useSaveUserData from '@data/hooks/useEditUserData.native';
 import useEndpoints from '@data/api/hooks/useEndpoints.native';
 import { AxiosErrorResponse } from '@utils/CustomTypes';
 import useLoginState from './useLoginState';
 import { Alert } from 'react-native';
 import useKeychain from '@data/hooks/useKeychain.native';
-import { useTranslation } from 'react-i18next';
+import useEditUserData from '@data/hooks/useEditUserData.native';
 
 interface GoogleSignInError {
 	code: number;
@@ -23,7 +23,7 @@ interface GetLoginMethodsReturnType {
 const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 	const { t } = useTranslation();
 	const { loginFormData } = useLoginState();
-	const { saveUserAndLogin, removeUserData } = useSaveUserData();
+	const { saveUserAndLogin, removeUserData } = useEditUserData();
 	const { signIn, signUp, getUserByUserId } = useEndpoints();
 	const { storeCredentials } = useKeychain();
 
@@ -31,7 +31,7 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 		try {
 			const response = await signUp({ data: loginFormData });
 			if (!!response) {
-				saveUserAndLogin(response);
+				saveUserAndLogin(response, true);
 			}
 		}
 		catch (error: AxiosErrorResponse) {
@@ -43,7 +43,15 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 		try {
 			const response = await signIn({ email: loginFormData.email, password: loginFormData.password ?? '' });
 			if (!!response) {
-				saveUserAndLogin(response);
+				await getUserByUserId({
+					authToken: response.password, 
+					userId: response.username
+				})
+					.then((userResponse) => {
+						if (!!userResponse) {
+							saveUserAndLogin(userResponse, true);
+						}
+					})
 			}
 		}
 		catch (error: AxiosErrorResponse) {
@@ -68,10 +76,10 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 						});
 						// Check if user exists with userID
 						// If yes, return user. If no, create user
-						getUserByUserId({ userId: uid })
+						getUserByUserId({ authToken: idToken, userId: uid })
 							.then((existingUser) => {
 								if (!!existingUser) {
-									saveUserAndLogin(existingUser);
+									saveUserAndLogin(existingUser, true);
 								}
 								else {
 									signUp({
@@ -84,7 +92,7 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 									})
 										.then((response) => {
 											if (!!response) {
-												saveUserAndLogin(response);
+												saveUserAndLogin(response, true);
 											}
 										})
 								}
@@ -100,10 +108,10 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 	}
 
 	const signOut = async () => {
-		removeUserData();
 		try {
 			// TODO: Causing error
 			// await GoogleSignin.revokeAccess();
+			removeUserData();
 			await GoogleSignin.signOut();
 		} catch (error) {
 			console.log("Error signing out: ", error)

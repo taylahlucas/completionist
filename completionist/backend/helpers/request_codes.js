@@ -1,5 +1,6 @@
 const request_codes = {
   SUCCESS: 200,
+	UNAUTHORIZED: 403,
 	NOT_FOUND: 500,
   EMAIL_TAKEN: 600,
 	EMAIL_NOT_FOUND: 602,

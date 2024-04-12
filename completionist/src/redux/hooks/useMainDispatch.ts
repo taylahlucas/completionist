@@ -80,7 +80,6 @@ const useMainDispatch = (): MainDispatch => {
 		setCompletedMiscItems(value: Item[]): void {
 			dispatch(setCompletedMiscItems(value));
 		},
-
 		reset(): void {
 			dispatch(reset());
 		}

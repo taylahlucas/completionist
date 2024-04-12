@@ -1,4 +1,3 @@
-import useKeychain from '@data/hooks/useKeychain.native';
 import useCache from './useCache.native';
 import { User } from '@utils/CustomInterfaces';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
@@ -6,17 +5,11 @@ import useMainDispatch from '@redux/hooks/useMainDispatch';
 const useAuth = () => {
 	const { setUser } = useMainDispatch();
 	const { saveToCache } = useCache();
-	const { storeCredentials, getCredentials } = useKeychain();
 	
 	const saveUserData = (user: User) => {
 		saveToCache(user);
 		setUser(user);
 	};
-
-	const getAuthToken = async (): Promise<string> => {
-		return await getCredentials()
-			.then((token) => !!token ? token?.password : '');
-	  };
 
 	const setAuthHeaders = (token: string) => {
 		return {
@@ -26,16 +19,7 @@ const useAuth = () => {
 		}
 	};
 
-	const storeUserCredentials = (userId: string, token: string) => {
-		if (!!userId && !!token) {
-			storeCredentials({
-				username: userId,
-				password: token
-			});
-		 }
-	}
-
-	return { saveUserData, setAuthHeaders, storeUserCredentials, getAuthToken };
+	return { saveUserData, setAuthHeaders };
 };
 
 export default useAuth;

@@ -92,7 +92,7 @@ const signin = async (req, res) => {
     // Response with token and user data
     return res.status(request_codes.SUCCESS).json({
       token,
-      user,
+			user
     });
   } catch (err) {
     return res.status(err.status).json(err.message);

@@ -17,7 +17,7 @@ export const initialFormData: LoginFormData = {
 export const initialState: LoginState = {
   loginFormData: initialFormData,
   isLoggedIn: false,
-  isSigningUp: false
+  isSigningUp: false,
 };
 
 const slice = createSlice({
