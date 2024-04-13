@@ -38,6 +38,8 @@ export interface EmailProps {
 }
 
 export interface EndpointsReturnType {
+	checkUserExists: (email: string) => Promise<boolean>;
+	googleSignIn: (email: string) => Promise<UserResponse>;
 	signIn: ({ email, password }: SignInProps) => Promise<CredentialsResponse>;
 	signUp: ({ data }: CreateUserProps) => Promise<UserResponse>;
 	getUserByUserId: ({ authToken, userId }: GetUserByUserIdProps) => Promise<UserResponse>;

@@ -12,7 +12,7 @@ import useValidator from '@utils/hooks/useValidator';
 
 const LoginFormSignInButtons = () => {
 	const { t } = useTranslation();
-	const { createUser, userSignIn, googleSignIn } = useGetLoginMethods();
+	const { createUser, userSignIn, googleUserSignIn } = useGetLoginMethods();
 	const { triggerIsSigningUp } = useLoginDispatch();
 	const { loginFormData, isSigningUp } = useLoginState();
 	const { isEmailValid, isPasswordValid, isNameValid } = useValidator();
@@ -31,7 +31,7 @@ const LoginFormSignInButtons = () => {
 					style={{ width: 200 }}
 					size={GoogleSigninButton.Size.Wide}
 					color={GoogleSigninButton.Color.Dark}
-					onPress={googleSignIn}
+					onPress={googleUserSignIn}
 				/>
 			</LoginFormButtonContainer>
 			<LoginFormFooterContainer>

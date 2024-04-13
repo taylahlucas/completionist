@@ -4,12 +4,17 @@ import axios from 'axios';
 import { SteamAchievement, SteamPlayerAchievement, User } from '@utils/CustomInterfaces';
 import { AxiosErrorResponse, CredentialsResponse, StringResponse, UserResponse } from '@utils/CustomTypes';
 import { 
-	signupUrl, 
+	checkUserExistsUrl,
+	googleSignInUrl,
+	signupUrl,
 	signinUrl, 
 	getUserByUserIdUrl, 
 	updateUserInfoUrl,
 	updateUserDataUrl, 
-	sendEmailUrl 
+	sendEmailUrl,
+	steamUserByIdUrl,
+	steamPlayerAchievementsUrl,
+	steamAchievementsByIdUrl
 } from '../../urls';
 import {
 	CreateUserProps,
@@ -36,7 +41,41 @@ const useEndpoints = (): EndpointsReturnType => {
 
 	// TODO: Add translations
 	// TODO: Add axios caching https://www.npmjs.com/package/axios-cache-adapter
-	// TODO: Test if authToken is doing anything currently (in terms of security)
+	const checkUserExists = async (email: string): Promise<boolean> => {
+		try {
+			const response = await axios.post(`${url}/${checkUserExistsUrl}`,
+				{
+					email: email
+				}
+			);
+			return !!response;
+		}
+		catch {
+			return false;
+		}
+	}
+	
+	const googleSignIn = async (email: string): Promise<UserResponse> => {
+		try {
+			const response = await axios.post(`${url}/${googleSignInUrl}`,
+				{
+					email: email
+				}
+			);
+			if (!!response.data.user && !!response.data.token) {
+				storeCredentials({
+					username: response.data.user.userId, 
+					password: response.data.token
+				});
+
+				return response.data.user as User;
+			}
+		}
+		catch (error: AxiosErrorResponse) {
+			handleAxiosError(error.response.status);
+		}
+	}
+
 	const signUp = async ({ data }: CreateUserProps): Promise<UserResponse> => {
 		try {
 			const response = await axios.post(`${url}/${signupUrl}`,
@@ -92,6 +131,7 @@ const useEndpoints = (): EndpointsReturnType => {
 			if (!!response.data) {
 				return response.data as User;
 			}
+			return;
 		}
 		catch (error: AxiosErrorResponse) {
 			handleAxiosError(error.response.status);
@@ -153,7 +193,7 @@ const useEndpoints = (): EndpointsReturnType => {
 	const getSteamUserById = async (appId: string, steamId: string): Promise<StringResponse> => {
 		try {
 			const response = await axios.get(
-				`https://api.steampowered.com/ISteamUserStats/GetUserStatsForGame/v0001/?appid=${appId}&key=${config.steamApiToken}&steamid=${steamId}`
+				`${steamUserByIdUrl}${appId}&key=${config.steamApiToken}&steamid=${steamId}`
 			);
 
 			if (!!response?.data?.playerstats?.steamID) {
@@ -173,7 +213,7 @@ const useEndpoints = (): EndpointsReturnType => {
 	const getSteamPlayerAchievements = async (appId: string, steamId: string): Promise<SteamPlayerAchievement | void> => {
 		try {
 			const response = await axios.get(
-				`https://api.steampowered.com/ISteamUserStats/GetPlayerAchievements/v0001/?appid=${appId}&key=${config.steamApiToken}&steamid=${steamId}`
+				`${steamPlayerAchievementsUrl}${appId}&key=${config.steamApiToken}&steamid=${steamId}`
 			);
 
 			if (!!response?.data?.playerstats) {
@@ -199,7 +239,7 @@ const useEndpoints = (): EndpointsReturnType => {
 	const getSteamAchievementsById = async (appId: string): Promise<(SteamAchievement[] | void)> => {
 		try {
 			const response = await axios.get(
-				`https://api.steampowered.com/ISteamUserStats/GetSchemaForGame/v0002/?key=${config.steamApiToken}&appid=${appId}&l=english&format=json`
+				`${steamAchievementsByIdUrl}${config.steamApiToken}&appid=${appId}&l=english&format=json`
 			);
 
 			return response.data.game.availableGameStats.achievements as SteamAchievement[];
@@ -210,6 +250,8 @@ const useEndpoints = (): EndpointsReturnType => {
 	};
 
 	return { 
+		checkUserExists,
+		googleSignIn,
 		signIn, 
 		signUp, 
 		getUserByUserId, 

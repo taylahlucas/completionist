@@ -7,7 +7,6 @@ const comparePasswords = require('../helpers/compare_passwords');
 const request_codes = require('../helpers/request_codes');
 
 // https://medium.com/@xiaominghu19922/authentication-and-authorization-with-nodejs-react-and-typescript-part-2-ae9d320e4f74
-
 const signup = async (req, res) => {
   try {
     const { 
@@ -99,10 +98,53 @@ const signin = async (req, res) => {
   }
 };
 
+const checkUserExists = async (req, res) => {
+	try {
+		const { email } = req.body;
+		const user = await User.findOne({ email });
+		
+		return res.status(request_codes.SUCCESS).json(!!user);
+	}
+	catch (err) {
+		return res.status(request_codes.SUCCESS).json(false);
+	}
+}
+
+const googleSignIn = async (req, res) => {
+	try {
+		const { email }  = req.body;
+		const user = await User.findOne({ email });
+		if (!user) {
+      return res.status(request_codes.EMAIL_NOT_FOUND).json({
+        error: "No user found",
+      });
+    }
+
+    // Create signed token
+    const token = jwt.sign({ _id: new mongoose.Types.ObjectId() }, process.env.JWT_SECRET, {
+      expiresIn: "7d",
+    });
+    user.password = undefined;
+    user.secret = undefined;
+    
+    // Response with token and user data
+    return res.status(request_codes.SUCCESS).json({
+      token,
+			user
+    });
+	}
+	catch (err) {
+		return res.status(err.status).json(err.message);
+	}
+}
+
 module.exports = {
   signup,
+	checkUserExists,
+	googleSignIn,
   signin
 }
+
 
 // export const forgotPassword = async (req, res) => {
 //   const { email } = req.body;

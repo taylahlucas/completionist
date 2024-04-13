@@ -5,8 +5,8 @@ import useEndpoints from '@data/api/hooks/useEndpoints.native';
 import { AxiosErrorResponse } from '@utils/CustomTypes';
 import useLoginState from './useLoginState';
 import { Alert } from 'react-native';
-import useKeychain from '@data/hooks/useKeychain.native';
 import useEditUserData from '@data/hooks/useEditUserData.native';
+import useMainState from '@redux/hooks/useMainState';
 
 interface GoogleSignInError {
 	code: number;
@@ -14,18 +14,18 @@ interface GoogleSignInError {
 }
 
 interface GetLoginMethodsReturnType {
-	userSignIn: () => Promise<void>
+	userSignIn: () => Promise<void>;
 	createUser: () => Promise<void>;
-	googleSignIn: () => Promise<void>;
+	googleUserSignIn: () => Promise<void>;
 	signOut: () => Promise<void>;
 }
 
 const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 	const { t } = useTranslation();
+	const { user } = useMainState();
 	const { loginFormData } = useLoginState();
-	const { saveUserAndLogin, removeUserData } = useEditUserData();
-	const { signIn, signUp, getUserByUserId } = useEndpoints();
-	const { storeCredentials } = useKeychain();
+	const { updateUser, saveUserAndLogin, removeUserData } = useEditUserData();
+	const { checkUserExists, googleSignIn, signIn, signUp, getUserByUserId } = useEndpoints();
 
 	const createUser = async () => {
 		try {
@@ -44,7 +44,7 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 			const response = await signIn({ email: loginFormData.email, password: loginFormData.password ?? '' });
 			if (!!response) {
 				await getUserByUserId({
-					authToken: response.password, 
+					authToken: response.password,
 					userId: response.username
 				})
 					.then((userResponse) => {
@@ -59,7 +59,7 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 		}
 	}
 
-	const googleSignIn = async () => {
+	const googleUserSignIn = async () => {
 		try {
 			await GoogleSignin.hasPlayServices();
 			const { idToken } = await GoogleSignin.signIn();
@@ -70,24 +70,18 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 				.then((response) => {
 					const { displayName, email, uid, photoURL } = response?.user || {};
 					if (displayName && email && idToken) {
-						storeCredentials({
-							username: uid,
-							password: idToken
-						});
-						// Check if user exists with userID
-						// If yes, return user. If no, create user
-						getUserByUserId({ authToken: idToken, userId: uid })
-							.then((existingUser) => {
-								if (!!existingUser) {
-									saveUserAndLogin(existingUser, true);
-								}
-								else {
+						// TODO: User not found error showing up here when it shouldnt
+						// TODO: What happens if i create a regular account, then use the same email to login to google?
+						checkUserExists(email)
+							.then((user) => {
+								if (!user) {
 									signUp({
 										data: {
 											userId: uid,
 											name: displayName,
 											email: email,
-											userAvatar: photoURL ?? undefined
+											userAvatar: photoURL ?? undefined,
+											password: idToken
 										}
 									})
 										.then((response) => {
@@ -95,6 +89,14 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 												saveUserAndLogin(response, true);
 											}
 										})
+								}
+								else {
+									googleSignIn(email)
+										.then((user) => {
+											if (!!user) {
+												saveUserAndLogin(user, true);
+											}
+										});
 								}
 							});
 					}
@@ -111,6 +113,7 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 		try {
 			// TODO: Causing error
 			// await GoogleSignin.revokeAccess();
+			updateUser(user);
 			removeUserData();
 			await GoogleSignin.signOut();
 		} catch (error) {
@@ -118,7 +121,7 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 		}
 	};
 
-	return { userSignIn, createUser, googleSignIn, signOut }
+	return { userSignIn, createUser, googleUserSignIn, signOut }
 };
 
 export default useGetLoginMethods;

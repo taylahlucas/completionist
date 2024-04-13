@@ -8,6 +8,7 @@ const checkAuthToken = async (req) => {
 
 	try {
 		if (!auth_token) {
+			res.status(request_codes.UNAUTHORIZED).json({ error: 'Unauthorized' });
 			return false;
 		}
 		jwt.verify(auth_token, process.env.JWT_SECRET);
@@ -25,6 +26,7 @@ const getUserByUserId = async (req, res) => {
 			const userId = req.params.userId;
 			const user = await User.findOne({ userId: userId });
 			if (user) {
+
 				return res.status(request_codes.SUCCESS).json(user);
 			} else {
 				return res.status(request_codes.EMAIL_NOT_FOUND).json({ error: 'User not found' });
@@ -33,9 +35,6 @@ const getUserByUserId = async (req, res) => {
 			console.error('Error retrieving user:', error.message);
 			return res.status(request_codes.NOT_FOUND).json(error.message);
 		}
-	}
-	else {
-		return res.status(request_codes.UNAUTHORIZED).json({ error: 'Unauthorized' });
 	}
 };
 
@@ -61,9 +60,6 @@ const updateUserInfo = async (req, res) => {
 			return res.status(error.status).json(error.message);
 		}
 	}
-	else {
-		return res.status(request_codes.UNAUTHORIZED).json({ error: 'Unauthorized' });
-	}
 };
 
 const updateUserData = async (req, res) => {
@@ -88,9 +84,6 @@ const updateUserData = async (req, res) => {
 		catch (error) {
 			return res.status(error.status).json(error.message);
 		}
-	}
-	else {
-		return res.status(request_codes.UNAUTHORIZED).json({ error: 'Unauthorized' });
 	}
 };
 
