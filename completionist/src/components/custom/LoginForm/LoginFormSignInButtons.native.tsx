@@ -12,7 +12,7 @@ import useValidator from '@utils/hooks/useValidator';
 
 const LoginFormSignInButtons = () => {
 	const { t } = useTranslation();
-	const { createUser, userSignIn, googleUserSignIn } = useGetLoginMethods();
+	const { createUser, checkUserAccount, googleUserSignIn } = useGetLoginMethods();
 	const { triggerIsSigningUp } = useLoginDispatch();
 	const { loginFormData, isSigningUp } = useLoginState();
 	const { isEmailValid, isPasswordValid, isNameValid } = useValidator();
@@ -23,7 +23,10 @@ const LoginFormSignInButtons = () => {
 				testID={'login-button'}
 				title={isSigningUp ? t('common:auth.createAccount') : t('common:auth.login')}
 				disabled={!isEmailValid(loginFormData.email) || !isPasswordValid(loginFormData.password ?? '') || (isSigningUp ? !isNameValid(loginFormData.name) : false)}
-				onPress={() => isSigningUp ? createUser() : userSignIn()}
+				onPress={() => isSigningUp 
+					? createUser(loginFormData) 
+					: checkUserAccount({ email: loginFormData.email, password: loginFormData.password 
+				})}
 			/>
 			<LoginFormButtonContainer>
 				<GoogleSigninButton

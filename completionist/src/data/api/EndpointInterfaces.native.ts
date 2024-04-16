@@ -1,5 +1,5 @@
 import { LoginFormData, Subscription, UserSettings, UserData } from '@utils/CustomInterfaces';
-import { CredentialsResponse, StringResponse, UserResponse } from '@utils/CustomTypes';
+import { StringResponse, UserResponse } from '@utils/CustomTypes';
 
 export interface CreateUserProps {
 	data: LoginFormData;
@@ -7,7 +7,13 @@ export interface CreateUserProps {
 
 export interface SignInProps {
 	email: string;
-	password: string;
+	password?: string;
+	googleId?: string;
+}
+
+export interface CredentialsExistProps {
+	regular: boolean;
+	google: boolean;
 }
 
 export interface GetUserByUserIdProps {
@@ -38,9 +44,9 @@ export interface EmailProps {
 }
 
 export interface EndpointsReturnType {
-	checkUserExists: (email: string) => Promise<boolean>;
-	googleSignIn: (email: string) => Promise<UserResponse>;
-	signIn: ({ email, password }: SignInProps) => Promise<CredentialsResponse>;
+	checkUserExists: (email: string) => Promise<CredentialsExistProps>;
+	linkAndSignIn: ({ email, password, googleId }: SignInProps) => Promise<UserResponse>;
+	signIn: ({ email, password, googleId }: SignInProps) => Promise<UserResponse>;
 	signUp: ({ data }: CreateUserProps) => Promise<UserResponse>;
 	getUserByUserId: ({ authToken, userId }: GetUserByUserIdProps) => Promise<UserResponse>;
 	updateUserInfo: ({ authToken, userId, steamId, subscription, settings, userAvatar }: UpdateUserInfoProps) => Promise<UserResponse>;

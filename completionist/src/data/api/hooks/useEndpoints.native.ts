@@ -2,10 +2,10 @@ import { Alert, Platform } from 'react-native';
 import uuid from 'react-native-uuid';
 import axios from 'axios';
 import { SteamAchievement, SteamPlayerAchievement, User } from '@utils/CustomInterfaces';
-import { AxiosErrorResponse, CredentialsResponse, StringResponse, UserResponse } from '@utils/CustomTypes';
+import { AxiosErrorResponse, StringResponse, UserResponse } from '@utils/CustomTypes';
 import { 
 	checkUserExistsUrl,
-	googleSignInUrl,
+	linkAndSignInUrl,
 	signupUrl,
 	signinUrl, 
 	getUserByUserIdUrl, 
@@ -23,7 +23,8 @@ import {
 	UpdateUserInfoProps,
 	UpdateUserDataProps,
 	EmailProps,
-	EndpointsReturnType
+	EndpointsReturnType,
+	CredentialsExistProps
 } from '@data/api/EndpointInterfaces.native';
 import useHandleAxiosError from './useHandleAxiosError';
 import useAuth from './useAuth.native';
@@ -41,38 +42,22 @@ const useEndpoints = (): EndpointsReturnType => {
 
 	// TODO: Add translations
 	// TODO: Add axios caching https://www.npmjs.com/package/axios-cache-adapter
-	const checkUserExists = async (email: string): Promise<boolean> => {
+	// TODO: Send email verification for user
+	// TODO: Initial game selection for google account sign up
+	const checkUserExists = async (email: string): Promise<CredentialsExistProps> => {
 		try {
 			const response = await axios.post(`${url}/${checkUserExistsUrl}`,
 				{
-					email: email
+					email: email.toLocaleLowerCase(),
 				}
 			);
-			return !!response;
+			return response.data as CredentialsExistProps;
 		}
 		catch {
-			return false;
-		}
-	}
-	
-	const googleSignIn = async (email: string): Promise<UserResponse> => {
-		try {
-			const response = await axios.post(`${url}/${googleSignInUrl}`,
-				{
-					email: email
-				}
-			);
-			if (!!response.data.user && !!response.data.token) {
-				storeCredentials({
-					username: response.data.user.userId, 
-					password: response.data.token
-				});
-
-				return response.data.user as User;
-			}
-		}
-		catch (error: AxiosErrorResponse) {
-			handleAxiosError(error.response.status);
+			return {
+				regular: false,
+				google: false
+			};
 		}
 	}
 
@@ -82,14 +67,15 @@ const useEndpoints = (): EndpointsReturnType => {
 				{
 					userId: data.userId ? data.userId : uuid.v4(),
 					name: data.name,
-					email: data.email,
+					email: data.email.toLocaleLowerCase(),
+					googleId: data.googleId ?? '',
 					password: data.password ?? '',
 					userAvatar: data.userAvatar
 				}
 			);
 			if (!!response.data.token) {
 				storeCredentials({
-					username: data.userId, 
+					username: data.userId,
 					password: response.data.token
 				});
 				return response.data.user as User;
@@ -100,12 +86,13 @@ const useEndpoints = (): EndpointsReturnType => {
 		};
 	}
 
-	const signIn = async ({ email, password }: SignInProps): Promise<CredentialsResponse> => {
+	const signIn = async ({ email, password, googleId }: SignInProps): Promise<UserResponse> => {
 		try {
 			const response = await axios.post(`${url}/${signinUrl}`,
 				{
-					email: email,
-					password: password
+					email: email.toLocaleLowerCase(),
+					password: password,
+					googleId: googleId
 				}
 			);
 			if (!!response.data.user && !!response.data.token) {
@@ -114,13 +101,36 @@ const useEndpoints = (): EndpointsReturnType => {
 					password: response.data.token
 				}
 				storeCredentials(credentialsResponse);
-				return credentialsResponse as CredentialsResponse;
+				return response.data.user as UserResponse;
 			}
 		}
 		catch (error: AxiosErrorResponse) {
 			handleAxiosError(error.response.status);
 		}
 	};
+
+	const linkAndSignIn = async ({ email, password, googleId }: SignInProps): Promise<UserResponse> => {
+		try {
+			const response = await axios.post(`${url}/${linkAndSignInUrl}`,
+				{
+					email: email.toLocaleLowerCase(),
+					password: password,
+					googleId: googleId
+				}
+			);
+			if (!!response.data.user && !!response.data.token) {
+				const credentialsResponse = {
+					username: response.data.user.userId,
+					password: response.data.token
+				}
+				storeCredentials(credentialsResponse);
+				return response.data.user as UserResponse;
+			}
+		}
+		catch (error: AxiosErrorResponse) {
+			handleAxiosError(error.response.status);
+		}
+	}
 
 	const getUserByUserId = async ({ authToken, userId }: GetUserByUserIdProps): Promise<UserResponse> => {
 		try {
@@ -251,7 +261,7 @@ const useEndpoints = (): EndpointsReturnType => {
 
 	return { 
 		checkUserExists,
-		googleSignIn,
+		linkAndSignIn,
 		signIn, 
 		signUp, 
 		getUserByUserId, 

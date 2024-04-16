@@ -175,6 +175,7 @@ export interface LoginFormData {
   userId: string;
   name: string;
   email: string;
+	googleId?: string;
   password?: string;
   userAvatar?: string;
 }

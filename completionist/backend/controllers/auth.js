@@ -7,131 +7,171 @@ const comparePasswords = require('../helpers/compare_passwords');
 const request_codes = require('../helpers/request_codes');
 
 // https://medium.com/@xiaominghu19922/authentication-and-authorization-with-nodejs-react-and-typescript-part-2-ae9d320e4f74
-const signup = async (req, res) => {
-  try {
-    const { 
-      userId,
-      name,
-      email,
-      password: userPassword,
-      userAvatar
-     } = req.body;
-
-    if (!userId) {
-      res.json({ error: "userId is required" });
-    }
-
-    // Check if user already exists
-    const existingUser = await User.findOne({ email });
-    if (existingUser) {
-      return res.status(request_codes.EMAIL_TAKEN).json({ error: 'Email already exists.' });
-    }
-
-    // Hash password if password is provided
-    let hashedPassword = '';
-    if (userPassword) {
-      hashedPassword = await hashPassword(userPassword)
-    }
-
-    // Create new user
-    const user = await new User({
-      userId,
-      name,
-      email,
-      password: hashedPassword,
-      userAvatar
-    }).save();
-
-    // Create signed token
-    const token = jwt.sign({ _id: new mongoose.Types.ObjectId() }, process.env.JWT_SECRET, {
-      expiresIn: "7d",
-    });
-
-    // Remove password from the user object
-    const { password, ...rest } = user._doc;
-
-    // Response with token and user data
-    return res.json({
-      token,
-      user: rest,
-    });
-  } catch (err) {
-    return res.status(err.status).json(err.message);
-  }
-};
-
-const signin = async (req, res) => {
-  try {
-    const { email, password } = req.body;
-    // Check if db has user with that email
-    const user = await User.findOne({ email });
-    if (!user) {
-      return res.status(request_codes.EMAIL_NOT_FOUND).json({
-        error: "No user found",
-      });
-    }
-
-    // If user has password, check if the password matches
-    if (!!user.password) {
-      const match = await comparePasswords(password, user.password);
-      if (!match) {
-        return res.status(request_codes.WRONG_PASSWORD).json({
-          error: "Wrong password",
-        });
-      }
-    }
-
-    // Create signed token
-    const token = jwt.sign({ _id: new mongoose.Types.ObjectId() }, process.env.JWT_SECRET, {
-      expiresIn: "7d",
-    });
-    user.password = undefined;
-    user.secret = undefined;
-    
-    // Response with token and user data
-    return res.status(request_codes.SUCCESS).json({
-      token,
-			user
-    });
-  } catch (err) {
-    return res.status(err.status).json(err.message);
-  }
-};
-
-const checkUserExists = async (req, res) => {
+const verifyUser = async (res, email, errorCode, errorMessage) => {
 	try {
-		const { email } = req.body;
-		const user = await User.findOne({ email });
-		
-		return res.status(request_codes.SUCCESS).json(!!user);
+		const existingUser = await User.findOne({ email });
+		return existingUser
 	}
 	catch (err) {
-		return res.status(request_codes.SUCCESS).json(false);
+		return res.status(errorCode).json({ error: errorMessage });
 	}
 }
 
-const googleSignIn = async (req, res) => {
+const checkUserExists = async (req, res) => {
+	// Checks if user already has a google or regular account set up
 	try {
-		const { email }  = req.body;
+		const { email } = req.body;
 		const user = await User.findOne({ email });
-		if (!user) {
-      return res.status(request_codes.EMAIL_NOT_FOUND).json({
-        error: "No user found",
-      });
-    }
 
-    // Create signed token
-    const token = jwt.sign({ _id: new mongoose.Types.ObjectId() }, process.env.JWT_SECRET, {
-      expiresIn: "7d",
-    });
-    user.password = undefined;
-    user.secret = undefined;
-    
-    // Response with token and user data
-    return res.status(request_codes.SUCCESS).json({
-      token,
+		return res.status(request_codes.SUCCESS).json({
+			regular: !!user.password,
+			google: !!user.googleId,
+		});
+	}
+	catch (err) {
+		return res.status(request_codes.SUCCESS).json({
+			regular: false,
+			google: false
+		});
+	}
+}
+
+const signup = async (req, res) => {
+	try {
+		const {
+			userId,
+			name,
+			email,
+			password: userPassword,
+			googleId: userGoogleId,
+			userAvatar
+		} = req.body;
+
+		if (!userId) {
+			res.json({ error: "userId is required" });
+		}
+		await verifyUser(res, email, request_codes.EMAIL_TAKEN, 'Email already exists.');
+
+		// Hash password if password is provided
+		let hashedPassword = '';
+		if (userPassword) {
+			hashedPassword = await hashPassword(userPassword)
+		}
+
+		let hashedGoogleId = '';
+		if (userGoogleId) {
+			hashedGoogleId = await hashPassword(userGoogleId)
+		}
+
+		// Create new user
+		const user = await new User({
+			userId,
+			name,
+			email,
+			password: hashedPassword,
+			googleId: hashedGoogleId,
+			userAvatar
+		}).save();
+
+		// Create signed token
+		const token = jwt.sign({ _id: new mongoose.Types.ObjectId() }, process.env.JWT_SECRET, {
+			expiresIn: "7d",
+		});
+
+		// Remove password from the user object
+		const { password, googleId, ...rest } = user._doc;
+
+		// Response with token and user data
+		return res.json({
+			token,
+			user: rest,
+		});
+	} catch (err) {
+		return res.status(err.status).json(err.message);
+	}
+};
+
+const signin = async (req, res) => {
+	try {
+		const { email, password, googleId } = req.body;
+		const user = await verifyUser(res, email, request_codes.NO_USER_FOUND, "No user found.");
+		console.log("user.password: ", user.password);
+		console.log("password: ", password);
+		// If user has password, check if the password matches
+		if (!!user.password && !!password) {
+			console.log("COMPARING PASSWORDS")
+			const match = await comparePasswords(password, user.password);
+			if (!match) {
+				return res.status(request_codes.WRONG_PASSWORD).json({
+					error: "Wrong password",
+				});
+			}
+		}
+		if (!!user.googleId && !!googleId) {
+			const match = await comparePasswords(googleId, user.googleId);
+			if (!match) {
+				return res.status(request_codes.WRONG_PASSWORD).json({
+					error: "Wrong password",
+				});
+			}
+		}
+
+		// Create signed token
+		const token = jwt.sign({ _id: new mongoose.Types.ObjectId() }, process.env.JWT_SECRET, {
+			expiresIn: "7d",
+		});
+		user.password = undefined;
+		user.googleId = undefined;
+		user.secret = undefined;
+
+		// Response with token and user data
+		return res.status(request_codes.SUCCESS).json({
+			token,
 			user
-    });
+		});
+	} catch (err) {
+		console.log("HEREEE FAILING: ", err.message)
+		return res.status(err.status).json(err.message);
+	}
+};
+
+const linkAndSignIn = async (req, res) => {
+	try {
+		const { email, password, googleId } = req.body;
+		const user = await verifyUser(res, email, request_codes.NO_USER_FOUND, "No user found.");
+
+		// If user does not have googleId, update googleId
+		let result;
+		if (!user.googleId && !!googleId) {
+			let hashedGoogleId = await hashPassword(googleId)
+			result = await User.updateOne({
+				userId: user.userId,
+				googleId: hashedGoogleId
+			});
+		}
+		// TODO: If user does not have password, update password
+		if (!user.password && !!password) {
+			let hashedPassword = await hashPassword(password)
+			result = await User.updateOne({
+				userId: user.userId,
+				password: hashedPassword
+			});
+		}
+
+		if (result.matchedCount > 0) {
+			console.log(`User withuserId with ID ${user.userId} linked successfully`);
+			// Create signed token
+			const token = jwt.sign({ _id: new mongoose.Types.ObjectId() }, process.env.JWT_SECRET, {
+				expiresIn: "7d",
+			});
+
+			return res.status(request_codes.SUCCESS).json({
+				token,
+				user
+			});
+		} else {
+			return res.status(request_codes.NOT_FOUND).json({ error: 'User not found' });
+		}
 	}
 	catch (err) {
 		return res.status(err.status).json(err.message);
@@ -139,10 +179,10 @@ const googleSignIn = async (req, res) => {
 }
 
 module.exports = {
-  signup,
 	checkUserExists,
-	googleSignIn,
-  signin
+	signup,
+	linkAndSignIn,
+	signin
 }
 
 

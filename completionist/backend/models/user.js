@@ -7,6 +7,7 @@ const {
 const userSchema = new mongoose.Schema({
   userId: String,
 	steamId: String,
+	googleId: String,
   name: String,
   email: String,
   password: String,

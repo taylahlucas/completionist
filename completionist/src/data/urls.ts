@@ -1,6 +1,6 @@
 export const signupUrl = 'api/signup';
 export const checkUserExistsUrl = 'api/exists';
-export const googleSignInUrl = 'api/googleSignIn';
+export const linkAndSignInUrl = 'api/link';
 export const signinUrl = 'api/signin';
 export const getUserByUserIdUrl = 'users'
 export const updateUserInfoUrl = 'users/update/info';

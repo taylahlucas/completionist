@@ -1,5 +1,4 @@
 import { AxiosError } from 'axios';
-import { UserCredentials } from 'react-native-keychain';
 import { User } from './CustomInterfaces';
 
 // Styles 
@@ -63,4 +62,3 @@ export type NavigationHeaderRightActionTypes = 'logout' | 'filter' | 'none';
 export type UserResponse = User | void;
 export type StringResponse = string | void;
 export type AxiosErrorResponse = AxiosError | any;
-export type CredentialsResponse = UserCredentials | void;

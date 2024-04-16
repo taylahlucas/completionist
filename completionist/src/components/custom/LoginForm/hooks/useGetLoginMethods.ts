@@ -7,6 +7,8 @@ import useLoginState from './useLoginState';
 import { Alert } from 'react-native';
 import useEditUserData from '@data/hooks/useEditUserData.native';
 import useMainState from '@redux/hooks/useMainState';
+import { SignInProps } from '@data/api/EndpointInterfaces.native';
+import { LoginFormData, User } from '@utils/CustomInterfaces';
 
 interface GoogleSignInError {
 	code: number;
@@ -14,8 +16,9 @@ interface GoogleSignInError {
 }
 
 interface GetLoginMethodsReturnType {
-	userSignIn: () => Promise<void>;
-	createUser: () => Promise<void>;
+	checkUserAccount: ({ email, password }: SignInProps) => Promise<void>;
+	userSignIn: ({ email, password, googleId }: SignInProps) => Promise<void>;
+	createUser: (data: LoginFormData) => Promise<void>;
 	googleUserSignIn: () => Promise<void>;
 	signOut: () => Promise<void>;
 }
@@ -23,13 +26,12 @@ interface GetLoginMethodsReturnType {
 const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 	const { t } = useTranslation();
 	const { user } = useMainState();
-	const { loginFormData } = useLoginState();
 	const { updateUser, saveUserAndLogin, removeUserData } = useEditUserData();
-	const { checkUserExists, googleSignIn, signIn, signUp, getUserByUserId } = useEndpoints();
+	const { checkUserExists, linkAndSignIn, signIn, signUp } = useEndpoints();
 
-	const createUser = async () => {
+	const createUser = async (data: LoginFormData) => {
 		try {
-			const response = await signUp({ data: loginFormData });
+			const response = await signUp({ data: data });
 			if (!!response) {
 				saveUserAndLogin(response, true);
 			}
@@ -39,24 +41,63 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 		}
 	};
 
-	const userSignIn = async () => {
+	const userSignIn = async ({ email, password, googleId }: SignInProps) => {
 		try {
-			const response = await signIn({ email: loginFormData.email, password: loginFormData.password ?? '' });
-			if (!!response) {
-				await getUserByUserId({
-					authToken: response.password,
-					userId: response.username
+			await signIn({ email: email, password: password, googleId: googleId })
+				.then((userResponse) => {
+					if (!!userResponse) {
+						saveUserAndLogin(userResponse, true);
+					}
 				})
-					.then((userResponse) => {
-						if (!!userResponse) {
-							saveUserAndLogin(userResponse, true);
-						}
-					})
-			}
 		}
 		catch (error: AxiosErrorResponse) {
 			console.log("Error signing in: ", error.message)
 		}
+	}
+
+	const linkAccount = ({ email, password, googleId }: SignInProps) => {
+		Alert.alert(
+			"Account exists.",
+			"Would you like to link these accounts?",
+			[
+				{
+					text: "Ok",
+					// Update user with googleId
+					onPress: () => linkAndSignIn({
+						email: email,
+						password: password,
+						googleId: googleId
+					}).then((userResponse) => {
+						console.log("User response: ", userResponse)
+						if (!!userResponse) {
+							saveUserAndLogin(userResponse, true);
+						}
+					})
+				},
+				{
+					text: "Cancel"
+				}
+			]
+		);
+	};
+
+	const checkUserAccount = async ({ email, password }: SignInProps) => {
+		checkUserExists(email)
+			.then((accounts) => {
+				console.log("Accounts: ", accounts, " email: ", email)
+				if (accounts.regular) {
+					userSignIn({
+						email: email,
+						password: password
+					});
+				}
+				else if (accounts.google && !accounts.regular) {
+					linkAccount({ email: email, password: password });
+				}
+				else {
+					Alert.alert('Email Not Found', 'Please check your credentials and try again.');
+				}
+			});
 	}
 
 	const googleUserSignIn = async () => {
@@ -70,18 +111,26 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 				.then((response) => {
 					const { displayName, email, uid, photoURL } = response?.user || {};
 					if (displayName && email && idToken) {
-						// TODO: User not found error showing up here when it shouldnt
-						// TODO: What happens if i create a regular account, then use the same email to login to google?
 						checkUserExists(email)
-							.then((user) => {
-								if (!user) {
+							.then((accounts) => {
+								// If google account not linked
+								if (accounts.regular && !accounts.google) {
+									linkAccount({ email: email, googleId: idToken });
+								}
+								else if (accounts.google) {
+									userSignIn({
+										email: email,
+										googleId: idToken
+									});
+								}
+								else if (!accounts.google && !accounts.regular) {
 									signUp({
 										data: {
 											userId: uid,
 											name: displayName,
 											email: email,
 											userAvatar: photoURL ?? undefined,
-											password: idToken
+											googleId: idToken
 										}
 									})
 										.then((response) => {
@@ -90,18 +139,10 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 											}
 										})
 								}
-								else {
-									googleSignIn(email)
-										.then((user) => {
-											if (!!user) {
-												saveUserAndLogin(user, true);
-											}
-										});
-								}
 							});
 					}
 					else {
-						Alert.alert(t('common:errors.googleSignIn'), t('common:errors.noEmailExists'));
+						Alert.alert(t('common:errors.googleSignIn'), 'Problem getting info for this google account.');
 					}
 				});
 		} catch (error: GoogleSignInError | any) {
@@ -121,7 +162,7 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 		}
 	};
 
-	return { userSignIn, createUser, googleUserSignIn, signOut }
+	return { checkUserAccount, userSignIn, createUser, googleUserSignIn, signOut }
 };
 
 export default useGetLoginMethods;
