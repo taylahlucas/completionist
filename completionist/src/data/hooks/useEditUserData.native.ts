@@ -14,7 +14,7 @@ import { initialUser } from '@redux/MainState';
 interface EditUserDataReturnType {
 	loadUserData: () => void;
 	saveUserAndLogin: (user: User, shouldLogin: boolean) => void;
-	updateUser: (user: User) => void;
+	updateUserData: (user: User) => void;
 	removeUserData: () => void;
 }
 
@@ -26,7 +26,7 @@ const useEditUserData = (): EditUserDataReturnType => {
 	const { setLoginFormData, setLoggedIn } = useLoginDispatch();
 	const { fetchUserFromCache, saveToCache, clearCache } = useCache();
 	const { getCredentials, deleteCredentials } = useKeychain();
-	const { getUserByUserId, updateUserInfo, updateUserData } = useEndpoints();
+	const { getUserByUserId, updateUser } = useEndpoints();
 
 	const loadUserData = async () => {
 		const credentials = await getCredentials();
@@ -65,25 +65,22 @@ const useEditUserData = (): EditUserDataReturnType => {
 		navigation.navigate(ScreenEnum.GameSelection);
 	}
 
-	const updateUser = async (user: User) => {
+	const updateUserData = async (user: User) => {
 		if (shouldUpdateUser && isLoggedIn) {
 			await getCredentials()
 				.then((credentials) => {
 					if (!!credentials) {
-						updateUserInfo({
+						updateUser({
 							authToken: credentials.password,
 							userId: user.userId,
 							steamId: user.steamId,
 							subscription: user.subscription,
 							settings: user.settings,
-							userAvatar: user.userAvatar
-						});
-						updateUserData({
-							authToken: credentials.password,
-							userId: user.userId,
+							userAvatar: user.userAvatar,
 							data: {
 								skyrim: user.data.skyrim,
-								fallout4: user.data.fallout4
+								fallout4: user.data.fallout4,
+								witcher3: user.data.witcher3
 							}
 						});
 						saveUserAndLogin(user, false);
@@ -103,7 +100,8 @@ const useEditUserData = (): EditUserDataReturnType => {
 	}
 
 	return { 
-		saveUserAndLogin, 
+		saveUserAndLogin,
+		updateUserData,
 		removeUserData, 
 		loadUserData 
 	};

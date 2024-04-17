@@ -6,13 +6,13 @@ import useEditUserData from '@data/hooks/useEditUserData.native';
 const useTimedDataUpdate = () => {
 	const { user, shouldUpdateUser } = useMainState();
 	const { isLoggedIn } = useLoginState();
-	const { updateUser } = useEditUserData();
+	const { updateUserData } = useEditUserData();
 
 	useEffect(() => {
 		// Set up a timer to fetch data every 5 minutes (5 * 60 * 1000)
 		const timerId = setInterval(() => {
 			if (shouldUpdateUser && isLoggedIn) {
-				updateUser(user);
+				updateUserData(user);
 			}
 		}, 5 * 60 * 1000)
 

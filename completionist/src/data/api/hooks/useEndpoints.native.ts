@@ -9,8 +9,7 @@ import {
 	signupUrl,
 	signinUrl, 
 	getUserByUserIdUrl, 
-	updateUserInfoUrl,
-	updateUserDataUrl, 
+	updateUserUrl,
 	sendEmailUrl,
 	steamUserByIdUrl,
 	steamPlayerAchievementsUrl,
@@ -40,7 +39,6 @@ const useEndpoints = (): EndpointsReturnType => {
 	const { handleAxiosError } = useHandleAxiosError();
 
 	// TODO: Add translations
-	// TODO: Recombine updateUserInfo and updateUserData for less api calls
 	// TODO: Add axios caching https://www.npmjs.com/package/axios-cache-adapter
 	// TODO: Send email verification for user
 	// TODO: Initial game selection for google account sign up
@@ -148,31 +146,16 @@ const useEndpoints = (): EndpointsReturnType => {
 		}
 	};
 
-	const updateUserInfo = async ({ authToken, userId, steamId, subscription, settings, userAvatar }: UpdateUserInfoProps): Promise<UserResponse> => {
+	const updateUser = async ({ authToken, userId, steamId, subscription, settings, userAvatar, data }: UpdateUserProps): Promise<UserResponse> => {
 		try {
 			await axios.post(
-				`${url}/${updateUserInfoUrl}`,
+				`${url}/${updateUserUrl}`,
 				{
 					userId: userId,
 					steamId: steamId,
 					subscription: subscription,
 					settings: settings,
-					userAvatar: userAvatar
-				},
-				setAuthHeaders(authToken)
-			);
-		}
-		catch (error: AxiosErrorResponse) {
-			handleAxiosError(error.response.status);
-		}
-	};
-
-	const updateUserData = async ({ authToken, userId, data }: UpdateUserDataProps): Promise<UserResponse> => {
-		try {
-			await axios.post(
-				`${url}/${updateUserDataUrl}`,
-				{
-					userId: userId,
+					userAvatar: userAvatar,
 					data: data
 				},
 				setAuthHeaders(authToken)
@@ -183,16 +166,16 @@ const useEndpoints = (): EndpointsReturnType => {
 		}
 	};
 
-	const sendEmail = async ({ authToken, from, subject, text }: EmailProps): Promise<UserResponse> => {
+	const sendEmail = async ({ emailTo, subject, text }: EmailProps): Promise<void> => {
 		try {
 			await axios.post(
 				`${url}/${sendEmailUrl}`,
 				{
-					from: from,
+					emailTo: emailTo,
 					subject: subject,
 					text: text
 				},
-				setAuthHeaders(authToken)
+				// setAuthHeaders(authToken)
 			);
 		}
 		catch (error: AxiosErrorResponse) {
@@ -265,8 +248,7 @@ const useEndpoints = (): EndpointsReturnType => {
 		signIn, 
 		signUp, 
 		getUserByUserId,
-		updateUserInfo,
-		updateUserData,
+		updateUser,
 		sendEmail, 
 		getSteamUserById, 
 		getSteamPlayerAchievements,

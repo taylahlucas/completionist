@@ -3,6 +3,7 @@ import { LoginFormData } from '@utils/CustomInterfaces';
 
 export interface LoginState {
   readonly loginFormData: LoginFormData;
+	readonly verificationToken?: string;
   readonly isLoggedIn: boolean;
   readonly isSigningUp: boolean;
 };
@@ -27,6 +28,9 @@ const slice = createSlice({
     setLoginFormData: (state, action) => {
       state.loginFormData = action.payload;
     },
+		setVerificationToken: (state, action) => {
+			state.verificationToken = action.payload;
+		},
     setLoggedIn: (state, action) => {
       state.isLoggedIn = action.payload;
       state.isSigningUp = false;
@@ -39,6 +43,7 @@ const slice = createSlice({
 
 export const {
   setLoginFormData,
+	setVerificationToken,
   setLoggedIn,
   triggerIsSigningUp
 } = slice.actions;

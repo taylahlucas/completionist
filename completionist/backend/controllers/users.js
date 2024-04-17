@@ -38,7 +38,7 @@ const getUserByUserId = async (req, res) => {
 	}
 };
 
-const updateUserInfo = async (req, res) => {
+const updateUser = async (req, res) => {
 	const isAuthorized = await checkAuthToken(req);
 	if (isAuthorized) {
 		try {
@@ -47,35 +47,15 @@ const updateUserInfo = async (req, res) => {
 				userId: userId,
 				steamId: steamId,
 				subscription: subscription,
-				settings: settings
-			});
-			if (result.matchedCount > 0) {
-				console.log(`User info with ID ${userId} updated successfully`);
-				return res.status(request_codes.SUCCESS);
-			} else {
-				return res.status(request_codes.NOT_FOUND).json({ error: 'User not found' });
-			}
-		}
-		catch (error) {
-			return res.status(error.status).json(error.message);
-		}
-	}
-};
-
-const updateUserData = async (req, res) => {
-	const isAuthorized = await checkAuthToken(req);
-	if (isAuthorized) {
-		try {
-			const { userId, data } = req.body;
-			const result = await User.updateOne({
-				userId: userId,
+				settings: settings,
 				data: {
 					skyrim: data.skyrim,
-					fallout4: data.fallout4
+					fallout4: data.fallout4,
+					witcher3: data.witcher3
 				}
 			});
 			if (result.matchedCount > 0) {
-				console.log(`User data with ID ${userId} updated successfully`);
+				console.log(`User with ID ${userId} updated successfully`);
 				return res.status(request_codes.SUCCESS);
 			} else {
 				return res.status(request_codes.NOT_FOUND).json({ error: 'User not found' });
@@ -89,6 +69,5 @@ const updateUserData = async (req, res) => {
 
 module.exports = {
 	getUserByUserId,
-	updateUserInfo,
-	updateUserData
+	updateUser
 }

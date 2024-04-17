@@ -6,7 +6,7 @@ import SubscriptionOptionDescription from './SubscriptionOptionDescription.nativ
 import SubscriptionPriceList from './SubscriptionPriceList.native';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import useSubscriptionState from './hooks/useContentState';
-import SubscriptionSelectableItem from '../../general/SelectableItem/SelectableItem';
+import SubscriptionSelectableItem from '../../general/SelectableItem/SelectableItem.native';
 import useSubscriptionDispatch from './hooks/useContentDispatch';
 
 const SubscriptionOptionsList = () => {

@@ -7,7 +7,9 @@ import { Alert } from 'react-native';
 import useEditUserData from '@data/hooks/useEditUserData.native';
 import useMainState from '@redux/hooks/useMainState';
 import { SignInProps } from '@data/api/EndpointInterfaces.native';
-import { LoginFormData, User } from '@utils/CustomInterfaces';
+import { LoginFormData } from '@utils/CustomInterfaces';
+import useLoginDispatch from './useLoginDispatch';
+import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
 
 interface GoogleSignInError {
 	code: number;
@@ -15,6 +17,7 @@ interface GoogleSignInError {
 }
 
 interface GetLoginMethodsReturnType {
+	sendEmailVerification: (email: string) => Promise<void>;
 	checkUserAccount: ({ email, password }: SignInProps) => Promise<void>;
 	userSignIn: ({ email, password, googleId }: SignInProps) => Promise<void>;
 	createUser: (data: LoginFormData) => Promise<void>;
@@ -24,9 +27,31 @@ interface GetLoginMethodsReturnType {
 
 const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 	const { t } = useTranslation();
+	const navigation = useReactNavigation();
 	const { user } = useMainState();
-	const { updateUser, saveUserAndLogin, removeUserData } = useEditUserData();
-	const { checkUserExists, linkAndSignIn, signIn, signUp } = useEndpoints();
+	const { setVerificationToken } = useLoginDispatch();
+	const { updateUserData, saveUserAndLogin, removeUserData } = useEditUserData();
+	const { sendEmail, checkUserExists, linkAndSignIn, signIn, signUp } = useEndpoints();
+
+
+	const sendEmailVerification = async (email: string) => {
+		try {
+			// TODO: Algorithm to generate unique code
+			const generateUniqueCode = 'ANC234';
+			await sendEmail({
+				// TODO: Swap for completionist email
+				// TODO: Add to translations
+				emailTo: email,
+				subject: 'Verify your account',
+				text: `Hello,\nYou have recently created an account with Completionist.\nTo verify your account, please enter the following code in the application: ${generateUniqueCode}`
+			});
+			setVerificationToken(generateUniqueCode);
+			// navigation.navigate(ScreenEnum.)
+		}
+		catch (error: AxiosErrorResponse) {
+			console.log("Error sending verification email ", error.message)
+		}
+	};
 
 	const createUser = async (data: LoginFormData) => {
 		try {
@@ -153,7 +178,7 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 		try {
 			// TODO: Causing error
 			// await GoogleSignin.revokeAccess();
-			updateUser(user);
+			updateUserData(user);
 			removeUserData();
 			await GoogleSignin.signOut();
 			removeUserData();
@@ -162,7 +187,14 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 		}
 	};
 
-	return { checkUserAccount, userSignIn, createUser, googleUserSignIn, signOut }
+	return { 
+		sendEmailVerification, 
+		checkUserAccount, 
+		userSignIn, 
+		createUser, 
+		googleUserSignIn, 
+		signOut 
+	}
 };
 
 export default useGetLoginMethods;

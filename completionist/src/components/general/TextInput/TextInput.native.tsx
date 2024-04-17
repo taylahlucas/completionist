@@ -1,14 +1,13 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { NativeSyntheticEvent, TextInputChangeEventData, TextInputProps as RNTextInputProps } from 'react-native';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import { TextInputStyled, TextInputIcon } from './TextInputStyledComponents.native';
 import { TextInputContainer } from './TextInputStyledComponents.native';
 import Condition from '../Condition.native';
 import defaultStyle from '@styles/Font/FontStyle';
-import { TextInputStyleType, ValidatorType } from '@utils/CustomTypes';
+import { TextInputStyleType } from '@utils/CustomTypes';
 import useGetTextInputStyle from './hooks/useGetTextInputStyle.native';
 import { IconTypeEnum } from '@utils/CustomEnums';
-import useValidator from '@utils/hooks/useValidator';
 
 export interface TextInputProps extends RNTextInputProps {
   onChangeText: (value: string) => void;
@@ -27,10 +26,11 @@ const TextInput = ({
   ...props
 }: TextInputProps) => {
   const theme = useGetTheme();
-	const { testID, value, placeholder, multiline, secureTextEntry, inputMode } = props;
+	const { testID, value, placeholder, multiline, secureTextEntry, inputMode, maxLength } = props;
   const inputTypeStyle = useGetTextInputStyle(inputStyle)
   const [isSecure, setIsSecure] = useState(secureTextEntry ?? false);
 
+	// TODO: Test adding {...props}
   return (
     <TextInputContainer height={height} style={inputTypeStyle} multiline={multiline ?? false}>
       <Condition condition={!!leftComponent}>
@@ -41,13 +41,15 @@ const TextInput = ({
         color={theme.lightGrey}
         hasLeftComponent={!!leftComponent}
         style={defaultStyle['ListItemSubTitle']}
-        placeholder={placeholder}
+        // placeholder={placeholder}
         placeholderTextColor={theme.midGrey}
-        value={value}
+        // value={value}
         onChange={(event: NativeSyntheticEvent<TextInputChangeEventData>): void => onChangeText(event.nativeEvent.text ?? '')}
-        multiline={multiline ?? false}
+        // multiline={multiline ?? false}
         secureTextEntry={isSecure}
-				inputMode={inputMode}
+				// inputMode={inputMode}
+				// maxLength={maxLength}
+				{...props}
       />
       <Condition condition={secureTextEntry ?? false}>
         <TextInputIcon

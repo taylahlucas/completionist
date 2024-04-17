@@ -3,8 +3,7 @@ export const checkUserExistsUrl = 'api/exists';
 export const linkAndSignInUrl = 'api/link';
 export const signinUrl = 'api/signin';
 export const getUserByUserIdUrl = 'users'
-export const updateUserInfoUrl = 'users/update/info';
-export const updateUserDataUrl = 'users/update/data';
+export const updateUserUrl = 'users/update';
 export const sendEmailUrl = 'send_email/send';
 export const steamUserByIdUrl = 'https://api.steampowered.com/ISteamUserStats/GetUserStatsForGame/v0001/?appid=';
 export const steamPlayerAchievementsUrl = 'https://api.steampowered.com/ISteamUserStats/GetPlayerAchievements/v0001/?appid=';

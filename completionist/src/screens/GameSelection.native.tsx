@@ -5,6 +5,7 @@ import NavigationHeader from '@navigation/NavigationHeader.native';
 import useMainState from '@redux/hooks/useMainState';
 import CustomSearchBar from '@components/general/CustomSearchBar/CustomSearchBar.native';
 import { useTranslation } from 'react-i18next';
+import GameChangesLeft from '@components/custom/GameList/GameChangesLeft.native';
 
 const GameSelection = () => {
   const { t } = useTranslation();

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import SelectableItem from '@components/general/SelectableItem/SelectableItem';
+import SelectableItem from '@components/general/SelectableItem/SelectableItem.native';
 import StyledText from '@components/general/Text/StyledText.native';
 import useSubscriptionState from '../SubscriptionContent/hooks/useContentState';
 import useGetTheme from '@styles/hooks/useGetTheme';
