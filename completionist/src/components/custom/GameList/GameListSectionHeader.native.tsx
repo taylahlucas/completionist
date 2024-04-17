@@ -17,8 +17,8 @@ const GameListSectionHeader = ({ title, isOpen }: GameListSectionHeaderProps) =>
     <GameListItemHeaderContainer>
       <GameListItemHeaderTitleContainer>
         <StyledText 
-          type={'ListItemSubTitleBold'} 
-          align={'left'}
+          type='ListItemSubTitleBold'
+          align='left'
         >
           {title}
         </StyledText>

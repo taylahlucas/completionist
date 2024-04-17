@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import React, { useEffect } from 'react';
 import useGetSubscriptionOptionsList, { SubscriptionOptionsListProps } from './hooks/useGetSubscriptionOptionsList';
 import StyledText from '@components/general/Text/StyledText.native';
 import { SubscriptionOptionsContainer } from './SubscriptionContentStyledComponents.native';

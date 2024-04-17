@@ -1,10 +1,9 @@
-import { Dimensions, StyleSheet } from 'react-native';
+import { Animated, Dimensions, StyleSheet } from 'react-native';
 import styled from 'styled-components/native';
 import StyledText from '@components/general/Text/StyledText.native';
 import { DEFAULT_BORDER_RADIUS } from '@styles/global.native';
-import ScrollableList from './ScrollableList.native';
 import Button from '../Button/Button.native';
-import { LARGE_WIDTH } from '@styles/global.native';
+import { LARGE_WIDTH, STANDARD_WIDTH } from '@styles/global.native';
 
 export const listStyles = StyleSheet.create({
   scrollableContent: {
@@ -58,14 +57,14 @@ export const SubListContainer = styled.View`
   margin-top: 8px;
 `;
 
-export const ListItemContainer = styled.View<ListItemStyleProps>`
+export const ListItemContainer = styled(Animated.View)<ListItemStyleProps>`
   flex-direction: row;
   border-radius: ${DEFAULT_BORDER_RADIUS}px;
   margin-top: 8px;
   align-items: center;
   justify-content: space-between;
   min-height: 50px;
-  width: ${LARGE_WIDTH}px;
+  width: ${LARGE_WIDTH - 8}px;
   background-color: ${props => props.color};
 `;
 

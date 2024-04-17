@@ -1,15 +1,17 @@
 {
   "appTitle": "完美主义者。",
   "welcome": "欢迎",
+  "continue": "继续",
   "search": "搜索项目...",
   "showMore": "展示更多",
   "none": "没有任何",
   "main": "主要的",
+  "changesLeft": "剩下的变化： ",
   "active": "积极的",
   "inactive": "不活跃",
   "auth": {
     "email": "电子邮件",
-    "password": "密码",
+    "userpw": "密码",
     "username": "用户名",
     "forgotPassword": "忘记密码？",
     "login": "登录",
@@ -27,15 +29,23 @@
     "gameSelection": "游戏选择",
     "sendRequest": "发送请求",
     "subscriptions": "订阅",
+    "selectAGame": "选择游戏",
+    "addSteamId": "添加 Steam ID",
+    "steamAchievements": "Steam 成就",
     "payments": "支付",
-    "settings": "设置"
+    "settings": "设置",
+    "accountDetails": "帐户详细资料"
+  },
+  "selectGame": {
+    "selectGameDesc1": "使用免费帐户，您可以每月选择一款游戏进行跟踪。",
+    "selectGameDesc2": "在下面选择您的第一个游戏！",
+    "selectGameDesc3": "如果您犯了错误，请不要担心，您可以每月更改两次"
   },
   "subscriptions": {
-    "subscriptionDesc": "通过银牌或金牌订阅，\n",
+    "subscriptionDesc": "通过高级订阅，\n",
     "purchaseSubscription": "购买订阅",
-    "bronze": "青铜",
-    "silver": "银",
-    "gold": "金子",
+    "free": "自由的",
+    "premium": "优质的",
     "accessMultipleGames": "访问多个游戏",
     "noAds": "无广告",
     "withAds": "有广告",
@@ -65,13 +75,41 @@
     "enabledDLC": "启用/禁用 DLC：",
     "showHide": "显示隐藏：",
     "completedItems": "已完成项目",
-    "disabledSections": "残疾人部分"
+    "disabledSections": "残疾人部分",
+    "changeAccountDetails": "更改帐户详细信息",
+    "selectLanguage": "选择语言："
+  },
+  "accountDetails": {
+    "changeUsername": "更改用户名",
+    "changeEmail": "更改电子邮件",
+    "changePassword": "更改密码",
+    "updateDetails": "更新详情"
+  },
+  "steamAchievements": {
+    "addSteamIdStep1": "步骤 1. 查找并添加您的 Steam ID",
+    "addSteamIdDesc1": "要查找您的 Steam ID，请前往 Steam 并选择“查看个人资料”。",
+    "addSteamIdDesc2": "您可以在个人资料顶部找到该 ID。",
+    "addSteamIdStep2": "步骤 2. 更新您的隐私偏好",
+    "addSteamIdDesc3": "您还需要确保您的个人资料是公开的。",
+    "addSteamIdDesc4": "您可以通过前往 Steam 偏好设置 -> 隐私设置来执行此操作",
+    "steamIdPlaceholder": "蒸汽 ID"
   },
   "errors": {
-    "error": "错误",
-    "pleaseRefreshApp": "请刷新应用程序",
-    "noEmailExists": "电子邮件不存在",
-    "googleSignIn": "谷歌登录出错"
+		"error": "错误",
+		"pleaseRefreshApp": "请刷新应用程序",
+		"emailAlreadyExists": "电子邮件已经存在。",
+		"emailNotFound": "电子邮件找不到",
+		"noEmailExists": "电子邮件不存在",
+		"checkCredentials": "请检查您的凭据并重试。",
+		"incorrectPw": "密码错误。",
+		"googleSignIn": "Google 登录时出错"
+  },
+  "alerts": {
+    "activate": "启用",
+    "cancel": "取消",
+    "changesLeft": "你将会拥有 {{changesLeft}} 改变{{s}} 左边。",
+    "noChangesLeft": "没有留下任何变化",
+    "noChangesLeftMessage": "抱歉，本月您没有任何游戏更改。\n "
   },
   "languages": {
     "ar": "阿拉伯",

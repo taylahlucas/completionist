@@ -67,6 +67,7 @@ export type RootDrawerParamList = {
   RootStackNavigator: undefined;
   Landing: undefined;
   Login: undefined;
+	SelectFirstGame: undefined;
   GameSelection: undefined;
   Quests: undefined;
   Collectables: undefined;
@@ -77,6 +78,7 @@ export type RootDrawerParamList = {
   Subscriptions: undefined;
   Payments: undefined;
   Settings: undefined;
+	AccountDetails: undefined;
 };
 
 export interface NativeNavigation {
@@ -162,6 +164,7 @@ export interface GeneralData {
 export interface UserData {
   skyrim: GeneralData;
   fallout4: GeneralData;
+	witcher3: GeneralData;
 }
 
 export interface User extends LoginFormData {

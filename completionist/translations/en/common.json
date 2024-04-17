@@ -1,91 +1,129 @@
 {
-  "appTitle": "Completionist.",
-  "welcome": "Welcome",
-  "search": "Search items...",
-  "showMore": "Show more",
-  "none": "None",
-  "main": "Main",
-  "active": "ACTIVE",
-  "inactive": "INACTIVE",
-  "auth": {
-    "email": "Email",
-    "password": "Password",
-    "username": "Username",
-    "forgotPassword": "Forgot Password?",
-    "login": "Login",
-    "logout": "Logout",
-    "signUp": "Sign Up",
-    "createAccount": "Create Account",
-    "requestAccount": "Don't have an account?",
-    "backToLogin": "Back to Login"
-  },
-  "screens": {
-    "quests": "Quests",
-    "collectables": "Collectables",
-    "locations": "Locations",
-    "miscellaneous": "Miscellaneous",
-    "gameSelection": "Game Selection",
-    "sendRequest": "Send Request",
-    "subscriptions": "Subscriptions",
-	"payments": "Payment",
-    "settings": "Settings"
-  },
-  "subscriptions": {
-    "subscriptionDesc": "With a Silver or Gold subscription,\nyou will gain access to Premium Features such as:",
-    "purchaseSubscription": "Purchase Subscription",
-    "bronze": "Bronze",
-    "silver": "Silver",
-    "gold": "Gold",
-    "accessMultipleGames": "Access to multiple games",
-    "noAds": "No Ads",
-    "withAds": "With Ads",
-    "accessSteam": "Access steam achievements",
-    "prerequisiteTracking": "Automated prerequisite tracking",
-    "accessPremiumFeatures": "Access to Premium Features",
-    "accessOneGame": "Access to one game per month",
-    "accessFiveGames": "Access to five games per month",
-    "accessAllGames": "Access to all games",
-    "revokedAccess": "Revoked access to Features",
-    "monthly": "Monthly",
-    "yearly": "Yearly"
-  },
-  "payments": {
-	"selectPlan": "Select payment plan:",
-	"selectType": "Select payment type:",
-	"confirm": "Confirm Purchase"
-  },
-  "sendRequest": {
-    "subject": "Subject",
-    "writeRequest": "Write your request here...",
-    "requestGameDesc": "Feel free to request a game, report a bug or make some suggestions to improve the app!"
-  },
-  "settings": {
-    "description": "Feel free to request a game, report a bug or make some suggestions to improve the app!",
-    "setCollections": "Set collections:",
-    "enabledDLC": "Enable/Disable DLC:",
-    "showHide": "Show/Hide:",
-    "completedItems": "Completed Items",
-    "disabledSections": "Disabled Sections"
-  },
-  "errors": {
-    "error": "Error",
-    "pleaseRefreshApp": "Please refresh the app",
-    "noEmailExists": "Email does not exist",
-    "googleSignIn": "Error with google sign in"
-  },
-  "languages": {
-	"ar": "Arabic",
-	"de": "German",
-	"en": "English",
-	"es": "Spanish",
-	"fr": "French",
-	"hi": "Hindi",
-	"id": "Indonesian",
-	"it": "Italian",
-	"ja": "Japanese",
-	"pt": "Portuguese",
-	"tr": "Turkish",
-	"vi": "Vietnamese",
-	"zh": "Chinese"
-  }
+	"appTitle": "Completionist.",
+	"welcome": "Welcome",
+	"continue": "Continue",
+	"search": "Search items...",
+	"showMore": "Show more",
+	"none": "None",
+	"main": "Main",
+	"changesLeft": "CHANGES LEFT: ",
+	"active": "ACTIVE",
+	"inactive": "INACTIVE",
+	"auth": {
+		"email": "Email",
+		"userpw": "Password",
+		"username": "Username",
+		"forgotPassword": "Forgot Password?",
+		"login": "Login",
+		"logout": "Logout",
+		"signUp": "Sign Up",
+		"createAccount": "Create Account",
+		"requestAccount": "Don't have an account?",
+		"backToLogin": "Back to Login"
+	},
+	"screens": {
+		"quests": "Quests",
+		"collectables": "Collectables",
+		"locations": "Locations",
+		"miscellaneous": "Miscellaneous",
+		"gameSelection": "Game Selection",
+		"sendRequest": "Send Request",
+		"subscriptions": "Subscriptions",
+		"selectAGame": "Select a Game",
+		"addSteamId": "Add Steam ID",
+		"steamAchievements": "Steam Achievements",
+		"payments": "Payment",
+		"settings": "Settings",
+		"accountDetails": "Account Details"
+	},
+	"selectGame": {
+		"selectGameDesc1": "With a Free account, you can select one game per month to track.",
+		"selectGameDesc2": "Select your first game below!",
+		"selectGameDesc3": "Don't worry if you make a mistake, you'll be able to change this twice per month"
+	},
+	"subscriptions": {
+		"subscriptionDesc": "With a Premium subscription,\nyou will gain access to Premium Features such as:",
+		"purchaseSubscription": "Purchase Subscription",
+		"free": "Free",
+		"premium": "Premium",
+		"accessMultipleGames": "Access to multiple games",
+		"noAds": "No Ads",
+		"withAds": "With Ads",
+		"accessSteam": "Access steam achievements",
+		"prerequisiteTracking": "Automated prerequisite tracking",
+		"accessPremiumFeatures": "Access to Premium Features",
+		"accessOneGame": "Access to one game per month",
+		"accessFiveGames": "Access to five games per month",
+		"accessAllGames": "Access to all games",
+		"revokedAccess": "Revoked access to Features",
+		"monthly": "Monthly",
+		"yearly": "Yearly"
+	},
+	"payments": {
+		"selectPlan": "Select payment plan:",
+		"selectType": "Select payment type:",
+		"confirm": "Confirm Purchase"
+	},
+	"sendRequest": {
+		"subject": "Subject",
+		"writeRequest": "Write your request here...",
+		"requestGameDesc": "Feel free to request a game, report a bug or make some suggestions to improve the app!"
+	},
+	"settings": {
+		"description": "Feel free to request a game, report a bug or make some suggestions to improve the app!",
+		"setCollections": "Set collections:",
+		"enabledDLC": "Enable/Disable DLC:",
+		"showHide": "Show/Hide:",
+		"completedItems": "Completed Items",
+		"disabledSections": "Disabled Sections",
+		"changeAccountDetails": "Change Account Details",
+		"selectLanguage": "Select language:"
+	},
+	"accountDetails": {
+		"changeUsername": "Change Username",
+		"changeEmail": "Change Email",
+		"changePassword": "Change Password",
+		"updateDetails": "Update Details"
+	},
+	"steamAchievements": {
+		"addSteamIdStep1": "Step 1. Find and add your Steam ID",
+		"addSteamIdDesc1": "To find your steam ID, head to Steam and select 'View Profile'.",
+		"addSteamIdDesc2": "You can find the ID at the top of your profile. It will look like:",
+		"addSteamIdStep2": "Step 2. Update your privacy preferences",
+		"addSteamIdDesc3": "You will also need to ensure your profile is public.",
+		"addSteamIdDesc4": "You can do this by heading to Steam Prefences -> Privacy Settings",
+		"steamIdPlaceholder": "Steam ID"
+	},
+	"errors": {
+		"error": "Error",
+		"pleaseRefreshApp": "Please refresh the app",
+		"emailAlreadyExists": "Email already exists.",
+		"emailNotFound": "Email Not Found",
+		"noEmailExists": "Email does not exist",
+		"checkCredentials": "Please check your credentials and try again.",
+		"incorrectPw": "Incorrect password. Please try again.",
+		"googleSignIn": "Error with Google Sign In"
+	},
+	"alerts": {
+		"activate": "Activate",
+		"cancel": "Cancel",
+		"changesLeft": "You will have {{changesLeft}} change{{s}} left.",
+		"noChangesLeft": "No Changes Left",
+		"noChangesLeftMessage": "Sorry, you have no game changes left for this month.\n Please upgrade to a premium subscription, or wait until the 1st of next month."
+	},
+	"languages": {
+		"ar": "Arabic",
+		"de": "German",
+		"en": "English",
+		"es": "Spanish",
+		"fr": "French",
+		"hi": "Hindi",
+		"id": "Indonesian",
+		"it": "Italian",
+		"ja": "Japanese",
+		"pt": "Portuguese",
+		"tr": "Turkish",
+		"vi": "Vietnamese",
+		"zh": "Chinese"
+	}
 }

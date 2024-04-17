@@ -22,6 +22,8 @@ import useTranslateGameContent from '@utils/hooks/useTranslateGameContent.native
 import Subscriptions from '@screens/Subscriptions.native';
 import Payments from '@screens/Payments.native';
 import SteamAchievements from '@screens/SteamAchievements.native';
+import SelectFirstGame from '@screens/SelectFirstGame.native';
+import AccountDetails from '@screens/AccountDetails.native';
 
 const Drawer = createDrawerNavigator<RootDrawerParamList>();
 
@@ -35,7 +37,7 @@ const NavigationDrawer = () => {
 			<Condition condition={!!selectedGame}>
 				<NavigationDrawerContainer>
 					<StyledText
-						type={'Heading'}
+						type={'SubHeading'}
 						color={theme.lightGrey}>
 						{!!selectedGame ? translateGameName(selectedGame) : ''}
 					</StyledText>
@@ -45,8 +47,10 @@ const NavigationDrawer = () => {
 		);
 	};
 
+	// TODO: Move non-drawer screens to Stack.Screen navigator?
 	return (
 		<Drawer.Navigator
+			backBehavior='history'
 			drawerContent={(): JSX.Element => <NavigationDrawerContent />}
 			initialRouteName={ScreenEnum.RootStackNavigator}
 			screenOptions={{
@@ -60,6 +64,7 @@ const NavigationDrawer = () => {
 			<Drawer.Screen name={ScreenEnum.RootStackNavigator} component={RootStackNavigator} />
 			<Drawer.Screen name={ScreenEnum.Landing} component={Landing} />
 			<Drawer.Screen name={ScreenEnum.Login} component={Login} />
+			<Drawer.Screen name={ScreenEnum.SelectFirstGame} component={SelectFirstGame} />
 			<Drawer.Screen name={ScreenEnum.GameSelection} component={GameSelection} />
 			<Drawer.Screen name={ScreenEnum.Quests} component={Quests} />
 			<Drawer.Screen name={ScreenEnum.Collectables} component={Collectables} />
@@ -70,6 +75,7 @@ const NavigationDrawer = () => {
 			<Drawer.Screen name={ScreenEnum.Subscriptions} component={Subscriptions} />
 			<Drawer.Screen name={ScreenEnum.Payments} component={Payments} />
 			<Drawer.Screen name={ScreenEnum.Settings} component={Settings} />
+			<Drawer.Screen name={ScreenEnum.AccountDetails} component={AccountDetails} />
 		</Drawer.Navigator>
 	);
 };

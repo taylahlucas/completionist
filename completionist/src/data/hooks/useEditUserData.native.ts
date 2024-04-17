@@ -9,6 +9,7 @@ import useLoginDispatch from '@components/custom/LoginForm/hooks/useLoginDispatc
 import useEndpoints from '../api/hooks/useEndpoints.native';
 import useLoginState from '@components/custom/LoginForm/hooks/useLoginState';
 import useMainState from '@redux/hooks/useMainState';
+import { initialUser } from '@redux/MainState';
 
 interface EditUserDataReturnType {
 	loadUserData: () => void;
@@ -30,6 +31,7 @@ const useEditUserData = (): EditUserDataReturnType => {
 	const loadUserData = async () => {
 		const credentials = await getCredentials();
 
+		// Check if data is stored in cache, if not fetch from db and login
 		if (!!credentials) {
 			fetchUserFromCache(credentials.password)
 				.then((cachedData) => {
@@ -91,6 +93,7 @@ const useEditUserData = (): EditUserDataReturnType => {
 	}
 
 	const removeUserData = () => {
+		setUser(initialUser);
 		setLoginFormData(initialFormData);
 		clearCache();
 		deleteCredentials();
@@ -99,7 +102,11 @@ const useEditUserData = (): EditUserDataReturnType => {
 		navigation.dispatch(DrawerActions.closeDrawer());
 	}
 
-	return { saveUserAndLogin, removeUserData, updateUser, loadUserData };
+	return { 
+		saveUserAndLogin, 
+		removeUserData, 
+		loadUserData 
+	};
 };
 
 export default useEditUserData;

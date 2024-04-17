@@ -8,7 +8,7 @@ export interface SubscriptionState {
 
 export const initialState: SubscriptionState = {
     selectedSubscription: {
-		id: SubscriptionTypeEnum.BRONZE,
+		id: SubscriptionTypeEnum.FREE,
 		prices: [],
 		title: '',
 		description: []

@@ -1,15 +1,17 @@
 {
   "appTitle": "Penyelesaian.",
   "welcome": "Selamat datang",
+  "continue": "Melanjutkan",
   "search": "Cari item...",
   "showMore": "Menampilkan lebih banyak",
   "none": "Tidak ada",
   "main": "Utama",
+  "changesLeft": "PERUBAHAN KIRI: ",
   "active": "AKTIF",
   "inactive": "TIDAK AKTIF",
   "auth": {
     "email": "Surel",
-    "password": "Kata sandi",
+    "userpw": "Kata sandi",
     "username": "Nama belakang",
     "forgotPassword": "Tidak ingat kata sandi?",
     "login": "Gabung",
@@ -27,15 +29,23 @@
     "gameSelection": "Pemilihan Permainan",
     "sendRequest": "Kirim Permintaan",
     "subscriptions": "Langganan",
+    "selectAGame": "Pilih Permainan",
+    "addSteamId": "Tambahkan ID Uap",
+    "steamAchievements": "Prestasi Uap",
     "payments": "Pembayaran",
-    "settings": "Pengaturan"
+    "settings": "Pengaturan",
+    "accountDetails": "Detail akun"
+  },
+  "selectGame": {
+    "selectGameDesc1": "Dengan akun Gratis, Anda dapat memilih satu game per bulan untuk dilacak.",
+    "selectGameDesc2": "Pilih game pertama Anda di bawah ini!",
+    "selectGameDesc3": "Jangan khawatir jika Anda melakukan kesalahan, Anda dapat mengubahnya dua kali sebulan"
   },
   "subscriptions": {
-    "subscriptionDesc": "Dengan langganan Perak atau Emas,\n",
+    "subscriptionDesc": "Dengan berlangganan Premium,\n",
     "purchaseSubscription": "Langganan Pembelian",
-    "bronze": "Perunggu",
-    "silver": "Perak",
-    "gold": "Emas",
+    "free": "Bebas",
+    "premium": "Premium",
     "accessMultipleGames": "Akses ke banyak permainan",
     "noAds": "Tanpa iklan",
     "withAds": "Dengan Iklan",
@@ -65,13 +75,41 @@
     "enabledDLC": "Aktifkan/Nonaktifkan DLC:",
     "showHide": "Tunjukan Sembunyikan:",
     "completedItems": "Barang Selesai",
-    "disabledSections": "Bagian yang Dinonaktifkan"
+    "disabledSections": "Bagian yang Dinonaktifkan",
+    "changeAccountDetails": "Ubah Detail Akun",
+    "selectLanguage": "Pilih bahasa:"
+  },
+  "accountDetails": {
+    "changeUsername": "Ubah Nama Pengguna",
+    "changeEmail": "Ganti e-mail",
+    "changePassword": "Ganti kata sandi",
+    "updateDetails": "Perbarui Detail"
+  },
+  "steamAchievements": {
+    "addSteamIdStep1": "Langkah 1. Temukan dan tambahkan ID Steam Anda",
+    "addSteamIdDesc1": "Untuk menemukan ID steam Anda, buka Steam dan pilih 'Lihat Profil'.",
+    "addSteamIdDesc2": "Anda dapat menemukan ID di bagian atas profil Anda. ",
+    "addSteamIdStep2": "Langkah 2. Perbarui preferensi privasi Anda",
+    "addSteamIdDesc3": "Anda juga perlu memastikan profil Anda bersifat publik.",
+    "addSteamIdDesc4": "Anda dapat melakukan ini dengan menuju ke Steam Preferences -> Privacy Settings",
+    "steamIdPlaceholder": "ID Uap"
   },
   "errors": {
-    "error": "Kesalahan",
-    "pleaseRefreshApp": "Harap segarkan aplikasi",
-    "noEmailExists": "Emailnya tidak ada",
-    "googleSignIn": "Kesalahan saat masuk Google"
+		"error": "Kesalahan",
+		"pleaseRefreshApp": "Harap segarkan aplikasi",
+		"emailAlreadyExists": "Email sudah ada.",
+		"emailNotFound": "Email Tidak Ditemukan",
+		"noEmailExists": "Emailnya tidak ada",
+		"checkCredentials": "Silakan periksa kredensial Anda dan coba lagi.",
+		"incorrectPw": "Kata kunci Salah. ",
+		"googleSignIn": "Terjadi kesalahan saat Masuk dengan Google"
+  },
+  "alerts": {
+    "activate": "Mengaktifkan",
+    "cancel": "Membatalkan",
+    "changesLeft": "Anda akan memiliki {{changesLeft}} mengubah{{s}} kiri.",
+    "noChangesLeft": "Tidak Ada Perubahan Tersisa",
+    "noChangesLeftMessage": "Maaf, tidak ada perubahan permainan tersisa untuk bulan ini.\n "
   },
   "languages": {
     "ar": "Arab",

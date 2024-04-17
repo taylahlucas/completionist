@@ -43,7 +43,7 @@ const LoginFormSignInButtons = () => {
 				</Condition>
 				<Button
 					title={!isSigningUp ? t('common:auth.signUp') : t('common:auth.backToLogin')}
-					type={'text'}
+					type='text'
 					onPress={(): void => triggerIsSigningUp(!isSigningUp)}
 				/>
 			</LoginFormFooterContainer>

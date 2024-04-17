@@ -1,0 +1,2978 @@
+[
+  {
+    "id": "b1f85d8b-0c7d-4b08-8e2b-d0fedf1f89ac",
+    "title": "Villaggio abbandonato",
+    "mainCategory": "Principale",
+    "subCategory": "Frutteto Bianco",
+    "subCategoryType": "",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a9e1fffd-6397-4b78-942b-1462dcd3a7r9",
+    "title": "Rovine della fortezza di Amavet",
+    "mainCategory": "Principale",
+    "subCategory": "Frutteto Bianco",
+    "subCategoryType": "",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a8260ac7-1a13-4fb3-9cf8-204ee79e2q13",
+    "title": "Ponte Rotto",
+    "mainCategory": "Principale",
+    "subCategory": "Frutteto Bianco",
+    "subCategoryType": "",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "b29219f5-11e1-4xc2-b5ac-9fb825e5ecbd",
+    "title": "Ponte Ridacchiante",
+    "mainCategory": "Principale",
+    "subCategory": "Frutteto Bianco",
+    "subCategoryType": "",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a87d6978-c9fc-4ba6-8a41-722e2c527e3q",
+    "title": "Guado",
+    "mainCategory": "Principale",
+    "subCategory": "Frutteto Bianco",
+    "subCategoryType": "",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a50b8f95-11v8-4c6b-9a5f-5b647e3904f1",
+    "title": "Mulino",
+    "mainCategory": "Principale",
+    "subCategory": "Frutteto Bianco",
+    "subCategoryType": "",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "abfc015c-139e-4dbd-8c0a-3ef86406c2t3",
+    "title": "Guarnigione nilfgaardiana",
+    "mainCategory": "Principale",
+    "subCategory": "Frutteto Bianco",
+    "subCategoryType": "",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "ad53b6c3-b0f7-4bx2-b60c-23c387aa3f4e",
+    "title": "Villaggio saccheggiato",
+    "mainCategory": "Principale",
+    "subCategory": "Frutteto Bianco",
+    "subCategoryType": "",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "b41b6f03-d2c5-4a13-a20e-4f9c74d3c4db",
+    "title": "Segheria",
+    "mainCategory": "Principale",
+    "subCategory": "Frutteto Bianco",
+    "subCategoryType": "",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "af0c72d2-cb54-43bf-a86f-99c91a25db4a",
+    "title": "Cimitero del Frutteto Bianco",
+    "mainCategory": "Principale",
+    "subCategory": "Frutteto Bianco",
+    "subCategoryType": "",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "ad893c90-54d7-495e-a33d-5abeb070c62b",
+    "title": "Villaggio del Frutteto Bianco",
+    "mainCategory": "Principale",
+    "subCategory": "Frutteto Bianco",
+    "subCategoryType": "",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "ad545f54-6b21-4753-836f-ff373356593c",
+    "title": "Ponte Woesong",
+    "mainCategory": "Principale",
+    "subCategory": "Frutteto Bianco",
+    "subCategoryType": "",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "b1f85d8b-0c7d-4b08-8c2b-d0fe2f1f89ac",
+    "title": "Torre abbandonata",
+    "mainCategory": "Principale",
+    "subCategory": "Velen",
+    "subCategoryType": "Pesce persico del corvo",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a9e1fffd-6397-4b78-94yb-1462dcd3a799",
+    "title": "Ramo nero",
+    "mainCategory": "Principale",
+    "subCategory": "Velen",
+    "subCategoryType": "Pesce persico del corvo",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a8260ac7-1a13-4fb3-9cfq-204ee79e2f13",
+    "title": "Rovine bruciate",
+    "mainCategory": "Principale",
+    "subCategory": "Velen",
+    "subCategoryType": "Pesce persico del corvo",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "b29219fx-11e1-41c2-b5ac-9fb825e5ecbd",
+    "title": "Pesce persico del corvo",
+    "mainCategory": "Principale",
+    "subCategory": "Velen",
+    "subCategoryType": "Pesce persico del corvo",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a87d6978-c9fc-4ba6-8q41-722e2c527e33",
+    "title": "Terreno di alimentazione delle arpie",
+    "mainCategory": "Principale",
+    "subCategory": "Velen",
+    "subCategoryType": "Pesce persico del corvo",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a50b8f95-1188-4c6b-fa5f-5b647e3904f1",
+    "title": "Heatherton",
+    "mainCategory": "Principale",
+    "subCategory": "Velen",
+    "subCategoryType": "Pesce persico del corvo",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "abfc015c-139e-4dbd-8c0a-3ef86406c2ct",
+    "title": "Baracca isolata",
+    "mainCategory": "Principale",
+    "subCategory": "Velen",
+    "subCategoryType": "Pesce persico del corvo",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "ad53b6c3-b0f7-4b92-b60c-23x387aa3f4e",
+    "title": "Lornruk",
+    "mainCategory": "Principale",
+    "subCategory": "Velen",
+    "subCategoryType": "Pesce persico del corvo",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "b41b6f03-d2c5-4a13-a20f-4f9c74d3c4db",
+    "title": "Ponte dei Troll",
+    "mainCategory": "Principale",
+    "subCategory": "Velen",
+    "subCategoryType": "Pesce persico del corvo",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "af0c72d2-3b54-43bf-a86f-99c91a35db4a",
+    "title": "Radura dei Lupi",
+    "mainCategory": "Principale",
+    "subCategory": "Velen",
+    "subCategoryType": "Pesce persico del corvo",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "b1fc5d8b-0c7d-4b08-8e2b-d0fe2f1f89ac",
+    "title": "Posto di frontiera",
+    "mainCategory": "Principale",
+    "subCategory": "Velen",
+    "subCategoryType": "Grayrocks",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "b1f85d8b-0c7d-4b08-8e2b-d0fe2f1e89ac",
+    "title": "Quercia Antica",
+    "mainCategory": "Principale",
+    "subCategory": "Velen",
+    "subCategoryType": "Montagna Calva",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a9e1fffd-6397-4b78-942b-1462dcd3a795",
+    "title": "Montagna Calva",
+    "mainCategory": "Principale",
+    "subCategory": "Velen",
+    "subCategoryType": "Montagna Calva",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a8260ac7-1a13-4qb3-9cf8-204ee79e2f13",
+    "title": "Incrocio stradale",
+    "mainCategory": "Principale",
+    "subCategory": "Velen",
+    "subCategoryType": "Montagna Calva",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "b29249f5-11e1-41c2-b5ac-9fb825e5ecbd",
+    "title": "Bastione distrutto",
+    "mainCategory": "Principale",
+    "subCategory": "Velen",
+    "subCategoryType": "Montagna Calva",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a87dq978-c9fc-4ba6-8a41-722e2c527e33",
+    "title": "Strada per il Monte Calvo",
+    "mainCategory": "Principale",
+    "subCategory": "Velen",
+    "subCategoryType": "Montagna Calva",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a9e1fffd-6397-4b78-942b-1462dcd3a799",
+    "title": "Torre di guardia di Calveit",
+    "mainCategory": "Principale",
+    "subCategory": "Velen",
+    "subCategoryType": "Grayrocks",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a8260aq7-1a13-4fb3-9cf8-204ee79e2f13",
+    "title": "La cava dei programmatori",
+    "mainCategory": "Principale",
+    "subCategory": "Velen",
+    "subCategoryType": "Grayrocks",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "b29219f5-11e1-41c2-b54c-9fb825e5ecbd",
+    "title": "Fossa del diavolo",
+    "mainCategory": "Principale",
+    "subCategory": "Velen",
+    "subCategoryType": "Grayrocks",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a87d6978-c9fc-4ba6-8a41-q22e2c527e33",
+    "title": "Stazione dei traghetti",
+    "mainCategory": "Principale",
+    "subCategory": "Velen",
+    "subCategoryType": "Grayrocks",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a50b8f95-1188-4c6b-9a5f-5b647e39e4f1",
+    "title": "Porto di Fireburst",
+    "mainCategory": "Principale",
+    "subCategory": "Velen",
+    "subCategoryType": "Grayrocks",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "abfc015c-139e-4dbd-8c0t-3ef86406c2c3",
+    "title": "Isola di Halver",
+    "mainCategory": "Principale",
+    "subCategory": "Velen",
+    "subCategoryType": "Grayrocks",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "ad53b6c3-b0f7-4b92-b60c-23c387aa3x4e",
+    "title": "L'albero dell'impiccato",
+    "mainCategory": "Principale",
+    "subCategory": "Velen",
+    "subCategoryType": "Grayrocks",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "b41b6f03-d2c5-4a13-a20d-4f9c74d3c4db",
+    "title": "Supporto",
+    "mainCategory": "Principale",
+    "subCategory": "Velen",
+    "subCategoryType": "Grayrocks",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "af0c72d2-3c54-43bf-a86f-99c91a35db4a",
+    "title": "Mulbrydale",
+    "mainCategory": "Principale",
+    "subCategory": "Velen",
+    "subCategoryType": "Grayrocks",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "ad893d90-54d7-495e-a33d-5abeb070c62b",
+    "title": "Insediamento degli scalpellini",
+    "mainCategory": "Principale",
+    "subCategory": "Velen",
+    "subCategoryType": "Grayrocks",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "ad545f54-6b21-4753-836f-ff373c56593c",
+    "title": "Forte dell'Aquila Bianca",
+    "mainCategory": "Principale",
+    "subCategory": "Velen",
+    "subCategoryType": "Grayrocks",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "b1f85d8b-0c7d-4b08-8e2b-d0fe2f1fd9ac",
+    "title": "Downwarren",
+    "mainCategory": "Principale",
+    "subCategory": "Velen",
+    "subCategoryType": "Palude di Crookback",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a9e1effd-6397-4bc8-942b-1462dcd3a799",
+    "title": "La Grotta dell'Ammazzadraghi",
+    "mainCategory": "Principale",
+    "subCategory": "Velen",
+    "subCategoryType": "Palude di Crookback",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a8260ac7-1a13-4fb3-9cf8-204ee39e2f13",
+    "title": "Casa di tregua",
+    "mainCategory": "Principale",
+    "subCategory": "Velen",
+    "subCategoryType": "Palude di Crookback",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "b29219f5-11e1-41c2-b5ac-9fb825e5ecbd",
+    "title": "Kimbolt Way",
+    "mainCategory": "Principale",
+    "subCategory": "Velen",
+    "subCategoryType": "Palude di Crookback",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a87d6978-c9fc-4ba6-8a41-722e2c52qe33",
+    "title": "Accampamento \"Centro\" del Gruppo dell'Esercito Nilfgaardiano",
+    "mainCategory": "Principale",
+    "subCategory": "Velen",
+    "subCategoryType": "Palude di Crookback",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a50b8f95-1188-4c6b-9a5f-5b64ee3904f1",
+    "title": "Torre in rovina",
+    "mainCategory": "Principale",
+    "subCategory": "Velen",
+    "subCategoryType": "Palude di Crookback",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "abfc01tc-139e-4dbd-8c0a-3ef86406c2c3",
+    "title": "Gli orfani di Crookback Bog",
+    "mainCategory": "Principale",
+    "subCategory": "Velen",
+    "subCategoryType": "Palude di Crookback",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "b1f85d8b-0c7h-4b08-8e2b-d0fe2f1f89ac",
+    "title": "Il campo di Boris",
+    "mainCategory": "Principale",
+    "subCategory": "Velen",
+    "subCategoryType": "Aratro di fango",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "aee1ffffd-6397-4b78-942b-146cdcd3a799",
+    "title": "Locanda al bivio",
+    "mainCategory": "Principale",
+    "subCategory": "Velen",
+    "subCategoryType": "Aratro di fango",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "b1f85d8b-0c7d-4b08-8e2b-d0fe2fhf89ac",
+    "title": "Il vicolo dell'impiccato",
+    "mainCategory": "Principale",
+    "subCategory": "Velen",
+    "subCategoryType": "Il Bluff dello Spitfire",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a9e1cffd-6397-4b78-9422-1462dcd3a799",
+    "title": "Costa dei Relitti",
+    "mainCategory": "Principale",
+    "subCategory": "Velen",
+    "subCategoryType": "Il Bluff dello Spitfire",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a8260ac7-1313-4fb3-9cf8-204ee79e2f13",
+    "title": "Condilo",
+    "mainCategory": "Principale",
+    "subCategory": "Velen",
+    "subCategoryType": "Il Bluff dello Spitfire",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "b29c19f5-11e1-41c2-b5ac-9fb825e5ecbd",
+    "title": "Capanna della foresta",
+    "mainCategory": "Principale",
+    "subCategory": "Velen",
+    "subCategoryType": "Il Bluff dello Spitfire",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a87d6978-c9fc-4ba6-8a41-722e2c527e33",
+    "title": "La capanna di Keira Metz",
+    "mainCategory": "Principale",
+    "subCategory": "Velen",
+    "subCategoryType": "Il Bluff dello Spitfire",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a50b8f95-1188-4c6b-4a5f-5b647e3904f1",
+    "title": "Mezzobosco",
+    "mainCategory": "Principale",
+    "subCategory": "Velen",
+    "subCategoryType": "Il Bluff dello Spitfire",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "abft015c-139e-4dbd-8c0a-3ef86406c2c3",
+    "title": "Campo profughi",
+    "mainCategory": "Principale",
+    "subCategory": "Velen",
+    "subCategoryType": "Il Bluff dello Spitfire",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "b1f85h8b-0c7d-4b08-8e2b-d0fe2f1f89ac",
+    "title": "La discesa",
+    "mainCategory": "Principale",
+    "subCategory": "Velen",
+    "subCategoryType": "La discesa",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a9e1ffcd-6397-4b78-942b-1462dcd3a299",
+    "title": "Benek",
+    "mainCategory": "Principale",
+    "subCategory": "Velen",
+    "subCategoryType": "La discesa",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "acf60ac7-1a13-4fb3-9cf8-204ee79e2f13",
+    "title": "Isola degli uccelli",
+    "mainCategory": "Principale",
+    "subCategory": "Velen",
+    "subCategoryType": "La discesa",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "b29219f5-11e1-41c2-b5ac-9fb825c5ecbd",
+    "title": "Grotta",
+    "mainCategory": "Principale",
+    "subCategory": "Velen",
+    "subCategoryType": "La discesa",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a87z6978-c9fc-4ba6-8a41-722e2c527e33",
+    "title": "Lindenvale",
+    "mainCategory": "Principale",
+    "subCategory": "Velen",
+    "subCategoryType": "La discesa",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a50b8f95-1188-4c6b-9a5f-5b647e3904f1",
+    "title": "Lurtch",
+    "mainCategory": "Principale",
+    "subCategory": "Velen",
+    "subCategoryType": "La discesa",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "abfc015c-139e-4dbt-8c0a-3ef86406c2c3",
+    "title": "Ponte dei Predoni",
+    "mainCategory": "Principale",
+    "subCategory": "Velen",
+    "subCategoryType": "La discesa",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "ad53b6c3-b0f7-4b9c-b60c-23c387aa3f4e",
+    "title": "Mowshurst",
+    "mainCategory": "Principale",
+    "subCategory": "Velen",
+    "subCategoryType": "La discesa",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "b41b6f03-d2c5-4a13-a200-4f9c74d3f4db",
+    "title": "Maniero di Reardon",
+    "mainCategory": "Principale",
+    "subCategory": "Velen",
+    "subCategoryType": "La discesa",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "af0c72d2-3b54-43bf-a86f-99c91a35dbca",
+    "title": "Toderas",
+    "mainCategory": "Principale",
+    "subCategory": "Velen",
+    "subCategoryType": "La discesa",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "b1f85d8b-0c7d-4b08-8e2b-d0fe2f1f89a2",
+    "title": "L'astuzia dell'oca",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Poggio erboso",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a9e1fffd-6397-4b78-942b-146ddcd3a799",
+    "title": "Castello di Drahim",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Poggio erboso",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a8260ac7-1a13-4fc3-9cf8-204ee79e2f13",
+    "title": "Cappella del Fuoco Eterno",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Poggio erboso",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "b29219f5-11e1-41cc-b5ac-9fb825e5ecbd",
+    "title": "Faro",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Poggio erboso",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a87d6978-c9fc-4ba6-8a41-7z2e2c527e33",
+    "title": "Capanna dei taglialegna",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Poggio erboso",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a50b8f95-11c8-4c6b-9a5f-5b647e3904f1",
+    "title": "Il mulino a vento di Lucian",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Poggio erboso",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "abfc015c-139e-4dbd-8c0t-3ef86c06c2c3",
+    "title": "Accampamento commerciale degli Scoia'tael",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Poggio erboso",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "ad53b6c3-b0f7-4b92-b60c-23c387aa3f4e",
+    "title": "Ursten",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Poggio erboso",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "b41b6f03-d2c5-4a13-a200-4f9c74d3c4db",
+    "title": "Grotta delle vedove",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Poggio erboso",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "b1f85d8b-0c7d-4b08-8e3b-d0fe2f1f89ac",
+    "title": "Maniero abbandonato di Aeramas",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Campi di raffica",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a9e1cffd-6397-4b78-942b-1462dcd3aq99",
+    "title": "Alness",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Campi di raffica",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a8260ac7-1a13-4fb3-9cf8-204ee79eaf13",
+    "title": "Arette",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Campi di raffica",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "b29219f5-1ce1-41c2-b5ac-9fb825e5ecbd",
+    "title": "Colline di Buckholt",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Campi di raffica",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a87d6978-c9fc-4ba6-8a41-722e2c527e3z",
+    "title": "Carsten",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Campi di raffica",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a50b8f95-1188-4c6b-9a5f-5b64fe3904f1",
+    "title": "Caverna",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Campi di raffica",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "abfc015c-139e-4dbd-8c0a-3ef86406t2c3",
+    "title": "Incrocio stradale",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Campi di raffica",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "ad53b6c3-b0f7-4b92-b60c-23c387aa3fce",
+    "title": "Mulino a vento danzante",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Campi di raffica",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "b41b6f03-d2c5-4a13-a200-4f9c74d3cdcb",
+    "title": "Est Tayiar",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Campi di raffica",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "af0ce2d2-3b54-43bf-a86f-99c91a35db4a",
+    "title": "Fattoria Gustfields",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Campi di raffica",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "b41b6f03-d2c5-4a13-a200-4f9cd4d3c4db",
+    "title": "Capanna dell'erborista",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Campi di raffica",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "abfc015c-139e-4dbd-8c0a-3ef86406c2c3",
+    "title": "Honeyfill Meadworks",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Campi di raffica",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "b1f85d8b-037d-4b08-8e2b-d0fe2f1f89ac",
+    "title": "Capanna isolata",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Campi di raffica",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a9e1fffd-63q7-4b78-942b-1462dcd3a799",
+    "title": "La fattoria di Martin Feuille",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Campi di raffica",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a8260ac7-1a13-4fb3-9cf8-204ee79e2f1a",
+    "title": "Residenza Moldava",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Campi di raffica",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "b29219c5-11e1-41c2-b5ac-9fb825e5ecbd",
+    "title": "Grange Sarrasin",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Campi di raffica",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a8zd6978-c9fc-4ba6-8a41-722e2c527e33",
+    "title": "La locanda dei sette gatti",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Campi di raffica",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a50b8f95-1188-4c6b-9a5d-5b647e3904f1",
+    "title": "Nascondiglio partigiano temeriano",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Campi di raffica",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "abfc015c-139e-4dbd-8c0a-3efc6406c2c3",
+    "title": "Residenza Vegelbud",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Campi di raffica",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "ad53b6c3-b0f7-4b92-b60c-23cd87aa3f4e",
+    "title": "Campi di grano",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Campi di raffica",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "b41b6f03-d2c5-4c13-a200-4f9c74d3c4db",
+    "title": "Winespring Grange",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Campi di raffica",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "ae0c72d2-3b54-43bf-a86f-99c91a35db4a",
+    "title": "Yantra",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Campi di raffica",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "b1f85d3b-0c7d-4b08-8e2b-d0fe2f1f89ac",
+    "title": "Piazza degli Elettori",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Città di Cittanova",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a9eqfffd-6397-4b78-942b-1462dcd3a799",
+    "title": "Porta del Gerarca",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Città di Cittanova",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a8260aa7-1a13-4fb3-9cf8-204ee79e2f13",
+    "title": "Porta della Gloria",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Città di Cittanova",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "b29219f5-11e1-41c2-e5ac-9fb825e5ecbd",
+    "title": "Piazza del Gerarca",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Città di Cittanova",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a87d6978-c9fc-4be6-8a41-722e2c527e33",
+    "title": "Docks di Cittanova",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Città di Cittanova",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a50b8f95-1188-4c6b-9a5f-5b647e3d04f1",
+    "title": "Porta di porto",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Città di Cittanova",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "abfce15c-139e-4dbd-8c0a-3ef86406c2c3",
+    "title": "Porta Sud",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Città di Cittanova",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "ad53b6c3-b0f7-4b92-b60c-23c387da3f4e",
+    "title": "Ponte San Gregorio",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Città di Cittanova",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "b41bcf03-d2c5-4a13-a200-4f9c74d3c4db",
+    "title": "Porta Tretogor",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Città di Cittanova",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "af0c72d2-3b54-43bf-ae6f-99c91a35db4a",
+    "title": "Negozio del quartiere Gildorf",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Città di Cittanova",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "b1f85d8b-0c7d-4b08-8e2b-d0fe2f1f84ac",
+    "title": "Libri e pergamene",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Città di Cittanova",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a9e1ffqd-6397-4b78-942b-1462dcd3a799",
+    "title": "Il teatro del Cortile del Macellaio",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Città di Cittanova",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a8260ac7-1a1a-4fb3-9cf8-204ee79e2f13",
+    "title": "Quella di Kate paralizzata",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Città di Cittanova",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "b2921wf5-11e1-41c2-b5ac-9fb825e5ecbd",
+    "title": "Angoli lontani",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Città di Cittanova",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a87d6978-c9fc-4ba6-8a41-722e2w527e33",
+    "title": "Mercato del pesce",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Città di Cittanova",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a50b8f95-1188-4c6b-9a5f-5b647e3f04f1",
+    "title": "Fogne Gildorf",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Città di Cittanova",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "abfc015c-139e-4ded-8c0a-3ef86406c2c3",
+    "title": "Grande Tempio del Fuoco Eterno",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Città di Cittanova",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "ad53b6c3-b0f7-4b92-b60c-23d387aa3f4e",
+    "title": "Villa della Baronessa La Valette",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Città di Cittanova",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "b41bef03-d2c5-4a13-a200-4f9c74d3c4db",
+    "title": "La scuola per bambini di Marabella",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Città di Cittanova",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "af0c72d2-3be4-43bf-a86f-99c91a35db4a",
+    "title": "Obitorio di Cittanova",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Città di Cittanova",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "b1f85d8b-0c7d-4b08-8e2b-d0fe2f1f89a4",
+    "title": "Fogne di Cittanova",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Città di Cittanova",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a9e1fffd-6397-4b78-942b-1462dcd3aq99",
+    "title": "La casa di Rudolf de Jonkheer",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Città di Cittanova",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a8260ac7-1a13-4fb3-9cfz-204ee79e2f13",
+    "title": "Passiflora",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Città di Cittanova",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "b29219f5-11e1-41c2-b5ac-9fb825e5ecbw",
+    "title": "Negozio di Percival Schuttenbach (inaccessibile)",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Città di Cittanova",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a87dc978-c9fc-4wa6-8a41-722e2c527e33",
+    "title": "Boschetto putrido",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Città di Cittanova",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a50b8f95-1188-4c6b-9a5f-5b647e3904ff",
+    "title": "Rosmarino e Timo",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Città di Cittanova",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "abfc015c-139e-4dbd-8cra-3ef86406c2c3",
+    "title": "Stabilimento balneare di Sigismondo",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Città di Cittanova",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "ad53b6c3-b0f7-4b92-b60c-d3c387aa3f4e",
+    "title": "Lo storione d'oro",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Città di Cittanova",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "b41b6f03-d2c5-4a13-a200-4f9c74d3c4eb",
+    "title": "La locanda del Martin Pescatore",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Città di Cittanova",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "af0c72d2-3b54-43bf-a8ef-99c91a35db4a",
+    "title": "La locanda del nulla",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Città di Cittanova",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a50bcf95-1188-4c6b-9a5f-5b647e3904f1",
+    "title": "La casa di Triss",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Città di Cittanova",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "abcc015c-139e-4dbd-8c0a-3ef86406c2c3",
+    "title": "Var Attre Villa",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Città di Cittanova",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "ad53bqc3-b0f7-4b92-b60c-23c387aa3f4e",
+    "title": "Ospedale di Vilmerius",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Città di Cittanova",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "b41b6f03-d2c5-4a13-a200-4frc74d3c4db",
+    "title": "Il nascondiglio di Figlio di Puttana Junior",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Città di Cittanova",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "af0c72d2-3b54-43bf-a86f-99c91a3edb4a",
+    "title": "L'arena di Whoreson Junior",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Città di Cittanova",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "af0c72d2-3b54-43bf-a86f-99c91a35dbea",
+    "title": "Il casinò di Whoreson Junior",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Città di Cittanova",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "af0c72d2-3b54-z3bf-a86f-99c91a35db4a",
+    "title": "Avamposto della caserma dei cacciatori di streghe",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Città di Cittanova",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a9e1fffd-6397-4b78-942b-1462dcd31799",
+    "title": "L'Alchimia",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Oxenfurt",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a8260ac7-1a13-4fb3-9cf8-20zee79e2f13",
+    "title": "Barbiere",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Oxenfurt",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "b29219f5-11e1-41c2-b5ac-9fbw25e5ecbd",
+    "title": "Fratelli Borsodi'",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Oxenfurt",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a87d6978-c9fc-4ba6-8a41-722e2c527e3w",
+    "title": "Prigione di Deireadh",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Oxenfurt",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a50b8f95-1188-4ceb-9a5f-5b647e3904f1",
+    "title": "HMS Oxenfurt-Tretogor",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Oxenfurt",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "abfc015c-139e-4dbd-8c0a-3efv6406c2c3",
+    "title": "Porta di Novigrad",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Oxenfurt",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "ad53b6c3-b0f7-4b92-b60c-23c387ag3f4e",
+    "title": "Club degli scacchi di Oxenfurt",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Oxenfurt",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "b41b6f03-d2c5-4a13-a200-4f9c74d3c4dt",
+    "title": "Porto di Oxenfurt",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Oxenfurt",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "af0c72dz-3b54-43bf-a86f-99c91a35db4a",
+    "title": "Porta Occidentale",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Oxenfurt",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a5cb8f95-1188-4c6b-9a5f-5b647e3904f1",
+    "title": "La villa di Whoreson Junior",
+    "mainCategory": "Principale",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Oxenfurt",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "b1f45d8b-0c7d-4b08-8e2b-d0fe2f1f89ac",
+    "title": "Rovine del castello di Arnskrone",
+    "mainCategory": "Cuori Di Pietra",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Campi di raffica",
+    "dlc": "Cuori Di Pietra"
+  },
+  {
+    "id": "a9e1fffd-6197-4b78-942b-1462dcd3a799",
+    "title": "Fossa del Sangue Marciume",
+    "mainCategory": "Cuori Di Pietra",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Campi di raffica",
+    "dlc": "Cuori Di Pietra"
+  },
+  {
+    "id": "a8260ac7-1a13-4fb3-9cf8-204ee79e2f1z",
+    "title": "Bowdon",
+    "mainCategory": "Cuori Di Pietra",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Campi di raffica",
+    "dlc": "Cuori Di Pietra"
+  },
+  {
+    "id": "b29219f5-11e1-41c2-b5ac-9fb8x5e5ecbd",
+    "title": "Brunwich",
+    "mainCategory": "Cuori Di Pietra",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Campi di raffica",
+    "dlc": "Cuori Di Pietra"
+  },
+  {
+    "id": "a87d6978-c9fc-4ba6-8w41-722e2c527e33",
+    "title": "Capo della gru",
+    "mainCategory": "Cuori Di Pietra",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Campi di raffica",
+    "dlc": "Cuori Di Pietra"
+  },
+  {
+    "id": "a50b8f95-1188-4c6b-9a5f-5b647e39d4f1",
+    "title": "Avamposto di Draken Hollow",
+    "mainCategory": "Cuori Di Pietra",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Campi di raffica",
+    "dlc": "Cuori Di Pietra"
+  },
+  {
+    "id": "abfc015c-139e-4dbd-vc0a-3ef86406c2c3",
+    "title": "Erde",
+    "mainCategory": "Cuori Di Pietra",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Campi di raffica",
+    "dlc": "Cuori Di Pietra"
+  },
+  {
+    "id": "b4f85d8b-0c7d-4b08-8e2b-d0fe2f1f89ac",
+    "title": "Laboratorio Fisstech dei Cavalieri Caduti",
+    "mainCategory": "Cuori Di Pietra",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Campi di raffica",
+    "dlc": "Cuori Di Pietra"
+  },
+  {
+    "id": "a9e1fffd-6397-4b78-942b-1462dcd3a791",
+    "title": "Tenuta Garin",
+    "mainCategory": "Cuori Di Pietra",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Campi di raffica",
+    "dlc": "Cuori Di Pietra"
+  },
+  {
+    "id": "a8260ac7-1a13-4fb3-9cf8-204ee7ze2f13",
+    "title": "Heddel",
+    "mainCategory": "Cuori Di Pietra",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Campi di raffica",
+    "dlc": "Cuori Di Pietra"
+  },
+  {
+    "id": "b29219f5-11ex-41c2-b5ac-9fb825e5ecbd",
+    "title": "La casetta del cacciatore",
+    "mainCategory": "Cuori Di Pietra",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Campi di raffica",
+    "dlc": "Cuori Di Pietra"
+  },
+  {
+    "id": "a87d697c-c9fc-4ba6-8a41-7w2e2c527e33",
+    "title": "Rovine di Kilkerinn",
+    "mainCategory": "Cuori Di Pietra",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Campi di raffica",
+    "dlc": "Cuori Di Pietra"
+  },
+  {
+    "id": "a50b8f95-1188-4c6b-9a5f-5b647e3904c1",
+    "title": "La capanna del Maestro Topico",
+    "mainCategory": "Cuori Di Pietra",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Campi di raffica",
+    "dlc": "Cuori Di Pietra"
+  },
+  {
+    "id": "abfc015c-139e-vdbd-8c0a-3ef86406c2c3",
+    "title": "Villaggio Mohrin",
+    "mainCategory": "Cuori Di Pietra",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Campi di raffica",
+    "dlc": "Cuori Di Pietra"
+  },
+  {
+    "id": "ad53b6c3-b0f7-4f92-b60c-23c387aa3f4e",
+    "title": "Vecchia Cappella",
+    "mainCategory": "Cuori Di Pietra",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Campi di raffica",
+    "dlc": "Cuori Di Pietra"
+  },
+  {
+    "id": "b41b6f03-d2c5-4a13-a200-4f9g74d3c4db",
+    "title": "Mulino Superiore",
+    "mainCategory": "Cuori Di Pietra",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Campi di raffica",
+    "dlc": "Cuori Di Pietra"
+  },
+  {
+    "id": "af0c72d2-3b54-43bf-a86f-99z91a35db4a",
+    "title": "Tenuta Von Everec",
+    "mainCategory": "Cuori Di Pietra",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Campi di raffica",
+    "dlc": "Cuori Di Pietra"
+  },
+  {
+    "id": "a50b8f95-1188-4c6b-9a5f-5x647e3904f1",
+    "title": "Castello Zuetzer",
+    "mainCategory": "Cuori Di Pietra",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Campi di raffica",
+    "dlc": "Cuori Di Pietra"
+  },
+  {
+    "id": "b1f85d8b-0c7d-4b08-8e2b-d0f32f1f89ac",
+    "title": "Casa d'Aste dei Fratelli Borsodi",
+    "mainCategory": "Cuori Di Pietra",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Oxenfurt",
+    "dlc": "Cuori Di Pietra"
+  },
+  {
+    "id": "a9e1fffd-6397-4b78-942b-1462dcd1a799",
+    "title": "Accademia di Oxenfurt",
+    "mainCategory": "Cuori Di Pietra",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Oxenfurt",
+    "dlc": "Cuori Di Pietra"
+  },
+  {
+    "id": "a82z0ac7-1a13-4fb3-9cf8-204ee79e2f13",
+    "title": "Fogne di Oxenfurt",
+    "mainCategory": "Cuori Di Pietra",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Oxenfurt",
+    "dlc": "Cuori Di Pietra"
+  },
+  {
+    "id": "b292x9f5-11e1-41c2-b5ac-9fb825e5ecbd",
+    "title": "La casa di Shakeslock",
+    "mainCategory": "Cuori Di Pietra",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Oxenfurt",
+    "dlc": "Cuori Di Pietra"
+  },
+  {
+    "id": "a87d6e78-c9fc-4ba6-8a41-722e2c527e33",
+    "title": "La clinica di Shani",
+    "mainCategory": "Cuori Di Pietra",
+    "subCategory": "Cittanova",
+    "subCategoryType": "Oxenfurt",
+    "dlc": "Cuori Di Pietra"
+  },
+  {
+    "id": "b1f85d8b-0c7d-4b48-8e2b-d0fe2f1f89ac",
+    "title": "Baia dei venti",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Uno Skellig",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a9e1fffd-6397-4b78-942b-1461dcd3a799",
+    "title": "Sentiero per la Zanna di Yngvar",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Uno Skellig",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a826xac7-1a13-4fb3-9cf8-204ee79e2f13",
+    "title": "Porto di Urialla",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Uno Skellig",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "b29219f5-11e1-41c2-b5ac-9fbx25e5ecbd",
+    "title": "La Zanna di Yngvar",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Uno Skellig",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "b1f85d8b-0c7d-4b08-8e2b-dcfe2f1f89a4",
+    "title": "Segheria abbandonata",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a9e1fffd-6317-4b78-942b-1462dcd3a799",
+    "title": "Antica Cripta",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a8260ac7-1a13-4fb3-9cf8-204ee79e2fa3",
+    "title": "Arinbjorn",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "b29219f5-11x1-41c2-b5ac-9fb825e5ecbd",
+    "title": "Blandare",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a87w6978-c9fc-4ba6-8a41-722e2c527e33",
+    "title": "Boxholm",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a50b8f95-1188-4c6b-9a5f-5b647ex904f1",
+    "title": "Ponte verso Kaer Trolde",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "abfv015c-139e-4dbd-8c0a-3ef86406c2c3",
+    "title": "Incrocio stradale",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "ad53b6c3-b0g7-4b92-b60c-23c387aa3f4e",
+    "title": "Distilleria",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "b41b6f03-d2c5-4ag3-a200-4f9c74d3c4db",
+    "title": "Accampamento dei Druidi",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "af0c72d2-3b54-43zf-a86f-99c91a35db4a",
+    "title": "Faro di Eldberg",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a50b8f95-1188-4c6b-9a5f-5b647e390xf1",
+    "title": "Faro di Elverum",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a87d6978-c9fc-4bw6-8a41-722e2c527e33",
+    "title": "Fayrlund",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "b1f85d8b-0c7d-4b08-8e2b-d0fe2f1f89ac",
+    "title": "Segheria abbandonata",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a9e1f1fd-6397-4b78-942b-1462dcd3a799",
+    "title": "Antica Cripta",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a8260ac7-1a13-4fb3-9cf8-204ae79e2f13",
+    "title": "Arinbjorn",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "b29219f5-11e1-41c2-b5ac-9fb825e5xcbd",
+    "title": "Blandare",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a87d6978-c9fc-4ba6-8a41-7w2e2c527e33",
+    "title": "Boxholm",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a50b8f95-1x88-4c6b-9a5f-5b647e3904f1",
+    "title": "Ponte verso Kaer Trolde",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "abfc015c-139e-4dbd-8c02-3ef86406c2c3",
+    "title": "Incrocio stradale",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "ad53b6c3-b0f7-4b92-b60c-23c387aa3f4g",
+    "title": "Distilleria",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "b41b6f03-d2c5-4a13-a200-4g9c74d3c4db",
+    "title": "Accampamento dei Druidi",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "af0c72d2-zb54-43bf-a86f-99c91a35db4a",
+    "title": "Faro di Eldberg",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "ad53b6c3-b0f7-4q92-b60c-23c387aa3f4e",
+    "title": "Faro di Elverum",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "b41b6f03-d2c5-4a13-a200-4f9c7gd3c4db",
+    "title": "Fayrlund",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "b1f85d8b-0c7d-4bd8-8e2b-d0fe2f1f89ac",
+    "title": "Forte Etnir",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a9e1fffd-6397-4b78-942b-1462dcd3c799",
+    "title": "Forte Grymmdjarr",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a8260ac7-1a13-4fb3-9ca8-204ee79e2f13",
+    "title": "Fyresdal",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "b29219f5-11e1-41c2-b5ac-9fb825e5ecxd",
+    "title": "Gedyneith",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a87d6978-c9fc-4wa6-8a41-722e2c527e34",
+    "title": "Le dita dei giganti",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a50b8f95-118x-4c6b-9a5f-5b647e3904f1",
+    "title": "Grotta",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "abfc015c-139e-4dbd-8c0a-3ef8640622c3",
+    "title": "Monumento a Grymmdjarr",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "ad53b6c3-b0f7-4b92-b60q-23c387aa3f4e",
+    "title": "Henge",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "af0c72d2-3b54-43bf-a86f-99c91a25cb4a",
+    "title": "Il porto di Holmstein",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "ad53b6c3-b0f7-4b92-b60c-23c38qaa3f4e",
+    "title": "Kaer Dhu",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "b41b6f03-d2c5-4a1g-a200-4f9c74d3c4db",
+    "title": "Kaer Gelen",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "af0c72d2-3b54-43bf-a862-99c91a35db4a",
+    "title": "Kaer Muire",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "ad53bqc3-b0fc-4b92-b60c-23c387aa3f4e",
+    "title": "Kaer Nyssen",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "b41b6f0g-d2c5-4a13-a200-4f9c74d3c4db",
+    "title": "Cittadella di Kaer Trolde",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "af0c72d2-3254-43bf-a86f-99c91a35db4a",
+    "title": "Porto di Kaer Trolde",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "b1d85d8b-0c7d-4b08-8e2b-d0fe2f1f89ac",
+    "title": "Isola di Kvalheim",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a9e1fffd-6397-4b78-94fb-1462dcd3a799",
+    "title": "Campo dei minatori",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a8a60ac7-1a13-4fb3-9cf8-204ee79e2f13",
+    "title": "Palizzata",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "b29x19f5-11e1-41c2-b5ac-9fb825e5ecbd",
+    "title": "Rannvaig",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a87d6978-c9fc-4ba6-8a41-722e2c5w7e33",
+    "title": "Redgill",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a50b8f95-118v-4c6b-9a5f-5b647e3904f1",
+    "title": "Rogne",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "abfc015c-139e-4dbd-8c0a-vef86406c2c3",
+    "title": "Locanda in rovina",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "qd53b6c3-b0f7-4b92-b60c-23c387aa3f4e",
+    "title": "Segheria (an Craite)",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "af2c72d2-3b54-43bf-a86f-99c91a35db4a",
+    "title": "Segheria (Drummond)",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "ad53b6c3-b0f7-4b92-b6xc-23c387aa3f4e",
+    "title": "Domenica",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "b41g6f03-d2c5-4a1e-a200-4f9c74d3c4db",
+    "title": "Cimitero delle balene",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "af0c72d2-3b54-43bf-a82f-99c91a35db4a",
+    "title": "Riva selvaggia",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "ad53b6c3-b0f7-4b92-b60c-23c387aa3f4x",
+    "title": "La Grotta di Yustianna",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "5e038126-fc8a-4b05-9b8f-62e93d7243fd",
+    "title": "Harviken",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Faroe",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "d639d151-6c3e-428b-9e43-4d68b02c6e03",
+    "title": "Trottheim",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Faroe",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "1a19d20a-3f24-40d9-bfbe-4b7f9d6757c5",
+    "title": "Il giardino di Freya",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Hindarsfjall",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "be8f4d37-50da-49f4-9c72-5c7d80a06ff1",
+    "title": "Larvik",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Hindarsfjall",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "675586cd-226c-496d-bac8-e3f76f2df429",
+    "title": "Lofoten",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Hindarsfjall",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "991653a9-2ab3-4c78-a65a-b1cfd476a3a9",
+    "title": "Cimitero delle Lofoten",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Hindarsfjall",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "22c1df6b-6325-413e-8c91-7d2ac4c80ab5",
+    "title": "Lurthen",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Hindarsfjall",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "606d688d-d3aa-43d2-b6a5-0d1770f24a14",
+    "title": "Capanna isolata",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Hindarsfjall",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "0f0e2361-5249-4c4e-8ed7-dbf27f7a2f92",
+    "title": "Hov",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Spikeroog",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "3116f5f0-1ea1-4c0c-994d-cac32c36bd44",
+    "title": "Vecchia Torre di Guardia",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Spikeroog",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "25e07b6c-0147-4c52-bf09-65a3d1de7162",
+    "title": "Svorlag",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Spikeroog",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "4f0c0c65-34b2-4c9e-8e94-1a8a4dbf8e88",
+    "title": "Villaggio abbandonato",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Undvik",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "39f899aa-1912-48e3-9bd3-2460a8769c9d",
+    "title": "Forgia del Clan Tordarroch",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Undvik",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "8eb1d6c8-7357-4a16-81ed-f4fba11592a7",
+    "title": "Rovine di Dorve",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Undvik",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "90d45b94-877a-4f90-b34b-e43a1359ba64",
+    "title": "Punto del gabbiano",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Undvik",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "0a72b006-15b0-4ef1-aa5a-15957b9f98a7",
+    "title": "Costa Marlin",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Undvik",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "2180a3d9-1d94-4a9b-aeaa-6db789aa1e34",
+    "title": "Tor Gvalch'ca",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Undvik",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "b294d5f8-9c4a-42f9-b7e3-3f4b6fb25a5c",
+    "title": "Urskar",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Undvik",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "f2544ea9-3bf5-47a8-a2e9-c576635160fc",
+    "title": "Cantieri navali di Undvik",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Undvik",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a57c8e0d-6f4c-4d1b-9e2d-097ee3f5d321",
+    "title": "Isola di Snidhall",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Altro",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "b7c0c1c9-0a3b-4cc7-b6f1-3e7d6d0a9be1",
+    "title": "Isola di Tengelstrand",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Altro",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "671f8e4b-97a8-43c1-9b0d-96b8f8a0b662",
+    "title": "La costa di Pali Gap",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Altro",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "87ff8c8e-bb58-4b4d-872e-3bae43853e6e",
+    "title": "Isola Ingdalen",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Altro",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "e301e2ab-d23a-4c4d-b1a3-86e9cb9d68c4",
+    "title": "Il dito di Hemdall",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Altro",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "9f1f2fe3-6b85-4c5c-8c38-04b71dbaa2ae",
+    "title": "Isola di Nava",
+    "mainCategory": "Principale",
+    "subCategory": "Skellige",
+    "subCategoryType": "Altro",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "f3c33a93-9aa0-4b09-9e5d-8f05e2656a8e",
+    "title": "Bastione",
+    "mainCategory": "Principale",
+    "subCategory": "Valle di Kaer Morhen",
+    "subCategoryType": "",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "2349e824-b387-4859-a6b4-3e4b3c3891c2",
+    "title": "Cerchio degli elementi",
+    "mainCategory": "Principale",
+    "subCategory": "Valle di Kaer Morhen",
+    "subCategoryType": "",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "cd10ac5e-1463-4c97-8e0f-0b35e9ec82bb",
+    "title": "Miniera di ferro",
+    "mainCategory": "Principale",
+    "subCategory": "Valle di Kaer Morhen",
+    "subCategoryType": "",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "d72f1ed4-9a49-4ea8-92c8-796c52ea6d16",
+    "title": "Kaer Morhen",
+    "mainCategory": "Principale",
+    "subCategory": "Valle di Kaer Morhen",
+    "subCategoryType": "",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "183b5487-309a-4a61-a4d9-47c5f8a01165",
+    "title": "Capanna sul lago",
+    "mainCategory": "Principale",
+    "subCategory": "Valle di Kaer Morhen",
+    "subCategoryType": "",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "9d4fc9cb-1a0d-4e36-b086-30f6c7f07eb4",
+    "title": "La tomba di Leone",
+    "mainCategory": "Principale",
+    "subCategory": "Valle di Kaer Morhen",
+    "subCategoryType": "",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "df0f90d3-2e0d-4e45-a073-eb0a8c5f8e89",
+    "title": "Torre di guardia in rovina",
+    "mainCategory": "Principale",
+    "subCategory": "Valle di Kaer Morhen",
+    "subCategoryType": "",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "29a3870a-11c8-4b42-a8e6-56d134e9121b",
+    "title": "Deserto di Ddiddiwedht",
+    "mainCategory": "Principale",
+    "subCategory": "Altro",
+    "subCategoryType": "",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "0c493994-2e2e-404b-bbf6-1e0b952adff8",
+    "title": "Pianure di ghiaccio",
+    "mainCategory": "Principale",
+    "subCategory": "Altro",
+    "subCategoryType": "",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "97e0a16e-548c-4ddc-82e5-1e5b13ed4f6a",
+    "title": "Isola delle Nebbie",
+    "mainCategory": "Principale",
+    "subCategory": "Altro",
+    "subCategoryType": "",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "a0321a9c-5ebc-4291-a7e8-6f6c7e9c6820",
+    "title": "Tir ná Lia",
+    "mainCategory": "Principale",
+    "subCategory": "Altro",
+    "subCategoryType": "",
+    "dlc": "Nessuno"
+  },
+  {
+    "id": "b53e2a7b-c2f3-4d64-940e-3a52ee45e83d",
+    "title": "Il mondo di Gaunter O'Dimm",
+    "mainCategory": "Cuore di pietra",
+    "subCategory": "Altro",
+    "subCategoryType": "",
+    "dlc": "Cuore di pietra"
+  },
+  {
+    "id": "c480e1aa-89c2-4aa4-bbff-b3a8f1a0978a",
+    "title": "Il mondo dipinto",
+    "mainCategory": "Cuore di pietra",
+    "subCategory": "Altro",
+    "subCategoryType": "",
+    "dlc": "Cuore di pietra"
+  },
+  {
+    "id": "3e8f356d-73d5-4813-a4a5-fc50d98855e2",
+    "title": "La terra delle mille favole",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Altro",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "e58f29fd-462d-49bf-87b2-ecf97ecb17b8",
+    "title": "Il molo di Aronnax",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Beauclair",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "4a394ea5-7cd9-4eb5-8ac1-b5d3fcb8d2c9",
+    "title": "Palazzo Beauclair",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Beauclair",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "7499a29d-2414-4b6f-9377-6bc183c174bf",
+    "title": "Porto di Beauclair",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Beauclair",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "4f9c05b7-3d36-432c-831e-1c570b01c2b9",
+    "title": "Le Belle di Beauclair",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Beauclair",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "f62ddc89-1397-427d-b80c-387e902177f8",
+    "title": "Banca Cianfanelli",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Beauclair",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "8c465183-b6af-4467-87a8-8c4d8c3fb396",
+    "title": "La Taverna degli Zoccoli Intelligenti",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Beauclair",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "c39e553b-2a7b-47c7-ae0f-3320663eb34a",
+    "title": "Porta dei bottai",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Beauclair",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "2eeff8d3-c8d5-4144-b83d-507db46b191b",
+    "title": "Posto di guardia ducale",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Beauclair",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "d2d3a804-1a65-42c5-aef8-2db906b92a4c",
+    "title": "Piazza Epona",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Beauclair",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "f3d3c843-8bf3-4817-a4b9-c2b87d4c55a7",
+    "title": "La Gran Place",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Beauclair",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "9a520a62-49a7-41a1-af2d-ffaa3f2d7c6e",
+    "title": "Porta del porto",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Beauclair",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "aba183aa-d2fd-4a4c-b40e-46f792dfdc09",
+    "title": "Piazza dei Cavalieri Dormienti",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Beauclair",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "1e00c186-cc09-4a36-9014-dc76d798db12",
+    "title": "Orfanotrofio La Compassione",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Beauclair",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "6f12c40e-e006-47d7-badc-41f4d21d7ef7",
+    "title": "Porta di Lebioda",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Beauclair",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "6e769a91-ae15-4eb3-9d2f-2d0f09f8a684",
+    "title": "Piazza Lolivier",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Beauclair",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "c0d84ff4-cd72-4d57-b736-e46d4a89f22a",
+    "title": "Porta Metina",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Beauclair",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "2b8c7919-48c9-4a1b-b6fe-1f74eb8de4e8",
+    "title": "Ambasciata nilfgaardiana",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Beauclair",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "59c8c4e8-8c24-437e-8b47-7cda49e0c276",
+    "title": "La tenuta di Lady Orianna",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Beauclair",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "4cd55f23-15ae-46ce-af49-dc8a1e22455e",
+    "title": "Cimitero di Orlémurs",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Beauclair",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "e3345f21-6b06-42b2-8752-ba0e4d5f0129",
+    "title": "Giardini del palazzo",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Beauclair",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "652edc11-1315-4d04-a4b7-5bfa75c741bd",
+    "title": "La Fagianeria",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Beauclair",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "dccf527f-598e-4b7c-9c54-6db4d8e3b91c",
+    "title": "Collina del Roseto",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Beauclair",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "fc14d0b5-e8c3-4eab-a561-0a0b3466fbbf",
+    "title": "San Sebastiano",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Beauclair",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "4999741a-0485-4a36-a188-4a5a3a12b775",
+    "title": "Statua di Reginald d'Aubry",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Beauclair",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "e4b6d740-7f22-4a32-9d7b-168c5ef6665d",
+    "title": "Cimitero del tempio",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Beauclair",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "f173bb7d-9a38-42c7-87e3-fb4d328b309b",
+    "title": "Officina dei bottai abbandonata",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Bosco di Caroberta",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "e6071d9f-8f07-4c50-8187-c9b726b0184a",
+    "title": "Magazzino abbandonato",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Bosco di Caroberta",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "36ab18f8-8e1c-4f5d-9134-6660669a60d1",
+    "title": "Maniero di Belgaard",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Bosco di Caroberta",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "b155cd5c-5db3-4ad8-8d13-c6472a81d4e5",
+    "title": "Vigneto Belgaard",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Bosco di Caroberta",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "40b2173e-6db0-40cd-8c80-0e185c456ee7",
+    "title": "Tenuta Doren Alma",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Bosco di Caroberta",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "63b924f7-e5b2-4f77-a6ee-54831909e7c8",
+    "title": "Ponte levatoio",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Bosco di Caroberta",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "1082957e-97fb-439d-a90d-d963f6c1f4d5",
+    "title": "La grotta di Lebioda",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Bosco di Caroberta",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "c8b747b2-53ea-4938-9df2-e69344a2c365",
+    "title": "Rovine del Santuario degli Elfi",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Bosco di Caroberta",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "4e91efcf-bb87-4c7c-8a64-dde5c651feab",
+    "title": "Francollarts",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Bosco di Caroberta",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "a4ef55a5-9c9f-4d3f-a075-1db5f9237925",
+    "title": "Maso Gélenser",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Bosco di Caroberta",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "b40d9a9b-0717-44ed-9eae-f1f08aa1b62c",
+    "title": "Tenuta Hortense",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Bosco di Caroberta",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "0d3e47f4-808d-4bf3-9f42-9aa141f0d36b",
+    "title": "Vigneto Hortense",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Bosco di Caroberta",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "169e9f05-5b72-4f3d-97e6-ea40f14a1d7a",
+    "title": "Cimitero della Mère-Lachaiselongue",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Bosco di Caroberta",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "a0d6ebef-e611-44f4-94d1-887cc6df2f66",
+    "title": "Legnoscuro",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Bosco di Caroberta",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "2c01047c-48e2-4a8b-b485-0c76b81d4c43",
+    "title": "Rovine del Palazzo delle Terme",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Bosco di Caroberta",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "c89c1612-bad1-4169-932b-3b021fbbf90c",
+    "title": "Rovine di Tesham Mutna",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Bosco di Caroberta",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "3a4370f2-042b-41b1-80b2-51b3d3e8f505",
+    "title": "Campo Tilly",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Bosco di Caroberta",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "3a8e6c3c-839b-4711-9a0c-5b6e8872a146",
+    "title": "Rovine della tenuta di Trastamara",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Bosco di Caroberta",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "ef05fbb5-1936-4a8e-b36e-4b2c501bce50",
+    "title": "Cottage di caccia di Trastamara",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Bosco di Caroberta",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "a2d65011-3185-46f3-b034-6d172a2d7da3",
+    "title": "Cava Ardaiso",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Gli Champs-Désolés",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "8f6e122f-cc3d-4c79-9336-4b82c0ad724a",
+    "title": "Fattoria Basane",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Gli Champs-Désolés",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "a9161b15-03f7-4e0c-a5fb-303fed29d35f",
+    "title": "Foresta della Benedizione",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Gli Champs-Désolés",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "620af64a-1591-49b2-9259-381e6d13b30c",
+    "title": "Tenuta abbandonata di Casteldaccia",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Gli Champs-Désolés",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "5680facc-72a5-4e77-9d85-bc160f48dd53",
+    "title": "Rovine del tempio Danamebi",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Gli Champs-Désolés",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "cdb8d944-45a8-4d9e-9db1-0b81e13d44d3",
+    "title": "Passo Delenfer",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Gli Champs-Désolés",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "17ea8237-1a94-4dbf-8c7c-c5d45eeff1f8",
+    "title": "Rovine del forte Ussar",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Gli Champs-Désolés",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "3bdc2f82-2d6e-4f18-8b5d-c8f3d7f801a3",
+    "title": "Freinte Docks",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Gli Champs-Désolés",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "f3e4e6d1-2f47-4ac5-b2e5-63c9531b4b20",
+    "title": "Mare Aubrebis",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Gli Champs-Désolés",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "c7b246d1-1e4f-4344-98b7-b539b3b2b6f5",
+    "title": "Castello di Monte Gru",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Gli Champs-Désolés",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "a97fe54c-b4a1-4702-b119-3fc7a1545c9d",
+    "title": "Cimitero di Mont Crane",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Gli Champs-Désolés",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "d62d0310-c7ef-4b4d-a9f3-8b18c0057735",
+    "title": "Guai",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Gli Champs-Désolés",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "e3dbf3c1-634d-4cf3-b6b3-d1657bd3c7b7",
+    "title": "Castello di Dun Tynne",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Dun Tynne",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "5bb72f42-e6e9-44a1-8e2d-9d4f86ed3d54",
+    "title": "Incrocio di Dun Tynne",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Dun Tynne",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "cd4891e3-5e01-4f86-b5bb-3bb49f824e41",
+    "title": "Collina di Dun Tynne",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Dun Tynne",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "a96bc4f5-d82a-4c6a-b8ee-0567a9c22b4b",
+    "title": "Uliveto",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Dun Tynne",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "694ab1a3-2d33-41f0-850a-c9cf11c162ed",
+    "title": "Eremo di Pinastri",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Dun Tynne",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "c8499025-17d8-45c8-9a1a-2956ee5ea2b0",
+    "title": "Grotta di Alberto",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Colline della Gorgone",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "3d1c8b46-5e2a-4d68-a3a3-667ba327d0b7",
+    "title": "Rovine della prigione di Bastoy",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Colline della Gorgone",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "af1f3c86-5c7e-42a1-b0f2-95d017a48e6f",
+    "title": "Grotta Chuchote",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Colline della Gorgone",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "1a11e9e2-df4c-4d6f-8a01-6f7e1d0cbb0d",
+    "title": "Pendenza dei bottai",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Colline della Gorgone",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "c222b80c-46b7-4812-b8f8-56b0b005a0f5",
+    "title": "Maniero di Cutterin",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Colline della Gorgone",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "ecdc5b33-6a09-4f3b-950c-3d8773f4f37e",
+    "title": "Dantan Glade",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Colline della Gorgone",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "d7bca9aa-8827-40bb-8a85-7a029943e0e7",
+    "title": "Stemma Duchaton",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Colline della Gorgone",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "0e1673b1-16a2-4ae9-a3fe-056cc20bc523",
+    "title": "Rovine di Forte Astre",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Colline della Gorgone",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "60d92b52-7fb1-48b9-b45a-4bd1e5d2f3a9",
+    "title": "Cava della volpe",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Colline della Gorgone",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "5eb3c861-cd2c-46d4-af26-3eaef163dc6d",
+    "title": "Hen Gàidh",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Colline della Gorgone",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "c6c2ce38-9a4d-4da1-9d54-03a8a5517c5b",
+    "title": "Lago Celavy",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Colline della Gorgone",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "46eecc90-396c-4e2f-b7b1-431af2b0f1a0",
+    "title": "Rupe della Lince",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Colline della Gorgone",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "9a0b8a6c-4415-4cfb-aa52-3c8e5dd49318",
+    "title": "Approfondimento oscuro",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Colline della Gorgone",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "0f3b5d3f-b42b-4a04-b581-bc189b5a8820",
+    "title": "Pista Pavone",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Colline della Gorgone",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "6df9b6c2-3ec8-4e3a-9a0f-157cfed7da18",
+    "title": "Avamposto di Rioux-Cannes",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Colline della Gorgone",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "7d96a591-9b42-43a4-a24f-5fcf822df34f",
+    "title": "Seidhe Llygad",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Colline della Gorgone",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "9a68f56d-17c3-4184-a17a-d72a22d6623e",
+    "title": "Anfiteatro Seidhe Llygad",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Colline della Gorgone",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "8e9c0d3a-1785-4568-9fc8-7d474bba979d",
+    "title": "Grotte di Tulasens",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Colline della Gorgone",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "ddc16388-922c-4d1c-bc8f-8f9cf51c3da3",
+    "title": "La locanda della Cocatrice",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Palude di Sansretour",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "a2c06c84-6ec5-4b9b-89de-dc71f692a4f5",
+    "title": "Mulino del conte de la Croix",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Palude di Sansretour",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "38135164-5ac2-4ea4-a2e2-cd671065b07e",
+    "title": "Isola della Gru",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Palude di Sansretour",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "b64a69c1-3a8b-4959-9b34-50a8fb9aa5bf",
+    "title": "Flusso di filamenti",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Palude di Sansretour",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "fdf996c8-430a-4310-aef2-8b6a3988a408",
+    "title": "Flovive",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Palude di Sansretour",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "a94b0a43-94ce-4d8e-b13a-3f8e8d9d1bd4",
+    "title": "Foresta Marcescente",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Palude di Sansretour",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "8e74b73e-1731-4aa7-9bd7-09c27b4c906f",
+    "title": "Prigione di Toussaint",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Palude di Sansretour",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "bd45bf56-5d23-49b8-8162-1d3e7f50fe7c",
+    "title": "Vigneto del Tufo",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Palude di Sansretour",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "3c54ef95-f88f-4c7f-907d-6da44e33cf52",
+    "title": "Grotte dell'Occhio di Gufo",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Palude di Sansretour",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "334794ac-3c60-4822-a60a-2820d4b31c48",
+    "title": "Valle dei nove",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Palude di Sansretour",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "a3427fe0-2a1f-4fbb-bd50-417f94385741",
+    "title": "Tempio abbandonato al profeta Lebioda",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Valle di Sansretour",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "27f7d68c-06e7-4e44-bc2e-17d8cda0b1a5",
+    "title": "CastelRavello",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Valle di Sansretour",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "e31b2621-5e92-4311-8e4b-3d8c6d3d8b01",
+    "title": "Riva del Castagno",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Valle di Sansretour",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "a070d5e9-5d7c-4973-922f-3d0d3c6c22c4",
+    "title": "Coronata",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Valle di Sansretour",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "84245dcb-5903-4c34-8161-147245d0a265",
+    "title": "CorvoBianco",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Valle di Sansretour",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "ebdb45e2-23d8-40f8-89f2-951117bf5b59",
+    "title": "Mulino a vento Dulcinea",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Valle di Sansretour",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "ba85237e-2d18-4d52-a98a-1991fc8603a0",
+    "title": "Erbario forestale",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Valle di Sansretour",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "ecc940db-6f5a-4954-82d8-c72b03e63a29",
+    "title": "Quattro Mulini",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Valle di Sansretour",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "f9be7ce4-b0b5-4c82-a0e4-b1e5f36174c8",
+    "title": "Patrice Glade",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Valle di Sansretour",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "6b90c1ab-2c74-4c80-94b7-497e3aa71be6",
+    "title": "Attraversamento del fiume Pittapatte",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Valle di Sansretour",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "a70b75e4-d38a-4ec0-9900-21ff856b228e",
+    "title": "Ponte di Plegmund",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Valle di Sansretour",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "6bfb0953-17b4-4a86-88a2-ecf0d38f1323",
+    "title": "Statua del profeta Lebioda",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Valle di Sansretour",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "a7ab85de-bd45-4a1a-a5e2-e91f37ed3fc0",
+    "title": "Magazzino Rivecalme",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Valle di Sansretour",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "ccbb8df2-cff2-4b6d-a074-7cb32f5d9db2",
+    "title": "Postazione commerciale",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Valle di Sansretour",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "ad480a5a-52ac-4974-bd86-7c9a3e92e5d3",
+    "title": "Terreni del torneo",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Valle di Sansretour",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "0212a163-4307-41b3-8cfe-d172937d936b",
+    "title": "Ufficio delle Entrate di Toussaint",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Valle di Sansretour",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "152d02c4-3014-4080-9e90-44ea52dd7a27",
+    "title": "Vigneto del Vermentino",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Valle di Sansretour",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "1c57a5b5-2d4c-4d79-80c3-6a101fa49b3f",
+    "title": "Venin Rocce",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Valle di Sansretour",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "7e0e1a71-0f6e-4a6f-80d2-6ebfb7c16219",
+    "title": "Rovine del Palazzo Arthach",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Valle Vedette",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "f8c0a4ac-7d34-442d-af11-32ac10ed648c",
+    "title": "Fosse di Brume",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Valle Vedette",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "c010f1df-0dcd-4b2b-8189-dfb0c9c1f7e5",
+    "title": "La locanda della Salamandra d'Argento",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Valle Vedette",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  },
+  {
+    "id": "7c0f0844-b4a5-4a56-a39d-93e12206c1c2",
+    "title": "Villa Vedette",
+    "mainCategory": "Sangue E Vino",
+    "subCategory": "Valle Vedette",
+    "subCategoryType": "",
+    "dlc": "Sangue E Vino"
+  }
+]

@@ -1,0 +1,2978 @@
+[
+  {
+    "id": "b1f85d8b-0c7d-4b08-8e2b-d0fedf1f89ac",
+    "title": "Ngôi làng bỏ hoang",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Vườn Trắng",
+    "subCategoryType": "",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a9e1fffd-6397-4b78-942b-1462dcd3a7r9",
+    "title": "Tàn tích pháo đài Amavet",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Vườn Trắng",
+    "subCategoryType": "",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a8260ac7-1a13-4fb3-9cf8-204ee79e2q13",
+    "title": "Cầu gãy",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Vườn Trắng",
+    "subCategoryType": "",
+    "dlc": "Không có"
+  },
+  {
+    "id": "b29219f5-11e1-4xc2-b5ac-9fb825e5ecbd",
+    "title": "Cầu Cackler",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Vườn Trắng",
+    "subCategoryType": "",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a87d6978-c9fc-4ba6-8a41-722e2c527e3q",
+    "title": "Ford",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Vườn Trắng",
+    "subCategoryType": "",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a50b8f95-11v8-4c6b-9a5f-5b647e3904f1",
+    "title": "Cối xay",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Vườn Trắng",
+    "subCategoryType": "",
+    "dlc": "Không có"
+  },
+  {
+    "id": "abfc015c-139e-4dbd-8c0a-3ef86406c2t3",
+    "title": "Đồn trú của người Nilfgaard",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Vườn Trắng",
+    "subCategoryType": "",
+    "dlc": "Không có"
+  },
+  {
+    "id": "ad53b6c3-b0f7-4bx2-b60c-23c387aa3f4e",
+    "title": "Ngôi làng bị lục soát",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Vườn Trắng",
+    "subCategoryType": "",
+    "dlc": "Không có"
+  },
+  {
+    "id": "b41b6f03-d2c5-4a13-a20e-4f9c74d3c4db",
+    "title": "xưởng cưa",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Vườn Trắng",
+    "subCategoryType": "",
+    "dlc": "Không có"
+  },
+  {
+    "id": "af0c72d2-cb54-43bf-a86f-99c91a25db4a",
+    "title": "Nghĩa trang White Orchard",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Vườn Trắng",
+    "subCategoryType": "",
+    "dlc": "Không có"
+  },
+  {
+    "id": "ad893c90-54d7-495e-a33d-5abeb070c62b",
+    "title": "Làng Bạch Quả",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Vườn Trắng",
+    "subCategoryType": "",
+    "dlc": "Không có"
+  },
+  {
+    "id": "ad545f54-6b21-4753-836f-ff373356593c",
+    "title": "Cầu Woesong",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Vườn Trắng",
+    "subCategoryType": "",
+    "dlc": "Không có"
+  },
+  {
+    "id": "b1f85d8b-0c7d-4b08-8c2b-d0fe2f1f89ac",
+    "title": "Tháp bỏ hoang",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Velen",
+    "subCategoryType": "Cá rô quạ",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a9e1fffd-6397-4b78-94yb-1462dcd3a799",
+    "title": "cây đen",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Velen",
+    "subCategoryType": "Cá rô quạ",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a8260ac7-1a13-4fb3-9cfq-204ee79e2f13",
+    "title": "tàn tích bị đốt cháy",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Velen",
+    "subCategoryType": "Cá rô quạ",
+    "dlc": "Không có"
+  },
+  {
+    "id": "b29219fx-11e1-41c2-b5ac-9fb825e5ecbd",
+    "title": "Cá rô quạ",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Velen",
+    "subCategoryType": "Cá rô quạ",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a87d6978-c9fc-4ba6-8q41-722e2c527e33",
+    "title": "Khu nuôi dưỡng Harpy",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Velen",
+    "subCategoryType": "Cá rô quạ",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a50b8f95-1188-4c6b-fa5f-5b647e3904f1",
+    "title": "Heatherton",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Velen",
+    "subCategoryType": "Cá rô quạ",
+    "dlc": "Không có"
+  },
+  {
+    "id": "abfc015c-139e-4dbd-8c0a-3ef86406c2ct",
+    "title": "Lán biệt lập",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Velen",
+    "subCategoryType": "Cá rô quạ",
+    "dlc": "Không có"
+  },
+  {
+    "id": "ad53b6c3-b0f7-4b92-b60c-23x387aa3f4e",
+    "title": "Lornruk",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Velen",
+    "subCategoryType": "Cá rô quạ",
+    "dlc": "Không có"
+  },
+  {
+    "id": "b41b6f03-d2c5-4a13-a20f-4f9c74d3c4db",
+    "title": "Cầu Troll",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Velen",
+    "subCategoryType": "Cá rô quạ",
+    "dlc": "Không có"
+  },
+  {
+    "id": "af0c72d2-3b54-43bf-a86f-99c91a35db4a",
+    "title": "trảng sói",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Velen",
+    "subCategoryType": "Cá rô quạ",
+    "dlc": "Không có"
+  },
+  {
+    "id": "b1fc5d8b-0c7d-4b08-8e2b-d0fe2f1f89ac",
+    "title": "Trạm biên phòng",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Velen",
+    "subCategoryType": "đá xám",
+    "dlc": "Không có"
+  },
+  {
+    "id": "b1f85d8b-0c7d-4b08-8e2b-d0fe2f1e89ac",
+    "title": "Sồi cổ",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Velen",
+    "subCategoryType": "Núi Hói",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a9e1fffd-6397-4b78-942b-1462dcd3a795",
+    "title": "Núi Hói",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Velen",
+    "subCategoryType": "Núi Hói",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a8260ac7-1a13-4qb3-9cf8-204ee79e2f13",
+    "title": "Ngã Tư",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Velen",
+    "subCategoryType": "Núi Hói",
+    "dlc": "Không có"
+  },
+  {
+    "id": "b29249f5-11e1-41c2-b5ac-9fb825e5ecbd",
+    "title": "Pháo đài bị phá hủy",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Velen",
+    "subCategoryType": "Núi Hói",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a87dq978-c9fc-4ba6-8a41-722e2c527e33",
+    "title": "Đường lên núi Hói",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Velen",
+    "subCategoryType": "Núi Hói",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a9e1fffd-6397-4b78-942b-1462dcd3a799",
+    "title": "Tháp Canveit",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Velen",
+    "subCategoryType": "đá xám",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a8260aq7-1a13-4fb3-9cf8-204ee79e2f13",
+    "title": "Mỏ đá của Codgers",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Velen",
+    "subCategoryType": "đá xám",
+    "dlc": "Không có"
+  },
+  {
+    "id": "b29219f5-11e1-41c2-b54c-9fb825e5ecbd",
+    "title": "Hố quỷ",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Velen",
+    "subCategoryType": "đá xám",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a87d6978-c9fc-4ba6-8a41-q22e2c527e33",
+    "title": "Bến phà",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Velen",
+    "subCategoryType": "đá xám",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a50b8f95-1188-4c6b-9a5f-5b647e39e4f1",
+    "title": "Cảng bùng nổ",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Velen",
+    "subCategoryType": "đá xám",
+    "dlc": "Không có"
+  },
+  {
+    "id": "abfc015c-139e-4dbd-8c0t-3ef86406c2c3",
+    "title": "Đảo Halver",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Velen",
+    "subCategoryType": "đá xám",
+    "dlc": "Không có"
+  },
+  {
+    "id": "ad53b6c3-b0f7-4b92-b60c-23c387aa3x4e",
+    "title": "Cây Người Treo Cổ",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Velen",
+    "subCategoryType": "đá xám",
+    "dlc": "Không có"
+  },
+  {
+    "id": "b41b6f03-d2c5-4a13-a20d-4f9c74d3c4db",
+    "title": "chỗ dựa",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Velen",
+    "subCategoryType": "đá xám",
+    "dlc": "Không có"
+  },
+  {
+    "id": "af0c72d2-3c54-43bf-a86f-99c91a35db4a",
+    "title": "Mulbrydale",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Velen",
+    "subCategoryType": "đá xám",
+    "dlc": "Không có"
+  },
+  {
+    "id": "ad893d90-54d7-495e-a33d-5abeb070c62b",
+    "title": "Khu định cư của thợ cắt đá",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Velen",
+    "subCategoryType": "đá xám",
+    "dlc": "Không có"
+  },
+  {
+    "id": "ad545f54-6b21-4753-836f-ff373c56593c",
+    "title": "Pháo đài đại bàng trắng",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Velen",
+    "subCategoryType": "đá xám",
+    "dlc": "Không có"
+  },
+  {
+    "id": "b1f85d8b-0c7d-4b08-8e2b-d0fe2f1fd9ac",
+    "title": "Downwarren",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Velen",
+    "subCategoryType": "đầm lầy Crookback",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a9e1effd-6397-4bc8-942b-1462dcd3a799",
+    "title": "Hang động của kẻ giết rồng",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Velen",
+    "subCategoryType": "đầm lầy Crookback",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a8260ac7-1a13-4fb3-9cf8-204ee39e2f13",
+    "title": "Nhà nghỉ ngơi",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Velen",
+    "subCategoryType": "đầm lầy Crookback",
+    "dlc": "Không có"
+  },
+  {
+    "id": "b29219f5-11e1-41c2-b5ac-9fb825e5ecbd",
+    "title": "Đường Kimbolt",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Velen",
+    "subCategoryType": "đầm lầy Crookback",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a87d6978-c9fc-4ba6-8a41-722e2c52qe33",
+    "title": "Trại 'Trung tâm' của Tập đoàn quân Nilfgaardian",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Velen",
+    "subCategoryType": "đầm lầy Crookback",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a50b8f95-1188-4c6b-9a5f-5b64ee3904f1",
+    "title": "Tháp đổ nát",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Velen",
+    "subCategoryType": "đầm lầy Crookback",
+    "dlc": "Không có"
+  },
+  {
+    "id": "abfc01tc-139e-4dbd-8c0a-3ef86406c2c3",
+    "title": "Những đứa trẻ mồ côi ở Crookback Bog",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Velen",
+    "subCategoryType": "đầm lầy Crookback",
+    "dlc": "Không có"
+  },
+  {
+    "id": "b1f85d8b-0c7h-4b08-8e2b-d0fe2f1f89ac",
+    "title": "Trại của Boris",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Velen",
+    "subCategoryType": "máy cày bùn",
+    "dlc": "Không có"
+  },
+  {
+    "id": "aee1fffd-6397-4b78-942b-146cdcd3a799",
+    "title": "Quán trọ ở ngã tư",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Velen",
+    "subCategoryType": "máy cày bùn",
+    "dlc": "Không có"
+  },
+  {
+    "id": "b1f85d8b-0c7d-4b08-8e2b-d0fe2fhf89ac",
+    "title": "Ngõ Hangman",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Velen",
+    "subCategoryType": "Spitfire Bluff",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a9e1cffd-6397-4b78-9422-1462dcd3a799",
+    "title": "Bờ biển xác tàu",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Velen",
+    "subCategoryType": "Spitfire Bluff",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a8260ac7-1313-4fb3-9cf8-204ee79e2f13",
+    "title": "Khớp nối xương",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Velen",
+    "subCategoryType": "Spitfire Bluff",
+    "dlc": "Không có"
+  },
+  {
+    "id": "b29c19f5-11e1-41c2-b5ac-9fb825e5ecbd",
+    "title": "Túp lều rừng",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Velen",
+    "subCategoryType": "Spitfire Bluff",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a87d6978-c9fc-4ba6-8a41-722e2c527e33",
+    "title": "Túp lều của Keira Metz",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Velen",
+    "subCategoryType": "Spitfire Bluff",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a50b8f95-1188-4c6b-4a5f-5b647e3904f1",
+    "title": "cây giữa",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Velen",
+    "subCategoryType": "Spitfire Bluff",
+    "dlc": "Không có"
+  },
+  {
+    "id": "abft015c-139e-4dbd-8c0a-3ef86406c2c3",
+    "title": "Trại tị nạn",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Velen",
+    "subCategoryType": "Spitfire Bluff",
+    "dlc": "Không có"
+  },
+  {
+    "id": "b1f85h8b-0c7d-4b08-8e2b-d0fe2f1f89ac",
+    "title": "Hậu duệ",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Velen",
+    "subCategoryType": "Hậu duệ",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a9e1ffcd-6397-4b78-942b-1462dcd3a299",
+    "title": "Benek",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Velen",
+    "subCategoryType": "Hậu duệ",
+    "dlc": "Không có"
+  },
+  {
+    "id": "acf60ac7-1a13-4fb3-9cf8-204ee79e2f13",
+    "title": "Đảo chim",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Velen",
+    "subCategoryType": "Hậu duệ",
+    "dlc": "Không có"
+  },
+  {
+    "id": "b29219f5-11e1-41c2-b5ac-9fb825c5ecbd",
+    "title": "Hang",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Velen",
+    "subCategoryType": "Hậu duệ",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a87z6978-c9fc-4ba6-8a41-722e2c527e33",
+    "title": "Lindenvale",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Velen",
+    "subCategoryType": "Hậu duệ",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a50b8f95-1188-4c6b-9a5f-5b647e3904f1",
+    "title": "lắc lư",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Velen",
+    "subCategoryType": "Hậu duệ",
+    "dlc": "Không có"
+  },
+  {
+    "id": "abfc015c-139e-4dbt-8c0a-3ef86406c2c3",
+    "title": "Cầu Marauders",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Velen",
+    "subCategoryType": "Hậu duệ",
+    "dlc": "Không có"
+  },
+  {
+    "id": "ad53b6c3-b0f7-4b9c-b60c-23c387aa3f4e",
+    "title": "Mowshurst",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Velen",
+    "subCategoryType": "Hậu duệ",
+    "dlc": "Không có"
+  },
+  {
+    "id": "b41b6f03-d2c5-4a13-a200-4f9c74d3f4db",
+    "title": "Trang viên Reardon",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Velen",
+    "subCategoryType": "Hậu duệ",
+    "dlc": "Không có"
+  },
+  {
+    "id": "af0c72d2-3b54-43bf-a86f-99c91a35dbca",
+    "title": "Toderas",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Velen",
+    "subCategoryType": "Hậu duệ",
+    "dlc": "Không có"
+  },
+  {
+    "id": "b1f85d8b-0c7d-4b08-8e2b-d0fe2f1f89a2",
+    "title": "Cunny của ngỗng",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "gò cỏ",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a9e1fffd-6397-4b78-942b-146ddcd3a799",
+    "title": "Lâu đài Drahim",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "gò cỏ",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a8260ac7-1a13-4fc3-9cf8-204ee79e2f13",
+    "title": "Nhà nguyện lửa vĩnh cửu",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "gò cỏ",
+    "dlc": "Không có"
+  },
+  {
+    "id": "b29219f5-11e1-41cc-b5ac-9fb825e5ecbd",
+    "title": "Ngọn hải đăng",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "gò cỏ",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a87d6978-c9fc-4ba6-8a41-7z2e2c527e33",
+    "title": "Túp lều của người khai thác gỗ",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "gò cỏ",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a50b8f95-11c8-4c6b-9a5f-5b647e3904f1",
+    "title": "Cối xay gió của Lucian",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "gò cỏ",
+    "dlc": "Không có"
+  },
+  {
+    "id": "abfc015c-139e-4dbd-8c0t-3ef86c06c2c3",
+    "title": "Trại buôn bán Scoia'tael",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "gò cỏ",
+    "dlc": "Không có"
+  },
+  {
+    "id": "ad53b6c3-b0f7-4b92-b60c-23c387aa3f4e",
+    "title": "khẩn cấp",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "gò cỏ",
+    "dlc": "Không có"
+  },
+  {
+    "id": "b41b6f03-d2c5-4a13-a200-4f9c74d3c4db",
+    "title": "Hang động của góa phụ",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "gò cỏ",
+    "dlc": "Không có"
+  },
+  {
+    "id": "b1f85d8b-0c7d-4b08-8e3b-d0fe2f1f89ac",
+    "title": "Trang viên bỏ hoang của Aeramas",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "Gustfields",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a9e1cffd-6397-4b78-942b-1462dcd3aq99",
+    "title": "Alness",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "Gustfields",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a8260ac7-1a13-4fb3-9cf8-204ee79eaf13",
+    "title": "Arette",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "Gustfields",
+    "dlc": "Không có"
+  },
+  {
+    "id": "b29219f5-1ce1-41c2-b5ac-9fb825e5ecbd",
+    "title": "Đồi Buckholt",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "Gustfields",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a87d6978-c9fc-4ba6-8a41-722e2c527e3z",
+    "title": "Carsten",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "Gustfields",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a50b8f95-1188-4c6b-9a5f-5b64fe3904f1",
+    "title": "Hang động",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "Gustfields",
+    "dlc": "Không có"
+  },
+  {
+    "id": "abfc015c-139e-4dbd-8c0a-3ef86406t2c3",
+    "title": "Ngã Tư",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "Gustfields",
+    "dlc": "Không có"
+  },
+  {
+    "id": "ad53b6c3-b0f7-4b92-b60c-23c387aa3fce",
+    "title": "Cối xay gió nhảy múa",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "Gustfields",
+    "dlc": "Không có"
+  },
+  {
+    "id": "b41b6f03-d2c5-4a13-a200-4f9c74d3cdcb",
+    "title": "Est Tayiar",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "Gustfields",
+    "dlc": "Không có"
+  },
+  {
+    "id": "af0ce2d2-3b54-43bf-a86f-99c91a35db4a",
+    "title": "trang trại Gustfields",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "Gustfields",
+    "dlc": "Không có"
+  },
+  {
+    "id": "b41b6f03-d2c5-4a13-a200-4f9cd4d3c4db",
+    "title": "Túp lều thảo dược",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "Gustfields",
+    "dlc": "Không có"
+  },
+  {
+    "id": "abfc015c-139e-4dbd-8c0a-3ef86406c2c3",
+    "title": "Honeyfill Meadworks",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "Gustfields",
+    "dlc": "Không có"
+  },
+  {
+    "id": "b1f85d8b-037d-4b08-8e2b-d0fe2f1f89ac",
+    "title": "Túp lều biệt lập",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "Gustfields",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a9e1fffd-63q7-4b78-942b-1462dcd3a799",
+    "title": "Trang trại của Martin Feuille",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "Gustfields",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a8260ac7-1a13-4fb3-9cf8-204ee79e2f1a",
+    "title": "Khu dân cư Moldavie",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "Gustfields",
+    "dlc": "Không có"
+  },
+  {
+    "id": "b29219c5-11e1-41c2-b5ac-9fb825e5ecbd",
+    "title": "Grange Sarrasin",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "Gustfields",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a8zd6978-c9fc-4ba6-8a41-722e2c527e33",
+    "title": "Nhà trọ bảy con mèo",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "Gustfields",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a50b8f95-1188-4c6b-9a5d-5b647e3904f1",
+    "title": "Nơi ẩn náu của đảng phái Temerian",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "Gustfields",
+    "dlc": "Không có"
+  },
+  {
+    "id": "abfc015c-139e-4dbd-8c0a-3efc6406c2c3",
+    "title": "Khu dân cư Vegelbud",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "Gustfields",
+    "dlc": "Không có"
+  },
+  {
+    "id": "ad53b6c3-b0f7-4b92-b60c-23cd87aa3f4e",
+    "title": "Cánh đồng lúa mì",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "Gustfields",
+    "dlc": "Không có"
+  },
+  {
+    "id": "b41b6f03-d2c5-4c13-a200-4f9c74d3c4db",
+    "title": "Grange Rượu Vang",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "Gustfields",
+    "dlc": "Không có"
+  },
+  {
+    "id": "ae0c72d2-3b54-43bf-a86f-99c91a35db4a",
+    "title": "Yantra",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "Gustfields",
+    "dlc": "Không có"
+  },
+  {
+    "id": "b1f85d3b-0c7d-4b08-8e2b-d0fe2f1f89ac",
+    "title": "Quảng trường cử tri",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "thành phố Novigrad",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a9eqfffd-6397-4b78-942b-1462dcd3a799",
+    "title": "Cổng của thứ bậc",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "thành phố Novigrad",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a8260aa7-1a13-4fb3-9cf8-204ee79e2f13",
+    "title": "Cổng vinh quang",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "thành phố Novigrad",
+    "dlc": "Không có"
+  },
+  {
+    "id": "b29219f5-11e1-41c2-e5ac-9fb825e5ecbd",
+    "title": "Quảng trường thứ bậc",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "thành phố Novigrad",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a87d6978-c9fc-4be6-8a41-722e2c527e33",
+    "title": "Bến tàu Novigrad",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "thành phố Novigrad",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a50b8f95-1188-4c6b-9a5f-5b647e3d04f1",
+    "title": "Cổng bến cảng",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "thành phố Novigrad",
+    "dlc": "Không có"
+  },
+  {
+    "id": "abfce15c-139e-4dbd-8c0a-3ef86406c2c3",
+    "title": "Cổng phía Nam",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "thành phố Novigrad",
+    "dlc": "Không có"
+  },
+  {
+    "id": "ad53b6c3-b0f7-4b92-b60c-23c387da3f4e",
+    "title": "Cầu Thánh Gregory",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "thành phố Novigrad",
+    "dlc": "Không có"
+  },
+  {
+    "id": "b41bcf03-d2c5-4a13-a200-4f9c74d3c4db",
+    "title": "Cổng Tretogor",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "thành phố Novigrad",
+    "dlc": "Không có"
+  },
+  {
+    "id": "af0c72d2-3b54-43bf-ae6f-99c91a35db4a",
+    "title": "Cửa hàng quận Gildorf",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "thành phố Novigrad",
+    "dlc": "Không có"
+  },
+  {
+    "id": "b1f85d8b-0c7d-4b08-8e2b-d0fe2f1f84ac",
+    "title": "Sách và cuộn",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "thành phố Novigrad",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a9e1ffqd-6397-4b78-942b-1462dcd3a799",
+    "title": "Nhà hát Butcher's Yard",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "thành phố Novigrad",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a8260ac7-1a1a-4fb3-9cf8-204ee79e2f13",
+    "title": "Kate bị tê liệt",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "thành phố Novigrad",
+    "dlc": "Không có"
+  },
+  {
+    "id": "b2921wf5-11e1-41c2-b5ac-9fb825e5ecbd",
+    "title": "Farcorners",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "thành phố Novigrad",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a87d6978-c9fc-4ba6-8a41-722e2w527e33",
+    "title": "Chợ cá",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "thành phố Novigrad",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a50b8f95-1188-4c6b-9a5f-5b647e3f04f1",
+    "title": "cống Gildorf",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "thành phố Novigrad",
+    "dlc": "Không có"
+  },
+  {
+    "id": "abfc015c-139e-4ded-8c0a-3ef86406c2c3",
+    "title": "Ngôi đền vĩ đại của ngọn lửa vĩnh cửu",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "thành phố Novigrad",
+    "dlc": "Không có"
+  },
+  {
+    "id": "ad53b6c3-b0f7-4b92-b60c-23d387aa3f4e",
+    "title": "Biệt thự của Nam tước la Valette",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "thành phố Novigrad",
+    "dlc": "Không có"
+  },
+  {
+    "id": "b41bef03-d2c5-4a13-a200-4f9c74d3c4db",
+    "title": "Trường dành cho trẻ em Marabella",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "thành phố Novigrad",
+    "dlc": "Không có"
+  },
+  {
+    "id": "af0c72d2-3be4-43bf-a86f-99c91a35db4a",
+    "title": "Nhà xác Novigrad",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "thành phố Novigrad",
+    "dlc": "Không có"
+  },
+  {
+    "id": "b1f85d8b-0c7d-4b08-8e2b-d0fe2f1f89a4",
+    "title": "cống thoát nước Novigrad",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "thành phố Novigrad",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a9e1fffd-6397-4b78-942b-1462dcd3aq99",
+    "title": "Nhà của Rudolf de Jonkheer",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "thành phố Novigrad",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a8260ac7-1a13-4fb3-9cfz-204ee79e2f13",
+    "title": "Passiflora",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "thành phố Novigrad",
+    "dlc": "Không có"
+  },
+  {
+    "id": "b29219f5-11e1-41c2-b5ac-9fb825e5ecbw",
+    "title": "Cửa hàng Percival Schuttenbach (không thể truy cập)",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "thành phố Novigrad",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a87dc978-c9fc-4wa6-8a41-722e2c527e33",
+    "title": "Rừng thối",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "thành phố Novigrad",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a50b8f95-1188-4c6b-9a5f-5b647e3904ff",
+    "title": "Hương thảo và húng tây",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "thành phố Novigrad",
+    "dlc": "Không có"
+  },
+  {
+    "id": "abfc015c-139e-4dbd-8cra-3ef86406c2c3",
+    "title": "Nhà tắm Sigismund",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "thành phố Novigrad",
+    "dlc": "Không có"
+  },
+  {
+    "id": "ad53b6c3-b0f7-4b92-b60c-d3c387aa3f4e",
+    "title": "Cá tầm vàng",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "thành phố Novigrad",
+    "dlc": "Không có"
+  },
+  {
+    "id": "b41b6f03-d2c5-4a13-a200-4f9c74d3c4eb",
+    "title": "Nhà trọ bói cá",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "thành phố Novigrad",
+    "dlc": "Không có"
+  },
+  {
+    "id": "af0c72d2-3b54-43bf-a8ef-99c91a35db4a",
+    "title": "Nhà trọ hư không",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "thành phố Novigrad",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a50bcf95-1188-4c6b-9a5f-5b647e3904f1",
+    "title": "Nhà của Triss",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "thành phố Novigrad",
+    "dlc": "Không có"
+  },
+  {
+    "id": "abcc015c-139e-4dbd-8c0a-3ef86406c2c3",
+    "title": "Biệt thự Var Attre",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "thành phố Novigrad",
+    "dlc": "Không có"
+  },
+  {
+    "id": "ad53bqc3-b0f7-4b92-b60c-23c387aa3f4e",
+    "title": "Bệnh viện Vilmerius",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "thành phố Novigrad",
+    "dlc": "Không có"
+  },
+  {
+    "id": "b41b6f03-d2c5-4a13-a200-4frc74d3c4db",
+    "title": "Nơi ẩn náu của Whoreson Junior",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "thành phố Novigrad",
+    "dlc": "Không có"
+  },
+  {
+    "id": "af0c72d2-3b54-43bf-a86f-99c91a3edb4a",
+    "title": "Đấu trường của Whoreson Junior",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "thành phố Novigrad",
+    "dlc": "Không có"
+  },
+  {
+    "id": "af0c72d2-3b54-43bf-a86f-99c91a35dbea",
+    "title": "Sòng bạc của Whoreson Junior",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "thành phố Novigrad",
+    "dlc": "Không có"
+  },
+  {
+    "id": "af0c72d2-3b54-z3bf-a86f-99c91a35db4a",
+    "title": "Tiền đồn doanh trại thợ săn phù thủy",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "thành phố Novigrad",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a9e1fffd-6397-4b78-942b-1462dcd31799",
+    "title": "giả kim thuật",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "Oxenfurt",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a8260ac7-1a13-4fb3-9cf8-20zee79e2f13",
+    "title": "thợ hớt tóc",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "Oxenfurt",
+    "dlc": "Không có"
+  },
+  {
+    "id": "b29219f5-11e1-41c2-b5ac-9fbw25e5ecbd",
+    "title": "Anh em nhà Borsodi",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "Oxenfurt",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a87d6978-c9fc-4ba6-8a41-722e2c527e3w",
+    "title": "nhà tù Deireadh",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "Oxenfurt",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a50b8f95-1188-4ceb-9a5f-5b647e3904f1",
+    "title": "HMS Oxenfurt-Tretogor",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "Oxenfurt",
+    "dlc": "Không có"
+  },
+  {
+    "id": "abfc015c-139e-4dbd-8c0a-3efv6406c2c3",
+    "title": "Cổng Novigrad",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "Oxenfurt",
+    "dlc": "Không có"
+  },
+  {
+    "id": "ad53b6c3-b0f7-4b92-b60c-23c387ag3f4e",
+    "title": "Câu lạc bộ cờ vua Oxenfurt",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "Oxenfurt",
+    "dlc": "Không có"
+  },
+  {
+    "id": "b41b6f03-d2c5-4a13-a200-4f9c74d3c4dt",
+    "title": "Cảng Oxenfurt",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "Oxenfurt",
+    "dlc": "Không có"
+  },
+  {
+    "id": "af0c72dz-3b54-43bf-a86f-99c91a35db4a",
+    "title": "Cổng phía Tây",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "Oxenfurt",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a5cb8f95-1188-4c6b-9a5f-5b647e3904f1",
+    "title": "Biệt thự của Whoreson Junior",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Novigrad",
+    "subCategoryType": "Oxenfurt",
+    "dlc": "Không có"
+  },
+  {
+    "id": "b1f45d8b-0c7d-4b08-8e2b-d0fe2f1f89ac",
+    "title": "Tàn tích lâu đài Arnskrone",
+    "mainCategory": "trái tim bằng đá",
+    "subCategory": "Novigrad",
+    "subCategoryType": "Gustfields",
+    "dlc": "trái tim bằng đá"
+  },
+  {
+    "id": "a9e1fffd-6197-4b78-942b-1462dcd3a799",
+    "title": "hố máu",
+    "mainCategory": "trái tim bằng đá",
+    "subCategory": "Novigrad",
+    "subCategoryType": "Gustfields",
+    "dlc": "trái tim bằng đá"
+  },
+  {
+    "id": "a8260ac7-1a13-4fb3-9cf8-204ee79e2f1z",
+    "title": "Bowdon",
+    "mainCategory": "trái tim bằng đá",
+    "subCategory": "Novigrad",
+    "subCategoryType": "Gustfields",
+    "dlc": "trái tim bằng đá"
+  },
+  {
+    "id": "b29219f5-11e1-41c2-b5ac-9fb8x5e5ecbd",
+    "title": "Bữa nửa buổi",
+    "mainCategory": "trái tim bằng đá",
+    "subCategory": "Novigrad",
+    "subCategoryType": "Gustfields",
+    "dlc": "trái tim bằng đá"
+  },
+  {
+    "id": "a87d6978-c9fc-4ba6-8w41-722e2c527e33",
+    "title": "Mũi Hạc",
+    "mainCategory": "trái tim bằng đá",
+    "subCategory": "Novigrad",
+    "subCategoryType": "Gustfields",
+    "dlc": "trái tim bằng đá"
+  },
+  {
+    "id": "a50b8f95-1188-4c6b-9a5f-5b647e39d4f1",
+    "title": "Tiền đồn Draken Hollow",
+    "mainCategory": "trái tim bằng đá",
+    "subCategory": "Novigrad",
+    "subCategoryType": "Gustfields",
+    "dlc": "trái tim bằng đá"
+  },
+  {
+    "id": "abfc015c-139e-4dbd-vc0a-3ef86406c2c3",
+    "title": "Erde",
+    "mainCategory": "trái tim bằng đá",
+    "subCategory": "Novigrad",
+    "subCategoryType": "Gustfields",
+    "dlc": "trái tim bằng đá"
+  },
+  {
+    "id": "b4f85d8b-0c7d-4b08-8e2b-d0fe2f1f89ac",
+    "title": "Phòng thí nghiệm công nghệ fisstech của Fallen Knights",
+    "mainCategory": "trái tim bằng đá",
+    "subCategory": "Novigrad",
+    "subCategoryType": "Gustfields",
+    "dlc": "trái tim bằng đá"
+  },
+  {
+    "id": "a9e1fffd-6397-4b78-942b-1462dcd3a791",
+    "title": "Bất động sản Garin",
+    "mainCategory": "trái tim bằng đá",
+    "subCategory": "Novigrad",
+    "subCategoryType": "Gustfields",
+    "dlc": "trái tim bằng đá"
+  },
+  {
+    "id": "a8260ac7-1a13-4fb3-9cf8-204ee7ze2f13",
+    "title": "Heddel",
+    "mainCategory": "trái tim bằng đá",
+    "subCategory": "Novigrad",
+    "subCategoryType": "Gustfields",
+    "dlc": "trái tim bằng đá"
+  },
+  {
+    "id": "b29219f5-11ex-41c2-b5ac-9fb825e5ecbd",
+    "title": "Ngôi nhà của thợ săn",
+    "mainCategory": "trái tim bằng đá",
+    "subCategory": "Novigrad",
+    "subCategoryType": "Gustfields",
+    "dlc": "trái tim bằng đá"
+  },
+  {
+    "id": "a87d697c-c9fc-4ba6-8a41-7w2e2c527e33",
+    "title": "Tàn tích Kilkerinn",
+    "mainCategory": "trái tim bằng đá",
+    "subCategory": "Novigrad",
+    "subCategoryType": "Gustfields",
+    "dlc": "trái tim bằng đá"
+  },
+  {
+    "id": "a50b8f95-1188-4c6b-9a5f-5b647e3904c1",
+    "title": "Túp lều của Thầy Topica",
+    "mainCategory": "trái tim bằng đá",
+    "subCategory": "Novigrad",
+    "subCategoryType": "Gustfields",
+    "dlc": "trái tim bằng đá"
+  },
+  {
+    "id": "abfc015c-139e-vdbd-8c0a-3ef86406c2c3",
+    "title": "Làng Mohrin",
+    "mainCategory": "trái tim bằng đá",
+    "subCategory": "Novigrad",
+    "subCategoryType": "Gustfields",
+    "dlc": "trái tim bằng đá"
+  },
+  {
+    "id": "ad53b6c3-b0f7-4f92-b60c-23c387aa3f4e",
+    "title": "Nhà nguyện cổ",
+    "mainCategory": "trái tim bằng đá",
+    "subCategory": "Novigrad",
+    "subCategoryType": "Gustfields",
+    "dlc": "trái tim bằng đá"
+  },
+  {
+    "id": "b41b6f03-d2c5-4a13-a200-4f9g74d3c4db",
+    "title": "Nhà máy Thượng",
+    "mainCategory": "trái tim bằng đá",
+    "subCategory": "Novigrad",
+    "subCategoryType": "Gustfields",
+    "dlc": "trái tim bằng đá"
+  },
+  {
+    "id": "af0c72d2-3b54-43bf-a86f-99z91a35db4a",
+    "title": "Bất Động Sản Everec",
+    "mainCategory": "trái tim bằng đá",
+    "subCategory": "Novigrad",
+    "subCategoryType": "Gustfields",
+    "dlc": "trái tim bằng đá"
+  },
+  {
+    "id": "a50b8f95-1188-4c6b-9a5f-5x647e3904f1",
+    "title": "Lâu đài Zuetzer",
+    "mainCategory": "trái tim bằng đá",
+    "subCategory": "Novigrad",
+    "subCategoryType": "Gustfields",
+    "dlc": "trái tim bằng đá"
+  },
+  {
+    "id": "b1f85d8b-0c7d-4b08-8e2b-d0f32f1f89ac",
+    "title": "Nhà đấu giá của anh em nhà Borsodi",
+    "mainCategory": "trái tim bằng đá",
+    "subCategory": "Novigrad",
+    "subCategoryType": "Oxenfurt",
+    "dlc": "trái tim bằng đá"
+  },
+  {
+    "id": "a9e1fffd-6397-4b78-942b-1462dcd1a799",
+    "title": "Học viện Oxenfurt",
+    "mainCategory": "trái tim bằng đá",
+    "subCategory": "Novigrad",
+    "subCategoryType": "Oxenfurt",
+    "dlc": "trái tim bằng đá"
+  },
+  {
+    "id": "a82z0ac7-1a13-4fb3-9cf8-204ee79e2f13",
+    "title": "cống thoát nước Oxenfurt",
+    "mainCategory": "trái tim bằng đá",
+    "subCategory": "Novigrad",
+    "subCategoryType": "Oxenfurt",
+    "dlc": "trái tim bằng đá"
+  },
+  {
+    "id": "b292x9f5-11e1-41c2-b5ac-9fb825e5ecbd",
+    "title": "Ngôi nhà của Shakeslock",
+    "mainCategory": "trái tim bằng đá",
+    "subCategory": "Novigrad",
+    "subCategoryType": "Oxenfurt",
+    "dlc": "trái tim bằng đá"
+  },
+  {
+    "id": "a87d6e78-c9fc-4ba6-8a41-722e2c527e33",
+    "title": "Phòng khám Shani",
+    "mainCategory": "trái tim bằng đá",
+    "subCategory": "Novigrad",
+    "subCategoryType": "Oxenfurt",
+    "dlc": "trái tim bằng đá"
+  },
+  {
+    "id": "b1f85d8b-0c7d-4b48-8e2b-d0fe2f1f89ac",
+    "title": "Vịnh Gió",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "An Skellect",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a9e1fffd-6397-4b78-942b-1461dcd3a799",
+    "title": "Đường mòn tới Yngvar's Fang",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "An Skellect",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a826xac7-1a13-4fb3-9cf8-204ee79e2f13",
+    "title": "Cảng Urialla",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "An Skellect",
+    "dlc": "Không có"
+  },
+  {
+    "id": "b29219f5-11e1-41c2-b5ac-9fbx25e5ecbd",
+    "title": "Nanh của Yngvar",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "An Skellect",
+    "dlc": "Không có"
+  },
+  {
+    "id": "b1f85d8b-0c7d-4b08-8e2b-dcfe2f1f89a4",
+    "title": "xưởng cưa bỏ hoang",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a9e1fffd-6317-4b78-942b-1462dcd3a799",
+    "title": "Mật mã cổ đại",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a8260ac7-1a13-4fb3-9cf8-204ee79e2fa3",
+    "title": "Arinbjorn",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Không có"
+  },
+  {
+    "id": "b29219f5-11x1-41c2-b5ac-9fb825e5ecbd",
+    "title": "nhạt nhẽo",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a87w6978-c9fc-4ba6-8a41-722e2c527e33",
+    "title": "Boxholm",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a50b8f95-1188-4c6b-9a5f-5b647ex904f1",
+    "title": "Cầu tới Kaer Trolde",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Không có"
+  },
+  {
+    "id": "abfv015c-139e-4dbd-8c0a-3ef86406c2c3",
+    "title": "Ngã Tư",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Không có"
+  },
+  {
+    "id": "ad53b6c3-b0g7-4b92-b60c-23c387aa3f4e",
+    "title": "Nhà máy chưng cất",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Không có"
+  },
+  {
+    "id": "b41b6f03-d2c5-4ag3-a200-4f9c74d3c4db",
+    "title": "Trại của Druids",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Không có"
+  },
+  {
+    "id": "af0c72d2-3b54-43zf-a86f-99c91a35db4a",
+    "title": "Ngọn hải đăng Eldberg",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a50b8f95-1188-4c6b-9a5f-5b647e390xf1",
+    "title": "Ngọn Hải Đăng Elverum",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a87d6978-c9fc-4bw6-8a41-722e2c527e33",
+    "title": "Fayrlund",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Không có"
+  },
+  {
+    "id": "b1f85d8b-0c7d-4b08-8e2b-d0fe2f1f89ac",
+    "title": "xưởng cưa bỏ hoang",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a9e1f1fd-6397-4b78-942b-1462dcd3a799",
+    "title": "Mật mã cổ đại",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a8260ac7-1a13-4fb3-9cf8-204ae79e2f13",
+    "title": "Arinbjorn",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Không có"
+  },
+  {
+    "id": "b29219f5-11e1-41c2-b5ac-9fb825e5xcbd",
+    "title": "nhạt nhẽo",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a87d6978-c9fc-4ba6-8a41-7w2e2c527e33",
+    "title": "Boxholm",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a50b8f95-1x88-4c6b-9a5f-5b647e3904f1",
+    "title": "Cầu tới Kaer Trolde",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Không có"
+  },
+  {
+    "id": "abfc015c-139e-4dbd-8c02-3ef86406c2c3",
+    "title": "Ngã Tư",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Không có"
+  },
+  {
+    "id": "ad53b6c3-b0f7-4b92-b60c-23c387aa3f4g",
+    "title": "Nhà máy chưng cất",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Không có"
+  },
+  {
+    "id": "b41b6f03-d2c5-4a13-a200-4g9c74d3c4db",
+    "title": "Trại của Druids",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Không có"
+  },
+  {
+    "id": "af0c72d2-zb54-43bf-a86f-99c91a35db4a",
+    "title": "Ngọn hải đăng Eldberg",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Không có"
+  },
+  {
+    "id": "ad53b6c3-b0f7-4q92-b60c-23c387aa3f4e",
+    "title": "Ngọn Hải Đăng Elverum",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Không có"
+  },
+  {
+    "id": "b41b6f03-d2c5-4a13-a200-4f9c7gd3c4db",
+    "title": "Fayrlund",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Không có"
+  },
+  {
+    "id": "b1f85d8b-0c7d-4bd8-8e2b-d0fe2f1f89ac",
+    "title": "Pháo đài Etnir",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a9e1fffd-6397-4b78-942b-1462dcd3c799",
+    "title": "Pháo đài Grymmdjarr",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a8260ac7-1a13-4fb3-9ca8-204ee79e2f13",
+    "title": "Fyresdal",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Không có"
+  },
+  {
+    "id": "b29219f5-11e1-41c2-b5ac-9fb825e5ecxd",
+    "title": "Gedyneith",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a87d6978-c9fc-4wa6-8a41-722e2c527e34",
+    "title": "ngón chân của người khổng lồ",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a50b8f95-118x-4c6b-9a5f-5b647e3904f1",
+    "title": "Hang",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Không có"
+  },
+  {
+    "id": "abfc015c-139e-4dbd-8c0a-3ef8640622c3",
+    "title": "Đài tưởng niệm Grymmdjarr",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Không có"
+  },
+  {
+    "id": "ad53b6c3-b0f7-4b92-b60q-23c387aa3f4e",
+    "title": "Henge",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Không có"
+  },
+  {
+    "id": "af0c72d2-3b54-43bf-a86f-99c91a25cb4a",
+    "title": "Cảng Holmstein",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Không có"
+  },
+  {
+    "id": "ad53b6c3-b0f7-4b92-b60c-23c38qaa3f4e",
+    "title": "Kaer Dhu",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Không có"
+  },
+  {
+    "id": "b41b6f03-d2c5-4a1g-a200-4f9c74d3c4db",
+    "title": "Kaer Gelen",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Không có"
+  },
+  {
+    "id": "af0c72d2-3b54-43bf-a862-99c91a35db4a",
+    "title": "Kaer Muire",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Không có"
+  },
+  {
+    "id": "ad53bqc3-b0fc-4b92-b60c-23c387aa3f4e",
+    "title": "Kaer Nyssen",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Không có"
+  },
+  {
+    "id": "b41b6f0g-d2c5-4a13-a200-4f9c74d3c4db",
+    "title": "Thành Kaer Trolde",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Không có"
+  },
+  {
+    "id": "af0c72d2-3254-43bf-a86f-99c91a35db4a",
+    "title": "Cảng Kaer Trolde",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Không có"
+  },
+  {
+    "id": "b1d85d8b-0c7d-4b08-8e2b-d0fe2f1f89ac",
+    "title": "Đảo Kvalheim",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a9e1fffd-6397-4b78-94fb-1462dcd3a799",
+    "title": "Trại thợ mỏ",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a8a60ac7-1a13-4fb3-9cf8-204ee79e2f13",
+    "title": "hàng rào",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Không có"
+  },
+  {
+    "id": "b29x19f5-11e1-41c2-b5ac-9fb825e5ecbd",
+    "title": "Rannvaig",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a87d6978-c9fc-4ba6-8a41-722e2c5w7e33",
+    "title": "Redgill",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a50b8f95-118v-4c6b-9a5f-5b647e3904f1",
+    "title": "rogne",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Không có"
+  },
+  {
+    "id": "abfc015c-139e-4dbd-8c0a-vef86406c2c3",
+    "title": "Nhà trọ đổ nát",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Không có"
+  },
+  {
+    "id": "qd53b6c3-b0f7-4b92-b60c-23c387aa3f4e",
+    "title": "Xưởng cưa (một Craite)",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Không có"
+  },
+  {
+    "id": "af2c72d2-3b54-43bf-a86f-99c91a35db4a",
+    "title": "Máy cưa (Drummond)",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Không có"
+  },
+  {
+    "id": "ad53b6c3-b0f7-4b92-b6xc-23c387aa3f4e",
+    "title": "chủ nhật",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Không có"
+  },
+  {
+    "id": "b41g6f03-d2c5-4a1e-a200-4f9c74d3c4db",
+    "title": "nghĩa địa cá voi",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Không có"
+  },
+  {
+    "id": "af0c72d2-3b54-43bf-a82f-99c91a35db4a",
+    "title": "Bờ biển hoang dã",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Không có"
+  },
+  {
+    "id": "ad53b6c3-b0f7-4b92-b60c-23c387aa3f4x",
+    "title": "Hang động Yustianna",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "Ard Skellig",
+    "dlc": "Không có"
+  },
+  {
+    "id": "5e038126-fc8a-4b05-9b8f-62e93d7243fd",
+    "title": "Harviken",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "Tiếng Faroe",
+    "dlc": "Không có"
+  },
+  {
+    "id": "d639d151-6c3e-428b-9e43-4d68b02c6e03",
+    "title": "Trottheim",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "Tiếng Faroe",
+    "dlc": "Không có"
+  },
+  {
+    "id": "1a19d20a-3f24-40d9-bfbe-4b7f9d6757c5",
+    "title": "Vườn Freya",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "hindarsfjall",
+    "dlc": "Không có"
+  },
+  {
+    "id": "be8f4d37-50da-49f4-9c72-5c7d80a06ff1",
+    "title": "Larvik",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "hindarsfjall",
+    "dlc": "Không có"
+  },
+  {
+    "id": "675586cd-226c-496d-bac8-e3f76f2df429",
+    "title": "lofoten",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "hindarsfjall",
+    "dlc": "Không có"
+  },
+  {
+    "id": "991653a9-2ab3-4c78-a65a-b1cfd476a3a9",
+    "title": "Nghĩa trang Lofoten",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "hindarsfjall",
+    "dlc": "Không có"
+  },
+  {
+    "id": "22c1df6b-6325-413e-8c91-7d2ac4c80ab5",
+    "title": "Lurthen",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "hindarsfjall",
+    "dlc": "Không có"
+  },
+  {
+    "id": "606d688d-d3aa-43d2-b6a5-0d1770f24a14",
+    "title": "Túp lều biệt lập",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "hindarsfjall",
+    "dlc": "Không có"
+  },
+  {
+    "id": "0f0e2361-5249-4c4e-8ed7-dbf27f7a2f92",
+    "title": "hov",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "Spikeroog",
+    "dlc": "Không có"
+  },
+  {
+    "id": "3116f5f0-1ea1-4c0c-994d-cac32c36bd44",
+    "title": "Tháp Canh Cũ",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "Spikeroog",
+    "dlc": "Không có"
+  },
+  {
+    "id": "25e07b6c-0147-4c52-bf09-65a3d1de7162",
+    "title": "Svorlag",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "Spikeroog",
+    "dlc": "Không có"
+  },
+  {
+    "id": "4f0c0c65-34b2-4c9e-8e94-1a8a4dbf8e88",
+    "title": "Ngôi làng bỏ hoang",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "Undvik",
+    "dlc": "Không có"
+  },
+  {
+    "id": "39f899aa-1912-48e3-9bd3-2460a8769c9d",
+    "title": "Lò rèn gia tộc Tordarroch",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "Undvik",
+    "dlc": "Không có"
+  },
+  {
+    "id": "8eb1d6c8-7357-4a16-81ed-f4fba11592a7",
+    "title": "Tàn tích Dorve",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "Undvik",
+    "dlc": "Không có"
+  },
+  {
+    "id": "90d45b94-877a-4f90-b34b-e43a1359ba64",
+    "title": "Điểm mòng biển",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "Undvik",
+    "dlc": "Không có"
+  },
+  {
+    "id": "0a72b006-15b0-4ef1-aa5a-15957b9f98a7",
+    "title": "Bờ biển Marlin",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "Undvik",
+    "dlc": "Không có"
+  },
+  {
+    "id": "2180a3d9-1d94-4a9b-aeaa-6db789aa1e34",
+    "title": "Tor Gvalch'ca",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "Undvik",
+    "dlc": "Không có"
+  },
+  {
+    "id": "b294d5f8-9c4a-42f9-b7e3-3f4b6fb25a5c",
+    "title": "Urskar",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "Undvik",
+    "dlc": "Không có"
+  },
+  {
+    "id": "f2544ea9-3bf5-47a8-a2e9-c576635160fc",
+    "title": "Nhà máy đóng thuyền Undvik",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "Undvik",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a57c8e0d-6f4c-4d1b-9e2d-097ee3f5d321",
+    "title": "Đảo Snidhall",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "Khác",
+    "dlc": "Không có"
+  },
+  {
+    "id": "b7c0c1c9-0a3b-4cc7-b6f1-3e7d6d0a9be1",
+    "title": "Đảo Tengelstrand",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "Khác",
+    "dlc": "Không có"
+  },
+  {
+    "id": "671f8e4b-97a8-43c1-9b0d-96b8f8a0b662",
+    "title": "Bờ biển Pali Gap",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "Khác",
+    "dlc": "Không có"
+  },
+  {
+    "id": "87ff8c8e-bb58-4b4d-872e-3bae43853e6e",
+    "title": "Đảo Ingdalen",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "Khác",
+    "dlc": "Không có"
+  },
+  {
+    "id": "e301e2ab-d23a-4c4d-b1a3-86e9cb9d68c4",
+    "title": "Ngón tay của Hemdall",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "Khác",
+    "dlc": "Không có"
+  },
+  {
+    "id": "9f1f2fe3-6b85-4c5c-8c38-04b71dbaa2ae",
+    "title": "Đảo Nava",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Skellecte",
+    "subCategoryType": "Khác",
+    "dlc": "Không có"
+  },
+  {
+    "id": "f3c33a93-9aa0-4b09-9e5d-8f05e2656a8e",
+    "title": "pháo đài",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Thung lũng Kaer Morhen",
+    "subCategoryType": "",
+    "dlc": "Không có"
+  },
+  {
+    "id": "2349e824-b387-4859-a6b4-3e4b3c3891c2",
+    "title": "Vòng tròn các yếu tố",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Thung lũng Kaer Morhen",
+    "subCategoryType": "",
+    "dlc": "Không có"
+  },
+  {
+    "id": "cd10ac5e-1463-4c97-8e0f-0b35e9ec82bb",
+    "title": "Mỏ sắt",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Thung lũng Kaer Morhen",
+    "subCategoryType": "",
+    "dlc": "Không có"
+  },
+  {
+    "id": "d72f1ed4-9a49-4ea8-92c8-796c52ea6d16",
+    "title": "Kaer Morhen",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Thung lũng Kaer Morhen",
+    "subCategoryType": "",
+    "dlc": "Không có"
+  },
+  {
+    "id": "183b5487-309a-4a61-a4d9-47c5f8a01165",
+    "title": "Túp lều ven hồ",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Thung lũng Kaer Morhen",
+    "subCategoryType": "",
+    "dlc": "Không có"
+  },
+  {
+    "id": "9d4fc9cb-1a0d-4e36-b086-30f6c7f07eb4",
+    "title": "Mộ của Leo",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Thung lũng Kaer Morhen",
+    "subCategoryType": "",
+    "dlc": "Không có"
+  },
+  {
+    "id": "df0f90d3-2e0d-4e45-a073-eb0a8c5f8e89",
+    "title": "Tháp canh đổ nát",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Thung lũng Kaer Morhen",
+    "subCategoryType": "",
+    "dlc": "Không có"
+  },
+  {
+    "id": "29a3870a-11c8-4b42-a8e6-56d134e9121b",
+    "title": "Sa mạc Ddiddwedht",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Khác",
+    "subCategoryType": "",
+    "dlc": "Không có"
+  },
+  {
+    "id": "0c493994-2e2e-404b-bbf6-1e0b952adff8",
+    "title": "Đồng bằng băng",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Khác",
+    "subCategoryType": "",
+    "dlc": "Không có"
+  },
+  {
+    "id": "97e0a16e-548c-4ddc-82e5-1e5b13ed4f6a",
+    "title": "Đảo sương mù",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Khác",
+    "subCategoryType": "",
+    "dlc": "Không có"
+  },
+  {
+    "id": "a0321a9c-5ebc-4291-a7e8-6f6c7e9c6820",
+    "title": "Bạn là Lia",
+    "mainCategory": "Chủ yếu",
+    "subCategory": "Khác",
+    "subCategoryType": "",
+    "dlc": "Không có"
+  },
+  {
+    "id": "b53e2a7b-c2f3-4d64-940e-3a52ee45e83d",
+    "title": "Thế giới của Gaunter O'Dimm",
+    "mainCategory": "Trái tim bằng đá",
+    "subCategory": "Khác",
+    "subCategoryType": "",
+    "dlc": "Trái tim bằng đá"
+  },
+  {
+    "id": "c480e1aa-89c2-4aa4-bbff-b3a8f1a0978a",
+    "title": "Thế giới sơn",
+    "mainCategory": "Trái tim bằng đá",
+    "subCategory": "Khác",
+    "subCategoryType": "",
+    "dlc": "Trái tim bằng đá"
+  },
+  {
+    "id": "3e8f356d-73d5-4813-a4a5-fc50d98855e2",
+    "title": "Vùng đất ngàn câu chuyện ngụ ngôn",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Khác",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "e58f29fd-462d-49bf-87b2-ecf97ecb17b8",
+    "title": "Bến tàu Aronnax",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Beauclair",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "4a394ea5-7cd9-4eb5-8ac1-b5d3fcb8d2c9",
+    "title": "Cung điện Beauclair",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Beauclair",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "7499a29d-2414-4b6f-9377-6bc183c174bf",
+    "title": "Cảng Beauclair",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Beauclair",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "4f9c05b7-3d36-432c-831e-1c570b01c2b9",
+    "title": "Những nàng Belle của Beauclair",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Beauclair",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "f62ddc89-1397-427d-b80c-387e902177f8",
+    "title": "Ngân hàng Cianfanelli",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Beauclair",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "8c465183-b6af-4467-87a8-8c4d8c3fb396",
+    "title": "Quán rượu Guốc thông minh",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Beauclair",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "c39e553b-2a7b-47c7-ae0f-3320663eb34a",
+    "title": "Cổng Coopers",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Beauclair",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "2eeff8d3-c8d5-4144-b83d-507db46b191b",
+    "title": "Trạm bảo vệ công tước",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Beauclair",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "d2d3a804-1a65-42c5-aef8-2db906b92a4c",
+    "title": "Quảng trường Epona",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Beauclair",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "f3d3c843-8bf3-4817-a4b9-c2b87d4c55a7",
+    "title": "The Gran'place",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Beauclair",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "9a520a62-49a7-41a1-af2d-ffaa3f2d7c6e",
+    "title": "Cổng Cảng",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Beauclair",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "aba183aa-d2fd-4a4c-b40e-46f792dfdc09",
+    "title": "Quảng trường Hiệp sĩ không hoạt động",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Beauclair",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "1e00c186-cc09-4a36-9014-dc76d798db12",
+    "title": "Trại trẻ mồ côi La Từ Bi",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Beauclair",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "6f12c40e-e006-47d7-badc-41f4d21d7ef7",
+    "title": "Cổng Lebioda",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Beauclair",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "6e769a91-ae15-4eb3-9d2f-2d0f09f8a684",
+    "title": "Quảng trường Lolivier",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Beauclair",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "c0d84ff4-cd72-4d57-b736-e46d4a89f22a",
+    "title": "Cổng Metinna",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Beauclair",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "2b8c7919-48c9-4a1b-b6fe-1f74eb8de4e8",
+    "title": "Đại sứ quán Nilfgaard",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Beauclair",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "59c8c4e8-8c24-437e-8b47-7cda49e0c276",
+    "title": "Bất động sản của tiểu thư Orianna",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Beauclair",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "4cd55f23-15ae-46ce-af49-dc8a1e22455e",
+    "title": "Nghĩa trang Orlémurs",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Beauclair",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "e3345f21-6b06-42b2-8752-ba0e4d5f0129",
+    "title": "Vườn cung điện",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Beauclair",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "652edc11-1315-4d04-a4b7-5bfa75c741bd",
+    "title": "gà lôi",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Beauclair",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "dccf527f-598e-4b7c-9c54-6db4d8e3b91c",
+    "title": "Đồi hoa hồng",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Beauclair",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "fc14d0b5-e8c3-4eab-a561-0a0b3466fbbf",
+    "title": "San Sebastian",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Beauclair",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "4999741a-0485-4a36-a188-4a5a3a12b775",
+    "title": "Tượng Reginald d'Aubry",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Beauclair",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "e4b6d740-7f22-4a32-9d7b-168c5ef6665d",
+    "title": "Nghĩa Trang Đền Thờ",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Beauclair",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "f173bb7d-9a38-42c7-87e3-fb4d328b309b",
+    "title": "Xưởng Cooper bị bỏ hoang",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Rừng Caroberta",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "e6071d9f-8f07-4c50-8187-c9b726b0184a",
+    "title": "Nhà kho bỏ hoang",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Rừng Caroberta",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "36ab18f8-8e1c-4f5d-9134-6660669a60d1",
+    "title": "Trang viên Belgaard",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Rừng Caroberta",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "b155cd5c-5db3-4ad8-8d13-c6472a81d4e5",
+    "title": "Vườn nho Belgaard",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Rừng Caroberta",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "40b2173e-6db0-40cd-8c80-0e185c456ee7",
+    "title": "Bất động sản Doren Alma",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Rừng Caroberta",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "63b924f7-e5b2-4f77-a6ee-54831909e7c8",
+    "title": "Cầu kéo",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Rừng Caroberta",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "1082957e-97fb-439d-a90d-d963f6c1f4d5",
+    "title": "hang động Lebioda",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Rừng Caroberta",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "c8b747b2-53ea-4938-9df2-e69344a2c365",
+    "title": "Tàn tích thánh địa Elf",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Rừng Caroberta",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "4e91efcf-bb87-4c7c-8a64-dde5c651feab",
+    "title": "Francollarts",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Rừng Caroberta",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "a4ef55a5-9c9f-4d3f-a075-1db5f9237925",
+    "title": "Trang trại Gelenser",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Rừng Caroberta",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "b40d9a9b-0717-44ed-9eae-f1f08aa1b62c",
+    "title": "Bất động sản Hortense",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Rừng Caroberta",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "0d3e47f4-808d-4bf3-9f42-9aa141f0d36b",
+    "title": "Vườn nho Hortense",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Rừng Caroberta",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "169e9f05-5b72-4f3d-97e6-ea40f14a1d7a",
+    "title": "Nghĩa trang Mère-Lachaiselongue",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Rừng Caroberta",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "a0d6ebef-e611-44f4-94d1-887cc6df2f66",
+    "title": "Rừng âm u",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Rừng Caroberta",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "2c01047c-48e2-4a8b-b485-0c76b81d4c43",
+    "title": "Tàn tích Cung điện Termes",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Rừng Caroberta",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "c89c1612-bad1-4169-932b-3b021fbbf90c",
+    "title": "Tàn tích Tesham Mutna",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Rừng Caroberta",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "3a4370f2-042b-41b1-80b2-51b3d3e8f505",
+    "title": "Cánh đồng Tilly",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Rừng Caroberta",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "3a8e6c3c-839b-4711-9a0c-5b6e8872a146",
+    "title": "Tàn tích điền trang Trastamara",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Rừng Caroberta",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "ef05fbb5-1936-4a8e-b36e-4b2c501bce50",
+    "title": "Ngôi nhà săn bắn Trastamara",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Rừng Caroberta",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "a2d65011-3185-46f3-b034-6d172a2d7da3",
+    "title": "Mỏ đá Ardaiso",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Champs-Désolés",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "8f6e122f-cc3d-4c79-9336-4b82c0ad724a",
+    "title": "Trang trại Basane",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Champs-Désolés",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "a9161b15-03f7-4e0c-a5fb-303fed29d35f",
+    "title": "Rừng Phước Lành",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Champs-Désolés",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "620af64a-1591-49b2-9259-381e6d13b30c",
+    "title": "Di sản bị bỏ hoang Casteldaccia",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Champs-Désolés",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "5680facc-72a5-4e77-9d85-bc160f48dd53",
+    "title": "Di tích đền Danamebi",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Champs-Désolés",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "cdb8d944-45a8-4d9e-9db1-0b81e13d44d3",
+    "title": "Đèo Delenfer",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Champs-Désolés",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "17ea8237-1a94-4dbf-8c7c-c5d45eeff1f8",
+    "title": "Tàn tích pháo đài Ussar",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Champs-Désolés",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "3bdc2f82-2d6e-4f18-8b5d-c8f3d7f801a3",
+    "title": "Bến tàu Freinte",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Champs-Désolés",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "f3e4e6d1-2f47-4ac5-b2e5-63c9531b4b20",
+    "title": "Mare Aubrebis",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Champs-Désolés",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "c7b246d1-1e4f-4344-98b7-b539b3b2b6f5",
+    "title": "Lâu đài Mont Crane",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Champs-Désolés",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "a97fe54c-b4a1-4702-b119-3fc7a1545c9d",
+    "title": "Nghĩa trang Mont Crane",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Champs-Désolés",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "d62d0310-c7ef-4b4d-a9f3-8b18c0057735",
+    "title": "rắc rối",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Champs-Désolés",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "e3dbf3c1-634d-4cf3-b6b3-d1657bd3c7b7",
+    "title": "Lâu đài Dun Tynne",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Dun Tynne",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "5bb72f42-e6e9-44a1-8e2d-9d4f86ed3d54",
+    "title": "Ngã tư Dun Tynne",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Dun Tynne",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "cd4891e3-5e01-4f86-b5bb-3bb49f824e41",
+    "title": "Sườn đồi Dun Tynne",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Dun Tynne",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "a96bc4f5-d82a-4c6a-b8ee-0567a9c22b4b",
+    "title": "Rừng Ôliu",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Dun Tynne",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "694ab1a3-2d33-41f0-850a-c9cf11c162ed",
+    "title": "Ẩn thất của Pinastri",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Dun Tynne",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "c8499025-17d8-45c8-9a1a-2956ee5ea2b0",
+    "title": "Hang Albertus",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Chân đồi Gorgon",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "3d1c8b46-5e2a-4d68-a3a3-667ba327d0b7",
+    "title": "Tàn tích nhà tù Bastoy",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Chân đồi Gorgon",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "af1f3c86-5c7e-42a1-b0f2-95d017a48e6f",
+    "title": "Hang Chuchote",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Chân đồi Gorgon",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "1a11e9e2-df4c-4d6f-8a01-6f7e1d0cbb0d",
+    "title": "Độ dốc của Cooper",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Chân đồi Gorgon",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "c222b80c-46b7-4812-b8f8-56b0b005a0f5",
+    "title": "Trang viên Cutterin",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Chân đồi Gorgon",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "ecdc5b33-6a09-4f3b-950c-3d8773f4f37e",
+    "title": "Trảng Dantan",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Chân đồi Gorgon",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "d7bca9aa-8827-40bb-8a85-7a029943e0e7",
+    "title": "Huy hiệu Duchaton",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Chân đồi Gorgon",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "0e1673b1-16a2-4ae9-a3fe-056cc20bc523",
+    "title": "Tàn tích pháo đài Astre",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Chân đồi Gorgon",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "60d92b52-7fb1-48b9-b45a-4bd1e5d2f3a9",
+    "title": "cáo rỗng",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Chân đồi Gorgon",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "5eb3c861-cd2c-46d4-af26-3eaef163dc6d",
+    "title": "Hen Gaidh",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Chân đồi Gorgon",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "c6c2ce38-9a4d-4da1-9d54-03a8a5517c5b",
+    "title": "Lạc Célavy",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Chân đồi Gorgon",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "46eecc90-396c-4e2f-b7b1-431af2b0f1a0",
+    "title": "Vách đá Lynx",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Chân đồi Gorgon",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "9a0b8a6c-4415-4cfb-aa52-3c8e5dd49318",
+    "title": "Delve âm u",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Chân đồi Gorgon",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "0f3b5d3f-b42b-4a04-b581-bc189b5a8820",
+    "title": "Độ dốc Pavone",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Chân đồi Gorgon",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "6df9b6c2-3ec8-4e3a-9a0f-157cfed7da18",
+    "title": "Tiền đồn Rioux-Cannes",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Chân đồi Gorgon",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "7d96a591-9b42-43a4-a24f-5fcf822df34f",
+    "title": "Seidhe Llygad",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Chân đồi Gorgon",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "9a68f56d-17c3-4184-a17a-d72a22d6623e",
+    "title": "Nhà hát vòng tròn Seidhe Llygad",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Chân đồi Gorgon",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "8e9c0d3a-1785-4568-9fc8-7d474bba979d",
+    "title": "Hang động Tulasens",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Chân đồi Gorgon",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "ddc16388-922c-4d1c-bc8f-8f9cf51c3da3",
+    "title": "Nhà trọ Cockatrice",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Đầm lầy Sansretour",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "a2c06c84-6ec5-4b9b-89de-dc71f692a4f5",
+    "title": "Nhà máy Count de la Croix",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Đầm lầy Sansretour",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "38135164-5ac2-4ea4-a2e2-cd671065b07e",
+    "title": "Đảo Hạc",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Đầm lầy Sansretour",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "b64a69c1-3a8b-4959-9b34-50a8fb9aa5bf",
+    "title": "Dòng dây tóc",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Đầm lầy Sansretour",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "fdf996c8-430a-4310-aef2-8b6a3988a408",
+    "title": "Flovive",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Đầm lầy Sansretour",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "a94b0a43-94ce-4d8e-b13a-3f8e8d9d1bd4",
+    "title": "Rừng Marcescent",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Đầm lầy Sansretour",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "8e74b73e-1731-4aa7-9bd7-09c27b4c906f",
+    "title": "Nhà tù Toussaint",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Đầm lầy Sansretour",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "bd45bf56-5d23-49b8-8162-1d3e7f50fe7c",
+    "title": "Vườn nho Tufo",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Đầm lầy Sansretour",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "3c54ef95-f88f-4c7f-907d-6da44e33cf52",
+    "title": "Hang động mắt cú",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Đầm lầy Sansretour",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "334794ac-3c60-4822-a60a-2820d4b31c48",
+    "title": "Thung lũng chín",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Đầm lầy Sansretour",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "a3427fe0-2a1f-4fbb-bd50-417f94385741",
+    "title": "Ngôi đền bỏ hoang dành cho nhà tiên tri Lebioda",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Thung lũng Sansretour",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "27f7d68c-06e7-4e44-bc2e-17d8cda0b1a5",
+    "title": "Lâu đài Ravello",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Thung lũng Sansretour",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "e31b2621-5e92-4311-8e4b-3d8c6d3d8b01",
+    "title": "Bờ hạt dẻ",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Thung lũng Sansretour",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "a070d5e9-5d7c-4973-922f-3d0d3c6c22c4",
+    "title": "Corona",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Thung lũng Sansretour",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "84245dcb-5903-4c34-8161-147245d0a265",
+    "title": "Corvo Bianco",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Thung lũng Sansretour",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "ebdb45e2-23d8-40f8-89f2-951117bf5b59",
+    "title": "Cối Xay Gió Dulcinea",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Thung lũng Sansretour",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "ba85237e-2d18-4d52-a98a-1991fc8603a0",
+    "title": "Phòng mẫu rừng",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Thung lũng Sansretour",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "ecc940db-6f5a-4954-82d8-c72b03e63a29",
+    "title": "Bốn nhà máy",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Thung lũng Sansretour",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "f9be7ce4-b0b5-4c82-a0e4-b1e5f36174c8",
+    "title": "Patrice Glade",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Thung lũng Sansretour",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "6b90c1ab-2c74-4c80-94b7-497e3aa71be6",
+    "title": "Vượt sông Pittapatte",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Thung lũng Sansretour",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "a70b75e4-d38a-4ec0-9900-21ff856b228e",
+    "title": "Cầu Plegmund",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Thung lũng Sansretour",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "6bfb0953-17b4-4a86-88a2-ecf0d38f1323",
+    "title": "Tượng nhà tiên tri Lebioda",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Thung lũng Sansretour",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "a7ab85de-bd45-4a1a-a5e2-e91f37ed3fc0",
+    "title": "Nhà kho Rivecalme",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Thung lũng Sansretour",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "ccbb8df2-cff2-4b6d-a074-7cb32f5d9db2",
+    "title": "Trạm giao dịch",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Thung lũng Sansretour",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "ad480a5a-52ac-4974-bd86-7c9a3e92e5d3",
+    "title": "Sân thi đấu",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Thung lũng Sansretour",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "0212a163-4307-41b3-8cfe-d172937d936b",
+    "title": "Văn phòng Doanh thu Nội bộ Toussaint",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Thung lũng Sansretour",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "152d02c4-3014-4080-9e90-44ea52dd7a27",
+    "title": "Vườn nho Vermentino",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Thung lũng Sansretour",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "1c57a5b5-2d4c-4d79-80c3-6a101fa49b3f",
+    "title": "Đá venin",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Thung lũng Sansretour",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "7e0e1a71-0f6e-4a6f-80d2-6ebfb7c16219",
+    "title": "Tàn tích cung điện Arthach",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Thung lũng Vedette",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "f8c0a4ac-7d34-442d-af11-32ac10ed648c",
+    "title": "Hố Brume",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Thung lũng Vedette",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "c010f1df-0dcd-4b2b-8189-dfb0c9c1f7e5",
+    "title": "Nhà trọ Silver Salamander",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Thung lũng Vedette",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  },
+  {
+    "id": "7c0f0844-b4a5-4a56-a39d-93e12206c1c2",
+    "title": "Biệt thự Vedette",
+    "mainCategory": "Máu Và Rượu",
+    "subCategory": "Thung lũng Vedette",
+    "subCategoryType": "",
+    "dlc": "Máu Và Rượu"
+  }
+]

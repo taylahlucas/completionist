@@ -7,7 +7,6 @@ interface StandardLayoutContainerProps {
 export const StandardLayoutContainer = styled.SafeAreaView<StandardLayoutContainerProps>`
   width: 100%;
   height: 100%;
-  align-items: center;
   flex: 1;
   background-color: ${props => props.color};
 `;

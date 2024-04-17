@@ -17,19 +17,18 @@ const Quests = () => {
   const { selectedGame } = useMainState();
   const { setSearchValue } = useContentDispatch();
   const { searchValue } = useContentState();
-  
   const { getUserQuests } = useGetUserGameData();
   const { mapDataTo } = useGetGameData();
 
   return (
     <StandardLayout>
-      <NavigationHeader title={t('common:screens.quests')} />
+      <NavigationHeader title={t('common:screens.quests')} rightAction='filter' />
       <CustomSearchBar 
         searchValue={searchValue} 
         setSearchValue={setSearchValue}
         onReset={(): void => setSearchValue('')} 
       />
-      <CompletedQuantityTitle type={'ListItemTitleBold'}>
+      <CompletedQuantityTitle type={'ListItemSubTitleBold'}>
         {`${getUserQuests().length}/${mapDataTo(ContentSectionEnum.QUESTS, selectedGame, true).length}`}
       </CompletedQuantityTitle>
       <ContentList />

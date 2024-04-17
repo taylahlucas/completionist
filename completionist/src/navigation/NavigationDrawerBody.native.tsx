@@ -49,9 +49,9 @@ const NavigationDrawerBody: React.FunctionComponent = () => {
 							size={item.id === ScreenEnum.SteamAchievements ? 26 : 24}
 						/>
 						<NavigationDrawerFooterTitle
-							type={'ListItemTitle'}
+							type='ListItemTitle'
 							color={currentScreen === item.id ? theme.lightGrey : theme.midGrey}
-							align={'left'}
+							align='left'
 						>
 							{item.title}
 						</NavigationDrawerFooterTitle>
@@ -60,14 +60,14 @@ const NavigationDrawerBody: React.FunctionComponent = () => {
 				<NavigationDrawerFooterItem onPress={signOut}>
 					<NavigationDrawerFooterIcon
 						style={{ marginLeft: 4 }}
-						name={'logout'}
+						name='logout'
 						color={theme.lightGrey}
 						size={24}
 					/>
 					<NavigationDrawerFooterTitle
-						type={'ListItemTitle'}
+						type='ListItemTitle'
 						color={currentScreen === ScreenEnum.Login ? theme.lightGrey : theme.midGrey}
-						align={'left'}
+						align='left'
 					>
 						{t('common:auth.logout')}
 					</NavigationDrawerFooterTitle>

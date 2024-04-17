@@ -2,6 +2,7 @@ export enum ScreenEnum {
   RootStackNavigator = 'RootStackNavigator',
   Landing = 'Landing',
   Login = 'Login',
+	SelectFirstGame = 'SelectFirstGame',
   GameSelection = 'GameSelection',
   LeftMenu = 'LeftMenu',
   Quests = 'Quests',
@@ -12,7 +13,8 @@ export enum ScreenEnum {
 	SteamAchievements = 'SteamAchievements',
   Subscriptions = 'Subscriptions',
   Payments = 'Payments',
-  Settings = 'Settings'
+  Settings = 'Settings',
+	AccountDetails = 'AccountDetails'
 }
 
 export enum IconTypeEnum {
@@ -23,14 +25,14 @@ export enum IconTypeEnum {
 }
 
 export enum GameKeyEnum {
-  SKYRIM = 'skyrim',
-  FALLOUT_4 = 'fallout4'
+  FALLOUT_4 = 'fallout4',
+	SKYRIM = 'skyrim',
+	WITCHER_3 = 'witcher3'
 }
 
 export enum SubscriptionTypeEnum {
-  BRONZE = 'bronze',
-  SILVER = 'silver',
-  GOLD = 'gold'
+  FREE = 'free',
+	PREMIUM = 'premium'
 }
 
 export enum DatePeriodEnum {

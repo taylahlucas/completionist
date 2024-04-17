@@ -66,7 +66,7 @@ export const NavigationDrawerFooterTitle = styled(StyledText)`
 
 export const NavigationHeaderSubTitle = styled(StyledText)`
   margin-top: 4px;
-	margin-right: 4px;
+	margin-right: 8px;
 	max-width: 80px;
 `;
 
@@ -112,13 +112,13 @@ export const NavigationDrawerContainer = styled.View`
 `;
 
 export const NavigationDrawerBodyContainer = styled.View`
-  height: ${Dimensions.get('window').height - 64}px;
+  height: ${Dimensions.get('window').height - 84}px;
   align-content: center;
   margin-top: 16px;
   margin-left: 16px;
 `;
 
 export const NavigationDrawerFooter = styled.Pressable`
-  position: absolute;
-  bottom: 92px;
+	position: absolute;
+	bottom: 96px;
 `;

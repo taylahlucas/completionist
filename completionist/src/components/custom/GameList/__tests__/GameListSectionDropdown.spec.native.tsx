@@ -23,7 +23,8 @@ describe('GameListSelectionDropdown', () => {
     };
     const { queryByTestId } = render(<GameListSectionDropdown {...props} />, { initialState });
 
-		expect(queryByTestId('skyrim')).toBeTruthy();
 		expect(queryByTestId('fallout4')).toBeTruthy();
+		expect(queryByTestId('skyrim')).toBeTruthy();
+		expect(queryByTestId('witcher3')).toBeTruthy();
   });
 });

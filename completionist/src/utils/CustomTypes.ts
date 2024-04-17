@@ -14,6 +14,7 @@ export type MaterialIconsType =
   | 'search';
 
 export type MaterialCommunityIcons =
+	| 'arrow-u-right-top'
   | 'cancel'
   | 'steam';
 
@@ -22,6 +23,7 @@ export type IoniconType =
   | 'checkmark-circle-outline'
   | 'checkbox-outline'
   | 'checkmark-sharp'
+	| 'filter-outline'
   | 'eye-outline'
   | 'eye-off-outline'
   | 'menu-sharp'
@@ -34,8 +36,9 @@ export type FontAwesomeType =
   | 'check-circle';
 
 export type IconType = MaterialIconsType | MaterialCommunityIcons | IoniconType | FontAwesomeType;
-export type ButtonType = 'default' | 'text';
+export type ButtonType = 'default' | 'text' | 'navigation';
 export type TextInputStyleType = 'default' | 'text';
+export type ValidatorType = 'none' | 'email';
 
 export type LanguageType = 
   | 'ar'

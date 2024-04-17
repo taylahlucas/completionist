@@ -1,9 +1,37 @@
 {
+  "fallout4": {
+    "title": "bụi phóng xạ 4",
+    "categories": {
+      "quests": {
+        "mainQuests": "Nhiệm vụ chính",
+        "factionQuests": "Nhiệm vụ phe phái",
+        "sideQuests": "Nhiệm vụ phụ"
+      },
+      "collectables": {
+        "bobbleheads": "tóc bồng bềnh",
+        "magazines": "Tạp chí thời sự",
+        "uniqueWeapons": "Vũ khí độc đáo",
+        "uniqueArmour": "Giáp độc nhất",
+        "powerArmour": "Giáp sức mạnh"
+      },
+      "locations": {
+        "main": "Chủ yếu"
+      },
+      "miscellaneous": {
+        "holotapes": "ảnh ba chiều"
+      }
+    },
+    "dlc": {
+      "automatron": "Máy tự động",
+      "farHarbor": "Cảng xa",
+      "nukaWorld": "Thế giới Nuka",
+      "vaultTecWorkshop": "Hội thảo Vault-Tec"
+    }
+  },
   "skyrim": {
     "title": "Skyrim",
     "categories": {
       "quests": {
-        "title": "Nhiệm vụ",
         "mainQuests": "Nhiệm vụ chính",
         "factionQuests": "Nhiệm vụ phe phái",
         "civilWar": "Nội chiến",
@@ -14,7 +42,6 @@
         "globalQuests": "Nhiệm vụ toàn cầu"
       },
       "collectables": {
-        "title": "Đồ sưu tầm",
         "dragonPriestMasks": "Mặt nạ linh mục rồng",
         "daedricArtefacts": "Cổ vật Daedric",
         "bugInAJar": "Lỗi trong lọ",
@@ -25,10 +52,9 @@
         "stones": "Đá"
       },
       "locations": {
-        "title": "Địa điểm"
+        "main": "Chủ yếu"
       },
       "miscellaneous": {
-        "title": "Điều khoản khác",
         "books": "Sách",
         "spellTomes": "Sách đánh vần",
         "journals": "tạp chí"
@@ -40,36 +66,25 @@
       "hearthfire": "lửa lò sưởi"
     }
   },
-  "fallout4": {
-    "title": "bụi phóng xạ 4",
+  "witcher3": {
+    "title": "The Witcher 3: Cuộc săn hoang dã",
     "categories": {
       "quests": {
-        "title": "Nhiệm vụ",
         "mainQuests": "Nhiệm vụ chính",
-        "factionQuests": "Nhiệm vụ phe phái",
-        "sideQuests": "Nhiệm vụ phụ"
+        "secondaryQuests": "Nhiệm vụ phụ",
+        "contracts": "Hợp đồng",
+        "treasureHunts": "Săn lùng kho báu"
       },
       "collectables": {
-        "title": "Đồ sưu tầm",
-        "bobbleheads": "tóc bồng bềnh",
-        "magazines": "Tạp chí thời sự",
-        "uniqueWeapons": "Vũ khí độc đáo",
-        "uniqueArmour": "Giáp độc nhất",
-        "powerArmour": "Giáp sức mạnh"
+        "diagrams": "Sơ đồ"
       },
       "locations": {
-        "title": "Địa điểm"
-      },
-      "miscellaneous": {
-        "title": "Điều khoản khác",
-        "holotapes": "ảnh ba chiều"
+        "main": "Chủ yếu"
       }
     },
     "dlc": {
-      "automatron": "Máy tự động",
-      "farHarbor": "Cảng xa",
-      "nukaWorld": "Thế giới Nuka",
-      "vaultTecWorkshop": "Hội thảo Vault-Tec"
+			"bloodAndWine": "Máu Và Rượu",
+			"heartsOfStone": "trái tim bằng đá"
     }
   }
 }

@@ -38,7 +38,7 @@ const SettingsContentItemDropdown = ({ item }: SettingsContentItemDropdownProps)
       <SettingsContentScrollView contentContainerStyle={styles.scrollContent}>
         {getUserSettingsSubConfig(item.id).map((settingsItem, index) => (
           <SettingsContentSubItemContainer key={index} color={theme.darkGrey}>
-            <SettingsContentTitle color={theme.lightGrey} align={'left'}>
+            <SettingsContentTitle color={theme.lightGrey} align='left'>
               {translateCategoryName(selectedGameSettings, item.id, settingsItem.id)}
             </SettingsContentTitle>
             <SettingsContentCheckBox item={settingsItem} />
@@ -47,7 +47,7 @@ const SettingsContentItemDropdown = ({ item }: SettingsContentItemDropdownProps)
         .concat(
           getUserSettingsDLC(item.id).map((dlcItem, index) => (
             <SettingsContentSubItemContainer key={`${dlcItem}-${index}`} color={theme.darkGrey}>
-              <SettingsContentTitle color={theme.lightGrey} align={'left'}>
+              <SettingsContentTitle color={theme.lightGrey} align='left'>
                 {translateDLCName(selectedGameSettings, dlcItem.id)}
               </SettingsContentTitle>
               <SettingsContentCheckBox item={dlcItem} />

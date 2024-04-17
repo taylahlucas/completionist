@@ -3,15 +3,17 @@
     "common": {
       "appTitle": "完美主义者。",
       "welcome": "欢迎",
+      "continue": "继续",
       "search": "搜索项目...",
       "showMore": "展示更多",
       "none": "没有任何",
       "main": "主要的",
+      "changesLeft": "剩下的变化： ",
       "active": "积极的",
       "inactive": "不活跃",
       "auth": {
         "email": "电子邮件",
-        "password": "密码",
+        "userpw": "密码",
         "username": "用户名",
         "forgotPassword": "忘记密码？",
         "login": "登录",
@@ -29,15 +31,23 @@
         "gameSelection": "游戏选择",
         "sendRequest": "发送请求",
         "subscriptions": "订阅",
+        "selectAGame": "选择游戏",
+        "addSteamId": "添加 Steam ID",
+        "steamAchievements": "Steam 成就",
         "payments": "支付",
-        "settings": "设置"
+        "settings": "设置",
+        "accountDetails": "帐户详细资料"
+      },
+      "selectGame": {
+        "selectGameDesc1": "使用免费帐户，您可以每月选择一款游戏进行跟踪。",
+        "selectGameDesc2": "在下面选择您的第一个游戏！",
+        "selectGameDesc3": "如果您犯了错误，请不要担心，您可以每月更改两次"
       },
       "subscriptions": {
-        "subscriptionDesc": "通过银牌或金牌订阅，\n",
+        "subscriptionDesc": "通过高级订阅，\n",
         "purchaseSubscription": "购买订阅",
-        "bronze": "青铜",
-        "silver": "银",
-        "gold": "金子",
+        "free": "自由的",
+        "premium": "优质的",
         "accessMultipleGames": "访问多个游戏",
         "noAds": "无广告",
         "withAds": "有广告",
@@ -67,13 +77,41 @@
         "enabledDLC": "启用/禁用 DLC：",
         "showHide": "显示隐藏：",
         "completedItems": "已完成项目",
-        "disabledSections": "残疾人部分"
+        "disabledSections": "残疾人部分",
+        "changeAccountDetails": "更改帐户详细信息",
+        "selectLanguage": "选择语言："
+      },
+      "accountDetails": {
+        "changeUsername": "更改用户名",
+        "changeEmail": "更改电子邮件",
+        "changePassword": "更改密码",
+        "updateDetails": "更新详情"
+      },
+      "steamAchievements": {
+        "addSteamIdStep1": "步骤 1. 查找并添加您的 Steam ID",
+        "addSteamIdDesc1": "要查找您的 Steam ID，请前往 Steam 并选择“查看个人资料”。",
+        "addSteamIdDesc2": "您可以在个人资料顶部找到该 ID。",
+        "addSteamIdStep2": "步骤 2. 更新您的隐私偏好",
+        "addSteamIdDesc3": "您还需要确保您的个人资料是公开的。",
+        "addSteamIdDesc4": "您可以通过前往 Steam 偏好设置 -> 隐私设置来执行此操作",
+        "steamIdPlaceholder": "蒸汽 ID"
       },
       "errors": {
         "error": "错误",
         "pleaseRefreshApp": "请刷新应用程序",
+        "emailAlreadyExists": "电子邮件已经存在。",
+        "emailNotFound": "电子邮件找不到",
         "noEmailExists": "电子邮件不存在",
-        "googleSignIn": "谷歌登录出错"
+        "checkCredentials": "请检查您的凭据并重试。",
+        "incorrectPw": "密码错误。",
+        "googleSignIn": "Google 登录时出错"
+      },
+      "alerts": {
+        "activate": "启用",
+        "cancel": "取消",
+        "changesLeft": "你将会拥有 {{changesLeft}} 改变{{s}} 左边。",
+        "noChangesLeft": "没有留下任何变化",
+        "noChangesLeftMessage": "抱歉，本月您没有任何游戏更改。\n "
       },
       "languages": {
         "ar": "阿拉伯",
@@ -92,11 +130,39 @@
       }
     },
     "categories": {
+      "fallout4": {
+        "title": "辐射4",
+        "categories": {
+          "quests": {
+            "mainQuests": "主线任务",
+            "factionQuests": "派系任务",
+            "sideQuests": "支线任务"
+          },
+          "collectables": {
+            "bobbleheads": "摇头娃娃",
+            "magazines": "杂志",
+            "uniqueWeapons": "独特的武器",
+            "uniqueArmour": "独特的盔甲",
+            "powerArmour": "动力装甲"
+          },
+          "locations": {
+            "main": "主要的"
+          },
+          "miscellaneous": {
+            "holotapes": "全息带"
+          }
+        },
+        "dlc": {
+          "automatron": "自动机",
+          "farHarbor": "远港",
+          "nukaWorld": "核子世界",
+          "vaultTecWorkshop": "Vault-Tec 研讨会"
+        }
+      },
       "skyrim": {
         "title": "天际",
         "categories": {
           "quests": {
-            "title": "任务",
             "mainQuests": "主线任务",
             "factionQuests": "派系任务",
             "civilWar": "内战",
@@ -107,7 +173,6 @@
             "globalQuests": "全球任务"
           },
           "collectables": {
-            "title": "收藏品",
             "dragonPriestMasks": "龙祭司面具",
             "daedricArtefacts": "魔族文物",
             "bugInAJar": "罐子里的虫子",
@@ -118,10 +183,9 @@
             "stones": "石头"
           },
           "locations": {
-            "title": "地点"
+            "main": "主要的"
           },
           "miscellaneous": {
-            "title": "各种各样的",
             "books": "图书",
             "spellTomes": "法术书",
             "journals": "期刊"
@@ -133,36 +197,25 @@
           "hearthfire": "炉火"
         }
       },
-      "fallout4": {
-        "title": "辐射4",
+      "witcher3": {
+        "title": "巫师 3：狂猎",
         "categories": {
           "quests": {
-            "title": "任务",
             "mainQuests": "主线任务",
-            "factionQuests": "派系任务",
-            "sideQuests": "支线任务"
+            "secondaryQuests": "次要任务",
+            "contracts": "合约",
+            "treasureHunts": "寻宝"
           },
           "collectables": {
-            "title": "收藏品",
-            "bobbleheads": "摇头娃娃",
-            "magazines": "杂志",
-            "uniqueWeapons": "独特的武器",
-            "uniqueArmour": "独特的盔甲",
-            "powerArmour": "动力装甲"
+            "diagrams": "图表"
           },
           "locations": {
-            "title": "地点"
-          },
-          "miscellaneous": {
-            "title": "各种各样的",
-            "holotapes": "全息带"
+            "main": "主要的"
           }
         },
         "dlc": {
-          "automatron": "自动机",
-          "farHarbor": "远港",
-          "nukaWorld": "核子世界",
-          "vaultTecWorkshop": "Vault-Tec 研讨会"
+          "bloodAndWine": "血与酒",
+          "heartsOfStone": "石之心"
         }
       }
     }
@@ -171,15 +224,17 @@
     "common": {
       "appTitle": "Người theo chủ nghĩa hoàn thiện.",
       "welcome": "Chào mừng",
+      "continue": "Tiếp tục",
       "search": "Tìm kiếm các mục...",
       "showMore": "Cho xem nhiều hơn",
       "none": "Không có",
       "main": "Chủ yếu",
+      "changesLeft": "THAY ĐỔI TRÁI: ",
       "active": "TÍCH CỰC",
       "inactive": "KHÔNG HOẠT ĐỘNG",
       "auth": {
         "email": "E-mail",
-        "password": "Mật khẩu",
+        "userpw": "Mật khẩu",
         "username": "tên tài khoản",
         "forgotPassword": "Quên mật khẩu?",
         "login": "Đăng nhập",
@@ -197,15 +252,23 @@
         "gameSelection": "Lựa chọn trò chơi",
         "sendRequest": "Gửi yêu cầu",
         "subscriptions": "Đăng ký",
+        "selectAGame": "Chọn một trò chơi",
+        "addSteamId": "Thêm ID hơi nước",
+        "steamAchievements": "Thành tựu hơi nước",
         "payments": "Sự chi trả",
-        "settings": "Cài đặt"
+        "settings": "Cài đặt",
+        "accountDetails": "Chi tiết tài khoản"
+      },
+      "selectGame": {
+        "selectGameDesc1": "Với tài khoản Miễn phí, bạn có thể chọn một trò chơi mỗi tháng để theo dõi.",
+        "selectGameDesc2": "Chọn trò chơi đầu tiên của bạn dưới đây!",
+        "selectGameDesc3": "Đừng lo lắng nếu bạn mắc lỗi, bạn sẽ có thể thay đổi điều này hai lần mỗi tháng"
       },
       "subscriptions": {
-        "subscriptionDesc": "Với đăng ký Bạc hoặc Vàng,\n",
+        "subscriptionDesc": "Với đăng ký Premium,\n",
         "purchaseSubscription": "Mua đăng ký",
-        "bronze": "đồng",
-        "silver": "Bạc",
-        "gold": "Vàng",
+        "free": "Miễn phí",
+        "premium": "Phần thưởng",
         "accessMultipleGames": "Truy cập vào nhiều trò chơi",
         "noAds": "Không quảng cáo",
         "withAds": "Có quảng cáo",
@@ -235,13 +298,41 @@
         "enabledDLC": "Bật/Tắt DLC:",
         "showHide": "Hiện an:",
         "completedItems": "Các mục đã hoàn thành",
-        "disabledSections": "Phần bị vô hiệu hóa"
+        "disabledSections": "Phần bị vô hiệu hóa",
+        "changeAccountDetails": "Thay đổi chi tiết tài khoản",
+        "selectLanguage": "Chọn ngôn ngữ:"
+      },
+      "accountDetails": {
+        "changeUsername": "Thay đổi tên người dùng",
+        "changeEmail": "Thay đổi e-mail",
+        "changePassword": "Đổi mật khẩu",
+        "updateDetails": "Cập nhật chi tiết"
+      },
+      "steamAchievements": {
+        "addSteamIdStep1": "Bước 1. Tìm và thêm ID Steam của bạn",
+        "addSteamIdDesc1": "Để tìm ID steam của bạn, hãy truy cập Steam và chọn 'Xem hồ sơ'.",
+        "addSteamIdDesc2": "Bạn có thể tìm thấy ID ở đầu hồ sơ của mình. ",
+        "addSteamIdStep2": "Bước 2. Cập nhật tùy chọn quyền riêng tư của bạn",
+        "addSteamIdDesc3": "Bạn cũng sẽ cần đảm bảo hồ sơ của bạn được công khai.",
+        "addSteamIdDesc4": "Bạn có thể thực hiện việc này bằng cách đi tới Tùy chọn Steam -> Cài đặt quyền riêng tư",
+        "steamIdPlaceholder": "ID hơi nước"
       },
       "errors": {
         "error": "Lỗi",
         "pleaseRefreshApp": "Vui lòng làm mới ứng dụng",
+        "emailAlreadyExists": "Email đã tồn tại.",
+        "emailNotFound": "Không tìm thấy email",
         "noEmailExists": "Email không tồn tại",
-        "googleSignIn": "Lỗi đăng nhập google"
+        "checkCredentials": "Vui lòng kiểm tra thông tin xác thực của bạn và thử lại.",
+        "incorrectPw": "Mật khẩu không đúng. ",
+        "googleSignIn": "Lỗi đăng nhập bằng Google"
+      },
+      "alerts": {
+        "activate": "Kích hoạt",
+        "cancel": "Hủy bỏ",
+        "changesLeft": "Bạn sẽ có {{changesLeft}} thay đổi{{s}} bên trái.",
+        "noChangesLeft": "Không còn thay đổi nào",
+        "noChangesLeftMessage": "Rất tiếc, bạn không còn thay đổi trò chơi nào trong tháng này.\n "
       },
       "languages": {
         "ar": "tiếng Ả Rập",
@@ -260,11 +351,39 @@
       }
     },
     "categories": {
+      "fallout4": {
+        "title": "bụi phóng xạ 4",
+        "categories": {
+          "quests": {
+            "mainQuests": "Nhiệm vụ chính",
+            "factionQuests": "Nhiệm vụ phe phái",
+            "sideQuests": "Nhiệm vụ phụ"
+          },
+          "collectables": {
+            "bobbleheads": "tóc bồng bềnh",
+            "magazines": "Tạp chí thời sự",
+            "uniqueWeapons": "Vũ khí độc đáo",
+            "uniqueArmour": "Giáp độc nhất",
+            "powerArmour": "Giáp sức mạnh"
+          },
+          "locations": {
+            "main": "Chủ yếu"
+          },
+          "miscellaneous": {
+            "holotapes": "ảnh ba chiều"
+          }
+        },
+        "dlc": {
+          "automatron": "Máy tự động",
+          "farHarbor": "Cảng xa",
+          "nukaWorld": "Thế giới Nuka",
+          "vaultTecWorkshop": "Hội thảo Vault-Tec"
+        }
+      },
       "skyrim": {
         "title": "Skyrim",
         "categories": {
           "quests": {
-            "title": "Nhiệm vụ",
             "mainQuests": "Nhiệm vụ chính",
             "factionQuests": "Nhiệm vụ phe phái",
             "civilWar": "Nội chiến",
@@ -275,7 +394,6 @@
             "globalQuests": "Nhiệm vụ toàn cầu"
           },
           "collectables": {
-            "title": "Đồ sưu tầm",
             "dragonPriestMasks": "Mặt nạ linh mục rồng",
             "daedricArtefacts": "Cổ vật Daedric",
             "bugInAJar": "Lỗi trong lọ",
@@ -286,10 +404,9 @@
             "stones": "Đá"
           },
           "locations": {
-            "title": "Địa điểm"
+            "main": "Chủ yếu"
           },
           "miscellaneous": {
-            "title": "Điều khoản khác",
             "books": "Sách",
             "spellTomes": "Sách đánh vần",
             "journals": "tạp chí"
@@ -301,36 +418,25 @@
           "hearthfire": "lửa lò sưởi"
         }
       },
-      "fallout4": {
-        "title": "bụi phóng xạ 4",
+      "witcher3": {
+        "title": "The Witcher 3: Cuộc săn hoang dã",
         "categories": {
           "quests": {
-            "title": "Nhiệm vụ",
             "mainQuests": "Nhiệm vụ chính",
-            "factionQuests": "Nhiệm vụ phe phái",
-            "sideQuests": "Nhiệm vụ phụ"
+            "secondaryQuests": "Nhiệm vụ phụ",
+            "contracts": "Hợp đồng",
+            "treasureHunts": "Săn lùng kho báu"
           },
           "collectables": {
-            "title": "Đồ sưu tầm",
-            "bobbleheads": "tóc bồng bềnh",
-            "magazines": "Tạp chí thời sự",
-            "uniqueWeapons": "Vũ khí độc đáo",
-            "uniqueArmour": "Giáp độc nhất",
-            "powerArmour": "Giáp sức mạnh"
+            "diagrams": "Sơ đồ"
           },
           "locations": {
-            "title": "Địa điểm"
-          },
-          "miscellaneous": {
-            "title": "Điều khoản khác",
-            "holotapes": "ảnh ba chiều"
+            "main": "Chủ yếu"
           }
         },
         "dlc": {
-          "automatron": "Máy tự động",
-          "farHarbor": "Cảng xa",
-          "nukaWorld": "Thế giới Nuka",
-          "vaultTecWorkshop": "Hội thảo Vault-Tec"
+          "bloodAndWine": "Máu Và Rượu",
+          "heartsOfStone": "trái tim bằng đá"
         }
       }
     }
@@ -339,15 +445,17 @@
     "common": {
       "appTitle": "Tamamlayıcı.",
       "welcome": "Hoş geldin",
+      "continue": "Devam etmek",
       "search": "Öğeleri ara...",
       "showMore": "Daha fazla göster",
       "none": "Hiçbiri",
       "main": "Ana",
+      "changesLeft": "KALDI DEĞİŞİKLİKLER: ",
       "active": "AKTİF",
       "inactive": "AKTİF DEĞİL",
       "auth": {
         "email": "E-posta",
-        "password": "Şifre",
+        "userpw": "Şifre",
         "username": "Kullanıcı adı",
         "forgotPassword": "Parolanızı mı unuttunuz?",
         "login": "Giriş yapmak",
@@ -365,15 +473,23 @@
         "gameSelection": "Oyun Seçimi",
         "sendRequest": "İstek gönder",
         "subscriptions": "Abonelikler",
+        "selectAGame": "Bir Oyun Seçin",
+        "addSteamId": "Steam Kimliği Ekle",
+        "steamAchievements": "Steam Başarıları",
         "payments": "Ödeme",
-        "settings": "Ayarlar"
+        "settings": "Ayarlar",
+        "accountDetails": "hesap detayları"
+      },
+      "selectGame": {
+        "selectGameDesc1": "Ücretsiz bir hesapla, takip etmek için ayda bir oyun seçebilirsiniz.",
+        "selectGameDesc2": "Aşağıdan ilk oyununuzu seçin!",
+        "selectGameDesc3": "Hata yaparsanız endişelenmeyin, bunu ayda iki kez değiştirebileceksiniz."
       },
       "subscriptions": {
-        "subscriptionDesc": "Silver veya Gold abonelikle,\n",
+        "subscriptionDesc": "Premium abonelikle,\n",
         "purchaseSubscription": "Abonelik Satın Al",
-        "bronze": "Bronz",
-        "silver": "Gümüş",
-        "gold": "Altın",
+        "free": "Özgür",
+        "premium": "Ödül",
         "accessMultipleGames": "Birden fazla oyuna erişim",
         "noAds": "Reklamsız",
         "withAds": "Reklamlı",
@@ -403,13 +519,41 @@
         "enabledDLC": "DLC'yi Etkinleştir/Devre Dışı Bırak:",
         "showHide": "Göster/Gizle:",
         "completedItems": "Tamamlanan Öğeler",
-        "disabledSections": "Engelli Bölümleri"
+        "disabledSections": "Engelli Bölümler",
+        "changeAccountDetails": "Hesap Ayrıntılarını Değiştir",
+        "selectLanguage": "Dil Seçin:"
+      },
+      "accountDetails": {
+        "changeUsername": "Kullanıcı adını değiştir",
+        "changeEmail": "Değişim e-posta",
+        "changePassword": "Şifre değiştir",
+        "updateDetails": "Ayrıntıları Güncelle"
+      },
+      "steamAchievements": {
+        "addSteamIdStep1": "1. Adım. Steam Kimliğinizi bulun ve ekleyin",
+        "addSteamIdDesc1": "Steam kimliğinizi bulmak için Steam'e gidin ve 'Profili Görüntüle'yi seçin.",
+        "addSteamIdDesc2": "Kimliği profilinizin üst kısmında bulabilirsiniz. ",
+        "addSteamIdStep2": "2. Adım. Gizlilik tercihlerinizi güncelleyin",
+        "addSteamIdDesc3": "Ayrıca profilinizin herkese açık olduğundan da emin olmanız gerekir.",
+        "addSteamIdDesc4": "Bunu Steam Tercihleri ​​-> Gizlilik Ayarları'na giderek yapabilirsiniz.",
+        "steamIdPlaceholder": "Steam Kimliği"
       },
       "errors": {
         "error": "Hata",
         "pleaseRefreshApp": "Lütfen uygulamayı yenileyin",
+        "emailAlreadyExists": "Bu e-posta zaten var.",
+        "emailNotFound": "Email bulunamadı",
         "noEmailExists": "E-posta mevcut değil",
-        "googleSignIn": "Google oturum açma hatası"
+        "checkCredentials": "Lütfen kimlik bilgilerinizi kontrol edip tekrar deneyin.",
+        "incorrectPw": "Yanlış parola. ",
+        "googleSignIn": "Google ile Oturum Açma Hatası"
+      },
+      "alerts": {
+        "activate": "Etkinleştir",
+        "cancel": "İptal etmek",
+        "changesLeft": "Sahip olacaksın {{changesLeft}} değiştirmek{{s}} sol.",
+        "noChangesLeft": "Hiçbir Değişiklik Kalmadı",
+        "noChangesLeftMessage": "Üzgünüz, bu ay için oyun değişikliğiniz kalmadı.\n "
       },
       "languages": {
         "ar": "Arapça",
@@ -428,11 +572,39 @@
       }
     },
     "categories": {
+      "fallout4": {
+        "title": "Serpinti 4",
+        "categories": {
+          "quests": {
+            "mainQuests": "Ana Görevler",
+            "factionQuests": "Fraksiyon Görevleri",
+            "sideQuests": "Yan Görevler"
+          },
+          "collectables": {
+            "bobbleheads": "Bobblehead'ler",
+            "magazines": "Dergiler",
+            "uniqueWeapons": "Benzersiz Silahlar",
+            "uniqueArmour": "Benzersiz Zırh",
+            "powerArmour": "Güç Zırhı"
+          },
+          "locations": {
+            "main": "Ana"
+          },
+          "miscellaneous": {
+            "holotapes": "Sanal bantlar"
+          }
+        },
+        "dlc": {
+          "automatron": "Otomatron",
+          "farHarbor": "Uzak Liman",
+          "nukaWorld": "Nuka-Dünya",
+          "vaultTecWorkshop": "Vault-Tec Atölyesi"
+        }
+      },
       "skyrim": {
         "title": "Skyrim",
         "categories": {
           "quests": {
-            "title": "Görevler",
             "mainQuests": "Ana Görevler",
             "factionQuests": "Fraksiyon Görevleri",
             "civilWar": "İç savaş",
@@ -443,8 +615,7 @@
             "globalQuests": "Küresel Görevler"
           },
           "collectables": {
-            "title": "Koleksiyon parçaları",
-            "dragonPriestMasks": "Ejderha Rahibi Maskeleri",
+            "dragonPriestMasks": "Ejderha Rahip Maskeleri",
             "daedricArtefacts": "Daedrik Eserler",
             "bugInAJar": "Kavanozdaki Böcek",
             "shouts": "Bağırışlar",
@@ -454,10 +625,9 @@
             "stones": "Taşlar"
           },
           "locations": {
-            "title": "Konumlar"
+            "main": "Ana"
           },
           "miscellaneous": {
-            "title": "Çeşitli",
             "books": "Kitabın",
             "spellTomes": "Büyü Kitapları",
             "journals": "Günlükler"
@@ -469,36 +639,25 @@
           "hearthfire": "Ocak ateşi"
         }
       },
-      "fallout4": {
-        "title": "Fallout 4",
+      "witcher3": {
+        "title": "Witcher 3: Vahşi Av",
         "categories": {
           "quests": {
-            "title": "Görevler",
             "mainQuests": "Ana Görevler",
-            "factionQuests": "Fraksiyon Görevleri",
-            "sideQuests": "Yan Görevler"
+            "secondaryQuests": "İkincil Görevler",
+            "contracts": "Sözleşmeler",
+            "treasureHunts": "Hazine avı"
           },
           "collectables": {
-            "title": "Koleksiyon parçaları",
-            "bobbleheads": "Bobblehead'ler",
-            "magazines": "Dergiler",
-            "uniqueWeapons": "Benzersiz Silahlar",
-            "uniqueArmour": "Benzersiz Zırh",
-            "powerArmour": "Güç Zırhı"
+            "diagrams": "Diyagramlar"
           },
           "locations": {
-            "title": "Konumlar"
-          },
-          "miscellaneous": {
-            "title": "Çeşitli",
-            "holotapes": "Sanal bantlar"
+            "main": "Ana"
           }
         },
         "dlc": {
-          "automatron": "Otomatron",
-          "farHarbor": "Uzak Liman",
-          "nukaWorld": "Nuka-Dünya",
-          "vaultTecWorkshop": "Vault-Tec Atölyesi"
+          "bloodAndWine": "Kan ve Şarap",
+          "heartsOfStone": "Taş Kalpler"
         }
       }
     }
@@ -507,15 +666,17 @@
     "common": {
       "appTitle": "Completista.",
       "welcome": "Bem-vindo",
+      "continue": "Continuar",
       "search": "Pesquisar itens...",
       "showMore": "Mostre mais",
       "none": "Nenhum",
       "main": "Principal",
+      "changesLeft": "MUDANÇAS RESTANTES: ",
       "active": "ATIVO",
       "inactive": "INATIVO",
       "auth": {
         "email": "E-mail",
-        "password": "Senha",
+        "userpw": "Senha",
         "username": "Nome de usuário",
         "forgotPassword": "Esqueceu sua senha?",
         "login": "Conecte-se",
@@ -533,15 +694,23 @@
         "gameSelection": "Seleção de jogos",
         "sendRequest": "Enviar pedido",
         "subscriptions": "Assinaturas",
+        "selectAGame": "Selecione um jogo",
+        "addSteamId": "Adicionar ID Steam",
+        "steamAchievements": "Conquistas do Steam",
         "payments": "Pagamento",
-        "settings": "Configurações"
+        "settings": "Configurações",
+        "accountDetails": "Detalhes da conta"
+      },
+      "selectGame": {
+        "selectGameDesc1": "Com uma conta gratuita, você pode selecionar um jogo por mês para acompanhar.",
+        "selectGameDesc2": "Selecione seu primeiro jogo abaixo!",
+        "selectGameDesc3": "Não se preocupe se cometer um erro, você poderá alterar isso duas vezes por mês"
       },
       "subscriptions": {
-        "subscriptionDesc": "Com uma assinatura Silver ou Gold,\n",
+        "subscriptionDesc": "Com uma assinatura Premium,\n",
         "purchaseSubscription": "Comprar assinatura",
-        "bronze": "Bronze",
-        "silver": "Prata",
-        "gold": "Ouro",
+        "free": "Livre",
+        "premium": "Prêmio",
         "accessMultipleGames": "Acesso a vários jogos",
         "noAds": "Sem anúncios",
         "withAds": "Com anúncios",
@@ -571,13 +740,41 @@
         "enabledDLC": "Ativar/Desativar DLC:",
         "showHide": "Aparecer esconder:",
         "completedItems": "Itens concluídos",
-        "disabledSections": "Seções desativadas"
+        "disabledSections": "Seções desativadas",
+        "changeAccountDetails": "Alterar detalhes da conta",
+        "selectLanguage": "Selecione o idioma:"
+      },
+      "accountDetails": {
+        "changeUsername": "Mudar nome de usuário",
+        "changeEmail": "Mude o e-mail",
+        "changePassword": "Alterar a senha",
+        "updateDetails": "Detalhes da atualização"
+      },
+      "steamAchievements": {
+        "addSteamIdStep1": "Passo 1. Encontre e adicione seu Steam ID",
+        "addSteamIdDesc1": "Para encontrar seu ID Steam, acesse Steam e selecione ‘Ver perfil’.",
+        "addSteamIdDesc2": "Você pode encontrar o ID na parte superior do seu perfil. ",
+        "addSteamIdStep2": "Passo 2. Atualize suas preferências de privacidade",
+        "addSteamIdDesc3": "Você também precisará garantir que seu perfil seja público.",
+        "addSteamIdDesc4": "Você pode fazer isso acessando Preferências do Steam -> Configurações de privacidade",
+        "steamIdPlaceholder": "ID de vapor"
       },
       "errors": {
         "error": "Erro",
         "pleaseRefreshApp": "Atualize o aplicativo",
+        "emailAlreadyExists": "E-mail já existe.",
+        "emailNotFound": "Email não encontrado",
         "noEmailExists": "E-mail não existe",
-        "googleSignIn": "Erro ao fazer login no Google"
+        "checkCredentials": "Verifique suas credenciais e tente novamente.",
+        "incorrectPw": "Senha incorreta. ",
+        "googleSignIn": "Erro com login do Google"
+      },
+      "alerts": {
+        "activate": "Ativar",
+        "cancel": "Cancelar",
+        "changesLeft": "Voce terá {{changesLeft}} mudar{{s}} esquerda.",
+        "noChangesLeft": "Nenhuma alteração restante",
+        "noChangesLeftMessage": "Desculpe, você não tem mais alterações no jogo para este mês.\n "
       },
       "languages": {
         "ar": "árabe",
@@ -596,13 +793,41 @@
       }
     },
     "categories": {
+      "fallout4": {
+        "title": "Efeito Fallout 4",
+        "categories": {
+          "quests": {
+            "mainQuests": "Missões principais",
+            "factionQuests": "Missões de Facção",
+            "sideQuests": "Missões paralelas"
+          },
+          "collectables": {
+            "bobbleheads": "Bobbleheads",
+            "magazines": "Revistas",
+            "uniqueWeapons": "Armas únicas",
+            "uniqueArmour": "Armadura Única",
+            "powerArmour": "Armadura Potente"
+          },
+          "locations": {
+            "main": "Principal"
+          },
+          "miscellaneous": {
+            "holotapes": "Holotapes"
+          }
+        },
+        "dlc": {
+          "automatron": "Autômato",
+          "farHarbor": "Porto Distante",
+          "nukaWorld": "Nuka-Mundo",
+          "vaultTecWorkshop": "Oficina Vault-Tec"
+        }
+      },
       "skyrim": {
         "title": "Skyrim",
         "categories": {
           "quests": {
-            "title": "Missões",
             "mainQuests": "Missões principais",
-            "factionQuests": "Missões de facção",
+            "factionQuests": "Missões de Facção",
             "civilWar": "Guerra civil",
             "daedricQuests": "Missões Daédricas",
             "dungeonQuests": "Missões de masmorra",
@@ -611,7 +836,6 @@
             "globalQuests": "Missões Globais"
           },
           "collectables": {
-            "title": "Colecionáveis",
             "dragonPriestMasks": "Máscaras de Sacerdote Dragão",
             "daedricArtefacts": "Artefatos Daédricos",
             "bugInAJar": "Bug em uma jarra",
@@ -622,10 +846,9 @@
             "stones": "Pedras"
           },
           "locations": {
-            "title": "Localizações"
+            "main": "Principal"
           },
           "miscellaneous": {
-            "title": "Diversos",
             "books": "Livros",
             "spellTomes": "Tomos de feitiços",
             "journals": "Diários"
@@ -637,36 +860,25 @@
           "hearthfire": "Lareira"
         }
       },
-      "fallout4": {
-        "title": "Fallout 4",
+      "witcher3": {
+        "title": "The Witcher 3: Caça Selvagem",
         "categories": {
           "quests": {
-            "title": "Missões",
             "mainQuests": "Missões principais",
-            "factionQuests": "Missões de facção",
-            "sideQuests": "Missões paralelas"
+            "secondaryQuests": "Missões Secundárias",
+            "contracts": "Contratos",
+            "treasureHunts": "Caças ao tesouro"
           },
           "collectables": {
-            "title": "Colecionáveis",
-            "bobbleheads": "Bobbleheads",
-            "magazines": "Revistas",
-            "uniqueWeapons": "Armas únicas",
-            "uniqueArmour": "Armadura Única",
-            "powerArmour": "Armadura Potente"
+            "diagrams": "Diagramas"
           },
           "locations": {
-            "title": "Localizações"
-          },
-          "miscellaneous": {
-            "title": "Diversos",
-            "holotapes": "Holotapes"
+            "main": "Principal"
           }
         },
         "dlc": {
-          "automatron": "Autômato",
-          "farHarbor": "Porto Distante",
-          "nukaWorld": "Nuka-Mundo",
-          "vaultTecWorkshop": "Oficina Vault-Tec"
+          "bloodAndWine": "Sangue e Vinho",
+          "heartsOfStone": "Corações de pedra"
         }
       }
     }
@@ -675,15 +887,17 @@
     "common": {
       "appTitle": "完璧主義者。",
       "welcome": "いらっしゃいませ",
+      "continue": "続く",
       "search": "アイテムを検索...",
       "showMore": "もっと見せる",
       "none": "なし",
       "main": "主要",
+      "changesLeft": "残った変更点: ",
       "active": "アクティブ",
       "inactive": "非活性",
       "auth": {
         "email": "Eメール",
-        "password": "パスワード",
+        "userpw": "パスワード",
         "username": "ユーザー名",
         "forgotPassword": "パスワードをお忘れですか？",
         "login": "ログイン",
@@ -701,15 +915,23 @@
         "gameSelection": "ゲームの選択",
         "sendRequest": "リクエストの送信",
         "subscriptions": "定期購入",
+        "selectAGame": "ゲームを選択してください",
+        "addSteamId": "Steam IDの追加",
+        "steamAchievements": "Steam の実績",
         "payments": "支払い",
-        "settings": "設定"
+        "settings": "設定",
+        "accountDetails": "アカウント詳細"
+      },
+      "selectGame": {
+        "selectGameDesc1": "無料アカウントでは、毎月 1 つのゲームを選択して追跡できます。",
+        "selectGameDesc2": "最初のゲームを以下から選択してください。",
+        "selectGameDesc3": "間違っても心配しないでください。月に 2 回変更できます。"
       },
       "subscriptions": {
-        "subscriptionDesc": "シルバーまたはゴールドのサブスクリプションでは、\n",
+        "subscriptionDesc": "プレミアムサブスクリプションでは、\n",
         "purchaseSubscription": "サブスクリプションを購入する",
-        "bronze": "ブロンズ",
-        "silver": "銀",
-        "gold": "金",
+        "free": "無料",
+        "premium": "プレミアム",
         "accessMultipleGames": "複数のゲームへのアクセス",
         "noAds": "広告なし",
         "withAds": "広告あり",
@@ -739,13 +961,41 @@
         "enabledDLC": "DLC を有効/無効にする:",
         "showHide": "表示/非表示:",
         "completedItems": "完成品",
-        "disabledSections": "無効化されたセクション"
+        "disabledSections": "無効化されたセクション",
+        "changeAccountDetails": "アカウント詳細の変更",
+        "selectLanguage": "言語を選択する："
+      },
+      "accountDetails": {
+        "changeUsername": "ユーザー名の変更",
+        "changeEmail": "メールアドレスを変更",
+        "changePassword": "パスワードを変更する",
+        "updateDetails": "アップデートの詳細"
+      },
+      "steamAchievements": {
+        "addSteamIdStep1": "ステップ 1. Steam ID を見つけて追加します",
+        "addSteamIdDesc1": "Steam ID を確認するには、Steam に移動し、[プロフィールを表示] を選択します。",
+        "addSteamIdDesc2": "ID はプロフィールの上部にあります。",
+        "addSteamIdStep2": "ステップ 2. プライバシー設定を更新する",
+        "addSteamIdDesc3": "また、プロフィールが公開されていることを確認する必要もあります。",
+        "addSteamIdDesc4": "これを行うには、「Steam 設定 -> プライバシー設定」に進みます。",
+        "steamIdPlaceholder": "スチームID"
       },
       "errors": {
         "error": "エラー",
         "pleaseRefreshApp": "アプリを更新してください",
+        "emailAlreadyExists": "メールは既に存在します。",
+        "emailNotFound": "メールが見つかりません",
         "noEmailExists": "電子メールが存在しません",
-        "googleSignIn": "Googleサインインでエラーが発生する"
+        "checkCredentials": "資格情報を確認して、再試行してください。",
+        "incorrectPw": "パスワードが間違っています。",
+        "googleSignIn": "Googleサインインでのエラー"
+      },
+      "alerts": {
+        "activate": "活性化",
+        "cancel": "キャンセル",
+        "changesLeft": "あなたは持っています {{changesLeft}} 変化{{s}} 左。",
+        "noChangesLeft": "変更は残っていない",
+        "noChangesLeftMessage": "申し訳ありませんが、今月はゲーム変更が残っていません。\n "
       },
       "languages": {
         "ar": "アラビア語",
@@ -764,11 +1014,39 @@
       }
     },
     "categories": {
+      "fallout4": {
+        "title": "フォールアウト4",
+        "categories": {
+          "quests": {
+            "mainQuests": "メインクエスト",
+            "factionQuests": "派閥クエスト",
+            "sideQuests": "サイドクエスト"
+          },
+          "collectables": {
+            "bobbleheads": "ボブルヘッド",
+            "magazines": "雑誌",
+            "uniqueWeapons": "ユニークな武器",
+            "uniqueArmour": "ユニークな鎧",
+            "powerArmour": "パワーアーマー"
+          },
+          "locations": {
+            "main": "主要"
+          },
+          "miscellaneous": {
+            "holotapes": "ホロテープ"
+          }
+        },
+        "dlc": {
+          "automatron": "オートマトロン",
+          "farHarbor": "ファーハーバー",
+          "nukaWorld": "ヌカ・ワールド",
+          "vaultTecWorkshop": "Vault-Tec ワークショップ"
+        }
+      },
       "skyrim": {
         "title": "スカイリム",
         "categories": {
           "quests": {
-            "title": "クエスト",
             "mainQuests": "メインクエスト",
             "factionQuests": "派閥クエスト",
             "civilWar": "内戦",
@@ -779,7 +1057,6 @@
             "globalQuests": "グローバルクエスト"
           },
           "collectables": {
-            "title": "収集品",
             "dragonPriestMasks": "ドラゴン プリーストの仮面",
             "daedricArtefacts": "デイドラアーティファクト",
             "bugInAJar": "瓶の中の虫",
@@ -790,10 +1067,9 @@
             "stones": "石"
           },
           "locations": {
-            "title": "所在地"
+            "main": "主要"
           },
           "miscellaneous": {
-            "title": "その他",
             "books": "本",
             "spellTomes": "呪文の本",
             "journals": "雑誌"
@@ -805,36 +1081,25 @@
           "hearthfire": "ハースファイア"
         }
       },
-      "fallout4": {
-        "title": "Fallout 4",
+      "witcher3": {
+        "title": "ウィッチャー3: ワイルドハント",
         "categories": {
           "quests": {
-            "title": "クエスト",
             "mainQuests": "メインクエスト",
-            "factionQuests": "派閥クエスト",
-            "sideQuests": "サイドクエスト"
+            "secondaryQuests": "二次クエスト",
+            "contracts": "契約",
+            "treasureHunts": "宝探し"
           },
           "collectables": {
-            "title": "収集品",
-            "bobbleheads": "ボブルヘッド",
-            "magazines": "雑誌",
-            "uniqueWeapons": "ユニークな武器",
-            "uniqueArmour": "ユニークな鎧",
-            "powerArmour": "パワーアーマー"
+            "diagrams": "図表"
           },
           "locations": {
-            "title": "所在地"
-          },
-          "miscellaneous": {
-            "title": "その他",
-            "holotapes": "ホロテープ"
+            "main": "主要"
           }
         },
         "dlc": {
-          "automatron": "オートマトロン",
-          "farHarbor": "ファーハーバー",
-          "nukaWorld": "ヌカ・ワールド",
-          "vaultTecWorkshop": "Vault-Tec ワークショップ"
+          "bloodAndWine": "血とワイン",
+          "heartsOfStone": "ハーツ・オブ・ストーン"
         }
       }
     }
@@ -843,15 +1108,17 @@
     "common": {
       "appTitle": "Complezionista.",
       "welcome": "Benvenuto",
+      "continue": "Continua",
       "search": "Cerca elementi...",
       "showMore": "Mostra di più",
       "none": "Nessuno",
       "main": "Principale",
+      "changesLeft": "CAMBIAMENTI RIMASTI: ",
       "active": "ATTIVO",
       "inactive": "INATTIVO",
       "auth": {
         "email": "E-mail",
-        "password": "Parola d'ordine",
+        "userpw": "Parola d'ordine",
         "username": "Nome utente",
         "forgotPassword": "Ha dimenticato la password?",
         "login": "Login",
@@ -869,15 +1136,23 @@
         "gameSelection": "Selezione del gioco",
         "sendRequest": "Invia richiesta",
         "subscriptions": "Abbonamenti",
+        "selectAGame": "Seleziona un gioco",
+        "addSteamId": "Aggiungi l'ID Steam",
+        "steamAchievements": "Risultati di Steam",
         "payments": "Pagamento",
-        "settings": "Impostazioni"
+        "settings": "Impostazioni",
+        "accountDetails": "Dettagli account"
+      },
+      "selectGame": {
+        "selectGameDesc1": "Con un account gratuito, puoi selezionare un gioco al mese da monitorare.",
+        "selectGameDesc2": "Seleziona il tuo primo gioco qui sotto!",
+        "selectGameDesc3": "Non preoccuparti se commetti un errore, potrai modificarlo due volte al mese"
       },
       "subscriptions": {
-        "subscriptionDesc": "Con un abbonamento Silver o Gold,\n",
+        "subscriptionDesc": "Con un abbonamento Premium,\n",
         "purchaseSubscription": "Acquista abbonamento",
-        "bronze": "Bronzo",
-        "silver": "Argento",
-        "gold": "Oro",
+        "free": "Gratuito",
+        "premium": "Premio",
         "accessMultipleGames": "Accesso a più giochi",
         "noAds": "Nessuna pubblicità",
         "withAds": "Con annunci",
@@ -907,13 +1182,41 @@
         "enabledDLC": "Abilita/Disabilita DLC:",
         "showHide": "Mostra nascondi:",
         "completedItems": "Articoli completati",
-        "disabledSections": "Sezioni disabili"
+        "disabledSections": "Sezioni disabili",
+        "changeAccountDetails": "Modifica i dettagli dell'account",
+        "selectLanguage": "Seleziona la lingua:"
+      },
+      "accountDetails": {
+        "changeUsername": "Cambia nome utente",
+        "changeEmail": "Cambia email",
+        "changePassword": "Cambiare la password",
+        "updateDetails": "Aggiorna dettagli"
+      },
+      "steamAchievements": {
+        "addSteamIdStep1": "Passaggio 1. Trova e aggiungi il tuo ID Steam",
+        "addSteamIdDesc1": "Per trovare il tuo ID Steam, vai su Steam e seleziona \"Visualizza profilo\".",
+        "addSteamIdDesc2": "Puoi trovare l'ID nella parte superiore del tuo profilo. ",
+        "addSteamIdStep2": "Passaggio 2. Aggiorna le tue preferenze sulla privacy",
+        "addSteamIdDesc3": "Dovrai anche assicurarti che il tuo profilo sia pubblico.",
+        "addSteamIdDesc4": "Puoi farlo andando su Preferenze di Steam -> Impostazioni sulla privacy",
+        "steamIdPlaceholder": "ID di Steam"
       },
       "errors": {
         "error": "Errore",
         "pleaseRefreshApp": "Aggiorna l'app",
+        "emailAlreadyExists": "Email già esistente.",
+        "emailNotFound": "E-mail non trovata",
         "noEmailExists": "L'e-mail non esiste",
+        "checkCredentials": "Controlla le tue credenziali e riprova.",
+        "incorrectPw": "Password errata. ",
         "googleSignIn": "Errore con l'accesso a Google"
+      },
+      "alerts": {
+        "activate": "Attivare",
+        "cancel": "Annulla",
+        "changesLeft": "Tu avrai {{changesLeft}} modifica{{s}} Sinistra.",
+        "noChangesLeft": "Nessuna modifica rimasta",
+        "noChangesLeftMessage": "Siamo spiacenti, non sono rimaste modifiche al gioco per questo mese.\n "
       },
       "languages": {
         "ar": "Arabo",
@@ -932,11 +1235,39 @@
       }
     },
     "categories": {
+      "fallout4": {
+        "title": "Fallout 4",
+        "categories": {
+          "quests": {
+            "mainQuests": "Missioni principali",
+            "factionQuests": "Missioni di fazione",
+            "sideQuests": "Missioni secondarie"
+          },
+          "collectables": {
+            "bobbleheads": "Teste molleggiate",
+            "magazines": "Riviste",
+            "uniqueWeapons": "Armi uniche",
+            "uniqueArmour": "Armatura unica",
+            "powerArmour": "Armatura potenziata"
+          },
+          "locations": {
+            "main": "Principale"
+          },
+          "miscellaneous": {
+            "holotapes": "Olonastri"
+          }
+        },
+        "dlc": {
+          "automatron": "Automatron",
+          "farHarbor": "Porto lontano",
+          "nukaWorld": "Mondo Nuka",
+          "vaultTecWorkshop": "Workshop Vault-Tec"
+        }
+      },
       "skyrim": {
         "title": "Skyrim",
         "categories": {
           "quests": {
-            "title": "Missioni",
             "mainQuests": "Missioni principali",
             "factionQuests": "Missioni di fazione",
             "civilWar": "Guerra civile",
@@ -947,7 +1278,6 @@
             "globalQuests": "Missioni globali"
           },
           "collectables": {
-            "title": "Oggetti da collezione",
             "dragonPriestMasks": "Maschere del Sacerdote Drago",
             "daedricArtefacts": "Manufatti daedrici",
             "bugInAJar": "Insetto in un barattolo",
@@ -958,10 +1288,9 @@
             "stones": "Pietre"
           },
           "locations": {
-            "title": "Posizioni"
+            "main": "Principale"
           },
           "miscellaneous": {
-            "title": "Varie",
             "books": "Libri",
             "spellTomes": "Tomi di incantesimi",
             "journals": "Riviste"
@@ -973,36 +1302,25 @@
           "hearthfire": "Focolare"
         }
       },
-      "fallout4": {
-        "title": "Fallout 4",
+      "witcher3": {
+        "title": "The Witcher 3: Caccia Selvaggia",
         "categories": {
           "quests": {
-            "title": "Missioni",
             "mainQuests": "Missioni principali",
-            "factionQuests": "Missioni di fazione",
-            "sideQuests": "Missioni secondarie"
+            "secondaryQuests": "Missioni secondarie",
+            "contracts": "Contratti",
+            "treasureHunts": "Cacce al tesoro"
           },
           "collectables": {
-            "title": "Oggetti da collezione",
-            "bobbleheads": "Teste molleggiate",
-            "magazines": "Riviste",
-            "uniqueWeapons": "Armi uniche",
-            "uniqueArmour": "Armatura unica",
-            "powerArmour": "Armatura potenziata"
+            "diagrams": "Diagrammi"
           },
           "locations": {
-            "title": "Posizioni"
-          },
-          "miscellaneous": {
-            "title": "Varie",
-            "holotapes": "Olonastri"
+            "main": "Principale"
           }
         },
         "dlc": {
-          "automatron": "Automatron",
-          "farHarbor": "Porto lontano",
-          "nukaWorld": "Mondo Nuka",
-          "vaultTecWorkshop": "Workshop Vault-Tec"
+          "bloodAndWine": "Sangue E Vino",
+          "heartsOfStone": "Cuori Di Pietra"
         }
       }
     }
@@ -1011,15 +1329,17 @@
     "common": {
       "appTitle": "Penyelesaian.",
       "welcome": "Selamat datang",
+      "continue": "Melanjutkan",
       "search": "Cari item...",
       "showMore": "Menampilkan lebih banyak",
       "none": "Tidak ada",
       "main": "Utama",
+      "changesLeft": "PERUBAHAN KIRI: ",
       "active": "AKTIF",
       "inactive": "TIDAK AKTIF",
       "auth": {
         "email": "Surel",
-        "password": "Kata sandi",
+        "userpw": "Kata sandi",
         "username": "Nama belakang",
         "forgotPassword": "Tidak ingat kata sandi?",
         "login": "Gabung",
@@ -1037,15 +1357,23 @@
         "gameSelection": "Pemilihan Permainan",
         "sendRequest": "Kirim Permintaan",
         "subscriptions": "Langganan",
+        "selectAGame": "Pilih Permainan",
+        "addSteamId": "Tambahkan ID Uap",
+        "steamAchievements": "Prestasi Uap",
         "payments": "Pembayaran",
-        "settings": "Pengaturan"
+        "settings": "Pengaturan",
+        "accountDetails": "Detail akun"
+      },
+      "selectGame": {
+        "selectGameDesc1": "Dengan akun Gratis, Anda dapat memilih satu game per bulan untuk dilacak.",
+        "selectGameDesc2": "Pilih game pertama Anda di bawah ini!",
+        "selectGameDesc3": "Jangan khawatir jika Anda melakukan kesalahan, Anda dapat mengubahnya dua kali sebulan"
       },
       "subscriptions": {
-        "subscriptionDesc": "Dengan langganan Perak atau Emas,\n",
+        "subscriptionDesc": "Dengan berlangganan Premium,\n",
         "purchaseSubscription": "Langganan Pembelian",
-        "bronze": "Perunggu",
-        "silver": "Perak",
-        "gold": "Emas",
+        "free": "Bebas",
+        "premium": "Premium",
         "accessMultipleGames": "Akses ke banyak permainan",
         "noAds": "Tanpa iklan",
         "withAds": "Dengan Iklan",
@@ -1075,13 +1403,41 @@
         "enabledDLC": "Aktifkan/Nonaktifkan DLC:",
         "showHide": "Tunjukan Sembunyikan:",
         "completedItems": "Barang Selesai",
-        "disabledSections": "Bagian yang Dinonaktifkan"
+        "disabledSections": "Bagian yang Dinonaktifkan",
+        "changeAccountDetails": "Ubah Detail Akun",
+        "selectLanguage": "Pilih bahasa:"
+      },
+      "accountDetails": {
+        "changeUsername": "Ubah Nama Pengguna",
+        "changeEmail": "Ganti e-mail",
+        "changePassword": "Ganti kata sandi",
+        "updateDetails": "Perbarui Detail"
+      },
+      "steamAchievements": {
+        "addSteamIdStep1": "Langkah 1. Temukan dan tambahkan ID Steam Anda",
+        "addSteamIdDesc1": "Untuk menemukan ID steam Anda, buka Steam dan pilih 'Lihat Profil'.",
+        "addSteamIdDesc2": "Anda dapat menemukan ID di bagian atas profil Anda. ",
+        "addSteamIdStep2": "Langkah 2. Perbarui preferensi privasi Anda",
+        "addSteamIdDesc3": "Anda juga perlu memastikan profil Anda bersifat publik.",
+        "addSteamIdDesc4": "Anda dapat melakukan ini dengan menuju ke Steam Preferences -> Privacy Settings",
+        "steamIdPlaceholder": "ID Uap"
       },
       "errors": {
         "error": "Kesalahan",
         "pleaseRefreshApp": "Harap segarkan aplikasi",
+        "emailAlreadyExists": "Email sudah ada.",
+        "emailNotFound": "Email Tidak Ditemukan",
         "noEmailExists": "Emailnya tidak ada",
-        "googleSignIn": "Kesalahan saat masuk Google"
+        "checkCredentials": "Silakan periksa kredensial Anda dan coba lagi.",
+        "incorrectPw": "Kata kunci Salah. ",
+        "googleSignIn": "Terjadi kesalahan saat Masuk dengan Google"
+      },
+      "alerts": {
+        "activate": "Mengaktifkan",
+        "cancel": "Membatalkan",
+        "changesLeft": "Anda akan memiliki {{changesLeft}} mengubah{{s}} kiri.",
+        "noChangesLeft": "Tidak Ada Perubahan Tersisa",
+        "noChangesLeftMessage": "Maaf, tidak ada perubahan permainan tersisa untuk bulan ini.\n "
       },
       "languages": {
         "ar": "Arab",
@@ -1100,11 +1456,39 @@
       }
     },
     "categories": {
+      "fallout4": {
+        "title": "Kejatuhan 4",
+        "categories": {
+          "quests": {
+            "mainQuests": "Quest Utama",
+            "factionQuests": "Pencarian Fraksi",
+            "sideQuests": "Pencarian Sampingan"
+          },
+          "collectables": {
+            "bobbleheads": "Bobblehead",
+            "magazines": "Majalah",
+            "uniqueWeapons": "Senjata Unik",
+            "uniqueArmour": "Baju Besi Unik",
+            "powerArmour": "Armor Kekuatan"
+          },
+          "locations": {
+            "main": "Utama"
+          },
+          "miscellaneous": {
+            "holotapes": "Holotape"
+          }
+        },
+        "dlc": {
+          "automatron": "robot",
+          "farHarbor": "Pelabuhan Jauh",
+          "nukaWorld": "Nuka-Dunia",
+          "vaultTecWorkshop": "Lokakarya Vault-Tec"
+        }
+      },
       "skyrim": {
         "title": "Skyrim",
         "categories": {
           "quests": {
-            "title": "Pencarian",
             "mainQuests": "Quest Utama",
             "factionQuests": "Pencarian Fraksi",
             "civilWar": "Perang sipil",
@@ -1115,7 +1499,6 @@
             "globalQuests": "Pencarian Global"
           },
           "collectables": {
-            "title": "Barang koleksi",
             "dragonPriestMasks": "Topeng Pendeta Naga",
             "daedricArtefacts": "Artefak Daedric",
             "bugInAJar": "Serangga dalam Toples",
@@ -1126,10 +1509,9 @@
             "stones": "Batu"
           },
           "locations": {
-            "title": "Lokasi"
+            "main": "Utama"
           },
           "miscellaneous": {
-            "title": "Aneka ragam",
             "books": "Buku",
             "spellTomes": "Eja Tomes",
             "journals": "Jurnal"
@@ -1141,36 +1523,25 @@
           "hearthfire": "api perapian"
         }
       },
-      "fallout4": {
-        "title": "Kejatuhan 4",
+      "witcher3": {
+        "title": "The Witcher 3: Perburuan Liar",
         "categories": {
           "quests": {
-            "title": "Pencarian",
             "mainQuests": "Quest Utama",
-            "factionQuests": "Pencarian Fraksi",
-            "sideQuests": "Pencarian Sampingan"
+            "secondaryQuests": "Quest Sekunder",
+            "contracts": "Kontrak",
+            "treasureHunts": "Perburuan Harta Karun"
           },
           "collectables": {
-            "title": "Barang koleksi",
-            "bobbleheads": "Bobblehead",
-            "magazines": "Majalah",
-            "uniqueWeapons": "Senjata Unik",
-            "uniqueArmour": "Baju Besi Unik",
-            "powerArmour": "Armor Kekuatan"
+            "diagrams": "Diagram"
           },
           "locations": {
-            "title": "Lokasi"
-          },
-          "miscellaneous": {
-            "title": "Aneka ragam",
-            "holotapes": "Holotape"
+            "main": "Utama"
           }
         },
         "dlc": {
-          "automatron": "robot",
-          "farHarbor": "Pelabuhan Jauh",
-          "nukaWorld": "Nuka-Dunia",
-          "vaultTecWorkshop": "Lokakarya Vault-Tec"
+          "bloodAndWine": "Darah dan Anggur",
+          "heartsOfStone": "Hati Batu"
         }
       }
     }
@@ -1179,15 +1550,17 @@
     "common": {
       "appTitle": "पूर्णतावादी।",
       "welcome": "स्वागत",
+      "continue": "जारी रखना",
       "search": "आइटम खोजें...",
       "showMore": "और दिखाओ",
       "none": "कोई नहीं",
       "main": "मुख्य",
+      "changesLeft": "परिवर्तन शेष: ",
       "active": "सक्रिय",
       "inactive": "निष्क्रिय",
       "auth": {
         "email": "ईमेल",
-        "password": "पासवर्ड",
+        "userpw": "पासवर्ड",
         "username": "उपयोगकर्ता नाम",
         "forgotPassword": "पासवर्ड भूल गए?",
         "login": "लॉग इन करें",
@@ -1205,19 +1578,27 @@
         "gameSelection": "खेल चयन",
         "sendRequest": "अनुरोध भेजा",
         "subscriptions": "सदस्यता",
+        "selectAGame": "एक गेम चुनें",
+        "addSteamId": "स्टीम आईडी जोड़ें",
+        "steamAchievements": "भाप उपलब्धियाँ",
         "payments": "भुगतान",
-        "settings": "समायोजन"
+        "settings": "समायोजन",
+        "accountDetails": "खाता विवरण"
+      },
+      "selectGame": {
+        "selectGameDesc1": "निःशुल्क खाते के साथ, आप ट्रैक करने के लिए प्रति माह एक गेम का चयन कर सकते हैं।",
+        "selectGameDesc2": "नीचे अपना पहला गेम चुनें!",
+        "selectGameDesc3": "यदि आपसे कोई गलती हो तो चिंता न करें, आप इसे प्रति माह दो बार बदल सकेंगे"
       },
       "subscriptions": {
-        "subscriptionDesc": "चांदी या सोने की सदस्यता के साथ,\n",
+        "subscriptionDesc": "प्रीमियम सदस्यता के साथ,\n",
         "purchaseSubscription": "सदस्यता खरीदें",
-        "bronze": "पीतल",
-        "silver": "चाँदी",
-        "gold": "सोना",
+        "free": "मुक्त",
+        "premium": "अधिमूल्य",
         "accessMultipleGames": "अनेक खेलों तक पहुंच",
         "noAds": "विज्ञापन नहीं",
         "withAds": "विज्ञापनों के साथ",
-        "accessSteam": "भाप उपलब्धियों तक पहुंचें",
+        "accessSteam": "भाप उपलब्धियों तक पहुँचें",
         "prerequisiteTracking": "स्वचालित पूर्वावश्यकता ट्रैकिंग",
         "accessPremiumFeatures": "प्रीमियम सुविधाओं तक पहुंच",
         "accessOneGame": "प्रति माह एक गेम तक पहुंच",
@@ -1243,13 +1624,41 @@
         "enabledDLC": "डीएलसी सक्षम/अक्षम करें:",
         "showHide": "छिपा हुया दिखाओ:",
         "completedItems": "पूर्ण आइटम",
-        "disabledSections": "विकलांग अनुभाग"
+        "disabledSections": "विकलांग अनुभाग",
+        "changeAccountDetails": "खाता विवरण बदलें",
+        "selectLanguage": "भाषा चुने:"
+      },
+      "accountDetails": {
+        "changeUsername": "उपयोगकर्ता नाम परिवर्तन करें",
+        "changeEmail": "बदले ई - मेल",
+        "changePassword": "पासवर्ड बदलें",
+        "updateDetails": "अद्यतन विवरण"
+      },
+      "steamAchievements": {
+        "addSteamIdStep1": "चरण 1. अपनी स्टीम आईडी ढूंढें और जोड़ें",
+        "addSteamIdDesc1": "अपनी स्टीम आईडी ढूंढने के लिए, स्टीम पर जाएं और 'प्रोफ़ाइल देखें' चुनें।",
+        "addSteamIdDesc2": "आप आईडी को अपनी प्रोफ़ाइल के शीर्ष पर पा सकते हैं। ",
+        "addSteamIdStep2": "चरण 2. अपनी गोपनीयता प्राथमिकताएँ अद्यतन करें",
+        "addSteamIdDesc3": "आपको यह भी सुनिश्चित करना होगा कि आपकी प्रोफ़ाइल सार्वजनिक है।",
+        "addSteamIdDesc4": "आप स्टीम प्रीफ़ेंस -> गोपनीयता सेटिंग्स पर जाकर ऐसा कर सकते हैं",
+        "steamIdPlaceholder": "भाप में बनी इडली"
       },
       "errors": {
         "error": "गलती",
         "pleaseRefreshApp": "कृपया ऐप को रीफ्रेश करें",
+        "emailAlreadyExists": "ईमेल पहले से ही मौजूद है।",
+        "emailNotFound": "ईमेल नहीं मिला",
         "noEmailExists": "ईमेल मौजूद नहीं है",
-        "googleSignIn": "गूगल साइन इन में त्रुटि"
+        "checkCredentials": "कृपया अपनी साख जांचें और पुनः प्रयास करें।",
+        "incorrectPw": "गलत पासवर्ड। ",
+        "googleSignIn": "Google साइन इन में त्रुटि"
+      },
+      "alerts": {
+        "activate": "सक्रिय",
+        "cancel": "रद्द करना",
+        "changesLeft": "आपके पास होगा {{changesLeft}} परिवर्तन{{s}} बाएं।",
+        "noChangesLeft": "कोई परिवर्तन शेष नहीं",
+        "noChangesLeftMessage": "क्षमा करें, आपके पास इस महीने के लिए कोई गेम परिवर्तन नहीं बचा है।\n "
       },
       "languages": {
         "ar": "अरबी",
@@ -1268,11 +1677,39 @@
       }
     },
     "categories": {
+      "fallout4": {
+        "title": "नतीजा 4",
+        "categories": {
+          "quests": {
+            "mainQuests": "मुख्य प्रश्न",
+            "factionQuests": "गुट क्वेस्ट",
+            "sideQuests": "भीतर छिपे सवाल"
+          },
+          "collectables": {
+            "bobbleheads": "बॉबलहेड्स",
+            "magazines": "पत्रिका",
+            "uniqueWeapons": "अनोखे हथियार",
+            "uniqueArmour": "अनोखा कवच",
+            "powerArmour": "शक्ति कवच"
+          },
+          "locations": {
+            "main": "मुख्य"
+          },
+          "miscellaneous": {
+            "holotapes": "होलोटेप्स"
+          }
+        },
+        "dlc": {
+          "automatron": "ऑटोमेट्रोन",
+          "farHarbor": "सुदूर बंदरगाह",
+          "nukaWorld": "नुका-विश्व",
+          "vaultTecWorkshop": "वॉल्ट-टेक कार्यशाला"
+        }
+      },
       "skyrim": {
         "title": "Skyrim",
         "categories": {
           "quests": {
-            "title": "खोज",
             "mainQuests": "मुख्य प्रश्न",
             "factionQuests": "गुट क्वेस्ट",
             "civilWar": "गृहयुद्ध",
@@ -1283,7 +1720,6 @@
             "globalQuests": "वैश्विक खोज"
           },
           "collectables": {
-            "title": "संग्रहणीय वस्तुएँ",
             "dragonPriestMasks": "ड्रैगन पुजारी मुखौटे",
             "daedricArtefacts": "डेड्रिक कलाकृतियाँ",
             "bugInAJar": "एक जार में बग",
@@ -1294,10 +1730,9 @@
             "stones": "पत्थर"
           },
           "locations": {
-            "title": "स्थानों"
+            "main": "मुख्य"
           },
           "miscellaneous": {
-            "title": "मिश्रित",
             "books": "पुस्तकें",
             "spellTomes": "टॉम्स वर्तनी",
             "journals": "पत्रिकाओं"
@@ -1309,36 +1744,25 @@
           "hearthfire": "चूल्हे की आग"
         }
       },
-      "fallout4": {
-        "title": "नतीजा 4",
+      "witcher3": {
+        "title": "द विचर 3: वाइल्ड हंट",
         "categories": {
           "quests": {
-            "title": "खोज",
             "mainQuests": "मुख्य प्रश्न",
-            "factionQuests": "गुट क्वेस्ट",
-            "sideQuests": "भीतर छिपे सवाल"
+            "secondaryQuests": "माध्यमिक क्वेस्ट",
+            "contracts": "ठेके",
+            "treasureHunts": "खजाने की खोज"
           },
           "collectables": {
-            "title": "संग्रहणीय वस्तुएँ",
-            "bobbleheads": "बॉबलहेड्स",
-            "magazines": "पत्रिका",
-            "uniqueWeapons": "अनोखे हथियार",
-            "uniqueArmour": "अनोखा कवच",
-            "powerArmour": "शक्ति कवच"
+            "diagrams": "चित्र"
           },
           "locations": {
-            "title": "स्थानों"
-          },
-          "miscellaneous": {
-            "title": "मिश्रित",
-            "holotapes": "होलोटेप्स"
+            "main": "मुख्य"
           }
         },
         "dlc": {
-          "automatron": "ऑटोमेट्रोन",
-          "farHarbor": "सुदूर बंदरगाह",
-          "nukaWorld": "नुका-विश्व",
-          "vaultTecWorkshop": "वॉल्ट-टेक कार्यशाला"
+          "bloodAndWine": "खून और शराब",
+          "heartsOfStone": "पत्थर के दिल"
         }
       }
     }
@@ -1347,15 +1771,17 @@
     "common": {
       "appTitle": "Finaliste.",
       "welcome": "Accueillir",
+      "continue": "Continuer",
       "search": "Rechercher des éléments...",
       "showMore": "Montre plus",
       "none": "Aucun",
       "main": "Principal",
+      "changesLeft": "CHANGEMENTS GAUCHE : ",
       "active": "ACTIF",
       "inactive": "INACTIF",
       "auth": {
         "email": "E-mail",
-        "password": "Mot de passe",
+        "userpw": "Mot de passe",
         "username": "Nom d'utilisateur",
         "forgotPassword": "Mot de passe oublié?",
         "login": "Se connecter",
@@ -1373,15 +1799,23 @@
         "gameSelection": "Sélection de jeux",
         "sendRequest": "Envoyer une demande",
         "subscriptions": "Abonnements",
+        "selectAGame": "Sélectionnez un jeu",
+        "addSteamId": "Ajouter un identifiant Steam",
+        "steamAchievements": "Succès Steam",
         "payments": "Paiement",
-        "settings": "Paramètres"
+        "settings": "Paramètres",
+        "accountDetails": "Détails du compte"
+      },
+      "selectGame": {
+        "selectGameDesc1": "Avec un compte gratuit, vous pouvez sélectionner un jeu par mois à suivre.",
+        "selectGameDesc2": "Sélectionnez votre premier jeu ci-dessous !",
+        "selectGameDesc3": "Ne vous inquiétez pas si vous faites une erreur, vous pourrez changer cela deux fois par mois"
       },
       "subscriptions": {
-        "subscriptionDesc": "Avec un abonnement Silver ou Gold,\n",
+        "subscriptionDesc": "Avec un abonnement Premium,\n",
         "purchaseSubscription": "Acheter un abonnement",
-        "bronze": "Bronze",
-        "silver": "Argent",
-        "gold": "Or",
+        "free": "Gratuit",
+        "premium": "Prime",
         "accessMultipleGames": "Accès à plusieurs jeux",
         "noAds": "Pas de pubs",
         "withAds": "Avec des publicités",
@@ -1411,13 +1845,41 @@
         "enabledDLC": "Activer/Désactiver le DLC :",
         "showHide": "Afficher/Masquer :",
         "completedItems": "Articles terminés",
-        "disabledSections": "Sections désactivées"
+        "disabledSections": "Sections désactivées",
+        "changeAccountDetails": "Modifier les détails du compte",
+        "selectLanguage": "Choisir la langue:"
+      },
+      "accountDetails": {
+        "changeUsername": "Changer le nom d'utilisateur",
+        "changeEmail": "Changer l'e-mail",
+        "changePassword": "Changer le mot de passe",
+        "updateDetails": "Détails de la mise à jour"
+      },
+      "steamAchievements": {
+        "addSteamIdStep1": "Étape 1. Recherchez et ajoutez votre identifiant Steam",
+        "addSteamIdDesc1": "Pour trouver votre identifiant Steam, rendez-vous sur Steam et sélectionnez « Afficher le profil ».",
+        "addSteamIdDesc2": "Vous pouvez trouver l’identifiant en haut de votre profil. ",
+        "addSteamIdStep2": "Étape 2. Mettez à jour vos préférences de confidentialité",
+        "addSteamIdDesc3": "Vous devrez également vous assurer que votre profil est public.",
+        "addSteamIdDesc4": "Vous pouvez le faire en vous rendant dans Préférences Steam -> Paramètres de confidentialité.",
+        "steamIdPlaceholder": "ID de vapeur"
       },
       "errors": {
         "error": "Erreur",
         "pleaseRefreshApp": "Veuillez actualiser l'application",
+        "emailAlreadyExists": "L'email existe déjà.",
+        "emailNotFound": "Email non trouvé",
         "noEmailExists": "L'e-mail n'existe pas",
+        "checkCredentials": "Veuillez vérifier vos informations d'identification et réessayer.",
+        "incorrectPw": "Mot de passe incorrect. ",
         "googleSignIn": "Erreur avec la connexion Google"
+      },
+      "alerts": {
+        "activate": "Activer",
+        "cancel": "Annuler",
+        "changesLeft": "Tu vas avoir {{changesLeft}} changement{{s}} gauche.",
+        "noChangesLeft": "Aucun changement restant",
+        "noChangesLeftMessage": "Désolé, vous n'avez plus aucune modification de jeu pour ce mois-ci.\n "
       },
       "languages": {
         "ar": "arabe",
@@ -1436,11 +1898,39 @@
       }
     },
     "categories": {
+      "fallout4": {
+        "title": "Fallout 4",
+        "categories": {
+          "quests": {
+            "mainQuests": "Quêtes principales",
+            "factionQuests": "Quêtes de faction",
+            "sideQuests": "Quêtes secondaires"
+          },
+          "collectables": {
+            "bobbleheads": "Figurines à pompons",
+            "magazines": "Les magazines",
+            "uniqueWeapons": "Armes uniques",
+            "uniqueArmour": "Armure unique",
+            "powerArmour": "Armure assistée"
+          },
+          "locations": {
+            "main": "Principal"
+          },
+          "miscellaneous": {
+            "holotapes": "Holobandes"
+          }
+        },
+        "dlc": {
+          "automatron": "Automatron",
+          "farHarbor": "Port lointain",
+          "nukaWorld": "Nuka-Monde",
+          "vaultTecWorkshop": "Atelier Vault-Tec"
+        }
+      },
       "skyrim": {
         "title": "Bordeciel",
         "categories": {
           "quests": {
-            "title": "Quêtes",
             "mainQuests": "Quêtes principales",
             "factionQuests": "Quêtes de faction",
             "civilWar": "Guerre civile",
@@ -1451,7 +1941,6 @@
             "globalQuests": "Quêtes globales"
           },
           "collectables": {
-            "title": "Objets de collection",
             "dragonPriestMasks": "Masques de prêtre dragon",
             "daedricArtefacts": "Artefacts Daedra",
             "bugInAJar": "Un bug dans un pot",
@@ -1462,10 +1951,9 @@
             "stones": "Des pierres"
           },
           "locations": {
-            "title": "Emplacements"
+            "main": "Principal"
           },
           "miscellaneous": {
-            "title": "Divers",
             "books": "Livres",
             "spellTomes": "Tomes de sorts",
             "journals": "Journaux"
@@ -1477,36 +1965,25 @@
           "hearthfire": "Feu de foyer"
         }
       },
-      "fallout4": {
-        "title": "Fallout 4",
+      "witcher3": {
+        "title": "The Witcher 3 : Chasse Sauvage",
         "categories": {
           "quests": {
-            "title": "Quêtes",
             "mainQuests": "Quêtes principales",
-            "factionQuests": "Quêtes de faction",
-            "sideQuests": "Quêtes secondaires"
+            "secondaryQuests": "Quêtes secondaires",
+            "contracts": "Contrats",
+            "treasureHunts": "Chasses aux trésors"
           },
           "collectables": {
-            "title": "Objets de collection",
-            "bobbleheads": "Figurines à pompons",
-            "magazines": "Les magazines",
-            "uniqueWeapons": "Armes uniques",
-            "uniqueArmour": "Armure unique",
-            "powerArmour": "Armure assistée"
+            "diagrams": "Diagrammes"
           },
           "locations": {
-            "title": "Emplacements"
-          },
-          "miscellaneous": {
-            "title": "Divers",
-            "holotapes": "Holobandes"
+            "main": "Principal"
           }
         },
         "dlc": {
-          "automatron": "Automatron",
-          "farHarbor": "Port lointain",
-          "nukaWorld": "Nuka-Monde",
-          "vaultTecWorkshop": "Atelier Vault-Tec"
+          "bloodAndWine": "Du sang et du vin",
+          "heartsOfStone": "Coeurs de pierre"
         }
       }
     }
@@ -1515,15 +1992,17 @@
     "common": {
       "appTitle": "Completista.",
       "welcome": "Bienvenido",
+      "continue": "Continuar",
       "search": "Buscar elementos...",
       "showMore": "Mostrar más",
       "none": "Ninguno",
       "main": "Principal",
+      "changesLeft": "CAMBIOS QUEDAN: ",
       "active": "ACTIVO",
       "inactive": "INACTIVO",
       "auth": {
         "email": "Correo electrónico",
-        "password": "Contraseña",
+        "userpw": "Contraseña",
         "username": "Nombre de usuario",
         "forgotPassword": "¿Has olvidado tu contraseña?",
         "login": "Acceso",
@@ -1541,15 +2020,23 @@
         "gameSelection": "Selección de juego",
         "sendRequest": "Enviar petición",
         "subscriptions": "Suscripciones",
+        "selectAGame": "Seleccione un juego",
+        "addSteamId": "Agregar ID de Steam",
+        "steamAchievements": "Logros de Steam",
         "payments": "Pago",
-        "settings": "Ajustes"
+        "settings": "Ajustes",
+        "accountDetails": "detalles de la cuenta"
+      },
+      "selectGame": {
+        "selectGameDesc1": "Con una cuenta gratuita, puedes seleccionar un juego por mes para realizar el seguimiento.",
+        "selectGameDesc2": "¡Selecciona tu primer juego a continuación!",
+        "selectGameDesc3": "No te preocupes si cometes un error, podrás cambiarlo dos veces al mes."
       },
       "subscriptions": {
-        "subscriptionDesc": "Con una suscripción Silver u Gold,\n",
+        "subscriptionDesc": "Con una suscripción Premium,\n",
         "purchaseSubscription": "Comprar suscripción",
-        "bronze": "Bronce",
-        "silver": "Plata",
-        "gold": "Oro",
+        "free": "Gratis",
+        "premium": "De primera calidad",
         "accessMultipleGames": "Acceso a múltiples juegos.",
         "noAds": "Sin anuncios",
         "withAds": "Con anuncios",
@@ -1579,13 +2066,41 @@
         "enabledDLC": "Activar/Desactivar DLC:",
         "showHide": "Mostrar ocultar:",
         "completedItems": "Artículos completados",
-        "disabledSections": "Secciones deshabilitadas"
+        "disabledSections": "Secciones deshabilitadas",
+        "changeAccountDetails": "Cambiar detalles de cuenta",
+        "selectLanguage": "Seleccione el idioma:"
+      },
+      "accountDetails": {
+        "changeUsername": "Cambie el nombre de usuario",
+        "changeEmail": "Cambiar e-mail",
+        "changePassword": "Cambiar la contraseña",
+        "updateDetails": "Detalles de actualización"
+      },
+      "steamAchievements": {
+        "addSteamIdStep1": "Paso 1. Encuentra y agrega tu ID de Steam",
+        "addSteamIdDesc1": "Para encontrar tu ID de Steam, dirígete a Steam y selecciona \"Ver perfil\".",
+        "addSteamIdDesc2": "Puedes encontrar la identificación en la parte superior de tu perfil. ",
+        "addSteamIdStep2": "Paso 2. Actualice sus preferencias de privacidad",
+        "addSteamIdDesc3": "También deberá asegurarse de que su perfil sea público.",
+        "addSteamIdDesc4": "Puedes hacer esto dirigiéndote a Preferencias de Steam -> Configuración de privacidad",
+        "steamIdPlaceholder": "Identificacion de Steam"
       },
       "errors": {
         "error": "Error",
         "pleaseRefreshApp": "Por favor actualiza la aplicación",
+        "emailAlreadyExists": "El Email ya existe.",
+        "emailNotFound": "El correo electrónico no encontrado",
         "noEmailExists": "El correo electrónico no existe.",
+        "checkCredentials": "Por favor verifique sus credenciales e inténtelo nuevamente.",
+        "incorrectPw": "Contraseña incorrecta. ",
         "googleSignIn": "Error al iniciar sesión en Google"
+      },
+      "alerts": {
+        "activate": "Activar",
+        "cancel": "Cancelar",
+        "changesLeft": "Usted tendrá {{changesLeft}} cambiar{{s}} izquierda.",
+        "noChangesLeft": "No quedan cambios",
+        "noChangesLeftMessage": "Lo sentimos, no te quedan cambios de juego para este mes.\n "
       },
       "languages": {
         "ar": "Arábica",
@@ -1604,11 +2119,39 @@
       }
     },
     "categories": {
+      "fallout4": {
+        "title": "consecuencias 4",
+        "categories": {
+          "quests": {
+            "mainQuests": "Misiones principales",
+            "factionQuests": "Misiones de facción",
+            "sideQuests": "Misiones secundarias"
+          },
+          "collectables": {
+            "bobbleheads": "muñecos",
+            "magazines": "Revistas",
+            "uniqueWeapons": "Armas únicas",
+            "uniqueArmour": "Armadura única",
+            "powerArmour": "Armadura de poder"
+          },
+          "locations": {
+            "main": "Principal"
+          },
+          "miscellaneous": {
+            "holotapes": "holocintas"
+          }
+        },
+        "dlc": {
+          "automatron": "autómata",
+          "farHarbor": "Puerto lejano",
+          "nukaWorld": "Nuka-Mundo",
+          "vaultTecWorkshop": "Taller Vault-Tec"
+        }
+      },
       "skyrim": {
         "title": "Skyrim",
         "categories": {
           "quests": {
-            "title": "Misiones",
             "mainQuests": "Misiones principales",
             "factionQuests": "Misiones de facción",
             "civilWar": "Guerra civil",
@@ -1619,7 +2162,6 @@
             "globalQuests": "Misiones globales"
           },
           "collectables": {
-            "title": "Coleccionables",
             "dragonPriestMasks": "Máscaras de sacerdote dragón",
             "daedricArtefacts": "Artefactos daédricos",
             "bugInAJar": "Error en un frasco",
@@ -1630,10 +2172,9 @@
             "stones": "piedras"
           },
           "locations": {
-            "title": "Ubicaciones"
+            "main": "Principal"
           },
           "miscellaneous": {
-            "title": "Misceláneas",
             "books": "Libros",
             "spellTomes": "Tomos de hechizos",
             "journals": "Revistas"
@@ -1645,36 +2186,25 @@
           "hearthfire": "fuego de hogar"
         }
       },
-      "fallout4": {
-        "title": "Fallout 4",
+      "witcher3": {
+        "title": "The Witcher 3: Caza salvaje",
         "categories": {
           "quests": {
-            "title": "Misiones",
             "mainQuests": "Misiones principales",
-            "factionQuests": "Misiones de facción",
-            "sideQuests": "Misiones secundarias"
+            "secondaryQuests": "Misiones secundarias",
+            "contracts": "Contratos",
+            "treasureHunts": "Búsqueda del tesoro"
           },
           "collectables": {
-            "title": "Coleccionables",
-            "bobbleheads": "muñecos",
-            "magazines": "Revistas",
-            "uniqueWeapons": "Armas únicas",
-            "uniqueArmour": "Armadura única",
-            "powerArmour": "Armadura de poder"
+            "diagrams": "Diagramas"
           },
           "locations": {
-            "title": "Ubicaciones"
-          },
-          "miscellaneous": {
-            "title": "Misceláneas",
-            "holotapes": "holocintas"
+            "main": "Principal"
           }
         },
         "dlc": {
-          "automatron": "autómata",
-          "farHarbor": "Puerto lejano",
-          "nukaWorld": "Nuka-Mundo",
-          "vaultTecWorkshop": "Taller Vault-Tec"
+          "bloodAndWine": "sangre y vino",
+          "heartsOfStone": "Corazones de piedra"
         }
       }
     }
@@ -1683,15 +2213,17 @@
     "common": {
       "appTitle": "Completionist.",
       "welcome": "Welcome",
+      "continue": "Continue",
       "search": "Search items...",
       "showMore": "Show more",
       "none": "None",
       "main": "Main",
+      "changesLeft": "CHANGES LEFT: ",
       "active": "ACTIVE",
       "inactive": "INACTIVE",
       "auth": {
         "email": "Email",
-        "password": "Password",
+        "userpw": "Password",
         "username": "Username",
         "forgotPassword": "Forgot Password?",
         "login": "Login",
@@ -1709,15 +2241,23 @@
         "gameSelection": "Game Selection",
         "sendRequest": "Send Request",
         "subscriptions": "Subscriptions",
+        "selectAGame": "Select a Game",
+        "addSteamId": "Add Steam ID",
+        "steamAchievements": "Steam Achievements",
         "payments": "Payment",
-        "settings": "Settings"
+        "settings": "Settings",
+        "accountDetails": "Account Details"
+      },
+      "selectGame": {
+        "selectGameDesc1": "With a Free account, you can select one game per month to track.",
+        "selectGameDesc2": "Select your first game below!",
+        "selectGameDesc3": "Don't worry if you make a mistake, you'll be able to change this twice per month"
       },
       "subscriptions": {
-        "subscriptionDesc": "With a Silver or Gold subscription,\nyou will gain access to Premium Features such as:",
+        "subscriptionDesc": "With a Premium subscription,\nyou will gain access to Premium Features such as:",
         "purchaseSubscription": "Purchase Subscription",
-        "bronze": "Bronze",
-        "silver": "Silver",
-        "gold": "Gold",
+        "free": "Free",
+        "premium": "Premium",
         "accessMultipleGames": "Access to multiple games",
         "noAds": "No Ads",
         "withAds": "With Ads",
@@ -1747,13 +2287,41 @@
         "enabledDLC": "Enable/Disable DLC:",
         "showHide": "Show/Hide:",
         "completedItems": "Completed Items",
-        "disabledSections": "Disabled Sections"
+        "disabledSections": "Disabled Sections",
+        "changeAccountDetails": "Change Account Details",
+        "selectLanguage": "Select language:"
+      },
+      "accountDetails": {
+        "changeUsername": "Change Username",
+        "changeEmail": "Change Email",
+        "changePassword": "Change Password",
+        "updateDetails": "Update Details"
+      },
+      "steamAchievements": {
+        "addSteamIdStep1": "Step 1. Find and add your Steam ID",
+        "addSteamIdDesc1": "To find your steam ID, head to Steam and select 'View Profile'.",
+        "addSteamIdDesc2": "You can find the ID at the top of your profile. It will look like:",
+        "addSteamIdStep2": "Step 2. Update your privacy preferences",
+        "addSteamIdDesc3": "You will also need to ensure your profile is public.",
+        "addSteamIdDesc4": "You can do this by heading to Steam Prefences -> Privacy Settings",
+        "steamIdPlaceholder": "Steam ID"
       },
       "errors": {
         "error": "Error",
         "pleaseRefreshApp": "Please refresh the app",
+        "emailAlreadyExists": "Email already exists.",
+        "emailNotFound": "Email Not Found",
         "noEmailExists": "Email does not exist",
-        "googleSignIn": "Error with google sign in"
+        "checkCredentials": "Please check your credentials and try again.",
+        "incorrectPw": "Incorrect password. Please try again.",
+        "googleSignIn": "Error with Google Sign In"
+      },
+      "alerts": {
+        "activate": "Activate",
+        "cancel": "Cancel",
+        "changesLeft": "You will have {{changesLeft}} change{{s}} left.",
+        "noChangesLeft": "No Changes Left",
+        "noChangesLeftMessage": "Sorry, you have no game changes left for this month.\n Please upgrade to a premium subscription, or wait until the 1st of next month."
       },
       "languages": {
         "ar": "Arabic",
@@ -1772,11 +2340,39 @@
       }
     },
     "categories": {
+      "fallout4": {
+        "title": "Fallout 4",
+        "categories": {
+          "quests": {
+            "mainQuests": "Main Quests",
+            "factionQuests": "Faction Quests",
+            "sideQuests": "Side Quests"
+          },
+          "collectables": {
+            "bobbleheads": "Bobbleheads",
+            "magazines": "Magazines",
+            "uniqueWeapons": "Unique Weapons",
+            "uniqueArmour": "Unique Armour",
+            "powerArmour": "Power Armour"
+          },
+          "locations": {
+            "main": "Main"
+          },
+          "miscellaneous": {
+            "holotapes": "Holotapes"
+          }
+        },
+        "dlc": {
+          "automatron": "Automatron",
+          "farHarbor": "Far Harbor",
+          "nukaWorld": "Nuka-World",
+          "vaultTecWorkshop": "Vault-Tec Workshop"
+        }
+      },
       "skyrim": {
         "title": "Skyrim",
         "categories": {
           "quests": {
-            "title": "Quests",
             "mainQuests": "Main Quests",
             "factionQuests": "Faction Quests",
             "civilWar": "Civil War",
@@ -1787,7 +2383,6 @@
             "globalQuests": "Global Quests"
           },
           "collectables": {
-            "title": "Collectables",
             "dragonPriestMasks": "Dragon Priest Masks",
             "daedricArtefacts": "Daedric Artefacts",
             "bugInAJar": "Bug in a Jar",
@@ -1798,11 +2393,9 @@
             "stones": "Stones"
           },
           "locations": {
-            "title": "Locations",
             "main": "Main"
           },
           "miscellaneous": {
-            "title": "Miscellaneous",
             "books": "Books",
             "spellTomes": "Spell Tomes",
             "journals": "Journals"
@@ -1814,37 +2407,25 @@
           "hearthfire": "Hearthfire"
         }
       },
-      "fallout4": {
-        "title": "Fallout 4",
+      "witcher3": {
+        "title": "The Witcher 3: Wild Hunt",
         "categories": {
           "quests": {
-            "title": "Quests",
             "mainQuests": "Main Quests",
-            "factionQuests": "Faction Quests",
-            "sideQuests": "Side Quests"
+            "secondaryQuests": "Secondary Quests",
+            "contracts": "Contracts",
+            "treasureHunts": "Treasure Hunts"
           },
           "collectables": {
-            "title": "Collectables",
-            "bobbleheads": "Bobbleheads",
-            "magazines": "Magazines",
-            "uniqueWeapons": "Unique Weapons",
-            "uniqueArmour": "Unique Armour",
-            "powerArmour": "Power Armour"
+            "diagrams": "Diagrams"
           },
           "locations": {
-            "title": "Locations",
             "main": "Main"
-          },
-          "miscellaneous": {
-            "title": "Miscellaneous",
-            "holotapes": "Holotapes"
           }
         },
         "dlc": {
-          "automatron": "Automatron",
-          "farHarbor": "Far Harbor",
-          "nukaWorld": "Nuka-World",
-          "vaultTecWorkshop": "Vault-Tec Workshop"
+          "bloodAndWine": "Blood And Wine",
+          "heartsOfStone": "Hearts Of Stone"
         }
       }
     }
@@ -1853,15 +2434,17 @@
     "common": {
       "appTitle": "Vervollständiger.",
       "welcome": "Willkommen",
+      "continue": "Weitermachen",
       "search": "Artikel suchen...",
       "showMore": "Zeig mehr",
       "none": "Keiner",
       "main": "Hauptsächlich",
+      "changesLeft": "VERBLEIBENDE ÄNDERUNGEN: ",
       "active": "AKTIV",
       "inactive": "INAKTIV",
       "auth": {
         "email": "Email",
-        "password": "Passwort",
+        "userpw": "Passwort",
         "username": "Nutzername",
         "forgotPassword": "Passwort vergessen?",
         "login": "Anmeldung",
@@ -1879,15 +2462,23 @@
         "gameSelection": "Spielauswahl",
         "sendRequest": "Anfrage senden",
         "subscriptions": "Abonnements",
+        "selectAGame": "Wählen Sie ein Spiel aus",
+        "addSteamId": "Steam-ID hinzufügen",
+        "steamAchievements": "Steam-Erfolge",
         "payments": "Zahlung",
-        "settings": "Einstellungen"
+        "settings": "Einstellungen",
+        "accountDetails": "Kontodetails"
+      },
+      "selectGame": {
+        "selectGameDesc1": "Mit einem kostenlosen Konto können Sie ein Spiel pro Monat zum Verfolgen auswählen.",
+        "selectGameDesc2": "Wählen Sie unten Ihr erstes Spiel aus!",
+        "selectGameDesc3": "Machen Sie sich keine Sorgen, wenn Sie einen Fehler machen. Sie können dies zweimal im Monat ändern"
       },
       "subscriptions": {
-        "subscriptionDesc": "Mit einem Silber- oder Gold-Abonnement,\n",
+        "subscriptionDesc": "Mit einem Premium-Abonnement\n",
         "purchaseSubscription": "Abonnement kaufen",
-        "bronze": "Bronze",
-        "silver": "Silber",
-        "gold": "Gold",
+        "free": "Frei",
+        "premium": "Prämie",
         "accessMultipleGames": "Zugriff auf mehrere Spiele",
         "noAds": "Keine Werbung",
         "withAds": "Mit Werbung",
@@ -1917,13 +2508,41 @@
         "enabledDLC": "DLC aktivieren/deaktivieren:",
         "showHide": "Anzeigen Ausblenden:",
         "completedItems": "Abgeschlossene Artikel",
-        "disabledSections": "Behindertengerechte Abschnitte"
+        "disabledSections": "Behindertengerechte Abschnitte",
+        "changeAccountDetails": "Kontodetails ändern",
+        "selectLanguage": "Sprache auswählen:"
+      },
+      "accountDetails": {
+        "changeUsername": "Benutzernamen ändern",
+        "changeEmail": "Ändern Sie die E-Mail",
+        "changePassword": "Kennwort ändern",
+        "updateDetails": "Details aktualisieren"
+      },
+      "steamAchievements": {
+        "addSteamIdStep1": "Schritt 1. Suchen Sie Ihre Steam-ID und fügen Sie sie hinzu",
+        "addSteamIdDesc1": "Um Ihre Steam-ID zu finden, gehen Sie zu Steam und wählen Sie „Profil anzeigen“.",
+        "addSteamIdDesc2": "Die ID finden Sie oben in Ihrem Profil. ",
+        "addSteamIdStep2": "Schritt 2. Aktualisieren Sie Ihre Datenschutzeinstellungen",
+        "addSteamIdDesc3": "Sie müssen außerdem sicherstellen, dass Ihr Profil öffentlich ist.",
+        "addSteamIdDesc4": "Sie können dies tun, indem Sie zu Steam-Einstellungen -> Datenschutzeinstellungen gehen",
+        "steamIdPlaceholder": "Steam-ID"
       },
       "errors": {
         "error": "Fehler",
         "pleaseRefreshApp": "Bitte aktualisieren Sie die App",
+        "emailAlreadyExists": "E-Mail existiert bereits.",
+        "emailNotFound": "Email wurde nicht gefunden",
         "noEmailExists": "Email existiert nicht",
+        "checkCredentials": "Bitte überprüfen Sie Ihre Anmeldedaten und versuchen Sie es erneut.",
+        "incorrectPw": "Falsches Passwort. ",
         "googleSignIn": "Fehler bei der Google-Anmeldung"
+      },
+      "alerts": {
+        "activate": "aktivieren Sie",
+        "cancel": "Stornieren",
+        "changesLeft": "Du wirst haben {{changesLeft}} ändern{{s}} links.",
+        "noChangesLeft": "Keine Änderungen übrig",
+        "noChangesLeftMessage": "Leider haben Sie für diesen Monat keine Spieländerungen mehr übrig.\n "
       },
       "languages": {
         "ar": "Arabisch",
@@ -1942,11 +2561,39 @@
       }
     },
     "categories": {
+      "fallout4": {
+        "title": "Fallout 4",
+        "categories": {
+          "quests": {
+            "mainQuests": "Hauptquests",
+            "factionQuests": "Fraktionsquests",
+            "sideQuests": "Nebenmissionen"
+          },
+          "collectables": {
+            "bobbleheads": "Wackelköpfe",
+            "magazines": "Zeitschriften",
+            "uniqueWeapons": "Einzigartige Waffen",
+            "uniqueArmour": "Einzigartige Rüstung",
+            "powerArmour": "Powerrüstung"
+          },
+          "locations": {
+            "main": "Hauptsächlich"
+          },
+          "miscellaneous": {
+            "holotapes": "Holobänder"
+          }
+        },
+        "dlc": {
+          "automatron": "Automatron",
+          "farHarbor": "Far Harbor",
+          "nukaWorld": "Nuka-Welt",
+          "vaultTecWorkshop": "Vault-Tec-Workshop"
+        }
+      },
       "skyrim": {
         "title": "Skyrim",
         "categories": {
           "quests": {
-            "title": "Quests",
             "mainQuests": "Hauptquests",
             "factionQuests": "Fraktionsquests",
             "civilWar": "Bürgerkrieg",
@@ -1957,7 +2604,6 @@
             "globalQuests": "Globale Quests"
           },
           "collectables": {
-            "title": "Sammlerstücke",
             "dragonPriestMasks": "Drachenpriester-Masken",
             "daedricArtefacts": "Daedrische Artefakte",
             "bugInAJar": "Käfer im Glas",
@@ -1968,10 +2614,9 @@
             "stones": "Steine"
           },
           "locations": {
-            "title": "Standorte"
+            "main": "Hauptsächlich"
           },
           "miscellaneous": {
-            "title": "Verschiedenes",
             "books": "Bücher",
             "spellTomes": "Zauberbücher",
             "journals": "Zeitschriften"
@@ -1983,36 +2628,25 @@
           "hearthfire": "Herdfeuer"
         }
       },
-      "fallout4": {
-        "title": "Fallout 4",
+      "witcher3": {
+        "title": "The Witcher 3: Wild Hunt",
         "categories": {
           "quests": {
-            "title": "Quests",
             "mainQuests": "Hauptquests",
-            "factionQuests": "Fraktionsquests",
-            "sideQuests": "Nebenmissionen"
+            "secondaryQuests": "Sekundäre Quests",
+            "contracts": "Verträge",
+            "treasureHunts": "Schatzsuche"
           },
           "collectables": {
-            "title": "Sammlerstücke",
-            "bobbleheads": "Wackelköpfe",
-            "magazines": "Zeitschriften",
-            "uniqueWeapons": "Einzigartige Waffen",
-            "uniqueArmour": "Einzigartige Rüstung",
-            "powerArmour": "Powerrüstung"
+            "diagrams": "Diagramme"
           },
           "locations": {
-            "title": "Standorte"
-          },
-          "miscellaneous": {
-            "title": "Verschiedenes",
-            "holotapes": "Holobänder"
+            "main": "Hauptsächlich"
           }
         },
         "dlc": {
-          "automatron": "Automatron",
-          "farHarbor": "Far Harbor",
-          "nukaWorld": "Nuka-Welt",
-          "vaultTecWorkshop": "Vault-Tec-Workshop"
+          "bloodAndWine": "Blut und Wein",
+          "heartsOfStone": "Herzen aus Stein"
         }
       }
     }
@@ -2021,15 +2655,17 @@
     "common": {
       "appTitle": "المكمل.",
       "welcome": "مرحباً",
+      "continue": "يكمل",
       "search": "عناصر البحث...",
       "showMore": "أظهر المزيد",
       "none": "لا أحد",
       "main": "رئيسي",
+      "changesLeft": "التغييرات المتبقية: ",
       "active": "نشيط",
       "inactive": "غير نشط",
       "auth": {
         "email": "بريد إلكتروني",
-        "password": "كلمة المرور",
+        "userpw": "كلمة المرور",
         "username": "اسم المستخدم",
         "forgotPassword": "هل نسيت كلمة السر؟",
         "login": "تسجيل الدخول",
@@ -2047,15 +2683,23 @@
         "gameSelection": "اختيار اللعبة",
         "sendRequest": "ارسل طلب",
         "subscriptions": "الاشتراكات",
+        "selectAGame": "اختر لعبة",
+        "addSteamId": "أضف معرف البخار",
+        "steamAchievements": "إنجازات البخار",
         "payments": "قسط",
-        "settings": "إعدادات"
+        "settings": "إعدادات",
+        "accountDetails": "تفاصيل الحساب"
+      },
+      "selectGame": {
+        "selectGameDesc1": "باستخدام الحساب المجاني، يمكنك اختيار لعبة واحدة كل شهر لتتبعها.",
+        "selectGameDesc2": "اختر لعبتك الأولى أدناه!",
+        "selectGameDesc3": "لا تقلق إذا ارتكبت أي خطأ، فستتمكن من تغيير هذا مرتين شهريًا"
       },
       "subscriptions": {
-        "subscriptionDesc": "مع الاشتراك الفضي أو الذهبي\n",
+        "subscriptionDesc": "مع اشتراك بريميوم،\n",
         "purchaseSubscription": "شراء الاشتراك",
-        "bronze": "برونزية",
-        "silver": "فضة",
-        "gold": "ذهب",
+        "free": "حر",
+        "premium": "غالي",
         "accessMultipleGames": "الوصول إلى ألعاب متعددة",
         "noAds": "لا اعلانات",
         "withAds": "مع الإعلانات",
@@ -2085,13 +2729,41 @@
         "enabledDLC": "تمكين/تعطيل المحتوى القابل للتنزيل:",
         "showHide": "اظهر المخفي:",
         "completedItems": "العناصر المكتملة",
-        "disabledSections": "الأقسام المعطلة"
+        "disabledSections": "الأقسام المعطلة",
+        "changeAccountDetails": "تغيير تفاصيل الحساب",
+        "selectLanguage": "اختار اللغة:"
+      },
+      "accountDetails": {
+        "changeUsername": "غير اسم المستخدم",
+        "changeEmail": "تغيير الايميل",
+        "changePassword": "تغيير كلمة المرور",
+        "updateDetails": "تحديث التفاصيل"
+      },
+      "steamAchievements": {
+        "addSteamIdStep1": "الخطوة 1. ابحث عن معرف Steam الخاص بك وأضفه",
+        "addSteamIdDesc1": "للعثور على معرف Steam الخاص بك، توجه إلى Steam وحدد \"عرض الملف الشخصي\".",
+        "addSteamIdDesc2": "يمكنك العثور على المعرف في الجزء العلوي من ملفك الشخصي. ",
+        "addSteamIdStep2": "الخطوة 2. قم بتحديث تفضيلات الخصوصية الخاصة بك",
+        "addSteamIdDesc3": "ستحتاج أيضًا إلى التأكد من أن ملفك الشخصي عام.",
+        "addSteamIdDesc4": "يمكنك القيام بذلك عن طريق التوجه إلى تفضيلات Steam -> إعدادات الخصوصية",
+        "steamIdPlaceholder": "معرف البخار"
       },
       "errors": {
         "error": "خطأ",
         "pleaseRefreshApp": "يرجى تحديث التطبيق",
+        "emailAlreadyExists": "البريد الالكتروني موجود بالفعل.",
+        "emailNotFound": "البريد الإلكتروني غير موجود",
         "noEmailExists": "البريد الإلكتروني غير موجود",
+        "checkCredentials": "يرجى التحقق من بيانات الاعتماد الخاصة بك وحاول مرة أخرى.",
+        "incorrectPw": "كلمة سر خاطئة. ",
         "googleSignIn": "حدث خطأ أثناء تسجيل الدخول إلى Google"
+      },
+      "alerts": {
+        "activate": "تفعيل",
+        "cancel": "يلغي",
+        "changesLeft": "ستملك {{changesLeft}} يتغير{{s}} غادر.",
+        "noChangesLeft": "لا توجد تغييرات اليسار",
+        "noChangesLeftMessage": "عذرًا، لم يتبق لديك أي تغييرات في اللعبة لهذا الشهر.\n "
       },
       "languages": {
         "ar": "عربي",
@@ -2110,11 +2782,39 @@
       }
     },
     "categories": {
+      "fallout4": {
+        "title": "تداعيات 4",
+        "categories": {
+          "quests": {
+            "mainQuests": "المهام الرئيسية",
+            "factionQuests": "أسئلة الفصائل",
+            "sideQuests": "أسئلة جانبية"
+          },
+          "collectables": {
+            "bobbleheads": "رؤؤس فقاعية",
+            "magazines": "المجلات",
+            "uniqueWeapons": "أسلحة فريدة من نوعها",
+            "uniqueArmour": "درع فريد",
+            "powerArmour": "درع القوة"
+          },
+          "locations": {
+            "main": "رئيسي"
+          },
+          "miscellaneous": {
+            "holotapes": "هولوتابس"
+          }
+        },
+        "dlc": {
+          "automatron": "آلي",
+          "farHarbor": "فار هاربور",
+          "nukaWorld": "نوكا وورلد",
+          "vaultTecWorkshop": "ورشة فولت تيك"
+        }
+      },
       "skyrim": {
         "title": "سكيريم",
         "categories": {
           "quests": {
-            "title": "أسئلة",
             "mainQuests": "المهام الرئيسية",
             "factionQuests": "أسئلة الفصائل",
             "civilWar": "حرب اهلية",
@@ -2125,7 +2825,6 @@
             "globalQuests": "المهام العالمية"
           },
           "collectables": {
-            "title": "مقتنيات",
             "dragonPriestMasks": "أقنعة كاهن التنين",
             "daedricArtefacts": "التحف ديدريك",
             "bugInAJar": "علة في جرة",
@@ -2136,10 +2835,9 @@
             "stones": "الحجارة"
           },
           "locations": {
-            "title": "المواقع"
+            "main": "رئيسي"
           },
           "miscellaneous": {
-            "title": "متنوع",
             "books": "كتب",
             "spellTomes": "المجلدات الإملائية",
             "journals": "المجلات"
@@ -2151,36 +2849,25 @@
           "hearthfire": "نار الموقد"
         }
       },
-      "fallout4": {
-        "title": "تداعيات4",
+      "witcher3": {
+        "title": "الويتشر 3: الصيد البري",
         "categories": {
           "quests": {
-            "title": "أسئلة",
             "mainQuests": "المهام الرئيسية",
-            "factionQuests": "أسئلة الفصائل",
-            "sideQuests": "أسئلة جانبية"
+            "secondaryQuests": "أسئلة ثانوية",
+            "contracts": "انكماش",
+            "treasureHunts": "البحث عن الكنز"
           },
           "collectables": {
-            "title": "مقتنيات",
-            "bobbleheads": "رؤؤس فقاعية",
-            "magazines": "المجلات",
-            "uniqueWeapons": "أسلحة فريدة من نوعها",
-            "uniqueArmour": "درع فريد",
-            "powerArmour": "درع القوة"
+            "diagrams": "المخططات"
           },
           "locations": {
-            "title": "المواقع"
-          },
-          "miscellaneous": {
-            "title": "متنوع",
-            "holotapes": "هولوتابس"
+            "main": "رئيسي"
           }
         },
         "dlc": {
-          "automatron": "آلي",
-          "farHarbor": "فار هاربور",
-          "nukaWorld": "نوكا وورلد",
-          "vaultTecWorkshop": "ورشة فولت تيك"
+          "bloodAndWine": "الدم والنبيذ",
+          "heartsOfStone": "قلوب الحجر"
         }
       }
     }

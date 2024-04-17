@@ -20,8 +20,7 @@ import {
 	CreateUserProps,
 	SignInProps,
 	GetUserByUserIdProps,
-	UpdateUserInfoProps,
-	UpdateUserDataProps,
+	UpdateUserProps,
 	EmailProps,
 	EndpointsReturnType,
 	CredentialsExistProps
@@ -41,6 +40,7 @@ const useEndpoints = (): EndpointsReturnType => {
 	const { handleAxiosError } = useHandleAxiosError();
 
 	// TODO: Add translations
+	// TODO: Recombine updateUserInfo and updateUserData for less api calls
 	// TODO: Add axios caching https://www.npmjs.com/package/axios-cache-adapter
 	// TODO: Send email verification for user
 	// TODO: Initial game selection for google account sign up
@@ -264,7 +264,7 @@ const useEndpoints = (): EndpointsReturnType => {
 		linkAndSignIn,
 		signIn, 
 		signUp, 
-		getUserByUserId, 
+		getUserByUserId,
 		updateUserInfo,
 		updateUserData,
 		sendEmail, 

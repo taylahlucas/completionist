@@ -13,25 +13,22 @@ const GameSelection = () => {
   
 	// const { getSteamUser } = useEndpoints();
 
-	// useEffect(() => {
-	// 	getSteamUser();
-	// }, [])
-  
-  return (
-    <StandardLayout>
-      <NavigationHeader 
-        title={`${t('common:welcome')}\n${user.name}`}
-        leftAction={'subscriptions'} 
-        rightAction={'logout'} 
-      />
-      <CustomSearchBar 
-        searchValue={searchValue} 
-        setSearchValue={setSearchValue}
-        onReset={(): void => setSearchValue('')} 
-      />
-      <GameList searchValue={searchValue.toLocaleLowerCase()} />
-    </StandardLayout>
-  );
+	return (
+		<StandardLayout>
+			<NavigationHeader
+				title={`${t('common:welcome')}\n${user.name}`}
+				leftAction='subscriptions'
+				rightAction='logout'
+			/>
+			<CustomSearchBar
+				searchValue={searchValue}
+				setSearchValue={setSearchValue}
+				onReset={(): void => setSearchValue('')}
+			/>
+			<GameChangesLeft />
+			<GameList searchValue={searchValue.toLocaleLowerCase()} />
+		</StandardLayout>
+	);
 };
 
 export default GameSelection;

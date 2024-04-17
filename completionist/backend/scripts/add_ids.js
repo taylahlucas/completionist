@@ -24,7 +24,7 @@ const readJsonFile = (filePath) => {
 const writeJsonFile = (filePath, data) => {
   try {
     fs.writeFileSync(filePath, JSON.stringify(data, null, 2), 'utf8');
-    console.log('File updated successfully!');
+    console.log('File updated successfully! ', filePath);
   } catch (err) {
     console.error('Error writing JSON file:', err.message);
   }

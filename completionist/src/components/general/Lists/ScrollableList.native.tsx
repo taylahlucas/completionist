@@ -41,7 +41,7 @@ const ScrollableList = ({
         {children.slice(0, updatedRenderAmount)}
         <ListShowMoreButton
           title={t('common:showMore')}
-          type={'text'}
+          type='text'
           onPress={(): void => setUpdatedRenderAmount(updatedRenderAmount + renderAmountConst)}
         />
       </Condition>

@@ -8,13 +8,13 @@ const Landing = () => {
 
   return (
     <StandardLayout>
-      <View style={{ height: '90%', justifyContent: 'center' }}>
+      <View style={{ height: '90%', justifyContent: 'center', alignSelf: 'center' }}>
         <LottieView
           ref={animationRef}
           style={{ width: 150, height: 150 }}
           source={require('../styles/animations/tick.json')}
-          autoPlay={true}
-          loop={true}
+          autoPlay
+          loop
         />
       </View>
     </StandardLayout>

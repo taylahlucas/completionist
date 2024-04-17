@@ -9,7 +9,7 @@ const usePlaySplashScreen = () => {
     }, 1500);
 
     return () => clearTimeout(timerId);
-  }, [])
+  }, []);
 };
 
 export default usePlaySplashScreen;

@@ -116,6 +116,6 @@ Confirm:
 ## Migrating db
 
 - cd backend
-- migrate-mongo create migration_name
+- npx migrate-mongo create migration_name
 - Run changes: npx migrate-mongo up
 - Drop changes: npx migrate-mongo down

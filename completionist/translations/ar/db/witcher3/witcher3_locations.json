@@ -1,0 +1,2978 @@
+[
+  {
+    "id": "b1f85d8b-0c7d-4b08-8e2b-d0fedf1f89ac",
+    "title": "القرية المهجورة",
+    "mainCategory": "رئيسي",
+    "subCategory": "البستان الأبيض",
+    "subCategoryType": "",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a9e1ffffd-6397-4b78-942b-1462dcd3a7r9",
+    "title": "أطلال قلعة أمافيت",
+    "mainCategory": "رئيسي",
+    "subCategory": "البستان الأبيض",
+    "subCategoryType": "",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a8260ac7-1a13-4fb3-9cf8-204ee79e2q13",
+    "title": "الجسر المكسور",
+    "mainCategory": "رئيسي",
+    "subCategory": "البستان الأبيض",
+    "subCategoryType": "",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "b29219f5-11e1-4xc2-b5ac-9fb825e5ecbd",
+    "title": "جسر كاكلر",
+    "mainCategory": "رئيسي",
+    "subCategory": "البستان الأبيض",
+    "subCategoryType": "",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a87d6978-c9fc-4ba6-8a41-722e2c527e3q",
+    "title": "معقل",
+    "mainCategory": "رئيسي",
+    "subCategory": "البستان الأبيض",
+    "subCategoryType": "",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a50b8f95-11v8-4c6b-9a5f-5b647e3904f1",
+    "title": "مطحنة",
+    "mainCategory": "رئيسي",
+    "subCategory": "البستان الأبيض",
+    "subCategoryType": "",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "abfc015c-139e-4dbd-8c0a-3ef86406c2t3",
+    "title": "حامية نيلفجارديان",
+    "mainCategory": "رئيسي",
+    "subCategory": "البستان الأبيض",
+    "subCategoryType": "",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "ad53b6c3-b0f7-4bx2-b60c-23c387aa3f4e",
+    "title": "القرية المنهوبة",
+    "mainCategory": "رئيسي",
+    "subCategory": "البستان الأبيض",
+    "subCategoryType": "",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "b41b6f03-d2c5-4a13-a20e-4f9c74d3c4db",
+    "title": "منشرة",
+    "mainCategory": "رئيسي",
+    "subCategory": "البستان الأبيض",
+    "subCategoryType": "",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "af0c72d2-cb54-43bf-a86f-99c91a25db4a",
+    "title": "مقبرة البستان الأبيض",
+    "mainCategory": "رئيسي",
+    "subCategory": "البستان الأبيض",
+    "subCategoryType": "",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "ad893c90-54d7-495e-a33d-5abeb070c62b",
+    "title": "قرية وايت أورتشارد",
+    "mainCategory": "رئيسي",
+    "subCategory": "البستان الأبيض",
+    "subCategoryType": "",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "ad545f54-6b21-4753-836f-ff373356593c",
+    "title": "جسر ويسونغ",
+    "mainCategory": "رئيسي",
+    "subCategory": "البستان الأبيض",
+    "subCategoryType": "",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "b1f85d8b-0c7d-4b08-8c2b-d0fe2f1f89ac",
+    "title": "البرج المهجور",
+    "mainCategory": "رئيسي",
+    "subCategory": "فيلين",
+    "subCategoryType": "جثم الغراب",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a9e1ffffd-6397-4b78-94yb-1462dcd3a799",
+    "title": "بلاك بوغ",
+    "mainCategory": "رئيسي",
+    "subCategory": "فيلين",
+    "subCategoryType": "جثم الغراب",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a8260ac7-1a13-4fb3-9cfq-204ee79e2f13",
+    "title": "أطلال محروقة",
+    "mainCategory": "رئيسي",
+    "subCategory": "فيلين",
+    "subCategoryType": "جثم الغراب",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "b29219fx-11e1-41c2-b5ac-9fb825e5ecbd",
+    "title": "جثم الغراب",
+    "mainCategory": "رئيسي",
+    "subCategory": "فيلين",
+    "subCategoryType": "جثم الغراب",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a87d6978-c9fc-4ba6-8q41-722e2c527e33",
+    "title": "أرض تغذية هاربي",
+    "mainCategory": "رئيسي",
+    "subCategory": "فيلين",
+    "subCategoryType": "جثم الغراب",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a50b8f95-1188-4c6b-fa5f-5b647e3904f1",
+    "title": "هيذرتون",
+    "mainCategory": "رئيسي",
+    "subCategory": "فيلين",
+    "subCategoryType": "جثم الغراب",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "abfc015c-139e-4dbd-8c0a-3ef86406c2ct",
+    "title": "كوخ معزول",
+    "mainCategory": "رئيسي",
+    "subCategory": "فيلين",
+    "subCategoryType": "جثم الغراب",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "ad53b6c3-b0f7-4b92-b60c-23x387aa3f4e",
+    "title": "لورنروك",
+    "mainCategory": "رئيسي",
+    "subCategory": "فيلين",
+    "subCategoryType": "جثم الغراب",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "b41b6f03-d2c5-4a13-a20f-4f9c74d3c4db",
+    "title": "جسر ترول",
+    "mainCategory": "رئيسي",
+    "subCategory": "فيلين",
+    "subCategoryType": "جثم الغراب",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "af0c72d2-3b54-43bf-a86f-99c91a35db4a",
+    "title": "وولفن جليد",
+    "mainCategory": "رئيسي",
+    "subCategory": "فيلين",
+    "subCategoryType": "جثم الغراب",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "b1fc5d8b-0c7d-4b08-8e2b-d0fe2f1f89ac",
+    "title": "البريد الحدودي",
+    "mainCategory": "رئيسي",
+    "subCategory": "فيلين",
+    "subCategoryType": "جراي روكس",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "b1f85d8b-0c7d-4b08-8e2b-d0fe2f1e89ac",
+    "title": "البلوط القديم",
+    "mainCategory": "رئيسي",
+    "subCategory": "فيلين",
+    "subCategoryType": "جبل أصلع",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a9e1ffffd-6397-4b78-942b-1462dcd3a795",
+    "title": "جبل أصلع",
+    "mainCategory": "رئيسي",
+    "subCategory": "فيلين",
+    "subCategoryType": "جبل أصلع",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a8260ac7-1a13-4qb3-9cf8-204ee79e2f13",
+    "title": "تقاطع طرق",
+    "mainCategory": "رئيسي",
+    "subCategory": "فيلين",
+    "subCategoryType": "جبل أصلع",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "b29249f5-11e1-41c2-b5ac-9fb825e5ecbd",
+    "title": "الحصن المدمر",
+    "mainCategory": "رئيسي",
+    "subCategory": "فيلين",
+    "subCategoryType": "جبل أصلع",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a87dq978-c9fc-4ba6-8a41-722e2c527e33",
+    "title": "الطريق إلى جبل أصلع",
+    "mainCategory": "رئيسي",
+    "subCategory": "فيلين",
+    "subCategoryType": "جبل أصلع",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a9e1ffffd-6397-4b78-942b-1462dcd3a799",
+    "title": "برج مراقبة كالفيت",
+    "mainCategory": "رئيسي",
+    "subCategory": "فيلين",
+    "subCategoryType": "جراي روكس",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a8260aq7-1a13-4fb3-9cf8-204ee79e2f13",
+    "title": "محجر المبرمجين",
+    "mainCategory": "رئيسي",
+    "subCategory": "فيلين",
+    "subCategoryType": "جراي روكس",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "b29219f5-11e1-41c2-b54c-9fb825e5ecbd",
+    "title": "حفرة الشيطان",
+    "mainCategory": "رئيسي",
+    "subCategory": "فيلين",
+    "subCategoryType": "جراي روكس",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a87d6978-c9fc-4ba6-8a41-q22e2c527e33",
+    "title": "محطة العبارات",
+    "mainCategory": "رئيسي",
+    "subCategory": "فيلين",
+    "subCategoryType": "جراي روكس",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a50b8f95-1188-4c6b-9a5f-5b647e39e4f1",
+    "title": "ميناء النار",
+    "mainCategory": "رئيسي",
+    "subCategory": "فيلين",
+    "subCategoryType": "جراي روكس",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "abfc015c-139e-4dbd-8c0t-3ef86406c2c3",
+    "title": "جزيرة هالفر",
+    "mainCategory": "رئيسي",
+    "subCategory": "فيلين",
+    "subCategoryType": "جراي روكس",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "ad53b6c3-b0f7-4b92-b60c-23c387aa3x4e",
+    "title": "شجرة الرجل المشنوق",
+    "mainCategory": "رئيسي",
+    "subCategory": "فيلين",
+    "subCategoryType": "جراي روكس",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "b41b6f03-d2c5-4a13-a20d-4f9c74d3c4db",
+    "title": "المسند",
+    "mainCategory": "رئيسي",
+    "subCategory": "فيلين",
+    "subCategoryType": "جراي روكس",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "af0c72d2-3c54-43bf-a86f-99c91a35db4a",
+    "title": "مولبريدال",
+    "mainCategory": "رئيسي",
+    "subCategory": "فيلين",
+    "subCategoryType": "جراي روكس",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "ad893d90-54d7-495e-a33d-5abeb070c62b",
+    "title": "مستوطنة قاطعي الحجارة",
+    "mainCategory": "رئيسي",
+    "subCategory": "فيلين",
+    "subCategoryType": "جراي روكس",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "ad545f54-6b21-4753-836f-ff373c56593c",
+    "title": "حصن النسر الأبيض",
+    "mainCategory": "رئيسي",
+    "subCategory": "فيلين",
+    "subCategoryType": "جراي روكس",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "b1f85d8b-0c7d-4b08-8e2b-d0fe2f1fd9ac",
+    "title": "داونوارن",
+    "mainCategory": "رئيسي",
+    "subCategory": "فيلين",
+    "subCategoryType": "كروكباك بوج",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a9e1effd-6397-4bc8-942b-1462dcd3a799",
+    "title": "مغارة قاتل التنين",
+    "mainCategory": "رئيسي",
+    "subCategory": "فيلين",
+    "subCategoryType": "كروكباك بوج",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a8260ac7-1a13-4fb3-9cf8-204ee39e2f13",
+    "title": "بيت الراحة",
+    "mainCategory": "رئيسي",
+    "subCategory": "فيلين",
+    "subCategoryType": "كروكباك بوج",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "b29219f5-11e1-41c2-b5ac-9fb825e5ecbd",
+    "title": "طريق كيمبولت",
+    "mainCategory": "رئيسي",
+    "subCategory": "فيلين",
+    "subCategoryType": "كروكباك بوج",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a87d6978-c9fc-4ba6-8a41-722e2c52qe33",
+    "title": "المعسكر المركزي لمجموعة جيش نيلفجارديان",
+    "mainCategory": "رئيسي",
+    "subCategory": "فيلين",
+    "subCategoryType": "كروكباك بوج",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a50b8f95-1188-4c6b-9a5f-5b64ee3904f1",
+    "title": "البرج المدمر",
+    "mainCategory": "رئيسي",
+    "subCategory": "فيلين",
+    "subCategoryType": "كروكباك بوج",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "abfc01tc-139e-4dbd-8c0a-3ef86406c2c3",
+    "title": "أيتام كروكباك بوج",
+    "mainCategory": "رئيسي",
+    "subCategory": "فيلين",
+    "subCategoryType": "كروكباك بوج",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "b1f85d8b-0c7h-4b08-8e2b-d0fe2f1f89ac",
+    "title": "معسكر بوريس",
+    "mainCategory": "رئيسي",
+    "subCategory": "فيلين",
+    "subCategoryType": "محراث الطين",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "aee1fffd-6397-4b78-942b-146cdcd3a799",
+    "title": "نزل عند مفترق الطرق",
+    "mainCategory": "رئيسي",
+    "subCategory": "فيلين",
+    "subCategoryType": "محراث الطين",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "b1f85d8b-0c7d-4b08-8e2b-d0fe2fhf89ac",
+    "title": "زقاق الجلاد",
+    "mainCategory": "رئيسي",
+    "subCategory": "فيلين",
+    "subCategoryType": "سبيتفاير بلاف",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a9e1cffd-6397-4b78-9422-1462dcd3a799",
+    "title": "ساحل الحطام",
+    "mainCategory": "رئيسي",
+    "subCategory": "فيلين",
+    "subCategoryType": "سبيتفاير بلاف",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a8260ac7-1313-4fb3-9cf8-204ee79e2f13",
+    "title": "اللقمة",
+    "mainCategory": "رئيسي",
+    "subCategory": "فيلين",
+    "subCategoryType": "سبيتفاير بلاف",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "b29c19f5-11e1-41c2-b5ac-9fb825e5ecbd",
+    "title": "كوخ الغابة",
+    "mainCategory": "رئيسي",
+    "subCategory": "فيلين",
+    "subCategoryType": "سبيتفاير بلاف",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a87d6978-c9fc-4ba6-8a41-722e2c527e33",
+    "title": "كوخ كيرا ميتز",
+    "mainCategory": "رئيسي",
+    "subCategory": "فيلين",
+    "subCategoryType": "سبيتفاير بلاف",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a50b8f95-1188-4c6b-4a5f-5b647e3904f1",
+    "title": "ميدكوبس",
+    "mainCategory": "رئيسي",
+    "subCategory": "فيلين",
+    "subCategoryType": "سبيتفاير بلاف",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "abft015c-139e-4dbd-8c0a-3ef86406c2c3",
+    "title": "مخيم اللاجئين",
+    "mainCategory": "رئيسي",
+    "subCategory": "فيلين",
+    "subCategoryType": "سبيتفاير بلاف",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "b1f85h8b-0c7d-4b08-8e2b-d0fe2f1f89ac",
+    "title": "ال نزول",
+    "mainCategory": "رئيسي",
+    "subCategory": "فيلين",
+    "subCategoryType": "ال نزول",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a9e1ffcd-6397-4b78-942b-1462dcd3a299",
+    "title": "بينيك",
+    "mainCategory": "رئيسي",
+    "subCategory": "فيلين",
+    "subCategoryType": "ال نزول",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "acf60ac7-1a13-4fb3-9cf8-204ee79e2f13",
+    "title": "جزيرة الطيور",
+    "mainCategory": "رئيسي",
+    "subCategory": "فيلين",
+    "subCategoryType": "ال نزول",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "b29219f5-11e1-41c2-b5ac-9fb825c5ecbd",
+    "title": "مغارة",
+    "mainCategory": "رئيسي",
+    "subCategory": "فيلين",
+    "subCategoryType": "ال نزول",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a87z6978-c9fc-4ba6-8a41-722e2c527e33",
+    "title": "ليندنفيل",
+    "mainCategory": "رئيسي",
+    "subCategory": "فيلين",
+    "subCategoryType": "ال نزول",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a50b8f95-1188-4c6b-9a5f-5b647e3904f1",
+    "title": "ترنح",
+    "mainCategory": "رئيسي",
+    "subCategory": "فيلين",
+    "subCategoryType": "ال نزول",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "abfc015c-139e-4dbt-8c0a-3ef86406c2c3",
+    "title": "جسر اللصوص",
+    "mainCategory": "رئيسي",
+    "subCategory": "فيلين",
+    "subCategoryType": "ال نزول",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "ad53b6c3-b0f7-4b9c-b60c-23c387aa3f4e",
+    "title": "موشورست",
+    "mainCategory": "رئيسي",
+    "subCategory": "فيلين",
+    "subCategoryType": "ال نزول",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "b41b6f03-d2c5-4a13-a200-4f9c74d3f4db",
+    "title": "ريردون مانور",
+    "mainCategory": "رئيسي",
+    "subCategory": "فيلين",
+    "subCategoryType": "ال نزول",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "af0c72d2-3b54-43bf-a86f-99c91a35dbca",
+    "title": "توديراس",
+    "mainCategory": "رئيسي",
+    "subCategory": "فيلين",
+    "subCategoryType": "ال نزول",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "b1f85d8b-0c7d-4b08-8e2b-d0fe2f1f89a2",
+    "title": "كوني من الإوزة",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "الربوة المعشبة",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a9e1ffffd-6397-4b78-942b-146ddcd3a799",
+    "title": "قلعة دراهم",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "الربوة المعشبة",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a8260ac7-1a13-4fc3-9cf8-204ee79e2f13",
+    "title": "كنيسة النار الأبدية",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "الربوة المعشبة",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "b29219f5-11e1-41cc-b5ac-9fb825e5ecbd",
+    "title": "منارة",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "الربوة المعشبة",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a87d6978-c9fc-4ba6-8a41-7z2e2c527e33",
+    "title": "كوخ الحطابين",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "الربوة المعشبة",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a50b8f95-11c8-4c6b-9a5f-5b647e3904f1",
+    "title": "طاحونة لوسيان الهوائية",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "الربوة المعشبة",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "abfc015c-139e-4dbd-8c0t-3ef86c06c2c3",
+    "title": "معسكر سكوياتيل التجاري",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "الربوة المعشبة",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "ad53b6c3-b0f7-4b92-b60c-23c387aa3f4e",
+    "title": "أورستن",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "الربوة المعشبة",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "b41b6f03-d2c5-4a13-a200-4f9c74d3c4db",
+    "title": "مغارة الأرامل",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "الربوة المعشبة",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "b1f85d8b-0c7d-4b08-8e3b-d0fe2f1f89ac",
+    "title": "قصر إيراماس المهجور",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "جوستفيلدز",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a9e1cffd-6397-4b78-942b-1462dcd3aq99",
+    "title": "النيس",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "جوستفيلدز",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a8260ac7-1a13-4fb3-9cf8-204ee79eaf13",
+    "title": "أريت",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "جوستفيلدز",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "b29219f5-1ce1-41c2-b5ac-9fb825e5ecbd",
+    "title": "بوكهولت هيلز",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "جوستفيلدز",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a87d6978-c9fc-4ba6-8a41-722e2c527e3z",
+    "title": "كارستن",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "جوستفيلدز",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a50b8f95-1188-4c6b-9a5f-5b64fe3904f1",
+    "title": "كهف",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "جوستفيلدز",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "abfc015c-139e-4dbd-8c0a-3ef86406t2c3",
+    "title": "تقاطع طرق",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "جوستفيلدز",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "ad53b6c3-b0f7-4b92-b60c-23c387aa3fce",
+    "title": "الطاحونة الراقصة",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "جوستفيلدز",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "b41b6f03-d2c5-4a13-a200-4f9c74d3cdcb",
+    "title": "مؤسسة الطيار",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "جوستفيلدز",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "af0ce2d2-3b54-43bf-a86f-99c91a35db4a",
+    "title": "مزرعة جوستفيلدز",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "جوستفيلدز",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "b41b6f03-d2c5-4a13-a200-4f9cd4d3c4db",
+    "title": "كوخ الأعشاب",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "جوستفيلدز",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "abfc015c-139e-4dbd-8c0a-3ef86406c2c3",
+    "title": "هانيفيل ميدوركس",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "جوستفيلدز",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "b1f85d8b-037d-4b08-8e2b-d0fe2f1f89ac",
+    "title": "كوخ معزول",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "جوستفيلدز",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a9e1ffffd-63q7-4b78-942b-1462dcd3a799",
+    "title": "مزرعة مارتن فوي",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "جوستفيلدز",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a8260ac7-1a13-4fb3-9cf8-204ee79e2f1a",
+    "title": "إقامة مولدافيا",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "جوستفيلدز",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "b29219c5-11e1-41c2-b5ac-9fb825e5ecbd",
+    "title": "ساراسين جرانج",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "جوستفيلدز",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a8zd6978-c9fc-4ba6-8a41-722e2c527e33",
+    "title": "نزل السبع قطط",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "جوستفيلدز",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a50b8f95-1188-4c6b-9a5d-5b647e3904f1",
+    "title": "مخبأ حزبي تيميريان",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "جوستفيلدز",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "abfc015c-139e-4dbd-8c0a-3efc6406c2c3",
+    "title": "سكن فيجلبود",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "جوستفيلدز",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "ad53b6c3-b0f7-4b92-b60c-23cd87aa3f4e",
+    "title": "حقول القمح",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "جوستفيلدز",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "b41b6f03-d2c5-4c13-a200-4f9c74d3c4db",
+    "title": "ويسبرينج جرانج",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "جوستفيلدز",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "ae0c72d2-3b54-43bf-a86f-99c91a35db4a",
+    "title": "يانترا",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "جوستفيلدز",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "b1f85d3b-0c7d-4b08-8e2b-d0fe2f1f89ac",
+    "title": "ساحة الناخبين",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "مدينة نوفيجراد",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a9eqfffd-6397-4b78-942b-1462dcd3a799",
+    "title": "بوابة الهرم",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "مدينة نوفيجراد",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a8260aa7-1a13-4fb3-9cf8-204ee79e2f13",
+    "title": "بوابة المجد",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "مدينة نوفيجراد",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "b29219f5-11e1-41c2-e5ac-9fb825e5ecbd",
+    "title": "ساحة الهرم",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "مدينة نوفيجراد",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a87d6978-c9fc-4be6-8a41-722e2c527e33",
+    "title": "أرصفة نوفيغراد",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "مدينة نوفيجراد",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a50b8f95-1188-4c6b-9a5f-5b647e3d04f1",
+    "title": "بوابة بورتسايد",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "مدينة نوفيجراد",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "abfce15c-139e-4dbd-8c0a-3ef86406c2c3",
+    "title": "البوابة الجنوبية",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "مدينة نوفيجراد",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "ad53b6c3-b0f7-4b92-b60c-23c387da3f4e",
+    "title": "جسر القديس غريغوريوس",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "مدينة نوفيجراد",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "b41bcf03-d2c5-4a13-a200-4f9c74d3c4db",
+    "title": "بوابة تريتوجور",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "مدينة نوفيجراد",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "af0c72d2-3b54-43bf-ae6f-99c91a35db4a",
+    "title": "متجر منطقة جيلدورف",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "مدينة نوفيجراد",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "b1f85d8b-0c7d-4b08-8e2b-d0fe2f1f84ac",
+    "title": "كتب ومخطوطات",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "مدينة نوفيجراد",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a9e1ffqd-6397-4b78-942b-1462dcd3a799",
+    "title": "مسرح الجزار يارد",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "مدينة نوفيجراد",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a8260ac7-1a1a-4fb3-9cf8-204ee79e2f13",
+    "title": "كيت المشلولة",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "مدينة نوفيجراد",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "b2921wf5-11e1-41c2-b5ac-9fb825e5ecbd",
+    "title": "فاركورنرز",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "مدينة نوفيجراد",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a87d6978-c9fc-4ba6-8a41-722e2w527e33",
+    "title": "سوق السمك",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "مدينة نوفيجراد",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a50b8f95-1188-4c6b-9a5f-5b647e3f04f1",
+    "title": "مجاري جيلدورف",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "مدينة نوفيجراد",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "abfc015c-139e-4ded-8c0a-3ef86406c2c3",
+    "title": "المعبد الكبير للنار الأبدية",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "مدينة نوفيجراد",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "ad53b6c3-b0f7-4b92-b60c-23d387aa3f4e",
+    "title": "فيلا البارونة لا فاليت",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "مدينة نوفيجراد",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "b41bef03-d2c5-4a13-a200-4f9c74d3c4db",
+    "title": "مدرسة مارابيلا للأطفال",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "مدينة نوفيجراد",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "af0c72d2-3be4-43bf-a86f-99c91a35db4a",
+    "title": "مشرحة نوفيجراد",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "مدينة نوفيجراد",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "b1f85d8b-0c7d-4b08-8e2b-d0fe2f1f89a4",
+    "title": "مجاري نوفيجراد",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "مدينة نوفيجراد",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a9e1ffffd-6397-4b78-942b-1462dcd3aq99",
+    "title": "منزل رودولف دي جونخير",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "مدينة نوفيجراد",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a8260ac7-1a13-4fb3-9cfz-204ee79e2f13",
+    "title": "باسيفلورا",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "مدينة نوفيجراد",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "b29219f5-11e1-41c2-b5ac-9fb825e5ecbw",
+    "title": "متجر بيرسيفال شوتنباخ (لا يمكن الوصول إليه)",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "مدينة نوفيجراد",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a87dc978-c9fc-4wa6-8a41-722e2c527e33",
+    "title": "بوتريد جروف",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "مدينة نوفيجراد",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a50b8f95-1188-4c6b-9a5f-5b647e3904ff",
+    "title": "إكليل الجبل والزعتر",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "مدينة نوفيجراد",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "abfc015c-139e-4dbd-8cra-3ef86406c2c3",
+    "title": "حمام سيغيسموند",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "مدينة نوفيجراد",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "ad53b6c3-b0f7-4b92-b60c-d3c387aa3f4e",
+    "title": "سمك الحفش الذهبي",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "مدينة نوفيجراد",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "b41b6f03-d2c5-4a13-a200-4f9c74d3c4eb",
+    "title": "نزل الرفراف",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "مدينة نوفيجراد",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "af0c72d2-3b54-43bf-a8ef-99c91a35db4a",
+    "title": "نزل لا مكان",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "مدينة نوفيجراد",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a50bcf95-1188-4c6b-9a5f-5b647e3904f1",
+    "title": "منزل تريس",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "مدينة نوفيجراد",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "abcc015c-139e-4dbd-8c0a-3ef86406c2c3",
+    "title": "فيلا فار أتر",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "مدينة نوفيجراد",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "ad53bqc3-b0f7-4b92-b60c-23c387aa3f4e",
+    "title": "مستشفى فيلميريوس",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "مدينة نوفيجراد",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "b41b6f03-d2c5-4a13-a200-4frc74d3c4db",
+    "title": "مخبأ عاهرة جونيور",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "مدينة نوفيجراد",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "af0c72d2-3b54-43bf-a86f-99c91a3edb4a",
+    "title": "ساحة هورسون جونيور",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "مدينة نوفيجراد",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "af0c72d2-3b54-43bf-a86f-99c91a35dbea",
+    "title": "كازينو عاهرة جونيور",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "مدينة نوفيجراد",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "af0c72d2-3b54-z3bf-a86f-99c91a35db4a",
+    "title": "ثكنة صياد الساحرة",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "مدينة نوفيجراد",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a9e1ffffd-6397-4b78-942b-1462dcd31799",
+    "title": "الخيمياء",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "أوكسينفورت",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a8260ac7-1a13-4fb3-9cf8-20zee79e2f13",
+    "title": "حلاق",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "أوكسينفورت",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "b29219f5-11e1-41c2-b5ac-9fbw25e5ecbd",
+    "title": "الإخوة بورسودي",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "أوكسينفورت",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a87d6978-c9fc-4ba6-8a41-722e2c527e3w",
+    "title": "سجن الديريدة",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "أوكسينفورت",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a50b8f95-1188-4ceb-9a5f-5b647e3904f1",
+    "title": "إتش إم إس أوكسنفورت-تريتوجور",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "أوكسينفورت",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "abfc015c-139e-4dbd-8c0a-3efv6406c2c3",
+    "title": "بوابة نوفيجراد",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "أوكسينفورت",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "ad53b6c3-b0f7-4b92-b60c-23c387ag3f4e",
+    "title": "نادي أوكسينفورت للشطرنج",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "أوكسينفورت",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "b41b6f03-d2c5-4a13-a200-4f9c74d3c4dt",
+    "title": "ميناء أوكسينفورت",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "أوكسينفورت",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "af0c72dz-3b54-43bf-a86f-99c91a35db4a",
+    "title": "البوابة الغربية",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "أوكسينفورت",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a5cb8f95-1188-4c6b-9a5f-5b647e3904f1",
+    "title": "قصر عاهرة جونيور",
+    "mainCategory": "رئيسي",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "أوكسينفورت",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "b1f45d8b-0c7d-4b08-8e2b-d0fe2f1f89ac",
+    "title": "أطلال قلعة أرنسكرون",
+    "mainCategory": "قلوب الحجر",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "جوستفيلدز",
+    "dlc": "قلوب الحجر"
+  },
+  {
+    "id": "a9e1ffffd-6197-4b78-942b-1462dcd3a799",
+    "title": "حفرة الدم",
+    "mainCategory": "قلوب الحجر",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "جوستفيلدز",
+    "dlc": "قلوب الحجر"
+  },
+  {
+    "id": "a8260ac7-1a13-4fb3-9cf8-204ee79e2f1z",
+    "title": "بودون",
+    "mainCategory": "قلوب الحجر",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "جوستفيلدز",
+    "dlc": "قلوب الحجر"
+  },
+  {
+    "id": "b29219f5-11e1-41c2-b5ac-9fb8x5e5ecbd",
+    "title": "برونويتش",
+    "mainCategory": "قلوب الحجر",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "جوستفيلدز",
+    "dlc": "قلوب الحجر"
+  },
+  {
+    "id": "a87d6978-c9fc-4ba6-8w41-722e2c527e33",
+    "title": "كرين كيب",
+    "mainCategory": "قلوب الحجر",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "جوستفيلدز",
+    "dlc": "قلوب الحجر"
+  },
+  {
+    "id": "a50b8f95-1188-4c6b-9a5f-5b647e39d4f1",
+    "title": "مخفر دراكن هولو",
+    "mainCategory": "قلوب الحجر",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "جوستفيلدز",
+    "dlc": "قلوب الحجر"
+  },
+  {
+    "id": "abfc015c-139e-4dbd-vc0a-3ef86406c2c3",
+    "title": "إردي",
+    "mainCategory": "قلوب الحجر",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "جوستفيلدز",
+    "dlc": "قلوب الحجر"
+  },
+  {
+    "id": "b4f85d8b-0c7d-4b08-8e2b-d0fe2f1f89ac",
+    "title": "معمل Fallen Knights' fistech",
+    "mainCategory": "قلوب الحجر",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "جوستفيلدز",
+    "dlc": "قلوب الحجر"
+  },
+  {
+    "id": "a9e1ffffd-6397-4b78-942b-1462dcd3a791",
+    "title": "عقارات جارين",
+    "mainCategory": "قلوب الحجر",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "جوستفيلدز",
+    "dlc": "قلوب الحجر"
+  },
+  {
+    "id": "a8260ac7-1a13-4fb3-9cf8-204ee7ze2f13",
+    "title": "هيديل",
+    "mainCategory": "قلوب الحجر",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "جوستفيلدز",
+    "dlc": "قلوب الحجر"
+  },
+  {
+    "id": "b29219f5-11ex-41c2-b5ac-9fb825e5ecbd",
+    "title": "كوخ الصياد",
+    "mainCategory": "قلوب الحجر",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "جوستفيلدز",
+    "dlc": "قلوب الحجر"
+  },
+  {
+    "id": "a87d697c-c9fc-4ba6-8a41-7w2e2c527e33",
+    "title": "أطلال كيلكرين",
+    "mainCategory": "قلوب الحجر",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "جوستفيلدز",
+    "dlc": "قلوب الحجر"
+  },
+  {
+    "id": "a50b8f95-1188-4c6b-9a5f-5b647e3904c1",
+    "title": "كوخ ماستر توبيكال",
+    "mainCategory": "قلوب الحجر",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "جوستفيلدز",
+    "dlc": "قلوب الحجر"
+  },
+  {
+    "id": "abfc015c-139e-vdbd-8c0a-3ef86406c2c3",
+    "title": "قرية مهرين",
+    "mainCategory": "قلوب الحجر",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "جوستفيلدز",
+    "dlc": "قلوب الحجر"
+  },
+  {
+    "id": "ad53b6c3-b0f7-4f92-b60c-23c387aa3f4e",
+    "title": "الكنيسة القديمة",
+    "mainCategory": "قلوب الحجر",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "جوستفيلدز",
+    "dlc": "قلوب الحجر"
+  },
+  {
+    "id": "b41b6f03-d2c5-4a13-a200-4f9g74d3c4db",
+    "title": "المطحنة العليا",
+    "mainCategory": "قلوب الحجر",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "جوستفيلدز",
+    "dlc": "قلوب الحجر"
+  },
+  {
+    "id": "af0c72d2-3b54-43bf-a86f-99z91a35db4a",
+    "title": "عقارات فون إيفريك",
+    "mainCategory": "قلوب الحجر",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "جوستفيلدز",
+    "dlc": "قلوب الحجر"
+  },
+  {
+    "id": "a50b8f95-1188-4c6b-9a5f-5x647e3904f1",
+    "title": "قلعة زوتزر",
+    "mainCategory": "قلوب الحجر",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "جوستفيلدز",
+    "dlc": "قلوب الحجر"
+  },
+  {
+    "id": "b1f85d8b-0c7d-4b08-8e2b-d0f32f1f89ac",
+    "title": "دار مزادات بورسودي براذرز",
+    "mainCategory": "قلوب الحجر",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "أوكسينفورت",
+    "dlc": "قلوب الحجر"
+  },
+  {
+    "id": "a9e1ffffd-6397-4b78-942b-1462dcd1a799",
+    "title": "أكاديمية أوكسينفورت",
+    "mainCategory": "قلوب الحجر",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "أوكسينفورت",
+    "dlc": "قلوب الحجر"
+  },
+  {
+    "id": "a82z0ac7-1a13-4fb3-9cf8-204ee79e2f13",
+    "title": "مجاري أوكسينفورت",
+    "mainCategory": "قلوب الحجر",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "أوكسينفورت",
+    "dlc": "قلوب الحجر"
+  },
+  {
+    "id": "b292x9f5-11e1-41c2-b5ac-9fb825e5ecbd",
+    "title": "منزل شاكلوك",
+    "mainCategory": "قلوب الحجر",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "أوكسينفورت",
+    "dlc": "قلوب الحجر"
+  },
+  {
+    "id": "a87d6e78-c9fc-4ba6-8a41-722e2c527e33",
+    "title": "عيادة شاني",
+    "mainCategory": "قلوب الحجر",
+    "subCategory": "نوفيجراد",
+    "subCategoryType": "أوكسينفورت",
+    "dlc": "قلوب الحجر"
+  },
+  {
+    "id": "b1f85d8b-0c7d-4b48-8e2b-d0fe2f1f89ac",
+    "title": "خليج الرياح",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "سكيلينج",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a9e1ffffd-6397-4b78-942b-1461dcd3a799",
+    "title": "الطريق إلى فانغ ينغفار",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "سكيلينج",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a826xac7-1a13-4fb3-9cf8-204ee79e2f13",
+    "title": "ميناء اورياللا",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "سكيلينج",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "b29219f5-11e1-41c2-b5ac-9fbx25e5ecbd",
+    "title": "ناب ينجفار",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "سكيلينج",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "b1f85d8b-0c7d-4b08-8e2b-dcfe2f1f89a4",
+    "title": "المنشرة المهجورة",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "آرد سكيلينج",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a9e1ffffd-6317-4b78-942b-1462dcd3a799",
+    "title": "سرداب قديم",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "آرد سكيلينج",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a8260ac7-1a13-4fb3-9cf8-204ee79e2fa3",
+    "title": "ارينبيورن",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "آرد سكيلينج",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "b29219f5-11x1-41c2-b5ac-9fb825e5ecbd",
+    "title": "بلاندير",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "آرد سكيلينج",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a87w6978-c9fc-4ba6-8a41-722e2c527e33",
+    "title": "بوكسهولم",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "آرد سكيلينج",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a50b8f95-1188-4c6b-9a5f-5b647ex904f1",
+    "title": "جسر إلى كير ترولد",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "آرد سكيلينج",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "abfv015c-139e-4dbd-8c0a-3ef86406c2c3",
+    "title": "تقاطع طرق",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "آرد سكيلينج",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "ad53b6c3-b0g7-4b92-b60c-23c387aa3f4e",
+    "title": "تقطير",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "آرد سكيلينج",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "b41b6f03-d2c5-4ag3-a200-4f9c74d3c4db",
+    "title": "معسكر الدرويد",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "آرد سكيلينج",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "af0c72d2-3b54-43zf-a86f-99c91a35db4a",
+    "title": "منارة إلدبيرج",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "آرد سكيلينج",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a50b8f95-1188-4c6b-9a5f-5b647e390xf1",
+    "title": "منارة إلفيروم",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "آرد سكيلينج",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a87d6978-c9fc-4bw6-8a41-722e2c527e33",
+    "title": "فايرلاند",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "آرد سكيلينج",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "b1f85d8b-0c7d-4b08-8e2b-d0fe2f1f89ac",
+    "title": "المنشرة المهجورة",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "آرد سكيلينج",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a9e1f1fd-6397-4b78-942b-1462dcd3a799",
+    "title": "سرداب قديم",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "آرد سكيلينج",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a8260ac7-1a13-4fb3-9cf8-204ae79e2f13",
+    "title": "ارينبيورن",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "آرد سكيلينج",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "b29219f5-11e1-41c2-b5ac-9fb825e5xcbd",
+    "title": "بلاندير",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "آرد سكيلينج",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a87d6978-c9fc-4ba6-8a41-7w2e2c527e33",
+    "title": "بوكسهولم",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "آرد سكيلينج",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a50b8f95-1x88-4c6b-9a5f-5b647e3904f1",
+    "title": "جسر إلى كير ترولد",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "آرد سكيلينج",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "abfc015c-139e-4dbd-8c02-3ef86406c2c3",
+    "title": "تقاطع طرق",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "آرد سكيلينج",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "ad53b6c3-b0f7-4b92-b60c-23c387aa3f4g",
+    "title": "تقطير",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "آرد سكيلينج",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "b41b6f03-d2c5-4a13-a200-4g9c74d3c4db",
+    "title": "معسكر الدرويد",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "آرد سكيلينج",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "af0c72d2-zb54-43bf-a86f-99c91a35db4a",
+    "title": "منارة إلدبيرج",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "آرد سكيلينج",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "ad53b6c3-b0f7-4q92-b60c-23c387aa3f4e",
+    "title": "منارة إلفيروم",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "آرد سكيلينج",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "b41b6f03-d2c5-4a13-a200-4f9c7gd3c4db",
+    "title": "فايرلاند",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "آرد سكيلينج",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "b1f85d8b-0c7d-4bd8-8e2b-d0fe2f1f89ac",
+    "title": "فورت اتنير",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "آرد سكيلينج",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a9e1ffffd-6397-4b78-942b-1462dcd3c799",
+    "title": "فورت جريمدجار",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "آرد سكيلينج",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a8260ac7-1a13-4fb3-9ca8-204ee79e2f13",
+    "title": "فيريسدال",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "آرد سكيلينج",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "b29219f5-11e1-41c2-b5ac-9fb825e5ecxd",
+    "title": "جيدينيث",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "آرد سكيلينج",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a87d6978-c9fc-4wa6-8a41-722e2c527e34",
+    "title": "أصابع العمالقة",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "آرد سكيلينج",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a50b8f95-118x-4c6b-9a5f-5b647e3904f1",
+    "title": "مغارة",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "آرد سكيلينج",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "abfc015c-139e-4dbd-8c0a-3ef8640622c3",
+    "title": "نصب جريمجار التذكاري",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "آرد سكيلينج",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "ad53b6c3-b0f7-4b92-b60q-23c387aa3f4e",
+    "title": "هينج",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "آرد سكيلينج",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "af0c72d2-3b54-43bf-a86f-99c91a25cb4a",
+    "title": "ميناء هولمستين",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "آرد سكيلينج",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "ad53b6c3-b0f7-4b92-b60c-23c38qaa3f4e",
+    "title": "كير دو",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "آرد سكيلينج",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "b41b6f03-d2c5-4a1g-a200-4f9c74d3c4db",
+    "title": "كير جيلين",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "آرد سكيلينج",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "af0c72d2-3b54-43bf-a862-99c91a35db4a",
+    "title": "كير موير",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "آرد سكيلينج",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "ad53bqc3-b0fc-4b92-b60c-23c387aa3f4e",
+    "title": "كير نيسن",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "آرد سكيلينج",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "b41b6f0g-d2c5-4a13-a200-4f9c74d3c4db",
+    "title": "قلعة كير ترولد",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "آرد سكيلينج",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "af0c72d2-3254-43bf-a86f-99c91a35db4a",
+    "title": "ميناء كير ترولد",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "آرد سكيلينج",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "b1d85d8b-0c7d-4b08-8e2b-d0fe2f1f89ac",
+    "title": "جزيرة كفالهايم",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "آرد سكيلينج",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a9e1ffffd-6397-4b78-94fb-1462dcd3a799",
+    "title": "معسكر عمال المناجم",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "آرد سكيلينج",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a8a60ac7-1a13-4fb3-9cf8-204ee79e2f13",
+    "title": "باليسيد",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "آرد سكيلينج",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "b29x19f5-11e1-41c2-b5ac-9fb825e5ecbd",
+    "title": "رانفايج",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "آرد سكيلينج",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a87d6978-c9fc-4ba6-8a41-722e2c5w7e33",
+    "title": "ريدجيل",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "آرد سكيلينج",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a50b8f95-118v-4c6b-9a5f-5b647e3904f1",
+    "title": "روني",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "آرد سكيلينج",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "abfc015c-139e-4dbd-8c0a-vef86406c2c3",
+    "title": "نزل مدمر",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "آرد سكيلينج",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "qd53b6c3-b0f7-4b92-b60c-23c387aa3f4e",
+    "title": "منشرة (كرايت)",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "آرد سكيلينج",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "af2c72d2-3b54-43bf-a86f-99c91a35db4a",
+    "title": "منشرة (دروموند)",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "آرد سكيلينج",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "ad53b6c3-b0f7-4b92-b6xc-23c387aa3f4e",
+    "title": "سوند",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "آرد سكيلينج",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "b41g6f03-d2c5-4a1e-a200-4f9c74d3c4db",
+    "title": "مقبرة الحيتان",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "آرد سكيلينج",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "af0c72d2-3b54-43bf-a82f-99c91a35db4a",
+    "title": "وايلد شور",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "آرد سكيلينج",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "ad53b6c3-b0f7-4b92-b60c-23c387aa3f4x",
+    "title": "مغارة يوستيانا",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "آرد سكيلينج",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "5e038126-fc8a-4b05-9b8f-62e93d7243fd",
+    "title": "هارفيكن",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "فارو",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "d639d151-6c3e-428b-9e43-4d68b02c6e03",
+    "title": "تروثيم",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "فارو",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "1a19d20a-3f24-40d9-بفبي-4b7f9d6757c5",
+    "title": "حديقة فريا",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "هيندارسفجال",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "be8f4d37-50da-49f4-9c72-5c7d80a06ff1",
+    "title": "لارفيك",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "هيندارسفجال",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "675586cd-226c-496d-bac8-e3f76f2df429",
+    "title": "لوفوتين",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "هيندارسفجال",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "991653a9-2ab3-4c78-a65a-b1cfd476a3a9",
+    "title": "مقبرة لوفوتين",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "هيندارسفجال",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "22c1df6b-6325-413e-8c91-7d2ac4c80ab5",
+    "title": "لورثين",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "هيندارسفجال",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "606d688d-d3aa-43d2-b6a5-0d1770f24a14",
+    "title": "كوخ معزول",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "هيندارسفجال",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "0f0e2361-5249-4c4e-8ed7-dbf27f7a2f92",
+    "title": "هوف",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "سبايكيروج",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "3116f5f0-1ea1-4c0c-994d-cac32c36bd44",
+    "title": "برج المراقبة القديم",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "سبايكيروج",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "25e07b6c-0147-4c52-bf09-65a3d1de7162",
+    "title": "سفورلاج",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "سبايكيروج",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "4f0c0c65-34b2-4c9e-8e94-1a8a4dbf8e88",
+    "title": "القرية المهجورة",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "أوندفيك",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "39f899aa-1912-48e3-9bd3-2460a8769c9d",
+    "title": "عشيرة تورداروتش فورج",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "أوندفيك",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "8eb1d6c8-7357-4a16-81ed-f4fba11592a7",
+    "title": "أطلال دورف",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "أوندفيك",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "90d45b94-877a-4f90-b34b-e43a1359ba64",
+    "title": "نورس بوينت",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "أوندفيك",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "0a72b006-15b0-4ef1-aa5a-15957b9f98a7",
+    "title": "ساحل مارلين",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "أوندفيك",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "2180a3d9-1d94-4a9b-aeaa-6db789aa1e34",
+    "title": "تور جفالتشكا",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "أوندفيك",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "b294d5f8-9c4a-42f9-b7e3-3f4b6fb25a5c",
+    "title": "أورسكار",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "أوندفيك",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "f2544ea9-3bf5-47a8-a2e9-c576635160fc",
+    "title": "أحواض بناء السفن في أوندفيك",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "أوندفيك",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a57c8e0d-6f4c-4d1b-9e2d-097ee3f5d321",
+    "title": "جزيرة سنيدهول",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "آخر",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "b7c0c1c9-0a3b-4cc7-b6f1-3e7d6d0a9be1",
+    "title": "جزيرة تنجلستراند",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "آخر",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "671f8e4b-97a8-43c1-9b0d-96b8f8a0b662",
+    "title": "ساحل بالي جاب",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "آخر",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "87ff8c8e-bb58-4b4d-872e-3bae43853e6e",
+    "title": "جزيرة إنجدالين",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "آخر",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "e301e2ab-d23a-4c4d-b1a3-86e9cb9d68c4",
+    "title": "إصبع هيمدال",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "آخر",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "9f1f2fe3-6b85-4c5c-8c38-04b71dbaa2ae",
+    "title": "جزيرة نافا",
+    "mainCategory": "رئيسي",
+    "subCategory": "سكيلينج",
+    "subCategoryType": "آخر",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "f3c33a93-9aa0-4b09-9e5d-8f05e2656a8e",
+    "title": "معقل",
+    "mainCategory": "رئيسي",
+    "subCategory": "وادي كير مورهين",
+    "subCategoryType": "",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "2349e824-b387-4859-a6b4-3e4b3c3891c2",
+    "title": "دائرة العناصر",
+    "mainCategory": "رئيسي",
+    "subCategory": "وادي كير مورهين",
+    "subCategoryType": "",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "cd10ac5e-1463-4c97-8e0f-0b35e9ec82bb",
+    "title": "منجم حديد",
+    "mainCategory": "رئيسي",
+    "subCategory": "وادي كير مورهين",
+    "subCategoryType": "",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "d72f1ed4-9a49-4ea8-92c8-796c52ea6d16",
+    "title": "كار مورهين",
+    "mainCategory": "رئيسي",
+    "subCategory": "وادي كير مورهين",
+    "subCategoryType": "",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "183b5487-309a-4a61-a4d9-47c5f8a01165",
+    "title": "كوخ ليكسايد",
+    "mainCategory": "رئيسي",
+    "subCategory": "وادي كير مورهين",
+    "subCategoryType": "",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "9d4fc9cb-1a0d-4e36-b086-30f6c7f07eb4",
+    "title": "قبر ليو",
+    "mainCategory": "رئيسي",
+    "subCategory": "وادي كير مورهين",
+    "subCategoryType": "",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "df0f90d3-2e0d-4e45-a073-eb0a8c5f8e89",
+    "title": "برج المراقبة المدمر",
+    "mainCategory": "رئيسي",
+    "subCategory": "وادي كير مورهين",
+    "subCategoryType": "",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "29a3870a-11c8-4b42-a8e6-56d134e9121b",
+    "title": "صحراء دديدويدت",
+    "mainCategory": "رئيسي",
+    "subCategory": "آخر",
+    "subCategoryType": "",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "0c493994-2e2e-404b-bbf6-1e0b952adff8",
+    "title": "السهول الجليدية",
+    "mainCategory": "رئيسي",
+    "subCategory": "آخر",
+    "subCategoryType": "",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "97e0a16e-548c-4ddc-82e5-1e5b13ed4f6a",
+    "title": "جزيرة الضباب",
+    "mainCategory": "رئيسي",
+    "subCategory": "آخر",
+    "subCategoryType": "",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "a0321a9c-5ebc-4291-a7e8-6f6c7e9c6820",
+    "title": "تير نا ليا",
+    "mainCategory": "رئيسي",
+    "subCategory": "آخر",
+    "subCategoryType": "",
+    "dlc": "لا أحد"
+  },
+  {
+    "id": "b53e2a7b-c2f3-4d64-940e-3a52ee45e83d",
+    "title": "عالم غونتر أوديم",
+    "mainCategory": "قلب من حجر",
+    "subCategory": "آخر",
+    "subCategoryType": "",
+    "dlc": "قلب من حجر"
+  },
+  {
+    "id": "c480e1aa-89c2-4aa4-bbff-b3a8f1a0978a",
+    "title": "العالم المطلي",
+    "mainCategory": "قلب من حجر",
+    "subCategory": "آخر",
+    "subCategoryType": "",
+    "dlc": "قلب من حجر"
+  },
+  {
+    "id": "3e8f356d-73d5-4813-a4a5-fc50d98855e2",
+    "title": "أرض الألف خرافة",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "آخر",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "e58f29fd-462d-49bf-87b2-ecf97ecb17b8",
+    "title": "رصيف أروناكس",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "بوكلير",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "4a394ea5-7cd9-4eb5-8ac1-b5d3fcb8d2c9",
+    "title": "قصر بوكلير",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "بوكلير",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "7499a29d-2414-4b6f-9377-6bc183c174bf",
+    "title": "ميناء بوكلير",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "بوكلير",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "4f9c05b7-3d36-432c-831e-1c570b01c2b9",
+    "title": "حسناء بوكلير",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "بوكلير",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "f62ddc89-1397-427d-b80c-387e902177f8",
+    "title": "بنك سيانفانيلي",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "بوكلير",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "8c465183-b6af-4467-87a8-8c4d8c3fb396",
+    "title": "حانة كلوجز الذكية",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "بوكلير",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "c39e553b-2a7b-47c7-ae0f-3320663eb34a",
+    "title": "بوابة كوبرز",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "بوكلير",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "2eeff8d3-c8d5-4144-b83d-507db46b191b",
+    "title": "مركز الحرس الدوقي",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "بوكلير",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "d2d3a804-1a65-42c5-aef8-2db906b92a4c",
+    "title": "ساحة إبونا",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "بوكلير",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "f3d3c843-8bf3-4817-a4b9-c2b87d4c55a7",
+    "title": "المكان الكبير",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "بوكلير",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "9a520a62-49a7-41a1-af2d-ffaa3f2d7c6e",
+    "title": "بوابة الميناء",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "بوكلير",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "aba183aa-d2fd-4a4c-b40e-46f792dfdc09",
+    "title": "ساحة الفرسان النائمة",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "بوكلير",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "1e00c186-cc09-4a36-9014-dc76d798db12",
+    "title": "دار أيتام الرحمة",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "بوكلير",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "6f12c40e-e006-47d7-badc-41f4d21d7ef7",
+    "title": "بوابة ليبيودا",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "بوكلير",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "6e769a91-ae15-4eb3-9d2f-2d0f09f8a684",
+    "title": "ساحة لوليفييه",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "بوكلير",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "c0d84ff4-cd72-4d57-b736-e46d4a89f22a",
+    "title": "بوابة ميتينا",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "بوكلير",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "2b8c7919-48c9-4a1b-b6fe-1f74eb8de4e8",
+    "title": "سفارة نيلفجارديان",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "بوكلير",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "59c8c4e8-8c24-437e-8b47-7cda49e0c276",
+    "title": "ملكية السيدة أوريانا",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "بوكلير",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "4cd55f23-15ae-46ce-af49-dc8a1e22455e",
+    "title": "مقبرة أورليمور",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "بوكلير",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "e3345f21-6b06-42b2-8752-ba0e4d5f0129",
+    "title": "حدائق القصر",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "بوكلير",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "652edc11-1315-4d04-a4b7-5bfa75c741bd",
+    "title": "الدراج",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "بوكلير",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "dccf527f-598e-4b7c-9c54-6db4d8e3b91c",
+    "title": "روزتري هيل",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "بوكلير",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "fc14d0b5-e8c3-4eab-a561-0a0b3466fbbf",
+    "title": "سان سيباستيان",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "بوكلير",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "4999741a-0485-4a36-a188-4a5a3a12b775",
+    "title": "تمثال ريجنالد دوبري",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "بوكلير",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "e4b6d740-7f22-4a32-9d7b-168c5ef6665d",
+    "title": "مقبرة المعبد",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "بوكلير",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "f173bb7d-9a38-42c7-87e3-fb4d328b309b",
+    "title": "ورشة كوبر المهجورة",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "كاروبرتا وودز",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "e6071d9f-8f07-4c50-8187-c9b726b0184a",
+    "title": "مخزن مهجور",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "كاروبرتا وودز",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "36ab18f8-8e1c-4f5d-9134-6660669a60d1",
+    "title": "بلغارد مانور",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "كاروبرتا وودز",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "b155cd5c-5db3-4ad8-8d13-c6472a81d4e5",
+    "title": "بلجارد فينيارد",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "كاروبرتا وودز",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "40b2173e-6db0-40cd-8c80-0e185c456ee7",
+    "title": "دورين ألما العقارية",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "كاروبرتا وودز",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "63b924f7-e5b2-4f77-a6ee-54831909e7c8",
+    "title": "الجسر المتحرك",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "كاروبرتا وودز",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "1082957e-97fb-439d-a90d-d963f6c1f4d5",
+    "title": "كهف ليبيودا",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "كاروبرتا وودز",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "c8b747b2-53ea-4938-9df2-e69344a2c365",
+    "title": "أطلال محمية الجان",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "كاروبرتا وودز",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "4e91efcf-bb87-4c7c-8a64-dde5c651feab",
+    "title": "فرانكولارت",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "كاروبرتا وودز",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "a4ef55a5-9c9f-4d3f-a075-1db5f9237925",
+    "title": "مزرعة جيلينسر",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "كاروبرتا وودز",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "b40d9a9b-0717-44ed-9eae-f1f08aa1b62c",
+    "title": "هورتنس العقارية",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "كاروبرتا وودز",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "0d3e47f4-808d-4bf3-9f42-9aa141f0d36b",
+    "title": "هورتنس فينيارد",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "كاروبرتا وودز",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "169e9f05-5b72-4f3d-97e6-ea40f14a1d7a",
+    "title": "مقبرة مير لاشيزلونج",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "كاروبرتا وودز",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "a0d6ebef-e611-44f4-94d1-887cc6df2f66",
+    "title": "موركوود",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "كاروبرتا وودز",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "2c01047c-48e2-4a8b-b485-0c76b81d4c43",
+    "title": "أطلال قصر تيرميس",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "كاروبرتا وودز",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "c89c1612-bad1-4169-932b-3b021fbbf90c",
+    "title": "أطلال تيشام موتنا",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "كاروبرتا وودز",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "3a4370f2-042b-41b1-80b2-51b3d3e8f505",
+    "title": "تيلي فيلد",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "كاروبرتا وودز",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "3a8e6c3c-839b-4711-9a0c-5b6e8872a146",
+    "title": "أطلال عقارات تراستامارا",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "كاروبرتا وودز",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "ef05fbb5-1936-4a8e-b36e-4b2c501bce50",
+    "title": "كوخ تراستامارا للصيد",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "كاروبرتا وودز",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "a2d65011-3185-46f3-b034-6d172a2d7da3",
+    "title": "محجر اردايسو",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "الشانزليزيه",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "8f6e122f-cc3d-4c79-9336-4b82c0ad724a",
+    "title": "مزرعة باسان",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "الشانزليزيه",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "a9161b15-03f7-4e0c-a5fb-303fed29d35f",
+    "title": "غابة البركة",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "الشانزليزيه",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "620af64a-1591-49b2-9259-381e6d13b30c",
+    "title": "عقارات كاستيلداشيا المهجورة",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "الشانزليزيه",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "5680facc-72a5-4e77-9d85-bc160f48dd53",
+    "title": "أطلال معبد دانامبي",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "الشانزليزيه",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "cdb8d944-45a8-4d9e-9db1-0b81e13d44d3",
+    "title": "ممر ديلينفر",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "الشانزليزيه",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "17ea8237-1a94-4dbf-8c7c-c5d45eeff1f8",
+    "title": "أطلال حصن أوسار",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "الشانزليزيه",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "3bdc2f82-2d6e-4f18-8b5d-c8f3d7f801a3",
+    "title": "فرينت دوكس",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "الشانزليزيه",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "f3e4e6d1-2f47-4ac5-b2e5-63c9531b4b20",
+    "title": "ماري أوبريبيس",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "الشانزليزيه",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "c7b246d1-1e4f-4344-98b7-b539b3b2b6f5",
+    "title": "قلعة مونت كرين",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "الشانزليزيه",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "a97fe54c-b4a1-4702-b119-3fc7a1545c9d",
+    "title": "مقبرة مونت كرين",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "الشانزليزيه",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "d62d0310-c7ef-4b4d-a9f3-8b18c0057735",
+    "title": "مشكلة",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "الشانزليزيه",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "e3dbf3c1-634d-4cf3-b6b3-d1657bd3c7b7",
+    "title": "قلعة دون تين",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "دون تين",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "5bb72f42-e6e9-44a1-8e2d-9d4f86ed3d54",
+    "title": "مفترق طرق دون تين",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "دون تين",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "cd4891e3-5e01-4f86-b5bb-3bb49f824e41",
+    "title": "دون تين هيلسايد",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "دون تين",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "a96bc4f5-d82a-4c6a-b8ee-0567a9c22b4b",
+    "title": "بستان الزيتون",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "دون تين",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "694ab1a3-2d33-41f0-850a-c9cf11c162ed",
+    "title": "هيرميتاج بيناستري",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "دون تين",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "c8499025-17d8-45c8-9a1a-2956ee5ea2b0",
+    "title": "مغارة ألبرتوس",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "سفوح جورجون",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "3d1c8b46-5e2a-4d68-a3a3-667ba327d0b7",
+    "title": "أطلال سجن باستوي",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "سفوح جورجون",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "af1f3c86-5c7e-42a1-b0f2-95d017a48e6f",
+    "title": "كهف تشوتشوت",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "سفوح جورجون",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "1a11e9e2-df4c-4d6f-8a01-6f7e1d0cbb0d",
+    "title": "منحدر كوبرز",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "سفوح جورجون",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "c222b80c-46b7-4812-b8f8-56b0b005a0f5",
+    "title": "كاترين مانور",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "سفوح جورجون",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "ecdc5b33-6a09-4f3b-950c-3d8773f4f37e",
+    "title": "دانتان جليد",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "سفوح جورجون",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "d7bca9aa-8827-40bb-8a85-7a029943e0e7",
+    "title": "دوشاتون كريست",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "سفوح جورجون",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "0e1673b1-16a2-4ae9-a3fe-056cc20bc523",
+    "title": "أطلال فورت أستر",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "سفوح جورجون",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "60d92b52-7fb1-48b9-b45a-4bd1e5d2f3a9",
+    "title": "فوكس هولو",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "سفوح جورجون",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "5eb3c861-cd2c-46d4-af26-3eaef163dc6d",
+    "title": "هنا جيده",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "سفوح جورجون",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "c6c2ce38-9a4d-4da1-9d54-03a8a5517c5b",
+    "title": "لاك سيلافي",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "سفوح جورجون",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "46eecc90-396c-4e2f-b7b1-431af2b0f1a0",
+    "title": "الوشق الصخرة",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "سفوح جورجون",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "9a0b8a6c-4415-4cfb-aa52-3c8e5dd49318",
+    "title": "غامض الدلفي",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "سفوح جورجون",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "0f3b5d3f-b42b-4a04-b581-bc189b5a8820",
+    "title": "منحدر بافون",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "سفوح جورجون",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "6df9b6c2-3ec8-4e3a-9a0f-157cfed7da18",
+    "title": "المخفر ريو-كان",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "سفوح جورجون",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "7d96a591-9b42-43a4-a24f-5fcf822df34f",
+    "title": "سيد ليجاد",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "سفوح جورجون",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "9a68f56d-17c3-4184-a17a-d72a22d6623e",
+    "title": "مدرج سيدهي ليجاد",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "سفوح جورجون",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "8e9c0d3a-1785-4568-9fc8-7d474bba979d",
+    "title": "كهوف تولاسينس",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "سفوح جورجون",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "ddc16388-922c-4d1c-bc8f-8f9cf51c3da3",
+    "title": "ذا كوكاتريس إن",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "سانسرتور مارش",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "a2c06c84-6ec5-4b9b-89de-dc71f692a4f5",
+    "title": "مطحنة الكونت دي لاكروا",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "سانسرتور مارش",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "38135164-5ac2-4ea4-a2e2-cd671065b07e",
+    "title": "جزيرة كرين",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "سانسرتور مارش",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "b64a69c1-3a8b-4959-9b34-50a8fb9aa5bf",
+    "title": "تيار الشعيرة",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "سانسرتور مارش",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "fdf996c8-430a-4310-aef2-8b6a3988a408",
+    "title": "فلوفيف",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "سانسرتور مارش",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "a94b0a43-94ce-4d8e-b13a-3f8e8d9d1bd4",
+    "title": "غابة مارسسينت",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "سانسرتور مارش",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "8e74b73e-1731-4aa7-9bd7-09c27b4c906f",
+    "title": "سجن توسان",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "سانسرتور مارش",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "bd45bf56-5d23-49b8-8162-1d3e7f50fe7c",
+    "title": "توفو فينيارد",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "سانسرتور مارش",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "3c54ef95-f88f-4c7f-907d-6da44e33cf52",
+    "title": "مغارة عين البومة",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "سانسرتور مارش",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "334794ac-3c60-4822-a60a-2820d4b31c48",
+    "title": "وادي التسعة",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "سانسرتور مارش",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "a3427fe0-2a1f-4fbb-bd50-417f94385741",
+    "title": "معبد مهجور للنبي ليبودا",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "وادي سانسرتور",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "27f7d68c-06e7-4e44-bc2e-17d8cda0b1a5",
+    "title": "كاستل رافيلو",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "وادي سانسرتور",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "e31b2621-5e92-4311-8e4b-3d8c6d3d8b01",
+    "title": "شاطئ الكستناء",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "وادي سانسرتور",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "a070d5e9-5d7c-4973-922f-3d0d3c6c22c4",
+    "title": "كوروناتا",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "وادي سانسرتور",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "84245dcb-5903-4c34-8161-147245d0a265",
+    "title": "كورفو بيانكو",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "وادي سانسرتور",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "ebdb45e2-23d8-40f8-89f2-951117bf5b59",
+    "title": "طاحونة دولسينيا الهوائية",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "وادي سانسرتور",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "ba85237e-2d18-4d52-a98a-1991fc8603a0",
+    "title": "معشبة الغابات",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "وادي سانسرتور",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "ecc940db-6f5a-4954-82d8-c72b03e63a29",
+    "title": "أربعة مطاحن",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "وادي سانسرتور",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "f9be7ce4-b0b5-4c82-a0e4-b1e5f36174c8",
+    "title": "باتريس جليد",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "وادي سانسرتور",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "6b90c1ab-2c74-4c80-94b7-497e3aa71be6",
+    "title": "معبر نهر بيتابات",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "وادي سانسرتور",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "a70b75e4-d38a-4ec0-9900-21ff856b228e",
+    "title": "جسر بليغموند",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "وادي سانسرتور",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "6bfb0953-17b4-4a86-88a2-ecf0d38f1323",
+    "title": "تمثال النبي ليبيودا",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "وادي سانسرتور",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "a7ab85de-bd45-4a1a-a5e2-e91f37ed3fc0",
+    "title": "مخزن ريفيكالم",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "وادي سانسرتور",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "ccbb8df2-cff2-4b6d-a074-7cb32f5d9db2",
+    "title": "المحطة التجارية",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "وادي سانسرتور",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "إعلان480a5a-52ac-4974-bd86-7c9a3e92e5d3",
+    "title": "ملاعب تورني",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "وادي سانسرتور",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "0212a163-4307-41b3-8cfe-d172937d936b",
+    "title": "مكتب توسان للإيرادات الداخلية",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "وادي سانسرتور",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "152d02c4-3014-4080-9e90-44ea52dd7a27",
+    "title": "فيرمينتينو فينيارد",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "وادي سانسرتور",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "1c57a5b5-2d4c-4d79-80c3-6a101fa49b3f",
+    "title": "صخور فينين",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "وادي سانسرتور",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "7e0e1a71-0f6e-4a6f-80d2-6ebfb7c16219",
+    "title": "أطلال قصر أرتشاخ",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "وادي فيديت",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "f8c0a4ac-7d34-442d-af11-32ac10ed648c",
+    "title": "حفر بروم",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "وادي فيديت",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "c010f1df-0dcd-4b2b-8189-dfb0c9c1f7e5",
+    "title": "ذا سيلفر سالاماندر إن",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "وادي فيديت",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  },
+  {
+    "id": "7c0f0844-b4a5-4a56-a39d-93e12206c1c2",
+    "title": "فيلا فيديت",
+    "mainCategory": "الدم والنبيذ",
+    "subCategory": "وادي فيديت",
+    "subCategoryType": "",
+    "dlc": "الدم والنبيذ"
+  }
+]

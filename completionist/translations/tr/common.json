@@ -1,15 +1,17 @@
 {
   "appTitle": "Tamamlayıcı.",
   "welcome": "Hoş geldin",
+  "continue": "Devam etmek",
   "search": "Öğeleri ara...",
   "showMore": "Daha fazla göster",
   "none": "Hiçbiri",
   "main": "Ana",
+  "changesLeft": "KALDI DEĞİŞİKLİKLER: ",
   "active": "AKTİF",
   "inactive": "AKTİF DEĞİL",
   "auth": {
     "email": "E-posta",
-    "password": "Şifre",
+    "userpw": "Şifre",
     "username": "Kullanıcı adı",
     "forgotPassword": "Parolanızı mı unuttunuz?",
     "login": "Giriş yapmak",
@@ -27,15 +29,23 @@
     "gameSelection": "Oyun Seçimi",
     "sendRequest": "İstek gönder",
     "subscriptions": "Abonelikler",
+    "selectAGame": "Bir Oyun Seçin",
+    "addSteamId": "Steam Kimliği Ekle",
+    "steamAchievements": "Steam Başarıları",
     "payments": "Ödeme",
-    "settings": "Ayarlar"
+    "settings": "Ayarlar",
+    "accountDetails": "hesap detayları"
+  },
+  "selectGame": {
+    "selectGameDesc1": "Ücretsiz bir hesapla, takip etmek için ayda bir oyun seçebilirsiniz.",
+    "selectGameDesc2": "Aşağıdan ilk oyununuzu seçin!",
+    "selectGameDesc3": "Hata yaparsanız endişelenmeyin, bunu ayda iki kez değiştirebileceksiniz."
   },
   "subscriptions": {
-    "subscriptionDesc": "Silver veya Gold abonelikle,\n",
+    "subscriptionDesc": "Premium abonelikle,\n",
     "purchaseSubscription": "Abonelik Satın Al",
-    "bronze": "Bronz",
-    "silver": "Gümüş",
-    "gold": "Altın",
+    "free": "Özgür",
+    "premium": "Ödül",
     "accessMultipleGames": "Birden fazla oyuna erişim",
     "noAds": "Reklamsız",
     "withAds": "Reklamlı",
@@ -65,13 +75,41 @@
     "enabledDLC": "DLC'yi Etkinleştir/Devre Dışı Bırak:",
     "showHide": "Göster/Gizle:",
     "completedItems": "Tamamlanan Öğeler",
-    "disabledSections": "Engelli Bölümleri"
+    "disabledSections": "Engelli Bölümler",
+    "changeAccountDetails": "Hesap Ayrıntılarını Değiştir",
+    "selectLanguage": "Dil Seçin:"
+  },
+  "accountDetails": {
+    "changeUsername": "Kullanıcı adını değiştir",
+    "changeEmail": "Değişim e-posta",
+    "changePassword": "Şifre değiştir",
+    "updateDetails": "Ayrıntıları Güncelle"
+  },
+  "steamAchievements": {
+    "addSteamIdStep1": "1. Adım. Steam Kimliğinizi bulun ve ekleyin",
+    "addSteamIdDesc1": "Steam kimliğinizi bulmak için Steam'e gidin ve 'Profili Görüntüle'yi seçin.",
+    "addSteamIdDesc2": "Kimliği profilinizin üst kısmında bulabilirsiniz. ",
+    "addSteamIdStep2": "2. Adım. Gizlilik tercihlerinizi güncelleyin",
+    "addSteamIdDesc3": "Ayrıca profilinizin herkese açık olduğundan da emin olmanız gerekir.",
+    "addSteamIdDesc4": "Bunu Steam Tercihleri ​​-> Gizlilik Ayarları'na giderek yapabilirsiniz.",
+    "steamIdPlaceholder": "Steam Kimliği"
   },
   "errors": {
-    "error": "Hata",
-    "pleaseRefreshApp": "Lütfen uygulamayı yenileyin",
-    "noEmailExists": "E-posta mevcut değil",
-    "googleSignIn": "Google oturum açma hatası"
+		"error": "Hata",
+		"pleaseRefreshApp": "Lütfen uygulamayı yenileyin",
+		"emailAlreadyExists": "Bu e-posta zaten var.",
+		"emailNotFound": "Email bulunamadı",
+		"noEmailExists": "E-posta mevcut değil",
+		"checkCredentials": "Lütfen kimlik bilgilerinizi kontrol edip tekrar deneyin.",
+		"incorrectPw": "Yanlış parola. ",
+		"googleSignIn": "Google ile Oturum Açma Hatası"
+  },
+  "alerts": {
+    "activate": "Etkinleştir",
+    "cancel": "İptal etmek",
+    "changesLeft": "Sahip olacaksın {{changesLeft}} değiştirmek{{s}} sol.",
+    "noChangesLeft": "Hiçbir Değişiklik Kalmadı",
+    "noChangesLeftMessage": "Üzgünüz, bu ay için oyun değişikliğiniz kalmadı.\n "
   },
   "languages": {
     "ar": "Arapça",

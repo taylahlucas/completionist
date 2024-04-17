@@ -1,9 +1,37 @@
 {
+  "fallout4": {
+    "title": "Serpinti 4",
+    "categories": {
+      "quests": {
+        "mainQuests": "Ana Görevler",
+        "factionQuests": "Fraksiyon Görevleri",
+        "sideQuests": "Yan Görevler"
+      },
+      "collectables": {
+        "bobbleheads": "Bobblehead'ler",
+        "magazines": "Dergiler",
+        "uniqueWeapons": "Benzersiz Silahlar",
+        "uniqueArmour": "Benzersiz Zırh",
+        "powerArmour": "Güç Zırhı"
+      },
+      "locations": {
+        "main": "Ana"
+      },
+      "miscellaneous": {
+        "holotapes": "Sanal bantlar"
+      }
+    },
+    "dlc": {
+      "automatron": "Otomatron",
+      "farHarbor": "Uzak Liman",
+      "nukaWorld": "Nuka-Dünya",
+      "vaultTecWorkshop": "Vault-Tec Atölyesi"
+    }
+  },
   "skyrim": {
     "title": "Skyrim",
     "categories": {
       "quests": {
-        "title": "Görevler",
         "mainQuests": "Ana Görevler",
         "factionQuests": "Fraksiyon Görevleri",
         "civilWar": "İç savaş",
@@ -14,8 +42,7 @@
         "globalQuests": "Küresel Görevler"
       },
       "collectables": {
-        "title": "Koleksiyon parçaları",
-        "dragonPriestMasks": "Ejderha Rahibi Maskeleri",
+        "dragonPriestMasks": "Ejderha Rahip Maskeleri",
         "daedricArtefacts": "Daedrik Eserler",
         "bugInAJar": "Kavanozdaki Böcek",
         "shouts": "Bağırışlar",
@@ -25,10 +52,9 @@
         "stones": "Taşlar"
       },
       "locations": {
-        "title": "Konumlar"
+        "main": "Ana"
       },
       "miscellaneous": {
-        "title": "Çeşitli",
         "books": "Kitabın",
         "spellTomes": "Büyü Kitapları",
         "journals": "Günlükler"
@@ -40,36 +66,25 @@
       "hearthfire": "Ocak ateşi"
     }
   },
-  "fallout4": {
-    "title": "Fallout 4",
+  "witcher3": {
+    "title": "Witcher 3: Vahşi Av",
     "categories": {
       "quests": {
-        "title": "Görevler",
         "mainQuests": "Ana Görevler",
-        "factionQuests": "Fraksiyon Görevleri",
-        "sideQuests": "Yan Görevler"
+        "secondaryQuests": "İkincil Görevler",
+        "contracts": "Sözleşmeler",
+        "treasureHunts": "Hazine avı"
       },
       "collectables": {
-        "title": "Koleksiyon parçaları",
-        "bobbleheads": "Bobblehead'ler",
-        "magazines": "Dergiler",
-        "uniqueWeapons": "Benzersiz Silahlar",
-        "uniqueArmour": "Benzersiz Zırh",
-        "powerArmour": "Güç Zırhı"
+        "diagrams": "Diyagramlar"
       },
       "locations": {
-        "title": "Konumlar"
-      },
-      "miscellaneous": {
-        "title": "Çeşitli",
-        "holotapes": "Sanal bantlar"
+        "main": "Ana"
       }
     },
     "dlc": {
-      "automatron": "Otomatron",
-      "farHarbor": "Uzak Liman",
-      "nukaWorld": "Nuka-Dünya",
-      "vaultTecWorkshop": "Vault-Tec Atölyesi"
+			"bloodAndWine": "Kan ve Şarap",
+			"heartsOfStone": "Taş Kalpler"
     }
   }
 }

@@ -22,3 +22,19 @@ export const LoginButton = styled(Button)`
 export const LoginFormFooterContainer = styled.View`
   margin-top: 32px;
 `;
+
+export const SelectFirstGameContentContainer = styled.View`
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-top: 16px;
+`;
+
+export const SelectFirstGameButtonContainer = styled.View`
+	height: 82px;
+`;
+
+export const SelectFirstGameButtonStyle = styled(Button)`
+	position: absolute;
+	align-self: center;
+	margin-top: 16px;
+`;

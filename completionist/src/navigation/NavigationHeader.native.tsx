@@ -1,16 +1,12 @@
 import React from 'react';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import {
-  styles,
   NavigationHeaderContainer,
-  NavigationHeaderText,
-  NavigationEmptyContainer
+  NavigationHeaderText
 } from './NavigationStyledComponents.native';
-import Condition from '@components/general/Condition.native';
 import { NavigationHeaderLeftActionTypes, NavigationHeaderRightActionTypes } from '@utils/CustomTypes';
 import useGetLeftNavigationItem from './hooks/useGetLeftNavigationItem.native';
-import IconButton from '@components/general/Icon/IconButton.native';
-import useGetLoginMethods from '@components/custom/LoginForm/hooks/useGetLoginMethods';
+import useGetRightNavigationItem from './hooks/useGetRightNavigationItem.native';
 
 interface NavigationHeaderProps {
   title: string;
@@ -21,26 +17,13 @@ interface NavigationHeaderProps {
 const NavigationHeader = ({ title, leftAction = 'menu', rightAction = 'none' }: NavigationHeaderProps) => {
   const theme = useGetTheme();
   const leftItem = useGetLeftNavigationItem(leftAction);
-  const { signOut } = useGetLoginMethods();
+	const rightItem = useGetRightNavigationItem(rightAction);
 
   return (
     <NavigationHeaderContainer>
       {leftItem}
-      <NavigationHeaderText type={'Heading'} color={theme.lightGrey}>{title}</NavigationHeaderText>
-      <Condition
-        condition={rightAction === 'logout'}
-        conditionalElement={
-          <NavigationEmptyContainer />
-        }
-      >
-        <IconButton
-          style={styles.iconButton}
-          name={'logout'}
-          color={theme.lightGrey}
-          size={30}
-          onPress={signOut}
-        />
-      </Condition>
+      <NavigationHeaderText type='Heading' color={theme.lightGrey}>{title}</NavigationHeaderText>
+			{rightItem}
     </NavigationHeaderContainer>
   );
 };

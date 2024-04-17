@@ -3,7 +3,6 @@ import { GoogleSignin } from '@react-native-google-signin/google-signin';
 import auth from '@react-native-firebase/auth';
 import useEndpoints from '@data/api/hooks/useEndpoints.native';
 import { AxiosErrorResponse } from '@utils/CustomTypes';
-import useLoginState from './useLoginState';
 import { Alert } from 'react-native';
 import useEditUserData from '@data/hooks/useEditUserData.native';
 import useMainState from '@redux/hooks/useMainState';
@@ -108,7 +107,7 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 
 			return auth()
 				.signInWithCredential(googleCredential)
-				.then((response) => {
+				.then((response): void => {
 					const { displayName, email, uid, photoURL } = response?.user || {};
 					if (displayName && email && idToken) {
 						checkUserExists(email)
@@ -157,6 +156,7 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 			updateUser(user);
 			removeUserData();
 			await GoogleSignin.signOut();
+			removeUserData();
 		} catch (error) {
 			console.log("Error signing out: ", error)
 		}

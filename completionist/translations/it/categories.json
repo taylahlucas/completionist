@@ -1,9 +1,37 @@
 {
+  "fallout4": {
+    "title": "Fallout 4",
+    "categories": {
+      "quests": {
+        "mainQuests": "Missioni principali",
+        "factionQuests": "Missioni di fazione",
+        "sideQuests": "Missioni secondarie"
+      },
+      "collectables": {
+        "bobbleheads": "Teste molleggiate",
+        "magazines": "Riviste",
+        "uniqueWeapons": "Armi uniche",
+        "uniqueArmour": "Armatura unica",
+        "powerArmour": "Armatura potenziata"
+      },
+      "locations": {
+        "main": "Principale"
+      },
+      "miscellaneous": {
+        "holotapes": "Olonastri"
+      }
+    },
+    "dlc": {
+      "automatron": "Automatron",
+      "farHarbor": "Porto lontano",
+      "nukaWorld": "Mondo Nuka",
+      "vaultTecWorkshop": "Workshop Vault-Tec"
+    }
+  },
   "skyrim": {
     "title": "Skyrim",
     "categories": {
       "quests": {
-        "title": "Missioni",
         "mainQuests": "Missioni principali",
         "factionQuests": "Missioni di fazione",
         "civilWar": "Guerra civile",
@@ -14,7 +42,6 @@
         "globalQuests": "Missioni globali"
       },
       "collectables": {
-        "title": "Oggetti da collezione",
         "dragonPriestMasks": "Maschere del Sacerdote Drago",
         "daedricArtefacts": "Manufatti daedrici",
         "bugInAJar": "Insetto in un barattolo",
@@ -25,10 +52,9 @@
         "stones": "Pietre"
       },
       "locations": {
-        "title": "Posizioni"
+        "main": "Principale"
       },
       "miscellaneous": {
-        "title": "Varie",
         "books": "Libri",
         "spellTomes": "Tomi di incantesimi",
         "journals": "Riviste"
@@ -40,36 +66,25 @@
       "hearthfire": "Focolare"
     }
   },
-  "fallout4": {
-    "title": "Fallout 4",
+  "witcher3": {
+    "title": "The Witcher 3: Caccia Selvaggia",
     "categories": {
       "quests": {
-        "title": "Missioni",
         "mainQuests": "Missioni principali",
-        "factionQuests": "Missioni di fazione",
-        "sideQuests": "Missioni secondarie"
+        "secondaryQuests": "Missioni secondarie",
+        "contracts": "Contratti",
+        "treasureHunts": "Cacce al tesoro"
       },
       "collectables": {
-        "title": "Oggetti da collezione",
-        "bobbleheads": "Teste molleggiate",
-        "magazines": "Riviste",
-        "uniqueWeapons": "Armi uniche",
-        "uniqueArmour": "Armatura unica",
-        "powerArmour": "Armatura potenziata"
+        "diagrams": "Diagrammi"
       },
       "locations": {
-        "title": "Posizioni"
-      },
-      "miscellaneous": {
-        "title": "Varie",
-        "holotapes": "Olonastri"
+        "main": "Principale"
       }
     },
     "dlc": {
-      "automatron": "Automatron",
-      "farHarbor": "Porto lontano",
-      "nukaWorld": "Mondo Nuka",
-      "vaultTecWorkshop": "Workshop Vault-Tec"
+      "bloodAndWine": "Sangue E Vino",
+      "heartsOfStone": "Cuori Di Pietra"
     }
   }
 }

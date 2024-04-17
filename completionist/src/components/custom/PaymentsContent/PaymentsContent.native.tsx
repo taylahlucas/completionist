@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import SelectableItem from '@components/general/SelectableItem/SelectableItem';
 import StyledText from '@components/general/Text/StyledText.native';
@@ -11,6 +11,9 @@ import { ScreenEnum } from '@utils/CustomEnums';
 import Button from '@components/general/Button/Button.native';
 import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
 import ScrollableList from '@components/general/Lists/ScrollableList.native';
+import useMainState from '@redux/hooks/useMainState';
+import useEditUserData from '@data/hooks/useEditUserData.native';
+import Spacing from '@components/general/Spacing.native';
 
 const PaymentsContent = () => {
 	const { t } = useTranslation();
@@ -18,20 +21,22 @@ const PaymentsContent = () => {
 	const navigation = useReactNavigation();
 	const { selectedSubscription } = useSubscriptionState();
 	const [selectedPrice, setSelectedPrice] = useState(selectedSubscription.prices[0]);
+	const { user } = useMainState();
+	const { saveUserAndCache } = useEditUserData();
 
 	return (
 		<ScrollableList>
 			<SelectableItem
 				item={selectedSubscription}
-				isSelected={true}
+				isSelected
 			>
-				<StyledText type={'Heading'} color={theme.lightGrey}>
+				<StyledText type='Heading' color={theme.lightGrey}>
 					{selectedSubscription.title}
 				</StyledText>
 				<SubscriptionOptionDescription items={selectedSubscription.description} />
 			</SelectableItem>
 
-			<PaymentPlanSubtitle align={'left'} color={theme.midGrey}>
+			<PaymentPlanSubtitle align='left' color={theme.midGrey}>
 				{t('common:payments:selectPlan')}
 			</PaymentPlanSubtitle>
 
@@ -39,7 +44,7 @@ const PaymentsContent = () => {
 				{selectedSubscription.prices.map((item, index) => (
 					<SelectableItem
 						key={index}
-						item={selectedSubscription} 
+						item={selectedSubscription}
 						isSelected={item.type === selectedPrice.type}
 						onPress={(): void => setSelectedPrice(item)}
 					>
@@ -50,18 +55,28 @@ const PaymentsContent = () => {
 				))}
 			</PaymentPricesContainer>
 
-			<PaymentPlanSubtitle align={'left'} color={theme.midGrey}>
-			{t('common:payments:selectType')}
+			<PaymentPlanSubtitle align='left' color={theme.midGrey}>
+				{t('common:payments:selectType')}
 			</PaymentPlanSubtitle>
 
 			{/* // TODO: Add paypal and apple pay */}
+			<Spacing />
 
 			<Button
-				style={{ marginTop: 64, alignSelf: 'center' }}
-                title={t('common:payments.confirm')}
-                onPress={(): void => navigation.navigate(ScreenEnum.GameSelection)}
-                color={theme.primaryPurple}
-            />
+				title={t('common:payments.confirm')}
+				onPress={(): void => {
+					const updatedUser = {
+						...user,
+						subscription: {
+							...user.subscription,
+							tier: selectedSubscription.id
+						}
+					};
+					saveUserAndCache(updatedUser);
+					navigation.navigate(ScreenEnum.GameSelection);
+				}}
+				color={theme.primaryPurple}
+			/>
 		</ScrollableList>
 	);
 };

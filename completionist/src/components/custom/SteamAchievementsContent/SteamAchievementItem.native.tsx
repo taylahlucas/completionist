@@ -25,7 +25,7 @@ const SteamAchievementItem = ({ achievement }: SteamAchievementItemProps) => {
 				/>
 				<SteamAchievementContentContainer>
 					<StyledText 
-						align={'left'} 
+						align='left' 
 						type={'ListItemSubTitleBold'}
 						color={achievement.achieved ? theme.lightGrey : theme.midGrey}
 						ellipsizeMode='tail'
@@ -34,7 +34,7 @@ const SteamAchievementItem = ({ achievement }: SteamAchievementItemProps) => {
 						{achievement.displayName}
 					</StyledText>
 					<StyledText
-						align={'left'}
+						align='left'
 						color={achievement.achieved ? theme.lightGrey : theme.midGrey}
 						ellipsizeMode='tail'
 						numberOfLines={1}

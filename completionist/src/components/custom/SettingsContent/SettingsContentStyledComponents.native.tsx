@@ -14,14 +14,30 @@ export const styles = StyleSheet.create({
     paddingBottom: 16
   },
 	contentContainer: {
-		paddingBottom: 84
+		paddingBottom: 184
 	}
 });
+
+export const SettingsContentAvatarContainer = styled.Image`
+	width: 115px;
+	height: 115px;
+	border-radius: 100px;
+	align-self: center;
+	margin-bottom: 16px;
+`;
+
+export const SettingsContentEmail = styled(StyledText)`
+	margin: 16px 0px 16px 0px;
+`;
 
 export const SettingsContentDescription = styled(StyledText)`
   width: ${STANDARD_WIDTH}px;
   padding: 8px;
   padding-top: 16px;
+`;
+
+export const SettingsContentInputContainer = styled.View`
+	align-self: center;
 `;
 
 export const SettingsContentDropdownContainer = styled.View`

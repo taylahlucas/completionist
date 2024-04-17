@@ -1,15 +1,17 @@
 {
   "appTitle": "Finaliste.",
   "welcome": "Accueillir",
+  "continue": "Continuer",
   "search": "Rechercher des éléments...",
   "showMore": "Montre plus",
   "none": "Aucun",
   "main": "Principal",
+  "changesLeft": "CHANGEMENTS GAUCHE : ",
   "active": "ACTIF",
   "inactive": "INACTIF",
   "auth": {
     "email": "E-mail",
-    "password": "Mot de passe",
+    "userpw": "Mot de passe",
     "username": "Nom d'utilisateur",
     "forgotPassword": "Mot de passe oublié?",
     "login": "Se connecter",
@@ -27,15 +29,23 @@
     "gameSelection": "Sélection de jeux",
     "sendRequest": "Envoyer une demande",
     "subscriptions": "Abonnements",
+    "selectAGame": "Sélectionnez un jeu",
+    "addSteamId": "Ajouter un identifiant Steam",
+    "steamAchievements": "Succès Steam",
     "payments": "Paiement",
-    "settings": "Paramètres"
+    "settings": "Paramètres",
+    "accountDetails": "Détails du compte"
+  },
+  "selectGame": {
+    "selectGameDesc1": "Avec un compte gratuit, vous pouvez sélectionner un jeu par mois à suivre.",
+    "selectGameDesc2": "Sélectionnez votre premier jeu ci-dessous !",
+    "selectGameDesc3": "Ne vous inquiétez pas si vous faites une erreur, vous pourrez changer cela deux fois par mois"
   },
   "subscriptions": {
-    "subscriptionDesc": "Avec un abonnement Silver ou Gold,\n",
+    "subscriptionDesc": "Avec un abonnement Premium,\n",
     "purchaseSubscription": "Acheter un abonnement",
-    "bronze": "Bronze",
-    "silver": "Argent",
-    "gold": "Or",
+    "free": "Gratuit",
+    "premium": "Prime",
     "accessMultipleGames": "Accès à plusieurs jeux",
     "noAds": "Pas de pubs",
     "withAds": "Avec des publicités",
@@ -65,13 +75,41 @@
     "enabledDLC": "Activer/Désactiver le DLC :",
     "showHide": "Afficher/Masquer :",
     "completedItems": "Articles terminés",
-    "disabledSections": "Sections désactivées"
+    "disabledSections": "Sections désactivées",
+    "changeAccountDetails": "Modifier les détails du compte",
+    "selectLanguage": "Choisir la langue:"
+  },
+  "accountDetails": {
+    "changeUsername": "Changer le nom d'utilisateur",
+    "changeEmail": "Changer l'e-mail",
+    "changePassword": "Changer le mot de passe",
+    "updateDetails": "Détails de la mise à jour"
+  },
+  "steamAchievements": {
+    "addSteamIdStep1": "Étape 1. Recherchez et ajoutez votre identifiant Steam",
+    "addSteamIdDesc1": "Pour trouver votre identifiant Steam, rendez-vous sur Steam et sélectionnez « Afficher le profil ».",
+    "addSteamIdDesc2": "Vous pouvez trouver l’identifiant en haut de votre profil. ",
+    "addSteamIdStep2": "Étape 2. Mettez à jour vos préférences de confidentialité",
+    "addSteamIdDesc3": "Vous devrez également vous assurer que votre profil est public.",
+    "addSteamIdDesc4": "Vous pouvez le faire en vous rendant dans Préférences Steam -> Paramètres de confidentialité.",
+    "steamIdPlaceholder": "ID de vapeur"
   },
   "errors": {
-    "error": "Erreur",
-    "pleaseRefreshApp": "Veuillez actualiser l'application",
-    "noEmailExists": "L'e-mail n'existe pas",
-    "googleSignIn": "Erreur avec la connexion Google"
+		"error": "Erreur",
+		"pleaseRefreshApp": "Veuillez actualiser l'application",
+		"emailAlreadyExists": "L'email existe déjà.",
+		"emailNotFound": "Email non trouvé",
+		"noEmailExists": "L'e-mail n'existe pas",
+		"checkCredentials": "Veuillez vérifier vos informations d'identification et réessayer.",
+		"incorrectPw": "Mot de passe incorrect. ",
+		"googleSignIn": "Erreur avec la connexion Google"
+  },
+  "alerts": {
+    "activate": "Activer",
+    "cancel": "Annuler",
+    "changesLeft": "Tu vas avoir {{changesLeft}} changement{{s}} gauche.",
+    "noChangesLeft": "Aucun changement restant",
+    "noChangesLeftMessage": "Désolé, vous n'avez plus aucune modification de jeu pour ce mois-ci.\n "
   },
   "languages": {
     "ar": "arabe",

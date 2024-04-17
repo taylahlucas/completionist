@@ -17,6 +17,7 @@ const useGetNavigationDrawerItems = (): NavigationDrawerItemData[] => {
   const locationsSection = ContentSectionEnum.LOCATIONS;
   const miscItemsSection = ContentSectionEnum.MISCELLANEOUS;
 
+	// TODO: Hide sections when there is no data e.g. no misc items for witcher 3
   return ([
     {
       id: ScreenEnum.Quests,

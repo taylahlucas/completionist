@@ -15,15 +15,19 @@ import * as zh from '../../../translations/zh/db/index.js';
 import useMainState from '@redux/hooks/useMainState';
 
 interface TranslatedGameDataReturnType {
+	fallout4Quests: any;
+	fallout4Collectables: any;
+	fallout4Locations: any;
+	fallout4Misc: any;
+
 	skyrimQuests: any;
 	skyrimCollectables: any;
 	skyrimLocations: any;
 	skyrimMisc: any;
 
-	fallout4Quests: any;
-	fallout4Collectables: any;
-	fallout4Locations: any;
-	fallout4Misc: any;
+	witcher3Quests: any;
+	witcher3Collectables: any;
+	witcher3Locations: any;
 }
 
 const useGetTranslatedGameData = (): TranslatedGameDataReturnType => {
@@ -74,15 +78,20 @@ const useGetTranslatedGameData = (): TranslatedGameDataReturnType => {
 	}
 
 	return {
+		fallout4Quests: languageDb.fallout4Quests,
+		fallout4Collectables: languageDb.fallout4Collectables,
+		fallout4Locations: languageDb.fallout4Locations,
+		fallout4Misc: languageDb.fallout4Misc,
+
+
 		skyrimQuests: languageDb.skyrimQuests,
 		skyrimCollectables: languageDb.skyrimCollectables,
 		skyrimLocations: languageDb.skyrimLocations,
 		skyrimMisc: languageDb.skyrimMisc,
 
-		fallout4Quests: languageDb.fallout4Quests,
-		fallout4Collectables: languageDb.fallout4Collectables,
-		fallout4Locations: languageDb.fallout4Locations,
-		fallout4Misc: languageDb.fallout4Misc
+		witcher3Quests: languageDb.witcher3Quests,
+		witcher3Collectables: languageDb.witcher3Collectables,
+		witcher3Locations: languageDb.witcher3Locations
 	};
 };
 

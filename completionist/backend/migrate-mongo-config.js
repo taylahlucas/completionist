@@ -1,9 +1,13 @@
 require('dotenv').config();
 
-const config = {
-  mongodb: {
+module.exports = {
+	mongodb: {
     // MongoDB connection URI
-    url: process.env.MONGO_URL
+    url: process.env.MONGO_URL,
+		options: {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+    },
   },
 
   // The directory where your migration files are located
@@ -13,4 +17,3 @@ const config = {
   changelogCollectionName: "changelog",
 };
 
-module.exports = config;

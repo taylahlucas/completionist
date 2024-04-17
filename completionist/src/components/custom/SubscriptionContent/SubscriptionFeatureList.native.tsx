@@ -1,3 +1,4 @@
+import React from 'react';
 import {
 	SubscriptionFeatureListContainer,
 	SubscriptionFeatureListInnerContainer,
@@ -23,7 +24,7 @@ const SubscriptionFeatureList = () => {
 							size={30}
 							color={item.color}
 						/>
-						<SubscriptionFeatureListTitle align={'left'}>{item.title}</SubscriptionFeatureListTitle>
+						<SubscriptionFeatureListTitle align='left'>{item.title}</SubscriptionFeatureListTitle>
 					</SubscriptionFeatureListItemContainer>
 					<Seperator />
 				</SubscriptionFeatureListInnerContainer>

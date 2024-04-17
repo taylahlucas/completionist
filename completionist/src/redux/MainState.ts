@@ -19,7 +19,7 @@ export const initialGameData: GeneralData = {
 export const initialUser: User = {
 	...initialFormData,
 	subscription: {
-		tier: SubscriptionTypeEnum.BRONZE,
+		tier: SubscriptionTypeEnum.FREE,
 		changesLeft: 2,
 		data: []
 	},
@@ -29,7 +29,8 @@ export const initialUser: User = {
 	},
 	data: {
 		skyrim: initialGameData,
-		fallout4: initialGameData
+		fallout4: initialGameData,
+		witcher3: initialGameData
 	}
 }
 
@@ -71,12 +72,16 @@ const slice = createSlice({
 		},
 		setSelectedGame: (state, action) => {
 			state.selectedGame = action.payload;
+			// TODO: Refactor switch statement
 			switch (state.selectedGame) {
+				case GameKeyEnum.FALLOUT_4:
+					state.selectedGameData = state.user.data.fallout4;
+					break;
 				case GameKeyEnum.SKYRIM:
 					state.selectedGameData = state.user.data.skyrim;
 					break;
-				case GameKeyEnum.FALLOUT_4:
-					state.selectedGameData = state.user.data.fallout4;
+				case GameKeyEnum.WITCHER_3:
+					state.selectedGameData = state.user.data.witcher3;
 					break;
 			}
 		},
@@ -89,11 +94,14 @@ const slice = createSlice({
 		setUser: (state, action) => {
 			state.user = action.payload;
 			switch (state.selectedGame) {
+				case GameKeyEnum.FALLOUT_4:
+					state.selectedGameData = state.user.data.fallout4;
+					break;
 				case GameKeyEnum.SKYRIM:
 					state.selectedGameData = state.user.data.skyrim;
 					break;
-				case GameKeyEnum.FALLOUT_4:
-					state.selectedGameData = state.user.data.fallout4;
+				case GameKeyEnum.WITCHER_3:
+					state.selectedGameData = state.user.data.witcher3;
 					break;
 			}
 		},
@@ -106,11 +114,14 @@ const slice = createSlice({
 		setCompletedQuests: (state, action) => {
 			state.shouldUpdateUser = true;
 			switch (state.selectedGame) {
+				case GameKeyEnum.FALLOUT_4:
+					state.user.data.fallout4.quests = action.payload;
+					break;
 				case GameKeyEnum.SKYRIM:
 					state.user.data.skyrim.quests = action.payload;
 					break;
-				case GameKeyEnum.FALLOUT_4:
-					state.user.data.fallout4.quests = action.payload;
+				case GameKeyEnum.WITCHER_3:
+					state.user.data.witcher3.quests = action.payload;
 					break;
 			}
 			if (!!state.selectedGameData) {
@@ -120,11 +131,14 @@ const slice = createSlice({
 		setCompletedCollectables: (state, action) => {
 			state.shouldUpdateUser = true;
 			switch (state.selectedGame) {
+				case GameKeyEnum.FALLOUT_4:
+					state.user.data.fallout4.collectables = action.payload;
+					break;
 				case GameKeyEnum.SKYRIM:
 					state.user.data.skyrim.collectables = action.payload;
 					break;
-				case GameKeyEnum.FALLOUT_4:
-					state.user.data.fallout4.collectables = action.payload;
+				case GameKeyEnum.WITCHER_3:
+					state.user.data.witcher3.collectables = action.payload;
 					break;
 			}
 			if (!!state.selectedGameData) {
@@ -134,11 +148,11 @@ const slice = createSlice({
 		setCompletedLocations: (state, action) => {
 			state.shouldUpdateUser = true;
 			switch (state.selectedGame) {
-				case GameKeyEnum.SKYRIM:
-					state.user.data.skyrim.locations = action.payload;
-					break;
 				case GameKeyEnum.FALLOUT_4:
 					state.user.data.fallout4.locations = action.payload;
+					break;
+				case GameKeyEnum.SKYRIM:
+					state.user.data.skyrim.locations = action.payload;
 					break;
 			}
 			if (!!state.selectedGameData) {
@@ -148,11 +162,11 @@ const slice = createSlice({
 		setCompletedMiscItems: (state, action) => {
 			state.shouldUpdateUser = true;
 			switch (state.selectedGame) {
-				case GameKeyEnum.SKYRIM:
-					state.user.data.skyrim.miscellaneous = action.payload;
-					break;
 				case GameKeyEnum.FALLOUT_4:
 					state.user.data.fallout4.miscellaneous = action.payload;
+					break;
+				case GameKeyEnum.SKYRIM:
+					state.user.data.skyrim.miscellaneous = action.payload;
 					break;
 			}
 			if (!!state.selectedGameData) {

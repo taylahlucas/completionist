@@ -1,13 +1,14 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { NativeSyntheticEvent, TextInputChangeEventData, TextInputProps as RNTextInputProps } from 'react-native';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import { TextInputStyled, TextInputIcon } from './TextInputStyledComponents.native';
 import { TextInputContainer } from './TextInputStyledComponents.native';
 import Condition from '../Condition.native';
 import defaultStyle from '@styles/Font/FontStyle';
-import { TextInputStyleType } from '@utils/CustomTypes';
+import { TextInputStyleType, ValidatorType } from '@utils/CustomTypes';
 import useGetTextInputStyle from './hooks/useGetTextInputStyle.native';
 import { IconTypeEnum } from '@utils/CustomEnums';
+import useValidator from '@utils/hooks/useValidator';
 
 export interface TextInputProps extends RNTextInputProps {
   onChangeText: (value: string) => void;
@@ -29,7 +30,7 @@ const TextInput = ({
 	const { testID, value, placeholder, multiline, secureTextEntry, inputMode } = props;
   const inputTypeStyle = useGetTextInputStyle(inputStyle)
   const [isSecure, setIsSecure] = useState(secureTextEntry ?? false);
-	
+
   return (
     <TextInputContainer height={height} style={inputTypeStyle} multiline={multiline ?? false}>
       <Condition condition={!!leftComponent}>

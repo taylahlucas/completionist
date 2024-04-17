@@ -22,13 +22,13 @@ const Locations = () => {
 
   return (
     <StandardLayout>
-      <NavigationHeader title={t('common:screens.locations')} />
+      <NavigationHeader title={t('common:screens.locations')} rightAction='filter' />
       <CustomSearchBar 
         searchValue={searchValue} 
         setSearchValue={setSearchValue}
         onReset={(): void => setSearchValue('')} 
       />
-      <CompletedQuantityTitle type={'ListItemTitleBold'}>{`${getUserLocations().length}/${mapDataTo(ContentSectionEnum.LOCATIONS, selectedGame, true).length}`}</CompletedQuantityTitle>
+      <CompletedQuantityTitle type={'ListItemSubTitleBold'}>{`${getUserLocations().length}/${mapDataTo(ContentSectionEnum.LOCATIONS, selectedGame, true).length}`}</CompletedQuantityTitle>
       <ContentList />
     </StandardLayout>
   );

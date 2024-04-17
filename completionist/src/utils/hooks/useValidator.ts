@@ -1,4 +1,3 @@
-
 const useValidator = () => {
 	const isEmailValid = (email: string): boolean => {
 		const emailRegex =  /^[^\s@]+@[^\s@]+\.[^\s@]+$/;

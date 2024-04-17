@@ -1,15 +1,17 @@
 {
   "appTitle": "Người theo chủ nghĩa hoàn thiện.",
   "welcome": "Chào mừng",
+  "continue": "Tiếp tục",
   "search": "Tìm kiếm các mục...",
   "showMore": "Cho xem nhiều hơn",
   "none": "Không có",
   "main": "Chủ yếu",
+  "changesLeft": "THAY ĐỔI TRÁI: ",
   "active": "TÍCH CỰC",
   "inactive": "KHÔNG HOẠT ĐỘNG",
   "auth": {
     "email": "E-mail",
-    "password": "Mật khẩu",
+    "userpw": "Mật khẩu",
     "username": "tên tài khoản",
     "forgotPassword": "Quên mật khẩu?",
     "login": "Đăng nhập",
@@ -27,15 +29,23 @@
     "gameSelection": "Lựa chọn trò chơi",
     "sendRequest": "Gửi yêu cầu",
     "subscriptions": "Đăng ký",
+    "selectAGame": "Chọn một trò chơi",
+    "addSteamId": "Thêm ID hơi nước",
+    "steamAchievements": "Thành tựu hơi nước",
     "payments": "Sự chi trả",
-    "settings": "Cài đặt"
+    "settings": "Cài đặt",
+    "accountDetails": "Chi tiết tài khoản"
+  },
+  "selectGame": {
+    "selectGameDesc1": "Với tài khoản Miễn phí, bạn có thể chọn một trò chơi mỗi tháng để theo dõi.",
+    "selectGameDesc2": "Chọn trò chơi đầu tiên của bạn dưới đây!",
+    "selectGameDesc3": "Đừng lo lắng nếu bạn mắc lỗi, bạn sẽ có thể thay đổi điều này hai lần mỗi tháng"
   },
   "subscriptions": {
-    "subscriptionDesc": "Với đăng ký Bạc hoặc Vàng,\n",
+    "subscriptionDesc": "Với đăng ký Premium,\n",
     "purchaseSubscription": "Mua đăng ký",
-    "bronze": "đồng",
-    "silver": "Bạc",
-    "gold": "Vàng",
+    "free": "Miễn phí",
+    "premium": "Phần thưởng",
     "accessMultipleGames": "Truy cập vào nhiều trò chơi",
     "noAds": "Không quảng cáo",
     "withAds": "Có quảng cáo",
@@ -65,13 +75,41 @@
     "enabledDLC": "Bật/Tắt DLC:",
     "showHide": "Hiện an:",
     "completedItems": "Các mục đã hoàn thành",
-    "disabledSections": "Phần bị vô hiệu hóa"
+    "disabledSections": "Phần bị vô hiệu hóa",
+    "changeAccountDetails": "Thay đổi chi tiết tài khoản",
+    "selectLanguage": "Chọn ngôn ngữ:"
+  },
+  "accountDetails": {
+    "changeUsername": "Thay đổi tên người dùng",
+    "changeEmail": "Thay đổi e-mail",
+    "changePassword": "Đổi mật khẩu",
+    "updateDetails": "Cập nhật chi tiết"
+  },
+  "steamAchievements": {
+    "addSteamIdStep1": "Bước 1. Tìm và thêm ID Steam của bạn",
+    "addSteamIdDesc1": "Để tìm ID steam của bạn, hãy truy cập Steam và chọn 'Xem hồ sơ'.",
+    "addSteamIdDesc2": "Bạn có thể tìm thấy ID ở đầu hồ sơ của mình. ",
+    "addSteamIdStep2": "Bước 2. Cập nhật tùy chọn quyền riêng tư của bạn",
+    "addSteamIdDesc3": "Bạn cũng sẽ cần đảm bảo hồ sơ của bạn được công khai.",
+    "addSteamIdDesc4": "Bạn có thể thực hiện việc này bằng cách đi tới Tùy chọn Steam -> Cài đặt quyền riêng tư",
+    "steamIdPlaceholder": "ID hơi nước"
   },
   "errors": {
-    "error": "Lỗi",
-    "pleaseRefreshApp": "Vui lòng làm mới ứng dụng",
-    "noEmailExists": "Email không tồn tại",
-    "googleSignIn": "Lỗi đăng nhập google"
+		"error": "Lỗi",
+		"pleaseRefreshApp": "Vui lòng làm mới ứng dụng",
+		"emailAlreadyExists": "Email đã tồn tại.",
+		"emailNotFound": "Không tìm thấy email",
+		"noEmailExists": "Email không tồn tại",
+		"checkCredentials": "Vui lòng kiểm tra thông tin xác thực của bạn và thử lại.",
+		"incorrectPw": "Mật khẩu không đúng. ",
+		"googleSignIn": "Lỗi đăng nhập bằng Google"
+  },
+  "alerts": {
+    "activate": "Kích hoạt",
+    "cancel": "Hủy bỏ",
+    "changesLeft": "Bạn sẽ có {{changesLeft}} thay đổi{{s}} bên trái.",
+    "noChangesLeft": "Không còn thay đổi nào",
+    "noChangesLeftMessage": "Rất tiếc, bạn không còn thay đổi trò chơi nào trong tháng này.\n "
   },
   "languages": {
     "ar": "tiếng Ả Rập",

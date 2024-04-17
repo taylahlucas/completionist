@@ -1,0 +1,377 @@
+Alder Folk boots
+Amateur's armor repair kit
+Amateur's weapon repair kit
+An'ferthe
+Angrenian cuirass
+Arbitrator
+Ard Skellig aketon
+Assassin's boots
+Assassin's gauntlets
+Assassin's trousers
+Assault gauntlets
+Axeman's boots
+Axeman's gauntlets
+Axeman's trousers
+Bait bolt
+Ban Ard breastplate
+Beann'shie
+Black Unicorn
+Blade from the Bits
+Blunt crossbow bolt
+Bounty hunter's gambeson
+Bremervoord blade
+Broadhead bolt
+Cavalry boots
+Cavalry gauntlets
+Cavalry trousers
+Chernobog runestone
+Cidarian cavalry armor
+Cidarian gambeson
+Condottiere's boots
+Dark iron ingot
+Dark iron plate
+Dark steel ingot
+Dark steel plate
+Dazhbog runestone
+Devana runestone
+The Digger
+Dimeritium ingot
+Dimeritium plate
+Disglair
+Dorian sword
+Draconid leather
+Dwarven blade
+Eirlithrad
+Elven steel sword
+Enhanced Feline armor
+Enhanced Feline boots
+Enhanced Feline gauntlets
+Enhanced Feline trousers
+Enhanced Griffin armor
+Enhanced Griffin boots
+Enhanced Griffin gauntlets
+Enhanced Griffin trousers
+Enhanced legendary Feline armor
+Enhanced legendary Feline boots
+Enhanced legendary Feline gauntlets
+Enhanced legendary Feline trousers
+Enhanced legendary Griffin armor
+Enhanced legendary Griffin boots
+Enhanced legendary Griffin gauntlets
+Enhanced legendary Griffin trousers
+Enhanced legendary Ursine armor
+Enhanced legendary Ursine boots
+Enhanced legendary Ursine gauntlets
+Enhanced legendary Ursine trousers
+Enhanced legendary Wolven armor
+Enhanced legendary Wolven boots
+Enhanced legendary Wolven gauntlets
+Enhanced legendary Wolven trousers
+Enhanced Ursine armor
+Enhanced Ursine boots
+Enhanced Ursine gauntlets
+Enhanced Ursine trousers
+Enhanced Wolven armor
+Enhanced Wolven boots
+Enhanced Wolven gauntlets
+Enhanced Wolven trousers
+Executioner's boots
+Exploding bolt
+Faustino
+Feline armor
+Feline boots
+Feline crossbow
+Feline gauntlets
+Feline silver sword
+Feline silver sword - enhanced
+Feline silver sword - mastercrafted
+Feline silver sword - superior
+Feline steel sword
+Feline steel sword - enhanced
+Feline steel sword - mastercrafted
+Feline steel sword - superior
+Feline trousers
+Gemmerian steel sword
+Glowing ore ingot
+Glyph of Aard
+Glyph of Axii
+Glyph of Igni
+Glyph of infusion
+Glyph of Quen
+Glyph of Yrden
+Gnomish gwyhyr
+Greater Chernobog runestone
+Greater Dazhbog runestone
+Greater Devana runestone
+Greater glyph of Aard
+Greater glyph of Axii
+Greater glyph of Igni
+Greater glyph of infusion
+Greater glyph of Quen
+Greater glyph of Yrden
+Greater Morana runestone
+Greater Perun runestone
+Greater Stribog runestone
+Greater Svarog runestone
+Greater Triglav runestone
+Greater Veles runestone
+Greater Zoria runestone
+Griffin armor
+Griffin boots
+Griffin gauntlets
+Griffin silver sword
+Griffin silver sword - enhanced
+Griffin silver sword - mastercrafted
+Griffin silver sword - superior
+Griffin steel sword
+Griffin steel sword - enhanced
+Griffin steel sword - mastercrafted
+Griffin steel sword - superior
+Griffin trousers
+Guardsman's boots
+Gven'nel
+Haft
+Hardened leather
+Hardened timber
+Harpy
+Hindarsfjall heavy armor
+Hunter's boots
+Hunter's gauntlets
+Hunter's trousers
+Impera Brigade armor
+Infused dust
+Iron ingot
+Journeyman's armor repair kit
+Journeyman's weapon repair kit
+Kaedweni gambeson
+Knight's gauntlets
+Koviri cutlass
+Leather cured using the Rivian method
+Leather scraps
+Legendary Feline armor
+Legendary Feline boots
+Legendary Feline crossbow
+Legendary Feline gauntlets
+Legendary Feline silver sword
+Legendary Feline silver sword - enhanced
+Legendary Feline silver sword - mastercrafted
+Legendary Feline silver sword - superior
+Legendary Feline trousers
+Legendary Griffin armor
+Legendary Griffin boots
+Legendary Griffin gauntlets
+Legendary Griffin silver sword
+Legendary Griffin silver sword - enhanced
+Legendary Griffin silver sword - mastercrafted
+Legendary Griffin silver sword - superior
+Legendary Griffin steel sword
+Legendary Griffin steel sword - enhanced
+Legendary Griffin steel sword - mastercrafted
+Legendary Griffin steel sword - superior
+Legendary Griffin trousers
+Legendary Ursine armor
+Legendary Ursine boots
+Legendary Ursine crossbow
+Legendary Ursine gauntlets
+Legendary Ursine silver sword
+Legendary Ursine silver sword - enhanced
+Legendary Ursine silver sword - mastercrafted
+Legendary Ursine silver sword - superior
+Legendary Ursine steel sword
+Legendary Ursine steel sword - enhanced
+Legendary Ursine steel sword - mastercrafted
+Legendary Ursine steel sword - superior
+Legendary Ursine trousers
+Legendary Viper silver sword
+Legendary Viper steel sword
+Legendary Wolven armor
+Legendary Wolven boots
+Legendary Wolven gauntlets
+Legendary Wolven silver sword
+Legendary Wolven silver sword - enhanced
+Legendary Wolven silver sword - mastercrafted
+Legendary Wolven silver sword - superior
+Legendary Wolven steel sword
+Legendary Wolven steel sword - enhanced
+Legendary Wolven steel sword - mastercrafted
+Legendary Wolven steel sword - superior
+Legendary Wolven trousers
+Lesser Chernobog runestone
+Lesser Dazhbog runestone
+Lesser Devana runestone
+Lesser glyph of Aard
+Lesser glyph of Axii
+Lesser glyph of Igni
+Lesser glyph of infusion
+Lesser glyph of Quen
+Lesser glyph of Yrden
+Lesser Morana runestone
+Lesser Perun runestone
+Lesser runestone
+Lesser Stribog runestone
+Lesser Svarog runestone
+Lesser Triglav runestone
+Lesser Veles runestone
+Lesser Zoria runestone
+Linen
+Longclaw
+Lyrian hardened leather trousers
+Mag Deira cuirass
+Mahakam-style dark steel ingot
+Mahakam-style Dimeritium ingot
+Mahakaman steel sword
+Mahakaman trousers
+Maribor sword
+Maribor-style silver ingot
+Master's armor repair kit
+Master's weapon repair kit
+Mastercrafted Feline armor
+Mastercrafted Feline boots
+Mastercrafted Feline gauntlets
+Mastercrafted Feline trousers
+Mastercrafted Griffin armor
+Mastercrafted Griffin boots
+Mastercrafted Griffin gauntlets
+Mastercrafted Griffin trousers
+Mastercrafted legendary Feline armor
+Mastercrafted legendary Feline boots
+Mastercrafted legendary Feline gauntlets
+Mastercrafted legendary Feline trousers
+Mastercrafted legendary Griffin armor
+Mastercrafted legendary Griffin boots
+Mastercrafted legendary Griffin gauntlets
+Mastercrafted legendary Griffin trousers
+Mastercrafted legendary Ursine armor
+Mastercrafted legendary Ursine boots
+Mastercrafted legendary Ursine gauntlets
+Mastercrafted legendary Ursine trousers
+Mastercrafted legendary Wolven armor
+Mastercrafted legendary Wolven boots
+Mastercrafted legendary Wolven gauntlets
+Mastercrafted legendary Wolven trousers
+Mastercrafted silver sword
+Mastercrafted Ursine armor
+Mastercrafted Ursine boots
+Mastercrafted Ursine gauntlets
+Mastercrafted Ursine trousers
+Mastercrafted Wolven armor
+Mastercrafted Wolven boots
+Mastercrafted Wolven gauntlets
+Mastercrafted Wolven trousers
+Melltith
+Meteorite ingot
+Meteorite silver ingot
+Meteorite silver plate
+Morana runestone
+Mountain Folk boots
+Negotiator
+Nilfgaardian guardsman armor
+Nilfgaardian guardsman's gauntlets
+Nilfgaardian longsword
+Novigrad longsword
+Perun runestone
+Precision bolt
+Reaver's boots
+Redanian halberdier's armor
+Refined dimeritium ore
+Refined silver ore
+Resin
+Salmian brigandine
+Sapper's trousers
+Scoia'tael sword
+Serpentine silver sword
+Serpentine steel sword
+Shiadhal's armor
+Silk
+Silver ingot
+Silver plate
+Skellige gambeson
+Skellige longsword
+Spikeroog aketon
+Spikeroog longsword
+Split bolt
+Steel ingot
+Steel plate
+Steiger
+Stribog runestone
+String
+Superior Feline armor
+Superior Feline boots
+Superior Feline gauntlets
+Superior Feline trousers
+Superior Griffin armor
+Superior Griffin boots
+Superior Griffin gauntlets
+Superior Griffin trousers
+Superior legendary Feline armor
+Superior legendary Feline boots
+Superior legendary Feline gauntlets
+Superior legendary Feline trousers
+Superior legendary Griffin armor
+Superior legendary Griffin boots
+Superior legendary Griffin gauntlets
+Superior legendary Griffin trousers
+Superior legendary Ursine armor
+Superior legendary Ursine boots
+Superior legendary Ursine gauntlets
+Superior legendary Ursine trousers
+Superior legendary Wolven armor
+Superior legendary Wolven boots
+Superior legendary Wolven gauntlets
+Superior legendary Wolven trousers
+Superior Ursine armor
+Superior Ursine boots
+Superior Ursine gauntlets
+Superior Ursine trousers
+Superior Wolven armor
+Superior Wolven boots
+Superior Wolven gauntlets
+Superior Wolven trousers
+Svarog runestone
+The Tamer
+Temerian poniard
+Thread
+Thyssen armor
+Tir Tochair blade
+Tor'haerne
+Torlunn
+Tracker's boots
+Tracker's gauntlets
+Tracker's trousers
+Tracking bolt
+Tretogor-style steel ingot
+Triglav runestone
+Ursine armor
+Ursine boots
+Ursine crossbow
+Ursine gauntlets
+Ursine silver sword
+Ursine silver sword - enhanced
+Ursine silver sword - mastercrafted
+Ursine silver sword - superior
+Ursine steel sword
+Ursine steel sword - enhanced
+Ursine steel sword - mastercrafted
+Ursine steel sword - superior
+Ursine trousers
+Velen longsword
+Veles runestone
+Verden archer's gambeson
+Warrior's leather jacket
+Weeper
+Witch hunter's sword
+Witch Slayer
+Wolven armor
+Wolven boots
+Wolven gauntlets
+Wolven silver sword
+Wolven silver sword - enhanced
+Wolven silver sword - mastercrafted
+Wolven silver sword - superior
+Wolven steel sword
+Wolven steel sword - enhanced
+Wolven steel sword - mastercrafted
+Wolven steel sword - superior
+Wolven trousers
+Zerrikanian powder
+Zoria runestone

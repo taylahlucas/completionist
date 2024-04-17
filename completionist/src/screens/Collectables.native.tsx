@@ -22,13 +22,13 @@ const Collectables = () => {
 
   return (
     <StandardLayout>
-      <NavigationHeader title={t('common:screens.collectables')} />
+      <NavigationHeader title={t('common:screens.collectables')} rightAction='filter' />
       <CustomSearchBar 
         searchValue={searchValue} 
         setSearchValue={setSearchValue}
         onReset={(): void => setSearchValue('')} 
       />
-      <CompletedQuantityTitle type={'ListItemTitleBold'}>
+      <CompletedQuantityTitle type={'ListItemSubTitleBold'}>
         {`${getUserCollectables().length}/${mapDataTo(ContentSectionEnum.COLLECTABLES, selectedGame, true).length}`}
       </CompletedQuantityTitle>
       <ContentList />

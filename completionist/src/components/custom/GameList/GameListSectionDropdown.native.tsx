@@ -1,15 +1,11 @@
 import React, { useState } from 'react';
 import { View } from 'react-native';
 import Dropdown from '@components/general/Dropdown/Dropdown.native';
-import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
-import useGetGameImage from './hooks/useGetGameImage.native';
-import useMainDispatch from '@redux/hooks/useMainDispatch';
 import GameListItem from './GameListItem.native';
-import { ScreenEnum } from '@utils/CustomEnums';
 import { SubscriptionData } from '@utils/CustomInterfaces';
 import GameListSectionHeader from './GameListSectionHeader.native';
-import useTranslateGameContent from '@utils/hooks/useTranslateGameContent.native';
-import useContentDispatch from '../ContentList/hooks/useContentDispatch';
+import useGetTheme from '@styles/hooks/useGetTheme';
+import useHandleGameSelection from './hooks/useHandleGameSelection.native';
 
 interface GameListSectionDropdown {
 	testID?: string;
@@ -18,13 +14,11 @@ interface GameListSectionDropdown {
 }
 
 const GameListSectionDropdown = ({ testID, title, data }: GameListSectionDropdown) => {
-  const navigation = useReactNavigation();
-  const { setSelectedGame, setSelectedGameSettings, reset } = useMainDispatch();
-  const { reset: contentReset } = useContentDispatch();
-  const { getGameImage } = useGetGameImage();
-  const { translateGameName } = useTranslateGameContent();
+	const theme = useGetTheme();
   const [isOpen, setIsOpen] = useState(true);
+	const { handleGameSelection }  = useHandleGameSelection();
 
+	// TODO: Add to styled components
   return (
     <Dropdown
 			testID={testID}
@@ -32,21 +26,14 @@ const GameListSectionDropdown = ({ testID, title, data }: GameListSectionDropdow
       isOpen={isOpen}
       setOpen={() => setIsOpen(!isOpen)}
     >
-      <View style={{ flexDirection: 'row' }}>
-        {data.map((game, index) => (
+      <View style={{ flexDirection: 'row', marginTop: 8, flexWrap: 'wrap' }}>
+        {data.map((game: SubscriptionData, index: number) => (
           <GameListItem
             key={index}
-						testID={game.id}
-            title={translateGameName(game.id)}
+						game={game}
             enabled={game.isActive}
-            imageUrl={getGameImage(game.id)}
-            onPress={(): void => {
-              contentReset();
-              reset();
-              setSelectedGame(game.id);
-              setSelectedGameSettings(game.id);
-              navigation.navigate(ScreenEnum.Quests);
-            }}
+						enabledColor={game.isActive ? theme.lightGrey : theme.midGrey}
+            onPress={(): void => handleGameSelection(game)}
           />
         ))}
       </View>
