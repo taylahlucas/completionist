@@ -22,7 +22,7 @@ const PaymentsContent = () => {
 	const { selectedSubscription } = useSubscriptionState();
 	const [selectedPrice, setSelectedPrice] = useState(selectedSubscription.prices[0]);
 	const { user } = useMainState();
-	const { saveUserAndCache } = useEditUserData();
+	// const { saveUserAndCache } = useEditUserData();
 
 	return (
 		<ScrollableList>
@@ -72,7 +72,7 @@ const PaymentsContent = () => {
 							tier: selectedSubscription.id
 						}
 					};
-					saveUserAndCache(updatedUser);
+					// saveUserAndCache(updatedUser);
 					navigation.navigate(ScreenEnum.GameSelection);
 				}}
 				color={theme.primaryPurple}

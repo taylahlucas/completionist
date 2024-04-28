@@ -34,7 +34,13 @@
 		"steamAchievements": "Steam Achievements",
 		"payments": "Payment",
 		"settings": "Settings",
-		"accountDetails": "Account Details"
+		"accountDetails": "Account Details",
+		"verifyAccount": "Verify Your Account"
+	},
+	"login": {
+		"instructions1": "Password must contain at least:",
+		"instructions2": "\n\u2022 Minimum 8 values \n\u2022 1 uppercase letter\n\u2022 1 lowercase letter\n\u2022 1 numerical value",
+		"accountVerification": "Check your emails and enter the verification code"
 	},
 	"selectGame": {
 		"selectGameDesc1": "With a Free account, you can select one game per month to track.",
@@ -67,7 +73,8 @@
 	"sendRequest": {
 		"subject": "Subject",
 		"writeRequest": "Write your request here...",
-		"requestGameDesc": "Feel free to request a game, report a bug or make some suggestions to improve the app!"
+		"requestGameDesc": "Feel free to request a game, report a bug or make some suggestions to improve the app!",
+		"verifyAccount": "Hello,\nYou have recently created an account with Completionist.\nTo verify your account, please enter the following code in the application:\n\n{{code}}"
 	},
 	"settings": {
 		"description": "Feel free to request a game, report a bug or make some suggestions to improve the app!",
@@ -97,14 +104,23 @@
 	"errors": {
 		"error": "Error",
 		"pleaseRefreshApp": "Please refresh the app",
-		"emailAlreadyExists": "Email already exists.",
+		"emailAlreadyExists": "Email already exists",
 		"emailNotFound": "Email Not Found",
 		"noEmailExists": "Email does not exist",
 		"checkCredentials": "Please check your credentials and try again.",
 		"incorrectPw": "Incorrect password. Please try again.",
-		"googleSignIn": "Error with Google Sign In"
+		"googleSignIn": "Error with Google Sign In",
+		"googleSignInMsg": "Problem getting info for this google account.",
+		"accountExists": "Account already exists",
+		"accountExistsMsg": "Woud you like to link these accounts?",
+		"permissionDenied": "Permission Denied",
+		"permissionDeniedMsg": "Please allow access through your Steam settings.",
+		"unauthorized": "Unauthorized",
+		"unauthorizedMsg": "You are unauthorized to use this account. Please try logging in again.",
+		"steamAchievements": "Could not get steam achievements for this game."
 	},
 	"alerts": {
+		"ok": "Ok",
 		"activate": "Activate",
 		"cancel": "Cancel",
 		"changesLeft": "You will have {{changesLeft}} change{{s}} left.",

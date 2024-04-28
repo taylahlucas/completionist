@@ -10,6 +10,7 @@ interface TextInputContainerProps {
 interface TextInputProps {
   color: string;
   hasLeftComponent: boolean;
+	margin?: number;
 }
 
 export const TextInputContainer = styled.View<TextInputContainerProps>`
@@ -25,12 +26,6 @@ export const TextInputTextContainer = styled.View`
   width: ${LARGE_WIDTH}px;
   margin: 16px;
   padding-vertical: 8px;
-`;
-
-export const TextInputStyled = styled.TextInput<TextInputProps>`
-  margin-left: ${props => props.hasLeftComponent ? 50 : 16}px;
-  margin-right: 48px;
-  padding: 2px;
 `;
 
 export const TextInputSecure = styled(IconButton)`

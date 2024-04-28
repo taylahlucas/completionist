@@ -37,7 +37,7 @@ export type FontAwesomeType =
 
 export type IconType = MaterialIconsType | MaterialCommunityIcons | IoniconType | FontAwesomeType;
 export type ButtonType = 'default' | 'text' | 'navigation';
-export type TextInputStyleType = 'default' | 'text';
+export type TextInputStyleType = 'default' | 'text' | 'verification';
 export type ValidatorType = 'none' | 'email';
 
 export type LanguageType = 

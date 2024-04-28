@@ -24,6 +24,8 @@ import Payments from '@screens/Payments.native';
 import SteamAchievements from '@screens/SteamAchievements.native';
 import SelectFirstGame from '@screens/SelectFirstGame.native';
 import AccountDetails from '@screens/AccountDetails.native';
+import AccountVerification from '@screens/AccountVerification.native';
+import SelectPlan from '@screens/SelectPlan. native';
 
 const Drawer = createDrawerNavigator<RootDrawerParamList>();
 
@@ -64,6 +66,8 @@ const NavigationDrawer = () => {
 			<Drawer.Screen name={ScreenEnum.RootStackNavigator} component={RootStackNavigator} />
 			<Drawer.Screen name={ScreenEnum.Landing} component={Landing} />
 			<Drawer.Screen name={ScreenEnum.Login} component={Login} />
+			<Drawer.Screen name={ScreenEnum.AccountVerification} component={AccountVerification} />
+			<Drawer.Screen name={ScreenEnum.SelectPlan} component={SelectPlan} />
 			<Drawer.Screen name={ScreenEnum.SelectFirstGame} component={SelectFirstGame} />
 			<Drawer.Screen name={ScreenEnum.GameSelection} component={GameSelection} />
 			<Drawer.Screen name={ScreenEnum.Quests} component={Quests} />

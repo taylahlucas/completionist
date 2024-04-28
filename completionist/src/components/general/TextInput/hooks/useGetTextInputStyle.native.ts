@@ -1,23 +1,18 @@
-import { Dimensions } from 'react-native';
-import { DEFAULT_BORDER_RADIUS } from '@styles/global.native';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import { TextInputStyleType } from '@utils/CustomTypes';
 
-const useGetTextInputStyle = (inputStyle: TextInputStyleType) => {
+const useGetTextInputStyle = (inputStyle: TextInputStyleType, hasLeftComponent: boolean) => {
   const theme = useGetTheme();
 
   switch (inputStyle) {
-    case 'text':
-      return {
-        width: Dimensions.get('window').width - 64,
-        borderBottomWidth: 2,
-        borderBottomColor: theme.darkGrey
-      }
+		case 'verification':
+			return {};
     default:
       return {
-        backgroundColor: theme.darkGrey,
-        borderRadius: DEFAULT_BORDER_RADIUS
-      }
+        marginLeft: hasLeftComponent ? 50 : 16,
+				marginRight: 48,
+				padding: 2
+      };
   }
 };
 

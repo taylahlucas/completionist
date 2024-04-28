@@ -10,6 +10,7 @@ import { SignInProps } from '@data/api/EndpointInterfaces.native';
 import { LoginFormData } from '@utils/CustomInterfaces';
 import useLoginDispatch from './useLoginDispatch';
 import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
+import { ScreenEnum } from '@utils/CustomEnums';
 
 interface GoogleSignInError {
 	code: number;
@@ -33,31 +34,40 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 	const { updateUserData, saveUserAndLogin, removeUserData } = useEditUserData();
 	const { sendEmail, checkUserExists, linkAndSignIn, signIn, signUp } = useEndpoints();
 
-
 	const sendEmailVerification = async (email: string) => {
 		try {
 			// TODO: Algorithm to generate unique code
-			const generateUniqueCode = 'ANC234';
-			await sendEmail({
+			const uniqueCode = 'ANC234';
+			setVerificationToken(uniqueCode);
+			sendEmail({
 				// TODO: Swap for completionist email
-				// TODO: Add to translations
 				emailTo: email,
-				subject: 'Verify your account',
-				text: `Hello,\nYou have recently created an account with Completionist.\nTo verify your account, please enter the following code in the application: ${generateUniqueCode}`
-			});
-			setVerificationToken(generateUniqueCode);
-			// navigation.navigate(ScreenEnum.)
+				subject: t('common:screens.verifyAccount'),
+				text: t(
+					'common:sendRequest.verifyAccount',
+					{
+						code: uniqueCode
+					}
+				)
+			})
 		}
 		catch (error: AxiosErrorResponse) {
 			console.log("Error sending verification email ", error.message)
 		}
+		console.log("NAVIGATING")
+		navigation.navigate(ScreenEnum.AccountVerification);
 	};
 
 	const createUser = async (data: LoginFormData) => {
 		try {
 			const response = await signUp({ data: data });
 			if (!!response) {
-				saveUserAndLogin(response, true);
+				saveUserAndLogin(response, false);
+				// TODO: Track which part of the signup flow the user is in?
+				// Should i cache the page? or create variable in database for login i.e.
+				// { verified: true, selectPlan: true, selectGame: true }
+				// This would be called when the user opens the app
+				navigation.navigate(ScreenEnum.SelectPlan);
 			}
 		}
 		catch (error: AxiosErrorResponse) {
@@ -81,11 +91,11 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 
 	const linkAccount = ({ email, password, googleId }: SignInProps) => {
 		Alert.alert(
-			"Account exists.",
-			"Would you like to link these accounts?",
+			t('common:errors.accountExists'),
+			t('common:errors.accountExistsMsg'),
 			[
 				{
-					text: "Ok",
+					text: t('common:alerts.ok'),
 					// Update user with googleId
 					onPress: () => linkAndSignIn({
 						email: email,
@@ -99,7 +109,7 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 					})
 				},
 				{
-					text: "Cancel"
+					text: t('common:alerts.cancel')
 				}
 			]
 		);
@@ -108,7 +118,6 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 	const checkUserAccount = async ({ email, password }: SignInProps) => {
 		checkUserExists(email)
 			.then((accounts) => {
-				console.log("Accounts: ", accounts, " email: ", email)
 				if (accounts.regular) {
 					userSignIn({
 						email: email,
@@ -119,7 +128,10 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 					linkAccount({ email: email, password: password });
 				}
 				else {
-					Alert.alert('Email Not Found', 'Please check your credentials and try again.');
+					Alert.alert(
+						t('common:errors.emailNotFound'), 
+						t('common:errors.checkCredentials')
+					);
 				}
 			});
 	}
@@ -166,7 +178,10 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 							});
 					}
 					else {
-						Alert.alert(t('common:errors.googleSignIn'), 'Problem getting info for this google account.');
+						Alert.alert(
+							t('common:errors.googleSignIn'), 
+							t('common:errors.googleSignInMsg')
+						);
 					}
 				});
 		} catch (error: GoogleSignInError | any) {

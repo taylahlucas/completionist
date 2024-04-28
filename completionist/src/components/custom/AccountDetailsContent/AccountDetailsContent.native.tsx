@@ -18,7 +18,7 @@ const AccountDetailsContent = () => {
 	// TODO: email and password validation
 	const [email, setEmail] = useState(user.email);
 	const [password, setPassword] = useState(user.password);
-	const { saveUserAndCache } = useEditUserData();
+	const { saveUserAndLogin } = useEditUserData();
 	
 	// TODO: Change password
 	return (
@@ -65,12 +65,12 @@ const AccountDetailsContent = () => {
 			</Condition>
 			<Button 
 				title={t('common:accountDetails.updateDetails')}
-				onPress={(): void => saveUserAndCache({
+				onPress={(): void => saveUserAndLogin({
 					...user,
 					name: username,
 					// TODO: Email validation
 					// email: email
-				})}
+				}, false)}
 			/>
 		</ScrollableList>
 	);

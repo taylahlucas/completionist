@@ -1,27 +1,38 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
 import StandardLayout from '@components/general/Layouts/StandardLayout.native';
 import NavigationHeader from '@navigation/NavigationHeader.native';
-import { SubscriptionData } from '@utils/CustomInterfaces';
 import useLoginState from '@components/custom/LoginForm/hooks/useLoginState';
 import Button from '@components/general/Button/Button.native';
-// import AccountVerificationContent from '@components/custom/LoginForm/AccountVerificationContent.native';
-// import AccountVerificationButton from '@components/custom/LoginForm/AccountVerificationButton';
+import VerificationEntry from '@components/general/VerificationEntry/VerificationEntry.native';
+import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
+import { ScreenEnum } from '@utils/CustomEnums';
+import useEditUserData from '@data/hooks/useEditUserData.native';
+import useGetLoginMethods from '@components/custom/LoginForm/hooks/useGetLoginMethods';
+import StyledText from '@components/general/Text/StyledText.native';
 
 const AccountVerification = () => {
-	const [token, setVerificationToken] = useState('');
-	const { verificationToken } = useLoginState();
+	const { t } = useTranslation();
+	const [isValid, setIsValid] = useState<boolean>(false);
+	const { loginFormData, verificationToken } = useLoginState();
+	const { createUser } = useGetLoginMethods();
 
-	// TOOD: Add to translations
-	// TODO: Create verification entry
+	useEffect(() => {
+		console.log("IS VALID: ", isValid)
+	}, [isValid])
+
 	return (
 		<StandardLayout>
-			<NavigationHeader title={'Verify Your Account'} leftAction='none' />
-
+			<NavigationHeader title={t('common:screens.verifyAccount')} leftAction='none' />
+			<StyledText>{t('common:login.accountVerification')}</StyledText>
+			<VerificationEntry token={verificationToken ?? ''} setIsValid={setIsValid} />
 			<Button
-				title={'Continue'}
-				onPress={(): void => console.log("Verify")}
+				title={t('common:continue')}
+				disabled={!isValid}
+				onPress={(): void => {
+					createUser(loginFormData);
+				}}
 			/>
-
 		</StandardLayout>
 	);
 };

@@ -67,6 +67,8 @@ export type RootDrawerParamList = {
   RootStackNavigator: undefined;
   Landing: undefined;
   Login: undefined;
+	AccountVerification: undefined;
+	SelectPlan: undefined;
 	SelectFirstGame: undefined;
   GameSelection: undefined;
   Quests: undefined;

@@ -3,12 +3,12 @@ import uuid from 'react-native-uuid';
 import axios from 'axios';
 import { SteamAchievement, SteamPlayerAchievement, User } from '@utils/CustomInterfaces';
 import { AxiosErrorResponse, StringResponse, UserResponse } from '@utils/CustomTypes';
-import { 
+import {
 	checkUserExistsUrl,
 	linkAndSignInUrl,
 	signupUrl,
-	signinUrl, 
-	getUserByUserIdUrl, 
+	signinUrl,
+	getUserByUserIdUrl,
 	updateUserUrl,
 	sendEmailUrl,
 	steamUserByIdUrl,
@@ -29,11 +29,13 @@ import useAuth from './useAuth.native';
 import config from '@utils/config';
 import { requestCodes } from '@utils/constants';
 import useKeychain from '@data/hooks/useKeychain.native';
+import { useTranslation } from 'react-i18next';
 
 const useEndpoints = (): EndpointsReturnType => {
 	const url = Platform.OS === 'ios'
 		? process.env.IOS_LOCAL_URL
 		: process.env.ANDROID_LOCAL_URL;
+	const { t } = useTranslation();
 	const { setAuthHeaders } = useAuth();
 	const { storeCredentials } = useKeychain();
 	const { handleAxiosError } = useHandleAxiosError();
@@ -166,12 +168,13 @@ const useEndpoints = (): EndpointsReturnType => {
 		}
 	};
 
+	// Split to sendVerificationEmail and sendRequestEmail?
 	const sendEmail = async ({ emailTo, subject, text }: EmailProps): Promise<void> => {
 		try {
 			await axios.post(
 				`${url}/${sendEmailUrl}`,
 				{
-					emailTo: emailTo,
+					to: emailTo,
 					subject: subject,
 					text: text
 				},
@@ -182,7 +185,7 @@ const useEndpoints = (): EndpointsReturnType => {
 			handleAxiosError(error.response.status);
 		}
 	};
-	
+
 	const getSteamUserById = async (appId: string, steamId: string): Promise<StringResponse> => {
 		try {
 			const response = await axios.get(
@@ -197,12 +200,10 @@ const useEndpoints = (): EndpointsReturnType => {
 			}
 		}
 		catch (error: AxiosErrorResponse) {
-			if (error?.response?.status === requestCodes.UNAUTHORIZED) {
-				Alert.alert('Permission Denied', 'Please allow access through your Steam settings.');
-			}
+			handleAxiosError(error.response.status);
 		}
 	};
-	
+
 	const getSteamPlayerAchievements = async (appId: string, steamId: string): Promise<SteamPlayerAchievement | void> => {
 		try {
 			const response = await axios.get(
@@ -221,10 +222,13 @@ const useEndpoints = (): EndpointsReturnType => {
 		}
 		catch (error: AxiosErrorResponse) {
 			if (error?.response?.status === requestCodes.UNAUTHORIZED) {
-				Alert.alert('Permission Denied', 'Please allow access through your Steam settings.');
+				handleAxiosError(error.response.status);
 			}
 			else {
-				Alert.alert('Error', 'Could not get achievements for this game.');
+				Alert.alert(
+					t('common:errors.error'),
+					t('common:errors.steamAchievements')
+				);
 			}
 		}
 	};
@@ -242,15 +246,15 @@ const useEndpoints = (): EndpointsReturnType => {
 		}
 	};
 
-	return { 
+	return {
 		checkUserExists,
 		linkAndSignIn,
-		signIn, 
-		signUp, 
+		signIn,
+		signUp,
 		getUserByUserId,
 		updateUser,
-		sendEmail, 
-		getSteamUserById, 
+		sendEmail,
+		getSteamUserById,
 		getSteamPlayerAchievements,
 		getSteamAchievementsById
 	};
