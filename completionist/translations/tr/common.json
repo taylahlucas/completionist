@@ -34,7 +34,13 @@
     "steamAchievements": "Steam Başarıları",
     "payments": "Ödeme",
     "settings": "Ayarlar",
-    "accountDetails": "hesap detayları"
+    "accountDetails": "hesap detayları",
+    "verifyAccount": "Hesabınızı doğrulayın"
+  },
+  "login": {
+    "instructions1": "Şifre en az şunları içermelidir:",
+    "instructions2": "\n\u2022 8 karakter \n\u2022 1 büyük harf\n\u2022 1 küçük harf\n\u2022 1 sayısal değer",
+    "accountVerification": "E-postalarınızı kontrol edin ve doğrulama kodunu girin"
   },
   "selectGame": {
     "selectGameDesc1": "Ücretsiz bir hesapla, takip etmek için ayda bir oyun seçebilirsiniz.",
@@ -67,7 +73,8 @@
   "sendRequest": {
     "subject": "Ders",
     "writeRequest": "Talebinizi buraya yazın...",
-    "requestGameDesc": "Bir oyun talep etmekten, bir hatayı bildirmekten veya uygulamayı geliştirmek için bazı önerilerde bulunmaktan çekinmeyin!"
+    "requestGameDesc": "Bir oyun talep etmekten, bir hatayı bildirmekten veya uygulamayı geliştirmek için bazı önerilerde bulunmaktan çekinmeyin!",
+    "verifyAccount": "Merhaba,\nYakın zamanda Completionist'te bir hesap oluşturdunuz.\nHesabınızı doğrulamak için lütfen uygulamaya aşağıdaki kodu girin:\n\n{{code}}"
   },
   "settings": {
     "description": "Bir oyun talep etmekten, bir hatayı bildirmekten veya uygulamayı geliştirmek için bazı önerilerde bulunmaktan çekinmeyin!",
@@ -75,7 +82,7 @@
     "enabledDLC": "DLC'yi Etkinleştir/Devre Dışı Bırak:",
     "showHide": "Göster/Gizle:",
     "completedItems": "Tamamlanan Öğeler",
-    "disabledSections": "Engelli Bölümler",
+    "disabledSections": "Engelli Bölümleri",
     "changeAccountDetails": "Hesap Ayrıntılarını Değiştir",
     "selectLanguage": "Dil Seçin:"
   },
@@ -95,16 +102,25 @@
     "steamIdPlaceholder": "Steam Kimliği"
   },
   "errors": {
-		"error": "Hata",
-		"pleaseRefreshApp": "Lütfen uygulamayı yenileyin",
-		"emailAlreadyExists": "Bu e-posta zaten var.",
-		"emailNotFound": "Email bulunamadı",
-		"noEmailExists": "E-posta mevcut değil",
-		"checkCredentials": "Lütfen kimlik bilgilerinizi kontrol edip tekrar deneyin.",
-		"incorrectPw": "Yanlış parola. ",
-		"googleSignIn": "Google ile Oturum Açma Hatası"
+    "error": "Hata",
+    "pleaseRefreshApp": "Lütfen uygulamayı yenileyin",
+    "emailAlreadyExists": "Bu e-posta zaten var",
+    "emailNotFound": "Email bulunamadı",
+    "noEmailExists": "E-posta mevcut değil",
+    "checkCredentials": "Lütfen kimlik bilgilerinizi kontrol edip tekrar deneyin.",
+    "incorrectPw": "Yanlış parola. ",
+    "googleSignIn": "Google Oturum Açma Hatası",
+    "googleSignInMsg": "Bu Google hesabı için bilgi alınırken sorun oluştu.",
+    "accountExists": "Bu Hesap Zaten Mevcut",
+    "accountExistsMsg": "Bu hesapları bağlamak ister misiniz?",
+    "permissionDenied": "İzin reddedildi",
+    "permissionDeniedMsg": "Lütfen Steam ayarlarınız üzerinden erişime izin verin.",
+    "unauthorized": "Yetkisiz",
+    "unauthorizedMsg": "Bu hesabı kullanma yetkiniz yok. ",
+    "steamAchievements": "Bu oyun için Steam başarımları alınamadı."
   },
   "alerts": {
+    "ok": "Tamam",
     "activate": "Etkinleştir",
     "cancel": "İptal etmek",
     "changesLeft": "Sahip olacaksın {{changesLeft}} değiştirmek{{s}} sol.",

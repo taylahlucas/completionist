@@ -39,7 +39,7 @@
 	},
 	"login": {
 		"instructions1": "Password must contain at least:",
-		"instructions2": "\n\u2022 Minimum 8 values \n\u2022 1 uppercase letter\n\u2022 1 lowercase letter\n\u2022 1 numerical value",
+		"instructions2": "\n\u2022 8 characters \n\u2022 1 uppercase letter\n\u2022 1 lowercase letter\n\u2022 1 numerical value",
 		"accountVerification": "Check your emails and enter the verification code"
 	},
 	"selectGame": {
@@ -112,6 +112,7 @@
 		"googleSignIn": "Error with Google Sign In",
 		"googleSignInMsg": "Problem getting info for this google account.",
 		"accountExists": "Account already exists",
+		// TODO:
 		"accountExistsMsg": "Woud you like to link these accounts?",
 		"permissionDenied": "Permission Denied",
 		"permissionDeniedMsg": "Please allow access through your Steam settings.",
@@ -143,3 +144,33 @@
 		"zh": "Chinese"
 	}
 }
+
+{
+	"instructions2": "8 characters",
+	"uppercase": "1 uppercase letter",
+	"lowercase": "1 lowercase letter",
+	"numerical": "1 numerical value",
+	"verifyAccount1": "Hello, ",
+	"verifyAccount2": "You have recently created an account with Completionist.",
+	"verifyAccount3": "To verify your account, please enter the following code in the application:",
+	"accountExistsMsg": "Woud you like to link these accounts?"
+}
+
+
+
+
+
+"instructions2": "\n\u2022 8 characters \n\u2022 1 uppercase letter\n\u2022 1 lowercase letter\n\u2022 1 numerical value",
+
+
+
+"instructions2": "\n\u2022 8 characters \n\u2022 1 uppercase letter\n\u2022 1 lowercase letter\n\u2022 1 numerical value",
+
+
+
+
+"verifyAccount": "Hello,\nYou have recently created an account with Completionist.\nTo verify your account, please enter the following code in the application:\n\n{{code}}"
+
+
+"verifyAccount": "Hello,\nYou have recently created an account with Completionist.\nTo verify your account, please enter the following code in the application:\n\n{{code}}"
+

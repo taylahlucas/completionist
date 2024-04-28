@@ -34,7 +34,13 @@
     "steamAchievements": "Conquistas do Steam",
     "payments": "Pagamento",
     "settings": "Configurações",
-    "accountDetails": "Detalhes da conta"
+    "accountDetails": "Detalhes da conta",
+    "verifyAccount": "Verifique sua conta"
+  },
+  "login": {
+    "instructions1": "A senha deve conter pelo menos:",
+    "instructions2": "\n\u2022 8 caracteres \n\u2022 1 letra maiúscula\n\u2022 1 letra minúscula\n\u2022 1 valor numérico",
+    "accountVerification": "Verifique seus e-mails e insira o código de verificação"
   },
   "selectGame": {
     "selectGameDesc1": "Com uma conta gratuita, você pode selecionar um jogo por mês para acompanhar.",
@@ -67,7 +73,8 @@
   "sendRequest": {
     "subject": "Assunto",
     "writeRequest": "Escreva aqui o seu pedido...",
-    "requestGameDesc": "Fique à vontade para solicitar um jogo, reportar um bug ou fazer sugestões para melhorar o app!"
+    "requestGameDesc": "Fique à vontade para solicitar um jogo, reportar um bug ou fazer sugestões para melhorar o app!",
+    "verifyAccount": "Olá,\nVocê criou recentemente uma conta no Completionist.\nPara verificar sua conta, insira o seguinte código no aplicativo:\n\n{{code}}"
   },
   "settings": {
     "description": "Fique à vontade para solicitar um jogo, reportar um bug ou fazer sugestões para melhorar o app!",
@@ -95,16 +102,25 @@
     "steamIdPlaceholder": "ID de vapor"
   },
   "errors": {
-		"error": "Erro",
-		"pleaseRefreshApp": "Atualize o aplicativo",
-		"emailAlreadyExists": "E-mail já existe.",
-		"emailNotFound": "Email não encontrado",
-		"noEmailExists": "E-mail não existe",
-		"checkCredentials": "Verifique suas credenciais e tente novamente.",
-		"incorrectPw": "Senha incorreta. ",
-		"googleSignIn": "Erro com login do Google"
+    "error": "Erro",
+    "pleaseRefreshApp": "Atualize o aplicativo",
+    "emailAlreadyExists": "e-mail já existe",
+    "emailNotFound": "Email não encontrado",
+    "noEmailExists": "E-mail não existe",
+    "checkCredentials": "Verifique suas credenciais e tente novamente.",
+    "incorrectPw": "Senha incorreta. ",
+    "googleSignIn": "Erro com login do Google",
+    "googleSignInMsg": "Problema ao obter informações desta conta do Google.",
+    "accountExists": "essa conta já existe",
+    "accountExistsMsg": "Gostaria de vincular essas contas?",
+    "permissionDenied": "Permissão negada",
+    "permissionDeniedMsg": "Por favor, permita o acesso através das configurações do Steam.",
+    "unauthorized": "Não autorizado",
+    "unauthorizedMsg": "Você não está autorizado a usar esta conta. ",
+    "steamAchievements": "Não foi possível obter conquistas do Steam para este jogo."
   },
   "alerts": {
+    "ok": "OK",
     "activate": "Ativar",
     "cancel": "Cancelar",
     "changesLeft": "Voce terá {{changesLeft}} mudar{{s}} esquerda.",

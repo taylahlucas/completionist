@@ -34,7 +34,13 @@
     "steamAchievements": "إنجازات البخار",
     "payments": "قسط",
     "settings": "إعدادات",
-    "accountDetails": "تفاصيل الحساب"
+    "accountDetails": "تفاصيل الحساب",
+    "verifyAccount": "تحقق من حسابك"
+  },
+  "login": {
+    "instructions1": "يجب أن تحتوي كلمة المرور على الأقل على:",
+    "instructions2": "\n\u2022 8 أحرف \n\u2022 1 حرف كبير\n\u2022 1 حرف صغير\n\u2022 1 قيمة رقمية",
+    "accountVerification": "تحقق من رسائل البريد الإلكتروني الخاصة بك وأدخل رمز التحقق"
   },
   "selectGame": {
     "selectGameDesc1": "باستخدام الحساب المجاني، يمكنك اختيار لعبة واحدة كل شهر لتتبعها.",
@@ -67,7 +73,8 @@
   "sendRequest": {
     "subject": "موضوع",
     "writeRequest": "أكتب طلبك هنا...",
-    "requestGameDesc": "لا تتردد في طلب لعبة أو الإبلاغ عن خطأ أو تقديم بعض الاقتراحات لتحسين التطبيق!"
+    "requestGameDesc": "لا تتردد في طلب لعبة أو الإبلاغ عن خطأ أو تقديم بعض الاقتراحات لتحسين التطبيق!",
+    "verifyAccount": "مرحبًا، ,\nلقد قمت مؤخرًا بإنشاء حساب مع Completionist.\nللتحقق من حسابك، يرجى إدخال الرمز التالي في التطبيق:\n\n{{code}}"
   },
   "settings": {
     "description": "لا تتردد في طلب لعبة أو الإبلاغ عن خطأ أو تقديم بعض الاقتراحات لتحسين التطبيق!",
@@ -95,16 +102,25 @@
     "steamIdPlaceholder": "معرف البخار"
   },
   "errors": {
-		"error": "خطأ",
-		"pleaseRefreshApp": "يرجى تحديث التطبيق",
-		"emailAlreadyExists": "البريد الالكتروني موجود بالفعل.",
-		"emailNotFound": "البريد الإلكتروني غير موجود",
-		"noEmailExists": "البريد الإلكتروني غير موجود",
-		"checkCredentials": "يرجى التحقق من بيانات الاعتماد الخاصة بك وحاول مرة أخرى.",
-		"incorrectPw": "كلمة سر خاطئة. ",
-		"googleSignIn": "حدث خطأ أثناء تسجيل الدخول إلى Google"
+    "error": "خطأ",
+    "pleaseRefreshApp": "يرجى تحديث التطبيق",
+    "emailAlreadyExists": "البريد الالكتروني موجود بالفعل",
+    "emailNotFound": "البريد الإلكتروني غير موجود",
+    "noEmailExists": "البريد الإلكتروني غير موجود",
+    "checkCredentials": "يرجى التحقق من بيانات الاعتماد الخاصة بك وحاول مرة أخرى.",
+    "incorrectPw": "كلمة سر خاطئة. ",
+    "googleSignIn": "حدث خطأ أثناء تسجيل الدخول إلى Google",
+    "googleSignInMsg": "حدثت مشكلة أثناء الحصول على معلومات لحساب Google هذا.",
+    "accountExists": "الحساب موجود بالفعل",
+    "accountExistsMsg": "هل ترغب في ربط هذه الحسابات؟",
+    "permissionDenied": "تم رفض الإذن",
+    "permissionDeniedMsg": "يرجى السماح بالوصول من خلال إعدادات Steam الخاصة بك.",
+    "unauthorized": "غير مصرح",
+    "unauthorizedMsg": "أنت غير مصرح لك باستخدام هذا الحساب. ",
+    "steamAchievements": "لا يمكن الحصول على إنجازات البخار لهذه اللعبة."
   },
   "alerts": {
+    "ok": "نعم",
     "activate": "تفعيل",
     "cancel": "يلغي",
     "changesLeft": "ستملك {{changesLeft}} يتغير{{s}} غادر.",
