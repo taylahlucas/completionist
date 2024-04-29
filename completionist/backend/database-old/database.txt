@@ -9,24 +9,24 @@ Quests
   hold?: string
   href?: string
   dlc: string
-  conflictingId
+  conflictingIds: string[]
 }
-
 
 Locations
 {
   id: generated_uuid
-  title: string,
-  hold: string,
-  dlc: string
+  mainCategory: string,
+  subCategory?: string,
+	title: string,
+	dlc: string
 }
 
 Miscellaneous
 {
   id: generated_uuid
-  title: string,
   mainCategory: string,
   subCategory?: string,
+	title: string,
   dlc: string
 }
 
@@ -101,6 +101,18 @@ can you convert the following Fallout 3 Quests to the following json data, repla
 			"conflictingIds": []
 	}
 
+	can you convert the following Fallout 3 Locations to the following json data, replacing id with a uniquely generated uuid:
+
+	{
+    "id":  <generated_uuid>,
+    "title": <quest title>
+    "subCategory": "",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+
+
+https://fallout.fandom.com/wiki/Fallout_3_locations
 
 can you convert the following Fallout 3 Miscellaneous to the following json data, replacing id with a uniquely generated uuid:
 
@@ -111,25 +123,6 @@ can you convert the following Fallout 3 Miscellaneous to the following json data
     "dlc": "None",
     "subCategory": ""
   },
-
-Skill Books
-
-
-Big Book of Science
-Chinese Army: Special Ops Training Manual
-D.C. Journal of Internal Medicine
-Dean's Electronics
-Duck and Cover!
-Grognak the Barbarian
-Guns and Bullets
-Lying, Congressional Style
-Motivational Secrets of the Stars
-Nikola Tesla and You
-Paradise Lost
-Pugilism Illustrated
-Tales of a Junktown Jerky Vendor
-Tumblers Today
-U.S. Army: 30 Handy Flamethrower Recipes
 
 
 
