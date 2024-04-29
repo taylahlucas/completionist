@@ -102,42 +102,35 @@ can you convert the following Fallout 3 Quests to the following json data, repla
 	}
 
 
-can you convert the following Fallout 3 Collectables to the following json data, replacing id with a uniquely generated uuid:
+can you convert the following Fallout 3 Miscellaneous to the following json data, replacing id with a uniquely generated uuid:
 
-  {
-    "id": "2a3b45c6-7d89-012e-fgh2-345678i9j05o",
-    "mainCategory": "Unique Weapons",
-    "title": <given_title>
-    "subCategory": "Energy Weapons",
-    "prerequisite": "",
+	{
+    "id":  <generated_uuid>,
+    "mainCategory": "Skill Books",
+    "title": <given_title>,
     "dlc": "None",
-    "subCategoryType": ""
+    "subCategory": ""
   },
 
-
-A3-21's plasma rifle
-Atomic pulverizer
-Captain's Sidearm
-Colonel Autumn's laser pistol
-Destabilizer
-Firelance
-Gauss rifle
-Metal Blaster
-Mesmetron
-Microwave emitter
-MPLX Novasurge
-Protectron's Gaze
-Smuggler's End
-Wazer Wifle
-
-
-
-
-Miscellaneous
-
-Holotapes
-Notes
 Skill Books
+
+
+Big Book of Science
+Chinese Army: Special Ops Training Manual
+D.C. Journal of Internal Medicine
+Dean's Electronics
+Duck and Cover!
+Grognak the Barbarian
+Guns and Bullets
+Lying, Congressional Style
+Motivational Secrets of the Stars
+Nikola Tesla and You
+Paradise Lost
+Pugilism Illustrated
+Tales of a Junktown Jerky Vendor
+Tumblers Today
+U.S. Army: 30 Handy Flamethrower Recipes
+
 
 
 // https://game8.co/games/Hogwarts-Legacy/archives/403791#hl_1

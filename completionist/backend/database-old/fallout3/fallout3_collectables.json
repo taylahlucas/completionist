@@ -806,12 +806,12 @@
   },
   {
     "id": "b203a116-1e05-4f4f-856f-981422baf9bc",
-    "mainCategory": "Unique Weapons",
+    "mainCategory": "The Pitt",
     "title": "Steel knuckles",
-    "subCategory": "Unarmed Weapons",
+    "subCategory": "Unique Weapons",
     "prerequisite": "",
-    "dlc": "None",
-    "subCategoryType": ""
+    "dlc": "The Pitt",
+    "subCategoryType": "Unarmed Weapons"
   },
   {
     "id": "cf9495f1-0c29-4be7-8911-261fb7f71b07",
@@ -852,12 +852,12 @@
   },
   {
     "id": "cf9495f1-0c29-4be7-8911-261fb7f71b07",
-    "mainCategory": "Unique Weapons",
+    "mainCategory": "Mothership Zeta",
     "title": "Electro-Suppressor",
-    "subCategory": "Melee Weapons",
+    "subCategory": "Unique Weapons",
     "prerequisite": "",
-    "dlc": "None",
-    "subCategoryType": ""
+    "dlc": "Mothership Zeta",
+    "subCategoryType": "Melee Weapons"
   },
   {
     "id": "cf9495f1-0c29-4be7-8911-261fb7f71b07",
@@ -870,12 +870,12 @@
   },
   {
     "id": "cf9495f1-0c29-4be7-8911-261fb7f71b07",
-    "mainCategory": "Unique Weapons",
+    "mainCategory": "Point Lookout",
     "title": "Fertilizer shovel",
-    "subCategory": "Melee Weapons",
+    "subCategory": "Unique Weapons",
     "prerequisite": "",
-    "dlc": "None",
-    "subCategoryType": ""
+    "dlc": "Point Lookout",
+    "subCategoryType": "Melee Weapons"
   },
   {
     "id": "cf9495f1-0c29-4be7-8911-261fb7f71b07",
@@ -897,22 +897,22 @@
   },
   {
     "id": "cf9495f1-0c29-4be7-8911-261fb7f71b07",
-    "mainCategory": "Unique Weapons",
+    "mainCategory": "Operation: Anchorage",
     "title": "Jingwei's shocksword",
-    "subCategory": "Melee Weapons",
+    "subCategory": "Unique Weapons",
     "prerequisite": "",
-    "dlc": "None",
-    "subCategoryType": ""
+    "dlc": "Operation: Anchorage",
+    "subCategoryType": "Melee Weapons"
   },
 
   {
     "id": "2a3b45c6-7d89-012e-fgh2-345678i9j05o",
-    "mainCategory": "Unique Weapons",
+    "mainCategory": "The Pitt",
     "title": "Man Opener",
-    "subCategory": "Melee Weapons",
+    "subCategory": "Unique Weapons",
     "prerequisite": "",
-    "dlc": "None",
-    "subCategoryType": ""
+    "dlc": "The Pitt",
+    "subCategoryType": "Melee Weapons"
   },
   {
     "id": "fd5e54ff-38f4-46fb-bf4e-9cda3cabe98a",
@@ -934,21 +934,21 @@
   },
   {
     "id": "66c55fc2-7e2d-4e8f-8d17-3cb4af740132",
-    "mainCategory": "Unique Weapons",
+    "mainCategory": "Point Lookout",
     "title": "Ritual knife",
-    "subCategory": "Melee Weapons",
+    "subCategory": "Unique Weapons",
     "prerequisite": "",
-    "dlc": "None",
-    "subCategoryType": ""
+    "dlc": "Point Lookout",
+    "subCategoryType": "Melee Weapons"
   },
   {
     "id": "d68f3a86-6a93-4b1e-8a4b-9a9d781857eb",
-    "mainCategory": "Unique Weapons",
+    "mainCategory": "Mothership Zeta",
     "title": "Samurai's sword",
-    "subCategory": "Melee Weapons",
+    "subCategory": "Unique Weapons",
     "prerequisite": "",
-    "dlc": "None",
-    "subCategoryType": ""
+    "dlc": "Mothership Zeta",
+    "subCategoryType": "Melee Weapons"
   },
   {
     "id": "7b5ef300-0170-4b80-97d1-5a4320a76b80",
@@ -979,21 +979,21 @@
   },
   {
     "id": "b14b30a8-48f7-4e0d-a41a-3f3328bbdd81",
-    "mainCategory": "Unique Weapons",
+    "mainCategory": "Point Lookout",
     "title": "The Dismemberer",
-    "subCategory": "Melee Weapons",
+    "subCategory": "Unique Weapons",
     "prerequisite": "",
-    "dlc": "None",
-    "subCategoryType": ""
+    "dlc": "Point Lookout",
+    "subCategoryType": "Melee Weapons"
   },
   {
     "id": "6d8bf647-1c69-4f0f-aa92-6cbeaf6f23c7",
-    "mainCategory": "Unique Weapons",
+    "mainCategory": "The Pitt",
     "title": "The Mauler",
-    "subCategory": "Melee Weapons",
+    "subCategory": "Unique Weapons",
     "prerequisite": "",
-    "dlc": "None",
-    "subCategoryType": ""
+    "dlc": "The Pitt",
+    "subCategoryType": "Melee Weapons"
   },
   {
     "id": "4e6d4e1c-8545-4b87-9a9e-1d8901c6f6fb",
@@ -1006,21 +1006,21 @@
   },
   {
     "id": "a12a374b-ec0a-47ed-8415-14d99b2b38b2",
-    "mainCategory": "Unique Weapons",
+    "mainCategory": "Point Lookout",
     "title": "Toy knife",
-    "subCategory": "Melee Weapons",
+    "subCategory": "Unique Weapons",
     "prerequisite": "",
-    "dlc": "None",
-    "subCategoryType": ""
+    "dlc": "Point Lookout",
+    "subCategoryType": "Melee Weapons"
   },
   {
     "id": "7bb44645-6bc9-4ae7-9b91-1c1811d9d6a6",
-    "mainCategory": "Unique Weapons",
+    "mainCategory": "Operation: Anchorage",
     "title": "Trench knife",
-    "subCategory": "Melee Weapons",
+    "subCategory": "Unique Weapons",
     "prerequisite": "",
-    "dlc": "None",
-    "subCategoryType": ""
+    "dlc": "Operation: Anchorage",
+    "subCategoryType": "Melee Weapons"
   },
   {
     "id": "b3d0e91c-32da-46a4-bb39-448db0dd15f8",
@@ -1034,12 +1034,12 @@
 
   {
     "id": "8e05a8e2-dbb9-43e3-8dd9-0b7b2b1df3db",
-    "mainCategory": "Unique Weapons",
+    "mainCategory": "Point Lookout",
     "title": "Backwater rifle",
-    "subCategory": "Small Guns",
+    "subCategory": "Unique Weapons",
     "prerequisite": "",
-    "dlc": "None",
-    "subCategoryType": ""
+    "dlc": "Point Lookout",
+    "subCategoryType": "Small Guns"
   },
   {
     "id": "feb1e6f4-fb32-4342-b8f1-eb12c2e65d5d",
@@ -1052,12 +1052,12 @@
   },
   {
     "id": "09860e37-3e5b-4202-83da-b3fb2a465fa4",
-    "mainCategory": "Unique Weapons",
+    "mainCategory": "Broken Steel",
     "title": "Callahan's Magnum",
-    "subCategory": "Small Guns",
+    "subCategory": "Unique Weapons",
     "prerequisite": "",
-    "dlc": "None",
-    "subCategoryType": ""
+    "dlc": "Broken Steel",
+    "subCategoryType": "Small Guns"
   },
   {
     "id": "2212f670-b7a3-4b60-bd02-fb72f4019b79",
@@ -1088,21 +1088,21 @@
   },
   {
     "id": "6e44551b-3f8b-41fd-bba1-d5956f036e8b",
-    "mainCategory": "Unique Weapons",
-    "title": "Paulson's revolver",
-    "subCategory": "Small Guns",
+    "mainCategory": "Mothership Zeta",
+		"title": "Paulson's revolver",
+    "subCategory": "Unique Weapons",
     "prerequisite": "",
-    "dlc": "None",
-    "subCategoryType": ""
+    "dlc": "Mothership Zeta",
+    "subCategoryType": "Small Guns"
   },
   {
     "id": "d26fd700-80a0-4c50-b180-41f42f8d9e9c",
-    "mainCategory": "Unique Weapons",
+    "mainCategory": "The Pitt",
     "title": "Perforator",
-    "subCategory": "Small Guns",
+    "subCategory": "Unique Weapons",
     "prerequisite": "",
-    "dlc": "None",
-    "subCategoryType": ""
+    "dlc": "The Pitt",
+    "subCategoryType": "Small Guns"
   },
   {
     "id": "d5ac18b1-0814-4e62-89f5-142be14bfb3b",
@@ -1152,12 +1152,12 @@
   },
   {
     "id": "f92cbda8-3c41-4a39-a3f8-d7a3a01795e3",
-    "mainCategory": "Unique Weapons",
+    "mainCategory": "The Pitt",
     "title": "Wild Bill's Sidearm",
-    "subCategory": "Small Guns",
+    "subCategory": "Unique Weapons",
     "prerequisite": "",
-    "dlc": "None",
-    "subCategoryType": ""
+    "dlc": "The Pitt",
+    "subCategoryType": "Small Guns"
   },
   {
     "id": "2cd7b6f4-d843-4874-b93f-ebc3ac0fd32c",
@@ -1198,12 +1198,12 @@
   },
   {
     "id": "ebcf49b4-f18a-4baf-b6c0-0adec31b5a7e",
-    "mainCategory": "Unique Weapons",
+    "mainCategory": "Mothership Zeta",
     "title": "Drone cannon Ex-B",
-    "subCategory": "Big Guns",
+    "subCategory": "Unique Weapons",
     "prerequisite": "",
-    "dlc": "None",
-    "subCategoryType": ""
+    "dlc": "Mothership Zeta",
+    "subCategoryType": "Big Guns"
   },
   {
     "id": "332ec559-62af-40de-b3c1-903e741f72c2",
@@ -1225,30 +1225,30 @@
   },
   {
     "id": "3b458b8e-3b7f-42cb-ba83-73cc3353bc94",
-    "mainCategory": "Unique Weapons",
+    "mainCategory": "Broken Steel",
     "title": "Precision Gatling laser",
-    "subCategory": "Big Guns",
+    "subCategory": "Unique Weapons",
     "prerequisite": "",
-    "dlc": "None",
-    "subCategoryType": ""
+    "dlc": "Broken Steel",
+    "subCategoryType": "Big Guns"
   },
   {
     "id": "08dc3d90-df1f-4f94-b198-d1e3d6df166f",
-    "mainCategory": "Unique Weapons",
+    "mainCategory": "Broken Steel",
     "title": "Rapid-torch flamer",
-    "subCategory": "Big Guns",
+    "subCategory": "Unique Weapons",
     "prerequisite": "",
-    "dlc": "None",
-    "subCategoryType": ""
+    "dlc": "Broken Steel",
+    "subCategoryType": "Big Guns"
   },
   {
     "id": "a71dd0f6-3b47-4f54-bc51-9f70bc0901d4",
-    "mainCategory": "Unique Weapons",
+    "mainCategory": "Broken Steel",
     "title": "Slo-burn flamer",
-    "subCategory": "Big Guns",
+    "subCategory": "Unique Weapons",
     "prerequisite": "",
-    "dlc": "None",
-    "subCategoryType": ""
+    "dlc": "Broken Steel",
+    "subCategoryType": "Big Guns"
   },
   {
     "id": "91fd46c7-2c44-4da5-a51f-93d3fc310190",
@@ -1271,21 +1271,21 @@
   },
   {
     "id": "5798f5a0-6d26-4820-b08d-cf4bc6600f71",
-    "mainCategory": "Unique Weapons",
+    "mainCategory": "Mothership Zeta",
     "title": "Atomic pulverizer",
-    "subCategory": "Energy Weapons",
+    "subCategory": "Unique Weapons",
     "prerequisite": "",
-    "dlc": "None",
-    "subCategoryType": ""
+    "dlc": "Mothership Zeta",
+    "subCategoryType": "Energy Weapons"
   },
   {
     "id": "d132c761-1a1a-4d8c-b7d8-601b1dcb6326",
-    "mainCategory": "Unique Weapons",
+		"mainCategory": "Mothership Zeta",
     "title": "Captain's Sidearm",
-    "subCategory": "Energy Weapons",
+    "subCategory": "Unique Weapons",
     "prerequisite": "",
-    "dlc": "None",
-    "subCategoryType": ""
+    "dlc": "Mothership Zeta",
+    "subCategoryType": "Energy Weapons"
   },
   {
     "id": "6b57a63b-64e3-4e1e-8b8e-44d54e8c87c0",
@@ -1298,12 +1298,12 @@
   },
   {
     "id": "d4423425-037d-46ad-852e-94d4d4d0a5b4",
-    "mainCategory": "Unique Weapons",
+    "mainCategory": "Mothership Zeta",
     "title": "Destabilizer",
-    "subCategory": "Energy Weapons",
+    "subCategory": "Unique Weapons",
     "prerequisite": "",
-    "dlc": "None",
-    "subCategoryType": ""
+    "dlc": "Mothership Zeta",
+    "subCategoryType": "Energy Weapons"
   },
   {
     "id": "a3e1ff65-358b-4b96-b199-6a194c764d46",
@@ -1316,21 +1316,21 @@
   },
   {
     "id": "ecdd1a2c-0db0-42f2-bc97-2e3e203df7cf",
-    "mainCategory": "Unique Weapons",
+    "mainCategory": "Operation: Anchorage",
     "title": "Gauss rifle",
-    "subCategory": "Energy Weapons",
+    "subCategory": "Unique Weapons",
     "prerequisite": "",
-    "dlc": "None",
-    "subCategoryType": ""
+    "dlc": "Operation: Anchorage",
+    "subCategoryType": "Energy Weapons"
   },
   {
     "id": "84973f71-06ec-48c1-b9d7-cd4e2f1de335",
-    "mainCategory": "Unique Weapons",
+    "mainCategory": "The Pitt",
     "title": "Metal Blaster",
-    "subCategory": "Energy Weapons",
+    "subCategory": "Unique Weapons",
     "prerequisite": "",
-    "dlc": "None",
-    "subCategoryType": ""
+    "dlc": "The Pitt",
+    "subCategoryType": "Energy Weapons"
   },
   {
     "id": "497d9cd0-888d-4f3b-9404-62d22f292ede",
@@ -1343,21 +1343,21 @@
   },
   {
     "id": "6a951af3-58c4-4b85-8970-bb1fbc8d4e13",
-    "mainCategory": "Unique Weapons",
+    "mainCategory": "Point Lookout",
     "title": "Microwave emitter",
-    "subCategory": "Energy Weapons",
+    "subCategory": "Unique Weapons",
     "prerequisite": "",
-    "dlc": "None",
-    "subCategoryType": ""
+    "dlc": "Point Lookout",
+    "subCategoryType": "Energy Weapons"
   },
   {
     "id": "c1b79ec8-4811-4c5b-8b3e-f5a9439e63a7",
-    "mainCategory": "Unique Weapons",
+    "mainCategory": "Mothership Zeta",
     "title": "MPLX Novasurge",
-    "subCategory": "Energy Weapons",
+    "subCategory": "Unique Weapons",
     "prerequisite": "",
-    "dlc": "None",
-    "subCategoryType": ""
+    "dlc": "Mothership Zeta",
+    "subCategoryType": "Energy Weapons"
   },
   {
     "id": "f85c18b1-22f2-4f0b-a4b1-9506c4c571fc",
