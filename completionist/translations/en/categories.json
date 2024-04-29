@@ -11,8 +11,8 @@
 				"bobbleheads": "Bobbleheads",
 				"magazines": "Magazines",
 				"uniqueWeapons": "Unique Weapons",
-				"uniqueArmour": "Unique Armour",
-				"powerArmour": "Power Armour"
+				"uniqueArmor": "Unique Armor",
+				"powerArmor": "Power Armor"
 			},
 			"locations": {
 				"main": "Main"
@@ -46,7 +46,7 @@
 				"daedricArtefacts": "Daedric Artefacts",
 				"bugInAJar": "Bug in a Jar",
 				"shouts": "Shouts",
-				"uniqueArmourSets": "Unique Armour Sets",
+				"uniqueArmorSets": "Unique Armor Sets",
 				"uniqueWeapons": "Unique Weapons",
 				"shrines": "Shrines",
 				"stones": "Stones"

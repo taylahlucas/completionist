@@ -57,11 +57,11 @@ const fallout4SettingsConfig = {
 					"isActive": true
 				},
 				{
-					"id": "uniqueArmour",
+					"id": "uniqueArmor",
 					"isActive": true
 				},
 				{
-					"id": "powerArmour",
+					"id": "powerArmor",
 					"isActive": true
 				}
 			],
@@ -228,7 +228,7 @@ const skyrimSettingsConfig = {
 					"isActive": true
 				},
 				{
-					"id": "uniqueArmourSets",
+					"id": "uniqueArmorSets",
 					"isActive": true
 				},
 				{

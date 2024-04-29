@@ -11,8 +11,8 @@
         "bobbleheads": "Bobblehead",
         "magazines": "Majalah",
         "uniqueWeapons": "Senjata Unik",
-        "uniqueArmour": "Baju Besi Unik",
-        "powerArmour": "Armor Kekuatan"
+        "uniqueArmor": "Baju Besi Unik",
+        "powerArmor": "Armor Kekuatan"
       },
       "locations": {
         "main": "Utama"
@@ -46,7 +46,7 @@
         "daedricArtefacts": "Artefak Daedric",
         "bugInAJar": "Serangga dalam Toples",
         "shouts": "Teriakan",
-        "uniqueArmourSets": "Set Armor Unik",
+        "uniqueArmorSets": "Set Armor Unik",
         "uniqueWeapons": "Senjata Unik",
         "shrines": "Kuil",
         "stones": "Batu"

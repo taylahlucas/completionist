@@ -90,11 +90,11 @@ can you convert the following Fallout 3 Quests to the following json data, repla
 
 	{
 			"id": <generated_uuid>,
-			"mainCategory": "Side Quests",
+			"mainCategory": "Mothership Zeta",
 			"title": <quest title>
 			"hold": ""
-			"dlc": "None",
-			"subCategory": ""
+			"dlc": "Mothership Zeta",
+			"subCategory": "Main Quests"
 			"subCategoryType": "",
 			"location": "",
 			"href": "",
@@ -102,7 +102,43 @@ can you convert the following Fallout 3 Quests to the following json data, repla
 	}
 
 
-	
+can you convert the following Fallout 3 Collectables to the following json data, replacing id with a uniquely generated uuid:
+
+  {
+    "id": "2a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "mainCategory": "Unique Weapons",
+    "title": <given_title>
+    "subCategory": "Energy Weapons",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+
+
+A3-21's plasma rifle
+Atomic pulverizer
+Captain's Sidearm
+Colonel Autumn's laser pistol
+Destabilizer
+Firelance
+Gauss rifle
+Metal Blaster
+Mesmetron
+Microwave emitter
+MPLX Novasurge
+Protectron's Gaze
+Smuggler's End
+Wazer Wifle
+
+
+
+
+Miscellaneous
+
+Holotapes
+Notes
+Skill Books
+
 
 // https://game8.co/games/Hogwarts-Legacy/archives/403791#hl_1
 

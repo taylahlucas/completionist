@@ -11,8 +11,8 @@
         "bobbleheads": "Bobblehead'ler",
         "magazines": "Dergiler",
         "uniqueWeapons": "Benzersiz Silahlar",
-        "uniqueArmour": "Benzersiz Zırh",
-        "powerArmour": "Güç Zırhı"
+        "uniqueArmor": "Benzersiz Zırh",
+        "powerArmor": "Güç Zırhı"
       },
       "locations": {
         "main": "Ana"
@@ -46,7 +46,7 @@
         "daedricArtefacts": "Daedrik Eserler",
         "bugInAJar": "Kavanozdaki Böcek",
         "shouts": "Bağırışlar",
-        "uniqueArmourSets": "Benzersiz Zırh Setleri",
+        "uniqueArmorSets": "Benzersiz Zırh Setleri",
         "uniqueWeapons": "Benzersiz Silahlar",
         "shrines": "Türbeler",
         "stones": "Taşlar"

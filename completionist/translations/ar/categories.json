@@ -11,8 +11,8 @@
         "bobbleheads": "رؤؤس فقاعية",
         "magazines": "المجلات",
         "uniqueWeapons": "أسلحة فريدة من نوعها",
-        "uniqueArmour": "درع فريد",
-        "powerArmour": "درع القوة"
+        "uniqueArmor": "درع فريد",
+        "powerArmor": "درع القوة"
       },
       "locations": {
         "main": "رئيسي"
@@ -46,7 +46,7 @@
         "daedricArtefacts": "التحف ديدريك",
         "bugInAJar": "علة في جرة",
         "shouts": "صيحات",
-        "uniqueArmourSets": "مجموعات دروع فريدة من نوعها",
+        "uniqueArmorSets": "مجموعات دروع فريدة من نوعها",
         "uniqueWeapons": "أسلحة فريدة من نوعها",
         "shrines": "المزارات",
         "stones": "الحجارة"

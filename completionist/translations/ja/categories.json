@@ -11,8 +11,8 @@
         "bobbleheads": "ボブルヘッド",
         "magazines": "雑誌",
         "uniqueWeapons": "ユニークな武器",
-        "uniqueArmour": "ユニークな鎧",
-        "powerArmour": "パワーアーマー"
+        "uniqueArmor": "ユニークな鎧",
+        "powerArmor": "パワーアーマー"
       },
       "locations": {
         "main": "主要"
@@ -46,7 +46,7 @@
         "daedricArtefacts": "デイドラアーティファクト",
         "bugInAJar": "瓶の中の虫",
         "shouts": "叫び声",
-        "uniqueArmourSets": "ユニークな防具セット",
+        "uniqueArmorSets": "ユニークな防具セット",
         "uniqueWeapons": "ユニークな武器",
         "shrines": "神社",
         "stones": "石"

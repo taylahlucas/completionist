@@ -11,8 +11,8 @@
         "bobbleheads": "Bobbleheads",
         "magazines": "Revistas",
         "uniqueWeapons": "Armas únicas",
-        "uniqueArmour": "Armadura Única",
-        "powerArmour": "Armadura Potente"
+        "uniqueArmor": "Armadura Única",
+        "powerArmor": "Armadura Potente"
       },
       "locations": {
         "main": "Principal"
@@ -46,7 +46,7 @@
         "daedricArtefacts": "Artefatos Daédricos",
         "bugInAJar": "Bug em uma jarra",
         "shouts": "Gritos",
-        "uniqueArmourSets": "Conjuntos de armadura exclusivos",
+        "uniqueArmorSets": "Conjuntos de armadura exclusivos",
         "uniqueWeapons": "Armas únicas",
         "shrines": "Santuários",
         "stones": "Pedras"

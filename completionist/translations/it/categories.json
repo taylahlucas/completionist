@@ -11,8 +11,8 @@
         "bobbleheads": "Teste molleggiate",
         "magazines": "Riviste",
         "uniqueWeapons": "Armi uniche",
-        "uniqueArmour": "Armatura unica",
-        "powerArmour": "Armatura potenziata"
+        "uniqueArmor": "Armatura unica",
+        "powerArmor": "Armatura potenziata"
       },
       "locations": {
         "main": "Principale"
@@ -46,7 +46,7 @@
         "daedricArtefacts": "Manufatti daedrici",
         "bugInAJar": "Insetto in un barattolo",
         "shouts": "Grida",
-        "uniqueArmourSets": "Set di armature unici",
+        "uniqueArmorSets": "Set di armature unici",
         "uniqueWeapons": "Armi uniche",
         "shrines": "Santuari",
         "stones": "Pietre"

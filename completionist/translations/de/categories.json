@@ -11,8 +11,8 @@
         "bobbleheads": "Wackelköpfe",
         "magazines": "Zeitschriften",
         "uniqueWeapons": "Einzigartige Waffen",
-        "uniqueArmour": "Einzigartige Rüstung",
-        "powerArmour": "Powerrüstung"
+        "uniqueArmor": "Einzigartige Rüstung",
+        "powerArmor": "Powerrüstung"
       },
       "locations": {
         "main": "Hauptsächlich"
@@ -46,7 +46,7 @@
         "daedricArtefacts": "Daedrische Artefakte",
         "bugInAJar": "Käfer im Glas",
         "shouts": "Geschrei",
-        "uniqueArmourSets": "Einzigartige Rüstungssets",
+        "uniqueArmorSets": "Einzigartige Rüstungssets",
         "uniqueWeapons": "Einzigartige Waffen",
         "shrines": "Schreine",
         "stones": "Steine"

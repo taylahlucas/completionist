@@ -1,0 +1,1389 @@
+[
+	{
+		"id": "2a3b45c6-7d89-012e-fgh2-345678i9j05o",
+		"mainCategory": "Bobbleheads",
+		"title": "Strength Bobblehead",
+		"subCategory": "S.P.E.C.I.A.L.",
+		"prerequisite": "",
+		"dlc": "None",
+		"subCategoryType": ""
+	},
+	{
+		"id": "42e17c3b-90d5-490d-b45f-579163c8a2c9",
+		"mainCategory": "Bobbleheads",
+		"title": "Perception Bobblehead",
+		"subCategory": "S.P.E.C.I.A.L.",
+		"prerequisite": "",
+		"dlc": "None",
+		"subCategoryType": ""
+	},
+	{
+		"id": "bfdbe5a9-1e51-4ee6-b7d8-7ac8090cbf01",
+		"mainCategory": "Bobbleheads",
+		"title": "Endurance Bobblehead",
+		"subCategory": "S.P.E.C.I.A.L.",
+		"prerequisite": "",
+		"dlc": "None",
+		"subCategoryType": ""
+	},
+	{
+		"id": "9a845e3a-124f-43c7-9c9b-3e847a6fdd68",
+		"mainCategory": "Bobbleheads",
+		"title": "Charisma Bobblehead",
+		"subCategory": "S.P.E.C.I.A.L.",
+		"prerequisite": "",
+		"dlc": "None",
+		"subCategoryType": ""
+	},
+	{
+		"id": "a7e3d91b-dfb3-4ee5-98c8-8ae8457693bd",
+		"mainCategory": "Bobbleheads",
+		"title": "Intelligence Bobblehead",
+		"subCategory": "S.P.E.C.I.A.L.",
+		"prerequisite": "",
+		"dlc": "None",
+		"subCategoryType": ""
+	},
+	{
+		"id": "0a6e8b14-0e3f-470a-bd9b-6e17c9482d7a",
+		"mainCategory": "Bobbleheads",
+		"title": "Agility Bobblehead",
+		"subCategory": "S.P.E.C.I.A.L.",
+		"prerequisite": "",
+		"dlc": "None",
+		"subCategoryType": ""
+	},
+	{
+		"id": "f36b7ad4-cad3-4d11-94b9-abc18b43b1a9",
+		"mainCategory": "Bobbleheads",
+		"title": "Luck Bobblehead",
+		"subCategory": "S.P.E.C.I.A.L.",
+		"prerequisite": "",
+		"dlc": "None",
+		"subCategoryType": ""
+	},
+	{
+		"id": "2a3b45c6-7d89-012e-fgh2-345678i9j05o",
+		"mainCategory": "Bobbleheads",
+		"title": "Barter Bobblehead",
+		"subCategory": "Skills",
+		"prerequisite": "",
+		"dlc": "None",
+		"subCategoryType": ""
+	},
+	{
+		"id": "3b26fe9c-32b7-495c-a32d-7f7ebfd0a66b",
+		"mainCategory": "Bobbleheads",
+		"title": "Big Guns Bobblehead",
+		"subCategory": "Skills",
+		"prerequisite": "",
+		"dlc": "None",
+		"subCategoryType": ""
+	},
+	{
+		"id": "c1d384ac-9e0e-4e58-9d63-78138a2b55cb",
+		"mainCategory": "Bobbleheads",
+		"title": "Energy Weapons Bobblehead",
+		"subCategory": "Skills",
+		"prerequisite": "",
+		"dlc": "None",
+		"subCategoryType": ""
+	},
+	{
+		"id": "6a04c879-6b10-498f-b734-2aeb96e1af02",
+		"mainCategory": "Bobbleheads",
+		"title": "Explosives Bobblehead",
+		"subCategory": "Skills",
+		"prerequisite": "",
+		"dlc": "None",
+		"subCategoryType": ""
+	},
+	{
+		"id": "f5b7a6c3-9a52-4984-9254-ee9629ec118b",
+		"mainCategory": "Bobbleheads",
+		"title": "Lockpick Bobblehead",
+		"subCategory": "Skills",
+		"prerequisite": "",
+		"dlc": "None",
+		"subCategoryType": ""
+	},
+	{
+		"id": "d53c87b1-c3d0-490b-ae7e-0446a11a4477",
+		"mainCategory": "Bobbleheads",
+		"title": "Medicine Bobblehead",
+		"subCategory": "Skills",
+		"prerequisite": "",
+		"dlc": "None",
+		"subCategoryType": ""
+	},
+	{
+		"id": "ad54b59d-0880-4b4d-b0f7-ee29bfb6dc4d",
+		"mainCategory": "Bobbleheads",
+		"title": "Melee Weapons Bobblehead",
+		"subCategory": "Skills",
+		"prerequisite": "",
+		"dlc": "None",
+		"subCategoryType": ""
+	},
+	{
+		"id": "56e1e0ac-33b7-42fc-ae26-9c76dc83b164",
+		"mainCategory": "Bobbleheads",
+		"title": "Repair Bobblehead",
+		"subCategory": "Skills",
+		"prerequisite": "",
+		"dlc": "None",
+		"subCategoryType": ""
+	},
+	{
+		"id": "6a319cd8-689f-49e4-bd59-07d8f487fc6a",
+		"mainCategory": "Bobbleheads",
+		"title": "Science Bobblehead",
+		"subCategory": "Skills",
+		"prerequisite": "",
+		"dlc": "None",
+		"subCategoryType": ""
+	},
+	{
+		"id": "3b2f92ff-1a53-46a1-a5e5-64f6a7f1cf4b",
+		"mainCategory": "Bobbleheads",
+		"title": "Small Guns Bobblehead",
+		"subCategory": "Skills",
+		"prerequisite": "",
+		"dlc": "None",
+		"subCategoryType": ""
+	},
+	{
+		"id": "9a9c6a7b-1185-42c6-9eb6-53d6beab2199",
+		"mainCategory": "Bobbleheads",
+		"title": "Sneak Bobblehead",
+		"subCategory": "Skills",
+		"prerequisite": "",
+		"dlc": "None",
+		"subCategoryType": ""
+	},
+	{
+		"id": "7cfcf3fd-b92f-40c8-a748-01b5b4aa5473",
+		"mainCategory": "Bobbleheads",
+		"title": "Speech Bobblehead",
+		"subCategory": "Skills",
+		"prerequisite": "",
+		"dlc": "None",
+		"subCategoryType": ""
+	},
+	{
+		"id": "c848b1ad-2551-45ef-86d1-3165f4df6f7b",
+		"mainCategory": "Bobbleheads",
+		"title": "Unarmed Bobblehead",
+		"subCategory": "Skills",
+		"prerequisite": "",
+		"dlc": "None",
+		"subCategoryType": ""
+	},
+	{
+		"id": "2a3b45c6-7d89-012e-fgh2-345678i9j05o",
+		"mainCategory": "Unique Armor",
+		"title": "Bombshell Armor",
+		"subCategory": "Armor",
+		"prerequisite": "",
+		"dlc": "None",
+		"subCategoryType": ""
+	},
+	{
+		"id": "3b2d0e4f-1ec7-4b14-95a1-84e8682f91d7",
+		"mainCategory": "Unique Armor",
+		"title": "Chinese stealth Armor",
+		"subCategory": "Armor",
+		"prerequisite": "",
+		"dlc": "Operation: Anchorage",
+		"subCategoryType": ""
+	},
+	{
+		"id": "7c4c1867-fa9a-448e-b48c-b1a6319ef61e",
+		"mainCategory": "Unique Armor",
+		"title": "Composite recon Armor",
+		"subCategory": "Armor",
+		"prerequisite": "",
+		"dlc": "None",
+		"subCategoryType": ""
+	},
+	{
+		"id": "73abff82-96b0-497a-9c0d-3a13474c4e13",
+		"mainCategory": "Unique Armor",
+		"title": "Lag-Bolt's combat Armor",
+		"subCategory": "Armor",
+		"prerequisite": "",
+		"dlc": "None",
+		"subCategoryType": ""
+	},
+	{
+		"id": "22a38e3a-1bf8-43d5-b42c-8dfb5c1b68b5",
+		"mainCategory": "Unique Armor",
+		"title": "Metal Master Armor",
+		"subCategory": "Armor",
+		"prerequisite": "",
+		"dlc": "None",
+		"subCategoryType": ""
+	},
+	{
+		"id": "5d49db8c-0585-4aa1-9bf0-b5b0e3649a6e",
+		"mainCategory": "Unique Armor",
+		"title": "Samurai Armor",
+		"subCategory": "Armor",
+		"prerequisite": "",
+		"dlc": "None",
+		"subCategoryType": ""
+	},
+	{
+		"id": "a7a8e027-d48b-462a-988b-41f65dd5d05b",
+		"mainCategory": "Unique Armor",
+		"title": "Wanderer's leather Armor",
+		"subCategory": "Armor",
+		"prerequisite": "",
+		"dlc": "None",
+		"subCategoryType": ""
+	},
+	{
+		"id": "2a3b45c6-7d89-012e-fgh2-345678i9j05o",
+		"mainCategory": "Unique Armor",
+		"title": "Boogeyman's hood",
+		"subCategory": "Headwear",
+		"prerequisite": "",
+		"dlc": "None",
+		"subCategoryType": ""
+	},
+	{
+		"id": "3b4e8a7d-1f0c-4027-ae54-79f2ae84463c",
+		"mainCategory": "Unique Armor",
+		"title": "Button's wig",
+		"subCategory": "Headwear",
+		"prerequisite": "",
+		"dlc": "None",
+		"subCategoryType": ""
+	},
+	{
+		"id": "febf3e68-5b8c-4e49-9c8f-08dbd9031c39",
+		"mainCategory": "Unique Armor",
+		"title": "Crow's eyebot helmet",
+		"subCategory": "Headwear",
+		"prerequisite": "",
+		"dlc": "None",
+		"subCategoryType": ""
+	},
+	{
+		"id": "15a2a48f-7c94-4d53-ae06-80e5c4e2cb95",
+		"mainCategory": "Unique Armor",
+		"title": "Cryptochromatic spectacles",
+		"subCategory": "Headwear",
+		"prerequisite": "",
+		"dlc": "None",
+		"subCategoryType": ""
+	},
+	{
+		"id": "e0be89eb-07d0-4a62-82fb-f08db450fc98",
+		"mainCategory": "Unique Armor",
+		"title": "Desmond's eyeglasses",
+		"subCategory": "Headwear",
+		"prerequisite": "",
+		"dlc": "None",
+		"subCategoryType": ""
+	},
+	{
+		"id": "82c1c3d0-e6d1-41b3-9970-098478c9a7e5",
+		"mainCategory": "Unique Armor",
+		"title": "Filtration helmet",
+		"subCategory": "Headwear",
+		"prerequisite": "",
+		"dlc": "None",
+		"subCategoryType": ""
+	},
+	{
+		"id": "2274eb1c-4b86-4cb0-8923-c25d0b55b4cf",
+		"mainCategory": "Unique Armor",
+		"title": "Ghoul mask",
+		"subCategory": "Headwear",
+		"prerequisite": "",
+		"dlc": "None",
+		"subCategoryType": ""
+	},
+	{
+		"id": "d1c3d2fd-3dd0-4f67-9b3c-923d0e8b9c34",
+		"mainCategory": "Unique Armor",
+		"title": "Hat of the People",
+		"subCategory": "Headwear",
+		"prerequisite": "",
+		"dlc": "None",
+		"subCategoryType": ""
+	},
+	{
+		"id": "c5a1a748-854e-42f3-bfc3-f34d8c4cf55b",
+		"mainCategory": "Unique Armor",
+		"title": "Kid's party hat",
+		"subCategory": "Headwear",
+		"prerequisite": "",
+		"dlc": "None",
+		"subCategoryType": ""
+	},
+	{
+		"id": "2a1a0bb9-b0bf-43d8-b1ab-50f2f6c0910d",
+		"mainCategory": "Unique Armor",
+		"title": "Lag-Bolt's shades",
+		"subCategory": "Headwear",
+		"prerequisite": "",
+		"dlc": "None",
+		"subCategoryType": ""
+	},
+	{
+		"id": "c49f2f13-1ebe-4e86-9713-8684bf1c0b9c",
+		"mainCategory": "Unique Armor",
+		"title": "Ledoux's hockey mask",
+		"subCategory": "Headwear",
+		"prerequisite": "",
+		"dlc": "None",
+		"subCategoryType": ""
+	},
+	{
+		"id": "0fbc2b2d-45fb-4f05-b5e4-978d8d84f71a",
+		"mainCategory": "Unique Armor",
+		"title": "Lincoln's hat",
+		"subCategory": "Headwear",
+		"prerequisite": "",
+		"dlc": "None",
+		"subCategoryType": ""
+	},
+	{
+		"id": "88f59eb8-b64d-4c85-b847-8a3ff3b49650",
+		"mainCategory": "Unique Armor",
+		"title": "Lucky shades",
+		"subCategory": "Headwear",
+		"prerequisite": "",
+		"dlc": "None",
+		"subCategoryType": ""
+	},
+	{
+		"id": "3c2cb317-1b53-4cfc-bf6a-ff424f33b3e1",
+		"mainCategory": "Unique Armor",
+		"title": "Pint-Sized Slasher mask",
+		"subCategory": "Headwear",
+		"prerequisite": "",
+		"dlc": "None",
+		"subCategoryType": ""
+	},
+	{
+		"id": "927e9c2a-f8a3-4dbb-9d2f-8e3d48f50f2a",
+		"mainCategory": "Unique Armor",
+		"title": "Poplar's hood",
+		"subCategory": "Headwear",
+		"prerequisite": "",
+		"dlc": "None",
+		"subCategoryType": ""
+	},
+	{
+		"id": "bf0ebf3d-d6f2-456d-bc2a-79ef3d1d8dc9",
+		"mainCategory": "Unique Armor",
+		"title": "Shady hat",
+		"subCategory": "Headwear",
+		"prerequisite": "",
+		"dlc": "None",
+		"subCategoryType": ""
+	},
+	{
+		"id": "e1bdcdd6-0599-4791-b39e-999fe8cfc648",
+		"mainCategory": "Unique Armor",
+		"title": "Takoma Park Little Leaguer cap",
+		"subCategory": "Headwear",
+		"prerequisite": "",
+		"dlc": "None",
+		"subCategoryType": ""
+	},
+	{
+		"id": "4578a8a1-9617-41e7-83ef-459b40fd6cbb",
+		"mainCategory": "Unique Armor",
+		"title": "Three Dog's headwear",
+		"subCategory": "Headwear",
+		"prerequisite": "",
+		"dlc": "None",
+		"subCategoryType": ""
+	},
+	{
+		"id": "9786e498-08de-4f28-b5df-67f5367d0108",
+		"mainCategory": "Unique Armor",
+		"title": "Torcher's mask",
+		"subCategory": "Headwear",
+		"prerequisite": "",
+		"dlc": "None",
+		"subCategoryType": ""
+	},
+	{
+		"id": "2a3b45c6-7d89-012e-fgh2-345678i9j05o",
+		"mainCategory": "Unique Armor",
+		"title": "Armored Vault 101 jumpsuit",
+		"subCategory": "Jumpsuits",
+		"prerequisite": "",
+		"dlc": "None",
+		"subCategoryType": ""
+	},
+	{
+		"id": "b1a22db8-26c0-44cf-b5ad-7c1467a244f3",
+		"mainCategory": "Unique Armor",
+		"title": "Modified utility jumpsuit",
+		"subCategory": "Jumpsuits",
+		"prerequisite": "",
+		"dlc": "None",
+		"subCategoryType": ""
+	},
+	{
+		"id": "db556445-40b2-485a-b448-7693dbb4050a",
+		"mainCategory": "Unique Armor",
+		"title": "Red's jumpsuit",
+		"subCategory": "Jumpsuits",
+		"prerequisite": "",
+		"dlc": "None",
+		"subCategoryType": ""
+	},
+	{
+		"id": "693c2da4-3bb4-4d8a-b936-8fc0191527c0",
+		"mainCategory": "Unique Armor",
+		"title": "Vault 101 child's jumpsuit",
+		"subCategory": "Jumpsuits",
+		"prerequisite": "",
+		"dlc": "None",
+		"subCategoryType": ""
+	},
+	{
+		"id": "85b4e22d-7270-465b-817b-0e4c9f14fb3e",
+		"mainCategory": "Unique Armor",
+		"title": "Vault 77 jumpsuit",
+		"subCategory": "Jumpsuits",
+		"prerequisite": "",
+		"dlc": "None",
+		"subCategoryType": ""
+	},
+
+  {
+    "id": "2a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "mainCategory": "Unique Armor",
+    "title": "Dad's wasteland outfit",
+    "subCategory": "Outfits",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "ef6b6f33-431d-46ff-81df-41775eb77980",
+    "mainCategory": "Unique Armor",
+    "title": "Doctor Li's outfit",
+    "subCategory": "Outfits",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "b7cf837e-09a3-4abf-b29c-8a3631243d10",
+    "mainCategory": "Unique Armor",
+    "title": "Kid's cave rat outfit",
+    "subCategory": "Outfits",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "4e1b1ebf-4e7c-42d8-8259-98bc1a51d6eb",
+    "mainCategory": "Unique Armor",
+    "title": "Laborer outfit",
+    "subCategory": "Outfits",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "835b1910-fc7f-41ff-b755-7bc8ab41818e",
+    "mainCategory": "Unique Armor",
+    "title": "Mayor MacCready's outfit",
+    "subCategory": "Outfits",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "0482999a-4875-4821-8dd0-08f65a42dc71",
+    "mainCategory": "Unique Armor",
+    "title": "Mysterious Stranger outfit",
+    "subCategory": "Outfits",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "d7a8124a-54f2-43d2-89e2-3c8990d8664a",
+    "mainCategory": "Unique Armor",
+    "title": "Paulson's outfit",
+    "subCategory": "Outfits",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "b0111b53-2b02-4d8e-9614-4909e17c9b70",
+    "mainCategory": "Unique Armor",
+    "title": "Vance's longcoat outfit",
+    "subCategory": "Outfits",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+
+  {
+    "id": "2a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "mainCategory": "Unique Armor",
+    "title": "Ashur's power Armor",
+    "subCategory": "Power Armor",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "1a4b543e-5dc6-4b18-84ac-c29e1c2872e2",
+    "mainCategory": "Unique Armor",
+    "title": "Linden's Outcast power Armor",
+    "subCategory": "Power Armor",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "ca97dc61-0569-4a76-9f39-056ff0fc32b8",
+    "mainCategory": "Unique Armor",
+    "title": "Prototype medic power Armor",
+    "subCategory": "Power Armor",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "af0a1e99-7a0f-4a93-a404-c94d485c3776",
+    "mainCategory": "Unique Armor",
+    "title": "T-51b power Armor",
+    "subCategory": "Power Armor",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "e87e2f29-9ee7-42b5-b50c-032d8f1a4d89",
+    "mainCategory": "Unique Armor",
+    "title": "Tribal power Armor",
+    "subCategory": "Power Armor",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "4d31d2d7-9ed5-4f2a-9a94-3cd56966d17b",
+    "mainCategory": "Unique Armor",
+    "title": "Winterized T-51b power Armor",
+    "subCategory": "Power Armor",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+
+  {
+    "id": "2a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "mainCategory": "Unique Armor",
+    "title": "All-purpose science suit",
+    "subCategory": "Suits",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "13b9e862-0b5c-4e8f-aa85-7938d234fc3b",
+    "mainCategory": "Unique Armor",
+    "title": "Environment suit",
+    "subCategory": "Suits",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "b5d4a50f-4420-45e6-90fb-8d2ed496cf91",
+    "mainCategory": "Unique Armor",
+    "title": "Eulogy Jones' suit",
+    "subCategory": "Suits",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "f2d1d176-f9ad-4fc9-9ed8-b670e7d28d9a",
+    "mainCategory": "Unique Armor",
+    "title": "Neural interface suit",
+    "subCategory": "Suits",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "679b2e6d-4974-4823-90e7-42503b65dc45",
+    "mainCategory": "Unique Armor",
+    "title": "Spacesuit",
+    "subCategory": "Suits",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "7f896b6e-2936-4a85-92f2-64126c6f2c56",
+    "mainCategory": "Unique Armor",
+    "title": "Tenpenny's suit",
+    "subCategory": "Suits",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+	{
+    "id": "2a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "mainCategory": "Unique Armor",
+    "title": "Colonel Autumn's uniform",
+    "subCategory": "Uniforms",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "c871c66e-1d2b-43c4-9355-03e3733fd2c2",
+    "mainCategory": "Unique Armor",
+    "title": "General Jingwei's uniform",
+    "subCategory": "Uniforms",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "fc2538e0-725d-470e-9921-d73cc3b7f91b",
+    "mainCategory": "Unique Armor",
+    "title": "Vault lab uniform",
+    "subCategory": "Uniforms",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+	{
+    "id": "2a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "mainCategory": "Unique Armor",
+    "title": "All-nighter nightwear",
+    "subCategory": "Miscellaneous",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "a7b76b4b-279f-49e4-aa8d-784888ccffbb",
+    "mainCategory": "Unique Armor",
+    "title": "Blast Off pajamas",
+    "subCategory": "Miscellaneous",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "e628c7a2-4b84-47e8-a43a-b4a6f058f92a",
+    "mainCategory": "Unique Armor",
+    "title": "Elder Lyons' robe",
+    "subCategory": "Miscellaneous",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "155a2aa3-1290-4a24-8dcf-1845d2a48d90",
+    "mainCategory": "Unique Armor",
+    "title": "General Chase's overcoat",
+    "subCategory": "Miscellaneous",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "2da01765-c6d8-4b7d-b4d1-c8f3dc2d0ab9",
+    "mainCategory": "Unique Armor",
+    "title": "Leather Rebel",
+    "subCategory": "Miscellaneous",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "f64612a9-4f39-4df8-9e8b-8b79201d87c5",
+    "mainCategory": "Unique Armor",
+    "title": "Grifter's Fit",
+    "subCategory": "Miscellaneous",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "d48d1d0b-2a90-4a39-b849-9e22ebc71f02",
+    "mainCategory": "Unique Armor",
+    "title": "Lesko's lab coat",
+    "subCategory": "Miscellaneous",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "b8913c47-bdc5-46ab-b865-d7099aa2f001",
+    "mainCategory": "Unique Armor",
+    "title": "Maple's garb",
+    "subCategory": "Miscellaneous",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "c7f4a9f3-ced1-4653-aa95-ff2dcb619d74",
+    "mainCategory": "Unique Armor",
+    "title": "Naughty nightwear",
+    "subCategory": "Miscellaneous",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "f122cc16-4c64-42e5-aa6e-356c0c06b63f",
+    "mainCategory": "Unique Armor",
+    "title": "Sheriff's duster",
+    "subCategory": "Miscellaneous",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "d8cc292e-02c7-46e3-8f0b-9c8b2d07c429",
+    "mainCategory": "Unique Armor",
+    "title": "The AntAgonizer's costume",
+    "subCategory": "Miscellaneous",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "9db4fb98-c9ac-4432-885e-4b8c54a23b98",
+    "mainCategory": "Unique Armor",
+    "title": "The Mechanist's costume",
+    "subCategory": "Miscellaneous",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "9db4fb98-c9ac-c432-885e-4b8c54a23b98",
+    "mainCategory": "Unique Armor",
+    "title": "The Surgeon's lab coat",
+    "subCategory": "Miscellaneous",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+
+  {
+    "id": "2a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "mainCategory": "Unique Weapons",
+    "title": "Fisto!",
+    "subCategory": "Unarmed Weapons",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "9a15b3b7-96fc-4620-bb1a-5f8a1b39824b",
+    "mainCategory": "Unique Weapons",
+    "title": "Plunkett's Valid Points",
+    "subCategory": "Unarmed Weapons",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "b203a116-1e05-4f4f-856f-981422baf9bc",
+    "mainCategory": "Unique Weapons",
+    "title": "Steel knuckles",
+    "subCategory": "Unarmed Weapons",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "cf9495f1-0c29-4be7-8911-261fb7f71b07",
+    "mainCategory": "Unique Weapons",
+    "title": "The Shocker",
+    "subCategory": "Unarmed Weapons",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+
+  {
+    "id": "2a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "mainCategory": "Unique Weapons",
+    "title": "Ant's Sting",
+    "subCategory": "Melee Weapons",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "9a15b3b7-96fc-4620-bb1a-5f8a1b39824b",
+    "mainCategory": "Unique Weapons",
+    "title": "Board of Education",
+    "subCategory": "Melee Weapons",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "b203a116-1e05-4f4f-856f-981422baf9bc",
+    "mainCategory": "Unique Weapons",
+    "title": "Butch's Toothpick",
+    "subCategory": "Melee Weapons",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "cf9495f1-0c29-4be7-8911-261fb7f71b07",
+    "mainCategory": "Unique Weapons",
+    "title": "Electro-Suppressor",
+    "subCategory": "Melee Weapons",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "cf9495f1-0c29-4be7-8911-261fb7f71b07",
+    "mainCategory": "Unique Weapons",
+    "title": "Fawkes' super sledge",
+    "subCategory": "Melee Weapons",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "cf9495f1-0c29-4be7-8911-261fb7f71b07",
+    "mainCategory": "Unique Weapons",
+    "title": "Fertilizer shovel",
+    "subCategory": "Melee Weapons",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "cf9495f1-0c29-4be7-8911-261fb7f71b07",
+    "mainCategory": "Unique Weapons",
+    "title": "Highwayman's Friend",
+    "subCategory": "Melee Weapons",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "cf9495f1-0c29-4be7-8911-261fb7f71b07",
+    "mainCategory": "Unique Weapons",
+    "title": "Jack",
+    "subCategory": "Melee Weapons",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "cf9495f1-0c29-4be7-8911-261fb7f71b07",
+    "mainCategory": "Unique Weapons",
+    "title": "Jingwei's shocksword",
+    "subCategory": "Melee Weapons",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+
+  {
+    "id": "2a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "mainCategory": "Unique Weapons",
+    "title": "Man Opener",
+    "subCategory": "Melee Weapons",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "fd5e54ff-38f4-46fb-bf4e-9cda3cabe98a",
+    "mainCategory": "Unique Weapons",
+    "title": "Occam's Razor",
+    "subCategory": "Melee Weapons",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "8cfd0b4d-8f75-4620-bb9d-e4cf0f122ae0",
+    "mainCategory": "Unique Weapons",
+    "title": "Repellent stick",
+    "subCategory": "Melee Weapons",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "66c55fc2-7e2d-4e8f-8d17-3cb4af740132",
+    "mainCategory": "Unique Weapons",
+    "title": "Ritual knife",
+    "subCategory": "Melee Weapons",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "d68f3a86-6a93-4b1e-8a4b-9a9d781857eb",
+    "mainCategory": "Unique Weapons",
+    "title": "Samurai's sword",
+    "subCategory": "Melee Weapons",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "7b5ef300-0170-4b80-97d1-5a4320a76b80",
+    "mainCategory": "Unique Weapons",
+    "title": "Slasher knife",
+    "subCategory": "Melee Weapons",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "5c45cb3e-c1a7-42d4-8c19-0ef398b1f67d",
+    "mainCategory": "Unique Weapons",
+    "title": "Stabhappy",
+    "subCategory": "Melee Weapons",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "93f895e8-62f7-4d65-8daa-8b1b8c9143b8",
+    "mainCategory": "Unique Weapons",
+    "title": "The Break",
+    "subCategory": "Melee Weapons",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "b14b30a8-48f7-4e0d-a41a-3f3328bbdd81",
+    "mainCategory": "Unique Weapons",
+    "title": "The Dismemberer",
+    "subCategory": "Melee Weapons",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "6d8bf647-1c69-4f0f-aa92-6cbeaf6f23c7",
+    "mainCategory": "Unique Weapons",
+    "title": "The Mauler",
+    "subCategory": "Melee Weapons",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "4e6d4e1c-8545-4b87-9a9e-1d8901c6f6fb",
+    "mainCategory": "Unique Weapons",
+    "title": "The Tenderizer",
+    "subCategory": "Melee Weapons",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "a12a374b-ec0a-47ed-8415-14d99b2b38b2",
+    "mainCategory": "Unique Weapons",
+    "title": "Toy knife",
+    "subCategory": "Melee Weapons",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "7bb44645-6bc9-4ae7-9b91-1c1811d9d6a6",
+    "mainCategory": "Unique Weapons",
+    "title": "Trench knife",
+    "subCategory": "Melee Weapons",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "b3d0e91c-32da-46a4-bb39-448db0dd15f8",
+    "mainCategory": "Unique Weapons",
+    "title": "Vampire's Edge",
+    "subCategory": "Melee Weapons",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+
+  {
+    "id": "8e05a8e2-dbb9-43e3-8dd9-0b7b2b1df3db",
+    "mainCategory": "Unique Weapons",
+    "title": "Backwater rifle",
+    "subCategory": "Small Guns",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "feb1e6f4-fb32-4342-b8f1-eb12c2e65d5d",
+    "mainCategory": "Unique Weapons",
+    "title": "Blackhawk",
+    "subCategory": "Small Guns",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "09860e37-3e5b-4202-83da-b3fb2a465fa4",
+    "mainCategory": "Unique Weapons",
+    "title": "Callahan's Magnum",
+    "subCategory": "Small Guns",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "2212f670-b7a3-4b60-bd02-fb72f4019b79",
+    "mainCategory": "Unique Weapons",
+    "title": "Colonel Autumn's 10mm pistol",
+    "subCategory": "Small Guns",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "548e7507-9f7e-4513-9129-ba9c86e7083a",
+    "mainCategory": "Unique Weapons",
+    "title": "Lincoln's repeater",
+    "subCategory": "Small Guns",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "785bb5e4-9d7e-44ff-a893-7777c754b441",
+    "mainCategory": "Unique Weapons",
+    "title": "Ol' Painless",
+    "subCategory": "Small Guns",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "6e44551b-3f8b-41fd-bba1-d5956f036e8b",
+    "mainCategory": "Unique Weapons",
+    "title": "Paulson's revolver",
+    "subCategory": "Small Guns",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "d26fd700-80a0-4c50-b180-41f42f8d9e9c",
+    "mainCategory": "Unique Weapons",
+    "title": "Perforator",
+    "subCategory": "Small Guns",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "d5ac18b1-0814-4e62-89f5-142be14bfb3b",
+    "mainCategory": "Unique Weapons",
+    "title": "Reservist's rifle",
+    "subCategory": "Small Guns",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+
+  {
+    "id": "35ff855e-d4f4-4b3f-b08a-0d2a5c96a57a",
+    "mainCategory": "Unique Weapons",
+    "title": "Sydney's 10mm \"Ultra\" SMG",
+    "subCategory": "Small Guns",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "62d1b6d7-062c-4e59-aa48-0b0646057322",
+    "mainCategory": "Unique Weapons",
+    "title": "The Kneecapper",
+    "subCategory": "Small Guns",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "89272a1d-7c69-4415-8695-28029028be13",
+    "mainCategory": "Unique Weapons",
+    "title": "The Terrible Shotgun",
+    "subCategory": "Small Guns",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "7e6c6df8-013a-4a35-af5b-dc7e99ef6c0c",
+    "mainCategory": "Unique Weapons",
+    "title": "Victory rifle",
+    "subCategory": "Small Guns",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "f92cbda8-3c41-4a39-a3f8-d7a3a01795e3",
+    "mainCategory": "Unique Weapons",
+    "title": "Wild Bill's Sidearm",
+    "subCategory": "Small Guns",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "2cd7b6f4-d843-4874-b93f-ebc3ac0fd32c",
+    "mainCategory": "Unique Weapons",
+    "title": "Xuanlong assault rifle",
+    "subCategory": "Small Guns",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "e07d1f71-c025-4e71-b2a1-1f80ac1d1a04",
+    "mainCategory": "Unique Weapons",
+    "title": "Zhu-Rong v418 Chinese pistol",
+    "subCategory": "Small Guns",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+
+  {
+    "id": "77e93450-4851-4b53-ba6c-d79231fb70f5",
+    "mainCategory": "Unique Weapons",
+    "title": "Eugene",
+    "subCategory": "Big Guns",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "d154d723-787b-4c41-bf41-c1d69a92634b",
+    "mainCategory": "Unique Weapons",
+    "title": "Burnmaster",
+    "subCategory": "Big Guns",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "ebcf49b4-f18a-4baf-b6c0-0adec31b5a7e",
+    "mainCategory": "Unique Weapons",
+    "title": "Drone cannon Ex-B",
+    "subCategory": "Big Guns",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "332ec559-62af-40de-b3c1-903e741f72c2",
+    "mainCategory": "Unique Weapons",
+    "title": "Experimental MIRV",
+    "subCategory": "Big Guns",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "f42031e7-e646-4ccf-ba1c-86ba37006a8e",
+    "mainCategory": "Unique Weapons",
+    "title": "Miss Launcher",
+    "subCategory": "Big Guns",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "3b458b8e-3b7f-42cb-ba83-73cc3353bc94",
+    "mainCategory": "Unique Weapons",
+    "title": "Precision Gatling laser",
+    "subCategory": "Big Guns",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "08dc3d90-df1f-4f94-b198-d1e3d6df166f",
+    "mainCategory": "Unique Weapons",
+    "title": "Rapid-torch flamer",
+    "subCategory": "Big Guns",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "a71dd0f6-3b47-4f54-bc51-9f70bc0901d4",
+    "mainCategory": "Unique Weapons",
+    "title": "Slo-burn flamer",
+    "subCategory": "Big Guns",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "91fd46c7-2c44-4da5-a51f-93d3fc310190",
+    "mainCategory": "Unique Weapons",
+    "title": "Vengeance",
+    "subCategory": "Big Guns",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+
+  {
+    "id": "83c0ae07-3d2c-4c0a-8337-2aa72c676b20",
+    "mainCategory": "Unique Weapons",
+    "title": "A3-21's plasma rifle",
+    "subCategory": "Energy Weapons",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "5798f5a0-6d26-4820-b08d-cf4bc6600f71",
+    "mainCategory": "Unique Weapons",
+    "title": "Atomic pulverizer",
+    "subCategory": "Energy Weapons",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "d132c761-1a1a-4d8c-b7d8-601b1dcb6326",
+    "mainCategory": "Unique Weapons",
+    "title": "Captain's Sidearm",
+    "subCategory": "Energy Weapons",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "6b57a63b-64e3-4e1e-8b8e-44d54e8c87c0",
+    "mainCategory": "Unique Weapons",
+    "title": "Colonel Autumn's laser pistol",
+    "subCategory": "Energy Weapons",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "d4423425-037d-46ad-852e-94d4d4d0a5b4",
+    "mainCategory": "Unique Weapons",
+    "title": "Destabilizer",
+    "subCategory": "Energy Weapons",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "a3e1ff65-358b-4b96-b199-6a194c764d46",
+    "mainCategory": "Unique Weapons",
+    "title": "Firelance",
+    "subCategory": "Energy Weapons",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "ecdd1a2c-0db0-42f2-bc97-2e3e203df7cf",
+    "mainCategory": "Unique Weapons",
+    "title": "Gauss rifle",
+    "subCategory": "Energy Weapons",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "84973f71-06ec-48c1-b9d7-cd4e2f1de335",
+    "mainCategory": "Unique Weapons",
+    "title": "Metal Blaster",
+    "subCategory": "Energy Weapons",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "497d9cd0-888d-4f3b-9404-62d22f292ede",
+    "mainCategory": "Unique Weapons",
+    "title": "Mesmetron",
+    "subCategory": "Energy Weapons",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "6a951af3-58c4-4b85-8970-bb1fbc8d4e13",
+    "mainCategory": "Unique Weapons",
+    "title": "Microwave emitter",
+    "subCategory": "Energy Weapons",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "c1b79ec8-4811-4c5b-8b3e-f5a9439e63a7",
+    "mainCategory": "Unique Weapons",
+    "title": "MPLX Novasurge",
+    "subCategory": "Energy Weapons",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "f85c18b1-22f2-4f0b-a4b1-9506c4c571fc",
+    "mainCategory": "Unique Weapons",
+    "title": "Protectron's Gaze",
+    "subCategory": "Energy Weapons",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "7ae4965e-84b2-4e2f-a462-2c260d7d3d02",
+    "mainCategory": "Unique Weapons",
+    "title": "Smuggler's End",
+    "subCategory": "Energy Weapons",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  },
+  {
+    "id": "f8e25836-19db-41e1-b9cf-0fc44648b7a4",
+    "mainCategory": "Unique Weapons",
+    "title": "Wazer Wifle",
+    "subCategory": "Energy Weapons",
+    "prerequisite": "",
+    "dlc": "None",
+    "subCategoryType": ""
+  }
+]
