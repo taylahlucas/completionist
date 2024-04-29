@@ -125,6 +125,25 @@ can you convert the following Fallout 3 Miscellaneous to the following json data
   },
 
 
+can you convert the following Fallout 3 Locations to the following json data, replacing id with a uniquely generated uuid:
+
+{
+	"id":  <generated_uuid>,
+	"title": <quest title>
+	"subCategory": "Washington, D.C,
+	"subCategoryType": "Arlington Cemetery District"
+	"dlc": "None",
+	"mainCategory": "Main"
+},
+
+// Up to Potomac River - Washington D.C.
+
+// https://fallout.fandom.com/wiki/Fallout_4_locations
+
+// https://fallout.fandom.com/wiki/Fallout_3_locations
+
+
+
 
 // https://game8.co/games/Hogwarts-Legacy/archives/403791#hl_1
 
