@@ -20,8 +20,7 @@ const AccountVerification = () => {
 	useEffect(() => {
 		console.log("IS VALID: ", isValid)
 	}, [isValid])
-
-	// TODO: Re-do translations for instructions2 and verifyAccount
+	
 	return (
 		<StandardLayout>
 			<NavigationHeader title={t('common:screens.verifyAccount')} leftAction='none' />

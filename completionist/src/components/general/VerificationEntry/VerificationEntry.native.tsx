@@ -32,7 +32,7 @@ const VerificationEntry = ({ token, setIsValid }: VerificationEntryProps) => {
 						inputStyle='verification'
 						onChangeText={(text) => {
 							setValue(value.concat(text));
-							if (currentIndex + 1 <= token.length) {
+							if (currentIndex + 1 <= token.length - 1) {
 								setCurrentIndex(currentIndex + 1);
 								inputRefs.current[currentIndex + 1]?.current?.focus()
 							}
@@ -48,9 +48,11 @@ const VerificationEntry = ({ token, setIsValid }: VerificationEntryProps) => {
 						}}
 						maxLength={1}
 						value={value[index]}
-						onReset={() => { }}
+						onReset={() => {}}
 						autoFocus={index === currentIndex}
-						inputMode='numeric'
+						onTouchStart={(): void => {
+							setCurrentIndex(index);
+						}}
 					/>
 				))}
 		</View>

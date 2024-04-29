@@ -1,6 +1,7 @@
 import React from 'react';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import { StandardLayoutContainer } from './StandardLayoutStyledComponents.native';
+import { View } from 'react-native';
 
 interface StandardLayoutProps {
   children: any;
@@ -11,7 +12,9 @@ const StandardLayout = ({ children }: StandardLayoutProps) => {
 
   return (
     <StandardLayoutContainer color={theme.black}>
-      {children}
+			<View style={{ padding: 8 }}>
+      	{children}
+			</View>
     </StandardLayoutContainer>
   );
 };

@@ -47,7 +47,6 @@ TODO:
 HEARTHFIRE QUESTS
 https://en.uesp.net/wiki/Category:Skyrim-Hearthfire-Quests
 
-
 Bandit Attack
 Build Your Own Home
 BYOH HouseFalkreath
@@ -66,10 +65,12 @@ Visit your new property in Falkreath hold
 Visit your new property in Hjaalmarch hold
 Visit your new property in The Pale hold
 
+// TODO: Update location items to have subCategoryType ???
+
+////
 
 Can you do the same for the following data:
 
-// TODO: Update location items to have subCategoryType
 
 Can you do the same thing for the following data:
 
@@ -85,7 +86,7 @@ can you convert the following Witcher 3 Locations to the following json data, re
 		"dlc": "Hearts Of Stone"
 	},
 
-can you convert the following Hogwarts Legacy Quests to the following json data, replacing id with a uniquely generated uuid:
+can you convert the following Fallout 3 Quests to the following json data, replacing id with a uniquely generated uuid:
 
 	{
 			"id": <generated_uuid>,
@@ -99,6 +100,9 @@ can you convert the following Hogwarts Legacy Quests to the following json data,
 			"href": "",
 			"conflictingIds": []
 	}
+
+
+	
 
 // https://game8.co/games/Hogwarts-Legacy/archives/403791#hl_1
 
