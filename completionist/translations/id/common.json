@@ -1,5 +1,5 @@
 {
-  "appTitle": "Penyelesaian.",
+  "appTitle": "Kompletionis.",
   "welcome": "Selamat datang",
   "continue": "Melanjutkan",
   "search": "Cari item...",
@@ -34,7 +34,13 @@
     "steamAchievements": "Prestasi Uap",
     "payments": "Pembayaran",
     "settings": "Pengaturan",
-    "accountDetails": "Detail akun"
+    "accountDetails": "Detail akun",
+    "verifyAccount": "Verifikasi akun anda"
+  },
+  "login": {
+    "instructions1": "Kata sandi setidaknya harus berisi:",
+    "instructions2": "\n\u2022 8 karakter \n\u2022 1 huruf besar\n\u2022 1 huruf kecil\n\u2022 1 nilai numerik",
+    "accountVerification": "Periksa email Anda dan masukkan kode verifikasi"
   },
   "selectGame": {
     "selectGameDesc1": "Dengan akun Gratis, Anda dapat memilih satu game per bulan untuk dilacak.",
@@ -67,7 +73,8 @@
   "sendRequest": {
     "subject": "Subjek",
     "writeRequest": "Tulis permintaan Anda di sini...",
-    "requestGameDesc": "Jangan ragu untuk meminta permainan, melaporkan bug, atau memberikan beberapa saran untuk meningkatkan aplikasi!"
+		"requestGameDesc": "Jangan ragu untuk meminta permainan, melaporkan bug, atau memberikan beberapa saran untuk meningkatkan aplikasi!",
+    "verifyAccount": "Halo,\nAnda baru saja membuat akun dengan Completionist.\nUntuk memverifikasi akun Anda, silakan masukkan kode berikut di aplikasi:\n\n{{code}}"
   },
   "settings": {
     "description": "Jangan ragu untuk meminta permainan, melaporkan bug, atau memberikan beberapa saran untuk meningkatkan aplikasi!",
@@ -97,14 +104,23 @@
   "errors": {
     "error": "Kesalahan",
     "pleaseRefreshApp": "Harap segarkan aplikasi",
-    "emailAlreadyExists": "Email sudah ada.",
+    "emailAlreadyExists": "Email sudah ada",
     "emailNotFound": "Email Tidak Ditemukan",
     "noEmailExists": "Emailnya tidak ada",
     "checkCredentials": "Silakan periksa kredensial Anda dan coba lagi.",
     "incorrectPw": "Kata kunci Salah. ",
-    "googleSignIn": "Terjadi kesalahan saat Masuk dengan Google"
+    "googleSignIn": "Terjadi kesalahan saat Masuk dengan Google",
+    "googleSignInMsg": "Terjadi masalah saat mendapatkan info untuk akun Google ini.",
+    "accountExists": "Akun sudah ada",
+    "accountExistsMsg": "Apakah Anda ingin menghubungkan akun-akun ini?",
+    "permissionDenied": "Izin ditolak",
+    "permissionDeniedMsg": "Harap izinkan akses melalui pengaturan Steam Anda.",
+    "unauthorized": "Tidak sah",
+    "unauthorizedMsg": "Anda tidak sah untuk menggunakan akun ini. ",
+    "steamAchievements": "Tidak bisa mendapatkan pencapaian uap untuk game ini."
   },
   "alerts": {
+		"ok": "Oke",
     "activate": "Mengaktifkan",
     "cancel": "Membatalkan",
     "changesLeft": "Anda akan memiliki {{changesLeft}} mengubah{{s}} kiri.",

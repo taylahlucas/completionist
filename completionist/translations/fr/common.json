@@ -34,7 +34,13 @@
     "steamAchievements": "Succès Steam",
     "payments": "Paiement",
     "settings": "Paramètres",
-    "accountDetails": "Détails du compte"
+    "accountDetails": "Détails du compte",
+    "verifyAccount": "Vérifiez votre compte"
+  },
+  "login": {
+    "instructions1": "Le mot de passe doit contenir au moins :",
+		"instructions2": "\n\u2022 8 caractères \n\u2022 1 lettre Majuscule\n\u2022 1 lettre minuscule\n\u2022 1 valeur numérique",
+    "accountVerification": "Vérifiez vos e-mails et entrez le code de vérification"
   },
   "selectGame": {
     "selectGameDesc1": "Avec un compte gratuit, vous pouvez sélectionner un jeu par mois à suivre.",
@@ -67,7 +73,8 @@
   "sendRequest": {
     "subject": "Sujet",
     "writeRequest": "Écrivez votre demande ici...",
-    "requestGameDesc": "N'hésitez pas à demander un jeu, signaler un bug ou faire des suggestions pour améliorer l'application !"
+		"requestGameDesc": "N'hésitez pas à demander un jeu, signaler un bug ou faire des suggestions pour améliorer l'application !",
+    "verifyAccount": "Bonjour,\nVous avez récemment créé un compte chez Completionist.\nPour vérifier votre compte, veuillez saisir le code suivant dans l'application :\n\n{{code}}"
   },
   "settings": {
     "description": "N'hésitez pas à demander un jeu, signaler un bug ou faire des suggestions pour améliorer l'application !",
@@ -97,14 +104,23 @@
   "errors": {
     "error": "Erreur",
     "pleaseRefreshApp": "Veuillez actualiser l'application",
-    "emailAlreadyExists": "L'email existe déjà.",
+    "emailAlreadyExists":  "l'email existe déjà",
     "emailNotFound": "Email non trouvé",
-    "noEmailExists": "L'e-mail n'existe pas",
+    "noEmailExists": "L'e-mail n'existe pas","ok": "D'accord",
     "checkCredentials": "Veuillez vérifier vos informations d'identification et réessayer.",
     "incorrectPw": "Mot de passe incorrect. ",
-    "googleSignIn": "Erreur avec la connexion Google"
+    "googleSignIn": "Erreur avec la connexion Google",
+    "googleSignInMsg": "Problème pour obtenir des informations sur ce compte Google.",
+    "accountExists": "Le compte existe déjà",
+    "accountExistsMsg": "Souhaitez-vous lier ces comptes ?",
+    "permissionDenied": "Permission refusée",
+    "permissionDeniedMsg": "Veuillez autoriser l'accès via vos paramètres Steam.",
+    "unauthorized": "Non autorisé",
+    "unauthorizedMsg": "Vous n'êtes pas autorisé à utiliser ce compte. ",
+    "steamAchievements": "Impossible d'obtenir les succès Steam pour ce jeu."
   },
   "alerts": {
+		"ok": "D'accord",
     "activate": "Activer",
     "cancel": "Annuler",
     "changesLeft": "Tu vas avoir {{changesLeft}} changement{{s}} gauche.",

@@ -34,7 +34,13 @@
     "steamAchievements": "Steam の実績",
     "payments": "支払い",
     "settings": "設定",
-    "accountDetails": "アカウント詳細"
+    "accountDetails": "アカウント詳細",
+    "verifyAccount": "アカウントを確認する"
+  },
+  "login": {
+    "instructions1": "パスワードには少なくとも以下が含まれている必要があります:",
+    "instructions2": "\n\u2022 8文字\n\u2022 大文字1文字\n\u2022 小文字1文字\n\u2022 数値1つ",
+    "accountVerification": "メールを確認して確認コードを入力してください"
   },
   "selectGame": {
     "selectGameDesc1": "無料アカウントでは、毎月 1 つのゲームを選択して追跡できます。",
@@ -67,7 +73,8 @@
   "sendRequest": {
     "subject": "主題",
     "writeRequest": "ここにリクエストを書いてください...",
-    "requestGameDesc": "ゲームのリクエスト、バグの報告、アプリを改善するための提案など、お気軽にどうぞ！"
+		"requestGameDesc": "ゲームのリクエスト、バグの報告、アプリを改善するための提案など、お気軽にどうぞ！",
+    "verifyAccount": "こんにちは、\n最近Completionistでアカウントを作成しました。\nアカウントを確認するには、アプリケーションに次のコードを入力してください：\n\n{{code}}"
   },
   "settings": {
     "description": "ゲームのリクエスト、バグの報告、アプリを改善するための提案など、お気軽にどうぞ！",
@@ -97,14 +104,23 @@
   "errors": {
     "error": "エラー",
     "pleaseRefreshApp": "アプリを更新してください",
-    "emailAlreadyExists": "メールは既に存在します。",
+		"emailAlreadyExists": "メールは既に存在します",
     "emailNotFound": "メールが見つかりません",
     "noEmailExists": "電子メールが存在しません",
     "checkCredentials": "資格情報を確認して、再試行してください。",
     "incorrectPw": "パスワードが間違っています。",
-    "googleSignIn": "Googleサインインでのエラー"
+    "googleSignIn": "Googleサインインでのエラー",
+    "googleSignInMsg": "この Google アカウントの情報を取得する際に問題が発生しました。",
+    "accountExists": "アカウントはすでに存在しています",
+    "accountExistsMsg": "これらのアカウントをリンクしますか",
+    "permissionDenied": "許可が拒否されました",
+    "permissionDeniedMsg": "Steam 設定を通じてアクセスを許可してください。",
+    "unauthorized": "無許可",
+    "unauthorizedMsg": "このアカウントを使用する権限がありません。",
+    "steamAchievements": "このゲームの Steam 実績を取得できませんでした。"
   },
   "alerts": {
+		"ok": "わかりました",
     "activate": "活性化",
     "cancel": "キャンセル",
     "changesLeft": "あなたは持っています {{changesLeft}} 変化{{s}} 左。",

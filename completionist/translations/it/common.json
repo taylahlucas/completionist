@@ -34,7 +34,13 @@
     "steamAchievements": "Risultati di Steam",
     "payments": "Pagamento",
     "settings": "Impostazioni",
-    "accountDetails": "Dettagli account"
+    "accountDetails": "Dettagli account",
+    "verifyAccount": "Verifica il tuo account"
+  },
+  "login": {
+    "instructions1": "La password deve contenere almeno:",
+    "instructions2": "\n\u2022 8 caratteri \n\u2022 1 lettera maiuscola\n\u2022 1 lettera minuscola\n\u2022 1 valore numerico",
+    "accountVerification": "Controlla le tue email e inserisci il codice di verifica"
   },
   "selectGame": {
     "selectGameDesc1": "Con un account gratuito, puoi selezionare un gioco al mese da monitorare.",
@@ -67,7 +73,8 @@
   "sendRequest": {
     "subject": "Soggetto",
     "writeRequest": "Scrivi qui la tua richiesta...",
-    "requestGameDesc": "Sentiti libero di richiedere un gioco, segnalare un bug o dare qualche suggerimento per migliorare l'app!"
+    "requestGameDesc": "Sentiti libero di richiedere un gioco, segnalare un bug o dare qualche suggerimento per migliorare l'app!",
+    "verifyAccount": "Ciao,\nRecentemente hai creato un account con Completionist.\nPer verificare il tuo account, inserisci il seguente codice nell'applicazione:\n\n{{code}}"
   },
   "settings": {
     "description": "Sentiti libero di richiedere un gioco, segnalare un bug o dare qualche suggerimento per migliorare l'app!",
@@ -97,14 +104,23 @@
   "errors": {
     "error": "Errore",
     "pleaseRefreshApp": "Aggiorna l'app",
-    "emailAlreadyExists": "Email già esistente.",
+		"emailAlreadyExists": "Email già esistente",
     "emailNotFound": "E-mail non trovata",
     "noEmailExists": "L'e-mail non esiste",
     "checkCredentials": "Controlla le tue credenziali e riprova.",
     "incorrectPw": "Password errata. ",
-    "googleSignIn": "Errore con l'accesso a Google"
+    "googleSignIn": "Errore con l'accesso a Google",
+    "googleSignInMsg": "Problema nel reperire informazioni per questo account Google.",
+    "accountExists": "L'account esiste già",
+    "accountExistsMsg": "Desideri collegare questi account?",
+    "permissionDenied": "Permesso negato",
+    "permissionDeniedMsg": "Consenti l'accesso tramite le impostazioni di Steam.",
+    "unauthorized": "Non autorizzato",
+    "unauthorizedMsg": "Non sei autorizzato a utilizzare questo account. ",
+    "steamAchievements": "Impossibile ottenere risultati Steam per questo gioco."
   },
   "alerts": {
+		"ok": "OK",
     "activate": "Attivare",
     "cancel": "Annulla",
     "changesLeft": "Tu avrai {{changesLeft}} modifica{{s}} Sinistra.",
