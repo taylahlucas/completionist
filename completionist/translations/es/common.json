@@ -66,7 +66,7 @@
   },
   "sendRequest": {
     "subject": "Sujeto",
-    "writeRequest": "Escribe tu solicitud aquí...",
+    "writeRequest": "Escriba su solicitud aquí...",
     "requestGameDesc": "¡No dudes en solicitar un juego, informar un error o hacer algunas sugerencias para mejorar la aplicación!"
   },
   "settings": {
@@ -95,14 +95,14 @@
     "steamIdPlaceholder": "Identificacion de Steam"
   },
   "errors": {
-		"error": "Error",
-		"pleaseRefreshApp": "Por favor actualiza la aplicación",
-		"emailAlreadyExists": "El Email ya existe.",
-		"emailNotFound": "El correo electrónico no encontrado",
-		"noEmailExists": "El correo electrónico no existe.",
-		"checkCredentials": "Por favor verifique sus credenciales e inténtelo nuevamente.",
-		"incorrectPw": "Contraseña incorrecta. ",
-		"googleSignIn": "Error al iniciar sesión en Google"
+    "error": "Error",
+    "pleaseRefreshApp": "Por favor actualiza la aplicación",
+    "emailAlreadyExists": "El Email ya existe.",
+    "emailNotFound": "El correo electrónico no encontrado",
+    "noEmailExists": "El correo electrónico no existe.",
+    "checkCredentials": "Por favor verifique sus credenciales e inténtelo nuevamente.",
+    "incorrectPw": "Contraseña incorrecta. ",
+    "googleSignIn": "Error al iniciar sesión en Google"
   },
   "alerts": {
     "activate": "Activar",
@@ -125,5 +125,95 @@
     "tr": "turco",
     "vi": "vietnamita",
     "zh": "Chino"
+  },
+  "categories": {
+    "fallout4": {
+      "title": "consecuencias 4",
+      "categories": {
+        "quests": {
+          "mainQuests": "Misiones principales",
+          "factionQuests": "Misiones de facción",
+          "sideQuests": "Misiones secundarias"
+        },
+        "collectables": {
+          "bobbleheads": "muñecos",
+          "magazines": "Revistas",
+          "uniqueWeapons": "Armas únicas",
+          "uniqueArmor": "Armadura única",
+          "powerArmor": "Armadura de poder"
+        },
+        "locations": {
+          "main": "Principal"
+        },
+        "miscellaneous": {
+          "holotapes": "holocintas"
+        }
+      },
+      "dlc": {
+        "automatron": "autómata",
+        "farHarbor": "Puerto lejano",
+        "nukaWorld": "Nuka-Mundo",
+        "vaultTecWorkshop": "Taller Vault-Tec"
+      }
+    },
+    "skyrim": {
+      "title": "Skyrim",
+      "categories": {
+        "quests": {
+          "mainQuests": "Misiones principales",
+          "factionQuests": "Misiones de facción",
+          "civilWar": "Guerra civil",
+          "daedricQuests": "Misiones daédricas",
+          "dungeonQuests": "Misiones de mazmorra",
+          "miscellaneousQuests": "Misiones varias",
+          "bountyQuests": "Misiones de recompensa",
+          "globalQuests": "Misiones globales"
+        },
+        "collectables": {
+          "dragonPriestMasks": "Máscaras de sacerdote dragón",
+          "daedricArtefacts": "Artefactos daédricos",
+          "bugInAJar": "Error en un frasco",
+          "shouts": "Gritos",
+          "uniqueArmorSets": "Conjuntos de armaduras únicos",
+          "uniqueWeapons": "Armas únicas",
+          "shrines": "Santuarios",
+          "stones": "piedras"
+        },
+        "locations": {
+          "main": "Principal"
+        },
+        "miscellaneous": {
+          "books": "Libros",
+          "spellTomes": "Tomos de hechizos",
+          "journals": "Revistas"
+        }
+      },
+      "dlc": {
+        "dawnguard": "guardia del alba",
+        "dragonborn": "nacido de dragón",
+        "hearthfire": "fuego de hogar"
+      }
+    },
+    "witcher3": {
+      "title": "The Witcher 3: Caza salvaje",
+      "categories": {
+        "quests": {
+          "mainQuests": "Misiones principales",
+          "secondaryQuests": "Misiones secundarias",
+          "contracts": "Contratos",
+          "treasureHunts": "Búsqueda del tesoro"
+        },
+        "collectables": {
+          "diagrams": "Diagramas"
+        },
+        "locations": {
+          "main": "Principal"
+        }
+      },
+      "dlc": {
+        "bloodAndWine": "sangre y vino",
+        "heartsOfStone": "Corazones de piedra"
+      }
+    }
   }
 }

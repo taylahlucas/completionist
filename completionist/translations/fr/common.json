@@ -95,14 +95,14 @@
     "steamIdPlaceholder": "ID de vapeur"
   },
   "errors": {
-		"error": "Erreur",
-		"pleaseRefreshApp": "Veuillez actualiser l'application",
-		"emailAlreadyExists": "L'email existe déjà.",
-		"emailNotFound": "Email non trouvé",
-		"noEmailExists": "L'e-mail n'existe pas",
-		"checkCredentials": "Veuillez vérifier vos informations d'identification et réessayer.",
-		"incorrectPw": "Mot de passe incorrect. ",
-		"googleSignIn": "Erreur avec la connexion Google"
+    "error": "Erreur",
+    "pleaseRefreshApp": "Veuillez actualiser l'application",
+    "emailAlreadyExists": "L'email existe déjà.",
+    "emailNotFound": "Email non trouvé",
+    "noEmailExists": "L'e-mail n'existe pas",
+    "checkCredentials": "Veuillez vérifier vos informations d'identification et réessayer.",
+    "incorrectPw": "Mot de passe incorrect. ",
+    "googleSignIn": "Erreur avec la connexion Google"
   },
   "alerts": {
     "activate": "Activer",
@@ -125,5 +125,95 @@
     "tr": "turc",
     "vi": "vietnamien",
     "zh": "Chinois"
+  },
+  "categories": {
+    "fallout4": {
+      "title": "Fallout 4",
+      "categories": {
+        "quests": {
+          "mainQuests": "Quêtes principales",
+          "factionQuests": "Quêtes de faction",
+          "sideQuests": "Quêtes secondaires"
+        },
+        "collectables": {
+          "bobbleheads": "Figurines à pompons",
+          "magazines": "Les magazines",
+          "uniqueWeapons": "Armes uniques",
+          "uniqueArmor": "Armure unique",
+          "powerArmor": "Armure assistée"
+        },
+        "locations": {
+          "main": "Principal"
+        },
+        "miscellaneous": {
+          "holotapes": "Holobandes"
+        }
+      },
+      "dlc": {
+        "automatron": "Automatron",
+        "farHarbor": "Port lointain",
+        "nukaWorld": "Nuka-Monde",
+        "vaultTecWorkshop": "Atelier Vault-Tec"
+      }
+    },
+    "skyrim": {
+      "title": "Bordeciel",
+      "categories": {
+        "quests": {
+          "mainQuests": "Quêtes principales",
+          "factionQuests": "Quêtes de faction",
+          "civilWar": "Guerre civile",
+          "daedricQuests": "Quêtes Daedra",
+          "dungeonQuests": "Quêtes de donjon",
+          "miscellaneousQuests": "Quêtes diverses",
+          "bountyQuests": "Quêtes de prime",
+          "globalQuests": "Quêtes globales"
+        },
+        "collectables": {
+          "dragonPriestMasks": "Masques de prêtre dragon",
+          "daedricArtefacts": "Artefacts Daedra",
+          "bugInAJar": "Un bug dans un pot",
+          "shouts": "Des cris",
+          "uniqueArmorSets": "Ensembles d'armures uniques",
+          "uniqueWeapons": "Armes uniques",
+          "shrines": "Sanctuaires",
+          "stones": "Des pierres"
+        },
+        "locations": {
+          "main": "Principal"
+        },
+        "miscellaneous": {
+          "books": "Livres",
+          "spellTomes": "Tomes de sorts",
+          "journals": "Journaux"
+        }
+      },
+      "dlc": {
+        "dawnguard": "Garde-aube",
+        "dragonborn": "Enfant de dragon",
+        "hearthfire": "Feu de foyer"
+      }
+    },
+    "witcher3": {
+      "title": "The Witcher 3 : Chasse Sauvage",
+      "categories": {
+        "quests": {
+          "mainQuests": "Quêtes principales",
+          "secondaryQuests": "Quêtes secondaires",
+          "contracts": "Contrats",
+          "treasureHunts": "Chasses aux trésors"
+        },
+        "collectables": {
+          "diagrams": "Diagrammes"
+        },
+        "locations": {
+          "main": "Principal"
+        }
+      },
+      "dlc": {
+        "bloodAndWine": "Du sang et du vin",
+        "heartsOfStone": "Coeurs de pierre"
+      }
+    }
   }
 }
