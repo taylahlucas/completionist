@@ -1040,7 +1040,7 @@
     "section": "quests"
   },
   {
-    "id": "d02e1a7f-b876-4b76-9f2a-d594214f8a78",
+    "id": "d02c1a7f-b876-4b76-9f2a-d594214f8a78",
     "mainCategory": "ザ・ピット",
     "title": "奴隷スニッチ",
     "hold": "",
@@ -1053,7 +1053,7 @@
     "section": "quests"
   },
   {
-    "id": "d02e1a7f-b876-4b76-9f2a-d594214f8a78",
+    "id": "d02e1a7f-b876-4b76-9e2a-d594214f8a78",
     "mainCategory": "ザ・ピット",
     "title": "幼児向けのおもちゃ",
     "hold": "",
@@ -1313,7 +1313,7 @@
     "section": "quests"
   },
   {
-    "id": "c6e4860a-82cb-49ad-8035-9ee7f7871f29",
+    "id": "c6e486xa-82cb-49ad-8035-9ee7f7871f29",
     "mainCategory": "ポイント展望台",
     "title": "ベルベットのカーテン",
     "hold": "",
@@ -1365,7 +1365,7 @@
     "section": "quests"
   },
   {
-    "id": "6d3df0e2-ff70-4d23-b3e5-c62af54e5b0a",
+    "id": "6d3qf0e2-ff70-4d23-b3e5-c62af54e5b0a",
     "mainCategory": "母船ゼータ",
     "title": "この銀河は十分な大きさではありません...",
     "hold": "",
@@ -1391,7 +1391,7 @@
     "section": "quests"
   },
   {
-    "id": "2a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "id": "2a3b45c6-7d89-012e-fgh2-3456c8i9j05o",
     "mainCategory": "ボブルヘッド",
     "title": "ストレングスボブルヘッド",
     "subCategory": "特別。",
@@ -1461,7 +1461,7 @@
     "section": "collectables"
   },
   {
-    "id": "2a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "id": "2a3b45c6-7c89-012e-fgh2-345678i9j05o",
     "mainCategory": "ボブルヘッド",
     "title": "物々交換ボブルヘッド",
     "subCategory": "スキル",
@@ -1591,7 +1591,7 @@
     "section": "collectables"
   },
   {
-    "id": "2a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "id": "2aeb45c6-7d89-012e-fgh2-345678i9j05o",
     "mainCategory": "ユニークな鎧",
     "title": "ボムシェルアーマー",
     "subCategory": "鎧",
@@ -1661,7 +1661,7 @@
     "section": "collectables"
   },
   {
-    "id": "2a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "id": "2a3b4qc6-7d89-012e-fgh2-345678i9j05q",
     "mainCategory": "ユニークな鎧",
     "title": "ブギーマンのフード",
     "subCategory": "帽子",
@@ -1851,7 +1851,7 @@
     "section": "collectables"
   },
   {
-    "id": "2a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "id": "2a3b45c6-7d89-01ce-fgh2-345678i9j05o",
     "mainCategory": "ユニークな鎧",
     "title": "アーマード Vault 101 ジャンプスーツ",
     "subCategory": "ジャンプスーツ",
@@ -1901,7 +1901,7 @@
     "section": "collectables"
   },
   {
-    "id": "2a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "id": "ca3b45c6-7d89-012e-fgh2-345678i9j05o",
     "mainCategory": "ユニークな鎧",
     "title": "お父さんのウェイストランド衣装",
     "subCategory": "服装",
@@ -1981,7 +1981,7 @@
     "section": "collectables"
   },
   {
-    "id": "2a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "id": "2a3b45c6-7d89-012e-hgh2-345678i9j05o",
     "mainCategory": "ユニークな鎧",
     "title": "アッシュールのパワーアーマー",
     "subCategory": "パワーアーマー",
@@ -2041,7 +2041,7 @@
     "section": "collectables"
   },
   {
-    "id": "2a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "id": "2a3b45c6-7d89-h12e-fgh2-345678i9j05o",
     "mainCategory": "ユニークな鎧",
     "title": "万能サイエンススーツ",
     "subCategory": "スーツ",
@@ -2101,7 +2101,7 @@
     "section": "collectables"
   },
   {
-    "id": "2a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "id": "2a3b4hc6-7d89-012e-fgh2-345678i9j05o",
     "mainCategory": "ユニークな鎧",
     "title": "オータム大佐の制服",
     "subCategory": "制服",
@@ -2131,7 +2131,7 @@
     "section": "collectables"
   },
   {
-    "id": "2a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "id": "2a3b45c6-7q89-012e-fgh2-345678i9j05o",
     "mainCategory": "ユニークな鎧",
     "title": "徹夜用ナイトウェア",
     "subCategory": "その他",
@@ -2261,7 +2261,7 @@
     "section": "collectables"
   },
   {
-    "id": "2a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "id": "2a3b45c6-7d89-012e-fgh2-345c78i9j05q",
     "mainCategory": "ユニークな武器",
     "title": "フィスト！",
     "subCategory": "非武装の武器",
@@ -2271,7 +2271,7 @@
     "section": "collectables"
   },
   {
-    "id": "9a15b3b7-96fc-4620-bb1a-5f8a1b39824b",
+    "id": "9a15bdb7-96fc-4620-bb1a-5f8a1b39824b",
     "mainCategory": "ユニークな武器",
     "title": "プランケットの有効ポイント",
     "subCategory": "非武装の武器",
@@ -2281,7 +2281,7 @@
     "section": "collectables"
   },
   {
-    "id": "b203a116-1e05-4f4f-856f-981422baf9bc",
+    "id": "b203a116-1el5-4f4f-856f-981422baf9bc",
     "mainCategory": "ザ・ピット",
     "title": "スチールナックル",
     "subCategory": "ユニークな武器",
@@ -2291,7 +2291,7 @@
     "section": "collectables"
   },
   {
-    "id": "cf9495f1-0c29-4be7-8911-261fb7f71b07",
+    "id": "cf94c5f1-0c29-4be7-8911-261fb7f71b07",
     "mainCategory": "ユニークな武器",
     "title": "ショッカー",
     "subCategory": "非武装の武器",
@@ -2301,7 +2301,7 @@
     "section": "collectables"
   },
   {
-    "id": "2a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "id": "2a3b45c6-7d89-012e-fgh2-34567qi9j05o",
     "mainCategory": "ユニークな武器",
     "title": "アリの一刺し",
     "subCategory": "近接武器",
@@ -2331,7 +2331,7 @@
     "section": "collectables"
   },
   {
-    "id": "cf9495f1-0c29-4be7-8911-261fb7f71b07",
+    "id": "cf9495f1-0c29-4be7-8911-261fb7f71p07",
     "mainCategory": "母船ゼータ",
     "title": "エレクトロサプレッサー",
     "subCategory": "ユニークな武器",
@@ -2341,7 +2341,7 @@
     "section": "collectables"
   },
   {
-    "id": "cf9495f1-0c29-4be7-8911-261fb7f71b07",
+    "id": "cf9495f1-0c29-4be7-8p11-261fb7f71b07",
     "mainCategory": "ユニークな武器",
     "title": "フォークスのスーパースレッジ",
     "subCategory": "近接武器",
@@ -2351,7 +2351,7 @@
     "section": "collectables"
   },
   {
-    "id": "cf9495f1-0c29-4be7-8911-261fb7f71b07",
+    "id": "cf9495f1-0c29-4pe7-8911-261fb7f71b07",
     "mainCategory": "ポイント展望台",
     "title": "肥料シャベル",
     "subCategory": "ユニークな武器",
@@ -2361,7 +2361,7 @@
     "section": "collectables"
   },
   {
-    "id": "cf9495f1-0c29-4be7-8911-261fb7f71b07",
+    "id": "cf9495k1-0c29-4be7-8911-261fb7f71b07",
     "mainCategory": "ユニークな武器",
     "title": "ハイウェイマンの友人",
     "subCategory": "近接武器",
@@ -2371,7 +2371,7 @@
     "section": "collectables"
   },
   {
-    "id": "cf9495f1-0c29-4be7-8911-261fb7f71b07",
+    "id": "cf9495f1-0k29-4be7-8911-261fb7f71b07",
     "mainCategory": "ユニークな武器",
     "title": "ジャック",
     "subCategory": "近接武器",
@@ -2391,7 +2391,7 @@
     "section": "collectables"
   },
   {
-    "id": "2a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "id": "2a3b45c6-7d89-0q2e-fgh2-345678i9j05o",
     "mainCategory": "ザ・ピット",
     "title": "マンオープナー",
     "subCategory": "ユニークな武器",
@@ -3769,7 +3769,7 @@
     "section": "locations"
   },
   {
-    "id": "d615aaf1-59b4-4efb-bce6-705c5a5f12b6",
+    "id": "d615aaq1-59b4-4efb-bce6-705c5a5f12b6",
     "title": "衛星中継局",
     "subCategory": "キャピタル・ウェイストランド",
     "dlc": "壊れた鋼鉄",
@@ -3777,7 +3777,7 @@
     "section": "locations"
   },
   {
-    "id": "d615aaf1-59b4-4efb-bce6-705c5a5f12b6",
+    "id": "d615aaf1-59b4-4eqb-bce6-705c5a5f12b6",
     "title": "電波塔",
     "subCategory": "キャピタル・ウェイストランド",
     "dlc": "ザ・ピット",
@@ -3785,7 +3785,7 @@
     "section": "locations"
   },
   {
-    "id": "e56fb08a-2bb1-463f-8400-56bf53035210",
+    "id": "e56fb08c-2bb1-463f-8400-56bf53035210",
     "title": "アナコスティア地区",
     "subCategory": "ワシントンDC",
     "subCategoryType": "アナコスティア地区",
@@ -3830,7 +3830,7 @@
     "section": "locations"
   },
   {
-    "id": "ee9f8e1f-1e2b-21e4-4f07-1c3b5a9a68e4",
+    "id": "eq9f8e1f-1e2b-21e4-4f07-1c3b5a9a68e4",
     "title": "ベイリーズ クロスローズ地区",
     "subCategory": "ワシントンDC",
     "subCategoryType": "ベイリーズ クロスローズ地区",
@@ -3875,7 +3875,7 @@
     "section": "locations"
   },
   {
-    "id": "ee9f8e1f-de2b-41e4-4f0c-1c3b5a9a68e4",
+    "id": "ee9f8e1f-de2b-41g4-4f0c-1c3b5a9a68e4",
     "title": "デュポン サークル地区",
     "subCategory": "ワシントンDC",
     "subCategoryType": "デュポン サークル地区",
@@ -3884,7 +3884,7 @@
     "section": "locations"
   },
   {
-    "id": "ee9f8e1f-de2b-41e4-4f0c-1c3b5a9a68e4",
+    "id": "ee9f8e1f-de2b-41e4-4f0c-1c3b5a9a6ce4",
     "title": "フォールズチャーチ地区",
     "subCategory": "ワシントンDC",
     "subCategoryType": "フォールズチャーチ地区",
@@ -3929,7 +3929,7 @@
     "section": "locations"
   },
   {
-    "id": "4e9f8e1f-de2b-41e4-4f07-1c3b5a9a68e4",
+    "id": "4e9f8e1f-de2b-d1e4-4f07-1c3b5a9a68e4",
     "title": "ペンシルバニアアベニュー地区",
     "subCategory": "ワシントンDC",
     "subCategoryType": "ペンシルバニアアベニュー地区",
@@ -3938,7 +3938,7 @@
     "section": "locations"
   },
   {
-    "id": "4e9f8e1f-de2b-41e4-4f07-1c3b5a9a68e4",
+    "id": "4e9f8e1f-de2b-41e4-4f07-1c3b5a9a68w4",
     "title": "ホワイトハウス",
     "subCategory": "ワシントンDC",
     "subCategoryType": "ペンシルバニアアベニュー地区",
@@ -3956,7 +3956,7 @@
     "section": "locations"
   },
   {
-    "id": "31d1b5f0-8932-4e3c-b9c5-6fcb1c028402",
+    "id": "31d1b5fc-8932-4e3c-b9c5-6fcb1c028402",
     "title": "ポトマック川",
     "subCategory": "ワシントンDC",
     "subCategoryType": "ポトマック川",
@@ -3965,7 +3965,7 @@
     "section": "locations"
   },
   {
-    "id": "31d1b5f0-8932-4e3c-b9c5-6fcb1c028402",
+    "id": "31d1b5f0-8932-4e3c-b9c5-6fcw1c028402",
     "title": "アレクサンドリア アームズ",
     "subCategory": "ワシントンDC",
     "subCategoryType": "ポトマック川",
@@ -4028,7 +4028,7 @@
     "section": "locations"
   },
   {
-    "id": "4b535a44-d7cf-4624-8a21-d4b7a0f4b38e",
+    "id": "4b535a44-d7cf-4604-8a21-d4b7a0f4b38e",
     "title": "スワード スクエア ディストリクト",
     "subCategory": "ワシントンDC",
     "subCategoryType": "スワード スクエア ディストリクト",
@@ -4055,7 +4055,7 @@
     "section": "locations"
   },
   {
-    "id": "n875c74e-71fd-4ae6-835d-20a2d6e7a5b5",
+    "id": "n875c74e-71fd-pae6-835d-20a2d6e7a5b5",
     "title": "タコマパーク地区",
     "subCategory": "ワシントンDC",
     "subCategoryType": "タコマパーク地区",
@@ -4227,7 +4227,7 @@
   },
   {
     "id": "b60c8d4b-9f36-4b78-a17f-37cf4289c56b",
-    "title": "ベセスダアンダーワークス",
+    "title": "ベセスダのアンダーワークス",
     "subCategory": "メトロ",
     "subCategoryType": "",
     "dlc": "なし",
@@ -4380,7 +4380,7 @@
   },
   {
     "id": "35c57d8d-f327-4bb5-b299-5c9785a72c67",
-    "title": "ジュリー ストリートのトンネル",
+    "title": "ジュリー ストリート トンネル",
     "subCategory": "メトロ",
     "subCategoryType": "",
     "dlc": "なし",
@@ -4811,7 +4811,7 @@
     "section": "locations"
   },
   {
-    "id": "b69a1a38-6e8d-4397-9f99-86087e2588f0",
+    "id": "b69a1a38-6eod-4397-9f99-86087e2588f0",
     "title": "アップタウン",
     "subCategory": "アップタウン",
     "subCategoryType": "",
@@ -4974,7 +4974,7 @@
   },
   {
     "id": "56b7127b-9a49-44c8-89b1-1a6d62b95e4d",
-    "title": "マルグリットの小屋",
+    "title": "マーガレットの小屋",
     "subCategory": "",
     "subCategoryType": "",
     "dlc": "ポイント展望台",
@@ -4982,7 +4982,7 @@
     "section": "locations"
   },
   {
-    "id": "40c376f8-9fd2-4376-973b-7a97107591f4",
+    "id": "40cq76f8-9fd2-4376-973b-7a97107591f4",
     "title": "オフィ一族の陰謀",
     "subCategory": "",
     "subCategoryType": "",
@@ -5612,7 +5612,7 @@
   {
     "id": "3f0f7169-0d2d-434f-bfb1-b4c1b5fb9539",
     "mainCategory": "ホロテープ",
-    "title": "ハイウォータートラウザーのアクティベーションコード",
+    "title": "ハイウォーター トラウザーズ アクティベーション コード",
     "dlc": "なし",
     "subCategory": "",
     "section": "miscellaneous"
@@ -5858,7 +5858,7 @@
     "section": "miscellaneous"
   },
   {
-    "id": "5f417b32-86b5-4b37-aa8f-bb5b6ae98e17",
+    "id": "5f417b32-86b5-4b37-aa8f-bb4b6ae98e17",
     "mainCategory": "ホロテープ",
     "title": "メルクの命令",
     "dlc": "なし",
@@ -5866,7 +5866,7 @@
     "section": "miscellaneous"
   },
   {
-    "id": "88f53d55-700d-47d3-9a5b-4e10a9c30fc8",
+    "id": "88f53d5s-700d-47d3-9a5b-4e10a9c30fc8",
     "mainCategory": "ホロテープ",
     "title": "Mesmetron マニュアル - 概要ページ",
     "dlc": "なし",
@@ -5882,7 +5882,7 @@
     "section": "miscellaneous"
   },
   {
-    "id": "ed20077a-062a-4919-86a2-d57e7bfdf01b",
+    "id": "ed20077a-062a-49f9-86a2-d57e7bfdf01b",
     "mainCategory": "ホロテープ",
     "title": "モイラの端末パスワード",
     "dlc": "なし",
@@ -5898,7 +5898,7 @@
     "section": "miscellaneous"
   },
   {
-    "id": "4dd424f1-f43e-4865-8371-79a8a41f15d8",
+    "id": "4dd424f1-f43e-4865-8371-79a8a41f15dg",
     "mainCategory": "ホロテープ",
     "title": "私の日記、ジェイソン・グラント著 -- エントリー 2",
     "dlc": "なし",
@@ -5922,7 +5922,7 @@
     "section": "miscellaneous"
   },
   {
-    "id": "fe1467c1-78e3-4aa5-85b7-03271d462e1e",
+    "id": "fe1467c1-78eq-4aa5-85b7-03271d462e1e",
     "mainCategory": "ホロテープ",
     "title": "図書館員へのメモ",
     "dlc": "なし",
@@ -5954,7 +5954,7 @@
     "section": "miscellaneous"
   },
   {
-    "id": "c9718a25-29ff-4a46-a0a5-eb9a6478020b",
+    "id": "ce718a25-29ff-4a46-a0a5-eb9a6478020b",
     "mainCategory": "ホロテープ",
     "title": "メトロコンピュータのパスワード",
     "dlc": "なし",
@@ -5970,7 +5970,7 @@
     "section": "miscellaneous"
   },
   {
-    "id": "b7e3fe6c-2b2e-4d6f-bf38-9252d6d238a5",
+    "id": "b7e3fe6c-2b2e-4dgf-bf38-9252d6d238a5",
     "mainCategory": "ホロテープ",
     "title": "私の日記、ジェイソン・グラント著 -- エントリー 1",
     "dlc": "なし",
@@ -5986,7 +5986,7 @@
     "section": "miscellaneous"
   },
   {
-    "id": "b7b3283d-b780-4d4a-b6a6-df10e90ffaa6",
+    "id": "b7b3283d-b780-4d4a-b6a6-dfc0e90ffaa6",
     "mainCategory": "ホロテープ",
     "title": "テッドへのメモ",
     "dlc": "なし",
@@ -5994,7 +5994,7 @@
     "section": "miscellaneous"
   },
   {
-    "id": "22e3ae2e-0c41-42b3-b2b3-56f6d4e42613",
+    "id": "22h3ae2e-0c41-42b3-b2b3-56f6d4e42613",
     "mainCategory": "ホロテープ",
     "title": "お父さんからのメモ",
     "dlc": "なし",
@@ -6010,7 +6010,7 @@
     "section": "miscellaneous"
   },
   {
-    "id": "5d17ee0f-f501-49c8-91ae-6b3b159a2e36",
+    "id": "5d17ge0f-f501-49c8-91ae-6b3b159a2e36",
     "mainCategory": "ホロテープ",
     "title": "オアシス座標",
     "dlc": "なし",
@@ -6252,7 +6252,7 @@
   {
     "id": "a76f2b24-fb20-4f1f-a04b-9c58311ed258",
     "mainCategory": "ホロテープ",
-    "title": "Satcom アレイ NN-03d 座標",
+    "title": "Satcom Array NN-03d 座標",
     "dlc": "なし",
     "subCategory": "",
     "section": "miscellaneous"
@@ -6260,7 +6260,7 @@
   {
     "id": "f231c4e5-6251-496d-b7f5-df3d4b0669d2",
     "mainCategory": "ホロテープ",
-    "title": "衛星通信アレイ NW-07c の座標",
+    "title": "Satcom アレイ NW-07c の座標",
     "dlc": "なし",
     "subCategory": "",
     "section": "miscellaneous"
@@ -6556,7 +6556,7 @@
   {
     "id": "fcfb9eae-23a2-40e0-9055-c3279a4bc12f",
     "mainCategory": "ピッツ",
-    "title": "日記 2: 災難",
+    "title": "日記 2: 大惨事",
     "dlc": "ピッツ",
     "subCategory": "ホロテープ",
     "section": "miscellaneous"
@@ -6620,7 +6620,7 @@
   {
     "id": "8f08b98a-8c22-466b-ba77-c791ac9385e6",
     "mainCategory": "壊れた鋼鉄",
-    "title": "セクター 1 の砲撃音",
+    "title": "セクター 1 の砲撃音符",
     "dlc": "壊れた鋼鉄",
     "subCategory": "ホロテープ",
     "section": "miscellaneous"
@@ -6628,7 +6628,7 @@
   {
     "id": "84dd8b2f-21d8-4418-b155-fb6b101b68bb",
     "mainCategory": "壊れた鋼鉄",
-    "title": "セクター 2 の砲撃音符",
+    "title": "セクター 2 の砲撃音",
     "dlc": "壊れた鋼鉄",
     "subCategory": "ホロテープ",
     "section": "miscellaneous"
@@ -6812,7 +6812,7 @@
   {
     "id": "39b31957-4e7b-4df1-bfef-7e1e812066e5",
     "mainCategory": "母船ゼータ",
-    "title": "エイリアン捕虜記録ログ 4",
+    "title": "エイリアン捕虜の記録ログ 4",
     "dlc": "母船ゼータ",
     "subCategory": "ホロテープ",
     "section": "miscellaneous"
@@ -6892,7 +6892,7 @@
   {
     "id": "67ed8345-6226-4900-aae2-7cb5dd06c8f6",
     "mainCategory": "母船ゼータ",
-    "title": "エイリアン捕虜の記録ログ 14",
+    "title": "エイリアン捕虜記録ログ 14",
     "dlc": "母船ゼータ",
     "subCategory": "ホロテープ",
     "section": "miscellaneous"
@@ -7452,7 +7452,7 @@
   {
     "id": "8d529c6f-faa8-48ae-b035-1e18f3601c6d",
     "mainCategory": "ノート",
-    "title": "ミシシッピ・クアンタム・パイのレシピ",
+    "title": "ミシシッピ クアンタム パイのレシピ",
     "dlc": "なし",
     "subCategory": "",
     "section": "miscellaneous"
@@ -7956,7 +7956,7 @@
   {
     "id": "6e89c21a-0508-4ff0-8490-dfa05d5d42df",
     "mainCategory": "ピッツ",
-    "title": "工場用の鋼材",
+    "title": "工場用鋼材",
     "dlc": "ピッツ",
     "subCategory": "ノート",
     "section": "miscellaneous"
@@ -7972,7 +7972,7 @@
   {
     "id": "3a0a15a3-1964-4fd4-a5a4-eb946ee2a0a7",
     "mainCategory": "ピッツ",
-    "title": "マリーのおもちゃ募集（サンドラ版）",
+    "title": "マリーのために欲しいおもちゃ（サンドラバージョン）",
     "dlc": "ピッツ",
     "subCategory": "ノート",
     "section": "miscellaneous"
@@ -8172,7 +8172,7 @@
   {
     "id": "759e17d2-5df0-4de7-8399-5851c4c4a319",
     "mainCategory": "スキルブック",
-    "title": "懲罰主義の図解",
+    "title": "懲罰的なイラスト",
     "dlc": "なし",
     "subCategory": "",
     "section": "miscellaneous"

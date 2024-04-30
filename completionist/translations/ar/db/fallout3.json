@@ -654,7 +654,7 @@
     "mainCategory": "مهام غير محددة",
     "title": "مطاردة العبيد",
     "hold": "",
-    "dlc": "لا شيء",
+    "dlc": "لا أحد",
     "subCategory": "",
     "subCategoryType": "",
     "location": "مدينة برشام",
@@ -2264,7 +2264,7 @@
     "id": "2a3b45c6-7d89-012e-fgh2-345678i9j05o",
     "mainCategory": "أسلحة فريدة من نوعها",
     "title": "فيستو!",
-    "subCategory": "الأسلحة غير المسلحة",
+    "subCategory": "أسلحة غير مسلحة",
     "prerequisite": "",
     "dlc": "لا أحد",
     "subCategoryType": "",
@@ -2274,7 +2274,7 @@
     "id": "9a15b3b7-96fc-4620-bb1a-5f8a1b39824b",
     "mainCategory": "أسلحة فريدة من نوعها",
     "title": "نقاط بلونكيت الصحيحة",
-    "subCategory": "الأسلحة غير المسلحة",
+    "subCategory": "أسلحة غير مسلحة",
     "prerequisite": "",
     "dlc": "لا أحد",
     "subCategoryType": "",
@@ -2287,14 +2287,14 @@
     "subCategory": "أسلحة فريدة من نوعها",
     "prerequisite": "",
     "dlc": "البيت",
-    "subCategoryType": "الأسلحة غير المسلحة",
+    "subCategoryType": "أسلحة غير مسلحة",
     "section": "collectables"
   },
   {
     "id": "cf9495f1-0c29-4be7-8911-261fb7f71b07",
     "mainCategory": "أسلحة فريدة من نوعها",
     "title": "والمفزع",
-    "subCategory": "الأسلحة غير المسلحة",
+    "subCategory": "أسلحة غير مسلحة",
     "prerequisite": "",
     "dlc": "لا أحد",
     "subCategoryType": "",
@@ -2883,7 +2883,7 @@
   {
     "id": "c1b79ec8-4811-4c5b-8b3e-f5a9439e63a7",
     "mainCategory": "الأم زيتا",
-    "title": "MPLX نوفاسيرج",
+    "title": "MPLX نوفاسورج",
     "subCategory": "أسلحة فريدة من نوعها",
     "prerequisite": "",
     "dlc": "الأم زيتا",
@@ -4178,7 +4178,7 @@
     "subCategoryType": "نهر بوتوماك",
     "dlc": "نقطة مراقبة",
     "mainCategory": "نقطة مراقبة",
-    "section": "collectables"
+    "section": "locations"
   },
   {
     "id": "e7e0f5f0-c7h5-4c29-8c6e-032d31d40d46",
@@ -6140,7 +6140,7 @@
   {
     "id": "ddc0c456-2788-4e42-8316-05f865eaa8ac",
     "mainCategory": "هولوتابس",
-    "title": "مجلة مشروع الطهارة الشخصية: الإدخال 3",
+    "title": "مجلة الطهارة الشخصية للمشروع: الإدخال 3",
     "dlc": "لا أحد",
     "subCategory": "",
     "section": "miscellaneous"

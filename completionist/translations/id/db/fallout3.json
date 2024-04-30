@@ -4029,9 +4029,9 @@
   },
   {
     "id": "4b535a44-d7cf-4624-8a21-d4b7a0f4b38e",
-    "title": "Distrik Seward Square",
+    "title": "Distrik Alun-Alun Seward",
     "subCategory": "Washington DC",
-    "subCategoryType": "Distrik Seward Square",
+    "subCategoryType": "Distrik Alun-Alun Seward",
     "dlc": "Tidak ada",
     "mainCategory": "Utama",
     "section": "locations"
@@ -4040,7 +4040,7 @@
     "id": "4b535a44-d7cf-4624-8a21-d4b7a0f4b38e",
     "title": "Kompleks Penjaga Hutan",
     "subCategory": "Washington DC",
-    "subCategoryType": "Distrik Seward Square",
+    "subCategoryType": "Distrik Alun-Alun Seward",
     "dlc": "Tidak ada",
     "mainCategory": "Utama",
     "section": "locations"
@@ -4049,7 +4049,7 @@
     "id": "b875c74e-71fd-4ae6-835d-20a2d6e7a5b5",
     "title": "Gedung Capitol",
     "subCategory": "Washington DC",
-    "subCategoryType": "Distrik Seward Square",
+    "subCategoryType": "Distrik Alun-Alun Seward",
     "dlc": "Tidak ada",
     "mainCategory": "Utama",
     "section": "locations"
@@ -6428,7 +6428,7 @@
   {
     "id": "ba09a11e-1bf1-48db-9c54-9bc3f84e4294",
     "mainCategory": "Operasi: Pelabuhan",
-    "title": "Tutup Permintaan Serangan Holo",
+    "title": "Tutup Permintaan Penyerangan Holo",
     "dlc": "Operasi: Pelabuhan",
     "subCategory": "Holotape",
     "section": "miscellaneous"
