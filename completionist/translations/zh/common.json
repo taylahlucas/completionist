@@ -34,13 +34,7 @@
     "steamAchievements": "Steam 成就",
     "payments": "支付",
     "settings": "设置",
-    "accountDetails": "帐户详细资料",
-    "verifyAccount": "您好，\n您最近在 Completionist 上创建了一个帐户。\n要验证您的帐户，请在应用程序中输入以下代码：\n\n{{code}}"
-  },
-  "login": {
-    "instructions1": "密码必须至少包含：",
-    "instructions2": "\n\u2022 8 个字符\n\u2022 1 个大写字母\n\u2022 1 个小写字母\n\u2022 1 个数值",
-    "accountVerification": "检查您的电子邮件并输入验证码"
+    "accountDetails": "帐户详细资料"
   },
   "selectGame": {
     "selectGameDesc1": "使用免费帐户，您可以每月选择一款游戏进行跟踪。",
@@ -73,8 +67,7 @@
   "sendRequest": {
     "subject": "主题",
     "writeRequest": "在这里写下您的要求...",
-    "requestGameDesc": "请随意请求游戏、报告错误或提出一些改进应用程序的建议！",
-    "verifyAccount": "你好，\n\n\n{{code}}"
+    "requestGameDesc": "请随意请求游戏、报告错误或提出一些改进应用程序的建议！"
   },
   "settings": {
     "description": "请随意请求游戏、报告错误或提出一些改进应用程序的建议！",
@@ -99,28 +92,19 @@
     "addSteamIdStep2": "步骤 2. 更新您的隐私偏好",
     "addSteamIdDesc3": "您还需要确保您的个人资料是公开的。",
     "addSteamIdDesc4": "您可以通过前往 Steam 偏好设置 -> 隐私设置来执行此操作",
-    "steamIdPlaceholder": "蒸汽 ID"
+    "steamIdPlaceholder": "蒸汽ID"
   },
   "errors": {
     "error": "错误",
     "pleaseRefreshApp": "请刷新应用程序",
-    "emailAlreadyExists": "电子邮件已经存在",
+    "emailAlreadyExists": "电子邮件已经存在。",
     "emailNotFound": "电子邮件找不到",
     "noEmailExists": "电子邮件不存在",
     "checkCredentials": "请检查您的凭据并重试。",
     "incorrectPw": "密码错误。",
-    "googleSignIn": "Google 登录时出错",
-    "googleSignInMsg": "获取此 Google 帐户的信息时出现问题。",
-    "accountExists": "用户名已经被注册",
-    "accountExistsMsg": "您想关联这些帐户吗?",
-    "permissionDenied": "没有权限",
-    "permissionDeniedMsg": "请通过您的 Steam 设置允许访问。",
-    "unauthorized": "未经授权",
-    "unauthorizedMsg": "您无权使用该帐户。",
-    "steamAchievements": "无法获得该游戏的 Steam 成就。"
+    "googleSignIn": "Google 登录时出错"
   },
   "alerts": {
-    "ok": "好的",
     "activate": "启用",
     "cancel": "取消",
     "changesLeft": "你将会拥有 {{changesLeft}} 改变{{s}} 左边。",
@@ -141,5 +125,95 @@
     "tr": "土耳其",
     "vi": "越南语",
     "zh": "中国人"
+  },
+  "categories": {
+    "fallout4": {
+      "title": "辐射4",
+      "categories": {
+        "quests": {
+          "mainQuests": "主线任务",
+          "factionQuests": "派系任务",
+          "sideQuests": "支线任务"
+        },
+        "collectables": {
+          "bobbleheads": "摇头娃娃",
+          "magazines": "杂志",
+          "uniqueWeapons": "独特的武器",
+          "uniqueArmor": "独特的盔甲",
+          "powerArmor": "动力装甲"
+        },
+        "locations": {
+          "main": "主要的"
+        },
+        "miscellaneous": {
+          "holotapes": "全息带"
+        }
+      },
+      "dlc": {
+        "automatron": "自动机",
+        "farHarbor": "远港",
+        "nukaWorld": "核子世界",
+        "vaultTecWorkshop": "Vault-Tec 研讨会"
+      }
+    },
+    "skyrim": {
+      "title": "天际",
+      "categories": {
+        "quests": {
+          "mainQuests": "主线任务",
+          "factionQuests": "派系任务",
+          "civilWar": "内战",
+          "daedricQuests": "魔族任务",
+          "dungeonQuests": "地下城任务",
+          "miscellaneousQuests": "杂项任务",
+          "bountyQuests": "赏金任务",
+          "globalQuests": "全球任务"
+        },
+        "collectables": {
+          "dragonPriestMasks": "龙祭司面具",
+          "daedricArtefacts": "魔族文物",
+          "bugInAJar": "罐子里的虫子",
+          "shouts": "喊叫声",
+          "uniqueArmorSets": "独特的装甲套装",
+          "uniqueWeapons": "独特的武器",
+          "shrines": "神社",
+          "stones": "石头"
+        },
+        "locations": {
+          "main": "主要的"
+        },
+        "miscellaneous": {
+          "books": "图书",
+          "spellTomes": "法术书",
+          "journals": "期刊"
+        }
+      },
+      "dlc": {
+        "dawnguard": "黎明守卫",
+        "dragonborn": "龙裔",
+        "hearthfire": "炉火"
+      }
+    },
+    "witcher3": {
+      "title": "巫师 3：狂猎",
+      "categories": {
+        "quests": {
+          "mainQuests": "主线任务",
+          "secondaryQuests": "次要任务",
+          "contracts": "合约",
+          "treasureHunts": "寻宝"
+        },
+        "collectables": {
+          "diagrams": "图表"
+        },
+        "locations": {
+          "main": "主要的"
+        }
+      },
+      "dlc": {
+        "bloodAndWine": "血与酒",
+        "heartsOfStone": "石之心"
+      }
+    }
   }
 }

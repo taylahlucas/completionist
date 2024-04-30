@@ -34,18 +34,12 @@
     "steamAchievements": "भाप उपलब्धियाँ",
     "payments": "भुगतान",
     "settings": "समायोजन",
-    "accountDetails": "खाता विवरण",
-    "verifyAccount": "अपने खाते को सत्यापित करें"
-  },
-  "login": {
-    "instructions1": "पासवर्ड में कम से कम ये होना चाहिए:",
-    "instructions2": "\n\u2022 8 अक्षर \n\u2022 1 बड़ा अक्षर\n\u2022 1 छोटा अक्षर\n\u2022 1 संख्यात्मक मान",
-    "accountVerification": "अपने ईमेल जांचें और सत्यापन कोड दर्ज करें"
+    "accountDetails": "खाता विवरण"
   },
   "selectGame": {
     "selectGameDesc1": "निःशुल्क खाते के साथ, आप ट्रैक करने के लिए प्रति माह एक गेम का चयन कर सकते हैं।",
     "selectGameDesc2": "नीचे अपना पहला गेम चुनें!",
-    "selectGameDesc3": "यदि आपसे कोई गलती हो तो चिंता न करें, आप इसे प्रति माह दो बार बदल सकेंगे"
+    "selectGameDesc3": "यदि आप कोई गलती करते हैं तो चिंता न करें, आप इसे प्रति माह दो बार बदल सकेंगे"
   },
   "subscriptions": {
     "subscriptionDesc": "प्रीमियम सदस्यता के साथ,\n",
@@ -73,8 +67,7 @@
   "sendRequest": {
     "subject": "विषय",
     "writeRequest": "अपना अनुरोध यहां लिखें...",
-    "requestGameDesc": "बेझिझक किसी गेम के लिए अनुरोध करें, बग की रिपोर्ट करें या ऐप को बेहतर बनाने के लिए कुछ सुझाव दें!",
-    "verifyAccount": "नमस्ते, \nआपने हाल ही में कंप्लीशनिस्ट के साथ एक खाता बनाया है।\nअपना खाता सत्यापित करने के लिए, कृपया आवेदन में निम्नलिखित कोड दर्ज करें:\n\n{{code}}"
+    "requestGameDesc": "बेझिझक किसी गेम के लिए अनुरोध करें, बग की रिपोर्ट करें या ऐप को बेहतर बनाने के लिए कुछ सुझाव दें!"
   },
   "settings": {
     "description": "बेझिझक किसी गेम के लिए अनुरोध करें, बग की रिपोर्ट करें या ऐप को बेहतर बनाने के लिए कुछ सुझाव दें!",
@@ -104,23 +97,14 @@
   "errors": {
     "error": "गलती",
     "pleaseRefreshApp": "कृपया ऐप को रीफ्रेश करें",
-    "emailAlreadyExists": "ईमेल पहले से ही मौजूद है",
+    "emailAlreadyExists": "ईमेल पहले से ही मौजूद है।",
     "emailNotFound": "ईमेल नहीं मिला",
     "noEmailExists": "ईमेल मौजूद नहीं है",
     "checkCredentials": "कृपया अपनी साख जांचें और पुनः प्रयास करें।",
     "incorrectPw": "गलत पासवर्ड। ",
-    "googleSignIn": "Google साइन इन में त्रुटि",
-    "googleSignInMsg": "इस Google खाते की जानकारी प्राप्त करने में समस्या.",
-    "accountExists": "खाता पहले से मौजूद है",
-    "accountExistsMsg": "क्या आप इन खातों को लिंक करना चाहेंगे?",
-    "permissionDenied": "अनुमति नहीं मिली",
-    "permissionDeniedMsg": "कृपया अपनी स्टीम सेटिंग्स के माध्यम से पहुंच की अनुमति दें।",
-    "unauthorized": "अनधिकृत",
-    "unauthorizedMsg": "आप इस खाते का उपयोग करने के लिए अनधिकृत हैं. ",
-    "steamAchievements": "इस गेम के लिए स्टीम उपलब्धियां नहीं मिल सकीं."
+    "googleSignIn": "Google साइन इन में त्रुटि"
   },
   "alerts": {
-    "ok": "ठीक है",
     "activate": "सक्रिय",
     "cancel": "रद्द करना",
     "changesLeft": "आपके पास होगा {{changesLeft}} परिवर्तन{{s}} बाएं।",
@@ -141,5 +125,95 @@
     "tr": "तुर्की",
     "vi": "वियतनामी",
     "zh": "चीनी"
+  },
+  "categories": {
+    "fallout4": {
+      "title": "नतीजा 4",
+      "categories": {
+        "quests": {
+          "mainQuests": "मुख्य प्रश्न",
+          "factionQuests": "गुट क्वेस्ट",
+          "sideQuests": "भीतर छिपे सवाल"
+        },
+        "collectables": {
+          "bobbleheads": "बॉबलहेड्स",
+          "magazines": "पत्रिका",
+          "uniqueWeapons": "अनोखे हथियार",
+          "uniqueArmor": "अनोखा कवच",
+          "powerArmor": "शक्ति कवच"
+        },
+        "locations": {
+          "main": "मुख्य"
+        },
+        "miscellaneous": {
+          "holotapes": "होलोटेप्स"
+        }
+      },
+      "dlc": {
+        "automatron": "ऑटोमेट्रोन",
+        "farHarbor": "सुदूर बंदरगाह",
+        "nukaWorld": "नुका-विश्व",
+        "vaultTecWorkshop": "वॉल्ट-टेक कार्यशाला"
+      }
+    },
+    "skyrim": {
+      "title": "Skyrim",
+      "categories": {
+        "quests": {
+          "mainQuests": "मुख्य प्रश्न",
+          "factionQuests": "गुट क्वेस्ट",
+          "civilWar": "गृहयुद्ध",
+          "daedricQuests": "डेड्रिक क्वेस्ट",
+          "dungeonQuests": "कालकोठरी क्वेस्ट",
+          "miscellaneousQuests": "विविध खोज",
+          "bountyQuests": "बाउंटी क्वेस्ट",
+          "globalQuests": "वैश्विक खोज"
+        },
+        "collectables": {
+          "dragonPriestMasks": "ड्रैगन पुजारी मुखौटे",
+          "daedricArtefacts": "डेड्रिक कलाकृतियाँ",
+          "bugInAJar": "एक जार में बग",
+          "shouts": "शाउट",
+          "uniqueArmorSets": "अद्वितीय कवच सेट",
+          "uniqueWeapons": "अनोखे हथियार",
+          "shrines": "तीर्थ",
+          "stones": "पत्थर"
+        },
+        "locations": {
+          "main": "मुख्य"
+        },
+        "miscellaneous": {
+          "books": "पुस्तकें",
+          "spellTomes": "टॉम्स वर्तनी",
+          "journals": "पत्रिकाओं"
+        }
+      },
+      "dlc": {
+        "dawnguard": "दावन्गार्ड",
+        "dragonborn": "ड्रैगनबोर्न",
+        "hearthfire": "चूल्हे की आग"
+      }
+    },
+    "witcher3": {
+      "title": "द विचर 3: वाइल्ड हंट",
+      "categories": {
+        "quests": {
+          "mainQuests": "मुख्य प्रश्न",
+          "secondaryQuests": "माध्यमिक क्वेस्ट",
+          "contracts": "ठेके",
+          "treasureHunts": "खजाने की खोज"
+        },
+        "collectables": {
+          "diagrams": "चित्र"
+        },
+        "locations": {
+          "main": "मुख्य"
+        }
+      },
+      "dlc": {
+        "bloodAndWine": "खून और शराब",
+        "heartsOfStone": "पत्थर के दिल"
+      }
+    }
   }
 }

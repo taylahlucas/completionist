@@ -34,13 +34,7 @@
     "steamAchievements": "إنجازات البخار",
     "payments": "قسط",
     "settings": "إعدادات",
-    "accountDetails": "تفاصيل الحساب",
-    "verifyAccount": "تحقق من حسابك"
-  },
-  "login": {
-    "instructions1": "يجب أن تحتوي كلمة المرور على الأقل على:",
-    "instructions2": "\n\u2022 8 أحرف \n\u2022 1 حرف كبير\n\u2022 1 حرف صغير\n\u2022 1 قيمة رقمية",
-    "accountVerification": "تحقق من رسائل البريد الإلكتروني الخاصة بك وأدخل رمز التحقق"
+    "accountDetails": "تفاصيل الحساب"
   },
   "selectGame": {
     "selectGameDesc1": "باستخدام الحساب المجاني، يمكنك اختيار لعبة واحدة كل شهر لتتبعها.",
@@ -73,8 +67,7 @@
   "sendRequest": {
     "subject": "موضوع",
     "writeRequest": "أكتب طلبك هنا...",
-    "requestGameDesc": "لا تتردد في طلب لعبة أو الإبلاغ عن خطأ أو تقديم بعض الاقتراحات لتحسين التطبيق!",
-    "verifyAccount": "مرحبًا، ,\nلقد قمت مؤخرًا بإنشاء حساب مع Completionist.\nللتحقق من حسابك، يرجى إدخال الرمز التالي في التطبيق:\n\n{{code}}"
+    "requestGameDesc": "لا تتردد في طلب لعبة أو الإبلاغ عن خطأ أو تقديم بعض الاقتراحات لتحسين التطبيق!"
   },
   "settings": {
     "description": "لا تتردد في طلب لعبة أو الإبلاغ عن خطأ أو تقديم بعض الاقتراحات لتحسين التطبيق!",
@@ -104,23 +97,14 @@
   "errors": {
     "error": "خطأ",
     "pleaseRefreshApp": "يرجى تحديث التطبيق",
-    "emailAlreadyExists": "البريد الالكتروني موجود بالفعل",
+    "emailAlreadyExists": "البريد الالكتروني موجود بالفعل.",
     "emailNotFound": "البريد الإلكتروني غير موجود",
     "noEmailExists": "البريد الإلكتروني غير موجود",
     "checkCredentials": "يرجى التحقق من بيانات الاعتماد الخاصة بك وحاول مرة أخرى.",
     "incorrectPw": "كلمة سر خاطئة. ",
-    "googleSignIn": "حدث خطأ أثناء تسجيل الدخول إلى Google",
-    "googleSignInMsg": "حدثت مشكلة أثناء الحصول على معلومات لحساب Google هذا.",
-    "accountExists": "الحساب موجود بالفعل",
-    "accountExistsMsg": "هل ترغب في ربط هذه الحسابات؟",
-    "permissionDenied": "تم رفض الإذن",
-    "permissionDeniedMsg": "يرجى السماح بالوصول من خلال إعدادات Steam الخاصة بك.",
-    "unauthorized": "غير مصرح",
-    "unauthorizedMsg": "أنت غير مصرح لك باستخدام هذا الحساب. ",
-    "steamAchievements": "لا يمكن الحصول على إنجازات البخار لهذه اللعبة."
+    "googleSignIn": "حدث خطأ أثناء تسجيل الدخول إلى Google"
   },
   "alerts": {
-    "ok": "نعم",
     "activate": "تفعيل",
     "cancel": "يلغي",
     "changesLeft": "ستملك {{changesLeft}} يتغير{{s}} غادر.",
@@ -141,5 +125,95 @@
     "tr": "اللغة التركية",
     "vi": "الفيتنامية",
     "zh": "صينى"
+  },
+  "categories": {
+    "fallout4": {
+      "title": "تداعيات 4",
+      "categories": {
+        "quests": {
+          "mainQuests": "المهام الرئيسية",
+          "factionQuests": "أسئلة الفصائل",
+          "sideQuests": "أسئلة جانبية"
+        },
+        "collectables": {
+          "bobbleheads": "رؤؤس فقاعية",
+          "magazines": "المجلات",
+          "uniqueWeapons": "أسلحة فريدة من نوعها",
+          "uniqueArmor": "درع فريد",
+          "powerArmor": "درع القوة"
+        },
+        "locations": {
+          "main": "رئيسي"
+        },
+        "miscellaneous": {
+          "holotapes": "هولوتابس"
+        }
+      },
+      "dlc": {
+        "automatron": "آلي",
+        "farHarbor": "فار هاربور",
+        "nukaWorld": "نوكا وورلد",
+        "vaultTecWorkshop": "ورشة فولت تيك"
+      }
+    },
+    "skyrim": {
+      "title": "سكيريم",
+      "categories": {
+        "quests": {
+          "mainQuests": "المهام الرئيسية",
+          "factionQuests": "أسئلة الفصائل",
+          "civilWar": "حرب اهلية",
+          "daedricQuests": "أسئلة ديدريك",
+          "dungeonQuests": "أسئلة الزنزانة",
+          "miscellaneousQuests": "أسئلة متنوعة",
+          "bountyQuests": "أسئلة المكافأة",
+          "globalQuests": "المهام العالمية"
+        },
+        "collectables": {
+          "dragonPriestMasks": "أقنعة كاهن التنين",
+          "daedricArtefacts": "التحف ديدريك",
+          "bugInAJar": "علة في جرة",
+          "shouts": "صيحات",
+          "uniqueArmorSets": "مجموعات دروع فريدة من نوعها",
+          "uniqueWeapons": "أسلحة فريدة من نوعها",
+          "shrines": "المزارات",
+          "stones": "الحجارة"
+        },
+        "locations": {
+          "main": "رئيسي"
+        },
+        "miscellaneous": {
+          "books": "كتب",
+          "spellTomes": "المجلدات الإملائية",
+          "journals": "المجلات"
+        }
+      },
+      "dlc": {
+        "dawnguard": "داونغارد",
+        "dragonborn": "دراجونبورن",
+        "hearthfire": "نار الموقد"
+      }
+    },
+    "witcher3": {
+      "title": "الويتشر 3: الصيد البري",
+      "categories": {
+        "quests": {
+          "mainQuests": "المهام الرئيسية",
+          "secondaryQuests": "أسئلة ثانوية",
+          "contracts": "انكماش",
+          "treasureHunts": "البحث عن الكنز"
+        },
+        "collectables": {
+          "diagrams": "المخططات"
+        },
+        "locations": {
+          "main": "رئيسي"
+        }
+      },
+      "dlc": {
+        "bloodAndWine": "الدم والنبيذ",
+        "heartsOfStone": "قلوب الحجر"
+      }
+    }
   }
 }

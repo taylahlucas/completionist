@@ -34,13 +34,7 @@
     "steamAchievements": "Steam Başarıları",
     "payments": "Ödeme",
     "settings": "Ayarlar",
-    "accountDetails": "hesap detayları",
-    "verifyAccount": "Hesabınızı doğrulayın"
-  },
-  "login": {
-    "instructions1": "Şifre en az şunları içermelidir:",
-    "instructions2": "\n\u2022 8 karakter \n\u2022 1 büyük harf\n\u2022 1 küçük harf\n\u2022 1 sayısal değer",
-    "accountVerification": "E-postalarınızı kontrol edin ve doğrulama kodunu girin"
+    "accountDetails": "hesap detayları"
   },
   "selectGame": {
     "selectGameDesc1": "Ücretsiz bir hesapla, takip etmek için ayda bir oyun seçebilirsiniz.",
@@ -73,8 +67,7 @@
   "sendRequest": {
     "subject": "Ders",
     "writeRequest": "Talebinizi buraya yazın...",
-    "requestGameDesc": "Bir oyun talep etmekten, bir hatayı bildirmekten veya uygulamayı geliştirmek için bazı önerilerde bulunmaktan çekinmeyin!",
-    "verifyAccount": "Merhaba,\nYakın zamanda Completionist'te bir hesap oluşturdunuz.\nHesabınızı doğrulamak için lütfen uygulamaya aşağıdaki kodu girin:\n\n{{code}}"
+    "requestGameDesc": "Bir oyun talep etmekten, bir hatayı bildirmekten veya uygulamayı geliştirmek için bazı önerilerde bulunmaktan çekinmeyin!"
   },
   "settings": {
     "description": "Bir oyun talep etmekten, bir hatayı bildirmekten veya uygulamayı geliştirmek için bazı önerilerde bulunmaktan çekinmeyin!",
@@ -82,7 +75,7 @@
     "enabledDLC": "DLC'yi Etkinleştir/Devre Dışı Bırak:",
     "showHide": "Göster/Gizle:",
     "completedItems": "Tamamlanan Öğeler",
-    "disabledSections": "Engelli Bölümleri",
+    "disabledSections": "Engelli Bölümler",
     "changeAccountDetails": "Hesap Ayrıntılarını Değiştir",
     "selectLanguage": "Dil Seçin:"
   },
@@ -104,23 +97,14 @@
   "errors": {
     "error": "Hata",
     "pleaseRefreshApp": "Lütfen uygulamayı yenileyin",
-    "emailAlreadyExists": "Bu e-posta zaten var",
+    "emailAlreadyExists": "Bu e-posta zaten var.",
     "emailNotFound": "Email bulunamadı",
     "noEmailExists": "E-posta mevcut değil",
     "checkCredentials": "Lütfen kimlik bilgilerinizi kontrol edip tekrar deneyin.",
     "incorrectPw": "Yanlış parola. ",
-    "googleSignIn": "Google Oturum Açma Hatası",
-    "googleSignInMsg": "Bu Google hesabı için bilgi alınırken sorun oluştu.",
-    "accountExists": "Bu Hesap Zaten Mevcut",
-    "accountExistsMsg": "Bu hesapları bağlamak ister misiniz?",
-    "permissionDenied": "İzin reddedildi",
-    "permissionDeniedMsg": "Lütfen Steam ayarlarınız üzerinden erişime izin verin.",
-    "unauthorized": "Yetkisiz",
-    "unauthorizedMsg": "Bu hesabı kullanma yetkiniz yok. ",
-    "steamAchievements": "Bu oyun için Steam başarımları alınamadı."
+    "googleSignIn": "Google ile Oturum Açma Hatası"
   },
   "alerts": {
-    "ok": "Tamam",
     "activate": "Etkinleştir",
     "cancel": "İptal etmek",
     "changesLeft": "Sahip olacaksın {{changesLeft}} değiştirmek{{s}} sol.",
@@ -141,5 +125,95 @@
     "tr": "Türkçe",
     "vi": "Vietnam",
     "zh": "Çince"
+  },
+  "categories": {
+    "fallout4": {
+      "title": "Serpinti 4",
+      "categories": {
+        "quests": {
+          "mainQuests": "Ana Görevler",
+          "factionQuests": "Fraksiyon Görevleri",
+          "sideQuests": "Yan Görevler"
+        },
+        "collectables": {
+          "bobbleheads": "Bobblehead'ler",
+          "magazines": "Dergiler",
+          "uniqueWeapons": "Benzersiz Silahlar",
+          "uniqueArmor": "Benzersiz Zırh",
+          "powerArmor": "Güç Zırhı"
+        },
+        "locations": {
+          "main": "Ana"
+        },
+        "miscellaneous": {
+          "holotapes": "Sanal bantlar"
+        }
+      },
+      "dlc": {
+        "automatron": "Otomatron",
+        "farHarbor": "Uzak Liman",
+        "nukaWorld": "Nuka-Dünya",
+        "vaultTecWorkshop": "Vault-Tec Atölyesi"
+      }
+    },
+    "skyrim": {
+      "title": "Skyrim",
+      "categories": {
+        "quests": {
+          "mainQuests": "Ana Görevler",
+          "factionQuests": "Fraksiyon Görevleri",
+          "civilWar": "İç savaş",
+          "daedricQuests": "Daedrik Görevler",
+          "dungeonQuests": "Zindan Görevleri",
+          "miscellaneousQuests": "Çeşitli Görevler",
+          "bountyQuests": "Ödül Görevleri",
+          "globalQuests": "Küresel Görevler"
+        },
+        "collectables": {
+          "dragonPriestMasks": "Ejderha Rahibi Maskeleri",
+          "daedricArtefacts": "Daedrik Eserler",
+          "bugInAJar": "Kavanozdaki Böcek",
+          "shouts": "Bağırışlar",
+          "uniqueArmorSets": "Benzersiz Zırh Setleri",
+          "uniqueWeapons": "Benzersiz Silahlar",
+          "shrines": "Türbeler",
+          "stones": "Taşlar"
+        },
+        "locations": {
+          "main": "Ana"
+        },
+        "miscellaneous": {
+          "books": "Kitabın",
+          "spellTomes": "Büyü Kitapları",
+          "journals": "Günlükler"
+        }
+      },
+      "dlc": {
+        "dawnguard": "Şafak Muhafızı",
+        "dragonborn": "Dragonborn",
+        "hearthfire": "Ocak ateşi"
+      }
+    },
+    "witcher3": {
+      "title": "Witcher 3: Vahşi Av",
+      "categories": {
+        "quests": {
+          "mainQuests": "Ana Görevler",
+          "secondaryQuests": "İkincil Görevler",
+          "contracts": "Sözleşmeler",
+          "treasureHunts": "Hazine avı"
+        },
+        "collectables": {
+          "diagrams": "Diyagramlar"
+        },
+        "locations": {
+          "main": "Ana"
+        }
+      },
+      "dlc": {
+        "bloodAndWine": "Kan ve Şarap",
+        "heartsOfStone": "Taş Kalpler"
+      }
+    }
   }
 }

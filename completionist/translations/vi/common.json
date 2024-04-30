@@ -34,13 +34,7 @@
     "steamAchievements": "Thành tựu hơi nước",
     "payments": "Sự chi trả",
     "settings": "Cài đặt",
-    "accountDetails": "Chi tiết tài khoản",
-    "verifyAccount": "Xác thực tài khoản của bạn"
-  },
-  "login": {
-    "instructions1": "Mật khẩu phải chứa ít nhất:",
-    "instructions2": "\n\u2022 8 ký tự \n\u2022 1 chữ hoa\n\u2022 1 chữ thường\n\u2022 1 giá trị số",
-    "accountVerification": "Kiểm tra email của bạn và nhập mã xác minh"
+    "accountDetails": "Chi tiết tài khoản"
   },
   "selectGame": {
     "selectGameDesc1": "Với tài khoản Miễn phí, bạn có thể chọn một trò chơi mỗi tháng để theo dõi.",
@@ -59,7 +53,7 @@
     "prerequisiteTracking": "Theo dõi điều kiện tiên quyết tự động",
     "accessPremiumFeatures": "Truy cập vào các tính năng cao cấp",
     "accessOneGame": "Truy cập vào một trò chơi mỗi tháng",
-    "accessFiveGames": "Truy cập năm trò chơi mỗi tháng",
+    "accessFiveGames": "Truy cập vào năm trò chơi mỗi tháng",
     "accessAllGames": "Truy cập vào tất cả các trò chơi",
     "revokedAccess": "Đã thu hồi quyền truy cập vào Tính năng",
     "monthly": "hàng tháng",
@@ -73,8 +67,7 @@
   "sendRequest": {
     "subject": "Chủ thể",
     "writeRequest": "Viết yêu cầu của bạn ở đây...",
-    "requestGameDesc": "Vui lòng yêu cầu trò chơi, báo cáo lỗi hoặc đưa ra một số đề xuất để cải thiện ứng dụng!",
-    "verifyAccount": "Xin chào,\nGần đây bạn đã tạo một tài khoản với Completionist.\nĐể xác minh tài khoản của mình, vui lòng nhập mã sau vào ứng dụng:\n\n{{code}}"
+    "requestGameDesc": "Vui lòng yêu cầu trò chơi, báo cáo lỗi hoặc đưa ra một số đề xuất để cải thiện ứng dụng!"
   },
   "settings": {
     "description": "Vui lòng yêu cầu trò chơi, báo cáo lỗi hoặc đưa ra một số đề xuất để cải thiện ứng dụng!",
@@ -104,23 +97,14 @@
   "errors": {
     "error": "Lỗi",
     "pleaseRefreshApp": "Vui lòng làm mới ứng dụng",
-    "emailAlreadyExists": "Email đã tồn tại",
+    "emailAlreadyExists": "Email đã tồn tại.",
     "emailNotFound": "Không tìm thấy email",
     "noEmailExists": "Email không tồn tại",
     "checkCredentials": "Vui lòng kiểm tra thông tin xác thực của bạn và thử lại.",
     "incorrectPw": "Mật khẩu không đúng. ",
-    "googleSignIn": "Lỗi đăng nhập bằng Google",
-    "googleSignInMsg": "Sự cố khi tải thông tin cho tài khoản google này.",
-    "accountExists": "Tài khoản đã tồn tại",
-    "accountExistsMsg": "Bạn có muốn liên kết các tài khoản này không?",
-    "permissionDenied": "Quyền bị từ chối",
-    "permissionDeniedMsg": "Vui lòng cho phép truy cập thông qua cài đặt Steam của bạn.",
-    "unauthorized": "Không được phép",
-    "unauthorizedMsg": "Bạn không được phép sử dụng tài khoản này. ",
-    "steamAchievements": "Không thể nhận được thành tích Steam cho trò chơi này."
+    "googleSignIn": "Lỗi đăng nhập bằng Google"
   },
   "alerts": {
-    "ok": "Được rồi",
     "activate": "Kích hoạt",
     "cancel": "Hủy bỏ",
     "changesLeft": "Bạn sẽ có {{changesLeft}} thay đổi{{s}} bên trái.",
@@ -141,5 +125,95 @@
     "tr": "tiếng Thổ Nhĩ Kỳ",
     "vi": "Tiếng Việt",
     "zh": "người Trung Quốc"
+  },
+  "categories": {
+    "fallout4": {
+      "title": "bụi phóng xạ 4",
+      "categories": {
+        "quests": {
+          "mainQuests": "Nhiệm vụ chính",
+          "factionQuests": "Nhiệm vụ phe phái",
+          "sideQuests": "Nhiệm vụ phụ"
+        },
+        "collectables": {
+          "bobbleheads": "tóc bồng bềnh",
+          "magazines": "Tạp chí thời sự",
+          "uniqueWeapons": "Vũ khí độc đáo",
+          "uniqueArmor": "Giáp độc nhất",
+          "powerArmor": "Áo giáp điện"
+        },
+        "locations": {
+          "main": "Chủ yếu"
+        },
+        "miscellaneous": {
+          "holotapes": "ảnh ba chiều"
+        }
+      },
+      "dlc": {
+        "automatron": "Máy tự động",
+        "farHarbor": "Cảng xa",
+        "nukaWorld": "Thế giới Nuka",
+        "vaultTecWorkshop": "Hội thảo Vault-Tec"
+      }
+    },
+    "skyrim": {
+      "title": "Skyrim",
+      "categories": {
+        "quests": {
+          "mainQuests": "Nhiệm vụ chính",
+          "factionQuests": "Nhiệm vụ phe phái",
+          "civilWar": "Nội chiến",
+          "daedricQuests": "Nhiệm vụ Daedric",
+          "dungeonQuests": "Nhiệm vụ ngục tối",
+          "miscellaneousQuests": "Nhiệm vụ khác",
+          "bountyQuests": "Nhiệm vụ tiền thưởng",
+          "globalQuests": "Nhiệm vụ toàn cầu"
+        },
+        "collectables": {
+          "dragonPriestMasks": "Mặt nạ linh mục rồng",
+          "daedricArtefacts": "Cổ vật Daedric",
+          "bugInAJar": "Lỗi trong lọ",
+          "shouts": "Tiếng la hét",
+          "uniqueArmorSets": "Bộ áo giáp độc đáo",
+          "uniqueWeapons": "Vũ khí độc đáo",
+          "shrines": "Đền thờ",
+          "stones": "Đá"
+        },
+        "locations": {
+          "main": "Chủ yếu"
+        },
+        "miscellaneous": {
+          "books": "Sách",
+          "spellTomes": "Sách đánh vần",
+          "journals": "tạp chí"
+        }
+      },
+      "dlc": {
+        "dawnguard": "Bình minh",
+        "dragonborn": "con rồng",
+        "hearthfire": "lửa lò sưởi"
+      }
+    },
+    "witcher3": {
+      "title": "The Witcher 3: Cuộc săn hoang dã",
+      "categories": {
+        "quests": {
+          "mainQuests": "Nhiệm vụ chính",
+          "secondaryQuests": "Nhiệm vụ phụ",
+          "contracts": "Hợp đồng",
+          "treasureHunts": "Săn lùng kho báu"
+        },
+        "collectables": {
+          "diagrams": "Sơ đồ"
+        },
+        "locations": {
+          "main": "Chủ yếu"
+        }
+      },
+      "dlc": {
+        "bloodAndWine": "Máu Và Rượu",
+        "heartsOfStone": "trái tim bằng đá"
+      }
+    }
   }
 }

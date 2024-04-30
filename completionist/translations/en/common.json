@@ -141,5 +141,95 @@
 		"tr": "Turkish",
 		"vi": "Vietnamese",
 		"zh": "Chinese"
+	},
+	"categories": {
+		"fallout4": {
+			"title": "Fallout 4",
+			"categories": {
+				"quests": {
+					"mainQuests": "Main Quests",
+					"factionQuests": "Faction Quests",
+					"sideQuests": "Side Quests"
+				},
+				"collectables": {
+					"bobbleheads": "Bobbleheads",
+					"magazines": "Magazines",
+					"uniqueWeapons": "Unique Weapons",
+					"uniqueArmor": "Unique Armor",
+					"powerArmor": "Power Armor"
+				},
+				"locations": {
+					"main": "Main"
+				},
+				"miscellaneous": {
+					"holotapes": "Holotapes"
+				}
+			},
+			"dlc": {
+				"automatron": "Automatron",
+				"farHarbor": "Far Harbor",
+				"nukaWorld": "Nuka-World",
+				"vaultTecWorkshop": "Vault-Tec Workshop"
+			}
+		},
+		"skyrim": {
+			"title": "Skyrim",
+			"categories": {
+				"quests": {
+					"mainQuests": "Main Quests",
+					"factionQuests": "Faction Quests",
+					"civilWar": "Civil War",
+					"daedricQuests": "Daedric Quests",
+					"dungeonQuests": "Dungeon Quests",
+					"miscellaneousQuests": "Miscellaneous Quests",
+					"bountyQuests": "Bounty Quests",
+					"globalQuests": "Global Quests"
+				},
+				"collectables": {
+					"dragonPriestMasks": "Dragon Priest Masks",
+					"daedricArtefacts": "Daedric Artefacts",
+					"bugInAJar": "Bug in a Jar",
+					"shouts": "Shouts",
+					"uniqueArmorSets": "Unique Armor Sets",
+					"uniqueWeapons": "Unique Weapons",
+					"shrines": "Shrines",
+					"stones": "Stones"
+				},
+				"locations": {
+					"main": "Main"
+				},
+				"miscellaneous": {
+					"books": "Books",
+					"spellTomes": "Spell Tomes",
+					"journals": "Journals"
+				}
+			},
+			"dlc": {
+				"dawnguard": "Dawnguard",
+				"dragonborn": "Dragonborn",
+				"hearthfire": "Hearthfire"
+			}
+		},
+		"witcher3": {
+			"title": "The Witcher 3: Wild Hunt",
+			"categories": {
+				"quests": {
+					"mainQuests": "Main Quests",
+					"secondaryQuests": "Secondary Quests",
+					"contracts": "Contracts",
+					"treasureHunts": "Treasure Hunts"
+				},
+				"collectables": {
+					"diagrams": "Diagrams"
+				},
+				"locations": {
+					"main": "Main"
+				}
+			},
+			"dlc": {
+				"bloodAndWine": "Blood And Wine",
+				"heartsOfStone": "Hearts Of Stone"
+			}
+		}
 	}
 }

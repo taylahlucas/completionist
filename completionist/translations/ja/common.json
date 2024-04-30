@@ -6,7 +6,7 @@
   "showMore": "もっと見せる",
   "none": "なし",
   "main": "主要",
-  "changesLeft": "残された変更点: ",
+  "changesLeft": "残った変更点: ",
   "active": "アクティブ",
   "inactive": "非活性",
   "auth": {
@@ -34,13 +34,7 @@
     "steamAchievements": "Steam の実績",
     "payments": "支払い",
     "settings": "設定",
-    "accountDetails": "アカウント詳細",
-    "verifyAccount": "アカウントを確認する"
-  },
-  "login": {
-    "instructions1": "パスワードには少なくとも以下が含まれている必要があります:",
-    "instructions2": "\n\u2022 8文字\n\u2022 大文字1文字\n\u2022 小文字1文字\n\u2022 数値1つ",
-    "accountVerification": "メールを確認して確認コードを入力してください"
+    "accountDetails": "アカウント詳細"
   },
   "selectGame": {
     "selectGameDesc1": "無料アカウントでは、毎月 1 つのゲームを選択して追跡できます。",
@@ -73,8 +67,7 @@
   "sendRequest": {
     "subject": "主題",
     "writeRequest": "ここにリクエストを書いてください...",
-    "requestGameDesc": "ゲームのリクエスト、バグの報告、アプリを改善するための提案など、お気軽にどうぞ！",
-    "verifyAccount": "こんにちは、\n最近Completionistでアカウントを作成しました。\nアカウントを確認するには、アプリケーションに次のコードを入力してください：\n\n{{code}}"
+    "requestGameDesc": "ゲームのリクエスト、バグの報告、アプリを改善するための提案など、お気軽にどうぞ！"
   },
   "settings": {
     "description": "ゲームのリクエスト、バグの報告、アプリを改善するための提案など、お気軽にどうぞ！",
@@ -104,23 +97,14 @@
   "errors": {
     "error": "エラー",
     "pleaseRefreshApp": "アプリを更新してください",
-    "emailAlreadyExists": "メールは既に存在します",
+    "emailAlreadyExists": "メールは既に存在します。",
     "emailNotFound": "メールが見つかりません",
     "noEmailExists": "電子メールが存在しません",
     "checkCredentials": "資格情報を確認して、再試行してください。",
     "incorrectPw": "パスワードが間違っています。",
-    "googleSignIn": "Googleサインインでのエラー",
-    "googleSignInMsg": "この Google アカウントの情報を取得する際に問題が発生しました。",
-    "accountExists": "アカウントはすでに存在しています",
-    "accountExistsMsg": "これらのアカウントをリンクしますか",
-    "permissionDenied": "許可が拒否されました",
-    "permissionDeniedMsg": "Steam 設定を通じてアクセスを許可してください。",
-    "unauthorized": "無許可",
-    "unauthorizedMsg": "このアカウントを使用する権限がありません。",
-    "steamAchievements": "このゲームの Steam 実績を取得できませんでした。"
+    "googleSignIn": "Googleサインインでのエラー"
   },
   "alerts": {
-    "ok": "わかりました",
     "activate": "活性化",
     "cancel": "キャンセル",
     "changesLeft": "あなたは持っています {{changesLeft}} 変化{{s}} 左。",
@@ -141,5 +125,95 @@
     "tr": "トルコ語",
     "vi": "ベトナム語",
     "zh": "中国語"
+  },
+  "categories": {
+    "fallout4": {
+      "title": "フォールアウト4",
+      "categories": {
+        "quests": {
+          "mainQuests": "メインクエスト",
+          "factionQuests": "派閥クエスト",
+          "sideQuests": "サイドクエスト"
+        },
+        "collectables": {
+          "bobbleheads": "ボブルヘッド",
+          "magazines": "雑誌",
+          "uniqueWeapons": "ユニークな武器",
+          "uniqueArmor": "ユニークな鎧",
+          "powerArmor": "パワーアーマー"
+        },
+        "locations": {
+          "main": "主要"
+        },
+        "miscellaneous": {
+          "holotapes": "ホロテープ"
+        }
+      },
+      "dlc": {
+        "automatron": "オートマトロン",
+        "farHarbor": "ファーハーバー",
+        "nukaWorld": "ヌカ・ワールド",
+        "vaultTecWorkshop": "Vault-Tec ワークショップ"
+      }
+    },
+    "skyrim": {
+      "title": "スカイリム",
+      "categories": {
+        "quests": {
+          "mainQuests": "メインクエスト",
+          "factionQuests": "派閥クエスト",
+          "civilWar": "内戦",
+          "daedricQuests": "デイドラクエスト",
+          "dungeonQuests": "ダンジョンクエスト",
+          "miscellaneousQuests": "その他のクエスト",
+          "bountyQuests": "賞金クエスト",
+          "globalQuests": "グローバルクエスト"
+        },
+        "collectables": {
+          "dragonPriestMasks": "ドラゴン プリーストの仮面",
+          "daedricArtefacts": "デイドラアーティファクト",
+          "bugInAJar": "瓶の中の虫",
+          "shouts": "叫び声",
+          "uniqueArmorSets": "ユニークな防具セット",
+          "uniqueWeapons": "ユニークな武器",
+          "shrines": "神社",
+          "stones": "石"
+        },
+        "locations": {
+          "main": "主要"
+        },
+        "miscellaneous": {
+          "books": "本",
+          "spellTomes": "呪文の本",
+          "journals": "雑誌"
+        }
+      },
+      "dlc": {
+        "dawnguard": "ドーンガード",
+        "dragonborn": "ドラゴンボーン",
+        "hearthfire": "ハースファイア"
+      }
+    },
+    "witcher3": {
+      "title": "ウィッチャー3: ワイルドハント",
+      "categories": {
+        "quests": {
+          "mainQuests": "メインクエスト",
+          "secondaryQuests": "二次クエスト",
+          "contracts": "契約",
+          "treasureHunts": "宝探し"
+        },
+        "collectables": {
+          "diagrams": "図表"
+        },
+        "locations": {
+          "main": "主要"
+        }
+      },
+      "dlc": {
+        "bloodAndWine": "血とワイン",
+        "heartsOfStone": "ハーツ・オブ・ストーン"
+      }
+    }
   }
 }

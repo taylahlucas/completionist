@@ -34,13 +34,7 @@
     "steamAchievements": "Risultati di Steam",
     "payments": "Pagamento",
     "settings": "Impostazioni",
-    "accountDetails": "Dettagli account",
-    "verifyAccount": "Verifica il tuo account"
-  },
-  "login": {
-    "instructions1": "La password deve contenere almeno:",
-    "instructions2": "\n\u2022 8 caratteri \n\u2022 1 lettera maiuscola\n\u2022 1 lettera minuscola\n\u2022 1 valore numerico",
-    "accountVerification": "Controlla le tue email e inserisci il codice di verifica"
+    "accountDetails": "Dettagli account"
   },
   "selectGame": {
     "selectGameDesc1": "Con un account gratuito, puoi selezionare un gioco al mese da monitorare.",
@@ -73,8 +67,7 @@
   "sendRequest": {
     "subject": "Soggetto",
     "writeRequest": "Scrivi qui la tua richiesta...",
-    "requestGameDesc": "Sentiti libero di richiedere un gioco, segnalare un bug o dare qualche suggerimento per migliorare l'app!",
-    "verifyAccount": "Ciao,\nRecentemente hai creato un account con Completionist.\nPer verificare il tuo account, inserisci il seguente codice nell'applicazione:\n\n{{code}}"
+    "requestGameDesc": "Sentiti libero di richiedere un gioco, segnalare un bug o dare qualche suggerimento per migliorare l'app!"
   },
   "settings": {
     "description": "Sentiti libero di richiedere un gioco, segnalare un bug o dare qualche suggerimento per migliorare l'app!",
@@ -104,23 +97,14 @@
   "errors": {
     "error": "Errore",
     "pleaseRefreshApp": "Aggiorna l'app",
-    "emailAlreadyExists": "Email già esistente",
+    "emailAlreadyExists": "Email già esistente.",
     "emailNotFound": "E-mail non trovata",
     "noEmailExists": "L'e-mail non esiste",
     "checkCredentials": "Controlla le tue credenziali e riprova.",
     "incorrectPw": "Password errata. ",
-    "googleSignIn": "Errore con l'accesso a Google",
-    "googleSignInMsg": "Problema nel reperire informazioni per questo account Google.",
-    "accountExists": "L'account esiste già",
-    "accountExistsMsg": "Desideri collegare questi account?",
-    "permissionDenied": "Permesso negato",
-    "permissionDeniedMsg": "Consenti l'accesso tramite le impostazioni di Steam.",
-    "unauthorized": "Non autorizzato",
-    "unauthorizedMsg": "Non sei autorizzato a utilizzare questo account. ",
-    "steamAchievements": "Impossibile ottenere risultati Steam per questo gioco."
+    "googleSignIn": "Errore con l'accesso a Google"
   },
   "alerts": {
-    "ok": "OK",
     "activate": "Attivare",
     "cancel": "Annulla",
     "changesLeft": "Tu avrai {{changesLeft}} modifica{{s}} Sinistra.",
@@ -141,5 +125,95 @@
     "tr": "Turco",
     "vi": "vietnamita",
     "zh": "Cinese"
+  },
+  "categories": {
+    "fallout4": {
+      "title": "Fallout 4",
+      "categories": {
+        "quests": {
+          "mainQuests": "Missioni principali",
+          "factionQuests": "Missioni di fazione",
+          "sideQuests": "Missioni secondarie"
+        },
+        "collectables": {
+          "bobbleheads": "Teste molleggiate",
+          "magazines": "Riviste",
+          "uniqueWeapons": "Armi uniche",
+          "uniqueArmor": "Armatura unica",
+          "powerArmor": "Armatura potenziata"
+        },
+        "locations": {
+          "main": "Principale"
+        },
+        "miscellaneous": {
+          "holotapes": "Olonastri"
+        }
+      },
+      "dlc": {
+        "automatron": "Automatron",
+        "farHarbor": "Porto lontano",
+        "nukaWorld": "Mondo Nuka",
+        "vaultTecWorkshop": "Workshop Vault-Tec"
+      }
+    },
+    "skyrim": {
+      "title": "Skyrim",
+      "categories": {
+        "quests": {
+          "mainQuests": "Missioni principali",
+          "factionQuests": "Missioni di fazione",
+          "civilWar": "Guerra civile",
+          "daedricQuests": "Missioni daedriche",
+          "dungeonQuests": "Missioni nei sotterranei",
+          "miscellaneousQuests": "Missioni varie",
+          "bountyQuests": "Missioni di taglia",
+          "globalQuests": "Missioni globali"
+        },
+        "collectables": {
+          "dragonPriestMasks": "Maschere del Sacerdote Drago",
+          "daedricArtefacts": "Manufatti daedrici",
+          "bugInAJar": "Insetto in un barattolo",
+          "shouts": "Grida",
+          "uniqueArmorSets": "Set di armature unici",
+          "uniqueWeapons": "Armi uniche",
+          "shrines": "Santuari",
+          "stones": "Pietre"
+        },
+        "locations": {
+          "main": "Principale"
+        },
+        "miscellaneous": {
+          "books": "Libri",
+          "spellTomes": "Tomi di incantesimi",
+          "journals": "Riviste"
+        }
+      },
+      "dlc": {
+        "dawnguard": "Dawnguard",
+        "dragonborn": "Sangue di Drago",
+        "hearthfire": "Focolare"
+      }
+    },
+    "witcher3": {
+      "title": "The Witcher 3: Caccia Selvaggia",
+      "categories": {
+        "quests": {
+          "mainQuests": "Missioni principali",
+          "secondaryQuests": "Missioni secondarie",
+          "contracts": "Contratti",
+          "treasureHunts": "Cacce al tesoro"
+        },
+        "collectables": {
+          "diagrams": "Diagrammi"
+        },
+        "locations": {
+          "main": "Principale"
+        }
+      },
+      "dlc": {
+        "bloodAndWine": "Sangue E Vino",
+        "heartsOfStone": "Cuori Di Pietra"
+      }
+    }
   }
 }

@@ -36,13 +36,7 @@
         "steamAchievements": "Steam 成就",
         "payments": "支付",
         "settings": "设置",
-        "accountDetails": "帐户详细资料",
-        "verifyAccount": "您好，\n您最近在 Completionist 上创建了一个帐户。\n要验证您的帐户，请在应用程序中输入以下代码：\n\n{{code}}"
-      },
-      "login": {
-        "instructions1": "密码必须至少包含：",
-        "instructions2": "\n• 8 个字符\n• 1 个大写字母\n• 1 个小写字母\n• 1 个数值",
-        "accountVerification": "检查您的电子邮件并输入验证码"
+        "accountDetails": "帐户详细资料"
       },
       "selectGame": {
         "selectGameDesc1": "使用免费帐户，您可以每月选择一款游戏进行跟踪。",
@@ -75,8 +69,7 @@
       "sendRequest": {
         "subject": "主题",
         "writeRequest": "在这里写下您的要求...",
-        "requestGameDesc": "请随意请求游戏、报告错误或提出一些改进应用程序的建议！",
-        "verifyAccount": "你好，\n\n\n{{code}}"
+        "requestGameDesc": "请随意请求游戏、报告错误或提出一些改进应用程序的建议！"
       },
       "settings": {
         "description": "请随意请求游戏、报告错误或提出一些改进应用程序的建议！",
@@ -101,28 +94,19 @@
         "addSteamIdStep2": "步骤 2. 更新您的隐私偏好",
         "addSteamIdDesc3": "您还需要确保您的个人资料是公开的。",
         "addSteamIdDesc4": "您可以通过前往 Steam 偏好设置 -> 隐私设置来执行此操作",
-        "steamIdPlaceholder": "蒸汽 ID"
+        "steamIdPlaceholder": "蒸汽ID"
       },
       "errors": {
         "error": "错误",
         "pleaseRefreshApp": "请刷新应用程序",
-        "emailAlreadyExists": "电子邮件已经存在",
+        "emailAlreadyExists": "电子邮件已经存在。",
         "emailNotFound": "电子邮件找不到",
         "noEmailExists": "电子邮件不存在",
         "checkCredentials": "请检查您的凭据并重试。",
         "incorrectPw": "密码错误。",
-        "googleSignIn": "Google 登录时出错",
-        "googleSignInMsg": "获取此 Google 帐户的信息时出现问题。",
-        "accountExists": "用户名已经被注册",
-        "accountExistsMsg": "您想关联这些帐户吗?",
-        "permissionDenied": "没有权限",
-        "permissionDeniedMsg": "请通过您的 Steam 设置允许访问。",
-        "unauthorized": "未经授权",
-        "unauthorizedMsg": "您无权使用该帐户。",
-        "steamAchievements": "无法获得该游戏的 Steam 成就。"
+        "googleSignIn": "Google 登录时出错"
       },
       "alerts": {
-        "ok": "好的",
         "activate": "启用",
         "cancel": "取消",
         "changesLeft": "你将会拥有 {{changesLeft}} 改变{{s}} 左边。",
@@ -143,95 +127,95 @@
         "tr": "土耳其",
         "vi": "越南语",
         "zh": "中国人"
-      }
-    },
-    "categories": {
-      "fallout4": {
-        "title": "辐射4",
-        "categories": {
-          "quests": {
-            "mainQuests": "主线任务",
-            "factionQuests": "派系任务",
-            "sideQuests": "支线任务"
-          },
-          "collectables": {
-            "bobbleheads": "摇头娃娃",
-            "magazines": "杂志",
-            "uniqueWeapons": "独特的武器",
-            "uniqueArmor": "独特的盔甲",
-            "powerArmor": "动力装甲"
-          },
-          "locations": {
-            "main": "主要的"
-          },
-          "miscellaneous": {
-            "holotapes": "全息带"
-          }
-        },
-        "dlc": {
-          "automatron": "自动机",
-          "farHarbor": "远港",
-          "nukaWorld": "核子世界",
-          "vaultTecWorkshop": "Vault-Tec 研讨会"
-        }
       },
-      "skyrim": {
-        "title": "天际",
-        "categories": {
-          "quests": {
-            "mainQuests": "主线任务",
-            "factionQuests": "派系任务",
-            "civilWar": "内战",
-            "daedricQuests": "魔族任务",
-            "dungeonQuests": "地下城任务",
-            "miscellaneousQuests": "杂项任务",
-            "bountyQuests": "赏金任务",
-            "globalQuests": "全球任务"
+      "categories": {
+        "fallout4": {
+          "title": "辐射4",
+          "categories": {
+            "quests": {
+              "mainQuests": "主线任务",
+              "factionQuests": "派系任务",
+              "sideQuests": "支线任务"
+            },
+            "collectables": {
+              "bobbleheads": "摇头娃娃",
+              "magazines": "杂志",
+              "uniqueWeapons": "独特的武器",
+              "uniqueArmor": "独特的盔甲",
+              "powerArmor": "动力装甲"
+            },
+            "locations": {
+              "main": "主要的"
+            },
+            "miscellaneous": {
+              "holotapes": "全息带"
+            }
           },
-          "collectables": {
-            "dragonPriestMasks": "龙祭司面具",
-            "daedricArtefacts": "魔族文物",
-            "bugInAJar": "罐子里的虫子",
-            "shouts": "喊叫声",
-            "uniqueArmorSets": "独特的装甲套装",
-            "uniqueWeapons": "独特的武器",
-            "shrines": "神社",
-            "stones": "石头"
-          },
-          "locations": {
-            "main": "主要的"
-          },
-          "miscellaneous": {
-            "books": "图书",
-            "spellTomes": "法术书",
-            "journals": "期刊"
+          "dlc": {
+            "automatron": "自动机",
+            "farHarbor": "远港",
+            "nukaWorld": "核子世界",
+            "vaultTecWorkshop": "Vault-Tec 研讨会"
           }
         },
-        "dlc": {
-          "dawnguard": "黎明守卫",
-          "dragonborn": "龙裔",
-          "hearthfire": "炉火"
-        }
-      },
-      "witcher3": {
-        "title": "巫师 3：狂猎",
-        "categories": {
-          "quests": {
-            "mainQuests": "主线任务",
-            "secondaryQuests": "次要任务",
-            "contracts": "合约",
-            "treasureHunts": "寻宝"
+        "skyrim": {
+          "title": "天际",
+          "categories": {
+            "quests": {
+              "mainQuests": "主线任务",
+              "factionQuests": "派系任务",
+              "civilWar": "内战",
+              "daedricQuests": "魔族任务",
+              "dungeonQuests": "地下城任务",
+              "miscellaneousQuests": "杂项任务",
+              "bountyQuests": "赏金任务",
+              "globalQuests": "全球任务"
+            },
+            "collectables": {
+              "dragonPriestMasks": "龙祭司面具",
+              "daedricArtefacts": "魔族文物",
+              "bugInAJar": "罐子里的虫子",
+              "shouts": "喊叫声",
+              "uniqueArmorSets": "独特的装甲套装",
+              "uniqueWeapons": "独特的武器",
+              "shrines": "神社",
+              "stones": "石头"
+            },
+            "locations": {
+              "main": "主要的"
+            },
+            "miscellaneous": {
+              "books": "图书",
+              "spellTomes": "法术书",
+              "journals": "期刊"
+            }
           },
-          "collectables": {
-            "diagrams": "图表"
-          },
-          "locations": {
-            "main": "主要的"
+          "dlc": {
+            "dawnguard": "黎明守卫",
+            "dragonborn": "龙裔",
+            "hearthfire": "炉火"
           }
         },
-        "dlc": {
-          "bloodAndWine": "血与酒",
-          "heartsOfStone": "石之心"
+        "witcher3": {
+          "title": "巫师 3：狂猎",
+          "categories": {
+            "quests": {
+              "mainQuests": "主线任务",
+              "secondaryQuests": "次要任务",
+              "contracts": "合约",
+              "treasureHunts": "寻宝"
+            },
+            "collectables": {
+              "diagrams": "图表"
+            },
+            "locations": {
+              "main": "主要的"
+            }
+          },
+          "dlc": {
+            "bloodAndWine": "血与酒",
+            "heartsOfStone": "石之心"
+          }
         }
       }
     }
@@ -273,13 +257,7 @@
         "steamAchievements": "Thành tựu hơi nước",
         "payments": "Sự chi trả",
         "settings": "Cài đặt",
-        "accountDetails": "Chi tiết tài khoản",
-        "verifyAccount": "Xác thực tài khoản của bạn"
-      },
-      "login": {
-        "instructions1": "Mật khẩu phải chứa ít nhất:",
-        "instructions2": "\n• 8 ký tự \n• 1 chữ hoa\n• 1 chữ thường\n• 1 giá trị số",
-        "accountVerification": "Kiểm tra email của bạn và nhập mã xác minh"
+        "accountDetails": "Chi tiết tài khoản"
       },
       "selectGame": {
         "selectGameDesc1": "Với tài khoản Miễn phí, bạn có thể chọn một trò chơi mỗi tháng để theo dõi.",
@@ -298,7 +276,7 @@
         "prerequisiteTracking": "Theo dõi điều kiện tiên quyết tự động",
         "accessPremiumFeatures": "Truy cập vào các tính năng cao cấp",
         "accessOneGame": "Truy cập vào một trò chơi mỗi tháng",
-        "accessFiveGames": "Truy cập năm trò chơi mỗi tháng",
+        "accessFiveGames": "Truy cập vào năm trò chơi mỗi tháng",
         "accessAllGames": "Truy cập vào tất cả các trò chơi",
         "revokedAccess": "Đã thu hồi quyền truy cập vào Tính năng",
         "monthly": "hàng tháng",
@@ -312,8 +290,7 @@
       "sendRequest": {
         "subject": "Chủ thể",
         "writeRequest": "Viết yêu cầu của bạn ở đây...",
-        "requestGameDesc": "Vui lòng yêu cầu trò chơi, báo cáo lỗi hoặc đưa ra một số đề xuất để cải thiện ứng dụng!",
-        "verifyAccount": "Xin chào,\nGần đây bạn đã tạo một tài khoản với Completionist.\nĐể xác minh tài khoản của mình, vui lòng nhập mã sau vào ứng dụng:\n\n{{code}}"
+        "requestGameDesc": "Vui lòng yêu cầu trò chơi, báo cáo lỗi hoặc đưa ra một số đề xuất để cải thiện ứng dụng!"
       },
       "settings": {
         "description": "Vui lòng yêu cầu trò chơi, báo cáo lỗi hoặc đưa ra một số đề xuất để cải thiện ứng dụng!",
@@ -343,23 +320,14 @@
       "errors": {
         "error": "Lỗi",
         "pleaseRefreshApp": "Vui lòng làm mới ứng dụng",
-        "emailAlreadyExists": "Email đã tồn tại",
+        "emailAlreadyExists": "Email đã tồn tại.",
         "emailNotFound": "Không tìm thấy email",
         "noEmailExists": "Email không tồn tại",
         "checkCredentials": "Vui lòng kiểm tra thông tin xác thực của bạn và thử lại.",
         "incorrectPw": "Mật khẩu không đúng. ",
-        "googleSignIn": "Lỗi đăng nhập bằng Google",
-        "googleSignInMsg": "Sự cố khi tải thông tin cho tài khoản google này.",
-        "accountExists": "Tài khoản đã tồn tại",
-        "accountExistsMsg": "Bạn có muốn liên kết các tài khoản này không?",
-        "permissionDenied": "Quyền bị từ chối",
-        "permissionDeniedMsg": "Vui lòng cho phép truy cập thông qua cài đặt Steam của bạn.",
-        "unauthorized": "Không được phép",
-        "unauthorizedMsg": "Bạn không được phép sử dụng tài khoản này. ",
-        "steamAchievements": "Không thể nhận được thành tích Steam cho trò chơi này."
+        "googleSignIn": "Lỗi đăng nhập bằng Google"
       },
       "alerts": {
-        "ok": "Được rồi",
         "activate": "Kích hoạt",
         "cancel": "Hủy bỏ",
         "changesLeft": "Bạn sẽ có {{changesLeft}} thay đổi{{s}} bên trái.",
@@ -380,95 +348,95 @@
         "tr": "tiếng Thổ Nhĩ Kỳ",
         "vi": "Tiếng Việt",
         "zh": "người Trung Quốc"
-      }
-    },
-    "categories": {
-      "fallout4": {
-        "title": "bụi phóng xạ 4",
-        "categories": {
-          "quests": {
-            "mainQuests": "Nhiệm vụ chính",
-            "factionQuests": "Nhiệm vụ phe phái",
-            "sideQuests": "Nhiệm vụ phụ"
-          },
-          "collectables": {
-            "bobbleheads": "tóc bồng bềnh",
-            "magazines": "Tạp chí thời sự",
-            "uniqueWeapons": "Vũ khí độc đáo",
-            "uniqueArmor": "Giáp độc nhất",
-            "powerArmor": "Giáp sức mạnh"
-          },
-          "locations": {
-            "main": "Chủ yếu"
-          },
-          "miscellaneous": {
-            "holotapes": "ảnh ba chiều"
-          }
-        },
-        "dlc": {
-          "automatron": "Máy tự động",
-          "farHarbor": "Cảng xa",
-          "nukaWorld": "Thế giới Nuka",
-          "vaultTecWorkshop": "Hội thảo Vault-Tec"
-        }
       },
-      "skyrim": {
-        "title": "Skyrim",
-        "categories": {
-          "quests": {
-            "mainQuests": "Nhiệm vụ chính",
-            "factionQuests": "Nhiệm vụ phe phái",
-            "civilWar": "Nội chiến",
-            "daedricQuests": "Nhiệm vụ Daedric",
-            "dungeonQuests": "Nhiệm vụ ngục tối",
-            "miscellaneousQuests": "Nhiệm vụ khác",
-            "bountyQuests": "Nhiệm vụ tiền thưởng",
-            "globalQuests": "Nhiệm vụ toàn cầu"
+      "categories": {
+        "fallout4": {
+          "title": "bụi phóng xạ 4",
+          "categories": {
+            "quests": {
+              "mainQuests": "Nhiệm vụ chính",
+              "factionQuests": "Nhiệm vụ phe phái",
+              "sideQuests": "Nhiệm vụ phụ"
+            },
+            "collectables": {
+              "bobbleheads": "tóc bồng bềnh",
+              "magazines": "Tạp chí thời sự",
+              "uniqueWeapons": "Vũ khí độc đáo",
+              "uniqueArmor": "Giáp độc nhất",
+              "powerArmor": "Áo giáp điện"
+            },
+            "locations": {
+              "main": "Chủ yếu"
+            },
+            "miscellaneous": {
+              "holotapes": "ảnh ba chiều"
+            }
           },
-          "collectables": {
-            "dragonPriestMasks": "Mặt nạ linh mục rồng",
-            "daedricArtefacts": "Cổ vật Daedric",
-            "bugInAJar": "Lỗi trong lọ",
-            "shouts": "Tiếng la hét",
-            "uniqueArmorSets": "Bộ áo giáp độc đáo",
-            "uniqueWeapons": "Vũ khí độc đáo",
-            "shrines": "Đền thờ",
-            "stones": "Đá"
-          },
-          "locations": {
-            "main": "Chủ yếu"
-          },
-          "miscellaneous": {
-            "books": "Sách",
-            "spellTomes": "Sách đánh vần",
-            "journals": "tạp chí"
+          "dlc": {
+            "automatron": "Máy tự động",
+            "farHarbor": "Cảng xa",
+            "nukaWorld": "Thế giới Nuka",
+            "vaultTecWorkshop": "Hội thảo Vault-Tec"
           }
         },
-        "dlc": {
-          "dawnguard": "Bình minh",
-          "dragonborn": "con rồng",
-          "hearthfire": "lửa lò sưởi"
-        }
-      },
-      "witcher3": {
-        "title": "The Witcher 3: Cuộc săn hoang dã",
-        "categories": {
-          "quests": {
-            "mainQuests": "Nhiệm vụ chính",
-            "secondaryQuests": "Nhiệm vụ phụ",
-            "contracts": "Hợp đồng",
-            "treasureHunts": "Săn lùng kho báu"
+        "skyrim": {
+          "title": "Skyrim",
+          "categories": {
+            "quests": {
+              "mainQuests": "Nhiệm vụ chính",
+              "factionQuests": "Nhiệm vụ phe phái",
+              "civilWar": "Nội chiến",
+              "daedricQuests": "Nhiệm vụ Daedric",
+              "dungeonQuests": "Nhiệm vụ ngục tối",
+              "miscellaneousQuests": "Nhiệm vụ khác",
+              "bountyQuests": "Nhiệm vụ tiền thưởng",
+              "globalQuests": "Nhiệm vụ toàn cầu"
+            },
+            "collectables": {
+              "dragonPriestMasks": "Mặt nạ linh mục rồng",
+              "daedricArtefacts": "Cổ vật Daedric",
+              "bugInAJar": "Lỗi trong lọ",
+              "shouts": "Tiếng la hét",
+              "uniqueArmorSets": "Bộ áo giáp độc đáo",
+              "uniqueWeapons": "Vũ khí độc đáo",
+              "shrines": "Đền thờ",
+              "stones": "Đá"
+            },
+            "locations": {
+              "main": "Chủ yếu"
+            },
+            "miscellaneous": {
+              "books": "Sách",
+              "spellTomes": "Sách đánh vần",
+              "journals": "tạp chí"
+            }
           },
-          "collectables": {
-            "diagrams": "Sơ đồ"
-          },
-          "locations": {
-            "main": "Chủ yếu"
+          "dlc": {
+            "dawnguard": "Bình minh",
+            "dragonborn": "con rồng",
+            "hearthfire": "lửa lò sưởi"
           }
         },
-        "dlc": {
-          "bloodAndWine": "Máu Và Rượu",
-          "heartsOfStone": "trái tim bằng đá"
+        "witcher3": {
+          "title": "The Witcher 3: Cuộc săn hoang dã",
+          "categories": {
+            "quests": {
+              "mainQuests": "Nhiệm vụ chính",
+              "secondaryQuests": "Nhiệm vụ phụ",
+              "contracts": "Hợp đồng",
+              "treasureHunts": "Săn lùng kho báu"
+            },
+            "collectables": {
+              "diagrams": "Sơ đồ"
+            },
+            "locations": {
+              "main": "Chủ yếu"
+            }
+          },
+          "dlc": {
+            "bloodAndWine": "Máu Và Rượu",
+            "heartsOfStone": "trái tim bằng đá"
+          }
         }
       }
     }
@@ -510,13 +478,7 @@
         "steamAchievements": "Steam Başarıları",
         "payments": "Ödeme",
         "settings": "Ayarlar",
-        "accountDetails": "hesap detayları",
-        "verifyAccount": "Hesabınızı doğrulayın"
-      },
-      "login": {
-        "instructions1": "Şifre en az şunları içermelidir:",
-        "instructions2": "\n• 8 karakter \n• 1 büyük harf\n• 1 küçük harf\n• 1 sayısal değer",
-        "accountVerification": "E-postalarınızı kontrol edin ve doğrulama kodunu girin"
+        "accountDetails": "hesap detayları"
       },
       "selectGame": {
         "selectGameDesc1": "Ücretsiz bir hesapla, takip etmek için ayda bir oyun seçebilirsiniz.",
@@ -549,8 +511,7 @@
       "sendRequest": {
         "subject": "Ders",
         "writeRequest": "Talebinizi buraya yazın...",
-        "requestGameDesc": "Bir oyun talep etmekten, bir hatayı bildirmekten veya uygulamayı geliştirmek için bazı önerilerde bulunmaktan çekinmeyin!",
-        "verifyAccount": "Merhaba,\nYakın zamanda Completionist'te bir hesap oluşturdunuz.\nHesabınızı doğrulamak için lütfen uygulamaya aşağıdaki kodu girin:\n\n{{code}}"
+        "requestGameDesc": "Bir oyun talep etmekten, bir hatayı bildirmekten veya uygulamayı geliştirmek için bazı önerilerde bulunmaktan çekinmeyin!"
       },
       "settings": {
         "description": "Bir oyun talep etmekten, bir hatayı bildirmekten veya uygulamayı geliştirmek için bazı önerilerde bulunmaktan çekinmeyin!",
@@ -558,7 +519,7 @@
         "enabledDLC": "DLC'yi Etkinleştir/Devre Dışı Bırak:",
         "showHide": "Göster/Gizle:",
         "completedItems": "Tamamlanan Öğeler",
-        "disabledSections": "Engelli Bölümleri",
+        "disabledSections": "Engelli Bölümler",
         "changeAccountDetails": "Hesap Ayrıntılarını Değiştir",
         "selectLanguage": "Dil Seçin:"
       },
@@ -580,23 +541,14 @@
       "errors": {
         "error": "Hata",
         "pleaseRefreshApp": "Lütfen uygulamayı yenileyin",
-        "emailAlreadyExists": "Bu e-posta zaten var",
+        "emailAlreadyExists": "Bu e-posta zaten var.",
         "emailNotFound": "Email bulunamadı",
         "noEmailExists": "E-posta mevcut değil",
         "checkCredentials": "Lütfen kimlik bilgilerinizi kontrol edip tekrar deneyin.",
         "incorrectPw": "Yanlış parola. ",
-        "googleSignIn": "Google Oturum Açma Hatası",
-        "googleSignInMsg": "Bu Google hesabı için bilgi alınırken sorun oluştu.",
-        "accountExists": "Bu Hesap Zaten Mevcut",
-        "accountExistsMsg": "Bu hesapları bağlamak ister misiniz?",
-        "permissionDenied": "İzin reddedildi",
-        "permissionDeniedMsg": "Lütfen Steam ayarlarınız üzerinden erişime izin verin.",
-        "unauthorized": "Yetkisiz",
-        "unauthorizedMsg": "Bu hesabı kullanma yetkiniz yok. ",
-        "steamAchievements": "Bu oyun için Steam başarımları alınamadı."
+        "googleSignIn": "Google ile Oturum Açma Hatası"
       },
       "alerts": {
-        "ok": "Tamam",
         "activate": "Etkinleştir",
         "cancel": "İptal etmek",
         "changesLeft": "Sahip olacaksın {{changesLeft}} değiştirmek{{s}} sol.",
@@ -617,95 +569,95 @@
         "tr": "Türkçe",
         "vi": "Vietnam",
         "zh": "Çince"
-      }
-    },
-    "categories": {
-      "fallout4": {
-        "title": "Serpinti 4",
-        "categories": {
-          "quests": {
-            "mainQuests": "Ana Görevler",
-            "factionQuests": "Fraksiyon Görevleri",
-            "sideQuests": "Yan Görevler"
-          },
-          "collectables": {
-            "bobbleheads": "Bobblehead'ler",
-            "magazines": "Dergiler",
-            "uniqueWeapons": "Benzersiz Silahlar",
-            "uniqueArmor": "Benzersiz Zırh",
-            "powerArmor": "Güç Zırhı"
-          },
-          "locations": {
-            "main": "Ana"
-          },
-          "miscellaneous": {
-            "holotapes": "Sanal bantlar"
-          }
-        },
-        "dlc": {
-          "automatron": "Otomatron",
-          "farHarbor": "Uzak Liman",
-          "nukaWorld": "Nuka-Dünya",
-          "vaultTecWorkshop": "Vault-Tec Atölyesi"
-        }
       },
-      "skyrim": {
-        "title": "Skyrim",
-        "categories": {
-          "quests": {
-            "mainQuests": "Ana Görevler",
-            "factionQuests": "Fraksiyon Görevleri",
-            "civilWar": "İç savaş",
-            "daedricQuests": "Daedrik Görevler",
-            "dungeonQuests": "Zindan Görevleri",
-            "miscellaneousQuests": "Çeşitli Görevler",
-            "bountyQuests": "Ödül Görevleri",
-            "globalQuests": "Küresel Görevler"
+      "categories": {
+        "fallout4": {
+          "title": "Serpinti 4",
+          "categories": {
+            "quests": {
+              "mainQuests": "Ana Görevler",
+              "factionQuests": "Fraksiyon Görevleri",
+              "sideQuests": "Yan Görevler"
+            },
+            "collectables": {
+              "bobbleheads": "Bobblehead'ler",
+              "magazines": "Dergiler",
+              "uniqueWeapons": "Benzersiz Silahlar",
+              "uniqueArmor": "Benzersiz Zırh",
+              "powerArmor": "Güç Zırhı"
+            },
+            "locations": {
+              "main": "Ana"
+            },
+            "miscellaneous": {
+              "holotapes": "Sanal bantlar"
+            }
           },
-          "collectables": {
-            "dragonPriestMasks": "Ejderha Rahip Maskeleri",
-            "daedricArtefacts": "Daedrik Eserler",
-            "bugInAJar": "Kavanozdaki Böcek",
-            "shouts": "Bağırışlar",
-            "uniqueArmorSets": "Benzersiz Zırh Setleri",
-            "uniqueWeapons": "Benzersiz Silahlar",
-            "shrines": "Türbeler",
-            "stones": "Taşlar"
-          },
-          "locations": {
-            "main": "Ana"
-          },
-          "miscellaneous": {
-            "books": "Kitabın",
-            "spellTomes": "Büyü Kitapları",
-            "journals": "Günlükler"
+          "dlc": {
+            "automatron": "Otomatron",
+            "farHarbor": "Uzak Liman",
+            "nukaWorld": "Nuka-Dünya",
+            "vaultTecWorkshop": "Vault-Tec Atölyesi"
           }
         },
-        "dlc": {
-          "dawnguard": "Şafak Muhafızı",
-          "dragonborn": "Dragonborn",
-          "hearthfire": "Ocak ateşi"
-        }
-      },
-      "witcher3": {
-        "title": "Witcher 3: Vahşi Av",
-        "categories": {
-          "quests": {
-            "mainQuests": "Ana Görevler",
-            "secondaryQuests": "İkincil Görevler",
-            "contracts": "Sözleşmeler",
-            "treasureHunts": "Hazine avı"
+        "skyrim": {
+          "title": "Skyrim",
+          "categories": {
+            "quests": {
+              "mainQuests": "Ana Görevler",
+              "factionQuests": "Fraksiyon Görevleri",
+              "civilWar": "İç savaş",
+              "daedricQuests": "Daedrik Görevler",
+              "dungeonQuests": "Zindan Görevleri",
+              "miscellaneousQuests": "Çeşitli Görevler",
+              "bountyQuests": "Ödül Görevleri",
+              "globalQuests": "Küresel Görevler"
+            },
+            "collectables": {
+              "dragonPriestMasks": "Ejderha Rahibi Maskeleri",
+              "daedricArtefacts": "Daedrik Eserler",
+              "bugInAJar": "Kavanozdaki Böcek",
+              "shouts": "Bağırışlar",
+              "uniqueArmorSets": "Benzersiz Zırh Setleri",
+              "uniqueWeapons": "Benzersiz Silahlar",
+              "shrines": "Türbeler",
+              "stones": "Taşlar"
+            },
+            "locations": {
+              "main": "Ana"
+            },
+            "miscellaneous": {
+              "books": "Kitabın",
+              "spellTomes": "Büyü Kitapları",
+              "journals": "Günlükler"
+            }
           },
-          "collectables": {
-            "diagrams": "Diyagramlar"
-          },
-          "locations": {
-            "main": "Ana"
+          "dlc": {
+            "dawnguard": "Şafak Muhafızı",
+            "dragonborn": "Dragonborn",
+            "hearthfire": "Ocak ateşi"
           }
         },
-        "dlc": {
-          "bloodAndWine": "Kan ve Şarap",
-          "heartsOfStone": "Taş Kalpler"
+        "witcher3": {
+          "title": "Witcher 3: Vahşi Av",
+          "categories": {
+            "quests": {
+              "mainQuests": "Ana Görevler",
+              "secondaryQuests": "İkincil Görevler",
+              "contracts": "Sözleşmeler",
+              "treasureHunts": "Hazine avı"
+            },
+            "collectables": {
+              "diagrams": "Diyagramlar"
+            },
+            "locations": {
+              "main": "Ana"
+            }
+          },
+          "dlc": {
+            "bloodAndWine": "Kan ve Şarap",
+            "heartsOfStone": "Taş Kalpler"
+          }
         }
       }
     }
@@ -719,7 +671,7 @@
       "showMore": "Mostre mais",
       "none": "Nenhum",
       "main": "Principal",
-      "changesLeft": "MUDANÇAS RESTANTES: ",
+      "changesLeft": "ALTERAÇÕES RESTANTES: ",
       "active": "ATIVO",
       "inactive": "INATIVO",
       "auth": {
@@ -747,13 +699,7 @@
         "steamAchievements": "Conquistas do Steam",
         "payments": "Pagamento",
         "settings": "Configurações",
-        "accountDetails": "Detalhes da conta",
-        "verifyAccount": "Verifique sua conta"
-      },
-      "login": {
-        "instructions1": "A senha deve conter pelo menos:",
-        "instructions2": "\n• 8 caracteres \n• 1 letra maiúscula\n• 1 letra minúscula\n• 1 valor numérico",
-        "accountVerification": "Verifique seus e-mails e insira o código de verificação"
+        "accountDetails": "Detalhes da conta"
       },
       "selectGame": {
         "selectGameDesc1": "Com uma conta gratuita, você pode selecionar um jogo por mês para acompanhar.",
@@ -786,8 +732,7 @@
       "sendRequest": {
         "subject": "Assunto",
         "writeRequest": "Escreva aqui o seu pedido...",
-        "requestGameDesc": "Fique à vontade para solicitar um jogo, reportar um bug ou fazer sugestões para melhorar o app!",
-        "verifyAccount": "Olá,\nVocê criou recentemente uma conta no Completionist.\nPara verificar sua conta, insira o seguinte código no aplicativo:\n\n{{code}}"
+        "requestGameDesc": "Fique à vontade para solicitar um jogo, reportar um bug ou fazer sugestões para melhorar o app!"
       },
       "settings": {
         "description": "Fique à vontade para solicitar um jogo, reportar um bug ou fazer sugestões para melhorar o app!",
@@ -817,23 +762,14 @@
       "errors": {
         "error": "Erro",
         "pleaseRefreshApp": "Atualize o aplicativo",
-        "emailAlreadyExists": "e-mail já existe",
+        "emailAlreadyExists": "E-mail já existe.",
         "emailNotFound": "Email não encontrado",
         "noEmailExists": "E-mail não existe",
         "checkCredentials": "Verifique suas credenciais e tente novamente.",
         "incorrectPw": "Senha incorreta. ",
-        "googleSignIn": "Erro com login do Google",
-        "googleSignInMsg": "Problema ao obter informações desta conta do Google.",
-        "accountExists": "essa conta já existe",
-        "accountExistsMsg": "Gostaria de vincular essas contas?",
-        "permissionDenied": "Permissão negada",
-        "permissionDeniedMsg": "Por favor, permita o acesso através das configurações do Steam.",
-        "unauthorized": "Não autorizado",
-        "unauthorizedMsg": "Você não está autorizado a usar esta conta. ",
-        "steamAchievements": "Não foi possível obter conquistas do Steam para este jogo."
+        "googleSignIn": "Erro com login do Google"
       },
       "alerts": {
-        "ok": "OK",
         "activate": "Ativar",
         "cancel": "Cancelar",
         "changesLeft": "Voce terá {{changesLeft}} mudar{{s}} esquerda.",
@@ -854,95 +790,95 @@
         "tr": "turco",
         "vi": "vietnamita",
         "zh": "chinês"
-      }
-    },
-    "categories": {
-      "fallout4": {
-        "title": "Efeito Fallout 4",
-        "categories": {
-          "quests": {
-            "mainQuests": "Missões principais",
-            "factionQuests": "Missões de Facção",
-            "sideQuests": "Missões paralelas"
-          },
-          "collectables": {
-            "bobbleheads": "Bobbleheads",
-            "magazines": "Revistas",
-            "uniqueWeapons": "Armas únicas",
-            "uniqueArmor": "Armadura Única",
-            "powerArmor": "Armadura Potente"
-          },
-          "locations": {
-            "main": "Principal"
-          },
-          "miscellaneous": {
-            "holotapes": "Holotapes"
-          }
-        },
-        "dlc": {
-          "automatron": "Autômato",
-          "farHarbor": "Porto Distante",
-          "nukaWorld": "Nuka-Mundo",
-          "vaultTecWorkshop": "Oficina Vault-Tec"
-        }
       },
-      "skyrim": {
-        "title": "Skyrim",
-        "categories": {
-          "quests": {
-            "mainQuests": "Missões principais",
-            "factionQuests": "Missões de Facção",
-            "civilWar": "Guerra civil",
-            "daedricQuests": "Missões Daédricas",
-            "dungeonQuests": "Missões de masmorra",
-            "miscellaneousQuests": "Missões Diversas",
-            "bountyQuests": "Missões de recompensa",
-            "globalQuests": "Missões Globais"
+      "categories": {
+        "fallout4": {
+          "title": "Efeito Fallout 4",
+          "categories": {
+            "quests": {
+              "mainQuests": "Missões principais",
+              "factionQuests": "Missões de Facção",
+              "sideQuests": "Missões paralelas"
+            },
+            "collectables": {
+              "bobbleheads": "Bobbleheads",
+              "magazines": "Revistas",
+              "uniqueWeapons": "Armas únicas",
+              "uniqueArmor": "Armadura Única",
+              "powerArmor": "Armadura Potente"
+            },
+            "locations": {
+              "main": "Principal"
+            },
+            "miscellaneous": {
+              "holotapes": "Holotapes"
+            }
           },
-          "collectables": {
-            "dragonPriestMasks": "Máscaras de Sacerdote Dragão",
-            "daedricArtefacts": "Artefatos Daédricos",
-            "bugInAJar": "Bug em uma jarra",
-            "shouts": "Gritos",
-            "uniqueArmorSets": "Conjuntos de armadura exclusivos",
-            "uniqueWeapons": "Armas únicas",
-            "shrines": "Santuários",
-            "stones": "Pedras"
-          },
-          "locations": {
-            "main": "Principal"
-          },
-          "miscellaneous": {
-            "books": "Livros",
-            "spellTomes": "Tomos de feitiços",
-            "journals": "Diários"
+          "dlc": {
+            "automatron": "Autômato",
+            "farHarbor": "Porto Distante",
+            "nukaWorld": "Nuka-Mundo",
+            "vaultTecWorkshop": "Oficina Vault-Tec"
           }
         },
-        "dlc": {
-          "dawnguard": "Dawnguard",
-          "dragonborn": "Draconato",
-          "hearthfire": "Lareira"
-        }
-      },
-      "witcher3": {
-        "title": "The Witcher 3: Caça Selvagem",
-        "categories": {
-          "quests": {
-            "mainQuests": "Missões principais",
-            "secondaryQuests": "Missões Secundárias",
-            "contracts": "Contratos",
-            "treasureHunts": "Caças ao tesouro"
+        "skyrim": {
+          "title": "Skyrim",
+          "categories": {
+            "quests": {
+              "mainQuests": "Missões principais",
+              "factionQuests": "Missões de Facção",
+              "civilWar": "Guerra civil",
+              "daedricQuests": "Missões Daédricas",
+              "dungeonQuests": "Missões de masmorra",
+              "miscellaneousQuests": "Missões Diversas",
+              "bountyQuests": "Missões de recompensa",
+              "globalQuests": "Missões Globais"
+            },
+            "collectables": {
+              "dragonPriestMasks": "Máscaras de Sacerdote Dragão",
+              "daedricArtefacts": "Artefatos Daédricos",
+              "bugInAJar": "Bug em uma jarra",
+              "shouts": "Gritos",
+              "uniqueArmorSets": "Conjuntos de armadura exclusivos",
+              "uniqueWeapons": "Armas únicas",
+              "shrines": "Santuários",
+              "stones": "Pedras"
+            },
+            "locations": {
+              "main": "Principal"
+            },
+            "miscellaneous": {
+              "books": "Livros",
+              "spellTomes": "Tomos de feitiços",
+              "journals": "Diários"
+            }
           },
-          "collectables": {
-            "diagrams": "Diagramas"
-          },
-          "locations": {
-            "main": "Principal"
+          "dlc": {
+            "dawnguard": "Dawnguard",
+            "dragonborn": "Draconato",
+            "hearthfire": "Lareira"
           }
         },
-        "dlc": {
-          "bloodAndWine": "Sangue e Vinho",
-          "heartsOfStone": "Corações de pedra"
+        "witcher3": {
+          "title": "The Witcher 3: Caça Selvagem",
+          "categories": {
+            "quests": {
+              "mainQuests": "Missões principais",
+              "secondaryQuests": "Missões Secundárias",
+              "contracts": "Contratos",
+              "treasureHunts": "Caças ao tesouro"
+            },
+            "collectables": {
+              "diagrams": "Diagramas"
+            },
+            "locations": {
+              "main": "Principal"
+            }
+          },
+          "dlc": {
+            "bloodAndWine": "Sangue e Vinho",
+            "heartsOfStone": "Corações de pedra"
+          }
         }
       }
     }
@@ -956,7 +892,7 @@
       "showMore": "もっと見せる",
       "none": "なし",
       "main": "主要",
-      "changesLeft": "残された変更点: ",
+      "changesLeft": "残った変更点: ",
       "active": "アクティブ",
       "inactive": "非活性",
       "auth": {
@@ -984,13 +920,7 @@
         "steamAchievements": "Steam の実績",
         "payments": "支払い",
         "settings": "設定",
-        "accountDetails": "アカウント詳細",
-        "verifyAccount": "アカウントを確認する"
-      },
-      "login": {
-        "instructions1": "パスワードには少なくとも以下が含まれている必要があります:",
-        "instructions2": "\n• 8文字\n• 大文字1文字\n• 小文字1文字\n• 数値1つ",
-        "accountVerification": "メールを確認して確認コードを入力してください"
+        "accountDetails": "アカウント詳細"
       },
       "selectGame": {
         "selectGameDesc1": "無料アカウントでは、毎月 1 つのゲームを選択して追跡できます。",
@@ -1023,8 +953,7 @@
       "sendRequest": {
         "subject": "主題",
         "writeRequest": "ここにリクエストを書いてください...",
-        "requestGameDesc": "ゲームのリクエスト、バグの報告、アプリを改善するための提案など、お気軽にどうぞ！",
-        "verifyAccount": "こんにちは、\n最近Completionistでアカウントを作成しました。\nアカウントを確認するには、アプリケーションに次のコードを入力してください：\n\n{{code}}"
+        "requestGameDesc": "ゲームのリクエスト、バグの報告、アプリを改善するための提案など、お気軽にどうぞ！"
       },
       "settings": {
         "description": "ゲームのリクエスト、バグの報告、アプリを改善するための提案など、お気軽にどうぞ！",
@@ -1054,23 +983,14 @@
       "errors": {
         "error": "エラー",
         "pleaseRefreshApp": "アプリを更新してください",
-        "emailAlreadyExists": "メールは既に存在します",
+        "emailAlreadyExists": "メールは既に存在します。",
         "emailNotFound": "メールが見つかりません",
         "noEmailExists": "電子メールが存在しません",
         "checkCredentials": "資格情報を確認して、再試行してください。",
         "incorrectPw": "パスワードが間違っています。",
-        "googleSignIn": "Googleサインインでのエラー",
-        "googleSignInMsg": "この Google アカウントの情報を取得する際に問題が発生しました。",
-        "accountExists": "アカウントはすでに存在しています",
-        "accountExistsMsg": "これらのアカウントをリンクしますか",
-        "permissionDenied": "許可が拒否されました",
-        "permissionDeniedMsg": "Steam 設定を通じてアクセスを許可してください。",
-        "unauthorized": "無許可",
-        "unauthorizedMsg": "このアカウントを使用する権限がありません。",
-        "steamAchievements": "このゲームの Steam 実績を取得できませんでした。"
+        "googleSignIn": "Googleサインインでのエラー"
       },
       "alerts": {
-        "ok": "わかりました",
         "activate": "活性化",
         "cancel": "キャンセル",
         "changesLeft": "あなたは持っています {{changesLeft}} 変化{{s}} 左。",
@@ -1091,95 +1011,95 @@
         "tr": "トルコ語",
         "vi": "ベトナム語",
         "zh": "中国語"
-      }
-    },
-    "categories": {
-      "fallout4": {
-        "title": "フォールアウト4",
-        "categories": {
-          "quests": {
-            "mainQuests": "メインクエスト",
-            "factionQuests": "派閥クエスト",
-            "sideQuests": "サイドクエスト"
-          },
-          "collectables": {
-            "bobbleheads": "ボブルヘッド",
-            "magazines": "雑誌",
-            "uniqueWeapons": "ユニークな武器",
-            "uniqueArmor": "ユニークな鎧",
-            "powerArmor": "パワーアーマー"
-          },
-          "locations": {
-            "main": "主要"
-          },
-          "miscellaneous": {
-            "holotapes": "ホロテープ"
-          }
-        },
-        "dlc": {
-          "automatron": "オートマトロン",
-          "farHarbor": "ファーハーバー",
-          "nukaWorld": "ヌカ・ワールド",
-          "vaultTecWorkshop": "Vault-Tec ワークショップ"
-        }
       },
-      "skyrim": {
-        "title": "スカイリム",
-        "categories": {
-          "quests": {
-            "mainQuests": "メインクエスト",
-            "factionQuests": "派閥クエスト",
-            "civilWar": "内戦",
-            "daedricQuests": "デイドラクエスト",
-            "dungeonQuests": "ダンジョンクエスト",
-            "miscellaneousQuests": "その他のクエスト",
-            "bountyQuests": "賞金クエスト",
-            "globalQuests": "グローバルクエスト"
+      "categories": {
+        "fallout4": {
+          "title": "フォールアウト4",
+          "categories": {
+            "quests": {
+              "mainQuests": "メインクエスト",
+              "factionQuests": "派閥クエスト",
+              "sideQuests": "サイドクエスト"
+            },
+            "collectables": {
+              "bobbleheads": "ボブルヘッド",
+              "magazines": "雑誌",
+              "uniqueWeapons": "ユニークな武器",
+              "uniqueArmor": "ユニークな鎧",
+              "powerArmor": "パワーアーマー"
+            },
+            "locations": {
+              "main": "主要"
+            },
+            "miscellaneous": {
+              "holotapes": "ホロテープ"
+            }
           },
-          "collectables": {
-            "dragonPriestMasks": "ドラゴン プリーストの仮面",
-            "daedricArtefacts": "デイドラアーティファクト",
-            "bugInAJar": "瓶の中の虫",
-            "shouts": "叫び声",
-            "uniqueArmorSets": "ユニークな防具セット",
-            "uniqueWeapons": "ユニークな武器",
-            "shrines": "神社",
-            "stones": "石"
-          },
-          "locations": {
-            "main": "主要"
-          },
-          "miscellaneous": {
-            "books": "本",
-            "spellTomes": "呪文の本",
-            "journals": "雑誌"
+          "dlc": {
+            "automatron": "オートマトロン",
+            "farHarbor": "ファーハーバー",
+            "nukaWorld": "ヌカ・ワールド",
+            "vaultTecWorkshop": "Vault-Tec ワークショップ"
           }
         },
-        "dlc": {
-          "dawnguard": "ドーンガード",
-          "dragonborn": "ドラゴンボーン",
-          "hearthfire": "ハースファイア"
-        }
-      },
-      "witcher3": {
-        "title": "ウィッチャー3: ワイルドハント",
-        "categories": {
-          "quests": {
-            "mainQuests": "メインクエスト",
-            "secondaryQuests": "二次クエスト",
-            "contracts": "契約",
-            "treasureHunts": "宝探し"
+        "skyrim": {
+          "title": "スカイリム",
+          "categories": {
+            "quests": {
+              "mainQuests": "メインクエスト",
+              "factionQuests": "派閥クエスト",
+              "civilWar": "内戦",
+              "daedricQuests": "デイドラクエスト",
+              "dungeonQuests": "ダンジョンクエスト",
+              "miscellaneousQuests": "その他のクエスト",
+              "bountyQuests": "賞金クエスト",
+              "globalQuests": "グローバルクエスト"
+            },
+            "collectables": {
+              "dragonPriestMasks": "ドラゴン プリーストの仮面",
+              "daedricArtefacts": "デイドラアーティファクト",
+              "bugInAJar": "瓶の中の虫",
+              "shouts": "叫び声",
+              "uniqueArmorSets": "ユニークな防具セット",
+              "uniqueWeapons": "ユニークな武器",
+              "shrines": "神社",
+              "stones": "石"
+            },
+            "locations": {
+              "main": "主要"
+            },
+            "miscellaneous": {
+              "books": "本",
+              "spellTomes": "呪文の本",
+              "journals": "雑誌"
+            }
           },
-          "collectables": {
-            "diagrams": "図表"
-          },
-          "locations": {
-            "main": "主要"
+          "dlc": {
+            "dawnguard": "ドーンガード",
+            "dragonborn": "ドラゴンボーン",
+            "hearthfire": "ハースファイア"
           }
         },
-        "dlc": {
-          "bloodAndWine": "血とワイン",
-          "heartsOfStone": "ハーツ・オブ・ストーン"
+        "witcher3": {
+          "title": "ウィッチャー3: ワイルドハント",
+          "categories": {
+            "quests": {
+              "mainQuests": "メインクエスト",
+              "secondaryQuests": "二次クエスト",
+              "contracts": "契約",
+              "treasureHunts": "宝探し"
+            },
+            "collectables": {
+              "diagrams": "図表"
+            },
+            "locations": {
+              "main": "主要"
+            }
+          },
+          "dlc": {
+            "bloodAndWine": "血とワイン",
+            "heartsOfStone": "ハーツ・オブ・ストーン"
+          }
         }
       }
     }
@@ -1221,13 +1141,7 @@
         "steamAchievements": "Risultati di Steam",
         "payments": "Pagamento",
         "settings": "Impostazioni",
-        "accountDetails": "Dettagli account",
-        "verifyAccount": "Verifica il tuo account"
-      },
-      "login": {
-        "instructions1": "La password deve contenere almeno:",
-        "instructions2": "\n• 8 caratteri \n• 1 lettera maiuscola\n• 1 lettera minuscola\n• 1 valore numerico",
-        "accountVerification": "Controlla le tue email e inserisci il codice di verifica"
+        "accountDetails": "Dettagli account"
       },
       "selectGame": {
         "selectGameDesc1": "Con un account gratuito, puoi selezionare un gioco al mese da monitorare.",
@@ -1260,8 +1174,7 @@
       "sendRequest": {
         "subject": "Soggetto",
         "writeRequest": "Scrivi qui la tua richiesta...",
-        "requestGameDesc": "Sentiti libero di richiedere un gioco, segnalare un bug o dare qualche suggerimento per migliorare l'app!",
-        "verifyAccount": "Ciao,\nRecentemente hai creato un account con Completionist.\nPer verificare il tuo account, inserisci il seguente codice nell'applicazione:\n\n{{code}}"
+        "requestGameDesc": "Sentiti libero di richiedere un gioco, segnalare un bug o dare qualche suggerimento per migliorare l'app!"
       },
       "settings": {
         "description": "Sentiti libero di richiedere un gioco, segnalare un bug o dare qualche suggerimento per migliorare l'app!",
@@ -1291,23 +1204,14 @@
       "errors": {
         "error": "Errore",
         "pleaseRefreshApp": "Aggiorna l'app",
-        "emailAlreadyExists": "Email già esistente",
+        "emailAlreadyExists": "Email già esistente.",
         "emailNotFound": "E-mail non trovata",
         "noEmailExists": "L'e-mail non esiste",
         "checkCredentials": "Controlla le tue credenziali e riprova.",
         "incorrectPw": "Password errata. ",
-        "googleSignIn": "Errore con l'accesso a Google",
-        "googleSignInMsg": "Problema nel reperire informazioni per questo account Google.",
-        "accountExists": "L'account esiste già",
-        "accountExistsMsg": "Desideri collegare questi account?",
-        "permissionDenied": "Permesso negato",
-        "permissionDeniedMsg": "Consenti l'accesso tramite le impostazioni di Steam.",
-        "unauthorized": "Non autorizzato",
-        "unauthorizedMsg": "Non sei autorizzato a utilizzare questo account. ",
-        "steamAchievements": "Impossibile ottenere risultati Steam per questo gioco."
+        "googleSignIn": "Errore con l'accesso a Google"
       },
       "alerts": {
-        "ok": "OK",
         "activate": "Attivare",
         "cancel": "Annulla",
         "changesLeft": "Tu avrai {{changesLeft}} modifica{{s}} Sinistra.",
@@ -1328,102 +1232,102 @@
         "tr": "Turco",
         "vi": "vietnamita",
         "zh": "Cinese"
-      }
-    },
-    "categories": {
-      "fallout4": {
-        "title": "Fallout 4",
-        "categories": {
-          "quests": {
-            "mainQuests": "Missioni principali",
-            "factionQuests": "Missioni di fazione",
-            "sideQuests": "Missioni secondarie"
-          },
-          "collectables": {
-            "bobbleheads": "Teste molleggiate",
-            "magazines": "Riviste",
-            "uniqueWeapons": "Armi uniche",
-            "uniqueArmor": "Armatura unica",
-            "powerArmor": "Armatura potenziata"
-          },
-          "locations": {
-            "main": "Principale"
-          },
-          "miscellaneous": {
-            "holotapes": "Olonastri"
-          }
-        },
-        "dlc": {
-          "automatron": "Automatron",
-          "farHarbor": "Porto lontano",
-          "nukaWorld": "Mondo Nuka",
-          "vaultTecWorkshop": "Workshop Vault-Tec"
-        }
       },
-      "skyrim": {
-        "title": "Skyrim",
-        "categories": {
-          "quests": {
-            "mainQuests": "Missioni principali",
-            "factionQuests": "Missioni di fazione",
-            "civilWar": "Guerra civile",
-            "daedricQuests": "Missioni daedriche",
-            "dungeonQuests": "Missioni nei sotterranei",
-            "miscellaneousQuests": "Missioni varie",
-            "bountyQuests": "Missioni di taglia",
-            "globalQuests": "Missioni globali"
+      "categories": {
+        "fallout4": {
+          "title": "Fallout 4",
+          "categories": {
+            "quests": {
+              "mainQuests": "Missioni principali",
+              "factionQuests": "Missioni di fazione",
+              "sideQuests": "Missioni secondarie"
+            },
+            "collectables": {
+              "bobbleheads": "Teste molleggiate",
+              "magazines": "Riviste",
+              "uniqueWeapons": "Armi uniche",
+              "uniqueArmor": "Armatura unica",
+              "powerArmor": "Armatura potenziata"
+            },
+            "locations": {
+              "main": "Principale"
+            },
+            "miscellaneous": {
+              "holotapes": "Olonastri"
+            }
           },
-          "collectables": {
-            "dragonPriestMasks": "Maschere del Sacerdote Drago",
-            "daedricArtefacts": "Manufatti daedrici",
-            "bugInAJar": "Insetto in un barattolo",
-            "shouts": "Grida",
-            "uniqueArmorSets": "Set di armature unici",
-            "uniqueWeapons": "Armi uniche",
-            "shrines": "Santuari",
-            "stones": "Pietre"
-          },
-          "locations": {
-            "main": "Principale"
-          },
-          "miscellaneous": {
-            "books": "Libri",
-            "spellTomes": "Tomi di incantesimi",
-            "journals": "Riviste"
+          "dlc": {
+            "automatron": "Automatron",
+            "farHarbor": "Porto lontano",
+            "nukaWorld": "Mondo Nuka",
+            "vaultTecWorkshop": "Workshop Vault-Tec"
           }
         },
-        "dlc": {
-          "dawnguard": "Dawnguard",
-          "dragonborn": "Sangue di Drago",
-          "hearthfire": "Focolare"
-        }
-      },
-      "witcher3": {
-        "title": "The Witcher 3: Caccia Selvaggia",
-        "categories": {
-          "quests": {
-            "mainQuests": "Missioni principali",
-            "secondaryQuests": "Missioni secondarie",
-            "contracts": "Contratti",
-            "treasureHunts": "Cacce al tesoro"
+        "skyrim": {
+          "title": "Skyrim",
+          "categories": {
+            "quests": {
+              "mainQuests": "Missioni principali",
+              "factionQuests": "Missioni di fazione",
+              "civilWar": "Guerra civile",
+              "daedricQuests": "Missioni daedriche",
+              "dungeonQuests": "Missioni nei sotterranei",
+              "miscellaneousQuests": "Missioni varie",
+              "bountyQuests": "Missioni di taglia",
+              "globalQuests": "Missioni globali"
+            },
+            "collectables": {
+              "dragonPriestMasks": "Maschere del Sacerdote Drago",
+              "daedricArtefacts": "Manufatti daedrici",
+              "bugInAJar": "Insetto in un barattolo",
+              "shouts": "Grida",
+              "uniqueArmorSets": "Set di armature unici",
+              "uniqueWeapons": "Armi uniche",
+              "shrines": "Santuari",
+              "stones": "Pietre"
+            },
+            "locations": {
+              "main": "Principale"
+            },
+            "miscellaneous": {
+              "books": "Libri",
+              "spellTomes": "Tomi di incantesimi",
+              "journals": "Riviste"
+            }
           },
-          "collectables": {
-            "diagrams": "Diagrammi"
-          },
-          "locations": {
-            "main": "Principale"
+          "dlc": {
+            "dawnguard": "Dawnguard",
+            "dragonborn": "Sangue di Drago",
+            "hearthfire": "Focolare"
           }
         },
-        "dlc": {
-          "bloodAndWine": "Sangue E Vino",
-          "heartsOfStone": "Cuori Di Pietra"
+        "witcher3": {
+          "title": "The Witcher 3: Caccia Selvaggia",
+          "categories": {
+            "quests": {
+              "mainQuests": "Missioni principali",
+              "secondaryQuests": "Missioni secondarie",
+              "contracts": "Contratti",
+              "treasureHunts": "Cacce al tesoro"
+            },
+            "collectables": {
+              "diagrams": "Diagrammi"
+            },
+            "locations": {
+              "main": "Principale"
+            }
+          },
+          "dlc": {
+            "bloodAndWine": "Sangue E Vino",
+            "heartsOfStone": "Cuori Di Pietra"
+          }
         }
       }
     }
   },
   "id": {
     "common": {
-      "appTitle": "Kompletionis.",
+      "appTitle": "Penyelesaian.",
       "welcome": "Selamat datang",
       "continue": "Melanjutkan",
       "search": "Cari item...",
@@ -1458,13 +1362,7 @@
         "steamAchievements": "Prestasi Uap",
         "payments": "Pembayaran",
         "settings": "Pengaturan",
-        "accountDetails": "Detail akun",
-        "verifyAccount": "Verifikasi akun anda"
-      },
-      "login": {
-        "instructions1": "Kata sandi setidaknya harus berisi:",
-        "instructions2": "\n• 8 karakter \n• 1 huruf besar\n• 1 huruf kecil\n• 1 nilai numerik",
-        "accountVerification": "Periksa email Anda dan masukkan kode verifikasi"
+        "accountDetails": "Detail akun"
       },
       "selectGame": {
         "selectGameDesc1": "Dengan akun Gratis, Anda dapat memilih satu game per bulan untuk dilacak.",
@@ -1497,8 +1395,7 @@
       "sendRequest": {
         "subject": "Subjek",
         "writeRequest": "Tulis permintaan Anda di sini...",
-        "requestGameDesc": "Jangan ragu untuk meminta permainan, melaporkan bug, atau memberikan beberapa saran untuk meningkatkan aplikasi!",
-        "verifyAccount": "Halo,\nAnda baru saja membuat akun dengan Completionist.\nUntuk memverifikasi akun Anda, silakan masukkan kode berikut di aplikasi:\n\n{{code}}"
+        "requestGameDesc": "Jangan ragu untuk meminta permainan, melaporkan bug, atau memberikan beberapa saran untuk meningkatkan aplikasi!"
       },
       "settings": {
         "description": "Jangan ragu untuk meminta permainan, melaporkan bug, atau memberikan beberapa saran untuk meningkatkan aplikasi!",
@@ -1528,23 +1425,14 @@
       "errors": {
         "error": "Kesalahan",
         "pleaseRefreshApp": "Harap segarkan aplikasi",
-        "emailAlreadyExists": "Email sudah ada",
+        "emailAlreadyExists": "Email sudah ada.",
         "emailNotFound": "Email Tidak Ditemukan",
         "noEmailExists": "Emailnya tidak ada",
         "checkCredentials": "Silakan periksa kredensial Anda dan coba lagi.",
         "incorrectPw": "Kata kunci Salah. ",
-        "googleSignIn": "Terjadi kesalahan saat Masuk dengan Google",
-        "googleSignInMsg": "Terjadi masalah saat mendapatkan info untuk akun Google ini.",
-        "accountExists": "Akun sudah ada",
-        "accountExistsMsg": "Apakah Anda ingin menghubungkan akun-akun ini?",
-        "permissionDenied": "Izin ditolak",
-        "permissionDeniedMsg": "Harap izinkan akses melalui pengaturan Steam Anda.",
-        "unauthorized": "Tidak sah",
-        "unauthorizedMsg": "Anda tidak sah untuk menggunakan akun ini. ",
-        "steamAchievements": "Tidak bisa mendapatkan pencapaian uap untuk game ini."
+        "googleSignIn": "Terjadi kesalahan saat Masuk dengan Google"
       },
       "alerts": {
-        "ok": "Oke",
         "activate": "Mengaktifkan",
         "cancel": "Membatalkan",
         "changesLeft": "Anda akan memiliki {{changesLeft}} mengubah{{s}} kiri.",
@@ -1565,95 +1453,95 @@
         "tr": "Turki",
         "vi": "Orang Vietnam",
         "zh": "Cina"
-      }
-    },
-    "categories": {
-      "fallout4": {
-        "title": "Kejatuhan 4",
-        "categories": {
-          "quests": {
-            "mainQuests": "Quest Utama",
-            "factionQuests": "Pencarian Fraksi",
-            "sideQuests": "Pencarian Sampingan"
-          },
-          "collectables": {
-            "bobbleheads": "Bobblehead",
-            "magazines": "Majalah",
-            "uniqueWeapons": "Senjata Unik",
-            "uniqueArmor": "Baju Besi Unik",
-            "powerArmor": "Armor Kekuatan"
-          },
-          "locations": {
-            "main": "Utama"
-          },
-          "miscellaneous": {
-            "holotapes": "Holotape"
-          }
-        },
-        "dlc": {
-          "automatron": "robot",
-          "farHarbor": "Pelabuhan Jauh",
-          "nukaWorld": "Nuka-Dunia",
-          "vaultTecWorkshop": "Lokakarya Vault-Tec"
-        }
       },
-      "skyrim": {
-        "title": "Skyrim",
-        "categories": {
-          "quests": {
-            "mainQuests": "Quest Utama",
-            "factionQuests": "Pencarian Fraksi",
-            "civilWar": "Perang sipil",
-            "daedricQuests": "Pencarian Daedrik",
-            "dungeonQuests": "Pencarian Bawah Tanah",
-            "miscellaneousQuests": "Quest Lain-Lain",
-            "bountyQuests": "Pencarian Hadiah",
-            "globalQuests": "Pencarian Global"
+      "categories": {
+        "fallout4": {
+          "title": "Kejatuhan 4",
+          "categories": {
+            "quests": {
+              "mainQuests": "Quest Utama",
+              "factionQuests": "Pencarian Fraksi",
+              "sideQuests": "Pencarian Sampingan"
+            },
+            "collectables": {
+              "bobbleheads": "Bobblehead",
+              "magazines": "Majalah",
+              "uniqueWeapons": "Senjata Unik",
+              "uniqueArmor": "Baju Besi Unik",
+              "powerArmor": "Armor Kekuatan"
+            },
+            "locations": {
+              "main": "Utama"
+            },
+            "miscellaneous": {
+              "holotapes": "Holotape"
+            }
           },
-          "collectables": {
-            "dragonPriestMasks": "Topeng Pendeta Naga",
-            "daedricArtefacts": "Artefak Daedric",
-            "bugInAJar": "Serangga dalam Toples",
-            "shouts": "Teriakan",
-            "uniqueArmorSets": "Set Armor Unik",
-            "uniqueWeapons": "Senjata Unik",
-            "shrines": "Kuil",
-            "stones": "Batu"
-          },
-          "locations": {
-            "main": "Utama"
-          },
-          "miscellaneous": {
-            "books": "Buku",
-            "spellTomes": "Eja Tomes",
-            "journals": "Jurnal"
+          "dlc": {
+            "automatron": "robot",
+            "farHarbor": "Pelabuhan Jauh",
+            "nukaWorld": "Nuka-Dunia",
+            "vaultTecWorkshop": "Lokakarya Vault-Tec"
           }
         },
-        "dlc": {
-          "dawnguard": "Penjaga Fajar",
-          "dragonborn": "lahir naga",
-          "hearthfire": "api perapian"
-        }
-      },
-      "witcher3": {
-        "title": "The Witcher 3: Perburuan Liar",
-        "categories": {
-          "quests": {
-            "mainQuests": "Quest Utama",
-            "secondaryQuests": "Quest Sekunder",
-            "contracts": "Kontrak",
-            "treasureHunts": "Perburuan Harta Karun"
+        "skyrim": {
+          "title": "Skyrim",
+          "categories": {
+            "quests": {
+              "mainQuests": "Quest Utama",
+              "factionQuests": "Pencarian Fraksi",
+              "civilWar": "Perang sipil",
+              "daedricQuests": "Pencarian Daedrik",
+              "dungeonQuests": "Pencarian Bawah Tanah",
+              "miscellaneousQuests": "Quest Lain-Lain",
+              "bountyQuests": "Pencarian Hadiah",
+              "globalQuests": "Pencarian Global"
+            },
+            "collectables": {
+              "dragonPriestMasks": "Topeng Pendeta Naga",
+              "daedricArtefacts": "Artefak Daedric",
+              "bugInAJar": "Serangga dalam Toples",
+              "shouts": "Teriakan",
+              "uniqueArmorSets": "Set Armor Unik",
+              "uniqueWeapons": "Senjata Unik",
+              "shrines": "Kuil",
+              "stones": "Batu"
+            },
+            "locations": {
+              "main": "Utama"
+            },
+            "miscellaneous": {
+              "books": "Buku",
+              "spellTomes": "Eja Tomes",
+              "journals": "Jurnal"
+            }
           },
-          "collectables": {
-            "diagrams": "Diagram"
-          },
-          "locations": {
-            "main": "Utama"
+          "dlc": {
+            "dawnguard": "Penjaga Fajar",
+            "dragonborn": "lahir naga",
+            "hearthfire": "api perapian"
           }
         },
-        "dlc": {
-          "bloodAndWine": "Darah dan Anggur",
-          "heartsOfStone": "Hati Batu"
+        "witcher3": {
+          "title": "The Witcher 3: Perburuan Liar",
+          "categories": {
+            "quests": {
+              "mainQuests": "Quest Utama",
+              "secondaryQuests": "Quest Sekunder",
+              "contracts": "Kontrak",
+              "treasureHunts": "Perburuan Harta Karun"
+            },
+            "collectables": {
+              "diagrams": "Diagram"
+            },
+            "locations": {
+              "main": "Utama"
+            }
+          },
+          "dlc": {
+            "bloodAndWine": "Darah dan Anggur",
+            "heartsOfStone": "Hati Batu"
+          }
         }
       }
     }
@@ -1695,18 +1583,12 @@
         "steamAchievements": "भाप उपलब्धियाँ",
         "payments": "भुगतान",
         "settings": "समायोजन",
-        "accountDetails": "खाता विवरण",
-        "verifyAccount": "अपने खाते को सत्यापित करें"
-      },
-      "login": {
-        "instructions1": "पासवर्ड में कम से कम ये होना चाहिए:",
-        "instructions2": "\n• 8 अक्षर \n• 1 बड़ा अक्षर\n• 1 छोटा अक्षर\n• 1 संख्यात्मक मान",
-        "accountVerification": "अपने ईमेल जांचें और सत्यापन कोड दर्ज करें"
+        "accountDetails": "खाता विवरण"
       },
       "selectGame": {
         "selectGameDesc1": "निःशुल्क खाते के साथ, आप ट्रैक करने के लिए प्रति माह एक गेम का चयन कर सकते हैं।",
         "selectGameDesc2": "नीचे अपना पहला गेम चुनें!",
-        "selectGameDesc3": "यदि आपसे कोई गलती हो तो चिंता न करें, आप इसे प्रति माह दो बार बदल सकेंगे"
+        "selectGameDesc3": "यदि आप कोई गलती करते हैं तो चिंता न करें, आप इसे प्रति माह दो बार बदल सकेंगे"
       },
       "subscriptions": {
         "subscriptionDesc": "प्रीमियम सदस्यता के साथ,\n",
@@ -1734,8 +1616,7 @@
       "sendRequest": {
         "subject": "विषय",
         "writeRequest": "अपना अनुरोध यहां लिखें...",
-        "requestGameDesc": "बेझिझक किसी गेम के लिए अनुरोध करें, बग की रिपोर्ट करें या ऐप को बेहतर बनाने के लिए कुछ सुझाव दें!",
-        "verifyAccount": "नमस्ते, \nआपने हाल ही में कंप्लीशनिस्ट के साथ एक खाता बनाया है।\nअपना खाता सत्यापित करने के लिए, कृपया आवेदन में निम्नलिखित कोड दर्ज करें:\n\n{{code}}"
+        "requestGameDesc": "बेझिझक किसी गेम के लिए अनुरोध करें, बग की रिपोर्ट करें या ऐप को बेहतर बनाने के लिए कुछ सुझाव दें!"
       },
       "settings": {
         "description": "बेझिझक किसी गेम के लिए अनुरोध करें, बग की रिपोर्ट करें या ऐप को बेहतर बनाने के लिए कुछ सुझाव दें!",
@@ -1765,23 +1646,14 @@
       "errors": {
         "error": "गलती",
         "pleaseRefreshApp": "कृपया ऐप को रीफ्रेश करें",
-        "emailAlreadyExists": "ईमेल पहले से ही मौजूद है",
+        "emailAlreadyExists": "ईमेल पहले से ही मौजूद है।",
         "emailNotFound": "ईमेल नहीं मिला",
         "noEmailExists": "ईमेल मौजूद नहीं है",
         "checkCredentials": "कृपया अपनी साख जांचें और पुनः प्रयास करें।",
         "incorrectPw": "गलत पासवर्ड। ",
-        "googleSignIn": "Google साइन इन में त्रुटि",
-        "googleSignInMsg": "इस Google खाते की जानकारी प्राप्त करने में समस्या.",
-        "accountExists": "खाता पहले से मौजूद है",
-        "accountExistsMsg": "क्या आप इन खातों को लिंक करना चाहेंगे?",
-        "permissionDenied": "अनुमति नहीं मिली",
-        "permissionDeniedMsg": "कृपया अपनी स्टीम सेटिंग्स के माध्यम से पहुंच की अनुमति दें।",
-        "unauthorized": "अनधिकृत",
-        "unauthorizedMsg": "आप इस खाते का उपयोग करने के लिए अनधिकृत हैं. ",
-        "steamAchievements": "इस गेम के लिए स्टीम उपलब्धियां नहीं मिल सकीं."
+        "googleSignIn": "Google साइन इन में त्रुटि"
       },
       "alerts": {
-        "ok": "ठीक है",
         "activate": "सक्रिय",
         "cancel": "रद्द करना",
         "changesLeft": "आपके पास होगा {{changesLeft}} परिवर्तन{{s}} बाएं।",
@@ -1802,95 +1674,95 @@
         "tr": "तुर्की",
         "vi": "वियतनामी",
         "zh": "चीनी"
-      }
-    },
-    "categories": {
-      "fallout4": {
-        "title": "नतीजा 4",
-        "categories": {
-          "quests": {
-            "mainQuests": "मुख्य प्रश्न",
-            "factionQuests": "गुट क्वेस्ट",
-            "sideQuests": "भीतर छिपे सवाल"
-          },
-          "collectables": {
-            "bobbleheads": "बॉबलहेड्स",
-            "magazines": "पत्रिका",
-            "uniqueWeapons": "अनोखे हथियार",
-            "uniqueArmor": "अनोखा कवच",
-            "powerArmor": "शक्ति कवच"
-          },
-          "locations": {
-            "main": "मुख्य"
-          },
-          "miscellaneous": {
-            "holotapes": "होलोटेप्स"
-          }
-        },
-        "dlc": {
-          "automatron": "ऑटोमेट्रोन",
-          "farHarbor": "सुदूर बंदरगाह",
-          "nukaWorld": "नुका-विश्व",
-          "vaultTecWorkshop": "वॉल्ट-टेक कार्यशाला"
-        }
       },
-      "skyrim": {
-        "title": "Skyrim",
-        "categories": {
-          "quests": {
-            "mainQuests": "मुख्य प्रश्न",
-            "factionQuests": "गुट क्वेस्ट",
-            "civilWar": "गृहयुद्ध",
-            "daedricQuests": "डेड्रिक क्वेस्ट",
-            "dungeonQuests": "कालकोठरी क्वेस्ट",
-            "miscellaneousQuests": "विविध खोज",
-            "bountyQuests": "बाउंटी क्वेस्ट",
-            "globalQuests": "वैश्विक खोज"
+      "categories": {
+        "fallout4": {
+          "title": "नतीजा 4",
+          "categories": {
+            "quests": {
+              "mainQuests": "मुख्य प्रश्न",
+              "factionQuests": "गुट क्वेस्ट",
+              "sideQuests": "भीतर छिपे सवाल"
+            },
+            "collectables": {
+              "bobbleheads": "बॉबलहेड्स",
+              "magazines": "पत्रिका",
+              "uniqueWeapons": "अनोखे हथियार",
+              "uniqueArmor": "अनोखा कवच",
+              "powerArmor": "शक्ति कवच"
+            },
+            "locations": {
+              "main": "मुख्य"
+            },
+            "miscellaneous": {
+              "holotapes": "होलोटेप्स"
+            }
           },
-          "collectables": {
-            "dragonPriestMasks": "ड्रैगन पुजारी मुखौटे",
-            "daedricArtefacts": "डेड्रिक कलाकृतियाँ",
-            "bugInAJar": "एक जार में बग",
-            "shouts": "शाउट",
-            "uniqueArmorSets": "अद्वितीय कवच सेट",
-            "uniqueWeapons": "अनोखे हथियार",
-            "shrines": "तीर्थ",
-            "stones": "पत्थर"
-          },
-          "locations": {
-            "main": "मुख्य"
-          },
-          "miscellaneous": {
-            "books": "पुस्तकें",
-            "spellTomes": "टॉम्स वर्तनी",
-            "journals": "पत्रिकाओं"
+          "dlc": {
+            "automatron": "ऑटोमेट्रोन",
+            "farHarbor": "सुदूर बंदरगाह",
+            "nukaWorld": "नुका-विश्व",
+            "vaultTecWorkshop": "वॉल्ट-टेक कार्यशाला"
           }
         },
-        "dlc": {
-          "dawnguard": "दावन्गार्ड",
-          "dragonborn": "ड्रैगनबोर्न",
-          "hearthfire": "चूल्हे की आग"
-        }
-      },
-      "witcher3": {
-        "title": "द विचर 3: वाइल्ड हंट",
-        "categories": {
-          "quests": {
-            "mainQuests": "मुख्य प्रश्न",
-            "secondaryQuests": "माध्यमिक क्वेस्ट",
-            "contracts": "ठेके",
-            "treasureHunts": "खजाने की खोज"
+        "skyrim": {
+          "title": "Skyrim",
+          "categories": {
+            "quests": {
+              "mainQuests": "मुख्य प्रश्न",
+              "factionQuests": "गुट क्वेस्ट",
+              "civilWar": "गृहयुद्ध",
+              "daedricQuests": "डेड्रिक क्वेस्ट",
+              "dungeonQuests": "कालकोठरी क्वेस्ट",
+              "miscellaneousQuests": "विविध खोज",
+              "bountyQuests": "बाउंटी क्वेस्ट",
+              "globalQuests": "वैश्विक खोज"
+            },
+            "collectables": {
+              "dragonPriestMasks": "ड्रैगन पुजारी मुखौटे",
+              "daedricArtefacts": "डेड्रिक कलाकृतियाँ",
+              "bugInAJar": "एक जार में बग",
+              "shouts": "शाउट",
+              "uniqueArmorSets": "अद्वितीय कवच सेट",
+              "uniqueWeapons": "अनोखे हथियार",
+              "shrines": "तीर्थ",
+              "stones": "पत्थर"
+            },
+            "locations": {
+              "main": "मुख्य"
+            },
+            "miscellaneous": {
+              "books": "पुस्तकें",
+              "spellTomes": "टॉम्स वर्तनी",
+              "journals": "पत्रिकाओं"
+            }
           },
-          "collectables": {
-            "diagrams": "चित्र"
-          },
-          "locations": {
-            "main": "मुख्य"
+          "dlc": {
+            "dawnguard": "दावन्गार्ड",
+            "dragonborn": "ड्रैगनबोर्न",
+            "hearthfire": "चूल्हे की आग"
           }
         },
-        "dlc": {
-          "bloodAndWine": "खून और शराब",
-          "heartsOfStone": "पत्थर के दिल"
+        "witcher3": {
+          "title": "द विचर 3: वाइल्ड हंट",
+          "categories": {
+            "quests": {
+              "mainQuests": "मुख्य प्रश्न",
+              "secondaryQuests": "माध्यमिक क्वेस्ट",
+              "contracts": "ठेके",
+              "treasureHunts": "खजाने की खोज"
+            },
+            "collectables": {
+              "diagrams": "चित्र"
+            },
+            "locations": {
+              "main": "मुख्य"
+            }
+          },
+          "dlc": {
+            "bloodAndWine": "खून और शराब",
+            "heartsOfStone": "पत्थर के दिल"
+          }
         }
       }
     }
@@ -1932,13 +1804,7 @@
         "steamAchievements": "Succès Steam",
         "payments": "Paiement",
         "settings": "Paramètres",
-        "accountDetails": "Détails du compte",
-        "verifyAccount": "Vérifiez votre compte"
-      },
-      "login": {
-        "instructions1": "Le mot de passe doit contenir au moins :",
-        "instructions2": "\n• 8 caractères \n• 1 lettre Majuscule\n• 1 lettre minuscule\n• 1 valeur numérique",
-        "accountVerification": "Vérifiez vos e-mails et entrez le code de vérification"
+        "accountDetails": "Détails du compte"
       },
       "selectGame": {
         "selectGameDesc1": "Avec un compte gratuit, vous pouvez sélectionner un jeu par mois à suivre.",
@@ -1971,8 +1837,7 @@
       "sendRequest": {
         "subject": "Sujet",
         "writeRequest": "Écrivez votre demande ici...",
-        "requestGameDesc": "N'hésitez pas à demander un jeu, signaler un bug ou faire des suggestions pour améliorer l'application !",
-        "verifyAccount": "Bonjour,\n\n\n{{code}}"
+        "requestGameDesc": "N'hésitez pas à demander un jeu, signaler un bug ou faire des suggestions pour améliorer l'application !"
       },
       "settings": {
         "description": "N'hésitez pas à demander un jeu, signaler un bug ou faire des suggestions pour améliorer l'application !",
@@ -2002,23 +1867,14 @@
       "errors": {
         "error": "Erreur",
         "pleaseRefreshApp": "Veuillez actualiser l'application",
-        "emailAlreadyExists": "l'email existe déjà",
+        "emailAlreadyExists": "L'email existe déjà.",
         "emailNotFound": "Email non trouvé",
         "noEmailExists": "L'e-mail n'existe pas",
         "checkCredentials": "Veuillez vérifier vos informations d'identification et réessayer.",
         "incorrectPw": "Mot de passe incorrect. ",
-        "googleSignIn": "Erreur avec la connexion Google",
-        "googleSignInMsg": "Problème pour obtenir des informations sur ce compte Google.",
-        "accountExists": "Le compte existe déjà",
-        "accountExistsMsg": "Souhaitez-vous lier ces comptes ?",
-        "permissionDenied": "Permission refusée",
-        "permissionDeniedMsg": "Veuillez autoriser l'accès via vos paramètres Steam.",
-        "unauthorized": "Non autorisé",
-        "unauthorizedMsg": "Vous n'êtes pas autorisé à utiliser ce compte. ",
-        "steamAchievements": "Impossible d'obtenir les succès Steam pour ce jeu."
+        "googleSignIn": "Erreur avec la connexion Google"
       },
       "alerts": {
-        "ok": "D'accord",
         "activate": "Activer",
         "cancel": "Annuler",
         "changesLeft": "Tu vas avoir {{changesLeft}} changement{{s}} gauche.",
@@ -2039,95 +1895,95 @@
         "tr": "turc",
         "vi": "vietnamien",
         "zh": "Chinois"
-      }
-    },
-    "categories": {
-      "fallout4": {
-        "title": "Fallout 4",
-        "categories": {
-          "quests": {
-            "mainQuests": "Quêtes principales",
-            "factionQuests": "Quêtes de faction",
-            "sideQuests": "Quêtes secondaires"
-          },
-          "collectables": {
-            "bobbleheads": "Figurines à pompons",
-            "magazines": "Les magazines",
-            "uniqueWeapons": "Armes uniques",
-            "uniqueArmor": "Armure unique",
-            "powerArmor": "Armure assistée"
-          },
-          "locations": {
-            "main": "Principal"
-          },
-          "miscellaneous": {
-            "holotapes": "Holobandes"
-          }
-        },
-        "dlc": {
-          "automatron": "Automatron",
-          "farHarbor": "Port lointain",
-          "nukaWorld": "Nuka-Monde",
-          "vaultTecWorkshop": "Atelier Vault-Tec"
-        }
       },
-      "skyrim": {
-        "title": "Bordeciel",
-        "categories": {
-          "quests": {
-            "mainQuests": "Quêtes principales",
-            "factionQuests": "Quêtes de faction",
-            "civilWar": "Guerre civile",
-            "daedricQuests": "Quêtes Daedra",
-            "dungeonQuests": "Quêtes de donjon",
-            "miscellaneousQuests": "Quêtes diverses",
-            "bountyQuests": "Quêtes de prime",
-            "globalQuests": "Quêtes globales"
+      "categories": {
+        "fallout4": {
+          "title": "Fallout 4",
+          "categories": {
+            "quests": {
+              "mainQuests": "Quêtes principales",
+              "factionQuests": "Quêtes de faction",
+              "sideQuests": "Quêtes secondaires"
+            },
+            "collectables": {
+              "bobbleheads": "Figurines à pompons",
+              "magazines": "Les magazines",
+              "uniqueWeapons": "Armes uniques",
+              "uniqueArmor": "Armure unique",
+              "powerArmor": "Armure assistée"
+            },
+            "locations": {
+              "main": "Principal"
+            },
+            "miscellaneous": {
+              "holotapes": "Holobandes"
+            }
           },
-          "collectables": {
-            "dragonPriestMasks": "Masques de prêtre dragon",
-            "daedricArtefacts": "Artefacts Daedra",
-            "bugInAJar": "Un bug dans un pot",
-            "shouts": "Des cris",
-            "uniqueArmorSets": "Ensembles d'armures uniques",
-            "uniqueWeapons": "Armes uniques",
-            "shrines": "Sanctuaires",
-            "stones": "Des pierres"
-          },
-          "locations": {
-            "main": "Principal"
-          },
-          "miscellaneous": {
-            "books": "Livres",
-            "spellTomes": "Tomes de sorts",
-            "journals": "Journaux"
+          "dlc": {
+            "automatron": "Automatron",
+            "farHarbor": "Port lointain",
+            "nukaWorld": "Nuka-Monde",
+            "vaultTecWorkshop": "Atelier Vault-Tec"
           }
         },
-        "dlc": {
-          "dawnguard": "Garde-aube",
-          "dragonborn": "Enfant de Dragon",
-          "hearthfire": "Feu de foyer"
-        }
-      },
-      "witcher3": {
-        "title": "The Witcher 3 : Chasse Sauvage",
-        "categories": {
-          "quests": {
-            "mainQuests": "Quêtes principales",
-            "secondaryQuests": "Quêtes secondaires",
-            "contracts": "Contrats",
-            "treasureHunts": "Chasses aux trésors"
+        "skyrim": {
+          "title": "Bordeciel",
+          "categories": {
+            "quests": {
+              "mainQuests": "Quêtes principales",
+              "factionQuests": "Quêtes de faction",
+              "civilWar": "Guerre civile",
+              "daedricQuests": "Quêtes Daedra",
+              "dungeonQuests": "Quêtes de donjon",
+              "miscellaneousQuests": "Quêtes diverses",
+              "bountyQuests": "Quêtes de prime",
+              "globalQuests": "Quêtes globales"
+            },
+            "collectables": {
+              "dragonPriestMasks": "Masques de prêtre dragon",
+              "daedricArtefacts": "Artefacts Daedra",
+              "bugInAJar": "Un bug dans un pot",
+              "shouts": "Des cris",
+              "uniqueArmorSets": "Ensembles d'armures uniques",
+              "uniqueWeapons": "Armes uniques",
+              "shrines": "Sanctuaires",
+              "stones": "Des pierres"
+            },
+            "locations": {
+              "main": "Principal"
+            },
+            "miscellaneous": {
+              "books": "Livres",
+              "spellTomes": "Tomes de sorts",
+              "journals": "Journaux"
+            }
           },
-          "collectables": {
-            "diagrams": "Diagrammes"
-          },
-          "locations": {
-            "main": "Principal"
+          "dlc": {
+            "dawnguard": "Garde-aube",
+            "dragonborn": "Enfant de dragon",
+            "hearthfire": "Feu de foyer"
           }
         },
-        "dlc": {
-          "bloodAndWine": "Du sang et du vin",
-          "heartsOfStone": "Coeurs de pierre"
+        "witcher3": {
+          "title": "The Witcher 3 : Chasse Sauvage",
+          "categories": {
+            "quests": {
+              "mainQuests": "Quêtes principales",
+              "secondaryQuests": "Quêtes secondaires",
+              "contracts": "Contrats",
+              "treasureHunts": "Chasses aux trésors"
+            },
+            "collectables": {
+              "diagrams": "Diagrammes"
+            },
+            "locations": {
+              "main": "Principal"
+            }
+          },
+          "dlc": {
+            "bloodAndWine": "Du sang et du vin",
+            "heartsOfStone": "Coeurs de pierre"
+          }
         }
       }
     }
@@ -2169,13 +2025,7 @@
         "steamAchievements": "Logros de Steam",
         "payments": "Pago",
         "settings": "Ajustes",
-        "accountDetails": "detalles de la cuenta",
-        "verifyAccount": "Verifica tu cuenta"
-      },
-      "login": {
-        "instructions1": "La contraseña debe contener al menos:",
-        "instructions2": "\n• 8 personajes \n• 1 letra mayúscula\n• 1 letra minúscula\n• 1 valor numérico",
-        "accountVerification": "Revisa tus correos electrónicos e ingresa el código de verificación"
+        "accountDetails": "detalles de la cuenta"
       },
       "selectGame": {
         "selectGameDesc1": "Con una cuenta gratuita, puedes seleccionar un juego por mes para realizar el seguimiento.",
@@ -2207,9 +2057,8 @@
       },
       "sendRequest": {
         "subject": "Sujeto",
-        "writeRequest": "Escribe tu solicitud aquí...",
-        "requestGameDesc": "¡No dudes en solicitar un juego, informar un error o hacer algunas sugerencias para mejorar la aplicación!",
-        "verifyAccount": "Hola,\nRecientemente has creado una cuenta con Completionist.\nPara verificar su cuenta, ingrese el siguiente código en la aplicación:\n\n{{code}}"
+        "writeRequest": "Escriba su solicitud aquí...",
+        "requestGameDesc": "¡No dudes en solicitar un juego, informar un error o hacer algunas sugerencias para mejorar la aplicación!"
       },
       "settings": {
         "description": "¡No dudes en solicitar un juego, informar un error o hacer algunas sugerencias para mejorar la aplicación!",
@@ -2233,29 +2082,20 @@
         "addSteamIdDesc2": "Puedes encontrar la identificación en la parte superior de tu perfil. ",
         "addSteamIdStep2": "Paso 2. Actualice sus preferencias de privacidad",
         "addSteamIdDesc3": "También deberá asegurarse de que su perfil sea público.",
-        "addSteamIdDesc4": "Puedes hacerlo dirigiéndote a Preferencias de Steam -> Configuración de privacidad",
+        "addSteamIdDesc4": "Puedes hacer esto dirigiéndote a Preferencias de Steam -> Configuración de privacidad",
         "steamIdPlaceholder": "Identificacion de Steam"
       },
       "errors": {
         "error": "Error",
         "pleaseRefreshApp": "Por favor actualiza la aplicación",
-        "emailAlreadyExists": "el Email ya existe",
+        "emailAlreadyExists": "El Email ya existe.",
         "emailNotFound": "El correo electrónico no encontrado",
         "noEmailExists": "El correo electrónico no existe.",
         "checkCredentials": "Por favor verifique sus credenciales e inténtelo nuevamente.",
         "incorrectPw": "Contraseña incorrecta. ",
-        "googleSignIn": "Error al iniciar sesión en Google",
-        "googleSignInMsg": "Problema para obtener información para esta cuenta de Google.",
-        "accountExists": "la cuenta ya existe",
-        "accountExistsMsg": "¿Te gustaría enlazar estas cuentas?",
-        "permissionDenied": "Permiso denegado",
-        "permissionDeniedMsg": "Permita el acceso a través de la configuración de Steam.",
-        "unauthorized": "No autorizado",
-        "unauthorizedMsg": "No está autorizado a utilizar esta cuenta. ",
-        "steamAchievements": "No se pudieron obtener logros de Steam para este juego."
+        "googleSignIn": "Error al iniciar sesión en Google"
       },
       "alerts": {
-        "ok": "De acuerdo",
         "activate": "Activar",
         "cancel": "Cancelar",
         "changesLeft": "Usted tendrá {{changesLeft}} cambiar{{s}} izquierda.",
@@ -2276,95 +2116,95 @@
         "tr": "turco",
         "vi": "vietnamita",
         "zh": "Chino"
-      }
-    },
-    "categories": {
-      "fallout4": {
-        "title": "consecuencias 4",
-        "categories": {
-          "quests": {
-            "mainQuests": "Misiones principales",
-            "factionQuests": "Misiones de facción",
-            "sideQuests": "Misiones secundarias"
-          },
-          "collectables": {
-            "bobbleheads": "muñecos",
-            "magazines": "Revistas",
-            "uniqueWeapons": "Armas únicas",
-            "uniqueArmor": "Armadura única",
-            "powerArmor": "Armadura de poder"
-          },
-          "locations": {
-            "main": "Principal"
-          },
-          "miscellaneous": {
-            "holotapes": "holocintas"
-          }
-        },
-        "dlc": {
-          "automatron": "autómata",
-          "farHarbor": "Puerto lejano",
-          "nukaWorld": "Nuka-Mundo",
-          "vaultTecWorkshop": "Taller Vault-Tec"
-        }
       },
-      "skyrim": {
-        "title": "Skyrim",
-        "categories": {
-          "quests": {
-            "mainQuests": "Misiones principales",
-            "factionQuests": "Misiones de facción",
-            "civilWar": "Guerra civil",
-            "daedricQuests": "Misiones daédricas",
-            "dungeonQuests": "Misiones de mazmorra",
-            "miscellaneousQuests": "Misiones varias",
-            "bountyQuests": "Misiones de recompensa",
-            "globalQuests": "Misiones globales"
+      "categories": {
+        "fallout4": {
+          "title": "consecuencias 4",
+          "categories": {
+            "quests": {
+              "mainQuests": "Misiones principales",
+              "factionQuests": "Misiones de facción",
+              "sideQuests": "Misiones secundarias"
+            },
+            "collectables": {
+              "bobbleheads": "muñecos",
+              "magazines": "Revistas",
+              "uniqueWeapons": "Armas únicas",
+              "uniqueArmor": "Armadura única",
+              "powerArmor": "Armadura de poder"
+            },
+            "locations": {
+              "main": "Principal"
+            },
+            "miscellaneous": {
+              "holotapes": "holocintas"
+            }
           },
-          "collectables": {
-            "dragonPriestMasks": "Máscaras de sacerdote dragón",
-            "daedricArtefacts": "Artefactos daédricos",
-            "bugInAJar": "Error en un frasco",
-            "shouts": "Gritos",
-            "uniqueArmorSets": "Conjuntos de armaduras únicos",
-            "uniqueWeapons": "Armas únicas",
-            "shrines": "Santuarios",
-            "stones": "piedras"
-          },
-          "locations": {
-            "main": "Principal"
-          },
-          "miscellaneous": {
-            "books": "Libros",
-            "spellTomes": "Tomos de hechizos",
-            "journals": "Revistas"
+          "dlc": {
+            "automatron": "autómata",
+            "farHarbor": "Puerto lejano",
+            "nukaWorld": "Nuka-Mundo",
+            "vaultTecWorkshop": "Taller Vault-Tec"
           }
         },
-        "dlc": {
-          "dawnguard": "guardia del alba",
-          "dragonborn": "nacido de dragón",
-          "hearthfire": "fuego de hogar"
-        }
-      },
-      "witcher3": {
-        "title": "The Witcher 3: Caza salvaje",
-        "categories": {
-          "quests": {
-            "mainQuests": "Misiones principales",
-            "secondaryQuests": "Misiones secundarias",
-            "contracts": "Contratos",
-            "treasureHunts": "Búsqueda del tesoro"
+        "skyrim": {
+          "title": "Skyrim",
+          "categories": {
+            "quests": {
+              "mainQuests": "Misiones principales",
+              "factionQuests": "Misiones de facción",
+              "civilWar": "Guerra civil",
+              "daedricQuests": "Misiones daédricas",
+              "dungeonQuests": "Misiones de mazmorra",
+              "miscellaneousQuests": "Misiones varias",
+              "bountyQuests": "Misiones de recompensa",
+              "globalQuests": "Misiones globales"
+            },
+            "collectables": {
+              "dragonPriestMasks": "Máscaras de sacerdote dragón",
+              "daedricArtefacts": "Artefactos daédricos",
+              "bugInAJar": "Error en un frasco",
+              "shouts": "Gritos",
+              "uniqueArmorSets": "Conjuntos de armaduras únicos",
+              "uniqueWeapons": "Armas únicas",
+              "shrines": "Santuarios",
+              "stones": "piedras"
+            },
+            "locations": {
+              "main": "Principal"
+            },
+            "miscellaneous": {
+              "books": "Libros",
+              "spellTomes": "Tomos de hechizos",
+              "journals": "Revistas"
+            }
           },
-          "collectables": {
-            "diagrams": "Diagramas"
-          },
-          "locations": {
-            "main": "Principal"
+          "dlc": {
+            "dawnguard": "guardia del alba",
+            "dragonborn": "nacido de dragón",
+            "hearthfire": "fuego de hogar"
           }
         },
-        "dlc": {
-          "bloodAndWine": "sangre y vino",
-          "heartsOfStone": "Corazones de piedra"
+        "witcher3": {
+          "title": "The Witcher 3: Caza salvaje",
+          "categories": {
+            "quests": {
+              "mainQuests": "Misiones principales",
+              "secondaryQuests": "Misiones secundarias",
+              "contracts": "Contratos",
+              "treasureHunts": "Búsqueda del tesoro"
+            },
+            "collectables": {
+              "diagrams": "Diagramas"
+            },
+            "locations": {
+              "main": "Principal"
+            }
+          },
+          "dlc": {
+            "bloodAndWine": "sangre y vino",
+            "heartsOfStone": "Corazones de piedra"
+          }
         }
       }
     }
@@ -2406,13 +2246,7 @@
         "steamAchievements": "Steam Achievements",
         "payments": "Payment",
         "settings": "Settings",
-        "accountDetails": "Account Details",
-        "verifyAccount": "Verify Your Account"
-      },
-      "login": {
-        "instructions1": "Password must contain at least:",
-        "instructions2": "\n• 8 characters \n• 1 uppercase letter\n• 1 lowercase letter\n• 1 numerical value",
-        "accountVerification": "Check your emails and enter the verification code"
+        "accountDetails": "Account Details"
       },
       "selectGame": {
         "selectGameDesc1": "With a Free account, you can select one game per month to track.",
@@ -2445,8 +2279,7 @@
       "sendRequest": {
         "subject": "Subject",
         "writeRequest": "Write your request here...",
-        "requestGameDesc": "Feel free to request a game, report a bug or make some suggestions to improve the app!",
-        "verifyAccount": "Hello,\nYou have recently created an account with Completionist.\nTo verify your account, please enter the following code in the application:\n\n{{code}}"
+        "requestGameDesc": "Feel free to request a game, report a bug or make some suggestions to improve the app!"
       },
       "settings": {
         "description": "Feel free to request a game, report a bug or make some suggestions to improve the app!",
@@ -2476,23 +2309,14 @@
       "errors": {
         "error": "Error",
         "pleaseRefreshApp": "Please refresh the app",
-        "emailAlreadyExists": "Email already exists",
+        "emailAlreadyExists": "Email already exists.",
         "emailNotFound": "Email Not Found",
         "noEmailExists": "Email does not exist",
         "checkCredentials": "Please check your credentials and try again.",
         "incorrectPw": "Incorrect password. Please try again.",
-        "googleSignIn": "Error with Google Sign In",
-        "googleSignInMsg": "Problem getting info for this google account.",
-        "accountExists": "Account already exists",
-        "accountExistsMsg": "Would you like to link these accounts?",
-        "permissionDenied": "Permission Denied",
-        "permissionDeniedMsg": "Please allow access through your Steam settings.",
-        "unauthorized": "Unauthorized",
-        "unauthorizedMsg": "You are unauthorized to use this account. Please try logging in again.",
-        "steamAchievements": "Could not get steam achievements for this game."
+        "googleSignIn": "Error with Google Sign In"
       },
       "alerts": {
-        "ok": "Ok",
         "activate": "Activate",
         "cancel": "Cancel",
         "changesLeft": "You will have {{changesLeft}} change{{s}} left.",
@@ -2513,95 +2337,95 @@
         "tr": "Turkish",
         "vi": "Vietnamese",
         "zh": "Chinese"
-      }
-    },
-    "categories": {
-      "fallout4": {
-        "title": "Fallout 4",
-        "categories": {
-          "quests": {
-            "mainQuests": "Main Quests",
-            "factionQuests": "Faction Quests",
-            "sideQuests": "Side Quests"
-          },
-          "collectables": {
-            "bobbleheads": "Bobbleheads",
-            "magazines": "Magazines",
-            "uniqueWeapons": "Unique Weapons",
-            "uniqueArmor": "Unique Armor",
-            "powerArmor": "Power Armor"
-          },
-          "locations": {
-            "main": "Main"
-          },
-          "miscellaneous": {
-            "holotapes": "Holotapes"
-          }
-        },
-        "dlc": {
-          "automatron": "Automatron",
-          "farHarbor": "Far Harbor",
-          "nukaWorld": "Nuka-World",
-          "vaultTecWorkshop": "Vault-Tec Workshop"
-        }
       },
-      "skyrim": {
-        "title": "Skyrim",
-        "categories": {
-          "quests": {
-            "mainQuests": "Main Quests",
-            "factionQuests": "Faction Quests",
-            "civilWar": "Civil War",
-            "daedricQuests": "Daedric Quests",
-            "dungeonQuests": "Dungeon Quests",
-            "miscellaneousQuests": "Miscellaneous Quests",
-            "bountyQuests": "Bounty Quests",
-            "globalQuests": "Global Quests"
+      "categories": {
+        "fallout4": {
+          "title": "Fallout 4",
+          "categories": {
+            "quests": {
+              "mainQuests": "Main Quests",
+              "factionQuests": "Faction Quests",
+              "sideQuests": "Side Quests"
+            },
+            "collectables": {
+              "bobbleheads": "Bobbleheads",
+              "magazines": "Magazines",
+              "uniqueWeapons": "Unique Weapons",
+              "uniqueArmor": "Unique Armor",
+              "powerArmor": "Power Armor"
+            },
+            "locations": {
+              "main": "Main"
+            },
+            "miscellaneous": {
+              "holotapes": "Holotapes"
+            }
           },
-          "collectables": {
-            "dragonPriestMasks": "Dragon Priest Masks",
-            "daedricArtefacts": "Daedric Artefacts",
-            "bugInAJar": "Bug in a Jar",
-            "shouts": "Shouts",
-            "uniqueArmorSets": "Unique Armor Sets",
-            "uniqueWeapons": "Unique Weapons",
-            "shrines": "Shrines",
-            "stones": "Stones"
-          },
-          "locations": {
-            "main": "Main"
-          },
-          "miscellaneous": {
-            "books": "Books",
-            "spellTomes": "Spell Tomes",
-            "journals": "Journals"
+          "dlc": {
+            "automatron": "Automatron",
+            "farHarbor": "Far Harbor",
+            "nukaWorld": "Nuka-World",
+            "vaultTecWorkshop": "Vault-Tec Workshop"
           }
         },
-        "dlc": {
-          "dawnguard": "Dawnguard",
-          "dragonborn": "Dragonborn",
-          "hearthfire": "Hearthfire"
-        }
-      },
-      "witcher3": {
-        "title": "The Witcher 3: Wild Hunt",
-        "categories": {
-          "quests": {
-            "mainQuests": "Main Quests",
-            "secondaryQuests": "Secondary Quests",
-            "contracts": "Contracts",
-            "treasureHunts": "Treasure Hunts"
+        "skyrim": {
+          "title": "Skyrim",
+          "categories": {
+            "quests": {
+              "mainQuests": "Main Quests",
+              "factionQuests": "Faction Quests",
+              "civilWar": "Civil War",
+              "daedricQuests": "Daedric Quests",
+              "dungeonQuests": "Dungeon Quests",
+              "miscellaneousQuests": "Miscellaneous Quests",
+              "bountyQuests": "Bounty Quests",
+              "globalQuests": "Global Quests"
+            },
+            "collectables": {
+              "dragonPriestMasks": "Dragon Priest Masks",
+              "daedricArtefacts": "Daedric Artefacts",
+              "bugInAJar": "Bug in a Jar",
+              "shouts": "Shouts",
+              "uniqueArmorSets": "Unique Armor Sets",
+              "uniqueWeapons": "Unique Weapons",
+              "shrines": "Shrines",
+              "stones": "Stones"
+            },
+            "locations": {
+              "main": "Main"
+            },
+            "miscellaneous": {
+              "books": "Books",
+              "spellTomes": "Spell Tomes",
+              "journals": "Journals"
+            }
           },
-          "collectables": {
-            "diagrams": "Diagrams"
-          },
-          "locations": {
-            "main": "Main"
+          "dlc": {
+            "dawnguard": "Dawnguard",
+            "dragonborn": "Dragonborn",
+            "hearthfire": "Hearthfire"
           }
         },
-        "dlc": {
-          "bloodAndWine": "Blood And Wine",
-          "heartsOfStone": "Hearts Of Stone"
+        "witcher3": {
+          "title": "The Witcher 3: Wild Hunt",
+          "categories": {
+            "quests": {
+              "mainQuests": "Main Quests",
+              "secondaryQuests": "Secondary Quests",
+              "contracts": "Contracts",
+              "treasureHunts": "Treasure Hunts"
+            },
+            "collectables": {
+              "diagrams": "Diagrams"
+            },
+            "locations": {
+              "main": "Main"
+            }
+          },
+          "dlc": {
+            "bloodAndWine": "Blood And Wine",
+            "heartsOfStone": "Hearts Of Stone"
+          }
         }
       }
     }
@@ -2643,13 +2467,7 @@
         "steamAchievements": "Steam-Erfolge",
         "payments": "Zahlung",
         "settings": "Einstellungen",
-        "accountDetails": "Kontodetails",
-        "verifyAccount": "Überprüfen Sie Ihr Konto"
-      },
-      "login": {
-        "instructions1": "Das Passwort muss mindestens Folgendes enthalten:",
-        "instructions2": "\n• 8 Charaktere \n• 1 Großbuchstabe\n• 1 Kleinbuchstabe\n• 1 numerischer Wert",
-        "accountVerification": "Überprüfen Sie Ihre E-Mails und geben Sie den Bestätigungscode ein"
+        "accountDetails": "Kontodetails"
       },
       "selectGame": {
         "selectGameDesc1": "Mit einem kostenlosen Konto können Sie ein Spiel pro Monat zum Verfolgen auswählen.",
@@ -2682,8 +2500,7 @@
       "sendRequest": {
         "subject": "Thema",
         "writeRequest": "Schreiben Sie hier Ihre Anfrage...",
-        "requestGameDesc": "Fordern Sie gerne ein Spiel an, melden Sie einen Fehler oder machen Sie Vorschläge zur Verbesserung der App!",
-        "verifyAccount": "Hallo,\nSie haben kürzlich ein Konto bei Completionist erstellt.\nUm Ihr Konto zu verifizieren, geben Sie bitte den folgenden Code in den Antrag ein:\n\n{{code}}"
+        "requestGameDesc": "Fordern Sie gerne ein Spiel an, melden Sie einen Fehler oder machen Sie Vorschläge zur Verbesserung der App!"
       },
       "settings": {
         "description": "Fordern Sie gerne ein Spiel an, melden Sie einen Fehler oder machen Sie Vorschläge zur Verbesserung der App!",
@@ -2713,23 +2530,14 @@
       "errors": {
         "error": "Fehler",
         "pleaseRefreshApp": "Bitte aktualisieren Sie die App",
-        "emailAlreadyExists": "E-Mail existiert bereits",
+        "emailAlreadyExists": "E-Mail existiert bereits.",
         "emailNotFound": "Email wurde nicht gefunden",
         "noEmailExists": "Email existiert nicht",
         "checkCredentials": "Bitte überprüfen Sie Ihre Anmeldedaten und versuchen Sie es erneut.",
         "incorrectPw": "Falsches Passwort. ",
-        "googleSignIn": "Fehler bei der Google-Anmeldung",
-        "googleSignInMsg": "Beim Abrufen der Informationen für dieses Google-Konto ist ein Problem aufgetreten.",
-        "accountExists": "Konto existiert bereits",
-        "accountExistsMsg": "Möchten Sie diese Konten verknüpfen?",
-        "permissionDenied": "Zugriff verweigert",
-        "permissionDeniedMsg": "Bitte erlauben Sie den Zugriff über Ihre Steam-Einstellungen.",
-        "unauthorized": "Nicht autorisiert",
-        "unauthorizedMsg": "Sie sind nicht berechtigt, dieses Konto zu verwenden. ",
-        "steamAchievements": "Für dieses Spiel konnten keine Steam-Erfolge erzielt werden."
+        "googleSignIn": "Fehler bei der Google-Anmeldung"
       },
       "alerts": {
-        "ok": "OK",
         "activate": "aktivieren Sie",
         "cancel": "Stornieren",
         "changesLeft": "Du wirst haben {{changesLeft}} ändern{{s}} links.",
@@ -2750,95 +2558,95 @@
         "tr": "Türkisch",
         "vi": "Vietnamesisch",
         "zh": "Chinesisch"
-      }
-    },
-    "categories": {
-      "fallout4": {
-        "title": "Fallout 4",
-        "categories": {
-          "quests": {
-            "mainQuests": "Hauptquests",
-            "factionQuests": "Fraktionsquests",
-            "sideQuests": "Nebenmissionen"
-          },
-          "collectables": {
-            "bobbleheads": "Wackelköpfe",
-            "magazines": "Zeitschriften",
-            "uniqueWeapons": "Einzigartige Waffen",
-            "uniqueArmor": "Einzigartige Rüstung",
-            "powerArmor": "Powerrüstung"
-          },
-          "locations": {
-            "main": "Hauptsächlich"
-          },
-          "miscellaneous": {
-            "holotapes": "Holobänder"
-          }
-        },
-        "dlc": {
-          "automatron": "Automatron",
-          "farHarbor": "Far Harbor",
-          "nukaWorld": "Nuka-Welt",
-          "vaultTecWorkshop": "Vault-Tec-Workshop"
-        }
       },
-      "skyrim": {
-        "title": "Skyrim",
-        "categories": {
-          "quests": {
-            "mainQuests": "Hauptquests",
-            "factionQuests": "Fraktionsquests",
-            "civilWar": "Bürgerkrieg",
-            "daedricQuests": "Daedrische Quests",
-            "dungeonQuests": "Dungeon-Quests",
-            "miscellaneousQuests": "Verschiedene Quests",
-            "bountyQuests": "Kopfgeldquests",
-            "globalQuests": "Globale Quests"
+      "categories": {
+        "fallout4": {
+          "title": "Fallout 4",
+          "categories": {
+            "quests": {
+              "mainQuests": "Hauptquests",
+              "factionQuests": "Fraktionsquests",
+              "sideQuests": "Nebenmissionen"
+            },
+            "collectables": {
+              "bobbleheads": "Wackelköpfe",
+              "magazines": "Zeitschriften",
+              "uniqueWeapons": "Einzigartige Waffen",
+              "uniqueArmor": "Einzigartige Rüstung",
+              "powerArmor": "Powerrüstung"
+            },
+            "locations": {
+              "main": "Hauptsächlich"
+            },
+            "miscellaneous": {
+              "holotapes": "Holobänder"
+            }
           },
-          "collectables": {
-            "dragonPriestMasks": "Drachenpriester-Masken",
-            "daedricArtefacts": "Daedrische Artefakte",
-            "bugInAJar": "Käfer im Glas",
-            "shouts": "Geschrei",
-            "uniqueArmorSets": "Einzigartige Rüstungssets",
-            "uniqueWeapons": "Einzigartige Waffen",
-            "shrines": "Schreine",
-            "stones": "Steine"
-          },
-          "locations": {
-            "main": "Hauptsächlich"
-          },
-          "miscellaneous": {
-            "books": "Bücher",
-            "spellTomes": "Zauberbücher",
-            "journals": "Zeitschriften"
+          "dlc": {
+            "automatron": "Automatron",
+            "farHarbor": "Far Harbor",
+            "nukaWorld": "Nuka-Welt",
+            "vaultTecWorkshop": "Vault-Tec-Workshop"
           }
         },
-        "dlc": {
-          "dawnguard": "Dawnguard",
-          "dragonborn": "Drachengeborenes",
-          "hearthfire": "Herdfeuer"
-        }
-      },
-      "witcher3": {
-        "title": "The Witcher 3: Wild Hunt",
-        "categories": {
-          "quests": {
-            "mainQuests": "Hauptquests",
-            "secondaryQuests": "Sekundäre Quests",
-            "contracts": "Verträge",
-            "treasureHunts": "Schatzsuche"
+        "skyrim": {
+          "title": "Skyrim",
+          "categories": {
+            "quests": {
+              "mainQuests": "Hauptquests",
+              "factionQuests": "Fraktionsquests",
+              "civilWar": "Bürgerkrieg",
+              "daedricQuests": "Daedrische Quests",
+              "dungeonQuests": "Dungeon-Quests",
+              "miscellaneousQuests": "Verschiedene Quests",
+              "bountyQuests": "Kopfgeldquests",
+              "globalQuests": "Globale Quests"
+            },
+            "collectables": {
+              "dragonPriestMasks": "Drachenpriester-Masken",
+              "daedricArtefacts": "Daedrische Artefakte",
+              "bugInAJar": "Käfer im Glas",
+              "shouts": "Geschrei",
+              "uniqueArmorSets": "Einzigartige Rüstungssets",
+              "uniqueWeapons": "Einzigartige Waffen",
+              "shrines": "Schreine",
+              "stones": "Steine"
+            },
+            "locations": {
+              "main": "Hauptsächlich"
+            },
+            "miscellaneous": {
+              "books": "Bücher",
+              "spellTomes": "Zauberbücher",
+              "journals": "Zeitschriften"
+            }
           },
-          "collectables": {
-            "diagrams": "Diagramme"
-          },
-          "locations": {
-            "main": "Hauptsächlich"
+          "dlc": {
+            "dawnguard": "Dawnguard",
+            "dragonborn": "Drachengeborenes",
+            "hearthfire": "Herdfeuer"
           }
         },
-        "dlc": {
-          "bloodAndWine": "Blut und Wein",
-          "heartsOfStone": "Herzen aus Stein"
+        "witcher3": {
+          "title": "The Witcher 3: Wild Hunt",
+          "categories": {
+            "quests": {
+              "mainQuests": "Hauptquests",
+              "secondaryQuests": "Sekundäre Quests",
+              "contracts": "Verträge",
+              "treasureHunts": "Schatzsuche"
+            },
+            "collectables": {
+              "diagrams": "Diagramme"
+            },
+            "locations": {
+              "main": "Hauptsächlich"
+            }
+          },
+          "dlc": {
+            "bloodAndWine": "Blut und Wein",
+            "heartsOfStone": "Herzen aus Stein"
+          }
         }
       }
     }
@@ -2880,13 +2688,7 @@
         "steamAchievements": "إنجازات البخار",
         "payments": "قسط",
         "settings": "إعدادات",
-        "accountDetails": "تفاصيل الحساب",
-        "verifyAccount": "تحقق من حسابك"
-      },
-      "login": {
-        "instructions1": "يجب أن تحتوي كلمة المرور على الأقل على:",
-        "instructions2": "\n• 8 أحرف \n• 1 حرف كبير\n• 1 حرف صغير\n• 1 قيمة رقمية",
-        "accountVerification": "تحقق من رسائل البريد الإلكتروني الخاصة بك وأدخل رمز التحقق"
+        "accountDetails": "تفاصيل الحساب"
       },
       "selectGame": {
         "selectGameDesc1": "باستخدام الحساب المجاني، يمكنك اختيار لعبة واحدة كل شهر لتتبعها.",
@@ -2919,8 +2721,7 @@
       "sendRequest": {
         "subject": "موضوع",
         "writeRequest": "أكتب طلبك هنا...",
-        "requestGameDesc": "لا تتردد في طلب لعبة أو الإبلاغ عن خطأ أو تقديم بعض الاقتراحات لتحسين التطبيق!",
-        "verifyAccount": "مرحبًا، ,\nلقد قمت مؤخرًا بإنشاء حساب مع Completionist.\nللتحقق من حسابك، يرجى إدخال الرمز التالي في التطبيق:\n\n{{code}}"
+        "requestGameDesc": "لا تتردد في طلب لعبة أو الإبلاغ عن خطأ أو تقديم بعض الاقتراحات لتحسين التطبيق!"
       },
       "settings": {
         "description": "لا تتردد في طلب لعبة أو الإبلاغ عن خطأ أو تقديم بعض الاقتراحات لتحسين التطبيق!",
@@ -2950,23 +2751,14 @@
       "errors": {
         "error": "خطأ",
         "pleaseRefreshApp": "يرجى تحديث التطبيق",
-        "emailAlreadyExists": "البريد الالكتروني موجود بالفعل",
+        "emailAlreadyExists": "البريد الالكتروني موجود بالفعل.",
         "emailNotFound": "البريد الإلكتروني غير موجود",
         "noEmailExists": "البريد الإلكتروني غير موجود",
         "checkCredentials": "يرجى التحقق من بيانات الاعتماد الخاصة بك وحاول مرة أخرى.",
         "incorrectPw": "كلمة سر خاطئة. ",
-        "googleSignIn": "حدث خطأ أثناء تسجيل الدخول إلى Google",
-        "googleSignInMsg": "حدثت مشكلة أثناء الحصول على معلومات لحساب Google هذا.",
-        "accountExists": "الحساب موجود بالفعل",
-        "accountExistsMsg": "هل ترغب في ربط هذه الحسابات؟",
-        "permissionDenied": "تم رفض الإذن",
-        "permissionDeniedMsg": "يرجى السماح بالوصول من خلال إعدادات Steam الخاصة بك.",
-        "unauthorized": "غير مصرح",
-        "unauthorizedMsg": "أنت غير مصرح لك باستخدام هذا الحساب. ",
-        "steamAchievements": "لا يمكن الحصول على إنجازات البخار لهذه اللعبة."
+        "googleSignIn": "حدث خطأ أثناء تسجيل الدخول إلى Google"
       },
       "alerts": {
-        "ok": "نعم",
         "activate": "تفعيل",
         "cancel": "يلغي",
         "changesLeft": "ستملك {{changesLeft}} يتغير{{s}} غادر.",
@@ -2987,95 +2779,95 @@
         "tr": "اللغة التركية",
         "vi": "الفيتنامية",
         "zh": "صينى"
-      }
-    },
-    "categories": {
-      "fallout4": {
-        "title": "تداعيات 4",
-        "categories": {
-          "quests": {
-            "mainQuests": "المهام الرئيسية",
-            "factionQuests": "أسئلة الفصائل",
-            "sideQuests": "أسئلة جانبية"
-          },
-          "collectables": {
-            "bobbleheads": "رؤؤس فقاعية",
-            "magazines": "المجلات",
-            "uniqueWeapons": "أسلحة فريدة من نوعها",
-            "uniqueArmor": "درع فريد",
-            "powerArmor": "درع القوة"
-          },
-          "locations": {
-            "main": "رئيسي"
-          },
-          "miscellaneous": {
-            "holotapes": "هولوتابس"
-          }
-        },
-        "dlc": {
-          "automatron": "آلي",
-          "farHarbor": "فار هاربور",
-          "nukaWorld": "نوكا وورلد",
-          "vaultTecWorkshop": "ورشة فولت تيك"
-        }
       },
-      "skyrim": {
-        "title": "سكيريم",
-        "categories": {
-          "quests": {
-            "mainQuests": "المهام الرئيسية",
-            "factionQuests": "أسئلة الفصائل",
-            "civilWar": "حرب اهلية",
-            "daedricQuests": "أسئلة ديدريك",
-            "dungeonQuests": "أسئلة الزنزانة",
-            "miscellaneousQuests": "أسئلة متنوعة",
-            "bountyQuests": "أسئلة المكافأة",
-            "globalQuests": "المهام العالمية"
+      "categories": {
+        "fallout4": {
+          "title": "تداعيات 4",
+          "categories": {
+            "quests": {
+              "mainQuests": "المهام الرئيسية",
+              "factionQuests": "أسئلة الفصائل",
+              "sideQuests": "أسئلة جانبية"
+            },
+            "collectables": {
+              "bobbleheads": "رؤؤس فقاعية",
+              "magazines": "المجلات",
+              "uniqueWeapons": "أسلحة فريدة من نوعها",
+              "uniqueArmor": "درع فريد",
+              "powerArmor": "درع القوة"
+            },
+            "locations": {
+              "main": "رئيسي"
+            },
+            "miscellaneous": {
+              "holotapes": "هولوتابس"
+            }
           },
-          "collectables": {
-            "dragonPriestMasks": "أقنعة كاهن التنين",
-            "daedricArtefacts": "التحف ديدريك",
-            "bugInAJar": "علة في جرة",
-            "shouts": "صيحات",
-            "uniqueArmorSets": "مجموعات دروع فريدة من نوعها",
-            "uniqueWeapons": "أسلحة فريدة من نوعها",
-            "shrines": "المزارات",
-            "stones": "الحجارة"
-          },
-          "locations": {
-            "main": "رئيسي"
-          },
-          "miscellaneous": {
-            "books": "كتب",
-            "spellTomes": "المجلدات الإملائية",
-            "journals": "المجلات"
+          "dlc": {
+            "automatron": "آلي",
+            "farHarbor": "فار هاربور",
+            "nukaWorld": "نوكا وورلد",
+            "vaultTecWorkshop": "ورشة فولت تيك"
           }
         },
-        "dlc": {
-          "dawnguard": "داونغارد",
-          "dragonborn": "دراجونبورن",
-          "hearthfire": "نار الموقد"
-        }
-      },
-      "witcher3": {
-        "title": "الويتشر 3: الصيد البري",
-        "categories": {
-          "quests": {
-            "mainQuests": "المهام الرئيسية",
-            "secondaryQuests": "أسئلة ثانوية",
-            "contracts": "انكماش",
-            "treasureHunts": "البحث عن الكنز"
+        "skyrim": {
+          "title": "سكيريم",
+          "categories": {
+            "quests": {
+              "mainQuests": "المهام الرئيسية",
+              "factionQuests": "أسئلة الفصائل",
+              "civilWar": "حرب اهلية",
+              "daedricQuests": "أسئلة ديدريك",
+              "dungeonQuests": "أسئلة الزنزانة",
+              "miscellaneousQuests": "أسئلة متنوعة",
+              "bountyQuests": "أسئلة المكافأة",
+              "globalQuests": "المهام العالمية"
+            },
+            "collectables": {
+              "dragonPriestMasks": "أقنعة كاهن التنين",
+              "daedricArtefacts": "التحف ديدريك",
+              "bugInAJar": "علة في جرة",
+              "shouts": "صيحات",
+              "uniqueArmorSets": "مجموعات دروع فريدة من نوعها",
+              "uniqueWeapons": "أسلحة فريدة من نوعها",
+              "shrines": "المزارات",
+              "stones": "الحجارة"
+            },
+            "locations": {
+              "main": "رئيسي"
+            },
+            "miscellaneous": {
+              "books": "كتب",
+              "spellTomes": "المجلدات الإملائية",
+              "journals": "المجلات"
+            }
           },
-          "collectables": {
-            "diagrams": "المخططات"
-          },
-          "locations": {
-            "main": "رئيسي"
+          "dlc": {
+            "dawnguard": "داونغارد",
+            "dragonborn": "دراجونبورن",
+            "hearthfire": "نار الموقد"
           }
         },
-        "dlc": {
-          "bloodAndWine": "الدم والنبيذ",
-          "heartsOfStone": "قلوب الحجر"
+        "witcher3": {
+          "title": "الويتشر 3: الصيد البري",
+          "categories": {
+            "quests": {
+              "mainQuests": "المهام الرئيسية",
+              "secondaryQuests": "أسئلة ثانوية",
+              "contracts": "انكماش",
+              "treasureHunts": "البحث عن الكنز"
+            },
+            "collectables": {
+              "diagrams": "المخططات"
+            },
+            "locations": {
+              "main": "رئيسي"
+            }
+          },
+          "dlc": {
+            "bloodAndWine": "الدم والنبيذ",
+            "heartsOfStone": "قلوب الحجر"
+          }
         }
       }
     }

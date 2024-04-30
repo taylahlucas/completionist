@@ -50,7 +50,7 @@ const useDLCOptions = (): DLCOptionsReturnType => {
         return user.data.fallout4.settingsConfig.dlc.map((item) => {
           return {
             id: item.id,
-            title: t(`categories:fallout4.dlc.${item.id}`),
+            title: t(`common:categories.fallout4.dlc.${item.id}`),
             isActive: item.isActive
           }
         });
@@ -59,7 +59,7 @@ const useDLCOptions = (): DLCOptionsReturnType => {
         return user.data.skyrim.settingsConfig.dlc.map((item) => {
           return {
             id: item.id,
-            title: t(`categories:skyrim.dlc.${item.id}`),
+            title: t(`common:categories.skyrim.dlc.${item.id}`),
             isActive: item.isActive
           }
         });

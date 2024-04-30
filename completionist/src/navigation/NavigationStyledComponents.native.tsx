@@ -56,6 +56,7 @@ export const NavigationDrawerFooterIcon = styled(Icon)`
 export const NavigationDrawerTitle = styled(StyledText)`
 	padding-top: 8px;
 	padding-bottom: 8px;
+	max-width: 180px;
 `;
 
 export const NavigationDrawerFooterTitle = styled(StyledText)`

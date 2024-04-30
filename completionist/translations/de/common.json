@@ -34,13 +34,7 @@
     "steamAchievements": "Steam-Erfolge",
     "payments": "Zahlung",
     "settings": "Einstellungen",
-    "accountDetails": "Kontodetails",
-    "verifyAccount": "Überprüfen Sie Ihr Konto"
-  },
-  "login": {
-    "instructions1": "Das Passwort muss mindestens Folgendes enthalten:",
-    "instructions2": "\n\u2022 8 Charaktere \n\u2022 1 Großbuchstabe\n\u2022 1 Kleinbuchstabe\n\u2022 1 numerischer Wert",
-    "accountVerification": "Überprüfen Sie Ihre E-Mails und geben Sie den Bestätigungscode ein"
+    "accountDetails": "Kontodetails"
   },
   "selectGame": {
     "selectGameDesc1": "Mit einem kostenlosen Konto können Sie ein Spiel pro Monat zum Verfolgen auswählen.",
@@ -73,8 +67,7 @@
   "sendRequest": {
     "subject": "Thema",
     "writeRequest": "Schreiben Sie hier Ihre Anfrage...",
-    "requestGameDesc": "Fordern Sie gerne ein Spiel an, melden Sie einen Fehler oder machen Sie Vorschläge zur Verbesserung der App!",
-		"verifyAccount": "Hallo,\nSie haben kürzlich ein Konto bei Completionist erstellt.\nUm Ihr Konto zu verifizieren, geben Sie bitte den folgenden Code in den Antrag ein:\n\n{{code}}"
+    "requestGameDesc": "Fordern Sie gerne ein Spiel an, melden Sie einen Fehler oder machen Sie Vorschläge zur Verbesserung der App!"
   },
   "settings": {
     "description": "Fordern Sie gerne ein Spiel an, melden Sie einen Fehler oder machen Sie Vorschläge zur Verbesserung der App!",
@@ -104,23 +97,14 @@
   "errors": {
     "error": "Fehler",
     "pleaseRefreshApp": "Bitte aktualisieren Sie die App",
-    "emailAlreadyExists": "E-Mail existiert bereits",
+    "emailAlreadyExists": "E-Mail existiert bereits.",
     "emailNotFound": "Email wurde nicht gefunden",
     "noEmailExists": "Email existiert nicht",
     "checkCredentials": "Bitte überprüfen Sie Ihre Anmeldedaten und versuchen Sie es erneut.",
     "incorrectPw": "Falsches Passwort. ",
-    "googleSignIn": "Fehler bei der Google-Anmeldung",
-    "googleSignInMsg": "Beim Abrufen der Informationen für dieses Google-Konto ist ein Problem aufgetreten.",
-    "accountExists": "Konto existiert bereits",
-    "accountExistsMsg": "Möchten Sie diese Konten verknüpfen?",
-    "permissionDenied": "Zugriff verweigert",
-    "permissionDeniedMsg": "Bitte erlauben Sie den Zugriff über Ihre Steam-Einstellungen.",
-    "unauthorized": "Nicht autorisiert",
-    "unauthorizedMsg": "Sie sind nicht berechtigt, dieses Konto zu verwenden. ",
-    "steamAchievements": "Für dieses Spiel konnten keine Steam-Erfolge erzielt werden."
+    "googleSignIn": "Fehler bei der Google-Anmeldung"
   },
   "alerts": {
-    "ok": "OK",
     "activate": "aktivieren Sie",
     "cancel": "Stornieren",
     "changesLeft": "Du wirst haben {{changesLeft}} ändern{{s}} links.",
@@ -141,5 +125,95 @@
     "tr": "Türkisch",
     "vi": "Vietnamesisch",
     "zh": "Chinesisch"
+  },
+  "categories": {
+    "fallout4": {
+      "title": "Fallout 4",
+      "categories": {
+        "quests": {
+          "mainQuests": "Hauptquests",
+          "factionQuests": "Fraktionsquests",
+          "sideQuests": "Nebenmissionen"
+        },
+        "collectables": {
+          "bobbleheads": "Wackelköpfe",
+          "magazines": "Zeitschriften",
+          "uniqueWeapons": "Einzigartige Waffen",
+          "uniqueArmor": "Einzigartige Rüstung",
+          "powerArmor": "Powerrüstung"
+        },
+        "locations": {
+          "main": "Hauptsächlich"
+        },
+        "miscellaneous": {
+          "holotapes": "Holobänder"
+        }
+      },
+      "dlc": {
+        "automatron": "Automatron",
+        "farHarbor": "Far Harbor",
+        "nukaWorld": "Nuka-Welt",
+        "vaultTecWorkshop": "Vault-Tec-Workshop"
+      }
+    },
+    "skyrim": {
+      "title": "Skyrim",
+      "categories": {
+        "quests": {
+          "mainQuests": "Hauptquests",
+          "factionQuests": "Fraktionsquests",
+          "civilWar": "Bürgerkrieg",
+          "daedricQuests": "Daedrische Quests",
+          "dungeonQuests": "Dungeon-Quests",
+          "miscellaneousQuests": "Verschiedene Quests",
+          "bountyQuests": "Kopfgeldquests",
+          "globalQuests": "Globale Quests"
+        },
+        "collectables": {
+          "dragonPriestMasks": "Drachenpriester-Masken",
+          "daedricArtefacts": "Daedrische Artefakte",
+          "bugInAJar": "Käfer im Glas",
+          "shouts": "Geschrei",
+          "uniqueArmorSets": "Einzigartige Rüstungssets",
+          "uniqueWeapons": "Einzigartige Waffen",
+          "shrines": "Schreine",
+          "stones": "Steine"
+        },
+        "locations": {
+          "main": "Hauptsächlich"
+        },
+        "miscellaneous": {
+          "books": "Bücher",
+          "spellTomes": "Zauberbücher",
+          "journals": "Zeitschriften"
+        }
+      },
+      "dlc": {
+        "dawnguard": "Dawnguard",
+        "dragonborn": "Drachengeborenes",
+        "hearthfire": "Herdfeuer"
+      }
+    },
+    "witcher3": {
+      "title": "The Witcher 3: Wild Hunt",
+      "categories": {
+        "quests": {
+          "mainQuests": "Hauptquests",
+          "secondaryQuests": "Sekundäre Quests",
+          "contracts": "Verträge",
+          "treasureHunts": "Schatzsuche"
+        },
+        "collectables": {
+          "diagrams": "Diagramme"
+        },
+        "locations": {
+          "main": "Hauptsächlich"
+        }
+      },
+      "dlc": {
+        "bloodAndWine": "Blut und Wein",
+        "heartsOfStone": "Herzen aus Stein"
+      }
+    }
   }
 }

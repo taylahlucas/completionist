@@ -34,13 +34,7 @@
     "steamAchievements": "Succès Steam",
     "payments": "Paiement",
     "settings": "Paramètres",
-    "accountDetails": "Détails du compte",
-    "verifyAccount": "Vérifiez votre compte"
-  },
-  "login": {
-    "instructions1": "Le mot de passe doit contenir au moins :",
-		"instructions2": "\n\u2022 8 caractères \n\u2022 1 lettre Majuscule\n\u2022 1 lettre minuscule\n\u2022 1 valeur numérique",
-    "accountVerification": "Vérifiez vos e-mails et entrez le code de vérification"
+    "accountDetails": "Détails du compte"
   },
   "selectGame": {
     "selectGameDesc1": "Avec un compte gratuit, vous pouvez sélectionner un jeu par mois à suivre.",
@@ -73,8 +67,7 @@
   "sendRequest": {
     "subject": "Sujet",
     "writeRequest": "Écrivez votre demande ici...",
-    "requestGameDesc": "N'hésitez pas à demander un jeu, signaler un bug ou faire des suggestions pour améliorer l'application !",
-    "verifyAccount": "Bonjour,\n\n\n{{code}}"
+    "requestGameDesc": "N'hésitez pas à demander un jeu, signaler un bug ou faire des suggestions pour améliorer l'application !"
   },
   "settings": {
     "description": "N'hésitez pas à demander un jeu, signaler un bug ou faire des suggestions pour améliorer l'application !",
@@ -104,23 +97,14 @@
   "errors": {
     "error": "Erreur",
     "pleaseRefreshApp": "Veuillez actualiser l'application",
-    "emailAlreadyExists": "l'email existe déjà",
+    "emailAlreadyExists": "L'email existe déjà.",
     "emailNotFound": "Email non trouvé",
     "noEmailExists": "L'e-mail n'existe pas",
     "checkCredentials": "Veuillez vérifier vos informations d'identification et réessayer.",
     "incorrectPw": "Mot de passe incorrect. ",
-    "googleSignIn": "Erreur avec la connexion Google",
-    "googleSignInMsg": "Problème pour obtenir des informations sur ce compte Google.",
-    "accountExists": "Le compte existe déjà",
-    "accountExistsMsg": "Souhaitez-vous lier ces comptes ?",
-    "permissionDenied": "Permission refusée",
-    "permissionDeniedMsg": "Veuillez autoriser l'accès via vos paramètres Steam.",
-    "unauthorized": "Non autorisé",
-    "unauthorizedMsg": "Vous n'êtes pas autorisé à utiliser ce compte. ",
-    "steamAchievements": "Impossible d'obtenir les succès Steam pour ce jeu."
+    "googleSignIn": "Erreur avec la connexion Google"
   },
   "alerts": {
-    "ok": "D'accord",
     "activate": "Activer",
     "cancel": "Annuler",
     "changesLeft": "Tu vas avoir {{changesLeft}} changement{{s}} gauche.",
@@ -141,5 +125,95 @@
     "tr": "turc",
     "vi": "vietnamien",
     "zh": "Chinois"
+  },
+  "categories": {
+    "fallout4": {
+      "title": "Fallout 4",
+      "categories": {
+        "quests": {
+          "mainQuests": "Quêtes principales",
+          "factionQuests": "Quêtes de faction",
+          "sideQuests": "Quêtes secondaires"
+        },
+        "collectables": {
+          "bobbleheads": "Figurines à pompons",
+          "magazines": "Les magazines",
+          "uniqueWeapons": "Armes uniques",
+          "uniqueArmor": "Armure unique",
+          "powerArmor": "Armure assistée"
+        },
+        "locations": {
+          "main": "Principal"
+        },
+        "miscellaneous": {
+          "holotapes": "Holobandes"
+        }
+      },
+      "dlc": {
+        "automatron": "Automatron",
+        "farHarbor": "Port lointain",
+        "nukaWorld": "Nuka-Monde",
+        "vaultTecWorkshop": "Atelier Vault-Tec"
+      }
+    },
+    "skyrim": {
+      "title": "Bordeciel",
+      "categories": {
+        "quests": {
+          "mainQuests": "Quêtes principales",
+          "factionQuests": "Quêtes de faction",
+          "civilWar": "Guerre civile",
+          "daedricQuests": "Quêtes Daedra",
+          "dungeonQuests": "Quêtes de donjon",
+          "miscellaneousQuests": "Quêtes diverses",
+          "bountyQuests": "Quêtes de prime",
+          "globalQuests": "Quêtes globales"
+        },
+        "collectables": {
+          "dragonPriestMasks": "Masques de prêtre dragon",
+          "daedricArtefacts": "Artefacts Daedra",
+          "bugInAJar": "Un bug dans un pot",
+          "shouts": "Des cris",
+          "uniqueArmorSets": "Ensembles d'armures uniques",
+          "uniqueWeapons": "Armes uniques",
+          "shrines": "Sanctuaires",
+          "stones": "Des pierres"
+        },
+        "locations": {
+          "main": "Principal"
+        },
+        "miscellaneous": {
+          "books": "Livres",
+          "spellTomes": "Tomes de sorts",
+          "journals": "Journaux"
+        }
+      },
+      "dlc": {
+        "dawnguard": "Garde-aube",
+        "dragonborn": "Enfant de dragon",
+        "hearthfire": "Feu de foyer"
+      }
+    },
+    "witcher3": {
+      "title": "The Witcher 3 : Chasse Sauvage",
+      "categories": {
+        "quests": {
+          "mainQuests": "Quêtes principales",
+          "secondaryQuests": "Quêtes secondaires",
+          "contracts": "Contrats",
+          "treasureHunts": "Chasses aux trésors"
+        },
+        "collectables": {
+          "diagrams": "Diagrammes"
+        },
+        "locations": {
+          "main": "Principal"
+        }
+      },
+      "dlc": {
+        "bloodAndWine": "Du sang et du vin",
+        "heartsOfStone": "Coeurs de pierre"
+      }
+    }
   }
 }
