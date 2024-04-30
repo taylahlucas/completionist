@@ -39,7 +39,7 @@
   "selectGame": {
     "selectGameDesc1": "使用免费帐户，您可以每月选择一款游戏进行跟踪。",
     "selectGameDesc2": "在下面选择您的第一个游戏！",
-    "selectGameDesc3": "如果您犯了错误，请不要担心，您可以每月更改两次"
+    "selectGameDesc3": "如果您犯了错误，请不要担心，您每月可以更改两次"
   },
   "subscriptions": {
     "subscriptionDesc": "通过高级订阅，\n",
@@ -92,17 +92,17 @@
     "addSteamIdStep2": "步骤 2. 更新您的隐私偏好",
     "addSteamIdDesc3": "您还需要确保您的个人资料是公开的。",
     "addSteamIdDesc4": "您可以通过前往 Steam 偏好设置 -> 隐私设置来执行此操作",
-    "steamIdPlaceholder": "蒸汽 ID"
+    "steamIdPlaceholder": "蒸汽ID"
   },
   "errors": {
-		"error": "错误",
-		"pleaseRefreshApp": "请刷新应用程序",
-		"emailAlreadyExists": "电子邮件已经存在。",
-		"emailNotFound": "电子邮件找不到",
-		"noEmailExists": "电子邮件不存在",
-		"checkCredentials": "请检查您的凭据并重试。",
-		"incorrectPw": "密码错误。",
-		"googleSignIn": "Google 登录时出错"
+    "error": "错误",
+    "pleaseRefreshApp": "请刷新应用程序",
+    "emailAlreadyExists": "电子邮件已经存在。",
+    "emailNotFound": "电子邮件找不到",
+    "noEmailExists": "电子邮件不存在",
+    "checkCredentials": "请检查您的凭据并重试。",
+    "incorrectPw": "密码错误。",
+    "googleSignIn": "Google 登录时出错"
   },
   "alerts": {
     "activate": "启用",
@@ -125,5 +125,95 @@
     "tr": "土耳其",
     "vi": "越南语",
     "zh": "中国人"
+  },
+  "categories": {
+    "fallout4": {
+      "title": "辐射4",
+      "categories": {
+        "quests": {
+          "mainQuests": "主线任务",
+          "factionQuests": "派系任务",
+          "sideQuests": "支线任务"
+        },
+        "collectables": {
+          "bobbleheads": "摇头娃娃",
+          "magazines": "杂志",
+          "uniqueWeapons": "独特的武器",
+          "uniqueArmor": "独特的盔甲",
+          "powerArmor": "动力装甲"
+        },
+        "locations": {
+          "main": "主要的"
+        },
+        "miscellaneous": {
+          "holotapes": "全息带"
+        }
+      },
+      "dlc": {
+        "automatron": "自动机",
+        "farHarbor": "远港",
+        "nukaWorld": "核子世界",
+        "vaultTecWorkshop": "Vault-Tec 研讨会"
+      }
+    },
+    "skyrim": {
+      "title": "天际",
+      "categories": {
+        "quests": {
+          "mainQuests": "主线任务",
+          "factionQuests": "派系任务",
+          "civilWar": "内战",
+          "daedricQuests": "魔族任务",
+          "dungeonQuests": "地下城任务",
+          "miscellaneousQuests": "杂项任务",
+          "bountyQuests": "赏金任务",
+          "globalQuests": "全球任务"
+        },
+        "collectables": {
+          "dragonPriestMasks": "龙祭司面具",
+          "daedricArtefacts": "魔族文物",
+          "bugInAJar": "罐子里的虫子",
+          "shouts": "喊叫声",
+          "uniqueArmorSets": "独特的装甲套装",
+          "uniqueWeapons": "独特的武器",
+          "shrines": "神社",
+          "stones": "石头"
+        },
+        "locations": {
+          "main": "主要的"
+        },
+        "miscellaneous": {
+          "books": "图书",
+          "spellTomes": "法术书",
+          "journals": "期刊"
+        }
+      },
+      "dlc": {
+        "dawnguard": "黎明守卫",
+        "dragonborn": "龙裔",
+        "hearthfire": "炉火"
+      }
+    },
+    "witcher3": {
+      "title": "巫师 3：狂猎",
+      "categories": {
+        "quests": {
+          "mainQuests": "主线任务",
+          "secondaryQuests": "次要任务",
+          "contracts": "合约",
+          "treasureHunts": "寻宝"
+        },
+        "collectables": {
+          "diagrams": "图表"
+        },
+        "locations": {
+          "main": "主要的"
+        }
+      },
+      "dlc": {
+        "bloodAndWine": "血与酒",
+        "heartsOfStone": "石之心"
+      }
+    }
   }
 }

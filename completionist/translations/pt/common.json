@@ -6,7 +6,7 @@
   "showMore": "Mostre mais",
   "none": "Nenhum",
   "main": "Principal",
-  "changesLeft": "MUDANÇAS RESTANTES: ",
+  "changesLeft": "ALTERAÇÕES RESTANTES: ",
   "active": "ATIVO",
   "inactive": "INATIVO",
   "auth": {
@@ -95,14 +95,14 @@
     "steamIdPlaceholder": "ID de vapor"
   },
   "errors": {
-		"error": "Erro",
-		"pleaseRefreshApp": "Atualize o aplicativo",
-		"emailAlreadyExists": "E-mail já existe.",
-		"emailNotFound": "Email não encontrado",
-		"noEmailExists": "E-mail não existe",
-		"checkCredentials": "Verifique suas credenciais e tente novamente.",
-		"incorrectPw": "Senha incorreta. ",
-		"googleSignIn": "Erro com login do Google"
+    "error": "Erro",
+    "pleaseRefreshApp": "Atualize o aplicativo",
+    "emailAlreadyExists": "E-mail já existe.",
+    "emailNotFound": "Email não encontrado",
+    "noEmailExists": "E-mail não existe",
+    "checkCredentials": "Verifique suas credenciais e tente novamente.",
+    "incorrectPw": "Senha incorreta. ",
+    "googleSignIn": "Erro com login do Google"
   },
   "alerts": {
     "activate": "Ativar",
@@ -125,5 +125,95 @@
     "tr": "turco",
     "vi": "vietnamita",
     "zh": "chinês"
+  },
+  "categories": {
+    "fallout4": {
+      "title": "Efeito Fallout 4",
+      "categories": {
+        "quests": {
+          "mainQuests": "Missões principais",
+          "factionQuests": "Missões de Facção",
+          "sideQuests": "Missões paralelas"
+        },
+        "collectables": {
+          "bobbleheads": "Bobbleheads",
+          "magazines": "Revistas",
+          "uniqueWeapons": "Armas únicas",
+          "uniqueArmor": "Armadura Única",
+          "powerArmor": "Armadura Potente"
+        },
+        "locations": {
+          "main": "Principal"
+        },
+        "miscellaneous": {
+          "holotapes": "Holotapes"
+        }
+      },
+      "dlc": {
+        "automatron": "Autômato",
+        "farHarbor": "Porto Distante",
+        "nukaWorld": "Nuka-Mundo",
+        "vaultTecWorkshop": "Oficina Vault-Tec"
+      }
+    },
+    "skyrim": {
+      "title": "Skyrim",
+      "categories": {
+        "quests": {
+          "mainQuests": "Missões principais",
+          "factionQuests": "Missões de Facção",
+          "civilWar": "Guerra civil",
+          "daedricQuests": "Missões Daédricas",
+          "dungeonQuests": "Missões de masmorra",
+          "miscellaneousQuests": "Missões Diversas",
+          "bountyQuests": "Missões de recompensa",
+          "globalQuests": "Missões Globais"
+        },
+        "collectables": {
+          "dragonPriestMasks": "Máscaras de Sacerdote Dragão",
+          "daedricArtefacts": "Artefatos Daédricos",
+          "bugInAJar": "Bug em uma jarra",
+          "shouts": "Gritos",
+          "uniqueArmorSets": "Conjuntos de armadura exclusivos",
+          "uniqueWeapons": "Armas únicas",
+          "shrines": "Santuários",
+          "stones": "Pedras"
+        },
+        "locations": {
+          "main": "Principal"
+        },
+        "miscellaneous": {
+          "books": "Livros",
+          "spellTomes": "Tomos de feitiços",
+          "journals": "Diários"
+        }
+      },
+      "dlc": {
+        "dawnguard": "Dawnguard",
+        "dragonborn": "Draconato",
+        "hearthfire": "Lareira"
+      }
+    },
+    "witcher3": {
+      "title": "The Witcher 3: Caça Selvagem",
+      "categories": {
+        "quests": {
+          "mainQuests": "Missões principais",
+          "secondaryQuests": "Missões Secundárias",
+          "contracts": "Contratos",
+          "treasureHunts": "Caças ao tesouro"
+        },
+        "collectables": {
+          "diagrams": "Diagramas"
+        },
+        "locations": {
+          "main": "Principal"
+        }
+      },
+      "dlc": {
+        "bloodAndWine": "Sangue e Vinho",
+        "heartsOfStone": "Corações de pedra"
+      }
+    }
   }
 }

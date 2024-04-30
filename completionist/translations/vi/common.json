@@ -95,14 +95,14 @@
     "steamIdPlaceholder": "ID hơi nước"
   },
   "errors": {
-		"error": "Lỗi",
-		"pleaseRefreshApp": "Vui lòng làm mới ứng dụng",
-		"emailAlreadyExists": "Email đã tồn tại.",
-		"emailNotFound": "Không tìm thấy email",
-		"noEmailExists": "Email không tồn tại",
-		"checkCredentials": "Vui lòng kiểm tra thông tin xác thực của bạn và thử lại.",
-		"incorrectPw": "Mật khẩu không đúng. ",
-		"googleSignIn": "Lỗi đăng nhập bằng Google"
+    "error": "Lỗi",
+    "pleaseRefreshApp": "Vui lòng làm mới ứng dụng",
+    "emailAlreadyExists": "Email đã tồn tại.",
+    "emailNotFound": "Không tìm thấy email",
+    "noEmailExists": "Email không tồn tại",
+    "checkCredentials": "Vui lòng kiểm tra thông tin xác thực của bạn và thử lại.",
+    "incorrectPw": "Mật khẩu không đúng. ",
+    "googleSignIn": "Lỗi đăng nhập bằng Google"
   },
   "alerts": {
     "activate": "Kích hoạt",
@@ -125,5 +125,95 @@
     "tr": "tiếng Thổ Nhĩ Kỳ",
     "vi": "Tiếng Việt",
     "zh": "người Trung Quốc"
+  },
+  "categories": {
+    "fallout4": {
+      "title": "bụi phóng xạ 4",
+      "categories": {
+        "quests": {
+          "mainQuests": "Nhiệm vụ chính",
+          "factionQuests": "Nhiệm vụ phe phái",
+          "sideQuests": "Nhiệm vụ phụ"
+        },
+        "collectables": {
+          "bobbleheads": "tóc bồng bềnh",
+          "magazines": "Tạp chí thời sự",
+          "uniqueWeapons": "Vũ khí độc đáo",
+          "uniqueArmor": "Giáp độc nhất",
+          "powerArmor": "Áo giáp điện"
+        },
+        "locations": {
+          "main": "Chủ yếu"
+        },
+        "miscellaneous": {
+          "holotapes": "ảnh ba chiều"
+        }
+      },
+      "dlc": {
+        "automatron": "Máy tự động",
+        "farHarbor": "Cảng xa",
+        "nukaWorld": "Thế giới Nuka",
+        "vaultTecWorkshop": "Hội thảo Vault-Tec"
+      }
+    },
+    "skyrim": {
+      "title": "Skyrim",
+      "categories": {
+        "quests": {
+          "mainQuests": "Nhiệm vụ chính",
+          "factionQuests": "Nhiệm vụ phe phái",
+          "civilWar": "Nội chiến",
+          "daedricQuests": "Nhiệm vụ Daedric",
+          "dungeonQuests": "Nhiệm vụ ngục tối",
+          "miscellaneousQuests": "Nhiệm vụ khác",
+          "bountyQuests": "Nhiệm vụ tiền thưởng",
+          "globalQuests": "Nhiệm vụ toàn cầu"
+        },
+        "collectables": {
+          "dragonPriestMasks": "Mặt nạ linh mục rồng",
+          "daedricArtefacts": "Cổ vật Daedric",
+          "bugInAJar": "Lỗi trong lọ",
+          "shouts": "Tiếng la hét",
+          "uniqueArmorSets": "Bộ áo giáp độc đáo",
+          "uniqueWeapons": "Vũ khí độc đáo",
+          "shrines": "Đền thờ",
+          "stones": "Đá"
+        },
+        "locations": {
+          "main": "Chủ yếu"
+        },
+        "miscellaneous": {
+          "books": "Sách",
+          "spellTomes": "Sách đánh vần",
+          "journals": "tạp chí"
+        }
+      },
+      "dlc": {
+        "dawnguard": "Bình minh",
+        "dragonborn": "con rồng",
+        "hearthfire": "lửa lò sưởi"
+      }
+    },
+    "witcher3": {
+      "title": "The Witcher 3: Cuộc săn hoang dã",
+      "categories": {
+        "quests": {
+          "mainQuests": "Nhiệm vụ chính",
+          "secondaryQuests": "Nhiệm vụ phụ",
+          "contracts": "Hợp đồng",
+          "treasureHunts": "Săn lùng kho báu"
+        },
+        "collectables": {
+          "diagrams": "Sơ đồ"
+        },
+        "locations": {
+          "main": "Chủ yếu"
+        }
+      },
+      "dlc": {
+        "bloodAndWine": "Máu Và Rượu",
+        "heartsOfStone": "trái tim bằng đá"
+      }
+    }
   }
 }

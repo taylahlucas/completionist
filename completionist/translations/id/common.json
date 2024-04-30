@@ -95,14 +95,14 @@
     "steamIdPlaceholder": "ID Uap"
   },
   "errors": {
-		"error": "Kesalahan",
-		"pleaseRefreshApp": "Harap segarkan aplikasi",
-		"emailAlreadyExists": "Email sudah ada.",
-		"emailNotFound": "Email Tidak Ditemukan",
-		"noEmailExists": "Emailnya tidak ada",
-		"checkCredentials": "Silakan periksa kredensial Anda dan coba lagi.",
-		"incorrectPw": "Kata kunci Salah. ",
-		"googleSignIn": "Terjadi kesalahan saat Masuk dengan Google"
+    "error": "Kesalahan",
+    "pleaseRefreshApp": "Harap segarkan aplikasi",
+    "emailAlreadyExists": "Email sudah ada.",
+    "emailNotFound": "Email Tidak Ditemukan",
+    "noEmailExists": "Emailnya tidak ada",
+    "checkCredentials": "Silakan periksa kredensial Anda dan coba lagi.",
+    "incorrectPw": "Kata kunci Salah. ",
+    "googleSignIn": "Terjadi kesalahan saat Masuk dengan Google"
   },
   "alerts": {
     "activate": "Mengaktifkan",
@@ -125,5 +125,95 @@
     "tr": "Turki",
     "vi": "Orang Vietnam",
     "zh": "Cina"
+  },
+  "categories": {
+    "fallout4": {
+      "title": "Kejatuhan 4",
+      "categories": {
+        "quests": {
+          "mainQuests": "Quest Utama",
+          "factionQuests": "Pencarian Fraksi",
+          "sideQuests": "Pencarian Sampingan"
+        },
+        "collectables": {
+          "bobbleheads": "Bobblehead",
+          "magazines": "Majalah",
+          "uniqueWeapons": "Senjata Unik",
+          "uniqueArmor": "Baju Besi Unik",
+          "powerArmor": "Armor Kekuatan"
+        },
+        "locations": {
+          "main": "Utama"
+        },
+        "miscellaneous": {
+          "holotapes": "Holotape"
+        }
+      },
+      "dlc": {
+        "automatron": "robot",
+        "farHarbor": "Pelabuhan Jauh",
+        "nukaWorld": "Nuka-Dunia",
+        "vaultTecWorkshop": "Lokakarya Vault-Tec"
+      }
+    },
+    "skyrim": {
+      "title": "Skyrim",
+      "categories": {
+        "quests": {
+          "mainQuests": "Quest Utama",
+          "factionQuests": "Pencarian Fraksi",
+          "civilWar": "Perang sipil",
+          "daedricQuests": "Pencarian Daedrik",
+          "dungeonQuests": "Pencarian Bawah Tanah",
+          "miscellaneousQuests": "Quest Lain-Lain",
+          "bountyQuests": "Pencarian Hadiah",
+          "globalQuests": "Pencarian Global"
+        },
+        "collectables": {
+          "dragonPriestMasks": "Topeng Pendeta Naga",
+          "daedricArtefacts": "Artefak Daedric",
+          "bugInAJar": "Serangga dalam Toples",
+          "shouts": "Teriakan",
+          "uniqueArmorSets": "Set Armor Unik",
+          "uniqueWeapons": "Senjata Unik",
+          "shrines": "Kuil",
+          "stones": "Batu"
+        },
+        "locations": {
+          "main": "Utama"
+        },
+        "miscellaneous": {
+          "books": "Buku",
+          "spellTomes": "Eja Tomes",
+          "journals": "Jurnal"
+        }
+      },
+      "dlc": {
+        "dawnguard": "Penjaga Fajar",
+        "dragonborn": "lahir naga",
+        "hearthfire": "api perapian"
+      }
+    },
+    "witcher3": {
+      "title": "The Witcher 3: Perburuan Liar",
+      "categories": {
+        "quests": {
+          "mainQuests": "Quest Utama",
+          "secondaryQuests": "Quest Sekunder",
+          "contracts": "Kontrak",
+          "treasureHunts": "Perburuan Harta Karun"
+        },
+        "collectables": {
+          "diagrams": "Diagram"
+        },
+        "locations": {
+          "main": "Utama"
+        }
+      },
+      "dlc": {
+        "bloodAndWine": "Darah dan Anggur",
+        "heartsOfStone": "Hati Batu"
+      }
+    }
   }
 }
