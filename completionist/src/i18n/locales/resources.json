@@ -142,8 +142,8 @@
             "bobbleheads": "摇头娃娃",
             "magazines": "杂志",
             "uniqueWeapons": "独特的武器",
-            "uniqueArmour": "独特的盔甲",
-            "powerArmour": "动力装甲"
+            "uniqueArmor": "独特的盔甲",
+            "powerArmor": "动力装甲"
           },
           "locations": {
             "main": "主要的"
@@ -177,7 +177,7 @@
             "daedricArtefacts": "魔族文物",
             "bugInAJar": "罐子里的虫子",
             "shouts": "喊叫声",
-            "uniqueArmourSets": "独特的装甲套装",
+            "uniqueArmorSets": "独特的装甲套装",
             "uniqueWeapons": "独特的武器",
             "shrines": "神社",
             "stones": "石头"
@@ -363,8 +363,8 @@
             "bobbleheads": "tóc bồng bềnh",
             "magazines": "Tạp chí thời sự",
             "uniqueWeapons": "Vũ khí độc đáo",
-            "uniqueArmour": "Giáp độc nhất",
-            "powerArmour": "Giáp sức mạnh"
+            "uniqueArmor": "Giáp độc nhất",
+            "powerArmor": "Giáp sức mạnh"
           },
           "locations": {
             "main": "Chủ yếu"
@@ -398,7 +398,7 @@
             "daedricArtefacts": "Cổ vật Daedric",
             "bugInAJar": "Lỗi trong lọ",
             "shouts": "Tiếng la hét",
-            "uniqueArmourSets": "Bộ áo giáp độc đáo",
+            "uniqueArmorSets": "Bộ áo giáp độc đáo",
             "uniqueWeapons": "Vũ khí độc đáo",
             "shrines": "Đền thờ",
             "stones": "Đá"
@@ -584,8 +584,8 @@
             "bobbleheads": "Bobblehead'ler",
             "magazines": "Dergiler",
             "uniqueWeapons": "Benzersiz Silahlar",
-            "uniqueArmour": "Benzersiz Zırh",
-            "powerArmour": "Güç Zırhı"
+            "uniqueArmor": "Benzersiz Zırh",
+            "powerArmor": "Güç Zırhı"
           },
           "locations": {
             "main": "Ana"
@@ -619,7 +619,7 @@
             "daedricArtefacts": "Daedrik Eserler",
             "bugInAJar": "Kavanozdaki Böcek",
             "shouts": "Bağırışlar",
-            "uniqueArmourSets": "Benzersiz Zırh Setleri",
+            "uniqueArmorSets": "Benzersiz Zırh Setleri",
             "uniqueWeapons": "Benzersiz Silahlar",
             "shrines": "Türbeler",
             "stones": "Taşlar"
@@ -805,8 +805,8 @@
             "bobbleheads": "Bobbleheads",
             "magazines": "Revistas",
             "uniqueWeapons": "Armas únicas",
-            "uniqueArmour": "Armadura Única",
-            "powerArmour": "Armadura Potente"
+            "uniqueArmor": "Armadura Única",
+            "powerArmor": "Armadura Potente"
           },
           "locations": {
             "main": "Principal"
@@ -840,7 +840,7 @@
             "daedricArtefacts": "Artefatos Daédricos",
             "bugInAJar": "Bug em uma jarra",
             "shouts": "Gritos",
-            "uniqueArmourSets": "Conjuntos de armadura exclusivos",
+            "uniqueArmorSets": "Conjuntos de armadura exclusivos",
             "uniqueWeapons": "Armas únicas",
             "shrines": "Santuários",
             "stones": "Pedras"
@@ -1026,8 +1026,8 @@
             "bobbleheads": "ボブルヘッド",
             "magazines": "雑誌",
             "uniqueWeapons": "ユニークな武器",
-            "uniqueArmour": "ユニークな鎧",
-            "powerArmour": "パワーアーマー"
+            "uniqueArmor": "ユニークな鎧",
+            "powerArmor": "パワーアーマー"
           },
           "locations": {
             "main": "主要"
@@ -1061,7 +1061,7 @@
             "daedricArtefacts": "デイドラアーティファクト",
             "bugInAJar": "瓶の中の虫",
             "shouts": "叫び声",
-            "uniqueArmourSets": "ユニークな防具セット",
+            "uniqueArmorSets": "ユニークな防具セット",
             "uniqueWeapons": "ユニークな武器",
             "shrines": "神社",
             "stones": "石"
@@ -1247,8 +1247,8 @@
             "bobbleheads": "Teste molleggiate",
             "magazines": "Riviste",
             "uniqueWeapons": "Armi uniche",
-            "uniqueArmour": "Armatura unica",
-            "powerArmour": "Armatura potenziata"
+            "uniqueArmor": "Armatura unica",
+            "powerArmor": "Armatura potenziata"
           },
           "locations": {
             "main": "Principale"
@@ -1282,7 +1282,7 @@
             "daedricArtefacts": "Manufatti daedrici",
             "bugInAJar": "Insetto in un barattolo",
             "shouts": "Grida",
-            "uniqueArmourSets": "Set di armature unici",
+            "uniqueArmorSets": "Set di armature unici",
             "uniqueWeapons": "Armi uniche",
             "shrines": "Santuari",
             "stones": "Pietre"
@@ -1468,8 +1468,8 @@
             "bobbleheads": "Bobblehead",
             "magazines": "Majalah",
             "uniqueWeapons": "Senjata Unik",
-            "uniqueArmour": "Baju Besi Unik",
-            "powerArmour": "Armor Kekuatan"
+            "uniqueArmor": "Baju Besi Unik",
+            "powerArmor": "Armor Kekuatan"
           },
           "locations": {
             "main": "Utama"
@@ -1503,7 +1503,7 @@
             "daedricArtefacts": "Artefak Daedric",
             "bugInAJar": "Serangga dalam Toples",
             "shouts": "Teriakan",
-            "uniqueArmourSets": "Set Armor Unik",
+            "uniqueArmorSets": "Set Armor Unik",
             "uniqueWeapons": "Senjata Unik",
             "shrines": "Kuil",
             "stones": "Batu"
@@ -1689,8 +1689,8 @@
             "bobbleheads": "बॉबलहेड्स",
             "magazines": "पत्रिका",
             "uniqueWeapons": "अनोखे हथियार",
-            "uniqueArmour": "अनोखा कवच",
-            "powerArmour": "शक्ति कवच"
+            "uniqueArmor": "अनोखा कवच",
+            "powerArmor": "शक्ति कवच"
           },
           "locations": {
             "main": "मुख्य"
@@ -1724,7 +1724,7 @@
             "daedricArtefacts": "डेड्रिक कलाकृतियाँ",
             "bugInAJar": "एक जार में बग",
             "shouts": "शाउट",
-            "uniqueArmourSets": "अद्वितीय कवच सेट",
+            "uniqueArmorSets": "अद्वितीय कवच सेट",
             "uniqueWeapons": "अनोखे हथियार",
             "shrines": "तीर्थ",
             "stones": "पत्थर"
@@ -1910,8 +1910,8 @@
             "bobbleheads": "Figurines à pompons",
             "magazines": "Les magazines",
             "uniqueWeapons": "Armes uniques",
-            "uniqueArmour": "Armure unique",
-            "powerArmour": "Armure assistée"
+            "uniqueArmor": "Armure unique",
+            "powerArmor": "Armure assistée"
           },
           "locations": {
             "main": "Principal"
@@ -1945,7 +1945,7 @@
             "daedricArtefacts": "Artefacts Daedra",
             "bugInAJar": "Un bug dans un pot",
             "shouts": "Des cris",
-            "uniqueArmourSets": "Ensembles d'armures uniques",
+            "uniqueArmorSets": "Ensembles d'armures uniques",
             "uniqueWeapons": "Armes uniques",
             "shrines": "Sanctuaires",
             "stones": "Des pierres"
@@ -2131,8 +2131,8 @@
             "bobbleheads": "muñecos",
             "magazines": "Revistas",
             "uniqueWeapons": "Armas únicas",
-            "uniqueArmour": "Armadura única",
-            "powerArmour": "Armadura de poder"
+            "uniqueArmor": "Armadura única",
+            "powerArmor": "Armadura de poder"
           },
           "locations": {
             "main": "Principal"
@@ -2166,7 +2166,7 @@
             "daedricArtefacts": "Artefactos daédricos",
             "bugInAJar": "Error en un frasco",
             "shouts": "Gritos",
-            "uniqueArmourSets": "Conjuntos de armaduras únicos",
+            "uniqueArmorSets": "Conjuntos de armaduras únicos",
             "uniqueWeapons": "Armas únicas",
             "shrines": "Santuarios",
             "stones": "piedras"
@@ -2352,8 +2352,8 @@
             "bobbleheads": "Bobbleheads",
             "magazines": "Magazines",
             "uniqueWeapons": "Unique Weapons",
-            "uniqueArmour": "Unique Armour",
-            "powerArmour": "Power Armour"
+            "uniqueArmor": "Unique Armor",
+            "powerArmor": "Power Armor"
           },
           "locations": {
             "main": "Main"
@@ -2387,7 +2387,7 @@
             "daedricArtefacts": "Daedric Artefacts",
             "bugInAJar": "Bug in a Jar",
             "shouts": "Shouts",
-            "uniqueArmourSets": "Unique Armour Sets",
+            "uniqueArmorSets": "Unique Armor Sets",
             "uniqueWeapons": "Unique Weapons",
             "shrines": "Shrines",
             "stones": "Stones"
@@ -2573,8 +2573,8 @@
             "bobbleheads": "Wackelköpfe",
             "magazines": "Zeitschriften",
             "uniqueWeapons": "Einzigartige Waffen",
-            "uniqueArmour": "Einzigartige Rüstung",
-            "powerArmour": "Powerrüstung"
+            "uniqueArmor": "Einzigartige Rüstung",
+            "powerArmor": "Powerrüstung"
           },
           "locations": {
             "main": "Hauptsächlich"
@@ -2608,7 +2608,7 @@
             "daedricArtefacts": "Daedrische Artefakte",
             "bugInAJar": "Käfer im Glas",
             "shouts": "Geschrei",
-            "uniqueArmourSets": "Einzigartige Rüstungssets",
+            "uniqueArmorSets": "Einzigartige Rüstungssets",
             "uniqueWeapons": "Einzigartige Waffen",
             "shrines": "Schreine",
             "stones": "Steine"
@@ -2794,8 +2794,8 @@
             "bobbleheads": "رؤؤس فقاعية",
             "magazines": "المجلات",
             "uniqueWeapons": "أسلحة فريدة من نوعها",
-            "uniqueArmour": "درع فريد",
-            "powerArmour": "درع القوة"
+            "uniqueArmor": "درع فريد",
+            "powerArmor": "درع القوة"
           },
           "locations": {
             "main": "رئيسي"
@@ -2829,7 +2829,7 @@
             "daedricArtefacts": "التحف ديدريك",
             "bugInAJar": "علة في جرة",
             "shouts": "صيحات",
-            "uniqueArmourSets": "مجموعات دروع فريدة من نوعها",
+            "uniqueArmorSets": "مجموعات دروع فريدة من نوعها",
             "uniqueWeapons": "أسلحة فريدة من نوعها",
             "shrines": "المزارات",
             "stones": "الحجارة"

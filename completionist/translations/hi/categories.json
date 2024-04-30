@@ -11,8 +11,8 @@
         "bobbleheads": "बॉबलहेड्स",
         "magazines": "पत्रिका",
         "uniqueWeapons": "अनोखे हथियार",
-        "uniqueArmour": "अनोखा कवच",
-        "powerArmour": "शक्ति कवच"
+        "uniqueArmor": "अनोखा कवच",
+        "powerArmor": "शक्ति कवच"
       },
       "locations": {
         "main": "मुख्य"
@@ -46,7 +46,7 @@
         "daedricArtefacts": "डेड्रिक कलाकृतियाँ",
         "bugInAJar": "एक जार में बग",
         "shouts": "शाउट",
-        "uniqueArmourSets": "अद्वितीय कवच सेट",
+        "uniqueArmorSets": "अद्वितीय कवच सेट",
         "uniqueWeapons": "अनोखे हथियार",
         "shrines": "तीर्थ",
         "stones": "पत्थर"

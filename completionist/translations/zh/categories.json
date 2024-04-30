@@ -11,8 +11,8 @@
         "bobbleheads": "摇头娃娃",
         "magazines": "杂志",
         "uniqueWeapons": "独特的武器",
-        "uniqueArmour": "独特的盔甲",
-        "powerArmour": "动力装甲"
+        "uniqueArmor": "独特的盔甲",
+        "powerArmor": "动力装甲"
       },
       "locations": {
         "main": "主要的"
@@ -46,7 +46,7 @@
         "daedricArtefacts": "魔族文物",
         "bugInAJar": "罐子里的虫子",
         "shouts": "喊叫声",
-        "uniqueArmourSets": "独特的装甲套装",
+        "uniqueArmorSets": "独特的装甲套装",
         "uniqueWeapons": "独特的武器",
         "shrines": "神社",
         "stones": "石头"

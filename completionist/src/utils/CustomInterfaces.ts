@@ -1,4 +1,4 @@
-import { ScreenEnum, SettingsOptionEnum, GameKeyEnum, DatePeriodEnum, SubscriptionTypeEnum } from './CustomEnums';
+import { ScreenEnum, SettingsOptionEnum, GameKeyEnum, DatePeriodEnum, SubscriptionTypeEnum, ContentSectionEnum } from './CustomEnums';
 import { NavigationAction, NavigationState } from '@react-navigation/native';
 import { MainState } from '@redux/MainState';
 import { SettingsState } from '@components/custom/SettingsContent/SettingsState';
@@ -9,6 +9,7 @@ import { LanguageType } from './CustomTypes';
 
 export interface GameContentItem {
   id: string;
+	section: ContentSectionEnum;
   mainCategory: string;
   subCategory?: string;
   subCategoryType?: string;

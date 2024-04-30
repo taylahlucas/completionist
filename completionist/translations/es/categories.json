@@ -11,8 +11,8 @@
         "bobbleheads": "muñecos",
         "magazines": "Revistas",
         "uniqueWeapons": "Armas únicas",
-        "uniqueArmour": "Armadura única",
-        "powerArmour": "Armadura de poder"
+        "uniqueArmor": "Armadura única",
+        "powerArmor": "Armadura de poder"
       },
       "locations": {
         "main": "Principal"
@@ -46,7 +46,7 @@
         "daedricArtefacts": "Artefactos daédricos",
         "bugInAJar": "Error en un frasco",
         "shouts": "Gritos",
-        "uniqueArmourSets": "Conjuntos de armaduras únicos",
+        "uniqueArmorSets": "Conjuntos de armaduras únicos",
         "uniqueWeapons": "Armas únicas",
         "shrines": "Santuarios",
         "stones": "piedras"

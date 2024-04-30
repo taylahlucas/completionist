@@ -11,8 +11,8 @@
         "bobbleheads": "tóc bồng bềnh",
         "magazines": "Tạp chí thời sự",
         "uniqueWeapons": "Vũ khí độc đáo",
-        "uniqueArmour": "Giáp độc nhất",
-        "powerArmour": "Giáp sức mạnh"
+        "uniqueArmor": "Giáp độc nhất",
+        "powerArmor": "Giáp sức mạnh"
       },
       "locations": {
         "main": "Chủ yếu"
@@ -46,7 +46,7 @@
         "daedricArtefacts": "Cổ vật Daedric",
         "bugInAJar": "Lỗi trong lọ",
         "shouts": "Tiếng la hét",
-        "uniqueArmourSets": "Bộ áo giáp độc đáo",
+        "uniqueArmorSets": "Bộ áo giáp độc đáo",
         "uniqueWeapons": "Vũ khí độc đáo",
         "shrines": "Đền thờ",
         "stones": "Đá"

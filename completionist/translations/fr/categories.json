@@ -11,8 +11,8 @@
         "bobbleheads": "Figurines à pompons",
         "magazines": "Les magazines",
         "uniqueWeapons": "Armes uniques",
-        "uniqueArmour": "Armure unique",
-        "powerArmour": "Armure assistée"
+        "uniqueArmor": "Armure unique",
+        "powerArmor": "Armure assistée"
       },
       "locations": {
         "main": "Principal"
@@ -46,7 +46,7 @@
         "daedricArtefacts": "Artefacts Daedra",
         "bugInAJar": "Un bug dans un pot",
         "shouts": "Des cris",
-        "uniqueArmourSets": "Ensembles d'armures uniques",
+        "uniqueArmorSets": "Ensembles d'armures uniques",
         "uniqueWeapons": "Armes uniques",
         "shrines": "Sanctuaires",
         "stones": "Des pierres"
