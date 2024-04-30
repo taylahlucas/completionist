@@ -13,11 +13,13 @@ import * as tr from '../../../translations/tr/db/index.js';
 import * as vi from '../../../translations/vi/db/index.js';
 import * as zh from '../../../translations/zh/db/index.js';
 import useMainState from '@redux/hooks/useMainState';
+import { GameContentItem } from '@utils/CustomInterfaces';
 
 interface TranslatedGameDataReturnType {
-	fallout4: any;
-	skyrim: any;
-	witcher3: any;
+	fallout3: GameContentItem[];
+	fallout4: GameContentItem[];
+	skyrim: GameContentItem[];
+	witcher3: GameContentItem[];
 }
 
 const useGetTranslatedGameData = (): TranslatedGameDataReturnType => {
@@ -68,6 +70,7 @@ const useGetTranslatedGameData = (): TranslatedGameDataReturnType => {
 	}
 
 	return {
+		fallout3: languageDb.fallout3,
 		fallout4: languageDb.fallout4,
 		skyrim: languageDb.skyrim,
 		witcher3: languageDb.witcher3,

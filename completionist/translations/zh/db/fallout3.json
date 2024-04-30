@@ -1,0 +1,8204 @@
+[
+  {
+    "id": "da4f1b92-5d0d-4e9d-9a65-63c7fe368aa1",
+    "mainCategory": "教程任务",
+    "title": "婴儿学步",
+    "hold": "",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "避难所 101",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "72e70f4e-6e85-4873-a2e4-0dc3a7aaf447",
+    "mainCategory": "教程任务",
+    "title": "快速成长",
+    "hold": "",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "避难所 101",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "b0e60e7e-1245-4b52-b7b3-dc6a6fd31629",
+    "mainCategory": "教程任务",
+    "title": "未来不完美",
+    "hold": "",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "避难所 101",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "9f1279f8-4e36-4e82-a0e3-94d308665301",
+    "mainCategory": "主线任务",
+    "title": "逃脱！",
+    "hold": "",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "避难所 101",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "5b50bc07-4f4b-41e8-84b3-c6d5cfb25c91",
+    "mainCategory": "主线任务",
+    "title": "追随他的脚步",
+    "hold": "",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "百万吨级",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "85f024bb-8d6c-49a2-9d5d-1ebe4b762b94",
+    "mainCategory": "主线任务",
+    "title": "银河新闻广播电台",
+    "hold": "",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "银河新闻广播电台",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "15aa1fd8-f3a2-4d5f-ae30-d9f0389f0ef8",
+    "mainCategory": "主线任务",
+    "title": "科学追求",
+    "hold": "",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "铆钉城",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "2e8fc584-8d2a-4c54-b05b-6a9b6b1057a6",
+    "mainCategory": "主线任务",
+    "title": "宁静巷",
+    "hold": "",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "避难所 112",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "5fbb3d20-8e7c-441f-b015-17b3a20ed9b3",
+    "mainCategory": "主线任务",
+    "title": "生命之水",
+    "hold": "",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "杰斐逊纪念堂",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "2a0240f1-cb5a-4e71-94f8-8ad11e01b140",
+    "mainCategory": "主线任务",
+    "title": "拾起踪迹",
+    "hold": "",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "堡垒",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "18e37dbd-426d-41a6-9aef-91a6dd186c72",
+    "mainCategory": "主线任务",
+    "title": "从天堂获救",
+    "hold": "",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "小灯火",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "f3190621-0edf-4a44-86c7-4260702f5eb9",
+    "mainCategory": "主线任务",
+    "title": "寻找伊甸园",
+    "hold": "",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "避难所 87",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "26079e0e-82e3-4a5f-8fbb-54a18742682b",
+    "mainCategory": "主线任务",
+    "title": "美国梦",
+    "hold": "",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "乌鸦岩",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "f495c145-2f84-4145-a1e7-5826dd7b7d27",
+    "mainCategory": "主线任务",
+    "title": "把它收回！",
+    "hold": "",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "堡垒",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "effeb787-50f3-4a65-8857-f1fc1bcf7a20",
+    "mainCategory": "主线任务",
+    "title": "项目杂质",
+    "hold": "",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "杰斐逊纪念堂",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "7b6639de-9f78-4fa0-b75d-2cfe3d34e72e",
+    "mainCategory": "支线任务",
+    "title": "阿加莎之歌",
+    "hold": "",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "阿加莎之家",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "672d00c4-64f5-4c9d-9467-47a0aa6a2423",
+    "mainCategory": "支线任务",
+    "title": "大城市的大麻烦",
+    "hold": "",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "大城镇",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "06d86b18-c312-4c07-88c8-0d0146a33d3a",
+    "mainCategory": "支线任务",
+    "title": "血缘关系",
+    "hold": "",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "百万吨级",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "9812b041-4bfb-4d3c-bc49-63ff2bb6de42",
+    "mainCategory": "支线任务",
+    "title": "国家元首",
+    "hold": "",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "联盟圣殿",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "ef00c35d-8cc7-40fd-9f27-5cb17a6a9403",
+    "mainCategory": "支线任务",
+    "title": "绿洲",
+    "hold": "",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "绿洲",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "b53d8e12-89d4-49e3-915d-423214b784b2",
+    "mainCategory": "支线任务",
+    "title": "赖利的游骑兵队",
+    "hold": "",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "地狱",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "2225de26-c98d-4a6e-b94e-d60a03b97ad8",
+    "mainCategory": "支线任务",
+    "title": "窃取独立性",
+    "hold": "",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "铆钉城",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "f96ed54b-96cd-4c79-8e98-14b52643b80a",
+    "mainCategory": "支线任务",
+    "title": "严格商业",
+    "hold": "",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "天堂瀑布",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "b69b0df0-fdc8-4d9c-95da-28dbf8b6d8c2",
+    "mainCategory": "支线任务",
+    "title": "十便士塔",
+    "hold": "",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "十便士塔",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "d4884d30-61ee-4387-8c5e-fb39a14c03d3",
+    "mainCategory": "支线任务",
+    "title": "核子可乐挑战",
+    "hold": "",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "梁罩",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "678e6a15-80e7-4857-92d3-9c8626608c11",
+    "mainCategory": "支线任务",
+    "title": "原子的力量",
+    "hold": "",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "百万吨级",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "0bcf688a-41c2-4e29-99a7-7a2cfaeb19df",
+    "mainCategory": "支线任务",
+    "title": "复制人",
+    "hold": "",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "铆钉城",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "45609a5c-6f7a-426a-a8f3-1b0974d37c2c",
+    "mainCategory": "支线任务",
+    "title": "超人的策略",
+    "hold": "",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "卡特伯里公地",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "c4f8a6f0-bbb0-4a4f-9b4b-4be005b9443f",
+    "mainCategory": "支线任务",
+    "title": "荒地生存指南",
+    "hold": "",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "百万吨级",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "CB3A97CB-5880-4595-A9D4-4C14646BCB15",
+    "mainCategory": "支线任务",
+    "title": "那些！",
+    "hold": "",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "格雷迪奇",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "d09e6113-fa01-490a-b2c4-12c2b130f010",
+    "mainCategory": "支线任务",
+    "title": "国内麻烦",
+    "hold": "",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "避难所 101",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "4c3f08a2-2f38-4291-9f4a-b42ec3152392",
+    "mainCategory": "支线任务",
+    "title": "你得朝他们的头开枪",
+    "hold": "",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "地狱",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "68b41c9e-8bf1-4a41-b059-f6d0f57d4a6e",
+    "mainCategory": "未标记的任务",
+    "title": "300 银币",
+    "hold": "",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "百万吨级",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "8a1ab4cb-fd7f-48a1-883f-3a5e12284f80",
+    "mainCategory": "未标记的任务",
+    "title": "一个被粗暴对待的男仆",
+    "hold": "",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "洛克波利斯",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "9a58c327-c0a7-48af-8262-f4ad8fb7ab88",
+    "mainCategory": "未标记的任务",
+    "title": "美好的一天，举办一场合适的婚礼",
+    "hold": "",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "铆钉城",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "ea204242-28b2-4a27-bb4c-9b7261b6a5d6",
+    "mainCategory": "未标记的任务",
+    "title": "祝你生日快乐",
+    "hold": "",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "小灯火",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "380501c7-b331-45da-9cfd-7d9bfb23763e",
+    "mainCategory": "未标记的任务",
+    "title": "议会席位",
+    "hold": "",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "铆钉城",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "e1be877d-62a7-4770-90b2-15da3273d803",
+    "mainCategory": "未标记的任务",
+    "title": "暴力经济学",
+    "hold": "",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "天堂瀑布",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "b3c52575-b234-4937-9059-19028f1f06ae",
+    "mainCategory": "未标记的任务",
+    "title": "选举日",
+    "hold": "",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "戴夫共和国",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "8471eb5d-2035-414e-b2b2-75f81e45d5f3",
+    "mainCategory": "未标记的任务",
+    "title": "绞刑架幽默",
+    "hold": "",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "堡垒",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "f92f06cb-2b19-43e7-94c3-12c35ed81213",
+    "mainCategory": "未标记的任务",
+    "title": "格雷迪的包裹",
+    "hold": "",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "万寿菊站",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "a4f87932-5ff4-4a27-93cb-94c5b1ef9fb4",
+    "mainCategory": "未标记的任务",
+    "title": "雇佣帮助",
+    "hold": "",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "第九圈",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "8c0b5568-8cf7-4da7-a0a2-f826924255d5",
+    "mainCategory": "未标记的任务",
+    "title": "吉格斯的战利品",
+    "hold": "",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "科技博物馆",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "a3afdf51-5e8d-4cc9-98f6-17828be20f4f",
+    "mainCategory": "未标记的任务",
+    "title": "只为品尝它的味道",
+    "hold": "",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "核子可乐工厂",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "ba6e77f3-1320-4650-b31b-342ef4911e5d",
+    "mainCategory": "未标记的任务",
+    "title": "凯勒家庭避难所",
+    "hold": "",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "首都废土",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "1e88b7d0-2d7d-464a-94fd-bab339a2f286",
+    "mainCategory": "未标记的任务",
+    "title": "狮子座的吸毒习惯",
+    "hold": "",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "百万吨级",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "8a18f88b-b93e-467b-81d0-735f51f54ad4",
+    "mainCategory": "未标记的任务",
+    "title": "林肯的利润率",
+    "hold": "",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "历史博物馆",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "52778e5b-57d9-43d3-a271-96bb635e78db",
+    "mainCategory": "未标记的任务",
+    "title": "商业帝国",
+    "hold": "",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "坎特伯雷下议院",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "1fc364c7-1e09-41e2-9d35-d8e2e1885e78",
+    "mainCategory": "未标记的任务",
+    "title": "我们的小秘密",
+    "hold": "",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "安代尔",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "4b8b3408-802f-47d7-b2cb-6284a14cc37a",
+    "mainCategory": "未标记的任务",
+    "title": "寻找谢丽尔",
+    "hold": "",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "南朗方",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "7f28dd92-6d2a-4e13-88a0-c6b3b340bfb3",
+    "mainCategory": "未标记的任务",
+    "title": "奴隶狩猎",
+    "hold": "",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "铆钉城",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "1539c314-b6ac-4cbf-910d-21d36ee78d99",
+    "mainCategory": "未标记的任务",
+    "title": "绑架者",
+    "hold": "",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "天堂瀑布",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "ff0a2d35-ff1b-4f3b-bb0b-c0790d0f8f0c",
+    "mainCategory": "未标记的任务",
+    "title": "失落的入门者",
+    "hold": "",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "福尔斯彻奇",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "c3d91cbb-8103-4b0e-9a62-5db43789d5ee",
+    "mainCategory": "未标记的任务",
+    "title": "治疗",
+    "hold": "",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "百万吨级",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "67dcdcc0-d1b8-4e8e-88f6-62466cf54788",
+    "mainCategory": "未标记的任务",
+    "title": "过量",
+    "hold": "",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "铆钉城",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "84b1b0af-fcbf-4d3f-9bbf-1f34fb8c978e",
+    "mainCategory": "可重复的任务",
+    "title": "教会捐款",
+    "hold": "",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "百万吨级",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "e9a95b92-9c29-4b54-a65a-6c272ce37e70",
+    "mainCategory": "可重复的任务",
+    "title": "收集全息标签",
+    "hold": "",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "堡垒",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "564b8cf7-5702-4e02-80d3-8359b8e86cc3",
+    "mainCategory": "可重复的任务",
+    "title": "真菌交易",
+    "hold": "",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "小灯火",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "343eeb8d-cc95-4822-8e4a-4e1d2875aa3f",
+    "mainCategory": "可重复的任务",
+    "title": "使用 Reilly 进行地理测绘",
+    "hold": "",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "游骑兵大院",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "7f52ba34-f69f-4f2e-96d8-c9d7fbb9f50a",
+    "mainCategory": "可重复的任务",
+    "title": "我想喝你的血",
+    "hold": "",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "梅莱斯蒂地铁站",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "081d5dd8-0868-4f90-927e-508370b91cb2",
+    "mainCategory": "可重复的任务",
+    "title": "密西西比量子派",
+    "hold": "",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "梁罩",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "525d1f51-84f7-45e7-987d-23c9a622c86f",
+    "mainCategory": "可重复的任务",
+    "title": "墨菲的轰炸之旅",
+    "hold": "",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "西北塞内卡站",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "0d279f85-c32b-41f6-b9c2-fb935d057bf4",
+    "mainCategory": "可重复的任务",
+    "title": "采集花蜜是为了乐趣和利润",
+    "hold": "",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "格雷迪奇",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "9262f02d-5851-4fe6-b36e-fa6f27094c11",
+    "mainCategory": "可重复的任务",
+    "title": "瑞恩布里格的神奇肉",
+    "hold": "",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "茱莉街站",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "96b1f052-3b33-4726-9e52-0cbf314fd1ec",
+    "mainCategory": "可重复的任务",
+    "title": "严格盈利",
+    "hold": "",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "天堂瀑布",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "2d1b50e2-38c3-4db3-a80a-014b7fcb36db",
+    "mainCategory": "可重复的任务",
+    "title": "被遗弃的收款代理",
+    "hold": "",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "独立堡",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "833570b5-0ad5-4c7c-a3b1-15de12a09d07",
+    "mainCategory": "可重复的任务",
+    "title": "这座老房子",
+    "hold": "",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "地狱",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "5ae8df5d-ae10-4a92-b3b3-2b2f55c38d0f",
+    "mainCategory": "可重复的任务",
+    "title": "沃尔特的废金属",
+    "hold": "",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "百万吨级",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "b26bde4a-f10c-42dc-a1a4-e43db8310dd3",
+    "mainCategory": "可重复的任务",
+    "title": "水乞丐",
+    "hold": "",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "百万吨级",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "c46a5758-9322-4ab0-b855-305167448465",
+    "mainCategory": "可重复的任务",
+    "title": "渴望学习",
+    "hold": "",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "阿灵顿图书馆",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "343b9628-6a90-41aa-baf8-5f0281b2a8aa",
+    "mainCategory": "可重复的任务",
+    "title": "Zip 的 Nuka 修复",
+    "hold": "",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "subCategoryType": "",
+    "location": "Zip 的 Nuka 修复",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "8c8d22b7-7e0d-4a4b-a02c-939ad79d56b7",
+    "mainCategory": "行动：安克雷奇",
+    "title": "援助被遗弃者",
+    "hold": "",
+    "dlc": "行动：安克雷奇",
+    "subCategory": "主线任务",
+    "subCategoryType": "",
+    "location": "贝利的十字路口",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "b5b23db0-449c-48a1-bd67-31cc0655b037",
+    "mainCategory": "行动：安克雷奇",
+    "title": "安克雷奇之炮",
+    "hold": "",
+    "dlc": "行动：安克雷奇",
+    "subCategory": "主线任务",
+    "subCategoryType": "",
+    "location": "锚地填海模拟",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "c2ebdb8b-9a1d-41c5-8236-af3e4ff4c6f4",
+    "mainCategory": "行动：安克雷奇",
+    "title": "铺平道路",
+    "hold": "",
+    "dlc": "行动：安克雷奇",
+    "subCategory": "主线任务",
+    "subCategoryType": "",
+    "location": "锚地填海模拟",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "c8a319e1-6a4d-4314-8202-07950a2d9723",
+    "mainCategory": "行动：安克雷奇",
+    "title": "行动：安克雷奇！",
+    "hold": "",
+    "dlc": "行动：安克雷奇",
+    "subCategory": "主线任务",
+    "subCategoryType": "",
+    "location": "锚地填海模拟",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "4d7cf2e0-8e32-4b9b-8c16-dc684cfc01a5",
+    "mainCategory": "皮特",
+    "title": "走进皮特",
+    "hold": "",
+    "dlc": "皮特",
+    "subCategory": "主线任务",
+    "subCategoryType": "",
+    "location": "无线电塔",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "8f85a4c8-b8d6-46df-b195-12afaa2a301f",
+    "mainCategory": "皮特",
+    "title": "不安全的工作条件",
+    "hold": "",
+    "dlc": "皮特",
+    "subCategory": "主线任务",
+    "subCategoryType": "",
+    "location": "皮特杆秤",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "95b36877-c270-4d16-8d4c-3e0818fd57b5",
+    "mainCategory": "皮特",
+    "title": "免费劳动力",
+    "hold": "",
+    "dlc": "皮特",
+    "subCategory": "主线任务",
+    "subCategoryType": "",
+    "location": "避风港",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "8c73527b-0633-4f15-8549-bcbf9534f531",
+    "mainCategory": "皮特",
+    "title": "工厂工人",
+    "hold": "",
+    "dlc": "皮特",
+    "subCategory": "未标记的任务",
+    "subCategoryType": "",
+    "location": "皮特杆秤",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "c4ec7885-63c1-42c3-b163-3ae317a7c5e5",
+    "mainCategory": "皮特",
+    "title": "狂野比尔的最后一战",
+    "hold": "",
+    "dlc": "皮特",
+    "subCategory": "未标记的任务",
+    "subCategoryType": "",
+    "location": "市中心",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "d02e1a7f-b876-4b76-9f2a-d594214f8a78",
+    "mainCategory": "皮特",
+    "title": "奴隶告密者",
+    "hold": "",
+    "dlc": "皮特",
+    "subCategory": "未标记的任务",
+    "subCategoryType": "",
+    "location": "磨东西的器具",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "d02e1a7f-b876-4b76-9f2a-d594214f8a78",
+    "mainCategory": "皮特",
+    "title": "幼儿玩具",
+    "hold": "",
+    "dlc": "皮特",
+    "subCategory": "可重复的任务",
+    "subCategoryType": "",
+    "location": "市中心",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "febf849e-4c44-47f4-804b-2e81b86e70b6",
+    "mainCategory": "断钢",
+    "title": "死亡从天而降",
+    "hold": "",
+    "dlc": "断钢",
+    "subCategory": "主线任务",
+    "subCategoryType": "",
+    "location": "堡垒",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "b0b0bc5b-aa20-43c3-b1d8-d792e1af0f35",
+    "mainCategory": "断钢",
+    "title": "冲击值",
+    "hold": "",
+    "dlc": "断钢",
+    "subCategory": "主线任务",
+    "subCategoryType": "",
+    "location": "堡垒",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "bd9ac8ff-f1db-4767-805e-3b2b04792c8d",
+    "mainCategory": "断钢",
+    "title": "谁敢做谁赢",
+    "hold": "",
+    "dlc": "断钢",
+    "subCategory": "主线任务",
+    "subCategoryType": "",
+    "location": "堡垒",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "7eb29933-fa92-402a-a4cb-d5936a3e5b3d",
+    "mainCategory": "断钢",
+    "title": "圣水",
+    "hold": "",
+    "dlc": "断钢",
+    "subCategory": "支线任务",
+    "subCategoryType": "",
+    "location": "杰斐逊纪念堂",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "c736a190-df4b-41e1-89b6-d6b31d0348b0",
+    "mainCategory": "断钢",
+    "title": "保护水道",
+    "hold": "",
+    "dlc": "断钢",
+    "subCategory": "支线任务",
+    "subCategoryType": "",
+    "location": "杰斐逊纪念堂",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "f06a19f5-6ad0-4926-9ed3-0b227079c19d",
+    "mainCategory": "断钢",
+    "title": "令人惊叹的 Aqua Cural",
+    "hold": "",
+    "dlc": "断钢",
+    "subCategory": "支线任务",
+    "subCategoryType": "",
+    "location": "杰斐逊纪念堂历史博物馆",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "8c8a4e23-7e0f-4b9f-a02d-93b3c4d701a1",
+    "mainCategory": "断钢",
+    "title": "悲伤的求婚者",
+    "hold": "",
+    "dlc": "断钢",
+    "subCategory": "未标记的任务",
+    "subCategoryType": "",
+    "location": "总统地铁",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "3b18a8a4-1c19-47ee-81d4-d7ac3f6913b7",
+    "mainCategory": "断钢",
+    "title": "废土人用水请求",
+    "hold": "",
+    "dlc": "断钢",
+    "subCategory": "未标记的任务",
+    "subCategoryType": "",
+    "location": "百万吨级",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "7eaf85c8-6e19-45cc-9479-993c5be6fb0d",
+    "mainCategory": "断钢",
+    "title": "为黄金时段做好准备",
+    "hold": "",
+    "dlc": "断钢",
+    "subCategory": "可重复的任务",
+    "subCategoryType": "",
+    "location": "堡垒",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "194e81fc-5d5a-4139-9173-aa3d1555b4e2",
+    "mainCategory": "断钢",
+    "title": "热血兄弟会",
+    "hold": "",
+    "dlc": "断钢",
+    "subCategory": "可重复的任务",
+    "subCategoryType": "",
+    "location": "堡垒",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "f3e8a4cf-0f3c-4eac-b2d5-7e7e2e2d0250",
+    "mainCategory": "观景台",
+    "title": "当地风味",
+    "hold": "",
+    "dlc": "观景台",
+    "subCategory": "主线任务",
+    "subCategoryType": "",
+    "location": "河船登陆",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "372f41c5-6212-4f36-b67a-af6eb7b184a3",
+    "mainCategory": "观景台",
+    "title": "与灵魂同行",
+    "hold": "",
+    "dlc": "观景台",
+    "subCategory": "主线任务",
+    "subCategoryType": "",
+    "location": "方舟",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "15c320bc-70c6-4890-9fe6-f2791d59a584",
+    "mainCategory": "观景台",
+    "title": "听到声音",
+    "hold": "",
+    "dlc": "观景台",
+    "subCategory": "主线任务",
+    "subCategoryType": "",
+    "location": "方舟",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "45d9215f-b8a3-4db0-a99b-cd4d25d8163a",
+    "mainCategory": "观景台",
+    "title": "思想控制",
+    "hold": "",
+    "dlc": "观景台",
+    "subCategory": "主线任务",
+    "subCategoryType": "",
+    "location": "卡尔弗特大厦",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "83981dbd-7b79-4637-bb3d-79f5e4cb3e47",
+    "mainCategory": "观景台",
+    "title": "思想的碰撞",
+    "hold": "",
+    "dlc": "观景台",
+    "subCategory": "主线任务",
+    "subCategoryType": "",
+    "location": "卡尔弗特大厦",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "e44273b8-01f3-4e68-ba4f-89f0536f5db9",
+    "mainCategory": "观景台",
+    "title": "一勺威士忌",
+    "hold": "",
+    "dlc": "观景台",
+    "subCategory": "支线任务",
+    "subCategoryType": "",
+    "location": "玛格丽特的小屋",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "ca468d20-789b-43d1-9cf4-4d9bf96ed3fd",
+    "mainCategory": "观景台",
+    "title": "古董之地",
+    "hold": "",
+    "dlc": "观景台",
+    "subCategory": "支线任务",
+    "subCategoryType": "",
+    "location": "奥兹曼迪亚斯号航空母舰",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "7a09c24f-5897-4d77-8a3a-02b0c7f1c71e",
+    "mainCategory": "观景台",
+    "title": "普利克的狩猎之旅",
+    "hold": "",
+    "dlc": "观景台",
+    "subCategory": "支线任务",
+    "subCategoryType": "",
+    "location": "沿海石窟",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "d92dd86f-7d8d-4ec7-bb82-9d6f43c34f77",
+    "mainCategory": "观景台",
+    "title": "布莱克霍尔的黑暗之心",
+    "hold": "",
+    "dlc": "观景台",
+    "subCategory": "支线任务",
+    "subCategoryType": "",
+    "location": "布莱克霍尔庄园",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "c6e4860a-82cb-49ad-8035-9ee7f7871f29",
+    "mainCategory": "观景台",
+    "title": "天鹅绒窗帘",
+    "hold": "",
+    "dlc": "观景台",
+    "subCategory": "支线任务",
+    "subCategoryType": "",
+    "location": "凡人家园",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "c6e4860a-82cb-49ad-8035-9ee7f7871f29",
+    "mainCategory": "观景台",
+    "title": "尾随假小子",
+    "hold": "",
+    "dlc": "观景台",
+    "subCategory": "未标记的任务",
+    "subCategoryType": "",
+    "location": "凡人家园",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "44a96c74-df4f-4c6c-b68d-3d9ad84a27f7",
+    "mainCategory": "泽塔母舰",
+    "title": "不属于这个世界",
+    "hold": "",
+    "dlc": "泽塔母舰",
+    "subCategory": "主线任务",
+    "subCategoryType": "",
+    "location": "泽塔母舰",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "3bd91154-302e-4d2d-8a27-2e4ad44f622e",
+    "mainCategory": "泽塔母舰",
+    "title": "群星之中",
+    "hold": "",
+    "dlc": "泽塔母舰",
+    "subCategory": "主线任务",
+    "subCategoryType": "",
+    "location": "泽塔母舰",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "6d3df0e2-ff70-4d23-b3e5-c62af54e5b0a",
+    "mainCategory": "泽塔母舰",
+    "title": "这个银河系还不够大……",
+    "hold": "",
+    "dlc": "泽塔母舰",
+    "subCategory": "主线任务",
+    "subCategoryType": "",
+    "location": "泽塔母舰",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "6d3df0e2-ff70-4d23-b3e5-c62af54e5b0a",
+    "mainCategory": "泽塔母舰",
+    "title": "泽塔传说",
+    "hold": "",
+    "dlc": "泽塔母舰",
+    "subCategory": "未标记的任务",
+    "subCategoryType": "",
+    "location": "泽塔母舰",
+    "href": "",
+    "conflictingIds": [],
+    "section": "quests"
+  },
+  {
+    "id": "2a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "mainCategory": "摇头娃娃",
+    "title": "力量摇头娃娃",
+    "subCategory": "特别的。",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "42e17c3b-90d5-490d-b45f-579163c8a2c9",
+    "mainCategory": "摇头娃娃",
+    "title": "感知摇头娃娃",
+    "subCategory": "特别的。",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "bfdbe5a9-1e51-4ee6-b7d8-7ac8090cbf01",
+    "mainCategory": "摇头娃娃",
+    "title": "耐力摇头娃娃",
+    "subCategory": "特别的。",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "9a845e3a-124f-43c7-9c9b-3e847a6fdd68",
+    "mainCategory": "摇头娃娃",
+    "title": "魅力摇头公仔",
+    "subCategory": "特别的。",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "a7e3d91b-dfb3-4ee5-98c8-8ae8457693bd",
+    "mainCategory": "摇头娃娃",
+    "title": "智力摇头娃娃",
+    "subCategory": "特别的。",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "0a6e8b14-0e3f-470a-bd9b-6e17c9482d7a",
+    "mainCategory": "摇头娃娃",
+    "title": "敏捷摇头娃娃",
+    "subCategory": "特别的。",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "f36b7ad4-cad3-4d11-94b9-abc18b43b1a9",
+    "mainCategory": "摇头娃娃",
+    "title": "幸运摇头公仔",
+    "subCategory": "特别的。",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "2a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "mainCategory": "摇头娃娃",
+    "title": "易货摇头娃娃",
+    "subCategory": "技能",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "3b26fe9c-32b7-495c-a32d-7f7ebfd0a66b",
+    "mainCategory": "摇头娃娃",
+    "title": "大枪摇头娃娃",
+    "subCategory": "技能",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "c1d384ac-9e0e-4e58-9d63-78138a2b55cb",
+    "mainCategory": "摇头娃娃",
+    "title": "能量武器摇头公仔",
+    "subCategory": "技能",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "6a04c879-6b10-498f-b734-2aeb96e1af02",
+    "mainCategory": "摇头娃娃",
+    "title": "炸药摇头娃娃",
+    "subCategory": "技能",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "f5b7a6c3-9a52-4984-9254-ee9629ec118b",
+    "mainCategory": "摇头娃娃",
+    "title": "开锁摇头娃娃",
+    "subCategory": "技能",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "d53c87b1-c3d0-490b-ae7e-0446a11a4477",
+    "mainCategory": "摇头娃娃",
+    "title": "医学摇头娃娃",
+    "subCategory": "技能",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "ad54b59d-0880-4b4d-b0f7-ee29bfb6dc4d",
+    "mainCategory": "摇头娃娃",
+    "title": "近战武器摇头娃娃",
+    "subCategory": "技能",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "56e1e0ac-33b7-42fc-ae26-9c76dc83b164",
+    "mainCategory": "摇头娃娃",
+    "title": "修理摇头公仔",
+    "subCategory": "技能",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "6a319cd8-689f-49e4-bd59-07d8f487fc6a",
+    "mainCategory": "摇头娃娃",
+    "title": "科学摇头娃娃",
+    "subCategory": "技能",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "3b2f92ff-1a53-46a1-a5e5-64f6a7f1cf4b",
+    "mainCategory": "摇头娃娃",
+    "title": "小枪摇头娃娃",
+    "subCategory": "技能",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "9a9c6a7b-1185-42c6-9eb6-53d6beab2199",
+    "mainCategory": "摇头娃娃",
+    "title": "潜行摇头娃娃",
+    "subCategory": "技能",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "7cfcf3fd-b92f-40c8-a748-01b5b4aa5473",
+    "mainCategory": "摇头娃娃",
+    "title": "语音摇头娃娃",
+    "subCategory": "技能",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "c848b1ad-2551-45ef-86d1-3165f4df6f7b",
+    "mainCategory": "摇头娃娃",
+    "title": "手无寸铁的摇头娃娃",
+    "subCategory": "技能",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "2a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "mainCategory": "独特的盔甲",
+    "title": "重磅炸弹装甲",
+    "subCategory": "盔甲",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "3b2d0e4f-1ec7-4b14-95a1-84e8682f91d7",
+    "mainCategory": "独特的盔甲",
+    "title": "中国隐形装甲",
+    "subCategory": "盔甲",
+    "prerequisite": "",
+    "dlc": "行动：安克雷奇",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "7c4c1867-fa9a-448e-b48c-b1a6319ef61e",
+    "mainCategory": "独特的盔甲",
+    "title": "复合侦查装甲",
+    "subCategory": "盔甲",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "73abff82-96b0-497a-9c0d-3a13474c4e13",
+    "mainCategory": "独特的盔甲",
+    "title": "拉格-博尔特的战斗装甲",
+    "subCategory": "盔甲",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "22a38e3a-1bf8-43d5-b42c-8dfb5c1b68b5",
+    "mainCategory": "独特的盔甲",
+    "title": "金属主甲",
+    "subCategory": "盔甲",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "5d49db8c-0585-4aa1-9bf0-b5b0e3649a6e",
+    "mainCategory": "独特的盔甲",
+    "title": "武士盔甲",
+    "subCategory": "盔甲",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "A7A8E027-D48B-462A-988B-41F65DD5D05B",
+    "mainCategory": "独特的盔甲",
+    "title": "流浪者的皮甲",
+    "subCategory": "盔甲",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "2a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "mainCategory": "独特的盔甲",
+    "title": "妖怪的兜帽",
+    "subCategory": "头饰",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "3b4e8a7d-1f0c-4027-ae54-79f2ae84463c",
+    "mainCategory": "独特的盔甲",
+    "title": "巴顿的假发",
+    "subCategory": "头饰",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "febf3e68-5b8c-4e49-9c8f-08dbd9031c39",
+    "mainCategory": "独特的盔甲",
+    "title": "乌鸦眼机器人头盔",
+    "subCategory": "头饰",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "15a2a48f-7c94-4d53-ae06-80e5c4e2cb95",
+    "mainCategory": "独特的盔甲",
+    "title": "隐色眼镜",
+    "subCategory": "头饰",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "e0be89eb-07d0-4a62-82fb-f08db450fc98",
+    "mainCategory": "独特的盔甲",
+    "title": "戴斯蒙德的眼镜",
+    "subCategory": "头饰",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "82c1c3d0-e6d1-41b3-9970-098478c9a7e5",
+    "mainCategory": "独特的盔甲",
+    "title": "过滤头盔",
+    "subCategory": "头饰",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "2274eb1c-4b86-4cb0-8923-c25d0b55b4cf",
+    "mainCategory": "独特的盔甲",
+    "title": "食尸鬼面具",
+    "subCategory": "头饰",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "d1c3d2fd-3dd0-4f67-9b3c-923d0e8b9c34",
+    "mainCategory": "独特的盔甲",
+    "title": "人民之帽",
+    "subCategory": "头饰",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "c5a1a748-854e-42f3-bfc3-f34d8c4cf55b",
+    "mainCategory": "独特的盔甲",
+    "title": "儿童派对帽",
+    "subCategory": "头饰",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "2a1a0bb9-b0bf-43d8-b1ab-50f2f6c0910d",
+    "mainCategory": "独特的盔甲",
+    "title": "拉格-博尔特的阴影",
+    "subCategory": "头饰",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "c49f2f13-1ebe-4e86-9713-8684bf1c0b9c",
+    "mainCategory": "独特的盔甲",
+    "title": "勒杜的曲棍球面具",
+    "subCategory": "头饰",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "0fbc2b2d-45fb-4f05-b5e4-978d8d84f71a",
+    "mainCategory": "独特的盔甲",
+    "title": "林肯的帽子",
+    "subCategory": "头饰",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "88f59eb8-b64d-4c85-b847-8a3ff3b49650",
+    "mainCategory": "独特的盔甲",
+    "title": "幸运色",
+    "subCategory": "头饰",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "3c2cb317-1b53-4cfc-bf6a-ff424f33b3e1",
+    "mainCategory": "独特的盔甲",
+    "title": "小型切割面具",
+    "subCategory": "头饰",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "927e9c2a-f8a3-4dbb-9d2f-8e3d48f50f2a",
+    "mainCategory": "独特的盔甲",
+    "title": "白杨树的风帽",
+    "subCategory": "头饰",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "bf0ebf3d-d6f2-456d-bc2a-79ef3d1d8dc9",
+    "mainCategory": "独特的盔甲",
+    "title": "遮阳帽",
+    "subCategory": "头饰",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "e1bdcdd6-0599-4791-b39e-999fe8cfc648",
+    "mainCategory": "独特的盔甲",
+    "title": "塔科马公园少棒队帽",
+    "subCategory": "头饰",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "4578a8a1-9617-41e7-83ef-459b40fd6cbb",
+    "mainCategory": "独特的盔甲",
+    "title": "三只狗的头饰",
+    "subCategory": "头饰",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "9786e498-08de-4f28-b5df-67f5367d0108",
+    "mainCategory": "独特的盔甲",
+    "title": "火炬手的面具",
+    "subCategory": "头饰",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "2a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "mainCategory": "独特的盔甲",
+    "title": "装甲 Vault 101 连身衣",
+    "subCategory": "连身裤",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "b1a22db8-26c0-44cf-b5ad-7c1467a244f3",
+    "mainCategory": "独特的盔甲",
+    "title": "改良实用连身裤",
+    "subCategory": "连身裤",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "db556445-40b2-485a-b448-7693dbb4050a",
+    "mainCategory": "独特的盔甲",
+    "title": "红衣连体衣",
+    "subCategory": "连身裤",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "693c2da4-3bb4-4d8a-b936-8fc0191527c0",
+    "mainCategory": "独特的盔甲",
+    "title": "Vault 101 儿童连身裤",
+    "subCategory": "连身裤",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "85b4e22d-7270-465b-817b-0e4c9f14fb3e",
+    "mainCategory": "独特的盔甲",
+    "title": "Vault 77 连身衣",
+    "subCategory": "连身裤",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "2a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "mainCategory": "独特的盔甲",
+    "title": "爸爸的荒野装",
+    "subCategory": "服装",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "ef6b6f33-431d-46ff-81df-41775eb77980",
+    "mainCategory": "独特的盔甲",
+    "title": "李医生的服装",
+    "subCategory": "服装",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "b7cf837e-09a3-4abf-b29c-8a3631243d10",
+    "mainCategory": "独特的盔甲",
+    "title": "儿童洞穴鼠套装",
+    "subCategory": "服装",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "4e1b1ebf-4e7c-42d8-8259-98bc1a51d6eb",
+    "mainCategory": "独特的盔甲",
+    "title": "工人装",
+    "subCategory": "服装",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "835b1910-fc7f-41ff-b755-7bc8ab41818e",
+    "mainCategory": "独特的盔甲",
+    "title": "麦克格雷迪市长的服装",
+    "subCategory": "服装",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "0482999a-4875-4821-8dd0-08f65a42dc71",
+    "mainCategory": "独特的盔甲",
+    "title": "神秘陌生人套装",
+    "subCategory": "服装",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "d7a8124a-54f2-43d2-89e2-3c8990d8664a",
+    "mainCategory": "独特的盔甲",
+    "title": "保尔森的着装",
+    "subCategory": "服装",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "b0111b53-2b02-4d8e-9614-4909e17c9b70",
+    "mainCategory": "独特的盔甲",
+    "title": "万斯的长外套套装",
+    "subCategory": "服装",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "2a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "mainCategory": "独特的盔甲",
+    "title": "阿舒尔的动力装甲",
+    "subCategory": "动力装甲",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "1a4b543e-5dc6-4b18-84ac-c29e1c2872e2",
+    "mainCategory": "独特的盔甲",
+    "title": "林登的流放者动力装甲",
+    "subCategory": "动力装甲",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "ca97dc61-0569-4a76-9f39-056ff0fc32b8",
+    "mainCategory": "独特的盔甲",
+    "title": "医疗动力装甲原型",
+    "subCategory": "动力装甲",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "af0a1e99-7a0f-4a93-a404-c94d485c3776",
+    "mainCategory": "独特的盔甲",
+    "title": "T-51b动力装甲",
+    "subCategory": "动力装甲",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "e87e2f29-9ee7-42b5-b50c-032d8f1a4d89",
+    "mainCategory": "独特的盔甲",
+    "title": "部落动力装甲",
+    "subCategory": "动力装甲",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "4d31d2d7-9ed5-4f2a-9a94-3cd56966d17b",
+    "mainCategory": "独特的盔甲",
+    "title": "防冻 T-51b 动力装甲",
+    "subCategory": "动力装甲",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "2a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "mainCategory": "独特的盔甲",
+    "title": "通用科学服",
+    "subCategory": "西装",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "13b9e862-0b5c-4e8f-aa85-7938d234fc3b",
+    "mainCategory": "独特的盔甲",
+    "title": "环境套装",
+    "subCategory": "西装",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "b5d4a50f-4420-45e6-90fb-8d2ed496cf91",
+    "mainCategory": "独特的盔甲",
+    "title": "悼词琼斯的套装",
+    "subCategory": "西装",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "f2d1d176-f9ad-4fc9-9ed8-b670e7d28d9a",
+    "mainCategory": "独特的盔甲",
+    "title": "神经接口套装",
+    "subCategory": "西装",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "679b2e6d-4974-4823-90e7-42503b65dc45",
+    "mainCategory": "独特的盔甲",
+    "title": "宇航服",
+    "subCategory": "西装",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "7f896b6e-2936-4a85-92f2-64126c6f2c56",
+    "mainCategory": "独特的盔甲",
+    "title": "汤普尼的套装",
+    "subCategory": "西装",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "2a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "mainCategory": "独特的盔甲",
+    "title": "奥特姆上校的制服",
+    "subCategory": "制服",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "c871c66e-1d2b-43c4-9355-03e3733fd2c2",
+    "mainCategory": "独特的盔甲",
+    "title": "精卫将军军服",
+    "subCategory": "制服",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "FC2538e0-725d-470e-9921-d73cc3b7f91b",
+    "mainCategory": "独特的盔甲",
+    "title": "跳马实验室制服",
+    "subCategory": "制服",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "2a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "mainCategory": "独特的盔甲",
+    "title": "通宵睡衣",
+    "subCategory": "各种各样的",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "a7b76b4b-279f-49e4-aa8d-784888ccffbb",
+    "mainCategory": "独特的盔甲",
+    "title": "爆炸睡衣",
+    "subCategory": "各种各样的",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "e628c7a2-4b84-47e8-a43a-b4a6f058f92a",
+    "mainCategory": "独特的盔甲",
+    "title": "里昂长老的长袍",
+    "subCategory": "各种各样的",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "155a2aa3-1290-4a24-8dcf-1845d2a48d90",
+    "mainCategory": "独特的盔甲",
+    "title": "蔡斯将军的大衣",
+    "subCategory": "各种各样的",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "2da01765-c6d8-4b7d-b4d1-c8f3dc2d0ab9",
+    "mainCategory": "独特的盔甲",
+    "title": "皮革叛逆者",
+    "subCategory": "各种各样的",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "f64612a9-4f39-4df8-9e8b-8b79201d87c5",
+    "mainCategory": "独特的盔甲",
+    "title": "骗子的配合",
+    "subCategory": "各种各样的",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "d48d1d0b-2a90-4a39-b849-9e22ebc71f02",
+    "mainCategory": "独特的盔甲",
+    "title": "莱斯科的实验室外套",
+    "subCategory": "各种各样的",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "b8913c47-bdc5-46ab-b865-d7099aa2f001",
+    "mainCategory": "独特的盔甲",
+    "title": "枫之衣",
+    "subCategory": "各种各样的",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "c7f4a9f3-ced1-4653-aa95-ff2dcb619d74",
+    "mainCategory": "独特的盔甲",
+    "title": "顽皮的睡衣",
+    "subCategory": "各种各样的",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "f122cc16-4c64-42e5-aa6e-356c0c06b63f",
+    "mainCategory": "独特的盔甲",
+    "title": "警长的掸子",
+    "subCategory": "各种各样的",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "d8cc292e-02c7-46e3-8f0b-9c8b2d07c429",
+    "mainCategory": "独特的盔甲",
+    "title": "AntAgonizer 的服装",
+    "subCategory": "各种各样的",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "9db4fb98-c9ac-4432-885e-4b8c54a23b98",
+    "mainCategory": "独特的盔甲",
+    "title": "机械师服装",
+    "subCategory": "各种各样的",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "9db4fb98-c9ac-c432-885e-4b8c54a23b98",
+    "mainCategory": "独特的盔甲",
+    "title": "外科医生的实验室外套",
+    "subCategory": "各种各样的",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "2a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "mainCategory": "独特的武器",
+    "title": "费斯托！",
+    "subCategory": "徒手武器",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "9a15b3b7-96fc-4620-bb1a-5f8a1b39824b",
+    "mainCategory": "独特的武器",
+    "title": "普朗克特的有效观点",
+    "subCategory": "徒手武器",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "b203a116-1e05-4f4f-856f-981422baf9bc",
+    "mainCategory": "皮特",
+    "title": "指节钢",
+    "subCategory": "独特的武器",
+    "prerequisite": "",
+    "dlc": "皮特",
+    "subCategoryType": "徒手武器",
+    "section": "collectables"
+  },
+  {
+    "id": "cf9495f1-0c29-4be7-8911-261fb7f71b07",
+    "mainCategory": "独特的武器",
+    "title": "震惊者",
+    "subCategory": "徒手武器",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "2a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "mainCategory": "独特的武器",
+    "title": "蚂蚁的螫刺",
+    "subCategory": "近战武器",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "9a15b3b7-96fc-4620-bb1a-5f8a1b39824b",
+    "mainCategory": "独特的武器",
+    "title": "教育委员会",
+    "subCategory": "近战武器",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "b203a116-1e05-4f4f-856f-981422baf9bc",
+    "mainCategory": "独特的武器",
+    "title": "布奇的牙签",
+    "subCategory": "近战武器",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "cf9495f1-0c29-4be7-8911-261fb7f71b07",
+    "mainCategory": "泽塔母舰",
+    "title": "电抑制器",
+    "subCategory": "独特的武器",
+    "prerequisite": "",
+    "dlc": "泽塔母舰",
+    "subCategoryType": "近战武器",
+    "section": "collectables"
+  },
+  {
+    "id": "cf9495f1-0c29-4be7-8911-261fb7f71b07",
+    "mainCategory": "独特的武器",
+    "title": "福克斯的超级雪橇",
+    "subCategory": "近战武器",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "cf9495f1-0c29-4be7-8911-261fb7f71b07",
+    "mainCategory": "观景台",
+    "title": "肥料铲",
+    "subCategory": "独特的武器",
+    "prerequisite": "",
+    "dlc": "观景台",
+    "subCategoryType": "近战武器",
+    "section": "collectables"
+  },
+  {
+    "id": "cf9495f1-0c29-4be7-8911-261fb7f71b07",
+    "mainCategory": "独特的武器",
+    "title": "拦路强盗的朋友",
+    "subCategory": "近战武器",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "cf9495f1-0c29-4be7-8911-261fb7f71b07",
+    "mainCategory": "独特的武器",
+    "title": "杰克",
+    "subCategory": "近战武器",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "cf9495f1-0c29-4be7-8911-261fb7f71b07",
+    "mainCategory": "行动：安克雷奇",
+    "title": "精卫的震剑",
+    "subCategory": "独特的武器",
+    "prerequisite": "",
+    "dlc": "行动：安克雷奇",
+    "subCategoryType": "近战武器",
+    "section": "collectables"
+  },
+  {
+    "id": "2a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "mainCategory": "皮特",
+    "title": "男子开瓶器",
+    "subCategory": "独特的武器",
+    "prerequisite": "",
+    "dlc": "皮特",
+    "subCategoryType": "近战武器",
+    "section": "collectables"
+  },
+  {
+    "id": "fd5e54ff-38f4-46fb-bf4e-9cda3cabe98a",
+    "mainCategory": "独特的武器",
+    "title": "奥卡姆剃刀",
+    "subCategory": "近战武器",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "8cfd0b4d-8f75-4620-bb9d-e4cf0f122ae0",
+    "mainCategory": "独特的武器",
+    "title": "驱蚊棒",
+    "subCategory": "近战武器",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "66c55fc2-7e2d-4e8f-8d17-3cb4af740132",
+    "mainCategory": "观景台",
+    "title": "礼刀",
+    "subCategory": "独特的武器",
+    "prerequisite": "",
+    "dlc": "观景台",
+    "subCategoryType": "近战武器",
+    "section": "collectables"
+  },
+  {
+    "id": "d68f3a86-6a93-4b1e-8a4b-9a9d781857eb",
+    "mainCategory": "泽塔母舰",
+    "title": "武士的剑",
+    "subCategory": "独特的武器",
+    "prerequisite": "",
+    "dlc": "泽塔母舰",
+    "subCategoryType": "近战武器",
+    "section": "collectables"
+  },
+  {
+    "id": "7b5ef300-0170-4b80-97d1-5a4320a76b80",
+    "mainCategory": "独特的武器",
+    "title": "砍刀",
+    "subCategory": "近战武器",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "5c45cb3e-c1a7-42d4-8c19-0ef398b1f67d",
+    "mainCategory": "独特的武器",
+    "title": "斯塔布快乐",
+    "subCategory": "近战武器",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "93f895e8-62f7-4d65-8daa-8b1b8c9143b8",
+    "mainCategory": "独特的武器",
+    "title": "休息",
+    "subCategory": "近战武器",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "b14b30a8-48f7-4e0d-a41a-3f3328bbdd81",
+    "mainCategory": "观景台",
+    "title": "肢解者",
+    "subCategory": "独特的武器",
+    "prerequisite": "",
+    "dlc": "观景台",
+    "subCategoryType": "近战武器",
+    "section": "collectables"
+  },
+  {
+    "id": "6d8bf647-1c69-4f0f-aa92-6cbeaf6f23c7",
+    "mainCategory": "皮特",
+    "title": "重锤者",
+    "subCategory": "独特的武器",
+    "prerequisite": "",
+    "dlc": "皮特",
+    "subCategoryType": "近战武器",
+    "section": "collectables"
+  },
+  {
+    "id": "4e6d4e1c-8545-4b87-9a9e-1d8901c6f6fb",
+    "mainCategory": "独特的武器",
+    "title": "嫩化器",
+    "subCategory": "近战武器",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "a12a374b-ec0a-47ed-8415-14d99b2b38b2",
+    "mainCategory": "观景台",
+    "title": "玩具刀",
+    "subCategory": "独特的武器",
+    "prerequisite": "",
+    "dlc": "观景台",
+    "subCategoryType": "近战武器",
+    "section": "collectables"
+  },
+  {
+    "id": "7bb44645-6bc9-4ae7-9b91-1c1811d9d6a6",
+    "mainCategory": "行动：安克雷奇",
+    "title": "战壕刀",
+    "subCategory": "独特的武器",
+    "prerequisite": "",
+    "dlc": "行动：安克雷奇",
+    "subCategoryType": "近战武器",
+    "section": "collectables"
+  },
+  {
+    "id": "b3d0e91c-32da-46a4-bb39-448db0dd15f8",
+    "mainCategory": "独特的武器",
+    "title": "吸血鬼边缘",
+    "subCategory": "近战武器",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "8e05a8e2-dbb9-43e3-8dd9-0b7b2b1df3db",
+    "mainCategory": "观景台",
+    "title": "回水步枪",
+    "subCategory": "独特的武器",
+    "prerequisite": "",
+    "dlc": "观景台",
+    "subCategoryType": "小枪",
+    "section": "collectables"
+  },
+  {
+    "id": "feb1e6f4-fb32-4342-b8f1-eb12c2e65d5d",
+    "mainCategory": "独特的武器",
+    "title": "黑鹰",
+    "subCategory": "小枪",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "09860e37-3e5b-4202-83da-b3fb2a465fa4",
+    "mainCategory": "断钢",
+    "title": "卡拉汉的马格南",
+    "subCategory": "独特的武器",
+    "prerequisite": "",
+    "dlc": "断钢",
+    "subCategoryType": "小枪",
+    "section": "collectables"
+  },
+  {
+    "id": "2212f670-b7a3-4b60-bd02-fb72f4019b79",
+    "mainCategory": "独特的武器",
+    "title": "奥特姆上校的 10 毫米手枪",
+    "subCategory": "小枪",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "548e7507-9f7e-4513-9129-ba9c86e7083a",
+    "mainCategory": "独特的武器",
+    "title": "林肯的复读机",
+    "subCategory": "小枪",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "785bb5e4-9d7e-44ff-a893-7777c754b441",
+    "mainCategory": "独特的武器",
+    "title": "老无痛",
+    "subCategory": "小枪",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "6e44551b-3f8b-41fd-bba1-d5956f036e8b",
+    "mainCategory": "泽塔母舰",
+    "title": "保尔森的左轮手枪",
+    "subCategory": "独特的武器",
+    "prerequisite": "",
+    "dlc": "泽塔母舰",
+    "subCategoryType": "小枪",
+    "section": "collectables"
+  },
+  {
+    "id": "d26fd700-80a0-4c50-b180-41f42f8d9e9c",
+    "mainCategory": "皮特",
+    "title": "穿孔器",
+    "subCategory": "独特的武器",
+    "prerequisite": "",
+    "dlc": "皮特",
+    "subCategoryType": "小枪",
+    "section": "collectables"
+  },
+  {
+    "id": "d5ac18b1-0814-4e62-89f5-142be14bfb3b",
+    "mainCategory": "独特的武器",
+    "title": "预备役军人的步枪",
+    "subCategory": "小枪",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "35ff855e-d4f4-4b3f-b08a-0d2a5c96a57a",
+    "mainCategory": "独特的武器",
+    "title": "悉尼的 10 毫米“超”冲锋枪",
+    "subCategory": "小枪",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "62d1b6d7-062c-4e59-aa48-0b0646057322",
+    "mainCategory": "独特的武器",
+    "title": "膝盖保护者",
+    "subCategory": "小枪",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "89272a1d-7c69-4415-8695-28029028be13",
+    "mainCategory": "独特的武器",
+    "title": "可怕的霰弹枪",
+    "subCategory": "小枪",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "7e6c6df8-013a-4a35-af5b-dc7e99ef6c0c",
+    "mainCategory": "独特的武器",
+    "title": "胜利步枪",
+    "subCategory": "小枪",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "f92cbda8-3c41-4a39-a3f8-d7a3a01795e3",
+    "mainCategory": "皮特",
+    "title": "狂野比尔的随身武器",
+    "subCategory": "独特的武器",
+    "prerequisite": "",
+    "dlc": "皮特",
+    "subCategoryType": "小枪",
+    "section": "collectables"
+  },
+  {
+    "id": "2cd7b6f4-d843-4874-b93f-ebc3ac0fd32c",
+    "mainCategory": "独特的武器",
+    "title": "玄龙突击步枪",
+    "subCategory": "小枪",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "e07d1f71-c025-4e71-b2a1-1f80ac1d1a04",
+    "mainCategory": "独特的武器",
+    "title": "朱荣v418中国手枪",
+    "subCategory": "小枪",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "77e93450-4851-4b53-ba6c-d79231fb70f5",
+    "mainCategory": "独特的武器",
+    "title": "尤金",
+    "subCategory": "大枪",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "d154d723-787b-4c41-bf41-c1d69a92634b",
+    "mainCategory": "独特的武器",
+    "title": "燃烧大师",
+    "subCategory": "大枪",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "ebcf49b4-f18a-4baf-b6c0-0adec31b5a7e",
+    "mainCategory": "泽塔母舰",
+    "title": "无人机大炮 Ex-B",
+    "subCategory": "独特的武器",
+    "prerequisite": "",
+    "dlc": "泽塔母舰",
+    "subCategoryType": "大枪",
+    "section": "collectables"
+  },
+  {
+    "id": "332ec559-62af-40de-b3c1-903e741f72c2",
+    "mainCategory": "独特的武器",
+    "title": "实验型多弹头导弹",
+    "subCategory": "大枪",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "f42031e7-e646-4ccf-ba1c-86ba37006a8e",
+    "mainCategory": "独特的武器",
+    "title": "发射小姐",
+    "subCategory": "大枪",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "3b458b8e-3b7f-42cb-ba83-73cc3353bc94",
+    "mainCategory": "断钢",
+    "title": "精密加特林激光器",
+    "subCategory": "独特的武器",
+    "prerequisite": "",
+    "dlc": "断钢",
+    "subCategoryType": "大枪",
+    "section": "collectables"
+  },
+  {
+    "id": "08dc3d90-df1f-4f94-b198-d1e3d6df166f",
+    "mainCategory": "断钢",
+    "title": "快速火炬火焰喷射器",
+    "subCategory": "独特的武器",
+    "prerequisite": "",
+    "dlc": "断钢",
+    "subCategoryType": "大枪",
+    "section": "collectables"
+  },
+  {
+    "id": "a71dd0f6-3b47-4f54-bc51-9f70bc0901d4",
+    "mainCategory": "断钢",
+    "title": "慢燃火焰喷射器",
+    "subCategory": "独特的武器",
+    "prerequisite": "",
+    "dlc": "断钢",
+    "subCategoryType": "大枪",
+    "section": "collectables"
+  },
+  {
+    "id": "91fd46c7-2c44-4da5-a51f-93d3fc310190",
+    "mainCategory": "独特的武器",
+    "title": "复仇",
+    "subCategory": "大枪",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "83c0ae07-3d2c-4c0a-8337-2aa72c676b20",
+    "mainCategory": "独特的武器",
+    "title": "A3-21的等离子步枪",
+    "subCategory": "能量武器",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "5798f5a0-6d26-4820-b08d-cf4bc6600f71",
+    "mainCategory": "泽塔母舰",
+    "title": "原子粉碎机",
+    "subCategory": "独特的武器",
+    "prerequisite": "",
+    "dlc": "泽塔母舰",
+    "subCategoryType": "能量武器",
+    "section": "collectables"
+  },
+  {
+    "id": "d132c761-1a1a-4d8c-b7d8-601b1dcb6326",
+    "mainCategory": "泽塔母舰",
+    "title": "船长的随身武器",
+    "subCategory": "独特的武器",
+    "prerequisite": "",
+    "dlc": "泽塔母舰",
+    "subCategoryType": "能量武器",
+    "section": "collectables"
+  },
+  {
+    "id": "6b57a63b-64e3-4e1e-8b8e-44d54e8c87c0",
+    "mainCategory": "独特的武器",
+    "title": "奥特姆上校的激光手枪",
+    "subCategory": "能量武器",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "d4423425-037d-46ad-852e-94d4d4d0a5b4",
+    "mainCategory": "泽塔母舰",
+    "title": "不稳定剂",
+    "subCategory": "独特的武器",
+    "prerequisite": "",
+    "dlc": "泽塔母舰",
+    "subCategoryType": "能量武器",
+    "section": "collectables"
+  },
+  {
+    "id": "a3e1ff65-358b-4b96-b199-6a194c764d46",
+    "mainCategory": "独特的武器",
+    "title": "火枪",
+    "subCategory": "能量武器",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "ecdd1a2c-0db0-42f2-bc97-2e3e203df7cf",
+    "mainCategory": "行动：安克雷奇",
+    "title": "高斯步枪",
+    "subCategory": "独特的武器",
+    "prerequisite": "",
+    "dlc": "行动：安克雷奇",
+    "subCategoryType": "能量武器",
+    "section": "collectables"
+  },
+  {
+    "id": "84973f71-06ec-48c1-b9d7-cd4e2f1de335",
+    "mainCategory": "皮特",
+    "title": "金属冲击波",
+    "subCategory": "独特的武器",
+    "prerequisite": "",
+    "dlc": "皮特",
+    "subCategoryType": "能量武器",
+    "section": "collectables"
+  },
+  {
+    "id": "497d9cd0-888d-4f3b-9404-62d22f292ede",
+    "mainCategory": "独特的武器",
+    "title": "麦斯美通",
+    "subCategory": "能量武器",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "6a951af3-58c4-4b85-8970-bb1fbc8d4e13",
+    "mainCategory": "观景台",
+    "title": "微波发射器",
+    "subCategory": "独特的武器",
+    "prerequisite": "",
+    "dlc": "观景台",
+    "subCategoryType": "能量武器",
+    "section": "collectables"
+  },
+  {
+    "id": "c1b79ec8-4811-4c5b-8b3e-f5a9439e63a7",
+    "mainCategory": "泽塔母舰",
+    "title": "MPLX 诺星涌动",
+    "subCategory": "独特的武器",
+    "prerequisite": "",
+    "dlc": "泽塔母舰",
+    "subCategoryType": "能量武器",
+    "section": "collectables"
+  },
+  {
+    "id": "f85c18b1-22f2-4f0b-a4b1-9506c4c571fc",
+    "mainCategory": "独特的武器",
+    "title": "守护者的凝视",
+    "subCategory": "能量武器",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "7ae4965e-84b2-4e2f-a462-2c260d7d3d02",
+    "mainCategory": "独特的武器",
+    "title": "走私者的末日",
+    "subCategory": "能量武器",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "f8e25836-19db-41e1-b9cf-0fc44648b7a4",
+    "mainCategory": "独特的武器",
+    "title": "智友 Wifle",
+    "subCategory": "能量武器",
+    "prerequisite": "",
+    "dlc": "没有任何",
+    "subCategoryType": "",
+    "section": "collectables"
+  },
+  {
+    "id": "7b3d67e9-6ee3-43d3-8d1a-4769d8efed19",
+    "title": "安代尔",
+    "subCategory": "定居点",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "4e7fd9d3-c2d3-4054-94d3-0079bf3d9230",
+    "title": "阿雷富",
+    "subCategory": "定居点",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "9c40f0a7-7e95-4703-b65d-01f8e3e32aae",
+    "title": "大城镇",
+    "subCategory": "定居点",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "1d2226cf-fc92-47a0-af4a-2699c91a7ae8",
+    "title": "坎特伯雷下议院",
+    "subCategory": "定居点",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "63b85815-71b3-48cb-852d-ba798f3ae768",
+    "title": "城堡",
+    "subCategory": "定居点",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "ea3df7e5-1565-4f45-94fb-4b86e3b5c73b",
+    "title": "常绿杂项",
+    "subCategory": "定居点",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "b20f185d-11a6-4544-b89d-2b6547a214bc",
+    "title": "费尔法克斯聚会",
+    "subCategory": "定居点",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "76f285c4-2b19-42e2-a8a5-58fad7433c6",
+    "title": "梁罩",
+    "subCategory": "定居点",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "1d12a3c5-b0e3-414f-8f6a-4f67e7a272f1",
+    "title": "格雷迪奇",
+    "subCategory": "定居点",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "49e32b58-0be2-4294-a405-94d1a7b04f38",
+    "title": "小灯火",
+    "subCategory": "定居点",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "e876f890-9d2b-47c6-9ba9-75e1b4e1972b",
+    "title": "百万吨级",
+    "subCategory": "定居点",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "11f9f45d-fa25-45f3-8b54-9d9b63139d8a",
+    "title": "绿洲",
+    "subCategory": "定居点",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "b17db1d7-8f5a-49d5-a299-22ad2bc6c192",
+    "title": "天堂瀑布",
+    "subCategory": "定居点",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "f54d3e2d-3b36-4e24-a3aa-d7d2455e6b56",
+    "title": "乌鸦岩",
+    "subCategory": "定居点",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "1a25977d-5070-499a-b7da-1a31b0b1d333",
+    "title": "赖利的流浪者大院",
+    "subCategory": "定居点",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "f6496f0b-8b24-4d96-9a4c-02df94f62b1c",
+    "title": "戴夫共和国",
+    "subCategory": "定居点",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "b2d0b4e2-29bc-49af-a3fb-7bb1cf8a3bfa",
+    "title": "铆钉城",
+    "subCategory": "定居点",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "1f26fd45-e10b-4480-a60c-6ecf94549560",
+    "title": "联盟圣殿",
+    "subCategory": "定居点",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "b8df9a7b-3c42-4e7f-bc68-739f8ed86999",
+    "title": "十便士塔",
+    "subCategory": "定居点",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "9ad92bf0-7dc1-4e02-b018-0642f9bdc8d0",
+    "title": "地狱",
+    "subCategory": "定居点",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "f3337e1b-30ff-4c76-b06a-5a366c24e9f5",
+    "title": "避难所 101",
+    "subCategory": "定居点",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "3a8f2d33-1470-4fc2-bf0c-2bb6c7cbef21",
+    "title": "避难所 112",
+    "subCategory": "定居点",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "7f0760e0-56f6-4f88-9a85-048bc9450653",
+    "title": "沃灵顿站",
+    "subCategory": "定居点",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "60550ee8-1b1e-4fc2-8f11-ee38130ee226",
+    "title": "荒地吉普赛村",
+    "subCategory": "定居点",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "f48b90c0-8fc0-457f-a2bb-eb9e03840547",
+    "title": "威廉码头",
+    "subCategory": "定居点",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "10d1f1b2-2cf9-4ad2-bf8e-9cf202db734f",
+    "title": "废弃的汽车堡垒",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "f8c9e8ab-b33a-4c59-bc05-8c52ac8374e1",
+    "title": "阿加莎之家",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "aae31855-ea91-4486-8133-57fc3b50a568",
+    "title": "蚂蚁激动者的巢穴",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "4880d2e3-58b8-4571-8559-c8db2be1c171",
+    "title": "贝塞斯达遗址",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "0c8e0714-7053-4b5b-b376-8ed2058fb1c6",
+    "title": "广播塔KB5",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "7c7dd046-7154-4a0d-8f4a-22e0fd34456b",
+    "title": "广播塔KT8",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "e6db3462-7f11-46b0-8593-62dbd5e5f25b",
+    "title": "广播塔 LP8",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "19b93f47-dbe1-4b47-b399-9c9299433cc3",
+    "title": "停尸房",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "4e273d4c-2a27-4d94-9cf9-58c6b35f6e47",
+    "title": "贞洁英亩奶牛场",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "d5c84516-3d3d-4095-a98d-af57661e3a68",
+    "title": "克里斯勒斯大厦",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "75dab95e-41fd-4536-8480-7ec9d7034f88",
+    "title": "悬崖边的洞穴",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "08be197d-18a2-4de9-b8cf-f28f17c03d1f",
+    "title": "悬崖顶棚屋",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "55febb78-0893-4628-83a5-49a950fdff6e",
+    "title": "科尔维加工厂",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "7891b33c-004c-488a-8575-cbba5ef8e56a",
+    "title": "死亡爪庇护所",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "c51f2427-52d2-48a6-830d-97c5b9a720df",
+    "title": "迪克森帐幕礼拜堂",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "f14cc434-8598-48d1-b4f8-f5fe28ffef7d",
+    "title": "溺水恶魔十字路口",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "ba67b8f3-f5c6-4f12-8e92-bb258e8bc4b8",
+    "title": "杜可夫的住所",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "75f2e496-7609-4640-9f79-aae4c299da4e",
+    "title": "邓威治大厦",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "96d4d41d-aa94-47e5-82a1-2d3523d4c9e0",
+    "title": "长荣国家露营地",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "b7b36be6-c9a6-4c31-b22e-2fd037a2a09c",
+    "title": "常青工厂",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "a8f8e25d-80cb-4b60-b761-f36b7bc0e6fb",
+    "title": "F.斯科特基步道",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "274cbb1f-3d27-4cf1-bc16-e84d2e4b046b",
+    "title": "褪色的盛况庄园",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "c21c6e5b-1dc8-4d43-8244-7c991e224b83",
+    "title": "费尔法克斯遗址",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "0d29d615-c485-40c7-ae71-1424076b7357",
+    "title": "五轴休息站",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "e74b5e39-3a9c-4293-bbb1-58b37de7de75",
+    "title": "福特汉姆闪电纪念场",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "118f74d7-8e54-4bda-9b14-40a1615b2ee1",
+    "title": "班尼斯特堡",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "20e1adff-3e5d-477b-98db-918ab2d155ef",
+    "title": "君士坦丁堡",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "b1c0e4ad-d0a3-4de9-a29c-2fc7396dd087",
+    "title": "独立堡",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "f2a0c0ab-98fc-4b68-b23b-5c098ac062fd",
+    "title": "更绿的牧场处置场",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "BD5F1412-D867-4E90-A227-B4D2B53A0455",
+    "title": "可怕的餐馆",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "ae823e27-e24d-4b55-b86c-3b8d992f96c0",
+    "title": "神圣荒原公墓",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "757c91da-8c92-4433-a51a-7afad6d38a69",
+    "title": "汉密尔顿的隐居处",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "35c5c5ef-32a2-41e4-8450-4ab3ab48c51d",
+    "title": "贾伯特兄弟废物处理",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "b27bca39-1f1f-4e9a-a7a0-05c2b48b92f1",
+    "title": "乔科的流行音乐",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "2d5b221f-1f52-490b-af99-343a4c4052c8",
+    "title": "茱莉街地铁站",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "d1a3ec75-70ae-4db5-97d0-3f64dd749871",
+    "title": "凯琳的床",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "b7b5600f-6b6a-4d71-a349-0d7b1ecbf16b",
+    "title": "梅森迪克森打捞",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "7fcb874d-3156-457e-a547-681f800d671e",
+    "title": "MDPL-05电站",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "ff206b20-4845-474b-9870-69c30135d68c",
+    "title": "MDPL-13电站",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "3b61d89f-ccf2-465d-bd86-10512e84ad3f",
+    "title": "MDPL-16电站",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "6df50d70-25ac-4de8-86c1-89d79866ec57",
+    "title": "MDPL-21电站",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "3f61a5da-f84b-4b6e-bb9e-3eeb36ff47f6",
+    "title": "MDPL海量中继站",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "5e630f78-79d4-45c2-981b-b93e9eae003b",
+    "title": "梅雷斯蒂火车站",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "cd06d9c9-7017-469f-8968-20d4382b8595",
+    "title": "雷区",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "013f0189-68b1-4f84-b4f7-855e2a20a4b0",
+    "title": "蒙哥马利县水库",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "e03b83c7-b5ad-449e-80f3-4cbf3aaf8aae",
+    "title": "月光户外影院",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "38adfc5a-836b-4b22-81f3-16a0ac20c1fc",
+    "title": "梅布尔山露营地",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "59e21c63-b5d2-45e2-b0f4-10d6c3efefc6",
+    "title": "国民警卫队仓库",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "f7f60d18-4ed8-45f1-b9d3-b66b2990cfb1",
+    "title": "核子可乐工厂",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "96ab0f09-8a48-4478-b29c-739f96e6f49d",
+    "title": "老奥尔尼",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "14c2a27f-2034-42f3-8cb7-515e3d4d9b87",
+    "title": "俯瞰汽车影院",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "4c39dfe1-bfbd-4e86-80ef-88d512007174",
+    "title": "斜倚格罗夫斯度假村之家",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "25120a32-ef1f-4d5d-8d24-2b62b9be07a2",
+    "title": "红色赛车工厂",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "1b7d175b-0517-41d3-91c5-26f8e6e58a11",
+    "title": "监管机构总部",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "3a14e8af-85f3-4da9-bc38-80a9442c6710",
+    "title": "中继塔KX-B8-11",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "fb2d5a36-cc58-43e8-84d1-9e15ff0e7b7e",
+    "title": "RobCo 设施",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "c004ca9c-705f-4c89-b2f3-2e04f5b6e7e7",
+    "title": "机器人维修中心",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "bb6863e6-09d1-4b47-bf56-9cc1a4880d6e",
+    "title": "碎石者的最后气体",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "9d929ebf-751b-42cb-b91e-e4c3f6b77cf8",
+    "title": "岩溪洞穴",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "2a0857b4-d17b-446a-86ff-aa3d8bf2f643",
+    "title": "罗斯福学院",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "fcd75c98-dbd9-4299-9293-27b12d1e5d74",
+    "title": "卫星通信阵列 NN-03d",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "ab1088ed-261a-4ec1-a128-b0e35066fc89",
+    "title": "卫星通信阵列 NW-05a",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "b6b2cd13-f04c-4f0a-9f91-d4583eb9ff6c",
+    "title": "卫星通信阵列 NW-07c",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "3317a35f-4dd5-4ac5-9a9b-7ad89bc2893a",
+    "title": "废料场",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "a251a7ad-7d77-45e7-9812-b0254a41c55e",
+    "title": "下水道中转站",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "aae0be8b-98e3-4b65-91bb-5c7d1263b47d",
+    "title": "沙勒布里奇",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "d7c82d25-3e5c-4d29-a3cb-7c14fd502e01",
+    "title": "史密斯·凯西的车库",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "7e1c0c67-0b57-4f3d-8a69-920e4a3427e6",
+    "title": "一线希望汽车影院",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "e73e25c0-4e46-42de-bef6-cf2f19294432",
+    "title": "斯普林韦尔",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "ac6bc394-295f-4f3f-90ac-fd44d4da1e05",
+    "title": "斯普林维尔学校",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "cb489ffb-3aef-4de5-9536-cf7c86b84b9b",
+    "title": "超级超市",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "4f380b9e-7a7b-459b-8e88-4a7fb23bebf2",
+    "title": "联盟圣殿",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "87a0ff24-3a2e-4be7-b0e0-8f640539f876",
+    "title": "VAPL-58电站",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "3cf9a1d2-0f44-4eb5-a5f8-0e497c336804",
+    "title": "VAPL-66电站",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "09f8889c-0f60-4b14-859b-14674c6d872f",
+    "title": "VAPL-84电站",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "0fc281b7-3d38-44c5-a052-74f4b497cd68",
+    "title": "沃灵顿火车站",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "6c9354ae-e4df-44e2-a91a-0016a109788d",
+    "title": "惠顿军械库",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "fa5b92e5-0dcf-4f23-8170-5d71fb28b264",
+    "title": "西九龙广播电台",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "c9f67013-4be4-43b8-b027-525e9063b3ab",
+    "title": "妖怪地道",
+    "subCategory": "首都废土",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "b899e175-3d46-4742-99b4-7e5692403341",
+    "title": "圣光寺",
+    "subCategory": "首都废土",
+    "dlc": "断钢",
+    "mainCategory": "断钢",
+    "section": "locations"
+  },
+  {
+    "id": "68d6acdb-df6c-41c1-8a45-0d9e2d42f246",
+    "title": "罗克兰汽车隧道",
+    "subCategory": "首都废土",
+    "dlc": "断钢",
+    "mainCategory": "断钢",
+    "section": "locations"
+  },
+  {
+    "id": "d615aaf1-59b4-4efb-bce6-705c5a5f12b6",
+    "title": "卫星中继站",
+    "subCategory": "首都废土",
+    "dlc": "断钢",
+    "mainCategory": "断钢",
+    "section": "locations"
+  },
+  {
+    "id": "d615aaf1-59b4-4efb-bce6-705c5a5f12b6",
+    "title": "无线电塔",
+    "subCategory": "首都废土",
+    "dlc": "皮特",
+    "mainCategory": "皮特",
+    "section": "locations"
+  },
+  {
+    "id": "e56fb08a-2bb1-463f-8400-56bf53035210",
+    "title": "阿纳卡斯蒂亚区",
+    "subCategory": "华盛顿特区",
+    "subCategoryType": "阿纳卡斯蒂亚区",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "e56fb08a-2bb1-463f-8400-56bf53035210",
+    "title": "铆钉城",
+    "subCategory": "华盛顿特区",
+    "subCategoryType": "阿纳卡斯蒂亚区",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "6b99ab6f-fa61-4a16-ae5d-2582a7ef92a6",
+    "title": "杰斐逊纪念堂",
+    "subCategory": "华盛顿特区",
+    "subCategoryType": "阿纳卡斯蒂亚区",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "ee9c4e1f-1e2b-41e4-af07-1c3b5a9a68e4",
+    "title": "阿灵顿公墓区",
+    "subCategory": "华盛顿特区",
+    "subCategoryType": "阿灵顿公墓区",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "ee9f4e1f-1e2b-41e4-af07-1c3b5a9a68e4",
+    "title": "多尔切妈妈的",
+    "subCategory": "华盛顿特区",
+    "subCategoryType": "阿灵顿公墓区",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "ee9f8e1f-1e2b-21e4-4f07-1c3b5a9a68e4",
+    "title": "贝利十字路口区",
+    "subCategory": "华盛顿特区",
+    "subCategoryType": "贝利十字路口区",
+    "dlc": "行动：安克雷奇",
+    "mainCategory": "行动：安克雷奇",
+    "section": "locations"
+  },
+  {
+    "id": "ee9f8e1f-1e2b-21e4-4f07-1c3b5a9a68e4",
+    "title": "流放者前哨站",
+    "subCategory": "华盛顿特区",
+    "subCategoryType": "贝利十字路口区",
+    "dlc": "行动：安克雷奇",
+    "mainCategory": "行动：安克雷奇",
+    "section": "locations"
+  },
+  {
+    "id": "ee9f8e1f-1e2b-41e4-4f07-1c3b5a9a68e4",
+    "title": "锚地填海模拟",
+    "subCategory": "华盛顿特区",
+    "subCategoryType": "贝利十字路口区",
+    "dlc": "行动：安克雷奇",
+    "mainCategory": "行动：安克雷奇",
+    "section": "locations"
+  },
+  {
+    "id": "ee9f8e1f-de2b-4ce4-4f07-1c3b5a9a68e4",
+    "title": "切维蔡斯区",
+    "subCategory": "华盛顿特区",
+    "subCategoryType": "切维蔡斯区",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "ee9f8e1f-de2b-41e4-4f07-1c3b5a9a68e4",
+    "title": "GNR大厦广场",
+    "subCategory": "华盛顿特区",
+    "subCategoryType": "切维蔡斯区",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "ee9f8e1f-de2b-41e4-4f0c-1c3b5a9a68e4",
+    "title": "杜邦环岛区",
+    "subCategory": "华盛顿特区",
+    "subCategoryType": "杜邦环岛区",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "ee9f8e1f-de2b-41e4-4f0c-1c3b5a9a68e4",
+    "title": "福尔斯彻奇区",
+    "subCategory": "华盛顿特区",
+    "subCategoryType": "福尔斯彻奇区",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "ee9f8e1f-de2b-41e4-4f0c-1c3b5a9a68ec",
+    "title": "乔治敦区",
+    "subCategory": "华盛顿特区",
+    "subCategoryType": "乔治敦区",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "ee9f8e1f-de2b-41e4-4f0c-1c3b5a9a68e4",
+    "title": "朗方区",
+    "subCategory": "华盛顿特区",
+    "subCategoryType": "朗方区",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "3e4f8e1f-1e2b-41e4-4f07-1c3b5a9a68e4",
+    "title": "梅森区",
+    "subCategory": "华盛顿特区",
+    "subCategoryType": "梅森区",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "3e9f8e1f-1e2b-41e4-4f07-1c3b5a9a68e4",
+    "title": "傲慢漫画",
+    "subCategory": "华盛顿特区",
+    "subCategoryType": "梅森区",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "4e9f8e1f-de2b-41e4-4f07-1c3b5a9a68e4",
+    "title": "宾夕法尼亚大道区",
+    "subCategory": "华盛顿特区",
+    "subCategoryType": "宾夕法尼亚大道区",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "4e9f8e1f-de2b-41e4-4f07-1c3b5a9a68e4",
+    "title": "白色的房子",
+    "subCategory": "华盛顿特区",
+    "subCategoryType": "宾夕法尼亚大道区",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "4e9f8e1f-de2b-41e4-4f07-1c3b5a9a68e4",
+    "title": "白宫广场",
+    "subCategory": "华盛顿特区",
+    "subCategoryType": "宾夕法尼亚大道区",
+    "dlc": "断钢",
+    "mainCategory": "断钢",
+    "section": "locations"
+  },
+  {
+    "id": "31d1b5f0-8932-4e3c-b9c5-6fcb1c028402",
+    "title": "波托马克河",
+    "subCategory": "华盛顿特区",
+    "subCategoryType": "波托马克河",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "31d1b5f0-8932-4e3c-b9c5-6fcb1c028402",
+    "title": "亚历山大阿姆斯",
+    "subCategory": "华盛顿特区",
+    "subCategoryType": "波托马克河",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "d715f0fb-6b45-49a0-92fd-3f867c5d9b7b",
+    "title": "阿灵顿图书馆",
+    "subCategory": "华盛顿特区",
+    "subCategoryType": "波托马克河",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "8f22fd18-9c76-4562-84a6-225e1d0c3188",
+    "title": "城堡",
+    "subCategory": "华盛顿特区",
+    "subCategoryType": "波托马克河",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "5a77e748-864d-4a0f-813f-5ae6d64f9608",
+    "title": "地铁被淹 (CW)",
+    "subCategory": "华盛顿特区",
+    "subCategoryType": "波托马克河",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "52d916e0-8f9e-4ee3-8e63-1b2499dd1fd0",
+    "title": "辐射地铁",
+    "subCategory": "华盛顿特区",
+    "subCategoryType": "波托马克河",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "3b0d23c3-1a07-4b08-967d-f0af054af977",
+    "title": "威廉码头",
+    "subCategory": "华盛顿特区",
+    "subCategoryType": "波托马克河",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "36ad1db2-8601-4483-9866-ec1e671d5872",
+    "title": "安克雷奇纪念馆",
+    "subCategory": "华盛顿特区",
+    "subCategoryType": "波托马克河",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "4b535a44-d7cf-4624-8a21-d4b7a0f4b38e",
+    "title": "苏厄德广场区",
+    "subCategory": "华盛顿特区",
+    "subCategoryType": "苏厄德广场区",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "4b535a44-d7cf-4624-8a21-d4b7a0f4b38e",
+    "title": "游骑兵大院",
+    "subCategory": "华盛顿特区",
+    "subCategoryType": "苏厄德广场区",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "B875C74E-71FD-4AE6-835D-20A2D6E7A5B5",
+    "title": "国会大厦",
+    "subCategory": "华盛顿特区",
+    "subCategoryType": "苏厄德广场区",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "n875c74e-71fd-4ae6-835d-20a2d6e7a5b5",
+    "title": "塔科马公园区",
+    "subCategory": "华盛顿特区",
+    "subCategoryType": "塔科马公园区",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "n875c74e-71fd-4ae6-835d-20a2d6e7a5b5",
+    "title": "塔科马工业",
+    "subCategory": "华盛顿特区",
+    "subCategoryType": "塔科马公园区",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "edf2cb07-400e-4a97-9a2f-8e977125a380",
+    "title": "购物中心区",
+    "subCategory": "华盛顿特区",
+    "subCategoryType": "购物中心区",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "edf2db07-400e-4a97-9a2f-8e977125a380",
+    "title": "历史博物馆",
+    "subCategory": "华盛顿特区",
+    "subCategoryType": "购物中心区",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "7b4c775b-6b3a-4f17-a27e-30e37e1f1d5f",
+    "title": "科技博物馆",
+    "subCategory": "华盛顿特区",
+    "subCategoryType": "购物中心区",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "e5d0a1cc-24e8-47a7-b123-40a6b66086ee",
+    "title": "林肯纪念堂",
+    "subCategory": "华盛顿特区",
+    "subCategoryType": "购物中心区",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "94e5a375-9b72-4f54-bdcb-fab401d3bc47",
+    "title": "华盛顿纪念碑",
+    "subCategory": "华盛顿特区",
+    "subCategoryType": "购物中心区",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "c6a0e19e-6dd9-45d0-8a4b-18d3d497e374",
+    "title": "国家档案馆",
+    "subCategory": "华盛顿特区",
+    "subCategoryType": "购物中心区",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "7d3c41d1-59ac-4d16-a6c0-30df3350da67",
+    "title": "国会大厦",
+    "subCategory": "华盛顿特区",
+    "subCategoryType": "购物中心区",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "bdd1c53b-2e7f-4e8e-bd2d-cc31c4e00d23",
+    "title": "弗农广场区",
+    "subCategory": "华盛顿特区",
+    "subCategoryType": "弗农广场区",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "bdd1653b-2e7f-4e8e-bd2d-cc31c4e00d23",
+    "title": "圣母希望医院",
+    "subCategory": "华盛顿特区",
+    "subCategoryType": "弗农广场区",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "7c25bf4c-ef0c-402a-b53f-83f62b0bea13",
+    "title": "政治家酒店",
+    "subCategory": "华盛顿特区",
+    "subCategoryType": "弗农广场区",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "e7e0f5f0-07c5-4c29-8c6e-032d31d40d46",
+    "title": "Vault-Tec 总部",
+    "subCategory": "华盛顿特区",
+    "subCategoryType": "弗农广场区",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "e7e0f5f0-c7c5-4c29-8c6e-032d31d40d46",
+    "title": "河船登陆",
+    "subCategory": "华盛顿特区",
+    "subCategoryType": "波托马克河",
+    "dlc": "观景台",
+    "mainCategory": "观景台",
+    "section": "locations"
+  },
+  {
+    "id": "e7e0f5f0-c7h5-4c29-8c6e-032d31d40d46",
+    "title": "博物馆管理局大楼",
+    "subCategory": "华盛顿特区",
+    "subCategoryType": "购物中心区",
+    "dlc": "断钢",
+    "mainCategory": "断钢",
+    "section": "locations"
+  },
+  {
+    "id": "fc37e4d5-4601-47fd-913e-5bba3fcbe04b",
+    "title": "阿纳卡斯蒂亚十字路口站",
+    "subCategory": "地铁",
+    "subCategoryType": "",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "19eb869e-0d3d-418e-b5eb-afebfb4347c1",
+    "title": "阿灵顿公用事业公司",
+    "subCategory": "地铁",
+    "subCategoryType": "",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "c83f4d10-8f2d-4a01-ae6f-1cb285a9e258",
+    "title": "阿灵顿/福尔斯彻奇地铁",
+    "subCategory": "地铁",
+    "subCategoryType": "",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "5ff92645-e9a5-40df-bd6a-5dd0069f09a5",
+    "title": "阿灵顿荒地地铁",
+    "subCategory": "地铁",
+    "subCategoryType": "",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "b60c8d4b-9f36-4b78-a17f-37cf4289c56b",
+    "title": "贝塞斯达正在开发中",
+    "subCategory": "地铁",
+    "subCategoryType": "",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "63fe9f90-99d8-4b95-8145-19fc892d7ec8",
+    "title": "汽车隧道塌陷",
+    "subCategory": "地铁",
+    "subCategoryType": "",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "b6e9ef2c-1c23-4a64-a4d2-fc5369d4336a",
+    "title": "DCTA 隧道 014-B 波托马克",
+    "subCategory": "地铁",
+    "subCategoryType": "",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "cad5f862-802e-4e3e-88de-3a4d2f2cbe32",
+    "title": "干涸的下水道",
+    "subCategory": "地铁",
+    "subCategoryType": "",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "5f8c7d02-e057-4f0e-82a2-d1d259949b78",
+    "title": "杜邦圆环站",
+    "subCategory": "地铁",
+    "subCategoryType": "",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "98b1464f-27fc-459e-a9bc-6b275f0b50b3",
+    "title": "费尔法克斯地铁站",
+    "subCategory": "地铁",
+    "subCategoryType": "",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "db92bb8e-54cd-47e3-9240-cb72f43f45cf",
+    "title": "福尔斯彻奇/梅森 Dst 地铁",
+    "subCategory": "地铁",
+    "subCategoryType": "",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "2d6c3b5a-cfb4-4e2e-8d89-5f307e6f87d3",
+    "title": "法拉格特西站",
+    "subCategory": "地铁",
+    "subCategoryType": "",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "a60b025b-74d8-4b4b-8200-8ee24a77b0e1",
+    "title": "地铁被淹",
+    "subCategory": "地铁",
+    "subCategoryType": "",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "d70027c4-0d4c-4b17-90fb-8609c47b88c3",
+    "title": "雾谷站",
+    "subCategory": "地铁",
+    "subCategoryType": "",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "73dd0e7d-57ac-47c7-b41b-85c5fd71bdc5",
+    "title": "富兰克林地铁公用设施",
+    "subCategory": "地铁",
+    "subCategoryType": "",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "b857d2aa-cb2a-486b-8c8d-92bfdd540498",
+    "title": "自由街站",
+    "subCategory": "地铁",
+    "subCategoryType": "",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "f259a8cb-bcb2-4be0-9ad4-cf69a4a4569e",
+    "title": "友谊高地",
+    "subCategory": "地铁",
+    "subCategoryType": "",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "19e1f468-b6cb-409b-86b2-026b137af325",
+    "title": "乔治城购物中心地铁站",
+    "subCategory": "地铁",
+    "subCategoryType": "",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "c2d29247-803d-4a88-a63e-84a5e8e16695",
+    "title": "危险品处置场 L5",
+    "subCategory": "地铁",
+    "subCategoryType": "",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "5de502b3-622a-40a0-a258-09da56f4562f",
+    "title": "辐射地铁",
+    "subCategory": "地铁",
+    "subCategoryType": "",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "8ef7d8b0-4b3a-46c7-8f8e-2e2f11c3d72d",
+    "title": "朱里街站",
+    "subCategory": "地铁",
+    "subCategoryType": "",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "35c57d8d-f327-4bb5-b299-5c9785a72c67",
+    "title": "陪审团街隧道",
+    "subCategory": "地铁",
+    "subCategoryType": "",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "d41386e8-14fb-4c9e-a606-ebcf129f5d63",
+    "title": "万寿菊站",
+    "subCategory": "地铁",
+    "subCategoryType": "",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "9be8c0f0-9d4e-4df1-a485-52fc2ed167b3",
+    "title": "梅雷斯蒂地铁站",
+    "subCategory": "地铁",
+    "subCategoryType": "",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "3dd1ac05-cc5c-4f90-8e34-1adbd0364503",
+    "title": "梅雷斯蒂服务隧道",
+    "subCategory": "地铁",
+    "subCategoryType": "",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "5ef9f7bc-72e4-48f3-94d8-8b86f39cf7cf",
+    "title": "地铁交通",
+    "subCategory": "地铁",
+    "subCategoryType": "",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "f9269a65-51e8-48ae-9487-74fe68e74b8c",
+    "title": "地铁中环",
+    "subCategory": "地铁",
+    "subCategoryType": "",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "8b29f2ab-3ef4-4c91-b5c7-e443a6c4b33e",
+    "title": "地铁枢纽",
+    "subCategory": "地铁",
+    "subCategoryType": "",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "1c3c5c9d-97b2-4b63-b4d7-bb1cf8d58f4f",
+    "title": "博物馆站",
+    "subCategory": "地铁",
+    "subCategoryType": "",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "f735787e-e44c-4726-9439-fda4e140612b",
+    "title": "西北塞内卡站",
+    "subCategory": "地铁",
+    "subCategoryType": "",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "4a6dc86e-c307-43e2-81a3-43aa35a70c85",
+    "title": "宾夕法尼亚大道乔治敦地铁",
+    "subCategory": "地铁",
+    "subCategoryType": "",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "1c31b7b9-96f2-4fa2-910b-f0a28996ae3f",
+    "title": "宾夕法尼亚大道苏厄德广场地铁站",
+    "subCategory": "地铁",
+    "subCategoryType": "",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "b7fc0a08-d5ad-4ad2-b83e-f54d46ab5c5d",
+    "title": "宾夕法尼亚大道购物中心地铁站",
+    "subCategory": "地铁",
+    "subCategoryType": "",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "1b44c4b3-2cd3-49f0-9e07-40d64ebc15e7",
+    "title": "下水道（地铁）",
+    "subCategory": "地铁",
+    "subCategoryType": "",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "b20ad6f1-65f4-4e69-9a3b-3a85c32021f8",
+    "title": "下沉式下水道",
+    "subCategory": "地铁",
+    "subCategoryType": "",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "cdb48e3a-8a24-4727-8e9e-fb19c19157fb",
+    "title": "坦利敦/友谊站",
+    "subCategory": "地铁",
+    "subCategoryType": "",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "048b8c02-ff41-4977-8c69-1f2315d40ff1",
+    "title": "温热的下水道",
+    "subCategory": "地铁",
+    "subCategoryType": "",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "5e12e9b4-7ae8-4b0b-b8da-8376798d270f",
+    "title": "弗农东/塔科马公园",
+    "subCategory": "地铁",
+    "subCategoryType": "",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "b0480c32-775d-44d4-af78-12378fb0513b",
+    "title": "沃灵顿站",
+    "subCategory": "地铁",
+    "subCategoryType": "",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "7c0f0c69-1e08-4e42-833e-b7d1083b7e12",
+    "title": "沃灵顿隧道",
+    "subCategory": "地铁",
+    "subCategoryType": "",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "7c020c69-1e08-4e42-833e-b7d1083b7e12",
+    "title": "贝利十字路口地铁站",
+    "subCategory": "地铁",
+    "subCategoryType": "",
+    "dlc": "行动：安克雷奇",
+    "mainCategory": "行动：安克雷奇",
+    "section": "locations"
+  },
+  {
+    "id": "dc020c69-1e08-4e42-833e-b7d1083b7e12",
+    "title": "总统地铁 ",
+    "subCategory": "地铁",
+    "subCategoryType": "",
+    "dlc": "断钢",
+    "mainCategory": "断钢",
+    "section": "locations"
+  },
+  {
+    "id": "e0322a1e-6c9a-4f8d-9171-9c1cfdaea29d",
+    "title": "避难所 87",
+    "subCategory": "避难所",
+    "subCategoryType": "",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "465f9244-cd3c-4ee7-b6b2-8f07315633b4",
+    "title": "避难所 92",
+    "subCategory": "避难所",
+    "subCategoryType": "",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "8f1aa078-9d9d-4313-9fc0-2c1c14b662c7",
+    "title": "避难所 101",
+    "subCategory": "避难所",
+    "subCategoryType": "",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "e7c39496-fbf3-4bc7-bbe8-526b8f11cfc0",
+    "title": "避难所 106",
+    "subCategory": "避难所",
+    "subCategoryType": "",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "63b8df5f-5aa4-42f3-8369-52a3dc2c85b0",
+    "title": "避难所 108",
+    "subCategory": "避难所",
+    "subCategoryType": "",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "a5dd49d8-6c8a-48a9-bfe7-b295e64c2c3d",
+    "title": "避难所 112",
+    "subCategory": "避难所",
+    "subCategoryType": "",
+    "dlc": "没有任何",
+    "mainCategory": "主要的",
+    "section": "locations"
+  },
+  {
+    "id": "fc2d3cfb-0df8-4ac6-a389-4c340486b907",
+    "title": "亚当斯空军基地",
+    "subCategory": "亚当斯空军基地",
+    "subCategoryType": "",
+    "dlc": "断钢",
+    "mainCategory": "断钢",
+    "section": "locations"
+  },
+  {
+    "id": "f22d3cfb-0df8-4ac6-a389-4c340486b907",
+    "title": "亚当斯储存设施",
+    "subCategory": "亚当斯空军基地",
+    "subCategoryType": "",
+    "dlc": "断钢",
+    "mainCategory": "断钢",
+    "section": "locations"
+  },
+  {
+    "id": "b8a0341f-48e3-4e6a-9f3b-7e2013c3ff51",
+    "title": "空中控制塔",
+    "subCategory": "亚当斯空军基地",
+    "subCategoryType": "",
+    "dlc": "断钢",
+    "mainCategory": "断钢",
+    "section": "locations"
+  },
+  {
+    "id": "11820268-f46a-4b36-932b-97df7e5296c5",
+    "title": "移动基地爬行器",
+    "subCategory": "亚当斯空军基地",
+    "subCategoryType": "",
+    "dlc": "断钢",
+    "mainCategory": "断钢",
+    "section": "locations"
+  },
+  {
+    "id": "c499e1c1-1f3a-47f3-b75b-3b7a8d787e2c",
+    "title": "汉克的电力供应",
+    "subCategory": "首都废土",
+    "subCategoryType": "",
+    "dlc": "断钢",
+    "mainCategory": "断钢",
+    "section": "locations"
+  },
+  {
+    "id": "9651fcb8-53ec-465f-8140-1b9f1849bce7",
+    "title": "圣光寺",
+    "subCategory": "首都废土",
+    "subCategoryType": "",
+    "dlc": "断钢",
+    "mainCategory": "断钢",
+    "section": "locations"
+  },
+  {
+    "id": "F028A10E-176B-4B60-93B6-5C16DB5D93D7",
+    "title": "老奥尔尼·S·威尔逊大厦",
+    "subCategory": "首都废土",
+    "subCategoryType": "",
+    "dlc": "断钢",
+    "mainCategory": "断钢",
+    "section": "locations"
+  },
+  {
+    "id": "7c2e24cf-084f-426e-9fa7-0972c25c81eb",
+    "title": "老奥尔尼地下",
+    "subCategory": "首都废土",
+    "subCategoryType": "",
+    "dlc": "断钢",
+    "mainCategory": "断钢",
+    "section": "locations"
+  },
+  {
+    "id": "b32cc647-8d8c-4c3c-bdb2-5276e00edf58",
+    "title": "奥尔尼动力工厂",
+    "subCategory": "首都废土",
+    "subCategoryType": "",
+    "dlc": "断钢",
+    "mainCategory": "断钢",
+    "section": "locations"
+  },
+  {
+    "id": "fbb1e03d-4bf3-4a07-a9c7-11a45c88b3e1",
+    "title": "罗克兰汽车隧道",
+    "subCategory": "首都废土",
+    "subCategoryType": "",
+    "dlc": "断钢",
+    "mainCategory": "断钢",
+    "section": "locations"
+  },
+  {
+    "id": "ad2ad541-d62d-4be6-8601-4b143352454f",
+    "title": "卫星中继站",
+    "subCategory": "首都废土",
+    "subCategoryType": "",
+    "dlc": "断钢",
+    "mainCategory": "断钢",
+    "section": "locations"
+  },
+  {
+    "id": "ad7fcb52-49f4-4b85-b0f2-ff1f407f44c6",
+    "title": "博物馆管理局大楼",
+    "subCategory": "华盛顿特区。",
+    "subCategoryType": "",
+    "dlc": "断钢",
+    "mainCategory": "断钢",
+    "section": "locations"
+  },
+  {
+    "id": "7a0d60d1-4857-4f60-8b69-0f61a26d0e79",
+    "title": "总统地铁",
+    "subCategory": "华盛顿特区。",
+    "subCategoryType": "",
+    "dlc": "断钢",
+    "mainCategory": "断钢",
+    "section": "locations"
+  },
+  {
+    "id": "15c12176-6ba3-4707-84b1-c5df8ae5aa6f",
+    "title": "总统级别",
+    "subCategory": "华盛顿特区。",
+    "subCategoryType": "",
+    "dlc": "断钢",
+    "mainCategory": "断钢",
+    "section": "locations"
+  },
+  {
+    "id": "f92e8c0e-99f8-41d1-b0a6-61a3d6488cbf",
+    "title": "白宫广场",
+    "subCategory": "华盛顿特区。",
+    "subCategoryType": "",
+    "dlc": "断钢",
+    "mainCategory": "断钢",
+    "section": "locations"
+  },
+  {
+    "id": "8e9b91de-4e37-4a62-a220-6a3be1b1ff44",
+    "title": "火车隧道",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "皮特",
+    "mainCategory": "皮特",
+    "section": "locations"
+  },
+  {
+    "id": "2f4ddc05-2c85-4134-8820-3d05f4e93a3a",
+    "title": "桥",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "皮特",
+    "mainCategory": "皮特",
+    "section": "locations"
+  },
+  {
+    "id": "a0582f7a-77e5-44d5-bc54-4dc3f3795d5d",
+    "title": "市中心",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "皮特",
+    "mainCategory": "皮特",
+    "section": "locations"
+  },
+  {
+    "id": "a04fc65a-4d79-4b48-9382-62e08ecdd257",
+    "title": "磨东西的器具",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "皮特",
+    "mainCategory": "皮特",
+    "section": "locations"
+  },
+  {
+    "id": "f6f5f108-37b7-4a22-8907-6f71d4b3a77c",
+    "title": "皮特杆秤",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "皮特",
+    "mainCategory": "皮特",
+    "section": "locations"
+  },
+  {
+    "id": "2fa66d7e-c6d5-43e2-8c20-6e624f3f5cc7",
+    "title": "火车场",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "皮特",
+    "mainCategory": "皮特",
+    "section": "locations"
+  },
+  {
+    "id": "b69a1a38-6e8d-4397-9f99-86087e2588f0",
+    "title": "住宅区",
+    "subCategory": "住宅区",
+    "subCategoryType": "",
+    "dlc": "皮特",
+    "mainCategory": "皮特",
+    "section": "locations"
+  },
+  {
+    "id": "b69a1a38-6e8d-4397-9f99-86087e2588f0",
+    "title": "废弃的公寓",
+    "subCategory": "住宅区",
+    "subCategoryType": "",
+    "dlc": "皮特",
+    "mainCategory": "皮特",
+    "section": "locations"
+  },
+  {
+    "id": "08adcf80-5b44-4c36-a6ef-f74e98cbb4ad",
+    "title": "避风港",
+    "subCategory": "住宅区",
+    "subCategoryType": "",
+    "dlc": "皮特",
+    "mainCategory": "皮特",
+    "section": "locations"
+  },
+  {
+    "id": "d745bf71-7b4f-46e1-b91e-056e3a1b7202",
+    "title": "方舟",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "观景台",
+    "mainCategory": "观景台",
+    "section": "locations"
+  },
+  {
+    "id": "4a9b2b18-b634-45d0-a832-1802d7edc6cb",
+    "title": "方舟",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "观景台",
+    "mainCategory": "观景台",
+    "section": "locations"
+  },
+  {
+    "id": "14552b35-03e3-4e8b-b618-2db4980d99af",
+    "title": "比奇维尤露营地",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "观景台",
+    "mainCategory": "观景台",
+    "section": "locations"
+  },
+  {
+    "id": "a27eb68d-801e-44ee-b167-2c3f8de174bc",
+    "title": "布莱克霍尔庄园",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "观景台",
+    "mainCategory": "观景台",
+    "section": "locations"
+  },
+  {
+    "id": "b349a7da-0c1c-4fa8-bfe7-d78e501d2a44",
+    "title": "卡尔弗特大厦",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "观景台",
+    "mainCategory": "观景台",
+    "section": "locations"
+  },
+  {
+    "id": "c56e0772-5744-4f28-b5ae-73fe3f66a7c7",
+    "title": "沿海石窟",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "观景台",
+    "mainCategory": "观景台",
+    "section": "locations"
+  },
+  {
+    "id": "245077df-4702-4680-bc19-208ac4c9fb64",
+    "title": "救灾前哨站",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "观景台",
+    "mainCategory": "观景台",
+    "section": "locations"
+  },
+  {
+    "id": "dc6b42ac-ef4f-424f-92b4-2e02fe5e4e19",
+    "title": "德芙三角洲",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "观景台",
+    "mainCategory": "观景台",
+    "section": "locations"
+  },
+  {
+    "id": "44252fd8-4c64-4c76-8f6b-8149e69a90d2",
+    "title": "被淹没的天坑",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "观景台",
+    "mainCategory": "观景台",
+    "section": "locations"
+  },
+  {
+    "id": "f2dcd3ef-ee92-4c32-a774-4a8c75599d76",
+    "title": "种植者的棚屋",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "观景台",
+    "mainCategory": "观景台",
+    "section": "locations"
+  },
+  {
+    "id": "69c99e9d-86b5-4370-9d5e-56bc165d6678",
+    "title": "海莉的硬件",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "观景台",
+    "mainCategory": "观景台",
+    "section": "locations"
+  },
+  {
+    "id": "ffd07a67-41ff-4d9b-b2c2-5901f4f7de4e",
+    "title": "赫尔佐格矿井",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "观景台",
+    "mainCategory": "观景台",
+    "section": "locations"
+  },
+  {
+    "id": "a2cb6a8d-fd8d-4b94-a28d-08454d1a7df8",
+    "title": "喷气式飞机坠毁现场",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "观景台",
+    "mainCategory": "观景台",
+    "section": "locations"
+  },
+  {
+    "id": "88894792-2be7-48d7-9e50-d08749c31ff1",
+    "title": "肯尼的洞穴",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "观景台",
+    "mainCategory": "观景台",
+    "section": "locations"
+  },
+  {
+    "id": "22d8a1aa-4054-4ebd-a91a-748db545bcf4",
+    "title": "小泰克剧场",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "观景台",
+    "mainCategory": "观景台",
+    "section": "locations"
+  },
+  {
+    "id": "56b7127b-9a49-44c8-89b1-1a6d62b95e4d",
+    "title": "玛格丽特的小屋",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "观景台",
+    "mainCategory": "观景台",
+    "section": "locations"
+  },
+  {
+    "id": "40c376f8-9fd2-4376-973b-7a97107591f4",
+    "title": "奥菲家族剧情",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "观景台",
+    "mainCategory": "观景台",
+    "section": "locations"
+  },
+  {
+    "id": "40c376f8-9fd2-4376-973b-7a97107591f4",
+    "title": "朝圣者登陆",
+    "subCategory": "朝圣者登陆",
+    "subCategoryType": "",
+    "dlc": "观景台",
+    "mainCategory": "观景台",
+    "section": "locations"
+  },
+  {
+    "id": "f8044f94-1552-4b90-8b7d-2267c36c3cc9",
+    "title": "家园汽车旅馆",
+    "subCategory": "朝圣者登陆",
+    "subCategoryType": "",
+    "dlc": "观景台",
+    "mainCategory": "观景台",
+    "section": "locations"
+  },
+  {
+    "id": "a5a2de96-bdc3-4b4e-a8d1-79199bf504a5",
+    "title": "商品之家",
+    "subCategory": "朝圣者登陆",
+    "subCategoryType": "",
+    "dlc": "观景台",
+    "mainCategory": "观景台",
+    "section": "locations"
+  },
+  {
+    "id": "e7ab363b-3743-46de-9221-c98d2c51d190",
+    "title": "波因特卢考特码头",
+    "subCategory": "朝圣者登陆",
+    "subCategoryType": "",
+    "dlc": "观景台",
+    "mainCategory": "观景台",
+    "section": "locations"
+  },
+  {
+    "id": "8d5c8721-6d8a-452e-8a7b-3b8a79524ec2",
+    "title": "波因特卢考特灯塔",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "观景台",
+    "mainCategory": "观景台",
+    "section": "locations"
+  },
+  {
+    "id": "8fba8e4d-0d7a-4fc4-87de-f8b0a3bb2087",
+    "title": "仪式现场",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "观景台",
+    "mainCategory": "观景台",
+    "section": "locations"
+  },
+  {
+    "id": "9a09f63f-71b8-4b92-b169-c2d8c9b8b8c8",
+    "title": "神圣沼泽",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "观景台",
+    "mainCategory": "观景台",
+    "section": "locations"
+  },
+  {
+    "id": "5b8dc915-b40f-4754-97a7-9c72ad6d40c5",
+    "title": "失事的座垫",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "观景台",
+    "mainCategory": "观景台",
+    "section": "locations"
+  },
+  {
+    "id": "c9d785b3-b6d2-46cf-8082-2af146dcd2ac",
+    "title": "子恢复站点",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "观景台",
+    "mainCategory": "观景台",
+    "section": "locations"
+  },
+  {
+    "id": "5426dd29-50c1-4a6b-98ed-c533a3e0bb7b",
+    "title": "垃圾堆",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "观景台",
+    "mainCategory": "观景台",
+    "section": "locations"
+  },
+  {
+    "id": "d9b40a3d-349e-46f7-8f7d-792e8c4a2d84",
+    "title": "捕手的小屋",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "观景台",
+    "mainCategory": "观景台",
+    "section": "locations"
+  },
+  {
+    "id": "0f9a9e91-7411-4b9c-aac3-0535dfc4e74a",
+    "title": "卡车残骸",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "观景台",
+    "mainCategory": "观景台",
+    "section": "locations"
+  },
+  {
+    "id": "a16202aa-b1a1-4f39-a5b4-1e29ac6bf89a",
+    "title": "斑鸠拘留营",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "观景台",
+    "mainCategory": "观景台",
+    "section": "locations"
+  },
+  {
+    "id": "a8f7b3b4-02c3-4e28-b576-2b2a8d9dcdb8",
+    "title": "生物学研究",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "泽塔母舰",
+    "mainCategory": "泽塔母舰",
+    "section": "locations"
+  },
+  {
+    "id": "4f97c9e4-2f6d-43e5-b4e6-f59f8c29e332",
+    "title": "桥",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "泽塔母舰",
+    "mainCategory": "泽塔母舰",
+    "section": "locations"
+  },
+  {
+    "id": "5a1a3fb3-1f4b-4b08-9de2-5e6f7d01398d",
+    "title": "货舱",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "泽塔母舰",
+    "mainCategory": "泽塔母舰",
+    "section": "locations"
+  },
+  {
+    "id": "4c5d1cf3-b317-4147-b400-2a5adfbdc94b",
+    "title": "冷冻实验室",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "泽塔母舰",
+    "mainCategory": "泽塔母舰",
+    "section": "locations"
+  },
+  {
+    "id": "a7247f20-6a22-4edf-b89e-45b6c6f07e18",
+    "title": "冷冻储存",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "泽塔母舰",
+    "mainCategory": "泽塔母舰",
+    "section": "locations"
+  },
+  {
+    "id": "1d218df2-5509-4cb2-9ac7-c9a3a8bfe675",
+    "title": "死亡射线控制",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "泽塔母舰",
+    "mainCategory": "泽塔母舰",
+    "section": "locations"
+  },
+  {
+    "id": "b2ed9269-fd4f-41b0-8051-c06a23620c6d",
+    "title": "死亡射线中心",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "泽塔母舰",
+    "mainCategory": "泽塔母舰",
+    "section": "locations"
+  },
+  {
+    "id": "c2141018-cc1b-4c34-81b0-d4cb69279e6a",
+    "title": "减压室",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "泽塔母舰",
+    "mainCategory": "泽塔母舰",
+    "section": "locations"
+  },
+  {
+    "id": "f96e72db-58b4-4f4a-97d3-6891602778a8",
+    "title": "机房",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "泽塔母舰",
+    "mainCategory": "泽塔母舰",
+    "section": "locations"
+  },
+  {
+    "id": "7e23a4bc-9e56-4ac1-b447-369c12f6c6b5",
+    "title": "工程核心",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "泽塔母舰",
+    "mainCategory": "泽塔母舰",
+    "section": "locations"
+  },
+  {
+    "id": "f94b1b43-1ff9-4b7d-98fb-882aef346f90",
+    "title": "实验实验室",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "泽塔母舰",
+    "mainCategory": "泽塔母舰",
+    "section": "locations"
+  },
+  {
+    "id": "f74e57bf-0b0f-472e-86cf-87e1de1e8761",
+    "title": "机库",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "泽塔母舰",
+    "mainCategory": "泽塔母舰",
+    "section": "locations"
+  },
+  {
+    "id": "f5936ff4-c537-4a64-bdff-fb2731e073c5",
+    "title": "保存细胞",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "泽塔母舰",
+    "mainCategory": "泽塔母舰",
+    "section": "locations"
+  },
+  {
+    "id": "5c1d96fc-1191-4ee4-93b7-22d52410f5fc",
+    "title": "宿舍",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "泽塔母舰",
+    "mainCategory": "泽塔母舰",
+    "section": "locations"
+  },
+  {
+    "id": "04e5860b-9c39-4627-9d96-c47fc2f0fca7",
+    "title": "维修等级",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "泽塔母舰",
+    "mainCategory": "泽塔母舰",
+    "section": "locations"
+  },
+  {
+    "id": "417f740b-b46a-4896-a055-b4d43af2ff20",
+    "title": "观景台",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "泽塔母舰",
+    "mainCategory": "泽塔母舰",
+    "section": "locations"
+  },
+  {
+    "id": "b05d89e8-bb36-43c1-9861-05d47d74256a",
+    "title": "研究实验室",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "泽塔母舰",
+    "mainCategory": "泽塔母舰",
+    "section": "locations"
+  },
+  {
+    "id": "a6e4cfeb-f4f2-462e-af8d-6c8a231526bc",
+    "title": "机器人组装",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "泽塔母舰",
+    "mainCategory": "泽塔母舰",
+    "section": "locations"
+  },
+  {
+    "id": "1ac63736-ff9e-40c8-a5ae-d50a4f95de1f",
+    "title": "太空行走",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "泽塔母舰",
+    "mainCategory": "泽塔母舰",
+    "section": "locations"
+  },
+  {
+    "id": "99c8ed61-1d82-4e2d-90fb-1b71b0942611",
+    "title": "蒸汽工厂",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "泽塔母舰",
+    "mainCategory": "泽塔母舰",
+    "section": "locations"
+  },
+  {
+    "id": "34c4b7d4-47cd-4bb2-bc98-3e79a309bdec",
+    "title": "废物处理",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "泽塔母舰",
+    "mainCategory": "泽塔母舰",
+    "section": "locations"
+  },
+  {
+    "id": "0d8a08e6-9198-40a2-9f64-f9c0bfa486f9",
+    "title": "武器实验室",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "泽塔母舰",
+    "mainCategory": "泽塔母舰",
+    "section": "locations"
+  },
+  {
+    "id": "9fa3e53b-9ad3-47cb-ba5b-05fc16633f3e",
+    "mainCategory": "全息带",
+    "title": "一个自由的人……一个新的人……",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "d145d51b-19f4-4b65-87c0-67d98ef75411",
+    "mainCategory": "全息带",
+    "title": "小月光父亲的留言",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "a4c90a10-d378-45db-83f8-0e1e6f2edf4b",
+    "mainCategory": "全息带",
+    "title": "请求帮助",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "bb98c7dc-4820-48b2-826e-5cb0132c92f6",
+    "mainCategory": "全息带",
+    "title": "访问代码",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "7dfbb79e-41db-4260-81fc-6c7da5d87549",
+    "mainCategory": "全息带",
+    "title": "快到家...",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "0c34f1e1-072e-4a9e-91c6-c68a3e3db7f2",
+    "mainCategory": "全息带",
+    "title": "安克雷奇战争纪念馆藏品",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "a12970d0-8c97-4e7b-8b2f-5d5010b8587d",
+    "mainCategory": "全息带",
+    "title": "安卓是真实的。",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "076e2df6-37d0-4a62-8d71-1c9d69b3d5c9",
+    "mainCategory": "全息带",
+    "title": "档案安全终端",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "db4825a5-c0a0-4742-b55c-169cbe534d82",
+    "mainCategory": "全息带",
+    "title": "按照要求",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "d0aa3db5-d87b-4e6c-8599-4e250fde8691",
+    "mainCategory": "全息带",
+    "title": "来自英联邦的分配",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "e24c06f1-7​​368-4e2e-9dc7-9d95ac234206",
+    "mainCategory": "全息带",
+    "title": "好日子",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "6cb3d9bb-25dc-4e5e-81d1-38da8a3e4e6c",
+    "mainCategory": "全息带",
+    "title": "赏金通知： <playername>",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "4d489248-8c69-4a6f-9a5b-178c43dbbe4f",
+    "mainCategory": "全息带",
+    "title": "赏金通知：Junders Plunkett",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "dfc1b11d-f398-44ef-a4a0-75c779e9a063",
+    "mainCategory": "全息带",
+    "title": "烧掉这该死的连衣裤",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "4f50744d-dff5-4143-bb6c-09a6c3fe6b4d",
+    "mainCategory": "全息带",
+    "title": "退房",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "3bba243c-1d68-4f40-ba3b-745b896cd8e8",
+    "mainCategory": "全息带",
+    "title": "卡戎的雇佣合同",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "a8fd8573-83fd-413d-8a54-2b6aa038b5cc",
+    "mainCategory": "全息带",
+    "title": "克隆日志",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "5e00b65d-35d3-4929-93a6-7fb5312ff0c1",
+    "mainCategory": "全息带",
+    "title": "理事会议程",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "4d4e29f3-53d2-4f68-a31e-5b5a4c42eb11",
+    "mainCategory": "全息带",
+    "title": "DCTA 激光枪械协议",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "a79f9b91-fb6f-404f-b5d6-3ed4b3fd56e2",
+    "mainCategory": "全息带",
+    "title": "死路",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "8f9e7ac4-c62b-499d-96d5-63acff87c020",
+    "mainCategory": "全息带",
+    "title": "最亲爱的格蕾丝...",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "0d499dc7-5a2c-4df6-b595-50c44018dd1b",
+    "mainCategory": "全息带",
+    "title": "坎迪斯·凯勒的日记",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "b69b454d-89e4-4a36-9ba7-9a8b31dd883c",
+    "mainCategory": "全息带",
+    "title": "莱斯科医生的笔记",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "3f4bcb05-9ba1-4b45-8a2b-2e205f9d79c0",
+    "mainCategory": "全息带",
+    "title": "莱斯科医生的密码记录",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "589af67b-14f5-424a-b9f6-4582386f5a3d",
+    "mainCategory": "全息带",
+    "title": "欧文·里昂长老——个人日志 1",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "39b7d6dc-9da1-4d28-9b44-884cd27a3f8f",
+    "mainCategory": "全息带",
+    "title": "欧文·里昂长老——个人日志 2",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "f072e408-b5b4-498d-b57a-33b6d1714fbf",
+    "mainCategory": "全息带",
+    "title": "欧文·里昂长老——个人日志 3",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "9a85e0a3-fc22-4e29-aafe-5c4bc8020b47",
+    "mainCategory": "全息带",
+    "title": "飞地实地报告",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "8c3660c8-9676-4fb7-9b8f-6a27e64ed80b",
+    "mainCategory": "全息带",
+    "title": "悼词琼斯的密码",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "36e4e2e2-0ef5-4796-8c62-df1dbd0ac961",
+    "mainCategory": "全息带",
+    "title": "极端措施",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "b79e6f9c-fbb9-4b2d-b786-6fb5b0c93c02",
+    "mainCategory": "全息带",
+    "title": "独立堡终端访问密码",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "0fcb6aae-60fc-4b02-a946-86d643398db0",
+    "mainCategory": "全息带",
+    "title": "独立堡实地报告",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "2cb0c57e-1f88-4892-b340-1f2368333448",
+    "mainCategory": "全息带",
+    "title": "他妈的这个",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "28e9c2d6-dc86-4f85-b18a-ef8a0d4f71fd",
+    "mainCategory": "全息带",
+    "title": "完成它！",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "40d3c53b-4f07-44d2-8137-df8798ad2773",
+    "mainCategory": "全息带",
+    "title": "食尸鬼笔记",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "4ffae74d-750a-4b6e-b842-c2a900233d35",
+    "mainCategory": "全息带",
+    "title": "格雷迪的最后录音",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "9f08937d-1f5e-4480-ae8f-858a2732f2a2",
+    "mainCategory": "全息带",
+    "title": "哈克尼斯",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "2a8da28d-899e-49da-94a2-3f8b1630714e",
+    "mainCategory": "全息带",
+    "title": "隐藏的隐藏笔记",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "3f0f7169-0d2d-434f-bfb1-b4c1b5fb9539",
+    "mainCategory": "全息带",
+    "title": "Highwater Trousers 的激活码",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "0ef095b9-99d2-4f8a-8772-8006e4b7c38a",
+    "mainCategory": "全息带",
+    "title": "家，甜蜜的家",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "d0efb1f3-6df4-4d9c-903d-720750f75043",
+    "mainCategory": "全息带",
+    "title": "我很聪明！",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "2e407c87-f6b9-4c1b-8931-356b3a06fd3f",
+    "mainCategory": "全息带",
+    "title": "拘留令",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "cd2cb1ac-5850-4a82-b71e-b2ae513a89b5",
+    "mainCategory": "全息带",
+    "title": "牢房密码",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "55c2951a-fccf-4688-8a07-65cd212831e1",
+    "mainCategory": "全息带",
+    "title": "Jaime 的个人日记：条目 01",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "68c8f6e0-c9a4-470d-8a16-d3e7151f8e8c",
+    "mainCategory": "全息带",
+    "title": "Jaime 的个人日记：条目 02",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "7f6ac29f-2d44-4ff4-8fbf-868e8ae2e9c3",
+    "mainCategory": "全息带",
+    "title": "Jaime 的个人日记：条目 03",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "7c9c3b60-5f26-4aaf-b2d5-0d860fd69415",
+    "mainCategory": "全息带",
+    "title": "Jaime 的个人日记：条目 04",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "14b0000d-570c-4ebf-8e9f-2ff7db4fcd4a",
+    "mainCategory": "全息带",
+    "title": "Jaime 的个人日记：条目 05",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "75d1041d-8c6c-4d76-ba68-46d9c6e238b4",
+    "mainCategory": "全息带",
+    "title": "Jaime 的个人日记：条目 06",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "d50626f3-03c7-4efb-961d-cc93673d028a",
+    "mainCategory": "全息带",
+    "title": "Jaime 的个人日记：条目 07",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "49886546-84e7-4c91-bba3-8183f2898d89",
+    "mainCategory": "全息带",
+    "title": "Jaime 的个人日记：条目 08",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "a8bc9e70-f8a6-479b-b36a-43c1c8e73388",
+    "mainCategory": "全息带",
+    "title": "Jaime 的个人日记：条目 09",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "d2cfd0cc-42ec-4a0d-a802-d2796fd3838c",
+    "mainCategory": "全息带",
+    "title": "2077年1月26日——小灯火！",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "fb43f491-cfc2-43db-91fc-0ad8d9b2d30f",
+    "mainCategory": "全息带",
+    "title": "Carrie Delaney 杂志，条目 1",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "65a40fc9-bb22-4f32-8aa3-6de3c32fd286",
+    "mainCategory": "全息带",
+    "title": "Carrie Delaney 杂志，条目 2",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "68d92a7b-1cc8-4909-89d3-c91d0dd4d4b8",
+    "mainCategory": "全息带",
+    "title": "凯勒家族成绩单 1 / 5",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "52a2c2b0-11d0-4d70-bc89-cd2e52a850b2",
+    "mainCategory": "全息带",
+    "title": "凯勒家族成绩单 2 / 5",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "c7603193-4426-4a67-b734-06240298cb07",
+    "mainCategory": "全息带",
+    "title": "凯勒家族成绩单 3 of 5",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "b35b31e8-5087-4b47-9b2f-99626781b1e0",
+    "mainCategory": "全息带",
+    "title": "凯勒家族成绩单 4 / 5",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "7c37a0c5-3ed6-4a48-9a34-f1a8dd43c2a2",
+    "mainCategory": "全息带",
+    "title": "凯勒家族成绩单 5 / 5",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "0e89ec62-72e4-44de-9a76-1a64e60be1e1",
+    "mainCategory": "全息带",
+    "title": "消磨时间",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "bb91b63c-76f3-4aa3-9e32-c5a2f6b7d888",
+    "mainCategory": "全息带",
+    "title": "被留下来",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "cf5d91f7-5a1d-4437-9498-f4b39ee4b81b",
+    "mainCategory": "全息带",
+    "title": "Lesko的便携终端接入",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "8e29e001-9d12-456e-993e-7e93c15bcb2f",
+    "mainCategory": "全息带",
+    "title": "来自 Vault-Tec 的信",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "4ef8df2b-3f5b-47a6-8108-d0d29e4df306",
+    "mainCategory": "全息带",
+    "title": "热爱生活！",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "1ad3483f-1fb2-42a1-a9e9-ef8d29655ec4",
+    "mainCategory": "全息带",
+    "title": "午餐肉砂锅食谱",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "cad1a963-1357-4f27-a729-348f86f595d4",
+    "mainCategory": "全息带",
+    "title": "嫁给我吧！",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "53748de5-e1e4-4e60-b735-46c9a4e71fcf",
+    "mainCategory": "全息带",
+    "title": "医疗动力装甲手册",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "cb2b17a1-ea29-4b43-8785-224fffe92e32",
+    "mainCategory": "全息带",
+    "title": "内存芯片",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "5f417b32-86b5-4b37-aa8f-bb5b6ae98e17",
+    "mainCategory": "全息带",
+    "title": "梅露可的命令",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "88f53d55-700d-47d3-9a5b-4e10a9c30fc8",
+    "mainCategory": "全息带",
+    "title": "Mesmetron 手册 - 摘要页面",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "c9718a25-29ff-4a46-a0a5-eb9a6478020b",
+    "mainCategory": "全息带",
+    "title": "地铁电脑密码",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "ed20077a-062a-4919-86a2-d57e7bfdf01b",
+    "mainCategory": "全息带",
+    "title": "Moira的终端密码",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "b7e3fe6c-2b2e-4d6f-bf38-9252d6d238a5",
+    "mainCategory": "全息带",
+    "title": "我的日记，作者 Jason Grant -- 第 1 条",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "4dd424f1-f43e-4865-8371-79a8a41f15d8",
+    "mainCategory": "全息带",
+    "title": "我的日记，作者 Jason Grant -- 第 2 条",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "b7b3283d-b780-4d4a-b6a6-df10e90ffaa6",
+    "mainCategory": "全息带",
+    "title": "给特德的注释",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "22e3ae2e-0c41-42b3-b2b3-56f6d4e42613",
+    "mainCategory": "全息带",
+    "title": "爸爸的笔记",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "fe1467c1-78e3-4aa5-85b7-03271d462e1e",
+    "mainCategory": "全息带",
+    "title": "致图书馆员的注意事项",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "5d17ee0f-f501-49c8-91ae-6b3b159a2e36",
+    "mainCategory": "全息带",
+    "title": "绿洲坐标",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "5f417b32-86b5-4b37-aa8f-bb5b6ae98e17",
+    "mainCategory": "全息带",
+    "title": "梅露可的命令",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "88f53d55-700d-47d3-9a5b-4e10a9c30fc8",
+    "mainCategory": "全息带",
+    "title": "Mesmetron 手册 - 摘要页面",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "c9718a25-29ff-4a46-a0a5-eb9a6478020b",
+    "mainCategory": "全息带",
+    "title": "地铁电脑密码",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "ed20077a-062a-4919-86a2-d57e7bfdf01b",
+    "mainCategory": "全息带",
+    "title": "Moira的终端密码",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "b7e3fe6c-2b2e-4d6f-bf38-9252d6d238a5",
+    "mainCategory": "全息带",
+    "title": "我的日记，作者 Jason Grant -- 第 1 条",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "4dd424f1-f43e-4865-8371-79a8a41f15d8",
+    "mainCategory": "全息带",
+    "title": "我的日记，作者 Jason Grant -- 第 2 条",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "b7b3283d-b780-4d4a-b6a6-df10e90ffaa6",
+    "mainCategory": "全息带",
+    "title": "给特德的注释",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "22e3ae2e-0c41-42b3-b2b3-56f6d4e42613",
+    "mainCategory": "全息带",
+    "title": "爸爸的笔记",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "fe1467c1-78e3-4aa5-85b7-03271d462e1e",
+    "mainCategory": "全息带",
+    "title": "致图书馆员的注意事项",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "5d17ee0f-f501-49c8-91ae-6b3b159a2e36",
+    "mainCategory": "全息带",
+    "title": "绿洲坐标",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "bfb7d848-8e14-4587-9eac-47242df7a60a",
+    "mainCategory": "全息带",
+    "title": "私人契约：杀戮 <playername>！",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "f0e4f153-af4f-4d5f-8a5f-f28a9e408d30",
+    "mainCategory": "全息带",
+    "title": "Malleus教授音频日志V92-01",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "bb3b2717-448b-4ab5-b3ed-2a6937b064f7",
+    "mainCategory": "全息带",
+    "title": "Malleus教授音频日志V92-02",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "d8c97d95-dcc3-4b90-898d-44ed2bdf0b22",
+    "mainCategory": "全息带",
+    "title": "Malleus教授音频日志V92-03",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "e5501458-2385-4a63-86a3-90e7f98f1468",
+    "mainCategory": "全息带",
+    "title": "Malleus教授音频日志V92-04",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "3e9f1c78-787a-4c2d-8a05-758e863ec9f4",
+    "mainCategory": "全息带",
+    "title": "Malleus教授音频日志V92-05",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "9e95d588-b7a9-4c0e-a5bc-05c4802222c7",
+    "mainCategory": "全息带",
+    "title": "Malleus教授音频日志V92-06",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "7d15580c-bb32-4cf1-a8e0-7e46420b5ab3",
+    "mainCategory": "全息带",
+    "title": "项目纯度期刊：条目 1",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "fb408823-1e2c-4a95-8107-15e3f4f308f5",
+    "mainCategory": "全息带",
+    "title": "项目纯度期刊：条目 3",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "fc896dea-3827-441a-81ef-d86e1aaafae1",
+    "mainCategory": "全息带",
+    "title": "项目纯度期刊：条目 5",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "7a8ee573-bbd9-47a1-bb5a-3a849fae2a1a",
+    "mainCategory": "全息带",
+    "title": "项目纯度期刊：条目 7",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "c0e22443-85d3-4be4-b202-264017204715",
+    "mainCategory": "全息带",
+    "title": "项目纯度期刊：条目 8",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "ed3deca7-1d5f-40f0-8690-c7f36a2dd55a",
+    "mainCategory": "全息带",
+    "title": "纯净计划个人日记",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "1d8ee8df-414e-41ab-85d5-780c4bdfb8f9",
+    "mainCategory": "全息带",
+    "title": "Project Purity 个人日记：条目 1",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "7f8fd297-92ed-43cb-b877-876646509a9b",
+    "mainCategory": "全息带",
+    "title": "Project Purity 个人日记：条目 2",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "ddc0c456-2788-4e42-8316-05f865eaa8ac",
+    "mainCategory": "全息带",
+    "title": "Project Purity 个人日记：条目 3",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "7a605017-b1c8-41f3-b195-1c7b03f4d22a",
+    "mainCategory": "全息带",
+    "title": "Project Purity 个人日记：条目 5",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "546f3b18-b52b-4958-aa1b-1fc8f1b747d1",
+    "mainCategory": "全息带",
+    "title": "Project Purity 个人日记：条目 8",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "7dcb69de-b768-4be0-b3ef-798cf771e32a",
+    "mainCategory": "全息带",
+    "title": "Project Purity 个人日记：条目 10",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "95f8e805-5ef6-471b-8ef8-1a9e3f3c5cb8",
+    "mainCategory": "全息带",
+    "title": "食谱 - mirelurk 蛋糕",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "ea503a90-62d2-4c8e-9143-70b41edc02e1",
+    "mainCategory": "全息带",
+    "title": "赖利流浪者队位置",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "39f8b209-3e3e-4ef7-b066-89b161d4d4eb",
+    "mainCategory": "全息带",
+    "title": "研究笔记——激光步枪",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "23c94d6c-80d5-4fa5-a9f3-d129d99db65e",
+    "mainCategory": "全息带",
+    "title": "研究笔记-等离子步枪",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "d94d1b22-e199-4d46-a9a2-8d1322902c65",
+    "mainCategory": "全息带",
+    "title": "研究笔记 - 迷你枪",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "7d036370-d6f7-4d3a-85bb-6d76810c0b53",
+    "mainCategory": "全息带",
+    "title": "研究笔记-脉冲手榴弹",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "d0d4a154-bb90-4bc5-99de-1e36cd6f3e30",
+    "mainCategory": "全息带",
+    "title": "研究笔记 - 飞地装甲",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "1f3707a5-872a-4c10-8e6e-85e4d6c2c331",
+    "mainCategory": "全息带",
+    "title": "研究笔记——导弹发射器",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "8db33a79-1b6e-4820-8b22-61c2d83482d5",
+    "mainCategory": "全息带",
+    "title": "流氓安卓",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "1975b5cb-6d3d-4634-8d89-21b13f26c58e",
+    "mainCategory": "全息带",
+    "title": "罗林斯——我们完成了",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "a76f2b24-fb20-4f1f-a04b-9c58311ed258",
+    "mainCategory": "全息带",
+    "title": "卫星通信阵列 NN-03d 坐标",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "f231c4e5-6251-496d-b7f5-df3d4b0669d2",
+    "mainCategory": "全息带",
+    "title": "卫星通信阵列 NW-07c 坐标",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "dc9aa5d1-bfa7-438b-a855-2d5c299165dc",
+    "mainCategory": "全息带",
+    "title": "西格雷夫的定罪信",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "d1ac27fb-0dbb-4c15-af18-d274b22c42d7",
+    "mainCategory": "全息带",
+    "title": "自决不是故障",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "edcc0323-25df-4b15-b74d-29d20a2064a0",
+    "mainCategory": "全息带",
+    "title": "苏厄德广场大炮",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "b9e01f17-b72c-4c0a-a0e8-49ebd8e724c3",
+    "mainCategory": "全息带",
+    "title": "震动手套",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "b9fd7fd0-9d6a-4b3f-802f-92abba032b49",
+    "mainCategory": "全息带",
+    "title": "光之歌",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "6fe56e4d-75db-4f0a-962d-d39c71b32846",
+    "mainCategory": "全息带",
+    "title": "斯普林维尔袭击者采矿日志",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "2e7d8159-1c9e-4d8e-b70e-c30b8d88c079",
+    "mainCategory": "全息带",
+    "title": "塔科马公园炮兵笔记",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "cd53639e-5e54-469d-9f64-f6fd0cde7e39",
+    "mainCategory": "全息带",
+    "title": "十便士塔",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "12e2420b-3d6b-494f-8f41-4f2d32419c59",
+    "mainCategory": "全息带",
+    "title": "终端指令",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "58b9fe2b-0564-4da0-9fb5-6b6d486feaf5",
+    "mainCategory": "全息带",
+    "title": "测试全息带",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "a065a7f6-6de7-4aa0-8b1e-495b7a0f56ad",
+    "mainCategory": "全息带",
+    "title": "吉利叶的守护者",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "bb53c477-53d1-4b22-988a-d44e90f027cf",
+    "mainCategory": "全息带",
+    "title": "武器储藏室",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "e1c43c79-2029-49b5-9e47-93f4ec2b137b",
+    "mainCategory": "全息带",
+    "title": "Vault Tec Vault 位置",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "d22c7f22-0653-4047-aa85-bc9c7abbd2cb",
+    "mainCategory": "全息带",
+    "title": "Vault-Tec Vault 信息",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "a75463b9-4b82-4e80-a320-42e6f5b61f37",
+    "mainCategory": "全息带",
+    "title": "Vault 101维护密码",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "d7d3b36b-cb63-437e-bc7a-73279f5e8b69",
+    "mainCategory": "全息带",
+    "title": "诚聘：值得信赖的外科医生",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "0c5cf7fc-18cf-456f-a7d2-91e90f57309f",
+    "mainCategory": "全息带",
+    "title": "废土笔记",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "b3328654-d3d1-431d-9bdf-df52074e5a92",
+    "mainCategory": "全息带",
+    "title": "我们有了技术，现在我们需要医生。",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "2b1d037b-f661-4574-87b8-6f9e7b5d635c",
+    "mainCategory": "全息带",
+    "title": "妖怪书房笔记",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "8b8d92e0-1023-4d22-9e9f-76c285527f1d",
+    "mainCategory": "全息带",
+    "title": "ZAX 破坏序列",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "ba09a11e-1bf1-48db-9c54-9bc3f84e4294",
+    "mainCategory": "行动：安克雷奇",
+    "title": "近距离突击征用全息",
+    "dlc": "行动：安克雷奇",
+    "subCategory": "全息带",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "d8dab56a-d476-4720-8f88-b573fa1d04b1",
+    "mainCategory": "行动：安克雷奇",
+    "title": "消防队申请全息",
+    "dlc": "行动：安克雷奇",
+    "subCategory": "全息带",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "f4c10768-d3b4-4e4b-86e1-0e4487d450cb",
+    "mainCategory": "行动：安克雷奇",
+    "title": "重型武器征用全息",
+    "dlc": "行动：安克雷奇",
+    "subCategory": "全息带",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "9d9fc259-2a6d-48f0-80af-00cc6872e722",
+    "mainCategory": "行动：安克雷奇",
+    "title": "全息带 - 轰炸",
+    "dlc": "行动：安克雷奇",
+    "subCategory": "全息带",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "5f361a33-57e5-4a32-93e4-96e832482c88",
+    "mainCategory": "行动：安克雷奇",
+    "title": "全息胶带 - 再见",
+    "dlc": "行动：安克雷奇",
+    "subCategory": "全息带",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "7fb9f0ae-9a6a-4887-a9df-48a6ad56e00f",
+    "mainCategory": "行动：安克雷奇",
+    "title": "全息胶带 - 我很好",
+    "dlc": "行动：安克雷奇",
+    "subCategory": "全息带",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "ef6c8b42-53c8-4da1-9495-b62f9e45809f",
+    "mainCategory": "行动：安克雷奇",
+    "title": "全息带 - 入侵",
+    "dlc": "行动：安克雷奇",
+    "subCategory": "全息带",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "8c52fcac-8727-45cb-9bb9-bd3d4057bc12",
+    "mainCategory": "行动：安克雷奇",
+    "title": "全息胶带 - 超限",
+    "dlc": "行动：安克雷奇",
+    "subCategory": "全息带",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "fb4586a1-b012-4919-a0db-34f46203e013",
+    "mainCategory": "行动：安克雷奇",
+    "title": "全息带 - 惊魂记",
+    "dlc": "行动：安克雷奇",
+    "subCategory": "全息带",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "5874a7fb-5503-4a21-805b-47c28f4c6ae7",
+    "mainCategory": "行动：安克雷奇",
+    "title": "审讯日志",
+    "dlc": "行动：安克雷奇",
+    "subCategory": "全息带",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "d89d1181-82f5-48f8-bf15-dcc35d92a215",
+    "mainCategory": "行动：安克雷奇",
+    "title": "重建音频日志11.38",
+    "dlc": "行动：安克雷奇",
+    "subCategory": "全息带",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "9bc4ef16-4464-4539-991f-24ad9b437929",
+    "mainCategory": "行动：安克雷奇",
+    "title": "重建音频日志13.13",
+    "dlc": "行动：安克雷奇",
+    "subCategory": "全息带",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "36f3db7e-50cd-4b9a-9d3d-c44a4ec74347",
+    "mainCategory": "行动：安克雷奇",
+    "title": "重建音频日志31.13",
+    "dlc": "行动：安克雷奇",
+    "subCategory": "全息带",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "73f64a8d-bf8b-42df-8f5c-8e7a72863a08",
+    "mainCategory": "行动：安克雷奇",
+    "title": "重建音频日志 40.26",
+    "dlc": "行动：安克雷奇",
+    "subCategory": "全息带",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "e2eb67c8-2a9e-42fd-9235-cb3ac5a6e5b1",
+    "mainCategory": "行动：安克雷奇",
+    "title": "狙击手请求全息",
+    "dlc": "行动：安克雷奇",
+    "subCategory": "全息带",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "1aa78e2e-d3a0-4f7a-80e8-5d4d07bbec20",
+    "mainCategory": "皮茨夫妇",
+    "title": "日记1：致玛丽",
+    "dlc": "皮茨夫妇",
+    "subCategory": "全息带",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "fcfb9eae-23a2-40e0-9055-c3279a4bc12f",
+    "mainCategory": "皮茨夫妇",
+    "title": "日记2：天灾",
+    "dlc": "皮茨夫妇",
+    "subCategory": "全息带",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "cdbdd6c6-d138-45c8-97ae-274e802bf4bc",
+    "mainCategory": "皮茨夫妇",
+    "title": "日记3：磨坊",
+    "dlc": "皮茨夫妇",
+    "subCategory": "全息带",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "875c0f5e-9bd1-476d-a37a-2b2ec38c871f",
+    "mainCategory": "皮茨夫妇",
+    "title": "日记4：治愈",
+    "dlc": "皮茨夫妇",
+    "subCategory": "全息带",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "acde7f54-8509-4b5c-ae3d-26a5d3aeb01e",
+    "mainCategory": "断钢",
+    "title": "飞地士兵日志",
+    "dlc": "断钢",
+    "subCategory": "全息带",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "ae478e4c-6c5d-47b0-a2f3-7b2177b5feab",
+    "mainCategory": "断钢",
+    "title": "火焰喷射器燃料储存全息带",
+    "dlc": "断钢",
+    "subCategory": "全息带",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "4c10e1a2-3c54-46e2-a6b5-df087e6cc651",
+    "mainCategory": "断钢",
+    "title": "格里芬的装瓶说明",
+    "dlc": "断钢",
+    "subCategory": "全息带",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "9c94b5b0-c7ab-4728-b1e5-2d5e22deac35",
+    "mainCategory": "断钢",
+    "title": "新的聚会地点",
+    "dlc": "断钢",
+    "subCategory": "全息带",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "0bfa85cf-7326-4e80-a99e-2f3db716f56f",
+    "mainCategory": "断钢",
+    "title": "命令",
+    "dlc": "断钢",
+    "subCategory": "全息带",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "8f08b98a-8c22-466b-ba77-c791ac9385e6",
+    "mainCategory": "断钢",
+    "title": "第 1 区炮兵笔记",
+    "dlc": "断钢",
+    "subCategory": "全息带",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "84dd8b2f-21d8-4418-b155-fb6b101b68bb",
+    "mainCategory": "断钢",
+    "title": "第 2 区炮兵笔记",
+    "dlc": "断钢",
+    "subCategory": "全息带",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "465845e4-6b43-4416-84eb-8c59ef75dc91",
+    "mainCategory": "断钢",
+    "title": "对不起，亲爱的",
+    "dlc": "断钢",
+    "subCategory": "全息带",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "d8fb5aa1-4aa0-4af4-b0b8-ebd9a47f748f",
+    "mainCategory": "断钢",
+    "title": "泰隆公司 Merc 日志",
+    "dlc": "断钢",
+    "subCategory": "全息带",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "85c1924b-13d7-4531-abe8-5dd7b3f5d986",
+    "mainCategory": "断钢",
+    "title": "废土人全息带",
+    "dlc": "断钢",
+    "subCategory": "全息带",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "3c6c289a-52c1-4b55-9867-cd47a02421a0",
+    "mainCategory": "观景台",
+    "title": "黑匣子录音",
+    "dlc": "观景台",
+    "subCategory": "全息带",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "9a392b15-26ae-497d-8f50-cbd79f75e12b",
+    "mainCategory": "观景台",
+    "title": "框 1191 - 密码备份",
+    "dlc": "观景台",
+    "subCategory": "全息带",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "f4c7c180-4d2a-4398-8cb7-f6c0cbce9605",
+    "mainCategory": "观景台",
+    "title": "框1207-间谍的音频密码",
+    "dlc": "观景台",
+    "subCategory": "全息带",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "1af21252-0b4a-43db-9f47-350c4a334429",
+    "mainCategory": "观景台",
+    "title": "盒子1213——伯尔尼的声音",
+    "dlc": "观景台",
+    "subCategory": "全息带",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "62120599-aa8a-4fb7-83e7-87b8e7c3341f",
+    "mainCategory": "观景台",
+    "title": "接触胶带",
+    "dlc": "观景台",
+    "subCategory": "全息带",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "61a47094-9d49-4721-bcb5-09e1f50699f6",
+    "mainCategory": "观景台",
+    "title": "间谍报告",
+    "dlc": "观景台",
+    "subCategory": "全息带",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "e5a58d69-1cfc-4817-9e8b-598f63da4d8b",
+    "mainCategory": "观景台",
+    "title": "对于奥兹瓦尔多",
+    "dlc": "观景台",
+    "subCategory": "全息带",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "678e750e-5b77-420b-93d7-4fcf4f46571d",
+    "mainCategory": "观景台",
+    "title": "全息胶带笔记",
+    "dlc": "观景台",
+    "subCategory": "全息带",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "1f90a94c-9db4-4683-92d0-8f0cbf72a499",
+    "mainCategory": "观景台",
+    "title": "玛塞拉的最后一句话",
+    "dlc": "观景台",
+    "subCategory": "全息带",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "f7f20e9d-b5eb-40a5-bfb0-11853b7746c2",
+    "mainCategory": "观景台",
+    "title": "新鼠疫小册子",
+    "dlc": "观景台",
+    "subCategory": "全息带",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "6e37c140-6036-4a97-9475-13d726c4711c",
+    "mainCategory": "观景台",
+    "title": "序列注释 - 鸟舍间谍掩体",
+    "dlc": "观景台",
+    "subCategory": "全息带",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "b7d1b665-59f8-44f0-8dc9-df86d869bc29",
+    "mainCategory": "观景台",
+    "title": "Shift 关闭笔记",
+    "dlc": "观景台",
+    "subCategory": "全息带",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "ab6b2c29-0ae5-44ed-97a0-3f013d37afae",
+    "mainCategory": "观景台",
+    "title": "走私犯的自白",
+    "dlc": "观景台",
+    "subCategory": "全息带",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "75f66c65-233d-4f15-b4a2-cc013498cd46",
+    "mainCategory": "观景台",
+    "title": "土壤调查带",
+    "dlc": "观景台",
+    "subCategory": "全息带",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "6b3b62d1-f8f2-41d8-a8a4-635c5ed82a2f",
+    "mainCategory": "观景台",
+    "title": "土壤调查带",
+    "dlc": "观景台",
+    "subCategory": "全息带",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "7a236081-09b2-4a2b-9812-b54b9c7fd94a",
+    "mainCategory": "观景台",
+    "title": "土壤调查带",
+    "dlc": "观景台",
+    "subCategory": "全息带",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "f2c0ff2e-85f1-4a8e-bc2f-4b8c78117d0a",
+    "mainCategory": "泽塔母舰",
+    "title": "外星人俘虏记录日志1",
+    "dlc": "泽塔母舰",
+    "subCategory": "全息带",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "cce2e7b3-8f0c-447e-9f97-1f19a3f6880d",
+    "mainCategory": "泽塔母舰",
+    "title": "外星人俘虏记录日志2",
+    "dlc": "泽塔母舰",
+    "subCategory": "全息带",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "942c1d3f-7010-45c1-bd0e-83bb84c4bfa2",
+    "mainCategory": "泽塔母舰",
+    "title": "外星人俘虏记录日志3",
+    "dlc": "泽塔母舰",
+    "subCategory": "全息带",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "39b31957-4e7b-4df1-bfef-7e1e812066e5",
+    "mainCategory": "泽塔母舰",
+    "title": "外星人俘虏记录日志4",
+    "dlc": "泽塔母舰",
+    "subCategory": "全息带",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "3a742f9a-0d3c-45c3-a9b4-30d9503af07d",
+    "mainCategory": "泽塔母舰",
+    "title": "外星人俘虏记录日志5",
+    "dlc": "泽塔母舰",
+    "subCategory": "全息带",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "46e78ab8-fc9c-42e4-9926-2bda5e8936bc",
+    "mainCategory": "泽塔母舰",
+    "title": "外星人俘虏记录日志6",
+    "dlc": "泽塔母舰",
+    "subCategory": "全息带",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "df01f11a-8a88-4d96-9826-1dc7d849131f",
+    "mainCategory": "泽塔母舰",
+    "title": "外星人俘虏记录日志7",
+    "dlc": "泽塔母舰",
+    "subCategory": "全息带",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "17798ef7-cba3-4be2-a41b-144562507440",
+    "mainCategory": "泽塔母舰",
+    "title": "外星人俘虏记录日志8",
+    "dlc": "泽塔母舰",
+    "subCategory": "全息带",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "ce0307e2-83fc-4629-a490-d57678dd0bcf",
+    "mainCategory": "泽塔母舰",
+    "title": "外星人俘虏记录日志9",
+    "dlc": "泽塔母舰",
+    "subCategory": "全息带",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "c7c7bc3f-e5c7-4c78-8343-887d33d5bf4d",
+    "mainCategory": "泽塔母舰",
+    "title": "外星人俘虏记录日志10",
+    "dlc": "泽塔母舰",
+    "subCategory": "全息带",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "5f2a81a4-eb39-4e7a-ba38-cc6a3cc77dbf",
+    "mainCategory": "泽塔母舰",
+    "title": "外星人俘虏记录日志11",
+    "dlc": "泽塔母舰",
+    "subCategory": "全息带",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "8ef8de46-1867-4a38-b227-03f39b7507ae",
+    "mainCategory": "泽塔母舰",
+    "title": "外星人俘虏记录日志12",
+    "dlc": "泽塔母舰",
+    "subCategory": "全息带",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "da6b1bc7-d072-4f82-b3b5-8e928d3a07ac",
+    "mainCategory": "泽塔母舰",
+    "title": "外星人俘虏记录日志13",
+    "dlc": "泽塔母舰",
+    "subCategory": "全息带",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "67ed8345-6226-4900-aae2-7cb5dd06c8f6",
+    "mainCategory": "泽塔母舰",
+    "title": "外星人俘虏记录日志14",
+    "dlc": "泽塔母舰",
+    "subCategory": "全息带",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "fcf76d9a-1622-4b8e-8246-97e83481c570",
+    "mainCategory": "泽塔母舰",
+    "title": "外星人俘虏记录日志15",
+    "dlc": "泽塔母舰",
+    "subCategory": "全息带",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "82cd3f99-26f0-44d7-8840-5ef03b72925d",
+    "mainCategory": "泽塔母舰",
+    "title": "外星人俘虏记录日志16",
+    "dlc": "泽塔母舰",
+    "subCategory": "全息带",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "2fd33509-d9fb-4c32-988b-3e9a1e40cc9e",
+    "mainCategory": "泽塔母舰",
+    "title": "外星人俘虏记录日志17",
+    "dlc": "泽塔母舰",
+    "subCategory": "全息带",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "bffbf8b3-7b89-4b82-81e8-90430d3c0b35",
+    "mainCategory": "泽塔母舰",
+    "title": "外星人俘虏记录日志18",
+    "dlc": "泽塔母舰",
+    "subCategory": "全息带",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "90a91f3f-5cf2-463e-92b2-7f8e26b8a226",
+    "mainCategory": "泽塔母舰",
+    "title": "外星人俘虏记录日志19",
+    "dlc": "泽塔母舰",
+    "subCategory": "全息带",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "1d60e1d2-8db0-43b7-b2dc-4e048287f0f7",
+    "mainCategory": "泽塔母舰",
+    "title": "外星人俘虏记录日志20",
+    "dlc": "泽塔母舰",
+    "subCategory": "全息带",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "8f6ef3f2-4c61-4a0e-9255-83d5a54cfb42",
+    "mainCategory": "泽塔母舰",
+    "title": "外星人俘虏记录日志21",
+    "dlc": "泽塔母舰",
+    "subCategory": "全息带",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "5a175e5e-8d03-4e32-9f86-9dfce6e03ab3",
+    "mainCategory": "泽塔母舰",
+    "title": "外星人俘虏记录日志22",
+    "dlc": "泽塔母舰",
+    "subCategory": "全息带",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "0e4764d4-07dc-4d7c-9d61-40a9f8e9c49b",
+    "mainCategory": "泽塔母舰",
+    "title": "外星人俘虏记录日志23",
+    "dlc": "泽塔母舰",
+    "subCategory": "全息带",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "7e0e65d2-2203-4d95-83ee-ae847d67b91c",
+    "mainCategory": "泽塔母舰",
+    "title": "外星人俘虏记录日志24",
+    "dlc": "泽塔母舰",
+    "subCategory": "全息带",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "81ef3d53-3664-4b3d-8f2d-199c9e94ff52",
+    "mainCategory": "泽塔母舰",
+    "title": "外星人俘虏记录日志25",
+    "dlc": "泽塔母舰",
+    "subCategory": "全息带",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "5342f3d4-9358-4d1e-af4d-dc28a6250121",
+    "mainCategory": "泽塔母舰",
+    "title": "安克雷奇军需装运",
+    "dlc": "泽塔母舰",
+    "subCategory": "全息带",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "fd8b63cc-1e7e-4e8f-88ec-5ddc59b0d330",
+    "mainCategory": "笔记",
+    "title": "一首生日诗",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "5b2647cb-03b2-4f7b-8b97-cf4bf5f9a5f2",
+    "mainCategory": "笔记",
+    "title": "弹药箱代码",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "75f1e4e1-27ad-43d0-aab7-d91438387c5e",
+    "mainCategory": "笔记",
+    "title": "安吉拉和迭戈",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "a2955a2e-4e76-45e8-81f1-8d46cb8e9a22",
+    "mainCategory": "笔记",
+    "title": "阿灵顿图书馆密码",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "9f7f8e5a-2a25-47d7-af53-8b01cf5ef93e",
+    "mainCategory": "笔记",
+    "title": "阿灵顿图书馆照片",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "a7b66753-1403-49d7-b117-8e20640acab4",
+    "mainCategory": "笔记",
+    "title": "自主神经系统",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "e5f11a3b-5044-4895-b8db-13108ff85076",
+    "mainCategory": "笔记",
+    "title": "班农的要求",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "56f7a364-f14b-4ab4-8c8e-bd9513669a67",
+    "mainCategory": "笔记",
+    "title": "邓里奇大厦发现血腥草图",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "dcbe4a52-f9a3-47b7-899a-d1ebd5b2482b",
+    "mainCategory": "笔记",
+    "title": "布莱恩的特殊钥匙",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "c7f015a2-c848-4dcb-864b-56e1e64fc41d",
+    "mainCategory": "笔记",
+    "title": "C.J.杨失踪",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "c22b7598-8e5b-493e-bd4d-037c656a2f5f",
+    "mainCategory": "笔记",
+    "title": "商队商人",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "e5188a37-7bf6-4e2c-862a-1d35088a81d4",
+    "mainCategory": "笔记",
+    "title": "商队贸易路线",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "0baf8be5-d60d-4655-8830-478a1c9c62e8",
+    "mainCategory": "笔记",
+    "title": "联系报告：“飞地”",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "8cc51476-1ad0-49b3-8258-400f76e5d20a",
+    "mainCategory": "笔记",
+    "title": "消灭契约",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "46ed2c5c-cb48-4e99-bc27-7ec4aa8d7865",
+    "mainCategory": "笔记",
+    "title": "契约杀人",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "785a3061-67c2-49a6-bd0c-1f2739c6748a",
+    "mainCategory": "笔记",
+    "title": "与阿兹鲁哈尔的契约",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "9e0270f1-3846-4042-a32f-4994ef5c4235",
+    "mainCategory": "笔记",
+    "title": "破碎的纸条",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "036c92a7-7fe4-45f1-b3d4-3db6e0087680",
+    "mainCategory": "笔记",
+    "title": "戴夫的笔记",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "380d66d2-274d-41b6-b55e-2085a97a0c2b",
+    "mainCategory": "笔记",
+    "title": "DCTA地铁图",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "d9788cfc-58b4-4d8d-8a6f-d5f39e3e9e2c",
+    "mainCategory": "笔记",
+    "title": "派遣至抄写员一岁鸽",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "9be9b874-cb5c-4d3f-b5b3-2a9a1c47fc20",
+    "mainCategory": "笔记",
+    "title": "赢得了你的份额",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "2680451c-b48a-4571-884b-877e162d8cd9",
+    "mainCategory": "笔记",
+    "title": "反馈回路",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "7d075823-7b8d-4b13-a299-d7a9c0f39aa3",
+    "mainCategory": "笔记",
+    "title": "感受男人的爱",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "54d9888e-c64e-4ecf-bc9b-6d3d23bb4d54",
+    "mainCategory": "笔记",
+    "title": "寻找公式",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "40b4770c-621e-4b79-84e7-764623f3d050",
+    "mainCategory": "笔记",
+    "title": "会飞的香蕉不会说话",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "90a9c084-f0c2-4d67-8ef9-7bb8ef9d4a45",
+    "mainCategory": "笔记",
+    "title": "康斯坦丁堡 CO 钥匙卡",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "6fe66716-6662-472b-81b6-3b8cb2d336ff",
+    "mainCategory": "笔记",
+    "title": "君士坦丁堡发射代码",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "d4b77c46-3cd8-41cd-a95d-9621767f6a07",
+    "mainCategory": "笔记",
+    "title": "食尸鬼笔记",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "9d4d139d-1323-41d2-8609-6e92c50fc5fb",
+    "mainCategory": "笔记",
+    "title": "吉布森的一张纸片",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "5dcfc7db-ff11-4b2c-af38-2b3a059d7edf",
+    "mainCategory": "笔记",
+    "title": "GNR展位访问密码",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "3b1d17f3-1b44-441b-88b1-63a3ed3d0b7c",
+    "mainCategory": "笔记",
+    "title": "哈克尼斯后的照片",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "4f71d582-e087-45aa-8957-8cb7b45649af",
+    "mainCategory": "笔记",
+    "title": "哈克尼斯之前的照片",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "454157c4-8d69-4c8e-b20f-17e9d4cfa74d",
+    "mainCategory": "笔记",
+    "title": "帮我",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "b13425f7-24b8-484a-9f6f-1864c4a5f0e8",
+    "mainCategory": "笔记",
+    "title": "我走了！",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "053bf06c-d42f-4244-bb12-1b63a23d4d4b",
+    "mainCategory": "笔记",
+    "title": "乔恩·阿迪格里奥的笔记",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "4c9e96b5-62a4-4050-8a84-7b0889bfe4cf",
+    "mainCategory": "笔记",
+    "title": "绑架令",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "d3052b16-605d-43d4-92d6-9b21c3747dcf",
+    "mainCategory": "笔记",
+    "title": "灯光菌贸易",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "18b3a5f5-ef16-43b0-9955-52d0efb1468f",
+    "mainCategory": "笔记",
+    "title": "利奥·斯塔尔",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "1862f200-83ec-4c4b-b2fc-09cfec272b61",
+    "mainCategory": "笔记",
+    "title": "来自苦杯的信",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "e09cb2ef-d5e0-44b3-8ed8-3af12db3e3ff",
+    "mainCategory": "笔记",
+    "title": "来自 Vault-Tec 的信",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "8d68666f-1a9b-48e4-b740-bc50d81d906d",
+    "mainCategory": "笔记",
+    "title": "天堂瀑布“新兵”名单",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "8f778296-ff8e-4598-84e5-cb67a8008409",
+    "mainCategory": "笔记",
+    "title": "利特尔霍恩及其同事",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "a3db15c5-cdda-4f60-b611-87d5a44b476b",
+    "mainCategory": "笔记",
+    "title": "爱情信",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "ffdf49e3-85dc-45d4-a84d-dae8654c3e7d",
+    "mainCategory": "笔记",
+    "title": "伯克的情书",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "8cb70d05-900b-4cb0-8913-05d6f929f087",
+    "mainCategory": "笔记",
+    "title": "伯克的情书",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "39a1c649-3524-4b7c-929a-99db8efb7a05",
+    "mainCategory": "笔记",
+    "title": "主机访问密码",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "ed187b58-84b5-46eb-8a12-bcf2f4c5ab88",
+    "mainCategory": "笔记",
+    "title": "西方尸体的医学分析",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "3d7294fc-5d8f-42aa-8552-6e33e358fb6c",
+    "mainCategory": "笔记",
+    "title": "百万吨级邪教小册子",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "bc6d41d2-f1a3-44f4-9d5a-7b451bc11c8a",
+    "mainCategory": "笔记",
+    "title": "百万吨级原子弹",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "d141dc5d-7cf7-47aa-9c13-0af95d5b6b6a",
+    "mainCategory": "笔记",
+    "title": "黄美",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "5a3b7c5d-d2fc-496b-b2d1-01377a13f130",
+    "mainCategory": "笔记",
+    "title": "商户合同",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "87f8db8a-398f-472a-b26f-876d15236579",
+    "mainCategory": "笔记",
+    "title": "梅雷斯蒂进入密码",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "2058362c-4dd1-4bc2-a1d1-5a35cf7d35dc",
+    "mainCategory": "笔记",
+    "title": "梅雷斯蒂安全密码",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "3b57e554-9a56-4210-8dd3-5d27d9d4f3db",
+    "mainCategory": "笔记",
+    "title": "雷区游乐场",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "51f92ef5-cb2d-472f-9074-695d7813a1f7",
+    "mainCategory": "笔记",
+    "title": "泥沼鱼产卵荚",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "d8d380ed-1f12-4b6d-b86e-dfc141ad1d08",
+    "mainCategory": "笔记",
+    "title": "克劳利先生的黑名单",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "e39bca2b-1949-45e5-a5c6-170e37a575a6",
+    "mainCategory": "笔记",
+    "title": "洛佩兹先生",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "8d529c6f-faa8-48ae-b035-1e18f3601c6d",
+    "mainCategory": "笔记",
+    "title": "密西西比量子派食谱",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "2cb95e5a-193f-48e3-a74a-c1928d0d3ec7",
+    "mainCategory": "笔记",
+    "title": "莫里亚蒂关于父亲的信息",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "f91bfb0a-2b98-4849-9d7d-4a432dbd7d76",
+    "mainCategory": "笔记",
+    "title": "莫里亚蒂的密码",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "6d7f7baf-5b8b-4d84-bfcf-89d192e25a82",
+    "mainCategory": "笔记",
+    "title": "博物馆枪柜",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "9e4bc517-eb3a-48cc-b32f-877acfb8989b",
+    "mainCategory": "笔记",
+    "title": "科技博物馆战利品",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "c00ad455-51dc-4964-bde7-36dbb73edc1c",
+    "mainCategory": "笔记",
+    "title": "睦邻信",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "0b07aefb-1b47-4f46-8a3b-6d6667b77e96",
+    "mainCategory": "笔记",
+    "title": "国家档案馆安全密码",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "d50d2939-3846-4e4b-9d40-d70e7de0d9d5",
+    "mainCategory": "笔记",
+    "title": "利奥·斯塔尔的笔记",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "6b69e982-64cf-4131-9de9-76e18890c9c6",
+    "mainCategory": "笔记",
+    "title": "来自 Pronto 的注释",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "97b4a1b3-6401-45b0-bbac-d2ff063d705f",
+    "mainCategory": "笔记",
+    "title": "沃尔特的笔记",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "75c05dd6-9d9c-464f-b7b8-2047b7c6b041",
+    "mainCategory": "笔记",
+    "title": "温思罗普的通知",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "536c8248-97cf-4ef9-b63d-7f899f08ef4c",
+    "mainCategory": "笔记",
+    "title": "核子 4 拉链！",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "40de2fa8-87b0-4bc4-9f25-8c89045ecaa1",
+    "mainCategory": "笔记",
+    "title": "核子可乐事故报告",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "c61b14c2-4309-4e6d-bd3b-4e40d2871b78",
+    "mainCategory": "笔记",
+    "title": "鲁宾督军个人条目 00897332",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "92b007f1-f589-42b6-86d0-cfc54a601206",
+    "mainCategory": "笔记",
+    "title": "护林员大院的密码",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "9f4298c1-9b56-40e7-8c87-b45cc06a07b7",
+    "mainCategory": "笔记",
+    "title": "宾夕法尼亚大道爆炸物笔记",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "9f5aa366-5c8d-40df-9483-2e81df6b5092",
+    "mainCategory": "笔记",
+    "title": "李医生照片",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "79f85e95-78bc-4957-a4f5-08e06c07b8f0",
+    "mainCategory": "笔记",
+    "title": "房产契据：百万吨级房屋",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "f35cc843-0356-48e2-8017-6228b3e8e56b",
+    "mainCategory": "笔记",
+    "title": "房产契据：Tenpenny Tower 套房",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "b1960f53-d011-4e4b-907a-4dc92b31cb4d",
+    "mainCategory": "笔记",
+    "title": "量子分布详情",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "21764f69-2827-4e14-9250-bd00b3648fb3",
+    "mainCategory": "笔记",
+    "title": "突袭计划",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "26d2dd4d-1bfc-46e5-8f59-7b3ff063e036",
+    "mainCategory": "笔记",
+    "title": "赖利前往政治家酒店的路线",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "3a5cb68b-c26f-4d97-bb6b-c99d6fc9e44b",
+    "mainCategory": "笔记",
+    "title": "启示录 21:6",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "b4b8c2e7-9478-4b59-9408-18bc05c3bffe",
+    "mainCategory": "笔记",
+    "title": "铆钉市议会会议纪要",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "9cc2791a-81a3-4f0d-ba1d-3b3a6ad609f7",
+    "mainCategory": "笔记",
+    "title": "消毒剂使用说明",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "54cb422c-5e19-49a2-af20-d2adbe26923e",
+    "mainCategory": "笔记",
+    "title": "土斯特拉迪瓦里案例图片",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "4e6c915c-e3c4-4e63-914f-25a0a6d1b3fb",
+    "mainCategory": "笔记",
+    "title": "涂鸦",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "79a71b2d-6633-40c2-8c59-d1c5d085e19f",
+    "mainCategory": "笔记",
+    "title": "詹姆逊抄写员向里昂长老提交的报告",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "9149c2b3-8c5b-4ac1-9fa1-bd81065b44b7",
+    "mainCategory": "笔记",
+    "title": "搜索聚会日志",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "9a1b3eef-c4e0-4b25-b123-6fd49870a004",
+    "mainCategory": "笔记",
+    "title": "搜索聚会日志",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "305d447c-06ed-4f35-b345-4d1550db6f8b",
+    "mainCategory": "笔记",
+    "title": "搜索聚会日志",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "c5a13e7d-07fd-4682-9e43-4f9c5c67df97",
+    "mainCategory": "笔记",
+    "title": "搜索聚会日志",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "4c65bb2b-f75e-420b-8844-4abdc8e40171",
+    "mainCategory": "笔记",
+    "title": "七年了，而且还在继续",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "b1592c48-8993-4b7d-b1aa-44f54d2f1cf5",
+    "mainCategory": "笔记",
+    "title": "运送电脑登录码",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "1b51d78e-c7ed-48ab-b8db-24fd95d67b4d",
+    "mainCategory": "笔记",
+    "title": "奴隶项圈说明",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "f3f081ef-e3f2-4672-96db-ae324ed0b6e1",
+    "mainCategory": "笔记",
+    "title": "奴隶地图",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "e12b6e23-1fa3-4d95-9b3e-5f2d7cd63f14",
+    "mainCategory": "笔记",
+    "title": "斯特雷耶的笔记",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "3fd55612-c7df-43f5-aeda-efb946a17485",
+    "mainCategory": "笔记",
+    "title": "糖炸弹跑",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "b892ba9e-f27d-4a78-ae6a-799bb72b1a89",
+    "mainCategory": "笔记",
+    "title": "废物的故事",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "db5ddad1-6f11-45fc-af4a-00e7a71df9f5",
+    "mainCategory": "笔记",
+    "title": "塔拉的笔记",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "50a6f674-daf6-45c4-b15f-037f5c907a78",
+    "mainCategory": "笔记",
+    "title": "十便士网络密码",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "45115a9b-巴巴-4c77-bab7-206dbf4b6d9a",
+    "mainCategory": "笔记",
+    "title": "汤普尼的请求",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "382c499f-4145-48bb-bae7-f9a3eaf47b7e",
+    "mainCategory": "笔记",
+    "title": "家庭终端密码",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "f6e51c57-20d4-44a8-9e13-9b0e181f5b98",
+    "mainCategory": "笔记",
+    "title": "监管机构",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "f4c3fd4f-77f0-4710-a36a-876dc4d4d93c",
+    "mainCategory": "笔记",
+    "title": "西奥的身体位置",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "ab52ebeb-6b19-4778-a741-f0de7586b1b2",
+    "mainCategory": "笔记",
+    "title": "被困了，被困了，被困了",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "f56c9142-e46b-4d8b-a70c-209a9aa8af22",
+    "mainCategory": "笔记",
+    "title": "对于任何得到这个的人",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "b7a28a85-d82f-4595-af31-8f08a1e7e478",
+    "mainCategory": "笔记",
+    "title": "撕毁的日记条目",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "e9e7f07c-4219-4e8b-a164-b0e650d88471",
+    "mainCategory": "笔记",
+    "title": "Vault 87 维护密码",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "c3355f80-e50c-43b0-bc16-97de19e4cb7a",
+    "mainCategory": "笔记",
+    "title": "Vault-Tec 安全程序",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "fb49e070-3b0c-4b15-bc62-8e9991809cb0",
+    "mainCategory": "笔记",
+    "title": "处女座二号月球着陆器",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "b8a8ff88-4b12-4e24-8c36-b409f26e6ef9",
+    "mainCategory": "笔记",
+    "title": "投票给鲍勃",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "5d6dcff4-1678-4f66-aa27-722d14b4f073",
+    "mainCategory": "笔记",
+    "title": "投票给戴夫",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "68fd2a2d-b470-4940-af79-cfc23877cbdf",
+    "mainCategory": "笔记",
+    "title": "投票给罗西",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "86093f62-b15a-4db9-885e-4c94b057aedd",
+    "mainCategory": "笔记",
+    "title": "华盛顿纪念碑访问",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "f4d7d0a3-b1aa-4438-80e8-82c9e2f7612b",
+    "mainCategory": "笔记",
+    "title": "荒地商人笔记",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "5d070ab9-063f-4655-8080-06f8f3d67d3d",
+    "mainCategory": "笔记",
+    "title": "荒地生存指南",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "9e83c123-01ad-4ef8-8ff4-ef77dbbb99d7",
+    "mainCategory": "笔记",
+    "title": "废土人地图",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "a7ad228c-54b8-43a3-8d22-b7a96c3fdaa7",
+    "mainCategory": "笔记",
+    "title": "废土笔记",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "c7bea40b-240f-482b-bff2-10c3764f4bd2",
+    "mainCategory": "笔记",
+    "title": "欢迎来到核子可乐大家庭！",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "d9fd246c-5485-4f79-8317-06c54f71c447",
+    "mainCategory": "皮茨夫妇",
+    "title": "弹药磨坊说明",
+    "dlc": "皮茨夫妇",
+    "subCategory": "笔记",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "a0d1c6a6-22f7-4c97-af16-29e22605916a",
+    "mainCategory": "皮茨夫妇",
+    "title": "治愈研究",
+    "dlc": "皮茨夫妇",
+    "subCategory": "笔记",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "d26e66b2-422e-4d95-b4f0-f9fb79b3c636",
+    "mainCategory": "皮茨夫妇",
+    "title": "狂野比尔的笔记",
+    "dlc": "皮茨夫妇",
+    "subCategory": "笔记",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "6e89c21a-0508-4ff0-8490-dfa05d5d42df",
+    "mainCategory": "皮茨夫妇",
+    "title": "工厂用钢",
+    "dlc": "皮茨夫妇",
+    "subCategory": "笔记",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "7c3c7b69-85b1-4a3b-8c1d-1d2aa8ee6d79",
+    "mainCategory": "皮茨夫妇",
+    "title": "玛丽想要的玩具（美的版）",
+    "dlc": "皮茨夫妇",
+    "subCategory": "笔记",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "3a0a15a3-1964-4fd4-a5a4-eb946ee2a0a7",
+    "mainCategory": "皮茨夫妇",
+    "title": "想要给玛丽的玩具（桑德拉版）",
+    "dlc": "皮茨夫妇",
+    "subCategory": "笔记",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "4511cf4e-7420-4664-997f-3e6f0c3edbbf",
+    "mainCategory": "皮茨夫妇",
+    "title": "沃纳给美的的便条",
+    "dlc": "皮茨夫妇",
+    "subCategory": "笔记",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "6b1939d6-98db-4c51-9c69-72a4d7a79528",
+    "mainCategory": "断钢",
+    "title": "阿尔法细胞入门01",
+    "dlc": "断钢",
+    "subCategory": "笔记",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "15df635e-b5e6-4e60-9a3c-cddef006b47f",
+    "mainCategory": "断钢",
+    "title": "邓巴的笔记",
+    "dlc": "断钢",
+    "subCategory": "笔记",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "87a2cf27-9711-4a1d-849f-99f0f1b57662",
+    "mainCategory": "断钢",
+    "title": "圣水小册子",
+    "dlc": "断钢",
+    "subCategory": "笔记",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "5b0d2e6d-d4f8-4e5b-90ed-6cd37293d545",
+    "mainCategory": "断钢",
+    "title": "拉格-博尔特的笔记",
+    "dlc": "断钢",
+    "subCategory": "笔记",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "a682ef46-2147-426a-80ac-cf68b35e2db3",
+    "mainCategory": "观景台",
+    "title": "头部疤痕治疗",
+    "dlc": "观景台",
+    "subCategory": "笔记",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "19fba0d7-3a63-4f63-a619-c0f52e8823c6",
+    "mainCategory": "观景台",
+    "title": "Alpha 级安全徽章",
+    "dlc": "观景台",
+    "subCategory": "笔记",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "c63dcfc3-5cbb-4eb6-b8d4-079e158b22c1",
+    "mainCategory": "观景台",
+    "title": "Beta 级安全徽章",
+    "dlc": "观景台",
+    "subCategory": "笔记",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "09ffdc21-8a39-467d-8391-5af065c17947",
+    "mainCategory": "观景台",
+    "title": "给纳丁的注释",
+    "dlc": "观景台",
+    "subCategory": "笔记",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "70ac0e8f-40e2-4bfc-9ab4-19aeb6a31a63",
+    "mainCategory": "观景台",
+    "title": "俄巴底亚写给玛塞拉的信",
+    "dlc": "观景台",
+    "subCategory": "笔记",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "43d2e2d8-1eb1-4b14-8b0c-c76e3a703036",
+    "mainCategory": "观景台",
+    "title": "观景台",
+    "dlc": "观景台",
+    "subCategory": "笔记",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "1189a12e-d8f3-4ee3-bcc9-58691ff04717",
+    "mainCategory": "观景台",
+    "title": "万阳",
+    "dlc": "观景台",
+    "subCategory": "笔记",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "9de490b4-f22f-4ee5-b5c7-d64bc6cf4873",
+    "mainCategory": "观景台",
+    "title": "通缉犯：杨W.",
+    "dlc": "观景台",
+    "subCategory": "笔记",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "d0f2232b-d0e2-44e5-b09b-832207d1a318",
+    "mainCategory": "技能书",
+    "title": "科学大书",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "db5b139e-c86b-49c5-bf63-9ff0b89b1ef1",
+    "mainCategory": "技能书",
+    "title": "中国陆军：特种作战训练手册",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "da0ab0c2-b588-4595-83db-f23ef458b083",
+    "mainCategory": "技能书",
+    "title": "华盛顿内科杂志",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "c47d0ba0-687a-4d8f-9960-17350f929ab1",
+    "mainCategory": "技能书",
+    "title": "迪安电子",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "34c8f775-d154-4e22-9cd1-bb628b87e94c",
+    "mainCategory": "技能书",
+    "title": "鸭子和掩护！",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "e372e3ff-5d0e-4dbb-9363-12170c6ef808",
+    "mainCategory": "技能书",
+    "title": "野蛮人格格纳克",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "e2564312-77d4-4824-bb7e-ff42db6bc5b1",
+    "mainCategory": "技能书",
+    "title": "枪与子弹",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "d17d8567-c990-4412-b884-fb672a6f46ed",
+    "mainCategory": "技能书",
+    "title": "国会风格的谎言",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "2f3cfb6b-2318-49b8-8d2b​​-15fbf6a15607",
+    "mainCategory": "技能书",
+    "title": "明星的励志秘密",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "518aa005-1a5e-4a9b-aa09-4086b693d3c4",
+    "mainCategory": "技能书",
+    "title": "尼古拉·特斯拉和你",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "453ebf84-373a-4c26-916b-c441081e0095",
+    "mainCategory": "技能书",
+    "title": "失乐园",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "759e17d2-5df0-4de7-8399-5851c4c4a319",
+    "mainCategory": "技能书",
+    "title": "拳击画报",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "888bcb6d-1f18-499d-988a-60c2cb53966b",
+    "mainCategory": "技能书",
+    "title": "垃圾城肉干供应商的故事",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "5b6d96cb-c918-4c41-826f-0b4c01393aa2",
+    "mainCategory": "技能书",
+    "title": "今天的不倒翁",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  },
+  {
+    "id": "b7f960c5-2907-42bc-b0c1-74ad7f34d7d2",
+    "mainCategory": "技能书",
+    "title": "美国陆军：30 个方便的火焰喷射器食谱",
+    "dlc": "没有任何",
+    "subCategory": "",
+    "section": "miscellaneous"
+  }
+]
