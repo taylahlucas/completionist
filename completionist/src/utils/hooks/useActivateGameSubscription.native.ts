@@ -4,7 +4,7 @@ import { SubscriptionData } from '@utils/CustomInterfaces';
 
 const useActivateGameSubscription = () => {
 	const { user } = useMainState();
-	const { saveUserAndCache } = useEditUserData();
+	const { saveUserAndLogin } = useEditUserData();
 
 	// Free users
 	const changeGameSubscription = (selectedGame: SubscriptionData, changesLeft: number) => {
@@ -23,7 +23,7 @@ const useActivateGameSubscription = () => {
 				data: updatedGames
 			}
 		};
-		saveUserAndCache(updatedUser);
+		saveUserAndLogin(updatedUser, false);
 	};
 	
 	// User set up and premium users
@@ -42,7 +42,7 @@ const useActivateGameSubscription = () => {
 				data: updatedGames
 			}
 		};
-		saveUserAndCache(updatedUser);
+		saveUserAndLogin(updatedUser, false);
 	};
 
 	return { changeGameSubscription, activateGameSubscription };

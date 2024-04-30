@@ -8,9 +8,11 @@ import Button from '@components/general/Button/Button.native';
 import { ScreenEnum } from '@utils/CustomEnums';
 import SettingsGameSelectionContent from './SettingsGameSelectionContent.native';
 import { SettingsContentAvatarContainer, SettingsContentEmail } from './SettingsContentStyledComponents.native';
+import useGetTheme from '@styles/hooks/useGetTheme';
 
 const SettingsContentAccountDetails = () => {
 	const navigation = useReactNavigation();
+	const theme = useGetTheme();
 	const { t } = useTranslation();
 	const { user } = useMainState();
 
@@ -29,6 +31,7 @@ const SettingsContentAccountDetails = () => {
 			</SettingsContentEmail>
 			<Button
 				type='navigation'
+				color={theme.primaryPurple}
 				title={t('common:settings.changeAccountDetails')}
 				onPress={(): void => navigation.navigate(ScreenEnum.AccountDetails)}
 			/>

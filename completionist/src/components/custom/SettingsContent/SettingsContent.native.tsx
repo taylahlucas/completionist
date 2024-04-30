@@ -9,6 +9,7 @@ import useGetShowHideOptions from './hooks/useGetShowHideOptions';
 import useSettingsOptionsOnPress from './hooks/useSettingsOptionsOnPress.native';
 import SettingsContentSelectLanguage from './SettingsContentSelectLanguage.native';
 import SettingsContentAccountDetails from './SettingsContentAccountDetails.native';
+import useHandleScroll from '@utils/hooks/useHandleScroll.native';
 
 const SettingsContent = () => {
 	const { t } = useTranslation();
@@ -18,17 +19,12 @@ const SettingsContent = () => {
 	const options = useGetShowHideOptions();
 	const { setSettingsOptionsOnPress } = useSettingsOptionsOnPress();
 	const [isLanguagesOpen, setLanguagesOpen] = useState<boolean>(false);
-
-	const handleScrollDown = (offset: number) => {
-		if (scrollViewRef.current) {
-			scrollViewRef.current.scrollTo({ y: offset, animated: true })
-		}
-	};
+	const handleScroll = useHandleScroll();
 
 	return (
 		<ScrollableList
 			ref={scrollViewRef}
-			contentContainerStyle={{ paddingBottom: isLanguagesOpen ? 400 : 200 }}
+			contentContainerStyle={{ paddingBottom: isLanguagesOpen ? 400 : 100 }}
 		>
 			<SettingsContentAccountDetails />
 
@@ -54,7 +50,7 @@ const SettingsContent = () => {
 					setLanguagesOpen(value);
 					if (value) {
 						languageViewRef?.current?.measureInWindow((_, y, _1, _2) => {
-							handleScrollDown(y + 100);
+							handleScroll(scrollViewRef, y + 100);
 						});
 					}
 				}} />

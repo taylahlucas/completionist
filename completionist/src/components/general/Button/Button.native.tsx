@@ -48,11 +48,11 @@ const Button = ({
 					testID={testID}
 					style={style}
 					onPress={onPress}
-					color={theme.darkGrey}
+					color={color ?? theme.darkGrey}
 				>
 					<StyledText
 						type='ListItemSubTitleBold' 
-						color={theme.lightGrey}
+						color={theme.lightestGrey}
 						align='left'
 					>
 						{title}
