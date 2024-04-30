@@ -130,19 +130,16 @@ can you convert the following Fallout 3 Locations to the following json data, re
 {
 	"id":  <generated_uuid>,
 	"title": <quest title>
-	"subCategory": "Washington, D.C,
-	"subCategoryType": "Arlington Cemetery District"
-	"dlc": "None",
-	"mainCategory": "Main"
+	"subCategory": "",
+	"subCategoryType": ""
+	"dlc": "Mothership Zeta",
+	"mainCategory": "Mothership Zeta"
 },
-
-// Up to Potomac River - Washington D.C.
-
-// https://fallout.fandom.com/wiki/Fallout_4_locations
 
 // https://fallout.fandom.com/wiki/Fallout_3_locations
 
 
+// TODO: Go through and add parent of nested child locations, everything before Pilgrim's Landing
 
 
 // https://game8.co/games/Hogwarts-Legacy/archives/403791#hl_1

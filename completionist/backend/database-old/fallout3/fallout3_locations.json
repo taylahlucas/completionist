@@ -1,0 +1,2124 @@
+[
+  {
+    "id": "7b3d67e9-6ee3-43d3-8d1a-4769d8efed19",
+    "title": "Andale",
+    "subCategory": "Settlements",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "4e7fd9d3-c2d3-4054-94d3-0079bf3d9230",
+    "title": "Arefu",
+    "subCategory": "Settlements",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "9c40f0a7-7e95-4703-b65d-01f8e3e32aae",
+    "title": "Big Town",
+    "subCategory": "Settlements",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "1d2226cf-fc92-47a0-af4a-2699c91a7ae8",
+    "title": "Canterbury Commons",
+    "subCategory": "Settlements",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "63b85815-71b3-48cb-852d-ba798f3ae768",
+    "title": "The Citadel",
+    "subCategory": "Settlements",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "ea3df7e5-1565-4f45-94fb-4b86e3b5c73b",
+    "title": "Evergreen Miscellaneous",
+    "subCategory": "Settlements",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "b20f185d-11a6-4544-b89d-2b6547a214bc",
+    "title": "Fairfax Reunions",
+    "subCategory": "Settlements",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "76f285c4-2b19-42e2-a8a5-58fead7433c6",
+    "title": "Girdershade",
+    "subCategory": "Settlements",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "1d12a3c5-b0e3-414f-8f6a-4f67e7a272f1",
+    "title": "Grayditch",
+    "subCategory": "Settlements",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "49e32b58-0be2-4294-a405-94d1a7b04f38",
+    "title": "Little Lamplight",
+    "subCategory": "Settlements",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "e876f890-9d2b-47c6-9ba9-75e1b4e1972b",
+    "title": "Megaton",
+    "subCategory": "Settlements",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+
+  {
+    "id": "11f9f45d-fa25-45f3-8b54-9d9b63139d8a",
+    "title": "Oasis",
+    "subCategory": "Settlements",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "b17db1d7-8f5a-49d5-a299-22ad2bc6c192",
+    "title": "Paradise Falls",
+    "subCategory": "Settlements",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "f54d3e2d-3b36-4e24-a3aa-d7d2455e6b56",
+    "title": "Raven Rock",
+    "subCategory": "Settlements",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "1a25977d-5070-499a-b7da-1a31b0b1d333",
+    "title": "Reilly's Rangers Compound",
+    "subCategory": "Settlements",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "f6496f0b-8b24-4d96-9a4c-02df94f62b1c",
+    "title": "Republic of Dave",
+    "subCategory": "Settlements",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "b2d0b4e2-29bc-49af-a3fb-7bb1cf8a3bfa",
+    "title": "Rivet City",
+    "subCategory": "Settlements",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "1f26fd45-e10b-4480-a60c-6ecf94549560",
+    "title": "Temple of the Union",
+    "subCategory": "Settlements",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "b8df9a7b-3c42-4e7f-bc68-739f8ed86999",
+    "title": "Tenpenny Tower",
+    "subCategory": "Settlements",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "9ad92bf0-7dc1-4e02-b018-0642f9bdc8d0",
+    "title": "Underworld",
+    "subCategory": "Settlements",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "f3337e1b-30ff-4c76-b06a-5a366c24e9f5",
+    "title": "Vault 101",
+    "subCategory": "Settlements",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "3a8f2d33-1470-4fc2-bf0c-2bb6c7cbef21",
+    "title": "Vault 112",
+    "subCategory": "Settlements",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "7f0760e0-56f6-4f88-9a85-048bc9450653",
+    "title": "Warrington Station",
+    "subCategory": "Settlements",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "60550ee8-1b1e-4fc2-8f11-ee38130ee226",
+    "title": "Wasteland Gypsy Village",
+    "subCategory": "Settlements",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "f48b90c0-8fc0-457f-a2bb-eb9e03840547",
+    "title": "Wilhelm's Wharf",
+    "subCategory": "Settlements",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "10d1f1b2-2cf9-4ad2-bf8e-9cf202db734f",
+    "title": "Abandoned Car Fort",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "f8c9e8ab-b33a-4c59-bc05-8c52ac8374e1",
+    "title": "Agatha's House",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "aae31855-ea91-4486-8133-57fc3b50a568",
+    "title": "AntAgonizer's Lair",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "4880d2e3-58b8-4571-8559-c8db2be1c171",
+    "title": "Bethesda Ruins",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "0c8e0714-7053-4b5b-b376-8ed2058fb1c6",
+    "title": "Broadcast tower KB5",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "7c7dd046-7154-4a0d-8f4a-22e0fd34456b",
+    "title": "Broadcast tower KT8",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "e6db3462-7f11-46b0-8593-62dbd5e5f25b",
+    "title": "Broadcast tower LP8",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "19b93f47-dbe1-4b47-b399-9c9299433cc3",
+    "title": "Charnel house",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "4e273d4c-2a27-4d94-9cf9-58c6b35f6e47",
+    "title": "Chaste Acres Dairy Farm",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "d5c84516-3d3d-4095-a98d-af57661e3a68",
+    "title": "Chryslus Building",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "75dab95e-41fd-4536-8480-7ec9d7034f88",
+    "title": "Cliffside cavern",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "08be197d-18a2-4de9-b8cf-f28f17c03d1f",
+    "title": "Clifftop shacks",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "55febb78-0893-4628-83a5-49a950fdff6e",
+    "title": "Corvega Factory",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "7891b33c-004c-488a-8575-cbba5ef8e56a",
+    "title": "Deathclaw sanctuary",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "c51f2427-52d2-48a6-830d-97c5b9a720df",
+    "title": "Dickerson Tabernacle Chapel",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "f14cc434-8598-48d1-b4f8-f5fe28ffef7d",
+    "title": "Drowned Devil's Crossing",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "ba67b8f3-f5c6-4f12-8e92-bb258e8bc4b8",
+    "title": "Dukov's place",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "75f2e496-7609-4640-9f79-aae4c299da4e",
+    "title": "Dunwich Building",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "96d4d41d-aa94-47e5-82a1-2d3523d4c9e0",
+    "title": "Everglow National Campground",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "b7b36be6-c9a6-4c31-b22e-2fd037a2a09c",
+    "title": "Evergreen Mills",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "a8f8e25d-80cb-4b60-b761-f36b7bc0e6fb",
+    "title": "F. Scott Key Trail & Campground",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "274cbb1f-3d27-4cf1-bc16-e84d2e4b046b",
+    "title": "Faded Pomp Estates",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "c21c6e5b-1dc8-4d43-8244-7c991e224b83",
+    "title": "Fairfax ruins",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "0d29d615-c485-40c7-ae71-1424076b7357",
+    "title": "Five Axles rest stop",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "e74b5e39-3a9c-4293-bbb1-58b37de7de75",
+    "title": "Fordham Flash Memorial Field",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "118f74d7-8e54-4bda-9b14-40a1615b2ee1",
+    "title": "Fort Bannister",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "20e1adff-3e5d-477b-98db-918ab2d155ef",
+    "title": "Fort Constantine",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "b1c0e4ad-d0a3-4de9-a29c-2fc7396dd087",
+    "title": "Fort Independence",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "f2a0c0ab-98fc-4b68-b23b-5c098ac062fd",
+    "title": "Greener Pastures disposal site",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "bd5f1412-d867-4e90-a227-b4d2b53a0455",
+    "title": "Grisly diner",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "ae823e27-e24d-4b55-b86c-3b8d992f96c0",
+    "title": "Hallowed Moors Cemetery",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "757c91da-8c92-4433-a51a-7afad6d38a69",
+    "title": "Hamilton's hideaway",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "35c5c5ef-32a2-41e4-8450-4ab3ab48c51d",
+    "title": "Jalbert Brothers waste disposal",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "b27bca39-1f1f-4e9a-a7a0-05c2b48b92f1",
+    "title": "Jocko's Pop & Gas stop",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+
+  {
+    "id": "2d5b221f-1f52-490b-af99-343a4c4052c8",
+    "title": "Jury Street Metro station",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "d1a3ec75-70ae-4db5-97d0-3f64dd749871",
+    "title": "Kaelyn's Bed & Breakfast",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "b7b5600f-6b6a-4d71-a349-0d7b1ecbf16b",
+    "title": "Mason Dixon Salvage",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "7fcb874d-3156-457e-a547-681f800d671e",
+    "title": "MDPL-05 power station",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "ff206b20-4845-474b-9870-69c30135d68c",
+    "title": "MDPL-13 power station",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "3b61d89f-ccf2-465d-bd86-10512e84ad3f",
+    "title": "MDPL-16 power station",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "6df50d70-25ac-4de8-86c1-89d79866ec57",
+    "title": "MDPL-21 power station",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "3f61a5da-f84b-4b6e-bb9e-3eeb36ff47f6",
+    "title": "MDPL mass relay station",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "5e630f78-79d4-45c2-981b-b93e9eae003b",
+    "title": "Meresti trainyard",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+
+
+  {
+    "id": "cd06d9c9-7017-469f-8968-20d4382b8595",
+    "title": "Minefield",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "013f0189-68b1-4f84-b4f7-855e2a20a4b0",
+    "title": "Montgomery County Reservoir",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "e03b83c7-b5ad-449e-80f3-4cbf3aaf8aae",
+    "title": "Moonbeam Outdoor Cinema",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "38adfc5a-836b-4b22-81f3-16a0ac20c1fc",
+    "title": "Mount Mabel Campground",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "59e21c63-b5d2-45e2-b0f4-10d6c3efefc6",
+    "title": "National Guard Depot",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "f7f60d18-4ed8-45f1-b9d3-b66b2990cfb1",
+    "title": "Nuka-Cola plant",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "96ab0f09-8a48-4478-b29c-739f96e6f49d",
+    "title": "Old Olney",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "14c2a27f-2034-42f3-8cb7-515e3d4d9b87",
+    "title": "The Overlook Drive-In",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "4c39dfe1-bfbd-4e86-80ef-88d512007174",
+    "title": "Reclining Groves Resort Homes",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+
+  {
+    "id": "25120a32-ef1f-4d5d-8d24-2b62b9be07a2",
+    "title": "Red Racer factory",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "1b7d175b-0517-41d3-91c5-26f8e6e58a11",
+    "title": "Regulator HQ",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "3a14e8af-85f3-4da9-bc38-80a9442c6710",
+    "title": "Relay tower KX-B8-11",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "fb2d5a36-cc58-43e8-84d1-9e15ff0e7b7e",
+    "title": "RobCo facility",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "c004ca9c-705f-4c89-b2f3-2e04f5b6e7e7",
+    "title": "Robot repair center",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "bb6863e6-09d1-4b47-bf56-9cc1a4880d6e",
+    "title": "Rockbreaker's Last Gas",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "9d929ebf-751b-42cb-b91e-e4c3f6b77cf8",
+    "title": "Rock Creek Caverns",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "2a0857b4-d17b-446a-86ff-aa3d8bf2f643",
+    "title": "Roosevelt Academy",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "fcd75c98-dbd9-4299-9293-27b12d1e5d74",
+    "title": "SatCom Array NN-03d",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "ab1088ed-261a-4ec1-a128-b0e35066fc89",
+    "title": "SatCom Array NW-05a",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "b6b2cd13-f04c-4f0a-9f91-d4583eb9ff6c",
+    "title": "SatCom Array NW-07c",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "3317a35f-4dd5-4ac5-9a9b-7ad89bc2893a",
+    "title": "Scrapyard",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "a251a7ad-7d77-45e7-9812-b0254a41c55e",
+    "title": "Sewer waystation",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "aae0be8b-98e3-4b65-91bb-5c7d1263b47d",
+    "title": "Shalebridge",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "d7c82d25-3e5c-4d29-a3cb-7c14fd502e01",
+    "title": "Smith Casey's garage",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "7e1c0c67-0b57-4f3d-8a69-920e4a3427e6",
+    "title": "The Silver Lining Drive-In",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "e73e25c0-4e46-42de-bef6-cf2f19294432",
+    "title": "Springvale",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "ac6bc394-295f-4f3f-90ac-fd44d4da1e05",
+    "title": "Springvale school",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "cb489ffb-3aef-4de5-9536-cf7c86b84b9b",
+    "title": "Super-Duper Mart",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "4f380b9e-7a7b-459b-8e88-4a7fb23bebf2",
+    "title": "Temple of the Union",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+
+  {
+    "id": "87a0ff24-3a2e-4be7-b0e0-8f640539f876",
+    "title": "VAPL-58 power station",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "3cf9a1d2-0f44-4eb5-a5f8-0e497c336804",
+    "title": "VAPL-66 power station",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "09f8889c-0f60-4b14-859b-14674c6d872f",
+    "title": "VAPL-84 power station",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "0fc281b7-3d38-44c5-a052-74f4b497cd68",
+    "title": "Warrington trainyard",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "6c9354ae-e4df-44e2-a91a-0016a109788d",
+    "title": "Wheaton Armory",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "fa5b92e5-0dcf-4f23-8170-5d71fb28b264",
+    "title": "WKML Broadcast Station",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "c9f67013-4be4-43b8-b027-525e9063b3ab",
+    "title": "Yao guai tunnels",
+    "subCategory": "Capital Wasteland",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "b899e175-3d46-4742-99b4-7e5692403341",
+    "title": "Holy Light Monastery",
+    "subCategory": "Capital Wasteland",
+    "dlc": "Broken Steel",
+    "mainCategory": "Broken Steel"
+  },
+  {
+    "id": "68d6acdb-df6c-41c1-8a45-0d9e2d42f246",
+    "title": "Rockland car tunnel",
+    "subCategory": "Capital Wasteland",
+    "dlc": "Broken Steel",
+    "mainCategory": "Broken Steel"
+  },
+  {
+    "id": "d615aaf1-59b4-4efb-bce6-705c5a5f12b6",
+    "title": "Satellite Relay Station",
+    "subCategory": "Capital Wasteland",
+    "dlc": "Broken Steel",
+    "mainCategory": "Broken Steel"
+  },
+  {
+    "id": "d615aaf1-59b4-4efb-bce6-705c5a5f12b6",
+    "title": "Radio Tower",
+    "subCategory": "Capital Wasteland",
+    "dlc": "The Pitt",
+    "mainCategory": "The Pitt"
+  },
+	{
+    "id": "e56fb08a-2bb1-463f-8400-56bf53035210",
+    "title": "Anacostia District",
+    "subCategory": "Washington, D.C",
+		"subCategoryType": "Anacostia District",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+	{
+    "id": "e56fb08a-2bb1-463f-8400-56bf53035210",
+    "title": "Rivet City",
+    "subCategory": "Washington, D.C",
+		"subCategoryType": "Anacostia District",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "6b99ab6f-fa61-4a16-ae5d-2582a7ef92a6",
+    "title": "Jefferson Memorial",
+    "subCategory": "Washington, D.C",
+		"subCategoryType": "Anacostia District",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+	{
+    "id": "ee9c4e1f-1e2b-41e4-af07-1c3b5a9a68e4",
+    "title": "Arlington Cemetery district",
+    "subCategory": "Washington, D.C",
+		"subCategoryType": "Arlington Cemetery district",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "ee9f4e1f-1e2b-41e4-af07-1c3b5a9a68e4",
+    "title": "Mama Dolce's",
+    "subCategory": "Washington, D.C",
+		"subCategoryType": "Arlington Cemetery district",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+	{
+    "id": "ee9f8e1f-1e2b-21e4-4f07-1c3b5a9a68e4",
+    "title": "Bailey's Crossroads district",
+    "subCategory": "Washington, D.C",
+		"subCategoryType": "Bailey's Crossroads district",
+    "dlc": "Operation: Anchorage",
+    "mainCategory": "Operation: Anchorage"
+  },
+	{
+    "id": "ee9f8e1f-1e2b-21e4-4f07-1c3b5a9a68e4",
+    "title": "Outcast outpost",
+    "subCategory": "Washington, D.C",
+		"subCategoryType": "Bailey's Crossroads district",
+    "dlc": "Operation: Anchorage",
+    "mainCategory": "Operation: Anchorage"
+  },
+	{
+    "id": "ee9f8e1f-1e2b-41e4-4f07-1c3b5a9a68e4",
+    "title": "Anchorage Reclamation simulation",
+    "subCategory": "Washington, D.C",
+		"subCategoryType": "Bailey's Crossroads district",
+    "dlc": "Operation: Anchorage",
+    "mainCategory": "Operation: Anchorage"
+  },
+	{
+    "id": "ee9f8e1f-de2b-4ce4-4f07-1c3b5a9a68e4",
+    "title": "Chevy Chase District",
+    "subCategory": "Washington, D.C",
+		"subCategoryType": "Chevy Chase District",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+	{
+    "id": "ee9f8e1f-de2b-41e4-4f07-1c3b5a9a68e4",
+    "title": "GNR Building Plaza",
+    "subCategory": "Washington, D.C",
+		"subCategoryType": "Chevy Chase District",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+	{
+    "id": "ee9f8e1f-de2b-41e4-4f0c-1c3b5a9a68e4",
+    "title": "Dupont Circle district",
+    "subCategory": "Washington, D.C",
+		"subCategoryType": "Dupont Circle district",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+	{
+    "id": "ee9f8e1f-de2b-41e4-4f0c-1c3b5a9a68e4",
+    "title": "Falls Church district",
+    "subCategory": "Washington, D.C",
+		"subCategoryType": "Falls Church district",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+	{
+    "id": "ee9f8e1f-de2b-41e4-4f0c-1c3b5a9a68ec",
+    "title": "Georgetown district",
+    "subCategory": "Washington, D.C",
+		"subCategoryType": "Georgetown district",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+	{
+    "id": "ee9f8e1f-de2b-41e4-4f0c-1c3b5a9a68e4",
+    "title": "L'Enfant district",
+    "subCategory": "Washington, D.C",
+		"subCategoryType": "L'Enfant district",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+	{
+    "id": "3e4f8e1f-1e2b-41e4-4f07-1c3b5a9a68e4",
+    "title": "Mason District",
+    "subCategory": "Washington, D.C",
+		"subCategoryType": "Mason District",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+	{
+    "id": "3e9f8e1f-1e2b-41e4-4f07-1c3b5a9a68e4",
+    "title": "Hubris Comics",
+    "subCategory": "Washington, D.C",
+		"subCategoryType": "Mason District",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+	{
+    "id": "4e9f8e1f-de2b-41e4-4f07-1c3b5a9a68e4",
+    "title": "Pennsylvania Avenue district",
+    "subCategory": "Washington, D.C",
+		"subCategoryType": "Pennsylvania Avenue district",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+	{
+    "id": "4e9f8e1f-de2b-41e4-4f07-1c3b5a9a68e4",
+    "title": "White House",
+    "subCategory": "Washington, D.C",
+		"subCategoryType": "Pennsylvania Avenue district",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+	{
+    "id": "4e9f8e1f-de2b-41e4-4f07-1c3b5a9a68e4",
+    "title": "White House Plaza",
+    "subCategory": "Washington, D.C",
+		"subCategoryType": "Pennsylvania Avenue district",
+    "dlc": "Broken Steel",
+    "mainCategory": "Broken Steel"
+  },
+	{
+    "id": "31d1b5f0-8932-4e3c-b9c5-6fcb1c028402",
+    "title": "Potomac River",
+    "subCategory": "Washington, D.C",
+    "subCategoryType": "Potomac River",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "31d1b5f0-8932-4e3c-b9c5-6fcb1c028402",
+    "title": "Alexandria Arms",
+    "subCategory": "Washington, D.C",
+    "subCategoryType": "Potomac River",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "d715f0fb-6b45-49a0-92fd-3f867c5d9b7b",
+    "title": "Arlington Library",
+    "subCategory": "Washington, D.C",
+    "subCategoryType": "Potomac River",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "8f22fd18-9c76-4562-84a6-225e1d0c3188",
+    "title": "The Citadel",
+    "subCategory": "Washington, D.C",
+    "subCategoryType": "Potomac River",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "5a77e748-864d-4a0f-813f-5ae6d64f9608",
+    "title": "Flooded metro (CW)",
+    "subCategory": "Washington, D.C",
+    "subCategoryType": "Potomac River",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "52d916e0-8f9e-4ee3-8e63-1b2499dd1fd0",
+    "title": "Irradiated metro",
+    "subCategory": "Washington, D.C",
+    "subCategoryType": "Potomac River",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "3b0d23c3-1a07-4b08-967d-f0af054af977",
+    "title": "Wilhelm's Wharf",
+    "subCategory": "Washington, D.C",
+    "subCategoryType": "Potomac River",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "36ad1db2-8601-4483-9866-ec1e671d5872",
+    "title": "Anchorage Memorial",
+    "subCategory": "Washington, D.C",
+    "subCategoryType": "Potomac River",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+	{
+    "id": "4b535a44-d7cf-4624-8a21-d4b7a0f4b38e",
+    "title": "Seward Square District",
+    "subCategory": "Washington, D.C",
+    "subCategoryType": "Seward Square District",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+	{
+    "id": "4b535a44-d7cf-4624-8a21-d4b7a0f4b38e",
+    "title": "Ranger Compound",
+    "subCategory": "Washington, D.C",
+    "subCategoryType": "Seward Square District",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "b875c74e-71fd-4ae6-835d-20a2d6e7a5b5",
+    "title": "The Capitol Building",
+    "subCategory": "Washington, D.C",
+    "subCategoryType": "Seward Square District",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+	{
+    "id": "n875c74e-71fd-4ae6-835d-20a2d6e7a5b5",
+    "title": "Takoma Park district",
+    "subCategory": "Washington, D.C",
+    "subCategoryType": "Takoma Park district",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "n875c74e-71fd-4ae6-835d-20a2d6e7a5b5",
+    "title": "Takoma Industrial",
+    "subCategory": "Washington, D.C",
+    "subCategoryType": "Takoma Park district",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+	{
+    "id": "edf2cb07-400e-4a97-9a2f-8e977125a380",
+    "title": "The Mall District",
+    "subCategory": "Washington, D.C",
+    "subCategoryType": "The Mall District",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "edf2db07-400e-4a97-9a2f-8e977125a380",
+    "title": "Museum of History",
+    "subCategory": "Washington, D.C",
+    "subCategoryType": "The Mall District",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "7b4c775b-6b3a-4f17-a27e-30e37e1f1d5f",
+    "title": "Museum of Technology",
+    "subCategory": "Washington, D.C",
+    "subCategoryType": "The Mall District",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "e5d0a1cc-24e8-47a7-b123-40a6b66086ee",
+    "title": "Lincoln Memorial",
+    "subCategory": "Washington, D.C",
+    "subCategoryType": "The Mall District",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "94e5a375-9b72-4f54-bdcb-fab401d3bc47",
+    "title": "Washington Monument",
+    "subCategory": "Washington, D.C",
+    "subCategoryType": "The Mall District",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "c6a0e19e-6dd9-45d0-8a4b-18d3d497e374",
+    "title": "National Archives",
+    "subCategory": "Washington, D.C",
+    "subCategoryType": "The Mall District",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "7d3c41d1-59ac-4d16-a6c0-30df3350da67",
+    "title": "The Capitol Building",
+    "subCategory": "Washington, D.C",
+    "subCategoryType": "The Mall District",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+	{
+    "id": "bdd1c53b-2e7f-4e8e-bd2d-cc31c4e00d23",
+    "title": "Vernon Square district",
+    "subCategory": "Washington, D.C",
+    "subCategoryType": "Vernon Square district",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "bdd1653b-2e7f-4e8e-bd2d-cc31c4e00d23",
+    "title": "Our Lady of Hope Hospital",
+    "subCategory": "Washington, D.C",
+    "subCategoryType": "Vernon Square district",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "7c25bf4c-ef0c-402a-b53f-83f62b0bea13",
+    "title": "Statesman Hotel",
+    "subCategory": "Washington, D.C",
+    "subCategoryType": "Vernon Square district",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "e7e0f5f0-07c5-4c29-8c6e-032d31d40d46",
+    "title": "Vault-Tec headquarters",
+    "subCategory": "Washington, D.C",
+    "subCategoryType": "Vernon Square district",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+	{
+    "id": "e7e0f5f0-c7c5-4c29-8c6e-032d31d40d46",
+    "title": "Riverboat Landing",
+    "subCategory": "Washington, D.C",
+    "subCategoryType": "Potomac River",
+    "dlc": "Point Lookout",
+    "mainCategory": "Point Lookout"
+  },
+	{
+    "id": "e7e0f5f0-c7h5-4c29-8c6e-032d31d40d46",
+    "title": "Museum Authority Building",
+    "subCategory": "Washington, D.C",
+    "subCategoryType": "The Mall District",
+    "dlc": "Broken Steel",
+    "mainCategory": "Broken Steel"
+  },
+
+  {
+    "id": "fc37e4d5-4601-47fd-913e-5bba3fcbe04b",
+    "title": "Anacostia Crossing Station",
+    "subCategory": "Metro",
+    "subCategoryType": "",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "19eb869e-0d3d-418e-b5eb-afebfb4347c1",
+    "title": "Arlington utility",
+    "subCategory": "Metro",
+    "subCategoryType": "",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "c83f4d10-8f2d-4a01-ae6f-1cb285a9e258",
+    "title": "Arlington/Falls Church Metro",
+    "subCategory": "Metro",
+    "subCategoryType": "",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "5ff92645-e9a5-40df-bd6a-5dd0069f09a5",
+    "title": "Arlington Wasteland Metro",
+    "subCategory": "Metro",
+    "subCategoryType": "",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "b60c8d4b-9f36-4b78-a17f-37cf4289c56b",
+    "title": "Bethesda underworks",
+    "subCategory": "Metro",
+    "subCategoryType": "",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "63fe9f90-99d8-4b95-8145-19fc892d7ec8",
+    "title": "Collapsed car tunnel",
+    "subCategory": "Metro",
+    "subCategoryType": "",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "b6e9ef2c-1c23-4a64-a4d2-fc5369d4336a",
+    "title": "DCTA tunnel 014-B Potomac",
+    "subCategory": "Metro",
+    "subCategoryType": "",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "cad5f862-802e-4e3e-88de-3a4d2f2cbe32",
+    "title": "Dry sewer",
+    "subCategory": "Metro",
+    "subCategoryType": "",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "5f8c7d02-e057-4f0e-82a2-d1d259949b78",
+    "title": "Dupont Circle station",
+    "subCategory": "Metro",
+    "subCategoryType": "",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "98b1464f-27fc-459e-a9bc-6b275f0b50b3",
+    "title": "Fairfax Metro station",
+    "subCategory": "Metro",
+    "subCategoryType": "",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "db92bb8e-54cd-47e3-9240-cb72f43f45cf",
+    "title": "Falls Church/Mason Dst Metro",
+    "subCategory": "Metro",
+    "subCategoryType": "",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "2d6c3b5a-cfb4-4e2e-8d89-5f307e6f87d3",
+    "title": "Farragut West station",
+    "subCategory": "Metro",
+    "subCategoryType": "",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "a60b025b-74d8-4b4b-8200-8ee24a77b0e1",
+    "title": "Flooded metro",
+    "subCategory": "Metro",
+    "subCategoryType": "",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "d70027c4-0d4c-4b17-90fb-8609c47b88c3",
+    "title": "Foggy Bottom station",
+    "subCategory": "Metro",
+    "subCategoryType": "",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "73dd0e7d-57ac-47c7-b41b-85c5fd71bdc5",
+    "title": "Franklin Metro utility",
+    "subCategory": "Metro",
+    "subCategoryType": "",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "b857d2aa-cb2a-486b-8c8d-92bfdd540498",
+    "title": "Freedom Street station",
+    "subCategory": "Metro",
+    "subCategoryType": "",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "f259a8cb-bcb2-4be0-9ad4-cf69a4a4569e",
+    "title": "Friendship Heights",
+    "subCategory": "Metro",
+    "subCategoryType": "",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "19e1f468-b6cb-409b-86b2-026b137af325",
+    "title": "Georgetown Mall Metro",
+    "subCategory": "Metro",
+    "subCategoryType": "",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "c2d29247-803d-4a88-a63e-84a5e8e16695",
+    "title": "Hazmat disposal site L5",
+    "subCategory": "Metro",
+    "subCategoryType": "",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "5de502b3-622a-40a0-a258-09da56f4562f",
+    "title": "Irradiated metro",
+    "subCategory": "Metro",
+    "subCategoryType": "",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "8ef7d8b0-4b3a-46c7-8f8e-2e2f11c3d72d",
+    "title": "Jury St. station",
+    "subCategory": "Metro",
+    "subCategoryType": "",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "35c57d8d-f327-4bb5-b299-5c9785a72c67",
+    "title": "Jury St. tunnels",
+    "subCategory": "Metro",
+    "subCategoryType": "",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "d41386e8-14fb-4c9e-a606-ebcf129f5d63",
+    "title": "Marigold station",
+    "subCategory": "Metro",
+    "subCategoryType": "",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "9be8c0f0-9d4e-4df1-a485-52fc2ed167b3",
+    "title": "Meresti Metro station",
+    "subCategory": "Metro",
+    "subCategoryType": "",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "3dd1ac05-cc5c-4f90-8e34-1adbd0364503",
+    "title": "Meresti service tunnel",
+    "subCategory": "Metro",
+    "subCategoryType": "",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "5ef9f7bc-72e4-48f3-94d8-8b86f39cf7cf",
+    "title": "Metro access & generator",
+    "subCategory": "Metro",
+    "subCategoryType": "",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "f9269a65-51e8-48ae-9487-74fe68e74b8c",
+    "title": "Metro Central",
+    "subCategory": "Metro",
+    "subCategoryType": "",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "8b29f2ab-3ef4-4c91-b5c7-e443a6c4b33e",
+    "title": "Metro Junction",
+    "subCategory": "Metro",
+    "subCategoryType": "",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "1c3c5c9d-97b2-4b63-b4d7-bb1cf8d58f4f",
+    "title": "Museum station",
+    "subCategory": "Metro",
+    "subCategoryType": "",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "f735787e-e44c-4726-9439-fda4e140612b",
+    "title": "Northwest Seneca Station",
+    "subCategory": "Metro",
+    "subCategoryType": "",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "4a6dc86e-c307-43e2-81a3-43aa35a70c85",
+    "title": "Penn Ave Georgetown Metro",
+    "subCategory": "Metro",
+    "subCategoryType": "",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+
+  {
+    "id": "1c31b7b9-96f2-4fa2-910b-f0a28996ae3f",
+    "title": "Penn Ave Seward Square Metro",
+    "subCategory": "Metro",
+    "subCategoryType": "",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "b7fc0a08-d5ad-4ad2-b83e-f54d46ab5c5d",
+    "title": "Penn Ave Mall Metro",
+    "subCategory": "Metro",
+    "subCategoryType": "",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "1b44c4b3-2cd3-49f0-9e07-40d64ebc15e7",
+    "title": "Sewer (metro)",
+    "subCategory": "Metro",
+    "subCategoryType": "",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "b20ad6f1-65f4-4e69-9a3b-3a85c32021f8",
+    "title": "Sunken sewer",
+    "subCategory": "Metro",
+    "subCategoryType": "",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "cdb48e3a-8a24-4727-8e9e-fb19c19157fb",
+    "title": "Tenleytown/Friendship station",
+    "subCategory": "Metro",
+    "subCategoryType": "",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "048b8c02-ff41-4977-8c69-1f2315d40ff1",
+    "title": "Tepid Sewers",
+    "subCategory": "Metro",
+    "subCategoryType": "",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "5e12e9b4-7ae8-4b0b-b8da-8376798d270f",
+    "title": "Vernon East/Takoma Park",
+    "subCategory": "Metro",
+    "subCategoryType": "",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "b0480c32-775d-44d4-af78-12378fb0513b",
+    "title": "Warrington station",
+    "subCategory": "Metro",
+    "subCategoryType": "",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "7c0f0c69-1e08-4e42-833e-b7d1083b7e12",
+    "title": "Warrington tunnels",
+    "subCategory": "Metro",
+    "subCategoryType": "",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+	{
+    "id": "7c020c69-1e08-4e42-833e-b7d1083b7e12",
+    "title": "Bailey's Crossroads Metro",
+    "subCategory": "Metro",
+    "subCategoryType": "",
+    "dlc": "Operation: Anchorage",
+    "mainCategory": "Operation: Anchorage"
+  },
+	{
+    "id": "dc020c69-1e08-4e42-833e-b7d1083b7e12",
+    "title": "Presidential Metro ",
+    "subCategory": "Metro",
+    "subCategoryType": "",
+    "dlc": "Broken Steel",
+    "mainCategory": "Broken Steel"
+  },
+  {
+    "id": "e0322a1e-6c9a-4f8d-9171-9c1cfdaea29d",
+    "title": "Vault 87",
+    "subCategory": "Vaults",
+    "subCategoryType": "",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "465f9244-cd3c-4ee7-b6b2-8f07315633b4",
+    "title": "Vault 92",
+    "subCategory": "Vaults",
+    "subCategoryType": "",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "8f1aa078-9d9d-4313-9fc0-2c1c14b662c7",
+    "title": "Vault 101",
+    "subCategory": "Vaults",
+    "subCategoryType": "",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "e7c39496-fbf3-4bc7-bbe8-526b8f11cfc0",
+    "title": "Vault 106",
+    "subCategory": "Vaults",
+    "subCategoryType": "",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "63b8df5f-5aa4-42f3-8369-52a3dc2c85b0",
+    "title": "Vault 108",
+    "subCategory": "Vaults",
+    "subCategoryType": "",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+  {
+    "id": "a5dd49d8-6c8a-48a9-bfe7-b295e64c2c3d",
+    "title": "Vault 112",
+    "subCategory": "Vaults",
+    "subCategoryType": "",
+    "dlc": "None",
+    "mainCategory": "Main"
+  },
+	{
+    "id": "fc2d3cfb-0df8-4ac6-a389-4c340486b907",
+    "title": "Adams Air Force Base",
+    "subCategory": "Adams Air Force Base",
+    "subCategoryType": "",
+    "dlc": "Broken Steel",
+    "mainCategory": "Broken Steel"
+  },
+	{
+    "id": "f22d3cfb-0df8-4ac6-a389-4c340486b907",
+    "title": "Adams storage facility",
+    "subCategory": "Adams Air Force Base",
+    "subCategoryType": "",
+    "dlc": "Broken Steel",
+    "mainCategory": "Broken Steel"
+  },
+  {
+    "id": "b8a0341f-48e3-4e6a-9f3b-7e2013c3ff51",
+    "title": "Air control tower",
+    "subCategory": "Adams Air Force Base",
+    "subCategoryType": "",
+    "dlc": "Broken Steel",
+    "mainCategory": "Broken Steel"
+  },
+  {
+    "id": "11820268-f46a-4b36-932b-97df7e5296c5",
+    "title": "Mobile base crawler",
+    "subCategory": "Adams Air Force Base",
+    "subCategoryType": "",
+    "dlc": "Broken Steel",
+    "mainCategory": "Broken Steel"
+  },
+  {
+    "id": "c499e1c1-1f3a-47f3-b75b-3b7a8d787e2c",
+    "title": "Hank's Electrical Supply",
+    "subCategory": "Capital Wasteland",
+    "subCategoryType": "",
+    "dlc": "Broken Steel",
+    "mainCategory": "Broken Steel"
+  },
+  {
+    "id": "9651fcb8-53ec-465f-8140-1b9f1849bce7",
+    "title": "Holy Light Monastery",
+    "subCategory": "Capital Wasteland",
+    "subCategoryType": "",
+    "dlc": "Broken Steel",
+    "mainCategory": "Broken Steel"
+  },
+  {
+    "id": "f028a10e-176b-4b60-93b6-5c16db5d93d7",
+    "title": "Old Olney S. Wilson Building",
+    "subCategory": "Capital Wasteland",
+    "subCategoryType": "",
+    "dlc": "Broken Steel",
+    "mainCategory": "Broken Steel"
+  },
+  {
+    "id": "7c2e24cf-084f-426e-9fa7-0972c25c81eb",
+    "title": "Old Olney underground",
+    "subCategory": "Capital Wasteland",
+    "subCategoryType": "",
+    "dlc": "Broken Steel",
+    "mainCategory": "Broken Steel"
+  },
+  {
+    "id": "b32cc647-8d8c-4c3c-bdb2-5276e00edf58",
+    "title": "Olney Powerworks",
+    "subCategory": "Capital Wasteland",
+    "subCategoryType": "",
+    "dlc": "Broken Steel",
+    "mainCategory": "Broken Steel"
+  },
+  {
+    "id": "fbb1e03d-4bf3-4a07-a9c7-11a45c88b3e1",
+    "title": "Rockland car tunnel",
+    "subCategory": "Capital Wasteland",
+    "subCategoryType": "",
+    "dlc": "Broken Steel",
+    "mainCategory": "Broken Steel"
+  },
+  {
+    "id": "ad2ad541-d62d-4be6-8601-4b143352454f",
+    "title": "Satellite relay station",
+    "subCategory": "Capital Wasteland",
+    "subCategoryType": "",
+    "dlc": "Broken Steel",
+    "mainCategory": "Broken Steel"
+  },
+  {
+    "id": "ad7fcb52-49f4-4b85-b0f2-ff1f407f44c6",
+    "title": "Museum Authority Building",
+    "subCategory": "Washington, D.C.",
+    "subCategoryType": "",
+    "dlc": "Broken Steel",
+    "mainCategory": "Broken Steel"
+  },
+  {
+    "id": "7a0d60d1-4857-4f60-8b69-0f61a26d0e79",
+    "title": "Presidential metro",
+    "subCategory": "Washington, D.C.",
+    "subCategoryType": "",
+    "dlc": "Broken Steel",
+    "mainCategory": "Broken Steel"
+  },
+  {
+    "id": "15c12176-6ba3-4707-84b1-c5df8ae5aa6f",
+    "title": "Presidential sub level",
+    "subCategory": "Washington, D.C.",
+    "subCategoryType": "",
+    "dlc": "Broken Steel",
+    "mainCategory": "Broken Steel"
+  },
+  {
+    "id": "f92e8c0e-99f8-41d1-b0a6-61a3d6488cbf",
+    "title": "White House plaza",
+    "subCategory": "Washington, D.C.",
+    "subCategoryType": "",
+    "dlc": "Broken Steel",
+    "mainCategory": "Broken Steel"
+  },
+
+  {
+    "id": "8e9b91de-4e37-4a62-a220-6a3be1b1ff44",
+    "title": "Train tunnel",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "The Pitt",
+    "mainCategory": "The Pitt"
+  },
+  {
+    "id": "2f4ddc05-2c85-4134-8820-3d05f4e93a3a",
+    "title": "Bridge",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "The Pitt",
+    "mainCategory": "The Pitt"
+  },
+  {
+    "id": "a0582f7a-77e5-44d5-bc54-4dc3f3795d5d",
+    "title": "Downtown",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "The Pitt",
+    "mainCategory": "The Pitt"
+  },
+  {
+    "id": "a04fc65a-4d79-4b48-9382-62e08ecdd257",
+    "title": "The Mill",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "The Pitt",
+    "mainCategory": "The Pitt"
+  },
+  {
+    "id": "f6f5f108-37b7-4a22-8907-6f71d4b3a77c",
+    "title": "Pitt steelyard",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "The Pitt",
+    "mainCategory": "The Pitt"
+  },
+  {
+    "id": "2fa66d7e-c6d5-43e2-8c20-6e624f3f5cc7",
+    "title": "Train Yard",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "The Pitt",
+    "mainCategory": "The Pitt"
+  },
+	{
+    "id": "b69a1a38-6e8d-4397-9f99-86087e2588f0",
+    "title": "Uptown",
+    "subCategory": "Uptown",
+    "subCategoryType": "",
+    "dlc": "The Pitt",
+    "mainCategory": "The Pitt"
+  },
+  {
+    "id": "b69a1a38-6e8d-4397-9f99-86087e2588f0",
+    "title": "Abandoned apartments",
+    "subCategory": "Uptown",
+    "subCategoryType": "",
+    "dlc": "The Pitt",
+    "mainCategory": "The Pitt"
+  },
+  {
+    "id": "08adcf80-5b44-4c36-a6ef-f74e98cbb4ad",
+    "title": "Haven",
+    "subCategory": "Uptown",
+    "subCategoryType": "",
+    "dlc": "The Pitt",
+    "mainCategory": "The Pitt"
+  },
+
+  {
+    "id": "d745bf71-7b4f-46e1-b91e-056e3a1b7202",
+    "title": "Ark & Dove Cathedral",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "Point Lookout",
+    "mainCategory": "Point Lookout"
+  },
+  {
+    "id": "4a9b2b18-b634-45d0-a832-1802d7edc6cb",
+    "title": "Ark & Dove resting grounds",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "Point Lookout",
+    "mainCategory": "Point Lookout"
+  },
+  {
+    "id": "14552b35-03e3-4e8b-b618-2db4980d99af",
+    "title": "Beachview campsite",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "Point Lookout",
+    "mainCategory": "Point Lookout"
+  },
+  {
+    "id": "a27eb68d-801e-44ee-b167-2c3f8de174bc",
+    "title": "Blackhall Manor",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "Point Lookout",
+    "mainCategory": "Point Lookout"
+  },
+  {
+    "id": "b349a7da-0c1c-4fa8-bfe7-d78e501d2a44",
+    "title": "Calvert Mansion",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "Point Lookout",
+    "mainCategory": "Point Lookout"
+  },
+  {
+    "id": "c56e0772-5744-4f28-b5ae-73fe3f66a7c7",
+    "title": "Coastal grotto",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "Point Lookout",
+    "mainCategory": "Point Lookout"
+  },
+  {
+    "id": "245077df-4702-4680-bc19-208ac4c9fb64",
+    "title": "Disaster relief outpost",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "Point Lookout",
+    "mainCategory": "Point Lookout"
+  },
+  {
+    "id": "dc6b42ac-ef4f-424f-92b4-2e02fe5e4e19",
+    "title": "Dove Delta",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "Point Lookout",
+    "mainCategory": "Point Lookout"
+  },
+  {
+    "id": "44252fd8-4c64-4c76-8f6b-8149e69a90d2",
+    "title": "Flooded sinkhole",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "Point Lookout",
+    "mainCategory": "Point Lookout"
+  },
+  {
+    "id": "f2dcd3ef-ee92-4c32-a774-4a8c75599d76",
+    "title": "Grower's shack",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "Point Lookout",
+    "mainCategory": "Point Lookout"
+  },
+  {
+    "id": "69c99e9d-86b5-4370-9d5e-56bc165d6678",
+    "title": "Haley's Hardware",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "Point Lookout",
+    "mainCategory": "Point Lookout"
+  },
+
+  {
+    "id": "ffd07a67-41ff-4d9b-b2c2-5901f4f7de4e",
+    "title": "Herzog Mine",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "Point Lookout",
+    "mainCategory": "Point Lookout"
+  },
+  {
+    "id": "a2cb6a8d-fd8d-4b94-a28d-08454d1a7df8",
+    "title": "Jet crash site",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "Point Lookout",
+    "mainCategory": "Point Lookout"
+  },
+  {
+    "id": "88894792-2be7-48d7-9e50-d08749c31ff1",
+    "title": "Kenny's cave",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "Point Lookout",
+    "mainCategory": "Point Lookout"
+  },
+  {
+    "id": "22d8a1aa-4054-4ebd-a91a-748db545bcf4",
+    "title": "Lil' Tyke Playhouse",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "Point Lookout",
+    "mainCategory": "Point Lookout"
+  },
+  {
+    "id": "56b7127b-9a49-44c8-89b1-1a6d62b95e4d",
+    "title": "Marguerite's shack",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "Point Lookout",
+    "mainCategory": "Point Lookout"
+  },
+  {
+    "id": "40c376f8-9fd2-4376-973b-7a97107591f4",
+    "title": "Ofie Clan Plot",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "Point Lookout",
+    "mainCategory": "Point Lookout"
+  },
+	{
+    "id": "40c376f8-9fd2-4376-973b-7a97107591f4",
+    "title": "Pilgrim's Landing",
+    "subCategory": "Pilgrim's Landing",
+    "subCategoryType": "",
+    "dlc": "Point Lookout",
+    "mainCategory": "Point Lookout"
+  },
+  {
+    "id": "f8044f94-1552-4b90-8b7d-2267c36c3cc9",
+    "title": "Homestead Motel",
+    "subCategory": "Pilgrim's Landing",
+    "subCategoryType": "",
+    "dlc": "Point Lookout",
+    "mainCategory": "Point Lookout"
+  },
+  {
+    "id": "a5a2de96-bdc3-4b4e-a8d1-79199bf504a5",
+    "title": "House of Wares",
+    "subCategory": "Pilgrim's Landing",
+    "subCategoryType": "",
+    "dlc": "Point Lookout",
+    "mainCategory": "Point Lookout"
+  },
+  {
+    "id": "e7ab363b-3743-46de-9221-c98d2c51d190",
+    "title": "Point Lookout Pier",
+    "subCategory": "Pilgrim's Landing",
+    "subCategoryType": "",
+    "dlc": "Point Lookout",
+    "mainCategory": "Point Lookout"
+  },
+
+  {
+    "id": "8d5c8721-6d8a-452e-8a7b-3b8a79524ec2",
+    "title": "Point Lookout Lighthouse",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "Point Lookout",
+    "mainCategory": "Point Lookout"
+  },
+  {
+    "id": "8fba8e4d-0d7a-4fc4-87de-f8b0a3bb2087",
+    "title": "Ritual site",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "Point Lookout",
+    "mainCategory": "Point Lookout"
+  },
+  {
+    "id": "9a09f63f-71b8-4b92-b169-c2d8c9b8b8c8",
+    "title": "Sacred bog",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "Point Lookout",
+    "mainCategory": "Point Lookout"
+  },
+  {
+    "id": "5b8dc915-b40f-4754-97a7-9c72ad6d40c5",
+    "title": "Wrecked Seatub",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "Point Lookout",
+    "mainCategory": "Point Lookout"
+  },
+  {
+    "id": "c9d785b3-b6d2-46cf-8082-2af146dcd2ac",
+    "title": "Sub recovery site",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "Point Lookout",
+    "mainCategory": "Point Lookout"
+  },
+  {
+    "id": "5426dd29-50c1-4a6b-98ed-c533a3e0bb7b",
+    "title": "Trash heap",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "Point Lookout",
+    "mainCategory": "Point Lookout"
+  },
+  {
+    "id": "d9b40a3d-349e-46f7-8f7d-792e8c4a2d84",
+    "title": "Trapper's shack",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "Point Lookout",
+    "mainCategory": "Point Lookout"
+  },
+  {
+    "id": "0f9a9e91-7411-4b9c-aac3-0535dfc4e74a",
+    "title": "Truck wreckage",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "Point Lookout",
+    "mainCategory": "Point Lookout"
+  },
+  {
+    "id": "a16202aa-b1a1-4f39-a5b4-1e29ac6bf89a",
+    "title": "Turtledove Detention Camp",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "Point Lookout",
+    "mainCategory": "Point Lookout"
+  },
+
+  {
+    "id": "a8f7b3b4-02c3-4e28-b576-2b2a8d9dcdb8",
+    "title": "Biological research",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "Mothership Zeta",
+    "mainCategory": "Mothership Zeta"
+  },
+  {
+    "id": "4f97c9e4-2f6d-43e5-b4e6-f59f8c29e332",
+    "title": "Bridge",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "Mothership Zeta",
+    "mainCategory": "Mothership Zeta"
+  },
+  {
+    "id": "5a1a3fb3-1f4b-4b08-9de2-5e6f7d01398d",
+    "title": "Cargo hold",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "Mothership Zeta",
+    "mainCategory": "Mothership Zeta"
+  },
+  {
+    "id": "4c5d1cf3-b317-4147-b400-2a5adfbdc94b",
+    "title": "Cryo lab",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "Mothership Zeta",
+    "mainCategory": "Mothership Zeta"
+  },
+  {
+    "id": "a7247f20-6a22-4edf-b89e-45b6c6f07e18",
+    "title": "Cryo storage",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "Mothership Zeta",
+    "mainCategory": "Mothership Zeta"
+  },
+  {
+    "id": "1d218df2-5509-4cb2-9ac7-c9a3a8bfe675",
+    "title": "Death ray control",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "Mothership Zeta",
+    "mainCategory": "Mothership Zeta"
+  },
+  {
+    "id": "b2ed9269-fd4f-41b0-8051-c06a23620c6d",
+    "title": "Death ray hub",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "Mothership Zeta",
+    "mainCategory": "Mothership Zeta"
+  },
+  {
+    "id": "c2141018-cc1b-4c34-81b0-d4cb69279e6a",
+    "title": "Decompression chamber",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "Mothership Zeta",
+    "mainCategory": "Mothership Zeta"
+  },
+  {
+    "id": "f96e72db-58b4-4f4a-97d3-6891602778a8",
+    "title": "Engine room",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "Mothership Zeta",
+    "mainCategory": "Mothership Zeta"
+  },
+  {
+    "id": "7e23a4bc-9e56-4ac1-b447-369c12f6c6b5",
+    "title": "Engineering core",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "Mothership Zeta",
+    "mainCategory": "Mothership Zeta"
+  },
+  {
+    "id": "f94b1b43-1ff9-4b7d-98fb-882aef346f90",
+    "title": "Experimentation lab",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "Mothership Zeta",
+    "mainCategory": "Mothership Zeta"
+  },
+
+  {
+    "id": "f74e57bf-0b0f-472e-86cf-87e1de1e8761",
+    "title": "Hangar",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "Mothership Zeta",
+    "mainCategory": "Mothership Zeta"
+  },
+  {
+    "id": "f5936ff4-c537-4a64-bdff-fb2731e073c5",
+    "title": "Holding cells",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "Mothership Zeta",
+    "mainCategory": "Mothership Zeta"
+  },
+  {
+    "id": "5c1d96fc-1191-4ee4-93b7-22d52410f5fc",
+    "title": "Living quarters",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "Mothership Zeta",
+    "mainCategory": "Mothership Zeta"
+  },
+  {
+    "id": "04e5860b-9c39-4627-9d96-c47fc2f0fca7",
+    "title": "Maintenance level",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "Mothership Zeta",
+    "mainCategory": "Mothership Zeta"
+  },
+  {
+    "id": "417f740b-b46a-4896-a055-b4d43af2ff20",
+    "title": "Observation deck",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "Mothership Zeta",
+    "mainCategory": "Mothership Zeta"
+  },
+  {
+    "id": "b05d89e8-bb36-43c1-9861-05d47d74256a",
+    "title": "Research lab",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "Mothership Zeta",
+    "mainCategory": "Mothership Zeta"
+  },
+  {
+    "id": "a6e4cfeb-f4f2-462e-af8d-6c8a231526bc",
+    "title": "Robot assembly",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "Mothership Zeta",
+    "mainCategory": "Mothership Zeta"
+  },
+  {
+    "id": "1ac63736-ff9e-40c8-a5ae-d50a4f95de1f",
+    "title": "Space walk",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "Mothership Zeta",
+    "mainCategory": "Mothership Zeta"
+  },
+  {
+    "id": "99c8ed61-1d82-4e2d-90fb-1b71b0942611",
+    "title": "Steamworks",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "Mothership Zeta",
+    "mainCategory": "Mothership Zeta"
+  },
+  {
+    "id": "34c4b7d4-47cd-4bb2-bc98-3e79a309bdec",
+    "title": "Waste disposal",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "Mothership Zeta",
+    "mainCategory": "Mothership Zeta"
+  },
+  {
+    "id": "0d8a08e6-9198-40a2-9f64-f9c0bfa486f9",
+    "title": "Weapons lab",
+    "subCategory": "",
+    "subCategoryType": "",
+    "dlc": "Mothership Zeta",
+    "mainCategory": "Mothership Zeta"
+  }
+]
