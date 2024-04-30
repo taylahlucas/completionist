@@ -1,6 +1,7 @@
 import React from 'react';
 import useGetTheme from '@styles/hooks/useGetTheme';
-import { DropdownSelectionContainer, DropdownSelectionInnerContainer, DropdownSelectionIconButton, DropdownSelectionTitle } from './DropdownStyledComponents.native';
+import { DropdownSelectionContainer, DropdownSelectionInnerContainer, DropdownSelectionTitle } from './DropdownStyledComponents.native';
+import IconButton from '../Icon/IconButton.native';
 
 interface DropdownSelectionProps {
 	title: string;
@@ -23,7 +24,7 @@ const DropdownSelection = ({ title, isSelected = false, onPress }: DropdownSelec
 				>
 					{title}
 				</DropdownSelectionTitle>
-				<DropdownSelectionIconButton
+				<IconButton
 					name={isSelected ? 'arrow-drop-down' : 'arrow-right'}
 					onPress={onPress}
 					size={30}

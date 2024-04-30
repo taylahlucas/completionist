@@ -12,10 +12,7 @@ export const styles = StyleSheet.create({
   scrollContent: {
     width: STANDARD_WIDTH,
     paddingBottom: 16
-  },
-	contentContainer: {
-		paddingBottom: 184
-	}
+  }
 });
 
 export const SettingsContentAvatarContainer = styled.Image`

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { Ref, useState } from 'react';
 import { ScrollView, ScrollViewProps } from 'react-native';
 import { listStyles, ListShowMoreButton } from './ListStyledComponents.native';
 import { renderAmountConst } from '@utils/constants'
@@ -13,7 +13,7 @@ interface CustomListProps extends ScrollViewProps {
   renderAmount?: number;
 };
 
-const ScrollableList = ({ 
+const ScrollableList = React.forwardRef<ScrollView, CustomListProps>(({ 
 	testID,
 	children, 
 	style, 
@@ -21,13 +21,14 @@ const ScrollableList = ({
 	isHorizontal = false, 
 	renderAmount = renderAmountConst,
 	...props
-}: CustomListProps) => {
+}: CustomListProps, ref) => {
   const { t } = useTranslation();
   const { bounces } = props;
   const [updatedRenderAmount, setUpdatedRenderAmount] = useState(renderAmount);
   
   return (
-    <ScrollView 
+    <ScrollView
+			ref={ref}
 			testID={'scrollable-list'}
       contentContainerStyle={{...listStyles.scrollableContent, ...contentContainerStyle}}
       style={{...listStyles.scrollableList, ...style }}
@@ -47,6 +48,6 @@ const ScrollableList = ({
       </Condition>
     </ScrollView>
   );
-};
+});
 
 export default ScrollableList;

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useTranslation } from 'react-i18next';
 import Dropdown from '@components/general/Dropdown/Dropdown.native';
 import DropdownSelection from '@components/general/Dropdown/DropdownSelection.native';
@@ -9,22 +9,26 @@ import useMainDispatch from '@redux/hooks/useMainDispatch';
 import { LanguageType } from '@utils/CustomTypes';
 import useGetLanguageInEn from './hooks/useGetLanguageInEn.native';
 
-const SettingsContentSelectLanguage = () => {
+interface SettingsContentSelectLanguageProps {
+	isOpen: boolean;
+	setOpen: (value: boolean) => void;
+}
+
+const SettingsContentSelectLanguage = ({ isOpen, setOpen }: SettingsContentSelectLanguageProps) => {
 	const { t, i18n } = useTranslation();
 	const { setUser } = useMainDispatch();
 	const { user } = useMainState();
-	const [isSelectionOpen, triggerSelectionOpen] = useState(false);
 	const { getLanguageInEn } = useGetLanguageInEn();
 
 	return (
 		<Dropdown
-			isOpen={isSelectionOpen}
+			isOpen={isOpen}
 			setOpen={() => null}
 			header={
 				<DropdownSelection
 					title={`${t(`common:languages.${user.settings.lang}`)} (${getLanguageInEn(user.settings.lang)})`}
-					isSelected={isSelectionOpen}
-					onPress={(): void => triggerSelectionOpen(!isSelectionOpen)}
+					isSelected={isOpen}
+					onPress={(): void => setOpen(!isOpen)}
 				/>
 			}
 		>
@@ -34,7 +38,7 @@ const SettingsContentSelectLanguage = () => {
 					title: `${t(`common:languages.${lang}`)} (${getLanguageInEn(lang as LanguageType)})`
 				}))}
 				onPress={(value): void => {
-					triggerSelectionOpen(false);
+					setOpen(false);
 					i18n.changeLanguage(value);
 					setUser({
 						...user,
