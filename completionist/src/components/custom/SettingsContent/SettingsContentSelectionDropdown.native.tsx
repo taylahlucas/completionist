@@ -31,7 +31,7 @@ const SettingsContentSelectionDropdown = () => {
 			<DropdownSelectionContent
 				content={games.map(game => ({
 					id: game,
-					title: t(`categories:${game}.title`)
+					title: t(`common:categories.${game}.title`)
 				}))}
 				onPress={(value): void => {
 					triggerSelectionOpen(false);

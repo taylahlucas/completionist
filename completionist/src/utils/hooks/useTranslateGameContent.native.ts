@@ -5,15 +5,15 @@ const useTranslateGameContent = () => {
   const { t } = useTranslation();
 
   const translateGameName = (title: GameKeyEnum): string => {
-    return t(`categories:${title}.title`);
+    return t(`common:categories.${title}.title`);
   };
 
   const translateCategoryName = (selectedGame: GameKeyEnum, section: string, category: string): string => {
-    return t(`categories:${selectedGame}.categories.${section}.${category}`);
+    return t(`common:categories.${selectedGame}.categories.${section}.${category}`);
   };
 
   const translateDLCName = (selectedGame: GameKeyEnum, dlc: string): string => {
-    return t(`categories:${selectedGame}.dlc.${dlc}`);
+    return t(`common:categories.${selectedGame}.dlc.${dlc}`);
   };
 
   return { translateCategoryName, translateGameName, translateDLCName } ;

@@ -31,12 +31,12 @@ describe('useGetContentCategories', () => {
 		expect(data).toEqual([
 			{
 				id: "mainQuests",
-				title: "categories:skyrim.categories.quests.mainQuests",
+				title: "common:categories.skyrim.categories.quests.mainQuests",
 				isActive: true
 			},
 			{
 				id: "dawnguard",
-				title: "categories:skyrim.dlc.dawnguard",
+				title: "common:categories.skyrim.dlc.dawnguard",
 				isActive: true
 			}
 		]);
