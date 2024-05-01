@@ -8,7 +8,6 @@ import useEditUserData from '@data/hooks/useEditUserData.native';
 import useMainState from '@redux/hooks/useMainState';
 import { SignInProps } from '@data/api/EndpointInterfaces.native';
 import { LoginFormData } from '@utils/CustomInterfaces';
-import useLoginDispatch from './useLoginDispatch';
 import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
 import { ScreenEnum } from '@utils/CustomEnums';
 
@@ -18,62 +17,16 @@ interface GoogleSignInError {
 }
 
 interface GetLoginMethodsReturnType {
-	sendEmailVerification: (email: string) => Promise<void>;
 	checkUserAccount: ({ email, password }: SignInProps) => Promise<void>;
-	userSignIn: ({ email, password, googleId }: SignInProps) => Promise<void>;
-	createUser: (data: LoginFormData) => Promise<void>;
 	googleUserSignIn: () => Promise<void>;
 	signOut: () => Promise<void>;
 }
 
 const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 	const { t } = useTranslation();
-	const navigation = useReactNavigation();
-	const { user } = useMainState();
-	const { setVerificationToken } = useLoginDispatch();
+	const { user, shouldUpdateUser } = useMainState();
 	const { updateUserData, saveUserAndLogin, removeUserData } = useEditUserData();
-	const { sendEmail, checkUserExists, linkAndSignIn, signIn, signUp } = useEndpoints();
-
-	const sendEmailVerification = async (email: string) => {
-		try {
-			// TODO: Algorithm to generate unique code
-			const uniqueCode = 'ANC234';
-			setVerificationToken(uniqueCode);
-			sendEmail({
-				// TODO: Swap for completionist email
-				emailTo: email,
-				subject: t('common:screens.verifyAccount'),
-				text: t(
-					'common:sendRequest.verifyAccount',
-					{
-						code: uniqueCode
-					}
-				)
-			})
-		}
-		catch (error: AxiosErrorResponse) {
-			console.log("Error sending verification email ", error.message)
-		}
-		console.log("NAVIGATING")
-		navigation.navigate(ScreenEnum.AccountVerification);
-	};
-
-	const createUser = async (data: LoginFormData) => {
-		try {
-			const response = await signUp({ data: data });
-			if (!!response) {
-				saveUserAndLogin(response, false);
-				// TODO: Track which part of the signup flow the user is in?
-				// Should i cache the page? or create variable in database for login i.e.
-				// { verified: true, selectPlan: true, selectGame: true }
-				// This would be called when the user opens the app
-				navigation.navigate(ScreenEnum.SelectPlan);
-			}
-		}
-		catch (error: AxiosErrorResponse) {
-			console.log("Error creating user: ", error.message)
-		}
-	};
+	const { checkUserExists, linkAndSignIn, signIn, signUp } = useEndpoints();
 
 	const userSignIn = async ({ email, password, googleId }: SignInProps) => {
 		try {
@@ -102,7 +55,6 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 						password: password,
 						googleId: googleId
 					}).then((userResponse) => {
-						console.log("User response: ", userResponse)
 						if (!!userResponse) {
 							saveUserAndLogin(userResponse, true);
 						}
@@ -116,7 +68,7 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 	};
 
 	const checkUserAccount = async ({ email, password }: SignInProps) => {
-		checkUserExists(email)
+		await checkUserExists(email)
 			.then((accounts) => {
 				if (accounts.regular) {
 					userSignIn({
@@ -192,9 +144,10 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 	const signOut = async () => {
 		try {
 			// TODO: Causing error
-			// await GoogleSignin.revokeAccess();
-			updateUserData(user);
-			removeUserData();
+			if (shouldUpdateUser) {
+				updateUserData(user);
+			}
+			await GoogleSignin.revokeAccess();
 			await GoogleSignin.signOut();
 			removeUserData();
 		} catch (error) {
@@ -203,10 +156,7 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 	};
 
 	return { 
-		sendEmailVerification, 
-		checkUserAccount, 
-		userSignIn, 
-		createUser, 
+		checkUserAccount,
 		googleUserSignIn, 
 		signOut 
 	}

@@ -10,7 +10,8 @@ import { styles } from './SubscriptionContentStyledComponents.native';
 import useMainState from '@redux/hooks/useMainState';
 import useSubscriptionState from './hooks/useContentState';
 import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
-import { ScreenEnum } from '@utils/CustomEnums';
+import { ScreenEnum, SubscriptionTypeEnum } from '@utils/CustomEnums';
+import useEditUserData from '@data/hooks/useEditUserData.native';
 
 const SubscriptionContent = () => {
 	const { t } = useTranslation();
@@ -18,7 +19,13 @@ const SubscriptionContent = () => {
 	const navigation = useReactNavigation();
 	const { user } = useMainState();
 	const { selectedSubscription } = useSubscriptionState();
+	const { updateUserData } = useEditUserData();
+	// const isSigningUp = user && !user.signup.complete;
+	const isSigningUp = true
 	
+	// TODO: Change from purchase subscription to select subscription
+	// Handle case for free
+	// TODO: For signup, go to selectGame next, based on prev sub choice (free only)
 	return (
 		<ScrollableList contentContainerStyle={styles.scrollContent}>
 			<StyledText>
@@ -28,8 +35,28 @@ const SubscriptionContent = () => {
 			<SubscriptionPriceList />
 			<Button
 				title={t('common:subscriptions.purchaseSubscription')}
-				onPress={(): void => navigation.navigate(ScreenEnum.Payments)}
-				disabled={selectedSubscription.id === user.subscription.tier}
+				onPress={(): void => {
+					if (isSigningUp && selectedSubscription.id === SubscriptionTypeEnum.FREE) {
+						updateUserData({
+							...user,
+							signup: {
+								...user.signup,
+								steps: {
+									...user.signup.steps,
+									selectPlan: true
+								}
+							}
+						});
+						navigation.navigate(ScreenEnum.SelectFirstGame);
+					}
+					else if (selectedSubscription.id === SubscriptionTypeEnum.FREE) {
+						// TODO: Add change success page
+					}
+					else {
+						navigation.navigate(ScreenEnum.Payments);
+					}
+				}}
+				disabled={!isSigningUp && selectedSubscription.id === user.subscription.tier}
 				color={theme.primaryPurple}
 			/>
 		</ScrollableList>

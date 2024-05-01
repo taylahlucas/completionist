@@ -4,7 +4,10 @@ import {
   NavigationHeaderContainer,
   NavigationHeaderText
 } from './NavigationStyledComponents.native';
-import { NavigationHeaderLeftActionTypes, NavigationHeaderRightActionTypes } from '@utils/CustomTypes';
+import { 
+	NavigationHeaderLeftActionTypes, 
+	NavigationHeaderRightActionTypes 
+} from '@utils/CustomTypes';
 import useGetLeftNavigationItem from './hooks/useGetLeftNavigationItem.native';
 import useGetRightNavigationItem from './hooks/useGetRightNavigationItem.native';
 

@@ -8,8 +8,8 @@ import Locations from '@screens/Locations.native';
 import Login from '@screens/Login.native';
 import Quests from '@screens/Quests.native';
 import RootStackNavigator from '@screens/RootStackNavigator.native';
-import { ScreenEnum } from '@utils/CustomEnums';
 import { RootDrawerParamList } from '@utils/CustomInterfaces';
+import { ScreenEnum } from '@utils/CustomEnums';
 import NavigationDrawerBody from './NavigationDrawerBody.native';
 import { styles, NavigationDrawerContainer } from './NavigationStyledComponents.native';
 import useMainState from '@redux/hooks/useMainState';
@@ -25,7 +25,7 @@ import SteamAchievements from '@screens/SteamAchievements.native';
 import SelectFirstGame from '@screens/SelectFirstGame.native';
 import AccountDetails from '@screens/AccountDetails.native';
 import AccountVerification from '@screens/AccountVerification.native';
-import SelectPlan from '@screens/SelectPlan. native';
+import SelectPlan from '@screens/SelectPlan.native';
 
 const Drawer = createDrawerNavigator<RootDrawerParamList>();
 

@@ -12,7 +12,7 @@ import useMainState from '@redux/hooks/useMainState';
 import { initialUser } from '@redux/MainState';
 
 interface EditUserDataReturnType {
-	loadUserData: () => void;
+	loadUserFromCache: () => void;
 	saveUserAndLogin: (user: User, shouldLogin: boolean) => void;
 	updateUserData: (user: User) => void;
 	removeUserData: () => void;
@@ -20,7 +20,6 @@ interface EditUserDataReturnType {
 
 const useEditUserData = (): EditUserDataReturnType => {
 	const navigation = useReactNavigation();
-	const { shouldUpdateUser } = useMainState();
 	const { setUser, setShouldUpdateUser  } = useMainDispatch();
 	const { isLoggedIn } = useLoginState();
 	const { setLoginFormData, setLoggedIn } = useLoginDispatch();
@@ -28,7 +27,7 @@ const useEditUserData = (): EditUserDataReturnType => {
 	const { getCredentials, deleteCredentials } = useKeychain();
 	const { getUserByUserId, updateUser } = useEndpoints();
 
-	const loadUserData = async () => {
+	const loadUserFromCache = async () => {
 		const credentials = await getCredentials();
 
 		// Check if data is stored in cache, if not fetch from db and login
@@ -56,24 +55,24 @@ const useEditUserData = (): EditUserDataReturnType => {
 		setShouldUpdateUser(false);
 
 		if (shouldLogin) {
-			setLogin();
+			setLoggedIn(true);
 		}
 	};
-
-	const setLogin = () => {
-		setLoggedIn(true);
-		navigation.navigate(ScreenEnum.GameSelection);
-	}
-
+	
 	const updateUserData = async (user: User) => {
-		if (shouldUpdateUser && isLoggedIn) {
+		console.log("isLoggedIn: ", isLoggedIn)
+		if (isLoggedIn) {
 			await getCredentials()
 				.then((credentials) => {
+					// TODO: Problem with credentials
+					console.log("credentials: " , credentials)
 					if (!!credentials) {
+						console.log("UPDATING USER==1")
 						updateUser({
 							authToken: credentials.password,
 							userId: user.userId,
 							steamId: user.steamId,
+							signup: user.signup,
 							subscription: user.subscription,
 							settings: user.settings,
 							userAvatar: user.userAvatar,
@@ -85,7 +84,7 @@ const useEditUserData = (): EditUserDataReturnType => {
 						});
 						saveUserAndLogin(user, false);
 					}
-				});
+				})
 		}
 	}
 
@@ -103,7 +102,7 @@ const useEditUserData = (): EditUserDataReturnType => {
 		saveUserAndLogin,
 		updateUserData,
 		removeUserData, 
-		loadUserData 
+		loadUserFromCache 
 	};
 };
 

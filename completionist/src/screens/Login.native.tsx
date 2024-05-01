@@ -1,16 +1,36 @@
 import React from 'react';
+import { ScrollView } from 'react-native';
 import { useTranslation } from 'react-i18next';
 import StandardLayout from '../components/general/Layouts/StandardLayout.native';
-import LoginFormContent from '@components/custom/LoginForm/LoginFormContent.native';
 import NavigationHeader from '@navigation/NavigationHeader.native';
+import useLoginState from '@components/custom/LoginForm/hooks/useLoginState';
+import { LoginContentContainer } from '@components/custom/LoginForm/LoginFormStyledComponents.native';
+import Condition from '@components/general/Condition.native';
+import StyledText from '@components/general/Text/StyledText.native';
+import LoginForm from '@components/custom/LoginForm/LoginForm.native';
+import LoginFormSignInButtons from '@components/custom/LoginForm/LoginFormSignInButtons.native';
 
 const Login = () => {
   const { t } = useTranslation();
+	const { isSigningUp } = useLoginState();
   
   return (
     <StandardLayout>
       <NavigationHeader title={t('common:appTitle')} leftAction={'none'} />
-      <LoginFormContent />
+			<ScrollView contentInsetAdjustmentBehavior="automatic">
+			<LoginContentContainer>
+				<Condition condition={isSigningUp}>
+					<StyledText style={{ position: 'absolute' }}>
+						{t('common:login.instructions1')}
+					</StyledText>
+					<StyledText align='left' style={{ position: 'absolute' }}>
+						{t('common:login.instructions2')}
+					</StyledText>
+				</Condition>
+				<LoginForm />
+				<LoginFormSignInButtons />
+			</LoginContentContainer>
+		</ScrollView>
     </StandardLayout>
   );
 };

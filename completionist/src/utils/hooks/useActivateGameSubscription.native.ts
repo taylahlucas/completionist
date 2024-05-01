@@ -23,6 +23,7 @@ const useActivateGameSubscription = () => {
 				data: updatedGames
 			}
 		};
+		// TODO: Fix here, need to update user
 		saveUserAndLogin(updatedUser, false);
 	};
 	
@@ -42,7 +43,7 @@ const useActivateGameSubscription = () => {
 				data: updatedGames
 			}
 		};
-		saveUserAndLogin(updatedUser, false);
+		return updatedUser;
 	};
 
 	return { changeGameSubscription, activateGameSubscription };

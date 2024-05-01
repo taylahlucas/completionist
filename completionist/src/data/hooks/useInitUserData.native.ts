@@ -10,11 +10,11 @@ const useInitUserData = () => {
   const { setAppState } = useMainDispatch();
   const { user, appState } = useMainState();
   const { isLoggedIn } = useLoginState();
-  const { loadUserData, updateUserData, saveUserAndLogin } = useEditUserData();
+  const { loadUserFromCache, updateUserData, saveUserAndLogin } = useEditUserData();
 
   useEffect(() => {
     if (!isLoggedIn && !user.userId) {
-      loadUserData();
+      loadUserFromCache();
     }
 
     const subscription = AppState.addEventListener('change', nextAppState => {
@@ -30,8 +30,9 @@ const useInitUserData = () => {
   useEffect(() => {
     switch (appState) {
       case 'active':
+
         if (!isLoggedIn || !user.userId) {
-          loadUserData();
+          loadUserFromCache();
         }
         return;
       case 'inactive': 

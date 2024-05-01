@@ -1,4 +1,4 @@
-import { LoginFormData, Subscription, UserSettings, UserData } from '@utils/CustomInterfaces';
+import { LoginFormData, Subscription, UserSettings, UserData, SignupData } from '@utils/CustomInterfaces';
 import { StringResponse, UserResponse } from '@utils/CustomTypes';
 
 export interface CreateUserProps {
@@ -25,6 +25,7 @@ export interface UpdateUserProps {
 	authToken: string;
 	userId: string;
 	steamId?: string;
+	signup?: SignupData;
 	subscription: Subscription;
 	settings: UserSettings;
 	userAvatar?: string;
@@ -43,7 +44,7 @@ export interface EndpointsReturnType {
 	signIn: ({ email, password, googleId }: SignInProps) => Promise<UserResponse>;
 	signUp: ({ data }: CreateUserProps) => Promise<UserResponse>;
 	getUserByUserId: ({ authToken, userId }: GetUserByUserIdProps) => Promise<UserResponse>;
-	updateUser: ({ authToken, userId, steamId, subscription, settings, userAvatar, data }: UpdateUserProps) => Promise<UserResponse>;
+	updateUser: ({ authToken, userId, steamId, signup, subscription, settings, userAvatar, data }: UpdateUserProps) => Promise<UserResponse>;
 	sendEmail: ({ emailTo, subject, text }: EmailProps) => Promise<void>;
 	getSteamUserById: (appId: string, steamId: string) => Promise<StringResponse>;
 	getSteamPlayerAchievements: (appId: string, steamId: string) => Promise<any>;

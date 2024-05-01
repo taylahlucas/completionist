@@ -9,24 +9,41 @@ import useLoginState from './hooks/useLoginState';
 import StyledText from '@components/general/Text/StyledText.native';
 import Condition from '@components/general/Condition.native';
 import useValidator from '@utils/hooks/useValidator';
+import useSendEmailVerification from './hooks/useSendEmailVerification';
+import { ScreenEnum } from '@utils/CustomEnums';
+import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
 
 const LoginFormSignInButtons = () => {
 	const { t } = useTranslation();
-	const { sendEmailVerification, checkUserAccount, googleUserSignIn } = useGetLoginMethods();
-	const { triggerIsSigningUp } = useLoginDispatch();
+	const navigation = useReactNavigation();
+	const { checkUserAccount, googleUserSignIn } = useGetLoginMethods();
+	const { triggerIsSigningUp, setVerificationToken } = useLoginDispatch();
+	const sendEmailVerification = useSendEmailVerification();
 	const { loginFormData, isSigningUp } = useLoginState();
 	const { isEmailValid, isPasswordValid, isNameValid } = useValidator();
+	const isLoginDisabled = !isEmailValid(loginFormData.email) || !isPasswordValid(loginFormData.password ?? '') || 
+	(isSigningUp 
+		? !isNameValid(loginFormData.name) 
+		: false
+	);
 
 	return (
 		<>
 			<LoginButton
 				testID={'login-button'}
-				title={isSigningUp ? t('common:auth.createAccount') : t('common:auth.login')}
-				disabled={!isEmailValid(loginFormData.email) || !isPasswordValid(loginFormData.password ?? '') || (isSigningUp ? !isNameValid(loginFormData.name) : false)}
+				title={isSigningUp 
+					? t('common:auth.createAccount') 
+					: t('common:auth.login')
+				}
+				disabled={isLoginDisabled}
 				onPress={() => isSigningUp 
-					? sendEmailVerification(loginFormData.email)
-					: checkUserAccount({ email: loginFormData.email, password: loginFormData.password 
-				})}
+					? sendEmailVerification(loginFormData.email, setVerificationToken)
+							.then(() => navigation.navigate(ScreenEnum.AccountVerification))
+					: checkUserAccount({ 
+						email: loginFormData.email, 
+						password: loginFormData.password
+					})
+				}
 			/>
 			<LoginFormButtonContainer>
 				<GoogleSigninButton

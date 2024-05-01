@@ -1,38 +1,51 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
+import { View } from 'react-native';
 import { useTranslation } from 'react-i18next';
 import StandardLayout from '@components/general/Layouts/StandardLayout.native';
 import NavigationHeader from '@navigation/NavigationHeader.native';
 import useLoginState from '@components/custom/LoginForm/hooks/useLoginState';
 import Button from '@components/general/Button/Button.native';
 import VerificationEntry from '@components/general/VerificationEntry/VerificationEntry.native';
-import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
-import { ScreenEnum } from '@utils/CustomEnums';
-import useEditUserData from '@data/hooks/useEditUserData.native';
-import useGetLoginMethods from '@components/custom/LoginForm/hooks/useGetLoginMethods';
 import StyledText from '@components/general/Text/StyledText.native';
+import { ScreenEnum } from '@utils/CustomEnums';
+import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
+import useEditUserData from '@data/hooks/useEditUserData.native';
+import useEndpoints from '@data/api/hooks/useEndpoints.native';
 
 const AccountVerification = () => {
 	const { t } = useTranslation();
+	const navigation = useReactNavigation();
 	const [isValid, setIsValid] = useState<boolean>(false);
 	const { loginFormData, verificationToken } = useLoginState();
-	const { createUser } = useGetLoginMethods();
+	const { saveUserAndLogin } = useEditUserData();
+	const { signUp } = useEndpoints();
 
-	useEffect(() => {
-		console.log("IS VALID: ", isValid)
-	}, [isValid])
-	
 	return (
 		<StandardLayout>
 			<NavigationHeader title={t('common:screens.verifyAccount')} leftAction='none' />
-			<StyledText>{t('common:login.accountVerification')}</StyledText>
-			<VerificationEntry token={verificationToken ?? ''} setIsValid={setIsValid} />
-			<Button
-				title={t('common:continue')}
-				disabled={!isValid}
-				onPress={(): void => {
-					createUser(loginFormData);
-				}}
-			/>
+			<View style={{ padding: 8 }}>
+				<StyledText>{t('common:login.accountVerification')}</StyledText>
+				<VerificationEntry token={verificationToken ?? ''} setIsValid={setIsValid} />
+				<Button
+					title={t('common:continue')}
+					disabled={!isValid}
+					onPress={(): void => {
+						signUp({ data: loginFormData })
+							.then((response) => {
+								if (response) {
+									saveUserAndLogin(response, true);
+									navigation.navigate(ScreenEnum.SelectPlan);
+								}
+							})
+							.catch((error) => {
+								console.log(
+									"[AccountVerification] Error creating user: ",
+									error.message
+								);
+							})
+					}}
+				/>
+			</View>
 		</StandardLayout>
 	);
 };

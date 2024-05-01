@@ -4,17 +4,17 @@ import { SubscriptionPriceContainer } from './SubscriptionContentStyledComponent
 import PriceItem from '@components/general/PriceItem/PriceItem.native';
 
 interface SubscriptionPriceListProps {
-    items: PriceProps[];
+	items: PriceProps[];
 }
 
 const SubscriptionPriceList = ({ items }: SubscriptionPriceListProps) => {
-    return (
-        <SubscriptionPriceContainer>
-            {items.map((item, index) => (
-                <PriceItem key={index} item={item} />
-            ))}
-        </SubscriptionPriceContainer>
-    )
+	return (
+		<SubscriptionPriceContainer>
+			{items.map((item, index) => (
+				<PriceItem key={index} item={item} />
+			))}
+		</SubscriptionPriceContainer>
+	)
 };
 
 export default SubscriptionPriceList;

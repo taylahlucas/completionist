@@ -7,6 +7,8 @@ import useGetTheme from '@styles/hooks/useGetTheme';
 import { SelectFirstGameButtonContainer, SelectFirstGameButtonStyle } from './LoginFormStyledComponents.native';
 import useActivateGameSubscription from '@utils/hooks/useActivateGameSubscription.native';
 import useLoginDispatch from './hooks/useLoginDispatch';
+import useEditUserData from '@data/hooks/useEditUserData.native';
+import useMainDispatch from '@redux/hooks/useMainDispatch';
 
 interface SelectFirstGameButtonProps {
 	selectedGame?: SubscriptionData;
@@ -18,7 +20,9 @@ const SelectFirstGameButton = ({ selectedGame, setSelectedGame }: SelectFirstGam
 	const { t } = useTranslation();
 	const navigation = useReactNavigation();
 	const { setLoggedIn } = useLoginDispatch();
+	const { setShouldUpdateUser } = useMainDispatch();
 	const { activateGameSubscription } = useActivateGameSubscription();
+	const { updateUserData } = useEditUserData();
 
 	return (
 		<SelectFirstGameButtonContainer style={{ backgroundColor: theme.black }}>
@@ -27,9 +31,21 @@ const SelectFirstGameButton = ({ selectedGame, setSelectedGame }: SelectFirstGam
 				disabled={!selectedGame}
 				onPress={async (): Promise<void> => {
 					if (!!selectedGame) {
-						activateGameSubscription(selectedGame);
-						setSelectedGame(undefined);
+						const updatedUser = activateGameSubscription(selectedGame);
+						setShouldUpdateUser(true);
 						setLoggedIn(true);
+						updateUserData({
+							...updatedUser,
+							signup: {
+								...updatedUser.signup,
+								steps: {
+									...updatedUser.signup.steps,
+									selectGame: true
+								}
+							}
+						});
+						setSelectedGame(undefined);
+						// TODO: Handle navigated through updateUser(user, isSignupFlow)
 						navigation.navigate(ScreenEnum.GameSelection);
 					}
 				}}

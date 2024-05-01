@@ -44,7 +44,7 @@ const signup = async (req, res) => {
 			email,
 			password: userPassword,
 			googleId: userGoogleId,
-			userAvatar
+			userAvatar,
 		} = req.body;
 
 		if (!userId) {
@@ -70,7 +70,7 @@ const signup = async (req, res) => {
 			email,
 			password: hashedPassword,
 			googleId: hashedGoogleId,
-			userAvatar
+			userAvatar,
 		}).save();
 
 		// Create signed token
@@ -95,11 +95,8 @@ const signin = async (req, res) => {
 	try {
 		const { email, password, googleId } = req.body;
 		const user = await verifyUser(res, email, request_codes.NO_USER_FOUND, "No user found.");
-		console.log("user.password: ", user.password);
-		console.log("password: ", password);
 		// If user has password, check if the password matches
 		if (!!user.password && !!password) {
-			console.log("COMPARING PASSWORDS")
 			const match = await comparePasswords(password, user.password);
 			if (!match) {
 				return res.status(request_codes.WRONG_PASSWORD).json({
@@ -130,7 +127,6 @@ const signin = async (req, res) => {
 			user
 		});
 	} catch (err) {
-		console.log("HEREEE FAILING: ", err.message)
 		return res.status(err.status).json(err.message);
 	}
 };

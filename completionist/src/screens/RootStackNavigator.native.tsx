@@ -1,23 +1,24 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { I18nextProvider } from 'react-i18next';
 import Condition from '@components/general/Condition.native';
 import useMainState from '@redux/hooks/useMainState';
-import GameSelection from './GameSelection.native';
-import Login from './Login.native';
 import useInitUserData from '@data/hooks/useInitUserData.native';
 import Landing from './Landing.native';
 import usePlaySplashScreen from '@utils/hooks/usePlaySplashScreen.native';
 import useLoginState from '@components/custom/LoginForm/hooks/useLoginState';
 import i18n from 'src/i18n/i18n.native';
 import useTimedDataUpdate from '@data/api/hooks/useTimedDataUpdate.native';
+import useGetRootPage from '@utils/hooks/useGetRootPage.native';
 
 const RootStackNavigator = () => {
   const { isLoggedIn } = useLoginState();
   const { showSplashScreen, user } = useMainState();
+	const getRootPage = useGetRootPage();
 
   usePlaySplashScreen();
   useInitUserData();
   useTimedDataUpdate();
+	// TODO: Need to pull user from db on reload, not from cache
 
   return (
     <Condition 
@@ -25,12 +26,13 @@ const RootStackNavigator = () => {
       conditionalElement={<Landing />}
     >
       <I18nextProvider i18n={i18n}>
-        <Condition 
+				{getRootPage(user, isLoggedIn)}
+        {/* <Condition 
           condition={isLoggedIn && !!user.userId}
           conditionalElement={<Login />}
         >
-          <GameSelection />
-        </Condition>
+          {getRootPage(user, isLoggedIn)}
+        </Condition> */}
       </I18nextProvider>
     </Condition>
   );

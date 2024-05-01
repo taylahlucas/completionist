@@ -1,7 +1,8 @@
 const mongoose = require('mongoose');
 const {
-  skyrimSettingsConfig,
+	fallout3SettingsConfig,
   fallout4SettingsConfig,
+	skyrimSettingsConfig,
 	witcher3SettingsConfig
 } = require('./initialUserData');
 
@@ -20,6 +21,17 @@ const userSchema = new mongoose.Schema({
   email: String,
   password: String,
   userAvatar: String,
+	signup: {
+		complete: Boolean,
+		steps: {
+			type: Object,
+			default: {
+				verification: true,
+				selectPlan: false,
+				selectGame: false
+			}
+		},
+	},
   subscription: {
     tier: String,
     changesLeft: Number,
@@ -40,6 +52,11 @@ const userSchema = new mongoose.Schema({
   data: {
     type: Object,
     default: {
+			fallout3: {
+				appId: 22300,
+				...initialGameData,
+        settingsConfig: fallout3SettingsConfig
+      },
 			fallout4: {
 				appId: 377160,
 				...initialGameData,
@@ -59,9 +76,11 @@ const userSchema = new mongoose.Schema({
   },
 });
 
+userSchema.path('signup.complete').default(false);
 userSchema.path('subscription.tier').default('free');
-userSchema.path('subscription.changesLeft').default(2);
+userSchema.path('subscription.changesLeft').default(1);
 userSchema.path('subscription.data').default([
+	{ id: 'fallout3', isActive: false },
 	{ id: 'fallout4', isActive: false },
   { id: 'skyrim', isActive: false },
 	{ id: 'witcher3', isActive: false }

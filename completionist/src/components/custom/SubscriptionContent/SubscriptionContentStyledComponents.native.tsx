@@ -5,7 +5,7 @@ import { STANDARD_WIDTH } from '@styles/global.native';
 
 export const styles = StyleSheet.create({
 	scrollContent: {
-		paddingBottom: 64,
+		paddingBottom: 160,
 		alignItems: 'center'
 	}
 })

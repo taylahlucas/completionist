@@ -5159,7 +5159,7 @@
   {
     "id": "ce0eaf70-849e-4e7c-b0f8-06674771ae27",
     "mainCategory": "Unique Armor",
-    "subCategory": "",
+    "subCategory": "Power Armor",
     "title": "Piezonucleic Power Armor Chest",
     "prerequisite": "",
     "dlc": "None",
@@ -5268,8 +5268,8 @@
   },
   {
     "id": "176baa56-8558-4603-96b9-9722c3cb4cba",
-    "mainCategory": "Power Armor",
-    "subCategory": "",
+    "mainCategory": "Unique Armor",
+    "subCategory": "Power Armor",
     "title": "Raider Power Armor",
     "prerequisite": "",
     "dlc": "None",
@@ -5278,8 +5278,8 @@
   },
   {
     "id": "16685ab2-7178-49f3-9bca-a0ea2fbbf6a2",
-    "mainCategory": "Power Armor",
-    "subCategory": "",
+    "mainCategory": "Unique Armor",
+    "subCategory": "Power Armor",
     "title": "T-45 Power Armor",
     "prerequisite": "",
     "dlc": "None",
@@ -5288,8 +5288,8 @@
   },
   {
     "id": "3a603241-55ea-4eec-9c41-d4a0123c2a2b",
-    "mainCategory": "Power Armor",
-    "subCategory": "",
+    "mainCategory": "Unique Armor",
+    "subCategory": "Power Armor",
     "title": "T-51 Power Armor",
     "prerequisite": "",
     "dlc": "None",
@@ -5298,8 +5298,8 @@
   },
   {
     "id": "668f8368-27ed-418b-a65e-cb33df0d080b",
-    "mainCategory": "Power Armor",
-    "subCategory": "",
+    "mainCategory": "Unique Armor",
+    "subCategory": "Power Armor",
     "title": "T-60 Power Armor",
     "prerequisite": "",
     "dlc": "None",
@@ -5308,8 +5308,8 @@
   },
   {
     "id": "c12ebbc0-adfc-45bc-b38a-4afb7bd8c335",
-    "mainCategory": "Power Armor",
-    "subCategory": "",
+    "mainCategory": "Unique Armor",
+    "subCategory": "Power Armor",
     "title": "X-01 Power Armor",
     "prerequisite": "",
     "dlc": "None",

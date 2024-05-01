@@ -1,3 +1,190 @@
+const fallout3SettingsConfig = {
+	"general": [
+		{
+			"section": {
+				"id": "quests",
+				"isActive": true
+			},
+			"categories": [
+				{
+					"id": "tutorialQuests",
+					"isActive": true
+				},
+				{
+					"id": "mainQuests",
+					"isActive": true
+				},
+				{
+					"id": "sideQuests",
+					"isActive": true
+				},
+				{
+					"id": "unmarkedQuests",
+					"isActive": true
+				},
+				{
+					"id": "repeatableQuests",
+					"isActive": true
+				},
+			],
+			"dlc": [
+				{
+					"id": "operation:anchorage",
+					"isActive": true
+				},
+				{
+					"id": "thePitt",
+					"isActive": true
+				},
+				{
+					"id": "brokenSteel",
+					"isActive": true
+				},
+				{
+					"id": "pointLookout",
+					"isActive": true
+				},
+				{
+					"id": "mothershipZeta",
+					"isActive": true
+				}
+			]
+		},
+		{
+			"section": {
+				"id": "collectables",
+				"isActive": true
+			},
+			"categories": [
+				{
+					"id": "bobbleheads",
+					"isActive": true
+				},
+				{
+					"id": "uniqueWeapons",
+					"isActive": true
+				},
+				{
+					"id": "uniqueArmor",
+					"isActive": true
+				}
+			],
+			"dlc": [
+				{
+					"id": "operation:anchorage",
+					"isActive": true
+				},
+				{
+					"id": "thePitt",
+					"isActive": true
+				},
+				{
+					"id": "brokenSteel",
+					"isActive": true
+				},
+				{
+					"id": "pointLookout",
+					"isActive": true
+				},
+				{
+					"id": "mothershipZeta",
+					"isActive": true
+				}
+			]
+		},
+		{
+			"section": {
+				"id": "locations",
+				"isActive": true
+			},
+			"categories": [
+				{
+					"id": "main",
+					"isActive": true
+				}
+			],
+			"dlc": [
+				{
+					"id": "operation:anchorage",
+					"isActive": true
+				},
+				{
+					"id": "thePitt",
+					"isActive": true
+				},
+				{
+					"id": "brokenSteel",
+					"isActive": true
+				},
+				{
+					"id": "pointLookout",
+					"isActive": true
+				},
+				{
+					"id": "mothershipZeta",
+					"isActive": true
+				}
+			]
+		},
+		{
+			"section": {
+				"id": "miscellaneous",
+				"isActive": true
+			},
+			"categories": [
+				{
+					"id": "holotapes",
+					"isActive": true
+				},
+				{
+					"id": "notes",
+					"isActive": true
+				},
+				{
+					"id": "holotapes",
+					"isActive": true
+				}
+			],
+			"dlc": [
+				{
+					"id": "automatron",
+					"isActive": true
+				},
+				{
+					"id": "nukaWorld",
+					"isActive": true
+				},
+				{
+					"id": "skillBooks",
+					"isActive": true
+				}
+			]
+		}
+	],
+	"dlc": [
+		{
+			"id": "operation:anchorage",
+			"isActive": true
+		},
+		{
+			"id": "thePitt",
+			"isActive": true
+		},
+		{
+			"id": "brokenSteel",
+			"isActive": true
+		},
+		{
+			"id": "pointLookout",
+			"isActive": true
+		},
+		{
+			"id": "mothershipZeta",
+			"isActive": true
+		}
+	]
+};
+
 const fallout4SettingsConfig = {
 	"general": [
 		{
@@ -58,10 +245,6 @@ const fallout4SettingsConfig = {
 				},
 				{
 					"id": "uniqueArmor",
-					"isActive": true
-				},
-				{
-					"id": "powerArmor",
 					"isActive": true
 				}
 			],
@@ -422,6 +605,7 @@ const witcher3SettingsConfig = {
 }
 
 module.exports = {
+	fallout3SettingsConfig,
 	fallout4SettingsConfig,
 	skyrimSettingsConfig,
 	witcher3SettingsConfig

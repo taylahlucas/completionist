@@ -40,10 +40,7 @@ const useEndpoints = (): EndpointsReturnType => {
 	const { storeCredentials } = useKeychain();
 	const { handleAxiosError } = useHandleAxiosError();
 
-	// TODO: Add translations
 	// TODO: Add axios caching https://www.npmjs.com/package/axios-cache-adapter
-	// TODO: Send email verification for user
-	// TODO: Initial game selection for google account sign up
 	const checkUserExists = async (email: string): Promise<CredentialsExistProps> => {
 		try {
 			const response = await axios.post(`${url}/${checkUserExistsUrl}`,
@@ -75,7 +72,7 @@ const useEndpoints = (): EndpointsReturnType => {
 			);
 			if (!!response.data.token) {
 				storeCredentials({
-					username: data.userId,
+					username: response.data.user.userId,
 					password: response.data.token
 				});
 				return response.data.user as User;
@@ -148,13 +145,17 @@ const useEndpoints = (): EndpointsReturnType => {
 		}
 	};
 
-	const updateUser = async ({ authToken, userId, steamId, subscription, settings, userAvatar, data }: UpdateUserProps): Promise<UserResponse> => {
+	const updateUser = async ({ authToken, userId, steamId, signup, subscription, settings, userAvatar, data }: UpdateUserProps): Promise<UserResponse> => {
+		// TODO: Move userId into url?
+		console.log("authToken: ", authToken)
+		console.log("url: ", `${url}/${updateUserUrl}`)
 		try {
-			await axios.post(
+			await axios.patch(
 				`${url}/${updateUserUrl}`,
 				{
 					userId: userId,
 					steamId: steamId,
+					signup: signup,
 					subscription: subscription,
 					settings: settings,
 					userAvatar: userAvatar,
@@ -164,11 +165,13 @@ const useEndpoints = (): EndpointsReturnType => {
 			);
 		}
 		catch (error: AxiosErrorResponse) {
+			console.log("error status: ", error.message)
+			console.log("error: ", error.response.status)
 			handleAxiosError(error.response.status);
 		}
 	};
 
-	// Split to sendVerificationEmail and sendRequestEmail?
+	// TODO: Split to sendVerificationEmail and sendRequestEmail where sendRequestEmail uses setAuthHeaders?
 	const sendEmail = async ({ emailTo, subject, text }: EmailProps): Promise<void> => {
 		try {
 			await axios.post(
