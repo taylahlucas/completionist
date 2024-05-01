@@ -71,7 +71,7 @@ const useGetTranslatedGameData = (): TranslatedGameDataReturnType => {
 
 	return {
 		fallout3: languageDb.fallout3,
-		fallout4: languageDb.fallout4,
+		fallout4: languageDb.fallout4 as GameContentItem[],
 		skyrim: languageDb.skyrim,
 		witcher3: languageDb.witcher3,
 	};
