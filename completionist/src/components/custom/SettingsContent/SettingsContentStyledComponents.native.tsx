@@ -29,8 +29,8 @@ export const SettingsContentEmail = styled(StyledText)`
 
 export const SettingsContentDescription = styled(StyledText)`
   width: ${STANDARD_WIDTH}px;
-  padding: 8px;
   padding-top: 16px;
+	padding-bottom: 8px;
 `;
 
 export const SettingsContentInputContainer = styled.View`

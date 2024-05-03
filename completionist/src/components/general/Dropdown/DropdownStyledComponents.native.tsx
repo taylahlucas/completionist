@@ -35,7 +35,6 @@ export const DropdownSelectionItemTitle = styled(StyledText)`
 `;
 
 export const DropdownSelectionContentContainer = styled(ScrollableList)`
-	flex: 1;
 	max-height: 180px;
 	top: 42px;
 	position: absolute;

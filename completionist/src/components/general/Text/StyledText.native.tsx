@@ -12,19 +12,20 @@ interface StyledTextProps extends TextProps {
   align?: AlignmentType;
 }
 
-const StyledText: React.FunctionComponent<StyledTextProps> = ({ 
+const StyledText = React.forwardRef<Text, StyledTextProps>(({
   children, 
   type = 'ListItemSubTitle',
   color,
   style,
   align = 'center',
   ...props
-}) => {
-  const theme = useGetTheme();
+}: StyledTextProps, ref) => {
+	const theme = useGetTheme();
 	const { testID, numberOfLines } = props;
   
   return (
     <Text
+			ref={ref}
 			testID={testID}
       numberOfLines={numberOfLines} 
       ellipsizeMode='tail' 
@@ -33,6 +34,6 @@ const StyledText: React.FunctionComponent<StyledTextProps> = ({
       {children}
     </Text>
   );
-};
+});
 
 export default StyledText;

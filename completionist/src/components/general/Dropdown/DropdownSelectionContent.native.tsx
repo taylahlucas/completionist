@@ -18,11 +18,8 @@ const DropdownSelectionContent = ({ content, onPress }: DropdownSelectionContent
 	return (
 		<DropdownSelectionContentContainer
 			bounces={false}
-			contentContainerStyle={{
-				flex: 1,
-				alignSelf: 'center',
-				alignItems: 'center',
-			}}>
+			alignItems={true}
+		>
 			{content.map((item, index) => (
 				<DropdownSelectionContentItem
 					key={index}

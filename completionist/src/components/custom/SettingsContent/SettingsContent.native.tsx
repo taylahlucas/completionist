@@ -1,5 +1,5 @@
 import React, { useState, useRef } from 'react';
-import { ScrollView, View } from 'react-native';
+import { ScrollView, View, Text as RNText } from 'react-native';
 import { useTranslation } from 'react-i18next';
 import ScrollableList from '@components/general/Lists/ScrollableList.native';
 import { SettingsContentDescription } from './SettingsContentStyledComponents.native';
@@ -16,7 +16,7 @@ import SettingsContentSelectionDropdown from './SettingsContentSelectionDropdown
 const SettingsContent = () => {
 	const { t } = useTranslation();
 	const scrollViewRef = useRef<ScrollView>(null);
-	const languageViewRef = useRef<View>(null);
+	const languageViewRef = useRef<RNText>(null);
 	const { getDLCOptions, setDLCOptions } = useDLCOptions();
 	const options = useGetShowHideOptions();
 	const { setSettingsOptionsOnPress } = useSettingsOptionsOnPress();
@@ -26,22 +26,24 @@ const SettingsContent = () => {
 	return (
 		<ScrollableList
 			ref={scrollViewRef}
-			contentContainerStyle={{ paddingBottom: isLanguagesOpen ? 400 : 100 }}
+			contentContainerStyle={{ paddingBottom: isLanguagesOpen ? 200 : 100 }}
 		>
 			<SettingsContentAccountDetails />
 
+			{/* Enable/Disable game collections */}
       <SettingsContentDescription align='left'>
         {t('common:settings.setCollections')}
       </SettingsContentDescription>
       <SettingsContentSelectionDropdown />
       <SettingsContentCollectionList />
 			
+			{/* Enable/Disable DLC */}
 			<SettingsContentDescription align='left'>
 				{t('common:settings.enabledDLC')}
 			</SettingsContentDescription>
-
 			<SelectionList data={getDLCOptions()} onPress={setDLCOptions} />
 
+			{/* Show/Hide sections */}
 			<SettingsContentDescription align='left'>
 				{t('common:settings.showHide')}
 			</SettingsContentDescription>
@@ -50,19 +52,18 @@ const SettingsContent = () => {
 				onPress={(id: string): void => setSettingsOptionsOnPress(id)}
 			/>
 
-			<View ref={languageViewRef}>
-				<SettingsContentDescription align='left'>
-					Select language:
-				</SettingsContentDescription>
-				<SettingsContentSelectLanguage isOpen={isLanguagesOpen} setOpen={(value: boolean) => {
-					setLanguagesOpen(value);
-					if (value) {
-						languageViewRef?.current?.measureInWindow((_, y, _1, _2) => {
-							handleScroll(scrollViewRef, y + 100);
-						});
-					}
-				}} />
-			</View>
+			{/* Select language */}
+			<SettingsContentDescription ref={languageViewRef} align='left'>
+				{t('common:settings.selectLanguage')}
+			</SettingsContentDescription>
+			<SettingsContentSelectLanguage isOpen={isLanguagesOpen} setOpen={(value: boolean) => {
+				setLanguagesOpen(value);
+				if (value) {
+					languageViewRef?.current?.measureInWindow((_, y, _1, _2) => {
+						handleScroll(scrollViewRef, y + 100);
+					});
+				}
+			}} />
 		</ScrollableList>
 	);
 };

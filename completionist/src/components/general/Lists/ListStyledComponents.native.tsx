@@ -3,11 +3,12 @@ import styled from 'styled-components/native';
 import StyledText from '@components/general/Text/StyledText.native';
 import { DEFAULT_BORDER_RADIUS } from '@styles/global.native';
 import Button from '../Button/Button.native';
-import { LARGE_WIDTH, STANDARD_WIDTH } from '@styles/global.native';
+import { LARGE_WIDTH } from '@styles/global.native';
 
 export const listStyles = StyleSheet.create({
   scrollableContent: {
-    paddingBottom: 24
+    paddingBottom: 24,
+		alignItems: 'center'
   },
   listItemList: {
     alignItems: 'center'

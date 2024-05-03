@@ -10,6 +10,7 @@ interface CustomListProps extends ScrollViewProps {
 	children: JSX.Element[];
 	style?: any;
 	contentContainerStyle?: ViewStyle;
+	alignItems?: boolean;
 	isHorizontal?: boolean;
 	renderAmount?: number;
 	shouldAutoScroll?: boolean;
@@ -20,6 +21,7 @@ const ScrollableList = React.forwardRef<ScrollView, CustomListProps>(({
 	children,
 	style,
 	contentContainerStyle,
+	alignItems = false,
 	isHorizontal = false,
 	renderAmount = renderAmountConst,
 	shouldAutoScroll = false,
@@ -30,14 +32,14 @@ const ScrollableList = React.forwardRef<ScrollView, CustomListProps>(({
 	const [updatedRenderAmount, setUpdatedRenderAmount] = useState(renderAmount);
 	const isKeyboardVisible = useDetectKeyboard();
 	const paddingBottom: number = contentContainerStyle?.paddingBottom as number ?? 0;
-
+	
 	return (
 		<ScrollView
 			ref={ref}
 			testID={'scrollable-list'}
 			contentContainerStyle={{
-				...listStyles.scrollableContent,
 				...contentContainerStyle,
+				...listStyles.scrollableContent,
 				paddingBottom: isKeyboardVisible ? paddingBottom + 400 : paddingBottom
 			}}
 			style={style}
