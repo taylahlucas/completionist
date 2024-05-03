@@ -6,8 +6,10 @@ export const CACHE_EXPIRY_TIME = 60 * 60 * 1000;    // 1 hour in milliseconds
 export const renderAmountConst = 20;
 
 export const games = [
+	GameKeyEnum.FALLOUT_3,
+	GameKeyEnum.FALLOUT_4,
   GameKeyEnum.SKYRIM,
-  GameKeyEnum.FALLOUT_4
+	GameKeyEnum.WITCHER_3,
 ]
 
 export const requestCodes = {

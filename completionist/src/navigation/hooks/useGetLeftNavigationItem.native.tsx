@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { Animated, Easing} from 'react-native';
+import React, { useEffect } from 'react';
+import { Animated } from 'react-native';
 import { NavigationHeaderLeftActionTypes } from '@utils/CustomTypes';
 import {
   styles,
@@ -13,42 +13,20 @@ import useReactNavigation, { DrawerActions } from './useReactNavigation.native';
 import { useDrawerStatus } from '@react-navigation/drawer';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import IconButton from '@components/general/Icon/IconButton.native';
-
+import useRotateMenuButton from './useRotateMenuButton.native';
 
 const useGetLeftNavigationItem = (leftAction: NavigationHeaderLeftActionTypes): JSX.Element => {
   const theme = useGetTheme();
   const navigation = useReactNavigation();
-	const [rotation] = useState(new Animated.Value(0));
 	const isDrawerOpen = useDrawerStatus() === 'open';
-
-	const rotateButton = () => {
-    Animated.timing(rotation, {
-      toValue: isDrawerOpen ? 1 : 0,
-      duration: 200,
-      easing: Easing.linear,
-      useNativeDriver: true,
-    }).start(() => {
-      // Reset rotation to 0 when animation completes
-      rotation.setValue(isDrawerOpen ? 1 : 0);
-    });
-  };
-
-  const rotateInterpolation = rotation.interpolate({
-    inputRange: [0, 1],
-    outputRange: ['0deg', '90deg'],
-  });
-
-  const animatedStyles = {
-    transform: [{ rotate: rotateInterpolation }],
-  };
+	const { rotateButton, animatedStyles } = useRotateMenuButton();
 
 	useEffect(() => {
-		rotateButton();
+		rotateButton(isDrawerOpen);
 	}, [isDrawerOpen]);
 
   switch (leftAction) {
     case 'back':
-		// TODO: Fix back action, not going to correct screen 
       return (
         <IconButton
           style={styles.iconButton}

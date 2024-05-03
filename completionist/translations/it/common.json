@@ -29,7 +29,7 @@
     "gameSelection": "Selezione del gioco",
     "sendRequest": "Invia richiesta",
     "subscriptions": "Abbonamenti",
-    "selectAGame": "Seleziona un gioco",
+    "selectGame": "Seleziona un gioco",
     "addSteamId": "Aggiungi l'ID Steam",
     "steamAchievements": "Risultati di Steam",
     "payments": "Pagamento",
@@ -39,13 +39,13 @@
   },
   "login": {
     "instructions1": "La password deve contenere almeno:",
-    "instructions2": "\n\u2022 8 caratteri \n\u2022 1 lettera maiuscola\n\u2022 1 lettera minuscola\n\u2022 1 valore numerico",
+    "instructions2": "\n• 8 caratteri\n",
     "accountVerification": "Controlla le tue email e inserisci il codice di verifica"
   },
   "selectGame": {
     "selectGameDesc1": "Con un account gratuito, puoi selezionare un gioco al mese da monitorare.",
     "selectGameDesc2": "Seleziona il tuo primo gioco qui sotto!",
-    "selectGameDesc3": "Non preoccuparti se commetti un errore, potrai modificarlo due volte al mese"
+    "selectGameDesc3": "Non preoccuparti se commetti un errore, potrai modificarlo una volta al mese."
   },
   "subscriptions": {
     "subscriptionDesc": "Con un abbonamento Premium,\n",
@@ -73,11 +73,10 @@
   "sendRequest": {
     "subject": "Soggetto",
     "writeRequest": "Scrivi qui la tua richiesta...",
-    "requestGameDesc": "Sentiti libero di richiedere un gioco, segnalare un bug o dare qualche suggerimento per migliorare l'app!",
-    "verifyAccount": "Ciao,\nRecentemente hai creato un account con Completionist.\nPer verificare il tuo account, inserisci il seguente codice nell'applicazione:\n\n{{code}}"
+    "requestGameDesc": "Sentiti libero di richiedere un gioco, segnalare un bug o dare qualche suggerimento per contribuire a migliorare l'app!",
+    "verifyAccount": "Ciao,\n\n\n{{code}}"
   },
   "settings": {
-    "description": "Sentiti libero di richiedere un gioco, segnalare un bug o dare qualche suggerimento per migliorare l'app!",
     "setCollections": "Imposta raccolte:",
     "enabledDLC": "Abilita/Disabilita DLC:",
     "showHide": "Mostra nascondi:",
@@ -104,7 +103,7 @@
   "errors": {
     "error": "Errore",
     "pleaseRefreshApp": "Aggiorna l'app",
-		"emailAlreadyExists": "Email già esistente",
+    "emailAlreadyExists": "Email già esistente",
     "emailNotFound": "E-mail non trovata",
     "noEmailExists": "L'e-mail non esiste",
     "checkCredentials": "Controlla le tue credenziali e riprova.",
@@ -120,7 +119,7 @@
     "steamAchievements": "Impossibile ottenere risultati Steam per questo gioco."
   },
   "alerts": {
-		"ok": "OK",
+    "ok": "OK",
     "activate": "Attivare",
     "cancel": "Annulla",
     "changesLeft": "Tu avrai {{changesLeft}} modifica{{s}} Sinistra.",
@@ -143,6 +142,38 @@
     "zh": "Cinese"
   },
   "categories": {
+    "fallout3": {
+      "title": "Fallout 3",
+      "categories": {
+        "quests": {
+          "tutorialQuests": "Missioni tutorial",
+          "mainQuests": "Missioni principali",
+          "sideQuests": "Missioni secondarie",
+          "unmarkedQuests": "Missioni non contrassegnate",
+          "repeatableQuests": "Missioni ripetibili"
+        },
+        "collectables": {
+          "bobbleheads": "Teste molleggiate",
+          "uniqueArmor": "Armatura unica",
+          "uniqueWeapons": "Armi uniche"
+        },
+        "locations": {
+          "main": "Principale"
+        },
+        "miscellaneous": {
+          "holotapes": "Olonastri",
+          "notes": "Appunti",
+          "skillBooks": "Libri di abilità"
+        }
+      },
+			"dlc": {
+				"brokenSteel": "Acciaio rotto",
+				"mothershipZeta": "Nave madre Zeta",
+				"operationAnchorage": "Operazione Ancoraggio",
+				"pointLookout": "Punto di vedetta",
+				"thePitt": "Il Pitt"
+			}
+    },
     "fallout4": {
       "title": "Fallout 4",
       "categories": {
@@ -154,9 +185,8 @@
         "collectables": {
           "bobbleheads": "Teste molleggiate",
           "magazines": "Riviste",
-          "uniqueWeapons": "Armi uniche",
           "uniqueArmor": "Armatura unica",
-          "powerArmor": "Armatura potenziata"
+          "uniqueWeapons": "Armi uniche"
         },
         "locations": {
           "main": "Principale"

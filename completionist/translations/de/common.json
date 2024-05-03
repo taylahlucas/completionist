@@ -29,7 +29,7 @@
     "gameSelection": "Spielauswahl",
     "sendRequest": "Anfrage senden",
     "subscriptions": "Abonnements",
-    "selectAGame": "Wählen Sie ein Spiel aus",
+    "selectGame": "Wählen Sie ein Spiel aus",
     "addSteamId": "Steam-ID hinzufügen",
     "steamAchievements": "Steam-Erfolge",
     "payments": "Zahlung",
@@ -39,13 +39,13 @@
   },
   "login": {
     "instructions1": "Das Passwort muss mindestens Folgendes enthalten:",
-    "instructions2": "\n\u2022 8 Charaktere \n\u2022 1 Großbuchstabe\n\u2022 1 Kleinbuchstabe\n\u2022 1 numerischer Wert",
+    "instructions2": "\n• 8 Charaktere\n",
     "accountVerification": "Überprüfen Sie Ihre E-Mails und geben Sie den Bestätigungscode ein"
   },
   "selectGame": {
     "selectGameDesc1": "Mit einem kostenlosen Konto können Sie ein Spiel pro Monat zum Verfolgen auswählen.",
     "selectGameDesc2": "Wählen Sie unten Ihr erstes Spiel aus!",
-    "selectGameDesc3": "Machen Sie sich keine Sorgen, wenn Sie einen Fehler machen. Sie können dies zweimal im Monat ändern"
+    "selectGameDesc3": "Machen Sie sich keine Sorgen, wenn Sie einen Fehler machen. Sie können dies einmal im Monat ändern."
   },
   "subscriptions": {
     "subscriptionDesc": "Mit einem Premium-Abonnement\n",
@@ -73,11 +73,10 @@
   "sendRequest": {
     "subject": "Thema",
     "writeRequest": "Schreiben Sie hier Ihre Anfrage...",
-		"requestGameDesc": "Fordern Sie gerne ein Spiel an, melden Sie einen Fehler oder machen Sie Vorschläge zur Verbesserung der App!",
-		"verifyAccount": "Hallo,\nSie haben kürzlich ein Konto bei Completionist erstellt.\nUm Ihr Konto zu verifizieren, geben Sie bitte den folgenden Code in den Antrag ein:\n\n{{code}}"
+    "requestGameDesc": "Fordern Sie gerne ein Spiel an, melden Sie einen Fehler oder machen Sie Vorschläge zur Verbesserung der App!",
+    "verifyAccount": "Hallo,\n\n\n{{code}}"
   },
   "settings": {
-    "description": "Fordern Sie gerne ein Spiel an, melden Sie einen Fehler oder machen Sie Vorschläge zur Verbesserung der App!",
     "setCollections": "Set-Sammlungen:",
     "enabledDLC": "DLC aktivieren/deaktivieren:",
     "showHide": "Anzeigen Ausblenden:",
@@ -104,7 +103,7 @@
   "errors": {
     "error": "Fehler",
     "pleaseRefreshApp": "Bitte aktualisieren Sie die App",
-		"emailAlreadyExists": "E-Mail existiert bereits",
+    "emailAlreadyExists": "E-Mail existiert bereits",
     "emailNotFound": "Email wurde nicht gefunden",
     "noEmailExists": "Email existiert nicht",
     "checkCredentials": "Bitte überprüfen Sie Ihre Anmeldedaten und versuchen Sie es erneut.",
@@ -120,7 +119,7 @@
     "steamAchievements": "Für dieses Spiel konnten keine Steam-Erfolge erzielt werden."
   },
   "alerts": {
-		"ok": "OK",
+    "ok": "OK",
     "activate": "aktivieren Sie",
     "cancel": "Stornieren",
     "changesLeft": "Du wirst haben {{changesLeft}} ändern{{s}} links.",
@@ -143,6 +142,38 @@
     "zh": "Chinesisch"
   },
   "categories": {
+    "fallout3": {
+      "title": "Fallout 3",
+      "categories": {
+        "quests": {
+          "tutorialQuests": "Tutorial-Quests",
+          "mainQuests": "Hauptquests",
+          "sideQuests": "Nebenmissionen",
+          "unmarkedQuests": "Nicht markierte Quests",
+          "repeatableQuests": "Wiederholbare Quests"
+        },
+        "collectables": {
+          "bobbleheads": "Wackelköpfe",
+          "uniqueArmor": "Einzigartige Rüstung",
+          "uniqueWeapons": "Einzigartige Waffen"
+        },
+        "locations": {
+          "main": "Hauptsächlich"
+        },
+        "miscellaneous": {
+          "holotapes": "Holobänder",
+          "notes": "Anmerkungen",
+          "skillBooks": "Fertigkeitsbücher"
+        }
+      },
+			"dlc": {
+				"brokenSteel": "Gebrochener Stahl",
+				"mothershipZeta": "Mutterschiff Zeta",
+				"operationAnchorage": "Operation Anchorage",
+				"pointLookout": "Aussichtspunkt",
+				"thePitt": "Der Pitt"
+			}
+    },
     "fallout4": {
       "title": "Fallout 4",
       "categories": {
@@ -154,9 +185,8 @@
         "collectables": {
           "bobbleheads": "Wackelköpfe",
           "magazines": "Zeitschriften",
-          "uniqueWeapons": "Einzigartige Waffen",
           "uniqueArmor": "Einzigartige Rüstung",
-          "powerArmor": "Powerrüstung"
+          "uniqueWeapons": "Einzigartige Waffen"
         },
         "locations": {
           "main": "Hauptsächlich"

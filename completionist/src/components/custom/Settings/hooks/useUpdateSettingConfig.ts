@@ -53,7 +53,7 @@ const useUpdateSettingsConfig = () => {
           })
         }
       }
-    });
+    }) as SettingsConfigItem[]
   }
 
   return { updateConfig };

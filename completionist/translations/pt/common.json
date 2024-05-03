@@ -29,23 +29,23 @@
     "gameSelection": "Seleção de jogos",
     "sendRequest": "Enviar pedido",
     "subscriptions": "Assinaturas",
-    "selectAGame": "Selecione um jogo",
+    "selectGame": "Selecione um jogo",
     "addSteamId": "Adicionar ID Steam",
     "steamAchievements": "Conquistas do Steam",
     "payments": "Pagamento",
     "settings": "Configurações",
-		"accountDetails": "Detalhes da conta",
+    "accountDetails": "Detalhes da conta",
     "verifyAccount": "Verifique sua conta"
   },
   "login": {
     "instructions1": "A senha deve conter pelo menos:",
-    "instructions2": "\n\u2022 8 caracteres \n\u2022 1 letra maiúscula\n\u2022 1 letra minúscula\n\u2022 1 valor numérico",
+    "instructions2": "\n• 8 caracteres\n",
     "accountVerification": "Verifique seus e-mails e insira o código de verificação"
   },
   "selectGame": {
     "selectGameDesc1": "Com uma conta gratuita, você pode selecionar um jogo por mês para acompanhar.",
     "selectGameDesc2": "Selecione seu primeiro jogo abaixo!",
-    "selectGameDesc3": "Não se preocupe se cometer um erro, você poderá alterar isso duas vezes por mês"
+    "selectGameDesc3": "Não se preocupe se cometer um erro, você poderá alterar isso uma vez por mês."
   },
   "subscriptions": {
     "subscriptionDesc": "Com uma assinatura Premium,\n",
@@ -73,11 +73,10 @@
   "sendRequest": {
     "subject": "Assunto",
     "writeRequest": "Escreva aqui o seu pedido...",
-		"requestGameDesc": "Fique à vontade para solicitar um jogo, reportar um bug ou fazer sugestões para melhorar o app!",
-    "verifyAccount": "Olá,\nVocê criou recentemente uma conta no Completionist.\nPara verificar sua conta, insira o seguinte código no aplicativo:\n\n{{code}}"
+    "requestGameDesc": "Sinta-se à vontade para solicitar um jogo, reportar um bug ou fazer sugestões para ajudar a melhorar o app!",
+    "verifyAccount": "Olá,\n\n\n{{code}}"
   },
   "settings": {
-    "description": "Fique à vontade para solicitar um jogo, reportar um bug ou fazer sugestões para melhorar o app!",
     "setCollections": "Definir coleções:",
     "enabledDLC": "Ativar/Desativar DLC:",
     "showHide": "Aparecer esconder:",
@@ -120,7 +119,7 @@
     "steamAchievements": "Não foi possível obter conquistas do Steam para este jogo."
   },
   "alerts": {
-		"ok": "OK",
+    "ok": "OK",
     "activate": "Ativar",
     "cancel": "Cancelar",
     "changesLeft": "Voce terá {{changesLeft}} mudar{{s}} esquerda.",
@@ -143,6 +142,38 @@
     "zh": "chinês"
   },
   "categories": {
+    "fallout3": {
+      "title": "Fallout 3",
+      "categories": {
+        "quests": {
+          "tutorialQuests": "Missões de tutorial",
+          "mainQuests": "Missões principais",
+          "sideQuests": "Missões paralelas",
+          "unmarkedQuests": "Missões não marcadas",
+          "repeatableQuests": "Missões repetíveis"
+        },
+        "collectables": {
+          "bobbleheads": "Bobbleheads",
+          "uniqueArmor": "Armadura Única",
+          "uniqueWeapons": "Armas únicas"
+        },
+        "locations": {
+          "main": "Principal"
+        },
+        "miscellaneous": {
+          "holotapes": "Holotapes",
+          "notes": "Notas",
+          "skillBooks": "Livros de habilidades"
+        }
+      },
+			"dlc": {
+				"brokenSteel": "Aço Quebrado",
+				"mothershipZeta": "Nave-mãe Zeta",
+				"operationAnchorage": "Operação Ancoragem",
+				"pointLookout": "Mirante",
+				"thePitt": "O Pitt"
+			}
+    },
     "fallout4": {
       "title": "Efeito Fallout 4",
       "categories": {
@@ -154,9 +185,8 @@
         "collectables": {
           "bobbleheads": "Bobbleheads",
           "magazines": "Revistas",
-          "uniqueWeapons": "Armas únicas",
           "uniqueArmor": "Armadura Única",
-          "powerArmor": "Armadura Potente"
+          "uniqueWeapons": "Armas únicas"
         },
         "locations": {
           "main": "Principal"

@@ -32,7 +32,7 @@ const ScrollableList = React.forwardRef<ScrollView, CustomListProps>(({
 	const [updatedRenderAmount, setUpdatedRenderAmount] = useState(renderAmount);
 	const isKeyboardVisible = useDetectKeyboard();
 	// This handles autoScroll for dropdown lists to ensure the entire list is in view
-	const paddingBottom: number = contentContainerStyle?.paddingBottom as number ?? 100;
+	const paddingBottom: number = contentContainerStyle?.paddingBottom as number ?? 80;
 	
 	return (
 		<ScrollView

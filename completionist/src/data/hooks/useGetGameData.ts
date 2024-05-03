@@ -9,6 +9,7 @@ interface GameDataReturnType {
 
 const useGetGameData = (): GameDataReturnType => {
 	const {
+		fallout3,
 		fallout4,
 		skyrim,
 		witcher3
@@ -24,6 +25,19 @@ const useGetGameData = (): GameDataReturnType => {
 
 		return data;
 	}
+
+	const getGameData = (selectedGame: GameKeyEnum) => {
+		switch (selectedGame) {
+			case GameKeyEnum.FALLOUT_3:
+				return fallout3;
+			case GameKeyEnum.FALLOUT_4:
+				return fallout4;
+			case GameKeyEnum.SKYRIM:
+				return skyrim;
+			case GameKeyEnum.WITCHER_3:
+				return witcher3;
+		}
+	};
 
 	const mapDataTo = (type: ContentSectionEnum, selectedGame?: GameKeyEnum, filter = false): GameContentItem[] => {
 		switch (type) {
@@ -49,103 +63,54 @@ const useGetGameData = (): GameDataReturnType => {
 	};
 
 	const mapDataToQuests = (selectedGame?: GameKeyEnum): GameContentItem[] => {
-		switch (selectedGame) {
-			case GameKeyEnum.FALLOUT_4:
-				return fallout4
-					.filter((item: GameContentItem) => item.section === ContentSectionEnum.QUESTS)
-					.map((quest: GameContentItem) => {
-						return quest as GameContentItem;
-					});
-
-			case GameKeyEnum.SKYRIM:
-				return skyrim
-					.filter((item: GameContentItem) => item.section === ContentSectionEnum.QUESTS)
-					.map((quest: GameContentItem) => {
-						return quest as GameContentItem;
-					});
-
-			case GameKeyEnum.WITCHER_3:
-				return witcher3
-					.filter((item: GameContentItem) => item.section === ContentSectionEnum.QUESTS)
-					.map((quest: GameContentItem) => {
-						return quest as GameContentItem;
-					});
-			default:
-				return [];
+		if (!selectedGame) {
+			return [];
+		}
+		else {
+			return getGameData(selectedGame)
+			.filter((item: GameContentItem) => item.section === ContentSectionEnum.QUESTS)
+			.map((quest: GameContentItem) => {
+				return quest as GameContentItem;
+			});
 		}
 	};
 
 	const mapDataToCollectables = (selectedGame?: GameKeyEnum): GameContentItem[] => {
-		switch (selectedGame) {
-			case GameKeyEnum.FALLOUT_4:
-				return fallout4
-					.filter((item: GameContentItem) => item.section === ContentSectionEnum.COLLECTABLES)
-					.map((collectable: Partial<GameContentItem>) => {
-						return collectable as GameContentItem;
-					});
-
-			case GameKeyEnum.SKYRIM:
-				return skyrim
-					.filter((item: GameContentItem) => item.section === ContentSectionEnum.COLLECTABLES)
-					.map((collectable: Partial<GameContentItem>) => {
-						return collectable as GameContentItem;
-					});
-
-			case GameKeyEnum.WITCHER_3:
-				return witcher3
-					.filter((item: GameContentItem) => item.section === ContentSectionEnum.COLLECTABLES)
-					.map((collectable: Partial<GameContentItem>) => {
-						return collectable as GameContentItem;
-					});
-			default:
-				return [];
+		if (!selectedGame) {
+			return [];
+		}
+		else {
+			return getGameData(selectedGame)
+			.filter((item: GameContentItem) => item.section === ContentSectionEnum.COLLECTABLES)
+			.map((collectable: Partial<GameContentItem>) => {
+				return collectable as GameContentItem;
+			});
 		}
 	};
 
 	const mapDataToMiscItems = (selectedGame?: GameKeyEnum): GameContentItem[] => {
-		switch (selectedGame) {
-			case GameKeyEnum.FALLOUT_4:
-				return fallout4
-					.filter((item: GameContentItem) => item.section === ContentSectionEnum.MISCELLANEOUS)
-					.map((miscItem: Partial<GameContentItem>) => {
-						return miscItem as GameContentItem
-					});
-
-			case GameKeyEnum.SKYRIM:
-				return skyrim
-					.filter((item: GameContentItem) => item.section === ContentSectionEnum.MISCELLANEOUS)
-					.map((miscItem: Partial<GameContentItem>) => {
-						return miscItem as GameContentItem
-					});
-			default:
-				return [];
+		if (!selectedGame) {
+			return [];
+		}
+		else {
+			return getGameData(selectedGame)
+			.filter((item: GameContentItem) => item.section === ContentSectionEnum.MISCELLANEOUS)
+			.map((miscItem: Partial<GameContentItem>) => {
+				return miscItem as GameContentItem
+			});
 		}
 	};
 
 	const mapDataToLocations = (selectedGame?: GameKeyEnum): GameContentItem[] => {
-		switch (selectedGame) {
-			case GameKeyEnum.FALLOUT_4:
-				return fallout4
-					.filter((item: GameContentItem) => item.section === ContentSectionEnum.LOCATIONS)
-					.map((location: Partial<GameContentItem>) => {
-						return location as GameContentItem;
-					});
-
-			case GameKeyEnum.SKYRIM:
-				return skyrim
-					.filter((item: GameContentItem) => item.section === ContentSectionEnum.LOCATIONS)
-					.map((location: Partial<GameContentItem>) => {
-						return location as GameContentItem;
-					});
-
-			case GameKeyEnum.WITCHER_3:
-				return witcher3
-					.filter((item: GameContentItem) => item.section === ContentSectionEnum.LOCATIONS)
-					.map((miscItem: Partial<GameContentItem>) => {
-						return miscItem as GameContentItem
-					});
-			default:
-				return [];
+		if (!selectedGame) {
+			return [];
+		}
+		else {
+			return getGameData(selectedGame)
+			.filter((item: GameContentItem) => item.section === ContentSectionEnum.LOCATIONS)
+			.map((location: Partial<GameContentItem>) => {
+				return location as GameContentItem;
+			});
 		}
 	};
 

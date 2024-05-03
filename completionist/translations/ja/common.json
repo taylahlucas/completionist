@@ -6,7 +6,7 @@
   "showMore": "もっと見せる",
   "none": "なし",
   "main": "主要",
-  "changesLeft": "残った変更点: ",
+  "changesLeft": "残された変更点: ",
   "active": "アクティブ",
   "inactive": "非活性",
   "auth": {
@@ -29,7 +29,7 @@
     "gameSelection": "ゲームの選択",
     "sendRequest": "リクエストの送信",
     "subscriptions": "定期購入",
-    "selectAGame": "ゲームを選択してください",
+    "selectGame": "ゲームを選択してください",
     "addSteamId": "Steam IDの追加",
     "steamAchievements": "Steam の実績",
     "payments": "支払い",
@@ -39,13 +39,13 @@
   },
   "login": {
     "instructions1": "パスワードには少なくとも以下が含まれている必要があります:",
-    "instructions2": "\n\u2022 8文字\n\u2022 大文字1文字\n\u2022 小文字1文字\n\u2022 数値1つ",
+    "instructions2": "\n• 8文字\n",
     "accountVerification": "メールを確認して確認コードを入力してください"
   },
   "selectGame": {
     "selectGameDesc1": "無料アカウントでは、毎月 1 つのゲームを選択して追跡できます。",
     "selectGameDesc2": "最初のゲームを以下から選択してください。",
-    "selectGameDesc3": "間違っても心配しないでください。月に 2 回変更できます。"
+    "selectGameDesc3": "間違っても心配しないでください。これは月に 1 回変更できます。"
   },
   "subscriptions": {
     "subscriptionDesc": "プレミアムサブスクリプションでは、\n",
@@ -73,11 +73,10 @@
   "sendRequest": {
     "subject": "主題",
     "writeRequest": "ここにリクエストを書いてください...",
-		"requestGameDesc": "ゲームのリクエスト、バグの報告、アプリを改善するための提案など、お気軽にどうぞ！",
-    "verifyAccount": "こんにちは、\n最近Completionistでアカウントを作成しました。\nアカウントを確認するには、アプリケーションに次のコードを入力してください：\n\n{{code}}"
+    "requestGameDesc": "ゲームをリクエストしたり、バグを報告したり、アプリを改善するための提案をしたりすることはお気軽にどうぞ！",
+    "verifyAccount": "こんにちは、\n\n\n{{code}}"
   },
   "settings": {
-    "description": "ゲームのリクエスト、バグの報告、アプリを改善するための提案など、お気軽にどうぞ！",
     "setCollections": "セットコレクション:",
     "enabledDLC": "DLC を有効/無効にする:",
     "showHide": "表示/非表示:",
@@ -104,15 +103,15 @@
   "errors": {
     "error": "エラー",
     "pleaseRefreshApp": "アプリを更新してください",
-		"emailAlreadyExists": "メールは既に存在します",
+    "emailAlreadyExists": "メールは既に存在します",
     "emailNotFound": "メールが見つかりません",
     "noEmailExists": "電子メールが存在しません",
     "checkCredentials": "資格情報を確認して、再試行してください。",
     "incorrectPw": "パスワードが間違っています。",
     "googleSignIn": "Googleサインインでのエラー",
-    "googleSignInMsg": "この Google アカウントの情報を取得する際に問題が発生しました。",
+    "googleSignInMsg": "この Google アカウントの情報を取得中に問題が発生しました。",
     "accountExists": "アカウントはすでに存在しています",
-    "accountExistsMsg": "これらのアカウントをリンクしますか",
+    "accountExistsMsg": "これらのアカウントをリンクしますか?",
     "permissionDenied": "許可が拒否されました",
     "permissionDeniedMsg": "Steam 設定を通じてアクセスを許可してください。",
     "unauthorized": "無許可",
@@ -120,7 +119,7 @@
     "steamAchievements": "このゲームの Steam 実績を取得できませんでした。"
   },
   "alerts": {
-		"ok": "わかりました",
+    "ok": "わかりました",
     "activate": "活性化",
     "cancel": "キャンセル",
     "changesLeft": "あなたは持っています {{changesLeft}} 変化{{s}} 左。",
@@ -143,6 +142,38 @@
     "zh": "中国語"
   },
   "categories": {
+    "fallout3": {
+      "title": "フォールアウト3",
+      "categories": {
+        "quests": {
+          "tutorialQuests": "チュートリアルクエスト",
+          "mainQuests": "メインクエスト",
+          "sideQuests": "サイドクエスト",
+          "unmarkedQuests": "マークのないクエスト",
+          "repeatableQuests": "繰り返し可能なクエスト"
+        },
+        "collectables": {
+          "bobbleheads": "ボブルヘッド",
+          "uniqueArmor": "ユニークな鎧",
+          "uniqueWeapons": "ユニークな武器"
+        },
+        "locations": {
+          "main": "主要"
+        },
+        "miscellaneous": {
+          "holotapes": "ホロテープ",
+          "notes": "ノート",
+          "skillBooks": "スキルブック"
+        }
+      },
+			"dlc": {
+				"brokenSteel": "壊れた鋼鉄",
+				"mothershipZeta": "母船ゼータ",
+				"operationAnchorage": "アンカレッジ作戦",
+				"pointLookout": "ポイント展望台",
+				"thePitt": "ザ・ピット"
+			}
+    },
     "fallout4": {
       "title": "フォールアウト4",
       "categories": {
@@ -154,9 +185,8 @@
         "collectables": {
           "bobbleheads": "ボブルヘッド",
           "magazines": "雑誌",
-          "uniqueWeapons": "ユニークな武器",
           "uniqueArmor": "ユニークな鎧",
-          "powerArmor": "パワーアーマー"
+          "uniqueWeapons": "ユニークな武器"
         },
         "locations": {
           "main": "主要"

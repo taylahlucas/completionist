@@ -130,3 +130,4 @@ Confirm:
 - Update user.js model with new game in data and subscription.data.
 - Add image to styles/images/games/.
 - In CustomEnums and CustomInterfaces add the new game.
+- Create migration to mirate new game info to existing users.

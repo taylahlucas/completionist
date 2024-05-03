@@ -29,7 +29,7 @@
 		"gameSelection": "Game Selection",
 		"sendRequest": "Send Request",
 		"subscriptions": "Subscriptions",
-		"selectAGame": "Select a Game",
+		"selectGame": "Select a Game",
 		"addSteamId": "Add Steam ID",
 		"steamAchievements": "Steam Achievements",
 		"payments": "Payment",
@@ -146,7 +146,7 @@
 			"title": "Fallout 3",
 			"categories": {
 				"quests": {
-					"tutorialQuests": "tutorialQuests",
+					"tutorialQuests": "Tutorial Quests",
 					"mainQuests": "Main Quests",
 					"sideQuests": "Side Quests",
 					"unmarkedQuests": "Unmarked Quests",
@@ -164,14 +164,14 @@
 					"holotapes": "Holotapes",
 					"notes": "Notes",
 					"skillBooks": "Skill Books"
-				},
-				"dlc": {
-					"brokenSteel": "Broken Steel",
-					"mothershipZeta": "Mothership Zeta",
-					"operationAnchorage": "Operation Anchorage",
-					"pointLookout": "Point Lookout",
-					"thePitt": "The Pitt"
 				}
+			},
+			"dlc": {
+				"brokenSteel": "Broken Steel",
+				"mothershipZeta": "Mothership Zeta",
+				"operationAnchorage": "Operation Anchorage",
+				"pointLookout": "Point Lookout",
+				"thePitt": "The Pitt"
 			}
 		},
 		"fallout4": {

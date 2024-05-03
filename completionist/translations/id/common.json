@@ -1,5 +1,5 @@
 {
-  "appTitle": "Kompletionis.",
+  "appTitle": "Penyelesaian.",
   "welcome": "Selamat datang",
   "continue": "Melanjutkan",
   "search": "Cari item...",
@@ -29,7 +29,7 @@
     "gameSelection": "Pemilihan Permainan",
     "sendRequest": "Kirim Permintaan",
     "subscriptions": "Langganan",
-    "selectAGame": "Pilih Permainan",
+    "selectGame": "Pilih Permainan",
     "addSteamId": "Tambahkan ID Uap",
     "steamAchievements": "Prestasi Uap",
     "payments": "Pembayaran",
@@ -39,13 +39,13 @@
   },
   "login": {
     "instructions1": "Kata sandi setidaknya harus berisi:",
-    "instructions2": "\n\u2022 8 karakter \n\u2022 1 huruf besar\n\u2022 1 huruf kecil\n\u2022 1 nilai numerik",
+    "instructions2": "\n• 8 karakter\n",
     "accountVerification": "Periksa email Anda dan masukkan kode verifikasi"
   },
   "selectGame": {
     "selectGameDesc1": "Dengan akun Gratis, Anda dapat memilih satu game per bulan untuk dilacak.",
     "selectGameDesc2": "Pilih game pertama Anda di bawah ini!",
-    "selectGameDesc3": "Jangan khawatir jika Anda melakukan kesalahan, Anda dapat mengubahnya dua kali sebulan"
+    "selectGameDesc3": "Jangan khawatir jika Anda melakukan kesalahan, Anda dapat mengubahnya sebulan sekali."
   },
   "subscriptions": {
     "subscriptionDesc": "Dengan berlangganan Premium,\n",
@@ -73,11 +73,10 @@
   "sendRequest": {
     "subject": "Subjek",
     "writeRequest": "Tulis permintaan Anda di sini...",
-		"requestGameDesc": "Jangan ragu untuk meminta permainan, melaporkan bug, atau memberikan beberapa saran untuk meningkatkan aplikasi!",
-    "verifyAccount": "Halo,\nAnda baru saja membuat akun dengan Completionist.\nUntuk memverifikasi akun Anda, silakan masukkan kode berikut di aplikasi:\n\n{{code}}"
+    "requestGameDesc": "Jangan ragu untuk meminta permainan, melaporkan bug, atau memberikan beberapa saran untuk membantu meningkatkan aplikasi!",
+    "verifyAccount": "Halo,\n\n\n{{code}}"
   },
   "settings": {
-    "description": "Jangan ragu untuk meminta permainan, melaporkan bug, atau memberikan beberapa saran untuk meningkatkan aplikasi!",
     "setCollections": "Tetapkan koleksi:",
     "enabledDLC": "Aktifkan/Nonaktifkan DLC:",
     "showHide": "Tunjukan Sembunyikan:",
@@ -112,7 +111,7 @@
     "googleSignIn": "Terjadi kesalahan saat Masuk dengan Google",
     "googleSignInMsg": "Terjadi masalah saat mendapatkan info untuk akun Google ini.",
     "accountExists": "Akun sudah ada",
-    "accountExistsMsg": "Apakah Anda ingin menghubungkan akun-akun ini?",
+    "accountExistsMsg": "Apakah Anda ingin menautkan akun ini?",
     "permissionDenied": "Izin ditolak",
     "permissionDeniedMsg": "Harap izinkan akses melalui pengaturan Steam Anda.",
     "unauthorized": "Tidak sah",
@@ -120,7 +119,7 @@
     "steamAchievements": "Tidak bisa mendapatkan pencapaian uap untuk game ini."
   },
   "alerts": {
-		"ok": "Oke",
+    "ok": "Oke",
     "activate": "Mengaktifkan",
     "cancel": "Membatalkan",
     "changesLeft": "Anda akan memiliki {{changesLeft}} mengubah{{s}} kiri.",
@@ -143,6 +142,38 @@
     "zh": "Cina"
   },
   "categories": {
+    "fallout3": {
+      "title": "Kejatuhan 3",
+      "categories": {
+        "quests": {
+          "tutorialQuests": "Quest Tutorial",
+          "mainQuests": "Quest Utama",
+          "sideQuests": "Pencarian Sampingan",
+          "unmarkedQuests": "Quest yang Tidak Ditandai",
+          "repeatableQuests": "Quest yang Dapat Diulang"
+        },
+        "collectables": {
+          "bobbleheads": "Bobblehead",
+          "uniqueArmor": "Baju Besi Unik",
+          "uniqueWeapons": "Senjata Unik"
+        },
+        "locations": {
+          "main": "Utama"
+        },
+        "miscellaneous": {
+          "holotapes": "Holotape",
+          "notes": "Catatan",
+          "skillBooks": "Buku Keterampilan"
+        }
+      },
+			"dlc": {
+				"brokenSteel": "Baja Rusak",
+				"mothershipZeta": "Kapal Induk Zeta",
+				"operationAnchorage": "Operasi Pelabuhan",
+				"pointLookout": "Titik Pengamatan",
+				"thePitt": "Pitt"
+			}
+    },
     "fallout4": {
       "title": "Kejatuhan 4",
       "categories": {
@@ -154,9 +185,8 @@
         "collectables": {
           "bobbleheads": "Bobblehead",
           "magazines": "Majalah",
-          "uniqueWeapons": "Senjata Unik",
           "uniqueArmor": "Baju Besi Unik",
-          "powerArmor": "Armor Kekuatan"
+          "uniqueWeapons": "Senjata Unik"
         },
         "locations": {
           "main": "Utama"

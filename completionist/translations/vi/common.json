@@ -29,7 +29,7 @@
     "gameSelection": "Lựa chọn trò chơi",
     "sendRequest": "Gửi yêu cầu",
     "subscriptions": "Đăng ký",
-    "selectAGame": "Chọn một trò chơi",
+    "selectGame": "Chọn một trò chơi",
     "addSteamId": "Thêm ID hơi nước",
     "steamAchievements": "Thành tựu hơi nước",
     "payments": "Sự chi trả",
@@ -39,13 +39,13 @@
   },
   "login": {
     "instructions1": "Mật khẩu phải chứa ít nhất:",
-    "instructions2": "\n\u2022 8 ký tự \n\u2022 1 chữ hoa\n\u2022 1 chữ thường\n\u2022 1 giá trị số",
+    "instructions2": "\n• 8 ký tự\n",
     "accountVerification": "Kiểm tra email của bạn và nhập mã xác minh"
   },
   "selectGame": {
     "selectGameDesc1": "Với tài khoản Miễn phí, bạn có thể chọn một trò chơi mỗi tháng để theo dõi.",
     "selectGameDesc2": "Chọn trò chơi đầu tiên của bạn dưới đây!",
-    "selectGameDesc3": "Đừng lo lắng nếu bạn mắc lỗi, bạn sẽ có thể thay đổi điều này hai lần mỗi tháng"
+    "selectGameDesc3": "Đừng lo lắng nếu bạn mắc lỗi, bạn sẽ có thể thay đổi điều này mỗi tháng một lần."
   },
   "subscriptions": {
     "subscriptionDesc": "Với đăng ký Premium,\n",
@@ -59,7 +59,7 @@
     "prerequisiteTracking": "Theo dõi điều kiện tiên quyết tự động",
     "accessPremiumFeatures": "Truy cập vào các tính năng cao cấp",
     "accessOneGame": "Truy cập vào một trò chơi mỗi tháng",
-		"accessFiveGames": "Truy cập năm trò chơi mỗi tháng",
+    "accessFiveGames": "Truy cập vào năm trò chơi mỗi tháng",
     "accessAllGames": "Truy cập vào tất cả các trò chơi",
     "revokedAccess": "Đã thu hồi quyền truy cập vào Tính năng",
     "monthly": "hàng tháng",
@@ -73,11 +73,10 @@
   "sendRequest": {
     "subject": "Chủ thể",
     "writeRequest": "Viết yêu cầu của bạn ở đây...",
-		"requestGameDesc": "Vui lòng yêu cầu trò chơi, báo cáo lỗi hoặc đưa ra một số đề xuất để cải thiện ứng dụng!",
-    "verifyAccount": "Xin chào,\nGần đây bạn đã tạo một tài khoản với Completionist.\nĐể xác minh tài khoản của mình, vui lòng nhập mã sau vào ứng dụng:\n\n{{code}}"
+    "requestGameDesc": "Vui lòng yêu cầu trò chơi, báo cáo lỗi hoặc đưa ra một số đề xuất để giúp cải thiện ứng dụng!",
+    "verifyAccount": "Xin chào,\n\n\n{{code}}"
   },
   "settings": {
-    "description": "Vui lòng yêu cầu trò chơi, báo cáo lỗi hoặc đưa ra một số đề xuất để cải thiện ứng dụng!",
     "setCollections": "Đặt bộ sưu tập:",
     "enabledDLC": "Bật/Tắt DLC:",
     "showHide": "Hiện an:",
@@ -109,7 +108,7 @@
     "noEmailExists": "Email không tồn tại",
     "checkCredentials": "Vui lòng kiểm tra thông tin xác thực của bạn và thử lại.",
     "incorrectPw": "Mật khẩu không đúng. ",
-		"googleSignIn": "Lỗi đăng nhập bằng Google",
+    "googleSignIn": "Lỗi đăng nhập bằng Google",
     "googleSignInMsg": "Sự cố khi tải thông tin cho tài khoản google này.",
     "accountExists": "Tài khoản đã tồn tại",
     "accountExistsMsg": "Bạn có muốn liên kết các tài khoản này không?",
@@ -120,7 +119,7 @@
     "steamAchievements": "Không thể nhận được thành tích Steam cho trò chơi này."
   },
   "alerts": {
-		"ok": "Được rồi",
+    "ok": "Được rồi",
     "activate": "Kích hoạt",
     "cancel": "Hủy bỏ",
     "changesLeft": "Bạn sẽ có {{changesLeft}} thay đổi{{s}} bên trái.",
@@ -143,6 +142,38 @@
     "zh": "người Trung Quốc"
   },
   "categories": {
+    "fallout3": {
+      "title": "bụi phóng xạ 3",
+      "categories": {
+        "quests": {
+          "tutorialQuests": "Nhiệm vụ hướng dẫn",
+          "mainQuests": "Nhiệm vụ chính",
+          "sideQuests": "Nhiệm vụ phụ",
+          "unmarkedQuests": "Nhiệm vụ chưa được đánh dấu",
+          "repeatableQuests": "Nhiệm vụ lặp lại"
+        },
+        "collectables": {
+          "bobbleheads": "tóc bồng bềnh",
+          "uniqueArmor": "Giáp độc nhất",
+          "uniqueWeapons": "Vũ khí độc đáo"
+        },
+        "locations": {
+          "main": "Chủ yếu"
+        },
+        "miscellaneous": {
+          "holotapes": "ảnh ba chiều",
+          "notes": "Ghi chú",
+          "skillBooks": "Sách kỹ năng"
+        }
+      },
+			"dlc": {
+				"brokenSteel": "Thép tấm",
+				"mothershipZeta": "tàu mẹ Zeta",
+				"operationAnchorage": "Chiến dịch neo đậu",
+				"pointLookout": "Điểm quan sát",
+				"thePitt": "cái hố"
+			}
+    },
     "fallout4": {
       "title": "bụi phóng xạ 4",
       "categories": {
@@ -154,9 +185,8 @@
         "collectables": {
           "bobbleheads": "tóc bồng bềnh",
           "magazines": "Tạp chí thời sự",
-          "uniqueWeapons": "Vũ khí độc đáo",
           "uniqueArmor": "Giáp độc nhất",
-          "powerArmor": "Áo giáp điện"
+          "uniqueWeapons": "Vũ khí độc đáo"
         },
         "locations": {
           "main": "Chủ yếu"

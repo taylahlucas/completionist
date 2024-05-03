@@ -29,7 +29,7 @@
     "gameSelection": "اختيار اللعبة",
     "sendRequest": "ارسل طلب",
     "subscriptions": "الاشتراكات",
-    "selectAGame": "اختر لعبة",
+    "selectGame": "اختر لعبة",
     "addSteamId": "أضف معرف البخار",
     "steamAchievements": "إنجازات البخار",
     "payments": "قسط",
@@ -39,13 +39,13 @@
   },
   "login": {
     "instructions1": "يجب أن تحتوي كلمة المرور على الأقل على:",
-    "instructions2": "\n\u2022 8 أحرف \n\u2022 1 حرف كبير\n\u2022 1 حرف صغير\n\u2022 1 قيمة رقمية",
+    "instructions2": "\n• 8 أحرف\n",
     "accountVerification": "تحقق من رسائل البريد الإلكتروني الخاصة بك وأدخل رمز التحقق"
   },
   "selectGame": {
     "selectGameDesc1": "باستخدام الحساب المجاني، يمكنك اختيار لعبة واحدة كل شهر لتتبعها.",
     "selectGameDesc2": "اختر لعبتك الأولى أدناه!",
-    "selectGameDesc3": "لا تقلق إذا ارتكبت أي خطأ، فستتمكن من تغيير هذا مرتين شهريًا"
+    "selectGameDesc3": "لا تقلق إذا ارتكبت أي خطأ، فستتمكن من تغيير هذا مرة واحدة شهريًا."
   },
   "subscriptions": {
     "subscriptionDesc": "مع اشتراك بريميوم،\n",
@@ -73,11 +73,10 @@
   "sendRequest": {
     "subject": "موضوع",
     "writeRequest": "أكتب طلبك هنا...",
-	 "requestGameDesc": "لا تتردد في طلب لعبة أو الإبلاغ عن خطأ أو تقديم بعض الاقتراحات لتحسين التطبيق!",
-    "verifyAccount": "مرحبًا، ,\nلقد قمت مؤخرًا بإنشاء حساب مع Completionist.\nللتحقق من حسابك، يرجى إدخال الرمز التالي في التطبيق:\n\n{{code}}"
+    "requestGameDesc": "لا تتردد في طلب لعبة أو الإبلاغ عن خطأ أو تقديم بعض الاقتراحات للمساعدة في تحسين التطبيق!",
+    "verifyAccount": "مرحبًا،\n\n\n{{code}}"
   },
   "settings": {
-    "description": "لا تتردد في طلب لعبة أو الإبلاغ عن خطأ أو تقديم بعض الاقتراحات لتحسين التطبيق!",
     "setCollections": "تعيين المجموعات:",
     "enabledDLC": "تمكين/تعطيل المحتوى القابل للتنزيل:",
     "showHide": "اظهر المخفي:",
@@ -120,7 +119,7 @@
     "steamAchievements": "لا يمكن الحصول على إنجازات البخار لهذه اللعبة."
   },
   "alerts": {
-		"ok": "نعم",
+    "ok": "نعم",
     "activate": "تفعيل",
     "cancel": "يلغي",
     "changesLeft": "ستملك {{changesLeft}} يتغير{{s}} غادر.",
@@ -143,6 +142,38 @@
     "zh": "صينى"
   },
   "categories": {
+    "fallout3": {
+      "title": "تداعيات 3",
+      "categories": {
+        "quests": {
+          "tutorialQuests": "أسئلة البرنامج التعليمي",
+          "mainQuests": "المهام الرئيسية",
+          "sideQuests": "أسئلة جانبية",
+          "unmarkedQuests": "مهام غير محددة",
+          "repeatableQuests": "أسئلة متكررة"
+        },
+        "collectables": {
+          "bobbleheads": "رؤؤس فقاعية",
+          "uniqueArmor": "درع فريد",
+          "uniqueWeapons": "أسلحة فريدة من نوعها"
+        },
+        "locations": {
+          "main": "رئيسي"
+        },
+        "miscellaneous": {
+          "holotapes": "هولوتابس",
+          "notes": "ملحوظات",
+          "skillBooks": "كتب المهارات"
+        }
+      },
+			"dlc": {
+				"brokenSteel": "الفولاذ المكسور",
+				"mothershipZeta": "الأم زيتا",
+				"operationAnchorage": "عملية مرسى",
+				"pointLookout": "نقطة مراقبة",
+				"thePitt": "البيت"
+			}
+    },
     "fallout4": {
       "title": "تداعيات 4",
       "categories": {
@@ -154,9 +185,8 @@
         "collectables": {
           "bobbleheads": "رؤؤس فقاعية",
           "magazines": "المجلات",
-          "uniqueWeapons": "أسلحة فريدة من نوعها",
           "uniqueArmor": "درع فريد",
-          "powerArmor": "درع القوة"
+          "uniqueWeapons": "أسلحة فريدة من نوعها"
         },
         "locations": {
           "main": "رئيسي"

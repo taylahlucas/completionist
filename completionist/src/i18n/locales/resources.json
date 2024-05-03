@@ -31,23 +31,23 @@
         "gameSelection": "游戏选择",
         "sendRequest": "发送请求",
         "subscriptions": "订阅",
-        "selectAGame": "选择游戏",
+        "selectGame": "选择游戏",
         "addSteamId": "添加 Steam ID",
         "steamAchievements": "Steam 成就",
         "payments": "支付",
         "settings": "设置",
         "accountDetails": "帐户详细资料",
-        "verifyAccount": "您好，\n您最近在 Completionist 上创建了一个帐户。\n要验证您的帐户，请在应用程序中输入以下代码：\n\n{{code}}"
+        "verifyAccount": "验证您的帐户"
       },
       "login": {
         "instructions1": "密码必须至少包含：",
-        "instructions2": "\n• 8 个字符\n• 1 个大写字母\n• 1 个小写字母\n• 1 个数值",
+        "instructions2": "\n• 8 个字符\n",
         "accountVerification": "检查您的电子邮件并输入验证码"
       },
       "selectGame": {
         "selectGameDesc1": "使用免费帐户，您可以每月选择一款游戏进行跟踪。",
         "selectGameDesc2": "在下面选择您的第一个游戏！",
-        "selectGameDesc3": "如果您犯了错误，请不要担心，您每月可以更改两次"
+        "selectGameDesc3": "如果您犯了错误，请不要担心，您可以每月更改一次。"
       },
       "subscriptions": {
         "subscriptionDesc": "通过高级订阅，\n",
@@ -75,11 +75,10 @@
       "sendRequest": {
         "subject": "主题",
         "writeRequest": "在这里写下您的要求...",
-        "requestGameDesc": "请随意请求游戏、报告错误或提出一些改进应用程序的建议！",
-        "verifyAccount": "Xin chào,\nGần đây bạn đã tạo một tài khoản với Completionist.\nĐể xác minh tài khoản của mình, vui lòng nhập mã sau vào ứng dụng:\n\n{{代码}}"
+        "requestGameDesc": "请随意请求游戏、报告错误或提出一些建议来帮助改进应用程序！",
+        "verifyAccount": "你好，\n\n\n{{code}}"
       },
       "settings": {
-        "description": "请随意请求游戏、报告错误或提出一些改进应用程序的建议！",
         "setCollections": "设置集合：",
         "enabledDLC": "启用/禁用 DLC：",
         "showHide": "显示隐藏：",
@@ -114,7 +113,7 @@
         "googleSignIn": "Google 登录时出错",
         "googleSignInMsg": "获取此 Google 帐户的信息时出现问题。",
         "accountExists": "用户名已经被注册",
-        "accountExistsMsg": "您想关联这些帐户吗?",
+        "accountExistsMsg": "您想关联这些帐户吗？",
         "permissionDenied": "没有权限",
         "permissionDeniedMsg": "请通过您的 Steam 设置允许访问。",
         "unauthorized": "未经授权",
@@ -145,6 +144,38 @@
         "zh": "中国人"
       },
       "categories": {
+        "fallout3": {
+          "title": "辐射3",
+          "categories": {
+            "quests": {
+              "tutorialQuests": "教程任务",
+              "mainQuests": "主线任务",
+              "sideQuests": "支线任务",
+              "unmarkedQuests": "未标记的任务",
+              "repeatableQuests": "可重复的任务"
+            },
+            "collectables": {
+              "bobbleheads": "摇头娃娃",
+              "uniqueArmor": "独特的盔甲",
+              "uniqueWeapons": "独特的武器"
+            },
+            "locations": {
+              "main": "主要的"
+            },
+            "miscellaneous": {
+              "holotapes": "全息带",
+              "notes": "笔记",
+              "skillBooks": "技能书"
+            }
+          },
+          "dlc": {
+            "brokenSteel": "断钢",
+            "mothershipZeta": "泽塔母舰",
+            "operationAnchorage": "安克雷奇行动",
+            "pointLookout": "观景台",
+            "thePitt": "皮特"
+          }
+        },
         "fallout4": {
           "title": "辐射4",
           "categories": {
@@ -156,9 +187,8 @@
             "collectables": {
               "bobbleheads": "摇头娃娃",
               "magazines": "杂志",
-              "uniqueWeapons": "独特的武器",
               "uniqueArmor": "独特的盔甲",
-              "powerArmor": "动力装甲"
+              "uniqueWeapons": "独特的武器"
             },
             "locations": {
               "main": "主要的"
@@ -268,7 +298,7 @@
         "gameSelection": "Lựa chọn trò chơi",
         "sendRequest": "Gửi yêu cầu",
         "subscriptions": "Đăng ký",
-        "selectAGame": "Chọn một trò chơi",
+        "selectGame": "Chọn một trò chơi",
         "addSteamId": "Thêm ID hơi nước",
         "steamAchievements": "Thành tựu hơi nước",
         "payments": "Sự chi trả",
@@ -278,13 +308,13 @@
       },
       "login": {
         "instructions1": "Mật khẩu phải chứa ít nhất:",
-        "instructions2": "\n• 8 ký tự \n• 1 chữ hoa\n• 1 chữ thường\n• 1 giá trị số",
+        "instructions2": "\n• 8 ký tự\n",
         "accountVerification": "Kiểm tra email của bạn và nhập mã xác minh"
       },
       "selectGame": {
         "selectGameDesc1": "Với tài khoản Miễn phí, bạn có thể chọn một trò chơi mỗi tháng để theo dõi.",
         "selectGameDesc2": "Chọn trò chơi đầu tiên của bạn dưới đây!",
-        "selectGameDesc3": "Đừng lo lắng nếu bạn mắc lỗi, bạn sẽ có thể thay đổi điều này hai lần mỗi tháng"
+        "selectGameDesc3": "Đừng lo lắng nếu bạn mắc lỗi, bạn sẽ có thể thay đổi điều này mỗi tháng một lần."
       },
       "subscriptions": {
         "subscriptionDesc": "Với đăng ký Premium,\n",
@@ -298,7 +328,7 @@
         "prerequisiteTracking": "Theo dõi điều kiện tiên quyết tự động",
         "accessPremiumFeatures": "Truy cập vào các tính năng cao cấp",
         "accessOneGame": "Truy cập vào một trò chơi mỗi tháng",
-        "accessFiveGames": "Truy cập năm trò chơi mỗi tháng",
+        "accessFiveGames": "Truy cập vào năm trò chơi mỗi tháng",
         "accessAllGames": "Truy cập vào tất cả các trò chơi",
         "revokedAccess": "Đã thu hồi quyền truy cập vào Tính năng",
         "monthly": "hàng tháng",
@@ -312,11 +342,10 @@
       "sendRequest": {
         "subject": "Chủ thể",
         "writeRequest": "Viết yêu cầu của bạn ở đây...",
-        "requestGameDesc": "Vui lòng yêu cầu trò chơi, báo cáo lỗi hoặc đưa ra một số đề xuất để cải thiện ứng dụng!",
-        "verifyAccount": "Xin chào,\nGần đây bạn đã tạo một tài khoản với Completionist.\nĐể xác minh tài khoản của mình, vui lòng nhập mã sau vào ứng dụng:\n\n{{code}}"
+        "requestGameDesc": "Vui lòng yêu cầu trò chơi, báo cáo lỗi hoặc đưa ra một số đề xuất để giúp cải thiện ứng dụng!",
+        "verifyAccount": "Xin chào,\n\n\n{{code}}"
       },
       "settings": {
-        "description": "Vui lòng yêu cầu trò chơi, báo cáo lỗi hoặc đưa ra một số đề xuất để cải thiện ứng dụng!",
         "setCollections": "Đặt bộ sưu tập:",
         "enabledDLC": "Bật/Tắt DLC:",
         "showHide": "Hiện an:",
@@ -382,6 +411,38 @@
         "zh": "người Trung Quốc"
       },
       "categories": {
+        "fallout3": {
+          "title": "bụi phóng xạ 3",
+          "categories": {
+            "quests": {
+              "tutorialQuests": "Nhiệm vụ hướng dẫn",
+              "mainQuests": "Nhiệm vụ chính",
+              "sideQuests": "Nhiệm vụ phụ",
+              "unmarkedQuests": "Nhiệm vụ chưa được đánh dấu",
+              "repeatableQuests": "Nhiệm vụ lặp lại"
+            },
+            "collectables": {
+              "bobbleheads": "tóc bồng bềnh",
+              "uniqueArmor": "Giáp độc nhất",
+              "uniqueWeapons": "Vũ khí độc đáo"
+            },
+            "locations": {
+              "main": "Chủ yếu"
+            },
+            "miscellaneous": {
+              "holotapes": "ảnh ba chiều",
+              "notes": "Ghi chú",
+              "skillBooks": "Sách kỹ năng"
+            }
+          },
+          "dlc": {
+            "brokenSteel": "Thép tấm",
+            "mothershipZeta": "tàu mẹ Zeta",
+            "operationAnchorage": "Chiến dịch neo đậu",
+            "pointLookout": "Điểm quan sát",
+            "thePitt": "cái hố"
+          }
+        },
         "fallout4": {
           "title": "bụi phóng xạ 4",
           "categories": {
@@ -393,9 +454,8 @@
             "collectables": {
               "bobbleheads": "tóc bồng bềnh",
               "magazines": "Tạp chí thời sự",
-              "uniqueWeapons": "Vũ khí độc đáo",
               "uniqueArmor": "Giáp độc nhất",
-              "powerArmor": "Áo giáp điện"
+              "uniqueWeapons": "Vũ khí độc đáo"
             },
             "locations": {
               "main": "Chủ yếu"
@@ -505,7 +565,7 @@
         "gameSelection": "Oyun Seçimi",
         "sendRequest": "İstek gönder",
         "subscriptions": "Abonelikler",
-        "selectAGame": "Bir Oyun Seçin",
+        "selectGame": "Bir Oyun Seçin",
         "addSteamId": "Steam Kimliği Ekle",
         "steamAchievements": "Steam Başarıları",
         "payments": "Ödeme",
@@ -515,13 +575,13 @@
       },
       "login": {
         "instructions1": "Şifre en az şunları içermelidir:",
-        "instructions2": "\n• 8 karakter \n• 1 büyük harf\n• 1 küçük harf\n• 1 sayısal değer",
+        "instructions2": "\n• 8 karakter\n",
         "accountVerification": "E-postalarınızı kontrol edin ve doğrulama kodunu girin"
       },
       "selectGame": {
         "selectGameDesc1": "Ücretsiz bir hesapla, takip etmek için ayda bir oyun seçebilirsiniz.",
         "selectGameDesc2": "Aşağıdan ilk oyununuzu seçin!",
-        "selectGameDesc3": "Hata yaparsanız endişelenmeyin, bunu ayda iki kez değiştirebileceksiniz."
+        "selectGameDesc3": "Hata yaparsanız endişelenmeyin, bunu ayda bir kez değiştirebileceksiniz."
       },
       "subscriptions": {
         "subscriptionDesc": "Premium abonelikle,\n",
@@ -549,16 +609,15 @@
       "sendRequest": {
         "subject": "Ders",
         "writeRequest": "Talebinizi buraya yazın...",
-        "requestGameDesc": "Bir oyun talep etmekten, bir hatayı bildirmekten veya uygulamayı geliştirmek için bazı önerilerde bulunmaktan çekinmeyin!",
-        "verifyAccount": "Merhaba,\nYakın zamanda Completionist'te bir hesap oluşturdunuz.\nHesabınızı doğrulamak için lütfen uygulamaya aşağıdaki kodu girin:\n\n{{code}}"
+        "requestGameDesc": "Bir oyun talep etmekten, bir hatayı bildirmekten veya uygulamanın iyileştirilmesine yardımcı olacak bazı önerilerde bulunmaktan çekinmeyin!",
+        "verifyAccount": "Merhaba,\n\n\n{{code}}"
       },
       "settings": {
-        "description": "Bir oyun talep etmekten, bir hatayı bildirmekten veya uygulamayı geliştirmek için bazı önerilerde bulunmaktan çekinmeyin!",
         "setCollections": "Koleksiyonları ayarlayın:",
         "enabledDLC": "DLC'yi Etkinleştir/Devre Dışı Bırak:",
         "showHide": "Göster/Gizle:",
         "completedItems": "Tamamlanan Öğeler",
-        "disabledSections": "Engelli Bölümleri",
+        "disabledSections": "Engelli Bölümler",
         "changeAccountDetails": "Hesap Ayrıntılarını Değiştir",
         "selectLanguage": "Dil Seçin:"
       },
@@ -585,7 +644,7 @@
         "noEmailExists": "E-posta mevcut değil",
         "checkCredentials": "Lütfen kimlik bilgilerinizi kontrol edip tekrar deneyin.",
         "incorrectPw": "Yanlış parola. ",
-        "googleSignIn": "Google Oturum Açma Hatası",
+        "googleSignIn": "Google ile Oturum Açma Hatası",
         "googleSignInMsg": "Bu Google hesabı için bilgi alınırken sorun oluştu.",
         "accountExists": "Bu Hesap Zaten Mevcut",
         "accountExistsMsg": "Bu hesapları bağlamak ister misiniz?",
@@ -619,6 +678,38 @@
         "zh": "Çince"
       },
       "categories": {
+        "fallout3": {
+          "title": "Serpinti 3",
+          "categories": {
+            "quests": {
+              "tutorialQuests": "Öğretici Görevler",
+              "mainQuests": "Ana Görevler",
+              "sideQuests": "Yan Görevler",
+              "unmarkedQuests": "İşaretlenmemiş Görevler",
+              "repeatableQuests": "Tekrarlanabilir Görevler"
+            },
+            "collectables": {
+              "bobbleheads": "Bobblehead'ler",
+              "uniqueArmor": "Benzersiz Zırh",
+              "uniqueWeapons": "Benzersiz Silahlar"
+            },
+            "locations": {
+              "main": "Ana"
+            },
+            "miscellaneous": {
+              "holotapes": "Sanal bantlar",
+              "notes": "Notlar",
+              "skillBooks": "Beceri Kitapları"
+            }
+          },
+          "dlc": {
+            "brokenSteel": "Kırık Çelik",
+            "mothershipZeta": "Annelik Zeta",
+            "operationAnchorage": "Demirleme Operasyonu",
+            "pointLookout": "Nokta Gözetleme",
+            "thePitt": "Pitt"
+          }
+        },
         "fallout4": {
           "title": "Serpinti 4",
           "categories": {
@@ -630,9 +721,8 @@
             "collectables": {
               "bobbleheads": "Bobblehead'ler",
               "magazines": "Dergiler",
-              "uniqueWeapons": "Benzersiz Silahlar",
               "uniqueArmor": "Benzersiz Zırh",
-              "powerArmor": "Güç Zırhı"
+              "uniqueWeapons": "Benzersiz Silahlar"
             },
             "locations": {
               "main": "Ana"
@@ -742,7 +832,7 @@
         "gameSelection": "Seleção de jogos",
         "sendRequest": "Enviar pedido",
         "subscriptions": "Assinaturas",
-        "selectAGame": "Selecione um jogo",
+        "selectGame": "Selecione um jogo",
         "addSteamId": "Adicionar ID Steam",
         "steamAchievements": "Conquistas do Steam",
         "payments": "Pagamento",
@@ -752,13 +842,13 @@
       },
       "login": {
         "instructions1": "A senha deve conter pelo menos:",
-        "instructions2": "\n• 8 caracteres \n• 1 letra maiúscula\n• 1 letra minúscula\n• 1 valor numérico",
+        "instructions2": "\n• 8 caracteres\n",
         "accountVerification": "Verifique seus e-mails e insira o código de verificação"
       },
       "selectGame": {
         "selectGameDesc1": "Com uma conta gratuita, você pode selecionar um jogo por mês para acompanhar.",
         "selectGameDesc2": "Selecione seu primeiro jogo abaixo!",
-        "selectGameDesc3": "Não se preocupe se cometer um erro, você poderá alterar isso duas vezes por mês"
+        "selectGameDesc3": "Não se preocupe se cometer um erro, você poderá alterar isso uma vez por mês."
       },
       "subscriptions": {
         "subscriptionDesc": "Com uma assinatura Premium,\n",
@@ -786,11 +876,10 @@
       "sendRequest": {
         "subject": "Assunto",
         "writeRequest": "Escreva aqui o seu pedido...",
-        "requestGameDesc": "Fique à vontade para solicitar um jogo, reportar um bug ou fazer sugestões para melhorar o app!",
-        "verifyAccount": "Olá,\nVocê criou recentemente uma conta no Completionist.\nPara verificar sua conta, insira o seguinte código no aplicativo:\n\n{{code}}"
+        "requestGameDesc": "Sinta-se à vontade para solicitar um jogo, reportar um bug ou fazer sugestões para ajudar a melhorar o app!",
+        "verifyAccount": "Olá,\n\n\n{{code}}"
       },
       "settings": {
-        "description": "Fique à vontade para solicitar um jogo, reportar um bug ou fazer sugestões para melhorar o app!",
         "setCollections": "Definir coleções:",
         "enabledDLC": "Ativar/Desativar DLC:",
         "showHide": "Aparecer esconder:",
@@ -856,6 +945,38 @@
         "zh": "chinês"
       },
       "categories": {
+        "fallout3": {
+          "title": "Fallout 3",
+          "categories": {
+            "quests": {
+              "tutorialQuests": "Missões de tutorial",
+              "mainQuests": "Missões principais",
+              "sideQuests": "Missões paralelas",
+              "unmarkedQuests": "Missões não marcadas",
+              "repeatableQuests": "Missões repetíveis"
+            },
+            "collectables": {
+              "bobbleheads": "Bobbleheads",
+              "uniqueArmor": "Armadura Única",
+              "uniqueWeapons": "Armas únicas"
+            },
+            "locations": {
+              "main": "Principal"
+            },
+            "miscellaneous": {
+              "holotapes": "Holotapes",
+              "notes": "Notas",
+              "skillBooks": "Livros de habilidades"
+            }
+          },
+          "dlc": {
+            "brokenSteel": "Aço Quebrado",
+            "mothershipZeta": "Nave-mãe Zeta",
+            "operationAnchorage": "Operação Ancoragem",
+            "pointLookout": "Mirante",
+            "thePitt": "O Pitt"
+          }
+        },
         "fallout4": {
           "title": "Efeito Fallout 4",
           "categories": {
@@ -867,9 +988,8 @@
             "collectables": {
               "bobbleheads": "Bobbleheads",
               "magazines": "Revistas",
-              "uniqueWeapons": "Armas únicas",
               "uniqueArmor": "Armadura Única",
-              "powerArmor": "Armadura Potente"
+              "uniqueWeapons": "Armas únicas"
             },
             "locations": {
               "main": "Principal"
@@ -956,7 +1076,7 @@
       "showMore": "もっと見せる",
       "none": "なし",
       "main": "主要",
-      "changesLeft": "残った変更点: ",
+      "changesLeft": "残された変更点: ",
       "active": "アクティブ",
       "inactive": "非活性",
       "auth": {
@@ -979,7 +1099,7 @@
         "gameSelection": "ゲームの選択",
         "sendRequest": "リクエストの送信",
         "subscriptions": "定期購入",
-        "selectAGame": "ゲームを選択してください",
+        "selectGame": "ゲームを選択してください",
         "addSteamId": "Steam IDの追加",
         "steamAchievements": "Steam の実績",
         "payments": "支払い",
@@ -989,13 +1109,13 @@
       },
       "login": {
         "instructions1": "パスワードには少なくとも以下が含まれている必要があります:",
-        "instructions2": "\n• 8文字\n• 大文字1文字\n• 小文字1文字\n• 数値1つ",
+        "instructions2": "\n• 8文字\n",
         "accountVerification": "メールを確認して確認コードを入力してください"
       },
       "selectGame": {
         "selectGameDesc1": "無料アカウントでは、毎月 1 つのゲームを選択して追跡できます。",
         "selectGameDesc2": "最初のゲームを以下から選択してください。",
-        "selectGameDesc3": "間違っても心配しないでください。月に 2 回変更できます。"
+        "selectGameDesc3": "間違っても心配しないでください。これは月に 1 回変更できます。"
       },
       "subscriptions": {
         "subscriptionDesc": "プレミアムサブスクリプションでは、\n",
@@ -1023,11 +1143,10 @@
       "sendRequest": {
         "subject": "主題",
         "writeRequest": "ここにリクエストを書いてください...",
-        "requestGameDesc": "ゲームのリクエスト、バグの報告、アプリを改善するための提案など、お気軽にどうぞ！",
-        "verifyAccount": "こんにちは、\n最近Completionistでアカウントを作成しました。\nアカウントを確認するには、アプリケーションに次のコードを入力してください：\n\n{{code}}"
+        "requestGameDesc": "ゲームをリクエストしたり、バグを報告したり、アプリを改善するための提案をしたりすることはお気軽にどうぞ！",
+        "verifyAccount": "こんにちは、\n\n\n{{code}}"
       },
       "settings": {
-        "description": "ゲームのリクエスト、バグの報告、アプリを改善するための提案など、お気軽にどうぞ！",
         "setCollections": "セットコレクション:",
         "enabledDLC": "DLC を有効/無効にする:",
         "showHide": "表示/非表示:",
@@ -1060,9 +1179,9 @@
         "checkCredentials": "資格情報を確認して、再試行してください。",
         "incorrectPw": "パスワードが間違っています。",
         "googleSignIn": "Googleサインインでのエラー",
-        "googleSignInMsg": "この Google アカウントの情報を取得する際に問題が発生しました。",
+        "googleSignInMsg": "この Google アカウントの情報を取得中に問題が発生しました。",
         "accountExists": "アカウントはすでに存在しています",
-        "accountExistsMsg": "これらのアカウントをリンクしますか",
+        "accountExistsMsg": "これらのアカウントをリンクしますか?",
         "permissionDenied": "許可が拒否されました",
         "permissionDeniedMsg": "Steam 設定を通じてアクセスを許可してください。",
         "unauthorized": "無許可",
@@ -1093,6 +1212,38 @@
         "zh": "中国語"
       },
       "categories": {
+        "fallout3": {
+          "title": "フォールアウト3",
+          "categories": {
+            "quests": {
+              "tutorialQuests": "チュートリアルクエスト",
+              "mainQuests": "メインクエスト",
+              "sideQuests": "サイドクエスト",
+              "unmarkedQuests": "マークのないクエスト",
+              "repeatableQuests": "繰り返し可能なクエスト"
+            },
+            "collectables": {
+              "bobbleheads": "ボブルヘッド",
+              "uniqueArmor": "ユニークな鎧",
+              "uniqueWeapons": "ユニークな武器"
+            },
+            "locations": {
+              "main": "主要"
+            },
+            "miscellaneous": {
+              "holotapes": "ホロテープ",
+              "notes": "ノート",
+              "skillBooks": "スキルブック"
+            }
+          },
+          "dlc": {
+            "brokenSteel": "壊れた鋼鉄",
+            "mothershipZeta": "母船ゼータ",
+            "operationAnchorage": "アンカレッジ作戦",
+            "pointLookout": "ポイント展望台",
+            "thePitt": "ザ・ピット"
+          }
+        },
         "fallout4": {
           "title": "フォールアウト4",
           "categories": {
@@ -1104,9 +1255,8 @@
             "collectables": {
               "bobbleheads": "ボブルヘッド",
               "magazines": "雑誌",
-              "uniqueWeapons": "ユニークな武器",
               "uniqueArmor": "ユニークな鎧",
-              "powerArmor": "パワーアーマー"
+              "uniqueWeapons": "ユニークな武器"
             },
             "locations": {
               "main": "主要"
@@ -1216,7 +1366,7 @@
         "gameSelection": "Selezione del gioco",
         "sendRequest": "Invia richiesta",
         "subscriptions": "Abbonamenti",
-        "selectAGame": "Seleziona un gioco",
+        "selectGame": "Seleziona un gioco",
         "addSteamId": "Aggiungi l'ID Steam",
         "steamAchievements": "Risultati di Steam",
         "payments": "Pagamento",
@@ -1226,13 +1376,13 @@
       },
       "login": {
         "instructions1": "La password deve contenere almeno:",
-        "instructions2": "\n• 8 caratteri \n• 1 lettera maiuscola\n• 1 lettera minuscola\n• 1 valore numerico",
+        "instructions2": "\n• 8 caratteri\n",
         "accountVerification": "Controlla le tue email e inserisci il codice di verifica"
       },
       "selectGame": {
         "selectGameDesc1": "Con un account gratuito, puoi selezionare un gioco al mese da monitorare.",
         "selectGameDesc2": "Seleziona il tuo primo gioco qui sotto!",
-        "selectGameDesc3": "Non preoccuparti se commetti un errore, potrai modificarlo due volte al mese"
+        "selectGameDesc3": "Non preoccuparti se commetti un errore, potrai modificarlo una volta al mese."
       },
       "subscriptions": {
         "subscriptionDesc": "Con un abbonamento Premium,\n",
@@ -1260,11 +1410,10 @@
       "sendRequest": {
         "subject": "Soggetto",
         "writeRequest": "Scrivi qui la tua richiesta...",
-        "requestGameDesc": "Sentiti libero di richiedere un gioco, segnalare un bug o dare qualche suggerimento per migliorare l'app!",
-        "verifyAccount": "Ciao,\nRecentemente hai creato un account con Completionist.\nPer verificare il tuo account, inserisci il seguente codice nell'applicazione:\n\n{{code}}"
+        "requestGameDesc": "Sentiti libero di richiedere un gioco, segnalare un bug o dare qualche suggerimento per contribuire a migliorare l'app!",
+        "verifyAccount": "Ciao,\n\n\n{{code}}"
       },
       "settings": {
-        "description": "Sentiti libero di richiedere un gioco, segnalare un bug o dare qualche suggerimento per migliorare l'app!",
         "setCollections": "Imposta raccolte:",
         "enabledDLC": "Abilita/Disabilita DLC:",
         "showHide": "Mostra nascondi:",
@@ -1330,6 +1479,38 @@
         "zh": "Cinese"
       },
       "categories": {
+        "fallout3": {
+          "title": "Fallout 3",
+          "categories": {
+            "quests": {
+              "tutorialQuests": "Missioni tutorial",
+              "mainQuests": "Missioni principali",
+              "sideQuests": "Missioni secondarie",
+              "unmarkedQuests": "Missioni non contrassegnate",
+              "repeatableQuests": "Missioni ripetibili"
+            },
+            "collectables": {
+              "bobbleheads": "Teste molleggiate",
+              "uniqueArmor": "Armatura unica",
+              "uniqueWeapons": "Armi uniche"
+            },
+            "locations": {
+              "main": "Principale"
+            },
+            "miscellaneous": {
+              "holotapes": "Olonastri",
+              "notes": "Appunti",
+              "skillBooks": "Libri di abilità"
+            }
+          },
+          "dlc": {
+            "brokenSteel": "Acciaio rotto",
+            "mothershipZeta": "Nave madre Zeta",
+            "operationAnchorage": "Operazione Ancoraggio",
+            "pointLookout": "Punto di vedetta",
+            "thePitt": "Il Pitt"
+          }
+        },
         "fallout4": {
           "title": "Fallout 4",
           "categories": {
@@ -1341,9 +1522,8 @@
             "collectables": {
               "bobbleheads": "Teste molleggiate",
               "magazines": "Riviste",
-              "uniqueWeapons": "Armi uniche",
               "uniqueArmor": "Armatura unica",
-              "powerArmor": "Armatura potenziata"
+              "uniqueWeapons": "Armi uniche"
             },
             "locations": {
               "main": "Principale"
@@ -1423,7 +1603,7 @@
   },
   "id": {
     "common": {
-      "appTitle": "Kompletionis.",
+      "appTitle": "Penyelesaian.",
       "welcome": "Selamat datang",
       "continue": "Melanjutkan",
       "search": "Cari item...",
@@ -1453,7 +1633,7 @@
         "gameSelection": "Pemilihan Permainan",
         "sendRequest": "Kirim Permintaan",
         "subscriptions": "Langganan",
-        "selectAGame": "Pilih Permainan",
+        "selectGame": "Pilih Permainan",
         "addSteamId": "Tambahkan ID Uap",
         "steamAchievements": "Prestasi Uap",
         "payments": "Pembayaran",
@@ -1463,13 +1643,13 @@
       },
       "login": {
         "instructions1": "Kata sandi setidaknya harus berisi:",
-        "instructions2": "\n• 8 karakter \n• 1 huruf besar\n• 1 huruf kecil\n• 1 nilai numerik",
+        "instructions2": "\n• 8 karakter\n",
         "accountVerification": "Periksa email Anda dan masukkan kode verifikasi"
       },
       "selectGame": {
         "selectGameDesc1": "Dengan akun Gratis, Anda dapat memilih satu game per bulan untuk dilacak.",
         "selectGameDesc2": "Pilih game pertama Anda di bawah ini!",
-        "selectGameDesc3": "Jangan khawatir jika Anda melakukan kesalahan, Anda dapat mengubahnya dua kali sebulan"
+        "selectGameDesc3": "Jangan khawatir jika Anda melakukan kesalahan, Anda dapat mengubahnya sebulan sekali."
       },
       "subscriptions": {
         "subscriptionDesc": "Dengan berlangganan Premium,\n",
@@ -1497,11 +1677,10 @@
       "sendRequest": {
         "subject": "Subjek",
         "writeRequest": "Tulis permintaan Anda di sini...",
-        "requestGameDesc": "Jangan ragu untuk meminta permainan, melaporkan bug, atau memberikan beberapa saran untuk meningkatkan aplikasi!",
-        "verifyAccount": "Halo,\nAnda baru saja membuat akun dengan Completionist.\nUntuk memverifikasi akun Anda, silakan masukkan kode berikut di aplikasi:\n\n{{code}}"
+        "requestGameDesc": "Jangan ragu untuk meminta permainan, melaporkan bug, atau memberikan beberapa saran untuk membantu meningkatkan aplikasi!",
+        "verifyAccount": "Halo,\n\n\n{{code}}"
       },
       "settings": {
-        "description": "Jangan ragu untuk meminta permainan, melaporkan bug, atau memberikan beberapa saran untuk meningkatkan aplikasi!",
         "setCollections": "Tetapkan koleksi:",
         "enabledDLC": "Aktifkan/Nonaktifkan DLC:",
         "showHide": "Tunjukan Sembunyikan:",
@@ -1536,7 +1715,7 @@
         "googleSignIn": "Terjadi kesalahan saat Masuk dengan Google",
         "googleSignInMsg": "Terjadi masalah saat mendapatkan info untuk akun Google ini.",
         "accountExists": "Akun sudah ada",
-        "accountExistsMsg": "Apakah Anda ingin menghubungkan akun-akun ini?",
+        "accountExistsMsg": "Apakah Anda ingin menautkan akun ini?",
         "permissionDenied": "Izin ditolak",
         "permissionDeniedMsg": "Harap izinkan akses melalui pengaturan Steam Anda.",
         "unauthorized": "Tidak sah",
@@ -1567,6 +1746,38 @@
         "zh": "Cina"
       },
       "categories": {
+        "fallout3": {
+          "title": "Kejatuhan 3",
+          "categories": {
+            "quests": {
+              "tutorialQuests": "Quest Tutorial",
+              "mainQuests": "Quest Utama",
+              "sideQuests": "Pencarian Sampingan",
+              "unmarkedQuests": "Quest yang Tidak Ditandai",
+              "repeatableQuests": "Quest yang Dapat Diulang"
+            },
+            "collectables": {
+              "bobbleheads": "Bobblehead",
+              "uniqueArmor": "Baju Besi Unik",
+              "uniqueWeapons": "Senjata Unik"
+            },
+            "locations": {
+              "main": "Utama"
+            },
+            "miscellaneous": {
+              "holotapes": "Holotape",
+              "notes": "Catatan",
+              "skillBooks": "Buku Keterampilan"
+            }
+          },
+          "dlc": {
+            "brokenSteel": "Baja Rusak",
+            "mothershipZeta": "Kapal Induk Zeta",
+            "operationAnchorage": "Operasi Pelabuhan",
+            "pointLookout": "Titik Pengamatan",
+            "thePitt": "Pitt"
+          }
+        },
         "fallout4": {
           "title": "Kejatuhan 4",
           "categories": {
@@ -1578,9 +1789,8 @@
             "collectables": {
               "bobbleheads": "Bobblehead",
               "magazines": "Majalah",
-              "uniqueWeapons": "Senjata Unik",
               "uniqueArmor": "Baju Besi Unik",
-              "powerArmor": "Armor Kekuatan"
+              "uniqueWeapons": "Senjata Unik"
             },
             "locations": {
               "main": "Utama"
@@ -1690,7 +1900,7 @@
         "gameSelection": "खेल चयन",
         "sendRequest": "अनुरोध भेजा",
         "subscriptions": "सदस्यता",
-        "selectAGame": "एक गेम चुनें",
+        "selectGame": "एक गेम चुनें",
         "addSteamId": "स्टीम आईडी जोड़ें",
         "steamAchievements": "भाप उपलब्धियाँ",
         "payments": "भुगतान",
@@ -1700,13 +1910,13 @@
       },
       "login": {
         "instructions1": "पासवर्ड में कम से कम ये होना चाहिए:",
-        "instructions2": "\n• 8 अक्षर \n• 1 बड़ा अक्षर\n• 1 छोटा अक्षर\n• 1 संख्यात्मक मान",
+        "instructions2": "\n• 8 अक्षर\n",
         "accountVerification": "अपने ईमेल जांचें और सत्यापन कोड दर्ज करें"
       },
       "selectGame": {
         "selectGameDesc1": "निःशुल्क खाते के साथ, आप ट्रैक करने के लिए प्रति माह एक गेम का चयन कर सकते हैं।",
         "selectGameDesc2": "नीचे अपना पहला गेम चुनें!",
-        "selectGameDesc3": "यदि आपसे कोई गलती हो तो चिंता न करें, आप इसे प्रति माह दो बार बदल सकेंगे"
+        "selectGameDesc3": "अगर आपसे कोई गलती हो जाए तो चिंता न करें, आप इसे महीने में एक बार बदल सकेंगे।"
       },
       "subscriptions": {
         "subscriptionDesc": "प्रीमियम सदस्यता के साथ,\n",
@@ -1734,11 +1944,10 @@
       "sendRequest": {
         "subject": "विषय",
         "writeRequest": "अपना अनुरोध यहां लिखें...",
-        "requestGameDesc": "बेझिझक किसी गेम के लिए अनुरोध करें, बग की रिपोर्ट करें या ऐप को बेहतर बनाने के लिए कुछ सुझाव दें!",
-        "verifyAccount": "नमस्ते, \nआपने हाल ही में कंप्लीशनिस्ट के साथ एक खाता बनाया है।\nअपना खाता सत्यापित करने के लिए, कृपया आवेदन में निम्नलिखित कोड दर्ज करें:\n\n{{code}}"
+        "requestGameDesc": "बेझिझक किसी गेम के लिए अनुरोध करें, बग की रिपोर्ट करें या ऐप को बेहतर बनाने में मदद के लिए कुछ सुझाव दें!",
+        "verifyAccount": "नमस्ते,\n\n\n{{code}}"
       },
       "settings": {
-        "description": "बेझिझक किसी गेम के लिए अनुरोध करें, बग की रिपोर्ट करें या ऐप को बेहतर बनाने के लिए कुछ सुझाव दें!",
         "setCollections": "संग्रह सेट करें:",
         "enabledDLC": "डीएलसी सक्षम/अक्षम करें:",
         "showHide": "छिपा हुया दिखाओ:",
@@ -1804,6 +2013,38 @@
         "zh": "चीनी"
       },
       "categories": {
+        "fallout3": {
+          "title": "फ़ॉल आउट 3",
+          "categories": {
+            "quests": {
+              "tutorialQuests": "ट्यूटोरियल क्वेस्ट",
+              "mainQuests": "मुख्य प्रश्न",
+              "sideQuests": "भीतर छिपे सवाल",
+              "unmarkedQuests": "अचिह्नित खोज",
+              "repeatableQuests": "दोहराए जाने योग्य क्वेस्ट"
+            },
+            "collectables": {
+              "bobbleheads": "बॉबलहेड्स",
+              "uniqueArmor": "अनोखा कवच",
+              "uniqueWeapons": "अनोखे हथियार"
+            },
+            "locations": {
+              "main": "मुख्य"
+            },
+            "miscellaneous": {
+              "holotapes": "होलोटेप्स",
+              "notes": "टिप्पणियाँ",
+              "skillBooks": "कौशल पुस्तकें"
+            }
+          },
+          "dlc": {
+            "brokenSteel": "टूटा हुआ स्टील",
+            "mothershipZeta": "मदरशिप ज़ेटा",
+            "operationAnchorage": "ऑपरेशन एंकरेज",
+            "pointLookout": "प्वाइंट लुकआउट",
+            "thePitt": "पिट"
+          }
+        },
         "fallout4": {
           "title": "नतीजा 4",
           "categories": {
@@ -1815,9 +2056,8 @@
             "collectables": {
               "bobbleheads": "बॉबलहेड्स",
               "magazines": "पत्रिका",
-              "uniqueWeapons": "अनोखे हथियार",
               "uniqueArmor": "अनोखा कवच",
-              "powerArmor": "शक्ति कवच"
+              "uniqueWeapons": "अनोखे हथियार"
             },
             "locations": {
               "main": "मुख्य"
@@ -1927,7 +2167,7 @@
         "gameSelection": "Sélection de jeux",
         "sendRequest": "Envoyer une demande",
         "subscriptions": "Abonnements",
-        "selectAGame": "Sélectionnez un jeu",
+        "selectGame": "Sélectionnez un jeu",
         "addSteamId": "Ajouter un identifiant Steam",
         "steamAchievements": "Succès Steam",
         "payments": "Paiement",
@@ -1936,14 +2176,14 @@
         "verifyAccount": "Vérifiez votre compte"
       },
       "login": {
-        "instructions1": "Le mot de passe doit contenir au moins :",
-        "instructions2": "\n• 8 caractères \n• 1 lettre Majuscule\n• 1 lettre minuscule\n• 1 valeur numérique",
+        "instructions1": "Le mot de passe doit contenir au moins :",
+        "instructions2": "\n• 8 caractères\n",
         "accountVerification": "Vérifiez vos e-mails et entrez le code de vérification"
       },
       "selectGame": {
         "selectGameDesc1": "Avec un compte gratuit, vous pouvez sélectionner un jeu par mois à suivre.",
         "selectGameDesc2": "Sélectionnez votre premier jeu ci-dessous !",
-        "selectGameDesc3": "Ne vous inquiétez pas si vous faites une erreur, vous pourrez changer cela deux fois par mois"
+        "selectGameDesc3": "Ne vous inquiétez pas si vous faites une erreur, vous pourrez changer cela une fois par mois."
       },
       "subscriptions": {
         "subscriptionDesc": "Avec un abonnement Premium,\n",
@@ -1972,10 +2212,9 @@
         "subject": "Sujet",
         "writeRequest": "Écrivez votre demande ici...",
         "requestGameDesc": "N'hésitez pas à demander un jeu, signaler un bug ou faire des suggestions pour améliorer l'application !",
-        "verifyAccount": "Bonjour,\nVous avez récemment créé un compte chez Completionist.\nPour vérifier votre compte, veuillez saisir le code suivant dans l'application :\n\n{{code}}"
+        "verifyAccount": "Bonjour,\n\n\n{{code}}"
       },
       "settings": {
-        "description": "N'hésitez pas à demander un jeu, signaler un bug ou faire des suggestions pour améliorer l'application !",
         "setCollections": "Définir les collections :",
         "enabledDLC": "Activer/Désactiver le DLC :",
         "showHide": "Afficher/Masquer :",
@@ -2005,13 +2244,12 @@
         "emailAlreadyExists": "l'email existe déjà",
         "emailNotFound": "Email non trouvé",
         "noEmailExists": "L'e-mail n'existe pas",
-        "ok": "D'accord",
         "checkCredentials": "Veuillez vérifier vos informations d'identification et réessayer.",
         "incorrectPw": "Mot de passe incorrect. ",
         "googleSignIn": "Erreur avec la connexion Google",
         "googleSignInMsg": "Problème pour obtenir des informations sur ce compte Google.",
         "accountExists": "Le compte existe déjà",
-        "accountExistsMsg": "Souhaitez-vous lier ces comptes ?",
+        "accountExistsMsg": "Souhaitez-vous associer ces comptes ?",
         "permissionDenied": "Permission refusée",
         "permissionDeniedMsg": "Veuillez autoriser l'accès via vos paramètres Steam.",
         "unauthorized": "Non autorisé",
@@ -2042,6 +2280,38 @@
         "zh": "Chinois"
       },
       "categories": {
+        "fallout3": {
+          "title": "Fallout 3",
+          "categories": {
+            "quests": {
+              "tutorialQuests": "Quêtes du didacticiel",
+              "mainQuests": "Quêtes principales",
+              "sideQuests": "Quêtes secondaires",
+              "unmarkedQuests": "Quêtes non marquées",
+              "repeatableQuests": "Quêtes répétables"
+            },
+            "collectables": {
+              "bobbleheads": "Figurines à pompons",
+              "uniqueArmor": "Armure unique",
+              "uniqueWeapons": "Armes uniques"
+            },
+            "locations": {
+              "main": "Principal"
+            },
+            "miscellaneous": {
+              "holotapes": "Holobandes",
+              "notes": "Remarques",
+              "skillBooks": "Livres de compétences"
+            }
+          },
+          "dlc": {
+            "brokenSteel": "Acier cassé",
+            "mothershipZeta": "Vaisseau mère Zeta",
+            "operationAnchorage": "Opération Ancrage",
+            "pointLookout": "Point d'observation",
+            "thePitt": "Le Pitt"
+          }
+        },
         "fallout4": {
           "title": "Fallout 4",
           "categories": {
@@ -2053,9 +2323,8 @@
             "collectables": {
               "bobbleheads": "Figurines à pompons",
               "magazines": "Les magazines",
-              "uniqueWeapons": "Armes uniques",
               "uniqueArmor": "Armure unique",
-              "powerArmor": "Armure assistée"
+              "uniqueWeapons": "Armes uniques"
             },
             "locations": {
               "main": "Principal"
@@ -2105,7 +2374,7 @@
           },
           "dlc": {
             "dawnguard": "Garde-aube",
-            "dragonborn": "Enfant de dragon",
+            "dragonborn": "Enfant de Dragon",
             "hearthfire": "Feu de foyer"
           }
         },
@@ -2165,7 +2434,7 @@
         "gameSelection": "Selección de juego",
         "sendRequest": "Enviar petición",
         "subscriptions": "Suscripciones",
-        "selectAGame": "Seleccione un juego",
+        "selectGame": "Seleccione un juego",
         "addSteamId": "Agregar ID de Steam",
         "steamAchievements": "Logros de Steam",
         "payments": "Pago",
@@ -2175,13 +2444,13 @@
       },
       "login": {
         "instructions1": "La contraseña debe contener al menos:",
-        "instructions2": "\n• 8 personajes \n• 1 letra mayúscula\n• 1 letra minúscula\n• 1 valor numérico",
+        "instructions2": "\n• 8 caracteres\n",
         "accountVerification": "Revisa tus correos electrónicos e ingresa el código de verificación"
       },
       "selectGame": {
         "selectGameDesc1": "Con una cuenta gratuita, puedes seleccionar un juego por mes para realizar el seguimiento.",
         "selectGameDesc2": "¡Selecciona tu primer juego a continuación!",
-        "selectGameDesc3": "No te preocupes si cometes un error, podrás cambiarlo dos veces al mes."
+        "selectGameDesc3": "No te preocupes si cometes un error, podrás cambiar esto una vez al mes."
       },
       "subscriptions": {
         "subscriptionDesc": "Con una suscripción Premium,\n",
@@ -2209,11 +2478,10 @@
       "sendRequest": {
         "subject": "Sujeto",
         "writeRequest": "Escribe tu solicitud aquí...",
-        "requestGameDesc": "¡No dudes en solicitar un juego, informar un error o hacer algunas sugerencias para mejorar la aplicación!",
-        "verifyAccount": "Hola,\nRecientemente has creado una cuenta con Completionist.\nPara verificar su cuenta, ingrese el siguiente código en la aplicación:\n\n{{code}}"
+        "requestGameDesc": "¡No dudes en solicitar un juego, informar un error o hacer algunas sugerencias para ayudar a mejorar la aplicación!",
+        "verifyAccount": "Hola,\n\n\n{{code}}"
       },
       "settings": {
-        "description": "¡No dudes en solicitar un juego, informar un error o hacer algunas sugerencias para mejorar la aplicación!",
         "setCollections": "Establecer colecciones:",
         "enabledDLC": "Activar/Desactivar DLC:",
         "showHide": "Mostrar ocultar:",
@@ -2248,7 +2516,7 @@
         "googleSignIn": "Error al iniciar sesión en Google",
         "googleSignInMsg": "Problema para obtener información para esta cuenta de Google.",
         "accountExists": "la cuenta ya existe",
-        "accountExistsMsg": "¿Te gustaría enlazar estas cuentas?",
+        "accountExistsMsg": "¿Le gustaría vincular estas cuentas?",
         "permissionDenied": "Permiso denegado",
         "permissionDeniedMsg": "Permita el acceso a través de la configuración de Steam.",
         "unauthorized": "No autorizado",
@@ -2279,6 +2547,38 @@
         "zh": "Chino"
       },
       "categories": {
+        "fallout3": {
+          "title": "Fallout 3",
+          "categories": {
+            "quests": {
+              "tutorialQuests": "Misiones tutoriales",
+              "mainQuests": "Misiones principales",
+              "sideQuests": "Misiones secundarias",
+              "unmarkedQuests": "Misiones sin marcar",
+              "repeatableQuests": "Misiones repetibles"
+            },
+            "collectables": {
+              "bobbleheads": "muñecos",
+              "uniqueArmor": "Armadura única",
+              "uniqueWeapons": "Armas únicas"
+            },
+            "locations": {
+              "main": "Principal"
+            },
+            "miscellaneous": {
+              "holotapes": "holocintas",
+              "notes": "Notas",
+              "skillBooks": "Libros de habilidades"
+            }
+          },
+          "dlc": {
+            "brokenSteel": "Acero roto",
+            "mothershipZeta": "Nave nodriza Zeta",
+            "operationAnchorage": "Operación Anchorage",
+            "pointLookout": "Mirador del punto",
+            "thePitt": "La fosa"
+          }
+        },
         "fallout4": {
           "title": "consecuencias 4",
           "categories": {
@@ -2290,9 +2590,8 @@
             "collectables": {
               "bobbleheads": "muñecos",
               "magazines": "Revistas",
-              "uniqueWeapons": "Armas únicas",
               "uniqueArmor": "Armadura única",
-              "powerArmor": "Armadura de poder"
+              "uniqueWeapons": "Armas únicas"
             },
             "locations": {
               "main": "Principal"
@@ -2402,7 +2701,7 @@
         "gameSelection": "Game Selection",
         "sendRequest": "Send Request",
         "subscriptions": "Subscriptions",
-        "selectAGame": "Select a Game",
+        "selectGame": "Select a Game",
         "addSteamId": "Add Steam ID",
         "steamAchievements": "Steam Achievements",
         "payments": "Payment",
@@ -2418,7 +2717,7 @@
       "selectGame": {
         "selectGameDesc1": "With a Free account, you can select one game per month to track.",
         "selectGameDesc2": "Select your first game below!",
-        "selectGameDesc3": "Don't worry if you make a mistake, you'll be able to change this twice per month"
+        "selectGameDesc3": "Don't worry if you make a mistake, you'll be able to change this once per month."
       },
       "subscriptions": {
         "subscriptionDesc": "With a Premium subscription,\nyou will gain access to Premium Features such as:",
@@ -2446,11 +2745,10 @@
       "sendRequest": {
         "subject": "Subject",
         "writeRequest": "Write your request here...",
-        "requestGameDesc": "Feel free to request a game, report a bug or make some suggestions to improve the app!",
+        "requestGameDesc": "Feel free to request a game, report a bug or make some suggestions to help improve the app!",
         "verifyAccount": "Hello,\nYou have recently created an account with Completionist.\nTo verify your account, please enter the following code in the application:\n\n{{code}}"
       },
       "settings": {
-        "description": "Feel free to request a game, report a bug or make some suggestions to improve the app!",
         "setCollections": "Set collections:",
         "enabledDLC": "Enable/Disable DLC:",
         "showHide": "Show/Hide:",
@@ -2520,7 +2818,7 @@
           "title": "Fallout 3",
           "categories": {
             "quests": {
-              "tutorialQuests": "tutorialQuests",
+              "tutorialQuests": "Tutorial Quests",
               "mainQuests": "Main Quests",
               "sideQuests": "Side Quests",
               "unmarkedQuests": "Unmarked Quests",
@@ -2538,14 +2836,14 @@
               "holotapes": "Holotapes",
               "notes": "Notes",
               "skillBooks": "Skill Books"
-            },
-            "dlc": {
-              "brokenSteel": "Broken Steel",
-              "mothershipZeta": "Mothership Zeta",
-              "operationAnchorage": "Operation Anchorage",
-              "pointLookout": "Point Lookout",
-              "thePitt": "The Pitt"
             }
+          },
+          "dlc": {
+            "brokenSteel": "Broken Steel",
+            "mothershipZeta": "Mothership Zeta",
+            "operationAnchorage": "Operation Anchorage",
+            "pointLookout": "Point Lookout",
+            "thePitt": "The Pitt"
           }
         },
         "fallout4": {
@@ -2670,7 +2968,7 @@
         "gameSelection": "Spielauswahl",
         "sendRequest": "Anfrage senden",
         "subscriptions": "Abonnements",
-        "selectAGame": "Wählen Sie ein Spiel aus",
+        "selectGame": "Wählen Sie ein Spiel aus",
         "addSteamId": "Steam-ID hinzufügen",
         "steamAchievements": "Steam-Erfolge",
         "payments": "Zahlung",
@@ -2680,13 +2978,13 @@
       },
       "login": {
         "instructions1": "Das Passwort muss mindestens Folgendes enthalten:",
-        "instructions2": "\n• 8 Charaktere \n• 1 Großbuchstabe\n• 1 Kleinbuchstabe\n• 1 numerischer Wert",
+        "instructions2": "\n• 8 Charaktere\n",
         "accountVerification": "Überprüfen Sie Ihre E-Mails und geben Sie den Bestätigungscode ein"
       },
       "selectGame": {
         "selectGameDesc1": "Mit einem kostenlosen Konto können Sie ein Spiel pro Monat zum Verfolgen auswählen.",
         "selectGameDesc2": "Wählen Sie unten Ihr erstes Spiel aus!",
-        "selectGameDesc3": "Machen Sie sich keine Sorgen, wenn Sie einen Fehler machen. Sie können dies zweimal im Monat ändern"
+        "selectGameDesc3": "Machen Sie sich keine Sorgen, wenn Sie einen Fehler machen. Sie können dies einmal im Monat ändern."
       },
       "subscriptions": {
         "subscriptionDesc": "Mit einem Premium-Abonnement\n",
@@ -2715,10 +3013,9 @@
         "subject": "Thema",
         "writeRequest": "Schreiben Sie hier Ihre Anfrage...",
         "requestGameDesc": "Fordern Sie gerne ein Spiel an, melden Sie einen Fehler oder machen Sie Vorschläge zur Verbesserung der App!",
-        "verifyAccount": "Hallo,\nSie haben kürzlich ein Konto bei Completionist erstellt.\nUm Ihr Konto zu verifizieren, geben Sie bitte den folgenden Code in den Antrag ein:\n\n{{code}}"
+        "verifyAccount": "Hallo,\n\n\n{{code}}"
       },
       "settings": {
-        "description": "Fordern Sie gerne ein Spiel an, melden Sie einen Fehler oder machen Sie Vorschläge zur Verbesserung der App!",
         "setCollections": "Set-Sammlungen:",
         "enabledDLC": "DLC aktivieren/deaktivieren:",
         "showHide": "Anzeigen Ausblenden:",
@@ -2784,6 +3081,38 @@
         "zh": "Chinesisch"
       },
       "categories": {
+        "fallout3": {
+          "title": "Fallout 3",
+          "categories": {
+            "quests": {
+              "tutorialQuests": "Tutorial-Quests",
+              "mainQuests": "Hauptquests",
+              "sideQuests": "Nebenmissionen",
+              "unmarkedQuests": "Nicht markierte Quests",
+              "repeatableQuests": "Wiederholbare Quests"
+            },
+            "collectables": {
+              "bobbleheads": "Wackelköpfe",
+              "uniqueArmor": "Einzigartige Rüstung",
+              "uniqueWeapons": "Einzigartige Waffen"
+            },
+            "locations": {
+              "main": "Hauptsächlich"
+            },
+            "miscellaneous": {
+              "holotapes": "Holobänder",
+              "notes": "Anmerkungen",
+              "skillBooks": "Fertigkeitsbücher"
+            }
+          },
+          "dlc": {
+            "brokenSteel": "Gebrochener Stahl",
+            "mothershipZeta": "Mutterschiff Zeta",
+            "operationAnchorage": "Operation Anchorage",
+            "pointLookout": "Aussichtspunkt",
+            "thePitt": "Der Pitt"
+          }
+        },
         "fallout4": {
           "title": "Fallout 4",
           "categories": {
@@ -2795,9 +3124,8 @@
             "collectables": {
               "bobbleheads": "Wackelköpfe",
               "magazines": "Zeitschriften",
-              "uniqueWeapons": "Einzigartige Waffen",
               "uniqueArmor": "Einzigartige Rüstung",
-              "powerArmor": "Powerrüstung"
+              "uniqueWeapons": "Einzigartige Waffen"
             },
             "locations": {
               "main": "Hauptsächlich"
@@ -2907,7 +3235,7 @@
         "gameSelection": "اختيار اللعبة",
         "sendRequest": "ارسل طلب",
         "subscriptions": "الاشتراكات",
-        "selectAGame": "اختر لعبة",
+        "selectGame": "اختر لعبة",
         "addSteamId": "أضف معرف البخار",
         "steamAchievements": "إنجازات البخار",
         "payments": "قسط",
@@ -2917,13 +3245,13 @@
       },
       "login": {
         "instructions1": "يجب أن تحتوي كلمة المرور على الأقل على:",
-        "instructions2": "\n• 8 أحرف \n• 1 حرف كبير\n• 1 حرف صغير\n• 1 قيمة رقمية",
+        "instructions2": "\n• 8 أحرف\n",
         "accountVerification": "تحقق من رسائل البريد الإلكتروني الخاصة بك وأدخل رمز التحقق"
       },
       "selectGame": {
         "selectGameDesc1": "باستخدام الحساب المجاني، يمكنك اختيار لعبة واحدة كل شهر لتتبعها.",
         "selectGameDesc2": "اختر لعبتك الأولى أدناه!",
-        "selectGameDesc3": "لا تقلق إذا ارتكبت أي خطأ، فستتمكن من تغيير هذا مرتين شهريًا"
+        "selectGameDesc3": "لا تقلق إذا ارتكبت أي خطأ، فستتمكن من تغيير هذا مرة واحدة شهريًا."
       },
       "subscriptions": {
         "subscriptionDesc": "مع اشتراك بريميوم،\n",
@@ -2951,11 +3279,10 @@
       "sendRequest": {
         "subject": "موضوع",
         "writeRequest": "أكتب طلبك هنا...",
-        "requestGameDesc": "لا تتردد في طلب لعبة أو الإبلاغ عن خطأ أو تقديم بعض الاقتراحات لتحسين التطبيق!",
-        "verifyAccount": "مرحبًا، ,\nلقد قمت مؤخرًا بإنشاء حساب مع Completionist.\nللتحقق من حسابك، يرجى إدخال الرمز التالي في التطبيق:\n\n{{code}}"
+        "requestGameDesc": "لا تتردد في طلب لعبة أو الإبلاغ عن خطأ أو تقديم بعض الاقتراحات للمساعدة في تحسين التطبيق!",
+        "verifyAccount": "مرحبًا،\n\n\n{{code}}"
       },
       "settings": {
-        "description": "لا تتردد في طلب لعبة أو الإبلاغ عن خطأ أو تقديم بعض الاقتراحات لتحسين التطبيق!",
         "setCollections": "تعيين المجموعات:",
         "enabledDLC": "تمكين/تعطيل المحتوى القابل للتنزيل:",
         "showHide": "اظهر المخفي:",
@@ -3021,6 +3348,38 @@
         "zh": "صينى"
       },
       "categories": {
+        "fallout3": {
+          "title": "تداعيات 3",
+          "categories": {
+            "quests": {
+              "tutorialQuests": "أسئلة البرنامج التعليمي",
+              "mainQuests": "المهام الرئيسية",
+              "sideQuests": "أسئلة جانبية",
+              "unmarkedQuests": "مهام غير محددة",
+              "repeatableQuests": "أسئلة متكررة"
+            },
+            "collectables": {
+              "bobbleheads": "رؤؤس فقاعية",
+              "uniqueArmor": "درع فريد",
+              "uniqueWeapons": "أسلحة فريدة من نوعها"
+            },
+            "locations": {
+              "main": "رئيسي"
+            },
+            "miscellaneous": {
+              "holotapes": "هولوتابس",
+              "notes": "ملحوظات",
+              "skillBooks": "كتب المهارات"
+            }
+          },
+          "dlc": {
+            "brokenSteel": "الفولاذ المكسور",
+            "mothershipZeta": "الأم زيتا",
+            "operationAnchorage": "عملية مرسى",
+            "pointLookout": "نقطة مراقبة",
+            "thePitt": "البيت"
+          }
+        },
         "fallout4": {
           "title": "تداعيات 4",
           "categories": {
@@ -3032,9 +3391,8 @@
             "collectables": {
               "bobbleheads": "رؤؤس فقاعية",
               "magazines": "المجلات",
-              "uniqueWeapons": "أسلحة فريدة من نوعها",
               "uniqueArmor": "درع فريد",
-              "powerArmor": "درع القوة"
+              "uniqueWeapons": "أسلحة فريدة من نوعها"
             },
             "locations": {
               "main": "رئيسي"

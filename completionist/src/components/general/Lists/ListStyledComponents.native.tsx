@@ -11,7 +11,8 @@ export const listStyles = StyleSheet.create({
 		alignItems: 'center'
   },
   listItemList: {
-    alignItems: 'center'
+    alignItems: 'center',
+		paddingBottom: 20
   },
   selectableButton: {
     minHeight: 45,

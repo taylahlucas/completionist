@@ -29,23 +29,23 @@
     "gameSelection": "Selección de juego",
     "sendRequest": "Enviar petición",
     "subscriptions": "Suscripciones",
-    "selectAGame": "Seleccione un juego",
+    "selectGame": "Seleccione un juego",
     "addSteamId": "Agregar ID de Steam",
     "steamAchievements": "Logros de Steam",
     "payments": "Pago",
     "settings": "Ajustes",
-		"accountDetails": "detalles de la cuenta",
+    "accountDetails": "detalles de la cuenta",
     "verifyAccount": "Verifica tu cuenta"
   },
   "login": {
     "instructions1": "La contraseña debe contener al menos:",
-    "instructions2": "\n\u2022 8 personajes \n\u2022 1 letra mayúscula\n\u2022 1 letra minúscula\n\u2022 1 valor numérico",
+    "instructions2": "\n• 8 caracteres\n",
     "accountVerification": "Revisa tus correos electrónicos e ingresa el código de verificación"
   },
   "selectGame": {
     "selectGameDesc1": "Con una cuenta gratuita, puedes seleccionar un juego por mes para realizar el seguimiento.",
     "selectGameDesc2": "¡Selecciona tu primer juego a continuación!",
-    "selectGameDesc3": "No te preocupes si cometes un error, podrás cambiarlo dos veces al mes."
+    "selectGameDesc3": "No te preocupes si cometes un error, podrás cambiar esto una vez al mes."
   },
   "subscriptions": {
     "subscriptionDesc": "Con una suscripción Premium,\n",
@@ -72,12 +72,11 @@
   },
   "sendRequest": {
     "subject": "Sujeto",
-		"writeRequest": "Escribe tu solicitud aquí...",
-    "requestGameDesc": "¡No dudes en solicitar un juego, informar un error o hacer algunas sugerencias para mejorar la aplicación!",
-    "verifyAccount": "Hola,\nRecientemente has creado una cuenta con Completionist.\nPara verificar su cuenta, ingrese el siguiente código en la aplicación:\n\n{{code}}"
+    "writeRequest": "Escribe tu solicitud aquí...",
+    "requestGameDesc": "¡No dudes en solicitar un juego, informar un error o hacer algunas sugerencias para ayudar a mejorar la aplicación!",
+    "verifyAccount": "Hola,\n\n\n{{code}}"
   },
   "settings": {
-    "description": "¡No dudes en solicitar un juego, informar un error o hacer algunas sugerencias para mejorar la aplicación!",
     "setCollections": "Establecer colecciones:",
     "enabledDLC": "Activar/Desactivar DLC:",
     "showHide": "Mostrar ocultar:",
@@ -98,7 +97,7 @@
     "addSteamIdDesc2": "Puedes encontrar la identificación en la parte superior de tu perfil. ",
     "addSteamIdStep2": "Paso 2. Actualice sus preferencias de privacidad",
     "addSteamIdDesc3": "También deberá asegurarse de que su perfil sea público.",
-		"addSteamIdDesc4": "Puedes hacerlo dirigiéndote a Preferencias de Steam -> Configuración de privacidad",
+    "addSteamIdDesc4": "Puedes hacerlo dirigiéndote a Preferencias de Steam -> Configuración de privacidad",
     "steamIdPlaceholder": "Identificacion de Steam"
   },
   "errors": {
@@ -112,7 +111,7 @@
     "googleSignIn": "Error al iniciar sesión en Google",
     "googleSignInMsg": "Problema para obtener información para esta cuenta de Google.",
     "accountExists": "la cuenta ya existe",
-    "accountExistsMsg": "¿Te gustaría enlazar estas cuentas?",
+    "accountExistsMsg": "¿Le gustaría vincular estas cuentas?",
     "permissionDenied": "Permiso denegado",
     "permissionDeniedMsg": "Permita el acceso a través de la configuración de Steam.",
     "unauthorized": "No autorizado",
@@ -120,7 +119,7 @@
     "steamAchievements": "No se pudieron obtener logros de Steam para este juego."
   },
   "alerts": {
-		"ok": "De acuerdo",
+    "ok": "De acuerdo",
     "activate": "Activar",
     "cancel": "Cancelar",
     "changesLeft": "Usted tendrá {{changesLeft}} cambiar{{s}} izquierda.",
@@ -143,6 +142,38 @@
     "zh": "Chino"
   },
   "categories": {
+    "fallout3": {
+      "title": "Fallout 3",
+      "categories": {
+        "quests": {
+          "tutorialQuests": "Misiones tutoriales",
+          "mainQuests": "Misiones principales",
+          "sideQuests": "Misiones secundarias",
+          "unmarkedQuests": "Misiones sin marcar",
+          "repeatableQuests": "Misiones repetibles"
+        },
+        "collectables": {
+          "bobbleheads": "muñecos",
+          "uniqueArmor": "Armadura única",
+          "uniqueWeapons": "Armas únicas"
+        },
+        "locations": {
+          "main": "Principal"
+        },
+        "miscellaneous": {
+          "holotapes": "holocintas",
+          "notes": "Notas",
+          "skillBooks": "Libros de habilidades"
+        }
+      },
+			"dlc": {
+				"brokenSteel": "Acero roto",
+				"mothershipZeta": "Nave nodriza Zeta",
+				"operationAnchorage": "Operación Anchorage",
+				"pointLookout": "Mirador del punto",
+				"thePitt": "La fosa"
+			}
+    },
     "fallout4": {
       "title": "consecuencias 4",
       "categories": {
@@ -154,9 +185,8 @@
         "collectables": {
           "bobbleheads": "muñecos",
           "magazines": "Revistas",
-          "uniqueWeapons": "Armas únicas",
           "uniqueArmor": "Armadura única",
-          "powerArmor": "Armadura de poder"
+          "uniqueWeapons": "Armas únicas"
         },
         "locations": {
           "main": "Principal"

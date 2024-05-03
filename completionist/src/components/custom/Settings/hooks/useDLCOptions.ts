@@ -45,7 +45,18 @@ const useDLCOptions = (): DLCOptionsReturnType => {
   };
 
   const getDLCOptions = (): SettingsListItem[] => {
+		console.log("HERE: ", selectedGameSettings)
+		// TODO: Refactor
     switch (selectedGameSettings) {
+			case GameKeyEnum.FALLOUT_3:
+        return user.data.fallout3.settingsConfig.dlc.map((item) => {
+          return {
+            id: item.id,
+            title: t(`common:categories.fallout3.dlc.${item.id}`),
+            isActive: item.isActive
+          }
+        });
+
 			case GameKeyEnum.FALLOUT_4:
         return user.data.fallout4.settingsConfig.dlc.map((item) => {
           return {
@@ -69,8 +80,8 @@ const useDLCOptions = (): DLCOptionsReturnType => {
 						return {
 							id: item.id,
 							// TODO: Title
-							title:item.title,
-							// title: t(`categories:fallout4.dlc.${item.id}`),
+							// title: item.title,
+							title: t(`common:categories:witcher3.dlc.${item.id}`),
 							isActive: item.isActive
 						}
 					});

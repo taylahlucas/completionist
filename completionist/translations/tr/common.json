@@ -29,7 +29,7 @@
     "gameSelection": "Oyun Seçimi",
     "sendRequest": "İstek gönder",
     "subscriptions": "Abonelikler",
-    "selectAGame": "Bir Oyun Seçin",
+    "selectGame": "Bir Oyun Seçin",
     "addSteamId": "Steam Kimliği Ekle",
     "steamAchievements": "Steam Başarıları",
     "payments": "Ödeme",
@@ -39,13 +39,13 @@
   },
   "login": {
     "instructions1": "Şifre en az şunları içermelidir:",
-    "instructions2": "\n\u2022 8 karakter \n\u2022 1 büyük harf\n\u2022 1 küçük harf\n\u2022 1 sayısal değer",
+    "instructions2": "\n• 8 karakter\n",
     "accountVerification": "E-postalarınızı kontrol edin ve doğrulama kodunu girin"
   },
   "selectGame": {
     "selectGameDesc1": "Ücretsiz bir hesapla, takip etmek için ayda bir oyun seçebilirsiniz.",
     "selectGameDesc2": "Aşağıdan ilk oyununuzu seçin!",
-    "selectGameDesc3": "Hata yaparsanız endişelenmeyin, bunu ayda iki kez değiştirebileceksiniz."
+    "selectGameDesc3": "Hata yaparsanız endişelenmeyin, bunu ayda bir kez değiştirebileceksiniz."
   },
   "subscriptions": {
     "subscriptionDesc": "Premium abonelikle,\n",
@@ -73,16 +73,15 @@
   "sendRequest": {
     "subject": "Ders",
     "writeRequest": "Talebinizi buraya yazın...",
-		"requestGameDesc": "Bir oyun talep etmekten, bir hatayı bildirmekten veya uygulamayı geliştirmek için bazı önerilerde bulunmaktan çekinmeyin!",
-    "verifyAccount": "Merhaba,\nYakın zamanda Completionist'te bir hesap oluşturdunuz.\nHesabınızı doğrulamak için lütfen uygulamaya aşağıdaki kodu girin:\n\n{{code}}"
+    "requestGameDesc": "Bir oyun talep etmekten, bir hatayı bildirmekten veya uygulamanın iyileştirilmesine yardımcı olacak bazı önerilerde bulunmaktan çekinmeyin!",
+    "verifyAccount": "Merhaba,\n\n\n{{code}}"
   },
   "settings": {
-    "description": "Bir oyun talep etmekten, bir hatayı bildirmekten veya uygulamayı geliştirmek için bazı önerilerde bulunmaktan çekinmeyin!",
     "setCollections": "Koleksiyonları ayarlayın:",
     "enabledDLC": "DLC'yi Etkinleştir/Devre Dışı Bırak:",
     "showHide": "Göster/Gizle:",
     "completedItems": "Tamamlanan Öğeler",
-    "disabledSections": "Engelli Bölümleri",
+    "disabledSections": "Engelli Bölümler",
     "changeAccountDetails": "Hesap Ayrıntılarını Değiştir",
     "selectLanguage": "Dil Seçin:"
   },
@@ -109,7 +108,7 @@
     "noEmailExists": "E-posta mevcut değil",
     "checkCredentials": "Lütfen kimlik bilgilerinizi kontrol edip tekrar deneyin.",
     "incorrectPw": "Yanlış parola. ",
-    "googleSignIn": "Google Oturum Açma Hatası",
+    "googleSignIn": "Google ile Oturum Açma Hatası",
     "googleSignInMsg": "Bu Google hesabı için bilgi alınırken sorun oluştu.",
     "accountExists": "Bu Hesap Zaten Mevcut",
     "accountExistsMsg": "Bu hesapları bağlamak ister misiniz?",
@@ -120,7 +119,7 @@
     "steamAchievements": "Bu oyun için Steam başarımları alınamadı."
   },
   "alerts": {
-		"ok": "Tamam",
+    "ok": "Tamam",
     "activate": "Etkinleştir",
     "cancel": "İptal etmek",
     "changesLeft": "Sahip olacaksın {{changesLeft}} değiştirmek{{s}} sol.",
@@ -143,6 +142,38 @@
     "zh": "Çince"
   },
   "categories": {
+    "fallout3": {
+      "title": "Serpinti 3",
+      "categories": {
+        "quests": {
+          "tutorialQuests": "Öğretici Görevler",
+          "mainQuests": "Ana Görevler",
+          "sideQuests": "Yan Görevler",
+          "unmarkedQuests": "İşaretlenmemiş Görevler",
+          "repeatableQuests": "Tekrarlanabilir Görevler"
+        },
+        "collectables": {
+          "bobbleheads": "Bobblehead'ler",
+          "uniqueArmor": "Benzersiz Zırh",
+          "uniqueWeapons": "Benzersiz Silahlar"
+        },
+        "locations": {
+          "main": "Ana"
+        },
+        "miscellaneous": {
+          "holotapes": "Sanal bantlar",
+          "notes": "Notlar",
+          "skillBooks": "Beceri Kitapları"
+        }
+      },
+			"dlc": {
+				"brokenSteel": "Kırık Çelik",
+				"mothershipZeta": "Annelik Zeta",
+				"operationAnchorage": "Demirleme Operasyonu",
+				"pointLookout": "Nokta Gözetleme",
+				"thePitt": "Pitt"
+			}
+    },
     "fallout4": {
       "title": "Serpinti 4",
       "categories": {
@@ -154,9 +185,8 @@
         "collectables": {
           "bobbleheads": "Bobblehead'ler",
           "magazines": "Dergiler",
-          "uniqueWeapons": "Benzersiz Silahlar",
           "uniqueArmor": "Benzersiz Zırh",
-          "powerArmor": "Güç Zırhı"
+          "uniqueWeapons": "Benzersiz Silahlar"
         },
         "locations": {
           "main": "Ana"

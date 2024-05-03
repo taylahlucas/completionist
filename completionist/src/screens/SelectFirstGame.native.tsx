@@ -24,17 +24,16 @@ const SelectFirstGame = () => {
 	const [searchValue, setSearchValue] = useState('');
 	const [selectedGame, setSelectedGame] = useState<SubscriptionData>();
 
-	// TOOD: Add to translations
 	// TODO: Update user here
 	return (
 		<StandardLayout>
-			<NavigationHeader title={'Select a Game'} leftAction='none' />
+			<NavigationHeader title={t('common:screens.selectGame')} leftAction='none' />
 			<CustomSearchBar
 				searchValue={searchValue}
 				setSearchValue={(value: string): void => setSearchValue(value)}
 				onReset={(): void => setSearchValue('')}
 			/>
-			<ScrollableList contentContainerStyle={{ paddingBottom: 140 }}>
+			<ScrollableList contentContainerStyle={{ paddingLeft: 16, paddingRight: 16 }}>
 				<StyledText>{t('common:selectGame.selectGameDesc1')}</StyledText>
 				<Spacing />
 				<StyledText>{t('common:selectGame.selectGameDesc2')}</StyledText>

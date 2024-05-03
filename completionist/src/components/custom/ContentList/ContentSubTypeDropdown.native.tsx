@@ -36,7 +36,7 @@ const ContentSubTypeDropdown = ({ subCategory, type, completed, total }: Content
         <SubTypeListHeader title={type} completed={completed} total={total} />
       }
     >
-      <ScrollableList style={{ maxHeight: 300 }} contentContainerStyle={listStyles.listItemList}>
+      <ScrollableList contentContainerStyle={listStyles.listItemList}>
         {items?.map((item, index) => (
           <ListItem
             key={index}

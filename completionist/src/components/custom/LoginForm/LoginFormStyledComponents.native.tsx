@@ -27,6 +27,7 @@ export const SelectFirstGameContentContainer = styled.View`
 	flex-direction: row;
 	flex-wrap: wrap;
 	margin-top: 16px;
+	justify-content: center;
 `;
 
 export const SelectFirstGameButtonContainer = styled.View`

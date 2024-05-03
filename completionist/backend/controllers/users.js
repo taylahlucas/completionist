@@ -49,11 +49,7 @@ const updateUser = async (req, res) => {
 				signup: signup,
 				subscription: subscription,
 				settings: settings,
-				data: {
-					skyrim: data.skyrim,
-					fallout4: data.fallout4,
-					witcher3: data.witcher3
-				}
+				data: data
 			});
 			if (result.matchedCount > 0) {
 				console.log(`User with ID ${userId} updated successfully`);

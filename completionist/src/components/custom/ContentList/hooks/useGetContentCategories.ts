@@ -29,7 +29,11 @@ const useGetContentCategories = (): GameDataReturnType => {
           const categories = section.categories
             .map(category => ({
               id: category.id,
-              title: translateCategoryName(selectedGame, section.section.id, category.id),
+              title: translateCategoryName(
+								selectedGame, 
+								section.section.id, 
+								category.id
+							),
               isActive: category.isActive
             }))
             const dlc = section.dlc.map(category => ({
@@ -37,7 +41,6 @@ const useGetContentCategories = (): GameDataReturnType => {
               title: translateDLCName(selectedGame, category.id),
               isActive: category.isActive
             }))
-
             return categories.concat(dlc);
         })[0]
       : [];
@@ -60,7 +63,9 @@ const useGetContentCategories = (): GameDataReturnType => {
 
   const getContentSubCategoriesTypes = (subCategory: string, selectedGame?: GameKeyEnum): string[] => {
     const items = mapDataTo(sectionType, selectedGame);
-    const filteredItems = items.filter(collectable => collectable.subCategory === subCategory);
+    const filteredItems = items.filter(collectable => 
+			collectable.subCategory === subCategory
+		);
     let itemSubCategoriesTypes: string[] = [];
 
     filteredItems.map(item => {
