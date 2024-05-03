@@ -37,10 +37,7 @@ const ListItem = ({ title, location, hold, isComplete = false, action }: ListIte
   });
 	
   return (
-    <ListItemContainer 
-			color={isComplete ? theme.darkGrey : theme.midGrey} 
-			style={{ backgroundColor: interpolatedBackgroundColor }}
-		>
+    <ListItemContainer style={{ backgroundColor: interpolatedBackgroundColor }}>
       <ListItemContentContainer>
         <ListItemTitle
           align='left'
@@ -65,7 +62,8 @@ const ListItem = ({ title, location, hold, isComplete = false, action }: ListIte
       <AnimatedCheckBox isToggled={isComplete} action={() => {
 					action();
 					fadeAnimation(isComplete);
-				}} />
+				}} 
+			/>
     </ListItemContainer>
   );
 };

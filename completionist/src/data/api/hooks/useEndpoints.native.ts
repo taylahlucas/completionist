@@ -146,14 +146,10 @@ const useEndpoints = (): EndpointsReturnType => {
 	};
 
 	const updateUser = async ({ authToken, userId, steamId, signup, subscription, settings, userAvatar, data }: UpdateUserProps): Promise<UserResponse> => {
-		// TODO: Move userId into url?
-		console.log("authToken: ", authToken)
-		console.log("url: ", `${url}/${updateUserUrl}`)
 		try {
 			await axios.patch(
-				`${url}/${updateUserUrl}`,
+				`${url}/${updateUserUrl}/${userId}`,
 				{
-					userId: userId,
 					steamId: steamId,
 					signup: signup,
 					subscription: subscription,
@@ -165,9 +161,7 @@ const useEndpoints = (): EndpointsReturnType => {
 			);
 		}
 		catch (error: AxiosErrorResponse) {
-			console.log("error status: ", error.message)
-			console.log("error: ", error.response.status)
-			handleAxiosError(error.response.status);
+			handleAxiosError(error.response?.status);
 		}
 	};
 

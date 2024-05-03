@@ -10,6 +10,8 @@ import useSettingsOptionsOnPress from './hooks/useSettingsOptionsOnPress.native'
 import SettingsContentSelectLanguage from './SettingsContentSelectLanguage.native';
 import SettingsContentAccountDetails from './SettingsContentAccountDetails.native';
 import useHandleScroll from '@utils/hooks/useHandleScroll.native';
+import SettingsContentCollectionList from './SettingsContentCollectionList.native';
+import SettingsContentSelectionDropdown from './SettingsContentSelectionDropdown.native';
 
 const SettingsContent = () => {
 	const { t } = useTranslation();
@@ -28,6 +30,12 @@ const SettingsContent = () => {
 		>
 			<SettingsContentAccountDetails />
 
+      <SettingsContentDescription align='left'>
+        {t('common:settings.setCollections')}
+      </SettingsContentDescription>
+      <SettingsContentSelectionDropdown />
+      <SettingsContentCollectionList />
+			
 			<SettingsContentDescription align='left'>
 				{t('common:settings.enabledDLC')}
 			</SettingsContentDescription>

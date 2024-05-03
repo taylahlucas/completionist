@@ -35,10 +35,10 @@ export const DropdownSelectionItemTitle = styled(StyledText)`
 `;
 
 export const DropdownSelectionContentContainer = styled(ScrollableList)`
+	flex: 1;
 	max-height: 180px;
-	position: absolute;
 	top: 42px;
-	padding-top: 0px;
+	position: absolute;
 `;
 
 interface DropdownSelectionContentItemProps {
@@ -48,7 +48,7 @@ interface DropdownSelectionContentItemProps {
 
 export const DropdownSelectionContentItem = styled.Pressable<DropdownSelectionContentItemProps>`
   background-color: ${(props): string => props.color}; 
-  width: ${Dimensions.get('window').width - 64}px;
+	width: ${Dimensions.get('window').width - 64}px;
   height: 45px;
   padding: 8px;
   justify-content: center;

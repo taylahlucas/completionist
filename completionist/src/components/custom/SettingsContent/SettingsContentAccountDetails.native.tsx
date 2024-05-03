@@ -6,7 +6,6 @@ import useMainState from '@redux/hooks/useMainState';
 import StyledText from '@components/general/Text/StyledText.native';
 import Button from '@components/general/Button/Button.native';
 import { ScreenEnum } from '@utils/CustomEnums';
-import SettingsGameSelectionContent from './SettingsGameSelectionContent.native';
 import { SettingsContentAvatarContainer, SettingsContentEmail } from './SettingsContentStyledComponents.native';
 import useGetTheme from '@styles/hooks/useGetTheme';
 
@@ -35,7 +34,6 @@ const SettingsContentAccountDetails = () => {
 				title={t('common:settings.changeAccountDetails')}
 				onPress={(): void => navigation.navigate(ScreenEnum.AccountDetails)}
 			/>
-			<SettingsGameSelectionContent />
 		</>
 	);
 };

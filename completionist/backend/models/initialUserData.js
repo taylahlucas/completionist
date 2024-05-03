@@ -29,7 +29,7 @@ const fallout3SettingsConfig = {
 			],
 			"dlc": [
 				{
-					"id": "operation:anchorage",
+					"id": "operationAnchorage",
 					"isActive": true
 				},
 				{
@@ -141,7 +141,7 @@ const fallout3SettingsConfig = {
 					"isActive": true
 				},
 				{
-					"id": "holotapes",
+					"id": "skillBooks",
 					"isActive": true
 				}
 			],

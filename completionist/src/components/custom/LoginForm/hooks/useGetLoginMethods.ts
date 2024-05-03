@@ -24,6 +24,7 @@ interface GetLoginMethodsReturnType {
 
 const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 	const { t } = useTranslation();
+	const navigation = useReactNavigation();
 	const { user, shouldUpdateUser } = useMainState();
 	const { updateUserData, saveUserAndLogin, removeUserData } = useEditUserData();
 	const { checkUserExists, linkAndSignIn, signIn, signUp } = useEndpoints();
@@ -34,6 +35,7 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 				.then((userResponse) => {
 					if (!!userResponse) {
 						saveUserAndLogin(userResponse, true);
+						navigation.navigate(ScreenEnum.GameSelection);
 					}
 				})
 		}
@@ -68,7 +70,7 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 	};
 
 	const checkUserAccount = async ({ email, password }: SignInProps) => {
-		await checkUserExists(email)
+		checkUserExists(email)
 			.then((accounts) => {
 				if (accounts.regular) {
 					userSignIn({

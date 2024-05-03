@@ -40,7 +40,7 @@ const ScrollableList = React.forwardRef<ScrollView, CustomListProps>(({
 				...contentContainerStyle,
 				paddingBottom: isKeyboardVisible ? paddingBottom + 400 : paddingBottom
 			}}
-			style={{ ...listStyles.scrollableList, ...style }}
+			style={style}
 			horizontal={isHorizontal}
 			bounces={bounces}
 		>

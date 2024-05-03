@@ -38,12 +38,11 @@ const getUserByUserId = async (req, res) => {
 };
 
 const updateUser = async (req, res) => {
-	console.log("checking is authorized")
 	const isAuthorized = await checkAuthToken(req);
-	console.log("isAuthorized");
 	if (isAuthorized) {
 		try {
-			const { userId, steamId, signup, subscription, settings } = req.body;
+			const userId = req.params.userId;
+			const { steamId, signup, subscription, settings, data } = req.body;
 			const result = await User.updateOne({
 				userId: userId,
 				steamId: steamId,
@@ -56,17 +55,16 @@ const updateUser = async (req, res) => {
 					witcher3: data.witcher3
 				}
 			});
-			console.log("RESULT:" , result)
 			if (result.matchedCount > 0) {
 				console.log(`User with ID ${userId} updated successfully`);
 				return res.status(request_codes.SUCCESS);
 			} else {
-				console.log("NO MATCHED COUNT")
 				return res.status(request_codes.NOT_FOUND).json({ error: 'User not found' });
 			}
 		}
 		catch (error) {
-			return res.status(error.status).json(error.message);
+			console.log("Error updating user: ", error.message);
+			return res.status(request_codes.FAILURE).json(error.message);
 		}
 	}
 };

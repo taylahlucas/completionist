@@ -19,8 +19,9 @@ const DropdownSelectionContent = ({ content, onPress }: DropdownSelectionContent
 		<DropdownSelectionContentContainer
 			bounces={false}
 			contentContainerStyle={{
+				flex: 1,
 				alignSelf: 'center',
-				alignItems: 'center'
+				alignItems: 'center',
 			}}>
 			{content.map((item, index) => (
 				<DropdownSelectionContentItem
