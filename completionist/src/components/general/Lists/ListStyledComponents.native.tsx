@@ -55,7 +55,6 @@ export const SubListContainer = styled.View`
   margin-top: ${SMALL_PADDING}px;
 `;
 
-//background-color: ${props => props.color};
 export const ListItemContainer = styled(Animated.View)`
   flex-direction: row;
   border-radius: ${DEFAULT_BORDER_RADIUS}px;
@@ -64,7 +63,6 @@ export const ListItemContainer = styled(Animated.View)`
   justify-content: space-between;
   min-height: 50px;
   width: ${LARGE_WIDTH}px;
-	border-radius: 10px;
 `;
 
 export const ListItemContentContainer = styled.View`
