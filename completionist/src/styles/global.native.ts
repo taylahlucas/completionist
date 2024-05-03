@@ -1,8 +1,16 @@
 import { Dimensions } from 'react-native';
 
-export const DEFAULT_BORDER_RADIUS = 5;
+export const windowHeight: number = Dimensions.get('window').height;
+export const windowWidth: number =  Dimensions.get('window').width;
 
-export const LARGE_WIDTH = Dimensions.get('window').width - 32;
-export const STANDARD_WIDTH = Dimensions.get('window').width - 64;
-export const MID_WIDTH = Dimensions.get('window').width - 116;
-export const SMALL_WIDTH = Dimensions.get('window').width - 144;
+export const DEFAULT_BORDER_RADIUS = 5;
+export const SMALL_PADDING = 8;
+export const MID_PADDING = 16;
+export const LARGE_PADDING = 32;
+
+export const LARGE_WIDTH = windowWidth - 32;
+export const STANDARD_WIDTH = windowWidth - 64;
+export const MID_WIDTH = windowWidth - 116;
+export const SMALL_WIDTH = windowWidth - 144;
+
+export const DEFAULT_FOOTER_HEIGHT = 100;

@@ -5,11 +5,11 @@ import useMainState from '@redux/hooks/useMainState';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
 import useUpdateGameSettings from './hooks/useUpdateGameSettings';
 
-interface SettingsContentCheckBoxProps {
+interface SettingsCheckboxProps {
   item: SettingsListItem;
 }
 
-const SettingsContentCheckBox = ({ item }: SettingsContentCheckBoxProps) => {
+const SettingsCheckbox = ({ item }: SettingsCheckboxProps) => {
   const { selectedGameSettings, user } = useMainState();
   const { setUser } = useMainDispatch();
 	const updateGameSettings = useUpdateGameSettings();
@@ -25,4 +25,4 @@ const SettingsContentCheckBox = ({ item }: SettingsContentCheckBoxProps) => {
   );
 };
 
-export default SettingsContentCheckBox;
+export default SettingsCheckbox;

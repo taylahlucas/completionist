@@ -1,4 +1,5 @@
 import React from 'react';
+import { View } from 'react-native';
 import { useTranslation } from 'react-i18next';
 import Condition from '@components/general/Condition.native';
 import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
@@ -6,10 +7,10 @@ import useMainState from '@redux/hooks/useMainState';
 import StyledText from '@components/general/Text/StyledText.native';
 import Button from '@components/general/Button/Button.native';
 import { ScreenEnum } from '@utils/CustomEnums';
-import { SettingsContentAvatarContainer, SettingsContentEmail } from './SettingsContentStyledComponents.native';
+import { SettingsAvatarContainer, SettingsEmail } from './SettingsStyledComponents.native';
 import useGetTheme from '@styles/hooks/useGetTheme';
 
-const SettingsContentAccountDetails = () => {
+const SettingsAccountDetails = () => {
 	const navigation = useReactNavigation();
 	const theme = useGetTheme();
 	const { t } = useTranslation();
@@ -18,16 +19,16 @@ const SettingsContentAccountDetails = () => {
 	return (
 		<>
 			<Condition condition={!!user.userAvatar}>
-				<SettingsContentAvatarContainer
+				<SettingsAvatarContainer
 					source={{ uri: user.userAvatar }}
 				/>
 			</Condition>
 			<StyledText type='ListItemTitleBold'>
 				{user.name}
 			</StyledText>
-			<SettingsContentEmail type='ListItemTitleBold'>
+			<SettingsEmail type='ListItemTitleBold'>
 				{user.email}
-			</SettingsContentEmail>
+			</SettingsEmail>
 			<Button
 				type='navigation'
 				color={theme.primaryPurple}
@@ -38,4 +39,4 @@ const SettingsContentAccountDetails = () => {
 	);
 };
 
-export default SettingsContentAccountDetails;
+export default SettingsAccountDetails;

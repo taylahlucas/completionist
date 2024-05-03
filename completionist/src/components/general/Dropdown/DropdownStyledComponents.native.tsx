@@ -1,6 +1,5 @@
-import { Dimensions } from 'react-native';
 import styled from 'styled-components/native';
-import { DEFAULT_BORDER_RADIUS, STANDARD_WIDTH, MID_WIDTH, LARGE_WIDTH } from '@styles/global.native';
+import { DEFAULT_BORDER_RADIUS, STANDARD_WIDTH, MID_WIDTH, MID_PADDING, SMALL_PADDING, windowWidth } from '@styles/global.native';
 import StyledText from '../Text/StyledText.native';
 import ScrollableList from '../Lists/ScrollableList.native';
 
@@ -26,7 +25,7 @@ export const DropdownSelectionInnerContainer = styled.View`
 `;
 
 export const DropdownSelectionTitle = styled(StyledText)`
-  margin-left: 16px;
+  margin-left: ${MID_PADDING}px;
   width: 100%;
 `;
 
@@ -47,17 +46,17 @@ interface DropdownSelectionContentItemProps {
 
 export const DropdownSelectionContentItem = styled.Pressable<DropdownSelectionContentItemProps>`
   background-color: ${(props): string => props.color}; 
-	width: ${Dimensions.get('window').width - 64}px;
+	width: ${windowWidth - 64}px;
   height: 45px;
-  padding: 8px;
+  padding: ${SMALL_PADDING}px;
   justify-content: center;
   border-bottom-left-radius: ${(props): number => !!props.last ? DEFAULT_BORDER_RADIUS : 0}px;
   border-bottom-right-radius: ${(props): number => !!props.last ? DEFAULT_BORDER_RADIUS : 0}px;
 `;
 
 export const DropdownContainer = styled.View`
-	margin-left: 8px;
-	margin-right: 8px;
+	margin-left: ${SMALL_PADDING}px;
+	margin-right: ${SMALL_PADDING}px;
 	margin-top: 4px; 
 	margin-bottom: 4px; 
 	z-index: 2;

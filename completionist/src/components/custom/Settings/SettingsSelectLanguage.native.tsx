@@ -9,12 +9,12 @@ import useMainDispatch from '@redux/hooks/useMainDispatch';
 import { LanguageType } from '@utils/CustomTypes';
 import useGetLanguageInEn from './hooks/useGetLanguageInEn.native';
 
-interface SettingsContentSelectLanguageProps {
+interface SettingsSelectLanguageProps {
 	isOpen: boolean;
 	setOpen: (value: boolean) => void;
 }
 
-const SettingsContentSelectLanguage = ({ isOpen, setOpen }: SettingsContentSelectLanguageProps) => {
+const SettingsSelectLanguage = ({ isOpen, setOpen }: SettingsSelectLanguageProps) => {
 	const { t, i18n } = useTranslation();
 	const { setUser } = useMainDispatch();
 	const { user } = useMainState();
@@ -53,4 +53,4 @@ const SettingsContentSelectLanguage = ({ isOpen, setOpen }: SettingsContentSelec
 	);
 };
 
-export default SettingsContentSelectLanguage;
+export default SettingsSelectLanguage;

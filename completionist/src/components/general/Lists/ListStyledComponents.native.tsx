@@ -1,7 +1,7 @@
-import { Animated, Dimensions, StyleSheet } from 'react-native';
+import { Animated, StyleSheet } from 'react-native';
 import styled from 'styled-components/native';
 import StyledText from '@components/general/Text/StyledText.native';
-import { DEFAULT_BORDER_RADIUS } from '@styles/global.native';
+import { DEFAULT_BORDER_RADIUS, SMALL_PADDING, MID_PADDING, LARGE_PADDING, windowWidth } from '@styles/global.native';
 import Button from '../Button/Button.native';
 import { LARGE_WIDTH } from '@styles/global.native';
 
@@ -19,10 +19,10 @@ export const listStyles = StyleSheet.create({
     flexDirection: 'row'
   },
   subSelectableButton: {
-    marginLeft: 16
+    marginLeft: MID_PADDING
   },
   subTypeSelectableButton: {
-    marginLeft: 32
+    marginLeft: LARGE_PADDING
   },
 });
 
@@ -42,24 +42,24 @@ export const ListItemHeaderContainer = styled.View<ListItemStyleProps>`
 
 export const ListItemHeaderCountTitle = styled(StyledText)`
   position: absolute;
-  right: 16px;
+  right: ${MID_PADDING}px;
 `;
 
 export const SubListHeaderTitle = styled(StyledText)`
-  padding: 8px;
-  margin-left: 16px;
+  padding: ${SMALL_PADDING}px;
+  margin-left: ${MID_PADDING}px;
   margin-right: 64px;
 `;
 
 export const SubListContainer = styled.View`
-  margin-top: 8px;
+  margin-top: ${SMALL_PADDING}px;
 `;
 
 //background-color: ${props => props.color};
 export const ListItemContainer = styled(Animated.View)`
   flex-direction: row;
   border-radius: ${DEFAULT_BORDER_RADIUS}px;
-  margin-top: 8px;
+  margin-top: ${SMALL_PADDING}px;
   align-items: center;
   justify-content: space-between;
   min-height: 50px;
@@ -69,10 +69,10 @@ export const ListItemContainer = styled(Animated.View)`
 
 export const ListItemContentContainer = styled.View`
   flex-direction: column;
-  padding-left: 16px;
-  padding-vertical: 8px;
+  padding-left: ${MID_PADDING}px;
+  padding-vertical: ${SMALL_PADDING}px;
   justify-content: center;
-  width: ${() => Dimensions.get('window').width - 96}px;
+  width: ${() => windowWidth - 96}px;
 `;
 
 export const ListItemTitle = styled(StyledText)<ListItemStyleProps>`
@@ -83,7 +83,7 @@ export const ListItemTitle = styled(StyledText)<ListItemStyleProps>`
 `;
 
 export const ListShowMoreButton = styled(Button)`
-  padding: 8px;
+  padding: ${SMALL_PADDING}px;
 `;
 
 export const ListItemLocationContainer = styled.View`
@@ -99,9 +99,9 @@ export const SelectionListContainer = styled.View`
 export const SelectionListItemContainer = styled.View`
   flex-direction: row;
   justify-content: space-between;
-  padding: 8px;
+  padding: ${SMALL_PADDING}px;
 `;
 
 export const SelectListTitle = styled(StyledText)`
-	margin-right: 32px;
+	margin-right: ${LARGE_PADDING}px;
 `;

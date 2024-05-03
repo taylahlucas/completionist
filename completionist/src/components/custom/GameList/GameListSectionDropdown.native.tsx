@@ -26,7 +26,7 @@ const GameListSectionDropdown = ({ testID, title, data }: GameListSectionDropdow
       isOpen={isOpen}
       setOpen={() => setIsOpen(!isOpen)}
     >
-      <View style={{ flexDirection: 'row', marginTop: 8, flexWrap: 'wrap' }}>
+      <View style={{ width: '100%', flexDirection: 'row', marginTop: 8, flexWrap: 'wrap' }}>
         {data.map((game: SubscriptionData, index: number) => (
           <GameListItem
             key={index}

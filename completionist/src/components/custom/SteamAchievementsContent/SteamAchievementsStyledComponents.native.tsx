@@ -1,11 +1,11 @@
 import { StyleSheet } from 'react-native';
 import styled from 'styled-components/native';
-import { LARGE_WIDTH, DEFAULT_BORDER_RADIUS } from '@styles/global.native';
+import { LARGE_WIDTH, DEFAULT_BORDER_RADIUS, SMALL_PADDING, MID_PADDING } from '@styles/global.native';
 
 export const styles = StyleSheet.create({
 	scrollStyle: {
-		paddingRight: 16,
-		paddingLeft: 16
+		paddingRight: MID_PADDING,
+		paddingLeft: MID_PADDING
 	},
 	contentScrollStyle: {
 		alignItems: 'center',
@@ -22,8 +22,8 @@ export const SteamAchievementItemContainer = styled.View<SteamAchievementProps>`
 	border-width: 2px;
 	border-color: ${props => props.color};
 	border-radius: ${DEFAULT_BORDER_RADIUS}px;
-	margin-bottom: 16px;
-	padding: 8px;
+	margin-bottom: ${MID_PADDING}px;
+	padding: ${SMALL_PADDING}px;
 `;
 
 export const SteamAchievementIconContainer = styled.View`
@@ -32,7 +32,7 @@ export const SteamAchievementIconContainer = styled.View`
 
 export const SteamAchievementContentContainer = styled.View`
 	flex-direction: column;
-	padding-left: 16px;
-	padding-right: 16px;
+	padding-left: ${MID_PADDING}px;
+	padding-right: ${MID_PADDING}px;
 	max-width: ${LARGE_WIDTH - 52}px;
 `;

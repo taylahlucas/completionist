@@ -1,5 +1,5 @@
-import { Dimensions, ViewStyle } from 'react-native';
-import { DEFAULT_BORDER_RADIUS } from '@styles/global.native';
+import { ViewStyle } from 'react-native';
+import { DEFAULT_BORDER_RADIUS, windowWidth } from '@styles/global.native';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import { TextInputStyleType } from '@utils/CustomTypes';
 
@@ -9,7 +9,7 @@ const useGetTextContainerStyle = (inputStyle: TextInputStyleType): ViewStyle => 
   switch (inputStyle) {
     case 'text':
       return {
-        width: Dimensions.get('window').width - 64,
+        width: windowWidth - 64,
         borderBottomWidth: 2,
         borderBottomColor: theme.darkGrey
       };

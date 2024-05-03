@@ -1,13 +1,13 @@
 import styled from 'styled-components/native';
-import { DEFAULT_BORDER_RADIUS, STANDARD_WIDTH } from '@styles/global.native';
+import { DEFAULT_BORDER_RADIUS, STANDARD_WIDTH, SMALL_PADDING, MID_PADDING } from '@styles/global.native';
 
 interface RequestGameContentProps {
   color: string;
 }
 
 export const RequestGameContainer = styled.View`
-  padding: 8px;
-  margin: 16px;
+  padding: ${SMALL_PADDING}px;
+  margin: ${MID_PADDING}px;
 `;
 
 export const RequestGameContentInputContainer = styled.View<RequestGameContentProps>`

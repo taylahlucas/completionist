@@ -1,19 +1,19 @@
 import React from 'react';
-import { SettingsContentDropdownContainer } from './SettingsContentStyledComponents.native';
+import { SettingsDropdownContainer } from './SettingsStyledComponents.native';
 import { SettingsListItem } from '@utils/CustomInterfaces';
 import useGetUserGameData from '@data/hooks/useGetUserGameData';
-import SettingsConfigItemDropdown from './SettingsContentItemDropdown.native';
+import SettingsConfigItemDropdown from './SettingsItemDropdown.native';
 
-const SettingsContentCollectionList = () => {
+const SettingsCollectionList = () => {
   const { getUserSettingsMainConfig } = useGetUserGameData();
   
   return (
-    <SettingsContentDropdownContainer>
+    <SettingsDropdownContainer>
       {getUserSettingsMainConfig().map((item: SettingsListItem, index: number) => (
         <SettingsConfigItemDropdown key={index} item={item} />
       ))}
-    </SettingsContentDropdownContainer>
+    </SettingsDropdownContainer>
   );
 };
 
-export default SettingsContentCollectionList;
+export default SettingsCollectionList;

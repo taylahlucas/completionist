@@ -1,7 +1,7 @@
 import { ScreenEnum, SettingsOptionEnum, GameKeyEnum, DatePeriodEnum, SubscriptionTypeEnum, ContentSectionEnum } from './CustomEnums';
 import { NavigationAction, NavigationState } from '@react-navigation/native';
 import { MainState } from '@redux/MainState';
-import { SettingsState } from '@components/custom/SettingsContent/SettingsState';
+import { SettingsState } from '@components/custom/Settings/SettingsState';
 import { LoginState } from '@components/custom/LoginForm/LoginState';
 import { ContentState } from '@components/custom/ContentList/ContentState';
 import { SubscriptionState } from '@components/custom/SubscriptionContent/SubscriptionState';

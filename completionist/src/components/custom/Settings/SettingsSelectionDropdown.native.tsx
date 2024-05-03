@@ -9,7 +9,7 @@ import useMainDispatch from '@redux/hooks/useMainDispatch';
 import useTranslateGameContent from '@utils/hooks/useTranslateGameContent.native';
 import { GameKeyEnum } from '@utils/CustomEnums';
 
-const SettingsContentSelectionDropdown = () => {
+const SettingsSelectionDropdown = () => {
 	const { t } = useTranslation();
 	const { setSelectedGameSettings } = useMainDispatch();
 	const { selectedGameSettings } = useMainState();
@@ -42,4 +42,4 @@ const SettingsContentSelectionDropdown = () => {
 	);
 };
 
-export default SettingsContentSelectionDropdown;
+export default SettingsSelectionDropdown;

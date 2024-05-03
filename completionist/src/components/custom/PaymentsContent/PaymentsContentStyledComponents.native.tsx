@@ -1,17 +1,17 @@
 import styled from 'styled-components/native';
-import { LARGE_WIDTH, STANDARD_WIDTH } from '@styles/global.native';
+import { LARGE_WIDTH, SMALL_PADDING, STANDARD_WIDTH, MID_PADDING } from '@styles/global.native';
 import StyledText from '@components/general/Text/StyledText.native';
 
 export const PaymentPricesContainer = styled.View`
 	width: ${LARGE_WIDTH}px;
 	flex-direction: row;
 	justify-content: space-around;
-	margin-top: 16px;
-	padding: 16px;
+	margin-top: ${MID_PADDING}px;
+	padding: ${MID_PADDING}px;
 `;
 
 export const PaymentPriceItem = styled.View`
-	padding: 8px;
+	padding: ${SMALL_PADDING}px;
 	width: 120px;
 	height: 100px;
 `;

@@ -36,7 +36,7 @@ export type FontAwesomeType =
   | 'check-circle';
 
 export type IconType = MaterialIconsType | MaterialCommunityIcons | IoniconType | FontAwesomeType;
-export type ButtonType = 'default' | 'text' | 'navigation';
+export type ButtonType = 'default' | 'text' | 'navigation' | 'footer';
 export type TextInputStyleType = 'default' | 'text' | 'verification';
 export type ValidatorType = 'none' | 'email';
 

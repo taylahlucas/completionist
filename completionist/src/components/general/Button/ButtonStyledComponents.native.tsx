@@ -1,6 +1,5 @@
-import { Dimensions } from 'react-native';
 import styled from 'styled-components/native';
-import { DEFAULT_BORDER_RADIUS, LARGE_WIDTH } from '@styles/global.native';
+import { DEFAULT_BORDER_RADIUS, LARGE_WIDTH, MID_PADDING, windowWidth } from '@styles/global.native';
 
 interface StyledButtonProps {
   color: string;
@@ -12,7 +11,7 @@ interface StyledButtonNavigationProps {
 }
 
 export const StyledButtonDefault = styled.Pressable<StyledButtonProps>`
-  width: ${Dimensions.get('window').width - 64}px;
+  width: ${windowWidth - 64}px;
   height: 45px;
   background-color: ${(props): string => props.color};
   opacity: ${(props): number => props.disabled ? 0.4 : 1};
@@ -22,7 +21,7 @@ export const StyledButtonDefault = styled.Pressable<StyledButtonProps>`
 `;
 
 export const StyledButtonNavigation = styled.Pressable<StyledButtonNavigationProps>`
-	width: ${LARGE_WIDTH}px;
+	width: ${windowWidth - 64}px;
 	height: 45px;
 	flex-direction: row;
 	background-color: ${(props): string => props.color};
@@ -30,11 +29,20 @@ export const StyledButtonNavigation = styled.Pressable<StyledButtonNavigationPro
 	justify-content: space-between;
 	align-self: center;
 	align-items: center;
-	margin: 16px 0px 16px 0px;
-	padding: 0px 16px 0px 16px;
+	margin: ${MID_PADDING}px 0px ${MID_PADDING}px 0px;
+	padding: 0px ${MID_PADDING}px 0px ${MID_PADDING}px;
 `;
 
 export const StyledButtonText = styled.Pressable<StyledButtonProps>`
-  width: ${Dimensions.get('window').width - 64}px;
+  width: ${windowWidth - 64}px;
   height: 45px;
+`;
+
+export const FooterButtonView = styled.View`
+	flex: 1;
+	position: absolute;
+	width: 100%;
+	height: 100px; 
+	bottom: 0px;
+	justify-content: center;
 `;

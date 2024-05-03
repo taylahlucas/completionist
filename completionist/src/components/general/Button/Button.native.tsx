@@ -1,7 +1,7 @@
 import React from 'react';
-import { ViewStyle } from 'react-native';
+import { View, ViewStyle } from 'react-native';
 import StyledText from '../Text/StyledText.native';
-import { StyledButtonDefault, StyledButtonNavigation, StyledButtonText } from './ButtonStyledComponents.native';
+import { StyledButtonDefault, StyledButtonNavigation, StyledButtonText, FooterButtonView } from './ButtonStyledComponents.native';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import { ButtonType } from '@utils/CustomTypes';
 import Icon from '../Icon/Icon.native';
@@ -59,6 +59,22 @@ const Button = ({
 					</StyledText>
 					<Icon  name='arrow-right' />
 				</StyledButtonNavigation>
+			);
+		case 'footer':
+			return (
+				<FooterButtonView style={{ backgroundColor: theme.black }}>
+					<StyledButtonDefault
+						testID={testID}
+						style={{ ...style }}
+						onPress={onPress}
+						color={!!color ? color : theme.primaryPurple}
+						disabled={disabled}
+					>
+						<StyledText type='Heading' color={theme.lightestGrey}>
+							{title}
+						</StyledText>
+					</StyledButtonDefault>
+				</FooterButtonView>
 			);
 		default:
 			return (
