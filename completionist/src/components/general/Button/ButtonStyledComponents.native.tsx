@@ -1,5 +1,5 @@
 import styled from 'styled-components/native';
-import { DEFAULT_BORDER_RADIUS, LARGE_WIDTH, MID_PADDING, windowWidth } from '@styles/global.native';
+import { DEFAULT_BORDER_RADIUS, MID_PADDING, windowWidth } from '@styles/global.native';
 
 interface StyledButtonProps {
   color: string;

@@ -9,11 +9,13 @@ import useSettingsOptionsOnPress from '@components/custom/Settings/hooks/useSett
 import useHandleScroll from '@utils/hooks/useHandleScroll.native';
 import ScrollableList from '@components/general/Lists/ScrollableList.native';
 import SettingsAccountDetails from '@components/custom/Settings/SettingsAccountDetails.native';
-import { SettingsDescription } from '@components/custom/Settings/SettingsStyledComponents.native';
+import { SettingsDescription, SettingsCollectionList } from '@components/custom/Settings/SettingsStyledComponents.native';
 import SettingsSelectionDropdown from '@components/custom/Settings/SettingsSelectionDropdown.native';
 import SelectionList from '@components/general/Lists/SelectionList.native';
-import SettingsCollectionList from '@components/custom/Settings/SettingsCollectionList.native';
 import SettingsSelectLanguage from '@components/custom/Settings/SettingsSelectLanguage.native';
+import SettingsItemDropdown from '@components/custom/Settings/SettingsItemDropdown.native';
+import { SettingsListItem } from '@utils/CustomInterfaces';
+import useGetUserGameData from '@data/hooks/useGetUserGameData';
 
 const Settings = () => {
 	const { t } = useTranslation();
@@ -24,6 +26,7 @@ const Settings = () => {
 	const { setSettingsOptionsOnPress } = useSettingsOptionsOnPress();
 	const [isLanguagesOpen, setLanguagesOpen] = useState<boolean>(false);
 	const handleScroll = useHandleScroll();
+	const { getUserSettingsMainConfig } = useGetUserGameData();
 
 	return (
 		<StandardLayout>
@@ -39,7 +42,11 @@ const Settings = () => {
 					{t('common:settings.setCollections')}
 				</SettingsDescription>
 				<SettingsSelectionDropdown />
-				<SettingsCollectionList />
+				<SettingsCollectionList>
+					{getUserSettingsMainConfig().map((item: SettingsListItem, index: number) => (
+						<SettingsItemDropdown key={index} item={item} />
+					))}
+				</SettingsCollectionList>
 
 				{/* Enable/Disable DLC */}
 				<SettingsDescription align='left'>

@@ -10,7 +10,6 @@ interface SettingsMainItemProps {
 
 export const styles = StyleSheet.create({
   scrollContent: {
-    width: STANDARD_WIDTH,
     paddingBottom: 16
   }
 });
@@ -33,7 +32,7 @@ export const SettingsDescription = styled(StyledText)`
 	padding-bottom: ${SMALL_PADDING}px;
 `;
 
-export const SettingsDropdownContainer = styled.View`
+export const SettingsCollectionList = styled.View`
   width: ${STANDARD_WIDTH}px;
   margin-top: ${MID_PADDING}px;
   border-width: 1px;
@@ -79,7 +78,6 @@ export const SettingsSubItemContainer = styled.View<SettingsMainItemProps>`
 
 export const SettingsScrollView = styled(ScrollableList)`
   background-color: #1d1f24;
-  width: ${STANDARD_WIDTH}px;
   height: 120px;
 `;
 
