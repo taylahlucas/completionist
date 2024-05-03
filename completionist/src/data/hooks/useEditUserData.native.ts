@@ -8,8 +8,8 @@ import { initialFormData } from '@components/custom/LoginForm/LoginState';
 import useLoginDispatch from '@components/custom/LoginForm/hooks/useLoginDispatch';
 import useEndpoints from '../api/hooks/useEndpoints.native';
 import useLoginState from '@components/custom/LoginForm/hooks/useLoginState';
-import useMainState from '@redux/hooks/useMainState';
 import { initialUser } from '@redux/MainState';
+import useGetNavigationPath from './useGetNavigationPath';
 
 interface EditUserDataReturnType {
 	loadUserFromCache: () => void;
@@ -26,6 +26,7 @@ const useEditUserData = (): EditUserDataReturnType => {
 	const { fetchUserFromCache, saveToCache, clearCache } = useCache();
 	const { getCredentials, deleteCredentials } = useKeychain();
 	const { getUserByUserId, updateUser } = useEndpoints();
+	const getLoginScreenEnum = useGetNavigationPath();
 
 	const loadUserFromCache = async () => {
 		const credentials = await getCredentials();
@@ -56,31 +57,25 @@ const useEditUserData = (): EditUserDataReturnType => {
 
 		if (shouldLogin) {
 			setLoggedIn(true);
+			navigation.navigate(getLoginScreenEnum(user));
 		}
 	};
 	
 	const updateUserData = async (user: User) => {
-		console.log("isLoggedIn: ", isLoggedIn)
 		if (isLoggedIn) {
 			await getCredentials()
 				.then((credentials) => {
-					// TODO: Problem with credentials
-					console.log("credentials: " , credentials)
 					if (!!credentials) {
-						console.log("UPDATING USER==1")
 						updateUser({
 							authToken: credentials.password,
-							userId: user.userId,
-							steamId: user.steamId,
-							signup: user.signup,
-							subscription: user.subscription,
-							settings: user.settings,
-							userAvatar: user.userAvatar,
-							data: {
-								skyrim: user.data.skyrim,
-								fallout4: user.data.fallout4,
-								witcher3: user.data.witcher3
-							}
+							...user
+							// userId: user.userId,
+							// steamId: user.steamId,
+							// signup: user.signup,
+							// subscription: user.subscription,
+							// settings: user.settings,
+							// userAvatar: user.userAvatar,
+							// data: user.data
 						});
 						saveUserAndLogin(user, false);
 					}

@@ -8,7 +8,7 @@ import useLoginState from '@components/custom/LoginForm/hooks/useLoginState';
 const useInitUserData = () => {
   const appStateRef = useRef(AppState.currentState);
   const { setAppState } = useMainDispatch();
-  const { user, appState } = useMainState();
+  const { user, appState, shouldUpdateUser } = useMainState();
   const { isLoggedIn } = useLoginState();
   const { loadUserFromCache, updateUserData, saveUserAndLogin } = useEditUserData();
 
@@ -36,9 +36,9 @@ const useInitUserData = () => {
         }
         return;
       case 'inactive': 
-        if (isLoggedIn && !!user.userId) {
+        if (isLoggedIn && !!user.userId && shouldUpdateUser) {
           updateUserData(user);
-					saveUserAndLogin(user, false);
+					saveUserAndLogin(user, true);
         }
         return;
     }

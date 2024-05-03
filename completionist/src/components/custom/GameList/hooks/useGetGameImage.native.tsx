@@ -4,6 +4,8 @@ import { GameKeyEnum } from '@utils/CustomEnums';
 const useGetGameImage = () => {
   const getGameImage = (game: GameKeyEnum): ImageURISource => {
     switch (game) {
+			case GameKeyEnum.FALLOUT_3:
+				return require('@styles/images/games/fallout3.png');
 			case GameKeyEnum.FALLOUT_4:
 				return require('@styles/images/games/fallout4.jpg');
       case GameKeyEnum.SKYRIM:

@@ -119,3 +119,14 @@ Confirm:
 - npx migrate-mongo create migration_name
 - Run changes: npx migrate-mongo up
 - Drop changes: npx migrate-mongo down
+
+
+## Steps for adding new game DB
+
+- Create a .json file with data for game, ensuring "sections" represents the correct value for "quests", "collectables", "locations", "miscellaneous".
+- Check for duplicate ids.
+- Translate to different languages on https://translate.i18next.com.
+- Create gameSettingsConfig in initialUserData.js.
+- Update user.js model with new game in data and subscription.data.
+- Add image to styles/images/games/.
+- In CustomEnums and CustomInterfaces add the new game.

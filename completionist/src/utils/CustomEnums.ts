@@ -27,6 +27,7 @@ export enum IconTypeEnum {
 }
 
 export enum GameKeyEnum {
+	FALLOUT_3 = 'fallout3',
   FALLOUT_4 = 'fallout4',
 	SKYRIM = 'skyrim',
 	WITCHER_3 = 'witcher3'

@@ -165,8 +165,9 @@ export interface GeneralData {
 }
 
 export interface UserData {
+	fallout3: GeneralData;
+	fallout4: GeneralData;
   skyrim: GeneralData;
-  fallout4: GeneralData;
 	witcher3: GeneralData;
 }
 

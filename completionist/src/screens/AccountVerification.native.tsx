@@ -34,7 +34,6 @@ const AccountVerification = () => {
 							.then((response) => {
 								if (response) {
 									saveUserAndLogin(response, true);
-									navigation.navigate(ScreenEnum.SelectPlan);
 								}
 							})
 							.catch((error) => {

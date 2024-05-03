@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { I18nextProvider } from 'react-i18next';
 import Condition from '@components/general/Condition.native';
 import useMainState from '@redux/hooks/useMainState';
@@ -27,12 +27,6 @@ const RootStackNavigator = () => {
     >
       <I18nextProvider i18n={i18n}>
 				{getRootPage(user, isLoggedIn)}
-        {/* <Condition 
-          condition={isLoggedIn && !!user.userId}
-          conditionalElement={<Login />}
-        >
-          {getRootPage(user, isLoggedIn)}
-        </Condition> */}
       </I18nextProvider>
     </Condition>
   );

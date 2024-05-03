@@ -45,7 +45,7 @@
 	"selectGame": {
 		"selectGameDesc1": "With a Free account, you can select one game per month to track.",
 		"selectGameDesc2": "Select your first game below!",
-		"selectGameDesc3": "Don't worry if you make a mistake, you'll be able to change this twice per month"
+		"selectGameDesc3": "Don't worry if you make a mistake, you'll be able to change this once per month."
 	},
 	"subscriptions": {
 		"subscriptionDesc": "With a Premium subscription,\nyou will gain access to Premium Features such as:",
@@ -73,11 +73,10 @@
 	"sendRequest": {
 		"subject": "Subject",
 		"writeRequest": "Write your request here...",
-		"requestGameDesc": "Feel free to request a game, report a bug or make some suggestions to improve the app!",
+		"requestGameDesc": "Feel free to request a game, report a bug or make some suggestions to help improve the app!",
 		"verifyAccount": "Hello,\nYou have recently created an account with Completionist.\nTo verify your account, please enter the following code in the application:\n\n{{code}}"
 	},
 	"settings": {
-		"description": "Feel free to request a game, report a bug or make some suggestions to improve the app!",
 		"setCollections": "Set collections:",
 		"enabledDLC": "Enable/Disable DLC:",
 		"showHide": "Show/Hide:",

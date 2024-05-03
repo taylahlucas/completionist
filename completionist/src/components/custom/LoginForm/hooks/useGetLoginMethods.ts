@@ -7,9 +7,6 @@ import { Alert } from 'react-native';
 import useEditUserData from '@data/hooks/useEditUserData.native';
 import useMainState from '@redux/hooks/useMainState';
 import { SignInProps } from '@data/api/EndpointInterfaces.native';
-import { LoginFormData } from '@utils/CustomInterfaces';
-import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
-import { ScreenEnum } from '@utils/CustomEnums';
 
 interface GoogleSignInError {
 	code: number;
@@ -24,7 +21,6 @@ interface GetLoginMethodsReturnType {
 
 const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 	const { t } = useTranslation();
-	const navigation = useReactNavigation();
 	const { user, shouldUpdateUser } = useMainState();
 	const { updateUserData, saveUserAndLogin, removeUserData } = useEditUserData();
 	const { checkUserExists, linkAndSignIn, signIn, signUp } = useEndpoints();
@@ -35,7 +31,6 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 				.then((userResponse) => {
 					if (!!userResponse) {
 						saveUserAndLogin(userResponse, true);
-						navigation.navigate(ScreenEnum.GameSelection);
 					}
 				})
 		}
@@ -145,7 +140,6 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 
 	const signOut = async () => {
 		try {
-			// TODO: Causing error
 			if (shouldUpdateUser) {
 				updateUserData(user);
 			}

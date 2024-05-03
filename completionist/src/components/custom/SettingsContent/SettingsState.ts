@@ -11,6 +11,7 @@ export const initialState: SettingsState = {
   }
 };
 
+// TODO: Manage this outside of redux -- maybe prop drilling?
 const slice = createSlice({
   name: 'settings',
   initialState: initialState,
