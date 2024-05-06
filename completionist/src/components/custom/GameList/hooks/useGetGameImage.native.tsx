@@ -5,7 +5,7 @@ const useGetGameImage = () => {
   const getGameImage = (game: GameKeyEnum): ImageURISource => {
     switch (game) {
 			case GameKeyEnum.FALLOUT_3:
-				return require('@styles/images/games/fallout3.png');
+				return require('@styles/images/games/fallout3.jpg');
 			case GameKeyEnum.FALLOUT_4:
 				return require('@styles/images/games/fallout4.jpg');
       case GameKeyEnum.SKYRIM:

@@ -71,7 +71,7 @@ const fallout3SettingsConfig = {
 			],
 			"dlc": [
 				{
-					"id": "operation:anchorage",
+					"id": "operationAnchorage",
 					"isActive": true
 				},
 				{
@@ -105,7 +105,7 @@ const fallout3SettingsConfig = {
 			],
 			"dlc": [
 				{
-					"id": "operation:anchorage",
+					"id": "operationAnchorage",
 					"isActive": true
 				},
 				{
@@ -163,7 +163,7 @@ const fallout3SettingsConfig = {
 	],
 	"dlc": [
 		{
-			"id": "operation:anchorage",
+			"id": "operationAnchorage",
 			"isActive": true
 		},
 		{
