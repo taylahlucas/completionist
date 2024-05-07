@@ -76,7 +76,7 @@ export type RootDrawerParamList = {
   Collectables: undefined;
   Miscellaneous: undefined;
   Locations: undefined;
-  RequestGame: undefined;
+  SendRequest: undefined;
 	SteamAchievements: undefined;
   Subscriptions: undefined;
   Payments: undefined;

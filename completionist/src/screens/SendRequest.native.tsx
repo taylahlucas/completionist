@@ -1,0 +1,79 @@
+import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
+import StandardLayout from '@components/general/Layouts/StandardLayout.native';
+import NavigationHeader from '@navigation/NavigationHeader.native';
+import StyledText from '@components/general/Text/StyledText.native';
+import useEndpoints from '@data/api/hooks/useEndpoints.native';
+import useMainState from '@redux/hooks/useMainState';
+import Button from '@components/general/Button/Button.native';
+import TextInput from '@components/general/TextInput/TextInput.native';
+import KeyboardAvoidingScrollView from '@components/general/Lists/KeyboardAvoidingScrollView.native';
+
+interface RequestFormData {
+	subject: string;
+	text: string;
+}
+
+const SendRequest = () => {
+	const { t } = useTranslation();
+	const { user } = useMainState();
+	const { sendEmail } = useEndpoints();
+	const [formData, setFormData] = useState<RequestFormData>({
+		subject: '',
+		text: ''
+	});
+
+	const sendEmailAction = () => {
+		sendEmail({
+			emailTo: user.email,
+			subject: formData.subject,
+			text: formData.text
+		})
+	};
+
+	return (
+		<StandardLayout>
+			<NavigationHeader title={t('common:screens.sendRequest')} />
+			<StyledText>{t('common:sendRequest.SendRequestDesc')}</StyledText>
+			<KeyboardAvoidingScrollView
+				awareView={
+					<Button 
+						title={t('common:screens.sendRequest')} 
+						type='footer'
+						onPress={sendEmailAction} 
+						disabled={!formData.subject || !formData.text} 
+					/>
+				}
+			>
+				<TextInput
+					placeholder={t('common:sendRequest.subject')}
+					value={formData.subject}
+					onChangeText={(value: string) => setFormData({
+						...formData,
+						subject: value
+					})}
+					onReset={(): void => setFormData({
+						...formData,
+						subject: ''
+					})}
+				/>
+				<TextInput
+					placeholder={t('common:sendRequest.writeRequest')}
+					value={formData.text}
+					height={200}
+					onChangeText={(value: string) => setFormData({
+						...formData,
+						text: value
+					})}
+					onReset={(): void => setFormData({
+						...formData,
+						text: ''
+					})}
+					multiline
+				/>
+			</KeyboardAvoidingScrollView>
+		</StandardLayout>
+	);
+};
+
+export default SendRequest;

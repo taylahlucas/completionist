@@ -1,4 +1,4 @@
-import React, { useRef, useState, useEffect, RefObject } from 'react';
+import React, { useRef, useState, RefObject } from 'react';
 import { View, TextInput as RNTextInput } from 'react-native';
 import TextInput from '../TextInput/TextInput.native';
 
@@ -45,9 +45,7 @@ const VerificationEntry = ({ length, value, setValue }: VerificationEntryProps) 
 						value={value[index]}
 						onReset={() => {}}
 						autoFocus={index === currentIndex}
-						onTouchStart={(): void => {x
-							setCurrentIndex(index);
-						}}
+						onTouchStart={(): void => setCurrentIndex(index)}
 					/>
 				))}
 		</View>

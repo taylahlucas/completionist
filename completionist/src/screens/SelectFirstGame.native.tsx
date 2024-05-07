@@ -29,6 +29,29 @@ const SelectFirstGame = () => {
 	const { activateGameSubscription } = useActivateGameSubscription();
 	const { updateUserData } = useEditUserData();
 
+	const renderAwareView = () => (
+		<Button
+			title={t('common:continue')}
+			type='footer'
+			disabled={!selectedGame}
+			onPress={async (): Promise<void> => {
+				if (!!selectedGame) {
+					const updatedUser = activateGameSubscription(user, selectedGame);
+					updateUserData({
+						...updatedUser,
+						signup: {
+							...updatedUser.signup,
+							steps: {
+								...updatedUser.signup.steps,
+								selectGame: true
+							}
+						}
+					}, true);
+				}
+			}}
+		/>
+	);
+
 	return (
 		<StandardLayout>
 			<NavigationHeader title={t('common:screens.selectGame')} leftAction='none' />
@@ -37,30 +60,7 @@ const SelectFirstGame = () => {
 				setSearchValue={(value: string): void => setSearchValue(value)}
 				onReset={(): void => setSearchValue('')}
 			/>
-			<KeyboardAvoidingScrollView
-				awareView={
-					<Button
-						title={t('common:continue')}
-						type='footer'
-						disabled={!selectedGame}
-						onPress={async (): Promise<void> => {
-							if (!!selectedGame) {
-								const updatedUser = activateGameSubscription(user, selectedGame);
-								updateUserData({
-									...updatedUser,
-									signup: {
-										...updatedUser.signup,
-										steps: {
-											...updatedUser.signup.steps,
-											selectGame: true
-										}
-									}
-								}, true);
-							}
-						}}
-					/>
-				}
-			>
+			<KeyboardAvoidingScrollView awareView={renderAwareView()}>
 				<Condition condition={searchValue.length === 0}>
 					<StyledText>{t('common:selectGame.selectGameDesc1')}</StyledText>
 					<Spacing />

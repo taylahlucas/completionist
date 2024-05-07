@@ -15,7 +15,7 @@ import { styles, NavigationDrawerContainer } from './NavigationStyledComponents.
 import useMainState from '@redux/hooks/useMainState';
 import Settings from '@screens/Settings.native';
 import Condition from '@components/general/Condition.native';
-import RequestGame from '@screens/RequestGame.native';
+import SendRequest from '@screens/SendRequest.native';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import Landing from '@screens/Landing.native';
 import useTranslateGameContent from '@utils/hooks/useTranslateGameContent.native';
@@ -74,7 +74,7 @@ const NavigationDrawer = () => {
 			<Drawer.Screen name={ScreenEnum.Collectables} component={Collectables} />
 			<Drawer.Screen name={ScreenEnum.Miscellaneous} component={Miscellaneous} />
 			<Drawer.Screen name={ScreenEnum.Locations} component={Locations} />
-			<Drawer.Screen name={ScreenEnum.RequestGame} component={RequestGame} />
+			<Drawer.Screen name={ScreenEnum.SendRequest} component={SendRequest} />
 			<Drawer.Screen name={ScreenEnum.SteamAchievements} component={SteamAchievements} />
 			<Drawer.Screen name={ScreenEnum.Subscriptions} component={Subscriptions} />
 			<Drawer.Screen name={ScreenEnum.Payments} component={Payments} />

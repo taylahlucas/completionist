@@ -49,8 +49,7 @@ const useEditUserData = (): EditUserDataReturnType => {
 			});
 		}
 	};
-
-	// TODO: Move this in updateUserData ? or keep seperate?
+	
 	const saveUserAndLogin = (user: User, shouldLogin: boolean) => {
 		setUser(user);
 		saveToCache(user);

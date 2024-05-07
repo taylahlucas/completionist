@@ -33,7 +33,7 @@ const useGetNavigationFooterDrawerItems = (): NavigationFooterDrawerItem[] => {
 			iconType: IconTypeEnum.Ionicons
 		},
 		{
-			id: ScreenEnum.RequestGame,
+			id: ScreenEnum.SendRequest,
 			title: t('common:screens.sendRequest'),
 			icon: 'forward-to-inbox'
 		},

@@ -11,7 +11,7 @@ export enum ScreenEnum {
   Collectables = 'Collectables',
   Miscellaneous = 'Miscellaneous',
   Locations = 'Locations',
-  RequestGame = 'RequestGame',
+  SendRequest = 'SendRequest',
 	SteamAchievements = 'SteamAchievements',
   Subscriptions = 'Subscriptions',
   Payments = 'Payments',

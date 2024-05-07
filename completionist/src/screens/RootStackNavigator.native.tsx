@@ -5,28 +5,25 @@ import useMainState from '@redux/hooks/useMainState';
 import useInitUserData from '@data/hooks/useInitUserData.native';
 import Landing from './Landing.native';
 import usePlaySplashScreen from '@utils/hooks/usePlaySplashScreen.native';
-import useLoginState from '@components/custom/LoginForm/hooks/useLoginState';
 import i18n from 'src/i18n/i18n.native';
 import useTimedDataUpdate from '@data/api/hooks/useTimedDataUpdate.native';
-import useGetRootPage from '@utils/hooks/useGetRootPage.native';
+import Login from './Login.native';
 
 const RootStackNavigator = () => {
-  const { isLoggedIn } = useLoginState();
-  const { showSplashScreen, user } = useMainState();
-	const getRootPage = useGetRootPage();
+  const { showSplashScreen } = useMainState();
 
   usePlaySplashScreen();
+	// This will handle navigation to whatever the correct screen
   useInitUserData();
   useTimedDataUpdate();
-	// TODO: Need to pull user from db on reload, not from cache
-
+	
   return (
     <Condition 
       condition={!showSplashScreen}
       conditionalElement={<Landing />}
     >
       <I18nextProvider i18n={i18n}>
-				{getRootPage(user, isLoggedIn)}
+				<Login />
       </I18nextProvider>
     </Condition>
   );

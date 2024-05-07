@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { Animated } from 'react-native';
+import { Animated, Keyboard } from 'react-native';
 import { NavigationHeaderLeftActionTypes } from '@utils/CustomTypes';
 import {
   styles,
@@ -25,6 +25,10 @@ const useGetLeftNavigationItem = (leftAction: NavigationHeaderLeftActionTypes): 
 		rotateButton(isDrawerOpen);
 	}, [isDrawerOpen]);
 
+	const dismissKeyboard = () => {
+		Keyboard.dismiss();
+	};
+
   switch (leftAction) {
     case 'back':
       return (
@@ -33,14 +37,20 @@ const useGetLeftNavigationItem = (leftAction: NavigationHeaderLeftActionTypes): 
           name={'arrow-back'}
           type={IconTypeEnum.Ionicons}
           color={theme.lightGrey}
-          onPress={(): void => navigation.goBack()}
+          onPress={(): void => {
+						dismissKeyboard();
+						navigation.goBack();
+					}}
         />
       );
     case 'menu':
       return (
 				<Animated.View style={[animatedStyles]}>
 					<NavigationHeaderMenuButton
-						onPress={(): void => navigation.dispatch(DrawerActions.openDrawer())}
+						onPress={(): void => {
+							dismissKeyboard();
+							navigation.dispatch(DrawerActions.openDrawer())
+						}}
 					>
 						<NavigationHeaderMenuIcon
 							name={'menu-sharp'}
@@ -59,7 +69,10 @@ const useGetLeftNavigationItem = (leftAction: NavigationHeaderLeftActionTypes): 
           type={IconTypeEnum.Ionicons}
           color={theme.lightGrey}
           size={35}
-          onPress={(): void => navigation.navigate(ScreenEnum.Subscriptions)}
+          onPress={(): void => {
+						dismissKeyboard();
+						navigation.navigate(ScreenEnum.Subscriptions);
+					}}
         />
       );
     default:
