@@ -12,7 +12,7 @@ export interface SubscriptionOptionsListProps {
 const useGetSubscriptionOptionsList = (): SubscriptionOptionsListProps[] => {
 	const { t } = useTranslation();
 
-	return ([
+	return [
 		{
 			id: SubscriptionTypeEnum.PREMIUM,
 			prices: [
@@ -49,7 +49,7 @@ const useGetSubscriptionOptionsList = (): SubscriptionOptionsListProps[] => {
 				t('common:subscriptions.accessOneGame')
 			]
 		},
-	]);
+	];
 };
 
 export default useGetSubscriptionOptionsList;

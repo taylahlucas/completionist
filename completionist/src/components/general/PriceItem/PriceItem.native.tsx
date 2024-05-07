@@ -14,7 +14,7 @@ const PriceItem = ({ item }: PriceItemProps) => {
 	return (
 		<PriceItemContainer>
 			<StyledText type={'Heading'} color={theme.lightGrey}>
-				{`£${item.value.toString()}`}
+				{`£${item.value?.toString()}`}
 			</StyledText>
 			<StyledText type='ListItemSubTitleItalic'>
 				{item.title}

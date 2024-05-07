@@ -22,15 +22,12 @@ const userSchema = new mongoose.Schema({
   password: String,
   userAvatar: String,
 	signup: {
-		complete: Boolean,
-		steps: {
-			type: Object,
-			default: {
-				verification: true,
-				selectPlan: false,
-				selectGame: false
-			}
-		},
+		type: Object,
+		default: {
+			verification: true,
+			selectPlan: false,
+			selectGame: false
+		}
 	},
   subscription: {
     tier: String,
@@ -76,7 +73,6 @@ const userSchema = new mongoose.Schema({
   },
 });
 
-userSchema.path('signup.complete').default(false);
 userSchema.path('subscription.tier').default('free');
 userSchema.path('subscription.changesLeft').default(1);
 userSchema.path('subscription.data').default([

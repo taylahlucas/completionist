@@ -8,6 +8,7 @@ import useEditUserData from '@data/hooks/useEditUserData.native';
 import useMainState from '@redux/hooks/useMainState';
 import { SignInProps } from '@data/api/EndpointInterfaces.native';
 import useSendEmailVerification from '@components/custom/LoginForm/hooks/useSendEmailVerification';
+import useLoginDispatch from './useLoginDispatch';
 
 interface GoogleSignInError {
 	code: number;
@@ -23,6 +24,7 @@ interface GetLoginMethodsReturnType {
 const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 	const { t } = useTranslation();
 	const { user, shouldUpdateUser } = useMainState();
+	const { triggerIsSigningUp } = useLoginDispatch();
 	const { updateUserData, saveUserAndLogin, removeUserData } = useEditUserData();
 	const { checkUserExists, linkAndSignIn, signIn, signUp } = useEndpoints();
 	const sendEmailVerification = useSendEmailVerification();
@@ -66,7 +68,7 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 		);
 	};
 
-	const linkGoogleAccount = ({ email, password, googleId }: SignInProps) => {
+	const linkGoogleAccount = (email: string) => {
 		Alert.alert(
 			t('common:errors.accountExists'),
 			t('common:errors.accountExistsMsg'),
@@ -94,7 +96,7 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 					});
 				}
 				else if (accounts.google && !accounts.regular) {
-					linkGoogleAccount({ email: email, password: password });
+					linkGoogleAccount(email);
 				}
 				else {
 					Alert.alert(

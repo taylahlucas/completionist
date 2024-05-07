@@ -1,5 +1,4 @@
 import React from 'react';
-import { View } from 'react-native';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import { StandardLayoutContainer } from './StandardLayoutStyledComponents.native';
 

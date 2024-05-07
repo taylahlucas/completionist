@@ -171,15 +171,10 @@ export interface UserData {
 	witcher3: GeneralData;
 }
 
-export interface SignupStepData {
+export interface SignupData {
 	verification: boolean;
 	selectPlan: boolean;
 	selectGame: boolean;
-}
-
-export interface SignupData {
-	complete: boolean;
-	steps: SignupStepData;
 }
 
 export interface User extends LoginFormData {

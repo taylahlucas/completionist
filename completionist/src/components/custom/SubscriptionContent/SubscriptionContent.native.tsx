@@ -1,42 +1,58 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import ScrollableList from '@components/general/Lists/ScrollableList.native';
-import SubscriptionFeatureList from './SubscriptionFeatureList.native';
 import Button from '@components/general/Button/Button.native';
 import useGetTheme from '@styles/hooks/useGetTheme';
-import SubscriptionPriceList from './SubscriptionOptionsList.native';
 import StyledText from '@components/general/Text/StyledText.native';
-import { styles } from './SubscriptionContentStyledComponents.native';
 import useMainState from '@redux/hooks/useMainState';
-import useSubscriptionState from './hooks/useContentState';
 import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
 import { ScreenEnum, SubscriptionTypeEnum } from '@utils/CustomEnums';
 import useEditUserData from '@data/hooks/useEditUserData.native';
 import KeyboardAvoidingScrollView from '@components/general/Lists/KeyboardAvoidingScrollView.native';
+import useLoginState from '../LoginForm/hooks/useLoginState';
+import useGetSubscriptionOptionsList from './hooks/useGetSubscriptionOptionsList';
+import {
+	SubscriptionFeatureListContainer,
+	SubscriptionFeatureListInnerContainer,
+	SubscriptionFeatureListItemContainer,
+	SubscriptionFeatureListTitle
+} from './SubscriptionContentStyledComponents.native';
+import useGetSubscriptionFeatureList from './hooks/useGetSubscriptionFeatureList';
+import Seperator from '@components/general/Seperator.native';
+import Icon from '@components/general/Icon/Icon.native';
+import SubscriptionOptionsList from './SubscriptionOptionsList.native';
+import useSubscriptionState from './hooks/useContentState';
+
+const initialState = {
+	id: SubscriptionTypeEnum.FREE,
+	prices: [],
+	title: '',
+	description: []
+};
 
 const SubscriptionContent = () => {
 	const { t } = useTranslation();
 	const theme = useGetTheme();
 	const navigation = useReactNavigation();
-	const { user } = useMainState();
 	const { selectedSubscription } = useSubscriptionState();
+	const { user } = useMainState();
+	const { isSigningUp } = useLoginState();
 	const { updateUserData } = useEditUserData();
-	const isSigningUp = user && !user.signup.complete;
+	const featureList = useGetSubscriptionFeatureList();
+	const options = useGetSubscriptionOptionsList();
+	const isFree: boolean = selectedSubscription.id === SubscriptionTypeEnum.FREE;
 
 	const renderAwareView = () => (
 		<Button
-			title={t('common:subscriptions.purchaseSubscription')}
+			title={isFree ? 'Continue' : t('common:subscriptions.purchaseSubscription')}
 			type='footer'
 			onPress={(): void => {
-				if (isSigningUp && selectedSubscription.id === SubscriptionTypeEnum.FREE) {
+				// TODO: Need to figure out how to check if in login flow?
+				if (isFree) {
 					updateUserData({
 						...user,
 						signup: {
 							...user.signup,
-							steps: {
-								...user.signup.steps,
-								selectPlan: true
-							}
+							selectPlan: true
 						}
 					}, true);
 				}
@@ -47,9 +63,7 @@ const SubscriptionContent = () => {
 					navigation.navigate(ScreenEnum.Payments);
 				}
 			}}
-			disabled={!isSigningUp && selectedSubscription.id === user.subscription.tier}
-			color={theme.primaryPurple}
-		/>
+			color={theme.primaryPurple} />
 	);
 
 	// TODO: Change from purchase subscription to select subscription
@@ -62,13 +76,26 @@ const SubscriptionContent = () => {
 			<StyledText>
 				{t('common:subscriptions.subscriptionDesc')}
 			</StyledText>
-			<SubscriptionFeatureList />
-			<SubscriptionPriceList />
+			<SubscriptionFeatureListContainer>
+				{featureList.map(item => (
+					<SubscriptionFeatureListInnerContainer key={item.id}>
+						<SubscriptionFeatureListItemContainer>
+							<Icon
+								style={{ alignSelf: 'center' }}
+								name={item.icon}
+								type={item.iconType}
+								size={30}
+								color={item.color}
+							/>
+							<SubscriptionFeatureListTitle align='left'>{item.title}</SubscriptionFeatureListTitle>
+						</SubscriptionFeatureListItemContainer>
+						<Seperator />
+					</SubscriptionFeatureListInnerContainer>
+				))}
+			</SubscriptionFeatureListContainer>
+			<SubscriptionOptionsList />
 		</KeyboardAvoidingScrollView>
-	)
+	);
 };
 
 export default SubscriptionContent;
-
-// <ScrollableList contentContainerStyle={styles.scrollContent}>
-// </ScrollableList>

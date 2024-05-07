@@ -18,14 +18,6 @@ export const initialGameData: GeneralData = {
 
 export const initialUser: User = {
 	...initialFormData,
-	signup: {
-		complete: false,
-		steps: {
-			verification: false,
-			selectPlan: false,
-			selectGame: false
-		},
-	},
 	subscription: {
 		tier: SubscriptionTypeEnum.FREE,
 		changesLeft: 2,

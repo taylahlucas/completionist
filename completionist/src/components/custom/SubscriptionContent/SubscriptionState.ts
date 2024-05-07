@@ -8,11 +8,11 @@ export interface SubscriptionState {
 
 export const initialState: SubscriptionState = {
     selectedSubscription: {
-		id: SubscriptionTypeEnum.FREE,
-		prices: [],
-		title: '',
-		description: []
-	}
+			id: SubscriptionTypeEnum.FREE,
+			prices: [],
+			title: '',
+			description: []
+		}
 };
 
 const slice = createSlice({

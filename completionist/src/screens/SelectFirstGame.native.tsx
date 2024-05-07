@@ -41,10 +41,7 @@ const SelectFirstGame = () => {
 						...updatedUser,
 						signup: {
 							...updatedUser.signup,
-							steps: {
-								...updatedUser.signup.steps,
-								selectGame: true
-							}
+							selectGame: true
 						}
 					}, true);
 				}

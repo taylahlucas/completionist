@@ -1,3 +1,4 @@
+import React from 'react';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import useSubscriptionDispatch from '../../custom/SubscriptionContent/hooks/useContentDispatch';
 import { SubscriptionOptionsListProps } from '../../custom/SubscriptionContent/hooks/useGetSubscriptionOptionsList';

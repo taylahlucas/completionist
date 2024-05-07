@@ -10,7 +10,7 @@ interface SubscriptionPriceListProps {
 const SubscriptionPriceList = ({ items }: SubscriptionPriceListProps) => {
 	return (
 		<SubscriptionPriceContainer>
-			{items.map((item, index) => (
+			{items?.map((item, index) => (
 				<PriceItem key={index} item={item} />
 			))}
 		</SubscriptionPriceContainer>
