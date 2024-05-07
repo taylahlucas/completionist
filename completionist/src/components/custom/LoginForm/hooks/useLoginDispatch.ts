@@ -10,7 +10,7 @@ import { LoginFormData } from '@utils/CustomInterfaces';
 
 interface LoginDispatch {
   setLoginFormData: (value: LoginFormData) => void;
-	setVerificationToken: (token: string) => void;
+	setVerificationToken: (token: string | undefined) => void;
   setLoggedIn: (value: boolean) => void;
   triggerIsSigningUp: (value: boolean) => void;
 }
@@ -22,7 +22,7 @@ const useLoginDispatch = (): LoginDispatch => {
     setLoginFormData(value: LoginFormData): void {
       dispatch(setLoginFormData(value));
     },
-		setVerificationToken(token: string): void {
+		setVerificationToken(token: string | undefined): void {
 			dispatch(setVerificationToken(token));
 		},
     setLoggedIn(value: boolean): void {

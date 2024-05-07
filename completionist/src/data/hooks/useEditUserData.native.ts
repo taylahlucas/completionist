@@ -49,7 +49,7 @@ const useEditUserData = (): EditUserDataReturnType => {
 			});
 		}
 	};
-	
+
 	const saveUserAndLogin = (user: User, shouldLogin: boolean) => {
 		setUser(user);
 		saveToCache(user);

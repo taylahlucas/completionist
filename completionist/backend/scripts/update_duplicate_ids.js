@@ -68,12 +68,10 @@ const jsonFilePath = 'skyrim.json';
 // Read objects from the JSON file
 const objects = readJsonFile(jsonFilePath);
 
-console.log("BEFORE")
 checkDuplicateIdentifiers(objects);
 const objectsWithUniqueId = updateDuplicateIdentifiers(objects)
 // Write updated objects back to the JSON file
 writeJsonFile(jsonFilePath, objectsWithUniqueId);
 
-console.log("AFTER")
 const newObjects = readJsonFile(jsonFilePath);
 checkDuplicateIdentifiers(newObjects);

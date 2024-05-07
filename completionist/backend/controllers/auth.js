@@ -138,16 +138,18 @@ const linkAndSignIn = async (req, res) => {
 
 		// If user does not have googleId, update googleId
 		let result;
-		if (!user.googleId && !!googleId) {
+		if (!user.googleId && googleId) {
 			let hashedGoogleId = await hashPassword(googleId)
 			result = await User.updateOne({
 				userId: user.userId,
 				googleId: hashedGoogleId
 			});
 		}
+		console.log("USER: " , user.password)
 		// TODO: If user does not have password, update password
-		if (!user.password && !!password) {
+		if (!user.password && password) {
 			let hashedPassword = await hashPassword(password)
+			console.log("Updating with password")
 			result = await User.updateOne({
 				userId: user.userId,
 				password: hashedPassword

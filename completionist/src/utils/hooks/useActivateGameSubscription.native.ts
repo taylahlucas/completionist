@@ -1,10 +1,8 @@
 import useEditUserData from '@data/hooks/useEditUserData.native';
-// import useMainState from '@redux/hooks/useMainState';
 import { SubscriptionData, User } from '@utils/CustomInterfaces';
 
 const useActivateGameSubscription = () => {
-	// const { user } = useMainState();
-	const { saveUserAndLogin } = useEditUserData();
+	const { updateUserData } = useEditUserData();
 
 	// Free users
 	const changeGameSubscription = (user: User, selectedGame: SubscriptionData, changesLeft: number) => {
@@ -23,8 +21,7 @@ const useActivateGameSubscription = () => {
 				data: updatedGames
 			}
 		};
-		// TODO: Fix here, need to update user
-		saveUserAndLogin(updatedUser, false);
+		updateUserData(updatedUser, false);
 	};
 	
 	// User set up and premium users

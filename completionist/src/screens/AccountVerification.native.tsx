@@ -4,18 +4,21 @@ import { useTranslation } from 'react-i18next';
 import StandardLayout from '@components/general/Layouts/StandardLayout.native';
 import NavigationHeader from '@navigation/NavigationHeader.native';
 import useLoginState from '@components/custom/LoginForm/hooks/useLoginState';
+import useLoginDispatch from '@components/custom/LoginForm/hooks/useLoginDispatch';
 import Button from '@components/general/Button/Button.native';
 import VerificationEntry from '@components/general/VerificationEntry/VerificationEntry.native';
 import StyledText from '@components/general/Text/StyledText.native';
 import useEditUserData from '@data/hooks/useEditUserData.native';
 import useEndpoints from '@data/api/hooks/useEndpoints.native';
 import KeyboardAvoidingScrollView from '@components/general/Lists/KeyboardAvoidingScrollView.native';
+import { UserResponse } from '@utils/CustomTypes';
 
 const AccountVerification = () => {
 	const { t } = useTranslation();
-	const { loginFormData, verificationToken } = useLoginState();
+	const { loginFormData, verificationToken, isSigningUp } = useLoginState();
+	const { setVerificationToken } = useLoginDispatch();
 	const { saveUserAndLogin } = useEditUserData();
-	const { signUp } = useEndpoints();
+	const { signUp, linkAndSignIn } = useEndpoints();
 	const [value, setValue] = useState<string>('');
 
 	const renderAwareView = (): JSX.Element => {
@@ -26,21 +29,29 @@ const AccountVerification = () => {
 				disabled={value.length !== verificationToken?.length}
 				onPress={(): void => {
 					if (value === verificationToken) {
-						signUp({ data: loginFormData })
-							.then((response) => {
-								if (response) {
-									saveUserAndLogin(response, true);
+						if (isSigningUp) {
+							signUp({ data: loginFormData })
+							.then((userResponse: UserResponse) => {
+								if (userResponse) {
+									saveUserAndLogin(userResponse, true);
 								}
-							})
-							.catch((error) => {
-								console.log(
-									"[AccountVerification] Error creating user: ",
-									error.message
-								);
-							})
+							});
+						}
+						else {
+								linkAndSignIn({
+									email: loginFormData.email,
+									password: loginFormData.password
+								})
+								.then((userResponse: UserResponse) => {
+									if (userResponse) {
+										saveUserAndLogin(userResponse, true);
+									}
+								})
+						}
+						setVerificationToken(undefined);
 					}
 					else {
-						// TODO: 
+						// TODO: Display differently
 						Alert.alert('Incorrect code', 'The code you have entered is incorrect. Please try again');
 					}
 				}}

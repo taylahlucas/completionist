@@ -108,7 +108,7 @@ const useEndpoints = (): EndpointsReturnType => {
 
 	const linkAndSignIn = async ({ email, password, googleId }: SignInProps): Promise<UserResponse> => {
 		try {
-			const response = await axios.post(`${url}/${linkAndSignInUrl}`,
+			const response = await axios.patch(`${url}/${linkAndSignInUrl}`,
 				{
 					email: email.toLocaleLowerCase(),
 					password: password,

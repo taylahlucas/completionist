@@ -7,6 +7,7 @@ import { Alert } from 'react-native';
 import useEditUserData from '@data/hooks/useEditUserData.native';
 import useMainState from '@redux/hooks/useMainState';
 import { SignInProps } from '@data/api/EndpointInterfaces.native';
+import useSendEmailVerification from '@components/custom/LoginForm/hooks/useSendEmailVerification';
 
 interface GoogleSignInError {
 	code: number;
@@ -24,6 +25,7 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 	const { user, shouldUpdateUser } = useMainState();
 	const { updateUserData, saveUserAndLogin, removeUserData } = useEditUserData();
 	const { checkUserExists, linkAndSignIn, signIn, signUp } = useEndpoints();
+	const sendEmailVerification = useSendEmailVerification();
 
 	const userSignIn = async ({ email, password, googleId }: SignInProps) => {
 		try {
@@ -64,7 +66,25 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 		);
 	};
 
+	const linkGoogleAccount = ({ email, password, googleId }: SignInProps) => {
+		Alert.alert(
+			t('common:errors.accountExists'),
+			t('common:errors.accountExistsMsg'),
+			[
+				{
+					text: t('common:alerts.ok'),
+					// Update user with googleId
+					onPress: () => sendEmailVerification(email)
+				},
+				{
+					text: t('common:alerts.cancel')
+				}
+			]
+		);
+	};
+
 	const checkUserAccount = async ({ email, password }: SignInProps) => {
+		// Only runs on regular sign in
 		checkUserExists(email)
 			.then((accounts) => {
 				if (accounts.regular) {
@@ -74,7 +94,7 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 					});
 				}
 				else if (accounts.google && !accounts.regular) {
-					linkAccount({ email: email, password: password });
+					linkGoogleAccount({ email: email, password: password });
 				}
 				else {
 					Alert.alert(

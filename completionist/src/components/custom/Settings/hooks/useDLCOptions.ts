@@ -45,7 +45,6 @@ const useDLCOptions = (): DLCOptionsReturnType => {
   };
 
   const getDLCOptions = (): SettingsListItem[] => {
-		console.log("HERE: ", selectedGameSettings)
 		// TODO: Refactor
     switch (selectedGameSettings) {
 			case GameKeyEnum.FALLOUT_3:

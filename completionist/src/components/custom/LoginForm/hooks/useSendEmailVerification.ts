@@ -1,31 +1,42 @@
 import { useTranslation } from 'react-i18next';
-import { AxiosErrorResponse } from '@utils/CustomTypes';
 import useEndpoints from '@data/api/hooks/useEndpoints.native';
+import { ScreenEnum } from '@utils/CustomEnums';
+import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
+import useLoginDispatch from './useLoginDispatch';
 
 const useSendEmailVerification = () => {
 	const { t } = useTranslation();
+	const navigation = useReactNavigation();
 	const { sendEmail } = useEndpoints();
+	const { setVerificationToken } = useLoginDispatch();
 
-	const sendEmailVerification = async (email: string, setVerificationToken: (token: string) => void) => {
-		try {
-			// TODO: Algorithm to generate unique code
-			const uniqueCode = 'ANC234';
-			setVerificationToken(uniqueCode);
-			sendEmail({
-				// TODO: Swap for completionist email
-				emailTo: email,
-				subject: t('common:screens.verifyAccount'),
-				text: t(
-					'common:sendRequest.verifyAccount',
-					{
-						code: uniqueCode
-					}
-				)
-			})
+	const generateVerificationToken = (length: number): string => {
+		const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
+		let code = '';
+
+		for (let i = 0; i < 6; i++) {
+			const randomIndex = Math.floor(Math.random() * characters.length);
+			code += characters.charAt(randomIndex);
 		}
-		catch (error: AxiosErrorResponse) {
-			console.log("Error sending verification email ", error.message)
-		}
+
+		return code;
+	};
+
+	const sendEmailVerification = async (email: string) => {
+		const uniqueCode = generateVerificationToken(6);
+		setVerificationToken(uniqueCode);
+		sendEmail({
+			// TODO: Swap for completionist email
+			emailTo: email,
+			subject: t('common:screens.verifyAccount'),
+			text: t(
+				'common:sendRequest.verifyAccount',
+				{
+					code: uniqueCode
+				}
+			)
+		});
+		navigation.navigate(ScreenEnum.AccountVerification);
 	};
 
 	return sendEmailVerification;
