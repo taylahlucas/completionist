@@ -11,28 +11,29 @@ import LoginForm from '@components/custom/LoginForm/LoginForm.native';
 import LoginFormSignInButtons from '@components/custom/LoginForm/LoginFormSignInButtons.native';
 
 const Login = () => {
-  const { t } = useTranslation();
+	const { t } = useTranslation();
 	const { isSigningUp } = useLoginState();
-  
-  return (
-    <StandardLayout>
-      <NavigationHeader title={t('common:appTitle')} leftAction={'none'} />
-			<ScrollView contentInsetAdjustmentBehavior="automatic">
-			<LoginContentContainer>
-				<Condition condition={isSigningUp}>
-					<StyledText style={{ position: 'absolute' }}>
-						{t('common:login.instructions1')}
-					</StyledText>
-					<StyledText align='left' style={{ position: 'absolute' }}>
-						{t('common:login.instructions2')}
-					</StyledText>
-				</Condition>
-				<LoginForm />
-				<LoginFormSignInButtons />
-			</LoginContentContainer>
-		</ScrollView>
-    </StandardLayout>
-  );
+
+	// TODO: Fix keyboard view here (check with actual phone)
+	return (
+		<StandardLayout>
+			<NavigationHeader title={t('common:appTitle')} leftAction={'none'} />
+				<ScrollView>
+					<LoginContentContainer>
+						<Condition condition={isSigningUp}>
+							<StyledText style={{ position: 'absolute' }}>
+								{t('common:login.instructions1')}
+							</StyledText>
+							<StyledText align='left' style={{ position: 'absolute' }}>
+								{t('common:login.instructions2')}
+							</StyledText>
+						</Condition>
+						<LoginForm />
+					</LoginContentContainer>
+					<LoginFormSignInButtons />
+				</ScrollView>
+		</StandardLayout>
+	);
 };
 
 export default Login;

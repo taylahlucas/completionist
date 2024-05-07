@@ -3,17 +3,20 @@ import StandardLayout from '@components/general/Layouts/StandardLayout.native';
 import NavigationHeader from '@navigation/NavigationHeader.native';
 import CustomSearchBar from '@components/general/CustomSearchBar/CustomSearchBar.native';
 import { SubscriptionData } from '@utils/CustomInterfaces';
-import SelectFirstGameButton from '@components/custom/LoginForm/SelectFirstGameButton';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import { useTranslation } from 'react-i18next';
 import useMainState from '@redux/hooks/useMainState';
 import useFilterGameList from '@components/custom/GameList/hooks/useFilterGameList.native';
 import useFormatter from '@utils/hooks/useFormatter';
-import ScrollableList from '@components/general/Lists/ScrollableList.native';
 import StyledText from '@components/general/Text/StyledText.native';
 import Spacing from '@components/general/Spacing.native';
 import { SelectFirstGameContentContainer } from '@components/custom/LoginForm/LoginFormStyledComponents.native';
 import GameListItem from '@components/custom/GameList/GameListItem.native';
+import Button from '@components/general/Button/Button.native';
+import useActivateGameSubscription from '@utils/hooks/useActivateGameSubscription.native';
+import useEditUserData from '@data/hooks/useEditUserData.native';
+import KeyboardAvoidingScrollView from '@components/general/Lists/KeyboardAvoidingScrollView.native';
+import Condition from '@components/general/Condition.native';
 
 const SelectFirstGame = () => {
 	const theme = useGetTheme();
@@ -23,8 +26,9 @@ const SelectFirstGame = () => {
 	const { getFormattedSearchString } = useFormatter();
 	const [searchValue, setSearchValue] = useState('');
 	const [selectedGame, setSelectedGame] = useState<SubscriptionData>();
+	const { activateGameSubscription } = useActivateGameSubscription();
+	const { updateUserData } = useEditUserData();
 
-	// TODO: Update user here
 	return (
 		<StandardLayout>
 			<NavigationHeader title={t('common:screens.selectGame')} leftAction='none' />
@@ -33,12 +37,37 @@ const SelectFirstGame = () => {
 				setSearchValue={(value: string): void => setSearchValue(value)}
 				onReset={(): void => setSearchValue('')}
 			/>
-			<ScrollableList contentContainerStyle={{ paddingLeft: 16, paddingRight: 16 }}>
-				<StyledText>{t('common:selectGame.selectGameDesc1')}</StyledText>
-				<Spacing />
-				<StyledText>{t('common:selectGame.selectGameDesc2')}</StyledText>
-				<Spacing />
-				<StyledText type='ListItemSubTitleItalic'>{t('common:selectGame.selectGameDesc3')}</StyledText>
+			<KeyboardAvoidingScrollView
+				awareView={
+					<Button
+						title={t('common:continue')}
+						type='footer'
+						disabled={!selectedGame}
+						onPress={async (): Promise<void> => {
+							if (!!selectedGame) {
+								const updatedUser = activateGameSubscription(user, selectedGame);
+								updateUserData({
+									...updatedUser,
+									signup: {
+										...updatedUser.signup,
+										steps: {
+											...updatedUser.signup.steps,
+											selectGame: true
+										}
+									}
+								}, true);
+							}
+						}}
+					/>
+				}
+			>
+				<Condition condition={searchValue.length === 0}>
+					<StyledText>{t('common:selectGame.selectGameDesc1')}</StyledText>
+					<Spacing />
+					<StyledText>{t('common:selectGame.selectGameDesc2')}</StyledText>
+					<Spacing />
+					<StyledText type='ListItemSubTitleItalic'>{t('common:selectGame.selectGameDesc3')}</StyledText>
+				</Condition>
 				<SelectFirstGameContentContainer>
 					{filterGameList(user.subscription.data, false, getFormattedSearchString(searchValue)).map((game, index) => (
 						<GameListItem
@@ -50,11 +79,7 @@ const SelectFirstGame = () => {
 						/>
 					))}
 				</SelectFirstGameContentContainer>
-			</ScrollableList>
-			<SelectFirstGameButton
-				selectedGame={selectedGame}
-				setSelectedGame={setSelectedGame}
-			/>
+			</KeyboardAvoidingScrollView>
 		</StandardLayout>
 	);
 };

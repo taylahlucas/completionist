@@ -41,7 +41,8 @@ const ScrollableList = React.forwardRef<ScrollView, CustomListProps>(({
 			contentContainerStyle={{
 				...contentContainerStyle,
 				...listStyles.scrollableContent,
-				paddingBottom: isKeyboardVisible ? paddingBottom + 400 : paddingBottom,
+				// paddingBottom: isKeyboardVisible ? paddingBottom + 400 : paddingBottom,
+				paddingBottom
 			}}
 			style={style}
 			horizontal={isHorizontal}

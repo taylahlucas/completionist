@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { View } from 'react-native';
+import { Alert } from 'react-native';
 import { useTranslation } from 'react-i18next';
 import StandardLayout from '@components/general/Layouts/StandardLayout.native';
 import NavigationHeader from '@navigation/NavigationHeader.native';
@@ -7,29 +7,25 @@ import useLoginState from '@components/custom/LoginForm/hooks/useLoginState';
 import Button from '@components/general/Button/Button.native';
 import VerificationEntry from '@components/general/VerificationEntry/VerificationEntry.native';
 import StyledText from '@components/general/Text/StyledText.native';
-import { ScreenEnum } from '@utils/CustomEnums';
-import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
 import useEditUserData from '@data/hooks/useEditUserData.native';
 import useEndpoints from '@data/api/hooks/useEndpoints.native';
+import KeyboardAvoidingScrollView from '@components/general/Lists/KeyboardAvoidingScrollView.native';
 
 const AccountVerification = () => {
 	const { t } = useTranslation();
-	const navigation = useReactNavigation();
-	const [isValid, setIsValid] = useState<boolean>(false);
 	const { loginFormData, verificationToken } = useLoginState();
 	const { saveUserAndLogin } = useEditUserData();
 	const { signUp } = useEndpoints();
+	const [value, setValue] = useState<string>('');
 
-	return (
-		<StandardLayout>
-			<NavigationHeader title={t('common:screens.verifyAccount')} leftAction='none' />
-			<View style={{ padding: 8 }}>
-				<StyledText>{t('common:login.accountVerification')}</StyledText>
-				<VerificationEntry token={verificationToken ?? ''} setIsValid={setIsValid} />
-				<Button
-					title={t('common:continue')}
-					disabled={!isValid}
-					onPress={(): void => {
+	const renderAwareView = (): JSX.Element => {
+		return (
+			<Button
+				title={t('common:continue')}
+				type='footer'
+				disabled={value.length !== verificationToken?.length}
+				onPress={(): void => {
+					if (value === verificationToken) {
 						signUp({ data: loginFormData })
 							.then((response) => {
 								if (response) {
@@ -42,9 +38,28 @@ const AccountVerification = () => {
 									error.message
 								);
 							})
-					}}
+					}
+					else {
+						// TODO: 
+						Alert.alert('Incorrect code', 'The code you have entered is incorrect. Please try again');
+					}
+				}}
+			/>
+		);
+	};
+
+	return (
+		<StandardLayout>
+			<NavigationHeader title={t('common:screens.verifyAccount')} leftAction='none' />
+			<StyledText>{t('common:login.accountVerification')}</StyledText>
+			<KeyboardAvoidingScrollView awareView={renderAwareView()}>
+				<VerificationEntry
+					length={verificationToken?.length ?? 0}
+					value={value}
+					setValue={setValue}
 				/>
-			</View>
+				<></>
+			</KeyboardAvoidingScrollView>
 		</StandardLayout>
 	);
 };

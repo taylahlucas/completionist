@@ -141,7 +141,7 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 	const signOut = async () => {
 		try {
 			if (shouldUpdateUser) {
-				updateUserData(user);
+				updateUserData(user, false);
 			}
 			await GoogleSignin.revokeAccess();
 			await GoogleSignin.signOut();

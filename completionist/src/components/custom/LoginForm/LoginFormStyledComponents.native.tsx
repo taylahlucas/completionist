@@ -15,7 +15,6 @@ export const LoginFormButtonContainer = styled.View`
 `;
 
 export const LoginButton = styled(Button)`
-	margin-top: 16px;
 	margin-bottom: 32px;
 `;
 
@@ -28,14 +27,4 @@ export const SelectFirstGameContentContainer = styled.View`
 	flex-wrap: wrap;
 	margin-top: 16px;
 	justify-content: center;
-`;
-
-export const SelectFirstGameButtonContainer = styled.View`
-	height: 82px;
-`;
-
-export const SelectFirstGameButtonStyle = styled(Button)`
-	position: absolute;
-	align-self: center;
-	margin-top: 16px;
 `;

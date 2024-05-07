@@ -14,7 +14,7 @@ import useGetNavigationPath from './useGetNavigationPath';
 interface EditUserDataReturnType {
 	loadUserFromCache: () => void;
 	saveUserAndLogin: (user: User, shouldLogin: boolean) => void;
-	updateUserData: (user: User) => void;
+	updateUserData: (user: User, handleNav: boolean) => void;
 	removeUserData: () => void;
 }
 
@@ -50,6 +50,7 @@ const useEditUserData = (): EditUserDataReturnType => {
 		}
 	};
 
+	// TODO: Move this in updateUserData ? or keep seperate?
 	const saveUserAndLogin = (user: User, shouldLogin: boolean) => {
 		setUser(user);
 		saveToCache(user);
@@ -61,7 +62,7 @@ const useEditUserData = (): EditUserDataReturnType => {
 		}
 	};
 	
-	const updateUserData = async (user: User) => {
+	const updateUserData = async (user: User, handleNav: boolean) => {
 		if (isLoggedIn) {
 			await getCredentials()
 				.then((credentials) => {
@@ -69,15 +70,8 @@ const useEditUserData = (): EditUserDataReturnType => {
 						updateUser({
 							authToken: credentials.password,
 							...user
-							// userId: user.userId,
-							// steamId: user.steamId,
-							// signup: user.signup,
-							// subscription: user.subscription,
-							// settings: user.settings,
-							// userAvatar: user.userAvatar,
-							// data: user.data
 						});
-						saveUserAndLogin(user, false);
+						saveUserAndLogin(user, handleNav);
 					}
 				})
 		}

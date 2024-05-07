@@ -1,18 +1,25 @@
 import React from 'react';
 import { KeyboardAvoidingView } from 'react-native';
+import KeyboardAwareContainer from '@components/general/KeyboardAwareContainer.native';
+import ScrollableList from '@components/general/Lists/ScrollableList.native';
 
 interface KeyboardAvoidingScrollViewProps {
-	children: JSX.Element;
+	children: JSX.Element[];
+	awareView: any;
 }
 
-const KeyboardAvoidingScrollView = ({ children }: KeyboardAvoidingScrollViewProps) => {
+const KeyboardAvoidingScrollView = ({ children, awareView }: KeyboardAvoidingScrollViewProps) => {
 	return (
 		<KeyboardAvoidingView 
-			style={{ flex: 1, alignItems: 'center' }}
-			behavior="height"
-			keyboardVerticalOffset={10}
+			behavior='padding'
+			style={{ flex: 1 }}
 		>
-			{children}
+			<ScrollableList>
+				{children}
+			</ScrollableList>
+			<KeyboardAwareContainer>
+				{awareView}
+			</KeyboardAwareContainer>
 		</KeyboardAvoidingView>
 	);
 };

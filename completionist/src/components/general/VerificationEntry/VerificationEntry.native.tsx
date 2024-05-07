@@ -3,28 +3,23 @@ import { View, TextInput as RNTextInput } from 'react-native';
 import TextInput from '../TextInput/TextInput.native';
 
 interface VerificationEntryProps {
-	token: string;
-	setIsValid: (validated: boolean) => void;
+	length: number;
+	value: string;
+	setValue: (value: string) => void;
 };
 
 interface RefMapping {
   [key: number]: RefObject<RNTextInput> | undefined;
 }
 
-const VerificationEntry = ({ token, setIsValid }: VerificationEntryProps) => {
-	const inputRefs = useRef<RefMapping>(Array.from({ length: token.length }, () => React.createRef<RNTextInput>()));
-	const [value, setValue] = useState<string>('');
+const VerificationEntry = ({ length, value, setValue }: VerificationEntryProps) => {
+	const inputRefs = useRef<RefMapping>(Array.from({ length: length }, () => React.createRef<RNTextInput>()));
 	const [currentIndex, setCurrentIndex] = useState(0);
 
-	// useHandlePaste
-
-	useEffect(() => {
-		setIsValid(value === token);
-	}, [value]);
-
+	// TODO: useHandlePaste
 	return (
 		<View style={{ flexDirection: 'row', justifyContent: 'center' }}>
-			{[...token].map((_, index) => (
+			{Array.from({ length: length }).map((_, index) => (
 					<TextInput
 						key={index}
 						ref={inputRefs.current[index]} 
@@ -32,7 +27,7 @@ const VerificationEntry = ({ token, setIsValid }: VerificationEntryProps) => {
 						inputStyle='verification'
 						onChangeText={(text) => {
 							setValue(value.concat(text));
-							if (currentIndex + 1 <= token.length - 1) {
+							if (currentIndex + 1 <= length - 1) {
 								setCurrentIndex(currentIndex + 1);
 								inputRefs.current[currentIndex + 1]?.current?.focus()
 							}
@@ -50,7 +45,7 @@ const VerificationEntry = ({ token, setIsValid }: VerificationEntryProps) => {
 						value={value[index]}
 						onReset={() => {}}
 						autoFocus={index === currentIndex}
-						onTouchStart={(): void => {
+						onTouchStart={(): void => {x
 							setCurrentIndex(index);
 						}}
 					/>

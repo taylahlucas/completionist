@@ -1,13 +1,13 @@
 import useEditUserData from '@data/hooks/useEditUserData.native';
-import useMainState from '@redux/hooks/useMainState';
-import { SubscriptionData } from '@utils/CustomInterfaces';
+// import useMainState from '@redux/hooks/useMainState';
+import { SubscriptionData, User } from '@utils/CustomInterfaces';
 
 const useActivateGameSubscription = () => {
-	const { user } = useMainState();
+	// const { user } = useMainState();
 	const { saveUserAndLogin } = useEditUserData();
 
 	// Free users
-	const changeGameSubscription = (selectedGame: SubscriptionData, changesLeft: number) => {
+	const changeGameSubscription = (user: User, selectedGame: SubscriptionData, changesLeft: number) => {
 		const updatedGames: SubscriptionData[] = user.subscription.data.map((data: SubscriptionData) => {
 			return {
 				id: data.id,
@@ -28,7 +28,7 @@ const useActivateGameSubscription = () => {
 	};
 	
 	// User set up and premium users
-	const activateGameSubscription = (selectedGame: SubscriptionData) => {
+	const activateGameSubscription = (user: User, selectedGame: SubscriptionData): User => {
 		const updatedGames: SubscriptionData[] = user.subscription.data.map((data: SubscriptionData) => {
 			return (data.id === selectedGame?.id)
 				? {

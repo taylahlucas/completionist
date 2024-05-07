@@ -12,7 +12,7 @@ const useTimedDataUpdate = () => {
 		// Set up a timer to fetch data every 5 minutes (5 * 60 * 1000)
 		const timerId = setInterval(() => {
 			if (shouldUpdateUser && isLoggedIn) {
-				updateUserData(user);
+				updateUserData(user, false);
 			}
 		}, 5 * 60 * 1000)
 

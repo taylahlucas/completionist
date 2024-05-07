@@ -64,7 +64,9 @@ export const GameListItemHeaderTitleContainer = styled.View`
 `;
 
 export const GameSelectionChangeLeftContainer = styled.View`
-	flex-direction: row; 
+	flex-direction: row;
+	width: 100%;
+	justify-content: space-between;
 	margin-left: 16px;
 	padding-bottom: 8px;
 `;

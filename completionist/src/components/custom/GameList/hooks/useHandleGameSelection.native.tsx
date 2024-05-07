@@ -44,7 +44,7 @@ const useHandleGameSelection = () => {
 							[
 								{
 									text: t('common:alerts.activate'),
-									onPress: () => changeGameSubscription(game, newChangesLeft)
+									onPress: () => changeGameSubscription(user, game, newChangesLeft)
 								},
 								{
 									text: t('common:alerts.cancel'),
@@ -67,7 +67,7 @@ const useHandleGameSelection = () => {
 						[
 							{
 								text: t('common:alerts.activate'),
-								onPress: () => activateGameSubscription(game)
+								onPress: () => activateGameSubscription(user, game)
 							},
 							{
 								text: t('common:alerts.cancel'),

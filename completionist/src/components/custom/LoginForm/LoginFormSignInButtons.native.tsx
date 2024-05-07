@@ -1,4 +1,5 @@
 import React from 'react';
+import { View } from 'react-native';
 import { useTranslation } from 'react-i18next';
 import useGetLoginMethods from './hooks/useGetLoginMethods';
 import Button from '@components/general/Button/Button.native';
@@ -26,9 +27,10 @@ const LoginFormSignInButtons = () => {
 		? !isNameValid(loginFormData.name) 
 		: false
 	);
-
+	
+	// TODO: get this to move with screen
 	return (
-		<>
+		<View style={{ alignItems: 'center' }}>
 			<LoginButton
 				testID={'login-button'}
 				title={isSigningUp 
@@ -64,7 +66,7 @@ const LoginFormSignInButtons = () => {
 					onPress={(): void => triggerIsSigningUp(!isSigningUp)}
 				/>
 			</LoginFormFooterContainer>
-		</>
+		</View>
 	);
 };
 

@@ -42,7 +42,7 @@ export const FooterButtonView = styled.View`
 	flex: 1;
 	position: absolute;
 	width: 100%;
-	height: 100px; 
+	height: 70px; 
 	bottom: 0px;
 	justify-content: center;
 `;

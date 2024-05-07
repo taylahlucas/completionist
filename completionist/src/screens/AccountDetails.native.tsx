@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import StandardLayout from '@components/general/Layouts/StandardLayout.native';
 import NavigationHeader from '@navigation/NavigationHeader.native';
-import ScrollableList from '@components/general/Lists/ScrollableList.native';
 import {
 	SettingsDescription
 } from '@components/custom/Settings/SettingsStyledComponents.native';
@@ -22,12 +21,24 @@ const AccountDetails = () => {
 	const [password, setPassword] = useState<string>('');
 	const { saveUserAndLogin } = useEditUserData();
 
-  return (
-    <StandardLayout>
-      <NavigationHeader title={t('common:screens.accountDetails')} leftAction='back' />
+	return (
+		<StandardLayout>
+			<NavigationHeader title={t('common:screens.accountDetails')} leftAction='back' />
 			<>
-			<KeyboardAvoidingScrollView>
-				<ScrollableList>
+				<KeyboardAvoidingScrollView
+					awareView={
+						<Button
+							title={t('common:accountDetails.updateDetails')}
+							type='footer'
+							onPress={(): void => saveUserAndLogin({
+								...user,
+								name: username,
+								// TODO: Email validation
+								// email: email
+							}, false)}
+						/>
+					}
+				>
 					<SettingsDescription align='left'>
 						{t('common:accountDetails.changeUsername')}
 					</SettingsDescription>
@@ -73,21 +84,10 @@ const AccountDetails = () => {
 						onChangeText={(value: string): void => setPassword(value)}
 						onReset={(): void => setPassword('')}
 					/>
-				</ScrollableList>
-			</KeyboardAvoidingScrollView>
-			<Button
-				title={t('common:accountDetails.updateDetails')}
-				type='footer'
-				onPress={(): void => saveUserAndLogin({
-					...user,
-					name: username,
-					// TODO: Email validation
-					// email: email
-				}, false)}
-			/>
-		</>
-    </StandardLayout>
-  );
+				</KeyboardAvoidingScrollView>
+			</>
+		</StandardLayout>
+	);
 };
 
 export default AccountDetails;
