@@ -1,19 +1,18 @@
-import { ScreenEnum } from '@utils/CustomEnums';
+import { UnauthorizedScreenEnum, ScreenEnum } from '@utils/CustomEnums';
 import { User } from '@utils/CustomInterfaces';
 
 const useGetNavigationPath = () => {
-	const getLoginScreenEnum = (user: User): ScreenEnum => {
+	const getLoginScreenEnum = (user: User): UnauthorizedScreenEnum => {
 		if (!user.signup.verification) {
-			return ScreenEnum.AccountVerification;
+			return UnauthorizedScreenEnum.AccountVerification;
 		}
 		else if (!user.signup.selectPlan) {
-			return ScreenEnum.SelectPlan;
+			return UnauthorizedScreenEnum.SelectInitialPlan;
 		}
 		else if (!user.signup.selectGame) {
-			return ScreenEnum.SelectFirstGame;
+			return UnauthorizedScreenEnum.SelectFirstGame;
 		}
-
-		return ScreenEnum.GameSelection;
+		return UnauthorizedScreenEnum.Login;
 	}
 
 	return getLoginScreenEnum;

@@ -3,7 +3,6 @@ import useMainDispatch from '@redux/hooks/useMainDispatch';
 import { User } from '@utils/CustomInterfaces';
 import useCache from '../api/hooks/useCache.native';
 import useKeychain from './useKeychain.native';
-import { ScreenEnum } from '@utils/CustomEnums';
 import { initialFormData } from '@components/custom/LoginForm/LoginState';
 import useLoginDispatch from '@components/custom/LoginForm/hooks/useLoginDispatch';
 import useEndpoints from '../api/hooks/useEndpoints.native';
@@ -13,36 +12,36 @@ import useGetNavigationPath from './useGetNavigationPath';
 
 interface EditUserDataReturnType {
 	loadUserFromCache: () => void;
-	saveUserAndLogin: (user: User, shouldLogin: boolean) => void;
-	updateUserData: (user: User, handleNav: boolean) => void;
+	saveUser: (user: User) => void;
+	updateUserData: (user: User) => void;
 	removeUserData: () => void;
 }
 
 const useEditUserData = (): EditUserDataReturnType => {
 	const navigation = useReactNavigation();
 	const { setUser, setShouldUpdateUser  } = useMainDispatch();
-	const { isLoggedIn } = useLoginState();
-	const { setLoginFormData, setLoggedIn } = useLoginDispatch();
+	const { isAuthenticated } = useLoginState();
+	const { setLoginFormData, setLoggedIn, setIsAuthenticated } = useLoginDispatch();
 	const { fetchUserFromCache, saveToCache, clearCache } = useCache();
 	const { getCredentials, deleteCredentials } = useKeychain();
 	const { getUserByUserId, updateUser } = useEndpoints();
-	const getLoginScreenEnum = useGetNavigationPath();
+	const getAuthNavigationPath = useGetNavigationPath();
 
 	const loadUserFromCache = async () => {
 		const credentials = await getCredentials();
 
 		// Check if data is stored in cache, if not fetch from db and login
-		if (!!credentials) {
+		if (credentials) {
 			fetchUserFromCache(credentials.password)
 				.then((cachedData) => {
-					if (!!cachedData) {
-						saveUserAndLogin(cachedData, true);
+					if (cachedData) {
+						saveUser(cachedData);
 					}
 					else {
 						getUserByUserId({ authToken: credentials.password, userId: credentials.username })
 							.then((user) => {
-								if (!!user) {
-									saveUserAndLogin(user, true);
+								if (user) {
+									saveUser(user);
 								}
 							})
 					}
@@ -50,44 +49,45 @@ const useEditUserData = (): EditUserDataReturnType => {
 		}
 	};
 
-	const saveUserAndLogin = (user: User, shouldLogin: boolean) => {
+	const checkAuthentication = (user: User) => {
+		setIsAuthenticated(user.signup.verification && user.signup.selectPlan && user.signup.selectGame)
+	};
+
+	const saveUser = (user: User) => {
+		checkAuthentication(user);
 		setUser(user);
 		saveToCache(user);
 		setShouldUpdateUser(false);
 
-		if (shouldLogin) {
-			setLoggedIn(true);
-			navigation.navigate(getLoginScreenEnum(user));
+		if (!isAuthenticated) {
+			navigation.navigate(getAuthNavigationPath(user));
 		}
 	};
 	
-	const updateUserData = async (user: User, handleNav: boolean) => {
-		if (isLoggedIn) {
-			await getCredentials()
-				.then((credentials) => {
-					if (!!credentials) {
-						updateUser({
-							authToken: credentials.password,
-							...user
-						});
-						saveUserAndLogin(user, handleNav);
-					}
-				})
-		}
+	const updateUserData = async (user: User) => {
+		await getCredentials()
+			.then((credentials) => {
+				if (!!credentials) {
+					updateUser({
+						authToken: credentials.password,
+						...user
+					});
+					saveUser(user);
+				}
+			})
 	}
 
 	const removeUserData = () => {
+		setIsAuthenticated(false);
 		setUser(initialUser);
 		setLoginFormData(initialFormData);
 		clearCache();
 		deleteCredentials();
 		setLoggedIn(false);
-		navigation.navigate(ScreenEnum.Login);
-		navigation.dispatch(DrawerActions.closeDrawer());
 	}
 
 	return { 
-		saveUserAndLogin,
+		saveUser,
 		updateUserData,
 		removeUserData, 
 		loadUserFromCache 

@@ -46,6 +46,11 @@ const updateUser = async (req, res) => {
 			const result = await User.updateOne({
 				userId: userId,
 				steamId: steamId,
+				// signup: {
+				// 	verification: signup.verification,
+				// 	selectPlan: signup.selectPlan,
+				// 	selectGame: signup.selectGame
+				// },
 				signup: signup,
 				subscription: subscription,
 				settings: settings,

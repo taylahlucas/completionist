@@ -14,12 +14,12 @@ import KeyboardAvoidingScrollView from '@components/general/Lists/KeyboardAvoidi
 import { UserResponse } from '@utils/CustomTypes';
 import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
 
-const AccountVerification = () => {
+const LinkAccount = () => {
 	const { t } = useTranslation();
-	const { loginFormData, verificationToken } = useLoginState();
+	const { loginFormData, verificationToken, isSigningUp } = useLoginState();
 	const { setVerificationToken } = useLoginDispatch();
 	const { saveUser } = useEditUserData();
-	const { signUp } = useEndpoints();
+	const { linkAndSignIn } = useEndpoints();
 	const [value, setValue] = useState<string>('');
 
 	const renderAwareView = (): JSX.Element => {
@@ -30,13 +30,16 @@ const AccountVerification = () => {
 				disabled={value.length !== verificationToken?.length}
 				onPress={(): void => {
 					if (value === verificationToken) {
-						signUp({ data: loginFormData })
-							.then((userResponse: UserResponse) => {
-								if (userResponse) {
-									saveUser(userResponse);
-									setVerificationToken(undefined);
-								}
-							});
+						linkAndSignIn({
+							email: loginFormData.email,
+							password: loginFormData.password
+						})
+						.then((userResponse: UserResponse) => {
+							if (userResponse) {
+								saveUser(userResponse);
+								setVerificationToken(undefined);
+							}
+						})
 					}
 					else {
 						// TODO: Display differently
@@ -49,7 +52,7 @@ const AccountVerification = () => {
 
 	return (
 		<StandardLayout>
-			<NavigationHeader id={UnauthorizedScreenEnum.AccountVerification} title={t('common:screens.verifyAccount')} leftAction='none' />
+			<NavigationHeader id={UnauthorizedScreenEnum.LinkAccount} title={'Link Your Accounts'} leftAction='none' />
 			<StyledText>{t('common:login.accountVerification')}</StyledText>
 			<KeyboardAvoidingScrollView awareView={renderAwareView()}>
 				<VerificationEntry
@@ -63,4 +66,4 @@ const AccountVerification = () => {
 	);
 };
 
-export default AccountVerification;
+export default LinkAccount;

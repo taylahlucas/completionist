@@ -9,7 +9,7 @@ import {
 import useReactNavigation from './hooks/useReactNavigation.native';
 import useGetNavigationDrawerItems from './hooks/useGetNavigationDrawerItems.native';
 import useGetLoginMethods from '@components/custom/LoginForm/hooks/useGetLoginMethods';
-import { ScreenEnum } from '@utils/CustomEnums';
+import { AuthScreenEnum, UnauthorizedScreenEnum } from '@utils/CustomEnums';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import useMainState from '@redux/hooks/useMainState';
 import useGetNavigationFooterDrawerItems from './hooks/useGetFooterNavigationDrawerItems.native';
@@ -37,7 +37,7 @@ const NavigationDrawerBody: React.FunctionComponent = () => {
 			<NavigationDrawerFooter>
 				{footerItems.map((item, index) => (
 					<NavigationDrawerFooterItem key={index} onPress={(): void => {
-						if (item.id === ScreenEnum.GameSelection) {
+						if (item.id === AuthScreenEnum.GameSelection) {
 							setSelectedGame(undefined);
 						}
 						navigation.navigate(item.id);
@@ -46,7 +46,7 @@ const NavigationDrawerBody: React.FunctionComponent = () => {
 							name={item.icon}
 							type={item.iconType}
 							color={theme.lightGrey}
-							size={item.id === ScreenEnum.SteamAchievements ? 26 : 24}
+							size={item.id === AuthScreenEnum.SteamAchievements ? 26 : 24}
 						/>
 						<NavigationDrawerFooterTitle
 							type='ListItemTitle'
@@ -66,7 +66,8 @@ const NavigationDrawerBody: React.FunctionComponent = () => {
 					/>
 					<NavigationDrawerFooterTitle
 						type='ListItemTitle'
-						color={currentScreen === ScreenEnum.Login ? theme.lightGrey : theme.midGrey}
+						// color={currentScreen === UnauthorizedScreenEnum.Login ? theme.lightGrey : theme.midGrey}
+						color={theme.midGrey}
 						align='left'
 					>
 						{t('common:auth.logout')}

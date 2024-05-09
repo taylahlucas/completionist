@@ -1,9 +1,9 @@
-import { IconTypeEnum, ScreenEnum } from '@utils/CustomEnums';
+import { IconTypeEnum, AuthScreenEnum } from '@utils/CustomEnums';
 import { IconType } from '@utils/CustomTypes';
 import { useTranslation } from 'react-i18next';
 
 interface NavigationFooterDrawerItem {
-	id: ScreenEnum;
+	id: AuthScreenEnum;
 	title: string;
 	icon: IconType;
 	iconType?: IconTypeEnum;
@@ -14,31 +14,31 @@ const useGetNavigationFooterDrawerItems = (): NavigationFooterDrawerItem[] => {
 
 	return ([
 		{
-			id: ScreenEnum.GameSelection,
+			id: AuthScreenEnum.GameSelection,
 			title: t('common:screens.gameSelection'),
 			icon: 'menu-sharp',
 			iconType: IconTypeEnum.Ionicons
 		},
 		{
-			id: ScreenEnum.SteamAchievements,
+			id: AuthScreenEnum.SteamAchievements,
 			// TODO: Translations && fix logic here to only work for premium
 			title: t('common:screens.steamAchievements'),
 			icon: 'steam',
 			iconType: IconTypeEnum.MaterialCommunityIcons
 		},
 		{
-			id: ScreenEnum.Subscriptions,
+			id: AuthScreenEnum.Subscriptions,
 			title: t('common:screens.subscriptions'),
 			icon: 'wallet-outline',
 			iconType: IconTypeEnum.Ionicons
 		},
 		{
-			id: ScreenEnum.SendRequest,
+			id: AuthScreenEnum.SendRequest,
 			title: t('common:screens.sendRequest'),
 			icon: 'forward-to-inbox'
 		},
 		{
-			id: ScreenEnum.Settings,
+			id: AuthScreenEnum.Settings,
 			title: t('common:screens.settings'),
 			icon: 'settings-outline',
 			iconType: IconTypeEnum.Ionicons

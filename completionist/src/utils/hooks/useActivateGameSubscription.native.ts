@@ -21,11 +21,11 @@ const useActivateGameSubscription = () => {
 				data: updatedGames
 			}
 		};
-		updateUserData(updatedUser, false);
+		updateUserData(updatedUser);
 	};
 	
 	// User set up and premium users
-	const activateGameSubscription = (user: User, selectedGame: SubscriptionData): User => {
+	const activateGameSubscription = (user: User, selectedGame: SubscriptionData) => {
 		const updatedGames: SubscriptionData[] = user.subscription.data.map((data: SubscriptionData) => {
 			return (data.id === selectedGame?.id)
 				? {
@@ -40,7 +40,7 @@ const useActivateGameSubscription = () => {
 				data: updatedGames
 			}
 		};
-		return updatedUser;
+		updateUserData(updatedUser);
 	};
 
 	return { changeGameSubscription, activateGameSubscription };

@@ -63,6 +63,7 @@ const signup = async (req, res) => {
 			hashedGoogleId = await hashPassword(userGoogleId)
 		}
 
+		console.log("Signing up")
 		// Create new user
 		const user = await new User({
 			userId,
@@ -136,6 +137,7 @@ const linkAndSignIn = async (req, res) => {
 		const { email, password, googleId } = req.body;
 		const user = await verifyUser(res, email, request_codes.NO_USER_FOUND, "No user found.");
 
+		console.log("linkAndSignIn")
 		// If user does not have googleId, update googleId
 		let result;
 		if (!user.googleId && googleId) {
@@ -145,11 +147,9 @@ const linkAndSignIn = async (req, res) => {
 				googleId: hashedGoogleId
 			});
 		}
-		console.log("USER: " , user.password)
 		// TODO: If user does not have password, update password
 		if (!user.password && password) {
 			let hashedPassword = await hashPassword(password)
-			console.log("Updating with password")
 			result = await User.updateOne({
 				userId: user.userId,
 				password: hashedPassword

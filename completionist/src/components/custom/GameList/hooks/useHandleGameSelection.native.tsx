@@ -3,7 +3,7 @@ import useContentDispatch from '@components/custom/ContentList/hooks/useContentD
 import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
 import useMainState from '@redux/hooks/useMainState';
-import { ScreenEnum, SubscriptionTypeEnum } from '@utils/CustomEnums';
+import { AuthScreenEnum, SubscriptionTypeEnum } from '@utils/CustomEnums';
 import { SubscriptionData } from '@utils/CustomInterfaces';
 import useTranslateGameContent from '@utils/hooks/useTranslateGameContent.native';
 import useActivateGameSubscription from '@utils/hooks/useActivateGameSubscription.native';
@@ -24,7 +24,7 @@ const useHandleGameSelection = () => {
 			reset();
 			setSelectedGame(game.id);
 			setSelectedGameSettings(game.id);
-			navigation.navigate(ScreenEnum.Quests);
+			navigation.navigate(AuthScreenEnum.Quests);
 		}
 		else {
 			const gameName: string = translateGameName(game.id);

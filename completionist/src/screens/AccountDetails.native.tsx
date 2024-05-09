@@ -11,6 +11,7 @@ import Button from '@components/general/Button/Button.native';
 import useEditUserData from '@data/hooks/useEditUserData.native';
 import Condition from '@components/general/Condition.native';
 import KeyboardAvoidingScrollView from '@components/general/Lists/KeyboardAvoidingScrollView.native';
+import { AuthScreenEnum } from '@utils/CustomEnums';
 
 const AccountDetails = () => {
 	const { t } = useTranslation();
@@ -19,23 +20,23 @@ const AccountDetails = () => {
 	// TODO: email and password validation
 	const [email, setEmail] = useState<string>(user.email);
 	const [password, setPassword] = useState<string>('');
-	const { saveUserAndLogin } = useEditUserData();
+	const { saveUser } = useEditUserData();
 
 	return (
 		<StandardLayout>
-			<NavigationHeader title={t('common:screens.accountDetails')} leftAction='back' />
+			<NavigationHeader id={AuthScreenEnum.AccountDetails} title={t('common:screens.accountDetails')} leftAction='back' />
 			<>
 				<KeyboardAvoidingScrollView
 					awareView={
 						<Button
 							title={t('common:accountDetails.updateDetails')}
 							type='footer'
-							onPress={(): void => saveUserAndLogin({
+							onPress={(): void => saveUser({
 								...user,
 								name: username,
 								// TODO: Email validation
 								// email: email
-							}, false)}
+							})}
 						/>
 					}
 				>

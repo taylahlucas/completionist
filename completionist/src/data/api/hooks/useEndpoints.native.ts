@@ -16,7 +16,7 @@ import {
 	steamAchievementsByIdUrl
 } from '../../urls';
 import {
-	CreateUserProps,
+	SignUpProps,
 	SignInProps,
 	GetUserByUserIdProps,
 	UpdateUserProps,
@@ -58,7 +58,7 @@ const useEndpoints = (): EndpointsReturnType => {
 		}
 	}
 
-	const signUp = async ({ data }: CreateUserProps): Promise<UserResponse> => {
+	const signUp = async ({ data }: SignUpProps): Promise<UserResponse> => {
 		try {
 			const response = await axios.post(`${url}/${signupUrl}`,
 				{

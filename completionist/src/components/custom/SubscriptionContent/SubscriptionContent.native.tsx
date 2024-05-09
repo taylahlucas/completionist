@@ -21,13 +21,7 @@ import Seperator from '@components/general/Seperator.native';
 import Icon from '@components/general/Icon/Icon.native';
 import SubscriptionOptionsList from './SubscriptionOptionsList.native';
 import useSubscriptionState from './hooks/useContentState';
-
-const initialState = {
-	id: SubscriptionTypeEnum.FREE,
-	prices: [],
-	title: '',
-	description: []
-};
+import { AuthScreenEnum } from '@utils/CustomEnums';
 
 const SubscriptionContent = () => {
 	const { t } = useTranslation();
@@ -35,10 +29,9 @@ const SubscriptionContent = () => {
 	const navigation = useReactNavigation();
 	const { selectedSubscription } = useSubscriptionState();
 	const { user } = useMainState();
-	const { isSigningUp } = useLoginState();
+	const { isAuthenticated } = useLoginState();
 	const { updateUserData } = useEditUserData();
 	const featureList = useGetSubscriptionFeatureList();
-	const options = useGetSubscriptionOptionsList();
 	const isFree: boolean = selectedSubscription.id === SubscriptionTypeEnum.FREE;
 
 	const renderAwareView = () => (
@@ -46,21 +39,20 @@ const SubscriptionContent = () => {
 			title={isFree ? 'Continue' : t('common:subscriptions.purchaseSubscription')}
 			type='footer'
 			onPress={(): void => {
-				// TODO: Need to figure out how to check if in login flow?
-				if (isFree) {
+				if (isFree && !isAuthenticated) {
 					updateUserData({
 						...user,
 						signup: {
 							...user.signup,
 							selectPlan: true
 						}
-					}, true);
+					});
 				}
 				else if (selectedSubscription.id === SubscriptionTypeEnum.FREE) {
 					// TODO: Add change success page
 				}
 				else {
-					navigation.navigate(ScreenEnum.Payments);
+					navigation.navigate(AuthScreenEnum.Payments);
 				}
 			}}
 			color={theme.primaryPurple} />

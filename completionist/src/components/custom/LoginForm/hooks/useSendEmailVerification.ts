@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import useEndpoints from '@data/api/hooks/useEndpoints.native';
-import { ScreenEnum } from '@utils/CustomEnums';
+import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
 import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
 import useLoginDispatch from './useLoginDispatch';
 
@@ -22,7 +22,7 @@ const useSendEmailVerification = () => {
 		return code;
 	};
 
-	const sendEmailVerification = async (email: string) => {
+	const sendEmailVerification = async (email: string, linkAccount: boolean = false) => {
 		const uniqueCode = generateVerificationToken(6);
 		setVerificationToken(uniqueCode);
 		sendEmail({
@@ -36,7 +36,10 @@ const useSendEmailVerification = () => {
 				}
 			)
 		});
-		navigation.navigate(ScreenEnum.AccountVerification);
+		navigation.navigate(linkAccount 
+			? UnauthorizedScreenEnum.LinkAccount
+			: UnauthorizedScreenEnum.AccountVerification
+		);
 	};
 
 	return sendEmailVerification;

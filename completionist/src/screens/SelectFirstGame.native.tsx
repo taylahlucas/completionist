@@ -14,9 +14,9 @@ import { SelectFirstGameContentContainer } from '@components/custom/LoginForm/Lo
 import GameListItem from '@components/custom/GameList/GameListItem.native';
 import Button from '@components/general/Button/Button.native';
 import useActivateGameSubscription from '@utils/hooks/useActivateGameSubscription.native';
-import useEditUserData from '@data/hooks/useEditUserData.native';
 import KeyboardAvoidingScrollView from '@components/general/Lists/KeyboardAvoidingScrollView.native';
 import Condition from '@components/general/Condition.native';
+import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
 
 const SelectFirstGame = () => {
 	const theme = useGetTheme();
@@ -27,7 +27,6 @@ const SelectFirstGame = () => {
 	const [searchValue, setSearchValue] = useState('');
 	const [selectedGame, setSelectedGame] = useState<SubscriptionData>();
 	const { activateGameSubscription } = useActivateGameSubscription();
-	const { updateUserData } = useEditUserData();
 
 	const renderAwareView = () => (
 		<Button
@@ -36,14 +35,14 @@ const SelectFirstGame = () => {
 			disabled={!selectedGame}
 			onPress={async (): Promise<void> => {
 				if (!!selectedGame) {
-					const updatedUser = activateGameSubscription(user, selectedGame);
-					updateUserData({
-						...updatedUser,
+					const activatedUser = {
+						...user,
 						signup: {
-							...updatedUser.signup,
+							...user.signup,
 							selectGame: true
 						}
-					}, true);
+					}
+					activateGameSubscription(activatedUser, selectedGame);
 				}
 			}}
 		/>
@@ -51,7 +50,7 @@ const SelectFirstGame = () => {
 
 	return (
 		<StandardLayout>
-			<NavigationHeader title={t('common:screens.selectGame')} leftAction='none' />
+			<NavigationHeader id={UnauthorizedScreenEnum.SelectFirstGame} title={t('common:screens.selectGame')} leftAction='none' />
 			<CustomSearchBar
 				searchValue={searchValue}
 				setSearchValue={(value: string): void => setSearchValue(value)}

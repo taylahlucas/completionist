@@ -16,6 +16,7 @@ import SettingsSelectLanguage from '@components/custom/Settings/SettingsSelectLa
 import SettingsItemDropdown from '@components/custom/Settings/SettingsItemDropdown.native';
 import { SettingsListItem } from '@utils/CustomInterfaces';
 import useGetUserGameData from '@data/hooks/useGetUserGameData';
+import { AuthScreenEnum } from '@utils/CustomEnums';
 
 const Settings = () => {
 	const { t } = useTranslation();
@@ -30,7 +31,7 @@ const Settings = () => {
 
 	return (
 		<StandardLayout>
-			<NavigationHeader title={t('common:screens.settings')} />
+			<NavigationHeader id={AuthScreenEnum.Settings} title={t('common:screens.settings')} />
 			<ScrollableList
 				ref={scrollViewRef}
 				contentContainerStyle={{ paddingBottom: isLanguagesOpen ? 200 : 100 }}

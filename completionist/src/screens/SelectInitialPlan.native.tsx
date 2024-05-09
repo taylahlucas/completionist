@@ -2,15 +2,15 @@ import React from 'react';
 import StandardLayout from '@components/general/Layouts/StandardLayout.native';
 import NavigationHeader from '@navigation/NavigationHeader.native';
 import SubscriptionContent from '@components/custom/SubscriptionContent/SubscriptionContent.native';
-import { AuthScreenEnum } from '@utils/CustomEnums';
+import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
 
-const SelectPlan = () => {
+const SelectInitialPlan = () => {
 	return (
 		<StandardLayout>
-			<NavigationHeader id={AuthScreenEnum.SelectPlan} title={'Select a Plan'} leftAction='none' />
+			<NavigationHeader id={UnauthorizedScreenEnum.SelectInitialPlan} title={'Select a Plan'} leftAction='none' />
 			<SubscriptionContent />
 		</StandardLayout>
 	);
 };
 
-export default SelectPlan;
+export default SelectInitialPlan;

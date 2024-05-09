@@ -1,5 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit';
-import { ScreenEnum, GameKeyEnum, SubscriptionTypeEnum } from '@utils/CustomEnums';
+import { ScreenEnum, UnauthorizedScreenEnum, GameKeyEnum, SubscriptionTypeEnum } from '@utils/CustomEnums';
 import { GeneralData, User } from '@utils/CustomInterfaces';
 import { AppStateStatus } from 'react-native';
 import { initialFormData } from '@components/custom/LoginForm/LoginState';
@@ -22,6 +22,11 @@ export const initialUser: User = {
 		tier: SubscriptionTypeEnum.FREE,
 		changesLeft: 2,
 		data: []
+	},
+	signup: {
+		verification: false,
+		selectPlan: false,
+		selectGame: false
 	},
 	settings: {
 		lang: 'en',
@@ -51,7 +56,7 @@ export interface MainState {
 export const initialState: MainState = {
 	showSplashScreen: true,
 	webSignInConfigured: false,
-	currentScreen: ScreenEnum.Login,
+	currentScreen: UnauthorizedScreenEnum.Login,
 	selectedGameSettings: GameKeyEnum.SKYRIM,
 	user: initialUser,
 	shouldUpdateUser: false,

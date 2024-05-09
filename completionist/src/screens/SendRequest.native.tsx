@@ -8,6 +8,7 @@ import useMainState from '@redux/hooks/useMainState';
 import Button from '@components/general/Button/Button.native';
 import TextInput from '@components/general/TextInput/TextInput.native';
 import KeyboardAvoidingScrollView from '@components/general/Lists/KeyboardAvoidingScrollView.native';
+import { AuthScreenEnum } from '@utils/CustomEnums';
 
 interface RequestFormData {
 	subject: string;
@@ -33,7 +34,7 @@ const SendRequest = () => {
 
 	return (
 		<StandardLayout>
-			<NavigationHeader title={t('common:screens.sendRequest')} />
+			<NavigationHeader id={AuthScreenEnum.SendRequest} title={t('common:screens.sendRequest')} />
 			<StyledText>{t('common:sendRequest.SendRequestDesc')}</StyledText>
 			<KeyboardAvoidingScrollView
 				awareView={

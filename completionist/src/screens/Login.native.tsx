@@ -9,6 +9,7 @@ import Condition from '@components/general/Condition.native';
 import StyledText from '@components/general/Text/StyledText.native';
 import LoginForm from '@components/custom/LoginForm/LoginForm.native';
 import LoginFormSignInButtons from '@components/custom/LoginForm/LoginFormSignInButtons.native';
+import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
 
 const Login = () => {
 	const { t } = useTranslation();
@@ -17,7 +18,7 @@ const Login = () => {
 	// TODO: Fix keyboard view here (check with actual phone)
 	return (
 		<StandardLayout>
-			<NavigationHeader title={t('common:appTitle')} leftAction={'none'} />
+			<NavigationHeader id={UnauthorizedScreenEnum.Login} title={t('common:appTitle')} leftAction={'none'} />
 				<ScrollView>
 					<LoginContentContainer>
 						<Condition condition={isSigningUp}>

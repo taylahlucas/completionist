@@ -7,7 +7,7 @@ import NavigationHeader from '@navigation/NavigationHeader.native';
 import useMainState from '@redux/hooks/useMainState';
 import CustomSearchBar from '@components/general/CustomSearchBar/CustomSearchBar.native';
 import Condition from '@components/general/Condition.native';
-import { IconTypeEnum, SubscriptionTypeEnum } from '@utils/CustomEnums';
+import { IconTypeEnum, SubscriptionTypeEnum, AuthScreenEnum } from '@utils/CustomEnums';
 import StyledText from '@components/general/Text/StyledText.native';
 import Icon from '@components/general/Icon/Icon.native';
 import { GameSelectionChangeLeftContainer } from '@components/custom/GameList/GameListItemStyledComponents.native';
@@ -37,6 +37,7 @@ const GameSelection = () => {
 	return (
 		<StandardLayout>
 			<NavigationHeader
+				id={AuthScreenEnum.GameSelection}
 				title={`${t('common:welcome')}\n${user.name}`}
 				leftAction='subscriptions'
 				rightAction='logout'

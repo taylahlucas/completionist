@@ -11,6 +11,7 @@ import useContentDispatch from '@components/custom/ContentList/hooks/useContentD
 import useContentState from '@components/custom/ContentList/hooks/useContentState';
 import ContentList from '@components/custom/ContentList/ContentList.native';
 import { ContentSectionEnum } from '@utils/CustomEnums';
+import { AuthScreenEnum } from '@utils/CustomEnums';
 
 const Locations = () => {
   const { t } = useTranslation();
@@ -22,7 +23,7 @@ const Locations = () => {
 
   return (
     <StandardLayout>
-      <NavigationHeader title={t('common:screens.locations')} rightAction='filter' />
+      <NavigationHeader id={AuthScreenEnum.Locations} title={t('common:screens.locations')} rightAction='filter' />
       <CustomSearchBar 
         searchValue={searchValue} 
         setSearchValue={setSearchValue}

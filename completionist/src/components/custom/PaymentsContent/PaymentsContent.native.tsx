@@ -7,18 +7,15 @@ import useGetTheme from '@styles/hooks/useGetTheme';
 import SubscriptionOptionDescription from '../SubscriptionContent/SubscriptionOptionDescription.native';
 import PriceItem from '@components/general/PriceItem/PriceItem.native';
 import { PaymentPriceItem, PaymentPricesContainer, PaymentPlanSubtitle } from './PaymentsContentStyledComponents.native';
-import { ScreenEnum } from '@utils/CustomEnums';
 import Button from '@components/general/Button/Button.native';
 import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
 import ScrollableList from '@components/general/Lists/ScrollableList.native';
 import useMainState from '@redux/hooks/useMainState';
-import useEditUserData from '@data/hooks/useEditUserData.native';
 import Spacing from '@components/general/Spacing.native';
 
 const PaymentsContent = () => {
 	const { t } = useTranslation();
 	const theme = useGetTheme();
-	const navigation = useReactNavigation();
 	const { selectedSubscription } = useSubscriptionState();
 	const [selectedPrice, setSelectedPrice] = useState(selectedSubscription.prices[0]);
 	const { user } = useMainState();
@@ -72,8 +69,8 @@ const PaymentsContent = () => {
 							tier: selectedSubscription.id
 						}
 					};
-					// saveUserAndCache(updatedUser);
-					navigation.navigate(ScreenEnum.GameSelection);
+					// saveUser(updatedUser);
+					// navigation.navigate(AuthScreenEnum.GameSelection);
 				}}
 				color={theme.primaryPurple}
 			/>

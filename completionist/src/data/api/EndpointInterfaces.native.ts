@@ -1,7 +1,7 @@
 import { LoginFormData, Subscription, UserSettings, UserData, SignupData } from '@utils/CustomInterfaces';
 import { StringResponse, UserResponse } from '@utils/CustomTypes';
 
-export interface CreateUserProps {
+export interface SignUpProps {
 	data: LoginFormData;
 }
 
@@ -42,7 +42,7 @@ export interface EndpointsReturnType {
 	checkUserExists: (email: string) => Promise<CredentialsExistProps>;
 	linkAndSignIn: ({ email, password, googleId }: SignInProps) => Promise<UserResponse>;
 	signIn: ({ email, password, googleId }: SignInProps) => Promise<UserResponse>;
-	signUp: ({ data }: CreateUserProps) => Promise<UserResponse>;
+	signUp: ({ data }: SignUpProps) => Promise<UserResponse>;
 	getUserByUserId: ({ authToken, userId }: GetUserByUserIdProps) => Promise<UserResponse>;
 	updateUser: ({ authToken, userId, steamId, signup, subscription, settings, userAvatar, data }: UpdateUserProps) => Promise<UserResponse>;
 	sendEmail: ({ emailTo, subject, text }: EmailProps) => Promise<void>;

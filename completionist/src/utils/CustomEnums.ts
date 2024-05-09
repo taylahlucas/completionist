@@ -1,10 +1,6 @@
-export enum ScreenEnum {
-  RootStackNavigator = 'RootStackNavigator',
-  Landing = 'Landing',
-  Login = 'Login',
-	AccountVerification = 'AccountVerification',
-	SelectPlan = 'SelectPlan',
-	SelectFirstGame = 'SelectFirstGame',
+export type ScreenEnum = AuthScreenEnum | UnauthorizedScreenEnum;
+
+export enum AuthScreenEnum {
   GameSelection = 'GameSelection',
   LeftMenu = 'LeftMenu',
   Quests = 'Quests',
@@ -14,9 +10,19 @@ export enum ScreenEnum {
   SendRequest = 'SendRequest',
 	SteamAchievements = 'SteamAchievements',
   Subscriptions = 'Subscriptions',
+	SelectPlan = 'SelectPlan',
   Payments = 'Payments',
   Settings = 'Settings',
 	AccountDetails = 'AccountDetails'
+}
+
+export enum UnauthorizedScreenEnum {
+  Landing = 'Landing',
+  Login = 'Login',
+	AccountVerification = 'AccountVerification',
+	SelectInitialPlan = 'SelectInitialPlan',
+	SelectFirstGame = 'SelectFirstGame',
+	LinkAccount = 'LinkAccount',
 }
 
 export enum IconTypeEnum {

@@ -37,7 +37,7 @@ const useInitUserData = () => {
         return;
       case 'inactive': 
         if (isLoggedIn && !!user.userId && shouldUpdateUser) {
-          updateUserData(user, true);
+          updateUserData(user);
         }
         return;
     }

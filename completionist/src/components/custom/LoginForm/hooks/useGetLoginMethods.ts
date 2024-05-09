@@ -24,8 +24,8 @@ interface GetLoginMethodsReturnType {
 const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 	const { t } = useTranslation();
 	const { user, shouldUpdateUser } = useMainState();
-	const { triggerIsSigningUp } = useLoginDispatch();
-	const { updateUserData, saveUserAndLogin, removeUserData } = useEditUserData();
+	const { setIsAuthenticated } = useLoginDispatch();
+	const { updateUserData, saveUser, removeUserData } = useEditUserData();
 	const { checkUserExists, linkAndSignIn, signIn, signUp } = useEndpoints();
 	const sendEmailVerification = useSendEmailVerification();
 
@@ -34,7 +34,8 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 			await signIn({ email: email, password: password, googleId: googleId })
 				.then((userResponse) => {
 					if (!!userResponse) {
-						saveUserAndLogin(userResponse, true);
+						setIsAuthenticated(true);
+						saveUser(userResponse);
 					}
 				})
 		}
@@ -43,7 +44,7 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 		}
 	}
 
-	const linkAccount = ({ email, password, googleId }: SignInProps) => {
+	const linkGoogleAccount = ({ email, googleId }: SignInProps) => {
 		Alert.alert(
 			t('common:errors.accountExists'),
 			t('common:errors.accountExistsMsg'),
@@ -53,11 +54,10 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 					// Update user with googleId
 					onPress: () => linkAndSignIn({
 						email: email,
-						password: password,
 						googleId: googleId
 					}).then((userResponse) => {
 						if (!!userResponse) {
-							saveUserAndLogin(userResponse, true);
+							saveUser(userResponse);
 						}
 					})
 				},
@@ -68,15 +68,15 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 		);
 	};
 
-	const linkGoogleAccount = (email: string) => {
+	const linkAccount = (email: string) => {
 		Alert.alert(
 			t('common:errors.accountExists'),
 			t('common:errors.accountExistsMsg'),
 			[
 				{
 					text: t('common:alerts.ok'),
-					// Update user with googleId
-					onPress: () => sendEmailVerification(email)
+					// Update user with password
+					onPress: (): Promise<void> => sendEmailVerification(email, true)
 				},
 				{
 					text: t('common:alerts.cancel')
@@ -96,7 +96,7 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 					});
 				}
 				else if (accounts.google && !accounts.regular) {
-					linkGoogleAccount(email);
+					linkAccount(email);
 				}
 				else {
 					Alert.alert(
@@ -106,7 +106,7 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 				}
 			});
 	}
-
+// TODO: Write seperate query for userSignUpvalues???
 	const googleUserSignIn = async () => {
 		try {
 			await GoogleSignin.hasPlayServices();
@@ -122,7 +122,7 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 							.then((accounts) => {
 								// If google account not linked
 								if (accounts.regular && !accounts.google) {
-									linkAccount({ email: email, googleId: idToken });
+									linkGoogleAccount({ email: email, googleId: idToken });
 								}
 								else if (accounts.google) {
 									userSignIn({
@@ -142,7 +142,7 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 									})
 										.then((response) => {
 											if (!!response) {
-												saveUserAndLogin(response, true);
+												saveUser(response);
 											}
 										})
 								}
@@ -163,7 +163,7 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 	const signOut = async () => {
 		try {
 			if (shouldUpdateUser) {
-				updateUserData(user, false);
+				updateUserData(user);
 			}
 			await GoogleSignin.revokeAccess();
 			await GoogleSignin.signOut();

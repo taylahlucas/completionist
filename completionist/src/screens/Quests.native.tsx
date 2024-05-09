@@ -11,6 +11,7 @@ import ContentList from '@components/custom/ContentList/ContentList.native';
 import useContentState from '@components/custom/ContentList/hooks/useContentState';
 import useContentDispatch from '@components/custom/ContentList/hooks/useContentDispatch';
 import { ContentSectionEnum } from '@utils/CustomEnums';
+import { AuthScreenEnum } from '@utils/CustomEnums';
 
 const Quests = () => {
   const { t } = useTranslation();
@@ -22,7 +23,7 @@ const Quests = () => {
 
   return (
     <StandardLayout>
-      <NavigationHeader title={t('common:screens.quests')} rightAction='filter' />
+      <NavigationHeader id={AuthScreenEnum.Quests} title={t('common:screens.quests')} rightAction='filter' />
       <CustomSearchBar 
         searchValue={searchValue} 
         setSearchValue={setSearchValue}

@@ -2,6 +2,7 @@ import { Dispatch } from 'redux';
 import { 
   setLoginFormData,
 	setVerificationToken,
+	setIsAuthenticated,
   setLoggedIn,
   triggerIsSigningUp
 } from '../LoginState';
@@ -11,6 +12,7 @@ import { LoginFormData } from '@utils/CustomInterfaces';
 interface LoginDispatch {
   setLoginFormData: (value: LoginFormData) => void;
 	setVerificationToken: (token: string | undefined) => void;
+	setIsAuthenticated: (value: boolean) => void;
   setLoggedIn: (value: boolean) => void;
   triggerIsSigningUp: (value: boolean) => void;
 }
@@ -24,6 +26,9 @@ const useLoginDispatch = (): LoginDispatch => {
     },
 		setVerificationToken(token: string | undefined): void {
 			dispatch(setVerificationToken(token));
+		},
+		setIsAuthenticated(value: boolean): void {
+			dispatch(setIsAuthenticated(value));
 		},
     setLoggedIn(value: boolean): void {
       dispatch(setLoggedIn(value));

@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import { ScreenEnum, ContentSectionEnum } from '@utils/CustomEnums';
+import { AuthScreenEnum, ContentSectionEnum } from '@utils/CustomEnums';
 import useGetGameData from '@data/hooks/useGetGameData';
 import useGetUserGameData from '@data/hooks/useGetUserGameData';
 import useMainState from '@redux/hooks/useMainState';
@@ -20,25 +20,25 @@ const useGetNavigationDrawerItems = (): NavigationDrawerItemData[] => {
 	// TODO: Hide sections when there is no data e.g. no misc items for witcher 3
   return ([
     {
-      id: ScreenEnum.Quests,
+      id: AuthScreenEnum.Quests,
       title: t('common:screens.quests'),
       subTitle: checkIsSectionEnabled(questsSection) ? `${getUserQuests().length}/${mapDataTo(questsSection, selectedGame, true).length}` : '',
       isEnabled: checkIsSectionEnabled(questsSection)
     },
     {
-      id: ScreenEnum.Collectables,
+      id: AuthScreenEnum.Collectables,
       title: t('common:screens.collectables'),
       subTitle: checkIsSectionEnabled(collectablesSection) ? `${getUserCollectables().length}/${mapDataTo(collectablesSection, selectedGame, true).length}` : '',
       isEnabled: checkIsSectionEnabled(collectablesSection)
     },
     {
-      id: ScreenEnum.Locations,
+      id: AuthScreenEnum.Locations,
       title: t('common:screens.locations'),
       subTitle:  checkIsSectionEnabled(locationsSection) ? `${getUserLocations().length}/${mapDataTo(locationsSection, selectedGame, true).length}` : '',
       isEnabled: checkIsSectionEnabled(locationsSection)
     },
     {
-      id: ScreenEnum.Miscellaneous,
+      id: AuthScreenEnum.Miscellaneous,
       title: t('common:screens.miscellaneous'),
       subTitle: checkIsSectionEnabled(miscItemsSection) ? `${getUserMiscItems().length}/${mapDataTo(miscItemsSection, selectedGame, true).length}` : '',
       isEnabled: checkIsSectionEnabled(miscItemsSection)

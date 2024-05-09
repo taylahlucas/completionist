@@ -1,5 +1,5 @@
 import React from 'react';
-import { View } from 'react-native';
+import { View, Alert } from 'react-native';
 import { useTranslation } from 'react-i18next';
 import useGetLoginMethods from './hooks/useGetLoginMethods';
 import Button from '@components/general/Button/Button.native';
@@ -11,6 +11,7 @@ import StyledText from '@components/general/Text/StyledText.native';
 import Condition from '@components/general/Condition.native';
 import useValidator from '@utils/hooks/useValidator';
 import useSendEmailVerification from './hooks/useSendEmailVerification';
+import useEndpoints from '@data/api/hooks/useEndpoints.native';
 
 const LoginFormSignInButtons = () => {
 	const { t } = useTranslation();
@@ -18,6 +19,7 @@ const LoginFormSignInButtons = () => {
 	const { triggerIsSigningUp } = useLoginDispatch();
 	const sendEmailVerification = useSendEmailVerification();
 	const { loginFormData, isSigningUp } = useLoginState();
+	const { checkUserExists } = useEndpoints();
 	const { isEmailValid, isPasswordValid, isNameValid } = useValidator();
 	const isLoginDisabled = !isEmailValid(loginFormData.email) || !isPasswordValid(loginFormData.password ?? '') || 
 	(isSigningUp 
@@ -36,11 +38,22 @@ const LoginFormSignInButtons = () => {
 				}
 				disabled={isLoginDisabled}
 				onPress={() => isSigningUp 
-					? sendEmailVerification(loginFormData.email)
+					? checkUserExists(loginFormData.email)
+							.then((response) => {
+								if (!response.regular && !response.google) {
+									sendEmailVerification(loginFormData.email)
+								}
+								else {
+									Alert.alert(
+										'Email already exists',
+										'You are unable to create a new account with this email. Please login.'
+									);
+								}
+							})
 					: checkUserAccount({ 
-						email: loginFormData.email, 
-						password: loginFormData.password
-					})
+							email: loginFormData.email, 
+							password: loginFormData.password
+						})
 				}
 			/>
 			<LoginFormButtonContainer>

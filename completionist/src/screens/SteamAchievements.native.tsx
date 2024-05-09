@@ -6,7 +6,7 @@ import SteamAchievementsContent from '@components/custom/SteamAchievementsConten
 import useMainState from '@redux/hooks/useMainState';
 import Condition from '@components/general/Condition.native';
 import AddSteamIDContent from '@components/custom/SteamAchievementsContent/AddSteamIDContent.native';
-
+import { AuthScreenEnum } from '@utils/CustomEnums';
 
 const SteamAchievements = () => {
 	const { t } = useTranslation();
@@ -14,11 +14,13 @@ const SteamAchievements = () => {
 
 	return (
 		<StandardLayout>
-			<NavigationHeader title={!user.steamId 
-				? t('common:screens.addSteamId')
-				: t('common:screens.steamAchievements')} 
+			<NavigationHeader
+				id={AuthScreenEnum.SteamAchievements}
+				title={!user.steamId
+					? t('common:screens.addSteamId')
+					: t('common:screens.steamAchievements')}
 			/>
-			<Condition 
+			<Condition
 				condition={!user.steamId}
 				conditionalElement={<SteamAchievementsContent />}
 			>
