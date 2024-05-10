@@ -29,12 +29,12 @@ const getUserByUserId = async (req, res) => {
 
 		} catch (error) {
 			console.error('Error retrieving user:', error.message);
-			return res.status(request_codes.NOT_FOUND).json(error.message);
+			return res.status(request_codes.NO_USER_FOUND).json(error.message);
 		}
 	}
 };
 
-const verifyUser = async (req, res) => {
+const updateSignUp = async (req, res) => {
 	const isAuthorized = await checkAuthToken(req);
 	if (isAuthorized) {
 		try {
@@ -56,7 +56,7 @@ const verifyUser = async (req, res) => {
 				console.log(`User with ID ${userId} verified successfully`);
 				return res.status(request_codes.SUCCESS);
 			} else {
-				return res.status(request_codes.NOT_FOUND).json({ error: 'User not found' });
+				return res.status(request_codes.NO_USER_FOUND).json({ error: 'User not found' });
 			}
 		}
 		catch (error) {
@@ -78,6 +78,7 @@ const updateUser = async (req, res) => {
 				{
 					userId: userId,
 					steamId: steamId,
+					// signup: signup,
 					subscription: subscription,
 					settings: settings,
 					data: data
@@ -87,7 +88,7 @@ const updateUser = async (req, res) => {
 				console.log(`User with ID ${userId} updated successfully`);
 				return res.status(request_codes.SUCCESS);
 			} else {
-				return res.status(request_codes.NOT_FOUND).json({ error: 'User not found' });
+				return res.status(request_codes.NO_USER_FOUND).json({ error: 'User not found' });
 			}
 		}
 		catch (error) {
@@ -100,5 +101,5 @@ const updateUser = async (req, res) => {
 module.exports = {
 	getUserByUserId,
 	updateUser,
-	verifyUser
+	updateSignUp
 }

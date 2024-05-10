@@ -37,7 +37,6 @@ const useHandleAxiosError = () => {
 					t('common:errors.unauthorizedMsg')
 				);
 				break;
-			case requestCodes.NOT_FOUND:
 			case requestCodes.NO_USER_FOUND:
 					// When searching for user in database && signing in
 					break;

@@ -4,7 +4,7 @@ export const linkAndSignInUrl = 'api/link';
 export const signinUrl = 'api/signin';
 export const getUserByUserIdUrl = 'users'
 export const updateUserUrl = 'users/update';
-export const verifyUserUrl = 'users/verify';
+export const updateSignUpUrl = 'users/signup';
 export const sendEmailUrl = 'send_email/send';
 export const steamUserByIdUrl = 'https://api.steampowered.com/ISteamUserStats/GetUserStatsForGame/v0001/?appid=';
 export const steamPlayerAchievementsUrl = 'https://api.steampowered.com/ISteamUserStats/GetPlayerAchievements/v0001/?appid=';

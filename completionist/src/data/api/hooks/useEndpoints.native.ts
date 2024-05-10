@@ -10,7 +10,7 @@ import {
 	signinUrl,
 	getUserByUserIdUrl,
 	updateUserUrl,
-	verifyUserUrl,
+	updateSignUpUrl,
 	sendEmailUrl,
 	steamUserByIdUrl,
 	steamPlayerAchievementsUrl,
@@ -155,7 +155,6 @@ const useEndpoints = (): EndpointsReturnType => {
 	};
 
 	const updateUser = async ({ authToken, userId, steamId, subscription, settings, userAvatar, data }: UpdateUserProps): Promise<UserResponse> => {
-		console.log("updateUser");
 		try {
 			await axios.patch(
 				`${url}/${updateUserUrl}/${userId}`,
@@ -175,10 +174,9 @@ const useEndpoints = (): EndpointsReturnType => {
 	};
 
 	const verifyUser = async ({ authToken, userId, signup }: VerifyUserProps): Promise<void> => {
-		console.log("verifyUser: ", signup);
 		try {
 			await axios.patch(
-				`${url}/${verifyUserUrl}/${userId}`,
+				`${url}/${updateSignUpUrl}/${userId}`,
 				{
 					verification: signup.verification,
 					selectPlan: signup.selectPlan,

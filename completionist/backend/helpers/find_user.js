@@ -6,6 +6,7 @@ const findUserByEmail = async (res, email, isSignup) => {
 		return existingUser
 	}
 	catch (err) {
+		// Return null if signing up since we don't want to throw an error here
 		if (isSignup) {
 			return null;
 		}
