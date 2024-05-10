@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Alert } from 'react-native';
+import { Alert, View } from 'react-native';
 import { useTranslation } from 'react-i18next';
 import StandardLayout from '@components/general/Layouts/StandardLayout.native';
 import NavigationHeader from '@navigation/NavigationHeader.native';
@@ -34,12 +34,12 @@ const LinkAccount = () => {
 							email: loginFormData.email,
 							password: loginFormData.password
 						})
-						.then((userResponse: UserResponse) => {
-							if (userResponse) {
-								saveUser(userResponse);
-								setVerificationToken(undefined);
-							}
-						})
+							.then((userResponse: UserResponse) => {
+								if (userResponse) {
+									saveUser(userResponse);
+									setVerificationToken(undefined);
+								}
+							})
 					}
 					else {
 						// TODO: Display differently
@@ -53,7 +53,9 @@ const LinkAccount = () => {
 	return (
 		<StandardLayout>
 			<NavigationHeader id={UnauthorizedScreenEnum.LinkAccount} title={'Link Your Accounts'} leftAction='none' />
-			<StyledText>{t('common:login.accountVerification')}</StyledText>
+			<View style={{ paddingLeft: 16, paddingRight: 16 }}>
+				<StyledText>{t('common:login.accountVerification')}</StyledText>
+			</View>
 			<KeyboardAvoidingScrollView awareView={renderAwareView()}>
 				<VerificationEntry
 					length={verificationToken?.length ?? 0}

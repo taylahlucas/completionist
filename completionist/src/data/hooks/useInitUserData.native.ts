@@ -37,7 +37,6 @@ const useInitUserData = () => {
         return;
       case 'inactive': 
         if (isAuthenticated && !!user.userId && shouldUpdateUser) {
-					console.log("UPDATING: ", user.data.witcher3.quests)
           updateUserData(user);
         }
         return;

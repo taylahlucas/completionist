@@ -62,7 +62,6 @@ const useEditUserData = (): EditUserDataReturnType => {
 
 		if (!isAuthenticated) {
 			const path = getAuthNavigationPath(user);
-			console.log("Navigating to: ", path);
 			navigation.navigate(path);
 		}
 	};
