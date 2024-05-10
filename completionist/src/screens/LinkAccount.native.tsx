@@ -16,7 +16,7 @@ import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
 
 const LinkAccount = () => {
 	const { t } = useTranslation();
-	const { loginFormData, verificationToken, isSigningUp } = useLoginState();
+	const { loginFormData, verificationToken } = useLoginState();
 	const { setVerificationToken } = useLoginDispatch();
 	const { saveUser } = useEditUserData();
 	const { linkAndSignIn } = useEndpoints();

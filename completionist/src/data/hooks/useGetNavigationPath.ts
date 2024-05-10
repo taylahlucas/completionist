@@ -1,18 +1,20 @@
+import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
 import { UnauthorizedScreenEnum, ScreenEnum } from '@utils/CustomEnums';
 import { User } from '@utils/CustomInterfaces';
 
 const useGetNavigationPath = () => {
-	const getLoginScreenEnum = (user: User): UnauthorizedScreenEnum => {
+	const navigation = useReactNavigation();
+	
+	const getLoginScreenEnum = (user: User) => {
 		if (!user.signup.verification) {
-			return UnauthorizedScreenEnum.AccountVerification;
+			navigation.navigate(UnauthorizedScreenEnum.AccountVerification);
 		}
 		else if (!user.signup.selectPlan) {
-			return UnauthorizedScreenEnum.SelectInitialPlan;
+			navigation.navigate(UnauthorizedScreenEnum.SelectInitialPlan);
 		}
 		else if (!user.signup.selectGame) {
-			return UnauthorizedScreenEnum.SelectFirstGame;
+			navigation.navigate(UnauthorizedScreenEnum.SelectFirstGame);
 		}
-		return UnauthorizedScreenEnum.Login;
 	}
 
 	return getLoginScreenEnum;

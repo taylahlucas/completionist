@@ -19,7 +19,6 @@ interface EditUserDataReturnType {
 }
 
 const useEditUserData = (): EditUserDataReturnType => {
-	const navigation = useReactNavigation();
 	const { setUser, setShouldUpdateUser  } = useMainDispatch();
 	const { isAuthenticated } = useLoginState();
 	const { setLoginFormData, setLoggedIn, setIsAuthenticated } = useLoginDispatch();
@@ -61,8 +60,8 @@ const useEditUserData = (): EditUserDataReturnType => {
 		setShouldUpdateUser(false);
 
 		if (!isAuthenticated) {
-			const path = getAuthNavigationPath(user);
-			navigation.navigate(path);
+			getAuthNavigationPath(user);
+			// navigation.navigate(path);
 		}
 	};
 
