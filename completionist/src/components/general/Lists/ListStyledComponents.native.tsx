@@ -63,7 +63,7 @@ export const ListItemContainer = styled(Animated.View)`
   align-items: center;
   justify-content: space-between;
   min-height: 50px;
-  width: ${LARGE_WIDTH}px;
+  width: ${LARGE_WIDTH - 16}px;
 `;
 
 export const ListItemContentContainer = styled.View`
