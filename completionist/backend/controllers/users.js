@@ -24,7 +24,7 @@ const getUserByUserId = async (req, res) => {
 	const isAuthorized = await checkAuthToken(req);
 	if (isAuthorized) {
 		try {
-			const user = findUserById(res, req.params.userId);
+			const user = await findUserById(res, req.params.userId);
 			return res.status(request_codes.SUCCESS).json(user);
 
 		} catch (error) {
@@ -76,13 +76,13 @@ const updateUser = async (req, res) => {
 			const result = await User.findOneAndUpdate(
 				{ 'userId': userId },
 				{
-					userId: userId,
 					steamId: steamId,
 					subscription: subscription,
 					settings: settings,
 					data: data
 				}
 			);
+			console.log("UPDATING WITH: ", data);
 			if (result.matchedCount > 0) {
 				console.log(`User with ID ${userId} updated successfully`);
 				return res.status(request_codes.SUCCESS);

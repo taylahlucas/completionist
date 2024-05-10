@@ -73,6 +73,7 @@ const signup = async (req, res) => {
 
 		// Create signed token
 		const token = createSignedToken();
+
 		// Remove password from the user object
 		const { password, googleId, ...rest } = user._doc;
 
@@ -90,12 +91,12 @@ const signin = async (req, res) => {
 	console.log("SignIn")
 	try {
 		const { email, password, googleId } = req.body;
-		const user = await findUserByEmail(res, email);
-		// const user = await User.findOne({ email }).limit(10);
-		// if (!user) {
-		// 	return res.status(request_codes.NO_USER_FOUND).json({ error: "No user found." });
-		// }
+		const user = await User.findOne({ email }).limit(10);
 
+		if (!user) {
+			return res.status(request_codes.NO_USER_FOUND).json({ error: "No user found." });
+		}
+		
 		if (user.password && password) {
 			const match = await comparePasswords(password, user.password);
 			if (!match) {
