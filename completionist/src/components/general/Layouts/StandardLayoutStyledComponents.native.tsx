@@ -8,7 +8,8 @@ interface StandardLayoutContainerProps {
 export const StandardLayoutContainer = styled.View<StandardLayoutContainerProps>`
   width: 100%;
   height: 100%;
-	padding: ${MID_PADDING}px ${SMALL_PADDING}px ${SMALL_PADDING}px ${SMALL_PADDING}px;
+	padding-top: ${MID_PADDING}px;
+	padding-bottom: ${MID_PADDING}px;
   flex: 1;
   background-color: ${props => props.color};
 	align-items: center;

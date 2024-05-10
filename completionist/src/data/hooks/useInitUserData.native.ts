@@ -9,11 +9,11 @@ const useInitUserData = () => {
   const appStateRef = useRef(AppState.currentState);
   const { setAppState } = useMainDispatch();
   const { user, appState, shouldUpdateUser } = useMainState();
-  const { isLoggedIn } = useLoginState();
+  const { isLoggedIn, isAuthenticated } = useLoginState();
   const { loadUserFromCache, updateUserData } = useEditUserData();
 
   useEffect(() => {
-    if (!isLoggedIn && !user.userId) {
+    if (!isAuthenticated && !user.userId) {
       loadUserFromCache();
     }
 
@@ -31,12 +31,13 @@ const useInitUserData = () => {
     switch (appState) {
       case 'active':
 
-        if (!isLoggedIn || !user.userId) {
+        if (!isAuthenticated || !user.userId) {
           loadUserFromCache();
         }
         return;
       case 'inactive': 
-        if (isLoggedIn && !!user.userId && shouldUpdateUser) {
+        if (isAuthenticated && !!user.userId && shouldUpdateUser) {
+					console.log("UPDATING: ", user.data.witcher3.quests)
           updateUserData(user);
         }
         return;
