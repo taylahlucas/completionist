@@ -13,8 +13,8 @@ import useGetNavigationPath from './useGetNavigationPath';
 interface EditUserDataReturnType {
 	loadUserFromCache: () => void;
 	saveUser: (user: User) => void;
-	verifyUserData: (user: User) => void;
 	updateUserData: (user: User) => void;
+	updateSignUpData: (user: User) => void;
 	removeUserData: () => void;
 }
 
@@ -25,7 +25,7 @@ const useEditUserData = (): EditUserDataReturnType => {
 	const { setLoginFormData, setLoggedIn, setIsAuthenticated } = useLoginDispatch();
 	const { fetchUserFromCache, saveToCache, clearCache } = useCache();
 	const { getCredentials, deleteCredentials } = useKeychain();
-	const { getUserByUserId, updateUser, verifyUser } = useEndpoints();
+	const { getUserByUserId, updateUser, updateSignUp } = useEndpoints();
 	const getAuthNavigationPath = useGetNavigationPath();
 
 	const loadUserFromCache = async () => {
@@ -67,11 +67,11 @@ const useEditUserData = (): EditUserDataReturnType => {
 		}
 	};
 
-	const verifyUserData = async (user: User) => {
+	const updateSignUpData = async (user: User) => {
 		await getCredentials()
 			.then((credentials) => {
 				if (!!credentials) {
-					verifyUser({
+					updateSignUp({
 						authToken: credentials.password,
 						userId: user.userId,
 						signup: user.signup
@@ -95,7 +95,6 @@ const useEditUserData = (): EditUserDataReturnType => {
 	}
 
 	const removeUserData = () => {
-		console.log("removeUserData")
 		setIsAuthenticated(false);
 		setUser(initialUser);
 		setLoginFormData(initialFormData);
@@ -106,7 +105,7 @@ const useEditUserData = (): EditUserDataReturnType => {
 
 	return { 
 		saveUser,
-		verifyUserData,
+		updateSignUpData,
 		updateUserData,
 		removeUserData, 
 		loadUserFromCache 

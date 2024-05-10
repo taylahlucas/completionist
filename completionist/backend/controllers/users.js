@@ -72,13 +72,12 @@ const updateUser = async (req, res) => {
 		try {
 			const userId = req.params.userId;
 			const { steamId, subscription, settings, data } = req.body;
-
+			
 			const result = await User.findOneAndUpdate(
 				{ 'userId': userId },
 				{
 					userId: userId,
 					steamId: steamId,
-					// signup: signup,
 					subscription: subscription,
 					settings: settings,
 					data: data

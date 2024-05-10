@@ -30,7 +30,7 @@ const SubscriptionContent = () => {
 	const { selectedSubscription } = useSubscriptionState();
 	const { user } = useMainState();
 	const { isAuthenticated } = useLoginState();
-	const { verifyUserData } = useEditUserData();
+	const { updateSignUpData } = useEditUserData();
 	const featureList = useGetSubscriptionFeatureList();
 	const isFree: boolean = selectedSubscription.id === SubscriptionTypeEnum.FREE;
 
@@ -47,7 +47,7 @@ const SubscriptionContent = () => {
 							selectPlan: true
 						}
 					}
-					verifyUserData(updatedUser);
+					updateSignUpData(updatedUser);
 				}
 				else if (selectedSubscription.id === SubscriptionTypeEnum.FREE) {
 					// TODO: Add change success page

@@ -28,7 +28,7 @@ const SelectFirstGame = () => {
 	const [searchValue, setSearchValue] = useState('');
 	const [selectedGame, setSelectedGame] = useState<SubscriptionData>();
 	const { activateGameSubscription } = useActivateGameSubscription();
-	const { verifyUserData } = useEditUserData();
+	const { updateSignUpData } = useEditUserData();
 
 	const renderAwareView = () => (
 		<Button
@@ -44,7 +44,7 @@ const SelectFirstGame = () => {
 							selectGame: true
 						}
 					}
-					verifyUserData(updatedUser);
+					updateSignUpData(updatedUser);
 					activateGameSubscription(updatedUser, selectedGame);
 				}
 			}}

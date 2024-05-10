@@ -1,18 +1,13 @@
 const request_codes = require('../helpers/request_codes');
 
-const findUserByEmail = async (res, email, isSignup) => {
+const findUserByEmail = async (res, email) => {
 	try {
 		const existingUser = await User.findOne({ email }).limit(10);
 		return existingUser
 	}
 	catch (err) {
 		// Return null if signing up since we don't want to throw an error here
-		if (isSignup) {
-			return null;
-		}
-		else {
-			return res.status(request_codes.NO_USER_FOUND).json({ error: "No user found." });
-		}
+		return res.status(request_codes.NO_USER_FOUND).json({ error: "No user found." });
 	}
 }
 

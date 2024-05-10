@@ -7,6 +7,11 @@ const comparePasswords = require('../helpers/compare_passwords');
 const request_codes = require('../helpers/request_codes');
 const { findUserByEmail } = require('../helpers/find_user');
 
+
+const createSignedToken = () => jwt.sign({ _id: new mongoose.Types.ObjectId() }, process.env.JWT_SECRET, {
+	expiresIn: "7d",
+});
+
 const checkUserExists = async (req, res) => {
 	// Checks if user exists and whether they have a regular or google account set up
 	try {
@@ -40,7 +45,7 @@ const signup = async (req, res) => {
 		if (!userId) {
 			res.json({ error: "userId is required" });
 		}
-		const existingUser = await findUserByEmail(res, email, true);
+		const existingUser = await User.findOne({ email }).limit(10);
 		if (existingUser) {
 			return res.status(request_codes.EMAIL_TAKEN).json('Email already exists.');
 		}
@@ -81,34 +86,39 @@ const signup = async (req, res) => {
 	}
 };
 
-const checkPassword = async (compare, given) => {
-	if (given && compare) {
-		const match = await comparePasswords(given, compare);
-		if (!match) {
-			return res.status(request_codes.WRONG_PASSWORD).json({
-				error: "Wrong password",
-			});
-		}
-	}
-}
-
-const createSignedToken = () => wt.sign({ _id: new mongoose.Types.ObjectId() }, process.env.JWT_SECRET, {
-	expiresIn: "7d",
-});
-
 const signin = async (req, res) => {
+	console.log("SignIn")
 	try {
 		const { email, password, googleId } = req.body;
-		const user = await findUserByEmail(res, email, false);
+		const user = await findUserByEmail(res, email);
+		// const user = await User.findOne({ email }).limit(10);
+		// if (!user) {
+		// 	return res.status(request_codes.NO_USER_FOUND).json({ error: "No user found." });
+		// }
 
-		checkPassword(user.password, password);
-		checkPassword(user.googleId, googleId);
+		if (user.password && password) {
+			const match = await comparePasswords(password, user.password);
+			if (!match) {
+				return res.status(request_codes.WRONG_PASSWORD).json({
+					error: "Wrong password",
+				});
+			}
+		}
+		if (user.googleId && googleId) {
+			const match = await comparePasswords(googleId, user.googleId);
+			if (!match) {
+				return res.status(request_codes.WRONG_PASSWORD).json({
+					error: "Wrong password",
+				});
+			}
+		}
 
 		// Create signed token
 		const token = createSignedToken();
 		user.password = undefined;
 		user.googleId = undefined;
 		user.secret = undefined;
+
 
 		// Response with token and user data
 		return res.status(request_codes.SUCCESS).json({
@@ -123,7 +133,11 @@ const signin = async (req, res) => {
 const linkAndSignIn = async (req, res) => {
 	try {
 		const { email, password, googleId } = req.body;
-		const user = await findUserByEmail(res, email);
+		const user = await User.findOne({ email }).limit(10);
+
+		if (!user) {
+			return res.status(request_codes.NO_USER_FOUND).json({ error: "No user found." });
+		}
 
 		// If user does not have googleId, update googleId
 		let result;
@@ -143,18 +157,11 @@ const linkAndSignIn = async (req, res) => {
 			});
 		}
 
-		if (result.matchedCount > 0) {
-			console.log(`User with with ID ${user.userId} linked successfully`);
-			// Create signed token
-			const token = createSignedToken();
-
-			return res.status(request_codes.SUCCESS).json({
-				token,
-				user
-			});
-		} else {
-			return res.status(request_codes.NO_USER_FOUND).json({ error: 'User not found' });
-		}
+		const token = createSignedToken();
+		return res.status(request_codes.SUCCESS).json({
+			token,
+			user
+		});
 	}
 	catch (err) {
 		return res.status(err.status).json(err.message);

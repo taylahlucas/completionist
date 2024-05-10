@@ -37,7 +37,7 @@ export interface EmailProps {
 	text: string;
 }
 
-export interface VerifyUserProps {
+export interface UpdateSignUpProps {
 	authToken: string;
 	userId: string;
 	signup: SignupData;
@@ -50,7 +50,7 @@ export interface EndpointsReturnType {
 	signUp: ({ data }: SignUpProps) => Promise<UserResponse>;
 	getUserByUserId: ({ authToken, userId }: GetUserByUserIdProps) => Promise<UserResponse>;
 	updateUser: ({ authToken, userId, steamId, subscription, settings, userAvatar, data }: UpdateUserProps) => Promise<UserResponse>;
-	verifyUser: ({ authToken, userId, signup }: VerifyUserProps) => Promise<void>;
+	updateSignUp: ({ authToken, userId, signup }: UpdateSignUpProps) => Promise<void>;
 	sendEmail: ({ emailTo, subject, text }: EmailProps) => Promise<void>;
 	getSteamUserById: (appId: string, steamId: string) => Promise<StringResponse>;
 	getSteamPlayerAchievements: (appId: string, steamId: string) => Promise<any>;
