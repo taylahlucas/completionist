@@ -40,6 +40,7 @@ const useActivateGameSubscription = () => {
 				data: updatedGames
 			}
 		};
+		console.log("activateGameSubscription-updatedUser: ", updatedUser.signup)
 		updateUserData(updatedUser);
 	};
 

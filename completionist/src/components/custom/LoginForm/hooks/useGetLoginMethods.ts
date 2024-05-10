@@ -106,7 +106,7 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 				}
 			});
 	}
-// TODO: Write seperate query for userSignUpvalues???
+
 	const googleUserSignIn = async () => {
 		try {
 			await GoogleSignin.hasPlayServices();
@@ -165,7 +165,7 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 			if (shouldUpdateUser) {
 				updateUserData(user);
 			}
-			await GoogleSignin.revokeAccess();
+			// await GoogleSignin.revokeAccess();
 			await GoogleSignin.signOut();
 			removeUserData();
 		} catch (error) {

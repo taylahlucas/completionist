@@ -17,6 +17,7 @@ import useActivateGameSubscription from '@utils/hooks/useActivateGameSubscriptio
 import KeyboardAvoidingScrollView from '@components/general/Lists/KeyboardAvoidingScrollView.native';
 import Condition from '@components/general/Condition.native';
 import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
+import useEditUserData from '@data/hooks/useEditUserData.native';
 
 const SelectFirstGame = () => {
 	const theme = useGetTheme();
@@ -27,6 +28,7 @@ const SelectFirstGame = () => {
 	const [searchValue, setSearchValue] = useState('');
 	const [selectedGame, setSelectedGame] = useState<SubscriptionData>();
 	const { activateGameSubscription } = useActivateGameSubscription();
+	const { verifyUserData } = useEditUserData();
 
 	const renderAwareView = () => (
 		<Button
@@ -35,14 +37,15 @@ const SelectFirstGame = () => {
 			disabled={!selectedGame}
 			onPress={async (): Promise<void> => {
 				if (!!selectedGame) {
-					const activatedUser = {
+					const updatedUser = {
 						...user,
 						signup: {
 							...user.signup,
 							selectGame: true
 						}
 					}
-					activateGameSubscription(activatedUser, selectedGame);
+					verifyUserData(updatedUser);
+					activateGameSubscription(updatedUser, selectedGame);
 				}
 			}}
 		/>

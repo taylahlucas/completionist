@@ -10,6 +10,7 @@ import {
 	signinUrl,
 	getUserByUserIdUrl,
 	updateUserUrl,
+	verifyUserUrl,
 	sendEmailUrl,
 	steamUserByIdUrl,
 	steamPlayerAchievementsUrl,
@@ -22,7 +23,8 @@ import {
 	UpdateUserProps,
 	EmailProps,
 	EndpointsReturnType,
-	CredentialsExistProps
+	CredentialsExistProps,
+	VerifyUserProps
 } from '@data/api/EndpointInterfaces.native';
 import useHandleAxiosError from './useHandleAxiosError';
 import useAuth from './useAuth.native';
@@ -43,14 +45,17 @@ const useEndpoints = (): EndpointsReturnType => {
 	// TODO: Add axios caching https://www.npmjs.com/package/axios-cache-adapter
 	const checkUserExists = async (email: string): Promise<CredentialsExistProps> => {
 		try {
+			console.log("TEST-checkUserExists: ", email.toLocaleLowerCase());
 			const response = await axios.post(`${url}/${checkUserExistsUrl}`,
 				{
 					email: email.toLocaleLowerCase(),
 				}
 			);
+			console.log("checkUserExists-response: ", response.data);
 			return response.data as CredentialsExistProps;
 		}
-		catch {
+		catch(error: AxiosErrorResponse){
+			console.log("checkUserExists-Error: ", error.response)
 			return {
 				regular: false,
 				google: false
@@ -60,6 +65,7 @@ const useEndpoints = (): EndpointsReturnType => {
 
 	const signUp = async ({ data }: SignUpProps): Promise<UserResponse> => {
 		try {
+			console.log("signUp");
 			const response = await axios.post(`${url}/${signupUrl}`,
 				{
 					userId: data.userId ? data.userId : uuid.v4(),
@@ -84,6 +90,7 @@ const useEndpoints = (): EndpointsReturnType => {
 	}
 
 	const signIn = async ({ email, password, googleId }: SignInProps): Promise<UserResponse> => {
+		console.log("signIn");
 		try {
 			const response = await axios.post(`${url}/${signinUrl}`,
 				{
@@ -107,6 +114,7 @@ const useEndpoints = (): EndpointsReturnType => {
 	};
 
 	const linkAndSignIn = async ({ email, password, googleId }: SignInProps): Promise<UserResponse> => {
+		console.log("linkAndSignIn");
 		try {
 			const response = await axios.patch(`${url}/${linkAndSignInUrl}`,
 				{
@@ -130,6 +138,7 @@ const useEndpoints = (): EndpointsReturnType => {
 	}
 
 	const getUserByUserId = async ({ authToken, userId }: GetUserByUserIdProps): Promise<UserResponse> => {
+		console.log("getUserByUserId");
 		try {
 			const response = await axios.get(
 				`${url}/${getUserByUserIdUrl}/${userId}`,
@@ -145,17 +154,35 @@ const useEndpoints = (): EndpointsReturnType => {
 		}
 	};
 
-	const updateUser = async ({ authToken, userId, steamId, signup, subscription, settings, userAvatar, data }: UpdateUserProps): Promise<UserResponse> => {
+	const updateUser = async ({ authToken, userId, steamId, subscription, settings, userAvatar, data }: UpdateUserProps): Promise<UserResponse> => {
+		console.log("updateUser");
 		try {
 			await axios.patch(
 				`${url}/${updateUserUrl}/${userId}`,
 				{
 					steamId: steamId,
-					signup: signup,
 					subscription: subscription,
 					settings: settings,
 					userAvatar: userAvatar,
 					data: data
+				},
+				setAuthHeaders(authToken)
+			);
+		}
+		catch (error: AxiosErrorResponse) {
+			handleAxiosError(error.response?.status);
+		}
+	};
+
+	const verifyUser = async ({ authToken, userId, signup }: VerifyUserProps): Promise<void> => {
+		console.log("verifyUser: ", signup);
+		try {
+			await axios.patch(
+				`${url}/${verifyUserUrl}/${userId}`,
+				{
+					verification: signup.verification,
+					selectPlan: signup.selectPlan,
+					selectGame: signup.selectGame
 				},
 				setAuthHeaders(authToken)
 			);
@@ -250,6 +277,7 @@ const useEndpoints = (): EndpointsReturnType => {
 		signUp,
 		getUserByUserId,
 		updateUser,
+		verifyUser,
 		sendEmail,
 		getSteamUserById,
 		getSteamPlayerAchievements,

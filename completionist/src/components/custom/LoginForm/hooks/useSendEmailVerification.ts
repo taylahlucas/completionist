@@ -24,6 +24,7 @@ const useSendEmailVerification = () => {
 
 	const sendEmailVerification = async (email: string, linkAccount: boolean = false) => {
 		const uniqueCode = generateVerificationToken(6);
+		console.log("uniqueCode: ", uniqueCode);
 		setVerificationToken(uniqueCode);
 		sendEmail({
 			// TODO: Swap for completionist email

@@ -1,6 +1,6 @@
-import useReactNavigation, { DrawerActions } from '@navigation/hooks/useReactNavigation.native';
+import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
-import { User } from '@utils/CustomInterfaces';
+import { User, SignupData } from '@utils/CustomInterfaces';
 import useCache from '../api/hooks/useCache.native';
 import useKeychain from './useKeychain.native';
 import { initialFormData } from '@components/custom/LoginForm/LoginState';
@@ -13,6 +13,7 @@ import useGetNavigationPath from './useGetNavigationPath';
 interface EditUserDataReturnType {
 	loadUserFromCache: () => void;
 	saveUser: (user: User) => void;
+	verifyUserData: (user: User) => void;
 	updateUserData: (user: User) => void;
 	removeUserData: () => void;
 }
@@ -24,7 +25,7 @@ const useEditUserData = (): EditUserDataReturnType => {
 	const { setLoginFormData, setLoggedIn, setIsAuthenticated } = useLoginDispatch();
 	const { fetchUserFromCache, saveToCache, clearCache } = useCache();
 	const { getCredentials, deleteCredentials } = useKeychain();
-	const { getUserByUserId, updateUser } = useEndpoints();
+	const { getUserByUserId, updateUser, verifyUser } = useEndpoints();
 	const getAuthNavigationPath = useGetNavigationPath();
 
 	const loadUserFromCache = async () => {
@@ -60,9 +61,25 @@ const useEditUserData = (): EditUserDataReturnType => {
 		setShouldUpdateUser(false);
 
 		if (!isAuthenticated) {
-			navigation.navigate(getAuthNavigationPath(user));
+			const path = getAuthNavigationPath(user);
+			console.log("Navigating to: ", path);
+			navigation.navigate(path);
 		}
 	};
+
+	const verifyUserData = async (user: User) => {
+		await getCredentials()
+			.then((credentials) => {
+				if (!!credentials) {
+					verifyUser({
+						authToken: credentials.password,
+						userId: user.userId,
+						signup: user.signup
+					});
+					saveUser(user);
+				}
+			})
+	}
 	
 	const updateUserData = async (user: User) => {
 		await getCredentials()
@@ -78,6 +95,7 @@ const useEditUserData = (): EditUserDataReturnType => {
 	}
 
 	const removeUserData = () => {
+		console.log("removeUserData")
 		setIsAuthenticated(false);
 		setUser(initialUser);
 		setLoginFormData(initialFormData);
@@ -88,6 +106,7 @@ const useEditUserData = (): EditUserDataReturnType => {
 
 	return { 
 		saveUser,
+		verifyUserData,
 		updateUserData,
 		removeUserData, 
 		loadUserFromCache 
