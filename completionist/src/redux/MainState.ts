@@ -63,6 +63,20 @@ export const initialState: MainState = {
 	searchValue: ''
 }
 
+const getUserDataState = (state: MainState): GeneralData => {
+	switch (state.selectedGame) {
+		case GameKeyEnum.FALLOUT_3:
+			return state.user.data.fallout3;
+		case GameKeyEnum.FALLOUT_4:
+			return state.user.data.fallout4;
+		case GameKeyEnum.SKYRIM:
+			return state.user.data.skyrim;
+		case GameKeyEnum.WITCHER_3:
+			return state.user.data.witcher3;
+		default: return initialUser.data.skyrim;
+	}
+};
+
 const slice = createSlice({
 	name: 'main',
 	initialState: initialState,
@@ -78,20 +92,7 @@ const slice = createSlice({
 		},
 		setSelectedGame: (state, action) => {
 			state.selectedGame = action.payload;
-			switch (state.selectedGame) {
-				case GameKeyEnum.FALLOUT_3:
-					state.selectedGameData = state.user.data.fallout3;
-					break;
-				case GameKeyEnum.FALLOUT_4:
-					state.selectedGameData = state.user.data.fallout4;
-					break;
-				case GameKeyEnum.SKYRIM:
-					state.selectedGameData = state.user.data.skyrim;
-					break;
-				case GameKeyEnum.WITCHER_3:
-					state.selectedGameData = state.user.data.witcher3;
-					break;
-			}
+			state.selectedGameData = getUserDataState(state);
 		},
 		setWebSignInConfigured: (state, action) => {
 			state.webSignInConfigured = action.payload;
@@ -101,19 +102,7 @@ const slice = createSlice({
 		},
 		setUser: (state, action) => {
 			state.user = action.payload;
-			switch (state.selectedGame) {
-				case GameKeyEnum.FALLOUT_3:
-					state.selectedGameData = state.user.data.fallout3;
-				case GameKeyEnum.FALLOUT_4:
-					state.selectedGameData = state.user.data.fallout4;
-					break;
-				case GameKeyEnum.SKYRIM:
-					state.selectedGameData = state.user.data.skyrim;
-					break;
-				case GameKeyEnum.WITCHER_3:
-					state.selectedGameData = state.user.data.witcher3;
-					break;
-			}
+			state.selectedGameData = getUserDataState(state);
 		},
 		setShouldUpdateUser: (state, action) => {
 			state.shouldUpdateUser = action.payload;
@@ -124,77 +113,33 @@ const slice = createSlice({
 		setCompletedQuests: (state, action) => {
 			state.shouldUpdateUser = true;
 			if (state.selectedGameData) {
+				const userData = getUserDataState(state);
+				userData.quests = action.payload;
 				state.selectedGameData.quests = action.payload;
-				// switch (state.selectedGame) {
-				// 	case GameKeyEnum.FALLOUT_3:
-				// 		state.user.data.fallout3.quests = action.payload;
-				// 	case GameKeyEnum.FALLOUT_4:
-				// 		state.user.data.fallout4.quests = action.payload;
-				// 		break;
-				// 	case GameKeyEnum.SKYRIM:
-				// 		state.user.data.skyrim.quests = action.payload;
-				// 		break;
-				// 	case GameKeyEnum.WITCHER_3:
-				// 		state.user.data.witcher3.quests = action.payload;
-				// 		break;
-				// }
 			}
 		},
 		setCompletedCollectables: (state, action) => {
 			state.shouldUpdateUser = true;
 			if (state.selectedGameData) {
+				const userData = getUserDataState(state);
+				userData.collectables = action.payload;
 				state.selectedGameData.collectables = action.payload;
-				// switch (state.selectedGame) {
-				// 	case GameKeyEnum.FALLOUT_3:
-				// 		state.user.data.fallout3.collectables = action.payload;
-				// 	case GameKeyEnum.FALLOUT_4:
-				// 		state.user.data.fallout4.collectables = action.payload;
-				// 		break;
-				// 	case GameKeyEnum.SKYRIM:
-				// 		state.user.data.skyrim.collectables = action.payload;
-				// 		break;
-				// 	case GameKeyEnum.WITCHER_3:
-				// 		state.user.data.witcher3.collectables = action.payload;
-				// 		break;
-				// }
 			}
 		},
 		setCompletedLocations: (state, action) => {
 			state.shouldUpdateUser = true;
 			if (state.selectedGameData) {
+				const userData = getUserDataState(state);
+				userData.locations = action.payload;
 				state.selectedGameData.locations = action.payload;
-				// switch (state.selectedGame) {
-				// 	case GameKeyEnum.FALLOUT_3:
-				// 		state.user.data.fallout3.locations = action.payload;
-				// 	case GameKeyEnum.FALLOUT_4:
-				// 		state.user.data.fallout4.locations = action.payload;
-				// 		break;
-				// 	case GameKeyEnum.SKYRIM:
-				// 		state.user.data.skyrim.locations = action.payload;
-				// 		break;
-				// 	case GameKeyEnum.WITCHER_3:
-				// 		state.user.data.witcher3.locations = action.payload;
-				// 		break;
-				// }
 			}
 		},
 		setCompletedMiscItems: (state, action) => {
 			state.shouldUpdateUser = true;
 			if (state.selectedGameData) {
+				const userData = getUserDataState(state);
+				userData.miscellaneous = action.payload;
 				state.selectedGameData.miscellaneous = action.payload;
-				// switch (state.selectedGame) {
-				// 	case GameKeyEnum.FALLOUT_3:
-				// 		state.user.data.fallout3.miscellaneous = action.payload;
-				// 	case GameKeyEnum.FALLOUT_4:
-				// 		state.user.data.fallout4.miscellaneous = action.payload;
-				// 		break;
-				// 	case GameKeyEnum.SKYRIM:
-				// 		state.user.data.skyrim.miscellaneous = action.payload;
-				// 		break;
-				// 	case GameKeyEnum.WITCHER_3:
-				// 		state.user.data.witcher3.miscellaneous = action.payload;
-				// 		break;
-				// }
 			}
 		},
 		reset: (state) => {

@@ -1,6 +1,5 @@
-import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
-import { User, SignupData } from '@utils/CustomInterfaces';
+import { User } from '@utils/CustomInterfaces';
 import useCache from '../api/hooks/useCache.native';
 import useKeychain from './useKeychain.native';
 import { initialFormData } from '@components/custom/LoginForm/LoginState';
@@ -61,7 +60,6 @@ const useEditUserData = (): EditUserDataReturnType => {
 
 		if (!isAuthenticated) {
 			getAuthNavigationPath(user);
-			// navigation.navigate(path);
 		}
 	};
 
@@ -80,6 +78,8 @@ const useEditUserData = (): EditUserDataReturnType => {
 	}
 	
 	const updateUserData = async (user: User) => {
+		// TODO: How can we update user data? 
+		// Must handle switching between games
 		await getCredentials()
 			.then((credentials) => {
 				if (!!credentials) {
