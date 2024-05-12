@@ -1,6 +1,6 @@
 import { StyleSheet } from 'react-native';
 import styled from 'styled-components/native';
-import { DEFAULT_BORDER_RADIUS, LARGE_WIDTH } from '@styles/global.native';
+import { DEFAULT_BORDER_RADIUS, LARGE_WIDTH, LARGE_PADDING } from '@styles/global.native';
 import StyledText from '@components/general/Text/StyledText.native';
 
 export const styles = StyleSheet.create({
@@ -63,10 +63,10 @@ export const GameListItemHeaderTitleContainer = styled.View`
   justify-content: space-between;
 `;
 
-export const GameSelectionChangeLeftContainer = styled.View`
+export const GameSelectionChangesLeftContainer = styled.View`
 	flex-direction: row;
 	width: 100%;
 	justify-content: space-between;
-	margin-left: 16px;
+	margin-left: ${LARGE_PADDING}px;
 	padding-bottom: 8px;
 `;

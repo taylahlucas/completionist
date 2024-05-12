@@ -1,5 +1,5 @@
 import styled from 'styled-components/native';
-import { DEFAULT_BORDER_RADIUS } from '@styles/global.native';
+import { DEFAULT_BORDER_RADIUS, LARGE_PADDING } from '@styles/global.native';
 import Icon from '../Icon/Icon.native';
 
 interface SelectedItemProps {
@@ -14,8 +14,8 @@ export const SelectedItemContainer = styled.Pressable<SelectedItemProps>`
 `;
 
 export const SelectedItemIconContainer = styled.View<SelectedItemProps>`
-	width: 32px;
-	height: 32px;
+	width: ${LARGE_PADDING}px;
+	height: ${LARGE_PADDING}px;
 	position: absolute;
 	background-color: ${props => props.color};
 	border-radius: 25px;

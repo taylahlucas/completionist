@@ -1,7 +1,7 @@
 import { StyleSheet } from 'react-native';
 import styled from 'styled-components/native';
 import StyledText from '@components/general/Text/StyledText.native';
-import { STANDARD_WIDTH } from '@styles/global.native';
+import { STANDARD_WIDTH, LARGE_PADDING } from '@styles/global.native';
 
 export const styles = StyleSheet.create({
 	scrollContent: {
@@ -26,7 +26,7 @@ export const SubscriptionFeatureListInnerContainer = styled.View`
 
 export const SubscriptionFeatureListTitle = styled(StyledText)`
     padding-left: 16px;
-    padding-right: 32px;
+    padding-right: ${LARGE_PADDING}px;
     align-self: center;
 `;
 

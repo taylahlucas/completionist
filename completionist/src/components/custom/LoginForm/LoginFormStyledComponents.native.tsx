@@ -1,6 +1,6 @@
 import styled from 'styled-components/native';
 import Button from '@components/general/Button/Button.native';
-import { LARGE_WIDTH } from '@styles/global.native';
+import { LARGE_WIDTH, LARGE_PADDING } from '@styles/global.native';
 
 export const LoginContentContainer = styled.View`
   align-items: center;
@@ -16,11 +16,11 @@ export const LoginFormButtonContainer = styled.View`
 `;
 
 export const LoginButton = styled(Button)`
-	margin-bottom: 32px;
+	margin-bottom: ${LARGE_PADDING}px;
 `;
 
 export const LoginFormFooterContainer = styled.View`
-  margin-top: 32px;
+  margin-top: ${LARGE_PADDING}px;
 `;
 
 export const SelectFirstGameContentContainer = styled.View`

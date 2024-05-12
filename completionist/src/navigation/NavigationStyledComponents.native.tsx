@@ -1,7 +1,7 @@
 import { StyleSheet, Dimensions } from 'react-native';
 import Icon from '@components/general/Icon/Icon.native';
 import StyledText from '@components/general/Text/StyledText.native';
-import { DEFAULT_BORDER_RADIUS } from '@styles/global.native';
+import { DEFAULT_BORDER_RADIUS, LARGE_PADDING } from '@styles/global.native';
 import styled from 'styled-components/native';
 
 const drawerWidth = 250;
@@ -26,7 +26,7 @@ interface NavigationHeaderProps {
 export const NavigationHeaderContainer = styled.View`
   width: 100%;
   flex-direction: row;
-  margin-top: 32px;
+  margin-top: ${LARGE_PADDING}px;
   padding-bottom: 16px;
   justify-content: space-between;
   align-items: center;

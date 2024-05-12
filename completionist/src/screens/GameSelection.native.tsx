@@ -10,7 +10,7 @@ import Condition from '@components/general/Condition.native';
 import { IconTypeEnum, SubscriptionTypeEnum, AuthScreenEnum } from '@utils/CustomEnums';
 import StyledText from '@components/general/Text/StyledText.native';
 import Icon from '@components/general/Icon/Icon.native';
-import { GameSelectionChangeLeftContainer } from '@components/custom/GameList/GameListItemStyledComponents.native';
+import { GameSelectionChangesLeftContainer } from '@components/custom/GameList/GameListItemStyledComponents.native';
 import useGetTheme from '@styles/hooks/useGetTheme';
 
 const GameSelection = () => {
@@ -51,7 +51,7 @@ const GameSelection = () => {
 				condition={user.subscription.tier === SubscriptionTypeEnum.FREE}
 				conditionalElement={renderSubscriptionComponent({ marginRight: 34 })}
 			>
-				<GameSelectionChangeLeftContainer>
+				<GameSelectionChangesLeftContainer>
 					<View style={{ flexDirection: 'row' }}>
 						<Icon
 							name='arrow-u-right-top'
@@ -68,7 +68,7 @@ const GameSelection = () => {
 						</StyledText>
 					</View>
 					{renderSubscriptionComponent({ position: 'absolute', right: 34 })}
-				</GameSelectionChangeLeftContainer>
+				</GameSelectionChangesLeftContainer>
 			</Condition>
 			<GameList searchValue={searchValue.toLocaleLowerCase()} />
 		</StandardLayout>
