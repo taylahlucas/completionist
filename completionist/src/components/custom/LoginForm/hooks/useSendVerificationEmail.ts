@@ -4,7 +4,7 @@ import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
 import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
 import useLoginDispatch from './useLoginDispatch';
 
-const useSendEmailVerification = () => {
+const useSendVerificationEmail = () => {
 	const { t } = useTranslation();
 	const navigation = useReactNavigation();
 	const { sendEmail } = useEndpoints();
@@ -22,7 +22,7 @@ const useSendEmailVerification = () => {
 		return code;
 	};
 
-	const sendEmailVerification = async (email: string, linkAccount: boolean = false) => {
+	const sendVerificationEmail = async (email: string, linkAccount: boolean = false) => {
 		const uniqueCode = generateVerificationToken(6);
 		console.log("uniqueCode: ", uniqueCode);
 		setVerificationToken(uniqueCode);
@@ -43,7 +43,7 @@ const useSendEmailVerification = () => {
 		);
 	};
 
-	return sendEmailVerification;
+	return sendVerificationEmail;
 };
 
-export default useSendEmailVerification;
+export default useSendVerificationEmail;

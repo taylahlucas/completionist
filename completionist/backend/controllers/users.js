@@ -81,7 +81,6 @@ const updateUser = async (req, res) => {
 					data: data
 				}
 			);
-			console.log("UPDATING WITH: ", data);
 			if (result.matchedCount > 0) {
 				console.log(`User with ID ${userId} updated successfully`);
 				return res.status(request_codes.SUCCESS);

@@ -147,15 +147,23 @@ const fallout3SettingsConfig = {
 			],
 			"dlc": [
 				{
-					"id": "automatron",
+					"id": "operationAnchorage",
 					"isActive": true
 				},
 				{
-					"id": "nukaWorld",
+					"id": "thePitt",
 					"isActive": true
 				},
 				{
-					"id": "skillBooks",
+					"id": "brokenSteel",
+					"isActive": true
+				},
+				{
+					"id": "pointLookout",
+					"isActive": true
+				},
+				{
+					"id": "mothershipZeta",
 					"isActive": true
 				}
 			]

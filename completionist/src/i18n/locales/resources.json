@@ -75,7 +75,7 @@
       "sendRequest": {
         "subject": "主题",
         "writeRequest": "在这里写下您的要求...",
-        "SendRequestDesc": "请随意请求游戏、报告错误或提出一些建议来帮助改进应用程序！",
+        "requestGameDesc": "请随意请求游戏、报告错误或提出一些建议来帮助改进应用程序！",
         "verifyAccount": "你好，\n\n\n{{code}}"
       },
       "settings": {
@@ -342,7 +342,7 @@
       "sendRequest": {
         "subject": "Chủ thể",
         "writeRequest": "Viết yêu cầu của bạn ở đây...",
-        "SendRequestDesc": "Vui lòng yêu cầu trò chơi, báo cáo lỗi hoặc đưa ra một số đề xuất để giúp cải thiện ứng dụng!",
+        "requestGameDesc": "Vui lòng yêu cầu trò chơi, báo cáo lỗi hoặc đưa ra một số đề xuất để giúp cải thiện ứng dụng!",
         "verifyAccount": "Xin chào,\n\n\n{{code}}"
       },
       "settings": {
@@ -609,7 +609,7 @@
       "sendRequest": {
         "subject": "Ders",
         "writeRequest": "Talebinizi buraya yazın...",
-        "SendRequestDesc": "Bir oyun talep etmekten, bir hatayı bildirmekten veya uygulamanın iyileştirilmesine yardımcı olacak bazı önerilerde bulunmaktan çekinmeyin!",
+        "requestGameDesc": "Bir oyun talep etmekten, bir hatayı bildirmekten veya uygulamanın iyileştirilmesine yardımcı olacak bazı önerilerde bulunmaktan çekinmeyin!",
         "verifyAccount": "Merhaba,\n\n\n{{code}}"
       },
       "settings": {
@@ -876,7 +876,7 @@
       "sendRequest": {
         "subject": "Assunto",
         "writeRequest": "Escreva aqui o seu pedido...",
-        "SendRequestDesc": "Sinta-se à vontade para solicitar um jogo, reportar um bug ou fazer sugestões para ajudar a melhorar o app!",
+        "requestGameDesc": "Sinta-se à vontade para solicitar um jogo, reportar um bug ou fazer sugestões para ajudar a melhorar o app!",
         "verifyAccount": "Olá,\n\n\n{{code}}"
       },
       "settings": {
@@ -1143,7 +1143,7 @@
       "sendRequest": {
         "subject": "主題",
         "writeRequest": "ここにリクエストを書いてください...",
-        "SendRequestDesc": "ゲームをリクエストしたり、バグを報告したり、アプリを改善するための提案をしたりすることはお気軽にどうぞ！",
+        "requestGameDesc": "ゲームをリクエストしたり、バグを報告したり、アプリを改善するための提案をしたりすることはお気軽にどうぞ！",
         "verifyAccount": "こんにちは、\n\n\n{{code}}"
       },
       "settings": {
@@ -1410,7 +1410,7 @@
       "sendRequest": {
         "subject": "Soggetto",
         "writeRequest": "Scrivi qui la tua richiesta...",
-        "SendRequestDesc": "Sentiti libero di richiedere un gioco, segnalare un bug o dare qualche suggerimento per contribuire a migliorare l'app!",
+        "requestGameDesc": "Sentiti libero di richiedere un gioco, segnalare un bug o dare qualche suggerimento per contribuire a migliorare l'app!",
         "verifyAccount": "Ciao,\n\n\n{{code}}"
       },
       "settings": {
@@ -1677,7 +1677,7 @@
       "sendRequest": {
         "subject": "Subjek",
         "writeRequest": "Tulis permintaan Anda di sini...",
-        "SendRequestDesc": "Jangan ragu untuk meminta permainan, melaporkan bug, atau memberikan beberapa saran untuk membantu meningkatkan aplikasi!",
+        "requestGameDesc": "Jangan ragu untuk meminta permainan, melaporkan bug, atau memberikan beberapa saran untuk membantu meningkatkan aplikasi!",
         "verifyAccount": "Halo,\n\n\n{{code}}"
       },
       "settings": {
@@ -1944,7 +1944,7 @@
       "sendRequest": {
         "subject": "विषय",
         "writeRequest": "अपना अनुरोध यहां लिखें...",
-        "SendRequestDesc": "बेझिझक किसी गेम के लिए अनुरोध करें, बग की रिपोर्ट करें या ऐप को बेहतर बनाने में मदद के लिए कुछ सुझाव दें!",
+        "requestGameDesc": "बेझिझक किसी गेम के लिए अनुरोध करें, बग की रिपोर्ट करें या ऐप को बेहतर बनाने में मदद के लिए कुछ सुझाव दें!",
         "verifyAccount": "नमस्ते,\n\n\n{{code}}"
       },
       "settings": {
@@ -2211,7 +2211,7 @@
       "sendRequest": {
         "subject": "Sujet",
         "writeRequest": "Écrivez votre demande ici...",
-        "SendRequestDesc": "N'hésitez pas à demander un jeu, signaler un bug ou faire des suggestions pour améliorer l'application !",
+        "requestGameDesc": "N'hésitez pas à demander un jeu, signaler un bug ou faire des suggestions pour améliorer l'application !",
         "verifyAccount": "Bonjour,\n\n\n{{code}}"
       },
       "settings": {
@@ -2478,7 +2478,7 @@
       "sendRequest": {
         "subject": "Sujeto",
         "writeRequest": "Escribe tu solicitud aquí...",
-        "SendRequestDesc": "¡No dudes en solicitar un juego, informar un error o hacer algunas sugerencias para ayudar a mejorar la aplicación!",
+        "requestGameDesc": "¡No dudes en solicitar un juego, informar un error o hacer algunas sugerencias para ayudar a mejorar la aplicación!",
         "verifyAccount": "Hola,\n\n\n{{code}}"
       },
       "settings": {
@@ -2745,7 +2745,7 @@
       "sendRequest": {
         "subject": "Subject",
         "writeRequest": "Write your request here...",
-        "SendRequestDesc": "Feel free to request a game, report a bug or make some suggestions to help improve the app!",
+        "requestGameDesc": "Feel free to request a game, report a bug or make some suggestions to help improve the app!",
         "verifyAccount": "Hello,\nYou have recently created an account with Completionist.\nTo verify your account, please enter the following code in the application:\n\n{{code}}"
       },
       "settings": {
@@ -3012,7 +3012,7 @@
       "sendRequest": {
         "subject": "Thema",
         "writeRequest": "Schreiben Sie hier Ihre Anfrage...",
-        "SendRequestDesc": "Fordern Sie gerne ein Spiel an, melden Sie einen Fehler oder machen Sie Vorschläge zur Verbesserung der App!",
+        "requestGameDesc": "Fordern Sie gerne ein Spiel an, melden Sie einen Fehler oder machen Sie Vorschläge zur Verbesserung der App!",
         "verifyAccount": "Hallo,\n\n\n{{code}}"
       },
       "settings": {
@@ -3279,7 +3279,7 @@
       "sendRequest": {
         "subject": "موضوع",
         "writeRequest": "أكتب طلبك هنا...",
-        "SendRequestDesc": "لا تتردد في طلب لعبة أو الإبلاغ عن خطأ أو تقديم بعض الاقتراحات للمساعدة في تحسين التطبيق!",
+        "requestGameDesc": "لا تتردد في طلب لعبة أو الإبلاغ عن خطأ أو تقديم بعض الاقتراحات للمساعدة في تحسين التطبيق!",
         "verifyAccount": "مرحبًا،\n\n\n{{code}}"
       },
       "settings": {

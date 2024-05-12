@@ -86,7 +86,6 @@ const signup = async (req, res) => {
 };
 
 const signin = async (req, res) => {
-	console.log("SignIn")
 	try {
 		const { email, password, googleId } = req.body;
 		const user = await User.findOne({ email }).limit(10);

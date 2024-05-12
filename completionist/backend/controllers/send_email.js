@@ -1,4 +1,5 @@
 const nodemailer = require('nodemailer');
+const request_codes = require('../helpers/request_codes');
 
 const sendEmail = async (req, res) => {
   try {
@@ -21,7 +22,7 @@ const sendEmail = async (req, res) => {
     });
     
     console.log('Email sent successfully');
-    return res.status(200)
+    return res.status(request_codes.SUCCESS).json({ ok: true });
   } catch (error) {
     return res.status(error.status).json({ error: error.message  });
   }

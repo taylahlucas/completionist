@@ -11,14 +11,16 @@ import StyledText from '@components/general/Text/StyledText.native';
 import LoginForm from '@components/custom/LoginForm/LoginForm.native';
 import LoginFormSignInButtons from '@components/custom/LoginForm/LoginFormSignInButtons.native';
 import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
+import useIsLoading from '@data/api/hooks/useIsLoading.native';
 
 const Login = () => {
 	const { t } = useTranslation();
 	const { isSigningUp } = useLoginState();
+	const isLoading = useIsLoading();
 
 	// TODO: Fix keyboard view here (check with actual phone)
 	return (
-		<StandardLayout>
+		<StandardLayout isLoading={isLoading}>
 			<NavigationHeader id={UnauthorizedScreenEnum.Login} title={t('common:appTitle')} leftAction={'none'} />
 			<ScrollView>
 				<LoginContentContainer>

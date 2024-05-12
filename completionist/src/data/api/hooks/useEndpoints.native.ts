@@ -160,6 +160,7 @@ const useEndpoints = (): EndpointsReturnType => {
 				},
 				setAuthHeaders(authToken)
 			);
+			return;
 		}
 		catch (error: AxiosErrorResponse) {
 			handleAxiosError(error.response?.status);
@@ -177,6 +178,7 @@ const useEndpoints = (): EndpointsReturnType => {
 				},
 				setAuthHeaders(authToken)
 			);
+			return;
 		}
 		catch (error: AxiosErrorResponse) {
 			handleAxiosError(error.response?.status);
@@ -184,7 +186,7 @@ const useEndpoints = (): EndpointsReturnType => {
 	};
 
 	// TODO: Split to sendVerificationEmail and sendRequestEmail where sendRequestEmail uses setAuthHeaders?
-	const sendEmail = async ({ emailTo, subject, text }: EmailProps): Promise<void> => {
+	const sendEmail = async ({ emailTo, subject, text }: EmailProps): Promise<void> => {		
 		try {
 			await axios.post(
 				`${url}/${sendEmailUrl}`,
@@ -195,6 +197,7 @@ const useEndpoints = (): EndpointsReturnType => {
 				},
 				// setAuthHeaders(authToken)
 			);
+			return;
 		}
 		catch (error: AxiosErrorResponse) {
 			handleAxiosError(error.response.status);
@@ -213,6 +216,7 @@ const useEndpoints = (): EndpointsReturnType => {
 			else {
 				Alert.alert('Steam ID not found.');
 			}
+			return;
 		}
 		catch (error: AxiosErrorResponse) {
 			handleAxiosError(error.response.status);

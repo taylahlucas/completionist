@@ -1,14 +1,16 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import axios from 'axios';
 
 const useIsLoading = (): boolean => {
 	const [isLoading, setIsLoading] = useState<boolean>(false);
 
 	useEffect(() => {
-		const requestInterceptor = axios.interceptors.request.use((config) => {
-			setIsLoading(true);
-			return config;
-		});
+		const requestInterceptor = axios.interceptors.request.use(
+			(config) => {
+				setIsLoading(true);
+				return config;
+			}
+		);
 
 		// Axios response interceptor to clear loading state on response
 		const responseInterceptor = axios.interceptors.response.use(
@@ -16,7 +18,7 @@ const useIsLoading = (): boolean => {
 				setIsLoading(false);
 				return response;
 			},
-			(error) => {
+			(_) => {
 				setIsLoading(false);
 				return;
 			}
@@ -24,6 +26,7 @@ const useIsLoading = (): boolean => {
 
 		// Cleanup function to remove interceptors when component unmounts
 		return () => {
+			setIsLoading(false);
 			axios.interceptors.request.eject(requestInterceptor);
 			axios.interceptors.response.eject(responseInterceptor);
 		};

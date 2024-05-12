@@ -7,7 +7,7 @@ import { Alert } from 'react-native';
 import useEditUserData from '@data/hooks/useEditUserData.native';
 import useMainState from '@redux/hooks/useMainState';
 import { SignInProps } from '@data/api/EndpointInterfaces.native';
-import useSendEmailVerification from '@components/custom/LoginForm/hooks/useSendEmailVerification';
+import useSendVerificationEmail from '@components/custom/LoginForm/hooks/useSendVerificationEmail';
 import useLoginDispatch from './useLoginDispatch';
 
 interface GoogleSignInError {
@@ -27,7 +27,7 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 	const { setIsAuthenticated } = useLoginDispatch();
 	const { updateUserData, saveUser, removeUserData } = useEditUserData();
 	const { checkUserExists, linkAndSignIn, signIn, signUp } = useEndpoints();
-	const sendEmailVerification = useSendEmailVerification();
+	const sendVerificationEmail = useSendVerificationEmail();
 
 	const userSignIn = async ({ email, password, googleId }: SignInProps) => {
 		try {
@@ -76,7 +76,7 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 				{
 					text: t('common:alerts.ok'),
 					// Update user with password
-					onPress: (): Promise<void> => sendEmailVerification(email, true)
+					onPress: (): Promise<void> => sendVerificationEmail(email, true)
 				},
 				{
 					text: t('common:alerts.cancel')

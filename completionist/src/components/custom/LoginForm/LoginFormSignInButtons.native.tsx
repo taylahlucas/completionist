@@ -10,14 +10,14 @@ import useLoginState from './hooks/useLoginState';
 import StyledText from '@components/general/Text/StyledText.native';
 import Condition from '@components/general/Condition.native';
 import useValidator from '@utils/hooks/useValidator';
-import useSendEmailVerification from './hooks/useSendEmailVerification';
+import useSendVerificationEmail from './hooks/useSendVerificationEmail';
 import useEndpoints from '@data/api/hooks/useEndpoints.native';
 
 const LoginFormSignInButtons = () => {
 	const { t } = useTranslation();
 	const { checkUserAccount, googleUserSignIn } = useGetLoginMethods();
 	const { triggerIsSigningUp } = useLoginDispatch();
-	const sendEmailVerification = useSendEmailVerification();
+	const sendVerificationEmail = useSendVerificationEmail();
 	const { loginFormData, isSigningUp } = useLoginState();
 	const { checkUserExists } = useEndpoints();
 	const { isEmailValid, isPasswordValid, isNameValid } = useValidator();
@@ -41,7 +41,7 @@ const LoginFormSignInButtons = () => {
 					? checkUserExists(loginFormData.email)
 							.then((response) => {
 								if (!response.regular && !response.google) {
-									sendEmailVerification(loginFormData.email)
+									sendVerificationEmail(loginFormData.email)
 								}
 								else {
 									Alert.alert(

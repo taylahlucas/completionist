@@ -15,6 +15,8 @@ import { UserResponse } from '@utils/CustomTypes';
 import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
 import useIsLoading from '@data/api/hooks/useIsLoading.native';
 import ParagraphView from '@components/general/ParagraphView.native';
+import Spacing from '@components/general/Spacing.native';
+import useSendVerificationEmail from '@components/custom/LoginForm/hooks/useSendVerificationEmail';
 
 const AccountVerification = () => {
 	const { t } = useTranslation();
@@ -24,6 +26,7 @@ const AccountVerification = () => {
 	const { signUp } = useEndpoints();
 	const [value, setValue] = useState<string>('');
 	const isLoading = useIsLoading();
+	const sendVerificationEmail = useSendVerificationEmail();
 
 	const renderAwareView = (): JSX.Element => {
 		return (
@@ -50,6 +53,7 @@ const AccountVerification = () => {
 		);
 	};
 
+	// TODO: Add translations
 	return (
 		<StandardLayout isLoading={isLoading}>
 			<NavigationHeader id={UnauthorizedScreenEnum.AccountVerification} title={t('common:screens.verifyAccount')} leftAction='back' />
@@ -62,7 +66,14 @@ const AccountVerification = () => {
 					value={value}
 					setValue={setValue}
 				/>
-				<></>
+				<Spacing />
+				<ParagraphView>
+					<Button 
+						title={t('common:login.resendToken')}
+						type='text'
+						onPress={(): Promise<void> => sendVerificationEmail(loginFormData.email)}
+					/>
+				</ParagraphView>
 			</KeyboardAvoidingScrollView>
 		</StandardLayout>
 	);
