@@ -20,20 +20,15 @@ const RootStackNavigator = () => {
 	useTimedDataUpdate();
 
 	return (
-		<I18nextProvider i18n={i18n}>
-			{!isAuthenticated ? <UnauthorizedStackNavigator /> : <AuthStackNavigator />}
-		</I18nextProvider>
+		<Condition
+			condition={!showSplashScreen}
+			conditionalElement={<Landing />}
+		>
+			<I18nextProvider i18n={i18n}>
+				{!isAuthenticated ? <UnauthorizedStackNavigator /> : <AuthStackNavigator />}
+			</I18nextProvider>
+		</Condition>
 	);
 };
 
 export default RootStackNavigator;
-
-// TODO: Splash screen causing navigation issue
-// <Condition
-// condition={!showSplashScreen}
-// conditionalElement={<Landing />}
-// >
-// <I18nextProvider i18n={i18n}>
-// 	{!isAuthenticated ? <UnauthorizedStackNavigator /> : <AuthStackNavigator />}
-// </I18nextProvider>
-// </Condition>

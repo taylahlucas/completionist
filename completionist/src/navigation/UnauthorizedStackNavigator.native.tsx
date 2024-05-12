@@ -1,6 +1,5 @@
 import React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
-import Login from '@screens/Login';
 import Landing from '@screens/Landing.native';
 import SelectFirstGame from '@screens/SelectFirstGame.native';
 import AccountVerification from '@screens/AccountVerification.native';
@@ -8,6 +7,7 @@ import SelectInitialPlan from '@screens/SelectInitialPlan.native';
 import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
 import { UnauthorizedStackParamList } from '@utils/CustomInterfaces';
 import LinkAccount from '@screens/LinkAccount.native';
+import Login from '@screens/Login.native';
 
 const Stack = createStackNavigator<UnauthorizedStackParamList>();
 

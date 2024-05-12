@@ -1,8 +1,8 @@
 export type ScreenEnum = AuthScreenEnum | UnauthorizedScreenEnum;
 
 export enum AuthScreenEnum {
+	Landing = 'Landing',
   GameSelection = 'GameSelection',
-  LeftMenu = 'LeftMenu',
   Quests = 'Quests',
   Collectables = 'Collectables',
   Miscellaneous = 'Miscellaneous',

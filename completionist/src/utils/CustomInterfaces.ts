@@ -74,6 +74,7 @@ export type UnauthorizedStackParamList = {
 };
 
 export type AuthStackParamList = {
+	Landing: undefined;
 	GameSelection: undefined;
   Quests: undefined;
   Collectables: undefined;

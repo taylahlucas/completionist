@@ -21,6 +21,7 @@ import Payments from '@screens/Payments.native';
 import SteamAchievements from '@screens/SteamAchievements.native';
 import AccountDetails from '@screens/AccountDetails.native';
 import SelectPlan from '@screens/SelectPlan.native';
+import Landing from '@screens/Landing.native';
 
 const Drawer = createDrawerNavigator<AuthStackParamList>();
 
@@ -57,6 +58,7 @@ const AuthStackNavigator = () => {
 				}
 			}}
 		>
+			<Drawer.Screen name={AuthScreenEnum.Landing} component={Landing} />
 			<Drawer.Screen name={AuthScreenEnum.GameSelection} component={GameSelection} />
 			<Drawer.Screen name={AuthScreenEnum.Quests} component={Quests} />
 			<Drawer.Screen name={AuthScreenEnum.Collectables} component={Collectables} />
