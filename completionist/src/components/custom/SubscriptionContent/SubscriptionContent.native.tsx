@@ -32,14 +32,13 @@ const SubscriptionContent = () => {
 	const { isAuthenticated } = useLoginState();
 	const { updateSignUpData } = useEditUserData();
 	const featureList = useGetSubscriptionFeatureList();
-	const isFree: boolean = selectedSubscription.id === SubscriptionTypeEnum.FREE;
 
 	const renderAwareView = () => (
 		<Button
-			title={isFree ? 'Continue' : t('common:subscriptions.purchaseSubscription')}
+			title={t('common:continue')}
 			type='footer'
 			onPress={(): void => {
-				if (isFree && !isAuthenticated) {
+				if (selectedSubscription.id === SubscriptionTypeEnum.FREE && !isAuthenticated) {
 					const updatedUser = {
 						...user,
 						signup: {

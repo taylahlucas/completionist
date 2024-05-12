@@ -13,6 +13,7 @@ import useEndpoints from '@data/api/hooks/useEndpoints.native';
 import KeyboardAvoidingScrollView from '@components/general/Lists/KeyboardAvoidingScrollView.native';
 import { UserResponse } from '@utils/CustomTypes';
 import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
+import ParagraphView from '@components/general/ParagraphView.native';
 
 const LinkAccount = () => {
 	const { t } = useTranslation();
@@ -53,9 +54,9 @@ const LinkAccount = () => {
 	return (
 		<StandardLayout>
 			<NavigationHeader id={UnauthorizedScreenEnum.LinkAccount} title={'Link Your Accounts'} leftAction='none' />
-			<View style={{ paddingLeft: 16, paddingRight: 16 }}>
+			<ParagraphView>
 				<StyledText>{t('common:login.accountVerification')}</StyledText>
-			</View>
+			</ParagraphView>
 			<KeyboardAvoidingScrollView awareView={renderAwareView()}>
 				<VerificationEntry
 					length={verificationToken?.length ?? 0}

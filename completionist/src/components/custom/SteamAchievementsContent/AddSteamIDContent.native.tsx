@@ -9,6 +9,7 @@ import Button from '@components/general/Button/Button.native';
 import useEndpoints from '@data/api/hooks/useEndpoints.native';
 import useMainState from '@redux/hooks/useMainState';
 import useAuth from '@data/api/hooks/useAuth.native';
+import ParagraphView from '@components/general/ParagraphView.native';
 
 const AddSteamIDContent = () => {
 	const { t } = useTranslation();
@@ -37,7 +38,7 @@ const AddSteamIDContent = () => {
 				/>
 			}
 		>
-			<View style={{ paddingRight: 8, paddingLeft: 8 }}>
+			<ParagraphView>
 				<StyledText type={'ListItemSubTitleBold'}>{t('common:steamAchievements.addSteamIdDesc1')}</StyledText>
 				<Spacing />
 				<StyledText>{t('common:steamAchievements.addSteamIdDesc2')}</StyledText>
@@ -59,7 +60,7 @@ const AddSteamIDContent = () => {
 				<StyledText>{t('common:steamAchievements.addSteamIdDesc3')}</StyledText>
 				<Spacing />
 				<StyledText>{t('common:steamAchievements.addSteamIdDesc4')}</StyledText>
-			</View>
+			</ParagraphView>
 			<Image
 				style={{ width: 300, marginTop: -12 }}
 				source={require('@styles/images/steam-public-details.png')}

@@ -14,6 +14,7 @@ import KeyboardAvoidingScrollView from '@components/general/Lists/KeyboardAvoidi
 import { UserResponse } from '@utils/CustomTypes';
 import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
 import useIsLoading from '@data/api/hooks/useIsLoading.native';
+import ParagraphView from '@components/general/ParagraphView.native';
 
 const AccountVerification = () => {
 	const { t } = useTranslation();
@@ -52,9 +53,9 @@ const AccountVerification = () => {
 	return (
 		<StandardLayout isLoading={isLoading}>
 			<NavigationHeader id={UnauthorizedScreenEnum.AccountVerification} title={t('common:screens.verifyAccount')} leftAction='none' />
-			<View style={{ paddingLeft: 16, paddingRight: 16 }}>
+			<ParagraphView>
 				<StyledText>{t('common:login.accountVerification')}</StyledText>
-			</View>
+			</ParagraphView>
 			<KeyboardAvoidingScrollView awareView={renderAwareView()}>
 				<VerificationEntry
 					length={verificationToken?.length ?? 0}
