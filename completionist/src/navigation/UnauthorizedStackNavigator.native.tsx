@@ -1,6 +1,6 @@
 import React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
-import Login from '@screens/Login.native';
+import Login from '@screens/Login';
 import Landing from '@screens/Landing.native';
 import SelectFirstGame from '@screens/SelectFirstGame.native';
 import AccountVerification from '@screens/AccountVerification.native';

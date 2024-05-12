@@ -5,8 +5,6 @@ const mongoose = require('mongoose');
 const hashPassword = require('../helpers/hash_password');
 const comparePasswords = require('../helpers/compare_passwords');
 const request_codes = require('../helpers/request_codes');
-const { findUserByEmail } = require('../helpers/find_user');
-
 
 const createSignedToken = () => jwt.sign({ _id: new mongoose.Types.ObjectId() }, process.env.JWT_SECRET, {
 	expiresIn: "7d",

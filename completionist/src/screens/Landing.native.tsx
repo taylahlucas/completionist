@@ -1,24 +1,18 @@
 import React, { useRef } from 'react';
-import { View } from 'react-native';
-import StandardLayout from '../components/general/Layouts/StandardLayout.native';
 import LottieView from 'lottie-react-native';
+import useGetTheme from '@styles/hooks/useGetTheme';
+import { StandardLayoutContainer } from '@components/general/Layouts/StandardLayoutStyledComponents.native';
+import LoadingAnimation from '@components/animations/LoadingAnimation.native';
 
 const Landing = () => {
-  const animationRef = useRef<LottieView>(null);
+	const theme = useGetTheme();
+	const animationRef = useRef<LottieView>(null);
 
-  return (
-    <StandardLayout>
-      <View style={{ height: '90%', justifyContent: 'center', alignSelf: 'center' }}>
-        <LottieView
-          ref={animationRef}
-          style={{ width: 150, height: 150 }}
-          source={require('../styles/animations/tick.json')}
-          autoPlay
-          loop
-        />
-      </View>
-    </StandardLayout>
-  );
+	return (
+		<StandardLayoutContainer color={theme.black}>
+			<LoadingAnimation ref={animationRef} source={''} />
+		</StandardLayoutContainer>
+	);
 };
 
 export default Landing;

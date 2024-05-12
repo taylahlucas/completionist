@@ -13,6 +13,7 @@ import useEndpoints from '@data/api/hooks/useEndpoints.native';
 import KeyboardAvoidingScrollView from '@components/general/Lists/KeyboardAvoidingScrollView.native';
 import { UserResponse } from '@utils/CustomTypes';
 import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
+import useIsLoading from '@data/api/hooks/useIsLoading.native';
 
 const AccountVerification = () => {
 	const { t } = useTranslation();
@@ -21,6 +22,7 @@ const AccountVerification = () => {
 	const { saveUser } = useEditUserData();
 	const { signUp } = useEndpoints();
 	const [value, setValue] = useState<string>('');
+	const isLoading = useIsLoading();
 
 	const renderAwareView = (): JSX.Element => {
 		return (
@@ -48,7 +50,7 @@ const AccountVerification = () => {
 	};
 
 	return (
-		<StandardLayout>
+		<StandardLayout isLoading={isLoading}>
 			<NavigationHeader id={UnauthorizedScreenEnum.AccountVerification} title={t('common:screens.verifyAccount')} leftAction='none' />
 			<View style={{ paddingLeft: 16, paddingRight: 16 }}>
 				<StyledText>{t('common:login.accountVerification')}</StyledText>

@@ -1,5 +1,5 @@
 import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
-import { UnauthorizedScreenEnum, ScreenEnum } from '@utils/CustomEnums';
+import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
 import { User } from '@utils/CustomInterfaces';
 
 const useGetNavigationPath = () => {

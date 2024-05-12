@@ -18,6 +18,7 @@ import KeyboardAvoidingScrollView from '@components/general/Lists/KeyboardAvoidi
 import Condition from '@components/general/Condition.native';
 import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
 import useEditUserData from '@data/hooks/useEditUserData.native';
+import useIsLoading from '@data/api/hooks/useIsLoading.native';
 
 const SelectFirstGame = () => {
 	const theme = useGetTheme();
@@ -29,6 +30,7 @@ const SelectFirstGame = () => {
 	const [selectedGame, setSelectedGame] = useState<SubscriptionData>();
 	const { activateGameSubscription } = useActivateGameSubscription();
 	const { updateSignUpData } = useEditUserData();
+	const isLoading = useIsLoading();
 
 	const renderAwareView = () => (
 		<Button
@@ -52,7 +54,7 @@ const SelectFirstGame = () => {
 	);
 
 	return (
-		<StandardLayout>
+		<StandardLayout isLoading={isLoading}>
 			<NavigationHeader id={UnauthorizedScreenEnum.SelectFirstGame} title={t('common:screens.selectGame')} leftAction='none' />
 			<CustomSearchBar
 				searchValue={searchValue}

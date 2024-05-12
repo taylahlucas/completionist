@@ -4,7 +4,6 @@ import { listStyles, ListShowMoreButton } from './ListStyledComponents.native';
 import { renderAmountConst } from '@utils/constants'
 import Condition from '../Condition.native';
 import { useTranslation } from 'react-i18next';
-import useDetectKeyboard from '@utils/hooks/useDetectKeyboard.native';
 
 interface CustomListProps extends ScrollViewProps {
 	children: JSX.Element[];
@@ -30,7 +29,6 @@ const ScrollableList = React.forwardRef<ScrollView, CustomListProps>(({
 	const { t } = useTranslation();
 	const { bounces } = props;
 	const [updatedRenderAmount, setUpdatedRenderAmount] = useState(renderAmount);
-	const isKeyboardVisible = useDetectKeyboard();
 	// This handles autoScroll for dropdown lists to ensure the entire list is in view
 	const paddingBottom: number = contentContainerStyle?.paddingBottom as number ?? 80;
 	

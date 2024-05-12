@@ -1,7 +1,6 @@
 const jwt = require('jsonwebtoken');
 const User = require('../models/user');
 const request_codes = require('../helpers/request_codes');
-const { findUserById } = require('../helpers/find_user');
 
 const checkAuthToken = async (req) => {
 	const auth_header = req.headers["authorization"];
@@ -24,11 +23,11 @@ const getUserByUserId = async (req, res) => {
 	const isAuthorized = await checkAuthToken(req);
 	if (isAuthorized) {
 		try {
-			const user = await findUserById(res, req.params.userId);
+			const userId = req.params.userId;
+			const user = await User.findOne({ userId }).limit(10);
 			return res.status(request_codes.SUCCESS).json(user);
 
 		} catch (error) {
-			console.error('Error retrieving user:', error.message);
 			return res.status(request_codes.NO_USER_FOUND).json(error.message);
 		}
 	}
