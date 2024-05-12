@@ -32,51 +32,18 @@ import useAuth from './useAuth.native';
 import config from '@utils/config';
 import { requestCodes } from '@utils/constants';
 import useKeychain from '@data/hooks/useKeychain.native';
-import useMainDispatch from '@redux/hooks/useMainDispatch';
 
 const useEndpoints = (): EndpointsReturnType => {
 	const url = Platform.OS === 'ios'
 		? process.env.IOS_LOCAL_URL
 		: process.env.ANDROID_LOCAL_URL;
 	const { t } = useTranslation();
-	const { setShowSplashScreen } = useMainDispatch();
 	const { setAuthHeaders } = useAuth();
 	const { storeCredentials } = useKeychain();
 	const { handleAxiosError } = useHandleAxiosError();
 
-	// useEffect(() => {
-  //   const requestInterceptor = axios.interceptors.request.use((config) => {
-  //     setShowSplashScreen(true);
-  //     return config;
-  //   });
-
-  //   // Axios response interceptor to clear loading state on response
-  //   const responseInterceptor = axios.interceptors.response.use(
-  //     (response) => {
-	// 			console.log("-FALSE-2")
-  //       setShowSplashScreen(false);
-  //       return response;
-  //     },
-  //     (error) => {
-	// 			console.log("-FALSE-2")
-  //       setShowSplashScreen(false);
-	// 			return;
-  //     }
-  //   );
-
-  //   // Cleanup function to remove interceptors when component unmounts
-  //   return () => {
-	// 		console.log("-FALSE-3")
-  //     axios.interceptors.request.eject(requestInterceptor);
-  //     axios.interceptors.response.eject(responseInterceptor);
-  //   };
-  // }, []);
-
 	// TODO: Add axios caching https://www.npmjs.com/package/axios-cache-adapter
 	const checkUserExists = async (email: string): Promise<CredentialsExistProps> => {
-		axios.post('')
-			.then(() => {})
-			
 		try {
 			const response = await axios.post(`${url}/${checkUserExistsUrl}`,
 				{

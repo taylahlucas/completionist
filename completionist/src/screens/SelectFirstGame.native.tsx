@@ -19,6 +19,7 @@ import Condition from '@components/general/Condition.native';
 import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
 import useEditUserData from '@data/hooks/useEditUserData.native';
 import useIsLoading from '@data/api/hooks/useIsLoading.native';
+import ParagraphView from '@components/general/ParagraphView.native';
 
 const SelectFirstGame = () => {
 	const theme = useGetTheme();
@@ -31,6 +32,7 @@ const SelectFirstGame = () => {
 	const { activateGameSubscription } = useActivateGameSubscription();
 	const { updateSignUpData } = useEditUserData();
 	const isLoading = useIsLoading();
+	const filteredGames = filterGameList(user.subscription.data, false, getFormattedSearchString(searchValue));
 
 	const renderAwareView = () => (
 		<Button
@@ -55,7 +57,7 @@ const SelectFirstGame = () => {
 
 	return (
 		<StandardLayout isLoading={isLoading}>
-			<NavigationHeader id={UnauthorizedScreenEnum.SelectFirstGame} title={t('common:screens.selectGame')} leftAction='none' />
+			<NavigationHeader id={UnauthorizedScreenEnum.SelectFirstGame} title={t('common:screens.selectGame')} leftAction='back' />
 			<CustomSearchBar
 				searchValue={searchValue}
 				setSearchValue={(value: string): void => setSearchValue(value)}
@@ -63,14 +65,19 @@ const SelectFirstGame = () => {
 			/>
 			<KeyboardAvoidingScrollView awareView={renderAwareView()}>
 				<Condition condition={searchValue.length === 0}>
-					<StyledText>{t('common:selectGame.selectGameDesc1')}</StyledText>
-					<Spacing />
-					<StyledText>{t('common:selectGame.selectGameDesc2')}</StyledText>
-					<Spacing />
-					<StyledText type='ListItemSubTitleItalic'>{t('common:selectGame.selectGameDesc3')}</StyledText>
+					<ParagraphView>
+						<StyledText>{t('common:selectGame.selectGameDesc1')}</StyledText>
+						<Spacing />
+						<StyledText>{t('common:selectGame.selectGameDesc2')}</StyledText>
+						<Spacing />
+						<StyledText type='ListItemSubTitleItalic'>{t('common:selectGame.selectGameDesc3')}</StyledText>
+					</ParagraphView>
 				</Condition>
-				<SelectFirstGameContentContainer>
-					{filterGameList(user.subscription.data, false, getFormattedSearchString(searchValue)).map((game, index) => (
+				<SelectFirstGameContentContainer style={{
+					justifyContent: filteredGames.length === 1 ? 'flex-start' : 'center',
+					paddingLeft: filteredGames.length === 1 ? 6 : 0
+				}}>
+					{filteredGames.map((game, index) => (
 						<GameListItem
 							key={index}
 							game={game}

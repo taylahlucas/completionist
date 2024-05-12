@@ -1,5 +1,6 @@
 import styled from 'styled-components/native';
 import Button from '@components/general/Button/Button.native';
+import { LARGE_WIDTH } from '@styles/global.native';
 
 export const LoginContentContainer = styled.View`
   align-items: center;
@@ -24,7 +25,8 @@ export const LoginFormFooterContainer = styled.View`
 
 export const SelectFirstGameContentContainer = styled.View`
 	flex-direction: row;
-	flex-wrap: wrap;
 	margin-top: 16px;
-	justify-content: center;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	width: ${LARGE_WIDTH}px;
 `;

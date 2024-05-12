@@ -22,6 +22,7 @@ import Icon from '@components/general/Icon/Icon.native';
 import SubscriptionOptionsList from './SubscriptionOptionsList.native';
 import useSubscriptionState from './hooks/useContentState';
 import { AuthScreenEnum } from '@utils/CustomEnums';
+import ParagraphView from '@components/general/ParagraphView.native';
 
 const SubscriptionContent = () => {
 	const { t } = useTranslation();
@@ -65,9 +66,11 @@ const SubscriptionContent = () => {
 		<KeyboardAvoidingScrollView
 			awareView={renderAwareView()}
 		>
-			<StyledText>
-				{t('common:subscriptions.subscriptionDesc')}
-			</StyledText>
+			<ParagraphView>
+				<StyledText>
+					{t('common:subscriptions.subscriptionDesc')}
+				</StyledText>
+			</ParagraphView>
 			<SubscriptionFeatureListContainer>
 				{featureList.map(item => (
 					<SubscriptionFeatureListInnerContainer key={item.id}>

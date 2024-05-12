@@ -52,7 +52,7 @@ const AccountVerification = () => {
 
 	return (
 		<StandardLayout isLoading={isLoading}>
-			<NavigationHeader id={UnauthorizedScreenEnum.AccountVerification} title={t('common:screens.verifyAccount')} leftAction='none' />
+			<NavigationHeader id={UnauthorizedScreenEnum.AccountVerification} title={t('common:screens.verifyAccount')} leftAction='back' />
 			<ParagraphView>
 				<StyledText>{t('common:login.accountVerification')}</StyledText>
 			</ParagraphView>
