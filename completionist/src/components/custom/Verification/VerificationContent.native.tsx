@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Alert } from 'react-native';
 import { useTranslation } from 'react-i18next';
 import Button from '@components/general/Button/Button.native';
 import VerificationEntry from '@components/general/VerificationEntry/VerificationEntry.native';
@@ -12,13 +13,12 @@ import useSendVerificationEmail from '@components/custom/LoginForm/hooks/useSend
 interface VerificationContentProps {
 	email: string;
 	token: string;
-	value: string;
-	setValue: (value: string) => void;
-	action: () => void;
+	action: () => void | Promise<void>;
 }
 
-const VerificationContent = ({ email, token, value = '', setValue, action }: VerificationContentProps) => {
+const VerificationContent = ({ email, token, action }: VerificationContentProps) => {
 	const { t } = useTranslation();
+	const [value, setValue] = useState<string>('');
 	const sendVerificationEmail = useSendVerificationEmail();
 
 	const renderAwareView = (): JSX.Element => {
@@ -27,7 +27,17 @@ const VerificationContent = ({ email, token, value = '', setValue, action }: Ver
 				title={t('common:continue')}
 				type='footer'
 				disabled={value.length !== token?.length}
-				onPress={action}
+				onPress={(): void => {
+					if (value === token) {
+						action();
+					}
+					else {
+						Alert.alert(
+							t('common:errors.incorrectCode'),
+							t('common:errors.incorrectCodeDesc'),
+						);
+					}
+				}}
 			/>
 		);
 	};

@@ -18,24 +18,7 @@ const AccountVerification = () => {
 	const { setVerificationToken } = useLoginDispatch();
 	const { saveUser } = useEditUserData();
 	const { signUp } = useEndpoints();
-	const [value, setValue] = useState<string>('');
 	const isLoading = useIsLoading();
-
-	const action = (): void => {
-		if (value === verificationToken) {
-			signUp({ data: loginFormData })
-				.then((userResponse: UserResponse) => {
-					if (userResponse) {
-						saveUser(userResponse);
-						setVerificationToken(undefined);
-					}
-				});
-		}
-		else {
-			// TODO: Display differently
-			Alert.alert('Incorrect code', 'The code you have entered is incorrect. Please try again');
-		}
-	};
 
 	return (
 		<StandardLayout isLoading={isLoading}>
@@ -43,9 +26,13 @@ const AccountVerification = () => {
 			<VerificationContent
 				email={loginFormData.email}
 				token={verificationToken ?? ''}
-				value={value}
-				setValue={setValue}
-				action={action}
+				action={() => signUp({ data: loginFormData })
+					.then((userResponse: UserResponse) => {
+						if (userResponse) {
+							saveUser(userResponse);
+							setVerificationToken(undefined);
+						}
+					})}
 			/>
 		</StandardLayout>
 	);

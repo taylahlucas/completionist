@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import { Alert } from 'react-native';
+import React from 'react';
 import { useTranslation } from 'react-i18next';
 import StandardLayout from '@components/general/Layouts/StandardLayout.native';
 import NavigationHeader from '@navigation/NavigationHeader.native';
@@ -18,26 +17,6 @@ const LinkAccount = () => {
 	const { setVerificationToken } = useLoginDispatch();
 	const { saveUser } = useEditUserData();
 	const { linkAndSignIn } = useEndpoints();
-	const [value, setValue] = useState<string>('');
-
-	const action = (): void => {
-		if (value === verificationToken) {
-			linkAndSignIn({
-				email: loginFormData.email,
-				password: loginFormData.password
-			})
-				.then((userResponse: UserResponse) => {
-					if (userResponse) {
-						saveUser(userResponse);
-						setVerificationToken(undefined);
-					}
-				})
-		}
-		else {
-			// TODO: Display differently
-			Alert.alert('Incorrect code', 'The code you have entered is incorrect. Please try again');
-		}
-	};
 
 	return (
 		<StandardLayout>
@@ -45,9 +24,17 @@ const LinkAccount = () => {
 			<VerificationContent
 				email={loginFormData.email}
 				token={verificationToken ?? ''}
-				value={value}
-				setValue={setValue}
-				action={action}
+				action={(): Promise<void> => linkAndSignIn({
+						email: loginFormData.email,
+						password: loginFormData.password
+					})
+					.then((userResponse: UserResponse) => {
+						if (userResponse) {
+							saveUser(userResponse);
+							setVerificationToken(undefined);
+						}
+					})
+				}
 			/>
 		</StandardLayout>
 	);

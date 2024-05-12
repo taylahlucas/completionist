@@ -2774,6 +2774,8 @@
       },
       "errors": {
         "error": "Error",
+        "incorrectCode": "Incorrect Code",
+        "incorrectCodeDesc": "The code you have entered is incorrect. \nPlease try again.",
         "pleaseRefreshApp": "Please refresh the app",
         "emailAlreadyExists": "Email already exists",
         "emailNotFound": "Email Not Found",
