@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { ViewStyle } from 'react-native';
+import { useTranslation } from 'react-i18next';
 import Dropdown from '@components/general/Dropdown/Dropdown.native';
 import { SettingsListItem } from '@utils/CustomInterfaces';
 import useGetUserGameData from '@data/hooks/useGetUserGameData';
@@ -19,13 +20,13 @@ import useMainState from '@redux/hooks/useMainState';
 import CheckBox from '@components/general/Checkbox/CheckBox.native';
 import useUpdateGameSettings from './hooks/useUpdateGameSettings';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
-import { useTranslation } from 'react-i18next';
 
 interface SettingsItemDropdownProps {
 	item: SettingsListItem;
+	triggerListOpen: (value: boolean) => void;
 }
 
-const SettingsItemDropdown = ({ item }: SettingsItemDropdownProps) => {
+const SettingsItemDropdown = ({ item, triggerListOpen }: SettingsItemDropdownProps) => {
 	const { t } = useTranslation();
 	const theme = useGetTheme();
 	const { selectedGameSettings, user } = useMainState();
@@ -35,6 +36,7 @@ const SettingsItemDropdown = ({ item }: SettingsItemDropdownProps) => {
 	const { getUserSettingsSubConfig, getUserSettingsDLC } = useGetUserGameData();
 	const { translateCategoryName, translateDLCName } = useTranslateGameContent();
 	const updateGameSettings = useUpdateGameSettings();
+	const isOpen = item.id === selectedCategory.category;
 
 	const renderSettingsCheckbox = (item: SettingsListItem, style?: ViewStyle) => {
 		return (
@@ -49,12 +51,16 @@ const SettingsItemDropdown = ({ item }: SettingsItemDropdownProps) => {
 		)
 	};
 
+	useEffect(() => {
+		triggerListOpen(isOpen);
+	}, [isOpen])
+
 	return (
 		<Dropdown
-			isOpen={item.id === selectedCategory.category}
+			isOpen={isOpen}
 			setOpen={(): void => setSelectedCategory({
 				...selectedCategory,
-				category: item.id === selectedCategory.category ? '' : item.id
+				category: isOpen ? '' : item.id
 			})}
 			header={
 				<SettingsMainItem color={theme.darkGrey}>
@@ -75,8 +81,7 @@ const SettingsItemDropdown = ({ item }: SettingsItemDropdownProps) => {
 						<SettingsTitle color={theme.lightGrey} align='left'>
 							{translateCategoryName(selectedGameSettings, item.id, settingsItem.id)}
 						</SettingsTitle>
-						{renderSettingsCheckbox(settingsItem, { marginRight: 20 })}
-						{/* <SettingsCheckbox style={{ marginRight: 20 }} item={settingsItem} /> */}
+						{renderSettingsCheckbox(settingsItem, { marginRight: 8 })}
 					</SettingsSubItemContainer>
 				))
 					.concat(
@@ -85,8 +90,7 @@ const SettingsItemDropdown = ({ item }: SettingsItemDropdownProps) => {
 								<SettingsTitle color={theme.lightGrey} align='left'>
 									{translateDLCName(selectedGameSettings, dlcItem.id)}
 								</SettingsTitle>
-								{/* <SettingsCheckbox item={dlcItem} /> */}
-								{renderSettingsCheckbox(dlcItem)}
+								{renderSettingsCheckbox(dlcItem, { marginRight: 8 })}
 							</SettingsSubItemContainer>
 						))
 					)}

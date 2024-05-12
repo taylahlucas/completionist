@@ -1,4 +1,4 @@
-import React, { useRef, useState, } from 'react';
+import React, { useRef, useState } from 'react';
 import { ScrollView, Text as RNText } from 'react-native';
 import { useTranslation } from 'react-i18next';
 import StandardLayout from '@components/general/Layouts/StandardLayout.native';
@@ -9,14 +9,11 @@ import useSettingsOptionsOnPress from '@components/custom/Settings/hooks/useSett
 import useHandleScroll from '@utils/hooks/useHandleScroll.native';
 import ScrollableList from '@components/general/Lists/ScrollableList.native';
 import SettingsAccountDetails from '@components/custom/Settings/SettingsAccountDetails.native';
-import { SettingsDescription, SettingsCollectionList } from '@components/custom/Settings/SettingsStyledComponents.native';
-import SettingsSelectionDropdown from '@components/custom/Settings/SettingsSelectionDropdown.native';
+import { SettingsDescription } from '@components/custom/Settings/SettingsStyledComponents.native';
 import SelectionList from '@components/general/Lists/SelectionList.native';
 import SettingsSelectLanguage from '@components/custom/Settings/SettingsSelectLanguage.native';
-import SettingsItemDropdown from '@components/custom/Settings/SettingsItemDropdown.native';
-import { SettingsListItem } from '@utils/CustomInterfaces';
-import useGetUserGameData from '@data/hooks/useGetUserGameData';
 import { AuthScreenEnum } from '@utils/CustomEnums';
+import SettingsGameCollections from '@components/custom/Settings/SettingsGameCollections.native';
 
 const Settings = () => {
 	const { t } = useTranslation();
@@ -27,8 +24,7 @@ const Settings = () => {
 	const { setSettingsOptionsOnPress } = useSettingsOptionsOnPress();
 	const [isLanguagesOpen, setLanguagesOpen] = useState<boolean>(false);
 	const handleScroll = useHandleScroll();
-	const { getUserSettingsMainConfig } = useGetUserGameData();
-
+	
 	return (
 		<StandardLayout>
 			<NavigationHeader id={AuthScreenEnum.Settings} title={t('common:screens.settings')} />
@@ -39,15 +35,7 @@ const Settings = () => {
 				<SettingsAccountDetails />
 
 				{/* Enable/Disable game collections */}
-				<SettingsDescription align='left'>
-					{t('common:settings.setCollections')}
-				</SettingsDescription>
-				<SettingsSelectionDropdown />
-				<SettingsCollectionList>
-					{getUserSettingsMainConfig().map((item: SettingsListItem, index: number) => (
-						<SettingsItemDropdown key={index} item={item} />
-					))}
-				</SettingsCollectionList>
+				<SettingsGameCollections />
 
 				{/* Enable/Disable DLC */}
 				<SettingsDescription align='left'>

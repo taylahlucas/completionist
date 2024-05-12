@@ -1,4 +1,4 @@
-import { StyleSheet } from 'react-native';
+import { StyleSheet, Animated } from 'react-native';
 import styled from 'styled-components/native';
 import StyledText from '@components/general/Text/StyledText.native';
 import { DEFAULT_BORDER_RADIUS, SMALL_WIDTH, STANDARD_WIDTH, SMALL_PADDING, MID_PADDING, windowWidth } from '@styles/global.native';
@@ -32,7 +32,7 @@ export const SettingsDescription = styled(StyledText)`
 	padding-bottom: ${SMALL_PADDING}px;
 `;
 
-export const SettingsCollectionList = styled.View`
+export const SettingsCollectionList = styled(Animated.View)`
   width: ${STANDARD_WIDTH}px;
   margin-top: ${MID_PADDING}px;
   border-width: 1px;
@@ -49,7 +49,7 @@ export const SettingsMainItem = styled.View<SettingsMainItemProps>`
   justify-content: space-evenly;
   height: 40px;
   padding: ${SMALL_PADDING}px;
-  margin-right: 24px;
+  margin-right: ${SMALL_PADDING}px;
   border-bottom-width: 1px;
   border-bottom-color: ${(props): string => props.color};
 `;
