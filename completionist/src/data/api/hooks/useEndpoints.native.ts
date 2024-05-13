@@ -15,7 +15,8 @@ import {
 	sendEmailUrl,
 	steamUserByIdUrl,
 	steamPlayerAchievementsUrl,
-	steamAchievementsByIdUrl
+	steamAchievementsByIdUrl,
+	changePwUrl
 } from '../../urls';
 import {
 	SignUpProps,
@@ -25,7 +26,8 @@ import {
 	EmailProps,
 	EndpointsReturnType,
 	CredentialsExistProps,
-	UpdateSignUpProps
+	UpdateSignUpProps,
+	ChangePwProps
 } from '@data/api/EndpointInterfaces.native';
 import useHandleAxiosError from './useHandleAxiosError';
 import useAuth from './useAuth.native';
@@ -104,6 +106,7 @@ const useEndpoints = (): EndpointsReturnType => {
 			}
 		}
 		catch (error: AxiosErrorResponse) {
+			console.log("HERE: ", error.response)
 			handleAxiosError(error.response.status);
 		}
 	};
@@ -186,6 +189,23 @@ const useEndpoints = (): EndpointsReturnType => {
 			handleAxiosError(error.response?.status);
 		}
 	};
+
+	const changePw = async ({ authToken, userId, oldPw, newPw }: ChangePwProps) => {
+		try {
+			await axios.patch(`${url}/${changePwUrl}/${userId}`,
+				{
+					oldPw,
+					newPw
+				},
+				setAuthHeaders(authToken)
+			);
+			Alert.alert('Password successfully updated.')
+			return;
+		}
+		catch (error: AxiosErrorResponse) {
+			handleAxiosError(error.response?.status);
+		}
+	}
 
 	// TODO: Split to sendVerificationEmail and sendRequestEmail where sendRequestEmail uses setAuthHeaders?
 	const sendEmail = async ({ emailTo, subject, text }: EmailProps): Promise<void> => {		
@@ -275,6 +295,7 @@ const useEndpoints = (): EndpointsReturnType => {
 		getUserByUserId,
 		updateUser,
 		updateSignUp,
+		changePw,
 		sendEmail,
 		getSteamUserById,
 		getSteamPlayerAchievements,

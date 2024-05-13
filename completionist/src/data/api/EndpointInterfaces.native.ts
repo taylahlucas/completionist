@@ -45,6 +45,13 @@ export interface UpdateSignUpProps {
 	signup: SignupData;
 }
 
+export interface ChangePwProps {
+	authToken: string;
+	userId: string;
+	oldPw: string;
+	newPw: string;
+}
+
 export interface EndpointsReturnType {
 	checkUserExists: (email: string) => Promise<CredentialsExistProps>;
 	linkAndSignIn: ({ email, password, googleId }: SignInProps) => Promise<UserResponse>;
@@ -53,6 +60,7 @@ export interface EndpointsReturnType {
 	getUserByUserId: ({ authToken, userId }: GetUserByUserIdProps) => Promise<UserResponse>;
 	updateUser: ({ authToken, userId, name, email, steamId, subscription, settings, userAvatar, data }: UpdateUserProps) => Promise<UserResponse>;
 	updateSignUp: ({ authToken, userId, signup }: UpdateSignUpProps) => Promise<void>;
+	changePw: ({ authToken, userId, oldPw, newPw }: ChangePwProps) => Promise<void>;
 	sendEmail: ({ emailTo, subject, text }: EmailProps) => Promise<void>;
 	getSteamUserById: (appId: string, steamId: string) => Promise<StringResponse>;
 	getSteamPlayerAchievements: (appId: string, steamId: string) => Promise<any>;

@@ -1,6 +1,8 @@
 const jwt = require('jsonwebtoken');
 const User = require('../models/user');
 const request_codes = require('../helpers/request_codes');
+const hashPassword = require('../helpers/hash_password');
+const comparePasswords = require('../helpers/compare_passwords');
 
 const checkAuthToken = async (req) => {
 	const auth_header = req.headers["authorization"];
@@ -97,8 +99,52 @@ const updateUser = async (req, res) => {
 	}
 };
 
+const changePassword = async (req, res) => {
+	const isAuthorized = await checkAuthToken(req);
+	if (isAuthorized) {
+		try {
+			const userId = req.params.userId;
+			const { oldPw, newPw } = req.body;
+			const user = await User.findOne({ userId }).limit(10);
+
+			if (!user) {
+				return res.status(request_codes.NO_USER_FOUND).json({ error: "No user found." });
+			}
+
+			// Compare given password
+			if (user.password && oldPw) {
+				const match = await comparePasswords(oldPw, user.password);
+				if (!match) {
+					return res.status(request_codes.WRONG_PASSWORD).json({
+						error: "Wrong password",
+					});
+				}
+			}
+
+			// Hash new password
+			let hashedPassword = '';
+			if (newPw) {
+				hashedPassword = await hashPassword(newPw)
+			}
+
+			await User.findOneAndUpdate(
+				{ 'userId': userId },
+				{
+					password: hashedPassword
+				}
+			);
+			return res.status(request_codes.SUCCESS).json({ ok: true });
+		}
+		catch (error) {
+			console.log("Error updating user: ", error.message);
+			return res.status(request_codes.FAILURE).json(error.message);
+		}
+	}
+};
+
 module.exports = {
 	getUserByUserId,
 	updateUser,
-	updateSignUp
+	updateSignUp,
+	changePassword
 }

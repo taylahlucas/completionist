@@ -14,6 +14,7 @@ interface EditUserDataReturnType {
 	saveUser: (user: User) => void;
 	updateUserData: (user: User) => void;
 	updateSignUpData: (user: User) => void;
+	changeUserPw: (userId: string, oldPw: string, newPw: string) => void;
 	removeUserData: () => void;
 }
 
@@ -23,7 +24,7 @@ const useEditUserData = (): EditUserDataReturnType => {
 	const { setLoginFormData, setLoggedIn, setIsAuthenticated } = useLoginDispatch();
 	const { fetchUserFromCache, saveToCache, clearCache } = useCache();
 	const { getCredentials, deleteCredentials } = useKeychain();
-	const { getUserByUserId, updateUser, updateSignUp } = useEndpoints();
+	const { getUserByUserId, updateUser, updateSignUp, changePw } = useEndpoints();
 	const getAuthNavigationPath = useGetNavigationPath();
 
 	const loadUserFromCache = async () => {
@@ -90,6 +91,20 @@ const useEditUserData = (): EditUserDataReturnType => {
 			})
 	}
 
+	const changeUserPw = async (userId: string, oldPw: string, newPw: string) => {
+		await getCredentials()
+			.then((credentials) => {
+				if (!!credentials) {
+					changePw({
+						authToken: credentials.password,
+						userId: userId,
+						oldPw: oldPw,
+						newPw: newPw
+					});
+				}
+			})
+	}
+
 	const removeUserData = () => {
 		setIsAuthenticated(false);
 		setUser(initialUser);
@@ -103,6 +118,7 @@ const useEditUserData = (): EditUserDataReturnType => {
 		saveUser,
 		updateSignUpData,
 		updateUserData,
+		changeUserPw,
 		removeUserData, 
 		loadUserFromCache 
 	};
