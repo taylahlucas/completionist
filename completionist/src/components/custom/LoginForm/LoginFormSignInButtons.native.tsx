@@ -11,15 +11,16 @@ import StyledText from '@components/general/Text/StyledText.native';
 import Condition from '@components/general/Condition.native';
 import useValidator from '@utils/hooks/useValidator';
 import useSendVerificationEmail from './hooks/useSendVerificationEmail';
-import useEndpoints from '@data/api/hooks/useEndpoints.native';
+import useAuthEndpoints from '@data/api/hooks/useAuthEndpoints.native';
 
 const LoginFormSignInButtons = () => {
 	const { t } = useTranslation();
 	const { checkUserAccount, googleUserSignIn } = useGetLoginMethods();
 	const { triggerIsSigningUp } = useLoginDispatch();
+	// TODO: Fix this
 	const sendVerificationEmail = useSendVerificationEmail();
 	const { loginFormData, isSigningUp } = useLoginState();
-	const { checkUserExists } = useEndpoints();
+	const { checkUserExists } = useAuthEndpoints();
 	const { isEmailValid, isPwValid, isNameValid } = useValidator();
 	const isLoginDisabled = !isEmailValid(loginFormData.email) || !isPwValid(loginFormData.password ?? '') || 
 	(isSigningUp 

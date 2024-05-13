@@ -1,14 +1,8 @@
 import { Alert, Platform } from 'react-native';
-import uuid from 'react-native-uuid';
-import axios from 'axios';
 import { useTranslation } from 'react-i18next';
 import { SteamAchievement, SteamPlayerAchievement, User } from '@utils/CustomInterfaces';
 import { AxiosErrorResponse, StringResponse, UserResponse } from '@utils/CustomTypes';
 import {
-	checkUserExistsUrl,
-	linkAndSignInUrl,
-	signupUrl,
-	signinUrl,
 	getUserByUserIdUrl,
 	updateUserUrl,
 	updateSignUpUrl,
@@ -19,126 +13,31 @@ import {
 	changePwUrl
 } from '../../urls';
 import {
-	SignUpProps,
-	SignInProps,
 	GetUserByUserIdProps,
 	UpdateUserProps,
-	EmailProps,
+	SendEmailProps,
 	EndpointsReturnType,
-	CredentialsExistProps,
 	UpdateSignUpProps,
 	ChangePwProps
 } from '@data/api/EndpointInterfaces.native';
 import useHandleAxiosError from './useHandleAxiosError';
-import useAuth from './useAuth.native';
 import config from '@utils/config';
 import { requestCodes } from '@utils/constants';
-import useKeychain from '@data/hooks/useKeychain.native';
+import useAuthInterceptor from './useAuthInterceptor.native';
 
 const useEndpoints = (): EndpointsReturnType => {
 	const url = Platform.OS === 'ios'
 		? process.env.IOS_LOCAL_URL
 		: process.env.ANDROID_LOCAL_URL;
 	const { t } = useTranslation();
-	const { setAuthHeaders } = useAuth();
-	const { storeCredentials } = useKeychain();
 	const { handleAxiosError } = useHandleAxiosError();
+	const authInterceptor = useAuthInterceptor();
 
 	// TODO: Add axios caching https://www.npmjs.com/package/axios-cache-adapter
-	const checkUserExists = async (email: string): Promise<CredentialsExistProps> => {
+	const getUserByUserId = async ({ userId }: GetUserByUserIdProps): Promise<UserResponse> => {
 		try {
-			const response = await axios.post(`${url}/${checkUserExistsUrl}`,
-				{
-					email: email.toLocaleLowerCase(),
-				}
-			);
-			return response.data as CredentialsExistProps;
-		}
-		catch(error: AxiosErrorResponse){
-			return {
-				regular: false,
-				google: false
-			};
-		}
-	}
-
-	const signUp = async ({ data }: SignUpProps): Promise<UserResponse> => {
-		try {
-			const response = await axios.post(`${url}/${signupUrl}`,
-				{
-					userId: data.userId ? data.userId : uuid.v4(),
-					name: data.name,
-					email: data.email.toLocaleLowerCase(),
-					googleId: data.googleId ?? '',
-					password: data.password ?? '',
-					userAvatar: data.userAvatar
-				}
-			);
-			if (!!response.data.token) {
-				storeCredentials({
-					username: response.data.user.userId,
-					password: response.data.token
-				});
-				return response.data.user as User;
-			}
-		}
-		catch (error: AxiosErrorResponse) {
-			handleAxiosError(error.response.status);
-		};
-	}
-
-	const signIn = async ({ email, password, googleId }: SignInProps): Promise<UserResponse> => {
-		try {
-			const response = await axios.post(`${url}/${signinUrl}`,
-				{
-					email: email.toLocaleLowerCase(),
-					password: password,
-					googleId: googleId
-				}
-			);
-			if (!!response.data.user && !!response.data.token) {
-				const credentialsResponse = {
-					username: response.data.user.userId,
-					password: response.data.token
-				}
-				storeCredentials(credentialsResponse);
-				return response.data.user as UserResponse;
-			}
-		}
-		catch (error: AxiosErrorResponse) {
-			console.log("HERE: ", error.response)
-			handleAxiosError(error.response.status);
-		}
-	};
-
-	const linkAndSignIn = async ({ email, password, googleId }: SignInProps): Promise<UserResponse> => {
-		try {
-			const response = await axios.patch(`${url}/${linkAndSignInUrl}`,
-				{
-					email: email.toLocaleLowerCase(),
-					password: password,
-					googleId: googleId
-				}
-			);
-			if (!!response.data.user && !!response.data.token) {
-				const credentialsResponse = {
-					username: response.data.user.userId,
-					password: response.data.token
-				}
-				storeCredentials(credentialsResponse);
-				return response.data.user as UserResponse;
-			}
-		}
-		catch (error: AxiosErrorResponse) {
-			handleAxiosError(error.response.status);
-		}
-	}
-
-	const getUserByUserId = async ({ authToken, userId }: GetUserByUserIdProps): Promise<UserResponse> => {
-		try {
-			const response = await axios.get(
-				`${url}/${getUserByUserIdUrl}/${userId}`,
-				setAuthHeaders(authToken)
+			const response = await authInterceptor.get(
+				`${url}/${getUserByUserIdUrl}/${userId}`
 			);
 			if (!!response.data) {
 				return response.data as User;
@@ -150,9 +49,9 @@ const useEndpoints = (): EndpointsReturnType => {
 		}
 	};
 
-	const updateUser = async ({ authToken, userId, name, email, steamId, subscription, settings, userAvatar, data }: UpdateUserProps): Promise<UserResponse> => {
+	const updateUser = async ({ userId, name, email, steamId, subscription, settings, userAvatar, data }: UpdateUserProps): Promise<UserResponse> => {
 		try {
-			await axios.patch(
+			await authInterceptor.patch(
 				`${url}/${updateUserUrl}/${userId}`,
 				{
 					name: name,
@@ -162,8 +61,7 @@ const useEndpoints = (): EndpointsReturnType => {
 					settings: settings,
 					userAvatar: userAvatar,
 					data: data
-				},
-				setAuthHeaders(authToken)
+				}
 			);
 			return;
 		}
@@ -172,16 +70,15 @@ const useEndpoints = (): EndpointsReturnType => {
 		}
 	};
 
-	const updateSignUp = async ({ authToken, userId, signup }: UpdateSignUpProps): Promise<void> => {
+	const updateSignUp = async ({ userId, signup }: UpdateSignUpProps): Promise<void> => {
 		try {
-			await axios.patch(
+			await authInterceptor.patch(
 				`${url}/${updateSignUpUrl}/${userId}`,
 				{
 					verification: signup.verification,
 					selectPlan: signup.selectPlan,
 					selectGame: signup.selectGame
-				},
-				setAuthHeaders(authToken)
+				}
 			);
 			return;
 		}
@@ -190,14 +87,13 @@ const useEndpoints = (): EndpointsReturnType => {
 		}
 	};
 
-	const changePw = async ({ authToken, userId, oldPw, newPw }: ChangePwProps) => {
+	const changePw = async ({ userId, oldPw, newPw }: ChangePwProps) => {
 		try {
-			await axios.patch(`${url}/${changePwUrl}/${userId}`,
+			await authInterceptor.patch(`${url}/${changePwUrl}/${userId}`,
 				{
 					oldPw,
 					newPw
-				},
-				setAuthHeaders(authToken)
+				}
 			);
 			Alert.alert('Password successfully updated.')
 			return;
@@ -206,18 +102,16 @@ const useEndpoints = (): EndpointsReturnType => {
 			handleAxiosError(error.response?.status);
 		}
 	}
-
-	// TODO: Split to sendVerificationEmail and sendRequestEmail where sendRequestEmail uses setAuthHeaders?
-	const sendEmail = async ({ emailTo, subject, text }: EmailProps): Promise<void> => {		
+	
+	const sendEmail = async ({ emailTo, subject, text }: SendEmailProps): Promise<void> => {		
 		try {
-			await axios.post(
+			await authInterceptor.post(
 				`${url}/${sendEmailUrl}`,
 				{
 					to: emailTo,
 					subject: subject,
 					text: text
-				},
-				// setAuthHeaders(authToken)
+				}
 			);
 			return;
 		}
@@ -228,7 +122,7 @@ const useEndpoints = (): EndpointsReturnType => {
 
 	const getSteamUserById = async (appId: string, steamId: string): Promise<StringResponse> => {
 		try {
-			const response = await axios.get(
+			const response = await authInterceptor.get(
 				`${steamUserByIdUrl}${appId}&key=${config.steamApiToken}&steamid=${steamId}`
 			);
 
@@ -247,7 +141,7 @@ const useEndpoints = (): EndpointsReturnType => {
 
 	const getSteamPlayerAchievements = async (appId: string, steamId: string): Promise<SteamPlayerAchievement | void> => {
 		try {
-			const response = await axios.get(
+			const response = await authInterceptor.get(
 				`${steamPlayerAchievementsUrl}${appId}&key=${config.steamApiToken}&steamid=${steamId}`
 			);
 
@@ -276,7 +170,7 @@ const useEndpoints = (): EndpointsReturnType => {
 
 	const getSteamAchievementsById = async (appId: string): Promise<(SteamAchievement[] | void)> => {
 		try {
-			const response = await axios.get(
+			const response = await authInterceptor.get(
 				`${steamAchievementsByIdUrl}${config.steamApiToken}&appid=${appId}&l=english&format=json`
 			);
 
@@ -288,10 +182,6 @@ const useEndpoints = (): EndpointsReturnType => {
 	};
 
 	return {
-		checkUserExists,
-		linkAndSignIn,
-		signIn,
-		signUp,
 		getUserByUserId,
 		updateUser,
 		updateSignUp,

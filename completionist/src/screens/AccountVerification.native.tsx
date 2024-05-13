@@ -1,12 +1,11 @@
-import React, { useState } from 'react';
-import { Alert } from 'react-native';
+import React from 'react';
 import { useTranslation } from 'react-i18next';
 import StandardLayout from '@components/general/Layouts/StandardLayout.native';
 import NavigationHeader from '@navigation/NavigationHeader.native';
 import useLoginState from '@components/custom/LoginForm/hooks/useLoginState';
 import useLoginDispatch from '@components/custom/LoginForm/hooks/useLoginDispatch';
 import useEditUserData from '@data/hooks/useEditUserData.native';
-import useEndpoints from '@data/api/hooks/useEndpoints.native';
+import useAuthEndpoints from '@data/api/hooks/useAuthEndpoints.native';
 import { UserResponse } from '@utils/CustomTypes';
 import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
 import useIsLoading from '@data/api/hooks/useIsLoading.native';
@@ -17,7 +16,7 @@ const AccountVerification = () => {
 	const { loginFormData, verificationToken } = useLoginState();
 	const { setVerificationToken } = useLoginDispatch();
 	const { saveUser } = useEditUserData();
-	const { signUp } = useEndpoints();
+	const { signUp } = useAuthEndpoints();
 	const isLoading = useIsLoading();
 
 	return (

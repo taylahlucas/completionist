@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import { GoogleSignin } from '@react-native-google-signin/google-signin';
 import auth from '@react-native-firebase/auth';
-import useEndpoints from '@data/api/hooks/useEndpoints.native';
+import useAuthEndpoints from '@data/api/hooks/useAuthEndpoints.native';
 import { AxiosErrorResponse } from '@utils/CustomTypes';
 import { Alert } from 'react-native';
 import useEditUserData from '@data/hooks/useEditUserData.native';
@@ -26,7 +26,7 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 	const { user, shouldUpdateUser } = useMainState();
 	const { setIsAuthenticated } = useLoginDispatch();
 	const { updateUserData, saveUser, removeUserData } = useEditUserData();
-	const { checkUserExists, linkAndSignIn, signIn, signUp } = useEndpoints();
+	const { checkUserExists, linkAndSignIn, signIn, signUp } = useAuthEndpoints();
 	const sendVerificationEmail = useSendVerificationEmail();
 
 	const userSignIn = async ({ email, password, googleId }: SignInProps) => {

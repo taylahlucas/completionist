@@ -1,28 +1,11 @@
-const jwt = require('jsonwebtoken');
 const User = require('../models/user');
 const request_codes = require('../helpers/request_codes');
 const hashPassword = require('../helpers/hash_password');
 const comparePasswords = require('../helpers/compare_passwords');
-
-const checkAuthToken = async (req) => {
-	const auth_header = req.headers["authorization"];
-	const auth_token = auth_header && auth_header.split(' ')[1];
-
-	try {
-		if (!auth_token) {
-			res.status(request_codes.UNAUTHORIZED).json({ error: 'Unauthorized' });
-			return false;
-		}
-		jwt.verify(auth_token, process.env.JWT_SECRET);
-		return true;
-	} catch (error) {
-		console.log("Error with authentication: ", error.message)
-		return false;
-	}
-}
+const checkAuthToken = require('../helpers/check_auth');
 
 const getUserByUserId = async (req, res) => {
-	const isAuthorized = await checkAuthToken(req);
+	const isAuthorized = await checkAuthToken(req, res);
 	if (isAuthorized) {
 		try {
 			const userId = req.params.userId;
@@ -36,12 +19,11 @@ const getUserByUserId = async (req, res) => {
 };
 
 const updateSignUp = async (req, res) => {
-	const isAuthorized = await checkAuthToken(req);
+	const isAuthorized = await checkAuthToken(req, res);
 	if (isAuthorized) {
 		try {
 			const userId = req.params.userId;
 			const { verification, selectPlan, selectGame } = req.body;
-
 			const result = await User.findOneAndUpdate(
 				{ 'userId': userId },
 				{
@@ -68,12 +50,11 @@ const updateSignUp = async (req, res) => {
 };
 
 const updateUser = async (req, res) => {
-	const isAuthorized = await checkAuthToken(req);
+	const isAuthorized = await checkAuthToken(req, res);
 	if (isAuthorized) {
 		try {
 			const userId = req.params.userId;
 			const { name, email, steamId, subscription, settings, data } = req.body;
-			
 			const result = await User.findOneAndUpdate(
 				{ 'userId': userId },
 				{
@@ -100,7 +81,7 @@ const updateUser = async (req, res) => {
 };
 
 const changePassword = async (req, res) => {
-	const isAuthorized = await checkAuthToken(req);
+	const isAuthorized = await checkAuthToken(req, res);
 	if (isAuthorized) {
 		try {
 			const userId = req.params.userId;

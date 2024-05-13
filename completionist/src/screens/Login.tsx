@@ -17,7 +17,7 @@ export const Login = () => {
 
 	// TODO: Fix keyboard view here (check with actual phone)
 	return (
-		<StandardLayout isLoading={true}>
+		<StandardLayout>
 			<NavigationHeader id={UnauthorizedScreenEnum.Login} title={t('common:appTitle')} leftAction={'none'} />
 			<ScrollView>
 				<LoginContentContainer>

@@ -38,7 +38,7 @@ const useEditUserData = (): EditUserDataReturnType => {
 						saveUser(cachedData);
 					}
 					else {
-						getUserByUserId({ authToken: credentials.password, userId: credentials.username })
+						getUserByUserId({ userId: credentials.username })
 							.then((user) => {
 								if (user) {
 									saveUser(user);
@@ -65,44 +65,28 @@ const useEditUserData = (): EditUserDataReturnType => {
 	};
 
 	const updateSignUpData = async (user: User) => {
-		await getCredentials()
-			.then((credentials) => {
-				if (!!credentials) {
-					updateSignUp({
-						authToken: credentials.password,
-						userId: user.userId,
-						signup: user.signup
-					});
-					saveUser(user);
-				}
-			})
+		updateSignUp({
+			userId: user.userId,
+			signup: user.signup
+		});
+		saveUser(user);
 	}
 	
 	const updateUserData = async (user: User) => {
-		await getCredentials()
-			.then((credentials) => {
-				if (!!credentials) {
-					updateUser({
-						authToken: credentials.password,
-						...user
-					});
-					saveUser(user);
-				}
-			})
+		updateUser({
+			...user
+		});
+		saveUser(user);
 	}
 
 	const changeUserPw = async (userId: string, oldPw: string, newPw: string) => {
-		await getCredentials()
-			.then((credentials) => {
-				if (!!credentials) {
-					changePw({
-						authToken: credentials.password,
-						userId: userId,
-						oldPw: oldPw,
-						newPw: newPw
-					});
-				}
-			})
+		changePw({
+			userId: userId,
+			oldPw: oldPw,
+			newPw: newPw
+		});
+		// TODO: How to save user without passing whole object?
+		// saveUser(user);
 	}
 
 	const removeUserData = () => {

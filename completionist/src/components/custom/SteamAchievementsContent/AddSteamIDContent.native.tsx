@@ -8,7 +8,6 @@ import Spacing from '@components/general/Spacing.native';
 import Button from '@components/general/Button/Button.native';
 import useEndpoints from '@data/api/hooks/useEndpoints.native';
 import useMainState from '@redux/hooks/useMainState';
-import useAuth from '@data/api/hooks/useAuth.native';
 import ParagraphView from '@components/general/ParagraphView.native';
 
 const AddSteamIDContent = () => {
@@ -16,7 +15,6 @@ const AddSteamIDContent = () => {
 	const [steamId, setSteamId] = useState<string>('');
 	const { user, selectedGameData } = useMainState();
 	const { getSteamUserById } = useEndpoints();
-	const { saveUserData } = useAuth();
 
 	return (
 		<KeyboardAvoidingScrollView
@@ -29,10 +27,10 @@ const AddSteamIDContent = () => {
 						const verifiedSteamId = await getSteamUserById(selectedGameData?.appId ?? '', steamId);
 
 						if (!!verifiedSteamId) {
-							saveUserData({
-								...user,
-								steamId: verifiedSteamId
-							});
+							// saveUserData({
+							// 	...user,
+							// 	steamId: verifiedSteamId
+							// });
 						}
 					}}
 				/>
