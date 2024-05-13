@@ -70,11 +70,13 @@ const updateUser = async (req, res) => {
 	if (isAuthorized) {
 		try {
 			const userId = req.params.userId;
-			const { steamId, subscription, settings, data } = req.body;
+			const { name, email, steamId, subscription, settings, data } = req.body;
 			
 			const result = await User.findOneAndUpdate(
 				{ 'userId': userId },
 				{
+					name: name,
+					email: email,
 					steamId: steamId,
 					subscription: subscription,
 					settings: settings,

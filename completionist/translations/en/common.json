@@ -40,7 +40,8 @@
 	"login": {
 		"instructions1": "Password must contain at least:",
 		"instructions2": "\n\u2022 8 characters \n\u2022 1 uppercase letter\n\u2022 1 lowercase letter\n\u2022 1 numerical value",
-		"accountVerification": "Check your emails and enter the verification code"
+		"accountVerification": "Check your emails and enter the verification code",
+		"resendToken": "RESEND VERIFICATION TOKEN"
 	},
 	"selectGame": {
 		"selectGameDesc1": "With a Free account, you can select one game per month to track.",

@@ -147,11 +147,13 @@ const useEndpoints = (): EndpointsReturnType => {
 		}
 	};
 
-	const updateUser = async ({ authToken, userId, steamId, subscription, settings, userAvatar, data }: UpdateUserProps): Promise<UserResponse> => {
+	const updateUser = async ({ authToken, userId, name, email, steamId, subscription, settings, userAvatar, data }: UpdateUserProps): Promise<UserResponse> => {
 		try {
 			await axios.patch(
 				`${url}/${updateUserUrl}/${userId}`,
 				{
+					name: name,
+					email: email,
 					steamId: steamId,
 					subscription: subscription,
 					settings: settings,

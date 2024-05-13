@@ -10,6 +10,7 @@ export const lightPurple = "#6B72FF";
 export const darkPurple = "#23244B";
 
 export const lightGreen = "#68C2A2";
+export const errorRed = "#DC143C";
 
 export const darkTheme = {
   black: black,
@@ -22,4 +23,5 @@ export const darkTheme = {
   lightPurple: lightPurple,
   darkPurple: darkPurple,
   lightGreen: lightGreen,
+	error: errorRed
 }

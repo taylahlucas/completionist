@@ -24,6 +24,8 @@ export interface GetUserByUserIdProps {
 export interface UpdateUserProps {
 	authToken: string;
 	userId: string;
+	name?: string;
+	email?: string,
 	steamId?: string;
 	subscription: Subscription;
 	settings: UserSettings;
@@ -49,7 +51,7 @@ export interface EndpointsReturnType {
 	signIn: ({ email, password, googleId }: SignInProps) => Promise<UserResponse>;
 	signUp: ({ data }: SignUpProps) => Promise<UserResponse>;
 	getUserByUserId: ({ authToken, userId }: GetUserByUserIdProps) => Promise<UserResponse>;
-	updateUser: ({ authToken, userId, steamId, subscription, settings, userAvatar, data }: UpdateUserProps) => Promise<UserResponse>;
+	updateUser: ({ authToken, userId, name, email, steamId, subscription, settings, userAvatar, data }: UpdateUserProps) => Promise<UserResponse>;
 	updateSignUp: ({ authToken, userId, signup }: UpdateSignUpProps) => Promise<void>;
 	sendEmail: ({ emailTo, subject, text }: EmailProps) => Promise<void>;
 	getSteamUserById: (appId: string, steamId: string) => Promise<StringResponse>;

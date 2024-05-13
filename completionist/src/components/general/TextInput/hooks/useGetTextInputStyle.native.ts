@@ -11,7 +11,6 @@ const useGetTextInputStyle = (inputStyle: TextInputStyleType, hasLeftComponent: 
       return {
         marginLeft: hasLeftComponent ? 50 : 16,
 				marginRight: 48,
-				padding: 2
       };
   }
 };

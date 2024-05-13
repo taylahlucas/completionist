@@ -20,8 +20,8 @@ const LoginFormSignInButtons = () => {
 	const sendVerificationEmail = useSendVerificationEmail();
 	const { loginFormData, isSigningUp } = useLoginState();
 	const { checkUserExists } = useEndpoints();
-	const { isEmailValid, isPasswordValid, isNameValid } = useValidator();
-	const isLoginDisabled = !isEmailValid(loginFormData.email) || !isPasswordValid(loginFormData.password ?? '') || 
+	const { isEmailValid, isPwValid, isNameValid } = useValidator();
+	const isLoginDisabled = !isEmailValid(loginFormData.email) || !isPwValid(loginFormData.password ?? '') || 
 	(isSigningUp 
 		? !isNameValid(loginFormData.name) 
 		: false

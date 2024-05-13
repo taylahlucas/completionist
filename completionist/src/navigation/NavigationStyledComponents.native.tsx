@@ -78,6 +78,7 @@ export const NavigationHeaderMenuButton = styled.Pressable`
   justfy-content: center;
   margin-right: 16px;
   margin-left: 16px;
+	margin-top: 12px;
   z-index: 2;
 `;
 

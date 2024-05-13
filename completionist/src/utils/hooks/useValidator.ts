@@ -4,18 +4,18 @@ const useValidator = () => {
 		return emailRegex.test(email);
 	}
 	
-	const isPasswordValid = (pw: string): boolean => {
+	const isPwValid = (pw: string): boolean => {
 		const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}$/;
 		return passwordRegex.test(pw);
 	}
 	
 	const isNameValid = (name: string): boolean => {
-		return name.length >= 2;
+		return name.length >= 1;
 	}
 
 	return {
 		isEmailValid,
-		isPasswordValid,
+		isPwValid,
 		isNameValid
 	}
 };

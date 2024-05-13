@@ -29,7 +29,6 @@ export const SettingsEmail = styled(StyledText)`
 export const SettingsDescription = styled(StyledText)`
   width: ${STANDARD_WIDTH}px;
   padding-top: ${MID_PADDING}px;
-	padding-bottom: ${SMALL_PADDING}px;
 `;
 
 export const SettingsCollectionList = styled(Animated.View)`
@@ -83,4 +82,10 @@ export const SettingsScrollView = styled(ScrollableList)`
 
 export const SettingsTitle = styled(StyledText)`
   margin-right: 16px;
+`;
+
+export const AccountDetailsFieldTitle = styled(StyledText)`
+	width: 100%;
+	margin-left: 16px;
+	margin-bottom: -8px;
 `;

@@ -78,8 +78,6 @@ const useEditUserData = (): EditUserDataReturnType => {
 	}
 	
 	const updateUserData = async (user: User) => {
-		// TODO: How can we update user data? 
-		// Must handle switching between games
 		await getCredentials()
 			.then((credentials) => {
 				if (!!credentials) {
