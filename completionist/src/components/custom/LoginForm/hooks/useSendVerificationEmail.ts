@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import useEndpoints from '@data/api/hooks/useEndpoints.native';
+import useAuthEndpoints from '@data/api/hooks/useAuthEndpoints.native';
 import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
 import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
 import useLoginDispatch from './useLoginDispatch';
@@ -7,7 +7,7 @@ import useLoginDispatch from './useLoginDispatch';
 const useSendVerificationEmail = () => {
 	const { t } = useTranslation();
 	const navigation = useReactNavigation();
-	const { sendEmail } = useEndpoints();
+	const { sendVerificationEmail } = useAuthEndpoints();
 	const { setVerificationToken } = useLoginDispatch();
 
 	const generateVerificationToken = (length: number): string => {
@@ -22,11 +22,12 @@ const useSendVerificationEmail = () => {
 		return code;
 	};
 
-	const sendVerificationEmail = async (email: string, linkAccount: boolean = false) => {
+	const sendVerification = async (email: string, linkAccount: boolean = false) => {
 		const uniqueCode = generateVerificationToken(6);
 		console.log("uniqueCode: ", uniqueCode);
 		setVerificationToken(uniqueCode);
-		sendEmail({
+
+		sendVerificationEmail({
 			// TODO: Swap for completionist email
 			emailTo: email,
 			subject: t('common:screens.verifyAccount'),
@@ -43,7 +44,7 @@ const useSendVerificationEmail = () => {
 		);
 	};
 
-	return sendVerificationEmail;
+	return sendVerification;
 };
 
 export default useSendVerificationEmail;

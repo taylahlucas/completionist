@@ -19,6 +19,7 @@ import {
 } from '@data/api/EndpointInterfaces.native';
 import useHandleAxiosError from './useHandleAxiosError';
 import useKeychain from '@data/hooks/useKeychain.native';
+import { requestCodes } from '@utils/constants';
 
 const useAuthEndpoints = (): AuthEndpointsReturnType => {
 	const url = Platform.OS === 'ios'
@@ -78,13 +79,18 @@ const useAuthEndpoints = (): AuthEndpointsReturnType => {
 					googleId: googleId
 				}
 			);
-			if (!!response.data.user && !!response.data.token) {
+			const responseData = response?.data;
+			if (responseData && !!responseData.user && !!responseData.token) {
 				const credentialsResponse = {
-					username: response.data.user.userId,
-					password: response.data.token
+					username: responseData.user?.userId,
+					password: responseData.token
 				}
 				storeCredentials(credentialsResponse);
-				return response.data.user as UserResponse;
+				return responseData.user as UserResponse;
+			}
+			else {
+				handleAxiosError(requestCodes.WRONG_PASSWORD);
+				return;
 			}
 		}
 		catch (error: AxiosErrorResponse) {

@@ -14,7 +14,6 @@ interface EditUserDataReturnType {
 	saveUser: (user: User) => void;
 	updateUserData: (user: User) => void;
 	updateSignUpData: (user: User) => void;
-	changeUserPw: (userId: string, oldPw: string, newPw: string) => void;
 	removeUserData: () => void;
 }
 
@@ -68,25 +67,13 @@ const useEditUserData = (): EditUserDataReturnType => {
 		updateSignUp({
 			userId: user.userId,
 			signup: user.signup
-		});
-		saveUser(user);
+		})
+		.then(() => saveUser(user));
 	}
 	
 	const updateUserData = async (user: User) => {
-		updateUser({
-			...user
-		});
-		saveUser(user);
-	}
-
-	const changeUserPw = async (userId: string, oldPw: string, newPw: string) => {
-		changePw({
-			userId: userId,
-			oldPw: oldPw,
-			newPw: newPw
-		});
-		// TODO: How to save user without passing whole object?
-		// saveUser(user);
+		updateUser(user)
+			.then(() => saveUser(user));
 	}
 
 	const removeUserData = () => {
@@ -99,12 +86,11 @@ const useEditUserData = (): EditUserDataReturnType => {
 	}
 
 	return { 
+		loadUserFromCache,
 		saveUser,
 		updateSignUpData,
 		updateUserData,
-		changeUserPw,
-		removeUserData, 
-		loadUserFromCache 
+		removeUserData
 	};
 };
 

@@ -7,7 +7,9 @@ const useIsLoading = (): boolean => {
 	useEffect(() => {
 		const requestInterceptor = axios.interceptors.request.use(
 			(config) => {
-				setIsLoading(true);
+				if (!config?.url?.includes('exists') ?? true) {
+					setIsLoading(true);
+				}
 				return config;
 			}
 		);

@@ -17,7 +17,6 @@ const LoginFormSignInButtons = () => {
 	const { t } = useTranslation();
 	const { checkUserAccount, googleUserSignIn } = useGetLoginMethods();
 	const { triggerIsSigningUp } = useLoginDispatch();
-	// TODO: Fix this
 	const sendVerificationEmail = useSendVerificationEmail();
 	const { loginFormData, isSigningUp } = useLoginState();
 	const { checkUserExists } = useAuthEndpoints();
