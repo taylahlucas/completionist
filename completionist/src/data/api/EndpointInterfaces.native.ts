@@ -48,12 +48,18 @@ export interface ChangePwProps {
 	newPw: string;
 }
 
+export interface ForgotPwProps {
+	email: string;
+	newPw: string;
+}
+
 export interface AuthEndpointsReturnType {
 	checkUserExists: (email: string) => Promise<CredentialsExistProps>;
 	linkAndSignIn: ({ email, password, googleId }: SignInProps) => Promise<UserResponse>;
 	signIn: ({ email, password, googleId }: SignInProps) => Promise<UserResponse>;
 	signUp: ({ data }: SignUpProps) => Promise<UserResponse>;
 	sendVerificationEmail: ({ emailTo, subject, text }: SendEmailProps) => Promise<void>;
+	forgotPw: ({ email, newPw }: ForgotPwProps) => Promise<void>;
 }
 
 export interface EndpointsReturnType {

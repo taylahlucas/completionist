@@ -43,6 +43,7 @@ const slice = createSlice({
     triggerIsSigningUp: (state, action) => {
       state.isSigningUp = action.payload;
     }
+		// TODO: Add reset to reset loginFormData
   }
 });
 

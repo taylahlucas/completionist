@@ -44,13 +44,13 @@ const AccountDetails = () => {
 	const { saveUser } = useEditUserData();
 	const { updateUser, changePw } = useEndpoints();
 	const { checkUserExists } = useAuthEndpoints();
-	const [showChangePassword, setShowChangePassword] = useState<boolean>(false);
+	const [showChangePw, setShowChangePw] = useState<boolean>(false);
 	const [submitPressed, setSubmitPressed] = useState<boolean>(false);
 
 	useEffect(() => {
 		checkUserExists(user.email)
 			.then((accounts) => 
-				setShowChangePassword(accounts.google && !accounts.regular ? false : true)
+				setShowChangePw(accounts.google && !accounts.regular ? false : true)
 			)
 	}, [])
 
@@ -68,25 +68,25 @@ const AccountDetails = () => {
 						updateUser(updatedUser).then(() => {
 							setSubmitPressed(false);
 							saveUser(updatedUser);
-							Alert.alert('User successfully updated.')
+							Alert.alert(t('common:alerts.updateSuccess'));
 						})
 					}
 					else if (accounts.regular && accounts.google) {
 						Alert.alert(
-							'Email already exists',
-							'Please use a different email address.'
+							t('common:errors.emailAlreadyExists'),
+							t('common:errors.differentEmail'),
 						);
 					}
 					else if (!accounts.regular && accounts.google) {
 						Alert.alert(
-							'Email already exists',
-							'This email is already linked through Google. \nIf you would like to sign in with a regular password, login with this email and set your desired password.'
+							t('common:errors.emailAlreadyExists'),
+							t('common:errors.linkedWithGoogle')
 						);
 					}
 					else if (!accounts.google && accounts.regular) {
 						Alert.alert(
-							'Email already exists',
-							'This email is already linked. \nIf you would like to link your Google account, login through the Google Sign In using this email.'
+							t('common:errors.emailAlreadyExists'),
+							t('common:errors.linkedWithRegular')
 						);
 					}
 				})
@@ -101,7 +101,7 @@ const AccountDetails = () => {
 						...user,
 						name: userInfo.name.value
 					});
-					Alert.alert('User successfully updated.');
+					Alert.alert(t('common:alerts.updateSuccess'));
 					setSubmitPressed(false);
 				})
 		}
@@ -117,7 +117,7 @@ const AccountDetails = () => {
 				});
 		}
 	};
-	// TODO: Add to translations
+
 	// TODO: Footer button moving around?
 	return (
 		<StandardLayout>
@@ -132,7 +132,10 @@ const AccountDetails = () => {
 								!userInfo.name.changed
 								&& !userInfo.email.changed
 								&& !userInfo.newPw.changed
-								&& (!isNameValid(userInfo.name.value) || !isEmailValid(userInfo.email.value) || !isPwValid(userInfo.newPw.value))
+								&& (!isNameValid(userInfo.name.value) 
+									|| !isEmailValid(userInfo.email.value) 
+									|| !isPwValid(userInfo.newPw.value)
+								)
 							}
 							onPress={(): void => onSubmit()}
 						/>
@@ -155,7 +158,9 @@ const AccountDetails = () => {
 						})}
 					/>
 					<Condition condition={!isNameValid(userInfo.name.value) && userInfo.name.changed && submitPressed}>
-						<ErrorMessage>Please ensure name has at least 1 character.</ErrorMessage>
+						<ErrorMessage>
+							{t('common:accountDetails.invalidUsername')}
+							</ErrorMessage>
 					</Condition>
 
 					<AccountDetailsFieldTitle align='left'>
@@ -175,15 +180,17 @@ const AccountDetails = () => {
 						})}
 					/>
 					<Condition condition={!isEmailValid(userInfo.email.value) && userInfo.email.changed && submitPressed}>
-						<ErrorMessage>Please ensure you are using a valid email.</ErrorMessage>
+						<ErrorMessage>
+							{t('common:accountDetails.invalidEmail')}
+						</ErrorMessage>
 					</Condition>
 					
-					<Condition condition={showChangePassword}>
+					<Condition condition={showChangePw}>
 						<StyledText align='left' style={{ width: '100%', paddingTop: 18, paddingBottom: 8 }} type='ListItemTitleBold'>
-							{t('common:accountDetails.changePassword')}
+							{t('common:accountDetails.changePw')}
 						</StyledText>
 						<TextInput
-							placeholder='Current Password'
+							placeholder={t('common:accountDetails.currentPw')}
 							value={userInfo.currentPw.value}
 							secureTextEntry
 							inputStyle='text'
@@ -197,7 +204,7 @@ const AccountDetails = () => {
 							})}
 						/>
 						<TextInput
-							placeholder='New Password'
+							placeholder={t('common:accountDetails.newPw')}
 							value={userInfo.newPw.value}
 							secureTextEntry
 							inputStyle='text'

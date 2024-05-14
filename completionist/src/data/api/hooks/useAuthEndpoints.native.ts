@@ -9,6 +9,7 @@ import {
 	signupUrl,
 	signinUrl,
 	sendVerificationEmailUrl,
+	forgotPwUrl,
 } from '../../urls';
 import {
 	AuthEndpointsReturnType,
@@ -16,6 +17,7 @@ import {
 	SignUpProps,
 	SignInProps,
 	SendEmailProps,
+	ForgotPwProps
 } from '@data/api/EndpointInterfaces.native';
 import useHandleAxiosError from './useHandleAxiosError';
 import useKeychain from '@data/hooks/useKeychain.native';
@@ -75,8 +77,8 @@ const useAuthEndpoints = (): AuthEndpointsReturnType => {
 			const response = await axios.post(`${url}/${signinUrl}`,
 				{
 					email: email.toLocaleLowerCase(),
-					password: password,
-					googleId: googleId
+					password,
+					googleId
 				}
 			);
 			const responseData = response?.data;
@@ -103,8 +105,8 @@ const useAuthEndpoints = (): AuthEndpointsReturnType => {
 			const response = await axios.patch(`${url}/${linkAndSignInUrl}`,
 				{
 					email: email.toLocaleLowerCase(),
-					password: password,
-					googleId: googleId
+					password,
+					googleId
 				}
 			);
 			if (!!response.data.user && !!response.data.token) {
@@ -127,10 +129,26 @@ const useAuthEndpoints = (): AuthEndpointsReturnType => {
 				`${url}/${sendVerificationEmailUrl}`,
 				{
 					to: emailTo,
-					subject: subject,
-					text: text
+					subject,
+					text
 				}
 			);
+			return;
+		}
+		catch (error: AxiosErrorResponse) {
+			handleAxiosError(error.response.status);
+		}
+	};
+
+	const forgotPw = async ({ email, newPw }: ForgotPwProps): Promise<void> => {
+		try {
+			await axios.patch(
+				`${url}/${forgotPwUrl}`,
+				{
+					email: email.toLocaleLowerCase(),
+					newPw
+				}
+			)
 			return;
 		}
 		catch (error: AxiosErrorResponse) {
@@ -144,6 +162,7 @@ const useAuthEndpoints = (): AuthEndpointsReturnType => {
 		signIn,
 		linkAndSignIn,
 		sendVerificationEmail,
+		forgotPw
 	}
 };
 

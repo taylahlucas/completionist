@@ -3,7 +3,8 @@ export const signupUrl = 'api/signup';
 export const checkUserExistsUrl = 'api/exists';
 export const linkAndSignInUrl = 'api/link';
 export const signinUrl = 'api/signin';
-export const sendVerificationEmailUrl = 'send_email/verify';
+export const forgotPwUrl = 'api/reset';
+export const sendVerificationEmailUrl = 'send_email/verify'; 
 
 // Base
 export const getUserByUserIdUrl = 'users'

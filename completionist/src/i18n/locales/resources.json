@@ -2685,13 +2685,17 @@
         "email": "Email",
         "userpw": "Password",
         "username": "Username",
-        "forgotPassword": "Forgot Password?",
+        "forgotPw": "Forgot Password?",
+        "forgotPwDesc": "Enter the email you signed up with and your new password.",
+        "resetPw": "Enter this code to reset your password",
+        "updatePwSuccess": "Password successfully updated",
         "login": "Login",
         "logout": "Logout",
         "signUp": "Sign Up",
         "createAccount": "Create Account",
         "requestAccount": "Don't have an account?",
-        "backToLogin": "Back to Login"
+        "backToLogin": "Back to Login",
+        "linkAccountDesc": "Enter this code to link your accounts"
       },
       "screens": {
         "quests": "Quests",
@@ -2707,13 +2711,16 @@
         "payments": "Payment",
         "settings": "Settings",
         "accountDetails": "Account Details",
-        "verifyAccount": "Verify Your Account"
+        "verifyAccount": "Verify Your Account",
+        "forgotPw": "Forgot Password",
+        "verifyNewPw": "Verify New Password"
       },
       "login": {
         "instructions1": "Password must contain at least:",
         "instructions2": "\n• 8 characters \n• 1 uppercase letter\n• 1 lowercase letter\n• 1 numerical value",
         "accountVerification": "Check your emails and enter the verification code",
-        "resendToken": "RESEND VERIFICATION TOKEN"
+        "resendToken": "RESEND VERIFICATION TOKEN",
+        "tokenResent": "Verification Token Resent."
       },
       "selectGame": {
         "selectGameDesc1": "With a Free account, you can select one game per month to track.",
@@ -2761,8 +2768,12 @@
       "accountDetails": {
         "changeUsername": "Change Username",
         "changeEmail": "Change Email",
-        "changePassword": "Change Password",
-        "updateDetails": "Update Details"
+        "changePw": "Change Password",
+        "updateDetails": "Update Details",
+        "currentPw": "Current Password",
+        "newPw": "New Password",
+        "invalidUserName": "Please ensure Username has at least 1 character.",
+        "invalidUserEmail": "Please ensure you are using a valid email."
       },
       "steamAchievements": {
         "addSteamIdStep1": "Step 1. Find and add your Steam ID",
@@ -2791,7 +2802,10 @@
         "permissionDeniedMsg": "Please allow access through your Steam settings.",
         "unauthorized": "Unauthorized",
         "unauthorizedMsg": "You are unauthorized to use this account. Please try logging in again.",
-        "steamAchievements": "Could not get steam achievements for this game."
+        "steamAchievements": "Could not get steam achievements for this game.",
+        "differentEmail": "Please use a different email address.",
+        "linkedWithGoogle": "This email is already linked through Google. \nIf you would like to sign in with a regular password, login with this email and set your desired password.",
+        "linkedWithRegular": "This email is already linked. \nIf you would like to link your Google account, login through the Google Sign In using this email."
       },
       "alerts": {
         "ok": "Ok",
@@ -2799,7 +2813,8 @@
         "cancel": "Cancel",
         "changesLeft": "You will have {{changesLeft}} change{{s}} left.",
         "noChangesLeft": "No Changes Left",
-        "noChangesLeftMessage": "Sorry, you have no game changes left for this month.\n Please upgrade to a premium subscription, or wait until the 1st of next month."
+        "noChangesLeftMessage": "Sorry, you have no game changes left for this month.\n Please upgrade to a premium subscription, or wait until the 1st of next month.",
+        "updateSuccess": "User successfully updated."
       },
       "languages": {
         "ar": "Arabic",

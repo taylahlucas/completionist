@@ -22,7 +22,7 @@ const useSendVerificationEmail = () => {
 		return code;
 	};
 
-	const sendVerification = async (email: string, linkAccount: boolean = false) => {
+	const sendVerification = async (email: string, text: string, navigateTo?: UnauthorizedScreenEnum) => {
 		const uniqueCode = generateVerificationToken(6);
 		console.log("uniqueCode: ", uniqueCode);
 		setVerificationToken(uniqueCode);
@@ -32,16 +32,15 @@ const useSendVerificationEmail = () => {
 			emailTo: email,
 			subject: t('common:screens.verifyAccount'),
 			text: t(
-				'common:sendRequest.verifyAccount',
+				text,
 				{
 					code: uniqueCode
 				}
 			)
 		});
-		navigation.navigate(linkAccount 
-			? UnauthorizedScreenEnum.LinkAccount
-			: UnauthorizedScreenEnum.AccountVerification
-		);
+		if (navigateTo) {
+			navigation.navigate(navigateTo);
+		}
 	};
 
 	return sendVerification;

@@ -8,6 +8,8 @@ import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
 import { UnauthorizedStackParamList } from '@utils/CustomInterfaces';
 import LinkAccount from '@screens/LinkAccount.native';
 import Login from '@screens/Login.native';
+import ForgotPassword from '@screens/ForgotPassword.native';
+import VerifyNewPassword from '@screens/VerifyNewPassword.native';
 
 const Stack = createStackNavigator<UnauthorizedStackParamList>();
 
@@ -25,6 +27,8 @@ const UnauthorizedStackNavigator = () => {
 			<Stack.Screen name={UnauthorizedScreenEnum.SelectInitialPlan} component={SelectInitialPlan} />
 			<Stack.Screen name={UnauthorizedScreenEnum.SelectFirstGame} component={SelectFirstGame} />
 			<Stack.Screen name={UnauthorizedScreenEnum.LinkAccount} component={LinkAccount} />
+			<Stack.Screen name={UnauthorizedScreenEnum.ForgotPassword} component={ForgotPassword} />
+			<Stack.Screen name={UnauthorizedScreenEnum.VerifyNewPassword} component={VerifyNewPassword} />
 		</Stack.Navigator>
 	);
 };

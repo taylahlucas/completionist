@@ -3,6 +3,7 @@ import { GoogleSignin } from '@react-native-google-signin/google-signin';
 import auth from '@react-native-firebase/auth';
 import useAuthEndpoints from '@data/api/hooks/useAuthEndpoints.native';
 import { AxiosErrorResponse } from '@utils/CustomTypes';
+import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
 import { Alert } from 'react-native';
 import useEditUserData from '@data/hooks/useEditUserData.native';
 import useMainState from '@redux/hooks/useMainState';
@@ -27,7 +28,7 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 	const { setIsAuthenticated } = useLoginDispatch();
 	const { updateUserData, saveUser, removeUserData } = useEditUserData();
 	const { checkUserExists, linkAndSignIn, signIn, signUp } = useAuthEndpoints();
-	const sendVerificationEmail = useSendVerificationEmail();
+	const sendVerification = useSendVerificationEmail();
 
 	const userSignIn = async ({ email, password, googleId }: SignInProps) => {
 		try {
@@ -76,7 +77,11 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 				{
 					text: t('common:alerts.ok'),
 					// Update user with password
-					onPress: (): Promise<void> => sendVerificationEmail(email, true)
+					onPress: (): Promise<void> => sendVerification(
+						email,
+						t('common:auth.linkAccountDesc'),
+						UnauthorizedScreenEnum.LinkAccount
+					)
 				},
 				{
 					text: t('common:alerts.cancel')

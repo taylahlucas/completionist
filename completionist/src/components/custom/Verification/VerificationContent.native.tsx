@@ -8,7 +8,7 @@ import KeyboardAvoidingScrollView from '@components/general/Lists/KeyboardAvoidi
 import ParagraphView from '@components/general/ParagraphView.native';
 import Spacing from '@components/general/Spacing.native';
 import useSendVerificationEmail from '@components/custom/LoginForm/hooks/useSendVerificationEmail';
-
+import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
 
 interface VerificationContentProps {
 	email: string;
@@ -19,7 +19,7 @@ interface VerificationContentProps {
 const VerificationContent = ({ email, token, action }: VerificationContentProps) => {
 	const { t } = useTranslation();
 	const [value, setValue] = useState<string>('');
-	const sendVerificationEmail = useSendVerificationEmail();
+	const sendVerification = useSendVerificationEmail();
 
 	const renderAwareView = (): JSX.Element => {
 		return (
@@ -58,7 +58,13 @@ const VerificationContent = ({ email, token, action }: VerificationContentProps)
 					<Button
 						title={t('common:login.resendToken')}
 						type='text'
-						onPress={(): Promise<void> => sendVerificationEmail(email, true)}
+						onPress={(): void => {
+							sendVerification(
+								email, 
+								'common:sendRequest.verifyAccount'
+							);
+							Alert.alert('common:login.tokenResent')
+						}}
 					/>
 				</ParagraphView>
 			</KeyboardAvoidingScrollView>

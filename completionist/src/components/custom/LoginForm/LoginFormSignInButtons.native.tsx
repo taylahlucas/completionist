@@ -12,12 +12,13 @@ import Condition from '@components/general/Condition.native';
 import useValidator from '@utils/hooks/useValidator';
 import useSendVerificationEmail from './hooks/useSendVerificationEmail';
 import useAuthEndpoints from '@data/api/hooks/useAuthEndpoints.native';
+import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
 
 const LoginFormSignInButtons = () => {
 	const { t } = useTranslation();
 	const { checkUserAccount, googleUserSignIn } = useGetLoginMethods();
 	const { triggerIsSigningUp } = useLoginDispatch();
-	const sendVerificationEmail = useSendVerificationEmail();
+	const sendVerification = useSendVerificationEmail();
 	const { loginFormData, isSigningUp } = useLoginState();
 	const { checkUserExists } = useAuthEndpoints();
 	const { isEmailValid, isPwValid, isNameValid } = useValidator();
@@ -41,7 +42,11 @@ const LoginFormSignInButtons = () => {
 					? checkUserExists(loginFormData.email)
 							.then((response) => {
 								if (!response.regular && !response.google) {
-									sendVerificationEmail(loginFormData.email)
+									sendVerification(
+										loginFormData.email,
+										'common:sendRequest.verifyAccount',
+										UnauthorizedScreenEnum.AccountVerification
+									);
 								}
 								else {
 									Alert.alert(

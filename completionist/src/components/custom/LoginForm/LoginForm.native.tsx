@@ -1,13 +1,16 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import TextInput from '@components/general/TextInput/TextInput.native';
 import { LoginFormContainer, LoginFormButtonContainer } from './LoginFormStyledComponents.native';
 import Button from '@components/general/Button/Button.native';
 import useLoginState from './hooks/useLoginState';
 import useLoginDispatch from './hooks/useLoginDispatch';
 import Condition from '@components/general/Condition.native';
-import { useTranslation } from 'react-i18next';
+import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
+import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
 
 const LoginForm = () => {
+	const navigation = useReactNavigation();
   const { t } = useTranslation();
   const { setLoginFormData } = useLoginDispatch();
   const { loginFormData, isSigningUp } = useLoginState();
@@ -66,10 +69,10 @@ const LoginForm = () => {
       <Condition condition={!isSigningUp}>
         <Button
 					testID='forgot-password'
-          title={t('common:auth.forgotPassword')}
+          title={t('common:auth.forgotPw')}
           type='text'
           style={{ alignItems: 'flex-end' }}
-          onPress={() => console.log("Forgot Password //TODO")}
+          onPress={() => navigation.navigate(UnauthorizedScreenEnum.ForgotPassword)}
         />
       </Condition>
     </LoginFormContainer>

@@ -93,7 +93,7 @@ const signin = async (req, res) => {
 		if (!user) {
 			return res.status(request_codes.NO_USER_FOUND).json({ error: "No user found." });
 		}
-		
+
 		if (user.password && password) {
 			const match = await comparePasswords(password, user.password);
 			if (!match) {
@@ -166,66 +166,39 @@ const linkAndSignIn = async (req, res) => {
 	}
 }
 
+const forgotPw = async (req, res) => {
+	try {
+		const { email, newPw } = req.body;
+		const user = await User.findOne({ email }).limit(10);
+
+		if (!user) {
+			return res.status(request_codes.NO_USER_FOUND).json({ error: "No user found." });
+		}
+
+		// Hash new password
+		let hashedPassword = '';
+		if (newPw) {
+			hashedPassword = await hashPassword(newPw);
+		}
+
+		await User.findOneAndUpdate(
+			{ 'userId': user.userId },
+			{
+				password: hashedPassword
+			}
+		);
+		return res.status(request_codes.SUCCESS).json({ ok: true });
+	}
+	catch (err) {
+		console.log("ERror: ", err.message)
+		return res.status(err.status).json(err.message);
+	}
+};
+
 module.exports = {
 	checkUserExists,
 	signup,
 	linkAndSignIn,
-	signin
+	signin,
+	forgotPw
 }
-
-
-// export const forgotPassword = async (req, res) => {
-//   const { email } = req.body;
-//   // find user by email
-//   const user = await User.findOne({ email });
-//   console.log("USER ===> ", user);
-//   if (!user) {
-//     return res.json({ error: "User not found" });
-//   }
-//   // generate code
-//   const resetCode = nanoid(5).toUpperCase();
-//   // save to db
-//   user.resetCode = resetCode;
-//   user.save();
-//   // prepare email
-//   const emailData = {
-//     from: process.env.EMAIL_FROM,
-//     to: user.email,
-//     subject: "Password reset code",
-//     html: "<h1>Your password  reset code is: {resetCode}</h1>"
-//   };
-//   // send email
-//   try {
-//     const data = await sgMail.send(emailData);
-//     console.log(data);
-//     res.json({ ok: true });
-//   } catch (err) {
-//     console.log(err);
-//     res.json({ ok: false });
-//   }
-// };
-// export const resetPassword = async (req, res) => {
-//   try {
-//     const { email, password, resetCode } = req.body;
-//     // find user based on email and resetCode
-//     const user = await User.findOne({ email, resetCode });
-//     // if user not found
-//     if (!user) {
-//       return res.json({ error: "Email or reset code is invalid" });
-//     }
-//     // if password is short
-//     if (!password || password.length < 6) {
-//       return res.json({
-//         error: "Password is required and should be 6 characters long",
-//       });
-//     }
-//     // hash password
-//     const hashedPassword = await hashPassword(password);
-//     user.password = hashedPassword;
-//     user.resetCode = "";
-//     user.save();
-//     return res.json({ ok: true });
-//   } catch (err) {
-//     console.log(err);
-//   }
-// };

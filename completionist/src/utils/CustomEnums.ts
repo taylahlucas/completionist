@@ -23,6 +23,8 @@ export enum UnauthorizedScreenEnum {
 	SelectInitialPlan = 'SelectInitialPlan',
 	SelectFirstGame = 'SelectFirstGame',
 	LinkAccount = 'LinkAccount',
+	ForgotPassword = 'ForgotPassword',
+	VerifyNewPassword = 'VerifyNewPassword'
 }
 
 export enum IconTypeEnum {
