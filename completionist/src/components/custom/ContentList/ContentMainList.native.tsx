@@ -22,9 +22,13 @@ const ContentMainList = ({ mainCategory, subCategory, isSubCategory = false }: C
     : getContentForCategory(mainCategory?.title ?? '');
   const { checkContentComplete } = useCheckContentComplete();
 	const scrollHeight = DEFAULT_ITEM_HEIGHT * items?.length + EXTRA_LARGE_PADDING
+	const maxHeight = 300;
 
   return (
-    <ScrollableList style={{ maxHeight: scrollHeight > 300 ? 300 : scrollHeight }} contentContainerStyle={listStyles.listItemList}>
+    <ScrollableList 
+			style={{ maxHeight: scrollHeight > maxHeight ? maxHeight : scrollHeight }} 
+			contentContainerStyle={listStyles.listItemList}
+		>
       {items?.map((item, index) => (
         <ListItem
           id={item.id}

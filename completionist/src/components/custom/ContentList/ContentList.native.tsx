@@ -9,6 +9,7 @@ import SearchResults from './SearchResults.native';
 import ContentMainDropdown from './ContentMainDropdown.native';
 import useCheckContentComplete from './hooks/useCheckContentComplete';
 import { SettingsListItem } from '@utils/CustomInterfaces';
+import Loading from '@components/general/Loading.native';
 
 const ContentList = () => {
   const { searchValue } = useContentState();
@@ -18,7 +19,7 @@ const ContentList = () => {
 	const categories = getContentCategories();
 	
 	if (!categories) {
-		return <View />;
+		return <Loading />;
 	}
   return (
     <Condition

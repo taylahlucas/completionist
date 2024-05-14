@@ -22,45 +22,47 @@ const PaymentsContent = () => {
 	// const { saveUserAndCache } = useEditUserData();
 
 	return (
-		<ScrollableList>
-			<SelectableItem
-				item={selectedSubscription}
-				isSelected
-			>
-				<StyledText type='Heading' color={theme.lightGrey}>
-					{selectedSubscription.title}
-				</StyledText>
-				<SubscriptionOptionDescription items={selectedSubscription.description} />
-			</SelectableItem>
+		<>
+			<ScrollableList>
+				<SelectableItem
+					item={selectedSubscription}
+					isSelected
+				>
+					<StyledText type='Heading' color={theme.lightGrey}>
+						{selectedSubscription.title}
+					</StyledText>
+					<SubscriptionOptionDescription items={selectedSubscription.description} />
+				</SelectableItem>
 
-			<PaymentPlanSubtitle align='left' color={theme.midGrey}>
-				{t('common:payments:selectPlan')}
-			</PaymentPlanSubtitle>
+				<PaymentPlanSubtitle align='left' color={theme.midGrey}>
+					{t('common:payments:selectPlan')}
+				</PaymentPlanSubtitle>
 
-			<PaymentPricesContainer>
-				{selectedSubscription.prices.map((item, index) => (
-					<SelectableItem
-						key={index}
-						item={selectedSubscription}
-						isSelected={item.type === selectedPrice.type}
-						onPress={(): void => setSelectedPrice(item)}
-					>
-						<PaymentPriceItem>
-							<PriceItem item={item} />
-						</PaymentPriceItem>
-					</SelectableItem>
-				))}
-			</PaymentPricesContainer>
+				<PaymentPricesContainer>
+					{selectedSubscription.prices.map((item, index) => (
+						<SelectableItem
+							key={index}
+							item={selectedSubscription}
+							isSelected={item.type === selectedPrice.type}
+							onPress={(): void => setSelectedPrice(item)}
+						>
+							<PaymentPriceItem>
+								<PriceItem item={item} />
+							</PaymentPriceItem>
+						</SelectableItem>
+					))}
+				</PaymentPricesContainer>
 
-			<PaymentPlanSubtitle align='left' color={theme.midGrey}>
-				{t('common:payments:selectType')}
-			</PaymentPlanSubtitle>
+				<PaymentPlanSubtitle align='left' color={theme.midGrey}>
+					{t('common:payments:selectType')}
+				</PaymentPlanSubtitle>
 
-			{/* // TODO: Add paypal and apple pay */}
-			<Spacing />
-
+				{/* // TODO: Add paypal and apple pay */}
+				<Spacing />
+			</ScrollableList>
 			<Button
 				title={t('common:payments.confirm')}
+				type='footer'
 				onPress={(): void => {
 					const updatedUser = {
 						...user,
@@ -69,12 +71,13 @@ const PaymentsContent = () => {
 							tier: selectedSubscription.id
 						}
 					};
+					console.log("HERE")
 					// saveUser(updatedUser);
 					// navigation.navigate(AuthScreenEnum.GameSelection);
 				}}
 				color={theme.primaryPurple}
 			/>
-		</ScrollableList>
+		</>
 	);
 };
 

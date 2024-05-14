@@ -19,12 +19,12 @@ const useGetSubscriptionOptionsList = (): SubscriptionOptionsListProps[] => {
 				{
 					type: DatePeriodEnum.MONTHLY,
 					title: t('common:subscriptions.monthly'),
-					value: 9.99
+					value: 2.99
 				},
 				{
 					type: DatePeriodEnum.YEARLY,
 					title: t('common:subscriptions.yearly'),
-					value: 79.99
+					value: 29.99
 				}
 			],
 			title: t('common:subscriptions.premium'),

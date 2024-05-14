@@ -7,6 +7,7 @@ import SelectInitialPlan from '@screens/SelectInitialPlan.native';
 import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
 import { UnauthorizedStackParamList } from '@utils/CustomInterfaces';
 import LinkAccount from '@screens/LinkAccount.native';
+import Payments from '@screens/Payments.native';
 import Login from '@screens/Login.native';
 import ForgotPassword from '@screens/ForgotPassword.native';
 import VerifyNewPassword from '@screens/VerifyNewPassword.native';
@@ -25,6 +26,7 @@ const UnauthorizedStackNavigator = () => {
 			<Stack.Screen name={UnauthorizedScreenEnum.Login} component={Login} />
 			<Stack.Screen name={UnauthorizedScreenEnum.AccountVerification} component={AccountVerification} />
 			<Stack.Screen name={UnauthorizedScreenEnum.SelectInitialPlan} component={SelectInitialPlan} />
+			<Stack.Screen name={UnauthorizedScreenEnum.Payments} component={Payments} />
 			<Stack.Screen name={UnauthorizedScreenEnum.SelectFirstGame} component={SelectFirstGame} />
 			<Stack.Screen name={UnauthorizedScreenEnum.LinkAccount} component={LinkAccount} />
 			<Stack.Screen name={UnauthorizedScreenEnum.ForgotPassword} component={ForgotPassword} />
