@@ -1216,7 +1216,7 @@
     "dlc": "观景台",
     "subCategory": "主线任务",
     "subCategoryType": "",
-    "location": "方舟",
+    "location": "方舟与鸽子大教堂",
     "href": "",
     "conflictingIds": [],
     "section": "quests"
@@ -1229,7 +1229,7 @@
     "dlc": "观景台",
     "subCategory": "主线任务",
     "subCategoryType": "",
-    "location": "方舟",
+    "location": "方舟与鸽子大教堂",
     "href": "",
     "conflictingIds": [],
     "section": "quests"
@@ -2043,7 +2043,7 @@
   {
     "id": "2a3b45c6-7d89-h12e-fgh2-345678i9j05o",
     "mainCategory": "独特的盔甲",
-    "title": "多用途科学套装",
+    "title": "多用途科学服",
     "subCategory": "西装",
     "prerequisite": "",
     "dlc": "没有任何",
@@ -3250,7 +3250,7 @@
   },
   {
     "id": "ba67b8f3-f5c6-4f12-8e92-bb258e8bc4b8",
-    "title": "杜可夫的住所",
+    "title": "杜科夫的住所",
     "subCategory": "首都废土",
     "dlc": "没有任何",
     "mainCategory": "主要的",
@@ -3282,7 +3282,7 @@
   },
   {
     "id": "a8f8e25d-80cb-4b60-b761-f36b7bc0e6fb",
-    "title": "F.斯科特基步道",
+    "title": "F. 斯科特岛步道和露营地",
     "subCategory": "首都废土",
     "dlc": "没有任何",
     "mainCategory": "主要的",
@@ -3346,7 +3346,7 @@
   },
   {
     "id": "f2a0c0ab-98fc-4b68-b23b-5c098ac062fd",
-    "title": "更绿的牧场处置场",
+    "title": "更绿牧场处置场",
     "subCategory": "首都废土",
     "dlc": "没有任何",
     "mainCategory": "主要的",
@@ -3386,7 +3386,7 @@
   },
   {
     "id": "b27bca39-1f1f-4e9a-a7a0-05c2b48b92f1",
-    "title": "乔科的流行音乐",
+    "title": "Jocko 的流行音乐和加油站",
     "subCategory": "首都废土",
     "dlc": "没有任何",
     "mainCategory": "主要的",
@@ -3402,7 +3402,7 @@
   },
   {
     "id": "d1a3ec75-70ae-4db5-97d0-3f64dd749871",
-    "title": "凯琳的床",
+    "title": "凯琳住宿加早餐旅馆",
     "subCategory": "首都废土",
     "dlc": "没有任何",
     "mainCategory": "主要的",
@@ -4146,7 +4146,7 @@
   },
   {
     "id": "bdd1653b-2e7f-4e8e-bd2d-cc31c4e00d23",
-    "title": "圣母希望医院",
+    "title": "希望圣母医院",
     "subCategory": "华盛顿特区",
     "subCategoryType": "弗农广场区",
     "dlc": "没有任何",
@@ -4416,7 +4416,7 @@
   },
   {
     "id": "5ef9f7bc-72e4-48f3-94d8-8b86f39cf7cf",
-    "title": "地铁交通",
+    "title": "地铁接入和发电机",
     "subCategory": "地铁",
     "subCategoryType": "",
     "dlc": "没有任何",
@@ -4695,7 +4695,7 @@
   },
   {
     "id": "b32cc647-8d8c-4c3c-bdb2-5276e00edf58",
-    "title": "奥尔尼动力工厂",
+    "title": "奥尔尼动力厂",
     "subCategory": "首都废土",
     "subCategoryType": "",
     "dlc": "断钢",
@@ -4839,7 +4839,7 @@
   },
   {
     "id": "d745bf71-7b4f-46e1-b91e-056e3a1b7202",
-    "title": "方舟",
+    "title": "方舟与鸽子大教堂",
     "subCategory": "",
     "subCategoryType": "",
     "dlc": "观景台",
@@ -4848,7 +4848,7 @@
   },
   {
     "id": "4a9b2b18-b634-45d0-a832-1802d7edc6cb",
-    "title": "方舟",
+    "title": "方舟与鸽子休息地",
     "subCategory": "",
     "subCategoryType": "",
     "dlc": "观景台",
@@ -4893,7 +4893,7 @@
   },
   {
     "id": "245077df-4702-4680-bc19-208ac4c9fb64",
-    "title": "救灾前哨",
+    "title": "救灾前哨站",
     "subCategory": "",
     "subCategoryType": "",
     "dlc": "观景台",
@@ -4983,7 +4983,7 @@
   },
   {
     "id": "40cq76f8-9fd2-4376-973b-7a97107591f4",
-    "title": "奥菲氏族剧情",
+    "title": "奥菲家族剧情",
     "subCategory": "",
     "subCategoryType": "",
     "dlc": "观景台",
@@ -6244,7 +6244,7 @@
   {
     "id": "1975b5cb-6d3d-4634-8d89-21b13f26c58e",
     "mainCategory": "全息带",
-    "title": "滚滚——我们完成了",
+    "title": "罗林斯——我们完成了",
     "dlc": "没有任何",
     "subCategory": "",
     "section": "miscellaneous"
@@ -6547,40 +6547,40 @@
   },
   {
     "id": "1aa78e2e-d3a0-4f7a-80e8-5d4d07bbec20",
-    "mainCategory": "皮茨夫妇",
+    "mainCategory": "皮特",
     "title": "日记1：致玛丽",
-    "dlc": "皮茨夫妇",
+    "dlc": "皮特",
     "subCategory": "全息带",
     "section": "miscellaneous"
   },
   {
     "id": "fcfb9eae-23a2-40e0-9055-c3279a4bc12f",
-    "mainCategory": "皮茨夫妇",
+    "mainCategory": "皮特",
     "title": "日记2：天灾",
-    "dlc": "皮茨夫妇",
+    "dlc": "皮特",
     "subCategory": "全息带",
     "section": "miscellaneous"
   },
   {
     "id": "cdbdd6c6-d138-45c8-97ae-274e802bf4bc",
-    "mainCategory": "皮茨夫妇",
+    "mainCategory": "皮特",
     "title": "日记3：磨坊",
-    "dlc": "皮茨夫妇",
+    "dlc": "皮特",
     "subCategory": "全息带",
     "section": "miscellaneous"
   },
   {
     "id": "875c0f5e-9bd1-476d-a37a-2b2ec38c871f",
-    "mainCategory": "皮茨夫妇",
+    "mainCategory": "皮特",
     "title": "日记4：治愈",
-    "dlc": "皮茨夫妇",
+    "dlc": "皮特",
     "subCategory": "全息带",
     "section": "miscellaneous"
   },
   {
     "id": "acde7f54-8509-4b5c-ae3d-26a5d3aeb01e",
     "mainCategory": "断钢",
-    "title": "飞地士兵日志",
+    "title": "英克雷士兵日志 #11",
     "dlc": "断钢",
     "subCategory": "全息带",
     "section": "miscellaneous"
@@ -6644,7 +6644,7 @@
   {
     "id": "d8fb5aa1-4aa0-4af4-b0b8-ebd9a47f748f",
     "mainCategory": "断钢",
-    "title": "泰隆公司 Merc 日志",
+    "title": "泰隆公司雇佣日志 #1",
     "dlc": "断钢",
     "subCategory": "全息带",
     "section": "miscellaneous"
@@ -6652,7 +6652,7 @@
   {
     "id": "85c1924b-13d7-4531-abe8-5dd7b3f5d986",
     "mainCategory": "断钢",
-    "title": "废土人全息带",
+    "title": "废土人全息带 #1",
     "dlc": "断钢",
     "subCategory": "全息带",
     "section": "miscellaneous"
@@ -6764,7 +6764,7 @@
   {
     "id": "75f66c65-233d-4f15-b4a2-cc013498cd46",
     "mainCategory": "观景台",
-    "title": "土壤调查带",
+    "title": "土壤调查卷尺 #1",
     "dlc": "观景台",
     "subCategory": "全息带",
     "section": "miscellaneous"
@@ -6772,7 +6772,7 @@
   {
     "id": "6b3b62d1-f8f2-41d8-a8a4-635c5ed82a2f",
     "mainCategory": "观景台",
-    "title": "土壤调查带",
+    "title": "土壤调查卷尺 #2",
     "dlc": "观景台",
     "subCategory": "全息带",
     "section": "miscellaneous"
@@ -6780,7 +6780,7 @@
   {
     "id": "7a236081-09b2-4a2b-9812-b54b9c7fd94a",
     "mainCategory": "观景台",
-    "title": "土壤调查带",
+    "title": "土壤调查卷尺 #3",
     "dlc": "观景台",
     "subCategory": "全息带",
     "section": "miscellaneous"
@@ -7348,7 +7348,7 @@
   {
     "id": "8cb70d05-900b-4cb0-8913-05d6f929f087",
     "mainCategory": "笔记",
-    "title": "伯克的情书",
+    "title": "伯克的情书 #2",
     "dlc": "没有任何",
     "subCategory": "",
     "section": "miscellaneous"
@@ -7524,7 +7524,7 @@
   {
     "id": "97b4a1b3-6401-45b0-bbac-d2ff063d705f",
     "mainCategory": "笔记",
-    "title": "沃尔特的笔记",
+    "title": "沃尔特的注释",
     "dlc": "没有任何",
     "subCategory": "",
     "section": "miscellaneous"
@@ -7572,7 +7572,7 @@
   {
     "id": "9f4298c1-9b56-40e7-8c87-b45cc06a07b7",
     "mainCategory": "笔记",
-    "title": "宾夕法尼亚大街爆炸物笔记",
+    "title": "宾夕法尼亚大道爆炸物笔记",
     "dlc": "没有任何",
     "subCategory": "",
     "section": "miscellaneous"
@@ -7676,7 +7676,7 @@
   {
     "id": "9149c2b3-8c5b-4ac1-9fa1-bd81065b44b7",
     "mainCategory": "笔记",
-    "title": "搜索聚会日志",
+    "title": "搜索派对日志#1",
     "dlc": "没有任何",
     "subCategory": "",
     "section": "miscellaneous"
@@ -7684,7 +7684,7 @@
   {
     "id": "9a1b3eef-c4e0-4b25-b123-6fd49870a004",
     "mainCategory": "笔记",
-    "title": "搜索聚会日志",
+    "title": "搜索派对日志 #2",
     "dlc": "没有任何",
     "subCategory": "",
     "section": "miscellaneous"
@@ -7692,7 +7692,7 @@
   {
     "id": "305d447c-06ed-4f35-b345-4d1550db6f8b",
     "mainCategory": "笔记",
-    "title": "搜索聚会日志",
+    "title": "搜索派对日志#3",
     "dlc": "没有任何",
     "subCategory": "",
     "section": "miscellaneous"
@@ -7700,7 +7700,7 @@
   {
     "id": "c5a13e7d-07fd-4682-9e43-4f9c5c67df97",
     "mainCategory": "笔记",
-    "title": "搜索聚会日志",
+    "title": "搜索派对日志#4",
     "dlc": "没有任何",
     "subCategory": "",
     "section": "miscellaneous"
@@ -7716,7 +7716,7 @@
   {
     "id": "b1592c48-8993-4b7d-b1aa-44f54d2f1cf5",
     "mainCategory": "笔记",
-    "title": "运送电脑登录码",
+    "title": "运输电脑登录码",
     "dlc": "没有任何",
     "subCategory": "",
     "section": "miscellaneous"
@@ -7931,57 +7931,57 @@
   },
   {
     "id": "d9fd246c-5485-4f79-8317-06c54f71c447",
-    "mainCategory": "皮茨夫妇",
+    "mainCategory": "皮特",
     "title": "弹药磨坊说明",
-    "dlc": "皮茨夫妇",
+    "dlc": "皮特",
     "subCategory": "笔记",
     "section": "miscellaneous"
   },
   {
     "id": "a0d1c6a6-22f7-4c97-af16-29e22605916a",
-    "mainCategory": "皮茨夫妇",
+    "mainCategory": "皮特",
     "title": "治愈研究",
-    "dlc": "皮茨夫妇",
+    "dlc": "皮特",
     "subCategory": "笔记",
     "section": "miscellaneous"
   },
   {
     "id": "d26e66b2-422e-4d95-b4f0-f9fb79b3c636",
-    "mainCategory": "皮茨夫妇",
+    "mainCategory": "皮特",
     "title": "狂野比尔的笔记",
-    "dlc": "皮茨夫妇",
+    "dlc": "皮特",
     "subCategory": "笔记",
     "section": "miscellaneous"
   },
   {
     "id": "6e89c21a-0508-4ff0-8490-dfa05d5d42df",
-    "mainCategory": "皮茨夫妇",
+    "mainCategory": "皮特",
     "title": "工厂用钢",
-    "dlc": "皮茨夫妇",
+    "dlc": "皮特",
     "subCategory": "笔记",
     "section": "miscellaneous"
   },
   {
     "id": "7c3c7b69-85b1-4a3b-8c1d-1d2aa8ee6d79",
-    "mainCategory": "皮茨夫妇",
+    "mainCategory": "皮特",
     "title": "玛丽想要的玩具（美的版）",
-    "dlc": "皮茨夫妇",
+    "dlc": "皮特",
     "subCategory": "笔记",
     "section": "miscellaneous"
   },
   {
     "id": "3a0a15a3-1964-4fd4-a5a4-eb946ee2a0a7",
-    "mainCategory": "皮茨夫妇",
+    "mainCategory": "皮特",
     "title": "想要给玛丽的玩具（桑德拉版）",
-    "dlc": "皮茨夫妇",
+    "dlc": "皮特",
     "subCategory": "笔记",
     "section": "miscellaneous"
   },
   {
     "id": "4511cf4e-7420-4664-997f-3e6f0c3edbbf",
-    "mainCategory": "皮茨夫妇",
+    "mainCategory": "皮特",
     "title": "沃纳给美的的便条",
-    "dlc": "皮茨夫妇",
+    "dlc": "皮特",
     "subCategory": "笔记",
     "section": "miscellaneous"
   },

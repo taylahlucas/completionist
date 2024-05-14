@@ -1040,7 +1040,7 @@
     "section": "quests"
   },
   {
-    "id": "d02e1a7f-b876-4b76-9f2a-d594214f8a78",
+    "id": "d02c1a7f-b876-4b76-9f2a-d594214f8a78",
     "mainCategory": "पिट",
     "title": "गुलाम स्निच",
     "hold": "",
@@ -1053,7 +1053,7 @@
     "section": "quests"
   },
   {
-    "id": "d02e1a7f-b876-4b76-9f2a-d594214f8a78",
+    "id": "d02e1a7f-b876-4b76-9e2a-d594214f8a78",
     "mainCategory": "पिट",
     "title": "छोटे बच्चों के लिए खिलौने",
     "hold": "",
@@ -1216,7 +1216,7 @@
     "dlc": "प्वाइंट लुकआउट",
     "subCategory": "मुख्य प्रश्न",
     "subCategoryType": "",
-    "location": "ARK",
+    "location": "आर्क एंड डव कैथेड्रल",
     "href": "",
     "conflictingIds": [],
     "section": "quests"
@@ -1229,7 +1229,7 @@
     "dlc": "प्वाइंट लुकआउट",
     "subCategory": "मुख्य प्रश्न",
     "subCategoryType": "",
-    "location": "ARK",
+    "location": "आर्क एंड डव कैथेड्रल",
     "href": "",
     "conflictingIds": [],
     "section": "quests"
@@ -1313,7 +1313,7 @@
     "section": "quests"
   },
   {
-    "id": "c6e4860a-82cb-49ad-8035-9ee7f7871f29",
+    "id": "c6e486xa-82cb-49ad-8035-9ee7f7871f29",
     "mainCategory": "प्वाइंट लुकआउट",
     "title": "मखमली पर्दा",
     "hold": "",
@@ -1365,7 +1365,7 @@
     "section": "quests"
   },
   {
-    "id": "6d3df0e2-ff70-4d23-b3e5-c62af54e5b0a",
+    "id": "6d3qf0e2-ff70-4d23-b3e5-c62af54e5b0a",
     "mainCategory": "मदरशिप ज़ेटा",
     "title": "यह आकाशगंगा पर्याप्त बड़ी नहीं है...",
     "hold": "",
@@ -1391,7 +1391,7 @@
     "section": "quests"
   },
   {
-    "id": "2a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "id": "2a3b45c6-7d89-012e-fgh2-3456c8i9j05o",
     "mainCategory": "बॉबलहेड्स",
     "title": "ताकत बॉबलहेड",
     "subCategory": "विशेष।",
@@ -1461,7 +1461,7 @@
     "section": "collectables"
   },
   {
-    "id": "2a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "id": "2a3b45c6-7c89-012e-fgh2-345678i9j05o",
     "mainCategory": "बॉबलहेड्स",
     "title": "वस्तु विनिमय बॉबलहेड",
     "subCategory": "कौशल",
@@ -1591,7 +1591,7 @@
     "section": "collectables"
   },
   {
-    "id": "2a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "id": "2aeb45c6-7d89-012e-fgh2-345678i9j05o",
     "mainCategory": "अनोखा कवच",
     "title": "बम कवच",
     "subCategory": "कवच",
@@ -1661,7 +1661,7 @@
     "section": "collectables"
   },
   {
-    "id": "2a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "id": "2a3b4qc6-7d89-012e-fgh2-345678i9j05q",
     "mainCategory": "अनोखा कवच",
     "title": "बूगीमैन का हुड",
     "subCategory": "हेडवियर",
@@ -1851,7 +1851,7 @@
     "section": "collectables"
   },
   {
-    "id": "2a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "id": "2a3b45c6-7d89-01ce-fgh2-345678i9j05o",
     "mainCategory": "अनोखा कवच",
     "title": "बख्तरबंद वॉल्ट 101 जंपसूट",
     "subCategory": "jumpsuits",
@@ -1901,7 +1901,7 @@
     "section": "collectables"
   },
   {
-    "id": "2a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "id": "ca3b45c6-7d89-012e-fgh2-345678i9j05o",
     "mainCategory": "अनोखा कवच",
     "title": "पिताजी की बंजरभूमि पोशाक",
     "subCategory": "संगठनों",
@@ -1981,7 +1981,7 @@
     "section": "collectables"
   },
   {
-    "id": "2a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "id": "2a3b45c6-7d89-012e-hgh2-345678i9j05o",
     "mainCategory": "अनोखा कवच",
     "title": "अशूर की शक्ति कवच",
     "subCategory": "शक्ति कवच",
@@ -2041,7 +2041,7 @@
     "section": "collectables"
   },
   {
-    "id": "2a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "id": "2a3b45c6-7d89-h12e-fgh2-345678i9j05o",
     "mainCategory": "अनोखा कवच",
     "title": "सर्व-उद्देश्यीय विज्ञान सूट",
     "subCategory": "सूट",
@@ -2101,7 +2101,7 @@
     "section": "collectables"
   },
   {
-    "id": "2a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "id": "2a3b4hc6-7d89-012e-fgh2-345678i9j05o",
     "mainCategory": "अनोखा कवच",
     "title": "कर्नल शरद की वर्दी",
     "subCategory": "वर्दी",
@@ -2131,7 +2131,7 @@
     "section": "collectables"
   },
   {
-    "id": "2a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "id": "2a3b45c6-7q89-012e-fgh2-345678i9j05o",
     "mainCategory": "अनोखा कवच",
     "title": "ऑल-नाइटर नाइटवियर",
     "subCategory": "मिश्रित",
@@ -2261,7 +2261,7 @@
     "section": "collectables"
   },
   {
-    "id": "2a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "id": "2a3b45c6-7d89-012e-fgh2-345c78i9j05q",
     "mainCategory": "अनोखे हथियार",
     "title": "फ़िस्तो!",
     "subCategory": "निहत्थे हथियार",
@@ -2271,7 +2271,7 @@
     "section": "collectables"
   },
   {
-    "id": "9a15b3b7-96fc-4620-bb1a-5f8a1b39824b",
+    "id": "9a15bdb7-96fc-4620-bb1a-5f8a1b39824b",
     "mainCategory": "अनोखे हथियार",
     "title": "प्लंकेट के मान्य बिंदु",
     "subCategory": "निहत्थे हथियार",
@@ -2281,7 +2281,7 @@
     "section": "collectables"
   },
   {
-    "id": "b203a116-1e05-4f4f-856f-981422baf9bc",
+    "id": "b203a116-1el5-4f4f-856f-981422baf9bc",
     "mainCategory": "पिट",
     "title": "स्टील के पोर",
     "subCategory": "अनोखे हथियार",
@@ -2291,7 +2291,7 @@
     "section": "collectables"
   },
   {
-    "id": "cf9495f1-0c29-4be7-8911-261fb7f71b07",
+    "id": "cf94c5f1-0c29-4be7-8911-261fb7f71b07",
     "mainCategory": "अनोखे हथियार",
     "title": "सदमा देने वाला",
     "subCategory": "निहत्थे हथियार",
@@ -2301,7 +2301,7 @@
     "section": "collectables"
   },
   {
-    "id": "2a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "id": "2a3b45c6-7d89-012e-fgh2-34567qi9j05o",
     "mainCategory": "अनोखे हथियार",
     "title": "चींटी का डंक",
     "subCategory": "हाथापाई के हथियार",
@@ -2331,7 +2331,7 @@
     "section": "collectables"
   },
   {
-    "id": "cf9495f1-0c29-4be7-8911-261fb7f71b07",
+    "id": "cf9495f1-0c29-4be7-8911-261fb7f71p07",
     "mainCategory": "मदरशिप ज़ेटा",
     "title": "इलेक्ट्रो-सप्रेसर",
     "subCategory": "अनोखे हथियार",
@@ -2341,7 +2341,7 @@
     "section": "collectables"
   },
   {
-    "id": "cf9495f1-0c29-4be7-8911-261fb7f71b07",
+    "id": "cf9495f1-0c29-4be7-8p11-261fb7f71b07",
     "mainCategory": "अनोखे हथियार",
     "title": "फॉक्स का सुपर स्लेज",
     "subCategory": "हाथापाई के हथियार",
@@ -2351,7 +2351,7 @@
     "section": "collectables"
   },
   {
-    "id": "cf9495f1-0c29-4be7-8911-261fb7f71b07",
+    "id": "cf9495f1-0c29-4pe7-8911-261fb7f71b07",
     "mainCategory": "प्वाइंट लुकआउट",
     "title": "उर्वरक फावड़ा",
     "subCategory": "अनोखे हथियार",
@@ -2361,7 +2361,7 @@
     "section": "collectables"
   },
   {
-    "id": "cf9495f1-0c29-4be7-8911-261fb7f71b07",
+    "id": "cf9495k1-0c29-4be7-8911-261fb7f71b07",
     "mainCategory": "अनोखे हथियार",
     "title": "हाइवेमैन का दोस्त",
     "subCategory": "हाथापाई के हथियार",
@@ -2371,7 +2371,7 @@
     "section": "collectables"
   },
   {
-    "id": "cf9495f1-0c29-4be7-8911-261fb7f71b07",
+    "id": "cf9495f1-0k29-4be7-8911-261fb7f71b07",
     "mainCategory": "अनोखे हथियार",
     "title": "जैक",
     "subCategory": "हाथापाई के हथियार",
@@ -2391,7 +2391,7 @@
     "section": "collectables"
   },
   {
-    "id": "2a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "id": "2a3b45c6-7d89-0q2e-fgh2-345678i9j05o",
     "mainCategory": "पिट",
     "title": "मैन ओपनर",
     "subCategory": "अनोखे हथियार",
@@ -3034,7 +3034,7 @@
   },
   {
     "id": "1a25977d-5070-499a-b7da-1a31b0b1d333",
-    "title": "रीली रेंजर्स कंपाउंड",
+    "title": "रीली का रेंजर्स कंपाउंड",
     "subCategory": "बस्तियों",
     "dlc": "कोई नहीं",
     "mainCategory": "मुख्य",
@@ -3282,7 +3282,7 @@
   },
   {
     "id": "a8f8e25d-80cb-4b60-b761-f36b7bc0e6fb",
-    "title": "एफ. स्कॉट की ट्रेल",
+    "title": "एफ. स्कॉट की ट्रेल और कैम्पग्राउंड",
     "subCategory": "राजधानी बंजरभूमि",
     "dlc": "कोई नहीं",
     "mainCategory": "मुख्य",
@@ -3386,7 +3386,7 @@
   },
   {
     "id": "b27bca39-1f1f-4e9a-a7a0-05c2b48b92f1",
-    "title": "जोको का पॉप",
+    "title": "जोको का पॉप और गैस स्टॉप",
     "subCategory": "राजधानी बंजरभूमि",
     "dlc": "कोई नहीं",
     "mainCategory": "मुख्य",
@@ -3402,7 +3402,7 @@
   },
   {
     "id": "d1a3ec75-70ae-4db5-97d0-3f64dd749871",
-    "title": "केलीन का बिस्तर",
+    "title": "केलीन का बिस्तर और नाश्ता",
     "subCategory": "राजधानी बंजरभूमि",
     "dlc": "कोई नहीं",
     "mainCategory": "मुख्य",
@@ -3731,7 +3731,7 @@
   {
     "id": "6c9354ae-e4df-44e2-a91a-0016a109788d",
     "title": "व्हीटन शस्त्रागार",
-    "subCategory": "राजधानी बंजर भूमि",
+    "subCategory": "राजधानी बंजरभूमि",
     "dlc": "कोई नहीं",
     "mainCategory": "मुख्य",
     "section": "locations"
@@ -3739,7 +3739,7 @@
   {
     "id": "fa5b92e5-0dcf-4f23-8170-5d71fb28b264",
     "title": "WKML प्रसारण स्टेशन",
-    "subCategory": "राजधानी बंजर भूमि",
+    "subCategory": "राजधानी बंजरभूमि",
     "dlc": "कोई नहीं",
     "mainCategory": "मुख्य",
     "section": "locations"
@@ -3747,7 +3747,7 @@
   {
     "id": "c9f67013-4be4-43b8-b027-525e9063b3ab",
     "title": "याओ गुई सुरंगें",
-    "subCategory": "राजधानी बंजर भूमि",
+    "subCategory": "राजधानी बंजरभूमि",
     "dlc": "कोई नहीं",
     "mainCategory": "मुख्य",
     "section": "locations"
@@ -3755,7 +3755,7 @@
   {
     "id": "b899e175-3d46-4742-99b4-7e5692403341",
     "title": "पवित्र प्रकाश मठ",
-    "subCategory": "राजधानी बंजर भूमि",
+    "subCategory": "राजधानी बंजरभूमि",
     "dlc": "टूटा हुआ स्टील",
     "mainCategory": "टूटा हुआ स्टील",
     "section": "locations"
@@ -3763,29 +3763,29 @@
   {
     "id": "68d6acdb-df6c-41c1-8a45-0d9e2d42f246",
     "title": "रॉकलैंड कार सुरंग",
-    "subCategory": "राजधानी बंजर भूमि",
+    "subCategory": "राजधानी बंजरभूमि",
     "dlc": "टूटा हुआ स्टील",
     "mainCategory": "टूटा हुआ स्टील",
     "section": "locations"
   },
   {
-    "id": "d615aaf1-59b4-4efb-bce6-705c5a5f12b6",
+    "id": "d615aaq1-59b4-4efb-bce6-705c5a5f12b6",
     "title": "सैटेलाइट रिले स्टेशन",
-    "subCategory": "राजधानी बंजर भूमि",
+    "subCategory": "राजधानी बंजरभूमि",
     "dlc": "टूटा हुआ स्टील",
     "mainCategory": "टूटा हुआ स्टील",
     "section": "locations"
   },
   {
-    "id": "d615aaf1-59b4-4efb-bce6-705c5a5f12b6",
+    "id": "d615aaf1-59b4-4eqb-bce6-705c5a5f12b6",
     "title": "रेडियो टावर",
-    "subCategory": "राजधानी बंजर भूमि",
+    "subCategory": "राजधानी बंजरभूमि",
     "dlc": "पिट",
     "mainCategory": "पिट",
     "section": "locations"
   },
   {
-    "id": "e56fb08a-2bb1-463f-8400-56bf53035210",
+    "id": "e56fb08c-2bb1-463f-8400-56bf53035210",
     "title": "एनाकोस्टिया जिला",
     "subCategory": "वाशिंगटन डीसी",
     "subCategoryType": "एनाकोस्टिया जिला",
@@ -3830,7 +3830,7 @@
     "section": "locations"
   },
   {
-    "id": "ee9f8e1f-1e2b-21e4-4f07-1c3b5a9a68e4",
+    "id": "eq9f8e1f-1e2b-21e4-4f07-1c3b5a9a68e4",
     "title": "बेली का चौराहा जिला",
     "subCategory": "वाशिंगटन डीसी",
     "subCategoryType": "बेली का चौराहा जिला",
@@ -3875,7 +3875,7 @@
     "section": "locations"
   },
   {
-    "id": "ee9f8e1f-de2b-41e4-4f0c-1c3b5a9a68e4",
+    "id": "ee9f8e1f-de2b-41g4-4f0c-1c3b5a9a68e4",
     "title": "डुपोंट सर्कल जिला",
     "subCategory": "वाशिंगटन डीसी",
     "subCategoryType": "डुपोंट सर्कल जिला",
@@ -3884,7 +3884,7 @@
     "section": "locations"
   },
   {
-    "id": "ee9f8e1f-de2b-41e4-4f0c-1c3b5a9a68e4",
+    "id": "ee9f8e1f-de2b-41e4-4f0c-1c3b5a9a6ce4",
     "title": "फॉल्स चर्च जिला",
     "subCategory": "वाशिंगटन डीसी",
     "subCategoryType": "फॉल्स चर्च जिला",
@@ -3929,7 +3929,7 @@
     "section": "locations"
   },
   {
-    "id": "4e9f8e1f-de2b-41e4-4f07-1c3b5a9a68e4",
+    "id": "4e9f8e1f-de2b-d1e4-4f07-1c3b5a9a68e4",
     "title": "पेंसिल्वेनिया एवेन्यू जिला",
     "subCategory": "वाशिंगटन डीसी",
     "subCategoryType": "पेंसिल्वेनिया एवेन्यू जिला",
@@ -3938,7 +3938,7 @@
     "section": "locations"
   },
   {
-    "id": "4e9f8e1f-de2b-41e4-4f07-1c3b5a9a68e4",
+    "id": "4e9f8e1f-de2b-41e4-4f07-1c3b5a9a68w4",
     "title": "सफेद घर",
     "subCategory": "वाशिंगटन डीसी",
     "subCategoryType": "पेंसिल्वेनिया एवेन्यू जिला",
@@ -3956,7 +3956,7 @@
     "section": "locations"
   },
   {
-    "id": "31d1b5f0-8932-4e3c-b9c5-6fcb1c028402",
+    "id": "31d1b5fc-8932-4e3c-b9c5-6fcb1c028402",
     "title": "पोटोमैक नदी",
     "subCategory": "वाशिंगटन डीसी",
     "subCategoryType": "पोटोमैक नदी",
@@ -3965,7 +3965,7 @@
     "section": "locations"
   },
   {
-    "id": "31d1b5f0-8932-4e3c-b9c5-6fcb1c028402",
+    "id": "31d1b5f0-8932-4e3c-b9c5-6fcw1c028402",
     "title": "अलेक्जेंड्रिया आर्म्स",
     "subCategory": "वाशिंगटन डीसी",
     "subCategoryType": "पोटोमैक नदी",
@@ -4028,7 +4028,7 @@
     "section": "locations"
   },
   {
-    "id": "4b535a44-d7cf-4624-8a21-d4b7a0f4b38e",
+    "id": "4b535a44-d7cf-4604-8a21-d4b7a0f4b38e",
     "title": "सीवार्ड स्क्वायर जिला",
     "subCategory": "वाशिंगटन डीसी",
     "subCategoryType": "सीवार्ड स्क्वायर जिला",
@@ -4055,7 +4055,7 @@
     "section": "locations"
   },
   {
-    "id": "n875c74e-71fd-4ae6-835d-20a2d6e7a5b5",
+    "id": "n875c74e-71fd-pae6-835d-20a2d6e7a5b5",
     "title": "टकोमा पार्क जिला",
     "subCategory": "वाशिंगटन डीसी",
     "subCategoryType": "टकोमा पार्क जिला",
@@ -4416,7 +4416,7 @@
   },
   {
     "id": "5ef9f7bc-72e4-48f3-94d8-8b86f39cf7cf",
-    "title": "मेट्रो पहुंच",
+    "title": "मेट्रो पहुंच और जनरेटर",
     "subCategory": "मेट्रो",
     "subCategoryType": "",
     "dlc": "कोई नहीं",
@@ -4660,7 +4660,7 @@
   {
     "id": "c499e1c1-1f3a-47f3-b75b-3b7a8d787e2c",
     "title": "हैंक की विद्युत आपूर्ति",
-    "subCategory": "राजधानी बंजर भूमि",
+    "subCategory": "राजधानी बंजरभूमि",
     "subCategoryType": "",
     "dlc": "टूटा हुआ स्टील",
     "mainCategory": "टूटा हुआ स्टील",
@@ -4669,7 +4669,7 @@
   {
     "id": "9651fcb8-53ec-465f-8140-1b9f1849bce7",
     "title": "पवित्र प्रकाश मठ",
-    "subCategory": "राजधानी बंजर भूमि",
+    "subCategory": "राजधानी बंजरभूमि",
     "subCategoryType": "",
     "dlc": "टूटा हुआ स्टील",
     "mainCategory": "टूटा हुआ स्टील",
@@ -4678,7 +4678,7 @@
   {
     "id": "f028a10e-176b-4b60-93b6-5c16db5d93d7",
     "title": "ओल्ड ओल्नी एस. विल्सन बिल्डिंग",
-    "subCategory": "राजधानी बंजर भूमि",
+    "subCategory": "राजधानी बंजरभूमि",
     "subCategoryType": "",
     "dlc": "टूटा हुआ स्टील",
     "mainCategory": "टूटा हुआ स्टील",
@@ -4687,7 +4687,7 @@
   {
     "id": "7c2e24cf-084f-426e-9fa7-0972c25c81eb",
     "title": "ओल्ड ओल्नी भूमिगत",
-    "subCategory": "राजधानी बंजर भूमि",
+    "subCategory": "राजधानी बंजरभूमि",
     "subCategoryType": "",
     "dlc": "टूटा हुआ स्टील",
     "mainCategory": "टूटा हुआ स्टील",
@@ -4696,7 +4696,7 @@
   {
     "id": "b32cc647-8d8c-4c3c-bdb2-5276e00edf58",
     "title": "ओल्नी पावरवर्क्स",
-    "subCategory": "राजधानी बंजर भूमि",
+    "subCategory": "राजधानी बंजरभूमि",
     "subCategoryType": "",
     "dlc": "टूटा हुआ स्टील",
     "mainCategory": "टूटा हुआ स्टील",
@@ -4705,7 +4705,7 @@
   {
     "id": "fbb1e03d-4bf3-4a07-a9c7-11a45c88b3e1",
     "title": "रॉकलैंड कार सुरंग",
-    "subCategory": "राजधानी बंजर भूमि",
+    "subCategory": "राजधानी बंजरभूमि",
     "subCategoryType": "",
     "dlc": "टूटा हुआ स्टील",
     "mainCategory": "टूटा हुआ स्टील",
@@ -4714,7 +4714,7 @@
   {
     "id": "ad2ad541-d62d-4be6-8601-4b143352454f",
     "title": "सैटेलाइट रिले स्टेशन",
-    "subCategory": "राजधानी बंजर भूमि",
+    "subCategory": "राजधानी बंजरभूमि",
     "subCategoryType": "",
     "dlc": "टूटा हुआ स्टील",
     "mainCategory": "टूटा हुआ स्टील",
@@ -4811,7 +4811,7 @@
     "section": "locations"
   },
   {
-    "id": "b69a1a38-6e8d-4397-9f99-86087e2588f0",
+    "id": "b69a1a38-6eod-4397-9f99-86087e2588f0",
     "title": "अपटाउन",
     "subCategory": "अपटाउन",
     "subCategoryType": "",
@@ -4839,7 +4839,7 @@
   },
   {
     "id": "d745bf71-7b4f-46e1-b91e-056e3a1b7202",
-    "title": "ARK",
+    "title": "आर्क एंड डव कैथेड्रल",
     "subCategory": "",
     "subCategoryType": "",
     "dlc": "प्वाइंट लुकआउट",
@@ -4848,7 +4848,7 @@
   },
   {
     "id": "4a9b2b18-b634-45d0-a832-1802d7edc6cb",
-    "title": "ARK",
+    "title": "सन्दूक और कबूतर विश्राम स्थल",
     "subCategory": "",
     "subCategoryType": "",
     "dlc": "प्वाइंट लुकआउट",
@@ -4982,7 +4982,7 @@
     "section": "locations"
   },
   {
-    "id": "40c376f8-9fd2-4376-973b-7a97107591f4",
+    "id": "40cq76f8-9fd2-4376-973b-7a97107591f4",
     "title": "ओफी कबीले की साजिश",
     "subCategory": "",
     "subCategoryType": "",
@@ -5858,7 +5858,7 @@
     "section": "miscellaneous"
   },
   {
-    "id": "5f417b32-86b5-4b37-aa8f-bb5b6ae98e17",
+    "id": "5f417b32-86b5-4b37-aa8f-bb4b6ae98e17",
     "mainCategory": "होलोटेप्स",
     "title": "मर्क के आदेश",
     "dlc": "कोई नहीं",
@@ -5866,7 +5866,7 @@
     "section": "miscellaneous"
   },
   {
-    "id": "88f53d55-700d-47d3-9a5b-4e10a9c30fc8",
+    "id": "88f53d5s-700d-47d3-9a5b-4e10a9c30fc8",
     "mainCategory": "होलोटेप्स",
     "title": "मेसमेट्रॉन मैनुअल - सारांश पृष्ठ",
     "dlc": "कोई नहीं",
@@ -5882,7 +5882,7 @@
     "section": "miscellaneous"
   },
   {
-    "id": "ed20077a-062a-4919-86a2-d57e7bfdf01b",
+    "id": "ed20077a-062a-49f9-86a2-d57e7bfdf01b",
     "mainCategory": "होलोटेप्स",
     "title": "मोइरा का टर्मिनल पासवर्ड",
     "dlc": "कोई नहीं",
@@ -5898,7 +5898,7 @@
     "section": "miscellaneous"
   },
   {
-    "id": "4dd424f1-f43e-4865-8371-79a8a41f15d8",
+    "id": "4dd424f1-f43e-4865-8371-79a8a41f15dg",
     "mainCategory": "होलोटेप्स",
     "title": "मेरी डायरी, जेसन ग्रांट द्वारा - प्रविष्टि 2",
     "dlc": "कोई नहीं",
@@ -5922,7 +5922,7 @@
     "section": "miscellaneous"
   },
   {
-    "id": "fe1467c1-78e3-4aa5-85b7-03271d462e1e",
+    "id": "fe1467c1-78eq-4aa5-85b7-03271d462e1e",
     "mainCategory": "होलोटेप्स",
     "title": "लाइब्रेरियन को नोट",
     "dlc": "कोई नहीं",
@@ -5954,7 +5954,7 @@
     "section": "miscellaneous"
   },
   {
-    "id": "c9718a25-29ff-4a46-a0a5-eb9a6478020b",
+    "id": "CE718a25-29ff-4a46-a0a5-eb9a6478020b",
     "mainCategory": "होलोटेप्स",
     "title": "मेट्रो कंप्यूटर पासवर्ड",
     "dlc": "कोई नहीं",
@@ -5970,7 +5970,7 @@
     "section": "miscellaneous"
   },
   {
-    "id": "b7e3fe6c-2b2e-4d6f-bf38-9252d6d238a5",
+    "id": "b7e3fe6c-2b2e-4dgf-bf38-9252d6d238a5",
     "mainCategory": "होलोटेप्स",
     "title": "मेरी डायरी, जेसन ग्रांट द्वारा - प्रविष्टि 1",
     "dlc": "कोई नहीं",
@@ -5986,7 +5986,7 @@
     "section": "miscellaneous"
   },
   {
-    "id": "b7b3283d-b780-4d4a-b6a6-df10e90ffaa6",
+    "id": "b7b3283d-b780-4d4a-b6a6-dfc0e90ffaa6",
     "mainCategory": "होलोटेप्स",
     "title": "टेड के लिए नोट",
     "dlc": "कोई नहीं",
@@ -5994,7 +5994,7 @@
     "section": "miscellaneous"
   },
   {
-    "id": "22e3ae2e-0c41-42b3-b2b3-56f6d4e42613",
+    "id": "22h3ae2e-0c41-42b3-b2b3-56f6d4e42613",
     "mainCategory": "होलोटेप्स",
     "title": "पिताजी से नोट",
     "dlc": "कोई नहीं",
@@ -6010,7 +6010,7 @@
     "section": "miscellaneous"
   },
   {
-    "id": "5d17ee0f-f501-49c8-91ae-6b3b159a2e36",
+    "id": "5d17ge0f-f501-49c8-91ae-6b3b159a2e36",
     "mainCategory": "होलोटेप्स",
     "title": "ओएसिस समन्वय करता है",
     "dlc": "कोई नहीं",
@@ -6044,7 +6044,7 @@
   {
     "id": "d8c97d95-dcc3-4b90-898d-44ed2bdf0b22",
     "mainCategory": "होलोटेप्स",
-    "title": "प्रोफेसर मैलियस ऑडियो लॉग V92-03",
+    "title": "प्रोफेसर मैलेयस ऑडियो लॉग V92-03",
     "dlc": "कोई नहीं",
     "subCategory": "",
     "section": "miscellaneous"
@@ -6052,7 +6052,7 @@
   {
     "id": "e5501458-2385-4a63-86a3-90e7f98f1468",
     "mainCategory": "होलोटेप्स",
-    "title": "प्रोफेसर मैलेयस ऑडियो लॉग V92-04",
+    "title": "प्रोफेसर मैलियस ऑडियो लॉग V92-04",
     "dlc": "कोई नहीं",
     "subCategory": "",
     "section": "miscellaneous"
@@ -6060,7 +6060,7 @@
   {
     "id": "3e9f1c78-787a-4c2d-8a05-758e863ec9f4",
     "mainCategory": "होलोटेप्स",
-    "title": "प्रोफेसर मैलियस ऑडियो लॉग V92-05",
+    "title": "प्रोफेसर मैलेयस ऑडियो लॉग V92-05",
     "dlc": "कोई नहीं",
     "subCategory": "",
     "section": "miscellaneous"
@@ -6068,7 +6068,7 @@
   {
     "id": "9e95d588-b7a9-4c0e-a5bc-05c4802222c7",
     "mainCategory": "होलोटेप्स",
-    "title": "प्रोफेसर मैलियस ऑडियो लॉग V92-06",
+    "title": "प्रोफेसर मैलेयस ऑडियो लॉग V92-06",
     "dlc": "कोई नहीं",
     "subCategory": "",
     "section": "miscellaneous"
@@ -6298,7 +6298,7 @@
     "section": "miscellaneous"
   },
   {
-    "id": "b9fd7fd0-9d6a-4b3f-802f-92ABA032b49",
+    "id": "b9fd7fd0-9d6a-4b3f-802f-92aba032b49",
     "mainCategory": "होलोटेप्स",
     "title": "लाइटमैन का गाना",
     "dlc": "कोई नहीं",
@@ -6484,7 +6484,7 @@
   {
     "id": "8c52fcac-8727-45cb-9bb9-bd3d4057bc12",
     "mainCategory": "ऑपरेशन: एंकरेज",
-    "title": "होलोटेप - ओवररन",
+    "title": "होलोटेप - अतिप्रवाह",
     "dlc": "ऑपरेशन: एंकरेज",
     "subCategory": "होलोटेप्स",
     "section": "miscellaneous"
@@ -6547,40 +6547,40 @@
   },
   {
     "id": "1aa78e2e-d3a0-4f7a-80e8-5d4d07bbec20",
-    "mainCategory": "पिट्स",
+    "mainCategory": "पिट",
     "title": "डायरी 1: मैरी को",
-    "dlc": "पिट्स",
+    "dlc": "पिट",
     "subCategory": "होलोटेप्स",
     "section": "miscellaneous"
   },
   {
     "id": "fcfb9eae-23a2-40e0-9055-c3279a4bc12f",
-    "mainCategory": "पिट्स",
+    "mainCategory": "पिट",
     "title": "डायरी 2: संकट",
-    "dlc": "पिट्स",
+    "dlc": "पिट",
     "subCategory": "होलोटेप्स",
     "section": "miscellaneous"
   },
   {
     "id": "cdbdd6c6-d138-45c8-97ae-274e802bf4bc",
-    "mainCategory": "पिट्स",
+    "mainCategory": "पिट",
     "title": "डायरी 3: मिल",
-    "dlc": "पिट्स",
+    "dlc": "पिट",
     "subCategory": "होलोटेप्स",
     "section": "miscellaneous"
   },
   {
     "id": "875c0f5e-9bd1-476d-a37a-2b2ec38c871f",
-    "mainCategory": "पिट्स",
+    "mainCategory": "पिट",
     "title": "डायरी 4: इलाज",
-    "dlc": "पिट्स",
+    "dlc": "पिट",
     "subCategory": "होलोटेप्स",
     "section": "miscellaneous"
   },
   {
     "id": "acde7f54-8509-4b5c-ae3d-26a5d3aeb01e",
     "mainCategory": "टूटा हुआ स्टील",
-    "title": "एन्क्लेव सैनिक लॉग",
+    "title": "एन्क्लेव सैनिक लॉग #11",
     "dlc": "टूटा हुआ स्टील",
     "subCategory": "होलोटेप्स",
     "section": "miscellaneous"
@@ -6644,7 +6644,7 @@
   {
     "id": "d8fb5aa1-4aa0-4af4-b0b8-ebd9a47f748f",
     "mainCategory": "टूटा हुआ स्टील",
-    "title": "टैलोन कंपनी मर्क लॉग",
+    "title": "टैलोन कंपनी मर्क लॉग #1",
     "dlc": "टूटा हुआ स्टील",
     "subCategory": "होलोटेप्स",
     "section": "miscellaneous"
@@ -6652,7 +6652,7 @@
   {
     "id": "85c1924b-13d7-4531-abe8-5dd7b3f5d986",
     "mainCategory": "टूटा हुआ स्टील",
-    "title": "बंजर भूमि होलोटेप",
+    "title": "बंजर भूमि होलोटेप #1",
     "dlc": "टूटा हुआ स्टील",
     "subCategory": "होलोटेप्स",
     "section": "miscellaneous"
@@ -6764,7 +6764,7 @@
   {
     "id": "75f66c65-233d-4f15-b4a2-cc013498cd46",
     "mainCategory": "प्वाइंट लुकआउट",
-    "title": "मृदा सर्वेक्षण टेप",
+    "title": "मृदा सर्वेक्षण टेप #1",
     "dlc": "प्वाइंट लुकआउट",
     "subCategory": "होलोटेप्स",
     "section": "miscellaneous"
@@ -6772,7 +6772,7 @@
   {
     "id": "6b3b62d1-f8f2-41d8-a8a4-635c5ed82a2f",
     "mainCategory": "प्वाइंट लुकआउट",
-    "title": "मृदा सर्वेक्षण टेप",
+    "title": "मृदा सर्वेक्षण टेप #2",
     "dlc": "प्वाइंट लुकआउट",
     "subCategory": "होलोटेप्स",
     "section": "miscellaneous"
@@ -6780,7 +6780,7 @@
   {
     "id": "7a236081-09b2-4a2b-9812-b54b9c7fd94a",
     "mainCategory": "प्वाइंट लुकआउट",
-    "title": "मृदा सर्वेक्षण टेप",
+    "title": "मृदा सर्वेक्षण टेप #3",
     "dlc": "प्वाइंट लुकआउट",
     "subCategory": "होलोटेप्स",
     "section": "miscellaneous"
@@ -7348,7 +7348,7 @@
   {
     "id": "8cb70d05-900b-4cb0-8913-05d6f929f087",
     "mainCategory": "टिप्पणियाँ",
-    "title": "बर्क से प्रेम पत्र",
+    "title": "बर्क #2 से प्रेम पत्र",
     "dlc": "कोई नहीं",
     "subCategory": "",
     "section": "miscellaneous"
@@ -7676,7 +7676,7 @@
   {
     "id": "9149c2b3-8c5b-4ac1-9fa1-bd81065b44b7",
     "mainCategory": "टिप्पणियाँ",
-    "title": "पार्टी लॉग खोजें",
+    "title": "खोज पार्टी लॉग #1",
     "dlc": "कोई नहीं",
     "subCategory": "",
     "section": "miscellaneous"
@@ -7684,7 +7684,7 @@
   {
     "id": "9a1b3eef-c4e0-4b25-b123-6fd49870a004",
     "mainCategory": "टिप्पणियाँ",
-    "title": "पार्टी लॉग खोजें",
+    "title": "पार्टी लॉग खोजें #2",
     "dlc": "कोई नहीं",
     "subCategory": "",
     "section": "miscellaneous"
@@ -7692,7 +7692,7 @@
   {
     "id": "305d447c-06ed-4f35-b345-4d1550db6f8b",
     "mainCategory": "टिप्पणियाँ",
-    "title": "पार्टी लॉग खोजें",
+    "title": "पार्टी लॉग खोजें #3",
     "dlc": "कोई नहीं",
     "subCategory": "",
     "section": "miscellaneous"
@@ -7700,7 +7700,7 @@
   {
     "id": "c5a13e7d-07fd-4682-9e43-4f9c5c67df97",
     "mainCategory": "टिप्पणियाँ",
-    "title": "पार्टी लॉग खोजें",
+    "title": "खोज पार्टी लॉग #4",
     "dlc": "कोई नहीं",
     "subCategory": "",
     "section": "miscellaneous"
@@ -7931,57 +7931,57 @@
   },
   {
     "id": "d9fd246c-5485-4f79-8317-06c54f71c447",
-    "mainCategory": "पिट्स",
+    "mainCategory": "पिट",
     "title": "बारूद मिल निर्देश",
-    "dlc": "पिट्स",
+    "dlc": "पिट",
     "subCategory": "टिप्पणियाँ",
     "section": "miscellaneous"
   },
   {
     "id": "a0d1c6a6-22f7-4c97-af16-29e22605916a",
-    "mainCategory": "पिट्स",
+    "mainCategory": "पिट",
     "title": "इलाज अनुसंधान",
-    "dlc": "पिट्स",
+    "dlc": "पिट",
     "subCategory": "टिप्पणियाँ",
     "section": "miscellaneous"
   },
   {
     "id": "d26e66b2-422e-4d95-b4f0-f9fb79b3c636",
-    "mainCategory": "पिट्स",
+    "mainCategory": "पिट",
     "title": "वाइल्ड बिल से नोट",
-    "dlc": "पिट्स",
+    "dlc": "पिट",
     "subCategory": "टिप्पणियाँ",
     "section": "miscellaneous"
   },
   {
     "id": "6e89c21a-0508-4ff0-8490-dfa05d5d42df",
-    "mainCategory": "पिट्स",
+    "mainCategory": "पिट",
     "title": "मिल के लिए स्टील",
-    "dlc": "पिट्स",
+    "dlc": "पिट",
     "subCategory": "टिप्पणियाँ",
     "section": "miscellaneous"
   },
   {
     "id": "7c3c7b69-85b1-4a3b-8c1d-1d2aa8ee6d79",
-    "mainCategory": "पिट्स",
+    "mainCategory": "पिट",
     "title": "मैरी के लिए खिलौने चाहिए (मीडिया संस्करण)",
-    "dlc": "पिट्स",
+    "dlc": "पिट",
     "subCategory": "टिप्पणियाँ",
     "section": "miscellaneous"
   },
   {
     "id": "3a0a15a3-1964-4fd4-a5a4-eb946ee2a0a7",
-    "mainCategory": "पिट्स",
+    "mainCategory": "पिट",
     "title": "मैरी के लिए खिलौने चाहिए (सैंड्रा संस्करण)",
-    "dlc": "पिट्स",
+    "dlc": "पिट",
     "subCategory": "टिप्पणियाँ",
     "section": "miscellaneous"
   },
   {
     "id": "4511cf4e-7420-4664-997f-3e6f0c3edbbf",
-    "mainCategory": "पिट्स",
+    "mainCategory": "पिट",
     "title": "मिडिया को वर्नर का नोट",
-    "dlc": "पिट्स",
+    "dlc": "पिट",
     "subCategory": "टिप्पणियाँ",
     "section": "miscellaneous"
   },

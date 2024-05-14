@@ -392,7 +392,7 @@
   {
     "id": "d09e6113-fa01-490a-b2c4-12c2b130f010",
     "mainCategory": "Nhiệm vụ phụ",
-    "title": "Rắc rối ở quê hương",
+    "title": "Rắc rối ở quê nhà",
     "hold": "",
     "dlc": "Không có",
     "subCategory": "",
@@ -1216,7 +1216,7 @@
     "dlc": "Điểm quan sát",
     "subCategory": "Nhiệm vụ chính",
     "subCategoryType": "",
-    "location": "hòm",
+    "location": "Nhà thờ Ark & Dove",
     "href": "",
     "conflictingIds": [],
     "section": "quests"
@@ -1229,7 +1229,7 @@
     "dlc": "Điểm quan sát",
     "subCategory": "Nhiệm vụ chính",
     "subCategoryType": "",
-    "location": "hòm",
+    "location": "Nhà thờ Ark & Dove",
     "href": "",
     "conflictingIds": [],
     "section": "quests"
@@ -1953,7 +1953,7 @@
   {
     "id": "0482999a-4875-4821-8dd0-08f65a42dc71",
     "mainCategory": "Giáp độc nhất",
-    "title": "Trang phục của người lạ bí ẩn",
+    "title": "Trang phục người lạ bí ẩn",
     "subCategory": "Trang phục",
     "prerequisite": "",
     "dlc": "Không có",
@@ -2423,7 +2423,7 @@
   {
     "id": "66c55fc2-7e2d-4e8f-8d17-3cb4af740132",
     "mainCategory": "Điểm quan sát",
-    "title": "Con dao nghi lễ",
+    "title": "Dao nghi lễ",
     "subCategory": "Vũ khí độc đáo",
     "prerequisite": "",
     "dlc": "Điểm quan sát",
@@ -2813,7 +2813,7 @@
   {
     "id": "6b57a63b-64e3-4e1e-8b8e-44d54e8c87c0",
     "mainCategory": "Vũ khí độc đáo",
-    "title": "Súng laze của Đại tá Autumn",
+    "title": "Khẩu súng laze của Đại tá Autumn",
     "subCategory": "Vũ khí năng lượng",
     "prerequisite": "",
     "dlc": "Không có",
@@ -3114,7 +3114,7 @@
   },
   {
     "id": "f48b90c0-8fc0-457f-a2bb-eb9e03840547",
-    "title": "Bến tàu Wilhelm",
+    "title": "Bến cảng Wilhelm",
     "subCategory": "định cư",
     "dlc": "Không có",
     "mainCategory": "Chủ yếu",
@@ -3250,7 +3250,7 @@
   },
   {
     "id": "ba67b8f3-f5c6-4f12-8e92-bb258e8bc4b8",
-    "title": "chỗ ở của Dukov",
+    "title": "Chỗ ở của Dukov",
     "subCategory": "Thủ đô đất hoang",
     "dlc": "Không có",
     "mainCategory": "Chủ yếu",
@@ -3282,7 +3282,7 @@
   },
   {
     "id": "a8f8e25d-80cb-4b60-b761-f36b7bc0e6fb",
-    "title": "Đường mòn F. Scott Key",
+    "title": "Đường mòn & Khu cắm trại F. Scott Key",
     "subCategory": "Thủ đô đất hoang",
     "dlc": "Không có",
     "mainCategory": "Chủ yếu",
@@ -3386,7 +3386,7 @@
   },
   {
     "id": "b27bca39-1f1f-4e9a-a7a0-05c2b48b92f1",
-    "title": "Jocko's Pop",
+    "title": "Trạm dừng Pop & Gas của Jocko",
     "subCategory": "Thủ đô đất hoang",
     "dlc": "Không có",
     "mainCategory": "Chủ yếu",
@@ -3402,7 +3402,7 @@
   },
   {
     "id": "d1a3ec75-70ae-4db5-97d0-3f64dd749871",
-    "title": "Giường của Kaelyn",
+    "title": "Nhà nghỉ chỉ phục vụ bữa sáng của Kaelyn",
     "subCategory": "Thủ đô đất hoang",
     "dlc": "Không có",
     "mainCategory": "Chủ yếu",
@@ -3514,7 +3514,7 @@
   },
   {
     "id": "96ab0f09-8a48-4478-b29c-739f96e6f49d",
-    "title": "Ông già Olney",
+    "title": "Olney già",
     "subCategory": "Thủ đô đất hoang",
     "dlc": "Không có",
     "mainCategory": "Chủ yếu",
@@ -4011,7 +4011,7 @@
   },
   {
     "id": "3b0d23c3-1a07-4b08-967d-f0af054af977",
-    "title": "Bến tàu Wilhelm",
+    "title": "Bến cảng Wilhelm",
     "subCategory": "Washington DC",
     "subCategoryType": "sông Potomac",
     "dlc": "Không có",
@@ -4344,7 +4344,7 @@
   },
   {
     "id": "19e1f468-b6cb-409b-86b2-026b137af325",
-    "title": "Tàu điện ngầm trung tâm thương mại Georgetown",
+    "title": "Tàu điện ngầm trung tâm mua sắm Georgetown",
     "subCategory": "tàu điện",
     "subCategoryType": "",
     "dlc": "Không có",
@@ -4389,7 +4389,7 @@
   },
   {
     "id": "d41386e8-14fb-4c9e-a606-ebcf129f5d63",
-    "title": "trạm cúc vạn thọ",
+    "title": "Trạm cúc vạn thọ",
     "subCategory": "tàu điện",
     "subCategoryType": "",
     "dlc": "Không có",
@@ -4416,7 +4416,7 @@
   },
   {
     "id": "5ef9f7bc-72e4-48f3-94d8-8b86f39cf7cf",
-    "title": "Truy cập tàu điện ngầm",
+    "title": "Truy cập và máy phát điện Metro",
     "subCategory": "tàu điện",
     "subCategoryType": "",
     "dlc": "Không có",
@@ -4839,7 +4839,7 @@
   },
   {
     "id": "d745bf71-7b4f-46e1-b91e-056e3a1b7202",
-    "title": "hòm",
+    "title": "Nhà thờ Ark & Dove",
     "subCategory": "",
     "subCategoryType": "",
     "dlc": "Điểm quan sát",
@@ -4848,7 +4848,7 @@
   },
   {
     "id": "4a9b2b18-b634-45d0-a832-1802d7edc6cb",
-    "title": "hòm",
+    "title": "Khu nghỉ dưỡng Ark & Dove",
     "subCategory": "",
     "subCategoryType": "",
     "dlc": "Điểm quan sát",
@@ -6540,47 +6540,47 @@
   {
     "id": "e2eb67c8-2a9e-42fd-9235-cb3ac5a6e5b1",
     "mainCategory": "Hoạt động: Neo",
-    "title": "Hình ba chiều yêu cầu bắn tỉa",
+    "title": "Hình ba chiều trưng dụng lính bắn tỉa",
     "dlc": "Hoạt động: Neo",
     "subCategory": "ảnh ba chiều",
     "section": "miscellaneous"
   },
   {
     "id": "1aa78e2e-d3a0-4f7a-80e8-5d4d07bbec20",
-    "mainCategory": "các pits",
+    "mainCategory": "cái hố",
     "title": "Nhật ký 1: Gửi Marie",
-    "dlc": "các pits",
+    "dlc": "cái hố",
     "subCategory": "ảnh ba chiều",
     "section": "miscellaneous"
   },
   {
     "id": "fcfb9eae-23a2-40e0-9055-c3279a4bc12f",
-    "mainCategory": "các pits",
+    "mainCategory": "cái hố",
     "title": "Nhật ký 2: Tai họa",
-    "dlc": "các pits",
+    "dlc": "cái hố",
     "subCategory": "ảnh ba chiều",
     "section": "miscellaneous"
   },
   {
     "id": "cdbdd6c6-d138-45c8-97ae-274e802bf4bc",
-    "mainCategory": "các pits",
+    "mainCategory": "cái hố",
     "title": "Nhật ký 3: Nhà máy",
-    "dlc": "các pits",
+    "dlc": "cái hố",
     "subCategory": "ảnh ba chiều",
     "section": "miscellaneous"
   },
   {
     "id": "875c0f5e-9bd1-476d-a37a-2b2ec38c871f",
-    "mainCategory": "các pits",
+    "mainCategory": "cái hố",
     "title": "Nhật ký 4: Phương thuốc",
-    "dlc": "các pits",
+    "dlc": "cái hố",
     "subCategory": "ảnh ba chiều",
     "section": "miscellaneous"
   },
   {
     "id": "acde7f54-8509-4b5c-ae3d-26a5d3aeb01e",
     "mainCategory": "Thép tấm",
-    "title": "Nhật ký người lính Enclave",
+    "title": "Nhật ký lính Enclave số 11",
     "dlc": "Thép tấm",
     "subCategory": "ảnh ba chiều",
     "section": "miscellaneous"
@@ -6644,7 +6644,7 @@
   {
     "id": "d8fb5aa1-4aa0-4af4-b0b8-ebd9a47f748f",
     "mainCategory": "Thép tấm",
-    "title": "Nhật ký thương mại của Công ty Talon",
+    "title": "Nhật ký thương mại của Công ty Talon #1",
     "dlc": "Thép tấm",
     "subCategory": "ảnh ba chiều",
     "section": "miscellaneous"
@@ -6652,7 +6652,7 @@
   {
     "id": "85c1924b-13d7-4531-abe8-5dd7b3f5d986",
     "mainCategory": "Thép tấm",
-    "title": "băng ảnh ba chiều Wastelander",
+    "title": "Băng ảnh ba chiều Wastelander #1",
     "dlc": "Thép tấm",
     "subCategory": "ảnh ba chiều",
     "section": "miscellaneous"
@@ -6764,7 +6764,7 @@
   {
     "id": "75f66c65-233d-4f15-b4a2-cc013498cd46",
     "mainCategory": "Điểm quan sát",
-    "title": "Băng khảo sát đất",
+    "title": "Băng khảo sát đất số 1",
     "dlc": "Điểm quan sát",
     "subCategory": "ảnh ba chiều",
     "section": "miscellaneous"
@@ -6772,7 +6772,7 @@
   {
     "id": "6b3b62d1-f8f2-41d8-a8a4-635c5ed82a2f",
     "mainCategory": "Điểm quan sát",
-    "title": "Băng khảo sát đất",
+    "title": "Băng khảo sát đất số 2",
     "dlc": "Điểm quan sát",
     "subCategory": "ảnh ba chiều",
     "section": "miscellaneous"
@@ -6780,7 +6780,7 @@
   {
     "id": "7a236081-09b2-4a2b-9812-b54b9c7fd94a",
     "mainCategory": "Điểm quan sát",
-    "title": "Băng khảo sát đất",
+    "title": "Băng khảo sát đất số 3",
     "dlc": "Điểm quan sát",
     "subCategory": "ảnh ba chiều",
     "section": "miscellaneous"
@@ -6804,7 +6804,7 @@
   {
     "id": "942c1d3f-7010-45c1-bd0e-83bb84c4bfa2",
     "mainCategory": "tàu mẹ Zeta",
-    "title": "Nhật ký giam giữ người ngoài hành tinh ghi lại 3",
+    "title": "Người ngoài hành tinh bị giam cầm ghi nhật ký 3",
     "dlc": "tàu mẹ Zeta",
     "subCategory": "ảnh ba chiều",
     "section": "miscellaneous"
@@ -6860,7 +6860,7 @@
   {
     "id": "c7c7bc3f-e5c7-4c78-8343-887d33d5bf4d",
     "mainCategory": "tàu mẹ Zeta",
-    "title": "Nhật ký giam giữ người ngoài hành tinh 10",
+    "title": "Nhật ký giam giữ người ngoài hành tinh được ghi lại 10",
     "dlc": "tàu mẹ Zeta",
     "subCategory": "ảnh ba chiều",
     "section": "miscellaneous"
@@ -6884,7 +6884,7 @@
   {
     "id": "da6b1bc7-d072-4f82-b3b5-8e928d3a07ac",
     "mainCategory": "tàu mẹ Zeta",
-    "title": "Nhật ký giam giữ người ngoài hành tinh được ghi lại 13",
+    "title": "Nhật ký giam giữ người ngoài hành tinh 13",
     "dlc": "tàu mẹ Zeta",
     "subCategory": "ảnh ba chiều",
     "section": "miscellaneous"
@@ -6892,7 +6892,7 @@
   {
     "id": "67ed8345-6226-4900-aae2-7cb5dd06c8f6",
     "mainCategory": "tàu mẹ Zeta",
-    "title": "Nhật ký bị giam giữ của người ngoài hành tinh 14",
+    "title": "Nhật ký giam giữ người ngoài hành tinh được ghi lại 14",
     "dlc": "tàu mẹ Zeta",
     "subCategory": "ảnh ba chiều",
     "section": "miscellaneous"
@@ -6916,7 +6916,7 @@
   {
     "id": "2fd33509-d9fb-4c32-988b-3e9a1e40cc9e",
     "mainCategory": "tàu mẹ Zeta",
-    "title": "Nhật ký giam giữ người ngoài hành tinh ghi lại 17",
+    "title": "Nhật ký giam giữ người ngoài hành tinh được ghi lại 17",
     "dlc": "tàu mẹ Zeta",
     "subCategory": "ảnh ba chiều",
     "section": "miscellaneous"
@@ -6932,7 +6932,7 @@
   {
     "id": "90a91f3f-5cf2-463e-92b2-7f8e26b8a226",
     "mainCategory": "tàu mẹ Zeta",
-    "title": "Nhật ký bị giam giữ của người ngoài hành tinh 19",
+    "title": "Nhật ký giam giữ người ngoài hành tinh 19",
     "dlc": "tàu mẹ Zeta",
     "subCategory": "ảnh ba chiều",
     "section": "miscellaneous"
@@ -6964,7 +6964,7 @@
   {
     "id": "0e4764d4-07dc-4d7c-9d61-40a9f8e9c49b",
     "mainCategory": "tàu mẹ Zeta",
-    "title": "Nhật ký giam giữ người ngoài hành tinh ghi lại 23",
+    "title": "Nhật ký bị giam giữ của người ngoài hành tinh 23",
     "dlc": "tàu mẹ Zeta",
     "subCategory": "ảnh ba chiều",
     "section": "miscellaneous"
@@ -7348,7 +7348,7 @@
   {
     "id": "8cb70d05-900b-4cb0-8913-05d6f929f087",
     "mainCategory": "Ghi chú",
-    "title": "Bức thư tình của Burke",
+    "title": "Bức thư tình của Burke #2",
     "dlc": "Không có",
     "subCategory": "",
     "section": "miscellaneous"
@@ -7428,7 +7428,7 @@
   {
     "id": "51f92ef5-cb2d-472f-9074-695d7813a1f7",
     "mainCategory": "Ghi chú",
-    "title": "Vỏ sinh sản Mirelurk",
+    "title": "Vỏ sinh sản của Mirelurk",
     "dlc": "Không có",
     "subCategory": "",
     "section": "miscellaneous"
@@ -7676,7 +7676,7 @@
   {
     "id": "9149c2b3-8c5b-4ac1-9fa1-bd81065b44b7",
     "mainCategory": "Ghi chú",
-    "title": "Nhật ký bên tìm kiếm",
+    "title": "Nhật ký bên tìm kiếm số 1",
     "dlc": "Không có",
     "subCategory": "",
     "section": "miscellaneous"
@@ -7684,7 +7684,7 @@
   {
     "id": "9a1b3eef-c4e0-4b25-b123-6fd49870a004",
     "mainCategory": "Ghi chú",
-    "title": "Nhật ký bên tìm kiếm",
+    "title": "Nhật ký nhóm tìm kiếm số 2",
     "dlc": "Không có",
     "subCategory": "",
     "section": "miscellaneous"
@@ -7692,7 +7692,7 @@
   {
     "id": "305d447c-06ed-4f35-b345-4d1550db6f8b",
     "mainCategory": "Ghi chú",
-    "title": "Nhật ký bên tìm kiếm",
+    "title": "Nhật ký nhóm tìm kiếm số 3",
     "dlc": "Không có",
     "subCategory": "",
     "section": "miscellaneous"
@@ -7700,7 +7700,7 @@
   {
     "id": "c5a13e7d-07fd-4682-9e43-4f9c5c67df97",
     "mainCategory": "Ghi chú",
-    "title": "Nhật ký bên tìm kiếm",
+    "title": "Nhật ký nhóm tìm kiếm số 4",
     "dlc": "Không có",
     "subCategory": "",
     "section": "miscellaneous"
@@ -7931,57 +7931,57 @@
   },
   {
     "id": "d9fd246c-5485-4f79-8317-06c54f71c447",
-    "mainCategory": "các pits",
+    "mainCategory": "cái hố",
     "title": "Hướng dẫn sử dụng máy nghiền đạn",
-    "dlc": "các pits",
+    "dlc": "cái hố",
     "subCategory": "Ghi chú",
     "section": "miscellaneous"
   },
   {
     "id": "a0d1c6a6-22f7-4c97-af16-29e22605916a",
-    "mainCategory": "các pits",
+    "mainCategory": "cái hố",
     "title": "Nghiên cứu chữa bệnh",
-    "dlc": "các pits",
+    "dlc": "cái hố",
     "subCategory": "Ghi chú",
     "section": "miscellaneous"
   },
   {
     "id": "d26e66b2-422e-4d95-b4f0-f9fb79b3c636",
-    "mainCategory": "các pits",
+    "mainCategory": "cái hố",
     "title": "Ghi chú từ Wild Bill",
-    "dlc": "các pits",
+    "dlc": "cái hố",
     "subCategory": "Ghi chú",
     "section": "miscellaneous"
   },
   {
     "id": "6e89c21a-0508-4ff0-8490-dfa05d5d42df",
-    "mainCategory": "các pits",
+    "mainCategory": "cái hố",
     "title": "Thép cho nhà máy",
-    "dlc": "các pits",
+    "dlc": "cái hố",
     "subCategory": "Ghi chú",
     "section": "miscellaneous"
   },
   {
     "id": "7c3c7b69-85b1-4a3b-8c1d-1d2aa8ee6d79",
-    "mainCategory": "các pits",
+    "mainCategory": "cái hố",
     "title": "Đồ chơi cần thiết cho Marie (phiên bản Midea)",
-    "dlc": "các pits",
+    "dlc": "cái hố",
     "subCategory": "Ghi chú",
     "section": "miscellaneous"
   },
   {
     "id": "3a0a15a3-1964-4fd4-a5a4-eb946ee2a0a7",
-    "mainCategory": "các pits",
+    "mainCategory": "cái hố",
     "title": "Đồ chơi cần thiết cho Marie (phiên bản Sandra)",
-    "dlc": "các pits",
+    "dlc": "cái hố",
     "subCategory": "Ghi chú",
     "section": "miscellaneous"
   },
   {
     "id": "4511cf4e-7420-4664-997f-3e6f0c3edbbf",
-    "mainCategory": "các pits",
+    "mainCategory": "cái hố",
     "title": "Lời nhắn của Wernher gửi Midea",
-    "dlc": "các pits",
+    "dlc": "cái hố",
     "subCategory": "Ghi chú",
     "section": "miscellaneous"
   },
@@ -8036,7 +8036,7 @@
   {
     "id": "c63dcfc3-5cbb-4eb6-b8d4-079e158b22c1",
     "mainCategory": "Điểm quan sát",
-    "title": "Huy hiệu bảo mật cấp Beta",
+    "title": "Huy hiệu bảo mật cấp độ Beta",
     "dlc": "Điểm quan sát",
     "subCategory": "Ghi chú",
     "section": "miscellaneous"

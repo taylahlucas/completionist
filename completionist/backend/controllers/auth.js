@@ -190,7 +190,7 @@ const forgotPw = async (req, res) => {
 		return res.status(request_codes.SUCCESS).json({ ok: true });
 	}
 	catch (err) {
-		console.log("ERror: ", err.message)
+		console.log("Error: ", err.message)
 		return res.status(err.status).json(err.message);
 	}
 };

@@ -99,6 +99,12 @@ npx react-native run-ios --port 8002
 
 ## Updating translations
 
+Confirm:
+- npm run generate-locale
+
+- Translations in categories.json must match the name of the category in camel case.
+
+From MonoRepo (No longer in use)
 Pull from master:
 - git submodule foreach git pull origin branch_name
 -- Need to change 'translations' back to 'Completionist-Translations'
@@ -106,11 +112,6 @@ Pull from master:
 Update:
 - git submodule update --init --recursive --remote translations
 
-Confirm:
-- npm run generate-locale
-
-
-- Translations in categories.json must match the name of the category in camel case.
 
 
 ## Migrating db
@@ -126,6 +127,8 @@ Confirm:
 - Create a .json file with data for game, ensuring "sections" represents the correct value for "quests", "collectables", "locations", "miscellaneous".
 - Check for duplicate ids.
 - Translate to different languages on https://translate.i18next.com.
+- Ensure all sections 'quests, collectables, locations, miscellaneous' are converted to english.
+- Ensure there are no duplicate ids but running /backend/scripts/update_duplicate_ids.
 - Create gameSettingsConfig in initialUserData.js.
 - Update user.js model with new game in data and subscription.data.
 - Add image to styles/images/games/.

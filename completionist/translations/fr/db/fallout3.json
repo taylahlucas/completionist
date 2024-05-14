@@ -93,7 +93,7 @@
   {
     "id": "2e8fc584-8d2a-4c54-b05b-6a9b6b1057a6",
     "mainCategory": "Quêtes principales",
-    "title": "Voie de la tranquillité",
+    "title": "Voie de tranquillité",
     "hold": "",
     "dlc": "Aucun",
     "subCategory": "",
@@ -431,7 +431,7 @@
   {
     "id": "8a1ab4cb-fd7f-48a1-883f-3a5e12284f80",
     "mainCategory": "Quêtes non marquées",
-    "title": "Un serviteur malmené",
+    "title": "Un domestique malmené",
     "hold": "",
     "dlc": "Aucun",
     "subCategory": "",
@@ -1216,7 +1216,7 @@
     "dlc": "Point d'observation",
     "subCategory": "Quêtes principales",
     "subCategoryType": "",
-    "location": "Arche",
+    "location": "Cathédrale Arche et Colombe",
     "href": "",
     "conflictingIds": [],
     "section": "quests"
@@ -1229,7 +1229,7 @@
     "dlc": "Point d'observation",
     "subCategory": "Quêtes principales",
     "subCategoryType": "",
-    "location": "Arche",
+    "location": "Cathédrale Arche et Colombe",
     "href": "",
     "conflictingIds": [],
     "section": "quests"
@@ -3282,7 +3282,7 @@
   },
   {
     "id": "a8f8e25d-80cb-4b60-b761-f36b7bc0e6fb",
-    "title": "Sentier F.Scott Key",
+    "title": "Sentier et terrain de camping F. Scott Key",
     "subCategory": "Terres désolées de la capitale",
     "dlc": "Aucun",
     "mainCategory": "Principal",
@@ -3386,7 +3386,7 @@
   },
   {
     "id": "b27bca39-1f1f-4e9a-a7a0-05c2b48b92f1",
-    "title": "La Pop de Jocko",
+    "title": "Arrêt Pop & Gas de Jocko",
     "subCategory": "Terres désolées de la capitale",
     "dlc": "Aucun",
     "mainCategory": "Principal",
@@ -3402,7 +3402,7 @@
   },
   {
     "id": "d1a3ec75-70ae-4db5-97d0-3f64dd749871",
-    "title": "Le lit de Kaelyn",
+    "title": "Le Bed & Breakfast de Kaelyn",
     "subCategory": "Terres désolées de la capitale",
     "dlc": "Aucun",
     "mainCategory": "Principal",
@@ -4146,7 +4146,7 @@
   },
   {
     "id": "bdd1653b-2e7f-4e8e-bd2d-cc31c4e00d23",
-    "title": "Hôpital Notre-Dame de l'Espérance",
+    "title": "Hôpital Notre-Dame de l'Espoir",
     "subCategory": "Washington DC",
     "subCategoryType": "Quartier de la place Vernon",
     "dlc": "Aucun",
@@ -4416,7 +4416,7 @@
   },
   {
     "id": "5ef9f7bc-72e4-48f3-94d8-8b86f39cf7cf",
-    "title": "Accès au métro",
+    "title": "Accès métro et générateur",
     "subCategory": "Métro",
     "subCategoryType": "",
     "dlc": "Aucun",
@@ -4839,7 +4839,7 @@
   },
   {
     "id": "d745bf71-7b4f-46e1-b91e-056e3a1b7202",
-    "title": "Arche",
+    "title": "Cathédrale Arche et Colombe",
     "subCategory": "",
     "subCategoryType": "",
     "dlc": "Point d'observation",
@@ -4848,7 +4848,7 @@
   },
   {
     "id": "4a9b2b18-b634-45d0-a832-1802d7edc6cb",
-    "title": "Arche",
+    "title": "Aire de repos d'Arche et Colombe",
     "subCategory": "",
     "subCategoryType": "",
     "dlc": "Point d'observation",
@@ -6060,7 +6060,7 @@
   {
     "id": "3e9f1c78-787a-4c2d-8a05-758e863ec9f4",
     "mainCategory": "Holobandes",
-    "title": "Journal audio du Professeur Malleus V92-05",
+    "title": "Journal audio du professeur Malleus V92-05",
     "dlc": "Aucun",
     "subCategory": "",
     "section": "miscellaneous"
@@ -6068,7 +6068,7 @@
   {
     "id": "9e95d588-b7a9-4c0e-a5bc-05c4802222c7",
     "mainCategory": "Holobandes",
-    "title": "Journal audio du professeur Malleus V92-06",
+    "title": "Journal audio du Professeur Malleus V92-06",
     "dlc": "Aucun",
     "subCategory": "",
     "section": "miscellaneous"
@@ -6547,40 +6547,40 @@
   },
   {
     "id": "1aa78e2e-d3a0-4f7a-80e8-5d4d07bbec20",
-    "mainCategory": "Les Pitt",
+    "mainCategory": "Le Pitt",
     "title": "Journal 1 : À Marie",
-    "dlc": "Les Pitt",
+    "dlc": "Le Pitt",
     "subCategory": "Holobandes",
     "section": "miscellaneous"
   },
   {
     "id": "fcfb9eae-23a2-40e0-9055-c3279a4bc12f",
-    "mainCategory": "Les Pitt",
+    "mainCategory": "Le Pitt",
     "title": "Journal 2 : Le Fléau",
-    "dlc": "Les Pitt",
+    "dlc": "Le Pitt",
     "subCategory": "Holobandes",
     "section": "miscellaneous"
   },
   {
     "id": "cdbdd6c6-d138-45c8-97ae-274e802bf4bc",
-    "mainCategory": "Les Pitt",
+    "mainCategory": "Le Pitt",
     "title": "Journal 3 : Le Moulin",
-    "dlc": "Les Pitt",
+    "dlc": "Le Pitt",
     "subCategory": "Holobandes",
     "section": "miscellaneous"
   },
   {
     "id": "875c0f5e-9bd1-476d-a37a-2b2ec38c871f",
-    "mainCategory": "Les Pitt",
+    "mainCategory": "Le Pitt",
     "title": "Journal 4 : Le remède",
-    "dlc": "Les Pitt",
+    "dlc": "Le Pitt",
     "subCategory": "Holobandes",
     "section": "miscellaneous"
   },
   {
     "id": "acde7f54-8509-4b5c-ae3d-26a5d3aeb01e",
     "mainCategory": "Acier cassé",
-    "title": "Journal des soldats de l'enclave",
+    "title": "Journal des soldats de l'enclave #11",
     "dlc": "Acier cassé",
     "subCategory": "Holobandes",
     "section": "miscellaneous"
@@ -6644,7 +6644,7 @@
   {
     "id": "d8fb5aa1-4aa0-4af4-b0b8-ebd9a47f748f",
     "mainCategory": "Acier cassé",
-    "title": "Journal des mercenaires de la société Talon",
+    "title": "Journal de mercenaire #1 de la Compagnie Talon",
     "dlc": "Acier cassé",
     "subCategory": "Holobandes",
     "section": "miscellaneous"
@@ -6652,7 +6652,7 @@
   {
     "id": "85c1924b-13d7-4531-abe8-5dd7b3f5d986",
     "mainCategory": "Acier cassé",
-    "title": "Holobande du Wastelander",
+    "title": "Holobande Wastelander #1",
     "dlc": "Acier cassé",
     "subCategory": "Holobandes",
     "section": "miscellaneous"
@@ -6764,7 +6764,7 @@
   {
     "id": "75f66c65-233d-4f15-b4a2-cc013498cd46",
     "mainCategory": "Point d'observation",
-    "title": "Ruban d'étude du sol",
+    "title": "Ruban d'étude de sol #1",
     "dlc": "Point d'observation",
     "subCategory": "Holobandes",
     "section": "miscellaneous"
@@ -6772,7 +6772,7 @@
   {
     "id": "6b3b62d1-f8f2-41d8-a8a4-635c5ed82a2f",
     "mainCategory": "Point d'observation",
-    "title": "Ruban d'étude du sol",
+    "title": "Ruban d'étude de sol #2",
     "dlc": "Point d'observation",
     "subCategory": "Holobandes",
     "section": "miscellaneous"
@@ -6780,7 +6780,7 @@
   {
     "id": "7a236081-09b2-4a2b-9812-b54b9c7fd94a",
     "mainCategory": "Point d'observation",
-    "title": "Ruban d'étude du sol",
+    "title": "Ruban d'étude de sol #3",
     "dlc": "Point d'observation",
     "subCategory": "Holobandes",
     "section": "miscellaneous"
@@ -7348,7 +7348,7 @@
   {
     "id": "8cb70d05-900b-4cb0-8913-05d6f929f087",
     "mainCategory": "Remarques",
-    "title": "Lettre d'amour de Burke",
+    "title": "Lettre d'amour de Burke #2",
     "dlc": "Aucun",
     "subCategory": "",
     "section": "miscellaneous"
@@ -7676,7 +7676,7 @@
   {
     "id": "9149c2b3-8c5b-4ac1-9fa1-bd81065b44b7",
     "mainCategory": "Remarques",
-    "title": "Rechercher le journal du groupe",
+    "title": "Journal de recherche du groupe n° 1",
     "dlc": "Aucun",
     "subCategory": "",
     "section": "miscellaneous"
@@ -7684,7 +7684,7 @@
   {
     "id": "9a1b3eef-c4e0-4b25-b123-6fd49870a004",
     "mainCategory": "Remarques",
-    "title": "Rechercher le journal du groupe",
+    "title": "Journal de recherche du groupe #2",
     "dlc": "Aucun",
     "subCategory": "",
     "section": "miscellaneous"
@@ -7692,7 +7692,7 @@
   {
     "id": "305d447c-06ed-4f35-b345-4d1550db6f8b",
     "mainCategory": "Remarques",
-    "title": "Rechercher le journal du groupe",
+    "title": "Journal de recherche du groupe #3",
     "dlc": "Aucun",
     "subCategory": "",
     "section": "miscellaneous"
@@ -7700,7 +7700,7 @@
   {
     "id": "c5a13e7d-07fd-4682-9e43-4f9c5c67df97",
     "mainCategory": "Remarques",
-    "title": "Rechercher le journal du groupe",
+    "title": "Journal de recherche du groupe #4",
     "dlc": "Aucun",
     "subCategory": "",
     "section": "miscellaneous"
@@ -7931,57 +7931,57 @@
   },
   {
     "id": "d9fd246c-5485-4f79-8317-06c54f71c447",
-    "mainCategory": "Les Pitt",
+    "mainCategory": "Le Pitt",
     "title": "Instructions pour le moulin à munitions",
-    "dlc": "Les Pitt",
+    "dlc": "Le Pitt",
     "subCategory": "Remarques",
     "section": "miscellaneous"
   },
   {
     "id": "a0d1c6a6-22f7-4c97-af16-29e22605916a",
-    "mainCategory": "Les Pitt",
+    "mainCategory": "Le Pitt",
     "title": "Recherche sur les remèdes",
-    "dlc": "Les Pitt",
+    "dlc": "Le Pitt",
     "subCategory": "Remarques",
     "section": "miscellaneous"
   },
   {
     "id": "d26e66b2-422e-4d95-b4f0-f9fb79b3c636",
-    "mainCategory": "Les Pitt",
+    "mainCategory": "Le Pitt",
     "title": "Note de Wild Bill",
-    "dlc": "Les Pitt",
+    "dlc": "Le Pitt",
     "subCategory": "Remarques",
     "section": "miscellaneous"
   },
   {
     "id": "6e89c21a-0508-4ff0-8490-dfa05d5d42df",
-    "mainCategory": "Les Pitt",
+    "mainCategory": "Le Pitt",
     "title": "De l'acier pour l'usine",
-    "dlc": "Les Pitt",
+    "dlc": "Le Pitt",
     "subCategory": "Remarques",
     "section": "miscellaneous"
   },
   {
     "id": "7c3c7b69-85b1-4a3b-8c1d-1d2aa8ee6d79",
-    "mainCategory": "Les Pitt",
+    "mainCategory": "Le Pitt",
     "title": "Jouets recherchés pour Marie (version Midea)",
-    "dlc": "Les Pitt",
+    "dlc": "Le Pitt",
     "subCategory": "Remarques",
     "section": "miscellaneous"
   },
   {
     "id": "3a0a15a3-1964-4fd4-a5a4-eb946ee2a0a7",
-    "mainCategory": "Les Pitt",
+    "mainCategory": "Le Pitt",
     "title": "Jouets recherchés pour Marie (version Sandra)",
-    "dlc": "Les Pitt",
+    "dlc": "Le Pitt",
     "subCategory": "Remarques",
     "section": "miscellaneous"
   },
   {
     "id": "4511cf4e-7420-4664-997f-3e6f0c3edbbf",
-    "mainCategory": "Les Pitt",
+    "mainCategory": "Le Pitt",
     "title": "Note de Wernher à Midea",
-    "dlc": "Les Pitt",
+    "dlc": "Le Pitt",
     "subCategory": "Remarques",
     "section": "miscellaneous"
   },

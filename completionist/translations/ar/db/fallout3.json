@@ -1040,7 +1040,7 @@
     "section": "quests"
   },
   {
-    "id": "d02e1a7f-b876-4b76-9f2a-d594214f8a78",
+    "id": "d02c1a7f-b876-4b76-9f2a-d594214f8a78",
     "mainCategory": "البيت",
     "title": "واش الرقيق",
     "hold": "",
@@ -1053,7 +1053,7 @@
     "section": "quests"
   },
   {
-    "id": "d02e1a7f-b876-4b76-9f2a-d594214f8a78",
+    "id": "d02e1a7f-b876-4b76-9e2a-d594214f8a78",
     "mainCategory": "البيت",
     "title": "لعب للتوتس",
     "hold": "",
@@ -1216,7 +1216,7 @@
     "dlc": "نقطة مراقبة",
     "subCategory": "المهام الرئيسية",
     "subCategoryType": "",
-    "location": "فلك",
+    "location": "كاتدرائية آرك آند دوف",
     "href": "",
     "conflictingIds": [],
     "section": "quests"
@@ -1229,7 +1229,7 @@
     "dlc": "نقطة مراقبة",
     "subCategory": "المهام الرئيسية",
     "subCategoryType": "",
-    "location": "فلك",
+    "location": "كاتدرائية آرك آند دوف",
     "href": "",
     "conflictingIds": [],
     "section": "quests"
@@ -1313,7 +1313,7 @@
     "section": "quests"
   },
   {
-    "id": "c6e4860a-82cb-49ad-8035-9ee7f7871f29",
+    "id": "c6e486xa-82cb-49ad-8035-9ee7f7871f29",
     "mainCategory": "نقطة مراقبة",
     "title": "الستار المخملي",
     "hold": "",
@@ -1365,7 +1365,7 @@
     "section": "quests"
   },
   {
-    "id": "6d3df0e2-ff70-4d23-b3e5-c62af54e5b0a",
+    "id": "6d3qf0e2-ff70-4d23-b3e5-c62af54e5b0a",
     "mainCategory": "الأم زيتا",
     "title": "هذه المجرة ليست كبيرة بما يكفي...",
     "hold": "",
@@ -1391,7 +1391,7 @@
     "section": "quests"
   },
   {
-    "id": "2a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "id": "2a3b45c6-7d89-012e-fgh2-3456c8i9j05o",
     "mainCategory": "رؤؤس فقاعية",
     "title": "قوة بوبلهيد",
     "subCategory": "خاص.",
@@ -1461,7 +1461,7 @@
     "section": "collectables"
   },
   {
-    "id": "2a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "id": "2a3b45c6-7c89-012e-fgh2-345678i9j05o",
     "mainCategory": "رؤؤس فقاعية",
     "title": "المقايضة بوبلهيد",
     "subCategory": "مهارات",
@@ -1591,7 +1591,7 @@
     "section": "collectables"
   },
   {
-    "id": "2a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "id": "2aeb45c6-7d89-012e-fgh2-345678i9j05o",
     "mainCategory": "درع فريد",
     "title": "درع قنبلة",
     "subCategory": "درع",
@@ -1661,7 +1661,7 @@
     "section": "collectables"
   },
   {
-    "id": "2a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "id": "2a3b4qc6-7d89-012e-fgh2-345678i9j05q",
     "mainCategory": "درع فريد",
     "title": "غطاء رأس بعبع",
     "subCategory": "أغطية الرأس",
@@ -1851,7 +1851,7 @@
     "section": "collectables"
   },
   {
-    "id": "2a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "id": "2a3b45c6-7d89-01ce-fgh2-345678i9j05o",
     "mainCategory": "درع فريد",
     "title": "بذلة مدرعة Vault 101",
     "subCategory": "حللا",
@@ -1901,7 +1901,7 @@
     "section": "collectables"
   },
   {
-    "id": "2a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "id": "ca3b45c6-7d89-012e-fgh2-345678i9j05o",
     "mainCategory": "درع فريد",
     "title": "زي أبي القفار",
     "subCategory": "ملابس",
@@ -1981,7 +1981,7 @@
     "section": "collectables"
   },
   {
-    "id": "2a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "id": "2a3b45c6-7d89-012e-hgh2-345678i9j05o",
     "mainCategory": "درع فريد",
     "title": "درع قوة آشور",
     "subCategory": "درع القوة",
@@ -2041,7 +2041,7 @@
     "section": "collectables"
   },
   {
-    "id": "2a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "id": "2a3b45c6-7d89-h12e-fgh2-345678i9j05o",
     "mainCategory": "درع فريد",
     "title": "بدلة علمية لجميع الأغراض",
     "subCategory": "بدلة",
@@ -2101,7 +2101,7 @@
     "section": "collectables"
   },
   {
-    "id": "2a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "id": "2a3b4hc6-7d89-012e-fgh2-345678i9j05o",
     "mainCategory": "درع فريد",
     "title": "زي العقيد أوتوم",
     "subCategory": "الزي الرسمي",
@@ -2131,7 +2131,7 @@
     "section": "collectables"
   },
   {
-    "id": "2a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "id": "2a3b45c6-7q89-012e-fgh2-345678i9j05o",
     "mainCategory": "درع فريد",
     "title": "ملابس نوم طوال الليل",
     "subCategory": "متنوع",
@@ -2261,7 +2261,7 @@
     "section": "collectables"
   },
   {
-    "id": "2a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "id": "2a3b45c6-7d89-012e-fgh2-345c78i9j05q",
     "mainCategory": "أسلحة فريدة من نوعها",
     "title": "فيستو!",
     "subCategory": "أسلحة غير مسلحة",
@@ -2271,7 +2271,7 @@
     "section": "collectables"
   },
   {
-    "id": "9a15b3b7-96fc-4620-bb1a-5f8a1b39824b",
+    "id": "9a15bdb7-96fc-4620-bb1a-5f8a1b39824b",
     "mainCategory": "أسلحة فريدة من نوعها",
     "title": "نقاط بلونكيت الصحيحة",
     "subCategory": "أسلحة غير مسلحة",
@@ -2281,7 +2281,7 @@
     "section": "collectables"
   },
   {
-    "id": "b203a116-1e05-4f4f-856f-981422baf9bc",
+    "id": "b203a116-1el5-4f4f-856f-981422baf9bc",
     "mainCategory": "البيت",
     "title": "مفاصل فولاذية",
     "subCategory": "أسلحة فريدة من نوعها",
@@ -2291,7 +2291,7 @@
     "section": "collectables"
   },
   {
-    "id": "cf9495f1-0c29-4be7-8911-261fb7f71b07",
+    "id": "cf94c5f1-0c29-4be7-8911-261fb7f71b07",
     "mainCategory": "أسلحة فريدة من نوعها",
     "title": "والمفزع",
     "subCategory": "أسلحة غير مسلحة",
@@ -2301,7 +2301,7 @@
     "section": "collectables"
   },
   {
-    "id": "2a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "id": "2a3b45c6-7d89-012e-fgh2-34567qi9j05o",
     "mainCategory": "أسلحة فريدة من نوعها",
     "title": "لدغة النمل",
     "subCategory": "أسلحة بيضاء",
@@ -2331,7 +2331,7 @@
     "section": "collectables"
   },
   {
-    "id": "cf9495f1-0c29-4be7-8911-261fb7f71b07",
+    "id": "cf9495f1-0c29-4be7-8911-261fb7f71p07",
     "mainCategory": "الأم زيتا",
     "title": "القامع الكهربائي",
     "subCategory": "أسلحة فريدة من نوعها",
@@ -2341,7 +2341,7 @@
     "section": "collectables"
   },
   {
-    "id": "cf9495f1-0c29-4be7-8911-261fb7f71b07",
+    "id": "cf9495f1-0c29-4be7-8p11-261fb7f71b07",
     "mainCategory": "أسلحة فريدة من نوعها",
     "title": "زلاجة فوكس الفائقة",
     "subCategory": "أسلحة بيضاء",
@@ -2351,7 +2351,7 @@
     "section": "collectables"
   },
   {
-    "id": "cf9495f1-0c29-4be7-8911-261fb7f71b07",
+    "id": "cf9495f1-0c29-4pe7-8911-261fb7f71b07",
     "mainCategory": "نقطة مراقبة",
     "title": "مجرفة الأسمدة",
     "subCategory": "أسلحة فريدة من نوعها",
@@ -2361,7 +2361,7 @@
     "section": "collectables"
   },
   {
-    "id": "cf9495f1-0c29-4be7-8911-261fb7f71b07",
+    "id": "cf9495k1-0c29-4be7-8911-261fb7f71b07",
     "mainCategory": "أسلحة فريدة من نوعها",
     "title": "صديق قاطع الطريق",
     "subCategory": "أسلحة بيضاء",
@@ -2371,7 +2371,7 @@
     "section": "collectables"
   },
   {
-    "id": "cf9495f1-0c29-4be7-8911-261fb7f71b07",
+    "id": "cf9495f1-0k29-4be7-8911-261fb7f71b07",
     "mainCategory": "أسلحة فريدة من نوعها",
     "title": "جاك",
     "subCategory": "أسلحة بيضاء",
@@ -2391,7 +2391,7 @@
     "section": "collectables"
   },
   {
-    "id": "2a3b45c6-7d89-012e-fgh2-345678i9j05o",
+    "id": "2a3b45c6-7d89-0q2e-fgh2-345678i9j05o",
     "mainCategory": "البيت",
     "title": "فتاحة الرجل",
     "subCategory": "أسلحة فريدة من نوعها",
@@ -2883,7 +2883,7 @@
   {
     "id": "c1b79ec8-4811-4c5b-8b3e-f5a9439e63a7",
     "mainCategory": "الأم زيتا",
-    "title": "MPLX نوفاسورج",
+    "title": "MPLX نوفاسيرج",
     "subCategory": "أسلحة فريدة من نوعها",
     "prerequisite": "",
     "dlc": "الأم زيتا",
@@ -3282,7 +3282,7 @@
   },
   {
     "id": "a8f8e25d-80cb-4b60-b761-f36b7bc0e6fb",
-    "title": "واو سكوت كي تريل",
+    "title": "F. سكوت كي تريل آند كامبجراوند",
     "subCategory": "أرض العاصمة القاحلة",
     "dlc": "لا أحد",
     "mainCategory": "رئيسي",
@@ -3386,7 +3386,7 @@
   },
   {
     "id": "b27bca39-1f1f-4e9a-a7a0-05c2b48b92f1",
-    "title": "جوكو بوب",
+    "title": "محطة جوكو للبوب والغاز",
     "subCategory": "أرض العاصمة القاحلة",
     "dlc": "لا أحد",
     "mainCategory": "رئيسي",
@@ -3402,7 +3402,7 @@
   },
   {
     "id": "d1a3ec75-70ae-4db5-97d0-3f64dd749871",
-    "title": "سرير كايلين",
+    "title": "مبيت وإفطار كايلين",
     "subCategory": "أرض العاصمة القاحلة",
     "dlc": "لا أحد",
     "mainCategory": "رئيسي",
@@ -3530,7 +3530,7 @@
   },
   {
     "id": "4c39dfe1-bfbd-4e86-80ef-88d512007174",
-    "title": "منازل منتجع غروفز المتكئة",
+    "title": "منازل منتجع Reclining Groves",
     "subCategory": "أرض العاصمة القاحلة",
     "dlc": "لا أحد",
     "mainCategory": "رئيسي",
@@ -3769,7 +3769,7 @@
     "section": "locations"
   },
   {
-    "id": "d615aaf1-59b4-4efb-bce6-705c5a5f12b6",
+    "id": "d615aaq1-59b4-4efb-bce6-705c5a5f12b6",
     "title": "محطة ترحيل الأقمار الصناعية",
     "subCategory": "أرض العاصمة القاحلة",
     "dlc": "الفولاذ المكسور",
@@ -3777,7 +3777,7 @@
     "section": "locations"
   },
   {
-    "id": "d615aaf1-59b4-4efb-bce6-705c5a5f12b6",
+    "id": "d615aaf1-59b4-4eqb-bce6-705c5a5f12b6",
     "title": "برج اذاعي",
     "subCategory": "أرض العاصمة القاحلة",
     "dlc": "البيت",
@@ -3785,7 +3785,7 @@
     "section": "locations"
   },
   {
-    "id": "e56fb08a-2bb1-463f-8400-56bf53035210",
+    "id": "e56fb08c-2bb1-463f-8400-56bf53035210",
     "title": "منطقة أناكوستيا",
     "subCategory": "واشنطن العاصمة",
     "subCategoryType": "منطقة أناكوستيا",
@@ -3830,7 +3830,7 @@
     "section": "locations"
   },
   {
-    "id": "ee9f8e1f-1e2b-21e4-4f07-1c3b5a9a68e4",
+    "id": "eq9f8e1f-1e2b-21e4-4f07-1c3b5a9a68e4",
     "title": "منطقة مفترق طرق بيلي",
     "subCategory": "واشنطن العاصمة",
     "subCategoryType": "منطقة مفترق طرق بيلي",
@@ -3875,7 +3875,7 @@
     "section": "locations"
   },
   {
-    "id": "ee9f8e1f-de2b-41e4-4f0c-1c3b5a9a68e4",
+    "id": "ee9f8e1f-de2b-41g4-4f0c-1c3b5a9a68e4",
     "title": "منطقة دوبونت سيركل",
     "subCategory": "واشنطن العاصمة",
     "subCategoryType": "منطقة دوبونت سيركل",
@@ -3884,7 +3884,7 @@
     "section": "locations"
   },
   {
-    "id": "ee9f8e1f-de2b-41e4-4f0c-1c3b5a9a68e4",
+    "id": "ee9f8e1f-de2b-41e4-4f0c-1c3b5a9a6ce4",
     "title": "منطقة فولز تشيرش",
     "subCategory": "واشنطن العاصمة",
     "subCategoryType": "منطقة فولز تشيرش",
@@ -3929,7 +3929,7 @@
     "section": "locations"
   },
   {
-    "id": "4e9f8e1f-de2b-41e4-4f07-1c3b5a9a68e4",
+    "id": "4e9f8e1f-de2b-d1e4-4f07-1c3b5a9a68e4",
     "title": "منطقة شارع بنسلفانيا",
     "subCategory": "واشنطن العاصمة",
     "subCategoryType": "منطقة شارع بنسلفانيا",
@@ -3938,7 +3938,7 @@
     "section": "locations"
   },
   {
-    "id": "4e9f8e1f-de2b-41e4-4f07-1c3b5a9a68e4",
+    "id": "4e9f8e1f-de2b-41e4-4f07-1c3b5a9a68w4",
     "title": "البيت الابيض",
     "subCategory": "واشنطن العاصمة",
     "subCategoryType": "منطقة شارع بنسلفانيا",
@@ -3956,7 +3956,7 @@
     "section": "locations"
   },
   {
-    "id": "31d1b5f0-8932-4e3c-b9c5-6fcb1c028402",
+    "id": "31d1b5fc-8932-4e3c-b9c5-6fcb1c028402",
     "title": "نهر بوتوماك",
     "subCategory": "واشنطن العاصمة",
     "subCategoryType": "نهر بوتوماك",
@@ -3965,7 +3965,7 @@
     "section": "locations"
   },
   {
-    "id": "31d1b5f0-8932-4e3c-b9c5-6fcb1c028402",
+    "id": "31d1b5f0-8932-4e3c-b9c5-6fcw1c028402",
     "title": "الإسكندرية للأسلحة",
     "subCategory": "واشنطن العاصمة",
     "subCategoryType": "نهر بوتوماك",
@@ -4028,7 +4028,7 @@
     "section": "locations"
   },
   {
-    "id": "4b535a44-d7cf-4624-8a21-d4b7a0f4b38e",
+    "id": "4b535a44-d7cf-4604-8a21-d4b7a0f4b38e",
     "title": "منطقة سيوارد سكوير",
     "subCategory": "واشنطن العاصمة",
     "subCategoryType": "منطقة سيوارد سكوير",
@@ -4055,7 +4055,7 @@
     "section": "locations"
   },
   {
-    "id": "n875c74e-71fd-4ae6-835d-20a2d6e7a5b5",
+    "id": "n875c74e-71fd-pae6-835d-20a2d6e7a5b5",
     "title": "منطقة تاكوما بارك",
     "subCategory": "واشنطن العاصمة",
     "subCategoryType": "منطقة تاكوما بارك",
@@ -4416,7 +4416,7 @@
   },
   {
     "id": "5ef9f7bc-72e4-48f3-94d8-8b86f39cf7cf",
-    "title": "الوصول إلى المترو",
+    "title": "الوصول إلى المترو والمولدات",
     "subCategory": "مترو",
     "subCategoryType": "",
     "dlc": "لا أحد",
@@ -4811,7 +4811,7 @@
     "section": "locations"
   },
   {
-    "id": "b69a1a38-6e8d-4397-9f99-86087e2588f0",
+    "id": "b69a1a38-6eod-4397-9f99-86087e2588f0",
     "title": "أبتاون",
     "subCategory": "أبتاون",
     "subCategoryType": "",
@@ -4839,7 +4839,7 @@
   },
   {
     "id": "d745bf71-7b4f-46e1-b91e-056e3a1b7202",
-    "title": "فلك",
+    "title": "كاتدرائية آرك آند دوف",
     "subCategory": "",
     "subCategoryType": "",
     "dlc": "نقطة مراقبة",
@@ -4848,7 +4848,7 @@
   },
   {
     "id": "4a9b2b18-b634-45d0-a832-1802d7edc6cb",
-    "title": "فلك",
+    "title": "استراحة آرك آند دوف",
     "subCategory": "",
     "subCategoryType": "",
     "dlc": "نقطة مراقبة",
@@ -4982,7 +4982,7 @@
     "section": "locations"
   },
   {
-    "id": "40c376f8-9fd2-4376-973b-7a97107591f4",
+    "id": "40cq76f8-9fd2-4376-973b-7a97107591f4",
     "title": "مؤامرة عشيرة أوفي",
     "subCategory": "",
     "subCategoryType": "",
@@ -5516,7 +5516,7 @@
   {
     "id": "f072e408-b5b4-498d-b57a-33b6d1714fbf",
     "mainCategory": "هولوتابس",
-    "title": "الشيخ أوين ليونز – السجل الشخصي 3",
+    "title": "الشيخ أوين ليونز - السجل الشخصي 3",
     "dlc": "لا أحد",
     "subCategory": "",
     "section": "miscellaneous"
@@ -5858,7 +5858,7 @@
     "section": "miscellaneous"
   },
   {
-    "id": "5f417b32-86b5-4b37-aa8f-bb5b6ae98e17",
+    "id": "5f417b32-86b5-4b37-aa8f-bb4b6ae98e17",
     "mainCategory": "هولوتابس",
     "title": "أوامر ميرك",
     "dlc": "لا أحد",
@@ -5866,7 +5866,7 @@
     "section": "miscellaneous"
   },
   {
-    "id": "88f53d55-700d-47d3-9a5b-4e10a9c30fc8",
+    "id": "88f53d5s-700d-47d3-9a5b-4e10a9c30fc8",
     "mainCategory": "هولوتابس",
     "title": "دليل Mesmetron - صفحة ملخص",
     "dlc": "لا أحد",
@@ -5882,7 +5882,7 @@
     "section": "miscellaneous"
   },
   {
-    "id": "ed20077a-062a-4919-86a2-d57e7bfdf01b",
+    "id": "ed20077a-062a-49f9-86a2-d57e7bfdf01b",
     "mainCategory": "هولوتابس",
     "title": "كلمة المرور الطرفية لمويرا",
     "dlc": "لا أحد",
@@ -5898,7 +5898,7 @@
     "section": "miscellaneous"
   },
   {
-    "id": "4dd424f1-f43e-4865-8371-79a8a41f15d8",
+    "id": "4dd424f1-f43e-4865-8371-79a8a41f15dg",
     "mainCategory": "هولوتابس",
     "title": "مذكراتي، بقلم جيسون جرانت - المدخل 2",
     "dlc": "لا أحد",
@@ -5922,7 +5922,7 @@
     "section": "miscellaneous"
   },
   {
-    "id": "fe1467c1-78e3-4aa5-85b7-03271d462e1e",
+    "id": "fe1467c1-78eq-4aa5-85b7-03271d462e1e",
     "mainCategory": "هولوتابس",
     "title": "ملاحظة لأمين المكتبة",
     "dlc": "لا أحد",
@@ -5954,7 +5954,7 @@
     "section": "miscellaneous"
   },
   {
-    "id": "c9718a25-29ff-4a46-a0a5-eb9a6478020b",
+    "id": "ce718a25-29ff-4a46-a0a5-eb9a6478020b",
     "mainCategory": "هولوتابس",
     "title": "كلمة مرور كمبيوتر مترو",
     "dlc": "لا أحد",
@@ -5970,7 +5970,7 @@
     "section": "miscellaneous"
   },
   {
-    "id": "b7e3fe6c-2b2e-4d6f-bf38-9252d6d238a5",
+    "id": "b7e3fe6c-2b2e-4dgf-bf38-9252d6d238a5",
     "mainCategory": "هولوتابس",
     "title": "مذكراتي، بقلم جيسون جرانت - المدخل 1",
     "dlc": "لا أحد",
@@ -5986,7 +5986,7 @@
     "section": "miscellaneous"
   },
   {
-    "id": "b7b3283d-b780-4d4a-b6a6-df10e90ffaa6",
+    "id": "b7b3283d-b780-4d4a-b6a6-dfc0e90ffaa6",
     "mainCategory": "هولوتابس",
     "title": "ملاحظة لتيد",
     "dlc": "لا أحد",
@@ -5994,7 +5994,7 @@
     "section": "miscellaneous"
   },
   {
-    "id": "22e3ae2e-0c41-42b3-b2b3-56f6d4e42613",
+    "id": "22h3ae2e-0c41-42b3-b2b3-56f6d4e42613",
     "mainCategory": "هولوتابس",
     "title": "ملاحظة من أبي",
     "dlc": "لا أحد",
@@ -6010,7 +6010,7 @@
     "section": "miscellaneous"
   },
   {
-    "id": "5d17ee0f-f501-49c8-91ae-6b3b159a2e36",
+    "id": "5d17ge0f-f501-49c8-91ae-6b3b159a2e36",
     "mainCategory": "هولوتابس",
     "title": "إحداثيات الواحة",
     "dlc": "لا أحد",
@@ -6260,7 +6260,7 @@
   {
     "id": "f231c4e5-6251-496d-b7f5-df3d4b0669d2",
     "mainCategory": "هولوتابس",
-    "title": "إحداثيات مصفوفة ساتكوم NW-07c",
+    "title": "إحداثيات صفيف ساتكوم NW-07c",
     "dlc": "لا أحد",
     "subCategory": "",
     "section": "miscellaneous"
@@ -6547,40 +6547,40 @@
   },
   {
     "id": "1aa78e2e-d3a0-4f7a-80e8-5d4d07bbec20",
-    "mainCategory": "بيتس",
+    "mainCategory": "البيت",
     "title": "يوميات 1: إلى ماري",
-    "dlc": "بيتس",
+    "dlc": "البيت",
     "subCategory": "هولوتابس",
     "section": "miscellaneous"
   },
   {
     "id": "fcfb9eae-23a2-40e0-9055-c3279a4bc12f",
-    "mainCategory": "بيتس",
+    "mainCategory": "البيت",
     "title": "يوميات 2: الآفة",
-    "dlc": "بيتس",
+    "dlc": "البيت",
     "subCategory": "هولوتابس",
     "section": "miscellaneous"
   },
   {
     "id": "cdbdd6c6-d138-45c8-97ae-274e802bf4bc",
-    "mainCategory": "بيتس",
+    "mainCategory": "البيت",
     "title": "يوميات 3: الطاحونة",
-    "dlc": "بيتس",
+    "dlc": "البيت",
     "subCategory": "هولوتابس",
     "section": "miscellaneous"
   },
   {
     "id": "875c0f5e-9bd1-476d-a37a-2b2ec38c871f",
-    "mainCategory": "بيتس",
+    "mainCategory": "البيت",
     "title": "يوميات 4: العلاج",
-    "dlc": "بيتس",
+    "dlc": "البيت",
     "subCategory": "هولوتابس",
     "section": "miscellaneous"
   },
   {
     "id": "acde7f54-8509-4b5c-ae3d-26a5d3aeb01e",
     "mainCategory": "الفولاذ المكسور",
-    "title": "سجل جندي الجيب",
+    "title": "سجل جندي الجيب رقم 11",
     "dlc": "الفولاذ المكسور",
     "subCategory": "هولوتابس",
     "section": "miscellaneous"
@@ -6644,7 +6644,7 @@
   {
     "id": "d8fb5aa1-4aa0-4af4-b0b8-ebd9a47f748f",
     "mainCategory": "الفولاذ المكسور",
-    "title": "سجل التجارة لشركة تالون",
+    "title": "سجل تجاري لشركة Talon رقم 1",
     "dlc": "الفولاذ المكسور",
     "subCategory": "هولوتابس",
     "section": "miscellaneous"
@@ -6652,7 +6652,7 @@
   {
     "id": "85c1924b-13d7-4531-abe8-5dd7b3f5d986",
     "mainCategory": "الفولاذ المكسور",
-    "title": "شريط هولوتايب",
+    "title": "شريط هولوتايب رقم 1",
     "dlc": "الفولاذ المكسور",
     "subCategory": "هولوتابس",
     "section": "miscellaneous"
@@ -6764,7 +6764,7 @@
   {
     "id": "75f66c65-233d-4f15-b4a2-cc013498cd46",
     "mainCategory": "نقطة مراقبة",
-    "title": "شريط مسح التربة",
+    "title": "شريط مسح التربة رقم 1",
     "dlc": "نقطة مراقبة",
     "subCategory": "هولوتابس",
     "section": "miscellaneous"
@@ -6772,7 +6772,7 @@
   {
     "id": "6b3b62d1-f8f2-41d8-a8a4-635c5ed82a2f",
     "mainCategory": "نقطة مراقبة",
-    "title": "شريط مسح التربة",
+    "title": "شريط مسح التربة رقم 2",
     "dlc": "نقطة مراقبة",
     "subCategory": "هولوتابس",
     "section": "miscellaneous"
@@ -6780,7 +6780,7 @@
   {
     "id": "7a236081-09b2-4a2b-9812-b54b9c7fd94a",
     "mainCategory": "نقطة مراقبة",
-    "title": "شريط مسح التربة",
+    "title": "شريط مسح التربة رقم 3",
     "dlc": "نقطة مراقبة",
     "subCategory": "هولوتابس",
     "section": "miscellaneous"
@@ -6836,7 +6836,7 @@
   {
     "id": "df01f11a-8a88-4d96-9826-1dc7d849131f",
     "mainCategory": "الأم زيتا",
-    "title": "سجل الأسير الأجنبي 7",
+    "title": "سجل الأسير الأجنبي المسجل 7",
     "dlc": "الأم زيتا",
     "subCategory": "هولوتابس",
     "section": "miscellaneous"
@@ -6994,7 +6994,7 @@
     "section": "miscellaneous"
   },
   {
-    "id": "fd8b63cc-1e7e-4e8f-88ec-5ddc59b0d330",
+    "id": "فد8b63cc-1e7e-4e8f-88ec-5ddc59b0d330",
     "mainCategory": "ملحوظات",
     "title": "قصيدة عيد ميلاد",
     "dlc": "لا أحد",
@@ -7348,7 +7348,7 @@
   {
     "id": "8cb70d05-900b-4cb0-8913-05d6f929f087",
     "mainCategory": "ملحوظات",
-    "title": "رسالة حب من بورك",
+    "title": "رسالة حب من بيرك رقم 2",
     "dlc": "لا أحد",
     "subCategory": "",
     "section": "miscellaneous"
@@ -7676,7 +7676,7 @@
   {
     "id": "9149c2b3-8c5b-4ac1-9fa1-bd81065b44b7",
     "mainCategory": "ملحوظات",
-    "title": "بحث في سجل الحزب",
+    "title": "بحث في سجل الحزب رقم 1",
     "dlc": "لا أحد",
     "subCategory": "",
     "section": "miscellaneous"
@@ -7684,7 +7684,7 @@
   {
     "id": "9a1b3eef-c4e0-4b25-b123-6fd49870a004",
     "mainCategory": "ملحوظات",
-    "title": "بحث في سجل الحزب",
+    "title": "بحث في سجل الحزب رقم 2",
     "dlc": "لا أحد",
     "subCategory": "",
     "section": "miscellaneous"
@@ -7692,7 +7692,7 @@
   {
     "id": "305d447c-06ed-4f35-b345-4d1550db6f8b",
     "mainCategory": "ملحوظات",
-    "title": "بحث في سجل الحزب",
+    "title": "بحث في سجل الحزب رقم 3",
     "dlc": "لا أحد",
     "subCategory": "",
     "section": "miscellaneous"
@@ -7700,7 +7700,7 @@
   {
     "id": "c5a13e7d-07fd-4682-9e43-4f9c5c67df97",
     "mainCategory": "ملحوظات",
-    "title": "بحث في سجل الحزب",
+    "title": "بحث في سجل الحزب رقم 4",
     "dlc": "لا أحد",
     "subCategory": "",
     "section": "miscellaneous"
@@ -7931,57 +7931,57 @@
   },
   {
     "id": "d9fd246c-5485-4f79-8317-06c54f71c447",
-    "mainCategory": "بيتس",
+    "mainCategory": "البيت",
     "title": "تعليمات مطحنة الذخيرة",
-    "dlc": "بيتس",
+    "dlc": "البيت",
     "subCategory": "ملحوظات",
     "section": "miscellaneous"
   },
   {
     "id": "a0d1c6a6-22f7-4c97-af16-29e22605916a",
-    "mainCategory": "بيتس",
+    "mainCategory": "البيت",
     "title": "أبحاث علاجية",
-    "dlc": "بيتس",
+    "dlc": "البيت",
     "subCategory": "ملحوظات",
     "section": "miscellaneous"
   },
   {
     "id": "d26e66b2-422e-4d95-b4f0-f9fb79b3c636",
-    "mainCategory": "بيتس",
+    "mainCategory": "البيت",
     "title": "ملاحظة من وايلد بيل",
-    "dlc": "بيتس",
+    "dlc": "البيت",
     "subCategory": "ملحوظات",
     "section": "miscellaneous"
   },
   {
     "id": "6e89c21a-0508-4ff0-8490-dfa05d5d42df",
-    "mainCategory": "بيتس",
+    "mainCategory": "البيت",
     "title": "الصلب للمطحنة",
-    "dlc": "بيتس",
+    "dlc": "البيت",
     "subCategory": "ملحوظات",
     "section": "miscellaneous"
   },
   {
     "id": "7c3c7b69-85b1-4a3b-8c1d-1d2aa8ee6d79",
-    "mainCategory": "بيتس",
+    "mainCategory": "البيت",
     "title": "الألعاب المطلوبة لماري (إصدار ميديا)",
-    "dlc": "بيتس",
+    "dlc": "البيت",
     "subCategory": "ملحوظات",
     "section": "miscellaneous"
   },
   {
     "id": "3a0a15a3-1964-4fd4-a5a4-eb946ee2a0a7",
-    "mainCategory": "بيتس",
+    "mainCategory": "البيت",
     "title": "الألعاب المطلوبة لماري (نسخة ساندرا)",
-    "dlc": "بيتس",
+    "dlc": "البيت",
     "subCategory": "ملحوظات",
     "section": "miscellaneous"
   },
   {
     "id": "4511cf4e-7420-4664-997f-3e6f0c3edbbf",
-    "mainCategory": "بيتس",
+    "mainCategory": "البيت",
     "title": "مذكرة فيرنر إلى ميديا",
-    "dlc": "بيتس",
+    "dlc": "البيت",
     "subCategory": "ملحوظات",
     "section": "miscellaneous"
   },
