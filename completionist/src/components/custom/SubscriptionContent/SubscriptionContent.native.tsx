@@ -5,11 +5,10 @@ import useGetTheme from '@styles/hooks/useGetTheme';
 import StyledText from '@components/general/Text/StyledText.native';
 import useMainState from '@redux/hooks/useMainState';
 import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
-import { ScreenEnum, SubscriptionTypeEnum } from '@utils/CustomEnums';
+import { SubscriptionTypeEnum } from '@utils/CustomEnums';
 import useEditUserData from '@data/hooks/useEditUserData.native';
 import KeyboardAvoidingScrollView from '@components/general/Lists/KeyboardAvoidingScrollView.native';
 import useLoginState from '../LoginForm/hooks/useLoginState';
-import useGetSubscriptionOptionsList from './hooks/useGetSubscriptionOptionsList';
 import {
 	SubscriptionFeatureListContainer,
 	SubscriptionFeatureListInnerContainer,

@@ -23,7 +23,7 @@ const useEditUserData = (): EditUserDataReturnType => {
 	const { setLoginFormData, setLoggedIn, setIsAuthenticated } = useLoginDispatch();
 	const { fetchUserFromCache, saveToCache, clearCache } = useCache();
 	const { getCredentials, deleteCredentials } = useKeychain();
-	const { getUserByUserId, updateUser, updateSignUp, changePw } = useEndpoints();
+	const { getUserByUserId, updateUser, updateSignUp } = useEndpoints();
 	const getAuthNavigationPath = useGetNavigationPath();
 
 	const loadUserFromCache = async () => {
@@ -72,7 +72,7 @@ const useEditUserData = (): EditUserDataReturnType => {
 	}
 	
 	const updateUserData = async (user: User) => {
-		updateUser(user)
+		updateUser({ ...user })
 			.then(() => saveUser(user));
 	}
 

@@ -24,7 +24,6 @@ import useHandleAxiosError from './useHandleAxiosError';
 import config from '@utils/config';
 import { requestCodes } from '@utils/constants';
 import useAuthInterceptor from './useAuthInterceptor.native';
-import useEditUserData from '@data/hooks/useEditUserData.native';
 
 const useEndpoints = (): EndpointsReturnType => {
 	const url = Platform.OS === 'ios'
