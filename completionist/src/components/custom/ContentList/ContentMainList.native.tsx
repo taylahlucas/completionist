@@ -6,6 +6,7 @@ import useUpdateContent from './hooks/useUpdateContent';
 import useCheckContentComplete from './hooks/useCheckContentComplete';
 import { SettingsListItem } from '@utils/CustomInterfaces';
 import ScrollableList from '@components/general/Lists/ScrollableList.native';
+import { EXTRA_LARGE_PADDING, DEFAULT_ITEM_HEIGHT } from '@styles/global.native';
 
 export interface ContentMainListProps {
   mainCategory?: SettingsListItem;
@@ -20,9 +21,10 @@ const ContentMainList = ({ mainCategory, subCategory, isSubCategory = false }: C
     ? getContentForSubCategory(mainCategory?.title, subCategory) 
     : getContentForCategory(mainCategory?.title ?? '');
   const { checkContentComplete } = useCheckContentComplete();
+	const scrollHeight = DEFAULT_ITEM_HEIGHT * items?.length + EXTRA_LARGE_PADDING
 
   return (
-    <ScrollableList style={{ maxHeight: 300 }} contentContainerStyle={listStyles.listItemList}>
+    <ScrollableList style={{ maxHeight: scrollHeight > 300 ? 300 : scrollHeight }} contentContainerStyle={listStyles.listItemList}>
       {items?.map((item, index) => (
         <ListItem
           id={item.id}
@@ -37,4 +39,3 @@ const ContentMainList = ({ mainCategory, subCategory, isSubCategory = false }: C
 };
 
 export default ContentMainList;
-

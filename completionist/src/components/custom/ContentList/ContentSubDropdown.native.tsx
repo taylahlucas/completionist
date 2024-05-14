@@ -44,31 +44,31 @@ const ContentSubDropdown = ({ mainCategory, subCategory, completed, total }: Con
         />
       }
     >
-      <Condition
-        condition={subCategoryTypes?.length > 0}
-        conditionalElement={
-          <ContentMainList 
-            mainCategory={mainCategory} 
-            subCategory={subCategory} 
-            isSubCategory
-          />
-        }
-      >
-        {subCategoryTypes?.map((type, index) => {
-          const contentForType = getContentForSubCategoryType(subCategory, type);
-          const completedContent = checkContentCompleteForCategory(contentForType);
+			<Condition
+				condition={subCategoryTypes?.length > 0}
+				conditionalElement={
+					<ContentMainList 
+						mainCategory={mainCategory} 
+						subCategory={subCategory} 
+						isSubCategory
+					/>
+				}
+			>
+				{subCategoryTypes?.map((type, index) => {
+					const contentForType = getContentForSubCategoryType(subCategory, type);
+					const completedContent = checkContentCompleteForCategory(contentForType);
 
-          return (
-            <ContentSubTypeDropdown
-              key={index}
-              subCategory={subCategory}
-              type={type}
-              completed={completedContent.toString()}
-              total={contentForType.length.toString()}
-            />
-          )
-        })}
-      </Condition>
+					return (
+						<ContentSubTypeDropdown
+							key={index}
+							subCategory={subCategory} 
+							type={type}
+							completed={completedContent.toString()}
+							total={contentForType.length.toString()}
+						/>
+					)
+				})}
+			</Condition>
     </Dropdown>
   );
 };

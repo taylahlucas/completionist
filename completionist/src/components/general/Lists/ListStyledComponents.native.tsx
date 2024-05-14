@@ -8,6 +8,7 @@ import { LARGE_WIDTH } from '@styles/global.native';
 export const listStyles = StyleSheet.create({
   scrollableContent: {
     paddingBottom: 24,
+		paddingHorizontal: SMALL_PADDING,
 		alignItems: 'center'
   },
   listItemList: {
@@ -50,10 +51,6 @@ export const SubListHeaderTitle = styled(StyledText)`
   padding: ${SMALL_PADDING}px;
   margin-left: ${MID_PADDING}px;
   margin-right: 64px;
-`;
-
-export const SubListContainer = styled.View`
-  margin-top: ${SMALL_PADDING}px;
 `;
 
 export const ListItemContainer = styled(Animated.View)`
