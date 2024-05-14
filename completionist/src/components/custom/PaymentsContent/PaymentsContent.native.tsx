@@ -23,7 +23,7 @@ const PaymentsContent = () => {
 
 	return (
 		<>
-			<ScrollableList>
+			<ScrollableList style={{ paddingTop: 16 }}>
 				<SelectableItem
 					item={selectedSubscription}
 					isSelected

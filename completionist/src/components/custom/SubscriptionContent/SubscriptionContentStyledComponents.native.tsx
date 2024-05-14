@@ -1,7 +1,7 @@
 import { StyleSheet } from 'react-native';
 import styled from 'styled-components/native';
 import StyledText from '@components/general/Text/StyledText.native';
-import { STANDARD_WIDTH, LARGE_PADDING } from '@styles/global.native';
+import { STANDARD_WIDTH, LARGE_PADDING, MID_PADDING, SMALL_PADDING } from '@styles/global.native';
 
 export const styles = StyleSheet.create({
 	scrollContent: {
@@ -12,8 +12,8 @@ export const styles = StyleSheet.create({
 
 export const SubscriptionFeatureListContainer = styled.View`
     width: ${STANDARD_WIDTH}px;
-    padding-top: 16px;
-    padding-bottom: 16px;
+    padding-top: ${MID_PADDING}px;
+    padding-bottom: ${MID_PADDING}px;
 `;
 
 export const SubscriptionFeatureListItemContainer = styled.View`
@@ -25,19 +25,21 @@ export const SubscriptionFeatureListInnerContainer = styled.View`
 `;
 
 export const SubscriptionFeatureListTitle = styled(StyledText)`
-    padding-left: 16px;
+    padding-left: ${MID_PADDING}px;
     padding-right: ${LARGE_PADDING}px;
     align-self: center;
 `;
 
 export const SubscriptionOptionsContainer = styled.View`
-    margin-bottom: 16px;
+    margin-bottom: ${MID_PADDING}px;
+		padding-left: ${SMALL_PADDING}px;
+		padding-right: ${SMALL_PADDING}px;
 `;
 
 export const SubscriptionOptionDescriptionContainer = styled.View`
-    padding-right: 16px;
-    padding-left: 16px;
-    padding-bottom: 16px;
+    padding-right: ${MID_PADDING}px;
+    padding-left: ${MID_PADDING}px;
+    padding-bottom: ${MID_PADDING}px;
 `;
 
 export const SubscriptionOptionTitle = styled(StyledText)`
@@ -47,5 +49,5 @@ export const SubscriptionOptionTitle = styled(StyledText)`
 export const SubscriptionPriceContainer = styled.View`
     flex-direction: row;
     justify-content: space-evenly;
-    padding-bottom: 16px;
+    padding-bottom: ${MID_PADDING}px;
 `;
