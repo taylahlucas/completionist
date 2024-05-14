@@ -15,6 +15,7 @@ import { ScreenEnum, AuthScreenEnum, UnauthorizedScreenEnum } from '@utils/Custo
 interface NavigationHeaderProps {
 	id: ScreenEnum;
   title: string;
+	isForm?: boolean;
   leftAction?: NavigationHeaderLeftActionTypes;
   rightAction?: NavigationHeaderRightActionTypes;
 }
@@ -22,12 +23,13 @@ interface NavigationHeaderProps {
 const NavigationHeader = ({
 	id = UnauthorizedScreenEnum.Login,
 	title, 
-	leftAction = 'menu', 
+	isForm = false,
+	leftAction = 'menu',
 	rightAction = 'none'
 }: NavigationHeaderProps) => {
   const theme = useGetTheme();
 	const checkAuthScreen = (screen: ScreenEnum) => screen in AuthScreenEnum;
-  const leftItem = useGetLeftNavigationItem(leftAction, checkAuthScreen(id));
+  const leftItem = useGetLeftNavigationItem(leftAction, checkAuthScreen(id), isForm);
 	const rightItem = useGetRightNavigationItem(rightAction);
 
   return (

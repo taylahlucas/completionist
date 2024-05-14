@@ -33,26 +33,40 @@ interface ChangeAccountDetails {
 
 const AccountDetails = () => {
 	const { t } = useTranslation();
-	const { user } = useMainState();
+	const { user, currentScreen } = useMainState();
 	const { isEmailValid, isPwValid, isNameValid } = useValidator();
-	const [userInfo, setUserInfo] = useState<ChangeAccountDetails>({
+	const initialState = {
 		name: { value: user.name, changed: false },
 		email: { value: user.email, changed: false },
 		currentPw: { value: '', changed: false },
 		newPw: { value: '', changed: false },
-	});
+	};
+	const [userInfo, setUserInfo] = useState<ChangeAccountDetails>(initialState);
 	const { saveUser } = useEditUserData();
 	const { updateUser, changePw } = useEndpoints();
 	const { checkUserExists } = useAuthEndpoints();
 	const [showChangePw, setShowChangePw] = useState<boolean>(false);
 	const [submitPressed, setSubmitPressed] = useState<boolean>(false);
 
+	// TODO: Refactor
+	const resetState = () => {
+		setUserInfo(initialState);
+		setSubmitPressed(false)
+	};
+
 	useEffect(() => {
 		checkUserExists(user.email)
 			.then((accounts) => 
 				setShowChangePw(accounts.google && !accounts.regular ? false : true)
-			)
+			);
 	}, [])
+	
+	useEffect(() => {
+		// Reset state
+		if (currentScreen === AuthScreenEnum.Settings) {
+			resetState();
+		}
+	}, [currentScreen])
 
 	const onSubmit = () => {
 		setSubmitPressed(true);
@@ -66,9 +80,9 @@ const AccountDetails = () => {
 							email: userInfo.email.value
 						}
 						updateUser(updatedUser).then(() => {
-							setSubmitPressed(false);
 							saveUser(updatedUser);
 							Alert.alert(t('common:alerts.updateSuccess'));
+							resetState();
 						})
 					}
 					else if (accounts.regular && accounts.google) {
@@ -102,7 +116,7 @@ const AccountDetails = () => {
 						name: userInfo.name.value
 					});
 					Alert.alert(t('common:alerts.updateSuccess'));
-					setSubmitPressed(false);
+					resetState();
 				})
 		}
 		else if (userInfo.newPw.changed && isPwValid(userInfo.newPw.value)) {
@@ -113,15 +127,19 @@ const AccountDetails = () => {
 			})
 				.then(() => {
 					Alert.alert('User successfully updated.')
-					setSubmitPressed(false);
+					resetState();
 				});
 		}
 	};
 
-	// TODO: Footer button moving around?
 	return (
 		<StandardLayout>
-			<NavigationHeader id={AuthScreenEnum.AccountDetails} title={t('common:screens.accountDetails')} leftAction='back' />
+			<NavigationHeader
+				id={AuthScreenEnum.AccountDetails} 
+				title={t('common:screens.accountDetails')} 
+				isForm={userInfo.name.changed || userInfo.email.changed}
+				leftAction='back'
+			/>
 			<>
 				<KeyboardAvoidingScrollView
 					awareView={
@@ -217,7 +235,7 @@ const AccountDetails = () => {
 								newPw: { value: '', changed: false }
 							})}
 						/>
-						{/* // Add forgot password here? */}
+
 						<Condition condition={!isPwValid(userInfo.newPw.value) && userInfo.newPw.changed && submitPressed}>
 							<ErrorMessage>{`${t('common:login.instructions1')}${t('common:login.instructions2')}`}</ErrorMessage>
 						</Condition>

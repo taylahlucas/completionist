@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { Animated, Keyboard } from 'react-native';
+import { Alert, Animated, Keyboard } from 'react-native';
 import { NavigationHeaderLeftActionTypes } from '@utils/CustomTypes';
 import {
   styles,
@@ -14,8 +14,14 @@ import { useDrawerStatus } from '@react-navigation/drawer';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import IconButton from '@components/general/Icon/IconButton.native';
 import useRotateMenuButton from './useRotateMenuButton.native';
+import { useTranslation } from 'react-i18next';
 
-const useGetLeftNavigationItem = (leftAction: NavigationHeaderLeftActionTypes, hasDrawer: boolean = false): JSX.Element => {
+const useGetLeftNavigationItem = (
+	leftAction: NavigationHeaderLeftActionTypes, 
+	hasDrawer: boolean = false,
+	isForm: boolean
+): JSX.Element => {
+	const { t } = useTranslation();
   const theme = useGetTheme();
   const navigation = useReactNavigation();
 	const isDrawerOpen = hasDrawer && useDrawerStatus() === 'open';
@@ -41,7 +47,25 @@ const useGetLeftNavigationItem = (leftAction: NavigationHeaderLeftActionTypes, h
           color={theme.lightGrey}
           onPress={(): void => {
 						dismissKeyboard();
-						navigation.goBack();
+						if (isForm) {
+							Alert.alert(
+								'Unsaved Changes', 
+								'Are you sure you want to go back?',
+								[
+									{
+										text: t('common:alerts.ok'),
+										// Update user with password
+										onPress: (): void => navigation.goBack()
+									},
+									{
+										text: t('common:alerts.cancel')
+									}
+								]
+							);
+						}
+						else {
+							navigation.goBack()
+						}
 					}}
         />
       );
