@@ -70,3 +70,10 @@ export const GameSelectionChangesLeftContainer = styled.View`
 	margin-left: ${LARGE_PADDING}px;
 	padding-bottom: 8px;
 `;
+
+export const GameListDropdownContainer = styled.View`
+	width: 100%;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-top: 8px;
+`;

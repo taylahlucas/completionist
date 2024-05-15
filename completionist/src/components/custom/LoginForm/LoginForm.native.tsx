@@ -37,14 +37,14 @@ const LoginForm = () => {
           placeholder={t('common:auth.userpw')}
           inputStyle='text'
           secureTextEntry
-          value={loginFormData.password ?? ''}
+          value={loginFormData.pw ?? ''}
           onChangeText={(value) => setLoginFormData({
             ...loginFormData,
-            password: value
+            pw: value
           })}
           onReset={(): void => setLoginFormData({
             ...loginFormData,
-            password: ''
+            pw: ''
           })}
         />
       </LoginFormButtonContainer>

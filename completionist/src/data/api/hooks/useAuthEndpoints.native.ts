@@ -55,7 +55,7 @@ const useAuthEndpoints = (): AuthEndpointsReturnType => {
 					name: data.name,
 					email: data.email.toLocaleLowerCase(),
 					googleId: data.googleId ?? '',
-					password: data.password ?? '',
+					pw: data.pw ?? '',
 					userAvatar: data.userAvatar
 				}
 			);
@@ -72,12 +72,12 @@ const useAuthEndpoints = (): AuthEndpointsReturnType => {
 		};
 	}
 
-	const signIn = async ({ email, password, googleId }: SignInProps): Promise<UserResponse> => {
+	const signIn = async ({ email, pw, googleId }: SignInProps): Promise<UserResponse> => {
 		try {
 			const response = await axios.post(`${url}/${signinUrl}`,
 				{
 					email: email.toLocaleLowerCase(),
-					password,
+					pw,
 					googleId
 				}
 			);
@@ -100,12 +100,12 @@ const useAuthEndpoints = (): AuthEndpointsReturnType => {
 		}
 	};
 
-	const linkAndSignIn = async ({ email, password, googleId }: SignInProps): Promise<UserResponse> => {
+	const linkAndSignIn = async ({ email, pw, googleId }: SignInProps): Promise<UserResponse> => {
 		try {
 			const response = await axios.patch(`${url}/${linkAndSignInUrl}`,
 				{
 					email: email.toLocaleLowerCase(),
-					password,
+					pw,
 					googleId
 				}
 			);

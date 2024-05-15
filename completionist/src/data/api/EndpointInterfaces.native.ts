@@ -7,7 +7,7 @@ export interface SignUpProps {
 
 export interface SignInProps {
 	email: string;
-	password?: string;
+	pw?: string;
 	googleId?: string;
 }
 
@@ -55,8 +55,8 @@ export interface ForgotPwProps {
 
 export interface AuthEndpointsReturnType {
 	checkUserExists: (email: string) => Promise<CredentialsExistProps>;
-	linkAndSignIn: ({ email, password, googleId }: SignInProps) => Promise<UserResponse>;
-	signIn: ({ email, password, googleId }: SignInProps) => Promise<UserResponse>;
+	linkAndSignIn: ({ email, pw, googleId }: SignInProps) => Promise<UserResponse>;
+	signIn: ({ email, pw, googleId }: SignInProps) => Promise<UserResponse>;
 	signUp: ({ data }: SignUpProps) => Promise<UserResponse>;
 	sendVerificationEmail: ({ emailTo, subject, text }: SendEmailProps) => Promise<void>;
 	forgotPw: ({ email, newPw }: ForgotPwProps) => Promise<void>;

@@ -22,7 +22,7 @@ const LoginFormSignInButtons = () => {
 	const { loginFormData, isSigningUp } = useLoginState();
 	const { checkUserExists } = useAuthEndpoints();
 	const { isEmailValid, isPwValid, isNameValid } = useValidator();
-	const isLoginDisabled = !isEmailValid(loginFormData.email) || !isPwValid(loginFormData.password ?? '') || 
+	const isLoginDisabled = !isEmailValid(loginFormData.email) || !isPwValid(loginFormData.pw ?? '') || 
 	(isSigningUp 
 		? !isNameValid(loginFormData.name) 
 		: false
@@ -57,7 +57,7 @@ const LoginFormSignInButtons = () => {
 							})
 					: checkUserAccount({ 
 							email: loginFormData.email, 
-							password: loginFormData.password
+							pw: loginFormData.pw ?? ''
 						})
 				}
 			/>

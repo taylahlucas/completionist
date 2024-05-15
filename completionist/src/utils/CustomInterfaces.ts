@@ -69,7 +69,7 @@ export type UnauthorizedStackParamList = {
   Login: undefined;
 	AccountVerification: undefined;
 	SelectInitialPlan: undefined;
-	Payments: undefined;
+	Payments:  undefined;
 	SelectFirstGame: undefined;
 	LinkAccount: undefined;
 	ForgotPassword: undefined;
@@ -198,6 +198,6 @@ export interface LoginFormData {
   name: string;
   email: string;
 	googleId?: string;
-  password?: string;
+  pw?: string;
   userAvatar?: string;
 }

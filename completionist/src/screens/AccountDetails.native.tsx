@@ -214,7 +214,7 @@ const AccountDetails = () => {
 							inputStyle='text'
 							onChangeText={(value: string): void => setUserInfo({
 								...userInfo,
-								currentPw: { value: value, changed: value !== user.password }
+								currentPw: { value: value, changed: value !== user.pw }
 							})}
 							onReset={(): void => setUserInfo({
 								...userInfo,
@@ -228,7 +228,7 @@ const AccountDetails = () => {
 							inputStyle='text'
 							onChangeText={(value: string): void => setUserInfo({
 								...userInfo,
-								newPw: { value: value, changed: value !== user.password }
+								newPw: { value: value, changed: value !== user.pw }
 							})}
 							onReset={(): void => setUserInfo({
 								...userInfo,

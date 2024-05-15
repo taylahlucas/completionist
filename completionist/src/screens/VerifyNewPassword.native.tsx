@@ -25,10 +25,10 @@ const VerifyNewPassword = () => {
 				email={loginFormData.email}
 				token={verificationToken ?? ''}
 				action={(): void => {
-					if (loginFormData.password) {
+					if (loginFormData.pw) {
 						forgotPw({
 							email: loginFormData.email,
-							newPw: loginFormData.password
+							newPw: loginFormData.pw
 						})
 							.then(() => {
 								Alert.alert(

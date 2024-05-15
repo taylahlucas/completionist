@@ -17,7 +17,7 @@ interface GoogleSignInError {
 }
 
 interface GetLoginMethodsReturnType {
-	checkUserAccount: ({ email, password }: SignInProps) => Promise<void>;
+	checkUserAccount: ({ email, pw }: SignInProps) => Promise<void>;
 	googleUserSignIn: () => Promise<void>;
 	signOut: () => Promise<void>;
 }
@@ -30,9 +30,9 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 	const { checkUserExists, linkAndSignIn, signIn, signUp } = useAuthEndpoints();
 	const sendVerification = useSendVerificationEmail();
 
-	const userSignIn = async ({ email, password, googleId }: SignInProps) => {
+	const userSignIn = async ({ email, pw, googleId }: SignInProps) => {
 		try {
-			await signIn({ email: email, password: password, googleId: googleId })
+			await signIn({ email, pw, googleId })
 				.then((userResponse) => {
 					if (!!userResponse) {
 						setIsAuthenticated(true);
@@ -90,14 +90,14 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 		);
 	};
 
-	const checkUserAccount = async ({ email, password }: SignInProps) => {
+	const checkUserAccount = async ({ email, pw }: SignInProps) => {
 		// Only runs on regular sign in
 		checkUserExists(email)
 			.then((accounts) => {
 				if (accounts.regular) {
 					userSignIn({
-						email: email,
-						password: password
+						email,
+						pw
 					});
 				}
 				else if (accounts.google && !accounts.regular) {

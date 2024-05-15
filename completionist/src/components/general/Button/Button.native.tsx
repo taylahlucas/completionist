@@ -1,5 +1,6 @@
 import React from 'react';
-import { View, ViewStyle } from 'react-native';
+import { ViewStyle } from 'react-native';
+import { throttle } from 'lodash';
 import StyledText from '../Text/StyledText.native';
 import { StyledButtonDefault, StyledButtonNavigation, StyledButtonText, FooterButtonView } from './ButtonStyledComponents.native';
 import useGetTheme from '@styles/hooks/useGetTheme';
@@ -26,6 +27,7 @@ const Button = ({
 	color
 }: ButtonProps) => {
 	const theme = useGetTheme();
+	const throttleValue = 3000; 
 
 	switch (type) {
 		case 'text':
@@ -33,7 +35,7 @@ const Button = ({
 				<StyledButtonText
 					testID={testID}
 					style={style}
-					onPress={onPress}
+					onPress={throttle(onPress, throttleValue)}
 					color={theme.darkGrey}
 					disabled={disabled}
 				>
@@ -47,7 +49,7 @@ const Button = ({
 				<StyledButtonNavigation
 					testID={testID}
 					style={style}
-					onPress={onPress}
+					onPress={throttle(onPress, throttleValue)}
 					color={color ?? theme.darkGrey}
 				>
 					<StyledText
@@ -65,8 +67,8 @@ const Button = ({
 				<FooterButtonView style={{ backgroundColor: theme.black }}>
 					<StyledButtonDefault
 						testID={testID}
-						style={{ ...style }}
-						onPress={onPress}
+						style={style}
+						onPress={throttle(onPress, throttleValue)}
 						color={!!color ? color : theme.primaryPurple}
 						disabled={disabled}
 					>
@@ -81,7 +83,7 @@ const Button = ({
 				<StyledButtonDefault
 					testID={testID}
 					style={style}
-					onPress={onPress}
+					onPress={throttle(onPress, throttleValue)}
 					color={!!color ? color : theme.primaryPurple}
 					disabled={disabled}
 				>

@@ -26,7 +26,7 @@ const LinkAccount = () => {
 				token={verificationToken ?? ''}
 				action={(): Promise<void> => linkAndSignIn({
 						email: loginFormData.email,
-						password: loginFormData.password
+						pw: loginFormData.pw
 					})
 					.then((userResponse: UserResponse) => {
 						if (userResponse) {

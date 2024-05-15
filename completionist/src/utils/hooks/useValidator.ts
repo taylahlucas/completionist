@@ -5,8 +5,8 @@ const useValidator = () => {
 	}
 	
 	const isPwValid = (pw: string): boolean => {
-		const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}$/;
-		return passwordRegex.test(pw);
+		const pwRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}$/;
+		return pwRegex.test(pw);
 	}
 	
 	const isNameValid = (name: string): boolean => {

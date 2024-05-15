@@ -31,10 +31,10 @@ const ForgotPassword = () => {
 			testID='forgot-password'
 			type='footer'
 			title={t('common:continue')}
-			disabled={!loginFormData.email || !loginFormData.password}
+			disabled={!loginFormData.email || !loginFormData.pw}
 			onPress={() => {
 				setSubmitPressed(true);
-				if (isPwValid(loginFormData.password ?? '')) {
+				if (isPwValid(loginFormData.pw ?? '')) {
 					checkUserExists(loginFormData.email)
 						.then((accounts) => {
 							if (accounts.regular || accounts.google) {
@@ -89,17 +89,17 @@ const ForgotPassword = () => {
 					placeholder={t('common:accountDetails.newPw')}
 					inputStyle='text'
 					secureTextEntry
-					value={loginFormData.password}
+					value={loginFormData.pw}
 					onChangeText={(value) => setLoginFormData({
 						...loginFormData,
-						password: value
+						pw: value
 					})}
 					onReset={(): void => setLoginFormData({
 						...loginFormData,
-						password: ''
+						pw: ''
 					})}
 				/>
-				<Condition condition={!isPwValid(loginFormData.password ?? '') && submitPressed}>
+				<Condition condition={!isPwValid(loginFormData.pw ?? '') && submitPressed}>
 					<ErrorMessage>
 						{`${t('common:login.instructions1')}${t('common:login.instructions2')}`}
 					</ErrorMessage>

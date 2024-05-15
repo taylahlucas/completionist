@@ -37,7 +37,7 @@ const SendRequest = () => {
 		<StandardLayout>
 			<NavigationHeader id={AuthScreenEnum.SendRequest} title={t('common:screens.sendRequest')} />
 			<ParagraphView>
-				<StyledText>{t('common:sendRequest.SendRequestDesc')}</StyledText>
+				<StyledText>{t('common:sendRequest.requestGameDesc')}</StyledText>
 			</ParagraphView>
 			<KeyboardAvoidingScrollView
 				awareView={
