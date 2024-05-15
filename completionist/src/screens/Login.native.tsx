@@ -1,7 +1,6 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { ScrollView } from 'react-native';
 import { useTranslation } from 'react-i18next';
-import axios from 'axios';
 import StandardLayout from '../components/general/Layouts/StandardLayout.native';
 import NavigationHeader from '@navigation/NavigationHeader.native';
 import useLoginState from '@components/custom/LoginForm/hooks/useLoginState';
@@ -12,17 +11,18 @@ import LoginForm from '@components/custom/LoginForm/LoginForm.native';
 import LoginFormSignInButtons from '@components/custom/LoginForm/LoginFormSignInButtons.native';
 import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
 import useIsLoading from '@data/api/hooks/useIsLoading.native';
+import useIsKeyboardVisible from '@utils/hooks/useIsKeyboardVisible.native';
 
 const Login = () => {
 	const { t } = useTranslation();
 	const { isSigningUp } = useLoginState();
 	const isLoading = useIsLoading();
-
-	// TODO: Fix keyboard view here (check with actual phone)
+	const isKeyboardVisible = useIsKeyboardVisible();
+	
 	return (
 		<StandardLayout isLoading={isLoading}>
 			<NavigationHeader id={UnauthorizedScreenEnum.Login} title={t('common:appTitle')} leftAction={'none'} />
-			<ScrollView>
+			<ScrollView contentContainerStyle={{ paddingBottom: isKeyboardVisible ? 260 : 0 }}>
 				<LoginContentContainer>
 					<Condition condition={isSigningUp}>
 						<StyledText style={{ position: 'absolute' }}>
