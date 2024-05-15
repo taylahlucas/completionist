@@ -8,11 +8,19 @@ export const userMockInitial: User = {
 		...initialUser.subscription,
 		data: [
 			{
+				id: GameKeyEnum.FALLOUT_3,
+				isActive: false
+			},
+			{
+				id: GameKeyEnum.FALLOUT_4,
+				isActive: true
+			},
+			{
 				id: GameKeyEnum.SKYRIM,
 				isActive: true
 			},
 			{
-				id: GameKeyEnum.FALLOUT_4,
+				id: GameKeyEnum.WITCHER_3,
 				isActive: false
 			}
 		]
