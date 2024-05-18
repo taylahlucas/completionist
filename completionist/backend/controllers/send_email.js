@@ -34,7 +34,7 @@ const sendEmail = async (req, res) => {
 	const isAuthorized = await checkAuthToken(req, res);
 	if (isAuthorized) {
 		try {
-			const { to, subject, text } = req.body;
+			const { from, subject, text } = req.body;
 	
 			const transporter = nodemailer.createTransport({
 				host: 'smtp.gmail.com',
@@ -43,11 +43,10 @@ const sendEmail = async (req, res) => {
 					pass: process.env.GMAIL_SMTP_PASSWORD
 				},
 			});
-	
 			// Send mail with defined transport object
 			await transporter.sendMail({
-				from: process.env.GMAIL_SMTP_EMAIL,
-				to: to,
+				from,
+				to: process.env.GMAIL_SMTP_EMAIL,
 				subject,
 				text,
 			});

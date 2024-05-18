@@ -9,6 +9,7 @@ const useInitUserData = () => {
   const appStateRef = useRef(AppState.currentState);
   const { setAppState } = useMainDispatch();
   const { user, appState, shouldUpdateUser } = useMainState();
+	// TODO: Remove isLoggedIn?
   const { isLoggedIn, isAuthenticated } = useLoginState();
   const { loadUserFromCache, updateUserData } = useEditUserData();
 

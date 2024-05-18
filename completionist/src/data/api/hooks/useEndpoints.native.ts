@@ -107,9 +107,9 @@ const useEndpoints = (): EndpointsReturnType => {
 			await authInterceptor.post(
 				`${url}/${sendEmailUrl}`,
 				{
-					to: emailTo,
+					from: emailTo,
 					subject: subject,
-					text: text
+					text: `${emailTo}\n\n${text}`
 				}
 			);
 			return;

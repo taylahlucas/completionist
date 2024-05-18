@@ -8,6 +8,7 @@ import useEndpoints from '../api/hooks/useEndpoints.native';
 import useLoginState from '@components/custom/LoginForm/hooks/useLoginState';
 import { initialUser } from '@redux/MainState';
 import useGetNavigationPath from './useGetNavigationPath';
+import { SubscriptionTypeEnum } from '@utils/CustomEnums';
 
 interface EditUserDataReturnType {
 	loadUserFromCache: () => void;
@@ -26,6 +27,29 @@ const useEditUserData = (): EditUserDataReturnType => {
 	const { getUserByUserId, updateUser, updateSignUp } = useEndpoints();
 	const getAuthNavigationPath = useGetNavigationPath();
 
+	const checkUpdateChangesLeft = (user: User) => {
+		const currentDate = new Date();
+		// Refresh changesLeft value on the 1st of each month
+		if (currentDate.getDate() === 1 && user.subscription.tier === SubscriptionTypeEnum.FREE) {
+			if (user.subscription.changesLeft !== 1) {
+				const updatedUser = {
+					...user,
+					subscription: {
+						...user.subscription,
+						changesLeft: 1
+					}
+				};
+				updateUser({ ...updatedUser })
+					.then(() => {
+						saveUser(updatedUser);
+					});
+			}
+    }
+		else {
+			saveUser(user);
+		}
+	};
+
 	const loadUserFromCache = async () => {
 		const credentials = await getCredentials();
 
@@ -34,13 +58,13 @@ const useEditUserData = (): EditUserDataReturnType => {
 			fetchUserFromCache(credentials.password)
 				.then((cachedData) => {
 					if (cachedData) {
-						saveUser(cachedData);
+						checkUpdateChangesLeft(cachedData);
 					}
 					else {
 						getUserByUserId({ userId: credentials.username })
 							.then((user) => {
 								if (user) {
-									saveUser(user);
+									checkUpdateChangesLeft(user);
 								}
 							})
 					}
@@ -73,7 +97,7 @@ const useEditUserData = (): EditUserDataReturnType => {
 	
 	const updateUserData = async (user: User) => {
 		updateUser({ ...user })
-			.then(() => saveUser(user));
+			.then(() => checkUpdateChangesLeft(user));
 	}
 
 	const removeUserData = () => {

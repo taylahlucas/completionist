@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Alert } from 'react-native';
 import { useTranslation } from 'react-i18next';
 import StandardLayout from '@components/general/Layouts/StandardLayout.native';
 import NavigationHeader from '@navigation/NavigationHeader.native';
@@ -31,6 +32,13 @@ const SendRequest = () => {
 			subject: formData.subject,
 			text: formData.text
 		})
+		.then(() => {
+			setFormData({ subject: '', text: '' });
+			Alert.alert(
+				'Thanks!',
+				'Your email has been sent successfully.'
+			);
+		});
 	};
 
 	return (
