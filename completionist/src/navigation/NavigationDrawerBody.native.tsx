@@ -28,7 +28,7 @@ const NavigationDrawerBody: React.FunctionComponent = () => {
 	const { signOut } = useGetLoginMethods();
 
 	return (
-		<NavigationDrawerBodyContainer>
+		<NavigationDrawerBodyContainer contentContainerStyle={{ height: '100%' }}>
 			{/* Main items */}
 			{drawerItems.map((item, index) => (
 				<NavigationDrawerItem key={index} item={item} isActive={currentScreen === item.id} />
@@ -51,6 +51,7 @@ const NavigationDrawerBody: React.FunctionComponent = () => {
 						<NavigationDrawerFooterTitle
 							type='ListItemTitle'
 							color={currentScreen === item.id ? theme.lightGrey : theme.midGrey}
+							numberOfLines={1}
 							align='left'
 						>
 							{item.title}

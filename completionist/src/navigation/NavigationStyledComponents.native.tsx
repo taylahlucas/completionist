@@ -113,8 +113,7 @@ export const NavigationDrawerContainer = styled.View`
   flex-direction: column;
 `;
 
-export const NavigationDrawerBodyContainer = styled.View`
-  height: ${Dimensions.get('window').height - 84}px;
+export const NavigationDrawerBodyContainer = styled.ScrollView`
   align-content: center;
   margin-top: 16px;
   margin-left: 16px;

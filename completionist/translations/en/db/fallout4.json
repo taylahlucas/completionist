@@ -1091,7 +1091,6 @@
 		"conflictingIds": [],
 		"section": "quests"
 	},
-	//
 	{
 		"id": "346cf00e-e13d-45f1-ba34-f527b9e19c0b",
 		"mainCategory": "Faction Quests",
@@ -1100,7 +1099,7 @@
 		"title": "Variable Removal",
 		"location": "",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Variable_Removal",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -1113,7 +1112,7 @@
 		"title": "Weathervane",
 		"location": "",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Weathervane",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -1126,7 +1125,7 @@
 		"title": "Synth Retention",
 		"location": "The Institute",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Synth_Retention",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -1139,7 +1138,7 @@
 		"title": "The Battle of Bunker Hill",
 		"location": "Bunker Hill",
 		"hold": "The Institute",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/The_Battle_of_Bunker_Hill",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -1152,7 +1151,7 @@
 		"title": "Mankind - Redefined",
 		"location": "The Institute",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Mankind_-_Redefined",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -1165,7 +1164,7 @@
 		"title": "Mass Fusion",
 		"location": "Mass Fusion Building",
 		"hold": "The Institute",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Mass_Fusion_(quest)",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -1178,7 +1177,7 @@
 		"title": "Pinned",
 		"location": "The Institute",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Pinned",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -1191,7 +1190,7 @@
 		"title": "Powering Up",
 		"location": "The Institute",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Powering_Up",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -1204,7 +1203,7 @@
 		"title": "End of the Line",
 		"location": "The Institute",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/End_of_the_Line",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -1217,7 +1216,7 @@
 		"title": "Airship Down",
 		"location": "The Prydwen",
 		"hold": "The Institute",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Airship_Down",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -1230,7 +1229,7 @@
 		"title": "Nuclear Family",
 		"location": "The Institute",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Nuclear_Family",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -1243,7 +1242,7 @@
 		"title": "A House Divided",
 		"location": "The Institute",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/A_House_Divided",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -1256,7 +1255,7 @@
 		"title": "Building a Better Crop",
 		"location": "The Institute",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Building_a_Better_Crop",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -1269,7 +1268,7 @@
 		"title": "Plugging a Leak",
 		"location": "The Institute",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Plugging_a_Leak",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -1282,7 +1281,7 @@
 		"title": "Appropriation",
 		"location": "The Institute",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Appropriation",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -1295,7 +1294,7 @@
 		"title": "Hypothesis",
 		"location": "The Institute",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Hypothesis",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -1308,7 +1307,7 @@
 		"title": "Pest Control",
 		"location": "The Institute",
 		"hold": "Location Name",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Pest_Control",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -1321,7 +1320,7 @@
 		"title": "Political Leanings",
 		"location": "The Institute",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Political_Leanings",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -1334,7 +1333,7 @@
 		"title": "Reclamation",
 		"location": "The Institute",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Reclamation",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -1347,7 +1346,7 @@
 		"title": "Banished from the Institute",
 		"location": "",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Banished_from_the_Institute",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -1360,7 +1359,7 @@
 		"title": "Cambridge Polymer Labs",
 		"location": "Cambridge Polymer Labs",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Cambridge_Polymer_Labs_(quest)",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -1373,7 +1372,7 @@
 		"title": "Confidence Man",
 		"location": "Diamond City",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Confidence_Man",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -1386,7 +1385,7 @@
 		"title": "Curtain Call",
 		"location": "Trinity Tower",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Curtain_Call",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -1399,7 +1398,7 @@
 		"title": "Dependency",
 		"location": "Diamond City",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Dependency",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -1412,7 +1411,7 @@
 		"title": "Diamond City Blues",
 		"location": "Diamond City",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Diamond_City_Blues",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -1425,7 +1424,7 @@
 		"title": "Emogene Takes a Lover",
 		"location": "Vault 81",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Emogene_Takes_a_Lover",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -1438,7 +1437,7 @@
 		"title": "Here Kitty, Kitty",
 		"location": "",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Here_Kitty,_Kitty",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -1451,7 +1450,7 @@
 		"title": "Here There Be Monsters",
 		"location": "The Shamrock Taphouse",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Here_There_Be_Monsters",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -1464,7 +1463,7 @@
 		"title": "Hole in the Wall",
 		"location": "Vault 81",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Hole_in_the_Wall",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -1477,7 +1476,7 @@
 		"title": "Human Error",
 		"location": "Graygarden",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Human_Error",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -1490,7 +1489,7 @@
 		"title": "In Sheep's Clothing",
 		"location": "Goodneighbor",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/In_Sheep%27s_Clothing",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -1503,7 +1502,7 @@
 		"title": "Kid in a Fridge",
 		"location": "University Point",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Kid_in_a_Fridge",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -1516,7 +1515,7 @@
 		"title": "Last Voyage of the U.S.S. Constitution",
 		"location": "The U.S.S. Constitution",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Last_Voyage_of_the_U.S.S._Constitution",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -1529,7 +1528,7 @@
 		"title": "Mystery Meat",
 		"location": "University Point",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Mystery_Meat",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -1542,7 +1541,7 @@
 		"title": "Order Up",
 		"location": "Diamond City",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Order_Up",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -1555,7 +1554,7 @@
 		"title": "Out in Left Field",
 		"location": "Diamond City",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Out_in_Left_Field",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -1568,7 +1567,7 @@
 		"title": "Painting the Town",
 		"location": "Diamond City",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Painting_the_Town",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -1581,7 +1580,7 @@
 		"title": "Pickman's Gift",
 		"location": "Pickman Gallery",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Pickman%27s_Gift",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -1594,7 +1593,7 @@
 		"title": "Public Knowledge",
 		"location": "Publick Occurrences (Diamond City)",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Public_Knowledge",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -1607,7 +1606,7 @@
 		"title": "Pull the Plug",
 		"location": "Poseidon Energy",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Pull_the_Plug",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -1620,7 +1619,7 @@
 		"title": "Short Stories",
 		"location": "Goodneighbor",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Short_Stories",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -1633,7 +1632,7 @@
 		"title": "Special Delivery",
 		"location": "Cambridge Police Station",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Special_Delivery",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -1646,7 +1645,7 @@
 		"title": "Story of the Century",
 		"location": "Publick Occurrences (Diamond City)",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Story_of_the_Century",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -1659,7 +1658,7 @@
 		"title": "The Big Dig",
 		"location": "Goodneighbor",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/The_Big_Dig",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -1672,7 +1671,7 @@
 		"title": "The Devil's Due",
 		"location": "Museum of Witchcraft",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/The_Devil%27s_Due",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -1685,7 +1684,7 @@
 		"title": "The Disappearing Act",
 		"location": "Diamond City",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/The_Disappearing_Act",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -1698,7 +1697,7 @@
 		"title": "The Gilded Grasshopper",
 		"location": "Goodneighbor",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/The_Gilded_Grasshopper",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -1711,7 +1710,7 @@
 		"title": "The Marowski Heist",
 		"location": "Chem-I-Care",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/The_Marowski_Heist",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -1724,7 +1723,7 @@
 		"title": "The Memory Den",
 		"location": "Goodneighbor",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/The_Memory_Den",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -1737,7 +1736,7 @@
 		"title": "The Secret of Cabot House",
 		"location": "Parsons State Insane Asylum",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/The_Secret_of_Cabot_House",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -1750,7 +1749,7 @@
 		"title": "The Silver Shroud",
 		"location": "Goodneighbor",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/The_Silver_Shroud",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -1763,7 +1762,7 @@
 		"title": "Trouble Brewin'",
 		"location": "The Shamrock Taphouse",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Trouble_Brewin%27",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -1776,7 +1775,7 @@
 		"title": "Vault 75",
 		"location": "Malden Middle School",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Vault_75_(quest)",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -1789,7 +1788,7 @@
 		"title": "Vault 81",
 		"location": "Vault 81",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Vault_81_(quest)",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -1802,7 +1801,7 @@
 		"title": "Art Appreciation",
 		"location": "Institute",
 		"hold": "Commonwealth",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Art_Appreciation",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -1815,7 +1814,7 @@
 		"title": "Atom Cats (Quest)",
 		"location": "Atom Cats Garage",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Atom_Cats_(quest)",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -1828,7 +1827,7 @@
 		"title": "Botany Class",
 		"location": "Diamond City",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Botany_Class",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -1841,7 +1840,7 @@
 		"title": "The Combat Zone",
 		"location": "The Combat Zone",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/The_Combat_Zone_(quest)",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -1854,7 +1853,7 @@
 		"title": "Detective Case Files",
 		"location": "Valentine Detective Agency",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Detective_Case_Files",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -1867,7 +1866,7 @@
 		"title": "Diamond City's Most Wanted",
 		"location": "Diamond City",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Diamond_City%27s_Most_Wanted",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -1880,7 +1879,7 @@
 		"title": "Fallen Hero",
 		"location": "West Roxbury Station",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Fallen_Hero",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -1893,7 +1892,7 @@
 		"title": "Find the Treasures of Jamaica Plain",
 		"location": "Jamaica Plain",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Find_the_Treasures_of_Jamaica_Plain",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -1906,7 +1905,7 @@
 		"title": "Fly Fishing",
 		"location": "West Everett Estates",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Fly_Fishing",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -1919,7 +1918,7 @@
 		"title": "Giddyup 'n Go",
 		"location": "Back Street Apparel",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Giddyup_%27n_Go",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -1932,7 +1931,7 @@
 		"title": "Greet the Dog",
 		"location": "Red Rocket Truck Stop",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Greet_the_Dog",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -1945,7 +1944,7 @@
 		"title": "Gun Run",
 		"location": "Vault 81",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Gun_Run",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -1958,7 +1957,7 @@
 		"title": "Hazardous Material",
 		"location": "WRVR broadcast station",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Hazardous_Material",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -1971,7 +1970,7 @@
 		"title": "Help Defend (Location Name)",
 		"location": "",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Help_Defend",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -1983,7 +1982,7 @@
 		"title": "Home Plate",
 		"location": "",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Home_Plate_(quest)",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -1995,7 +1994,7 @@
 		"title": "MacCready for Action",
 		"location": "",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/MacCready_for_Action",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2007,7 +2006,7 @@
 		"title": "Meet Ness at the Crash Site",
 		"location": "",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Meet_Ness_at_the_Crash_Site",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2019,7 +2018,7 @@
 		"title": "Message in a Bottle - Trapped for Days",
 		"location": "",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Message_in_a_Bottle_-_Trapped_for_Days",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2031,7 +2030,7 @@
 		"title": "Message in a Bottle - Predator Becomes Prey",
 		"location": "",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Message_in_a_Bottle_-_Predator_Becomes_Prey",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2043,7 +2042,7 @@
 		"title": "Message in a Bottle - Not Going Well",
 		"location": "",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Message_in_a_Bottle_-_Not_Going_Well",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2055,7 +2054,7 @@
 		"title": "Message in a Bottle - Need a Hand",
 		"location": "",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Message_in_a_Bottle_-_Need_a_Hand",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2067,7 +2066,7 @@
 		"title": "Message in a Bottle - Difficult to Kill",
 		"location": "",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Message_in_a_Bottle_-_Difficult_to_Kill",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2079,7 +2078,7 @@
 		"title": "Message in a Bottle - X Marks the Spot",
 		"location": "",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Message_in_a_Bottle_-_X_Marks_the_Spot",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2092,7 +2091,7 @@
 		"title": "Nuka Cola Needs",
 		"location": "",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Nuka_Cola_Needs",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2105,7 +2104,7 @@
 		"title": "Pool Cleaning",
 		"location": "",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Pool_Cleaning",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2118,7 +2117,7 @@
 		"title": "Prep School",
 		"location": "",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Prep_School",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2131,7 +2130,7 @@
 		"title": "Recruiting Hancock",
 		"location": "",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Recruiting_Hancock",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2144,7 +2143,7 @@
 		"title": "Galleria",
 		"location": "",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Galleria",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2157,7 +2156,7 @@
 		"title": "Search for caps in (Location)",
 		"location": "(Location)",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Search_for_caps_in_(Location)",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2170,7 +2169,7 @@
 		"title": "Look for the stash of chems in (Location)",
 		"location": "(Location)",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Look_for_the_stash_of_chems_in_(Location)",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2183,7 +2182,7 @@
 		"title": "Find the (weapon) in (Location)",
 		"location": "(Location)",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Find_the_(weapon)_in_(Location)",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2196,7 +2195,7 @@
 		"title": "Search for scrap in (Location)",
 		"location": "(Location)",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Search_for_scrap_in_(Location)",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2209,7 +2208,7 @@
 		"title": "Search for tech in (Location)",
 		"location": "(Location)",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Search_for_tech_in_(Location)",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2222,7 +2221,7 @@
 		"title": "The Cleaner",
 		"location": "",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/The_Cleaner",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2235,7 +2234,7 @@
 		"title": "Traffic Jam",
 		"location": "",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Traffic_Jam",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2248,7 +2247,7 @@
 		"title": "Vault 81 Tour",
 		"location": "",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Vault_81_Tour",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2261,7 +2260,7 @@
 		"title": "Virgil's Cure",
 		"location": "",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Virgil%27s_Cure",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2274,7 +2273,7 @@
 		"title": "Benign Intervention",
 		"location": "",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Benign_Intervention",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2287,7 +2286,7 @@
 		"title": "Emergent Behavior",
 		"location": "",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Emergent_Behavior",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2300,7 +2299,7 @@
 		"title": "Long Road Ahead",
 		"location": "",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Long_Road_Ahead",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2313,7 +2312,7 @@
 		"title": "Long Time Coming",
 		"location": "",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Long_Time_Coming",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2326,7 +2325,7 @@
 		"title": "A Pillar of the Community",
 		"location": "",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/A_Pillar_of_the_Community",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2339,7 +2338,7 @@
 		"title": "Bill Sutton (Quest)",
 		"location": "",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Bill_Sutton_(quest)",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2352,7 +2351,7 @@
 		"title": "Brother Against Brother",
 		"location": "",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Brother_Against_Brother",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2365,7 +2364,7 @@
 		"title": "Familiar Faces",
 		"location": "",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Familiar_Faces",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2378,7 +2377,7 @@
 		"title": "Fertilizer Woman",
 		"location": "",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Fertilizer_Woman",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2391,7 +2390,7 @@
 		"title": "Holly (Quest)",
 		"location": "",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Holly_(quest)",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2404,7 +2403,7 @@
 		"title": "Lucy Abernathy (Quest)",
 		"location": "",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Lucy_Abernathy_(quest)",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2417,7 +2416,7 @@
 		"title": "Maintenance Man",
 		"location": "",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Maintenance_Man",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2430,7 +2429,7 @@
 		"title": "Quality Assurance",
 		"location": "",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Quality_Assurance",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2443,7 +2442,7 @@
 		"title": "Supervisor Brown (Quest)",
 		"location": "",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Supervisor_Brown_(quest)",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2456,7 +2455,7 @@
 		"title": "Supervisor Greene (Quest)",
 		"location": "",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Supervisor_Greene_(quest)",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2469,7 +2468,7 @@
 		"title": "Wedding Day",
 		"location": "",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Wedding_Day",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2482,7 +2481,7 @@
 		"title": "Mechanical Menace",
 		"location": "Wattz Consumer Electronics",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Mechanical_Menace",
 		"dlc": "Automatron",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2495,7 +2494,7 @@
 		"title": "A New Threat",
 		"location": "General Atomics Factory",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/A_New_Threat",
 		"dlc": "Automatron",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2508,7 +2507,7 @@
 		"title": "Headhunting",
 		"location": "Fort Hagen",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Headhunting",
 		"dlc": "Automatron",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2521,7 +2520,7 @@
 		"title": "Restoring Order",
 		"location": "RobCo Sales & Service Center",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Restoring_Order",
 		"dlc": "Automatron",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2534,7 +2533,7 @@
 		"title": "Rogue Robot",
 		"location": "The Mechanist's Lair",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Rogue_Robot",
 		"dlc": "Automatron",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2547,7 +2546,7 @@
 		"title": "Far From Home",
 		"location": "The Island",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Far_From_Home",
 		"dlc": "Far Harbor",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2560,7 +2559,7 @@
 		"title": "Walk in the Park",
 		"location": "The Island",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Walk_in_the_Park",
 		"dlc": "Far Harbor",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2573,7 +2572,7 @@
 		"title": "Where You Belong",
 		"location": "The Island",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Where_You_Belong",
 		"dlc": "Far Harbor",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2586,7 +2585,7 @@
 		"title": "Best Left Forgotten",
 		"location": "The Island",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Best_Left_Forgotten",
 		"dlc": "Far Harbor",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2599,7 +2598,7 @@
 		"title": "The Way Life Should Be",
 		"location": "The Island",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/The_Way_Life_Should_Be",
 		"dlc": "Far Harbor",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2612,7 +2611,7 @@
 		"title": "Cleansing The Land",
 		"location": "The Island",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Cleansing_The_Land",
 		"dlc": "Far Harbor",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2625,7 +2624,7 @@
 		"title": "Reformation",
 		"location": "The Island",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Reformation",
 		"dlc": "Far Harbor",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2638,7 +2637,7 @@
 		"title": "Close to Home",
 		"location": "The Island",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Close_to_Home",
 		"dlc": "Far Harbor",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2651,7 +2650,7 @@
 		"title": "Brain Dead",
 		"location": "The Island",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Brain_Dead",
 		"dlc": "Far Harbor",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2664,7 +2663,7 @@
 		"title": "Shipbreaker",
 		"location": "The Island",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Shipbreaker",
 		"dlc": "Far Harbor",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2677,7 +2676,7 @@
 		"title": "Condensers Down",
 		"location": "The Island",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Condensers_Down",
 		"dlc": "Far Harbor",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2690,7 +2689,7 @@
 		"title": "Deadliest Catch",
 		"location": "The Island",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Deadliest_Catch",
 		"dlc": "Far Harbor",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2703,7 +2702,7 @@
 		"title": "Super Mutants in the Fog",
 		"location": "The Island",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Super_Mutants_in_the_Fog",
 		"dlc": "Far Harbor",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2716,7 +2715,7 @@
 		"title": "Trapper Attack",
 		"location": "The Island",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Trapper_Attack",
 		"dlc": "Far Harbor",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2729,7 +2728,7 @@
 		"title": "Acadian Ideals",
 		"location": "Acadia",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Acadian_Ideals",
 		"dlc": "Far Harbor",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2742,7 +2741,7 @@
 		"title": "Data Recovery",
 		"location": "Acadia",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Data_Recovery",
 		"dlc": "Far Harbor",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2755,7 +2754,7 @@
 		"title": "The Arrival",
 		"location": "Acadia",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/The_Arrival",
 		"dlc": "Far Harbor",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2768,7 +2767,7 @@
 		"title": "The Price of Memory",
 		"location": "Acadia",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/The_Price_of_Memory",
 		"dlc": "Far Harbor",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2781,7 +2780,7 @@
 		"title": "Hunting the Hunter",
 		"location": "Acadia",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Hunting_the_Hunter",
 		"dlc": "Far Harbor",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2794,7 +2793,7 @@
 		"title": "Ablutions",
 		"location": "The Nucleus",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Ablutions",
 		"dlc": "Far Harbor",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2807,7 +2806,7 @@
 		"title": "The Heretic",
 		"location": "The Nucleus",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/The_Heretic",
 		"dlc": "Far Harbor",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2820,7 +2819,7 @@
 		"title": "Visions in the Fog",
 		"location": "The Nucleus",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Visions_in_the_Fog",
 		"dlc": "Far Harbor",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2833,7 +2832,7 @@
 		"title": "What Atom Requires",
 		"location": "The Nucleus",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/What_Atom_Requires",
 		"dlc": "Far Harbor",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2846,7 +2845,7 @@
 		"title": "The Trial of Brother Devin",
 		"location": "The Nucleus",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/The_Trial_of_Brother_Devin",
 		"dlc": "Far Harbor",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2859,7 +2858,7 @@
 		"title": "Witch Hunt",
 		"location": "The Nucleus",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Witch_Hunt",
 		"dlc": "Far Harbor",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2872,7 +2871,7 @@
 		"title": "Blood Tide",
 		"location": "Far Harbor",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Blood_Tide",
 		"dlc": "Far Harbor",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2885,7 +2884,7 @@
 		"title": "Hull Breach",
 		"location": "Far Harbor",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Hull_Breach",
 		"dlc": "Far Harbor",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2898,7 +2897,7 @@
 		"title": "Hull Breach 2",
 		"location": "Far Harbor",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Hull_Breach_2",
 		"dlc": "Far Harbor",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2911,7 +2910,7 @@
 		"title": "Hull Breach 3",
 		"location": "Far Harbor",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Hull_Breach_3",
 		"dlc": "Far Harbor",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2924,7 +2923,7 @@
 		"title": "Living on the Edge",
 		"location": "Far Harbor",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Living_on_the_Edge",
 		"dlc": "Far Harbor",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2937,7 +2936,7 @@
 		"title": "Rite of Passage",
 		"location": "Far Harbor",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Rite_of_Passage",
 		"dlc": "Far Harbor",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2950,7 +2949,7 @@
 		"title": "Safe Passage",
 		"location": "Far Harbor",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Safe_Passage",
 		"dlc": "Far Harbor",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2963,7 +2962,7 @@
 		"title": "The Changing Tide",
 		"location": "Far Harbor",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/The_Changing_Tide",
 		"dlc": "Far Harbor",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2976,7 +2975,7 @@
 		"title": "The Great Hunt",
 		"location": "Far Harbor",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/The_Great_Hunt",
 		"dlc": "Far Harbor",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2989,7 +2988,7 @@
 		"title": "The Hold Out",
 		"location": "Far Harbor",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/The_Hold_Out",
 		"dlc": "Far Harbor",
 		"conflictingIds": [],
 		"section": "quests"
@@ -3002,7 +3001,7 @@
 		"title": "Turn Back The Fog",
 		"location": "Far Harbor",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Turn_Back_The_Fog",
 		"dlc": "Far Harbor",
 		"conflictingIds": [],
 		"section": "quests"
@@ -3015,7 +3014,7 @@
 		"title": "Forbidden Knowledge",
 		"location": "The Island",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Forbidden_Knowledge",
 		"dlc": "Far Harbor",
 		"conflictingIds": [],
 		"section": "quests"
@@ -3028,7 +3027,7 @@
 		"title": "Search and Destroy",
 		"location": "The Island",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Search_and_Destroy",
 		"dlc": "Far Harbor",
 		"conflictingIds": [],
 		"section": "quests"
@@ -3041,7 +3040,7 @@
 		"title": "Vault-Tec Calling",
 		"location": "Vault 88",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Vault-Tec_Calling",
 		"dlc": "Vault-Tec Workshop",
 		"conflictingIds": [],
 		"section": "quests"
@@ -3054,7 +3053,7 @@
 		"title": "Better Living Underground",
 		"location": "Vault 88",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Better_Living_Underground",
 		"dlc": "Vault-Tec Workshop",
 		"conflictingIds": [],
 		"section": "quests"
@@ -3527,6 +3526,7 @@
 		"conflictingIds": [],
 		"section": "quests"
 	},
+	//
 	{
 		"id": "1a3b45c6-7d89-012e-fgh2-345678i9j05o",
 		"mainCategory": "Bobbleheads",
