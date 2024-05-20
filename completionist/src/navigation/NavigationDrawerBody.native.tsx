@@ -9,10 +9,10 @@ import {
 import useReactNavigation from './hooks/useReactNavigation.native';
 import useGetNavigationDrawerItems from './hooks/useGetNavigationDrawerItems.native';
 import useGetLoginMethods from '@components/custom/LoginForm/hooks/useGetLoginMethods';
-import { AuthScreenEnum, UnauthorizedScreenEnum } from '@utils/CustomEnums';
+import { AuthScreenEnum } from '@utils/CustomEnums';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import useMainState from '@redux/hooks/useMainState';
-import useGetNavigationFooterDrawerItems from './hooks/useGetFooterNavigationDrawerItems.native';
+import useGetNavigationFooterDrawerItems from './hooks/useGetNavigationFooterDrawerItems.native';
 import NavigationDrawerItem from './NavigationDrawerItem.native';
 import { useTranslation } from 'react-i18next';
 import useMainDispatch from '@redux/hooks/useMainDispatch';

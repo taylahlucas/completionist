@@ -37,6 +37,7 @@ export const DropdownSelectionContentContainer = styled(ScrollableList)`
 	max-height: 180px;
 	top: 42px;
 	position: absolute;
+	margin-left: -8px;
 `;
 
 interface DropdownSelectionContentItemProps {
@@ -48,7 +49,6 @@ export const DropdownSelectionContentItem = styled.Pressable<DropdownSelectionCo
   background-color: ${(props): string => props.color}; 
 	width: ${windowWidth - 64}px;
   height: 45px;
-  padding: ${SMALL_PADDING}px;
   justify-content: center;
   border-bottom-left-radius: ${(props): number => !!props.last ? DEFAULT_BORDER_RADIUS : 0}px;
   border-bottom-right-radius: ${(props): number => !!props.last ? DEFAULT_BORDER_RADIUS : 0}px;

@@ -103,7 +103,7 @@ export const NavigationHeaderMenuButtonBg = styled.View<NavigationHeaderProps>`
 `;
 
 export const NavigationHeaderText = styled(StyledText)`
-  max-width: 260px;
+  max-width: 240px;
   justify-content: center;
   align-items: center;
 `;

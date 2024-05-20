@@ -18,6 +18,7 @@ import useEditUserData from '@data/hooks/useEditUserData.native';
 import useEndpoints from '@data/api/hooks/useEndpoints.native';
 import useAuthEndpoints from '@data/api/hooks/useAuthEndpoints.native';
 import StyledText from '@components/general/Text/StyledText.native';
+import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
 
 interface ChangeAccountDetailsItem {
 	value: string;
@@ -32,6 +33,7 @@ interface ChangeAccountDetails {
 }
 
 const AccountDetails = () => {
+	const navigation = useReactNavigation();
 	const { t } = useTranslation();
 	const { user, currentScreen } = useMainState();
 	const { isEmailValid, isPwValid, isNameValid } = useValidator();
@@ -68,6 +70,7 @@ const AccountDetails = () => {
 		}
 	}, [currentScreen])
 
+	// TODO: Add navigation.goBack after alert
 	const onSubmit = () => {
 		setSubmitPressed(true);
 		if (userInfo.email.changed && isEmailValid(userInfo.email.value)) {
@@ -82,7 +85,7 @@ const AccountDetails = () => {
 						updateUser(updatedUser).then(() => {
 							saveUser(updatedUser);
 							Alert.alert(t('common:alerts.updateSuccess'));
-							resetState();
+							resetState();							navigation.goBack();
 						})
 					}
 					else if (accounts.regular && accounts.google) {
