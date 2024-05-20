@@ -1,5 +1,4 @@
-import React from 'react';
-import { View } from 'react-native';
+import React, { useEffect } from 'react';
 import ScrollableList from '@components/general/Lists/ScrollableList.native';
 import Condition from '@components/general/Condition.native';
 import useContentState from './hooks/useContentState';
@@ -10,13 +9,19 @@ import ContentMainDropdown from './ContentMainDropdown.native';
 import useCheckContentComplete from './hooks/useCheckContentComplete';
 import { SettingsListItem } from '@utils/CustomInterfaces';
 import Loading from '@components/general/Loading.native';
+import useContentDispatch from './hooks/useContentDispatch';
 
 const ContentList = () => {
   const { searchValue } = useContentState();
+	const { setSearchValue}  = useContentDispatch();
   const { getContentCategories } = useGetContentCategories();
   const { getContentForCategory } = useGetContent();
   const { checkContentCompleteForCategory } = useCheckContentComplete();
 	const categories = getContentCategories();
+
+	useEffect(() => {
+		setSearchValue('');
+	}, []);
 	
 	if (!categories) {
 		return <Loading />;
