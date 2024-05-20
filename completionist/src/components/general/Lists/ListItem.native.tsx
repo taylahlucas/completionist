@@ -7,21 +7,24 @@ import Condition from '../Condition.native';
 import useGetLocationString from '@utils/hooks/useGetLocationString';
 import StyledText from '../Text/StyledText.native';
 import useFormatter from '@utils/hooks/useFormatter';
+import useContentDispatch from '@components/custom/ContentList/hooks/useContentDispatch';
 
 interface ListItemProps {
   id: string;
   title: string;
   location?: string;
   hold?: string;
+	href?: string;
   isComplete?: boolean;
   action: () => void;
 }
 
-const ListItem = ({ title, location, hold, isComplete = false, action }: ListItemProps) => {
+const ListItem = ({ title, location, hold, href, isComplete = false, action }: ListItemProps) => {
   const theme = useGetTheme();
 	const { capitalize } = useFormatter();
   const locationString = useGetLocationString({ hold, location });
 	const fadeValue = useRef(new Animated.Value(isComplete ? 0 : 1)).current;
+	const { setWebViewHref } = useContentDispatch();
 
 	const fadeAnimation = (fadeOut: boolean) => {
 		Animated.timing(fadeValue, {
@@ -38,7 +41,7 @@ const ListItem = ({ title, location, hold, isComplete = false, action }: ListIte
 	
   return (
     <ListItemContainer style={{ backgroundColor: interpolatedBackgroundColor }}>
-      <ListItemContentContainer>
+      <ListItemContentContainer onLongPress={(): void => setWebViewHref(href)}>
         <ListItemTitle
           align='left'
           ellipsizeMode={'tail'}

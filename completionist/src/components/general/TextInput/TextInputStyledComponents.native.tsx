@@ -7,12 +7,6 @@ interface TextInputContainerProps {
   multiline: boolean;
 }
 
-interface TextInputProps {
-  color: string;
-  hasLeftComponent: boolean;
-	margin?: number;
-}
-
 export const TextInputContainer = styled.View<TextInputContainerProps>`
   height: ${(props): number => props.height}px;
   width: ${LARGE_WIDTH}px;

@@ -6,6 +6,7 @@ import GameListSectionHeader from './GameListSectionHeader.native';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import useHandleGameSelection from './hooks/useHandleGameSelection.native';
 import { GameListDropdownContainer } from './GameListItemStyledComponents.native';
+import WikiWebView from '@components/general/WikiWebView/WikiWebView.native';
 
 interface GameListSectionDropdown {
 	testID?: string;
@@ -17,7 +18,7 @@ const GameListSectionDropdown = ({ testID, title, data }: GameListSectionDropdow
 	const theme = useGetTheme();
 	const [isOpen, setIsOpen] = useState<boolean>(true);
 	const { handleGameSelection } = useHandleGameSelection();
-	
+
 	return (
 		<Dropdown
 			testID={testID}
@@ -33,6 +34,7 @@ const GameListSectionDropdown = ({ testID, title, data }: GameListSectionDropdow
 						enabled={game.isActive}
 						enabledColor={game.isActive ? theme.lightGrey : theme.midGrey}
 						onPress={(): void => handleGameSelection(game)}
+
 					/>
 				))}
 			</GameListDropdownContainer>

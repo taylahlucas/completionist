@@ -18,6 +18,7 @@ const SearchResults = () => {
           key={index}
           id={item.id}
           title={item.title}
+					href={item.href}
           isComplete={checkContentComplete(item.id)}
           action={((): void => updateContentComplete(item.id))}
         />

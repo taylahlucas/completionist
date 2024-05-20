@@ -34,6 +34,7 @@ const ContentMainList = ({ mainCategory, subCategory, isSubCategory = false }: C
           id={item.id}
           key={index}
           title={item.title}
+					href={item.href}
           isComplete={checkContentComplete(item.id)}
           action={(): void => updateContentComplete(item.id)}
         />

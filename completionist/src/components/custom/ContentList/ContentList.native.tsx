@@ -10,10 +10,11 @@ import useCheckContentComplete from './hooks/useCheckContentComplete';
 import { SettingsListItem } from '@utils/CustomInterfaces';
 import Loading from '@components/general/Loading.native';
 import useContentDispatch from './hooks/useContentDispatch';
+import WikiWebView from '@components/general/WikiWebView/WikiWebView.native';
 
 const ContentList = () => {
-  const { searchValue } = useContentState();
-	const { setSearchValue}  = useContentDispatch();
+  const { searchValue, webViewHref } = useContentState();
+	const { setSearchValue, setWebViewHref }  = useContentDispatch();
   const { getContentCategories } = useGetContentCategories();
   const { getContentForCategory } = useGetContent();
   const { checkContentCompleteForCategory } = useCheckContentComplete();
@@ -21,8 +22,12 @@ const ContentList = () => {
 
 	useEffect(() => {
 		setSearchValue('');
+		setWebViewHref(undefined);
 	}, []);
-	
+
+	if (webViewHref) {
+		return <WikiWebView currentHref={webViewHref} setClose={() => setWebViewHref(undefined)} />
+	}
 	if (!categories) {
 		return <Loading />;
 	}

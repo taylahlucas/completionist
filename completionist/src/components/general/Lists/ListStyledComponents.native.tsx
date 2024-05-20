@@ -63,7 +63,7 @@ export const ListItemContainer = styled(Animated.View)`
   width: ${LARGE_WIDTH}px;
 `;
 
-export const ListItemContentContainer = styled.View`
+export const ListItemContentContainer = styled.Pressable`
   flex-direction: column;
   padding-left: ${MID_PADDING}px;
   padding-vertical: ${SMALL_PADDING}px;
