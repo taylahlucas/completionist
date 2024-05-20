@@ -319,7 +319,7 @@
 		"title": "(Resource Name) for (Location Name)",
 		"location": "",
 		"hold": "",
-		"href": "https://fallout.fandom.com/wiki/(Resource_Name)_for_(Location_Name)",
+		"href": "https://fallout.fandom.com/wiki/Build_Resources",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -332,7 +332,7 @@
 		"title": "Clearing the Way for (Location Name)",
 		"location": "",
 		"hold": "",
-		"href": "https://fallout.fandom.com/wiki/Clearing_the_Way_for_(Location_Name)",
+		"href": "https://fallout.fandom.com/wiki/Clearing_the_Way",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -345,7 +345,7 @@
 		"title": "Defend (Location Name)",
 		"location": "",
 		"hold": "",
-		"href": "https://fallout.fandom.com/wiki/Defend_(Location_Name)",
+		"href": "https://fallout.fandom.com/wiki/Defend",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -358,7 +358,7 @@
 		"title": "Defend the Artillery at (Location Name)",
 		"location": "",
 		"hold": "",
-		"href": "https://fallout.fandom.com/wiki/Defend_the_Artillery_at_(Location_Name)",
+		"href": "https://fallout.fandom.com/wiki/Defend_the_Artillery",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -371,7 +371,7 @@
 		"title": "(Location Name): Greenskins",
 		"location": "",
 		"hold": "",
-		"href": "https://fallout.fandom.com/wiki/(Location_Name):_Greenskins",
+		"href": "https://fallout.fandom.com/wiki/Greenskins",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -1086,7 +1086,7 @@
 		"title": "Lost Soul",
 		"location": "",
 		"hold": "",
-		"href": "https://fallout.fandom.com/wiki/LostSoul",
+		"href": "https://fallout.fandom.com/wiki/Lost_Soul",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -1164,7 +1164,7 @@
 		"title": "Mass Fusion",
 		"location": "Mass Fusion Building",
 		"hold": "The Institute",
-		"href": "https://fallout.fandom.com/wiki/Mass_Fusion_(quest)",
+		"href": "https://fallout.fandom.com/wiki/Mass_Fusion",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -1359,7 +1359,7 @@
 		"title": "Cambridge Polymer Labs",
 		"location": "Cambridge Polymer Labs",
 		"hold": "",
-		"href": "https://fallout.fandom.com/wiki/Cambridge_Polymer_Labs_(quest)",
+		"href": "https://fallout.fandom.com/wiki/Cambridge_Polymer_Labs",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -1775,7 +1775,7 @@
 		"title": "Vault 75",
 		"location": "Malden Middle School",
 		"hold": "",
-		"href": "https://fallout.fandom.com/wiki/Vault_75_(quest)",
+		"href": "https://fallout.fandom.com/wiki/Vault_75",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -1788,7 +1788,7 @@
 		"title": "Vault 81",
 		"location": "Vault 81",
 		"hold": "",
-		"href": "https://fallout.fandom.com/wiki/Vault_81_(quest)",
+		"href": "https://fallout.fandom.com/wiki/Vault_81",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -1814,7 +1814,7 @@
 		"title": "Atom Cats (Quest)",
 		"location": "Atom Cats Garage",
 		"hold": "",
-		"href": "https://fallout.fandom.com/wiki/Atom_Cats_(quest)",
+		"href": "https://fallout.fandom.com/wiki/Atom_Cats",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -1840,7 +1840,7 @@
 		"title": "The Combat Zone",
 		"location": "The Combat Zone",
 		"hold": "",
-		"href": "https://fallout.fandom.com/wiki/The_Combat_Zone_(quest)",
+		"href": "https://fallout.fandom.com/wiki/The_Combat_Zone",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -1982,7 +1982,7 @@
 		"title": "Home Plate",
 		"location": "",
 		"hold": "",
-		"href": "https://fallout.fandom.com/wiki/Home_Plate_(quest)",
+		"href": "https://fallout.fandom.com/wiki/Home_Plate",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2018,7 +2018,7 @@
 		"title": "Message in a Bottle - Trapped for Days",
 		"location": "",
 		"hold": "",
-		"href": "https://fallout.fandom.com/wiki/Message_in_a_Bottle_-_Trapped_for_Days",
+		"href": "https://fallout.fandom.com/wiki/Bottle_message#Bottle_message_-_Trapped_for_Days",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2042,7 +2042,7 @@
 		"title": "Message in a Bottle - Not Going Well",
 		"location": "",
 		"hold": "",
-		"href": "https://fallout.fandom.com/wiki/Message_in_a_Bottle_-_Not_Going_Well",
+		"href": "https://fallout.fandom.com/wiki/Bottle_message#Bottle_message_-_Not_Going_Well",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2054,7 +2054,7 @@
 		"title": "Message in a Bottle - Need a Hand",
 		"location": "",
 		"hold": "",
-		"href": "https://fallout.fandom.com/wiki/Message_in_a_Bottle_-_Need_a_Hand",
+		"href": "https://fallout.fandom.com/wiki/Bottle_message#Bottle_message_-_Need_a_Hand",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2066,7 +2066,7 @@
 		"title": "Message in a Bottle - Difficult to Kill",
 		"location": "",
 		"hold": "",
-		"href": "https://fallout.fandom.com/wiki/Message_in_a_Bottle_-_Difficult_to_Kill",
+		"href": "https://fallout.fandom.com/wiki/Bottle_message#Bottle_message_-_Difficult_to_Kill",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2078,7 +2078,7 @@
 		"title": "Message in a Bottle - X Marks the Spot",
 		"location": "",
 		"hold": "",
-		"href": "https://fallout.fandom.com/wiki/Message_in_a_Bottle_-_X_Marks_the_Spot",
+		"href": "https://fallout.fandom.com/wiki/Bottle_message#Bottle_message_-_X_Marks_the_Spot",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2156,7 +2156,7 @@
 		"title": "Search for caps in (Location)",
 		"location": "(Location)",
 		"hold": "",
-		"href": "https://fallout.fandom.com/wiki/Search_for_caps_in_(Location)",
+		"href": "",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2169,7 +2169,7 @@
 		"title": "Look for the stash of chems in (Location)",
 		"location": "(Location)",
 		"hold": "",
-		"href": "https://fallout.fandom.com/wiki/Look_for_the_stash_of_chems_in_(Location)",
+		"href": "",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2182,7 +2182,7 @@
 		"title": "Find the (weapon) in (Location)",
 		"location": "(Location)",
 		"hold": "",
-		"href": "https://fallout.fandom.com/wiki/Find_the_(weapon)_in_(Location)",
+		"href": "",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2195,7 +2195,7 @@
 		"title": "Search for scrap in (Location)",
 		"location": "(Location)",
 		"hold": "",
-		"href": "https://fallout.fandom.com/wiki/Search_for_scrap_in_(Location)",
+		"href": "",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2208,7 +2208,7 @@
 		"title": "Search for tech in (Location)",
 		"location": "(Location)",
 		"hold": "",
-		"href": "https://fallout.fandom.com/wiki/Search_for_tech_in_(Location)",
+		"href": "",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2338,7 +2338,7 @@
 		"title": "Bill Sutton (Quest)",
 		"location": "",
 		"hold": "",
-		"href": "https://fallout.fandom.com/wiki/Bill_Sutton_(quest)",
+		"href": "https://fallout.fandom.com/wiki/Bill_Sutton",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2390,7 +2390,7 @@
 		"title": "Holly (Quest)",
 		"location": "",
 		"hold": "",
-		"href": "https://fallout.fandom.com/wiki/Holly_(quest)",
+		"href": "https://fallout.fandom.com/wiki/Holly",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2403,7 +2403,7 @@
 		"title": "Lucy Abernathy (Quest)",
 		"location": "",
 		"hold": "",
-		"href": "https://fallout.fandom.com/wiki/Lucy_Abernathy_(quest)",
+		"href": "https://fallout.fandom.com/wiki/Lucy_Abernathy",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2442,7 +2442,7 @@
 		"title": "Supervisor Brown (Quest)",
 		"location": "",
 		"hold": "",
-		"href": "https://fallout.fandom.com/wiki/Supervisor_Brown_(quest)",
+		"href": "https://fallout.fandom.com/wiki/Supervisor_Brown",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -2455,7 +2455,7 @@
 		"title": "Supervisor Greene (Quest)",
 		"location": "",
 		"hold": "",
-		"href": "https://fallout.fandom.com/wiki/Supervisor_Greene_(quest)",
+		"href": "https://fallout.fandom.com/wiki/Supervisor_Greene",
 		"dlc": "None",
 		"conflictingIds": [],
 		"section": "quests"
@@ -3066,7 +3066,7 @@
 		"title": "A Model Citizen",
 		"location": "Vault 88",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/A_Model_Citizen",
 		"dlc": "Vault-Tec Workshop",
 		"conflictingIds": [],
 		"section": "quests"
@@ -3079,7 +3079,7 @@
 		"title": "Explore Vault 88",
 		"location": "Vault 88",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Explore_Vault_88",
 		"dlc": "Vault-Tec Workshop",
 		"conflictingIds": [],
 		"section": "quests"
@@ -3092,7 +3092,7 @@
 		"title": "Power to the People",
 		"location": "Vault 88",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Power_to_the_People",
 		"dlc": "Vault-Tec Workshop",
 		"conflictingIds": [],
 		"section": "quests"
@@ -3105,7 +3105,7 @@
 		"title": "The Watering Hole",
 		"location": "Vault 88",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/The_Watering_Hole",
 		"dlc": "Vault-Tec Workshop",
 		"conflictingIds": [],
 		"section": "quests"
@@ -3118,7 +3118,7 @@
 		"title": "Vision of the Future",
 		"location": "Vault 88",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Vision_of_the_Future",
 		"dlc": "Vault-Tec Workshop",
 		"conflictingIds": [],
 		"section": "quests"
@@ -3131,7 +3131,7 @@
 		"title": "Lady Luck",
 		"location": "Vault 88",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Lady_Luck",
 		"dlc": "Vault-Tec Workshop",
 		"conflictingIds": [],
 		"section": "quests"
@@ -3144,7 +3144,7 @@
 		"title": "Overseer's Most Wanted",
 		"location": "Vault 88",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Overseer%27s_Most_Wanted",
 		"dlc": "Vault-Tec Workshop",
 		"conflictingIds": [],
 		"section": "quests"
@@ -3157,7 +3157,7 @@
 		"title": "All Aboard",
 		"location": "Nuka-World Transit Center",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/All_Aboard",
 		"dlc": "Nuka-World",
 		"conflictingIds": [],
 		"section": "quests"
@@ -3170,7 +3170,7 @@
 		"title": "Taken for a Ride",
 		"location": "Nuka-World Transit Center",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Taken_for_a_Ride",
 		"dlc": "Nuka-World",
 		"conflictingIds": [],
 		"section": "quests"
@@ -3183,7 +3183,7 @@
 		"title": "An Ambitious Plan",
 		"location": "Nuka-Town USA",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/An_Ambitious_Plan",
 		"dlc": "Nuka-World",
 		"conflictingIds": [],
 		"section": "quests"
@@ -3196,7 +3196,7 @@
 		"title": "The Grand Tour",
 		"location": "Nuka-Town USA",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/The_Grand_Tour",
 		"dlc": "Nuka-World",
 		"conflictingIds": [],
 		"section": "quests"
@@ -3209,7 +3209,7 @@
 		"title": "A Magical Kingdom",
 		"location": "Kiddie Kingdom",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/A_Magical_Kingdom",
 		"dlc": "Nuka-World",
 		"conflictingIds": [],
 		"section": "quests"
@@ -3222,7 +3222,7 @@
 		"title": "A World of Refreshment",
 		"location": "Nuka-World Bottling Plant",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/A_World_of_Refreshment",
 		"dlc": "Nuka-World",
 		"conflictingIds": [],
 		"section": "quests"
@@ -3235,7 +3235,7 @@
 		"title": "High Noon at the Gulch",
 		"location": "Dry Rock Gulch",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/High_Noon_at_the_Gulch",
 		"dlc": "Nuka-World",
 		"conflictingIds": [],
 		"section": "quests"
@@ -3248,7 +3248,7 @@
 		"title": "Safari Adventure",
 		"location": "Safari Adventure",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Safari_Adventure",
 		"dlc": "Nuka-World",
 		"conflictingIds": [],
 		"section": "quests"
@@ -3261,7 +3261,7 @@
 		"title": "Star Control",
 		"location": "Galactic Zone",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Star_Control",
 		"dlc": "Nuka-World",
 		"conflictingIds": [],
 		"section": "quests"
@@ -3274,7 +3274,7 @@
 		"title": "Home Sweet Home",
 		"location": "Nuka-Town USA",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Home_Sweet_Home",
 		"dlc": "Nuka-World",
 		"conflictingIds": [],
 		"section": "quests"
@@ -3287,7 +3287,7 @@
 		"title": "Power Play",
 		"location": "Nuka-Town USA",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Power_Play",
 		"dlc": "Nuka-World",
 		"conflictingIds": [],
 		"section": "quests"
@@ -3300,7 +3300,7 @@
 		"title": "Amoral Combat",
 		"location": "Cola-cars Arena",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Amoral_Combat",
 		"dlc": "Nuka-World",
 		"conflictingIds": [],
 		"section": "quests"
@@ -3313,7 +3313,7 @@
 		"title": "Cappy in a Haystack",
 		"location": "Kiddie Kingdom",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Cappy_in_a_Haystack",
 		"dlc": "Nuka-World",
 		"conflictingIds": [],
 		"section": "quests"
@@ -3326,7 +3326,7 @@
 		"title": "Open Season",
 		"location": "Nuka-Town USA",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Open_Season",
 		"dlc": "Nuka-World",
 		"conflictingIds": [],
 		"section": "quests"
@@ -3339,7 +3339,7 @@
 		"title": "Precious Medals",
 		"location": "Safari Adventure",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Precious_Medals",
 		"dlc": "Nuka-World",
 		"conflictingIds": [],
 		"section": "quests"
@@ -3352,7 +3352,7 @@
 		"title": "Trip to the Stars",
 		"location": "Galactic Zone",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Trip_to_the_Stars",
 		"dlc": "Nuka-World",
 		"conflictingIds": [],
 		"section": "quests"
@@ -3365,7 +3365,7 @@
 		"title": "A Good Defense",
 		"location": "Nuka-Town USA",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/A_Good_Defense",
 		"dlc": "Nuka-World",
 		"conflictingIds": [],
 		"section": "quests"
@@ -3378,7 +3378,7 @@
 		"title": "A Permanent Solution",
 		"location": "Nuka-Town USA",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/A_Permanent_Solution",
 		"dlc": "Nuka-World",
 		"conflictingIds": [],
 		"section": "quests"
@@ -3391,7 +3391,7 @@
 		"title": "Cache-ing in",
 		"location": "Dry Rock Gulch",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Cache-ing_In",
 		"dlc": "Nuka-World",
 		"conflictingIds": [],
 		"section": "quests"
@@ -3404,7 +3404,7 @@
 		"title": "Capture",
 		"location": "Kiddie Kingdom",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Capture",
 		"dlc": "Nuka-World",
 		"conflictingIds": [],
 		"section": "quests"
@@ -3417,7 +3417,7 @@
 		"title": "Claiming the Commonwealth",
 		"location": "Nuka-Town USA",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Claiming_the_Commonwealth",
 		"dlc": "Nuka-World",
 		"conflictingIds": [],
 		"section": "quests"
@@ -3430,7 +3430,7 @@
 		"title": "Cleaning House",
 		"location": "Nuka-Town USA",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Cleaning_House",
 		"dlc": "Nuka-World",
 		"conflictingIds": [],
 		"section": "quests"
@@ -3443,7 +3443,7 @@
 		"title": "Clear Out",
 		"location": "Nuka-Town USA",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Clear_Out",
 		"dlc": "Nuka-World",
 		"conflictingIds": [],
 		"section": "quests"
@@ -3456,7 +3456,7 @@
 		"title": "Collaring Outside the Lines",
 		"location": "Nuka-Town USA",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Collaring_Outside_the_Lines",
 		"dlc": "Nuka-World",
 		"conflictingIds": [],
 		"section": "quests"
@@ -3469,7 +3469,7 @@
 		"title": "Park Population Handler",
 		"location": "Nuka-Town USA",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Park_Population_Handler",
 		"dlc": "Nuka-World",
 		"conflictingIds": [],
 		"section": "quests"
@@ -3482,7 +3482,7 @@
 		"title": "Shake Down",
 		"location": "Nuka-Town USA",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Shake_Down",
 		"dlc": "Nuka-World",
 		"conflictingIds": [],
 		"section": "quests"
@@ -3495,7 +3495,7 @@
 		"title": "Subdue",
 		"location": "Nuka-Town USA",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Subdue",
 		"dlc": "Nuka-World",
 		"conflictingIds": [],
 		"section": "quests"
@@ -3508,7 +3508,7 @@
 		"title": "Taking Out The Trash",
 		"location": "Nuka-Town USA",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Taking_Out_The_Trash",
 		"dlc": "Nuka-World",
 		"conflictingIds": [],
 		"section": "quests"
@@ -3521,12 +3521,11 @@
 		"title": "Under The Collar",
 		"location": "Nuka-Town USA",
 		"hold": "",
-		"href": "",
+		"href": "https://fallout.fandom.com/wiki/Under_The_Collar",
 		"dlc": "Nuka-World",
 		"conflictingIds": [],
 		"section": "quests"
 	},
-	//
 	{
 		"id": "1a3b45c6-7d89-012e-fgh2-345678i9j05o",
 		"mainCategory": "Bobbleheads",
