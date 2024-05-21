@@ -5700,7 +5700,7 @@
     "title": "Bolstering The Ranks",
     "location": "",
     "hold": "",
-    "href": "https://elderscrolls.fandom.com/wiki/Bolstering_The_Ranks",
+    "href": "https://elderscrolls.fandom.com/wiki/Bolstering_the_Ranks",
     "dlc": "Dawnguard",
     "conflictingIds": [
       "3b408a0c-b194-42f1-bd9c-38e10bc02a7e"
@@ -5745,7 +5745,7 @@
     "title": "Cleansing The Light",
     "location": "",
     "hold": "",
-    "href": "https://elderscrolls.fandom.com/wiki/Cleansing_The_Light",
+    "href": "https://elderscrolls.fandom.com/wiki/Cleansing_the_Light",
     "dlc": "Dawnguard",
     "conflictingIds": [
       "3b408a0c-b194-42f1-bd9c-38e10bc02a7e"
@@ -6883,7 +6883,7 @@
     "dlc": "Dragonborn",
     "subCategoryType": "",
     "section": "collectables",
-    "href": "https://elderscrolls.fandom.com/wiki/Dukaan_Mask"
+    "href": "https://elderscrolls.fandom.com/wiki/Dukaan_(Mask)"
   },
   {
     "id": "5d3c2689-048e-4f4a-bd16-7f4bc72f5df7",
@@ -13234,12 +13234,12 @@
   },
   {
     "id": "ea4d56c3-9093-45db-a82d-1263aa7be3a0",
-    "title": "Glydenhul Barrow",
+    "title": "Gyldenhul Barrow",
     "subCategory": "Solstheim",
     "dlc": "Dragonborn",
     "mainCategory": "Dragonborn",
     "section": "locations",
-    "href": "https://elderscrolls.fandom.com/wiki/Glydenhul_Barrow"
+    "href": "https://elderscrolls.fandom.com/wiki/Gyldenhul_Barrow_(Dragonborn)"
   },
   {
     "id": "9bbca4b7-548d-442a-9e7a-04779a7bd5cb",
@@ -17145,7 +17145,7 @@
     "dlc": "None",
     "subCategory": "",
     "section": "miscellaneous",
-    "href": "https://elderscrolls.fandom.com/wiki/Banish_Undead"
+    "href": "https://legacy-of-the-dragonborn.fandom.com/wiki/Spell_Tome:_Banish_Undead"
   },
   {
     "id": "f303f4f3-9ac6-4fb2-af95-1938b76f58e9",
@@ -17244,7 +17244,7 @@
     "dlc": "None",
     "subCategory": "",
     "section": "miscellaneous",
-    "href": "https://elderscrolls.fandom.com/wiki/Circle_Of_Protection"
+    "href": "https://elderscrolls.fandom.com/wiki/Circle_of_Protection"
   },
   {
     "id": "86f2b06e-4ac3-4ee2-a193-a1ee234e0fc0",
