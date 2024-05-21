@@ -769,7 +769,7 @@
   {
     "id": "12c36c91-8a3c-4a4e-9c13-0dbd10475b3d",
     "mainCategory": "Quest Utama",
-    "title": "Tedd Deireadth, Zaman Terakhir",
+    "title": "Tedd Deireadh, Zaman Terakhir",
     "hold": "kerangka",
     "dlc": "Tidak ada",
     "subCategory": "Babak III - Perburuan Liar",
@@ -8511,16 +8511,6 @@
     "section": "collectables"
   },
   {
-    "id": "0159f07b-0b91-47b5-94e7-8c6f3e9d92b4",
-    "mainCategory": "Diagram",
-    "subCategory": "Celana panjang",
-    "subCategoryType": "",
-    "title": "Celana Scoia'tael",
-    "prerequisite": "",
-    "dlc": "Tidak ada",
-    "section": "collectables"
-  },
-  {
     "id": "c8748aa5-1fd3-49d0-ba5b-5c4965b879fb",
     "mainCategory": "Diagram",
     "subCategory": "Celana panjang",
@@ -11939,15 +11929,6 @@
     "section": "locations"
   },
   {
-    "id": "b1f85d8b-0c7d-4b08-8e2b-d0fe2f1f89ac",
-    "title": "Pabrik Penggergajian Terbengkalai",
-    "mainCategory": "Utama",
-    "subCategory": "kerangka",
-    "subCategoryType": "Ard Skellig",
-    "dlc": "Tidak ada",
-    "section": "locations"
-  },
-  {
     "id": "a9e1f1fd-6397-4b78-942b-1462dcd3a799",
     "title": "Ruang Bawah Tanah Kuno",
     "mainCategory": "Utama",
@@ -11986,15 +11967,6 @@
   {
     "id": "a50b8f95-1x88-4c6b-9a5f-5b647e3904f1",
     "title": "Jembatan ke Kaer Trolde",
-    "mainCategory": "Utama",
-    "subCategory": "kerangka",
-    "subCategoryType": "Ard Skellig",
-    "dlc": "Tidak ada",
-    "section": "locations"
-  },
-  {
-    "id": "abfc015c-139e-4dbd-8c02-3ef86406c2c3",
-    "title": "Persimpangan",
     "mainCategory": "Utama",
     "subCategory": "kerangka",
     "subCategoryType": "Ard Skellig",

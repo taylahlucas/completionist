@@ -39,7 +39,7 @@ const printOutput = (objects) => {
 };
 
 // Specify the path to your JSON file
-const jsonFilePath = 'skyrim.json';
+const jsonFilePath = 'witcher3.json';
 
 // Read objects from the JSON file
 const objects = readJsonFile(jsonFilePath);

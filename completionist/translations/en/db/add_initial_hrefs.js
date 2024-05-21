@@ -9,7 +9,7 @@ function convertToSnakeCase(string) {
 const addHrefToObjects = (objects) => {
   return objects.map((obj) => ({ 
       ...obj,
-			href: !obj.href ? `https://fallout.fandom.com/wiki/${convertToSnakeCase(obj.title)}` : obj.href
+			href: !obj.href ? `https://witcher.fandom.com/wiki/${convertToSnakeCase(obj.title)}` : obj.href
   }));
 };
 
@@ -35,7 +35,7 @@ const writeJsonFile = (filePath, data) => {
 };
 
 // Specify the path to your JSON file
-const jsonFilePath = 'fallout3 copy.json';
+const jsonFilePath = 'witcher3.json';
 
 // Read objects from the JSON file
 const objects = readJsonFile(jsonFilePath);

@@ -769,7 +769,7 @@
   {
     "id": "12c36c91-8a3c-4a4e-9c13-0dbd10475b3d",
     "mainCategory": "المهام الرئيسية",
-    "title": "تيد ديريدث، العصر الأخير",
+    "title": "تيد ديرياده، العصر الأخير",
     "hold": "سكيلينج",
     "dlc": "لا أحد",
     "subCategory": "الفصل الثالث - الصيد البري",
@@ -8511,16 +8511,6 @@
     "section": "collectables"
   },
   {
-    "id": "0159f07b-0b91-47b5-94e7-8c6f3e9d92b4",
-    "mainCategory": "المخططات",
-    "subCategory": "بنطلون",
-    "subCategoryType": "",
-    "title": "بنطال سكويتايل",
-    "prerequisite": "",
-    "dlc": "لا أحد",
-    "section": "collectables"
-  },
-  {
     "id": "c8748aa5-1fd3-49d0-ba5b-5c4965b879fb",
     "mainCategory": "المخططات",
     "subCategory": "بنطلون",
@@ -11939,15 +11929,6 @@
     "section": "locations"
   },
   {
-    "id": "b1f85d8b-0c7d-4b08-8e2b-d0fe2f1f89ac",
-    "title": "المنشرة المهجورة",
-    "mainCategory": "رئيسي",
-    "subCategory": "سكيلينج",
-    "subCategoryType": "آرد سكيلينج",
-    "dlc": "لا أحد",
-    "section": "locations"
-  },
-  {
     "id": "a9e1f1fd-6397-4b78-942b-1462dcd3a799",
     "title": "سرداب قديم",
     "mainCategory": "رئيسي",
@@ -11986,15 +11967,6 @@
   {
     "id": "a50b8f95-1x88-4c6b-9a5f-5b647e3904f1",
     "title": "جسر إلى كير ترولد",
-    "mainCategory": "رئيسي",
-    "subCategory": "سكيلينج",
-    "subCategoryType": "آرد سكيلينج",
-    "dlc": "لا أحد",
-    "section": "locations"
-  },
-  {
-    "id": "abfc015c-139e-4dbd-8c02-3ef86406c2c3",
-    "title": "تقاطع طرق",
     "mainCategory": "رئيسي",
     "subCategory": "سكيلينج",
     "subCategoryType": "آرد سكيلينج",

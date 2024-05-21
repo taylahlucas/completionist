@@ -769,7 +769,7 @@
   {
     "id": "12c36c91-8a3c-4a4e-9c13-0dbd10475b3d",
     "mainCategory": "メインクエスト",
-    "title": "テッド・デイリードス、最後の時代",
+    "title": "テッド・デイリード、最後の時代",
     "hold": "スケリッジ",
     "dlc": "なし",
     "subCategory": "第 3 幕 - ワイルドハント",
@@ -8511,16 +8511,6 @@
     "section": "collectables"
   },
   {
-    "id": "0159f07b-0b91-47b5-94e7-8c6f3e9d92b4",
-    "mainCategory": "図表",
-    "subCategory": "ズボン",
-    "subCategoryType": "",
-    "title": "スコイア＝テルのズボン",
-    "prerequisite": "",
-    "dlc": "なし",
-    "section": "collectables"
-  },
-  {
     "id": "c8748aa5-1fd3-49d0-ba5b-5c4965b879fb",
     "mainCategory": "図表",
     "subCategory": "ズボン",
@@ -11939,15 +11929,6 @@
     "section": "locations"
   },
   {
-    "id": "b1f85d8b-0c7d-4b08-8e2b-d0fe2f1f89ac",
-    "title": "放棄された製材所",
-    "mainCategory": "主要",
-    "subCategory": "スケリッジ",
-    "subCategoryType": "アード・スケリッグ",
-    "dlc": "なし",
-    "section": "locations"
-  },
-  {
     "id": "a9e1f1fd-6397-4b78-942b-1462dcd3a799",
     "title": "古代の地下室",
     "mainCategory": "主要",
@@ -11986,15 +11967,6 @@
   {
     "id": "a50b8f95-1x88-4c6b-9a5f-5b647e3904f1",
     "title": "ケィア・トロールドへの橋",
-    "mainCategory": "主要",
-    "subCategory": "スケリッジ",
-    "subCategoryType": "アード・スケリッグ",
-    "dlc": "なし",
-    "section": "locations"
-  },
-  {
-    "id": "abfc015c-139e-4dbd-8c02-3ef86406c2c3",
-    "title": "交差点",
     "mainCategory": "主要",
     "subCategory": "スケリッジ",
     "subCategoryType": "アード・スケリッグ",

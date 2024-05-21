@@ -769,7 +769,7 @@
   {
     "id": "12c36c91-8a3c-4a4e-9c13-0dbd10475b3d",
     "mainCategory": "Nhiệm vụ chính",
-    "title": "Tedd Deireadth, Thời đại cuối cùng",
+    "title": "Tedd Deireadh, Thời đại cuối cùng",
     "hold": "Skellecte",
     "dlc": "Không có",
     "subCategory": "Màn III - Cuộc săn lùng hoang dã",
@@ -8511,16 +8511,6 @@
     "section": "collectables"
   },
   {
-    "id": "0159f07b-0b91-47b5-94e7-8c6f3e9d92b4",
-    "mainCategory": "Sơ đồ",
-    "subCategory": "Quần dài",
-    "subCategoryType": "",
-    "title": "Quần Scoia'tael",
-    "prerequisite": "",
-    "dlc": "Không có",
-    "section": "collectables"
-  },
-  {
     "id": "c8748aa5-1fd3-49d0-ba5b-5c4965b879fb",
     "mainCategory": "Sơ đồ",
     "subCategory": "Quần dài",
@@ -11939,15 +11929,6 @@
     "section": "locations"
   },
   {
-    "id": "b1f85d8b-0c7d-4b08-8e2b-d0fe2f1f89ac",
-    "title": "xưởng cưa bỏ hoang",
-    "mainCategory": "Chủ yếu",
-    "subCategory": "Skellecte",
-    "subCategoryType": "Ard Skellig",
-    "dlc": "Không có",
-    "section": "locations"
-  },
-  {
     "id": "a9e1f1fd-6397-4b78-942b-1462dcd3a799",
     "title": "Mật mã cổ đại",
     "mainCategory": "Chủ yếu",
@@ -11986,15 +11967,6 @@
   {
     "id": "a50b8f95-1x88-4c6b-9a5f-5b647e3904f1",
     "title": "Cầu tới Kaer Trolde",
-    "mainCategory": "Chủ yếu",
-    "subCategory": "Skellecte",
-    "subCategoryType": "Ard Skellig",
-    "dlc": "Không có",
-    "section": "locations"
-  },
-  {
-    "id": "abfc015c-139e-4dbd-8c02-3ef86406c2c3",
-    "title": "Ngã Tư",
     "mainCategory": "Chủ yếu",
     "subCategory": "Skellecte",
     "subCategoryType": "Ard Skellig",
