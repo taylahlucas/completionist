@@ -15,8 +15,9 @@ interface WikiWebViewProps {
 const WikiWebView = ({ currentHref, setClose }: WikiWebViewProps) => {
 	const theme = useGetTheme();
 	const animationRef = useRef<LottieView>(null);
-	const [showLoading, setShowLoading] = useState<boolean>(true);
+	const [showLoading, setShowLoading] = useState<boolean>(false);
 
+	// TODO: Loading animation is very slow
 	if (!currentHref) return null;
 	return (
 		<WikiWebViewContainer style={{ backgroundColor: theme.darkGrey }}>
@@ -28,13 +29,17 @@ const WikiWebView = ({ currentHref, setClose }: WikiWebViewProps) => {
 				onPress={setClose}
 			/>
 			<WebView
-				source={{ uri: currentHref }}
+				originWhitelist={['*']}
+				source={{ 
+					uri: currentHref
+				 }}
 				style={{
 					backgroundColor: theme.black,
 					margin: 12,
 					borderRadius: 20
 				}}
-				onLoadEnd={() => setShowLoading(false)}
+				// onLoadStart={() => setShowLoading(true)}
+				// onLoadEnd={() => setShowLoading(false)}
 			/>
 			<Condition condition={showLoading}>
 				<LoadingAnimation ref={animationRef} source={''} />
