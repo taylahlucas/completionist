@@ -39,7 +39,7 @@ const printOutput = (objects) => {
 };
 
 // Specify the path to your JSON file
-const jsonFilePath = 'fallout4-test.json';
+const jsonFilePath = 'skyrim.json';
 
 // Read objects from the JSON file
 const objects = readJsonFile(jsonFilePath);
