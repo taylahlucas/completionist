@@ -5742,7 +5742,7 @@
     "mainCategory": "Şafak Muhafızı",
     "subCategory": "Yan Görevler",
     "subCategoryType": "",
-    "title": "Işığı Temizlemek",
+    "title": "Temizleme Işığı",
     "location": "",
     "hold": "",
     "href": "",
@@ -13664,14 +13664,6 @@
     "section": "miscellaneous"
   },
   {
-    "id": "191f3766-7bfe-49e7-9ef2-85e77c9bf7ce",
-    "mainCategory": "Kitabın",
-    "title": "Bir Dunmer Skooma Yiyenin İtirafları",
-    "dlc": "Hiçbiri",
-    "subCategory": "",
-    "section": "miscellaneous"
-  },
-  {
     "id": "3f87cf4e-6d86-4715-9fe3-88a72ccfbf2a",
     "mainCategory": "Kitabın",
     "title": "Bir Khajiit Kürk Tüccarının İtirafları",
@@ -15835,14 +15827,6 @@
     "id": "a88c870c-1b53-4f6a-90a0-9565b80b8996",
     "mainCategory": "Kitabın",
     "title": "Unutulma Suları",
-    "dlc": "Hiçbiri",
-    "subCategory": "",
-    "section": "miscellaneous"
-  },
-  {
-    "id": "56e0b3c7-efcc-4c9b-8be0-df46d78556e8",
-    "mainCategory": "Kitabın",
-    "title": "Ejderha Kırıldığında neredeydin?",
     "dlc": "Hiçbiri",
     "subCategory": "",
     "section": "miscellaneous"

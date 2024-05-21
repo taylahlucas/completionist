@@ -5742,10 +5742,10 @@
     "mainCategory": "Dawnguard",
     "subCategory": "Side Quests",
     "subCategoryType": "",
-    "title": "Cleansing The Light",
+    "title": "Cleansing Light",
     "location": "",
     "hold": "",
-    "href": "https://elderscrolls.fandom.com/wiki/Cleansing_the_Light",
+    "href": "https://elderscrolls.fandom.com/wiki/Cleansing_Light",
     "dlc": "Dawnguard",
     "conflictingIds": [
       "3b408a0c-b194-42f1-bd9c-38e10bc02a7e"
@@ -7026,7 +7026,7 @@
     "dlc": "None",
     "subCategoryType": "",
     "section": "collectables",
-    "href": "https://elderscrolls.fandom.com/wiki/Savior's_Hide_and/or_Ring_of_Hircine"
+    "href": "https://elderscrolls.fandom.com/wiki/Savior%27s_Hide_(Skyrim)"
   },
   {
     "id": "0a9520b1-057c-4d62-9c43-0c11c7e9ed9f",
@@ -13104,7 +13104,7 @@
     "dlc": "Dragonborn",
     "mainCategory": "Dragonborn",
     "section": "locations",
-    "href": "https://elderscrolls.fandom.com/wiki/Frost_Frostmoth"
+    "href": "https://elderscrolls.fandom.com/wiki/Fort_Frostmoth"
   },
   {
     "id": "a652bbd4-021d-4f8f-a3d4-92ac27ce4095",
@@ -14464,15 +14464,6 @@
     "subCategory": "",
     "section": "miscellaneous",
     "href": "https://elderscrolls.fandom.com/wiki/The_Code_of_Malacath"
-  },
-  {
-    "id": "191f3766-7bfe-49e7-9ef2-85e77c9bf7ce",
-    "mainCategory": "Books",
-    "title": "Confessions of a Dunmer Skooma Eater",
-    "dlc": "None",
-    "subCategory": "",
-    "section": "miscellaneous",
-    "href": "https://elderscrolls.fandom.com/wiki/Confessions_of_a_Dunmer_Skooma_Eater"
   },
   {
     "id": "3f87cf4e-6d86-4715-9fe3-88a72ccfbf2a",
@@ -16914,15 +16905,6 @@
     "href": "https://elderscrolls.fandom.com/wiki/The_Waters_of_Oblivion"
   },
   {
-    "id": "56e0b3c7-efcc-4c9b-8be0-df46d78556e8",
-    "mainCategory": "Books",
-    "title": "Where were you when the Dragon Broke?",
-    "dlc": "None",
-    "subCategory": "",
-    "section": "miscellaneous",
-    "href": "https://elderscrolls.fandom.com/wiki/Where_were_you_when_the_Dragon_Broke%3F"
-  },
-  {
     "id": "c6b4e23b-779d-4a91-b4e1-057c662d3f18",
     "mainCategory": "Books",
     "title": "Whiterun Home Decorating Guide",
@@ -18735,10 +18717,10 @@
     "id": "0010f622-7a76-4312-b2d2-c59778812cc3",
     "mainCategory": "Dragonborn",
     "subCategory": "Books",
-    "title": "Confessions of a Dunmer Skoomer Eater",
+    "title": "Confessions of a Dunmer Skooma Eater",
     "dlc": "Dragonborn",
     "section": "miscellaneous",
-    "href": "https://elderscrolls.fandom.com/wiki/Confessions_of_a_Dunmer_Skoomer_Eater"
+    "href": "https://elderscrolls.fandom.com/wiki/Confessions_of_a_Dunmer_Skooma_Eater"
   },
   {
     "id": "cc6f21db-5c79-4cd5-b2a7-2e52bca2e29f",
@@ -19026,7 +19008,7 @@
     "title": "Where were you when the Dragon Broke?",
     "dlc": "Dragonborn",
     "section": "miscellaneous",
-    "href": "https://elderscrolls.fandom.com/wiki/Where_were_you_when_the_Dragon_Broke?"
+    "href": "https://elderscrolls.fandom.com/wiki/Where_were_you_when_the_Dragon_Broke%3F"
   },
   {
     "id": "bd554637-2da5-47eb-8a87-2c038f38c74b",
@@ -20916,7 +20898,7 @@
     "title": "Venarus Vulprin's Journal",
     "dlc": "Dawnguard",
     "section": "miscellaneous",
-    "href": "https://elderscrolls.fandom.com/wiki/Venarus_Vulprin's_Journal"
+    "href": "https://elderscrolls.fandom.com/wiki/Venarus_Vulpin%27s_Journal"
   },
   {
     "id": "bdb059b1-924e-41ac-92c0-ff3b3a8c260a",

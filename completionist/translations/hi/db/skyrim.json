@@ -5742,7 +5742,7 @@
     "mainCategory": "दावन्गार्ड",
     "subCategory": "भीतर छिपे सवाल",
     "subCategoryType": "",
-    "title": "प्रकाश की सफाई",
+    "title": "सफाई प्रकाश",
     "location": "",
     "hold": "",
     "href": "",
@@ -13664,14 +13664,6 @@
     "section": "miscellaneous"
   },
   {
-    "id": "191f3766-7bfe-49e7-9ef2-85e77c9bf7ce",
-    "mainCategory": "पुस्तकें",
-    "title": "डनमर स्कूमा ईटर का इकबालिया बयान",
-    "dlc": "कोई नहीं",
-    "subCategory": "",
-    "section": "miscellaneous"
-  },
-  {
     "id": "3f87cf4e-6d86-4715-9fe3-88a72ccfbf2a",
     "mainCategory": "पुस्तकें",
     "title": "एक खजीत फर व्यापारी का बयान",
@@ -15838,15 +15830,7 @@
     "dlc": "कोई नहीं",
     "subCategory": "",
     "section": "miscellaneous"
-  },
-  {
-    "id": "56e0b3c7-efcc-4c9b-8be0-df46d78556e8",
-    "mainCategory": "पुस्तकें",
-    "title": "जब ड्रैगन टूटा तब आप कहाँ थे?",
-    "dlc": "कोई नहीं",
-    "subCategory": "",
-    "section": "miscellaneous"
-  },
+	},
   {
     "id": "c6b4e23b-779d-4a91-b4e1-057c662d3f18",
     "mainCategory": "पुस्तकें",

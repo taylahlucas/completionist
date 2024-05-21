@@ -5742,7 +5742,7 @@
     "mainCategory": "Dawnguard",
     "subCategory": "Missões paralelas",
     "subCategoryType": "",
-    "title": "Limpando a Luz",
+    "title": "Luz de limpeza",
     "location": "",
     "hold": "",
     "href": "",
@@ -13664,14 +13664,6 @@
     "section": "miscellaneous"
   },
   {
-    "id": "191f3766-7bfe-49e7-9ef2-85e77c9bf7ce",
-    "mainCategory": "Livros",
-    "title": "Confissões de um comedor de Dunmer Skooma",
-    "dlc": "Nenhum",
-    "subCategory": "",
-    "section": "miscellaneous"
-  },
-  {
     "id": "3f87cf4e-6d86-4715-9fe3-88a72ccfbf2a",
     "mainCategory": "Livros",
     "title": "Confissões de um comerciante de peles Khajiit",
@@ -15835,14 +15827,6 @@
     "id": "a88c870c-1b53-4f6a-90a0-9565b80b8996",
     "mainCategory": "Livros",
     "title": "As águas do esquecimento",
-    "dlc": "Nenhum",
-    "subCategory": "",
-    "section": "miscellaneous"
-  },
-  {
-    "id": "56e0b3c7-efcc-4c9b-8be0-df46d78556e8",
-    "mainCategory": "Livros",
-    "title": "Onde você estava quando o Dragão quebrou?",
     "dlc": "Nenhum",
     "subCategory": "",
     "section": "miscellaneous"

@@ -5742,7 +5742,7 @@
     "mainCategory": "guardia del alba",
     "subCategory": "Misiones secundarias",
     "subCategoryType": "",
-    "title": "Limpiando la luz",
+    "title": "Luz limpiadora",
     "location": "",
     "hold": "",
     "href": "",
@@ -13664,14 +13664,6 @@
     "section": "miscellaneous"
   },
   {
-    "id": "191f3766-7bfe-49e7-9ef2-85e77c9bf7ce",
-    "mainCategory": "Libros",
-    "title": "Confesiones de un comedor Dunmer Skooma",
-    "dlc": "Ninguno",
-    "subCategory": "",
-    "section": "miscellaneous"
-  },
-  {
     "id": "3f87cf4e-6d86-4715-9fe3-88a72ccfbf2a",
     "mainCategory": "Libros",
     "title": "Confesiones de un comerciante de pieles khajiita",
@@ -15835,14 +15827,6 @@
     "id": "a88c870c-1b53-4f6a-90a0-9565b80b8996",
     "mainCategory": "Libros",
     "title": "Las aguas del olvido",
-    "dlc": "Ninguno",
-    "subCategory": "",
-    "section": "miscellaneous"
-  },
-  {
-    "id": "56e0b3c7-efcc-4c9b-8be0-df46d78556e8",
-    "mainCategory": "Libros",
-    "title": "¿Dónde estabas cuando el Dragón se rompió?",
     "dlc": "Ninguno",
     "subCategory": "",
     "section": "miscellaneous"

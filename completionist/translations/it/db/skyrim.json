@@ -5742,7 +5742,7 @@
     "mainCategory": "Dawnguard",
     "subCategory": "Missioni secondarie",
     "subCategoryType": "",
-    "title": "Purificare la luce",
+    "title": "Luce purificante",
     "location": "",
     "hold": "",
     "href": "",
@@ -13664,14 +13664,6 @@
     "section": "miscellaneous"
   },
   {
-    "id": "191f3766-7bfe-49e7-9ef2-85e77c9bf7ce",
-    "mainCategory": "Libri",
-    "title": "Confessioni di un mangiatore di Dunmer Skooma",
-    "dlc": "Nessuno",
-    "subCategory": "",
-    "section": "miscellaneous"
-  },
-  {
     "id": "3f87cf4e-6d86-4715-9fe3-88a72ccfbf2a",
     "mainCategory": "Libri",
     "title": "Confessioni di un commerciante di pellicce Khajiiti",
@@ -15835,14 +15827,6 @@
     "id": "a88c870c-1b53-4f6a-90a0-9565b80b8996",
     "mainCategory": "Libri",
     "title": "Le acque dell'oblio",
-    "dlc": "Nessuno",
-    "subCategory": "",
-    "section": "miscellaneous"
-  },
-  {
-    "id": "56e0b3c7-efcc-4c9b-8be0-df46d78556e8",
-    "mainCategory": "Libri",
-    "title": "Dov'eri quando il drago si è spezzato?",
     "dlc": "Nessuno",
     "subCategory": "",
     "section": "miscellaneous"

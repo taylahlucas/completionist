@@ -5742,7 +5742,7 @@
     "mainCategory": "Bình minh",
     "subCategory": "Nhiệm vụ phụ",
     "subCategoryType": "",
-    "title": "Làm sạch ánh sáng",
+    "title": "Ánh sáng làm sạch",
     "location": "",
     "hold": "",
     "href": "",
@@ -13664,14 +13664,6 @@
     "section": "miscellaneous"
   },
   {
-    "id": "191f3766-7bfe-49e7-9ef2-85e77c9bf7ce",
-    "mainCategory": "Sách",
-    "title": "Lời thú tội của một người ăn Dunmer Skooma",
-    "dlc": "Không có",
-    "subCategory": "",
-    "section": "miscellaneous"
-  },
-  {
     "id": "3f87cf4e-6d86-4715-9fe3-88a72ccfbf2a",
     "mainCategory": "Sách",
     "title": "Lời thú tội của một người buôn bán lông thú Khajiit",
@@ -15835,14 +15827,6 @@
     "id": "a88c870c-1b53-4f6a-90a0-9565b80b8996",
     "mainCategory": "Sách",
     "title": "Vùng nước lãng quên",
-    "dlc": "Không có",
-    "subCategory": "",
-    "section": "miscellaneous"
-  },
-  {
-    "id": "56e0b3c7-efcc-4c9b-8be0-df46d78556e8",
-    "mainCategory": "Sách",
-    "title": "Bạn đã ở đâu khi con Rồng bị gãy?",
     "dlc": "Không có",
     "subCategory": "",
     "section": "miscellaneous"
