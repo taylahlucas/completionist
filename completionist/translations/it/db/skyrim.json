@@ -6277,7 +6277,7 @@
     "mainCategory": "Sangue di Drago",
     "subCategory": "Missioni secondarie",
     "subCategoryType": "",
-    "title": "Vincolo filiale",
+    "title": "Vincoli filiali",
     "location": "Villaggio di Skaal",
     "hold": "Solstheim",
     "href": "",
@@ -16840,14 +16840,6 @@
     "section": "miscellaneous"
   },
   {
-    "id": "b1db9e4c-547d-4c74-b321-d4a28759c4cc",
-    "mainCategory": "Tomi di incantesimi",
-    "title": "Il rituale del negromante",
-    "dlc": "Nessuno",
-    "subCategory": "",
-    "section": "miscellaneous"
-  },
-  {
     "id": "61fma47d-9f34-477b-8395-91c9c94b66b0",
     "mainCategory": "Dawnguard",
     "subCategory": "Tomi di incantesimi",
@@ -17051,14 +17043,6 @@
     "id": "09e92734-0760-420f-af80-04a0a717dea4",
     "mainCategory": "Tomi di incantesimi",
     "title": "Telecinesi",
-    "dlc": "Nessuno",
-    "subCategory": "",
-    "section": "miscellaneous"
-  },
-  {
-    "id": "ef1c9143-8d37-4b9c-b69e-5c6d33f870pe",
-    "mainCategory": "Tomi di incantesimi",
-    "title": "Frecce di telecinesi",
     "dlc": "Nessuno",
     "subCategory": "",
     "section": "miscellaneous"

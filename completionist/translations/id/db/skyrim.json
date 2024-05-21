@@ -6277,7 +6277,7 @@
     "mainCategory": "lahir naga",
     "subCategory": "Pencarian Sampingan",
     "subCategoryType": "",
-    "title": "Ikatan Bakti",
+    "title": "Obligasi Anak",
     "location": "Desa Skaal",
     "hold": "Solstheim",
     "href": "",
@@ -16840,14 +16840,6 @@
     "section": "miscellaneous"
   },
   {
-    "id": "b1db9e4c-547d-4c74-b321-d4a28759c4cc",
-    "mainCategory": "Eja Tomes",
-    "title": "Ritual Ahli Nujum",
-    "dlc": "Tidak ada",
-    "subCategory": "",
-    "section": "miscellaneous"
-  },
-  {
     "id": "61fma47d-9f34-477b-8395-91c9c94b66b0",
     "mainCategory": "Penjaga Fajar",
     "subCategory": "Eja Tomes",
@@ -17051,14 +17043,6 @@
     "id": "09e92734-0760-420f-af80-04a0a717dea4",
     "mainCategory": "Eja Tomes",
     "title": "Telekinesis",
-    "dlc": "Tidak ada",
-    "subCategory": "",
-    "section": "miscellaneous"
-  },
-  {
-    "id": "ef1c9143-8d37-4b9c-b69e-5c6d33f870pe",
-    "mainCategory": "Eja Tomes",
-    "title": "Panah Telekinesis",
     "dlc": "Tidak ada",
     "subCategory": "",
     "section": "miscellaneous"

@@ -6277,7 +6277,7 @@
     "mainCategory": "Dragonborn",
     "subCategory": "Yan Görevler",
     "subCategoryType": "",
-    "title": "Evlada Bağlılık",
+    "title": "Evlat Bağları",
     "location": "Skaal Köyü",
     "hold": "Solstheim",
     "href": "",
@@ -16840,14 +16840,6 @@
     "section": "miscellaneous"
   },
   {
-    "id": "b1db9e4c-547d-4c74-b321-d4a28759c4cc",
-    "mainCategory": "Büyü Kitapları",
-    "title": "Necromancer'ın Ritüeli",
-    "dlc": "Hiçbiri",
-    "subCategory": "",
-    "section": "miscellaneous"
-  },
-  {
     "id": "61fma47d-9f34-477b-8395-91c9c94b66b0",
     "mainCategory": "Şafak Muhafızı",
     "subCategory": "Büyü Kitapları",
@@ -17051,14 +17043,6 @@
     "id": "09e92734-0760-420f-af80-04a0a717dea4",
     "mainCategory": "Büyü Kitapları",
     "title": "Telekinezi",
-    "dlc": "Hiçbiri",
-    "subCategory": "",
-    "section": "miscellaneous"
-  },
-  {
-    "id": "ef1c9143-8d37-4b9c-b69e-5c6d33f870pe",
-    "mainCategory": "Büyü Kitapları",
-    "title": "Telekinezi Okları",
     "dlc": "Hiçbiri",
     "subCategory": "",
     "section": "miscellaneous"

@@ -4141,7 +4141,7 @@
     "title": "Kill the dragon at Ancient's Ascent",
     "location": "Ancient's Ascent",
     "hold": "",
-    "href": "https://elderscrolls.fandom.com/wiki/Kill_the_dragon_at_Ancient's_Ascent",
+    "href": "https://elderscrolls.fandom.com/wiki/Kill_the_Dragon",
     "dlc": "None",
     "conflictingIds": [],
     "section": "quests"
@@ -4154,7 +4154,7 @@
     "title": "Kill the dragon at Autumnwatch Tower",
     "location": "Autumnwatch Tower",
     "hold": "",
-    "href": "https://elderscrolls.fandom.com/wiki/Kill_the_dragon_at_Autumnwatch_Tower",
+    "href": "https://elderscrolls.fandom.com/wiki/Kill_the_Dragon",
     "dlc": "None",
     "conflictingIds": [],
     "section": "quests"
@@ -4167,7 +4167,7 @@
     "title": "Kill the dragon at Bonestrewn Crest",
     "location": "Bonestrewn Crest",
     "hold": "",
-    "href": "https://elderscrolls.fandom.com/wiki/Kill_the_dragon_at_Bonestrewn_Crest",
+    "href": "https://elderscrolls.fandom.com/wiki/Kill_the_Dragon",
     "dlc": "None",
     "conflictingIds": [],
     "section": "quests"
@@ -4180,7 +4180,7 @@
     "title": "Kill the dragon at Dragontooth Crater",
     "location": "Dragontooth Crater",
     "hold": "",
-    "href": "https://elderscrolls.fandom.com/wiki/Kill_the_dragon_at_Dragontooth_Crater",
+    "href": "https://elderscrolls.fandom.com/wiki/Kill_the_Dragon",
     "dlc": "None",
     "conflictingIds": [],
     "section": "quests"
@@ -4193,7 +4193,7 @@
     "title": "Kill the dragon at Eldersblood Peak",
     "location": "Eldersblood Peak",
     "hold": "",
-    "href": "https://elderscrolls.fandom.com/wiki/Kill_the_dragon_at_Eldersblood_Peak",
+    "href": "https://elderscrolls.fandom.com/wiki/Kill_the_Dragon",
     "dlc": "None",
     "conflictingIds": [],
     "section": "quests"
@@ -4206,7 +4206,7 @@
     "title": "Kill the dragon at Lost Tongue Overlook",
     "location": "Lost Tongue Overlook",
     "hold": "",
-    "href": "https://elderscrolls.fandom.com/wiki/Kill_the_dragon_at_Lost_Tongue_Overlook",
+    "href": "https://elderscrolls.fandom.com/wiki/Kill_the_Dragon",
     "dlc": "None",
     "conflictingIds": [],
     "section": "quests"
@@ -4219,7 +4219,7 @@
     "title": "Kill the dragon at Mount Anthor",
     "location": "Mount Anthor",
     "hold": "",
-    "href": "https://elderscrolls.fandom.com/wiki/Kill_the_dragon_at_Mount_Anthor",
+    "href": "https://elderscrolls.fandom.com/wiki/Kill_the_Dragon",
     "dlc": "None",
     "conflictingIds": [],
     "section": "quests"
@@ -4232,7 +4232,7 @@
     "title": "Kill the dragon at Northwind Summit",
     "location": "Northwind Summit",
     "hold": "",
-    "href": "https://elderscrolls.fandom.com/wiki/Kill_the_dragon_at_Northwind_Summit",
+    "href": "https://elderscrolls.fandom.com/wiki/Kill_the_Dragon",
     "dlc": "None",
     "conflictingIds": [],
     "section": "quests"
@@ -4245,7 +4245,7 @@
     "title": "Kill the dragon at Shearpoint",
     "location": "Shearpoint",
     "hold": "",
-    "href": "https://elderscrolls.fandom.com/wiki/Kill_the_dragon_at_Shearpoint",
+    "href": "https://elderscrolls.fandom.com/wiki/Kill_the_Dragon",
     "dlc": "None",
     "conflictingIds": [],
     "section": "quests"
@@ -4258,7 +4258,7 @@
     "title": "Kill the dragon at Skyborn Altar",
     "location": "Skyborn Altar",
     "hold": "",
-    "href": "https://elderscrolls.fandom.com/wiki/Kill_the_dragon_at_Skyborn_Altar",
+    "href": "https://elderscrolls.fandom.com/wiki/Kill_the_Dragon",
     "dlc": "None",
     "conflictingIds": [],
     "section": "quests"
@@ -5760,7 +5760,7 @@
     "title": "Hunting The Monster",
     "location": "",
     "hold": "",
-    "href": "https://elderscrolls.fandom.com/wiki/Hunting_The_Monster",
+    "href": "https://elderscrolls.fandom.com/wiki/Hunting_the_Monster",
     "dlc": "Dawnguard",
     "conflictingIds": [
       "3b408a0c-b194-42f1-bd9c-38e10bc02a7e"
@@ -6277,10 +6277,10 @@
     "mainCategory": "Dragonborn",
     "subCategory": "Side Quests",
     "subCategoryType": "",
-    "title": "Filial Bond",
+    "title": "Filial Bonds",
     "location": "Skaal Village",
     "hold": "Solstheim",
-    "href": "https://elderscrolls.fandom.com/wiki/Filial_Bond",
+    "href": "https://elderscrolls.fandom.com/wiki/Filial_Bonds",
     "dlc": "Dragonborn",
     "conflictingIds": [],
     "section": "quests"
@@ -6905,7 +6905,7 @@
     "dlc": "Dragonborn",
     "subCategoryType": "",
     "section": "collectables",
-    "href": "https://elderscrolls.fandom.com/wiki/Miraak_Mask"
+    "href": "https://elderscrolls.fandom.com/wiki/Miraak_(Mask)"
   },
   {
     "id": "a5a77a8d-3d55-4db1-b9f3-2c065b8b98f1",
@@ -12366,7 +12366,7 @@
     "dlc": "None",
     "mainCategory": "Main",
     "section": "locations",
-    "href": "https://elderscrolls.fandom.com/wiki/Wreck_Of_The_Brinehammer"
+    "href": "https://elderscrolls.fandom.com/wiki/Wreck_of_the_Brinehammer"
   },
   {
     "id": "d9e7a9a5-3eb9-4f37-9236-1bc2f5538aa4",
@@ -13302,7 +13302,7 @@
     "dlc": "Dragonborn",
     "mainCategory": "Dragonborn",
     "section": "locations",
-    "href": "https://elderscrolls.fandom.com/wiki/Elda's_House"
+    "href": "https://elderscrolls.fandom.com/wiki/Edla%27s_House"
   },
   {
     "id": "68cb0194-6c25-47f5-a42a-2b95cb132883",
@@ -15687,7 +15687,7 @@
     "dlc": "None",
     "subCategory": "",
     "section": "miscellaneous",
-    "href": "https://elderscrolls.fandom.com/wiki/Nightingales:_Fact_or_Fiction?"
+    "href": "https://elderscrolls.fandom.com/wiki/Nightingales:_Fact_or_Fiction%3F"
   },
   {
     "id": "0eb55145-d7a7-4d0b-aaae-1850ce685378",
@@ -18039,15 +18039,6 @@
     "href": "https://elderscrolls.fandom.com/wiki/Muffle"
   },
   {
-    "id": "b1db9e4c-547d-4c74-b321-d4a28759c4cc",
-    "mainCategory": "Spell Tomes",
-    "title": "Necromancer's Ritual",
-    "dlc": "None",
-    "subCategory": "",
-    "section": "miscellaneous",
-    "href": "https://elderscrolls.fandom.com/wiki/Necromancer's_Ritual"
-  },
-  {
     "id": "61fma47d-9f34-477b-8395-91c9c94b66b0",
     "mainCategory": "Dawnguard",
     "subCategory": "Spell Tomes",
@@ -18280,15 +18271,6 @@
     "subCategory": "",
     "section": "miscellaneous",
     "href": "https://elderscrolls.fandom.com/wiki/Telekinesis"
-  },
-  {
-    "id": "ef1c9143-8d37-4b9c-b69e-5c6d33f870pe",
-    "mainCategory": "Spell Tomes",
-    "title": "Telekinesis Arrows",
-    "dlc": "None",
-    "subCategory": "",
-    "section": "miscellaneous",
-    "href": "https://elderscrolls.fandom.com/wiki/Telekinesis_Arrows"
   },
   {
     "id": "86f2b06e-4ac3-4ee2-a193-2aee234e0fc0",
@@ -18999,7 +18981,7 @@
     "title": "Thirsk, A Revised History",
     "dlc": "Dragonborn",
     "section": "miscellaneous",
-    "href": "https://elderscrolls.fandom.com/wiki/Thirsk,_A_Revised_History"
+    "href": "https://elderscrolls.fandom.com/wiki/Thirsk,_a_History_--_Revised"
   },
   {
     "id": "8f254d32-411b-4e15-8ed7-34f9f588a73b",
