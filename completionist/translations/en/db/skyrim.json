@@ -6683,7 +6683,7 @@
     "title": "Elmus Mead",
     "location": "Thirsk Mead Hall",
     "hold": "Solstheim",
-    "href": "https://elderscrolls.fandom.com/wiki/Elmus_Mead",
+    "href": "https://elderscrolls.fandom.com/wiki/Elmus%27_Mead",
     "dlc": "Dragonborn",
     "conflictingIds": [],
     "section": "quests"
@@ -17175,15 +17175,6 @@
     "href": "https://elderscrolls.fandom.com/wiki/Bound_Bow"
   },
   {
-    "id": "8a5873d9-827b-4f9a-8f54-64b1c5bb0c4e",
-    "mainCategory": "Spell Tomes",
-    "title": "Bound Quiver",
-    "dlc": "None",
-    "subCategory": "",
-    "section": "miscellaneous",
-    "href": "https://elderscrolls.fandom.com/wiki/Bound_Quiver"
-  },
-  {
     "id": "e3f0f78a-8f13-43c1-9400-7a1eb8530f21",
     "mainCategory": "Spell Tomes",
     "title": "Bound Sword",
@@ -17325,7 +17316,7 @@
     "dlc": "None",
     "subCategory": "",
     "section": "miscellaneous",
-    "href": "https://elderscrolls.fandom.com/wiki/Conjure_Daedric_Horse"
+    "href": "https://elderscrolls.fandom.com/wiki/Summon_Daedric_Horse"
   },
   {
     "id": "f2373ff9-154b-43b8-879c-68872ddbb22d",
@@ -18279,16 +18270,7 @@
     "dlc": "None",
     "subCategory": "",
     "section": "miscellaneous",
-    "href": "https://elderscrolls.fandom.com/wiki/Teleport_Pet_Mudcrab"
-  },
-  {
-    "id": "rc5fcb79-0d29-4f4d-93d5-b4261f40e5b",
-    "mainCategory": "Spell Tomes",
-    "title": "Teleport Pet Nix-Hound",
-    "dlc": "None",
-    "subCategory": "",
-    "section": "miscellaneous",
-    "href": "https://elderscrolls.fandom.com/wiki/Teleport_Pet_Nix-Hound"
+    "href": "https://elderscrolls.fandom.com/wiki/Teleport_Pet:_Dwarven_Mudcrab"
   },
   {
     "id": "d25fcb79-0d29-4f4d-93d5-b4261f40e5b",
