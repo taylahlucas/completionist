@@ -4437,7 +4437,7 @@
     "dlc": "None",
     "subCategoryType": "",
     "section": "collectables",
-    "href": "https://fallout.fandom.com/wiki/Final_judgement"
+    "href": "https://fallout.fandom.com/wiki/Final_Judgment"
   },
   {
     "id": "fce16c02-95fe-4474-a2fe-0c5a287a68b3",
@@ -4525,7 +4525,7 @@
     "prerequisite": "",
     "dlc": "Nuka-World",
     "section": "collectables",
-    "href": "https://fallout.fandom.com/wiki/Nuka-nuke_Launcher"
+    "href": "https://fallout.fandom.com/wiki/Nuka-nuke_launcher"
   },
   {
     "id": "4d205662-c2d3-46d2-a7f4-34c82f7f768f",
@@ -6781,15 +6781,6 @@
     "mainCategory": "Main",
     "section": "locations",
     "href": "https://fallout.fandom.com/wiki/Fallen_skybridge"
-  },
-  {
-    "id": "a5d8fe55-2f06-4fe0-a40f-9ea6937dabbc",
-    "title": "Fallon's (Financial District)",
-    "subCategory": "Financial District",
-    "dlc": "None",
-    "mainCategory": "Main",
-    "section": "locations",
-    "href": "https://fallout.fandom.com/wiki/Fallon's_(Financial_District)"
   },
   {
     "id": "ac1b8e16-c96a-4f54-b24a-4ac72750ce9a",
@@ -10056,7 +10047,7 @@
     "dlc": "Nuka-World",
     "mainCategory": "Nuka-World",
     "section": "locations",
-    "href": "https://fallout.fandom.com/wiki/Doc_Phosphates_Saloon"
+    "href": "https://fallout.fandom.com/wiki/Doc_Phosphate%27s_Saloon"
   },
   {
     "id": "3c2c50e1-144c-4c6d-9a8e-0bca08e21790",
@@ -10164,7 +10155,7 @@
     "dlc": "Nuka-World",
     "mainCategory": "Nuka-World",
     "section": "locations",
-    "href": "https://fallout.fandom.com/wiki/Hubologists_Camp"
+    "href": "https://fallout.fandom.com/wiki/Hubologists_camp"
   },
   {
     "id": "7923fd18-2d1a-4f07-bbda-bba83171bbfe",
@@ -10425,7 +10416,7 @@
     "dlc": "None",
     "subCategory": "",
     "section": "miscellaneous",
-    "href": "https://fallout.fandom.com/wiki/Advanced_System_Notes"
+    "href": "https://fallout.fandom.com/wiki/Advanced_system_notes"
   },
   {
     "id": "4a3b45c6-7d89-012e-fgh2-345678i9j08r",
@@ -10497,7 +10488,7 @@
     "dlc": "None",
     "subCategory": "",
     "section": "miscellaneous",
-    "href": "https://fallout.fandom.com/wiki/BioScience_Systems_Access"
+    "href": "https://fallout.fandom.com/wiki/BioScience_systems_access"
   },
   {
     "id": "12a3b45c6-7d89-012e-fgh2-345678i9j08r",
@@ -10893,7 +10884,7 @@
     "dlc": "None",
     "subCategory": "",
     "section": "miscellaneous",
-    "href": "https://fallout.fandom.com/wiki/Encrypted_Message_holotape"
+    "href": "https://fallout.fandom.com/wiki/Encrypted_message_holotape"
   },
   {
     "id": "14a3b45c6-7d89-012e-fgh2-345678i9j10t",
@@ -10938,7 +10929,7 @@
     "dlc": "None",
     "subCategory": "",
     "section": "miscellaneous",
-    "href": "https://fallout.fandom.com/wiki/Griswold's_Poetry_Collection"
+    "href": "https://fallout.fandom.com/wiki/Griswold's_poetry_collection"
   },
   {
     "id": "19a3b45c6-7d89-012e-fgh2-345678i9j10t",
@@ -11757,7 +11748,7 @@
     "dlc": "None",
     "subCategory": "",
     "section": "miscellaneous",
-    "href": "https://fallout.fandom.com/wiki/University_Point_Council_Meeting"
+    "href": "https://fallout.fandom.com/wiki/University_Point_council_meeting"
   },
   {
     "id": "14a3b45c6-7d89-012e-fgh2-345678i9j16t",
@@ -11883,7 +11874,7 @@
     "title": "Jezebel Interview",
     "dlc": "Automatron",
     "section": "miscellaneous",
-    "href": "https://fallout.fandom.com/wiki/Jezebel_Interview"
+    "href": "https://fallout.fandom.com/wiki/Jezebel_interview"
   },
   {
     "id": "c09a3665-7f4d-48c0-9a16-0dd329c894e4",
@@ -12126,7 +12117,7 @@
     "title": "Nuka-Cola Clear",
     "dlc": "Nuka-World",
     "section": "miscellaneous",
-    "href": "https://fallout.fandom.com/wiki/Nuka-Cola_clear"
+    "href": "https://fallout.fandom.com/wiki/Nuka-Cola_Clear_(holotape)"
   },
   {
     "id": "330059f9-5d3b-4c27-9e61-8b16ee3147e3",
