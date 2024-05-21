@@ -8187,12 +8187,12 @@
     "id": "3b48cfdc-6524-4e07-97ed-04adf7089bbc",
     "mainCategory": "Dragonborn",
     "subCategory": "Unique Armor Sets",
-    "title": "Miraak's Robe",
+    "title": "Miraak's Robes",
     "prerequisite": "",
     "dlc": "Dragonborn",
     "subCategoryType": "",
     "section": "collectables",
-    "href": "https://elderscrolls.fandom.com/wiki/Miraak's_Robe"
+    "href": "https://elderscrolls.fandom.com/wiki/Miraak%27s_Robes"
   },
   {
     "id": "7cbe1341-aa38-437a-b290-a68d87300029",
@@ -13099,7 +13099,7 @@
   },
   {
     "id": "6a244867-58fb-40c1-b61e-b780c7cc6771",
-    "title": "Frost Frostmoth",
+    "title": "Fort Frostmoth",
     "subCategory": "Solstheim",
     "dlc": "Dragonborn",
     "mainCategory": "Dragonborn",
