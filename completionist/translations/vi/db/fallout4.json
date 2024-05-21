@@ -3362,7 +3362,7 @@
     "mainCategory": "Thế giới Nuka",
     "subCategory": "Nhiệm vụ rạng rỡ",
     "subCategoryType": "",
-    "title": "Phòng thủ tốt",
+    "title": "Bảo vệ hàng hóa",
     "location": "Thị trấn Nuka Hoa Kỳ",
     "hold": "",
     "href": "",
@@ -5210,7 +5210,7 @@
     "id": "3c2d5a18-326c-45d2-ae9d-64634153a60a",
     "mainCategory": "Giáp độc nhất",
     "subCategory": "",
-    "title": "Tessa đầu tiên",
+    "title": "Nắm đấm của Tessa",
     "prerequisite": "",
     "dlc": "Không có",
     "subCategoryType": "",
@@ -9382,7 +9382,7 @@
   },
   {
     "id": "c2b965d2-4e7e-4a91-bf1f-b8f31c282a50",
-    "title": "Đấu trường nhân viên Dry Rock Gulch",
+    "title": "Khu vực nhân viên Dry Rock Gulch",
     "subCategory": "Thế giới Nuka",
     "dlc": "Thế giới Nuka",
     "mainCategory": "Thế giới Nuka",
@@ -9797,7 +9797,7 @@
     "section": "miscellaneous"
   },
   {
-    "id": "16a3b45c6-7d89-012e-fgh2-345678i9j08r",
+    "id": "16a3b45c6-7d89-012e-fgh2-345678i9j08q",
     "mainCategory": "ảnh ba chiều",
     "title": "Mái ấm Boston - Bạn đang ở đâu?",
     "dlc": "Không có",
@@ -9807,7 +9807,7 @@
   {
     "id": "17a3b45c6-7d89-012e-fgh2-345678i9j08r",
     "mainCategory": "ảnh ba chiều",
-    "title": "Nhật ký cá nhân Brain Virgil 076",
+    "title": "Nhật ký cá nhân Brian Virgil 076",
     "dlc": "Không có",
     "subCategory": "",
     "section": "miscellaneous"

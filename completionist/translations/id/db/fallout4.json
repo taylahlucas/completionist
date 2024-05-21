@@ -3362,7 +3362,7 @@
     "mainCategory": "Nuka-Dunia",
     "subCategory": "Pencarian Bercahaya",
     "subCategoryType": "",
-    "title": "Pertahanan yang Baik",
+    "title": "Pertahanan Barang",
     "location": "Kota Nuka AS",
     "hold": "",
     "href": "",
@@ -5210,7 +5210,7 @@
     "id": "3c2d5a18-326c-45d2-ae9d-64634153a60a",
     "mainCategory": "Baju Besi Unik",
     "subCategory": "",
-    "title": "Tessa yang pertama",
+    "title": "TTinju Tessa",
     "prerequisite": "",
     "dlc": "Tidak ada",
     "subCategoryType": "",
@@ -9382,7 +9382,7 @@
   },
   {
     "id": "c2b965d2-4e7e-4a91-bf1f-b8f31c282a50",
-    "title": "Arena Karyawan Dry Rock Gulch",
+    "title": "Area karyawan Dry Rock Gulch",
     "subCategory": "Nuka-Dunia",
     "dlc": "Nuka-Dunia",
     "mainCategory": "Nuka-Dunia",
@@ -9797,7 +9797,7 @@
     "section": "miscellaneous"
   },
   {
-    "id": "16a3b45c6-7d89-012e-fgh2-345678i9j08r",
+    "id": "16a3b45c6-7d89-012e-fgh2-345678i9j08q",
     "mainCategory": "Holotape",
     "title": "Penampungan Boston - Dimana Anda?",
     "dlc": "Tidak ada",
@@ -9807,7 +9807,7 @@
   {
     "id": "17a3b45c6-7d89-012e-fgh2-345678i9j08r",
     "mainCategory": "Holotape",
-    "title": "Log Pribadi Otak Virgil 076",
+    "title": "Catatan Pribadi Brian Virgil 076",
     "dlc": "Tidak ada",
     "subCategory": "",
     "section": "miscellaneous"

@@ -3362,7 +3362,7 @@
     "mainCategory": "ヌカ・ワールド",
     "subCategory": "レディアントクエスト",
     "subCategoryType": "",
-    "title": "優れた防御",
+    "title": "物品防御",
     "location": "ヌカタウンUSA",
     "hold": "",
     "href": "",
@@ -5210,7 +5210,7 @@
     "id": "3c2d5a18-326c-45d2-ae9d-64634153a60a",
     "mainCategory": "ユニークな鎧",
     "subCategory": "",
-    "title": "テッサのファースト",
+    "title": "テッサの拳",
     "prerequisite": "",
     "dlc": "なし",
     "subCategoryType": "",
@@ -9382,7 +9382,7 @@
   },
   {
     "id": "c2b965d2-4e7e-4a91-bf1f-b8f31c282a50",
-    "title": "ドライ ロック ガルチ 従業員アリーナ",
+    "title": "ドライ ロック ガルチの従業員エリア",
     "subCategory": "ヌカ・ワールド",
     "dlc": "ヌカ・ワールド",
     "mainCategory": "ヌカ・ワールド",
@@ -9797,7 +9797,7 @@
     "section": "miscellaneous"
   },
   {
-    "id": "16a3b45c6-7d89-012e-fgh2-345678i9j08r",
+    "id": "16a3b45c6-7d89-012e-fgh2-345678i9j08q",
     "mainCategory": "ホロテープ",
     "title": "ボストンシェルター - ここはどこですか?",
     "dlc": "なし",
@@ -9807,7 +9807,7 @@
   {
     "id": "17a3b45c6-7d89-012e-fgh2-345678i9j08r",
     "mainCategory": "ホロテープ",
-    "title": "ブレイン・バージル・パーソナル・ログ076",
+    "title": "ブライアン・ヴァージル個人ログ076",
     "dlc": "なし",
     "subCategory": "",
     "section": "miscellaneous"

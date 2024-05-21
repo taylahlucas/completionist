@@ -3362,7 +3362,7 @@
     "mainCategory": "Nuka-Dünya",
     "subCategory": "Işıldayan Görevler",
     "subCategoryType": "",
-    "title": "İyi Bir Savunma",
+    "title": "Bir Mal Savunması",
     "location": "Nuka-Kasaba ABD",
     "hold": "",
     "href": "",
@@ -5210,7 +5210,7 @@
     "id": "3c2d5a18-326c-45d2-ae9d-64634153a60a",
     "mainCategory": "Benzersiz Zırh",
     "subCategory": "",
-    "title": "Tessa'nın İlki",
+    "title": "Tessa'nın Yumruğu",
     "prerequisite": "",
     "dlc": "Hiçbiri",
     "subCategoryType": "",
@@ -9382,7 +9382,7 @@
   },
   {
     "id": "c2b965d2-4e7e-4a91-bf1f-b8f31c282a50",
-    "title": "Dry Rock Gulch Çalışan Arenası",
+    "title": "Dry Rock Gulch çalışan alanı",
     "subCategory": "Nuka-Dünya",
     "dlc": "Nuka-Dünya",
     "mainCategory": "Nuka-Dünya",
@@ -9797,7 +9797,7 @@
     "section": "miscellaneous"
   },
   {
-    "id": "16a3b45c6-7d89-012e-fgh2-345678i9j08r",
+    "id": "16a3b45c6-7d89-012e-fgh2-345678i9j08q",
     "mainCategory": "Sanal bantlar",
     "title": "Boston Barınağı - Neredesin?",
     "dlc": "Hiçbiri",
@@ -9807,7 +9807,7 @@
   {
     "id": "17a3b45c6-7d89-012e-fgh2-345678i9j08r",
     "mainCategory": "Sanal bantlar",
-    "title": "Brain Virgil Kişisel Günlüğü 076",
+    "title": "Brian Virgil Kişisel Günlüğü 076",
     "dlc": "Hiçbiri",
     "subCategory": "",
     "section": "miscellaneous"

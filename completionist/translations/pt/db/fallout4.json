@@ -3362,7 +3362,7 @@
     "mainCategory": "Nuka-Mundo",
     "subCategory": "Missões Radiantes",
     "subCategoryType": "",
-    "title": "Uma boa defesa",
+    "title": "Uma defesa de mercadorias",
     "location": "Nuka-Town EUA",
     "hold": "",
     "href": "",
@@ -5210,7 +5210,7 @@
     "id": "3c2d5a18-326c-45d2-ae9d-64634153a60a",
     "mainCategory": "Armadura Única",
     "subCategory": "",
-    "title": "O primeiro de Tessa",
+    "title": "O punho de Tessa",
     "prerequisite": "",
     "dlc": "Nenhum",
     "subCategoryType": "",
@@ -9382,7 +9382,7 @@
   },
   {
     "id": "c2b965d2-4e7e-4a91-bf1f-b8f31c282a50",
-    "title": "Arena de funcionários de Dry Rock Gulch",
+    "title": "Área de funcionários de Dry Rock Gulch",
     "subCategory": "Nuka-Mundo",
     "dlc": "Nuka-Mundo",
     "mainCategory": "Nuka-Mundo",
@@ -9797,7 +9797,7 @@
     "section": "miscellaneous"
   },
   {
-    "id": "16a3b45c6-7d89-012e-fgh2-345678i9j08r",
+    "id": "16a3b45c6-7d89-012e-fgh2-345678i9j08q",
     "mainCategory": "Holotapes",
     "title": "Abrigo de Boston - Onde você está?",
     "dlc": "Nenhum",
@@ -9807,7 +9807,7 @@
   {
     "id": "17a3b45c6-7d89-012e-fgh2-345678i9j08r",
     "mainCategory": "Holotapes",
-    "title": "Registro Pessoal do Cérebro Virgílio 076",
+    "title": "Registro pessoal de Brian Virgil 076",
     "dlc": "Nenhum",
     "subCategory": "",
     "section": "miscellaneous"

@@ -3362,7 +3362,7 @@
     "mainCategory": "نوكا وورلد",
     "subCategory": "أسئلة مشعة",
     "subCategoryType": "",
-    "title": "دفاع جيد",
+    "title": "الدفاع عن البضائع",
     "location": "نوكا تاون الولايات المتحدة الأمريكية",
     "hold": "",
     "href": "",
@@ -5210,7 +5210,7 @@
     "id": "3c2d5a18-326c-45d2-ae9d-64634153a60a",
     "mainCategory": "درع فريد",
     "subCategory": "",
-    "title": "تيسا الأولى",
+    "title": "قبضة تيسا",
     "prerequisite": "",
     "dlc": "لا أحد",
     "subCategoryType": "",
@@ -9382,7 +9382,7 @@
   },
   {
     "id": "c2b965d2-4e7e-4a91-bf1f-b8f31c282a50",
-    "title": "ساحة موظفي دراي روك جولتش",
+    "title": "منطقة موظفي دراي روك جولتش",
     "subCategory": "نوكا وورلد",
     "dlc": "نوكا وورلد",
     "mainCategory": "نوكا وورلد",
@@ -9807,7 +9807,7 @@
   {
     "id": "17a3b45c6-7d89-012e-fgh2-345678i9j08r",
     "mainCategory": "هولوتابس",
-    "title": "سجل الدماغ فيرجيل الشخصي 076",
+    "title": "بريان فيرجيل السجل الشخصي 076",
     "dlc": "لا أحد",
     "subCategory": "",
     "section": "miscellaneous"

@@ -3362,7 +3362,7 @@
     "mainCategory": "Mondo Nuka",
     "subCategory": "Missioni radiose",
     "subCategoryType": "",
-    "title": "Una buona difesa",
+    "title": "Una difesa dei beni",
     "location": "Nuka-Town USA",
     "hold": "",
     "href": "",
@@ -5210,7 +5210,7 @@
     "id": "3c2d5a18-326c-45d2-ae9d-64634153a60a",
     "mainCategory": "Armatura unica",
     "subCategory": "",
-    "title": "Il primo di Tessa",
+    "title": "Il pugno di Tessa",
     "prerequisite": "",
     "dlc": "Nessuno",
     "subCategoryType": "",
@@ -9382,7 +9382,7 @@
   },
   {
     "id": "c2b965d2-4e7e-4a91-bf1f-b8f31c282a50",
-    "title": "Arena dei dipendenti di Dry Rock Gulch",
+    "title": "Area dipendenti di Dry Rock Gulch",
     "subCategory": "Mondo Nuka",
     "dlc": "Mondo Nuka",
     "mainCategory": "Mondo Nuka",
@@ -9797,7 +9797,7 @@
     "section": "miscellaneous"
   },
   {
-    "id": "16a3b45c6-7d89-012e-fgh2-345678i9j08r",
+    "id": "16a3b45c6-7d89-012e-fgh2-345678i9j08q",
     "mainCategory": "Olonastri",
     "title": "Rifugio di Boston: dove sei?",
     "dlc": "Nessuno",
@@ -9807,7 +9807,7 @@
   {
     "id": "17a3b45c6-7d89-012e-fgh2-345678i9j08r",
     "mainCategory": "Olonastri",
-    "title": "Registro personale di Brain Virgil 076",
+    "title": "Diario personale di Brian Virgil 076",
     "dlc": "Nessuno",
     "subCategory": "",
     "section": "miscellaneous"

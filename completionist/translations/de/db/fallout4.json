@@ -3362,7 +3362,7 @@
     "mainCategory": "Nuka-Welt",
     "subCategory": "Strahlende Quests",
     "subCategoryType": "",
-    "title": "Eine gute Verteidigung",
+    "title": "Eine Warenverteidigung",
     "location": "Nuka-Town USA",
     "hold": "",
     "href": "",
@@ -5210,7 +5210,7 @@
     "id": "3c2d5a18-326c-45d2-ae9d-64634153a60a",
     "mainCategory": "Einzigartige Rüstung",
     "subCategory": "",
-    "title": "Tessas Erste",
+    "title": "Tessas Faust",
     "prerequisite": "",
     "dlc": "Keiner",
     "subCategoryType": "",
@@ -9382,7 +9382,7 @@
   },
   {
     "id": "c2b965d2-4e7e-4a91-bf1f-b8f31c282a50",
-    "title": "Dry Rock Gulch-Mitarbeiterarena",
+    "title": "Mitarbeiterbereich von Dry Rock Gulch",
     "subCategory": "Nuka-Welt",
     "dlc": "Nuka-Welt",
     "mainCategory": "Nuka-Welt",
@@ -9797,7 +9797,7 @@
     "section": "miscellaneous"
   },
   {
-    "id": "16a3b45c6-7d89-012e-fgh2-345678i9j08r",
+    "id": "16a3b45c6-7d89-012e-fgh2-345678i9j08q",
     "mainCategory": "Holobänder",
     "title": "Boston Shelter – Wo bist du?",
     "dlc": "Keiner",
@@ -9807,7 +9807,7 @@
   {
     "id": "17a3b45c6-7d89-012e-fgh2-345678i9j08r",
     "mainCategory": "Holobänder",
-    "title": "Brain Virgil Persönliches Logbuch 076",
+    "title": "Persönliches Protokoll von Brian Virgil 076",
     "dlc": "Keiner",
     "subCategory": "",
     "section": "miscellaneous"

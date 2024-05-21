@@ -3362,7 +3362,7 @@
     "mainCategory": "Nuka-Monde",
     "subCategory": "Quêtes rayonnantes",
     "subCategoryType": "",
-    "title": "Une bonne défense",
+    "title": "Une défense des biens",
     "location": "Nuka-Town États-Unis",
     "hold": "",
     "href": "",
@@ -5210,7 +5210,7 @@
     "id": "3c2d5a18-326c-45d2-ae9d-64634153a60a",
     "mainCategory": "Armure unique",
     "subCategory": "",
-    "title": "La première de Tessa",
+    "title": "Le poing de Tessa",
     "prerequisite": "",
     "dlc": "Aucun",
     "subCategoryType": "",
@@ -9382,7 +9382,7 @@
   },
   {
     "id": "c2b965d2-4e7e-4a91-bf1f-b8f31c282a50",
-    "title": "Arène des employés de Dry Rock Gulch",
+    "title": "Zone réservée aux employés de Dry Rock Gulch",
     "subCategory": "Nuka-Monde",
     "dlc": "Nuka-Monde",
     "mainCategory": "Nuka-Monde",
@@ -9797,7 +9797,7 @@
     "section": "miscellaneous"
   },
   {
-    "id": "16a3b45c6-7d89-012e-fgh2-345678i9j08r",
+    "id": "16a3b45c6-7d89-012e-fgh2-345678i9j08q",
     "mainCategory": "Holobandes",
     "title": "Refuge Boston – Où es-tu ?",
     "dlc": "Aucun",
@@ -9807,7 +9807,7 @@
   {
     "id": "17a3b45c6-7d89-012e-fgh2-345678i9j08r",
     "mainCategory": "Holobandes",
-    "title": "Journal personnel de Brain Virgil 076",
+    "title": "Journal personnel de Brian Virgil 076",
     "dlc": "Aucun",
     "subCategory": "",
     "section": "miscellaneous"

@@ -3362,7 +3362,7 @@
     "mainCategory": "核子世界",
     "subCategory": "光芒四射的任务",
     "subCategoryType": "",
-    "title": "良好的防守",
+    "title": "货物防御",
     "location": "美国核子镇",
     "hold": "",
     "href": "",
@@ -5210,7 +5210,7 @@
     "id": "3c2d5a18-326c-45d2-ae9d-64634153a60a",
     "mainCategory": "独特的盔甲",
     "subCategory": "",
-    "title": "泰莎的第一次",
+    "title": "泰莎的拳头",
     "prerequisite": "",
     "dlc": "没有任何",
     "subCategoryType": "",
@@ -9382,7 +9382,7 @@
   },
   {
     "id": "c2b965d2-4e7e-4a91-bf1f-b8f31c282a50",
-    "title": "干岩峡谷员工竞技场",
+    "title": "干岩峡谷员工区",
     "subCategory": "核子世界",
     "dlc": "核子世界",
     "mainCategory": "核子世界",
@@ -9797,7 +9797,7 @@
     "section": "miscellaneous"
   },
   {
-    "id": "16a3b45c6-7d89-012e-fgh2-345678i9j08r",
+    "id": "16a3b45c6-7d89-012e-fgh2-345678i9j08q",
     "mainCategory": "全息带",
     "title": "波士顿庇护所 - 你在哪里？",
     "dlc": "没有任何",
@@ -9807,7 +9807,7 @@
   {
     "id": "17a3b45c6-7d89-012e-fgh2-345678i9j08r",
     "mainCategory": "全息带",
-    "title": "大脑维吉尔个人日志076",
+    "title": "布莱恩·维吉尔个人日志 076",
     "dlc": "没有任何",
     "subCategory": "",
     "section": "miscellaneous"
