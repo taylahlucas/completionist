@@ -32,11 +32,12 @@ const writeJsonFile = (filePath, data) => {
 const languageList = ['ar', 'de', 'es', 'fr', 'hi', 'id', 'it', 'ja', 'pt', 'tr', 'vi', 'zh'];
 
 
-const jsonFilePath = 'en/db/skyrim.json';
+const filename = 'fallout3';
+const jsonFilePath = `en/db/${filename}.json`;
 const objects = readJsonFile(jsonFilePath);
 
 languageList.forEach((lang) => {
-	const updateJsonFilePath = `${lang}/db/skyrim.json`;
+	const updateJsonFilePath = `${lang}/db/${filename}.json`;
 
 	// Read objects from the JSON file
 	const objectsToUpdate = readJsonFile(updateJsonFilePath);

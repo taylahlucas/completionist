@@ -35,7 +35,7 @@ const writeJsonFile = (filePath, data) => {
 };
 
 // Specify the path to your JSON file
-const jsonFilePath = 'fallout4-test.json';
+const jsonFilePath = 'fallout3 copy.json';
 
 // Read objects from the JSON file
 const objects = readJsonFile(jsonFilePath);
