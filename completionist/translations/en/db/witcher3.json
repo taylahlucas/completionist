@@ -86,7 +86,7 @@
     "subCategory": "Act I - In Ciri's Footsteps",
     "subCategoryType": "Velen",
     "location": "",
-    "href": "https://witcher.fandom.com/wiki/Bloody_Baron",
+    "href": "https://witcher.fandom.com/wiki/Bloody_Baron_(quest)",
     "conflictingIds": [],
     "section": "quests"
   },
@@ -580,7 +580,7 @@
     "subCategory": "Act II - Uma's Curse",
     "subCategoryType": "",
     "location": "",
-    "href": "https://witcher.fandom.com/wiki/The_Isle_of_Mists",
+    "href": "https://witcher.fandom.com/wiki/The_Isle_of_Mists_(quest)",
     "conflictingIds": [],
     "section": "quests"
   },
@@ -1581,7 +1581,7 @@
     "subCategory": "Novigrad",
     "subCategoryType": "",
     "location": "",
-    "href": "https://witcher.fandom.com/wiki/A_Matter_of_Life_and_Death",
+    "href": "https://witcher.fandom.com/wiki/A_Matter_of_Life_and_Death_(The_Witcher_3)",
     "conflictingIds": [],
     "section": "quests"
   },
@@ -5065,7 +5065,7 @@
     "subCategory": "Treasure Hunts",
     "subCategoryType": "",
     "location": "",
-    "href": "https://witcher.fandom.com/wiki/But_Other_Than_That,_How_Did_You_Enjoy_the_Play?",
+    "href": "https://witcher.fandom.com/wiki/But_Other_Than_That,_How_Did_You_Enjoy_the_Play%3F",
     "conflictingIds": [],
     "section": "quests"
   },
@@ -7198,11 +7198,11 @@
     "mainCategory": "Diagrams",
     "subCategory": "Plates",
     "subCategoryType": "",
-    "title": "Steel plate",
+    "title": "Steel plates",
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Steel_plate"
+    "href": "https://witcher.fandom.com/wiki/Steel_plates"
   },
   {
     "id": "d6205d22-9358-4a04-b180-5583d4b7bb86",
@@ -8236,7 +8236,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Serpentine_silver_sword"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Serpentine_silver_sword"
   },
   {
     "id": "ed19a038-7f0c-46bf-9d39-38d65e3d65ce",
@@ -8247,7 +8247,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Serpentine_steel_sword"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Serpentine_steel_sword"
   },
   {
     "id": "d861af20-d77a-4c3d-af10-3cd7357f3cc0",
@@ -8258,7 +8258,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Skellige_longsword"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Skellige_longsword"
   },
   {
     "id": "5d4c5f4f-8df6-4a8c-a9b7-e198b2f27e9c",
@@ -8269,7 +8269,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Spikeroog_longsword"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Spikeroog_longsword"
   },
   {
     "id": "06752ea1-cb09-4b9d-a3ef-762df019b365",
@@ -8280,7 +8280,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Temerian_poniard"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Temerian_poniard"
   },
   {
     "id": "0e1a80a2-1d54-47ec-b2e2-874ab80a70e5",
@@ -8291,7 +8291,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Ursine_silver_sword"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Ursine_silver_sword"
   },
   {
     "id": "7d9505eb-0c8c-4b1b-89b5-5f12f76a4b65",
@@ -8302,7 +8302,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Ursine_silver_sword_-_enhanced"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Ursine_silver_sword_-_enhanced"
   },
   {
     "id": "71d9bb9b-bf36-4603-a4bf-6a2d9a3909c2",
@@ -8313,7 +8313,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Ursine_silver_sword_-_mastercrafted"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Ursine_silver_sword_-_mastercrafted"
   },
   {
     "id": "8df8887f-b01d-4d0e-b5b7-080fe54b7b07",
@@ -8324,7 +8324,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Ursine_silver_sword_-_superior"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Ursine_silver_sword_-_superior"
   },
   {
     "id": "5c7bb166-907d-412c-94bf-5aebf2d1ba07",
@@ -8335,7 +8335,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Ursine_steel_sword"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Ursine_steel_sword"
   },
   {
     "id": "a5e07b18-59d6-4e21-89a4-c244ca4814c7",
@@ -8346,7 +8346,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Ursine_steel_sword_-_enhanced"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Ursine_steel_sword_-_enhanced"
   },
   {
     "id": "036c743a-6fe0-48d1-a2ed-f6d9d3cc43f2",
@@ -8357,7 +8357,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Ursine_steel_sword_-_mastercrafted"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Ursine_steel_sword_-_mastercrafted"
   },
   {
     "id": "8a93ee4b-0771-4d57-bafe-cfb8b164c0e4",
@@ -8368,7 +8368,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Ursine_steel_sword_-_superior"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Ursine_steel_sword_-_superior"
   },
   {
     "id": "8fc68ff9-670a-4bf3-a2c1-7e98d48ec623",
@@ -8379,7 +8379,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Velen_longsword"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Velen_longsword"
   },
   {
     "id": "bf7ea80d-4e47-4c32-b7ee-f6f5d9f01e62",
@@ -8390,7 +8390,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Witch_hunter's_sword"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Witch_hunter's_sword"
   },
   {
     "id": "2d2020fb-ee8a-465a-9f84-0502a38f400c",
@@ -8401,7 +8401,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Wolven_silver_sword"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Wolven_silver_sword"
   },
   {
     "id": "e26b94a4-65a9-416c-b3b3-6e21c5f8fe41",
@@ -8412,7 +8412,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Wolven_silver_sword_-_enhanced"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Wolven_silver_sword_-_enhanced"
   },
   {
     "id": "c7c94ff0-78e6-44ab-b110-e135b4e2e5b3",
@@ -8423,7 +8423,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Wolven_silver_sword_-_mastercrafted"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Wolven_silver_sword_-_mastercrafted"
   },
   {
     "id": "91fb8ec7-99d4-4c3a-b40b-3523ea99bcb6",
@@ -8434,7 +8434,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Wolven_silver_sword_-_superior"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Wolven_silver_sword_-_superior"
   },
   {
     "id": "f57b47e5-716d-4c2f-9f01-03ea8970a824",
@@ -8445,7 +8445,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Wolven_steel_sword"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Wolven_steel_sword"
   },
   {
     "id": "2f65c2c4-c1e4-4d9d-bd94-91c9c4f29e4e",
@@ -8456,7 +8456,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Wolven_steel_sword_-_enhanced"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Wolven_steel_sword_-_enhanced"
   },
   {
     "id": "241af267-7b68-48c1-b890-1a62561815b6",
@@ -8467,7 +8467,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Wolven_steel_sword_-_mastercrafted"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Wolven_steel_sword_-_mastercrafted"
   },
   {
     "id": "6a0ff73b-15b1-40a3-bb43-2e69e021f126",
@@ -8478,7 +8478,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Wolven_steel_sword_-_superior"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Wolven_steel_sword_-_superior"
   },
   {
     "id": "7e0f4e5a-fca2-43a4-8f71-f51c091c8df0",
@@ -8489,7 +8489,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Assassin's_trousers"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Assassin's_trousers"
   },
   {
     "id": "cc5669dd-78ab-4c8d-8c91-89fb6bfac09a",
@@ -8500,7 +8500,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Axeman's_trousers"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Axeman's_trousers"
   },
   {
     "id": "3a2ac0e5-b5ef-450a-a937-3e77a51302a4",
@@ -8511,7 +8511,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Cavalry_trousers"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Cavalry_trousers"
   },
   {
     "id": "6b0fbecb-e344-40c3-9ab9-15d5b03a61d3",
@@ -8522,7 +8522,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Cidarian_cavalry_trousers"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Cavalry_trousers"
   },
   {
     "id": "69e69de4-9b9e-46eb-9d0a-b8a524497a1e",
@@ -8533,7 +8533,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Enhanced_Feline_trousers"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Enhanced_Feline_trousers"
   },
   {
     "id": "3d3b5e8e-61d2-4e6d-b9e2-f03c5f553c54",
@@ -8544,7 +8544,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Enhanced_Griffin_trousers"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Enhanced_Griffin_trousers"
   },
   {
     "id": "5e89d442-2f3f-4c32-aed7-6c4649a8d2d3",
@@ -8555,7 +8555,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Enhanced_legendary_Feline_trousers"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Enhanced_legendary_Feline_trousers"
   },
   {
     "id": "d30d9287-8443-4cc4-badc-d8b1a1c16d9f",
@@ -8566,7 +8566,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Enhanced_legendary_Griffin_trousers"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Enhanced_legendary_Griffin_trousers"
   },
   {
     "id": "0d9a095c-c4c6-41f8-b12e-4a751f314372",
@@ -8577,7 +8577,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Enhanced_legendary_Ursine_trousers"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Enhanced_legendary_Ursine_trousers"
   },
   {
     "id": "109c1919-9f5d-415e-b12a-513f14c6850e",
@@ -8588,7 +8588,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Enhanced_legendary_Wolven_trousers"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Enhanced_legendary_Wolven_trousers"
   },
   {
     "id": "c663e29f-5796-41e3-b7ec-0d3c8710fc5b",
@@ -8599,7 +8599,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Enhanced_Ursine_trousers"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Enhanced_Ursine_trousers"
   },
   {
     "id": "1d6a408c-994f-4a48-92e7-3b1701c3b587",
@@ -8610,7 +8610,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Enhanced_Wolven_trousers"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Enhanced_Wolven_trousers"
   },
   {
     "id": "c4b0ef46-4059-4a27-aa7b-bd77d8730414",
@@ -8632,7 +8632,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Feline_trousers"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Feline_trousers"
   },
   {
     "id": "67957690-4392-4e0a-b02b-10569f56550b",
@@ -8643,7 +8643,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Griffin_trousers"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Griffin_trousers"
   },
   {
     "id": "13cf79b2-5a1f-4f2c-bf22-44a0e510c1a7",
@@ -8654,7 +8654,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Hunter's_trousers"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Hunter's_trousers"
   },
   {
     "id": "c5e4877a-4c61-4b3e-8ac8-047c8a21a097",
@@ -8665,7 +8665,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Journeyman's_trousers"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Journeyman's_trousers"
   },
   {
     "id": "e7981ebc-8965-43d6-b991-67cb1764e4ea",
@@ -8676,7 +8676,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Legendary_Feline_trousers"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Legendary_Feline_trousers"
   },
   {
     "id": "1f787013-b90a-49f4-aee1-038170f51b80",
@@ -8687,7 +8687,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Legendary_Griffin_trousers"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Legendary_Griffin_trousers"
   },
   {
     "id": "a16102fb-cb17-4f85-9d3e-1e3158cdbe0d",
@@ -8698,7 +8698,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Legendary_Ursine_trousers"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Legendary_Ursine_trousers"
   },
   {
     "id": "cd282689-200f-44e9-aa7b-63a7e60a94d8",
@@ -8709,7 +8709,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Legendary_Wolven_trousers"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Legendary_Wolven_trousers"
   },
   {
     "id": "947cd0cf-cbfc-448e-8e33-e1f28a01b1a4",
@@ -8720,7 +8720,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Lyrian_hardened_leather_trousers"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Lyrian_hardened_leather_trousers"
   },
   {
     "id": "d82a1e94-2332-492f-92fe-9bae5c47c36a",
@@ -8731,7 +8731,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Mahakaman_trousers"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Mahakaman_trousers"
   },
   {
     "id": "3014385c-3eb2-4b13-a1ab-b186844c50a4",
@@ -8742,7 +8742,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Mastercrafted_Feline_trousers"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Mastercrafted_Feline_trousers"
   },
   {
     "id": "70a60c2c-c63b-4d19-975e-365e963d940e",
@@ -8753,7 +8753,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Mastercrafted_Griffin_trousers"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Mastercrafted_Griffin_trousers"
   },
   {
     "id": "1c2cb0e1-86bb-4d7f-9e0e-bf5b3a190bf0",
@@ -8764,7 +8764,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Mastercrafted_legendary_Feline_trousers"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Mastercrafted_legendary_Feline_trousers"
   },
   {
     "id": "a08390a3-05ea-4a7b-8d5f-6ff47d3cf7c8",
@@ -8775,7 +8775,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Mastercrafted_legendary_Griffin_trousers"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Mastercrafted_legendary_Griffin_trousers"
   },
   {
     "id": "f6d3d650-3620-4e13-92df-24ccbc80e3c9",
@@ -8786,7 +8786,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Mastercrafted_legendary_Ursine_trousers"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Mastercrafted_legendary_Ursine_trousers"
   },
   {
     "id": "a79262ea-36ab-48b7-87a7-898eb5d17d71",
@@ -8797,7 +8797,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Mastercrafted_legendary_Wolven_trousers"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Mastercrafted_legendary_Wolven_trousers"
   },
   {
     "id": "97a776dd-76cc-4c0f-b9cc-2469722547c4",
@@ -8808,7 +8808,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Mastercrafted_Ursine_trousers"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Mastercrafted_Ursine_trousers"
   },
   {
     "id": "25e05179-2d74-4a50-8d8a-65a8a94fb9f4",
@@ -8819,7 +8819,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Mastercrafted_Wolven_trousers"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Mastercrafted_Wolven_trousers"
   },
   {
     "id": "8d0cf748-3034-42f8-ae5a-8e2e7c5d52b0",
@@ -8830,7 +8830,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Sapper's_trousers"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Sapper's_trousers"
   },
   {
     "id": "c8748aa5-1fd3-49d0-ba5b-5c4965b879fb",
@@ -8841,7 +8841,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Superior_Feline_trousers"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Superior_Feline_trousers"
   },
   {
     "id": "39c4b0ff-f3ec-4d7d-b91b-f3bb8834e9b3",
@@ -8852,7 +8852,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Superior_Griffin_trousers"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Superior_Griffin_trousers"
   },
   {
     "id": "86b84e8c-e84d-4d97-990e-0d75cb788750",
@@ -8863,7 +8863,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Superior_legendary_Feline_trousers"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Superior_legendary_Feline_trousers"
   },
   {
     "id": "95ad9de5-4a12-4586-af35-29a0e38e4d1f",
@@ -8874,7 +8874,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Superior_legendary_Griffin_trousers"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Superior_legendary_Griffin_trousers"
   },
   {
     "id": "593e527f-364b-4ee2-81b5-100ea8f1f7ac",
@@ -8885,7 +8885,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Superior_legendary_Ursine_trousers"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Superior_legendary_Ursine_trousers"
   },
   {
     "id": "9c944fed-e71d-4f09-af89-7c4a9141651e",
@@ -8896,7 +8896,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Superior_legendary_Wolven_trousers"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Superior_legendary_Wolven_trousers"
   },
   {
     "id": "4d4c5d3d-0f78-46fb-b8ac-61a780ee0303",
@@ -8907,7 +8907,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Superior_Ursine_trousers"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Superior_Ursine_trousers"
   },
   {
     "id": "a0a75c30-f2f1-4b53-9c0a-ae5e4fd5d3db",
@@ -8918,7 +8918,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Superior_Wolven_trousers"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Superior_Wolven_trousers"
   },
   {
     "id": "cbf95e1f-d6b2-40af-9c57-c0ec3150b7d4",
@@ -8929,7 +8929,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Tracker's_trousers"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Tracker's_trousers"
   },
   {
     "id": "e87ae1d1-2cc8-4df0-91b7-ae31401d9395",
@@ -8940,7 +8940,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Ursine_trousers"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Ursine_trousers"
   },
   {
     "id": "3d08365f-c7c8-4d0e-b13f-14236f06a048",
@@ -8951,7 +8951,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Wolven_trousers"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Wolven_trousers"
   },
   {
     "id": "8ef1499c-2f51-42cd-90b5-f31a144f2f55",
@@ -8962,7 +8962,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/An'ferthe"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_An'ferthe"
   },
   {
     "id": "b1c784e2-0514-4159-9b8d-233fa725e442",
@@ -8973,7 +8973,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Angrenian_cuirass"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Angrenian_cuirass"
   },
   {
     "id": "1e4c8ba3-7043-4e62-bcc8-0f18944bf409",
@@ -8984,7 +8984,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Arbitrator"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Arbitrator"
   },
   {
     "id": "9b582b4e-9c7d-4687-bbaf-2c70ea19959c",
@@ -8995,7 +8995,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Ard_Skellig_aketon"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Ard_Skellig_aketon"
   },
   {
     "id": "b927eb2a-1fbf-447c-9ddc-f02a48763d20",
@@ -9017,7 +9017,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Black_Unicorn"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Black_Unicorn"
   },
   {
     "id": "c168d4c3-7e8e-4a45-b3b1-590ff234e068",
@@ -9028,7 +9028,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Blade_from_the_Bits"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Blade_from_the_Bits"
   },
   {
     "id": "2ab3cfb7-896b-43d5-aa6f-9468cfe51d74",
@@ -9039,7 +9039,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Bounty_hunter's_gambeson"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Bounty_hunter's_gambeson"
   },
   {
     "id": "7a0ebf8b-85b3-4d1b-a31c-60257d1f0737",
@@ -9050,7 +9050,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Bremervoord_blade"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Bremervoord_blade"
   },
   {
     "id": "b48f52f4-697a-4b0a-92fc-2a5a05b79392",
@@ -9061,7 +9061,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Cidarian_gambeson"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Cidarian_gambeson"
   },
   {
     "id": "9e84de27-0a2f-429d-8eb6-daa3fc8e4e50",
@@ -9072,7 +9072,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/The_Digger"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_The_Digger"
   },
   {
     "id": "ef3e788c-bb3e-4f16-8a4e-1f48fcf24db7",
@@ -9083,7 +9083,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Disglair"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Disglair"
   },
   {
     "id": "2bcb50bb-2f8b-44a2-b10c-52a2ab85f453",
@@ -9094,7 +9094,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Draconid_leather"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Draconid_leather"
   },
   {
     "id": "7bf05984-b14e-42b2-8e5b-8c63e119ecb5",
@@ -9105,7 +9105,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Dwarven_blade"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Dwarven_blade"
   },
   {
     "id": "d2b5de42-071f-42b5-896a-160b4a82c3e1",
@@ -9116,7 +9116,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Eirlithrad"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Eirlithrad"
   },
   {
     "id": "fa9d85bf-ea1c-41d4-bae4-929b1a9c69d4",
@@ -9127,7 +9127,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Faustino"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Faustino"
   },
   {
     "id": "81071e66-7258-4d90-87a7-920c2a581ab1",
@@ -9138,7 +9138,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Gnomish_gwyhyr"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Gnomish_gwyhyr"
   },
   {
     "id": "82ff2d72-dbe0-428a-b54f-99b9905c73f1",
@@ -9149,7 +9149,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Gven'nel"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Gven'nel"
   },
   {
     "id": "e5b23f7a-943c-4909-8bf9-4c03b1b8c041",
@@ -9171,7 +9171,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Hardened_leather"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Hardened_leather"
   },
   {
     "id": "3db4d7d7-41b4-48dd-bae1-4cfdbe6a62e1",
@@ -9182,7 +9182,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Hardened_timber"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Hardened_timber"
   },
   {
     "id": "b303bdf5-5645-4b8c-a735-3e4980a1e882",
@@ -9193,7 +9193,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Harpy"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Harpy"
   },
   {
     "id": "ea9f93dd-97cf-459c-b4fb-0aae2985711d",
@@ -9215,7 +9215,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Kaedweni_gambeson"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Kaedweni_gambeson"
   },
   {
     "id": "12c2a251-d1cc-4e5c-9b9e-860551fb8d18",
@@ -9226,7 +9226,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Koviri_cutlass"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Koviri_cutlass"
   },
   {
     "id": "c1c8f80a-1b8f-4c59-8b4d-4818015ef0c3",
@@ -9237,7 +9237,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Leather_cured_using_the_Rivian_method"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Leather_cured_using_the_Rivian_method"
   },
   {
     "id": "8bcff1ef-9bd0-4cc7-9b9c-3318899b7176",
@@ -9248,7 +9248,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Leather_scraps"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Leather_scraps"
   },
   {
     "id": "aa2e6bf2-9242-40f7-a153-789efbca8f7f",
@@ -9259,7 +9259,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Linen"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Linen"
   },
   {
     "id": "27e3d8b1-7f0c-4f4a-9b41-52e8b8a2821a",
@@ -9270,7 +9270,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Longclaw"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Longclaw"
   },
   {
     "id": "3782c849-c8a2-48f9-b506-2f003f64ee11",
@@ -9281,7 +9281,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Mag_Deira_cuirass"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Mag_Deira_cuirass"
   },
   {
     "id": "cb045991-cda8-4d13-9cfc-9e1d95e13a18",
@@ -9292,7 +9292,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Melltith"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Melltith"
   },
   {
     "id": "585e1499-d22d-4889-9ebc-380fe14a6cd2",
@@ -9303,7 +9303,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Negotiator"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Negotiator"
   },
   {
     "id": "0de7c6ce-3dd2-431c-bb0d-41c2e4d8942d",
@@ -9314,7 +9314,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Refined_dimeritium_ore"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Refined_dimeritium_ore"
   },
   {
     "id": "ac9d8e7d-3ab6-4a79-8e90-dc4b05713202",
@@ -9325,7 +9325,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Refined_silver_ore"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Refined_silver_ore"
   },
   {
     "id": "42f226f0-9ed3-4f15-9340-3ffbc4cd4db1",
@@ -9336,7 +9336,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Resin"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Resin"
   },
   {
     "id": "b2f92e6f-5b4a-4cf5-95a4-61681eb5cbb5",
@@ -9347,7 +9347,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Salmian_brigandine"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Salmian_brigandine"
   },
   {
     "id": "d724a9b3-92db-4fe4-94aa-6bc3f168a155",
@@ -9358,7 +9358,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Silk"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Silk"
   },
   {
     "id": "172ae3ea-34cb-460a-95e6-d1ee3fbc2d42",
@@ -9369,7 +9369,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Skellige_gambeson"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Skellige_gambeson"
   },
   {
     "id": "8b2a81d9-6df9-4d97-a0e2-42952ffbd31a",
@@ -9380,7 +9380,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Spikeroog_aketon"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Spikeroog_aketon"
   },
   {
     "id": "c2054a2e-5311-47c8-a18b-7006d8f84932",
@@ -9391,7 +9391,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Steiger"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Steiger"
   },
   {
     "id": "97f106b1-d354-4f9a-96af-2fb7f968b5c9",
@@ -9402,7 +9402,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/String"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_String"
   },
   {
     "id": "5f02c40e-320b-4e6c-8645-9c485a85f8f7",
@@ -9413,7 +9413,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/The_Tamer"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_The_Tamer"
   },
   {
     "id": "9f8ef531-6fc0-4d6a-9e69-58b3e9a96a69",
@@ -9424,7 +9424,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Temerian_poniard"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Temerian_poniard"
   },
   {
     "id": "a1b6d083-6b23-48f1-98e9-36b3b42b8d8f",
@@ -9435,7 +9435,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Thread"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Thread"
   },
   {
     "id": "ab0e5915-c34f-4e2c-9803-d0a1c0a13a98",
@@ -9446,7 +9446,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Tir_Tochair_blade"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Tir_Tochair_blade"
   },
   {
     "id": "caa22dfc-160a-4f63-aaeb-9a3713a632f2",
@@ -9457,7 +9457,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Tor'haerne"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Tor'haerne"
   },
   {
     "id": "a70a45ce-17c3-4b39-b557-4d2a57a8444b",
@@ -9468,7 +9468,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Torlunn"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Torlunn"
   },
   {
     "id": "a1c2402e-346d-4855-96ce-92054eaf9654",
@@ -9479,7 +9479,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Verden_archer's_gambeson"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Verden_archer's_gambeson"
   },
   {
     "id": "819f6c27-1f32-490b-a1a2-0dfaf83b3b38",
@@ -9490,7 +9490,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Warrior's_leather_jacket"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Warrior's_leather_jacket"
   },
   {
     "id": "85f422e8-049c-4ee4-90d6-2c31950a0d5f",
@@ -9501,7 +9501,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Weeper"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Weeper"
   },
   {
     "id": "2f929897-b6a5-4aa0-b891-aa96de9a2d91",
@@ -9512,7 +9512,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Witch_Slayer"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Witch_Slayer"
   },
   {
     "id": "b1b6d083-6b23-48f1-98e9-36b3b42b8d8f",
@@ -9523,7 +9523,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Zerrikanian_powder"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Zerrikanian_powder"
   },
   {
     "id": "0a7890d6-5f13-4f23-8f93-6b6ec8e87c07",
@@ -9534,7 +9534,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Grandmaster_Feline_armor"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Grandmaster_Feline_armor"
   },
   {
     "id": "1b482429-12ae-4ea5-bd99-72fe7ec16f95",
@@ -9545,7 +9545,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Grandmaster_Griffin_armor"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Grandmaster_Griffin_armor"
   },
   {
     "id": "3a84b8e3-438c-420c-bdb9-64c58ebd6d0f",
@@ -9556,7 +9556,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Grandmaster_legendary_Feline_armor"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Grandmaster_legendary_Feline_armor"
   },
   {
     "id": "5c24d7ac-49ed-47b3-bb66-2fb9a201b4e4",
@@ -9567,7 +9567,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Grandmaster_legendary_Griffin_armor"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Grandmaster_legendary_Griffin_armor"
   },
   {
     "id": "7eb49e0b-5cb5-491f-af74-413e95a22ac6",
@@ -9578,7 +9578,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Grandmaster_legendary_Ursine_armor"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Grandmaster_legendary_Ursine_armor"
   },
   {
     "id": "9ccacec1-d090-4e93-8c12-2a96d8c7ff3d",
@@ -9589,7 +9589,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Grandmaster_legendary_Wolven_armor"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Grandmaster_legendary_Wolven_armor"
   },
   {
     "id": "b3d40ec5-7381-409f-b9cb-6a7fb8b6709b",
@@ -9600,7 +9600,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Grandmaster_Ursine_armor"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Grandmaster_Ursine_armor"
   },
   {
     "id": "d06e580c-07ac-4ed9-aa9a-1fc1050ad9c2",
@@ -9611,7 +9611,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Grandmaster_Wolven_armor"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Grandmaster_Wolven_armor"
   },
   {
     "id": "f9a1fe25-3467-448f-8189-4e6c91518111",
@@ -9622,7 +9622,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/legendary_Manticore_armor"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_legendary_Manticore_armor"
   },
   {
     "id": "c7b9c70b-2daa-4f35-86d2-0d7723b8b0f2",
@@ -9633,7 +9633,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Manticore_armor"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Manticore_armor"
   },
   {
     "id": "0b16d3f8-92a5-45e3-bb82-91f0f1a1df23",
@@ -9644,7 +9644,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Toussaint_Color_Guardsman's_armor"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Toussaint_Color_Guardsman's_armor"
   },
   {
     "id": "fc9984f5-721b-4c44-940a-14a9a8965e5f",
@@ -9655,7 +9655,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Toussaint_Ducal_Guard_Captain's_armor"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Toussaint_Ducal_Guard_Captain's_armor"
   },
   {
     "id": "205c8872-2d65-43db-9796-8012edec6f96",
@@ -9666,7 +9666,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Toussaint_Ducal_Guard_Officer's_armor"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Toussaint_Ducal_Guard_Officer's_armor"
   },
   {
     "id": "19a2c83f-8c31-4175-b5d7-c99d80d0d495",
@@ -9677,7 +9677,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Toussaint_Ducal_Guardsman's_armor"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Toussaint_Ducal_Guardsman's_armor"
   },
   {
     "id": "b0c162e4-5efb-48e1-9375-7814f07c87e4",
@@ -9688,7 +9688,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Toussaint_knight's_armor"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Toussaint_knight's_armor"
   },
   {
     "id": "a13a6622-c9f3-49d4-82b5-d1f710a89761",
@@ -9699,7 +9699,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Toussaint_knight's_tourney_armor"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Toussaint_knight's_tourney_armor"
   },
   {
     "id": "9c6fd432-7945-4e5e-8e38-9b92c07c4984",
@@ -9710,7 +9710,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Belhaven_blade"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Belhaven_blade"
   },
   {
     "id": "6b39ff5d-5ac3-4421-8952-50572a39a9c3",
@@ -9721,7 +9721,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Faramond's_blade"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Faramond's_blade"
   },
   {
     "id": "2930ee3d-bb80-43f9-a656-488a47a88e1c",
@@ -9732,7 +9732,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Viroledan_blade"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Viroledan_blade"
   },
   {
     "id": "240c5ea9-85af-49dd-a9a0-63e00bfb57c1",
@@ -9743,7 +9743,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Grandmaster_Feline_boots"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Grandmaster_Feline_boots"
   },
   {
     "id": "cd7a3bc1-65cd-4cd2-9d49-43f68cb4a2f3",
@@ -9754,7 +9754,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Grandmaster_Griffin_boots"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Grandmaster_Griffin_boots"
   },
   {
     "id": "5d3c0360-5658-4b29-b1d4-2aae39e477f3",
@@ -9765,7 +9765,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Grandmaster_legendary_Feline_boots"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Grandmaster_legendary_Feline_boots"
   },
   {
     "id": "bd67d9df-44f5-4de5-ba41-5e0e074f383a",
@@ -9776,7 +9776,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Grandmaster_legendary_Griffin_boots"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Grandmaster_legendary_Griffin_boots"
   },
   {
     "id": "d7b3b46a-d2a3-4b19-8353-0c53fb1a5ec4",
@@ -9787,7 +9787,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Grandmaster_legendary_Ursine_boots"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Grandmaster_legendary_Ursine_boots"
   },
   {
     "id": "c9a74551-8658-4d2b-8f7a-5d6e0e1183f2",
@@ -9798,7 +9798,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Grandmaster_legendary_Wolven_boots"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Grandmaster_legendary_Wolven_boots"
   },
   {
     "id": "3a717f0e-b242-4a38-b09b-bf89de26bb7b",
@@ -9809,7 +9809,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Grandmaster_Ursine_boots"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Grandmaster_Ursine_boots"
   },
   {
     "id": "5c320d8d-c01e-4c2d-9c50-76dd55f21a02",
@@ -9820,7 +9820,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Grandmaster_Wolven_boots"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Grandmaster_Wolven_boots"
   },
   {
     "id": "7cc8d20b-ba72-4813-8361-5357627b8df3",
@@ -9831,7 +9831,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/legendary_Manticore_boots"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_legendary_Manticore_boots"
   },
   {
     "id": "1e3ce81a-727c-4b69-8f4c-727e1a0bf763",
@@ -9842,7 +9842,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Manticore_boots"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Manticore_boots"
   },
   {
     "id": "1c57d14e-1454-41fc-b2ad-b3e4a31c0714",
@@ -9853,7 +9853,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Toussaint_Color_Guardsman's_boots"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Toussaint_Color_Guardsman's_boots"
   },
   {
     "id": "74c979fc-61b2-4f3d-a5e8-2a33e4300590",
@@ -9864,7 +9864,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Toussaint_Ducal_Guard_Captain's_boots"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Toussaint_Ducal_Guard_Captain's_boots"
   },
   {
     "id": "91c05f48-dc47-4d62-8587-4eb4422f4533",
@@ -9875,7 +9875,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Toussaint_Ducal_Guard_Officer's_boots"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Toussaint_Ducal_Guard_Officer's_boots"
   },
   {
     "id": "6badee4a-0e93-4d1f-8da3-7c27348c8aa5",
@@ -9886,7 +9886,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Toussaint_Ducal_Guardsman's_boots"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Toussaint_Ducal_Guardsman's_boots"
   },
   {
     "id": "d8a8cf16-dc74-4c2f-bd1c-f4772a430c7e",
@@ -9897,7 +9897,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Toussaint_knight's_boots"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Toussaint_knight's_boots"
   },
   {
     "id": "4e7bc34c-9a68-4399-a8a5-174260c0ccfd",
@@ -9908,7 +9908,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Toussaint_knight's_tourney_boots"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Toussaint_knight's_tourney_boots"
   },
   {
     "id": "22dfab94-25a8-4f0f-b072-3a7cb21b69a9",
@@ -9919,7 +9919,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Grandmaster_Feline_silver_sword"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Grandmaster_Feline_silver_sword"
   },
   {
     "id": "0af49ed2-c38d-4a2a-9d4a-14de4463d009",
@@ -9930,7 +9930,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Grandmaster_Feline_steel_sword"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Grandmaster_Feline_steel_sword"
   },
   {
     "id": "f6c3f02c-0e7f-4f0c-9b82-32fbc1a3d1d8",
@@ -9941,7 +9941,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Grandmaster_Griffin_silver_sword"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Grandmaster_Griffin_silver_sword"
   },
   {
     "id": "44b2c004-bab9-4b8d-9aa0-9070ffeb9467",
@@ -9952,7 +9952,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Grandmaster_Griffin_steel_sword"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Grandmaster_Griffin_steel_sword"
   },
   {
     "id": "b98ab9a9-d3e4-4567-ba3e-6282b5a5158f",
@@ -9963,7 +9963,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Grandmaster_legendary_Feline_silver_sword"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Grandmaster_legendary_Feline_silver_sword"
   },
   {
     "id": "f9f20a1c-4a74-4a21-8a21-89118608e1c7",
@@ -9974,7 +9974,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Grandmaster_legendary_Feline_steel_sword"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Grandmaster_legendary_Feline_steel_sword"
   },
   {
     "id": "3f17cf0b-3dd5-4f11-9e54-4b7842d236cc",
@@ -9985,7 +9985,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Grandmaster_legendary_Griffin_silver_sword"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Grandmaster_legendary_Griffin_silver_sword"
   },
   {
     "id": "59b086b1-6a91-4a46-979a-10dbbd2d7b42",
@@ -9996,7 +9996,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Grandmaster_legendary_Griffin_steel_sword"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Grandmaster_legendary_Griffin_steel_sword"
   },
   {
     "id": "be55f6f5-4c1c-42e2-9e02-652a73ac8e9c",
@@ -10007,7 +10007,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Grandmaster_legendary_Ursine_silver_sword"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Grandmaster_legendary_Ursine_silver_sword"
   },
   {
     "id": "1a04f7d4-fd32-429c-a71b-65a32f83f8b4",
@@ -10018,7 +10018,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Grandmaster_legendary_Ursine_steel_sword"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Grandmaster_legendary_Ursine_steel_sword"
   },
   {
     "id": "135883a8-9c96-4a05-8b69-4c88d3e0c68c",
@@ -10029,7 +10029,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Grandmaster_legendary_Wolven_silver_sword"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Grandmaster_legendary_Wolven_silver_sword"
   },
   {
     "id": "e8d33a34-ba11-4c1d-8e3d-9e7ec8d60a6c",
@@ -10040,7 +10040,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Grandmaster_legendary_Wolven_steel_sword"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Grandmaster_legendary_Wolven_steel_sword"
   },
   {
     "id": "b2f6fb3d-5ed9-49a0-86b6-c92372b2ff81",
@@ -10051,7 +10051,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Grandmaster_Ursine_silver_sword"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Grandmaster_Ursine_silver_sword"
   },
   {
     "id": "91beee8c-8ab9-49cd-9961-5c33a6b21602",
@@ -10062,7 +10062,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Grandmaster_Ursine_steel_sword"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Grandmaster_Ursine_steel_sword"
   },
   {
     "id": "a983d4da-76de-4cc4-b3e7-8ab7079d2043",
@@ -10073,7 +10073,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Grandmaster_Wolven_silver_sword"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Grandmaster_Wolven_silver_sword"
   },
   {
     "id": "4a40e823-1ba2-4e6e-a10a-1be3f366e153",
@@ -10084,7 +10084,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Grandmaster_Wolven_steel_sword"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Grandmaster_Wolven_steel_sword"
   },
   {
     "id": "fe6b8f5f-4b7d-4c23-b9f1-7968507f3da0",
@@ -10095,7 +10095,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/legendary_Manticore_silver_sword"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_legendary_Manticore_silver_sword"
   },
   {
     "id": "71c2ef44-5823-4a4d-92e4-6655e5e1780d",
@@ -10106,7 +10106,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/legendary_Manticore_steel_sword"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_legendary_Manticore_steel_sword"
   },
   {
     "id": "593e7a33-5a13-4ccf-8894-3c3a8d6f4427",
@@ -10117,7 +10117,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Manticore_silver_sword"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Manticore_silver_sword"
   },
   {
     "id": "8780c663-9a76-4f25-9c2a-4818b5e948d8",
@@ -10128,7 +10128,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Manticore_steel_sword"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Manticore_steel_sword"
   },
   {
     "id": "df6a68eb-448d-4f92-8f42-05129a7a7780",
@@ -10139,7 +10139,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Toussaint_Ducal_Guard_Officer's_steel_sword"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Toussaint_Ducal_Guard_Officer's_steel_sword"
   },
   {
     "id": "e24a967e-4a1d-4a3e-aa68-e2d9c6db4c6a",
@@ -10150,7 +10150,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Toussaint_Ducal_Guardsman's_steel_sword"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Toussaint_Ducal_Guardsman's_steel_sword"
   },
   {
     "id": "c6099b0f-132e-40cc-87cd-2f2405b1a418",
@@ -10161,7 +10161,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Toussaint_knight's_steel_sword"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Toussaint_knight's_steel_sword"
   },
   {
     "id": "e0e8403a-f6bb-4c53-b79b-9f5c5ebed4e1",
@@ -10172,7 +10172,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Toussaint_steel_sword"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Toussaint_steel_sword"
   },
   {
     "id": "f2b09992-0435-4ef1-8190-6131a845a317",
@@ -10183,7 +10183,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Grandmaster_Feline_trousers"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Grandmaster_Feline_trousers"
   },
   {
     "id": "fdd9d79c-e4f2-4c7d-a33c-93a228f5b196",
@@ -10194,7 +10194,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Grandmaster_Griffin_trousers"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Grandmaster_Griffin_trousers"
   },
   {
     "id": "8f57328d-39ed-4ac7-bc8d-04b3c8ec60ac",
@@ -10205,7 +10205,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Grandmaster_legendary_Feline_trousers"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Grandmaster_legendary_Feline_trousers"
   },
   {
     "id": "a8564223-0c60-4d26-8bb0-3b1973f4ac32",
@@ -10216,7 +10216,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Grandmaster_legendary_Griffin_trousers"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Grandmaster_legendary_Griffin_trousers"
   },
   {
     "id": "a0d0367c-967a-4e8c-bba6-0bf7db73a2fc",
@@ -10227,7 +10227,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Grandmaster_legendary_Ursine_trousers"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Grandmaster_legendary_Ursine_trousers"
   },
   {
     "id": "7fcba5e0-1c7d-4cf4-8a1e-0c1c1c602d5d",
@@ -10238,7 +10238,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Grandmaster_legendary_Wolven_trousers"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Grandmaster_legendary_Wolven_trousers"
   },
   {
     "id": "69a4a3ed-1e63-4de7-b20a-fc01fb38b243",
@@ -10249,7 +10249,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Grandmaster_Ursine_trousers"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Grandmaster_Ursine_trousers"
   },
   {
     "id": "c06c7e07-f4b7-4bd8-bd18-4d068f7361d3",
@@ -10260,7 +10260,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Grandmaster_Wolven_trousers"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Grandmaster_Wolven_trousers"
   },
   {
     "id": "0e3906ec-bc24-4a21-bc1f-079f01e961d7",
@@ -10271,7 +10271,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/legendary_Manticore_trousers"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_legendary_Manticore_trousers"
   },
   {
     "id": "3dd0b2c5-5a8c-4ac6-a71d-c73a6c6cc6e2",
@@ -10282,7 +10282,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Manticore_trousers"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Manticore_trousers"
   },
   {
     "id": "8b4b51ac-36c2-4b08-81a9-1c64018eb915",
@@ -10293,7 +10293,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Toussaint_Color_Guardsman's_trousers"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Toussaint_Color_Guardsman's_trousers"
   },
   {
     "id": "9da19e13-74cb-4d35-9b1e-62589333dfad",
@@ -10304,7 +10304,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Toussaint_Ducal_Guard_Captain's_trousers"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Toussaint_Ducal_Guard_Captain's_trousers"
   },
   {
     "id": "db51b1a3-7b53-4b33-9b53-7b8d4d14e550",
@@ -10315,7 +10315,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Toussaint_Ducal_Guard_Officer's_trousers"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Toussaint_Ducal_Guard_Officer's_trousers"
   },
   {
     "id": "e85df826-ef0c-43d5-9847-65410cd3c16f",
@@ -10326,7 +10326,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Toussaint_Ducal_Guardsman's_trousers"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Toussaint_Ducal_Guardsman's_trousers"
   },
   {
     "id": "d7bf44f5-0773-4311-83a1-b81fe88f8f2f",
@@ -10337,7 +10337,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Toussaint_knight's_tourney_trousers"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Toussaint_knight's_tourney_trousers"
   },
   {
     "id": "d501a79b-9812-40d4-a2e8-9f81641a147f",
@@ -10348,7 +10348,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Toussaint_knight's_trousers"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Toussaint_knight's_trousers"
   },
   {
     "id": "5a39f43b-5390-44ab-8c9e-6e0d36f2e7af",
@@ -10359,7 +10359,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Faithful_Friend"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Faithful_Friend"
   },
   {
     "id": "e8d14ad8-287b-4fda-b32a-9a5a5fbd1f06",
@@ -10370,7 +10370,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Fen'aeth"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Fen'aeth"
   },
   {
     "id": "a78f4cfe-106a-4dd1-8b1a-62ec7a9076e7",
@@ -10381,7 +10381,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Gesheft"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Gesheft"
   },
   {
     "id": "bc451eac-cc0e-4c7f-8fb2-c2606183c176",
@@ -10392,7 +10392,7 @@
     "prerequisite": "",
     "dlc": "Blood And Wine",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Tah'rel"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Tah'rel"
   },
   {
     "id": "c91f2f02-9d04-4f77-8e29-2b6cc5d6f62f",
@@ -10403,7 +10403,7 @@
     "prerequisite": "",
     "dlc": "Hearts Of Stone",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Legendary_Viper_armor"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Legendary_Viper_armor"
   },
   {
     "id": "ed6756c4-8b9d-4a90-ba7a-7f067d554ee4",
@@ -10414,7 +10414,7 @@
     "prerequisite": "",
     "dlc": "Hearts Of Stone",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Ofieri_scale_armor"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Ofieri_scale_armor"
   },
   {
     "id": "e6519e16-56b3-4d35-830f-46a7e50f2b0f",
@@ -10425,7 +10425,7 @@
     "prerequisite": "",
     "dlc": "Hearts Of Stone",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Order_of_the_Flaming_Rose_armor"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Order_of_the_Flaming_Rose_armor"
   },
   {
     "id": "7d4b1b05-b29e-4870-8d1d-2550b3cb344b",
@@ -10436,7 +10436,7 @@
     "prerequisite": "",
     "dlc": "Hearts Of Stone",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Viper_armor"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Viper_armor"
   },
   {
     "id": "e5f1e2a9-29bd-4e54-b5a0-8ea05f12f2b3",
@@ -10447,7 +10447,7 @@
     "prerequisite": "",
     "dlc": "Hearts Of Stone",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Legendary_Viper_boots"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Legendary_Viper_boots"
   },
   {
     "id": "03a9d583-1901-4c02-9c9f-bb0b10707b7e",
@@ -10458,7 +10458,7 @@
     "prerequisite": "",
     "dlc": "Hearts Of Stone",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Ofieri_boots"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Ofieri_boots"
   },
   {
     "id": "8ed79f49-e9c1-448d-a2ad-58a077d1007c",
@@ -10469,7 +10469,7 @@
     "prerequisite": "",
     "dlc": "Hearts Of Stone",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Viper_boots"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Viper_boots"
   },
   {
     "id": "df9a3fc5-7b68-41bf-a095-387059a378b8",
@@ -10480,7 +10480,7 @@
     "prerequisite": "",
     "dlc": "Hearts Of Stone",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Legendary_Viper_gauntlets"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Legendary_Viper_gauntlets"
   },
   {
     "id": "471d0a2c-76ab-4ae6-9e6f-b92c65f1d099",
@@ -10491,7 +10491,7 @@
     "prerequisite": "",
     "dlc": "Hearts Of Stone",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Ofieri_gauntlets"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Ofieri_gauntlets"
   },
   {
     "id": "8d62e5e3-998e-4d3c-bd4b-2b3a6b7df172",
@@ -10502,7 +10502,7 @@
     "prerequisite": "",
     "dlc": "Hearts Of Stone",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Order_of_the_Flaming_Rose_gauntlets"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Order_of_the_Flaming_Rose_gauntlets"
   },
   {
     "id": "9cc6e51a-9df7-4ddc-bbba-939f85c14638",
@@ -10513,7 +10513,7 @@
     "prerequisite": "",
     "dlc": "Hearts Of Stone",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Viper_gauntlets"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Viper_gauntlets"
   },
   {
     "id": "72f587e1-5401-4a84-b6c4-2be8747f11c9",
@@ -10524,7 +10524,7 @@
     "prerequisite": "",
     "dlc": "Hearts Of Stone",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Glyph_of_Binding"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Glyph_of_Binding"
   },
   {
     "id": "c8fbf4e7-63d9-408a-8e49-6f4d3f2a057e",
@@ -10535,7 +10535,7 @@
     "prerequisite": "",
     "dlc": "Hearts Of Stone",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Glyph_of_Mending"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Glyph_of_Mending"
   },
   {
     "id": "29ba77c4-44de-47c9-85f4-2a74aef23c07",
@@ -10546,7 +10546,7 @@
     "prerequisite": "",
     "dlc": "Hearts Of Stone",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Glyph_of_Reinforcement"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Glyph_of_Reinforcement"
   },
   {
     "id": "38174d5b-22de-4cbb-9be3-9783a91f6113",
@@ -10557,7 +10557,7 @@
     "prerequisite": "",
     "dlc": "Hearts Of Stone",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Glyph_of_Warding"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Glyph_of_Warding"
   },
   {
     "id": "a27f9df7-622b-4591-9b7d-0bce1de9bfef",
@@ -10568,7 +10568,7 @@
     "prerequisite": "",
     "dlc": "Hearts Of Stone",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Greater_Glyph_of_Binding"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Greater_Glyph_of_Binding"
   },
   {
     "id": "eeb8bbd0-5c76-4d0a-9791-b9c9bb9bc5f7",
@@ -10579,7 +10579,7 @@
     "prerequisite": "",
     "dlc": "Hearts Of Stone",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Greater_Glyph_of_Mending"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Greater_Glyph_of_Mending"
   },
   {
     "id": "01c83d43-e39a-4e15-a8d5-9207c9ef6b1e",
@@ -10590,7 +10590,7 @@
     "prerequisite": "",
     "dlc": "Hearts Of Stone",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Greater_Glyph_of_Reinforcement"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Greater_Glyph_of_Reinforcement"
   },
   {
     "id": "031481b3-d80d-4d08-b53c-ace325ef159d",
@@ -10601,7 +10601,7 @@
     "prerequisite": "",
     "dlc": "Hearts Of Stone",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Greater_Glyph_of_Warding"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Greater_Glyph_of_Warding"
   },
   {
     "id": "642ea6a7-60d4-4291-9a9b-646e8a71c9f4",
@@ -10612,7 +10612,7 @@
     "prerequisite": "",
     "dlc": "Hearts Of Stone",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Lesser_Glyph_of_Binding"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Lesser_Glyph_of_Binding"
   },
   {
     "id": "2ea903c1-39f7-4c5e-a755-f0aae0ea8bfc",
@@ -10623,7 +10623,7 @@
     "prerequisite": "",
     "dlc": "Hearts Of Stone",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Lesser_Glyph_of_Mending"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Lesser_Glyph_of_Mending"
   },
   {
     "id": "0a907d7e-50cc-4e14-82cf-03688f60b4f3",
@@ -10634,7 +10634,7 @@
     "prerequisite": "",
     "dlc": "Hearts Of Stone",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Lesser_Glyph_of_Reinforcement"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Lesser_Glyph_of_Reinforcement"
   },
   {
     "id": "26d85ed8-38b1-4d4e-a3fc-8711a16f8f42",
@@ -10645,7 +10645,7 @@
     "prerequisite": "",
     "dlc": "Hearts Of Stone",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Lesser_Glyph_of_Warding"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Lesser_Glyph_of_Warding"
   },
   {
     "id": "7fa08c1c-32f3-4ab1-ba08-671f8f7dbaf7",
@@ -10656,7 +10656,7 @@
     "prerequisite": "",
     "dlc": "Hearts Of Stone",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Legendary_Viper_venomous_silver_sword"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Legendary_Viper_venomous_silver_sword"
   },
   {
     "id": "f97ed28e-9f49-4c4b-a10c-07ee625b3a2d",
@@ -10667,7 +10667,7 @@
     "prerequisite": "",
     "dlc": "Hearts Of Stone",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Legendary_Viper_venomous_steel_sword"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Legendary_Viper_venomous_steel_sword"
   },
   {
     "id": "e0dd62b0-1609-4cf2-9fc3-695439dab7f3",
@@ -10678,7 +10678,7 @@
     "prerequisite": "",
     "dlc": "Hearts Of Stone",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Order_of_the_Flaming_Rose_sword"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Order_of_the_Flaming_Rose_sword"
   },
   {
     "id": "2c8b199a-dbb9-4b05-988d-8a9c28d804e8",
@@ -10689,7 +10689,7 @@
     "prerequisite": "",
     "dlc": "Hearts Of Stone",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Viper_venomous_silver_sword"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Viper_venomous_silver_sword"
   },
   {
     "id": "96464e25-3aae-4989-8bd3-9b6edf0fc632",
@@ -10700,7 +10700,7 @@
     "prerequisite": "",
     "dlc": "Hearts Of Stone",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Viper_venomous_steel_sword"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Viper_venomous_steel_sword"
   },
   {
     "id": "d3a1f876-aa1d-4c92-aa5a-5a7f0e0e6508",
@@ -10711,7 +10711,7 @@
     "prerequisite": "",
     "dlc": "Hearts Of Stone",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Legendary_Viper_trousers"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Legendary_Viper_trousers"
   },
   {
     "id": "38a1cf91-64da-49c1-82c8-d0ccfc94d0b2",
@@ -10722,7 +10722,7 @@
     "prerequisite": "",
     "dlc": "Hearts Of Stone",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Viper_trousers"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Viper_trousers"
   },
   {
     "id": "c83147e4-cb6f-4bf5-950a-5a77972e2d8c",
@@ -10733,7 +10733,7 @@
     "prerequisite": "",
     "dlc": "Hearts Of Stone",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Pyerog_runestone"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Pyerog_runestone"
   },
   {
     "id": "ea589f34-45d7-4c43-becd-7c1a430bb525",
@@ -10744,7 +10744,7 @@
     "prerequisite": "",
     "dlc": "Hearts Of Stone",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Tvarog_runestone"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Tvarog_runestone"
   },
   {
     "id": "6dbce8c0-d31a-4e4b-b69a-bb3a3e7c1e0a",
@@ -10755,7 +10755,7 @@
     "prerequisite": "",
     "dlc": "Hearts Of Stone",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Ofieri_saber"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Ofieri_saber"
   },
   {
     "id": "cd793575-2df9-4ac5-b7d1-54f431d69e85",
@@ -10766,7 +10766,7 @@
     "prerequisite": "",
     "dlc": "Hearts Of Stone",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Sarrim"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Sarrim"
   },
   {
     "id": "eb7d8c79-5535-4a42-9d7e-1c75e6067fc3",
@@ -10777,7 +10777,7 @@
     "prerequisite": "",
     "dlc": "Hearts Of Stone",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Ofieri_sharovary"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Ofieri_sharovary"
   },
   {
     "id": "b69b3e8f-0332-4928-8253-0316c8ebd4db",
@@ -10788,7 +10788,7 @@
     "prerequisite": "",
     "dlc": "Hearts Of Stone",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Concealment_kit"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Concealment_kit"
   },
   {
     "id": "b1f85d8b-0c7d-4b08-8e2b-d0fedf1f89ac",
@@ -11908,7 +11908,7 @@
     "subCategoryType": "Novigrad City",
     "dlc": "None",
     "section": "locations",
-    "href": "https://witcher.fandom.com/wiki/Gildorf_sewers"
+    "href": "https://witcher.fandom.com/wiki/Gildorf"
   },
   {
     "id": "abfc015c-139e-4ded-8c0a-3ef86406c2c3",
@@ -13358,7 +13358,7 @@
     "subCategoryType": "",
     "dlc": "Heart Of Stone",
     "section": "locations",
-    "href": "https://witcher.fandom.com/wiki/Gaunter_O'Dimm's_world"
+    "href": "https://witcher.fandom.com/wiki/Realm_of_Rumination"
   },
   {
     "id": "c480e1aa-89c2-4aa4-bbff-b3a8f1a0978a",
@@ -14248,7 +14248,7 @@
     "subCategoryType": "",
     "dlc": "Blood And Wine",
     "section": "locations",
-    "href": "https://witcher.fandom.com/wiki/Tufo_Vineyard"
+    "href": "https://witcher.fandom.com/wiki/A_Matter_of_Life_and_Death_(The_Witcher_3)",
   },
   {
     "id": "3c54ef95-f88f-4c7f-907d-6da44e33cf52",
