@@ -7401,16 +7401,6 @@
     "section": "collectables"
   },
   {
-    "id": "b85348c3-5f9b-4a1e-bd3e-3bb556dbf0af",
-    "mainCategory": "Diagram",
-    "subCategory": "Pedang",
-    "subCategoryType": "",
-    "title": "Pedang panjang Cidarian",
-    "prerequisite": "",
-    "dlc": "Tidak ada",
-    "section": "collectables"
-  },
-  {
     "id": "e7e4223b-00da-485c-a177-d46a4a6e2cbd",
     "mainCategory": "Diagram",
     "subCategory": "Pedang",
@@ -11499,15 +11489,6 @@
   {
     "id": "a8260ac7-1a13-4fb3-9cf8-20zee79e2f13",
     "title": "Tukang cukur",
-    "mainCategory": "Utama",
-    "subCategory": "Novigrad",
-    "subCategoryType": "Oxenfurt",
-    "dlc": "Tidak ada",
-    "section": "locations"
-  },
-  {
-    "id": "b29219f5-11e1-41c2-b5ac-9fbw25e5ecbd",
-    "title": "Saudara Borsodi",
     "mainCategory": "Utama",
     "subCategory": "Novigrad",
     "subCategoryType": "Oxenfurt",

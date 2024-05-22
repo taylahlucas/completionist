@@ -619,7 +619,7 @@
     "subCategory": "Act III - Wild Hunt",
     "subCategoryType": "",
     "location": "",
-    "href": "https://witcher.fandom.com/wiki/Bald_Mountain",
+    "href": "https://witcher.fandom.com/wiki/Bald_Mountain_(quest)",
     "conflictingIds": [],
     "section": "quests"
   },
@@ -1776,7 +1776,7 @@
     "subCategory": "Novigrad",
     "subCategoryType": "",
     "location": "",
-    "href": "https://witcher.fandom.com/wiki/Hey,_You_Wanna_Look_at_my_Stuff?",
+    "href": "https://witcher.fandom.com/wiki/Hey,_You_Wanna_Look_at_my_Stuff%3F",
     "conflictingIds": [],
     "section": "quests"
   },
@@ -6388,7 +6388,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Glyph_of_infusion"
+    "href": "https://witcher.fandom.com/wiki/Glyph_of_Infusion"
   },
   {
     "id": "f85c3d07-2dd0-4c0e-b94a-9a159c9fc1ab",
@@ -7610,17 +7610,6 @@
     "dlc": "None",
     "section": "collectables",
     "href": "https://witcher.fandom.com/wiki/Zoria_runestone"
-  },
-  {
-    "id": "b85348c3-5f9b-4a1e-bd3e-3bb556dbf0af",
-    "mainCategory": "Diagrams",
-    "subCategory": "Swords",
-    "subCategoryType": "",
-    "title": "Cidarian longsword",
-    "prerequisite": "",
-    "dlc": "None",
-    "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Cidarian_longsword"
   },
   {
     "id": "e7e4223b-00da-485c-a177-d46a4a6e2cbd",
@@ -9182,7 +9171,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Diagram:_Hardened_timber"
+    "href": "https://witcher.fandom.com/wiki/Hardened_timber"
   },
   {
     "id": "b303bdf5-5645-4b8c-a735-3e4980a1e882",
@@ -9314,7 +9303,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Diagram:_Refined_dimeritium_ore"
+    "href": "https://witcher.fandom.com/wiki/Dimeritium_ore"
   },
   {
     "id": "ac9d8e7d-3ab6-4a79-8e90-dc4b05713202",
@@ -9490,7 +9479,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Diagram:_Warrior's_leather_jacket"
+    "href": "https://witcher.fandom.com/wiki/Warrior%27s_leather_jacket"
   },
   {
     "id": "85f422e8-049c-4ee4-90d6-2c31950a0d5f",
@@ -11848,7 +11837,7 @@
     "subCategoryType": "Novigrad City",
     "dlc": "None",
     "section": "locations",
-    "href": "https://witcher.fandom.com/wiki/Gildorf_district_shop"
+    "href": "https://witcher.fandom.com/wiki/Shop_(Gildorf)"
   },
   {
     "id": "b1f85d8b-0c7d-4b08-8e2b-d0fe2f1f84ac",
@@ -12141,16 +12130,6 @@
     "href": "https://witcher.fandom.com/wiki/Barber"
   },
   {
-    "id": "b29219f5-11e1-41c2-b5ac-9fbw25e5ecbd",
-    "title": "Borsodi Brothers'",
-    "mainCategory": "Main",
-    "subCategory": "Novigrad",
-    "subCategoryType": "Oxenfurt",
-    "dlc": "None",
-    "section": "locations",
-    "href": "https://witcher.fandom.com/wiki/Borsodi_Brothers'"
-  },
-  {
     "id": "a87d6978-c9fc-4ba6-8a41-722e2c527e3w",
     "title": "Deireadh prison",
     "mainCategory": "Main",
@@ -12298,7 +12277,7 @@
     "subCategoryType": "Gustfields",
     "dlc": "Hearts Of Stone",
     "section": "locations",
-    "href": "https://witcher.fandom.com/wiki/Fallen_Knights'_fisstech_lab"
+    "href": "https://witcher.fandom.com/wiki/Fisstech"
   },
   {
     "id": "a9e1fffd-6397-4b78-942b-1462dcd3a791",
@@ -14248,7 +14227,7 @@
     "subCategoryType": "",
     "dlc": "Blood And Wine",
     "section": "locations",
-    "href": "https://witcher.fandom.com/wiki/A_Matter_of_Life_and_Death_(The_Witcher_3)",
+    "href": "https://witcher.fandom.com/wiki/A_Matter_of_Life_and_Death_(The_Witcher_3)"
   },
   {
     "id": "3c54ef95-f88f-4c7f-907d-6da44e33cf52",

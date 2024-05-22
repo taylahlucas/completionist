@@ -7401,16 +7401,6 @@
     "section": "collectables"
   },
   {
-    "id": "b85348c3-5f9b-4a1e-bd3e-3bb556dbf0af",
-    "mainCategory": "图表",
-    "subCategory": "剑",
-    "subCategoryType": "",
-    "title": "西达里安长剑",
-    "prerequisite": "",
-    "dlc": "没有任何",
-    "section": "collectables"
-  },
-  {
     "id": "e7e4223b-00da-485c-a177-d46a4a6e2cbd",
     "mainCategory": "图表",
     "subCategory": "剑",
@@ -11504,16 +11494,7 @@
     "subCategoryType": "奥克森福特",
     "dlc": "没有任何",
     "section": "locations"
-  },
-  {
-    "id": "b29219f5-11e1-41c2-b5ac-9fbw25e5ecbd",
-    "title": "博尔索迪兄弟",
-    "mainCategory": "主要的",
-    "subCategory": "诺维格勒",
-    "subCategoryType": "奥克森福特",
-    "dlc": "没有任何",
-    "section": "locations"
-  },
+	},
   {
     "id": "a87d6978-c9fc-4ba6-8a41-722e2c527e3w",
     "title": "迪雷德监狱",
