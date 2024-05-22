@@ -541,7 +541,7 @@
     "subCategory": "Act II - Uma's Curse",
     "subCategoryType": "",
     "location": "",
-    "href": "https://witcher.fandom.com/wiki/Brothers_in_Arms:_Novigrad",
+    "href": "https://witcher.fandom.com/wiki/Brothers_In_Arms:_Novigrad",
     "conflictingIds": [],
     "section": "quests"
   },
@@ -554,7 +554,7 @@
     "subCategory": "Act II - Uma's Curse",
     "subCategoryType": "",
     "location": "",
-    "href": "https://witcher.fandom.com/wiki/Brothers_in_Arms:_Skellige",
+    "href": "https://witcher.fandom.com/wiki/Brothers_In_Arms:_Skellige",
     "conflictingIds": [],
     "section": "quests"
   },
@@ -3947,7 +3947,7 @@
     "subCategory": "Main Quests",
     "subCategoryType": "",
     "location": "",
-    "href": "https://witcher.fandom.com/wiki/Open_Sesame!",
+    "href": "https://witcher.fandom.com/wiki/Open_Sesame!_(Hearts_of_Stone)",
     "conflictingIds": [],
     "section": "quests"
   },
@@ -5286,7 +5286,7 @@
     "subCategory": "Treasure Hunts",
     "subCategoryType": "",
     "location": "",
-    "href": "https://witcher.fandom.com/wiki/What_Was_This_About_Again?",
+    "href": "https://witcher.fandom.com/wiki/What_Was_This_About_Again%3F",
     "conflictingIds": [],
     "section": "quests"
   },
@@ -5761,7 +5761,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Bait_bolt"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Bait_bolt"
   },
   {
     "id": "11e51b3e-2bb0-48dd-94fe-1efaa5d9e4ac",
@@ -6333,7 +6333,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Legendary_Ursine_crossbow"
+    "href": "https://witcher.fandom.com/wiki/Ursine_crossbow"
   },
   {
     "id": "d335d44f-fcc5-4e57-8d1e-38c8e7a3307e",
@@ -6476,7 +6476,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Greater_glyph_of_Yrden"
+    "href": "https://witcher.fandom.com/wiki/Greater_Glyph_of_Yrden"
   },
   {
     "id": "9021f675-3f15-4ce1-9c10-ea979327f46c",
@@ -7048,7 +7048,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Mahakam-style_dark_steel_ingot"
+    "href": "https://witcher-games.fandom.com/wiki/Diagram:_Mahakam-style_dark_steel_ingot"
   },
   {
     "id": "5340754f-f1b9-4df5-b7b5-6170d448f21e",
@@ -7059,7 +7059,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Mahakam-style_Dimeritium_ingot"
+    "href": "https://witcher-games.fandom.com/wiki/Diagram:_Mahakam-style_Dimeritium_ingot"
   },
   {
     "id": "7c8d108d-37fc-42c5-93f0-9ed4b6538f6a",
@@ -9127,7 +9127,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Diagram:_Gnomish_gwyhyr"
+    "href": "https://witcher.fandom.com/wiki/Diagram:_Gnomish_Gwyhyr"
   },
   {
     "id": "82ff2d72-dbe0-428a-b54f-99b9905c73f1",
@@ -9226,7 +9226,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Diagram:_Leather_cured_using_the_Rivian_method"
+    "href": "https://witcher-games.fandom.com/wiki/Diagram:_Leather_cured_using_the_Rivian_method"
   },
   {
     "id": "8bcff1ef-9bd0-4cc7-9b9c-3318899b7176",
@@ -9248,7 +9248,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Diagram:_Linen"
+    "href": "https://witcher.fandom.com/wiki/Linen"
   },
   {
     "id": "27e3d8b1-7f0c-4f4a-9b41-52e8b8a2821a",
@@ -9306,17 +9306,6 @@
     "href": "https://witcher.fandom.com/wiki/Dimeritium_ore"
   },
   {
-    "id": "ac9d8e7d-3ab6-4a79-8e90-dc4b05713202",
-    "mainCategory": "Diagrams",
-    "subCategory": "Other",
-    "subCategoryType": "",
-    "title": "Refined silver ore",
-    "prerequisite": "",
-    "dlc": "None",
-    "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Diagram:_Refined_silver_ore"
-  },
-  {
     "id": "42f226f0-9ed3-4f15-9340-3ffbc4cd4db1",
     "mainCategory": "Diagrams",
     "subCategory": "Other",
@@ -9347,7 +9336,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Diagram:_Silk"
+    "href": "https://witcher.fandom.com/wiki/Silk"
   },
   {
     "id": "172ae3ea-34cb-460a-95e6-d1ee3fbc2d42",
@@ -9391,7 +9380,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Diagram:_String"
+    "href": "https://witcher.fandom.com/wiki/String"
   },
   {
     "id": "5f02c40e-320b-4e6c-8645-9c485a85f8f7",
@@ -9424,7 +9413,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Diagram:_Thread"
+    "href": "https://witcher.fandom.com/wiki/Thread"
   },
   {
     "id": "ab0e5915-c34f-4e2c-9803-d0a1c0a13a98",
@@ -10787,7 +10776,7 @@
     "subCategoryType": "",
     "dlc": "None",
     "section": "locations",
-    "href": "https://witcher.fandom.com/wiki/Abandoned_Village"
+    "href": "https://witcher.fandom.com/wiki/Abandoned_Village_(White_Orchard)"
   },
   {
     "id": "a9e1fffd-6397-4b78-942b-1462dcd3a7r9",
@@ -10867,7 +10856,7 @@
     "subCategoryType": "",
     "dlc": "None",
     "section": "locations",
-    "href": "https://witcher.fandom.com/wiki/Sawmill"
+    "href": "https://witcher.fandom.com/wiki/Sawmill_(White_Orchard)"
   },
   {
     "id": "af0c72d2-cb54-43bf-a86f-99c91a25db4a",
@@ -11957,7 +11946,7 @@
     "subCategoryType": "Novigrad City",
     "dlc": "None",
     "section": "locations",
-    "href": "https://witcher.fandom.com/wiki/Rudolf_de_Jonkheer's_house"
+    "href": "https://witcher.fandom.com/wiki/Rudolf_de_Jonkheer"
   },
   {
     "id": "a8260ac7-1a13-4fb3-9cfz-204ee79e2f13",
@@ -12417,7 +12406,7 @@
     "subCategoryType": "Oxenfurt",
     "dlc": "Hearts Of Stone",
     "section": "locations",
-    "href": "https://witcher.fandom.com/wiki/Shakeslock's_house"
+    "href": "https://witcher.fandom.com/wiki/Premethine_Shakeslock"
   },
   {
     "id": "a87d6e78-c9fc-4ba6-8a41-722e2c527e33",
@@ -13087,7 +13076,7 @@
     "subCategoryType": "Undvik",
     "dlc": "None",
     "section": "locations",
-    "href": "https://witcher.fandom.com/wiki/Abandoned_Village"
+    "href": "https://witcher.fandom.com/wiki/Abandoned_Village_(Undvik)"
   },
   {
     "id": "39f899aa-1912-48e3-9bd3-2460a8769c9d",
@@ -13597,7 +13586,7 @@
     "subCategoryType": "",
     "dlc": "Blood And Wine",
     "section": "locations",
-    "href": "https://witcher.fandom.com/wiki/Statue_of_Reginald_d'Aubry"
+    "href": "https://witcher.fandom.com/wiki/Reginald_statue%27s_genitals"
   },
   {
     "id": "e4b6d740-7f22-4a32-9d7b-168c5ef6665d",
