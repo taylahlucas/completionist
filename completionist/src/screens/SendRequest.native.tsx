@@ -9,7 +9,7 @@ import useMainState from '@redux/hooks/useMainState';
 import Button from '@components/general/Button/Button.native';
 import TextInput from '@components/general/TextInput/TextInput.native';
 import KeyboardAvoidingScrollView from '@components/general/Lists/KeyboardAvoidingScrollView.native';
-import { AuthScreenEnum } from '@utils/CustomEnums';
+import { DrawerScreenEnum } from '@utils/CustomEnums';
 import ParagraphView from '@components/general/ParagraphView.native';
 
 interface RequestFormData {
@@ -43,7 +43,7 @@ const SendRequest = () => {
 
 	return (
 		<StandardLayout>
-			<NavigationHeader id={AuthScreenEnum.SendRequest} title={t('common:screens.sendRequest')} />
+			<NavigationHeader id={DrawerScreenEnum.SendRequest} title={t('common:screens.sendRequest')} />
 			<ParagraphView>
 				<StyledText>{t('common:sendRequest.requestGameDesc')}</StyledText>
 			</ParagraphView>

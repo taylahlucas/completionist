@@ -1,9 +1,9 @@
-import { IconTypeEnum, AuthScreenEnum } from '@utils/CustomEnums';
+import { IconTypeEnum, AuthScreenEnum, DrawerScreenEnum } from '@utils/CustomEnums';
 import { IconType } from '@utils/CustomTypes';
 import { useTranslation } from 'react-i18next';
 
 interface NavigationFooterDrawerItem {
-	id: AuthScreenEnum;
+	id: AuthScreenEnum | DrawerScreenEnum;
 	title: string;
 	icon: IconType;
 	iconType?: IconTypeEnum;
@@ -27,18 +27,18 @@ const useGetNavigationFooterDrawerItems = (): NavigationFooterDrawerItem[] => {
 		// 	iconType: IconTypeEnum.MaterialCommunityIcons
 		// },
 		{
-			id: AuthScreenEnum.Subscriptions,
+			id: DrawerScreenEnum.Subscriptions,
 			title: t('common:screens.subscriptions'),
 			icon: 'wallet-outline',
 			iconType: IconTypeEnum.Ionicons
 		},
 		{
-			id: AuthScreenEnum.SendRequest,
+			id: DrawerScreenEnum.SendRequest,
 			title: t('common:screens.sendRequest'),
 			icon: 'forward-to-inbox'
 		},
 		{
-			id: AuthScreenEnum.Settings,
+			id: DrawerScreenEnum.Settings,
 			title: t('common:screens.settings'),
 			icon: 'settings-outline',
 			iconType: IconTypeEnum.Ionicons

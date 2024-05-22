@@ -1,4 +1,4 @@
-import { AuthScreenEnum, ScreenEnum, SettingsOptionEnum, GameKeyEnum, DatePeriodEnum, SubscriptionTypeEnum, ContentSectionEnum } from './CustomEnums';
+import { AuthScreenEnum, ScreenEnum, SettingsOptionEnum, GameKeyEnum, DatePeriodEnum, SubscriptionTypeEnum, ContentSectionEnum, DrawerScreenEnum } from './CustomEnums';
 import { NavigationAction, NavigationState } from '@react-navigation/native';
 import { MainState } from '@redux/MainState';
 import { SettingsState } from '@components/custom/Settings/SettingsState';
@@ -58,7 +58,7 @@ export interface EnvironmentConfig {
 // Navigation Interfaces
 
 export interface NavigationDrawerItemData {
-  id: AuthScreenEnum;
+  id: DrawerScreenEnum;
   title: string;
   subTitle: string;
   isEnabled: boolean;
@@ -79,18 +79,23 @@ export type UnauthorizedStackParamList = {
 export type AuthStackParamList = {
 	Landing: undefined;
 	GameSelection: undefined;
-  Quests: undefined;
+  Subscriptions: undefined;
+	DrawerStack: undefined;
+};
+
+export type DrawerStackParamList = {
+	Quests: undefined;
   Collectables: undefined;
   Miscellaneous: undefined;
   Locations: undefined;
   SendRequest: undefined;
 	SteamAchievements: undefined;
-  Subscriptions: undefined;
+	Subscriptions: undefined;
 	SelectPlan: undefined;
   Payments: undefined;
   Settings: undefined;
 	AccountDetails: undefined;
-};
+}
 
 export interface NativeNavigation {
   navigate: (page: ScreenEnum, params?: any) => void;

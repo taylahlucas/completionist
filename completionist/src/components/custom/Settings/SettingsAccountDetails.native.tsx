@@ -6,7 +6,7 @@ import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
 import useMainState from '@redux/hooks/useMainState';
 import StyledText from '@components/general/Text/StyledText.native';
 import Button from '@components/general/Button/Button.native';
-import { AuthScreenEnum } from '@utils/CustomEnums';
+import { DrawerScreenEnum } from '@utils/CustomEnums';
 import { SettingsAvatarContainer, SettingsEmail } from './SettingsStyledComponents.native';
 import useGetTheme from '@styles/hooks/useGetTheme';
 
@@ -33,7 +33,7 @@ const SettingsAccountDetails = () => {
 				type='navigation'
 				color={theme.primaryPurple}
 				title={t('common:settings.changeAccountDetails')}
-				onPress={(): void => navigation.navigate(AuthScreenEnum.AccountDetails)}
+				onPress={(): void => navigation.navigate(DrawerScreenEnum.AccountDetails)}
 			/>
 		</>
 	);

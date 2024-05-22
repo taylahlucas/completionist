@@ -10,7 +10,7 @@ import useMainState from '@redux/hooks/useMainState';
 import useContentDispatch from '@components/custom/ContentList/hooks/useContentDispatch';
 import useContentState from '@components/custom/ContentList/hooks/useContentState';
 import ContentList from '@components/custom/ContentList/ContentList.native';
-import { ContentSectionEnum, AuthScreenEnum } from '@utils/CustomEnums';
+import { ContentSectionEnum, DrawerScreenEnum } from '@utils/CustomEnums';
 
 const Miscellaneous = () => {
   const { t } = useTranslation();
@@ -22,7 +22,7 @@ const Miscellaneous = () => {
 
   return (
     <StandardLayout>
-      <NavigationHeader id={AuthScreenEnum.Miscellaneous} title={t('common:screens.miscellaneous')} rightAction='filter' />
+      <NavigationHeader id={DrawerScreenEnum.Miscellaneous} title={t('common:screens.miscellaneous')} rightAction='filter' />
       <CustomSearchBar 
         searchValue={searchValue}
         setSearchValue={setSearchValue}

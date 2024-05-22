@@ -12,7 +12,7 @@ import SettingsAccountDetails from '@components/custom/Settings/SettingsAccountD
 import { SettingsDescription } from '@components/custom/Settings/SettingsStyledComponents.native';
 import SelectionList from '@components/general/Lists/SelectionList.native';
 import SettingsSelectLanguage from '@components/custom/Settings/SettingsSelectLanguage.native';
-import { AuthScreenEnum } from '@utils/CustomEnums';
+import { DrawerScreenEnum } from '@utils/CustomEnums';
 import SettingsGameCollections from '@components/custom/Settings/SettingsGameCollections.native';
 
 const Settings = () => {
@@ -27,7 +27,7 @@ const Settings = () => {
 	
 	return (
 		<StandardLayout>
-			<NavigationHeader id={AuthScreenEnum.Settings} title={t('common:screens.settings')} />
+			<NavigationHeader id={DrawerScreenEnum.Settings} title={t('common:screens.settings')} />
 			<ScrollableList
 				ref={scrollViewRef}
 				contentContainerStyle={{ paddingBottom: isLanguagesOpen ? 200 : 100 }}

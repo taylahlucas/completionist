@@ -34,7 +34,6 @@ const GameListSectionDropdown = ({ testID, title, data }: GameListSectionDropdow
 						enabled={game.isActive}
 						enabledColor={game.isActive ? theme.lightGrey : theme.midGrey}
 						onPress={(): void => handleGameSelection(game)}
-
 					/>
 				))}
 			</GameListDropdownContainer>

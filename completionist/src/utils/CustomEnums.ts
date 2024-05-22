@@ -1,9 +1,14 @@
-export type ScreenEnum = AuthScreenEnum | UnauthorizedScreenEnum;
+export type ScreenEnum = AuthScreenEnum | DrawerScreenEnum | UnauthorizedScreenEnum;
 
 export enum AuthScreenEnum {
 	Landing = 'Landing',
   GameSelection = 'GameSelection',
-  Quests = 'Quests',
+  Subscriptions = 'Subscriptions',
+	DrawerStack = 'DrawerStack'
+}
+
+export enum DrawerScreenEnum {
+	Quests = 'Quests',
   Collectables = 'Collectables',
   Miscellaneous = 'Miscellaneous',
   Locations = 'Locations',

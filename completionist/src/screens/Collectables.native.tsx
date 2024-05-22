@@ -11,7 +11,7 @@ import useContentDispatch from '@components/custom/ContentList/hooks/useContentD
 import useContentState from '@components/custom/ContentList/hooks/useContentState';
 import ContentList from '@components/custom/ContentList/ContentList.native';
 import { ContentSectionEnum } from '@utils/CustomEnums';
-import { AuthScreenEnum } from '@utils/CustomEnums';
+import { DrawerScreenEnum } from '@utils/CustomEnums';
 
 const Collectables = () => {
   const { t } = useTranslation();
@@ -23,7 +23,7 @@ const Collectables = () => {
 
   return (
     <StandardLayout>
-      <NavigationHeader id={AuthScreenEnum.Collectables} title={t('common:screens.collectables')} rightAction='filter' />
+      <NavigationHeader id={DrawerScreenEnum.Collectables} title={t('common:screens.collectables')} rightAction='filter' />
       <CustomSearchBar 
         searchValue={searchValue} 
         setSearchValue={setSearchValue}

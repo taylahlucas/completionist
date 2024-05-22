@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import { AuthScreenEnum, ContentSectionEnum } from '@utils/CustomEnums';
+import { DrawerScreenEnum, ContentSectionEnum } from '@utils/CustomEnums';
 import useGetGameData from '@data/hooks/useGetGameData';
 import useGetUserGameData from '@data/hooks/useGetUserGameData';
 import useMainState from '@redux/hooks/useMainState';
@@ -24,7 +24,7 @@ const useGetNavigationDrawerItems = (): NavigationDrawerItemData[] => {
 	let drawerItems = [];
 	if (questData.length > 0) {
 		drawerItems.push({
-			id: AuthScreenEnum.Quests,
+			id: DrawerScreenEnum.Quests,
 			title: t('common:screens.quests'),
 			subTitle: checkIsSectionEnabled(questsSection) ? `${getUserQuests().length}/${questData.length}` : '',
 			isEnabled: checkIsSectionEnabled(questsSection)
@@ -32,7 +32,7 @@ const useGetNavigationDrawerItems = (): NavigationDrawerItemData[] => {
 	}
 	if (collectableData.length > 0) {
 		drawerItems.push({
-			id: AuthScreenEnum.Collectables,
+			id: DrawerScreenEnum.Collectables,
 			title: t('common:screens.collectables'),
 			subTitle: checkIsSectionEnabled(collectablesSection) ? `${getUserCollectables().length}/${collectableData.length}` : '',
 			isEnabled: checkIsSectionEnabled(collectablesSection)
@@ -40,7 +40,7 @@ const useGetNavigationDrawerItems = (): NavigationDrawerItemData[] => {
 	}
 	if (locationData.length > 0) {
 		drawerItems.push({
-			id: AuthScreenEnum.Locations,
+			id: DrawerScreenEnum.Locations,
 			title: t('common:screens.locations'),
 			subTitle: checkIsSectionEnabled(locationsSection) ? `${getUserLocations().length}/${locationData.length}` : '',
 			isEnabled: checkIsSectionEnabled(locationsSection)
@@ -48,7 +48,7 @@ const useGetNavigationDrawerItems = (): NavigationDrawerItemData[] => {
 	}
 	if (miscellaneousData.length > 0) {
 		drawerItems.push({
-			id: AuthScreenEnum.Miscellaneous,
+			id: DrawerScreenEnum.Miscellaneous,
 			title: t('common:screens.miscellaneous'),
 			subTitle: checkIsSectionEnabled(miscItemsSection) ? `${getUserMiscItems().length}/${miscellaneousData.length}` : '',
 			isEnabled: checkIsSectionEnabled(miscItemsSection)

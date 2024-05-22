@@ -3,14 +3,14 @@ import { useTranslation } from 'react-i18next';
 import PaymentsContent from '@components/custom/PaymentsContent/PaymentsContent.native';
 import StandardLayout from '@components/general/Layouts/StandardLayout.native';
 import NavigationHeader from '@navigation/NavigationHeader.native';
-import { AuthScreenEnum } from '@utils/CustomEnums';
+import { DrawerScreenEnum } from '@utils/CustomEnums';
 
 const Payments = () => {
 	const { t } = useTranslation();
 
 	return (
 		<StandardLayout>
-			<NavigationHeader id={AuthScreenEnum.Payments} title={t('common:screens.payments')} leftAction={'back'} />
+			<NavigationHeader id={DrawerScreenEnum.Payments} title={t('common:screens.payments')} leftAction={'back'} />
 			<PaymentsContent />
 		</StandardLayout>
 	);

@@ -11,7 +11,7 @@ import useMainState from '@redux/hooks/useMainState';
 import Button from '@components/general/Button/Button.native';
 import Condition from '@components/general/Condition.native';
 import KeyboardAvoidingScrollView from '@components/general/Lists/KeyboardAvoidingScrollView.native';
-import { AuthScreenEnum } from '@utils/CustomEnums';
+import { DrawerScreenEnum } from '@utils/CustomEnums';
 import ErrorMessage from '@components/general/Text/ErrorMessage.native';
 import useValidator from '@utils/hooks/useValidator';
 import useEditUserData from '@data/hooks/useEditUserData.native';
@@ -65,7 +65,7 @@ const AccountDetails = () => {
 	
 	useEffect(() => {
 		// Reset state
-		if (currentScreen === AuthScreenEnum.Settings) {
+		if (currentScreen === DrawerScreenEnum.Settings) {
 			resetState();
 		}
 	}, [currentScreen])
@@ -138,7 +138,7 @@ const AccountDetails = () => {
 	return (
 		<StandardLayout>
 			<NavigationHeader
-				id={AuthScreenEnum.AccountDetails} 
+				id={DrawerScreenEnum.AccountDetails} 
 				title={t('common:screens.accountDetails')} 
 				isForm={userInfo.name.changed || userInfo.email.changed}
 				leftAction='back'

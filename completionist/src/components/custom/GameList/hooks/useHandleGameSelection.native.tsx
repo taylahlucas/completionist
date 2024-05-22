@@ -24,7 +24,7 @@ const useHandleGameSelection = () => {
 			reset();
 			setSelectedGame(game.id);
 			setSelectedGameSettings(game.id);
-			navigation.navigate(AuthScreenEnum.Quests);
+			navigation.navigate(AuthScreenEnum.DrawerStack);
 		}
 		else {
 			const gameName: string = translateGameName(game.id);

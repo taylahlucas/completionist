@@ -20,7 +20,7 @@ import Seperator from '@components/general/Seperator.native';
 import Icon from '@components/general/Icon/Icon.native';
 import SubscriptionOptionsList from './SubscriptionOptionsList.native';
 import useSubscriptionState from './hooks/useContentState';
-import { AuthScreenEnum } from '@utils/CustomEnums';
+import { DrawerScreenEnum } from '@utils/CustomEnums';
 import ParagraphView from '@components/general/ParagraphView.native';
 
 const SubscriptionContent = () => {
@@ -52,7 +52,7 @@ const SubscriptionContent = () => {
 					// TODO: Add change success page
 				}
 				else {
-					navigation.navigate(AuthScreenEnum.Payments);
+					navigation.navigate(DrawerScreenEnum.Payments);
 				}
 			}}
 			color={theme.primaryPurple} />

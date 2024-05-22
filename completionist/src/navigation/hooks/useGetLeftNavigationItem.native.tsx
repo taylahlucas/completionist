@@ -10,11 +10,11 @@ import {
 } from '@navigation/NavigationStyledComponents.native';
 import { IconTypeEnum, AuthScreenEnum } from '@utils/CustomEnums';
 import useReactNavigation, { DrawerActions } from './useReactNavigation.native';
-import { useDrawerStatus } from '@react-navigation/drawer';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import IconButton from '@components/general/Icon/IconButton.native';
 import useRotateMenuButton from './useRotateMenuButton.native';
 import { useTranslation } from 'react-i18next';
+import useSafeDrawerStatus from './useSafeDrawerStatus.native';
 
 const useGetLeftNavigationItem = (
 	leftAction: NavigationHeaderLeftActionTypes, 
@@ -24,7 +24,7 @@ const useGetLeftNavigationItem = (
 	const { t } = useTranslation();
   const theme = useGetTheme();
   const navigation = useReactNavigation();
-	const isDrawerOpen = hasDrawer && useDrawerStatus() === 'open';
+	const isDrawerOpen = hasDrawer && useSafeDrawerStatus() === 'open';
 	const { rotateButton, animatedStyles } = useRotateMenuButton();
 
 	useEffect(() => {
