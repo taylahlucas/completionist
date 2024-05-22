@@ -6,7 +6,6 @@ const useSafeDrawerStatus = (): DrawerStatus | undefined => {
   const context = useContext(DrawerStatusContext);
 
   if (!context) {
-    // Return undefined if no drawer navigator is detected
     return undefined;
   }
 

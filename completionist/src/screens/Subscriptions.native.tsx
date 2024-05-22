@@ -9,8 +9,7 @@ import { AuthScreenEnum } from '@utils/CustomEnums';
 const Subscriptions = () => {
 	const { t } = useTranslation();
 	const { selectedGame } = useMainState();
-
-	// TODO: Pop up from bottom
+	
 	return (
 		<StandardLayout>
 			<NavigationHeader
