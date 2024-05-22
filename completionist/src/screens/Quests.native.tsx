@@ -23,7 +23,7 @@ const Quests = () => {
 
   return (
     <StandardLayout>
-      <NavigationHeader id={DrawerScreenEnum.Quests} title={t('common:screens.quests')} rightAction='filter' />
+      <NavigationHeader id={DrawerScreenEnum.Quests} title={t('common:screens.quests')} />
       <CustomSearchBar 
         searchValue={searchValue} 
         setSearchValue={setSearchValue}

@@ -22,7 +22,7 @@ const Miscellaneous = () => {
 
   return (
     <StandardLayout>
-      <NavigationHeader id={DrawerScreenEnum.Miscellaneous} title={t('common:screens.miscellaneous')} rightAction='filter' />
+      <NavigationHeader id={DrawerScreenEnum.Miscellaneous} title={t('common:screens.miscellaneous')} />
       <CustomSearchBar 
         searchValue={searchValue}
         setSearchValue={setSearchValue}

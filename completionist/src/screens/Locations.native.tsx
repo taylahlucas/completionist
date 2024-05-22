@@ -23,7 +23,7 @@ const Locations = () => {
 
   return (
     <StandardLayout>
-      <NavigationHeader id={DrawerScreenEnum.Locations} title={t('common:screens.locations')} rightAction='filter' />
+      <NavigationHeader id={DrawerScreenEnum.Locations} title={t('common:screens.locations')} />
       <CustomSearchBar 
         searchValue={searchValue} 
         setSearchValue={setSearchValue}

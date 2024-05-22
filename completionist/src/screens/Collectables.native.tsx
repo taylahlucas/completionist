@@ -23,7 +23,7 @@ const Collectables = () => {
 
   return (
     <StandardLayout>
-      <NavigationHeader id={DrawerScreenEnum.Collectables} title={t('common:screens.collectables')} rightAction='filter' />
+      <NavigationHeader id={DrawerScreenEnum.Collectables} title={t('common:screens.collectables')} />
       <CustomSearchBar 
         searchValue={searchValue} 
         setSearchValue={setSearchValue}
