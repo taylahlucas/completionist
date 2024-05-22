@@ -1,3 +1,4 @@
+// Adds approximate hrefs for a given game
 const fs = require('fs');
 
 function convertToSnakeCase(string) {

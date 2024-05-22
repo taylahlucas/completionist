@@ -1,3 +1,4 @@
+// To use, move this to translations/ and ensure the correct filename is given
 const fs = require('fs');
 
 // Function to add UUID to each object in the array

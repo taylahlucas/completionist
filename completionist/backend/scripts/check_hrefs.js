@@ -1,3 +1,4 @@
+// Checks if hrefs actually exist
 const fs = require('fs');
 
 async function checkUrlResponse(url) {
