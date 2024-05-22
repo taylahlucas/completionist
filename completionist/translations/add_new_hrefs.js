@@ -32,7 +32,7 @@ const writeJsonFile = (filePath, data) => {
 const languageList = ['ar', 'de', 'es', 'fr', 'hi', 'id', 'it', 'ja', 'pt', 'tr', 'vi', 'zh'];
 
 
-const filename = 'fallout3';
+const filename = 'witcher3';
 const jsonFilePath = `en/db/${filename}.json`;
 const objects = readJsonFile(jsonFilePath);
 

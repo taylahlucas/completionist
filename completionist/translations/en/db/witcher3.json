@@ -2023,7 +2023,7 @@
     "subCategory": "Novigrad",
     "subCategoryType": "",
     "location": "",
-    "href": "https://witcher.fandom.com/wiki/Strangers_in_the_Night",
+    "href": "https://witcher.fandom.com/wiki/Strangers_in_the_Night_(The_Witcher_3)",
     "conflictingIds": [],
     "section": "quests"
   },
@@ -2634,7 +2634,7 @@
     "subCategory": "Skellige",
     "subCategoryType": "",
     "location": "",
-    "href": "https://witcher.fandom.com/wiki/The_Heroes_Pursuits:_Fyresdal",
+    "href": "https://witcher.fandom.com/wiki/The_Heroes%27_Pursuits:_Fyresdal",
     "conflictingIds": [],
     "section": "quests"
   },
@@ -4220,7 +4220,7 @@
     "subCategory": "Treasure Hunts",
     "subCategoryType": "",
     "location": "",
-    "href": "https://witcher.fandom.com/wiki/The_Sword,_Famine,_and_Perfidy",
+    "href": "https://witcher.fandom.com/wiki/The_Sword,_Famine_and_Perfidy",
     "conflictingIds": [],
     "section": "quests"
   },
@@ -8646,17 +8646,6 @@
     "href": "https://witcher.fandom.com/wiki/Diagram:_Hunter's_trousers"
   },
   {
-    "id": "c5e4877a-4c61-4b3e-8ac8-047c8a21a097",
-    "mainCategory": "Diagrams",
-    "subCategory": "Trousers",
-    "subCategoryType": "",
-    "title": "Journeyman's trousers",
-    "prerequisite": "",
-    "dlc": "None",
-    "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Diagram:_Journeyman's_trousers"
-  },
-  {
     "id": "e7981ebc-8965-43d6-b991-67cb1764e4ea",
     "mainCategory": "Diagrams",
     "subCategory": "Trousers",
@@ -9083,7 +9072,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Diagram:_Draconid_leather"
+    "href": "https://witcher.fandom.com/wiki/Cured_draconid_leather"
   },
   {
     "id": "7bf05984-b14e-42b2-8e5b-8c63e119ecb5",
@@ -9229,17 +9218,6 @@
     "href": "https://witcher-games.fandom.com/wiki/Diagram:_Leather_cured_using_the_Rivian_method"
   },
   {
-    "id": "8bcff1ef-9bd0-4cc7-9b9c-3318899b7176",
-    "mainCategory": "Diagrams",
-    "subCategory": "Other",
-    "subCategoryType": "",
-    "title": "Leather scraps",
-    "prerequisite": "",
-    "dlc": "None",
-    "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Diagram:_Leather_scraps"
-  },
-  {
     "id": "aa2e6bf2-9242-40f7-a153-789efbca8f7f",
     "mainCategory": "Diagrams",
     "subCategory": "Other",
@@ -9314,7 +9292,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Diagram:_Resin"
+    "href": "https://witcher.fandom.com/wiki/Resin"
   },
   {
     "id": "b2f92e6f-5b4a-4cf5-95a4-61681eb5cbb5",
@@ -9501,7 +9479,7 @@
     "prerequisite": "",
     "dlc": "None",
     "section": "collectables",
-    "href": "https://witcher.fandom.com/wiki/Diagram:_Zerrikanian_powder"
+    "href": "https://witcher.fandom.com/wiki/Zerrikanian_powder"
   },
   {
     "id": "0a7890d6-5f13-4f23-8f93-6b6ec8e87c07",
@@ -11016,7 +10994,7 @@
     "subCategoryType": "Bald Mountain",
     "dlc": "None",
     "section": "locations",
-    "href": "https://witcher.fandom.com/wiki/Bald_Mountain"
+    "href": "https://witcher.fandom.com/wiki/Bald_Mountain_(quest)"
   },
   {
     "id": "a8260ac7-1a13-4qb3-9cf8-204ee79e2f13",
