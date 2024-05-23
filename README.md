@@ -128,9 +128,12 @@ Update:
 - Check for duplicate ids.
 - Translate to different languages on https://translate.i18next.com.
 - Ensure all sections 'quests, collectables, locations, miscellaneous' are converted to english.
-- Ensure there are no duplicate ids but running /backend/scripts/update_duplicate_ids.
+- Ensure there are no duplicate ids by running /backend/scripts/update_duplicate_ids.
 - Create gameSettingsConfig in initialUserData.js.
 - Update user.js model with new game in data and subscription.data.
 - Add image to styles/images/games/.
 - In CustomEnums and CustomInterfaces add the new game.
 - Create migration to mirate new game info to existing users.
+- Generate hrefs using add_initial_hrefs.js
+- Check for hrefs that dont work using check_hrefs.js and update these.
+- Move add_new_hrefs.js to translations/ and run for files with finished hrefs.
