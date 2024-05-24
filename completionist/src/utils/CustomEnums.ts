@@ -14,6 +14,7 @@ export enum DrawerScreenEnum {
   Locations = 'Locations',
   SendRequest = 'SendRequest',
 	SteamAchievements = 'SteamAchievements',
+	Achievements = 'Achievements',
   Subscriptions = 'Subscriptions',
 	SelectPlan = 'SelectPlan',
   Payments = 'Payments',

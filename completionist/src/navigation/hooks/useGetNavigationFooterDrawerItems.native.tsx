@@ -19,6 +19,12 @@ const useGetNavigationFooterDrawerItems = (): NavigationFooterDrawerItem[] => {
 			icon: 'menu-sharp',
 			iconType: IconTypeEnum.Ionicons
 		},
+		{
+			id: DrawerScreenEnum.Achievements,
+			title: 'Achievements',
+			icon: 'wallet-outline',
+			iconType: IconTypeEnum.Ionicons
+		},
 		// TODO: Probably not safe to use. Verify if this is possible
 		// {
 		// 	id: AuthScreenEnum.SteamAchievements,

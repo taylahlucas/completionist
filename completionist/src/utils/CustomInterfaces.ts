@@ -1,4 +1,4 @@
-import { AuthScreenEnum, ScreenEnum, SettingsOptionEnum, GameKeyEnum, DatePeriodEnum, SubscriptionTypeEnum, ContentSectionEnum, DrawerScreenEnum } from './CustomEnums';
+import { ScreenEnum, SettingsOptionEnum, GameKeyEnum, DatePeriodEnum, SubscriptionTypeEnum, ContentSectionEnum, DrawerScreenEnum } from './CustomEnums';
 import { NavigationAction, NavigationState } from '@react-navigation/native';
 import { MainState } from '@redux/MainState';
 import { SettingsState } from '@components/custom/Settings/SettingsState';
@@ -30,6 +30,13 @@ export interface PriceProps {
   type: DatePeriodEnum;
   title: string;
   value: number;
+}
+
+export interface AchievementItem {
+	id: string;
+	title: string;
+	description?: string;
+	icon: string;
 }
 
 // State & Environment
@@ -90,6 +97,7 @@ export type DrawerStackParamList = {
   Locations: undefined;
   SendRequest: undefined;
 	SteamAchievements: undefined;
+	Achievements: undefined;
 	Subscriptions: undefined;
 	SelectPlan: undefined;
   Payments: undefined;

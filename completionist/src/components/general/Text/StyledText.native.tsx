@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text, TextProps } from 'react-native';
+import { Text, TextProps, View } from 'react-native';
 import { FontType, AlignmentType } from '@styles/Font/FontType';
 import defaultStyle from '@styles/Font/FontStyle';
 import useGetTheme from '@styles/hooks/useGetTheme';
@@ -24,15 +24,19 @@ const StyledText = React.forwardRef<Text, StyledTextProps>(({
 	const { testID, numberOfLines } = props;
   
   return (
-    <Text
+		<Text
 			ref={ref}
 			testID={testID}
-      numberOfLines={numberOfLines} 
-      ellipsizeMode='tail' 
-      style={{ ...defaultStyle[type], ...defaultStyle[align], ...style, color: color ?? theme.midGrey }}
-    >
-      {children}
-    </Text>
+			numberOfLines={numberOfLines} 
+			ellipsizeMode='tail' 
+			style={{ 
+				...defaultStyle[type], 
+				...defaultStyle[align], 
+				...style, 
+				color: color ?? theme.midGrey }}
+		>
+			{children}
+		</Text>
   );
 });
 

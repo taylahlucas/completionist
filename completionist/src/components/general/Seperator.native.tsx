@@ -9,7 +9,6 @@ const Seperator = () => {
   return (
     <View style={{
       height: 1,
-      width: LARGE_WIDTH,
       marginTop: 8,
       marginBottom: 8,
       backgroundColor: theme.darkGrey
