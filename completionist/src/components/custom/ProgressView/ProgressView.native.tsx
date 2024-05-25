@@ -15,6 +15,7 @@ interface ProgressViewProps {
 const ProgressView = ({ title, data }: ProgressViewProps) => {
 	const theme = useGetTheme();
 	const [isOpen, setOpen] = useState<boolean>(false);
+	const colors = [theme.lightPurple, '#E63656', '#26AB9D', '#D1A34D'];
 
 	return (
 		<Dropdown
@@ -35,7 +36,7 @@ const ProgressView = ({ title, data }: ProgressViewProps) => {
 						id={item.id}
 						current={item.current}
 						total={item.total}
-						foregroundColor={theme.lightPurple}
+						foregroundColor={colors[index]}
 						backgroundColor={theme.darkGrey}
 					/>
 				))

@@ -12,6 +12,9 @@ import BadgeView from '@components/custom/BadgeView/BadgeView.native';
 import ProgressView from '@components/custom/ProgressView/ProgressView.native';
 
 import { mockAchievements, mockBadges, mockProgressData } from '@utils/test-helper/__mocks__/mocks';
+import useGetUserGameData from '@data/hooks/useGetUserGameData';
+import useFilterGameList from '@components/custom/GameList/hooks/useFilterGameList.native';
+import useMainState from '@redux/hooks/useMainState';
 
 const Achievements = () => {
 	const { t } = useTranslation();
@@ -19,6 +22,10 @@ const Achievements = () => {
 	const [achievementsOpen, setAchievementsOpen] = useState<boolean>(true);
 	const [progressOpen, setProgressOpen] = useState<boolean>(true);
 	const [currentOpen, setCurrentOpen] = useState<string>('');
+	const { user } = useMainState();
+	const { filterGameList } = useFilterGameList();
+	// TODO: For get games currently subscribed to by user
+	const activeGames = filterGameList(user.subscription.data, true, '');
 
 	return (
 		<StandardLayout>
@@ -52,11 +59,11 @@ const Achievements = () => {
 						/>
 					}
 				>
-					{games.map(game => (
+					{activeGames.map(game => (
 						<AchievementView
-							key={game}
-							id={game}
-							title={t(`common:categories.${game}.title`)}
+							key={game.id}
+							id={game.id}
+							title={t(`common:categories.${game.id}.title`)}
 							items={mockAchievements}
 							currentOpen={currentOpen}
 							setCurrentOpen={setCurrentOpen}

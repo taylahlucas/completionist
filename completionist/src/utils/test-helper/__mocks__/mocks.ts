@@ -171,7 +171,7 @@ export const mockProgressData: ProgressItem[] = [
 			},
 			{
 				id: 'miscellaneous',
-				current: 50,
+				current: 500,
 				total: 800
 			}
 		]

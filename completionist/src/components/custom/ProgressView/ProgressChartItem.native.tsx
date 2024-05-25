@@ -13,7 +13,13 @@ interface ProgressChartItemProps {
 	backgroundColor: string;
 }
 
-const ProgressChartItem = ({ id, current, total, foregroundColor, backgroundColor }: ProgressChartItemProps) => {
+const ProgressChartItem = ({ 
+	id, 
+	current, 
+	total, 
+	foregroundColor,
+	backgroundColor 
+}: ProgressChartItemProps) => {
 	const { t } = useTranslation();
 	const theme = useGetTheme();
 	const percentage = total === 0 ? 0 : (current / total) * 100;
@@ -36,7 +42,7 @@ const ProgressChartItem = ({ id, current, total, foregroundColor, backgroundColo
 					]}
 				/>
 				<StyledText
-					color={theme.lightGrey}
+					color={theme.lightestGrey}
 					style={styles.label}
 					type='ListItemSubDescriptionBold'
 				>
