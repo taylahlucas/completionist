@@ -25,12 +25,12 @@ const ProgressView = ({ title, data }: ProgressViewProps) => {
 			}
 		>
 			<View style={{ 
-				height: 120,
+				height: 140,
 				width: STANDARD_WIDTH,
 				alignSelf: 'center',
 				paddingTop: 8
 			}}>
-				{data.map((item) => (
+				{data.map((item, index) => (
 					<ProgressChartItem
 						id={item.id}
 						current={item.current}

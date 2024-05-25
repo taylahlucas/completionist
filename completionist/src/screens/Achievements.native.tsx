@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { View } from 'react-native';
 import { useTranslation } from 'react-i18next';
 import StandardLayout from '@components/general/Layouts/StandardLayout.native';
 import NavigationHeader from '@navigation/NavigationHeader.native';
@@ -27,10 +26,7 @@ const Achievements = () => {
 				id={DrawerScreenEnum.Miscellaneous}
 				title={'Achievements'}
 			/>
-			<ScrollableList
-				style={{ maxHeight: 600 }}
-			//  scrollEnabled={false}
-			>
+			<ScrollableList style={{ maxHeight: 600 }}>
 				{/* Badges */}
 				<Dropdown
 					isOpen={badgesOpen}
