@@ -45,6 +45,17 @@ export interface BadgeItem {
 	icon: string;
 }
 
+export interface ProgressItemData {
+	id: string;
+	current: number;
+	total: number;
+}
+
+export interface ProgressItem {
+	id: string;
+	data: ProgressItemData[];
+}
+
 // State & Environment
 
 export interface Base {

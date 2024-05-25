@@ -10,8 +10,9 @@ import ScrollableList from '@components/general/Lists/ScrollableList.native';
 import { games } from '@utils/constants';
 import AchievementDropdownTitle from '@components/custom/AchievementView/AchievementDropdownTitle.native';
 import BadgeView from '@components/custom/BadgeView/BadgeView.native';
+import ProgressView from '@components/custom/ProgressView/ProgressView.native';
 
-import { mockAchievements, mockBadges } from '@utils/test-helper/__mocks__/mocks';
+import { mockAchievements, mockBadges, mockProgressData } from '@utils/test-helper/__mocks__/mocks';
 
 const Achievements = () => {
 	const { t } = useTranslation();
@@ -78,7 +79,13 @@ const Achievements = () => {
 						/>
 					}
 				>
-					<View />
+					{mockProgressData.map((game) => (
+						<ProgressView
+							key={game.id}
+							title={t(`common:categories.${game.id}.title`)}
+							data={game.data}
+						/>
+					))}
 				</Dropdown>
 			</ScrollableList>
 		</StandardLayout>

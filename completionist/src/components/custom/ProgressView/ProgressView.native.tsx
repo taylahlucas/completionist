@@ -1,46 +1,47 @@
-import React from 'react';
-import { View } from 'react-native'; 
+import React, { useState } from 'react';
+import { View } from 'react-native';
 import Dropdown from '@components/general/Dropdown/Dropdown.native';
-import ScrollableList from '@components/general/Lists/ScrollableList.native';
-import StyledText from '@components/general/Text/StyledText.native';
 import useGetTheme from '@styles/hooks/useGetTheme';
-
-interface ProgressContentItem {
-	current: number;
-	total: number;
-}
-
-interface ProgressItem {
-	quests: ProgressContentItem;
-	collectables: ProgressContentItem;
-	locations: ProgressContentItem;
-	miscellaneous: ProgressContentItem;
-}
+import { ProgressItemData } from '@utils/CustomInterfaces';
+import AchievementDropdownSubtitle from '@components/custom/AchievementView/AchievementDropdownSubtitle.native';
+import ProgressChartItem from './ProgressChartItem.native';
+import { STANDARD_WIDTH } from '@styles/global.native';
 
 interface ProgressViewProps {
 	title: string;
-	items: ProgressItem[];
+	data: ProgressItemData[];
 }
 
-const ProgressView = ({ title, items }: ProgressViewProps) => {
+const ProgressView = ({ title, data }: ProgressViewProps) => {
 	const theme = useGetTheme();
-	
+	const [isOpen, setOpen] = useState<boolean>(false);
+
 	return (
 		<Dropdown
-		isOpen={true}
-		setOpen={(): void => {}}
-		header = {
-			<StyledText>{title}</StyledText>
-		}
-	>
-		<ScrollableList>
-			{items.map((item) => (
-				<View style={{ backgroundColor: theme.darkGrey }}>
-
-				</View>
-			))}
-		</ScrollableList>
-	</Dropdown>
+			isOpen={isOpen}
+			setOpen={(): void => setOpen(!isOpen)}
+			header={
+				<AchievementDropdownSubtitle title={title} isOpen={isOpen} />
+			}
+		>
+			<View style={{ 
+				height: 120,
+				width: STANDARD_WIDTH,
+				alignSelf: 'center',
+				paddingTop: 8
+			}}>
+				{data.map((item) => (
+					<ProgressChartItem
+						id={item.id}
+						current={item.current}
+						total={item.total}
+						foregroundColor={theme.lightPurple}
+						backgroundColor={theme.darkGrey}
+					/>
+				))
+				}
+			</View>
+		</Dropdown>
 	);
 };
 

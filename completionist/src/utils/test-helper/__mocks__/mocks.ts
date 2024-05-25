@@ -1,4 +1,4 @@
-import { SettingsConfig, User, AchievementItem, BadgeItem } from '@utils/CustomInterfaces';
+import { SettingsConfig, User, AchievementItem, BadgeItem, ProgressItem } from '@utils/CustomInterfaces';
 import { initialUser } from '@redux/MainState';
 import { GameKeyEnum } from '@utils/CustomEnums';
 
@@ -148,4 +148,57 @@ export const mockBadges: BadgeItem[] = [
 		title: 'Completed 1000 quests',
 		icon: 'icon3.png',
 	}
+];
+
+export const mockProgressData: ProgressItem[] = [
+	{
+		id: 'fallout3',
+		data: [
+			{
+				id: 'quests',
+				current: 300,
+				total: 800
+			},
+			{
+				id: 'collectables',
+				current: 200,
+				total: 1011
+			},
+			{
+				id: 'locations',
+				current: 800,
+				total: 900
+			},
+			{
+				id: 'miscellaneous',
+				current: 50,
+				total: 800
+			}
+		]
+	},
+	{
+		id: 'fallout4',
+		data: [
+			{
+				id: 'quests',
+				current: 200,
+				total: 1000
+			},
+			{
+				id: 'collectables',
+				current: 340,
+				total: 1000
+			},
+			{
+				id: 'locations',
+				current: 123,
+				total: 200
+			},
+			{
+				id: 'miscellaneous',
+				current: 50,
+				total: 800
+			}
+		]
+	},
 ];
