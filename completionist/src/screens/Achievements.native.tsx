@@ -5,13 +5,11 @@ import StandardLayout from '@components/general/Layouts/StandardLayout.native';
 import NavigationHeader from '@navigation/NavigationHeader.native';
 import { DrawerScreenEnum } from '@utils/CustomEnums';
 import Dropdown from '@components/general/Dropdown/Dropdown.native';
-import StyledText from '@components/general/Text/StyledText.native';
 import AchievementView from '@components/custom/AchievementView/AchievementView.native';
 import ScrollableList from '@components/general/Lists/ScrollableList.native';
 import { games } from '@utils/constants';
 import { AchievementItem } from '@utils/CustomInterfaces';
-import { STANDARD_WIDTH } from '@styles/global.native';
-import useGetTheme from '@styles/hooks/useGetTheme';
+import AchievementDropdownTitle from '@components/custom/AchievementView/AchievementDropdownTitle.native';
 
 const mockAchievements: AchievementItem[] = [
 	{
@@ -37,15 +35,15 @@ const mockAchievements: AchievementItem[] = [
 		title: 'Discover all locations',
 		description: 'Discover all locations in Fallout 4',
 		icon: 'icon4.png'
-	}
+	},
 ]
 
 const Achievements = () => {
 	const { t } = useTranslation();
-	const theme = useGetTheme();
 	const [badgesOpen, setBadgesOpen] = useState<boolean>(true);
 	const [achievementsOpen, setAchievementsOpen] = useState<boolean>(true);
 	const [progressOpen, setProgressOpen] = useState<boolean>(true);
+	const [currentOpen, setCurrentOpen] = useState<string>('');
 
 	return (
 		<StandardLayout>
@@ -53,56 +51,56 @@ const Achievements = () => {
 				id={DrawerScreenEnum.Miscellaneous}
 				title={'Achievements'}
 			/>
-			<ScrollableList style={{ maxHeight: 600 }}>
-				{/* <Dropdown
+			<ScrollableList
+				style={{ maxHeight: 600 }}
+			//  scrollEnabled={false}
+			>
+				{/* Badges */}
+				<Dropdown
 					isOpen={badgesOpen}
 					setOpen={(): void => setBadgesOpen(!badgesOpen)}
 					header={
-						<StyledText
-							align='left'
-							type='SubHeading'
-							style={{ width: STANDARD_WIDTH }}
-						>
-							Badges
-						</StyledText>
+						<AchievementDropdownTitle
+							title={'Badges'}
+							isOpen={badgesOpen}
+						/>
 					}
 				>
 					<View />
-				</Dropdown> */}
+				</Dropdown>
 
+				{/* Achievements */}
 				<Dropdown
 					isOpen={achievementsOpen}
 					setOpen={(): void => setAchievementsOpen(!achievementsOpen)}
 					header={
-						<StyledText
-							align='left'
-							type='SubHeading'
-							color={theme.lightGrey}
-							style={{ width: STANDARD_WIDTH, paddingBottom: 8 }}
-						>
-							Achievements
-						</StyledText>
+						<AchievementDropdownTitle
+							title={'Achievements'}
+							isOpen={achievementsOpen}
+						/>
 					}
 				>
 					{games.map(game => (
 						<AchievementView
+							key={game}
+							id={game}
 							title={t(`common:categories.${game}.title`)}
 							items={mockAchievements}
+							currentOpen={currentOpen}
+							setCurrentOpen={setCurrentOpen}
 						/>
 					))}
 				</Dropdown>
 
+				{/* Progress */}
 				<Dropdown
 					isOpen={progressOpen}
 					setOpen={(): void => setProgressOpen(!progressOpen)}
 					header={
-						<StyledText
-							align='left'
-							type='SubHeading'
-							style={{ width: STANDARD_WIDTH }}
-						>
-							Progress
-						</StyledText>
+						<AchievementDropdownTitle
+							title={'Progress'}
+							isOpen={progressOpen}
+						/>
 					}
 				>
 					<View />

@@ -45,6 +45,7 @@ const ScrollableList = React.forwardRef<ScrollView, CustomListProps>(({
 			horizontal={isHorizontal}
 			bounces={bounces}
 			showsVerticalScrollIndicator={false}
+			// scrollEnabled={props.scrollEnabled}
 		>
 			<Condition
 				condition={children.length > updatedRenderAmount}

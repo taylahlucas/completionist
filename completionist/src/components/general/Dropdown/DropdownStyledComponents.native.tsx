@@ -60,6 +60,12 @@ export const DropdownContainer = styled.View`
 	z-index: 2;
 `;
 
+export const DropdownTitleContainer = styled.View`
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+`;
+
 interface DropdownPressableProps {
 	enabled: boolean;
 }
