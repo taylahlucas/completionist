@@ -21,8 +21,8 @@ const AchievementDropdownTitle = ({ title, isOpen }: AchievementDropdownTitlePro
 				type='SubHeading'
 				color={theme.lightGrey}
 				style={{
-					width: STANDARD_WIDTH,
-					paddingBottom: 8
+					paddingBottom: 8,
+					paddingLeft: 8
 				}}
 			>
 				{title}

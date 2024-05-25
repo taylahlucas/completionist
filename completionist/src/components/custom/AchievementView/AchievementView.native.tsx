@@ -40,7 +40,7 @@ const AchievementView = ({ id, title, items, currentOpen, setCurrentOpen }: Achi
 							<StyledText
 								align='left'
 								type='ListItemTitleBold'
-								style={{ paddingTop: 8, paddingLeft: 8 }}
+								style={{ paddingTop: 8, paddingLeft: 16 }}
 							>
 								{title}
 							</StyledText>

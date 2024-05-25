@@ -8,35 +8,10 @@ import Dropdown from '@components/general/Dropdown/Dropdown.native';
 import AchievementView from '@components/custom/AchievementView/AchievementView.native';
 import ScrollableList from '@components/general/Lists/ScrollableList.native';
 import { games } from '@utils/constants';
-import { AchievementItem } from '@utils/CustomInterfaces';
 import AchievementDropdownTitle from '@components/custom/AchievementView/AchievementDropdownTitle.native';
+import BadgeView from '@components/custom/BadgeView/BadgeView.native';
 
-const mockAchievements: AchievementItem[] = [
-	{
-		id: '1',
-		title: 'Complete main quests',
-		description: 'Complete all main quests in Fallout 4',
-		icon: 'icon1.png'
-	},
-	{
-		id: '2',
-		title: 'Complete all side quests',
-		description: 'Complete all side quests in Fallout 4',
-		icon: 'icon2.png'
-	},
-	{
-		id: '3',
-		title: 'Find all collectables',
-		description: 'Find all collectables in Fallout 4',
-		icon: 'icon3.png'
-	},
-	{
-		id: '4',
-		title: 'Discover all locations',
-		description: 'Discover all locations in Fallout 4',
-		icon: 'icon4.png'
-	},
-]
+import { mockAchievements, mockBadges } from '@utils/test-helper/__mocks__/mocks';
 
 const Achievements = () => {
 	const { t } = useTranslation();
@@ -66,7 +41,7 @@ const Achievements = () => {
 						/>
 					}
 				>
-					<View />
+					<BadgeView items={mockBadges} />
 				</Dropdown>
 
 				{/* Achievements */}

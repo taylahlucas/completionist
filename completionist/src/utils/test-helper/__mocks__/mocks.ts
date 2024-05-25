@@ -1,4 +1,4 @@
-import { SettingsConfig, User } from '@utils/CustomInterfaces';
+import { SettingsConfig, User, AchievementItem, BadgeItem } from '@utils/CustomInterfaces';
 import { initialUser } from '@redux/MainState';
 import { GameKeyEnum } from '@utils/CustomEnums';
 
@@ -88,3 +88,64 @@ export const mockSettingsSections: SettingsConfig = {
 		},
 	],
 }
+
+
+export const mockAchievements: AchievementItem[] = [
+	{
+		id: '1',
+		title: 'Complete main quests',
+		description: 'Complete all main quests in Fallout 4',
+		icon: 'icon1.png'
+	},
+	{
+		id: '2',
+		title: 'Complete all side quests',
+		description: 'Complete all side quests in Fallout 4',
+		icon: 'icon2.png'
+	},
+	{
+		id: '3',
+		title: 'Find all collectables',
+		description: 'Find all collectables in Fallout 4',
+		icon: 'icon3.png'
+	},
+	{
+		id: '4',
+		title: 'Discover all locations',
+		description: 'Discover all locations in Fallout 4',
+		icon: 'icon4.png'
+	},
+]
+
+export const mockBadges: BadgeItem[] = [
+	{
+		id: '1',
+		title: 'Completed 100 quests',
+		icon: 'icon1.png',
+	},
+	{
+		id: '2',
+		title: 'Completed 500 quests',
+		icon: 'icon2.png',
+	},
+	{
+		id: '3',
+		title: 'Completed 1000 quests',
+		icon: 'icon3.png',
+	},
+	{
+		id: '4',
+		title: 'Completed 100 quests',
+		icon: 'icon1.png',
+	},
+	{
+		id: '5',
+		title: 'Completed 500 quests',
+		icon: 'icon2.png',
+	},
+	{
+		id: '6',
+		title: 'Completed 1000 quests',
+		icon: 'icon3.png',
+	}
+];

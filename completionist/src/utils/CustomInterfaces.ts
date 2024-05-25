@@ -39,6 +39,12 @@ export interface AchievementItem {
 	icon: string;
 }
 
+export interface BadgeItem {
+	id: string;
+	title: string;
+	icon: string;
+}
+
 // State & Environment
 
 export interface Base {

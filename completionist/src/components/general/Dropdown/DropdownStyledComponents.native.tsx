@@ -1,5 +1,5 @@
 import styled from 'styled-components/native';
-import { DEFAULT_BORDER_RADIUS, STANDARD_WIDTH, MID_WIDTH, MID_PADDING, SMALL_PADDING, windowWidth } from '@styles/global.native';
+import { DEFAULT_BORDER_RADIUS, LARGE_WIDTH, STANDARD_WIDTH, MID_WIDTH, MID_PADDING, windowWidth } from '@styles/global.native';
 import StyledText from '../Text/StyledText.native';
 import ScrollableList from '../Lists/ScrollableList.native';
 
@@ -63,7 +63,9 @@ export const DropdownContainer = styled.View`
 export const DropdownTitleContainer = styled.View`
 	flex-direction: row;
 	align-items: center;
+	align-self: center;
 	justify-content: space-between;
+	width: ${LARGE_WIDTH}px;
 `;
 
 interface DropdownPressableProps {
