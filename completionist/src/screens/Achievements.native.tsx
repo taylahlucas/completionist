@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import StandardLayout from '@components/general/Layouts/StandardLayout.native';
 import NavigationHeader from '@navigation/NavigationHeader.native';
@@ -14,6 +14,7 @@ import { mockAchievements, mockBadges, mockProgressData } from '@utils/test-help
 import useFilterGameList from '@components/custom/GameList/hooks/useFilterGameList.native';
 import useMainState from '@redux/hooks/useMainState';
 import Button from '@components/general/Button/Button.native';
+import useEndpoints from '@data/api/hooks/useEndpoints.native';
 
 const Achievements = () => {
 	const { t } = useTranslation();
@@ -23,13 +24,10 @@ const Achievements = () => {
 	const [progressOpen, setProgressOpen] = useState<boolean>(true);
 	const [currentOpen, setCurrentOpen] = useState<string>('');
 	const { user } = useMainState();
+	const { getSteamUserById } = useEndpoints();
 	const { filterGameList } = useFilterGameList();
 	// TODO: For get games currently subscribed to by user
 	const activeGames = filterGameList(user.subscription.data, true, '');
-
-	useEffect(() => {
-		console.log("user.steamId: ", user.steamId)
-	}, [])
 
 	return (
 		<StandardLayout>
@@ -82,7 +80,6 @@ const Achievements = () => {
 							))
 							}
 						</>
-
 					}
 				</Dropdown>
 

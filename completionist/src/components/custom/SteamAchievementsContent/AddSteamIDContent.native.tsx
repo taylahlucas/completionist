@@ -11,11 +11,15 @@ import useEndpoints from '@data/api/hooks/useEndpoints.native';
 import useMainState from '@redux/hooks/useMainState';
 import ParagraphView from '@components/general/ParagraphView.native';
 import useEditUserData from '@data/hooks/useEditUserData.native';
+import SteamProfileModal from '@screens/SteamProfileModal.native';
+import Condition from '@co@screens/SteamProfileModal.nativeative';
 
 const AddSteamIDContent = () => {
 	const { t } = useTranslation();
 	const navigation = useReactNavigation();
 	const [steamId, setSteamId] = useState<string>('');
+	const [profileVisible, setProfileVisible] = useState<boolean>(false);
+	const [profile, setProfile] = useState(undefined);
 	const { user, selectedGameData } = useMainState();
 	const { getSteamUserById } = useEndpoints();
 	const { updateUserData } = useEditUserData();
@@ -28,15 +32,20 @@ const AddSteamIDContent = () => {
 					type='footer'
 					disabled={steamId.length < 17}
 					onPress={async (): Promise<void> => {
-						const verifiedSteamId = await getSteamUserById(selectedGameData?.appId ?? '', steamId);
+						const profile = await getSteamUserById(steamId);
 
-						if (!!verifiedSteamId) {
-							updateUserData({
-								...user,
-								steamId: verifiedSteamId
-							});
-							// Get steam profile deteails and say == is this your profile?
-							navigation.goBack();
+						if (!!profile) {
+							//76561198244929042
+							console.log("PROFIE: ", profile)
+							setProfile(profile);
+							setProfileVisible(true);
+							// updateUserData({
+							// 	...user,
+							// 	steamId: profile.steamId
+							// });
+
+							// TODO: Get steam profile deteails and say == is this your profile?
+							// navigation.goBack();
 						}
 					}}
 				/>
@@ -70,7 +79,15 @@ const AddSteamIDContent = () => {
 				source={require('@styles/images/steam-public-details.png')}
 				resizeMode='contain'
 			/>
-		</KeyboardAvoidingScrollView>
+			{(profileVisible && !!profile)
+				? <SteamProfileModal
+					profile={profile}
+					isVisible={profileVisible}
+					onClose={(): void => setProfileVisible(false)}
+				/>
+				: <></>
+			}
+		</KeyboardAvoidingScrollView >
 	);
 };
 

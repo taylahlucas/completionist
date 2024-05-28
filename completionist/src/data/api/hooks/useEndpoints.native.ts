@@ -1,13 +1,13 @@
 import { Alert, Platform } from 'react-native';
 import { useTranslation } from 'react-i18next';
-import { SteamAchievement, AchievementItem, User } from '@utils/CustomInterfaces';
+import { SteamAchievement, AchievementItem, User, SteamProfile } from '@utils/CustomInterfaces';
 import { AxiosErrorResponse, StringResponse, UserResponse } from '@utils/CustomTypes';
 import {
 	getUserByUserIdUrl,
 	updateUserUrl,
 	updateSignUpUrl,
 	sendEmailUrl,
-	steamUserByIdUrl,
+	steamProfileUrl,
 	steamPlayerAchievementsUrl,
 	steamAchievementsByIdUrl,
 	changePwUrl
@@ -120,14 +120,14 @@ const useEndpoints = (): EndpointsReturnType => {
 		}
 	};
 
-	const getSteamUserById = async (appId: string, steamId: string): Promise<StringResponse> => {
+	const getSteamUserById = async (steamId: string): Promise<SteamProfile | void> => {
 		try {
 			const response = await authInterceptor.get(
-				`${steamUserByIdUrl}${appId}&key=${config.steamApiToken}&steamid=${steamId}`
+				`${url}/${steamProfileUrl}?steamId=${steamId}`
 			);
 
-			if (!!response?.data?.playerstats?.steamID) {
-				return response?.data?.playerstats?.steamID;
+			if (!!response?.data) {
+				return response?.data as SteamProfile;
 			}
 			else {
 				Alert.alert('Steam ID not found.');
@@ -147,14 +147,6 @@ const useEndpoints = (): EndpointsReturnType => {
 			if (response?.data) {
 				return response?.data as AchievementItem[];
 			}
-			// if (!!response?.data?.playerstats) {
-			// 	const mappedStats = response?.data?.playerstats.achievements.map((item: any) => {
-			// 		return {
-			// 			achieved: item.achieved === 1,
-			// 			name: item.apiname
-			// 		}
-			// 	});
-			// 	return mappedStats as SteamPlayerAchievement;
 		}
 		catch (error: AxiosErrorResponse) {
 			if (error?.response?.status === requestCodes.UNAUTHORIZED) {

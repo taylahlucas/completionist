@@ -3,6 +3,38 @@ const cheerio = require('cheerio');
 const checkAuthToken = require('../helpers/check_auth');
 const request_codes = require('../helpers/request_codes');
 
+const getSteamProfile = async (req, res) => {
+	const isAuthorized = await checkAuthToken(req, res);
+	if (isAuthorized) {
+		try {
+			const { steamId } = req.query;		
+			const url = `https://steamcommunity.com/profiles/76561198244929042`;
+			//${steamId}
+
+			const { data } = await axios.get(url);
+			const $ = cheerio.load(data);
+
+			if ($('#mainContents h2').text().trim()) {
+				return res.status(request_codes.FAILURE).json('No Steam ID found.');
+			}
+
+			const profile = {
+				steamId: steamId,
+				userName: $('.actual_persona_name').text().trim(),
+				name: $('.header_real_name bdi').text().trim(),
+				profileImg: $('.playerAvatarAutoSizeInner img').attr('src'),
+				country: $('.header_real_name').contents().last().text().trim(),
+				level: $('.friendPlayerLevelNum:first').text().trim()
+			}
+
+			return res.status(request_codes.SUCCESS).json(profile);
+		} catch (error) {
+			console.error('Error fetching achievements:', error);
+			return res.status(request_codes.FAILURE).json(error.message);
+		}
+	}
+};
+
 const getSteamAchievements = async (req, res) => {
 	const isAuthorized = await checkAuthToken(req, res);
 	if (isAuthorized) {
@@ -31,4 +63,4 @@ const getSteamAchievements = async (req, res) => {
 	}
 };
 
-module.exports = { getSteamAchievements };
+module.exports = { getSteamProfile, getSteamAchievements };

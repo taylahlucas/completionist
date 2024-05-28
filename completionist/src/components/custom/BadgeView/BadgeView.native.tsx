@@ -23,6 +23,7 @@ const BadgeView = ({ items }: BadgeViewProps) => {
 		>
 			{items.map((item) => (
 				<View
+					key={item.id}
 					style={{
 						backgroundColor: theme.lightPurple,
 						width: 100,

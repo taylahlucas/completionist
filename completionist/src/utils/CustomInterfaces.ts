@@ -39,6 +39,16 @@ export interface AchievementItem {
 	icon: string;
 }
 
+export interface SteamProfile {
+	steamId: string;
+	userName: string;
+	name: string;
+	profileImg: string;
+	country: string;
+	countryFlag: string;
+	level: string;
+}
+
 export interface BadgeItem {
 	id: string;
 	title: string;
@@ -113,9 +123,9 @@ export type DrawerStackParamList = {
   Miscellaneous: undefined;
   Locations: undefined;
   SendRequest: undefined;
-	SteamAchievements: undefined;
 	Achievements: undefined;
 	Subscriptions: undefined;
+	SteamAchievements: undefined;
 	SelectPlan: undefined;
   Payments: undefined;
   Settings: undefined;
