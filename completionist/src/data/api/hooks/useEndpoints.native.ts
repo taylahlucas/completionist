@@ -1,6 +1,6 @@
 import { Alert, Platform } from 'react-native';
 import { useTranslation } from 'react-i18next';
-import { SteamAchievement, SteamPlayerAchievement, User } from '@utils/CustomInterfaces';
+import { SteamAchievement, AchievementItem, User } from '@utils/CustomInterfaces';
 import { AxiosErrorResponse, StringResponse, UserResponse } from '@utils/CustomTypes';
 import {
 	getUserByUserIdUrl,
@@ -18,7 +18,8 @@ import {
 	SendEmailProps,
 	EndpointsReturnType,
 	UpdateSignUpProps,
-	ChangePwProps
+	ChangePwProps,
+	SteamAchievementsProps
 } from '@data/api/EndpointInterfaces.native';
 import useHandleAxiosError from './useHandleAxiosError';
 import config from '@utils/config';
@@ -138,21 +139,22 @@ const useEndpoints = (): EndpointsReturnType => {
 		}
 	};
 
-	const getSteamPlayerAchievements = async (appId: string, steamId: string): Promise<SteamPlayerAchievement | void> => {
+	const getSteamPlayerAchievements = async ({ steamId, gameId }: SteamAchievementsProps): Promise<AchievementItem[] | void> => {
 		try {
 			const response = await authInterceptor.get(
-				`${steamPlayerAchievementsUrl}${appId}&key=${config.steamApiToken}&steamid=${steamId}`
+				`${url}/${steamPlayerAchievementsUrl}?steamId=${steamId}&gameId=${gameId}`,
 			);
-
-			if (!!response?.data?.playerstats) {
-				const mappedStats = response?.data?.playerstats.achievements.map((item: any) => {
-					return {
-						achieved: item.achieved === 1,
-						name: item.apiname
-					}
-				});
-				return mappedStats as SteamPlayerAchievement;
+			if (response?.data) {
+				return response?.data as AchievementItem[];
 			}
+			// if (!!response?.data?.playerstats) {
+			// 	const mappedStats = response?.data?.playerstats.achievements.map((item: any) => {
+			// 		return {
+			// 			achieved: item.achieved === 1,
+			// 			name: item.apiname
+			// 		}
+			// 	});
+			// 	return mappedStats as SteamPlayerAchievement;
 		}
 		catch (error: AxiosErrorResponse) {
 			if (error?.response?.status === requestCodes.UNAUTHORIZED) {

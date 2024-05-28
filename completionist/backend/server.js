@@ -6,6 +6,7 @@ const mongoose = require('mongoose');
 const authRoutes = require('./routes/auth');
 const userRoutes = require('./routes/users');
 const sendEmailRoutes = require('./routes/send_email');
+const steamRoutes = require('./routes/steam');
 
 const PORT = process.env.PORT || 4002;
 
@@ -27,7 +28,7 @@ app.use(session({
 app.use('/api', authRoutes);
 app.use('/users', userRoutes);
 app.use('/send_email', sendEmailRoutes);
-
+app.use('/steam', steamRoutes);
 
 const server = app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);

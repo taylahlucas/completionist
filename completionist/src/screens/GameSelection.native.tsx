@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { View, ViewStyle } from 'react-native';
 import { useTranslation } from 'react-i18next';
 import StandardLayout from '@components/general/Layouts/StandardLayout.native';
@@ -12,12 +12,19 @@ import StyledText from '@components/general/Text/StyledText.native';
 import Icon from '@components/general/Icon/Icon.native';
 import { GameSelectionChangesLeftContainer } from '@components/custom/GameList/GameListItemStyledComponents.native';
 import useGetTheme from '@styles/hooks/useGetTheme';
+import useEndpoints from '@data/api/hooks/useEndpoints.native';
 
 const GameSelection = () => {
 	const theme = useGetTheme();
 	const { t } = useTranslation();
 	const { user } = useMainState();
 	const [searchValue, setSearchValue] = useState('');
+
+	const { getSteamPlayerAchievements } = useEndpoints();
+
+	// useEffect(() => {
+	// 	getSteamPlayerAchievements({ steamId: '76561198244929042', gameId: '72850'});
+	// }, [])
 
 	// const { getSteamUser } = useEndpoints();
 

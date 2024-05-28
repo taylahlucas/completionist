@@ -53,6 +53,11 @@ export interface ForgotPwProps {
 	newPw: string;
 }
 
+export interface SteamAchievementsProps {
+	steamId: string;
+	gameId: string;
+}
+
 export interface AuthEndpointsReturnType {
 	checkUserExists: (email: string) => Promise<CredentialsExistProps>;
 	linkAndSignIn: ({ email, pw, googleId }: SignInProps) => Promise<UserResponse>;
@@ -69,6 +74,6 @@ export interface EndpointsReturnType {
 	changePw: ({ userId, oldPw, newPw }: ChangePwProps) => Promise<void>;
 	sendEmail: ({ emailTo, subject, text }: SendEmailProps) => Promise<void>;
 	getSteamUserById: (appId: string, steamId: string) => Promise<StringResponse>;
-	getSteamPlayerAchievements: (appId: string, steamId: string) => Promise<any>;
+	getSteamPlayerAchievements: ({ steamId, gameId }: SteamAchievementsProps) => Promise<any>;
 	getSteamAchievementsById: (appId: string) => Promise<any>;
 }

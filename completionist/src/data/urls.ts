@@ -15,5 +15,5 @@ export const sendEmailUrl = 'send_email/send';
 
 // Steam
 export const steamUserByIdUrl = 'https://api.steampowered.com/ISteamUserStats/GetUserStatsForGame/v0001/?appid=';
-export const steamPlayerAchievementsUrl = 'https://api.steampowered.com/ISteamUserStats/GetPlayerAchievements/v0001/?appid=';
+export const steamPlayerAchievementsUrl = 'steam/achievements';
 export const steamAchievementsByIdUrl = 'https://api.steampowered.com/ISteamUserStats/GetSchemaForGame/v0002/?key=';

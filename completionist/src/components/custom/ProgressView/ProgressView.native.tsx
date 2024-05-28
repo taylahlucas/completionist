@@ -36,6 +36,7 @@ const ProgressView = ({ gameId, title, data }: ProgressViewProps) => {
 			}}>
 				{data.map((item, index) => (
 					<ProgressChartItem
+						key={item.id}
 						id={item.id}
 						current={getGameProgress(gameId, item.id)}
 						total={item.total}

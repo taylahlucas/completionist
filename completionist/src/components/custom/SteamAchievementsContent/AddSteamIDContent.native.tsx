@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import { Image, View } from 'react-native';
+import { Image } from 'react-native';
 import { useTranslation } from 'react-i18next';
+import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
 import StyledText from '@components/general/Text/StyledText.native';
 import TextInput from '@components/general/TextInput/TextInput.native';
 import KeyboardAvoidingScrollView from '@components/general/Lists/KeyboardAvoidingScrollView.native';
@@ -9,12 +10,15 @@ import Button from '@components/general/Button/Button.native';
 import useEndpoints from '@data/api/hooks/useEndpoints.native';
 import useMainState from '@redux/hooks/useMainState';
 import ParagraphView from '@components/general/ParagraphView.native';
+import useEditUserData from '@data/hooks/useEditUserData.native';
 
 const AddSteamIDContent = () => {
 	const { t } = useTranslation();
+	const navigation = useReactNavigation();
 	const [steamId, setSteamId] = useState<string>('');
 	const { user, selectedGameData } = useMainState();
 	const { getSteamUserById } = useEndpoints();
+	const { updateUserData } = useEditUserData();
 
 	return (
 		<KeyboardAvoidingScrollView
@@ -27,10 +31,12 @@ const AddSteamIDContent = () => {
 						const verifiedSteamId = await getSteamUserById(selectedGameData?.appId ?? '', steamId);
 
 						if (!!verifiedSteamId) {
-							// saveUserData({
-							// 	...user,
-							// 	steamId: verifiedSteamId
-							// });
+							updateUserData({
+								...user,
+								steamId: verifiedSteamId
+							});
+							// Get steam profile deteails and say == is this your profile?
+							navigation.goBack();
 						}
 					}}
 				/>
