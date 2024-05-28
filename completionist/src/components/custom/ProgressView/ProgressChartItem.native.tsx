@@ -53,7 +53,7 @@ const ProgressChartItem = ({
 					style={styles.percentage}
 					type='ListItemSubDescriptionBold'
 				>
-					{`${percentage.toFixed(0)}%`}
+					{`${Math.ceil(percentage)}%`}
 				</StyledText>
 			</View>
 		</>

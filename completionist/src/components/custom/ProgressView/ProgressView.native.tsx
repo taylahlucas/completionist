@@ -6,15 +6,18 @@ import { ProgressItemData } from '@utils/CustomInterfaces';
 import AchievementDropdownSubtitle from '@components/custom/AchievementView/AchievementDropdownSubtitle.native';
 import ProgressChartItem from './ProgressChartItem.native';
 import { STANDARD_WIDTH } from '@styles/global.native';
+import useGetGameProgress from './hooks/useGetGameProgress.native';
 
 interface ProgressViewProps {
+	gameId: string;
 	title: string;
 	data: ProgressItemData[];
 }
 
-const ProgressView = ({ title, data }: ProgressViewProps) => {
+const ProgressView = ({ gameId, title, data }: ProgressViewProps) => {
 	const theme = useGetTheme();
 	const [isOpen, setOpen] = useState<boolean>(false);
+	const { getGameProgress } = useGetGameProgress();
 	const colors = [theme.lightPurple, '#E63656', '#26AB9D', '#D1A34D'];
 
 	return (
@@ -34,7 +37,7 @@ const ProgressView = ({ title, data }: ProgressViewProps) => {
 				{data.map((item, index) => (
 					<ProgressChartItem
 						id={item.id}
-						current={item.current}
+						current={getGameProgress(gameId, item.id)}
 						total={item.total}
 						foregroundColor={colors[index]}
 						backgroundColor={theme.darkGrey}

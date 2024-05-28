@@ -202,12 +202,9 @@ export interface GeneralData {
   settingsConfig: SettingsConfig;
 }
 
-export interface UserData {
-	fallout3: GeneralData;
-	fallout4: GeneralData;
-  skyrim: GeneralData;
-	witcher3: GeneralData;
-}
+export type UserData = {
+  [key: string]: GeneralData;
+};
 
 export interface SignupData {
 	verification: boolean;

@@ -6,7 +6,6 @@ import GameListSectionHeader from './GameListSectionHeader.native';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import useHandleGameSelection from './hooks/useHandleGameSelection.native';
 import { GameListDropdownContainer } from './GameListItemStyledComponents.native';
-import WikiWebView from '@components/general/WikiWebView/WikiWebView.native';
 
 interface GameListSectionDropdown {
 	testID?: string;

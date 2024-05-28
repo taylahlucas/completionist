@@ -64,17 +64,10 @@ export const initialState: MainState = {
 }
 
 const getUserDataState = (state: MainState): GeneralData => {
-	switch (state.selectedGame) {
-		case GameKeyEnum.FALLOUT_3:
-			return state.user.data.fallout3;
-		case GameKeyEnum.FALLOUT_4:
-			return state.user.data.fallout4;
-		case GameKeyEnum.SKYRIM:
-			return state.user.data.skyrim;
-		case GameKeyEnum.WITCHER_3:
-			return state.user.data.witcher3;
-		default: return initialUser.data.skyrim;
+	if (state.selectedGame) {
+		return state.user.data[state.selectedGame];
 	}
+	return initialUser.data['skyrim'];
 };
 
 const slice = createSlice({

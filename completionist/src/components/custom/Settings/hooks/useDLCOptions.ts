@@ -15,6 +15,7 @@ const useDLCOptions = (): DLCOptionsReturnType => {
   const { selectedGameSettings, user } = useMainState();
 
   const updateDLCSettingsConfig = (gameKey: GameKeyEnum, id: string) => {
+		// TODO: Check if this is working
     setUser({
       ...user,
       data: {
@@ -45,47 +46,13 @@ const useDLCOptions = (): DLCOptionsReturnType => {
   };
 
   const getDLCOptions = (): SettingsListItem[] => {
-		// TODO: Refactor
-    switch (selectedGameSettings) {
-			case GameKeyEnum.FALLOUT_3:
-        return user.data.fallout3.settingsConfig.dlc.map((item) => {
-          return {
-            id: item.id,
-            title: t(`common:categories.fallout3.dlc.${item.id}`),
-            isActive: item.isActive
-          }
-        });
-
-			case GameKeyEnum.FALLOUT_4:
-        return user.data.fallout4.settingsConfig.dlc.map((item) => {
-          return {
-            id: item.id,
-            title: t(`common:categories.fallout4.dlc.${item.id}`),
-            isActive: item.isActive
-          }
-        });
-				
-      case GameKeyEnum.SKYRIM:
-        return user.data.skyrim.settingsConfig.dlc.map((item) => {
-          return {
-            id: item.id,
-            title: t(`common:categories.skyrim.dlc.${item.id}`),
-            isActive: item.isActive
-          }
-        });
-
-				case GameKeyEnum.WITCHER_3:
-					return user.data.witcher3.settingsConfig.dlc.map((item) => {
-						return {
-							id: item.id,
-							// TODO: Title
-							// title: item.title,
-							title: t(`common:categories:witcher3.dlc.${item.id}`),
-							isActive: item.isActive
-						}
-					});
-    }
-    return []
+		return user.data[selectedGameSettings].settingsConfig.dlc.map((item) => {
+			return {
+				id: item.id,
+				title: t(`common:categories.${selectedGameSettings}.dlc.${item.id}`),
+				isActive: item.isActive
+			}
+		});
   };
 
   const setDLCOptions = (id: string) => {

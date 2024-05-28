@@ -82,9 +82,11 @@ const Achievements = () => {
 						/>
 					}
 				>
+					{/* // TODO: Change to activeGames */}
 					{mockProgressData.map((game) => (
 						<ProgressView
 							key={game.id}
+							gameId={game.id}
 							title={t(`common:categories.${game.id}.title`)}
 							data={game.data}
 						/>
