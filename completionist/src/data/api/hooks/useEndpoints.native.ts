@@ -161,19 +161,6 @@ const useEndpoints = (): EndpointsReturnType => {
 		}
 	};
 
-	const getSteamAchievementsById = async (appId: string): Promise<(SteamAchievement[] | void)> => {
-		try {
-			const response = await authInterceptor.get(
-				`${steamAchievementsByIdUrl}${config.steamApiToken}&appid=${appId}&l=english&format=json`
-			);
-
-			return response.data.game.availableGameStats.achievements as SteamAchievement[];
-		}
-		catch (error: AxiosErrorResponse) {
-			console.log('Could not get achievements for this game.', error.message);
-		}
-	};
-
 	return {
 		getUserByUserId,
 		updateUser,
@@ -181,8 +168,7 @@ const useEndpoints = (): EndpointsReturnType => {
 		changePw,
 		sendEmail,
 		getSteamUserById,
-		getSteamPlayerAchievements,
-		getSteamAchievementsById
+		getSteamPlayerAchievements
 	};
 };
 

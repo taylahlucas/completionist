@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import StandardLayout from '@components/general/Layouts/StandardLayout.native';
 import NavigationHeader from '@navigation/NavigationHeader.native';
-import { DrawerScreenEnum } from '@utils/CustomEnums';
+import { DrawerScreenEnum, GameKeyEnum } from '@utils/CustomEnums';
 import Dropdown from '@components/general/Dropdown/Dropdown.native';
 import AchievementView from '@components/custom/AchievementView/AchievementView.native';
 import ScrollableList from '@components/general/Lists/ScrollableList.native';
@@ -14,7 +14,7 @@ import { mockBadges, mockProgressData } from '@utils/test-helper/__mocks__/mocks
 import useFilterGameList from '@components/custom/GameList/hooks/useFilterGameList.native';
 import useMainState from '@redux/hooks/useMainState';
 import Button from '@components/general/Button/Button.native';
-import useEndpoints from '@data/api/hooks/useEndpoints.native';
+import useGetGameProgressData from '@data/hooks/useGetGameProgressData.native';
 
 const Achievements = () => {
 	const { t } = useTranslation();
@@ -26,6 +26,11 @@ const Achievements = () => {
 	const { user } = useMainState();
 	const { filterGameList } = useFilterGameList();
 	const activeGames = filterGameList(user.subscription.data, true, '');
+	const { getGameProgress } = useGetGameProgressData();
+
+	useEffect(() => {
+		console.log("HERE:", activeGames.map(game => game.id as GameKeyEnum))
+	}, [])
 
 	return (
 		<StandardLayout>
@@ -93,8 +98,7 @@ const Achievements = () => {
 						/>
 					}
 				>
-					{/* // TODO: Change to activeGames */}
-					{mockProgressData.map((game) => (
+					{getGameProgress(activeGames.map(game => game.id as GameKeyEnum)).map((game) => (
 						<ProgressView
 							key={game.id}
 							gameId={game.id}

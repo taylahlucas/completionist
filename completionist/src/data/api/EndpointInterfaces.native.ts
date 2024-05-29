@@ -75,5 +75,4 @@ export interface EndpointsReturnType {
 	sendEmail: ({ emailTo, subject, text }: SendEmailProps) => Promise<void>;
 	getSteamUserById: (steamId: string) => Promise<SteamProfile | void>;
 	getSteamPlayerAchievements: ({ steamId, gameId }: SteamAchievementsProps) => Promise<any>;
-	getSteamAchievementsById: (appId: string) => Promise<any>;
 }

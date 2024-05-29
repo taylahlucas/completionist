@@ -19,12 +19,7 @@ const SteamAchievements = () => {
 					: t('common:screens.steamAchievements')}
 				leftAction='back'
 			/>
-			{/* <Condition
-				condition={!user.steamId}
-				conditionalElement={<SteamAchievementsContent />}
-			> */}
-				<AddSteamIDContent />
-			{/* </Condition> */}
+			<AddSteamIDContent />
 		</StandardLayout>
 	);
 };

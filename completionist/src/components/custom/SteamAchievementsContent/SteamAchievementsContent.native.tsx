@@ -7,6 +7,8 @@ import StyledText from '@components/general/Text/StyledText.native';
 import Spacing from '@components/general/Spacing.native';
 import useMainState from '@redux/hooks/useMainState';
 
+// TODO: Remove this?
+
 const SteamAchievementsContent = () => {
 	const [achievements, setAchievements] = useState([]);
 	const [completed, setCompleted] = useState([]);

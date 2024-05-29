@@ -89,34 +89,6 @@ export const mockSettingsSections: SettingsConfig = {
 	],
 }
 
-
-export const mockAchievements: AchievementItem[] = [
-	{
-		id: '1',
-		title: 'Complete main quests',
-		description: 'Complete all main quests in Fallout 4',
-		icon: 'icon1.png'
-	},
-	{
-		id: '2',
-		title: 'Complete all side quests',
-		description: 'Complete all side quests in Fallout 4',
-		icon: 'icon2.png'
-	},
-	{
-		id: '3',
-		title: 'Find all collectables',
-		description: 'Find all collectables in Fallout 4',
-		icon: 'icon3.png'
-	},
-	{
-		id: '4',
-		title: 'Discover all locations',
-		description: 'Discover all locations in Fallout 4',
-		icon: 'icon4.png'
-	},
-]
-
 export const mockBadges: BadgeItem[] = [
 	{
 		id: '1',
