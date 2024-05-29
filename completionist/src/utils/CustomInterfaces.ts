@@ -34,9 +34,10 @@ export interface PriceProps {
 
 export interface AchievementItem {
 	id: string;
-	title: string;
+	name: string;
 	description?: string;
 	icon: string;
+	unlocked: boolean;
 }
 
 export interface SteamProfile {

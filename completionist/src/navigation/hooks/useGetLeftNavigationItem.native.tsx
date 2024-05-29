@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { Alert, Animated, Keyboard } from 'react-native';
+import { useTranslation } from 'react-i18next';
 import { NavigationHeaderLeftActionTypes } from '@utils/CustomTypes';
 import {
   styles,
@@ -13,7 +14,6 @@ import useReactNavigation, { DrawerActions } from './useReactNavigation.native';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import IconButton from '@components/general/Icon/IconButton.native';
 import useRotateMenuButton from './useRotateMenuButton.native';
-import { useTranslation } from 'react-i18next';
 import useSafeDrawerStatus from './useSafeDrawerStatus.native';
 
 const useGetLeftNavigationItem = (

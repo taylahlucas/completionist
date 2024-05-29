@@ -8,8 +8,7 @@ const getSteamProfile = async (req, res) => {
 	if (isAuthorized) {
 		try {
 			const { steamId } = req.query;		
-			const url = `https://steamcommunity.com/profiles/76561198244929042`;
-			//${steamId}
+			const url = `https://steamcommunity.com/profiles/${steamId}`;
 
 			const { data } = await axios.get(url);
 			const $ = cheerio.load(data);
@@ -45,12 +44,12 @@ const getSteamAchievements = async (req, res) => {
 
 			const $ = cheerio.load(data);
 			const achievements = [];
-
+			
 			 $('.achieveRow').each((_, element) => {
 				const name = $(element).find('.achieveTxt').find('h3').text().trim();
 				const description = $(element).find('.achieveTxt').find('h5').text().trim();
 				const unlocked = $(element).find('.achieveUnlockTime').length > 0;
-				const icon = $('.achieveImgHolder img').attr('src');
+				const icon = $(element).find('.achieveImgHolder img').attr('src');
 
 				achievements.push({ name, description, unlocked, icon });
 			});

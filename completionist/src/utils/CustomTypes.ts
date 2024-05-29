@@ -20,6 +20,7 @@ export type MaterialCommunityIcons =
 
 export type IoniconType =
   | 'arrow-back'
+	| 'arrow-down'
   | 'checkmark-circle-outline'
   | 'checkbox-outline'
   | 'checkmark-sharp'

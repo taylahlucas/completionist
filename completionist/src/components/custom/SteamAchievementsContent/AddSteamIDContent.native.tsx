@@ -1,28 +1,22 @@
 import React, { useState } from 'react';
 import { Image } from 'react-native';
 import { useTranslation } from 'react-i18next';
-import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
 import StyledText from '@components/general/Text/StyledText.native';
 import TextInput from '@components/general/TextInput/TextInput.native';
 import KeyboardAvoidingScrollView from '@components/general/Lists/KeyboardAvoidingScrollView.native';
 import Spacing from '@components/general/Spacing.native';
 import Button from '@components/general/Button/Button.native';
 import useEndpoints from '@data/api/hooks/useEndpoints.native';
-import useMainState from '@redux/hooks/useMainState';
 import ParagraphView from '@components/general/ParagraphView.native';
-import useEditUserData from '@data/hooks/useEditUserData.native';
 import SteamProfileModal from '@screens/SteamProfileModal.native';
-import Condition from '@co@screens/SteamProfileModal.nativeative';
+import { SteamProfile } from '@utils/CustomInterfaces';
 
 const AddSteamIDContent = () => {
 	const { t } = useTranslation();
-	const navigation = useReactNavigation();
 	const [steamId, setSteamId] = useState<string>('');
 	const [profileVisible, setProfileVisible] = useState<boolean>(false);
-	const [profile, setProfile] = useState(undefined);
-	const { user, selectedGameData } = useMainState();
+	const [profile, setProfile] = useState<SteamProfile | undefined>(undefined);
 	const { getSteamUserById } = useEndpoints();
-	const { updateUserData } = useEditUserData();
 
 	return (
 		<KeyboardAvoidingScrollView
@@ -35,17 +29,8 @@ const AddSteamIDContent = () => {
 						const profile = await getSteamUserById(steamId);
 
 						if (!!profile) {
-							//76561198244929042
-							console.log("PROFIE: ", profile)
 							setProfile(profile);
 							setProfileVisible(true);
-							// updateUserData({
-							// 	...user,
-							// 	steamId: profile.steamId
-							// });
-
-							// TODO: Get steam profile deteails and say == is this your profile?
-							// navigation.goBack();
 						}
 					}}
 				/>

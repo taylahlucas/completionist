@@ -1,30 +1,41 @@
-import React, { useState } from 'react';
-import { View } from 'react-native';
+import React, { useState, useEffect } from 'react';
+import { View, StyleSheet, Image } from 'react-native';
 import Dropdown from '@components/general/Dropdown/Dropdown.native';
 import StyledText from '@components/general/Text/StyledText.native';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import ScrollableList from '@components/general/Lists/ScrollableList.native';
 import { AchievementItem } from '@utils/CustomInterfaces'
-import { AchievementViewContainer } from './AchievementViewStyledComponents.native';
 import Seperator from '@components/general/Seperator.native';
-import { SMALL_WIDTH, STANDARD_WIDTH } from '@styles/global.native';
+import { SMALL_WIDTH, STANDARD_WIDTH, SMALL_PADDING, MID_PADDING } from '@styles/global.native';
 import Condition from '@components/general/Condition.native';
 import Icon from '@components/general/Icon/Icon.native';
 import { DropdownTitleContainer } from '@components/general/Dropdown/DropdownStyledComponents.native';
 import { IconTypeEnum } from '@utils/CustomEnums';
+import useEndpoints from '@data/api/hooks/useEndpoints.native';
 
 interface AchievementViewProps {
-	id: string;
+	gameId: string;
+	steamId: string
 	title: string;
-	items: AchievementItem[];
 	currentOpen: string;
 	setCurrentOpen: (value: string) => void;
 }
 
-const AchievementView = ({ id, title, items, currentOpen, setCurrentOpen }: AchievementViewProps) => {
+const AchievementView = ({ gameId, steamId, title, currentOpen, setCurrentOpen }: AchievementViewProps) => {
 	const theme = useGetTheme();
 	const [isOpen, setIsOpen] = useState<boolean>(false);
-	const open = isOpen && id === currentOpen
+	const { getSteamPlayerAchievements } = useEndpoints();
+	const open = isOpen && gameId === currentOpen;
+	const [items, setItems] = useState<AchievementItem[]>([]);
+
+	useEffect(() => {
+		const fetchData = async () => {
+			const response = await getSteamPlayerAchievements({ steamId: steamId, gameId: gameId });
+			setItems(response);
+		}
+
+		fetchData();
+	}, [])
 
 	return (
 		<>
@@ -32,7 +43,7 @@ const AchievementView = ({ id, title, items, currentOpen, setCurrentOpen }: Achi
 				isOpen={open}
 				setOpen={(): void => {
 					setIsOpen(!isOpen);
-					setCurrentOpen(id);
+					setCurrentOpen(gameId);
 				}}
 				header={
 					<>
@@ -40,14 +51,17 @@ const AchievementView = ({ id, title, items, currentOpen, setCurrentOpen }: Achi
 							<StyledText
 								align='left'
 								type='ListItemTitleBold'
-								style={{ paddingTop: 8, paddingLeft: 16 }}
+								style={styles.dropdownTitle}
 							>
 								{title}
 							</StyledText>
-							<Icon 
-								name={open ? 'arrow-drop-down' : 'arrow-right'} 
+							<StyledText style={styles.amountTitle}>{
+								`${items.filter(item => item.unlocked).length} / ${items.length}`
+								}</StyledText>
+							<Icon
+								name={open ? 'arrow-drop-down' : 'arrow-right'}
 								type={IconTypeEnum.MaterialIcons}
-								style={{ top: 6 }}
+								style={{ top: 4 }}
 								color={theme.midGrey}
 							/>
 						</DropdownTitleContainer>
@@ -56,66 +70,107 @@ const AchievementView = ({ id, title, items, currentOpen, setCurrentOpen }: Achi
 				}
 			>
 				<ScrollableList
-					style={{ maxHeight: 200 }}
+					style={{ maxHeight: 300 }}
 					contentContainerStyle={{ paddingBottom: 10 }}
 				>
-					{items.map((item) => (
-						<AchievementViewContainer
+					{items?.map((item) => (
+						<View
 							key={item.id}
 							style={{
+								...styles.container,
 								backgroundColor: theme.darkGrey,
-								borderColor: theme.midGrey
+								borderColor: item.unlocked ? theme.lightPurple : theme.midGrey
 							}}
 						>
-							<StyledText
-								align='left'
-								type='ListItemTitleBold'
-								style={{
-									paddingTop: 8,
-									paddingLeft: 12,
-									paddingRight: 12,
-									paddingBottom: item.description ? 8 : 0
-								}}
-							>
-								{item.title}
-							</StyledText>
-
-							{item.description ?
+							<Image style={styles.icon} source={{ uri: item.icon }} />
+							<View style={styles.iconContainer}>
 								<StyledText
 									align='left'
-									numberOfLines={2}
+									type='ListItemTitleBold'
+									color={item.unlocked ? theme.lightGrey : theme.midGrey}
 									style={{
-										width: SMALL_WIDTH,
-										paddingLeft: 12,
-										paddingRight: 12,
-										paddingBottom: 8
+										...styles.itemTitle,
+										paddingBottom: item.description ? SMALL_PADDING : 0
 									}}
 								>
-									{item.description}
+									{item.name}
 								</StyledText>
-								: null
-							}
-						</AchievementViewContainer>
+
+								{item.description ?
+									<StyledText
+										align='left'
+										numberOfLines={2}
+										style={styles.itemDescription}
+									>
+										{item.description}
+									</StyledText>
+									: null
+								}
+							</View>
+						</View>
 					))}
 				</ScrollableList>
 			</Dropdown>
 			<Condition condition={open}>
-				<View
-					style={{
-						height: 1,
-						width: STANDARD_WIDTH,
-						backgroundColor: theme.black,
-						shadowColor: 'black',
-						shadowOpacity: 0.4,
-						shadowRadius: 4,
-						shadowOffset: {
-							height: -3,
-							width: 3
-						}
-					}} />
+				<View style={{
+					...styles.shadowContainer,
+					backgroundColor: theme.black
+				}} />
 			</Condition>
 		</>
 	);
 };
 
 export default AchievementView;
+
+const styles = StyleSheet.create({
+	container: {
+		flexDirection: 'row',
+		width: '100%',
+		borderRadius: 10,
+		borderWidth: 2,
+		marginBottom: SMALL_PADDING,
+		marginTop: SMALL_PADDING,
+		paddingLeft: 12,
+		alignItems: 'center',
+	},
+	dropdownTitle: {
+		paddingTop: SMALL_PADDING,
+		paddingLeft: MID_PADDING
+	},
+	amountTitle: {
+		position: 'absolute',
+		top: 8,
+		right: 48
+	},
+	itemTitle: {
+		paddingTop: SMALL_PADDING,
+		paddingLeft: 12,
+		paddingRight: 12,
+	},
+	itemDescription: {
+		width: SMALL_WIDTH,
+		paddingLeft: 12,
+		paddingRight: 12,
+		paddingBottom: SMALL_PADDING
+	},
+	iconContainer: {
+		flexDirection: 'column'
+	},
+	icon: {
+		width: 40,
+		height: 40,
+		borderRadius: 2
+	},
+	shadowContainer: {
+		height: 1,
+		width: STANDARD_WIDTH,
+		shadowColor: 'black',
+		shadowOpacity: 0.4,
+		shadowRadius: 4,
+		shadowOffset: {
+			height: -3,
+			width: 3
+		}
+	}
+})

@@ -1,7 +1,7 @@
 import { Alert, Platform } from 'react-native';
 import { useTranslation } from 'react-i18next';
 import { SteamAchievement, AchievementItem, User, SteamProfile } from '@utils/CustomInterfaces';
-import { AxiosErrorResponse, StringResponse, UserResponse } from '@utils/CustomTypes';
+import { AxiosErrorResponse, UserResponse } from '@utils/CustomTypes';
 import {
 	getUserByUserIdUrl,
 	updateUserUrl,

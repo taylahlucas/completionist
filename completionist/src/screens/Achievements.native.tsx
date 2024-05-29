@@ -10,7 +10,7 @@ import AchievementDropdownTitle from '@components/custom/AchievementView/Achieve
 import BadgeView from '@components/custom/BadgeView/BadgeView.native';
 import ProgressView from '@components/custom/ProgressView/ProgressView.native';
 import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
-import { mockAchievements, mockBadges, mockProgressData } from '@utils/test-helper/__mocks__/mocks';
+import { mockBadges, mockProgressData } from '@utils/test-helper/__mocks__/mocks';
 import useFilterGameList from '@components/custom/GameList/hooks/useFilterGameList.native';
 import useMainState from '@redux/hooks/useMainState';
 import Button from '@components/general/Button/Button.native';
@@ -24,9 +24,7 @@ const Achievements = () => {
 	const [progressOpen, setProgressOpen] = useState<boolean>(true);
 	const [currentOpen, setCurrentOpen] = useState<string>('');
 	const { user } = useMainState();
-	const { getSteamUserById } = useEndpoints();
 	const { filterGameList } = useFilterGameList();
-	// TODO: For get games currently subscribed to by user
 	const activeGames = filterGameList(user.subscription.data, true, '');
 
 	return (
@@ -61,25 +59,26 @@ const Achievements = () => {
 						/>
 					}
 				>
-					{!user.steamId ?
-						<Button 
-							type='navigation' 
-							title='Link Steam account' 
-							onPress={(): void => navigation.navigate(DrawerScreenEnum.SteamAchievements)}
-						/>
-						: <>
+					{user.steamId ?
+						<>
 							{activeGames.map(game => (
 								<AchievementView
 									key={game.id}
-									id={game.id}
+									gameId={user.data[game.id].appId}
+									steamId={user.steamId ?? ''}
 									title={t(`common:categories.${game.id}.title`)}
-									items={mockAchievements}
 									currentOpen={currentOpen}
 									setCurrentOpen={setCurrentOpen}
 								/>
 							))
 							}
 						</>
+						:
+						<Button
+							type='navigation'
+							title='Link Steam account'
+							onPress={(): void => navigation.navigate(DrawerScreenEnum.SteamAchievements)}
+						/>
 					}
 				</Dropdown>
 
