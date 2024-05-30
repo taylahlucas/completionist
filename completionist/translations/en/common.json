@@ -86,7 +86,7 @@
 		"verifyAccount": "Hello,\nYou have recently created an account with Completionist.\nTo verify your account, please enter the following code in the application:\n\n{{code}}"
 	},
 	"settings": {
-		"setCollections": "Set collections:",
+		"setCollections": "Set active collections:",
 		"enabledDLC": "Enable/Disable DLC:",
 		"showHide": "Show/Hide:",
 		"completedItems": "Completed Items",

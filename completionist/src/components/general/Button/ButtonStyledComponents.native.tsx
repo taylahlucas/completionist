@@ -1,5 +1,5 @@
 import styled from 'styled-components/native';
-import { DEFAULT_BORDER_RADIUS, MID_PADDING, SMALL_PADDING, windowWidth } from '@styles/global.native';
+import { DEFAULT_BORDER_RADIUS, MID_PADDING, SMALL_PADDING, windowWidth, isSmallScreen } from '@styles/global.native';
 
 interface StyledButtonProps {
   color: string;
@@ -43,7 +43,7 @@ export const FooterButtonView = styled.View`
 	position: absolute;
 	width: 100%;
 	height: 70px;
-	bottom: 0px;
+	bottom: ${isSmallScreen ? 0 : 16}px;
 	padding-top: ${SMALL_PADDING}px;
 	padding-bottom: ${SMALL_PADDING}px;
 	justify-content: center;
