@@ -3,6 +3,8 @@ import { Dimensions } from 'react-native';
 export const windowHeight: number = Dimensions.get('window').height;
 export const windowWidth: number =  Dimensions.get('window').width;
 
+export const isSmallScreen: boolean = windowHeight < 700;
+
 export const DEFAULT_BORDER_RADIUS = 5;
 export const SMALL_PADDING = 8;
 export const MID_PADDING = 16;

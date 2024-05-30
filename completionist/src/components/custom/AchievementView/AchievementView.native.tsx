@@ -6,7 +6,7 @@ import useGetTheme from '@styles/hooks/useGetTheme';
 import ScrollableList from '@components/general/Lists/ScrollableList.native';
 import { AchievementItem } from '@utils/CustomInterfaces'
 import Seperator from '@components/general/Seperator.native';
-import { SMALL_WIDTH, STANDARD_WIDTH, SMALL_PADDING, MID_PADDING } from '@styles/global.native';
+import { SMALL_WIDTH, STANDARD_WIDTH, SMALL_PADDING, MID_PADDING, MID_WIDTH } from '@styles/global.native';
 import Condition from '@components/general/Condition.native';
 import Icon from '@components/general/Icon/Icon.native';
 import { DropdownTitleContainer } from '@components/general/Dropdown/DropdownStyledComponents.native';
@@ -50,6 +50,7 @@ const AchievementView = ({ gameId, steamId, title, currentOpen, setCurrentOpen }
 						<DropdownTitleContainer>
 							<StyledText
 								align='left'
+								numberOfLines={1}
 								type='ListItemTitleBold'
 								style={styles.dropdownTitle}
 							>
@@ -136,12 +137,11 @@ const styles = StyleSheet.create({
 	},
 	dropdownTitle: {
 		paddingTop: SMALL_PADDING,
-		paddingLeft: MID_PADDING
+		paddingLeft: MID_PADDING,
+		maxWidth: MID_WIDTH
 	},
 	amountTitle: {
-		position: 'absolute',
-		top: 8,
-		right: 48
+		top: 4,
 	},
 	itemTitle: {
 		paddingTop: SMALL_PADDING,

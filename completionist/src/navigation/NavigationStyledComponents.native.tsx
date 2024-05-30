@@ -1,7 +1,7 @@
-import { StyleSheet, Dimensions } from 'react-native';
+import { StyleSheet } from 'react-native';
 import Icon from '@components/general/Icon/Icon.native';
 import StyledText from '@components/general/Text/StyledText.native';
-import { DEFAULT_BORDER_RADIUS, LARGE_PADDING } from '@styles/global.native';
+import { DEFAULT_BORDER_RADIUS, LARGE_PADDING, isSmallScreen } from '@styles/global.native';
 import styled from 'styled-components/native';
 
 const drawerWidth = 250;
@@ -109,7 +109,7 @@ export const NavigationHeaderText = styled(StyledText)`
 `;
 
 export const NavigationDrawerContainer = styled.View`
-  margin-top: 56px;
+  margin-top: ${isSmallScreen ? 56 : 102}px;
   flex-direction: column;
 `;
 
@@ -121,5 +121,5 @@ export const NavigationDrawerBodyContainer = styled.ScrollView`
 
 export const NavigationDrawerFooter = styled.Pressable`
 	position: absolute;
-	bottom: 96px;
+	bottom: ${isSmallScreen ? 96 : 146}px;
 `;

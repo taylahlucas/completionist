@@ -22,7 +22,7 @@ const ContentMainDropdown = ({ category, completed, total }: ContentMainDropdown
 	const { selectedGame } = useMainState();
 	const { setSelectedCategory } = useContentDispatch();
 	const { selectedCategory } = useContentState();
-	const { getContentSubCategories } = useGetContentCategories();
+	const { getContentSubCategories, getContentSubCategoriesTypes } = useGetContentCategories();
 	const { getContentForSubCategory } = useGetContents();
 	const subCategories = getContentSubCategories(category.title, selectedGame);
 	const { checkContentCompleteForCategory } = useCheckContentComplete();
@@ -48,6 +48,8 @@ const ContentMainDropdown = ({ category, completed, total }: ContentMainDropdown
 			{subCategories.map((subCategory, index) => {
 				const questsForCategory = getContentForSubCategory(category.title, subCategory);
 				const completedQuests = checkContentCompleteForCategory(questsForCategory);
+				const subCategoryTypes = getContentSubCategoriesTypes(subCategory, selectedGame);
+				console.log(subCategoryTypes)
 
 				return (
 					<ContentSubDropdown
@@ -55,7 +57,7 @@ const ContentMainDropdown = ({ category, completed, total }: ContentMainDropdown
 						mainCategory={category}
 						subCategory={subCategory}
 						completed={completedQuests.toString()}
-						total={questsForCategory.length.toString()}
+						total={((subCategoryTypes.length === 0 ? questsForCategory : subCategoryTypes).length).toString()}
 					/>
 				)
 			})}

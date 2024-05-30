@@ -9,30 +9,44 @@ const useGetGameProgressData = () => {
 
 	const getGameProgress = (games: GameKeyEnum[]) => {
 		return games.map((game) => {
+			const questData = mapDataTo(ContentSectionEnum.QUESTS, game, true);
+			const collectablesData = mapDataTo(ContentSectionEnum.COLLECTABLES, game, true);
+			const locationsData = mapDataTo(ContentSectionEnum.LOCATIONS, game, true);
+			const miscellaneousData = mapDataTo(ContentSectionEnum.MISCELLANEOUS, game, true);
+
+			let drawerItems = [];
+			if (questData.length > 0) {
+				drawerItems.push({
+					id: ContentSectionEnum.QUESTS,
+					current: user.data[game].quests.filter((item: Item) => item.isComplete).length,
+					total: questData.length
+				})
+			}
+			if (collectablesData.length > 0) {
+				drawerItems.push({
+					id: ContentSectionEnum.COLLECTABLES,
+					current: user.data[game].collectables.filter((item: Item) => item.isComplete).length,
+					total: collectablesData.length
+				})
+			}
+			if (locationsData.length > 0) {
+				drawerItems.push({
+					id: ContentSectionEnum.LOCATIONS,
+					current: user.data[game].locations.filter((item: Item) => item.isComplete).length,
+					total: locationsData.length
+				})
+			}
+			if (miscellaneousData.length > 0) {
+				drawerItems.push({
+					id: ContentSectionEnum.MISCELLANEOUS,
+					current: user.data[game].miscellaneous.filter((item: Item) => item.isComplete).length,
+					total: miscellaneousData.length
+				})
+			}
+
 			return {
 				id: game,
-				data: [
-					{
-						id: ContentSectionEnum.QUESTS,
-						current: user.data[game].quests.filter((item: Item) => item.isComplete).length,
-						total: mapDataTo(ContentSectionEnum.QUESTS, game, true).length
-					},
-					{
-						id: ContentSectionEnum.COLLECTABLES,
-						current: user.data[game].collectables.filter((item: Item) => item.isComplete).length,
-						total: mapDataTo(ContentSectionEnum.COLLECTABLES, game, true).length
-					},
-					{
-						id: ContentSectionEnum.LOCATIONS,
-						current: user.data[game].quests.filter((item: Item) => item.isComplete).length,
-						total: mapDataTo(ContentSectionEnum.LOCATIONS, game, true).length
-					},
-					{
-						id: ContentSectionEnum.MISCELLANEOUS,
-						current: user.data[game].quests.filter((item: Item) => item.isComplete).length,
-						total: mapDataTo(ContentSectionEnum.MISCELLANEOUS, game, true).length
-					},
-				]
+				data: drawerItems
 			}
 		})
 	};
