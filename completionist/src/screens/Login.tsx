@@ -11,9 +11,9 @@ import LoginForm from '@components/custom/LoginForm/LoginForm.native';
 import LoginFormSignInButtons from '@components/custom/LoginForm/LoginFormSignInButtons.native';
 import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
 
-export const Login = () => {
+const Login = () => {
 	const { t } = useTranslation();
-	const { isSigningUp } = useLoginState();
+	const { isSigningUp } = useLoginState()
 
 	// TODO: Fix keyboard view here (check with actual phone)
 	return (
@@ -36,3 +36,5 @@ export const Login = () => {
 		</StandardLayout>
 	);
 };
+
+export default Login;

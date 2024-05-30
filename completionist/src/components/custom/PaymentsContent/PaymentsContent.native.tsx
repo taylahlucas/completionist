@@ -71,7 +71,6 @@ const PaymentsContent = () => {
 							tier: selectedSubscription.id
 						}
 					};
-					console.log("HERE")
 					// saveUser(updatedUser);
 					// navigation.navigate(AuthScreenEnum.GameSelection);
 				}}

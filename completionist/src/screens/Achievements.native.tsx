@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import StandardLayout from '@components/general/Layouts/StandardLayout.native';
 import NavigationHeader from '@navigation/NavigationHeader.native';
@@ -10,7 +10,7 @@ import AchievementDropdownTitle from '@components/custom/AchievementView/Achieve
 import BadgeView from '@components/custom/BadgeView/BadgeView.native';
 import ProgressView from '@components/custom/ProgressView/ProgressView.native';
 import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
-import { mockBadges, mockProgressData } from '@utils/test-helper/__mocks__/mocks';
+import { mockBadges } from '@utils/test-helper/__mocks__/mocks';
 import useFilterGameList from '@components/custom/GameList/hooks/useFilterGameList.native';
 import useMainState from '@redux/hooks/useMainState';
 import Button from '@components/general/Button/Button.native';
@@ -27,10 +27,6 @@ const Achievements = () => {
 	const { filterGameList } = useFilterGameList();
 	const activeGames = filterGameList(user.subscription.data, true, '');
 	const { getGameProgress } = useGetGameProgressData();
-
-	useEffect(() => {
-		console.log("HERE:", activeGames.map(game => game.id as GameKeyEnum))
-	}, [])
 
 	return (
 		<StandardLayout>

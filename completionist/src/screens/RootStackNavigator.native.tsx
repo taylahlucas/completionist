@@ -10,6 +10,7 @@ import useTimedDataUpdate from '@data/api/hooks/useTimedDataUpdate.native';
 import AuthStackNavigator from '@navigation/AuthStackNavigator.native';
 import UnauthorizedStackNavigator from '@navigation/UnauthorizedStackNavigator.native';
 import useLoginState from '@components/custom/LoginForm/hooks/useLoginState';
+import { windowHeight } from '@styles/global.native';
 
 const RootStackNavigator = () => {
 	const { showSplashScreen } = useMainState();

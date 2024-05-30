@@ -17,7 +17,7 @@ const AddSteamIDContent = () => {
 	const [profileVisible, setProfileVisible] = useState<boolean>(false);
 	const [profile, setProfile] = useState<SteamProfile | undefined>(undefined);
 	const { getSteamUserById } = useEndpoints();
-
+	
 	return (
 		<KeyboardAvoidingScrollView
 			awareView={

@@ -32,12 +32,12 @@ const useGetNavigationFooterDrawerItems = (): NavigationFooterDrawerItem[] => {
 		// 	icon: 'steam',
 		// 	iconType: IconTypeEnum.MaterialCommunityIcons
 		// },
-		{
-			id: DrawerScreenEnum.Subscriptions,
-			title: t('common:screens.subscriptions'),
-			icon: 'wallet-outline',
-			iconType: IconTypeEnum.Ionicons
-		},
+		// {
+		// 	id: DrawerScreenEnum.Subscriptions,
+		// 	title: t('common:screens.subscriptions'),
+		// 	icon: 'wallet-outline',
+		// 	iconType: IconTypeEnum.Ionicons
+		// },
 		{
 			id: DrawerScreenEnum.SendRequest,
 			title: t('common:screens.sendRequest'),

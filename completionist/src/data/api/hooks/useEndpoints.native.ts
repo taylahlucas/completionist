@@ -22,7 +22,6 @@ import {
 	SteamAchievementsProps
 } from '@data/api/EndpointInterfaces.native';
 import useHandleAxiosError from './useHandleAxiosError';
-import config from '@utils/config';
 import { requestCodes } from '@utils/constants';
 import useAuthInterceptor from './useAuthInterceptor.native';
 

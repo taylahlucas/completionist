@@ -67,7 +67,6 @@ const NavigationDrawerBody: React.FunctionComponent = () => {
 					/>
 					<NavigationDrawerFooterTitle
 						type='ListItemTitle'
-						// color={currentScreen === UnauthorizedScreenEnum.Login ? theme.lightGrey : theme.midGrey}
 						color={theme.midGrey}
 						align='left'
 					>

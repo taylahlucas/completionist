@@ -1,5 +1,6 @@
 import { Platform } from 'react-native';
 import axios from 'axios';
+import { setupCache } from 'axios-cache-interceptor';
 import useKeychain from '@data/hooks/useKeychain.native';
 
 const useAuthInterceptor = () => {
@@ -12,6 +13,8 @@ const useAuthInterceptor = () => {
 	const instance = axios.create({
 		baseURL: url
 	});
+
+	setupCache(instance);
 
 	instance.interceptors.request.use(
 		async function (config) {

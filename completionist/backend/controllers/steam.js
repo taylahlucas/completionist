@@ -35,6 +35,7 @@ const getSteamProfile = async (req, res) => {
 };
 
 const getSteamAchievements = async (req, res) => {
+	console.log("GETTING ACHIEVEMENTS")
 	const isAuthorized = await checkAuthToken(req, res);
 	if (isAuthorized) {
 		try {

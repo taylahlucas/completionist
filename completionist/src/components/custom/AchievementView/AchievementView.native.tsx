@@ -73,9 +73,9 @@ const AchievementView = ({ gameId, steamId, title, currentOpen, setCurrentOpen }
 					style={{ maxHeight: 300 }}
 					contentContainerStyle={{ paddingBottom: 10 }}
 				>
-					{items?.map((item) => (
+					{items?.map((item, index) => (
 						<View
-							key={item.id}
+							key={index}
 							style={{
 								...styles.container,
 								backgroundColor: theme.darkGrey,

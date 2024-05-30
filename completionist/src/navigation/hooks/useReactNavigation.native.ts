@@ -15,7 +15,9 @@ export const useReactNavigation = (): NativeNavigation => {
   
   useFocusEffect(
     useCallback(() => {
-      setCurrentScreen(screenName as ScreenEnum);
+			if (screenName !== 'DrawerStack') {
+				setCurrentScreen(screenName as ScreenEnum);
+			}
     }, [screenName])
   );
 

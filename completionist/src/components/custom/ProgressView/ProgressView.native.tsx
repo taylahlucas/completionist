@@ -16,7 +16,7 @@ interface ProgressViewProps {
 
 const ProgressView = ({ gameId, title, data }: ProgressViewProps) => {
 	const theme = useGetTheme();
-	const [isOpen, setOpen] = useState<boolean>(false);
+	const [isOpen, setOpen] = useState<boolean>(true);
 	const { getGameProgress } = useGetGameProgress();
 	const colors = [theme.lightPurple, '#E63656', '#26AB9D', '#D1A34D'];
 
