@@ -43,10 +43,9 @@ export interface AchievementItem {
 export interface SteamProfile {
 	steamId: string;
 	userName: string;
-	name: string;
-	profileImg: string;
-	country: string;
-	countryFlag: string;
+	name?: string;
+	profileImg?: string;
+	country?: string;
 	level: string;
 }
 

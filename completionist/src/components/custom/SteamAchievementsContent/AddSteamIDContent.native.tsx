@@ -66,10 +66,11 @@ const AddSteamIDContent = () => {
 			/>
 			{(profileVisible && !!profile)
 				? <SteamProfileModal
-					profile={profile}
-					isVisible={profileVisible}
-					onClose={(): void => setProfileVisible(false)}
-				/>
+						profile={profile}
+						isVisible={profileVisible}
+						viewType='add'
+						onClose={(): void => setProfileVisible(false)}
+					/>
 				: <></>
 			}
 		</KeyboardAvoidingScrollView >

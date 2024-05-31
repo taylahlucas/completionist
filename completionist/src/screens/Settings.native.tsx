@@ -15,23 +15,31 @@ import SettingsSelectLanguage from '@components/custom/Settings/SettingsSelectLa
 import { DrawerScreenEnum, AuthScreenEnum } from '@utils/CustomEnums';
 import SettingsGameCollections from '@components/custom/Settings/SettingsGameCollections.native';
 import useMainState from '@redux/hooks/useMainState';
+import Button from '@components/general/Button/Button.native';
+import SteamProfileModal from './SteamProfileModal.native';
+import useEndpoints from '@data/api/hooks/useEndpoints.native';
+import { SteamProfile } from '@utils/CustomInterfaces';
+import Condition from '@components/general/Condition.native';
 
 const Settings = () => {
 	const { t } = useTranslation();
 	const scrollViewRef = useRef<ScrollView>(null);
 	const languageViewRef = useRef<RNText>(null);
+	const [profileVisible, setProfileVisible] = useState<boolean>(false);
+	const [profile, setProfile] = useState<SteamProfile | undefined>(undefined);
+	const [isLanguagesOpen, setLanguagesOpen] = useState<boolean>(false);
 	const { getDLCOptions, setDLCOptions } = useDLCOptions();
 	const options = useGetShowHideOptions();
-	const { selectedGame } = useMainState();
+	const { user, selectedGame } = useMainState();
 	const { setSettingsOptionsOnPress } = useSettingsOptionsOnPress();
-	const [isLanguagesOpen, setLanguagesOpen] = useState<boolean>(false);
 	const handleScroll = useHandleScroll();
+	const { getSteamUserById } = useEndpoints();
 	const isGlobalSettings = !selectedGame;
-	
+
 	return (
 		<StandardLayout>
-			<NavigationHeader 
-				id={isGlobalSettings ? AuthScreenEnum.GlobalSettings : DrawerScreenEnum.Settings} 
+			<NavigationHeader
+				id={isGlobalSettings ? AuthScreenEnum.GlobalSettings : DrawerScreenEnum.Settings}
 				title={t('common:screens.settings')}
 				leftAction={isGlobalSettings ? 'back' : 'menu'}
 			/>
@@ -40,6 +48,25 @@ const Settings = () => {
 				contentContainerStyle={{ paddingBottom: isLanguagesOpen ? 200 : 100 }}
 			>
 				<SettingsAccountDetails />
+
+				<Condition condition={!!user.steamId}>
+					<Button
+						type='navigation'
+						title='Steam Profile'
+						style={{ marginTop: 0 }}
+						// TODO: Navigate to Steam Profile
+						onPress={async (): Promise<void> => {
+							if (user.steamId) {
+								const profile = await getSteamUserById(user.steamId);
+
+								if (!!profile) {
+									setProfile(profile);
+									setProfileVisible(true);
+								}
+							}
+						}}
+					/>
+				</Condition>
 
 				{/* Enable/Disable game collections */}
 				<SettingsGameCollections />
@@ -72,6 +99,13 @@ const Settings = () => {
 					}
 				}} />
 			</ScrollableList>
+			<Condition condition={!!user.steamId && !!profile}>
+				<SteamProfileModal
+					profile={profile}
+					isVisible={profileVisible}
+					onClose={(): void => { }}
+				/>
+			</Condition>
 		</StandardLayout>
 	);
 };

@@ -5,8 +5,10 @@ import {
 	StyleSheet,
 	Animated,
 	Dimensions,
-	View
+	View,
+	Alert
 } from 'react-native';
+import { useTranslation } from 'react-i18next';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import Overlay from '@components/general/Layouts/Overlay.native';
 import Button from '@components/general/Button/Button.native';
@@ -19,16 +21,22 @@ import IconButton from '@components/general/Icon/IconButton.native';
 import { IconTypeEnum } from '@utils/CustomEnums';
 import useEditUserData from '@data/hooks/useEditUserData.native';
 import useMainState from '@redux/hooks/useMainState';
+import Condition from '@components/general/Condition.native';
+import { isSmallScreen } from '@styles/global.native';
 
 const { height } = Dimensions.get('window');
+
+type ProfileViewType = 'add' | 'view';
 
 interface SteamProfileProps {
 	profile: SteamProfile;
 	isVisible: boolean;
+	viewType?: ProfileViewType;
 	onClose: () => void;
 }
 
-const SteamProfileModal = ({ profile, isVisible = false, onClose }: SteamProfileProps) => {
+const SteamProfileModal = ({ profile, isVisible = false, viewType = 'view', onClose }: SteamProfileProps) => {
+	const { t } = useTranslation();
 	const navigation = useReactNavigation();
 	const translateY = useRef(new Animated.Value(height)).current;
 	const theme = useGetTheme();
@@ -63,7 +71,7 @@ const SteamProfileModal = ({ profile, isVisible = false, onClose }: SteamProfile
 								type='Heading'
 								color={theme.lightGrey}
 							>
-								Confirm Profile
+								{viewType === 'view' ? 'Steam Profile' : 'Confirm Profile'}
 							</StyledText>
 							<IconButton
 								style={styles.iconButton}
@@ -75,22 +83,58 @@ const SteamProfileModal = ({ profile, isVisible = false, onClose }: SteamProfile
 						</View>
 
 						<Spacing height={32} />
-						<Image style={styles.imageContainer} source={{ uri: profile.profileImg }} />
+						<Condition condition={!!profile.profileImg}>
+							<Image style={styles.imageContainer} source={{ uri: profile.profileImg }} />
+						</Condition>
 						<Spacing />
 						<StyledText type='Heading'>{profile.userName}</StyledText>
 						<Spacing />
-						<StyledText type='ListItemSubTitleBold'>{`${profile.name} - ${profile.country}`}</StyledText>
+						<Condition condition={!!profile.name && !!profile.country}>
+							<StyledText type='ListItemSubTitleBold'>{`${profile.name} - ${profile.country}`}</StyledText>
+						</Condition>
 						<Spacing />
 						<StyledText type='ListItemSubTitleBold'>{`Level: ${profile.level}`}</StyledText>
 						<Spacing height={42} />
-						<Button style={styles.confirmButton} title={'Confirm'} onPress={(): void => {
-							updateUserData({
-								...user,
-								steamId: profile.steamId
-							})
-							onClose();
-							navigation.goBack();
-						}} />
+						{viewType === 'add'
+							? <Button
+								style={styles.confirmButton}
+								title={'Confirm'}
+								onPress={(): void => {
+									updateUserData({
+										...user,
+										steamId: profile.steamId
+									})
+									onClose();
+									navigation.goBack();
+								}}
+							/>
+							: <Button
+									style={styles.confirmButton}
+									title={'Unlink Account'}
+									color={theme.error}
+									onPress={(): void => {
+										Alert.alert(
+											'Are you sure you want to unlink your account?',
+											'',
+											[
+												{
+													text: 'Unlink',
+													onPress: () => {
+														updateUserData({
+															...user,
+															steamId: ''
+														});
+													}
+												},
+												{
+													text: t('common:alerts.cancel'),
+													style: 'cancel'
+												}
+											]
+										);
+									}}
+								/>
+						}
 					</View>
 				</Animated.View>
 			</Overlay>
@@ -103,7 +147,7 @@ const styles = StyleSheet.create({
 		padding: 20,
 		borderRadius: 20,
 		height: 480,
-		top: 64,
+		top: isSmallScreen ? 64 : 108,
 	},
 	contentContainer: {
 		height: 460,
