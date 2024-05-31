@@ -1,12 +1,12 @@
 import styled from 'styled-components/native';
-import { windowWidth, windowHeight, DEFAULT_BORDER_RADIUS, SMALL_PADDING } from '@styles/global.native';
+import { windowWidth, windowHeight, isSmallScreen, SMALL_PADDING } from '@styles/global.native';
 import IconButton from '../Icon/IconButton.native';
 
 export const WikiWebViewContainer = styled.View`
 	position: absolute;
 	z-index: 3;
 	width: ${windowWidth}px;
-	height: ${windowHeight - 40}px;
+	height: ${windowHeight - (isSmallScreen ? 40 : 80)}px;
 	bottom: 0;
 	border-radius: 20px;
 `;
