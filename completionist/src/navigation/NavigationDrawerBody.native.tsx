@@ -9,7 +9,7 @@ import {
 import useReactNavigation from './hooks/useReactNavigation.native';
 import useGetNavigationDrawerItems from './hooks/useGetNavigationDrawerItems.native';
 import useGetLoginMethods from '@components/custom/LoginForm/hooks/useGetLoginMethods';
-import { AuthScreenEnum, DrawerScreenEnum } from '@utils/CustomEnums';
+import { AuthScreenEnum } from '@utils/CustomEnums';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import useMainState from '@redux/hooks/useMainState';
 import useGetNavigationFooterDrawerItems from './hooks/useGetNavigationFooterDrawerItems.native';
@@ -46,7 +46,7 @@ const NavigationDrawerBody: React.FunctionComponent = () => {
 							name={item.icon}
 							type={item.iconType}
 							color={theme.lightGrey}
-							size={item.id === DrawerScreenEnum.SteamAchievements ? 26 : 24}
+							size={24}
 						/>
 						<NavigationDrawerFooterTitle
 							type='ListItemTitle'

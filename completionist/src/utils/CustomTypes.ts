@@ -16,6 +16,7 @@ export type MaterialIconsType =
 export type MaterialCommunityIcons =
 	| 'arrow-u-right-top'
   | 'cancel'
+	| 'progress-star'
   | 'steam';
 
 export type IoniconType =
@@ -58,8 +59,8 @@ export type LanguageType =
 
 // Navigation
 
-export type NavigationHeaderLeftActionTypes = 'back' | 'menu' | 'subscriptions' | 'none';
-export type NavigationHeaderRightActionTypes = 'logout' | 'filter' | 'none';
+export type NavigationHeaderLeftActionTypes = 'back' | 'menu' | 'achievements' | 'none';
+export type NavigationHeaderRightActionTypes = 'settings' | 'filter' | 'none';
 
 // Responses
 

@@ -3,7 +3,10 @@ export type ScreenEnum = AuthScreenEnum | DrawerScreenEnum | UnauthorizedScreenE
 export enum AuthScreenEnum {
 	Landing = 'Landing',
   GameSelection = 'GameSelection',
-  Subscriptions = 'Subscriptions',
+	GlobalSettings = 'GlobalSettings',
+	GlobalAccountDetails = 'GlobalAccountDetails',
+	GlobalSteamAchievements = 'GlobalSteamAchievements',
+  GlobalAchievements = 'GlobalAchievements',
 	DrawerStack = 'DrawerStack'
 }
 
@@ -13,9 +16,8 @@ export enum DrawerScreenEnum {
   Miscellaneous = 'Miscellaneous',
   Locations = 'Locations',
   SendRequest = 'SendRequest',
-	SteamAchievements = 'SteamAchievements',
 	Achievements = 'Achievements',
-  Subscriptions = 'Subscriptions',
+	SteamAchievements = 'SteamAchievements',
 	SelectPlan = 'SelectPlan',
   Payments = 'Payments',
   Settings = 'Settings',

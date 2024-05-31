@@ -4,31 +4,32 @@ import {
   styles,
   NavigationEmptyContainer
 } from '@navigation/NavigationStyledComponents.native';
-import { IconTypeEnum } from '@utils/CustomEnums';
+import { IconTypeEnum, AuthScreenEnum } from '@utils/CustomEnums';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import IconButton from '@components/general/Icon/IconButton.native';
-import useGetLoginMethods from '@components/custom/LoginForm/hooks/useGetLoginMethods';
+import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
 
 const useGetRightNavigationItem = (rightAction: NavigationHeaderRightActionTypes): JSX.Element => {
   const theme = useGetTheme();
-	const { signOut } = useGetLoginMethods();
+	const navigation = useReactNavigation();
 
   switch (rightAction) {
-    case 'logout':
+    case 'settings':
       return (
         <IconButton
           style={styles.iconButton}
-          name={'logout'}
+          name='settings-outline'
+					type={IconTypeEnum.Ionicons}
           color={theme.lightGrey}
-          size={30}
-          onPress={signOut}
+          size={38}
+          onPress={(): void => navigation.navigate(AuthScreenEnum.GlobalSettings)}
         />
       );
 		case 'filter':
 			return (
         <IconButton
           style={styles.iconButton}
-          name={'filter-outline'}
+          name='filter-outline'
 					type={IconTypeEnum.MaterialCommunityIcons}
           color={theme.lightGrey}
           size={40}

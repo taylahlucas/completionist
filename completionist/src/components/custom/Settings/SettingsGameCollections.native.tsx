@@ -10,10 +10,12 @@ import { SettingsCollectionList, SettingsDescription } from '@components/custom/
 const SettingsGameCollections = () => {
 	const { t } = useTranslation();
 	const { getUserSettingsMainConfig } = useGetUserGameData();
-	const height = new Animated.Value(200);
+	const config = getUserSettingsMainConfig();
+	const minHeight = config.length > 3 ? 200 : 150;
+	const height = new Animated.Value(minHeight);
 
 	const toggleHeight = (expanded: boolean) => {
-		const newHeight = expanded ? 300 : 200;
+		const newHeight = expanded ? 300 : minHeight;
 		Animated.timing(height, {
 			toValue: newHeight,
 			duration: 300,
@@ -28,7 +30,7 @@ const SettingsGameCollections = () => {
 			</SettingsDescription>
 			<SettingsSelectionDropdown />
 			<SettingsCollectionList style={{ height: height }}>
-				{getUserSettingsMainConfig().map((item: SettingsListItem, index: number) => (
+				{config.map((item: SettingsListItem, index: number) => (
 					<SettingsItemDropdown key={index} item={item} triggerListOpen={toggleHeight} />
 				))}
 			</SettingsCollectionList>

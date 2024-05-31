@@ -49,7 +49,6 @@ const ContentMainDropdown = ({ category, completed, total }: ContentMainDropdown
 				const questsForCategory = getContentForSubCategory(category.title, subCategory);
 				const completedQuests = checkContentCompleteForCategory(questsForCategory);
 				const subCategoryTypes = getContentSubCategoriesTypes(subCategory, selectedGame);
-				console.log(subCategoryTypes)
 
 				return (
 					<ContentSubDropdown

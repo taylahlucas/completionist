@@ -114,7 +114,10 @@ export type UnauthorizedStackParamList = {
 export type AuthStackParamList = {
 	Landing: undefined;
 	GameSelection: undefined;
-  Subscriptions: undefined;
+  GlobalSettings: undefined;
+	GlobalAccountDetails: undefined;
+	GlobalAchievements: undefined;
+	GlobalSteamAchievements: undefined;
 	DrawerStack: undefined;
 };
 
@@ -125,8 +128,6 @@ export type DrawerStackParamList = {
   Locations: undefined;
   SendRequest: undefined;
 	Achievements: undefined;
-	Subscriptions: undefined;
-	SteamAchievements: undefined;
 	SelectPlan: undefined;
   Payments: undefined;
   Settings: undefined;

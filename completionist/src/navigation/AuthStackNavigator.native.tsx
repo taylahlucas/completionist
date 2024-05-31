@@ -3,8 +3,11 @@ import { createStackNavigator } from '@react-navigation/stack';
 import GameSelection from '@screens/GameSelection.native';
 import { AuthStackParamList } from '@utils/CustomInterfaces';
 import { AuthScreenEnum } from '@utils/CustomEnums';
-import Subscriptions from '@screens/Subscriptions.native';
+import Settings from '@screens/Settings.native';
+import AccountDetails from '@screens/AccountDetails.native';
 import Landing from '@screens/Landing.native';
+import Achievements from '@screens/Achievements.native';
+import SteamAchievements from '@screens/SteamAchievements.native';
 import AuthDrawerStackNavigator from './AuthDrawerStackNavigator.native';
 
 const Stack = createStackNavigator<AuthStackParamList>();
@@ -19,8 +22,23 @@ const AuthStackNavigator = () => {
 		>
 			<Stack.Screen name={AuthScreenEnum.Landing} component={Landing} />
 			<Stack.Screen name={AuthScreenEnum.GameSelection} component={GameSelection} />
-			<Stack.Screen name={AuthScreenEnum.Subscriptions} component={Subscriptions} />
-			<Stack.Screen name={AuthScreenEnum.DrawerStack} component={AuthDrawerStackNavigator} />
+			<Stack.Screen name={AuthScreenEnum.GlobalSettings} component={Settings} />
+			<Stack.Screen name={AuthScreenEnum.GlobalAccountDetails} component={AccountDetails} />
+			<Stack.Screen 
+				name={AuthScreenEnum.GlobalAchievements} 
+				component={Achievements}
+				options={{
+          gestureDirection: 'horizontal-inverted'
+        }}
+			/>
+			<Stack.Screen 
+				name={AuthScreenEnum.GlobalSteamAchievements} 
+				component={SteamAchievements}
+			/>
+			<Stack.Screen 
+				name={AuthScreenEnum.DrawerStack} 
+				component={AuthDrawerStackNavigator}
+			/>
 		</Stack.Navigator>
 	);
 };

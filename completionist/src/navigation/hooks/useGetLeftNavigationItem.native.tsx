@@ -81,7 +81,7 @@ const useGetLeftNavigationItem = (
 							}}
 						>
 							<NavigationHeaderMenuIcon
-								name={'menu-sharp'}
+								name='menu-sharp'
 								type={IconTypeEnum.Ionicons}
 								size={35}
 							/>
@@ -89,17 +89,17 @@ const useGetLeftNavigationItem = (
 						</NavigationHeaderMenuButton>
 					</Animated.View>
 				)
-    case 'subscriptions':
+    case 'achievements':
       return (
         <IconButton
-          style={styles.iconButton}
-          name={'wallet-outline'}
-          type={IconTypeEnum.Ionicons}
-          color={theme.lightGrey}
-          size={35}
+          style={{ ...styles.iconButton, top: 2 }}
+          name='progress-star'
+          type={IconTypeEnum.MaterialCommunityIcons}
+          color={theme.lightPurple}
+          size={44}
           onPress={(): void => {
 						dismissKeyboard();
-						navigation.navigate(AuthScreenEnum.Subscriptions);
+						navigation.navigate(AuthScreenEnum.GlobalAchievements);
 					}}
         />
       );

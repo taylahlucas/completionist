@@ -25,19 +25,6 @@ const useGetNavigationFooterDrawerItems = (): NavigationFooterDrawerItem[] => {
 			icon: 'wallet-outline',
 			iconType: IconTypeEnum.Ionicons
 		},
-		// TODO: Probably not safe to use. Verify if this is possible
-		// {
-		// 	id: AuthScreenEnum.SteamAchievements,
-		// 	title: t('common:screens.steamAchievements'),
-		// 	icon: 'steam',
-		// 	iconType: IconTypeEnum.MaterialCommunityIcons
-		// },
-		// {
-		// 	id: DrawerScreenEnum.Subscriptions,
-		// 	title: t('common:screens.subscriptions'),
-		// 	icon: 'wallet-outline',
-		// 	iconType: IconTypeEnum.Ionicons
-		// },
 		{
 			id: DrawerScreenEnum.SendRequest,
 			title: t('common:screens.sendRequest'),

@@ -12,8 +12,9 @@ import SettingsAccountDetails from '@components/custom/Settings/SettingsAccountD
 import { SettingsDescription } from '@components/custom/Settings/SettingsStyledComponents.native';
 import SelectionList from '@components/general/Lists/SelectionList.native';
 import SettingsSelectLanguage from '@components/custom/Settings/SettingsSelectLanguage.native';
-import { DrawerScreenEnum } from '@utils/CustomEnums';
+import { DrawerScreenEnum, AuthScreenEnum } from '@utils/CustomEnums';
 import SettingsGameCollections from '@components/custom/Settings/SettingsGameCollections.native';
+import useMainState from '@redux/hooks/useMainState';
 
 const Settings = () => {
 	const { t } = useTranslation();
@@ -21,13 +22,19 @@ const Settings = () => {
 	const languageViewRef = useRef<RNText>(null);
 	const { getDLCOptions, setDLCOptions } = useDLCOptions();
 	const options = useGetShowHideOptions();
+	const { selectedGame } = useMainState();
 	const { setSettingsOptionsOnPress } = useSettingsOptionsOnPress();
 	const [isLanguagesOpen, setLanguagesOpen] = useState<boolean>(false);
 	const handleScroll = useHandleScroll();
+	const isGlobalSettings = !selectedGame;
 	
 	return (
 		<StandardLayout>
-			<NavigationHeader id={DrawerScreenEnum.Settings} title={t('common:screens.settings')} />
+			<NavigationHeader 
+				id={isGlobalSettings ? AuthScreenEnum.GlobalSettings : DrawerScreenEnum.Settings} 
+				title={t('common:screens.settings')}
+				leftAction={isGlobalSettings ? 'back' : 'menu'}
+			/>
 			<ScrollableList
 				ref={scrollViewRef}
 				contentContainerStyle={{ paddingBottom: isLanguagesOpen ? 200 : 100 }}

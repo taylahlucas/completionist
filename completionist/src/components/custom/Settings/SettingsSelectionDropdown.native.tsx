@@ -8,12 +8,14 @@ import { games } from '@utils/constants';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
 import useTranslateGameContent from '@utils/hooks/useTranslateGameContent.native';
 import { GameKeyEnum } from '@utils/CustomEnums';
+import useFilterGameList from '@components/custom/GameList/hooks/useFilterGameList.native';
 
 const SettingsSelectionDropdown = () => {
 	const { t } = useTranslation();
 	const { setSelectedGameSettings } = useMainDispatch();
-	const { selectedGameSettings } = useMainState();
+	const { user, selectedGameSettings } = useMainState();
 	const { translateGameName } = useTranslateGameContent();
+	const { filterGameList } = useFilterGameList();
 	const [isSelectionOpen, triggerSelectionOpen] = useState(false);
 
 	return (
@@ -29,9 +31,9 @@ const SettingsSelectionDropdown = () => {
 			}
 		>
 			<DropdownSelectionContent
-				content={games.map(game => ({
-					id: game,
-					title: t(`common:categories.${game}.title`)
+				content={filterGameList(user.subscription.data, true, '').map(game => ({
+					id: game.id,
+					title: t(`common:categories.${game.id}.title`)
 				}))}
 				onPress={(value): void => {
 					triggerSelectionOpen(false);

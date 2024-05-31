@@ -20,14 +20,6 @@ const GameSelection = () => {
 	const { user } = useMainState();
 	const [searchValue, setSearchValue] = useState('');
 
-	const { getSteamPlayerAchievements } = useEndpoints();
-
-	// useEffect(() => {
-	// 	getSteamPlayerAchievements({ steamId: '76561198244929042', gameId: '72850'});
-	// }, [])
-
-	// const { getSteamUser } = useEndpoints();
-
 	const renderSubscriptionComponent = (style: ViewStyle) => {
 		return (
 			<StyledText
@@ -46,8 +38,8 @@ const GameSelection = () => {
 			<NavigationHeader
 				id={AuthScreenEnum.GameSelection}
 				title={`${t('common:welcome')}\n${user.name}`}
-				leftAction='subscriptions'
-				rightAction='logout'
+				leftAction='achievements'
+				rightAction='settings'
 			/>
 			<CustomSearchBar
 				searchValue={searchValue}

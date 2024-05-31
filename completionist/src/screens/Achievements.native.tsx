@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import StandardLayout from '@components/general/Layouts/StandardLayout.native';
 import NavigationHeader from '@navigation/NavigationHeader.native';
-import { DrawerScreenEnum, GameKeyEnum } from '@utils/CustomEnums';
+import { DrawerScreenEnum, AuthScreenEnum, GameKeyEnum } from '@utils/CustomEnums';
 import Dropdown from '@components/general/Dropdown/Dropdown.native';
 import AchievementView from '@components/custom/AchievementView/AchievementView.native';
 import ScrollableList from '@components/general/Lists/ScrollableList.native';
@@ -23,16 +23,18 @@ const Achievements = () => {
 	const [achievementsOpen, setAchievementsOpen] = useState<boolean>(true);
 	const [progressOpen, setProgressOpen] = useState<boolean>(true);
 	const [currentOpen, setCurrentOpen] = useState<string>('');
-	const { user } = useMainState();
+	const { user, selectedGame } = useMainState();
 	const { filterGameList } = useFilterGameList();
 	const activeGames = filterGameList(user.subscription.data, true, '');
 	const { getGameProgress } = useGetGameProgressData();
+	const isGlobalAchievements = !selectedGame;
 
 	return (
 		<StandardLayout>
 			<NavigationHeader
-				id={DrawerScreenEnum.Miscellaneous}
+				id={isGlobalAchievements ? AuthScreenEnum.GlobalAchievements : DrawerScreenEnum.Achievements}
 				title={'Achievements'}
+				leftAction={isGlobalAchievements ? 'back' : 'menu'}
 			/>
 			<ScrollableList style={{ maxHeight: 600 }}>
 				{/* Badges */}
