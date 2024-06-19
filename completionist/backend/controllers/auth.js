@@ -1,171 +1,218 @@
 require('dotenv').config();
-const User = require('../models/user');
+const { DynamoDBClient } = require('@aws-sdk/client-dynamodb');
+const { PutCommand, DynamoDBDocumentClient } = require('@aws-sdk/lib-dynamodb');
 const jwt = require('jsonwebtoken');
 const mongoose = require('mongoose');
 const hashPassword = require('../helpers/hash_password');
 const comparePasswords = require('../helpers/compare_passwords');
 const request_codes = require('../helpers/request_codes');
+const { checkEmailExists } = require('../helpers/check_existing_user');
+
+const client = new DynamoDBClient({ region: process.env.REGION });
+const dynamoDB = DynamoDBDocumentClient.from(client);
+var params = {
+	TableName: process.env.AWS_TABLE_NAME
+};
 
 const createSignedToken = () => jwt.sign({ _id: new mongoose.Types.ObjectId() }, process.env.JWT_SECRET, {
 	expiresIn: "7d",
 });
 
 const checkUserExists = async (req, res) => {
-	// Checks if user exists and whether they have a regular or google account set up
-	try {
-		const { email } = req.body;
-		const user = await User.findOne({ email }).limit(10);
+	const { email } = req.body;
+	console.log("Running checkUserExists: ", email);
 
-		return res.status(request_codes.SUCCESS).json({
-			regular: user ? !!user.password : false,
-			google: user ? !!user.googleId : false,
-		});
+	// Checks if user exists and whether they have a regular or google account set up
+	const existingUser = checkEmailExists(dynamoDB, email);
+	if (existingUser) {
+		return res.status(request_codes.SUCCESS)
+			.json({
+				regular: existingUser ? !!existingUser.password : false,
+				google: existingUser ? !!existingUser.googleId : false,
+			});
 	}
-	catch (err) {
+	else {
 		return res.status(request_codes.SUCCESS).json({
 			regular: false,
 			google: false
 		});
 	}
-}
-
-const signup = async (req, res) => {
-	try {
-		const {
-			userId,
-			name,
-			email,
-			password: userPassword,
-			googleId: userGoogleId,
-			userAvatar,
-		} = req.body;
-
-		if (!userId) {
-			res.json({ error: "userId is required" });
-		}
-		const existingUser = await User.findOne({ email }).limit(10);
-		if (existingUser) {
-			return res.status(request_codes.EMAIL_TAKEN).json('Email already exists.');
-		}
-
-		// Hash password if password is provided
-		let hashedPassword = '';
-		if (userPassword) {
-			hashedPassword = await hashPassword(userPassword)
-		}
-
-		let hashedGoogleId = '';
-		if (userGoogleId) {
-			hashedGoogleId = await hashPassword(userGoogleId)
-		}
-
-		// Create new user
-		const user = await new User({
-			userId,
-			name,
-			email,
-			password: hashedPassword,
-			googleId: hashedGoogleId,
-			userAvatar,
-		}).save();
-
-		// Create signed token
-		const token = createSignedToken();
-
-		// Remove password from the user object
-		const { password, googleId, ...rest } = user._doc;
-
-		// Response with token and user data
-		return res.json({
-			token,
-			user: rest,
-		});
-	} catch (err) {
-		return res.status(err.status).json(err.message);
-	}
 };
 
+const signup = async (req, res) => {
+	console.log("Running signup");
+	const {
+		userId,
+		name,
+		email,
+		pw: userPw,
+		googleId: userGoogleId,
+		userAvatar,
+	} = req.body;
+
+	if (!userId) {
+		return res.json({ error: "userId is required" });
+	}
+
+	const existingUser = checkEmailExists(dynamoDB, email);
+	console.log("existingUser: ", existingUser)
+	if (existingUser) {
+		return res.status(request_codes.EMAIL_TAKEN).json('Email already exists.');
+	}
+
+	// Hash password if password is provided
+	let hashedPw = '';
+	if (userPw) {
+		hashedPw = await hashPassword(userPw)
+	}
+
+	let hashedGoogleId = '';
+	if (userGoogleId) {
+		hashedGoogleId = await hashPassword(userGoogleId)
+	}
+
+	let user = {
+		userId,
+		name,
+		email,
+		pw: hashedPw,
+		googleId: hashedGoogleId,
+		userAvatar,
+		// Add rest of initial data 
+	}
+	console.log("user: ", user)
+	params = {
+		...params,
+		Item: user
+	};
+
+	client.send(new PutCommand(params), function (err, response) {
+		if (err) {
+			console.log("Signup Error: ", err);
+			return res.status(err.status).json(err.message);
+		}
+		else {
+			console.log("Signup Response: ", response);
+			const token = createSignedToken();
+			const { password, googleId, ...rest } = user._doc;
+	
+			console.log("Signup Success: ", rest);
+			return res.json({
+				token,
+				user: rest,
+			});
+		}
+	})
+	// try {
+	// 	const response = await client.send(new PutCommand(params));
+	// 	console.log("Signup Response: ", response);
+	// 	const token = createSignedToken();
+	// 	const { password, googleId, ...rest } = user._doc;
+
+	// 	console.log("Signup Success: ", rest);
+	// 	return res.json({
+	// 		token,
+	// 		user: rest,
+	// 	});
+	// }
+	// catch (err) {
+	// 	console.log("Signup Error: ", err);
+	// 	return res.status(err.status).json(err.message);
+	// }
+};
+
+// TODO: Update
 const signin = async (req, res) => {
 	try {
 		const { email, password, googleId } = req.body;
-		const user = await User.findOne({ email }).limit(10);
+		const existingUser = checkEmailExists(email);
 
-		if (!user) {
+		if (!existingUser) {
 			return res.status(request_codes.NO_USER_FOUND).json({ error: "No user found." });
 		}
 
-		if (user.password && password) {
-			const match = await comparePasswords(password, user.password);
+		if (existingUser.password && password) {
+			const match = await comparePasswords(password, existingUser.password);
 			if (!match) {
 				return res.status(request_codes.WRONG_PASSWORD).json({
 					error: "Wrong password",
 				});
 			}
 		}
-		if (user.googleId && googleId) {
-			const match = await comparePasswords(googleId, user.googleId);
+		if (existingUser.googleId && googleId) {
+			const match = await comparePasswords(googleId, existingUser.googleId);
 			if (!match) {
 				return res.status(request_codes.WRONG_PASSWORD).json({
-					error: "Wrong password",
+					error: "Wrong google id",
 				});
 			}
 		}
 
 		// Create signed token
 		const token = createSignedToken();
-		user.password = undefined;
-		user.googleId = undefined;
-		user.secret = undefined;
+		existingUser.password = undefined;
+		existingUser.googleId = undefined;
+		existingUser.secret = undefined;
 
 
 		// Response with token and user data
 		return res.status(request_codes.SUCCESS).json({
 			token,
-			user
+			existingUser
 		});
 	} catch (err) {
 		return res.status(err.status).json(err.message);
 	}
 };
 
+// TODO: Update
 const linkAndSignIn = async (req, res) => {
-	try {
-		const { email, password, googleId } = req.body;
-		const user = await User.findOne({ email }).limit(10);
+	const { email, password, googleId } = req.body;
+	const existingUser = checkEmailExists(email);
 
-		if (!user) {
-			return res.status(request_codes.NO_USER_FOUND).json({ error: "No user found." });
+	if (!existingUser) {
+		return res.status(request_codes.NO_USER_FOUND).json({ error: "No user found." });
+	}
+
+	// If user does not have googleId, update googleId
+	let hashedGoogleId;
+	let hashedPassword;
+	if (!existingUser.googleId && googleId) {
+		hashedGoogleId = await hashPassword(googleId)
+	}
+	// TODO: If user does not have password, update password
+	if (!existingUser.password && password) {
+		hashedPassword = await hashPassword(password)
+	}
+
+	params = {
+		...params,
+		Item: {
+			...existingUser,
+			password: hashPassword ? hashedPassword : existingUser.userId,
+			googleId: hashedGoogleId ? hashedGoogleId : existingUser.googleId
 		}
+	};
 
-		// If user does not have googleId, update googleId
-		let result;
-		if (!user.googleId && googleId) {
-			let hashedGoogleId = await hashPassword(googleId)
-			result = await User.updateOne({
-				userId: user.userId,
-				googleId: hashedGoogleId
+	dynamoDB.put(params, function (req, res) {
+		if (err) {
+			console.log("linkAndSignIn Error: ", err);
+			return res.status(err.status).json(err.message);
+		}
+		else {
+			const token = createSignedToken();
+			const { password, googleId, ...rest } = existingUser._doc;
+
+			console.log("linkAndSignIn Success: ", rest);
+			return res.json({
+				token,
+				user: rest,
 			});
 		}
-		// TODO: If user does not have password, update password
-		if (!user.password && password) {
-			let hashedPassword = await hashPassword(password)
-			result = await User.updateOne({
-				userId: user.userId,
-				password: hashedPassword
-			});
-		}
-
-		const token = createSignedToken();
-		return res.status(request_codes.SUCCESS).json({
-			token,
-			user
-		});
-	}
-	catch (err) {
-		return res.status(err.status).json(err.message);
-	}
+	});
 }
 
+// TODO: Update
 const forgotPw = async (req, res) => {
 	try {
 		const { email, newPw } = req.body;
@@ -202,3 +249,27 @@ module.exports = {
 	signin,
 	forgotPw
 }
+
+
+// EXample: Query command
+// try {
+//   const data = await dynamoDB.send(new QueryCommand(params));
+//   console.log('Query succeeded No Match:', data.Items);
+// 	if (!data.Items.length) {
+// 		return res.status(request_codes.SUCCESS).json({
+// 			regular: false,
+// 			google: false
+// 		});
+// 	}
+// 	else {
+// 		const user = data.Items[0];
+// 		console.log('Query succeeded:', data.Items);
+// 		return res.status(request_codes.SUCCESS).json({
+// 			regular: user ? !!user.password : false,
+// 			google: user ? !!user.googleId : false,
+// 		});
+// 	}
+// } catch (err) {
+//   console.error('Unable to query the table. Error JSON:', JSON.stringify(err, null, 2));
+// 	return res.status(request_codes.FAILURE);
+// }

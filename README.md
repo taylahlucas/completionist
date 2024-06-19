@@ -96,6 +96,8 @@ npx react-native run-ios --port 8002
 - crypto
 - nodemailer
 - migrate-mongo
+- redis
+- aws-sdk
 
 
 ## Updating translations

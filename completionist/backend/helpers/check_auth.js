@@ -3,15 +3,17 @@ const jwt = require('jsonwebtoken');
 const request_codes = require('../helpers/request_codes');
 
 async function checkAuthToken(req, res) {
-	const auth_header = req.headers["authorization"];
-	const auth_token = auth_header && auth_header.split(' ')[1];
+	const authHeader = req.headers["authorization"];
+	console.log("authHeader: ", authHeader);
+	const authToken = authHeader && authHeader.split(' ')[1];
+	console.log("authToken: ", authToken);
 
 	try {
-		if (!auth_token) {
+		if (!authToken) {
 			res.status(request_codes.UNAUTHORIZED).json({ error: 'Unauthorized' });
 			return false;
 		}
-		jwt.verify(auth_token, process.env.JWT_SECRET);
+		jwt.verify(authToken, process.env.JWT_SECRET);
 		return true;
 	} catch (error) {
 		console.log("Error with authentication: ", error.message)

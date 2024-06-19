@@ -35,6 +35,7 @@ const useEndpoints = (): EndpointsReturnType => {
 
 	// TODO: Add axios caching https://www.npmjs.com/package/axios-cache-adapter
 	const getUserByUserId = async ({ userId }: GetUserByUserIdProps): Promise<UserResponse> => {
+		console.log("getUserByUserId")
 		try {
 			const response = await authInterceptor.get(
 				`${url}/${getUserByUserIdUrl}/${userId}`
@@ -50,6 +51,7 @@ const useEndpoints = (): EndpointsReturnType => {
 	};
 
 	const updateUser = async ({ userId, name, email, steamId, subscription, settings, userAvatar, data }: UpdateUserProps): Promise<UserResponse> => {
+		console.log("updateUser")
 		try {
 			await authInterceptor.patch(
 				`${url}/${updateUserUrl}/${userId}`,
@@ -71,6 +73,7 @@ const useEndpoints = (): EndpointsReturnType => {
 	};
 
 	const updateSignUp = async ({ userId, signup }: UpdateSignUpProps): Promise<void> => {
+		console.log("updateSignUp")
 		try {
 			await authInterceptor.patch(
 				`${url}/${updateSignUpUrl}/${userId}`,

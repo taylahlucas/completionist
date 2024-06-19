@@ -13,6 +13,7 @@ const initialGameData = {
 	locations: [], 
 }
 
+// TODO: Convert to Joi
 const userSchema = new mongoose.Schema({
   userId: String,
 	steamId: String,

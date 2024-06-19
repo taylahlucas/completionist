@@ -30,7 +30,21 @@ const useAuthEndpoints = (): AuthEndpointsReturnType => {
 	const { storeCredentials } = useKeychain();
 	const { handleAxiosError } = useHandleAxiosError();
 
-	const checkUserExists = async (email: string): Promise<CredentialsExistProps> => {
+	const test = async () => {
+		try {
+			const response = await axios.patch(`${url}/test/addUser`);
+			console.log("TEST response: ", response);
+			return;
+		}
+		catch (error: AxiosErrorResponse) {
+			console.log("Error with test ", JSON.stringify(error, null, 2));
+			return;
+		}
+	};
+
+	const checkUserExists = async (email: string): 
+	Promise<CredentialsExistProps> => {
+		console.log("checkUserExists");
 		try {
 			const response = await axios.post(`${url}/${checkUserExistsUrl}`,
 				{
@@ -48,6 +62,7 @@ const useAuthEndpoints = (): AuthEndpointsReturnType => {
 	}
 
 	const signUp = async ({ data }: SignUpProps): Promise<UserResponse> => {
+		console.log("signUp");
 		try {
 			const response = await axios.post(`${url}/${signupUrl}`,
 				{
@@ -73,6 +88,7 @@ const useAuthEndpoints = (): AuthEndpointsReturnType => {
 	}
 
 	const signIn = async ({ email, pw, googleId }: SignInProps): Promise<UserResponse> => {
+		console.log("signIn");
 		try {
 			const response = await axios.post(`${url}/${signinUrl}`,
 				{
@@ -101,6 +117,7 @@ const useAuthEndpoints = (): AuthEndpointsReturnType => {
 	};
 
 	const linkAndSignIn = async ({ email, pw, googleId }: SignInProps): Promise<UserResponse> => {
+		console.log("linkAndSignIn");
 		try {
 			const response = await axios.patch(`${url}/${linkAndSignInUrl}`,
 				{
@@ -124,6 +141,7 @@ const useAuthEndpoints = (): AuthEndpointsReturnType => {
 	}
 
 	const sendVerificationEmail = async ({ emailTo, subject, text }: SendEmailProps): Promise<void> => {		
+		console.log("sendVerificationEmail");
 		try {
 			await axios.post(
 				`${url}/${sendVerificationEmailUrl}`,
@@ -157,6 +175,7 @@ const useAuthEndpoints = (): AuthEndpointsReturnType => {
 	};
 
 	return {
+		test,
 		checkUserExists,
 		signUp,
 		signIn,

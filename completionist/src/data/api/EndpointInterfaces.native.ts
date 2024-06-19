@@ -59,6 +59,7 @@ export interface SteamAchievementsProps {
 }
 
 export interface AuthEndpointsReturnType {
+	test: () => Promise<void>;
 	checkUserExists: (email: string) => Promise<CredentialsExistProps>;
 	linkAndSignIn: ({ email, pw, googleId }: SignInProps) => Promise<UserResponse>;
 	signIn: ({ email, pw, googleId }: SignInProps) => Promise<UserResponse>;

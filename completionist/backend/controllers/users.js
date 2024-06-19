@@ -1,20 +1,46 @@
+const { DynamoDBClient, ScanCommand } = require('@aws-sdk/client-dynamodb');
+const { DynamoDBDocumentClient, QueryCommand } = require('@aws-sdk/lib-dynamodb');
+// const redis = require('redis');
 const User = require('../models/user');
 const request_codes = require('../helpers/request_codes');
 const hashPassword = require('../helpers/hash_password');
 const comparePasswords = require('../helpers/compare_passwords');
 const checkAuthToken = require('../helpers/check_auth');
 
-const getUserByUserId = async (req, res) => {
-	const isAuthorized = await checkAuthToken(req, res);
-	if (isAuthorized) {
-		try {
-			const userId = req.params.userId;
-			const user = await User.findOne({ userId }).limit(10);
-			return res.status(request_codes.SUCCESS).json(user);
+const client = new DynamoDBClient({ region: process.env.REGION });
 
-		} catch (error) {
-			return res.status(request_codes.NO_USER_FOUND).json(error.message);
+var params = {
+	TableName: process.env.AWS_TABLE_NAME
+};
+
+const getUserByUserId = async (req, res) => {
+	// const isAuthorized = await checkAuthToken(req, res);
+	// if (isAuthorized) {
+	// }
+	const { userId } = req.params;
+	params = {
+		...params,
+    KeyConditionExpression: 'userId = :userId',
+    ExpressionAttributeValues: {
+      ':userId': userId,
+    },
+  };
+
+	try {
+		const data = await client.send(new QueryCommand(params));
+
+		console.log('Query succeeded No Match:', data.Items);
+		if (!data.Items.length) {
+			return res.status(request_codes.SUCCESS);
 		}
+		else {
+			const user = data.Items[0];
+			console.log('Query succeeded:', user);
+			return res.status(request_codes.SUCCESS).json(user);
+		}
+	} catch (err) {
+		console.error('Unable to query the table. Error JSON:', JSON.stringify(err, null, 2));
+		return res.status(request_codes.FAILURE);
 	}
 };
 
