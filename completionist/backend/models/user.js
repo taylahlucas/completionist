@@ -1,101 +1,53 @@
-const mongoose = require('mongoose');
-const {
-	fallout3SettingsConfig,
-  fallout4SettingsConfig,
-	skyrimSettingsConfig,
-	witcher3SettingsConfig
-} = require('./initialUserData');
+const Joi = require('joi');
 
-const initialGameData = {
-	quests: [], 
-	collectables: [], 
-	miscellaneous: [], 
-	locations: [], 
-}
-
-// TODO: Convert to Joi
-const userSchema = new mongoose.Schema({
-  userId: String,
-	steamId: String,
-	googleId: String,
-  name: String,
-  email: String,
-  password: String,
-  userAvatar: String,
-	signup: {
-		type: Object,
-		default: {
-			verification: true,
-			selectPlan: false,
-			selectGame: false
-		}
-	},
-  subscription: {
-    tier: String,
-    changesLeft: Number,
-    data: [
-      {
-        id: String,
-        isActive: Boolean,
-      }
-    ]
-  },
-  settings: {
-    lang: String,
-    configs: [{
-      id: String,
-      isActive: Boolean,
-    }]
-  },
-  data: {
-    type: Object,
-    default: {
-			fallout3: {
-				appId: 22300,
-				...initialGameData,
-        settingsConfig: fallout3SettingsConfig
-      },
-			fallout4: {
-				appId: 377160,
-				...initialGameData,
-        settingsConfig: fallout4SettingsConfig
-      },
-      skyrim: {
-				appId: 72850,
-				...initialGameData,
-        settingsConfig: skyrimSettingsConfig
-      },
-			witcher3: {
-				appId: 292030,
-				...initialGameData,
-        settingsConfig: witcher3SettingsConfig
-      },
-    }
-  },
+const activeGamesSchema = Joi.object().keys({
+  id: Joi.string().required(),
+  isActive: Joi.boolean().required()
 });
 
-userSchema.path('subscription.tier').default('free');
-userSchema.path('subscription.changesLeft').default(1);
-userSchema.path('subscription.data').default([
-	{ id: 'fallout3', isActive: false },
-	{ id: 'fallout4', isActive: false },
-  { id: 'skyrim', isActive: false },
-	{ id: 'witcher3', isActive: false }
-]);
-userSchema.path('settings.lang').default('en');
-userSchema.path('settings.configs').default([
-  { id: 'disabledSections', isActive: true }
-]);
+const generalSettingsSchema = Joi.object().keys({
+  section: Joi.array().items(activeGamesSchema).required(),
+  categories: Joi.array().items(activeGamesSchema).required(),
+  dlc: Joi.array().items(activeGamesSchema).required(),
+});
 
-module.exports = mongoose.model('User', userSchema);
+const gameSchema = () => Joi.object().keys({
+  appId: Joi.number().required(),
+  quests: Joi.array().items(activeGamesSchema).required(),
+  collectables: Joi.array().items(activeGamesSchema).required(),
+  miscellaneous: Joi.array().items(activeGamesSchema).required(),
+  locations: Joi.array().items(activeGamesSchema).required(),
+  settingsConfig: Joi.object().keys({
+		general: Joi.array().items(generalSettingsSchema).required(),
+		dlc: Joi.array().items(activeGamesSchema).required()
+	}).required()
+});
 
+const dataSchema = Joi.object().keys({
+	fallout3: gameSchema,
+	fallout4: gameSchema,
+	skyrim: gameSchema,
+	witcher3: gameSchema,
+});
 
-// { id: '72850', title: 'Skyrim' }, 
-// { id: '489830', title: 'Skyrim Special Edition' }, 
-// { id: '611670', title: 'Skyrim VR' }
+const userSchema = Joi.object().keys({
+  userId: Joi.string().required(),
+  steamId: Joi.string(),
+  name: Joi.string().required(),
+  email: Joi.string().email().required(),
+	googleId: Joi.string(),
+  password: Joi.string(),
+  signup: Joi.object().keys({
+    verification: Joi.boolean().required(),
+    setUsername: Joi.boolean().required(),
+    selectGame: Joi.boolean().required()
+  }).required(),
+  activeGames: Joi.array().items(activeGamesSchema).required(),
+  settings: Joi.object().keys({
+    lang: Joi.string().default('en').required(),
+    configs: Joi.array().items(activeGamesSchema).required()
+  }).required(),
+  data: dataSchema
+});
 
-// { id: '377160', title: 'Fallout 4' },
-// { id: '199943', title: 'Fallout 4 G.O.T.Y Edition' },
-// { id: '611660', title: 'Fallout 4 VR' },
-
-	// witcher3 complete collection: 124923
+module.exports = userSchema;

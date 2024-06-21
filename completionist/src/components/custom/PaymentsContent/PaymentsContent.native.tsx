@@ -19,7 +19,6 @@ const PaymentsContent = () => {
 	const { selectedSubscription } = useSubscriptionState();
 	const [selectedPrice, setSelectedPrice] = useState(selectedSubscription.prices[0]);
 	const { user } = useMainState();
-	// const { saveUserAndCache } = useEditUserData();
 
 	return (
 		<>

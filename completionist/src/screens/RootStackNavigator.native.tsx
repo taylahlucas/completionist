@@ -10,21 +10,15 @@ import useTimedDataUpdate from '@data/api/hooks/useTimedDataUpdate.native';
 import AuthStackNavigator from '@navigation/AuthStackNavigator.native';
 import UnauthorizedStackNavigator from '@navigation/UnauthorizedStackNavigator.native';
 import useLoginState from '@components/custom/LoginForm/hooks/useLoginState';
-import { windowHeight } from '@styles/global.native';
 import useAuthEndpoints from '@data/api/hooks/useAuthEndpoints.native';
 
 const RootStackNavigator = () => {
 	const { showSplashScreen } = useMainState();
 	const { isAuthenticated } = useLoginState();
-	const { checkUserExists } = useAuthEndpoints();
 
 	usePlaySplashScreen();
 	useInitUserData();
 	useTimedDataUpdate();
-
-	// useEffect(() => {
-	// 	checkUserExists('taylahlucas@gmail.com');
-	// }, [])
 
 	return (
 		<Condition

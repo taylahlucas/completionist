@@ -73,7 +73,8 @@ const useEditUserData = (): EditUserDataReturnType => {
 	};
 
 	const checkAuthentication = (user: User) => {
-		setIsAuthenticated(user.signup.verification && user.signup.selectPlan && user.signup.selectGame)
+		//&& user.signup.setUsername &&
+		setIsAuthenticated(user.signup.verification && user.signup.selectGame)
 	};
 
 	const saveUser = (user: User) => {

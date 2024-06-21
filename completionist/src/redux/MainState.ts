@@ -25,7 +25,7 @@ export const initialUser: User = {
 	},
 	signup: {
 		verification: false,
-		selectPlan: false,
+		setUsername: false,
 		selectGame: false
 	},
 	settings: {

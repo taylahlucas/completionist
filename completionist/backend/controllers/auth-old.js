@@ -1,5 +1,5 @@
 require('dotenv').config();
-const User = require('../models/user');
+const User = require('../models/user-old');
 const jwt = require('jsonwebtoken');
 const mongoose = require('mongoose');
 const redis = require('redis');

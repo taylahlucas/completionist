@@ -7,6 +7,8 @@ const hashPassword = require('../helpers/hash_password');
 const comparePasswords = require('../helpers/compare_passwords');
 const request_codes = require('../helpers/request_codes');
 const { checkEmailExists } = require('../helpers/check_existing_user');
+const userSchema = require('../models/user');
+const createUser = require('../helpers/create_user');
 
 const client = new DynamoDBClient({ region: process.env.REGION });
 const dynamoDB = DynamoDBDocumentClient.from(client);
@@ -55,7 +57,7 @@ const signup = async (req, res) => {
 	}
 
 	const existingUser = checkEmailExists(dynamoDB, email);
-	console.log("existingUser: ", existingUser)
+	
 	if (existingUser) {
 		return res.status(request_codes.EMAIL_TAKEN).json('Email already exists.');
 	}
@@ -76,49 +78,39 @@ const signup = async (req, res) => {
 		name,
 		email,
 		pw: hashedPw,
-		googleId: hashedGoogleId,
-		userAvatar,
-		// Add rest of initial data 
+		googleId: hashedGoogleId
 	}
-	console.log("user: ", user)
+	console.log("before-user: ", user)
+	const updatedUser = createUser(user)
+	const { err, value: validatedUser } = userSchema.validate(updatedUser);
+
+	if (err) {
+		console.log("VALIDATION ERROR: ", err)
+		return res.status(err.status).json(err.message);
+	}
 	params = {
 		...params,
-		Item: user
+		Item: validatedUser
 	};
+	console.log("USER: ", validatedUser)
 
-	client.send(new PutCommand(params), function (err, response) {
-		if (err) {
-			console.log("Signup Error: ", err);
-			return res.status(err.status).json(err.message);
-		}
-		else {
-			console.log("Signup Response: ", response);
-			const token = createSignedToken();
-			const { password, googleId, ...rest } = user._doc;
+	// client.send(new PutCommand(params), function (err, response) {
+	// 	if (err) {
+	// 		console.log("Signup Error: ", err);
+	// 		return res.status(err.status).json(err.message);
+	// 	}
+	// 	else {
+	// 		console.log("Signup Response: ", response);
+	// 		const token = createSignedToken();
+	// 		const { password, googleId, ...rest } = validatedUser._doc;
 	
-			console.log("Signup Success: ", rest);
-			return res.json({
-				token,
-				user: rest,
-			});
-		}
-	})
-	// try {
-	// 	const response = await client.send(new PutCommand(params));
-	// 	console.log("Signup Response: ", response);
-	// 	const token = createSignedToken();
-	// 	const { password, googleId, ...rest } = user._doc;
-
-	// 	console.log("Signup Success: ", rest);
-	// 	return res.json({
-	// 		token,
-	// 		user: rest,
-	// 	});
-	// }
-	// catch (err) {
-	// 	console.log("Signup Error: ", err);
-	// 	return res.status(err.status).json(err.message);
-	// }
+	// 		console.log("Signup Success: ", rest);
+	// 		return res.json({
+	// 			token,
+	// 			user: rest,
+	// 		});
+	// 	}
+	// });
 };
 
 // TODO: Update

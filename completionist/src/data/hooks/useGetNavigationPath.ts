@@ -9,9 +9,9 @@ const useGetNavigationPath = () => {
 		if (!user.signup.verification) {
 			navigation.navigate(UnauthorizedScreenEnum.AccountVerification);
 		}
-		else if (!user.signup.selectPlan) {
-			navigation.navigate(UnauthorizedScreenEnum.SelectInitialPlan);
-		}
+		// else if (!user.signup.sele) {
+		// 	navigation.navigate(UnauthorizedScreenEnum.SelectInitialPlan);
+		// }
 		else if (!user.signup.selectGame) {
 			navigation.navigate(UnauthorizedScreenEnum.SelectFirstGame);
 		}

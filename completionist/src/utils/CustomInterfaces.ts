@@ -127,7 +127,6 @@ export type DrawerStackParamList = {
   Locations: undefined;
   SendRequest: undefined;
 	Achievements: undefined;
-	SelectPlan: undefined;
   Payments: undefined;
   Settings: undefined;
 	AccountDetails: undefined;
@@ -219,7 +218,7 @@ export type UserData = {
 
 export interface SignupData {
 	verification: boolean;
-	selectPlan: boolean;
+	setUsername: boolean;
 	selectGame: boolean;
 }
 

@@ -79,7 +79,7 @@ const useEndpoints = (): EndpointsReturnType => {
 				`${url}/${updateSignUpUrl}/${userId}`,
 				{
 					verification: signup.verification,
-					selectPlan: signup.selectPlan,
+					setUsername: signup.setUsername,
 					selectGame: signup.selectGame
 				}
 			);

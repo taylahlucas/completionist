@@ -8,7 +8,6 @@ import KeyboardAvoidingScrollView from '@components/general/Lists/KeyboardAvoidi
 import ParagraphView from '@components/general/ParagraphView.native';
 import Spacing from '@components/general/Spacing.native';
 import useSendVerificationEmail from '@components/custom/LoginForm/hooks/useSendVerificationEmail';
-import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
 
 interface VerificationContentProps {
 	email: string;

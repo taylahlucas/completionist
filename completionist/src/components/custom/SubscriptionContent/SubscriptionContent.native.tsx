@@ -43,7 +43,7 @@ const SubscriptionContent = () => {
 						...user,
 						signup: {
 							...user.signup,
-							selectPlan: true
+							setUsername: true
 						}
 					}
 					updateSignUpData(updatedUser);

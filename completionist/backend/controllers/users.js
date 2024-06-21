@@ -1,7 +1,7 @@
 const { DynamoDBClient, ScanCommand } = require('@aws-sdk/client-dynamodb');
 const { DynamoDBDocumentClient, QueryCommand } = require('@aws-sdk/lib-dynamodb');
 // const redis = require('redis');
-const User = require('../models/user');
+const User = require('../models/user-old');
 const request_codes = require('../helpers/request_codes');
 const hashPassword = require('../helpers/hash_password');
 const comparePasswords = require('../helpers/compare_passwords');
@@ -18,6 +18,10 @@ const getUserByUserId = async (req, res) => {
 	// if (isAuthorized) {
 	// }
 	const { userId } = req.params;
+	console.log("userId: ", userId);
+	if (!userId) {
+		return res.status(request_codes.SUCCESS);
+	}
 	params = {
 		...params,
     KeyConditionExpression: 'userId = :userId',
@@ -49,13 +53,12 @@ const updateSignUp = async (req, res) => {
 	if (isAuthorized) {
 		try {
 			const userId = req.params.userId;
-			const { verification, selectPlan, selectGame } = req.body;
+			const { verification, selectGame } = req.body;
 			const result = await User.findOneAndUpdate(
 				{ 'userId': userId },
 				{
 					signup: {
 						verification: verification,
-						selectPlan: selectPlan,
 						selectGame: selectGame
 					}
 				}
