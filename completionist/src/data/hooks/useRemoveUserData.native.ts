@@ -12,7 +12,8 @@ const useRemoveUserData = () => {
 	const { clearCache } = useCache();
 
 	const removeUserData = () => {
-		console.log("HEREEEE")
+		setLoggedIn(false);
+		setIsAuthenticated(false);
 		setUser(initialUser);
 		setLoginFormData(initialFormData);
 		clearCache();

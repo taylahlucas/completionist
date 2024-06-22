@@ -22,7 +22,6 @@ const authWrapper = ({ authFunction, onError }) => {
 				// If token is not valid, get refresh token
 				const refreshToken = cache.get(process.env.REFRESH_TOKEN_CACHE_KEY);
 				if (refreshToken) {
-					return res.status(response_codes.UNAUTHORIZED).json({ error: 'Unauthorized token' });
 					const isAuthorized = await checkAuthToken(refreshToken, process.env.JWT_REFRESH_SECRET, res);
 					// If refresh token is valid, run api
 					if (isAuthorized) {

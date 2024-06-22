@@ -173,9 +173,6 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 
 	const signOut = async () => {
 		try {
-			setLoggedIn(false);
-			setIsAuthenticated(false);
-
 			if (shouldUpdateUser) {
 				updateUser(user)
 					.then(() => removeUserData());
