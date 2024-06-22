@@ -63,7 +63,7 @@ const createUser = (user) => {
 		signup: defaultSignup,
 		activeGames: defaultActiveGames,
 		settings: defaultSettings,
-		data: defaultGameData
+		gameData: defaultGameData
 	}
 };
 

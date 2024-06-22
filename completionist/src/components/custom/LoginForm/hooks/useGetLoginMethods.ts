@@ -139,7 +139,7 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 									signUp({
 										data: {
 											userId: uid,
-											name: displayName,
+											username: displayName,
 											email: email,
 											userAvatar: photoURL ?? undefined,
 											googleId: idToken

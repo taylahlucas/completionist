@@ -4,34 +4,30 @@ import { GameKeyEnum } from '@utils/CustomEnums';
 
 export const userMockInitial: User = {
 	...initialUser,
-	subscription: {
-		...initialUser.subscription,
-		data: [
-			{
-				id: GameKeyEnum.FALLOUT_3,
-				isActive: false
-			},
-			{
-				id: GameKeyEnum.FALLOUT_4,
-				isActive: true
-			},
-			{
-				id: GameKeyEnum.SKYRIM,
-				isActive: true
-			},
-			{
-				id: GameKeyEnum.WITCHER_3,
-				isActive: false
-			}
-		]
-	}
+	activeGames: [
+		{
+			id: GameKeyEnum.FALLOUT_3,
+			isActive: false
+		},
+		{
+			id: GameKeyEnum.FALLOUT_4,
+			isActive: true
+		},
+		{
+			id: GameKeyEnum.SKYRIM,
+			isActive: true
+		},
+		{
+			id: GameKeyEnum.WITCHER_3,
+			isActive: false
+		}
+	]
 }
 
 export const useMockData: User = {
 	...userMockInitial,
-	data: {
-		...userMockInitial.data,
-		// skyrim: [],
+	gameData: {
+		...userMockInitial.gameData,
 	}
 }
 

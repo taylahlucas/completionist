@@ -24,7 +24,7 @@ const SettingsAccountDetails = () => {
 				/>
 			</Condition>
 			<StyledText type='ListItemTitleBold'>
-				{user.name}
+				{user.username}
 			</StyledText>
 			<SettingsEmail type='ListItemTitleBold'>
 				{user.email}

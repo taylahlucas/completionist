@@ -54,14 +54,14 @@ const LoginForm = () => {
 						testID='username'
             placeholder={t('common:auth.username')}
             inputStyle='text'
-            value={loginFormData.name}
+            value={loginFormData.username}
             onChangeText={(value) => setLoginFormData({
               ...loginFormData,
-              name: value
+              username: value
             })}
             onReset={(): void => setLoginFormData({
               ...loginFormData,
-              name: ''
+              username: ''
             })}
           />
         </LoginFormButtonContainer>

@@ -20,12 +20,12 @@ const GameList = ({ searchValue }: GameListProps) => {
       <GameListSectionDropdown
 				testID={'active-games'}
         title={t('common:active')}
-				data={filterGameList(user.subscription.data, true, searchValue)}
+				data={filterGameList(user.activeGames, true, searchValue)}
       />
       <GameListSectionDropdown 
 				testID={'inactive-games'}
         title={t('common:inactive')}
-				data={filterGameList(user.subscription.data, false, searchValue)}
+				data={filterGameList(user.activeGames, false, searchValue)}
       />
     </ScrollableList>
   );

@@ -26,7 +26,7 @@ interface ChangeAccountDetailsItem {
 }
 
 interface ChangeAccountDetails {
-	name: ChangeAccountDetailsItem;
+	username: ChangeAccountDetailsItem;
 	email: ChangeAccountDetailsItem;
 	currentPw: ChangeAccountDetailsItem;
 	newPw: ChangeAccountDetailsItem;
@@ -38,7 +38,7 @@ const AccountDetails = () => {
 	const { user, currentScreen } = useMainState();
 	const { isEmailValid, isPwValid, isNameValid } = useValidator();
 	const initialState = {
-		name: { value: user.name, changed: false },
+		username: { value: user.username, changed: false },
 		email: { value: user.email, changed: false },
 		currentPw: { value: '', changed: false },
 		newPw: { value: '', changed: false },
@@ -79,7 +79,7 @@ const AccountDetails = () => {
 					if (!accounts.regular && !accounts.google) {
 						let updatedUser = {
 							...user,
-							name: userInfo.name.changed ? userInfo.name.value : user.name,
+							name: userInfo.username.changed ? userInfo.username.value : user.username,
 							email: userInfo.email.value
 						}
 						updateUser(updatedUser).then(() => {
@@ -108,15 +108,15 @@ const AccountDetails = () => {
 					}
 				})
 		}
-		else if (userInfo.name.changed && isNameValid(userInfo.name.value)) {
+		else if (userInfo.username.changed && isNameValid(userInfo.username.value)) {
 			updateUser({
 				...user,
-				name: userInfo.name.value
+				username: userInfo.username.value
 			})
 				.then(() => {
 					saveUser({
 						...user,
-						name: userInfo.name.value
+						username: userInfo.username.value
 					});
 					Alert.alert(t('common:alerts.updateSuccess'));
 					resetState();
@@ -140,7 +140,7 @@ const AccountDetails = () => {
 			<NavigationHeader
 				id={DrawerScreenEnum.AccountDetails} 
 				title={t('common:screens.accountDetails')} 
-				isForm={userInfo.name.changed || userInfo.email.changed}
+				isForm={userInfo.username.changed || userInfo.email.changed}
 				leftAction='back'
 			/>
 			<>
@@ -150,10 +150,10 @@ const AccountDetails = () => {
 							title={t('common:accountDetails.updateDetails')}
 							type='footer'
 							disabled={
-								!userInfo.name.changed
+								!userInfo.username.changed
 								&& !userInfo.email.changed
 								&& !userInfo.newPw.changed
-								&& (!isNameValid(userInfo.name.value) 
+								&& (!isNameValid(userInfo.username.value) 
 									|| !isEmailValid(userInfo.email.value) 
 									|| !isPwValid(userInfo.newPw.value)
 								)
@@ -167,18 +167,18 @@ const AccountDetails = () => {
 					</AccountDetailsFieldTitle>
 					<TextInput
 						placeholder={t('common:auth.username')}
-						value={userInfo.name.value}
+						value={userInfo.username.value}
 						inputStyle='text'
 						onChangeText={(value: string): void => setUserInfo({
 							...userInfo,
-							name: { value: value, changed: value !== user.name }
+							username: { value: value, changed: value !== user.username }
 						})}
 						onReset={(): void => setUserInfo({
 							...userInfo,
-							name: { value: '', changed: true }
+							username: { value: '', changed: true }
 						})}
 					/>
-					<Condition condition={!isNameValid(userInfo.name.value) && userInfo.name.changed && submitPressed}>
+					<Condition condition={!isNameValid(userInfo.username.value) && userInfo.username.changed && submitPressed}>
 						<ErrorMessage>
 							{t('common:accountDetails.invalidUsername')}
 							</ErrorMessage>

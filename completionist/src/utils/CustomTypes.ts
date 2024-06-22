@@ -60,7 +60,7 @@ export type LanguageType =
 // Navigation
 
 export type NavigationHeaderLeftActionTypes = 'back' | 'menu' | 'achievements' | 'none';
-export type NavigationHeaderRightActionTypes = 'settings' | 'filter' | 'none';
+export type NavigationHeaderRightActionTypes = 'settings' | 'filter' | 'logout' | 'none';
 
 // Responses
 

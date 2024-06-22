@@ -1,12 +1,12 @@
 import React from 'react';
 import { GameListItemContainer, GameListImage, GameItemTitle, GameItemTitleContainer } from './GameListItemStyledComponents.native';
 import useGetTheme from '@styles/hooks/useGetTheme';
-import { SubscriptionData } from '@utils/CustomInterfaces';
+import { ActiveGameData } from '@utils/CustomInterfaces';
 import useTranslateGameContent from '@utils/hooks/useTranslateGameContent.native';
 import useGetGameImage from './hooks/useGetGameImage.native';
 
 interface GameListItemProps {
-	game: SubscriptionData;
+	game: ActiveGameData;
 	enabledColor?: string;
   enabled: boolean;
   onPress: () => void;

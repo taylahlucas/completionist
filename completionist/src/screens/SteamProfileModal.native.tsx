@@ -87,10 +87,10 @@ const SteamProfileModal = ({ profile, isVisible = false, viewType = 'view', onCl
 							<Image style={styles.imageContainer} source={{ uri: profile.profileImg }} />
 						</Condition>
 						<Spacing />
-						<StyledText type='Heading'>{profile.userName}</StyledText>
+						<StyledText type='Heading'>{profile.username}</StyledText>
 						<Spacing />
-						<Condition condition={!!profile.name && !!profile.country}>
-							<StyledText type='ListItemSubTitleBold'>{`${profile.name} - ${profile.country}`}</StyledText>
+						<Condition condition={!!profile.username && !!profile.country}>
+							<StyledText type='ListItemSubTitleBold'>{`${profile.username} - ${profile.country}`}</StyledText>
 						</Condition>
 						<Spacing />
 						<StyledText type='ListItemSubTitleBold'>{`Level: ${profile.level}`}</StyledText>

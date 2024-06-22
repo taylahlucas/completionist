@@ -42,6 +42,7 @@ const Settings = () => {
 				id={isGlobalSettings ? AuthScreenEnum.GlobalSettings : DrawerScreenEnum.Settings}
 				title={t('common:screens.settings')}
 				leftAction={isGlobalSettings ? 'back' : 'menu'}
+				rightAction={isGlobalSettings ? 'logout' : 'none'}
 			/>
 			<ScrollableList
 				ref={scrollViewRef}

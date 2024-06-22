@@ -62,12 +62,12 @@ const useAuthEndpoints = (): AuthEndpointsReturnType => {
 	}
 
 	const signUp = async ({ data }: SignUpProps): Promise<UserResponse> => {
-		console.log("signUp");
+		console.log("signUp: ", data.username);
 		try {
 			const response = await axios.post(`${url}/${signupUrl}`,
 				{
 					userId: data.userId ? data.userId : uuid.v4(),
-					name: data.name,
+					username: data.username,
 					email: data.email.toLocaleLowerCase(),
 					googleId: data.googleId ?? '',
 					pw: data.pw ?? '',
@@ -98,7 +98,7 @@ const useAuthEndpoints = (): AuthEndpointsReturnType => {
 				}
 			);
 			const responseData = response?.data;
-			if (responseData && !!responseData.user && !!responseData.token) {
+			if (responseData && responseData.user && responseData.token) {
 				const credentialsResponse = {
 					username: responseData.user?.userId,
 					password: responseData.token
@@ -117,13 +117,12 @@ const useAuthEndpoints = (): AuthEndpointsReturnType => {
 	};
 
 	const linkAndSignIn = async ({ email, pw, googleId }: SignInProps): Promise<UserResponse> => {
-		console.log("linkAndSignIn");
 		try {
 			const response = await axios.patch(`${url}/${linkAndSignInUrl}`,
 				{
 					email: email.toLocaleLowerCase(),
-					pw,
-					googleId
+					pw: pw ? pw : null,
+					googleId: googleId ? googleId : null
 				}
 			);
 			if (!!response.data.user && !!response.data.token) {

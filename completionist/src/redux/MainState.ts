@@ -1,5 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit';
-import { ScreenEnum, UnauthorizedScreenEnum, GameKeyEnum, SubscriptionTypeEnum } from '@utils/CustomEnums';
+import { ScreenEnum, UnauthorizedScreenEnum, GameKeyEnum } from '@utils/CustomEnums';
 import { GeneralData, User } from '@utils/CustomInterfaces';
 import { AppStateStatus } from 'react-native';
 import { initialFormData } from '@components/custom/LoginForm/LoginState';
@@ -18,11 +18,7 @@ export const initialGameData: GeneralData = {
 
 export const initialUser: User = {
 	...initialFormData,
-	subscription: {
-		tier: SubscriptionTypeEnum.FREE,
-		changesLeft: 2,
-		data: []
-	},
+	activeGames: [],
 	signup: {
 		verification: false,
 		setUsername: false,
@@ -32,7 +28,7 @@ export const initialUser: User = {
 		lang: 'en',
 		configs: []
 	},
-	data: {
+	gameData: {
 		fallout3: initialGameData,
 		fallout4: initialGameData,
 		skyrim: initialGameData,
@@ -65,9 +61,9 @@ export const initialState: MainState = {
 
 const getUserDataState = (state: MainState): GeneralData => {
 	if (state.selectedGame) {
-		return state.user.data[state.selectedGame];
+		return state.user.gameData[state.selectedGame];
 	}
-	return initialUser.data['skyrim'];
+	return initialUser.gameData['skyrim'];
 };
 
 const slice = createSlice({

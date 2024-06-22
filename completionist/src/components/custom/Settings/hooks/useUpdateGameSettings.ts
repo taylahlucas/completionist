@@ -6,16 +6,16 @@ const useUpdateGameSettings = () => {
 	const { updateConfig } = useUpdateSettingsConfig();
 	
 	const updateGameSettings = (user: User, item: SettingsListItem, gameKey: GameKeyEnum) => {
-    const gameConfig = updateConfig(user.data[gameKey].settingsConfig.general, item);
+    const gameConfig = updateConfig(user.gameData[gameKey].settingsConfig.general, item);
 		return {
       ...user,
       data: {
-        ...user.data,
+        ...user.gameData,
         [gameKey]: {
-          ...user.data[gameKey],
+          ...user.gameData[gameKey],
           settingsConfig: {
             general: gameConfig,
-            dlc: user.data[gameKey].settingsConfig.dlc
+            dlc: user.gameData[gameKey].settingsConfig.dlc
           },
         },
       },

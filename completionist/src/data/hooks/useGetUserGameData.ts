@@ -39,15 +39,15 @@ const useGetUserGameData = (): GetUserGameDataReturnType => {
   };
 
   const getUserSettingsMainConfig = (): SettingsListItem[] => {
-    return user.data[selectedGameSettings]?.settingsConfig.general?.map(item => item.section);
+    return user.gameData[selectedGameSettings]?.settingsConfig.general?.map(item => item.section);
   }
 
   const getUserSettingsSubConfig = (section: string): SettingsListItem[] => {
-    return user.data[selectedGameSettings]?.settingsConfig.general?.find(item => item.section.id === section)?.categories ?? [];
+    return user.gameData[selectedGameSettings]?.settingsConfig.general?.find(item => item.section.id === section)?.categories ?? [];
   }
 
   const getUserSettingsDLC = (section: string): SettingsListItem[] => {
-    return user.data[selectedGameSettings]?.settingsConfig.general?.find(item => item.section.id === section)?.dlc ?? [];
+    return user.gameData[selectedGameSettings]?.settingsConfig.general?.find(item => item.section.id === section)?.dlc ?? [];
   }
 
   return {

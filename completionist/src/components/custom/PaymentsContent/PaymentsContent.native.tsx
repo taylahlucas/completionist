@@ -63,13 +63,13 @@ const PaymentsContent = () => {
 				title={t('common:payments.confirm')}
 				type='footer'
 				onPress={(): void => {
-					const updatedUser = {
-						...user,
-						subscription: {
-							...user.subscription,
-							tier: selectedSubscription.id
-						}
-					};
+					// const updatedUser = {
+					// 	...user,
+					// 	subscription: {
+					// 		...user.subscription,
+					// 		tier: selectedSubscription.id
+					// 	}
+					// };
 					// saveUser(updatedUser);
 					// navigation.navigate(AuthScreenEnum.GameSelection);
 				}}

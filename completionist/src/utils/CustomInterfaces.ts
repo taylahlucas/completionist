@@ -1,4 +1,4 @@
-import { ScreenEnum, SettingsOptionEnum, GameKeyEnum, DatePeriodEnum, SubscriptionTypeEnum, ContentSectionEnum, DrawerScreenEnum } from './CustomEnums';
+import { ScreenEnum, SettingsOptionEnum, GameKeyEnum, DatePeriodEnum, ContentSectionEnum, DrawerScreenEnum } from './CustomEnums';
 import { NavigationAction, NavigationState } from '@react-navigation/native';
 import { MainState } from '@redux/MainState';
 import { SettingsState } from '@components/custom/Settings/SettingsState';
@@ -42,7 +42,7 @@ export interface AchievementItem {
 
 export interface SteamProfile {
 	steamId: string;
-	userName: string;
+	username: string;
 	name?: string;
 	profileImg?: string;
 	country?: string;
@@ -192,15 +192,9 @@ export interface SettingsListItem {
   isActive: boolean;
 }
 
-export interface SubscriptionData {
+export interface ActiveGameData {
   id: GameKeyEnum;
   isActive: boolean;
-}
-
-export interface Subscription {
-  tier: SubscriptionTypeEnum;
-  changesLeft: number;
-  data: SubscriptionData[];
 }
 
 export interface GeneralData {
@@ -225,14 +219,14 @@ export interface SignupData {
 export interface User extends LoginFormData {
 	steamId?: string;
 	signup: SignupData;
-  subscription: Subscription;
+  activeGames: ActiveGameData[];
   settings: UserSettings;
-  data: UserData;
+  gameData: UserData;
 }
 
 export interface LoginFormData {
   userId: string;
-  name: string;
+  username: string;
   email: string;
 	googleId?: string;
   pw?: string;

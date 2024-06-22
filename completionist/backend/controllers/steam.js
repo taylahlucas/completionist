@@ -19,7 +19,7 @@ const getSteamProfile = async (req, res) => {
 
 			const profile = {
 				steamId: steamId,
-				userName: $('.actual_persona_name').text().trim(),
+				username: $('.actual_persona_name').text().trim(),
 				name: $('.header_real_name bdi').text().trim(),
 				profileImg: $('.playerAvatarAutoSizeInner img').attr('src'),
 				country: $('.header_real_name').contents().last().text().trim(),

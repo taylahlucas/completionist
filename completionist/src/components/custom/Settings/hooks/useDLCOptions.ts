@@ -18,12 +18,12 @@ const useDLCOptions = (): DLCOptionsReturnType => {
 		// TODO: Check if this is working
     setUser({
       ...user,
-      data: {
-        ...user.data,
+      gameData: {
+        ...user.gameData,
         [gameKey]: {
-          ...user.data[gameKey],
+          ...user.gameData[gameKey],
           settingsConfig: {
-            general: user.data[gameKey].settingsConfig.general.map((config: SettingsConfigItem) => (
+            general: user.gameData[gameKey].settingsConfig.general.map((config: SettingsConfigItem) => (
               {
                 ...config,
                 dlc: config.dlc.map(dlcItem => ({
@@ -32,7 +32,7 @@ const useDLCOptions = (): DLCOptionsReturnType => {
                 }))
               }
             )),
-            dlc: user.data[gameKey].settingsConfig.dlc.map(dlcItem => (
+            dlc: user.gameData[gameKey].settingsConfig.dlc.map(dlcItem => (
               (dlcItem.id === id) ? {
                 id: dlcItem.id,
                 isActive: !dlcItem.isActive
@@ -46,7 +46,7 @@ const useDLCOptions = (): DLCOptionsReturnType => {
   };
 
   const getDLCOptions = (): SettingsListItem[] => {
-		return user.data[selectedGameSettings].settingsConfig.dlc.map((item) => {
+		return user.gameData[selectedGameSettings].settingsConfig.dlc.map((item) => {
 			return {
 				id: item.id,
 				title: t(`common:categories.${selectedGameSettings}.dlc.${item.id}`),

@@ -1,6 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit';
 import { SubscriptionOptionsListProps } from './hooks/useGetSubscriptionOptionsList';
-import { SubscriptionTypeEnum } from '@utils/CustomEnums';
+// import { SubscriptionTypeEnum } from '@utils/CustomEnums';
 
 export interface SubscriptionState {
     readonly selectedSubscription: SubscriptionOptionsListProps;
@@ -8,7 +8,7 @@ export interface SubscriptionState {
 
 export const initialState: SubscriptionState = {
     selectedSubscription: {
-			id: SubscriptionTypeEnum.FREE,
+			id: '234',
 			prices: [],
 			title: '',
 			description: []

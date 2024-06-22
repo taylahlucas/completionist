@@ -15,7 +15,7 @@ const useInitUserData = () => {
 
   useEffect(() => {
     if (!isAuthenticated && !user.userId) {
-      // loadUserFromCache();
+      loadUserFromCache();
     }
 
     const subscription = AppState.addEventListener('change', nextAppState => {
@@ -32,12 +32,13 @@ const useInitUserData = () => {
     switch (appState) {
       case 'active':
         if (!isAuthenticated || !user.userId) {
-          // loadUserFromCache();
+          loadUserFromCache();
         }
         return;
-      case 'inactive': 
-        if (isAuthenticated && !!user.userId && shouldUpdateUser) {
-          // updateUserData(user);
+      case 'inactive':
+				// && shouldUpdateUser
+        if (isAuthenticated && !!user.userId) {
+          updateUserData(user);
         }
         return;
     }

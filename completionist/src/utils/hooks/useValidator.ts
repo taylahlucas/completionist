@@ -9,8 +9,8 @@ const useValidator = () => {
 		return pwRegex.test(pw);
 	}
 	
-	const isNameValid = (name: string): boolean => {
-		return name.length >= 1;
+	const isNameValid = (username: string): boolean => {
+		return username.length >= 1;
 	}
 
 	return {

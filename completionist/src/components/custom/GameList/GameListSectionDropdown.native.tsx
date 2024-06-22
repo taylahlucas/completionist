@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Dropdown from '@components/general/Dropdown/Dropdown.native';
 import GameListItem from './GameListItem.native';
-import { SubscriptionData } from '@utils/CustomInterfaces';
+import { ActiveGameData } from '@utils/CustomInterfaces';
 import GameListSectionHeader from './GameListSectionHeader.native';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import useHandleGameSelection from './hooks/useHandleGameSelection.native';
@@ -10,7 +10,7 @@ import { GameListDropdownContainer } from './GameListItemStyledComponents.native
 interface GameListSectionDropdown {
 	testID?: string;
 	title: string;
-	data: SubscriptionData[];
+	data: ActiveGameData[];
 }
 
 const GameListSectionDropdown = ({ testID, title, data }: GameListSectionDropdown) => {
@@ -26,7 +26,7 @@ const GameListSectionDropdown = ({ testID, title, data }: GameListSectionDropdow
 			setOpen={() => setIsOpen(!isOpen)}
 		>
 			<GameListDropdownContainer>
-				{data.map((game: SubscriptionData, index: number) => (
+				{data.map((game: ActiveGameData, index: number) => (
 					<GameListItem
 						key={index}
 						game={game}

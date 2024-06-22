@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import StandardLayout from '@components/general/Layouts/StandardLayout.native';
 import NavigationHeader from '@navigation/NavigationHeader.native';
 import CustomSearchBar from '@components/general/CustomSearchBar/CustomSearchBar.native';
-import { SubscriptionData } from '@utils/CustomInterfaces';
+import { ActiveGameData } from '@utils/CustomInterfaces';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import { useTranslation } from 'react-i18next';
 import useMainState from '@redux/hooks/useMainState';
@@ -28,11 +28,12 @@ const SelectFirstGame = () => {
 	const { filterGameList } = useFilterGameList();
 	const { getFormattedSearchString } = useFormatter();
 	const [searchValue, setSearchValue] = useState('');
-	const [selectedGame, setSelectedGame] = useState<SubscriptionData>();
+	const [selectedGame, setSelectedGame] = useState<ActiveGameData>();
 	const { activateGameSubscription } = useActivateGameSubscription();
 	const { updateSignUpData } = useEditUserData();
 	const isLoading = useIsLoading();
-	const filteredGames = filterGameList(user.subscription.data, false, getFormattedSearchString(searchValue));
+	const filteredGames = filterGameList(user.activeGames, false, getFormattedSearchString(searchValue));
+	
 
 	const renderAwareView = () => (
 		<Button

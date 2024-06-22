@@ -1,7 +1,7 @@
-import { SubscriptionData } from '@utils/CustomInterfaces';
+import { ActiveGameData } from '@utils/CustomInterfaces';
 
 const useFilterGameList = () => {
-	const filterGameList = (data: SubscriptionData[], isActive: boolean, searchValue: string) => {
+	const filterGameList = (data: ActiveGameData[], isActive: boolean, searchValue: string) => {
 		return data
       .filter(item => item.isActive === isActive)
       .filter(item => searchValue?.length > 0 ? (item.id as string).includes(searchValue) : true);

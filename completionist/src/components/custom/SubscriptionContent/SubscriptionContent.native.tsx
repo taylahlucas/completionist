@@ -38,22 +38,22 @@ const SubscriptionContent = () => {
 			title={t('common:continue')}
 			type='footer'
 			onPress={(): void => {
-				if (selectedSubscription.id === SubscriptionTypeEnum.FREE && !isAuthenticated) {
-					const updatedUser = {
-						...user,
-						signup: {
-							...user.signup,
-							setUsername: true
-						}
-					}
-					updateSignUpData(updatedUser);
-				}
-				else if (selectedSubscription.id === SubscriptionTypeEnum.FREE) {
-					// TODO: Add change success page
-				}
-				else {
-					navigation.navigate(DrawerScreenEnum.Payments);
-				}
+				// if (selectedSubscription.id === SubscriptionTypeEnum.FREE && !isAuthenticated) {
+				// 	const updatedUser = {
+				// 		...user,
+				// 		signup: {
+				// 			...user.signup,
+				// 			setUsername: true
+				// 		}
+				// 	}
+				// 	updateSignUpData(updatedUser);
+				// }
+				// else if (selectedSubscription.id === SubscriptionTypeEnum.FREE) {
+				// 	// TODO: Add change success page
+				// }
+				// else {
+				// 	navigation.navigate(DrawerScreenEnum.Payments);
+				// }
 			}}
 			color={theme.primaryPurple} />
 	);

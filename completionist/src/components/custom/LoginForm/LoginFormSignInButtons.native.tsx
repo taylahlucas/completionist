@@ -24,7 +24,7 @@ const LoginFormSignInButtons = () => {
 	const { isEmailValid, isPwValid, isNameValid } = useValidator();
 	const isLoginDisabled = !isEmailValid(loginFormData.email) || !isPwValid(loginFormData.pw ?? '') || 
 	(isSigningUp 
-		? !isNameValid(loginFormData.name) 
+		? !isNameValid(loginFormData.username) 
 		: false
 	);
 	

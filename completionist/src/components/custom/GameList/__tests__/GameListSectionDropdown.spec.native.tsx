@@ -6,7 +6,7 @@ import GameListSectionDropdown from '../GameListSectionDropdown.native';
 
 const props = {
 	title: 'Active',
-	data: userMockInitial.subscription.data
+	data: userMockInitial.activeGames
 };
 const initialState = {
 	main: {
@@ -30,7 +30,7 @@ describe('GameListSelectionDropdown', () => {
 	it('renders the correct inactive game list items', () => {
 		const inactiveProps = {
 			title: 'Inactive',
-			data: userMockInitial.subscription.data
+			data: userMockInitial.activeGames
 		};
     const { queryByTestId } = render(<GameListSectionDropdown {...inactiveProps} />, { initialState });
 

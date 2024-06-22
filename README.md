@@ -140,3 +140,8 @@ Update:
 - Generate hrefs using add_initial_hrefs.js
 - Check for hrefs that dont work using check_hrefs.js and update these.
 - Move add_new_hrefs.js to translations/ and run for files with finished hrefs.
+
+
+## References
+
+DynamoDB & Node.js -> https://docs.aws.amazon.com/sdk-for-javascript/v3/developer-guide/dynamodb-example-dynamodb-utilities.html

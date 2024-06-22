@@ -25,7 +25,7 @@ const Achievements = () => {
 	const [currentOpen, setCurrentOpen] = useState<string>('');
 	const { user, selectedGame } = useMainState();
 	const { filterGameList } = useFilterGameList();
-	const activeGames = filterGameList(user.subscription.data, true, '');
+	const activeGames = filterGameList(user.activeGames, true, '');
 	const { getGameProgress } = useGetGameProgressData();
 	const isGlobalAchievements = !selectedGame;
 

@@ -31,7 +31,7 @@ const SettingsSelectionDropdown = () => {
 			}
 		>
 			<DropdownSelectionContent
-				content={filterGameList(user.subscription.data, true, '').map(game => ({
+				content={filterGameList(user.activeGames, true, '').map(game => ({
 					id: game.id,
 					title: t(`common:categories.${game.id}.title`)
 				}))}

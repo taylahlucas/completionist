@@ -1,8 +1,8 @@
 const bcrypt = require('bcrypt');
 
-async function comparePasswords(enteredPassword, hashedPassword) {
+async function comparePws(enteredPw, hashedPw) {
   try {
-    const isMatch = await bcrypt.compare(enteredPassword, hashedPassword);
+    const isMatch = await bcrypt.compare(enteredPw, hashedPw);
 
     return isMatch;
   } catch (error) {
@@ -10,4 +10,4 @@ async function comparePasswords(enteredPassword, hashedPassword) {
   }
 }
 
-module.exports = comparePasswords;
+module.exports = comparePws;

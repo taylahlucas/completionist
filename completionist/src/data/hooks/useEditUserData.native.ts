@@ -8,7 +8,7 @@ import useEndpoints from '../api/hooks/useEndpoints.native';
 import useLoginState from '@components/custom/LoginForm/hooks/useLoginState';
 import { initialUser } from '@redux/MainState';
 import useGetNavigationPath from './useGetNavigationPath';
-import { SubscriptionTypeEnum } from '@utils/CustomEnums';
+// import { SubscriptionTypeEnum } from '@utils/CustomEnums';
 
 interface EditUserDataReturnType {
 	loadUserFromCache: () => void;
@@ -27,28 +27,28 @@ const useEditUserData = (): EditUserDataReturnType => {
 	const { getUserByUserId, updateUser, updateSignUp } = useEndpoints();
 	const getAuthNavigationPath = useGetNavigationPath();
 
-	const checkUpdateChangesLeft = (user: User) => {
-		const currentDate = new Date();
-		// Refresh changesLeft value on the 1st of each month
-		if (currentDate.getDate() === 1 && user.subscription.tier === SubscriptionTypeEnum.FREE) {
-			if (user.subscription.changesLeft !== 1) {
-				const updatedUser = {
-					...user,
-					subscription: {
-						...user.subscription,
-						changesLeft: 1
-					}
-				};
-				updateUser({ ...updatedUser })
-					.then(() => {
-						saveUser(updatedUser);
-					});
-			}
-    }
-		else {
-			saveUser(user);
-		}
-	};
+	// const checkUpdateChangesLeft = (user: User) => {
+	// 	const currentDate = new Date();
+	// 	// Refresh changesLeft value on the 1st of each month
+	// 	if (currentDate.getDate() === 1 && user.subscription.tier === SubscriptionTypeEnum.FREE) {
+	// 		if (user.subscription.changesLeft !== 1) {
+	// 			const updatedUser = {
+	// 				...user,
+	// 				subscription: {
+	// 					...user.subscription,
+	// 					changesLeft: 1
+	// 				}
+	// 			};
+	// 			updateUser({ ...updatedUser })
+	// 				.then(() => {
+	// 					saveUser(updatedUser);
+	// 				});
+	// 		}
+  //   }
+	// 	else {
+	// 		saveUser(user);
+	// 	}
+	// };
 
 	const loadUserFromCache = async () => {
 		const credentials = await getCredentials();
@@ -57,17 +57,24 @@ const useEditUserData = (): EditUserDataReturnType => {
 		if (credentials) {
 			fetchUserFromCache(credentials.password)
 				.then((cachedData) => {
-					if (cachedData) {
-						checkUpdateChangesLeft(cachedData);
-					}
-					else {
-						getUserByUserId({ userId: credentials.username })
+					getUserByUserId({ userId: credentials.username })
 							.then((user) => {
 								if (user) {
-									checkUpdateChangesLeft(user);
+									// checkUpdateChangesLeft(user);
+									saveUser(user);
 								}
 							})
-					}
+					// if (cachedData) {
+					// 	checkUpdateChangesLeft(cachedData);
+					// }
+					// else {
+					// 	getUserByUserId({ userId: credentials.username })
+					// 		.then((user) => {
+					// 			if (user) {
+					// 				checkUpdateChangesLeft(user);
+					// 			}
+					// 		})
+					// }
 			});
 		}
 	};
@@ -82,23 +89,25 @@ const useEditUserData = (): EditUserDataReturnType => {
 		setUser(user);
 		saveToCache(user);
 		setShouldUpdateUser(false);
-
+		
 		if (!isAuthenticated) {
 			getAuthNavigationPath(user);
 		}
 	};
 
 	const updateSignUpData = async (user: User) => {
+		console.log("updateSignUpData user.signup: ", user.signup)
+		// TODO: updateSignUp is not returning anything
 		updateSignUp({
 			userId: user.userId,
 			signup: user.signup
-		})
-		.then(() => saveUser(user));
+		});
+		saveUser(user);
 	}
 	
 	const updateUserData = async (user: User) => {
-		updateUser({ ...user })
-			.then(() => checkUpdateChangesLeft(user));
+		updateUser(user)
+			.then(() => saveUser(user));
 	}
 
 	const removeUserData = () => {

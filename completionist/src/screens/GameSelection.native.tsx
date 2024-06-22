@@ -7,7 +7,7 @@ import NavigationHeader from '@navigation/NavigationHeader.native';
 import useMainState from '@redux/hooks/useMainState';
 import CustomSearchBar from '@components/general/CustomSearchBar/CustomSearchBar.native';
 import Condition from '@components/general/Condition.native';
-import { IconTypeEnum, SubscriptionTypeEnum, AuthScreenEnum } from '@utils/CustomEnums';
+import { IconTypeEnum, AuthScreenEnum } from '@utils/CustomEnums';
 import StyledText from '@components/general/Text/StyledText.native';
 import Icon from '@components/general/Icon/Icon.native';
 import { GameSelectionChangesLeftContainer } from '@components/custom/GameList/GameListItemStyledComponents.native';
@@ -27,7 +27,8 @@ const GameSelection = () => {
 				type='ListItemSubDescription'
 				align='right'
 			>
-				{user.subscription.tier.toLocaleUpperCase()}
+				{/* {user.subscription.tier.toLocaleUpperCase()} */}
+				Test
 			</StyledText>
 		);
 	};
@@ -37,7 +38,7 @@ const GameSelection = () => {
 		<StandardLayout>
 			<NavigationHeader
 				id={AuthScreenEnum.GameSelection}
-				title={`${t('common:welcome')}\n${user.name}`}
+				title={`${t('common:welcome')}\n${user.username}`}
 				leftAction='achievements'
 				rightAction='settings'
 			/>
@@ -46,7 +47,7 @@ const GameSelection = () => {
 				setSearchValue={setSearchValue}
 				onReset={(): void => setSearchValue('')}
 			/>
-			<Condition
+			{/* <Condition
 				condition={user.subscription.tier === SubscriptionTypeEnum.FREE}
 				conditionalElement={renderSubscriptionComponent({ marginRight: 34 })}
 			>
@@ -68,7 +69,7 @@ const GameSelection = () => {
 					</View>
 					{renderSubscriptionComponent({ position: 'absolute', right: 34 })}
 				</GameSelectionChangesLeftContainer>
-			</Condition>
+			</Condition> */}
 			<GameList searchValue={searchValue.toLocaleLowerCase()} />
 		</StandardLayout>
 	);

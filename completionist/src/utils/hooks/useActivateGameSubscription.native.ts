@@ -1,46 +1,44 @@
 import useEditUserData from '@data/hooks/useEditUserData.native';
-import { SubscriptionData, User } from '@utils/CustomInterfaces';
+import { ActiveGameData, User } from '@utils/CustomInterfaces';
 
 const useActivateGameSubscription = () => {
 	const { updateUserData } = useEditUserData();
 
 	// Free users
-	const changeGameSubscription = (user: User, selectedGame: SubscriptionData, changesLeft: number) => {
-		const updatedGames: SubscriptionData[] = user.subscription.data.map((data: SubscriptionData) => {
-			return {
-				id: data.id,
-				isActive: data.id === selectedGame?.id
-			};
-		});
+	const changeGameSubscription = (user: User, selectedGame: ActiveGameData, changesLeft: number) => {
+		// TODO: Update
+		// const updatedGames: ActiveGameData[] = user.subscription.data.map((data: ActiveGameData) => {
+		// 	return {
+		// 		id: data.id,
+		// 		isActive: data.id === selectedGame?.id
+		// 	};
+		// });
 
-		const updatedUser = {
-			...user,
-			subscription: {
-				...user.subscription,
-				changesLeft: changesLeft,
-				data: updatedGames
-			}
-		};
-		updateUserData(updatedUser);
+		// const updatedUser = {
+		// 	...user,
+		// 	subscription: {
+		// 		...user.subscription,
+		// 		changesLeft: changesLeft,
+		// 		data: updatedGames
+		// 	}
+		// };
+		// updateUserData(updatedUser);
 	};
 	
 	// User set up and premium users
-	const activateGameSubscription = (user: User, selectedGame: SubscriptionData) => {
-		const updatedGames: SubscriptionData[] = user.subscription.data.map((data: SubscriptionData) => {
-			return (data.id === selectedGame?.id)
+	const activateGameSubscription = (user: User, selectedGame: ActiveGameData) => {
+		// TODO:
+		const activeGames: ActiveGameData[] = user.activeGames.map((game: ActiveGameData) => {
+			return (game.id === selectedGame?.id)
 				? {
-					id: data.id,
+					id: game.id,
 					isActive: true
-				} : data;
+				} : game;
 		});
-		const updatedUser = {
+		updateUserData({
 			...user,
-			subscription: {
-				...user.subscription,
-				data: updatedGames
-			}
-		};
-		updateUserData(updatedUser);
+			activeGames
+		});
 	};
 
 	return { changeGameSubscription, activateGameSubscription };

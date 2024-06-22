@@ -1,5 +1,5 @@
 require('dotenv').config();
-const User = require('../models/user-old');
+const User = require('../models/user');
 const jwt = require('jsonwebtoken');
 const mongoose = require('mongoose');
 const redis = require('redis');
@@ -95,8 +95,9 @@ const signin = async (req, res) => {
 			return res.status(request_codes.NO_USER_FOUND).json({ error: "No user found." });
 		}
 
-		if (user.password && password) {
+		if (user.pw && pw) {
 			const match = await comparePasswords(password, user.password);
+			console.log("match: ", match)
 			if (!match) {
 				return res.status(request_codes.WRONG_PASSWORD).json({
 					error: "Wrong password",

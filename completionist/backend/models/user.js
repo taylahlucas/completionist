@@ -33,10 +33,10 @@ const dataSchema = Joi.object().keys({
 const userSchema = Joi.object().keys({
   userId: Joi.string().required(),
   steamId: Joi.string(),
-  name: Joi.string().required(),
+  username: Joi.string().required(),
   email: Joi.string().email().required(),
 	googleId: Joi.string(),
-  password: Joi.string(),
+  pw: Joi.string(),
   signup: Joi.object().keys({
     verification: Joi.boolean().required(),
     setUsername: Joi.boolean().required(),
@@ -47,7 +47,7 @@ const userSchema = Joi.object().keys({
     lang: Joi.string().default('en').required(),
     configs: Joi.array().items(activeGamesSchema).required()
   }).required(),
-  data: dataSchema
+  gameData: dataSchema
 });
 
 module.exports = userSchema;

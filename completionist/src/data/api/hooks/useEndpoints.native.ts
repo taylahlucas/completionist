@@ -1,6 +1,6 @@
 import { Alert, Platform } from 'react-native';
 import { useTranslation } from 'react-i18next';
-import { SteamAchievement, AchievementItem, User, SteamProfile } from '@utils/CustomInterfaces';
+import { AchievementItem, User, SteamProfile } from '@utils/CustomInterfaces';
 import { AxiosErrorResponse, UserResponse } from '@utils/CustomTypes';
 import {
 	getUserByUserIdUrl,
@@ -9,12 +9,10 @@ import {
 	sendEmailUrl,
 	steamProfileUrl,
 	steamPlayerAchievementsUrl,
-	steamAchievementsByIdUrl,
 	changePwUrl
 } from '../../urls';
 import {
 	GetUserByUserIdProps,
-	UpdateUserProps,
 	SendEmailProps,
 	EndpointsReturnType,
 	UpdateSignUpProps,
@@ -35,12 +33,12 @@ const useEndpoints = (): EndpointsReturnType => {
 
 	// TODO: Add axios caching https://www.npmjs.com/package/axios-cache-adapter
 	const getUserByUserId = async ({ userId }: GetUserByUserIdProps): Promise<UserResponse> => {
-		console.log("getUserByUserId")
 		try {
 			const response = await authInterceptor.get(
 				`${url}/${getUserByUserIdUrl}/${userId}`
 			);
 			if (!!response.data) {
+				console.log("getUserByUserId: ", JSON.stringify(response.data.activeGames, null, 2));
 				return response.data as User;
 			}
 			return;
@@ -50,22 +48,21 @@ const useEndpoints = (): EndpointsReturnType => {
 		}
 	};
 
-	const updateUser = async ({ userId, name, email, steamId, subscription, settings, userAvatar, data }: UpdateUserProps): Promise<UserResponse> => {
-		console.log("updateUser")
+	const updateUser = async (user: User): Promise<UserResponse> => {
 		try {
 			await authInterceptor.patch(
-				`${url}/${updateUserUrl}/${userId}`,
+				`${url}/${updateUserUrl}/${user.userId}`,
 				{
-					name: name,
-					email: email,
-					steamId: steamId,
-					subscription: subscription,
-					settings: settings,
-					userAvatar: userAvatar,
-					data: data
+					username: user.username,
+					email: user.email,
+					steamId: user.steamId,
+					activeGames: user.activeGames,
+					settings: user.settings,
+					gameData: user.gameData
 				}
 			);
-			return;
+			console.log("updateUser: ", JSON.stringify(user.activeGames, null, 2))
+			return user;
 		}
 		catch (error: AxiosErrorResponse) {
 			handleAxiosError(error.response?.status);

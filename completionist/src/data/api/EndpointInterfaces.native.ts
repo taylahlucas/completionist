@@ -1,4 +1,4 @@
-import { LoginFormData, Subscription, UserSettings, UserData, SignupData, SteamProfile } from '@utils/CustomInterfaces';
+import { LoginFormData, User, SignupData, SteamProfile } from '@utils/CustomInterfaces';
 import { UserResponse } from '@utils/CustomTypes';
 
 export interface SignUpProps {
@@ -18,17 +18,6 @@ export interface CredentialsExistProps {
 
 export interface GetUserByUserIdProps {
 	userId: string;
-}
-
-export interface UpdateUserProps {
-	userId: string;
-	name?: string;
-	email?: string,
-	steamId?: string;
-	subscription: Subscription;
-	settings: UserSettings;
-	userAvatar?: string;
-	data: UserData;
 }
 
 export interface SendEmailProps {
@@ -70,7 +59,7 @@ export interface AuthEndpointsReturnType {
 
 export interface EndpointsReturnType {
 	getUserByUserId: ({ userId }: GetUserByUserIdProps) => Promise<UserResponse>;
-	updateUser: ({ userId, name, email, steamId, subscription, settings, userAvatar, data }: UpdateUserProps) => Promise<UserResponse>;
+	updateUser: (user: User) => Promise<UserResponse>;
 	updateSignUp: ({ userId, signup }: UpdateSignUpProps) => Promise<void>;
 	changePw: ({ userId, oldPw, newPw }: ChangePwProps) => Promise<void>;
 	sendEmail: ({ emailTo, subject, text }: SendEmailProps) => Promise<void>;

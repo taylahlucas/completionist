@@ -1,18 +1,23 @@
 require('dotenv').config();
-const { GetCommand } = require('@aws-sdk/lib-dynamodb');
+const { QueryCommand } = require('@aws-sdk/lib-dynamodb');
 
-const checkEmailExists = (client, email) => {
+const checkEmailExists = async (client, email) => {
 	let params = {
     TableName: process.env.AWS_TABLE_NAME,
-    Item: {
-      email: email
-    },
+		IndexName: 'email',
+		KeyConditionExpression: 'email = :email',
+		ExpressionAttributeValues: {
+      ':email': email
+    }
   }
-
-	client.send(new GetCommand(params), function (err, response) {
-		if (err) return null;
-		else response.Items.length > 0 ? response.Items[0] : null;
-	});
+	try {
+		const response = await client.send(new QueryCommand(params));
+		return response.Items.length > 0 ? response.Items[0] : null;
+	}
+	catch (err) {
+		console.log("checkEmailExists error: ", err)
+		return null;
+	}
 }
 
 module.exports = { checkEmailExists };

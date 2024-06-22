@@ -8,10 +8,12 @@ import { IconTypeEnum, AuthScreenEnum } from '@utils/CustomEnums';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import IconButton from '@components/general/Icon/IconButton.native';
 import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
+import useGetLoginMethods from '@components/custom/LoginForm/hooks/useGetLoginMethods';
 
 const useGetRightNavigationItem = (rightAction: NavigationHeaderRightActionTypes): JSX.Element => {
   const theme = useGetTheme();
 	const navigation = useReactNavigation();
+	const { signOut } = useGetLoginMethods();
 
   switch (rightAction) {
     case 'settings':
@@ -36,6 +38,16 @@ const useGetRightNavigationItem = (rightAction: NavigationHeaderRightActionTypes
           onPress={() => {
 						console.log("SHOW FILTER")
 					}}
+        />
+      );
+		case 'logout':
+			return (
+        <IconButton
+          style={styles.iconButton}
+          name='logout'
+          color={theme.lightGrey}
+          size={34}
+          onPress={signOut}
         />
       );
     default:

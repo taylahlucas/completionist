@@ -18,28 +18,28 @@ const useGetGameProgressData = () => {
 			if (questData.length > 0) {
 				drawerItems.push({
 					id: ContentSectionEnum.QUESTS,
-					current: user.data[game].quests.filter((item: Item) => item.isComplete).length,
+					current: user.gameData[game].quests.filter((item: Item) => item.isComplete).length,
 					total: questData.length
 				})
 			}
 			if (collectablesData.length > 0) {
 				drawerItems.push({
 					id: ContentSectionEnum.COLLECTABLES,
-					current: user.data[game].collectables.filter((item: Item) => item.isComplete).length,
+					current: user.gameData[game].collectables.filter((item: Item) => item.isComplete).length,
 					total: collectablesData.length
 				})
 			}
 			if (locationsData.length > 0) {
 				drawerItems.push({
 					id: ContentSectionEnum.LOCATIONS,
-					current: user.data[game].locations.filter((item: Item) => item.isComplete).length,
+					current: user.gameData[game].locations.filter((item: Item) => item.isComplete).length,
 					total: locationsData.length
 				})
 			}
 			if (miscellaneousData.length > 0) {
 				drawerItems.push({
 					id: ContentSectionEnum.MISCELLANEOUS,
-					current: user.data[game].miscellaneous.filter((item: Item) => item.isComplete).length,
+					current: user.gameData[game].miscellaneous.filter((item: Item) => item.isComplete).length,
 					total: miscellaneousData.length
 				})
 			}

@@ -1,17 +1,18 @@
 require('dotenv').config();
 const { DynamoDBClient } = require('@aws-sdk/client-dynamodb');
-const { PutCommand, DynamoDBDocumentClient } = require('@aws-sdk/lib-dynamodb');
+const { DynamoDBDocumentClient, PutCommand, UpdateCommand } = require('@aws-sdk/lib-dynamodb');
 const jwt = require('jsonwebtoken');
 const mongoose = require('mongoose');
-const hashPassword = require('../helpers/hash_password');
-const comparePasswords = require('../helpers/compare_passwords');
+const hashPw = require('../helpers/hash_password');
+const comparePws = require('../helpers/compare_passwords');
 const request_codes = require('../helpers/request_codes');
 const { checkEmailExists } = require('../helpers/check_existing_user');
 const userSchema = require('../models/user');
 const createUser = require('../helpers/create_user');
 
-const client = new DynamoDBClient({ region: process.env.REGION });
-const dynamoDB = DynamoDBDocumentClient.from(client);
+const dynamoDB = new DynamoDBClient({ region: process.env.REGION });
+const docClient = DynamoDBDocumentClient.from(dynamoDB);
+
 var params = {
 	TableName: process.env.AWS_TABLE_NAME
 };
@@ -22,14 +23,13 @@ const createSignedToken = () => jwt.sign({ _id: new mongoose.Types.ObjectId() },
 
 const checkUserExists = async (req, res) => {
 	const { email } = req.body;
-	console.log("Running checkUserExists: ", email);
-
 	// Checks if user exists and whether they have a regular or google account set up
-	const existingUser = checkEmailExists(dynamoDB, email);
+	const existingUser = await checkEmailExists(docClient, email);
+
 	if (existingUser) {
 		return res.status(request_codes.SUCCESS)
 			.json({
-				regular: existingUser ? !!existingUser.password : false,
+				regular: existingUser ? !!existingUser.pw : false,
 				google: existingUser ? !!existingUser.googleId : false,
 			});
 	}
@@ -42,97 +42,88 @@ const checkUserExists = async (req, res) => {
 };
 
 const signup = async (req, res) => {
-	console.log("Running signup");
 	const {
 		userId,
-		name,
+		username,
 		email,
 		pw: userPw,
 		googleId: userGoogleId,
-		userAvatar,
 	} = req.body;
-
+	console.lo
 	if (!userId) {
 		return res.json({ error: "userId is required" });
 	}
 
-	const existingUser = checkEmailExists(dynamoDB, email);
-	
+	const existingUser = await checkEmailExists(docClient, email);
+	console.log("Existing user: ", existingUser)
 	if (existingUser) {
 		return res.status(request_codes.EMAIL_TAKEN).json('Email already exists.');
 	}
 
-	// Hash password if password is provided
+	// Hash password if password is provided & same for googleId
 	let hashedPw = '';
 	if (userPw) {
-		hashedPw = await hashPassword(userPw)
+		hashedPw = await hashPw(userPw)
 	}
-
 	let hashedGoogleId = '';
 	if (userGoogleId) {
-		hashedGoogleId = await hashPassword(userGoogleId)
+		hashedGoogleId = await hashPw(userGoogleId)
 	}
-
+	// TODO: Add refresh token
 	let user = {
 		userId,
-		name,
+		username,
 		email,
 		pw: hashedPw,
 		googleId: hashedGoogleId
 	}
-	console.log("before-user: ", user)
-	const updatedUser = createUser(user)
+	const updatedUser = createUser(user);
 	const { err, value: validatedUser } = userSchema.validate(updatedUser);
-
+	console.log("HERE -- check pw: ", validatedUser)
 	if (err) {
-		console.log("VALIDATION ERROR: ", err)
+		console.log("User Validation Error: ", err)
 		return res.status(err.status).json(err.message);
 	}
 	params = {
 		...params,
 		Item: validatedUser
 	};
-	console.log("USER: ", validatedUser)
 
-	// client.send(new PutCommand(params), function (err, response) {
-	// 	if (err) {
-	// 		console.log("Signup Error: ", err);
-	// 		return res.status(err.status).json(err.message);
-	// 	}
-	// 	else {
-	// 		console.log("Signup Response: ", response);
-	// 		const token = createSignedToken();
-	// 		const { password, googleId, ...rest } = validatedUser._doc;
-	
-	// 		console.log("Signup Success: ", rest);
-	// 		return res.json({
-	// 			token,
-	// 			user: rest,
-	// 		});
-	// 	}
-	// });
+	try {
+		await dynamoDB.send(new PutCommand(params))
+		const token = createSignedToken();
+		const { pw, googleId, ...rest } = validatedUser;
+
+		console.log("Signup Success: ", rest);
+		return res.json({
+			token,
+			user: rest,
+		});
+	}
+	catch (err) {
+		console.log("Signup Error: ", err);
+		return res.status(err.status).json(err.message);
+	}
 };
 
-// TODO: Update
 const signin = async (req, res) => {
 	try {
-		const { email, password, googleId } = req.body;
-		const existingUser = checkEmailExists(email);
-
+		const { email, pw, googleId } = req.body;
+		const existingUser = await checkEmailExists(docClient, email);
 		if (!existingUser) {
 			return res.status(request_codes.NO_USER_FOUND).json({ error: "No user found." });
 		}
 
-		if (existingUser.password && password) {
-			const match = await comparePasswords(password, existingUser.password);
+		if (existingUser.pw && pw) {
+			const match = await comparePws(pw, existingUser.pw);
 			if (!match) {
 				return res.status(request_codes.WRONG_PASSWORD).json({
 					error: "Wrong password",
 				});
 			}
 		}
-		if (existingUser.googleId && googleId) {
-			const match = await comparePasswords(googleId, existingUser.googleId);
+		else if (existingUser.googleId && googleId) {
+			const match = await comparePws(googleId, existingUser.googleId);
 			if (!match) {
 				return res.status(request_codes.WRONG_PASSWORD).json({
 					error: "Wrong google id",
@@ -142,90 +133,92 @@ const signin = async (req, res) => {
 
 		// Create signed token
 		const token = createSignedToken();
-		existingUser.password = undefined;
+		existingUser.pw = undefined;
 		existingUser.googleId = undefined;
 		existingUser.secret = undefined;
 
+		// TODO: Refresh token
 
 		// Response with token and user data
 		return res.status(request_codes.SUCCESS).json({
 			token,
-			existingUser
+			user: existingUser
 		});
 	} catch (err) {
 		return res.status(err.status).json(err.message);
 	}
 };
 
-// TODO: Update
 const linkAndSignIn = async (req, res) => {
-	const { email, password, googleId } = req.body;
-	const existingUser = checkEmailExists(email);
-
+	const { email, pw, googleId } = req.body;
+	const existingUser = await checkEmailExists(docClient, email);
 	if (!existingUser) {
 		return res.status(request_codes.NO_USER_FOUND).json({ error: "No user found." });
 	}
 
 	// If user does not have googleId, update googleId
 	let hashedGoogleId;
-	let hashedPassword;
 	if (!existingUser.googleId && googleId) {
-		hashedGoogleId = await hashPassword(googleId)
+		hashedGoogleId = await hashPw(googleId)
 	}
 	// TODO: If user does not have password, update password
-	if (!existingUser.password && password) {
-		hashedPassword = await hashPassword(password)
+	let hashedPw;
+	if (!existingUser.pw && pw) {
+		hashedPw = await hashPw(pw)
 	}
 
 	params = {
 		...params,
-		Item: {
-			...existingUser,
-			password: hashPassword ? hashedPassword : existingUser.userId,
-			googleId: hashedGoogleId ? hashedGoogleId : existingUser.googleId
+		Key: {
+			userId: existingUser.userId
+		},
+		UpdateExpression: pw ? "set pw = :pw" : "set googleId = :googleId",
+		ExpressionAttributeValues: pw ? {
+			":pw": hashedPw
+		} : {
+			":googleId": hashedGoogleId
 		}
 	};
 
-	dynamoDB.put(params, function (req, res) {
-		if (err) {
-			console.log("linkAndSignIn Error: ", err);
-			return res.status(err.status).json(err.message);
-		}
-		else {
-			const token = createSignedToken();
-			const { password, googleId, ...rest } = existingUser._doc;
+	try {
+		await dynamoDB.send(new UpdateCommand(params));
+		const token = createSignedToken();
+		const { pw, googleId, ...rest } = existingUser;
 
-			console.log("linkAndSignIn Success: ", rest);
-			return res.json({
-				token,
-				user: rest,
-			});
-		}
-	});
+		// TODO: Refresh Token 
+		console.log("linkAndSignIn Success: ", rest);
+		return res.json({
+			token,
+			user: rest,
+		});
+	}
+	catch (err) {
+		console.log("linkAndSignIn Error: ", err);
+		return res.status(err.status).json(err.message);
+	}
 }
 
 // TODO: Update
 const forgotPw = async (req, res) => {
 	try {
 		const { email, newPw } = req.body;
-		const user = await User.findOne({ email }).limit(10);
-
-		if (!user) {
+		const existingUser = await checkEmailExists(dynamoDB, email);
+		if (!existingUser) {
 			return res.status(request_codes.NO_USER_FOUND).json({ error: "No user found." });
 		}
 
 		// Hash new password
-		let hashedPassword = '';
+		let hashedPw = '';
 		if (newPw) {
-			hashedPassword = await hashPassword(newPw);
+			hashedPw = await hashPw(newPw);
 		}
 
-		await User.findOneAndUpdate(
-			{ 'userId': user.userId },
-			{
-				password: hashedPassword
-			}
-		);
+		// await User.findOneAndUpdate(
+		// 	{ 'userId': existingUser.userId },
+		// 	{
+		// 		password: hashedPassword
+		// 	}
+		// );
 		return res.status(request_codes.SUCCESS).json({ ok: true });
 	}
 	catch (err) {
@@ -243,7 +236,7 @@ module.exports = {
 }
 
 
-// EXample: Query command
+// Example: Query command
 // try {
 //   const data = await dynamoDB.send(new QueryCommand(params));
 //   console.log('Query succeeded No Match:', data.Items);

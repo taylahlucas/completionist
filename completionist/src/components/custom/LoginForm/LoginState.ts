@@ -11,7 +11,7 @@ export interface LoginState {
 
 export const initialFormData: LoginFormData = {
   userId: '',
-  name: '',
+  username: '',
   email: '',
   userAvatar: ''
 }
