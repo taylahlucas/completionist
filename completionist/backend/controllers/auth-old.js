@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 const redis = require('redis');
 const hashPassword = require('../helpers/hash_password');
 const comparePasswords = require('../helpers/compare_passwords');
-const request_codes = require('../helpers/request_codes');
+const response_codes = require('../helpers/response_codes');
 
 const createSignedToken = () => jwt.sign({ _id: new mongoose.Types.ObjectId() }, process.env.JWT_SECRET, {
 	expiresIn: "7d",
@@ -17,13 +17,13 @@ const checkUserExists = async (req, res) => {
 		const { email } = req.body;
 		const user = await User.findOne({ email }).limit(10);
 
-		return res.status(request_codes.SUCCESS).json({
+		return res.status(response_codes.SUCCESS).json({
 			regular: user ? !!user.password : false,
 			google: user ? !!user.googleId : false,
 		});
 	}
 	catch (err) {
-		return res.status(request_codes.SUCCESS).json({
+		return res.status(response_codes.SUCCESS).json({
 			regular: false,
 			google: false
 		});
@@ -46,7 +46,7 @@ const signup = async (req, res) => {
 		}
 		const existingUser = await User.findOne({ email }).limit(10);
 		if (existingUser) {
-			return res.status(request_codes.EMAIL_TAKEN).json('Email already exists.');
+			return res.status(response_codes.EMAIL_TAKEN).json('Email already exists.');
 		}
 
 		// Hash password if password is provided
@@ -92,14 +92,14 @@ const signin = async (req, res) => {
 		const user = await User.findOne({ email }).limit(10);
 
 		if (!user) {
-			return res.status(request_codes.NO_USER_FOUND).json({ error: "No user found." });
+			return res.status(response_codes.NO_USER_FOUND).json({ error: "No user found." });
 		}
 
 		if (user.pw && pw) {
 			const match = await comparePasswords(password, user.password);
 			console.log("match: ", match)
 			if (!match) {
-				return res.status(request_codes.WRONG_PASSWORD).json({
+				return res.status(response_codes.WRONG_PASSWORD).json({
 					error: "Wrong password",
 				});
 			}
@@ -107,7 +107,7 @@ const signin = async (req, res) => {
 		if (user.googleId && googleId) {
 			const match = await comparePasswords(googleId, user.googleId);
 			if (!match) {
-				return res.status(request_codes.WRONG_PASSWORD).json({
+				return res.status(response_codes.WRONG_PASSWORD).json({
 					error: "Wrong password",
 				});
 			}
@@ -121,7 +121,7 @@ const signin = async (req, res) => {
 
 
 		// Response with token and user data
-		return res.status(request_codes.SUCCESS).json({
+		return res.status(response_codes.SUCCESS).json({
 			token,
 			user
 		});
@@ -136,7 +136,7 @@ const linkAndSignIn = async (req, res) => {
 		const user = await User.findOne({ email }).limit(10);
 
 		if (!user) {
-			return res.status(request_codes.NO_USER_FOUND).json({ error: "No user found." });
+			return res.status(response_codes.NO_USER_FOUND).json({ error: "No user found." });
 		}
 
 		// If user does not have googleId, update googleId
@@ -158,7 +158,7 @@ const linkAndSignIn = async (req, res) => {
 		}
 
 		const token = createSignedToken();
-		return res.status(request_codes.SUCCESS).json({
+		return res.status(response_codes.SUCCESS).json({
 			token,
 			user
 		});
@@ -174,7 +174,7 @@ const forgotPw = async (req, res) => {
 		const user = await User.findOne({ email }).limit(10);
 
 		if (!user) {
-			return res.status(request_codes.NO_USER_FOUND).json({ error: "No user found." });
+			return res.status(response_codes.NO_USER_FOUND).json({ error: "No user found." });
 		}
 
 		// Hash new password
@@ -189,7 +189,7 @@ const forgotPw = async (req, res) => {
 				password: hashedPassword
 			}
 		);
-		return res.status(request_codes.SUCCESS).json({ ok: true });
+		return res.status(response_codes.SUCCESS).json({ ok: true });
 	}
 	catch (err) {
 		console.log("Error: ", err.message)

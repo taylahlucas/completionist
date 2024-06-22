@@ -1,14 +1,14 @@
 require('dotenv').config();
 const { DynamoDBClient } = require('@aws-sdk/client-dynamodb');
 const { DynamoDBDocumentClient, PutCommand, UpdateCommand } = require('@aws-sdk/lib-dynamodb');
-const jwt = require('jsonwebtoken');
-const mongoose = require('mongoose');
 const hashPw = require('../helpers/hash_password');
 const comparePws = require('../helpers/compare_passwords');
-const request_codes = require('../helpers/request_codes');
+const response_codes = require('../helpers/response_codes');
 const { checkEmailExists } = require('../helpers/check_existing_user');
 const userSchema = require('../models/user');
 const createUser = require('../helpers/create_user');
+const { createSignedToken, createRefreshToken } = require('../helpers/create_tokens');
+const cache = require('../cache');
 
 const dynamoDB = new DynamoDBClient({ region: process.env.REGION });
 const docClient = DynamoDBDocumentClient.from(dynamoDB);
@@ -17,9 +17,8 @@ var params = {
 	TableName: process.env.AWS_TABLE_NAME
 };
 
-const createSignedToken = () => jwt.sign({ _id: new mongoose.Types.ObjectId() }, process.env.JWT_SECRET, {
-	expiresIn: "7d",
-});
+// Calculate TTL for 7 days in seconds
+const ttlInSeconds = 7 * 24 * 60 * 60;
 
 const checkUserExists = async (req, res) => {
 	const { email } = req.body;
@@ -27,14 +26,14 @@ const checkUserExists = async (req, res) => {
 	const existingUser = await checkEmailExists(docClient, email);
 
 	if (existingUser) {
-		return res.status(request_codes.SUCCESS)
+		return res.status(response_codes.SUCCESS)
 			.json({
 				regular: existingUser ? !!existingUser.pw : false,
 				google: existingUser ? !!existingUser.googleId : false,
 			});
 	}
 	else {
-		return res.status(request_codes.SUCCESS).json({
+		return res.status(response_codes.SUCCESS).json({
 			regular: false,
 			google: false
 		});
@@ -54,9 +53,8 @@ const signup = async (req, res) => {
 	}
 
 	const existingUser = await checkEmailExists(docClient, email);
-	console.log("Existing user: ", existingUser)
 	if (existingUser) {
-		return res.status(request_codes.EMAIL_TAKEN).json('Email already exists.');
+		return res.status(response_codes.EMAIL_TAKEN).json('Email already exists.');
 	}
 
 	// Hash password if password is provided & same for googleId
@@ -68,7 +66,7 @@ const signup = async (req, res) => {
 	if (userGoogleId) {
 		hashedGoogleId = await hashPw(userGoogleId)
 	}
-	// TODO: Add refresh token
+
 	let user = {
 		userId,
 		username,
@@ -90,6 +88,9 @@ const signup = async (req, res) => {
 	try {
 		await dynamoDB.send(new PutCommand(params))
 		const token = createSignedToken();
+		const refreshToken = createRefreshToken()
+		cache.set(process.env.REFRESH_TOKEN_CACHE_KEY, refreshToken, ttlInSeconds);
+
 		const { pw, googleId, ...rest } = validatedUser;
 
 		console.log("Signup Success: ", rest);
@@ -109,13 +110,14 @@ const signin = async (req, res) => {
 		const { email, pw, googleId } = req.body;
 		const existingUser = await checkEmailExists(docClient, email);
 		if (!existingUser) {
-			return res.status(request_codes.NO_USER_FOUND).json({ error: "No user found." });
+			return res.status(response_codes.NO_USER_FOUND).json({ error: "No user found." });
 		}
 
+		// Compare passwords or google ids
 		if (existingUser.pw && pw) {
 			const match = await comparePws(pw, existingUser.pw);
 			if (!match) {
-				return res.status(request_codes.WRONG_PASSWORD).json({
+				return res.status(response_codes.WRONG_PASSWORD).json({
 					error: "Wrong password",
 				});
 			}
@@ -123,22 +125,23 @@ const signin = async (req, res) => {
 		else if (existingUser.googleId && googleId) {
 			const match = await comparePws(googleId, existingUser.googleId);
 			if (!match) {
-				return res.status(request_codes.WRONG_PASSWORD).json({
+				return res.status(response_codes.WRONG_PASSWORD).json({
 					error: "Wrong google id",
 				});
 			}
 		}
 
-		// Create signed token
+		// Create signed & refresh tokens
 		const token = createSignedToken();
+		const refreshToken = createRefreshToken()
+		cache.set(process.env.REFRESH_TOKEN_CACHE_KEY, refreshToken, ttlInSeconds);
+		
 		existingUser.pw = undefined;
 		existingUser.googleId = undefined;
 		existingUser.secret = undefined;
 
-		// TODO: Refresh token
-
 		// Response with token and user data
-		return res.status(request_codes.SUCCESS).json({
+		return res.status(response_codes.SUCCESS).json({
 			token,
 			user: existingUser
 		});
@@ -151,7 +154,7 @@ const linkAndSignIn = async (req, res) => {
 	const { email, pw, googleId } = req.body;
 	const existingUser = await checkEmailExists(docClient, email);
 	if (!existingUser) {
-		return res.status(request_codes.NO_USER_FOUND).json({ error: "No user found." });
+		return res.status(response_codes.NO_USER_FOUND).json({ error: "No user found." });
 	}
 
 	// If user does not have googleId, update googleId
@@ -181,9 +184,11 @@ const linkAndSignIn = async (req, res) => {
 	try {
 		await dynamoDB.send(new UpdateCommand(params));
 		const token = createSignedToken();
+		const refreshToken = createRefreshToken();
+		cache.set(process.env.REFRESH_TOKEN_CACHE_KEY, refreshToken, ttlInSeconds);
+
 		const { pw, googleId, ...rest } = existingUser;
 
-		// TODO: Refresh Token 
 		console.log("linkAndSignIn Success: ", rest);
 		return res.json({
 			token,
@@ -196,13 +201,12 @@ const linkAndSignIn = async (req, res) => {
 	}
 }
 
-// TODO: Update
 const forgotPw = async (req, res) => {
 	try {
 		const { email, newPw } = req.body;
 		const existingUser = await checkEmailExists(dynamoDB, email);
 		if (!existingUser) {
-			return res.status(request_codes.NO_USER_FOUND).json({ error: "No user found." });
+			return res.status(response_codes.NO_USER_FOUND).json({ error: "No user found." });
 		}
 
 		// Hash new password
@@ -210,14 +214,21 @@ const forgotPw = async (req, res) => {
 		if (newPw) {
 			hashedPw = await hashPw(newPw);
 		}
+		// Update user
+		params = {
+			...params,
+			Key: {
+				userId: userId
+			},
+			UpdateExpression: "set pw = :pw",
+			ExpressionAttributeValues: {
+				":pw": hashedPw
+			}
+		}
 
-		// await User.findOneAndUpdate(
-		// 	{ 'userId': existingUser.userId },
-		// 	{
-		// 		password: hashedPassword
-		// 	}
-		// );
-		return res.status(request_codes.SUCCESS).json({ ok: true });
+		await dynamoDB.send(new UpdateCommand(params));
+		console.log(`Password for user with ID ${userId} updated successfully`);
+		return res.status(response_codes.SUCCESS).json({ ok: true });
 	}
 	catch (err) {
 		console.log("Error: ", err.message)
@@ -232,27 +243,3 @@ module.exports = {
 	signin,
 	forgotPw
 }
-
-
-// Example: Query command
-// try {
-//   const data = await dynamoDB.send(new QueryCommand(params));
-//   console.log('Query succeeded No Match:', data.Items);
-// 	if (!data.Items.length) {
-// 		return res.status(request_codes.SUCCESS).json({
-// 			regular: false,
-// 			google: false
-// 		});
-// 	}
-// 	else {
-// 		const user = data.Items[0];
-// 		console.log('Query succeeded:', data.Items);
-// 		return res.status(request_codes.SUCCESS).json({
-// 			regular: user ? !!user.password : false,
-// 			google: user ? !!user.googleId : false,
-// 		});
-// 	}
-// } catch (err) {
-//   console.error('Unable to query the table. Error JSON:', JSON.stringify(err, null, 2));
-// 	return res.status(request_codes.FAILURE);
-// }

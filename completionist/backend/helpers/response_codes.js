@@ -1,7 +1,6 @@
-const request_codes = {
+const response_codes = {
   SUCCESS: 200,
 	FAILURE: 205,
-	PERMISSION_DENIED: 403,
 	UNAUTHORIZED: 405,
 	NOT_FOUND: 500,
   EMAIL_TAKEN: 600,
@@ -10,4 +9,4 @@ const request_codes = {
   WRONG_PASSWORD: 610
 }
 
-module.exports = request_codes;
+module.exports = response_codes;

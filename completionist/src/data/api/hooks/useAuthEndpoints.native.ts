@@ -30,18 +30,6 @@ const useAuthEndpoints = (): AuthEndpointsReturnType => {
 	const { storeCredentials } = useKeychain();
 	const { handleAxiosError } = useHandleAxiosError();
 
-	const test = async () => {
-		try {
-			const response = await axios.patch(`${url}/test/addUser`);
-			console.log("TEST response: ", response);
-			return;
-		}
-		catch (error: AxiosErrorResponse) {
-			console.log("Error with test ", JSON.stringify(error, null, 2));
-			return;
-		}
-	};
-
 	const checkUserExists = async (email: string): 
 	Promise<CredentialsExistProps> => {
 		console.log("checkUserExists");
@@ -174,7 +162,6 @@ const useAuthEndpoints = (): AuthEndpointsReturnType => {
 	};
 
 	return {
-		test,
 		checkUserExists,
 		signUp,
 		signIn,

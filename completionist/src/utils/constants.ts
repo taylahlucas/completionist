@@ -15,7 +15,6 @@ export const games = [
 export const requestCodes = {
   SUCCESS: 200,
 	FAILURE: 205,
-	PERMISSION_DENIED: 403,
 	UNAUTHORIZED: 405,
   EMAIL_TAKEN: 600,
 	EMAIL_NOT_FOUND: 602,

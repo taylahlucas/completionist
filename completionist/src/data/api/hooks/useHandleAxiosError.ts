@@ -1,9 +1,11 @@
 import { Alert } from 'react-native';
 import { useTranslation } from 'react-i18next';
 import { requestCodes } from '@utils/constants';
+import useGetLoginMethods from '@components/custom/LoginForm/hooks/useGetLoginMethods';
 
 const useHandleAxiosError = () => {
 	const { t } = useTranslation();
+	const { signOut } = useGetLoginMethods();
 
 	const handleAxiosError = (status: number): void => {
 		switch (status) {
@@ -25,17 +27,8 @@ const useHandleAxiosError = () => {
 					t('common:errors.checkCredentials')
 				);
 				break;
-			case requestCodes.PERMISSION_DENIED:
-				Alert.alert(
-					t('common:errors.permissionDenied'),
-					t('common:errors.permissionDeniedMsg')
-				);
-				break;
 			case requestCodes.UNAUTHORIZED:
-				Alert.alert(
-					t('common:errors.unauthorized'), 
-					t('common:errors.unauthorizedMsg')
-				);
+				signOut();
 				break;
 			case requestCodes.NO_USER_FOUND:
 					// When searching for user in database && signing in

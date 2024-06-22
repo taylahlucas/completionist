@@ -1,32 +1,39 @@
+require('dotenv').config();
 const checkAuthToken = require('./check_auth');
+const cache = require('../cache');
+const response_codes = require('./response_codes');
 
 const authWrapper = ({ authFunction, onError }) => {
 	return async (req, res) => {
 		try {
-			// check auth token
-			// if token valid, run api
-			// if token invalid, use refreshToken
+			const authHeader = req.headers["authorization"];
+			const token = authHeader && authHeader.split(' ')[1];
+			if (!token) {
+				res.status(response_codes.UNAUTHORIZED).json({ error: 'Unauthorized' });
+				return false;
+			}
 
-			const isAuthorized = await checkAuthToken(req, res);
-			if (!isAuthorized) {
-				// If token is not valid, get refresh token
-				console.log("Not authorized")
-				return res.status(response_codes.UNAUTHORIZED).json({ error: 'Unauthorized token' });
-				// const refreshAuth = await checkRefreshToken(user.refreshToken, res);
-
-				// if (refreshAuth) {
-				// 	console.log("Calling auth function--2")
-				// 	return await authFunction(req, res, user);
-				// }
-				// else {
-				// 	console.log("Not refresh authorized")
-				// 	return res.status(response_codes.UNAUTHORIZED).json({ error: 'Unauthorized token' });
-				// }
+			const isAuthorized = await checkAuthToken(token, process.env.JWT_SECRET, res);
+			if (isAuthorized) {
+				// If token is valid, run api
+				return await authFunction(req, res);
 			}
 			else {
-				// If token is valid, run api
-				console.log("Calling auth function--2")
-				return await authFunction(req, res);
+				// If token is not valid, get refresh token
+				const refreshToken = cache.get(process.env.REFRESH_TOKEN_CACHE_KEY);
+				if (refreshToken) {
+					const isAuthorized = await checkAuthToken(refreshToken, process.env.JWT_REFRESH_SECRET, res);
+					// If refresh token is valid, run api
+					if (isAuthorized) {
+						return await authFunction(req, res);
+					}
+					else {
+						return res.status(response_codes.UNAUTHORIZED).json({ error: 'Unauthorized token' });
+					}
+				}
+				else {
+					return res.status(response_codes.UNAUTHORIZED).json({ error: 'Unauthorized token' });
+				}
 			}
 		}
 		catch (err) {

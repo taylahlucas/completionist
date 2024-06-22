@@ -83,11 +83,9 @@ npx react-native run-ios --port 8002
 
 ## Backend
 
-- mongoose
 - express
 - dotenv
 - jsonwebtoken
-- mongoose
 - express
 - body-parser
 - express-session
@@ -95,8 +93,7 @@ npx react-native run-ios --port 8002
 - poassport-google-oauth20
 - crypto
 - nodemailer
-- migrate-mongo
-- redis
+- node-cache
 - aws-sdk
 
 
