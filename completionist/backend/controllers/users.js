@@ -2,7 +2,7 @@ const { DynamoDBClient } = require('@aws-sdk/client-dynamodb');
 const { DynamoDBDocumentClient, QueryCommand, UpdateCommand } = require('@aws-sdk/lib-dynamodb');
 // const redis = require('redis');
 const request_codes = require('../helpers/request_codes');
-const checkAuthToken = require('../helpers/check_auth');
+const authWrapper = require('../helpers/auth_wrapper');
 
 const client = new DynamoDBClient({ region: process.env.REGION });
 const dynamoDB = DynamoDBDocumentClient.from(client);
@@ -11,126 +11,130 @@ var params = {
 	TableName: process.env.AWS_TABLE_NAME
 };
 
-// TODO: Update authentication
-const getUserByUserId = async (req, res) => {
-	// const isAuthorized = await checkAuthToken(req, res);
-	// if (isAuthorized) {
-	// }
-	const { userId } = req.params;
-	console.log("userId: ", userId);
-	if (!userId) {
-		return res.status(request_codes.SUCCESS);
-	}
-	params = {
-		...params,
-		KeyConditionExpression: 'userId = :userId',
-		ExpressionAttributeValues: {
-			':userId': userId,
-		},
-	};
-
-	try {
+const getUserByUserId = authWrapper({
+	authFunction: async (req, res) => {
+		const userId = req.params.userId;
+		console.log("getUserByUserId: ", userId);
+		params = {
+			...params,
+			KeyConditionExpression: 'userId = :userId',
+			ExpressionAttributeValues: {
+				':userId': userId,
+			},
+		}
 		const response = await dynamoDB.send(new QueryCommand(params));
-
-		console.log('Query succeeded No Match:', response.Items);
-		if (!data.Items.length) {
+		if (!response.Items.length) {
+			console.log('getUserByUserId No Match');
 			return res.status(request_codes.SUCCESS);
 		}
 		else {
 			const user = response.Items[0];
-			console.log('Query succeeded:', user);
+			console.log('getUserByUserId Query succeeded');
 			return res.status(request_codes.SUCCESS).json(user);
 		}
-	} catch (err) {
-		console.error('Unable to query the table. Error JSON:', JSON.stringify(err, null, 2));
+	},
+	onError: (res, error) => {
+		console.log("getUserByUserId Error: ", error.message);
 		return res.status(request_codes.FAILURE);
 	}
-};
+});
 
-const updateUser = async (req, res) => {
-	// const isAuthorized = await checkAuthToken(req, res);
-	// if (isAuthorized) { }
-	const userId = req.params.userId;
-	const { username, email, steamId, activeGames, signup, settings, gameData } = req.body;
-	let updateExpression ="set username = :username, email = :email, activeGames = :activeGames, signup = :signup, settings = :settings, gameData = :gameData";
-	let expressionValues = {
-		":username": username,
-		":email": email,
-		":activeGames": activeGames,
-		":signup": signup,
-		":settings": settings,
-		":gameData": gameData
-	}
-	if (steamId) {
-		updateExpression += "steamId = :steamId, "
-		expressionValues[":steamId"] = steamId;
-	}
-
-	params = {
-		...params,
-		Key: {
-			userId: userId
-		},
-		UpdateExpression: updateExpression,
-		ExpressionAttributeValues: expressionValues,
-	};
-	// TODO: Validate user
-	dynamoDB.send(new UpdateCommand(params), function (err, response) {
-		if (err) {
-			console.log("Error updating user: ", err.message);
-			return res.status(request_codes.FAILURE).json(err.message);
+const updateUser = authWrapper({
+	authFunction: async (req, res) => {
+		const userId = req.params.userId;
+		console.log("updateUser: ", userId);
+		const { username, email, steamId, activeGames, signup, settings, gameData } = req.body;
+		let updateExpression = "set username = :username, email = :email, activeGames = :activeGames, signup = :signup, settings = :settings, gameData = :gameData";
+		let expressionValues = {
+			":username": username,
+			":email": email,
+			":activeGames": activeGames,
+			":signup": signup,
+			":settings": settings,
+			":gameData": gameData
 		}
-		else {
-			// TODO: Refresh Token 
-			console.log(`User with ID ${userId} updated successfully`);
-			return res.status(request_codes.SUCCESS).json({ ok: true });
+		if (steamId) {
+			updateExpression += "steamId = :steamId, "
+			expressionValues[":steamId"] = steamId;
 		}
-	});
-};
 
-// TODO:
-const changePassword = async (req, res) => {
-	const isAuthorized = await checkAuthToken(req, res);
-	// if (isAuthorized) {
-	// 	try {
-	// 		const userId = req.params.userId;
-	// 		const { oldPw, newPw } = req.body;
-	// 		const user = await User.findOne({ userId }).limit(10);
+		params = {
+			...params,
+			Key: {
+				userId: userId
+			},
+			UpdateExpression: updateExpression,
+			ExpressionAttributeValues: expressionValues,
+		};
 
-	// 		if (!user) {
-	// 			return res.status(request_codes.NO_USER_FOUND).json({ error: "No user found." });
-	// 		}
+		await dynamoDB.send(new UpdateCommand(params));
+		console.log(`User with ID ${userId} updated successfully`);
+		return res.status(request_codes.SUCCESS).json({ ok: true });
+	},
+	onError: (res, err) => {
+		console.log("updateUser Error: ", err.message);
+		return res.status(request_codes.FAILURE).json(err.message);
+	}
+});
 
-	// 		// Compare given password
-	// 		if (user.password && oldPw) {
-	// 			const match = await comparePasswords(oldPw, user.password);
-	// 			if (!match) {
-	// 				return res.status(request_codes.WRONG_PASSWORD).json({
-	// 					error: "Wrong password",
-	// 				});
-	// 			}
-	// 		}
+const changePassword = authWrapper({
+	authFunction: async (req, res) => {
+		const userId = req.params.userId;
+		console.log("changePassword: ", userId);
+		const { oldPw, newPw } = req.body;
 
-	// 		// Hash new password
-	// 		let hashedPassword = '';
-	// 		if (newPw) {
-	// 			hashedPassword = await hashPassword(newPw)
-	// 		}
+		// Get user pw from backend
+		params = {
+			...params,
+			KeyConditionExpression: 'userId = :userId',
+			ExpressionAttributeValues: {
+				':userId': userId,
+			},
+		}
+		const response = await dynamoDB.send(new QueryCommand(params));
+		if (!response.Items.length) {
+			console.log('getUserByUserId No Match');
+			return res.status(request_codes.NO_USER_FOUND).json({ error: "No user found." });
+		}
 
-	// 		await User.findOneAndUpdate(
-	// 			{ 'userId': userId },
-	// 			{
-	// 				password: hashedPassword
-	// 			}
-	// 		);
-	// 		return res.status(request_codes.SUCCESS).json({ ok: true });
-	// 	}
-	// 	catch (error) {
-	// 		console.log("Error updating user: ", error.message);
-	// 		return res.status(request_codes.FAILURE).json(error.message);
-	// 	}
-	// }
-};
+		// Update user
+		const user = response.Items[0];
+		// Compare given password
+		if (user.password && oldPw) {
+			const match = await comparePasswords(oldPw, user.pw);
+			if (!match) {
+				return res.status(request_codes.WRONG_PASSWORD).json({
+					error: "Wrong password",
+				});
+			}
+
+		}
+		// Hash new password
+		let hashedPw = '';
+		if (newPw) {
+			hashedPw = await hashPassword(newPw)
+		}
+
+		params = {
+			...params,
+			Key: {
+				userId: userId
+			},
+			UpdateExpression: "set pw = :pw",
+			ExpressionAttributeValues: {
+				":pw": hashedPw
+			}
+		}
+
+		await dynamoDB.send(new UpdateCommand(params));
+		console.log(`Password for user with ID ${userId} updated successfully`);
+		return res.status(request_codes.SUCCESS).json({ ok: true });
+	},
+	onError: (res, err) => {
+		console.log("changePassword Error: ", err.message);
+		return res.status(request_codes.FAILURE).json(err.message);
+	}
+});
 
 module.exports = {
 	getUserByUserId,

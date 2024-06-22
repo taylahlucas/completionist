@@ -21,8 +21,15 @@ export const useReactNavigation = (): NativeNavigation => {
     }, [screenName])
   );
 
+	const safeNavigation = (page: ScreenEnum, params?: any) => {
+		if (navigation.getState()?.routeNames?.length > 0) {
+			// TODO: Not sure why this is failing?
+			navigation.navigate(page, params);
+		}
+	};
+
   return useRef({
-    navigate: (page: ScreenEnum, params?: any): void => navigation.navigate(page, params),
+    navigate: (page: ScreenEnum, params?: any): void => safeNavigation(page, params),
     dispatch: (action: NavigationAction | ((state: NavigationState) => NavigationAction)): void => navigation.dispatch(action),
     goBack: (): void => navigation.goBack(),
     setOptions: (options: any): void => navigation.setOptions(options)
