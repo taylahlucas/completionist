@@ -47,53 +47,19 @@ const getUserByUserId = async (req, res) => {
 	}
 };
 
-const updateSignUp = async (req, res) => {
-	// const isAuthorized = await checkAuthToken(req, res);
-	// if (isAuthorized) {}
-	const userId = req.params.userId;
-	const { verification, selectGame } = req.body;
-
-	params = {
-		...params,
-		Key: {
-			userId: userId
-		},
-		UpdateExpression: "set verification = :verification, setUsername = :setUsername, selectGame = :selectGame",
-		ExpressionAttributeValues: {
-			":verification": verification,
-			// TODO: Add in FE
-			":setUsername": true,
-			":selectGame": selectGame,
-		},
-	};
-	// TODO: Validate user
-
-	dynamoDB.send(new UpdateCommand(params), function (err, response) {
-		console.log("Updating signup")
-		if (err) {
-			console.log("Error updating signup: ", err.message);
-			return res.status(request_codes.FAILURE).json(err.message);
-		}
-		else {
-			// TODO: Refresh Token 
-			console.log(`User with ID ${userId} verified successfully`);
-			return res.status(request_codes.SUCCESS).json({ ok: true });
-		}
-	});
-};
-
 const updateUser = async (req, res) => {
 	// const isAuthorized = await checkAuthToken(req, res);
 	// if (isAuthorized) { }
 	const userId = req.params.userId;
-	const { username, email, steamId, activeGames, settings, data } = req.body;
-	let updateExpression ="set username = :username, email = :email, activeGames = :activeGames, settings = :settings, gameData = :gameData";
+	const { username, email, steamId, activeGames, signup, settings, gameData } = req.body;
+	let updateExpression ="set username = :username, email = :email, activeGames = :activeGames, signup = :signup, settings = :settings, gameData = :gameData";
 	let expressionValues = {
 		":username": username,
 		":email": email,
 		":activeGames": activeGames,
+		":signup": signup,
 		":settings": settings,
-		":gameData": data
+		":gameData": gameData
 	}
 	if (steamId) {
 		updateExpression += "steamId = :steamId, "
@@ -110,7 +76,6 @@ const updateUser = async (req, res) => {
 	};
 	// TODO: Validate user
 	dynamoDB.send(new UpdateCommand(params), function (err, response) {
-		console.log("Updating user")
 		if (err) {
 			console.log("Error updating user: ", err.message);
 			return res.status(request_codes.FAILURE).json(err.message);
@@ -170,6 +135,5 @@ const changePassword = async (req, res) => {
 module.exports = {
 	getUserByUserId,
 	updateUser,
-	updateSignUp,
 	changePassword
 }

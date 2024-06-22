@@ -17,7 +17,6 @@ import useActivateGameSubscription from '@utils/hooks/useActivateGameSubscriptio
 import KeyboardAvoidingScrollView from '@components/general/Lists/KeyboardAvoidingScrollView.native';
 import Condition from '@components/general/Condition.native';
 import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
-import useEditUserData from '@data/hooks/useEditUserData.native';
 import useIsLoading from '@data/api/hooks/useIsLoading.native';
 import ParagraphView from '@components/general/ParagraphView.native';
 
@@ -30,7 +29,6 @@ const SelectFirstGame = () => {
 	const [searchValue, setSearchValue] = useState('');
 	const [selectedGame, setSelectedGame] = useState<ActiveGameData>();
 	const { activateGameSubscription } = useActivateGameSubscription();
-	const { updateSignUpData } = useEditUserData();
 	const isLoading = useIsLoading();
 	const filteredGames = filterGameList(user.activeGames, false, getFormattedSearchString(searchValue));
 	
@@ -49,7 +47,6 @@ const SelectFirstGame = () => {
 							selectGame: true
 						}
 					}
-					updateSignUpData(updatedUser);
 					activateGameSubscription(updatedUser, selectedGame);
 				}
 			}}

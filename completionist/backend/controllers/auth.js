@@ -49,7 +49,6 @@ const signup = async (req, res) => {
 		pw: userPw,
 		googleId: userGoogleId,
 	} = req.body;
-	console.lo
 	if (!userId) {
 		return res.json({ error: "userId is required" });
 	}
@@ -79,7 +78,6 @@ const signup = async (req, res) => {
 	}
 	const updatedUser = createUser(user);
 	const { err, value: validatedUser } = userSchema.validate(updatedUser);
-	console.log("HERE -- check pw: ", validatedUser)
 	if (err) {
 		console.log("User Validation Error: ", err)
 		return res.status(err.status).json(err.message);

@@ -26,11 +26,6 @@ export interface SendEmailProps {
 	text: string;
 }
 
-export interface UpdateSignUpProps {
-	userId: string;
-	signup: SignupData;
-}
-
 export interface ChangePwProps {
 	userId: string;
 	oldPw: string;
@@ -60,7 +55,6 @@ export interface AuthEndpointsReturnType {
 export interface EndpointsReturnType {
 	getUserByUserId: ({ userId }: GetUserByUserIdProps) => Promise<UserResponse>;
 	updateUser: (user: User) => Promise<UserResponse>;
-	updateSignUp: ({ userId, signup }: UpdateSignUpProps) => Promise<void>;
 	changePw: ({ userId, oldPw, newPw }: ChangePwProps) => Promise<void>;
 	sendEmail: ({ emailTo, subject, text }: SendEmailProps) => Promise<void>;
 	getSteamUserById: (steamId: string) => Promise<SteamProfile | void>;

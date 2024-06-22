@@ -5,7 +5,6 @@ import { AxiosErrorResponse, UserResponse } from '@utils/CustomTypes';
 import {
 	getUserByUserIdUrl,
 	updateUserUrl,
-	updateSignUpUrl,
 	sendEmailUrl,
 	steamProfileUrl,
 	steamPlayerAchievementsUrl,
@@ -15,7 +14,6 @@ import {
 	GetUserByUserIdProps,
 	SendEmailProps,
 	EndpointsReturnType,
-	UpdateSignUpProps,
 	ChangePwProps,
 	SteamAchievementsProps
 } from '@data/api/EndpointInterfaces.native';
@@ -57,30 +55,13 @@ const useEndpoints = (): EndpointsReturnType => {
 					email: user.email,
 					steamId: user.steamId,
 					activeGames: user.activeGames,
+					signup: user.signup,
 					settings: user.settings,
 					gameData: user.gameData
 				}
 			);
 			console.log("updateUser: ", JSON.stringify(user.activeGames, null, 2))
 			return user;
-		}
-		catch (error: AxiosErrorResponse) {
-			handleAxiosError(error.response?.status);
-		}
-	};
-
-	const updateSignUp = async ({ userId, signup }: UpdateSignUpProps): Promise<void> => {
-		console.log("updateSignUp")
-		try {
-			await authInterceptor.patch(
-				`${url}/${updateSignUpUrl}/${userId}`,
-				{
-					verification: signup.verification,
-					setUsername: signup.setUsername,
-					selectGame: signup.selectGame
-				}
-			);
-			return;
 		}
 		catch (error: AxiosErrorResponse) {
 			handleAxiosError(error.response?.status);
@@ -163,7 +144,6 @@ const useEndpoints = (): EndpointsReturnType => {
 	return {
 		getUserByUserId,
 		updateUser,
-		updateSignUp,
 		changePw,
 		sendEmail,
 		getSteamUserById,

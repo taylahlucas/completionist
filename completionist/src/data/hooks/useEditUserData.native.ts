@@ -14,7 +14,6 @@ interface EditUserDataReturnType {
 	loadUserFromCache: () => void;
 	saveUser: (user: User) => void;
 	updateUserData: (user: User) => void;
-	updateSignUpData: (user: User) => void;
 	removeUserData: () => void;
 }
 
@@ -24,7 +23,7 @@ const useEditUserData = (): EditUserDataReturnType => {
 	const { setLoginFormData, setLoggedIn, setIsAuthenticated } = useLoginDispatch();
 	const { fetchUserFromCache, saveToCache, clearCache } = useCache();
 	const { getCredentials, deleteCredentials } = useKeychain();
-	const { getUserByUserId, updateUser, updateSignUp } = useEndpoints();
+	const { getUserByUserId, updateUser } = useEndpoints();
 	const getAuthNavigationPath = useGetNavigationPath();
 
 	// const checkUpdateChangesLeft = (user: User) => {
@@ -95,34 +94,23 @@ const useEditUserData = (): EditUserDataReturnType => {
 		}
 	};
 
-	const updateSignUpData = async (user: User) => {
-		console.log("updateSignUpData user.signup: ", user.signup)
-		// TODO: updateSignUp is not returning anything
-		updateSignUp({
-			userId: user.userId,
-			signup: user.signup
-		});
-		saveUser(user);
-	}
-	
 	const updateUserData = async (user: User) => {
 		updateUser(user)
 			.then(() => saveUser(user));
 	}
 
 	const removeUserData = () => {
-		setIsAuthenticated(false);
 		setUser(initialUser);
 		setLoginFormData(initialFormData);
 		clearCache();
 		deleteCredentials();
 		setLoggedIn(false);
+		setIsAuthenticated(false);
 	}
 
 	return { 
 		loadUserFromCache,
 		saveUser,
-		updateSignUpData,
 		updateUserData,
 		removeUserData
 	};

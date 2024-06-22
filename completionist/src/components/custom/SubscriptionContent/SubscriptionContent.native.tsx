@@ -5,7 +5,6 @@ import useGetTheme from '@styles/hooks/useGetTheme';
 import StyledText from '@components/general/Text/StyledText.native';
 import useMainState from '@redux/hooks/useMainState';
 import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
-import { SubscriptionTypeEnum } from '@utils/CustomEnums';
 import useEditUserData from '@data/hooks/useEditUserData.native';
 import KeyboardAvoidingScrollView from '@components/general/Lists/KeyboardAvoidingScrollView.native';
 import useLoginState from '../LoginForm/hooks/useLoginState';
@@ -30,7 +29,6 @@ const SubscriptionContent = () => {
 	const { selectedSubscription } = useSubscriptionState();
 	const { user } = useMainState();
 	const { isAuthenticated } = useLoginState();
-	const { updateSignUpData } = useEditUserData();
 	const featureList = useGetSubscriptionFeatureList();
 
 	const renderAwareView = () => (

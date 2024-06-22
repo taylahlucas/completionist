@@ -9,7 +9,6 @@ export const sendVerificationEmailUrl = 'send_email/verify';
 // Base
 export const getUserByUserIdUrl = 'users'
 export const updateUserUrl = 'users/update';
-export const updateSignUpUrl = 'users/signup';
 export const changePwUrl = 'users/update/pw';
 export const sendEmailUrl = 'send_email/send';
 

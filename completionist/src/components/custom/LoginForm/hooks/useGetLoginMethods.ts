@@ -167,6 +167,7 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 
 	const signOut = async () => {
 		try {
+			console.log("Signing out")
 			if (shouldUpdateUser) {
 				updateUserData(user);
 			}
