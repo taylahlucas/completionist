@@ -60,7 +60,6 @@ const useEndpoints = (): EndpointsReturnType => {
 					gameData: user.gameData
 				}
 			);
-			console.log("updateUser: ", JSON.stringify(user.activeGames, null, 2))
 			return user;
 		}
 		catch (error: AxiosErrorResponse) {

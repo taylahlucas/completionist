@@ -9,8 +9,7 @@ const useInitUserData = () => {
   const appStateRef = useRef(AppState.currentState);
   const { setAppState } = useMainDispatch();
   const { user, appState, shouldUpdateUser } = useMainState();
-	// TODO: Remove isLoggedIn?
-  const { isLoggedIn, isAuthenticated } = useLoginState();
+  const { isAuthenticated } = useLoginState();
   const { loadUserFromCache, updateUserData } = useEditUserData();
 
   useEffect(() => {
@@ -36,8 +35,7 @@ const useInitUserData = () => {
         }
         return;
       case 'inactive':
-				// && shouldUpdateUser
-        if (isAuthenticated && !!user.userId) {
+        if (isAuthenticated && !!user.userId && shouldUpdateUser) {
           updateUserData(user);
         }
         return;

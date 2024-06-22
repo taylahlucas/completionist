@@ -10,6 +10,7 @@ import useMainState from '@redux/hooks/useMainState';
 import { SignInProps } from '@data/api/EndpointInterfaces.native';
 import useSendVerificationEmail from '@components/custom/LoginForm/hooks/useSendVerificationEmail';
 import useLoginDispatch from './useLoginDispatch';
+import useEndpoints from '@data/api/hooks/useEndpoints.native';
 
 interface GoogleSignInError {
 	code: number;
@@ -26,8 +27,9 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 	const { t } = useTranslation();
 	const { user, shouldUpdateUser } = useMainState();
 	const { setIsAuthenticated } = useLoginDispatch();
-	const { updateUserData, saveUser, removeUserData } = useEditUserData();
+	const { saveUser, removeUserData } = useEditUserData();
 	const { checkUserExists, linkAndSignIn, signIn, signUp } = useAuthEndpoints();
+	const { updateUser } = useEndpoints();
 	const sendVerification = useSendVerificationEmail();
 
 	const userSignIn = async ({ email, pw, googleId }: SignInProps) => {
@@ -167,13 +169,16 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 
 	const signOut = async () => {
 		try {
-			console.log("Signing out")
 			if (shouldUpdateUser) {
-				updateUserData(user);
+				updateUser(user)
+					.then(() => removeUserData());
 			}
+			else {
+				removeUserData();
+			}
+			// TODO: Check if google is signed in
 			// await GoogleSignin.revokeAccess();
 			await GoogleSignin.signOut();
-			removeUserData();
 		} catch (error) {
 			console.log("Error signing out: ", error)
 		}

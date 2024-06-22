@@ -79,7 +79,6 @@ const useEditUserData = (): EditUserDataReturnType => {
 	};
 
 	const checkAuthentication = (user: User) => {
-		//&& user.signup.setUsername &&
 		setIsAuthenticated(user.signup.verification && user.signup.selectGame)
 	};
 
@@ -100,12 +99,12 @@ const useEditUserData = (): EditUserDataReturnType => {
 	}
 
 	const removeUserData = () => {
+		setLoggedIn(false);
+		setIsAuthenticated(false);
 		setUser(initialUser);
 		setLoginFormData(initialFormData);
 		clearCache();
 		deleteCredentials();
-		setLoggedIn(false);
-		setIsAuthenticated(false);
 	}
 
 	return { 
