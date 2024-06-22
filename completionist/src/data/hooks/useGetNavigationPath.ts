@@ -5,7 +5,8 @@ import { User } from '@utils/CustomInterfaces';
 const useGetNavigationPath = () => {
 	const navigation = useReactNavigation();
 	
-	const getLoginScreenEnum = (user: User) => {
+	const getAuthNavigationPath = (user: User) => {
+		console.log("getAuthNavigationPath: ", user.signup)
 		if (!user.signup.verification) {
 			navigation.navigate(UnauthorizedScreenEnum.AccountVerification);
 		}
@@ -17,7 +18,7 @@ const useGetNavigationPath = () => {
 		}
 	}
 
-	return getLoginScreenEnum;
+	return getAuthNavigationPath;
 
 };
 

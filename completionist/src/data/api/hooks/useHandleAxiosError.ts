@@ -1,11 +1,11 @@
 import { Alert } from 'react-native';
 import { useTranslation } from 'react-i18next';
 import { requestCodes } from '@utils/constants';
-import useGetLoginMethods from '@components/custom/LoginForm/hooks/useGetLoginMethods';
+import useRemoveUserData from '@data/hooks/useRemoveUserData.native';
 
 const useHandleAxiosError = () => {
 	const { t } = useTranslation();
-	const { signOut } = useGetLoginMethods();
+	const { removeUserData } = useRemoveUserData();
 
 	const handleAxiosError = (status: number): void => {
 		switch (status) {
@@ -28,7 +28,8 @@ const useHandleAxiosError = () => {
 				);
 				break;
 			case requestCodes.UNAUTHORIZED:
-				signOut();
+				console.log("Removing data")
+				removeUserData();
 				break;
 			case requestCodes.NO_USER_FOUND:
 					// When searching for user in database && signing in

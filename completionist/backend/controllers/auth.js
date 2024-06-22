@@ -23,7 +23,8 @@ const ttlInSeconds = 7 * 24 * 60 * 60;
 const checkUserExists = async (req, res) => {
 	const { email } = req.body;
 	// Checks if user exists and whether they have a regular or google account set up
-	const existingUser = await checkEmailExists(docClient, email);
+	const existingUser = await checkEmailExists(dynamoDB, email);
+	console.log("existingUser: ", existingUser);
 
 	if (existingUser) {
 		return res.status(response_codes.SUCCESS)
@@ -96,6 +97,7 @@ const signup = async (req, res) => {
 		console.log("Signup Success: ", rest);
 		return res.json({
 			token,
+			refreshTokenExpiry: ttlInSeconds,
 			user: rest,
 		});
 	}
@@ -143,6 +145,7 @@ const signin = async (req, res) => {
 		// Response with token and user data
 		return res.status(response_codes.SUCCESS).json({
 			token,
+			refreshTokenExpiry: ttlInSeconds,
 			user: existingUser
 		});
 	} catch (err) {
@@ -192,6 +195,7 @@ const linkAndSignIn = async (req, res) => {
 		console.log("linkAndSignIn Success: ", rest);
 		return res.json({
 			token,
+			refreshTokenExpiry: ttlInSeconds,
 			user: rest,
 		});
 	}

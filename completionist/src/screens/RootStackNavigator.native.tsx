@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { I18nextProvider } from 'react-i18next';
 import Condition from '@components/general/Condition.native';
 import useMainState from '@redux/hooks/useMainState';
@@ -10,7 +10,6 @@ import useTimedDataUpdate from '@data/api/hooks/useTimedDataUpdate.native';
 import AuthStackNavigator from '@navigation/AuthStackNavigator.native';
 import UnauthorizedStackNavigator from '@navigation/UnauthorizedStackNavigator.native';
 import useLoginState from '@components/custom/LoginForm/hooks/useLoginState';
-import useAuthEndpoints from '@data/api/hooks/useAuthEndpoints.native';
 
 const RootStackNavigator = () => {
 	const { showSplashScreen } = useMainState();

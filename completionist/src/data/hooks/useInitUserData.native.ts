@@ -4,13 +4,17 @@ import { AppState } from 'react-native';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
 import useEditUserData from './useEditUserData.native';
 import useLoginState from '@components/custom/LoginForm/hooks/useLoginState';
+import useLoginDispatch from '@components/custom/LoginForm/hooks/useLoginDispatch';
+import useGetNavigationPath from '@data/hooks/useGetNavigationPath';
 
 const useInitUserData = () => {
   const appStateRef = useRef(AppState.currentState);
   const { setAppState } = useMainDispatch();
   const { user, appState, shouldUpdateUser } = useMainState();
-  const { isAuthenticated } = useLoginState();
+	const { setIsAuthenticated } = useLoginDispatch();
+  const { isAuthenticated, isLoggedIn } = useLoginState();
   const { loadUserFromCache, updateUserData } = useEditUserData();
+	const getAuthNavigationPath = useGetNavigationPath();
 
   useEffect(() => {
     if (!isAuthenticated && !user.userId) {
@@ -41,6 +45,16 @@ const useInitUserData = () => {
         return;
     }
   }, [appState]);
+
+	useEffect(() => {
+		if (isLoggedIn) {
+			setIsAuthenticated(user.signup.verification && user.signup.selectGame)
+		}
+
+		if (!isAuthenticated) {
+			getAuthNavigationPath(user);
+		}
+	}, [isLoggedIn])
 };
 
 export default useInitUserData;

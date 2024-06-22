@@ -11,6 +11,7 @@ import { SignInProps } from '@data/api/EndpointInterfaces.native';
 import useSendVerificationEmail from '@components/custom/LoginForm/hooks/useSendVerificationEmail';
 import useLoginDispatch from './useLoginDispatch';
 import useEndpoints from '@data/api/hooks/useEndpoints.native';
+import useRemoveUserData from '@data/hooks/useRemoveUserData.native';
 
 interface GoogleSignInError {
 	code: number;
@@ -25,9 +26,10 @@ interface GetLoginMethodsReturnType {
 
 const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 	const { t } = useTranslation();
-	const { user, shouldUpdateUser } = useMainState();
-	const { setIsAuthenticated } = useLoginDispatch();
-	const { saveUser, removeUserData } = useEditUserData();
+	const { user, shouldUpdateUser  } = useMainState();
+	const { setLoggedIn, setIsAuthenticated } = useLoginDispatch();
+	const { saveUser } = useEditUserData();
+	const { removeUserData } = useRemoveUserData();
 	const { checkUserExists, linkAndSignIn, signIn, signUp } = useAuthEndpoints();
 	const { updateUser } = useEndpoints();
 	const sendVerification = useSendVerificationEmail();
@@ -37,8 +39,9 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 			await signIn({ email, pw, googleId })
 				.then((userResponse) => {
 					if (!!userResponse) {
-						setIsAuthenticated(true);
+						console.log("User sign in")
 						saveUser(userResponse);
+						setLoggedIn(true);
 					}
 				})
 		}
@@ -149,6 +152,7 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 									})
 										.then((response) => {
 											if (!!response) {
+												setLoggedIn(true);
 												saveUser(response);
 											}
 										})
@@ -169,6 +173,9 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 
 	const signOut = async () => {
 		try {
+			setLoggedIn(false);
+			setIsAuthenticated(false);
+
 			if (shouldUpdateUser) {
 				updateUser(user)
 					.then(() => removeUserData());

@@ -1,18 +1,19 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import { CACHE_EXPIRY_TIME, CACHE_KEY } from '@utils/constants';
+import { CACHE_EXPIRY_TIME, USER_CACHE_KEY } from '@utils/constants';
 import { CachedData, User } from '@utils/CustomInterfaces';
 import { UserResponse } from '@utils/CustomTypes';
 
 interface CacheReturnType {
-  saveToCache: (data: User) => Promise<void>;
+  saveToCache: (data: User, key?: string) => Promise<void>;
+	getFromCache: (key?: string) => Promise<any>;
   fetchUserFromCache: (userId: string) => Promise<UserResponse>;
   clearCache: () => Promise<void> ;
 }
 
 const useCache = (): CacheReturnType => {  
-  const getFromCache = async (): Promise<any | null> => {
+  const getFromCache = async (key?: string): Promise<any | null> => {
     try {
-      const cachedDataString = await AsyncStorage.getItem(CACHE_KEY);
+      const cachedDataString = await AsyncStorage.getItem(key ? key : USER_CACHE_KEY);
       
       if (cachedDataString) {
         const { data, timestamp }: CachedData = JSON.parse(cachedDataString);
@@ -23,7 +24,7 @@ const useCache = (): CacheReturnType => {
           return data;
         } else {
           // Cache has expired, remove it
-          await AsyncStorage.removeItem(CACHE_KEY);
+          await AsyncStorage.removeItem(key ? key : USER_CACHE_KEY);
         }
       }
     } catch (error) {
@@ -43,32 +44,32 @@ const useCache = (): CacheReturnType => {
 		return;
   };
 
-  const saveToCache = async (data: User): Promise<void> => {
+  const saveToCache = async (data: any,  key?: string): Promise<void> => {
     try {
       const timestamp = new Date().getTime();
       const cacheData: CachedData = { data, timestamp };
       const cacheDataString = JSON.stringify(cacheData);
 
-      await AsyncStorage.setItem(CACHE_KEY, cacheDataString);
+      await AsyncStorage.setItem(key ? key : USER_CACHE_KEY, cacheDataString);
     } catch (error) {
       console.error('Error saving to cache:', error);
     }
   };
 
   const clearCache = async (): Promise<void> => {
-    const cachedData = await getFromCache();
-    if (!!cachedData) {
-      try {
-        await AsyncStorage.clear();
-      } catch (error) {
-        console.error('Could not clear cache: ', error);
-        return;
-      }
-    }
+		try {
+			const keys = await AsyncStorage.getAllKeys();
+			console.log('Keys to be cleared:', keys);
+			await AsyncStorage.clear();
+			console.log('Cache cleared!');
+		} catch (e) {
+			console.error('Failed to clear the cache', e);
+		}
   };
 
   return {
     fetchUserFromCache,
+		getFromCache,
     saveToCache,
     clearCache
   }

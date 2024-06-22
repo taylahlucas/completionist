@@ -21,13 +21,15 @@ import {
 } from '@data/api/EndpointInterfaces.native';
 import useHandleAxiosError from './useHandleAxiosError';
 import useKeychain from '@data/hooks/useKeychain.native';
-import { requestCodes } from '@utils/constants';
+import { REFRESH_CACHE_KEY, requestCodes } from '@utils/constants';
+import useCache from './useCache.native';
 
 const useAuthEndpoints = (): AuthEndpointsReturnType => {
 	const url = Platform.OS === 'ios'
 		? process.env.IOS_LOCAL_URL
 		: process.env.ANDROID_LOCAL_URL;
 	const { storeCredentials } = useKeychain();
+	const { saveToCache } = useCache();
 	const { handleAxiosError } = useHandleAxiosError();
 
 	const checkUserExists = async (email: string): 
@@ -67,6 +69,7 @@ const useAuthEndpoints = (): AuthEndpointsReturnType => {
 					username: response.data.user.userId,
 					password: response.data.token
 				});
+				saveToCache(response.data.refreshTokenExpiry, REFRESH_CACHE_KEY);
 				return response.data.user as User;
 			}
 		}
@@ -87,11 +90,11 @@ const useAuthEndpoints = (): AuthEndpointsReturnType => {
 			);
 			const responseData = response?.data;
 			if (responseData && responseData.user && responseData.token) {
-				const credentialsResponse = {
+				storeCredentials({
 					username: responseData.user?.userId,
 					password: responseData.token
-				}
-				storeCredentials(credentialsResponse);
+				});
+				saveToCache(response.data.refreshTokenExpiry, REFRESH_CACHE_KEY);
 				return responseData.user as UserResponse;
 			}
 			else {
@@ -114,11 +117,11 @@ const useAuthEndpoints = (): AuthEndpointsReturnType => {
 				}
 			);
 			if (!!response.data.user && !!response.data.token) {
-				const credentialsResponse = {
+				storeCredentials({
 					username: response.data.user.userId,
 					password: response.data.token
-				}
-				storeCredentials(credentialsResponse);
+				});
+				saveToCache(response.data.refreshTokenExpiry, REFRESH_CACHE_KEY);
 				return response.data.user as UserResponse;
 			}
 		}
