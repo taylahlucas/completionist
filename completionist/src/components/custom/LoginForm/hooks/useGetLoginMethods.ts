@@ -26,8 +26,8 @@ interface GetLoginMethodsReturnType {
 
 const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 	const { t } = useTranslation();
-	const { user, shouldUpdateUser  } = useMainState();
-	const { setLoggedIn, setIsAuthenticated } = useLoginDispatch();
+	const { user, shouldUpdateUser } = useMainState();
+	const { setLoggedIn, triggerIsSigningUp } = useLoginDispatch();
 	const { saveUser } = useEditUserData();
 	const { removeUserData } = useRemoveUserData();
 	const { checkUserExists, linkAndSignIn, signIn, signUp } = useAuthEndpoints();
@@ -35,19 +35,14 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 	const sendVerification = useSendVerificationEmail();
 
 	const userSignIn = async ({ email, pw, googleId }: SignInProps) => {
-		try {
-			await signIn({ email, pw, googleId })
-				.then((userResponse) => {
-					if (!!userResponse) {
-						console.log("User sign in")
-						saveUser(userResponse);
-						setLoggedIn(true);
-					}
-				})
-		}
-		catch (error: AxiosErrorResponse) {
-			console.log("Error signing in: ", error.message)
-		}
+		await signIn({ email, pw, googleId })
+			.then((userResponse) => {
+				if (!!userResponse) {
+					console.log("User sign in")
+					saveUser(userResponse);
+					setLoggedIn(true);
+				}
+			})
 	}
 
 	const linkGoogleAccount = ({ email, googleId }: SignInProps) => {
@@ -110,7 +105,7 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 				}
 				else {
 					Alert.alert(
-						t('common:errors.emailNotFound'), 
+						t('common:errors.emailNotFound'),
 						t('common:errors.checkCredentials')
 					);
 				}
@@ -152,8 +147,8 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 									})
 										.then((response) => {
 											if (!!response) {
-												setLoggedIn(true);
 												saveUser(response);
+												triggerIsSigningUp(true);
 											}
 										})
 								}
@@ -161,7 +156,7 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 					}
 					else {
 						Alert.alert(
-							t('common:errors.googleSignIn'), 
+							t('common:errors.googleSignIn'),
 							t('common:errors.googleSignInMsg')
 						);
 					}
@@ -188,10 +183,10 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 		}
 	};
 
-	return { 
+	return {
 		checkUserAccount,
-		googleUserSignIn, 
-		signOut 
+		googleUserSignIn,
+		signOut
 	}
 };
 

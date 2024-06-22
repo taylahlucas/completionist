@@ -20,6 +20,7 @@ import {
 import useHandleAxiosError from './useHandleAxiosError';
 import { requestCodes } from '@utils/constants';
 import useAuthInterceptor from './useAuthInterceptor.native';
+import useKeychain from '@data/hooks/useKeychain.native';
 
 const useEndpoints = (): EndpointsReturnType => {
 	const url = Platform.OS === 'ios'
@@ -28,6 +29,7 @@ const useEndpoints = (): EndpointsReturnType => {
 	const { t } = useTranslation();
 	const { handleAxiosError } = useHandleAxiosError();
 	const authInterceptor = useAuthInterceptor();
+	const { storeCredentials } = useKeychain();
 
 	// TODO: Add axios caching https://www.npmjs.com/package/axios-cache-adapter
 	const getUserByUserId = async ({ userId }: GetUserByUserIdProps): Promise<UserResponse> => {
@@ -35,9 +37,15 @@ const useEndpoints = (): EndpointsReturnType => {
 			const response = await authInterceptor.get(
 				`${url}/${getUserByUserIdUrl}/${userId}`
 			);
-			if (!!response.data) {
-				console.log("getUserByUserId: ", JSON.stringify(response.data.activeGames, null, 2));
-				return response.data as User;
+			if (response.data.user) {
+				if (response.data.token) {
+					console.log("Setting new token: ", response.data.token)
+					storeCredentials({
+						username: response.data.user.userId,
+						password: response.data.token
+					});
+				}
+				return response.data.user as User;
 			}
 			return;
 		}
@@ -48,7 +56,7 @@ const useEndpoints = (): EndpointsReturnType => {
 
 	const updateUser = async (user: User): Promise<UserResponse> => {
 		try {
-			await authInterceptor.patch(
+			const response = await authInterceptor.patch(
 				`${url}/${updateUserUrl}/${user.userId}`,
 				{
 					username: user.username,
@@ -60,6 +68,13 @@ const useEndpoints = (): EndpointsReturnType => {
 					gameData: user.gameData
 				}
 			);
+			if (response.data.token) {
+				console.log("updateUser Setting new token: ", response.data.token);
+				storeCredentials({
+					username: user.userId,
+					password: response.data.token
+				});
+			}
 			return user;
 		}
 		catch (error: AxiosErrorResponse) {

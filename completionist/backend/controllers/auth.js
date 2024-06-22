@@ -17,8 +17,8 @@ var params = {
 	TableName: process.env.AWS_TABLE_NAME
 };
 
-// Calculate TTL for 7 days in seconds
-const ttlInSeconds = 7 * 24 * 60 * 60;
+// Calculate TTL for 60 days in seconds
+const ttlInSeconds = 60 * 24 * 60 * 60;
 
 const checkUserExists = async (req, res) => {
 	const { email } = req.body;

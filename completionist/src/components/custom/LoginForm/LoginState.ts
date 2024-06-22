@@ -34,7 +34,7 @@ const slice = createSlice({
 			state.verificationToken = action.payload;
 		},
 		setIsAuthenticated: (state, action) => {
-      state.isAuthenticated = action.payload;
+      state.isAuthenticated = action.payload; 
     },
     setLoggedIn: (state, action) => {
       state.isLoggedIn = action.payload;
@@ -42,8 +42,11 @@ const slice = createSlice({
     },
     triggerIsSigningUp: (state, action) => {
       state.isSigningUp = action.payload;
-    }
-		// TODO: Add reset to reset loginFormData
+    },
+		reset: (state, _) => {
+			state = { ...initialState };
+			console.log("state: ", state)
+		}
   }
 });
 
@@ -52,7 +55,8 @@ export const {
 	setVerificationToken,
 	setIsAuthenticated,
   setLoggedIn,
-  triggerIsSigningUp
+  triggerIsSigningUp,
+	reset
 } = slice.actions;
 
 export default slice.reducer;

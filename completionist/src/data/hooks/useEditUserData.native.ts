@@ -4,8 +4,6 @@ import useCache from '../api/hooks/useCache.native';
 import useKeychain from './useKeychain.native';
 import useLoginDispatch from '@components/custom/LoginForm/hooks/useLoginDispatch';
 import useEndpoints from '../api/hooks/useEndpoints.native';
-import useLoginState from '@components/custom/LoginForm/hooks/useLoginState';
-import useGetNavigationPath from './useGetNavigationPath';
 
 interface EditUserDataReturnType {
 	loadUserFromCache: () => void;
@@ -15,6 +13,7 @@ interface EditUserDataReturnType {
 
 const useEditUserData = (): EditUserDataReturnType => {
 	const { setUser, setShouldUpdateUser } = useMainDispatch();
+	const { setLoggedIn } = useLoginDispatch();
 	const { fetchUserFromCache, saveToCache } = useCache();
 	const { getCredentials } = useKeychain();
 	const { getUserByUserId, updateUser } = useEndpoints();
@@ -36,19 +35,10 @@ const useEditUserData = (): EditUserDataReturnType => {
 							})
 					}
 					else {
+						// 	checkUpdateChangesLeft(cachedData);
 						saveUser(cachedData);
+						setLoggedIn(true);
 					}
-					// if (cachedData) {
-					// 	checkUpdateChangesLeft(cachedData);
-					// }
-					// else {
-					// 	getUserByUserId({ userId: credentials.username })
-					// 		.then((user) => {
-					// 			if (user) {
-					// 				checkUpdateChangesLeft(user);
-					// 			}
-					// 		})
-					// }
 			});
 		}
 	};

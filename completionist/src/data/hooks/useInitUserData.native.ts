@@ -12,7 +12,7 @@ const useInitUserData = () => {
   const { setAppState } = useMainDispatch();
   const { user, appState, shouldUpdateUser } = useMainState();
 	const { setIsAuthenticated } = useLoginDispatch();
-  const { isAuthenticated, isLoggedIn } = useLoginState();
+  const { isAuthenticated, isLoggedIn, isSigningUp } = useLoginState();
   const { loadUserFromCache, updateUserData } = useEditUserData();
 	const getAuthNavigationPath = useGetNavigationPath();
 
@@ -47,14 +47,14 @@ const useInitUserData = () => {
   }, [appState]);
 
 	useEffect(() => {
-		if (isLoggedIn) {
+		if (isLoggedIn || isSigningUp) {
 			setIsAuthenticated(user.signup.verification && user.signup.selectGame)
 		}
 
-		if (!isAuthenticated) {
+		if (!isAuthenticated && user.userId) {
 			getAuthNavigationPath(user);
 		}
-	}, [isLoggedIn])
+	}, [isLoggedIn, isSigningUp, user.signup])
 };
 
 export default useInitUserData;

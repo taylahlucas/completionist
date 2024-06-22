@@ -35,10 +35,10 @@ const useHandleAxiosError = () => {
 					// When searching for user in database && signing in
 					break;
 			default:
-				Alert.alert(
-					t('common:errors.error'),
-					t('common:errors.pleaseRefreshApp')
-				);
+				// Alert.alert(
+				// 	t('common:errors.error'),
+				// 	t('common:errors.pleaseRefreshApp')
+				// );
 				break;
 		}
 	};

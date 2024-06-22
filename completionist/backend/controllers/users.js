@@ -11,7 +11,7 @@ var params = {
 };
 
 const getUserByUserId = authWrapper({
-	authFunction: async (req, res) => {
+	authFunction: async (req, res, token) => {
 		const userId = req.params.userId;
 		params = {
 			...params,
@@ -28,7 +28,10 @@ const getUserByUserId = authWrapper({
 		else {
 			const user = response.Items[0];
 			console.log('getUserByUserId Query succeeded');
-			return res.status(response_codes.SUCCESS).json(user);
+			return res.status(response_codes.SUCCESS).json({
+				user,
+				token
+			});
 		}
 	},
 	onError: (res, error) => {
@@ -38,7 +41,7 @@ const getUserByUserId = authWrapper({
 });
 
 const updateUser = authWrapper({
-	authFunction: async (req, res) => {
+	authFunction: async (req, res, token) => {
 		const userId = req.params.userId;
 		const { username, email, steamId, activeGames, signup, settings, gameData } = req.body;
 		let updateExpression = "set username = :username, email = :email, activeGames = :activeGames, signup = :signup, settings = :settings, gameData = :gameData";
@@ -66,7 +69,7 @@ const updateUser = authWrapper({
 
 		await dynamoDB.send(new UpdateCommand(params));
 		console.log(`User with ID ${userId} updated successfully`);
-		return res.status(response_codes.SUCCESS).json({ ok: true });
+		return res.status(response_codes.SUCCESS).json({ ok: true, token });
 	},
 	onError: (res, err) => {
 		console.log("updateUser Error: ", err.message);
