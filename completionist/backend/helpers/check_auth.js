@@ -1,11 +1,11 @@
 
 const jwt = require('jsonwebtoken');
-const response_codes = require('../helpers/response_codes');
+const { response_code, response_message } = require('../helpers/response_code');
 
 async function checkAuthToken(token, secret, res) {
 	try {
 		if (!token) {
-			res.status(response_codes.UNAUTHORIZED).json({ error: 'Unauthorized' });
+			res.status(response_code.UNAUTHORIZED).json({ error: response_message.UNAUTHORIZED });
 			return false;
 		}
 		jwt.verify(token, secret);

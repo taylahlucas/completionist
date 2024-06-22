@@ -3,7 +3,7 @@ const { DynamoDBClient } = require('@aws-sdk/client-dynamodb');
 const { DynamoDBDocumentClient, PutCommand, UpdateCommand } = require('@aws-sdk/lib-dynamodb');
 const hashPw = require('../helpers/hash_password');
 const comparePws = require('../helpers/compare_passwords');
-const response_codes = require('../helpers/response_codes');
+const { response_code, response_message } = require('../helpers/response_code');
 const { checkEmailExists } = require('../helpers/check_existing_user');
 const userSchema = require('../models/user');
 const createUser = require('../helpers/create_user');
@@ -24,17 +24,16 @@ const checkUserExists = async (req, res) => {
 	const { email } = req.body;
 	// Checks if user exists and whether they have a regular or google account set up
 	const existingUser = await checkEmailExists(dynamoDB, email);
-	console.log("existingUser: ", existingUser);
-
+	console.log("checkUserExists");
 	if (existingUser) {
-		return res.status(response_codes.SUCCESS)
+		return res.status(response_code.SUCCESS)
 			.json({
 				regular: existingUser ? !!existingUser.pw : false,
 				google: existingUser ? !!existingUser.googleId : false,
 			});
 	}
 	else {
-		return res.status(response_codes.SUCCESS).json({
+		return res.status(response_code.SUCCESS).json({
 			regular: false,
 			google: false
 		});
@@ -49,13 +48,11 @@ const signup = async (req, res) => {
 		pw: userPw,
 		googleId: userGoogleId,
 	} = req.body;
-	if (!userId) {
-		return res.json({ error: "userId is required" });
-	}
-
 	const existingUser = await checkEmailExists(docClient, email);
 	if (existingUser) {
-		return res.status(response_codes.EMAIL_TAKEN).json('Email already exists.');
+		return res.status(response_code.EMAIL_TAKEN).json({
+			error: response_message.EMAIL_TAKEN
+		});
 	}
 
 	// Hash password if password is provided & same for googleId
@@ -78,7 +75,7 @@ const signup = async (req, res) => {
 	const updatedUser = createUser(user);
 	const { err, value: validatedUser } = userSchema.validate(updatedUser);
 	if (err) {
-		console.log("User Validation Error: ", err)
+		console.log("Signup User Validation Error: ", err)
 		return res.status(err.status).json(err.message);
 	}
 	params = {
@@ -112,23 +109,23 @@ const signin = async (req, res) => {
 		const { email, pw, googleId } = req.body;
 		const existingUser = await checkEmailExists(docClient, email);
 		if (!existingUser) {
-			return res.status(response_codes.NO_USER_FOUND).json({ error: "No user found." });
+			return res.status(response_code.NO_USER_FOUND).json({ error: "No user found." });
 		}
 
 		// Compare passwords or google ids
 		if (existingUser.pw && pw) {
 			const match = await comparePws(pw, existingUser.pw);
 			if (!match) {
-				return res.status(response_codes.WRONG_PASSWORD).json({
-					error: "Wrong password",
+				return res.status(response_code.WRONG_PASSWORD).json({
+					error: response_message.WRONG_PASSWORD,
 				});
 			}
 		}
 		else if (existingUser.googleId && googleId) {
 			const match = await comparePws(googleId, existingUser.googleId);
 			if (!match) {
-				return res.status(response_codes.WRONG_PASSWORD).json({
-					error: "Wrong google id",
+				return res.status(response_code.WRONG_PASSWORD).json({
+					error: response_message.WRONG_GOOGLE_ID
 				});
 			}
 		}
@@ -143,7 +140,7 @@ const signin = async (req, res) => {
 		existingUser.secret = undefined;
 
 		// Response with token and user data
-		return res.status(response_codes.SUCCESS).json({
+		return res.status(response_code.SUCCESS).json({
 			token,
 			refreshTokenExpiry: ttlInSeconds,
 			user: existingUser
@@ -157,7 +154,7 @@ const linkAndSignIn = async (req, res) => {
 	const { email, pw, googleId } = req.body;
 	const existingUser = await checkEmailExists(docClient, email);
 	if (!existingUser) {
-		return res.status(response_codes.NO_USER_FOUND).json({ error: "No user found." });
+		return res.status(response_code.NO_USER_FOUND).json({ error: response_message.NO_USER_FOUND });
 	}
 
 	// If user does not have googleId, update googleId
@@ -192,7 +189,7 @@ const linkAndSignIn = async (req, res) => {
 
 		const { pw, googleId, ...rest } = existingUser;
 
-		console.log("linkAndSignIn Success: ", rest);
+		console.log("User successfully linked");
 		return res.json({
 			token,
 			refreshTokenExpiry: ttlInSeconds,
@@ -210,7 +207,7 @@ const forgotPw = async (req, res) => {
 		const { email, newPw } = req.body;
 		const existingUser = await checkEmailExists(dynamoDB, email);
 		if (!existingUser) {
-			return res.status(response_codes.NO_USER_FOUND).json({ error: "No user found." });
+			return res.status(response_code.NO_USER_FOUND).json({ error: response_message.NO_USER_FOUND });
 		}
 
 		// Hash new password
@@ -232,10 +229,10 @@ const forgotPw = async (req, res) => {
 
 		await dynamoDB.send(new UpdateCommand(params));
 		console.log(`Password for user with ID ${userId} updated successfully`);
-		return res.status(response_codes.SUCCESS).json({ ok: true });
+		return res.status(response_code.SUCCESS).json({ ok: true });
 	}
 	catch (err) {
-		console.log("Error: ", err.message)
+		console.log("forgotPw Error: ", err.message)
 		return res.status(err.status).json(err.message);
 	}
 };

@@ -1,5 +1,5 @@
 const nodemailer = require('nodemailer');
-const response_codes = require('../helpers/response_codes');
+const { response_code } = require('../helpers/response_code');
 const checkAuthToken = require('../helpers/check_auth');
 
 const sendVerificationEmail = async (req, res) => {
@@ -23,7 +23,7 @@ const sendVerificationEmail = async (req, res) => {
     });
     
     console.log('Verification Email sent successfully');
-    return res.status(response_codes.SUCCESS).json({ ok: true });
+    return res.status(response_code.SUCCESS).json({ ok: true });
   } catch (error) {
     return res.status(error.status).json({ error: error.message  });
   }
@@ -52,7 +52,7 @@ const sendEmail = async (req, res) => {
 			});
 			
 			console.log('Email sent successfully');
-			return res.status(response_codes.SUCCESS).json({ ok: true });
+			return res.status(response_code.SUCCESS).json({ ok: true });
 		} catch (error) {
 			return res.status(error.status).json({ error: error.message  });
 		}

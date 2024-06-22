@@ -6,7 +6,6 @@ const authRoutes = require('./routes/auth');
 const userRoutes = require('./routes/users');
 const sendEmailRoutes = require('./routes/send_email');
 const steamRoutes = require('./routes/steam');
-const testRoutes = require('./routes/test');
 
 const app = express();
 
@@ -23,6 +22,5 @@ app.use('/api', authRoutes);
 app.use('/users', userRoutes);
 app.use('/send_email', sendEmailRoutes);
 app.use('/steam', steamRoutes);
-app.use('/test', testRoutes);
 
 module.exports = app;

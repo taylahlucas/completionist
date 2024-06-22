@@ -1,6 +1,6 @@
 const { DynamoDBClient } = require('@aws-sdk/client-dynamodb');
 const { DynamoDBDocumentClient, QueryCommand, UpdateCommand } = require('@aws-sdk/lib-dynamodb');
-const response_codes = require('../helpers/response_codes');
+const { response_code, response_message } = require('../helpers/response_code');
 const authWrapper = require('../helpers/auth_wrapper');
 
 const client = new DynamoDBClient({ region: process.env.REGION });
@@ -23,12 +23,12 @@ const getUserByUserId = authWrapper({
 		const response = await dynamoDB.send(new QueryCommand(params));
 		if (!response.Items.length) {
 			console.log('getUserByUserId No Match');
-			return res.status(response_codes.SUCCESS);
+			return res.status(response_code.SUCCESS);
 		}
 		else {
 			const user = response.Items[0];
 			console.log('getUserByUserId Query succeeded');
-			return res.status(response_codes.SUCCESS).json({
+			return res.status(response_code.SUCCESS).json({
 				user,
 				token
 			});
@@ -36,7 +36,7 @@ const getUserByUserId = authWrapper({
 	},
 	onError: (res, error) => {
 		console.log("getUserByUserId Error: ", error.message);
-		return res.status(response_codes.FAILURE);
+		return res.status(response_code.FAILURE);
 	}
 });
 
@@ -69,11 +69,11 @@ const updateUser = authWrapper({
 
 		await dynamoDB.send(new UpdateCommand(params));
 		console.log(`User with ID ${userId} updated successfully`);
-		return res.status(response_codes.SUCCESS).json({ ok: true, token });
+		return res.status(response_code.SUCCESS).json({ ok: true, token });
 	},
 	onError: (res, err) => {
 		console.log("updateUser Error: ", err.message);
-		return res.status(response_codes.FAILURE).json(err.message);
+		return res.status(response_code.FAILURE).json(err.message);
 	}
 });
 
@@ -93,7 +93,7 @@ const changePassword = authWrapper({
 		const response = await dynamoDB.send(new QueryCommand(params));
 		if (!response.Items.length) {
 			console.log('getUserByUserId No Match');
-			return res.status(response_codes.NO_USER_FOUND).json({ error: "No user found." });
+			return res.status(response_code.NO_USER_FOUND).json({ error: response_message.NO_USER_FOUND });
 		}
 
 		const user = response.Items[0];
@@ -101,8 +101,8 @@ const changePassword = authWrapper({
 		if (user.password && oldPw) {
 			const match = await comparePasswords(oldPw, user.pw);
 			if (!match) {
-				return res.status(response_codes.WRONG_PASSWORD).json({
-					error: "Wrong password",
+				return res.status(response_code.WRONG_PASSWORD).json({
+					error: response_message.WRONG_PASSWORD,
 				});
 			}
 
@@ -127,11 +127,11 @@ const changePassword = authWrapper({
 
 		await dynamoDB.send(new UpdateCommand(params));
 		console.log(`Password for user with ID ${userId} updated successfully`);
-		return res.status(response_codes.SUCCESS).json({ ok: true });
+		return res.status(response_code.SUCCESS).json({ ok: true });
 	},
 	onError: (res, err) => {
 		console.log("changePassword Error: ", err.message);
-		return res.status(response_codes.FAILURE).json(err.message);
+		return res.status(response_code.FAILURE).json(err.message);
 	}
 });
 

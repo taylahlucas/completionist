@@ -1,7 +1,7 @@
 require('dotenv').config();
 const checkAuthToken = require('./check_auth');
 const cache = require('../cache');
-const response_codes = require('./response_codes');
+const { response_code, response_message } = require('./response_code');
 const { createSignedToken, createRefreshToken } = require('../helpers/create_tokens');
 
 // Calculate TTL for 60 days in seconds
@@ -14,7 +14,7 @@ const authWrapper = ({ authFunction, onError }) => {
 			const token = authHeader && authHeader.split(' ')[1];
 
 			if (!token) {
-				res.status(response_codes.UNAUTHORIZED).json({ error: 'Unauthorized' });
+				res.status(response_code.UNAUTHORIZED).json({ error: response_message.UNAUTHORIZED });
 				return false;
 			}
 
@@ -42,7 +42,7 @@ const authWrapper = ({ authFunction, onError }) => {
 					}
 				}
 				else {
-					return res.status(response_codes.UNAUTHORIZED).json({ error: 'Unauthorized token' });
+					return res.status(response_code.UNAUTHORIZED).json({ error: response_message.UNAUTHORIZED });
 				}
 			}
 		}
