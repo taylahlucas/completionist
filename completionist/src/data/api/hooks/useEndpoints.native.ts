@@ -33,13 +33,13 @@ const useEndpoints = (): EndpointsReturnType => {
 
 	// TODO: Add axios caching https://www.npmjs.com/package/axios-cache-adapter
 	const getUserByUserId = async ({ userId }: GetUserByUserIdProps): Promise<UserResponse> => {
+		console.log("getUserByUserId")
 		try {
 			const response = await authInterceptor.get(
 				`${url}/${getUserByUserIdUrl}/${userId}`
 			);
 			if (response.data.user) {
 				if (response.data.token) {
-					console.log("Setting new token: ", response.data.token)
 					storeCredentials({
 						username: response.data.user.userId,
 						password: response.data.token
@@ -55,6 +55,7 @@ const useEndpoints = (): EndpointsReturnType => {
 	};
 
 	const updateUser = async (user: User): Promise<UserResponse> => {
+		console.log("updateUser")
 		try {
 			const response = await authInterceptor.patch(
 				`${url}/${updateUserUrl}/${user.userId}`,
@@ -69,7 +70,6 @@ const useEndpoints = (): EndpointsReturnType => {
 				}
 			);
 			if (response.data.token) {
-				console.log("updateUser Setting new token: ", response.data.token);
 				storeCredentials({
 					username: user.userId,
 					password: response.data.token
