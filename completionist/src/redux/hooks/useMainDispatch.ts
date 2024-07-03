@@ -1,6 +1,7 @@
 import { Dispatch } from 'redux';
-import { ScreenEnum, GameKeyEnum } from '@utils/CustomEnums';
+import { GameKeyEnum } from '@utils/CustomEnums';
 import { Item, User } from '@utils/CustomInterfaces';
+import { ScreenEnumType  } from '@utils/CustomTypes';
 import {
 	setShowSplashScreen,
 	setAppState,
@@ -23,7 +24,7 @@ import { useAppDispatch } from '../store';
 interface MainDispatch {
 	setShowSplashScreen: (value: boolean) => void;
 	setAppState: (value: string) => void;
-	setCurrentScreen: (value: ScreenEnum) => void;
+	setCurrentScreen: (value: ScreenEnumType) => void;
 	setSelectedGame: (value?: GameKeyEnum) => void;
 	setSelectedGameSettings: (value: GameKeyEnum) => void;
 	setWebSignInConfigured: (value: boolean) => void;
@@ -47,7 +48,7 @@ const useMainDispatch = (): MainDispatch => {
 		setAppState(value: string): void {
 			dispatch(setAppState(value));
 		},
-		setCurrentScreen(value: string): void {
+		setCurrentScreen(value: ScreenEnumType): void {
 			dispatch(setCurrentScreen(value));
 		},
 		setSelectedGame(value?: GameKeyEnum): void {

@@ -1,5 +1,3 @@
-export type ScreenEnum = AuthScreenEnum | DrawerScreenEnum | UnauthorizedScreenEnum;
-
 export enum AuthScreenEnum {
 	Landing = 'Landing',
   GameSelection = 'GameSelection',
@@ -29,7 +27,6 @@ export enum UnauthorizedScreenEnum {
 	AccountVerification = 'AccountVerification',
 	SelectInitialPlan = 'SelectInitialPlan',
 	SetUsername = 'SetUsername',
-	Payments = 'Payments',
 	SelectFirstGame = 'SelectFirstGame',
 	LinkAccount = 'LinkAccount',
 	ForgotPassword = 'ForgotPassword',

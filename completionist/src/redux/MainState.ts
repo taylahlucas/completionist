@@ -1,5 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit';
-import { ScreenEnum, UnauthorizedScreenEnum, GameKeyEnum } from '@utils/CustomEnums';
+import { UnauthorizedScreenEnum, GameKeyEnum } from '@utils/CustomEnums';
+import { ScreenEnumType } from '@utils/CustomTypes';
 import { GeneralData, User } from '@utils/CustomInterfaces';
 import { AppStateStatus } from 'react-native';
 import { initialFormData } from '@components/custom/LoginForm/LoginState';
@@ -39,7 +40,7 @@ export const initialUser: User = {
 export interface MainState {
 	readonly showSplashScreen: boolean;
 	readonly appState?: AppStateStatus,
-	readonly currentScreen?: ScreenEnum;
+	readonly currentScreen?: ScreenEnumType;
 	readonly selectedGame?: GameKeyEnum;
 	readonly selectedGameData?: GeneralData;
 	readonly selectedGameSettings: GameKeyEnum;

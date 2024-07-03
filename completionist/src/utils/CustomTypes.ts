@@ -1,5 +1,6 @@
 import { AxiosError } from 'axios';
 import { User } from './CustomInterfaces';
+import { AuthScreenEnum, DrawerScreenEnum, UnauthorizedScreenEnum } from './CustomEnums';
 
 // Styles 
 
@@ -59,8 +60,37 @@ export type LanguageType =
 
 // Navigation
 
+export type ScreenEnumType = AuthScreenEnum | DrawerScreenEnum | UnauthorizedScreenEnum;
 export type NavigationHeaderLeftActionTypes = 'back' | 'menu' | 'achievements' | 'none';
 export type NavigationHeaderRightActionTypes = 'settings' | 'filter' | 'logout' | 'none';
+export type NavigatorParams = {
+	[UnauthorizedScreenEnum.Landing]: undefined;
+  [UnauthorizedScreenEnum.Login]: undefined;
+	[UnauthorizedScreenEnum.AccountVerification]: undefined;
+	[UnauthorizedScreenEnum.SelectInitialPlan]: undefined;
+	[UnauthorizedScreenEnum.SetUsername]: undefined;
+	[UnauthorizedScreenEnum.SelectFirstGame]: undefined;
+	[UnauthorizedScreenEnum.LinkAccount]: undefined;
+	[UnauthorizedScreenEnum.ForgotPassword]: undefined;
+	[UnauthorizedScreenEnum.VerifyNewPassword]: undefined;
+	[AuthScreenEnum.Landing]: undefined;
+  [AuthScreenEnum.GameSelection]: undefined;
+	[AuthScreenEnum.GlobalSettings]: undefined;
+	[AuthScreenEnum.GlobalAccountDetails]: undefined;
+	[AuthScreenEnum.GlobalSteamAchievements]: undefined;
+  [AuthScreenEnum.GlobalAchievements]: undefined;
+	[AuthScreenEnum.DrawerStack]: undefined;
+	[DrawerScreenEnum.Quests]: undefined;
+  [DrawerScreenEnum.Collectables]: undefined;
+  [DrawerScreenEnum.Miscellaneous]: undefined;
+  [DrawerScreenEnum.Locations]: undefined;
+  [DrawerScreenEnum.SendRequest]: undefined;
+	[DrawerScreenEnum.Achievements]: undefined;
+	[DrawerScreenEnum.SteamAchievements]: undefined;
+  [DrawerScreenEnum.Payments]: undefined;
+  [DrawerScreenEnum.Settings]: undefined;
+	[DrawerScreenEnum.AccountDetails]: undefined;
+}
 
 // Responses
 

@@ -27,7 +27,6 @@ const UnauthorizedStackNavigator = () => {
 			<Stack.Screen name={UnauthorizedScreenEnum.Login} component={Login} />
 			<Stack.Screen name={UnauthorizedScreenEnum.AccountVerification} component={AccountVerification} />
 			<Stack.Screen name={UnauthorizedScreenEnum.SelectInitialPlan} component={SelectInitialPlan} />
-			<Stack.Screen name={UnauthorizedScreenEnum.Payments} component={Payments} />
 			<Stack.Screen name={UnauthorizedScreenEnum.SelectFirstGame} component={SelectFirstGame} />
 			<Stack.Screen name={UnauthorizedScreenEnum.SetUsername} component={SetUsername} />
 			<Stack.Screen name={UnauthorizedScreenEnum.LinkAccount} component={LinkAccount} />
