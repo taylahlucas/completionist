@@ -28,7 +28,14 @@ const AccountVerification = () => {
 				action={() => signUp({ data: loginFormData })
 					.then((userResponse: UserResponse) => {
 						if (userResponse) {
-							saveUser(userResponse);
+							const updatedUser = {
+								...userResponse,
+								signup: {
+									...userResponse.signup,
+									setUsername: true
+								}
+							}
+							saveUser(updatedUser);
 							setVerificationToken(undefined);
 						}
 					})}

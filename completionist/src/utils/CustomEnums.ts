@@ -28,6 +28,7 @@ export enum UnauthorizedScreenEnum {
   Login = 'Login',
 	AccountVerification = 'AccountVerification',
 	SelectInitialPlan = 'SelectInitialPlan',
+	SetUsername = 'SetUsername',
 	Payments = 'Payments',
 	SelectFirstGame = 'SelectFirstGame',
 	LinkAccount = 'LinkAccount',

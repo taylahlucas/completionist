@@ -41,6 +41,7 @@ const checkUserExists = async (req, res) => {
 };
 
 const signup = async (req, res) => {
+	console.log("signup")
 	const {
 		userId,
 		username,
@@ -91,7 +92,7 @@ const signup = async (req, res) => {
 
 		const { pw, googleId, ...rest } = validatedUser;
 
-		console.log("Signup Success: ", rest);
+		console.log("Signup Success");
 		return res.json({
 			token,
 			refreshTokenExpiry: ttlInSeconds,
@@ -105,6 +106,7 @@ const signup = async (req, res) => {
 };
 
 const signin = async (req, res) => {
+	console.log("signin")
 	try {
 		const { email, pw, googleId } = req.body;
 		const existingUser = await checkEmailExists(docClient, email);

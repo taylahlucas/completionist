@@ -2,7 +2,6 @@ import { useTranslation } from 'react-i18next';
 import { GoogleSignin } from '@react-native-google-signin/google-signin';
 import auth from '@react-native-firebase/auth';
 import useAuthEndpoints from '@data/api/hooks/useAuthEndpoints.native';
-import { AxiosErrorResponse } from '@utils/CustomTypes';
 import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
 import { Alert } from 'react-native';
 import useEditUserData from '@data/hooks/useEditUserData.native';
@@ -121,8 +120,8 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 			return auth()
 				.signInWithCredential(googleCredential)
 				.then((response): void => {
-					const { displayName, email, uid, photoURL } = response?.user || {};
-					if (displayName && email && idToken) {
+					const { email, uid, photoURL } = response?.user || {};
+					if (email && idToken) {
 						checkUserExists(email)
 							.then((accounts) => {
 								// If google account not linked
@@ -139,7 +138,7 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 									signUp({
 										data: {
 											userId: uid,
-											username: displayName,
+											username: '',
 											email: email,
 											userAvatar: photoURL ?? undefined,
 											googleId: idToken

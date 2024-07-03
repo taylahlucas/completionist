@@ -19,7 +19,6 @@ import NavigationDrawerBody from './NavigationDrawerBody.native';
 import { styles } from './NavigationStyledComponents.native';
 import Payments from '@screens/Payments.native';
 import AccountDetails from '@screens/AccountDetails.native';
-// import SelectPlan from '@screens/SelectPlan.native';
 import Settings from '@screens/Settings.native';
 import Achievements from '@screens/Achievements.native';
 
@@ -65,7 +64,6 @@ const AuthDrawerStackNavigator = () => {
 			<Drawer.Screen name={DrawerScreenEnum.SendRequest} component={SendRequest} />
 			<Drawer.Screen name={DrawerScreenEnum.Achievements} component={Achievements} />
 			<Drawer.Screen name={DrawerScreenEnum.SteamAchievements} component={SteamAchievements} />
-			{/* <Drawer.Screen name={DrawerScreenEnum.SelectPlan} component={SelectPlan} /> */}
 			<Drawer.Screen name={DrawerScreenEnum.Payments} component={Payments} />
 			<Drawer.Screen name={DrawerScreenEnum.Settings} component={Settings} />
 			<Drawer.Screen name={DrawerScreenEnum.AccountDetails} component={AccountDetails} />

@@ -103,6 +103,7 @@ export type UnauthorizedStackParamList = {
   Login: undefined;
 	AccountVerification: undefined;
 	SelectInitialPlan: undefined;
+	SetUsername: undefined;
 	Payments:  undefined;
 	SelectFirstGame: undefined;
 	LinkAccount: undefined;

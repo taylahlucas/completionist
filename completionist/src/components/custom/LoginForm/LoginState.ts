@@ -45,9 +45,9 @@ const slice = createSlice({
     },
 		reset: (state, _) => {
 			state = { ...initialState };
+			state.isSigningUp = false;
 			state.isAuthenticated = false;
 			state.isLoggedIn = false;
-			state.isSigningUp = false;
 			state.loginFormData = initialFormData;
 		}
   }

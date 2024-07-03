@@ -48,9 +48,9 @@ const useInitUserData = () => {
 
 	useEffect(() => {
 		if (isLoggedIn || isSigningUp) {
-			setIsAuthenticated(user.signup.verification && user.signup.selectGame)
+			setIsAuthenticated(user.signup.verification && user.signup.selectGame && user.signup.setUsername)
 		}
-
+		
 		if (!isAuthenticated && user.userId) {
 			getAuthNavigationPath(user);
 		}
