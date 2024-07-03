@@ -52,7 +52,7 @@ const useAuthEndpoints = (): AuthEndpointsReturnType => {
 	}
 
 	const signUp = async ({ data }: SignUpProps): Promise<UserResponse> => {
-		console.log("signUp: ", data.username);
+		console.log("signUp");
 		try {
 			const response = await axios.post(`${url}/${signupUrl}`,
 				{
@@ -112,8 +112,8 @@ const useAuthEndpoints = (): AuthEndpointsReturnType => {
 			const response = await axios.patch(`${url}/${linkAndSignInUrl}`,
 				{
 					email: email.toLocaleLowerCase(),
-					pw: pw ? pw : null,
-					googleId: googleId ? googleId : null
+					pw,
+					googleId
 				}
 			);
 			if (!!response.data.user && !!response.data.token) {
