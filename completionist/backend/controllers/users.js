@@ -2,7 +2,8 @@ const { DynamoDBClient } = require('@aws-sdk/client-dynamodb');
 const { DynamoDBDocumentClient, QueryCommand, UpdateCommand } = require('@aws-sdk/lib-dynamodb');
 const { response_code, response_message } = require('../helpers/response_code');
 const authWrapper = require('../helpers/auth_wrapper');
-
+const hashPw = require('../helpers/hash_password');
+const comparePws = require('../helpers/compare_passwords');
 const client = new DynamoDBClient({ region: process.env.REGION });
 const dynamoDB = DynamoDBDocumentClient.from(client);
 
@@ -98,8 +99,8 @@ const changePassword = authWrapper({
 
 		const user = response.Items[0];
 		// Compare given password
-		if (user.password && oldPw) {
-			const match = await comparePasswords(oldPw, user.pw);
+		if (user.pw && oldPw) {
+			const match = await comparePws(oldPw, user.pw);
 			if (!match) {
 				return res.status(response_code.WRONG_PASSWORD).json({
 					error: response_message.WRONG_PASSWORD,
@@ -110,7 +111,7 @@ const changePassword = authWrapper({
 		// Hash new password
 		let hashedPw = '';
 		if (newPw) {
-			hashedPw = await hashPassword(newPw)
+			hashedPw = await hashPw(newPw)
 		}
 
 		// Update user

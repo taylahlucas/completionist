@@ -100,13 +100,14 @@ const Settings = () => {
 					}
 				}} />
 			</ScrollableList>
-			<Condition condition={!!user.steamId && !!profile}>
-				<SteamProfileModal
+			{!!user.steamId && !!profile && profileVisible
+				? <SteamProfileModal
 					profile={profile}
 					isVisible={profileVisible}
-					onClose={(): void => { }}
+					onClose={(): void => setProfileVisible(false)}
 				/>
-			</Condition>
+				: <></>
+			}
 		</StandardLayout>
 	);
 };

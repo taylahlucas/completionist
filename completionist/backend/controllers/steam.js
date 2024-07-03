@@ -54,7 +54,6 @@ const getSteamAchievements = authWrapper({
 		}
 		else {
 			$('.achieveRow').each((_, element) => {
-				console.log("element: ", element)
 				const name = $(element).find('.achieveTxt').find('h3').text().trim();
 				const description = $(element).find('.achieveTxt').find('h5').text().trim();
 				const unlocked = $(element).find('.achieveUnlockTime').length > 0;

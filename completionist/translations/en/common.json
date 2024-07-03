@@ -143,7 +143,7 @@
 		"changesLeft": "You will have {{changesLeft}} change{{s}} left.",
 		"noChangesLeft": "No Changes Left",
 		"noChangesLeftMessage": "Sorry, you have no game changes left for this month.\n Please upgrade to a premium subscription, or wait until the 1st of next month.",
-		"updateSuccess": "User successfully updated."
+		"updateSuccess": "Successfully updated."
 	},
 	"languages": {
 		"ar": "Arabic",

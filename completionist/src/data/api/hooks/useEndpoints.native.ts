@@ -83,7 +83,7 @@ const useEndpoints = (): EndpointsReturnType => {
 		}
 	};
 
-	const changePw = async ({ userId, oldPw, newPw }: ChangePwProps) => {
+	const changePw = async ({ userId, oldPw, newPw }: ChangePwProps): Promise<boolean> => {
 		try {
 			await authInterceptor.patch(`${url}/${changePwUrl}/${userId}`,
 				{
@@ -91,10 +91,11 @@ const useEndpoints = (): EndpointsReturnType => {
 					newPw
 				}
 			);
-			return;
+			return true;
 		}
 		catch (error: AxiosErrorResponse) {
 			handleAxiosError(error.response?.status);
+			return false;
 		}
 	}
 	

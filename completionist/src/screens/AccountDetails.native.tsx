@@ -50,27 +50,39 @@ const AccountDetails = () => {
 	const [showChangePw, setShowChangePw] = useState<boolean>(false);
 	const [submitPressed, setSubmitPressed] = useState<boolean>(false);
 
-	// TODO: Refactor
 	const resetState = () => {
 		setUserInfo(initialState);
 		setSubmitPressed(false)
 	};
 
+	const successAlert = () => {
+		Alert.alert(
+			t('common:alerts.updateSuccess'),
+			'',
+			[
+				{
+					text: t('common:alerts.ok'),
+					onPress: (): void => navigation.goBack()
+			}
+			]
+		);
+	};
+
 	useEffect(() => {
 		checkUserExists(user.email)
-			.then((accounts) => 
+			.then((accounts) =>
 				setShowChangePw(accounts.google && !accounts.regular ? false : true)
 			);
 	}, [])
-	
+
 	useEffect(() => {
 		// Reset state
 		if (currentScreen === DrawerScreenEnum.Settings) {
+			console.log("Navigating back")
 			resetState();
 		}
 	}, [currentScreen])
 
-	// TODO: Add navigation.goBack after alert
 	const onSubmit = () => {
 		setSubmitPressed(true);
 		if (userInfo.email.changed && isEmailValid(userInfo.email.value)) {
@@ -85,7 +97,8 @@ const AccountDetails = () => {
 						updateUser(updatedUser).then(() => {
 							saveUser(updatedUser);
 							Alert.alert(t('common:alerts.updateSuccess'));
-							resetState();							navigation.goBack();
+							setSubmitPressed(false);
+							navigation.goBack();
 						})
 					}
 					else if (accounts.regular && accounts.google) {
@@ -118,8 +131,7 @@ const AccountDetails = () => {
 						...user,
 						username: userInfo.username.value
 					});
-					Alert.alert(t('common:alerts.updateSuccess'));
-					resetState();
+					successAlert();
 				})
 		}
 		else if (userInfo.newPw.changed && isPwValid(userInfo.newPw.value)) {
@@ -128,9 +140,10 @@ const AccountDetails = () => {
 				oldPw: userInfo.currentPw.value,
 				newPw: userInfo.newPw.value
 			})
-				.then(() => {
-					Alert.alert('User successfully updated.')
-					resetState();
+				.then((response) => {
+					if (response) {
+						successAlert();
+					}
 				});
 		}
 	};
@@ -138,8 +151,8 @@ const AccountDetails = () => {
 	return (
 		<StandardLayout>
 			<NavigationHeader
-				id={DrawerScreenEnum.AccountDetails} 
-				title={t('common:screens.accountDetails')} 
+				id={DrawerScreenEnum.AccountDetails}
+				title={t('common:screens.accountDetails')}
 				isForm={userInfo.username.changed || userInfo.email.changed}
 				leftAction='back'
 			/>
@@ -153,8 +166,8 @@ const AccountDetails = () => {
 								!userInfo.username.changed
 								&& !userInfo.email.changed
 								&& !userInfo.newPw.changed
-								&& (!isNameValid(userInfo.username.value) 
-									|| !isEmailValid(userInfo.email.value) 
+								&& (!isNameValid(userInfo.username.value)
+									|| !isEmailValid(userInfo.email.value)
 									|| !isPwValid(userInfo.newPw.value)
 								)
 							}
@@ -181,7 +194,7 @@ const AccountDetails = () => {
 					<Condition condition={!isNameValid(userInfo.username.value) && userInfo.username.changed && submitPressed}>
 						<ErrorMessage>
 							{t('common:accountDetails.invalidUsername')}
-							</ErrorMessage>
+						</ErrorMessage>
 					</Condition>
 
 					<AccountDetailsFieldTitle align='left'>
@@ -205,7 +218,7 @@ const AccountDetails = () => {
 							{t('common:accountDetails.invalidEmail')}
 						</ErrorMessage>
 					</Condition>
-					
+
 					<Condition condition={showChangePw}>
 						<StyledText align='left' style={{ width: '100%', paddingTop: 18, paddingBottom: 8 }} type='ListItemTitleBold'>
 							{t('common:accountDetails.changePw')}
