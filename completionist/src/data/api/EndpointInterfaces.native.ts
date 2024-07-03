@@ -1,4 +1,4 @@
-import { LoginFormData, User, SignupData, SteamProfile } from '@utils/CustomInterfaces';
+import { LoginFormData, User, SignupData, SteamProfile, AchievementItem } from '@utils/CustomInterfaces';
 import { UserResponse } from '@utils/CustomTypes';
 
 export interface SignUpProps {
@@ -38,8 +38,15 @@ export interface ForgotPwProps {
 }
 
 export interface SteamAchievementsProps {
+	userId: string;
 	steamId: string;
 	gameId: string;
+}
+
+export interface SteamAchievementsReturnType {
+	hasPermission: boolean;
+	achievements: AchievementItem[];
+	noOfLocked: number;
 }
 
 export interface AuthEndpointsReturnType {
@@ -56,6 +63,6 @@ export interface EndpointsReturnType {
 	updateUser: (user: User) => Promise<UserResponse>;
 	changePw: ({ userId, oldPw, newPw }: ChangePwProps) => Promise<void>;
 	sendEmail: ({ emailTo, subject, text }: SendEmailProps) => Promise<void>;
-	getSteamUserById: (steamId: string) => Promise<SteamProfile | void>;
-	getSteamPlayerAchievements: ({ steamId, gameId }: SteamAchievementsProps) => Promise<any>;
+	getSteamUserById: (userId: string, steamId: string) => Promise<SteamProfile | void>;
+	getSteamPlayerAchievements: ({ userId, steamId, gameId }: SteamAchievementsProps) => Promise<SteamAchievementsReturnType | void>;
 }

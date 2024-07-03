@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { View, StyleSheet, Image } from 'react-native';
 import Dropdown from '@components/general/Dropdown/Dropdown.native';
 import StyledText from '@components/general/Text/StyledText.native';
@@ -6,36 +6,25 @@ import useGetTheme from '@styles/hooks/useGetTheme';
 import ScrollableList from '@components/general/Lists/ScrollableList.native';
 import { AchievementItem } from '@utils/CustomInterfaces'
 import Seperator from '@components/general/Seperator.native';
-import { SMALL_WIDTH, STANDARD_WIDTH, SMALL_PADDING, MID_PADDING, MID_WIDTH } from '@styles/global.native';
+import { STANDARD_WIDTH, SMALL_PADDING, MID_PADDING, MID_WIDTH, LARGE_PADDING } from '@styles/global.native';
 import Condition from '@components/general/Condition.native';
 import Icon from '@components/general/Icon/Icon.native';
 import { DropdownTitleContainer } from '@components/general/Dropdown/DropdownStyledComponents.native';
 import { IconTypeEnum } from '@utils/CustomEnums';
-import useEndpoints from '@data/api/hooks/useEndpoints.native';
 
 interface AchievementViewProps {
 	gameId: string;
-	steamId: string
+	items: AchievementItem[];
+	itemsLength: number;
 	title: string;
 	currentOpen: string;
 	setCurrentOpen: (value: string) => void;
 }
 
-const AchievementView = ({ gameId, steamId, title, currentOpen, setCurrentOpen }: AchievementViewProps) => {
+const AchievementView = ({ gameId, items, itemsLength, title, currentOpen, setCurrentOpen }: AchievementViewProps) => {
 	const theme = useGetTheme();
 	const [isOpen, setIsOpen] = useState<boolean>(false);
-	const { getSteamPlayerAchievements } = useEndpoints();
 	const open = isOpen && gameId === currentOpen;
-	const [items, setItems] = useState<AchievementItem[]>([]);
-
-	useEffect(() => {
-		const fetchData = async () => {
-			const response = await getSteamPlayerAchievements({ steamId: steamId, gameId: gameId });
-			setItems(response);
-		}
-
-		fetchData();
-	}, [])
 
 	return (
 		<>
@@ -57,8 +46,8 @@ const AchievementView = ({ gameId, steamId, title, currentOpen, setCurrentOpen }
 								{title}
 							</StyledText>
 							<StyledText style={styles.amountTitle}>{
-								`${items.filter(item => item.unlocked).length} / ${items.length}`
-								}</StyledText>
+								`${items.filter(item => item.unlocked).length} / ${itemsLength}`
+							}</StyledText>
 							<Icon
 								name={open ? 'arrow-drop-down' : 'arrow-right'}
 								type={IconTypeEnum.MaterialIcons}
@@ -83,7 +72,9 @@ const AchievementView = ({ gameId, steamId, title, currentOpen, setCurrentOpen }
 								borderColor: item.unlocked ? theme.lightPurple : theme.midGrey
 							}}
 						>
-							<Image style={styles.icon} source={{ uri: item.icon }} />
+							<Condition condition={!!item.icon}>
+								<Image style={styles.icon} source={{ uri: item.icon }} />
+							</Condition>
 							<View style={styles.iconContainer}>
 								<StyledText
 									align='left'
@@ -124,6 +115,7 @@ const AchievementView = ({ gameId, steamId, title, currentOpen, setCurrentOpen }
 
 export default AchievementView;
 
+// TODO: Move to styled components
 const styles = StyleSheet.create({
 	container: {
 		flexDirection: 'row',
@@ -141,7 +133,9 @@ const styles = StyleSheet.create({
 		maxWidth: MID_WIDTH
 	},
 	amountTitle: {
-		top: 4,
+		top: 6,
+		position: 'absolute',
+		right: LARGE_PADDING
 	},
 	itemTitle: {
 		paddingTop: SMALL_PADDING,
@@ -149,7 +143,7 @@ const styles = StyleSheet.create({
 		paddingRight: 12,
 	},
 	itemDescription: {
-		width: SMALL_WIDTH,
+		width: MID_WIDTH,
 		paddingLeft: 12,
 		paddingRight: 12,
 		paddingBottom: SMALL_PADDING

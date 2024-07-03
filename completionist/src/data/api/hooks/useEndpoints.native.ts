@@ -15,7 +15,8 @@ import {
 	SendEmailProps,
 	EndpointsReturnType,
 	ChangePwProps,
-	SteamAchievementsProps
+	SteamAchievementsProps,
+	SteamAchievementsReturnType
 } from '@data/api/EndpointInterfaces.native';
 import useHandleAxiosError from './useHandleAxiosError';
 import { requestCodes } from '@utils/constants';
@@ -115,14 +116,20 @@ const useEndpoints = (): EndpointsReturnType => {
 		}
 	};
 
-	const getSteamUserById = async (steamId: string): Promise<SteamProfile | void> => {
+	const getSteamUserById = async (userId: string, steamId: string): Promise<SteamProfile | void> => {
 		try {
 			const response = await authInterceptor.get(
 				`${url}/${steamProfileUrl}?steamId=${steamId}`
 			);
 
 			if (!!response?.data) {
-				return response?.data as SteamProfile;
+				if (response.data.token) {
+					storeCredentials({
+						username: userId,
+						password: response.data.token
+					});
+				}
+				return response?.data?.profile as SteamProfile;
 			}
 			else {
 				Alert.alert('Steam ID not found.');
@@ -134,13 +141,24 @@ const useEndpoints = (): EndpointsReturnType => {
 		}
 	};
 
-	const getSteamPlayerAchievements = async ({ steamId, gameId }: SteamAchievementsProps): Promise<AchievementItem[] | void> => {
+	const getSteamPlayerAchievements = async ({ userId, steamId, gameId }: SteamAchievementsProps): Promise<SteamAchievementsReturnType | void> => {
 		try {
 			const response = await authInterceptor.get(
 				`${url}/${steamPlayerAchievementsUrl}?steamId=${steamId}&gameId=${gameId}`,
 			);
 			if (response?.data) {
-				return response?.data as AchievementItem[];
+				if (response.data.token) {
+					storeCredentials({
+						username: userId,
+						password: response.data.token
+					});
+				}
+
+				return {
+					hasPermission: response?.data.hasPermission,
+					achievements: response?.data.achievements as AchievementItem[],
+					noOfLocked: response?.data.noOfLocked
+				};
 			}
 		}
 		catch (error: AxiosErrorResponse) {

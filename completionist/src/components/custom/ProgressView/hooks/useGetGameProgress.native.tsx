@@ -5,7 +5,7 @@ const useGetGameProgress = () => {
 	const { user } = useMainState();
 
 	const getGameProgress = (id: string, section: string): number => {
-		const data = user.data[id];
+		const data = user.gameData[id];
 		switch (section) {
 			case ContentSectionEnum.QUESTS:
 				return data.quests.filter(item => item.isComplete).length

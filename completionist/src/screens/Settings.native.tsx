@@ -58,7 +58,7 @@ const Settings = () => {
 						// TODO: Navigate to Steam Profile
 						onPress={async (): Promise<void> => {
 							if (user.steamId) {
-								const profile = await getSteamUserById(user.steamId);
+								const profile = await getSteamUserById(user.userId, user.steamId);
 
 								if (!!profile) {
 									setProfile(profile);

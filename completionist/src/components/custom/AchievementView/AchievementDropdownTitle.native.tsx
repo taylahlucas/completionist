@@ -1,5 +1,4 @@
 import React from 'react';
-import { STANDARD_WIDTH } from '@styles/global.native';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import Icon from '@components/general/Icon/Icon.native';
 import { IconTypeEnum } from '@utils/CustomEnums';

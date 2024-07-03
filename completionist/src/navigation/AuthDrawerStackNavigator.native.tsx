@@ -64,6 +64,7 @@ const AuthDrawerStackNavigator = () => {
 			<Drawer.Screen name={DrawerScreenEnum.Locations} component={Locations} />
 			<Drawer.Screen name={DrawerScreenEnum.SendRequest} component={SendRequest} />
 			<Drawer.Screen name={DrawerScreenEnum.Achievements} component={Achievements} />
+			<Drawer.Screen name={DrawerScreenEnum.SteamAchievements} component={SteamAchievements} />
 			{/* <Drawer.Screen name={DrawerScreenEnum.SelectPlan} component={SelectPlan} /> */}
 			<Drawer.Screen name={DrawerScreenEnum.Payments} component={Payments} />
 			<Drawer.Screen name={DrawerScreenEnum.Settings} component={Settings} />

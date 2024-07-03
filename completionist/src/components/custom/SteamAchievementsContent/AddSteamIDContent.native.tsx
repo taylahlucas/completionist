@@ -10,9 +10,11 @@ import useEndpoints from '@data/api/hooks/useEndpoints.native';
 import ParagraphView from '@components/general/ParagraphView.native';
 import SteamProfileModal from '@screens/SteamProfileModal.native';
 import { SteamProfile } from '@utils/CustomInterfaces';
+import useMainState from '@redux/hooks/useMainState';
 
 const AddSteamIDContent = () => {
 	const { t } = useTranslation();
+	const { user } = useMainState();
 	const [steamId, setSteamId] = useState<string>('');
 	const [profileVisible, setProfileVisible] = useState<boolean>(false);
 	const [profile, setProfile] = useState<SteamProfile | undefined>(undefined);
@@ -26,7 +28,8 @@ const AddSteamIDContent = () => {
 					type='footer'
 					disabled={steamId.length < 17}
 					onPress={async (): Promise<void> => {
-						const profile = await getSteamUserById(steamId);
+						const profile = await getSteamUserById(user.userId, steamId);
+						console.log("profile: ", profile)
 
 						if (!!profile) {
 							setProfile(profile);
@@ -40,8 +43,6 @@ const AddSteamIDContent = () => {
 				<StyledText type={'ListItemSubTitleBold'}>{t('common:steamAchievements.addSteamIdDesc1')}</StyledText>
 				<Spacing />
 				<StyledText>{t('common:steamAchievements.addSteamIdDesc2')}</StyledText>
-				<Spacing />
-				<StyledText>{t('common:steamAchievements.addSteamIdDesc3')}</StyledText>
 				<Spacing />
 				<StyledText>https://steamcommunity.com/profiles/id/</StyledText>
 				<TextInput

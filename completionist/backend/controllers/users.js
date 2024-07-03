@@ -54,7 +54,7 @@ const updateUser = authWrapper({
 			":gameData": gameData
 		}
 		if (steamId) {
-			updateExpression += "steamId = :steamId, "
+			updateExpression += "steamId = :steamId"
 			expressionValues[":steamId"] = steamId;
 		}
 
