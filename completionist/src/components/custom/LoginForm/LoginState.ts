@@ -45,7 +45,10 @@ const slice = createSlice({
     },
 		reset: (state, _) => {
 			state = { ...initialState };
-			console.log("state: ", state)
+			state.isAuthenticated = false;
+			state.isLoggedIn = false;
+			state.isSigningUp = false;
+			state.loginFormData = initialFormData;
 		}
   }
 });

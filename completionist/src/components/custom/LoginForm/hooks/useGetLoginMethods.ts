@@ -117,7 +117,7 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 			await GoogleSignin.hasPlayServices();
 			const { idToken } = await GoogleSignin.signIn();
 			const googleCredential = auth.GoogleAuthProvider.credential(idToken);
-			
+
 			return auth()
 				.signInWithCredential(googleCredential)
 				.then((response): void => {
@@ -175,7 +175,6 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 			else {
 				removeUserData();
 			}
-			// TODO: Check if google is signed in
 			await GoogleSignin.revokeAccess();
 			await GoogleSignin.signOut();
 		} catch (error) {

@@ -28,7 +28,6 @@ const useHandleAxiosError = () => {
 				);
 				break;
 			case requestCodes.UNAUTHORIZED:
-				console.log("Removing data")
 				removeUserData();
 				break;
 			case requestCodes.NO_USER_FOUND:

@@ -6,7 +6,7 @@ import useCache from '../api/hooks/useCache.native';
 
 const useRemoveUserData = () => {
 	const { setUser  } = useMainDispatch();
-	const { setLoginFormData, setLoggedIn, setIsAuthenticated, reset } = useLoginDispatch();
+	const { reset } = useLoginDispatch();
 	const { deleteCredentials } = useKeychain();
 	const { clearCache } = useCache();
 

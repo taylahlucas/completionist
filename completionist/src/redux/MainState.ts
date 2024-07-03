@@ -133,6 +133,8 @@ const slice = createSlice({
 		},
 		reset: (state) => {
 			state.searchValue = initialState.searchValue;
+			state.shouldUpdateUser = false;
+			state.user = initialUser;
 		}
 	}
 });

@@ -24,7 +24,6 @@ const useEditUserData = (): EditUserDataReturnType => {
 		if (credentials) {
 			fetchUserFromCache(credentials.password)
 				.then((cachedData) => {
-					console.log("loadUserFromCache: ", cachedData)
 					if (!cachedData) {
 						getUserByUserId({ userId: credentials.username })
 							.then((user) => {
