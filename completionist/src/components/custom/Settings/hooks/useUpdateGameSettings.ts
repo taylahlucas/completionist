@@ -9,7 +9,7 @@ const useUpdateGameSettings = () => {
     const gameConfig = updateConfig(user.gameData[gameKey].settingsConfig.general, item);
 		return {
       ...user,
-      data: {
+      gameData: {
         ...user.gameData,
         [gameKey]: {
           ...user.gameData[gameKey],

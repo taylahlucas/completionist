@@ -6,9 +6,11 @@ import { SettingsListItem } from '@utils/CustomInterfaces';
 import useGetUserGameData from '@data/hooks/useGetUserGameData';
 import SettingsSelectionDropdown from '@components/custom/Settings/SettingsSelectionDropdown.native';
 import { SettingsCollectionList, SettingsDescription } from '@components/custom/Settings/SettingsStyledComponents.native';
+import useMainState from '@redux/hooks/useMainState';
 
 const SettingsGameCollections = () => {
 	const { t } = useTranslation();
+	const { user } = useMainState();
 	const { getUserSettingsMainConfig } = useGetUserGameData();
 	const config = getUserSettingsMainConfig();
 	const minHeight = config.length > 3 ? 200 : 150;

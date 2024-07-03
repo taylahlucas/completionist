@@ -99,6 +99,7 @@ const useEndpoints = (): EndpointsReturnType => {
 	
 	const sendEmail = async ({ emailTo, subject, text }: SendEmailProps): Promise<void> => {		
 		try {
+			console.log("Sending Email")
 			await authInterceptor.post(
 				`${url}/${sendEmailUrl}`,
 				{

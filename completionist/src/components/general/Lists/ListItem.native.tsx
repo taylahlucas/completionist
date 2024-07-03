@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState, useEffect } from 'react';
 import { Animated } from 'react-native';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import { ListItemContainer, ListItemTitle, ListItemContentContainer, ListItemLocationContainer } from './ListStyledComponents.native';
@@ -23,14 +23,15 @@ const ListItem = ({ title, location, hold, href, isComplete = false, action }: L
   const theme = useGetTheme();
 	const { capitalize } = useFormatter();
   const locationString = useGetLocationString({ hold, location });
-	const fadeValue = useRef(new Animated.Value(isComplete ? 0 : 1)).current;
 	const { setWebViewHref } = useContentDispatch();
+	const fadeValue = useRef(new Animated.Value(isComplete ? 0 : 1)).current;
+	const [isPressed, setPressed] = useState<boolean>(false);
 
-	const fadeAnimation = (fadeOut: boolean) => {
+	const fadeAnimation = (fadeOut: boolean, duration: number) => {
 		Animated.timing(fadeValue, {
 			toValue: fadeOut ? 1 : 0,
-			duration: 500,
-			useNativeDriver: true
+			duration: duration,
+			useNativeDriver: true,
 		}).start();
 	}
 
@@ -38,14 +39,39 @@ const ListItem = ({ title, location, hold, href, isComplete = false, action }: L
     inputRange: [0, 1],
     outputRange: [theme.darkGrey, theme.midGrey],
   });
+
+	useEffect(() => {
+		if (isPressed) {
+			fadeAnimation(isComplete, 100);
+		}
+		else {
+			fadeAnimation(!isComplete, 100);
+		}
+	}, [isPressed])
+
+	const getTitleColor = () => {
+		if (isComplete && isPressed) {
+			return theme.darkGrey;
+		}
+		else if (isComplete) {
+			return theme.midGrey
+		}
+		else {
+			return theme.lightestGrey;
+		}
+	};
 	
   return (
     <ListItemContainer style={{ backgroundColor: interpolatedBackgroundColor }}>
-      <ListItemContentContainer onLongPress={(): void => setWebViewHref(href)}>
+      <ListItemContentContainer
+				onTouchStart={(): void => setPressed(true)}
+				onTouchEnd={(): void => setPressed(false)}
+				onLongPress={(): void => setWebViewHref(href)}
+			>
         <ListItemTitle
           align='left'
           ellipsizeMode={'tail'}
-          color={isComplete ? theme.midGrey : theme.lightestGrey}
+          color={getTitleColor()}
         >
           {capitalize(title)}
         </ListItemTitle>
@@ -53,7 +79,7 @@ const ListItem = ({ title, location, hold, href, isComplete = false, action }: L
           <ListItemLocationContainer>
             <StyledText
               type={'ListItemSubDescription'} 
-              color={isComplete ? theme.midGrey : theme.darkGrey}
+              color={isComplete? theme.midGrey : theme.darkGrey}
               ellipsizeMode={'tail'}
               numberOfLines={1}
             >
@@ -64,7 +90,7 @@ const ListItem = ({ title, location, hold, href, isComplete = false, action }: L
       </ListItemContentContainer>
       <AnimatedCheckBox isToggled={isComplete} action={() => {
 					action();
-					fadeAnimation(isComplete);
+					fadeAnimation(isComplete, 500);
 				}} 
 			/>
     </ListItemContainer>

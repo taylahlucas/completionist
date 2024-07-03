@@ -90,7 +90,7 @@ npx react-native run-ios --port 8002
 - body-parser
 - express-session
 - passport
-- poassport-google-oauth20
+- passport-google-oauth20
 - crypto
 - nodemailer
 - node-cache

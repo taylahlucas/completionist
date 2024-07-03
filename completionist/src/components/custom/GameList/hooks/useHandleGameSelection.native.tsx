@@ -3,7 +3,7 @@ import useContentDispatch from '@components/custom/ContentList/hooks/useContentD
 import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
 import useMainState from '@redux/hooks/useMainState';
-import { AuthScreenEnum, SubscriptionTypeEnum } from '@utils/CustomEnums';
+import { AuthScreenEnum } from '@utils/CustomEnums';
 import { ActiveGameData } from '@utils/CustomInterfaces';
 import useTranslateGameContent from '@utils/hooks/useTranslateGameContent.native';
 import useActivateGameSubscription from '@utils/hooks/useActivateGameSubscription.native';
@@ -12,16 +12,12 @@ import { useTranslation } from 'react-i18next';
 const useHandleGameSelection = () => {
 	const navigation = useReactNavigation();
 	const { t } = useTranslation();
-	const { setSelectedGame, setSelectedGameSettings, reset } = useMainDispatch();
-	const { user } = useMainState();
-	const { reset: contentReset } = useContentDispatch();
+	const { setSelectedGame, setSelectedGameSettings } = useMainDispatch();
 	const { translateGameName } = useTranslateGameContent();
 	const { changeGameSubscription, activateGameSubscription } = useActivateGameSubscription();
 	
 	const handleGameSelection = (game: ActiveGameData) => {
 		if (game.isActive) {
-			contentReset();
-			reset();
 			setSelectedGame(game.id);
 			setSelectedGameSettings(game.id);
 			navigation.navigate(AuthScreenEnum.DrawerStack);

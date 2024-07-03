@@ -13,11 +13,11 @@ import useContentDispatch from './hooks/useContentDispatch';
 import WikiWebView from '@components/general/WikiWebView/WikiWebView.native';
 
 const ContentList = () => {
-  const { searchValue, webViewHref } = useContentState();
-	const { setSearchValue, setWebViewHref }  = useContentDispatch();
-  const { getContentCategories } = useGetContentCategories();
-  const { getContentForCategory } = useGetContent();
-  const { checkContentCompleteForCategory } = useCheckContentComplete();
+	const { searchValue, webViewHref } = useContentState();
+	const { setSearchValue, setWebViewHref } = useContentDispatch();
+	const { getContentCategories } = useGetContentCategories();
+	const { getContentForCategory } = useGetContent();
+	const { checkContentCompleteForCategory } = useCheckContentComplete();
 	const categories = getContentCategories();
 
 	useEffect(() => {
@@ -31,28 +31,28 @@ const ContentList = () => {
 	if (!categories) {
 		return <Loading />;
 	}
-  return (
-    <Condition
-      condition={searchValue.length < 2 && !!categories}
-      conditionalElement={<SearchResults />}
-    >
-      <ScrollableList>
-        {categories.map((category: SettingsListItem, index: number) => {
-          const allContentForCategory = getContentForCategory(category.title)
-          const completedContent = checkContentCompleteForCategory(allContentForCategory)
+	return (
+		<Condition
+			condition={searchValue.length < 2 && !!categories}
+			conditionalElement={<SearchResults />}
+		>
+			<ScrollableList>
+				{categories.map((category: SettingsListItem, index: number) => {
+					const allContentForCategory = getContentForCategory(category.title)
+					const completedContent = checkContentCompleteForCategory(allContentForCategory)
 
-          return (
-            <ContentMainDropdown
-              key={index}
-              category={category}
-              completed={completedContent.toString()}
-              total={allContentForCategory.length.toString()}
-            />
-          )
-        })}
-      </ScrollableList>
-    </Condition>
-  );
+					return (
+						<ContentMainDropdown
+							key={index}
+							category={category}
+							completed={completedContent.toString()}
+							total={allContentForCategory.length.toString()}
+						/>
+					)
+				})}
+			</ScrollableList>
+		</Condition>
+	);
 };
 
 export default ContentList;

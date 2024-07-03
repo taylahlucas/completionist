@@ -19,7 +19,7 @@ import useTranslateGameContent from '@utils/hooks/useTranslateGameContent.native
 import useMainState from '@redux/hooks/useMainState';
 import CheckBox from '@components/general/Checkbox/CheckBox.native';
 import useUpdateGameSettings from './hooks/useUpdateGameSettings';
-import useMainDispatch from '@redux/hooks/useMainDispatch';
+import useEditUserData from '@data/hooks/useEditUserData.native';
 
 interface SettingsItemDropdownProps {
 	item: SettingsListItem;
@@ -30,7 +30,7 @@ const SettingsItemDropdown = ({ item, triggerListOpen }: SettingsItemDropdownPro
 	const { t } = useTranslation();
 	const theme = useGetTheme();
 	const { selectedGameSettings, user } = useMainState();
-	const { setUser } = useMainDispatch();
+	const { saveUser } = useEditUserData();
 	const { setSelectedCategory } = useSettingsDispatch();
 	const { selectedCategory } = useSettingsState();
 	const { getUserSettingsSubConfig, getUserSettingsDLC } = useGetUserGameData();
@@ -45,7 +45,7 @@ const SettingsItemDropdown = ({ item, triggerListOpen }: SettingsItemDropdownPro
 				isActive={item.isActive}
 				onPress={(): void => {
 					const updatedUser = updateGameSettings(user, item, selectedGameSettings);
-					setUser(updatedUser);
+					saveUser(updatedUser);
 				}}
 			/>
 		)
@@ -81,7 +81,7 @@ const SettingsItemDropdown = ({ item, triggerListOpen }: SettingsItemDropdownPro
 						<SettingsTitle color={theme.lightGrey} align='left'>
 							{translateCategoryName(selectedGameSettings, item.id, settingsItem.id)}
 						</SettingsTitle>
-						{renderSettingsCheckbox(settingsItem, { marginRight: 8 })}
+						{renderSettingsCheckbox(settingsItem, { marginRight: 5 })}
 					</SettingsSubItemContainer>
 				))
 					.concat(
@@ -90,7 +90,7 @@ const SettingsItemDropdown = ({ item, triggerListOpen }: SettingsItemDropdownPro
 								<SettingsTitle color={theme.lightGrey} align='left'>
 									{translateDLCName(selectedGameSettings, dlcItem.id)}
 								</SettingsTitle>
-								{renderSettingsCheckbox(dlcItem, { marginRight: 8 })}
+								{renderSettingsCheckbox(dlcItem, { marginRight: 5 })}
 							</SettingsSubItemContainer>
 						))
 					)}
