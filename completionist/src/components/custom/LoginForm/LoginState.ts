@@ -12,8 +12,7 @@ export interface LoginState {
 export const initialFormData: LoginFormData = {
   userId: '',
   username: '',
-  email: '',
-  userAvatar: ''
+  email: ''
 }
 
 export const initialState: LoginState = {
@@ -44,11 +43,12 @@ const slice = createSlice({
       state.isSigningUp = action.payload;
     },
 		reset: (state, _) => {
-			state = { ...initialState };
+			// TODO: Not working ??
 			state.isSigningUp = false;
 			state.isAuthenticated = false;
 			state.isLoggedIn = false;
 			state.loginFormData = initialFormData;
+			state.verificationToken = undefined;
 		}
   }
 });

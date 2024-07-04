@@ -231,5 +231,4 @@ export interface LoginFormData {
   email: string;
 	googleId?: string;
   pw?: string;
-  userAvatar?: string;
 }
