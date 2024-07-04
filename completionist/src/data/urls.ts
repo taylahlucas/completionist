@@ -11,6 +11,7 @@ export const getUserByUserIdUrl = 'users'
 export const updateUserUrl = 'users/update';
 export const changePwUrl = 'users/update/pw';
 export const sendEmailUrl = 'send_email/send';
+export const deleteUserUrl = 'users/delete';
 
 // Steam
 export const steamProfileUrl = 'steam/profile';

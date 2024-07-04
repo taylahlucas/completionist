@@ -20,9 +20,13 @@ import SteamProfileModal from './SteamProfileModal.native';
 import useEndpoints from '@data/api/hooks/useEndpoints.native';
 import { SteamProfile } from '@utils/CustomInterfaces';
 import Condition from '@components/general/Condition.native';
+import useGetTheme from '@styles/hooks/useGetTheme';
+import Spacing from '@components/general/Spacing.native';
+import useEditUserData from '@data/hooks/useEditUserData.native';
 
 const Settings = () => {
 	const { t } = useTranslation();
+	const theme = useGetTheme();
 	const scrollViewRef = useRef<ScrollView>(null);
 	const languageViewRef = useRef<RNText>(null);
 	const [profileVisible, setProfileVisible] = useState<boolean>(false);
@@ -34,6 +38,7 @@ const Settings = () => {
 	const { setSettingsOptionsOnPress } = useSettingsOptionsOnPress();
 	const handleScroll = useHandleScroll();
 	const { getSteamUserById } = useEndpoints();
+	const { deleteUserData } = useEditUserData();
 	const isGlobalSettings = !selectedGame;
 
 	return (
@@ -99,6 +104,14 @@ const Settings = () => {
 						});
 					}
 				}} />
+
+				{/* Delete Account */}
+				<Spacing />
+				<Button
+					title="Delete Account"
+					color={theme.error}
+					onPress={(): void => deleteUserData(user.userId)}
+				/>
 			</ScrollableList>
 			{!!user.steamId && !!profile && profileVisible
 				? <SteamProfileModal

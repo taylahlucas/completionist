@@ -2,11 +2,8 @@ import React, { useRef, useEffect } from 'react';
 import {
 	Modal,
 	View,
-	Text,
-	TouchableOpacity,
 	StyleSheet,
 	Animated,
-	Dimensions,
 } from 'react-native';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import { windowHeight } from '@styles/global.native';
@@ -20,17 +17,6 @@ const ModalWrapper = ({ children }: ModalWrapperProps) => {
 	const theme = useGetTheme();
 
 	useEffect(() => {
-    // if (visible) {
-    //   Animated.spring(translateY, {
-    //     toValue: 0,
-    //     useNativeDriver: true,
-    //   }).start();
-    // } else {
-    //   Animated.spring(translateY, {
-    //     toValue: height,
-    //     useNativeDriver: true,
-    //   }).start();
-    // }
 		Animated.spring(translateY, {
 			toValue: 0,
 			useNativeDriver: true,

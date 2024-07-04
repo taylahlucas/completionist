@@ -52,9 +52,9 @@
 		
 	},
 	"selectGame": {
-		"selectGameDesc1": "With a Free account, you can select one game per month to track.",
-		"selectGameDesc2": "Select your first game below!",
-		"selectGameDesc3": "Don't worry if you make a mistake, you'll be able to change this once per month."
+		"selectGameDesc1": "You will have access to one free game per month.",
+		"selectGameDesc2": "More games may be purchased with a one-off payment.",
+		"selectGameDesc3": "Select your free game below!"
 	},
 	"subscriptions": {
 		"subscriptionDesc": "With a Premium subscription,\nyou will gain access to Premium Features such as:",

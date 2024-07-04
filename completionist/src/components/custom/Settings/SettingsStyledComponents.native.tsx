@@ -29,6 +29,7 @@ export const SettingsEmail = styled(StyledText)`
 export const SettingsDescription = styled(StyledText)`
   width: ${STANDARD_WIDTH}px;
   padding-top: ${MID_PADDING}px;
+	padding-bottom: ${SMALL_PADDING}px;
 `;
 
 export const SettingsCollectionList = styled(Animated.View)`

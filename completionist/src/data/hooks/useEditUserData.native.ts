@@ -1,22 +1,28 @@
+import { useTranslation } from 'react-i18next';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
 import { User } from '@utils/CustomInterfaces';
 import useCache from '../api/hooks/useCache.native';
 import useKeychain from './useKeychain.native';
 import useLoginDispatch from '@components/custom/LoginForm/hooks/useLoginDispatch';
 import useEndpoints from '../api/hooks/useEndpoints.native';
+import useRemoveUserData from '@data/hooks/useRemoveUserData.native';
+import { Alert } from 'react-native';
 
 interface EditUserDataReturnType {
 	loadUserFromCache: () => void;
 	saveUser: (user: User) => void;
 	updateUserData: (user: User) => void;
+	deleteUserData: (userId: string) => void;
 }
 
 const useEditUserData = (): EditUserDataReturnType => {
+	const { t } = useTranslation();
 	const { setUser, setShouldUpdateUser } = useMainDispatch();
 	const { setLoggedIn } = useLoginDispatch();
 	const { fetchUserFromCache, saveToCache } = useCache();
 	const { getCredentials } = useKeychain();
-	const { getUserByUserId, updateUser } = useEndpoints();
+	const { getUserByUserId, updateUser, deleteUser } = useEndpoints();
+	const { removeUserData } = useRemoveUserData();
 
 	const loadUserFromCache = async () => {
 		const credentials = await getCredentials();
@@ -53,10 +59,32 @@ const useEditUserData = (): EditUserDataReturnType => {
 			.then(() => saveUser(user));
 	}
 
+	const deleteUserData = async (userId: string) => {
+		Alert.alert(
+			'Are you sure?', 
+			'If you delete this account, you will not be able to recover it.',
+			[
+				{
+					text: 'Delete Account',
+					style: 'destructive',
+					onPress: () => deleteUser(userId)
+						.then(() => {
+							Alert.alert('Account successfully deleted.');
+							removeUserData();
+						})
+				},
+				{
+					text: t('common:alerts.cancel')
+				}
+			]
+		)
+	};
+
 	return { 
 		loadUserFromCache,
 		saveUser,
-		updateUserData
+		updateUserData,
+		deleteUserData
 	};
 };
 

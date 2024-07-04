@@ -6,6 +6,7 @@ import {
 	getUserByUserIdUrl,
 	updateUserUrl,
 	sendEmailUrl,
+	deleteUserUrl,
 	steamProfileUrl,
 	steamPlayerAchievementsUrl,
 	changePwUrl
@@ -117,6 +118,20 @@ const useEndpoints = (): EndpointsReturnType => {
 		}
 	};
 
+	const deleteUser = async (userId: string): Promise<void> => {
+		try {
+			console.log("Deleting user");
+			await authInterceptor.delete(
+				`${url}/${deleteUserUrl}/${userId}`
+			);
+			console.log("Returning");
+			return;
+		}
+		catch (error: AxiosErrorResponse) {
+			handleAxiosError(error.response.status);
+		}
+	};
+
 	const getSteamUserById = async (userId: string, steamId: string): Promise<SteamProfile | void> => {
 		try {
 			const response = await authInterceptor.get(
@@ -180,6 +195,7 @@ const useEndpoints = (): EndpointsReturnType => {
 		updateUser,
 		changePw,
 		sendEmail,
+		deleteUser,
 		getSteamUserById,
 		getSteamPlayerAchievements
 	};

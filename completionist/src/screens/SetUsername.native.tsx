@@ -8,6 +8,7 @@ import useEditUserData from '@data/hooks/useEditUserData.native';
 import KeyboardAvoidingScrollView from '@components/general/Lists/KeyboardAvoidingScrollView.native';
 import useMainState from '@redux/hooks/useMainState';
 import Button from '@components/general/Button/Button.native';
+import StyledText from '@components/general/Text/StyledText.native';
 
 const SetUsername = () => {
 	const { t } = useTranslation();
@@ -40,6 +41,7 @@ const SetUsername = () => {
 		<StandardLayout>
 			<NavigationHeader id={UnauthorizedScreenEnum.SetUsername} title={'Set Username'} leftAction='none' />
 			<KeyboardAvoidingScrollView awareView={renderAwareView()}>
+				<StyledText>This username will be publicly linked to your profile.</StyledText>
 				<TextInput
 					testID='username'
 					placeholder={t('common:auth.username')}
@@ -47,7 +49,6 @@ const SetUsername = () => {
 					onChangeText={(value) => setUsername(value)}
 					onReset={(): void => setUsername('')}
 				/>
-				<></>
 			</KeyboardAvoidingScrollView>
 		</StandardLayout>
 	);

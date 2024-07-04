@@ -1,5 +1,5 @@
 const { DynamoDBClient } = require('@aws-sdk/client-dynamodb');
-const { DynamoDBDocumentClient, QueryCommand, UpdateCommand } = require('@aws-sdk/lib-dynamodb');
+const { DynamoDBDocumentClient, QueryCommand, UpdateCommand, DeleteCommand } = require('@aws-sdk/lib-dynamodb');
 const { response_code, response_message } = require('../helpers/response_code');
 const authWrapper = require('../helpers/auth_wrapper');
 const hashPw = require('../helpers/hash_password');
@@ -47,6 +47,7 @@ const updateUser = authWrapper({
 		const { username, email, steamId, activeGames, signup, settings, gameData } = req.body;
 		let updateExpression = "set username = :username, email = :email, activeGames = :activeGames, signup = :signup, settings = :settings, gameData = :gameData";
 		let expressionValues = {
+			":userId": userId,
 			":username": username,
 			":email": email,
 			":activeGames": activeGames,
@@ -56,6 +57,7 @@ const updateUser = authWrapper({
 		}
 		if (steamId) {
 			updateExpression += "steamId = :steamId"
+
 			expressionValues[":steamId"] = steamId;
 		}
 
@@ -65,6 +67,7 @@ const updateUser = authWrapper({
 				userId: userId
 			},
 			UpdateExpression: updateExpression,
+			ConditionExpression: "userId = :userId",
 			ExpressionAttributeValues: expressionValues,
 		};
 
@@ -86,9 +89,12 @@ const changePassword = authWrapper({
 		// Get user pw from backend
 		params = {
 			...params,
-			KeyConditionExpression: 'userId = :userId',
+			Key: {
+				userId: userId,
+			},
+			ConditionExpression: "userId = :userId",
 			ExpressionAttributeValues: {
-				':userId': userId,
+				":userId": userId,
 			},
 		}
 		const response = await dynamoDB.send(new QueryCommand(params));
@@ -121,6 +127,7 @@ const changePassword = authWrapper({
 				userId: userId
 			},
 			UpdateExpression: "set pw = :pw",
+			ConditionExpression: "userId = :userId",
 			ExpressionAttributeValues: {
 				":pw": hashedPw
 			}
@@ -136,8 +143,33 @@ const changePassword = authWrapper({
 	}
 });
 
+const deleteUser = authWrapper({
+	authFunction: async (req, res) => {
+		const userId = req.params.userId;
+		console.log("deleting user userId: ", userId)
+		params = {
+			...params,
+			Key: {
+				userId: userId,
+			},
+			ConditionExpression: "userId = :userId",
+			ExpressionAttributeValues: {
+				":userId": userId,
+			},
+		};
+		await dynamoDB.send(new DeleteCommand(params));
+		console.log('User deleted successfully');
+		return res.status(response_code.SUCCESS).json({ ok: true });
+	},
+	onError: (res, err) => {
+		console.log("deleteUser Error: ", err.message);
+		return res.status(response_code.FAILURE).json(err.message);
+	}
+})
+
 module.exports = {
 	getUserByUserId,
 	updateUser,
-	changePassword
+	changePassword,
+	deleteUser
 }
