@@ -1,11 +1,11 @@
-import { ScreenEnum, SettingsOptionEnum, GameKeyEnum, DatePeriodEnum, ContentSectionEnum, DrawerScreenEnum } from './CustomEnums';
+import { SettingsOptionEnum, GameKeyEnum, DatePeriodEnum, ContentSectionEnum, DrawerScreenEnum } from './CustomEnums';
 import { NavigationAction, NavigationState } from '@react-navigation/native';
 import { MainState } from '@redux/MainState';
 import { SettingsState } from '@components/custom/Settings/SettingsState';
 import { LoginState } from '@components/custom/LoginForm/LoginState';
 import { ContentState } from '@components/custom/ContentList/ContentState';
 import { SubscriptionState } from '@components/custom/SubscriptionContent/SubscriptionState';
-import { LanguageType } from './CustomTypes';
+import { LanguageType, ScreenEnumType } from './CustomTypes';
 
 export interface GameContentItem {
   id: string;
@@ -96,6 +96,7 @@ export interface NavigationDrawerItemData {
   title: string;
   subTitle: string;
   isEnabled: boolean;
+	isHidden: boolean;
 }
 
 export type UnauthorizedStackParamList = {

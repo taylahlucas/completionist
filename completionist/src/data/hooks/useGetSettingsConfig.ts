@@ -3,7 +3,7 @@ import { SettingsOptionEnum } from '@utils/CustomEnums';
 
 interface GetSettingsConfigReturnType {
   shouldShowCompletedItems: () => boolean;
-  shouldShowDisabledSections: () => boolean;
+  shouldHideDisabledSections: () => boolean;
 }
 
 const useGetSettingsConfig = (): GetSettingsConfigReturnType => {
@@ -13,14 +13,14 @@ const useGetSettingsConfig = (): GetSettingsConfigReturnType => {
     return user.settings.configs.find(item => item.id === SettingsOptionEnum.COMPLETED_ITEMS)?.isActive ?? true;
   };
 
-  const shouldShowDisabledSections = (): boolean => {
+  const shouldHideDisabledSections = (): boolean => {
     return user.settings.configs.find(item => item.id === SettingsOptionEnum.DISABLED_SECTIONS)?.isActive ?? true;
   };
 
 
   return { 
     shouldShowCompletedItems,
-    shouldShowDisabledSections 
+    shouldHideDisabledSections 
   };
 };
 

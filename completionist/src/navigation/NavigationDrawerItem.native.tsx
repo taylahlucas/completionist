@@ -9,6 +9,7 @@ import {
 import useGetTheme from '@styles/hooks/useGetTheme';
 import useContentDispatch from '@components/custom/ContentList/hooks/useContentDispatch';
 import { ContentSectionEnum } from '@utils/CustomEnums';
+import Condition from '@components/general/Condition.native';
 
 interface NavigationDrawerItemProps {
 	item: NavigationDrawerItemData;
@@ -21,36 +22,38 @@ const NavigationDrawerItem = ({ item, isActive }: NavigationDrawerItemProps) => 
 	const { setSelectedSection, setSelectedCategory } = useContentDispatch();
 
 	return (
-		<NavigationHeaderTitleContainer
-			key={item.id}
-			disabled={!item.isEnabled}
-			onPress={(): void => {
-				navigation.navigate(item.id);
-				const contentEnum = item.id.toLocaleLowerCase();
-				if (contentEnum as ContentSectionEnum) {
-					setSelectedSection(contentEnum as ContentSectionEnum);
-				}
-				setSelectedCategory({
-					category: ''
-				});
-			}}
-		>
-			<NavigationDrawerTitle
-				type='ListItemTitle'
-				color={isActive ? theme.lightGrey : theme.midGrey}
-				align='left'
-				numberOfLines={1}
+		<Condition condition={!item.isHidden}>
+			<NavigationHeaderTitleContainer
+				key={item.id}
+				disabled={!item.isEnabled}
+				onPress={(): void => {
+					navigation.navigate(item.id);
+					const contentEnum = item.id.toLocaleLowerCase();
+					if (contentEnum as ContentSectionEnum) {
+						setSelectedSection(contentEnum as ContentSectionEnum);
+					}
+					setSelectedCategory({
+						category: ''
+					});
+				}}
 			>
-				{item.title}
-			</NavigationDrawerTitle>
-			<NavigationHeaderSubTitle
-				color={isActive ? theme.lightGrey : theme.midGrey}
-				align='left'
-				numberOfLines={1}
-			>
-				{item.subTitle}
-			</NavigationHeaderSubTitle>
-		</NavigationHeaderTitleContainer>
+				<NavigationDrawerTitle
+					type='ListItemTitle'
+					color={isActive ? theme.lightGrey : theme.midGrey}
+					align='left'
+					numberOfLines={1}
+				>
+					{item.title}
+				</NavigationDrawerTitle>
+				<NavigationHeaderSubTitle
+					color={isActive ? theme.lightGrey : theme.midGrey}
+					align='left'
+					numberOfLines={1}
+				>
+					{item.subTitle}
+				</NavigationHeaderSubTitle>
+			</NavigationHeaderTitleContainer>
+		</Condition>
 	);
 };
 

@@ -13,6 +13,7 @@ const useRemoveUserData = () => {
 	const removeUserData = () => {
 		reset();
 		setUser(initialUser);
+		console.log("removeUserData testing cache error Setting user to: ", initialUser);
 		clearCache();
 		deleteCredentials();
 	}

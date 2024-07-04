@@ -37,7 +37,6 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 		await signIn({ email, pw, googleId })
 			.then((userResponse) => {
 				if (!!userResponse) {
-					console.log("User sign in")
 					saveUser(userResponse);
 					setLoggedIn(true);
 				}
