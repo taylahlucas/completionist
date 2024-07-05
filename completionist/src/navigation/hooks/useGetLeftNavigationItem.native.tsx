@@ -41,7 +41,7 @@ const useGetLeftNavigationItem = (
     case 'back':
       return (
         <IconButton
-          style={styles.iconButton}
+				style={{ ...styles.iconButton, top: 2 }}
           name={'arrow-back'}
           type={IconTypeEnum.Ionicons}
           color={theme.lightGrey}

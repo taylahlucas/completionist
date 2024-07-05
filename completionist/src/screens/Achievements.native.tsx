@@ -93,7 +93,7 @@ const Achievements = () => {
 			/>
 			<ScrollableList style={{ maxHeight: 600 }}>
 				{/* Badges */}
-				<Dropdown
+				{/* <Dropdown
 					isOpen={badgesOpen}
 					setOpen={(): void => setBadgesOpen(!badgesOpen)}
 					header={
@@ -104,7 +104,7 @@ const Achievements = () => {
 					}
 				>
 					<BadgeView items={mockBadges} />
-				</Dropdown>
+				</Dropdown> */}
 
 				{/* Achievements */}
 				<Dropdown
@@ -115,7 +115,7 @@ const Achievements = () => {
 					})}
 					header={
 						<AchievementDropdownTitle
-							title={'Achievements'}
+							title={'Steam Achievements'}
 							isOpen={achievementsState.isOpen}
 						/>
 					}

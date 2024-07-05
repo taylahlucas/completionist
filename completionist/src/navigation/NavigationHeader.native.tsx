@@ -6,14 +6,15 @@ import {
 } from './NavigationStyledComponents.native';
 import { 
 	NavigationHeaderLeftActionTypes,
-	NavigationHeaderRightActionTypes 
+	NavigationHeaderRightActionTypes,
+	ScreenEnumType
 } from '@utils/CustomTypes';
 import useGetLeftNavigationItem from './hooks/useGetLeftNavigationItem.native';
 import useGetRightNavigationItem from './hooks/useGetRightNavigationItem.native';
-import { ScreenEnum, AuthScreenEnum, DrawerScreenEnum, UnauthorizedScreenEnum } from '@utils/CustomEnums';
+import { AuthScreenEnum, DrawerScreenEnum, UnauthorizedScreenEnum } from '@utils/CustomEnums';
 
 interface NavigationHeaderProps {
-	id: ScreenEnum;
+	id: ScreenEnumType;
   title: string;
 	isForm?: boolean;
   leftAction?: NavigationHeaderLeftActionTypes;
@@ -28,9 +29,9 @@ const NavigationHeader = ({
 	rightAction = 'none'
 }: NavigationHeaderProps) => {
   const theme = useGetTheme();
-	const checkAuthScreen = (screen: ScreenEnum) => screen in AuthScreenEnum || screen in DrawerScreenEnum;
-  const leftItem = useGetLeftNavigationItem(leftAction, checkAuthScreen(id), isForm);
+	const checkAuthScreen = (screen: ScreenEnumType) => screen in DrawerScreenEnum;
 	const rightItem = useGetRightNavigationItem(rightAction);
+	const leftItem = useGetLeftNavigationItem(leftAction, checkAuthScreen(id), isForm);
 
   return (
     <NavigationHeaderContainer>

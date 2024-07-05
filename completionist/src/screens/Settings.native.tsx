@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef, useState, useEffect } from 'react';
 import { ScrollView, Text as RNText } from 'react-native';
 import { useTranslation } from 'react-i18next';
 import StandardLayout from '@components/general/Layouts/StandardLayout.native';
@@ -40,14 +40,25 @@ const Settings = () => {
 	const { getSteamUserById } = useEndpoints();
 	const { deleteUserData } = useEditUserData();
 	const isGlobalSettings = !selectedGame;
+	const [actions, setActions] = useState({
+		left: 'back',
+		right: 'logout'
+	})
+
+	useEffect(() => {
+		setActions({
+			left: isGlobalSettings ? 'back' : 'menu',
+			right: isGlobalSettings ? 'logout' : 'none'
+		})
+	}, [isGlobalSettings])
 
 	return (
 		<StandardLayout>
 			<NavigationHeader
 				id={isGlobalSettings ? AuthScreenEnum.GlobalSettings : DrawerScreenEnum.Settings}
 				title={t('common:screens.settings')}
-				leftAction={isGlobalSettings ? 'back' : 'menu'}
-				rightAction={isGlobalSettings ? 'logout' : 'none'}
+				leftAction={actions.left}
+				rightAction={actions.right}
 			/>
 			<ScrollableList
 				ref={scrollViewRef}
