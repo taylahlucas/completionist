@@ -18,7 +18,7 @@ const RootStackNavigator = () => {
 	usePlaySplashScreen();
 	useInitUserData();
 	useTimedDataUpdate();
-
+	
 	return (
 		<Condition
 			condition={!showSplashScreen}

@@ -24,6 +24,11 @@ import useGetTheme from '@styles/hooks/useGetTheme';
 import Spacing from '@components/general/Spacing.native';
 import useEditUserData from '@data/hooks/useEditUserData.native';
 
+interface ActionsType {
+	left: NavigationHeaderLeftActionTypes;
+	right: NavigationHeaderLeftActionTypes
+}
+
 const Settings = () => {
 	const { t } = useTranslation();
 	const theme = useGetTheme();
@@ -40,7 +45,7 @@ const Settings = () => {
 	const { getSteamUserById } = useEndpoints();
 	const { deleteUserData } = useEditUserData();
 	const isGlobalSettings = !selectedGame;
-	const [actions, setActions] = useState({
+	const [actions, setActions] = useState<ActionsType>({
 		left: 'back',
 		right: 'logout'
 	})

@@ -44,6 +44,8 @@ const TextInput = React.forwardRef<RNTextInput, TextInputProps>((props, ref) => 
 				onChange={(event: NativeSyntheticEvent<TextInputChangeEventData>): void => onChangeText(event.nativeEvent.text ?? '')}
 				{...props}
 				secureTextEntry={isSecure}
+				autoCorrect={false}
+				
 			/>
 			<Condition condition={secureTextEntry ?? false}>
 				<TextInputIcon

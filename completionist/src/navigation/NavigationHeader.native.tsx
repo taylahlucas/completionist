@@ -11,7 +11,7 @@ import {
 } from '@utils/CustomTypes';
 import useGetLeftNavigationItem from './hooks/useGetLeftNavigationItem.native';
 import useGetRightNavigationItem from './hooks/useGetRightNavigationItem.native';
-import { AuthScreenEnum, DrawerScreenEnum, UnauthorizedScreenEnum } from '@utils/CustomEnums';
+import { DrawerScreenEnum, UnauthorizedScreenEnum } from '@utils/CustomEnums';
 
 interface NavigationHeaderProps {
 	id: ScreenEnumType;

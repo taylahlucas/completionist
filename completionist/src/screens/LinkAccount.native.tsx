@@ -14,7 +14,7 @@ import VerificationContent from '@components/custom/Verification/VerificationCon
 const LinkAccount = () => {
 	// const { t } = useTranslation();
 	const { loginFormData, verificationToken } = useLoginState();
-	const { setVerificationToken } = useLoginDispatch();
+	const { setVerificationToken, setLoggedIn } = useLoginDispatch();
 	const { saveUser } = useEditUserData();
 	const { linkAndSignIn } = useAuthEndpoints();
 
@@ -31,6 +31,7 @@ const LinkAccount = () => {
 					.then((userResponse: UserResponse) => {
 						if (userResponse) {
 							saveUser(userResponse);
+							setLoggedIn(true)
 							setVerificationToken(undefined);
 						}
 					})

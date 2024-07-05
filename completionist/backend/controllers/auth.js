@@ -77,11 +77,12 @@ const signup = async (req, res) => {
 	const { err, value: validatedUser } = userSchema.validate(updatedUser);
 	if (err) {
 		console.log("Signup User Validation Error: ", err)
-		return res.status(err.status).json(err.message);
+		return res.status(response_code.FAILURE).json(err.message);
 	}
 	params = {
 		...params,
-		Item: validatedUser
+		Item: validatedUser,
+		ConditionExpression: "attribute_not_exists(userId)",
 	};
 
 	try {
@@ -101,7 +102,7 @@ const signup = async (req, res) => {
 	}
 	catch (err) {
 		console.log("Signup Error: ", err);
-		return res.status(err.status).json(err.message);
+		return res.status(response_code.FAILURE).json(err.message);
 	}
 };
 
@@ -136,7 +137,7 @@ const signin = async (req, res) => {
 		const token = createSignedToken();
 		const refreshToken = createRefreshToken()
 		cache.set(process.env.REFRESH_TOKEN_CACHE_KEY, refreshToken, ttlInSeconds);
-		
+
 		existingUser.pw = undefined;
 		existingUser.googleId = undefined;
 		existingUser.secret = undefined;
@@ -148,7 +149,7 @@ const signin = async (req, res) => {
 			user: existingUser
 		});
 	} catch (err) {
-		return res.status(err.status).json(err.message);
+		return res.status(response_code.FAILURE).json(err.message);
 	}
 };
 
@@ -200,7 +201,7 @@ const linkAndSignIn = async (req, res) => {
 	}
 	catch (err) {
 		console.log("linkAndSignIn Error: ", err);
-		return res.status(err.status).json(err.message);
+		return res.status(response_code.FAILURE).json(err.message);
 	}
 }
 
@@ -224,6 +225,7 @@ const forgotPw = async (req, res) => {
 				userId: userId
 			},
 			UpdateExpression: "set pw = :pw",
+			ConditionExpression: "userId = :userId",
 			ExpressionAttributeValues: {
 				":pw": hashedPw
 			}
@@ -235,7 +237,7 @@ const forgotPw = async (req, res) => {
 	}
 	catch (err) {
 		console.log("forgotPw Error: ", err.message)
-		return res.status(err.status).json(err.message);
+		return res.status(response_code.FAILURE).json(err.message);
 	}
 };
 

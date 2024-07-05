@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+import uuid from 'react-native-uuid';
 import { GoogleSignin } from '@react-native-google-signin/google-signin';
 import auth from '@react-native-firebase/auth';
 import useAuthEndpoints from '@data/api/hooks/useAuthEndpoints.native';
@@ -119,7 +120,7 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 			return auth()
 				.signInWithCredential(googleCredential)
 				.then((response): void => {
-					const { email, uid, photoURL } = response?.user || {};
+					const { uid, email } = response?.user || {};
 					if (email && idToken) {
 						checkUserExists(email)
 							.then((accounts) => {
@@ -130,17 +131,16 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 								else if (accounts.google) {
 									userSignIn({
 										email: email,
-										googleId: idToken
+										googleId: uid
 									});
 								}
 								else if (!accounts.google && !accounts.regular) {
 									signUp({
 										data: {
-											userId: uid,
+											userId: uuid.v4().toString(),
 											username: '',
 											email: email,
-											userAvatar: photoURL ?? undefined,
-											googleId: idToken
+											googleId: uid
 										}
 									})
 										.then((response) => {

@@ -27,7 +27,7 @@ const SelectFirstGame = () => {
 	const { filterGameList } = useFilterGameList();
 	const { getFormattedSearchString } = useFormatter();
 	const [searchValue, setSearchValue] = useState('');
-	const [selectedGame, setSelectedGame] = useState<ActiveGameData>();
+	const [selectedFirstGame, setSelectedFirstGame] = useState<ActiveGameData>();
 	const { activateGameSubscription } = useActivateGameSubscription();
 	const isLoading = useIsLoading();
 	const filteredGames = filterGameList(user.activeGames, false, getFormattedSearchString(searchValue));
@@ -37,9 +37,9 @@ const SelectFirstGame = () => {
 		<Button
 			title={t('common:continue')}
 			type='footer'
-			disabled={!selectedGame}
+			disabled={!selectedFirstGame}
 			onPress={async (): Promise<void> => {
-				if (!!selectedGame) {
+				if (!!selectedFirstGame) {
 					const updatedUser = {
 						...user,
 						signup: {
@@ -47,7 +47,7 @@ const SelectFirstGame = () => {
 							selectGame: true
 						}
 					}
-					activateGameSubscription(updatedUser, selectedGame);
+					activateGameSubscription(updatedUser, selectedFirstGame);
 				}
 			}}
 		/>
@@ -79,9 +79,9 @@ const SelectFirstGame = () => {
 						<GameListItem
 							key={index}
 							game={game}
-							enabled={selectedGame?.id === game.id ?? false}
-							enabledColor={selectedGame?.id === game.id ? theme.lightPurple : theme.midGrey}
-							onPress={(): void => setSelectedGame(game)}
+							enabled={selectedFirstGame?.id === game.id ?? false}
+							enabledColor={selectedFirstGame?.id === game.id ? theme.lightPurple : theme.midGrey}
+							onPress={(): void => setSelectedFirstGame(game)}
 						/>
 					))}
 				</SelectFirstGameContentContainer>

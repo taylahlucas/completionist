@@ -60,8 +60,7 @@ const useAuthEndpoints = (): AuthEndpointsReturnType => {
 					username: data.username,
 					email: data.email.toLocaleLowerCase(),
 					googleId: data.googleId ?? '',
-					pw: data.pw ?? '',
-					userAvatar: data.userAvatar
+					pw: data.pw ?? ''
 				}
 			);
 			if (!!response.data.token) {
