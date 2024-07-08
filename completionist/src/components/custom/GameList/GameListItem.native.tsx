@@ -1,43 +1,43 @@
 import React from 'react';
-import { GameListItemContainer, GameListImage, GameItemTitle, GameItemTitleContainer } from './GameListItemStyledComponents.native';
-import useGetTheme from '@styles/hooks/useGetTheme';
+import { GameListItemContainer, GameListImage, GameItemTitle, GameItemTitleContainer, GameItemScore } from './GameListItemStyledComponents.native';
 import { ActiveGameData } from '@utils/CustomInterfaces';
-import useTranslateGameContent from '@utils/hooks/useTranslateGameContent.native';
-import useGetGameImage from './hooks/useGetGameImage.native';
+import { useGameListItem } from './hooks/useGameListItem.native';
+import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
+import Condition from '@components/general/Condition.native';
 
 interface GameListItemProps {
 	game: ActiveGameData;
 	enabledColor?: string;
-  enabled: boolean;
-  onPress: () => void;
+	enabled: boolean;
+	onPress: () => void;
 }
 
 const GameListItem = ({ game, enabledColor = 'grey', enabled, onPress }: GameListItemProps) => {
-  const theme = useGetTheme();
-	const { translateGameName } = useTranslateGameContent();
-	const { getGameImage } = useGetGameImage();
-
-  return (
-    <GameListItemContainer
+	const { viewModel, actions } = useGameListItem();
+	
+	return (
+		<GameListItemContainer
 			testID={game.id}
-      color={enabledColor}
-      onPress={onPress}
-    >
-      <GameListImage source={getGameImage(game.id)} />
-      {/* <GameItemScore color={theme.lightestGrey}>0-12</GameItemScore> */}
+			color={enabledColor}
+			onPress={onPress}
+		>
+			<GameListImage source={actions.getGameImage(game.id)} style={{ opacity: enabled ? 0.6 : 0.2 }} />
+			<Condition condition={viewModel.currentScreen !== UnauthorizedScreenEnum.SelectFirstGame && !enabled}>
+				<GameItemScore type='ListItemTitleBold' color={viewModel.theme.lightestGrey}>{actions.getPriceForGame(game.id)}</GameItemScore>
+			</Condition>
 			<GameItemTitleContainer enabled={enabled}>
-      	<GameItemTitle 
+				<GameItemTitle
 					type='SubHeading'
-					color={theme.lightestGrey}
+					color={viewModel.theme.lightestGrey}
 					align='left'
 					ellipsizeMode='tail'
 					numberOfLines={2}
 				>
-					{translateGameName(game.id)}
+					{actions.translateGameName(game.id)}
 				</GameItemTitle>
 			</GameItemTitleContainer>
-    </GameListItemContainer>
-  );
+		</GameListItemContainer>
+	);
 };
 
 export default GameListItem;

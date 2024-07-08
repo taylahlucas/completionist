@@ -121,7 +121,8 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 				.signInWithCredential(googleCredential)
 				.then((response): void => {
 					const { uid, email } = response?.user || {};
-					if (email && idToken) {
+					if (email && idToken && uid) {
+						console.log("UID: ", uid);
 						checkUserExists(email)
 							.then((accounts) => {
 								// If google account not linked

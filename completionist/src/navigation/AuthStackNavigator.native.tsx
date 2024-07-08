@@ -9,6 +9,7 @@ import Landing from '@screens/Landing.native';
 import Achievements from '@screens/Achievements.native';
 import SteamAchievements from '@screens/SteamAchievements.native';
 import AuthDrawerStackNavigator from './AuthDrawerStackNavigator.native';
+import PurchaseGame from '@screens/PurchaseGame.native';
 
 const Stack = createStackNavigator<AuthStackParamList>();
 
@@ -34,6 +35,10 @@ const AuthStackNavigator = () => {
 			<Stack.Screen 
 				name={AuthScreenEnum.GlobalSteamAchievements} 
 				component={SteamAchievements}
+			/>
+			<Stack.Screen 
+				name={AuthScreenEnum.PurchaseGame}
+				component={PurchaseGame}
 			/>
 			<Stack.Screen 
 				name={AuthScreenEnum.DrawerStack} 

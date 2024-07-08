@@ -1,9 +1,9 @@
 import React from 'react';
 import StyledText from '@components/general/Text/StyledText.native';
-import useGetTheme from '@styles/hooks/useGetTheme';
 import { GameListItemHeaderContainer, GameListItemHeaderTitleContainer } from './GameListItemStyledComponents.native';
 import Seperator from '@components/general/Seperator.native';
 import Icon from '@components/general/Icon/Icon.native';
+import { useGameListItem } from './hooks/useGameListItem.native';
 
 interface GameListSectionHeaderProps {
   title: string;
@@ -11,7 +11,7 @@ interface GameListSectionHeaderProps {
 }
 
 const GameListSectionHeader = ({ title, isOpen }: GameListSectionHeaderProps) => {
-  const theme = useGetTheme();
+  const { viewModel } = useGameListItem();
 
   return (
     <GameListItemHeaderContainer>
@@ -24,7 +24,7 @@ const GameListSectionHeader = ({ title, isOpen }: GameListSectionHeaderProps) =>
         </StyledText>
         <Icon 
           name={isOpen ? 'arrow-drop-down' : 'arrow-right'}
-          color={theme.midGrey}
+          color={viewModel.theme.midGrey}
         />
       </GameListItemHeaderTitleContainer>
       <Seperator />

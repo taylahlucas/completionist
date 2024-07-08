@@ -4,8 +4,8 @@ import GameListItem from './GameListItem.native';
 import { ActiveGameData } from '@utils/CustomInterfaces';
 import GameListSectionHeader from './GameListSectionHeader.native';
 import useGetTheme from '@styles/hooks/useGetTheme';
-import useHandleGameSelection from './hooks/useHandleGameSelection.native';
 import { GameListDropdownContainer } from './GameListItemStyledComponents.native';
+import { useGameListItem } from './hooks/useGameListItem.native';
 
 interface GameListSectionDropdown {
 	testID?: string;
@@ -16,7 +16,7 @@ interface GameListSectionDropdown {
 const GameListSectionDropdown = ({ testID, title, data }: GameListSectionDropdown) => {
 	const theme = useGetTheme();
 	const [isOpen, setIsOpen] = useState<boolean>(true);
-	const { handleGameSelection } = useHandleGameSelection();
+	const { actions } = useGameListItem();
 
 	return (
 		<Dropdown
@@ -32,7 +32,7 @@ const GameListSectionDropdown = ({ testID, title, data }: GameListSectionDropdow
 						game={game}
 						enabled={game.isActive}
 						enabledColor={game.isActive ? theme.lightGrey : theme.midGrey}
-						onPress={(): void => handleGameSelection(game)}
+						onPress={(): void => actions.handleGameSelection(game)}
 					/>
 				))}
 			</GameListDropdownContainer>

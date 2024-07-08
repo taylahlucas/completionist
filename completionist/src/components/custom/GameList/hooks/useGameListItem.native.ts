@@ -1,21 +1,51 @@
-import { Alert } from 'react-native';
-import useContentDispatch from '@components/custom/ContentList/hooks/useContentDispatch';
-import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
-import useMainDispatch from '@redux/hooks/useMainDispatch';
 import useMainState from '@redux/hooks/useMainState';
-import { AuthScreenEnum } from '@utils/CustomEnums';
-import { ActiveGameData } from '@utils/CustomInterfaces';
+import useFilterGameList from './useFilterGameList.native';
 import useTranslateGameContent from '@utils/hooks/useTranslateGameContent.native';
-import useActivateGameSubscription from '@utils/hooks/useActivateGameSubscription.native';
-import { useTranslation } from 'react-i18next';
+import useGetTheme from '@styles/hooks/useGetTheme';
+import { AuthScreenEnum, GameKeyEnum } from '@utils/CustomEnums';
+import { ImageURISource } from 'react-native';
+import { ActiveGameData } from '@utils/CustomInterfaces';
+import useMainDispatch from '@redux/hooks/useMainDispatch';
+import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
 
-const useHandleGameSelection = () => {
+interface GamePrice {
+	id: GameKeyEnum;
+	price: string;
+}
+
+export const useGameListItem = () => {
+	const theme = useGetTheme();
 	const navigation = useReactNavigation();
-	const { t } = useTranslation();
+  const { user, currentScreen } = useMainState();
 	const { setSelectedGame, setSelectedGameSettings } = useMainDispatch();
+	const { filterGameList } = useFilterGameList();
 	const { translateGameName } = useTranslateGameContent();
-	const { changeGameSubscription, activateGameSubscription } = useActivateGameSubscription();
 	
+	// TODO: Update with actual price for game
+	const gamePrices: GamePrice[]  = user.activeGames.map((game) => (
+		{ id: game.id, price: '£3.99' }
+	));
+	
+	const getPriceForGame = (game: GameKeyEnum) => {
+		return gamePrices.find((gamePrice: GamePrice) => game === gamePrice.id).price;
+	};
+		
+	const getGameImage = (game: GameKeyEnum): ImageURISource => {
+    switch (game) {
+			case GameKeyEnum.FALLOUT_3:
+				return require('@styles/images/games/fallout3.jpg');
+			case GameKeyEnum.FALLOUT_4:
+				return require('@styles/images/games/fallout4.jpg');
+      case GameKeyEnum.SKYRIM:
+        return require('@styles/images/games/skyrim.jpg');
+			case GameKeyEnum.WITCHER_3:
+				return require('@styles/images/games/witcher3.jpeg');
+      default:
+				// TODO: Change this to 'No image'
+        return require('@styles/images/games/fallout4.jpg');
+    }
+  };
+
 	const handleGameSelection = (game: ActiveGameData) => {
 		if (game.isActive) {
 			setSelectedGame(game.id);
@@ -23,7 +53,26 @@ const useHandleGameSelection = () => {
 			navigation.navigate(AuthScreenEnum.DrawerStack);
 		}
 		else {
-			const gameName: string = translateGameName(game.id);
+			navigation.navigate(AuthScreenEnum.PurchaseGame, { gameId: game.id });
+		}
+	};
+
+	return {
+		viewModel: {
+			activeGames: user.activeGames,
+			currentScreen,
+			theme,
+		},
+		actions: {
+			filterGameList,
+			translateGameName,
+			getGameImage,
+			handleGameSelection,
+			getPriceForGame
+		}
+	};
+};
+
 
 			// TODO: Refactor
 			// switch (user.subscription.tier) {
@@ -74,10 +123,3 @@ const useHandleGameSelection = () => {
 			// 		);
 			// 		break;
 			// }
-		}
-	};
-
-	return { handleGameSelection };
-};
-
-export default useHandleGameSelection;

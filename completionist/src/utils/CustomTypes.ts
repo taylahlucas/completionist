@@ -1,6 +1,6 @@
 import { AxiosError } from 'axios';
 import { User } from './CustomInterfaces';
-import { AuthScreenEnum, DrawerScreenEnum, UnauthorizedScreenEnum } from './CustomEnums';
+import { AuthScreenEnum, DrawerScreenEnum, GameKeyEnum, UnauthorizedScreenEnum } from './CustomEnums';
 
 // Styles 
 
@@ -79,6 +79,7 @@ export type NavigatorParams = {
 	[AuthScreenEnum.GlobalAccountDetails]: undefined;
 	[AuthScreenEnum.GlobalSteamAchievements]: undefined;
   [AuthScreenEnum.GlobalAchievements]: undefined;
+	[AuthScreenEnum.PurchaseGame]: [gameId: GameKeyEnum];
 	[AuthScreenEnum.DrawerStack]: undefined;
 	[DrawerScreenEnum.Quests]: undefined;
   [DrawerScreenEnum.Collectables]: undefined;

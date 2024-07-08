@@ -33,7 +33,7 @@ const Achievements = () => {
 	const navigation = useReactNavigation();
 	const { user, selectedGame } = useMainState();
 	const { getSteamPlayerAchievements } = useEndpoints();
-	const [badgesOpen, setBadgesOpen] = useState<boolean>(true);
+	// const [badgesOpen, setBadgesOpen] = useState<boolean>(true);
 	const [progressOpen, setProgressOpen] = useState<boolean>(true);
 	const [currentOpen, setCurrentOpen] = useState<string>('');
 	const [achievementsState, setAchievementsState] = useState<AchievementsState>({
@@ -54,13 +54,13 @@ const Achievements = () => {
 			if (user.steamId) {
 				const response = await getSteamPlayerAchievements({ userId: user.userId, steamId: user.steamId, gameId: currentGameId });
 
-				if (!response?.hasPermission) {
+				if (response && !response?.hasPermission) {
 					setAchievementsState({
 						...achievementsState,
 						hasPermission: false
 					});
 				}
-				else if (response?.achievements) {
+				else if (response && response?.achievements) {
 					const items: AchievementItem[] = response?.noOfLocked > 0 ? [
 						...response?.achievements,
 						{

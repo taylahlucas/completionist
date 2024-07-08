@@ -30,7 +30,7 @@ const useEditUserData = (): EditUserDataReturnType => {
 		if (credentials) {
 			fetchUserFromCache(credentials.password)
 				.then((cachedData) => {
-					if (!cachedData) {
+					if (!cachedData && credentials.username) {
 						getUserByUserId({ userId: credentials.username })
 							.then((user) => {
 								if (user) {
@@ -40,11 +40,13 @@ const useEditUserData = (): EditUserDataReturnType => {
 							})
 					}
 					else {
-						// 	checkUpdateChangesLeft(cachedData);
-						saveUser(cachedData);
-						setLoggedIn(true);
+						if (cachedData) {
+							// 	checkUpdateChangesLeft(cachedData);
+							saveUser(cachedData);
+							setLoggedIn(true);
+						}
 					}
-			});
+				});
 		}
 	};
 
@@ -61,7 +63,7 @@ const useEditUserData = (): EditUserDataReturnType => {
 
 	const deleteUserData = async (userId: string) => {
 		Alert.alert(
-			'Are you sure?', 
+			'Are you sure?',
 			'If you delete this account, you will not be able to recover it.',
 			[
 				{
@@ -80,7 +82,7 @@ const useEditUserData = (): EditUserDataReturnType => {
 		)
 	};
 
-	return { 
+	return {
 		loadUserFromCache,
 		saveUser,
 		updateUserData,
@@ -91,25 +93,25 @@ const useEditUserData = (): EditUserDataReturnType => {
 export default useEditUserData;
 
 // import { SubscriptionTypeEnum } from '@utils/CustomEnums';
-	// const checkUpdateChangesLeft = (user: User) => {
-	// 	const currentDate = new Date();
-	// 	// Refresh changesLeft value on the 1st of each month
-	// 	if (currentDate.getDate() === 1 && user.subscription.tier === SubscriptionTypeEnum.FREE) {
-	// 		if (user.subscription.changesLeft !== 1) {
-	// 			const updatedUser = {
-	// 				...user,
-	// 				subscription: {
-	// 					...user.subscription,
-	// 					changesLeft: 1
-	// 				}
-	// 			};
-	// 			updateUser({ ...updatedUser })
-	// 				.then(() => {
-	// 					saveUser(updatedUser);
-	// 				});
-	// 		}
-  //   }
-	// 	else {
-	// 		saveUser(user);
-	// 	}
-	// };
+// const checkUpdateChangesLeft = (user: User) => {
+// 	const currentDate = new Date();
+// 	// Refresh changesLeft value on the 1st of each month
+// 	if (currentDate.getDate() === 1 && user.subscription.tier === SubscriptionTypeEnum.FREE) {
+// 		if (user.subscription.changesLeft !== 1) {
+// 			const updatedUser = {
+// 				...user,
+// 				subscription: {
+// 					...user.subscription,
+// 					changesLeft: 1
+// 				}
+// 			};
+// 			updateUser({ ...updatedUser })
+// 				.then(() => {
+// 					saveUser(updatedUser);
+// 				});
+// 		}
+//   }
+// 	else {
+// 		saveUser(user);
+// 	}
+// };

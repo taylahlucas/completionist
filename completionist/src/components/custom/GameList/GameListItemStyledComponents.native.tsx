@@ -30,7 +30,6 @@ export const GameListImage = styled.Image`
   width: 148px;
   height: 148px;
   position: absolute;
-  opacity: 0.3;
 `;
 
 export const GameItemTitleContainer = styled.View<GameItemTitleContainerProps>`
@@ -48,7 +47,7 @@ export const GameItemTitle = styled(StyledText)`
 
 export const GameItemScore = styled(StyledText)`
   position: absolute;
-  right: 16px;
+  right: 8px;
   top: 8px;
 `;
 

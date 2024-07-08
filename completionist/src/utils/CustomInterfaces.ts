@@ -5,7 +5,7 @@ import { SettingsState } from '@components/custom/Settings/SettingsState';
 import { LoginState } from '@components/custom/LoginForm/LoginState';
 import { ContentState } from '@components/custom/ContentList/ContentState';
 import { SubscriptionState } from '@components/custom/SubscriptionContent/SubscriptionState';
-import { LanguageType, ScreenEnumType } from './CustomTypes';
+import { LanguageType } from './CustomTypes';
 
 export interface GameContentItem {
   id: string;
@@ -118,6 +118,7 @@ export type AuthStackParamList = {
 	GlobalAccountDetails: undefined;
 	GlobalAchievements: undefined;
 	GlobalSteamAchievements: undefined;
+	PurchaseGame: [gameId: GameKeyEnum];
 	DrawerStack: undefined;
 };
 
