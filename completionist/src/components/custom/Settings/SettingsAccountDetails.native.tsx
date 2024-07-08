@@ -1,28 +1,27 @@
 import React from 'react';
-import { View } from 'react-native';
 import { useTranslation } from 'react-i18next';
-import Condition from '@components/general/Condition.native';
 import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
 import useMainState from '@redux/hooks/useMainState';
 import StyledText from '@components/general/Text/StyledText.native';
 import Button from '@components/general/Button/Button.native';
-import { DrawerScreenEnum } from '@utils/CustomEnums';
-import { SettingsAvatarContainer, SettingsEmail } from './SettingsStyledComponents.native';
+import { AuthScreenEnum, DrawerScreenEnum } from '@utils/CustomEnums';
+import { SettingsEmail } from './SettingsStyledComponents.native';
 import useGetTheme from '@styles/hooks/useGetTheme';
 
 const SettingsAccountDetails = () => {
 	const navigation = useReactNavigation();
 	const theme = useGetTheme();
 	const { t } = useTranslation();
-	const { user } = useMainState();
+	const { user, selectedGame } = useMainState();
+	const isGlobalSettings = !selectedGame
 
 	return (
 		<>
-			<Condition condition={!!user.userAvatar}>
+			{/* <Condition condition={!!user.userAvatar}>
 				<SettingsAvatarContainer
 					source={{ uri: user.userAvatar }}
 				/>
-			</Condition>
+			</Condition> */}
 			<StyledText type='ListItemTitleBold'>
 				{user.username}
 			</StyledText>
@@ -33,7 +32,7 @@ const SettingsAccountDetails = () => {
 				type='navigation'
 				color={theme.primaryPurple}
 				title={t('common:settings.changeAccountDetails')}
-				onPress={(): void => navigation.navigate(DrawerScreenEnum.AccountDetails)}
+				onPress={(): void => navigation.navigate(isGlobalSettings ? AuthScreenEnum.GlobalAccountDetails : DrawerScreenEnum.AccountDetails)}
 			/>
 		</>
 	);

@@ -23,10 +23,11 @@ import Condition from '@components/general/Condition.native';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import Spacing from '@components/general/Spacing.native';
 import useEditUserData from '@data/hooks/useEditUserData.native';
+import { NavigationHeaderLeftActionTypes, NavigationHeaderRightActionTypes } from '@utils/CustomTypes';
 
 interface ActionsType {
 	left: NavigationHeaderLeftActionTypes;
-	right: NavigationHeaderLeftActionTypes
+	right: NavigationHeaderRightActionTypes
 }
 
 const Settings = () => {
