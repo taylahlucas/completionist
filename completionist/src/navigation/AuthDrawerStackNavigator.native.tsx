@@ -18,7 +18,7 @@ import Subscriptions from '@screens/Subscriptions.native';
 import NavigationDrawerBody from './NavigationDrawerBody.native';
 import { styles } from './NavigationStyledComponents.native';
 import Payments from '@screens/Payments.native';
-import AccountDetails from '@screens/AccountDetails.native';
+import AccountDetails from '@screens/AccountDetails/AccountDetails.native';
 import Settings from '@screens/Settings.native';
 import Achievements from '@screens/Achievements.native';
 

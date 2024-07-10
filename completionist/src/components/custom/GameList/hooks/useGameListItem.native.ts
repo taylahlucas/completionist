@@ -26,8 +26,8 @@ export const useGameListItem = () => {
 		{ id: game.id, price: '£3.99' }
 	));
 	
-	const getPriceForGame = (game: GameKeyEnum) => {
-		return gamePrices.find((gamePrice: GamePrice) => game === gamePrice.id).price;
+	const getPriceForGame = (game: GameKeyEnum): string => {
+		return gamePrices?.find((gamePrice: GamePrice) => game === gamePrice.id)?.price ?? '';
 	};
 		
 	const getGameImage = (game: GameKeyEnum): ImageURISource => {
@@ -46,7 +46,7 @@ export const useGameListItem = () => {
     }
   };
 
-	const handleGameSelection = (game: ActiveGameData) => {
+	const handleGameSelection = (game: ActiveGameData): void => {
 		if (game.isActive) {
 			setSelectedGame(game.id);
 			setSelectedGameSettings(game.id);

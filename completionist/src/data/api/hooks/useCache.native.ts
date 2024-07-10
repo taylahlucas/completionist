@@ -61,7 +61,7 @@ const useCache = (): CacheReturnType => {
 			await AsyncStorage.clear();
 			console.log('Cache cleared!');
 		} catch (e) {
-			console.error('Failed to clear the cache', e);
+			console.log('Failed to clear the cache', e);
 		}
   };
 
