@@ -16,7 +16,7 @@ import { DrawerScreenEnum, AuthScreenEnum } from '@utils/CustomEnums';
 import SettingsGameCollections from '@components/custom/Settings/SettingsGameCollections.native';
 import useMainState from '@redux/hooks/useMainState';
 import Button from '@components/general/Button/Button.native';
-import SteamProfileModal from './SteamProfileModal.native';
+import SteamProfileModal from './Achievements/SteamProfileModal.native';
 import useEndpoints from '@data/api/hooks/useEndpoints.native';
 import { SteamProfile } from '@utils/CustomInterfaces';
 import Condition from '@components/general/Condition.native';

@@ -19,10 +19,9 @@ import { DEFAULT_BORDER_RADIUS } from '@styles/global.native';
 import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
 import IconButton from '@components/general/Icon/IconButton.native';
 import { IconTypeEnum } from '@utils/CustomEnums';
-import useEditUserData from '@data/hooks/useEditUserData.native';
-import useMainState from '@redux/hooks/useMainState';
 import Condition from '@components/general/Condition.native';
 import { isSmallScreen } from '@styles/global.native';
+import useAchievements from './useAchievements';
 
 const { height } = Dimensions.get('window');
 
@@ -40,8 +39,7 @@ const SteamProfileModal = ({ profile, isVisible = false, viewType = 'view', onCl
 	const navigation = useReactNavigation();
 	const translateY = useRef(new Animated.Value(height)).current;
 	const theme = useGetTheme();
-	const { updateUserData } = useEditUserData();
-	const { user } = useMainState();
+	const { viewModel, actions } = useAchievements();
 
 	useEffect(() => {
 		if (isVisible) {
@@ -100,8 +98,8 @@ const SteamProfileModal = ({ profile, isVisible = false, viewType = 'view', onCl
 								style={styles.confirmButton}
 								title={'Confirm'}
 								onPress={(): void => {
-									updateUserData({
-										...user,
+									actions.updateUserData({
+										...viewModel.user,
 										steamId: profile.steamId
 									})
 									onClose();
@@ -120,8 +118,8 @@ const SteamProfileModal = ({ profile, isVisible = false, viewType = 'view', onCl
 												{
 													text: 'Unlink',
 													onPress: () => {
-														updateUserData({
-															...user,
+														actions.updateUserData({
+															...viewModel.user,
 															steamId: ''
 														});
 													}

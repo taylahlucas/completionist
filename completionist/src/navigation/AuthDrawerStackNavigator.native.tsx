@@ -13,14 +13,14 @@ import { NavigationDrawerContainer } from './NavigationStyledComponents.native';
 import StyledText from '@components/general/Text/StyledText.native';
 import { DrawerScreenEnum } from '@utils/CustomEnums';
 import SendRequest from '@screens/SendRequest.native';
-import SteamAchievements from '@screens/SteamAchievements.native';
+import SteamAchievements from '@screens/Achievements/SteamAchievements.native';
 import Subscriptions from '@screens/Subscriptions.native';
 import NavigationDrawerBody from './NavigationDrawerBody.native';
 import { styles } from './NavigationStyledComponents.native';
 import Payments from '@screens/Payments.native';
 import AccountDetails from '@screens/AccountDetails/AccountDetails.native';
 import Settings from '@screens/Settings.native';
-import Achievements from '@screens/Achievements.native';
+import Achievements from '@screens/Achievements/Achievements.native';
 
 const Drawer = createDrawerNavigator<DrawerStackParamList>();
 

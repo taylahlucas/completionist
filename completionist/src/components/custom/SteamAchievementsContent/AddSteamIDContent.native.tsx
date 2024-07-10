@@ -8,7 +8,7 @@ import Spacing from '@components/general/Spacing.native';
 import Button from '@components/general/Button/Button.native';
 import useEndpoints from '@data/api/hooks/useEndpoints.native';
 import ParagraphView from '@components/general/ParagraphView.native';
-import SteamProfileModal from '@screens/SteamProfileModal.native';
+import SteamProfileModal from '@screens/Achievements/SteamProfileModal.native';
 import { SteamProfile } from '@utils/CustomInterfaces';
 import useMainState from '@redux/hooks/useMainState';
 

@@ -6,8 +6,8 @@ import { AuthScreenEnum } from '@utils/CustomEnums';
 import Settings from '@screens/Settings.native';
 import AccountDetails from '@screens/AccountDetails/AccountDetails.native';
 import Landing from '@screens/Landing.native';
-import Achievements from '@screens/Achievements.native';
-import SteamAchievements from '@screens/SteamAchievements.native';
+import Achievements from '@screens/Achievements/Achievements.native';
+import SteamAchievements from '@screens/Achievements/SteamAchievements.native';
 import AuthDrawerStackNavigator from './AuthDrawerStackNavigator.native';
 import PurchaseGame from '@screens/PurchaseGame/PurchaseGame.native';
 
