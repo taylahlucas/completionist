@@ -5,10 +5,13 @@ import NavigationHeader from '@navigation/NavigationHeader.native';
 import { AuthScreenEnum } from '@utils/CustomEnums';
 import KeyboardAvoidingScrollView from '@components/general/Lists/KeyboardAvoidingScrollView.native';
 import Button from '@components/general/Button/Button.native';
+import GameListItem from '@components/custom/GameList/GameListItem.native';
 
 const PurchaseGame = (params: any) => {
 	const gameId = params.route?.params.gameId;
 	const test = 0;
+
+	// TODO: Add translations
 	return (
 		<StandardLayout>
 			<NavigationHeader
@@ -17,7 +20,14 @@ const PurchaseGame = (params: any) => {
 				leftAction='back'
 			/>
 			<KeyboardAvoidingScrollView awareView={<Button title='Continue' onPress={(): void => console.log("Pay")} />}>
-				{/* // TODO: Add image of game */}
+				<GameListItem 
+					game={{
+						id: gameId,
+						isActive: false
+					}}
+					enabled={true}
+					onPress={(): void => {}}
+				/>
 				<StyledText>{`Would you like to purchase data tracking for ${gameId}?\n\n`}</StyledText>
 				<StyledText>{`This game has the following data available to track:\n`}</StyledText>
 				<StyledText>{`Quests: ${test}?`}</StyledText>

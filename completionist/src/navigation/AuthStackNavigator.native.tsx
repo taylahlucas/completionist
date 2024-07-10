@@ -9,7 +9,7 @@ import Landing from '@screens/Landing.native';
 import Achievements from '@screens/Achievements.native';
 import SteamAchievements from '@screens/SteamAchievements.native';
 import AuthDrawerStackNavigator from './AuthDrawerStackNavigator.native';
-import PurchaseGame from '@screens/PurchaseGame.native';
+import PurchaseGame from '@screens/PurchaseGame/PurchaseGame.native';
 
 const Stack = createStackNavigator<AuthStackParamList>();
 

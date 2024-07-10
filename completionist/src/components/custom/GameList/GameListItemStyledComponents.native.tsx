@@ -11,6 +11,7 @@ export const styles = StyleSheet.create({
 
 interface GameListItemContainerProps {
   color: string;
+	isLargeWidth?: boolean;
 }
 
 interface GameItemTitleContainerProps {
@@ -18,7 +19,7 @@ interface GameItemTitleContainerProps {
 }
 
 export const GameListItemContainer = styled.Pressable<GameListItemContainerProps>`
-  width: 150px;
+  width: ${(props): string => props.isLargeWidth ? '400px' : '150px'};
   height: 150px;
   margin: 8px;
   border-radius: ${DEFAULT_BORDER_RADIUS}px;

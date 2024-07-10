@@ -21,9 +21,17 @@ const GameListItem = ({ game, enabledColor = 'grey', enabled, onPress }: GameLis
 			color={enabledColor}
 			onPress={onPress}
 		>
-			<GameListImage source={actions.getGameImage(game.id)} style={{ opacity: enabled ? 0.6 : 0.2 }} />
+			<GameListImage 
+				source={actions.getGameImage(game.id)} 
+				style={{ opacity: enabled ? 0.6 : 0.2 }} 
+			/>
 			<Condition condition={viewModel.currentScreen !== UnauthorizedScreenEnum.SelectFirstGame && !enabled}>
-				<GameItemScore type='ListItemTitleBold' color={viewModel.theme.lightestGrey}>{actions.getPriceForGame(game.id)}</GameItemScore>
+				<GameItemScore 
+					type='ListItemTitleBold' 
+					color={viewModel.theme.lightestGrey}
+				>
+					{actions.getPriceForGame(game.id)}
+				</GameItemScore>
 			</Condition>
 			<GameItemTitleContainer enabled={enabled}>
 				<GameItemTitle
