@@ -1,17 +1,17 @@
 import React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
 import Landing from '@screens/Landing.native';
-import SelectFirstGame from '@screens/SelectFirstGame.native';
-import AccountVerification from '@screens/AccountVerification.native';
-import SelectInitialPlan from '@screens/SelectInitialPlan.native';
+import SelectFirstGame from '@screens/SignupFlow/SelectFirstGame.native';
+import AccountVerification from '@screens/SignupFlow/AccountVerification/AccountVerification.native';
+import SelectInitialPlan from '@screens/SignupFlow/SelectInitialPlan.native';
 import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
 import { UnauthorizedStackParamList } from '@utils/CustomInterfaces';
-import LinkAccount from '@screens/LinkAccount.native';
+import LinkAccount from '@screens/SignupFlow/LinkAccount.native';
 import Payments from '@screens/Payments.native';
 import Login from '@screens/Login.native';
 import ForgotPassword from '@screens/ForgotPassword.native';
 import VerifyNewPassword from '@screens/VerifyNewPassword.native';
-import SetUsername from '@screens/SetUsername.native';
+import SetUsername from '@screens/SignupFlow/SetUsername.native';
 
 const Stack = createStackNavigator<UnauthorizedStackParamList>();
 

@@ -1,7 +1,7 @@
 import useEditUserData from '@data/hooks/useEditUserData.native';
 import { ActiveGameData, User } from '@utils/CustomInterfaces';
 
-const useActivateGameSubscription = () => {
+const useActivateGame = () => {
 	const { updateUserData } = useEditUserData();
 
 	// Free users
@@ -26,7 +26,7 @@ const useActivateGameSubscription = () => {
 	};
 	
 	// User set up and premium users
-	const activateGameSubscription = (user: User, selectedGame: ActiveGameData) => {
+	const activateGame = (user: User, selectedGame: ActiveGameData) => {
 		// TODO:
 		const activeGames: ActiveGameData[] = user.activeGames.map((game: ActiveGameData) => {
 			return (game.id === selectedGame?.id)
@@ -41,7 +41,7 @@ const useActivateGameSubscription = () => {
 		});
 	};
 
-	return { changeGameSubscription, activateGameSubscription };
+	return { changeGameSubscription, activateGame };
 };
 
-export default useActivateGameSubscription;
+export default useActivateGame;
