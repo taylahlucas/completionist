@@ -1,27 +1,26 @@
 import React from 'react';
 import { ScrollView } from 'react-native';
 import { useTranslation } from 'react-i18next';
-import StandardLayout from '../components/general/Layouts/StandardLayout.native';
+import StandardLayout from '../../components/general/Layouts/StandardLayout.native';
 import NavigationHeader from '@navigation/NavigationHeader.native';
-import useLoginState from '@components/custom/LoginForm/hooks/useLoginState';
 import { LoginContentContainer } from '@components/custom/LoginForm/LoginFormStyledComponents.native';
 import Condition from '@components/general/Condition.native';
 import StyledText from '@components/general/Text/StyledText.native';
 import LoginForm from '@components/custom/LoginForm/LoginForm.native';
 import LoginFormSignInButtons from '@components/custom/LoginForm/LoginFormSignInButtons.native';
 import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
+import useLogin from './hooks/useLogin';
 
 const Login = () => {
 	const { t } = useTranslation();
-	const { isSigningUp } = useLoginState()
-
-	// TODO: Fix keyboard view here (check with actual phone)
+	const { viewModel } = useLogin();
+	
 	return (
-		<StandardLayout>
+		<StandardLayout isLoading={viewModel.login.isLoading}>
 			<NavigationHeader id={UnauthorizedScreenEnum.Login} title={t('common:appTitle')} leftAction={'none'} />
-			<ScrollView>
+			<ScrollView contentContainerStyle={{ paddingBottom: viewModel.login.isKeyboardVisible ? 260 : 0 }}>
 				<LoginContentContainer>
-					<Condition condition={isSigningUp}>
+					<Condition condition={viewModel.login.isSigningUp}>
 						<StyledText style={{ position: 'absolute' }}>
 							{t('common:login.instructions1')}
 						</StyledText>

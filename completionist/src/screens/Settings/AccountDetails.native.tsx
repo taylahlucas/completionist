@@ -12,7 +12,7 @@ import KeyboardAvoidingScrollView from '@components/general/Lists/KeyboardAvoidi
 import { DrawerScreenEnum } from '@utils/CustomEnums';
 import ErrorMessage from '@components/general/Text/ErrorMessage.native';
 import StyledText from '@components/general/Text/StyledText.native';
-import useAccountDetails from './useAccountDetails';
+import useAccountDetails from './hooks/useAccountDetails';
 
 const AccountDetails = () => {
 	const { t } = useTranslation();

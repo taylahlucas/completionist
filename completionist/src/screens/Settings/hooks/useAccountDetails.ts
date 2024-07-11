@@ -6,8 +6,12 @@ import useEndpoints from '@data/api/hooks/useEndpoints.native';
 import useEditUserData from '@data/hooks/useEditUserData.native';
 import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
 import useMainState from '@redux/hooks/useMainState';
-import { DrawerScreenEnum } from '@utils/CustomEnums';
+import { DrawerScreenEnum, UnauthorizedScreenEnum } from '@utils/CustomEnums';
 import useValidator from '@utils/hooks/useValidator';
+import useLoginState from '@components/custom/LoginForm/hooks/useLoginState';
+import useLoginDispatch from '@components/custom/LoginForm/hooks/useLoginDispatch';
+import { LoginFormData } from '@utils/CustomInterfaces';
+import { initialFormData } from '@components/custom/LoginForm/LoginState';
 
 export interface ChangeAccountDetailsItem {
 	value: string;
@@ -27,7 +31,9 @@ interface AccountDetailsViewModel {
 		email: string;
 		pw: string | undefined;
 	},
-	userInfo: ChangeAccountDetails,
+	userInfo: ChangeAccountDetails;
+	verificationToken: string | undefined;
+	loginFormData: LoginFormData;
 	isNameValid: boolean;
 	isEmailValid: boolean;
 	isPwValid: boolean;
@@ -40,6 +46,7 @@ interface AccountDetailsReturnType {
 	actions: {
 		onSubmit: () => void;
 		setUserInfo: (userInfo: ChangeAccountDetails) => void;
+		forgotPassword: () => void;
 	}
 }
 
@@ -57,9 +64,12 @@ const useAccountDetails = (): AccountDetailsReturnType => {
 	const [userInfo, setUserInfo] = useState<ChangeAccountDetails>(initialState);
 	const { saveUser } = useEditUserData();
 	const { updateUser, changePw } = useEndpoints();
-	const { checkUserExists } = useAuthEndpoints();
+	const { checkUserExists, forgotPw } = useAuthEndpoints();
 	const [showChangePw, setShowChangePw] = useState<boolean>(false);
 	const [submitPressed, setSubmitPressed] = useState<boolean>(false);
+	// TODO: Replace this with local state?
+	const { loginFormData, verificationToken } = useLoginState();
+	const { setLoginFormData } = useLoginDispatch();
 
 	useEffect(() => {
 		checkUserExists(user.email)
@@ -95,6 +105,8 @@ const useAccountDetails = (): AccountDetailsReturnType => {
 
 	const onSubmit = (): void => {
 		setSubmitPressed(true);
+		// TODO: I don't think this would handle if I change multiple values at the same time?
+		// TODO: Want to do verification check for changed email
 		if (userInfo.email.changed && isEmailValid(userInfo.email.value)) {
 			checkUserExists(userInfo.email.value)
 				.then((accounts) => {
@@ -158,6 +170,30 @@ const useAccountDetails = (): AccountDetailsReturnType => {
 		}
 	};
 
+	const forgotPassword = () => {
+		if (loginFormData.pw) {
+			forgotPw({
+				email: loginFormData.email,
+				newPw: loginFormData.pw
+			})
+				.then(() => {
+					Alert.alert(
+						t('common:auth.updatePwSuccess'),
+						'',
+						[
+							{
+								text: t('common:alerts.ok'),
+								onPress: () => {
+									setLoginFormData(initialFormData);
+									navigation.navigate(UnauthorizedScreenEnum.Login);
+								}
+							},
+						]
+					);
+				})
+		}
+	};
+
 	return {
 		viewModel: {
 			user: {
@@ -166,6 +202,10 @@ const useAccountDetails = (): AccountDetailsReturnType => {
 				pw: user.pw,
 			},
 			userInfo,
+			// TODO: Replace with local state?
+			verificationToken,
+			loginFormData,
+
 			isNameValid: !isNameValid(userInfo.username.value) && userInfo.username.changed && submitPressed,
 			isEmailValid: !isEmailValid(userInfo.email.value) && userInfo.email.changed && submitPressed,
 			isPwValid: !isPwValid(userInfo.newPw.value) && userInfo.newPw.changed && submitPressed,
@@ -181,6 +221,7 @@ const useAccountDetails = (): AccountDetailsReturnType => {
 		actions: {
 			onSubmit,
 			setUserInfo,
+			forgotPassword
 		}
 	}
 };
