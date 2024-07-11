@@ -5,7 +5,7 @@ import { SettingsState } from '@components/custom/Settings/SettingsState';
 import { LoginState } from '@components/custom/LoginForm/LoginState';
 import { ContentState } from '@components/custom/ContentList/ContentState';
 import { SubscriptionState } from '@components/custom/SubscriptionContent/SubscriptionState';
-import { LanguageType } from './CustomTypes';
+import { LanguageType, ScreenEnumType } from './CustomTypes';
 
 export interface GameContentItem {
   id: string;
@@ -135,7 +135,7 @@ export type DrawerStackParamList = {
 }
 
 export interface NativeNavigation {
-  navigate: (page: ScreenEnum, params?: any) => void;
+  navigate: (page: ScreenEnumType, params?: any) => void;
   dispatch: (action: NavigationAction | ((state: NavigationState) => NavigationAction)) => void;
   goBack: () => void;
   setOptions: (options: any) => void;

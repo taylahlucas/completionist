@@ -4,7 +4,6 @@ import Dropdown from '@components/general/Dropdown/Dropdown.native';
 import DropdownSelection from '@components/general/Dropdown/DropdownSelection.native';
 import DropdownSelectionContent from '@components/general/Dropdown/DropdownSelectionContent.native';
 import useMainState from '@redux/hooks/useMainState';
-import { games } from '@utils/constants';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
 import useTranslateGameContent from '@utils/hooks/useTranslateGameContent.native';
 import { GameKeyEnum } from '@utils/CustomEnums';
