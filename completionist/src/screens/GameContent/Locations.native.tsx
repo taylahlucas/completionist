@@ -12,24 +12,23 @@ import useContentState from '@components/custom/ContentList/hooks/useContentStat
 import ContentList from '@components/custom/ContentList/ContentList.native';
 import { ContentSectionEnum } from '@utils/CustomEnums';
 import { DrawerScreenEnum } from '@utils/CustomEnums';
+import useGameContent from './hooks/useGameContent';
 
 const Locations = () => {
   const { t } = useTranslation();
-  const { selectedGame } = useMainState();
-  const { setSearchValue } = useContentDispatch();
-  const { searchValue } = useContentState();
-  const { getUserLocations } = useGetUserGameData();
-  const { mapDataTo } = useGetGameData();
+	const { viewModel, actions } = useGameContent();
 
   return (
     <StandardLayout>
       <NavigationHeader id={DrawerScreenEnum.Locations} title={t('common:screens.locations')} />
       <CustomSearchBar 
-        searchValue={searchValue} 
-        setSearchValue={setSearchValue}
-        onReset={(): void => setSearchValue('')} 
+        searchValue={viewModel.searchValue} 
+        setSearchValue={actions.setSearchValue}
+        onReset={(): void => actions.setSearchValue('')} 
       />
-      <CompletedQuantityTitle type={'ListItemSubTitleBold'}>{`${getUserLocations().length}/${mapDataTo(ContentSectionEnum.LOCATIONS, selectedGame, true).length}`}</CompletedQuantityTitle>
+      <CompletedQuantityTitle type={'ListItemSubTitleBold'}>
+				{`${viewModel.locations.completed}/${viewModel.locations.total}`}
+				</CompletedQuantityTitle>
       <ContentList />
     </StandardLayout>
   );

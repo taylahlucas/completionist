@@ -13,7 +13,7 @@ import KeyboardAvoidingScrollView from '@components/general/Lists/KeyboardAvoidi
 import Condition from '@components/general/Condition.native';
 import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
 import ParagraphView from '@components/general/ParagraphView.native';
-import useSignupFlow from './useSignupFlow';
+import useSignupFlow from './hooks/useSignupFlow';
 
 const SelectFirstGame = () => {
 	const theme = useGetTheme();

@@ -4,33 +4,24 @@ import StandardLayout from '@components/general/Layouts/StandardLayout.native';
 import NavigationHeader from '@navigation/NavigationHeader.native';
 import CustomSearchBar from '@components/general/CustomSearchBar/CustomSearchBar.native';
 import { CompletedQuantityTitle } from '@components/general/Text/StyledTextStyledComponents.native';
-import useGetGameData from '@data/hooks/useGetGameData';
-import useGetUserGameData from '@data/hooks/useGetUserGameData';
-import useMainState from '@redux/hooks/useMainState';
 import ContentList from '@components/custom/ContentList/ContentList.native';
-import useContentState from '@components/custom/ContentList/hooks/useContentState';
-import useContentDispatch from '@components/custom/ContentList/hooks/useContentDispatch';
-import { ContentSectionEnum } from '@utils/CustomEnums';
 import { DrawerScreenEnum } from '@utils/CustomEnums';
+import useGameContent from './hooks/useGameContent';
 
 const Quests = () => {
   const { t } = useTranslation();
-  const { selectedGame } = useMainState();
-  const { setSearchValue } = useContentDispatch();
-  const { searchValue } = useContentState();
-  const { getUserQuests } = useGetUserGameData();
-  const { mapDataTo } = useGetGameData();
+	const { viewModel, actions } = useGameContent();
 
   return (
     <StandardLayout>
       <NavigationHeader id={DrawerScreenEnum.Quests} title={t('common:screens.quests')} />
       <CustomSearchBar 
-        searchValue={searchValue} 
-        setSearchValue={setSearchValue}
-        onReset={(): void => setSearchValue('')} 
+        searchValue={viewModel.searchValue} 
+        setSearchValue={actions.setSearchValue}
+        onReset={(): void => actions.setSearchValue('')} 
       />
       <CompletedQuantityTitle type={'ListItemSubTitleBold'}>
-        {`${getUserQuests().length}/${mapDataTo(ContentSectionEnum.QUESTS, selectedGame, true).length}`}
+        {`${viewModel.quests.completed}/${viewModel.quests.total}`}
       </CompletedQuantityTitle>
       <ContentList />
     </StandardLayout>

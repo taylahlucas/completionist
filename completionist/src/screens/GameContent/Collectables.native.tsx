@@ -4,33 +4,24 @@ import StandardLayout from '@components/general/Layouts/StandardLayout.native';
 import NavigationHeader from '@navigation/NavigationHeader.native';
 import CustomSearchBar from '@components/general/CustomSearchBar/CustomSearchBar.native';
 import { CompletedQuantityTitle } from '@components/general/Text/StyledTextStyledComponents.native';
-import useGetGameData from '@data/hooks/useGetGameData';
-import useGetUserGameData from '@data/hooks/useGetUserGameData';
-import useMainState from '@redux/hooks/useMainState';
-import useContentDispatch from '@components/custom/ContentList/hooks/useContentDispatch';
-import useContentState from '@components/custom/ContentList/hooks/useContentState';
 import ContentList from '@components/custom/ContentList/ContentList.native';
-import { ContentSectionEnum } from '@utils/CustomEnums';
 import { DrawerScreenEnum } from '@utils/CustomEnums';
+import useGameContent from './hooks/useGameContent';
 
 const Collectables = () => {
   const { t } = useTranslation();
-  const { selectedGame } = useMainState();
-  const { setSearchValue } = useContentDispatch();
-  const { searchValue } = useContentState();
-  const { getUserCollectables } = useGetUserGameData();
-  const { mapDataTo } = useGetGameData();
+	const { viewModel, actions } = useGameContent();
 
   return (
     <StandardLayout>
       <NavigationHeader id={DrawerScreenEnum.Collectables} title={t('common:screens.collectables')} />
       <CustomSearchBar 
-        searchValue={searchValue} 
-        setSearchValue={setSearchValue}
-        onReset={(): void => setSearchValue('')} 
+        searchValue={viewModel.searchValue} 
+        setSearchValue={actions.setSearchValue}
+        onReset={(): void => actions.setSearchValue('')} 
       />
       <CompletedQuantityTitle type={'ListItemSubTitleBold'}>
-        {`${getUserCollectables().length}/${mapDataTo(ContentSectionEnum.COLLECTABLES, selectedGame, true).length}`}
+        {`${viewModel.collectables.completed}/${viewModel.collectables.total}`}
       </CompletedQuantityTitle>
       <ContentList />
     </StandardLayout>

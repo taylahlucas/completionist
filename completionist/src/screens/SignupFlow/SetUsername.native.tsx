@@ -7,7 +7,7 @@ import TextInput from '@components/general/TextInput/TextInput.native';
 import KeyboardAvoidingScrollView from '@components/general/Lists/KeyboardAvoidingScrollView.native';
 import Button from '@components/general/Button/Button.native';
 import StyledText from '@components/general/Text/StyledText.native';
-import useSignupFlow from './useSignupFlow';
+import useSignupFlow from './hooks/useSignupFlow';
 
 const SetUsername = () => {
 	const { t } = useTranslation();

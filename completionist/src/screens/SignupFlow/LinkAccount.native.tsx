@@ -5,7 +5,7 @@ import NavigationHeader from '@navigation/NavigationHeader.native';
 import { UserResponse } from '@utils/CustomTypes';
 import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
 import VerificationContent from '@components/custom/Verification/VerificationContent.native';
-import useSignupFlow from './useSignupFlow';
+import useSignupFlow from './hooks/useSignupFlow';
 
 
 const LinkAccount = () => {
