@@ -3,8 +3,21 @@ import { GameContentItem, SettingsConfigItem } from '@utils/CustomInterfaces';
 import useMainState from '@redux/hooks/useMainState';
 import useGetTranslatedGameData from './useGetTranslatedGameData.native';
 
+interface GameSectionData {
+	section: string;
+	data: GameContentItem[];
+}
+
+interface GameDataReturnType {
+	quests: GameSectionData;
+	collectables: GameSectionData;
+	locations: GameSectionData;
+	miscellaneous: GameSectionData;
+}
+
 interface GameDataReturnType {
 	mapDataTo: (type: ContentSectionEnum, selectedGame?: GameKeyEnum, filter?: boolean) => GameContentItem[];
+	getAllData: (gameId?: GameKeyEnum) => GameDataReturnType;
 }
 
 const useGetGameData = (): GameDataReturnType => {
@@ -114,8 +127,35 @@ const useGetGameData = (): GameDataReturnType => {
 		}
 	};
 
+	const getAllData = (gameId?: GameKeyEnum): GameDataReturnType => {
+		const questsSection = ContentSectionEnum.QUESTS;
+		const collectablesSection = ContentSectionEnum.COLLECTABLES;
+		const locationsSection = ContentSectionEnum.LOCATIONS;
+		const miscSection = ContentSectionEnum.MISCELLANEOUS;
+
+		return {
+			quests: {
+				section: questsSection,
+				data: mapDataTo(questsSection, gameId, true)
+			},
+			collectables: {
+				section: collectablesSection,
+				data: mapDataTo(collectablesSection, gameId, true)
+			},
+			locations: {
+				section: locationsSection,
+				data: mapDataTo(locationsSection, gameId, true)
+			},
+			miscellaneous: {
+				section: miscSection,
+				data: mapDataTo(miscSection, gameId, true)
+			}
+		}
+	}
+
 	return {
-		mapDataTo
+		mapDataTo,
+		getAllData
 	}
 };
 

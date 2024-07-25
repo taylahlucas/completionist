@@ -4,6 +4,7 @@ import { ActiveGameData } from '@utils/CustomInterfaces';
 import { useGameListItem } from './hooks/useGameListItem.native';
 import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
 import Condition from '@components/general/Condition.native';
+import { DEFAULT_BORDER_RADIUS } from '@styles/global.native';
 
 interface GameListItemProps {
 	game: ActiveGameData;
@@ -23,7 +24,7 @@ const GameListItem = ({ game, enabledColor = 'grey', enabled, onPress }: GameLis
 		>
 			<GameListImage 
 				source={actions.getGameImage(game.id)} 
-				style={{ opacity: enabled ? 0.6 : 0.2 }} 
+				style={{ opacity: enabled ? 0.6 : 0.2, borderRadius: DEFAULT_BORDER_RADIUS }} 
 			/>
 			<Condition condition={viewModel.currentScreen !== UnauthorizedScreenEnum.SelectFirstGame && !enabled}>
 				<GameItemScore 

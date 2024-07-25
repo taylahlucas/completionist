@@ -29,11 +29,11 @@ interface SettingsItemDropdownProps {
 const SettingsItemDropdown = ({ item, triggerListOpen }: SettingsItemDropdownProps) => {
 	const { t } = useTranslation();
 	const theme = useGetTheme();
-	const { selectedGameSettings, user } = useMainState();
+	const { selectedGameSettings, user, selectedGameData } = useMainState();
 	const { saveUser } = useEditUserData();
 	const { setSelectedCategory } = useSettingsDispatch();
 	const { selectedCategory } = useSettingsState();
-	const { getUserSettingsSubConfig, getUserSettingsDLC } = useGetUserGameData();
+	const { getUserSettingsSubConfig, getUserSettingsDLC } = useGetUserGameData(selectedGameData);
 	const { translateCategoryName, translateDLCName } = useTranslateGameContent();
 	const updateGameSettings = useUpdateGameSettings();
 	const isOpen = item.id === selectedCategory.category;

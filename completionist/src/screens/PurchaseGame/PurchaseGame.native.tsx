@@ -6,10 +6,12 @@ import { AuthScreenEnum } from '@utils/CustomEnums';
 import KeyboardAvoidingScrollView from '@components/general/Lists/KeyboardAvoidingScrollView.native';
 import Button from '@components/general/Button/Button.native';
 import GameListItem from '@components/custom/GameList/GameListItem.native';
+import usePurchaseGame from './hooks/usePurchaseGame';
+import Spacing from '@components/general/Spacing.native';
 
 const PurchaseGame = (params: any) => {
 	const gameId = params.route?.params.gameId;
-	const test = 0;
+	const { viewModel, actions } = usePurchaseGame(gameId);
 
 	// TODO: Add translations
 	return (
@@ -28,12 +30,13 @@ const PurchaseGame = (params: any) => {
 					enabled={true}
 					onPress={(): void => {}}
 				/>
-				<StyledText>{`Would you like to purchase data tracking for ${gameId}?\n\n`}</StyledText>
+				<Spacing />
+				<StyledText>{`Would you like to purchase data tracking for ${actions.translateGameName(gameId)}?\n`}</StyledText>
 				<StyledText>{`This game has the following data available to track:\n`}</StyledText>
-				<StyledText>{`Quests: ${test}?`}</StyledText>
-				<StyledText>{`Collectables: ${test}?`}</StyledText>
-				<StyledText>{`Locations: ${test}?`}</StyledText>
-				<StyledText>{`Miscellaneous Items: ${test}?`}</StyledText>
+				<StyledText align='left'>{`Quests: ${viewModel.questsLength}`}</StyledText>
+				<StyledText>{`Collectables: ${viewModel.collectablesLength}`}</StyledText>
+				<StyledText>{`Locations: ${viewModel.locationsLength}`}</StyledText>
+				<StyledText>{`Miscellaneous Items: ${viewModel.miscLength}`}</StyledText>
 			</KeyboardAvoidingScrollView>
 		</StandardLayout>
 	);

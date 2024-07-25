@@ -11,8 +11,8 @@ interface GetUserGameDataReturnType {
   getUserSettingsDLC: (section: string) => SettingsListItem[];
 }
 
-const useGetUserGameData = (): GetUserGameDataReturnType => {
-  const { user, selectedGameData, selectedGameSettings } = useMainState();
+const useGetUserGameData = (selectedGameData: GeneralData): GetUserGameDataReturnType => {
+  const { user, selectedGameSettings } = useMainState();
 
   const getUserQuests = (): Item[] => {
     return !!selectedGameData

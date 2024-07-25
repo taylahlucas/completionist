@@ -10,8 +10,8 @@ import useMainState from '@redux/hooks/useMainState';
 
 const SettingsGameCollections = () => {
 	const { t } = useTranslation();
-	const { user } = useMainState();
-	const { getUserSettingsMainConfig } = useGetUserGameData();
+	const { user, selectedGameData } = useMainState();
+	const { getUserSettingsMainConfig } = useGetUserGameData(selectedGameData);
 	const config = getUserSettingsMainConfig();
 	const minHeight = config.length > 3 ? 200 : 150;
 	const height = new Animated.Value(minHeight);

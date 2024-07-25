@@ -6,10 +6,10 @@ import useContentDispatch from '@components/custom/ContentList/hooks/useContentD
 import { ContentSectionEnum } from '@utils/CustomEnums';
 
 const useGameContent = () => {
-	const { selectedGame } = useMainState();
+	const { selectedGame, selectedGameData } = useMainState();
   const { setSearchValue } = useContentDispatch();
   const { searchValue } = useContentState();
-  const { getUserQuests, getUserCollectables, getUserLocations, getUserMiscItems } = useGetUserGameData();
+  const { getUserQuests, getUserCollectables, getUserLocations, getUserMiscItems } = useGetUserGameData(selectedGameData);
   const { mapDataTo } = useGetGameData();
 
 	return {
