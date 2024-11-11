@@ -12,6 +12,7 @@ import useSendVerificationEmail from '@components/custom/LoginForm/hooks/useSend
 import useLoginDispatch from './useLoginDispatch';
 import useEndpoints from '@data/api/hooks/useEndpoints.native';
 import useRemoveUserData from '@data/hooks/useRemoveUserData.native';
+import useContentDispatch from '@components/custom/ContentList/hooks/useContentDispatch';
 
 interface GoogleSignInError {
 	code: number;
@@ -32,6 +33,7 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 	const { removeUserData } = useRemoveUserData();
 	const { checkUserExists, linkAndSignIn, signIn, signUp } = useAuthEndpoints();
 	const { updateUser } = useEndpoints();
+	const { setSelectedCategory } = useContentDispatch();
 	const sendVerification = useSendVerificationEmail();
 
 	const userSignIn = async ({ email, pw, googleId }: SignInProps) => {
@@ -174,6 +176,7 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 			else {
 				removeUserData();
 			}
+			setSelectedCategory('');
 			await GoogleSignin.revokeAccess();
 			await GoogleSignin.signOut();
 		} catch (error) {
