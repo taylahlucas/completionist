@@ -10,7 +10,6 @@ import useMainState from '@redux/hooks/useMainState';
 
 const SettingsGameCollections = () => {
 	const { t } = useTranslation();
-	const { user } = useMainState();
 	const { getUserSettingsMainConfig } = useGetUserGameData();
 	const config = getUserSettingsMainConfig();
 	const minHeight = config.length > 3 ? 200 : 150;
@@ -24,7 +23,7 @@ const SettingsGameCollections = () => {
 			useNativeDriver: false,
 		}).start();
 	};
-
+	
 	return (
 		<>
 			<SettingsDescription align='left'>

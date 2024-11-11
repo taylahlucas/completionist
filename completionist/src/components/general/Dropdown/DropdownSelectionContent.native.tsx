@@ -1,6 +1,7 @@
 import React from 'react';
 import useGetTheme from '@styles/hooks/useGetTheme';
-import { DropdownSelectionItemTitle, DropdownSelectionContentContainer, DropdownSelectionContentItem } from './DropdownStyledComponents.native';
+import { DropdownSelectionItemTitle, DropdownSelectionContentItem } from './DropdownStyledComponents.native';
+import ScrollableList from '@components/general/Lists/ScrollableList.native';
 
 interface DropdownSelectionProps {
 	id: string;
@@ -16,9 +17,10 @@ const DropdownSelectionContent = ({ content, onPress }: DropdownSelectionContent
 	const theme = useGetTheme();
 
 	return (
-		<DropdownSelectionContentContainer
+		<ScrollableList
 			bounces={false}
 			alignItems={true}
+			style={{ maxHeight: content.length * 45 }}
 		>
 			{content.map((item, index) => (
 				<DropdownSelectionContentItem
@@ -30,7 +32,7 @@ const DropdownSelectionContent = ({ content, onPress }: DropdownSelectionContent
 					<DropdownSelectionItemTitle type='ListItemSubTitleBold' align='left'>{item.title}</DropdownSelectionItemTitle>
 				</DropdownSelectionContentItem>
 			))}
-		</DropdownSelectionContentContainer>
+		</ScrollableList>
 	);
 };
 

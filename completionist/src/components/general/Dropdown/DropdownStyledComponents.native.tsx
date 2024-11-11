@@ -33,10 +33,6 @@ export const DropdownSelectionItemTitle = styled(StyledText)`
   left: 24px;
 `;
 
-export const DropdownSelectionContentContainer = styled(ScrollableList)`
-	max-height: 180px;
-`;
-
 interface DropdownSelectionContentItemProps {
 	color: string;
 	last?: boolean;
