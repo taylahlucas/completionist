@@ -23,7 +23,7 @@ const useGetRightNavigationItem = (rightAction: NavigationHeaderRightActionTypes
           name='settings-outline'
 					type={IconTypeEnum.Ionicons}
           color={theme.lightGrey}
-          size={38}
+          size={34}
           onPress={(): void => navigation.navigate(AuthScreenEnum.GlobalSettings)}
         />
       );
@@ -46,7 +46,7 @@ const useGetRightNavigationItem = (rightAction: NavigationHeaderRightActionTypes
           style={styles.iconButton}
           name='logout'
           color={theme.lightGrey}
-          size={34}
+          size={30}
           onPress={signOut}
         />
       );

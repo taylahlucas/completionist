@@ -96,7 +96,7 @@ const useGetLeftNavigationItem = (
           name='progress-star'
           type={IconTypeEnum.MaterialCommunityIcons}
           color={theme.lightPurple}
-          size={44}
+          size={40}
           onPress={(): void => {
 						dismissKeyboard();
 						navigation.navigate(AuthScreenEnum.GlobalAchievements);
