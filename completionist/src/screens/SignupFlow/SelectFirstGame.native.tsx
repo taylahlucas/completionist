@@ -42,6 +42,7 @@ const SelectFirstGame = () => {
 
 	return (
 		<StandardLayout isLoading={viewModel.isLoading}>
+			{/* // TODO: Show back button based on isRegularFlow or isGoogleFlow */}
 			<NavigationHeader id={UnauthorizedScreenEnum.SelectFirstGame} title={t('common:screens.selectGame')} leftAction='back' />
 			<CustomSearchBar
 				searchValue={viewModel.searchValue}

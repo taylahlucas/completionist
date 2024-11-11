@@ -76,8 +76,9 @@ const signup = async (req, res) => {
 		console.log("Signup User Validation Error: ", err)
 		return res.status(response_code.FAILURE).json(err.message);
 	}
+	console.log("validatedUser: ", validatedUser, " params: ", params)
 	params = {
-		...params,
+		TableName: process.env.AWS_TABLE_NAME,
 		Item: validatedUser,
 		ConditionExpression: "attribute_not_exists(userId)",
 	};
