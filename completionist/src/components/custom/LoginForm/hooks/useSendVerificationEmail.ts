@@ -28,7 +28,6 @@ const useSendVerificationEmail = () => {
 		setVerificationToken(uniqueCode);
 
 		sendVerificationEmail({
-			// TODO: Swap for completionist email
 			emailTo: email,
 			subject: t('common:screens.verifyAccount'),
 			text: t(

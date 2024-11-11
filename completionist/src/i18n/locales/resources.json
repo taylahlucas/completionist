@@ -2695,7 +2695,7 @@
         "createAccount": "Create Account",
         "requestAccount": "Don't have an account?",
         "backToLogin": "Back to Login",
-        "linkAccountDesc": "Enter this code to link your accounts"
+        "linkAccountDesc": "Enter this code to link your accounts {{code}}"
       },
       "screens": {
         "quests": "Quests",
@@ -2718,7 +2718,7 @@
       "login": {
         "instructions1": "Password must contain at least:",
         "instructions2": "\n• 8 characters \n• 1 uppercase letter\n• 1 lowercase letter\n• 1 numerical value",
-        "accountVerification": "Check your emails and enter the verification code",
+        "accountVerification": "Check your emails and enter the verification code. \nPlease check your spam folder.",
         "resendToken": "RESEND VERIFICATION TOKEN",
         "tokenResent": "Verification Token Resent."
       },

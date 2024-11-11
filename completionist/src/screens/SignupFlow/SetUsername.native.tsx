@@ -8,6 +8,7 @@ import KeyboardAvoidingScrollView from '@components/general/Lists/KeyboardAvoidi
 import Button from '@components/general/Button/Button.native';
 import StyledText from '@components/general/Text/StyledText.native';
 import useSignupFlow from './hooks/useSignupFlow';
+import Spacing from '@components/general/Spacing.native';
 
 const SetUsername = () => {
 	const { t } = useTranslation();
@@ -39,6 +40,7 @@ const SetUsername = () => {
 			<NavigationHeader id={UnauthorizedScreenEnum.SetUsername} title={'Set Username'} leftAction='none' />
 			<KeyboardAvoidingScrollView awareView={renderAwareView()}>
 				<StyledText>This username will be publicly linked to your profile.</StyledText>
+				<Spacing />
 				<TextInput
 					testID='username'
 					placeholder={t('common:auth.username')}

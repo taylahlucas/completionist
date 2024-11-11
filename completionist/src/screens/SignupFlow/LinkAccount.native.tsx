@@ -28,6 +28,7 @@ const LinkAccount = () => {
 							actions.setLoggedIn(true)
 							actions.setVerificationToken(undefined);
 						}
+						// TODO: Log user not found -- issue with linkAndSignIn
 					})
 				}
 			/>

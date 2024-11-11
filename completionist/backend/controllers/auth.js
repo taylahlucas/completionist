@@ -83,7 +83,7 @@ const signup = async (req, res) => {
 	};
 
 	try {
-		await dynamoDB.send(new PutCommand(params))
+		await dynamoDbDocClient.send(new PutCommand(params))
 		const token = createSignedToken();
 		const refreshToken = createRefreshToken()
 		cache.set(process.env.REFRESH_TOKEN_CACHE_KEY, refreshToken, ttlInSeconds);
@@ -156,16 +156,26 @@ const linkAndSignIn = async (req, res) => {
 	if (!existingUser) {
 		return res.status(response_code.NO_USER_FOUND).json({ error: response_message.NO_USER_FOUND });
 	}
-
+	let conditionExpression = ''
+	let expressionAttributeValues = {};
 	// If user does not have googleId, update googleId
 	let hashedGoogleId;
 	if (!existingUser.googleId && googleId) {
-		hashedGoogleId = await hashPw(googleId)
+		hashedGoogleId = await hashPw(googleId);
+		conditionExpression =  "attribute_exists(googleId) OR attribute_not_exists(googleId)";
+		expressionAttributeValues = {
+			":googleId": hashedGoogleId
+		};
 	}
-	// TODO: If user does not have password, update password
+	// If user does not have password, update password
 	let hashedPw;
 	if (!existingUser.pw && pw) {
-		hashedPw = await hashPw(pw)
+		hashedPw = await hashPw(pw);
+		conditionExpression =  "attribute_exists(pw) OR attribute_not_exists(pw)";
+		expressionAttributeValues = {
+			...expressionAttributeValues,
+			":pw": hashedPw
+		};
 	}
 
 	params = {
@@ -174,15 +184,12 @@ const linkAndSignIn = async (req, res) => {
 			userId: existingUser.userId
 		},
 		UpdateExpression: pw ? "set pw = :pw" : "set googleId = :googleId",
-		ExpressionAttributeValues: pw ? {
-			":pw": hashedPw
-		} : {
-			":googleId": hashedGoogleId
-		}
+		ConditionExpression: conditionExpression,
+		ExpressionAttributeValues: expressionAttributeValues
 	};
 
 	try {
-		await dynamoDB.send(new UpdateCommand(params));
+		await dynamoDbDocClient.send(new UpdateCommand(params));
 		const token = createSignedToken();
 		const refreshToken = createRefreshToken();
 		cache.set(process.env.REFRESH_TOKEN_CACHE_KEY, refreshToken, ttlInSeconds);
@@ -228,7 +235,7 @@ const forgotPw = async (req, res) => {
 			}
 		}
 
-		await dynamoDB.send(new UpdateCommand(params));
+		await dynamoDbDocClient.send(new UpdateCommand(params));
 		console.log(`Password for user with ID ${userId} updated successfully`);
 		return res.status(response_code.SUCCESS).json({ ok: true });
 	}

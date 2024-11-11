@@ -58,6 +58,7 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 					}).then((userResponse) => {
 						if (!!userResponse) {
 							saveUser(userResponse);
+							setLoggedIn(true);
 						}
 					})
 				},
@@ -122,12 +123,11 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 				.then((response): void => {
 					const { uid, email } = response?.user || {};
 					if (email && idToken && uid) {
-						console.log("UID: ", uid);
 						checkUserExists(email)
 							.then((accounts) => {
 								// If google account not linked
 								if (accounts.regular && !accounts.google) {
-									linkGoogleAccount({ email: email, googleId: idToken });
+									linkGoogleAccount({ email: email, googleId: uid });
 								}
 								else if (accounts.google) {
 									userSignIn({

@@ -28,7 +28,7 @@ const LoginFormSignInButtons = () => {
 		: false
 	);
 	
-	// TODO: get this to move with screen
+	// TODO: get this to move with screen, add to translations
 	return (
 		<View style={{ alignItems: 'center' }}>
 			<LoginButton
