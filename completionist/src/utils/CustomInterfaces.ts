@@ -81,7 +81,6 @@ export interface StoreState {
 }
 
 export interface EnvironmentConfig {
-  APP_ID: string;
   ACCESS_TOKEN: string;
   WEB_CLIENT_ID: string;
   IOS_LOCAL_URL: string;

@@ -1,11 +1,9 @@
-const { DynamoDBClient } = require('@aws-sdk/client-dynamodb');
-const { DynamoDBDocumentClient, QueryCommand, UpdateCommand, DeleteCommand } = require('@aws-sdk/lib-dynamodb');
+const { dynamoDbDocClient } = require('../client');
+const { QueryCommand, UpdateCommand, DeleteCommand } = require('@aws-sdk/lib-dynamodb');
 const { response_code, response_message } = require('../helpers/response_code');
 const authWrapper = require('../helpers/auth_wrapper');
 const hashPw = require('../helpers/hash_password');
 const comparePws = require('../helpers/compare_passwords');
-const client = new DynamoDBClient({ region: process.env.REGION });
-const dynamoDB = DynamoDBDocumentClient.from(client);
 
 var params = {
 	TableName: process.env.AWS_TABLE_NAME
@@ -21,7 +19,7 @@ const getUserByUserId = authWrapper({
 				':userId': userId,
 			},
 		}
-		const response = await dynamoDB.send(new QueryCommand(params));
+		const response = await dynamoDbDocClient.send(new QueryCommand(params));
 		if (!response.Items.length) {
 			console.log('getUserByUserId No Match');
 			return res.status(response_code.SUCCESS);
@@ -71,7 +69,7 @@ const updateUser = authWrapper({
 			ExpressionAttributeValues: expressionValues,
 		};
 
-		await dynamoDB.send(new UpdateCommand(params));
+		await dynamoDbDocClient.send(new UpdateCommand(params));
 		console.log(`User with ID ${userId} updated successfully`);
 		return res.status(response_code.SUCCESS).json({ ok: true, token });
 	},
@@ -97,7 +95,7 @@ const changePassword = authWrapper({
 				":userId": userId,
 			},
 		}
-		const response = await dynamoDB.send(new QueryCommand(params));
+		const response = await dynamoDbDocClient.send(new QueryCommand(params));
 		if (!response.Items.length) {
 			console.log('getUserByUserId No Match');
 			return res.status(response_code.NO_USER_FOUND).json({ error: response_message.NO_USER_FOUND });
@@ -133,7 +131,7 @@ const changePassword = authWrapper({
 			}
 		}
 
-		await dynamoDB.send(new UpdateCommand(params));
+		await dynamoDbDocClient.send(new UpdateCommand(params));
 		console.log(`Password for user with ID ${userId} updated successfully`);
 		return res.status(response_code.SUCCESS).json({ ok: true });
 	},
@@ -157,7 +155,7 @@ const deleteUser = authWrapper({
 				":userId": userId,
 			},
 		};
-		await dynamoDB.send(new DeleteCommand(params));
+		await dynamoDbDocClient.send(new DeleteCommand(params));
 		console.log('User deleted successfully');
 		return res.status(response_code.SUCCESS).json({ ok: true });
 	},

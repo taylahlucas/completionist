@@ -1,6 +1,6 @@
 require('dotenv').config();
-const { DynamoDBClient } = require('@aws-sdk/client-dynamodb');
-const { DynamoDBDocumentClient, PutCommand, UpdateCommand } = require('@aws-sdk/lib-dynamodb');
+const { dynamoDbDocClient } = require('../client');
+const { PutCommand, UpdateCommand } = require('@aws-sdk/lib-dynamodb');
 const hashPw = require('../helpers/hash_password');
 const comparePws = require('../helpers/compare_passwords');
 const { response_code, response_message } = require('../helpers/response_code');
@@ -9,9 +9,6 @@ const userSchema = require('../models/user');
 const createUser = require('../helpers/create_user');
 const { createSignedToken, createRefreshToken } = require('../helpers/create_tokens');
 const cache = require('../cache');
-
-const dynamoDB = new DynamoDBClient({ region: process.env.REGION });
-const docClient = DynamoDBDocumentClient.from(dynamoDB);
 
 var params = {
 	TableName: process.env.AWS_TABLE_NAME
@@ -23,7 +20,7 @@ const ttlInSeconds = 60 * 24 * 60 * 60;
 const checkUserExists = async (req, res) => {
 	const { email } = req.body;
 	// Checks if user exists and whether they have a regular or google account set up
-	const existingUser = await checkEmailExists(dynamoDB, email);
+	const existingUser = await checkEmailExists(dynamoDbDocClient, email);
 	console.log("checkUserExists");
 	if (existingUser) {
 		return res.status(response_code.SUCCESS)
@@ -49,7 +46,7 @@ const signup = async (req, res) => {
 		pw: userPw,
 		googleId: userGoogleId,
 	} = req.body;
-	const existingUser = await checkEmailExists(docClient, email);
+	const existingUser = await checkEmailExists(dynamoDbDocClient, email);
 	if (existingUser) {
 		return res.status(response_code.EMAIL_TAKEN).json({
 			error: response_message.EMAIL_TAKEN
@@ -110,7 +107,7 @@ const signin = async (req, res) => {
 	console.log("signin")
 	try {
 		const { email, pw, googleId } = req.body;
-		const existingUser = await checkEmailExists(docClient, email);
+		const existingUser = await checkEmailExists(dynamoDbDocClient, email);
 		if (!existingUser) {
 			return res.status(response_code.NO_USER_FOUND).json({ error: "No user found." });
 		}
@@ -155,7 +152,7 @@ const signin = async (req, res) => {
 
 const linkAndSignIn = async (req, res) => {
 	const { email, pw, googleId } = req.body;
-	const existingUser = await checkEmailExists(docClient, email);
+	const existingUser = await checkEmailExists(dynamoDbDocClient, email);
 	if (!existingUser) {
 		return res.status(response_code.NO_USER_FOUND).json({ error: response_message.NO_USER_FOUND });
 	}
@@ -208,7 +205,7 @@ const linkAndSignIn = async (req, res) => {
 const forgotPw = async (req, res) => {
 	try {
 		const { email, newPw } = req.body;
-		const existingUser = await checkEmailExists(dynamoDB, email);
+		const existingUser = await checkEmailExists(dynamoDbDocClient, email);
 		if (!existingUser) {
 			return res.status(response_code.NO_USER_FOUND).json({ error: response_message.NO_USER_FOUND });
 		}

@@ -94,7 +94,7 @@ npx react-native run-ios --port 8002
 - crypto
 - nodemailer
 - node-cache
-- aws-sdk
+- aws-sdk/client-dynamodb
 
 
 ## Updating translations

@@ -73,7 +73,9 @@ const useAuthEndpoints = (): AuthEndpointsReturnType => {
 			}
 		}
 		catch (error: AxiosErrorResponse) {
-			handleAxiosError(error.response.status);
+			if (error.response) {
+				handleAxiosError(error.response.status);
+			}
 		};
 	}
 

@@ -25,7 +25,10 @@ const sendVerificationEmail = async (req, res) => {
 		console.log('Verification Email sent successfully');
 		return res.status(response_code.SUCCESS).json({ ok: true });
 	} catch (error) {
-		return res.status(error.status).json({ error: error.message });
+		console.log("Send Verification Email Error: ", error);
+		if (error.status) {
+			return res.status(error.status).json({ error: error.message });
+		}
 	}
 }
 
@@ -54,7 +57,9 @@ const sendEmail = authWrapper({
 	},
 	onError: (res, err) => {
 		console.log("Send Email Error: ", err.message);
-		return res.status(error.status).json({ error: error.message });
+		if (error.status) {
+			return res.status(error.status).json({ error: error.message });
+		}
 	}
 });
 
