@@ -8,6 +8,7 @@ import KeyboardAvoidingScrollView from '@components/general/Lists/KeyboardAvoidi
 import ParagraphView from '@components/general/ParagraphView.native';
 import Spacing from '@components/general/Spacing.native';
 import useSendVerificationEmail from '@components/custom/LoginForm/hooks/useSendVerificationEmail';
+import { VERIFICATION_ENTRY_LENGTH } from '@utils/constants';
 
 interface VerificationContentProps {
 	email: string;
@@ -48,7 +49,7 @@ const VerificationContent = ({ email, token, action }: VerificationContentProps)
 			</ParagraphView>
 			<KeyboardAvoidingScrollView awareView={renderAwareView()}>
 				<VerificationEntry
-					length={token?.length ?? 0}
+					length={VERIFICATION_ENTRY_LENGTH}
 					value={value}
 					setValue={setValue}
 				/>
@@ -62,6 +63,7 @@ const VerificationContent = ({ email, token, action }: VerificationContentProps)
 								email, 
 								'common:sendRequest.verifyAccount'
 							);
+							setValue('');
 							Alert.alert('common:login.tokenResent')
 						}}
 					/>

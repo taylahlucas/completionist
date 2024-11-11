@@ -67,7 +67,7 @@ const SelectFirstGame = () => {
 						<GameListItem
 							key={index}
 							game={game}
-							enabled={viewModel.selectedFirstGame?.id === game.id ?? false}
+							enabled={viewModel.selectedFirstGame?.id === game.id}
 							enabledColor={viewModel.selectedFirstGame?.id === game.id ? theme.lightPurple : theme.midGrey}
 							onPress={(): void => actions.setSelectedFirstGame(game)}
 						/>

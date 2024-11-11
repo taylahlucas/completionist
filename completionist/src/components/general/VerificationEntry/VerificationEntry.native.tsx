@@ -1,4 +1,4 @@
-import React, { useRef, useState, RefObject } from 'react';
+import React, { useRef, useState, RefObject, useEffect } from 'react';
 import { View, TextInput as RNTextInput } from 'react-native';
 import TextInput from '../TextInput/TextInput.native';
 
@@ -15,6 +15,15 @@ interface RefMapping {
 const VerificationEntry = ({ length, value, setValue }: VerificationEntryProps) => {
 	const inputRefs = useRef<RefMapping>(Array.from({ length: length }, () => React.createRef<RNTextInput>()));
 	const [currentIndex, setCurrentIndex] = useState(0);
+
+	useEffect(() => {
+		// Focuses the input on the first field on resent token
+		if (value.length === 0 && currentIndex !== 0) {
+			setCurrentIndex(0);
+			inputRefs.current[0]?.current?.focus();
+		}
+	}, [value])
+
 
 	// TODO: useHandlePaste
 	return (
