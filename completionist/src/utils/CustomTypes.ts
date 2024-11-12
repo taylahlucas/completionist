@@ -98,3 +98,7 @@ export type NavigatorParams = {
 export type UserResponse = User | void;
 export type StringResponse = string | void;
 export type AxiosErrorResponse = AxiosError | any;
+
+// Utils
+
+export type LoggerType = 'info' | 'error' | 'warning';

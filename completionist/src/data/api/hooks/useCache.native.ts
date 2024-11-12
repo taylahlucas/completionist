@@ -2,6 +2,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import { CACHE_EXPIRY_TIME, USER_CACHE_KEY } from '@utils/constants';
 import { CachedData, User } from '@utils/CustomInterfaces';
 import { UserResponse } from '@utils/CustomTypes';
+import useLogger from '@utils/hooks/useLogger';
 
 interface CacheReturnType {
   saveToCache: (data: User, key?: string) => Promise<void>;
@@ -11,6 +12,8 @@ interface CacheReturnType {
 }
 
 const useCache = (): CacheReturnType => {  
+  const { log } = useLogger();
+  
   const getFromCache = async (key?: string): Promise<any | null> => {
     try {
       const cachedDataString = await AsyncStorage.getItem(key ? key : USER_CACHE_KEY);
@@ -28,7 +31,13 @@ const useCache = (): CacheReturnType => {
         }
       }
     } catch (error) {
-      console.error('Error reading from cache:', error);
+      log({
+        type: 'error',
+        title: 'Failed to read to cache',
+        data: { 
+          error: JSON.stringify(error, null, 2)
+        }
+      });
     }
 
     return null; // Cache miss or expired
@@ -39,6 +48,10 @@ const useCache = (): CacheReturnType => {
     const cachedData = await getFromCache();
 		
     if (!!cachedData?.userId && cachedData as User) {
+      log({
+        type: 'info',
+        title: 'Fetched user from cache',
+      });
       return cachedData;
     }
 		return;
@@ -51,17 +64,36 @@ const useCache = (): CacheReturnType => {
       const cacheDataString = JSON.stringify(cacheData);
 
       await AsyncStorage.setItem(key ? key : USER_CACHE_KEY, cacheDataString);
+      log({
+        type: 'info',
+        title: 'Saved user to cache'
+      });
     } catch (error) {
-      console.error('Error saving to cache:', error);
+      log({
+        type: 'error',
+        title: 'Failed to save to cache',
+        data: { 
+          error: JSON.stringify(error, null, 2)
+        }
+      });
     }
   };
 
   const clearCache = async (): Promise<void> => {
 		try {
 			await AsyncStorage.clear();
-			console.log('Cache cleared!');
+      log({
+        type: 'info',
+        title: 'Cache cleared!',
+      });
 		} catch (e) {
-			console.log('Failed to clear the cache', e);
+      log({
+        type: 'error',
+        title: 'Failed to clear the cache',
+        data: { 
+          error: JSON.stringify(e, null, 2)
+        }
+      });
 		}
   };
 

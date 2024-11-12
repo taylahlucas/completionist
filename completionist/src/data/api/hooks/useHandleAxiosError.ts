@@ -7,7 +7,10 @@ const useHandleAxiosError = () => {
 	const { t } = useTranslation();
 	const { removeUserData } = useRemoveUserData();
 
-	const handleAxiosError = (status: number): void => {
+	const handleAxiosError = (status?: number): void => {
+		if (!status) {
+			return;
+		}
 		switch (status) {
 			case requestCodes.WRONG_PASSWORD:
 				Alert.alert(

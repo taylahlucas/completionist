@@ -23,27 +23,41 @@ import useHandleAxiosError from './useHandleAxiosError';
 import useKeychain from '@data/hooks/useKeychain.native';
 import { REFRESH_CACHE_KEY, requestCodes } from '@utils/constants';
 import useCache from './useCache.native';
+import useLogger from '@utils/hooks/useLogger';
 
 const useAuthEndpoints = (): AuthEndpointsReturnType => {
 	const url = Platform.OS === 'ios'
 		? process.env.IOS_LOCAL_URL
 		: process.env.ANDROID_LOCAL_URL;
+	const { logSuccessfulApi, logErrorApi } = useLogger();
 	const { storeCredentials } = useKeychain();
 	const { saveToCache } = useCache();
 	const { handleAxiosError } = useHandleAxiosError();
 
 	const checkUserExists = async (email: string): 
 	Promise<CredentialsExistProps> => {
-		console.log("checkUserExists");
 		try {
 			const response = await axios.post(`${url}/${checkUserExistsUrl}`,
 				{
 					email: email.toLocaleLowerCase(),
 				}
 			);
+			logSuccessfulApi({
+				title: 'Check User Exists',
+				data: {
+					email
+				}
+			});
 			return response.data as CredentialsExistProps;
 		}
 		catch(error: AxiosErrorResponse) {
+			logErrorApi({
+				title: 'Check User Exists',
+				data: {
+					email,
+					error
+				}
+			});
 			return {
 				regular: false,
 				google: false
@@ -52,7 +66,6 @@ const useAuthEndpoints = (): AuthEndpointsReturnType => {
 	}
 
 	const signUp = async ({ data }: SignUpProps): Promise<UserResponse> => {
-		console.log("signUp");
 		try {
 			const response = await axios.post(`${url}/${signupUrl}`,
 				{
@@ -69,18 +82,30 @@ const useAuthEndpoints = (): AuthEndpointsReturnType => {
 					password: response.data.token
 				});
 				saveToCache(response.data.refreshTokenExpiry, REFRESH_CACHE_KEY);
+				logSuccessfulApi({
+					title: 'Sign Up',
+					data: {
+						type: data.googleId ? 'Google' : 'Regular',
+						userId: response.data.user.userId,
+					}
+				});
 				return response.data.user as User;
 			}
 		}
 		catch (error: AxiosErrorResponse) {
-			if (error.response) {
-				handleAxiosError(error.response.status);
-			}
+			logErrorApi({
+				title: 'Sign Up',
+				data: {
+					type: data.googleId ? 'Google' : 'Regular',
+					email: data.email,
+					error
+				}
+			});
+			handleAxiosError(error.response?.status);
 		};
 	}
 
 	const signIn = async ({ email, pw, googleId }: SignInProps): Promise<UserResponse> => {
-		console.log("signIn");
 		try {
 			const response = await axios.post(`${url}/${signinUrl}`,
 				{
@@ -96,6 +121,14 @@ const useAuthEndpoints = (): AuthEndpointsReturnType => {
 					password: responseData.token
 				});
 				saveToCache(response.data.refreshTokenExpiry, REFRESH_CACHE_KEY);
+				logSuccessfulApi({
+					title: 'Sign In',
+					data: {
+						type: googleId ? 'Google' : 'Regular',
+						userId: responseData.user?.userId,
+						email
+					}
+				});
 				return responseData.user as UserResponse;
 			}
 			else {
@@ -104,7 +137,15 @@ const useAuthEndpoints = (): AuthEndpointsReturnType => {
 			}
 		}
 		catch (error: AxiosErrorResponse) {
-			handleAxiosError(error.response.status);
+			logErrorApi({
+				title: 'Sign In',
+				data: {
+					type: googleId ? 'Google' : 'Regular',
+					email,
+					error
+				}
+			});
+			handleAxiosError(error.response?.status);
 		}
 	};
 
@@ -123,16 +164,31 @@ const useAuthEndpoints = (): AuthEndpointsReturnType => {
 					password: response.data.token
 				});
 				saveToCache(response.data.refreshTokenExpiry, REFRESH_CACHE_KEY);
+				logSuccessfulApi({
+					title: 'Link And Sign In',
+					data: {
+						type: googleId ? 'Google' : 'Regular',
+						userId: response.data.user.userId,
+						email
+					}
+				});
 				return response.data.user as UserResponse;
 			}
 		}
 		catch (error: AxiosErrorResponse) {
-			handleAxiosError(error.response.status);
+			logErrorApi({
+				title: 'Link And Sign In',
+				data: {
+					type: googleId ? 'Google' : 'Regular',
+					email,
+					error
+				}
+			});
+			handleAxiosError(error.response?.status);
 		}
 	}
 
 	const sendVerificationEmail = async ({ emailTo, subject, text }: SendEmailProps): Promise<void> => {		
-		console.log("sendVerificationEmail");
 		try {
 			await axios.post(
 				`${url}/${sendVerificationEmailUrl}`,
@@ -142,10 +198,23 @@ const useAuthEndpoints = (): AuthEndpointsReturnType => {
 					text
 				}
 			);
+			logSuccessfulApi({
+				title: 'Send Verification Email',
+				data: {
+					emailTo
+				}
+			});
 			return;
 		}
 		catch (error: AxiosErrorResponse) {
-			handleAxiosError(error.response.status);
+			logErrorApi({
+				title: 'Send Verification Email',
+				data: {
+					emailTo,
+					error
+				}
+			});
+			handleAxiosError(error.response?.status);
 		}
 	};
 
@@ -158,10 +227,23 @@ const useAuthEndpoints = (): AuthEndpointsReturnType => {
 					newPw
 				}
 			)
+			logSuccessfulApi({
+				title: 'Forgot Password',
+				data: {
+					email
+				}
+			});
 			return;
 		}
 		catch (error: AxiosErrorResponse) {
-			handleAxiosError(error.response.status);
+			logErrorApi({
+				title: 'Forgot Password',
+				data: {
+					email,
+					error
+				}
+			});
+			handleAxiosError(error.response?.status);
 		}
 	};
 

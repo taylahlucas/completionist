@@ -23,19 +23,20 @@ import useHandleAxiosError from './useHandleAxiosError';
 import { requestCodes } from '@utils/constants';
 import useAuthInterceptor from './useAuthInterceptor.native';
 import useKeychain from '@data/hooks/useKeychain.native';
+import useLogger from '@utils/hooks/useLogger';
 
 const useEndpoints = (): EndpointsReturnType => {
 	const url = Platform.OS === 'ios'
 		? process.env.IOS_LOCAL_URL
 		: process.env.ANDROID_LOCAL_URL;
 	const { t } = useTranslation();
+	const { logSuccessfulApi, logErrorApi } = useLogger();
 	const { handleAxiosError } = useHandleAxiosError();
 	const authInterceptor = useAuthInterceptor();
 	const { storeCredentials } = useKeychain();
 
 	// TODO: Add axios caching https://www.npmjs.com/package/axios-cache-adapter
 	const getUserByUserId = async ({ userId }: GetUserByUserIdProps): Promise<UserResponse> => {
-		console.log("getUserByUserId")
 		try {
 			const response = await authInterceptor.get(
 				`${url}/${getUserByUserIdUrl}/${userId}`
@@ -47,17 +48,29 @@ const useEndpoints = (): EndpointsReturnType => {
 						password: response.data.token
 					});
 				}
+				logSuccessfulApi({
+					title: 'Get User By Id',
+					data: {
+						userId
+					}
+				});
 				return response.data.user as User;
 			}
 			return;
 		}
 		catch (error: AxiosErrorResponse) {
-			handleAxiosError(error.response.status);
+			logErrorApi({
+				title: 'Get User By Id',
+				data: {
+					userId,
+					error
+				}
+			});
+			handleAxiosError(error.response?.status);
 		}
 	};
 
 	const updateUser = async (user: User): Promise<UserResponse> => {
-		console.log("updateUser")
 		try {
 			const response = await authInterceptor.patch(
 				`${url}/${updateUserUrl}/${user.userId}`,
@@ -77,9 +90,22 @@ const useEndpoints = (): EndpointsReturnType => {
 					password: response.data.token
 				});
 			}
+			logSuccessfulApi({
+				title: 'Updated user',
+				data: {
+					email: user.email
+				}
+			});
 			return user;
 		}
 		catch (error: AxiosErrorResponse) {
+			logErrorApi({
+				title: 'Updated user',
+				data: {
+					email: user.email,
+					error: JSON.stringify(error, null, 2)
+				}
+			});
 			handleAxiosError(error.response?.status);
 		}
 	};
@@ -92,9 +118,22 @@ const useEndpoints = (): EndpointsReturnType => {
 					newPw
 				}
 			);
+			logSuccessfulApi({
+				title: 'Changed Password',
+				data: {
+					userId
+				}
+			});
 			return true;
 		}
 		catch (error: AxiosErrorResponse) {
+			logErrorApi({
+				title: 'Changed Password',
+				data: {
+					userId,
+					error
+				}
+			});
 			handleAxiosError(error.response?.status);
 			return false;
 		}
@@ -102,7 +141,6 @@ const useEndpoints = (): EndpointsReturnType => {
 	
 	const sendEmail = async ({ emailTo, subject, text }: SendEmailProps): Promise<void> => {		
 		try {
-			console.log("Sending Email")
 			await authInterceptor.post(
 				`${url}/${sendEmailUrl}`,
 				{
@@ -111,24 +149,48 @@ const useEndpoints = (): EndpointsReturnType => {
 					text: `${emailTo}\n\n${text}`
 				}
 			);
+			logSuccessfulApi({
+				title: 'Sending Email',
+				data: {
+					emailTo
+				}
+			});
 			return;
 		}
 		catch (error: AxiosErrorResponse) {
-			handleAxiosError(error.response.status);
+			logErrorApi({
+				title: 'Sending Email',
+				data: {
+					emailTo,
+					error
+				}
+			});
+			handleAxiosError(error.response?.status);
 		}
 	};
 
 	const deleteUser = async (userId: string): Promise<void> => {
 		try {
-			console.log("Deleting user");
 			await authInterceptor.delete(
 				`${url}/${deleteUserUrl}/${userId}`
 			);
-			console.log("Returning");
+			logSuccessfulApi({
+				title: 'Deleting User',
+				data: {
+					userId
+				}
+			});
 			return;
 		}
 		catch (error: AxiosErrorResponse) {
-			handleAxiosError(error.response.status);
+			logErrorApi({
+				title: 'Deleting User',
+				data: {
+					userId,
+					error
+				}
+			});
+			handleAxiosError(error.response?.status);
 		}
 	};
 
@@ -145,15 +207,38 @@ const useEndpoints = (): EndpointsReturnType => {
 						password: response.data.token
 					});
 				}
+				logSuccessfulApi({
+					title: 'Get Steam User By Id',
+					data: {
+						userId,
+						steamId
+					}
+				});
 				return response?.data?.profile as SteamProfile;
 			}
 			else {
+				logErrorApi({
+					title: 'Get Steam User By Id',
+					data: {
+						userId,
+						steamId,
+						message: 'Steam ID not found.'
+					}
+				});
 				Alert.alert('Steam ID not found.');
 			}
 			return;
 		}
 		catch (error: AxiosErrorResponse) {
-			handleAxiosError(error.response.status);
+			logErrorApi({
+				title: 'Get Steam User By Id',
+				data: {
+					userId,
+					steamId,
+					error
+				}
+			});
+			handleAxiosError(error.response?.status);
 		}
 	};
 
@@ -169,7 +254,14 @@ const useEndpoints = (): EndpointsReturnType => {
 						password: response.data.token
 					});
 				}
-
+				logSuccessfulApi({
+					title: 'Get Steam Achievements',
+					data: {
+						userId,
+						steamId,
+						gameId
+					}
+				});
 				return {
 					hasPermission: response?.data.hasPermission,
 					achievements: response?.data.achievements as AchievementItem[],
@@ -178,8 +270,17 @@ const useEndpoints = (): EndpointsReturnType => {
 			}
 		}
 		catch (error: AxiosErrorResponse) {
+			logErrorApi({
+				title: 'Get Steam Achievements',
+				data: {
+					userId,
+					steamId,
+					gameId,
+					error
+				}
+			});
 			if (error?.response?.status === requestCodes.UNAUTHORIZED) {
-				handleAxiosError(error.response.status);
+				handleAxiosError(error.response?.status);
 			}
 			else {
 				Alert.alert(

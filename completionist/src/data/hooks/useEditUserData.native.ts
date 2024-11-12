@@ -36,6 +36,7 @@ const useEditUserData = (): EditUserDataReturnType => {
 								if (user) {
 									// checkUpdateChangesLeft(user);
 									saveUser(user);
+									saveToCache(user);
 								}
 							})
 					}
@@ -52,7 +53,6 @@ const useEditUserData = (): EditUserDataReturnType => {
 
 	const saveUser = (user: User) => {
 		setUser(user);
-		saveToCache(user);
 		setShouldUpdateUser(false);
 	};
 

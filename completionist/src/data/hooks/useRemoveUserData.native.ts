@@ -5,8 +5,10 @@ import { initialUser } from '@redux/MainState';
 import useCache from '../api/hooks/useCache.native';
 import { initialFormData } from '@components/custom/LoginForm/LoginState';
 import useContentDispatch from '@components/custom/ContentList/hooks/useContentDispatch';
+import useLogger from '@utils/hooks/useLogger';
 
 const useRemoveUserData = () => {
+	const { log } = useLogger();
 	const { setUser, setSelectedGame } = useMainDispatch();
 	const { setLoginFormData, triggerIsSigningUp, setLoggedIn, setVerificationToken, setIsAuthenticated } = useLoginDispatch();
 	const { setSelectedCategory } = useContentDispatch();
@@ -14,7 +16,9 @@ const useRemoveUserData = () => {
 	const { clearCache } = useCache();
 
 	const removeUserData = () => {
-		console.log("Removing user data");
+		log({
+			title: 'Removing User Data'
+		});
 		setVerificationToken('');
 		setSelectedCategory({
 			category: ''

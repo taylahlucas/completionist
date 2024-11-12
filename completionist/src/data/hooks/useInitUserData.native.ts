@@ -18,7 +18,6 @@ const useInitUserData = () => {
 
   useEffect(() => {
     if (!isAuthenticated && !user.userId) {
-			console.log("loadUserFromCache---1: ", user.userId);
       loadUserFromCache();
     }
 
@@ -36,7 +35,6 @@ const useInitUserData = () => {
     switch (appState) {
       case 'active':
         if (!isAuthenticated || !user.userId) {
-					console.log("loadUserFromCache---2: ", user.userId);
           loadUserFromCache();
         }
         return;

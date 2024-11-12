@@ -29,7 +29,6 @@ const AddSteamIDContent = () => {
 					disabled={steamId.length < 17}
 					onPress={async (): Promise<void> => {
 						const profile = await getSteamUserById(user.userId, steamId);
-						console.log("profile: ", profile)
 
 						if (!!profile) {
 							setProfile(profile);

@@ -12,8 +12,9 @@ import useSendVerificationEmail from '@components/custom/LoginForm/hooks/useSend
 import useLoginDispatch from './useLoginDispatch';
 import useEndpoints from '@data/api/hooks/useEndpoints.native';
 import useRemoveUserData from '@data/hooks/useRemoveUserData.native';
+import useLogger from '@utils/hooks/useLogger';
 
-interface GoogleSignInError {
+interface GoogleError {
 	code: number;
 	message: string;
 }
@@ -26,6 +27,7 @@ interface GetLoginMethodsReturnType {
 
 const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 	const { t } = useTranslation();
+	const { log } = useLogger();
 	const { user, shouldUpdateUser } = useMainState();
 	const { setLoggedIn, triggerIsSigningUp, setIsGoogleSignIn } = useLoginDispatch();
 	const { saveUser } = useEditUserData();
@@ -161,8 +163,13 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 						);
 					}
 				});
-		} catch (error: GoogleSignInError | any) {
-			console.log("Error with google sign in: ", error.message);
+		} catch (error: GoogleError | any) {
+			log({
+				type: 'error',
+				title: 'Google Sign In',
+				code: error.code,
+				message: error.message,
+			});
 		}
 	}
 
@@ -177,8 +184,13 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 			}
 			await GoogleSignin.revokeAccess();
 			await GoogleSignin.signOut();
-		} catch (error) {
-			console.log("Error signing out: ", error)
+		} catch (error: GoogleError | any) {
+			log({
+				type: 'error',
+				title: 'Google Sign Out',
+				code: error.code,
+				message: error.message,
+			});
 		}
 	};
 
