@@ -6,13 +6,15 @@ interface LoggerProps {
   data?: any;
 
 }
-// TODO: Ensure only runs in dev environment
+
 const useLogger = () => {
   const log = ({ type = 'info', title, data }: LoggerProps) => {
-    console.log(
-      `\n[${type.toLocaleUpperCase()}]: `, title, 
-      data ? `\n[DATA]: ${JSON.stringify(data, null, 2)} \n` : '\n'
-    );
+    if (__DEV__) {
+      console.log(
+        `\n[${type.toLocaleUpperCase()}]: `, title, 
+        data ? `\n[DATA]: ${JSON.stringify(data, null, 2)} \n` : '\n'
+      );
+    }
   };
 
   const logSuccessfulApi = ({ title, data }: LoggerProps) => log({

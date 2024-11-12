@@ -63,7 +63,7 @@ const useEndpoints = (): EndpointsReturnType => {
 				title: 'Get User By Id',
 				data: {
 					userId,
-					error
+					error: JSON.stringify(error, null, 2)
 				}
 			});
 			handleAxiosError(error.response?.status);
@@ -131,7 +131,7 @@ const useEndpoints = (): EndpointsReturnType => {
 				title: 'Changed Password',
 				data: {
 					userId,
-					error
+					error: JSON.stringify(error, null, 2)
 				}
 			});
 			handleAxiosError(error.response?.status);
@@ -162,7 +162,7 @@ const useEndpoints = (): EndpointsReturnType => {
 				title: 'Sending Email',
 				data: {
 					emailTo,
-					error
+					error: JSON.stringify(error, null, 2)
 				}
 			});
 			handleAxiosError(error.response?.status);
@@ -187,7 +187,7 @@ const useEndpoints = (): EndpointsReturnType => {
 				title: 'Deleting User',
 				data: {
 					userId,
-					error
+					error: JSON.stringify(error, null, 2)
 				}
 			});
 			handleAxiosError(error.response?.status);
@@ -235,7 +235,7 @@ const useEndpoints = (): EndpointsReturnType => {
 				data: {
 					userId,
 					steamId,
-					error
+					error: JSON.stringify(error, null, 2)
 				}
 			});
 			handleAxiosError(error.response?.status);
@@ -276,7 +276,7 @@ const useEndpoints = (): EndpointsReturnType => {
 					userId,
 					steamId,
 					gameId,
-					error
+					error: JSON.stringify(error, null, 2)
 				}
 			});
 			if (error?.response?.status === requestCodes.UNAUTHORIZED) {
