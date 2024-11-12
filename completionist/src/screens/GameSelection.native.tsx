@@ -15,23 +15,23 @@ import useGetTheme from '@styles/hooks/useGetTheme';
 import useEndpoints from '@data/api/hooks/useEndpoints.native';
 
 const GameSelection = () => {
-	const theme = useGetTheme();
+	// const theme = useGetTheme();
 	const { t } = useTranslation();
 	const { user } = useMainState();
 	const [searchValue, setSearchValue] = useState('');
 
-	const renderSubscriptionComponent = (style: ViewStyle) => {
-		return (
-			<StyledText
-				style={style}
-				type='ListItemSubDescription'
-				align='right'
-			>
-				{/* {user.subscription.tier.toLocaleUpperCase()} */}
-				Test
-			</StyledText>
-		);
-	};
+	// const renderSubscriptionComponent = (style: ViewStyle) => {
+	// 	return (
+	// 		<StyledText
+	// 			style={style}
+	// 			type='ListItemSubDescription'
+	// 			align='right'
+	// 		>
+	// 			{/* {user.subscription.tier.toLocaleUpperCase()} */}
+	// 			Test
+	// 		</StyledText>
+	// 	);
+	// };
 
 	// TODO: Test UI for paid subscription
 	return (

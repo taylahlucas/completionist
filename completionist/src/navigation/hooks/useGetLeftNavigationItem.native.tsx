@@ -24,7 +24,8 @@ const useGetLeftNavigationItem = (
 	const { t } = useTranslation();
   const theme = useGetTheme();
   const navigation = useReactNavigation();
-	const isDrawerOpen = hasDrawer && useSafeDrawerStatus() === 'open';
+	const drawerStatus = useSafeDrawerStatus();
+	const isDrawerOpen = hasDrawer && drawerStatus === 'open';
 	const { rotateButton, animatedStyles } = useRotateMenuButton();
 
 	useEffect(() => {
@@ -37,6 +38,7 @@ const useGetLeftNavigationItem = (
 		Keyboard.dismiss();
 	};
 
+	// TODO: Add to translations
   switch (leftAction) {
     case 'back':
       return (
