@@ -52,9 +52,10 @@
 		
 	},
 	"selectGame": {
-		"selectGameDesc1": "You will have access to one free game per month.",
+		"selectGameDesc1": "The first game you select will be free.",
 		"selectGameDesc2": "More games may be purchased with a one-off payment.",
-		"selectGameDesc3": "Select your free game below!"
+		"selectGameDesc3": "Select your free game below!",
+		"selection": "You have selected:\n{{gameTitle}}"
 	},
 	"subscriptions": {
 		"subscriptionDesc": "With a Premium subscription,\nyou will gain access to Premium Features such as:",

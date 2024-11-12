@@ -16,6 +16,7 @@ import ParagraphView from '@components/general/ParagraphView.native';
 import useSignupFlow from './hooks/useSignupFlow';
 import useLoginState from '@components/custom/LoginForm/hooks/useLoginState';
 import useLoginDispatch from '@components/custom/LoginForm/hooks/useLoginDispatch';
+import useTranslateGameContent from '@utils/hooks/useTranslateGameContent.native';
 
 const SelectFirstGame = () => {
 	const theme = useGetTheme();
@@ -23,6 +24,7 @@ const SelectFirstGame = () => {
 	const { isGoogleSignIn } = useLoginState();
 	const { setIsGoogleSignIn } = useLoginDispatch();
 	const { viewModel, actions } = useSignupFlow();
+	const { translateGameName } = useTranslateGameContent();
 	
 	const renderAwareView = () => (
 		<Button
@@ -65,6 +67,11 @@ const SelectFirstGame = () => {
 						<StyledText>{t('common:selectGame.selectGameDesc2')}</StyledText>
 						<Spacing />
 						<StyledText type='ListItemSubTitleItalic'>{t('common:selectGame.selectGameDesc3')}</StyledText>
+						<Spacing />
+						{viewModel.selectedFirstGame 
+							? <StyledText type='ListItemSubTitleBold' color={theme.lightGrey}>{t('common:selectGame.selection', { gameTitle: translateGameName(viewModel.selectedFirstGame.id) })}</StyledText> 
+							: null
+						}
 					</ParagraphView>
 				</Condition>
 				<SelectFirstGameContentContainer style={{
