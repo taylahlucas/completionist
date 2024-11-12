@@ -1,6 +1,7 @@
 import { Dispatch } from 'redux';
 import { 
   setLoginFormData,
+  setIsGoogleSignIn,
 	setVerificationToken,
 	setIsAuthenticated,
   setLoggedIn,
@@ -12,6 +13,7 @@ import { LoginFormData } from '@utils/CustomInterfaces';
 
 interface LoginDispatch {
   setLoginFormData: (value: LoginFormData) => void;
+  setIsGoogleSignIn: (value: boolean) => void;
 	setVerificationToken: (token: string | undefined) => void;
 	setIsAuthenticated: (value: boolean) => void;
   setLoggedIn: (value: boolean) => void;
@@ -25,6 +27,9 @@ const useLoginDispatch = (): LoginDispatch => {
   return {
     setLoginFormData(value: LoginFormData): void {
       dispatch(setLoginFormData(value));
+    },
+    setIsGoogleSignIn(value: boolean): void {
+      dispatch(setIsGoogleSignIn(value));
     },
 		setVerificationToken(token: string | undefined): void {
 			dispatch(setVerificationToken(token));

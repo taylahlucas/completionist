@@ -27,7 +27,7 @@ interface GetLoginMethodsReturnType {
 const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 	const { t } = useTranslation();
 	const { user, shouldUpdateUser } = useMainState();
-	const { setLoggedIn, triggerIsSigningUp } = useLoginDispatch();
+	const { setLoggedIn, triggerIsSigningUp, setIsGoogleSignIn } = useLoginDispatch();
 	const { saveUser } = useEditUserData();
 	const { removeUserData } = useRemoveUserData();
 	const { checkUserExists, linkAndSignIn, signIn, signUp } = useAuthEndpoints();
@@ -117,7 +117,7 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 			await GoogleSignin.hasPlayServices();
 			const { idToken } = await GoogleSignin.signIn();
 			const googleCredential = auth.GoogleAuthProvider.credential(idToken);
-
+			
 			return auth()
 				.signInWithCredential(googleCredential)
 				.then((response): void => {
@@ -148,6 +148,7 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 											if (!!response) {
 												saveUser(response);
 												triggerIsSigningUp(true);
+												setIsGoogleSignIn(true);
 											}
 										})
 								}

@@ -51,7 +51,6 @@ const useSignupFlow = (): SignupFlowReturnType => {
 	const { getFormattedSearchString } = useFormatter();
 	const { activateGame } = useActivateGame();
 	const { filterGameList } = useFilterGameList();
-	
 	const [username, setUsername] = useState<string>('');
 	const [searchValue, setSearchValue] = useState('');
 	const [selectedFirstGame, setSelectedFirstGame] = useState<ActiveGameData>();

@@ -14,10 +14,14 @@ import Condition from '@components/general/Condition.native';
 import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
 import ParagraphView from '@components/general/ParagraphView.native';
 import useSignupFlow from './hooks/useSignupFlow';
+import useLoginState from '@components/custom/LoginForm/hooks/useLoginState';
+import useLoginDispatch from '@components/custom/LoginForm/hooks/useLoginDispatch';
 
 const SelectFirstGame = () => {
 	const theme = useGetTheme();
 	const { t } = useTranslation();
+	const { isGoogleSignIn } = useLoginState();
+	const { setIsGoogleSignIn } = useLoginDispatch();
 	const { viewModel, actions } = useSignupFlow();
 	
 	const renderAwareView = () => (
@@ -35,6 +39,7 @@ const SelectFirstGame = () => {
 						}
 					}
 					actions.activateGame(updatedUser, viewModel.selectedFirstGame);
+					setIsGoogleSignIn(false);
 				}
 			}}
 		/>
@@ -42,8 +47,11 @@ const SelectFirstGame = () => {
 
 	return (
 		<StandardLayout isLoading={viewModel.isLoading}>
-			{/* // TODO: Show back button based on isRegularFlow or isGoogleFlow */}
-			<NavigationHeader id={UnauthorizedScreenEnum.SelectFirstGame} title={t('common:screens.selectGame')} leftAction='back' />
+			<NavigationHeader 
+				id={UnauthorizedScreenEnum.SelectFirstGame} 
+				title={t('common:screens.selectGame')} 
+				leftAction={isGoogleSignIn ? 'back' : 'none'}
+			/>
 			<CustomSearchBar
 				searchValue={viewModel.searchValue}
 				setSearchValue={(value: string): void => actions.setSearchValue(value)}
