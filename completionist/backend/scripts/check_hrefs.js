@@ -4,10 +4,18 @@ const fs = require('fs');
 async function checkUrlResponse(url) {
 	const delay = 1000;
 	try {
-		const response = await fetch(url);
+		const response = await fetch(url, {
+			method: 'HEAD',
+			headers: {
+					'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+					'Content-Type': 'application/json'
+			}
+		});
+		console.log("response: ", response)
 		if (response.ok) {
 			return;
 		} else {
+			console.log(`${url}`)
 			return;
 		}
 	} catch (error) {
@@ -39,7 +47,7 @@ const printOutput = (objects) => {
 };
 
 // Specify the path to your JSON file
-const jsonFilePath = 'eldenring_quests.json';
+const jsonFilePath = 'eldenring_miscellaneous.json';
 
 // Read objects from the JSON file
 const objects = readJsonFile(jsonFilePath);
