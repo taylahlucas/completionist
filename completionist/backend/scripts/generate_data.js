@@ -6,12 +6,16 @@ function transformTitlesToJSON(titles) {
   return titles.map(title => {
     return {
       id: uuidv4(),
-      mainCategory: 'Limegrave',
+      mainCategory: "Shadow Of The Erdtree",
       title: title,
-      dlc: 'None',
-      subCategory: '',
+      subCategory: "Scaduview",
       subCategoryType: '',
+      dlc: 'Shadow Of The Erdtree',
       section: 'locations',
+      // href: `https://www.ign.com/wikis/elden-ring/${title.replace(
+      //   /\s+/g,
+      //   '_',
+      // )}_Questline`,
       href: `https://eldenring.wiki.fextralife.com/${title.replace(
         /\s+/g,
         '+',
@@ -31,40 +35,10 @@ const writeJsonFile = (filePath, data) => {
 };
 
 const titles = [
-  "Artist's Shack (Limgrave)",
-  'Bridge of Sacrifice',
-  'Chapel of Anticipation',
-  'Church of Dragon Communion',
-  'Church of Elleh',
-  'Coastal Cave',
-  'Deathtouched Catacombs',
-  'Divine Tower of Limgrave',
-  'Dragon-Burnt Ruins',
-  'Forlorn Hound Evergaol',
-  'Fort Haight',
-  "Fringefolk Hero's Grave",
-  'Gatefront Ruins',
-  'Groveside Cave',
-  'Highroad Cave',
-  'Limgrave Colosseum',
-  'Limgrave Tunnels',
-  'Minor Erdtree (Mistwood)',
-  'Mistwood',
-  'Mistwood Ruins',
-  'Murkwater Catacombs',
-  'Murkwater Cave',
-  'Siofra River Well',
-  'Starfall Crater',
-  'Stormfoot Catacombs',
-  'Stormgate',
-  'Stormhill',
-  'Stormhill Evergaol',
-  'Stormhill Shack',
-  'Stranded Graveyard',
-  'Summonwater Village',
-  'Third Church of Marika',
-  "Warmaster's Shack",
-  'Waypoint Ruins',
+  "Albinauric's Shack",
+  "Finger Ruins of Dheo",
+  "Scadutree Chalice",
+  "Shaman Village"
 ];
 
 const objects = transformTitlesToJSON(titles);

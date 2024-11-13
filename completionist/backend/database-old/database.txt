@@ -51,229 +51,26 @@ Miscellaneous
 
 Elden Ring
 
-
-** LOCATIONS **
-
-// WEEPING PENINSULA
-Ailing Village
-Bridge of Sacrifice
-Callu Baptismal Church
-Castle Morne
-Church of Pilgrimage
-Demi-Human Forest Ruins
-Earthbore Cave
-Forest Lookout Tower
-Fourth Church of Marika
-Impaler's Catacombs
-Isolated Merchant's Shack
-Minor Erdtree (Weeping Peninsula)
-Morne Tunnel
-Oridys's Rise
-Tombsward Catacombs
-Tombsward Cave
-Tombsward Ruins
-Tower of Return
-Weeping Evergaol
-Witchbane Ruins
-
-// LIURNIA OF THE LAKES
-Academy Crystal Cave
-Academy Gate Town
-Ainsel River Well
-Artist's Shack (Liurnia)
-Bellum Church
-Bellum Highway
-Black Knife Catacombs
-Boil Prawn Shack
-Caria Manor
-Carian Study Hall
-Cathedral of Manus Celes
-Chelona's Rise
-Church of Inhibition
-Church of Irith
-Church of Vows
-Cliffbottom Catacombs
-Converted Fringe Tower
-Converted Tower
-Cuckoo's Evergaol
-Deep Ainsel Well
-Divine Tower of Liurnia
-Frenzied Flame Village
-Frenzy-Flaming Tower
-Grand Lift of Dectus
-Highway Lookout Tower
-Jarburg
-Kingsrealm Ruins
-Lakeside Crystal Cave
-Laskyar Ruins
-Lunar Estate Ruins
-Malefactor's Evergaol
-Minor Erdtree (Liurnia Northeast)
-Minor Erdtree (Liurnia Southwest)
-Moonfolk Ruins
-Moonlight Altar
-Purified Ruins
-Ranni's Rise
-Raya Lucaria Academy
-Raya Lucaria Crystal Tunnel
-Renna's Rise
-Revenger's Shack
-Ringleader's Evergaol
-Road's End Catacombs
-Rose Church
-Royal Grave Evergaol
-Ruin-Strewn Precipice
-Seluvis's Rise
-Slumbering Wolf's Shack
-Stillwater Cave
-Temple Quarter
-Testu's Rise
-The Four Belfries
-Village of the Albinaurics
-
-// CAELID
-Caelem Ruins
-Caelid Catacombs
-Caelid Colosseum
-Caelid Waypoint Ruins
-Cathedral of Dragon Communion
-Church of the Plague
-Divine Tower of Caelid
-Forsaken Ruins
-Fort Gael
-Gael Tunnel
-Gaol Cave
-Gowry's Shack
-Minor Erdtree (Caelid)
-Minor Erdtree Catacombs
-Redmane Castle
-Sellia Crystal Tunnel
-Sellia Gateway
-Sellia, Town of Sorcery
-Shack of the Rotting
-Smoldering Church
-Street of Sages Ruins
-Swamp Lookout Tower
-Swamp of Aeonia
-Wailing Dunes
-War-Dead Catacombs
-
-// DRAGONBARROW
-Abandoned Cave
-Bestial Sanctum
-Dragonbarrow Cave
-Divine Tower of Caelid
-Deep Siofra Well
-Fort Faroth
-Isolated Merchant's Shack (Dragonbarrow)
-Lenne's Rise
-Minor Erdtree (Dragonbarrow)
-Sellia Evergaol
-Sellia Hideaway
-
-// ALTUS PLATEAU
-Altus Tunnel
-Dominula, Windmill Village
-East Windmill Pasture
-Golden Lineage Evergaol
-Grand Lift of Dectus
-Highway Lookout Tower (Altus Plateau)
-Lux Ruins
-Minor Erdtree (Altus Plateau)
-Mirage Rise
-Old Altus Tunnel
-Perfumer's Grotto
-Perfumer's Ruins
-Sage's Cave
-Sainted Hero's Grave
-Second Church of Marika
-Stormcaller Church
-The Shaded Castle
-Unsightly Catacombs
-Village Windmill Pasture
-West Windmill Pasture
-Woodfolk Ruins
-Writheblood Ruins
-Wyndham Catacombs
-Wyndham Ruins
-
-// MT. GELMIR
-Corpse-Stench Shack
-Craftsman's Shack
-Fort Laiedd
-Gelmir Hero's Grave
-Hermit Village
-Hermit's Shack
-Minor Erdtree (Mt. Gelmir)
-Seethewater Cave
-Volcano Cave
-Volcano Manor
-
-// CAPITAL OUTSKIRTS
-Auriza Hero's Grave
-Auriza Side Tomb
-Divine Tower of East Altus
-Divine Tower of West Altus
-Hermit Merchant's Shack
-Minor Erdtree (Capital Outskirts)
-Minor Erdtree Church
-Sealed Tunnel
-
-// LEYNDELL
-Elden Throne
-Leyndell Catacombs
-Leyndell Colosseum
-Leyndell, Ashen Capital
-Leyndell, Royal Capital
-
-// MOUNTAINTOPS OF THE GIANTS
-Castle Sol
-Church of Repose
-First Church of Marika
-Flame Peak
-Forbidden Lands
-Forge of the Giants
-Grand Lift of Rold
-Giant-Conquering Hero's Grave
-Giants' Mountaintop Catacombs
-Guardians' Garrison
-Heretical Rise
-Lord Contender's Evergaol
-Minor Erdtree (Mountaintops East)
-Shack of the Lofty
-Spiritcaller's Cave
-Stargazers' Ruins
-Zamor Ruins
-
-// CRUMBLING FARUM AZULA
-Crumbling Farum Azula
- 
-// FORBIDDEN LANDS
-Hidden Path to the Haligtree
-
-// CONSECRATED SNOWFIELD
-Albinauric Rise
-Apostate Derelict
-Cave of the Forlorn
-Consecrated Snowfield Catacombs
-Minor Erdtree (Consecrated Snowfield)
-Ordina, Liturgical Town
-Yelough Anix Ruins
-Yelough Anix Tunnel
-
-// MIQUELLA'S HALIGTREE
-Elphael, Brace of the Haligtree
-
-
-
-
 // DLC - Shadow of the Erdtree
 
-** Locations ** // https://eldenring.wiki.fextralife.com/Locations
- 
-//https://eldenring.wiki.fextralife.com/Elden+Ring+Wiki
-
 Can you do the same for the following data:
+
+** COLLECTABLES **  // https://eldenring.wiki.fextralife.com/Legendary+Armaments
+
+// Legendary Weapons
+
+// Legendary Spirit Ashes
+
+// Armour Sets
+
+** MISCELLANEOUS **
+
+// Legendary Spells
+
+// Achievement Bosses
+
+
+** LOCATIONS ** // https://eldenring.wiki.fextralife.com/Locations
 
 can you convert the following Elden Ring Quests to the following json data, replacing id with a uniquely generated uuid:
 

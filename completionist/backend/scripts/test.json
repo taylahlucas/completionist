@@ -1,342 +1,42 @@
 [
   {
-    "id": "0b141401-4562-401a-97d0-025846626805",
-    "mainCategory": "Limegrave",
-    "title": "Artist's Shack (Limgrave)",
-    "dlc": "None",
-    "subCategory": "",
+    "id": "7990b42e-645a-43ac-aef6-b62ff0a02bd8",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Albinauric's Shack",
+    "subCategory": "Scaduview",
     "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
     "section": "locations",
-    "href": "https://eldenring.wiki.fextralife.com/Artist's+Shack+(Limgrave)"
+    "href": "https://eldenring.wiki.fextralife.com/Albinauric's+Shack"
   },
   {
-    "id": "d3b30b85-5177-439e-afc0-4ece89edbb3a",
-    "mainCategory": "Limegrave",
-    "title": "Bridge of Sacrifice",
-    "dlc": "None",
-    "subCategory": "",
+    "id": "a10f9831-a1dc-49cc-921e-fb39eff5c97b",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Finger Ruins of Dheo",
+    "subCategory": "Scaduview",
     "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
     "section": "locations",
-    "href": "https://eldenring.wiki.fextralife.com/Bridge+of+Sacrifice"
+    "href": "https://eldenring.wiki.fextralife.com/Finger+Ruins+of+Dheo"
   },
   {
-    "id": "b8c6511c-f1b9-423d-843d-a3857fccebc6",
-    "mainCategory": "Limegrave",
-    "title": "Chapel of Anticipation",
-    "dlc": "None",
-    "subCategory": "",
+    "id": "3704b025-b58e-4fc9-af98-46708ad353d1",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Scadutree Chalice",
+    "subCategory": "Scaduview",
     "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
     "section": "locations",
-    "href": "https://eldenring.wiki.fextralife.com/Chapel+of+Anticipation"
+    "href": "https://eldenring.wiki.fextralife.com/Scadutree+Chalice"
   },
   {
-    "id": "70c47750-6f6b-4646-82c6-02d3c72c7776",
-    "mainCategory": "Limegrave",
-    "title": "Church of Dragon Communion",
-    "dlc": "None",
-    "subCategory": "",
+    "id": "47cd3168-5bb2-47c8-ba90-50e32511a4fc",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Shaman Village",
+    "subCategory": "Scaduview",
     "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
     "section": "locations",
-    "href": "https://eldenring.wiki.fextralife.com/Church+of+Dragon+Communion"
-  },
-  {
-    "id": "1cb2bcc3-01be-4ca3-8350-941f695fa820",
-    "mainCategory": "Limegrave",
-    "title": "Church of Elleh",
-    "dlc": "None",
-    "subCategory": "",
-    "subCategoryType": "",
-    "section": "locations",
-    "href": "https://eldenring.wiki.fextralife.com/Church+of+Elleh"
-  },
-  {
-    "id": "3e0f6954-9817-4c10-b0b4-6a9386298389",
-    "mainCategory": "Limegrave",
-    "title": "Coastal Cave",
-    "dlc": "None",
-    "subCategory": "",
-    "subCategoryType": "",
-    "section": "locations",
-    "href": "https://eldenring.wiki.fextralife.com/Coastal+Cave"
-  },
-  {
-    "id": "a82aa015-3c36-403f-be96-58e07fd9ef26",
-    "mainCategory": "Limegrave",
-    "title": "Deathtouched Catacombs",
-    "dlc": "None",
-    "subCategory": "",
-    "subCategoryType": "",
-    "section": "locations",
-    "href": "https://eldenring.wiki.fextralife.com/Deathtouched+Catacombs"
-  },
-  {
-    "id": "94c1c312-f5ab-4d3c-aee1-03fe4aeaa81f",
-    "mainCategory": "Limegrave",
-    "title": "Divine Tower of Limgrave",
-    "dlc": "None",
-    "subCategory": "",
-    "subCategoryType": "",
-    "section": "locations",
-    "href": "https://eldenring.wiki.fextralife.com/Divine+Tower+of+Limgrave"
-  },
-  {
-    "id": "36c57c0f-f998-45b0-a0f9-0b6179179298",
-    "mainCategory": "Limegrave",
-    "title": "Dragon-Burnt Ruins",
-    "dlc": "None",
-    "subCategory": "",
-    "subCategoryType": "",
-    "section": "locations",
-    "href": "https://eldenring.wiki.fextralife.com/Dragon-Burnt+Ruins"
-  },
-  {
-    "id": "c8394e45-bdd0-4a45-8ee7-479d2538e501",
-    "mainCategory": "Limegrave",
-    "title": "Forlorn Hound Evergaol",
-    "dlc": "None",
-    "subCategory": "",
-    "subCategoryType": "",
-    "section": "locations",
-    "href": "https://eldenring.wiki.fextralife.com/Forlorn+Hound+Evergaol"
-  },
-  {
-    "id": "13ac2ac5-657c-4bcc-9a16-86746e57f158",
-    "mainCategory": "Limegrave",
-    "title": "Fort Haight",
-    "dlc": "None",
-    "subCategory": "",
-    "subCategoryType": "",
-    "section": "locations",
-    "href": "https://eldenring.wiki.fextralife.com/Fort+Haight"
-  },
-  {
-    "id": "1ab69315-ca62-4810-a006-0941db0a8240",
-    "mainCategory": "Limegrave",
-    "title": "Fringefolk Hero's Grave",
-    "dlc": "None",
-    "subCategory": "",
-    "subCategoryType": "",
-    "section": "locations",
-    "href": "https://eldenring.wiki.fextralife.com/Fringefolk+Hero's+Grave"
-  },
-  {
-    "id": "466395e5-80cc-4d0e-b4cb-0805c685831e",
-    "mainCategory": "Limegrave",
-    "title": "Gatefront Ruins",
-    "dlc": "None",
-    "subCategory": "",
-    "subCategoryType": "",
-    "section": "locations",
-    "href": "https://eldenring.wiki.fextralife.com/Gatefront+Ruins"
-  },
-  {
-    "id": "4d422c7c-f4b9-466d-a4e4-0d274abda25d",
-    "mainCategory": "Limegrave",
-    "title": "Groveside Cave",
-    "dlc": "None",
-    "subCategory": "",
-    "subCategoryType": "",
-    "section": "locations",
-    "href": "https://eldenring.wiki.fextralife.com/Groveside+Cave"
-  },
-  {
-    "id": "b7acb061-a2e5-4587-8b34-5d40147b8619",
-    "mainCategory": "Limegrave",
-    "title": "Highroad Cave",
-    "dlc": "None",
-    "subCategory": "",
-    "subCategoryType": "",
-    "section": "locations",
-    "href": "https://eldenring.wiki.fextralife.com/Highroad+Cave"
-  },
-  {
-    "id": "501c2117-c450-4182-8daf-74c8f3ebb2d8",
-    "mainCategory": "Limegrave",
-    "title": "Limgrave Colosseum",
-    "dlc": "None",
-    "subCategory": "",
-    "subCategoryType": "",
-    "section": "locations",
-    "href": "https://eldenring.wiki.fextralife.com/Limgrave+Colosseum"
-  },
-  {
-    "id": "b52fba78-9e7c-4efb-ba4c-b04dfd478d9e",
-    "mainCategory": "Limegrave",
-    "title": "Limgrave Tunnels",
-    "dlc": "None",
-    "subCategory": "",
-    "subCategoryType": "",
-    "section": "locations",
-    "href": "https://eldenring.wiki.fextralife.com/Limgrave+Tunnels"
-  },
-  {
-    "id": "2aeac8dc-8d77-4d51-bb57-09656a7d37a5",
-    "mainCategory": "Limegrave",
-    "title": "Minor Erdtree (Mistwood)",
-    "dlc": "None",
-    "subCategory": "",
-    "subCategoryType": "",
-    "section": "locations",
-    "href": "https://eldenring.wiki.fextralife.com/Minor+Erdtree+(Mistwood)"
-  },
-  {
-    "id": "ece79593-7f89-4297-ad0a-c5bbfcb9ed96",
-    "mainCategory": "Limegrave",
-    "title": "Mistwood",
-    "dlc": "None",
-    "subCategory": "",
-    "subCategoryType": "",
-    "section": "locations",
-    "href": "https://eldenring.wiki.fextralife.com/Mistwood"
-  },
-  {
-    "id": "536c43eb-831b-44ba-9204-8251d1c25f08",
-    "mainCategory": "Limegrave",
-    "title": "Mistwood Ruins",
-    "dlc": "None",
-    "subCategory": "",
-    "subCategoryType": "",
-    "section": "locations",
-    "href": "https://eldenring.wiki.fextralife.com/Mistwood+Ruins"
-  },
-  {
-    "id": "525b2947-11fd-49de-84a4-813c4f6b2ac6",
-    "mainCategory": "Limegrave",
-    "title": "Murkwater Catacombs",
-    "dlc": "None",
-    "subCategory": "",
-    "subCategoryType": "",
-    "section": "locations",
-    "href": "https://eldenring.wiki.fextralife.com/Murkwater+Catacombs"
-  },
-  {
-    "id": "d3e949f7-16f8-4bb8-9a9d-43b7f1f3c8d8",
-    "mainCategory": "Limegrave",
-    "title": "Murkwater Cave",
-    "dlc": "None",
-    "subCategory": "",
-    "subCategoryType": "",
-    "section": "locations",
-    "href": "https://eldenring.wiki.fextralife.com/Murkwater+Cave"
-  },
-  {
-    "id": "e181b889-8a6c-486f-8e83-a5e7c934e8c6",
-    "mainCategory": "Limegrave",
-    "title": "Siofra River Well",
-    "dlc": "None",
-    "subCategory": "",
-    "subCategoryType": "",
-    "section": "locations",
-    "href": "https://eldenring.wiki.fextralife.com/Siofra+River+Well"
-  },
-  {
-    "id": "88d2db69-aded-4109-94f4-8a3fcb699e8e",
-    "mainCategory": "Limegrave",
-    "title": "Starfall Crater",
-    "dlc": "None",
-    "subCategory": "",
-    "subCategoryType": "",
-    "section": "locations",
-    "href": "https://eldenring.wiki.fextralife.com/Starfall+Crater"
-  },
-  {
-    "id": "71dd985c-5b21-4bed-bc20-d1902b9a984f",
-    "mainCategory": "Limegrave",
-    "title": "Stormfoot Catacombs",
-    "dlc": "None",
-    "subCategory": "",
-    "subCategoryType": "",
-    "section": "locations",
-    "href": "https://eldenring.wiki.fextralife.com/Stormfoot+Catacombs"
-  },
-  {
-    "id": "5e08a168-5304-4ffc-9bb4-8db4a082b143",
-    "mainCategory": "Limegrave",
-    "title": "Stormgate",
-    "dlc": "None",
-    "subCategory": "",
-    "subCategoryType": "",
-    "section": "locations",
-    "href": "https://eldenring.wiki.fextralife.com/Stormgate"
-  },
-  {
-    "id": "2c430048-a4a6-4dd3-98f6-8cd8b76eb5bc",
-    "mainCategory": "Limegrave",
-    "title": "Stormhill",
-    "dlc": "None",
-    "subCategory": "",
-    "subCategoryType": "",
-    "section": "locations",
-    "href": "https://eldenring.wiki.fextralife.com/Stormhill"
-  },
-  {
-    "id": "12a25c8a-400e-4de0-bf33-a0d263443305",
-    "mainCategory": "Limegrave",
-    "title": "Stormhill Evergaol",
-    "dlc": "None",
-    "subCategory": "",
-    "subCategoryType": "",
-    "section": "locations",
-    "href": "https://eldenring.wiki.fextralife.com/Stormhill+Evergaol"
-  },
-  {
-    "id": "b4b6e37e-89a3-4631-9d8f-10ae96b268e8",
-    "mainCategory": "Limegrave",
-    "title": "Stormhill Shack",
-    "dlc": "None",
-    "subCategory": "",
-    "subCategoryType": "",
-    "section": "locations",
-    "href": "https://eldenring.wiki.fextralife.com/Stormhill+Shack"
-  },
-  {
-    "id": "295684d2-68f8-4f9b-8340-1ded44281a64",
-    "mainCategory": "Limegrave",
-    "title": "Stranded Graveyard",
-    "dlc": "None",
-    "subCategory": "",
-    "subCategoryType": "",
-    "section": "locations",
-    "href": "https://eldenring.wiki.fextralife.com/Stranded+Graveyard"
-  },
-  {
-    "id": "c78b60e0-bef4-4477-ab7d-d2f9b9539128",
-    "mainCategory": "Limegrave",
-    "title": "Summonwater Village",
-    "dlc": "None",
-    "subCategory": "",
-    "subCategoryType": "",
-    "section": "locations",
-    "href": "https://eldenring.wiki.fextralife.com/Summonwater+Village"
-  },
-  {
-    "id": "e8755c87-5f2d-4d39-a185-d53bff1bb403",
-    "mainCategory": "Limegrave",
-    "title": "Third Church of Marika",
-    "dlc": "None",
-    "subCategory": "",
-    "subCategoryType": "",
-    "section": "locations",
-    "href": "https://eldenring.wiki.fextralife.com/Third+Church+of+Marika"
-  },
-  {
-    "id": "83576868-9385-422c-ac38-da5f1bce8264",
-    "mainCategory": "Limegrave",
-    "title": "Warmaster's Shack",
-    "dlc": "None",
-    "subCategory": "",
-    "subCategoryType": "",
-    "section": "locations",
-    "href": "https://eldenring.wiki.fextralife.com/Warmaster's+Shack"
-  },
-  {
-    "id": "42d6e2b5-d766-412c-b678-358fadbfc00b",
-    "mainCategory": "Limegrave",
-    "title": "Waypoint Ruins",
-    "dlc": "None",
-    "subCategory": "",
-    "subCategoryType": "",
-    "section": "locations",
-    "href": "https://eldenring.wiki.fextralife.com/Waypoint+Ruins"
+    "href": "https://eldenring.wiki.fextralife.com/Shaman+Village"
   }
 ]

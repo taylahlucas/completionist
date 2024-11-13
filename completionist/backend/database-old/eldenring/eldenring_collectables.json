@@ -1491,5 +1491,398 @@
     "subCategoryType": "",
     "section": "collectables",
     "href": "https://eldenring.wiki.fextralife.com/Godfrey+Icon"
+  },
+  {
+    "id": "fa815ec1-63ef-470c-af9e-97ecbf0b67ec",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Black Knife",
+    "subCategory": "Legendary Weapons",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Black+Knife"
+  },
+  {
+    "id": "132b9c3c-a347-4f23-befc-842ac234cbd1",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Godslayer's Greatsword",
+    "subCategory": "Legendary Weapons",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Godslayer's+Greatsword"
+  },
+  {
+    "id": "66500cc1-98a3-474f-9124-8cdbe28c2087",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Ancient Meteoric Ore Greatsword",
+    "subCategory": "Legendary Weapons",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Ancient+Meteoric+Ore+Greatsword"
+  },
+  {
+    "id": "c52a56c6-c3b3-40bc-8213-8d3d3fd7cd41",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Sword of Darkness",
+    "subCategory": "Legendary Weapons",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Sword+of+Darkness"
+  },
+  {
+    "id": "22c05886-e49c-4368-a004-ba12dc5f9292",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Sword of Light",
+    "subCategory": "Legendary Weapons",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Sword+of+Light"
+  },
+  {
+    "id": "8dd1684e-5ad8-4efd-b842-209dd8d42baa",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Euporia",
+    "subCategory": "Legendary Weapons",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Euporia"
+  },
+
+  {
+    "id": "b20e2fec-50b3-4558-bc29-9a3a08b58532",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Divine Bird Warrior Ornis",
+    "subCategory": "Legendary Spirit Ashes",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Divine+Bird+Warrior+Ornis"
+  },
+  {
+    "id": "121ec44a-e7df-47d3-acb6-276fefca2d20",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Taylew the Golem Smith",
+    "subCategory": "Legendary Spirit Ashes",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Taylew+the+Golem+Smith"
+  },
+  {
+    "id": "55d6c224-5658-40ab-81e6-f402c14e4183",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Ancient Dragon Florissax",
+    "subCategory": "Legendary Spirit Ashes",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Ancient+Dragon+Florissax"
+  },
+
+  {
+    "id": "65efb07e-4258-4cf9-9bae-e28fe2263af6",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Ansbach's Set",
+    "subCategory": "Armour Sets",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Ansbach's+Set"
+  },
+  {
+    "id": "f6b24856-8d78-40c8-8398-b05b1c0946a4",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Ascetic's Set",
+    "subCategory": "Armour Sets",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Ascetic's+Set"
+  },
+  {
+    "id": "a1e19541-3b64-4d39-b642-e15926f2bd85",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Black Knight Set",
+    "subCategory": "Armour Sets",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Black+Knight+Set"
+  },
+  {
+    "id": "c0258728-94af-43fd-952d-a98e77e43947",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Common Soldier Set",
+    "subCategory": "Armour Sets",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Common+Soldier+Set"
+  },
+  {
+    "id": "b03dbf44-004a-4fb2-b6f0-7098a174989d",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Dancer's Set",
+    "subCategory": "Armour Sets",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Dancer's+Set"
+  },
+  {
+    "id": "04a91c80-561d-498c-b898-38586215135e",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Dane's Set",
+    "subCategory": "Armour Sets",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Dane's+Set"
+  },
+  {
+    "id": "9fec12d8-0216-4bd3-ab0a-f3a2e95b54f2",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Death Knight Set",
+    "subCategory": "Armour Sets",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Death+Knight+Set"
+  },
+  {
+    "id": "80407929-9410-435d-a072-1115e6ed1a16",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Divine Beast Set",
+    "subCategory": "Armour Sets",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Divine+Beast+Set"
+  },
+  {
+    "id": "897912c8-3c03-48af-8dc6-e29762f5d6e3",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Divine Bird Set",
+    "subCategory": "Armour Sets",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Divine+Bird+Set"
+  },
+  {
+    "id": "29d2a04f-1d92-40af-8673-f2d75a21b638",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Fire Knight Set",
+    "subCategory": "Armour Sets",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Fire+Knight+Set"
+  },
+  {
+    "id": "dc81d82c-2569-4586-ab04-7e5727c4f1f7",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Freyja's Set",
+    "subCategory": "Armour Sets",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Freyja's+Set"
+  },
+  {
+    "id": "4b16d10d-2c22-45cd-81e3-1d6c928f7fbd",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Gaius's Set",
+    "subCategory": "Armour Sets",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Gaius's+Set"
+  },
+  {
+    "id": "ddb35e8f-c2ae-40d2-b82b-70c0a76e429c",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Gravebird Set",
+    "subCategory": "Armour Sets",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Gravebird+Set"
+  },
+  {
+    "id": "1b571337-391d-4c24-92b5-bc731ed8470a",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "High Priest Set",
+    "subCategory": "Armour Sets",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/High+Priest+Set"
+  },
+  {
+    "id": "5393e481-489d-431c-b65f-8d9c685b6a88",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Horned Warrior Set",
+    "subCategory": "Armour Sets",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Horned+Warrior+Set"
+  },
+  {
+    "id": "0d33e7a7-79e7-4999-b3d9-f680403335ab",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Hornsent Set",
+    "subCategory": "Armour Sets",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Hornsent+Set"
+  },
+  {
+    "id": "ea805865-8384-4f0b-9173-7ea6ab9ba090",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Igon's Set",
+    "subCategory": "Armour Sets",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Igon's+Set"
+  },
+  {
+    "id": "62c979e7-dcec-482b-bd8a-6c9e536bd74c",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Iron Rivet Set",
+    "subCategory": "Armour Sets",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Iron+Rivet+Set"
+  },
+  {
+    "id": "1fb50a1b-5a91-42c2-b03f-a82fe734273a",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Highland Warrior Set",
+    "subCategory": "Armour Sets",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Highland+Warrior+Set"
+  },
+  {
+    "id": "f4d4eb6e-2dbb-48c7-abc0-81bbd87e24f4",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Messmer Soldier Set",
+    "subCategory": "Armour Sets",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Messmer+Soldier+Set"
+  },
+  {
+    "id": "47835e09-da95-4ba4-ae1b-27195a940000",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Messmer's Set",
+    "subCategory": "Armour Sets",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Messmer's+Set"
+  },
+  {
+    "id": "8116e3e2-4a7e-46b3-b881-dddd3bbe90f7",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Night Set",
+    "subCategory": "Armour Sets",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Night+Set"
+  },
+  {
+    "id": "685c3b96-ada4-40d9-81b9-d70951893085",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Oathseeker Knight Set",
+    "subCategory": "Armour Sets",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Oathseeker+Knight+Set"
+  },
+  {
+    "id": "1571bbef-3e38-4f19-bc4f-f619a159b6ce",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Rakshasa Set",
+    "subCategory": "Armour Sets",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Rakshasa+Set"
+  },
+  {
+    "id": "26c85cd9-665a-4342-8b84-628e926fc9d2",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Rellana's Set",
+    "subCategory": "Armour Sets",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Rellana's+Set"
+  },
+  {
+    "id": "90d45c42-751c-41bc-8c99-cb5f4a28460b",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Shadow Militiaman Set",
+    "subCategory": "Armour Sets",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Shadow+Militiaman+Set"
+  },
+  {
+    "id": "89a2ec90-83a2-4cf8-8284-56c2edd64f72",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Solitude Set",
+    "subCategory": "Armour Sets",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Solitude+Set"
+  },
+  {
+    "id": "c24bf148-1239-4526-8ed7-6dd730d64932",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Thiollier's Set",
+    "subCategory": "Armour Sets",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Thiollier's+Set"
+  },
+  {
+    "id": "f0a92670-ec09-405e-bb6a-d3ca1c870422",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Verdigris Set",
+    "subCategory": "Armour Sets",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Verdigris+Set"
+  },
+  {
+    "id": "4a6d292e-5573-40c1-b56d-bd8e0fd2a2ed",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Young Lion's Set",
+    "subCategory": "Armour Sets",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Young+Lion's+Set"
   }
+
 ]
