@@ -8,10 +8,16 @@ function convertToSnakeCase(string) {
 }
 // Function to add UUID to each object in the array
 const addHrefToObjects = (objects) => {
-  return objects.map((obj) => ({ 
+  return objects.map((obj) => {
+    const cleanedTitle = obj.title.replace(/\s*\(\d(?:st|nd|rd|th) Encounter\)/g, '');
+
+    return { 
       ...obj,
-			href: !obj.href ? `https://witcher.fandom.com/wiki/${convertToSnakeCase(obj.title)}` : obj.href
-  }));
+			href: !obj.href ? `https://eldenring.wiki.fextralife.com/${cleanedTitle.replace(/\s+/g, '+')}` : obj.href
+  }
+  }
+  
+);
 };
 
 // Read JSON file
@@ -36,7 +42,7 @@ const writeJsonFile = (filePath, data) => {
 };
 
 // Specify the path to your JSON file
-const jsonFilePath = 'witcher3.json';
+const jsonFilePath = 'test.json';
 
 // Read objects from the JSON file
 const objects = readJsonFile(jsonFilePath);

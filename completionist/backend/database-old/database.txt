@@ -10,24 +10,7 @@ Quests
   href?: string
   dlc: string
   conflictingIds: string[]
-}
-
-Locations
-{
-  id: generated_uuid
-  mainCategory: string,
-  subCategory?: string,
-	title: string,
-	dlc: string
-}
-
-Miscellaneous
-{
-  id: generated_uuid
-  mainCategory: string,
-  subCategory?: string,
-	title: string,
-  dlc: string
+  section: 'quests',
 }
 
 Collectables
@@ -38,70 +21,157 @@ Collectables
   subCategoryType?: string,
   title: string,
   prerequisite?: string,
-  dlc: string
+  dlc: string,
+  href?: string,
+  section: 'collectables',
 }
 
+Locations
+{
+  id: generated_uuid
+  title: string,
+  mainCategory: string,
+  subCategory?: string,
+  subCategoryType?: string,
+	dlc: string,
+  href?: string,
+  section: 'locations',
+}
 
-TODO: 
+Miscellaneous
+{
+  id: generated_uuid
+  mainCategory: string,
+  subCategory?: string,
+	title: string,
+  dlc: string,
+  section: 'miscellaneous',
+  href?: string,
+}
 
-HEARTHFIRE QUESTS
-https://en.uesp.net/wiki/Category:Skyrim-Hearthfire-Quests
+Elden Ring
 
-Bandit Attack
-Build Your Own Home
-BYOH HouseFalkreath
-BYOH HouseHjaalmarch
-BYOH HousePale
+QUESTS
 
-Speak to the Jarl of Dawnstar about the land for sale
-Speak to the Jarl of Falkreath
-Speak to the Steward of Falkreath about the land for sale
-Speak to the Steward of Morthal about the land for sale
+// Liurnia of the Lakes
+Boc the Seamster (2nd Encounter)
+Hyetta (2nd Encounter)
+Thops
+Patches (2nd Encounter)
+Rya (1st Encounter)
+Blackguard Big Boggart (1st Encounter)
+White Mask Varre (2nd Encounter)
+Edgar (3rd Encounter)
+Jar Bairn (1st Encounter)
+Diallos (1st Encounter)
+Bloody Finger Hunter Yura (2nd Encounter)
+Smithing Master Iji
+Seluvis
+Nepheli Loux (2nd Encounter)
+Pidia, Carian Servent
+Boc the Seamster (3rd Encounter)
+Albus
+Latenna (1st Encounter)
+Miriel
+D Hunter of the Dead (3rd Encounter)
+Festering Fingerprint Vyke
+Iron Fist Alexander (2nd Encounter)
+Sorcerer Rogier (2nd Encounter)
 
-Use the Carpenter's Workbench to build the foundation of your house
-Use the Drafting Table to begin building your house
+// Siofra River
+Blaid (2nd Encounter)
 
-Visit your new property in Falkreath hold
-Visit your new property in Hjaalmarch hold
-Visit your new property in The Pale hold
+// Altus Plateau
+Blackguard Big Boggart (2nd Encounter)
+Boc the Seamster (4th Encounter)
+Brother Corhyn (1st Encounter)
+Dung Eater
+Millicent (1st Encounter)
+Sellen
+Primeval Sorcerer Azur
+Iron Fist Alexander (3rd Encounter)
+Goldmask (1st Encounter)
+Yura
+Melina
+Nepheli
+Hyetta (3rd Encounter)
 
-// TODO: Update location items to have subCategoryType ???
+// Caelid
+Gowry
+Iron Fist Alexander (4th Encounter)
+Millicent (2nd Encounter)
+Great Jar
+Blaidd (2nd Encounter)
+Witch-Hunter Jerren
+Patches (3rd Encounter)
 
-////
+// Mt. Gelmir
+Knight Bernahl (1st Encounter)
+Iron Fist Alexander (5th Encounter)
+Millicent (3rd Encounter)
+Patches (4th Encounter)
+Rya (2nd Encounter)
+Sorceress Sellen (1st Encounter)
+Tanith
+Great Horned Tragoth
+Blackguard
+Diallos (2nd Encounter)
+
+// Mountaintops of the Giants
+Brother Corhyn (2nd Encounter)
+Goldmask (2nd Encounter)
+Millicent (4th Encounter)
+Shabriri
+Jar-Bairn
+Diallos (3rd Encounter)
+Patches (5th Encounter)
+Latenna (2nd Encounter)
+Bloody Finger Hunter Yura (3rd Encounter)
+Knight Bernahl (2nd Encounter)
+
+// Ainsel River Main and Nokron
+Blaidd (3rd Encounter)
+Miniature Ranni
+
+// Deeproot Depths
+D's Twin Brother
+Fia
+
+// Consecrated Snowfield
+Patches (6th Encounter)
+Latenna (3rd Encounter)
+
+// Crumbling Farum Azula
+Iron Fist Alexander (6th Encounter)
+Knight Bernahl (3rd Encounter)
+Jar Bairn (2nd Encounter)
+Diallos (4th Encounter)
+
+// City of Ash
+Brother Corhyn (3rd Encounter)
+Goldmask (3rd Encounter)
+
+
+//https://eldenring.wiki.fextralife.com/Elden+Ring+Wiki
 
 Can you do the same for the following data:
 
-
-Can you do the same thing for the following data:
-
-can you convert the following Witcher 3 Locations to the following json data, replacing id with a uniquely generated uuid:
-
-	{
-		"id": <generated_uuid>,
-		"mainCategory": "Hearts Of Stone",
-		"subCategory": "Diagrams",
-		"subCategoryType": "Other",
-		"title":  <given_value>,
-		"prerequisite": "",
-		"dlc": "Hearts Of Stone"
-	},
-
-can you convert the following Fallout 3 Quests to the following json data, replacing id with a uniquely generated uuid:
+can you convert the following Elden Ring Quests to the following json data, replacing id with a uniquely generated uuid:
 
 	{
 			"id": <generated_uuid>,
-			"mainCategory": "Mothership Zeta",
+			"mainCategory": "Liurnia of the Lakes",
 			"title": <quest title>
 			"hold": ""
-			"dlc": "Mothership Zeta",
-			"subCategory": "Main Quests"
+			"dlc": "None",
+			"subCategory": ""
 			"subCategoryType": "",
-			"location": "",
-			"href": "",
+			"location": "Liurnia of the Lakes",
 			"conflictingIds": []
+      "section": "quests", 
 	}
 
-	can you convert the following Fallout 3 Locations to the following json data, replacing id with a uniquely generated uuid:
+	can you convert the following Fallout 3 Collectables to the following json data, replacing id with a uniquely generated uuid:
 
 	{
     "id":  <generated_uuid>,
@@ -110,9 +180,6 @@ can you convert the following Fallout 3 Quests to the following json data, repla
     "dlc": "None",
     "mainCategory": "Main"
   },
-
-
-https://fallout.fandom.com/wiki/Fallout_3_locations
 
 can you convert the following Fallout 3 Miscellaneous to the following json data, replacing id with a uniquely generated uuid:
 
@@ -136,12 +203,6 @@ can you convert the following Fallout 3 Locations to the following json data, re
 	"mainCategory": "Mothership Zeta"
 },
 
-// https://fallout.fandom.com/wiki/Fallout_3_locations
-
-
-// TODO: Go through and add parent of nested child locations, everything before Pilgrim's Landing
-
-
 // https://game8.co/games/Hogwarts-Legacy/archives/403791#hl_1
 
 // https://hogwarts-legacy.fandom.com/wiki/Beasts
@@ -149,3 +210,26 @@ can you convert the following Fallout 3 Locations to the following json data, re
 //https://www.powerpyx.com/hogwarts-legacy-collectibles-guide-100-completion/
 
 //https://hogwarts-legacy.fandom.com/wiki/Collections
+
+// TODO: 
+
+HEARTHFIRE QUESTS
+https://en.uesp.net/wiki/Category:Skyrim-Hearthfire-Quests
+
+Bandit Attack
+Build Your Own Home
+BYOH HouseFalkreath
+BYOH HouseHjaalmarch
+BYOH HousePale
+
+Speak to the Jarl of Dawnstar about the land for sale
+Speak to the Jarl of Falkreath
+Speak to the Steward of Falkreath about the land for sale
+Speak to the Steward of Morthal about the land for sale
+
+Use the Carpenter's Workbench to build the foundation of your house
+Use the Drafting Table to begin building your house
+
+Visit your new property in Falkreath hold
+Visit your new property in Hjaalmarch hold
+Visit your new property in The Pale hold
