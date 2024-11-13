@@ -24,6 +24,7 @@ const gameSchema = () => Joi.object().keys({
 });
 
 const dataSchema = Joi.object().keys({
+  eldenRing: gameSchema,
 	fallout3: gameSchema,
 	fallout4: gameSchema,
 	skyrim: gameSchema,
@@ -49,5 +50,6 @@ const userSchema = Joi.object().keys({
   }).required(),
   gameData: dataSchema
 });
+
 
 module.exports = userSchema;

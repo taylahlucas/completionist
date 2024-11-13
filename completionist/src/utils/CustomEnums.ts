@@ -42,6 +42,7 @@ export enum IconTypeEnum {
 }
 
 export enum GameKeyEnum {
+  ELDEN_RING = 'eldenring',
 	FALLOUT_3 = 'fallout3',
   FALLOUT_4 = 'fallout4',
 	SKYRIM = 'skyrim',

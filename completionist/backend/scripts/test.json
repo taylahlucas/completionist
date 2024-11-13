@@ -1,42 +1,82 @@
 [
   {
-    "id": "7990b42e-645a-43ac-aef6-b62ff0a02bd8",
-    "mainCategory": "Shadow Of The Erdtree",
-    "title": "Albinauric's Shack",
-    "subCategory": "Scaduview",
+    "id": "83bedb64-9fdc-4dde-b6cb-2a7706af4efb",
+    "mainCategory": "Main",
+    "title": "Albinauric Rise",
+    "dlc": "None",
+    "subCategory": "Consecrated Snowfield",
     "subCategoryType": "",
-    "dlc": "Shadow Of The Erdtree",
     "section": "locations",
-    "href": "https://eldenring.wiki.fextralife.com/Albinauric's+Shack"
+    "href": "https://eldenring.wiki.fextralife.com/Albinauric+Rise"
   },
   {
-    "id": "a10f9831-a1dc-49cc-921e-fb39eff5c97b",
-    "mainCategory": "Shadow Of The Erdtree",
-    "title": "Finger Ruins of Dheo",
-    "subCategory": "Scaduview",
+    "id": "4ae2963d-c439-4b60-9102-f31839e1f285",
+    "mainCategory": "Main",
+    "title": "Apostate Derelict",
+    "dlc": "None",
+    "subCategory": "Consecrated Snowfield",
     "subCategoryType": "",
-    "dlc": "Shadow Of The Erdtree",
     "section": "locations",
-    "href": "https://eldenring.wiki.fextralife.com/Finger+Ruins+of+Dheo"
+    "href": "https://eldenring.wiki.fextralife.com/Apostate+Derelict"
   },
   {
-    "id": "3704b025-b58e-4fc9-af98-46708ad353d1",
-    "mainCategory": "Shadow Of The Erdtree",
-    "title": "Scadutree Chalice",
-    "subCategory": "Scaduview",
+    "id": "31538442-6356-4580-bed6-3f1229343639",
+    "mainCategory": "Main",
+    "title": "Cave of the Forlorn",
+    "dlc": "None",
+    "subCategory": "Consecrated Snowfield",
     "subCategoryType": "",
-    "dlc": "Shadow Of The Erdtree",
     "section": "locations",
-    "href": "https://eldenring.wiki.fextralife.com/Scadutree+Chalice"
+    "href": "https://eldenring.wiki.fextralife.com/Cave+of+the+Forlorn"
   },
   {
-    "id": "47cd3168-5bb2-47c8-ba90-50e32511a4fc",
-    "mainCategory": "Shadow Of The Erdtree",
-    "title": "Shaman Village",
-    "subCategory": "Scaduview",
+    "id": "ee3d0f5e-fc3a-4847-b767-57fda10f646f",
+    "mainCategory": "Main",
+    "title": "Consecrated Snowfield Catacombs",
+    "dlc": "None",
+    "subCategory": "Consecrated Snowfield",
     "subCategoryType": "",
-    "dlc": "Shadow Of The Erdtree",
     "section": "locations",
-    "href": "https://eldenring.wiki.fextralife.com/Shaman+Village"
-  }
+    "href": "https://eldenring.wiki.fextralife.com/Consecrated+Snowfield+Catacombs"
+  },
+  {
+    "id": "bb4dc606-7439-44fc-ac4b-639f2782b681",
+    "mainCategory": "Main",
+    "title": "Minor Erdtree (Consecrated Snowfield)",
+    "dlc": "None",
+    "subCategory": "Consecrated Snowfield",
+    "subCategoryType": "",
+    "section": "locations",
+    "href": "https://eldenring.wiki.fextralife.com/Minor+Erdtree+(Consecrated+Snowfield)"
+  },
+  {
+    "id": "455b5f6b-6f10-47ec-9720-a2cab7b29ed0",
+    "mainCategory": "Main",
+    "title": "Ordina, Liturgical Town",
+    "dlc": "None",
+    "subCategory": "Consecrated Snowfield",
+    "subCategoryType": "",
+    "section": "locations",
+    "href": "https://eldenring.wiki.fextralife.com/Ordina,+Liturgical+Town"
+  },
+  {
+    "id": "d86248f6-0134-4a51-ae95-e23ee11736ca",
+    "mainCategory": "Main",
+    "title": "Yelough Anix Ruins",
+    "dlc": "None",
+    "subCategory": "Consecrated Snowfield",
+    "subCategoryType": "",
+    "section": "locations",
+    "href": "https://eldenring.wiki.fextralife.com/Yelough+Anix+Ruins"
+  },
+  {
+    "id": "f153b76f-adf3-47bf-9bc9-720bbf7da000",
+    "mainCategory": "Main",
+    "title": "Yelough Anix Tunnel",
+    "dlc": "None",
+    "subCategory": "Consecrated Snowfield",
+    "subCategoryType": "",
+    "section": "locations",
+    "href": "https://eldenring.wiki.fextralife.com/Yelough+Anix+Tunnel"
+  },
 ]

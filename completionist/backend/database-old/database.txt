@@ -76,13 +76,13 @@ can you convert the following Elden Ring Quests to the following json data, repl
 
 	{
 			"id": <generated_uuid>,
-			"mainCategory": "Liurnia of the Lakes",
+			"mainCategory": "Liurnia Of The Lakes",
 			"title": <quest title>
 			"hold": ""
 			"dlc": "None",
 			"subCategory": ""
 			"subCategoryType": "",
-			"location": "Liurnia of the Lakes",
+			"location": "Liurnia Of The Lakes",
 			"conflictingIds": []
       "section": "quests", 
 	}

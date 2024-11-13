@@ -1,3 +1,93 @@
+const eldenRingSettingsConfig = {
+	"general": [
+		{
+			"section": {
+				"id": "quests",
+				"isActive": true
+			},
+			"categories": [
+				{
+					"id": "mainQuests",
+					"isActive": true
+				},
+			],
+			"dlc": [
+				{
+					"id": "shadowOfTheErdtree",
+					"isActive": true
+				},
+			]
+		},
+		{
+			"section": {
+				"id": "collectables",
+				"isActive": true
+			},
+			"categories": [
+				{
+					"id": "legendaryWeapons",
+					"isActive": true
+				},
+				{
+					"id": "legendarySpiritAshes",
+					"isActive": true
+				},
+				{
+					"id": "armourSets",
+					"isActive": true
+				},
+			],
+			"dlc": [
+				{
+					"id": "shadowOfTheErdtree",
+					"isActive": true
+				},
+			]
+		},
+		{
+			"section": {
+				"id": "locations",
+				"isActive": true
+			},
+			"categories": [
+				{
+					"id": "main",
+					"isActive": true
+				}
+			],
+			"dlc": [
+				{
+					"id": "shadowOfTheErdtree",
+					"isActive": true
+				},
+			]
+		},
+		{
+			"section": {
+				"id": "miscellaneous",
+				"isActive": true
+			},
+			"categories": [
+				{
+					"id": "legendarySpells",
+					"isActive": true
+				},
+				{
+					"id": "achievementBosses",
+					"isActive": true
+				},
+			],
+			"dlc": []
+		}
+	],
+	"dlc": [
+		{
+			"id": "shadowOfTheErdtree",
+			"isActive": true
+		},
+	]
+};
+
 const fallout3SettingsConfig = {
 	"general": [
 		{

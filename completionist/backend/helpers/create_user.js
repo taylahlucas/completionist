@@ -1,4 +1,5 @@
 const {
+	eldenRingSettingsConfig,
   fallout3SettingsConfig,
   fallout4SettingsConfig,
   skyrimSettingsConfig,
@@ -6,6 +7,7 @@ const {
 } = require('../models/initialUserData');
 
 const defaultActiveGames = [
+	{ id: 'eldenRing', isActive: false },
   { id: 'fallout3', isActive: false },
   { id: 'fallout4', isActive: false },
   { id: 'skyrim', isActive: false },
@@ -35,6 +37,11 @@ const defaultSignup = {
 }
 
 const defaultGameData = {
+	eldenRing: {
+		appId: 1245620,
+		...initialGameData,
+		settingsConfig: eldenRingSettingsConfig
+	},
 	fallout3: {
 		appId: 22300,
 		...initialGameData,
