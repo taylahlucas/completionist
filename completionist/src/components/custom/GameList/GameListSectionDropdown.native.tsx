@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Dropdown from '@components/general/Dropdown/Dropdown.native';
 import GameListItem from './GameListItem.native';
-import { ActiveGameData } from '@utils/CustomInterfaces';
+import { GameData } from '@utils/CustomInterfaces';
 import GameListSectionHeader from './GameListSectionHeader.native';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import { GameListDropdownContainer } from './GameListItemStyledComponents.native';
@@ -10,7 +10,7 @@ import { useGameListItem } from './hooks/useGameListItem.native';
 interface GameListSectionDropdown {
 	testID?: string;
 	title: string;
-	data: ActiveGameData[];
+	data: GameData[];
 }
 
 const GameListSectionDropdown = ({ testID, title, data }: GameListSectionDropdown) => {
@@ -26,11 +26,11 @@ const GameListSectionDropdown = ({ testID, title, data }: GameListSectionDropdow
 			setOpen={() => setIsOpen(!isOpen)}
 		>
 			<GameListDropdownContainer>
-				{data.map((game: ActiveGameData, index: number) => (
+				{data.map((game: GameData, index: number) => (
 					<GameListItem
 						key={index}
 						game={game}
-						enabled={game.isActive}
+						enabled={game[1].isActive}
 						enabledColor={game.isActive ? theme.lightGrey : theme.midGrey}
 						onPress={(): void => actions.handleGameSelection(game)}
 					/>

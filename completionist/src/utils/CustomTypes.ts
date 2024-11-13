@@ -66,7 +66,7 @@ export type NavigationHeaderRightActionTypes = 'settings' | 'filter' | 'logout' 
 export type NavigatorParams = {
 	[UnauthorizedScreenEnum.Landing]: undefined;
   [UnauthorizedScreenEnum.Login]: undefined;
-	[UnauthorizedScreenEnum.AccountVerification]: undefined;
+	[UnauthorizedScreenEnum.VerifyAccount]: undefined;
 	[UnauthorizedScreenEnum.SelectInitialPlan]: undefined;
 	[UnauthorizedScreenEnum.SetUsername]: undefined;
 	[UnauthorizedScreenEnum.SelectFirstGame]: undefined;

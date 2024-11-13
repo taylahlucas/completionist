@@ -4,9 +4,10 @@ import useTranslateGameContent from '@utils/hooks/useTranslateGameContent.native
 import useGetTheme from '@styles/hooks/useGetTheme';
 import { AuthScreenEnum, GameKeyEnum } from '@utils/CustomEnums';
 import { ImageURISource } from 'react-native';
-import { ActiveGameData } from '@utils/CustomInterfaces';
+import { GameData } from '@utils/CustomInterfaces';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
 import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
+import { useGetActiveGames } from '@utils/hooks/useGetActiveGames.native';
 
 interface GamePrice {
 	id: GameKeyEnum;
@@ -20,11 +21,15 @@ export const useGameListItem = () => {
 	const { setSelectedGame, setSelectedGameSettings } = useMainDispatch();
 	const { filterGameList } = useFilterGameList();
 	const { translateGameName } = useTranslateGameContent();
+	const { activeGames } = useGetActiveGames();
+	console.log("HERE: ", user.gameData);
 	
 	// TODO: Update with actual price for game
-	const gamePrices: GamePrice[]  = user.activeGames.map((game) => (
-		{ id: game.id, price: '£3.99' }
-	));
+	// const gamePrices: GamePrice[]  = Object.entries(activeGames(user)).map(([key, value]) => (
+	// 	{ id: key as GameKeyEnum, price: '£3.99' }
+	// ));
+
+	const gamePrices: GamePrice = [];
 	
 	const getPriceForGame = (game: GameKeyEnum): string => {
 		return gamePrices?.find((gamePrice: GamePrice) => game === gamePrice.id)?.price ?? '';
@@ -46,10 +51,10 @@ export const useGameListItem = () => {
     }
   };
 
-	const handleGameSelection = (game: ActiveGameData): void => {
+	const handleGameSelection = (game: GameData): void => {
 		if (game.isActive) {
-			setSelectedGame(game.id);
-			setSelectedGameSettings(game.id);
+			setSelectedGame(game);
+			setSelectedGameSettings(game[0]);
 			navigation.navigate(AuthScreenEnum.DrawerStack);
 		}
 		else {
@@ -59,7 +64,7 @@ export const useGameListItem = () => {
 
 	return {
 		viewModel: {
-			activeGames: user.activeGames,
+			activeGames: [],
 			currentScreen,
 			theme,
 		},

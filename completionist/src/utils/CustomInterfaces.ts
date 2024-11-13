@@ -101,7 +101,7 @@ export interface NavigationDrawerItemData {
 export type UnauthorizedStackParamList = {
   Landing: undefined;
   Login: undefined;
-	AccountVerification: undefined;
+	VerifyAccount: undefined;
 	SelectInitialPlan: undefined;
 	SetUsername: undefined;
 	SelectFirstGame: undefined;
@@ -178,28 +178,23 @@ export interface UserSettings {
 
 export interface SettingsConfig {
   general: SettingsConfigItem[];
-  dlc: SettingsListItem[];
+  dlc: IsActive[];
 }
 
 export interface SettingsConfigItem {
-  section: SettingsListItem;
-  categories: SettingsListItem[];
-  dlc: SettingsListItem[];
+  section: IsActive;
+  categories: IsActive[];
+  dlc: IsActive[];
 }
 
-export interface SettingsListItem {
-  id: string;
-  title: string;
-  isActive: boolean;
-}
-
-export interface ActiveGameData {
-  id: GameKeyEnum;
+export interface IsActive {
+  id: GameKeyEnum | string;
   isActive: boolean;
 }
 
 export interface GeneralData {
 	appId: string;
+  isActive: boolean;
   quests: Item[];
   collectables: Item[];
   locations: Item[];
@@ -207,7 +202,7 @@ export interface GeneralData {
   settingsConfig: SettingsConfig;
 }
 
-export type UserData = {
+export type GameData = {
   [key: string]: GeneralData;
 };
 
@@ -220,9 +215,8 @@ export interface SignupData {
 export interface User extends LoginFormData {
 	steamId?: string;
 	signup: SignupData;
-  activeGames: ActiveGameData[];
   settings: UserSettings;
-  gameData: UserData;
+  gameData: GameData[];
 }
 
 export interface LoginFormData {

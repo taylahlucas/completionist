@@ -1,12 +1,13 @@
 import { createSlice } from '@reduxjs/toolkit';
 import { UnauthorizedScreenEnum, GameKeyEnum } from '@utils/CustomEnums';
 import { ScreenEnumType } from '@utils/CustomTypes';
-import { GeneralData, User } from '@utils/CustomInterfaces';
+import { GeneralData,GameData, User } from '@utils/CustomInterfaces';
 import { AppStateStatus } from 'react-native';
 import { initialFormData } from '@components/custom/LoginForm/LoginState';
 
 export const initialGameData: GeneralData = {
 	appId: '',
+	isActive: false,
 	quests: [],
 	collectables: [],
 	locations: [],
@@ -19,7 +20,6 @@ export const initialGameData: GeneralData = {
 
 export const initialUser: User = {
 	...initialFormData,
-	activeGames: [],
 	signup: {
 		verification: false,
 		setUsername: false,
@@ -29,20 +29,16 @@ export const initialUser: User = {
 		lang: 'en',
 		configs: []
 	},
-	gameData: {
-		fallout3: initialGameData,
-		fallout4: initialGameData,
-		skyrim: initialGameData,
-		witcher3: initialGameData
-	}
+	gameData: []
 }
 
 export interface MainState {
 	readonly showSplashScreen: boolean;
 	readonly appState?: AppStateStatus,
 	readonly currentScreen?: ScreenEnumType;
-	readonly selectedGame?: GameKeyEnum;
-	readonly selectedGameData?: GeneralData;
+	readonly selectedGame?: GameData;
+	// TODO: Remove this?
+	readonly selectedGameData?: GameData;
 	readonly selectedGameSettings: GameKeyEnum;
 	readonly webSignInConfigured: boolean;
 	readonly user: User;
@@ -61,10 +57,19 @@ export const initialState: MainState = {
 }
 
 const getUserDataState = (state: MainState): GeneralData => {
+	console.log("selectedGame: ", state.user.selectedGame)
+	console.log("getUserDataState: ", state.user.gameData)
+	// TODO: Fix
 	if (state.selectedGame) {
-		return state.user.gameData[state.selectedGame];
+		// return Object.entries(state.user.gameData)
+		// 	.find(
+		// 		([key, _]) => key === state.selectedGame
+		// 	)?.[1];
+			// return state.user.gameData.find((game) => game[0].id === state.selectedGame.id);
+			return initialGameData;
 	}
-	return initialUser.gameData['skyrim'];
+	return initialGameData;
+	// return initialUser.gameData;
 };
 
 const slice = createSlice({
@@ -82,7 +87,8 @@ const slice = createSlice({
 		},
 		setSelectedGame: (state, action) => {
 			state.selectedGame = action.payload;
-			state.selectedGameData = getUserDataState(state);
+			// TODO: Remove this?
+			// state.selectedGameData = getUserDataState(state);
 		},
 		setWebSignInConfigured: (state, action) => {
 			state.webSignInConfigured = action.payload;
@@ -92,7 +98,8 @@ const slice = createSlice({
 		},
 		setUser: (state, action) => {
 			state.user = action.payload;
-			state.selectedGameData = getUserDataState(state);
+			// TODO: Remove this?
+			// state.selectedGameData = getUserDataState(state);
 		},
 		setShouldUpdateUser: (state, action) => {
 			state.shouldUpdateUser = action.payload;

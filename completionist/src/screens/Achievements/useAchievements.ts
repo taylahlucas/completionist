@@ -6,6 +6,8 @@ import useGetGameProgressData from '@data/hooks/useGetGameProgressData.native';
 import useEndpoints from '@data/api/hooks/useEndpoints.native';
 import { AchievementItem } from '@utils/CustomInterfaces';
 import useEditUserData from '@data/hooks/useEditUserData.native';
+import { useGetActiveGames } from '@utils/hooks/useGetActiveGames.native';
+import { useGetCurrentGameData } from '@utils/hooks/useGetCurrentGameData.native';
 
 interface AchievementsState {
 	isOpen: boolean;
@@ -29,16 +31,23 @@ const useAchievements = () => {
 		noOfLocked: 0
 	});
 	const { filterGameList } = useFilterGameList();
-	const activeGames = filterGameList(user.activeGames, true, '');
+	const { activeGames } = useGetActiveGames(user);
+	const currentGame = useGetCurrentGameData(user, selectedGame?.toString() ?? '');
 	const { getGameProgress } = useGetGameProgressData();
 	const isGlobalAchievements = !selectedGame;
 
 
 	useEffect(() => {
 		const fetchData = async () => {
-			const currentGameId = selectedGame ? user.gameData[selectedGame].appId :  user.gameData[activeGames[0].id].appId;
+			console.log("HEREE should return game data", activeGames[0]?.[1])
+			const currentGameId = selectedGame ? currentGame?.appId : activeGames[0]?.[1].appId;
 
-			if (user.steamId) {
+			if (!currentGameId) {
+				// TODO: Could not find any game id
+				return;
+			}
+
+			if (user.steamId && currentGameId) {
 				const response = await getSteamPlayerAchievements({ userId: user.userId, steamId: user.steamId, gameId: currentGameId });
 
 				if (response && !response?.hasPermission) {

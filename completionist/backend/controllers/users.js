@@ -42,13 +42,12 @@ const getUserByUserId = authWrapper({
 const updateUser = authWrapper({
 	authFunction: async (req, res, token) => {
 		const userId = req.params.userId;
-		const { username, email, steamId, activeGames, signup, settings, gameData } = req.body;
-		let updateExpression = "set username = :username, email = :email, activeGames = :activeGames, signup = :signup, settings = :settings, gameData = :gameData";
+		const { username, email, steamId, signup, settings, gameData } = req.body;
+		let updateExpression = "set username = :username, email = :email, signup = :signup, settings = :settings, gameData = :gameData";
 		let expressionValues = {
 			":userId": userId,
 			":username": username,
 			":email": email,
-			":activeGames": activeGames,
 			":signup": signup,
 			":settings": settings,
 			":gameData": gameData

@@ -1,12 +1,12 @@
 import React from 'react';
 import { GameListItemContainer, GameListImage, GameItemTitle, GameItemTitleContainer, GameItemScore } from './GameListItemStyledComponents.native';
-import { ActiveGameData } from '@utils/CustomInterfaces';
+import { GameData } from '@utils/CustomInterfaces';
 import { useGameListItem } from './hooks/useGameListItem.native';
-import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
+import { GameKeyEnum, UnauthorizedScreenEnum } from '@utils/CustomEnums';
 import Condition from '@components/general/Condition.native';
 
 interface GameListItemProps {
-	game: ActiveGameData;
+	game: GameData;
 	enabledColor?: string;
 	enabled: boolean;
 	onPress: () => void;
@@ -14,15 +14,17 @@ interface GameListItemProps {
 
 const GameListItem = ({ game, enabledColor = 'grey', enabled, onPress }: GameListItemProps) => {
 	const { viewModel, actions } = useGameListItem();
+	console.log("GAME LIST ITEM: ", game)
+	const gameId = GameKeyEnum.SKYRIM;
 	
 	return (
 		<GameListItemContainer
-			testID={game.id}
+			testID={gameId}
 			color={enabledColor}
 			onPress={onPress}
 		>
 			<GameListImage 
-				source={actions.getGameImage(game.id)} 
+				source={actions.getGameImage(gameId)} 
 				style={{ opacity: enabled ? 0.6 : 0.2 }} 
 			/>
 			<Condition condition={viewModel.currentScreen !== UnauthorizedScreenEnum.SelectFirstGame && !enabled}>
@@ -30,7 +32,7 @@ const GameListItem = ({ game, enabledColor = 'grey', enabled, onPress }: GameLis
 					type='ListItemTitleBold' 
 					color={viewModel.theme.lightestGrey}
 				>
-					{actions.getPriceForGame(game.id)}
+					{actions.getPriceForGame(gameId)}
 				</GameItemScore>
 			</Condition>
 			<GameItemTitleContainer enabled={enabled}>
@@ -41,7 +43,7 @@ const GameListItem = ({ game, enabledColor = 'grey', enabled, onPress }: GameLis
 					ellipsizeMode='tail'
 					numberOfLines={2}
 				>
-					{actions.translateGameName(game.id)}
+					{actions.translateGameName(gameId)}
 				</GameItemTitle>
 			</GameItemTitleContainer>
 		</GameListItemContainer>

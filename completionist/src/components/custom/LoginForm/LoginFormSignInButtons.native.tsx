@@ -45,7 +45,7 @@ const LoginFormSignInButtons = () => {
 									sendVerification(
 										loginFormData.email,
 										'common:sendRequest.verifyAccount',
-										UnauthorizedScreenEnum.AccountVerification
+										UnauthorizedScreenEnum.VerifyAccount
 									);
 								}
 								else {

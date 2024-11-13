@@ -5,13 +5,13 @@ import NavigationHeader from '@navigation/NavigationHeader.native';
 import { UserResponse } from '@utils/CustomTypes';
 import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
 import VerificationContent from '@components/custom/Verification/VerificationContent.native';
-import useSignupFlow from './hooks/useSignupFlow';
-
+import { useVerifyAccount } from './hooks/useVerifyAccount.native';
 
 const LinkAccount = () => {
 	// const { t } = useTranslation()
-	const { viewModel, actions } = useSignupFlow();
+	const { viewModel, actions } = useVerifyAccount();
 
+	// TODO: Add to translations
 	return (
 		<StandardLayout>
 			<NavigationHeader id={UnauthorizedScreenEnum.LinkAccount} title={'Link Your Accounts'} leftAction='back' />

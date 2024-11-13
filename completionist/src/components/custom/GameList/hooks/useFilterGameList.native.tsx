@@ -1,10 +1,11 @@
-import { ActiveGameData } from '@utils/CustomInterfaces';
+import { GameKeyEnum } from '@utils/CustomEnums';
+import { GameData, GeneralData, IsActive } from '@utils/CustomInterfaces';
 
 const useFilterGameList = () => {
-	const filterGameList = (data: ActiveGameData[], isActive: boolean, searchValue: string) => {
+	const filterGameList = (data: [string, GeneralData][], isActive: boolean, searchValue: string) => {
 		return data
-      .filter(item => item.isActive === isActive)
-      .filter(item => searchValue?.length > 0 ? (item.id as string).includes(searchValue) : true);
+		// TODO: Need to fix
+      // .filter(item => searchValue?.length > 0 ? (item. as string).includes(searchValue) : true);
 	};
 
 	return { filterGameList };

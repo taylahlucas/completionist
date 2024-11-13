@@ -8,6 +8,9 @@ import useMainDispatch from '@redux/hooks/useMainDispatch';
 import useTranslateGameContent from '@utils/hooks/useTranslateGameContent.native';
 import { GameKeyEnum } from '@utils/CustomEnums';
 import useFilterGameList from '@components/custom/GameList/hooks/useFilterGameList.native';
+import { useGetActiveGames } from '@utils/hooks/useGetActiveGames.native';
+import { IsActive } from '@utils/CustomInterfaces';
+import { allGameData } from '@utils/gameConfigs';
 
 const SettingsSelectionDropdown = () => {
 	const { t } = useTranslation();
@@ -16,7 +19,9 @@ const SettingsSelectionDropdown = () => {
 	const { translateGameName } = useTranslateGameContent();
 	const { filterGameList } = useFilterGameList();
 	const [isSelectionOpen, triggerSelectionOpen] = useState(false);
+	// const { mappedActiveGames } = useGetActiveGames(user);
 
+	// TODO: Fix allGameData
 	return (
 		<Dropdown
 			isOpen={isSelectionOpen}
@@ -30,7 +35,7 @@ const SettingsSelectionDropdown = () => {
 			}
 		>
 			<DropdownSelectionContent
-				content={filterGameList(user.activeGames, true, '').map(game => ({
+				content={filterGameList(Object.entries(allGameData), true, '').map(game => ({
 					id: game.id,
 					title: t(`common:categories.${game.id}.title`)
 				}))}

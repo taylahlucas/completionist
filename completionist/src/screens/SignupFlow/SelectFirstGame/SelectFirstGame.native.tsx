@@ -13,17 +13,13 @@ import KeyboardAvoidingScrollView from '@components/general/Lists/KeyboardAvoidi
 import Condition from '@components/general/Condition.native';
 import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
 import ParagraphView from '@components/general/ParagraphView.native';
-import useSignupFlow from './hooks/useSignupFlow';
-import useLoginState from '@components/custom/LoginForm/hooks/useLoginState';
-import useLoginDispatch from '@components/custom/LoginForm/hooks/useLoginDispatch';
 import useTranslateGameContent from '@utils/hooks/useTranslateGameContent.native';
+import { useSelectFirstGame } from './hooks/useSelectFirstGame.native';
 
 const SelectFirstGame = () => {
 	const theme = useGetTheme();
 	const { t } = useTranslation();
-	const { isGoogleSignIn } = useLoginState();
-	const { setIsGoogleSignIn } = useLoginDispatch();
-	const { viewModel, actions } = useSignupFlow();
+	const { viewModel, actions } = useSelectFirstGame();
 	const { translateGameName } = useTranslateGameContent();
 	
 	const renderAwareView = () => (
@@ -41,7 +37,7 @@ const SelectFirstGame = () => {
 						}
 					}
 					actions.activateGame(updatedUser, viewModel.selectedFirstGame);
-					setIsGoogleSignIn(false);
+					actions.setIsGoogleSignIn(false);
 				}
 			}}
 		/>
@@ -52,7 +48,7 @@ const SelectFirstGame = () => {
 			<NavigationHeader 
 				id={UnauthorizedScreenEnum.SelectFirstGame} 
 				title={t('common:screens.selectGame')} 
-				leftAction={isGoogleSignIn ? 'back' : 'none'}
+				leftAction={viewModel.isGoogleSignIn ? 'back' : 'none'}
 			/>
 			<CustomSearchBar
 				searchValue={viewModel.searchValue}
@@ -69,7 +65,7 @@ const SelectFirstGame = () => {
 						<StyledText type='ListItemSubTitleItalic'>{t('common:selectGame.selectGameDesc3')}</StyledText>
 						<Spacing />
 						{viewModel.selectedFirstGame 
-							? <StyledText type='ListItemSubTitleBold' color={theme.lightGrey}>{t('common:selectGame.selection', { gameTitle: translateGameName(viewModel.selectedFirstGame.id) })}</StyledText> 
+							? <StyledText type='ListItemSubTitleBold' color={theme.lightGrey}>{t('common:selectGame.selection', { gameTitle: translateGameName(viewModel.selectedFirstGame) })}</StyledText> 
 							: null
 						}
 					</ParagraphView>
@@ -82,9 +78,9 @@ const SelectFirstGame = () => {
 						<GameListItem
 							key={index}
 							game={game}
-							enabled={viewModel.selectedFirstGame?.id === game.id}
-							enabledColor={viewModel.selectedFirstGame?.id === game.id ? theme.lightPurple : theme.midGrey}
-							onPress={(): void => actions.setSelectedFirstGame(game)}
+							enabled={viewModel.selectedFirstGame?.[0] === game[0]}
+							enabledColor={viewModel.selectedFirstGame?.[0] === game[0] ? theme.lightPurple : theme.midGrey}
+							onPress={(): void => actions.setSelectedFirstGame(game[0])}
 						/>
 					))}
 				</SelectFirstGameContentContainer>

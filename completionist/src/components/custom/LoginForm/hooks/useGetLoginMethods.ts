@@ -167,8 +167,10 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 			log({
 				type: 'error',
 				title: 'Google Sign In',
-				code: error.code,
-				message: error.message,
+				data: {
+					code: error.code,
+					message: error.message,	
+				}
 			});
 		}
 	}
@@ -188,8 +190,10 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 			log({
 				type: 'error',
 				title: 'Google Sign Out',
-				code: error.code,
-				message: error.message,
+				data: {
+					code: error.code,
+					message: error.message,	
+				}
 			});
 		}
 	};

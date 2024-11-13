@@ -7,12 +7,12 @@ import TextInput from '@components/general/TextInput/TextInput.native';
 import KeyboardAvoidingScrollView from '@components/general/Lists/KeyboardAvoidingScrollView.native';
 import Button from '@components/general/Button/Button.native';
 import StyledText from '@components/general/Text/StyledText.native';
-import useSignupFlow from './hooks/useSignupFlow';
 import Spacing from '@components/general/Spacing.native';
+import { useSetUsername } from './hooks/useSetUsername.native';
 
 const SetUsername = () => {
 	const { t } = useTranslation();
-	const { viewModel, actions } = useSignupFlow();
+	const { viewModel, actions } = useSetUsername();
 
 	const renderAwareView = () => (
 		<Button

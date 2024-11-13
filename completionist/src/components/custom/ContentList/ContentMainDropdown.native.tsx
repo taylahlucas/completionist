@@ -10,10 +10,10 @@ import useCheckContentComplete from './hooks/useCheckContentComplete';
 import useGetContentCategories from './hooks/useGetContentCategories';
 import useContentState from './hooks/useContentState';
 import useContentDispatch from './hooks/useContentDispatch';
-import { SettingsListItem } from '@utils/CustomInterfaces';
+import { IsActive } from '@utils/CustomInterfaces';
 
 export interface ContentMainDropdownProps {
-	category: SettingsListItem;
+	category: IsActive;
 	completed: string;
 	total: string;
 }

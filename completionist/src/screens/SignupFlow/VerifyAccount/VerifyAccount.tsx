@@ -5,15 +5,15 @@ import NavigationHeader from '@navigation/NavigationHeader.native';
 import { UserResponse } from '@utils/CustomTypes';
 import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
 import VerificationContent from '@components/custom/Verification/VerificationContent.native';
-import useSignupFlow from './hooks/useSignupFlow';
+import { useVerifyAccount } from './hooks/useVerifyAccount.native';
 
-const AccountVerification = () => {
+const VerifyAccount = () => {
 	const { t } = useTranslation();
-	const { viewModel, actions } = useSignupFlow();
+	const { viewModel, actions } = useVerifyAccount();
 
 	return (
 		<StandardLayout isLoading={viewModel.isLoading}>
-			<NavigationHeader id={UnauthorizedScreenEnum.AccountVerification} title={t('common:screens.verifyAccount')} leftAction='back' />
+			<NavigationHeader id={UnauthorizedScreenEnum.VerifyAccount} title={t('common:screens.verifyAccount')} leftAction='back' />
 			<VerificationContent
 				email={viewModel.loginFormData.email}
 				token={viewModel.verificationToken ?? ''}
@@ -36,4 +36,4 @@ const AccountVerification = () => {
 	);
 };
 
-export default AccountVerification;
+export default VerifyAccount;

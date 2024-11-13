@@ -78,10 +78,9 @@ const useEndpoints = (): EndpointsReturnType => {
 					username: user.username,
 					email: user.email,
 					steamId: user.steamId,
-					activeGames: user.activeGames,
 					signup: user.signup,
 					settings: user.settings,
-					gameData: user.gameData
+					gameData: user.gameData ?? []
 				}
 			);
 			if (response.data.token) {

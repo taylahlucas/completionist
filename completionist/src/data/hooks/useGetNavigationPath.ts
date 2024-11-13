@@ -7,7 +7,7 @@ const useGetNavigationPath = () => {
 	
 	const getAuthNavigationPath = (user: User) => {
 		if (!user.signup.verification) {
-			navigation.navigate(UnauthorizedScreenEnum.AccountVerification);
+			navigation.navigate(UnauthorizedScreenEnum.VerifyAccount);
 		}
 		else if (!user.signup.setUsername) {
 			navigation.navigate(UnauthorizedScreenEnum.SetUsername);

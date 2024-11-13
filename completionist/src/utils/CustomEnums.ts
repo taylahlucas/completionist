@@ -25,7 +25,7 @@ export enum DrawerScreenEnum {
 export enum UnauthorizedScreenEnum {
   Landing = 'Landing',
   Login = 'Login',
-	AccountVerification = 'AccountVerification',
+	VerifyAccount = 'VerifyAccount',
 	SelectInitialPlan = 'SelectInitialPlan',
 	SetUsername = 'SetUsername',
 	SelectFirstGame = 'SelectFirstGame',
