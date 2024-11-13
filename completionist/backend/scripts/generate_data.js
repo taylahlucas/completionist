@@ -4,20 +4,15 @@ const { v4: uuidv4 } = require('uuid');
 // Function to transform titles into JSON objects
 function transformTitlesToJSON(titles) {
   return titles.map(title => {
-    const cleanedTitle = title.replace(/\s*\(\d(?:st|nd|rd|th) Encounter\)/g, '');
-
     return {
       id: uuidv4(),
-      mainCategory: "Liurnia of the Lakes",
+      mainCategory: "Legendary Weapons",
       title: title,
-      hold: "",
       dlc: "None",
       subCategory: "",
       subCategoryType: "",
-      location: "Liurnia of the Lakes",
-      conflictingIds: [],
-      section: "quests",
-      href: `https://eldenring.wiki.fextralife.com/${cleanedTitle.replace(/\s+/g, '+')}`
+      section: "collectables",
+      href: `https://eldenring.wiki.fextralife.com/${title.replace(/\s+/g, '+')}`
     }
   });
 }
@@ -33,29 +28,15 @@ const writeJsonFile = (filePath, data) => {
 };
 
 const titles = [
-  "Boc the Seamster (2nd Encounter)",
-  "Hyetta (2nd Encounter)",
-  "Thops",
-  "Patches (2nd Encounter)",
-  "Rya (1st Encounter)",
-  "Blackguard Big Boggart (1st Encounter)",
-  "White Mask Varre (2nd Encounter)",
-  "Edgar (3rd Encounter)",
-  "Jar Bairn (1st Encounter)",
-  "Diallos (1st Encounter)",
-  "Bloody Finger Hunter Yura (2nd Encounter)",
-  "Smithing Master Iji",
-  "Seluvis",
-  "Nepheli Loux (2nd Encounter)",
-  "Pidia, Carian Servent",
-  "Boc the Seamster (3rd Encounter)",
-  "Albus",
-  "Latenna (1st Encounter)",
-  "Miriel",
-  "D Hunter of the Dead (3rd Encounter)",
-  "Festering Fingerprint Vyke",
-  "Iron Fist Alexander (2nd Encounter)",
-  "Sorcerer Rogier (2nd Encounter)"
+  "Devourer's Scepter",
+  "Grafted Blade Greatsword",
+  "Sword of Night and Flame",
+  "Ruins Greatsword",
+  "Marais Executioner's Sword",
+  "Dark Moon Greatsword",
+  "Bolt of Gransax",
+  "Eclipse Shotel",
+  "Golden Order Greatsword"
 ];
 
 const objects = transformTitlesToJSON(titles);

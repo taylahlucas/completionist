@@ -8,7 +8,6 @@ async function checkUrlResponse(url) {
 		if (response.ok) {
 			return;
 		} else {
-			console.log(`${url}`);
 			return;
 		}
 	} catch (error) {
@@ -40,7 +39,7 @@ const printOutput = (objects) => {
 };
 
 // Specify the path to your JSON file
-const jsonFilePath = 'witcher3.json';
+const jsonFilePath = 'eldenring_quests.json';
 
 // Read objects from the JSON file
 const objects = readJsonFile(jsonFilePath);

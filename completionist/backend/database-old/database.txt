@@ -51,106 +51,213 @@ Miscellaneous
 
 Elden Ring
 
-QUESTS
+** COLLECTABLES **
 
-// Liurnia of the Lakes
-Boc the Seamster (2nd Encounter)
-Hyetta (2nd Encounter)
-Thops
-Patches (2nd Encounter)
-Rya (1st Encounter)
-Blackguard Big Boggart (1st Encounter)
-White Mask Varre (2nd Encounter)
-Edgar (3rd Encounter)
-Jar Bairn (1st Encounter)
-Diallos (1st Encounter)
-Bloody Finger Hunter Yura (2nd Encounter)
-Smithing Master Iji
-Seluvis
-Nepheli Loux (2nd Encounter)
-Pidia, Carian Servent
-Boc the Seamster (3rd Encounter)
-Albus
-Latenna (1st Encounter)
-Miriel
-D Hunter of the Dead (3rd Encounter)
-Festering Fingerprint Vyke
-Iron Fist Alexander (2nd Encounter)
-Sorcerer Rogier (2nd Encounter)
+// Legendary Weapons
+Devourer's Scepter
+Grafted Blade Greatsword
+Sword of Night and Flame
+Ruins Greatsword
+Marais Executioner's Sword
+Dark Moon Greatsword
+Bolt of Gransax
+Eclipse Shotel
+Golden Order Greatsword
 
-// Siofra River
-Blaid (2nd Encounter)
+// Legendary Spirit Ashes
+Lhutel the Headless
+Black Knife Tiche
+Redmane Knight Ogha
+Mimic Tear Ashes
+Ancient Dragon Knight Kristoff Ashes
+Cleanrot Knight Finlay Ashes
 
-// Altus Plateau
-Blackguard Big Boggart (2nd Encounter)
-Boc the Seamster (4th Encounter)
-Brother Corhyn (1st Encounter)
-Dung Eater
-Millicent (1st Encounter)
-Sellen
-Primeval Sorcerer Azur
-Iron Fist Alexander (3rd Encounter)
-Goldmask (1st Encounter)
-Yura
-Melina
-Nepheli
-Hyetta (3rd Encounter)
+// Armour Sets
+[
+  "Alberich's Set",
+  "Albinauric Set",
+  "All-Knowing Set",
+  "Aristocrat Set",
+  "Astrologer Set",
+  "Azur's Glintstone Set",
+  "Bandit Set",
+  "Banished Knight Set",
+  "Battlemage Set",
+  "Beast Champion Set",
+  "Black Knife Set",
+  "Blackflame Monk Set",
+  "Blaidd's Set",
+  "Bloodhound Knight Set",
+  "Bloodsoaked Set",
+  "Blue Cloth Set",
+  "Blue Festive Set",
+  "Blue Silver Set",
+  "Briar Set",
+  "Bull-Goat Set",
+  "Carian Knight Set",
+  "Chain Set",
+  "Champion Set",
+  "Cleanrot Set",
+  "Commoner's Set",
+  "Confessor Set",
+  "Consort's Set",
+  "Crucible Axe Set",
+  "Crucible Tree Set",
+  "Cuckoo Knight Set",
+  "Depraved Perfumer Set",
+  "Drake Knight Set",
+  "Duelist Set",
+  "Eccentric Set",
+  "Elden Lord Set",
+  "Errant Sorcerer Set",
+  "Exile Set",
+  "Festive Set",
+  "Fia's Set",
+  "Finger Maiden Set",
+  "Fingerprint Set",
+  "Fire Monk Set",
+  "Fire Prelate Set",
+  "Fur Set",
+  "Gelmir Knight Set",
+  "General Radahn Set",
+  "Godrick Foot Soldier Set",
+  "Godrick Knight Set",
+  "Godrick Soldier Set",
+  "Godskin Apostle Set",
+  "Godskin Noble Set",
+  "Goldmask's Set",
+  "Guardian Set",
+  "Guilty Set",
+  "Haligtree Foot Soldier Set",
+  "Haligtree Knight Set",
+  "Haligtree Soldier Set",
+  "High Page Set",
+  "Highwayman Set",
+  "Hoslow's Set",
+  "House Marais Set",
+  "Iron Set",
+  "Juvenile Scholar Set",
+  "Kaiden Set",
+  "Knight Set",
+  "Land of Reeds Set",
+  "Lazuli Sorcerer Set",
+  "Leather Set",
+  "Leyndell Foot Soldier Set",
+  "Leyndell Knight Set",
+  "Leyndell Soldier Set",
+  "Lionel's Set",
+  "Lusat's Set",
+  "Malenia's Set",
+  "Malformed Dragon Set",
+  "Maliketh's Set",
+  "Marionette Soldier Set",
+  "Mausoleum Foot Soldier Set",
+  "Mausoleum Knight Set",
+  "Mausoleum Soldier Set",
+  "Millicent's Set",
+  "Mushroom Set",
+  "Night Maiden Set",
+  "Night's Cavalry Set",
+  "Noble's Set",
+  "Nomadic Merchant's Set",
+  "Nox Monk Set",
+  "Nox Swordstress Set",
+  "Old Aristocrat Set",
+  "Omen Set",
+  "Omenkiller Set",
+  "Page Set",
+  "Perfumer Set",
+  "Preceptor's Set",
+  "Prisoner Set",
+  "Prophet Set",
+  "Queen of the Full Moon Set",
+  "Radahn Foot Soldier Set",
+  "Radahn Soldier Set",
+  "Raging Wolf Set",
+  "Raptor's Set",
+  "Raya Lucarian Foot Soldier Set",
+  "Raya Lucarian Soldier Set",
+  "Raya Lucarian Sorcerer Set",
+  "Redmane Knight Set",
+  "Ronin's Set",
+  "Rotten Duelist Set",
+  "Royal Knight Set",
+  "Royal Remains Set",
+  "Ruler's Set",
+  "Sage Set",
+  "Sanguine Noble Set",
+  "Scaled Set",
+  "Shaman Set",
+  "Snow Witch Set",
+  "Spellblade Set",
+  "Traveler's Set",
+  "Traveling Maiden Set",
+  "Tree Sentinel Set",
+  "Twinned Set",
+  "Vagabond Knight Set",
+  "Veteran's Set",
+  "Vulgar Militia Set",
+  "War Surgeon Set",
+  "White Reed Set",
+  "Zamor Set"
+]
 
-// Caelid
-Gowry
-Iron Fist Alexander (4th Encounter)
-Millicent (2nd Encounter)
-Great Jar
-Blaidd (2nd Encounter)
-Witch-Hunter Jerren
-Patches (3rd Encounter)
+// Legendary Talismans
+Erdtree's Favor +2
+Radagon's Soreseal
+Marika's Soreseal
+Dragoncrest Greatshield Talisman
+Moon of Nokstella
+Old Lord's Talisman
+Radagon Icon
+Godfrey Icon
 
-// Mt. Gelmir
-Knight Bernahl (1st Encounter)
-Iron Fist Alexander (5th Encounter)
-Millicent (3rd Encounter)
-Patches (4th Encounter)
-Rya (2nd Encounter)
-Sorceress Sellen (1st Encounter)
-Tanith
-Great Horned Tragoth
-Blackguard
-Diallos (2nd Encounter)
 
-// Mountaintops of the Giants
-Brother Corhyn (2nd Encounter)
-Goldmask (2nd Encounter)
-Millicent (4th Encounter)
-Shabriri
-Jar-Bairn
-Diallos (3rd Encounter)
-Patches (5th Encounter)
-Latenna (2nd Encounter)
-Bloody Finger Hunter Yura (3rd Encounter)
-Knight Bernahl (2nd Encounter)
+** MISCELLANEOUS **
 
-// Ainsel River Main and Nokron
-Blaidd (3rd Encounter)
-Miniature Ranni
+// Legendary Spells
+Flame of the Fell God
+Founding Rain of Stars
+Elden Stars
+Ranni's Dark Moon
+Comet Azur
+Stars of Ruin
+Greyoll's Roar
 
-// Deeproot Depths
-D's Twin Brother
-Fia
+// Bosses
+Margit the Fell Omen
+Godrick the Grafted
+Red Wolf of Radagon
+Rennala, Queen of the Full Moon
+Leonine Misbegotten (Castle Morne)
+Ancestor Spirit
+Starscourge Radahn
+Magma Wyrm Makar
+Mimic Tear (Nokron, Eternal City)
+Royal Knight Loretta
+Regal Ancestor Spirit
+Dragonkin Soldier of Nokstella
+Valiant Gargoyles
+Astel, Naturalborn of the Void
+Godskin Noble (Volcano Manor)
+Rykard, Lord of Blasphemy
+Elemer of the Briar
+Godfrey, First Elden Lord (Golden Shade)
+Morgott the Omen King
+Mohg, the Omen
+Commander Niall
+Fire Giant
+Loretta, Knight of the Haligtree
+Malenia, Blade of Miquella
+Godskin Duo
+Dragonlord Placidusax
+Maliketh, the Black Blade
+Lichdragon Fortissax
+Mohg, Lord of Blood
+Hoarah Loux, Warrior
 
-// Consecrated Snowfield
-Patches (6th Encounter)
-Latenna (3rd Encounter)
 
-// Crumbling Farum Azula
-Iron Fist Alexander (6th Encounter)
-Knight Bernahl (3rd Encounter)
-Jar Bairn (2nd Encounter)
-Diallos (4th Encounter)
-
-// City of Ash
-Brother Corhyn (3rd Encounter)
-Goldmask (3rd Encounter)
-
+// DLC - Shadow of the Erdtree
 
 //https://eldenring.wiki.fextralife.com/Elden+Ring+Wiki
 
