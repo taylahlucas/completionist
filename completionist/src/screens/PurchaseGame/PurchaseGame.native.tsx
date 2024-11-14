@@ -6,7 +6,7 @@ import { AuthScreenEnum } from '@utils/CustomEnums';
 import KeyboardAvoidingScrollView from '@components/general/Lists/KeyboardAvoidingScrollView.native';
 import Button from '@components/general/Button/Button.native';
 import GameListItem from '@components/custom/GameList/GameListItem.native';
-import { allGameData } from '@utils/gameConfigs';
+import { allGameData } from '@utils/configs/gameConfigs';
 
 const PurchaseGame = (params: any) => {
 	const gameId = params.route?.params.gameId;

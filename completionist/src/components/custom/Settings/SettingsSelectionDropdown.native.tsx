@@ -8,7 +8,7 @@ import useMainDispatch from '@redux/hooks/useMainDispatch';
 import useTranslateGameContent from '@data/hooks/useTranslateGameContent.native';
 import { GameKeyEnum } from '@utils/CustomEnums';
 import useFilterGameList from '@components/custom/GameList/hooks/useFilterGameList.native';
-import { allGameData } from '@utils/gameConfigs';
+import { allGameData } from '@utils/configs/gameConfigs';
 
 const SettingsSelectionDropdown = () => {
 	const { t } = useTranslation();

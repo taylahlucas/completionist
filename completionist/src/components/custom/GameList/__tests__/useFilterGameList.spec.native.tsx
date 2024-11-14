@@ -1,6 +1,6 @@
-import { renderHook } from '@utils/TestLibraryUtils.native';
+import { renderHook } from '@utils/testing/TestLibraryUtils.native';
 import useFilterGameList from '../hooks/useFilterGameList.native';
-import { userMockInitial } from '@utils/test-helper/__mocks__/mocks';
+import { userMockInitial } from '@utils/testing/test-helper/__mocks__/mocks';
 
 describe('useFilterGameList', () => {
 	afterEach(() => {

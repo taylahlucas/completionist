@@ -1,9 +1,9 @@
-import { renderHook } from '@utils/TestLibraryUtils.native';
+import { renderHook } from '@utils/testing/TestLibraryUtils.native';
 import { initialState as mainState } from '@redux/MainState';
-import { mockSettingsSections } from '@utils/test-helper/__mocks__/mocks';
+import { mockSettingsSections } from '@utils/testing/test-helper/__mocks__/mocks';
 import useGetContentCategories from '../hooks/useGetContentCategories';
 import { ContentSectionEnum, GameKeyEnum, SettingsOptionEnum } from '@utils/CustomEnums';
-import { userMockInitial } from '@utils/test-helper/__mocks__/mocks';
+import { userMockInitial } from '@utils/testing/test-helper/__mocks__/mocks';
 
 describe('useGetContentCategories', () => {
 	const initialState = {

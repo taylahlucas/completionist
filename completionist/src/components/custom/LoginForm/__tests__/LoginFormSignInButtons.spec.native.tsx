@@ -1,5 +1,5 @@
 import React from 'react';
-import { render, fireEvent, renderHook } from '@utils/TestLibraryUtils.native';
+import { render, fireEvent, renderHook } from '@utils/testing/TestLibraryUtils.native';
 import LoginFormSignInButtons from '../LoginFormSignInButtons.native';
 import { initialState as loginState } from '../LoginState';
 import useGetLoginMethods from '../hooks/useGetLoginMethods';

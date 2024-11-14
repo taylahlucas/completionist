@@ -1,5 +1,5 @@
-import { GameKeyEnum } from "./CustomEnums";
-import { GameData, SettingsConfig } from "./CustomInterfaces";
+import { GameKeyEnum } from "../CustomEnums";
+import { GameData, SettingsConfig } from "../CustomInterfaces";
 
 const fallout3SettingsConfig: SettingsConfig = {
   general: [

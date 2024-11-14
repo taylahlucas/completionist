@@ -2,7 +2,7 @@ import useEditUserData from '@data/hooks/useEditUserData.native';
 import { initialGameData } from '@redux/MainState';
 import { GameKeyEnum } from '@utils/CustomEnums';
 import { IsActive, GameData, User } from '@utils/CustomInterfaces';
-import { fallout3GameData, fallout4GameData, skyrimGameData, witcher3GameData } from '@utils/gameConfigs';
+import { fallout3GameData, fallout4GameData, skyrimGameData, witcher3GameData } from '@utils/configs/gameConfigs';
 
 const useActivateGame = () => {
 	const { updateUserData } = useEditUserData();

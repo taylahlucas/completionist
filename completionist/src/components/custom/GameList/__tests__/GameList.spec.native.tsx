@@ -1,5 +1,5 @@
 import React from 'react';
-import { render } from '@utils/TestLibraryUtils.native';
+import { render } from '@utils/testing/TestLibraryUtils.native';
 import GameList from '../GameList.native';
 
 describe('GameList', () => {

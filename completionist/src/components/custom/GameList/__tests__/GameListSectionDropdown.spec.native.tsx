@@ -1,7 +1,7 @@
 import React from 'react';
-import { render } from '@utils/TestLibraryUtils.native';
+import { render } from '@utils/testing/TestLibraryUtils.native';
 import { initialState as mainState } from '@redux/MainState';
-import { userMockInitial } from '@utils/test-helper/__mocks__/mocks';
+import { userMockInitial } from '@utils/testing/test-helper/__mocks__/mocks';
 import GameListSectionDropdown from '../GameListSectionDropdown.native';
 
 const props = {

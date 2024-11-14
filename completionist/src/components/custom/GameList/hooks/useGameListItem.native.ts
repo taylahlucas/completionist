@@ -8,7 +8,7 @@ import { GameData } from '@utils/CustomInterfaces';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
 import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
 import { FlowType } from '@utils/CustomTypes';
-import { allGameData } from '@utils/gameConfigs';
+import { allGameData } from '@utils/configs/gameConfigs';
 
 export const useGameListItem = (flow: FlowType) => {
 	const theme = useGetTheme();

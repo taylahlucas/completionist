@@ -6,7 +6,7 @@ import useEditUserData from "@data/hooks/useEditUserData.native";
 import useMainState from "@redux/hooks/useMainState";
 import useActivateGame from "@data/hooks/useActivateGame.native";
 import useFormatter from "@utils/hooks/useFormatter";
-import { allGameData } from '@utils/gameConfigs';
+import { allGameData } from '@utils/configs/gameConfigs';
 import { useState } from "react";
 import { GameKeyEnum } from "@utils/CustomEnums";
 

@@ -1,7 +1,7 @@
 import { useMemo } from 'react';
 import useMainState from '@redux/hooks/useMainState';
 import useFilterGameList from './useFilterGameList.native';
-import { allGameData } from '@utils/gameConfigs';
+import { allGameData } from '@utils/configs/gameConfigs';
 
 export const useGameList = () => {
   const { user } = useMainState();
