@@ -7,6 +7,7 @@ import AchievementDropdownSubtitle from '@components/custom/AchievementView/Achi
 import ProgressChartItem from './ProgressChartItem.native';
 import { STANDARD_WIDTH } from '@styles/global.native';
 import useGetGameProgress from './hooks/useGetGameProgress.native';
+import { GameKeyEnum } from '@utils/CustomEnums';
 
 interface ProgressViewProps {
 	gameId: string;
@@ -38,7 +39,7 @@ const ProgressView = ({ gameId, title, data }: ProgressViewProps) => {
 					<ProgressChartItem
 						key={item.id}
 						id={item.id}
-						current={getGameProgress(gameId, item.id)}
+						current={getGameProgress(gameId as GameKeyEnum, item.id)}
 						total={item.total}
 						foregroundColor={colors[index]}
 						backgroundColor={theme.darkGrey}

@@ -98,6 +98,7 @@ const Achievements = () => {
 						/>
 					}
 				>
+					{/* // TODO: Fix here */}
 					{actions.getGameProgress(viewModel.achievements.activeGames.map(game => game.id as GameKeyEnum)).map((game) => (
 						<ProgressView
 							key={game.id}

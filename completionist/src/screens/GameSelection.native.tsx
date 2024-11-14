@@ -1,18 +1,11 @@
-import React, { useState, useEffect } from 'react';
-import { View, ViewStyle } from 'react-native';
+import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import StandardLayout from '@components/general/Layouts/StandardLayout.native';
 import GameList from '@components/custom/GameList/GameList.native';
 import NavigationHeader from '@navigation/NavigationHeader.native';
 import useMainState from '@redux/hooks/useMainState';
 import CustomSearchBar from '@components/general/CustomSearchBar/CustomSearchBar.native';
-import Condition from '@components/general/Condition.native';
-import { IconTypeEnum, AuthScreenEnum } from '@utils/CustomEnums';
-import StyledText from '@components/general/Text/StyledText.native';
-import Icon from '@components/general/Icon/Icon.native';
-import { GameSelectionChangesLeftContainer } from '@components/custom/GameList/GameListItemStyledComponents.native';
-import useGetTheme from '@styles/hooks/useGetTheme';
-import useEndpoints from '@data/api/hooks/useEndpoints.native';
+import { AuthScreenEnum } from '@utils/CustomEnums';
 
 const GameSelection = () => {
 	// const theme = useGetTheme();
@@ -47,6 +40,13 @@ const GameSelection = () => {
 				setSearchValue={setSearchValue}
 				onReset={(): void => setSearchValue('')}
 			/>
+			<GameList searchValue={searchValue.toLocaleLowerCase()} />
+		</StandardLayout>
+	);
+};
+
+export default GameSelection;
+
 			{/* <Condition
 				condition={user.subscription.tier === SubscriptionTypeEnum.FREE}
 				conditionalElement={renderSubscriptionComponent({ marginRight: 34 })}
@@ -70,9 +70,3 @@ const GameSelection = () => {
 					{renderSubscriptionComponent({ position: 'absolute', right: 34 })}
 				</GameSelectionChangesLeftContainer>
 			</Condition> */}
-			<GameList searchValue={searchValue.toLocaleLowerCase()} />
-		</StandardLayout>
-	);
-};
-
-export default GameSelection;

@@ -33,7 +33,6 @@ const useAchievements = () => {
 	const { getGameProgress } = useGetGameProgressData();
 	const isGlobalAchievements = !selectedGame;
 
-
 	useEffect(() => {
 		const fetchData = async () => {
 			const currentGameId = selectedGame ? currentGame?.appId : activeGames[0].appId;

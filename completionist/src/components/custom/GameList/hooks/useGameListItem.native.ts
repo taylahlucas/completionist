@@ -47,17 +47,6 @@ export const useGameListItem = (flow: FlowType) => {
     }
   };
 
-	const handleGameSelection = (game: GameData): void => {
-		if (flow === 'signup') {
-			setSelectedGame(game);
-			setSelectedGameSettings(game.id);
-			navigation.navigate(AuthScreenEnum.DrawerStack);
-		}
-		else {
-			navigation.navigate(AuthScreenEnum.PurchaseGame, { gameId: game.id });
-		}
-	};
-
 	return {
 		viewModel: {
 			activeGames: user.gameData,
