@@ -1,7 +1,7 @@
 import { useMemo } from 'react';
 import { ImageURISource } from 'react-native';
 import useMainState from '@redux/hooks/useMainState';
-import useTranslateGameContent from '@utils/hooks/useTranslateGameContent.native';
+import useTranslateGameContent from '@data/hooks/useTranslateGameContent.native';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import { AuthScreenEnum, GameKeyEnum } from '@utils/CustomEnums';
 import { GameData } from '@utils/CustomInterfaces';

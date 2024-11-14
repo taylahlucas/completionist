@@ -13,7 +13,7 @@ import KeyboardAvoidingScrollView from '@components/general/Lists/KeyboardAvoidi
 import Condition from '@components/general/Condition.native';
 import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
 import ParagraphView from '@components/general/ParagraphView.native';
-import useTranslateGameContent from '@utils/hooks/useTranslateGameContent.native';
+import useTranslateGameContent from '@data/hooks/useTranslateGameContent.native';
 import { useSelectFirstGame } from './hooks/useSelectFirstGame.native';
 
 const SelectFirstGame = () => {

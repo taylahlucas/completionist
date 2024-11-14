@@ -1,6 +1,6 @@
 import useMainState from '@redux/hooks/useMainState';
 import { Item, IsActive } from '@utils/CustomInterfaces';
-import { getCurrentGame } from '@utils/hooks/useGetCurrentGameData.native';
+import { getCurrentGame } from '@data/hooks/useGetCurrentGameData.native';
 
 interface GetUserGameDataReturnType {
   userQuests: Item[];

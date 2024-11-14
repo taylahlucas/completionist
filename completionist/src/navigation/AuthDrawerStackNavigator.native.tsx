@@ -7,7 +7,7 @@ import Miscellaneous from '@screens/GameContent/Miscellaneous.native';
 import Collectables from '@screens/GameContent/Collectables.native';
 import useMainState from '@redux/hooks/useMainState';
 import useGetTheme from '@styles/hooks/useGetTheme';
-import useTranslateGameContent from '@utils/hooks/useTranslateGameContent.native';
+import useTranslateGameContent from '@data/hooks/useTranslateGameContent.native';
 import Condition from '@components/general/Condition.native';
 import { NavigationDrawerContainer } from './NavigationStyledComponents.native';
 import StyledText from '@components/general/Text/StyledText.native';

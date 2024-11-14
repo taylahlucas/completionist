@@ -5,7 +5,7 @@ import useMainDispatch from '@redux/hooks/useMainDispatch';
 import useEditUserData from './useEditUserData.native';
 import useLoginState from '@components/custom/LoginForm/hooks/useLoginState';
 import useLoginDispatch from '@components/custom/LoginForm/hooks/useLoginDispatch';
-import useGetNavigationPath from '@data/hooks/useGetNavigationPath';
+import useGetNavigationPath from '@navigation/hooks/useGetNavigationPath';
 
 const useInitUserData = () => {
   const appStateRef = useRef(AppState.currentState);

@@ -5,7 +5,7 @@ import useGetGameProgressData from '@data/hooks/useGetGameProgressData.native';
 import useEndpoints from '@data/api/hooks/useEndpoints.native';
 import { AchievementItem } from '@utils/CustomInterfaces';
 import useEditUserData from '@data/hooks/useEditUserData.native';
-import { getCurrentGame } from '@utils/hooks/useGetCurrentGameData.native';
+import { getCurrentGame } from '@data/hooks/useGetCurrentGameData.native';
 
 interface AchievementsState {
 	isOpen: boolean;

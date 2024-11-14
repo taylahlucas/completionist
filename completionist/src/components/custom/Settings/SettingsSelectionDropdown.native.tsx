@@ -5,7 +5,7 @@ import DropdownSelection from '@components/general/Dropdown/DropdownSelection.na
 import DropdownSelectionContent from '@components/general/Dropdown/DropdownSelectionContent.native';
 import useMainState from '@redux/hooks/useMainState';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
-import useTranslateGameContent from '@utils/hooks/useTranslateGameContent.native';
+import useTranslateGameContent from '@data/hooks/useTranslateGameContent.native';
 import { GameKeyEnum } from '@utils/CustomEnums';
 import useFilterGameList from '@components/custom/GameList/hooks/useFilterGameList.native';
 import { allGameData } from '@utils/gameConfigs';

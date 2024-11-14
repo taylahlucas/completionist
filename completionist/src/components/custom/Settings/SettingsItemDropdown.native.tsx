@@ -15,7 +15,7 @@ import {
 import useGetTheme from '@styles/hooks/useGetTheme';
 import useSettingsState from './hooks/useSettingsState';
 import useSettingsDispatch from './hooks/useSettingsDispatch';
-import useTranslateGameContent from '@utils/hooks/useTranslateGameContent.native';
+import useTranslateGameContent from '@data/hooks/useTranslateGameContent.native';
 import useMainState from '@redux/hooks/useMainState';
 import CheckBox from '@components/general/Checkbox/CheckBox.native';
 import useUpdateGameSettings from './hooks/useUpdateGameSettings';

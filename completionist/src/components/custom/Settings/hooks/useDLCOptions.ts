@@ -3,7 +3,7 @@ import useMainState from '@redux/hooks/useMainState';
 import { GameKeyEnum } from '@utils/CustomEnums';
 import { SettingsConfigItem, IsActive } from '@utils/CustomInterfaces';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
-import { getCurrentGame } from '@utils/hooks/useGetCurrentGameData.native';
+import { getCurrentGame } from '@data/hooks/useGetCurrentGameData.native';
 
 interface DLCOptionsReturnType {
 	getDLCOptions: () => IsActive[];

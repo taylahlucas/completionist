@@ -4,7 +4,7 @@ import useLoginState from "@components/custom/LoginForm/hooks/useLoginState";
 import useIsLoading from "@data/api/hooks/useIsLoading.native";
 import useEditUserData from "@data/hooks/useEditUserData.native";
 import useMainState from "@redux/hooks/useMainState";
-import useActivateGame from "@utils/hooks/useActivateGame.native";
+import useActivateGame from "@data/hooks/useActivateGame.native";
 import useFormatter from "@utils/hooks/useFormatter";
 import { allGameData } from '@utils/gameConfigs';
 import { useState } from "react";
