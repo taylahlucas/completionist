@@ -14,7 +14,7 @@ const useGetGameData = (): GameDataReturnType => {
 		skyrim,
 		witcher3
 	} = useGetTranslatedGameData();
-	const { selectedGameData } = useMainState();
+	const { selectedGame } = useMainState();
 
 	// Filter active sections
 	const filterData = (config: SettingsConfigItem[], data: any[]) => {
@@ -39,23 +39,23 @@ const useGetGameData = (): GameDataReturnType => {
 		}
 	};
 
-	const mapDataTo = (type: ContentSectionEnum, selectedGame?: GameKeyEnum, filter = false): GameContentItem[] => {
+	const mapDataTo = (type: ContentSectionEnum, selectedGameId?: GameKeyEnum, filter = false): GameContentItem[] => {
 		switch (type) {
 			case ContentSectionEnum.QUESTS:
-				const quests = mapDataToQuests(selectedGame);
-				return !filter ? quests : filterData(selectedGameData?.settingsConfig.general ?? [], quests);
+				const quests = mapDataToQuests(selectedGameId);
+				return !filter ? quests : filterData(selectedGame?.settingsConfig.general ?? [], quests);
 
 			case ContentSectionEnum.COLLECTABLES:
-				const collectables = mapDataToCollectables(selectedGame);
-				return !filter ? collectables : filterData(selectedGameData?.settingsConfig.general ?? [], collectables);
+				const collectables = mapDataToCollectables(selectedGameId);
+				return !filter ? collectables : filterData(selectedGame?.settingsConfig.general ?? [], collectables);
 
 			case ContentSectionEnum.LOCATIONS:
-				const locations = mapDataToLocations(selectedGame);
-				return !filter ? locations : filterData(selectedGameData?.settingsConfig.general ?? [], locations);
+				const locations = mapDataToLocations(selectedGameId);
+				return !filter ? locations : filterData(selectedGame?.settingsConfig.general ?? [], locations);
 
 			case ContentSectionEnum.MISCELLANEOUS:
-				const miscItems = mapDataToMiscItems(selectedGame);
-				return !filter ? miscItems : filterData(selectedGameData?.settingsConfig.general ?? [], miscItems);
+				const miscItems = mapDataToMiscItems(selectedGameId);
+				return !filter ? miscItems : filterData(selectedGame?.settingsConfig.general ?? [], miscItems);
 
 			default:
 				return []

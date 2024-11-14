@@ -2,12 +2,12 @@ import useEndpoints from '@data/api/hooks/useEndpoints.native';
 import useMainState from '@redux/hooks/useMainState';
 
 const useSteamAchievements = () => {
-  const { user, selectedGameData } = useMainState();
+  const { user, selectedGame } = useMainState();
   const { getSteamPlayerAchievements } = useEndpoints();
 
 	const fetchSteamAchievements = async () => {
-		if (!!selectedGameData?.appId) {
-			const results = await getSteamPlayerAchievements({ userId: user.userId, steamId: user.steamId ?? '', gameId: selectedGameData?.appId })
+		if (!!selectedGame?.appId) {
+			const results = await getSteamPlayerAchievements({ userId: user.userId, steamId: user.steamId ?? '', gameId: selectedGame?.appId.toString() })
 			if (!!results) {
 				return results;
 			}

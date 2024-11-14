@@ -13,30 +13,30 @@ interface GetUserGameDataReturnType {
 }
 
 const useGetUserGameData = (): GetUserGameDataReturnType => {
-  const { user, selectedGameData, selectedGameSettings } = useMainState();
+  const { user, selectedGame, selectedGameSettings } = useMainState();
   const currentGame = getCurrentGame(selectedGameSettings, user);
 
   const getUserQuests = (): Item[] => {
-    return !!selectedGameData
-      ? selectedGameData?.quests.filter(item => item.isComplete)
+    return !!selectedGame
+      ? selectedGame?.quests.filter(item => item.isComplete)
       : [];
   };
 
   const getUserCollectables = (): Item[] => {
-    return !!selectedGameData
-      ? selectedGameData?.collectables.filter(item => item.isComplete)
+    return !!selectedGame
+      ? selectedGame?.collectables.filter(item => item.isComplete)
       : [];
   };
 
   const getUserLocations = (): Item[] => {
-    return !!selectedGameData
-      ? selectedGameData?.locations.filter(item => item.isComplete)
+    return !!selectedGame
+      ? selectedGame?.locations.filter(item => item.isComplete)
       : [];
   };
 
   const getUserMiscItems = (): Item[] => {
-    return !!selectedGameData
-      ? selectedGameData?.miscellaneous.filter(item => item.isComplete)
+    return !!selectedGame
+      ? selectedGame?.miscellaneous.filter(item => item.isComplete)
       : [];
   };
 

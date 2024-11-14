@@ -10,7 +10,7 @@ const useGetGameProgressData = () => {
 
 	const getGameProgress = (games: GameKeyEnum[]) => {
 		return games.map((game) => {
-			const currentGame = getCurrentGame(game.id, user);
+			const currentGame = getCurrentGame(game, user);
 			const questData = mapDataTo(ContentSectionEnum.QUESTS, game, true);
 			const collectablesData = mapDataTo(ContentSectionEnum.COLLECTABLES, game, true);
 			const locationsData = mapDataTo(ContentSectionEnum.LOCATIONS, game, true);

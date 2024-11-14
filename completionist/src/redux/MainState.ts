@@ -37,8 +37,6 @@ export interface MainState {
 	readonly appState?: AppStateStatus,
 	readonly currentScreen?: ScreenEnumType;
 	readonly selectedGame?: GameData;
-	// TODO: Remove this?
-	readonly selectedGameData?: GameData;
 	readonly selectedGameSettings: GameKeyEnum;
 	readonly webSignInConfigured: boolean;
 	readonly user: User;
@@ -78,8 +76,6 @@ const slice = createSlice({
 		},
 		setSelectedGame: (state, action) => {
 			state.selectedGame = action.payload;
-			// TODO: Remove this?
-			// state.selectedGameData = getUserDataState(state);
 		},
 		setWebSignInConfigured: (state, action) => {
 			state.webSignInConfigured = action.payload;
@@ -89,8 +85,6 @@ const slice = createSlice({
 		},
 		setUser: (state, action) => {
 			state.user = action.payload;
-			// TODO: Remove this?
-			// state.selectedGameData = getUserDataState(state);
 		},
 		setShouldUpdateUser: (state, action) => {
 			state.shouldUpdateUser = action.payload;
@@ -100,34 +94,34 @@ const slice = createSlice({
 		},
 		setCompletedQuests: (state, action) => {
 			state.shouldUpdateUser = true;
-			if (state.selectedGameData) {
+			if (state.selectedGame) {
 				const userData = getUserDataState(state);
 				userData.quests = action.payload;
-				state.selectedGameData.quests = action.payload;
+				state.selectedGame.quests = action.payload;
 			}
 		},
 		setCompletedCollectables: (state, action) => {
 			state.shouldUpdateUser = true;
-			if (state.selectedGameData) {
+			if (state.selectedGame) {
 				const userData = getUserDataState(state);
 				userData.collectables = action.payload;
-				state.selectedGameData.collectables = action.payload;
+				state.selectedGame.collectables = action.payload;
 			}
 		},
 		setCompletedLocations: (state, action) => {
 			state.shouldUpdateUser = true;
-			if (state.selectedGameData) {
+			if (state.selectedGame) {
 				const userData = getUserDataState(state);
 				userData.locations = action.payload;
-				state.selectedGameData.locations = action.payload;
+				state.selectedGame.locations = action.payload;
 			}
 		},
 		setCompletedMiscItems: (state, action) => {
 			state.shouldUpdateUser = true;
-			if (state.selectedGameData) {
+			if (state.selectedGame) {
 				const userData = getUserDataState(state);
 				userData.miscellaneous = action.payload;
-				state.selectedGameData.miscellaneous = action.payload;
+				state.selectedGame.miscellaneous = action.payload;
 			}
 		},
 		reset: (state) => {
