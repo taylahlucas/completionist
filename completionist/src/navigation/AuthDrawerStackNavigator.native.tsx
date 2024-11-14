@@ -35,7 +35,7 @@ const AuthDrawerStackNavigator = () => {
 					<StyledText
 						type={'SubHeading'}
 						color={theme.lightGrey}>
-						{!!selectedGame ? translateGameName(selectedGame) : ''}
+						{!!selectedGame ? translateGameName(selectedGame?.id) : ''}
 					</StyledText>
 					<NavigationDrawerBody />
 				</NavigationDrawerContainer>

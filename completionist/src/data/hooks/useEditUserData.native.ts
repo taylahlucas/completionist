@@ -37,6 +37,7 @@ const useEditUserData = (): EditUserDataReturnType => {
 									// checkUpdateChangesLeft(user);
 									saveUser(user);
 									saveToCache(user);
+									setLoggedIn(true);
 								}
 							})
 					}
@@ -61,6 +62,7 @@ const useEditUserData = (): EditUserDataReturnType => {
 			.then(() => saveUser(user));
 	}
 
+	// TODO: Add to translations
 	const deleteUserData = async (userId: string) => {
 		Alert.alert(
 			'Are you sure?',

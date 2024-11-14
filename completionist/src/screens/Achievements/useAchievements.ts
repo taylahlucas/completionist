@@ -29,7 +29,7 @@ const useAchievements = () => {
 		noOfLocked: 0
 	});
 	const activeGames = user.gameData;
-	const currentGame = getCurrentGame(selectedGame?.id ?? GameKeyEnum.SKYRIM, user);
+	const currentGame = getCurrentGame(selectedGame?.id ?? user.gameData[0].id, user);
 	const { getGameProgress } = useGetGameProgressData();
 	const isGlobalAchievements = !selectedGame;
 

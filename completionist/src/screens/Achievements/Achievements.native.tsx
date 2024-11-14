@@ -69,8 +69,7 @@ const Achievements = () => {
 						{viewModel.achievements.activeGames.map(game => (
 							<AchievementView
 								key={game.id}
-								// TODO: Fix here
-								gameId={Object.entries(viewModel.user.gameData).find(([key, _]) => key === game.id)?.[1].appId}
+								gameId={game.id}
 								items={viewModel.achievements.achievementsState.items}
 								itemsLength={viewModel.achievements.achievementsState.noOfLocked}
 								title={t(`common:categories.${game.id}.title`)}

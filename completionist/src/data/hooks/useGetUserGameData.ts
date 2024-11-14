@@ -3,11 +3,11 @@ import { Item, IsActive } from '@utils/CustomInterfaces';
 import { getCurrentGame } from '@utils/hooks/useGetCurrentGameData.native';
 
 interface GetUserGameDataReturnType {
-  getUserQuests: () => Item[];
-  getUserCollectables: () => Item[];
-  getUserLocations: () => Item[];
-  getUserMiscItems: () => Item[];
-  getUserSettingsMainConfig: () => IsActive[];
+  userQuests: Item[];
+  userCollectables: Item[];
+  userLocations: Item[];
+  userMiscItems: Item[];
+  userSettingsMainConfig: IsActive[];
   getUserSettingsSubConfig: (section: string) => IsActive[];
   getUserSettingsDLC: (section: string) => IsActive[];
 }
@@ -16,34 +16,20 @@ const useGetUserGameData = (): GetUserGameDataReturnType => {
   const { user, selectedGame, selectedGameSettings } = useMainState();
   const currentGame = getCurrentGame(selectedGameSettings, user);
 
-  const getUserQuests = (): Item[] => {
-    return !!selectedGame
-      ? selectedGame?.quests.filter(item => item.isComplete)
-      : [];
-  };
-
-  const getUserCollectables = (): Item[] => {
-    return !!selectedGame
-      ? selectedGame?.collectables.filter(item => item.isComplete)
-      : [];
-  };
-
-  const getUserLocations = (): Item[] => {
-    return !!selectedGame
-      ? selectedGame?.locations.filter(item => item.isComplete)
-      : [];
-  };
-
-  const getUserMiscItems = (): Item[] => {
-    return !!selectedGame
-      ? selectedGame?.miscellaneous.filter(item => item.isComplete)
-      : [];
-  };
-
-  const getUserSettingsMainConfig = (): IsActive[] => {
-    return currentGame?.settingsConfig.general?.map(item => item.section) ?? [];
-  }
-
+  const userQuests: Item[] = !!selectedGame
+  ? selectedGame?.quests.filter(item => item.isComplete)
+  : [];
+  const userCollectables: Item[] = !!selectedGame
+  ? selectedGame?.collectables.filter(item => item.isComplete)
+  : [];
+  const userLocations: Item[] = !!selectedGame
+  ? selectedGame?.locations.filter(item => item.isComplete)
+  : [];
+  const userMiscItems: Item[] = !!selectedGame
+  ? selectedGame?.miscellaneous.filter(item => item.isComplete)
+  : [];
+  const userSettingsMainConfig = currentGame?.settingsConfig.general?.map(item => item.section) ?? [];
+  
   const getUserSettingsSubConfig = (section: string): IsActive[] => {
     return currentGame?.settingsConfig.general?.find(item => item.section.id === section)?.categories ?? [];
   }
@@ -53,11 +39,11 @@ const useGetUserGameData = (): GetUserGameDataReturnType => {
   }
 
   return {
-    getUserQuests,
-    getUserCollectables,
-    getUserLocations,
-    getUserMiscItems,
-    getUserSettingsMainConfig,
+    userQuests,
+    userCollectables,
+    userLocations,
+    userMiscItems,
+    userSettingsMainConfig,
     getUserSettingsSubConfig,
     getUserSettingsDLC
   }

@@ -9,9 +9,8 @@ import { SettingsCollectionList, SettingsDescription } from '@components/custom/
 
 const SettingsGameCollections = () => {
 	const { t } = useTranslation();
-	const { getUserSettingsMainConfig } = useGetUserGameData();
-	const config = getUserSettingsMainConfig();
-	const minHeight = config.length > 3 ? 200 : 150;
+	const { userSettingsMainConfig } = useGetUserGameData();
+	const minHeight = userSettingsMainConfig.length > 3 ? 200 : 150;
 	const height = new Animated.Value(minHeight);
 
 	const toggleHeight = (expanded: boolean) => {
@@ -30,7 +29,7 @@ const SettingsGameCollections = () => {
 			</SettingsDescription>
 			<SettingsSelectionDropdown />
 			<SettingsCollectionList style={{ height: height }}>
-				{config.map((item: IsActive, index: number) => (
+				{userSettingsMainConfig.map((item: IsActive, index: number) => (
 					<SettingsItemDropdown key={index} item={item} triggerListOpen={toggleHeight} />
 				))}
 			</SettingsCollectionList>

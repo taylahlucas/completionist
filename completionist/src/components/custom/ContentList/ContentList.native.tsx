@@ -19,7 +19,6 @@ const ContentList = () => {
 	const { getContentForCategory } = useGetContent();
 	const { checkContentCompleteForCategory } = useCheckContentComplete();
 	const categories = getContentCategories();
-	console.log("HERE: ", categories)
 
 	useEffect(() => {
 		setSearchValue('');

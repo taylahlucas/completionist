@@ -5,7 +5,7 @@ const fallout3SettingsConfig: SettingsConfig = {
   general: [
     {
       section: {
-        id: GameKeyEnum.FALLOUT_3,
+        id: "quests",
         isActive: true
       },
       categories: [
