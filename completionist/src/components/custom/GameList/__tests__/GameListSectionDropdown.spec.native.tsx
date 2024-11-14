@@ -6,6 +6,7 @@ import GameListSectionDropdown from '../GameListSectionDropdown.native';
 
 const props = {
 	title: 'Active',
+	type: 'active',
 	// TODO: Replace with activeGames
 	data: []
 };

@@ -1,4 +1,4 @@
+import { GameKeyEnum } from '@utils/CustomEnums';
 import { User } from '@utils/CustomInterfaces';
 
-export const useGetCurrentGameData = (user: User, selectedGame: string) => Object.entries(user.gameData)
-.find(([key, _]) => key === selectedGame)?.[1];
+export const getCurrentGame = (id: GameKeyEnum, user: User) => user.gameData.find((game) => game.id === id);

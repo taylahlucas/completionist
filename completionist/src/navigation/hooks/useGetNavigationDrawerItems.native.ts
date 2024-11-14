@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import { DrawerScreenEnum, ContentSectionEnum, SettingsOptionEnum } from '@utils/CustomEnums';
+import { DrawerScreenEnum, ContentSectionEnum } from '@utils/CustomEnums';
 import useGetGameData from '@data/hooks/useGetGameData';
 import useGetUserGameData from '@data/hooks/useGetUserGameData';
 import useMainState from '@redux/hooks/useMainState';
@@ -9,7 +9,7 @@ import useGetSettingsConfig from '@data/hooks/useGetSettingsConfig';
 
 const useGetNavigationDrawerItems = (): NavigationDrawerItemData[] => {
 	const { t } = useTranslation();
-	const { selectedGame, user } = useMainState();
+	const { selectedGame } = useMainState();
 	const { getUserQuests, getUserCollectables, getUserLocations, getUserMiscItems } = useGetUserGameData();
 	const { mapDataTo } = useGetGameData();
 	const { checkIsSectionEnabled } = useCheckSectionEnabled();
@@ -17,10 +17,10 @@ const useGetNavigationDrawerItems = (): NavigationDrawerItemData[] => {
 	const collectablesSection = ContentSectionEnum.COLLECTABLES;
 	const locationsSection = ContentSectionEnum.LOCATIONS;
 	const miscItemsSection = ContentSectionEnum.MISCELLANEOUS;
-	const questData = mapDataTo(questsSection, selectedGame, true);
-	const collectableData = mapDataTo(collectablesSection, selectedGame, true);
-	const locationData = mapDataTo(locationsSection, selectedGame, true);
-	const miscellaneousData = mapDataTo(miscItemsSection, selectedGame, true);
+	const questData = mapDataTo(questsSection, selectedGame?.id, true);
+	const collectableData = mapDataTo(collectablesSection, selectedGame?.id, true);
+	const locationData = mapDataTo(locationsSection, selectedGame?.id, true);
+	const miscellaneousData = mapDataTo(miscItemsSection, selectedGame?.id, true);
 	const { shouldHideDisabledSections } = useGetSettingsConfig();
 	
 	let drawerItems = [];

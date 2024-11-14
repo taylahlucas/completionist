@@ -1,5 +1,5 @@
 import { GameKeyEnum } from "./CustomEnums";
-import { GameData, GeneralData, SettingsConfig } from "./CustomInterfaces";
+import { GameData, SettingsConfig } from "./CustomInterfaces";
 
 const fallout3SettingsConfig: SettingsConfig = {
   general: [
@@ -575,37 +575,37 @@ const initialGameData = {
 	locations: [], 
 }
 
-export const fallout3GameData: GeneralData = {
-	appId: '22300',
+export const fallout3GameData: GameData = {
+  id: GameKeyEnum.FALLOUT_3,
+	appId: 22300,
 	...initialGameData,
-	isActive: false,
 	settingsConfig: fallout3SettingsConfig
 };
 
-export const fallout4GameData: GeneralData = {
-	appId: '377160',
+export const fallout4GameData: GameData = {
+  id: GameKeyEnum.FALLOUT_4,
+	appId: 377160,
 	...initialGameData,
-	isActive: false,
 	settingsConfig: fallout4SettingsConfig
 };
 
-export const skyrimGameData: GeneralData = {
-	appId: '72850',
+export const skyrimGameData: GameData = {
+  id: GameKeyEnum.SKYRIM,
+	appId: 72850,
 	...initialGameData,
-	isActive: false,
 	settingsConfig: skyrimSettingsConfig
 };
 
-export const witcher3GameData: GeneralData = {
-	appId: '292030',
+export const witcher3GameData: GameData = {
+  id: GameKeyEnum.WITCHER_3,
+	appId: 292030,
 	...initialGameData,
-	isActive: false,
 	settingsConfig: witcher3SettingsConfig
 };
 
-export const allGameData: [GameKeyEnum, GeneralData][] = [
-  [GameKeyEnum.FALLOUT_3, fallout3GameData],
-  [GameKeyEnum.FALLOUT_4, fallout4GameData],
-  [GameKeyEnum.SKYRIM, skyrimGameData],
-  [GameKeyEnum.WITCHER_3, witcher3GameData]
-];
+export const allGameData: GameData[] = [
+  fallout3GameData,
+  fallout4GameData,
+  skyrimGameData,
+  witcher3GameData,
+]

@@ -11,26 +11,26 @@ const useGameContent = () => {
   const { searchValue } = useContentState();
   const { getUserQuests, getUserCollectables, getUserLocations, getUserMiscItems } = useGetUserGameData();
   const { mapDataTo } = useGetGameData();
-
+	
 	return {
 		viewModel: {
 			selectedGame,
 			searchValue,
 			quests: {
 				completed: getUserQuests().length,
-				total: mapDataTo(ContentSectionEnum.QUESTS, selectedGame, true).length
+				total: mapDataTo(ContentSectionEnum.QUESTS, selectedGame?.id, true).length
 			},
 			collectables: {
 				completed: getUserCollectables().length,
-				total: mapDataTo(ContentSectionEnum.COLLECTABLES, selectedGame, true).length
+				total: mapDataTo(ContentSectionEnum.COLLECTABLES, selectedGame?.id, true).length
 			},
 			locations: {
 				completed: getUserLocations().length,
-				total: mapDataTo(ContentSectionEnum.LOCATIONS, selectedGame, true).length
+				total: mapDataTo(ContentSectionEnum.LOCATIONS, selectedGame?.id, true).length
 			},
 			misc: {
 				completed: getUserMiscItems().length,
-				total: mapDataTo(ContentSectionEnum.MISCELLANEOUS, selectedGame, true).length
+				total: mapDataTo(ContentSectionEnum.MISCELLANEOUS, selectedGame?.id, true).length
 			}
 		},
 		actions: {

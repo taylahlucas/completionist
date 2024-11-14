@@ -7,7 +7,7 @@ import useGetContent from './hooks/useGetContent';
 import SearchResults from './SearchResults.native';
 import ContentMainDropdown from './ContentMainDropdown.native';
 import useCheckContentComplete from './hooks/useCheckContentComplete';
-import { SettingsListItem } from '@utils/CustomInterfaces';
+import { IsActive } from '@utils/CustomInterfaces';
 import Loading from '@components/general/Loading.native';
 import useContentDispatch from './hooks/useContentDispatch';
 import WikiWebView from '@components/general/WikiWebView/WikiWebView.native';
@@ -19,6 +19,7 @@ const ContentList = () => {
 	const { getContentForCategory } = useGetContent();
 	const { checkContentCompleteForCategory } = useCheckContentComplete();
 	const categories = getContentCategories();
+	console.log("HERE: ", categories)
 
 	useEffect(() => {
 		setSearchValue('');
@@ -37,7 +38,7 @@ const ContentList = () => {
 			conditionalElement={<SearchResults />}
 		>
 			<ScrollableList>
-				{categories.map((category: SettingsListItem, index: number) => {
+				{categories.map((category: IsActive, index: number) => {
 					const allContentForCategory = getContentForCategory(category.title)
 					const completedContent = checkContentCompleteForCategory(allContentForCategory)
 

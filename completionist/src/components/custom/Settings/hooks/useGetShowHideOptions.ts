@@ -1,9 +1,15 @@
 import { useTranslation } from 'react-i18next';
 import useMainState from '@redux/hooks/useMainState';
 import { SettingsOptionEnum } from '@utils/CustomEnums';
-import { SettingsListItem } from '@utils/CustomInterfaces';
+import { IsActive } from '@utils/CustomInterfaces';
 
-const useGetShowHideOptions = (): SettingsListItem[] => {
+interface SettingsOptionsItem {
+  id: string;
+  title: string;
+  isActive: boolean;
+}
+
+const useGetShowHideOptions = (): SettingsOptionsItem[] => {
   const { t } = useTranslation();
   const { user } = useMainState();
 

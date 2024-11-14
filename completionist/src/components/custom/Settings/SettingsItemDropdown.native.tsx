@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { ViewStyle } from 'react-native';
 import { useTranslation } from 'react-i18next';
 import Dropdown from '@components/general/Dropdown/Dropdown.native';
-import { SettingsListItem } from '@utils/CustomInterfaces';
+import { IsActive } from '@utils/CustomInterfaces';
 import useGetUserGameData from '@data/hooks/useGetUserGameData';
 import {
 	styles,
@@ -22,7 +22,7 @@ import useUpdateGameSettings from './hooks/useUpdateGameSettings';
 import useEditUserData from '@data/hooks/useEditUserData.native';
 
 interface SettingsItemDropdownProps {
-	item: SettingsListItem;
+	item: IsActive;
 	triggerListOpen: (value: boolean) => void;
 }
 
@@ -38,14 +38,16 @@ const SettingsItemDropdown = ({ item, triggerListOpen }: SettingsItemDropdownPro
 	const updateGameSettings = useUpdateGameSettings();
 	const isOpen = item.id === selectedCategory.category;
 
-	const renderSettingsCheckbox = (item: SettingsListItem, style?: ViewStyle) => {
+	const renderSettingsCheckbox = (item: IsActive, style?: ViewStyle) => {
 		return (
 			<CheckBox
 				style={style}
 				isActive={item.isActive}
 				onPress={(): void => {
 					const updatedUser = updateGameSettings(user, item, selectedGameSettings);
-					saveUser(updatedUser);
+					if (updatedUser) {
+						saveUser(updatedUser);
+					}
 				}}
 			/>
 		)

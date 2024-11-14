@@ -17,7 +17,7 @@ const useGetContent = (): GameDataReturnType => {
   const { searchValue } = useContentState();
   const { getFormattedSearchString } = useFormatter();
   const { mapDataTo } = useGetGameData();
-  const items = mapDataTo(sectionType, selectedGame);
+  const items = mapDataTo(sectionType, selectedGame?.id);
 
   const getFilteredContent = () => {
     return items.filter(item => getFormattedSearchString(item.title).includes(getFormattedSearchString(searchValue)));

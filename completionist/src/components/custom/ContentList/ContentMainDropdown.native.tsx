@@ -10,10 +10,10 @@ import useCheckContentComplete from './hooks/useCheckContentComplete';
 import useGetContentCategories from './hooks/useGetContentCategories';
 import useContentState from './hooks/useContentState';
 import useContentDispatch from './hooks/useContentDispatch';
-import { IsActive } from '@utils/CustomInterfaces';
+import { ContentItem } from '@utils/CustomInterfaces';
 
 export interface ContentMainDropdownProps {
-	category: IsActive;
+	category: ContentItem;
 	completed: string;
 	total: string;
 }
@@ -24,7 +24,7 @@ const ContentMainDropdown = ({ category, completed, total }: ContentMainDropdown
 	const { selectedCategory } = useContentState();
 	const { getContentSubCategories, getContentSubCategoriesTypes } = useGetContentCategories();
 	const { getContentForSubCategory } = useGetContents();
-	const subCategories = getContentSubCategories(category.title, selectedGame);
+	const subCategories = getContentSubCategories(category.title, selectedGame?.id);
 	const { checkContentCompleteForCategory } = useCheckContentComplete();
 
 	return (
@@ -48,7 +48,7 @@ const ContentMainDropdown = ({ category, completed, total }: ContentMainDropdown
 			{subCategories.map((subCategory, index) => {
 				const questsForCategory = getContentForSubCategory(category.title, subCategory);
 				const completedQuests = checkContentCompleteForCategory(questsForCategory);
-				const subCategoryTypes = getContentSubCategoriesTypes(subCategory, selectedGame);
+				const subCategoryTypes = getContentSubCategoriesTypes(subCategory, selectedGame?.id);
 
 				return (
 					<ContentSubDropdown

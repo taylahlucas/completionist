@@ -10,10 +10,10 @@ import Condition from '@components/general/Condition.native';
 import ContentSubTypeDropdown from './ContentSubTypeDropdown.native';
 import useGetContents from './hooks/useGetContent';
 import useCheckContentComplete from './hooks/useCheckContentComplete';
-import { SettingsListItem } from '@utils/CustomInterfaces';
+import { IsActive } from '@utils/CustomInterfaces';
 
 export interface ContentSubDropdownProps {
-  mainCategory: SettingsListItem;
+  mainCategory: IsActive;
   subCategory: string;
   completed: string;
   total: string;
@@ -26,7 +26,8 @@ const ContentSubDropdown = ({ mainCategory, subCategory, completed, total }: Con
   const { getContentForSubCategoryType } = useGetContents();
   const { getContentSubCategoriesTypes } = useGetContentCategories();
   const { checkContentCompleteForCategory } = useCheckContentComplete();
-  const subCategoryTypes = getContentSubCategoriesTypes(subCategory, selectedGame);
+  // TODO: Fix here
+  const subCategoryTypes = getContentSubCategoriesTypes(subCategory, selectedGame?.id);
 
   return (
     <Dropdown

@@ -18,7 +18,7 @@ import { useSelectFirstGame } from './hooks/useSelectFirstGame.native';
 
 const SelectFirstGame = () => {
 	const theme = useGetTheme();
-	const { t } = useTranslation();
+	const { t } = useTranslation();  
 	const { viewModel, actions } = useSelectFirstGame();
 	const { translateGameName } = useTranslateGameContent();
 	
@@ -77,10 +77,11 @@ const SelectFirstGame = () => {
 					{viewModel.filteredGames.map((game, index) => (
 						<GameListItem
 							key={index}
+							flow='signup'
 							game={game}
-							enabled={viewModel.selectedFirstGame?.[0] === game[0]}
-							enabledColor={viewModel.selectedFirstGame?.[0] === game[0] ? theme.lightPurple : theme.midGrey}
-							onPress={(): void => actions.setSelectedFirstGame(game[0])}
+							enabled={viewModel.selectedFirstGame === game.id}
+							enabledColor={viewModel.selectedFirstGame === game.id ? theme.lightPurple : theme.midGrey}
+							onPress={(): void => actions.setSelectedFirstGame(game.id)}
 						/>
 					))}
 				</SelectFirstGameContentContainer>

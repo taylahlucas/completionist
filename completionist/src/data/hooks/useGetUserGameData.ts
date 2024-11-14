@@ -1,18 +1,20 @@
 import useMainState from '@redux/hooks/useMainState';
-import { Item, SettingsListItem } from '@utils/CustomInterfaces';
+import { Item, IsActive } from '@utils/CustomInterfaces';
+import { getCurrentGame } from '@utils/hooks/useGetCurrentGameData.native';
 
 interface GetUserGameDataReturnType {
   getUserQuests: () => Item[];
   getUserCollectables: () => Item[];
   getUserLocations: () => Item[];
   getUserMiscItems: () => Item[];
-  getUserSettingsMainConfig: () => SettingsListItem[];
-  getUserSettingsSubConfig: (section: string) => SettingsListItem[];
-  getUserSettingsDLC: (section: string) => SettingsListItem[];
+  getUserSettingsMainConfig: () => IsActive[];
+  getUserSettingsSubConfig: (section: string) => IsActive[];
+  getUserSettingsDLC: (section: string) => IsActive[];
 }
 
 const useGetUserGameData = (): GetUserGameDataReturnType => {
   const { user, selectedGameData, selectedGameSettings } = useMainState();
+  const currentGame = getCurrentGame(selectedGameSettings, user);
 
   const getUserQuests = (): Item[] => {
     return !!selectedGameData
@@ -38,16 +40,16 @@ const useGetUserGameData = (): GetUserGameDataReturnType => {
       : [];
   };
 
-  const getUserSettingsMainConfig = (): SettingsListItem[] => {
-    return user.gameData[selectedGameSettings]?.settingsConfig.general?.map(item => item.section);
+  const getUserSettingsMainConfig = (): IsActive[] => {
+    return currentGame?.settingsConfig.general?.map(item => item.section) ?? [];
   }
 
-  const getUserSettingsSubConfig = (section: string): SettingsListItem[] => {
-    return user.gameData[selectedGameSettings]?.settingsConfig.general?.find(item => item.section.id === section)?.categories ?? [];
+  const getUserSettingsSubConfig = (section: string): IsActive[] => {
+    return currentGame?.settingsConfig.general?.find(item => item.section.id === section)?.categories ?? [];
   }
 
-  const getUserSettingsDLC = (section: string): SettingsListItem[] => {
-    return user.gameData[selectedGameSettings]?.settingsConfig.general?.find(item => item.section.id === section)?.dlc ?? [];
+  const getUserSettingsDLC = (section: string): IsActive[] => {
+    return currentGame?.settingsConfig.general?.find(item => item.section.id === section)?.dlc ?? [];
   }
 
   return {

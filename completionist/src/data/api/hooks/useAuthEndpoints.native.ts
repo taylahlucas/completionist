@@ -55,7 +55,12 @@ const useAuthEndpoints = (): AuthEndpointsReturnType => {
 				title: 'Check User Exists',
 				data: {
 					email,
-					error: JSON.stringify(error, null, 2)
+					error: {
+						code: error.code,
+						message: error.message,
+						request: JSON.stringify(error.request, null, 2),
+						response: JSON.stringify(error.response, null, 2)
+					}
 				}
 			});
 			return {
@@ -98,7 +103,12 @@ const useAuthEndpoints = (): AuthEndpointsReturnType => {
 				data: {
 					type: data.googleId ? 'Google' : 'Regular',
 					email: data.email,
-					error: JSON.stringify(error, null, 2)
+					error: {
+						code: error.code,
+						message: error.message,
+						request: JSON.stringify(error.request, null, 2),
+						response: JSON.stringify(error.response, null, 2)
+					}
 				}
 			});
 			handleAxiosError(error.response?.status);
@@ -142,7 +152,12 @@ const useAuthEndpoints = (): AuthEndpointsReturnType => {
 				data: {
 					type: googleId ? 'Google' : 'Regular',
 					email,
-					error: JSON.stringify(error, null, 2)
+					error: {
+						code: error.code,
+						message: error.message,
+						request: JSON.stringify(error.request, null, 2),
+						response: JSON.stringify(error.response, null, 2)
+					}
 				}
 			});
 			handleAxiosError(error.response?.status);
@@ -181,7 +196,12 @@ const useAuthEndpoints = (): AuthEndpointsReturnType => {
 				data: {
 					type: googleId ? 'Google' : 'Regular',
 					email,
-					error: JSON.stringify(error, null, 2)
+					error: {
+						code: error.code,
+						message: error.message,
+						request: JSON.stringify(error.request, null, 2),
+						response: JSON.stringify(error.response, null, 2)
+					}
 				}
 			});
 			handleAxiosError(error.response?.status);
@@ -211,7 +231,12 @@ const useAuthEndpoints = (): AuthEndpointsReturnType => {
 				title: 'Send Verification Email',
 				data: {
 					emailTo,
-					error: JSON.stringify(error, null, 2)
+					error: {
+						code: error.code,
+						message: error.message,
+						request: JSON.stringify(error.request, null, 2),
+						response: JSON.stringify(error.response, null, 2)
+					}
 				}
 			});
 			handleAxiosError(error.response?.status);
@@ -240,7 +265,12 @@ const useAuthEndpoints = (): AuthEndpointsReturnType => {
 				title: 'Forgot Password',
 				data: {
 					email,
-					error: JSON.stringify(error, null, 2)
+					error: {
+						code: error.code,
+						message: error.message,
+						request: JSON.stringify(error.request, null, 2),
+						response: JSON.stringify(error.response, null, 2)
+					}
 				}
 			});
 			handleAxiosError(error.response?.status);

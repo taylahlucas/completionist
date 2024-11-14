@@ -1,6 +1,7 @@
 import useEditUserData from '@data/hooks/useEditUserData.native';
+import { initialGameData } from '@redux/MainState';
 import { GameKeyEnum } from '@utils/CustomEnums';
-import { IsActive, GeneralData, User } from '@utils/CustomInterfaces';
+import { IsActive, GameData, User } from '@utils/CustomInterfaces';
 import { fallout3GameData, fallout4GameData, skyrimGameData, witcher3GameData } from '@utils/gameConfigs';
 
 const useActivateGame = () => {
@@ -36,7 +37,9 @@ const useActivateGame = () => {
 			case 'skyrim':
 				return skyrimGameData;
 			case 'witcher3':
-				return witcher3GameData
+				return witcher3GameData;
+			default: 
+				return initialGameData;
 		}
 	};
 	
@@ -46,12 +49,7 @@ const useActivateGame = () => {
 			...user,
 			gameData: [
 				...user.gameData,
-				{
-					selectedGame: {
-						...getGameData(selectedGame),
-						isActive: true
-					} as GeneralData
-				}
+				getGameData(selectedGame),
 			]	
 		});
 	};

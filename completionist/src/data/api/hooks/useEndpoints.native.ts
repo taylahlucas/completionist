@@ -63,7 +63,12 @@ const useEndpoints = (): EndpointsReturnType => {
 				title: 'Get User By Id',
 				data: {
 					userId,
-					error: JSON.stringify(error, null, 2)
+					error: {
+						code: error.code,
+						message: error.message,
+						request: JSON.stringify(error.request, null, 2),
+						response: JSON.stringify(error.response, null, 2)
+					}
 				}
 			});
 			handleAxiosError(error.response?.status);
@@ -102,7 +107,12 @@ const useEndpoints = (): EndpointsReturnType => {
 				title: 'Updated user',
 				data: {
 					email: user.email,
-					error: JSON.stringify(error, null, 2)
+					error: {
+						code: error.code,
+						message: error.message,
+						request: JSON.stringify(error.request, null, 2),
+						response: JSON.stringify(error.response, null, 2)
+					}
 				}
 			});
 			handleAxiosError(error.response?.status);
@@ -130,7 +140,12 @@ const useEndpoints = (): EndpointsReturnType => {
 				title: 'Changed Password',
 				data: {
 					userId,
-					error: JSON.stringify(error, null, 2)
+					error: {
+						code: error.code,
+						message: error.message,
+						request: JSON.stringify(error.request, null, 2),
+						response: JSON.stringify(error.response, null, 2)
+					}
 				}
 			});
 			handleAxiosError(error.response?.status);
@@ -161,7 +176,12 @@ const useEndpoints = (): EndpointsReturnType => {
 				title: 'Sending Email',
 				data: {
 					emailTo,
-					error: JSON.stringify(error, null, 2)
+					error: {
+						code: error.code,
+						message: error.message,
+						request: JSON.stringify(error.request, null, 2),
+						response: JSON.stringify(error.response, null, 2)
+					}
 				}
 			});
 			handleAxiosError(error.response?.status);
@@ -186,7 +206,12 @@ const useEndpoints = (): EndpointsReturnType => {
 				title: 'Deleting User',
 				data: {
 					userId,
-					error: JSON.stringify(error, null, 2)
+					error: {
+						code: error.code,
+						message: error.message,
+						request: JSON.stringify(error.request, null, 2),
+						response: JSON.stringify(error.response, null, 2)
+					}
 				}
 			});
 			handleAxiosError(error.response?.status);
@@ -234,7 +259,12 @@ const useEndpoints = (): EndpointsReturnType => {
 				data: {
 					userId,
 					steamId,
-					error: JSON.stringify(error, null, 2)
+					error: {
+						code: error.code,
+						message: error.message,
+						request: JSON.stringify(error.request, null, 2),
+						response: JSON.stringify(error.response, null, 2)
+					}
 				}
 			});
 			handleAxiosError(error.response?.status);
@@ -275,7 +305,12 @@ const useEndpoints = (): EndpointsReturnType => {
 					userId,
 					steamId,
 					gameId,
-					error: JSON.stringify(error, null, 2)
+					error: {
+						code: error.code,
+						message: error.message,
+						request: JSON.stringify(error.request, null, 2),
+						response: JSON.stringify(error.response, null, 2)
+					}
 				}
 			});
 			if (error?.response?.status === requestCodes.UNAUTHORIZED) {

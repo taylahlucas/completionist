@@ -11,7 +11,7 @@ interface GameListSectionHeaderProps {
 }
 
 const GameListSectionHeader = ({ title, isOpen }: GameListSectionHeaderProps) => {
-  const { viewModel } = useGameListItem();
+  const { viewModel } = useGameListItem('home');
 
   return (
     <GameListItemHeaderContainer>

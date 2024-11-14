@@ -2,11 +2,10 @@ import React from 'react';
 import { Animated } from 'react-native';
 import { useTranslation } from 'react-i18next';
 import SettingsItemDropdown from '@components/custom/Settings/SettingsItemDropdown.native';
-import { SettingsListItem } from '@utils/CustomInterfaces';
+import { IsActive } from '@utils/CustomInterfaces';
 import useGetUserGameData from '@data/hooks/useGetUserGameData';
 import SettingsSelectionDropdown from '@components/custom/Settings/SettingsSelectionDropdown.native';
 import { SettingsCollectionList, SettingsDescription } from '@components/custom/Settings/SettingsStyledComponents.native';
-import useMainState from '@redux/hooks/useMainState';
 
 const SettingsGameCollections = () => {
 	const { t } = useTranslation();
@@ -31,7 +30,7 @@ const SettingsGameCollections = () => {
 			</SettingsDescription>
 			<SettingsSelectionDropdown />
 			<SettingsCollectionList style={{ height: height }}>
-				{config.map((item: SettingsListItem, index: number) => (
+				{config.map((item: IsActive, index: number) => (
 					<SettingsItemDropdown key={index} item={item} triggerListOpen={toggleHeight} />
 				))}
 			</SettingsCollectionList>

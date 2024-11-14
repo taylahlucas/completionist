@@ -1,13 +1,13 @@
 import { createSlice } from '@reduxjs/toolkit';
 import { UnauthorizedScreenEnum, GameKeyEnum } from '@utils/CustomEnums';
 import { ScreenEnumType } from '@utils/CustomTypes';
-import { GeneralData,GameData, User } from '@utils/CustomInterfaces';
+import { GameData, User } from '@utils/CustomInterfaces';
 import { AppStateStatus } from 'react-native';
 import { initialFormData } from '@components/custom/LoginForm/LoginState';
 
-export const initialGameData: GeneralData = {
-	appId: '',
-	isActive: false,
+export const initialGameData: GameData = {
+	id: GameKeyEnum.SKYRIM,
+	appId: 0,
 	quests: [],
 	collectables: [],
 	locations: [],
@@ -56,20 +56,11 @@ export const initialState: MainState = {
 	searchValue: ''
 }
 
-const getUserDataState = (state: MainState): GeneralData => {
-	console.log("selectedGame: ", state.user.selectedGame)
-	console.log("getUserDataState: ", state.user.gameData)
-	// TODO: Fix
-	if (state.selectedGame) {
-		// return Object.entries(state.user.gameData)
-		// 	.find(
-		// 		([key, _]) => key === state.selectedGame
-		// 	)?.[1];
-			// return state.user.gameData.find((game) => game[0].id === state.selectedGame.id);
-			return initialGameData;
+const getUserDataState = (state: MainState): GameData => {
+	if (state.selectedGame && state.user.gameData) {
+			return state.user.gameData.find((game) => game.id === state.selectedGame?.id) ?? initialGameData;
 	}
 	return initialGameData;
-	// return initialUser.gameData;
 };
 
 const slice = createSlice({

@@ -102,3 +102,5 @@ export type AxiosErrorResponse = AxiosError | any;
 // Utils
 
 export type LoggerType = 'info' | 'error' | 'warning';
+export type FlowType = 'signup' | 'home';
+export type GameListSelectionType = 'active' | 'inactive';

@@ -68,10 +68,8 @@ const useGetGameData = (): GameDataReturnType => {
 		}
 		else {
 			return getGameData(selectedGame)
-			.filter((item: GameContentItem) => item.section === ContentSectionEnum.QUESTS)
-			.map((quest: GameContentItem) => {
-				return quest as GameContentItem;
-			});
+				?.filter((item: GameContentItem) => item.section === ContentSectionEnum.QUESTS)
+				.map((quest: GameContentItem) => (quest as GameContentItem));
 		}
 	};
 
@@ -81,10 +79,8 @@ const useGetGameData = (): GameDataReturnType => {
 		}
 		else {
 			return getGameData(selectedGame)
-			.filter((item: GameContentItem) => item.section === ContentSectionEnum.COLLECTABLES)
-			.map((collectable: Partial<GameContentItem>) => {
-				return collectable as GameContentItem;
-			});
+			?.filter((item: GameContentItem) => item.section === ContentSectionEnum.COLLECTABLES)
+			.map((collectable: Partial<GameContentItem>) => (collectable as GameContentItem));
 		}
 	};
 
@@ -94,10 +90,8 @@ const useGetGameData = (): GameDataReturnType => {
 		}
 		else {
 			return getGameData(selectedGame)
-			.filter((item: GameContentItem) => item.section === ContentSectionEnum.MISCELLANEOUS)
-			.map((miscItem: Partial<GameContentItem>) => {
-				return miscItem as GameContentItem
-			});
+			?.filter((item: GameContentItem) => item.section === ContentSectionEnum.MISCELLANEOUS)
+			.map((miscItem: Partial<GameContentItem>) => (miscItem as GameContentItem));
 		}
 	};
 
@@ -107,10 +101,8 @@ const useGetGameData = (): GameDataReturnType => {
 		}
 		else {
 			return getGameData(selectedGame)
-			.filter((item: GameContentItem) => item.section === ContentSectionEnum.LOCATIONS)
-			.map((location: Partial<GameContentItem>) => {
-				return location as GameContentItem;
-			});
+			?.filter((item: GameContentItem) => item.section === ContentSectionEnum.LOCATIONS)
+			.map((location: Partial<GameContentItem>) => (location as GameContentItem));
 		}
 	};
 

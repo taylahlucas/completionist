@@ -22,7 +22,7 @@ export const useSelectFirstGame = () => {
   const { activateGame } = useActivateGame();
   const { filterGameList } = useFilterGameList();
   const filteredGames = filterGameList(allGameData, false, getFormattedSearchString(searchValue));
-
+  
   return {
     viewModel: {
       user,

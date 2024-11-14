@@ -1,13 +1,11 @@
 import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import useFilterGameList from '@components/custom/GameList/hooks/useFilterGameList.native';
 import useMainState from '@redux/hooks/useMainState';
 import useGetGameProgressData from '@data/hooks/useGetGameProgressData.native';
 import useEndpoints from '@data/api/hooks/useEndpoints.native';
 import { AchievementItem } from '@utils/CustomInterfaces';
 import useEditUserData from '@data/hooks/useEditUserData.native';
-import { useGetActiveGames } from '@utils/hooks/useGetActiveGames.native';
-import { useGetCurrentGameData } from '@utils/hooks/useGetCurrentGameData.native';
+import { getCurrentGame } from '@utils/hooks/useGetCurrentGameData.native';
 
 interface AchievementsState {
 	isOpen: boolean;
@@ -30,25 +28,24 @@ const useAchievements = () => {
 		items: [],
 		noOfLocked: 0
 	});
-	const { filterGameList } = useFilterGameList();
-	const { activeGames } = useGetActiveGames(user);
-	const currentGame = useGetCurrentGameData(user, selectedGame?.toString() ?? '');
+	const activeGames = user.gameData;
+	const currentGame = getCurrentGame(selectedGame?.id ?? GameKeyEnum.SKYRIM, user);
 	const { getGameProgress } = useGetGameProgressData();
 	const isGlobalAchievements = !selectedGame;
 
 
 	useEffect(() => {
 		const fetchData = async () => {
-			console.log("HEREE should return game data", activeGames[0]?.[1])
-			const currentGameId = selectedGame ? currentGame?.appId : activeGames[0]?.[1].appId;
+			const currentGameId = selectedGame ? currentGame?.appId : activeGames[0].appId;
 
 			if (!currentGameId) {
 				// TODO: Could not find any game id
+				console.log("TEST could not find any game id");
 				return;
 			}
 
 			if (user.steamId && currentGameId) {
-				const response = await getSteamPlayerAchievements({ userId: user.userId, steamId: user.steamId, gameId: currentGameId });
+				const response = await getSteamPlayerAchievements({ userId: user.userId, steamId: user.steamId, gameId: currentGameId.toString() });
 
 				if (response && !response?.hasPermission) {
 					setAchievementsState({

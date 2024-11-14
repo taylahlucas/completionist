@@ -2,12 +2,12 @@ import useGetGameData from '@data/hooks/useGetGameData';
 import useGetSettingsConfig from '@data/hooks/useGetSettingsConfig';
 import useMainState from '@redux/hooks/useMainState';
 import { GameKeyEnum } from '@utils/CustomEnums';
-import { SettingsListItem } from '@utils/CustomInterfaces';
+import { ContentItem, IsActive } from '@utils/CustomInterfaces';
 import useTranslateGameContent from '@utils/hooks/useTranslateGameContent.native';
 import useContentState from './useContentState';
 
 interface GameDataReturnType {
-	getContentCategories: () => SettingsListItem[];
+	getContentCategories: () => ContentItem[];
 	getContentSubCategories: (category: string, selectedGame?: GameKeyEnum) => string[];
 	getContentSubCategoriesTypes: (subCategory: string, selectedGame?: GameKeyEnum) => string[];
 }
@@ -19,7 +19,7 @@ const useGetContentCategories = (): GameDataReturnType => {
 	const { shouldHideDisabledSections } = useGetSettingsConfig();
 	const { translateCategoryName, translateDLCName } = useTranslateGameContent();
 
-	const getContentCategories = (): SettingsListItem[] => {
+	const getContentCategories = (): ContentItem[] => {
 		const section = selectedGameData?.settingsConfig.general
 			.filter(config => config.section.id === sectionType)[0] ?? {
 				section: {
@@ -29,23 +29,23 @@ const useGetContentCategories = (): GameDataReturnType => {
 				dlc: []
 			};
 		if (selectedGame) {
-			const mainCategories: SettingsListItem[] = (shouldHideDisabledSections()
+			const mainCategories: ContentItem[] = (shouldHideDisabledSections()
 				? section?.categories.filter(category => category.isActive)
 				: section?.categories)
 				.map(category => {
 					return {
 						id: category.id,
-						title: translateCategoryName(selectedGame, section.section.id, category.id),
+						title: translateCategoryName(selectedGame.id, section.section.id, category.id),
 						isActive: category.isActive
 					}
 				});
-			const dlcCategories: SettingsListItem[] = (shouldHideDisabledSections()
+			const dlcCategories: ContentItem[] = (shouldHideDisabledSections()
 				? section?.dlc.filter(dlc => dlc.isActive)
 				: section?.dlc)
 				.map(dlc => {
 					return {
 						id: dlc.id,
-						title: translateDLCName(selectedGame, dlc.id),
+						title: translateDLCName(selectedGame.id, dlc.id),
 						isActive: dlc.isActive
 					}
 				});

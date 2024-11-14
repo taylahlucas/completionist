@@ -7,6 +7,12 @@ import { ContentState } from '@components/custom/ContentList/ContentState';
 import { SubscriptionState } from '@components/custom/SubscriptionContent/SubscriptionState';
 import { LanguageType, ScreenEnumType } from './CustomTypes';
 
+export interface ContentItem {
+	id: string;
+	title: string;
+	isActive: boolean;
+}
+
 export interface GameContentItem {
   id: string;
 	section: ContentSectionEnum;
@@ -192,19 +198,15 @@ export interface IsActive {
   isActive: boolean;
 }
 
-export interface GeneralData {
-	appId: string;
-  isActive: boolean;
+export interface GameData {
+  id: GameKeyEnum;
+	appId: number;
   quests: Item[];
   collectables: Item[];
   locations: Item[];
   miscellaneous: Item[];
   settingsConfig: SettingsConfig;
 }
-
-export type GameData = {
-  [key: string]: GeneralData;
-};
 
 export interface SignupData {
 	verification: boolean;

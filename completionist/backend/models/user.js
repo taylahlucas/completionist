@@ -12,8 +12,8 @@ const generalSettingsSchema = Joi.object().keys({
 });
 
 const gameSchema = () => Joi.object().keys({
+  id: Joi.string().required(),
   appId: Joi.number().required(),
-  isActive: Joi.boolean().required(),
   quests: Joi.array().items(isActiveSchema).required(),
   collectables: Joi.array().items(isActiveSchema).required(),
   miscellaneous: Joi.array().items(isActiveSchema).required(),

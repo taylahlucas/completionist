@@ -57,6 +57,7 @@ const useSettings = () => {
 
   const setSettingsOptionsOnPress = (id: string) => {
     switch (id) {
+			// TODO: Translate id to type
       case 'completed-items':
         setUser({
           ...user,
