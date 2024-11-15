@@ -13,8 +13,8 @@ import {
 	SettingsMainItemTitle 
 } from './SettingsStyledComponents.native';
 import useGetTheme from '@styles/hooks/useGetTheme';
-import useSettingsState from './hooks/useSettingsState';
-import useSettingsDispatch from './hooks/useSettingsDispatch';
+import useSettingsState from './provider/useSettingsState';
+import useSettingsDispatch from './provider/useSettingsDispatch';
 import useTranslateGameContent from '@data/hooks/useTranslateGameContent.native';
 import useMainState from '@redux/hooks/useMainState';
 import CheckBox from '@components/general/Checkbox/CheckBox.native';
