@@ -7,7 +7,7 @@ import { GameKeyEnum } from '@utils/CustomEnums';
 import { FlowType } from '@utils/CustomTypes';
 import { allGameData } from '@utils/configs/gameConfigs';
 
-export const useGameListItem = (flow: FlowType) => {
+export const useGameListItem = () => {
 	const theme = useGetTheme();
   const { user } = useMainState();
 	const { translateGameName } = useTranslateGameContent();

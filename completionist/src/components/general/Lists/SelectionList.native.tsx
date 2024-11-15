@@ -3,20 +3,38 @@ import { SelectionListContainer, SelectionListItemContainer, SelectListTitle } f
 import CheckBox from '../Checkbox/CheckBox.native';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import { IsActive } from '@utils/CustomInterfaces';
+import { useTranslation } from 'react-i18next';
+
+export type SelectionListType = 'enable-dlc' | 'show-hide-sections';
 
 interface SelectionListProps {
+  type: SelectionListType;
   data: IsActive[];
+  translationKey: string;
   onPress: (title: string) => void;
 }
 
-const SelectionList = ({ data, onPress }: SelectionListProps) => {
+const SelectionList = ({ data, type, translationKey, onPress }: SelectionListProps) => {
+  const { t } = useTranslation();
   const theme = useGetTheme();
 
+  const getTitleForType = (item: IsActive) => {
+    switch (type) {
+      case 'enable-dlc':
+        return t(`common:categories.${translationKey}.dlc.${item.id}`);
+      case 'show-hide-sections':
+        return t(`common:settings.${translationKey}`);
+    }
+  };
+
+  //item.id
   return (
     <SelectionListContainer>
       {data.map((item, index) => (
         <SelectionListItemContainer key={index}>
-          <SelectListTitle align='left' color={theme.lightGrey}>{'item.title // to translate'}</SelectListTitle>
+          <SelectListTitle align='left' color={theme.lightGrey}>
+            {getTitleForType(item)}
+          </SelectListTitle>
           <CheckBox 
             isActive={item.isActive}
             onPress={(): void => onPress(item.id)}

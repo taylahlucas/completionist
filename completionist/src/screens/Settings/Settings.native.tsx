@@ -64,15 +64,22 @@ const Settings = () => {
 				<SettingsDescription align='left'>
 					{t('common:settings.enabledDLC')}
 				</SettingsDescription>
-				<SelectionList data={actions.getDLCOptions()} onPress={actions.setDLCOptions} />
+				<SelectionList 
+					type='enable-dlc'
+					data={actions.getDLCOptions()} 
+					onPress={actions.setDLCOptions}
+					translationKey={viewModel.selectedGame?.id ?? ''}
+				/>
 
 				{/* Show/Hide sections */}
 				<SettingsDescription align='left'>
 					{t('common:settings.showHide')}
 				</SettingsDescription>
 				<SelectionList
+					type='show-hide-sections'
 					data={viewModel.options}
 					onPress={(id: string): void => actions.setSettingsOptionsOnPress(id)}
+					translationKey='disabledSections'
 				/>
 
 				{/* Select language */}

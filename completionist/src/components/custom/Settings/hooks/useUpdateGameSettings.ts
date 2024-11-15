@@ -23,10 +23,10 @@ const useUpdateGameSettings = () => {
     
 		return {
       ...user,
-      gameData: {
+      gameData: [
         ...user.gameData,
-        ...updatedGame
-      },
+        updatedGame
+      ]      
     };
   };
 

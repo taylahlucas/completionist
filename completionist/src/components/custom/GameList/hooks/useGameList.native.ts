@@ -11,7 +11,7 @@ export const useGameList = () => {
 		if (!user.gameData?.find((activeGame) => activeGame.id === game.id)) {
 			return true;
 		}
-	}), [user.gameData]);
+	}), [user.gameData.length]);
 
 	return {
 		viewModel: {

@@ -28,7 +28,7 @@ const SelectFirstGame = () => {
 			type='footer'
 			disabled={!viewModel.selectedFirstGame}
 			onPress={async (): Promise<void> => {
-				if (!!viewModel.selectedFirstGame) {
+				if (viewModel.selectedFirstGame) {
 					const updatedUser = {
 						...viewModel.user,
 						signup: {

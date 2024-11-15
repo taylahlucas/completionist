@@ -14,7 +14,7 @@ interface GameListItemProps {
 }
 
 const GameListItem = ({ flow = 'home', game, enabledColor = 'grey', enabled, onPress }: GameListItemProps) => {
-	const { viewModel, actions } = useGameListItem(flow);
+	const { viewModel, actions } = useGameListItem();
 
 	return (
 		<GameListItemContainer

@@ -8,16 +8,14 @@ import useMainDispatch from '@redux/hooks/useMainDispatch';
 import useTranslateGameContent from '@data/hooks/useTranslateGameContent.native';
 import { GameKeyEnum } from '@utils/CustomEnums';
 import useFilterGameList from '@components/custom/GameList/hooks/useFilterGameList.native';
-import { allGameData } from '@utils/configs/gameConfigs';
 
 const SettingsSelectionDropdown = () => {
 	const { t } = useTranslation();
 	const { setSelectedGameSettings } = useMainDispatch();
-	const { selectedGameSettings } = useMainState();
+	const { user, selectedGameSettings } = useMainState();
 	const { translateGameName } = useTranslateGameContent();
 	const { filterGameList } = useFilterGameList();
 	const [isSelectionOpen, triggerSelectionOpen] = useState(false);
-	// const { mappedActiveGames } = useGetActiveGames(user);
 
 	// TODO: Fix allGameData
 	return (
@@ -33,7 +31,7 @@ const SettingsSelectionDropdown = () => {
 			}
 		>
 			<DropdownSelectionContent
-				content={filterGameList(allGameData, true, '').map(game => ({
+				content={filterGameList(user.gameData, true, '').map(game => ({
 					id: game.id,
 					title: t(`common:categories.${game.id}.title`)
 				}))}

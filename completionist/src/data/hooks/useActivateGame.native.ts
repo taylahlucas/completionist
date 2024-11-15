@@ -1,60 +1,70 @@
 import useEditUserData from '@data/hooks/useEditUserData.native';
-import { initialGameData } from '@redux/MainState';
-import { GameKeyEnum } from '@utils/CustomEnums';
-import { IsActive, GameData, User } from '@utils/CustomInterfaces';
-import { fallout3GameData, fallout4GameData, skyrimGameData, witcher3GameData } from '@utils/configs/gameConfigs';
+import {initialGameData} from '@redux/MainState';
+import {GameKeyEnum} from '@utils/CustomEnums';
+import {IsActive, User} from '@utils/CustomInterfaces';
+import {
+  fallout3GameData,
+  fallout4GameData,
+  skyrimGameData,
+  witcher3GameData,
+} from '@utils/configs/gameConfigs';
 
 const useActivateGame = () => {
-	const { updateUserData } = useEditUserData();
+  const {updateUserData} = useEditUserData();
 
-	// Free users
-	const changeGameSubscription = (user: User, selectedGame: IsActive, changesLeft: number) => {
-		// TODO: Update
-		// const updatedGames: IsActive[] = user.subscription.data.map((data: IsActive) => {
-		// 	return {
-		// 		id: data.id,
-		// 		isActive: data.id === selectedGame?.id
-		// 	};
-		// });
+  // Free users
+  const changeGameSubscription = (
+    user: User,
+    selectedGame: IsActive,
+    changesLeft: number,
+  ) => {
+    // TODO: Update
+    // const updatedGames: IsActive[] = user.subscription.data.map((data: IsActive) => {
+    // 	return {
+    // 		id: data.id,
+    // 		isActive: data.id === selectedGame?.id
+    // 	};
+    // });
+    // const updatedUser = {
+    // 	...user,
+    // 	subscription: {
+    // 		...user.subscription,
+    // 		changesLeft: changesLeft,
+    // 		data: updatedGames
+    // 	}
+    // };
+    // updateUserData(updatedUser);
+  };
 
-		// const updatedUser = {
-		// 	...user,
-		// 	subscription: {
-		// 		...user.subscription,
-		// 		changesLeft: changesLeft,
-		// 		data: updatedGames
-		// 	}
-		// };
-		// updateUserData(updatedUser);
-	};
+  const getGameData = (id: string) => {
+    switch (id) {
+      case 'fallout3':
+        return fallout3GameData;
+      case 'fallout4':
+        return fallout4GameData;
+      case 'skyrim':
+        return skyrimGameData;
+      case 'witcher3':
+        return witcher3GameData;
+      default:
+        return initialGameData;
+    }
+  };
 
-	const getGameData = (id: string) => {
-		switch (id) {
-			case 'fallout3':
-				return fallout3GameData;
-			case 'fallout4':
-				return fallout4GameData;
-			case 'skyrim':
-				return skyrimGameData;
-			case 'witcher3':
-				return witcher3GameData;
-			default: 
-				return initialGameData;
-		}
-	};
-	
-	// User set up and premium users
-	const activateGame = (user: User, selectedGame: GameKeyEnum) => {
-		updateUserData({
-			...user,
-			gameData: [
-				...user.gameData,
-				getGameData(selectedGame),
-			]	
-		});
-	};
+  // User set up and premium users
+  const activateGame = (user: User, selectedGame: GameKeyEnum) => {
+    const updatedGameData = user.gameData
+      ? [...user.gameData, getGameData(selectedGame)]
+      : [getGameData(selectedGame)];
 
-	return { changeGameSubscription, activateGame };
+    updateUserData({
+      ...user,
+      gameData: updatedGameData,
+    });
+    return;
+  };
+
+  return {changeGameSubscription, activateGame};
 };
 
 export default useActivateGame;
