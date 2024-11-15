@@ -3,7 +3,7 @@ import useMainDispatch from '@redux/hooks/useMainDispatch';
 import { User } from '@utils/CustomInterfaces';
 import useCache from '../api/hooks/useCache.native';
 import useKeychain from './useKeychain.native';
-import useLoginDispatch from '@components/custom/LoginForm/hooks/useLoginDispatch';
+import useLoginDispatch from '@components/custom/LoginForm/provider/useLoginDispatch';
 import useEndpoints from '../api/hooks/useEndpoints.native';
 import useRemoveUserData from '@data/hooks/useRemoveUserData.native';
 import { Alert } from 'react-native';

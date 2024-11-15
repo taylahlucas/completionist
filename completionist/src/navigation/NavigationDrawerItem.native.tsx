@@ -7,7 +7,7 @@ import {
 	NavigationDrawerTitle
 } from './NavigationStyledComponents.native';
 import useGetTheme from '@styles/hooks/useGetTheme';
-import useContentDispatch from '@components/custom/ContentList/hooks/useContentDispatch';
+import useContentDispatch from '@components/custom/ContentList/provider/useContentDispatch';
 import { ContentSectionEnum } from '@utils/CustomEnums';
 import Condition from '@components/general/Condition.native';
 

@@ -3,8 +3,8 @@ import useMainState from '@redux/hooks/useMainState';
 import { AppState } from 'react-native';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
 import useEditUserData from './useEditUserData.native';
-import useLoginState from '@components/custom/LoginForm/hooks/useLoginState';
-import useLoginDispatch from '@components/custom/LoginForm/hooks/useLoginDispatch';
+import useLoginState from '@components/custom/LoginForm/provider/useLoginState';
+import useLoginDispatch from '@components/custom/LoginForm/provider/useLoginDispatch';
 import useGetNavigationPath from '@navigation/hooks/useGetNavigationPath';
 
 const useInitUserData = () => {

@@ -1,6 +1,6 @@
 import React from 'react';
 import useGetTheme from '@styles/hooks/useGetTheme';
-import useSubscriptionDispatch from '../../custom/SubscriptionContent/hooks/useContentDispatch';
+import useSubscriptionDispatch from '../../custom/SubscriptionContent/provider/useSubscriptionDispatch';
 import { SubscriptionOptionsListProps } from '../../custom/SubscriptionContent/hooks/useGetSubscriptionOptionsList';
 import Condition from '@components/general/Condition.native';
 import { IconTypeEnum } from '@utils/CustomEnums';

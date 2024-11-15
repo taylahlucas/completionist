@@ -1,5 +1,5 @@
-import useLoginDispatch from "@components/custom/LoginForm/hooks/useLoginDispatch";
-import useLoginState from "@components/custom/LoginForm/hooks/useLoginState";
+import useLoginDispatch from "@components/custom/LoginForm/provider/useLoginDispatch";
+import useLoginState from "@components/custom/LoginForm/provider/useLoginState";
 import useAuthEndpoints from "@data/api/hooks/useAuthEndpoints.native";
 import useIsLoading from "@data/api/hooks/useIsLoading.native";
 import useEditUserData from "@data/hooks/useEditUserData.native";

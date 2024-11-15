@@ -13,7 +13,7 @@ import Button from '@components/general/Button/Button.native';
 import Condition from '@components/general/Condition.native';
 import { View } from 'react-native';
 import StyledText from '@components/general/Text/StyledText.native';
-import useAchievements from './useAchievements';
+import useAchievements from './hooks/useAchievements';
 
 const Achievements = () => {
 	const { t } = useTranslation();

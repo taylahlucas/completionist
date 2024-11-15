@@ -1,7 +1,7 @@
 import {GameContentItem} from '@utils/CustomInterfaces';
 import useMainState from '@redux/hooks/useMainState';
 import useGetGameData from '@data/hooks/useGetGameData';
-import useContentState from './useContentState';
+import useContentState from '../provider/useContentState';
 import useFormatter from '@utils/hooks/useFormatter';
 
 interface GameDataReturnType {

@@ -1,8 +1,8 @@
 import useGetGameData from '@data/hooks/useGetGameData';
 import useGetUserGameData from '@data/hooks/useGetUserGameData';
 import useMainState from '@redux/hooks/useMainState';
-import useContentState from '@components/custom/ContentList/hooks/useContentState';
-import useContentDispatch from '@components/custom/ContentList/hooks/useContentDispatch';
+import useContentState from '@components/custom/ContentList/provider/useContentState';
+import useContentDispatch from '@components/custom/ContentList/provider/useContentDispatch';
 import {ContentSectionEnum} from '@utils/CustomEnums';
 
 const useGameContent = () => {

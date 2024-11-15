@@ -9,7 +9,7 @@ import useEditUserData from '@data/hooks/useEditUserData.native';
 import useMainState from '@redux/hooks/useMainState';
 import { SignInProps } from '@data/api/EndpointInterfaces.native';
 import useSendVerificationEmail from '@components/custom/LoginForm/hooks/useSendVerificationEmail';
-import useLoginDispatch from './useLoginDispatch';
+import useLoginDispatch from '../provider/useLoginDispatch';
 import useEndpoints from '@data/api/hooks/useEndpoints.native';
 import useRemoveUserData from '@data/hooks/useRemoveUserData.native';
 import useLogger from '@utils/hooks/useLogger';

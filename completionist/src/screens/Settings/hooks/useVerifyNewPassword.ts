@@ -3,9 +3,9 @@ import { useTranslation } from 'react-i18next';
 import useAuthEndpoints from '@data/api/hooks/useAuthEndpoints.native';
 import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
 import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
-import useLoginState from '@components/custom/LoginForm/hooks/useLoginState';
-import useLoginDispatch from '@components/custom/LoginForm/hooks/useLoginDispatch';
-import { initialFormData } from '@components/custom/LoginForm/LoginState';
+import useLoginState from '@components/custom/LoginForm/provider/useLoginState';
+import useLoginDispatch from '@components/custom/LoginForm/provider/useLoginDispatch';
+import { initialFormData } from '@components/custom/LoginForm/provider/LoginState';
 
 const useVerifyNewPassword = () => {
 	const navigation = useReactNavigation();

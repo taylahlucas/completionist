@@ -2,18 +2,18 @@ import React from 'react';
 import Dropdown from '@components/general/Dropdown/Dropdown.native';
 import ContentMainList from './ContentMainList.native';
 import SubListHeader from '@components/general/Lists/SubListHeader.native';
-import useContentState from './hooks/useContentState';
-import useContentDispatch from './hooks/useContentDispatch';
+import useContentState from './provider/useContentState';
+import useContentDispatch from './provider/useContentDispatch';
 import useGetContentCategories from './hooks/useGetContentCategories';
 import useMainState from '@redux/hooks/useMainState';
 import Condition from '@components/general/Condition.native';
 import ContentSubTypeDropdown from './ContentSubTypeDropdown.native';
 import useGetContents from './hooks/useGetContent';
 import useCheckContentComplete from './hooks/useCheckContentComplete';
-import { IsActive } from '@utils/CustomInterfaces';
+import { ContentItem } from '@utils/CustomInterfaces';
 
 export interface ContentSubDropdownProps {
-  mainCategory: IsActive;
+  mainCategory: ContentItem;
   subCategory: string;
   completed: string;
   total: string;

@@ -3,18 +3,13 @@ import { ImageURISource } from 'react-native';
 import useMainState from '@redux/hooks/useMainState';
 import useTranslateGameContent from '@data/hooks/useTranslateGameContent.native';
 import useGetTheme from '@styles/hooks/useGetTheme';
-import { AuthScreenEnum, GameKeyEnum } from '@utils/CustomEnums';
-import { GameData } from '@utils/CustomInterfaces';
-import useMainDispatch from '@redux/hooks/useMainDispatch';
-import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
+import { GameKeyEnum } from '@utils/CustomEnums';
 import { FlowType } from '@utils/CustomTypes';
 import { allGameData } from '@utils/configs/gameConfigs';
 
 export const useGameListItem = (flow: FlowType) => {
 	const theme = useGetTheme();
-	const navigation = useReactNavigation();
   const { user } = useMainState();
-	const { setSelectedGame, setSelectedGameSettings } = useMainDispatch();
 	const { translateGameName } = useTranslateGameContent();
 
 	const disabledGameData = useMemo(() => allGameData.filter((game) => {

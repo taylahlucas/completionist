@@ -7,7 +7,7 @@ import Condition from '../Condition.native';
 import useGetLocationString from '@utils/hooks/useGetLocationString';
 import StyledText from '../Text/StyledText.native';
 import useFormatter from '@utils/hooks/useFormatter';
-import useContentDispatch from '@components/custom/ContentList/hooks/useContentDispatch';
+import useContentDispatch from '@components/custom/ContentList/provider/useContentDispatch';
 
 interface ListItemProps {
   id: string;

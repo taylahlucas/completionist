@@ -1,15 +1,15 @@
 import React, { useEffect } from 'react';
 import ScrollableList from '@components/general/Lists/ScrollableList.native';
 import Condition from '@components/general/Condition.native';
-import useContentState from './hooks/useContentState';
+import useContentState from './provider/useContentState';
 import useGetContentCategories from './hooks/useGetContentCategories';
 import useGetContent from './hooks/useGetContent';
 import SearchResults from './SearchResults.native';
 import ContentMainDropdown from './ContentMainDropdown.native';
 import useCheckContentComplete from './hooks/useCheckContentComplete';
-import { IsActive } from '@utils/CustomInterfaces';
+import { ContentItem } from '@utils/CustomInterfaces';
 import Loading from '@components/general/Loading.native';
-import useContentDispatch from './hooks/useContentDispatch';
+import useContentDispatch from './provider/useContentDispatch';
 import WikiWebView from '@components/general/WikiWebView/WikiWebView.native';
 
 const ContentList = () => {
@@ -37,7 +37,7 @@ const ContentList = () => {
 			conditionalElement={<SearchResults />}
 		>
 			<ScrollableList>
-				{categories.map((category: IsActive, index: number) => {
+				{categories.map((category: ContentItem, index: number) => {
 					const allContentForCategory = getContentForCategory(category.title)
 					const completedContent = checkContentCompleteForCategory(allContentForCategory)
 

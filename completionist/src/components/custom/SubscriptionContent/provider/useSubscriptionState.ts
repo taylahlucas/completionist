@@ -1,5 +1,5 @@
 import { useSelector } from 'react-redux';
-import { SubscriptionState } from '../SubscriptionState';
+import { SubscriptionState } from './SubscriptionState';
 import { StoreState } from '@utils/CustomInterfaces';
 
 const useSubscriptionState = (): SubscriptionState => {

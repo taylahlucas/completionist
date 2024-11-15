@@ -1,9 +1,9 @@
 import { Dispatch } from 'redux';
 import { 
   setSelectedSubscription
-} from '../SubscriptionState';
+} from './SubscriptionState';
 import { useAppDispatch } from '@redux/store';
-import { SubscriptionOptionsListProps } from './useGetSubscriptionOptionsList';
+import { SubscriptionOptionsListProps } from '../hooks/useGetSubscriptionOptionsList';
 
 interface SubscriptionDispatch {
   setSelectedSubscription: (type: SubscriptionOptionsListProps) => void;

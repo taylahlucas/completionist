@@ -21,7 +21,7 @@ import IconButton from '@components/general/Icon/IconButton.native';
 import { IconTypeEnum } from '@utils/CustomEnums';
 import Condition from '@components/general/Condition.native';
 import { isSmallScreen } from '@styles/global.native';
-import useAchievements from './useAchievements';
+import useAchievements from './hooks/useAchievements';
 
 const { height } = Dimensions.get('window');
 

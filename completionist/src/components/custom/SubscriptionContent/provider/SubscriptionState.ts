@@ -1,5 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit';
-import { SubscriptionOptionsListProps } from './hooks/useGetSubscriptionOptionsList';
+import { SubscriptionOptionsListProps } from '../hooks/useGetSubscriptionOptionsList';
 // import { SubscriptionTypeEnum } from '@utils/CustomEnums';
 
 export interface SubscriptionState {

@@ -5,9 +5,8 @@ import useGetTheme from '@styles/hooks/useGetTheme';
 import StyledText from '@components/general/Text/StyledText.native';
 import useMainState from '@redux/hooks/useMainState';
 import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
-import useEditUserData from '@data/hooks/useEditUserData.native';
 import KeyboardAvoidingScrollView from '@components/general/Lists/KeyboardAvoidingScrollView.native';
-import useLoginState from '../LoginForm/hooks/useLoginState';
+import useLoginState from '../LoginForm/provider/useLoginState';
 import {
 	SubscriptionFeatureListContainer,
 	SubscriptionFeatureListInnerContainer,
@@ -18,17 +17,12 @@ import useGetSubscriptionFeatureList from './hooks/useGetSubscriptionFeatureList
 import Seperator from '@components/general/Seperator.native';
 import Icon from '@components/general/Icon/Icon.native';
 import SubscriptionOptionsList from './SubscriptionOptionsList.native';
-import useSubscriptionState from './hooks/useContentState';
-import { DrawerScreenEnum } from '@utils/CustomEnums';
+import useSubscriptionState from './provider/useSubscriptionState';
 import ParagraphView from '@components/general/ParagraphView.native';
 
 const SubscriptionContent = () => {
 	const { t } = useTranslation();
 	const theme = useGetTheme();
-	const navigation = useReactNavigation();
-	const { selectedSubscription } = useSubscriptionState();
-	const { user } = useMainState();
-	const { isAuthenticated } = useLoginState();
 	const featureList = useGetSubscriptionFeatureList();
 
 	const renderAwareView = () => (

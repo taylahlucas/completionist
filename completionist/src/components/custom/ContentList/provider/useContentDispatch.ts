@@ -5,7 +5,7 @@ import {
   setSelectedCategory,
 	setWebViewHref,
   reset
-} from '../ContentState';
+} from './ContentState';
 import { useAppDispatch } from '@redux/store';
 import { DropDownType } from '@utils/CustomInterfaces';
 import { ContentSectionEnum } from '@utils/CustomEnums';

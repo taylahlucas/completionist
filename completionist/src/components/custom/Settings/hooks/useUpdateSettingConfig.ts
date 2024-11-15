@@ -2,7 +2,6 @@ import { SettingsConfigItem, IsActive } from '@utils/CustomInterfaces';
 
 const useUpdateSettingsConfig = () => {
   const updateConfig = (config: SettingsConfigItem[], item: IsActive): SettingsConfigItem[] => {
-		// TODO: Fix here?
     return config.map(section => {
       // Main category
       if (item.id === section.section.id) {

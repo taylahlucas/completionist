@@ -1,5 +1,5 @@
 import { useSelector } from 'react-redux';
-import { LoginState } from '../LoginState';
+import { LoginState } from './LoginState';
 import { StoreState } from '@utils/CustomInterfaces';
 
 const useLoginState = (): LoginState => {

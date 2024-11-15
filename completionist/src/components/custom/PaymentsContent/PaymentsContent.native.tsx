@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import SelectableItem from '@components/general/SelectableItem/SelectableItem.native';
 import StyledText from '@components/general/Text/StyledText.native';
-import useSubscriptionState from '../SubscriptionContent/hooks/useContentState';
+import useSubscriptionState from '../SubscriptionContent/provider/useSubscriptionState';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import SubscriptionOptionDescription from '../SubscriptionContent/SubscriptionOptionDescription.native';
 import PriceItem from '@components/general/PriceItem/PriceItem.native';

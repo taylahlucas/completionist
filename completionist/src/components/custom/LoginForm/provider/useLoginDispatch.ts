@@ -7,7 +7,7 @@ import {
   setLoggedIn,
   triggerIsSigningUp,
 	reset
-} from '../LoginState';
+} from './LoginState';
 import { useAppDispatch } from '@redux/store';
 import { LoginFormData } from '@utils/CustomInterfaces';
 

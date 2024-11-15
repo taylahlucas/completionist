@@ -7,8 +7,8 @@ import CustomSearchBar from '@components/general/CustomSearchBar/CustomSearchBar
 import useGetGameData from '@data/hooks/useGetGameData';
 import useGetUserGameData from '@data/hooks/useGetUserGameData';
 import useMainState from '@redux/hooks/useMainState';
-import useContentDispatch from '@components/custom/ContentList/hooks/useContentDispatch';
-import useContentState from '@components/custom/ContentList/hooks/useContentState';
+import useContentDispatch from '@components/custom/ContentList/provider/useContentDispatch';
+import useContentState from '@components/custom/ContentList/provider/useContentState';
 import ContentList from '@components/custom/ContentList/ContentList.native';
 import { ContentSectionEnum } from '@utils/CustomEnums';
 import { DrawerScreenEnum } from '@utils/CustomEnums';

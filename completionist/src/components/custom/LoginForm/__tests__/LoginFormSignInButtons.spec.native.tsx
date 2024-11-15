@@ -1,7 +1,7 @@
 import React from 'react';
 import { render, fireEvent, renderHook } from '@utils/testing/TestLibraryUtils.native';
 import LoginFormSignInButtons from '../LoginFormSignInButtons.native';
-import { initialState as loginState } from '../LoginState';
+import { initialState as loginState } from '../provider/LoginState';
 import useGetLoginMethods from '../hooks/useGetLoginMethods';
 
 describe('LoginFormSignInButtons', () => {

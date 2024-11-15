@@ -8,8 +8,8 @@ import useGetContents from './hooks/useGetContent';
 import useMainState from '@redux/hooks/useMainState';
 import useCheckContentComplete from './hooks/useCheckContentComplete';
 import useGetContentCategories from './hooks/useGetContentCategories';
-import useContentState from './hooks/useContentState';
-import useContentDispatch from './hooks/useContentDispatch';
+import useContentState from './provider/useContentState';
+import useContentDispatch from './provider/useContentDispatch';
 import { ContentItem } from '@utils/CustomInterfaces';
 
 export interface ContentMainDropdownProps {

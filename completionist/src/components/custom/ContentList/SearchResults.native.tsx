@@ -5,7 +5,6 @@ import useUpdateContent from '@components/custom/ContentList/hooks/useUpdateCont
 import useCheckContentComplete from './hooks/useCheckContentComplete';
 import useGetContent from './hooks/useGetContent';
 
-
 const SearchResults = () => {
   const { getFilteredContent } = useGetContent();
   const { checkContentComplete } = useCheckContentComplete();

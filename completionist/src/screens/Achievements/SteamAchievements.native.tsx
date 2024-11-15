@@ -3,7 +3,7 @@ import StandardLayout from '@components/general/Layouts/StandardLayout.native';
 import NavigationHeader from '@navigation/NavigationHeader.native';
 import AddSteamIDContent from '@components/custom/SteamAchievementsContent/AddSteamIDContent.native';
 import { DrawerScreenEnum } from '@utils/CustomEnums';
-import useAchievements from './useAchievements';
+import useAchievements from './hooks/useAchievements';
 
 const SteamAchievements = () => {
 	const { viewModel } = useAchievements();

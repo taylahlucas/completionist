@@ -4,12 +4,12 @@ import { listStyles } from '@components/general/Lists/ListStyledComponents.nativ
 import useGetContent from './hooks/useGetContent';
 import useUpdateContent from './hooks/useUpdateContent';
 import useCheckContentComplete from './hooks/useCheckContentComplete';
-import { IsActive } from '@utils/CustomInterfaces';
+import { ContentItem } from '@utils/CustomInterfaces';
 import ScrollableList from '@components/general/Lists/ScrollableList.native';
 import { EXTRA_LARGE_PADDING, DEFAULT_ITEM_HEIGHT } from '@styles/global.native';
 
 export interface ContentMainListProps {
-  mainCategory?: IsActive;
+  mainCategory?: ContentItem;
   subCategory?: string;
   isSubCategory?: boolean;
 }

@@ -1,7 +1,7 @@
 import { Dispatch } from 'redux';
 import { 
   setSelectedCategory
-} from '../SettingsState';
+} from './SettingsState';
 import { useAppDispatch } from '@redux/store';
 import { DropDownType } from '@utils/CustomInterfaces';
 

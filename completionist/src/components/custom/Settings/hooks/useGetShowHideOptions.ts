@@ -1,7 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import useMainState from '@redux/hooks/useMainState';
 import { SettingsOptionEnum } from '@utils/CustomEnums';
-import { IsActive } from '@utils/CustomInterfaces';
 
 interface SettingsOptionsItem {
   id: string;

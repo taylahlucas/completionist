@@ -2,7 +2,7 @@ import { AuthScreenEnum } from '@utils/CustomEnums';
 import { GameData } from '@utils/CustomInterfaces';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
 import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
-import { FlowType, GameListSelectionType } from '@utils/CustomTypes';
+import { GameListSelectionType } from '@utils/CustomTypes';
 import { useState } from 'react';
 
 export const useGameListSelectionDropdown = () => {

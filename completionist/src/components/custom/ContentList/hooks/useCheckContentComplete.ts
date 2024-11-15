@@ -1,7 +1,7 @@
 import useMainState from '@redux/hooks/useMainState';
 import {GameContentItem} from '@utils/CustomInterfaces';
 import {ContentSectionEnum} from '@utils/CustomEnums';
-import useContentState from './useContentState';
+import useContentState from '../provider/useContentState';
 
 interface CheckContentCompleteReturnType {
   checkContentComplete: (id: string) => boolean;

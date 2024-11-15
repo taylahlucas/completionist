@@ -3,7 +3,7 @@ import { UnauthorizedScreenEnum, GameKeyEnum } from '@utils/CustomEnums';
 import { ScreenEnumType } from '@utils/CustomTypes';
 import { GameData, User } from '@utils/CustomInterfaces';
 import { AppStateStatus } from 'react-native';
-import { initialFormData } from '@components/custom/LoginForm/LoginState';
+import { initialFormData } from '@components/custom/LoginForm/provider/LoginState';
 
 export const initialGameData: GameData = {
 	id: GameKeyEnum.SKYRIM,
