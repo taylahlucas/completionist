@@ -1,10 +1,9 @@
-import { LoggerType } from "../CustomTypes";
+import { AxiosErrorResponse, LoggerType } from "../CustomTypes";
 
 interface LoggerProps {
   type?: LoggerType;
   title: string;
   data?: any;
-
 }
 
 const useLogger = () => {
@@ -33,7 +32,13 @@ const useLogger = () => {
     data
 	});
 
-  return { log, logSuccessfulApi, logErrorApi };
+  const logErrorData = (error: AxiosErrorResponse) => ({
+		code: error.code,
+		message: error.message,
+		response: error?.response?.data.error
+	});
+
+  return { log, logSuccessfulApi, logErrorApi, logErrorData };
 };
 
 export default useLogger;

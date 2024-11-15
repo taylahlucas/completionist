@@ -30,7 +30,7 @@ const useEndpoints = (): EndpointsReturnType => {
 		? process.env.IOS_LOCAL_URL
 		: process.env.ANDROID_LOCAL_URL;
 	const { t } = useTranslation();
-	const { logSuccessfulApi, logErrorApi } = useLogger();
+	const { logErrorData, logSuccessfulApi, logErrorApi } = useLogger();
 	const { handleAxiosError } = useHandleAxiosError();
 	const authInterceptor = useAuthInterceptor();
 	const { storeCredentials } = useKeychain();
@@ -63,12 +63,7 @@ const useEndpoints = (): EndpointsReturnType => {
 				title: 'Get User By Id',
 				data: {
 					userId,
-					error: {
-						code: error.code,
-						message: error.message,
-						request: JSON.stringify(error.request, null, 2),
-						response: JSON.stringify(error.response, null, 2)
-					}
+					error: logErrorData(error)
 				}
 			});
 			handleAxiosError(error.response?.status);
@@ -107,12 +102,7 @@ const useEndpoints = (): EndpointsReturnType => {
 				title: 'Updated user',
 				data: {
 					email: user.email,
-					error: {
-						code: error.code,
-						message: error.message,
-						request: JSON.stringify(error.request, null, 2),
-						response: JSON.stringify(error.response, null, 2)
-					}
+					error: logErrorData(error)
 				}
 			});
 			handleAxiosError(error.response?.status);
@@ -140,12 +130,7 @@ const useEndpoints = (): EndpointsReturnType => {
 				title: 'Changed Password',
 				data: {
 					userId,
-					error: {
-						code: error.code,
-						message: error.message,
-						request: JSON.stringify(error.request, null, 2),
-						response: JSON.stringify(error.response, null, 2)
-					}
+					error: logErrorData(error)
 				}
 			});
 			handleAxiosError(error.response?.status);
@@ -176,12 +161,7 @@ const useEndpoints = (): EndpointsReturnType => {
 				title: 'Sending Email',
 				data: {
 					emailTo,
-					error: {
-						code: error.code,
-						message: error.message,
-						request: JSON.stringify(error.request, null, 2),
-						response: JSON.stringify(error.response, null, 2)
-					}
+					error: logErrorData(error)
 				}
 			});
 			handleAxiosError(error.response?.status);
@@ -206,12 +186,7 @@ const useEndpoints = (): EndpointsReturnType => {
 				title: 'Deleting User',
 				data: {
 					userId,
-					error: {
-						code: error.code,
-						message: error.message,
-						request: JSON.stringify(error.request, null, 2),
-						response: JSON.stringify(error.response, null, 2)
-					}
+					error: logErrorData(error)
 				}
 			});
 			handleAxiosError(error.response?.status);
@@ -259,12 +234,7 @@ const useEndpoints = (): EndpointsReturnType => {
 				data: {
 					userId,
 					steamId,
-					error: {
-						code: error.code,
-						message: error.message,
-						request: JSON.stringify(error.request, null, 2),
-						response: JSON.stringify(error.response, null, 2)
-					}
+					error: logErrorData(error)
 				}
 			});
 			handleAxiosError(error.response?.status);
@@ -305,12 +275,7 @@ const useEndpoints = (): EndpointsReturnType => {
 					userId,
 					steamId,
 					gameId,
-					error: {
-						code: error.code,
-						message: error.message,
-						request: JSON.stringify(error.request, null, 2),
-						response: JSON.stringify(error.response, null, 2)
-					}
+					error: logErrorData(error)
 				}
 			});
 			if (error?.response?.status === requestCodes.UNAUTHORIZED) {
