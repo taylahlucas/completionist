@@ -53,13 +53,19 @@ const useActivateGame = () => {
 
   // User set up and premium users
   const activateGame = (user: User, selectedGame: GameKeyEnum) => {
-    const updatedGameData = user.gameData
-      ? [...user.gameData, getGameData(selectedGame)]
-      : [getGameData(selectedGame)];
-
+    let updatedData = [];
+    if (user.gameData) {
+      updatedData = [
+        ...user.gameData?.filter((game) => game.id !== selectedGame),
+        getGameData(selectedGame)
+      ]
+    }
+    else {
+      updatedData = [getGameData(selectedGame)];
+    }
     updateUserData({
       ...user,
-      gameData: updatedGameData,
+      gameData: updatedData
     });
     return;
   };

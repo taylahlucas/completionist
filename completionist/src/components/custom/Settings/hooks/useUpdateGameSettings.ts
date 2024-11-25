@@ -20,13 +20,14 @@ const useUpdateGameSettings = () => {
         dlc: currentGame.settingsConfig.dlc
       },
     };
-    
+  
+
 		return {
       ...user,
       gameData: [
-        ...user.gameData,
+        ...user.gameData.filter((game) => game.id !== currentGame.id),
         updatedGame
-      ]      
+      ]
     };
   };
 

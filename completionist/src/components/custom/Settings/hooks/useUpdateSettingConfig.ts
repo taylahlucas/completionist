@@ -8,6 +8,7 @@ const useUpdateSettingsConfig = () => {
         return {
           section: {
             id: section.section.id,
+            // TODO: This is not updating
             isActive: !section.section.isActive
           },
           categories: section.categories.map(category => {
