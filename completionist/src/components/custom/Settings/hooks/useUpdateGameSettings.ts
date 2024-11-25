@@ -13,6 +13,8 @@ const useUpdateGameSettings = () => {
     }
     const gameConfig = updateConfig(currentGame.settingsConfig.general, item);
 
+    console.log("gameConfig: ", gameConfig)
+
     const updatedGame = {
       ...currentGame,
       settingsConfig: {
@@ -20,12 +22,11 @@ const useUpdateGameSettings = () => {
         dlc: currentGame.settingsConfig.dlc
       },
     };
-  
 
 		return {
       ...user,
       gameData: [
-        ...user.gameData.filter((game) => game.id !== currentGame.id),
+        ...user.gameData?.filter((game) => game.id !== currentGame.id),
         updatedGame
       ]
     };

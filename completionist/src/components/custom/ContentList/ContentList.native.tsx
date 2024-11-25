@@ -24,7 +24,7 @@ const ContentList = () => {
 		setSearchValue('');
 		setWebViewHref(undefined);
 	}, []);
-
+	
 	if (webViewHref) {
 		return <WikiWebView currentHref={webViewHref} setClose={() => setWebViewHref(undefined)} />
 	}

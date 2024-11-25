@@ -26,8 +26,7 @@ const SelectionList = ({ data, type, translationKey, onPress }: SelectionListPro
         return t(`common:settings.${translationKey}`);
     }
   };
-
-  //item.id
+  
   return (
     <SelectionListContainer>
       {data.map((item, index) => (

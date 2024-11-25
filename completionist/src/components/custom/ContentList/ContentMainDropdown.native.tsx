@@ -27,6 +27,7 @@ const ContentMainDropdown = ({ category, completed, total }: ContentMainDropdown
 	const subCategories = getContentSubCategories(category.title, selectedGame?.id);
 	const { checkContentCompleteForCategory } = useCheckContentComplete();
 
+	console.log("HERE: ", category)
 	return (
 		<Dropdown
 			isOpen={category.id === selectedCategory.category}

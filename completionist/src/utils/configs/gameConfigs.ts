@@ -278,7 +278,54 @@ const fallout4SettingsConfig: SettingsConfig = {
         }
       ]
     },
-    // More sections as above
+    {
+			section: {
+				id: "locations",
+				isActive: true
+			},
+			categories: [
+				{
+					id: "main",
+					isActive: true
+				}
+			],
+			dlc: [
+				{
+					id: "farHarbor",
+					isActive: true
+				},
+				{
+					id: "nukaWorld",
+					isActive: true
+				},
+				{
+					id: "automatron",
+					isActive: true
+				}
+			]
+		},
+    {
+			section: {
+				id: "miscellaneous",
+				isActive: true
+			},
+			categories: [
+				{
+					"id": "holotapes",
+					"isActive": true
+				}
+			],
+			dlc: [
+				{
+					id: "automatron",
+					isActive: true
+				},
+				{
+					id: "nukaWorld",
+					isActive: true
+				}
+			]
+		}
   ],
   dlc: [
     {

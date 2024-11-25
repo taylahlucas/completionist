@@ -23,30 +23,30 @@ const useDLCOptions = (): DLCOptionsReturnType => {
 		const updatedGame = {
 			...currentGame,
 			settingsConfig: {
-				general: currentGame.settingsConfig.general.map((config: SettingsConfigItem) => (
-					{
+				general: currentGame.settingsConfig.general.map((config: SettingsConfigItem) => {
+					return {
 						...config,
 						dlc: config.dlc.map(dlcItem => ({
 							...dlcItem,
 							isActive: id === dlcItem.id ? !dlcItem.isActive : dlcItem.isActive
 						}))
 					}
-				)),
-				dlc: currentGame.settingsConfig.dlc.map(dlcItem => (
-					(dlcItem.id === id) ? {
+				}),
+				dlc: currentGame.settingsConfig.dlc.map(dlcItem => {
+					return (dlcItem.id === id) ? {
 						...dlcItem,
 						isActive: !dlcItem.isActive
 					} : dlcItem
-				))
+				})
 			}
 		}
 
 		setUser({
 			...user,
-			gameData: {
-				...user.gameData,
-				...updatedGame
-			},
+			gameData: [
+        ...user.gameData?.filter((game) => game.id !== currentGame.id),
+        updatedGame
+      ]
 		});
 		setShouldUpdateUser(true);
 	};
