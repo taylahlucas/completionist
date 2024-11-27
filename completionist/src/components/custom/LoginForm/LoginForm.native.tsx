@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import TextInput from '@components/general/TextInput/TextInput.native';
-import { LoginFormContainer, LoginFormButtonContainer } from './LoginFormStyledComponents.native';
+import { LoginFormContainer, LoginFormContentContainer } from './LoginFormStyledComponents.native';
 import Button from '@components/general/Button/Button.native';
 import useLoginState from './provider/useLoginState';
 import useLoginDispatch from './provider/useLoginDispatch';
@@ -31,7 +31,7 @@ const LoginForm = () => {
           email: ''
         })}
       />
-      <LoginFormButtonContainer>
+      <LoginFormContentContainer>
         <TextInput
 					testID='password'
           placeholder={t('common:auth.userpw')}
@@ -47,9 +47,9 @@ const LoginForm = () => {
             pw: ''
           })}
         />
-      </LoginFormButtonContainer>
+      </LoginFormContentContainer>
       <Condition condition={isSigningUp}>
-        <LoginFormButtonContainer>
+        <LoginFormContentContainer>
           <TextInput
 						testID='username'
             placeholder={t('common:auth.username')}
@@ -64,7 +64,7 @@ const LoginForm = () => {
               username: ''
             })}
           />
-        </LoginFormButtonContainer>
+        </LoginFormContentContainer>
       </Condition>
       <Condition condition={!isSigningUp}>
         <Button

@@ -3,7 +3,7 @@ import { View, Alert } from 'react-native';
 import { useTranslation } from 'react-i18next';
 import useGetLoginMethods from './hooks/useGetLoginMethods';
 import Button from '@components/general/Button/Button.native';
-import { LoginFormButtonContainer, LoginFormFooterContainer, LoginButton } from './LoginFormStyledComponents.native';
+import { LoginFormContentContainer, LoginFormFooterContainer, LoginButton } from './LoginFormStyledComponents.native';
 import { GoogleSigninButton } from '@react-native-google-signin/google-signin';
 import useLoginDispatch from './provider/useLoginDispatch';
 import useLoginState from './provider/useLoginState';
@@ -61,7 +61,7 @@ const LoginFormSignInButtons = () => {
 						})
 				}
 			/>
-			<LoginFormButtonContainer>
+			<LoginFormContentContainer>
 				<GoogleSigninButton
 					testID={'google-sign-in'}
 					style={{ width: 200 }}
@@ -69,7 +69,7 @@ const LoginFormSignInButtons = () => {
 					color={GoogleSigninButton.Color.Dark}
 					onPress={googleUserSignIn}
 				/>
-			</LoginFormButtonContainer>
+			</LoginFormContentContainer>
 			<LoginFormFooterContainer>
 				<Condition condition={!isSigningUp}>
 					<StyledText testID={'request-account'}>{t('common:auth.requestAccount')}</StyledText>

@@ -84,5 +84,6 @@ describe('LoginForm', () => {
 			expect(queryByTestId('forgot-password')).toBeFalsy();
 		});
 
+		// TODO: Navigates to ForgotPassword screen on button press
 	})
 });

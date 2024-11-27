@@ -11,7 +11,7 @@ export const LoginFormContainer = styled.View`
   justify-content: center;
 `;
 
-export const LoginFormButtonContainer = styled.View`
+export const LoginFormContentContainer = styled.View`
   margin-top: -16px;
 `;
 
