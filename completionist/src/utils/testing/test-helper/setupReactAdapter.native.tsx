@@ -14,6 +14,7 @@ RNNativeModules.CameraView = {
   getConstants: jest.fn()
 };
 
+jest.useFakeTimers();
 jest.mock('@react-native-async-storage/async-storage', () => mockAsyncStorage);
 jest.mock('react-i18next', () => ({
   initReactI18next: { type: '3rdParty', init: jest.fn() },

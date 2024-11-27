@@ -5,7 +5,6 @@ import useRemoveUserData from '@data/hooks/useRemoveUserData.native';
 
 const useHandleAxiosError = () => {
 	const { t } = useTranslation();
-	const { removeUserData } = useRemoveUserData();
 
 	const handleAxiosError = (status?: number): void => {
 		if (!status) {
@@ -31,7 +30,8 @@ const useHandleAxiosError = () => {
 				);
 				break;
 			case requestCodes.UNAUTHORIZED:
-				removeUserData();
+				// TODO: Ensure user data is removed on unauthorized
+				// removeUserData();
 				break;
 			case requestCodes.NO_USER_FOUND:
 					// When searching for user in database && signing in

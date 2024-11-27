@@ -21,33 +21,30 @@ const VerificationContent = ({ email, token, action }: VerificationContentProps)
 	const [value, setValue] = useState<string>('');
 	const sendVerification = useSendVerificationEmail();
 
-	const renderAwareView = (): JSX.Element => {
-		return (
-			<Button
-				title={t('common:continue')}
-				type='footer'
-				disabled={value.length !== token?.length}
-				onPress={(): void => {
-					if (value === token) {
-						action();
-					}
-					else {
-						Alert.alert(
-							t('common:errors.incorrectCode'),
-							t('common:errors.incorrectCodeDesc'),
-						);
-					}
-				}}
-			/>
-		);
-	};
-
 	return (
 		<>
 			<ParagraphView>
 				<StyledText>{t('common:login.accountVerification')}</StyledText>
 			</ParagraphView>
-			<KeyboardAvoidingScrollView awareView={renderAwareView()}>
+			<KeyboardAvoidingScrollView 
+				awareView={
+					<Button
+						title={t('common:continue')}
+						type='footer'
+						disabled={value.length !== token?.length}
+						onPress={(): void => {
+							if (value === token) {
+								action();
+							}
+							else {
+								Alert.alert(
+									t('common:errors.incorrectCode'),
+									t('common:errors.incorrectCodeDesc'),
+								);
+							}
+						}}
+					/>
+			}>
 				<VerificationEntry
 					length={VERIFICATION_ENTRY_LENGTH}
 					value={value}

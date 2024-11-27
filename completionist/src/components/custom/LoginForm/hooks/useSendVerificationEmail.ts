@@ -26,7 +26,7 @@ const useSendVerificationEmail = () => {
 		const uniqueCode = generateVerificationToken(6);
 		console.log("uniqueCode: ", uniqueCode);
 		setVerificationToken(uniqueCode);
-
+		
 		sendVerificationEmail({
 			emailTo: email,
 			subject: t('common:screens.verifyAccount'),

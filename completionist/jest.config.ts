@@ -15,8 +15,8 @@ const jestConfig: JestConfigWithTsJest = {
     ],
   },
 	setupFiles: [
-		'<rootDir>/src/utils/test-helper/setupReactAdapter.native.tsx',
-		'<rootDir>/src/utils/test-helper/__mocks__/react-native-google-signin.js'
+		'<rootDir>/src/utils/testing/test-helper/setupReactAdapter.native.tsx',
+		'<rootDir>/src/utils/testing/test-helper/__mocks__/react-native-google-signin.js'
 	],
 	setupFilesAfterEnv: ['@testing-library/jest-native/extend-expect'],
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
@@ -29,14 +29,14 @@ const jestConfig: JestConfigWithTsJest = {
 		'^@styles/(.*)$': '<rootDir>/src/styles/$1',
 		'^@utils/(.*)$': '<rootDir>/src/utils/$1',
 	},
-	modulePathIgnorePatterns: ['.*\\.spec\\.(js|ts|tsx)$'],
+	modulePathIgnorePatterns: ['.*\\.spec\\*.(js|ts|tsx)$'],
 	testEnvironment: 'jest-environment-node',
 	globals: {
     window: {}
   },
 	transformIgnorePatterns: [
     'node_modules/(?!(jest-)?@react-native|react-native|react-native-vector-icons|@react-native-community|@react-navigation/.*)',
-  ]
+  ],
 }
 
 export default jestConfig

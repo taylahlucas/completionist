@@ -188,7 +188,7 @@ const useAuthEndpoints = (): AuthEndpointsReturnType => {
 		}
 	}
 
-	const sendVerificationEmail = async ({ emailTo, subject, text }: SendEmailProps): Promise<void> => {		
+	const sendVerificationEmail = async ({ emailTo, subject, text }: SendEmailProps): Promise<void> => {
 		try {
 			await axios.post(
 				`${url}/${sendVerificationEmailUrl}`,

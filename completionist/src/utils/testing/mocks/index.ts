@@ -1,0 +1,1 @@
+export { mockAlert } from './mockAlert';

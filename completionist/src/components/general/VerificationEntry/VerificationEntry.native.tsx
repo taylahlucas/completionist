@@ -30,6 +30,7 @@ const VerificationEntry = ({ length, value, setValue }: VerificationEntryProps) 
 		<View style={{ flexDirection: 'row', justifyContent: 'center' }}>
 			{Array.from({ length: length }).map((_, index) => (
 					<TextInput
+						testID={`verification-entry-input-${index}`}
 						key={index}
 						ref={inputRefs.current[index]} 
 						onFocus={(): void => setCurrentIndex(index)}
