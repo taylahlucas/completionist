@@ -1,5 +1,4 @@
-import useGetGameData from '@data/hooks/useGetGameData';
-import useGetUserGameData from '@data/hooks/useGetUserGameData';
+import {useGetGameData, useGetUserGameData} from "@data/hooks/index";
 import useMainState from '@redux/hooks/useMainState';
 import useContentState from '@components/custom/ContentList/provider/useContentState';
 import useContentDispatch from '@components/custom/ContentList/provider/useContentDispatch';

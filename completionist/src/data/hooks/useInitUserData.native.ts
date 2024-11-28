@@ -2,12 +2,12 @@ import { useEffect, useRef } from 'react';
 import useMainState from '@redux/hooks/useMainState';
 import { AppState } from 'react-native';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
-import useEditUserData from './useEditUserData.native';
+import {useEditUserData} from "@data/hooks/index";
 import useLoginState from '@components/custom/LoginForm/provider/useLoginState';
 import useLoginDispatch from '@components/custom/LoginForm/provider/useLoginDispatch';
 import useGetNavigationPath from '@navigation/hooks/useGetNavigationPath';
 
-const useInitUserData = () => {
+export const useInitUserData = () => {
   const appStateRef = useRef(AppState.currentState);
   const { setAppState } = useMainDispatch();
   const { user, appState, shouldUpdateUser } = useMainState();
@@ -56,5 +56,3 @@ const useInitUserData = () => {
 		}
 	}, [isLoggedIn, isSigningUp, user.signup])
 };
-
-export default useInitUserData;

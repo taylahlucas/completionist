@@ -1,6 +1,6 @@
 import useMainState from '@redux/hooks/useMainState';
 import { ContentSectionEnum, GameKeyEnum } from '@utils/CustomEnums';
-import { getCurrentGame } from '@data/hooks/useGetCurrentGameData.native';
+import { getCurrentGame } from '@data/hooks/index';
 
 const useGetGameProgress = () => {
 	const { user } = useMainState();

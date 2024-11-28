@@ -1,13 +1,13 @@
 import { GameKeyEnum, ContentSectionEnum } from '@utils/CustomEnums';
 import { GameContentItem, SettingsConfigItem } from '@utils/CustomInterfaces';
 import useMainState from '@redux/hooks/useMainState';
-import useGetTranslatedGameData from './useGetTranslatedGameData.native';
+import {useGetTranslatedGameData} from "@data/hooks/index";
 
 interface GameDataReturnType {
 	mapDataTo: (type: ContentSectionEnum, selectedGame?: GameKeyEnum, filter?: boolean) => GameContentItem[];
 }
 
-const useGetGameData = (): GameDataReturnType => {
+export const useGetGameData = (): GameDataReturnType => {
 	const {
 		fallout3,
 		fallout4,
@@ -110,5 +110,3 @@ const useGetGameData = (): GameDataReturnType => {
 		mapDataTo
 	}
 };
-
-export default useGetGameData;

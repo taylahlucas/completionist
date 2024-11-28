@@ -2,7 +2,7 @@ import useLoginDispatch from "@components/custom/LoginForm/provider/useLoginDisp
 import useLoginState from "@components/custom/LoginForm/provider/useLoginState";
 import useAuthEndpoints from "@data/api/hooks/useAuthEndpoints.native";
 import useIsLoading from "@data/api/hooks/useIsLoading.native";
-import useEditUserData from "@data/hooks/useEditUserData.native";
+import {useEditUserData} from '@data/hooks/index';
 import useMainState from "@redux/hooks/useMainState";
 
 export const useVerifyAccount = () => {

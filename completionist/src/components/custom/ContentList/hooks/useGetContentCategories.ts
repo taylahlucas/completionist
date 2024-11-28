@@ -1,9 +1,7 @@
-import useGetGameData from '@data/hooks/useGetGameData';
-import useGetSettingsConfig from '@data/hooks/useGetSettingsConfig';
+import {useGetGameData, useGetSettingsConfig, useTranslateGameContent} from '@data/hooks/index';
 import useMainState from '@redux/hooks/useMainState';
 import {GameKeyEnum} from '@utils/CustomEnums';
 import {ContentItem} from '@utils/CustomInterfaces';
-import useTranslateGameContent from '@data/hooks/useTranslateGameContent.native';
 import useContentState from '../provider/useContentState';
 
 interface GameDataReturnType {

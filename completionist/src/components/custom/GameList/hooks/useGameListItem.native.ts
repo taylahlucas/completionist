@@ -1,10 +1,9 @@
 import { useMemo } from 'react';
 import { ImageURISource } from 'react-native';
 import useMainState from '@redux/hooks/useMainState';
-import useTranslateGameContent from '@data/hooks/useTranslateGameContent.native';
+import {useTranslateGameContent} from '@data/hooks/index';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import { GameKeyEnum } from '@utils/CustomEnums';
-import { FlowType } from '@utils/CustomTypes';
 import { allGameData } from '@utils/configs/gameConfigs';
 
 export const useGameListItem = () => {

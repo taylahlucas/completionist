@@ -22,7 +22,7 @@ interface TranslatedGameDataReturnType {
 	witcher3: GameContentItem[];
 }
 
-const useGetTranslatedGameData = (): TranslatedGameDataReturnType => {
+export const useGetTranslatedGameData = (): TranslatedGameDataReturnType => {
 	const { user } = useMainState();
 	// TODO: When creating user, set initial lang to RNLocalize.getLocales()[0]?.languageCode
 	const userLocale = !!user ? user.settings.lang : RNLocalize.getLocales()[0]?.languageCode;
@@ -76,5 +76,3 @@ const useGetTranslatedGameData = (): TranslatedGameDataReturnType => {
 		witcher3: languageDb.witcher3 as GameContentItem[],
 	};
 };
-
-export default useGetTranslatedGameData;

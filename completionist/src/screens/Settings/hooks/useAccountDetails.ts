@@ -3,7 +3,7 @@ import { Alert } from 'react-native';
 import { useTranslation } from 'react-i18next';
 import useAuthEndpoints from '@data/api/hooks/useAuthEndpoints.native';
 import useEndpoints from '@data/api/hooks/useEndpoints.native';
-import useEditUserData from '@data/hooks/useEditUserData.native';
+import {useEditUserData} from '@data/hooks/index';
 import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
 import useMainState from '@redux/hooks/useMainState';
 import { DrawerScreenEnum } from '@utils/CustomEnums';

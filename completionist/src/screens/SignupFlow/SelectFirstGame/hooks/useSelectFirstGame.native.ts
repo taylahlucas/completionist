@@ -2,10 +2,9 @@ import useFilterGameList from "@components/custom/GameList/hooks/useFilterGameLi
 import useLoginDispatch from "@components/custom/LoginForm/provider/useLoginDispatch";
 import useLoginState from "@components/custom/LoginForm/provider/useLoginState";
 import useIsLoading from "@data/api/hooks/useIsLoading.native";
-import useEditUserData from "@data/hooks/useEditUserData.native";
 import useMainState from "@redux/hooks/useMainState";
-import useActivateGame from "@data/hooks/useActivateGame.native";
-import useFormatter from "@utils/hooks/useFormatter";
+import {useActivateGame, useEditUserData} from "@data/hooks/index";
+import {useFormatter} from "@utils/hooks/index";
 import { allGameData } from '@utils/configs/gameConfigs';
 import { useState } from "react";
 import { GameKeyEnum } from "@utils/CustomEnums";

@@ -3,7 +3,7 @@ import {Animated} from 'react-native';
 import {useTranslation} from 'react-i18next';
 import SettingsItemDropdown from '@components/custom/Settings/SettingsItemDropdown.native';
 import {IsActive, GameKeyEnum} from '@utils/index';
-import useGetUserGameData from '@data/hooks/useGetUserGameData';
+import {useGetUserGameData, useTranslateGameContent} from '@data/hooks/index';
 import {
   SettingsCollectionList,
   SettingsDescription,
@@ -13,7 +13,6 @@ import {
   DropdownSelection,
   DropdownSelectionContent,
 } from '@components/general/Dropdown/index';
-import useTranslateGameContent from '@data/hooks/useTranslateGameContent.native';
 import useFilterGameList from '../GameList/hooks/useFilterGameList.native';
 import useMainState from '@redux/hooks/useMainState';
 import useMainDispatch from '@redux/hooks/useMainDispatch';

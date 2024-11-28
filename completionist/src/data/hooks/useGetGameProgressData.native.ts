@@ -1,10 +1,10 @@
 import useMainState from '@redux/hooks/useMainState';
 import { Item } from '@utils/CustomInterfaces';
 import { ContentSectionEnum, GameKeyEnum } from '@utils/CustomEnums';
-import useGetGameData from './useGetGameData';
-import { getCurrentGame } from '@data/hooks/useGetCurrentGameData.native';
+import {useGetGameData} from "@data/hooks/index";
+import { getCurrentGame } from '@data/hooks/index';
 
-const useGetGameProgressData = () => {
+export const useGetGameProgressData = () => {
 	const { user } = useMainState();
 	const { mapDataTo } = useGetGameData();
 
@@ -55,5 +55,3 @@ const useGetGameProgressData = () => {
 
 	return { getGameProgress };
 };
-
-export default useGetGameProgressData;

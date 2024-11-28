@@ -1,7 +1,7 @@
 import { IsActive, User } from '@utils/CustomInterfaces';
 import useUpdateSettingsConfig from './useUpdateSettingConfig';
 import { GameKeyEnum } from '@utils/CustomEnums';
-import { getCurrentGame } from '@data/hooks/useGetCurrentGameData.native';
+import { getCurrentGame } from '@data/hooks/index';
 
 const useUpdateGameSettings = () => {
 	const { updateConfig } = useUpdateSettingsConfig();
@@ -12,8 +12,6 @@ const useUpdateGameSettings = () => {
       return;
     }
     const gameConfig = updateConfig(currentGame.settingsConfig.general, item);
-
-    console.log("gameConfig: ", gameConfig)
 
     const updatedGame = {
       ...currentGame,

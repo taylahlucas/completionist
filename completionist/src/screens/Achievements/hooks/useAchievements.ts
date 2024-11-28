@@ -1,11 +1,10 @@
 import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import useMainState from '@redux/hooks/useMainState';
-import useGetGameProgressData from '@data/hooks/useGetGameProgressData.native';
 import useEndpoints from '@data/api/hooks/useEndpoints.native';
 import { AchievementItem } from '@utils/CustomInterfaces';
-import useEditUserData from '@data/hooks/useEditUserData.native';
-import { getCurrentGame } from '@data/hooks/useGetCurrentGameData.native';
+import {useEditUserData, useGetGameProgressData} from '@data/hooks/index';
+import { getCurrentGame } from '@data/hooks/index';
 
 interface AchievementsState {
 	isOpen: boolean;

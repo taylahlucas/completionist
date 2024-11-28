@@ -1,7 +1,7 @@
 import { Alert, Platform } from 'react-native';
 import axios from 'axios';
 import { setupCache } from 'axios-cache-interceptor';
-import useKeychain from '@data/hooks/useKeychain.native';
+import {useKeychain} from '@data/hooks/index';
 import { useLogger } from '@utils/hooks/index';
 import { getApiNameFromUrl, AxiosErrorResponse, requestCodes } from '@utils/index';
 import useHandleAxiosError from './useHandleAxiosError';

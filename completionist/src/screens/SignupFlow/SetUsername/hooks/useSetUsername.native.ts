@@ -1,4 +1,4 @@
-import useEditUserData from "@data/hooks/useEditUserData.native";
+import {useEditUserData} from '@data/hooks/index';
 import useMainState from "@redux/hooks/useMainState";
 import { useState } from "react";
 

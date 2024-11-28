@@ -3,7 +3,6 @@ import { ViewStyle } from 'react-native';
 import { useTranslation } from 'react-i18next';
 import {Dropdown} from '@components/general/Dropdown/index';
 import { IsActive } from '@utils/CustomInterfaces';
-import useGetUserGameData from '@data/hooks/useGetUserGameData';
 import {
 	styles,
 	SettingsSubItemContainer, 
@@ -15,11 +14,10 @@ import {
 import useGetTheme from '@styles/hooks/useGetTheme';
 import useSettingsState from './provider/useSettingsState';
 import useSettingsDispatch from './provider/useSettingsDispatch';
-import useTranslateGameContent from '@data/hooks/useTranslateGameContent.native';
 import useMainState from '@redux/hooks/useMainState';
 import CheckBox from '@components/general/Checkbox/CheckBox.native';
 import useUpdateGameSettings from './hooks/useUpdateGameSettings';
-import useEditUserData from '@data/hooks/useEditUserData.native';
+import {useEditUserData, useTranslateGameContent, useGetUserGameData} from '@data/hooks/index';
 
 interface SettingsItemDropdownProps {
 	item: IsActive;

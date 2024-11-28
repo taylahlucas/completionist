@@ -1,8 +1,8 @@
-import {GameContentItem} from '@utils/CustomInterfaces';
+import {GameContentItem} from '@utils/index';
 import useMainState from '@redux/hooks/useMainState';
-import useGetGameData from '@data/hooks/useGetGameData';
+import {useGetGameData} from '@data/hooks/index';
 import useContentState from '../provider/useContentState';
-import useFormatter from '@utils/hooks/useFormatter';
+import {useFormatter} from '@utils/hooks/index';
 
 interface GameDataReturnType {
   getFilteredContent: () => GameContentItem[];

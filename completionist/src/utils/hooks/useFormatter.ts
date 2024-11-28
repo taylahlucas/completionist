@@ -3,7 +3,7 @@ interface FormatterReturnType {
   getFormattedSearchString: (value: string) => string;
 }
 
-const useFormatter = (): FormatterReturnType => {
+export const useFormatter = (): FormatterReturnType => {
   const capitalize = (str: string) => {
 		const words = str.split(' ');
 		
@@ -19,5 +19,3 @@ const useFormatter = (): FormatterReturnType => {
 
   return { capitalize, getFormattedSearchString };
 };
-
-export default useFormatter;

@@ -1,12 +1,12 @@
 import { Alert } from 'react-native';
 import { useTranslation } from 'react-i18next';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
+import useMainState from '@redux/hooks/useMainState';
 import { User } from '@utils/index';
 import useCache from '../api/hooks/useCache.native';
-import useKeychain from './useKeychain.native';
 import useLoginDispatch from '@components/custom/LoginForm/provider/useLoginDispatch';
 import useEndpoints from '../api/hooks/useEndpoints.native';
-import useRemoveUserData from '@data/hooks/useRemoveUserData.native';
+import {useRemoveUserData, useKeychain} from "@data/hooks/index";
 
 interface EditUserDataReturnType {
 	loadUserFromCache: () => void;
@@ -15,9 +15,10 @@ interface EditUserDataReturnType {
 	deleteUserData: (userId: string) => void;
 }
 
-const useEditUserData = (): EditUserDataReturnType => {
+export const useEditUserData = (): EditUserDataReturnType => {
 	const { t } = useTranslation();
-	const { setUser, setShouldUpdateUser, selectedGame, setSelectedGameSettings } = useMainDispatch();
+	const { setUser, setShouldUpdateUser, setSelectedGameSettings } = useMainDispatch();
+	const { selectedGame } = useMainState();
 	const { setLoggedIn } = useLoginDispatch();
 	const { fetchUserFromCache, saveToCache } = useCache();
 	const { getCredentials } = useKeychain();
@@ -94,8 +95,6 @@ const useEditUserData = (): EditUserDataReturnType => {
 		deleteUserData
 	};
 };
-
-export default useEditUserData;
 
 // import { SubscriptionTypeEnum } from '@utils/CustomEnums';
 // const checkUpdateChangesLeft = (user: User) => {

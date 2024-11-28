@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next';
-import { GameKeyEnum } from '@utils/CustomEnums';
+import { GameKeyEnum } from '@utils/index';
 
-const useTranslateGameContent = () => {
+export const useTranslateGameContent = () => {
   const { t } = useTranslation();
 
   const translateGameName = (title: GameKeyEnum): string => {
@@ -18,5 +18,3 @@ const useTranslateGameContent = () => {
 
   return { translateCategoryName, translateGameName, translateDLCName } ;
 };
-
-export default useTranslateGameContent;

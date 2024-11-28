@@ -6,7 +6,7 @@ import AnimatedCheckBox from '../Checkbox/AnimatedCheckBox.native';
 import {Condition} from '@components/general/index';
 import useGetLocationString from '@utils/hooks/useGetLocationString';
 import StyledText from '../Text/StyledText.native';
-import useFormatter from '@utils/hooks/useFormatter';
+import {useFormatter} from '@utils/hooks/index';
 import useContentDispatch from '@components/custom/ContentList/provider/useContentDispatch';
 
 interface ListItemProps {

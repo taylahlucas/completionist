@@ -1,4 +1,4 @@
-import useEditUserData from '@data/hooks/useEditUserData.native';
+import {useEditUserData} from '@data/hooks/index';
 import {initialGameData} from '@redux/MainState';
 import {GameKeyEnum} from '@utils/CustomEnums';
 import {IsActive, User} from '@utils/CustomInterfaces';
@@ -9,7 +9,7 @@ import {
   witcher3GameData,
 } from '@utils/configs/gameConfigs';
 
-const useActivateGame = () => {
+export const useActivateGame = () => {
   const {updateUserData} = useEditUserData();
 
   // Free users
@@ -72,5 +72,3 @@ const useActivateGame = () => {
 
   return {changeGameSubscription, activateGame};
 };
-
-export default useActivateGame;

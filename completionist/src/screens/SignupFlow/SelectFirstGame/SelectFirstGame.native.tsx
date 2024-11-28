@@ -11,7 +11,7 @@ import Button from '@components/general/Button/Button.native';
 import {KeyboardAvoidingScrollView} from '@components/general/Lists/index';
 import {Condition, Spacing, ParagraphView} from '@components/general/index';
 import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
-import useTranslateGameContent from '@data/hooks/useTranslateGameContent.native';
+import {useTranslateGameContent} from '@data/hooks/index';
 import { useSelectFirstGame } from './hooks/useSelectFirstGame.native';
 
 const SelectFirstGame = () => {
