@@ -7,7 +7,7 @@ import TextInput from '@components/general/TextInput/TextInput.native';
 import KeyboardAvoidingScrollView from '@components/general/Lists/KeyboardAvoidingScrollView.native';
 import Button from '@components/general/Button/Button.native';
 import StyledText from '@components/general/Text/StyledText.native';
-import Spacing from '@components/general/Spacing.native';
+import {Spacing} from '@components/general/index';
 import { useSetUsername } from './hooks/useSetUsername.native';
 
 const SetUsername = () => {

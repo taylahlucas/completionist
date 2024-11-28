@@ -1,7 +1,6 @@
 import React from 'react';
 import { View } from 'react-native';
 import useGetTheme from '@styles/hooks/useGetTheme';
-import { LARGE_WIDTH } from '@styles/global.native';
 
 export const Seperator = () => {
   const theme = useGetTheme();

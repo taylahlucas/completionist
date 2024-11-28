@@ -3,7 +3,7 @@ import { Animated } from 'react-native';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import { ListItemContainer, ListItemTitle, ListItemContentContainer, ListItemLocationContainer } from './ListStyledComponents.native';
 import AnimatedCheckBox from '../Checkbox/AnimatedCheckBox.native';
-import Condition from '../Condition.native';
+import {Condition} from '@components/general/index';
 import useGetLocationString from '@utils/hooks/useGetLocationString';
 import StyledText from '../Text/StyledText.native';
 import useFormatter from '@utils/hooks/useFormatter';

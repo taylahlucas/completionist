@@ -7,7 +7,7 @@ import {
   ListItemHeaderCountTitle,
   SubListHeaderTitle
 } from '@components/general/Lists/ListStyledComponents.native';
-import Condition from '../Condition.native';
+import {Condition} from '@components/general/index';
 
 interface ListHeaderProps {
   title: string;

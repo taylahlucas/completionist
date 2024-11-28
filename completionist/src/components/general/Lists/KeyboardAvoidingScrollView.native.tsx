@@ -1,6 +1,6 @@
 import React from 'react';
 import { KeyboardAvoidingView } from 'react-native';
-import KeyboardAwareContainer from '@components/general/KeyboardAwareContainer.native';
+import {KeyboardAwareContainer} from '@components/general/index';
 import ScrollableList from '@components/general/Lists/ScrollableList.native';
 
 interface KeyboardAvoidingScrollViewProps {

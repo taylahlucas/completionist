@@ -10,7 +10,7 @@ import Button from '@components/general/Button/Button.native';
 import TextInput from '@components/general/TextInput/TextInput.native';
 import KeyboardAvoidingScrollView from '@components/general/Lists/KeyboardAvoidingScrollView.native';
 import { DrawerScreenEnum } from '@utils/CustomEnums';
-import ParagraphView from '@components/general/ParagraphView.native';
+import {ParagraphView} from '@components/general/index';
 
 interface RequestFormData {
 	subject: string;

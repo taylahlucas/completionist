@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { ScrollView, ScrollViewProps, ViewStyle } from 'react-native';
 import { listStyles, ListShowMoreButton } from './ListStyledComponents.native';
 import { renderAmountConst } from '@utils/constants'
-import Condition from '../Condition.native';
+import {Condition} from '@components/general/index';
 import { useTranslation } from 'react-i18next';
 
 interface CustomListProps extends ScrollViewProps {

@@ -1,7 +1,7 @@
 import React from 'react';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import { StandardLayoutContainer } from './StandardLayoutStyledComponents.native';
-import Loading from '@components/general/Loading.native';
+import {Loading} from '@components/general/index';
 
 interface StandardLayoutProps {
 	children: any;

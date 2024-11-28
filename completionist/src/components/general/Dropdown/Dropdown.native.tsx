@@ -1,6 +1,6 @@
 import React from 'react';
 import { LayoutAnimation } from 'react-native';
-import Condition from '../Condition.native';
+import {Condition} from '@components/general/index';
 import { DropdownPressable, DropdownContainer } from './DropdownStyledComponents.native';
 
 interface DropdownProps {

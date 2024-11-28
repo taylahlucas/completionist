@@ -9,8 +9,7 @@ import PriceItem from '@components/general/PriceItem/PriceItem.native';
 import { PaymentPriceItem, PaymentPricesContainer, PaymentPlanSubtitle } from './PaymentsContentStyledComponents.native';
 import Button from '@components/general/Button/Button.native';
 import ScrollableList from '@components/general/Lists/ScrollableList.native';
-import useMainState from '@redux/hooks/useMainState';
-import Spacing from '@components/general/Spacing.native';
+import {Spacing} from '@components/general/index';
 
 const PaymentsContent = () => {
 	const { t } = useTranslation();
