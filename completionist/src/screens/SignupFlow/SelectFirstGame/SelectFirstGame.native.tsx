@@ -5,14 +5,12 @@ import CustomSearchBar from '@components/general/CustomSearchBar/CustomSearchBar
 import useGetTheme from '@styles/hooks/useGetTheme';
 import { useTranslation } from 'react-i18next';
 import StyledText from '@components/general/Text/StyledText.native';
-import Spacing from '@components/general/Spacing.native';
 import { SelectFirstGameContentContainer } from '@components/custom/LoginForm/LoginFormStyledComponents.native';
 import GameListItem from '@components/custom/GameList/GameListItem.native';
 import Button from '@components/general/Button/Button.native';
 import KeyboardAvoidingScrollView from '@components/general/Lists/KeyboardAvoidingScrollView.native';
-import Condition from '@components/general/Condition.native';
+import {Condition, Spacing, ParagraphView} from '@components/general/index';
 import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
-import ParagraphView from '@components/general/ParagraphView.native';
 import useTranslateGameContent from '@data/hooks/useTranslateGameContent.native';
 import { useSelectFirstGame } from './hooks/useSelectFirstGame.native';
 

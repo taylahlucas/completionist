@@ -1,6 +1,6 @@
 import React from 'react';
 import { I18nextProvider } from 'react-i18next';
-import Condition from '@components/general/Condition.native';
+import {Condition} from '@components/general/index';
 import useMainState from '@redux/hooks/useMainState';
 import useInitUserData from '@data/hooks/useInitUserData.native';
 import Landing from './Landing.native';

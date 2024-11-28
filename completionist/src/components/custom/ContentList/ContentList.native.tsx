@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import ScrollableList from '@components/general/Lists/ScrollableList.native';
-import Condition from '@components/general/Condition.native';
+import {Condition, Loading} from '@components/general/index';
 import useContentState from './provider/useContentState';
 import useGetContentCategories from './hooks/useGetContentCategories';
 import useGetContent from './hooks/useGetContent';
@@ -8,7 +8,6 @@ import SearchResults from './SearchResults.native';
 import ContentMainDropdown from './ContentMainDropdown.native';
 import useCheckContentComplete from './hooks/useCheckContentComplete';
 import { ContentItem } from '@utils/CustomInterfaces';
-import Loading from '@components/general/Loading.native';
 import useContentDispatch from './provider/useContentDispatch';
 import WikiWebView from '@components/general/WikiWebView/WikiWebView.native';
 

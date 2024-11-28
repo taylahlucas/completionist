@@ -2,7 +2,7 @@ import React from 'react';
 import { GameListItemContainer, GameListImage, GameItemTitle, GameItemTitleContainer, GameItemScore } from './GameListItemStyledComponents.native';
 import { GameData } from '@utils/CustomInterfaces';
 import { useGameListItem } from './hooks/useGameListItem.native';
-import Condition from '@components/general/Condition.native';
+import {Condition} from '@components/general/index';
 import { FlowType } from '@utils/CustomTypes';
 
 interface GameListItemProps {

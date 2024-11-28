@@ -8,7 +8,7 @@ import { GoogleSigninButton } from '@react-native-google-signin/google-signin';
 import useLoginDispatch from './provider/useLoginDispatch';
 import useLoginState from './provider/useLoginState';
 import StyledText from '@components/general/Text/StyledText.native';
-import Condition from '@components/general/Condition.native';
+import {Condition} from '@components/general/index';
 import useValidator from '@utils/hooks/useValidator';
 import useSendVerificationEmail from './hooks/useSendVerificationEmail';
 import useAuthEndpoints from '@data/api/hooks/useAuthEndpoints.native';

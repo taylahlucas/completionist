@@ -10,7 +10,7 @@ import AchievementDropdownTitle from '@components/custom/AchievementView/Achieve
 import ProgressView from '@components/custom/ProgressView/ProgressView.native';
 import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
 import Button from '@components/general/Button/Button.native';
-import Condition from '@components/general/Condition.native';
+import {Condition} from '@components/general/index';
 import { View } from 'react-native';
 import StyledText from '@components/general/Text/StyledText.native';
 import useAchievements from './hooks/useAchievements';

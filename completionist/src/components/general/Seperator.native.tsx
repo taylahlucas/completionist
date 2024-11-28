@@ -3,7 +3,7 @@ import { View } from 'react-native';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import { LARGE_WIDTH } from '@styles/global.native';
 
-const Seperator = () => {
+export const Seperator = () => {
   const theme = useGetTheme();
 
   return (
@@ -15,5 +15,3 @@ const Seperator = () => {
     }} />
   );
 };
-
-export default Seperator;

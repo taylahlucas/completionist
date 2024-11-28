@@ -4,9 +4,8 @@ import StyledText from '@components/general/Text/StyledText.native';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import ScrollableList from '@components/general/Lists/ScrollableList.native';
 import { AchievementItem } from '@utils/CustomInterfaces'
-import Seperator from '@components/general/Seperator.native';
 import { STANDARD_WIDTH, SMALL_PADDING, MID_PADDING, MID_WIDTH, LARGE_PADDING } from '@styles/global.native';
-import Condition from '@components/general/Condition.native';
+import {Condition, Seperator} from '@components/general/index';
 import Icon from '@components/general/Icon/Icon.native';
 import { Dropdown, DropdownTitleContainer } from '@components/general/Dropdown/index';
 import { IconTypeEnum } from '@utils/CustomEnums';

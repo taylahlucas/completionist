@@ -1,5 +1,5 @@
 import React from 'react';
-import Condition from '@components/general/Condition.native';
+import {Condition} from '@components/general/index';
 import { Dropdown } from '@components/general/Dropdown/index';
 import ListHeader from '@components/general/Lists/ListHeader.native';
 import ContentSubDropdown from './ContentSubDropdown.native';

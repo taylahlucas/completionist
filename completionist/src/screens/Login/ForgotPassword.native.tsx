@@ -2,13 +2,12 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import StandardLayout from '@components/general/Layouts/StandardLayout.native';
 import NavigationHeader from '@navigation/NavigationHeader.native';
-import ParagraphView from '@components/general/ParagraphView.native';
 import StyledText from '@components/general/Text/StyledText.native';
 import TextInput from '@components/general/TextInput/TextInput.native';
 import Button from '@components/general/Button/Button.native';
 import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
 import KeyboardAvoidingScrollView from '@components/general/Lists/KeyboardAvoidingScrollView.native';
-import Condition from '@components/general/Condition.native';
+import {Condition, ParagraphView} from '@components/general/index';
 import ErrorMessage from '@components/general/Text/ErrorMessage.native';
 import useLogin from './hooks/useLogin';
 

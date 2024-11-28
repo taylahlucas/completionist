@@ -6,7 +6,7 @@ import useContentState from './provider/useContentState';
 import useContentDispatch from './provider/useContentDispatch';
 import useGetContentCategories from './hooks/useGetContentCategories';
 import useMainState from '@redux/hooks/useMainState';
-import Condition from '@components/general/Condition.native';
+import {Condition} from '@components/general/index';
 import ContentSubTypeDropdown from './ContentSubTypeDropdown.native';
 import useGetContents from './hooks/useGetContent';
 import useCheckContentComplete from './hooks/useCheckContentComplete';

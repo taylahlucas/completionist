@@ -5,7 +5,7 @@ import { LoginFormContainer, LoginFormButtonContainer } from './LoginFormStyledC
 import Button from '@components/general/Button/Button.native';
 import useLoginState from './provider/useLoginState';
 import useLoginDispatch from './provider/useLoginDispatch';
-import Condition from '@components/general/Condition.native';
+import {Condition} from '@components/general/index';
 import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
 import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
 

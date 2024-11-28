@@ -7,7 +7,7 @@ import {
 } from '@components/custom/Settings/SettingsStyledComponents.native';
 import TextInput from '@components/general/TextInput/TextInput.native';
 import Button from '@components/general/Button/Button.native';
-import Condition from '@components/general/Condition.native';
+import {Condition} from '@components/general/index';
 import KeyboardAvoidingScrollView from '@components/general/Lists/KeyboardAvoidingScrollView.native';
 import { DrawerScreenEnum } from '@utils/CustomEnums';
 import ErrorMessage from '@components/general/Text/ErrorMessage.native';

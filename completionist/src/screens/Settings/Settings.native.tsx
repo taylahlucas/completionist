@@ -12,9 +12,8 @@ import { DrawerScreenEnum, AuthScreenEnum } from '@utils/CustomEnums';
 import SettingsGameCollections from '@components/custom/Settings/SettingsGameCollections.native';
 import Button from '@components/general/Button/Button.native';
 import SteamProfileModal from '../Achievements/SteamProfileModal.native';
-import Condition from '@components/general/Condition.native';
+import {Condition, Spacing} from '@components/general/index';
 import useGetTheme from '@styles/hooks/useGetTheme';
-import Spacing from '@components/general/Spacing.native';
 import useSettings from './hooks/useSettings';
 
 const Settings = () => {
