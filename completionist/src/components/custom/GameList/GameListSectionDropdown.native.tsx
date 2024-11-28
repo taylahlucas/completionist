@@ -1,5 +1,5 @@
 import React from 'react';
-import Dropdown from '@components/general/Dropdown/Dropdown.native';
+import {Dropdown} from '@components/general/Dropdown/index';
 import GameListItem from './GameListItem.native';
 import { GameData } from '@utils/CustomInterfaces';
 import GameListSectionHeader from './GameListSectionHeader.native';

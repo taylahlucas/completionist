@@ -13,7 +13,7 @@ interface DropdownSelectionContentProps {
 	onPress: (value: string) => void;
 }
 
-const DropdownSelectionContent = ({ content, onPress }: DropdownSelectionContentProps) => {
+export const DropdownSelectionContent = ({ content, onPress }: DropdownSelectionContentProps) => {
 	const theme = useGetTheme();
 
 	return (
@@ -35,5 +35,3 @@ const DropdownSelectionContent = ({ content, onPress }: DropdownSelectionContent
 		</ScrollableList>
 	);
 };
-
-export default DropdownSelectionContent;

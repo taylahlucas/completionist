@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { View } from 'react-native';
-import Dropdown from '@components/general/Dropdown/Dropdown.native';
+import {Dropdown} from '@components/general/Dropdown/index';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import { ProgressItemData } from '@utils/CustomInterfaces';
 import AchievementDropdownSubtitle from '@components/custom/AchievementView/AchievementDropdownSubtitle.native';

@@ -1,5 +1,5 @@
 import React from 'react';
-import Dropdown from '@components/general/Dropdown/Dropdown.native';
+import {Dropdown} from '@components/general/Dropdown/index';
 import ContentMainList from './ContentMainList.native';
 import SubListHeader from '@components/general/Lists/SubListHeader.native';
 import useContentState from './provider/useContentState';

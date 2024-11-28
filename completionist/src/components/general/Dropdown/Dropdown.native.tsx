@@ -12,7 +12,7 @@ interface DropdownProps {
   enabled?: boolean;
 }
 
-const Dropdown = ({ testID, header, children, isOpen, setOpen, enabled = true }: DropdownProps) => {
+export const Dropdown = ({ testID, header, children, isOpen, setOpen, enabled = true }: DropdownProps) => {
   const toggleOpen = () => {
     setOpen(!isOpen);
     LayoutAnimation.configureNext(LayoutAnimation.Presets.easeInEaseOut);
@@ -33,5 +33,3 @@ const Dropdown = ({ testID, header, children, isOpen, setOpen, enabled = true }:
     </DropdownContainer>
   );
 };
-
-export default Dropdown;

@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 import StandardLayout from '@components/general/Layouts/StandardLayout.native';
 import NavigationHeader from '@navigation/NavigationHeader.native';
 import { DrawerScreenEnum, AuthScreenEnum, GameKeyEnum } from '@utils/CustomEnums';
-import Dropdown from '@components/general/Dropdown/Dropdown.native';
+import {Dropdown} from '@components/general/Dropdown/index';
 import AchievementView from '@components/custom/AchievementView/AchievementView.native';
 import ScrollableList from '@components/general/Lists/ScrollableList.native';
 import AchievementDropdownTitle from '@components/custom/AchievementView/AchievementDropdownTitle.native';

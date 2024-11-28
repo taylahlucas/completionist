@@ -2,7 +2,7 @@ import React from 'react';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import Icon from '@components/general/Icon/Icon.native';
 import { IconTypeEnum } from '@utils/CustomEnums';
-import { DropdownTitleContainer } from '@components/general/Dropdown/DropdownStyledComponents.native';
+import { DropdownTitleContainer } from '@components/general/Dropdown/index';
 import StyledText from '@components/general/Text/StyledText.native';
 import Seperator from '@components/general/Seperator.native';
 

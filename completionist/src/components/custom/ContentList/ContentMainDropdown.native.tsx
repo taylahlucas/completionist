@@ -1,6 +1,6 @@
 import React from 'react';
 import Condition from '@components/general/Condition.native';
-import Dropdown from '@components/general/Dropdown/Dropdown.native';
+import { Dropdown } from '@components/general/Dropdown/index';
 import ListHeader from '@components/general/Lists/ListHeader.native';
 import ContentSubDropdown from './ContentSubDropdown.native';
 import ContentMainList from './ContentMainList.native';

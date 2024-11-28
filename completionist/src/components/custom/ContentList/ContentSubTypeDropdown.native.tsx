@@ -1,5 +1,5 @@
 import React from 'react';
-import Dropdown from '@components/general/Dropdown/Dropdown.native';
+import { Dropdown } from '@components/general/Dropdown/index';
 import useGetContents from './hooks/useGetContent';
 import ListItem from '@components/general/Lists/ListItem.native';
 import useCheckContentComplete from './hooks/useCheckContentComplete';

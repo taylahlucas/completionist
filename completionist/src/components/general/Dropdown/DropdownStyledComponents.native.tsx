@@ -1,7 +1,6 @@
 import styled from 'styled-components/native';
 import { DEFAULT_BORDER_RADIUS, LARGE_WIDTH, STANDARD_WIDTH, MID_WIDTH, MID_PADDING, windowWidth } from '@styles/global.native';
 import StyledText from '../Text/StyledText.native';
-import ScrollableList from '../Lists/ScrollableList.native';
 
 interface DropdownSelectionContainerProps {
 	color: string;
