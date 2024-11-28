@@ -6,7 +6,7 @@ interface LoggerProps {
   data?: any;
 }
 
-const useLogger = () => {
+export const useLogger = () => {
   const log = ({ type = 'info', title, data }: LoggerProps) => {
     if (__DEV__) {
       console.log(
@@ -40,5 +40,3 @@ const useLogger = () => {
 
   return { log, logSuccessfulApi, logErrorApi, logErrorData };
 };
-
-export default useLogger;

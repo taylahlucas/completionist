@@ -38,7 +38,6 @@ export interface ForgotPwProps {
 }
 
 export interface SteamAchievementsProps {
-	userId: string;
 	steamId: string;
 	gameId: string;
 }
@@ -65,5 +64,5 @@ export interface EndpointsReturnType {
 	sendEmail: ({ emailTo, subject, text }: SendEmailProps) => Promise<void>;
 	deleteUser: (userId: string) => Promise<void>;
 	getSteamUserById: (userId: string, steamId: string) => Promise<SteamProfile | void>;
-	getSteamPlayerAchievements: ({ userId, steamId, gameId }: SteamAchievementsProps) => Promise<SteamAchievementsReturnType | void>;
+	getSteamPlayerAchievements: ({ steamId, gameId }: SteamAchievementsProps) => Promise<SteamAchievementsReturnType | void>;
 }

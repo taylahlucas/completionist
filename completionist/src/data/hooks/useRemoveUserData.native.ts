@@ -5,7 +5,7 @@ import { initialUser } from '@redux/MainState';
 import useCache from '../api/hooks/useCache.native';
 import { initialFormData } from '@components/custom/LoginForm/provider/LoginState';
 import useContentDispatch from '@components/custom/ContentList/provider/useContentDispatch';
-import useLogger from '@utils/hooks/useLogger';
+import { useLogger } from '@utils/hooks/index';
 
 const useRemoveUserData = () => {
 	const { log } = useLogger();

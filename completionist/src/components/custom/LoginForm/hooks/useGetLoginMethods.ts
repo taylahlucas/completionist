@@ -1,10 +1,10 @@
+import { Alert } from 'react-native';
 import { useTranslation } from 'react-i18next';
 import uuid from 'react-native-uuid';
 import { GoogleSignin } from '@react-native-google-signin/google-signin';
 import auth from '@react-native-firebase/auth';
 import useAuthEndpoints from '@data/api/hooks/useAuthEndpoints.native';
 import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
-import { Alert } from 'react-native';
 import useEditUserData from '@data/hooks/useEditUserData.native';
 import useMainState from '@redux/hooks/useMainState';
 import { SignInProps } from '@data/api/EndpointInterfaces.native';
@@ -12,7 +12,7 @@ import useSendVerificationEmail from '@components/custom/LoginForm/hooks/useSend
 import useLoginDispatch from '../provider/useLoginDispatch';
 import useEndpoints from '@data/api/hooks/useEndpoints.native';
 import useRemoveUserData from '@data/hooks/useRemoveUserData.native';
-import useLogger from '@utils/hooks/useLogger';
+import { useLogger } from '@utils/hooks/index';
 
 interface GoogleError {
 	code: number;

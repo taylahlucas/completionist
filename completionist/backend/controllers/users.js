@@ -29,6 +29,7 @@ const getUserByUserId = authWrapper({
 			console.log('getUserByUserId Query succeeded');
 			return res.status(response_code.SUCCESS).json({
 				user,
+				userId,
 				token
 			});
 		}
@@ -70,7 +71,7 @@ const updateUser = authWrapper({
 
 		await dynamoDbDocClient.send(new UpdateCommand(params));
 		console.log(`User with ID ${userId} updated successfully`);
-		return res.status(response_code.SUCCESS).json({ ok: true, token });
+		return res.status(response_code.SUCCESS).json({ ok: true, userId, token });
 	},
 	onError: (res, err) => {
 		console.log("updateUser Error: ", err.message);
@@ -79,7 +80,7 @@ const updateUser = authWrapper({
 });
 
 const changePassword = authWrapper({
-	authFunction: async (req, res) => {
+	authFunction: async (req, res, token) => {
 		const userId = req.params.userId;
 		const { oldPw, newPw } = req.body;
 
@@ -132,7 +133,7 @@ const changePassword = authWrapper({
 
 		await dynamoDbDocClient.send(new UpdateCommand(params));
 		console.log(`Password for user with ID ${userId} updated successfully`);
-		return res.status(response_code.SUCCESS).json({ ok: true });
+		return res.status(response_code.SUCCESS).json({ ok: true, userId, token });
 	},
 	onError: (res, err) => {
 		console.log("changePassword Error: ", err.message);
