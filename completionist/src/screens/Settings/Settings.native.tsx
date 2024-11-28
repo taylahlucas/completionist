@@ -23,6 +23,7 @@ const Settings = () => {
 	const scrollViewRef = useRef<ScrollView>(null);
 	const languageViewRef = useRef<RNText>(null);
 	const { viewModel, actions } = useSettings();
+	// console.log("HERE: ", viewModel.selectedGameSettings);
 
  	return (
 		<StandardLayout>
@@ -68,7 +69,7 @@ const Settings = () => {
 					type='enable-dlc'
 					data={actions.getDLCOptions()} 
 					onPress={actions.setDLCOptions}
-					translationKey={viewModel.selectedGame?.id ?? ''}
+					translationKey={viewModel.selectedGameSettings}
 				/>
 
 				{/* Show/Hide sections */}

@@ -19,7 +19,7 @@ const useSettings = () => {
 	const [profileVisible, setProfileVisible] = useState<boolean>(false);
 	const [profile, setProfile] = useState<SteamProfile | undefined>(undefined);
 	const [isLanguagesOpen, setLanguagesOpen] = useState<boolean>(false);
-	const { user, selectedGame } = useMainState();
+	const { user, selectedGame, selectedGameSettings } = useMainState();
 	const { setUser, setShouldUpdateUser } = useMainDispatch();
 	const { getDLCOptions, setDLCOptions } = useDLCOptions();
 	const options = useGetShowHideOptions();
@@ -90,7 +90,7 @@ const useSettings = () => {
 			isLanguagesOpen,
 			options,
 			user,
-			selectedGame,
+			selectedGameSettings,
 			navigationActions
 		},
 		actions: {
