@@ -1,56 +1,58 @@
 import React from 'react';
-import { render, fireEvent, renderHook } from '@utils/testing/TestLibraryUtils.native';
+import { screen, render, waitFor, fireEvent } from '@utils/testing/TestLibraryUtils.native';
 import LoginFormSignInButtons from '../LoginFormSignInButtons.native';
 import { initialState as loginState } from '../provider/LoginState';
-import useGetLoginMethods from '../hooks/useGetLoginMethods';
+import * as useGetLoginMethods from '../hooks/useGetLoginMethods';
 
 describe('LoginFormSignInButtons', () => {
+	const checkUserAccountMock = jest.fn();
+
+	beforeEach(() => {
+		jest.spyOn(useGetLoginMethods, 'default')
+			.mockReturnValue({
+				checkUserAccount: checkUserAccountMock,
+				googleUserSignIn: jest.fn(),
+				signOut: jest.fn()
+			});
+	});
+
 	afterEach(() => {
     jest.clearAllMocks();
   });
 
-	it('renders the google sign in button', () => {
-		const { getByTestId } = render(<LoginFormSignInButtons />);
-
-		expect(getByTestId('google-sign-in')).toBeTruthy();
-	});
 
 	describe('when logging in', () => {
-		it('renders the correct button title', () => {
-			const { getByText } = render(<LoginFormSignInButtons />);
+		it('renders correctly', () => {
+			render(<LoginFormSignInButtons />);
 	
-			expect(getByText('common:auth.login')).toBeTruthy();
+			expect(screen.getByTestId('google-sign-in')).toBeTruthy();
+			expect(screen.getByText('common:auth.login')).toBeTruthy();
+			expect(screen.getByText('common:auth.requestAccount')).toBeTruthy();
+			expect(screen.getByText('common:auth.signUp')).toBeTruthy();
 		});
 
-		it('renders the request account button', () => {
-			const { getByTestId } = render(<LoginFormSignInButtons />);
-	
-			expect(getByTestId('request-account')).toBeTruthy();
-		});
-	
-		it('renders the request account button', () => {
-			const { getByTestId } = render(<LoginFormSignInButtons />);
-	
-			expect(getByTestId('request-account')).toBeTruthy();
-		});
-	
-		it('renders the correct back button title', () => {
-			const { getByText } = render(<LoginFormSignInButtons />);
-	
-			expect(getByText('common:auth.signUp')).toBeTruthy();
-		});
+		// TODO: Fix here
+		it.only('calls userSignIn function on login button press', async () => {
+			const initialState = {
+				login: {
+					loginFormData: {
+						username: 'Test',
+						email: 'test@gmail.com',
+						pw: 'TestPass1!'
+					},
+					isSigningUp: true
+				}
+			};
+			render(<LoginFormSignInButtons />, { initialState });
 
-		// TODO: Issue with renderHook(useGetLoginMethods) - Could not find react-redux context value; please ensure the component is wrapped in a <Provider>
-		// it('calls userSignIn function on login button press', () => {
-		// 	const { getByTestId } = render(<LoginFormSignInButtons />);
-		// 	const { result } = renderHook(() => useGetLoginMethods());
-		// 	const loginButton = getByTestId('login-button');
+			fireEvent.press(screen.getByTestId('login-button'));
 
-		// 	fireEvent.press(loginButton);
-
-		// 	const test = result.current.userSignIn()
-		// 	// Add expectations for userSignIn function being called
-		// });
+			await waitFor(() => {
+				expect(checkUserAccountMock).toHaveBeenCalledTimes(1);
+			});
+			// const test = result.current.userSignIn()
+			// Add expectations for userSignIn function being called
+		});
 	});
 
 	describe('when signing up', () => {
@@ -60,16 +62,12 @@ describe('LoginFormSignInButtons', () => {
 				isSigningUp: true
 			}
 		};
-		it('renders the correct button title', () => {
-			const { getByText } = render(<LoginFormSignInButtons />, { initialState });
-	
-			expect(getByText('common:auth.createAccount')).toBeTruthy();
-		});
 
-		it('renders the correct back button title', () => {
-			const { getByText } = render(<LoginFormSignInButtons />, { initialState });
+		it('renders correctly', () => {
+			render(<LoginFormSignInButtons />, { initialState });
 	
-			expect(getByText('common:auth.backToLogin')).toBeTruthy();
+			expect(screen.getByText('common:auth.createAccount')).toBeTruthy();
+			expect(screen.getByText('common:auth.backToLogin')).toBeTruthy();
 		});
 
 	// it('calls createUser function on create account button press', () => {});

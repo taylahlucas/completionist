@@ -1,8 +1,9 @@
 import React from 'react';
-import { render, screen, fireEvent } from '@utils/testing/TestLibraryUtils.native';
+import { render, screen, fireEvent, waitFor } from '@utils/testing/TestLibraryUtils.native';
 import VerificationContent from '../VerificationContent.native';
 import * as useSendVerificationEmail from '@components/custom/LoginForm/hooks/useSendVerificationEmail';
-import { mockAlert } from '@utils/testing/mocks';
+import { mockAlert, mockAxiosPost } from '@utils/testing/mocks';
+import { mockAuthEndpoints } from '@utils/testing/mocks/mockAuthEndpoints';
 
 describe('VerificationContent', () => {
   const buttonActionMock = jest.fn();
@@ -67,7 +68,7 @@ describe('VerificationContent', () => {
   });
 
   describe('when the resend token button is pressed', () => {
-    it.only('calls sendVerification and displays an alert when resend button is pressed', () => {
+    it('calls sendVerification and displays an alert when resend button is pressed', () => {
       const sendVerificationMock = jest.fn();
       jest.spyOn(useSendVerificationEmail, 'default')
         .mockReturnValue(sendVerificationMock);
@@ -81,25 +82,25 @@ describe('VerificationContent', () => {
       expect(alertMock).toHaveBeenCalledTimes(1);
       expect(alertMock).toHaveBeenCalledWith('common:login.tokenResent');
     });
-  
-    // TODO: Not working -- fix when api mocks are working
-    // it('calls the sendVerificationEmail api when the resend button is pressed', async () => {
-    //   const sendVerificationEmailMock = authMocks.sendVerificationEmailMock;
 
-    //   render(<VerificationContent {...props} />);
+    it('calls the sendVerificationEmail api when the resend button is pressed', async () => {
+      const sendVerificationEmailMock = jest.fn();
+      mockAuthEndpoints({ sendVerificationEmail: sendVerificationEmailMock });
 
-    //   fireEvent.press(screen.getByText('common:login.resendToken'));
+      render(<VerificationContent {...props} />);
 
-    //   await waitFor(() => {
-    //     expect(sendVerificationEmailMock).toHaveBeenCalledTimes(1);
-    //     // expect(sendVerificationEmailMock).toHaveBeenCalledWith({
-    //     //   emailTo: props.email,
-    //     //   subject: 'common:screens.verifyAccount',
-    //     //   text: props.token
-    //     // });
-    //   });
-    // });
+      fireEvent.press(screen.getByText('common:login.resendToken'));
 
-    // it('navigates to the correct screen', () => {});
+      await waitFor(() => {
+        expect(sendVerificationEmailMock).toHaveBeenCalledTimes(1);
+        expect(sendVerificationEmailMock).toHaveBeenCalledWith({
+          emailTo: props.email,
+          subject: 'common:screens.verifyAccount',
+          text: "common:sendRequest.verifyAccount"
+        });
+      });
+    });
+
+    // it('navigates to the correct screen', () => { });
   });
 });

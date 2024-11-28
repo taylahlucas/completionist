@@ -1,33 +1,19 @@
-// import * as useAuthEndpoints from '@data/api/hooks/useAuthEndpoints.native';
+import * as useAuthEndpoints from '@data/api/hooks/useAuthEndpoints.native';
 
-// jest.mock('@data/api/hooks/useAuthEndpoints.native', () => ({
-//   useAuthEndpoints: jest.fn(),
-// }));
-
-// export const mockAuthEndpoints = () => {
-//   const checkUserExistsMock = jest.fn();
-//   const signUpMock = jest.fn();
-//   const signInMock = jest.fn();
-//   const linkAndSignInMock = jest.fn();
-//   const sendVerificationEmailMock = jest.fn();
-//   const forgotPwMock = jest.fn();
-
-//   jest.spyOn(useAuthEndpoints, 'default')
-//     .mockReturnValue({
-//       checkUserExists: checkUserExistsMock,
-//       signUp: signUpMock,
-//       signIn: signInMock,
-//       linkAndSignIn: linkAndSignInMock,
-//       sendVerificationEmail: sendVerificationEmailMock,
-//       forgotPw: forgotPwMock
-//     });
-
-//   return {
-//     checkUserExistsMock,
-//     signUpMock,
-//     signInMock,
-//     linkAndSignInMock,
-//     sendVerificationEmailMock,
-//     forgotPwMock,
-//   };
-// };
+export const mockAuthEndpoints = (mock: { [key: string]: jest.Mock }) => {
+  const authMocks = {
+    checkUserExists: jest.fn(),
+		signUp: jest.fn(),
+		signIn: jest.fn(),
+		linkAndSignIn: jest.fn(),
+		sendVerificationEmail: jest.fn(),
+		forgotPw: jest.fn(),
+  };
+  return jest.spyOn(useAuthEndpoints, 'default')
+    .mockImplementation(() => {
+      return {
+        ...authMocks,
+        ...mock
+      }
+    });
+};

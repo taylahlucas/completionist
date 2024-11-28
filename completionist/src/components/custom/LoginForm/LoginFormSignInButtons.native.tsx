@@ -32,7 +32,7 @@ const LoginFormSignInButtons = () => {
 	return (
 		<View style={{ alignItems: 'center' }}>
 			<LoginButton
-				testID={'login-button'}
+				testID='login-button'
 				title={isSigningUp 
 					? t('common:auth.createAccount')
 					: t('common:auth.login')
@@ -75,7 +75,7 @@ const LoginFormSignInButtons = () => {
 					<StyledText testID={'request-account'}>{t('common:auth.requestAccount')}</StyledText>
 				</Condition>
 				<Button
-					title={!isSigningUp ? t('common:auth.signUp') : t('common:auth.backToLogin')}
+					title={isSigningUp ? t('common:auth.backToLogin') : t('common:auth.signUp')}
 					type='text'
 					onPress={(): void => triggerIsSigningUp(!isSigningUp)}
 				/>
