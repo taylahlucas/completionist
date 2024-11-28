@@ -1,16 +1,20 @@
-import { SettingsConfig, User, AchievementItem, BadgeItem, ProgressItem } from '@utils/CustomInterfaces';
-import { initialUser } from '@redux/MainState';
-import { GameKeyEnum } from '@utils/CustomEnums';
+import { SettingsConfig, User, BadgeItem, ProgressItem } from '@utils/CustomInterfaces';
 
-export const userMockInitial: User = {
-	...initialUser,
-}
-
-export const useMockData: User = {
-	...userMockInitial,
-	gameData: {
-		...userMockInitial.gameData,
-	}
+export const userLoggedInMock: User = {
+	userId: '123',
+  username: 'TestUsername',
+  email: 'test@gmail.com',
+	pw: 'TestPw',
+	signup: {
+		verification: true,
+		setUsername: true,
+		selectGame: true
+	},
+	settings: {
+		lang: 'en',
+		configs: []
+	},
+	gameData: []
 }
 
 // TODO: Fix

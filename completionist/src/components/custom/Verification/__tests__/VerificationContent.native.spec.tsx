@@ -2,7 +2,7 @@ import React from 'react';
 import { render, screen, fireEvent, waitFor } from '@utils/testing/TestLibraryUtils.native';
 import VerificationContent from '../VerificationContent.native';
 import * as useSendVerificationEmail from '@components/custom/LoginForm/hooks/useSendVerificationEmail';
-import { mockAlert, mockAxiosPost } from '@utils/testing/mocks';
+import { mockAlert } from '@utils/testing/mocks';
 import { mockAuthEndpoints } from '@utils/testing/mocks/mockAuthEndpoints';
 
 describe('VerificationContent', () => {
@@ -101,6 +101,7 @@ describe('VerificationContent', () => {
       });
     });
 
+    // TODO: Add when navigatio mock is added
     // it('navigates to the correct screen', () => { });
   });
 });

@@ -3,7 +3,7 @@ import { initialState as mainState } from '@redux/MainState';
 import { mockSettingsSections } from '@utils/testing/test-helper/__mocks__/mocks';
 import useGetContentCategories from '../hooks/useGetContentCategories';
 import { ContentSectionEnum, GameKeyEnum, SettingsOptionEnum } from '@utils/CustomEnums';
-import { userMockInitial } from '@utils/testing/test-helper/__mocks__/mocks';
+import { userLoggedInMock } from '@utils/testing/test-helper/__mocks__/mocks';
 
 describe('useGetContentCategories', () => {
 	const initialState = {
@@ -47,7 +47,7 @@ describe('useGetContentCategories', () => {
 			...initialState,
 			main: {
 				user: {
-					...userMockInitial,
+					...userLoggedInMock,
 					settings: {
 						configs: [
 							{

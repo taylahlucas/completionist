@@ -9,11 +9,9 @@ export const mockAuthEndpoints = (mock: { [key: string]: jest.Mock }) => {
 		sendVerificationEmail: jest.fn(),
 		forgotPw: jest.fn(),
   };
+  
+  const updatedMocks = { ...authMocks, ...mock };
+
   return jest.spyOn(useAuthEndpoints, 'default')
-    .mockImplementation(() => {
-      return {
-        ...authMocks,
-        ...mock
-      }
-    });
+    .mockImplementation(() => updatedMocks);
 };

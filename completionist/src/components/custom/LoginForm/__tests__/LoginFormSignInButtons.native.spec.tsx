@@ -1,27 +1,29 @@
 import React from 'react';
-import { screen, render, waitFor, fireEvent } from '@utils/testing/TestLibraryUtils.native';
+import { screen, render, fireEvent, waitFor } from '@utils/testing/TestLibraryUtils.native';
 import LoginFormSignInButtons from '../LoginFormSignInButtons.native';
 import { initialState as loginState } from '../provider/LoginState';
 import * as useGetLoginMethods from '../hooks/useGetLoginMethods';
+import { mockAuthEndpoints } from '@utils/testing/mocks';
+import { userLoggedInMock } from '@utils/testing/test-helper/__mocks__/mocks';
 
 describe('LoginFormSignInButtons', () => {
-	const checkUserAccountMock = jest.fn();
-
-	beforeEach(() => {
-		jest.spyOn(useGetLoginMethods, 'default')
-			.mockReturnValue({
-				checkUserAccount: checkUserAccountMock,
-				googleUserSignIn: jest.fn(),
-				signOut: jest.fn()
-			});
-	});
-
 	afterEach(() => {
     jest.clearAllMocks();
   });
 
 
 	describe('when logging in', () => {
+		const initialState = {
+			login: {
+				loginFormData: {
+					username: 'Test',
+					email: 'test@gmail.com',
+					pw: 'TestPass1!'
+				},
+				isSigningUp: false
+			}
+		};
+		
 		it('renders correctly', () => {
 			render(<LoginFormSignInButtons />);
 	
@@ -31,27 +33,66 @@ describe('LoginFormSignInButtons', () => {
 			expect(screen.getByText('common:auth.signUp')).toBeTruthy();
 		});
 
+		it('calls the checkUserAccount function on login button press', () => {
+			const checkUserAccountMock = jest.fn();
+			jest.spyOn(useGetLoginMethods, 'default')
+				.mockReturnValue({
+					checkUserAccount: checkUserAccountMock,
+					googleUserSignIn: jest.fn(),
+					signOut: jest.fn()
+				});
+
+			render(<LoginFormSignInButtons />, { initialState });
+
+			fireEvent.press(screen.getByTestId('login-button'));
+
+			expect(checkUserAccountMock).toHaveBeenCalledTimes(1);
+			expect(checkUserAccountMock).toHaveBeenCalledWith({
+				email: "test@gmail.com", 
+				pw: "TestPass1!"
+			});
+		});
+
 		// TODO: Fix here
-		it.only('calls userSignIn function on login button press', async () => {
-			const initialState = {
-				login: {
-					loginFormData: {
-						username: 'Test',
-						email: 'test@gmail.com',
-						pw: 'TestPass1!'
-					},
-					isSigningUp: true
-				}
-			};
+		it('calls checkUserExists api',async () => {
+			const checkUserExistsMock = jest.fn();
+			mockAuthEndpoints({
+				checkUserExists: checkUserExistsMock.mockResolvedValue({
+					data: {
+						regular: true,
+						google: false
+					}
+				}),
+			 });
 			render(<LoginFormSignInButtons />, { initialState });
 
 			fireEvent.press(screen.getByTestId('login-button'));
 
 			await waitFor(() => {
-				expect(checkUserAccountMock).toHaveBeenCalledTimes(1);
+				expect(checkUserExistsMock).toHaveBeenCalledTimes(1);
+				expect(checkUserExistsMock).toHaveBeenCalledWith("test@gmail.com");
 			});
-			// const test = result.current.userSignIn()
-			// Add expectations for userSignIn function being called
+		});
+
+		// TODO: Fix here
+		it('calls the signIn api if user account exists', async () => {
+			const signInMock = jest.fn();
+			mockAuthEndpoints({ 
+				signIn: signInMock.mockResolvedValue({
+					data: {
+						user: userLoggedInMock,
+						token: 'abc123'
+					}
+				})
+			 });
+
+			 render(<LoginFormSignInButtons />, { initialState });
+
+			 fireEvent.press(screen.getByTestId('login-button'));
+
+			 await waitFor(() => {
+				expect(signInMock).toHaveBeenCalledTimes(1);
+			});
 		});
 	});
 

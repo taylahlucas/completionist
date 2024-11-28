@@ -1,7 +1,7 @@
 import React from 'react';
 import { render } from '@utils/testing/TestLibraryUtils.native';
 import { initialState as mainState } from '@redux/MainState';
-import { userMockInitial } from '@utils/testing/test-helper/__mocks__/mocks';
+import { userLoggedInMock } from '@utils/testing/test-helper/__mocks__/mocks';
 import GameListSectionDropdown from '../GameListSectionDropdown.native';
 
 const props = {
@@ -13,7 +13,7 @@ const props = {
 const initialState = {
 	main: {
 		...mainState,
-		user: userMockInitial
+		user: userLoggedInMock
 	} 
 };
 
