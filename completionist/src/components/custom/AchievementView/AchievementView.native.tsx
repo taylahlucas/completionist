@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { View, StyleSheet, Image } from 'react-native';
 import StyledText from '@components/general/Text/StyledText.native';
 import useGetTheme from '@styles/hooks/useGetTheme';
-import ScrollableList from '@components/general/Lists/ScrollableList.native';
+import {ScrollableList} from '@components/general/Lists/index';
 import { AchievementItem } from '@utils/CustomInterfaces'
 import { STANDARD_WIDTH, SMALL_PADDING, MID_PADDING, MID_WIDTH, LARGE_PADDING } from '@styles/global.native';
 import {Condition, Seperator} from '@components/general/index';

@@ -9,7 +9,7 @@ import {
 import useGetTheme from '@styles/hooks/useGetTheme';
 import useContentDispatch from '@components/custom/ContentList/provider/useContentDispatch';
 import { ContentSectionEnum } from '@utils/CustomEnums';
-import Condition from '@components/general/Condition.native';
+import {Condition} from '@components/general/index';
 
 interface NavigationDrawerItemProps {
 	item: NavigationDrawerItemData;

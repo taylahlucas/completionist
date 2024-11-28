@@ -3,7 +3,7 @@ import { Image } from 'react-native';
 import { useTranslation } from 'react-i18next';
 import StyledText from '@components/general/Text/StyledText.native';
 import TextInput from '@components/general/TextInput/TextInput.native';
-import KeyboardAvoidingScrollView from '@components/general/Lists/KeyboardAvoidingScrollView.native';
+import { KeyboardAvoidingScrollView } from '@components/general/Lists/index';
 import {Spacing, ParagraphView} from '@components/general/index';
 import Button from '@components/general/Button/Button.native';
 import useEndpoints from '@data/api/hooks/useEndpoints.native';

@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 import Button from '@components/general/Button/Button.native';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import StyledText from '@components/general/Text/StyledText.native';
-import KeyboardAvoidingScrollView from '@components/general/Lists/KeyboardAvoidingScrollView.native';
+import {KeyboardAvoidingScrollView} from '@components/general/Lists/index';
 import {
 	SubscriptionFeatureListContainer,
 	SubscriptionFeatureListInnerContainer,

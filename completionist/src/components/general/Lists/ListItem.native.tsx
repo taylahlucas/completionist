@@ -1,7 +1,7 @@
 import React, { useRef, useState, useEffect } from 'react';
 import { Animated } from 'react-native';
 import useGetTheme from '@styles/hooks/useGetTheme';
-import { ListItemContainer, ListItemTitle, ListItemContentContainer, ListItemLocationContainer } from './ListStyledComponents.native';
+import { ListItemContainer, ListItemTitle, ListItemContentContainer, ListItemLocationContainer } from '@components/general/Lists/index';
 import AnimatedCheckBox from '../Checkbox/AnimatedCheckBox.native';
 import {Condition} from '@components/general/index';
 import useGetLocationString from '@utils/hooks/useGetLocationString';
@@ -19,7 +19,7 @@ interface ListItemProps {
   action: () => void;
 }
 
-const ListItem = ({ title, location, hold, href, isComplete = false, action }: ListItemProps) => {
+export const ListItem = ({ title, location, hold, href, isComplete = false, action }: ListItemProps) => {
   const theme = useGetTheme();
 	const { capitalize } = useFormatter();
   const locationString = useGetLocationString({ hold, location });
@@ -96,7 +96,5 @@ const ListItem = ({ title, location, hold, href, isComplete = false, action }: L
     </ListItemContainer>
   );
 };
-
-export default ListItem;
 
 

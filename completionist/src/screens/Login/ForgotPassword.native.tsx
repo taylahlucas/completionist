@@ -6,7 +6,7 @@ import StyledText from '@components/general/Text/StyledText.native';
 import TextInput from '@components/general/TextInput/TextInput.native';
 import Button from '@components/general/Button/Button.native';
 import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
-import KeyboardAvoidingScrollView from '@components/general/Lists/KeyboardAvoidingScrollView.native';
+import {KeyboardAvoidingScrollView} from '@components/general/Lists/index';
 import {Condition, ParagraphView} from '@components/general/index';
 import ErrorMessage from '@components/general/Text/ErrorMessage.native';
 import useLogin from './hooks/useLogin';

@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import ScrollableList from '@components/general/Lists/ScrollableList.native';
+import {ScrollableList} from '@components/general/Lists/index';
 import {Condition, Loading} from '@components/general/index';
 import useContentState from './provider/useContentState';
 import useGetContentCategories from './hooks/useGetContentCategories';

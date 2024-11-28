@@ -1,11 +1,10 @@
 import React from 'react';
-import ListItem from '@components/general/Lists/ListItem.native';
-import { listStyles } from '@components/general/Lists/ListStyledComponents.native';
+import { listStyles } from '@components/general/Lists/index';
 import useGetContent from './hooks/useGetContent';
 import useUpdateContent from './hooks/useUpdateContent';
 import useCheckContentComplete from './hooks/useCheckContentComplete';
 import { ContentItem } from '@utils/CustomInterfaces';
-import ScrollableList from '@components/general/Lists/ScrollableList.native';
+import {ListItem, ScrollableList} from '@components/general/Lists/index';
 import { EXTRA_LARGE_PADDING, DEFAULT_ITEM_HEIGHT } from '@styles/global.native';
 
 export interface ContentMainListProps {

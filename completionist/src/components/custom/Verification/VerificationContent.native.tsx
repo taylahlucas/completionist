@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 import Button from '@components/general/Button/Button.native';
 import VerificationEntry from '@components/general/VerificationEntry/VerificationEntry.native';
 import StyledText from '@components/general/Text/StyledText.native';
-import KeyboardAvoidingScrollView from '@components/general/Lists/KeyboardAvoidingScrollView.native';
+import {KeyboardAvoidingScrollView} from '@components/general/Lists/index';
 import {ParagraphView} from '@components/general/index';
 import {Spacing} from '@components/general/index';
 import useSendVerificationEmail from '@components/custom/LoginForm/hooks/useSendVerificationEmail';

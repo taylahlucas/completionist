@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { ScrollView, ScrollViewProps, ViewStyle } from 'react-native';
-import { listStyles, ListShowMoreButton } from './ListStyledComponents.native';
+import { listStyles, ListShowMoreButton } from '@components/general/Lists/index';
 import { renderAmountConst } from '@utils/constants'
 import {Condition} from '@components/general/index';
 import { useTranslation } from 'react-i18next';
@@ -15,7 +15,7 @@ interface CustomListProps extends ScrollViewProps {
 	shouldAutoScroll?: boolean;
 };
 
-const ScrollableList = React.forwardRef<ScrollView, CustomListProps>(({
+export const ScrollableList = React.forwardRef<ScrollView, CustomListProps>(({
 	testID,
 	children,
 	style,
@@ -61,5 +61,3 @@ const ScrollableList = React.forwardRef<ScrollView, CustomListProps>(({
 		</ScrollView>
 	);
 });
-
-export default ScrollableList;

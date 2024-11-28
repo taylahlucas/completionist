@@ -8,7 +8,7 @@ import useEndpoints from '@data/api/hooks/useEndpoints.native';
 import useMainState from '@redux/hooks/useMainState';
 import Button from '@components/general/Button/Button.native';
 import TextInput from '@components/general/TextInput/TextInput.native';
-import KeyboardAvoidingScrollView from '@components/general/Lists/KeyboardAvoidingScrollView.native';
+import {KeyboardAvoidingScrollView} from '@components/general/Lists/index';
 import { DrawerScreenEnum } from '@utils/CustomEnums';
 import {ParagraphView} from '@components/general/index';
 

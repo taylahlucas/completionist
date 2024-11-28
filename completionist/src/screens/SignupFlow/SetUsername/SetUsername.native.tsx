@@ -4,7 +4,7 @@ import StandardLayout from '@components/general/Layouts/StandardLayout.native';
 import NavigationHeader from '@navigation/NavigationHeader.native';
 import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
 import TextInput from '@components/general/TextInput/TextInput.native';
-import KeyboardAvoidingScrollView from '@components/general/Lists/KeyboardAvoidingScrollView.native';
+import {KeyboardAvoidingScrollView} from '@components/general/Lists/index';
 import Button from '@components/general/Button/Button.native';
 import StyledText from '@components/general/Text/StyledText.native';
 import {Spacing} from '@components/general/index';

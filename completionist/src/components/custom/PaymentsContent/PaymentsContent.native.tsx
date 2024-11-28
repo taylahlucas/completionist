@@ -8,7 +8,7 @@ import SubscriptionOptionDescription from '../SubscriptionContent/SubscriptionOp
 import PriceItem from '@components/general/PriceItem/PriceItem.native';
 import { PaymentPriceItem, PaymentPricesContainer, PaymentPlanSubtitle } from './PaymentsContentStyledComponents.native';
 import Button from '@components/general/Button/Button.native';
-import ScrollableList from '@components/general/Lists/ScrollableList.native';
+import {ScrollableList} from '@components/general/Lists/index';
 import {Spacing} from '@components/general/index';
 
 const PaymentsContent = () => {

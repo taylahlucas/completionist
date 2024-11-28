@@ -5,7 +5,7 @@ import NavigationHeader from '@navigation/NavigationHeader.native';
 import { DrawerScreenEnum, AuthScreenEnum, GameKeyEnum } from '@utils/CustomEnums';
 import {Dropdown} from '@components/general/Dropdown/index';
 import AchievementView from '@components/custom/AchievementView/AchievementView.native';
-import ScrollableList from '@components/general/Lists/ScrollableList.native';
+import {ScrollableList} from '@components/general/Lists/index';
 import AchievementDropdownTitle from '@components/custom/AchievementView/AchievementDropdownTitle.native';
 import ProgressView from '@components/custom/ProgressView/ProgressView.native';
 import useReactNavigation from '@navigation/hooks/useReactNavigation.native';

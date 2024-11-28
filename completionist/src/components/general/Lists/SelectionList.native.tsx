@@ -1,5 +1,5 @@
 import React from 'react';
-import { SelectionListContainer, SelectionListItemContainer, SelectListTitle } from './ListStyledComponents.native';
+import { SelectionListContainer, SelectionListItemContainer, SelectListTitle } from '@components/general/Lists/index';
 import CheckBox from '../Checkbox/CheckBox.native';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import { IsActive } from '@utils/CustomInterfaces';
@@ -14,7 +14,7 @@ interface SelectionListProps {
   onPress: (title: string) => void;
 }
 
-const SelectionList = ({ data, type, translationKey, onPress }: SelectionListProps) => {
+export const SelectionList = ({ data, type, translationKey, onPress }: SelectionListProps) => {
   const { t } = useTranslation();
   const theme = useGetTheme();
 
@@ -43,5 +43,3 @@ const SelectionList = ({ data, type, translationKey, onPress }: SelectionListPro
     </SelectionListContainer>
   );
 };
-
-export default SelectionList;

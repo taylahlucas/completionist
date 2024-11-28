@@ -1,7 +1,7 @@
 import React from 'react';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import { DropdownSelectionItemTitle, DropdownSelectionContentItem } from './DropdownStyledComponents.native';
-import ScrollableList from '@components/general/Lists/ScrollableList.native';
+import {ScrollableList} from '@components/general/Lists/index';
 
 interface DropdownSelectionProps {
 	id: string;

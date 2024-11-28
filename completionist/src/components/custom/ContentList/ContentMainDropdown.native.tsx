@@ -1,7 +1,7 @@
 import React from 'react';
 import {Condition} from '@components/general/index';
 import { Dropdown } from '@components/general/Dropdown/index';
-import ListHeader from '@components/general/Lists/ListHeader.native';
+import {ListHeader} from '@components/general/Lists/index';
 import ContentSubDropdown from './ContentSubDropdown.native';
 import ContentMainList from './ContentMainList.native';
 import useGetContents from './hooks/useGetContent';
