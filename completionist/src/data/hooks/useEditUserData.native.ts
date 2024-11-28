@@ -1,12 +1,12 @@
+import { Alert } from 'react-native';
 import { useTranslation } from 'react-i18next';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
-import { User } from '@utils/CustomInterfaces';
+import { User } from '@utils/index';
 import useCache from '../api/hooks/useCache.native';
 import useKeychain from './useKeychain.native';
 import useLoginDispatch from '@components/custom/LoginForm/provider/useLoginDispatch';
 import useEndpoints from '../api/hooks/useEndpoints.native';
 import useRemoveUserData from '@data/hooks/useRemoveUserData.native';
-import { Alert } from 'react-native';
 
 interface EditUserDataReturnType {
 	loadUserFromCache: () => void;
@@ -17,7 +17,7 @@ interface EditUserDataReturnType {
 
 const useEditUserData = (): EditUserDataReturnType => {
 	const { t } = useTranslation();
-	const { setUser, setShouldUpdateUser } = useMainDispatch();
+	const { setUser, setShouldUpdateUser, selectedGame, setSelectedGameSettings } = useMainDispatch();
 	const { setLoggedIn } = useLoginDispatch();
 	const { fetchUserFromCache, saveToCache } = useCache();
 	const { getCredentials } = useKeychain();
@@ -38,6 +38,9 @@ const useEditUserData = (): EditUserDataReturnType => {
 									saveUser(user);
 									saveToCache(user);
 									setLoggedIn(true);
+									if (!selectedGame) {
+										setSelectedGameSettings(user.gameData[0].id)
+									}
 								}
 							})
 					}

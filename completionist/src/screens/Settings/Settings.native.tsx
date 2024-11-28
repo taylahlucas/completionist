@@ -23,7 +23,6 @@ const Settings = () => {
 	const scrollViewRef = useRef<ScrollView>(null);
 	const languageViewRef = useRef<RNText>(null);
 	const { viewModel, actions } = useSettings();
-	// console.log("HERE: ", viewModel.selectedGameSettings);
 
  	return (
 		<StandardLayout>
