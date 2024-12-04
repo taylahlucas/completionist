@@ -44,7 +44,7 @@ const useGetLeftNavigationItem = (
       return (
         <IconButton
 				style={{ ...styles.iconButton, top: 2 }}
-          name={'arrow-back'}
+          name='arrow-back'
           type={IconTypeEnum.Ionicons}
           color={theme.lightGrey}
           onPress={(): void => {

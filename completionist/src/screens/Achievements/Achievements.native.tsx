@@ -25,7 +25,8 @@ const Achievements = () => {
 			<NavigationHeader
 				id={viewModel.achievements.isGlobalAchievements ? AuthScreenEnum.GlobalAchievements : DrawerScreenEnum.Achievements}
 				title={'Achievements'}
-				leftAction={viewModel.achievements.isGlobalAchievements ? 'back' : 'menu'}
+				leftAction={viewModel.achievements.isGlobalAchievements ? 'none' : 'menu'}
+				rightAction={viewModel.achievements.isGlobalAchievements ? 'back' : 'none'}
 			/>
 			<ScrollableList style={{ maxHeight: 600 }}>
 				{/* Badges */}

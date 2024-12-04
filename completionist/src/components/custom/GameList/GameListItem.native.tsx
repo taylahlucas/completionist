@@ -24,7 +24,7 @@ const GameListItem = ({ flow = 'home', game, enabledColor = 'grey', enabled, onP
 		>
 			<GameListImage 
 				source={actions.getGameImage(game.id)} 
-				style={{ opacity: enabled ? 0.6 : 0.2 }} 
+				style={{ opacity: enabled ? 0.5 : 0.2 }} 
 			/>
 			<Condition condition={flow === 'home' && !enabled}>
 				<GameItemScore 

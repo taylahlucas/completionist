@@ -7,11 +7,12 @@ import {
 import { 
 	NavigationHeaderLeftActionTypes,
 	NavigationHeaderRightActionTypes,
-	ScreenEnumType
-} from '@utils/CustomTypes';
+	ScreenEnumType,
+	DrawerScreenEnum, 
+	UnauthorizedScreenEnum
+} from '@utils/index';
 import useGetLeftNavigationItem from './hooks/useGetLeftNavigationItem.native';
 import useGetRightNavigationItem from './hooks/useGetRightNavigationItem.native';
-import { DrawerScreenEnum, UnauthorizedScreenEnum } from '@utils/CustomEnums';
 
 interface NavigationHeaderProps {
 	id: ScreenEnumType;

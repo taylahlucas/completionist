@@ -6,7 +6,7 @@ import {SettingsOptionEnum } from '@utils/CustomEnums';
 import useMainState from '@redux/hooks/useMainState';
 import useEndpoints from '@data/api/hooks/useEndpoints.native';
 import { SettingsOptionItem, SteamProfile } from '@utils/CustomInterfaces';
-import useEditUserData from '@data/hooks/useEditUserData.native';
+import {useEditUserData} from '@data/hooks/useEditUserData.native';
 import { NavigationHeaderLeftActionTypes, NavigationHeaderRightActionTypes } from '@utils/CustomTypes';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
 

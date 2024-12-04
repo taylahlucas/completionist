@@ -42,9 +42,9 @@ const useAuthInterceptor = () => {
 	instance.interceptors.response.use(
 		function (response) {
 			// Store refresh token when it is returned by the api
-			if (response.data.userId && response.data.token) {
+			if (response.data.user?.userId && response.data.token) {
 				storeCredentials({
-					username: response.data.userId,
+					username: response.data.user?.userId,
 					password: response.data.token
 				});
 			}
