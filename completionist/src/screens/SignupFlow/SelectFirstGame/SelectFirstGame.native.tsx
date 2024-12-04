@@ -19,27 +19,6 @@ const SelectFirstGame = () => {
 	const { t } = useTranslation();  
 	const { viewModel, actions } = useSelectFirstGame();
 	const { translateGameName } = useTranslateGameContent();
-	
-	const renderAwareView = () => (
-		<Button
-			title={t('common:continue')}
-			type='footer'
-			disabled={!viewModel.selectedFirstGame}
-			onPress={async (): Promise<void> => {
-				if (viewModel.selectedFirstGame) {
-					const updatedUser = {
-						...viewModel.user,
-						signup: {
-							...viewModel.user.signup,
-							selectGame: true
-						}
-					}
-					actions.activateGame(updatedUser, viewModel.selectedFirstGame);
-					actions.setIsGoogleSignIn(false);
-				}
-			}}
-		/>
-	);
 
 	return (
 		<StandardLayout isLoading={viewModel.isLoading}>
@@ -53,7 +32,27 @@ const SelectFirstGame = () => {
 				setSearchValue={(value: string): void => actions.setSearchValue(value)}
 				onReset={(): void => actions.setSearchValue('')}
 			/>
-			<KeyboardAvoidingScrollView awareView={renderAwareView()}>
+			<KeyboardAvoidingScrollView 
+				awareView={
+					<Button
+						title={t('common:continue')}
+						type='footer'
+						disabled={!viewModel.selectedFirstGame}
+						onPress={async (): Promise<void> => {
+							if (viewModel.selectedFirstGame) {
+								const updatedUser = {
+									...viewModel.user,
+									signup: {
+										...viewModel.user.signup,
+										selectGame: true
+									}
+								}
+								actions.activateGame(updatedUser, viewModel.selectedFirstGame);
+								actions.setIsGoogleSignIn(false);
+							}
+						}}
+					/>
+				}>
 				<Condition condition={viewModel.searchValue.length === 0}>
 					<ParagraphView>
 						<StyledText>{t('common:selectGame.selectGameDesc1')}</StyledText>
