@@ -10,7 +10,7 @@ const useGameContent = () => {
   const {searchValue} = useContentState();
   const {userQuests, userCollectables, userLocations, userMiscItems} =
     useGetUserGameData();
-  const {mapDataTo} = useGetGameData();
+  const {mapDataTo} = useGetGameData(selectedGame);
 
   return {
     viewModel: {

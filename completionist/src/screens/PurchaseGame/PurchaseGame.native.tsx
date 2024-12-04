@@ -16,7 +16,6 @@ const PurchaseGame = (params: any) => {
 	const gameId = params.route?.params.gameId;
 	const { viewModel, actions } = usePurchaseGame(gameId);
 	const selectedGame = allGameData.find((game) => game.id === gameId)
-	const test = 0;
 
 	if (!selectedGame) {
 		console.log("Could not find selected game")

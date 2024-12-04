@@ -4,13 +4,12 @@ import {useGetGameData, useGetUserGameData, useGetSettingsConfig} from '@data/ho
 import useMainState from '@redux/hooks/useMainState';
 import useCheckSectionEnabled from './useCheckSectionEnabled.native';
 import { NavigationDrawerItemData } from '@utils/CustomInterfaces';
-import useGetUserGameData from '@data/hooks/useGetUserGameData';
 
 const useGetNavigationDrawerItems = (): NavigationDrawerItemData[] => {
 	const { t } = useTranslation();
 	const { selectedGame } = useMainState();
 	const { userQuests, userCollectables, userLocations, userMiscItems } = useGetUserGameData();
-	const { mapDataTo } = useGetGameData();
+	const { mapDataTo, getAllData } = useGetGameData(selectedGame);
 	const { checkIsSectionEnabled } = useCheckSectionEnabled();
 	const questsSection = ContentSectionEnum.QUESTS;
 	const collectablesSection = ContentSectionEnum.COLLECTABLES;
@@ -20,13 +19,12 @@ const useGetNavigationDrawerItems = (): NavigationDrawerItemData[] => {
 	const collectableData = mapDataTo(collectablesSection, selectedGame?.id, true);
 	const locationData = mapDataTo(locationsSection, selectedGame?.id, true);
 	const miscellaneousData = mapDataTo(miscItemsSection, selectedGame?.id, true);
-	const { getAllData } = useGetGameData();
 	const {
 		quests,
 		collectables,
 		locations,
 		miscellaneous
-	} = getAllData(selectedGame);
+	} = getAllData(selectedGame?.id);
 	const { shouldHideDisabledSections } = useGetSettingsConfig();
 	
 	let drawerItems = [];

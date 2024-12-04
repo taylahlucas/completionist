@@ -1,5 +1,5 @@
 import { GameKeyEnum, ContentSectionEnum } from '@utils/CustomEnums';
-import { GameContentItem, SettingsConfigItem } from '@utils/CustomInterfaces';
+import { GameContentItem, GameData, SettingsConfigItem } from '@utils/CustomInterfaces';
 import useMainState from '@redux/hooks/useMainState';
 import {useGetTranslatedGameData} from "@data/hooks/index";
 
@@ -8,7 +8,7 @@ interface GameSectionData {
 	data: GameContentItem[];
 }
 
-interface GameDataReturnType {
+interface GameAmountsReturnType {
 	quests: GameSectionData;
 	collectables: GameSectionData;
 	locations: GameSectionData;
@@ -17,10 +17,10 @@ interface GameDataReturnType {
 
 interface GameDataReturnType {
 	mapDataTo: (type: ContentSectionEnum, selectedGame?: GameKeyEnum, filter?: boolean) => GameContentItem[];
-	getAllData: (gameId?: GameKeyEnum) => GameDataReturnType;
+	getAllData: (gameId?: GameKeyEnum) => GameAmountsReturnType;
 }
 
-export const useGetGameData = (): GameDataReturnType => {
+export const useGetGameData = (selectedGame?: GameData): GameDataReturnType => {
 	const {
 		eldenRing,
 		fallout3,
@@ -28,7 +28,6 @@ export const useGetGameData = (): GameDataReturnType => {
 		skyrim,
 		witcher3
 	} = useGetTranslatedGameData();
-	const { selectedGame } = useMainState();
 
 	// Filter active sections
 	const filterData = (config: SettingsConfigItem[], data: any[]) => {
@@ -122,7 +121,7 @@ export const useGetGameData = (): GameDataReturnType => {
 		}
 	};
 
-	const getAllData = (gameId?: GameKeyEnum): GameDataReturnType => {
+	const getAllData = (gameId?: GameKeyEnum): GameAmountsReturnType => {
 		const questsSection = ContentSectionEnum.QUESTS;
 		const collectablesSection = ContentSectionEnum.COLLECTABLES;
 		const locationsSection = ContentSectionEnum.LOCATIONS;

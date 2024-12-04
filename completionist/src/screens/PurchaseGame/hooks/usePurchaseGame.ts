@@ -1,11 +1,13 @@
 import { GameKeyEnum } from '@utils/CustomEnums';
-import useGetGameData from '@data/hooks/useGetGameData';
+import {useGetGameData} from '@data/hooks/useGetGameData';
 import {useTranslateGameContent} from '@data/hooks/index';
+import useMainState from '@redux/hooks/useMainState';
 
 const usePurchaseGame = (gameId: GameKeyEnum) => {
 	const { translateGameName } = useTranslateGameContent();
-	const { getAllData } = useGetGameData();
-	// get number of quests, collectables, locations and misc
+	const { selectedGame } = useMainState();
+	const { getAllData } = useGetGameData(selectedGame);
+	// TODO: get number of quests, collectables, locations and misc
 	const {
 		quests,
 		collectables,

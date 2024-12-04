@@ -17,9 +17,9 @@ interface GameDataReturnType {
 }
 
 const useGetContentCategories = (): GameDataReturnType => {
-  const {mapDataTo} = useGetGameData();
   const {sectionType} = useContentState();
-  const {user, selectedGameSettings} = useMainState();
+  const {user, selectedGame, selectedGameSettings} = useMainState();
+  const {mapDataTo} = useGetGameData(selectedGame);
   const {shouldHideDisabledSections} = useGetSettingsConfig();
   const {translateCategoryName, translateDLCName} = useTranslateGameContent();
 

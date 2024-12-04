@@ -5,8 +5,8 @@ import {useGetGameData} from "@data/hooks/index";
 import { getCurrentGame } from '@data/hooks/index';
 
 export const useGetGameProgressData = () => {
-	const { user } = useMainState();
-	const { mapDataTo } = useGetGameData();
+	const { user, selectedGame } = useMainState();
+	const { mapDataTo } = useGetGameData(selectedGame);
 
 	const getGameProgress = (games: GameKeyEnum[]) => {
 		return games.map((game) => {
