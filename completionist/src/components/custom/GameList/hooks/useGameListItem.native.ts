@@ -1,33 +1,28 @@
-import useMainState from '@redux/hooks/useMainState';
-import useFilterGameList from './useFilterGameList.native';
-import useTranslateGameContent from '@utils/hooks/useTranslateGameContent.native';
-import useGetTheme from '@styles/hooks/useGetTheme';
-import { AuthScreenEnum, GameKeyEnum } from '@utils/CustomEnums';
+import { useMemo } from 'react';
 import { ImageURISource } from 'react-native';
-import { ActiveGameData } from '@utils/CustomInterfaces';
-import useMainDispatch from '@redux/hooks/useMainDispatch';
-import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
-
-interface GamePrice {
-	id: GameKeyEnum;
-	price: string;
-}
+import useMainState from '@redux/hooks/useMainState';
+import {useTranslateGameContent} from '@data/hooks/index';
+import useGetTheme from '@styles/hooks/useGetTheme';
+import { GameKeyEnum } from '@utils/CustomEnums';
+import { allGameData } from '@utils/configs/gameConfigs';
 
 export const useGameListItem = () => {
 	const theme = useGetTheme();
-	const navigation = useReactNavigation();
-  const { user, currentScreen } = useMainState();
-	const { setSelectedGame, setSelectedGameSettings } = useMainDispatch();
-	const { filterGameList } = useFilterGameList();
+  const { user } = useMainState();
 	const { translateGameName } = useTranslateGameContent();
-	
-	// TODO: Update with actual price for game
-	const gamePrices: GamePrice[]  = user.activeGames.map((game) => (
-		{ id: game.id, price: '£3.99' }
-	));
-	
-	const getPriceForGame = (game: GameKeyEnum): string => {
-		return gamePrices?.find((gamePrice: GamePrice) => game === gamePrice.id)?.price ?? '';
+
+	const disabledGameData = useMemo(() => allGameData.filter((game) => {
+		if (!user.gameData?.find((activeGame) => activeGame.id === game.id)) {
+			return true;
+		}
+	}), [user.gameData]);
+
+	const getPriceForGame = (id: GameKeyEnum): string => {
+		// TODO: Input game prices
+		switch (id) {
+			default: 
+				return '£3.99';
+		}
 	};
 		
 	const getGameImage = (game: GameKeyEnum): ImageURISource => {
@@ -46,28 +41,15 @@ export const useGameListItem = () => {
     }
   };
 
-	const handleGameSelection = (game: ActiveGameData): void => {
-		if (game.isActive) {
-			setSelectedGame(game.id);
-			setSelectedGameSettings(game.id);
-			navigation.navigate(AuthScreenEnum.DrawerStack);
-		}
-		else {
-			navigation.navigate(AuthScreenEnum.PurchaseGame, { gameId: game.id });
-		}
-	};
-
 	return {
 		viewModel: {
-			activeGames: user.activeGames,
-			currentScreen,
+			activeGames: user.gameData,
+			disabledGames: disabledGameData,
 			theme,
 		},
 		actions: {
-			filterGameList,
 			translateGameName,
 			getGameImage,
-			handleGameSelection,
 			getPriceForGame
 		}
 	};

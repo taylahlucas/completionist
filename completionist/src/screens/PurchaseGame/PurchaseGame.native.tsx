@@ -3,13 +3,20 @@ import StandardLayout from '@components/general/Layouts/StandardLayout.native';
 import StyledText from '@components/general/Text/StyledText.native';
 import NavigationHeader from '@navigation/NavigationHeader.native';
 import { AuthScreenEnum } from '@utils/CustomEnums';
-import KeyboardAvoidingScrollView from '@components/general/Lists/KeyboardAvoidingScrollView.native';
+import {KeyboardAvoidingScrollView} from '@components/general/Lists/index';
 import Button from '@components/general/Button/Button.native';
 import GameListItem from '@components/custom/GameList/GameListItem.native';
+import { allGameData } from '@utils/configs/gameConfigs';
 
 const PurchaseGame = (params: any) => {
 	const gameId = params.route?.params.gameId;
+	const selectedGame = allGameData.find((game) => game.id === gameId)
 	const test = 0;
+
+	if (!selectedGame) {
+		console.log("Could not find selected game")
+		return;
+	}
 
 	// TODO: Add translations
 	return (
@@ -21,10 +28,7 @@ const PurchaseGame = (params: any) => {
 			/>
 			<KeyboardAvoidingScrollView awareView={<Button title='Continue' onPress={(): void => console.log("Pay")} />}>
 				<GameListItem 
-					game={{
-						id: gameId,
-						isActive: false
-					}}
+					game={selectedGame}
 					enabled={true}
 					onPress={(): void => {}}
 				/>

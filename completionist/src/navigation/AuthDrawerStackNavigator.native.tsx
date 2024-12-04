@@ -7,8 +7,8 @@ import Miscellaneous from '@screens/GameContent/Miscellaneous.native';
 import Collectables from '@screens/GameContent/Collectables.native';
 import useMainState from '@redux/hooks/useMainState';
 import useGetTheme from '@styles/hooks/useGetTheme';
-import useTranslateGameContent from '@utils/hooks/useTranslateGameContent.native';
-import Condition from '@components/general/Condition.native';
+import {useTranslateGameContent} from '@data/hooks/index';
+import {Condition} from '@components/general/index';
 import { NavigationDrawerContainer } from './NavigationStyledComponents.native';
 import StyledText from '@components/general/Text/StyledText.native';
 import { DrawerScreenEnum } from '@utils/CustomEnums';
@@ -35,7 +35,7 @@ const AuthDrawerStackNavigator = () => {
 					<StyledText
 						type={'SubHeading'}
 						color={theme.lightGrey}>
-						{!!selectedGame ? translateGameName(selectedGame) : ''}
+						{!!selectedGame ? translateGameName(selectedGame?.id) : ''}
 					</StyledText>
 					<NavigationDrawerBody />
 				</NavigationDrawerContainer>

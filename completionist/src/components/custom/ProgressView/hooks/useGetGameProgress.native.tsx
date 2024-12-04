@@ -1,20 +1,21 @@
 import useMainState from '@redux/hooks/useMainState';
-import { ContentSectionEnum } from '@utils/CustomEnums';
+import { ContentSectionEnum, GameKeyEnum } from '@utils/CustomEnums';
+import { getCurrentGame } from '@data/hooks/index';
 
 const useGetGameProgress = () => {
 	const { user } = useMainState();
 
-	const getGameProgress = (id: string, section: string): number => {
-		const data = user.gameData[id];
+	const getGameProgress = (id: GameKeyEnum, section: string): number => {
+		const currentGame = getCurrentGame(id, user);
 		switch (section) {
 			case ContentSectionEnum.QUESTS:
-				return data.quests.filter(item => item.isComplete).length
+				return currentGame?.quests.filter(item => item.isComplete).length ?? 0;
 			case ContentSectionEnum.COLLECTABLES:
-				return data.collectables.filter(item => item.isComplete).length
+				return currentGame?.collectables.filter(item => item.isComplete).length ?? 0;
 			case ContentSectionEnum.LOCATIONS:
-				return data.locations.filter(item => item.isComplete).length
+				return currentGame?.locations.filter(item => item.isComplete).length ?? 0;
 			case ContentSectionEnum.MISCELLANEOUS:
-				return data.miscellaneous.filter(item => item.isComplete).length
+				return currentGame?.miscellaneous.filter(item => item.isComplete).length ?? 0;
 			default: return 0;
 		}
 	};

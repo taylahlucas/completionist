@@ -1,4 +1,4 @@
-import useTranslateGameContent from '@utils/hooks/useTranslateGameContent.native';
+import {useTranslateGameContent} from '@data/hooks/index';
 
 const usePurchaseGame = () => {
 	const { translateGameName } = useTranslateGameContent();

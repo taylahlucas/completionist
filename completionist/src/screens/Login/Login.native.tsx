@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 import StandardLayout from '../../components/general/Layouts/StandardLayout.native';
 import NavigationHeader from '@navigation/NavigationHeader.native';
 import { LoginContentContainer } from '@components/custom/LoginForm/LoginFormStyledComponents.native';
-import Condition from '@components/general/Condition.native';
+import {Condition} from '@components/general/index';
 import StyledText from '@components/general/Text/StyledText.native';
 import LoginForm from '@components/custom/LoginForm/LoginForm.native';
 import LoginFormSignInButtons from '@components/custom/LoginForm/LoginFormSignInButtons.native';

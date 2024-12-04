@@ -1,7 +1,7 @@
 import { Alert } from 'react-native';
 import { useTranslation } from 'react-i18next';
 import { requestCodes } from '@utils/constants';
-import useRemoveUserData from '@data/hooks/useRemoveUserData.native';
+import {useRemoveUserData} from '@data/hooks/index';
 
 const useHandleAxiosError = () => {
 	const { t } = useTranslation();

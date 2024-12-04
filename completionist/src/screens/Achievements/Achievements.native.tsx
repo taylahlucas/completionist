@@ -3,17 +3,17 @@ import { useTranslation } from 'react-i18next';
 import StandardLayout from '@components/general/Layouts/StandardLayout.native';
 import NavigationHeader from '@navigation/NavigationHeader.native';
 import { DrawerScreenEnum, AuthScreenEnum, GameKeyEnum } from '@utils/CustomEnums';
-import Dropdown from '@components/general/Dropdown/Dropdown.native';
+import {Dropdown} from '@components/general/Dropdown/index';
 import AchievementView from '@components/custom/AchievementView/AchievementView.native';
-import ScrollableList from '@components/general/Lists/ScrollableList.native';
+import {ScrollableList} from '@components/general/Lists/index';
 import AchievementDropdownTitle from '@components/custom/AchievementView/AchievementDropdownTitle.native';
 import ProgressView from '@components/custom/ProgressView/ProgressView.native';
 import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
 import Button from '@components/general/Button/Button.native';
-import Condition from '@components/general/Condition.native';
+import {Condition} from '@components/general/index';
 import { View } from 'react-native';
 import StyledText from '@components/general/Text/StyledText.native';
-import useAchievements from './useAchievements';
+import useAchievements from './hooks/useAchievements';
 
 const Achievements = () => {
 	const { t } = useTranslation();
@@ -25,7 +25,8 @@ const Achievements = () => {
 			<NavigationHeader
 				id={viewModel.achievements.isGlobalAchievements ? AuthScreenEnum.GlobalAchievements : DrawerScreenEnum.Achievements}
 				title={'Achievements'}
-				leftAction={viewModel.achievements.isGlobalAchievements ? 'back' : 'menu'}
+				leftAction={viewModel.achievements.isGlobalAchievements ? 'none' : 'menu'}
+				rightAction={viewModel.achievements.isGlobalAchievements ? 'back' : 'none'}
 			/>
 			<ScrollableList style={{ maxHeight: 600 }}>
 				{/* Badges */}
@@ -69,7 +70,7 @@ const Achievements = () => {
 						{viewModel.achievements.activeGames.map(game => (
 							<AchievementView
 								key={game.id}
-								gameId={viewModel.user.gameData[game.id].appId}
+								gameId={game.id}
 								items={viewModel.achievements.achievementsState.items}
 								itemsLength={viewModel.achievements.achievementsState.noOfLocked}
 								title={t(`common:categories.${game.id}.title`)}
@@ -98,6 +99,7 @@ const Achievements = () => {
 						/>
 					}
 				>
+					{/* // TODO: Fix here */}
 					{actions.getGameProgress(viewModel.achievements.activeGames.map(game => game.id as GameKeyEnum)).map((game) => (
 						<ProgressView
 							key={game.id}

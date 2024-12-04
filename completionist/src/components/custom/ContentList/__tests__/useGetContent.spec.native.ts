@@ -1,4 +1,4 @@
-import { renderHook } from '@utils/TestLibraryUtils.native';
+import { renderHook } from '@utils/testing/TestLibraryUtils.native';
 import { initialState as mainState } from '@redux/MainState';
 import useGetContent from '../hooks/useGetContent';
 import { ContentSectionEnum, GameKeyEnum } from '@utils/CustomEnums';

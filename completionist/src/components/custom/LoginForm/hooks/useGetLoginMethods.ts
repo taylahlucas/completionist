@@ -1,18 +1,17 @@
+import { Alert } from 'react-native';
 import { useTranslation } from 'react-i18next';
 import uuid from 'react-native-uuid';
 import { GoogleSignin } from '@react-native-google-signin/google-signin';
 import auth from '@react-native-firebase/auth';
 import useAuthEndpoints from '@data/api/hooks/useAuthEndpoints.native';
 import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
-import { Alert } from 'react-native';
-import useEditUserData from '@data/hooks/useEditUserData.native';
+import {useEditUserData, useRemoveUserData} from '@data/hooks/index';
 import useMainState from '@redux/hooks/useMainState';
 import { SignInProps } from '@data/api/EndpointInterfaces.native';
 import useSendVerificationEmail from '@components/custom/LoginForm/hooks/useSendVerificationEmail';
-import useLoginDispatch from './useLoginDispatch';
+import useLoginDispatch from '../provider/useLoginDispatch';
 import useEndpoints from '@data/api/hooks/useEndpoints.native';
-import useRemoveUserData from '@data/hooks/useRemoveUserData.native';
-import useLogger from '@utils/hooks/useLogger';
+import { useLogger } from '@utils/hooks/index';
 
 interface GoogleError {
 	code: number;
@@ -167,8 +166,10 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 			log({
 				type: 'error',
 				title: 'Google Sign In',
-				code: error.code,
-				message: error.message,
+				data: {
+					code: error.code,
+					message: error.message,	
+				}
 			});
 		}
 	}
@@ -188,8 +189,10 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 			log({
 				type: 'error',
 				title: 'Google Sign Out',
-				code: error.code,
-				message: error.message,
+				data: {
+					code: error.code,
+					message: error.message,	
+				}
 			});
 		}
 	};

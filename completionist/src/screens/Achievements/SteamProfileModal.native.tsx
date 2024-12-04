@@ -13,15 +13,14 @@ import useGetTheme from '@styles/hooks/useGetTheme';
 import Overlay from '@components/general/Layouts/Overlay.native';
 import Button from '@components/general/Button/Button.native';
 import StyledText from '@components/general/Text/StyledText.native';
-import Spacing from '@components/general/Spacing.native';
 import { SteamProfile } from '@utils/CustomInterfaces';
 import { DEFAULT_BORDER_RADIUS } from '@styles/global.native';
 import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
 import IconButton from '@components/general/Icon/IconButton.native';
 import { IconTypeEnum } from '@utils/CustomEnums';
-import Condition from '@components/general/Condition.native';
+import {Condition, Spacing} from '@components/general/index';
 import { isSmallScreen } from '@styles/global.native';
-import useAchievements from './useAchievements';
+import useAchievements from './hooks/useAchievements';
 
 const { height } = Dimensions.get('window');
 

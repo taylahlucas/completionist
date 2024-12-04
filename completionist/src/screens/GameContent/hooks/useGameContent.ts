@@ -1,43 +1,53 @@
-import useGetGameData from '@data/hooks/useGetGameData';
-import useGetUserGameData from '@data/hooks/useGetUserGameData';
+import {useGetGameData, useGetUserGameData} from "@data/hooks/index";
 import useMainState from '@redux/hooks/useMainState';
-import useContentState from '@components/custom/ContentList/hooks/useContentState';
-import useContentDispatch from '@components/custom/ContentList/hooks/useContentDispatch';
-import { ContentSectionEnum } from '@utils/CustomEnums';
+import useContentState from '@components/custom/ContentList/provider/useContentState';
+import useContentDispatch from '@components/custom/ContentList/provider/useContentDispatch';
+import {ContentSectionEnum} from '@utils/CustomEnums';
 
 const useGameContent = () => {
-	const { selectedGame } = useMainState();
-  const { setSearchValue } = useContentDispatch();
-  const { searchValue } = useContentState();
-  const { getUserQuests, getUserCollectables, getUserLocations, getUserMiscItems } = useGetUserGameData();
-  const { mapDataTo } = useGetGameData();
+  const {selectedGame} = useMainState();
+  const {setSearchValue} = useContentDispatch();
+  const {searchValue} = useContentState();
+  const {userQuests, userCollectables, userLocations, userMiscItems} =
+    useGetUserGameData();
+  const {mapDataTo} = useGetGameData();
 
-	return {
-		viewModel: {
-			selectedGame,
-			searchValue,
-			quests: {
-				completed: getUserQuests().length,
-				total: mapDataTo(ContentSectionEnum.QUESTS, selectedGame, true).length
-			},
-			collectables: {
-				completed: getUserCollectables().length,
-				total: mapDataTo(ContentSectionEnum.COLLECTABLES, selectedGame, true).length
-			},
-			locations: {
-				completed: getUserLocations().length,
-				total: mapDataTo(ContentSectionEnum.LOCATIONS, selectedGame, true).length
-			},
-			misc: {
-				completed: getUserMiscItems().length,
-				total: mapDataTo(ContentSectionEnum.MISCELLANEOUS, selectedGame, true).length
-			}
-		},
-		actions: {
-			setSearchValue,
-			mapDataTo,
-		}
-	};
+  return {
+    viewModel: {
+      selectedGame,
+      searchValue,
+      quests: {
+        completed: userQuests.length,
+        total: mapDataTo(ContentSectionEnum.QUESTS, selectedGame?.id, true)
+          .length,
+      },
+      collectables: {
+        completed: userCollectables.length,
+        total: mapDataTo(
+          ContentSectionEnum.COLLECTABLES,
+          selectedGame?.id,
+          true,
+        ).length,
+      },
+      locations: {
+        completed: userLocations.length,
+        total: mapDataTo(ContentSectionEnum.LOCATIONS, selectedGame?.id, true)
+          .length,
+      },
+      misc: {
+        completed: userMiscItems.length,
+        total: mapDataTo(
+          ContentSectionEnum.MISCELLANEOUS,
+          selectedGame?.id,
+          true,
+        ).length,
+      },
+    },
+    actions: {
+      setSearchValue,
+      mapDataTo,
+    },
+  };
 };
 
 export default useGameContent;

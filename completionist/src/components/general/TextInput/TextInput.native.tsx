@@ -8,7 +8,7 @@ import {
 import useGetTheme from '@styles/hooks/useGetTheme';
 import { TextInputIcon } from './TextInputStyledComponents.native';
 import { TextInputContainer } from './TextInputStyledComponents.native';
-import Condition from '../Condition.native';
+import {Condition} from '@components/general/index';
 import defaultStyle from '@styles/Font/FontStyle';
 import { TextInputStyleType } from '@utils/CustomTypes';
 import useGetTextContainerStyle from './hooks/useGetTextContainerStyle.native';

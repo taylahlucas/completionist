@@ -2,15 +2,14 @@ import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import SelectableItem from '@components/general/SelectableItem/SelectableItem.native';
 import StyledText from '@components/general/Text/StyledText.native';
-import useSubscriptionState from '../SubscriptionContent/hooks/useContentState';
+import useSubscriptionState from '../SubscriptionContent/provider/useSubscriptionState';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import SubscriptionOptionDescription from '../SubscriptionContent/SubscriptionOptionDescription.native';
 import PriceItem from '@components/general/PriceItem/PriceItem.native';
 import { PaymentPriceItem, PaymentPricesContainer, PaymentPlanSubtitle } from './PaymentsContentStyledComponents.native';
 import Button from '@components/general/Button/Button.native';
-import ScrollableList from '@components/general/Lists/ScrollableList.native';
-import useMainState from '@redux/hooks/useMainState';
-import Spacing from '@components/general/Spacing.native';
+import {ScrollableList} from '@components/general/Lists/index';
+import {Spacing} from '@components/general/index';
 
 const PaymentsContent = () => {
 	const { t } = useTranslation();

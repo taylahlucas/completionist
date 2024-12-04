@@ -1,15 +1,14 @@
 import React, { useEffect } from 'react';
-import ScrollableList from '@components/general/Lists/ScrollableList.native';
-import Condition from '@components/general/Condition.native';
-import useContentState from './hooks/useContentState';
+import {ScrollableList} from '@components/general/Lists/index';
+import {Condition, Loading} from '@components/general/index';
+import useContentState from './provider/useContentState';
 import useGetContentCategories from './hooks/useGetContentCategories';
 import useGetContent from './hooks/useGetContent';
 import SearchResults from './SearchResults.native';
 import ContentMainDropdown from './ContentMainDropdown.native';
 import useCheckContentComplete from './hooks/useCheckContentComplete';
-import { SettingsListItem } from '@utils/CustomInterfaces';
-import Loading from '@components/general/Loading.native';
-import useContentDispatch from './hooks/useContentDispatch';
+import { ContentItem } from '@utils/CustomInterfaces';
+import useContentDispatch from './provider/useContentDispatch';
 import WikiWebView from '@components/general/WikiWebView/WikiWebView.native';
 
 const ContentList = () => {
@@ -24,7 +23,7 @@ const ContentList = () => {
 		setSearchValue('');
 		setWebViewHref(undefined);
 	}, []);
-
+	
 	if (webViewHref) {
 		return <WikiWebView currentHref={webViewHref} setClose={() => setWebViewHref(undefined)} />
 	}
@@ -37,7 +36,7 @@ const ContentList = () => {
 			conditionalElement={<SearchResults />}
 		>
 			<ScrollableList>
-				{categories.map((category: SettingsListItem, index: number) => {
+				{categories.map((category: ContentItem, index: number) => {
 					const allContentForCategory = getContentForCategory(category.title)
 					const completedContent = checkContentCompleteForCategory(allContentForCategory)
 

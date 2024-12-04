@@ -16,6 +16,16 @@ const useGetRightNavigationItem = (rightAction: NavigationHeaderRightActionTypes
 	const { signOut } = useGetLoginMethods();
 
   switch (rightAction) {
+    case 'back':
+      return (
+        <IconButton
+				style={{ ...styles.iconButton, top: 2 }}
+          name='arrow-forward'
+          type={IconTypeEnum.Ionicons}
+          color={theme.lightGrey}
+          onPress={(): void => navigation.goBack()}
+        />
+      );
     case 'settings':
       return (
         <IconButton

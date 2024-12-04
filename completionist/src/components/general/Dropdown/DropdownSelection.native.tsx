@@ -9,7 +9,7 @@ interface DropdownSelectionProps {
 	onPress: () => void;
 }
 
-const DropdownSelection = ({ title, isSelected = false, onPress }: DropdownSelectionProps) => {
+export const DropdownSelection = ({ title, isSelected = false, onPress }: DropdownSelectionProps) => {
 	const theme = useGetTheme();
 
 	return (
@@ -34,5 +34,3 @@ const DropdownSelection = ({ title, isSelected = false, onPress }: DropdownSelec
 		</DropdownSelectionContainer>
 	);
 };
-
-export default DropdownSelection;

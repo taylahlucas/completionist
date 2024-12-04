@@ -1,20 +1,21 @@
 import React from 'react';
 import { GameListItemContainer, GameListImage, GameItemTitle, GameItemTitleContainer, GameItemScore } from './GameListItemStyledComponents.native';
-import { ActiveGameData } from '@utils/CustomInterfaces';
+import { GameData } from '@utils/CustomInterfaces';
 import { useGameListItem } from './hooks/useGameListItem.native';
-import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
-import Condition from '@components/general/Condition.native';
+import {Condition} from '@components/general/index';
+import { FlowType } from '@utils/CustomTypes';
 
 interface GameListItemProps {
-	game: ActiveGameData;
+	flow?: FlowType;
+	game: GameData;
 	enabledColor?: string;
 	enabled: boolean;
 	onPress: () => void;
 }
 
-const GameListItem = ({ game, enabledColor = 'grey', enabled, onPress }: GameListItemProps) => {
+const GameListItem = ({ flow = 'home', game, enabledColor = 'grey', enabled, onPress }: GameListItemProps) => {
 	const { viewModel, actions } = useGameListItem();
-	
+
 	return (
 		<GameListItemContainer
 			testID={game.id}
@@ -23,9 +24,9 @@ const GameListItem = ({ game, enabledColor = 'grey', enabled, onPress }: GameLis
 		>
 			<GameListImage 
 				source={actions.getGameImage(game.id)} 
-				style={{ opacity: enabled ? 0.6 : 0.2 }} 
+				style={{ opacity: enabled ? 0.5 : 0.2 }} 
 			/>
-			<Condition condition={viewModel.currentScreen !== UnauthorizedScreenEnum.SelectFirstGame && !enabled}>
+			<Condition condition={flow === 'home' && !enabled}>
 				<GameItemScore 
 					type='ListItemTitleBold' 
 					color={viewModel.theme.lightestGrey}

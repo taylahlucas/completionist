@@ -1,7 +1,7 @@
 import React from 'react';
-import { render, fireEvent } from '@utils/TestLibraryUtils.native';
+import { render, fireEvent } from '@utils/testing/TestLibraryUtils.native';
 import LoginForm from '../LoginForm.native';
-import { initialState as loginState } from '../LoginState';
+import { initialState as loginState } from '../provider/LoginState';
 
 describe('LoginForm', () => {
 	afterEach(() => {

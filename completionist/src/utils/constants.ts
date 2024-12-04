@@ -22,3 +22,20 @@ export const requestCodes = {
   NO_USER_FOUND: 605,
   WRONG_PASSWORD: 610
 }
+
+export const urls = [
+	'signup',
+	'exists',
+	'link',
+	'signin',
+	'reset',
+	'verify',
+	'id',
+	'update',
+	'pw',
+	'send',
+	'delete',
+	'steam/profile',
+	'steam/achievements',
+	'ISteamUserStats'
+]

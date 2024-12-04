@@ -1,14 +1,12 @@
 import React from 'react';
-import Dropdown from '@components/general/Dropdown/Dropdown.native';
+import { Dropdown } from '@components/general/Dropdown/index';
 import useGetContents from './hooks/useGetContent';
-import ListItem from '@components/general/Lists/ListItem.native';
+import {ListItem, SubTypeListHeader, ScrollableList} from '@components/general/Lists/index';
 import useCheckContentComplete from './hooks/useCheckContentComplete';
-import { listStyles } from '@components/general/Lists/ListStyledComponents.native';
-import useContentDispatch from './hooks/useContentDispatch';
-import useContentState from './hooks/useContentState';
-import SubTypeListHeader from '@components/general/Lists/SubTypeListHeader.native';
+import { listStyles } from '@components/general/Lists/index';
+import useContentDispatch from './provider/useContentDispatch';
+import useContentState from './provider/useContentState';
 import useUpdateContent from './hooks/useUpdateContent';
-import ScrollableList from '@components/general/Lists/ScrollableList.native';
 
 export interface ContentSubTypeDropdownProps {
   subCategory: string;

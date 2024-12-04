@@ -4,11 +4,11 @@ import StandardLayout from '@components/general/Layouts/StandardLayout.native';
 import NavigationHeader from '@navigation/NavigationHeader.native';
 import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
 import VerificationContent from '@components/custom/Verification/VerificationContent.native';
-import useAccountDetails from './hooks/useAccountDetails';
+import useVerifyNewPassword from './hooks/useVerifyNewPassword';
 
 const VerifyNewPassword = () => {
 	const { t } = useTranslation();
-	const { viewModel, actions } = useAccountDetails();
+	const { viewModel, actions } = useVerifyNewPassword();
 
 	return (
 		<StandardLayout>

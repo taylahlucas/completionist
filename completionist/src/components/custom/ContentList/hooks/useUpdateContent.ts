@@ -1,28 +1,39 @@
 import useMainDispatch from '@redux/hooks/useMainDispatch';
 import useMainState from '@redux/hooks/useMainState';
-import { Item } from '@utils/CustomInterfaces';
-import useContentState from './useContentState';
-import { ContentSectionEnum } from '@utils/CustomEnums';
+import {Item} from '@utils/CustomInterfaces';
+import useContentState from '../provider/useContentState';
+import {ContentSectionEnum} from '@utils/CustomEnums';
 
 const useUpdateContent = () => {
-  const { 
-		setCompletedQuests, 
-		setCompletedCollectables, 
-		setCompletedLocations, 
-		setCompletedMiscItems 
-	} = useMainDispatch();
-  const { selectedGameData } = useMainState();
-  const { sectionType } = useContentState();
+  const {
+    setCompletedQuests,
+    setCompletedCollectables,
+    setCompletedLocations,
+    setCompletedMiscItems,
+  } = useMainDispatch();
+  const {selectedGame} = useMainState();
+  const {sectionType} = useContentState();
 
-  const updateContentAction = (itemId: string, completedContent: Item[], itemToUpdate?: Item) => {
+  const updateContentAction = (
+    itemId: string,
+    completedContent: Item[],
+    itemToUpdate?: Item,
+  ) => {
     if (!!itemToUpdate) {
-      const updatedObject = { id: itemToUpdate?.id, isComplete: !itemToUpdate?.isComplete }
-      const updateCompletedContent: Item[] = completedContent.map(item => item.id === itemToUpdate.id ? { ...item, ...updatedObject } : item)
+      const updatedObject = {
+        id: itemToUpdate?.id,
+        isComplete: !itemToUpdate?.isComplete,
+      };
+      const updateCompletedContent: Item[] = completedContent.map(item =>
+        item.id === itemToUpdate.id ? {...item, ...updatedObject} : item,
+      );
 
       return updateCompletedContent;
-    }
-    else {
-      const updateCompletedContent: Item[] = [...completedContent, { id: itemId, isComplete: true }];
+    } else {
+      const updateCompletedContent: Item[] = [
+        ...completedContent,
+        {id: itemId, isComplete: true},
+      ];
       return updateCompletedContent;
     }
   };
@@ -31,20 +42,28 @@ const useUpdateContent = () => {
     let completedContent: Item[] = [];
     switch (sectionType) {
       case ContentSectionEnum.QUESTS:
-        completedContent = selectedGameData?.quests.filter(item => item.isComplete) ?? [];
+        completedContent =
+          selectedGame?.quests.filter(item => item.isComplete) ?? [];
         break;
       case ContentSectionEnum.COLLECTABLES:
-        completedContent = selectedGameData?.collectables.filter(item => item.isComplete) ?? [];
+        completedContent =
+          selectedGame?.collectables.filter(item => item.isComplete) ?? [];
         break;
       case ContentSectionEnum.LOCATIONS:
-        completedContent = selectedGameData?.locations.filter(item => item.isComplete) ?? [];
+        completedContent =
+          selectedGame?.locations.filter(item => item.isComplete) ?? [];
         break;
       case ContentSectionEnum.MISCELLANEOUS:
-        completedContent = selectedGameData?.miscellaneous.filter(item => item.isComplete) ?? [];
+        completedContent =
+          selectedGame?.miscellaneous.filter(item => item.isComplete) ?? [];
         break;
     }
     const itemToUpdate = completedContent.find(item => item.id === itemId);
-    const updatedContent = updateContentAction(itemId, completedContent, itemToUpdate);
+    const updatedContent = updateContentAction(
+      itemId,
+      completedContent,
+      itemToUpdate,
+    );
 
     switch (sectionType) {
       case ContentSectionEnum.QUESTS:
@@ -62,7 +81,7 @@ const useUpdateContent = () => {
     }
   };
 
-  return { updateContentComplete };
+  return {updateContentComplete};
 };
 
 export default useUpdateContent;

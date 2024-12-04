@@ -1,12 +1,13 @@
 import { createSlice } from '@reduxjs/toolkit';
 import { UnauthorizedScreenEnum, GameKeyEnum } from '@utils/CustomEnums';
 import { ScreenEnumType } from '@utils/CustomTypes';
-import { GeneralData, User } from '@utils/CustomInterfaces';
+import { GameData, User } from '@utils/CustomInterfaces';
 import { AppStateStatus } from 'react-native';
-import { initialFormData } from '@components/custom/LoginForm/LoginState';
+import { initialFormData } from '@components/custom/LoginForm/provider/LoginState';
 
-export const initialGameData: GeneralData = {
-	appId: '',
+export const initialGameData: GameData = {
+	id: GameKeyEnum.SKYRIM,
+	appId: 0,
 	quests: [],
 	collectables: [],
 	locations: [],
@@ -19,7 +20,6 @@ export const initialGameData: GeneralData = {
 
 export const initialUser: User = {
 	...initialFormData,
-	activeGames: [],
 	signup: {
 		verification: false,
 		setUsername: false,
@@ -29,20 +29,14 @@ export const initialUser: User = {
 		lang: 'en',
 		configs: []
 	},
-	gameData: {
-		fallout3: initialGameData,
-		fallout4: initialGameData,
-		skyrim: initialGameData,
-		witcher3: initialGameData
-	}
+	gameData: []
 }
 
 export interface MainState {
 	readonly showSplashScreen: boolean;
 	readonly appState?: AppStateStatus,
 	readonly currentScreen?: ScreenEnumType;
-	readonly selectedGame?: GameKeyEnum;
-	readonly selectedGameData?: GeneralData;
+	readonly selectedGame?: GameData;
 	readonly selectedGameSettings: GameKeyEnum;
 	readonly webSignInConfigured: boolean;
 	readonly user: User;
@@ -60,11 +54,11 @@ export const initialState: MainState = {
 	searchValue: ''
 }
 
-const getUserDataState = (state: MainState): GeneralData => {
-	if (state.selectedGame) {
-		return state.user.gameData[state.selectedGame];
+const getUserDataState = (state: MainState): GameData => {
+	if (state.selectedGame && state.user.gameData) {
+			return state.user.gameData.find((game) => game.id === state.selectedGame?.id) ?? initialGameData;
 	}
-	return initialUser.gameData['skyrim'];
+	return initialGameData;
 };
 
 const slice = createSlice({
@@ -82,7 +76,6 @@ const slice = createSlice({
 		},
 		setSelectedGame: (state, action) => {
 			state.selectedGame = action.payload;
-			state.selectedGameData = getUserDataState(state);
 		},
 		setWebSignInConfigured: (state, action) => {
 			state.webSignInConfigured = action.payload;
@@ -92,7 +85,6 @@ const slice = createSlice({
 		},
 		setUser: (state, action) => {
 			state.user = action.payload;
-			state.selectedGameData = getUserDataState(state);
 		},
 		setShouldUpdateUser: (state, action) => {
 			state.shouldUpdateUser = action.payload;
@@ -102,34 +94,34 @@ const slice = createSlice({
 		},
 		setCompletedQuests: (state, action) => {
 			state.shouldUpdateUser = true;
-			if (state.selectedGameData) {
+			if (state.selectedGame) {
 				const userData = getUserDataState(state);
 				userData.quests = action.payload;
-				state.selectedGameData.quests = action.payload;
+				state.selectedGame.quests = action.payload;
 			}
 		},
 		setCompletedCollectables: (state, action) => {
 			state.shouldUpdateUser = true;
-			if (state.selectedGameData) {
+			if (state.selectedGame) {
 				const userData = getUserDataState(state);
 				userData.collectables = action.payload;
-				state.selectedGameData.collectables = action.payload;
+				state.selectedGame.collectables = action.payload;
 			}
 		},
 		setCompletedLocations: (state, action) => {
 			state.shouldUpdateUser = true;
-			if (state.selectedGameData) {
+			if (state.selectedGame) {
 				const userData = getUserDataState(state);
 				userData.locations = action.payload;
-				state.selectedGameData.locations = action.payload;
+				state.selectedGame.locations = action.payload;
 			}
 		},
 		setCompletedMiscItems: (state, action) => {
 			state.shouldUpdateUser = true;
-			if (state.selectedGameData) {
+			if (state.selectedGame) {
 				const userData = getUserDataState(state);
 				userData.miscellaneous = action.payload;
-				state.selectedGameData.miscellaneous = action.payload;
+				state.selectedGame.miscellaneous = action.payload;
 			}
 		},
 		reset: (state) => {
