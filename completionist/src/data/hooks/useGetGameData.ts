@@ -9,6 +9,7 @@ interface GameDataReturnType {
 
 export const useGetGameData = (): GameDataReturnType => {
 	const {
+		eldenRing,
 		fallout3,
 		fallout4,
 		skyrim,
@@ -28,6 +29,8 @@ export const useGetGameData = (): GameDataReturnType => {
 
 	const getGameData = (selectedGame: GameKeyEnum) => {
 		switch (selectedGame) {
+			case GameKeyEnum.ELDEN_RING:
+				return eldenRing;
 			case GameKeyEnum.FALLOUT_3:
 				return fallout3;
 			case GameKeyEnum.FALLOUT_4:

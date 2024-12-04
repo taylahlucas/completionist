@@ -49,7 +49,6 @@
 		"accountVerification": "Check your emails and enter the verification code. \nPlease check your spam folder.",
 		"resendToken": "RESEND VERIFICATION TOKEN",
 		"tokenResent": "Verification Token Resent."
-		
 	},
 	"selectGame": {
 		"selectGameDesc1": "The first game you select will be free.",
@@ -162,6 +161,29 @@
 		"zh": "Chinese"
 	},
 	"categories": {
+		"eldenRing": {
+			"title": "Elden Ring",
+			"categories": {
+				"quests": {
+					"mainQuests": "Main Quests"
+				},
+				"collectables": {
+					"legendaryWeapons": "Legendary Weapons",
+					"legendarySpiritAshes": "Legendary Spirit Ashes",
+					"armourSets": "Armour Sets"
+				},
+				"locations": {
+					"main": "Main"
+				},
+				"miscellaneous": {
+					"legendarySpells": "Legendary Spells",
+					"achievementBosses": "Achievement Bosses"
+				}
+			},
+			"dlc": {
+				"shadowOfTheErdtree": "Shadow Of The Erdtree"
+			}
+		},
 		"fallout3": {
 			"title": "Fallout 3",
 			"categories": {

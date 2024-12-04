@@ -16,6 +16,7 @@ import useMainState from '@redux/hooks/useMainState';
 import { GameContentItem } from '@utils/CustomInterfaces';
 
 interface TranslatedGameDataReturnType {
+	eldenRing: GameContentItem[];
 	fallout3: GameContentItem[];
 	fallout4: GameContentItem[];
 	skyrim: GameContentItem[];
@@ -70,6 +71,7 @@ export const useGetTranslatedGameData = (): TranslatedGameDataReturnType => {
 	}
 
 	return {
+		eldenRing: languageDb.eldenRing as GameContentItem[],
 		fallout3: languageDb.fallout3 as GameContentItem[],
 		fallout4: languageDb.fallout4 as GameContentItem[],
 		skyrim: languageDb.skyrim as GameContentItem[],

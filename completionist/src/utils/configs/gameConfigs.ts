@@ -16,8 +16,8 @@ const eldenRingSettingsConfig = {
 			],
 			dlc: [
 				{
-					"id": "shadowOfTheErdtree",
-					"isActive": true
+					id: "shadowOfTheErdtree",
+					isActive: true
 				},
 			]
 		},

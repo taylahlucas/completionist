@@ -2833,6 +2833,29 @@
         "zh": "Chinese"
       },
       "categories": {
+        "eldenRing": {
+          "title": "Elden Ring",
+          "categories": {
+            "quests": {
+              "mainQuests": "Main Quests"
+            },
+            "collectables": {
+              "legendaryWeapons": "Legendary Weapons",
+              "legendarySpiritAshes": "Legendary Spirit Ashes",
+              "armourSets": "Armour Sets"
+            },
+            "locations": {
+              "main": "Main"
+            },
+            "miscellaneous": {
+              "legendarySpells": "Legendary Spells",
+              "achievementBosses": "Achievement Bosses"
+            }
+          },
+          "dlc": {
+            "shadowOfTheErdtree": "Shadow Of The Erdtree"
+          }
+        },
         "fallout3": {
           "title": "Fallout 3",
           "categories": {
