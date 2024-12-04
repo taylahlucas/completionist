@@ -1,14 +1,14 @@
 import React from 'react';
 import { KeyboardAvoidingView } from 'react-native';
-import KeyboardAwareContainer from '@components/general/KeyboardAwareContainer.native';
-import ScrollableList from '@components/general/Lists/ScrollableList.native';
+import {KeyboardAwareContainer} from '@components/general/index';
+import { ScrollableList } from '@components/general/Lists/index';
 
 interface KeyboardAvoidingScrollViewProps {
 	children: JSX.Element[];
 	awareView: any;
 }
 
-const KeyboardAvoidingScrollView = ({ children, awareView }: KeyboardAvoidingScrollViewProps) => {
+export const KeyboardAvoidingScrollView = ({ children, awareView }: KeyboardAvoidingScrollViewProps) => {
 	return (
 		<KeyboardAvoidingView 
 			behavior='padding'
@@ -23,5 +23,3 @@ const KeyboardAvoidingScrollView = ({ children, awareView }: KeyboardAvoidingScr
 		</KeyboardAvoidingView>
 	);
 };
-
-export default KeyboardAvoidingScrollView;

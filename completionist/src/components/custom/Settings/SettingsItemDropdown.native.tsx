@@ -1,9 +1,8 @@
 import React, { useEffect } from 'react';
 import { ViewStyle } from 'react-native';
 import { useTranslation } from 'react-i18next';
-import Dropdown from '@components/general/Dropdown/Dropdown.native';
-import { SettingsListItem } from '@utils/CustomInterfaces';
-import useGetUserGameData from '@data/hooks/useGetUserGameData';
+import {Dropdown} from '@components/general/Dropdown/index';
+import { IsActive } from '@utils/CustomInterfaces';
 import {
 	styles,
 	SettingsSubItemContainer, 
@@ -13,16 +12,15 @@ import {
 	SettingsMainItemTitle 
 } from './SettingsStyledComponents.native';
 import useGetTheme from '@styles/hooks/useGetTheme';
-import useSettingsState from './hooks/useSettingsState';
-import useSettingsDispatch from './hooks/useSettingsDispatch';
-import useTranslateGameContent from '@utils/hooks/useTranslateGameContent.native';
+import useSettingsState from './provider/useSettingsState';
+import useSettingsDispatch from './provider/useSettingsDispatch';
 import useMainState from '@redux/hooks/useMainState';
 import CheckBox from '@components/general/Checkbox/CheckBox.native';
 import useUpdateGameSettings from './hooks/useUpdateGameSettings';
-import useEditUserData from '@data/hooks/useEditUserData.native';
+import {useEditUserData, useTranslateGameContent, useGetUserGameData} from '@data/hooks/index';
 
 interface SettingsItemDropdownProps {
-	item: SettingsListItem;
+	item: IsActive;
 	triggerListOpen: (value: boolean) => void;
 }
 
@@ -38,14 +36,16 @@ const SettingsItemDropdown = ({ item, triggerListOpen }: SettingsItemDropdownPro
 	const updateGameSettings = useUpdateGameSettings();
 	const isOpen = item.id === selectedCategory.category;
 
-	const renderSettingsCheckbox = (item: SettingsListItem, style?: ViewStyle) => {
+	const renderSettingsCheckbox = (item: IsActive, style?: ViewStyle) => {
 		return (
 			<CheckBox
 				style={style}
 				isActive={item.isActive}
 				onPress={(): void => {
 					const updatedUser = updateGameSettings(user, item, selectedGameSettings);
-					saveUser(updatedUser);
+					if (updatedUser) {
+						saveUser(updatedUser);
+					}
 				}}
 			/>
 		)

@@ -5,10 +5,8 @@ interface SpacingProps {
 	height?: number;
 };
 
-const Spacing = ({ height = 16 }: SpacingProps) => {
+export const Spacing = ({ height = 16 }: SpacingProps) => {
 	return (
 		<View style={{ height: height }} />
 	);
 };
-
-export default Spacing;

@@ -23,7 +23,7 @@
 		"createAccount": "Create Account",
 		"requestAccount": "Don't have an account?",
 		"backToLogin": "Back to Login",
-		"linkAccountDesc": "Enter this code to link your accounts"
+		"linkAccountDesc": "Enter this code to link your accounts {{code}}"
 	},
 	"screens": {
 		"quests": "Quests",
@@ -32,9 +32,11 @@
 		"miscellaneous": "Miscellaneous",
 		"gameSelection": "Game Selection",
 		"sendRequest": "Send Request",
+		"purchaseGame": "Purchase Game",
 		"subscriptions": "Subscriptions",
 		"selectGame": "Select a Game",
 		"addSteamId": "Add Steam ID",
+		"achievements": "Achievements",
 		"steamAchievements": "Steam Achievements",
 		"payments": "Payment",
 		"settings": "Settings",
@@ -46,15 +48,18 @@
 	"login": {
 		"instructions1": "Password must contain at least:",
 		"instructions2": "\n\u2022 8 characters \n\u2022 1 uppercase letter\n\u2022 1 lowercase letter\n\u2022 1 numerical value",
-		"accountVerification": "Check your emails and enter the verification code",
+		"accountVerification": "Check your emails and enter the verification code. \nPlease check your spam folder.",
 		"resendToken": "RESEND VERIFICATION TOKEN",
 		"tokenResent": "Verification Token Resent."
-		
 	},
 	"selectGame": {
-		"selectGameDesc1": "You will have access to one free game per month.",
+		"selectGameDesc1": "The first game you select will be free.",
 		"selectGameDesc2": "More games may be purchased with a one-off payment.",
-		"selectGameDesc3": "Select your free game below!"
+		"selectGameDesc3": "Select your free game below!",
+		"selection": "You have selected:\n{{gameTitle}}"
+	},
+	"purchaseGame": {
+		"title": "Purchase Game"
 	},
 	"subscriptions": {
 		"subscriptionDesc": "With a Premium subscription,\nyou will gain access to Premium Features such as:",
@@ -134,12 +139,23 @@
 		"steamAchievements": "Could not get steam achievements for this game.",
 		"differentEmail": "Please use a different email address.",
 		"linkedWithGoogle": "This email is already linked through Google. \nIf you would like to sign in with a regular password, login with this email and set your desired password.",
-		"linkedWithRegular": "This email is already linked. \nIf you would like to link your Google account, login through the Google Sign In using this email."
+		"linkedWithRegular": "This email is already linked. \nIf you would like to link your Google account, login through the Google Sign In using this email.",
+		"retryLogin": "You are unable to create a new account with this email. Please login.",
+		"noSteamId": "Steam ID not found."
 	},
 	"alerts": {
-		"ok": "Ok",
-		"activate": "Activate",
-		"cancel": "Cancel",
+		"cta": {
+			"ok": "Ok",
+			"activate": "Activate",
+			"cancel": "Cancel",
+			"deleteAccount": "Delete Account"
+		},
+		"unsavedChanges": "Unsaved Changes",
+		"unsavedChangesMessage": "Are you sure you want to go back?",
+		"deleteConfirmation": "Are you sure?",
+		"deleteConfirmationMessage": "If you delete this account, you will not be able to recover it.",
+		"deleteSuccess": "Account successfully deleted.",
+		"unlinkAccount": "Are you sure you want to unlink your account?",
 		"changesLeft": "You will have {{changesLeft}} change{{s}} left.",
 		"noChangesLeft": "No Changes Left",
 		"noChangesLeftMessage": "Sorry, you have no game changes left for this month.\n Please upgrade to a premium subscription, or wait until the 1st of next month.",
@@ -161,6 +177,29 @@
 		"zh": "Chinese"
 	},
 	"categories": {
+		"eldenRing": {
+			"title": "Elden Ring",
+			"categories": {
+				"quests": {
+					"mainQuests": "Main Quests"
+				},
+				"collectables": {
+					"legendaryWeapons": "Legendary Weapons",
+					"legendarySpiritAshes": "Legendary Spirit Ashes",
+					"armourSets": "Armour Sets"
+				},
+				"locations": {
+					"main": "Main"
+				},
+				"miscellaneous": {
+					"legendarySpells": "Legendary Spells",
+					"achievementBosses": "Achievement Bosses"
+				}
+			},
+			"dlc": {
+				"shadowOfTheErdtree": "Shadow Of The Erdtree"
+			}
+		},
 		"fallout3": {
 			"title": "Fallout 3",
 			"categories": {

@@ -1,12 +1,12 @@
+import { Alert } from 'react-native';
 import { useTranslation } from 'react-i18next';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
-import { User } from '@utils/CustomInterfaces';
+import useMainState from '@redux/hooks/useMainState';
+import { User } from '@utils/index';
 import useCache from '../api/hooks/useCache.native';
-import useKeychain from './useKeychain.native';
-import useLoginDispatch from '@components/custom/LoginForm/hooks/useLoginDispatch';
+import useLoginDispatch from '@components/custom/LoginForm/provider/useLoginDispatch';
 import useEndpoints from '../api/hooks/useEndpoints.native';
-import useRemoveUserData from '@data/hooks/useRemoveUserData.native';
-import { Alert } from 'react-native';
+import {useRemoveUserData, useKeychain} from "@data/hooks/index";
 
 interface EditUserDataReturnType {
 	loadUserFromCache: () => void;
@@ -15,9 +15,10 @@ interface EditUserDataReturnType {
 	deleteUserData: (userId: string) => void;
 }
 
-const useEditUserData = (): EditUserDataReturnType => {
+export const useEditUserData = (): EditUserDataReturnType => {
 	const { t } = useTranslation();
-	const { setUser, setShouldUpdateUser } = useMainDispatch();
+	const { setUser, setShouldUpdateUser, setSelectedGameSettings } = useMainDispatch();
+	const { selectedGame } = useMainState();
 	const { setLoggedIn } = useLoginDispatch();
 	const { fetchUserFromCache, saveToCache } = useCache();
 	const { getCredentials } = useKeychain();
@@ -36,6 +37,11 @@ const useEditUserData = (): EditUserDataReturnType => {
 								if (user) {
 									// checkUpdateChangesLeft(user);
 									saveUser(user);
+									saveToCache(user);
+									setLoggedIn(true);
+									if (!selectedGame) {
+										setSelectedGameSettings(user.gameData[0].id)
+									}
 								}
 							})
 					}
@@ -52,7 +58,6 @@ const useEditUserData = (): EditUserDataReturnType => {
 
 	const saveUser = (user: User) => {
 		setUser(user);
-		saveToCache(user);
 		setShouldUpdateUser(false);
 	};
 
@@ -60,23 +65,23 @@ const useEditUserData = (): EditUserDataReturnType => {
 		updateUser(user)
 			.then(() => saveUser(user));
 	}
-
+	
 	const deleteUserData = async (userId: string) => {
 		Alert.alert(
-			'Are you sure?',
-			'If you delete this account, you will not be able to recover it.',
+			t('common:alerts.deleteConfirmation'),
+			t('common:alerts.deleteConfirmationMessage'),
 			[
 				{
-					text: 'Delete Account',
+					text: t('common:alerts.cta.deleteAccount'),
 					style: 'destructive',
 					onPress: () => deleteUser(userId)
 						.then(() => {
-							Alert.alert('Account successfully deleted.');
+							Alert.alert(t('common:alerts.deleteSuccess'));
 							removeUserData();
 						})
 				},
 				{
-					text: t('common:alerts.cancel')
+					text: t('common:alerts.cta.cancel')
 				}
 			]
 		)
@@ -89,8 +94,6 @@ const useEditUserData = (): EditUserDataReturnType => {
 		deleteUserData
 	};
 };
-
-export default useEditUserData;
 
 // import { SubscriptionTypeEnum } from '@utils/CustomEnums';
 // const checkUpdateChangesLeft = (user: User) => {

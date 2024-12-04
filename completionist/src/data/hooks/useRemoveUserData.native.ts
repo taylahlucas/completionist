@@ -1,19 +1,28 @@
-import useLoginDispatch from '@components/custom/LoginForm/hooks/useLoginDispatch';
+import useLoginDispatch from '@components/custom/LoginForm/provider/useLoginDispatch';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
-import useKeychain from './useKeychain.native';
+import {useKeychain} from "@data/hooks/index";
 import { initialUser } from '@redux/MainState';
 import useCache from '../api/hooks/useCache.native';
-import { initialFormData } from '@components/custom/LoginForm/LoginState';
+import { initialFormData } from '@components/custom/LoginForm/provider/LoginState';
+import useContentDispatch from '@components/custom/ContentList/provider/useContentDispatch';
+import { useLogger } from '@utils/hooks/index';
 
-const useRemoveUserData = () => {
+export const useRemoveUserData = () => {
+	const { log } = useLogger();
 	const { setUser, setSelectedGame } = useMainDispatch();
 	const { setLoginFormData, triggerIsSigningUp, setLoggedIn, setVerificationToken, setIsAuthenticated } = useLoginDispatch();
+	const { setSelectedCategory } = useContentDispatch();
 	const { deleteCredentials } = useKeychain();
 	const { clearCache } = useCache();
 
 	const removeUserData = () => {
-		console.log("Removing user data");
+		log({
+			title: 'Removing User Data'
+		});
 		setVerificationToken('');
+		setSelectedCategory({
+			category: ''
+		});
 		setIsAuthenticated(false);
 		setLoggedIn(false);
 		setLoginFormData(initialFormData);
@@ -26,5 +35,3 @@ const useRemoveUserData = () => {
 
 	return { removeUserData };
 };
-
-export default useRemoveUserData;

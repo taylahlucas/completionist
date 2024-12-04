@@ -1,6 +1,6 @@
-import useTranslateGameContent from '@utils/hooks/useTranslateGameContent.native';
 import { GameKeyEnum } from '@utils/CustomEnums';
 import useGetGameData from '@data/hooks/useGetGameData';
+import {useTranslateGameContent} from '@data/hooks/index';
 
 const usePurchaseGame = (gameId: GameKeyEnum) => {
 	const { translateGameName } = useTranslateGameContent();

@@ -22,6 +22,7 @@ export type MaterialCommunityIcons =
 
 export type IoniconType =
   | 'arrow-back'
+  | 'arrow-forward'
 	| 'arrow-down'
   | 'checkmark-circle-outline'
   | 'checkbox-outline'
@@ -62,11 +63,11 @@ export type LanguageType =
 
 export type ScreenEnumType = AuthScreenEnum | DrawerScreenEnum | UnauthorizedScreenEnum;
 export type NavigationHeaderLeftActionTypes = 'back' | 'menu' | 'achievements' | 'none';
-export type NavigationHeaderRightActionTypes = 'settings' | 'filter' | 'logout' | 'none';
+export type NavigationHeaderRightActionTypes = 'back' | 'settings' | 'filter' | 'logout' | 'none';
 export type NavigatorParams = {
 	[UnauthorizedScreenEnum.Landing]: undefined;
   [UnauthorizedScreenEnum.Login]: undefined;
-	[UnauthorizedScreenEnum.AccountVerification]: undefined;
+	[UnauthorizedScreenEnum.VerifyAccount]: undefined;
 	[UnauthorizedScreenEnum.SelectInitialPlan]: undefined;
 	[UnauthorizedScreenEnum.SetUsername]: undefined;
 	[UnauthorizedScreenEnum.SelectFirstGame]: undefined;
@@ -98,3 +99,9 @@ export type NavigatorParams = {
 export type UserResponse = User | void;
 export type StringResponse = string | void;
 export type AxiosErrorResponse = AxiosError | any;
+
+// Utils
+
+export type LoggerType = 'info' | 'error' | 'warning';
+export type FlowType = 'signup' | 'home';
+export type GameListSelectionType = 'active' | 'inactive';

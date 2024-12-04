@@ -1,7 +1,7 @@
 import { GameKeyEnum, ContentSectionEnum } from '@utils/CustomEnums';
 import { GameContentItem, SettingsConfigItem } from '@utils/CustomInterfaces';
 import useMainState from '@redux/hooks/useMainState';
-import useGetTranslatedGameData from './useGetTranslatedGameData.native';
+import {useGetTranslatedGameData} from "@data/hooks/index";
 
 interface GameSectionData {
 	section: string;
@@ -20,14 +20,15 @@ interface GameDataReturnType {
 	getAllData: (gameId?: GameKeyEnum) => GameDataReturnType;
 }
 
-const useGetGameData = (): GameDataReturnType => {
+export const useGetGameData = (): GameDataReturnType => {
 	const {
+		eldenRing,
 		fallout3,
 		fallout4,
 		skyrim,
 		witcher3
 	} = useGetTranslatedGameData();
-	const { selectedGameData } = useMainState();
+	const { selectedGame } = useMainState();
 
 	// Filter active sections
 	const filterData = (config: SettingsConfigItem[], data: any[]) => {
@@ -41,6 +42,8 @@ const useGetGameData = (): GameDataReturnType => {
 
 	const getGameData = (selectedGame: GameKeyEnum) => {
 		switch (selectedGame) {
+			case GameKeyEnum.ELDEN_RING:
+				return eldenRing;
 			case GameKeyEnum.FALLOUT_3:
 				return fallout3;
 			case GameKeyEnum.FALLOUT_4:
@@ -52,23 +55,23 @@ const useGetGameData = (): GameDataReturnType => {
 		}
 	};
 
-	const mapDataTo = (type: ContentSectionEnum, selectedGame?: GameKeyEnum, filter = false): GameContentItem[] => {
+	const mapDataTo = (type: ContentSectionEnum, selectedGameId?: GameKeyEnum, filter = false): GameContentItem[] => {
 		switch (type) {
 			case ContentSectionEnum.QUESTS:
-				const quests = mapDataToQuests(selectedGame);
-				return !filter ? quests : filterData(selectedGameData?.settingsConfig.general ?? [], quests);
+				const quests = mapDataToQuests(selectedGameId);
+				return !filter ? quests : filterData(selectedGame?.settingsConfig.general ?? [], quests);
 
 			case ContentSectionEnum.COLLECTABLES:
-				const collectables = mapDataToCollectables(selectedGame);
-				return !filter ? collectables : filterData(selectedGameData?.settingsConfig.general ?? [], collectables);
+				const collectables = mapDataToCollectables(selectedGameId);
+				return !filter ? collectables : filterData(selectedGame?.settingsConfig.general ?? [], collectables);
 
 			case ContentSectionEnum.LOCATIONS:
-				const locations = mapDataToLocations(selectedGame);
-				return !filter ? locations : filterData(selectedGameData?.settingsConfig.general ?? [], locations);
+				const locations = mapDataToLocations(selectedGameId);
+				return !filter ? locations : filterData(selectedGame?.settingsConfig.general ?? [], locations);
 
 			case ContentSectionEnum.MISCELLANEOUS:
-				const miscItems = mapDataToMiscItems(selectedGame);
-				return !filter ? miscItems : filterData(selectedGameData?.settingsConfig.general ?? [], miscItems);
+				const miscItems = mapDataToMiscItems(selectedGameId);
+				return !filter ? miscItems : filterData(selectedGame?.settingsConfig.general ?? [], miscItems);
 
 			default:
 				return []
@@ -81,10 +84,8 @@ const useGetGameData = (): GameDataReturnType => {
 		}
 		else {
 			return getGameData(selectedGame)
-			.filter((item: GameContentItem) => item.section === ContentSectionEnum.QUESTS)
-			.map((quest: GameContentItem) => {
-				return quest as GameContentItem;
-			});
+				?.filter((item: GameContentItem) => item.section === ContentSectionEnum.QUESTS)
+				.map((quest: GameContentItem) => (quest as GameContentItem));
 		}
 	};
 
@@ -94,10 +95,8 @@ const useGetGameData = (): GameDataReturnType => {
 		}
 		else {
 			return getGameData(selectedGame)
-			.filter((item: GameContentItem) => item.section === ContentSectionEnum.COLLECTABLES)
-			.map((collectable: Partial<GameContentItem>) => {
-				return collectable as GameContentItem;
-			});
+			?.filter((item: GameContentItem) => item.section === ContentSectionEnum.COLLECTABLES)
+			.map((collectable: Partial<GameContentItem>) => (collectable as GameContentItem));
 		}
 	};
 
@@ -107,10 +106,8 @@ const useGetGameData = (): GameDataReturnType => {
 		}
 		else {
 			return getGameData(selectedGame)
-			.filter((item: GameContentItem) => item.section === ContentSectionEnum.MISCELLANEOUS)
-			.map((miscItem: Partial<GameContentItem>) => {
-				return miscItem as GameContentItem
-			});
+			?.filter((item: GameContentItem) => item.section === ContentSectionEnum.MISCELLANEOUS)
+			.map((miscItem: Partial<GameContentItem>) => (miscItem as GameContentItem));
 		}
 	};
 
@@ -120,10 +117,8 @@ const useGetGameData = (): GameDataReturnType => {
 		}
 		else {
 			return getGameData(selectedGame)
-			.filter((item: GameContentItem) => item.section === ContentSectionEnum.LOCATIONS)
-			.map((location: Partial<GameContentItem>) => {
-				return location as GameContentItem;
-			});
+			?.filter((item: GameContentItem) => item.section === ContentSectionEnum.LOCATIONS)
+			.map((location: Partial<GameContentItem>) => (location as GameContentItem));
 		}
 	};
 
@@ -158,5 +153,3 @@ const useGetGameData = (): GameDataReturnType => {
 		getAllData
 	}
 };
-
-export default useGetGameData;

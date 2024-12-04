@@ -24,7 +24,8 @@ const useGetLeftNavigationItem = (
 	const { t } = useTranslation();
   const theme = useGetTheme();
   const navigation = useReactNavigation();
-	const isDrawerOpen = hasDrawer && useSafeDrawerStatus() === 'open';
+	const drawerStatus = useSafeDrawerStatus();
+	const isDrawerOpen = hasDrawer && drawerStatus === 'open';
 	const { rotateButton, animatedStyles } = useRotateMenuButton();
 
 	useEffect(() => {
@@ -33,32 +34,30 @@ const useGetLeftNavigationItem = (
 		}
 	}, [isDrawerOpen]);
 
-	const dismissKeyboard = () => {
-		Keyboard.dismiss();
-	};
+	const dismissKeyboard = () => Keyboard.dismiss();
 
   switch (leftAction) {
     case 'back':
       return (
         <IconButton
 				style={{ ...styles.iconButton, top: 2 }}
-          name={'arrow-back'}
+          name='arrow-back'
           type={IconTypeEnum.Ionicons}
           color={theme.lightGrey}
           onPress={(): void => {
 						dismissKeyboard();
 						if (isForm) {
 							Alert.alert(
-								'Unsaved Changes', 
-								'Are you sure you want to go back?',
+								t('common:alerts.unsavedChanges'), 
+								t('common:alerts.unsavedChangesMessage'), 
 								[
 									{
-										text: t('common:alerts.ok'),
+										text: t('common:alerts.cta.ok'),
 										// Update user with password
 										onPress: (): void => navigation.goBack()
 									},
 									{
-										text: t('common:alerts.cancel')
+										text: t('common:alerts.cta.cancel')
 									}
 								]
 							);
@@ -96,7 +95,7 @@ const useGetLeftNavigationItem = (
           name='progress-star'
           type={IconTypeEnum.MaterialCommunityIcons}
           color={theme.lightPurple}
-          size={44}
+          size={40}
           onPress={(): void => {
 						dismissKeyboard();
 						navigation.navigate(AuthScreenEnum.GlobalAchievements);

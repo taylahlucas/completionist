@@ -6,7 +6,7 @@ interface GetSettingsConfigReturnType {
   shouldHideDisabledSections: () => boolean;
 }
 
-const useGetSettingsConfig = (): GetSettingsConfigReturnType => {
+export const useGetSettingsConfig = (): GetSettingsConfigReturnType => {
   const { user } = useMainState();
 
   const shouldShowCompletedItems = (): boolean => {
@@ -23,5 +23,3 @@ const useGetSettingsConfig = (): GetSettingsConfigReturnType => {
     shouldHideDisabledSections 
   };
 };
-
-export default useGetSettingsConfig;

@@ -12,7 +12,7 @@ interface ModalWrapperProps {
 	children: any;
 }
 
-const ModalWrapper = ({ children }: ModalWrapperProps) => {
+export const ModalWrapper = ({ children }: ModalWrapperProps) => {
 	const translateY = useRef(new Animated.Value(windowHeight)).current;
 	const theme = useGetTheme();
 
@@ -61,5 +61,3 @@ const styles = StyleSheet.create({
 		textAlign: 'center',
 	},
 });
-
-export default ModalWrapper;

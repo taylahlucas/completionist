@@ -1,6 +1,6 @@
-import { renderHook } from '@utils/TestLibraryUtils.native';
+import { renderHook } from '@utils/testing/TestLibraryUtils.native';
 import useFilterGameList from '../hooks/useFilterGameList.native';
-import { userMockInitial } from '@utils/test-helper/__mocks__/mocks';
+import { userMockInitial } from '@utils/testing/test-helper/__mocks__/mocks';
 
 describe('useFilterGameList', () => {
 	afterEach(() => {
@@ -9,28 +9,32 @@ describe('useFilterGameList', () => {
 
 	it('returns the correct data for active games', () => {
 		const { result } = renderHook(() => useFilterGameList());
-		const filteredData = result.current.filterGameList(userMockInitial.activeGames, true, '');
+		// TODO: Replace with activeGames
+		const filteredData = result.current.filterGameList([], true, '');
 
 		expect(filteredData).toEqual([{ id: 'fallout4', isActive: true }, { id: 'skyrim', isActive: true }]);
   });
 
 	it('returns the correct data for inactive games', () => {
 		const { result } = renderHook(() => useFilterGameList());
-		const filteredData = result.current.filterGameList(userMockInitial.activeGames, false, '');
+		// TODO: Replace with activeGames
+		const filteredData = result.current.filterGameList([], false, '');
 
 		expect(filteredData).toEqual([{ id: 'fallout3', isActive: false }, { id: 'witcher3', isActive: false }])
   });
 
 	it('returns the correct data when search value exists and active', () => {
 		const { result } = renderHook(() => useFilterGameList());
-		const filteredData = result.current.filterGameList(userMockInitial.activeGames, true, 'sky');
+		// TODO: Replace with activeGames
+		const filteredData = result.current.filterGameList([], true, 'sky');
 
 		expect(filteredData).toEqual([{ id: 'skyrim', isActive: true }]);
 	});
 
 	it('returns the correct data when search value exists and inactive', () => {
 		const { result } = renderHook(() => useFilterGameList());
-		const filteredData = result.current.filterGameList(userMockInitial.activeGames, false, 'fall');
+		// TODO: Replace with activeGames
+		const filteredData = result.current.filterGameList([], false, 'fall');
 
 		expect(filteredData).toEqual([{ id: 'fallout3', isActive: false }]);
 	})

@@ -1,11 +1,17 @@
 import { SettingsOptionEnum, GameKeyEnum, DatePeriodEnum, ContentSectionEnum, DrawerScreenEnum } from './CustomEnums';
 import { NavigationAction, NavigationState } from '@react-navigation/native';
 import { MainState } from '@redux/MainState';
-import { SettingsState } from '@components/custom/Settings/SettingsState';
-import { LoginState } from '@components/custom/LoginForm/LoginState';
-import { ContentState } from '@components/custom/ContentList/ContentState';
-import { SubscriptionState } from '@components/custom/SubscriptionContent/SubscriptionState';
+import { SettingsState } from '@components/custom/Settings/provider/SettingsState';
+import { LoginState } from '@components/custom/LoginForm/provider/LoginState';
+import { ContentState } from '@components/custom/ContentList/provider/ContentState';
+import { SubscriptionState } from '@components/custom/SubscriptionContent/provider/SubscriptionState';
 import { LanguageType, ScreenEnumType } from './CustomTypes';
+
+export interface ContentItem {
+	id: string;
+	title: string;
+	isActive: boolean;
+}
 
 export interface GameContentItem {
   id: string;
@@ -81,7 +87,6 @@ export interface StoreState {
 }
 
 export interface EnvironmentConfig {
-  APP_ID: string;
   ACCESS_TOKEN: string;
   WEB_CLIENT_ID: string;
   IOS_LOCAL_URL: string;
@@ -102,7 +107,7 @@ export interface NavigationDrawerItemData {
 export type UnauthorizedStackParamList = {
   Landing: undefined;
   Login: undefined;
-	AccountVerification: undefined;
+	VerifyAccount: undefined;
 	SelectInitialPlan: undefined;
 	SetUsername: undefined;
 	SelectFirstGame: undefined;
@@ -129,6 +134,7 @@ export type DrawerStackParamList = {
   Locations: undefined;
   SendRequest: undefined;
 	Achievements: undefined;
+  SteamAchievements: undefined;
   Payments: undefined;
   Settings: undefined;
 	AccountDetails: undefined;
@@ -179,38 +185,29 @@ export interface UserSettings {
 
 export interface SettingsConfig {
   general: SettingsConfigItem[];
-  dlc: SettingsListItem[];
+  dlc: IsActive[];
 }
 
 export interface SettingsConfigItem {
-  section: SettingsListItem;
-  categories: SettingsListItem[];
-  dlc: SettingsListItem[];
+  section: IsActive;
+  categories: IsActive[];
+  dlc: IsActive[];
 }
 
-export interface SettingsListItem {
-  id: string;
-  title: string;
+export interface IsActive {
+  id: GameKeyEnum | string;
   isActive: boolean;
 }
 
-export interface ActiveGameData {
+export interface GameData {
   id: GameKeyEnum;
-  isActive: boolean;
-}
-
-export interface GeneralData {
-	appId: string;
+	appId: number;
   quests: Item[];
   collectables: Item[];
   locations: Item[];
   miscellaneous: Item[];
   settingsConfig: SettingsConfig;
 }
-
-export type UserData = {
-  [key: string]: GeneralData;
-};
 
 export interface SignupData {
 	verification: boolean;
@@ -221,9 +218,8 @@ export interface SignupData {
 export interface User extends LoginFormData {
 	steamId?: string;
 	signup: SignupData;
-  activeGames: ActiveGameData[];
   settings: UserSettings;
-  gameData: UserData;
+  gameData: GameData[];
 }
 
 export interface LoginFormData {

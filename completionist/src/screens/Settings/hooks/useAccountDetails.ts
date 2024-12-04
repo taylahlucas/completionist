@@ -3,15 +3,11 @@ import { Alert } from 'react-native';
 import { useTranslation } from 'react-i18next';
 import useAuthEndpoints from '@data/api/hooks/useAuthEndpoints.native';
 import useEndpoints from '@data/api/hooks/useEndpoints.native';
-import useEditUserData from '@data/hooks/useEditUserData.native';
+import {useEditUserData} from '@data/hooks/index';
 import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
 import useMainState from '@redux/hooks/useMainState';
-import { DrawerScreenEnum, UnauthorizedScreenEnum } from '@utils/CustomEnums';
+import { DrawerScreenEnum } from '@utils/CustomEnums';
 import useValidator from '@utils/hooks/useValidator';
-import useLoginState from '@components/custom/LoginForm/hooks/useLoginState';
-import useLoginDispatch from '@components/custom/LoginForm/hooks/useLoginDispatch';
-import { LoginFormData } from '@utils/CustomInterfaces';
-import { initialFormData } from '@components/custom/LoginForm/LoginState';
 
 export interface ChangeAccountDetailsItem {
 	value: string;
@@ -25,32 +21,7 @@ interface ChangeAccountDetails {
 	newPw: ChangeAccountDetailsItem;
 }
 
-interface AccountDetailsViewModel {
-	user: {
-		username: string;
-		email: string;
-		pw: string | undefined;
-	},
-	userInfo: ChangeAccountDetails;
-	verificationToken: string | undefined;
-	loginFormData: LoginFormData;
-	isNameValid: boolean;
-	isEmailValid: boolean;
-	isPwValid: boolean;
-	showChangePw: boolean;
-	submitDisabled: boolean;
-}
-
-interface AccountDetailsReturnType {
-	viewModel: AccountDetailsViewModel,
-	actions: {
-		onSubmit: () => void;
-		setUserInfo: (userInfo: ChangeAccountDetails) => void;
-		forgotPassword: () => void;
-	}
-}
-
-const useAccountDetails = (): AccountDetailsReturnType => {
+const useAccountDetails = () => {
 	const navigation = useReactNavigation();
 	const { t } = useTranslation();
 	const { user, currentScreen } = useMainState();
@@ -64,12 +35,9 @@ const useAccountDetails = (): AccountDetailsReturnType => {
 	const [userInfo, setUserInfo] = useState<ChangeAccountDetails>(initialState);
 	const { saveUser } = useEditUserData();
 	const { updateUser, changePw } = useEndpoints();
-	const { checkUserExists, forgotPw } = useAuthEndpoints();
+	const { checkUserExists } = useAuthEndpoints();
 	const [showChangePw, setShowChangePw] = useState<boolean>(false);
 	const [submitPressed, setSubmitPressed] = useState<boolean>(false);
-	// TODO: Replace this with local state?
-	const { loginFormData, verificationToken } = useLoginState();
-	const { setLoginFormData } = useLoginDispatch();
 
 	useEffect(() => {
 		checkUserExists(user.email)
@@ -96,7 +64,7 @@ const useAccountDetails = (): AccountDetailsReturnType => {
 			'',
 			[
 				{
-					text: t('common:alerts.ok'),
+					text: t('common:alerts.cta.ok'),
 					onPress: (): void => navigation.goBack()
 				}
 			]
@@ -170,30 +138,6 @@ const useAccountDetails = (): AccountDetailsReturnType => {
 		}
 	};
 
-	const forgotPassword = () => {
-		if (loginFormData.pw) {
-			forgotPw({
-				email: loginFormData.email,
-				newPw: loginFormData.pw
-			})
-				.then(() => {
-					Alert.alert(
-						t('common:auth.updatePwSuccess'),
-						'',
-						[
-							{
-								text: t('common:alerts.ok'),
-								onPress: () => {
-									setLoginFormData(initialFormData);
-									navigation.navigate(UnauthorizedScreenEnum.Login);
-								}
-							},
-						]
-					);
-				})
-		}
-	};
-
 	return {
 		viewModel: {
 			user: {
@@ -202,10 +146,6 @@ const useAccountDetails = (): AccountDetailsReturnType => {
 				pw: user.pw,
 			},
 			userInfo,
-			// TODO: Replace with local state?
-			verificationToken,
-			loginFormData,
-
 			isNameValid: !isNameValid(userInfo.username.value) && userInfo.username.changed && submitPressed,
 			isEmailValid: !isEmailValid(userInfo.email.value) && userInfo.email.changed && submitPressed,
 			isPwValid: !isPwValid(userInfo.newPw.value) && userInfo.newPw.changed && submitPressed,
@@ -220,8 +160,7 @@ const useAccountDetails = (): AccountDetailsReturnType => {
 		},
 		actions: {
 			onSubmit,
-			setUserInfo,
-			forgotPassword
+			setUserInfo
 		}
 	}
 };

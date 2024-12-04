@@ -1,10 +1,8 @@
 import React from 'react';
-import ListItem from '@components/general/Lists/ListItem.native';
-import ScrollableList from '@components/general/Lists/ScrollableList.native';
+import {ListItem, ScrollableList} from '@components/general/Lists/index';
 import useUpdateContent from '@components/custom/ContentList/hooks/useUpdateContent';
 import useCheckContentComplete from './hooks/useCheckContentComplete';
 import useGetContent from './hooks/useGetContent';
-
 
 const SearchResults = () => {
   const { getFilteredContent } = useGetContent();

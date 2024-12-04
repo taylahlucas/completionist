@@ -1,19 +1,19 @@
+import { Alert } from 'react-native';
 import { useTranslation } from 'react-i18next';
 import uuid from 'react-native-uuid';
 import { GoogleSignin } from '@react-native-google-signin/google-signin';
 import auth from '@react-native-firebase/auth';
 import useAuthEndpoints from '@data/api/hooks/useAuthEndpoints.native';
 import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
-import { Alert } from 'react-native';
-import useEditUserData from '@data/hooks/useEditUserData.native';
+import {useEditUserData, useRemoveUserData} from '@data/hooks/index';
 import useMainState from '@redux/hooks/useMainState';
 import { SignInProps } from '@data/api/EndpointInterfaces.native';
 import useSendVerificationEmail from '@components/custom/LoginForm/hooks/useSendVerificationEmail';
-import useLoginDispatch from './useLoginDispatch';
+import useLoginDispatch from '../provider/useLoginDispatch';
 import useEndpoints from '@data/api/hooks/useEndpoints.native';
-import useRemoveUserData from '@data/hooks/useRemoveUserData.native';
+import { useLogger } from '@utils/hooks/index';
 
-interface GoogleSignInError {
+interface GoogleError {
 	code: number;
 	message: string;
 }
@@ -26,8 +26,9 @@ interface GetLoginMethodsReturnType {
 
 const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 	const { t } = useTranslation();
+	const { log } = useLogger();
 	const { user, shouldUpdateUser } = useMainState();
-	const { setLoggedIn, triggerIsSigningUp } = useLoginDispatch();
+	const { setLoggedIn, triggerIsSigningUp, setIsGoogleSignIn } = useLoginDispatch();
 	const { saveUser } = useEditUserData();
 	const { removeUserData } = useRemoveUserData();
 	const { checkUserExists, linkAndSignIn, signIn, signUp } = useAuthEndpoints();
@@ -50,7 +51,7 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 			t('common:errors.accountExistsMsg'),
 			[
 				{
-					text: t('common:alerts.ok'),
+					text: t('common:alerts.cta.ok'),
 					// Update user with googleId
 					onPress: () => linkAndSignIn({
 						email: email,
@@ -58,11 +59,12 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 					}).then((userResponse) => {
 						if (!!userResponse) {
 							saveUser(userResponse);
+							setLoggedIn(true);
 						}
 					})
 				},
 				{
-					text: t('common:alerts.cancel')
+					text: t('common:alerts.cta.cancel')
 				}
 			]
 		);
@@ -74,7 +76,7 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 			t('common:errors.accountExistsMsg'),
 			[
 				{
-					text: t('common:alerts.ok'),
+					text: t('common:alerts.cta.ok'),
 					// Update user with password
 					onPress: (): Promise<void> => sendVerification(
 						email,
@@ -83,7 +85,7 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 					)
 				},
 				{
-					text: t('common:alerts.cancel')
+					text: t('common:alerts.cta.cancel')
 				}
 			]
 		);
@@ -116,18 +118,17 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 			await GoogleSignin.hasPlayServices();
 			const { idToken } = await GoogleSignin.signIn();
 			const googleCredential = auth.GoogleAuthProvider.credential(idToken);
-
+			
 			return auth()
 				.signInWithCredential(googleCredential)
 				.then((response): void => {
 					const { uid, email } = response?.user || {};
 					if (email && idToken && uid) {
-						console.log("UID: ", uid);
 						checkUserExists(email)
 							.then((accounts) => {
 								// If google account not linked
 								if (accounts.regular && !accounts.google) {
-									linkGoogleAccount({ email: email, googleId: idToken });
+									linkGoogleAccount({ email: email, googleId: uid });
 								}
 								else if (accounts.google) {
 									userSignIn({
@@ -148,6 +149,7 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 											if (!!response) {
 												saveUser(response);
 												triggerIsSigningUp(true);
+												setIsGoogleSignIn(true);
 											}
 										})
 								}
@@ -160,8 +162,15 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 						);
 					}
 				});
-		} catch (error: GoogleSignInError | any) {
-			console.log("Error with google sign in: ", error.message);
+		} catch (error: GoogleError | any) {
+			log({
+				type: 'error',
+				title: 'Google Sign In',
+				data: {
+					code: error.code,
+					message: error.message,	
+				}
+			});
 		}
 	}
 
@@ -176,8 +185,15 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 			}
 			await GoogleSignin.revokeAccess();
 			await GoogleSignin.signOut();
-		} catch (error) {
-			console.log("Error signing out: ", error)
+		} catch (error: GoogleError | any) {
+			log({
+				type: 'error',
+				title: 'Google Sign Out',
+				data: {
+					code: error.code,
+					message: error.message,	
+				}
+			});
 		}
 	};
 

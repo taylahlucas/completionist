@@ -6,7 +6,7 @@ import {SettingsOptionEnum } from '@utils/CustomEnums';
 import useMainState from '@redux/hooks/useMainState';
 import useEndpoints from '@data/api/hooks/useEndpoints.native';
 import { SettingsOptionItem, SteamProfile } from '@utils/CustomInterfaces';
-import useEditUserData from '@data/hooks/useEditUserData.native';
+import {useEditUserData} from '@data/hooks/useEditUserData.native';
 import { NavigationHeaderLeftActionTypes, NavigationHeaderRightActionTypes } from '@utils/CustomTypes';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
 
@@ -19,7 +19,7 @@ const useSettings = () => {
 	const [profileVisible, setProfileVisible] = useState<boolean>(false);
 	const [profile, setProfile] = useState<SteamProfile | undefined>(undefined);
 	const [isLanguagesOpen, setLanguagesOpen] = useState<boolean>(false);
-	const { user, selectedGame } = useMainState();
+	const { user, selectedGame, selectedGameSettings } = useMainState();
 	const { setUser, setShouldUpdateUser } = useMainDispatch();
 	const { getDLCOptions, setDLCOptions } = useDLCOptions();
 	const options = useGetShowHideOptions();
@@ -57,6 +57,7 @@ const useSettings = () => {
 
   const setSettingsOptionsOnPress = (id: string) => {
     switch (id) {
+			// TODO: Translate id to type
       case 'completed-items':
         setUser({
           ...user,
@@ -89,7 +90,7 @@ const useSettings = () => {
 			isLanguagesOpen,
 			options,
 			user,
-			selectedGame,
+			selectedGameSettings,
 			navigationActions
 		},
 		actions: {

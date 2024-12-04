@@ -1,6 +1,6 @@
 require('dotenv').config();
-const { DynamoDBClient } = require('@aws-sdk/client-dynamodb');
-const { DynamoDBDocumentClient, PutCommand, UpdateCommand } = require('@aws-sdk/lib-dynamodb');
+const { dynamoDbDocClient } = require('../client');
+const { PutCommand, UpdateCommand } = require('@aws-sdk/lib-dynamodb');
 const hashPw = require('../helpers/hash_password');
 const comparePws = require('../helpers/compare_passwords');
 const { response_code, response_message } = require('../helpers/response_code');
@@ -9,9 +9,6 @@ const userSchema = require('../models/user');
 const createUser = require('../helpers/create_user');
 const { createSignedToken, createRefreshToken } = require('../helpers/create_tokens');
 const cache = require('../cache');
-
-const dynamoDB = new DynamoDBClient({ region: process.env.REGION });
-const docClient = DynamoDBDocumentClient.from(dynamoDB);
 
 var params = {
 	TableName: process.env.AWS_TABLE_NAME
@@ -23,7 +20,7 @@ const ttlInSeconds = 60 * 24 * 60 * 60;
 const checkUserExists = async (req, res) => {
 	const { email } = req.body;
 	// Checks if user exists and whether they have a regular or google account set up
-	const existingUser = await checkEmailExists(dynamoDB, email);
+	const existingUser = await checkEmailExists(dynamoDbDocClient, email);
 	console.log("checkUserExists");
 	if (existingUser) {
 		return res.status(response_code.SUCCESS)
@@ -49,7 +46,7 @@ const signup = async (req, res) => {
 		pw: userPw,
 		googleId: userGoogleId,
 	} = req.body;
-	const existingUser = await checkEmailExists(docClient, email);
+	const existingUser = await checkEmailExists(dynamoDbDocClient, email);
 	if (existingUser) {
 		return res.status(response_code.EMAIL_TAKEN).json({
 			error: response_message.EMAIL_TAKEN
@@ -80,13 +77,13 @@ const signup = async (req, res) => {
 		return res.status(response_code.FAILURE).json(err.message);
 	}
 	params = {
-		...params,
+		TableName: process.env.AWS_TABLE_NAME,
 		Item: validatedUser,
 		ConditionExpression: "attribute_not_exists(userId)",
 	};
 
 	try {
-		await dynamoDB.send(new PutCommand(params))
+		await dynamoDbDocClient.send(new PutCommand(params))
 		const token = createSignedToken();
 		const refreshToken = createRefreshToken()
 		cache.set(process.env.REFRESH_TOKEN_CACHE_KEY, refreshToken, ttlInSeconds);
@@ -110,7 +107,7 @@ const signin = async (req, res) => {
 	console.log("signin")
 	try {
 		const { email, pw, googleId } = req.body;
-		const existingUser = await checkEmailExists(docClient, email);
+		const existingUser = await checkEmailExists(dynamoDbDocClient, email);
 		if (!existingUser) {
 			return res.status(response_code.NO_USER_FOUND).json({ error: "No user found." });
 		}
@@ -155,20 +152,30 @@ const signin = async (req, res) => {
 
 const linkAndSignIn = async (req, res) => {
 	const { email, pw, googleId } = req.body;
-	const existingUser = await checkEmailExists(docClient, email);
+	const existingUser = await checkEmailExists(dynamoDbDocClient, email);
 	if (!existingUser) {
 		return res.status(response_code.NO_USER_FOUND).json({ error: response_message.NO_USER_FOUND });
 	}
-
+	let conditionExpression = ''
+	let expressionAttributeValues = {};
 	// If user does not have googleId, update googleId
 	let hashedGoogleId;
 	if (!existingUser.googleId && googleId) {
-		hashedGoogleId = await hashPw(googleId)
+		hashedGoogleId = await hashPw(googleId);
+		conditionExpression =  "attribute_exists(googleId) OR attribute_not_exists(googleId)";
+		expressionAttributeValues = {
+			":googleId": hashedGoogleId
+		};
 	}
-	// TODO: If user does not have password, update password
+	// If user does not have password, update password
 	let hashedPw;
 	if (!existingUser.pw && pw) {
-		hashedPw = await hashPw(pw)
+		hashedPw = await hashPw(pw);
+		conditionExpression =  "attribute_exists(pw) OR attribute_not_exists(pw)";
+		expressionAttributeValues = {
+			...expressionAttributeValues,
+			":pw": hashedPw
+		};
 	}
 
 	params = {
@@ -177,15 +184,12 @@ const linkAndSignIn = async (req, res) => {
 			userId: existingUser.userId
 		},
 		UpdateExpression: pw ? "set pw = :pw" : "set googleId = :googleId",
-		ExpressionAttributeValues: pw ? {
-			":pw": hashedPw
-		} : {
-			":googleId": hashedGoogleId
-		}
+		ConditionExpression: conditionExpression,
+		ExpressionAttributeValues: expressionAttributeValues
 	};
 
 	try {
-		await dynamoDB.send(new UpdateCommand(params));
+		await dynamoDbDocClient.send(new UpdateCommand(params));
 		const token = createSignedToken();
 		const refreshToken = createRefreshToken();
 		cache.set(process.env.REFRESH_TOKEN_CACHE_KEY, refreshToken, ttlInSeconds);
@@ -208,7 +212,7 @@ const linkAndSignIn = async (req, res) => {
 const forgotPw = async (req, res) => {
 	try {
 		const { email, newPw } = req.body;
-		const existingUser = await checkEmailExists(dynamoDB, email);
+		const existingUser = await checkEmailExists(dynamoDbDocClient, email);
 		if (!existingUser) {
 			return res.status(response_code.NO_USER_FOUND).json({ error: response_message.NO_USER_FOUND });
 		}
@@ -231,7 +235,7 @@ const forgotPw = async (req, res) => {
 			}
 		}
 
-		await dynamoDB.send(new UpdateCommand(params));
+		await dynamoDbDocClient.send(new UpdateCommand(params));
 		console.log(`Password for user with ID ${userId} updated successfully`);
 		return res.status(response_code.SUCCESS).json({ ok: true });
 	}

@@ -1,97 +1,120 @@
-import useGetGameData from '@data/hooks/useGetGameData';
-import useGetSettingsConfig from '@data/hooks/useGetSettingsConfig';
+import {useGetGameData, useGetSettingsConfig, useTranslateGameContent} from '@data/hooks/index';
 import useMainState from '@redux/hooks/useMainState';
-import { GameKeyEnum } from '@utils/CustomEnums';
-import { SettingsListItem } from '@utils/CustomInterfaces';
-import useTranslateGameContent from '@utils/hooks/useTranslateGameContent.native';
-import useContentState from './useContentState';
+import {GameKeyEnum} from '@utils/CustomEnums';
+import {ContentItem} from '@utils/CustomInterfaces';
+import useContentState from '../provider/useContentState';
 
 interface GameDataReturnType {
-	getContentCategories: () => SettingsListItem[];
-	getContentSubCategories: (category: string, selectedGame?: GameKeyEnum) => string[];
-	getContentSubCategoriesTypes: (subCategory: string, selectedGame?: GameKeyEnum) => string[];
+  getContentCategories: () => ContentItem[];
+  getContentSubCategories: (
+    category: string,
+    selectedGame?: GameKeyEnum,
+  ) => string[];
+  getContentSubCategoriesTypes: (
+    subCategory: string,
+    selectedGame?: GameKeyEnum,
+  ) => string[];
 }
 
 const useGetContentCategories = (): GameDataReturnType => {
-	const { mapDataTo } = useGetGameData();
-	const { sectionType } = useContentState();
-	const { selectedGame, selectedGameData } = useMainState();
-	const { shouldHideDisabledSections } = useGetSettingsConfig();
-	const { translateCategoryName, translateDLCName } = useTranslateGameContent();
+  const {mapDataTo} = useGetGameData();
+  const {sectionType} = useContentState();
+  const {user, selectedGameSettings} = useMainState();
+  const {shouldHideDisabledSections} = useGetSettingsConfig();
+  const {translateCategoryName, translateDLCName} = useTranslateGameContent();
 
-	const getContentCategories = (): SettingsListItem[] => {
-		const section = selectedGameData?.settingsConfig.general
-			.filter(config => config.section.id === sectionType)[0] ?? {
-				section: {
-					id: ''
-				},
-				categories: [],
-				dlc: []
-			};
-		if (selectedGame) {
-			const mainCategories: SettingsListItem[] = (shouldHideDisabledSections()
-				? section?.categories.filter(category => category.isActive)
-				: section?.categories)
-				.map(category => {
-					return {
-						id: category.id,
-						title: translateCategoryName(selectedGame, section.section.id, category.id),
-						isActive: category.isActive
-					}
-				});
-			const dlcCategories: SettingsListItem[] = (shouldHideDisabledSections()
-				? section?.dlc.filter(dlc => dlc.isActive)
-				: section?.dlc)
-				.map(dlc => {
-					return {
-						id: dlc.id,
-						title: translateDLCName(selectedGame, dlc.id),
-						isActive: dlc.isActive
-					}
-				});
-			return mainCategories.concat(dlcCategories);
-		}
-		return [];
-	}
+  const getContentCategories = (): ContentItem[] => {
+    const selectedGame = user.gameData?.find(item => item.id === selectedGameSettings);
+    
+    const section = selectedGame?.settingsConfig.general.filter(
+      config => config.section.id === sectionType,
+    )[0] ?? {
+      section: {
+        id: '',
+      },
+      categories: [],
+      dlc: [],
+    };
 
-	const getContentSubCategories = (category: string, selectedGame?: GameKeyEnum): string[] => {
-		const items = mapDataTo(sectionType, selectedGame);
-		const filteredItems = items.filter(item => item.mainCategory === category);
+    if (selectedGame) {
+      const mainCategories: ContentItem[] = (
+        shouldHideDisabledSections()
+          ? section?.categories.filter(category => category.isActive)
+          : section?.categories
+      ).map(category => {
+        return {
+          id: category.id,
+          title: translateCategoryName(
+            selectedGame.id,
+            section.section.id,
+            category.id,
+          ),
+          isActive: category.isActive,
+        };
+      });
+      const dlcCategories: ContentItem[] = (
+        shouldHideDisabledSections()
+          ? section?.dlc.filter(dlc => dlc.isActive)
+          : section?.dlc
+      ).map(dlc => {
+        return {
+          id: dlc.id,
+          title: translateDLCName(selectedGame.id, dlc.id),
+          isActive: dlc.isActive,
+        };
+      });
+      return mainCategories.concat(dlcCategories);
+    }
+    return [];
+  };
 
-		let itemSubCategories: string[] = [];
-		filteredItems.map(item => {
-			if (!itemSubCategories.find(category => category === item.subCategory)) {
-				if (!!item.subCategory) {
-					itemSubCategories.push(item.subCategory);
-				}
-			}
-		});
-		return itemSubCategories;
-	}
+  const getContentSubCategories = (
+    category: string,
+    selectedGame?: GameKeyEnum,
+  ): string[] => {
+    const items = mapDataTo(sectionType, selectedGame);
+    const filteredItems = items.filter(item => item.mainCategory === category);
 
-	const getContentSubCategoriesTypes = (subCategory: string, selectedGame?: GameKeyEnum): string[] => {
-		const items = mapDataTo(sectionType, selectedGame);
-		const filteredItems = items.filter(collectable =>
-			collectable.subCategory === subCategory
-		);
-		let itemSubCategoriesTypes: string[] = [];
+    let itemSubCategories: string[] = [];
+    filteredItems.map(item => {
+      if (!itemSubCategories.find(category => category === item.subCategory)) {
+        if (!!item.subCategory) {
+          itemSubCategories.push(item.subCategory);
+        }
+      }
+    });
+    return itemSubCategories;
+  };
 
-		filteredItems.map(item => {
-			if (!itemSubCategoriesTypes.find(category => category === item.subCategoryType)) {
-				if (!!item.subCategoryType) {
-					itemSubCategoriesTypes.push(item.subCategoryType);
-				}
-			}
-		});
-		return itemSubCategoriesTypes;
-	}
+  const getContentSubCategoriesTypes = (
+    subCategory: string,
+    selectedGame?: GameKeyEnum,
+  ): string[] => {
+    const items = mapDataTo(sectionType, selectedGame);
+    const filteredItems = items.filter(
+      collectable => collectable.subCategory === subCategory,
+    );
+    let itemSubCategoriesTypes: string[] = [];
 
+    filteredItems.map(item => {
+      if (
+        !itemSubCategoriesTypes.find(
+          category => category === item.subCategoryType,
+        )
+      ) {
+        if (!!item.subCategoryType) {
+          itemSubCategoriesTypes.push(item.subCategoryType);
+        }
+      }
+    });
+    return itemSubCategoriesTypes;
+  };
 
-	return {
-		getContentCategories,
-		getContentSubCategories,
-		getContentSubCategoriesTypes
-	}
+  return {
+    getContentCategories,
+    getContentSubCategories,
+    getContentSubCategoriesTypes,
+  };
 };
 
 export default useGetContentCategories;

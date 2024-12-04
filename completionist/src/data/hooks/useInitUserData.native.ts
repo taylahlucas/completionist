@@ -2,12 +2,12 @@ import { useEffect, useRef } from 'react';
 import useMainState from '@redux/hooks/useMainState';
 import { AppState } from 'react-native';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
-import useEditUserData from './useEditUserData.native';
-import useLoginState from '@components/custom/LoginForm/hooks/useLoginState';
-import useLoginDispatch from '@components/custom/LoginForm/hooks/useLoginDispatch';
-import useGetNavigationPath from '@data/hooks/useGetNavigationPath';
+import {useEditUserData} from "@data/hooks/index";
+import useLoginState from '@components/custom/LoginForm/provider/useLoginState';
+import useLoginDispatch from '@components/custom/LoginForm/provider/useLoginDispatch';
+import useGetNavigationPath from '@navigation/hooks/useGetNavigationPath';
 
-const useInitUserData = () => {
+export const useInitUserData = () => {
   const appStateRef = useRef(AppState.currentState);
   const { setAppState } = useMainDispatch();
   const { user, appState, shouldUpdateUser } = useMainState();
@@ -18,7 +18,6 @@ const useInitUserData = () => {
 
   useEffect(() => {
     if (!isAuthenticated && !user.userId) {
-			console.log("loadUserFromCache---1: ", user.userId);
       loadUserFromCache();
     }
 
@@ -36,7 +35,6 @@ const useInitUserData = () => {
     switch (appState) {
       case 'active':
         if (!isAuthenticated || !user.userId) {
-					console.log("loadUserFromCache---2: ", user.userId);
           loadUserFromCache();
         }
         return;
@@ -58,5 +56,3 @@ const useInitUserData = () => {
 		}
 	}, [isLoggedIn, isSigningUp, user.signup])
 };
-
-export default useInitUserData;

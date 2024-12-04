@@ -1,4 +1,4 @@
-import { renderHook } from '@utils/TestLibraryUtils.native';
+import { renderHook } from '@utils/testing/TestLibraryUtils.native';
 import useFormatter from '@utils/hooks/useFormatter';
 
 describe('useFormatter', () => {

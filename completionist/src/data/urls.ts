@@ -7,7 +7,7 @@ export const forgotPwUrl = 'api/reset';
 export const sendVerificationEmailUrl = 'send_email/verify'; 
 
 // Base
-export const getUserByUserIdUrl = 'users'
+export const getUserByUserIdUrl = 'users/id'
 export const updateUserUrl = 'users/update';
 export const changePwUrl = 'users/update/pw';
 export const sendEmailUrl = 'send_email/send';

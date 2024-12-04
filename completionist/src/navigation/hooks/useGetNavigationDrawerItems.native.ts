@@ -1,18 +1,26 @@
 import { useTranslation } from 'react-i18next';
-import { DrawerScreenEnum } from '@utils/CustomEnums';
-import useGetGameData from '@data/hooks/useGetGameData';
-import useGetUserGameData from '@data/hooks/useGetUserGameData';
+import { DrawerScreenEnum, ContentSectionEnum } from '@utils/CustomEnums';
+import {useGetGameData, useGetUserGameData, useGetSettingsConfig} from '@data/hooks/index';
 import useMainState from '@redux/hooks/useMainState';
 import useCheckSectionEnabled from './useCheckSectionEnabled.native';
 import { NavigationDrawerItemData } from '@utils/CustomInterfaces';
-import useGetSettingsConfig from '@data/hooks/useGetSettingsConfig';
+import useGetUserGameData from '@data/hooks/useGetUserGameData';
 
 const useGetNavigationDrawerItems = (): NavigationDrawerItemData[] => {
 	const { t } = useTranslation();
-	const { selectedGame, selectedGameData, user } = useMainState();
-	const { getUserQuests, getUserCollectables, getUserLocations, getUserMiscItems } = useGetUserGameData(selectedGameData);
-	const { getAllData } = useGetGameData();
+	const { selectedGame } = useMainState();
+	const { userQuests, userCollectables, userLocations, userMiscItems } = useGetUserGameData();
+	const { mapDataTo } = useGetGameData();
 	const { checkIsSectionEnabled } = useCheckSectionEnabled();
+	const questsSection = ContentSectionEnum.QUESTS;
+	const collectablesSection = ContentSectionEnum.COLLECTABLES;
+	const locationsSection = ContentSectionEnum.LOCATIONS;
+	const miscItemsSection = ContentSectionEnum.MISCELLANEOUS;
+	const questData = mapDataTo(questsSection, selectedGame?.id, true);
+	const collectableData = mapDataTo(collectablesSection, selectedGame?.id, true);
+	const locationData = mapDataTo(locationsSection, selectedGame?.id, true);
+	const miscellaneousData = mapDataTo(miscItemsSection, selectedGame?.id, true);
+	const { getAllData } = useGetGameData();
 	const {
 		quests,
 		collectables,
@@ -27,7 +35,7 @@ const useGetNavigationDrawerItems = (): NavigationDrawerItemData[] => {
 		drawerItems.push({
 			id: DrawerScreenEnum.Quests,
 			title: t('common:screens.quests'),
-			subTitle: questsEnabled ? `${getUserQuests().length}/${quests.data.length}` : '',
+			subTitle: questsEnabled ? `${userQuests.length}/${questData.length}` : '',
 			isEnabled: questsEnabled,
 			isHidden: shouldHideDisabledSections() && !questsEnabled
 		},)
@@ -37,7 +45,7 @@ const useGetNavigationDrawerItems = (): NavigationDrawerItemData[] => {
 		drawerItems.push({
 			id: DrawerScreenEnum.Collectables,
 			title: t('common:screens.collectables'),
-			subTitle: collectablesEnabled ? `${getUserCollectables().length}/${collectables.data.length}` : '',
+			subTitle: collectablesEnabled ? `${userCollectables.length}/${collectableData.length}` : '',
 			isEnabled: collectablesEnabled,
 			isHidden: shouldHideDisabledSections() && !collectablesEnabled
 		})
@@ -47,7 +55,7 @@ const useGetNavigationDrawerItems = (): NavigationDrawerItemData[] => {
 		drawerItems.push({
 			id: DrawerScreenEnum.Locations,
 			title: t('common:screens.locations'),
-			subTitle: locationsEnabled ? `${getUserLocations().length}/${locations.data.length}` : '',
+			subTitle: locationsEnabled ? `${userLocations.length}/${locationData.length}` : '',
 			isEnabled: locationsEnabled,
 			isHidden: shouldHideDisabledSections() && !locationsEnabled
 		})
@@ -57,7 +65,7 @@ const useGetNavigationDrawerItems = (): NavigationDrawerItemData[] => {
 		drawerItems.push({
 			id: DrawerScreenEnum.Miscellaneous,
 			title: t('common:screens.miscellaneous'),
-			subTitle: miscItemsEnabled ? `${getUserMiscItems().length}/${miscellaneous.data.length}` : '',
+			subTitle: miscItemsEnabled ? `${userMiscItems.length}/${miscellaneousData.length}` : '',
 			isEnabled: miscItemsEnabled,
 			isHidden: shouldHideDisabledSections() && !miscItemsEnabled
 		})

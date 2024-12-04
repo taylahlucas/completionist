@@ -1,11 +1,12 @@
 import { useTranslation } from 'react-i18next';
 import useMainState from '@redux/hooks/useMainState';
 import { GameKeyEnum } from '@utils/CustomEnums';
-import { SettingsConfigItem, SettingsListItem } from '@utils/CustomInterfaces';
+import { SettingsConfigItem, IsActive } from '@utils/CustomInterfaces';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
+import { getCurrentGame } from '@data/hooks/index';
 
 interface DLCOptionsReturnType {
-	getDLCOptions: () => SettingsListItem[];
+	getDLCOptions: () => IsActive[];
 	setDLCOptions: (title: string) => void;
 }
 
@@ -15,37 +16,47 @@ const useDLCOptions = (): DLCOptionsReturnType => {
 	const { selectedGameSettings, user } = useMainState();
 
 	const updateDLCSettingsConfig = (gameKey: GameKeyEnum, id: string) => {
+		const currentGame = getCurrentGame(gameKey, user);
+		if (!currentGame) {
+			return;
+		}
+		const updatedGame = {
+			...currentGame,
+			settingsConfig: {
+				general: currentGame.settingsConfig.general.map((config: SettingsConfigItem) => {
+					return {
+						...config,
+						dlc: config.dlc.map(dlcItem => ({
+							...dlcItem,
+							isActive: id === dlcItem.id ? !dlcItem.isActive : dlcItem.isActive
+						}))
+					}
+				}),
+				dlc: currentGame.settingsConfig.dlc.map(dlcItem => {
+					return (dlcItem.id === id) ? {
+						...dlcItem,
+						isActive: !dlcItem.isActive
+					} : dlcItem
+				})
+			}
+		}
+
 		setUser({
 			...user,
-			gameData: {
-				...user.gameData,
-				[gameKey]: {
-					...user.gameData[gameKey],
-					settingsConfig: {
-						general: user.gameData[gameKey].settingsConfig.general.map((config: SettingsConfigItem) => (
-							{
-								...config,
-								dlc: config.dlc.map(dlcItem => ({
-									...dlcItem,
-									isActive: id === dlcItem.id ? !dlcItem.isActive : dlcItem.isActive
-								}))
-							}
-						)),
-						dlc: user.gameData[gameKey].settingsConfig.dlc.map(dlcItem => (
-							(dlcItem.id === id) ? {
-								...dlcItem,
-								isActive: !dlcItem.isActive
-							} : dlcItem
-						))
-					}
-				},
-			},
+			gameData: [
+        ...user.gameData?.filter((game) => game.id !== currentGame.id),
+        updatedGame
+      ]
 		});
 		setShouldUpdateUser(true);
 	};
 
-	const getDLCOptions = (): SettingsListItem[] => {
-		return user.gameData[selectedGameSettings].settingsConfig.dlc.map((item) => {
+	const getDLCOptions = (): IsActive[] => {
+		const currentGame = getCurrentGame(selectedGameSettings, user);
+		if (!currentGame) {
+			return [];
+		}
+		return currentGame.settingsConfig.dlc.map((item) => {
 			return {
 				id: item.id,
 				title: t(`common:categories.${selectedGameSettings}.dlc.${item.id}`),

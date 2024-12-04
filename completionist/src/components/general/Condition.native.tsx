@@ -6,7 +6,7 @@ interface ConditionProps {
   conditionalElement?: any;
 };
 
-const Condition = ({ condition = false, children, conditionalElement }: ConditionProps) => {
+export const Condition = ({ condition = false, children, conditionalElement }: ConditionProps) => {
   return (
     <>
       {condition
@@ -16,5 +16,3 @@ const Condition = ({ condition = false, children, conditionalElement }: Conditio
     </>
   );
 };
-
-export default Condition;

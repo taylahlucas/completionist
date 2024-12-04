@@ -25,7 +25,7 @@ export enum DrawerScreenEnum {
 export enum UnauthorizedScreenEnum {
   Landing = 'Landing',
   Login = 'Login',
-	AccountVerification = 'AccountVerification',
+	VerifyAccount = 'VerifyAccount',
 	SelectInitialPlan = 'SelectInitialPlan',
 	SetUsername = 'SetUsername',
 	SelectFirstGame = 'SelectFirstGame',
@@ -42,6 +42,7 @@ export enum IconTypeEnum {
 }
 
 export enum GameKeyEnum {
+  ELDEN_RING = 'eldenRing',
 	FALLOUT_3 = 'fallout3',
   FALLOUT_4 = 'fallout4',
 	SKYRIM = 'skyrim',

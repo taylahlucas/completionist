@@ -5,10 +5,10 @@ import useGetLoginMethods from './hooks/useGetLoginMethods';
 import Button from '@components/general/Button/Button.native';
 import { LoginFormButtonContainer, LoginFormFooterContainer, LoginButton } from './LoginFormStyledComponents.native';
 import { GoogleSigninButton } from '@react-native-google-signin/google-signin';
-import useLoginDispatch from './hooks/useLoginDispatch';
-import useLoginState from './hooks/useLoginState';
+import useLoginDispatch from './provider/useLoginDispatch';
+import useLoginState from './provider/useLoginState';
 import StyledText from '@components/general/Text/StyledText.native';
-import Condition from '@components/general/Condition.native';
+import {Condition} from '@components/general/index';
 import useValidator from '@utils/hooks/useValidator';
 import useSendVerificationEmail from './hooks/useSendVerificationEmail';
 import useAuthEndpoints from '@data/api/hooks/useAuthEndpoints.native';
@@ -32,7 +32,7 @@ const LoginFormSignInButtons = () => {
 	return (
 		<View style={{ alignItems: 'center' }}>
 			<LoginButton
-				testID={'login-button'}
+				testID='login-button'
 				title={isSigningUp 
 					? t('common:auth.createAccount')
 					: t('common:auth.login')
@@ -45,13 +45,13 @@ const LoginFormSignInButtons = () => {
 									sendVerification(
 										loginFormData.email,
 										'common:sendRequest.verifyAccount',
-										UnauthorizedScreenEnum.AccountVerification
+										UnauthorizedScreenEnum.VerifyAccount
 									);
 								}
 								else {
 									Alert.alert(
-										'Email already exists',
-										'You are unable to create a new account with this email. Please login.'
+										t('common:errors.emailAlreadyExists'),
+										t('common:errors.retryLogin')
 									);
 								}
 							})
@@ -72,7 +72,7 @@ const LoginFormSignInButtons = () => {
 			</LoginFormButtonContainer>
 			<LoginFormFooterContainer>
 				<Condition condition={!isSigningUp}>
-					<StyledText testID={'request-account'}>{t('common:auth.requestAccount')}</StyledText>
+					<StyledText testID='request-account'>{t('common:auth.requestAccount')}</StyledText>
 				</Condition>
 				<Button
 					title={!isSigningUp ? t('common:auth.signUp') : t('common:auth.backToLogin')}

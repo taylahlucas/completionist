@@ -1,19 +1,19 @@
 import React from 'react';
-import Condition from '@components/general/Condition.native';
-import Dropdown from '@components/general/Dropdown/Dropdown.native';
-import ListHeader from '@components/general/Lists/ListHeader.native';
+import {Condition} from '@components/general/index';
+import { Dropdown } from '@components/general/Dropdown/index';
+import {ListHeader} from '@components/general/Lists/index';
 import ContentSubDropdown from './ContentSubDropdown.native';
 import ContentMainList from './ContentMainList.native';
 import useGetContents from './hooks/useGetContent';
 import useMainState from '@redux/hooks/useMainState';
 import useCheckContentComplete from './hooks/useCheckContentComplete';
 import useGetContentCategories from './hooks/useGetContentCategories';
-import useContentState from './hooks/useContentState';
-import useContentDispatch from './hooks/useContentDispatch';
-import { SettingsListItem } from '@utils/CustomInterfaces';
+import useContentState from './provider/useContentState';
+import useContentDispatch from './provider/useContentDispatch';
+import { ContentItem } from '@utils/CustomInterfaces';
 
 export interface ContentMainDropdownProps {
-	category: SettingsListItem;
+	category: ContentItem;
 	completed: string;
 	total: string;
 }
@@ -24,9 +24,9 @@ const ContentMainDropdown = ({ category, completed, total }: ContentMainDropdown
 	const { selectedCategory } = useContentState();
 	const { getContentSubCategories, getContentSubCategoriesTypes } = useGetContentCategories();
 	const { getContentForSubCategory } = useGetContents();
-	const subCategories = getContentSubCategories(category.title, selectedGame);
+	const subCategories = getContentSubCategories(category.title, selectedGame?.id);
 	const { checkContentCompleteForCategory } = useCheckContentComplete();
-
+	
 	return (
 		<Dropdown
 			isOpen={category.id === selectedCategory.category}
@@ -48,7 +48,7 @@ const ContentMainDropdown = ({ category, completed, total }: ContentMainDropdown
 			{subCategories.map((subCategory, index) => {
 				const questsForCategory = getContentForSubCategory(category.title, subCategory);
 				const completedQuests = checkContentCompleteForCategory(questsForCategory);
-				const subCategoryTypes = getContentSubCategoriesTypes(subCategory, selectedGame);
+				const subCategoryTypes = getContentSubCategoriesTypes(subCategory, selectedGame?.id);
 
 				return (
 					<ContentSubDropdown

@@ -16,6 +16,16 @@ const useGetRightNavigationItem = (rightAction: NavigationHeaderRightActionTypes
 	const { signOut } = useGetLoginMethods();
 
   switch (rightAction) {
+    case 'back':
+      return (
+        <IconButton
+				style={{ ...styles.iconButton, top: 2 }}
+          name='arrow-forward'
+          type={IconTypeEnum.Ionicons}
+          color={theme.lightGrey}
+          onPress={(): void => navigation.goBack()}
+        />
+      );
     case 'settings':
       return (
         <IconButton
@@ -23,7 +33,7 @@ const useGetRightNavigationItem = (rightAction: NavigationHeaderRightActionTypes
           name='settings-outline'
 					type={IconTypeEnum.Ionicons}
           color={theme.lightGrey}
-          size={38}
+          size={34}
           onPress={(): void => navigation.navigate(AuthScreenEnum.GlobalSettings)}
         />
       );
@@ -46,7 +56,7 @@ const useGetRightNavigationItem = (rightAction: NavigationHeaderRightActionTypes
           style={styles.iconButton}
           name='logout'
           color={theme.lightGrey}
-          size={34}
+          size={30}
           onPress={signOut}
         />
       );

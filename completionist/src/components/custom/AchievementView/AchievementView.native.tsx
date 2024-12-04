@@ -1,15 +1,13 @@
 import React, { useState } from 'react';
 import { View, StyleSheet, Image } from 'react-native';
-import Dropdown from '@components/general/Dropdown/Dropdown.native';
 import StyledText from '@components/general/Text/StyledText.native';
 import useGetTheme from '@styles/hooks/useGetTheme';
-import ScrollableList from '@components/general/Lists/ScrollableList.native';
+import {ScrollableList} from '@components/general/Lists/index';
 import { AchievementItem } from '@utils/CustomInterfaces'
-import Seperator from '@components/general/Seperator.native';
 import { STANDARD_WIDTH, SMALL_PADDING, MID_PADDING, MID_WIDTH, LARGE_PADDING } from '@styles/global.native';
-import Condition from '@components/general/Condition.native';
+import {Condition, Seperator} from '@components/general/index';
 import Icon from '@components/general/Icon/Icon.native';
-import { DropdownTitleContainer } from '@components/general/Dropdown/DropdownStyledComponents.native';
+import { Dropdown, DropdownTitleContainer } from '@components/general/Dropdown/index';
 import { IconTypeEnum } from '@utils/CustomEnums';
 
 interface AchievementViewProps {

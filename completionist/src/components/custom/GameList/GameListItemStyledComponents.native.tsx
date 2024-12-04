@@ -24,13 +24,14 @@ export const GameListItemContainer = styled.Pressable<GameListItemContainerProps
   margin: 8px;
   border-radius: ${DEFAULT_BORDER_RADIUS}px;
   border-color: ${(props): string => props.color};
-  border-width: 2px;
+  border-width: 1.5px;
 `;
 
 export const GameListImage = styled.Image`
   width: 148px;
   height: 148px;
   position: absolute;
+  border-radius: ${DEFAULT_BORDER_RADIUS}px;
 `;
 
 export const GameItemTitleContainer = styled.View<GameItemTitleContainerProps>`

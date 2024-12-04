@@ -1,14 +1,14 @@
-import { SettingsConfigItem, SettingsListItem } from '@utils/CustomInterfaces';
+import { SettingsConfigItem, IsActive } from '@utils/CustomInterfaces';
 
 const useUpdateSettingsConfig = () => {
-  const updateConfig = (config: SettingsConfigItem[], item: SettingsListItem): SettingsConfigItem[] => {
-		// TODO: Fix here?
+  const updateConfig = (config: SettingsConfigItem[], item: IsActive): SettingsConfigItem[] => {
     return config.map(section => {
       // Main category
       if (item.id === section.section.id) {
         return {
           section: {
             id: section.section.id,
+            // TODO: This is not updating
             isActive: !section.section.isActive
           },
           categories: section.categories.map(category => {

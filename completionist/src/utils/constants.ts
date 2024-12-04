@@ -3,7 +3,7 @@ import { GameKeyEnum } from './CustomEnums';
 export const USER_CACHE_KEY = 'USER_CACHE';
 export const REFRESH_CACHE_KEY = 'REFRESH_EXPIRY_CACHE';
 export const CACHE_EXPIRY_TIME = 60 * 60 * 1000;    // 1 hour in milliseconds
-
+export const VERIFICATION_ENTRY_LENGTH = 6;
 export const renderAmountConst = 20;
 
 export const games = [
@@ -22,3 +22,20 @@ export const requestCodes = {
   NO_USER_FOUND: 605,
   WRONG_PASSWORD: 610
 }
+
+export const urls = [
+	'signup',
+	'exists',
+	'link',
+	'signin',
+	'reset',
+	'verify',
+	'id',
+	'update',
+	'pw',
+	'send',
+	'delete',
+	'steam/profile',
+	'steam/achievements',
+	'ISteamUserStats'
+]
