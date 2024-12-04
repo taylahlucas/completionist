@@ -1,6 +1,96 @@
 import { GameKeyEnum } from "../CustomEnums";
 import { GameData, SettingsConfig } from "../CustomInterfaces";
 
+const eldenRingSettingsConfig = {
+	general: [
+		{
+			section: {
+				id: "quests",
+				isActive: true
+			},
+			categories: [
+				{
+					id: "mainQuests",
+					isActive: true
+				},
+			],
+			dlc: [
+				{
+					"id": "shadowOfTheErdtree",
+					"isActive": true
+				},
+			]
+		},
+		{
+			section: {
+				id: "collectables",
+				isActive: true
+			},
+			categories: [
+				{
+					id: "legendaryWeapons",
+					isActive: true
+				},
+				{
+					id: "legendarySpiritAshes",
+					isActive: true
+				},
+				{
+					id: "armourSets",
+					isActive: true
+				},
+			],
+			dlc: [
+				{
+					id: "shadowOfTheErdtree",
+					isActive: true
+				},
+			]
+		},
+		{
+			section: {
+				id: "locations",
+				isActive: true
+			},
+			categories: [
+				{
+					id: "main",
+					isActive: true
+				}
+			],
+			dlc: [
+				{
+					id: "shadowOfTheErdtree",
+					isActive: true
+				},
+			]
+		},
+		{
+			section: {
+				id: "miscellaneous",
+				isActive: true
+			},
+			categories: [
+				{
+				  id: "legendarySpells",
+					isActive: true
+				},
+				{
+					id: "achievementBosses",
+					isActive: true
+				},
+			],
+			dlc: []
+		}
+	],
+	dlc: [
+		{
+			id: "shadowOfTheErdtree",
+			isActive: true
+		},
+	]
+};
+
 const fallout3SettingsConfig: SettingsConfig = {
   general: [
     {
@@ -622,6 +712,13 @@ const initialGameData = {
 	locations: [], 
 }
 
+export const eldenRingGameData: GameData = {
+  id: GameKeyEnum.ELDEN_RING,
+  appId: 1245620,
+  ...initialGameData,
+  settingsConfig: eldenRingSettingsConfig
+};
+
 export const fallout3GameData: GameData = {
   id: GameKeyEnum.FALLOUT_3,
 	appId: 22300,
@@ -651,6 +748,7 @@ export const witcher3GameData: GameData = {
 };
 
 export const allGameData: GameData[] = [
+  eldenRingGameData,
   fallout3GameData,
   fallout4GameData,
   skyrimGameData,

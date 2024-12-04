@@ -27,6 +27,8 @@ export const useGameListItem = () => {
 		
 	const getGameImage = (game: GameKeyEnum): ImageURISource => {
     switch (game) {
+			case GameKeyEnum.ELDEN_RING:
+				return require('@styles/images/games/eldenRing.jpg');
 			case GameKeyEnum.FALLOUT_3:
 				return require('@styles/images/games/fallout3.jpg');
 			case GameKeyEnum.FALLOUT_4:
@@ -56,52 +58,52 @@ export const useGameListItem = () => {
 };
 
 
-			// TODO: Refactor
-			// switch (user.subscription.tier) {
-			// 	case SubscriptionTypeEnum.FREE:
-			// 		if (user.subscription.changesLeft > 0) {
-			// 			const newChangesLeft = user.subscription.changesLeft - 1;
-			// 			Alert.alert(
-			// 				`${t('common:alerts.activate')} ${gameName}?`,
-			// 				t('common:alerts.changesLeft',
-			// 					{
-			// 						changesLeft: newChangesLeft,
-			// 						s: newChangesLeft === 1 ? 's' : ''
-			// 					}
-			// 				),
-			// 				[
-			// 					{
-			// 						text: t('common:alerts.activate'),
-			// 						onPress: () => changeGameSubscription(user, game, newChangesLeft)
-			// 					},
-			// 					{
-			// 						text: t('common:alerts.cancel'),
-			// 						style: 'cancel'
-			// 					}
-			// 				]
-			// 			);
-			// 		}
-			// 		else {
-			// 			Alert.alert(
-			// 				t('common:alerts.noChangesLeft'),
-			// 				t('common:alerts.noChangesLeftMessage')
-			// 			);
-			// 		}
-			// 		break;
-			// 	case SubscriptionTypeEnum.PREMIUM:
-			// 		Alert.alert(
-			// 			`${t('common:alerts.activate')} ${gameName}?`,
-			// 			'',
-			// 			[
-			// 				{
-			// 					text: t('common:alerts.activate'),
-			// 					onPress: () => activateGameSubscription(user, game)
-			// 				},
-			// 				{
-			// 					text: t('common:alerts.cancel'),
-			// 					style: 'cancel'
-			// 				}
-			// 			]
-			// 		);
-			// 		break;
-			// }
+// TODO: Refactor
+// switch (user.subscription.tier) {
+// 	case SubscriptionTypeEnum.FREE:
+// 		if (user.subscription.changesLeft > 0) {
+// 			const newChangesLeft = user.subscription.changesLeft - 1;
+// 			Alert.alert(
+// 				`${t('common:alerts.activate')} ${gameName}?`,
+// 				t('common:alerts.changesLeft',
+// 					{
+// 						changesLeft: newChangesLeft,
+// 						s: newChangesLeft === 1 ? 's' : ''
+// 					}
+// 				),
+// 				[
+// 					{
+// 						text: t('common:alerts.activate'),
+// 						onPress: () => changeGameSubscription(user, game, newChangesLeft)
+// 					},
+// 					{
+// 						text: t('common:alerts.cancel'),
+// 						style: 'cancel'
+// 					}
+// 				]
+// 			);
+// 		}
+// 		else {
+// 			Alert.alert(
+// 				t('common:alerts.noChangesLeft'),
+// 				t('common:alerts.noChangesLeftMessage')
+// 			);
+// 		}
+// 		break;
+// 	case SubscriptionTypeEnum.PREMIUM:
+// 		Alert.alert(
+// 			`${t('common:alerts.activate')} ${gameName}?`,
+// 			'',
+// 			[
+// 				{
+// 					text: t('common:alerts.activate'),
+// 					onPress: () => activateGameSubscription(user, game)
+// 				},
+// 				{
+// 					text: t('common:alerts.cancel'),
+// 					style: 'cancel'
+// 				}
+// 			]
+// 		);
+// 		break;
+// }

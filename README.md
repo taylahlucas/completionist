@@ -112,8 +112,6 @@ Pull from master:
 Update:
 - git submodule update --init --recursive --remote translations
 
-
-
 ## Migrating db
 
 - cd backend

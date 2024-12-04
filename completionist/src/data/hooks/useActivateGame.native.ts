@@ -3,6 +3,7 @@ import {initialGameData} from '@redux/MainState';
 import {GameKeyEnum} from '@utils/CustomEnums';
 import {IsActive, User} from '@utils/CustomInterfaces';
 import {
+  eldenRingGameData,
   fallout3GameData,
   fallout4GameData,
   skyrimGameData,
@@ -38,6 +39,8 @@ export const useActivateGame = () => {
 
   const getGameData = (id: string) => {
     switch (id) {
+      case 'eldenRing':
+        return eldenRingGameData;
       case 'fallout3':
         return fallout3GameData;
       case 'fallout4':
