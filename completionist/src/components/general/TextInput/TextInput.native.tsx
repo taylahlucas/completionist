@@ -1,4 +1,4 @@
-import React, { ForwardRefExoticComponent, useState } from 'react';
+import React, { useState } from 'react';
 import {
 	NativeSyntheticEvent,
 	TextInputChangeEventData,
@@ -10,14 +10,15 @@ import { TextInputIcon } from './TextInputStyledComponents.native';
 import { TextInputContainer } from './TextInputStyledComponents.native';
 import {Condition} from '@components/general/index';
 import defaultStyle from '@styles/Font/FontStyle';
-import { TextInputStyleType } from '@utils/CustomTypes';
+import { TextInputStyleType, IconTypeEnum } from '@utils/index';
 import useGetTextContainerStyle from './hooks/useGetTextContainerStyle.native';
-import { IconTypeEnum } from '@utils/CustomEnums';
 import useGetTextInputStyle from './hooks/useGetTextInputStyle.native';
+import { LARGE_WIDTH } from '@styles/global.native';
 
 export interface TextInputProps extends RNTextInputProps {
 	onChangeText: (value: string) => void;
 	onReset: () => void;
+	width?: number;
 	height?: number;
 	inputStyle?: TextInputStyleType;
 	leftComponent?: JSX.Element;
@@ -25,13 +26,13 @@ export interface TextInputProps extends RNTextInputProps {
 
 const TextInput = React.forwardRef<RNTextInput, TextInputProps>((props, ref) => {
 	const theme = useGetTheme();
-	const { testID, onChangeText, onReset, height = 45, inputStyle = 'default', leftComponent, value, multiline, secureTextEntry } = props;
-	const containerStyle = useGetTextContainerStyle(inputStyle)
+	const { testID, onChangeText, onReset, height = 45, width = LARGE_WIDTH, inputStyle = 'default', leftComponent, value, multiline, secureTextEntry } = props;
+	const containerStyle = useGetTextContainerStyle(inputStyle, width)
 	const textInputStyle = useGetTextInputStyle(inputStyle, !!leftComponent);
 	const [isSecure, setIsSecure] = useState<boolean>(secureTextEntry ?? false);
 
 	return (
-		<TextInputContainer height={height} style={containerStyle} multiline={multiline ?? false}>
+		<TextInputContainer width={width} height={height} style={containerStyle} multiline={multiline ?? false}>
 			<Condition condition={!!leftComponent}>
 				{leftComponent}
 			</Condition>
