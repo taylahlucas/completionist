@@ -51,7 +51,7 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 			t('common:errors.accountExistsMsg'),
 			[
 				{
-					text: t('common:alerts.ok'),
+					text: t('common:alerts.cta.ok'),
 					// Update user with googleId
 					onPress: () => linkAndSignIn({
 						email: email,
@@ -64,7 +64,7 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 					})
 				},
 				{
-					text: t('common:alerts.cancel')
+					text: t('common:alerts.cta.cancel')
 				}
 			]
 		);
@@ -76,7 +76,7 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 			t('common:errors.accountExistsMsg'),
 			[
 				{
-					text: t('common:alerts.ok'),
+					text: t('common:alerts.cta.ok'),
 					// Update user with password
 					onPress: (): Promise<void> => sendVerification(
 						email,
@@ -85,7 +85,7 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 					)
 				},
 				{
-					text: t('common:alerts.cancel')
+					text: t('common:alerts.cta.cancel')
 				}
 			]
 		);

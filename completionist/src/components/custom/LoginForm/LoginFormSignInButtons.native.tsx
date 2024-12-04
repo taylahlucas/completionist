@@ -28,11 +28,11 @@ const LoginFormSignInButtons = () => {
 		: false
 	);
 	
-	// TODO: get this to move with screen, add to translations
+	// TODO: get this to move with screen
 	return (
 		<View style={{ alignItems: 'center' }}>
 			<LoginButton
-				testID={'login-button'}
+				testID='login-button'
 				title={isSigningUp 
 					? t('common:auth.createAccount')
 					: t('common:auth.login')
@@ -50,8 +50,8 @@ const LoginFormSignInButtons = () => {
 								}
 								else {
 									Alert.alert(
-										'Email already exists',
-										'You are unable to create a new account with this email. Please login.'
+										t('common:errors.emailAlreadyExists'),
+										t('common:errors.retryLogin')
 									);
 								}
 							})
@@ -72,7 +72,7 @@ const LoginFormSignInButtons = () => {
 			</LoginFormButtonContainer>
 			<LoginFormFooterContainer>
 				<Condition condition={!isSigningUp}>
-					<StyledText testID={'request-account'}>{t('common:auth.requestAccount')}</StyledText>
+					<StyledText testID='request-account'>{t('common:auth.requestAccount')}</StyledText>
 				</Condition>
 				<Button
 					title={!isSigningUp ? t('common:auth.signUp') : t('common:auth.backToLogin')}

@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import StandardLayout from '@components/general/Layouts/StandardLayout.native';
 import StyledText from '@components/general/Text/StyledText.native';
 import NavigationHeader from '@navigation/NavigationHeader.native';
@@ -9,6 +10,7 @@ import GameListItem from '@components/custom/GameList/GameListItem.native';
 import { allGameData } from '@utils/configs/gameConfigs';
 
 const PurchaseGame = (params: any) => {
+	const { t } = useTranslation();
 	const gameId = params.route?.params.gameId;
 	const selectedGame = allGameData.find((game) => game.id === gameId)
 	const test = 0;
@@ -23,10 +25,10 @@ const PurchaseGame = (params: any) => {
 		<StandardLayout>
 			<NavigationHeader
 				id={AuthScreenEnum.PurchaseGame}
-				title={'Purchase Game'}
+				title={t('common:screens.purchaseGame')}
 				leftAction='back'
 			/>
-			<KeyboardAvoidingScrollView awareView={<Button title='Continue' onPress={(): void => console.log("Pay")} />}>
+			<KeyboardAvoidingScrollView awareView={<Button title={t('common:continue')} onPress={(): void => console.log("Pay")} />}>
 				<GameListItem 
 					game={selectedGame}
 					enabled={true}

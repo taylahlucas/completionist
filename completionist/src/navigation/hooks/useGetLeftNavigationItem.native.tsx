@@ -34,11 +34,8 @@ const useGetLeftNavigationItem = (
 		}
 	}, [isDrawerOpen]);
 
-	const dismissKeyboard = () => {
-		Keyboard.dismiss();
-	};
+	const dismissKeyboard = () => Keyboard.dismiss();
 
-	// TODO: Add to translations
   switch (leftAction) {
     case 'back':
       return (
@@ -51,16 +48,16 @@ const useGetLeftNavigationItem = (
 						dismissKeyboard();
 						if (isForm) {
 							Alert.alert(
-								'Unsaved Changes', 
-								'Are you sure you want to go back?',
+								t('common:alerts.unsavedChanges'), 
+								t('common:alerts.unsavedChangesMessage'), 
 								[
 									{
-										text: t('common:alerts.ok'),
+										text: t('common:alerts.cta.ok'),
 										// Update user with password
 										onPress: (): void => navigation.goBack()
 									},
 									{
-										text: t('common:alerts.cancel')
+										text: t('common:alerts.cta.cancel')
 									}
 								]
 							);

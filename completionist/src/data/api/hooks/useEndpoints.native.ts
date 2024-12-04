@@ -91,8 +91,7 @@ const useEndpoints = (): EndpointsReturnType => {
     if (!!response?.data) {
       return response?.data?.profile as SteamProfile;
     } else {
-      // TODO: Add to translations
-      Alert.alert('Steam ID not found.');
+      Alert.alert(t('common:errors.noSteamId'));
       return;
     }
   });

@@ -65,24 +65,23 @@ export const useEditUserData = (): EditUserDataReturnType => {
 		updateUser(user)
 			.then(() => saveUser(user));
 	}
-
-	// TODO: Add to translations
+	
 	const deleteUserData = async (userId: string) => {
 		Alert.alert(
-			'Are you sure?',
-			'If you delete this account, you will not be able to recover it.',
+			t('common:alerts.deleteConfirmation'),
+			t('common:alerts.deleteConfirmationMessage'),
 			[
 				{
-					text: 'Delete Account',
+					text: t('common:alerts.cta.deleteAccount'),
 					style: 'destructive',
 					onPress: () => deleteUser(userId)
 						.then(() => {
-							Alert.alert('Account successfully deleted.');
+							Alert.alert(t('common:alerts.deleteSuccess'));
 							removeUserData();
 						})
 				},
 				{
-					text: t('common:alerts.cancel')
+					text: t('common:alerts.cta.cancel')
 				}
 			]
 		)

@@ -27,7 +27,7 @@ const useVerifyNewPassword = () => {
 						'',
 						[
 							{
-								text: t('common:alerts.ok'),
+								text: t('common:alerts.cta.ok'),
 								onPress: () => {
 									setLoginFormData(initialFormData);
 									navigation.navigate(UnauthorizedScreenEnum.Login);

@@ -64,7 +64,7 @@ const useAccountDetails = () => {
 			'',
 			[
 				{
-					text: t('common:alerts.ok'),
+					text: t('common:alerts.cta.ok'),
 					onPress: (): void => navigation.goBack()
 				}
 			]

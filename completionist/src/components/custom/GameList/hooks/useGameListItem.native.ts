@@ -64,7 +64,7 @@ export const useGameListItem = () => {
 // 		if (user.subscription.changesLeft > 0) {
 // 			const newChangesLeft = user.subscription.changesLeft - 1;
 // 			Alert.alert(
-// 				`${t('common:alerts.activate')} ${gameName}?`,
+// 				`${t('common:alerts.cta.activate')} ${gameName}?`,
 // 				t('common:alerts.changesLeft',
 // 					{
 // 						changesLeft: newChangesLeft,
@@ -73,11 +73,11 @@ export const useGameListItem = () => {
 // 				),
 // 				[
 // 					{
-// 						text: t('common:alerts.activate'),
+// 						text: t('common:alerts.cta.activate'),
 // 						onPress: () => changeGameSubscription(user, game, newChangesLeft)
 // 					},
 // 					{
-// 						text: t('common:alerts.cancel'),
+// 						text: t('common:alerts.cta.cancel'),
 // 						style: 'cancel'
 // 					}
 // 				]
@@ -92,15 +92,15 @@ export const useGameListItem = () => {
 // 		break;
 // 	case SubscriptionTypeEnum.PREMIUM:
 // 		Alert.alert(
-// 			`${t('common:alerts.activate')} ${gameName}?`,
+// 			`${t('common:alerts.cta.activate')} ${gameName}?`,
 // 			'',
 // 			[
 // 				{
-// 					text: t('common:alerts.activate'),
+// 					text: t('common:alerts.cta.activate'),
 // 					onPress: () => activateGameSubscription(user, game)
 // 				},
 // 				{
-// 					text: t('common:alerts.cancel'),
+// 					text: t('common:alerts.cta.cancel'),
 // 					style: 'cancel'
 // 				}
 // 			]

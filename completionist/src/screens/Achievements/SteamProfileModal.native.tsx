@@ -111,7 +111,7 @@ const SteamProfileModal = ({ profile, isVisible = false, viewType = 'view', onCl
 									color={theme.error}
 									onPress={(): void => {
 										Alert.alert(
-											'Are you sure you want to unlink your account?',
+											t('common:alerts.unlinkAccount'),
 											'',
 											[
 												{
@@ -124,7 +124,7 @@ const SteamProfileModal = ({ profile, isVisible = false, viewType = 'view', onCl
 													}
 												},
 												{
-													text: t('common:alerts.cancel'),
+													text: t('common:alerts.cta.cancel'),
 													style: 'cancel'
 												}
 											]

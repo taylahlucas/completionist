@@ -2704,6 +2704,7 @@
         "miscellaneous": "Miscellaneous",
         "gameSelection": "Game Selection",
         "sendRequest": "Send Request",
+        "purchaseGame": "Purchase Game",
         "subscriptions": "Subscriptions",
         "selectGame": "Select a Game",
         "addSteamId": "Add Steam ID",
@@ -2727,6 +2728,9 @@
         "selectGameDesc2": "More games may be purchased with a one-off payment.",
         "selectGameDesc3": "Select your free game below!",
         "selection": "You have selected:\n{{gameTitle}}"
+      },
+      "purchaseGame": {
+        "title": "Purchase Game"
       },
       "subscriptions": {
         "subscriptionDesc": "With a Premium subscription,\nyou will gain access to Premium Features such as:",
@@ -2806,12 +2810,23 @@
         "steamAchievements": "Could not get steam achievements for this game.",
         "differentEmail": "Please use a different email address.",
         "linkedWithGoogle": "This email is already linked through Google. \nIf you would like to sign in with a regular password, login with this email and set your desired password.",
-        "linkedWithRegular": "This email is already linked. \nIf you would like to link your Google account, login through the Google Sign In using this email."
+        "linkedWithRegular": "This email is already linked. \nIf you would like to link your Google account, login through the Google Sign In using this email.",
+        "retryLogin": "You are unable to create a new account with this email. Please login.",
+        "noSteamId": "Steam ID not found."
       },
       "alerts": {
-        "ok": "Ok",
-        "activate": "Activate",
-        "cancel": "Cancel",
+        "cta": {
+          "ok": "Ok",
+          "activate": "Activate",
+          "cancel": "Cancel",
+          "deleteAccount": "Delete Account"
+        },
+        "unsavedChanges": "Unsaved Changes",
+        "unsavedChangesMessage": "Are you sure you want to go back?",
+        "deleteConfirmation": "Are you sure?",
+        "deleteConfirmationMessage": "If you delete this account, you will not be able to recover it.",
+        "deleteSuccess": "Account successfully deleted.",
+        "unlinkAccount": "Are you sure you want to unlink your account?",
         "changesLeft": "You will have {{changesLeft}} change{{s}} left.",
         "noChangesLeft": "No Changes Left",
         "noChangesLeftMessage": "Sorry, you have no game changes left for this month.\n Please upgrade to a premium subscription, or wait until the 1st of next month.",
@@ -3251,7 +3266,7 @@
       "welcome": "مرحباً",
       "continue": "يكمل",
       "search": "عناصر البحث...",
-      "showMore": "أظهر المزيد",
+      "showMore": "عرض المزيد",
       "none": "لا أحد",
       "main": "رئيسي",
       "changesLeft": "التغييرات المتبقية: ",
@@ -3261,13 +3276,17 @@
         "email": "بريد إلكتروني",
         "userpw": "كلمة المرور",
         "username": "اسم المستخدم",
-        "forgotPassword": "هل نسيت كلمة السر؟",
+        "forgotPw": "هل نسيت كلمة السر؟",
+        "forgotPwDesc": "أدخل البريد الإلكتروني الذي قمت بالتسجيل به وكلمة المرور الجديدة.",
+        "resetPw": "أدخل هذا الرمز لإعادة تعيين كلمة المرور الخاصة بك",
+        "updatePwSuccess": "تم تحديث كلمة المرور بنجاح",
         "login": "تسجيل الدخول",
-        "logout": "تسجيل خروج",
+        "logout": "تسجيل الخروج",
         "signUp": "اشتراك",
         "createAccount": "إنشاء حساب",
         "requestAccount": "ليس لديك حساب؟",
-        "backToLogin": "العودة إلى تسجيل الدخول"
+        "backToLogin": "العودة إلى تسجيل الدخول",
+        "linkAccountDesc": "أدخل هذا الرمز لربط حساباتك {{code}}"
       },
       "screens": {
         "quests": "أسئلة",
@@ -3275,7 +3294,8 @@
         "locations": "المواقع",
         "miscellaneous": "متنوع",
         "gameSelection": "اختيار اللعبة",
-        "sendRequest": "ارسل طلب",
+        "sendRequest": "إرسال الطلب",
+        "purchaseGame": "لعبة الشراء",
         "subscriptions": "الاشتراكات",
         "selectGame": "اختر لعبة",
         "addSteamId": "أضف معرف البخار",
@@ -3283,17 +3303,25 @@
         "payments": "قسط",
         "settings": "إعدادات",
         "accountDetails": "تفاصيل الحساب",
-        "verifyAccount": "تحقق من حسابك"
+        "verifyAccount": "التحقق من حسابك",
+        "forgotPw": "هل نسيت كلمة السر",
+        "verifyNewPw": "التحقق من كلمة المرور الجديدة"
       },
       "login": {
         "instructions1": "يجب أن تحتوي كلمة المرور على الأقل على:",
-        "instructions2": "\n• 8 أحرف\n",
-        "accountVerification": "تحقق من رسائل البريد الإلكتروني الخاصة بك وأدخل رمز التحقق"
+        "instructions2": "\n• 8 أحرف \n",
+        "accountVerification": "تحقق من رسائل البريد الإلكتروني الخاصة بك وأدخل رمز التحقق. \n",
+        "resendToken": "إعادة إرسال رمز التحقق",
+        "tokenResent": "تمت إعادة إرسال رمز التحقق."
       },
       "selectGame": {
-        "selectGameDesc1": "باستخدام الحساب المجاني، يمكنك اختيار لعبة واحدة كل شهر لتتبعها.",
-        "selectGameDesc2": "اختر لعبتك الأولى أدناه!",
-        "selectGameDesc3": "لا تقلق إذا ارتكبت أي خطأ، فستتمكن من تغيير هذا مرة واحدة شهريًا."
+        "selectGameDesc1": "اللعبة الأولى التي تختارها ستكون مجانية.",
+        "selectGameDesc2": "يمكن شراء المزيد من الألعاب بدفعة واحدة.",
+        "selectGameDesc3": "اختر لعبتك المجانية أدناه!",
+        "selection": "لقد قمت بتحديد:\n{{gameTitle}}"
+      },
+      "purchaseGame": {
+        "title": "لعبة الشراء"
       },
       "subscriptions": {
         "subscriptionDesc": "مع اشتراك بريميوم،\n",
@@ -3301,7 +3329,7 @@
         "free": "حر",
         "premium": "غالي",
         "accessMultipleGames": "الوصول إلى ألعاب متعددة",
-        "noAds": "لا اعلانات",
+        "noAds": "لا إعلانات",
         "withAds": "مع الإعلانات",
         "accessSteam": "الوصول إلى إنجازات البخار",
         "prerequisiteTracking": "التتبع الآلي للمتطلبات الأساسية",
@@ -3315,7 +3343,7 @@
       },
       "payments": {
         "selectPlan": "اختر خطة الدفع:",
-        "selectType": "اختر طريقة الدفع:",
+        "selectType": "اختر نوع الدفع:",
         "confirm": "تأكيد الشراء"
       },
       "sendRequest": {
@@ -3325,19 +3353,23 @@
         "verifyAccount": "مرحبًا،\n\n\n{{code}}"
       },
       "settings": {
-        "setCollections": "تعيين المجموعات:",
+        "setCollections": "تعيين المجموعات النشطة:",
         "enabledDLC": "تمكين/تعطيل المحتوى القابل للتنزيل:",
-        "showHide": "اظهر المخفي:",
+        "showHide": "إظهار/إخفاء:",
         "completedItems": "العناصر المكتملة",
         "disabledSections": "الأقسام المعطلة",
         "changeAccountDetails": "تغيير تفاصيل الحساب",
-        "selectLanguage": "اختار اللغة:"
+        "selectLanguage": "اختر اللغة:"
       },
       "accountDetails": {
-        "changeUsername": "غير اسم المستخدم",
-        "changeEmail": "تغيير الايميل",
-        "changePassword": "تغيير كلمة المرور",
-        "updateDetails": "تحديث التفاصيل"
+        "changeUsername": "تغيير اسم المستخدم",
+        "changeEmail": "تغيير البريد الإلكتروني",
+        "changePw": "تغيير كلمة المرور",
+        "updateDetails": "تحديث التفاصيل",
+        "currentPw": "كلمة المرور الحالية",
+        "newPw": "كلمة المرور الجديدة",
+        "invalidUserName": "يرجى التأكد من أن اسم المستخدم يحتوي على حرف واحد على الأقل.",
+        "invalidUserEmail": "يرجى التأكد من أنك تستخدم بريدا إلكترونيا صالحا."
       },
       "steamAchievements": {
         "addSteamIdStep1": "الخطوة 1. ابحث عن معرف Steam الخاص بك وأضفه",
@@ -3350,33 +3382,50 @@
       },
       "errors": {
         "error": "خطأ",
+        "incorrectCode": "رمز غير صحيح",
+        "incorrectCodeDesc": "الرمز الذي أدخلته غير صحيح. ",
         "pleaseRefreshApp": "يرجى تحديث التطبيق",
-        "emailAlreadyExists": "البريد الالكتروني موجود بالفعل",
-        "emailNotFound": "البريد الإلكتروني غير موجود",
+        "emailAlreadyExists": "البريد الإلكتروني موجود بالفعل",
+        "emailNotFound": "لم يتم العثور على البريد الإلكتروني",
         "noEmailExists": "البريد الإلكتروني غير موجود",
         "checkCredentials": "يرجى التحقق من بيانات الاعتماد الخاصة بك وحاول مرة أخرى.",
-        "incorrectPw": "كلمة سر خاطئة. ",
+        "incorrectPw": "كلمة مرور غير صحيحة. ",
         "googleSignIn": "حدث خطأ أثناء تسجيل الدخول إلى Google",
         "googleSignInMsg": "حدثت مشكلة أثناء الحصول على معلومات لحساب Google هذا.",
         "accountExists": "الحساب موجود بالفعل",
         "accountExistsMsg": "هل ترغب في ربط هذه الحسابات؟",
         "permissionDenied": "تم رفض الإذن",
         "permissionDeniedMsg": "يرجى السماح بالوصول من خلال إعدادات Steam الخاصة بك.",
-        "unauthorized": "غير مصرح",
+        "unauthorized": "غير مصرح به",
         "unauthorizedMsg": "أنت غير مصرح لك باستخدام هذا الحساب. ",
-        "steamAchievements": "لا يمكن الحصول على إنجازات البخار لهذه اللعبة."
+        "steamAchievements": "لا يمكن الحصول على إنجازات البخار لهذه اللعبة.",
+        "differentEmail": "الرجاء استخدام عنوان بريد إلكتروني مختلف.",
+        "linkedWithGoogle": "تم ربط هذا البريد الإلكتروني بالفعل من خلال Google. \n",
+        "linkedWithRegular": "تم ربط هذا البريد الإلكتروني بالفعل. \n",
+        "retryLogin": "لا يمكنك إنشاء حساب جديد بهذا البريد الإلكتروني. ",
+        "noSteamId": "لم يتم العثور على معرف البخار."
       },
       "alerts": {
-        "ok": "نعم",
-        "activate": "تفعيل",
-        "cancel": "يلغي",
-        "changesLeft": "ستملك {{changesLeft}} يتغير{{s}} غادر.",
+        "cta": {
+          "ok": "نعم",
+          "activate": "فعل",
+          "cancel": "يلغي",
+          "deleteAccount": "حذف الحساب"
+        },
+        "unsavedChanges": "التغييرات غير المحفوظة",
+        "unsavedChangesMessage": "هل أنت متأكد أنك تريد العودة؟",
+        "deleteConfirmation": "هل أنت متأكد؟",
+        "deleteConfirmationMessage": "إذا قمت بحذف هذا الحساب، فلن تتمكن من استعادته.",
+        "deleteSuccess": "تم حذف الحساب بنجاح.",
+        "unlinkAccount": "هل أنت متأكد أنك تريد إلغاء ربط حسابك؟",
+        "changesLeft": "سيكون لديك {{changesLeft}} يتغير{{s}} غادر.",
         "noChangesLeft": "لا توجد تغييرات اليسار",
-        "noChangesLeftMessage": "عذرًا، لم يتبق لديك أي تغييرات في اللعبة لهذا الشهر.\n "
+        "noChangesLeftMessage": "عذرًا، لم يتبق لديك أي تغييرات في اللعبة لهذا الشهر.\n ",
+        "updateSuccess": "تم التحديث بنجاح."
       },
       "languages": {
         "ar": "عربي",
-        "de": "ألمانية",
+        "de": "الألمانية",
         "en": "إنجليزي",
         "es": "الأسبانية",
         "fr": "فرنسي",
@@ -3385,11 +3434,34 @@
         "it": "ايطالي",
         "ja": "اليابانية",
         "pt": "البرتغالية",
-        "tr": "اللغة التركية",
+        "tr": "تركي",
         "vi": "الفيتنامية",
-        "zh": "صينى"
+        "zh": "الصينية"
       },
       "categories": {
+        "eldenRing": {
+          "title": "خاتم الدن",
+          "categories": {
+            "quests": {
+              "mainQuests": "المهام الرئيسية"
+            },
+            "collectables": {
+              "legendaryWeapons": "الأسلحة الأسطورية",
+              "legendarySpiritAshes": "رماد الروح الأسطوري",
+              "armourSets": "مجموعات الدروع"
+            },
+            "locations": {
+              "main": "رئيسي"
+            },
+            "miscellaneous": {
+              "legendarySpells": "نوبات الأسطورية",
+              "achievementBosses": "رؤساء الإنجاز"
+            }
+          },
+          "dlc": {
+            "shadowOfTheErdtree": "ظل إردتري"
+          }
+        },
         "fallout3": {
           "title": "تداعيات 3",
           "categories": {
@@ -3401,7 +3473,7 @@
               "repeatableQuests": "أسئلة متكررة"
             },
             "collectables": {
-              "bobbleheads": "رؤؤس فقاعية",
+              "bobbleheads": "الرؤوس الفقاعية",
               "uniqueArmor": "درع فريد",
               "uniqueWeapons": "أسلحة فريدة من نوعها"
             },
@@ -3417,7 +3489,7 @@
           "dlc": {
             "brokenSteel": "الفولاذ المكسور",
             "mothershipZeta": "الأم زيتا",
-            "operationAnchorage": "عملية مرسى",
+            "operationAnchorage": "العملية: مرسى",
             "pointLookout": "نقطة مراقبة",
             "thePitt": "البيت"
           }
@@ -3431,7 +3503,7 @@
               "sideQuests": "أسئلة جانبية"
             },
             "collectables": {
-              "bobbleheads": "رؤؤس فقاعية",
+              "bobbleheads": "الرؤوس الفقاعية",
               "magazines": "المجلات",
               "uniqueArmor": "درع فريد",
               "uniqueWeapons": "أسلحة فريدة من نوعها"
@@ -3456,7 +3528,7 @@
             "quests": {
               "mainQuests": "المهام الرئيسية",
               "factionQuests": "أسئلة الفصائل",
-              "civilWar": "حرب اهلية",
+              "civilWar": "الحرب الأهلية",
               "daedricQuests": "أسئلة ديدريك",
               "dungeonQuests": "أسئلة الزنزانة",
               "miscellaneousQuests": "أسئلة متنوعة",
@@ -3494,7 +3566,7 @@
             "quests": {
               "mainQuests": "المهام الرئيسية",
               "secondaryQuests": "أسئلة ثانوية",
-              "contracts": "انكماش",
+              "contracts": "العقود",
               "treasureHunts": "البحث عن الكنز"
             },
             "collectables": {
