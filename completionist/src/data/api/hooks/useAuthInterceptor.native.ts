@@ -2,7 +2,11 @@ import { Alert, Platform } from 'react-native';
 import axios from 'axios';
 import { setupCache } from 'axios-cache-interceptor';
 import { useKeychain } from '@data/hooks/index';
-import { useLogger } from '@utils/hooks/index';
+import {
+  logErrorData,
+  logSuccessfulApi,
+  logErrorApi,
+} from '@utils/hooks/index';
 import {
   getApiNameFromUrl,
   AxiosErrorResponse,
@@ -14,7 +18,7 @@ import { useTranslation } from 'react-i18next';
 const useAuthInterceptor = () => {
   const { t } = useTranslation();
   const { storeCredentials, getCredentials } = useKeychain();
-  const { logErrorData, logSuccessfulApi, logErrorApi } = useLogger();
+
   const { handleAxiosError } = useHandleAxiosError();
 
   const url =

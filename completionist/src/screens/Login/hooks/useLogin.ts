@@ -7,7 +7,7 @@ import useLoginState from '@components/custom/LoginForm/provider/useLoginState';
 import useLoginDispatch from '@components/custom/LoginForm/provider/useLoginDispatch';
 import useSendVerificationEmail from '@components/custom/LoginForm/hooks/useSendVerificationEmail';
 import useAuthEndpoints from '@data/api/hooks/useAuthEndpoints.native';
-import useValidator from '@utils/hooks/useValidator';
+import { isPwValid } from '@utils/hooks/index';
 import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
 
 const useLogin = () => {
@@ -18,7 +18,6 @@ const useLogin = () => {
   const isKeyboardVisible = useIsKeyboardVisible();
   const sendVerificationEmail = useSendVerificationEmail();
   const { checkUserExists } = useAuthEndpoints();
-  const { isPwValid } = useValidator();
   const [submitPressed, setSubmitPressed] = useState<boolean>(false);
 
   const onSubmit = () => {

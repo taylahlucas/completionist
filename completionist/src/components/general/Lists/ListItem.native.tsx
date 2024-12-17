@@ -9,7 +9,7 @@ import {
 } from '@components/general/Lists/index';
 import AnimatedCheckBox from '../Checkbox/AnimatedCheckBox.native';
 import { Condition } from '@components/general/index';
-import useGetLocationString from '@utils/hooks/useGetLocationString';
+import { getLocationString } from '@utils/hooks/index';
 import StyledText from '../Text/StyledText.native';
 import { capitalize } from '@utils/hooks/index';
 import useContentDispatch from '@components/custom/ContentList/provider/useContentDispatch';
@@ -33,7 +33,7 @@ export const ListItem = ({
   action,
 }: ListItemProps) => {
   const theme = useGetTheme();
-  const locationString = useGetLocationString({ hold, location });
+  // TODO: Move this out of ListItem
   const { setWebViewHref } = useContentDispatch();
   const fadeValue = useRef(new Animated.Value(isComplete ? 0 : 1)).current;
   const [isPressed, setPressed] = useState<boolean>(false);
@@ -88,7 +88,7 @@ export const ListItem = ({
               color={isComplete ? theme.midGrey : theme.darkGrey}
               ellipsizeMode={'tail'}
               numberOfLines={1}>
-              {locationString}
+              {getLocationString({ hold, location })}
             </StyledText>
           </ListItemLocationContainer>
         </Condition>

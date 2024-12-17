@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import useDLCOptions from '@components/custom/Settings/hooks/useDLCOptions';
 import useGetShowHideOptions from '@components/custom/Settings/hooks/useGetShowHideOptions';
-import useHandleScroll from '@utils/hooks/useHandleScroll.native';
+import { handleScroll } from '@utils/hooks/index';
 import { SettingsOptionEnum } from '@utils/CustomEnums';
 import useMainState from '@redux/hooks/useMainState';
 import useEndpoints from '@data/api/hooks/useEndpoints.native';
@@ -26,7 +26,6 @@ const useSettings = () => {
   const { setUser, setShouldUpdateUser } = useMainDispatch();
   const { getDLCOptions, setDLCOptions } = useDLCOptions();
   const options = useGetShowHideOptions();
-  const handleScroll = useHandleScroll();
   const { getSteamUserById } = useEndpoints();
   const { deleteUserData } = useEditUserData();
   const isGlobalSettings = !selectedGame;

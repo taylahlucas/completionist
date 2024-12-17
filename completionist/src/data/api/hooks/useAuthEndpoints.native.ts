@@ -18,7 +18,7 @@ import {
 } from '@data/api/EndpointInterfaces.native';
 import useHandleAxiosError from './useHandleAxiosError';
 import { REFRESH_CACHE_KEY, requestCodes, UserResponse } from '@utils/index';
-import useCache from './useCache.native';
+import { saveToCache } from './useCache.native';
 import useAuthInterceptor from './useAuthInterceptor.native';
 
 const useAuthEndpoints = (): AuthEndpointsReturnType => {
@@ -26,7 +26,6 @@ const useAuthEndpoints = (): AuthEndpointsReturnType => {
     Platform.OS === 'ios'
       ? process.env.IOS_LOCAL_URL
       : process.env.ANDROID_LOCAL_URL;
-  const { saveToCache } = useCache();
   const { handleAxiosError } = useHandleAxiosError();
   const authInterceptor = useAuthInterceptor();
 

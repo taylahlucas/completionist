@@ -11,7 +11,7 @@ import { SignInProps } from '@data/api/EndpointInterfaces.native';
 import useSendVerificationEmail from '@components/custom/LoginForm/hooks/useSendVerificationEmail';
 import useLoginDispatch from '../provider/useLoginDispatch';
 import useEndpoints from '@data/api/hooks/useEndpoints.native';
-import { useLogger } from '@utils/hooks/index';
+import { log } from '@utils/hooks/index';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
 
 interface GoogleError {
@@ -27,7 +27,6 @@ interface GetLoginMethodsReturnType {
 
 const useGetLoginMethods = (): GetLoginMethodsReturnType => {
   const { t } = useTranslation();
-  const { log } = useLogger();
   const { user, shouldUpdateUser } = useMainState();
   const { setSelectedGameSettings } = useMainDispatch();
   const { setLoggedIn, triggerIsSigningUp, setIsGoogleSignIn } =

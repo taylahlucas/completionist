@@ -1,5 +1,5 @@
 import { renderHook } from '@utils/testing/TestLibraryUtils.native';
-import useFormatter from '@utils/hooks/useFormatter';
+import formatter from '@utils/hooks/formatter';
 
 // TODO: Fix
 describe('useFormatter', () => {
