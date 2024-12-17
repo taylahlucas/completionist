@@ -39,7 +39,7 @@ export const useEditUserData = (): EditUserDataReturnType => {
               saveToCache(user);
               setLoggedIn(true);
               if (!selectedGame) {
-                setSelectedGameSettings(user.gameData[0].id);
+                setSelectedGameSettings(user.gameData[0]?.id);
               }
             }
           });
@@ -48,8 +48,8 @@ export const useEditUserData = (): EditUserDataReturnType => {
             // 	checkUpdateChangesLeft(cachedData);
             saveUser(cachedData);
             setLoggedIn(true);
-            if (!selectedGame) {
-              setSelectedGameSettings(cachedData.gameData[0].id);
+            if (!selectedGame && cachedData.gameData) {
+              setSelectedGameSettings(cachedData?.gameData[0]?.id);
             }
           }
         }

@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import {ScrollableList} from '@components/general/Lists/index';
+import { ScrollableList } from '@components/general/Lists/index';
 import { styles } from './GameListItemStyledComponents.native';
 import GameListSectionDropdown from './GameListSectionDropdown.native';
 import { useGameList } from './hooks/useGameList.native';
@@ -11,21 +11,25 @@ interface GameListProps {
 
 const GameList = ({ searchValue }: GameListProps) => {
   const { t } = useTranslation();
-	const { viewModel, actions } = useGameList();
+  const { viewModel, actions } = useGameList();
 
   return (
     <ScrollableList contentContainerStyle={styles.scrollableContent}>
       <GameListSectionDropdown
-				testID={'active-games'}
-        type='active'
+        testID={'active-games'}
+        type="active"
         title={t('common:active')}
-				data={actions.filterGameList(viewModel.activeGames, true, searchValue)}
+        data={actions.filterGameList(viewModel.activeGames, true, searchValue)}
       />
-      <GameListSectionDropdown 
-				testID={'inactive-games'}
-        type='inactive'
+      <GameListSectionDropdown
+        testID={'inactive-games'}
+        type="inactive"
         title={t('common:inactive')}
-				data={actions.filterGameList(viewModel.disabledGames, false, searchValue)}
+        data={actions.filterGameList(
+          viewModel.disabledGames,
+          false,
+          searchValue,
+        )}
       />
     </ScrollableList>
   );

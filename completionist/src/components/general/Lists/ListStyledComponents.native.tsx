@@ -1,30 +1,36 @@
 import { Animated, StyleSheet } from 'react-native';
 import styled from 'styled-components/native';
 import StyledText from '@components/general/Text/StyledText.native';
-import { DEFAULT_BORDER_RADIUS, SMALL_PADDING, MID_PADDING, LARGE_PADDING, windowWidth } from '@styles/global.native';
+import {
+  DEFAULT_BORDER_RADIUS,
+  SMALL_PADDING,
+  MID_PADDING,
+  LARGE_PADDING,
+  windowWidth,
+} from '@styles/global.native';
 import Button from '../Button/Button.native';
 import { LARGE_WIDTH } from '@styles/global.native';
 
 export const listStyles = StyleSheet.create({
   scrollableContent: {
     paddingBottom: 24,
-		paddingHorizontal: SMALL_PADDING,
-		alignItems: 'center'
+    paddingHorizontal: SMALL_PADDING,
+    alignItems: 'center',
   },
   listItemList: {
     alignItems: 'center',
-		paddingBottom: 20
+    paddingBottom: 20,
   },
   selectableButton: {
     minHeight: 45,
     justifyContent: 'center',
-    flexDirection: 'row'
+    flexDirection: 'row',
   },
   subSelectableButton: {
-    marginLeft: MID_PADDING
+    marginLeft: MID_PADDING,
   },
   subTypeSelectableButton: {
-    marginLeft: LARGE_PADDING
+    marginLeft: LARGE_PADDING,
   },
 });
 
@@ -89,7 +95,7 @@ export const ListItemLocationContainer = styled.View`
 export const SelectionListContainer = styled.View`
   width: ${LARGE_WIDTH}px;
   padding-left: 24px;
-	padding-right: 24px;
+  padding-right: 24px;
 `;
 
 export const SelectionListItemContainer = styled.View`
@@ -99,5 +105,5 @@ export const SelectionListItemContainer = styled.View`
 `;
 
 export const SelectListTitle = styled(StyledText)`
-	margin-right: ${LARGE_PADDING}px;
+  margin-right: ${LARGE_PADDING}px;
 `;
