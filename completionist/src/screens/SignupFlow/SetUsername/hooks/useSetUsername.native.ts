@@ -1,6 +1,6 @@
-import {useEditUserData} from '@data/hooks/index';
-import useMainState from "@redux/hooks/useMainState";
-import { useState } from "react";
+import { useEditUserData } from '@data/hooks/index';
+import useMainState from '@redux/hooks/useMainState';
+import { useState } from 'react';
 
 export const useSetUsername = () => {
   const { user } = useMainState();
@@ -10,11 +10,11 @@ export const useSetUsername = () => {
   return {
     viewModel: {
       user,
-      username
+      username,
     },
     actions: {
       setUsername,
-      updateUserData
-    }
-  }
+      updateUserData,
+    },
+  };
 };

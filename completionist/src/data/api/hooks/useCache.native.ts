@@ -8,7 +8,6 @@ import {
   UserResponse,
 } from '@utils/index';
 
-
 interface CacheReturnType {
   saveToCache: (data: User, key?: string) => Promise<void>;
   getFromCache: (key?: string) => Promise<any>;
@@ -17,7 +16,7 @@ interface CacheReturnType {
 }
 
 const useCache = (): CacheReturnType => {
-  const {log} = useLogger();
+  const { log } = useLogger();
 
   const getFromCache = async (key?: string): Promise<any | null> => {
     try {
@@ -26,7 +25,7 @@ const useCache = (): CacheReturnType => {
       );
 
       if (cachedDataString) {
-        const {data, timestamp}: CachedData = JSON.parse(cachedDataString);
+        const { data, timestamp }: CachedData = JSON.parse(cachedDataString);
         const currentTime = new Date().getTime();
 
         if (currentTime - timestamp < CACHE_EXPIRY_TIME) {
@@ -67,7 +66,7 @@ const useCache = (): CacheReturnType => {
   const saveToCache = async (data: any, key?: string): Promise<void> => {
     try {
       const timestamp = new Date().getTime();
-      const cacheData: CachedData = {data, timestamp};
+      const cacheData: CachedData = { data, timestamp };
       const cacheDataString = JSON.stringify(cacheData);
 
       await AsyncStorage.setItem(key ? key : USER_CACHE_KEY, cacheDataString);

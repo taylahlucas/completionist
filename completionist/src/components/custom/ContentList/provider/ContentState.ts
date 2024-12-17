@@ -6,14 +6,14 @@ export interface ContentState {
   readonly sectionType: ContentSectionEnum;
   readonly searchValue: string;
   readonly selectedCategory: DropDownType;
-	readonly webViewHref?: string;
-};
+  readonly webViewHref?: string;
+}
 
 export const initialState: ContentState = {
   sectionType: ContentSectionEnum.QUESTS,
   searchValue: '',
   selectedCategory: {
-    category: ''
+    category: '',
   },
 };
 
@@ -30,28 +30,27 @@ const slice = createSlice({
     setSelectedCategory: (state, action) => {
       if (action.payload.category === '') {
         state.selectedCategory = {
-          category: ''
-        }
-      }
-      else {
+          category: '',
+        };
+      } else {
         state.selectedCategory = action.payload;
       }
     },
-		setWebViewHref: (state, action) => {
-			state.webViewHref = action.payload;
-		},
-    reset: (state) => {
-			state = initialState;
-    }
-  }
+    setWebViewHref: (state, action) => {
+      state.webViewHref = action.payload;
+    },
+    reset: state => {
+      state = initialState;
+    },
+  },
 });
 
 export const {
   setSelectedSection,
   setSearchValue,
   setSelectedCategory,
-	setWebViewHref,
-  reset
+  setWebViewHref,
+  reset,
 } = slice.actions;
 
 export default slice.reducer;

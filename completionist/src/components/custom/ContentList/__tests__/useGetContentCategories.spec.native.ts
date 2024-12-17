@@ -2,93 +2,106 @@ import { renderHook } from '@utils/testing/TestLibraryUtils.native';
 import { initialState as mainState } from '@redux/MainState';
 import { mockSettingsSections } from '@utils/testing/test-helper/__mocks__/mocks';
 import useGetContentCategories from '../hooks/useGetContentCategories';
-import { ContentSectionEnum, GameKeyEnum, SettingsOptionEnum } from '@utils/CustomEnums';
+import {
+  ContentSectionEnum,
+  GameKeyEnum,
+  SettingsOptionEnum,
+} from '@utils/CustomEnums';
 import { userMockInitial } from '@utils/testing/test-helper/__mocks__/mocks';
 
 describe('useGetContentCategories', () => {
-	const initialState = {
-		main: {
-			...mainState,
-			selectedGame: GameKeyEnum.SKYRIM,
-			selectedGameData: {
-				...mainState.selectedGameData,
-				settingsConfig: mockSettingsSections
-			},
-		},
-		content: {
-			sectionType: ContentSectionEnum.QUESTS,
-		}
-	};
+  const initialState = {
+    main: {
+      ...mainState,
+      selectedGame: GameKeyEnum.SKYRIM,
+      selectedGameData: {
+        ...mainState.selectedGameData,
+        settingsConfig: mockSettingsSections,
+      },
+    },
+    content: {
+      sectionType: ContentSectionEnum.QUESTS,
+    },
+  };
 
-	afterEach(() => {
-		jest.clearAllMocks();
-	});
+  afterEach(() => {
+    jest.clearAllMocks();
+  });
 
-	it('getContentCategories renders the correct categories', () => {
-		const { result } = renderHook(() => useGetContentCategories(), initialState);
-		const data = result.current.getContentCategories();
+  it('getContentCategories renders the correct categories', () => {
+    const { result } = renderHook(
+      () => useGetContentCategories(),
+      initialState,
+    );
+    const data = result.current.getContentCategories();
 
-		expect(data).toEqual([
-			{
-				id: "mainQuests",
-				title: "common:categories.skyrim.categories.quests.mainQuests",
-				isActive: true
-			},
-			{
-				id: "dawnguard",
-				title: "common:categories.skyrim.dlc.dawnguard",
-				isActive: true
-			}
-		]);
-	});
+    expect(data).toEqual([
+      {
+        id: 'mainQuests',
+        title: 'common:categories.skyrim.categories.quests.mainQuests',
+        isActive: true,
+      },
+      {
+        id: 'dawnguard',
+        title: 'common:categories.skyrim.dlc.dawnguard',
+        isActive: true,
+      },
+    ]);
+  });
 
-	it('returns the correct sections when shouldShowDisabledSections is false', () => {
-		const updatedInitialState = {
-			...initialState,
-			main: {
-				user: {
-					...userMockInitial,
-					settings: {
-						configs: [
-							{
-								id: SettingsOptionEnum.DISABLED_SECTIONS,
-								isActive: false
-							}
-						]
-					}
-				}
-			},
-			content: {
-				sectionType: ContentSectionEnum.COLLECTABLES,
-			}
-		};
+  it('returns the correct sections when shouldShowDisabledSections is false', () => {
+    const updatedInitialState = {
+      ...initialState,
+      main: {
+        user: {
+          ...userMockInitial,
+          settings: {
+            configs: [
+              {
+                id: SettingsOptionEnum.DISABLED_SECTIONS,
+                isActive: false,
+              },
+            ],
+          },
+        },
+      },
+      content: {
+        sectionType: ContentSectionEnum.COLLECTABLES,
+      },
+    };
 
-		const { result } = renderHook(() => useGetContentCategories(), updatedInitialState);
-		const data = result.current.getContentCategories();
+    const { result } = renderHook(
+      () => useGetContentCategories(),
+      updatedInitialState,
+    );
+    const data = result.current.getContentCategories();
 
-		expect(data).toEqual([]);
-	});
+    expect(data).toEqual([]);
+  });
 
-	it('getContentSubCategories returns the correct categories', () => {
-		const { result } = renderHook(() => useGetContentCategories(), initialState);
-		const data = result.current.getContentSubCategories('Main Quests', GameKeyEnum.SKYRIM);
+  it('getContentSubCategories returns the correct categories', () => {
+    const { result } = renderHook(
+      () => useGetContentCategories(),
+      initialState,
+    );
+    const data = result.current.getContentSubCategories(
+      'Main Quests',
+      GameKeyEnum.SKYRIM,
+    );
 
-		expect(data).toEqual([
-			"Act I",
-			"Act II",
-			"Act III"
-		]);
-	});
+    expect(data).toEqual(['Act I', 'Act II', 'Act III']);
+  });
 
-	it('getContentSubCategoriesTypes returns the correct categories', () => {
-		const { result } = renderHook(() => useGetContentCategories(), initialState);
-		const data = result.current.getContentSubCategoriesTypes('Dark Brotherhood', GameKeyEnum.SKYRIM);
+  it('getContentSubCategoriesTypes returns the correct categories', () => {
+    const { result } = renderHook(
+      () => useGetContentCategories(),
+      initialState,
+    );
+    const data = result.current.getContentSubCategoriesTypes(
+      'Dark Brotherhood',
+      GameKeyEnum.SKYRIM,
+    );
 
-		expect(data).toEqual([
-			"Main",
-			"Contracts",
-			"Side Quests",
-			"Other Quests"
-		]);
-	});
+    expect(data).toEqual(['Main', 'Contracts', 'Side Quests', 'Other Quests']);
+  });
 });

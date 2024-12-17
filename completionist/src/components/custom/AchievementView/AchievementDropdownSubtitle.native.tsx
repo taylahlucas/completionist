@@ -4,36 +4,38 @@ import Icon from '@components/general/Icon/Icon.native';
 import { IconTypeEnum } from '@utils/CustomEnums';
 import { DropdownTitleContainer } from '@components/general/Dropdown/index';
 import StyledText from '@components/general/Text/StyledText.native';
-import {Seperator} from '@components/general/index';
+import { Seperator } from '@components/general/index';
 
 interface AchievementDropdownSubtitleProps {
-	title: string;
-	isOpen: boolean;
+  title: string;
+  isOpen: boolean;
 }
 
-const AchievementDropdownSubtitle = ({ title, isOpen }: AchievementDropdownSubtitleProps) => {
-	const theme = useGetTheme();
+const AchievementDropdownSubtitle = ({
+  title,
+  isOpen,
+}: AchievementDropdownSubtitleProps) => {
+  const theme = useGetTheme();
 
-	return (
-		<>
-		<DropdownTitleContainer>
-			<StyledText
-				align='left'
-				type='ListItemTitleBold'
-				style={{ paddingTop: 8, paddingLeft: 16 }}
-			>
-				{title}
-			</StyledText>
-			<Icon 
-				name={isOpen ? 'arrow-drop-down' : 'arrow-right'} 
-				type={IconTypeEnum.MaterialIcons}
-				style={{ top: 6 }}
-				color={theme.midGrey}
-			/>
-		</DropdownTitleContainer>
-		<Seperator />
-	</>
-	);
+  return (
+    <>
+      <DropdownTitleContainer>
+        <StyledText
+          align="left"
+          type="ListItemTitleBold"
+          style={{ paddingTop: 8, paddingLeft: 16 }}>
+          {title}
+        </StyledText>
+        <Icon
+          name={isOpen ? 'arrow-drop-down' : 'arrow-right'}
+          type={IconTypeEnum.MaterialIcons}
+          style={{ top: 6 }}
+          color={theme.midGrey}
+        />
+      </DropdownTitleContainer>
+      <Seperator />
+    </>
+  );
 };
 
 export default AchievementDropdownSubtitle;

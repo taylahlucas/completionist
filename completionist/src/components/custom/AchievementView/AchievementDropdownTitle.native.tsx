@@ -6,37 +6,36 @@ import { DropdownTitleContainer } from '@components/general/Dropdown/index';
 import StyledText from '@components/general/Text/StyledText.native';
 
 interface AchievementDropdownTitleProps {
-	title: string;
-	isOpen: boolean;
+  title: string;
+  isOpen: boolean;
 }
 
-const AchievementDropdownTitle = ({ title, isOpen }: AchievementDropdownTitleProps) => {
-	const theme = useGetTheme();
+const AchievementDropdownTitle = ({
+  title,
+  isOpen,
+}: AchievementDropdownTitleProps) => {
+  const theme = useGetTheme();
 
-	return (
-		<DropdownTitleContainer>
-			<StyledText
-				align='left'
-				type='SubHeading'
-				color={theme.lightGrey}
-				style={{
-					paddingBottom: 8,
-					paddingLeft: 8
-				}}
-			>
-				{title}
-			</StyledText>
-			<Icon
-				name={isOpen
-					? 'arrow-drop-down'
-					: 'arrow-right'
-				}
-				type={IconTypeEnum.MaterialIcons}
-				color={theme.lightGrey}
-				style={{ bottom: 2 }}
-			/>
-		</DropdownTitleContainer>
-	);
+  return (
+    <DropdownTitleContainer>
+      <StyledText
+        align="left"
+        type="SubHeading"
+        color={theme.lightGrey}
+        style={{
+          paddingBottom: 8,
+          paddingLeft: 8,
+        }}>
+        {title}
+      </StyledText>
+      <Icon
+        name={isOpen ? 'arrow-drop-down' : 'arrow-right'}
+        type={IconTypeEnum.MaterialIcons}
+        color={theme.lightGrey}
+        style={{ bottom: 2 }}
+      />
+    </DropdownTitleContainer>
+  );
 };
 
 export default AchievementDropdownTitle;

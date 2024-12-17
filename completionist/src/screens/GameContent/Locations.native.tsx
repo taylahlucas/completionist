@@ -10,19 +10,22 @@ import useGameContent from './hooks/useGameContent';
 
 const Locations = () => {
   const { t } = useTranslation();
-	const { viewModel, actions } = useGameContent();
+  const { viewModel, actions } = useGameContent();
 
   return (
     <StandardLayout>
-      <NavigationHeader id={DrawerScreenEnum.Locations} title={t('common:screens.locations')} />
-      <CustomSearchBar 
-        searchValue={viewModel.searchValue} 
+      <NavigationHeader
+        id={DrawerScreenEnum.Locations}
+        title={t('common:screens.locations')}
+      />
+      <CustomSearchBar
+        searchValue={viewModel.searchValue}
         setSearchValue={actions.setSearchValue}
-        onReset={(): void => actions.setSearchValue('')} 
+        onReset={(): void => actions.setSearchValue('')}
       />
       <CompletedQuantityTitle type={'ListItemSubTitleBold'}>
-				{`${viewModel.locations.completed}/${viewModel.locations.total}`}
-				</CompletedQuantityTitle>
+        {`${viewModel.locations.completed}/${viewModel.locations.total}`}
+      </CompletedQuantityTitle>
       <ContentList />
     </StandardLayout>
   );

@@ -7,11 +7,11 @@ const useIsKeyboardVisible = (): boolean => {
   useEffect(() => {
     const keyboardDidShowListener = Keyboard.addListener(
       Platform.OS === 'ios' ? 'keyboardWillShow' : 'keyboardDidShow',
-      handleKeyboardDidShow
+      handleKeyboardDidShow,
     );
     const keyboardDidHideListener = Keyboard.addListener(
       Platform.OS === 'ios' ? 'keyboardWillHide' : 'keyboardDidHide',
-      handleKeyboardDidHide
+      handleKeyboardDidHide,
     );
 
     return () => {

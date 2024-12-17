@@ -4,6 +4,6 @@ import { StoreState } from '@utils/CustomInterfaces';
 
 const useMainState = (): MainState => {
   return useSelector((state: StoreState) => state.main);
-}
+};
 
 export default useMainState;

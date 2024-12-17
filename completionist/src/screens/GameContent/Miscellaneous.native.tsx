@@ -10,19 +10,22 @@ import useGameContent from './hooks/useGameContent';
 
 const Miscellaneous = () => {
   const { t } = useTranslation();
-	const { viewModel, actions } = useGameContent();
+  const { viewModel, actions } = useGameContent();
 
   return (
     <StandardLayout>
-      <NavigationHeader id={DrawerScreenEnum.Miscellaneous} title={t('common:screens.miscellaneous')} />
-      <CustomSearchBar 
+      <NavigationHeader
+        id={DrawerScreenEnum.Miscellaneous}
+        title={t('common:screens.miscellaneous')}
+      />
+      <CustomSearchBar
         searchValue={viewModel.searchValue}
         setSearchValue={actions.setSearchValue}
-        onReset={(): void => actions.setSearchValue('')} 
+        onReset={(): void => actions.setSearchValue('')}
       />
       <CompletedQuantityTitle type={'ListItemSubTitleBold'}>
-				{`${viewModel.misc.completed}/${viewModel.misc.total}`}
-				</CompletedQuantityTitle>
+        {`${viewModel.misc.completed}/${viewModel.misc.total}`}
+      </CompletedQuantityTitle>
       <ContentList />
     </StandardLayout>
   );

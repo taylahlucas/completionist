@@ -8,46 +8,47 @@ import CustomSearchBar from '@components/general/CustomSearchBar/CustomSearchBar
 import { AuthScreenEnum } from '@utils/CustomEnums';
 
 const GameSelection = () => {
-	// const theme = useGetTheme();
-	const { t } = useTranslation();
-	const { user } = useMainState();
-	const [searchValue, setSearchValue] = useState('');
+  // const theme = useGetTheme();
+  const { t } = useTranslation();
+  const { user } = useMainState();
+  const [searchValue, setSearchValue] = useState('');
 
-	// const renderSubscriptionComponent = (style: ViewStyle) => {
-	// 	return (
-	// 		<StyledText
-	// 			style={style}
-	// 			type='ListItemSubDescription'
-	// 			align='right'
-	// 		>
-	// 			{/* {user.subscription.tier.toLocaleUpperCase()} */}
-	// 			Test
-	// 		</StyledText>
-	// 	);
-	// };
+  // const renderSubscriptionComponent = (style: ViewStyle) => {
+  // 	return (
+  // 		<StyledText
+  // 			style={style}
+  // 			type='ListItemSubDescription'
+  // 			align='right'
+  // 		>
+  // 			{/* {user.subscription.tier.toLocaleUpperCase()} */}
+  // 			Test
+  // 		</StyledText>
+  // 	);
+  // };
 
-	// TODO: Test UI for paid subscription
-	return (
-		<StandardLayout>
-			<NavigationHeader
-				id={AuthScreenEnum.GameSelection}
-				title={`${t('common:welcome')}\n${user.username}`}
-				leftAction='achievements'
-				rightAction='settings'
-			/>
-			<CustomSearchBar
-				searchValue={searchValue}
-				setSearchValue={setSearchValue}
-				onReset={(): void => setSearchValue('')}
-			/>
-			<GameList searchValue={searchValue.toLocaleLowerCase()} />
-		</StandardLayout>
-	);
+  // TODO: Test UI for paid subscription
+  return (
+    <StandardLayout>
+      <NavigationHeader
+        id={AuthScreenEnum.GameSelection}
+        title={`${t('common:welcome')}\n${user.username}`}
+        leftAction="achievements"
+        rightAction="settings"
+      />
+      <CustomSearchBar
+        searchValue={searchValue}
+        setSearchValue={setSearchValue}
+        onReset={(): void => setSearchValue('')}
+      />
+      <GameList searchValue={searchValue.toLocaleLowerCase()} />
+    </StandardLayout>
+  );
 };
 
 export default GameSelection;
 
-			{/* <Condition
+{
+  /* <Condition
 				condition={user.subscription.tier === SubscriptionTypeEnum.FREE}
 				conditionalElement={renderSubscriptionComponent({ marginRight: 34 })}
 			>
@@ -69,4 +70,5 @@ export default GameSelection;
 					</View>
 					{renderSubscriptionComponent({ position: 'absolute', right: 34 })}
 				</GameSelectionChangesLeftContainer>
-			</Condition> */}
+			</Condition> */
+}

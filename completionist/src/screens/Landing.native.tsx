@@ -5,14 +5,14 @@ import { StandardLayoutContainer } from '@components/general/Layouts/StandardLay
 import LoadingAnimation from '@components/animations/LoadingAnimation.native';
 
 const Landing = () => {
-	const theme = useGetTheme();
-	const animationRef = useRef<LottieView>(null);
+  const theme = useGetTheme();
+  const animationRef = useRef<LottieView>(null);
 
-	return (
-		<StandardLayoutContainer color={theme.black}>
-			<LoadingAnimation ref={animationRef} source={''} />
-		</StandardLayoutContainer>
-	);
+  return (
+    <StandardLayoutContainer color={theme.black}>
+      <LoadingAnimation ref={animationRef} source={''} />
+    </StandardLayoutContainer>
+  );
 };
 
 export default Landing;

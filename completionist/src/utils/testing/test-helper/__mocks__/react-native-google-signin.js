@@ -16,7 +16,7 @@ jest.mock('react-native-google-signin', () => {
   mockGoogleSignin.GoogleSignin.currentUserAsync = () => {
     return Promise.resolve({
       name: 'name',
-      email: 'test@email.com'
+      email: 'test@email.com',
     });
   };
 

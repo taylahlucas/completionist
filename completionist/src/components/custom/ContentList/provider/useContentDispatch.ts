@@ -1,10 +1,10 @@
 import { Dispatch } from 'redux';
-import { 
+import {
   setSelectedSection,
   setSearchValue,
   setSelectedCategory,
-	setWebViewHref,
-  reset
+  setWebViewHref,
+  reset,
 } from './ContentState';
 import { useAppDispatch } from '@redux/store';
 import { DropDownType } from '@utils/CustomInterfaces';
@@ -14,7 +14,7 @@ interface ContentDispatch {
   setSelectedSection: (type: ContentSectionEnum) => void;
   setSearchValue: (value: string) => void;
   setSelectedCategory: (category: DropDownType) => void;
-	setWebViewHref: (value?: string) => void;
+  setWebViewHref: (value?: string) => void;
   reset: () => void;
 }
 
@@ -31,13 +31,13 @@ const useContentDispatch = (): ContentDispatch => {
     setSelectedCategory(category: DropDownType): void {
       dispatch(setSelectedCategory(category));
     },
-		setWebViewHref(value?: string): void {
-			dispatch(setWebViewHref(value));
-		},
+    setWebViewHref(value?: string): void {
+      dispatch(setWebViewHref(value));
+    },
     reset(): void {
       dispatch(reset());
-    }
-  }
-}
+    },
+  };
+};
 
 export default useContentDispatch;

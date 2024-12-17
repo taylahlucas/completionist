@@ -9,7 +9,7 @@
 // const Subscriptions = () => {
 // 	const { t } = useTranslation();
 // 	const { selectedGame } = useMainState();
-	
+
 // 	return (
 // 		<StandardLayout>
 // 			<NavigationHeader

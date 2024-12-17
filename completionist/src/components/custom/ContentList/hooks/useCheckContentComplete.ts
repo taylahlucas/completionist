@@ -1,6 +1,6 @@
 import useMainState from '@redux/hooks/useMainState';
-import {GameContentItem} from '@utils/CustomInterfaces';
-import {ContentSectionEnum} from '@utils/CustomEnums';
+import { GameContentItem } from '@utils/CustomInterfaces';
+import { ContentSectionEnum } from '@utils/CustomEnums';
 import useContentState from '../provider/useContentState';
 
 interface CheckContentCompleteReturnType {
@@ -9,8 +9,8 @@ interface CheckContentCompleteReturnType {
 }
 
 const useCheckContentComplete = (): CheckContentCompleteReturnType => {
-  const {selectedGame} = useMainState();
-  const {sectionType} = useContentState();
+  const { selectedGame } = useMainState();
+  const { sectionType } = useContentState();
 
   const checkContentComplete = (id: string): boolean => {
     switch (sectionType) {
@@ -81,7 +81,7 @@ const useCheckContentComplete = (): CheckContentCompleteReturnType => {
     }
   };
 
-  return {checkContentComplete, checkContentCompleteForCategory};
+  return { checkContentComplete, checkContentCompleteForCategory };
 };
 
 export default useCheckContentComplete;

@@ -10,15 +10,18 @@ import useGameContent from './hooks/useGameContent';
 
 const Collectables = () => {
   const { t } = useTranslation();
-	const { viewModel, actions } = useGameContent();
+  const { viewModel, actions } = useGameContent();
 
   return (
     <StandardLayout>
-      <NavigationHeader id={DrawerScreenEnum.Collectables} title={t('common:screens.collectables')} />
-      <CustomSearchBar 
-        searchValue={viewModel.searchValue} 
+      <NavigationHeader
+        id={DrawerScreenEnum.Collectables}
+        title={t('common:screens.collectables')}
+      />
+      <CustomSearchBar
+        searchValue={viewModel.searchValue}
         setSearchValue={actions.setSearchValue}
-        onReset={(): void => actions.setSearchValue('')} 
+        onReset={(): void => actions.setSearchValue('')}
       />
       <CompletedQuantityTitle type={'ListItemSubTitleBold'}>
         {`${viewModel.collectables.completed}/${viewModel.collectables.total}`}

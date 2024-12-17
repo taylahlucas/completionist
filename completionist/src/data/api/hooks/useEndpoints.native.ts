@@ -1,5 +1,5 @@
-import {Alert, Platform} from 'react-native';
-import {useTranslation} from 'react-i18next';
+import { Alert, Platform } from 'react-native';
+import { useTranslation } from 'react-i18next';
 import {
   requestCodes,
   AchievementItem,
@@ -27,9 +27,10 @@ import {
 } from '@data/api/EndpointInterfaces.native';
 import useAuthInterceptor from './useAuthInterceptor.native';
 
-const url = Platform.OS === 'ios'
-  ? process.env.IOS_LOCAL_URL
-  : process.env.ANDROID_LOCAL_URL;
+const url =
+  Platform.OS === 'ios'
+    ? process.env.IOS_LOCAL_URL
+    : process.env.ANDROID_LOCAL_URL;
 
 const useEndpoints = (): EndpointsReturnType => {
   const { t } = useTranslation();
@@ -38,63 +39,67 @@ const useEndpoints = (): EndpointsReturnType => {
   // TODO: Add axios caching https://www.npmjs.com/package/axios-cache-adapter
   const getUserByUserId = async ({
     userId,
-  }: GetUserByUserIdProps): Promise<UserResponse> => await authInterceptor.get(
-      `${url}/${getUserByUserIdUrl}/${userId}`,
-    )
-    .then((response) => {
-      if (response.data.user) {
-        return response.data.user as User;
-      }
-      return;
-    });
+  }: GetUserByUserIdProps): Promise<UserResponse> =>
+    await authInterceptor
+      .get(`${url}/${getUserByUserIdUrl}/${userId}`)
+      .then(response => {
+        if (response.data.user) {
+          return response.data.user as User;
+        }
+        return;
+      });
 
-  const updateUser = async (user: User): Promise<UserResponse> => await authInterceptor.patch(
-      `${url}/${updateUserUrl}/${user.userId}`,
-      {
+  const updateUser = async (user: User): Promise<UserResponse> =>
+    await authInterceptor
+      .patch(`${url}/${updateUserUrl}/${user.userId}`, {
         username: user.username,
         email: user.email,
         steamId: user.steamId,
         signup: user.signup,
         settings: user.settings,
         gameData: user.gameData ?? [],
-      },
-    )
-    .then(() => user);
+      })
+      .then(() => user);
 
   const changePw = async ({
     userId,
     oldPw,
     newPw,
-  }: ChangePwProps): Promise<boolean> => await authInterceptor.patch(`${url}/${changePwUrl}/${userId}`, {
-    oldPw,
-    newPw,
-  })
-  .then(() => true);
+  }: ChangePwProps): Promise<boolean> =>
+    await authInterceptor
+      .patch(`${url}/${changePwUrl}/${userId}`, {
+        oldPw,
+        newPw,
+      })
+      .then(() => true);
 
   const sendEmail = async ({
     emailTo,
     subject,
     text,
-  }: SendEmailProps): Promise<void> => await authInterceptor.post(`${url}/${sendEmailUrl}`, {
-    from: emailTo,
-    subject: subject,
-    text: `${emailTo}\n\n${text}`,
-  });
+  }: SendEmailProps): Promise<void> =>
+    await authInterceptor.post(`${url}/${sendEmailUrl}`, {
+      from: emailTo,
+      subject: subject,
+      text: `${emailTo}\n\n${text}`,
+    });
 
-  const deleteUser = async (userId: string): Promise<void> => await authInterceptor.delete(`${url}/${deleteUserUrl}/${userId}`);
+  const deleteUser = async (userId: string): Promise<void> =>
+    await authInterceptor.delete(`${url}/${deleteUserUrl}/${userId}`);
 
   const getSteamUserById = async (
     steamId: string,
-  ): Promise<SteamProfile | void> => await authInterceptor.get(
-    `${url}/${steamProfileUrl}?steamId=${steamId}`,
-  ).then(response => {
-    if (!!response?.data) {
-      return response?.data?.profile as SteamProfile;
-    } else {
-      Alert.alert(t('common:errors.noSteamId'));
-      return;
-    }
-  });
+  ): Promise<SteamProfile | void> =>
+    await authInterceptor
+      .get(`${url}/${steamProfileUrl}?steamId=${steamId}`)
+      .then(response => {
+        if (!!response?.data) {
+          return response?.data?.profile as SteamProfile;
+        } else {
+          Alert.alert(t('common:errors.noSteamId'));
+          return;
+        }
+      });
 
   const getSteamPlayerAchievements = async ({
     steamId,

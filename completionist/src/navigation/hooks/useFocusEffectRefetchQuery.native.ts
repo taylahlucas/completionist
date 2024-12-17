@@ -7,13 +7,16 @@ import { useCallback } from 'react';
  * when the user go back to the screen again.
  */
 // TODO: Test if this works for reloading page / open / close
-const useFocusEffectRefetchQuery = (refetch: () => void, actionBeforeRefetch?: () => void): void => {
+const useFocusEffectRefetchQuery = (
+  refetch: () => void,
+  actionBeforeRefetch?: () => void,
+): void => {
   useFocusEffect(
     useCallback(() => {
       if (actionBeforeRefetch) actionBeforeRefetch();
 
       refetch();
-    }, [refetch])
+    }, [refetch]),
   );
 };
 
