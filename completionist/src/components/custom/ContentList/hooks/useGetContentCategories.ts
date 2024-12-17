@@ -1,9 +1,11 @@
-import useGetGameData from '@data/hooks/useGetGameData';
-import useGetSettingsConfig from '@data/hooks/useGetSettingsConfig';
+import {
+  useGetGameData,
+  useGetSettingsConfig,
+  useTranslateGameContent,
+} from '@data/hooks/index';
 import useMainState from '@redux/hooks/useMainState';
-import {GameKeyEnum} from '@utils/CustomEnums';
-import {ContentItem} from '@utils/CustomInterfaces';
-import useTranslateGameContent from '@data/hooks/useTranslateGameContent.native';
+import { GameKeyEnum } from '@utils/CustomEnums';
+import { ContentItem } from '@utils/CustomInterfaces';
 import useContentState from '../provider/useContentState';
 
 interface GameDataReturnType {
@@ -19,15 +21,17 @@ interface GameDataReturnType {
 }
 
 const useGetContentCategories = (): GameDataReturnType => {
-  const {mapDataTo} = useGetGameData();
-  const {sectionType} = useContentState();
-  const {user, selectedGameSettings} = useMainState();
-  const {shouldHideDisabledSections} = useGetSettingsConfig();
-  const {translateCategoryName, translateDLCName} = useTranslateGameContent();
+  const { sectionType } = useContentState();
+  const { user, selectedGame, selectedGameSettings } = useMainState();
+  const { mapDataTo } = useGetGameData(selectedGame);
+  const { shouldHideDisabledSections } = useGetSettingsConfig();
+  const { translateCategoryName, translateDLCName } = useTranslateGameContent();
 
   const getContentCategories = (): ContentItem[] => {
-    const selectedGame = user.gameData?.find(item => item.id === selectedGameSettings);
-    
+    const selectedGame = user.gameData?.find(
+      item => item.id === selectedGameSettings,
+    );
+
     const section = selectedGame?.settingsConfig.general.filter(
       config => config.section.id === sectionType,
     )[0] ?? {

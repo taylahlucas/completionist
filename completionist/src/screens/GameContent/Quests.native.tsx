@@ -10,15 +10,18 @@ import useGameContent from './hooks/useGameContent';
 
 const Quests = () => {
   const { t } = useTranslation();
-	const { viewModel, actions } = useGameContent();
+  const { viewModel, actions } = useGameContent();
 
   return (
     <StandardLayout>
-      <NavigationHeader id={DrawerScreenEnum.Quests} title={t('common:screens.quests')} />
-      <CustomSearchBar 
-        searchValue={viewModel.searchValue} 
+      <NavigationHeader
+        id={DrawerScreenEnum.Quests}
+        title={t('common:screens.quests')}
+      />
+      <CustomSearchBar
+        searchValue={viewModel.searchValue}
         setSearchValue={actions.setSearchValue}
-        onReset={(): void => actions.setSearchValue('')} 
+        onReset={(): void => actions.setSearchValue('')}
       />
       <CompletedQuantityTitle type={'ListItemSubTitleBold'}>
         {`${viewModel.quests.completed}/${viewModel.quests.total}`}

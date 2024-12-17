@@ -1,6 +1,6 @@
-export type FontType = 
+export type FontType =
   | 'Heading'
-	| 'SubHeading'
+  | 'SubHeading'
   | 'ListItemTitle'
   | 'ListItemTitleBold'
   | 'ListItemSubTitleBold'

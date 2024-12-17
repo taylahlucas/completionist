@@ -1,26 +1,30 @@
 import { StyleSheet } from 'react-native';
 import Icon from '@components/general/Icon/Icon.native';
 import StyledText from '@components/general/Text/StyledText.native';
-import { DEFAULT_BORDER_RADIUS, LARGE_PADDING, isSmallScreen } from '@styles/global.native';
+import {
+  DEFAULT_BORDER_RADIUS,
+  LARGE_PADDING,
+  isSmallScreen,
+} from '@styles/global.native';
 import styled from 'styled-components/native';
 
 const drawerWidth = 250;
 export const styles = StyleSheet.create({
-	drawerContainer: {
-		width: drawerWidth
-	},
-	contentContainer: {
-		minHeight: '100%'
-	},
-	iconButton: {
-		marginRight: 16,
-		marginLeft: 16,
-		zIndex: 2
-	}
+  drawerContainer: {
+    width: drawerWidth,
+  },
+  contentContainer: {
+    minHeight: '100%',
+  },
+  iconButton: {
+    marginRight: 16,
+    marginLeft: 16,
+    zIndex: 2,
+  },
 });
 
 interface NavigationHeaderProps {
-	color: string;
+  color: string;
 }
 
 export const NavigationHeaderContainer = styled.View`
@@ -33,42 +37,42 @@ export const NavigationHeaderContainer = styled.View`
 `;
 
 interface NavigationHeaderTitleContainerProps {
-	disabled: boolean;
+  disabled: boolean;
 }
 
 export const NavigationHeaderTitleContainer = styled.Pressable<NavigationHeaderTitleContainerProps>`
-	flex-direction: row;
-	align-items: center;
-	justify-content: space-between;
-	opacity: ${(props): number => props.disabled ? 0.5 : 1};
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  opacity: ${(props): number => (props.disabled ? 0.5 : 1)};
 `;
 
 export const NavigationDrawerFooterItem = styled.Pressable`
-	flex-direction: row;
-	align-items: center;
-	margin-top: 4px;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 4px;
 `;
 
 export const NavigationDrawerFooterIcon = styled(Icon)`
-	padding-right: 8px;
+  padding-right: 8px;
 `;
 
 export const NavigationDrawerTitle = styled(StyledText)`
-	padding-top: 8px;
-	padding-bottom: 8px;
-	max-width: 180px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  max-width: 180px;
 `;
 
 export const NavigationDrawerFooterTitle = styled(StyledText)`
-	padding-top: 8px;
-	padding-bottom: 8px;
-	width: ${drawerWidth - 70}px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: ${drawerWidth - 70}px;
 `;
 
 export const NavigationHeaderSubTitle = styled(StyledText)`
   margin-top: 4px;
-	margin-right: 8px;
-	max-width: 80px;
+  margin-right: 8px;
+  max-width: 80px;
 `;
 
 export const NavigationHeaderMenuButton = styled.Pressable`
@@ -78,7 +82,7 @@ export const NavigationHeaderMenuButton = styled.Pressable`
   justfy-content: center;
   margin-right: 16px;
   margin-left: 16px;
-	margin-top: 12px;
+  margin-top: 12px;
   z-index: 2;
 `;
 
@@ -120,6 +124,6 @@ export const NavigationDrawerBodyContainer = styled.ScrollView`
 `;
 
 export const NavigationDrawerFooter = styled.Pressable`
-	position: absolute;
-	bottom: ${isSmallScreen ? 96 : 146}px;
+  position: absolute;
+  bottom: ${isSmallScreen ? 96 : 146}px;
 `;

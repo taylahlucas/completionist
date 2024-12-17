@@ -10,11 +10,11 @@ export const reducers = {
   login: loginReducer,
   settings: settingsReducer,
   content: contentReducer,
-  subscription: subscriptionReducer
-}
+  subscription: subscriptionReducer,
+};
 
-const rootReducer = combineReducers({ ...reducers })
+const rootReducer = combineReducers({ ...reducers });
 
-export type RootState = ReturnType<typeof rootReducer>
+export type RootState = ReturnType<typeof rootReducer>;
 
 export default rootReducer;

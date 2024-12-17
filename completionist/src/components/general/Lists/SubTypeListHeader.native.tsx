@@ -6,7 +6,7 @@ import {
   ListItemHeaderCountTitle,
   SubListHeaderTitle,
   listStyles
-} from '@components/general/Lists/ListStyledComponents.native';
+} from '@components/general/Lists/index';
 
 interface SubTypeListHeaderProps {
   title: string;
@@ -14,7 +14,7 @@ interface SubTypeListHeaderProps {
   total: string;
 }
 
-const SubTypeListHeader = ({ title, completed, total }: SubTypeListHeaderProps): JSX.Element => {
+export const SubTypeListHeader = ({ title, completed, total }: SubTypeListHeaderProps): JSX.Element => {
   const theme = useGetTheme();
 
   return (
@@ -30,5 +30,3 @@ const SubTypeListHeader = ({ title, completed, total }: SubTypeListHeaderProps):
     </View>
   );
 };
-
-export default SubTypeListHeader;

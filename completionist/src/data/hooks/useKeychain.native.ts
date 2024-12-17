@@ -11,7 +11,7 @@ interface KeychainReturnTypes {
   deleteCredentials: () => Promise<void>
 }
 
-const useKeychain = (): KeychainReturnTypes => {
+export const useKeychain = (): KeychainReturnTypes => {
   const storeCredentials = async ({ username, password }: StoreCredentialsProps): Promise<void> => {
     if (!!username && !!password) {
       try {
@@ -47,5 +47,3 @@ const useKeychain = (): KeychainReturnTypes => {
     deleteCredentials
   }
 };
-
-export default useKeychain;

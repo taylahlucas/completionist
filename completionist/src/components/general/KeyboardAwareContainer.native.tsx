@@ -10,7 +10,7 @@ interface KeyboardAwareContainerProps {
 	keyboardHidePadding?: number;
 }
 
-const KeyboardAwareContainer = ({
+export const KeyboardAwareContainer = ({
 	children,
 	style,
 	keyboardShownPadding = 0,
@@ -35,5 +35,3 @@ const KeyboardAwareContainer = ({
 		</View>
 	);
 };
-
-export default KeyboardAwareContainer;

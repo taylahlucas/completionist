@@ -1,7 +1,7 @@
 import React from 'react';
 import StyledText from '@components/general/Text/StyledText.native';
 import { GameListItemHeaderContainer, GameListItemHeaderTitleContainer } from './GameListItemStyledComponents.native';
-import Seperator from '@components/general/Seperator.native';
+import {Seperator} from '@components/general/index';
 import Icon from '@components/general/Icon/Icon.native';
 import { useGameListItem } from './hooks/useGameListItem.native';
 

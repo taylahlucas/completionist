@@ -3,13 +3,14 @@ import { LARGE_WIDTH } from '@styles/global.native';
 import IconButton from '../Icon/IconButton.native';
 
 interface TextInputContainerProps {
+  width: number;
   height: number;
   multiline: boolean;
 }
 
 export const TextInputContainer = styled.View<TextInputContainerProps>`
   height: ${(props): number => props.height}px;
-  width: ${LARGE_WIDTH}px;
+  width: ${(props): number => props.width}px;
   margin: 16px;
   padding-vertical: 8px;
   justify-content: ${props => !props.multiline ? 'center' : 'none'};

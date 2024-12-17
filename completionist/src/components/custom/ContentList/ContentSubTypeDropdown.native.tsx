@@ -1,14 +1,16 @@
 import React from 'react';
-import Dropdown from '@components/general/Dropdown/Dropdown.native';
+import { Dropdown } from '@components/general/Dropdown/index';
 import useGetContents from './hooks/useGetContent';
-import ListItem from '@components/general/Lists/ListItem.native';
+import {
+  ListItem,
+  SubTypeListHeader,
+  ScrollableList,
+} from '@components/general/Lists/index';
 import useCheckContentComplete from './hooks/useCheckContentComplete';
-import { listStyles } from '@components/general/Lists/ListStyledComponents.native';
+import { listStyles } from '@components/general/Lists/index';
 import useContentDispatch from './provider/useContentDispatch';
 import useContentState from './provider/useContentState';
-import SubTypeListHeader from '@components/general/Lists/SubTypeListHeader.native';
 import useUpdateContent from './hooks/useUpdateContent';
-import ScrollableList from '@components/general/Lists/ScrollableList.native';
 
 export interface ContentSubTypeDropdownProps {
   subCategory: string;
@@ -17,25 +19,34 @@ export interface ContentSubTypeDropdownProps {
   total: string;
 }
 
-const ContentSubTypeDropdown = ({ subCategory, type, completed, total }: ContentSubTypeDropdownProps) => {
+const ContentSubTypeDropdown = ({
+  subCategory,
+  type,
+  completed,
+  total,
+}: ContentSubTypeDropdownProps) => {
   const { setSelectedCategory } = useContentDispatch();
   const { selectedCategory } = useContentState();
   const { getContentForSubCategoryType } = useGetContents();
   const { updateContentComplete } = useUpdateContent();
   const items = getContentForSubCategoryType(subCategory, type);
   const { checkContentComplete } = useCheckContentComplete();
-  
+
   return (
     <Dropdown
-      isOpen={subCategory === selectedCategory.subCategory && type === selectedCategory.type}
-      setOpen={() => setSelectedCategory({
-        ...selectedCategory,
-        type: type === selectedCategory.type ? '' : type
-      })}
+      isOpen={
+        subCategory === selectedCategory.subCategory &&
+        type === selectedCategory.type
+      }
+      setOpen={() =>
+        setSelectedCategory({
+          ...selectedCategory,
+          type: type === selectedCategory.type ? '' : type,
+        })
+      }
       header={
         <SubTypeListHeader title={type} completed={completed} total={total} />
-      }
-    >
+      }>
       <ScrollableList contentContainerStyle={listStyles.listItemList}>
         {items?.map((item, index) => (
           <ListItem
@@ -44,9 +55,9 @@ const ContentSubTypeDropdown = ({ subCategory, type, completed, total }: Content
             title={item.title}
             location={item.location}
             hold={item.hold}
-						href={item.href}
+            href={item.href}
             isComplete={checkContentComplete(item.id)}
-            action={((): void => updateContentComplete(item.id))}
+            action={(): void => updateContentComplete(item.id)}
           />
         ))}
       </ScrollableList>

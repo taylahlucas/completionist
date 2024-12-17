@@ -1,16 +1,17 @@
-import useEditUserData from '@data/hooks/useEditUserData.native';
-import {initialGameData} from '@redux/MainState';
-import {GameKeyEnum} from '@utils/CustomEnums';
-import {IsActive, User} from '@utils/CustomInterfaces';
+import { useEditUserData } from '@data/hooks/index';
+import { initialGameData } from '@redux/MainState';
+import { GameKeyEnum } from '@utils/CustomEnums';
+import { IsActive, User } from '@utils/CustomInterfaces';
 import {
+  eldenRingGameData,
   fallout3GameData,
   fallout4GameData,
   skyrimGameData,
   witcher3GameData,
 } from '@utils/configs/gameConfigs';
 
-const useActivateGame = () => {
-  const {updateUserData} = useEditUserData();
+export const useActivateGame = () => {
+  const { updateUserData } = useEditUserData();
 
   // Free users
   const changeGameSubscription = (
@@ -38,6 +39,8 @@ const useActivateGame = () => {
 
   const getGameData = (id: string) => {
     switch (id) {
+      case 'eldenRing':
+        return eldenRingGameData;
       case 'fallout3':
         return fallout3GameData;
       case 'fallout4':
@@ -56,21 +59,18 @@ const useActivateGame = () => {
     let updatedData = [];
     if (user.gameData) {
       updatedData = [
-        ...user.gameData?.filter((game) => game.id !== selectedGame),
-        getGameData(selectedGame)
-      ]
-    }
-    else {
+        ...user.gameData?.filter(game => game.id !== selectedGame),
+        getGameData(selectedGame),
+      ];
+    } else {
       updatedData = [getGameData(selectedGame)];
     }
     updateUserData({
       ...user,
-      gameData: updatedData
+      gameData: updatedData,
     });
     return;
   };
 
-  return {changeGameSubscription, activateGame};
+  return { changeGameSubscription, activateGame };
 };
-
-export default useActivateGame;

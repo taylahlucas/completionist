@@ -1,49 +1,56 @@
 import { StyleSheet } from 'react-native';
 import styled from 'styled-components/native';
-import { DEFAULT_BORDER_RADIUS, LARGE_WIDTH, LARGE_PADDING } from '@styles/global.native';
+import {
+  DEFAULT_BORDER_RADIUS,
+  LARGE_WIDTH,
+  LARGE_PADDING,
+} from '@styles/global.native';
 import StyledText from '@components/general/Text/StyledText.native';
 
 export const styles = StyleSheet.create({
   scrollableContent: {
-    flexDirection: 'column'
-  }
-})
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'flex-start',
+  },
+});
 
 interface GameListItemContainerProps {
   color: string;
-	isLargeWidth?: boolean;
+  isLargeWidth?: boolean;
 }
 
 interface GameItemTitleContainerProps {
-	enabled: boolean;
+  enabled: boolean;
 }
 
 export const GameListItemContainer = styled.Pressable<GameListItemContainerProps>`
-  width: ${(props): string => props.isLargeWidth ? '400px' : '150px'};
+  width: ${(props): string => (props.isLargeWidth ? '400px' : '150px')};
   height: 150px;
   margin: 8px;
   border-radius: ${DEFAULT_BORDER_RADIUS}px;
   border-color: ${(props): string => props.color};
-  border-width: 2px;
+  border-width: 1.5px;
 `;
 
 export const GameListImage = styled.Image`
   width: 148px;
   height: 148px;
   position: absolute;
+  border-radius: ${DEFAULT_BORDER_RADIUS}px;
 `;
 
 export const GameItemTitleContainer = styled.View<GameItemTitleContainerProps>`
-	width: 150px;
-	height: 150px;
-	opacity: ${props => props.enabled ? 1 : 0.5};
+  width: 150px;
+  height: 150px;
+  opacity: ${props => (props.enabled ? 1 : 0.5)};
 `;
 
 export const GameItemTitle = styled(StyledText)`
-	max-width: 125px;
-	position: absolute;
-	right: 12px;
-	bottom: 8px;
+  max-width: 125px;
+  position: absolute;
+  right: 12px;
+  bottom: 8px;
 `;
 
 export const GameItemScore = styled(StyledText)`
@@ -64,16 +71,16 @@ export const GameListItemHeaderTitleContainer = styled.View`
 `;
 
 export const GameSelectionChangesLeftContainer = styled.View`
-	flex-direction: row;
-	width: 100%;
-	justify-content: space-between;
-	margin-left: ${LARGE_PADDING}px;
-	padding-bottom: 8px;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  margin-left: ${LARGE_PADDING}px;
+  padding-bottom: 8px;
 `;
 
 export const GameListDropdownContainer = styled.View`
-	width: 100%;
-	flex-direction: row;
-	flex-wrap: wrap;
-	margin-top: 8px;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 8px;
 `;

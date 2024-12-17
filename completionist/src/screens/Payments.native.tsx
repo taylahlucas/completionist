@@ -6,14 +6,18 @@ import NavigationHeader from '@navigation/NavigationHeader.native';
 import { DrawerScreenEnum } from '@utils/CustomEnums';
 
 const Payments = () => {
-	const { t } = useTranslation();
+  const { t } = useTranslation();
 
-	return (
-		<StandardLayout>
-			<NavigationHeader id={DrawerScreenEnum.Payments} title={t('common:screens.payments')} leftAction={'back'} />
-			<PaymentsContent />
-		</StandardLayout>
-	);
+  return (
+    <StandardLayout>
+      <NavigationHeader
+        id={DrawerScreenEnum.Payments}
+        title={t('common:screens.payments')}
+        leftAction={'back'}
+      />
+      <PaymentsContent />
+    </StandardLayout>
+  );
 };
 
 export default Payments;

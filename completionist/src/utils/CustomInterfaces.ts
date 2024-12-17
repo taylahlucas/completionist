@@ -1,4 +1,10 @@
-import { SettingsOptionEnum, GameKeyEnum, DatePeriodEnum, ContentSectionEnum, DrawerScreenEnum } from './CustomEnums';
+import {
+  SettingsOptionEnum,
+  GameKeyEnum,
+  DatePeriodEnum,
+  ContentSectionEnum,
+  DrawerScreenEnum,
+} from './CustomEnums';
 import { NavigationAction, NavigationState } from '@react-navigation/native';
 import { MainState } from '@redux/MainState';
 import { SettingsState } from '@components/custom/Settings/provider/SettingsState';
@@ -8,14 +14,14 @@ import { SubscriptionState } from '@components/custom/SubscriptionContent/provid
 import { LanguageType, ScreenEnumType } from './CustomTypes';
 
 export interface ContentItem {
-	id: string;
-	title: string;
-	isActive: boolean;
+  id: string;
+  title: string;
+  isActive: boolean;
 }
 
 export interface GameContentItem {
   id: string;
-	section: ContentSectionEnum;
+  section: ContentSectionEnum;
   mainCategory: string;
   subCategory?: string;
   subCategoryType?: string;
@@ -39,37 +45,37 @@ export interface PriceProps {
 }
 
 export interface AchievementItem {
-	id: string;
-	name: string;
-	description?: string;
-	icon: string;
-	unlocked: boolean;
+  id: string;
+  name: string;
+  description?: string;
+  icon: string;
+  unlocked: boolean;
 }
 
 export interface SteamProfile {
-	steamId: string;
-	username: string;
-	name?: string;
-	profileImg?: string;
-	country?: string;
-	level: string;
+  steamId: string;
+  username: string;
+  name?: string;
+  profileImg?: string;
+  country?: string;
+  level: string;
 }
 
 export interface BadgeItem {
-	id: string;
-	title: string;
-	icon: string;
+  id: string;
+  title: string;
+  icon: string;
 }
 
 export interface ProgressItemData {
-	id: string;
-	current: number;
-	total: number;
+  id: string;
+  current: number;
+  total: number;
 }
 
 export interface ProgressItem {
-	id: string;
-	data: ProgressItemData[];
+  id: string;
+  data: ProgressItemData[];
 }
 
 // State & Environment
@@ -91,7 +97,7 @@ export interface EnvironmentConfig {
   WEB_CLIENT_ID: string;
   IOS_LOCAL_URL: string;
   ANDROID_LOCAL_URL: string;
-	STEAM_API_TOKEN: string;
+  STEAM_API_TOKEN: string;
 }
 
 // Navigation Interfaces
@@ -101,48 +107,50 @@ export interface NavigationDrawerItemData {
   title: string;
   subTitle: string;
   isEnabled: boolean;
-	isHidden: boolean;
+  isHidden: boolean;
 }
 
 export type UnauthorizedStackParamList = {
   Landing: undefined;
   Login: undefined;
-	VerifyAccount: undefined;
-	SelectInitialPlan: undefined;
-	SetUsername: undefined;
-	SelectFirstGame: undefined;
-	LinkAccount: undefined;
-	ForgotPassword: undefined;
-	VerifyNewPassword: undefined;
+  VerifyAccount: undefined;
+  SelectInitialPlan: undefined;
+  SetUsername: undefined;
+  SelectFirstGame: undefined;
+  LinkAccount: undefined;
+  ForgotPassword: undefined;
+  VerifyNewPassword: undefined;
 };
 
 export type AuthStackParamList = {
-	Landing: undefined;
-	GameSelection: undefined;
+  Landing: undefined;
+  GameSelection: undefined;
   GlobalSettings: undefined;
-	GlobalAccountDetails: undefined;
-	GlobalAchievements: undefined;
-	GlobalSteamAchievements: undefined;
-	PurchaseGame: [gameId: GameKeyEnum];
-	DrawerStack: undefined;
+  GlobalAccountDetails: undefined;
+  GlobalAchievements: undefined;
+  GlobalSteamAchievements: undefined;
+  PurchaseGame: [gameId: GameKeyEnum];
+  DrawerStack: undefined;
 };
 
 export type DrawerStackParamList = {
-	Quests: undefined;
+  Quests: undefined;
   Collectables: undefined;
   Miscellaneous: undefined;
   Locations: undefined;
   SendRequest: undefined;
-	Achievements: undefined;
+  Achievements: undefined;
   SteamAchievements: undefined;
   Payments: undefined;
   Settings: undefined;
-	AccountDetails: undefined;
-}
+  AccountDetails: undefined;
+};
 
 export interface NativeNavigation {
   navigate: (page: ScreenEnumType, params?: any) => void;
-  dispatch: (action: NavigationAction | ((state: NavigationState) => NavigationAction)) => void;
+  dispatch: (
+    action: NavigationAction | ((state: NavigationState) => NavigationAction),
+  ) => void;
   goBack: () => void;
   setOptions: (options: any) => void;
 }
@@ -150,17 +158,17 @@ export interface NativeNavigation {
 // Data Interfaces
 
 export interface SteamAchievement {
-	displayName: string;
-	description: string;
-	icon: string;
-	icongray: string;
-	name: string;
-	achieved?: boolean;
+  displayName: string;
+  description: string;
+  icon: string;
+  icongray: string;
+  name: string;
+  achieved?: boolean;
 }
 
 export interface SteamPlayerAchievement {
-	achieved: boolean;
-	name: string;
+  achieved: boolean;
+  name: string;
 }
 
 export interface CachedData {
@@ -201,7 +209,7 @@ export interface IsActive {
 
 export interface GameData {
   id: GameKeyEnum;
-	appId: number;
+  appId: number;
   quests: Item[];
   collectables: Item[];
   locations: Item[];
@@ -210,14 +218,14 @@ export interface GameData {
 }
 
 export interface SignupData {
-	verification: boolean;
-	setUsername: boolean;
-	selectGame: boolean;
+  verification: boolean;
+  setUsername: boolean;
+  selectGame: boolean;
 }
 
 export interface User extends LoginFormData {
-	steamId?: string;
-	signup: SignupData;
+  steamId?: string;
+  signup: SignupData;
   settings: UserSettings;
   gameData: GameData[];
 }
@@ -226,6 +234,6 @@ export interface LoginFormData {
   userId: string;
   username: string;
   email: string;
-	googleId?: string;
+  googleId?: string;
   pw?: string;
 }

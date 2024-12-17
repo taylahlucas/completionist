@@ -112,8 +112,6 @@ Pull from master:
 Update:
 - git submodule update --init --recursive --remote translations
 
-
-
 ## Migrating db
 
 - cd backend
@@ -132,7 +130,7 @@ Update:
 - Create gameSettingsConfig in initialUserData.js.
 - Update user.js model with new game in data and subscription.data.
 - Add image to styles/images/games/.
-- In CustomEnums and CustomInterfaces add the new game.
+- In CustomEnums add the new game.
 - Create migration to mirate new game info to existing users.
 - Generate hrefs using add_initial_hrefs.js
 - Check for hrefs that dont work using check_hrefs.js and update these.

@@ -1,9 +1,8 @@
 import React, { useEffect } from 'react';
 import { ViewStyle } from 'react-native';
 import { useTranslation } from 'react-i18next';
-import Dropdown from '@components/general/Dropdown/Dropdown.native';
+import {Dropdown} from '@components/general/Dropdown/index';
 import { IsActive } from '@utils/CustomInterfaces';
-import useGetUserGameData from '@data/hooks/useGetUserGameData';
 import {
 	styles,
 	SettingsSubItemContainer, 
@@ -15,11 +14,10 @@ import {
 import useGetTheme from '@styles/hooks/useGetTheme';
 import useSettingsState from './provider/useSettingsState';
 import useSettingsDispatch from './provider/useSettingsDispatch';
-import useTranslateGameContent from '@data/hooks/useTranslateGameContent.native';
 import useMainState from '@redux/hooks/useMainState';
 import CheckBox from '@components/general/Checkbox/CheckBox.native';
 import useUpdateGameSettings from './hooks/useUpdateGameSettings';
-import useEditUserData from '@data/hooks/useEditUserData.native';
+import {useEditUserData, useTranslateGameContent, useGetUserGameData} from '@data/hooks/index';
 
 interface SettingsItemDropdownProps {
 	item: IsActive;
@@ -29,11 +27,11 @@ interface SettingsItemDropdownProps {
 const SettingsItemDropdown = ({ item, triggerListOpen }: SettingsItemDropdownProps) => {
 	const { t } = useTranslation();
 	const theme = useGetTheme();
-	const { selectedGameSettings, user } = useMainState();
+	const { selectedGameSettings, user, selectedGameData } = useMainState();
 	const { saveUser } = useEditUserData();
 	const { setSelectedCategory } = useSettingsDispatch();
 	const { selectedCategory } = useSettingsState();
-	const { getUserSettingsSubConfig, getUserSettingsDLC } = useGetUserGameData();
+	const { getUserSettingsSubConfig, getUserSettingsDLC } = useGetUserGameData(selectedGameData);
 	const { translateCategoryName, translateDLCName } = useTranslateGameContent();
 	const updateGameSettings = useUpdateGameSettings();
 	const isOpen = item.id === selectedCategory.category;

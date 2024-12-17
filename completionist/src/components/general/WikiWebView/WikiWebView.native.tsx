@@ -46,7 +46,7 @@ const WikiWebView = ({ currentHref, setClose }: WikiWebViewProps) => {
 			<View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
 				<IconButton
 						style={{ top: 12, left: 16 }}
-						name={'arrow-back'}
+						name='arrow-back'
 						type={IconTypeEnum.Ionicons}
 						color={canGoBack ? theme.lightGrey : theme.black}
 						onPress={goBack}

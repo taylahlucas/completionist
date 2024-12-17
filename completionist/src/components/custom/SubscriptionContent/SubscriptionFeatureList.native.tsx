@@ -6,7 +6,7 @@ import {
 	SubscriptionFeatureListTitle
 } from './SubscriptionContentStyledComponents.native';
 import useGetSubscriptionFeatureList from './hooks/useGetSubscriptionFeatureList';
-import Seperator from '@components/general/Seperator.native';
+import {Seperator} from '@components/general/index';
 import Icon from '@components/general/Icon/Icon.native';
 
 const SubscriptionFeatureList = () => {

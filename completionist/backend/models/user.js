@@ -47,4 +47,5 @@ const userSchema = Joi.object().keys({
   ).required()
 });
 
+
 module.exports = userSchema;

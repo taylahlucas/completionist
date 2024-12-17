@@ -1,8 +1,10 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import Dropdown from '@components/general/Dropdown/Dropdown.native';
-import DropdownSelection from '@components/general/Dropdown/DropdownSelection.native';
-import DropdownSelectionContent from '@components/general/Dropdown/DropdownSelectionContent.native';
+import {
+	Dropdown,
+	DropdownSelection,
+	DropdownSelectionContent
+} from '@components/general/Dropdown/index';
 import { languages } from 'src/i18n/i18n-common';
 import useMainState from '@redux/hooks/useMainState';
 import useMainDispatch from '@redux/hooks/useMainDispatch';

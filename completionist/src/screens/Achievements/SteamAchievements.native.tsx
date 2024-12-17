@@ -6,18 +6,18 @@ import { DrawerScreenEnum } from '@utils/CustomEnums';
 import useAchievements from './hooks/useAchievements';
 
 const SteamAchievements = () => {
-	const { viewModel } = useAchievements();
+  const { viewModel } = useAchievements();
 
-	return (
-		<StandardLayout>
-			<NavigationHeader
-				id={DrawerScreenEnum.SteamAchievements}
-				title={viewModel.steamAchievements.title}
-				leftAction='back'
-			/>
-			<AddSteamIDContent />
-		</StandardLayout>
-	);
+  return (
+    <StandardLayout>
+      <NavigationHeader
+        id={DrawerScreenEnum.SteamAchievements}
+        title={viewModel.steamAchievements.title}
+        leftAction="back"
+      />
+      <AddSteamIDContent />
+    </StandardLayout>
+  );
 };
 
 export default SteamAchievements;

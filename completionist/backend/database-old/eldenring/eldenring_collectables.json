@@ -1,0 +1,1888 @@
+[
+  {
+    "id": "cc2803e3-3466-412a-b6c1-f669123bcc50",
+    "mainCategory": "Legendary Weapons",
+    "title": "Devourer's Scepter",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Devourer's+Scepter"
+  },
+  {
+    "id": "4a6425c0-0fd0-4602-b630-c484f95e453a",
+    "mainCategory": "Legendary Weapons",
+    "title": "Grafted Blade Greatsword",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Grafted+Blade+Greatsword"
+  },
+  {
+    "id": "464636c4-9e75-43ac-ab5a-3272323003b1",
+    "mainCategory": "Legendary Weapons",
+    "title": "Sword of Night and Flame",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Sword+of+Night+and+Flame"
+  },
+  {
+    "id": "fcea001e-5734-4d4f-b0d5-f4f39845b2d3",
+    "mainCategory": "Legendary Weapons",
+    "title": "Ruins Greatsword",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Ruins+Greatsword"
+  },
+  {
+    "id": "0485b601-caeb-4fb9-9fef-ecdb9c13ca55",
+    "mainCategory": "Legendary Weapons",
+    "title": "Marais Executioner's Sword",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Marais+Executioner's+Sword"
+  },
+  {
+    "id": "573429f2-8eed-4141-b650-79c9f6b640ce",
+    "mainCategory": "Legendary Weapons",
+    "title": "Dark Moon Greatsword",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Dark+Moon+Greatsword"
+  },
+  {
+    "id": "0cf96efc-4265-427c-884e-725b07ac4e0d",
+    "mainCategory": "Legendary Weapons",
+    "title": "Bolt of Gransax",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Bolt+of+Gransax"
+  },
+  {
+    "id": "e46583cd-e904-4c32-8fba-e35dad590883",
+    "mainCategory": "Legendary Weapons",
+    "title": "Eclipse Shotel",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Eclipse+Shotel"
+  },
+  {
+    "id": "31e2ce9d-b405-46f3-a6a9-c01808d35ca8",
+    "mainCategory": "Legendary Weapons",
+    "title": "Golden Order Greatsword",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Golden+Order+Greatsword"
+  },
+
+  {
+    "id": "9db2706b-f657-4be6-b90a-3eeed8895227",
+    "mainCategory": "Legendary Spirit Ashes",
+    "title": "Lhutel the Headless",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Lhutel+the+Headless"
+  },
+  {
+    "id": "2423b3ac-b174-473c-834b-6333f9f3d341",
+    "mainCategory": "Legendary Spirit Ashes",
+    "title": "Black Knife Tiche",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Black+Knife+Tiche"
+  },
+  {
+    "id": "7466c769-137f-4800-ae55-21696e14dcda",
+    "mainCategory": "Legendary Spirit Ashes",
+    "title": "Redmane Knight Ogha",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Redmane+Knight+Ogha"
+  },
+  {
+    "id": "3ff50ada-eaeb-4246-8f37-40ca498ba478",
+    "mainCategory": "Legendary Spirit Ashes",
+    "title": "Mimic Tear Ashes",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Mimic+Tear+Ashes"
+  },
+  {
+    "id": "97b3f8db-3de5-44f6-9ea1-6d7e44860e08",
+    "mainCategory": "Legendary Spirit Ashes",
+    "title": "Ancient Dragon Knight Kristoff Ashes",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Ancient+Dragon+Knight+Kristoff+Ashes"
+  },
+  {
+    "id": "07dd2c55-7efb-4e13-8857-593cc015795f",
+    "mainCategory": "Legendary Spirit Ashes",
+    "title": "Cleanrot Knight Finlay Ashes",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Cleanrot+Knight+Finlay+Ashes"
+  },
+
+  {
+    "id": "027ee045-1122-4ffc-807d-6fa795a1ad81",
+    "mainCategory": "Armour Sets",
+    "title": "Alberich's Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Alberich's+Set"
+  },
+  {
+    "id": "c8d788da-9f55-4092-b0d5-5c4f58ac3264",
+    "mainCategory": "Armour Sets",
+    "title": "Albinauric Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Albinauric+Set"
+  },
+  {
+    "id": "abee96c1-5050-4b8b-abef-8c1934091cf2",
+    "mainCategory": "Armour Sets",
+    "title": "All-Knowing Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/All-Knowing+Set"
+  },
+  {
+    "id": "1f9ba932-d5c6-4e10-971a-1b99fe77b465",
+    "mainCategory": "Armour Sets",
+    "title": "Aristocrat Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Aristocrat+Set"
+  },
+  {
+    "id": "0d7741c6-5dc7-47e9-917c-b9313b499e05",
+    "mainCategory": "Armour Sets",
+    "title": "Astrologer Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Astrologer+Set"
+  },
+  {
+    "id": "693dad29-d399-4ae8-9274-5ee5aaaacd24",
+    "mainCategory": "Armour Sets",
+    "title": "Azur's Glintstone Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Azur's+Glintstone+Set"
+  },
+  {
+    "id": "27546edc-e616-40a9-ac7e-68b55dd0b9d4",
+    "mainCategory": "Armour Sets",
+    "title": "Bandit Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Bandit+Set"
+  },
+  {
+    "id": "ce257395-10ad-4ddb-ae78-c6e9b01a855a",
+    "mainCategory": "Armour Sets",
+    "title": "Banished Knight Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Banished+Knight+Set"
+  },
+  {
+    "id": "59237063-71cb-49de-8e37-81ca674a49e6",
+    "mainCategory": "Armour Sets",
+    "title": "Battlemage Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Battlemage+Set"
+  },
+  {
+    "id": "0d910405-a2a7-4985-ab76-1fbb15a65b00",
+    "mainCategory": "Armour Sets",
+    "title": "Beast Champion Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Beast+Champion+Set"
+  },
+  {
+    "id": "a452b6e2-4abf-467e-8c46-91eaf2c7c55f",
+    "mainCategory": "Armour Sets",
+    "title": "Black Knife Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Black+Knife+Set"
+  },
+  {
+    "id": "4876b76f-7d13-4ecc-911c-08b559410beb",
+    "mainCategory": "Armour Sets",
+    "title": "Blackflame Monk Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Blackflame+Monk+Set"
+  },
+  {
+    "id": "5aa9e119-41d4-4549-a4cc-185d653448e4",
+    "mainCategory": "Armour Sets",
+    "title": "Blaidd's Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Blaidd's+Set"
+  },
+  {
+    "id": "547192dc-8cb9-45cc-bdb2-26820b33c84a",
+    "mainCategory": "Armour Sets",
+    "title": "Bloodhound Knight Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Bloodhound+Knight+Set"
+  },
+  {
+    "id": "1bf9628f-716f-4808-bec0-33ede8bbb953",
+    "mainCategory": "Armour Sets",
+    "title": "Bloodsoaked Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Bloodsoaked+Set"
+  },
+  {
+    "id": "600770e0-f6a2-4980-8fec-1de24e190683",
+    "mainCategory": "Armour Sets",
+    "title": "Blue Cloth Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Blue+Cloth+Set"
+  },
+  {
+    "id": "f74c96df-f398-4ff1-9c60-1bc7e66b514a",
+    "mainCategory": "Armour Sets",
+    "title": "Blue Festive Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Blue+Festive+Set"
+  },
+  {
+    "id": "31bb9fee-1d84-458e-ba6d-83a4da6080ba",
+    "mainCategory": "Armour Sets",
+    "title": "Blue Silver Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Blue+Silver+Set"
+  },
+  {
+    "id": "c4f01482-3f9c-4166-a371-b8edcbb0648d",
+    "mainCategory": "Armour Sets",
+    "title": "Briar Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Briar+Set"
+  },
+  {
+    "id": "4fac21f1-8fc2-4cf2-b5a1-79810e68a656",
+    "mainCategory": "Armour Sets",
+    "title": "Bull-Goat Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Bull-Goat+Set"
+  },
+  {
+    "id": "6b877fa8-0fa5-40fa-a04e-e69439056831",
+    "mainCategory": "Armour Sets",
+    "title": "Carian Knight Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Carian+Knight+Set"
+  },
+  {
+    "id": "046276e0-ec55-4650-9bc7-28e1510df35d",
+    "mainCategory": "Armour Sets",
+    "title": "Chain Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Chain+Set"
+  },
+  {
+    "id": "8a16a956-c4bd-446f-b0c1-9fed0cd30028",
+    "mainCategory": "Armour Sets",
+    "title": "Champion Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Champion+Set"
+  },
+  {
+    "id": "f3bea730-99f5-4299-881f-8865102fba71",
+    "mainCategory": "Armour Sets",
+    "title": "Cleanrot Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Cleanrot+Set"
+  },
+  {
+    "id": "1494b5ac-8b57-4a24-a80a-5c6526d43852",
+    "mainCategory": "Armour Sets",
+    "title": "Commoner's Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Commoner's+Set"
+  },
+  {
+    "id": "b5621df0-fe55-4c7e-9f36-616b6ae09039",
+    "mainCategory": "Armour Sets",
+    "title": "Confessor Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Confessor+Set"
+  },
+  {
+    "id": "3ee8c3a3-127b-4ec0-8fef-cd080bd6698f",
+    "mainCategory": "Armour Sets",
+    "title": "Consort's Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Consort's+Set"
+  },
+  {
+    "id": "7d923784-e04d-4656-8c0a-f9c2cc2acaeb",
+    "mainCategory": "Armour Sets",
+    "title": "Crucible Axe Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Crucible+Axe+Set"
+  },
+  {
+    "id": "cdb0727c-02b8-49a3-a960-c880aaaeceeb",
+    "mainCategory": "Armour Sets",
+    "title": "Crucible Tree Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Crucible+Tree+Set"
+  },
+  {
+    "id": "d4fbd097-6753-4874-a82d-33a67be6c650",
+    "mainCategory": "Armour Sets",
+    "title": "Cuckoo Knight Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Cuckoo+Knight+Set"
+  },
+  {
+    "id": "85593042-d65b-4436-9f97-186a29e9ddfe",
+    "mainCategory": "Armour Sets",
+    "title": "Depraved Perfumer Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Depraved+Perfumer+Set"
+  },
+  {
+    "id": "dbb35a58-75ad-43d4-88d8-8ed9ad5825df",
+    "mainCategory": "Armour Sets",
+    "title": "Drake Knight Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Drake+Knight+Set"
+  },
+  {
+    "id": "879d5e53-87e6-4f62-a94a-e72b0fc9dcc7",
+    "mainCategory": "Armour Sets",
+    "title": "Duelist Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Duelist+Set"
+  },
+  {
+    "id": "7d92bf7a-6a74-4f89-8a53-411a4b1b3d19",
+    "mainCategory": "Armour Sets",
+    "title": "Eccentric Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Eccentric+Set"
+  },
+  {
+    "id": "837e3093-71df-4a2a-97ea-da8a4f653fee",
+    "mainCategory": "Armour Sets",
+    "title": "Elden Lord Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Elden+Lord+Set"
+  },
+  {
+    "id": "23b27feb-b7a0-419d-9e16-92b19657ee71",
+    "mainCategory": "Armour Sets",
+    "title": "Errant Sorcerer Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Errant+Sorcerer+Set"
+  },
+  {
+    "id": "66a9b860-a5cf-4ea8-9394-cccef1d38477",
+    "mainCategory": "Armour Sets",
+    "title": "Exile Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Exile+Set"
+  },
+  {
+    "id": "085a4f24-c887-48a7-9b6e-896ab397a841",
+    "mainCategory": "Armour Sets",
+    "title": "Festive Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Festive+Set"
+  },
+  {
+    "id": "da36a3e8-700b-4fe8-84b7-de07b45c308e",
+    "mainCategory": "Armour Sets",
+    "title": "Fia's Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Fia's+Set"
+  },
+  {
+    "id": "0cc893f0-cefe-4568-b588-79fbf1874e47",
+    "mainCategory": "Armour Sets",
+    "title": "Finger Maiden Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Finger+Maiden+Set"
+  },
+  {
+    "id": "88d70808-1e75-44f4-bcaa-34bbc37e56b3",
+    "mainCategory": "Armour Sets",
+    "title": "Fingerprint Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Fingerprint+Set"
+  },
+  {
+    "id": "7f5df09c-718b-4726-97a8-efb2ab548c1d",
+    "mainCategory": "Armour Sets",
+    "title": "Fire Monk Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Fire+Monk+Set"
+  },
+  {
+    "id": "308e0ef1-4e75-4b50-817e-60afd9167a24",
+    "mainCategory": "Armour Sets",
+    "title": "Fire Prelate Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Fire+Prelate+Set"
+  },
+  {
+    "id": "5b87afab-f637-4915-9ef8-126f18b08751",
+    "mainCategory": "Armour Sets",
+    "title": "Fur Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Fur+Set"
+  },
+  {
+    "id": "99b3d1db-7da1-4b1f-b2c2-98d1fbc0bec3",
+    "mainCategory": "Armour Sets",
+    "title": "Gelmir Knight Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Gelmir+Knight+Set"
+  },
+  {
+    "id": "56e144fb-be3d-4842-8020-3172c71f4e80",
+    "mainCategory": "Armour Sets",
+    "title": "General Radahn Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/General+Radahn+Set"
+  },
+  {
+    "id": "b5ee5d17-3156-4297-9681-b23e7000134a",
+    "mainCategory": "Armour Sets",
+    "title": "Godrick Foot Soldier Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Godrick+Foot+Soldier+Set"
+  },
+  {
+    "id": "596c7544-144d-4922-b18b-d04125751edf",
+    "mainCategory": "Armour Sets",
+    "title": "Godrick Knight Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Godrick+Knight+Set"
+  },
+  {
+    "id": "70f8c83a-c5f3-447d-9ad9-d212ac4fc342",
+    "mainCategory": "Armour Sets",
+    "title": "Godrick Soldier Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Godrick+Soldier+Set"
+  },
+  {
+    "id": "f7ece7be-cbf1-4bbe-a8bd-03e286c8846b",
+    "mainCategory": "Armour Sets",
+    "title": "Godskin Apostle Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Godskin+Apostle+Set"
+  },
+  {
+    "id": "77dc0770-c665-4ff0-8cb9-11bfae26c6d4",
+    "mainCategory": "Armour Sets",
+    "title": "Godskin Noble Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Godskin+Noble+Set"
+  },
+  {
+    "id": "45b49a1d-a3ee-4fdd-940c-3b3ecc846608",
+    "mainCategory": "Armour Sets",
+    "title": "Goldmask's Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Goldmask's+Set"
+  },
+  {
+    "id": "b8f6fb0b-770a-4881-8c10-30864e6a4895",
+    "mainCategory": "Armour Sets",
+    "title": "Guardian Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Guardian+Set"
+  },
+  {
+    "id": "8aa1908d-a10c-4bcf-960b-c5c5cfc95490",
+    "mainCategory": "Armour Sets",
+    "title": "Guilty Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Guilty+Set"
+  },
+  {
+    "id": "2f10b3a6-e010-4858-b898-dcac2e17f4f9",
+    "mainCategory": "Armour Sets",
+    "title": "Haligtree Foot Soldier Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Haligtree+Foot+Soldier+Set"
+  },
+  {
+    "id": "7bbe014b-6f2f-4a28-b71e-f9448c104f39",
+    "mainCategory": "Armour Sets",
+    "title": "Haligtree Knight Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Haligtree+Knight+Set"
+  },
+  {
+    "id": "d2420862-0d24-46a7-a1ff-1123a6b33a99",
+    "mainCategory": "Armour Sets",
+    "title": "Haligtree Soldier Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Haligtree+Soldier+Set"
+  },
+  {
+    "id": "86145d03-b613-4ec4-8c00-56e161d8e781",
+    "mainCategory": "Armour Sets",
+    "title": "High Page Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/High+Page+Set"
+  },
+  {
+    "id": "5e95ebf7-4ec3-4180-8e28-d1ebeb7cc65b",
+    "mainCategory": "Armour Sets",
+    "title": "Highwayman Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Highwayman+Set"
+  },
+  {
+    "id": "228074b2-07a3-48b7-903f-98aad0cbd76a",
+    "mainCategory": "Armour Sets",
+    "title": "Hoslow's Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Hoslow's+Set"
+  },
+  {
+    "id": "c68a58e0-ffeb-4e42-b775-9a8cbb6b5cf9",
+    "mainCategory": "Armour Sets",
+    "title": "House Marais Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/House+Marais+Set"
+  },
+  {
+    "id": "ada9758f-2b5a-419e-afb0-f456b0820c8b",
+    "mainCategory": "Armour Sets",
+    "title": "Iron Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Iron+Set"
+  },
+  {
+    "id": "88145c6b-565b-4b66-82d5-74c1c46dd846",
+    "mainCategory": "Armour Sets",
+    "title": "Juvenile Scholar Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Juvenile+Scholar+Set"
+  },
+  {
+    "id": "a4e36010-53a5-4164-8ec4-25f540662478",
+    "mainCategory": "Armour Sets",
+    "title": "Kaiden Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Kaiden+Set"
+  },
+  {
+    "id": "9c7aa668-9394-41e9-9545-6dfdc352b55b",
+    "mainCategory": "Armour Sets",
+    "title": "Knight Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Knight+Set"
+  },
+  {
+    "id": "6c66fbd8-9986-4768-893a-dc92da0de2a6",
+    "mainCategory": "Armour Sets",
+    "title": "Land of Reeds Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Land+of+Reeds+Set"
+  },
+  {
+    "id": "9b2ffbda-6996-4905-b850-860c56d11d02",
+    "mainCategory": "Armour Sets",
+    "title": "Lazuli Sorcerer Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Lazuli+Sorcerer+Set"
+  },
+  {
+    "id": "8eae02fa-1c77-401d-9378-515c6fdd78e1",
+    "mainCategory": "Armour Sets",
+    "title": "Leather Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Leather+Set"
+  },
+  {
+    "id": "4ad8f955-ce14-4e8d-ab4b-e2df67b6724e",
+    "mainCategory": "Armour Sets",
+    "title": "Leyndell Foot Soldier Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Leyndell+Foot+Soldier+Set"
+  },
+  {
+    "id": "0ab6d411-a6e5-4f54-9596-aa8c33b95853",
+    "mainCategory": "Armour Sets",
+    "title": "Leyndell Knight Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Leyndell+Knight+Set"
+  },
+  {
+    "id": "94522601-288a-472b-b2f3-3061c1320e62",
+    "mainCategory": "Armour Sets",
+    "title": "Leyndell Soldier Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Leyndell+Soldier+Set"
+  },
+  {
+    "id": "3e8455cb-8be5-4f55-b3ac-a4197ad99e95",
+    "mainCategory": "Armour Sets",
+    "title": "Lionel's Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Lionel's+Set"
+  },
+  {
+    "id": "b44221fe-348c-4897-a89a-7d5bb283b9df",
+    "mainCategory": "Armour Sets",
+    "title": "Lusat's Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Lusat's+Set"
+  },
+  {
+    "id": "3492f85d-9e59-4bcd-a43b-51fe8781a62a",
+    "mainCategory": "Armour Sets",
+    "title": "Malenia's Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Malenia's+Set"
+  },
+  {
+    "id": "db166eb1-8022-4b34-ade6-66d237b6bc09",
+    "mainCategory": "Armour Sets",
+    "title": "Malformed Dragon Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Malformed+Dragon+Set"
+  },
+  {
+    "id": "e16f9639-cbc4-4e2a-a7ff-f5dc2a4303ca",
+    "mainCategory": "Armour Sets",
+    "title": "Maliketh's Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Maliketh's+Set"
+  },
+  {
+    "id": "15c19e16-1d11-45db-8af9-147b2125cf67",
+    "mainCategory": "Armour Sets",
+    "title": "Marionette Soldier Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Marionette+Soldier+Set"
+  },
+  {
+    "id": "5b9a97c5-9cb8-4688-9d3a-79fe794365ad",
+    "mainCategory": "Armour Sets",
+    "title": "Mausoleum Foot Soldier Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Mausoleum+Foot+Soldier+Set"
+  },
+  {
+    "id": "c340bf03-799f-4766-8015-e95d91a43bfa",
+    "mainCategory": "Armour Sets",
+    "title": "Mausoleum Knight Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Mausoleum+Knight+Set"
+  },
+  {
+    "id": "e75333cc-3e5b-42d6-863d-e9917b21a14b",
+    "mainCategory": "Armour Sets",
+    "title": "Mausoleum Soldier Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Mausoleum+Soldier+Set"
+  },
+  {
+    "id": "5ae28f64-75da-46cb-ba7a-cffed3b99e43",
+    "mainCategory": "Armour Sets",
+    "title": "Millicent's Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Millicent's+Set"
+  },
+  {
+    "id": "ac362069-ea6e-41bd-9189-4de3eaa9f292",
+    "mainCategory": "Armour Sets",
+    "title": "Mushroom Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Mushroom+Set"
+  },
+  {
+    "id": "315f0036-af4f-4cd1-82d1-086caa7ffab0",
+    "mainCategory": "Armour Sets",
+    "title": "Night Maiden Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Night+Maiden+Set"
+  },
+  {
+    "id": "67190119-bb62-4c36-9206-c2c137f834ab",
+    "mainCategory": "Armour Sets",
+    "title": "Night's Cavalry Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Night's+Cavalry+Set"
+  },
+  {
+    "id": "db338c04-3c74-400d-b1c9-f12ca1004eea",
+    "mainCategory": "Armour Sets",
+    "title": "Noble's Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Noble's+Set"
+  },
+  {
+    "id": "3ef86acd-0092-4e03-b158-0bdbb8f0fb44",
+    "mainCategory": "Armour Sets",
+    "title": "Nomadic Merchant's Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Nomadic+Merchant's+Set"
+  },
+  {
+    "id": "78494d6f-3bd5-4093-aeb4-628727523f83",
+    "mainCategory": "Armour Sets",
+    "title": "Nox Monk Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Nox+Monk+Set"
+  },
+  {
+    "id": "a7cfc6c5-5fe8-4cb3-a6b6-9932583627d2",
+    "mainCategory": "Armour Sets",
+    "title": "Nox Swordstress Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Nox+Swordstress+Set"
+  },
+  {
+    "id": "c51213e8-d94e-431a-b8f1-f6b7b5649106",
+    "mainCategory": "Armour Sets",
+    "title": "Old Aristocrat Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Old+Aristocrat+Set"
+  },
+  {
+    "id": "0c18dca3-7f43-4dd0-ae42-065708589cbe",
+    "mainCategory": "Armour Sets",
+    "title": "Omen Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Omen+Set"
+  },
+  {
+    "id": "153a458a-ac87-4017-a9b0-50c7e0302863",
+    "mainCategory": "Armour Sets",
+    "title": "Omenkiller Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Omenkiller+Set"
+  },
+  {
+    "id": "17600a63-b04b-4e22-bc86-1c43073eeb49",
+    "mainCategory": "Armour Sets",
+    "title": "Page Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Page+Set"
+  },
+  {
+    "id": "e3753dcc-e481-4f60-a4a9-745ec8ddc786",
+    "mainCategory": "Armour Sets",
+    "title": "Perfumer Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Perfumer+Set"
+  },
+  {
+    "id": "7d3b2c1b-b7b0-4a9c-862d-42245fa30ae6",
+    "mainCategory": "Armour Sets",
+    "title": "Preceptor's Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Preceptor's+Set"
+  },
+  {
+    "id": "16c368f5-816b-4fd0-ba82-c795a56a39ea",
+    "mainCategory": "Armour Sets",
+    "title": "Prisoner Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Prisoner+Set"
+  },
+  {
+    "id": "8ec072b7-65b8-4ec2-8a15-e1213b64b46d",
+    "mainCategory": "Armour Sets",
+    "title": "Prophet Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Prophet+Set"
+  },
+  {
+    "id": "8dcf0aae-a205-4485-9881-b41af8e4c103",
+    "mainCategory": "Armour Sets",
+    "title": "Queen of the Full Moon Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Queen+of+the+Full+Moon+Set"
+  },
+  {
+    "id": "2aa11243-f2fd-40f5-baa3-101e2cb60ce4",
+    "mainCategory": "Armour Sets",
+    "title": "Radahn Foot Soldier Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Radahn+Foot+Soldier+Set"
+  },
+  {
+    "id": "fa7045c4-0cea-426c-a50a-c2b2400a9831",
+    "mainCategory": "Armour Sets",
+    "title": "Radahn Soldier Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Radahn+Soldier+Set"
+  },
+  {
+    "id": "d263e5b7-29a2-452a-a89e-f0915841de21",
+    "mainCategory": "Armour Sets",
+    "title": "Raging Wolf Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Raging+Wolf+Set"
+  },
+  {
+    "id": "92d59c75-2d38-40a4-a6e4-f3cf1565737f",
+    "mainCategory": "Armour Sets",
+    "title": "Raptor's Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Raptor's+Set"
+  },
+  {
+    "id": "00607634-f12b-4536-a3ea-923765c3bba1",
+    "mainCategory": "Armour Sets",
+    "title": "Raya Lucarian Foot Soldier Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Raya+Lucarian+Foot+Soldier+Set"
+  },
+  {
+    "id": "7646eb41-5b4d-480a-8904-2c295d16caed",
+    "mainCategory": "Armour Sets",
+    "title": "Raya Lucarian Soldier Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Raya+Lucarian+Soldier+Set"
+  },
+  {
+    "id": "b966785e-b0f2-4a1e-9545-1801706c01f6",
+    "mainCategory": "Armour Sets",
+    "title": "Raya Lucarian Sorcerer Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Raya+Lucarian+Sorcerer+Set"
+  },
+  {
+    "id": "f5a4ad0e-6049-432e-94a0-5862ff0789fb",
+    "mainCategory": "Armour Sets",
+    "title": "Redmane Knight Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Redmane+Knight+Set"
+  },
+  {
+    "id": "a1d556e8-5e81-478f-8024-a454327955b0",
+    "mainCategory": "Armour Sets",
+    "title": "Ronin's Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Ronin's+Set"
+  },
+  {
+    "id": "51798be4-93d6-4b9c-bd71-657e81d8e59c",
+    "mainCategory": "Armour Sets",
+    "title": "Rotten Duelist Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Rotten+Duelist+Set"
+  },
+  {
+    "id": "7156e29e-586b-4bdb-bb37-009892a0dab4",
+    "mainCategory": "Armour Sets",
+    "title": "Royal Knight Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Royal+Knight+Set"
+  },
+  {
+    "id": "f7833614-bd64-4199-825e-29767fefa95c",
+    "mainCategory": "Armour Sets",
+    "title": "Royal Remains Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Royal+Remains+Set"
+  },
+  {
+    "id": "0b3c8254-9909-4c27-90bc-97f3075a7d0e",
+    "mainCategory": "Armour Sets",
+    "title": "Ruler's Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Ruler's+Set"
+  },
+  {
+    "id": "be43767f-5d8e-4bc5-92df-b376a0ffcbed",
+    "mainCategory": "Armour Sets",
+    "title": "Sage Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Sage+Set"
+  },
+  {
+    "id": "89a86c7b-6f03-4d0c-b8ee-dce6f29d1d39",
+    "mainCategory": "Armour Sets",
+    "title": "Sanguine Noble Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Sanguine+Noble+Set"
+  },
+  {
+    "id": "8a5eb555-af2b-4a92-b01f-c63625564b71",
+    "mainCategory": "Armour Sets",
+    "title": "Scaled Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Scaled+Set"
+  },
+  {
+    "id": "9c40091a-7e2c-4bdb-b182-66c2d4dd1893",
+    "mainCategory": "Armour Sets",
+    "title": "Shaman Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Shaman+Set"
+  },
+  {
+    "id": "a3c74570-baba-45c3-9f47-92c61c2cfd56",
+    "mainCategory": "Armour Sets",
+    "title": "Snow Witch Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Snow+Witch+Set"
+  },
+  {
+    "id": "821379c7-ace5-4c02-bc9c-8846b0d81c4f",
+    "mainCategory": "Armour Sets",
+    "title": "Spellblade Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Spellblade+Set"
+  },
+  {
+    "id": "3d4a099c-6afc-4d53-9433-4a63af690a4c",
+    "mainCategory": "Armour Sets",
+    "title": "Traveler's Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Traveler's+Set"
+  },
+  {
+    "id": "8dc9ed5a-45cd-48c4-b8d3-d1b0dfb021b3",
+    "mainCategory": "Armour Sets",
+    "title": "Traveling Maiden Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Traveling+Maiden+Set"
+  },
+  {
+    "id": "1361e52e-217b-40f0-84c9-fa01e9afb63d",
+    "mainCategory": "Armour Sets",
+    "title": "Tree Sentinel Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Tree+Sentinel+Set"
+  },
+  {
+    "id": "fc5230b6-51da-4a5d-80bd-3efab3ca38f8",
+    "mainCategory": "Armour Sets",
+    "title": "Twinned Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Twinned+Set"
+  },
+  {
+    "id": "e30b6475-baec-414d-b8d8-214012a2697b",
+    "mainCategory": "Armour Sets",
+    "title": "Vagabond Knight Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Vagabond+Knight+Set"
+  },
+  {
+    "id": "4d880b57-713b-4e84-9615-8b32aec8241e",
+    "mainCategory": "Armour Sets",
+    "title": "Veteran's Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Veteran's+Set"
+  },
+  {
+    "id": "8fbfffa3-1ebb-4bb2-bbfa-fdf368dee51d",
+    "mainCategory": "Armour Sets",
+    "title": "Vulgar Militia Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Vulgar+Militia+Set"
+  },
+  {
+    "id": "9edb5eb2-a578-4592-9f3c-b43ba2a503c4",
+    "mainCategory": "Armour Sets",
+    "title": "War Surgeon Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/War+Surgeon+Set"
+  },
+  {
+    "id": "95cf42f2-fc8d-4f03-a542-d028ce282182",
+    "mainCategory": "Armour Sets",
+    "title": "White Reed Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/White+Reed+Set"
+  },
+  {
+    "id": "f5a5c465-ab30-4a59-b324-32809fa2b83a",
+    "mainCategory": "Armour Sets",
+    "title": "Zamor Set",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Zamor+Set"
+  },
+
+  {
+    "id": "aa9dd4b7-0f99-4650-b344-008a51f8d67c",
+    "mainCategory": "Legendary Talismans",
+    "title": "Erdtree's Favor +2",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Erdtree's+Favor++2"
+  },
+  {
+    "id": "3b4cc1bf-86fc-4b31-a646-760a1c608275",
+    "mainCategory": "Legendary Talismans",
+    "title": "Radagon's Soreseal",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Radagon's+Soreseal"
+  },
+  {
+    "id": "d9539f88-f29a-4039-bf63-c8380b179321",
+    "mainCategory": "Legendary Talismans",
+    "title": "Marika's Soreseal",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Marika's+Soreseal"
+  },
+  {
+    "id": "5827670f-aefc-4bad-a878-bff0d3f054a5",
+    "mainCategory": "Legendary Talismans",
+    "title": "Dragoncrest Greatshield Talisman",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Dragoncrest+Greatshield+Talisman"
+  },
+  {
+    "id": "4e9fc31d-28b9-494f-bc90-eb39f6dd7c45",
+    "mainCategory": "Legendary Talismans",
+    "title": "Moon of Nokstella",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Moon+of+Nokstella"
+  },
+  {
+    "id": "4bfeccd4-7b5f-4510-8fcb-d94ee7f876ae",
+    "mainCategory": "Legendary Talismans",
+    "title": "Old Lord's Talisman",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Old+Lord's+Talisman"
+  },
+  {
+    "id": "435272e1-3524-4325-bc3b-5598761c654d",
+    "mainCategory": "Legendary Talismans",
+    "title": "Radagon Icon",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Radagon+Icon"
+  },
+  {
+    "id": "288984f0-383a-471f-af3e-4bdbba8b3842",
+    "mainCategory": "Legendary Talismans",
+    "title": "Godfrey Icon",
+    "dlc": "None",
+    "subCategory": "",
+    "subCategoryType": "",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Godfrey+Icon"
+  },
+  {
+    "id": "fa815ec1-63ef-470c-af9e-97ecbf0b67ec",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Black Knife",
+    "subCategory": "Legendary Weapons",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Black+Knife"
+  },
+  {
+    "id": "132b9c3c-a347-4f23-befc-842ac234cbd1",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Godslayer's Greatsword",
+    "subCategory": "Legendary Weapons",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Godslayer's+Greatsword"
+  },
+  {
+    "id": "66500cc1-98a3-474f-9124-8cdbe28c2087",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Ancient Meteoric Ore Greatsword",
+    "subCategory": "Legendary Weapons",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Ancient+Meteoric+Ore+Greatsword"
+  },
+  {
+    "id": "c52a56c6-c3b3-40bc-8213-8d3d3fd7cd41",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Sword of Darkness",
+    "subCategory": "Legendary Weapons",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Sword+of+Darkness"
+  },
+  {
+    "id": "22c05886-e49c-4368-a004-ba12dc5f9292",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Sword of Light",
+    "subCategory": "Legendary Weapons",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Sword+of+Light"
+  },
+  {
+    "id": "8dd1684e-5ad8-4efd-b842-209dd8d42baa",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Euporia",
+    "subCategory": "Legendary Weapons",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Euporia"
+  },
+
+  {
+    "id": "b20e2fec-50b3-4558-bc29-9a3a08b58532",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Divine Bird Warrior Ornis",
+    "subCategory": "Legendary Spirit Ashes",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Divine+Bird+Warrior+Ornis"
+  },
+  {
+    "id": "121ec44a-e7df-47d3-acb6-276fefca2d20",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Taylew the Golem Smith",
+    "subCategory": "Legendary Spirit Ashes",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Taylew+the+Golem+Smith"
+  },
+  {
+    "id": "55d6c224-5658-40ab-81e6-f402c14e4183",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Ancient Dragon Florissax",
+    "subCategory": "Legendary Spirit Ashes",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Ancient+Dragon+Florissax"
+  },
+
+  {
+    "id": "65efb07e-4258-4cf9-9bae-e28fe2263af6",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Ansbach's Set",
+    "subCategory": "Armour Sets",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Ansbach's+Set"
+  },
+  {
+    "id": "f6b24856-8d78-40c8-8398-b05b1c0946a4",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Ascetic's Set",
+    "subCategory": "Armour Sets",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Ascetic's+Set"
+  },
+  {
+    "id": "a1e19541-3b64-4d39-b642-e15926f2bd85",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Black Knight Set",
+    "subCategory": "Armour Sets",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Black+Knight+Set"
+  },
+  {
+    "id": "c0258728-94af-43fd-952d-a98e77e43947",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Common Soldier Set",
+    "subCategory": "Armour Sets",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Common+Soldier+Set"
+  },
+  {
+    "id": "b03dbf44-004a-4fb2-b6f0-7098a174989d",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Dancer's Set",
+    "subCategory": "Armour Sets",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Dancer's+Set"
+  },
+  {
+    "id": "04a91c80-561d-498c-b898-38586215135e",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Dane's Set",
+    "subCategory": "Armour Sets",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Dane's+Set"
+  },
+  {
+    "id": "9fec12d8-0216-4bd3-ab0a-f3a2e95b54f2",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Death Knight Set",
+    "subCategory": "Armour Sets",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Death+Knight+Set"
+  },
+  {
+    "id": "80407929-9410-435d-a072-1115e6ed1a16",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Divine Beast Set",
+    "subCategory": "Armour Sets",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Divine+Beast+Set"
+  },
+  {
+    "id": "897912c8-3c03-48af-8dc6-e29762f5d6e3",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Divine Bird Set",
+    "subCategory": "Armour Sets",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Divine+Bird+Set"
+  },
+  {
+    "id": "29d2a04f-1d92-40af-8673-f2d75a21b638",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Fire Knight Set",
+    "subCategory": "Armour Sets",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Fire+Knight+Set"
+  },
+  {
+    "id": "dc81d82c-2569-4586-ab04-7e5727c4f1f7",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Freyja's Set",
+    "subCategory": "Armour Sets",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Freyja's+Set"
+  },
+  {
+    "id": "4b16d10d-2c22-45cd-81e3-1d6c928f7fbd",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Gaius's Set",
+    "subCategory": "Armour Sets",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Gaius's+Set"
+  },
+  {
+    "id": "ddb35e8f-c2ae-40d2-b82b-70c0a76e429c",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Gravebird Set",
+    "subCategory": "Armour Sets",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Gravebird+Set"
+  },
+  {
+    "id": "1b571337-391d-4c24-92b5-bc731ed8470a",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "High Priest Set",
+    "subCategory": "Armour Sets",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/High+Priest+Set"
+  },
+  {
+    "id": "5393e481-489d-431c-b65f-8d9c685b6a88",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Horned Warrior Set",
+    "subCategory": "Armour Sets",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Horned+Warrior+Set"
+  },
+  {
+    "id": "0d33e7a7-79e7-4999-b3d9-f680403335ab",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Hornsent Set",
+    "subCategory": "Armour Sets",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Hornsent+Set"
+  },
+  {
+    "id": "ea805865-8384-4f0b-9173-7ea6ab9ba090",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Igon's Set",
+    "subCategory": "Armour Sets",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Igon's+Set"
+  },
+  {
+    "id": "62c979e7-dcec-482b-bd8a-6c9e536bd74c",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Iron Rivet Set",
+    "subCategory": "Armour Sets",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Iron+Rivet+Set"
+  },
+  {
+    "id": "1fb50a1b-5a91-42c2-b03f-a82fe734273a",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Highland Warrior Set",
+    "subCategory": "Armour Sets",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Highland+Warrior+Set"
+  },
+  {
+    "id": "f4d4eb6e-2dbb-48c7-abc0-81bbd87e24f4",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Messmer Soldier Set",
+    "subCategory": "Armour Sets",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Messmer+Soldier+Set"
+  },
+  {
+    "id": "47835e09-da95-4ba4-ae1b-27195a940000",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Messmer's Set",
+    "subCategory": "Armour Sets",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Messmer's+Set"
+  },
+  {
+    "id": "8116e3e2-4a7e-46b3-b881-dddd3bbe90f7",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Night Set",
+    "subCategory": "Armour Sets",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Night+Set"
+  },
+  {
+    "id": "685c3b96-ada4-40d9-81b9-d70951893085",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Oathseeker Knight Set",
+    "subCategory": "Armour Sets",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Oathseeker+Knight+Set"
+  },
+  {
+    "id": "1571bbef-3e38-4f19-bc4f-f619a159b6ce",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Rakshasa Set",
+    "subCategory": "Armour Sets",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Rakshasa+Set"
+  },
+  {
+    "id": "26c85cd9-665a-4342-8b84-628e926fc9d2",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Rellana's Set",
+    "subCategory": "Armour Sets",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Rellana's+Set"
+  },
+  {
+    "id": "90d45c42-751c-41bc-8c99-cb5f4a28460b",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Shadow Militiaman Set",
+    "subCategory": "Armour Sets",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Shadow+Militiaman+Set"
+  },
+  {
+    "id": "89a2ec90-83a2-4cf8-8284-56c2edd64f72",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Solitude Set",
+    "subCategory": "Armour Sets",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Solitude+Set"
+  },
+  {
+    "id": "c24bf148-1239-4526-8ed7-6dd730d64932",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Thiollier's Set",
+    "subCategory": "Armour Sets",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Thiollier's+Set"
+  },
+  {
+    "id": "f0a92670-ec09-405e-bb6a-d3ca1c870422",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Verdigris Set",
+    "subCategory": "Armour Sets",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Verdigris+Set"
+  },
+  {
+    "id": "4a6d292e-5573-40c1-b56d-bd8e0fd2a2ed",
+    "mainCategory": "Shadow Of The Erdtree",
+    "title": "Young Lion's Set",
+    "subCategory": "Armour Sets",
+    "subCategoryType": "",
+    "dlc": "Shadow Of The Erdtree",
+    "section": "collectables",
+    "href": "https://eldenring.wiki.fextralife.com/Young+Lion's+Set"
+  }
+
+]

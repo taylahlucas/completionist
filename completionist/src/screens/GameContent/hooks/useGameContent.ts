@@ -1,17 +1,16 @@
-import useGetGameData from '@data/hooks/useGetGameData';
-import useGetUserGameData from '@data/hooks/useGetUserGameData';
+import { useGetGameData, useGetUserGameData } from '@data/hooks/index';
 import useMainState from '@redux/hooks/useMainState';
 import useContentState from '@components/custom/ContentList/provider/useContentState';
 import useContentDispatch from '@components/custom/ContentList/provider/useContentDispatch';
-import {ContentSectionEnum} from '@utils/CustomEnums';
+import { ContentSectionEnum } from '@utils/CustomEnums';
 
 const useGameContent = () => {
-  const {selectedGame} = useMainState();
-  const {setSearchValue} = useContentDispatch();
-  const {searchValue} = useContentState();
-  const {userQuests, userCollectables, userLocations, userMiscItems} =
+  const { selectedGame } = useMainState();
+  const { setSearchValue } = useContentDispatch();
+  const { searchValue } = useContentState();
+  const { userQuests, userCollectables, userLocations, userMiscItems } =
     useGetUserGameData();
-  const {mapDataTo} = useGetGameData();
+  const { mapDataTo } = useGetGameData(selectedGame);
 
   return {
     viewModel: {

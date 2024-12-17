@@ -10,24 +10,7 @@ Quests
   href?: string
   dlc: string
   conflictingIds: string[]
-}
-
-Locations
-{
-  id: generated_uuid
-  mainCategory: string,
-  subCategory?: string,
-	title: string,
-	dlc: string
-}
-
-Miscellaneous
-{
-  id: generated_uuid
-  mainCategory: string,
-  subCategory?: string,
-	title: string,
-  dlc: string
+  section: 'quests',
 }
 
 Collectables
@@ -38,70 +21,73 @@ Collectables
   subCategoryType?: string,
   title: string,
   prerequisite?: string,
-  dlc: string
+  dlc: string,
+  href?: string,
+  section: 'collectables',
 }
 
+Locations
+{
+  id: generated_uuid
+  title: string,
+  mainCategory: string,
+  subCategory?: string,
+  subCategoryType?: string,
+	dlc: string,
+  href?: string,
+  section: 'locations',
+}
 
-TODO: 
+Miscellaneous
+{
+  id: generated_uuid
+  mainCategory: string,
+  subCategory?: string,
+	title: string,
+  dlc: string,
+  section: 'miscellaneous',
+  href?: string,
+}
 
-HEARTHFIRE QUESTS
-https://en.uesp.net/wiki/Category:Skyrim-Hearthfire-Quests
+Elden Ring
 
-Bandit Attack
-Build Your Own Home
-BYOH HouseFalkreath
-BYOH HouseHjaalmarch
-BYOH HousePale
-
-Speak to the Jarl of Dawnstar about the land for sale
-Speak to the Jarl of Falkreath
-Speak to the Steward of Falkreath about the land for sale
-Speak to the Steward of Morthal about the land for sale
-
-Use the Carpenter's Workbench to build the foundation of your house
-Use the Drafting Table to begin building your house
-
-Visit your new property in Falkreath hold
-Visit your new property in Hjaalmarch hold
-Visit your new property in The Pale hold
-
-// TODO: Update location items to have subCategoryType ???
-
-////
+// DLC - Shadow of the Erdtree
 
 Can you do the same for the following data:
 
+** COLLECTABLES **  // https://eldenring.wiki.fextralife.com/Legendary+Armaments
 
-Can you do the same thing for the following data:
+// Legendary Weapons
 
-can you convert the following Witcher 3 Locations to the following json data, replacing id with a uniquely generated uuid:
+// Legendary Spirit Ashes
 
-	{
-		"id": <generated_uuid>,
-		"mainCategory": "Hearts Of Stone",
-		"subCategory": "Diagrams",
-		"subCategoryType": "Other",
-		"title":  <given_value>,
-		"prerequisite": "",
-		"dlc": "Hearts Of Stone"
-	},
+// Armour Sets
 
-can you convert the following Fallout 3 Quests to the following json data, replacing id with a uniquely generated uuid:
+** MISCELLANEOUS **
+
+// Legendary Spells
+
+// Achievement Bosses
+
+
+** LOCATIONS ** // https://eldenring.wiki.fextralife.com/Locations
+
+can you convert the following Elden Ring Quests to the following json data, replacing id with a uniquely generated uuid:
 
 	{
 			"id": <generated_uuid>,
-			"mainCategory": "Mothership Zeta",
+			"mainCategory": "Liurnia Of The Lakes",
 			"title": <quest title>
 			"hold": ""
-			"dlc": "Mothership Zeta",
-			"subCategory": "Main Quests"
+			"dlc": "None",
+			"subCategory": ""
 			"subCategoryType": "",
-			"location": "",
-			"href": "",
+			"location": "Liurnia Of The Lakes",
 			"conflictingIds": []
+      "section": "quests", 
 	}
 
-	can you convert the following Fallout 3 Locations to the following json data, replacing id with a uniquely generated uuid:
+	can you convert the following Fallout 3 Collectables to the following json data, replacing id with a uniquely generated uuid:
 
 	{
     "id":  <generated_uuid>,
@@ -110,9 +96,6 @@ can you convert the following Fallout 3 Quests to the following json data, repla
     "dlc": "None",
     "mainCategory": "Main"
   },
-
-
-https://fallout.fandom.com/wiki/Fallout_3_locations
 
 can you convert the following Fallout 3 Miscellaneous to the following json data, replacing id with a uniquely generated uuid:
 
@@ -136,12 +119,6 @@ can you convert the following Fallout 3 Locations to the following json data, re
 	"mainCategory": "Mothership Zeta"
 },
 
-// https://fallout.fandom.com/wiki/Fallout_3_locations
-
-
-// TODO: Go through and add parent of nested child locations, everything before Pilgrim's Landing
-
-
 // https://game8.co/games/Hogwarts-Legacy/archives/403791#hl_1
 
 // https://hogwarts-legacy.fandom.com/wiki/Beasts
@@ -149,3 +126,26 @@ can you convert the following Fallout 3 Locations to the following json data, re
 //https://www.powerpyx.com/hogwarts-legacy-collectibles-guide-100-completion/
 
 //https://hogwarts-legacy.fandom.com/wiki/Collections
+
+// TODO: 
+
+HEARTHFIRE QUESTS
+https://en.uesp.net/wiki/Category:Skyrim-Hearthfire-Quests
+
+Bandit Attack
+Build Your Own Home
+BYOH HouseFalkreath
+BYOH HouseHjaalmarch
+BYOH HousePale
+
+Speak to the Jarl of Dawnstar about the land for sale
+Speak to the Jarl of Falkreath
+Speak to the Steward of Falkreath about the land for sale
+Speak to the Steward of Morthal about the land for sale
+
+Use the Carpenter's Workbench to build the foundation of your house
+Use the Drafting Table to begin building your house
+
+Visit your new property in Falkreath hold
+Visit your new property in Hjaalmarch hold
+Visit your new property in The Pale hold

@@ -8,7 +8,7 @@ import { GoogleSigninButton } from '@react-native-google-signin/google-signin';
 import useLoginDispatch from './provider/useLoginDispatch';
 import useLoginState from './provider/useLoginState';
 import StyledText from '@components/general/Text/StyledText.native';
-import Condition from '@components/general/Condition.native';
+import {Condition} from '@components/general/index';
 import useValidator from '@utils/hooks/useValidator';
 import useSendVerificationEmail from './hooks/useSendVerificationEmail';
 import useAuthEndpoints from '@data/api/hooks/useAuthEndpoints.native';
@@ -28,7 +28,7 @@ const LoginFormSignInButtons = () => {
 		: false
 	);
 	
-	// TODO: get this to move with screen, add to translations
+	// TODO: get this to move with screen
 	return (
 		<View style={{ alignItems: 'center' }}>
 			<LoginButton
@@ -50,8 +50,8 @@ const LoginFormSignInButtons = () => {
 								}
 								else {
 									Alert.alert(
-										'Email already exists',
-										'You are unable to create a new account with this email. Please login.'
+										t('common:errors.emailAlreadyExists'),
+										t('common:errors.retryLogin')
 									);
 								}
 							})
@@ -72,7 +72,7 @@ const LoginFormSignInButtons = () => {
 			</LoginFormContentContainer>
 			<LoginFormFooterContainer>
 				<Condition condition={!isSigningUp}>
-					<StyledText testID={'request-account'}>{t('common:auth.requestAccount')}</StyledText>
+					<StyledText testID='request-account'>{t('common:auth.requestAccount')}</StyledText>
 				</Condition>
 				<Button
 					title={isSigningUp ? t('common:auth.backToLogin') : t('common:auth.signUp')}

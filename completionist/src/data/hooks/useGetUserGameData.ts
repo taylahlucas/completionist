@@ -1,6 +1,6 @@
 import useMainState from '@redux/hooks/useMainState';
 import { Item, IsActive } from '@utils/CustomInterfaces';
-import { getCurrentGame } from '@data/hooks/useGetCurrentGameData.native';
+import { getCurrentGame } from '@data/hooks/index';
 
 interface GetUserGameDataReturnType {
   userQuests: Item[];
@@ -12,7 +12,7 @@ interface GetUserGameDataReturnType {
   getUserSettingsDLC: (section: string) => IsActive[];
 }
 
-const useGetUserGameData = (): GetUserGameDataReturnType => {
+export const useGetUserGameData = (): GetUserGameDataReturnType => {
   const { user, selectedGame, selectedGameSettings } = useMainState();
   const currentGame = getCurrentGame(selectedGameSettings, user);
 
@@ -48,5 +48,3 @@ const useGetUserGameData = (): GetUserGameDataReturnType => {
     getUserSettingsDLC
   }
 };
-
-export default useGetUserGameData;

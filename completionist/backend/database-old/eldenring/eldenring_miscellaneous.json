@@ -1,0 +1,336 @@
+[
+  {
+    "id": "7bb0f4f2-a8a5-4ba5-a254-8d6929a5340b",
+    "mainCategory": "Legendary Spells",
+    "title": "Flame of the Fell God",
+    "dlc": "None",
+    "subCategory": "",
+    "section": "miscellaneous",
+    "href": "https://eldenring.wiki.fextralife.com/Flame+of+the+Fell+God"
+  },
+  {
+    "id": "ad918f6d-32e4-4485-a17e-e0ab6dcbd78c",
+    "mainCategory": "Legendary Spells",
+    "title": "Founding Rain of Stars",
+    "dlc": "None",
+    "subCategory": "",
+    "section": "miscellaneous",
+    "href": "https://eldenring.wiki.fextralife.com/Founding+Rain+of+Stars"
+  },
+  {
+    "id": "983b709b-3155-4263-bf37-677cd3a6af89",
+    "mainCategory": "Legendary Spells",
+    "title": "Elden Stars",
+    "dlc": "None",
+    "subCategory": "",
+    "section": "miscellaneous",
+    "href": "https://eldenring.wiki.fextralife.com/Elden+Stars"
+  },
+  {
+    "id": "ae08d935-7fd1-4b48-8d33-75a9781eead3",
+    "mainCategory": "Legendary Spells",
+    "title": "Ranni's Dark Moon",
+    "dlc": "None",
+    "subCategory": "",
+    "section": "miscellaneous",
+    "href": "https://eldenring.wiki.fextralife.com/Ranni's+Dark+Moon"
+  },
+  {
+    "id": "1e881db9-ce3c-411a-9caa-04c6bf3c3dd4",
+    "mainCategory": "Legendary Spells",
+    "title": "Comet Azur",
+    "dlc": "None",
+    "subCategory": "",
+    "section": "miscellaneous",
+    "href": "https://eldenring.wiki.fextralife.com/Comet+Azur"
+  },
+  {
+    "id": "b3a6d159-7936-410b-8d6d-2bc60dc7e370",
+    "mainCategory": "Legendary Spells",
+    "title": "Stars of Ruin",
+    "dlc": "None",
+    "subCategory": "",
+    "section": "miscellaneous",
+    "href": "https://eldenring.wiki.fextralife.com/Stars+of+Ruin"
+  },
+  {
+    "id": "bef32310-6d70-4faf-b10b-540377ee6cab",
+    "mainCategory": "Legendary Spells",
+    "title": "Greyoll's Roar",
+    "dlc": "None",
+    "subCategory": "",
+    "section": "miscellaneous",
+    "href": "https://eldenring.wiki.fextralife.com/Greyoll's+Roar"
+  },
+
+  {
+    "id": "a28ead2d-1929-431b-988e-f4c02e6ef586",
+    "mainCategory": "Achievement Bosses",
+    "title": "Margit the Fell Omen",
+    "dlc": "None",
+    "subCategory": "",
+    "section": "miscellaneous",
+    "href": "https://eldenring.wiki.fextralife.com/Margit+the+Fell+Omen"
+  },
+  {
+    "id": "26f1ab75-1fb0-4d83-abf5-215bc4e1ebe1",
+    "mainCategory": "Achievement Bosses",
+    "title": "Godrick the Grafted",
+    "dlc": "None",
+    "subCategory": "",
+    "section": "miscellaneous",
+    "href": "https://eldenring.wiki.fextralife.com/Godrick+the+Grafted"
+  },
+  {
+    "id": "6232ba09-7a5c-42a0-85e3-5e629aea44fc",
+    "mainCategory": "Achievement Bosses",
+    "title": "Red Wolf of Radagon",
+    "dlc": "None",
+    "subCategory": "",
+    "section": "miscellaneous",
+    "href": "https://eldenring.wiki.fextralife.com/Red+Wolf+of+Radagon"
+  },
+  {
+    "id": "45b9ad94-53c3-45bd-91f2-73042dfd7326",
+    "mainCategory": "Achievement Bosses",
+    "title": "Rennala, Queen of the Full Moon",
+    "dlc": "None",
+    "subCategory": "",
+    "section": "miscellaneous",
+    "href": "https://eldenring.wiki.fextralife.com/Rennala,+Queen+of+the+Full+Moon"
+  },
+  {
+    "id": "11433e6f-0ba8-4f24-8970-f3fabfd0d8ca",
+    "mainCategory": "Achievement Bosses",
+    "title": "Leonine Misbegotten (Castle Morne)",
+    "dlc": "None",
+    "subCategory": "",
+    "section": "miscellaneous",
+    "href": "https://eldenring.wiki.fextralife.com/Leonine+Misbegotten+(Castle+Morne)"
+  },
+  {
+    "id": "d508df2d-3fce-4f46-b9fc-a1874ace15fc",
+    "mainCategory": "Achievement Bosses",
+    "title": "Ancestor Spirit",
+    "dlc": "None",
+    "subCategory": "",
+    "section": "miscellaneous",
+    "href": "https://eldenring.wiki.fextralife.com/Ancestor+Spirit"
+  },
+  {
+    "id": "fcd521da-9a05-4873-b6e0-287df86555ff",
+    "mainCategory": "Achievement Bosses",
+    "title": "Starscourge Radahn",
+    "dlc": "None",
+    "subCategory": "",
+    "section": "miscellaneous",
+    "href": "https://eldenring.wiki.fextralife.com/Starscourge+Radahn"
+  },
+  {
+    "id": "78be0801-b7ba-41c0-ad1f-0cbffe7772ea",
+    "mainCategory": "Achievement Bosses",
+    "title": "Magma Wyrm Makar",
+    "dlc": "None",
+    "subCategory": "",
+    "section": "miscellaneous",
+    "href": "https://eldenring.wiki.fextralife.com/Magma+Wyrm+Makar"
+  },
+  {
+    "id": "ec089463-0173-45d0-8c2d-6fd40d27df9a",
+    "mainCategory": "Achievement Bosses",
+    "title": "Mimic Tear (Nokron, Eternal City)",
+    "dlc": "None",
+    "subCategory": "",
+    "section": "miscellaneous",
+    "href": "https://eldenring.wiki.fextralife.com/Mimic+Tear+(Nokron,+Eternal+City)"
+  },
+  {
+    "id": "3e035f9f-711e-4507-b8be-80a8118a80ce",
+    "mainCategory": "Achievement Bosses",
+    "title": "Royal Knight Loretta",
+    "dlc": "None",
+    "subCategory": "",
+    "section": "miscellaneous",
+    "href": "https://eldenring.wiki.fextralife.com/Royal+Knight+Loretta"
+  },
+  {
+    "id": "7eccd885-2207-404a-85a1-6cb918ac2cf1",
+    "mainCategory": "Achievement Bosses",
+    "title": "Regal Ancestor Spirit",
+    "dlc": "None",
+    "subCategory": "",
+    "section": "miscellaneous",
+    "href": "https://eldenring.wiki.fextralife.com/Regal+Ancestor+Spirit"
+  },
+  {
+    "id": "7b63f1b7-8e88-4b89-a5e9-f5f23b76580d",
+    "mainCategory": "Achievement Bosses",
+    "title": "Dragonkin Soldier of Nokstella",
+    "dlc": "None",
+    "subCategory": "",
+    "section": "miscellaneous",
+    "href": "https://eldenring.wiki.fextralife.com/Dragonkin+Soldier+of+Nokstella"
+  },
+  {
+    "id": "3cb0330d-5958-4629-be90-63ea4c365697",
+    "mainCategory": "Achievement Bosses",
+    "title": "Valiant Gargoyles",
+    "dlc": "None",
+    "subCategory": "",
+    "section": "miscellaneous",
+    "href": "https://eldenring.wiki.fextralife.com/Valiant+Gargoyles"
+  },
+  {
+    "id": "0c331a12-1175-43b8-8b92-2d45d4e01cf7",
+    "mainCategory": "Achievement Bosses",
+    "title": "Astel, Naturalborn of the Void",
+    "dlc": "None",
+    "subCategory": "",
+    "section": "miscellaneous",
+    "href": "https://eldenring.wiki.fextralife.com/Astel,+Naturalborn+of+the+Void"
+  },
+  {
+    "id": "219274ff-dab9-4807-bbd8-ca873a751853",
+    "mainCategory": "Achievement Bosses",
+    "title": "Godskin Noble (Volcano Manor)",
+    "dlc": "None",
+    "subCategory": "",
+    "section": "miscellaneous",
+    "href": "https://eldenring.wiki.fextralife.com/Godskin+Noble+(Volcano+Manor)"
+  },
+  {
+    "id": "d4c16ff0-83e5-4347-9d75-618b4f909b86",
+    "mainCategory": "Achievement Bosses",
+    "title": "Rykard, Lord of Blasphemy",
+    "dlc": "None",
+    "subCategory": "",
+    "section": "miscellaneous",
+    "href": "https://eldenring.wiki.fextralife.com/Rykard,+Lord+of+Blasphemy"
+  },
+  {
+    "id": "d771d281-9ccd-4cb1-a980-9db69c5fcd30",
+    "mainCategory": "Achievement Bosses",
+    "title": "Elemer of the Briar",
+    "dlc": "None",
+    "subCategory": "",
+    "section": "miscellaneous",
+    "href": "https://eldenring.wiki.fextralife.com/Elemer+of+the+Briar"
+  },
+  {
+    "id": "4c86f3b1-6841-42e8-ae81-5ecdf84f5a95",
+    "mainCategory": "Achievement Bosses",
+    "title": "Godfrey, First Elden Lord (Golden Shade)",
+    "dlc": "None",
+    "subCategory": "",
+    "section": "miscellaneous",
+    "href": "https://eldenring.wiki.fextralife.com/Godfrey,+First+Elden+Lord+(Golden+Shade)"
+  },
+  {
+    "id": "ac234e19-7661-460f-8414-842671658661",
+    "mainCategory": "Achievement Bosses",
+    "title": "Morgott the Omen King",
+    "dlc": "None",
+    "subCategory": "",
+    "section": "miscellaneous",
+    "href": "https://eldenring.wiki.fextralife.com/Morgott+the+Omen+King"
+  },
+  {
+    "id": "97ed841b-9c37-42e9-88db-47dc78e69d29",
+    "mainCategory": "Achievement Bosses",
+    "title": "Mohg, the Omen",
+    "dlc": "None",
+    "subCategory": "",
+    "section": "miscellaneous",
+    "href": "https://eldenring.wiki.fextralife.com/Mohg,+the+Omen"
+  },
+  {
+    "id": "c4a8ee55-b576-4402-bfd3-a98e7031137e",
+    "mainCategory": "Achievement Bosses",
+    "title": "Commander Niall",
+    "dlc": "None",
+    "subCategory": "",
+    "section": "miscellaneous",
+    "href": "https://eldenring.wiki.fextralife.com/Commander+Niall"
+  },
+  {
+    "id": "c10faf2c-70cb-49cd-aea2-69a064363606",
+    "mainCategory": "Achievement Bosses",
+    "title": "Fire Giant",
+    "dlc": "None",
+    "subCategory": "",
+    "section": "miscellaneous",
+    "href": "https://eldenring.wiki.fextralife.com/Fire+Giant"
+  },
+  {
+    "id": "c9fc5d4f-69a4-4410-bd2b-23073fb264b4",
+    "mainCategory": "Achievement Bosses",
+    "title": "Loretta, Knight of the Haligtree",
+    "dlc": "None",
+    "subCategory": "",
+    "section": "miscellaneous",
+    "href": "https://eldenring.wiki.fextralife.com/Loretta,+Knight+of+the+Haligtree"
+  },
+  {
+    "id": "5f2661a0-b696-409b-9133-a88918a75164",
+    "mainCategory": "Achievement Bosses",
+    "title": "Malenia, Blade of Miquella",
+    "dlc": "None",
+    "subCategory": "",
+    "section": "miscellaneous",
+    "href": "https://eldenring.wiki.fextralife.com/Malenia,+Blade+of+Miquella"
+  },
+  {
+    "id": "a709a54c-9406-4d63-8a97-d93e986fe6f3",
+    "mainCategory": "Achievement Bosses",
+    "title": "Godskin Duo",
+    "dlc": "None",
+    "subCategory": "",
+    "section": "miscellaneous",
+    "href": "https://eldenring.wiki.fextralife.com/Godskin+Duo"
+  },
+  {
+    "id": "25679916-11f8-4298-aeec-2b3c2b0e9bab",
+    "mainCategory": "Achievement Bosses",
+    "title": "Dragonlord Placidusax",
+    "dlc": "None",
+    "subCategory": "",
+    "section": "miscellaneous",
+    "href": "https://eldenring.wiki.fextralife.com/Dragonlord+Placidusax"
+  },
+  {
+    "id": "c4db891e-031b-4762-a921-d398ce13bca6",
+    "mainCategory": "Achievement Bosses",
+    "title": "Maliketh, the Black Blade",
+    "dlc": "None",
+    "subCategory": "",
+    "section": "miscellaneous",
+    "href": "https://eldenring.wiki.fextralife.com/Maliketh,+the+Black+Blade"
+  },
+  {
+    "id": "c39fc63b-e5be-48b1-bbe9-f1452d076439",
+    "mainCategory": "Achievement Bosses",
+    "title": "Lichdragon Fortissax",
+    "dlc": "None",
+    "subCategory": "",
+    "section": "miscellaneous",
+    "href": "https://eldenring.wiki.fextralife.com/Lichdragon+Fortissax"
+  },
+  {
+    "id": "b2b815ef-bdb0-41ec-bdbd-c12ed4f39b9c",
+    "mainCategory": "Achievement Bosses",
+    "title": "Mohg, Lord of Blood",
+    "dlc": "None",
+    "subCategory": "",
+    "section": "miscellaneous",
+    "href": "https://eldenring.wiki.fextralife.com/Mohg,+Lord+of+Blood"
+  },
+  {
+    "id": "d4a94228-b0fd-4109-bdae-72ce857b8a0d",
+    "mainCategory": "Achievement Bosses",
+    "title": "Hoarah Loux, Warrior",
+    "dlc": "None",
+    "subCategory": "",
+    "section": "miscellaneous",
+    "href": "https://eldenring.wiki.fextralife.com/Hoarah+Loux,+Warrior"
+  }
+]

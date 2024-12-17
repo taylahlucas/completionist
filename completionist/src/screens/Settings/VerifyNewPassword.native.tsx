@@ -7,19 +7,23 @@ import VerificationContent from '@components/custom/Verification/VerificationCon
 import useVerifyNewPassword from './hooks/useVerifyNewPassword';
 
 const VerifyNewPassword = () => {
-	const { t } = useTranslation();
-	const { viewModel, actions } = useVerifyNewPassword();
+  const { t } = useTranslation();
+  const { viewModel, actions } = useVerifyNewPassword();
 
-	return (
-		<StandardLayout>
-			<NavigationHeader id={UnauthorizedScreenEnum.VerifyNewPassword} title={t('common:screens.verifyNewPw')} leftAction='back' />
-			<VerificationContent
-				email={viewModel.loginFormData.email}
-				token={viewModel.verificationToken ?? ''}
-				action={actions.forgotPassword}
-			/>
-		</StandardLayout>
-	);
+  return (
+    <StandardLayout>
+      <NavigationHeader
+        id={UnauthorizedScreenEnum.VerifyNewPassword}
+        title={t('common:screens.verifyNewPw')}
+        leftAction="back"
+      />
+      <VerificationContent
+        email={viewModel.loginFormData.email}
+        token={viewModel.verificationToken ?? ''}
+        action={actions.forgotPassword}
+      />
+    </StandardLayout>
+  );
 };
 
 export default VerifyNewPassword;

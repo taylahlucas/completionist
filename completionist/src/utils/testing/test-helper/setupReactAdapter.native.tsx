@@ -4,14 +4,13 @@ import mockAsyncStorage from '@react-native-async-storage/async-storage/jest/asy
 import { Image, NativeModules as RNNativeModules } from 'react-native';
 import * as reactNativeLocalizeMock from './reactNativeLocalizeMock.native';
 
-
 interface TransProps {
-	i18nKey: string;
-	components: any[]
+  i18nKey: string;
+  components: any[];
 }
 
 RNNativeModules.CameraView = {
-  getConstants: jest.fn()
+  getConstants: jest.fn(),
 };
 
 jest.useFakeTimers();
@@ -20,7 +19,7 @@ jest.mock('react-i18next', () => ({
   initReactI18next: { type: '3rdParty', init: jest.fn() },
   useTranslation: (): any => ({
     t: (key: string): string => key,
-    i18n: jest.fn()
+    i18n: jest.fn(),
   }),
   withTranslation: () => {
     return (Component: JSX.Element): any => {
@@ -28,12 +27,13 @@ jest.mock('react-i18next', () => ({
         ...Component.props,
         t: (key: string): string => key,
         i18n: jest.fn(),
-        tReady: true
+        tReady: true,
       };
       return Component;
     };
   },
-  Trans: ({ i18nKey, components }: TransProps): React.ReactElement | string => (components?.length ? components[0] : i18nKey)
+  Trans: ({ i18nKey, components }: TransProps): React.ReactElement | string =>
+    components?.length ? components[0] : i18nKey,
 }));
 // jest.spyOn(i18next, 't').mockImplementation((key: string) => key);
 jest
@@ -52,10 +52,10 @@ jest.mock('@react-navigation/native', () => {
       goBack: jest.fn(),
       backToFirstScreen: jest.fn(),
       getCurrentPageName: jest.fn(),
-      setOptions: jest.fn()
+      setOptions: jest.fn(),
     }),
     useNavigationState: (): any => jest.fn(),
-		useFocusEffect: jest.fn()
+    useFocusEffect: jest.fn(),
   };
 });
 jest.mock('react-native-localize', () => reactNativeLocalizeMock);

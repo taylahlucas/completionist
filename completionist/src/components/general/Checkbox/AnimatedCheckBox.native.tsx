@@ -4,7 +4,7 @@ import useGetTheme from '@styles/hooks/useGetTheme';
 import { IconTypeEnum } from '@utils/CustomEnums';
 import Icon from '../Icon/Icon.native';
 import { StyledAnimatedCheckBox, StyledAnimation } from './CheckBoxStyledComponents.native';
-import Condition from '../Condition.native';
+import {Condition} from '@components/general/index';
 
 interface AnimatedCheckBoxProps {
   isToggled: boolean;
