@@ -38,7 +38,7 @@ export const useEditUserData = (): EditUserDataReturnType => {
               saveUser(user);
               saveToCache(user);
               setLoggedIn(true);
-              if (!selectedGame) {
+              if (!selectedGame && user.gameData) {
                 setSelectedGameSettings(user.gameData[0]?.id);
               }
             }

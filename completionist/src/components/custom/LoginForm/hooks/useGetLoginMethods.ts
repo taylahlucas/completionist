@@ -43,7 +43,9 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
       if (!!userResponse) {
         saveUser(userResponse);
         setLoggedIn(true);
-        setSelectedGameSettings(userResponse.gameData[0]?.id);
+        if (userResponse.gameData) {
+          setSelectedGameSettings(userResponse.gameData[0]?.id);
+        }
       }
     });
   };
@@ -64,7 +66,9 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
               if (!!userResponse) {
                 saveUser(userResponse);
                 setLoggedIn(true);
-                setSelectedGameSettings(userResponse.gameData[0]?.id);
+                if (userResponse.gameData) {
+                  setSelectedGameSettings(userResponse.gameData[0]?.id);
+                }
               }
             }),
         },

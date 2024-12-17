@@ -48,6 +48,7 @@ const SelectFirstGame = () => {
                   },
                 };
                 actions.activateGame(updatedUser, viewModel.selectedFirstGame);
+                actions.setSelectedGameSettings(viewModel.selectedFirstGame);
                 actions.setIsGoogleSignIn(false);
               }
             }}
@@ -72,12 +73,7 @@ const SelectFirstGame = () => {
             ) : null}
           </ParagraphView>
         </Condition>
-        <SelectFirstGameContentContainer
-          style={{
-            justifyContent:
-              viewModel.filteredGames.length === 1 ? 'flex-start' : 'center',
-            paddingLeft: viewModel.filteredGames.length === 1 ? 6 : 0,
-          }}>
+        <SelectFirstGameContentContainer>
           {viewModel.filteredGames.map((game, index) => (
             <GameListItem
               key={index}

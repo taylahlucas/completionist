@@ -51,6 +51,11 @@ const useAuthEndpoints = (): AuthEndpointsReturnType => {
         email: data.email.toLocaleLowerCase(),
         googleId: data.googleId ?? '',
         pw: data.pw ?? '',
+        signup: {
+          verification: false,
+          username: !!data.username,
+          selectGame: false,
+        },
       })
       .then(response => {
         if (response.data.refreshTokenExpiry) {
@@ -59,7 +64,6 @@ const useAuthEndpoints = (): AuthEndpointsReturnType => {
         if (response.data.user) {
           return response.data.user as UserResponse;
         }
-        // TODO: Log error here?
         return;
       });
 

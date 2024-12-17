@@ -1,13 +1,17 @@
 import { GameData } from '@utils/CustomInterfaces';
+import { TFunction } from 'i18next';
 
-const useFilterGameList = () => {
-	const filterGameList = (data: GameData[], isActive: boolean, searchValue: string) => {
-		return data
-			// TODO: Need to fix with translations
-      .filter(item => searchValue?.length > 0 ? (item.id as string).includes(searchValue) : true);
-	};
-
-	return { filterGameList };
+export const filterGameList = (
+  data: GameData[],
+  isActive: boolean,
+  searchValue: string,
+  t: TFunction,
+) => {
+  return data.filter(item =>
+    searchValue?.length > 0
+      ? t(`common:categories.${item.id as string}.title`)
+          .toLocaleLowerCase()
+          .includes(searchValue.toLocaleLowerCase())
+      : true,
+  );
 };
-
-export default useFilterGameList;

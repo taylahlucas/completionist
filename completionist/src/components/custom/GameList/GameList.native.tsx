@@ -19,7 +19,12 @@ const GameList = ({ searchValue }: GameListProps) => {
         testID={'active-games'}
         type="active"
         title={t('common:active')}
-        data={actions.filterGameList(viewModel.activeGames, true, searchValue)}
+        data={actions.filterGameList(
+          viewModel.activeGames,
+          true,
+          searchValue,
+          t,
+        )}
       />
       <GameListSectionDropdown
         testID={'inactive-games'}
@@ -29,6 +34,7 @@ const GameList = ({ searchValue }: GameListProps) => {
           viewModel.disabledGames,
           false,
           searchValue,
+          t,
         )}
       />
     </ScrollableList>
