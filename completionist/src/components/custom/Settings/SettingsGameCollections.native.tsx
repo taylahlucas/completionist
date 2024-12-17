@@ -1,9 +1,9 @@
-import React, {useState} from 'react';
-import {Animated} from 'react-native';
-import {useTranslation} from 'react-i18next';
+import React, { useState } from 'react';
+import { Animated } from 'react-native';
+import { useTranslation } from 'react-i18next';
 import SettingsItemDropdown from '@components/custom/Settings/SettingsItemDropdown.native';
-import {IsActive, GameKeyEnum} from '@utils/index';
-import {useGetUserGameData, useTranslateGameContent} from '@data/hooks/index';
+import { IsActive, GameKeyEnum } from '@utils/index';
+import { useGetUserGameData, useTranslateGameContent } from '@data/hooks/index';
 import {
   SettingsCollectionList,
   SettingsDescription,
@@ -18,12 +18,12 @@ import useMainState from '@redux/hooks/useMainState';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
 
 const SettingsGameCollections = () => {
-  const {t} = useTranslation();
-  const {user, selectedGameSettings} = useMainState();
-  const {setSelectedGameSettings} = useMainDispatch();
-  const {userSettingsMainConfig} = useGetUserGameData();
-  const {translateGameName} = useTranslateGameContent();
-  const {filterGameList} = useFilterGameList();
+  const { t } = useTranslation();
+  const { user, selectedGameSettings } = useMainState();
+  const { setSelectedGameSettings } = useMainDispatch();
+  const { userSettingsMainConfig } = useGetUserGameData();
+  const { translateGameName } = useTranslateGameContent();
+  const { filterGameList } = useFilterGameList();
   const minHeight = userSettingsMainConfig.length > 3 ? 200 : 150;
   const height = new Animated.Value(minHeight);
   const [isSelectionOpen, triggerSelectionOpen] = useState(false);
@@ -64,7 +64,7 @@ const SettingsGameCollections = () => {
         />
       </Dropdown>
 
-      <SettingsCollectionList style={{height: height}}>
+      <SettingsCollectionList style={{ height: height }}>
         {userSettingsMainConfig.map((item: IsActive, index: number) => (
           <SettingsItemDropdown
             key={index}
