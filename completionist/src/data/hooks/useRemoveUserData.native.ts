@@ -2,7 +2,7 @@ import useLoginDispatch from '@components/custom/LoginForm/provider/useLoginDisp
 import useMainDispatch from '@redux/hooks/useMainDispatch';
 import { useKeychain } from '@data/hooks/index';
 import { initialUser } from '@redux/MainState';
-import { clearCache } from '../api/hooks/useCache.native';
+import { clearCache } from '../api/hooks/cache';
 import { initialFormData } from '@components/custom/LoginForm/provider/LoginState';
 import useContentDispatch from '@components/custom/ContentList/provider/useContentDispatch';
 import { log } from '@utils/hooks/index';
