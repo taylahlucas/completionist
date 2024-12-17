@@ -44,7 +44,7 @@ const useGetContentCategories = (): GameDataReturnType => {
 
     if (selectedGame) {
       const mainCategories: ContentItem[] = (
-        shouldHideDisabledSections()
+        !shouldHideDisabledSections()
           ? section?.categories.filter(category => category.isActive)
           : section?.categories
       ).map(category => {
@@ -59,7 +59,7 @@ const useGetContentCategories = (): GameDataReturnType => {
         };
       });
       const dlcCategories: ContentItem[] = (
-        shouldHideDisabledSections()
+        !shouldHideDisabledSections()
           ? section?.dlc.filter(dlc => dlc.isActive)
           : section?.dlc
       ).map(dlc => {

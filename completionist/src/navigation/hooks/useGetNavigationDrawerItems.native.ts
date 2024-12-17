@@ -41,7 +41,7 @@ const useGetNavigationDrawerItems = (): NavigationDrawerItemData[] => {
       title: t('common:screens.quests'),
       subTitle: questsEnabled ? `${userQuests.length}/${questData.length}` : '',
       isEnabled: questsEnabled,
-      isHidden: shouldHideDisabledSections() && !questsEnabled,
+      isHidden: !shouldHideDisabledSections() && !questsEnabled,
     });
   }
   const collectablesEnabled = checkIsSectionEnabled(collectables.section);
@@ -53,7 +53,7 @@ const useGetNavigationDrawerItems = (): NavigationDrawerItemData[] => {
         ? `${userCollectables.length}/${collectableData.length}`
         : '',
       isEnabled: collectablesEnabled,
-      isHidden: shouldHideDisabledSections() && !collectablesEnabled,
+      isHidden: !shouldHideDisabledSections() && !collectablesEnabled,
     });
   }
   const locationsEnabled = checkIsSectionEnabled(locations.section);
@@ -65,7 +65,7 @@ const useGetNavigationDrawerItems = (): NavigationDrawerItemData[] => {
         ? `${userLocations.length}/${locationData.length}`
         : '',
       isEnabled: locationsEnabled,
-      isHidden: shouldHideDisabledSections() && !locationsEnabled,
+      isHidden: !shouldHideDisabledSections() && !locationsEnabled,
     });
   }
   const miscItemsEnabled = checkIsSectionEnabled(miscellaneous.section);
@@ -77,7 +77,7 @@ const useGetNavigationDrawerItems = (): NavigationDrawerItemData[] => {
         ? `${userMiscItems.length}/${miscellaneousData.length}`
         : '',
       isEnabled: miscItemsEnabled,
-      isHidden: shouldHideDisabledSections() && !miscItemsEnabled,
+      isHidden: !shouldHideDisabledSections() && !miscItemsEnabled,
     });
   }
 

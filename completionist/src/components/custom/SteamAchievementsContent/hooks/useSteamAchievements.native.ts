@@ -5,17 +5,20 @@ const useSteamAchievements = () => {
   const { user, selectedGame } = useMainState();
   const { getSteamPlayerAchievements } = useEndpoints();
 
-	const fetchSteamAchievements = async () => {
-		if (!!selectedGame?.appId) {
-			const results = await getSteamPlayerAchievements({ userId: user.userId, steamId: user.steamId ?? '', gameId: selectedGame?.appId.toString() })
-			if (!!results) {
-				return results;
-			}
-			return [];
-		}
-	};
+  const fetchSteamAchievements = async () => {
+    if (!!selectedGame?.appId) {
+      const results = await getSteamPlayerAchievements({
+        steamId: user.steamId ?? '',
+        gameId: selectedGame?.appId.toString(),
+      });
+      if (!!results) {
+        return results;
+      }
+      return [];
+    }
+  };
 
-	return { fetchSteamAchievements };
+  return { fetchSteamAchievements };
 };
 
 export default useSteamAchievements;
