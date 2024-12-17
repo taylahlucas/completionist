@@ -32,7 +32,7 @@ const Achievements = () => {
             ? AuthScreenEnum.GlobalAchievements
             : DrawerScreenEnum.Achievements
         }
-        title={'Achievements'}
+        title={t('common:screens.achievements')}
         leftAction={
           viewModel.achievements.isGlobalAchievements ? 'none' : 'menu'
         }
@@ -66,7 +66,7 @@ const Achievements = () => {
           }
           header={
             <AchievementDropdownTitle
-              title={'Steam Achievements'}
+              title={t('common:screens.steamAchievements')}
               isOpen={viewModel.achievements.achievementsState.isOpen}
             />
           }>
@@ -80,7 +80,9 @@ const Achievements = () => {
               <StyledText align="left" type="SubHeading">
                 No permission
               </StyledText>
-              <StyledText align="left">{`You do not have permission to view your achievements. Please grant permission to 'Game Details' in your steam preferences.\nThis may take a few minutes.`}</StyledText>
+              <StyledText align="left">
+                {t('common:achievements.noSteamPermission')}
+              </StyledText>
             </View>
           </Condition>
           {/* // TODO: This is not working because I'm getting noPermission from here but it's not rendering */}
@@ -106,7 +108,7 @@ const Achievements = () => {
           <Condition condition={!viewModel.user.steamId}>
             <Button
               type="navigation"
-              title="Link Steam account"
+              title={t('common:achievements.linkSteamAccount')}
               onPress={(): void =>
                 navigation.navigate(
                   viewModel.achievements.isGlobalAchievements
@@ -128,11 +130,10 @@ const Achievements = () => {
           }
           header={
             <AchievementDropdownTitle
-              title={'Progress'}
+              title={t('common:achievements.progress')}
               isOpen={viewModel.achievements.progressViewOpen}
             />
           }>
-          {/* // TODO: Fix here */}
           {actions
             .getGameProgress(
               viewModel.achievements.activeGames.map(

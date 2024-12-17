@@ -28,36 +28,41 @@ export const useGetGameProgressData = () => {
       if (questData.length > 0) {
         drawerItems.push({
           id: ContentSectionEnum.QUESTS,
-          current: currentGame?.quests.filter((item: Item) => item.isComplete)
-            .length,
+          current:
+            currentGame?.quests.filter((item: Item) => item.isComplete)
+              .length ?? 0,
           total: questData.length,
+          data: currentGame?.quests,
         });
       }
       if (collectablesData.length > 0) {
         drawerItems.push({
           id: ContentSectionEnum.COLLECTABLES,
-          current: currentGame?.collectables.filter(
-            (item: Item) => item.isComplete,
-          ).length,
+          current:
+            currentGame?.collectables.filter((item: Item) => item.isComplete)
+              .length ?? 0,
           total: collectablesData.length,
+          data: currentGame?.collectables,
         });
       }
       if (locationsData.length > 0) {
         drawerItems.push({
           id: ContentSectionEnum.LOCATIONS,
-          current: currentGame?.locations.filter(
-            (item: Item) => item.isComplete,
-          ).length,
+          current:
+            currentGame?.locations.filter((item: Item) => item.isComplete)
+              .length ?? 0,
           total: locationsData.length,
+          data: currentGame?.locations,
         });
       }
       if (miscellaneousData.length > 0) {
         drawerItems.push({
           id: ContentSectionEnum.MISCELLANEOUS,
-          current: currentGame?.miscellaneous.filter(
-            (item: Item) => item.isComplete,
-          ).length,
+          current:
+            currentGame?.miscellaneous.filter((item: Item) => item.isComplete)
+              .length ?? 0,
           total: miscellaneousData.length,
+          data: currentGame?.miscellaneous,
         });
       }
 

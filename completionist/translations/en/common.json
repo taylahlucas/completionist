@@ -109,6 +109,11 @@
     "invalidUserName": "Please ensure Username has at least 1 character.",
     "invalidUserEmail": "Please ensure you are using a valid email."
   },
+  "achievements": {
+    "linkSteamAccount": "Link Steam Account",
+    "progress": "Progress",
+    "noSteamPermission": "You do not have permission to view your achievements. Please grant permission to 'Game Details' in your steam preferences.\nThis may take a few minutes."
+  },
   "steamAchievements": {
     "addSteamIdStep1": "Step 1. Find and add your Steam ID",
     "addSteamIdDesc1": "To find your steam ID, head to Steam and select 'View Profile'.",

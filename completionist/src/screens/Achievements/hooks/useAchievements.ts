@@ -45,7 +45,7 @@ const useAchievements = () => {
         : activeGames[0].appId;
 
       if (!currentGameId) {
-        // TODO: Could not find any game id
+        // TODO: Log Could not find any game id
         console.log('TEST could not find any game id');
         return;
       }

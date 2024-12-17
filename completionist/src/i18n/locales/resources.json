@@ -2708,6 +2708,7 @@
         "subscriptions": "Subscriptions",
         "selectGame": "Select a Game",
         "addSteamId": "Add Steam ID",
+        "achievements": "Achievements",
         "steamAchievements": "Steam Achievements",
         "payments": "Payment",
         "settings": "Settings",
@@ -2764,7 +2765,7 @@
       "settings": {
         "setCollections": "Set active collections:",
         "enabledDLC": "Enable/Disable DLC:",
-        "showHide": "Show/Hide:",
+        "showHide": "Show:",
         "completedItems": "Completed Items",
         "disabledSections": "Disabled Sections",
         "changeAccountDetails": "Change Account Details",
@@ -2779,6 +2780,11 @@
         "newPw": "New Password",
         "invalidUserName": "Please ensure Username has at least 1 character.",
         "invalidUserEmail": "Please ensure you are using a valid email."
+      },
+      "achievements": {
+        "linkSteamAccount": "Link Steam Account",
+        "progress": "Progress",
+        "noSteamPermission": "You do not have permission to view your achievements. Please grant permission to 'Game Details' in your steam preferences.\nThis may take a few minutes."
       },
       "steamAchievements": {
         "addSteamIdStep1": "Step 1. Find and add your Steam ID",
