@@ -77,10 +77,7 @@ export interface EndpointsReturnType {
   changePw: ({ userId, oldPw, newPw }: ChangePwProps) => Promise<boolean>;
   sendEmail: ({ emailTo, subject, text }: SendEmailProps) => Promise<void>;
   deleteUser: (userId: string) => Promise<void>;
-  getSteamUserById: (
-    userId: string,
-    steamId: string,
-  ) => Promise<SteamProfile | void>;
+  getSteamUserById: (steamId: string) => Promise<SteamProfile | void>;
   getSteamPlayerAchievements: ({
     steamId,
     gameId,

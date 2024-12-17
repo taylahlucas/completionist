@@ -52,7 +52,6 @@ const useAchievements = () => {
 
       if (user.steamId && currentGameId) {
         const response = await getSteamPlayerAchievements({
-          userId: user.userId,
           steamId: user.steamId,
           gameId: currentGameId.toString(),
         });
@@ -87,7 +86,7 @@ const useAchievements = () => {
     };
 
     fetchData();
-  }, [selectedGame]);
+  }, [selectedGame, user.steamId]);
 
   return {
     viewModel: {

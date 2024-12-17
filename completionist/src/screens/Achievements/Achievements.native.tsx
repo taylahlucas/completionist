@@ -108,7 +108,11 @@ const Achievements = () => {
               type="navigation"
               title="Link Steam account"
               onPress={(): void =>
-                navigation.navigate(DrawerScreenEnum.SteamAchievements)
+                navigation.navigate(
+                  viewModel.achievements.isGlobalAchievements
+                    ? AuthScreenEnum.GlobalSteamAchievements
+                    : DrawerScreenEnum.SteamAchievements,
+                )
               }
             />
           </Condition>

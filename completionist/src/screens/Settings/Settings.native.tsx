@@ -46,11 +46,9 @@ const Settings = () => {
             type="navigation"
             title="Steam Profile"
             style={{ marginTop: 0 }}
-            // TODO: Navigate to Steam Profile
             onPress={async (): Promise<void> => {
               if (viewModel.user.steamId) {
                 const profile = await actions.getSteamUserById(
-                  viewModel.user.userId,
                   viewModel.user.steamId,
                 );
 
@@ -77,7 +75,7 @@ const Settings = () => {
           translationKey={viewModel.selectedGameSettings}
         />
 
-        {/* Show/Hide sections */}
+        {/* Show sections */}
         <SettingsDescription align="left">
           {t('common:settings.showHide')}
         </SettingsDescription>
