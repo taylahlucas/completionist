@@ -25,7 +25,7 @@ const ContentSubTypeDropdown = ({
   completed,
   total,
 }: ContentSubTypeDropdownProps) => {
-  const { setSelectedCategory } = useContentDispatch();
+  const { setSelectedCategory, setWebViewHref } = useContentDispatch();
   const { selectedCategory } = useContentState();
   const { getContentForSubCategoryType } = useGetContents();
   const { updateContentComplete } = useUpdateContent();
@@ -55,8 +55,8 @@ const ContentSubTypeDropdown = ({
             title={item.title}
             location={item.location}
             hold={item.hold}
-            href={item.href}
             isComplete={checkContentComplete(item.id)}
+            onLongPress={(): void => setWebViewHref(item.href)}
             action={(): void => updateContentComplete(item.id)}
           />
         ))}

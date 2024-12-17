@@ -21,6 +21,7 @@ interface ListItemProps {
   hold?: string;
   href?: string;
   isComplete?: boolean;
+  onLongPress?: () => void;
   action: () => void;
 }
 
@@ -28,13 +29,11 @@ export const ListItem = ({
   title,
   location,
   hold,
-  href,
   isComplete = false,
+  onLongPress,
   action,
 }: ListItemProps) => {
   const theme = useGetTheme();
-  // TODO: Move this out of ListItem
-  const { setWebViewHref } = useContentDispatch();
   const fadeValue = useRef(new Animated.Value(isComplete ? 0 : 1)).current;
   const [isPressed, setPressed] = useState<boolean>(false);
 
@@ -74,7 +73,7 @@ export const ListItem = ({
       <ListItemContentContainer
         onTouchStart={(): void => setPressed(true)}
         onTouchEnd={(): void => setPressed(false)}
-        onLongPress={(): void => setWebViewHref(href)}>
+        onLongPress={onLongPress}>
         <ListItemTitle
           align="left"
           ellipsizeMode={'tail'}

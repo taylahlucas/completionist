@@ -9,6 +9,7 @@ import {
   EXTRA_LARGE_PADDING,
   DEFAULT_ITEM_HEIGHT,
 } from '@styles/global.native';
+import useContentDispatch from './provider/useContentDispatch';
 
 export interface ContentMainListProps {
   mainCategory?: ContentItem;
@@ -21,6 +22,7 @@ const ContentMainList = ({
   subCategory,
   isSubCategory = false,
 }: ContentMainListProps) => {
+  const { setWebViewHref } = useContentDispatch();
   const { getContentForCategory, getContentForSubCategory } = useGetContent();
   const { updateContentComplete } = useUpdateContent();
   const items = isSubCategory
@@ -40,8 +42,8 @@ const ContentMainList = ({
           id={item.id}
           key={index}
           title={item.title}
-          href={item.href}
           isComplete={checkContentComplete(item.id)}
+          onLongPress={(): void => setWebViewHref(item.href)}
           action={(): void => updateContentComplete(item.id)}
         />
       ))}
