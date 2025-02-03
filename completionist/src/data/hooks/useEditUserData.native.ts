@@ -31,17 +31,19 @@ export const useEditUserData = (): EditUserDataReturnType => {
     if (credentials) {
       fetchUserFromCache(credentials.password).then(cachedData => {
         if (!cachedData && credentials.username) {
-          getUserByUserId({ userId: credentials.username }).then(user => {
-            if (user) {
-              // checkUpdateChangesLeft(user);
-              saveUser(user);
-              saveToCache(user);
-              setLoggedIn(true);
-              if (!selectedGame && user.gameData) {
-                setSelectedGameSettings(user.gameData[0]?.id);
+          getUserByUserId({ userId: credentials.username })
+            .then(user => {
+              if (user) {
+                // checkUpdateChangesLeft(user);
+                saveUser(user);
+                saveToCache(user);
+                setLoggedIn(true);
+                if (!selectedGame && user.gameData) {
+                  setSelectedGameSettings(user.gameData[0]?.id);
+                }
               }
-            }
-          });
+            })
+            .catch(() => {});
         } else {
           if (cachedData) {
             // 	checkUpdateChangesLeft(cachedData);
