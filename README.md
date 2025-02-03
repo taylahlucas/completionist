@@ -1,8 +1,8 @@
 # Completionist
+
 An app designed for game completionists which allows them to track their progress in various games.
 
 NOTE: Currently only available on localhost. Must request .env file to run.
-
 
 https://github.com/taylahlucas/Completionist/assets/53559103/2902dd9d-e1be-431f-91b8-9a85c4499336
 
@@ -95,21 +95,24 @@ npx react-native run-ios --port 8002
 - nodemailer
 - node-cache
 - aws-sdk/client-dynamodb
-
+- stripe
 
 ## Updating translations
 
 Confirm:
+
 - npm run generate-locale
 
 - Translations in categories.json must match the name of the category in camel case.
 
 From MonoRepo (No longer in use)
 Pull from master:
+
 - git submodule foreach git pull origin branch_name
--- Need to change 'translations' back to 'Completionist-Translations'
+  -- Need to change 'translations' back to 'Completionist-Translations'
 
 Update:
+
 - git submodule update --init --recursive --remote translations
 
 ## Migrating db
@@ -118,7 +121,6 @@ Update:
 - npx migrate-mongo create migration_name
 - Run changes: npx migrate-mongo up
 - Drop changes: npx migrate-mongo down
-
 
 ## Steps for adding new game DB
 
@@ -135,7 +137,6 @@ Update:
 - Generate hrefs using add_initial_hrefs.js
 - Check for hrefs that dont work using check_hrefs.js and update these.
 - Move add_new_hrefs.js to translations/ and run for files with finished hrefs.
-
 
 ## References
 
