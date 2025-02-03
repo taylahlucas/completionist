@@ -6,7 +6,7 @@ import useGetContent from './hooks/useGetContent';
 import useContentDispatch from './provider/useContentDispatch';
 
 const SearchResults = () => {
-  const { setSelectedCategory, setWebViewHref } = useContentDispatch();
+  const { setWebViewHref } = useContentDispatch();
   const { getFilteredContent } = useGetContent();
   const { checkContentComplete } = useCheckContentComplete();
   const { updateContentComplete } = useUpdateContent();
