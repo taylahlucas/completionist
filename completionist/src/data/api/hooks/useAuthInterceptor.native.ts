@@ -1,4 +1,4 @@
-import { Alert, Platform } from 'react-native';
+import { Platform } from 'react-native';
 import axios from 'axios';
 import { setupCache } from 'axios-cache-interceptor';
 import { useKeychain } from '@data/hooks/index';
@@ -14,6 +14,7 @@ import {
 } from '@utils/index';
 import useHandleAxiosError from './useHandleAxiosError';
 import { useTranslation } from 'react-i18next';
+import envConfig from '@utils/configs/config';
 
 const useAuthInterceptor = () => {
   const { t } = useTranslation();
@@ -37,6 +38,12 @@ const useAuthInterceptor = () => {
       const credentials = await getCredentials();
 
       // Set token in the request header
+      if (config?.url?.includes('payment/create')) {
+        config.headers.Authorization = `Bearer ${envConfig.stripeSecretKey}`;
+        config.headers[
+          'X-Secondary-Auth'
+        ] = `Bearer ${envConfig.stripeSecretKey}`;
+      }
       if (credentials) {
         config.headers.Authorization = `Bearer ${credentials.password}`;
       }

@@ -1,10 +1,16 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import { StripeProvider } from '@stripe/stripe-react-native';
+import {
+  initPaymentSheet,
+  presentPaymentSheet,
+} from '@stripe/stripe-react-native';
+
 import StandardLayout from '@components/general/Layouts/StandardLayout.native';
 import StyledText from '@components/general/Text/StyledText.native';
 import TextInput from '@components/general/TextInput/TextInput.native';
 import NavigationHeader from '@navigation/NavigationHeader.native';
-import { AuthScreenEnum, GameKeyEnum } from '@utils/CustomEnums';
+import { AuthScreenEnum } from '@utils/CustomEnums';
 import { KeyboardAvoidingScrollView } from '@components/general/Lists/index';
 import Button from '@components/general/Button/Button.native';
 import GameListItem from '@components/custom/GameList/GameListItem.native';
@@ -15,10 +21,7 @@ import { Alert, View } from 'react-native';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import useMainState from '@redux/hooks/useMainState';
 import useEndpoints from '@data/api/hooks/useEndpoints.native';
-import {
-  initPaymentSheet,
-  presentPaymentSheet,
-} from '@stripe/stripe-react-native';
+import config from '@utils/configs/config';
 
 const PurchaseGame = (params: any) => {
   const { t } = useTranslation();
@@ -28,7 +31,6 @@ const PurchaseGame = (params: any) => {
   const selectedGame = allGameData.find(game => game.id === gameId);
   const { createPayment } = useEndpoints();
   const { user } = useMainState();
-  const [paymentIntent, setPaymentIntent] = useState('');
   const initialPointsAvailable = 2000;
   const [pointsAvailable, setPointsAvailable] = useState(
     initialPointsAvailable,
@@ -54,9 +56,7 @@ const PurchaseGame = (params: any) => {
         amount: 399,
         game: selectedGame.id,
       });
-      console.log('response: ', response.data);
       const { paymentIntent, ephemeralKey, customer } = response.data;
-      setPaymentIntent(paymentIntent);
 
       return {
         paymentIntent,
@@ -70,10 +70,10 @@ const PurchaseGame = (params: any) => {
   };
 
   const openPaymentSheet = async () => {
-    if (!paymentIntent) return;
-
+    console.log('Presenting payment sheet');
     const { error } = await presentPaymentSheet();
 
+    console.log('HERE after');
     if (error) {
       Alert.alert('Payment failed', error.message);
     } else {
@@ -89,17 +89,18 @@ const PurchaseGame = (params: any) => {
       return;
     }
 
+    console.log('DATA: ', data);
     const { error } = await initPaymentSheet({
       merchantDisplayName: 'TTech Designs Ltd.',
       customerId: data.customer,
       customerEphemeralKeySecret: data.ephemeralKey,
-      paymentIntentClientSecret: paymentIntent,
+      paymentIntentClientSecret: data.paymentIntent,
       allowsDelayedPaymentMethods: true,
+      returnURL: 'completionist://stripe-redirect',
       defaultBillingDetails: {
         name: 'Jane Doe',
       },
     });
-    console.log('TEST-1');
 
     if (!error) {
       openPaymentSheet();
@@ -110,80 +111,84 @@ const PurchaseGame = (params: any) => {
 
   // TODO: Add translations, add styles to style file
   return (
-    <StandardLayout>
-      <NavigationHeader
-        id={AuthScreenEnum.PurchaseGame}
-        title={t('common:screens.purchaseGame')}
-        leftAction="back"
-      />
-      <KeyboardAvoidingScrollView
-        awareView={
-          <Button title={t('common:continue')} onPress={handlePayment} />
-        }>
-        <GameListItem
-          game={selectedGame}
-          enabled={true}
-          onPress={(): void => {}}
+    <StripeProvider
+      publishableKey={config.stripeTestToken}
+      merchantIdentifier="merchant.identifier">
+      <StandardLayout>
+        <NavigationHeader
+          id={AuthScreenEnum.PurchaseGame}
+          title={t('common:screens.purchaseGame')}
+          leftAction="back"
         />
-        <View style={{ width: 300, alignItems: 'flex-start', padding: 16 }}>
-          <StyledText align="left">{`Quests:  ${viewModel.questsLength}`}</StyledText>
-          <StyledText align="left">{`Collectables:  ${viewModel.collectablesLength}`}</StyledText>
-          <StyledText align="left">{`Locations:  ${viewModel.locationsLength}`}</StyledText>
-          <StyledText align="left">{`Miscellaneous Items:  ${viewModel.miscLength}`}</StyledText>
-        </View>
-
-        <StyledText type="ListItemSubTitleBold" color={theme.lightGrey}>
-          {`Points available: ${pointsAvailable}`}
-        </StyledText>
-        <View
-          style={{
-            width: 100,
-            flexDirection: 'row',
-            alignItems: 'center',
-            justifyContent: 'center',
-          }}>
-          <StyledText>{`Use points:`}</StyledText>
-          {/* // TODO: Numeric input */}
-          <TextInput
-            width={160}
-            inputStyle="text"
-            placeholder=""
-            keyboardType="numeric"
-            onChangeText={(value): void => {
-              try {
-                const numericValue = Number.parseInt(value);
-                if (numericValue <= initialPointsAvailable) {
-                  setPoints(numericValue.toString());
-                  setPointsAvailable(initialPointsAvailable - numericValue);
-                } else if (numericValue > initialPointsAvailable) {
-                  setPoints(initialPointsAvailable.toString());
-                  setPointsAvailable(0);
-                } else {
-                  setPoints('');
-                  setPointsAvailable(2000);
-                }
-              } catch {}
-            }}
-            value={points}
-            onReset={() => setPoints('0')}
+        <KeyboardAvoidingScrollView
+          awareView={
+            <Button title={t('common:continue')} onPress={handlePayment} />
+          }>
+          <GameListItem
+            game={selectedGame}
+            enabled={true}
+            onPress={(): void => {}}
           />
-        </View>
+          <View style={{ width: 300, alignItems: 'flex-start', padding: 16 }}>
+            <StyledText align="left">{`Quests:  ${viewModel.questsLength}`}</StyledText>
+            <StyledText align="left">{`Collectables:  ${viewModel.collectablesLength}`}</StyledText>
+            <StyledText align="left">{`Locations:  ${viewModel.locationsLength}`}</StyledText>
+            <StyledText align="left">{`Miscellaneous Items:  ${viewModel.miscLength}`}</StyledText>
+          </View>
 
-        <StyledText
-          type="ListItemSubTitle"
-          color={
-            theme.lightGrey
-          }>{`Access tracking for ${actions.translateGameName(
-          gameId,
-        )} for`}</StyledText>
-        <Spacing height={8} />
-        <StyledText
-          type="ListItemTitleBold"
-          color={theme.lightGrey}>{`3.99 ?`}</StyledText>
-        <Spacing height={8} />
-        <StyledText>{`This is a one-off payment.\n`}</StyledText>
-      </KeyboardAvoidingScrollView>
-    </StandardLayout>
+          <StyledText type="ListItemSubTitleBold" color={theme.lightGrey}>
+            {`Points available: ${pointsAvailable}`}
+          </StyledText>
+          <View
+            style={{
+              width: 100,
+              flexDirection: 'row',
+              alignItems: 'center',
+              justifyContent: 'center',
+            }}>
+            <StyledText>{`Use points:`}</StyledText>
+            {/* // TODO: Numeric input */}
+            <TextInput
+              width={160}
+              inputStyle="text"
+              placeholder=""
+              keyboardType="numeric"
+              onChangeText={(value): void => {
+                try {
+                  const numericValue = Number.parseInt(value);
+                  if (numericValue <= initialPointsAvailable) {
+                    setPoints(numericValue.toString());
+                    setPointsAvailable(initialPointsAvailable - numericValue);
+                  } else if (numericValue > initialPointsAvailable) {
+                    setPoints(initialPointsAvailable.toString());
+                    setPointsAvailable(0);
+                  } else {
+                    setPoints('');
+                    setPointsAvailable(2000);
+                  }
+                } catch {}
+              }}
+              value={points}
+              onReset={() => setPoints('0')}
+            />
+          </View>
+
+          <StyledText
+            type="ListItemSubTitle"
+            color={
+              theme.lightGrey
+            }>{`Access tracking for ${actions.translateGameName(
+            gameId,
+          )} for`}</StyledText>
+          <Spacing height={8} />
+          <StyledText
+            type="ListItemTitleBold"
+            color={theme.lightGrey}>{`3.99 ?`}</StyledText>
+          <Spacing height={8} />
+          <StyledText>{`This is a one-off payment.\n`}</StyledText>
+        </KeyboardAvoidingScrollView>
+      </StandardLayout>
+    </StripeProvider>
   );
 };
 

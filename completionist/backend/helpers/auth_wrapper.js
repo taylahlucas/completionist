@@ -14,6 +14,7 @@ const authWrapper = ({ authFunction, onError }) => {
   return async (req, res) => {
     try {
       const authHeader = req.headers['authorization'];
+      console.log('using authHeader: ', authHeader);
       const token = authHeader && authHeader.split(' ')[1];
 
       if (!token) {

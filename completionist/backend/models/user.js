@@ -2,7 +2,7 @@ const Joi = require('joi');
 
 const isActiveSchema = Joi.object().keys({
   id: Joi.string().required(),
-  isActive: Joi.boolean().required()
+  isActive: Joi.boolean().required(),
 });
 
 const generalSettingsSchema = Joi.object().keys({
@@ -11,41 +11,50 @@ const generalSettingsSchema = Joi.object().keys({
   dlc: Joi.array().items(isActiveSchema).required(),
 });
 
-const gameSchema = () => Joi.object().keys({
-  id: Joi.string().required(),
-  appId: Joi.number().required(),
-  quests: Joi.array().items(isActiveSchema).required(),
-  collectables: Joi.array().items(isActiveSchema).required(),
-  miscellaneous: Joi.array().items(isActiveSchema).required(),
-  locations: Joi.array().items(isActiveSchema).required(),
-  settingsConfig: Joi.object().keys({
-		general: Joi.array().items(generalSettingsSchema).required(),
-		dlc: Joi.array().items(isActiveSchema).required()
-	}).required()
-});
+const gameSchema = () =>
+  Joi.object().keys({
+    id: Joi.string().required(),
+    appId: Joi.number().required(),
+    quests: Joi.array().items(isActiveSchema).required(),
+    collectables: Joi.array().items(isActiveSchema).required(),
+    miscellaneous: Joi.array().items(isActiveSchema).required(),
+    locations: Joi.array().items(isActiveSchema).required(),
+    settingsConfig: Joi.object()
+      .keys({
+        general: Joi.array().items(generalSettingsSchema).required(),
+        dlc: Joi.array().items(isActiveSchema).required(),
+      })
+      .required(),
+  });
 
 const userSchema = Joi.object().keys({
   userId: Joi.string().required(),
+  stripeId: Joi.string(),
   steamId: Joi.string(),
   username: Joi.string().required(),
   email: Joi.string().email().required(),
-	googleId: Joi.string(),
+  googleId: Joi.string(),
   pw: Joi.string(),
-  signup: Joi.object().keys({
-    verification: Joi.boolean().required(),
-    setUsername: Joi.boolean().required(),
-    selectGame: Joi.boolean().required()
-  }).required(),
-  settings: Joi.object().keys({
-    lang: Joi.string().default('en').required(),
-    configs: Joi.array().items(isActiveSchema).required()
-  }).required(),
-  gameData: Joi.array().items(
-    Joi.object().keys({
-      value: gameSchema().required()
+  signup: Joi.object()
+    .keys({
+      verification: Joi.boolean().required(),
+      setUsername: Joi.boolean().required(),
+      selectGame: Joi.boolean().required(),
     })
-  ).required()
+    .required(),
+  settings: Joi.object()
+    .keys({
+      lang: Joi.string().default('en').required(),
+      configs: Joi.array().items(isActiveSchema).required(),
+    })
+    .required(),
+  gameData: Joi.array()
+    .items(
+      Joi.object().keys({
+        value: gameSchema().required(),
+      }),
+    )
+    .required(),
 });
-
 
 module.exports = userSchema;

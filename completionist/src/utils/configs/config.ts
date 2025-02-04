@@ -8,6 +8,7 @@ const {
   STEAM_API_TOKEN,
   STRIPE_TEST_TOKEN,
   STRIPE_LIVE_TOKEN,
+  STRIPE_SECRET_KEY,
 } = config;
 
 const accessToken = ACCESS_TOKEN;
@@ -17,6 +18,7 @@ const androidLocalUrl = ANDROID_LOCAL_URL;
 const steamApiToken = STEAM_API_TOKEN;
 const stripeTestToken = STRIPE_TEST_TOKEN;
 const stripeLiveToken = STRIPE_LIVE_TOKEN;
+const stripeSecretKey = STRIPE_SECRET_KEY;
 
 export default {
   accessToken,
@@ -27,4 +29,5 @@ export default {
   steamApiToken,
   stripeTestToken,
   stripeLiveToken,
+  stripeSecretKey,
 };

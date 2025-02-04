@@ -100,6 +100,7 @@ export interface EnvironmentConfig {
   STEAM_API_TOKEN: string;
   STRIPE_LIVE_TOKEN: string;
   STRIPE_TEST_TOKEN: string;
+  STRIPE_SECRET_KEY: string;
 }
 
 // Navigation Interfaces

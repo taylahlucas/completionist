@@ -8,6 +8,7 @@ const getEnvironmentConfig: EnvironmentConfig = {
   STEAM_API_TOKEN: process.env.STEAM_API_TOKEN ?? '',
   STRIPE_TEST_TOKEN: process.env.STRIPE_TEST_TOKEN ?? '',
   STRIPE_LIVE_TOKEN: process.env.STRIPE_LIVE_TOKEN ?? '',
+  STRIPE_SECRET_KEY: process.env.STRIPE_SECRET_KEY ?? '',
 };
 
 export default getEnvironmentConfig;
