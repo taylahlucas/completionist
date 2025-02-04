@@ -27,7 +27,7 @@ const AddSteamIDContent = () => {
           type="footer"
           disabled={steamId.length < 17}
           onPress={async (): Promise<void> => {
-            const profile = await getSteamUserById(steamId);
+            const profile = await getSteamUserById(user.userId, steamId);
 
             if (!!profile) {
               setProfile(profile);

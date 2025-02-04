@@ -1,14 +1,14 @@
 import useMainState from '@redux/hooks/useMainState';
 import { Item } from '@utils/CustomInterfaces';
 import { ContentSectionEnum, GameKeyEnum } from '@utils/CustomEnums';
-import { useGetGameData } from '@data/hooks/index';
-import { getCurrentGame } from '@data/hooks/index';
+import { ProgressItem } from '@utils/CustomInterfaces';
+import { useGetGameData, getCurrentGame } from '@data/hooks/index';
 
 export const useGetGameProgressData = () => {
   const { user, selectedGame } = useMainState();
   const { mapDataTo } = useGetGameData(selectedGame);
 
-  const getGameProgress = (games: GameKeyEnum[]) => {
+  const getGameProgress = (games: GameKeyEnum[]): ProgressItem[] => {
     return games.map(game => {
       const currentGame = getCurrentGame(game, user);
       const questData = mapDataTo(ContentSectionEnum.QUESTS, game, true);

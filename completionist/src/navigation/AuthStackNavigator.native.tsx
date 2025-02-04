@@ -6,10 +6,10 @@ import { AuthScreenEnum } from '@utils/CustomEnums';
 import Settings from '@screens/Settings/Settings.native';
 import AccountDetails from '@screens/Settings/AccountDetails.native';
 import Landing from '@screens/Landing.native';
-import Achievements from '@screens/Achievements/Achievements.native';
 import SteamAchievements from '@screens/Achievements/SteamAchievements.native';
 import AuthDrawerStackNavigator from './AuthDrawerStackNavigator.native';
 import PurchaseGame from '@screens/PurchaseGame/PurchaseGame.native';
+import GlobalAchievements from '@screens/Achievements/GlobalAchievements.native';
 
 const Stack = createStackNavigator<AuthStackParamList>();
 
@@ -32,7 +32,7 @@ const AuthStackNavigator = () => {
       />
       <Stack.Screen
         name={AuthScreenEnum.GlobalAchievements}
-        component={Achievements}
+        component={GlobalAchievements}
         options={{
           gestureDirection: 'horizontal-inverted',
         }}

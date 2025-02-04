@@ -3,8 +3,9 @@ import { useTranslation } from 'react-i18next';
 import useMainState from '@redux/hooks/useMainState';
 import useEndpoints from '@data/api/hooks/useEndpoints.native';
 import { AchievementItem } from '@utils/CustomInterfaces';
-import { useEditUserData, useGetGameProgressData } from '@data/hooks/index';
+import { useGetGameProgressData } from '@data/hooks/index';
 import { getCurrentGame } from '@data/hooks/index';
+import { GameKeyEnum } from '@utils/CustomEnums';
 
 interface AchievementsState {
   isOpen: boolean;
@@ -17,7 +18,6 @@ const useAchievements = () => {
   const { t } = useTranslation();
   const { user, selectedGame } = useMainState();
   const { getSteamPlayerAchievements } = useEndpoints();
-  const { updateUserData } = useEditUserData();
   // const [badgesOpen, setBadgesOpen] = useState<boolean>(true);
   const [progressViewOpen, setProgressViewOpen] = useState<boolean>(true);
   const [currentAchievementOpen, setCurrentAchievementOpen] =
@@ -30,23 +30,19 @@ const useAchievements = () => {
       noOfLocked: 0,
     },
   );
-  const activeGames = user.gameData;
   const currentGame = getCurrentGame(
     selectedGame?.id ?? user.gameData[0].id,
     user,
   );
   const { getGameProgress } = useGetGameProgressData();
-  const isGlobalAchievements = !selectedGame;
+  const gameProgress = getGameProgress([selectedGame?.id] as GameKeyEnum[]);
 
   useEffect(() => {
     const fetchData = async () => {
-      const currentGameId = selectedGame
-        ? currentGame?.appId
-        : activeGames[0].appId;
-
+      const currentGameId = currentGame?.appId;
       if (!currentGameId) {
         // TODO: Log Could not find any game id
-        console.log('TEST could not find any game id');
+        console.log('Could not find any game id');
         return;
       }
 
@@ -91,14 +87,11 @@ const useAchievements = () => {
   return {
     viewModel: {
       user,
-      achievements: {
-        isGlobalAchievements,
-        achievementsState,
-        currentAchievementOpen,
-        activeGames,
-        progressViewOpen,
-        selectedGame,
-      },
+      gameId: selectedGame?.id as GameKeyEnum,
+      achievementsState,
+      currentAchievementOpen,
+      progressViewOpen,
+      gameProgress,
       steamAchievements: {
         title: !user.steamId
           ? t('common:screens.addSteamId')
@@ -109,8 +102,6 @@ const useAchievements = () => {
       setAchievementsState,
       setCurrentAchievementOpen,
       setProgressViewOpen,
-      getGameProgress,
-      updateUserData,
     },
   };
 };

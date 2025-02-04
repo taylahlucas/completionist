@@ -40,6 +40,7 @@ const getSteamAchievements = authWrapper({
     const { data } = await axios.get(url);
 
     const $ = cheerio.load(data);
+    console.log('$');
     const achievements = [];
     let noOfLocked = 0;
     let errorFound = false;

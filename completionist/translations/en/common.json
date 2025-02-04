@@ -112,7 +112,10 @@
   "achievements": {
     "linkSteamAccount": "Link Steam Account",
     "progress": "Progress",
-    "noSteamPermission": "You do not have permission to view your achievements. Please grant permission to 'Game Details' in your steam preferences.\nThis may take a few minutes."
+    "noSteamPermissionTitle": "No permission",
+    "noSteamPermissionDesc": "You do not have permission to view these achievements. Please try the following:",
+    "noPermissionReason1": "Check if you own this game on Steam.",
+    "noPermissionReason2": "Grant permission to 'Game Details' in your Steam Preferences.\nThis may take a few minutes."
   },
   "steamAchievements": {
     "addSteamIdStep1": "Step 1. Find and add your Steam ID",
