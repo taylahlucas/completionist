@@ -64,7 +64,6 @@ const createPayment = authWrapper({
       customerId = user.customerId;
     }
 
-    console.log('Customer ID: ', customerId);
     const ephemeralKey = await stripe.ephemeralKeys.create(
       { customer: customerId },
       { apiVersion: '2024-11-20.acacia' },
