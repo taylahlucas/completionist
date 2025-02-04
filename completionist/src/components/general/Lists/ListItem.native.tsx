@@ -12,7 +12,6 @@ import { Condition } from '@components/general/index';
 import { getLocationString } from '@utils/hooks/index';
 import StyledText from '../Text/StyledText.native';
 import { capitalize } from '@utils/hooks/index';
-import useContentDispatch from '@components/custom/ContentList/provider/useContentDispatch';
 
 interface ListItemProps {
   id: string;

@@ -94,13 +94,9 @@ const PurchaseGame = (params: any) => {
             />
           </View>
 
-          <StyledText
-            type="ListItemSubTitle"
-            color={
-              theme.lightGrey
-            }>{`Access tracking for ${actions.translateGameName(
-            gameId,
-          )} for`}</StyledText>
+          <StyledText type="ListItemSubTitle" color={theme.lightGrey}>
+            {`Access tracking for ${actions.translateGameName(gameId)} for`}
+          </StyledText>
           <Spacing height={8} />
           <StyledText
             type="ListItemTitleBold"

@@ -5,12 +5,13 @@ import {
 } from '@stripe/stripe-react-native';
 import { GameKeyEnum } from '@utils/CustomEnums';
 import { useGetGameData } from '@data/hooks/useGetGameData';
-import { useTranslateGameContent } from '@data/hooks/index';
+import { useActivateGame, useTranslateGameContent } from '@data/hooks/index';
 import useMainState from '@redux/hooks/useMainState';
 import { allGameData } from '@utils/configs/gameConfigs';
 import useEndpoints from '@data/api/hooks/useEndpoints.native';
 import { Alert } from 'react-native';
 import { GameData } from '@utils/CustomInterfaces';
+import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
 
 interface UsePurchaseGameReturnType {
   viewModel: {
@@ -31,19 +32,20 @@ interface UsePurchaseGameReturnType {
   };
 }
 
+interface PaymentIntentReturnType {
+  paymentIntent: string;
+  ephemeralKey: string;
+  customer: string;
+}
+
 const usePurchaseGame = (gameId: GameKeyEnum): UsePurchaseGameReturnType => {
   const { translateGameName } = useTranslateGameContent();
+  const navigation = useReactNavigation();
   const selectedGame = allGameData.find(game => game.id === gameId);
-
-  if (!selectedGame) {
-    console.log('Could not find selected game');
-    throw Error('Could not find selected game data');
-  }
-
   const { getAllData } = useGetGameData(selectedGame);
-  // TODO: get number of quests, collectables, locations and misc
   const { quests, collectables, locations, miscellaneous } = getAllData(gameId);
   const { createPayment } = useEndpoints();
+  const { activateGame } = useActivateGame();
   const { user } = useMainState();
   const initialPointsAvailable = 2000;
   const [pointsAvailable, setPointsAvailable] = useState(
@@ -51,23 +53,39 @@ const usePurchaseGame = (gameId: GameKeyEnum): UsePurchaseGameReturnType => {
   );
   const [points, setPoints] = useState('');
 
+  if (!selectedGame) {
+    // TODO: Throw error and log
+    console.log('Could not find selected game');
+    throw Error('Could not find selected game data');
+  }
+
   const openPaymentSheet = async () => {
     const { error } = await presentPaymentSheet();
 
     if (error) {
-      Alert.alert('Payment failed', error.message);
+      if (error.code === 'Canceled') {
+        return;
+      } else {
+        Alert.alert('Payment failed', error.message);
+      }
     } else {
-      Alert.alert('Success', 'Your payment was confirmed!');
+      try {
+        activateGame(user, selectedGame.id);
+        Alert.alert('Success', 'Your payment was confirmed!', [
+          {
+            text: 'Ok',
+            onPress: () => navigation.goBack(),
+          },
+        ]);
+      } catch {
+        // TODO: Log error
+        Alert.alert('Payment failed', 'Please try again.');
+      }
     }
   };
 
   const fetchPaymentIntent = async (): Promise<
-    | {
-        paymentIntent: any;
-        ephemeralKey: any;
-        customer: any;
-      }
-    | undefined
+    PaymentIntentReturnType | undefined
   > => {
     try {
       const response = await createPayment({
@@ -83,6 +101,7 @@ const usePurchaseGame = (gameId: GameKeyEnum): UsePurchaseGameReturnType => {
         customer,
       };
     } catch (error) {
+      // TODO: Throw error and log
       console.error('Error fetching payment intent:', error);
       return;
     }
@@ -92,6 +111,7 @@ const usePurchaseGame = (gameId: GameKeyEnum): UsePurchaseGameReturnType => {
     const data = await fetchPaymentIntent();
 
     if (!data) {
+      // TODO: Throw error and log
       console.log('Could not get payment intent');
       return;
     }
@@ -108,6 +128,7 @@ const usePurchaseGame = (gameId: GameKeyEnum): UsePurchaseGameReturnType => {
     if (!error) {
       openPaymentSheet();
     } else {
+      // TODO: Throw error and log
       console.log('Error Handling Payment: ', error);
     }
   };
