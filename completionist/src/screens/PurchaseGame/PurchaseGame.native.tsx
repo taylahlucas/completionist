@@ -1,11 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { StripeProvider } from '@stripe/stripe-react-native';
-import {
-  initPaymentSheet,
-  presentPaymentSheet,
-} from '@stripe/stripe-react-native';
-
 import StandardLayout from '@components/general/Layouts/StandardLayout.native';
 import StyledText from '@components/general/Text/StyledText.native';
 import TextInput from '@components/general/TextInput/TextInput.native';
@@ -16,11 +11,8 @@ import Button from '@components/general/Button/Button.native';
 import GameListItem from '@components/custom/GameList/GameListItem.native';
 import usePurchaseGame from './hooks/usePurchaseGame';
 import { Spacing } from '@components/general/index';
-import { allGameData } from '@utils/configs/gameConfigs';
-import { Alert, View } from 'react-native';
+import { View } from 'react-native';
 import useGetTheme from '@styles/hooks/useGetTheme';
-import useMainState from '@redux/hooks/useMainState';
-import useEndpoints from '@data/api/hooks/useEndpoints.native';
 import config from '@utils/configs/config';
 
 const PurchaseGame = (params: any) => {
@@ -28,86 +20,6 @@ const PurchaseGame = (params: any) => {
   const theme = useGetTheme();
   const gameId = params.route?.params.gameId;
   const { viewModel, actions } = usePurchaseGame(gameId);
-  const selectedGame = allGameData.find(game => game.id === gameId);
-  const { createPayment } = useEndpoints();
-  const { user } = useMainState();
-  const initialPointsAvailable = 2000;
-  const [pointsAvailable, setPointsAvailable] = useState(
-    initialPointsAvailable,
-  );
-  const [points, setPoints] = useState('');
-
-  if (!selectedGame) {
-    console.log('Could not find selected game');
-    return;
-  }
-
-  const fetchPaymentIntent = async (): Promise<
-    | {
-        paymentIntent: any;
-        ephemeralKey: any;
-        customer: any;
-      }
-    | undefined
-  > => {
-    try {
-      const response = await createPayment({
-        userId: user.userId,
-        amount: 399,
-        game: selectedGame.id,
-      });
-      const { paymentIntent, ephemeralKey, customer } = response.data;
-
-      return {
-        paymentIntent,
-        ephemeralKey,
-        customer,
-      };
-    } catch (error) {
-      console.error('Error fetching payment intent:', error);
-      return;
-    }
-  };
-
-  const openPaymentSheet = async () => {
-    console.log('Presenting payment sheet');
-    const { error } = await presentPaymentSheet();
-
-    console.log('HERE after');
-    if (error) {
-      Alert.alert('Payment failed', error.message);
-    } else {
-      Alert.alert('Success', 'Your payment was confirmed!');
-    }
-  };
-
-  const handlePayment = async () => {
-    const data = await fetchPaymentIntent();
-
-    if (!data) {
-      console.log('Could not get payment intent');
-      return;
-    }
-
-    console.log('DATA: ', data);
-    const { error } = await initPaymentSheet({
-      merchantDisplayName: 'TTech Designs Ltd.',
-      customerId: data.customer,
-      customerEphemeralKeySecret: data.ephemeralKey,
-      paymentIntentClientSecret: data.paymentIntent,
-      allowsDelayedPaymentMethods: true,
-      returnURL: 'completionist://stripe-redirect',
-      defaultBillingDetails: {
-        name: 'Jane Doe',
-      },
-    });
-
-    if (!error) {
-      openPaymentSheet();
-    } else {
-      console.log('Error Handling Payment: ', error);
-    }
-  };
 
   // TODO: Add translations, add styles to style file
   return (
@@ -122,10 +34,13 @@ const PurchaseGame = (params: any) => {
         />
         <KeyboardAvoidingScrollView
           awareView={
-            <Button title={t('common:continue')} onPress={handlePayment} />
+            <Button
+              title={t('common:continue')}
+              onPress={actions.handlePayment}
+            />
           }>
           <GameListItem
-            game={selectedGame}
+            game={viewModel.selectedGame}
             enabled={true}
             onPress={(): void => {}}
           />
@@ -137,7 +52,7 @@ const PurchaseGame = (params: any) => {
           </View>
 
           <StyledText type="ListItemSubTitleBold" color={theme.lightGrey}>
-            {`Points available: ${pointsAvailable}`}
+            {`Points available: ${viewModel.pointsAvailable}`}
           </StyledText>
           <View
             style={{
@@ -156,20 +71,26 @@ const PurchaseGame = (params: any) => {
               onChangeText={(value): void => {
                 try {
                   const numericValue = Number.parseInt(value);
-                  if (numericValue <= initialPointsAvailable) {
-                    setPoints(numericValue.toString());
-                    setPointsAvailable(initialPointsAvailable - numericValue);
-                  } else if (numericValue > initialPointsAvailable) {
-                    setPoints(initialPointsAvailable.toString());
-                    setPointsAvailable(0);
+                  if (numericValue <= viewModel.initialPointsAvailable) {
+                    actions.setPoints(numericValue.toString());
+                    actions.setPointsAvailable(
+                      viewModel.initialPointsAvailable - numericValue,
+                    );
+                  } else if (numericValue > viewModel.initialPointsAvailable) {
+                    actions.setPoints(
+                      viewModel.initialPointsAvailable.toString(),
+                    );
+                    actions.setPointsAvailable(0);
                   } else {
-                    setPoints('');
-                    setPointsAvailable(2000);
+                    actions.setPoints('');
+                    actions.setPointsAvailable(2000);
                   }
-                } catch {}
+                } catch {
+                  // TODO: do something here?
+                }
               }}
-              value={points}
-              onReset={() => setPoints('0')}
+              value={viewModel.points}
+              onReset={() => actions.setPoints('0')}
             />
           </View>
 

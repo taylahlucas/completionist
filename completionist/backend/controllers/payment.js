@@ -56,6 +56,10 @@ const createPayment = authWrapper({
     if (!user.customerId) {
       const customer = await stripe.customers.create();
       customerId = await updateStripeId(userId, customer.id);
+      await stripe.customers.update(customerId, {
+        name: user.username,
+        email: user.email,
+      });
     } else {
       customerId = user.customerId;
     }
