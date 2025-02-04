@@ -81,6 +81,8 @@ npx react-native run-ios --port 8002
 - axios-mock-adapter
 - axios-cache-adapter
 
+- @stripe/stripe-react-native
+
 ## Backend
 
 - express

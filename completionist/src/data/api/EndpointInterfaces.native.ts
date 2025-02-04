@@ -1,3 +1,4 @@
+import { GameKeyEnum } from '@utils/CustomEnums';
 import {
   LoginFormData,
   User,
@@ -54,6 +55,12 @@ export interface SteamAchievementsReturnType {
   noOfLocked: number;
 }
 
+export interface CreatePaymentProps {
+  userId: string;
+  amount: number;
+  game: GameKeyEnum;
+}
+
 export interface AuthEndpointsReturnType {
   checkUserExists: (email: string) => Promise<CredentialsExistProps>;
   linkAndSignIn: ({
@@ -85,4 +92,5 @@ export interface EndpointsReturnType {
     steamId,
     gameId,
   }: SteamAchievementsProps) => Promise<SteamAchievementsReturnType | void>;
+  createPayment: ({ userId, amount, game }: CreatePaymentProps) => Promise<any>;
 }

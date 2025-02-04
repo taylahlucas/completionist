@@ -6,74 +6,78 @@ import useSubscriptionState from '../SubscriptionContent/provider/useSubscriptio
 import useGetTheme from '@styles/hooks/useGetTheme';
 import SubscriptionOptionDescription from '../SubscriptionContent/SubscriptionOptionDescription.native';
 import PriceItem from '@components/general/PriceItem/PriceItem.native';
-import { PaymentPriceItem, PaymentPricesContainer, PaymentPlanSubtitle } from './PaymentsContentStyledComponents.native';
+import {
+  PaymentPriceItem,
+  PaymentPricesContainer,
+  PaymentPlanSubtitle,
+} from './PaymentsContentStyledComponents.native';
 import Button from '@components/general/Button/Button.native';
-import {ScrollableList} from '@components/general/Lists/index';
-import {Spacing} from '@components/general/index';
+import { ScrollableList } from '@components/general/Lists/index';
+import { Spacing } from '@components/general/index';
 
 const PaymentsContent = () => {
-	const { t } = useTranslation();
-	const theme = useGetTheme();
-	const { selectedSubscription } = useSubscriptionState();
-	const [selectedPrice, setSelectedPrice] = useState(selectedSubscription.prices[0]);
+  const { t } = useTranslation();
+  const theme = useGetTheme();
+  const { selectedSubscription } = useSubscriptionState();
+  const [selectedPrice, setSelectedPrice] = useState(
+    selectedSubscription.prices[0],
+  );
 
-	return (
-		<>
-			<ScrollableList style={{ paddingTop: 16 }}>
-				<SelectableItem
-					item={selectedSubscription}
-					isSelected
-				>
-					<StyledText type='Heading' color={theme.lightGrey}>
-						{selectedSubscription.title}
-					</StyledText>
-					<SubscriptionOptionDescription items={selectedSubscription.description} />
-				</SelectableItem>
+  return (
+    <>
+      <ScrollableList style={{ paddingTop: 16 }}>
+        <SelectableItem item={selectedSubscription} isSelected>
+          <StyledText type="Heading" color={theme.lightGrey}>
+            {selectedSubscription.title}
+          </StyledText>
+          <SubscriptionOptionDescription
+            items={selectedSubscription.description}
+          />
+        </SelectableItem>
 
-				<PaymentPlanSubtitle align='left' color={theme.midGrey}>
-					{t('common:payments:selectPlan')}
-				</PaymentPlanSubtitle>
+        <PaymentPlanSubtitle align="left" color={theme.midGrey}>
+          {t('common:payments:selectPlan')}
+        </PaymentPlanSubtitle>
 
-				<PaymentPricesContainer>
-					{selectedSubscription.prices.map((item, index) => (
-						<SelectableItem
-							key={index}
-							item={selectedSubscription}
-							isSelected={item.type === selectedPrice.type}
-							onPress={(): void => setSelectedPrice(item)}
-						>
-							<PaymentPriceItem>
-								<PriceItem item={item} />
-							</PaymentPriceItem>
-						</SelectableItem>
-					))}
-				</PaymentPricesContainer>
+        <PaymentPricesContainer>
+          {selectedSubscription.prices.map((item, index) => (
+            <SelectableItem
+              key={index}
+              item={selectedSubscription}
+              isSelected={item.type === selectedPrice.type}
+              onPress={(): void => setSelectedPrice(item)}>
+              <PaymentPriceItem>
+                <PriceItem item={item} />
+              </PaymentPriceItem>
+            </SelectableItem>
+          ))}
+        </PaymentPricesContainer>
 
-				<PaymentPlanSubtitle align='left' color={theme.midGrey}>
-					{t('common:payments:selectType')}
-				</PaymentPlanSubtitle>
+        <PaymentPlanSubtitle align="left" color={theme.midGrey}>
+          {t('common:payments:selectType')}
+        </PaymentPlanSubtitle>
 
-				{/* // TODO: Add paypal and apple pay */}
-				<Spacing />
-			</ScrollableList>
-			<Button
-				title={t('common:payments.confirm')}
-				type='footer'
-				onPress={(): void => {
-					// const updatedUser = {
-					// 	...user,
-					// 	subscription: {
-					// 		...user.subscription,
-					// 		tier: selectedSubscription.id
-					// 	}
-					// };
-					// saveUser(updatedUser);
-					// navigation.navigate(AuthScreenEnum.GameSelection);
-				}}
-				color={theme.primaryPurple}
-			/>
-		</>
-	);
+        {/* // TODO: Add paypal and apple pay */}
+        <Spacing />
+      </ScrollableList>
+      <Button
+        title={t('common:payments.confirm')}
+        type="footer"
+        onPress={(): void => {
+          // const updatedUser = {
+          // 	...user,
+          // 	subscription: {
+          // 		...user.subscription,
+          // 		tier: selectedSubscription.id
+          // 	}
+          // };
+          // saveUser(updatedUser);
+          // navigation.navigate(AuthScreenEnum.GameSelection);
+        }}
+        color={theme.primaryPurple}
+      />
+    </>
+  );
 };
 
 export default PaymentsContent;

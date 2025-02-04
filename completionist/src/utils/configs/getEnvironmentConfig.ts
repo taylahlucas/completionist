@@ -6,6 +6,8 @@ const getEnvironmentConfig: EnvironmentConfig = {
   IOS_LOCAL_URL: process.env.IOS_LOCAL_URL ?? '',
   ANDROID_LOCAL_URL: process.env.ANDROID_LOCAL_URL ?? '',
   STEAM_API_TOKEN: process.env.STEAM_API_TOKEN ?? '',
+  STRIPE_TEST_TOKEN: process.env.STRIPE_TEST_TOKEN ?? '',
+  STRIPE_LIVE_TOKEN: process.env.STRIPE_LIVE_TOKEN ?? '',
 };
 
 export default getEnvironmentConfig;

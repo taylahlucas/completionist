@@ -4,15 +4,21 @@ import StandardLayout from '@components/general/Layouts/StandardLayout.native';
 import StyledText from '@components/general/Text/StyledText.native';
 import TextInput from '@components/general/TextInput/TextInput.native';
 import NavigationHeader from '@navigation/NavigationHeader.native';
-import { AuthScreenEnum } from '@utils/CustomEnums';
+import { AuthScreenEnum, GameKeyEnum } from '@utils/CustomEnums';
 import { KeyboardAvoidingScrollView } from '@components/general/Lists/index';
 import Button from '@components/general/Button/Button.native';
 import GameListItem from '@components/custom/GameList/GameListItem.native';
 import usePurchaseGame from './hooks/usePurchaseGame';
 import { Spacing } from '@components/general/index';
 import { allGameData } from '@utils/configs/gameConfigs';
-import { View } from 'react-native';
+import { Alert, View } from 'react-native';
 import useGetTheme from '@styles/hooks/useGetTheme';
+import useMainState from '@redux/hooks/useMainState';
+import useEndpoints from '@data/api/hooks/useEndpoints.native';
+import {
+  initPaymentSheet,
+  presentPaymentSheet,
+} from '@stripe/stripe-react-native';
 
 const PurchaseGame = (params: any) => {
   const { t } = useTranslation();
@@ -20,6 +26,9 @@ const PurchaseGame = (params: any) => {
   const gameId = params.route?.params.gameId;
   const { viewModel, actions } = usePurchaseGame(gameId);
   const selectedGame = allGameData.find(game => game.id === gameId);
+  const { createPayment } = useEndpoints();
+  const { user } = useMainState();
+  const [paymentIntent, setPaymentIntent] = useState('');
   const initialPointsAvailable = 2000;
   const [pointsAvailable, setPointsAvailable] = useState(
     initialPointsAvailable,
@@ -31,6 +40,74 @@ const PurchaseGame = (params: any) => {
     return;
   }
 
+  const fetchPaymentIntent = async (): Promise<
+    | {
+        paymentIntent: any;
+        ephemeralKey: any;
+        customer: any;
+      }
+    | undefined
+  > => {
+    try {
+      const response = await createPayment({
+        userId: user.userId,
+        amount: 399,
+        game: selectedGame.id,
+      });
+      console.log('response: ', response.data);
+      const { paymentIntent, ephemeralKey, customer } = response.data;
+      setPaymentIntent(paymentIntent);
+
+      return {
+        paymentIntent,
+        ephemeralKey,
+        customer,
+      };
+    } catch (error) {
+      console.error('Error fetching payment intent:', error);
+      return;
+    }
+  };
+
+  const openPaymentSheet = async () => {
+    if (!paymentIntent) return;
+
+    const { error } = await presentPaymentSheet();
+
+    if (error) {
+      Alert.alert('Payment failed', error.message);
+    } else {
+      Alert.alert('Success', 'Your payment was confirmed!');
+    }
+  };
+
+  const handlePayment = async () => {
+    const data = await fetchPaymentIntent();
+
+    if (!data) {
+      console.log('Could not get payment intent');
+      return;
+    }
+
+    const { error } = await initPaymentSheet({
+      merchantDisplayName: 'TTech Designs Ltd.',
+      customerId: data.customer,
+      customerEphemeralKeySecret: data.ephemeralKey,
+      paymentIntentClientSecret: paymentIntent,
+      allowsDelayedPaymentMethods: true,
+      defaultBillingDetails: {
+        name: 'Jane Doe',
+      },
+    });
+    console.log('TEST-1');
+
+    if (!error) {
+      openPaymentSheet();
+    } else {
+      console.log('Error Handling Payment: ', error);
+    }
+  };
+
   // TODO: Add translations, add styles to style file
   return (
     <StandardLayout>
@@ -41,10 +118,7 @@ const PurchaseGame = (params: any) => {
       />
       <KeyboardAvoidingScrollView
         awareView={
-          <Button
-            title={t('common:continue')}
-            onPress={(): void => console.log('Pay')}
-          />
+          <Button title={t('common:continue')} onPress={handlePayment} />
         }>
         <GameListItem
           game={selectedGame}

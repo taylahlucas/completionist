@@ -16,6 +16,7 @@ import {
   steamProfileUrl,
   steamPlayerAchievementsUrl,
   changePwUrl,
+  createPaymentUrl,
 } from '../../urls';
 import {
   GetUserByUserIdProps,
@@ -24,6 +25,7 @@ import {
   ChangePwProps,
   SteamAchievementsProps,
   SteamAchievementsReturnType,
+  CreatePaymentProps,
 } from '@data/api/EndpointInterfaces.native';
 import useAuthInterceptor from './useAuthInterceptor.native';
 
@@ -126,6 +128,20 @@ const useEndpoints = (): EndpointsReturnType => {
     }
   };
 
+  const createPayment = async ({
+    userId,
+    amount,
+    game,
+  }: CreatePaymentProps): Promise<any> =>
+    await authInterceptor
+      .post(`${url}/${createPaymentUrl}/${userId}`, {
+        amount,
+        game,
+      })
+      .then(response => {
+        return response;
+      });
+
   return {
     getUserByUserId,
     updateUser,
@@ -134,6 +150,7 @@ const useEndpoints = (): EndpointsReturnType => {
     deleteUser,
     getSteamUserById,
     getSteamPlayerAchievements,
+    createPayment,
   };
 };
 

@@ -98,6 +98,8 @@ export interface EnvironmentConfig {
   IOS_LOCAL_URL: string;
   ANDROID_LOCAL_URL: string;
   STEAM_API_TOKEN: string;
+  STRIPE_LIVE_TOKEN: string;
+  STRIPE_TEST_TOKEN: string;
 }
 
 // Navigation Interfaces
