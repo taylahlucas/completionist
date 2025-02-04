@@ -31,20 +31,6 @@ const Achievements = () => {
         rightAction="none"
       />
       <ScrollableList style={{ maxHeight: 600 }}>
-        {/* Badges */}
-        {/* <Dropdown
-					isOpen={badgesOpen}
-					setOpen={(): void => setBadgesOpen(!badgesOpen)}
-					header={
-						<AchievementDropdownTitle
-							title={'Badges'}
-							isOpen={badgesOpen}
-						/>
-					}
-				>
-					<BadgeView items={mockBadges} />
-				</Dropdown> */}
-
         {/* Game Progress */}
         <View style={{ paddingVertical: SMALL_PADDING }}>
           {viewModel.gameProgress.map(game => (
@@ -67,7 +53,6 @@ const Achievements = () => {
               isOpen={viewModel.achievementsState.isOpen}
             />
           }>
-          {/* // TODO: Add to translations */}
           <Condition
             condition={
               !!viewModel.user.steamId &&
@@ -84,13 +69,14 @@ const Achievements = () => {
               <TextWithBackground
                 value={t('common:achievements.noPermissionReason1')}
               />
-              <StyledText>OR</StyledText>
+              <StyledText>{t('common:or').toLocaleUpperCase()}</StyledText>
               <TextWithBackground
                 value={t('common:achievements.noPermissionReason2')}
               />
             </View>
           </Condition>
-          {/* // TODO: This is not working because I'm getting noPermission from here but it's not rendering */}
+
+          {/* User doesn't have permission */}
           <Condition
             condition={
               !!viewModel.user.steamId &&

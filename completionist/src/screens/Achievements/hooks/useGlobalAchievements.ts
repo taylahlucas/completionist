@@ -19,6 +19,8 @@ const useGlobalAchievements = () => {
       noOfLocked: 0,
     },
   );
+
+  // TODO: Global steam achievements
   // const getGlobalSteamAchievements = () => {
   //   activeGames.map((game: GameData) => {
   //     // want to return [{gameid: }]

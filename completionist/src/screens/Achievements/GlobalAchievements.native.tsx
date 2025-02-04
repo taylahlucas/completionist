@@ -8,12 +8,13 @@ import AchievementView from '@components/custom/AchievementView/AchievementView.
 import { ScrollableList } from '@components/general/Lists/index';
 import AchievementDropdownTitle from '@components/custom/AchievementView/AchievementDropdownTitle.native';
 import Button from '@components/general/Button/Button.native';
-import { Condition } from '@components/general/index';
+import { Condition, Spacing } from '@components/general/index';
 import { View } from 'react-native';
 import StyledText from '@components/general/Text/StyledText.native';
 import useGlobalAchievements from './hooks/useGlobalAchievements';
 import ProgressViewDropdown from '@components/custom/ProgressView/ProgressViewDropdown.native';
 import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
+import TextWithBackground from '@components/general/Text/TextWithBackground.native';
 
 const GlobalAchievements = () => {
   const { t } = useTranslation();
@@ -29,20 +30,6 @@ const GlobalAchievements = () => {
         rightAction="back"
       />
       <ScrollableList style={{ maxHeight: 600 }}>
-        {/* Badges */}
-        {/* <Dropdown
-					isOpen={badgesOpen}
-					setOpen={(): void => setBadgesOpen(!badgesOpen)}
-					header={
-						<AchievementDropdownTitle
-							title={'Badges'}
-							isOpen={badgesOpen}
-						/>
-					}
-				>
-					<BadgeView items={mockBadges} />
-				</Dropdown> */}
-
         {/* Game Progress */}
         <Dropdown
           isOpen={viewModel.progressViewOpen}
@@ -86,14 +73,23 @@ const GlobalAchievements = () => {
             }>
             <View style={{ paddingLeft: 12, paddingRight: 12 }}>
               <StyledText align="left" type="SubHeading">
-                No permission
+                {t('common:achievements.noSteamPermissionTitle')}
               </StyledText>
               <StyledText align="left">
-                {t('common:achievements.noSteamPermission')}
+                {t('common:achievements.noSteamPermissionDesc')}
               </StyledText>
+              <Spacing />
+              <TextWithBackground
+                value={t('common:achievements.noPermissionReason1')}
+              />
+              <StyledText>{t('common:or').toLocaleUpperCase()}</StyledText>
+              <TextWithBackground
+                value={t('common:achievements.noPermissionReason2')}
+              />
             </View>
           </Condition>
-          {/* // TODO: This is not working because I'm getting noPermission from here but it's not rendering */}
+
+          {/* User doesn't have permission */}
           <Condition
             condition={
               !!viewModel.steamId && viewModel.achievementsState.hasPermission
