@@ -2,23 +2,18 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import StandardLayout from '@components/general/Layouts/StandardLayout.native';
 import NavigationHeader from '@navigation/NavigationHeader.native';
-import {
-  DrawerScreenEnum,
-  AuthScreenEnum,
-  GameKeyEnum,
-} from '@utils/CustomEnums';
+import { AuthScreenEnum } from '@utils/CustomEnums';
 import { Dropdown } from '@components/general/Dropdown/index';
 import AchievementView from '@components/custom/AchievementView/AchievementView.native';
 import { ScrollableList } from '@components/general/Lists/index';
 import AchievementDropdownTitle from '@components/custom/AchievementView/AchievementDropdownTitle.native';
-import ProgressView from '@components/custom/ProgressView/ProgressView.native';
-import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
 import Button from '@components/general/Button/Button.native';
 import { Condition } from '@components/general/index';
 import { View } from 'react-native';
 import StyledText from '@components/general/Text/StyledText.native';
 import useGlobalAchievements from './hooks/useGlobalAchievements';
 import ProgressViewDropdown from '@components/custom/ProgressView/ProgressViewDropdown.native';
+import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
 
 const GlobalAchievements = () => {
   const { t } = useTranslation();
@@ -30,12 +25,8 @@ const GlobalAchievements = () => {
       <NavigationHeader
         id={AuthScreenEnum.GlobalAchievements}
         title={t('common:screens.achievements')}
-        leftAction={
-          viewModel.achievements.isGlobalAchievements ? 'none' : 'menu'
-        }
-        rightAction={
-          viewModel.achievements.isGlobalAchievements ? 'back' : 'none'
-        }
+        leftAction="none"
+        rightAction="back"
       />
       <ScrollableList style={{ maxHeight: 600 }}>
         {/* Badges */}
@@ -52,44 +43,46 @@ const GlobalAchievements = () => {
 					<BadgeView items={mockBadges} />
 				</Dropdown> */}
 
-        {/* Achievements */}
+        {/* Game Progress */}
         <Dropdown
-          isOpen={viewModel.achievements.progressViewOpen}
+          isOpen={viewModel.progressViewOpen}
           setOpen={(): void =>
-            actions.setProgressViewOpen(
-              !viewModel.achievements.progressViewOpen,
-            )
+            actions.setProgressViewOpen(!viewModel.progressViewOpen)
           }
-          header={<AchievementDropdownTitle title={title} isOpen={isOpen} />}>
-          {data.map(game => (
+          header={
+            <AchievementDropdownTitle
+              title={t('common:achievements.progress')}
+              isOpen={viewModel.progressViewOpen}
+            />
+          }>
+          {viewModel.activeGames.map(game => (
             <ProgressViewDropdown
               key={game.id}
-              gameId={game.id}
               title={t(`common:categories.${game.id}.title`)}
-              data={game.data}
+              data={actions.getGameProgress([game.id])}
             />
           ))}
         </Dropdown>
 
+        {/* Achievements */}
         <Dropdown
-          isOpen={viewModel.achievements.achievementsState.isOpen}
+          isOpen={viewModel.achievementsState.isOpen}
           setOpen={(): void =>
             actions.setAchievementsState({
-              ...viewModel.achievements.achievementsState,
-              isOpen: !viewModel.achievements.achievementsState.isOpen,
+              ...viewModel.achievementsState,
+              isOpen: !viewModel.achievementsState.isOpen,
             })
           }
           header={
             <AchievementDropdownTitle
               title={t('common:screens.steamAchievements')}
-              isOpen={viewModel.achievements.achievementsState.isOpen}
+              isOpen={viewModel.achievementsState.isOpen}
             />
           }>
           {/* // TODO: Add to translations */}
           <Condition
             condition={
-              !!viewModel.user.steamId &&
-              !viewModel.achievements.achievementsState.hasPermission
+              !!viewModel.steamId && !viewModel.achievementsState.hasPermission
             }>
             <View style={{ paddingLeft: 12, paddingRight: 12 }}>
               <StyledText align="left" type="SubHeading">
@@ -103,67 +96,30 @@ const GlobalAchievements = () => {
           {/* // TODO: This is not working because I'm getting noPermission from here but it's not rendering */}
           <Condition
             condition={
-              !!viewModel.user.steamId &&
-              viewModel.achievements.achievementsState.hasPermission
+              !!viewModel.steamId && viewModel.achievementsState.hasPermission
             }>
-            {viewModel.achievements.activeGames.map(game => (
+            {viewModel.activeGames.map(game => (
               <AchievementView
                 key={game.id}
                 gameId={game.id}
-                items={viewModel.achievements.achievementsState.items}
-                itemsLength={
-                  viewModel.achievements.achievementsState.noOfLocked
-                }
+                items={viewModel.achievementsState.items}
+                itemsLength={viewModel.achievementsState.noOfLocked}
                 title={t(`common:categories.${game.id}.title`)}
-                currentOpen={viewModel.achievements.currentAchievementOpen}
+                currentOpen={viewModel.currentAchievementOpen}
                 setCurrentOpen={actions.setCurrentAchievementOpen}
               />
             ))}
           </Condition>
-          <Condition condition={!viewModel.user.steamId}>
+          <Condition condition={!viewModel.steamId}>
             <Button
               type="navigation"
               title={t('common:achievements.linkSteamAccount')}
               onPress={(): void =>
-                navigation.navigate(
-                  viewModel.achievements.isGlobalAchievements
-                    ? AuthScreenEnum.GlobalSteamAchievements
-                    : DrawerScreenEnum.SteamAchievements,
-                )
+                navigation.navigate(AuthScreenEnum.GlobalSteamAchievements)
               }
             />
           </Condition>
         </Dropdown>
-
-        {/* Progress */}
-        {/* <Dropdown
-          isOpen={viewModel.achievements.progressViewOpen}
-          setOpen={(): void =>
-            actions.setProgressViewOpen(
-              !viewModel.achievements.progressViewOpen,
-            )
-          }
-          header={
-            <AchievementDropdownTitle
-              title={t('common:achievements.progress')}
-              isOpen={viewModel.achievements.progressViewOpen}
-            />
-          }>
-          {actions
-            .getGameProgress(
-              viewModel.achievements.activeGames.map(
-                game => game.id as GameKeyEnum,
-              ),
-            )
-            .map(game => (
-              <ProgressView
-                key={game.id}
-                gameId={game.id}
-                title={t(`common:categories.${game.id}.title`)}
-                data={game.data}
-              />
-            ))}
-        </Dropdown> */}
       </ScrollableList>
     </StandardLayout>
   );

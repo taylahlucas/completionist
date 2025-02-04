@@ -16,7 +16,6 @@ const ProgressView = ({ gameId, data }: ProgressViewProps) => {
   const theme = useGetTheme();
   const { getGameProgress } = useGetGameProgress();
   const colors = [theme.lightPurple, '#E63656', '#26AB9D', '#D1A34D'];
-  console.log('HERE: ', JSON.stringify(data, null, 2));
 
   return (
     <View

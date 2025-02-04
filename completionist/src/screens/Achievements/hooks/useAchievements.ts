@@ -2,17 +2,10 @@ import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import useMainState from '@redux/hooks/useMainState';
 import useEndpoints from '@data/api/hooks/useEndpoints.native';
-import { AchievementItem } from '@utils/CustomInterfaces';
+import { AchievementItem, AchievementsState } from '@utils/CustomInterfaces';
 import { useGetGameProgressData } from '@data/hooks/index';
 import { getCurrentGame } from '@data/hooks/index';
 import { GameKeyEnum } from '@utils/CustomEnums';
-
-interface AchievementsState {
-  isOpen: boolean;
-  hasPermission: boolean;
-  items: AchievementItem[];
-  noOfLocked: number;
-}
 
 const useAchievements = () => {
   const { t } = useTranslation();

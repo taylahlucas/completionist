@@ -52,6 +52,13 @@ export interface AchievementItem {
   unlocked: boolean;
 }
 
+export interface AchievementsState {
+  isOpen: boolean;
+  hasPermission: boolean;
+  items: AchievementItem[];
+  noOfLocked: number;
+}
+
 export interface SteamProfile {
   steamId: string;
   username: string;

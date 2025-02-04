@@ -45,7 +45,7 @@ const Achievements = () => {
 					<BadgeView items={mockBadges} />
 				</Dropdown> */}
 
-        {/* Progress */}
+        {/* Game Progress */}
         <View style={{ paddingVertical: SMALL_PADDING }}>
           {viewModel.gameProgress.map(game => (
             <ProgressView key={game.id} gameId={game.id} data={game.data} />
