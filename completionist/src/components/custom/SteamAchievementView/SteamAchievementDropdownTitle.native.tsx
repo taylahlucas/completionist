@@ -5,15 +5,15 @@ import { IconTypeEnum } from '@utils/CustomEnums';
 import { DropdownTitleContainer } from '@components/general/Dropdown/index';
 import StyledText from '@components/general/Text/StyledText.native';
 
-interface AchievementDropdownTitleProps {
+interface SteamAchievementDropdownTitleProps {
   title: string;
   isOpen: boolean;
 }
 
-const AchievementDropdownTitle = ({
+const SteamAchievementDropdownTitle = ({
   title,
   isOpen,
-}: AchievementDropdownTitleProps) => {
+}: SteamAchievementDropdownTitleProps) => {
   const theme = useGetTheme();
 
   return (
@@ -38,4 +38,4 @@ const AchievementDropdownTitle = ({
   );
 };
 
-export default AchievementDropdownTitle;
+export default SteamAchievementDropdownTitle;

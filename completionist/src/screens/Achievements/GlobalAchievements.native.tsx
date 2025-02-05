@@ -4,9 +4,9 @@ import StandardLayout from '@components/general/Layouts/StandardLayout.native';
 import NavigationHeader from '@navigation/NavigationHeader.native';
 import { AuthScreenEnum } from '@utils/CustomEnums';
 import { Dropdown } from '@components/general/Dropdown/index';
-import AchievementView from '@components/custom/AchievementView/AchievementView.native';
+import SteamAchievementView from '@components/custom/SteamAchievementView/SteamAchievementDropdownView.native';
 import { ScrollableList } from '@components/general/Lists/index';
-import AchievementDropdownTitle from '@components/custom/AchievementView/AchievementDropdownTitle.native';
+import SteamAchievementDropdownTitle from '@components/custom/SteamAchievementView/SteamAchievementDropdownTitle.native';
 import Button from '@components/general/Button/Button.native';
 import { Condition, Spacing } from '@components/general/index';
 import { View } from 'react-native';
@@ -37,7 +37,7 @@ const GlobalAchievements = () => {
             actions.setProgressViewOpen(!viewModel.progressViewOpen)
           }
           header={
-            <AchievementDropdownTitle
+            <SteamAchievementDropdownTitle
               title={t('common:achievements.progress')}
               isOpen={viewModel.progressViewOpen}
             />
@@ -51,7 +51,7 @@ const GlobalAchievements = () => {
           ))}
         </Dropdown>
 
-        {/* Achievements */}
+        {/* Steam Achievements */}
         <Dropdown
           isOpen={viewModel.achievementsState.isOpen}
           setOpen={(): void =>
@@ -61,12 +61,12 @@ const GlobalAchievements = () => {
             })
           }
           header={
-            <AchievementDropdownTitle
+            <SteamAchievementDropdownTitle
               title={t('common:screens.steamAchievements')}
               isOpen={viewModel.achievementsState.isOpen}
             />
           }>
-          {/* // TODO: Add to translations */}
+          {/* User doesn't have permission */}
           <Condition
             condition={
               !!viewModel.steamId && !viewModel.achievementsState.hasPermission
@@ -89,20 +89,20 @@ const GlobalAchievements = () => {
             </View>
           </Condition>
 
-          {/* User doesn't have permission */}
+          {/* Steam Achievement List */}
           <Condition
             condition={
               !!viewModel.steamId && viewModel.achievementsState.hasPermission
             }>
             {viewModel.activeGames.map(game => (
-              <AchievementView
+              <SteamAchievementView
                 key={game.id}
                 gameId={game.id}
                 items={viewModel.achievementsState.items}
                 itemsLength={viewModel.achievementsState.noOfLocked}
                 title={t(`common:categories.${game.id}.title`)}
-                currentOpen={viewModel.currentAchievementOpen}
-                setCurrentOpen={actions.setCurrentAchievementOpen}
+                currentOpen={viewModel.steamAchievementsOpen}
+                setCurrentOpen={actions.setSteamAchievementsOpen}
               />
             ))}
           </Condition>

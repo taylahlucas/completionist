@@ -2,7 +2,10 @@ import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import useMainState from '@redux/hooks/useMainState';
 import useEndpoints from '@data/api/hooks/useEndpoints.native';
-import { AchievementItem, AchievementsState } from '@utils/CustomInterfaces';
+import {
+  SteamAchievementItem,
+  SteamAchievementsState,
+} from '@utils/CustomInterfaces';
 import { useGetGameProgressData } from '@data/hooks/index';
 import { getCurrentGame } from '@data/hooks/index';
 import { GameKeyEnum } from '@utils/CustomEnums';
@@ -11,18 +14,15 @@ const useAchievements = () => {
   const { t } = useTranslation();
   const { user, selectedGame } = useMainState();
   const { getSteamPlayerAchievements } = useEndpoints();
-  // const [badgesOpen, setBadgesOpen] = useState<boolean>(true);
   const [progressViewOpen, setProgressViewOpen] = useState<boolean>(true);
-  const [currentAchievementOpen, setCurrentAchievementOpen] =
-    useState<string>('');
-  const [achievementsState, setAchievementsState] = useState<AchievementsState>(
-    {
-      isOpen: true,
+  const [steamAchievementsOpen, setSteamAchievementsOpen] =
+    useState<boolean>(true);
+  const [achievementsState, setAchievementsState] =
+    useState<SteamAchievementsState>({
       hasPermission: !!user.steamId,
       items: [],
       noOfLocked: 0,
-    },
-  );
+    });
   const currentGame = getCurrentGame(
     selectedGame?.id ?? user.gameData[0].id,
     user,
@@ -51,10 +51,9 @@ const useAchievements = () => {
             hasPermission: false,
           });
         } else if (response && response?.achievements) {
-          const items: AchievementItem[] =
+          const items: SteamAchievementItem[] =
             response?.noOfLocked > 0
               ? [
-                  ...response?.achievements,
                   {
                     id: 'locked',
                     name: response?.noOfLocked + ' Locked Achievements',
@@ -64,10 +63,11 @@ const useAchievements = () => {
                   },
                 ]
               : response?.achievements;
+
           setAchievementsState({
             ...achievementsState,
             hasPermission: true,
-            items: items,
+            items,
             noOfLocked: response?.achievements.length + response?.noOfLocked,
           });
         }
@@ -82,7 +82,7 @@ const useAchievements = () => {
       user,
       gameId: selectedGame?.id as GameKeyEnum,
       achievementsState,
-      currentAchievementOpen,
+      steamAchievementsOpen,
       progressViewOpen,
       gameProgress,
       steamAchievements: {
@@ -93,7 +93,7 @@ const useAchievements = () => {
     },
     actions: {
       setAchievementsState,
-      setCurrentAchievementOpen,
+      setSteamAchievementsOpen,
       setProgressViewOpen,
     },
   };

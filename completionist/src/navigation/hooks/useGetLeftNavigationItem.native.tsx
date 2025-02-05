@@ -86,20 +86,22 @@ const useGetLeftNavigationItem = (
           </NavigationHeaderMenuButton>
         </Animated.View>
       );
-    case 'achievements':
-      return (
-        <IconButton
-          style={{ ...styles.iconButton, top: 2 }}
-          name="progress-star"
-          type={IconTypeEnum.MaterialCommunityIcons}
-          color={theme.lightPurple}
-          size={40}
-          onPress={(): void => {
-            dismissKeyboard();
-            navigation.navigate(AuthScreenEnum.GlobalAchievements);
-          }}
-        />
-      );
+    // TOOD: Add this back in with global achievements feature
+    // case 'achievements':
+    //   return (
+    // TOOD: Add this back in with global achievements feature
+    // <IconButton
+    //   style={{ ...styles.iconButton, top: 2 }}
+    //   name="progress-star"
+    //   type={IconTypeEnum.MaterialCommunityIcons}
+    //   color={theme.lightPurple}
+    //   size={40}
+    //   onPress={(): void => {
+    //     dismissKeyboard();
+    //     navigation.navigate(AuthScreenEnum.GlobalAchievements);
+    //   }}
+    // />
+    // );
     default:
       return <NavigationEmptyContainer />;
   }

@@ -5,9 +5,9 @@ import StandardLayout from '@components/general/Layouts/StandardLayout.native';
 import NavigationHeader from '@navigation/NavigationHeader.native';
 import { DrawerScreenEnum } from '@utils/CustomEnums';
 import { Dropdown } from '@components/general/Dropdown/index';
-import AchievementView from '@components/custom/AchievementView/AchievementView.native';
+import AchievementView from '@components/custom/SteamAchievementView/SteamAchievementDropdownView.native';
 import { ScrollableList } from '@components/general/Lists/index';
-import AchievementDropdownTitle from '@components/custom/AchievementView/AchievementDropdownTitle.native';
+import SteamAchievementDropdownTitle from '@components/custom/SteamAchievementView/SteamAchievementDropdownTitle.native';
 import ProgressView from '@components/custom/ProgressView/ProgressView.native';
 import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
 import Button from '@components/general/Button/Button.native';
@@ -16,6 +16,7 @@ import StyledText from '@components/general/Text/StyledText.native';
 import useAchievements from './hooks/useAchievements';
 import { SMALL_PADDING } from '@styles/global.native';
 import TextWithBackground from '@components/general/Text/TextWithBackground.native';
+import SteamAchievementView from '@components/custom/SteamAchievementView/SteamAchievementView.native';
 
 const Achievements = () => {
   const { t } = useTranslation();
@@ -40,17 +41,14 @@ const Achievements = () => {
 
         {/* Steam Achievements */}
         <Dropdown
-          isOpen={viewModel.achievementsState.isOpen}
+          isOpen={viewModel.steamAchievementsOpen}
           setOpen={(): void =>
-            actions.setAchievementsState({
-              ...viewModel.achievementsState,
-              isOpen: !viewModel.achievementsState.isOpen,
-            })
+            actions.setSteamAchievementsOpen(!viewModel.steamAchievementsOpen)
           }
           header={
-            <AchievementDropdownTitle
+            <SteamAchievementDropdownTitle
               title={t('common:screens.steamAchievements')}
-              isOpen={viewModel.achievementsState.isOpen}
+              isOpen={viewModel.steamAchievementsOpen}
             />
           }>
           <Condition
@@ -76,21 +74,15 @@ const Achievements = () => {
             </View>
           </Condition>
 
-          {/* User doesn't have permission */}
+          {/* Steam Achievement List */}
           <Condition
             condition={
               !!viewModel.user.steamId &&
               viewModel.achievementsState.hasPermission
             }>
-            <AchievementView
-              key={viewModel.gameId}
-              gameId={viewModel.gameId}
-              items={viewModel.achievementsState.items}
-              itemsLength={viewModel.achievementsState.noOfLocked}
-              title={t(`common:categories.${viewModel.gameId}.title`)}
-              currentOpen={viewModel.currentAchievementOpen}
-              setCurrentOpen={actions.setCurrentAchievementOpen}
-            />
+            {viewModel.achievementsState.items.map(item => (
+              <SteamAchievementView key={item.id} item={item} />
+            ))}
           </Condition>
           <Condition condition={!viewModel.user.steamId}>
             <Button

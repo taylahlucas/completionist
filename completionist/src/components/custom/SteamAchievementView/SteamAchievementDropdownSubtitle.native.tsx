@@ -6,15 +6,15 @@ import { DropdownTitleContainer } from '@components/general/Dropdown/index';
 import StyledText from '@components/general/Text/StyledText.native';
 import { Seperator } from '@components/general/index';
 
-interface AchievementDropdownSubtitleProps {
+interface SteamAchievementDropdownSubtitleProps {
   title: string;
   isOpen: boolean;
 }
 
-const AchievementDropdownSubtitle = ({
+const SteamAchievementDropdownSubtitle = ({
   title,
   isOpen,
-}: AchievementDropdownSubtitleProps) => {
+}: SteamAchievementDropdownSubtitleProps) => {
   const theme = useGetTheme();
 
   return (
@@ -38,4 +38,4 @@ const AchievementDropdownSubtitle = ({
   );
 };
 
-export default AchievementDropdownSubtitle;
+export default SteamAchievementDropdownSubtitle;

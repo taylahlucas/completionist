@@ -4,6 +4,7 @@ import { ScrollableList } from '@components/general/Lists/index';
 import { styles } from './GameListItemStyledComponents.native';
 import GameListSectionDropdown from './GameListSectionDropdown.native';
 import { useGameList } from './hooks/useGameList.native';
+import { Condition } from '@components/general';
 
 interface GameListProps {
   searchValue: string;
@@ -26,17 +27,19 @@ const GameList = ({ searchValue }: GameListProps) => {
           t,
         )}
       />
-      <GameListSectionDropdown
-        testID={'inactive-games'}
-        type="inactive"
-        title={t('common:inactive')}
-        data={actions.filterGameList(
-          viewModel.disabledGames,
-          false,
-          searchValue,
-          t,
-        )}
-      />
+      <Condition condition={viewModel.disabledGames.length > 0}>
+        <GameListSectionDropdown
+          testID={'inactive-games'}
+          type="inactive"
+          title={t('common:inactive')}
+          data={actions.filterGameList(
+            viewModel.disabledGames,
+            false,
+            searchValue,
+            t,
+          )}
+        />
+      </Condition>
     </ScrollableList>
   );
 };

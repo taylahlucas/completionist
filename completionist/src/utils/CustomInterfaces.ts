@@ -44,7 +44,7 @@ export interface PriceProps {
   value: number;
 }
 
-export interface AchievementItem {
+export interface SteamAchievementItem {
   id: string;
   name: string;
   description?: string;
@@ -52,11 +52,15 @@ export interface AchievementItem {
   unlocked: boolean;
 }
 
-export interface AchievementsState {
-  isOpen: boolean;
+export interface SteamAchievementsState {
   hasPermission: boolean;
-  items: AchievementItem[];
+  items: SteamAchievementItem[];
   noOfLocked: number;
+}
+
+export interface GlobalSteamAchievementsState {
+  gameId: GameKeyEnum;
+  items: SteamAchievementsState[];
 }
 
 export interface SteamProfile {

@@ -1,0 +1,48 @@
+import React from 'react';
+import useGetTheme from '@styles/hooks/useGetTheme';
+import { Condition } from '@components/general/index';
+import { SteamAchievementItem } from '@utils/CustomInterfaces';
+import {
+  SteamAchievementIcon,
+  SteamAchievementViewContainer,
+  SteamAchievementIconContainer,
+  SteamItemTitle,
+  SteamItemDescription,
+} from './SteamAchievementViewStyledComponents.native';
+
+interface SteamAchievementViewProps {
+  item: SteamAchievementItem;
+}
+
+const SteamAchievementView = ({ item }: SteamAchievementViewProps) => {
+  const theme = useGetTheme();
+
+  return (
+    <SteamAchievementViewContainer
+      style={{
+        backgroundColor: theme.darkGrey,
+        borderColor: item.unlocked ? theme.lightPurple : theme.midGrey,
+      }}>
+      <Condition condition={!!item.icon}>
+        <SteamAchievementIcon source={{ uri: item.icon }} />
+      </Condition>
+      <SteamAchievementIconContainer>
+        <SteamItemTitle
+          hasBottomPadding={!!item.description}
+          align="left"
+          type="ListItemTitleBold"
+          color={item.unlocked ? theme.lightGrey : theme.midGrey}>
+          {item.name}
+        </SteamItemTitle>
+
+        {item.description ? (
+          <SteamItemDescription align="left" numberOfLines={2}>
+            {item.description}
+          </SteamItemDescription>
+        ) : null}
+      </SteamAchievementIconContainer>
+    </SteamAchievementViewContainer>
+  );
+};
+
+export default SteamAchievementView;
