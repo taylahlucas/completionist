@@ -2,7 +2,7 @@ import { Alert, Platform } from 'react-native';
 import { useTranslation } from 'react-i18next';
 import {
   requestCodes,
-  AchievementItem,
+  SteamAchievementItem,
   User,
   SteamProfile,
   AxiosErrorResponse,
@@ -114,7 +114,7 @@ const useEndpoints = (): EndpointsReturnType => {
       if (response?.data) {
         return {
           hasPermission: response?.data.hasPermission,
-          achievements: response?.data.achievements as AchievementItem[],
+          achievements: response?.data.achievements as SteamAchievementItem[],
           noOfLocked: response?.data.noOfLocked,
         };
       }

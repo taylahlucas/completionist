@@ -165,9 +165,6 @@
     "deleteConfirmationMessage": "If you delete this account, you will not be able to recover it.",
     "deleteSuccess": "Account successfully deleted.",
     "unlinkAccount": "Are you sure you want to unlink your account?",
-    "changesLeft": "You will have {{changesLeft}} change{{s}} left.",
-    "noChangesLeft": "No Changes Left",
-    "noChangesLeftMessage": "Sorry, you have no game changes left for this month.\n Please upgrade to a premium subscription, or wait until the 1st of next month.",
     "updateSuccess": "Successfully updated."
   },
   "languages": {

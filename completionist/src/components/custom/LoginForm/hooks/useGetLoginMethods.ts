@@ -8,11 +8,11 @@ import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
 import { useEditUserData, useRemoveUserData } from '@data/hooks/index';
 import useMainState from '@redux/hooks/useMainState';
 import { SignInProps } from '@data/api/EndpointInterfaces.native';
-import useSendVerificationEmail from '@components/custom/LoginForm/hooks/useSendVerificationEmail';
 import useLoginDispatch from '../provider/useLoginDispatch';
 import useEndpoints from '@data/api/hooks/useEndpoints.native';
 import { log } from '@utils/hooks/index';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
+import useSendVerificationEmail from '@components/custom/LoginForm/hooks/useSendVerificationEmail';
 
 interface GoogleError {
   code: number;
@@ -28,7 +28,7 @@ interface GetLoginMethodsReturnType {
 const useGetLoginMethods = (): GetLoginMethodsReturnType => {
   const { t } = useTranslation();
   const { user, shouldUpdateUser } = useMainState();
-  const { setSelectedGameSettings } = useMainDispatch();
+  const { setSelectedGameSettings, setShowSplashScreen } = useMainDispatch();
   const { setLoggedIn, triggerIsSigningUp, setIsGoogleSignIn } =
     useLoginDispatch();
   const { saveUser } = useEditUserData();
@@ -42,6 +42,7 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
       if (!!userResponse) {
         saveUser(userResponse);
         setLoggedIn(true);
+        setShowSplashScreen(false);
         if (userResponse.gameData) {
           setSelectedGameSettings(userResponse.gameData[0]?.id);
         }
@@ -121,6 +122,7 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 
   const googleUserSignIn = async () => {
     try {
+      setShowSplashScreen(true);
       await GoogleSignin.hasPlayServices();
       const { idToken } = await GoogleSignin.signIn();
       const googleCredential = auth.GoogleAuthProvider.credential(idToken);
@@ -150,6 +152,7 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
                 }).then(response => {
                   if (!!response) {
                     saveUser(response);
+                    setShowSplashScreen(false);
                     triggerIsSigningUp(true);
                     setIsGoogleSignIn(true);
                   }
@@ -164,6 +167,7 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
           }
         });
     } catch (error: GoogleError | any) {
+      setShowSplashScreen(false);
       log({
         type: 'error',
         title: 'Google Sign In',

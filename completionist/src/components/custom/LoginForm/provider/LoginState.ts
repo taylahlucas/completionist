@@ -3,23 +3,23 @@ import { LoginFormData } from '@utils/CustomInterfaces';
 
 export interface LoginState {
   readonly loginFormData: LoginFormData;
-	readonly verificationToken?: string;
+  readonly verificationToken?: string;
   readonly isGoogleSignIn: boolean;
-	readonly isAuthenticated: boolean;
+  readonly isAuthenticated: boolean;
   readonly isLoggedIn: boolean;
   readonly isSigningUp: boolean;
-};
+}
 
 export const initialFormData: LoginFormData = {
   userId: '',
   username: '',
-  email: ''
-}
+  email: '',
+};
 
 export const initialState: LoginState = {
   loginFormData: initialFormData,
   isGoogleSignIn: false,
-	isAuthenticated: false,
+  isAuthenticated: false,
   isLoggedIn: false,
   isSigningUp: false,
 };
@@ -34,11 +34,11 @@ const slice = createSlice({
     setIsGoogleSignIn: (state, action) => {
       state.isGoogleSignIn = action.payload;
     },
-		setVerificationToken: (state, action) => {
-			state.verificationToken = action.payload;
-		},
-		setIsAuthenticated: (state, action) => {
-      state.isAuthenticated = action.payload; 
+    setVerificationToken: (state, action) => {
+      state.verificationToken = action.payload;
+    },
+    setIsAuthenticated: (state, action) => {
+      state.isAuthenticated = action.payload;
     },
     setLoggedIn: (state, action) => {
       state.isLoggedIn = action.payload;
@@ -47,25 +47,25 @@ const slice = createSlice({
     triggerIsSigningUp: (state, action) => {
       state.isSigningUp = action.payload;
     },
-		reset: (state, _) => {
-			// TODO: Not working ??
-			state.isSigningUp = false;
-			state.isAuthenticated = false;
-			state.isLoggedIn = false;
-			state.loginFormData = initialFormData;
-			state.verificationToken = undefined;
-		}
-  }
+    reset: (state, _) => {
+      // TODO: Not working ??
+      state.isSigningUp = false;
+      state.isAuthenticated = false;
+      state.isLoggedIn = false;
+      state.loginFormData = initialFormData;
+      state.verificationToken = undefined;
+    },
+  },
 });
 
 export const {
   setLoginFormData,
   setIsGoogleSignIn,
-	setVerificationToken,
-	setIsAuthenticated,
+  setVerificationToken,
+  setIsAuthenticated,
   setLoggedIn,
   triggerIsSigningUp,
-	reset
+  reset,
 } = slice.actions;
 
 export default slice.reducer;

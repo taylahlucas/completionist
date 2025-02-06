@@ -34,7 +34,6 @@ export const useEditUserData = (): EditUserDataReturnType => {
           getUserByUserId({ userId: credentials.username })
             .then(user => {
               if (user) {
-                // checkUpdateChangesLeft(user);
                 saveUser(user);
                 saveToCache(user);
                 setLoggedIn(true);
@@ -46,7 +45,6 @@ export const useEditUserData = (): EditUserDataReturnType => {
             .catch(() => {});
         } else {
           if (cachedData) {
-            // 	checkUpdateChangesLeft(cachedData);
             saveUser(cachedData);
             setLoggedIn(true);
             if (!selectedGame && cachedData.gameData) {
@@ -95,27 +93,3 @@ export const useEditUserData = (): EditUserDataReturnType => {
     deleteUserData,
   };
 };
-
-// import { SubscriptionTypeEnum } from '@utils/CustomEnums';
-// const checkUpdateChangesLeft = (user: User) => {
-// 	const currentDate = new Date();
-// 	// Refresh changesLeft value on the 1st of each month
-// 	if (currentDate.getDate() === 1 && user.subscription.tier === SubscriptionTypeEnum.FREE) {
-// 		if (user.subscription.changesLeft !== 1) {
-// 			const updatedUser = {
-// 				...user,
-// 				subscription: {
-// 					...user.subscription,
-// 					changesLeft: 1
-// 				}
-// 			};
-// 			updateUser({ ...updatedUser })
-// 				.then(() => {
-// 					saveUser(updatedUser);
-// 				});
-// 		}
-//   }
-// 	else {
-// 		saveUser(user);
-// 	}
-// };
