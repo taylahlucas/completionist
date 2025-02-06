@@ -49,10 +49,11 @@ export enum GameKeyEnum {
   WITCHER_3 = 'witcher3',
 }
 
-// export enum SubscriptionTypeEnum {
-//   FREE = 'free',
-// 	PREMIUM = 'premium'
-// }
+export enum PaymentTierEnum {
+  SMALL,
+  MEDIUM,
+  LARGE,
+}
 
 export enum DatePeriodEnum {
   MONTHLY = 'monthly',

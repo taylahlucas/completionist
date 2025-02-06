@@ -4,6 +4,7 @@ import {
   DatePeriodEnum,
   ContentSectionEnum,
   DrawerScreenEnum,
+  PaymentTierEnum,
 } from './CustomEnums';
 import { NavigationAction, NavigationState } from '@react-navigation/native';
 import { MainState } from '@redux/MainState';
@@ -224,6 +225,7 @@ export interface IsActive {
 export interface GameData {
   id: GameKeyEnum;
   appId: number;
+  tier: PaymentTierEnum;
   quests: Item[];
   collectables: Item[];
   locations: Item[];

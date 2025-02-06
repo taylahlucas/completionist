@@ -94,13 +94,13 @@ const PurchaseGame = (params: any) => {
             />
           </View>
 
-          <StyledText type="ListItemSubTitle" color={theme.lightGrey}>
+          <StyledText type="ListItemTitleBold" color={theme.lightGrey}>
             {`Access tracking for ${actions.translateGameName(gameId)} for`}
           </StyledText>
           <Spacing height={8} />
-          <StyledText
-            type="ListItemTitleBold"
-            color={theme.lightGrey}>{`3.99 ?`}</StyledText>
+          <StyledText type="ListItemTitleBold" color={theme.lightGrey}>
+            {`${viewModel.gamePrice}?`}
+          </StyledText>
           <Spacing height={8} />
           <StyledText>{`This is a one-off payment.\n`}</StyledText>
         </KeyboardAvoidingScrollView>

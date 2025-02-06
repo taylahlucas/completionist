@@ -5,6 +5,7 @@ import { useTranslateGameContent } from '@data/hooks/index';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import { GameKeyEnum } from '@utils/CustomEnums';
 import { allGameData } from '@utils/configs/gameConfigs';
+import { getPriceForGame } from '@data/hooks/index';
 
 export const useGameListItem = () => {
   const theme = useGetTheme();
@@ -20,14 +21,6 @@ export const useGameListItem = () => {
       }),
     [user.gameData],
   );
-
-  const getPriceForGame = (id: GameKeyEnum): string => {
-    // TODO: Input game prices
-    switch (id) {
-      default:
-        return '£3.99';
-    }
-  };
 
   const getGameImage = (game: GameKeyEnum): ImageURISource => {
     switch (game) {

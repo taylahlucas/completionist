@@ -11,3 +11,4 @@ export * from './useInitUserData.native';
 export * from './useKeychain.native';
 export * from './useRemoveUserData.native';
 export * from './useTranslateGameContent.native';
+export * from './useGetGamePrice';

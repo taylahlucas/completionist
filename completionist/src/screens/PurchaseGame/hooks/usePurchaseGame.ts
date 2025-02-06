@@ -12,6 +12,7 @@ import useEndpoints from '@data/api/hooks/useEndpoints.native';
 import { Alert } from 'react-native';
 import { GameData } from '@utils/CustomInterfaces';
 import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
+import { getPriceForGame } from '@data/hooks/index';
 
 interface UsePurchaseGameReturnType {
   viewModel: {
@@ -23,6 +24,7 @@ interface UsePurchaseGameReturnType {
     initialPointsAvailable: number;
     pointsAvailable: number;
     points: string;
+    gamePrice: string;
   };
   actions: {
     translateGameName: (title: GameKeyEnum) => string;
@@ -58,6 +60,7 @@ const usePurchaseGame = (gameId: GameKeyEnum): UsePurchaseGameReturnType => {
     console.log('Could not find selected game');
     throw Error('Could not find selected game data');
   }
+  const gamePrice = getPriceForGame(selectedGame?.tier);
 
   const openPaymentSheet = async () => {
     const { error } = await presentPaymentSheet();
@@ -90,7 +93,7 @@ const usePurchaseGame = (gameId: GameKeyEnum): UsePurchaseGameReturnType => {
     try {
       const response = await createPayment({
         userId: user.userId,
-        amount: 399,
+        amount: gamePrice.amount,
         game: selectedGame.id,
       });
       const { paymentIntent, ephemeralKey, customer } = response.data;
@@ -143,6 +146,7 @@ const usePurchaseGame = (gameId: GameKeyEnum): UsePurchaseGameReturnType => {
       initialPointsAvailable,
       pointsAvailable,
       points,
+      gamePrice: gamePrice.title,
     },
     actions: {
       translateGameName,

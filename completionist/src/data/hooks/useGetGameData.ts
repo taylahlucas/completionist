@@ -117,10 +117,7 @@ export const useGetGameData = (selectedGame?: GameData): GameDataReturnType => {
           (item: GameContentItem) =>
             item.section === ContentSectionEnum.COLLECTABLES,
         )
-        .map(
-          (collectable: Partial<GameContentItem>) =>
-            collectable as GameContentItem,
-        );
+        .map((collectable: GameContentItem) => collectable as GameContentItem);
     }
   };
 
