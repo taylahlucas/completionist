@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
 import useMainState from '@redux/hooks/useMainState';
 import { User } from '@utils/index';
-import { fetchUserFromCache, saveToCache } from '../api/hooks/cache';
+import { fetchUserFromCache, saveToCache } from '../api/hooks/localCache';
 import useLoginDispatch from '@components/custom/LoginForm/provider/useLoginDispatch';
 import useEndpoints from '../api/hooks/useEndpoints.native';
 import { useRemoveUserData, useKeychain } from '@data/hooks/index';

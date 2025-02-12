@@ -79,7 +79,7 @@ npx react-native run-ios --port 8002
 - babel-plugin-styled-components
 - ts-node
 - axios-mock-adapter
-- axios-cache-adapter
+- axios-cache-interceptor
 
 - @stripe/stripe-react-native
 

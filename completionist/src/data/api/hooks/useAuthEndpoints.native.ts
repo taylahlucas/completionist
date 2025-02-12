@@ -18,7 +18,7 @@ import {
 } from '@data/api/EndpointInterfaces.native';
 import useHandleAxiosError from './useHandleAxiosError';
 import { REFRESH_CACHE_KEY, requestCodes, UserResponse } from '@utils/index';
-import { saveToCache } from './cache';
+import { saveToCache } from './localCache';
 import useAuthInterceptor from './useAuthInterceptor.native';
 
 const useAuthEndpoints = (): AuthEndpointsReturnType => {

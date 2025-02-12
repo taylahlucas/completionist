@@ -29,7 +29,7 @@ const getFromCache = async (key?: string): Promise<any | null> => {
   } catch (error) {
     log({
       type: 'error',
-      title: 'Failed to read to cache',
+      title: 'Failed to read to local cache',
       data: {
         error: JSON.stringify(error, null, 2),
       },
@@ -48,7 +48,7 @@ export const fetchUserFromCache = async (
   if (!!cachedData?.userId && (cachedData as User)) {
     log({
       type: 'info',
-      title: 'Fetched user from cache',
+      title: 'Fetched user from local cache',
     });
     return cachedData;
   }
@@ -64,12 +64,12 @@ export const saveToCache = async (data: any, key?: string): Promise<void> => {
     await AsyncStorage.setItem(key ? key : USER_CACHE_KEY, cacheDataString);
     log({
       type: 'info',
-      title: 'Saved user to cache',
+      title: 'Saved to local cache',
     });
   } catch (error) {
     log({
       type: 'error',
-      title: 'Failed to save to cache',
+      title: 'Failed to save to local cache',
       data: {
         error: JSON.stringify(error, null, 2),
       },
@@ -82,12 +82,12 @@ export const clearCache = async (): Promise<void> => {
     await AsyncStorage.clear();
     log({
       type: 'info',
-      title: 'Cache cleared!',
+      title: 'Local Cache cleared!',
     });
   } catch (e) {
     log({
       type: 'error',
-      title: 'Failed to clear the cache',
+      title: 'Failed to clear the local cache',
       data: {
         error: JSON.stringify(e, null, 2),
       },
