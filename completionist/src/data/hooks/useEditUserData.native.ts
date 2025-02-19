@@ -29,13 +29,13 @@ export const useEditUserData = (): EditUserDataReturnType => {
     const credentials = await getCredentials();
     // Check if data is stored in cache, if not fetch from db and login
     if (credentials) {
-      fetchUserFromCache(credentials.password).then(cachedData => {
+      fetchUserFromCache(credentials.username).then(cachedData => {
         if (!cachedData && credentials.username) {
           getUserByUserId({ userId: credentials.username })
             .then(user => {
               if (user) {
                 saveUser(user);
-                saveToCache(user);
+                saveToCache(user, user.userId);
                 setLoggedIn(true);
                 if (!selectedGame && user.gameData) {
                   setSelectedGameSettings(user.gameData[0]?.id);

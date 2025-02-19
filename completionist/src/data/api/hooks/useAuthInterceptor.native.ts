@@ -13,25 +13,22 @@ import {
   requestCodes,
 } from '@utils/index';
 import useHandleAxiosError from './useHandleAxiosError';
-import { useTranslation } from 'react-i18next';
 import envConfig from '@utils/configs/config';
 
+const url =
+  Platform.OS === 'ios'
+    ? process.env.IOS_LOCAL_URL
+    : process.env.ANDROID_LOCAL_URL;
+
+const instance = axios.create({
+  baseURL: url,
+});
+
+setupCache(instance);
+
 const useAuthInterceptor = () => {
-  const { t } = useTranslation();
   const { storeCredentials, getCredentials } = useKeychain();
-
   const { handleAxiosError } = useHandleAxiosError();
-
-  const url =
-    Platform.OS === 'ios'
-      ? process.env.IOS_LOCAL_URL
-      : process.env.ANDROID_LOCAL_URL;
-
-  const instance = axios.create({
-    baseURL: url,
-  });
-
-  setupCache(instance);
 
   instance.interceptors.request.use(
     async function (config) {
@@ -64,7 +61,6 @@ const useAuthInterceptor = () => {
           password: response.data.token,
         });
       }
-
       logSuccessfulApi({
         title: getApiNameFromUrl(response.config.url ?? 'No Api Defined'),
         data: response.data,

@@ -2,7 +2,7 @@ import { useEffect, useRef } from 'react';
 import useMainState from '@redux/hooks/useMainState';
 import { AppState } from 'react-native';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
-import {useEditUserData} from "@data/hooks/index";
+import { useEditUserData } from '@data/hooks/index';
 import useLoginState from '@components/custom/LoginForm/provider/useLoginState';
 import useLoginDispatch from '@components/custom/LoginForm/provider/useLoginDispatch';
 import useGetNavigationPath from '@navigation/hooks/useGetNavigationPath';
@@ -11,10 +11,10 @@ export const useInitUserData = () => {
   const appStateRef = useRef(AppState.currentState);
   const { setAppState } = useMainDispatch();
   const { user, appState, shouldUpdateUser } = useMainState();
-	const { setIsAuthenticated } = useLoginDispatch();
+  const { setIsAuthenticated } = useLoginDispatch();
   const { isAuthenticated, isLoggedIn, isSigningUp } = useLoginState();
   const { loadUserFromCache, updateUserData } = useEditUserData();
-	const getAuthNavigationPath = useGetNavigationPath();
+  const getAuthNavigationPath = useGetNavigationPath();
 
   useEffect(() => {
     if (!isAuthenticated && !user.userId) {
@@ -29,7 +29,7 @@ export const useInitUserData = () => {
     return () => {
       subscription.remove();
     };
-  }, [])
+  }, []);
 
   useEffect(() => {
     switch (appState) {
@@ -46,13 +46,17 @@ export const useInitUserData = () => {
     }
   }, [appState]);
 
-	useEffect(() => {
-		if (isLoggedIn || isSigningUp) {
-			setIsAuthenticated(user.signup.verification && user.signup.selectGame && user.signup.setUsername)
-		}
-		
-		if (!isAuthenticated && user.userId) {
-			getAuthNavigationPath(user);
-		}
-	}, [isLoggedIn, isSigningUp, user.signup])
+  useEffect(() => {
+    if (isLoggedIn || isSigningUp) {
+      setIsAuthenticated(
+        user.signup.verification &&
+          user.signup.selectGame &&
+          user.signup.setUsername,
+      );
+    }
+
+    if (!isAuthenticated && user.userId) {
+      getAuthNavigationPath(user);
+    }
+  }, [isLoggedIn, isSigningUp, user.signup]);
 };

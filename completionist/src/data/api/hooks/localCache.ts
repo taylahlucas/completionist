@@ -2,17 +2,14 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import { log } from '@utils/hooks/index';
 import {
   CACHE_EXPIRY_TIME,
-  USER_CACHE_KEY,
   CachedData,
   User,
   UserResponse,
 } from '@utils/index';
 
-const getFromCache = async (key?: string): Promise<any | null> => {
+const getFromCache = async (key: string): Promise<any | null> => {
   try {
-    const cachedDataString = await AsyncStorage.getItem(
-      key ? key : USER_CACHE_KEY,
-    );
+    const cachedDataString = await AsyncStorage.getItem(key);
 
     if (cachedDataString) {
       const { data, timestamp }: CachedData = JSON.parse(cachedDataString);
@@ -23,7 +20,7 @@ const getFromCache = async (key?: string): Promise<any | null> => {
         return data;
       } else {
         // Cache has expired, remove it
-        await AsyncStorage.removeItem(key ? key : USER_CACHE_KEY);
+        await AsyncStorage.removeItem(key);
       }
     }
   } catch (error) {
@@ -43,28 +40,29 @@ export const fetchUserFromCache = async (
   key: string,
 ): Promise<UserResponse> => {
   // Check if user is in cache
+  console.log('key: ', key);
   const cachedData = await getFromCache(key);
 
   if (!!cachedData?.userId && (cachedData as User)) {
     log({
       type: 'info',
-      title: 'Fetched user from local cache',
+      title: `Fetched user from local cache with key: ${key}`,
     });
     return cachedData;
   }
   return;
 };
 
-export const saveToCache = async (data: any, key?: string): Promise<void> => {
+export const saveToCache = async (data: any, key: string): Promise<void> => {
   try {
     const timestamp = new Date().getTime();
     const cacheData: CachedData = { data, timestamp };
     const cacheDataString = JSON.stringify(cacheData);
 
-    await AsyncStorage.setItem(key ? key : USER_CACHE_KEY, cacheDataString);
+    await AsyncStorage.setItem(key, cacheDataString);
     log({
       type: 'info',
-      title: 'Saved to local cache',
+      title: `Saved user to local cache with key: ${key}`,
     });
   } catch (error) {
     log({

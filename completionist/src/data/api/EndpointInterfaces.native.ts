@@ -2,9 +2,8 @@ import { GameKeyEnum } from '@utils/CustomEnums';
 import {
   LoginFormData,
   User,
-  SignupData,
   SteamProfile,
-  AchievementItem,
+  SteamAchievementItem,
 } from '@utils/CustomInterfaces';
 import { UserResponse } from '@utils/CustomTypes';
 
@@ -51,7 +50,7 @@ export interface SteamAchievementsProps {
 
 export interface SteamAchievementsReturnType {
   hasPermission: boolean;
-  achievements: AchievementItem[];
+  achievements: SteamAchievementItem[];
   noOfLocked: number;
 }
 

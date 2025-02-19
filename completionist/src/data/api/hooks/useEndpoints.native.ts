@@ -38,7 +38,6 @@ const useEndpoints = (): EndpointsReturnType => {
   const { t } = useTranslation();
   const authInterceptor = useAuthInterceptor();
 
-  // TODO: Add axios caching https://www.npmjs.com/package/axios-cache-adapter
   const getUserByUserId = async ({
     userId,
   }: GetUserByUserIdProps): Promise<UserResponse> =>
