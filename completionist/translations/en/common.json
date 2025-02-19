@@ -34,7 +34,6 @@
     "gameSelection": "Game Selection",
     "sendRequest": "Send Request",
     "purchaseGame": "Purchase Game",
-    "subscriptions": "Subscriptions",
     "selectGame": "Select a Game",
     "addSteamId": "Add Steam ID",
     "achievements": "Achievements",
@@ -61,24 +60,6 @@
   },
   "purchaseGame": {
     "title": "Purchase Game"
-  },
-  "subscriptions": {
-    "subscriptionDesc": "With a Premium subscription,\nyou will gain access to Premium Features such as:",
-    "purchaseSubscription": "Purchase Subscription",
-    "free": "Free",
-    "premium": "Premium",
-    "accessMultipleGames": "Access to multiple games",
-    "noAds": "No Ads",
-    "withAds": "With Ads",
-    "accessSteam": "Access steam achievements",
-    "prerequisiteTracking": "Automated prerequisite tracking",
-    "accessPremiumFeatures": "Access to Premium Features",
-    "accessOneGame": "Access to one game per month",
-    "accessFiveGames": "Access to five games per month",
-    "accessAllGames": "Access to all games",
-    "revokedAccess": "Revoked access to Features",
-    "monthly": "Monthly",
-    "yearly": "Yearly"
   },
   "payments": {
     "selectPlan": "Select payment plan:",
@@ -116,7 +97,9 @@
     "noSteamPermissionTitle": "No permission",
     "noSteamPermissionDesc": "You do not have permission to view these achievements. Please try the following:",
     "noPermissionReason1": "Check if you own this game on Steam.",
-    "noPermissionReason2": "Grant permission to 'Game Details' in your Steam Preferences.\nThis may take a few minutes."
+    "noPermissionReason2": "Grant permission to 'Game Details' in your Steam Preferences.\nThis may take a few minutes.",
+    "noAchievementsAvailable": "Steam achievements are not available for this game.",
+    "seeInstructions": "See instructions"
   },
   "steamAchievements": {
     "addSteamIdStep1": "Step 1. Find and add your Steam ID",

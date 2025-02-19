@@ -16,7 +16,7 @@ const useAchievements = () => {
   const { getSteamPlayerAchievements } = useEndpoints();
   const [progressViewOpen, setProgressViewOpen] = useState<boolean>(true);
   const [steamAchievementsOpen, setSteamAchievementsOpen] =
-    useState<boolean>(true);
+    useState<boolean>(false);
   const [achievementsState, setAchievementsState] =
     useState<SteamAchievementsState>({
       hasPermission: !!user.steamId,

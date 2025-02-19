@@ -74,6 +74,26 @@ const Achievements = () => {
               <TextWithBackground
                 value={t('common:achievements.noPermissionReason2')}
               />
+              <Button
+                title={t('common:achievements.seeInstructions')}
+                type="text"
+                onPress={(): void =>
+                  navigation.navigate(DrawerScreenEnum.SteamAchievements)
+                }
+              />
+            </View>
+          </Condition>
+
+          <Condition
+            condition={
+              !!viewModel.user.steamId &&
+              viewModel.achievementsState.hasPermission &&
+              viewModel.achievementsState.items.length === 0
+            }>
+            <View>
+              <StyledText>
+                {t('common:achievements.noAchievementsAvailable')}
+              </StyledText>
             </View>
           </Condition>
 
@@ -81,7 +101,8 @@ const Achievements = () => {
           <Condition
             condition={
               !!viewModel.user.steamId &&
-              viewModel.achievementsState.hasPermission
+              viewModel.achievementsState.hasPermission &&
+              viewModel.achievementsState.items.length > 0
             }>
             {viewModel.achievementsState.items.map((item, index) => (
               <SteamAchievementView key={`${item.id}-${index}`} item={item} />
