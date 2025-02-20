@@ -1,4 +1,3 @@
-import { Platform } from 'react-native';
 import axios from 'axios';
 import { setupCache } from 'axios-cache-interceptor';
 import {
@@ -11,7 +10,7 @@ import {
   AxiosErrorResponse,
   requestCodes,
 } from '@utils/index';
-import { handleAxiosError } from './hooks/handleAxiosError';
+import { handleAxiosError } from './handleAxiosError';
 import envConfig from '@utils/configs/config';
 import { getCredentials, storeCredentials } from '@data/hooks';
 import { baseUrl } from './urls';
@@ -24,7 +23,6 @@ setupCache(authInterceptor);
 
 authInterceptor.interceptors.request.use(
   async function (config) {
-    console.log('Logging request here');
     const credentials = await getCredentials();
 
     // Set token in the request header

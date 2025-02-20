@@ -12,4 +12,3 @@ export * from '../cache/keychain';
 export * from './useRemoveUserData.native';
 export * from './useTranslateGameContent.native';
 export * from './useGetGamePrice';
-export * from './useSaveUser';

@@ -1,4 +1,4 @@
-import { Alert, Platform } from 'react-native';
+import { Alert } from 'react-native';
 import i18next from 'i18next';
 import { AxiosErrorResponse, UserResponse } from '@utils/CustomTypes';
 import {

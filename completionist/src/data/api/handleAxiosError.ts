@@ -1,6 +1,8 @@
 import { Alert } from 'react-native';
 import { requestCodes } from '@utils/constants';
 import i18next from 'i18next';
+import { clearCache } from '@data/cache/localCache';
+import { deleteCredentials } from '@data/hooks';
 
 export const handleAxiosError = (status?: number): void => {
   if (!status) {
@@ -26,8 +28,9 @@ export const handleAxiosError = (status?: number): void => {
       );
       break;
     case requestCodes.UNAUTHORIZED:
-      // TODO: Ensure user data is removed on unauthorized
-      // removeUserData();
+      // TODO: Check that this works as expected
+      clearCache();
+      deleteCredentials();
       break;
     case requestCodes.NO_USER_FOUND:
       // When searching for user in database && signing in

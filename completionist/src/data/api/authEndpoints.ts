@@ -19,7 +19,7 @@ import {
 } from '@data/api/urls';
 import { REFRESH_CACHE_KEY, requestCodes } from '@utils/constants';
 import { saveToCache } from '@data/cache/localCache';
-import { handleAxiosError } from './hooks/handleAxiosError';
+import { handleAxiosError } from './handleAxiosError';
 
 export const checkUserExists = async (
   email: string,

@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
-import { getCredentials } from './keychain';
-import { fetchUserFromCache, saveToCache } from '../cache/localCache';
+import { getCredentials } from '../keychain';
+import { fetchUserFromCache, saveToCache } from '../localCache';
 import { getUserByUserId } from '@data/api/endpoints';
 import useLoginDispatch from '@components/custom/LoginForm/provider/useLoginDispatch';
 import useMainState from '@redux/hooks/useMainState';
@@ -13,16 +13,9 @@ export const useLoadUserFromCache = () => {
   const { setLoggedIn } = useLoginDispatch();
   const { saveUser } = useEditUserData();
 
-  console.log('MyComponent is rendering...');
-
-  useEffect(() => {
-    console.log('useEffect running...');
-  }, []);
-
   const loadUserFromCache = async () => {
     const credentials = await getCredentials();
     if (credentials) {
-      console.log('loadUserFromCache');
       fetchUserFromCache(credentials.username).then(cachedData => {
         if (!cachedData && credentials.username) {
           getUserByUserId({ userId: credentials.username })
