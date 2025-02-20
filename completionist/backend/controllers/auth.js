@@ -46,6 +46,7 @@ const signup = async (req, res) => {
     email,
     pw: userPw,
     googleId: userGoogleId,
+    account,
     signup,
   } = req.body;
   const existingUser = await checkEmailExists(dynamoDbDocClient, email);
@@ -54,7 +55,6 @@ const signup = async (req, res) => {
       error: response_message.EMAIL_TAKEN,
     });
   }
-
   // Hash password if password is provided & same for googleId
   let hashedPw = '';
   if (userPw) {
@@ -71,6 +71,7 @@ const signup = async (req, res) => {
     email,
     pw: hashedPw,
     googleId: hashedGoogleId,
+    account,
     signup,
   };
   const updatedUser = createUser(user);
@@ -115,11 +116,35 @@ const signin = async (req, res) => {
         .status(response_code.NO_USER_FOUND)
         .json({ error: 'No user found.' });
     }
+    const userId = existingUser.userId;
 
     // Compare passwords or google ids
     if (existingUser.pw && pw) {
       const match = await comparePws(pw, existingUser.pw);
       if (!match) {
+        // TODO: Set expiry date after 3 attemps and lock user
+        // if (currentAttempts === 3) {
+        //   expiry = new Date();
+        // }
+        const account = {
+          pwAttempts: existingUser.account.pwAttempts + 1,
+        };
+        params = {
+          ...params,
+          Key: {
+            userId: userId,
+          },
+          UpdateExpression: 'set account.pwAttempts = :pwAttempts',
+          ConditionExpression: 'userId = :userId',
+          ExpressionAttributeValues: {
+            ':pwAttempts': account.pwAttempts,
+            ':userId': userId,
+          },
+        };
+        await dynamoDbDocClient.send(new UpdateCommand(params));
+        console.log(`Password attemps for user ${email} updated successfully`);
+
+        // TODO: Add attempts + incorrect attemps
         return res.status(response_code.WRONG_PASSWORD).json({
           error: response_message.WRONG_PASSWORD,
         });
@@ -149,6 +174,7 @@ const signin = async (req, res) => {
       user: existingUser,
     });
   } catch (err) {
+    console.log('FAILED: ', err.message);
     return res.status(response_code.FAILURE).json(err.message);
   }
 };

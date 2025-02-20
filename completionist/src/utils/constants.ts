@@ -4,6 +4,7 @@ export const REFRESH_CACHE_KEY = 'REFRESH_EXPIRY_CACHE';
 export const CACHE_EXPIRY_TIME = 60 * 60 * 1000; // 1 hour in milliseconds
 export const VERIFICATION_ENTRY_LENGTH = 6;
 export const renderAmountConst = 20;
+export const maxPwAttempts = 3;
 
 export const games = [
   GameKeyEnum.FALLOUT_3,

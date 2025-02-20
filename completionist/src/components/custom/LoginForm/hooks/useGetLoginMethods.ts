@@ -18,6 +18,7 @@ import { updateUser } from '@data/api/endpoints';
 import { log } from '@utils/hooks/index';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
 import useSendVerificationEmail from '@components/custom/LoginForm/hooks/useSendVerificationEmail';
+import { maxPwAttempts, requestCodes } from '@utils/constants';
 
 interface GoogleError {
   code: number;
@@ -41,16 +42,34 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
   const sendVerification = useSendVerificationEmail();
 
   const userSignIn = async ({ email, pw, googleId }: SignInProps) => {
-    await signIn({ email, pw, googleId }).then(userResponse => {
-      if (!!userResponse) {
-        saveUser(userResponse);
-        setLoggedIn(true);
-        setShowSplashScreen(false);
-        if (userResponse.gameData) {
-          setSelectedGameSettings(userResponse.gameData[0]?.id);
+    await signIn({ email, pw, googleId })
+      .then(userResponse => {
+        if (!!userResponse) {
+          saveUser(userResponse);
+          setLoggedIn(true);
+          setShowSplashScreen(false);
+          if (userResponse.gameData) {
+            setSelectedGameSettings(userResponse.gameData[0]?.id);
+          }
         }
-      }
-    });
+      })
+      .catch(error => {
+        if (error?.response?.status === requestCodes.WRONG_PASSWORD) {
+          const currentAttempts = user.account.pwAttempts;
+          // TODO: Move this to BE
+          if (currentAttempts > maxPwAttempts) {
+            Alert.alert(
+              'Too many incorrect attempts. You have been temporarily locked out of your accout. Please try again later.',
+            );
+          } else {
+            Alert.alert(
+              `You have ${
+                maxPwAttempts - (currentAttempts + 1)
+              } password attemps left.`,
+            );
+          }
+        }
+      });
   };
 
   const linkGoogleAccount = ({ email, googleId }: SignInProps) => {
@@ -106,10 +125,8 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 
   const checkUserAccount = async ({ email, pw }: SignInProps) => {
     // Only runs on regular sign in
-    console.log('checkUserAccount-checkUserExists');
     checkUserExists(email).then(accounts => {
       if (accounts.regular) {
-        console.log('User sign in -1');
         userSignIn({
           email,
           pw,

@@ -30,6 +30,9 @@ export const initialUser: User = {
     setUsername: false,
     selectGame: false,
   },
+  account: {
+    pwAttempts: 0,
+  },
   settings: {
     lang: 'en',
     configs: [],

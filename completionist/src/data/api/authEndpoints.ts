@@ -42,6 +42,9 @@ export const signUp = async ({ data }: SignUpProps): Promise<UserResponse> =>
       email: data.email.toLocaleLowerCase(),
       googleId: data.googleId ?? '',
       pw: data.pw ?? '',
+      account: {
+        pwAttempts: 0,
+      },
       signup: {
         verification: false,
         username: !!data.username,

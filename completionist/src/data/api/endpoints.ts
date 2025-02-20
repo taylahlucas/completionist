@@ -46,6 +46,7 @@ export const updateUser = async (user: User): Promise<UserResponse> =>
       username: user.username,
       email: user.email,
       steamId: user.steamId,
+      account: user.account,
       signup: user.signup,
       settings: user.settings,
       gameData: user.gameData ?? [],

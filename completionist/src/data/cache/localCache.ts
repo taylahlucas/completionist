@@ -66,7 +66,7 @@ export const saveToCache = async (data: any, key: string): Promise<void> => {
     await AsyncStorage.setItem(key, cacheDataString);
     log({
       type: 'info',
-      title: `Saved user to local cache with key: ${key}`,
+      title: `Saved to local cache with key: ${key}`,
     });
   } catch (error) {
     log({
