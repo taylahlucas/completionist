@@ -9,8 +9,9 @@ import {
   SteamAchievementsProps,
   SteamAchievementsReturnType,
 } from './EndpointInterfaces.native';
-import authInterceptor from './hooks/authInterceptor';
+import authInterceptor from './authInterceptor';
 import {
+  baseUrl,
   getUserByUserIdUrl,
   updateUserUrl,
   changePwUrl,
@@ -27,16 +28,11 @@ import {
 } from '@utils/CustomInterfaces';
 import { requestCodes } from '@utils/constants';
 
-const url =
-  Platform.OS === 'ios'
-    ? process.env.IOS_LOCAL_URL
-    : process.env.ANDROID_LOCAL_URL;
-
 export const getUserByUserId = async ({
   userId,
 }: GetUserByUserIdProps): Promise<UserResponse> =>
   await authInterceptor
-    .get(`${url}/${getUserByUserIdUrl}/${userId}`)
+    .get(`${baseUrl}/${getUserByUserIdUrl}/${userId}`)
     .then(response => {
       if (response.data.user) {
         return response.data.user as User;
@@ -46,7 +42,7 @@ export const getUserByUserId = async ({
 
 export const updateUser = async (user: User): Promise<UserResponse> =>
   await authInterceptor
-    .patch(`${url}/${updateUserUrl}/${user.userId}`, {
+    .patch(`${baseUrl}/${updateUserUrl}/${user.userId}`, {
       username: user.username,
       email: user.email,
       steamId: user.steamId,
@@ -62,7 +58,7 @@ export const changePw = async ({
   newPw,
 }: ChangePwProps): Promise<boolean> =>
   await authInterceptor
-    .patch(`${url}/${changePwUrl}/${userId}`, {
+    .patch(`${baseUrl}/${changePwUrl}/${userId}`, {
       oldPw,
       newPw,
     })
@@ -73,20 +69,20 @@ export const sendEmail = async ({
   subject,
   text,
 }: SendEmailProps): Promise<void> =>
-  await authInterceptor.post(`${url}/${sendEmailUrl}`, {
+  await authInterceptor.post(`${baseUrl}/${sendEmailUrl}`, {
     from: emailTo,
     subject: subject,
     text: `${emailTo}\n\n${text}`,
   });
 
 export const deleteUser = async (userId: string): Promise<void> =>
-  await authInterceptor.delete(`${url}/${deleteUserUrl}/${userId}`);
+  await authInterceptor.delete(`${baseUrl}/${deleteUserUrl}/${userId}`);
 
 export const getSteamUserById = async (
   steamId: string,
 ): Promise<SteamProfile | void> =>
   await authInterceptor
-    .get(`${url}/${steamProfileUrl}?steamId=${steamId}`)
+    .get(`${baseUrl}/${steamProfileUrl}?steamId=${steamId}`)
     .then(response => {
       if (!!response?.data) {
         return response?.data?.profile as SteamProfile;
@@ -102,7 +98,7 @@ export const getSteamPlayerAchievements = async ({
 }: SteamAchievementsProps): Promise<SteamAchievementsReturnType | void> => {
   try {
     const response = await authInterceptor.get(
-      `${url}/${steamPlayerAchievementsUrl}?steamId=${steamId}&gameId=${gameId}`,
+      `${baseUrl}/${steamPlayerAchievementsUrl}?steamId=${steamId}&gameId=${gameId}`,
     );
     if (response?.data) {
       return {
@@ -127,7 +123,7 @@ export const createPayment = async ({
   game,
 }: CreatePaymentProps): Promise<any> =>
   await authInterceptor
-    .post(`${url}/${createPaymentUrl}/${userId}`, {
+    .post(`${baseUrl}/${createPaymentUrl}/${userId}`, {
       amount,
       game,
     })

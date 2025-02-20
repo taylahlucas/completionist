@@ -1,3 +1,5 @@
+import { Platform } from 'react-native';
+
 // Auth
 export const signupUrl = 'api/signup';
 export const checkUserExistsUrl = 'api/exists';
@@ -21,3 +23,8 @@ export const steamAchievementsByIdUrl =
 
 // Payments
 export const createPaymentUrl = 'payment/create';
+
+export const baseUrl =
+  Platform.OS === 'ios'
+    ? process.env.IOS_LOCAL_URL
+    : process.env.ANDROID_LOCAL_URL;

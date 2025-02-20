@@ -1,7 +1,6 @@
-import { Alert, Platform } from 'react-native';
 import uuid from 'react-native-uuid';
-import authInterceptor from './hooks/authInterceptor';
-import { AxiosErrorResponse, UserResponse } from '@utils/CustomTypes';
+import authInterceptor from './authInterceptor';
+import { UserResponse } from '@utils/CustomTypes';
 import {
   CredentialsExistProps,
   ForgotPwProps,
@@ -10,6 +9,7 @@ import {
   SignUpProps,
 } from './EndpointInterfaces.native';
 import {
+  baseUrl,
   checkUserExistsUrl,
   forgotPwUrl,
   linkAndSignInUrl,
@@ -21,16 +21,11 @@ import { REFRESH_CACHE_KEY, requestCodes } from '@utils/constants';
 import { saveToCache } from '@data/cache/localCache';
 import { handleAxiosError } from './hooks/handleAxiosError';
 
-const url =
-  Platform.OS === 'ios'
-    ? process.env.IOS_LOCAL_URL
-    : process.env.ANDROID_LOCAL_URL;
-
 export const checkUserExists = async (
   email: string,
 ): Promise<CredentialsExistProps> =>
   await authInterceptor
-    .post(`${url}/${checkUserExistsUrl}`, {
+    .post(`${baseUrl}/${checkUserExistsUrl}`, {
       email: email.toLocaleLowerCase(),
     })
     .then(response => response.data as CredentialsExistProps)
@@ -41,7 +36,7 @@ export const checkUserExists = async (
 
 export const signUp = async ({ data }: SignUpProps): Promise<UserResponse> =>
   await authInterceptor
-    .post(`${url}/${signupUrl}`, {
+    .post(`${baseUrl}/${signupUrl}`, {
       userId: data.userId ? data.userId : uuid.v4(),
       username: data.username,
       email: data.email.toLocaleLowerCase(),
@@ -69,7 +64,7 @@ export const signIn = async ({
   googleId,
 }: SignInProps): Promise<UserResponse> =>
   await authInterceptor
-    .post(`${url}/${signinUrl}`, {
+    .post(`${baseUrl}/${signinUrl}`, {
       email: email.toLocaleLowerCase(),
       pw,
       googleId,
@@ -92,7 +87,7 @@ export const linkAndSignIn = async ({
   googleId,
 }: SignInProps): Promise<UserResponse> =>
   await authInterceptor
-    .patch(`${url}/${linkAndSignInUrl}`, {
+    .patch(`${baseUrl}/${linkAndSignInUrl}`, {
       email: email.toLocaleLowerCase(),
       pw,
       googleId,
@@ -113,7 +108,7 @@ export const sendVerificationEmail = async ({
   subject,
   text,
 }: SendEmailProps): Promise<void> =>
-  await authInterceptor.post(`${url}/${sendVerificationEmailUrl}`, {
+  await authInterceptor.post(`${baseUrl}/${sendVerificationEmailUrl}`, {
     to: emailTo,
     subject,
     text,
@@ -123,7 +118,7 @@ export const forgotPw = async ({
   email,
   newPw,
 }: ForgotPwProps): Promise<void> =>
-  await authInterceptor.patch(`${url}/${forgotPwUrl}`, {
+  await authInterceptor.patch(`${baseUrl}/${forgotPwUrl}`, {
     email: email.toLocaleLowerCase(),
     newPw,
   });

@@ -11,17 +11,13 @@ import {
   AxiosErrorResponse,
   requestCodes,
 } from '@utils/index';
-import { handleAxiosError } from './handleAxiosError';
+import { handleAxiosError } from './hooks/handleAxiosError';
 import envConfig from '@utils/configs/config';
 import { getCredentials, storeCredentials } from '@data/hooks';
-
-const url =
-  Platform.OS === 'ios'
-    ? process.env.IOS_LOCAL_URL
-    : process.env.ANDROID_LOCAL_URL;
+import { baseUrl } from './urls';
 
 const authInterceptor = axios.create({
-  baseURL: url,
+  baseURL: baseUrl,
 });
 
 setupCache(authInterceptor);

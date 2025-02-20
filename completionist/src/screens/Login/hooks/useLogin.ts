@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Alert } from 'react-native';
 import { useTranslation } from 'react-i18next';
-import useIsLoading from '@data/api/hooks/useIsLoading.native';
+import { useIsRequestLoading } from '@data/api/hooks/useIsRequestLoading.native';
 import useIsKeyboardVisible from '@utils/hooks/useIsKeyboardVisible.native';
 import useLoginState from '@components/custom/LoginForm/provider/useLoginState';
 import useLoginDispatch from '@components/custom/LoginForm/provider/useLoginDispatch';
@@ -14,7 +14,7 @@ const useLogin = () => {
   const { t } = useTranslation();
   const { isSigningUp, loginFormData } = useLoginState();
   const { setLoginFormData } = useLoginDispatch();
-  const isLoading = useIsLoading();
+  const isRequestLoading = useIsRequestLoading();
   const isKeyboardVisible = useIsKeyboardVisible();
   const sendVerificationEmail = useSendVerificationEmail();
   const [submitPressed, setSubmitPressed] = useState<boolean>(false);
@@ -45,7 +45,7 @@ const useLogin = () => {
     viewModel: {
       loginFormData,
       login: {
-        isLoading,
+        isLoading: isRequestLoading,
         isSigningUp,
         isKeyboardVisible,
       },
