@@ -8,7 +8,7 @@ import { useGetGameData } from '@data/hooks/useGetGameData';
 import { useActivateGame, useTranslateGameContent } from '@data/hooks/index';
 import useMainState from '@redux/hooks/useMainState';
 import { allGameData } from '@utils/configs/gameConfigs';
-import useEndpoints from '@data/api/hooks/useEndpoints.native';
+import { createPayment } from '@data/api/endpoints';
 import { Alert } from 'react-native';
 import { GameData } from '@utils/CustomInterfaces';
 import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
@@ -46,7 +46,6 @@ const usePurchaseGame = (gameId: GameKeyEnum): UsePurchaseGameReturnType => {
   const selectedGame = allGameData.find(game => game.id === gameId);
   const { getAllData } = useGetGameData(selectedGame);
   const { quests, collectables, locations, miscellaneous } = getAllData(gameId);
-  const { createPayment } = useEndpoints();
   const { activateGame } = useActivateGame();
   const { user } = useMainState();
   const initialPointsAvailable = 2000;

@@ -6,18 +6,15 @@ import TextInput from '@components/general/TextInput/TextInput.native';
 import { KeyboardAvoidingScrollView } from '@components/general/Lists/index';
 import { Spacing, ParagraphView } from '@components/general/index';
 import Button from '@components/general/Button/Button.native';
-import useEndpoints from '@data/api/hooks/useEndpoints.native';
+import { getSteamUserById } from '@data/api/endpoints';
 import SteamProfileModal from '@screens/Achievements/SteamProfileModal.native';
 import { SteamProfile } from '@utils/CustomInterfaces';
-import useMainState from '@redux/hooks/useMainState';
 
 const AddSteamIDContent = () => {
   const { t } = useTranslation();
-  const { user } = useMainState();
   const [steamId, setSteamId] = useState<string>('');
   const [profileVisible, setProfileVisible] = useState<boolean>(false);
   const [profile, setProfile] = useState<SteamProfile | undefined>(undefined);
-  const { getSteamUserById } = useEndpoints();
 
   return (
     <KeyboardAvoidingScrollView
@@ -27,7 +24,7 @@ const AddSteamIDContent = () => {
           type="footer"
           disabled={steamId.length < 17}
           onPress={async (): Promise<void> => {
-            const profile = await getSteamUserById(user.userId, steamId);
+            const profile = await getSteamUserById(steamId);
 
             if (!!profile) {
               setProfile(profile);

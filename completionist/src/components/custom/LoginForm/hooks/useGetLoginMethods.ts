@@ -3,13 +3,18 @@ import { useTranslation } from 'react-i18next';
 import uuid from 'react-native-uuid';
 import { GoogleSignin } from '@react-native-google-signin/google-signin';
 import auth from '@react-native-firebase/auth';
-import useAuthEndpoints from '@data/api/hooks/useAuthEndpoints.native';
+import {
+  checkUserExists,
+  linkAndSignIn,
+  signIn,
+  signUp,
+} from '@data/api/authEndpoints';
 import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
 import { useEditUserData, useRemoveUserData } from '@data/hooks/index';
 import useMainState from '@redux/hooks/useMainState';
 import { SignInProps } from '@data/api/EndpointInterfaces.native';
 import useLoginDispatch from '../provider/useLoginDispatch';
-import useEndpoints from '@data/api/hooks/useEndpoints.native';
+import { updateUser } from '@data/api/endpoints';
 import { log } from '@utils/hooks/index';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
 import useSendVerificationEmail from '@components/custom/LoginForm/hooks/useSendVerificationEmail';
@@ -33,8 +38,6 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
     useLoginDispatch();
   const { saveUser } = useEditUserData();
   const { removeUserData } = useRemoveUserData();
-  const { checkUserExists, linkAndSignIn, signIn, signUp } = useAuthEndpoints();
-  const { updateUser } = useEndpoints();
   const sendVerification = useSendVerificationEmail();
 
   const userSignIn = async ({ email, pw, googleId }: SignInProps) => {
@@ -103,8 +106,10 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 
   const checkUserAccount = async ({ email, pw }: SignInProps) => {
     // Only runs on regular sign in
+    console.log('checkUserAccount-checkUserExists');
     checkUserExists(email).then(accounts => {
       if (accounts.regular) {
+        console.log('User sign in -1');
         userSignIn({
           email,
           pw,

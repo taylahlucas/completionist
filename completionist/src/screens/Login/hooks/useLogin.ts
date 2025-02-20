@@ -6,9 +6,9 @@ import useIsKeyboardVisible from '@utils/hooks/useIsKeyboardVisible.native';
 import useLoginState from '@components/custom/LoginForm/provider/useLoginState';
 import useLoginDispatch from '@components/custom/LoginForm/provider/useLoginDispatch';
 import useSendVerificationEmail from '@components/custom/LoginForm/hooks/useSendVerificationEmail';
-import useAuthEndpoints from '@data/api/hooks/useAuthEndpoints.native';
 import { isPwValid } from '@utils/hooks/index';
 import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
+import { checkUserExists } from '@data/api/authEndpoints';
 
 const useLogin = () => {
   const { t } = useTranslation();
@@ -17,12 +17,12 @@ const useLogin = () => {
   const isLoading = useIsLoading();
   const isKeyboardVisible = useIsKeyboardVisible();
   const sendVerificationEmail = useSendVerificationEmail();
-  const { checkUserExists } = useAuthEndpoints();
   const [submitPressed, setSubmitPressed] = useState<boolean>(false);
 
   const onSubmit = () => {
     setSubmitPressed(true);
     if (isPwValid(loginFormData.pw ?? '')) {
+      console.log('onSubmit checkUserExists: ', checkUserExists);
       checkUserExists(loginFormData.email).then(accounts => {
         if (accounts.regular || accounts.google) {
           sendVerificationEmail(

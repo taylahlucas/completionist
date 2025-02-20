@@ -6,6 +6,7 @@ import { useEditUserData } from '@data/hooks/index';
 import useLoginState from '@components/custom/LoginForm/provider/useLoginState';
 import useLoginDispatch from '@components/custom/LoginForm/provider/useLoginDispatch';
 import useGetNavigationPath from '@navigation/hooks/useGetNavigationPath';
+import { useLoadUserFromCache } from '@data/cache/useLoadUserFromCache';
 
 export const useInitUserData = () => {
   const appStateRef = useRef(AppState.currentState);
@@ -13,11 +14,13 @@ export const useInitUserData = () => {
   const { user, appState, shouldUpdateUser } = useMainState();
   const { setIsAuthenticated } = useLoginDispatch();
   const { isAuthenticated, isLoggedIn, isSigningUp } = useLoginState();
-  const { loadUserFromCache, updateUserData } = useEditUserData();
+  const { loadUserFromCache } = useLoadUserFromCache();
+  const { updateUserData } = useEditUserData();
   const getAuthNavigationPath = useGetNavigationPath();
 
   useEffect(() => {
     if (!isAuthenticated && !user.userId) {
+      console.log('LOADING-1');
       loadUserFromCache();
     }
 
@@ -35,6 +38,7 @@ export const useInitUserData = () => {
     switch (appState) {
       case 'active':
         if (!isAuthenticated || !user.userId) {
+          console.log('LOADING-2');
           loadUserFromCache();
         }
         return;

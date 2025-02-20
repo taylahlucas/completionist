@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import useMainState from '@redux/hooks/useMainState';
-import useEndpoints from '@data/api/hooks/useEndpoints.native';
+import { getSteamPlayerAchievements } from '@data/api/endpoints';
 import {
   SteamAchievementItem,
   SteamAchievementsState,
@@ -13,7 +13,6 @@ import { GameKeyEnum } from '@utils/CustomEnums';
 const useAchievements = () => {
   const { t } = useTranslation();
   const { user, selectedGame } = useMainState();
-  const { getSteamPlayerAchievements } = useEndpoints();
   const [progressViewOpen, setProgressViewOpen] = useState<boolean>(true);
   const [steamAchievementsOpen, setSteamAchievementsOpen] =
     useState<boolean>(false);

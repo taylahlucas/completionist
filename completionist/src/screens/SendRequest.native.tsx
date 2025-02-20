@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 import StandardLayout from '@components/general/Layouts/StandardLayout.native';
 import NavigationHeader from '@navigation/NavigationHeader.native';
 import StyledText from '@components/general/Text/StyledText.native';
-import useEndpoints from '@data/api/hooks/useEndpoints.native';
+import { sendEmail } from '@data/api/endpoints';
 import useMainState from '@redux/hooks/useMainState';
 import Button from '@components/general/Button/Button.native';
 import TextInput from '@components/general/TextInput/TextInput.native';
@@ -20,7 +20,6 @@ interface RequestFormData {
 const SendRequest = () => {
   const { t } = useTranslation();
   const { user } = useMainState();
-  const { sendEmail } = useEndpoints();
   const [formData, setFormData] = useState<RequestFormData>({
     subject: '',
     text: '',

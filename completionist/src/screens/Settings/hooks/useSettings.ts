@@ -4,7 +4,7 @@ import useGetShowHideOptions from '@components/custom/Settings/hooks/useGetShowH
 import { handleScroll } from '@utils/hooks/index';
 import { SettingsOptionEnum } from '@utils/CustomEnums';
 import useMainState from '@redux/hooks/useMainState';
-import useEndpoints from '@data/api/hooks/useEndpoints.native';
+import { getSteamUserById } from '@data/api/endpoints';
 import { SettingsOptionItem, SteamProfile } from '@utils/CustomInterfaces';
 import { useEditUserData } from '@data/hooks/useEditUserData.native';
 import {
@@ -26,7 +26,6 @@ const useSettings = () => {
   const { setUser, setShouldUpdateUser } = useMainDispatch();
   const { getDLCOptions, setDLCOptions } = useDLCOptions();
   const options = useGetShowHideOptions();
-  const { getSteamUserById } = useEndpoints();
   const { deleteUserData } = useEditUserData();
   const isGlobalSettings = !selectedGame;
   const [navigationActions, setNavigationActions] = useState<ActionsType>({

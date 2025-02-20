@@ -15,7 +15,7 @@ import StyledText from '@components/general/Text/StyledText.native';
 import { Condition } from '@components/general/index';
 import { isEmailValid, isPwValid, isNameValid } from '@utils/hooks/validator';
 import useSendVerificationEmail from './hooks/useSendVerificationEmail';
-import useAuthEndpoints from '@data/api/hooks/useAuthEndpoints.native';
+import { checkUserExists } from '@data/api/authEndpoints';
 import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
 
 const LoginFormSignInButtons = () => {
@@ -24,7 +24,6 @@ const LoginFormSignInButtons = () => {
   const { triggerIsSigningUp } = useLoginDispatch();
   const sendVerification = useSendVerificationEmail();
   const { loginFormData, isSigningUp } = useLoginState();
-  const { checkUserExists } = useAuthEndpoints();
   const isLoginDisabled =
     !isEmailValid(loginFormData.email) ||
     !isPwValid(loginFormData.pw ?? '') ||

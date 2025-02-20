@@ -1,17 +1,19 @@
-import * as useAuthEndpoints from '@data/api/hooks/useAuthEndpoints.native';
+// TODO: Fix
 
-export const mockAuthEndpoints = (mock: { [key: string]: jest.Mock }) => {
-  const authMocks = {
-    checkUserExists: jest.fn(),
-		signUp: jest.fn(),
-		signIn: jest.fn(),
-		linkAndSignIn: jest.fn(),
-		sendVerificationEmail: jest.fn(),
-		forgotPw: jest.fn(),
-  };
-  
-  const updatedMocks = { ...authMocks, ...mock };
+// import * as useAuthEndpoints from '@data/api/hooks/useAuthEndpoints.native';
 
-  return jest.spyOn(useAuthEndpoints, 'default')
-    .mockImplementation(() => updatedMocks);
-};
+// export const mockAuthEndpoints = (mock: { [key: string]: jest.Mock }) => {
+//   const authMocks = {
+//     checkUserExists: jest.fn(),
+// 		signUp: jest.fn(),
+// 		signIn: jest.fn(),
+// 		linkAndSignIn: jest.fn(),
+// 		sendVerificationEmail: jest.fn(),
+// 		forgotPw: jest.fn(),
+//   };
+
+//   const updatedMocks = { ...authMocks, ...mock };
+
+//   return jest.spyOn(useAuthEndpoints, 'default')
+//     .mockImplementation(() => updatedMocks);
+// };

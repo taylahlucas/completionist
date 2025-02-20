@@ -40,7 +40,6 @@ export const fetchUserFromCache = async (
   key: string,
 ): Promise<UserResponse> => {
   // Check if user is in cache
-  console.log('key: ', key);
   const cachedData = await getFromCache(key);
 
   if (!!cachedData?.userId && (cachedData as User)) {
@@ -49,6 +48,11 @@ export const fetchUserFromCache = async (
       title: `Fetched user from local cache with key: ${key}`,
     });
     return cachedData;
+  } else {
+    log({
+      type: 'info',
+      title: `User with ${key} does not exist in cache`,
+    });
   }
   return;
 };
