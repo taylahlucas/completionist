@@ -2,7 +2,7 @@ const fs = require('fs');
 const { v4: uuidv4 } = require('uuid');
 
 // Read JSON file
-const readJsonFile = (filePath) => {
+const readJsonFile = filePath => {
   try {
     const data = fs.readFileSync(filePath, 'utf8');
     return JSON.parse(data);
@@ -13,11 +13,11 @@ const readJsonFile = (filePath) => {
 };
 
 // Check for duplicate identifiers
-const checkDuplicateIdentifiers = (data) => {
+const checkDuplicateIdentifiers = data => {
   const seenIds = {};
   const duplicateIds = [];
 
-  data.forEach((item) => {
+  data.forEach(item => {
     const { id } = item;
 
     if (seenIds[id]) {
@@ -27,29 +27,29 @@ const checkDuplicateIdentifiers = (data) => {
     }
   });
 
-  console.log(duplicateIds)
-}
+  console.log(duplicateIds);
+};
 
-const updateDuplicateIdentifiers = (objects) => {
-	const seenIds = {};
+const updateDuplicateIdentifiers = objects => {
+  const seenIds = {};
   const duplicateIds = [];
 
-  const updatedList = objects.map((item) => {
+  const updatedList = objects.map(item => {
     const { id } = item;
 
     if (seenIds[id]) {
       duplicateIds.push(id);
-			return ({
-				...item,
-				id: uuidv4()
-			})
+      return {
+        ...item,
+        id: uuidv4(),
+      };
     } else {
       seenIds[id] = true;
-			return item
+      return item;
     }
   });
-	return updatedList;
-}
+  return updatedList;
+};
 
 // Write JSON file
 const writeJsonFile = (filePath, data) => {
@@ -61,15 +61,14 @@ const writeJsonFile = (filePath, data) => {
   }
 };
 
-
 // Specify the path to your JSON file
-const jsonFilePath = 'skyrim.json';
+const jsonFilePath = 'gameData.json';
 
 // Read objects from the JSON file
 const objects = readJsonFile(jsonFilePath);
 
 checkDuplicateIdentifiers(objects);
-const objectsWithUniqueId = updateDuplicateIdentifiers(objects)
+const objectsWithUniqueId = updateDuplicateIdentifiers(objects);
 // Write updated objects back to the JSON file
 writeJsonFile(jsonFilePath, objectsWithUniqueId);
 

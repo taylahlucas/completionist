@@ -2,7 +2,7 @@ const fs = require('fs');
 const { v4: uuidv4 } = require('uuid');
 
 // Read JSON file
-const readJsonFile = (filePath) => {
+const readJsonFile = filePath => {
   try {
     const data = fs.readFileSync(filePath, 'utf8');
     return JSON.parse(data);
@@ -13,11 +13,11 @@ const readJsonFile = (filePath) => {
 };
 
 // Check for duplicate identifiers
-const checkDuplicateIdentifiers = (data) => {
+const checkDuplicateIdentifiers = data => {
   const seenIds = {};
   const duplicateIds = [];
 
-  data.forEach((item) => {
+  data.forEach(item => {
     const { id } = item;
 
     if (seenIds[id]) {
@@ -27,11 +27,11 @@ const checkDuplicateIdentifiers = (data) => {
     }
   });
 
-  console.log(duplicateIds)
-}
+  console.log(duplicateIds);
+};
 
 // Specify the path to your JSON file
-const jsonFilePath = 'eldenring_locations.json';
+const jsonFilePath = 'gameData.json';
 
 // Read objects from the JSON file
 const objects = readJsonFile(jsonFilePath);
