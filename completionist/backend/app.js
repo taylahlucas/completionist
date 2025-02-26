@@ -7,6 +7,7 @@ const userRoutes = require('./routes/users');
 const sendEmailRoutes = require('./routes/send_email');
 const steamRoutes = require('./routes/steam');
 const paymentRoutes = require('./routes/payment');
+const gameDataRoutes = require('./routes/game_data');
 
 const app = express();
 
@@ -26,5 +27,6 @@ app.use('/users', userRoutes);
 app.use('/send_email', sendEmailRoutes);
 app.use('/steam', steamRoutes);
 app.use('/payment', paymentRoutes);
+app.use('/game_data', gameDataRoutes);
 
 module.exports = app;

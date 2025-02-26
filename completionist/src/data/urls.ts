@@ -21,3 +21,6 @@ export const steamAchievementsByIdUrl =
 
 // Payments
 export const createPaymentUrl = 'payment/create';
+
+// Game Data
+export const getGameDataUrl = 'game_data/get';
