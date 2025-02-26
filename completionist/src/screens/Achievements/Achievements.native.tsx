@@ -5,7 +5,6 @@ import StandardLayout from '@components/general/Layouts/StandardLayout.native';
 import NavigationHeader from '@navigation/NavigationHeader.native';
 import { DrawerScreenEnum } from '@utils/CustomEnums';
 import { Dropdown } from '@components/general/Dropdown/index';
-import AchievementView from '@components/custom/SteamAchievementView/SteamAchievementDropdownView.native';
 import { ScrollableList } from '@components/general/Lists/index';
 import SteamAchievementDropdownTitle from '@components/custom/SteamAchievementView/SteamAchievementDropdownTitle.native';
 import ProgressView from '@components/custom/ProgressView/ProgressView.native';
@@ -34,8 +33,12 @@ const Achievements = () => {
       <ScrollableList style={{ maxHeight: 600 }}>
         {/* Game Progress */}
         <View style={{ paddingVertical: SMALL_PADDING }}>
-          {viewModel.gameProgress.map(game => (
-            <ProgressView key={game.id} gameId={game.id} data={game.data} />
+          {viewModel.gameProgress.map((game, index) => (
+            <ProgressView
+              key={`${game.id}-${index}`}
+              gameId={game.id}
+              data={game.data}
+            />
           ))}
         </View>
 
@@ -71,6 +74,26 @@ const Achievements = () => {
               <TextWithBackground
                 value={t('common:achievements.noPermissionReason2')}
               />
+              <Button
+                title={t('common:achievements.seeInstructions')}
+                type="text"
+                onPress={(): void =>
+                  navigation.navigate(DrawerScreenEnum.SteamAchievements)
+                }
+              />
+            </View>
+          </Condition>
+
+          <Condition
+            condition={
+              !!viewModel.user.steamId &&
+              viewModel.achievementsState.hasPermission &&
+              viewModel.achievementsState.items.length === 0
+            }>
+            <View>
+              <StyledText>
+                {t('common:achievements.noAchievementsAvailable')}
+              </StyledText>
             </View>
           </Condition>
 
@@ -78,10 +101,11 @@ const Achievements = () => {
           <Condition
             condition={
               !!viewModel.user.steamId &&
-              viewModel.achievementsState.hasPermission
+              viewModel.achievementsState.hasPermission &&
+              viewModel.achievementsState.items.length > 0
             }>
-            {viewModel.achievementsState.items.map(item => (
-              <SteamAchievementView key={item.id} item={item} />
+            {viewModel.achievementsState.items.map((item, index) => (
+              <SteamAchievementView key={`${item.id}-${index}`} item={item} />
             ))}
           </Condition>
           <Condition condition={!viewModel.user.steamId}>

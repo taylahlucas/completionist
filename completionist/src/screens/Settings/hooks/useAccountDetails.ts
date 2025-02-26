@@ -1,13 +1,13 @@
 import { useEffect, useState } from 'react';
 import { Alert } from 'react-native';
 import { useTranslation } from 'react-i18next';
-import useAuthEndpoints from '@data/api/hooks/useAuthEndpoints.native';
-import useEndpoints from '@data/api/hooks/useEndpoints.native';
+import { checkUserExists } from '@data/api/authEndpoints';
 import { useEditUserData } from '@data/hooks/index';
 import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
 import useMainState from '@redux/hooks/useMainState';
 import { DrawerScreenEnum } from '@utils/CustomEnums';
 import { isEmailValid, isPwValid, isNameValid } from '@utils/hooks/index';
+import { updateUser, changePw } from '@data/api/endpoints';
 
 export interface ChangeAccountDetailsItem {
   value: string;
@@ -33,12 +33,11 @@ const useAccountDetails = () => {
   };
   const [userInfo, setUserInfo] = useState<ChangeAccountDetails>(initialState);
   const { saveUser } = useEditUserData();
-  const { updateUser, changePw } = useEndpoints();
-  const { checkUserExists } = useAuthEndpoints();
   const [showChangePw, setShowChangePw] = useState<boolean>(false);
   const [submitPressed, setSubmitPressed] = useState<boolean>(false);
 
   useEffect(() => {
+    console.log('useAccountDetails checkUserExists: ', checkUserExists);
     checkUserExists(user.email).then(accounts =>
       setShowChangePw(accounts.google && !accounts.regular ? false : true),
     );
@@ -70,6 +69,7 @@ const useAccountDetails = () => {
     // TODO: I don't think this would handle if I change multiple values at the same time?
     // TODO: Want to do verification check for changed email
     if (userInfo.email.changed && isEmailValid(userInfo.email.value)) {
+      console.log('useAccountDetails onSubmit checkUserExists');
       checkUserExists(userInfo.email.value).then(accounts => {
         if (!accounts.regular && !accounts.google) {
           let updatedUser = {

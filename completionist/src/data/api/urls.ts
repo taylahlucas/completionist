@@ -1,3 +1,5 @@
+import { Platform } from 'react-native';
+
 // Auth
 export const signupUrl = 'api/signup';
 export const checkUserExistsUrl = 'api/exists';
@@ -24,3 +26,8 @@ export const createPaymentUrl = 'payment/create';
 
 // Game Data
 export const getGameDataUrl = 'game_data/get';
+
+export const baseUrl =
+  Platform.OS === 'ios'
+    ? process.env.IOS_LOCAL_URL
+    : process.env.ANDROID_LOCAL_URL;

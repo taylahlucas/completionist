@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 
-const useIsLoading = (): boolean => {
+export const useIsRequestLoading = (): boolean => {
   const [isLoading, setIsLoading] = useState<boolean>(false);
 
   useEffect(() => {
@@ -34,5 +34,3 @@ const useIsLoading = (): boolean => {
 
   return isLoading;
 };
-
-export default useIsLoading;

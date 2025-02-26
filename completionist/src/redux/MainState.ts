@@ -1,5 +1,9 @@
 import { createSlice } from '@reduxjs/toolkit';
-import { UnauthorizedScreenEnum, GameKeyEnum } from '@utils/CustomEnums';
+import {
+  UnauthorizedScreenEnum,
+  GameKeyEnum,
+  PaymentTierEnum,
+} from '@utils/CustomEnums';
 import { ScreenEnumType } from '@utils/CustomTypes';
 import { GameData, User } from '@utils/CustomInterfaces';
 import { AppStateStatus } from 'react-native';
@@ -8,6 +12,7 @@ import { initialFormData } from '@components/custom/LoginForm/provider/LoginStat
 export const initialGameData: GameData = {
   id: GameKeyEnum.SKYRIM,
   appId: 0,
+  tier: PaymentTierEnum.LARGE,
   quests: [],
   collectables: [],
   locations: [],
@@ -24,6 +29,9 @@ export const initialUser: User = {
     verification: false,
     setUsername: false,
     selectGame: false,
+  },
+  account: {
+    pwAttempts: 0,
   },
   settings: {
     lang: 'en',

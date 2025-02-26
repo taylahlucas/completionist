@@ -3,16 +3,22 @@ import { useTranslation } from 'react-i18next';
 import uuid from 'react-native-uuid';
 import { GoogleSignin } from '@react-native-google-signin/google-signin';
 import auth from '@react-native-firebase/auth';
-import useAuthEndpoints from '@data/api/hooks/useAuthEndpoints.native';
+import {
+  checkUserExists,
+  linkAndSignIn,
+  signIn,
+  signUp,
+} from '@data/api/authEndpoints';
 import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
 import { useEditUserData, useRemoveUserData } from '@data/hooks/index';
 import useMainState from '@redux/hooks/useMainState';
 import { SignInProps } from '@data/api/EndpointInterfaces.native';
-import useSendVerificationEmail from '@components/custom/LoginForm/hooks/useSendVerificationEmail';
 import useLoginDispatch from '../provider/useLoginDispatch';
-import useEndpoints from '@data/api/hooks/useEndpoints.native';
+import { updateUser } from '@data/api/endpoints';
 import { log } from '@utils/hooks/index';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
+import useSendVerificationEmail from '@components/custom/LoginForm/hooks/useSendVerificationEmail';
+import { maxPwAttempts, requestCodes } from '@utils/constants';
 
 interface GoogleError {
   code: number;
@@ -28,25 +34,42 @@ interface GetLoginMethodsReturnType {
 const useGetLoginMethods = (): GetLoginMethodsReturnType => {
   const { t } = useTranslation();
   const { user, shouldUpdateUser } = useMainState();
-  const { setSelectedGameSettings } = useMainDispatch();
+  const { setSelectedGameSettings, setShowSplashScreen } = useMainDispatch();
   const { setLoggedIn, triggerIsSigningUp, setIsGoogleSignIn } =
     useLoginDispatch();
   const { saveUser } = useEditUserData();
   const { removeUserData } = useRemoveUserData();
-  const { checkUserExists, linkAndSignIn, signIn, signUp } = useAuthEndpoints();
-  const { updateUser } = useEndpoints();
   const sendVerification = useSendVerificationEmail();
 
   const userSignIn = async ({ email, pw, googleId }: SignInProps) => {
-    await signIn({ email, pw, googleId }).then(userResponse => {
-      if (!!userResponse) {
-        saveUser(userResponse);
-        setLoggedIn(true);
-        if (userResponse.gameData) {
-          setSelectedGameSettings(userResponse.gameData[0]?.id);
+    await signIn({ email, pw, googleId })
+      .then(userResponse => {
+        if (!!userResponse) {
+          saveUser(userResponse);
+          setLoggedIn(true);
+          setShowSplashScreen(false);
+          if (userResponse.gameData) {
+            setSelectedGameSettings(userResponse.gameData[0]?.id);
+          }
         }
-      }
-    });
+      })
+      .catch(error => {
+        if (error?.response?.status === requestCodes.WRONG_PASSWORD) {
+          const currentAttempts = user.account.pwAttempts;
+          // TODO: Move this to BE
+          if (currentAttempts > maxPwAttempts) {
+            Alert.alert(
+              'Too many incorrect attempts. You have been temporarily locked out of your accout. Please try again later.',
+            );
+          } else {
+            Alert.alert(
+              `You have ${
+                maxPwAttempts - (currentAttempts + 1)
+              } password attemps left.`,
+            );
+          }
+        }
+      });
   };
 
   const linkGoogleAccount = ({ email, googleId }: SignInProps) => {
@@ -121,6 +144,7 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 
   const googleUserSignIn = async () => {
     try {
+      setShowSplashScreen(true);
       await GoogleSignin.hasPlayServices();
       const { idToken } = await GoogleSignin.signIn();
       const googleCredential = auth.GoogleAuthProvider.credential(idToken);
@@ -150,6 +174,7 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
                 }).then(response => {
                   if (!!response) {
                     saveUser(response);
+                    setShowSplashScreen(false);
                     triggerIsSigningUp(true);
                     setIsGoogleSignIn(true);
                   }
@@ -164,6 +189,7 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
           }
         });
     } catch (error: GoogleError | any) {
+      setShowSplashScreen(false);
       log({
         type: 'error',
         title: 'Google Sign In',

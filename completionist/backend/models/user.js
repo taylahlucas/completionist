@@ -35,6 +35,12 @@ const userSchema = Joi.object().keys({
   email: Joi.string().email().required(),
   googleId: Joi.string(),
   pw: Joi.string(),
+  account: Joi.object()
+    .keys({
+      pwAttempts: Joi.number().required(),
+      expiry: Joi.date(),
+    })
+    .required(),
   signup: Joi.object()
     .keys({
       verification: Joi.boolean().required(),

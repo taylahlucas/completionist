@@ -233,6 +233,11 @@ export interface GameData {
   settingsConfig: SettingsConfig;
 }
 
+export interface AccountData {
+  pwAttempts: number;
+  expiry?: Date;
+}
+
 export interface SignupData {
   verification: boolean;
   setUsername: boolean;
@@ -242,6 +247,7 @@ export interface SignupData {
 export interface User extends LoginFormData {
   steamId?: string;
   signup: SignupData;
+  account: AccountData;
   settings: UserSettings;
   gameData: GameData[];
 }

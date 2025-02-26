@@ -70,14 +70,6 @@ export const GameListItemHeaderTitleContainer = styled.View`
   justify-content: space-between;
 `;
 
-export const GameSelectionChangesLeftContainer = styled.View`
-  flex-direction: row;
-  width: 100%;
-  justify-content: space-between;
-  margin-left: ${LARGE_PADDING}px;
-  padding-bottom: 8px;
-`;
-
 export const GameListDropdownContainer = styled.View`
   width: 100%;
   flex-direction: row;

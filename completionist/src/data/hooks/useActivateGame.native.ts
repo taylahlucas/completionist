@@ -1,7 +1,7 @@
 import { useEditUserData } from '@data/hooks/index';
 import { initialGameData } from '@redux/MainState';
 import { GameKeyEnum } from '@utils/CustomEnums';
-import { IsActive, User } from '@utils/CustomInterfaces';
+import { User } from '@utils/CustomInterfaces';
 import {
   eldenRingGameData,
   fallout3GameData,
@@ -12,30 +12,6 @@ import {
 
 export const useActivateGame = () => {
   const { updateUserData } = useEditUserData();
-
-  // Free users
-  const changeGameSubscription = (
-    user: User,
-    selectedGame: IsActive,
-    changesLeft: number,
-  ) => {
-    // TODO: Update
-    // const updatedGames: IsActive[] = user.subscription.data.map((data: IsActive) => {
-    // 	return {
-    // 		id: data.id,
-    // 		isActive: data.id === selectedGame?.id
-    // 	};
-    // });
-    // const updatedUser = {
-    // 	...user,
-    // 	subscription: {
-    // 		...user.subscription,
-    // 		changesLeft: changesLeft,
-    // 		data: updatedGames
-    // 	}
-    // };
-    // updateUserData(updatedUser);
-  };
 
   const getGameData = (id: string) => {
     switch (id) {
@@ -72,5 +48,5 @@ export const useActivateGame = () => {
     return;
   };
 
-  return { changeGameSubscription, activateGame };
+  return { activateGame };
 };

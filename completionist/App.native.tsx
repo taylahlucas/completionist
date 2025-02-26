@@ -7,19 +7,19 @@ import config from '@utils/configs/config';
 import RootStackNavigator from '@screens/RootStackNavigator.native';
 
 GoogleSignin.configure({
-	webClientId: config.webClientId
+  webClientId: config.webClientId,
 });
 
 const store = configureStore;
 
 const App = () => {
-	return (
-		<Provider store={store}>
-			<NavigationContainer>
-				<RootStackNavigator />
-			</NavigationContainer>
-		</Provider>
-	)
+  return (
+    <Provider store={store}>
+      <NavigationContainer>
+        <RootStackNavigator />
+      </NavigationContainer>
+    </Provider>
+  );
 };
 
 export default App;

@@ -1,7 +1,7 @@
 import { filterGameList } from '@components/custom/GameList/hooks/useFilterGameList.native';
 import useLoginDispatch from '@components/custom/LoginForm/provider/useLoginDispatch';
 import useLoginState from '@components/custom/LoginForm/provider/useLoginState';
-import useIsLoading from '@data/api/hooks/useIsLoading.native';
+import { useIsRequestLoading } from '@data/api/hooks/useIsRequestLoading.native';
 import useMainState from '@redux/hooks/useMainState';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
 import { useActivateGame, useEditUserData } from '@data/hooks/index';
@@ -19,7 +19,7 @@ export const useSelectFirstGame = () => {
   const { setSelectedGameSettings } = useMainDispatch();
   const { isGoogleSignIn } = useLoginState();
   const { setIsGoogleSignIn } = useLoginDispatch();
-  const isLoading = useIsLoading();
+  const isRequestLoading = useIsRequestLoading();
   const { updateUserData } = useEditUserData();
   const { activateGame } = useActivateGame();
   const filteredGames = filterGameList(
@@ -35,7 +35,7 @@ export const useSelectFirstGame = () => {
       searchValue,
       selectedFirstGame,
       filteredGames,
-      isLoading,
+      isLoading: isRequestLoading,
       isGoogleSignIn,
     },
     actions: {
