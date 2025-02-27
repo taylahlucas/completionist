@@ -4,6 +4,7 @@ import { AxiosErrorResponse, UserResponse } from '@utils/CustomTypes';
 import {
   ChangePwProps,
   CreatePaymentProps,
+  GetGameDataProps,
   GetUserByUserIdProps,
   SendEmailProps,
   SteamAchievementsProps,
@@ -20,8 +21,10 @@ import {
   steamProfileUrl,
   steamPlayerAchievementsUrl,
   createPaymentUrl,
+  getGameDataUrl,
 } from '@data/api/urls';
 import {
+  GameContentItem,
   SteamAchievementItem,
   SteamProfile,
   User,
@@ -129,3 +132,11 @@ export const createPayment = async ({
       game,
     })
     .then(response => response);
+
+export const getGameData = async ({
+  game,
+  lang,
+}: GetGameDataProps): Promise<GameContentItem[] | void> =>
+  await authInterceptor
+    .get(`${baseUrl}/${getGameDataUrl}/?game=${game}&lang=${lang}`)
+    .then(response => response.data.response.Items as GameContentItem[]);

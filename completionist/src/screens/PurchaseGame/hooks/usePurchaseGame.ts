@@ -4,7 +4,6 @@ import {
   presentPaymentSheet,
 } from '@stripe/stripe-react-native';
 import { GameKeyEnum } from '@utils/CustomEnums';
-import { useGetGameData } from '@data/hooks/useGetGameData';
 import { useActivateGame, useTranslateGameContent } from '@data/hooks/index';
 import useMainState from '@redux/hooks/useMainState';
 import { allGameData } from '@utils/configs/gameConfigs';
@@ -13,6 +12,7 @@ import { Alert } from 'react-native';
 import { GameData } from '@utils/CustomInterfaces';
 import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
 import { getPriceForGame } from '@data/hooks/index';
+import useContentState from '@components/custom/ContentList/provider/useContentState';
 
 interface UsePurchaseGameReturnType {
   viewModel: {
@@ -44,8 +44,8 @@ const usePurchaseGame = (gameId: GameKeyEnum): UsePurchaseGameReturnType => {
   const { translateGameName } = useTranslateGameContent();
   const navigation = useReactNavigation();
   const selectedGame = allGameData.find(game => game.id === gameId);
-  const { getAllData } = useGetGameData(selectedGame);
-  const { quests, collectables, locations, miscellaneous } = getAllData(gameId);
+  // TODO: Don't want to use gameContent here, we want to fetch the data fresh
+  const { gameContent } = useContentState();
   const { activateGame } = useActivateGame();
   const { user } = useMainState();
   const initialPointsAvailable = 2000;
@@ -137,10 +137,10 @@ const usePurchaseGame = (gameId: GameKeyEnum): UsePurchaseGameReturnType => {
 
   return {
     viewModel: {
-      questsLength: quests.data.length,
-      collectablesLength: collectables.data.length,
-      locationsLength: locations.data.length,
-      miscLength: miscellaneous.data.length,
+      questsLength: gameContent?.quests.length ?? 0,
+      collectablesLength: gameContent?.collectables.length ?? 0,
+      locationsLength: gameContent?.locations.length ?? 0,
+      miscLength: gameContent?.miscellaneous.length ?? 0,
       selectedGame: selectedGame ?? allGameData[0],
       initialPointsAvailable,
       pointsAvailable,

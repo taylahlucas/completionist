@@ -1,5 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit';
-import { DropDownType } from '@utils/CustomInterfaces';
+import { DropDownType, GameContentItem } from '@utils/CustomInterfaces';
 import { ContentSectionEnum } from '@utils/CustomEnums';
 
 export interface ContentState {
@@ -7,6 +7,12 @@ export interface ContentState {
   readonly searchValue: string;
   readonly selectedCategory: DropDownType;
   readonly webViewHref?: string;
+  readonly gameContent?: {
+    quests: GameContentItem[];
+    collectables: GameContentItem[];
+    locations: GameContentItem[];
+    miscellaneous: GameContentItem[];
+  };
 }
 
 export const initialState: ContentState = {
@@ -14,6 +20,12 @@ export const initialState: ContentState = {
   searchValue: '',
   selectedCategory: {
     category: '',
+  },
+  gameContent: {
+    quests: [],
+    collectables: [],
+    locations: [],
+    miscellaneous: [],
   },
 };
 
@@ -39,6 +51,9 @@ const slice = createSlice({
     setWebViewHref: (state, action) => {
       state.webViewHref = action.payload;
     },
+    setGameContent: (state, action) => {
+      state.gameContent = action.payload;
+    },
     reset: state => {
       state = initialState;
     },
@@ -50,6 +65,7 @@ export const {
   setSearchValue,
   setSelectedCategory,
   setWebViewHref,
+  setGameContent,
   reset,
 } = slice.actions;
 

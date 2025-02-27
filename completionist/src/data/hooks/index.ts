@@ -1,6 +1,6 @@
 export * from './useActivateGame.native';
 export * from './useEditUserData.native';
-export * from './useGetCurrentGameData.native';
+export * from '../helpers/getCurrentGame.native';
 export * from './useGetGameData';
 export * from './useGetGameProgressData.native';
 export * from './useGetSettingsConfig';

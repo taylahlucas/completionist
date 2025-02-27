@@ -33,6 +33,13 @@ export interface GameContentItem {
   href?: string;
 }
 
+export interface GameContentState {
+  quests: GameContentItem[];
+  collectables: GameContentItem[];
+  locations: GameContentItem[];
+  miscellaneous: GameContentItem[];
+}
+
 export interface DropDownType {
   category: string;
   subCategory?: string;

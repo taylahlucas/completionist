@@ -1,18 +1,20 @@
 require('dotenv').config();
 const { dynamoDbDocClient } = require('../client');
 const { QueryCommand } = require('@aws-sdk/lib-dynamodb');
+const authWrapper = require('../helpers/auth_wrapper');
+const { response_code } = require('../helpers/response_code');
 
 var params = {
   TableName: process.env.AWS_GAME_TABLE_NAME,
 };
 
 const getDataForGame = authWrapper({
-  authFunctions: async (req, res, token) => {
-    const { game, lang } = req.body;
+  authFunction: async (req, res, token) => {
+    const { game, lang } = req.query;
 
     params = {
       ...params,
-      KeyConditionExpression: 'begins_with(PK, :pk)',
+      KeyConditionExpression: 'pk = :pk',
       ExpressionAttributeValues: {
         ':pk': `GAME#${game}#LANG#${lang}`,
       },
@@ -23,7 +25,8 @@ const getDataForGame = authWrapper({
       console.log(`Could not retrieve items for ${game} in ${lang}`);
       return res.status(response_code.SUCCESS);
     } else {
-      return res.status(response_codes.SUCCESS).json({
+      console.log(`Returning game data for ${game} in ${lang}`);
+      return res.status(response_code.SUCCESS).json({
         response,
         token,
       });

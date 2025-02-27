@@ -1,41 +1,28 @@
 import { useTranslation } from 'react-i18next';
-import { DrawerScreenEnum, ContentSectionEnum } from '@utils/CustomEnums';
-import {
-  useGetGameData,
-  useGetUserGameData,
-  useGetSettingsConfig,
-} from '@data/hooks/index';
-import useMainState from '@redux/hooks/useMainState';
+import { ContentSectionEnum, DrawerScreenEnum } from '@utils/CustomEnums';
+import { useGetUserGameData, useGetSettingsConfig } from '@data/hooks/index';
 import useCheckSectionEnabled from './useCheckSectionEnabled.native';
 import { NavigationDrawerItemData } from '@utils/CustomInterfaces';
+import useContentState from '@components/custom/ContentList/provider/useContentState';
 
 const useGetNavigationDrawerItems = (): NavigationDrawerItemData[] => {
   const { t } = useTranslation();
-  const { selectedGame } = useMainState();
   const { userQuests, userCollectables, userLocations, userMiscItems } =
     useGetUserGameData();
-  const { mapDataTo, getAllData } = useGetGameData(selectedGame);
+  const { gameContent } = useContentState();
   const { checkIsSectionEnabled } = useCheckSectionEnabled();
-  const questsSection = ContentSectionEnum.QUESTS;
-  const collectablesSection = ContentSectionEnum.COLLECTABLES;
-  const locationsSection = ContentSectionEnum.LOCATIONS;
-  const miscItemsSection = ContentSectionEnum.MISCELLANEOUS;
-  const questData = mapDataTo(questsSection, selectedGame?.id, true);
-  const collectableData = mapDataTo(
-    collectablesSection,
-    selectedGame?.id,
-    true,
-  );
-  const locationData = mapDataTo(locationsSection, selectedGame?.id, true);
-  const miscellaneousData = mapDataTo(miscItemsSection, selectedGame?.id, true);
-  const { quests, collectables, locations, miscellaneous } = getAllData(
-    selectedGame?.id,
-  );
+
+  // TODO: Need to filter by active here
+  // const questData = mapDataTo(questsSection, selectedGame?.id, true);
+  const questData = gameContent?.quests ?? [];
+  const collectableData = gameContent?.collectables ?? [];
+  const locationData = gameContent?.locations ?? [];
+  const miscellaneousData = gameContent?.miscellaneous ?? [];
   const { shouldHideDisabledSections } = useGetSettingsConfig();
 
   let drawerItems = [];
-  const questsEnabled = checkIsSectionEnabled(quests.section);
-  if (quests.data.length > 0) {
+  const questsEnabled = checkIsSectionEnabled(ContentSectionEnum.QUESTS);
+  if (questData.length > 0) {
     drawerItems.push({
       id: DrawerScreenEnum.Quests,
       title: t('common:screens.quests'),
@@ -44,8 +31,10 @@ const useGetNavigationDrawerItems = (): NavigationDrawerItemData[] => {
       isHidden: !shouldHideDisabledSections() && !questsEnabled,
     });
   }
-  const collectablesEnabled = checkIsSectionEnabled(collectables.section);
-  if (collectables.data.length > 0) {
+  const collectablesEnabled = checkIsSectionEnabled(
+    ContentSectionEnum.COLLECTABLES,
+  );
+  if (collectableData.length > 0) {
     drawerItems.push({
       id: DrawerScreenEnum.Collectables,
       title: t('common:screens.collectables'),
@@ -56,8 +45,8 @@ const useGetNavigationDrawerItems = (): NavigationDrawerItemData[] => {
       isHidden: !shouldHideDisabledSections() && !collectablesEnabled,
     });
   }
-  const locationsEnabled = checkIsSectionEnabled(locations.section);
-  if (locations.data.length > 0) {
+  const locationsEnabled = checkIsSectionEnabled(ContentSectionEnum.LOCATIONS);
+  if (locationData.length > 0) {
     drawerItems.push({
       id: DrawerScreenEnum.Locations,
       title: t('common:screens.locations'),
@@ -68,8 +57,10 @@ const useGetNavigationDrawerItems = (): NavigationDrawerItemData[] => {
       isHidden: !shouldHideDisabledSections() && !locationsEnabled,
     });
   }
-  const miscItemsEnabled = checkIsSectionEnabled(miscellaneous.section);
-  if (miscellaneous.data.length > 0) {
+  const miscItemsEnabled = checkIsSectionEnabled(
+    ContentSectionEnum.MISCELLANEOUS,
+  );
+  if (miscellaneousData.length > 0) {
     drawerItems.push({
       id: DrawerScreenEnum.Miscellaneous,
       title: t('common:screens.miscellaneous'),

@@ -5,7 +5,7 @@ import {
   SteamProfile,
   SteamAchievementItem,
 } from '@utils/CustomInterfaces';
-import { UserResponse } from '@utils/CustomTypes';
+import { LanguageType, UserResponse } from '@utils/CustomTypes';
 
 export interface SignUpProps {
   data: LoginFormData;
@@ -58,6 +58,11 @@ export interface CreatePaymentProps {
   userId: string;
   amount: number;
   game: GameKeyEnum;
+}
+
+export interface GetGameDataProps {
+  game: GameKeyEnum;
+  lang: LanguageType;
 }
 
 export interface AuthEndpointsReturnType {

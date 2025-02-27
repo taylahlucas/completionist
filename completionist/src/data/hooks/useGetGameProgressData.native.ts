@@ -2,27 +2,22 @@ import useMainState from '@redux/hooks/useMainState';
 import { Item } from '@utils/CustomInterfaces';
 import { ContentSectionEnum, GameKeyEnum } from '@utils/CustomEnums';
 import { ProgressItem } from '@utils/CustomInterfaces';
-import { useGetGameData, getCurrentGame } from '@data/hooks/index';
+import { getCurrentGame } from '@data/hooks/index';
+import useContentState from '@components/custom/ContentList/provider/useContentState';
 
 export const useGetGameProgressData = () => {
-  const { user, selectedGame } = useMainState();
-  const { mapDataTo } = useGetGameData(selectedGame);
+  const { user } = useMainState();
+  const { gameContent } = useContentState();
 
   const getGameProgress = (games: GameKeyEnum[]): ProgressItem[] => {
     return games.map(game => {
       const currentGame = getCurrentGame(game, user);
-      const questData = mapDataTo(ContentSectionEnum.QUESTS, game, true);
-      const collectablesData = mapDataTo(
-        ContentSectionEnum.COLLECTABLES,
-        game,
-        true,
-      );
-      const locationsData = mapDataTo(ContentSectionEnum.LOCATIONS, game, true);
-      const miscellaneousData = mapDataTo(
-        ContentSectionEnum.MISCELLANEOUS,
-        game,
-        true,
-      );
+      // TODO: Need to filter here
+      // const questData = mapDataTo(ContentSectionEnum.QUESTS, game, true);
+      const questData = gameContent?.quests ?? [];
+      const collectablesData = gameContent?.collectables ?? [];
+      const locationsData = gameContent?.locations ?? [];
+      const miscellaneousData = gameContent?.miscellaneous ?? [];
 
       let drawerItems = [];
       if (questData.length > 0) {

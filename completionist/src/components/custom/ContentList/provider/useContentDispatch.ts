@@ -4,10 +4,11 @@ import {
   setSearchValue,
   setSelectedCategory,
   setWebViewHref,
+  setGameContent,
   reset,
 } from './ContentState';
 import { useAppDispatch } from '@redux/store';
-import { DropDownType } from '@utils/CustomInterfaces';
+import { DropDownType, GameContentState } from '@utils/CustomInterfaces';
 import { ContentSectionEnum } from '@utils/CustomEnums';
 
 interface ContentDispatch {
@@ -15,6 +16,7 @@ interface ContentDispatch {
   setSearchValue: (value: string) => void;
   setSelectedCategory: (category: DropDownType) => void;
   setWebViewHref: (value?: string) => void;
+  setGameContent: (value: GameContentState) => void;
   reset: () => void;
 }
 
@@ -33,6 +35,9 @@ const useContentDispatch = (): ContentDispatch => {
     },
     setWebViewHref(value?: string): void {
       dispatch(setWebViewHref(value));
+    },
+    setGameContent(value: GameContentState): void {
+      dispatch(setGameContent(value));
     },
     reset(): void {
       dispatch(reset());

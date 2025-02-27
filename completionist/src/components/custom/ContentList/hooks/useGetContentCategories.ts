@@ -5,7 +5,7 @@ import {
 } from '@data/hooks/index';
 import useMainState from '@redux/hooks/useMainState';
 import { GameKeyEnum } from '@utils/CustomEnums';
-import { ContentItem } from '@utils/CustomInterfaces';
+import { ContentItem, GameContentItem } from '@utils/CustomInterfaces';
 import useContentState from '../provider/useContentState';
 
 interface GameDataReturnType {
@@ -22,8 +22,8 @@ interface GameDataReturnType {
 
 const useGetContentCategories = (): GameDataReturnType => {
   const { sectionType } = useContentState();
-  const { user, selectedGame, selectedGameSettings } = useMainState();
-  const { mapDataTo } = useGetGameData(selectedGame);
+  const { user, selectedGameSettings } = useMainState();
+  const { gameContent } = useContentState();
   const { shouldHideDisabledSections } = useGetSettingsConfig();
   const { translateCategoryName, translateDLCName } = useTranslateGameContent();
 
@@ -76,9 +76,9 @@ const useGetContentCategories = (): GameDataReturnType => {
 
   const getContentSubCategories = (
     category: string,
-    selectedGame?: GameKeyEnum,
+    selectedGameId?: GameKeyEnum,
   ): string[] => {
-    const items = mapDataTo(sectionType, selectedGame);
+    const items: GameContentItem[] = gameContent?.[sectionType] ?? [];
     const filteredItems = items.filter(item => item.mainCategory === category);
 
     let itemSubCategories: string[] = [];
@@ -94,9 +94,9 @@ const useGetContentCategories = (): GameDataReturnType => {
 
   const getContentSubCategoriesTypes = (
     subCategory: string,
-    selectedGame?: GameKeyEnum,
+    selectedGameId?: GameKeyEnum,
   ): string[] => {
-    const items = mapDataTo(sectionType, selectedGame);
+    const items: GameContentItem[] = gameContent?.[sectionType] ?? [];
     const filteredItems = items.filter(
       collectable => collectable.subCategory === subCategory,
     );

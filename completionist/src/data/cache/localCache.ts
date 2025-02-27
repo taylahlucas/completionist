@@ -3,6 +3,7 @@ import { log } from '@utils/hooks/index';
 import {
   CACHE_EXPIRY_TIME,
   CachedData,
+  GameContentItem,
   User,
   UserResponse,
 } from '@utils/index';
@@ -52,6 +53,27 @@ export const fetchUserFromCache = async (
     log({
       type: 'info',
       title: `User with ${key} does not exist in cache`,
+    });
+  }
+  return;
+};
+
+export const fetchGameDataFromCache = async (
+  key: string,
+): Promise<GameContentItem[] | void> => {
+  // Check if game data
+  const cachedData = await getFromCache(key);
+
+  if (cachedData as GameContentItem[]) {
+    log({
+      type: 'info',
+      title: `Fetched Game Data from local cache with key: ${key}`,
+    });
+    return cachedData;
+  } else {
+    log({
+      type: 'info',
+      title: `Game Data with ${key} does not exist in cache`,
     });
   }
   return;
