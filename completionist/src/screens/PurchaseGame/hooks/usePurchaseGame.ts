@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import {
   initPaymentSheet,
   presentPaymentSheet,
@@ -9,10 +9,11 @@ import useMainState from '@redux/hooks/useMainState';
 import { allGameData } from '@utils/configs/gameConfigs';
 import { createPayment } from '@data/api/endpoints';
 import { Alert } from 'react-native';
-import { GameData } from '@utils/CustomInterfaces';
+import { GameContentState, GameData } from '@utils/CustomInterfaces';
 import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
 import { getPriceForGame } from '@data/hooks/index';
-import useContentState from '@components/custom/ContentList/provider/useContentState';
+import { getGameDataFromCache } from '@data/helpers/getGameDataFromCache.native';
+import { getMappedGameData } from '@data/helpers/mapGameData.native';
 
 interface UsePurchaseGameReturnType {
   viewModel: {
@@ -44,8 +45,20 @@ const usePurchaseGame = (gameId: GameKeyEnum): UsePurchaseGameReturnType => {
   const { translateGameName } = useTranslateGameContent();
   const navigation = useReactNavigation();
   const selectedGame = allGameData.find(game => game.id === gameId);
-  // TODO: Don't want to use gameContent here, we want to fetch the data fresh
-  const { gameContent } = useContentState();
+  const [gameContent, setGameContent] = useState<GameContentState>({
+    quests: [],
+    collectables: [],
+    locations: [],
+    miscellaneous: [],
+  });
+
+  useEffect(() => {
+    getGameDataFromCache(gameId).then(response => {
+      const mappedGameData = getMappedGameData(response);
+      setGameContent(mappedGameData);
+    });
+  }, []);
+
   const { activateGame } = useActivateGame();
   const { user } = useMainState();
   const initialPointsAvailable = 2000;
