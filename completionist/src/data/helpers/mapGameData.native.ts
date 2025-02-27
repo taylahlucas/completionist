@@ -1,6 +1,5 @@
 import { ContentSectionEnum } from '@utils/CustomEnums';
-import { GameContentItem, SettingsConfigItem } from '@utils/CustomInterfaces';
-import { filterActiveSections } from './filterActiveSections.native';
+import { GameContentItem, GameContentState } from '@utils/CustomInterfaces';
 
 export const mapDataToQuests = (
   gameData: GameContentItem[],
@@ -40,42 +39,13 @@ export const mapDataToLocations = (
     )
     .map((location: Partial<GameContentItem>) => location as GameContentItem);
 
-// TOOD: Find another way to handle filter for active sections
-export const mapGameDataTo = (
-  type: ContentSectionEnum,
-  gameData?: GameContentItem[],
-  settingsConfig?: SettingsConfigItem[],
-  filter = false,
-): GameContentItem[] => {
-  if (!gameData) {
-    return [];
-  }
-  switch (type) {
-    case ContentSectionEnum.QUESTS:
-      const quests = mapDataToQuests(gameData);
-      return !filter
-        ? quests
-        : filterActiveSections(settingsConfig ?? [], quests);
-
-    case ContentSectionEnum.COLLECTABLES:
-      const collectables = mapDataToCollectables(gameData);
-      return !filter
-        ? collectables
-        : filterActiveSections(settingsConfig ?? [], collectables);
-
-    case ContentSectionEnum.LOCATIONS:
-      const locations = mapDataToLocations(gameData);
-      return !filter
-        ? locations
-        : filterActiveSections(settingsConfig ?? [], locations);
-
-    case ContentSectionEnum.MISCELLANEOUS:
-      const miscItems = mapDataToMiscItems(gameData);
-      return !filter
-        ? miscItems
-        : filterActiveSections(settingsConfig ?? [], miscItems);
-
-    default:
-      return [];
-  }
+export const getMappedGameData = (
+  gameData: GameContentItem[],
+): GameContentState => {
+  return {
+    quests: mapDataToQuests(gameData),
+    collectables: mapDataToCollectables(gameData),
+    locations: mapDataToLocations(gameData),
+    miscellaneous: mapDataToMiscItems(gameData),
+  };
 };

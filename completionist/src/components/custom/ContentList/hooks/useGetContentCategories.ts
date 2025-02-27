@@ -1,5 +1,4 @@
 import {
-  useGetGameData,
   useGetSettingsConfig,
   useTranslateGameContent,
 } from '@data/hooks/index';

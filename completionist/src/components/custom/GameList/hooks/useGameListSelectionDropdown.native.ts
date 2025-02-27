@@ -5,15 +5,15 @@ import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
 import { GameListSelectionType } from '@utils/CustomTypes';
 import { useState } from 'react';
 import { getGameDataFromCache } from '@data/helpers/getGameDataFromCache.native';
-import { useGetGameData } from '@data/hooks';
+
 import useContentDispatch from '@components/custom/ContentList/provider/useContentDispatch';
+import { getMappedGameData } from '@data/helpers/mapGameData.native';
 
 export const useGameListSelectionDropdown = () => {
   const [isOpen, setIsOpen] = useState<boolean>(true);
   const navigation = useReactNavigation();
   const { setSelectedGame, setSelectedGameSettings } = useMainDispatch();
   const { setGameContent } = useContentDispatch();
-  const { getMappedGameData } = useGetGameData();
 
   const navigateToGame = (game: GameData) => {
     setSelectedGame(game);
@@ -27,7 +27,6 @@ export const useGameListSelectionDropdown = () => {
   ): void => {
     if (type === 'active') {
       getGameDataFromCache(game.id).then(response => {
-        // TODO: Map game data and store in contentState
         const gameData = getMappedGameData(response);
         setGameContent(gameData);
         navigateToGame(game);

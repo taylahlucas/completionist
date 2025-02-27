@@ -4,20 +4,33 @@ import { useGetUserGameData, useGetSettingsConfig } from '@data/hooks/index';
 import useCheckSectionEnabled from './useCheckSectionEnabled.native';
 import { NavigationDrawerItemData } from '@utils/CustomInterfaces';
 import useContentState from '@components/custom/ContentList/provider/useContentState';
+import { filterActiveSections } from '@data/helpers/filterActiveSections.native';
+import useMainState from '@redux/hooks/useMainState';
 
 const useGetNavigationDrawerItems = (): NavigationDrawerItemData[] => {
   const { t } = useTranslation();
   const { userQuests, userCollectables, userLocations, userMiscItems } =
     useGetUserGameData();
+  const { selectedGame } = useMainState();
   const { gameContent } = useContentState();
   const { checkIsSectionEnabled } = useCheckSectionEnabled();
 
-  // TODO: Need to filter by active here
-  // const questData = mapDataTo(questsSection, selectedGame?.id, true);
-  const questData = gameContent?.quests ?? [];
-  const collectableData = gameContent?.collectables ?? [];
-  const locationData = gameContent?.locations ?? [];
-  const miscellaneousData = gameContent?.miscellaneous ?? [];
+  const questData = filterActiveSections(
+    selectedGame?.settingsConfig.general ?? [],
+    gameContent?.quests ?? [],
+  );
+  const collectablesData = filterActiveSections(
+    selectedGame?.settingsConfig.general ?? [],
+    gameContent?.collectables ?? [],
+  );
+  const locationsData = filterActiveSections(
+    selectedGame?.settingsConfig.general ?? [],
+    gameContent?.locations ?? [],
+  );
+  const miscellaneousData = filterActiveSections(
+    selectedGame?.settingsConfig.general ?? [],
+    gameContent?.miscellaneous ?? [],
+  );
   const { shouldHideDisabledSections } = useGetSettingsConfig();
 
   let drawerItems = [];
@@ -34,24 +47,24 @@ const useGetNavigationDrawerItems = (): NavigationDrawerItemData[] => {
   const collectablesEnabled = checkIsSectionEnabled(
     ContentSectionEnum.COLLECTABLES,
   );
-  if (collectableData.length > 0) {
+  if (collectablesData.length > 0) {
     drawerItems.push({
       id: DrawerScreenEnum.Collectables,
       title: t('common:screens.collectables'),
       subTitle: collectablesEnabled
-        ? `${userCollectables.length}/${collectableData.length}`
+        ? `${userCollectables.length}/${collectablesData.length}`
         : '',
       isEnabled: collectablesEnabled,
       isHidden: !shouldHideDisabledSections() && !collectablesEnabled,
     });
   }
   const locationsEnabled = checkIsSectionEnabled(ContentSectionEnum.LOCATIONS);
-  if (locationData.length > 0) {
+  if (locationsData.length > 0) {
     drawerItems.push({
       id: DrawerScreenEnum.Locations,
       title: t('common:screens.locations'),
       subTitle: locationsEnabled
-        ? `${userLocations.length}/${locationData.length}`
+        ? `${userLocations.length}/${locationsData.length}`
         : '',
       isEnabled: locationsEnabled,
       isHidden: !shouldHideDisabledSections() && !locationsEnabled,
