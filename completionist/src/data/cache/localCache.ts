@@ -24,12 +24,12 @@ const getFromCache = async (key: string): Promise<any | null> => {
         await AsyncStorage.removeItem(key);
       }
     }
-  } catch (error) {
+  } catch (e) {
     log({
       type: 'error',
       title: 'Failed to read to local cache',
       data: {
-        error: JSON.stringify(error, null, 2),
+        error: JSON.stringify(e, null, 2),
       },
     });
   }
@@ -85,17 +85,57 @@ export const saveToCache = async (data: any, key: string): Promise<void> => {
     const cacheData: CachedData = { data, timestamp };
     const cacheDataString = JSON.stringify(cacheData);
 
-    await AsyncStorage.setItem(key, cacheDataString);
-    log({
-      type: 'info',
-      title: `Saved to local cache with key: ${key}`,
+    await AsyncStorage.setItem(key, cacheDataString).then(() => {
+      log({
+        type: 'info',
+        title: `Saved to local cache with key: ${key}`,
+      });
     });
-  } catch (error) {
+  } catch (e) {
     log({
       type: 'error',
       title: 'Failed to save to local cache',
       data: {
-        error: JSON.stringify(error, null, 2),
+        error: JSON.stringify(e, null, 2),
+      },
+    });
+  }
+};
+
+export const getAllKeys = async () => {
+  try {
+    const keys = await AsyncStorage.getAllKeys();
+    return keys;
+  } catch (e) {
+    log({
+      type: 'error',
+      title: 'Failed to get all keys from local cache',
+      data: {
+        error: JSON.stringify(e, null, 2),
+      },
+    });
+    return [];
+  }
+};
+
+export const removeItemFromCache = async (key: string) => {
+  try {
+    await AsyncStorage.removeItem(key).then(() => {
+      log({
+        type: 'info',
+        title: 'Removed key from cache',
+        data: {
+          key: key,
+        },
+      });
+    });
+  } catch (e) {
+    log({
+      type: 'error',
+      title: 'Failed to remove item from cache',
+      data: {
+        key: key,
+        error: JSON.stringify(e, null, 2),
       },
     });
   }

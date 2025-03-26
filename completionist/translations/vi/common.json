@@ -1,181 +1,232 @@
 {
-  "appTitle": "Người theo chủ nghĩa hoàn thiện.",
+  "appTitle": "Completionist.",
   "welcome": "Chào mừng",
   "continue": "Tiếp tục",
   "search": "Tìm kiếm các mục...",
-  "showMore": "Cho xem nhiều hơn",
+  "showMore": "Xem thêm",
+  "or": "hoặc",
   "none": "Không có",
-  "main": "Chủ yếu",
-  "changesLeft": "THAY ĐỔI TRÁI: ",
-  "active": "TÍCH CỰC",
+  "main": "Chính",
+  "changesLeft": "CÁC THAY ĐỔI CÒN LẠI: ",
+  "active": "HOẠT ĐỘNG",
   "inactive": "KHÔNG HOẠT ĐỘNG",
   "auth": {
-    "email": "E-mail",
+    "email": "Email",
     "userpw": "Mật khẩu",
-    "username": "tên tài khoản",
-    "forgotPassword": "Quên mật khẩu?",
+    "username": "Tên người dùng",
+    "forgotPw": "Quên mật khẩu?",
+    "forgotPwDesc": "Nhập email bạn đã đăng ký và mật khẩu mới của bạn.",
+    "resetPw": "Nhập mã này để đặt lại mật khẩu của bạn",
+    "updatePwSuccess": "Mật khẩu đã được cập nhật thành công",
     "login": "Đăng nhập",
     "logout": "Đăng xuất",
     "signUp": "Đăng ký",
     "createAccount": "Tạo tài khoản",
-    "requestAccount": "Bạn chưa có tài khoản?",
-    "backToLogin": "Quay lại đăng nhập"
+    "requestAccount": "Chưa có tài khoản?",
+    "backToLogin": "Quay lại đăng nhập",
+    "linkAccountDesc": "Nhập mã này để liên kết tài khoản của bạn {{code}}"
   },
   "screens": {
     "quests": "Nhiệm vụ",
-    "collectables": "Đồ sưu tầm",
+    "collectables": "Vật phẩm sưu tầm",
     "locations": "Địa điểm",
-    "miscellaneous": "Điều khoản khác",
-    "gameSelection": "Lựa chọn trò chơi",
+    "miscellaneous": "Khác",
+    "gameSelection": "Chọn trò chơi",
     "sendRequest": "Gửi yêu cầu",
-    "subscriptions": "Đăng ký",
-    "selectGame": "Chọn một trò chơi",
-    "addSteamId": "Thêm ID hơi nước",
-    "steamAchievements": "Thành tựu hơi nước",
-    "payments": "Sự chi trả",
+    "purchaseGame": "Mua trò chơi",
+    "selectGame": "Chọn trò chơi",
+    "addSteamId": "Thêm Steam ID",
+    "achievements": "Thành tựu",
+    "steamAchievements": "Thành tựu Steam",
+    "payments": "Thanh toán",
     "settings": "Cài đặt",
     "accountDetails": "Chi tiết tài khoản",
-    "verifyAccount": "Xác thực tài khoản của bạn"
+    "verifyAccount": "Xác minh tài khoản của bạn",
+    "forgotPw": "Quên mật khẩu",
+    "verifyNewPw": "Xác minh mật khẩu mới"
   },
   "login": {
     "instructions1": "Mật khẩu phải chứa ít nhất:",
-    "instructions2": "\n• 8 ký tự\n",
-    "accountVerification": "Kiểm tra email của bạn và nhập mã xác minh"
+    "instructions2": "\n\u2022 8 ký tự \n\u2022 1 chữ cái viết hoa\n\u2022 1 chữ cái viết thường\n\u2022 1 giá trị số",
+    "accountVerification": "Kiểm tra email của bạn và nhập mã xác minh. \nVui lòng kiểm tra thư mục spam.",
+    "resendToken": "GỬI LẠI MÃ XÁC MINH",
+    "tokenResent": "Mã xác minh đã được gửi lại."
+  },
+  "setUsername": {
+    "title": "Đặt tên người dùng",
+    "desc": "Tên người dùng này sẽ được liên kết công khai với hồ sơ của bạn."
   },
   "selectGame": {
-    "selectGameDesc1": "Với tài khoản Miễn phí, bạn có thể chọn một trò chơi mỗi tháng để theo dõi.",
-    "selectGameDesc2": "Chọn trò chơi đầu tiên của bạn dưới đây!",
-    "selectGameDesc3": "Đừng lo lắng nếu bạn mắc lỗi, bạn sẽ có thể thay đổi điều này mỗi tháng một lần."
+    "selectGameDesc1": "Trò chơi đầu tiên bạn chọn sẽ miễn phí.",
+    "selectGameDesc2": "Các trò chơi khác có thể được mua bằng một lần thanh toán.",
+    "selectGameDesc3": "Chọn trò chơi miễn phí của bạn ở dưới!",
+    "selection": "Bạn đã chọn:\n{{gameTitle}}"
   },
-  "subscriptions": {
-    "subscriptionDesc": "Với đăng ký Premium,\n",
-    "purchaseSubscription": "Mua đăng ký",
-    "free": "Miễn phí",
-    "premium": "Phần thưởng",
-    "accessMultipleGames": "Truy cập vào nhiều trò chơi",
-    "noAds": "Không quảng cáo",
-    "withAds": "Có quảng cáo",
-    "accessSteam": "Truy cập thành tích Steam",
-    "prerequisiteTracking": "Theo dõi điều kiện tiên quyết tự động",
-    "accessPremiumFeatures": "Truy cập vào các tính năng cao cấp",
-    "accessOneGame": "Truy cập vào một trò chơi mỗi tháng",
-    "accessFiveGames": "Truy cập vào năm trò chơi mỗi tháng",
-    "accessAllGames": "Truy cập vào tất cả các trò chơi",
-    "revokedAccess": "Đã thu hồi quyền truy cập vào Tính năng",
-    "monthly": "hàng tháng",
-    "yearly": "Hàng năm"
+  "purchaseGame": {
+    "title": "Mua trò chơi"
   },
   "payments": {
     "selectPlan": "Chọn gói thanh toán:",
-    "selectType": "Chọn phương thức thanh toán:",
-    "confirm": "Xác nhận mua hàng"
+    "selectType": "Chọn loại thanh toán:",
+    "confirm": "Xác nhận mua"
   },
   "sendRequest": {
-    "subject": "Chủ thể",
-    "writeRequest": "Viết yêu cầu của bạn ở đây...",
-    "requestGameDesc": "Vui lòng yêu cầu trò chơi, báo cáo lỗi hoặc đưa ra một số đề xuất để giúp cải thiện ứng dụng!",
-    "verifyAccount": "Xin chào,\n\n\n{{code}}"
+    "subject": "Chủ đề",
+    "writeRequest": "Viết yêu cầu của bạn tại đây...",
+    "requestGameDesc": "Hãy thoải mái yêu cầu trò chơi, báo cáo lỗi hoặc đưa ra gợi ý để giúp cải thiện ứng dụng!",
+    "verifyAccount": "Chào bạn,\nBạn vừa tạo một tài khoản với Completionist.\nĐể xác minh tài khoản của bạn, vui lòng nhập mã sau vào ứng dụng:\n\n{{code}}"
   },
   "settings": {
-    "setCollections": "Đặt bộ sưu tập:",
+    "setCollections": "Đặt bộ sưu tập hoạt động:",
     "enabledDLC": "Bật/Tắt DLC:",
-    "showHide": "Hiện an:",
-    "completedItems": "Các mục đã hoàn thành",
-    "disabledSections": "Phần bị vô hiệu hóa",
+    "showHide": "Hiển thị:",
+    "completedItems": "Mục đã hoàn thành",
+    "disabledSections": "Các phần bị vô hiệu hóa",
     "changeAccountDetails": "Thay đổi chi tiết tài khoản",
     "selectLanguage": "Chọn ngôn ngữ:"
   },
   "accountDetails": {
     "changeUsername": "Thay đổi tên người dùng",
-    "changeEmail": "Thay đổi e-mail",
-    "changePassword": "Đổi mật khẩu",
-    "updateDetails": "Cập nhật chi tiết"
+    "changeEmail": "Thay đổi email",
+    "changePw": "Thay đổi mật khẩu",
+    "updateDetails": "Cập nhật chi tiết",
+    "currentPw": "Mật khẩu hiện tại",
+    "newPw": "Mật khẩu mới",
+    "invalidUserName": "Vui lòng đảm bảo Tên người dùng có ít nhất 1 ký tự.",
+    "invalidUserEmail": "Vui lòng đảm bảo bạn đang sử dụng email hợp lệ."
+  },
+  "achievements": {
+    "linkSteamAccount": "Liên kết tài khoản Steam",
+    "progress": "Tiến độ",
+    "noSteamPermissionTitle": "Không có quyền",
+    "noSteamPermissionDesc": "Bạn không có quyền xem các thành tựu này. Vui lòng thử các bước sau:",
+    "noPermissionReason1": "Kiểm tra xem bạn có sở hữu trò chơi này trên Steam không.",
+    "noPermissionReason2": "Cấp quyền cho 'Chi tiết trò chơi' trong Cài đặt Steam của bạn.\nĐiều này có thể mất vài phút.",
+    "noAchievementsAvailable": "Không có thành tựu Steam cho trò chơi này.",
+    "seeInstructions": "Xem hướng dẫn"
   },
   "steamAchievements": {
-    "addSteamIdStep1": "Bước 1. Tìm và thêm ID Steam của bạn",
-    "addSteamIdDesc1": "Để tìm ID steam của bạn, hãy truy cập Steam và chọn 'Xem hồ sơ'.",
-    "addSteamIdDesc2": "Bạn có thể tìm thấy ID ở đầu hồ sơ của mình. ",
-    "addSteamIdStep2": "Bước 2. Cập nhật tùy chọn quyền riêng tư của bạn",
-    "addSteamIdDesc3": "Bạn cũng sẽ cần đảm bảo hồ sơ của bạn được công khai.",
-    "addSteamIdDesc4": "Bạn có thể thực hiện việc này bằng cách đi tới Tùy chọn Steam -> Cài đặt quyền riêng tư",
-    "steamIdPlaceholder": "ID hơi nước"
+    "addSteamIdStep1": "Bước 1. Tìm và thêm Steam ID của bạn",
+    "addSteamIdDesc1": "Để tìm Steam ID của bạn, vào Steam và chọn 'Xem hồ sơ'.",
+    "addSteamIdDesc2": "Bạn có thể tìm thấy ID ở trên cùng hồ sơ của mình. Nó sẽ trông giống như:",
+    "addSteamIdStep2": "Bước 2. Cập nhật sở thích quyền riêng tư của bạn",
+    "addSteamIdDesc3": "Bạn cũng cần đảm bảo hồ sơ của bạn là công khai.",
+    "addSteamIdDesc4": "Bạn có thể làm điều này bằng cách vào Cài đặt Steam -> Cài đặt quyền riêng tư",
+    "steamIdPlaceholder": "Steam ID"
   },
   "errors": {
     "error": "Lỗi",
+    "incorrectCode": "Mã không chính xác",
+    "incorrectCodeDesc": "Mã bạn đã nhập không chính xác. Vui lòng thử lại.",
     "pleaseRefreshApp": "Vui lòng làm mới ứng dụng",
     "emailAlreadyExists": "Email đã tồn tại",
     "emailNotFound": "Không tìm thấy email",
     "noEmailExists": "Email không tồn tại",
-    "checkCredentials": "Vui lòng kiểm tra thông tin xác thực của bạn và thử lại.",
-    "incorrectPw": "Mật khẩu không đúng. ",
-    "googleSignIn": "Lỗi đăng nhập bằng Google",
-    "googleSignInMsg": "Sự cố khi tải thông tin cho tài khoản google này.",
+    "checkCredentials": "Vui lòng kiểm tra thông tin đăng nhập và thử lại.",
+    "incorrectPw": "Mật khẩu không chính xác. Vui lòng thử lại.",
+    "googleSignIn": "Lỗi với đăng nhập Google",
+    "googleSignInMsg": "Vấn đề khi lấy thông tin cho tài khoản Google này.",
     "accountExists": "Tài khoản đã tồn tại",
     "accountExistsMsg": "Bạn có muốn liên kết các tài khoản này không?",
     "permissionDenied": "Quyền bị từ chối",
-    "permissionDeniedMsg": "Vui lòng cho phép truy cập thông qua cài đặt Steam của bạn.",
+    "permissionDeniedMsg": "Vui lòng cấp quyền truy cập thông qua cài đặt Steam của bạn.",
     "unauthorized": "Không được phép",
-    "unauthorizedMsg": "Bạn không được phép sử dụng tài khoản này. ",
-    "steamAchievements": "Không thể nhận được thành tích Steam cho trò chơi này."
+    "unauthorizedMsg": "Bạn không được phép sử dụng tài khoản này. Vui lòng thử đăng nhập lại.",
+    "steamAchievements": "Không thể lấy thành tựu Steam cho trò chơi này.",
+    "differentEmail": "Vui lòng sử dụng một địa chỉ email khác.",
+    "linkedWithGoogle": "Email này đã được liên kết qua Google. \nNếu bạn muốn đăng nhập bằng mật khẩu thông thường, hãy đăng nhập bằng email này và đặt mật khẩu mong muốn.",
+    "linkedWithRegular": "Email này đã được liên kết. \nNếu bạn muốn liên kết tài khoản Google của mình, hãy đăng nhập qua Đăng nhập Google bằng email này.",
+    "retryLogin": "Bạn không thể tạo tài khoản mới với email này. Vui lòng đăng nhập.",
+    "noSteamId": "Không tìm thấy Steam ID."
   },
   "alerts": {
-    "ok": "Được rồi",
-    "activate": "Kích hoạt",
-    "cancel": "Hủy bỏ",
-    "changesLeft": "Bạn sẽ có {{changesLeft}} thay đổi{{s}} bên trái.",
-    "noChangesLeft": "Không còn thay đổi nào",
-    "noChangesLeftMessage": "Rất tiếc, bạn không còn thay đổi trò chơi nào trong tháng này.\n "
+    "cta": {
+      "ok": "Ok",
+      "activate": "Kích hoạt",
+      "cancel": "Hủy",
+      "deleteAccount": "Xóa tài khoản"
+    },
+    "unsavedChanges": "Thay đổi chưa lưu",
+    "unsavedChangesMessage": "Bạn chắc chắn muốn quay lại không?",
+    "deleteConfirmation": "Bạn chắc chắn không?",
+    "deleteConfirmationMessage": "Nếu bạn xóa tài khoản này, bạn sẽ không thể khôi phục lại nó.",
+    "deleteSuccess": "Tài khoản đã được xóa thành công.",
+    "unlinkAccount": "Bạn chắc chắn muốn hủy liên kết tài khoản của mình?",
+    "updateSuccess": "Cập nhật thành công."
   },
   "languages": {
-    "ar": "tiếng Ả Rập",
-    "de": "tiếng Đức",
+    "ar": "Tiếng Ả Rập",
+    "de": "Tiếng Đức",
     "en": "Tiếng Anh",
-    "es": "người Tây Ban Nha",
-    "fr": "người Pháp",
+    "es": "Tiếng Tây Ban Nha",
+    "fr": "Tiếng Pháp",
     "hi": "Tiếng Hindi",
-    "id": "tiếng Indonesia",
-    "it": "người Ý",
-    "ja": "tiếng Nhật",
-    "pt": "tiếng Bồ Đào Nha",
-    "tr": "tiếng Thổ Nhĩ Kỳ",
+    "id": "Tiếng Indonesia",
+    "it": "Tiếng Ý",
+    "ja": "Tiếng Nhật",
+    "pt": "Tiếng Bồ Đào Nha",
+    "tr": "Tiếng Thổ Nhĩ Kỳ",
     "vi": "Tiếng Việt",
-    "zh": "người Trung Quốc"
+    "zh": "Tiếng Trung"
   },
   "categories": {
+    "eldenRing": {
+      "title": "Elden Ring",
+      "categories": {
+        "quests": {
+          "mainQuests": "Nhiệm vụ chính"
+        },
+        "collectables": {
+          "legendaryWeapons": "Vũ khí huyền thoại",
+          "legendarySpiritAshes": "Tro linh hồn huyền thoại",
+          "armourSets": "Bộ giáp"
+        },
+        "locations": {
+          "main": "Chính"
+        },
+        "miscellaneous": {
+          "legendarySpells": "Ma thuật huyền thoại",
+          "achievementBosses": "Trùm thành tựu"
+        }
+      },
+      "dlc": {
+        "shadowOfTheErdtree": "Shadow Of The Erdtree"
+      }
+    },
     "fallout3": {
-      "title": "bụi phóng xạ 3",
+      "title": "Fallout 3",
       "categories": {
         "quests": {
           "tutorialQuests": "Nhiệm vụ hướng dẫn",
           "mainQuests": "Nhiệm vụ chính",
           "sideQuests": "Nhiệm vụ phụ",
-          "unmarkedQuests": "Nhiệm vụ chưa được đánh dấu",
+          "unmarkedQuests": "Nhiệm vụ không đánh dấu",
           "repeatableQuests": "Nhiệm vụ lặp lại"
         },
         "collectables": {
-          "bobbleheads": "tóc bồng bềnh",
-          "uniqueArmor": "Giáp độc nhất",
+          "bobbleheads": "Mô hình đầu lắc",
+          "uniqueArmor": "Giáp độc đáo",
           "uniqueWeapons": "Vũ khí độc đáo"
         },
         "locations": {
-          "main": "Chủ yếu"
+          "main": "Chính"
         },
         "miscellaneous": {
-          "holotapes": "ảnh ba chiều",
+          "holotapes": "Holotapes",
           "notes": "Ghi chú",
           "skillBooks": "Sách kỹ năng"
         }
       },
-			"dlc": {
-				"brokenSteel": "Thép tấm",
-				"mothershipZeta": "tàu mẹ Zeta",
-				"operationAnchorage": "Chiến dịch neo đậu",
-				"pointLookout": "Điểm quan sát",
-				"thePitt": "cái hố"
-			}
+      "dlc": {
+        "brokenSteel": "Broken Steel",
+        "mothershipZeta": "Mothership Zeta",
+        "operationAnchorage": "Operation: Anchorage",
+        "pointLookout": "Point Lookout",
+        "thePitt": "The Pitt"
+      }
     },
     "fallout4": {
-      "title": "bụi phóng xạ 4",
+      "title": "Fallout 4",
       "categories": {
         "quests": {
           "mainQuests": "Nhiệm vụ chính",
@@ -183,23 +234,23 @@
           "sideQuests": "Nhiệm vụ phụ"
         },
         "collectables": {
-          "bobbleheads": "tóc bồng bềnh",
-          "magazines": "Tạp chí thời sự",
-          "uniqueArmor": "Giáp độc nhất",
+          "bobbleheads": "Mô hình đầu lắc",
+          "magazines": "Tạp chí",
+          "uniqueArmor": "Giáp độc đáo",
           "uniqueWeapons": "Vũ khí độc đáo"
         },
         "locations": {
-          "main": "Chủ yếu"
+          "main": "Chính"
         },
         "miscellaneous": {
-          "holotapes": "ảnh ba chiều"
+          "holotapes": "Holotapes"
         }
       },
       "dlc": {
-        "automatron": "Máy tự động",
-        "farHarbor": "Cảng xa",
-        "nukaWorld": "Thế giới Nuka",
-        "vaultTecWorkshop": "Hội thảo Vault-Tec"
+        "automatron": "Automatron",
+        "farHarbor": "Far Harbor",
+        "nukaWorld": "Nuka-World",
+        "vaultTecWorkshop": "Vault-Tec Workshop"
       }
     },
     "skyrim": {
@@ -208,57 +259,57 @@
         "quests": {
           "mainQuests": "Nhiệm vụ chính",
           "factionQuests": "Nhiệm vụ phe phái",
-          "civilWar": "Nội chiến",
+          "civilWar": "Chiến tranh dân sự",
           "daedricQuests": "Nhiệm vụ Daedric",
-          "dungeonQuests": "Nhiệm vụ ngục tối",
-          "miscellaneousQuests": "Nhiệm vụ khác",
-          "bountyQuests": "Nhiệm vụ tiền thưởng",
+          "dungeonQuests": "Nhiệm vụ hầm ngục",
+          "miscellaneousQuests": "Nhiệm vụ linh tinh",
+          "bountyQuests": "Nhiệm vụ thưởng",
           "globalQuests": "Nhiệm vụ toàn cầu"
         },
         "collectables": {
-          "dragonPriestMasks": "Mặt nạ linh mục rồng",
-          "daedricArtefacts": "Cổ vật Daedric",
-          "bugInAJar": "Lỗi trong lọ",
-          "shouts": "Tiếng la hét",
-          "uniqueArmorSets": "Bộ áo giáp độc đáo",
+          "dragonPriestMasks": "Mặt nạ thầy tế rồng",
+          "daedricArtefacts": "Di vật Daedric",
+          "bugInAJar": "Con bọ trong lọ",
+          "shouts": "Tiếng hét",
+          "uniqueArmorSets": "Bộ giáp độc đáo",
           "uniqueWeapons": "Vũ khí độc đáo",
           "shrines": "Đền thờ",
           "stones": "Đá"
         },
         "locations": {
-          "main": "Chủ yếu"
+          "main": "Chính"
         },
         "miscellaneous": {
           "books": "Sách",
-          "spellTomes": "Sách đánh vần",
-          "journals": "tạp chí"
+          "spellTomes": "Tập sách phép thuật",
+          "journals": "Nhật ký"
         }
       },
       "dlc": {
-        "dawnguard": "Bình minh",
-        "dragonborn": "con rồng",
-        "hearthfire": "lửa lò sưởi"
+        "dawnguard": "Dawnguard",
+        "dragonborn": "Dragonborn",
+        "hearthfire": "Hearthfire"
       }
     },
     "witcher3": {
-      "title": "The Witcher 3: Cuộc săn hoang dã",
+      "title": "The Witcher 3: Wild Hunt",
       "categories": {
         "quests": {
           "mainQuests": "Nhiệm vụ chính",
           "secondaryQuests": "Nhiệm vụ phụ",
           "contracts": "Hợp đồng",
-          "treasureHunts": "Săn lùng kho báu"
+          "treasureHunts": "Săn tìm kho báu"
         },
         "collectables": {
           "diagrams": "Sơ đồ"
         },
         "locations": {
-          "main": "Chủ yếu"
+          "main": "Chính"
         }
       },
       "dlc": {
-        "bloodAndWine": "Máu Và Rượu",
-        "heartsOfStone": "trái tim bằng đá"
+        "bloodAndWine": "Blood And Wine",
+        "heartsOfStone": "Hearts Of Stone"
       }
     }
   }

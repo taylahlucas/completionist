@@ -34,7 +34,10 @@ export const checkUserExists = async (
       google: false,
     }));
 
-export const signUp = async ({ data }: SignUpProps): Promise<UserResponse> =>
+export const signUp = async ({
+  data,
+  lang,
+}: SignUpProps): Promise<UserResponse> =>
   await authInterceptor
     .post(`${baseUrl}/${signupUrl}`, {
       userId: data.userId ? data.userId : uuid.v4(),
@@ -50,6 +53,7 @@ export const signUp = async ({ data }: SignUpProps): Promise<UserResponse> =>
         username: !!data.username,
         selectGame: false,
       },
+      lang: lang ?? 'en',
     })
     .then(response => {
       if (response.data.refreshTokenExpiry) {

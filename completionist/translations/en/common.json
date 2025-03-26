@@ -52,6 +52,10 @@
     "resendToken": "RESEND VERIFICATION TOKEN",
     "tokenResent": "Verification Token Resent."
   },
+  "setUsername": {
+    "title": "Set Username",
+    "desc": "This username will be publicly linked to your profile."
+  },
   "selectGame": {
     "selectGameDesc1": "The first game you select will be free.",
     "selectGameDesc2": "More games may be purchased with a one-off payment.",

@@ -39,13 +39,11 @@ const SetUsername = () => {
     <StandardLayout>
       <NavigationHeader
         id={UnauthorizedScreenEnum.SetUsername}
-        title={'Set Username'}
+        title={t('common.setUsername.title')}
         leftAction="none"
       />
       <KeyboardAvoidingScrollView awareView={renderAwareView()}>
-        <StyledText>
-          This username will be publicly linked to your profile.
-        </StyledText>
+        <StyledText>{t('common.setUsername.desc')}</StyledText>
         <Spacing />
         <TextInput
           testID="username"

@@ -1,140 +1,168 @@
 {
-  "appTitle": "完璧主義者。",
-  "welcome": "いらっしゃいませ",
-  "continue": "続く",
+  "appTitle": "Completionist.",
+  "welcome": "ようこそ",
+  "continue": "続ける",
   "search": "アイテムを検索...",
-  "showMore": "もっと見せる",
+  "showMore": "もっと見る",
+  "or": "または",
   "none": "なし",
-  "main": "主要",
-  "changesLeft": "残された変更点: ",
+  "main": "メイン",
+  "changesLeft": "残りの変更: ",
   "active": "アクティブ",
-  "inactive": "非活性",
+  "inactive": "非アクティブ",
   "auth": {
-    "email": "Eメール",
+    "email": "メールアドレス",
     "userpw": "パスワード",
     "username": "ユーザー名",
-    "forgotPassword": "パスワードをお忘れですか？",
+    "forgotPw": "パスワードを忘れた場合?",
+    "forgotPwDesc": "サインアップ時のメールアドレスと新しいパスワードを入力してください。",
+    "resetPw": "このコードを入力してパスワードをリセット",
+    "updatePwSuccess": "パスワードが正常に更新されました",
     "login": "ログイン",
     "logout": "ログアウト",
     "signUp": "サインアップ",
-    "createAccount": "アカウントを作成する",
-    "requestAccount": "アカウントをお持ちでない場合は、",
-    "backToLogin": "ログインに戻る"
+    "createAccount": "アカウントを作成",
+    "requestAccount": "アカウントをお持ちでないですか?",
+    "backToLogin": "ログイン画面に戻る",
+    "linkAccountDesc": "このコードを入力してアカウントをリンクしてください {{code}}"
   },
   "screens": {
     "quests": "クエスト",
-    "collectables": "収集品",
-    "locations": "所在地",
+    "collectables": "収集物",
+    "locations": "ロケーション",
     "miscellaneous": "その他",
-    "gameSelection": "ゲームの選択",
-    "sendRequest": "リクエストの送信",
-    "subscriptions": "定期購入",
-    "selectGame": "ゲームを選択してください",
-    "addSteamId": "Steam IDの追加",
-    "steamAchievements": "Steam の実績",
+    "gameSelection": "ゲーム選択",
+    "sendRequest": "リクエストを送信",
+    "purchaseGame": "ゲームを購入",
+    "selectGame": "ゲームを選択",
+    "addSteamId": "Steam IDを追加",
+    "achievements": "実績",
+    "steamAchievements": "Steam 実績",
     "payments": "支払い",
     "settings": "設定",
     "accountDetails": "アカウント詳細",
-    "verifyAccount": "アカウントを確認する"
+    "verifyAccount": "アカウントの確認",
+    "forgotPw": "パスワードを忘れた場合",
+    "verifyNewPw": "新しいパスワードを確認"
   },
   "login": {
-    "instructions1": "パスワードには少なくとも以下が含まれている必要があります:",
-    "instructions2": "\n• 8文字\n",
-    "accountVerification": "メールを確認して確認コードを入力してください"
+    "instructions1": "パスワードには少なくとも次の条件を含める必要があります:",
+    "instructions2": "\n\u2022 8文字以上 \n\u2022 1つの大文字\n\u2022 1つの小文字\n\u2022 1つの数字",
+    "accountVerification": "メールを確認し、確認コードを入力してください。 \n迷惑メールフォルダも確認してください。",
+    "resendToken": "確認トークンを再送信",
+    "tokenResent": "確認トークンが再送信されました。"
+  },
+  "setUsername": {
+    "title": "ユーザー名の設定",
+    "desc": "このユーザー名は公開され、あなたのプロフィールにリンクされます。"
   },
   "selectGame": {
-    "selectGameDesc1": "無料アカウントでは、毎月 1 つのゲームを選択して追跡できます。",
-    "selectGameDesc2": "最初のゲームを以下から選択してください。",
-    "selectGameDesc3": "間違っても心配しないでください。これは月に 1 回変更できます。"
+    "selectGameDesc1": "最初に選択するゲームは無料です。",
+    "selectGameDesc2": "追加のゲームは一度の支払いで購入できます。",
+    "selectGameDesc3": "下記から無料ゲームを選択してください！",
+    "selection": "選択したゲーム:\n{{gameTitle}}"
   },
-  "subscriptions": {
-    "subscriptionDesc": "プレミアムサブスクリプションでは、\n",
-    "purchaseSubscription": "サブスクリプションを購入する",
-    "free": "無料",
-    "premium": "プレミアム",
-    "accessMultipleGames": "複数のゲームへのアクセス",
-    "noAds": "広告なし",
-    "withAds": "広告あり",
-    "accessSteam": "Steam の実績にアクセスする",
-    "prerequisiteTracking": "自動化された前提条件の追跡",
-    "accessPremiumFeatures": "プレミアム機能へのアクセス",
-    "accessOneGame": "毎月 1 つのゲームにアクセスできます",
-    "accessFiveGames": "毎月 5 つのゲームにアクセスできる",
-    "accessAllGames": "すべてのゲームへのアクセス",
-    "revokedAccess": "機能へのアクセスが取り消されました",
-    "monthly": "毎月",
-    "yearly": "毎年"
+  "purchaseGame": {
+    "title": "ゲームを購入"
   },
   "payments": {
-    "selectPlan": "支払いプランを選択してください:",
-    "selectType": "支払いタイプを選択してください:",
-    "confirm": "購入を確認します"
+    "selectPlan": "支払いプランを選択:",
+    "selectType": "支払いタイプを選択:",
+    "confirm": "購入を確認"
   },
   "sendRequest": {
-    "subject": "主題",
+    "subject": "件名",
     "writeRequest": "ここにリクエストを書いてください...",
-    "requestGameDesc": "ゲームをリクエストしたり、バグを報告したり、アプリを改善するための提案をしたりすることはお気軽にどうぞ！",
-    "verifyAccount": "こんにちは、\n\n\n{{code}}"
+    "requestGameDesc": "ゲームのリクエスト、バグの報告、またはアプリの改善に役立つ提案を自由にしてください！",
+    "verifyAccount": "こんにちは、\n最近、アカウントを作成しました。\nアカウントを確認するには、次のコードをアプリに入力してください：\n\n{{code}}"
   },
   "settings": {
-    "setCollections": "セットコレクション:",
-    "enabledDLC": "DLC を有効/無効にする:",
-    "showHide": "表示/非表示:",
-    "completedItems": "完成品",
+    "setCollections": "アクティブコレクションを設定:",
+    "enabledDLC": "DLCの有効化/無効化:",
+    "showHide": "表示:",
+    "completedItems": "完了したアイテム",
     "disabledSections": "無効化されたセクション",
     "changeAccountDetails": "アカウント詳細の変更",
-    "selectLanguage": "言語を選択する："
+    "selectLanguage": "言語を選択:"
   },
   "accountDetails": {
     "changeUsername": "ユーザー名の変更",
-    "changeEmail": "メールアドレスを変更",
-    "changePassword": "パスワードを変更する",
-    "updateDetails": "アップデートの詳細"
+    "changeEmail": "メールアドレスの変更",
+    "changePw": "パスワードの変更",
+    "updateDetails": "詳細の更新",
+    "currentPw": "現在のパスワード",
+    "newPw": "新しいパスワード",
+    "invalidUserName": "ユーザー名に少なくとも1文字を入力してください。",
+    "invalidUserEmail": "有効なメールアドレスを使用していることを確認してください。"
+  },
+  "achievements": {
+    "linkSteamAccount": "Steamアカウントをリンク",
+    "progress": "進行状況",
+    "noSteamPermissionTitle": "権限なし",
+    "noSteamPermissionDesc": "この実績を表示する権限がありません。次の手順を試してください:",
+    "noPermissionReason1": "Steamでこのゲームを所有しているか確認してください。",
+    "noPermissionReason2": "Steam設定で「ゲーム詳細」へのアクセス権を許可してください。\nこれには数分かかる場合があります。",
+    "noAchievementsAvailable": "このゲームにはSteam実績はありません。",
+    "seeInstructions": "指示を見る"
   },
   "steamAchievements": {
-    "addSteamIdStep1": "ステップ 1. Steam ID を見つけて追加します",
-    "addSteamIdDesc1": "Steam ID を確認するには、Steam に移動し、[プロフィールを表示] を選択します。",
-    "addSteamIdDesc2": "ID はプロフィールの上部にあります。",
-    "addSteamIdStep2": "ステップ 2. プライバシー設定を更新する",
-    "addSteamIdDesc3": "また、プロフィールが公開されていることを確認する必要もあります。",
-    "addSteamIdDesc4": "これを行うには、「Steam 設定 -> プライバシー設定」に進みます。",
-    "steamIdPlaceholder": "スチームID"
+    "addSteamIdStep1": "ステップ1. Steam IDを見つけて追加",
+    "addSteamIdDesc1": "Steam IDを見つけるには、Steamを開き、「プロフィールを見る」を選択します。",
+    "addSteamIdDesc2": "プロフィールの上部でIDを見つけることができます。次のように表示されます:",
+    "addSteamIdStep2": "ステップ2. プライバシー設定を更新",
+    "addSteamIdDesc3": "プロフィールが公開されていることを確認してください。",
+    "addSteamIdDesc4": "Steamの設定 -> プライバシー設定で変更できます。",
+    "steamIdPlaceholder": "Steam ID"
   },
   "errors": {
     "error": "エラー",
+    "incorrectCode": "間違ったコード",
+    "incorrectCodeDesc": "入力したコードは正しくありません。もう一度お試しください。",
     "pleaseRefreshApp": "アプリを更新してください",
-    "emailAlreadyExists": "メールは既に存在します",
-    "emailNotFound": "メールが見つかりません",
-    "noEmailExists": "電子メールが存在しません",
-    "checkCredentials": "資格情報を確認して、再試行してください。",
-    "incorrectPw": "パスワードが間違っています。",
-    "googleSignIn": "Googleサインインでのエラー",
-    "googleSignInMsg": "この Google アカウントの情報を取得中に問題が発生しました。",
-    "accountExists": "アカウントはすでに存在しています",
-    "accountExistsMsg": "これらのアカウントをリンクしますか?",
-    "permissionDenied": "許可が拒否されました",
-    "permissionDeniedMsg": "Steam 設定を通じてアクセスを許可してください。",
-    "unauthorized": "無許可",
-    "unauthorizedMsg": "このアカウントを使用する権限がありません。",
-    "steamAchievements": "このゲームの Steam 実績を取得できませんでした。"
+    "emailAlreadyExists": "メールアドレスはすでに存在します",
+    "emailNotFound": "メールアドレスが見つかりません",
+    "noEmailExists": "メールアドレスは存在しません",
+    "checkCredentials": "認証情報を確認してもう一度お試しください。",
+    "incorrectPw": "パスワードが正しくありません。もう一度お試しください。",
+    "googleSignIn": "Googleサインインにエラーが発生しました",
+    "googleSignInMsg": "このGoogleアカウントの情報を取得する際に問題が発生しました。",
+    "accountExists": "アカウントはすでに存在します",
+    "accountExistsMsg": "これらのアカウントをリンクしますか？",
+    "permissionDenied": "アクセス権限が拒否されました",
+    "permissionDeniedMsg": "Steamの設定でアクセス権を許可してください。",
+    "unauthorized": "認証されていません",
+    "unauthorizedMsg": "このアカウントを使用する権限がありません。もう一度ログインを試みてください。",
+    "steamAchievements": "このゲームのSteam実績を取得できませんでした。",
+    "differentEmail": "別のメールアドレスを使用してください。",
+    "linkedWithGoogle": "このメールアドレスはGoogleを通じてすでにリンクされています。\n通常のパスワードでログインしたい場合は、このメールでログインし、希望のパスワードを設定してください。",
+    "linkedWithRegular": "このメールアドレスはすでにリンクされています。\nGoogleアカウントをリンクしたい場合は、このメールでGoogleサインインしてください。",
+    "retryLogin": "このメールアドレスで新しいアカウントを作成することはできません。ログインしてください。",
+    "noSteamId": "Steam IDが見つかりません。"
   },
   "alerts": {
-    "ok": "わかりました",
-    "activate": "活性化",
-    "cancel": "キャンセル",
-    "changesLeft": "あなたは持っています {{changesLeft}} 変化{{s}} 左。",
-    "noChangesLeft": "変更は残っていない",
-    "noChangesLeftMessage": "申し訳ありませんが、今月はゲーム変更が残っていません。\n "
+    "cta": {
+      "ok": "OK",
+      "activate": "有効化",
+      "cancel": "キャンセル",
+      "deleteAccount": "アカウントを削除"
+    },
+    "unsavedChanges": "保存されていない変更",
+    "unsavedChangesMessage": "戻る前に変更を保存しますか？",
+    "deleteConfirmation": "本当に削除しますか？",
+    "deleteConfirmationMessage": "アカウントを削除すると、復元できなくなります。",
+    "deleteSuccess": "アカウントが正常に削除されました。",
+    "unlinkAccount": "アカウントをリンク解除してもよろしいですか？",
+    "updateSuccess": "正常に更新されました。"
   },
   "languages": {
     "ar": "アラビア語",
-    "de": "ドイツ人",
+    "de": "ドイツ語",
     "en": "英語",
     "es": "スペイン語",
     "fr": "フランス語",
     "hi": "ヒンディー語",
     "id": "インドネシア語",
-    "it": "イタリアの",
+    "it": "イタリア語",
     "ja": "日本語",
     "pt": "ポルトガル語",
     "tr": "トルコ語",
@@ -142,6 +170,29 @@
     "zh": "中国語"
   },
   "categories": {
+    "eldenRing": {
+      "title": "エルデンリング",
+      "categories": {
+        "quests": {
+          "mainQuests": "メインクエスト"
+        },
+        "collectables": {
+          "legendaryWeapons": "伝説の武器",
+          "legendarySpiritAshes": "伝説の精霊の灰",
+          "armourSets": "防具セット"
+        },
+        "locations": {
+          "main": "メイン"
+        },
+        "miscellaneous": {
+          "legendarySpells": "伝説の呪文",
+          "achievementBosses": "実績ボス"
+        }
+      },
+      "dlc": {
+        "shadowOfTheErdtree": "エルドツリーの影"
+      }
+    },
     "fallout3": {
       "title": "フォールアウト3",
       "categories": {
@@ -149,16 +200,16 @@
           "tutorialQuests": "チュートリアルクエスト",
           "mainQuests": "メインクエスト",
           "sideQuests": "サイドクエスト",
-          "unmarkedQuests": "マークのないクエスト",
-          "repeatableQuests": "繰り返し可能なクエスト"
+          "unmarkedQuests": "未表示クエスト",
+          "repeatableQuests": "繰り返し可能クエスト"
         },
         "collectables": {
           "bobbleheads": "ボブルヘッド",
-          "uniqueArmor": "ユニークな鎧",
-          "uniqueWeapons": "ユニークな武器"
+          "uniqueArmor": "ユニークアーマー",
+          "uniqueWeapons": "ユニーク武器"
         },
         "locations": {
-          "main": "主要"
+          "main": "メイン"
         },
         "miscellaneous": {
           "holotapes": "ホロテープ",
@@ -166,30 +217,30 @@
           "skillBooks": "スキルブック"
         }
       },
-			"dlc": {
-				"brokenSteel": "壊れた鋼鉄",
-				"mothershipZeta": "母船ゼータ",
-				"operationAnchorage": "アンカレッジ作戦",
-				"pointLookout": "ポイント展望台",
-				"thePitt": "ザ・ピット"
-			}
+      "dlc": {
+        "brokenSteel": "ブロークンスティール",
+        "mothershipZeta": "モザシップ・ゼータ",
+        "operationAnchorage": "オペレーション：アンカレッジ",
+        "pointLookout": "ポイント・ルックアウト",
+        "thePitt": "ザ・ピット"
+      }
     },
     "fallout4": {
       "title": "フォールアウト4",
       "categories": {
         "quests": {
           "mainQuests": "メインクエスト",
-          "factionQuests": "派閥クエスト",
+          "factionQuests": "ファクションクエスト",
           "sideQuests": "サイドクエスト"
         },
         "collectables": {
           "bobbleheads": "ボブルヘッド",
-          "magazines": "雑誌",
-          "uniqueArmor": "ユニークな鎧",
-          "uniqueWeapons": "ユニークな武器"
+          "magazines": "マガジン",
+          "uniqueArmor": "ユニークアーマー",
+          "uniqueWeapons": "ユニーク武器"
         },
         "locations": {
-          "main": "主要"
+          "main": "メイン"
         },
         "miscellaneous": {
           "holotapes": "ホロテープ"
@@ -199,7 +250,7 @@
         "automatron": "オートマトロン",
         "farHarbor": "ファーハーバー",
         "nukaWorld": "ヌカ・ワールド",
-        "vaultTecWorkshop": "Vault-Tec ワークショップ"
+        "vaultTecWorkshop": "ヴォルト・テックワークショップ"
       }
     },
     "skyrim": {
@@ -207,31 +258,31 @@
       "categories": {
         "quests": {
           "mainQuests": "メインクエスト",
-          "factionQuests": "派閥クエスト",
+          "factionQuests": "ファクションクエスト",
           "civilWar": "内戦",
-          "daedricQuests": "デイドラクエスト",
+          "daedricQuests": "デイドリッククエスト",
           "dungeonQuests": "ダンジョンクエスト",
           "miscellaneousQuests": "その他のクエスト",
-          "bountyQuests": "賞金クエスト",
+          "bountyQuests": "報酬クエスト",
           "globalQuests": "グローバルクエスト"
         },
         "collectables": {
-          "dragonPriestMasks": "ドラゴン プリーストの仮面",
-          "daedricArtefacts": "デイドラアーティファクト",
+          "dragonPriestMasks": "ドラゴンプリーストのマスク",
+          "daedricArtefacts": "デイドリックアーティファクト",
           "bugInAJar": "瓶の中の虫",
-          "shouts": "叫び声",
-          "uniqueArmorSets": "ユニークな防具セット",
-          "uniqueWeapons": "ユニークな武器",
-          "shrines": "神社",
+          "shouts": "シャウト",
+          "uniqueArmorSets": "ユニーク防具セット",
+          "uniqueWeapons": "ユニーク武器",
+          "shrines": "神殿",
           "stones": "石"
         },
         "locations": {
-          "main": "主要"
+          "main": "メイン"
         },
         "miscellaneous": {
           "books": "本",
-          "spellTomes": "呪文の本",
-          "journals": "雑誌"
+          "spellTomes": "呪文の書",
+          "journals": "日誌"
         }
       },
       "dlc": {
@@ -245,19 +296,19 @@
       "categories": {
         "quests": {
           "mainQuests": "メインクエスト",
-          "secondaryQuests": "二次クエスト",
+          "secondaryQuests": "サブクエスト",
           "contracts": "契約",
           "treasureHunts": "宝探し"
         },
         "collectables": {
-          "diagrams": "図表"
+          "diagrams": "図面"
         },
         "locations": {
-          "main": "主要"
+          "main": "メイン"
         }
       },
       "dlc": {
-        "bloodAndWine": "血とワイン",
+        "bloodAndWine": "ブラッド・アンド・ワイン",
         "heartsOfStone": "ハーツ・オブ・ストーン"
       }
     }

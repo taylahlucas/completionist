@@ -1,139 +1,167 @@
 {
-  "appTitle": "पूर्णतावादी।",
-  "welcome": "स्वागत",
-  "continue": "जारी रखना",
+  "appTitle": "Completionist.",
+  "welcome": "स्वागत है",
+  "continue": "जारी रखें",
   "search": "आइटम खोजें...",
-  "showMore": "और दिखाओ",
+  "showMore": "अधिक दिखाएं",
+  "or": "या",
   "none": "कोई नहीं",
   "main": "मुख्य",
-  "changesLeft": "परिवर्तन शेष: ",
+  "changesLeft": "शेष परिवर्तन: ",
   "active": "सक्रिय",
   "inactive": "निष्क्रिय",
   "auth": {
     "email": "ईमेल",
     "userpw": "पासवर्ड",
     "username": "उपयोगकर्ता नाम",
-    "forgotPassword": "पासवर्ड भूल गए?",
-    "login": "लॉग इन करें",
-    "logout": "लॉग आउट",
+    "forgotPw": "पासवर्ड भूल गए?",
+    "forgotPwDesc": "वह ईमेल दर्ज करें जिससे आपने साइन अप किया था और नया पासवर्ड दर्ज करें।",
+    "resetPw": "अपना पासवर्ड रीसेट करने के लिए इस कोड को दर्ज करें",
+    "updatePwSuccess": "पासवर्ड सफलतापूर्वक अपडेट किया गया",
+    "login": "लॉगिन करें",
+    "logout": "लॉगआउट करें",
     "signUp": "साइन अप करें",
     "createAccount": "खाता बनाएं",
-    "requestAccount": "कोई खाता नहीं है?",
-    "backToLogin": "लॉगिन पर वापस जाएं"
+    "requestAccount": "क्या आपके पास खाता नहीं है?",
+    "backToLogin": "लॉगिन पर वापस जाएं",
+    "linkAccountDesc": "अपने खातों को लिंक करने के लिए इस कोड को दर्ज करें {{code}}"
   },
   "screens": {
-    "quests": "खोज",
-    "collectables": "संग्रहणीय वस्तुएँ",
-    "locations": "स्थानों",
-    "miscellaneous": "मिश्रित",
+    "quests": "मिशन",
+    "collectables": "संग्रहणीय वस्तुएं",
+    "locations": "स्थान",
+    "miscellaneous": "विविध",
     "gameSelection": "खेल चयन",
-    "sendRequest": "अनुरोध भेजा",
-    "subscriptions": "सदस्यता",
-    "selectGame": "एक गेम चुनें",
+    "sendRequest": "अनुरोध भेजें",
+    "purchaseGame": "खेल खरीदें",
+    "selectGame": "एक खेल चुनें",
     "addSteamId": "स्टीम आईडी जोड़ें",
-    "steamAchievements": "भाप उपलब्धियाँ",
+    "achievements": "उपलब्धियां",
+    "steamAchievements": "स्टीम उपलब्धियां",
     "payments": "भुगतान",
-    "settings": "समायोजन",
-    "accountDetails": "खाता विवरण",
-    "verifyAccount": "अपने खाते को सत्यापित करें"
+    "settings": "सेटिंग्स",
+    "accountDetails": "खाते का विवरण",
+    "verifyAccount": "अपना खाता सत्यापित करें",
+    "forgotPw": "पासवर्ड भूल गए",
+    "verifyNewPw": "नया पासवर्ड सत्यापित करें"
   },
   "login": {
-    "instructions1": "पासवर्ड में कम से कम ये होना चाहिए:",
-    "instructions2": "\n• 8 अक्षर\n",
-    "accountVerification": "अपने ईमेल जांचें और सत्यापन कोड दर्ज करें"
+    "instructions1": "पासवर्ड में कम से कम निम्नलिखित होना चाहिए:",
+    "instructions2": "\n\u2022 8 अक्षर \n\u2022 1 बड़ा अक्षर \n\u2022 1 छोटा अक्षर \n\u2022 1 संख्यात्मक मान",
+    "accountVerification": "अपना ईमेल जांचें और सत्यापन कोड दर्ज करें। \nकृपया अपने स्पैम फ़ोल्डर की भी जांच करें।",
+    "resendToken": "सत्यापन टोकन पुनः भेजें",
+    "tokenResent": "सत्यापन टोकन पुनः भेज दिया गया।"
+  },
+  "setUsername": {
+    "title": "उपयोगकर्ता नाम सेट करें",
+    "desc": "यह उपयोगकर्ता नाम आपके प्रोफ़ाइल से सार्वजनिक रूप से जुड़ा होगा।"
   },
   "selectGame": {
-    "selectGameDesc1": "निःशुल्क खाते के साथ, आप ट्रैक करने के लिए प्रति माह एक गेम का चयन कर सकते हैं।",
-    "selectGameDesc2": "नीचे अपना पहला गेम चुनें!",
-    "selectGameDesc3": "अगर आपसे कोई गलती हो जाए तो चिंता न करें, आप इसे महीने में एक बार बदल सकेंगे।"
+    "selectGameDesc1": "आपके द्वारा चुना गया पहला खेल निःशुल्क होगा।",
+    "selectGameDesc2": "अधिक खेल एक बार भुगतान करके खरीदे जा सकते हैं।",
+    "selectGameDesc3": "नीचे अपना निःशुल्क खेल चुनें!",
+    "selection": "आपने चुना है:\n{{gameTitle}}"
   },
-  "subscriptions": {
-    "subscriptionDesc": "प्रीमियम सदस्यता के साथ,\n",
-    "purchaseSubscription": "सदस्यता खरीदें",
-    "free": "मुक्त",
-    "premium": "अधिमूल्य",
-    "accessMultipleGames": "अनेक खेलों तक पहुंच",
-    "noAds": "विज्ञापन नहीं",
-    "withAds": "विज्ञापनों के साथ",
-    "accessSteam": "भाप उपलब्धियों तक पहुंचें",
-    "prerequisiteTracking": "स्वचालित पूर्वावश्यकता ट्रैकिंग",
-    "accessPremiumFeatures": "प्रीमियम सुविधाओं तक पहुंच",
-    "accessOneGame": "प्रति माह एक गेम तक पहुंच",
-    "accessFiveGames": "प्रति माह पांच खेलों तक पहुंच",
-    "accessAllGames": "सभी खेलों तक पहुंच",
-    "revokedAccess": "सुविधाओं तक पहुंच रद्द कर दी गई",
-    "monthly": "महीने के",
-    "yearly": "सालाना"
+  "purchaseGame": {
+    "title": "खेल खरीदें"
   },
   "payments": {
     "selectPlan": "भुगतान योजना चुनें:",
     "selectType": "भुगतान प्रकार चुनें:",
-    "confirm": "खरीदी की पुष्टि करें"
+    "confirm": "खरीद की पुष्टि करें"
   },
   "sendRequest": {
     "subject": "विषय",
     "writeRequest": "अपना अनुरोध यहां लिखें...",
-    "requestGameDesc": "बेझिझक किसी गेम के लिए अनुरोध करें, बग की रिपोर्ट करें या ऐप को बेहतर बनाने में मदद के लिए कुछ सुझाव दें!",
-    "verifyAccount": "नमस्ते,\n\n\n{{code}}"
+    "requestGameDesc": "कृपया कोई खेल अनुरोध करने, बग की रिपोर्ट करने या ऐप को बेहतर बनाने के लिए सुझाव देने में संकोच न करें!",
+    "verifyAccount": "नमस्कार,\nआपने हाल ही में Completionist के साथ एक खाता बनाया है।\nअपने खाते को सत्यापित करने के लिए, कृपया निम्नलिखित कोड को एप्लिकेशन में दर्ज करें:\n\n{{code}}"
   },
   "settings": {
-    "setCollections": "संग्रह सेट करें:",
-    "enabledDLC": "डीएलसी सक्षम/अक्षम करें:",
-    "showHide": "छिपा हुया दिखाओ:",
-    "completedItems": "पूर्ण आइटम",
-    "disabledSections": "विकलांग अनुभाग",
+    "setCollections": "सक्रिय संग्रह सेट करें:",
+    "enabledDLC": "DLC सक्षम/अक्षम करें:",
+    "showHide": "दिखाएँ:",
+    "completedItems": "पूर्ण की गई वस्तुएं",
+    "disabledSections": "अक्षम अनुभाग",
     "changeAccountDetails": "खाता विवरण बदलें",
-    "selectLanguage": "भाषा चुने:"
+    "selectLanguage": "भाषा चुनें:"
   },
   "accountDetails": {
-    "changeUsername": "उपयोगकर्ता नाम परिवर्तन करें",
-    "changeEmail": "बदले ई - मेल",
-    "changePassword": "पासवर्ड बदलें",
-    "updateDetails": "अद्यतन विवरण"
+    "changeUsername": "उपयोगकर्ता नाम बदलें",
+    "changeEmail": "ईमेल बदलें",
+    "changePw": "पासवर्ड बदलें",
+    "updateDetails": "विवरण अपडेट करें",
+    "currentPw": "वर्तमान पासवर्ड",
+    "newPw": "नया पासवर्ड",
+    "invalidUserName": "कृपया सुनिश्चित करें कि उपयोगकर्ता नाम में कम से कम 1 वर्ण हो।",
+    "invalidUserEmail": "कृपया सुनिश्चित करें कि आप एक मान्य ईमेल का उपयोग कर रहे हैं।"
+  },
+  "achievements": {
+    "linkSteamAccount": "स्टीम खाता लिंक करें",
+    "progress": "प्रगति",
+    "noSteamPermissionTitle": "कोई अनुमति नहीं",
+    "noSteamPermissionDesc": "आपके पास इन उपलब्धियों को देखने की अनुमति नहीं है। कृपया निम्नलिखित प्रयास करें:",
+    "noPermissionReason1": "जांचें कि आपके पास यह गेम स्टीम पर है या नहीं।",
+    "noPermissionReason2": "अपने स्टीम वरीयताओं में 'गेम विवरण' तक पहुंच की अनुमति दें।\nइसमें कुछ मिनट लग सकते हैं।",
+    "noAchievementsAvailable": "इस गेम के लिए स्टीम उपलब्धियां उपलब्ध नहीं हैं।",
+    "seeInstructions": "निर्देश देखें"
   },
   "steamAchievements": {
-    "addSteamIdStep1": "चरण 1. अपनी स्टीम आईडी ढूंढें और जोड़ें",
-    "addSteamIdDesc1": "अपनी स्टीम आईडी ढूंढने के लिए, स्टीम पर जाएं और 'प्रोफ़ाइल देखें' चुनें।",
-    "addSteamIdDesc2": "आप आईडी को अपनी प्रोफ़ाइल के शीर्ष पर पा सकते हैं। ",
-    "addSteamIdStep2": "चरण 2. अपनी गोपनीयता प्राथमिकताएँ अद्यतन करें",
-    "addSteamIdDesc3": "आपको यह भी सुनिश्चित करना होगा कि आपकी प्रोफ़ाइल सार्वजनिक है।",
-    "addSteamIdDesc4": "आप स्टीम प्रीफ़ेंस -> गोपनीयता सेटिंग्स पर जाकर ऐसा कर सकते हैं",
-    "steamIdPlaceholder": "भाप में बनी इडली"
+    "addSteamIdStep1": "चरण 1. अपना स्टीम आईडी खोजें और जोड़ें",
+    "addSteamIdDesc1": "अपना स्टीम आईडी खोजने के लिए, स्टीम पर जाएं और 'प्रोफ़ाइल देखें' चुनें।",
+    "addSteamIdDesc2": "आप अपनी प्रोफ़ाइल के शीर्ष पर आईडी देख सकते हैं। यह इस तरह दिखेगा:",
+    "addSteamIdStep2": "चरण 2. अपनी गोपनीयता वरीयताओं को अपडेट करें",
+    "addSteamIdDesc3": "आपको यह भी सुनिश्चित करना होगा कि आपकी प्रोफ़ाइल सार्वजनिक हो।",
+    "addSteamIdDesc4": "आप इसे स्टीम वरीयताएँ -> गोपनीयता सेटिंग्स में जाकर कर सकते हैं।",
+    "steamIdPlaceholder": "स्टीम आईडी"
   },
   "errors": {
-    "error": "गलती",
-    "pleaseRefreshApp": "कृपया ऐप को रीफ्रेश करें",
-    "emailAlreadyExists": "ईमेल पहले से ही मौजूद है",
+    "error": "त्रुटि",
+    "incorrectCode": "गलत कोड",
+    "incorrectCodeDesc": "आपके द्वारा दर्ज किया गया कोड गलत है। कृपया पुनः प्रयास करें।",
+    "pleaseRefreshApp": "कृपया ऐप को ताज़ा करें",
+    "emailAlreadyExists": "ईमेल पहले से मौजूद है",
     "emailNotFound": "ईमेल नहीं मिला",
     "noEmailExists": "ईमेल मौजूद नहीं है",
-    "checkCredentials": "कृपया अपनी साख जांचें और पुनः प्रयास करें।",
-    "incorrectPw": "गलत पासवर्ड। ",
+    "checkCredentials": "कृपया अपनी साख की जाँच करें और पुनः प्रयास करें।",
+    "incorrectPw": "गलत पासवर्ड। कृपया पुनः प्रयास करें।",
     "googleSignIn": "Google साइन इन में त्रुटि",
-    "googleSignInMsg": "इस Google खाते की जानकारी प्राप्त करने में समस्या.",
+    "googleSignInMsg": "इस Google खाते के लिए जानकारी प्राप्त करने में समस्या।",
     "accountExists": "खाता पहले से मौजूद है",
     "accountExistsMsg": "क्या आप इन खातों को लिंक करना चाहेंगे?",
-    "permissionDenied": "अनुमति नहीं मिली",
+    "permissionDenied": "अनुमति अस्वीकृत",
     "permissionDeniedMsg": "कृपया अपनी स्टीम सेटिंग्स के माध्यम से पहुंच की अनुमति दें।",
     "unauthorized": "अनधिकृत",
-    "unauthorizedMsg": "आप इस खाते का उपयोग करने के लिए अनधिकृत हैं. ",
-    "steamAchievements": "इस गेम के लिए स्टीम उपलब्धियां नहीं मिल सकीं."
+    "unauthorizedMsg": "आप इस खाते का उपयोग करने के लिए अनधिकृत हैं। कृपया पुनः लॉगिन करने का प्रयास करें।",
+    "steamAchievements": "इस गेम के लिए स्टीम उपलब्धियां प्राप्त नहीं की जा सकीं।",
+    "differentEmail": "कृपया एक अलग ईमेल पता उपयोग करें।",
+    "linkedWithGoogle": "यह ईमेल पहले से ही Google के माध्यम से लिंक है। \nयदि आप नियमित पासवर्ड से साइन इन करना चाहते हैं, तो इस ईमेल से लॉगिन करें और अपना इच्छित पासवर्ड सेट करें।",
+    "linkedWithRegular": "यह ईमेल पहले से ही लिंक है। \nयदि आप अपने Google खाते को लिंक करना चाहते हैं, तो इस ईमेल का उपयोग करके Google साइन इन के माध्यम से लॉगिन करें।",
+    "retryLogin": "आप इस ईमेल से एक नया खाता बनाने में असमर्थ हैं। कृपया लॉगिन करें।",
+    "noSteamId": "स्टीम आईडी नहीं मिली।"
   },
   "alerts": {
-    "ok": "ठीक है",
-    "activate": "सक्रिय",
-    "cancel": "रद्द करना",
-    "changesLeft": "आपके पास होगा {{changesLeft}} परिवर्तन{{s}} बाएं।",
-    "noChangesLeft": "कोई परिवर्तन शेष नहीं",
-    "noChangesLeftMessage": "क्षमा करें, आपके पास इस महीने के लिए कोई गेम परिवर्तन नहीं बचा है।\n "
+    "cta": {
+      "ok": "ठीक है",
+      "activate": "सक्रिय करें",
+      "cancel": "रद्द करें",
+      "deleteAccount": "खाता हटाएं"
+    },
+    "unsavedChanges": "असहेजित परिवर्तन",
+    "unsavedChangesMessage": "क्या आप वाकई पीछे जाना चाहते हैं?",
+    "deleteConfirmation": "क्या आप सुनिश्चित हैं?",
+    "deleteConfirmationMessage": "यदि आप इस खाते को हटाते हैं, तो आप इसे पुनर्प्राप्त नहीं कर पाएंगे।",
+    "deleteSuccess": "खाता सफलतापूर्वक हटा दिया गया।",
+    "unlinkAccount": "क्या आप वाकई अपने खाते को अनलिंक करना चाहते हैं?",
+    "updateSuccess": "सफलतापूर्वक अपडेट किया गया।"
   },
   "languages": {
     "ar": "अरबी",
     "de": "जर्मन",
     "en": "अंग्रेज़ी",
-    "es": "स्पैनिश",
-    "fr": "फ़्रेंच",
+    "es": "स्पेनिश",
+    "fr": "फ्रेंच",
     "hi": "हिंदी",
-    "id": "इन्डोनेशियाई",
+    "id": "इंडोनेशियाई",
     "it": "इतालवी",
     "ja": "जापानी",
     "pt": "पुर्तगाली",
@@ -142,51 +170,74 @@
     "zh": "चीनी"
   },
   "categories": {
-    "fallout3": {
-      "title": "फ़ॉल आउट 3",
+    "eldenRing": {
+      "title": "एल्डन रिंग",
       "categories": {
         "quests": {
-          "tutorialQuests": "ट्यूटोरियल क्वेस्ट",
-          "mainQuests": "मुख्य प्रश्न",
-          "sideQuests": "भीतर छिपे सवाल",
-          "unmarkedQuests": "अचिह्नित खोज",
-          "repeatableQuests": "दोहराए जाने योग्य क्वेस्ट"
+          "mainQuests": "मुख्य मिशन"
+        },
+        "collectables": {
+          "legendaryWeapons": "पौराणिक हथियार",
+          "legendarySpiritAshes": "पौराणिक आत्मा की राख",
+          "armourSets": "कवच सेट"
+        },
+        "locations": {
+          "main": "मुख्य"
+        },
+        "miscellaneous": {
+          "legendarySpells": "पौराणिक जादू",
+          "achievementBosses": "उपलब्धि बॉस"
+        }
+      },
+      "dlc": {
+        "shadowOfTheErdtree": "शैडो ऑफ़ द एर्डट्री"
+      }
+    },
+    "fallout3": {
+      "title": "फॉलआउट 3",
+      "categories": {
+        "quests": {
+          "tutorialQuests": "शिक्षण मिशन",
+          "mainQuests": "मुख्य मिशन",
+          "sideQuests": "सहायक मिशन",
+          "unmarkedQuests": "बिना चिह्नित मिशन",
+          "repeatableQuests": "दोहराए जाने वाले मिशन"
         },
         "collectables": {
           "bobbleheads": "बॉबलहेड्स",
-          "uniqueArmor": "अनोखा कवच",
-          "uniqueWeapons": "अनोखे हथियार"
+          "uniqueArmor": "अद्वितीय कवच",
+          "uniqueWeapons": "अद्वितीय हथियार"
         },
         "locations": {
           "main": "मुख्य"
         },
         "miscellaneous": {
           "holotapes": "होलोटेप्स",
-          "notes": "टिप्पणियाँ",
+          "notes": "नोट्स",
           "skillBooks": "कौशल पुस्तकें"
         }
       },
-			"dlc": {
-				"brokenSteel": "टूटा हुआ स्टील",
-				"mothershipZeta": "मदरशिप ज़ेटा",
-				"operationAnchorage": "ऑपरेशन एंकरेज",
-				"pointLookout": "प्वाइंट लुकआउट",
-				"thePitt": "पिट"
-			}
+      "dlc": {
+        "brokenSteel": "ब्रोकेन स्टील",
+        "mothershipZeta": "मदरशिप ज़ेटा",
+        "operationAnchorage": "ऑपरेशन: एंकोरेज",
+        "pointLookout": "प्वाइंट लुकआउट",
+        "thePitt": "द पिट"
+      }
     },
     "fallout4": {
-      "title": "नतीजा 4",
+      "title": "फॉलआउट 4",
       "categories": {
         "quests": {
-          "mainQuests": "मुख्य प्रश्न",
-          "factionQuests": "गुट क्वेस्ट",
-          "sideQuests": "भीतर छिपे सवाल"
+          "mainQuests": "मुख्य मिशन",
+          "factionQuests": "गुट मिशन",
+          "sideQuests": "सहायक मिशन"
         },
         "collectables": {
           "bobbleheads": "बॉबलहेड्स",
-          "magazines": "पत्रिका",
-          "uniqueArmor": "अनोखा कवच",
-          "uniqueWeapons": "अनोखे हथियार"
+          "magazines": "पत्रिकाएँ",
+          "uniqueArmor": "अद्वितीय कवच",
+          "uniqueWeapons": "अद्वितीय हथियार"
         },
         "locations": {
           "main": "मुख्य"
@@ -196,33 +247,33 @@
         }
       },
       "dlc": {
-        "automatron": "ऑटोमेट्रोन",
-        "farHarbor": "सुदूर बंदरगाह",
-        "nukaWorld": "नुका-विश्व",
-        "vaultTecWorkshop": "वॉल्ट-टेक कार्यशाला"
+        "automatron": "ऑटोमैट्रोन",
+        "farHarbor": "फार हार्बर",
+        "nukaWorld": "नूका-वर्ल्ड",
+        "vaultTecWorkshop": "वॉल्ट-टेक वर्कशॉप"
       }
     },
     "skyrim": {
-      "title": "Skyrim",
+      "title": "स्कायरिम",
       "categories": {
         "quests": {
-          "mainQuests": "मुख्य प्रश्न",
-          "factionQuests": "गुट क्वेस्ट",
+          "mainQuests": "मुख्य मिशन",
+          "factionQuests": "गुट मिशन",
           "civilWar": "गृहयुद्ध",
-          "daedricQuests": "डेड्रिक क्वेस्ट",
-          "dungeonQuests": "कालकोठरी क्वेस्ट",
-          "miscellaneousQuests": "विविध खोज",
-          "bountyQuests": "बाउंटी क्वेस्ट",
-          "globalQuests": "वैश्विक खोज"
+          "daedricQuests": "डेड्रिक मिशन",
+          "dungeonQuests": "कालकोठरी मिशन",
+          "miscellaneousQuests": "विविध मिशन",
+          "bountyQuests": "इनाम मिशन",
+          "globalQuests": "वैश्विक मिशन"
         },
         "collectables": {
-          "dragonPriestMasks": "ड्रैगन पुजारी मुखौटे",
+          "dragonPriestMasks": "ड्रैगन प्रीस्ट मास्क",
           "daedricArtefacts": "डेड्रिक कलाकृतियाँ",
-          "bugInAJar": "एक जार में बग",
-          "shouts": "शाउट",
+          "bugInAJar": "काँच के जार में कीड़ा",
+          "shouts": "शाउट्स",
           "uniqueArmorSets": "अद्वितीय कवच सेट",
-          "uniqueWeapons": "अनोखे हथियार",
-          "shrines": "तीर्थ",
+          "uniqueWeapons": "अद्वितीय हथियार",
+          "shrines": "मंदिर",
           "stones": "पत्थर"
         },
         "locations": {
@@ -230,35 +281,35 @@
         },
         "miscellaneous": {
           "books": "पुस्तकें",
-          "spellTomes": "टॉम्स वर्तनी",
-          "journals": "पत्रिकाओं"
+          "spellTomes": "जादू टोम",
+          "journals": "जर्नल"
         }
       },
       "dlc": {
-        "dawnguard": "दावन्गार्ड",
-        "dragonborn": "ड्रैगनबोर्न",
-        "hearthfire": "चूल्हे की आग"
+        "dawnguard": "डॉन्गार्ड",
+        "dragonborn": "ड्रैगनबॉर्न",
+        "hearthfire": "हार्थफायर"
       }
     },
     "witcher3": {
       "title": "द विचर 3: वाइल्ड हंट",
       "categories": {
         "quests": {
-          "mainQuests": "मुख्य प्रश्न",
-          "secondaryQuests": "माध्यमिक क्वेस्ट",
-          "contracts": "ठेके",
-          "treasureHunts": "खजाने की खोज"
+          "mainQuests": "मुख्य मिशन",
+          "secondaryQuests": "माध्यमिक मिशन",
+          "contracts": "अनुबंध",
+          "treasureHunts": "खजाना खोज"
         },
         "collectables": {
-          "diagrams": "चित्र"
+          "diagrams": "डायग्राम"
         },
         "locations": {
           "main": "मुख्य"
         }
       },
       "dlc": {
-        "bloodAndWine": "खून और शराब",
-        "heartsOfStone": "पत्थर के दिल"
+        "bloodAndWine": "ब्लड एंड वाइन",
+        "heartsOfStone": "हार्ट्स ऑफ़ स्टोन"
       }
     }
   }

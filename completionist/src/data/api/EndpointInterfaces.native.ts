@@ -9,6 +9,7 @@ import { LanguageType, UserResponse } from '@utils/CustomTypes';
 
 export interface SignUpProps {
   data: LoginFormData;
+  lang: LanguageType;
 }
 
 export interface SignInProps {

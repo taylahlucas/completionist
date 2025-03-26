@@ -1,164 +1,215 @@
 {
-  "appTitle": "完美主义者。",
+  "appTitle": "Completionist.",
   "welcome": "欢迎",
   "continue": "继续",
-  "search": "搜索项目...",
-  "showMore": "展示更多",
-  "none": "没有任何",
-  "main": "主要的",
-  "changesLeft": "剩下的变化： ",
-  "active": "积极的",
-  "inactive": "不活跃",
+  "search": "搜索物品...",
+  "showMore": "显示更多",
+  "or": "或",
+  "none": "无",
+  "main": "主",
+  "changesLeft": "剩余更改：",
+  "active": "活动",
+  "inactive": "非活动",
   "auth": {
     "email": "电子邮件",
     "userpw": "密码",
     "username": "用户名",
-    "forgotPassword": "忘记密码？",
+    "forgotPw": "忘记密码？",
+    "forgotPwDesc": "请输入您注册时使用的电子邮件和新密码。",
+    "resetPw": "输入此代码以重置您的密码",
+    "updatePwSuccess": "密码更新成功",
     "login": "登录",
     "logout": "登出",
-    "signUp": "报名",
+    "signUp": "注册",
     "createAccount": "创建账户",
-    "requestAccount": "没有帐户？",
-    "backToLogin": "回到登入"
+    "requestAccount": "没有账户？",
+    "backToLogin": "返回登录",
+    "linkAccountDesc": "输入此代码以链接您的账户 {{code}}"
   },
   "screens": {
     "quests": "任务",
     "collectables": "收藏品",
     "locations": "地点",
-    "miscellaneous": "各种各样的",
+    "miscellaneous": "其他",
     "gameSelection": "游戏选择",
     "sendRequest": "发送请求",
-    "subscriptions": "订阅",
+    "purchaseGame": "购买游戏",
     "selectGame": "选择游戏",
-    "addSteamId": "添加 Steam ID",
+    "addSteamId": "添加Steam ID",
+    "achievements": "成就",
     "steamAchievements": "Steam 成就",
     "payments": "支付",
     "settings": "设置",
-    "accountDetails": "帐户详细资料",
-    "verifyAccount": "验证您的帐户"
+    "accountDetails": "账户详情",
+    "verifyAccount": "验证账户",
+    "forgotPw": "忘记密码",
+    "verifyNewPw": "验证新密码"
   },
   "login": {
-    "instructions1": "密码必须至少包含：",
-    "instructions2": "\n• 8 个字符\n",
-    "accountVerification": "检查您的电子邮件并输入验证码"
+    "instructions1": "密码必须包含至少：",
+    "instructions2": "\n\u2022 8 个字符 \n\u2022 1 个大写字母\n\u2022 1 个小写字母\n\u2022 1 个数字",
+    "accountVerification": "检查您的电子邮件并输入验证码。\n请检查您的垃圾邮件文件夹。",
+    "resendToken": "重新发送验证码",
+    "tokenResent": "验证码已重新发送。"
+  },
+  "setUsername": {
+    "title": "设置用户名",
+    "desc": "此用户名将公开链接到您的个人资料。"
   },
   "selectGame": {
-    "selectGameDesc1": "使用免费帐户，您可以每月选择一款游戏进行跟踪。",
-    "selectGameDesc2": "在下面选择您的第一个游戏！",
-    "selectGameDesc3": "如果您犯了错误，请不要担心，您可以每月更改一次。"
+    "selectGameDesc1": "您选择的第一个游戏将是免费的。",
+    "selectGameDesc2": "可以通过一次性支付购买更多游戏。",
+    "selectGameDesc3": "选择您的免费游戏！",
+    "selection": "您已选择：\n{{gameTitle}}"
   },
-  "subscriptions": {
-    "subscriptionDesc": "通过高级订阅，\n",
-    "purchaseSubscription": "购买订阅",
-    "free": "自由的",
-    "premium": "优质的",
-    "accessMultipleGames": "访问多个游戏",
-    "noAds": "无广告",
-    "withAds": "有广告",
-    "accessSteam": "访问 Steam 成就",
-    "prerequisiteTracking": "自动先决条件跟踪",
-    "accessPremiumFeatures": "访问高级功能",
-    "accessOneGame": "每月可玩一款游戏",
-    "accessFiveGames": "每月可玩五场游戏",
-    "accessAllGames": "访问所有游戏",
-    "revokedAccess": "撤销对功能的访问权限",
-    "monthly": "每月",
-    "yearly": "每年"
+  "purchaseGame": {
+    "title": "购买游戏"
   },
   "payments": {
-    "selectPlan": "选择付款计划：",
-    "selectType": "选择付款类型：",
+    "selectPlan": "选择支付计划：",
+    "selectType": "选择支付类型：",
     "confirm": "确认购买"
   },
   "sendRequest": {
     "subject": "主题",
-    "writeRequest": "在这里写下您的要求...",
-    "requestGameDesc": "请随意请求游戏、报告错误或提出一些建议来帮助改进应用程序！",
-    "verifyAccount": "你好，\n\n\n{{code}}"
+    "writeRequest": "在此写下您的请求...",
+    "requestGameDesc": "随时可以请求游戏，报告错误或提出建议以帮助改进应用！",
+    "verifyAccount": "您好，\n您最近已在Completionist创建了一个账户。\n为了验证您的账户，请在应用中输入以下代码：\n\n{{code}}"
   },
   "settings": {
-    "setCollections": "设置集合：",
-    "enabledDLC": "启用/禁用 DLC：",
-    "showHide": "显示隐藏：",
-    "completedItems": "已完成项目",
-    "disabledSections": "残疾人部分",
-    "changeAccountDetails": "更改帐户详细信息",
+    "setCollections": "设置活跃的收藏夹：",
+    "enabledDLC": "启用/禁用DLC：",
+    "showHide": "显示：",
+    "completedItems": "已完成的项目",
+    "disabledSections": "禁用的部分",
+    "changeAccountDetails": "更改账户详情",
     "selectLanguage": "选择语言："
   },
   "accountDetails": {
     "changeUsername": "更改用户名",
     "changeEmail": "更改电子邮件",
-    "changePassword": "更改密码",
-    "updateDetails": "更新详情"
+    "changePw": "更改密码",
+    "updateDetails": "更新详情",
+    "currentPw": "当前密码",
+    "newPw": "新密码",
+    "invalidUserName": "请确保用户名至少有 1 个字符。",
+    "invalidUserEmail": "请确保您使用的是有效的电子邮件。"
+  },
+  "achievements": {
+    "linkSteamAccount": "链接Steam账户",
+    "progress": "进度",
+    "noSteamPermissionTitle": "没有权限",
+    "noSteamPermissionDesc": "您没有权限查看这些成就。请尝试以下操作：",
+    "noPermissionReason1": "检查您是否拥有该游戏的Steam版本。",
+    "noPermissionReason2": "在您的Steam偏好设置中授予'游戏详情'权限。\n这可能需要几分钟。",
+    "noAchievementsAvailable": "此游戏没有Steam成就。",
+    "seeInstructions": "查看说明"
   },
   "steamAchievements": {
-    "addSteamIdStep1": "步骤 1. 查找并添加您的 Steam ID",
-    "addSteamIdDesc1": "要查找您的 Steam ID，请前往 Steam 并选择“查看个人资料”。",
-    "addSteamIdDesc2": "您可以在个人资料顶部找到该 ID。",
-    "addSteamIdStep2": "步骤 2. 更新您的隐私偏好",
+    "addSteamIdStep1": "步骤 1. 查找并添加您的Steam ID",
+    "addSteamIdDesc1": "要查找您的Steam ID，请前往Steam并选择'查看个人资料'。",
+    "addSteamIdDesc2": "您可以在个人资料顶部找到ID。它的格式如下：",
+    "addSteamIdStep2": "步骤 2. 更新您的隐私设置",
     "addSteamIdDesc3": "您还需要确保您的个人资料是公开的。",
-    "addSteamIdDesc4": "您可以通过前往 Steam 偏好设置 -> 隐私设置来执行此操作",
-    "steamIdPlaceholder": "蒸汽 ID"
+    "addSteamIdDesc4": "您可以通过前往Steam偏好设置 -> 隐私设置来完成此操作",
+    "steamIdPlaceholder": "Steam ID"
   },
   "errors": {
     "error": "错误",
-    "pleaseRefreshApp": "请刷新应用程序",
-    "emailAlreadyExists": "电子邮件已经存在",
-    "emailNotFound": "电子邮件找不到",
+    "incorrectCode": "代码不正确",
+    "incorrectCodeDesc": "您输入的代码不正确。请再试一次。",
+    "pleaseRefreshApp": "请刷新应用",
+    "emailAlreadyExists": "电子邮件已存在",
+    "emailNotFound": "未找到电子邮件",
     "noEmailExists": "电子邮件不存在",
-    "checkCredentials": "请检查您的凭据并重试。",
-    "incorrectPw": "密码错误。",
-    "googleSignIn": "Google 登录时出错",
-    "googleSignInMsg": "获取此 Google 帐户的信息时出现问题。",
-    "accountExists": "用户名已经被注册",
-    "accountExistsMsg": "您想关联这些帐户吗？",
-    "permissionDenied": "没有权限",
-    "permissionDeniedMsg": "请通过您的 Steam 设置允许访问。",
+    "checkCredentials": "请检查您的凭证并重试。",
+    "incorrectPw": "密码不正确。请再试一次。",
+    "googleSignIn": "Google 登录错误",
+    "googleSignInMsg": "获取此Google账户信息时出现问题。",
+    "accountExists": "账户已存在",
+    "accountExistsMsg": "您想要链接这些账户吗？",
+    "permissionDenied": "权限被拒绝",
+    "permissionDeniedMsg": "请通过您的Steam设置允许访问。",
     "unauthorized": "未经授权",
-    "unauthorizedMsg": "您无权使用该帐户。",
-    "steamAchievements": "无法获得该游戏的 Steam 成就。"
+    "unauthorizedMsg": "您无权使用此账户。请尝试重新登录。",
+    "steamAchievements": "无法获取此游戏的Steam成就。",
+    "differentEmail": "请使用不同的电子邮件地址。",
+    "linkedWithGoogle": "此电子邮件已通过Google链接。\n如果您想使用常规密码登录，请使用此电子邮件登录并设置您的密码。",
+    "linkedWithRegular": "此电子邮件已链接。\n如果您想链接您的Google账户，请使用此电子邮件通过Google登录。",
+    "retryLogin": "您无法使用此电子邮件创建新账户。请登录。",
+    "noSteamId": "未找到Steam ID。"
   },
   "alerts": {
-    "ok": "好的",
-    "activate": "启用",
-    "cancel": "取消",
-    "changesLeft": "你将会拥有 {{changesLeft}} 改变{{s}} 左边。",
-    "noChangesLeft": "没有留下任何变化",
-    "noChangesLeftMessage": "抱歉，本月您没有任何游戏更改。\n "
+    "cta": {
+      "ok": "确定",
+      "activate": "激活",
+      "cancel": "取消",
+      "deleteAccount": "删除账户"
+    },
+    "unsavedChanges": "未保存的更改",
+    "unsavedChangesMessage": "您确定要返回吗？",
+    "deleteConfirmation": "您确定吗？",
+    "deleteConfirmationMessage": "如果您删除此账户，您将无法恢复它。",
+    "deleteSuccess": "账户已成功删除。",
+    "unlinkAccount": "您确定要解除链接您的账户吗？",
+    "updateSuccess": "更新成功。"
   },
   "languages": {
-    "ar": "阿拉伯",
+    "ar": "阿拉伯语",
     "de": "德语",
     "en": "英语",
     "es": "西班牙语",
     "fr": "法语",
     "hi": "印地语",
-    "id": "印度尼西亚",
+    "id": "印尼语",
     "it": "意大利语",
-    "ja": "日本人",
+    "ja": "日语",
     "pt": "葡萄牙语",
-    "tr": "土耳其",
+    "tr": "土耳其语",
     "vi": "越南语",
-    "zh": "中国人"
+    "zh": "中文"
   },
   "categories": {
+    "eldenRing": {
+      "title": "艾尔登法环",
+      "categories": {
+        "quests": {
+          "mainQuests": "主线任务"
+        },
+        "collectables": {
+          "legendaryWeapons": "传奇武器",
+          "legendarySpiritAshes": "传奇灵魂灰烬",
+          "armourSets": "盔甲套装"
+        },
+        "locations": {
+          "main": "主区域"
+        },
+        "miscellaneous": {
+          "legendarySpells": "传奇法术",
+          "achievementBosses": "成就BOSS"
+        }
+      },
+      "dlc": {
+        "shadowOfTheErdtree": "厄尔德之树的阴影"
+      }
+    },
     "fallout3": {
-      "title": "辐射3",
+      "title": "辐射 3",
       "categories": {
         "quests": {
           "tutorialQuests": "教程任务",
           "mainQuests": "主线任务",
           "sideQuests": "支线任务",
-          "unmarkedQuests": "未标记的任务",
-          "repeatableQuests": "可重复的任务"
+          "unmarkedQuests": "无标记任务",
+          "repeatableQuests": "可重复任务"
         },
         "collectables": {
           "bobbleheads": "摇头娃娃",
-          "uniqueArmor": "独特的盔甲",
-          "uniqueWeapons": "独特的武器"
+          "uniqueArmor": "独特盔甲",
+          "uniqueWeapons": "独特武器"
         },
         "locations": {
-          "main": "主要的"
+          "main": "主区域"
         },
         "miscellaneous": {
           "holotapes": "全息带",
@@ -166,40 +217,40 @@
           "skillBooks": "技能书"
         }
       },
-			"dlc": {
-				"brokenSteel": "断钢",
-				"mothershipZeta": "泽塔母舰",
-				"operationAnchorage": "安克雷奇行动",
-				"pointLookout": "观景台",
-				"thePitt": "皮特"
-			}
+      "dlc": {
+        "brokenSteel": "破碎钢铁",
+        "mothershipZeta": "母舰泽塔",
+        "operationAnchorage": "行动：安克雷奇",
+        "pointLookout": "点望",
+        "thePitt": "匹兹堡"
+      }
     },
     "fallout4": {
-      "title": "辐射4",
+      "title": "辐射 4",
       "categories": {
         "quests": {
           "mainQuests": "主线任务",
-          "factionQuests": "派系任务",
+          "factionQuests": "阵营任务",
           "sideQuests": "支线任务"
         },
         "collectables": {
           "bobbleheads": "摇头娃娃",
           "magazines": "杂志",
-          "uniqueArmor": "独特的盔甲",
-          "uniqueWeapons": "独特的武器"
+          "uniqueArmor": "独特盔甲",
+          "uniqueWeapons": "独特武器"
         },
         "locations": {
-          "main": "主要的"
+          "main": "主区域"
         },
         "miscellaneous": {
           "holotapes": "全息带"
         }
       },
       "dlc": {
-        "automatron": "自动机",
+        "automatron": "自动机器人",
         "farHarbor": "远港",
-        "nukaWorld": "核子世界",
-        "vaultTecWorkshop": "Vault-Tec 研讨会"
+        "nukaWorld": "核世界",
+        "vaultTecWorkshop": "Vault-Tec工作坊"
       }
     },
     "skyrim": {
@@ -207,9 +258,9 @@
       "categories": {
         "quests": {
           "mainQuests": "主线任务",
-          "factionQuests": "派系任务",
+          "factionQuests": "阵营任务",
           "civilWar": "内战",
-          "daedricQuests": "魔族任务",
+          "daedricQuests": "戴德里克任务",
           "dungeonQuests": "地下城任务",
           "miscellaneousQuests": "杂项任务",
           "bountyQuests": "赏金任务",
@@ -217,27 +268,27 @@
         },
         "collectables": {
           "dragonPriestMasks": "龙祭司面具",
-          "daedricArtefacts": "魔族文物",
-          "bugInAJar": "罐子里的虫子",
-          "shouts": "喊叫声",
-          "uniqueArmorSets": "独特的装甲套装",
-          "uniqueWeapons": "独特的武器",
-          "shrines": "神社",
-          "stones": "石头"
+          "daedricArtefacts": "戴德里克遗物",
+          "bugInAJar": "瓶中的虫子",
+          "shouts": "喊声",
+          "uniqueArmorSets": "独特盔甲套装",
+          "uniqueWeapons": "独特武器",
+          "shrines": "神殿",
+          "stones": "石碑"
         },
         "locations": {
-          "main": "主要的"
+          "main": "主区域"
         },
         "miscellaneous": {
-          "books": "图书",
-          "spellTomes": "法术书",
-          "journals": "期刊"
+          "books": "书籍",
+          "spellTomes": "法术典籍",
+          "journals": "日志"
         }
       },
       "dlc": {
-        "dawnguard": "黎明守卫",
+        "dawnguard": "曙光卫队",
         "dragonborn": "龙裔",
-        "hearthfire": "炉火"
+        "hearthfire": "火炉"
       }
     },
     "witcher3": {
@@ -245,15 +296,15 @@
       "categories": {
         "quests": {
           "mainQuests": "主线任务",
-          "secondaryQuests": "次要任务",
-          "contracts": "合约",
-          "treasureHunts": "寻宝"
+          "secondaryQuests": "支线任务",
+          "contracts": "契约任务",
+          "treasureHunts": "宝藏狩猎"
         },
         "collectables": {
-          "diagrams": "图表"
+          "diagrams": "图纸"
         },
         "locations": {
-          "main": "主要的"
+          "main": "主区域"
         }
       },
       "dlc": {

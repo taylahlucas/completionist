@@ -19,6 +19,7 @@ import { log } from '@utils/hooks/index';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
 import useSendVerificationEmail from '@components/custom/LoginForm/hooks/useSendVerificationEmail';
 import { maxPwAttempts, requestCodes } from '@utils/constants';
+import { getUserLang } from '@utils/helpers';
 
 interface GoogleError {
   code: number;
@@ -171,6 +172,7 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
                     email: email,
                     googleId: uid,
                   },
+                  lang: getUserLang(),
                 }).then(response => {
                   if (!!response) {
                     saveUser(response);

@@ -48,6 +48,7 @@ const signup = async (req, res) => {
     googleId: userGoogleId,
     account,
     signup,
+    lang,
   } = req.body;
   const existingUser = await checkEmailExists(dynamoDbDocClient, email);
   if (existingUser) {
@@ -65,6 +66,7 @@ const signup = async (req, res) => {
     hashedGoogleId = await hashPw(userGoogleId);
   }
 
+  console.log('Lang: ', lang);
   let user = {
     userId,
     username,
@@ -73,6 +75,10 @@ const signup = async (req, res) => {
     googleId: hashedGoogleId,
     account,
     signup,
+    settings: {
+      lang,
+      configs: [],
+    },
   };
   const updatedUser = createUser(user);
   const { err, value: validatedUser } = userSchema.validate(updatedUser);

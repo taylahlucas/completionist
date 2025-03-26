@@ -1,85 +1,85 @@
 {
-  "appTitle": "Completista.",
+  "appTitle": "Completionist.",
   "welcome": "Bem-vindo",
   "continue": "Continuar",
   "search": "Pesquisar itens...",
-  "showMore": "Mostre mais",
+  "showMore": "Mostrar mais",
+  "or": "ou",
   "none": "Nenhum",
   "main": "Principal",
   "changesLeft": "ALTERAÇÕES RESTANTES: ",
   "active": "ATIVO",
   "inactive": "INATIVO",
   "auth": {
-    "email": "E-mail",
+    "email": "Email",
     "userpw": "Senha",
     "username": "Nome de usuário",
-    "forgotPassword": "Esqueceu sua senha?",
-    "login": "Conecte-se",
+    "forgotPw": "Esqueceu a Senha?",
+    "forgotPwDesc": "Digite o e-mail com o qual se registrou e sua nova senha.",
+    "resetPw": "Digite este código para redefinir sua senha",
+    "updatePwSuccess": "Senha atualizada com sucesso",
+    "login": "Entrar",
     "logout": "Sair",
-    "signUp": "Inscrever-se",
-    "createAccount": "Criar uma conta",
+    "signUp": "Cadastrar",
+    "createAccount": "Criar Conta",
     "requestAccount": "Não tem uma conta?",
-    "backToLogin": "Volte ao login"
+    "backToLogin": "Voltar para o Login",
+    "linkAccountDesc": "Digite este código para vincular suas contas {{code}}"
   },
   "screens": {
-    "quests": "Missões",
+    "quests": "Quests",
     "collectables": "Colecionáveis",
-    "locations": "Localizações",
+    "locations": "Locações",
     "miscellaneous": "Diversos",
-    "gameSelection": "Seleção de jogos",
-    "sendRequest": "Enviar pedido",
-    "subscriptions": "Assinaturas",
-    "selectGame": "Selecione um jogo",
-    "addSteamId": "Adicionar ID Steam",
+    "gameSelection": "Seleção de Jogo",
+    "sendRequest": "Enviar Solicitação",
+    "purchaseGame": "Comprar Jogo",
+    "selectGame": "Selecionar um Jogo",
+    "addSteamId": "Adicionar ID do Steam",
+    "achievements": "Conquistas",
     "steamAchievements": "Conquistas do Steam",
     "payments": "Pagamento",
     "settings": "Configurações",
-    "accountDetails": "Detalhes da conta",
-    "verifyAccount": "Verifique sua conta"
+    "accountDetails": "Detalhes da Conta",
+    "verifyAccount": "Verificar Sua Conta",
+    "forgotPw": "Esqueceu a Senha",
+    "verifyNewPw": "Verificar Nova Senha"
   },
   "login": {
     "instructions1": "A senha deve conter pelo menos:",
-    "instructions2": "\n• 8 caracteres\n",
-    "accountVerification": "Verifique seus e-mails e insira o código de verificação"
+    "instructions2": "\n\u2022 8 caracteres \n\u2022 1 letra maiúscula\n\u2022 1 letra minúscula\n\u2022 1 valor numérico",
+    "accountVerification": "Verifique seus e-mails e insira o código de verificação. \nPor favor, verifique sua pasta de spam.",
+    "resendToken": "REENVIO DO CÓDIGO DE VERIFICAÇÃO",
+    "tokenResent": "Código de Verificação Reenviado."
+  },
+  "setUsername": {
+    "title": "Definir Nome de Usuário",
+    "desc": "Este nome de usuário será vinculado publicamente ao seu perfil."
   },
   "selectGame": {
-    "selectGameDesc1": "Com uma conta gratuita, você pode selecionar um jogo por mês para acompanhar.",
-    "selectGameDesc2": "Selecione seu primeiro jogo abaixo!",
-    "selectGameDesc3": "Não se preocupe se cometer um erro, você poderá alterar isso uma vez por mês."
+    "selectGameDesc1": "O primeiro jogo que você selecionar será gratuito.",
+    "selectGameDesc2": "Outros jogos podem ser comprados com um pagamento único.",
+    "selectGameDesc3": "Selecione seu jogo gratuito abaixo!",
+    "selection": "Você selecionou:\n{{gameTitle}}"
   },
-  "subscriptions": {
-    "subscriptionDesc": "Com uma assinatura Premium,\n",
-    "purchaseSubscription": "Comprar assinatura",
-    "free": "Livre",
-    "premium": "Prêmio",
-    "accessMultipleGames": "Acesso a vários jogos",
-    "noAds": "Sem anúncios",
-    "withAds": "Com anúncios",
-    "accessSteam": "Acesse conquistas do Steam",
-    "prerequisiteTracking": "Rastreamento automatizado de pré-requisitos",
-    "accessPremiumFeatures": "Acesso a recursos premium",
-    "accessOneGame": "Acesso a um jogo por mês",
-    "accessFiveGames": "Acesso a cinco jogos por mês",
-    "accessAllGames": "Acesso a todos os jogos",
-    "revokedAccess": "Acesso revogado aos recursos",
-    "monthly": "Por mês",
-    "yearly": "Anual"
+  "purchaseGame": {
+    "title": "Comprar Jogo"
   },
   "payments": {
-    "selectPlan": "Selecione o plano de pagamento:",
-    "selectType": "Selecione o tipo de pagamento:",
-    "confirm": "Confirmar compra"
+    "selectPlan": "Selecionar plano de pagamento:",
+    "selectType": "Selecionar tipo de pagamento:",
+    "confirm": "Confirmar Compra"
   },
   "sendRequest": {
     "subject": "Assunto",
-    "writeRequest": "Escreva aqui o seu pedido...",
-    "requestGameDesc": "Sinta-se à vontade para solicitar um jogo, reportar um bug ou fazer sugestões para ajudar a melhorar o app!",
-    "verifyAccount": "Olá,\n\n\n{{code}}"
+    "writeRequest": "Escreva sua solicitação aqui...",
+    "requestGameDesc": "Sinta-se à vontade para solicitar um jogo, relatar um erro ou fazer sugestões para ajudar a melhorar o aplicativo!",
+    "verifyAccount": "Olá,\nVocê criou recentemente uma conta no Completionist.\nPara verificar sua conta, insira o seguinte código no aplicativo:\n\n{{code}}"
   },
   "settings": {
-    "setCollections": "Definir coleções:",
+    "setCollections": "Definir coleções ativas:",
     "enabledDLC": "Ativar/Desativar DLC:",
-    "showHide": "Aparecer esconder:",
+    "showHide": "Mostrar:",
     "completedItems": "Itens concluídos",
     "disabledSections": "Seções desativadas",
     "changeAccountDetails": "Alterar detalhes da conta",
@@ -87,119 +87,170 @@
   },
   "accountDetails": {
     "changeUsername": "Mudar nome de usuário",
-    "changeEmail": "Mude o e-mail",
-    "changePassword": "Alterar a senha",
-    "updateDetails": "Detalhes da atualização"
+    "changeEmail": "Mudar e-mail",
+    "changePw": "Alterar senha",
+    "updateDetails": "Atualizar detalhes",
+    "currentPw": "Senha atual",
+    "newPw": "Nova senha",
+    "invalidUserName": "Certifique-se de que o nome de usuário tenha pelo menos 1 caractere.",
+    "invalidUserEmail": "Certifique-se de que está usando um e-mail válido."
+  },
+  "achievements": {
+    "linkSteamAccount": "Vincular conta Steam",
+    "progress": "Progresso",
+    "noSteamPermissionTitle": "Sem permissão",
+    "noSteamPermissionDesc": "Você não tem permissão para ver essas conquistas. Por favor, tente o seguinte:",
+    "noPermissionReason1": "Verifique se você possui este jogo no Steam.",
+    "noPermissionReason2": "Conceda permissão para 'Detalhes do Jogo' nas suas Preferências do Steam.\nIsso pode levar alguns minutos.",
+    "noAchievementsAvailable": "Conquistas do Steam não estão disponíveis para este jogo.",
+    "seeInstructions": "Ver instruções"
   },
   "steamAchievements": {
     "addSteamIdStep1": "Passo 1. Encontre e adicione seu Steam ID",
-    "addSteamIdDesc1": "Para encontrar seu ID Steam, acesse Steam e selecione ‘Ver perfil’.",
-    "addSteamIdDesc2": "Você pode encontrar o ID na parte superior do seu perfil. ",
+    "addSteamIdDesc1": "Para encontrar seu Steam ID, vá até o Steam e selecione 'Ver perfil'.",
+    "addSteamIdDesc2": "Você pode encontrar o ID na parte superior do seu perfil. Ele será parecido com:",
     "addSteamIdStep2": "Passo 2. Atualize suas preferências de privacidade",
     "addSteamIdDesc3": "Você também precisará garantir que seu perfil seja público.",
-    "addSteamIdDesc4": "Você pode fazer isso acessando Preferências do Steam -> Configurações de privacidade",
-    "steamIdPlaceholder": "ID de vapor"
+    "addSteamIdDesc4": "Você pode fazer isso acessando Preferências do Steam -> Configurações de Privacidade",
+    "steamIdPlaceholder": "Steam ID"
   },
   "errors": {
     "error": "Erro",
-    "pleaseRefreshApp": "Atualize o aplicativo",
-    "emailAlreadyExists": "e-mail já existe",
-    "emailNotFound": "Email não encontrado",
-    "noEmailExists": "E-mail não existe",
+    "incorrectCode": "Código incorreto",
+    "incorrectCodeDesc": "O código que você inseriu está incorreto. Por favor, tente novamente.",
+    "pleaseRefreshApp": "Por favor, atualize o aplicativo",
+    "emailAlreadyExists": "E-mail já existe",
+    "emailNotFound": "E-mail não encontrado",
+    "noEmailExists": "O e-mail não existe",
     "checkCredentials": "Verifique suas credenciais e tente novamente.",
-    "incorrectPw": "Senha incorreta. ",
-    "googleSignIn": "Erro com login do Google",
-    "googleSignInMsg": "Problema ao obter informações desta conta do Google.",
-    "accountExists": "essa conta já existe",
+    "incorrectPw": "Senha incorreta. Por favor, tente novamente.",
+    "googleSignIn": "Erro com o login do Google",
+    "googleSignInMsg": "Problema ao obter informações para esta conta do Google.",
+    "accountExists": "Conta já existe",
     "accountExistsMsg": "Gostaria de vincular essas contas?",
     "permissionDenied": "Permissão negada",
     "permissionDeniedMsg": "Por favor, permita o acesso através das configurações do Steam.",
     "unauthorized": "Não autorizado",
-    "unauthorizedMsg": "Você não está autorizado a usar esta conta. ",
-    "steamAchievements": "Não foi possível obter conquistas do Steam para este jogo."
+    "unauthorizedMsg": "Você não está autorizado a usar esta conta. Por favor, tente fazer login novamente.",
+    "steamAchievements": "Não foi possível obter as conquistas do Steam para este jogo.",
+    "differentEmail": "Por favor, use um e-mail diferente.",
+    "linkedWithGoogle": "Este e-mail já está vinculado através do Google. \nSe desejar fazer login com uma senha regular, faça login com este e-mail e defina sua senha desejada.",
+    "linkedWithRegular": "Este e-mail já está vinculado. \nSe desejar vincular sua conta do Google, faça login através do Google Sign In com este e-mail.",
+    "retryLogin": "Você não pode criar uma nova conta com este e-mail. Por favor, faça login.",
+    "noSteamId": "Steam ID não encontrado."
   },
   "alerts": {
-    "ok": "OK",
-    "activate": "Ativar",
-    "cancel": "Cancelar",
-    "changesLeft": "Voce terá {{changesLeft}} mudar{{s}} esquerda.",
-    "noChangesLeft": "Nenhuma alteração restante",
-    "noChangesLeftMessage": "Desculpe, você não tem mais alterações no jogo para este mês.\n "
+    "cta": {
+      "ok": "Ok",
+      "activate": "Ativar",
+      "cancel": "Cancelar",
+      "deleteAccount": "Excluir conta"
+    },
+    "unsavedChanges": "Alterações não salvas",
+    "unsavedChangesMessage": "Tem certeza de que deseja voltar?",
+    "deleteConfirmation": "Tem certeza?",
+    "deleteConfirmationMessage": "Se você excluir esta conta, não poderá recuperá-la.",
+    "deleteSuccess": "Conta excluída com sucesso.",
+    "unlinkAccount": "Tem certeza de que deseja desvincular sua conta?",
+    "updateSuccess": "Atualizado com sucesso."
   },
   "languages": {
-    "ar": "árabe",
+    "ar": "Árabe",
     "de": "Alemão",
     "en": "Inglês",
     "es": "Espanhol",
     "fr": "Francês",
-    "hi": "hindi",
-    "id": "indonésio",
-    "it": "italiano",
-    "ja": "japonês",
+    "hi": "Hindi",
+    "id": "Indonésio",
+    "it": "Italiano",
+    "ja": "Japonês",
     "pt": "Português",
-    "tr": "turco",
-    "vi": "vietnamita",
-    "zh": "chinês"
+    "tr": "Turco",
+    "vi": "Vietnamita",
+    "zh": "Chinês"
   },
   "categories": {
+    "eldenRing": {
+      "title": "Elden Ring",
+      "categories": {
+        "quests": {
+          "mainQuests": "Missões principais"
+        },
+        "collectables": {
+          "legendaryWeapons": "Armas lendárias",
+          "legendarySpiritAshes": "Cinzas espirituais lendárias",
+          "armourSets": "Conjuntos de armaduras"
+        },
+        "locations": {
+          "main": "Principal"
+        },
+        "miscellaneous": {
+          "legendarySpells": "Feitiços lendários",
+          "achievementBosses": "Chefes de conquistas"
+        }
+      },
+      "dlc": {
+        "shadowOfTheErdtree": "Sombra da Árvore Erdtree"
+      }
+    },
     "fallout3": {
       "title": "Fallout 3",
       "categories": {
         "quests": {
           "tutorialQuests": "Missões de tutorial",
           "mainQuests": "Missões principais",
-          "sideQuests": "Missões paralelas",
+          "sideQuests": "Missões secundárias",
           "unmarkedQuests": "Missões não marcadas",
           "repeatableQuests": "Missões repetíveis"
         },
         "collectables": {
           "bobbleheads": "Bobbleheads",
-          "uniqueArmor": "Armadura Única",
+          "uniqueArmor": "Armadura única",
           "uniqueWeapons": "Armas únicas"
         },
         "locations": {
           "main": "Principal"
         },
         "miscellaneous": {
-          "holotapes": "Holotapes",
+          "holotapes": "Holofitas",
           "notes": "Notas",
           "skillBooks": "Livros de habilidades"
         }
       },
-			"dlc": {
-				"brokenSteel": "Aço Quebrado",
-				"mothershipZeta": "Nave-mãe Zeta",
-				"operationAnchorage": "Operação Ancoragem",
-				"pointLookout": "Mirante",
-				"thePitt": "O Pitt"
-			}
+      "dlc": {
+        "brokenSteel": "Aço Quebrado",
+        "mothershipZeta": "Mothership Zeta",
+        "operationAnchorage": "Operação: Anchorage",
+        "pointLookout": "Point Lookout",
+        "thePitt": "The Pitt"
+      }
     },
     "fallout4": {
-      "title": "Efeito Fallout 4",
+      "title": "Fallout 4",
       "categories": {
         "quests": {
           "mainQuests": "Missões principais",
-          "factionQuests": "Missões de Facção",
-          "sideQuests": "Missões paralelas"
+          "factionQuests": "Missões de facções",
+          "sideQuests": "Missões secundárias"
         },
         "collectables": {
           "bobbleheads": "Bobbleheads",
           "magazines": "Revistas",
-          "uniqueArmor": "Armadura Única",
+          "uniqueArmor": "Armadura única",
           "uniqueWeapons": "Armas únicas"
         },
         "locations": {
           "main": "Principal"
         },
         "miscellaneous": {
-          "holotapes": "Holotapes"
+          "holotapes": "Holofitas"
         }
       },
       "dlc": {
-        "automatron": "Autômato",
-        "farHarbor": "Porto Distante",
-        "nukaWorld": "Nuka-Mundo",
-        "vaultTecWorkshop": "Oficina Vault-Tec"
+        "automatron": "Automatron",
+        "farHarbor": "Far Harbor",
+        "nukaWorld": "Nuka-World",
+        "vaultTecWorkshop": "Vault-Tec Workshop"
       }
     },
     "skyrim": {
@@ -207,20 +258,20 @@
       "categories": {
         "quests": {
           "mainQuests": "Missões principais",
-          "factionQuests": "Missões de Facção",
-          "civilWar": "Guerra civil",
+          "factionQuests": "Missões de facções",
+          "civilWar": "Guerra Civil",
           "daedricQuests": "Missões Daédricas",
-          "dungeonQuests": "Missões de masmorra",
-          "miscellaneousQuests": "Missões Diversas",
+          "dungeonQuests": "Missões de masmorras",
+          "miscellaneousQuests": "Missões diversas",
           "bountyQuests": "Missões de recompensa",
-          "globalQuests": "Missões Globais"
+          "globalQuests": "Missões globais"
         },
         "collectables": {
-          "dragonPriestMasks": "Máscaras de Sacerdote Dragão",
+          "dragonPriestMasks": "Máscaras de sacerdote dragão",
           "daedricArtefacts": "Artefatos Daédricos",
-          "bugInAJar": "Bug em uma jarra",
+          "bugInAJar": "Inseto em um frasco",
           "shouts": "Gritos",
-          "uniqueArmorSets": "Conjuntos de armadura exclusivos",
+          "uniqueArmorSets": "Conjuntos de armadura únicos",
           "uniqueWeapons": "Armas únicas",
           "shrines": "Santuários",
           "stones": "Pedras"
@@ -231,23 +282,23 @@
         "miscellaneous": {
           "books": "Livros",
           "spellTomes": "Tomos de feitiços",
-          "journals": "Diários"
+          "journals": "Jornais"
         }
       },
       "dlc": {
         "dawnguard": "Dawnguard",
-        "dragonborn": "Draconato",
-        "hearthfire": "Lareira"
+        "dragonborn": "Dragonborn",
+        "hearthfire": "Hearthfire"
       }
     },
     "witcher3": {
-      "title": "The Witcher 3: Caça Selvagem",
+      "title": "The Witcher 3: Wild Hunt",
       "categories": {
         "quests": {
           "mainQuests": "Missões principais",
-          "secondaryQuests": "Missões Secundárias",
+          "secondaryQuests": "Missões secundárias",
           "contracts": "Contratos",
-          "treasureHunts": "Caças ao tesouro"
+          "treasureHunts": "Caçadas ao tesouro"
         },
         "collectables": {
           "diagrams": "Diagramas"
@@ -258,7 +309,7 @@
       },
       "dlc": {
         "bloodAndWine": "Sangue e Vinho",
-        "heartsOfStone": "Corações de pedra"
+        "heartsOfStone": "Corações de Pedra"
       }
     }
   }

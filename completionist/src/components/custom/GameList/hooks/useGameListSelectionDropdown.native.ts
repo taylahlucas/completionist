@@ -5,7 +5,6 @@ import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
 import { GameListSelectionType } from '@utils/CustomTypes';
 import { useState } from 'react';
 import { getGameDataFromCache } from '@data/helpers/getGameDataFromCache.native';
-
 import useContentDispatch from '@components/custom/ContentList/provider/useContentDispatch';
 import { getMappedGameData } from '@data/helpers/mapGameData.native';
 
@@ -26,7 +25,8 @@ export const useGameListSelectionDropdown = () => {
     type: GameListSelectionType,
   ): void => {
     if (type === 'active') {
-      getGameDataFromCache(game.id).then(response => {
+      // TODO: Set initial language based on users preference ?
+      getGameDataFromCache({ selectedGame: game.id }).then(response => {
         const gameData = getMappedGameData(response);
         setGameContent(gameData);
         navigateToGame(game);

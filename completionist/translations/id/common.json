@@ -1,160 +1,211 @@
 {
-  "appTitle": "Penyelesaian.",
-  "welcome": "Selamat datang",
-  "continue": "Melanjutkan",
+  "appTitle": "Completionist.",
+  "welcome": "Selamat Datang",
+  "continue": "Lanjutkan",
   "search": "Cari item...",
-  "showMore": "Menampilkan lebih banyak",
+  "showMore": "Tampilkan lebih banyak",
+  "or": "atau",
   "none": "Tidak ada",
   "main": "Utama",
-  "changesLeft": "PERUBAHAN KIRI: ",
+  "changesLeft": "PERUBAHAN TERSISA: ",
   "active": "AKTIF",
   "inactive": "TIDAK AKTIF",
   "auth": {
-    "email": "Surel",
-    "userpw": "Kata sandi",
-    "username": "Nama belakang",
-    "forgotPassword": "Tidak ingat kata sandi?",
-    "login": "Gabung",
+    "email": "Email",
+    "userpw": "Kata Sandi",
+    "username": "Nama Pengguna",
+    "forgotPw": "Lupa Kata Sandi?",
+    "forgotPwDesc": "Masukkan email yang Anda gunakan untuk mendaftar dan kata sandi baru Anda.",
+    "resetPw": "Masukkan kode ini untuk mengatur ulang kata sandi Anda",
+    "updatePwSuccess": "Kata sandi berhasil diperbarui",
+    "login": "Masuk",
     "logout": "Keluar",
-    "signUp": "Mendaftar",
+    "signUp": "Daftar",
     "createAccount": "Buat Akun",
     "requestAccount": "Belum punya akun?",
-    "backToLogin": "Kembali untuk masuk"
+    "backToLogin": "Kembali ke Masuk",
+    "linkAccountDesc": "Masukkan kode ini untuk menautkan akun Anda {{code}}"
   },
   "screens": {
-    "quests": "Pencarian",
-    "collectables": "Barang koleksi",
+    "quests": "Misi",
+    "collectables": "Koleksi",
     "locations": "Lokasi",
-    "miscellaneous": "Aneka ragam",
-    "gameSelection": "Pemilihan Permainan",
+    "miscellaneous": "Lainnya",
+    "gameSelection": "Pilih Game",
     "sendRequest": "Kirim Permintaan",
-    "subscriptions": "Langganan",
-    "selectGame": "Pilih Permainan",
-    "addSteamId": "Tambahkan ID Uap",
-    "steamAchievements": "Prestasi Uap",
+    "purchaseGame": "Beli Game",
+    "selectGame": "Pilih Game",
+    "addSteamId": "Tambahkan Steam ID",
+    "achievements": "Pencapaian",
+    "steamAchievements": "Pencapaian Steam",
     "payments": "Pembayaran",
     "settings": "Pengaturan",
-    "accountDetails": "Detail akun",
-    "verifyAccount": "Verifikasi akun anda"
+    "accountDetails": "Detail Akun",
+    "verifyAccount": "Verifikasi Akun Anda",
+    "forgotPw": "Lupa Kata Sandi",
+    "verifyNewPw": "Verifikasi Kata Sandi Baru"
   },
   "login": {
-    "instructions1": "Kata sandi setidaknya harus berisi:",
-    "instructions2": "\n• 8 karakter\n",
-    "accountVerification": "Periksa email Anda dan masukkan kode verifikasi"
+    "instructions1": "Kata sandi harus mengandung setidaknya:",
+    "instructions2": "\n\u2022 8 karakter \n\u2022 1 huruf besar\n\u2022 1 huruf kecil\n\u2022 1 angka",
+    "accountVerification": "Periksa email Anda dan masukkan kode verifikasi. \nHarap periksa folder spam Anda.",
+    "resendToken": "KIRIM ULANG TOKEN VERIFIKASI",
+    "tokenResent": "Token Verifikasi Dikirim Ulang."
+  },
+  "setUsername": {
+    "title": "Atur Nama Pengguna",
+    "desc": "Nama pengguna ini akan ditautkan secara publik ke profil Anda."
   },
   "selectGame": {
-    "selectGameDesc1": "Dengan akun Gratis, Anda dapat memilih satu game per bulan untuk dilacak.",
-    "selectGameDesc2": "Pilih game pertama Anda di bawah ini!",
-    "selectGameDesc3": "Jangan khawatir jika Anda melakukan kesalahan, Anda dapat mengubahnya sebulan sekali."
+    "selectGameDesc1": "Game pertama yang Anda pilih akan gratis.",
+    "selectGameDesc2": "Game tambahan dapat dibeli dengan pembayaran satu kali.",
+    "selectGameDesc3": "Pilih game gratis Anda di bawah ini!",
+    "selection": "Anda telah memilih:\n{{gameTitle}}"
   },
-  "subscriptions": {
-    "subscriptionDesc": "Dengan berlangganan Premium,\n",
-    "purchaseSubscription": "Langganan Pembelian",
-    "free": "Bebas",
-    "premium": "Premium",
-    "accessMultipleGames": "Akses ke banyak permainan",
-    "noAds": "Tanpa iklan",
-    "withAds": "Dengan Iklan",
-    "accessSteam": "Akses pencapaian uap",
-    "prerequisiteTracking": "Pelacakan prasyarat otomatis",
-    "accessPremiumFeatures": "Akses ke Fitur Premium",
-    "accessOneGame": "Akses ke satu game per bulan",
-    "accessFiveGames": "Akses ke lima game per bulan",
-    "accessAllGames": "Akses ke semua game",
-    "revokedAccess": "Mencabut akses ke Fitur",
-    "monthly": "Bulanan",
-    "yearly": "Tahunan"
+  "purchaseGame": {
+    "title": "Beli Game"
   },
   "payments": {
-    "selectPlan": "Pilih paket pembayaran:",
+    "selectPlan": "Pilih rencana pembayaran:",
     "selectType": "Pilih jenis pembayaran:",
-    "confirm": "Konfirmasi pembelian"
+    "confirm": "Konfirmasi Pembelian"
   },
   "sendRequest": {
     "subject": "Subjek",
     "writeRequest": "Tulis permintaan Anda di sini...",
-    "requestGameDesc": "Jangan ragu untuk meminta permainan, melaporkan bug, atau memberikan beberapa saran untuk membantu meningkatkan aplikasi!",
-    "verifyAccount": "Halo,\n\n\n{{code}}"
+    "requestGameDesc": "Jangan ragu untuk meminta game, melaporkan bug, atau memberikan saran untuk membantu meningkatkan aplikasi!",
+    "verifyAccount": "Halo,\nAnda baru saja membuat akun dengan Completionist.\nUntuk memverifikasi akun Anda, silakan masukkan kode berikut di aplikasi:\n\n{{code}}"
   },
   "settings": {
-    "setCollections": "Tetapkan koleksi:",
+    "setCollections": "Atur koleksi aktif:",
     "enabledDLC": "Aktifkan/Nonaktifkan DLC:",
-    "showHide": "Tunjukan Sembunyikan:",
-    "completedItems": "Barang Selesai",
-    "disabledSections": "Bagian yang Dinonaktifkan",
+    "showHide": "Tampilkan:",
+    "completedItems": "Item yang telah diselesaikan",
+    "disabledSections": "Bagian yang dinonaktifkan",
     "changeAccountDetails": "Ubah Detail Akun",
     "selectLanguage": "Pilih bahasa:"
   },
   "accountDetails": {
     "changeUsername": "Ubah Nama Pengguna",
-    "changeEmail": "Ganti e-mail",
-    "changePassword": "Ganti kata sandi",
-    "updateDetails": "Perbarui Detail"
+    "changeEmail": "Ubah Email",
+    "changePw": "Ubah Kata Sandi",
+    "updateDetails": "Perbarui Detail",
+    "currentPw": "Kata Sandi Saat Ini",
+    "newPw": "Kata Sandi Baru",
+    "invalidUserName": "Pastikan nama pengguna memiliki setidaknya 1 karakter.",
+    "invalidUserEmail": "Pastikan Anda menggunakan email yang valid."
+  },
+  "achievements": {
+    "linkSteamAccount": "Tautkan Akun Steam",
+    "progress": "Progres",
+    "noSteamPermissionTitle": "Tidak ada izin",
+    "noSteamPermissionDesc": "Anda tidak memiliki izin untuk melihat pencapaian ini. Silakan coba langkah berikut:",
+    "noPermissionReason1": "Periksa apakah Anda memiliki game ini di Steam.",
+    "noPermissionReason2": "Beri izin untuk 'Detail Game' di Preferensi Steam Anda.\nIni mungkin memerlukan beberapa menit.",
+    "noAchievementsAvailable": "Pencapaian Steam tidak tersedia untuk game ini.",
+    "seeInstructions": "Lihat instruksi"
   },
   "steamAchievements": {
-    "addSteamIdStep1": "Langkah 1. Temukan dan tambahkan ID Steam Anda",
-    "addSteamIdDesc1": "Untuk menemukan ID steam Anda, buka Steam dan pilih 'Lihat Profil'.",
-    "addSteamIdDesc2": "Anda dapat menemukan ID di bagian atas profil Anda. ",
+    "addSteamIdStep1": "Langkah 1. Temukan dan tambahkan Steam ID Anda",
+    "addSteamIdDesc1": "Untuk menemukan Steam ID Anda, buka Steam dan pilih 'Lihat Profil'.",
+    "addSteamIdDesc2": "Anda dapat menemukan ID di bagian atas profil Anda. Formatnya akan terlihat seperti:",
     "addSteamIdStep2": "Langkah 2. Perbarui preferensi privasi Anda",
     "addSteamIdDesc3": "Anda juga perlu memastikan profil Anda bersifat publik.",
-    "addSteamIdDesc4": "Anda dapat melakukan ini dengan menuju ke Steam Preferences -> Privacy Settings",
-    "steamIdPlaceholder": "ID Uap"
+    "addSteamIdDesc4": "Anda dapat mengubahnya di Steam -> Pengaturan Privasi",
+    "steamIdPlaceholder": "Steam ID"
   },
   "errors": {
     "error": "Kesalahan",
-    "pleaseRefreshApp": "Harap segarkan aplikasi",
+    "incorrectCode": "Kode Salah",
+    "incorrectCodeDesc": "Kode yang Anda masukkan salah. Silakan coba lagi.",
+    "pleaseRefreshApp": "Silakan segarkan aplikasi",
     "emailAlreadyExists": "Email sudah ada",
-    "emailNotFound": "Email Tidak Ditemukan",
-    "noEmailExists": "Emailnya tidak ada",
+    "emailNotFound": "Email tidak ditemukan",
+    "noEmailExists": "Email tidak tersedia",
     "checkCredentials": "Silakan periksa kredensial Anda dan coba lagi.",
-    "incorrectPw": "Kata kunci Salah. ",
-    "googleSignIn": "Terjadi kesalahan saat Masuk dengan Google",
-    "googleSignInMsg": "Terjadi masalah saat mendapatkan info untuk akun Google ini.",
+    "incorrectPw": "Kata sandi salah. Silakan coba lagi.",
+    "googleSignIn": "Kesalahan dengan Google Sign In",
+    "googleSignInMsg": "Masalah saat mengambil informasi untuk akun Google ini.",
     "accountExists": "Akun sudah ada",
     "accountExistsMsg": "Apakah Anda ingin menautkan akun ini?",
-    "permissionDenied": "Izin ditolak",
-    "permissionDeniedMsg": "Harap izinkan akses melalui pengaturan Steam Anda.",
-    "unauthorized": "Tidak sah",
-    "unauthorizedMsg": "Anda tidak sah untuk menggunakan akun ini. ",
-    "steamAchievements": "Tidak bisa mendapatkan pencapaian uap untuk game ini."
+    "permissionDenied": "Izin Ditolak",
+    "permissionDeniedMsg": "Silakan berikan akses melalui pengaturan Steam Anda.",
+    "unauthorized": "Tidak Diizinkan",
+    "unauthorizedMsg": "Anda tidak diizinkan untuk menggunakan akun ini. Silakan coba masuk kembali.",
+    "steamAchievements": "Tidak dapat mengambil pencapaian Steam untuk game ini.",
+    "differentEmail": "Silakan gunakan alamat email yang berbeda.",
+    "linkedWithGoogle": "Email ini sudah ditautkan melalui Google. \nJika Anda ingin masuk dengan kata sandi biasa, masuk dengan email ini dan atur kata sandi yang diinginkan.",
+    "linkedWithRegular": "Email ini sudah ditautkan. \nJika Anda ingin menautkan akun Google Anda, masuk melalui Google Sign In menggunakan email ini.",
+    "retryLogin": "Anda tidak dapat membuat akun baru dengan email ini. Silakan masuk.",
+    "noSteamId": "Steam ID tidak ditemukan."
   },
   "alerts": {
-    "ok": "Oke",
-    "activate": "Mengaktifkan",
-    "cancel": "Membatalkan",
-    "changesLeft": "Anda akan memiliki {{changesLeft}} mengubah{{s}} kiri.",
-    "noChangesLeft": "Tidak Ada Perubahan Tersisa",
-    "noChangesLeftMessage": "Maaf, tidak ada perubahan permainan tersisa untuk bulan ini.\n "
+    "cta": {
+      "ok": "Ok",
+      "activate": "Aktifkan",
+      "cancel": "Batal",
+      "deleteAccount": "Hapus Akun"
+    },
+    "unsavedChanges": "Perubahan Belum Disimpan",
+    "unsavedChangesMessage": "Apakah Anda yakin ingin kembali?",
+    "deleteConfirmation": "Apakah Anda yakin?",
+    "deleteConfirmationMessage": "Jika Anda menghapus akun ini, Anda tidak dapat memulihkannya.",
+    "deleteSuccess": "Akun berhasil dihapus.",
+    "unlinkAccount": "Apakah Anda yakin ingin memutuskan tautan akun Anda?",
+    "updateSuccess": "Berhasil diperbarui."
   },
   "languages": {
     "ar": "Arab",
     "de": "Jerman",
-    "en": "Bahasa inggris",
-    "es": "Orang Spanyol",
-    "fr": "Perancis",
+    "en": "Inggris",
+    "es": "Spanyol",
+    "fr": "Prancis",
     "hi": "Hindi",
-    "id": "bahasa Indonesia",
+    "id": "Indonesia",
     "it": "Italia",
     "ja": "Jepang",
     "pt": "Portugis",
     "tr": "Turki",
-    "vi": "Orang Vietnam",
-    "zh": "Cina"
+    "vi": "Vietnam",
+    "zh": "Tionghoa"
   },
   "categories": {
-    "fallout3": {
-      "title": "Kejatuhan 3",
+    "eldenRing": {
+      "title": "Elden Ring",
       "categories": {
         "quests": {
-          "tutorialQuests": "Quest Tutorial",
-          "mainQuests": "Quest Utama",
-          "sideQuests": "Pencarian Sampingan",
-          "unmarkedQuests": "Quest yang Tidak Ditandai",
-          "repeatableQuests": "Quest yang Dapat Diulang"
+          "mainQuests": "Misi Utama"
+        },
+        "collectables": {
+          "legendaryWeapons": "Senjata Legendaris",
+          "legendarySpiritAshes": "Abu Roh Legendaris",
+          "armourSets": "Set Armor"
+        },
+        "locations": {
+          "main": "Utama"
+        },
+        "miscellaneous": {
+          "legendarySpells": "Mantra Legendaris",
+          "achievementBosses": "Bos Prestasi"
+        }
+      },
+      "dlc": {
+        "shadowOfTheErdtree": "Shadow Of The Erdtree"
+      }
+    },
+    "fallout3": {
+      "title": "Fallout 3",
+      "categories": {
+        "quests": {
+          "tutorialQuests": "Misi Tutorial",
+          "mainQuests": "Misi Utama",
+          "sideQuests": "Misi Sampingan",
+          "unmarkedQuests": "Misi Tanpa Tanda",
+          "repeatableQuests": "Misi Berulang"
         },
         "collectables": {
           "bobbleheads": "Bobblehead",
-          "uniqueArmor": "Baju Besi Unik",
+          "uniqueArmor": "Armor Unik",
           "uniqueWeapons": "Senjata Unik"
         },
         "locations": {
@@ -166,26 +217,26 @@
           "skillBooks": "Buku Keterampilan"
         }
       },
-			"dlc": {
-				"brokenSteel": "Baja Rusak",
-				"mothershipZeta": "Kapal Induk Zeta",
-				"operationAnchorage": "Operasi Pelabuhan",
-				"pointLookout": "Titik Pengamatan",
-				"thePitt": "Pitt"
-			}
+      "dlc": {
+        "brokenSteel": "Broken Steel",
+        "mothershipZeta": "Mothership Zeta",
+        "operationAnchorage": "Operation: Anchorage",
+        "pointLookout": "Point Lookout",
+        "thePitt": "The Pitt"
+      }
     },
     "fallout4": {
-      "title": "Kejatuhan 4",
+      "title": "Fallout 4",
       "categories": {
         "quests": {
-          "mainQuests": "Quest Utama",
-          "factionQuests": "Pencarian Fraksi",
-          "sideQuests": "Pencarian Sampingan"
+          "mainQuests": "Misi Utama",
+          "factionQuests": "Misi Faksi",
+          "sideQuests": "Misi Sampingan"
         },
         "collectables": {
           "bobbleheads": "Bobblehead",
           "magazines": "Majalah",
-          "uniqueArmor": "Baju Besi Unik",
+          "uniqueArmor": "Armor Unik",
           "uniqueWeapons": "Senjata Unik"
         },
         "locations": {
@@ -196,24 +247,24 @@
         }
       },
       "dlc": {
-        "automatron": "robot",
-        "farHarbor": "Pelabuhan Jauh",
-        "nukaWorld": "Nuka-Dunia",
-        "vaultTecWorkshop": "Lokakarya Vault-Tec"
+        "automatron": "Automatron",
+        "farHarbor": "Far Harbor",
+        "nukaWorld": "Nuka-World",
+        "vaultTecWorkshop": "Vault-Tec Workshop"
       }
     },
     "skyrim": {
       "title": "Skyrim",
       "categories": {
         "quests": {
-          "mainQuests": "Quest Utama",
-          "factionQuests": "Pencarian Fraksi",
-          "civilWar": "Perang sipil",
-          "daedricQuests": "Pencarian Daedrik",
-          "dungeonQuests": "Pencarian Bawah Tanah",
-          "miscellaneousQuests": "Quest Lain-Lain",
-          "bountyQuests": "Pencarian Hadiah",
-          "globalQuests": "Pencarian Global"
+          "mainQuests": "Misi Utama",
+          "factionQuests": "Misi Faksi",
+          "civilWar": "Perang Saudara",
+          "daedricQuests": "Misi Daedric",
+          "dungeonQuests": "Misi Dungeon",
+          "miscellaneousQuests": "Misi Beragam",
+          "bountyQuests": "Misi Buronan",
+          "globalQuests": "Misi Global"
         },
         "collectables": {
           "dragonPriestMasks": "Topeng Pendeta Naga",
@@ -230,22 +281,22 @@
         },
         "miscellaneous": {
           "books": "Buku",
-          "spellTomes": "Eja Tomes",
+          "spellTomes": "Tome Mantra",
           "journals": "Jurnal"
         }
       },
       "dlc": {
-        "dawnguard": "Penjaga Fajar",
-        "dragonborn": "lahir naga",
-        "hearthfire": "api perapian"
+        "dawnguard": "Dawnguard",
+        "dragonborn": "Dragonborn",
+        "hearthfire": "Hearthfire"
       }
     },
     "witcher3": {
-      "title": "The Witcher 3: Perburuan Liar",
+      "title": "The Witcher 3: Wild Hunt",
       "categories": {
         "quests": {
-          "mainQuests": "Quest Utama",
-          "secondaryQuests": "Quest Sekunder",
+          "mainQuests": "Misi Utama",
+          "secondaryQuests": "Misi Sekunder",
           "contracts": "Kontrak",
           "treasureHunts": "Perburuan Harta Karun"
         },
@@ -257,8 +308,8 @@
         }
       },
       "dlc": {
-        "bloodAndWine": "Darah dan Anggur",
-        "heartsOfStone": "Hati Batu"
+        "bloodAndWine": "Blood And Wine",
+        "heartsOfStone": "Hearts Of Stone"
       }
     }
   }

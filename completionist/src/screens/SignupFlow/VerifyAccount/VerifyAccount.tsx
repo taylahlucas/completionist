@@ -6,6 +6,7 @@ import { UserResponse } from '@utils/CustomTypes';
 import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
 import VerificationContent from '@components/custom/Verification/VerificationContent.native';
 import { useVerifyAccount } from './hooks/useVerifyAccount.native';
+import { getUserLang } from '@utils/helpers';
 
 const VerifyAccount = () => {
   const { t } = useTranslation();
@@ -23,7 +24,7 @@ const VerifyAccount = () => {
         token={viewModel.verificationToken ?? ''}
         action={() =>
           actions
-            .signUp({ data: viewModel.loginFormData })
+            .signUp({ data: viewModel.loginFormData, lang: getUserLang() })
             .then((userResponse: UserResponse) => {
               if (userResponse) {
                 const updatedUser = {

@@ -1,4 +1,6 @@
 import { urls } from './constants';
+import * as RNLocalize from 'react-native-localize';
+import { LanguageType } from './CustomTypes';
 
 export function getApiNameFromUrl(url: string) {
   const currentUrl = urls.find((value: string) => url.includes(value));
@@ -15,7 +17,6 @@ export function getApiNameFromUrl(url: string) {
         return 'Sign In';
       case 'reset':
         return 'Forgot Pw';
-
       case 'verify':
         return 'Send Verification Email';
       case 'id':
@@ -40,3 +41,14 @@ export function getApiNameFromUrl(url: string) {
   }
   return url;
 }
+
+export const getUserLang = (): LanguageType => {
+  const locales = RNLocalize.getLocales();
+  const currentLang = locales[0]?.languageTag.split('-')[0] || 'en';
+
+  if (currentLang as LanguageType) {
+    return currentLang as LanguageType;
+  } else {
+    return 'en' as LanguageType;
+  }
+};

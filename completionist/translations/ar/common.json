@@ -1,9 +1,10 @@
 {
-  "appTitle": "المكمل.",
+  "appTitle": "Completionist.",
   "welcome": "مرحباً",
   "continue": "يكمل",
-  "search": "عناصر البحث...",
-  "showMore": "عرض المزيد",
+  "search": "عناصر البحث ...",
+  "showMore": "تظهر المزيد",
+  "or": "أو",
   "none": "لا أحد",
   "main": "رئيسي",
   "changesLeft": "التغييرات المتبقية: ",
@@ -14,7 +15,7 @@
     "userpw": "كلمة المرور",
     "username": "اسم المستخدم",
     "forgotPw": "هل نسيت كلمة السر؟",
-    "forgotPwDesc": "أدخل البريد الإلكتروني الذي قمت بالتسجيل به وكلمة المرور الجديدة.",
+    "forgotPwDesc": "أدخل البريد الإلكتروني الذي قمت بالتسجيل معه وكلمة المرور الجديدة.",
     "resetPw": "أدخل هذا الرمز لإعادة تعيين كلمة المرور الخاصة بك",
     "updatePwSuccess": "تم تحديث كلمة المرور بنجاح",
     "login": "تسجيل الدخول",
@@ -26,77 +27,63 @@
     "linkAccountDesc": "أدخل هذا الرمز لربط حساباتك {{code}}"
   },
   "screens": {
-    "quests": "أسئلة",
-    "collectables": "مقتنيات",
+    "quests": "المهام",
+    "collectables": "المقتنيات",
     "locations": "المواقع",
     "miscellaneous": "متنوع",
     "gameSelection": "اختيار اللعبة",
     "sendRequest": "إرسال الطلب",
     "purchaseGame": "لعبة الشراء",
-    "subscriptions": "الاشتراكات",
-    "selectGame": "اختر لعبة",
+    "selectGame": "حدد لعبة",
     "addSteamId": "أضف معرف البخار",
+    "achievements": "الإنجازات",
     "steamAchievements": "إنجازات البخار",
     "payments": "قسط",
     "settings": "إعدادات",
     "accountDetails": "تفاصيل الحساب",
-    "verifyAccount": "التحقق من حسابك",
+    "verifyAccount": "تحقق من حسابك",
     "forgotPw": "هل نسيت كلمة السر",
-    "verifyNewPw": "التحقق من كلمة المرور الجديدة"
+    "verifyNewPw": "تحقق من كلمة المرور الجديدة"
   },
   "login": {
-    "instructions1": "يجب أن تحتوي كلمة المرور على الأقل على:",
+    "instructions1": "يجب أن تحتوي كلمة المرور على الأقل:",
     "instructions2": "\n• 8 أحرف \n",
     "accountVerification": "تحقق من رسائل البريد الإلكتروني الخاصة بك وأدخل رمز التحقق. \n",
-    "resendToken": "إعادة إرسال رمز التحقق",
-    "tokenResent": "تمت إعادة إرسال رمز التحقق."
+    "resendToken": "إعادة تقديم رمز التحقق",
+    "tokenResent": "رمز التحقق استياء."
+  },
+  "setUsername": {
+    "title": "حدد اسم المستخدم",
+    "desc": "سيتم ربط اسم المستخدم هذا علنًا بملفك الشخصي."
   },
   "selectGame": {
-    "selectGameDesc1": "اللعبة الأولى التي تختارها ستكون مجانية.",
-    "selectGameDesc2": "يمكن شراء المزيد من الألعاب بدفعة واحدة.",
-    "selectGameDesc3": "اختر لعبتك المجانية أدناه!",
-    "selection": "لقد قمت بتحديد:\n{{gameTitle}}"
+    "selectGameDesc1": "ستكون اللعبة الأولى التي تختارها مجانية.",
+    "selectGameDesc2": "يمكن شراء المزيد من الألعاب مع دفعة لمرة واحدة.",
+    "selectGameDesc3": "حدد لعبتك المجانية أدناه!",
+    "selection": "لقد اخترت:\n{{gameTitle}}"
   },
   "purchaseGame": {
     "title": "لعبة الشراء"
   },
-  "subscriptions": {
-    "subscriptionDesc": "مع اشتراك بريميوم،\n",
-    "purchaseSubscription": "شراء الاشتراك",
-    "free": "حر",
-    "premium": "غالي",
-    "accessMultipleGames": "الوصول إلى ألعاب متعددة",
-    "noAds": "لا إعلانات",
-    "withAds": "مع الإعلانات",
-    "accessSteam": "الوصول إلى إنجازات البخار",
-    "prerequisiteTracking": "التتبع الآلي للمتطلبات الأساسية",
-    "accessPremiumFeatures": "الوصول إلى الميزات المميزة",
-    "accessOneGame": "إمكانية الوصول إلى لعبة واحدة شهريًا",
-    "accessFiveGames": "الوصول إلى خمس مباريات شهريا",
-    "accessAllGames": "الوصول إلى جميع الألعاب",
-    "revokedAccess": "تم إبطال الوصول إلى الميزات",
-    "monthly": "شهريا",
-    "yearly": "سنوي"
-  },
   "payments": {
-    "selectPlan": "اختر خطة الدفع:",
-    "selectType": "اختر نوع الدفع:",
+    "selectPlan": "حدد خطة الدفع:",
+    "selectType": "حدد نوع الدفع:",
     "confirm": "تأكيد الشراء"
   },
   "sendRequest": {
     "subject": "موضوع",
-    "writeRequest": "أكتب طلبك هنا...",
+    "writeRequest": "اكتب طلبك هنا ...",
     "requestGameDesc": "لا تتردد في طلب لعبة أو الإبلاغ عن خطأ أو تقديم بعض الاقتراحات للمساعدة في تحسين التطبيق!",
     "verifyAccount": "مرحبًا،\n\n\n{{code}}"
   },
   "settings": {
-    "setCollections": "تعيين المجموعات النشطة:",
-    "enabledDLC": "تمكين/تعطيل المحتوى القابل للتنزيل:",
-    "showHide": "إظهار/إخفاء:",
+    "setCollections": "تعيين مجموعات نشطة:",
+    "enabledDLC": "تمكين/تعطيل DLC:",
+    "showHide": "يعرض:",
     "completedItems": "العناصر المكتملة",
-    "disabledSections": "الأقسام المعطلة",
+    "disabledSections": "أقسام معاق",
     "changeAccountDetails": "تغيير تفاصيل الحساب",
-    "selectLanguage": "اختر اللغة:"
+    "selectLanguage": "حدد اللغة:"
   },
   "accountDetails": {
     "changeUsername": "تغيير اسم المستخدم",
@@ -105,42 +92,52 @@
     "updateDetails": "تحديث التفاصيل",
     "currentPw": "كلمة المرور الحالية",
     "newPw": "كلمة المرور الجديدة",
-    "invalidUserName": "يرجى التأكد من أن اسم المستخدم يحتوي على حرف واحد على الأقل.",
-    "invalidUserEmail": "يرجى التأكد من أنك تستخدم بريدا إلكترونيا صالحا."
+    "invalidUserName": "يرجى التأكد من أن اسم المستخدم لديه شخصية واحدة على الأقل.",
+    "invalidUserEmail": "يرجى التأكد من أنك تستخدم بريدًا إلكترونيًا صالحًا."
+  },
+  "achievements": {
+    "linkSteamAccount": "ارتباط حساب Steam",
+    "progress": "تقدم",
+    "noSteamPermissionTitle": "لا إذن",
+    "noSteamPermissionDesc": "ليس لديك إذن لعرض هذه الإنجازات. ",
+    "noPermissionReason1": "تحقق مما إذا كنت تملك هذه اللعبة على Steam.",
+    "noPermissionReason2": "منح إذنًا لـ \"تفاصيل اللعبة\" في تفضيلات Steam الخاصة بك.\n",
+    "noAchievementsAvailable": "إنجازات البخار غير متوفرة لهذه اللعبة.",
+    "seeInstructions": "انظر التعليمات"
   },
   "steamAchievements": {
-    "addSteamIdStep1": "الخطوة 1. ابحث عن معرف Steam الخاص بك وأضفه",
-    "addSteamIdDesc1": "للعثور على معرف Steam الخاص بك، توجه إلى Steam وحدد \"عرض الملف الشخصي\".",
-    "addSteamIdDesc2": "يمكنك العثور على المعرف في الجزء العلوي من ملفك الشخصي. ",
+    "addSteamIdStep1": "الخطوة 1. ابحث وأضف معرف البخار الخاص بك",
+    "addSteamIdDesc1": "للعثور على معرف Steam الخاص بك ، توجه إلى Steam وحدد \"عرض الملف الشخصي\".",
+    "addSteamIdDesc2": "يمكنك العثور على المعرف في الجزء العلوي من ملف التعريف الخاص بك. ",
     "addSteamIdStep2": "الخطوة 2. قم بتحديث تفضيلات الخصوصية الخاصة بك",
-    "addSteamIdDesc3": "ستحتاج أيضًا إلى التأكد من أن ملفك الشخصي عام.",
-    "addSteamIdDesc4": "يمكنك القيام بذلك عن طريق التوجه إلى تفضيلات Steam -> إعدادات الخصوصية",
+    "addSteamIdDesc3": "ستحتاج أيضًا إلى التأكد من أن ملف التعريف الخاص بك عام.",
+    "addSteamIdDesc4": "يمكنك القيام بذلك عن طريق التوجه إلى برامج البخار -> إعدادات الخصوصية",
     "steamIdPlaceholder": "معرف البخار"
   },
   "errors": {
     "error": "خطأ",
     "incorrectCode": "رمز غير صحيح",
     "incorrectCodeDesc": "الرمز الذي أدخلته غير صحيح. ",
-    "pleaseRefreshApp": "يرجى تحديث التطبيق",
+    "pleaseRefreshApp": "الرجاء تحديث التطبيق",
     "emailAlreadyExists": "البريد الإلكتروني موجود بالفعل",
-    "emailNotFound": "لم يتم العثور على البريد الإلكتروني",
+    "emailNotFound": "البريد الإلكتروني لم يتم العثور عليه",
     "noEmailExists": "البريد الإلكتروني غير موجود",
-    "checkCredentials": "يرجى التحقق من بيانات الاعتماد الخاصة بك وحاول مرة أخرى.",
+    "checkCredentials": "يرجى التحقق من بيانات الاعتماد الخاصة بك والمحاولة مرة أخرى.",
     "incorrectPw": "كلمة مرور غير صحيحة. ",
-    "googleSignIn": "حدث خطأ أثناء تسجيل الدخول إلى Google",
-    "googleSignInMsg": "حدثت مشكلة أثناء الحصول على معلومات لحساب Google هذا.",
+    "googleSignIn": "خطأ في تسجيل الدخول إلى Google",
+    "googleSignInMsg": "مشكلة في الحصول على معلومات لحساب Google هذا.",
     "accountExists": "الحساب موجود بالفعل",
     "accountExistsMsg": "هل ترغب في ربط هذه الحسابات؟",
     "permissionDenied": "تم رفض الإذن",
     "permissionDeniedMsg": "يرجى السماح بالوصول من خلال إعدادات Steam الخاصة بك.",
     "unauthorized": "غير مصرح به",
-    "unauthorizedMsg": "أنت غير مصرح لك باستخدام هذا الحساب. ",
+    "unauthorizedMsg": "أنت غير مصرح به لاستخدام هذا الحساب. ",
     "steamAchievements": "لا يمكن الحصول على إنجازات البخار لهذه اللعبة.",
     "differentEmail": "الرجاء استخدام عنوان بريد إلكتروني مختلف.",
-    "linkedWithGoogle": "تم ربط هذا البريد الإلكتروني بالفعل من خلال Google. \n",
-    "linkedWithRegular": "تم ربط هذا البريد الإلكتروني بالفعل. \n",
-    "retryLogin": "لا يمكنك إنشاء حساب جديد بهذا البريد الإلكتروني. ",
-    "noSteamId": "لم يتم العثور على معرف البخار."
+    "linkedWithGoogle": "هذا البريد الإلكتروني مرتبط بالفعل من خلال Google. \n",
+    "linkedWithRegular": "هذا البريد الإلكتروني مرتبط بالفعل. \n",
+    "retryLogin": "أنت غير قادر على إنشاء حساب جديد مع هذا البريد الإلكتروني. ",
+    "noSteamId": "معرف البخار غير موجود."
   },
   "alerts": {
     "cta": {
@@ -152,13 +149,10 @@
     "unsavedChanges": "التغييرات غير المحفوظة",
     "unsavedChangesMessage": "هل أنت متأكد أنك تريد العودة؟",
     "deleteConfirmation": "هل أنت متأكد؟",
-    "deleteConfirmationMessage": "إذا قمت بحذف هذا الحساب، فلن تتمكن من استعادته.",
-    "deleteSuccess": "تم حذف الحساب بنجاح.",
+    "deleteConfirmationMessage": "إذا قمت بحذف هذا الحساب ، فلن تتمكن من استرداده.",
+    "deleteSuccess": "الحساب تم حذفه بنجاح.",
     "unlinkAccount": "هل أنت متأكد أنك تريد إلغاء ربط حسابك؟",
-    "changesLeft": "سيكون لديك {{changesLeft}} يتغير{{s}} غادر.",
-    "noChangesLeft": "لا توجد تغييرات اليسار",
-    "noChangesLeftMessage": "عذرًا، لم يتبق لديك أي تغييرات في اللعبة لهذا الشهر.\n ",
-    "updateSuccess": "تم التحديث بنجاح."
+    "updateSuccess": "تم تحديثها بنجاح."
   },
   "languages": {
     "ar": "عربي",
@@ -167,68 +161,68 @@
     "es": "الأسبانية",
     "fr": "فرنسي",
     "hi": "الهندية",
-    "id": "الاندونيسية",
-    "it": "ايطالي",
+    "id": "إندونيسي",
+    "it": "إيطالي",
     "ja": "اليابانية",
     "pt": "البرتغالية",
-    "tr": "تركي",
-    "vi": "الفيتنامية",
+    "tr": "التركية",
+    "vi": "الفيتنامي",
     "zh": "الصينية"
   },
   "categories": {
     "eldenRing": {
-      "title": "خاتم الدن",
+      "title": "حلقة الفين",
       "categories": {
         "quests": {
           "mainQuests": "المهام الرئيسية"
         },
         "collectables": {
           "legendaryWeapons": "الأسلحة الأسطورية",
-          "legendarySpiritAshes": "رماد الروح الأسطوري",
+          "legendarySpiritAshes": "رماد الروح الأسطورية",
           "armourSets": "مجموعات الدروع"
         },
         "locations": {
           "main": "رئيسي"
         },
         "miscellaneous": {
-          "legendarySpells": "نوبات الأسطورية",
+          "legendarySpells": "نوبات أسطورية",
           "achievementBosses": "رؤساء الإنجاز"
         }
       },
       "dlc": {
-        "shadowOfTheErdtree": "ظل إردتري"
+        "shadowOfTheErdtree": "ظل Erdtree"
       }
     },
     "fallout3": {
       "title": "تداعيات 3",
       "categories": {
         "quests": {
-          "tutorialQuests": "أسئلة البرنامج التعليمي",
+          "tutorialQuests": "أسئلة تعليمية",
           "mainQuests": "المهام الرئيسية",
-          "sideQuests": "أسئلة جانبية",
-          "unmarkedQuests": "مهام غير محددة",
-          "repeatableQuests": "أسئلة متكررة"
+          "sideQuests": "المهام الجانبية",
+          "unmarkedQuests": "أسئلة غير محددة",
+          "repeatableQuests": "أسئلة قابلة للتكرار"
         },
         "collectables": {
-          "bobbleheads": "الرؤوس الفقاعية",
+          "bobbleheads": "bobbleheads",
           "uniqueArmor": "درع فريد",
-          "uniqueWeapons": "أسلحة فريدة من نوعها"
+          "uniqueWeapons": "أسلحة فريدة"
         },
         "locations": {
           "main": "رئيسي"
         },
         "miscellaneous": {
-          "holotapes": "هولوتابس",
+          "holotapes": "Holotapes",
           "notes": "ملحوظات",
           "skillBooks": "كتب المهارات"
         }
       },
       "dlc": {
-        "brokenSteel": "الفولاذ المكسور",
+        "brokenSteel": "مكسور الصلب",
         "mothershipZeta": "الأم زيتا",
         "operationAnchorage": "العملية: مرسى",
-        "pointLookout": "نقطة مراقبة",
-        "thePitt": "البيت"
+        "pointLookout": "نقطة انتبه",
+        "thePitt": "بيت"
       }
     },
     "fallout4": {
@@ -236,50 +230,50 @@
       "categories": {
         "quests": {
           "mainQuests": "المهام الرئيسية",
-          "factionQuests": "أسئلة الفصائل",
-          "sideQuests": "أسئلة جانبية"
+          "factionQuests": "مهام الفصيل",
+          "sideQuests": "المهام الجانبية"
         },
         "collectables": {
-          "bobbleheads": "الرؤوس الفقاعية",
+          "bobbleheads": "bobbleheads",
           "magazines": "المجلات",
           "uniqueArmor": "درع فريد",
-          "uniqueWeapons": "أسلحة فريدة من نوعها"
+          "uniqueWeapons": "أسلحة فريدة"
         },
         "locations": {
           "main": "رئيسي"
         },
         "miscellaneous": {
-          "holotapes": "هولوتابس"
+          "holotapes": "Holotapes"
         }
       },
       "dlc": {
-        "automatron": "آلي",
-        "farHarbor": "فار هاربور",
-        "nukaWorld": "نوكا وورلد",
-        "vaultTecWorkshop": "ورشة فولت تيك"
+        "automatron": "Automatron",
+        "farHarbor": "ميناء بعيد",
+        "nukaWorld": "نوكا العالم",
+        "vaultTecWorkshop": "ورشة عمل Vault-Tec"
       }
     },
     "skyrim": {
-      "title": "سكيريم",
+      "title": "Skyrim",
       "categories": {
         "quests": {
           "mainQuests": "المهام الرئيسية",
-          "factionQuests": "أسئلة الفصائل",
+          "factionQuests": "مهام الفصيل",
           "civilWar": "الحرب الأهلية",
-          "daedricQuests": "أسئلة ديدريك",
-          "dungeonQuests": "أسئلة الزنزانة",
+          "daedricQuests": "أسئلة دايدريك",
+          "dungeonQuests": "أسئلة الأبراج المحصنة",
           "miscellaneousQuests": "أسئلة متنوعة",
-          "bountyQuests": "أسئلة المكافأة",
+          "bountyQuests": "مهام المكافأة",
           "globalQuests": "المهام العالمية"
         },
         "collectables": {
           "dragonPriestMasks": "أقنعة كاهن التنين",
-          "daedricArtefacts": "التحف ديدريك",
+          "daedricArtefacts": "القطع الأثرية Daedric",
           "bugInAJar": "علة في جرة",
-          "shouts": "صيحات",
-          "uniqueArmorSets": "مجموعات دروع فريدة من نوعها",
-          "uniqueWeapons": "أسلحة فريدة من نوعها",
-          "shrines": "المزارات",
+          "shouts": "يصرخ",
+          "uniqueArmorSets": "مجموعات الدروع الفريدة",
+          "uniqueWeapons": "أسلحة فريدة",
+          "shrines": "الأضرحة",
           "stones": "الحجارة"
         },
         "locations": {
@@ -287,27 +281,27 @@
         },
         "miscellaneous": {
           "books": "كتب",
-          "spellTomes": "المجلدات الإملائية",
+          "spellTomes": "تعويذة تومس",
           "journals": "المجلات"
         }
       },
       "dlc": {
-        "dawnguard": "داونغارد",
-        "dragonborn": "دراجونبورن",
-        "hearthfire": "نار الموقد"
+        "dawnguard": "Dawnguard",
+        "dragonborn": "التنين",
+        "hearthfire": "الموقد"
       }
     },
     "witcher3": {
-      "title": "الويتشر 3: الصيد البري",
+      "title": "The Witcher 3: Wild Hunt",
       "categories": {
         "quests": {
           "mainQuests": "المهام الرئيسية",
-          "secondaryQuests": "أسئلة ثانوية",
+          "secondaryQuests": "المهام الثانوية",
           "contracts": "العقود",
-          "treasureHunts": "البحث عن الكنز"
+          "treasureHunts": "يطارد الكنز"
         },
         "collectables": {
-          "diagrams": "المخططات"
+          "diagrams": "الرسوم البيانية"
         },
         "locations": {
           "main": "رئيسي"
