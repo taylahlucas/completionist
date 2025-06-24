@@ -1,4 +1,4 @@
-import { GameKeyEnum } from '@utils/CustomEnums';
+import { ContentSectionEnum, GameKeyEnum } from '@utils/CustomEnums';
 import { GameContentItem } from '@utils/CustomInterfaces';
 import {
   fetchGameDataFromCache,
@@ -31,6 +31,11 @@ export const getGameDataFromCache = async ({
     const response = await getGameData({ game: selectedGame, lang });
 
     if (response) {
+      console.log(
+        'response: ',
+        response?.filter(item => item.section === ContentSectionEnum.QUESTS)
+          .length,
+      );
       await saveToCache(response, newKey).then(() => {
         log({
           type: 'info',
@@ -59,23 +64,24 @@ export const getGameDataFromCache = async ({
           key: newKey,
         },
       });
+      // TODO: Add to translations
       Alert.alert(
         'Could not get game data',
         'Please close the app and try again.',
       );
       return [];
     }
-  } catch (e) {
+  } catch (e: any) {
     log({
       type: 'error',
       title: 'Failed to fetch game data',
       data: {
         error: JSON.stringify(
           {
-            message: e.message,
-            name: e.name,
-            code: e.code,
-            url: e.config?.url,
+            message: e?.message,
+            name: e?.name,
+            code: e?.code,
+            url: e?.config?.url,
           },
           null,
           2,

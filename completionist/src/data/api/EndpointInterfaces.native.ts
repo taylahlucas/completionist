@@ -10,7 +10,8 @@ import { LanguageType, UserResponse } from '@utils/CustomTypes';
 
 export interface SignUpProps {
   data: LoginFormData;
-  settings: UserSettings;
+  lang: LanguageType;
+  settings?: UserSettings;
 }
 
 export interface SignInProps {
@@ -75,7 +76,7 @@ export interface AuthEndpointsReturnType {
     googleId,
   }: SignInProps) => Promise<UserResponse>;
   signIn: ({ email, pw, googleId }: SignInProps) => Promise<UserResponse>;
-  signUp: ({ data }: SignUpProps) => Promise<UserResponse>;
+  signUp: ({ data, lang }: SignUpProps) => Promise<UserResponse>;
   sendVerificationEmail: ({
     emailTo,
     subject,

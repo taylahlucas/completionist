@@ -57,7 +57,7 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
       .catch(error => {
         if (error?.response?.status === requestCodes.WRONG_PASSWORD) {
           const currentAttempts = user.account.pwAttempts;
-          // TODO: Move this to BE
+          // TODO: Move this to BE & add to translations
           if (currentAttempts > maxPwAttempts) {
             Alert.alert(
               'Too many incorrect attempts. You have been temporarily locked out of your accout. Please try again later.',
