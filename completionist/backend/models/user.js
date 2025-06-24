@@ -50,7 +50,23 @@ const userSchema = Joi.object().keys({
     .required(),
   settings: Joi.object()
     .keys({
-      lang: Joi.string().default('en').required(),
+      lang: Joi.string()
+        .valid(
+          'ar',
+          'de',
+          'en',
+          'es',
+          'fr',
+          'hi',
+          'id',
+          'it',
+          'ja',
+          'pt',
+          'tr',
+          'vi',
+          'zh',
+        )
+        .required(),
       configs: Joi.array().items(isActiveSchema).required(),
     })
     .required(),

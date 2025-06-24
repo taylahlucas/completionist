@@ -14,6 +14,7 @@ import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
 import { getPriceForGame } from '@data/hooks/index';
 import { getGameDataFromCache } from '@data/helpers/getGameDataFromCache.native';
 import { getMappedGameData } from '@data/helpers/mapGameData.native';
+import { useTranslation } from 'react-i18next';
 
 interface UsePurchaseGameReturnType {
   viewModel: {
@@ -42,6 +43,7 @@ interface PaymentIntentReturnType {
 }
 
 const usePurchaseGame = (gameId: GameKeyEnum): UsePurchaseGameReturnType => {
+  const { t } = useTranslation();
   const { translateGameName } = useTranslateGameContent();
   const navigation = useReactNavigation();
   const selectedGame = allGameData.find(game => game.id === gameId);
@@ -53,7 +55,7 @@ const usePurchaseGame = (gameId: GameKeyEnum): UsePurchaseGameReturnType => {
   });
 
   useEffect(() => {
-    getGameDataFromCache(gameId).then(response => {
+    getGameDataFromCache({ selectedGame: gameId }).then(response => {
       const mappedGameData = getMappedGameData(response);
       setGameContent(mappedGameData);
     });
@@ -88,7 +90,7 @@ const usePurchaseGame = (gameId: GameKeyEnum): UsePurchaseGameReturnType => {
         activateGame(user, selectedGame.id);
         Alert.alert('Success', 'Your payment was confirmed!', [
           {
-            text: 'Ok',
+            text: t('common:alerts.cta.ok'),
             onPress: () => navigation.goBack(),
           },
         ]);

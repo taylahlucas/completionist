@@ -34,16 +34,16 @@ const SetUsername = () => {
       }}
     />
   );
-  // TODO: Add to translations
+
   return (
     <StandardLayout>
       <NavigationHeader
         id={UnauthorizedScreenEnum.SetUsername}
-        title={t('common.setUsername.title')}
+        title={t('common:setUsername.title')}
         leftAction="none"
       />
       <KeyboardAvoidingScrollView awareView={renderAwareView()}>
-        <StyledText>{t('common.setUsername.desc')}</StyledText>
+        <StyledText>{t('common:setUsername.desc')}</StyledText>
         <Spacing />
         <TextInput
           testID="username"

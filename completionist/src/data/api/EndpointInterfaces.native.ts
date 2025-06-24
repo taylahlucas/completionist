@@ -4,12 +4,13 @@ import {
   User,
   SteamProfile,
   SteamAchievementItem,
+  UserSettings,
 } from '@utils/CustomInterfaces';
 import { LanguageType, UserResponse } from '@utils/CustomTypes';
 
 export interface SignUpProps {
   data: LoginFormData;
-  lang: LanguageType;
+  settings: UserSettings;
 }
 
 export interface SignInProps {

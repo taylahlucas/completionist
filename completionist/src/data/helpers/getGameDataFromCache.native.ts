@@ -25,17 +25,11 @@ export const getGameDataFromCache = async ({
   try {
     // Try to get cached data first
     const cachedData = await fetchGameDataFromCache(newKey);
-    log({
-      type: 'info',
-      title: 'Fetched cached data with key',
-      data: {
-        key: newKey,
-      },
-    });
     if (cachedData) return cachedData;
 
-    // If no cache, fetch from API/database
+    // If no game data is cached, fetch from API/database
     const response = await getGameData({ game: selectedGame, lang });
+
     if (response) {
       await saveToCache(response, newKey).then(() => {
         log({
@@ -76,7 +70,16 @@ export const getGameDataFromCache = async ({
       type: 'error',
       title: 'Failed to fetch game data',
       data: {
-        error: JSON.stringify(e, null, 2),
+        error: JSON.stringify(
+          {
+            message: e.message,
+            name: e.name,
+            code: e.code,
+            url: e.config?.url,
+          },
+          null,
+          2,
+        ),
       },
     });
     return [];

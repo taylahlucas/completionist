@@ -53,7 +53,10 @@ export const signUp = async ({
         username: !!data.username,
         selectGame: false,
       },
-      lang: lang ?? 'en',
+      settings: {
+        lang: lang ?? 'en',
+        configs: [],
+      },
     })
     .then(response => {
       if (response.data.refreshTokenExpiry) {

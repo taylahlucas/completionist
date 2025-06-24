@@ -25,7 +25,7 @@ const useGetNavigationFooterDrawerItems = (): NavigationFooterDrawerItem[] => {
     },
     {
       id: DrawerScreenEnum.Achievements,
-      title: 'Achievements',
+      title: t('common:screens.achievements'),
       icon: 'wallet-outline',
       iconType: IconTypeEnum.Ionicons,
     },
