@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from '@utils/testing/TestLibraryUtils.native';
-import { initialState as mainState } from '@redux/MainState';
+import { initialState as mainState } from '@redux/main-state';
 import { userLoggedInMock } from '@utils/testing/test-helper/__mocks__/mocks';
 import GameListSectionDropdown from '../game-list-section-dropdown';
 

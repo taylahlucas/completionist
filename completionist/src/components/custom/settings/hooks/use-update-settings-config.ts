@@ -1,7 +1,10 @@
 import { SettingsConfigItem, IsActive } from '@utils/CustomInterfaces';
 
-const useUpdateSettingsConfig = () => {
-  const updateConfig = (config: SettingsConfigItem[], item: IsActive): SettingsConfigItem[] => {
+export const useUpdateSettingsConfig = () => {
+  const updateConfig = (
+    config: SettingsConfigItem[],
+    item: IsActive,
+  ): SettingsConfigItem[] => {
     return config.map(section => {
       // Main category
       if (item.id === section.section.id) {
@@ -9,23 +12,22 @@ const useUpdateSettingsConfig = () => {
           section: {
             id: section.section.id,
             // TODO: This is not updating
-            isActive: !section.section.isActive
+            isActive: !section.section.isActive,
           },
           categories: section.categories.map(category => {
             return {
               id: category.id,
-              isActive: !section.section.isActive
-            }
+              isActive: !section.section.isActive,
+            };
           }),
           dlc: section.dlc?.map(dlc => {
             return {
               id: dlc.id,
-              isActive: !section.section.isActive
-            }
+              isActive: !section.section.isActive,
+            };
           }),
-        }
-      }
-      else {
+        };
+      } else {
         // Sub category
         return {
           section: section.section,
@@ -33,10 +35,9 @@ const useUpdateSettingsConfig = () => {
             if (category.id === item.id) {
               return {
                 id: category.id,
-                isActive: !category.isActive
-              }
-            }
-            else {
+                isActive: !category.isActive,
+              };
+            } else {
               return category;
             }
           }),
@@ -44,19 +45,16 @@ const useUpdateSettingsConfig = () => {
             if (dlc.id === item.id) {
               return {
                 id: dlc.id,
-                isActive: !dlc.isActive
-              }
-            }
-            else {
+                isActive: !dlc.isActive,
+              };
+            } else {
               return dlc;
             }
-          })
-        }
+          }),
+        };
       }
-    }) as SettingsConfigItem[]
-  }
+    }) as SettingsConfigItem[];
+  };
 
   return { updateConfig };
 };
-
-export default useUpdateSettingsConfig;

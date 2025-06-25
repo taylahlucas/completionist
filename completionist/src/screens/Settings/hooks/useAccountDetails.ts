@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 import { checkUserExists } from '@data/api/authEndpoints';
 import { useEditUserData } from '@data/hooks/index';
 import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
-import useMainState from '@redux/hooks/useMainState';
+import useMainState from '@redux/hooks/use-main-state';
 import { DrawerScreenEnum } from '@utils/CustomEnums';
 import { isEmailValid, isPwValid, isNameValid } from '@utils/hooks/index';
 import { updateUser, changePw } from '@data/api/endpoints';

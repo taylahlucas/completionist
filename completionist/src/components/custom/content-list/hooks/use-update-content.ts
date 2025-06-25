@@ -1,5 +1,4 @@
-import useMainDispatch from '@redux/hooks/useMainDispatch';
-import useMainState from '@redux/hooks/useMainState';
+import { useMainState, useMainDispatch } from '@redux/hooks';
 import { Item } from '@utils/CustomInterfaces';
 import { useContentState } from '../provider';
 import { ContentSectionEnum } from '@utils/CustomEnums';

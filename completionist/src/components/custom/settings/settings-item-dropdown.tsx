@@ -10,25 +10,24 @@ import {
   SettingsTitle,
   SettingsMainItem,
   SettingsMainItemTitle,
-} from './SettingsStyledComponents.native';
+} from './';
 import useGetTheme from '@styles/hooks/useGetTheme';
-import useSettingsState from './provider/useSettingsState';
-import useSettingsDispatch from './provider/useSettingsDispatch';
-import useMainState from '@redux/hooks/useMainState';
+import { useSettingsState, useSettingsDispatch } from './provider';
+import useMainState from '@redux/hooks/use-main-state';
 import CheckBox from '@components/general/Checkbox/CheckBox.native';
-import useUpdateGameSettings from './hooks/useUpdateGameSettings';
+import { useUpdateGameSettings } from './hooks';
 import {
   useEditUserData,
   useTranslateGameContent,
   useGetUserGameData,
-} from '@data/hooks/index';
+} from '@data/hooks';
 
 interface SettingsItemDropdownProps {
   item: IsActive;
   triggerListOpen: (value: boolean) => void;
 }
 
-const SettingsItemDropdown = ({
+export const SettingsItemDropdown = ({
   item,
   triggerListOpen,
 }: SettingsItemDropdownProps) => {
@@ -38,8 +37,7 @@ const SettingsItemDropdown = ({
   const { saveUser } = useEditUserData();
   const { setSelectedCategory } = useSettingsDispatch();
   const { selectedCategory } = useSettingsState();
-  const { getUserSettingsSubConfig, getUserSettingsDLC } =
-    useGetUserGameData(selectedGame);
+  const { getUserSettingsSubConfig, getUserSettingsDLC } = useGetUserGameData();
   const { translateCategoryName, translateDLCName } = useTranslateGameContent();
   const updateGameSettings = useUpdateGameSettings();
   const isOpen = item.id === selectedCategory.category;
@@ -117,5 +115,3 @@ const SettingsItemDropdown = ({
     </Dropdown>
   );
 };
-
-export default SettingsItemDropdown;

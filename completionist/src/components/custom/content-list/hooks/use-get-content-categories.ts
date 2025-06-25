@@ -1,8 +1,5 @@
-import {
-  useGetSettingsConfig,
-  useTranslateGameContent,
-} from '@data/hooks/index';
-import useMainState from '@redux/hooks/useMainState';
+import { useGetSettingsConfig, useTranslateGameContent } from '@data/hooks';
+import { useMainState } from '@redux/hooks';
 import { GameKeyEnum } from '@utils/CustomEnums';
 import { ContentItem, GameContentItem } from '@utils/CustomInterfaces';
 import { useContentState } from '../provider';

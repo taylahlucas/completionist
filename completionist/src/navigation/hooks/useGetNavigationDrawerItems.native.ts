@@ -5,7 +5,7 @@ import useCheckSectionEnabled from './useCheckSectionEnabled.native';
 import { NavigationDrawerItemData } from '@utils/CustomInterfaces';
 import useContentState from '@components/custom/ContentList/provider/useContentState';
 import { filterActiveSections } from '@data/helpers/filterActiveSections.native';
-import useMainState from '@redux/hooks/useMainState';
+import useMainState from '@redux/hooks/use-main-state';
 
 const useGetNavigationDrawerItems = (): NavigationDrawerItemData[] => {
   const { t } = useTranslation();

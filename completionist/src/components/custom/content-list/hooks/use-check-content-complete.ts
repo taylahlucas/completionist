@@ -1,4 +1,4 @@
-import useMainState from '@redux/hooks/useMainState';
+import { useMainState } from '@redux/hooks';
 import { GameContentItem } from '@utils/CustomInterfaces';
 import { ContentSectionEnum } from '@utils/CustomEnums';
 import { useContentState } from '../provider';

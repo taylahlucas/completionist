@@ -17,7 +17,7 @@ import {
   setCompletedMiscItems,
   setCompletedLocations,
   reset,
-} from '../MainState';
+} from '../main-state';
 import { useAppDispatch } from '../store';
 
 // TODO: Change from value to more descriptive value
@@ -38,7 +38,7 @@ interface MainDispatch {
   reset: () => void;
 }
 
-const useMainDispatch = (): MainDispatch => {
+export const useMainDispatch = (): MainDispatch => {
   const dispatch: Dispatch = useAppDispatch();
 
   return {
@@ -86,5 +86,3 @@ const useMainDispatch = (): MainDispatch => {
     },
   };
 };
-
-export default useMainDispatch;

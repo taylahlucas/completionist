@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react';
-import useMainState from '@redux/hooks/useMainState';
+import useMainState from '@redux/hooks/use-main-state';
 import { AppState } from 'react-native';
-import useMainDispatch from '@redux/hooks/useMainDispatch';
+import useMainDispatch from '@redux/hooks/use-main-dispatch';
 import { useEditUserData } from '@data/hooks/index';
 import useLoginState from '@components/custom/LoginForm/provider/useLoginState';
 import useLoginDispatch from '@components/custom/LoginForm/provider/useLoginDispatch';

@@ -11,11 +11,11 @@ import useGetNavigationDrawerItems from './hooks/useGetNavigationDrawerItems.nat
 import useGetLoginMethods from '@components/custom/LoginForm/hooks/useGetLoginMethods';
 import { AuthScreenEnum } from '@utils/CustomEnums';
 import useGetTheme from '@styles/hooks/useGetTheme';
-import useMainState from '@redux/hooks/useMainState';
+import useMainState from '@redux/hooks/use-main-state';
 import useGetNavigationFooterDrawerItems from './hooks/useGetNavigationFooterDrawerItems.native';
 import NavigationDrawerItem from './NavigationDrawerItem.native';
 import { useTranslation } from 'react-i18next';
-import useMainDispatch from '@redux/hooks/useMainDispatch';
+import useMainDispatch from '@redux/hooks/use-main-dispatch';
 
 const NavigationDrawerBody: React.FunctionComponent = () => {
   const { t } = useTranslation();

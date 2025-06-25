@@ -7,8 +7,8 @@ import {
   PaymentTierEnum,
 } from './CustomEnums';
 import { NavigationAction, NavigationState } from '@react-navigation/native';
-import { MainState } from '@redux/MainState';
-import { SettingsState } from '@components/custom/Settings/provider/SettingsState';
+import { MainState } from '@redux/main-state';
+import { SettingsState } from '@components/custom/settings/provider/settings-state';
 import { LoginState } from '@components/custom/LoginForm/provider/LoginState';
 import { ContentState } from '@components/custom/ContentList/provider/ContentState';
 import { SubscriptionState } from '@components/custom/SubscriptionContent/provider/SubscriptionState';

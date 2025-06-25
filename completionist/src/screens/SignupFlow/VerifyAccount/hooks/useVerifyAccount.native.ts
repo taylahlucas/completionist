@@ -3,7 +3,7 @@ import useLoginState from '@components/custom/LoginForm/provider/useLoginState';
 import { signUp, linkAndSignIn } from '@data/api/authEndpoints';
 import { useIsRequestLoading } from '@data/api/hooks/useIsRequestLoading.native';
 import { useEditUserData } from '@data/hooks/index';
-import useMainState from '@redux/hooks/useMainState';
+import useMainState from '@redux/hooks/use-main-state';
 
 export const useVerifyAccount = () => {
   const { user } = useMainState();

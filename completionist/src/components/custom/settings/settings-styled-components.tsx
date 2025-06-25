@@ -1,8 +1,15 @@
 import { StyleSheet, Animated } from 'react-native';
 import styled from 'styled-components/native';
 import StyledText from '@components/general/Text/StyledText.native';
-import { DEFAULT_BORDER_RADIUS, SMALL_WIDTH, STANDARD_WIDTH, SMALL_PADDING, MID_PADDING, windowWidth } from '@styles/global.native';
-import {ScrollableList} from '@components/general/Lists/index';
+import {
+  DEFAULT_BORDER_RADIUS,
+  SMALL_WIDTH,
+  STANDARD_WIDTH,
+  SMALL_PADDING,
+  MID_PADDING,
+  windowWidth,
+} from '@styles/global.native';
+import { ScrollableList } from '@components/general/Lists/index';
 
 interface SettingsMainItemProps {
   color: string;
@@ -10,26 +17,26 @@ interface SettingsMainItemProps {
 
 export const styles = StyleSheet.create({
   scrollContent: {
-    paddingBottom: 16
-  }
+    paddingBottom: 16,
+  },
 });
 
 export const SettingsAvatarContainer = styled.Image`
-	width: 115px;
-	height: 115px;
-	border-radius: 100px;
-	align-self: center;
-	margin-bottom: ${MID_PADDING}px;
+  width: 115px;
+  height: 115px;
+  border-radius: 100px;
+  align-self: center;
+  margin-bottom: ${MID_PADDING}px;
 `;
 
 export const SettingsEmail = styled(StyledText)`
-	margin: ${MID_PADDING}px 0px 16px 0px;
+  margin: ${MID_PADDING}px 0px 16px 0px;
 `;
 
 export const SettingsDescription = styled(StyledText)`
   width: ${STANDARD_WIDTH}px;
   padding-top: ${MID_PADDING}px;
-	padding-bottom: ${SMALL_PADDING}px;
+  padding-bottom: ${SMALL_PADDING}px;
 `;
 
 export const SettingsCollectionList = styled(Animated.View)`
@@ -39,7 +46,7 @@ export const SettingsCollectionList = styled(Animated.View)`
   border-radius: ${DEFAULT_BORDER_RADIUS}px;
   border-color: grey;
   align-self: center;
-  zIndex: -1;
+  zindex: -1;
   overflow: scroll;
 `;
 
@@ -86,7 +93,7 @@ export const SettingsTitle = styled(StyledText)`
 `;
 
 export const AccountDetailsFieldTitle = styled(StyledText)`
-	width: 100%;
-	margin-left: 16px;
-	margin-bottom: -8px;
+  width: 100%;
+  margin-left: 16px;
+  margin-bottom: -8px;
 `;

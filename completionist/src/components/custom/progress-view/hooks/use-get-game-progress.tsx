@@ -1,4 +1,4 @@
-import useMainState from '@redux/hooks/useMainState';
+import useMainState from '@redux/hooks/use-main-state';
 import { ContentSectionEnum, GameKeyEnum } from '@utils/CustomEnums';
 import { getCurrentGame } from '@data/hooks/index';
 

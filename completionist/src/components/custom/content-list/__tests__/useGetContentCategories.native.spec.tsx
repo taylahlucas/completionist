@@ -1,5 +1,5 @@
 import { renderHook } from '@utils/testing/TestLibraryUtils.native';
-import { initialState as mainState } from '@redux/MainState';
+import { initialState as mainState } from '@redux/main-state';
 import { mockSettingsSections } from '@utils/testing/test-helper/__mocks__/mocks';
 import useGetContentCategories from '../hooks/use-get-content-categories';
 import { userLoggedInMock } from '@utils/testing/test-helper/__mocks__/mocks';

@@ -10,13 +10,12 @@ import {
   signUp,
 } from '@data/api/authEndpoints';
 import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
-import { useEditUserData, useRemoveUserData } from '@data/hooks/index';
-import useMainState from '@redux/hooks/useMainState';
+import { useEditUserData, useRemoveUserData } from '@data/hooks';
+import { useMainState, useMainDispatch } from '@redux/hooks';
 import { SignInProps } from '@data/api/EndpointInterfaces.native';
 import { useLoginDispatch } from '../provider';
 import { updateUser } from '@data/api/endpoints';
 import { log } from '@utils/hooks/index';
-import useMainDispatch from '@redux/hooks/useMainDispatch';
 import { useSendVerificationEmail } from './';
 import { maxPwAttempts, requestCodes } from '@utils/constants';
 import { getUserLang } from '@utils/helpers';

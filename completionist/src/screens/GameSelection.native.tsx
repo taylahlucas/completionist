@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 import StandardLayout from '@components/general/Layouts/StandardLayout.native';
 import GameList from '@components/custom/game-list/game-list';
 import NavigationHeader from '@navigation/NavigationHeader.native';
-import useMainState from '@redux/hooks/useMainState';
+import useMainState from '@redux/hooks/use-main-state';
 import CustomSearchBar from '@components/general/CustomSearchBar/CustomSearchBar.native';
 import { AuthScreenEnum } from '@utils/CustomEnums';
 

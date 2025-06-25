@@ -1,4 +1,4 @@
-import useMainState from '@redux/hooks/useMainState';
+import useMainState from '@redux/hooks/use-main-state';
 import { Item, IsActive } from '@utils/CustomInterfaces';
 import { getCurrentGame } from '@data/hooks/index';
 
@@ -17,26 +17,35 @@ export const useGetUserGameData = (): GetUserGameDataReturnType => {
   const currentGame = getCurrentGame(selectedGameSettings, user);
 
   const userQuests: Item[] = !!selectedGame
-  ? selectedGame?.quests.filter(item => item.isComplete)
-  : [];
+    ? selectedGame?.quests.filter(item => item.isComplete)
+    : [];
   const userCollectables: Item[] = !!selectedGame
-  ? selectedGame?.collectables.filter(item => item.isComplete)
-  : [];
+    ? selectedGame?.collectables.filter(item => item.isComplete)
+    : [];
   const userLocations: Item[] = !!selectedGame
-  ? selectedGame?.locations.filter(item => item.isComplete)
-  : [];
+    ? selectedGame?.locations.filter(item => item.isComplete)
+    : [];
   const userMiscItems: Item[] = !!selectedGame
-  ? selectedGame?.miscellaneous.filter(item => item.isComplete)
-  : [];
-  const userSettingsMainConfig = currentGame?.settingsConfig.general?.map(item => item.section) ?? [];
-  
+    ? selectedGame?.miscellaneous.filter(item => item.isComplete)
+    : [];
+  const userSettingsMainConfig =
+    currentGame?.settingsConfig.general?.map(item => item.section) ?? [];
+
   const getUserSettingsSubConfig = (section: string): IsActive[] => {
-    return currentGame?.settingsConfig.general?.find(item => item.section.id === section)?.categories ?? [];
-  }
+    return (
+      currentGame?.settingsConfig.general?.find(
+        item => item.section.id === section,
+      )?.categories ?? []
+    );
+  };
 
   const getUserSettingsDLC = (section: string): IsActive[] => {
-    return currentGame?.settingsConfig.general?.find(item => item.section.id === section)?.dlc ?? [];
-  }
+    return (
+      currentGame?.settingsConfig.general?.find(
+        item => item.section.id === section,
+      )?.dlc ?? []
+    );
+  };
 
   return {
     userQuests,
@@ -45,6 +54,6 @@ export const useGetUserGameData = (): GetUserGameDataReturnType => {
     userMiscItems,
     userSettingsMainConfig,
     getUserSettingsSubConfig,
-    getUserSettingsDLC
-  }
+    getUserSettingsDLC,
+  };
 };

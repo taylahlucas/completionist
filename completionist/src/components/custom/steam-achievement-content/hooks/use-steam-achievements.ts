@@ -1,7 +1,7 @@
-import useMainState from '@redux/hooks/useMainState';
+import useMainState from '@redux/hooks/use-main-state';
 import { getSteamPlayerAchievements } from '@data/api/endpoints';
 
-const useSteamAchievements = () => {
+export const useSteamAchievements = () => {
   const { user, selectedGame } = useMainState();
 
   const fetchSteamAchievements = async () => {
@@ -19,5 +19,3 @@ const useSteamAchievements = () => {
 
   return { fetchSteamAchievements };
 };
-
-export default useSteamAchievements;

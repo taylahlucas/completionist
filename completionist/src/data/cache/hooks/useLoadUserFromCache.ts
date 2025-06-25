@@ -3,8 +3,8 @@ import { getCredentials } from '../keychain';
 import { fetchUserFromCache, saveToCache } from '../localCache';
 import { getUserByUserId } from '@data/api/endpoints';
 import useLoginDispatch from '@components/custom/LoginForm/provider/useLoginDispatch';
-import useMainState from '@redux/hooks/useMainState';
-import useMainDispatch from '@redux/hooks/useMainDispatch';
+import useMainState from '@redux/hooks/use-main-state';
+import useMainDispatch from '@redux/hooks/use-main-dispatch';
 import { useEditUserData } from '@data/hooks/useEditUserData.native';
 
 export const useLoadUserFromCache = () => {

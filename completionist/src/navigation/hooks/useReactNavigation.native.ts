@@ -13,7 +13,7 @@ import {
 import { NativeStackNavigationProp } from '@react-navigation/native-stack/src/types';
 import { NativeNavigation } from '@utils/CustomInterfaces';
 import { ScreenEnumType, NavigatorParams } from '@utils/CustomTypes';
-import useMainDispatch from '@redux/hooks/useMainDispatch';
+import useMainDispatch from '@redux/hooks/use-main-dispatch';
 
 export const DrawerActions = RNDrawerActions;
 

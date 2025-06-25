@@ -5,7 +5,7 @@ import Locations from '@screens/GameContent/Locations.native';
 import Quests from '@screens/GameContent/Quests.native';
 import Miscellaneous from '@screens/GameContent/Miscellaneous.native';
 import Collectables from '@screens/GameContent/Collectables.native';
-import useMainState from '@redux/hooks/useMainState';
+import useMainState from '@redux/hooks/use-main-state';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import { useTranslateGameContent } from '@data/hooks/index';
 import { Condition } from '@components/general/index';

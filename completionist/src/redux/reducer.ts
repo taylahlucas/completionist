@@ -1,8 +1,8 @@
 import { combineReducers } from '@reduxjs/toolkit';
-import mainReducer from './MainState';
-import loginReducer from '@components/custom/LoginForm/provider/LoginState';
-import settingsReducer from '@components/custom/Settings/provider/SettingsState';
-import contentReducer from '@components/custom/ContentList/provider/ContentState';
+import mainReducer from './main-state';
+import loginReducer from '@components/custom/login-form/provider/login-state';
+import settingsReducer from '@components/custom/settings/provider/settings-state';
+import contentReducer from '@components/custom/content-list/provider/content-state';
 import subscriptionReducer from '@components/custom/SubscriptionContent/provider/SubscriptionState';
 
 export const reducers = {

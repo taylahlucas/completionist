@@ -1,5 +1,5 @@
 import { useEditUserData } from '@data/hooks/index';
-import useMainState from '@redux/hooks/useMainState';
+import useMainState from '@redux/hooks/use-main-state';
 import { useState } from 'react';
 
 export const useSetUsername = () => {

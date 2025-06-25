@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import useMainState from '@redux/hooks/useMainState';
+import useMainState from '@redux/hooks/use-main-state';
 import { SettingsOptionEnum } from '@utils/CustomEnums';
 
 interface SettingsOptionsItem {
@@ -8,7 +8,7 @@ interface SettingsOptionsItem {
   isActive: boolean;
 }
 
-const useGetShowHideOptions = (): SettingsOptionsItem[] => {
+export const useGetShowHideOptions = (): SettingsOptionsItem[] => {
   const { t } = useTranslation();
   const { user } = useMainState();
 
@@ -16,9 +16,10 @@ const useGetShowHideOptions = (): SettingsOptionsItem[] => {
     {
       id: 'disabled-sections',
       title: t('common:settings.disabledSections'),
-      isActive: user.settings.configs.find(item => item.id === SettingsOptionEnum.DISABLED_SECTIONS)?.isActive ?? false
+      isActive:
+        user.settings.configs.find(
+          item => item.id === SettingsOptionEnum.DISABLED_SECTIONS,
+        )?.isActive ?? false,
     },
   ];
 };
-
-export default useGetShowHideOptions;

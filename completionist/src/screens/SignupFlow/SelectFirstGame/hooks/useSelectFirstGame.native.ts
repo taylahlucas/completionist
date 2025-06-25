@@ -2,8 +2,8 @@ import { filterGameList } from '@components/custom/game-list/hooks/use-filter-ga
 import useLoginDispatch from '@components/custom/LoginForm/provider/useLoginDispatch';
 import useLoginState from '@components/custom/LoginForm/provider/useLoginState';
 import { useIsRequestLoading } from '@data/api/hooks/useIsRequestLoading.native';
-import useMainState from '@redux/hooks/useMainState';
-import useMainDispatch from '@redux/hooks/useMainDispatch';
+import useMainState from '@redux/hooks/use-main-state';
+import useMainDispatch from '@redux/hooks/use-main-dispatch';
 import { useActivateGame, useEditUserData } from '@data/hooks/index';
 import { getFormattedSearchString } from '@utils/hooks/index';
 import { allGameData } from '@utils/configs/gameConfigs';

@@ -1,7 +1,7 @@
 import React from 'react';
 import { I18nextProvider } from 'react-i18next';
 import { Condition } from '@components/general/index';
-import useMainState from '@redux/hooks/useMainState';
+import useMainState from '@redux/hooks/use-main-state';
 import { useInitUserData } from '@data/hooks/index';
 import Landing from './Landing.native';
 import usePlaySplashScreen from '@utils/hooks/usePlaySplashScreen.native';

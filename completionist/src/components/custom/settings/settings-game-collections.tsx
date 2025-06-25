@@ -1,23 +1,23 @@
 import React, { useState } from 'react';
 import { Animated } from 'react-native';
 import { useTranslation } from 'react-i18next';
-import SettingsItemDropdown from '@components/custom/Settings/SettingsItemDropdown.native';
 import { IsActive, GameKeyEnum } from '@utils/index';
-import { useGetUserGameData, useTranslateGameContent } from '@data/hooks/index';
+import { useGetUserGameData, useTranslateGameContent } from '@data/hooks';
 import {
+  SettingsItemDropdown,
   SettingsCollectionList,
   SettingsDescription,
-} from '@components/custom/Settings/SettingsStyledComponents.native';
+} from './';
 import {
   Dropdown,
   DropdownSelection,
   DropdownSelectionContent,
-} from '@components/general/Dropdown/index';
+} from '@components/general/Dropdown';
 import { filterGameList } from '../game-list/hooks/use-filter-game-list';
-import useMainState from '@redux/hooks/useMainState';
-import useMainDispatch from '@redux/hooks/useMainDispatch';
+import useMainState from '@redux/hooks/use-main-state';
+import useMainDispatch from '@redux/hooks/use-main-dispatch';
 
-const SettingsGameCollections = () => {
+export const SettingsGameCollections = () => {
   const { t } = useTranslation();
   const { user, selectedGameSettings } = useMainState();
   const { setSelectedGameSettings } = useMainDispatch();
@@ -75,5 +75,3 @@ const SettingsGameCollections = () => {
     </>
   );
 };
-
-export default SettingsGameCollections;

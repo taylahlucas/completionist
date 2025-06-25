@@ -1,6 +1,6 @@
 import { Alert } from 'react-native';
 import { useTranslation } from 'react-i18next';
-import useMainDispatch from '@redux/hooks/useMainDispatch';
+import useMainDispatch from '@redux/hooks/use-main-dispatch';
 import { User } from '@utils/index';
 import { useRemoveUserData } from '@data/hooks/index';
 import { updateUser, deleteUser } from '@data/api/endpoints';

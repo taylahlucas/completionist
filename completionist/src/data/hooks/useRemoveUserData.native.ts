@@ -1,7 +1,7 @@
 import useLoginDispatch from '@components/custom/LoginForm/provider/useLoginDispatch';
-import useMainDispatch from '@redux/hooks/useMainDispatch';
+import useMainDispatch from '@redux/hooks/use-main-dispatch';
 import { deleteCredentials } from '@data/cache/keychain';
-import { initialUser } from '@redux/MainState';
+import { initialUser } from '@redux/main-state';
 import { clearCache } from '../cache/localCache';
 import { initialFormData } from '@components/custom/LoginForm/provider/LoginState';
 import useContentDispatch from '@components/custom/ContentList/provider/useContentDispatch';

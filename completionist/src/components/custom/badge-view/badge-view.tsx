@@ -1,6 +1,6 @@
 import React from 'react';
 import { View } from 'react-native';
-import { ScrollableList } from '@components/general/Lists/index';
+import { ScrollableList } from '@components/general/Lists';
 import { BadgeItem } from '@utils/CustomInterfaces';
 import { LARGE_WIDTH } from '@styles/global.native';
 import useGetTheme from '@styles/hooks/useGetTheme';

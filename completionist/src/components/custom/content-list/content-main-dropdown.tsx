@@ -3,7 +3,7 @@ import { Condition } from '@components/general';
 import { Dropdown } from '@components/general/Dropdown';
 import { ListHeader } from '@components/general/Lists';
 import { ContentMainList, ContentSubDropdown } from './';
-import useMainState from '@redux/hooks/useMainState';
+import { useMainState } from '@redux/hooks';
 import {
   useCheckContentComplete,
   useGetContentCategories,

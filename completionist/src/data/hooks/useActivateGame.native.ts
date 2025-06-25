@@ -1,5 +1,5 @@
 import { useEditUserData } from '@data/hooks/index';
-import { initialGameData } from '@redux/MainState';
+import { initialGameData } from '@redux/main-state';
 import { GameKeyEnum } from '@utils/CustomEnums';
 import { User } from '@utils/CustomInterfaces';
 import {

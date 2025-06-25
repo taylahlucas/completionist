@@ -1,4 +1,4 @@
-import useMainState from '@redux/hooks/useMainState';
+import useMainState from '@redux/hooks/use-main-state';
 
 const useCheckSectionEnabled = () => {
   const { user, selectedGameSettings } = useMainState();

@@ -2,7 +2,7 @@ import React from 'react';
 import { Dropdown } from '@components/general/Dropdown';
 import { SubListHeader } from '@components/general/Lists';
 import { useContentDispatch, useContentState } from './provider';
-import useMainState from '@redux/hooks/useMainState';
+import { useMainState } from '@redux/hooks';
 import { Condition } from '@components/general';
 import { ContentSubTypeDropdown, ContentMainList } from './';
 import {

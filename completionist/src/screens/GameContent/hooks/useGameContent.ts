@@ -1,5 +1,5 @@
 import { useGetUserGameData } from '@data/hooks/index';
-import useMainState from '@redux/hooks/useMainState';
+import useMainState from '@redux/hooks/use-main-state';
 import useContentState from '@components/custom/ContentList/provider/useContentState';
 import useContentDispatch from '@components/custom/ContentList/provider/useContentDispatch';
 

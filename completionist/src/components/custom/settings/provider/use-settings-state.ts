@@ -1,9 +1,7 @@
 import { useSelector } from 'react-redux';
-import { SettingsState } from './SettingsState';
+import { SettingsState } from './settings-state';
 import { StoreState } from '@utils/CustomInterfaces';
 
-const useSettingsState = (): SettingsState => {
+export const useSettingsState = (): SettingsState => {
   return useSelector((state: StoreState) => state.settings);
-}
-
-export default useSettingsState;
+};
