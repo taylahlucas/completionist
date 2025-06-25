@@ -1,4 +1,4 @@
-import { filterGameList } from '@components/custom/GameList/hooks/useFilterGameList.native';
+import { filterGameList } from '@components/custom/game-list/hooks/use-filter-game-list';
 import useLoginDispatch from '@components/custom/LoginForm/provider/useLoginDispatch';
 import useLoginState from '@components/custom/LoginForm/provider/useLoginState';
 import { useIsRequestLoading } from '@data/api/hooks/useIsRequestLoading.native';

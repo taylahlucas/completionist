@@ -6,7 +6,7 @@ import useGetTheme from '@styles/hooks/useGetTheme';
 import { useTranslation } from 'react-i18next';
 import StyledText from '@components/general/Text/StyledText.native';
 import { SelectFirstGameContentContainer } from '@components/custom/LoginForm/LoginFormStyledComponents.native';
-import GameListItem from '@components/custom/GameList/GameListItem.native';
+import GameListItem from '@components/custom/game-list/game-list-item';
 import Button from '@components/general/Button/Button.native';
 import { KeyboardAvoidingScrollView } from '@components/general/Lists/index';
 import { Condition, Spacing, ParagraphView } from '@components/general/index';

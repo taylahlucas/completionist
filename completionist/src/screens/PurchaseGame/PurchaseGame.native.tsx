@@ -8,7 +8,7 @@ import NavigationHeader from '@navigation/NavigationHeader.native';
 import { AuthScreenEnum } from '@utils/CustomEnums';
 import { KeyboardAvoidingScrollView } from '@components/general/Lists/index';
 import Button from '@components/general/Button/Button.native';
-import GameListItem from '@components/custom/GameList/GameListItem.native';
+import GameListItem from '@components/custom/game-list/game-list-item';
 import usePurchaseGame from './hooks/usePurchaseGame';
 import { Spacing } from '@components/general/index';
 import { View } from 'react-native';

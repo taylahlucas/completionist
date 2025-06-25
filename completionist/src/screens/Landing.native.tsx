@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 import LottieView from 'lottie-react-native';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import { StandardLayoutContainer } from '@components/general/Layouts/StandardLayoutStyledComponents.native';
-import LoadingAnimation from '@components/animations/LoadingAnimation.native';
+import LoadingAnimation from '@components/animations/loading-animation';
 
 const Landing = () => {
   const theme = useGetTheme();
