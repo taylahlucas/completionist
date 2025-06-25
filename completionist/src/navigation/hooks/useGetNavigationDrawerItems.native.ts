@@ -4,7 +4,7 @@ import { useGetUserGameData, useGetSettingsConfig } from '@data/hooks/index';
 import useCheckSectionEnabled from './useCheckSectionEnabled.native';
 import { NavigationDrawerItemData } from '@utils/CustomInterfaces';
 import useContentState from '@components/custom/ContentList/provider/useContentState';
-import { filterActiveSections } from '@data/helpers/filterActiveSections.native';
+import { filterActiveSections } from '@data/helpers/filter-active-sessions';
 import useMainState from '@redux/hooks/use-main-state';
 
 const useGetNavigationDrawerItems = (): NavigationDrawerItemData[] => {

@@ -8,11 +8,11 @@ import {
   linkAndSignIn,
   signIn,
   signUp,
-} from '@data/api/authEndpoints';
+} from '@data/api/auth-endpoints';
 import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
 import { useEditUserData, useRemoveUserData } from '@data/hooks';
 import { useMainState, useMainDispatch } from '@redux/hooks';
-import { SignInProps } from '@data/api/EndpointInterfaces.native';
+import { SignInProps } from '@data/api/endpoint-interfaces';
 import { useLoginDispatch } from '../provider';
 import { updateUser } from '@data/api/endpoints';
 import { log } from '@utils/hooks/index';

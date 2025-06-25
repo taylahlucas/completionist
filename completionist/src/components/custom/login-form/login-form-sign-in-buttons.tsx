@@ -13,7 +13,7 @@ import StyledText from '@components/general/Text/StyledText.native';
 import { Condition } from '@components/general/index';
 import { isEmailValid, isPwValid, isNameValid } from '@utils/hooks/validator';
 import { useSendVerificationEmail, useGetLoginMethods } from './hooks';
-import { checkUserExists } from '@data/api/authEndpoints';
+import { checkUserExists } from '@data/api/auth-endpoints';
 import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
 
 export const LoginFormSignInButtons = () => {

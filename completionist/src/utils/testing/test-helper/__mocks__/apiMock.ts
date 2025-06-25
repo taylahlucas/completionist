@@ -1,4 +1,4 @@
-import { SignInProps } from '@data/api/EndpointInterfaces.native';
+import { SignInProps } from '@data/api/endpoint-interfaces';
 import { UserResponse } from '@utils/CustomTypes';
 import { userLoggedInMock } from './mocks';
 

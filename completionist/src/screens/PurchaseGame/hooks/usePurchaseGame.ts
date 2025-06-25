@@ -12,8 +12,8 @@ import { Alert } from 'react-native';
 import { GameContentState, GameData } from '@utils/CustomInterfaces';
 import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
 import { getPriceForGame } from '@data/hooks/index';
-import { getGameDataFromCache } from '@data/helpers/getGameDataFromCache.native';
-import { getMappedGameData } from '@data/helpers/mapGameData.native';
+import { getGameDataFromCache } from '@data/helpers/get-game-data-from-cache';
+import { getMappedGameData } from '@data/helpers/map-game-data';
 import { useTranslation } from 'react-i18next';
 
 interface UsePurchaseGameReturnType {

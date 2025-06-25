@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Alert } from 'react-native';
 import { useTranslation } from 'react-i18next';
-import { checkUserExists } from '@data/api/authEndpoints';
+import { checkUserExists } from '@data/api/auth-endpoints';
 import { useEditUserData } from '@data/hooks/index';
 import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
 import useMainState from '@redux/hooks/use-main-state';

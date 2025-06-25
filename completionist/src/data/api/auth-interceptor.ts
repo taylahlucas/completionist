@@ -10,7 +10,7 @@ import {
   AxiosErrorResponse,
   requestCodes,
 } from '@utils/index';
-import { handleAxiosError } from './handleAxiosError';
+import { handleAxiosError } from './handle-axios-error';
 import envConfig from '@utils/configs/config';
 import { getCredentials, storeCredentials } from '@data/hooks';
 import { baseUrl } from './urls';

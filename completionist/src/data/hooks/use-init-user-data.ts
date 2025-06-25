@@ -1,12 +1,13 @@
 import { useEffect, useRef } from 'react';
-import useMainState from '@redux/hooks/use-main-state';
 import { AppState } from 'react-native';
-import useMainDispatch from '@redux/hooks/use-main-dispatch';
-import { useEditUserData } from '@data/hooks/index';
-import useLoginState from '@components/custom/LoginForm/provider/useLoginState';
-import useLoginDispatch from '@components/custom/LoginForm/provider/useLoginDispatch';
+import { useMainState, useMainDispatch } from '@redux/hooks';
+import { useEditUserData } from '@data/hooks';
+import {
+  useLoginState,
+  useLoginDispatch,
+} from '@components/custom/login-form/provider';
 import useGetNavigationPath from '@navigation/hooks/useGetNavigationPath';
-import { useLoadUserFromCache } from '@data/cache/hooks/useLoadUserFromCache';
+import { useLoadUserFromCache } from '@data/cache/hooks/use-load-user-from-cache';
 
 export const useInitUserData = () => {
   const appStateRef = useRef(AppState.currentState);

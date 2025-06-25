@@ -1,14 +1,14 @@
 import { useState } from 'react';
 import { Alert } from 'react-native';
 import { useTranslation } from 'react-i18next';
-import { useIsRequestLoading } from '@data/api/hooks/useIsRequestLoading.native';
+import { useIsRequestLoading } from '@data/api/hooks/use-is-request-loading';
 import useIsKeyboardVisible from '@utils/hooks/useIsKeyboardVisible.native';
 import useLoginState from '@components/custom/LoginForm/provider/useLoginState';
 import useLoginDispatch from '@components/custom/LoginForm/provider/useLoginDispatch';
 import useSendVerificationEmail from '@components/custom/LoginForm/hooks/useSendVerificationEmail';
 import { isPwValid } from '@utils/hooks/index';
 import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
-import { checkUserExists } from '@data/api/authEndpoints';
+import { checkUserExists } from '@data/api/auth-endpoints';
 
 const useLogin = () => {
   const { t } = useTranslation();

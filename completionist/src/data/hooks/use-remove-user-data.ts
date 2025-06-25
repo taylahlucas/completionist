@@ -1,10 +1,12 @@
-import useLoginDispatch from '@components/custom/LoginForm/provider/useLoginDispatch';
-import useMainDispatch from '@redux/hooks/use-main-dispatch';
+import { useMainDispatch } from '@redux/hooks';
 import { deleteCredentials } from '@data/cache/keychain';
 import { initialUser } from '@redux/main-state';
-import { clearCache } from '../cache/localCache';
-import { initialFormData } from '@components/custom/LoginForm/provider/LoginState';
-import useContentDispatch from '@components/custom/ContentList/provider/useContentDispatch';
+import { clearCache } from '../cache/local-cache';
+import {
+  initialFormData,
+  useLoginDispatch,
+} from '@components/custom/login-form/provider';
+import { useContentDispatch } from '@components/custom/content-list/provider';
 import { log } from '@utils/hooks/index';
 import { ContentSectionEnum } from '@utils/CustomEnums';
 

@@ -1,8 +1,8 @@
 import { Alert } from 'react-native';
 import { useTranslation } from 'react-i18next';
-import useMainDispatch from '@redux/hooks/use-main-dispatch';
+import { useMainDispatch } from '@redux/hooks';
 import { User } from '@utils/index';
-import { useRemoveUserData } from '@data/hooks/index';
+import { useRemoveUserData } from '@data/hooks';
 import { updateUser, deleteUser } from '@data/api/endpoints';
 
 interface EditUserDataReturnType {

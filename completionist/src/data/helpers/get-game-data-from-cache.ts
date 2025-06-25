@@ -5,7 +5,7 @@ import {
   getAllKeys,
   removeItemFromCache,
   saveToCache,
-} from '@data/cache/localCache';
+} from '@data/cache/local-cache';
 import { Alert } from 'react-native';
 import { getGameData } from '@data/api/endpoints';
 import { LanguageType } from '@utils/CustomTypes';

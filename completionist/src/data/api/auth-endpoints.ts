@@ -1,5 +1,5 @@
 import uuid from 'react-native-uuid';
-import authInterceptor from './authInterceptor';
+import authInterceptor from './auth-interceptor';
 import { UserResponse } from '@utils/CustomTypes';
 import {
   CredentialsExistProps,
@@ -7,7 +7,7 @@ import {
   SendEmailProps,
   SignInProps,
   SignUpProps,
-} from './EndpointInterfaces.native';
+} from './endpoint-interfaces';
 import {
   baseUrl,
   checkUserExistsUrl,
@@ -18,8 +18,8 @@ import {
   signupUrl,
 } from '@data/api/urls';
 import { REFRESH_CACHE_KEY, requestCodes } from '@utils/constants';
-import { saveToCache } from '@data/cache/localCache';
-import { handleAxiosError } from './handleAxiosError';
+import { saveToCache } from '@data/cache/local-cache';
+import { handleAxiosError } from './handle-axios-error';
 
 export const checkUserExists = async (
   email: string,

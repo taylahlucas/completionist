@@ -1,11 +1,9 @@
-import { useEffect } from 'react';
 import { getCredentials } from '../keychain';
-import { fetchUserFromCache, saveToCache } from '../localCache';
+import { fetchUserFromCache, saveToCache } from '../local-cache';
 import { getUserByUserId } from '@data/api/endpoints';
-import useLoginDispatch from '@components/custom/LoginForm/provider/useLoginDispatch';
-import useMainState from '@redux/hooks/use-main-state';
-import useMainDispatch from '@redux/hooks/use-main-dispatch';
-import { useEditUserData } from '@data/hooks/useEditUserData.native';
+import { useLoginDispatch } from '@components/custom/login-form/provider';
+import { useMainState, useMainDispatch } from '@redux/hooks';
+import { useEditUserData } from '@data/hooks/use-edit-user-data';
 
 export const useLoadUserFromCache = () => {
   const { selectedGame } = useMainState();

@@ -9,8 +9,8 @@ import { languages } from 'src/i18n/i18n-common';
 import { useMainState, useMainDispatch } from '@redux/hooks';
 import { LanguageType } from '@utils/CustomTypes';
 import { useGetGameLanguages } from './hooks';
-import { getGameDataFromCache } from '@data/helpers/getGameDataFromCache.native';
-import { getMappedGameData } from '@data/helpers/mapGameData.native';
+import { getGameDataFromCache } from '@data/helpers/get-game-data-from-cache';
+import { getMappedGameData } from '@data/helpers/map-game-data';
 import { useContentDispatch } from '../content-list/provider';
 
 interface SettingsSelectLanguageProps {

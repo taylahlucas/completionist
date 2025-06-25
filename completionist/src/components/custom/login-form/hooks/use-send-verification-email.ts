@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import { sendVerificationEmail } from '@data/api/authEndpoints';
+import { sendVerificationEmail } from '@data/api/auth-endpoints';
 import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
 import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
 import { useLoginDispatch } from '../provider';

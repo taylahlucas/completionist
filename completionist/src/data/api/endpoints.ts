@@ -9,8 +9,8 @@ import {
   SendEmailProps,
   SteamAchievementsProps,
   SteamAchievementsReturnType,
-} from './EndpointInterfaces.native';
-import authInterceptor from './authInterceptor';
+} from './endpoint-interfaces';
+import authInterceptor from './auth-interceptor';
 import {
   baseUrl,
   getUserByUserIdUrl,
