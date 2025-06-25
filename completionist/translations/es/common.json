@@ -182,7 +182,7 @@
           "armourSets": "Conjuntos de armadura"
         },
         "locations": {
-          "main": "Principales"
+          "main": "Principal"
         },
         "miscellaneous": {
           "legendarySpells": "Hechizos legendarios",
@@ -209,7 +209,7 @@
           "uniqueWeapons": "Armas únicas"
         },
         "locations": {
-          "main": "Principales"
+          "main": "Principal"
         },
         "miscellaneous": {
           "holotapes": "Holocintas",
@@ -240,7 +240,7 @@
           "uniqueWeapons": "Armas únicas"
         },
         "locations": {
-          "main": "Principales"
+          "main": "Principal"
         },
         "miscellaneous": {
           "holotapes": "Holocintas"
@@ -277,7 +277,7 @@
           "stones": "Piedras"
         },
         "locations": {
-          "main": "Principales"
+          "main": "Principal"
         },
         "miscellaneous": {
           "books": "Libros",
@@ -304,7 +304,7 @@
           "diagrams": "Diagramas"
         },
         "locations": {
-          "main": "Principales"
+          "main": "Principal"
         }
       },
       "dlc": {

@@ -177,15 +177,15 @@
           "mainQuests": "Missões principais"
         },
         "collectables": {
-          "legendaryWeapons": "Armas lendárias",
-          "legendarySpiritAshes": "Cinzas espirituais lendárias",
-          "armourSets": "Conjuntos de armaduras"
+          "legendaryWeapons": "Armas Lendárias",
+          "legendarySpiritAshes": "Cinzas Espirituais Lendárias",
+          "armourSets": "Conjuntos de armadura"
         },
         "locations": {
           "main": "Principal"
         },
         "miscellaneous": {
-          "legendarySpells": "Feitiços lendários",
+          "legendarySpells": "Feitiços Lendários",
           "achievementBosses": "Chefes de conquistas"
         }
       },

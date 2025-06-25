@@ -1133,15 +1133,15 @@
               "mainQuests": "Missões principais"
             },
             "collectables": {
-              "legendaryWeapons": "Armas lendárias",
-              "legendarySpiritAshes": "Cinzas espirituais lendárias",
-              "armourSets": "Conjuntos de armaduras"
+              "legendaryWeapons": "Armas Lendárias",
+              "legendarySpiritAshes": "Cinzas Espirituais Lendárias",
+              "armourSets": "Conjuntos de armadura"
             },
             "locations": {
               "main": "Principal"
             },
             "miscellaneous": {
-              "legendarySpells": "Feitiços lendários",
+              "legendarySpells": "Feitiços Lendários",
               "achievementBosses": "Chefes de conquistas"
             }
           },
@@ -1453,7 +1453,7 @@
             "collectables": {
               "legendaryWeapons": "伝説の武器",
               "legendarySpiritAshes": "伝説の精霊の灰",
-              "armourSets": "防具セット"
+              "armourSets": "アーマーセット"
             },
             "locations": {
               "main": "メイン"
@@ -2728,7 +2728,7 @@
               "armourSets": "Ensembles d'armures"
             },
             "locations": {
-              "main": "Principales"
+              "main": "Principal"
             },
             "miscellaneous": {
               "legendarySpells": "Sorts légendaires",
@@ -3046,7 +3046,7 @@
               "armourSets": "Conjuntos de armadura"
             },
             "locations": {
-              "main": "Principales"
+              "main": "Principal"
             },
             "miscellaneous": {
               "legendarySpells": "Hechizos legendarios",
@@ -3073,7 +3073,7 @@
               "uniqueWeapons": "Armas únicas"
             },
             "locations": {
-              "main": "Principales"
+              "main": "Principal"
             },
             "miscellaneous": {
               "holotapes": "Holocintas",
@@ -3104,7 +3104,7 @@
               "uniqueWeapons": "Armas únicas"
             },
             "locations": {
-              "main": "Principales"
+              "main": "Principal"
             },
             "miscellaneous": {
               "holotapes": "Holocintas"
@@ -3141,7 +3141,7 @@
               "stones": "Piedras"
             },
             "locations": {
-              "main": "Principales"
+              "main": "Principal"
             },
             "miscellaneous": {
               "books": "Libros",
@@ -3168,7 +3168,7 @@
               "diagrams": "Diagramas"
             },
             "locations": {
-              "main": "Principales"
+              "main": "Principal"
             }
           },
           "dlc": {
