@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Dropdown } from '@components/general/Dropdown/index';
-import ProgressView from '@components/custom/ProgressView/ProgressView.native';
+import { ProgressView } from './';
 import { ProgressItem } from '@utils/CustomInterfaces';
 import SteamAchievementDropdownSubtitle from '../SteamAchievementView/SteamAchievementDropdownSubtitle.native';
 
@@ -9,7 +9,10 @@ interface ProgressViewDropdownProps {
   data: ProgressItem[];
 }
 
-const ProgressViewDropdown = ({ title, data }: ProgressViewDropdownProps) => {
+export const ProgressViewDropdown = ({
+  title,
+  data,
+}: ProgressViewDropdownProps) => {
   const [isOpen, setOpen] = useState<boolean>(false);
 
   return (
@@ -25,5 +28,3 @@ const ProgressViewDropdown = ({ title, data }: ProgressViewDropdownProps) => {
     </Dropdown>
   );
 };
-
-export default ProgressViewDropdown;

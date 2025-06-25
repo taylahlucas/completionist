@@ -2,9 +2,9 @@ import React from 'react';
 import { View } from 'react-native';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import { ProgressItemData } from '@utils/CustomInterfaces';
-import ProgressChartItem from './ProgressChartItem.native';
+import { ProgressChartItem } from './';
 import { STANDARD_WIDTH } from '@styles/global.native';
-import useGetGameProgress from './hooks/useGetGameProgress.native';
+import { useGetGameProgress } from './hooks';
 import { GameKeyEnum } from '@utils/CustomEnums';
 
 interface ProgressViewProps {
@@ -12,7 +12,7 @@ interface ProgressViewProps {
   data: ProgressItemData[];
 }
 
-const ProgressView = ({ gameId, data }: ProgressViewProps) => {
+export const ProgressView = ({ gameId, data }: ProgressViewProps) => {
   const theme = useGetTheme();
   const { getGameProgress } = useGetGameProgress();
   const colors = [theme.lightPurple, '#E63656', '#26AB9D', '#D1A34D'];
@@ -38,5 +38,3 @@ const ProgressView = ({ gameId, data }: ProgressViewProps) => {
     </View>
   );
 };
-
-export default ProgressView;

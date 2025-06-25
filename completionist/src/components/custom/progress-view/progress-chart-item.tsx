@@ -2,7 +2,7 @@ import React from 'react';
 import { View } from 'react-native';
 import { useTranslation } from 'react-i18next';
 import useGetTheme from '@styles/hooks/useGetTheme';
-import { styles } from './ProgressChartStyledComponents.native';
+import { styles } from './';
 import StyledText from '@components/general/Text/StyledText.native';
 
 interface ProgressChartItemProps {
@@ -13,7 +13,7 @@ interface ProgressChartItemProps {
   backgroundColor: string;
 }
 
-const ProgressChartItem = ({
+export const ProgressChartItem = ({
   id,
   current,
   total,
@@ -56,5 +56,3 @@ const ProgressChartItem = ({
     </>
   );
 };
-
-export default ProgressChartItem;

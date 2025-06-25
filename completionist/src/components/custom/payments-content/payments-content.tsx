@@ -10,12 +10,12 @@ import {
   PaymentPriceItem,
   PaymentPricesContainer,
   PaymentPlanSubtitle,
-} from './PaymentsContentStyledComponents.native';
+} from './';
 import Button from '@components/general/Button/Button.native';
-import { ScrollableList } from '@components/general/Lists/index';
-import { Spacing } from '@components/general/index';
+import { ScrollableList } from '@components/general/Lists';
+import { Spacing } from '@components/general';
 
-const PaymentsContent = () => {
+export const PaymentsContent = () => {
   const { t } = useTranslation();
   const theme = useGetTheme();
   const { selectedSubscription } = useSubscriptionState();
@@ -79,5 +79,3 @@ const PaymentsContent = () => {
     </>
   );
 };
-
-export default PaymentsContent;

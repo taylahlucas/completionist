@@ -2,9 +2,9 @@ import { useTranslation } from 'react-i18next';
 import { sendVerificationEmail } from '@data/api/authEndpoints';
 import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
 import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
-import useLoginDispatch from '../provider/useLoginDispatch';
+import { useLoginDispatch } from '../provider';
 
-const useSendVerificationEmail = () => {
+export const useSendVerificationEmail = () => {
   const { t } = useTranslation();
   const navigation = useReactNavigation();
   const { setVerificationToken } = useLoginDispatch();
@@ -44,5 +44,3 @@ const useSendVerificationEmail = () => {
 
   return sendVerification;
 };
-
-export default useSendVerificationEmail;

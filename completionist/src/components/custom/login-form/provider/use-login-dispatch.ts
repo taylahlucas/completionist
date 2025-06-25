@@ -7,7 +7,7 @@ import {
   setLoggedIn,
   triggerIsSigningUp,
   reset,
-} from './LoginState';
+} from './login-state';
 import { useAppDispatch } from '@redux/store';
 import { LoginFormData } from '@utils/CustomInterfaces';
 
@@ -21,7 +21,7 @@ interface LoginDispatch {
   reset: () => void;
 }
 
-const useLoginDispatch = (): LoginDispatch => {
+export const useLoginDispatch = (): LoginDispatch => {
   const dispatch: Dispatch = useAppDispatch();
 
   return {
@@ -48,5 +48,3 @@ const useLoginDispatch = (): LoginDispatch => {
     },
   };
 };
-
-export default useLoginDispatch;

@@ -1,24 +1,22 @@
 import React from 'react';
 import { View, Alert } from 'react-native';
 import { useTranslation } from 'react-i18next';
-import useGetLoginMethods from './hooks/useGetLoginMethods';
 import Button from '@components/general/Button/Button.native';
 import {
   LoginFormContentContainer,
   LoginFormFooterContainer,
   LoginButton,
-} from './LoginFormStyledComponents.native';
+} from './';
 import { GoogleSigninButton } from '@react-native-google-signin/google-signin';
-import useLoginDispatch from './provider/useLoginDispatch';
-import useLoginState from './provider/useLoginState';
+import { useLoginState, useLoginDispatch } from './provider';
 import StyledText from '@components/general/Text/StyledText.native';
 import { Condition } from '@components/general/index';
 import { isEmailValid, isPwValid, isNameValid } from '@utils/hooks/validator';
-import useSendVerificationEmail from './hooks/useSendVerificationEmail';
+import { useSendVerificationEmail, useGetLoginMethods } from './hooks';
 import { checkUserExists } from '@data/api/authEndpoints';
 import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
 
-const LoginFormSignInButtons = () => {
+export const LoginFormSignInButtons = () => {
   const { t } = useTranslation();
   const { checkUserAccount, googleUserSignIn } = useGetLoginMethods();
   const { triggerIsSigningUp } = useLoginDispatch();
@@ -86,5 +84,3 @@ const LoginFormSignInButtons = () => {
     </View>
   );
 };
-
-export default LoginFormSignInButtons;

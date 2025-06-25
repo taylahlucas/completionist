@@ -13,11 +13,11 @@ import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
 import { useEditUserData, useRemoveUserData } from '@data/hooks/index';
 import useMainState from '@redux/hooks/useMainState';
 import { SignInProps } from '@data/api/EndpointInterfaces.native';
-import useLoginDispatch from '../provider/useLoginDispatch';
+import { useLoginDispatch } from '../provider';
 import { updateUser } from '@data/api/endpoints';
 import { log } from '@utils/hooks/index';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
-import useSendVerificationEmail from '@components/custom/LoginForm/hooks/useSendVerificationEmail';
+import { useSendVerificationEmail } from './';
 import { maxPwAttempts, requestCodes } from '@utils/constants';
 import { getUserLang } from '@utils/helpers';
 
@@ -32,7 +32,7 @@ interface GetLoginMethodsReturnType {
   signOut: () => Promise<void>;
 }
 
-const useGetLoginMethods = (): GetLoginMethodsReturnType => {
+export const useGetLoginMethods = (): GetLoginMethodsReturnType => {
   const { t } = useTranslation();
   const { user, shouldUpdateUser } = useMainState();
   const { setSelectedGameSettings, setShowSplashScreen } = useMainDispatch();
@@ -230,5 +230,3 @@ const useGetLoginMethods = (): GetLoginMethodsReturnType => {
     signOut,
   };
 };
-
-export default useGetLoginMethods;
