@@ -1,11 +1,10 @@
 import React, { useState } from 'react';
 import useGetTheme from '@styles/hooks/useGetTheme';
-import { ScrollableList } from '@components/general/Lists/index';
+import { ScrollableList } from '@components/general/Lists';
 import { SteamAchievementItem } from '@utils/CustomInterfaces';
-import { Condition } from '@components/general/index';
-import { Dropdown } from '@components/general/Dropdown/index';
-import SteamAchievementView from './SteamAchievementView.native';
-import { SteamAchievementDropdownShadow } from './SteamAchievementViewStyledComponents.native';
+import { Condition } from '@components/general';
+import { Dropdown } from '@components/general/Dropdown';
+import { SteamAchievementDropdownShadow, SteamAchievementView } from './';
 import StyledDropdownHeader from '@components/general/Dropdown/StyledDropdownHeader.native';
 
 interface SteamAchievementDropdownProps {
@@ -17,7 +16,7 @@ interface SteamAchievementDropdownProps {
   setCurrentOpen: (value: string) => void;
 }
 
-const SteamAchievementDropdown = ({
+export const SteamAchievementDropdown = ({
   gameId,
   items,
   itemsLength,
@@ -64,5 +63,3 @@ const SteamAchievementDropdown = ({
     </>
   );
 };
-
-export default SteamAchievementDropdown;

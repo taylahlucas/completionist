@@ -2,7 +2,7 @@ import React from 'react';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import Icon from '@components/general/Icon/Icon.native';
 import { IconTypeEnum } from '@utils/CustomEnums';
-import { DropdownTitleContainer } from '@components/general/Dropdown/index';
+import { DropdownTitleContainer } from '@components/general/Dropdown';
 import StyledText from '@components/general/Text/StyledText.native';
 
 interface SteamAchievementDropdownTitleProps {
@@ -10,7 +10,7 @@ interface SteamAchievementDropdownTitleProps {
   isOpen: boolean;
 }
 
-const SteamAchievementDropdownTitle = ({
+export const SteamAchievementDropdownTitle = ({
   title,
   isOpen,
 }: SteamAchievementDropdownTitleProps) => {
@@ -37,5 +37,3 @@ const SteamAchievementDropdownTitle = ({
     </DropdownTitleContainer>
   );
 };
-
-export default SteamAchievementDropdownTitle;

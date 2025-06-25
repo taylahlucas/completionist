@@ -1,4 +1,4 @@
-import useMainState from '@redux/hooks/use-main-state';
+import { useMainState } from '@redux/hooks';
 import { getSteamPlayerAchievements } from '@data/api/endpoints';
 
 export const useSteamAchievements = () => {

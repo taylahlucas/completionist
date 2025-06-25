@@ -1,20 +1,20 @@
 import React from 'react';
 import useGetTheme from '@styles/hooks/useGetTheme';
-import { Condition } from '@components/general/index';
-import { SteamAchievementItem } from '@utils/CustomInterfaces';
+import { Condition } from '@components/general';
 import {
   SteamAchievementIcon,
   SteamAchievementViewContainer,
   SteamAchievementIconContainer,
   SteamItemTitle,
   SteamItemDescription,
-} from './SteamAchievementViewStyledComponents.native';
+} from './';
+import { SteamAchievementItem } from '@utils/CustomInterfaces';
 
 interface SteamAchievementViewProps {
   item: SteamAchievementItem;
 }
 
-const SteamAchievementView = ({ item }: SteamAchievementViewProps) => {
+export const SteamAchievementView = ({ item }: SteamAchievementViewProps) => {
   const theme = useGetTheme();
 
   return (
@@ -44,5 +44,3 @@ const SteamAchievementView = ({ item }: SteamAchievementViewProps) => {
     </SteamAchievementViewContainer>
   );
 };
-
-export default SteamAchievementView;

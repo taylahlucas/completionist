@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 import StandardLayout from '@components/general/Layouts/StandardLayout.native';
 import NavigationHeader from '@navigation/NavigationHeader.native';
 import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
-import VerificationContent from '@components/custom/Verification/VerificationContent.native';
+import VerificationContent from '@components/custom/verification/verification-content';
 import useVerifyNewPassword from './hooks/useVerifyNewPassword';
 
 const VerifyNewPassword = () => {

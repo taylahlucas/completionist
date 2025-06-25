@@ -2,16 +2,16 @@ import React from 'react';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import Icon from '@components/general/Icon/Icon.native';
 import { IconTypeEnum } from '@utils/CustomEnums';
-import { DropdownTitleContainer } from '@components/general/Dropdown/index';
+import { DropdownTitleContainer } from '@components/general/Dropdown';
 import StyledText from '@components/general/Text/StyledText.native';
-import { Seperator } from '@components/general/index';
+import { Seperator } from '@components/general';
 
 interface SteamAchievementDropdownSubtitleProps {
   title: string;
   isOpen: boolean;
 }
 
-const SteamAchievementDropdownSubtitle = ({
+export const SteamAchievementDropdownSubtitle = ({
   title,
   isOpen,
 }: SteamAchievementDropdownSubtitleProps) => {
@@ -37,5 +37,3 @@ const SteamAchievementDropdownSubtitle = ({
     </>
   );
 };
-
-export default SteamAchievementDropdownSubtitle;

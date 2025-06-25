@@ -4,7 +4,7 @@ import StandardLayout from '@components/general/Layouts/StandardLayout.native';
 import NavigationHeader from '@navigation/NavigationHeader.native';
 import { UserResponse } from '@utils/CustomTypes';
 import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
-import VerificationContent from '@components/custom/Verification/VerificationContent.native';
+import VerificationContent from '@components/custom/verification/verification-content';
 import { useVerifyAccount } from './hooks/useVerifyAccount.native';
 
 const LinkAccount = () => {

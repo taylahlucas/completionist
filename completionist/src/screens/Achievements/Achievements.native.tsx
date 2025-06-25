@@ -6,7 +6,7 @@ import NavigationHeader from '@navigation/NavigationHeader.native';
 import { DrawerScreenEnum } from '@utils/CustomEnums';
 import { Dropdown } from '@components/general/Dropdown/index';
 import { ScrollableList } from '@components/general/Lists/index';
-import SteamAchievementDropdownTitle from '@components/custom/SteamAchievementView/SteamAchievementDropdownTitle.native';
+import SteamAchievementDropdownTitle from '@components/custom/steam-achievement-view/steam-achievement-dropdown-title';
 import ProgressView from '@components/custom/ProgressView/ProgressView.native';
 import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
 import Button from '@components/general/Button/Button.native';
@@ -15,7 +15,7 @@ import StyledText from '@components/general/Text/StyledText.native';
 import useAchievements from './hooks/useAchievements';
 import { SMALL_PADDING } from '@styles/global.native';
 import TextWithBackground from '@components/general/Text/TextWithBackground.native';
-import SteamAchievementView from '@components/custom/SteamAchievementView/SteamAchievementView.native';
+import SteamAchievementView from '@components/custom/steam-achievement-view/steam-achievement-view';
 
 const Achievements = () => {
   const { t } = useTranslation();
