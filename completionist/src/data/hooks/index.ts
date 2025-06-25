@@ -3,7 +3,6 @@ export * from './useEditUserData.native';
 export * from '../helpers/getCurrentGame.native';
 export * from './useGetGameProgressData.native';
 export * from './useGetSettingsConfig';
-export * from './useGetTranslatedGameData.native';
 export * from './useTranslateGameContent.native';
 export * from './useGetUserGameData';
 export * from './useInitUserData.native';

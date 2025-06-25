@@ -182,15 +182,15 @@
           "armourSets": "Ensembles d'armures"
         },
         "locations": {
-          "main": "Principal"
+          "main": "Principales"
         },
         "miscellaneous": {
           "legendarySpells": "Sorts légendaires",
-          "achievementBosses": "Boss de succès"
+          "achievementBosses": "Patrons de réussite"
         }
       },
       "dlc": {
-        "shadowOfTheErdtree": "L'Ombre de l'Arbre-Monde"
+        "shadowOfTheErdtree": "L'ombre de l'Erdtree"
       }
     },
     "fallout3": {

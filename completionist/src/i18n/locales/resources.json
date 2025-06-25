@@ -2728,15 +2728,15 @@
               "armourSets": "Ensembles d'armures"
             },
             "locations": {
-              "main": "Principal"
+              "main": "Principales"
             },
             "miscellaneous": {
               "legendarySpells": "Sorts légendaires",
-              "achievementBosses": "Boss de succès"
+              "achievementBosses": "Patrons de réussite"
             }
           },
           "dlc": {
-            "shadowOfTheErdtree": "L'Ombre de l'Arbre-Monde"
+            "shadowOfTheErdtree": "L'ombre de l'Erdtree"
           }
         },
         "fallout3": {
@@ -3054,7 +3054,7 @@
             }
           },
           "dlc": {
-            "shadowOfTheErdtree": "La sombra del Árbol Hierático"
+            "shadowOfTheErdtree": "Sombra del Erdtree"
           }
         },
         "fallout3": {
@@ -3686,7 +3686,7 @@
             },
             "miscellaneous": {
               "legendarySpells": "Legendäre Zauber",
-              "achievementBosses": "Erfolgsbosse"
+              "achievementBosses": "Leistungsbosse"
             }
           },
           "dlc": {
@@ -3996,19 +3996,19 @@
             },
             "collectables": {
               "legendaryWeapons": "الأسلحة الأسطورية",
-              "legendarySpiritAshes": "رماد الروح الأسطورية",
+              "legendarySpiritAshes": "رماد الروح الأسطوري",
               "armourSets": "مجموعات الدروع"
             },
             "locations": {
               "main": "رئيسي"
             },
             "miscellaneous": {
-              "legendarySpells": "نوبات أسطورية",
+              "legendarySpells": "نوبات الأسطورية",
               "achievementBosses": "رؤساء الإنجاز"
             }
           },
           "dlc": {
-            "shadowOfTheErdtree": "ظل Erdtree"
+            "shadowOfTheErdtree": "ظل إردتري"
           }
         },
         "fallout3": {

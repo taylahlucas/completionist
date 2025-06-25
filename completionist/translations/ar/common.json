@@ -178,19 +178,19 @@
         },
         "collectables": {
           "legendaryWeapons": "الأسلحة الأسطورية",
-          "legendarySpiritAshes": "رماد الروح الأسطورية",
+          "legendarySpiritAshes": "رماد الروح الأسطوري",
           "armourSets": "مجموعات الدروع"
         },
         "locations": {
           "main": "رئيسي"
         },
         "miscellaneous": {
-          "legendarySpells": "نوبات أسطورية",
+          "legendarySpells": "نوبات الأسطورية",
           "achievementBosses": "رؤساء الإنجاز"
         }
       },
       "dlc": {
-        "shadowOfTheErdtree": "ظل Erdtree"
+        "shadowOfTheErdtree": "ظل إردتري"
       }
     },
     "fallout3": {

@@ -27,7 +27,11 @@ const SettingsSelectLanguage = ({
   const { setUser } = useMainDispatch();
   const { user, selectedGame } = useMainState();
   const { setGameContent } = useContentDispatch();
-  const { getLanguageInEn } = useGetLanguageInEn();
+  const { getLanguageInEn, getGameLanguages } = useGetLanguageInEn();
+
+  if (!selectedGame) {
+    return;
+  }
 
   return (
     <Dropdown
@@ -43,7 +47,7 @@ const SettingsSelectLanguage = ({
         />
       }>
       <DropdownSelectionContent
-        content={languages.map(lang => ({
+        content={getGameLanguages(selectedGame.id).map(lang => ({
           id: lang,
           title: `${t(`common:languages.${lang}`)} (${getLanguageInEn(
             lang as LanguageType,
