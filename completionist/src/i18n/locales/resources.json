@@ -180,7 +180,7 @@
             },
             "collectables": {
               "legendaryWeapons": "传奇武器",
-              "legendarySpiritAshes": "传奇灵魂灰烬",
+              "legendarySpiritAshes": "传说中的灵魂灰烬",
               "armourSets": "盔甲套装"
             },
             "locations": {
@@ -188,7 +188,7 @@
             },
             "miscellaneous": {
               "legendarySpells": "传奇法术",
-              "achievementBosses": "成就BOSS"
+              "achievementBosses": "成就老板"
             }
           },
           "dlc": {
