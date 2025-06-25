@@ -9,7 +9,7 @@ import { languages } from 'src/i18n/i18n-common';
 import useMainState from '@redux/hooks/useMainState';
 import useMainDispatch from '@redux/hooks/useMainDispatch';
 import { LanguageType } from '@utils/CustomTypes';
-import useGetLanguageInEn from './hooks/useGetLanguageInEn.native';
+import useGetLanguageInEn from './hooks/useGetGameLanguages';
 import useContentDispatch from '../ContentList/provider/useContentDispatch';
 import { getGameDataFromCache } from '@data/helpers/getGameDataFromCache.native';
 import { getMappedGameData } from '@data/helpers/mapGameData.native';
@@ -29,9 +29,9 @@ const SettingsSelectLanguage = ({
   const { setGameContent } = useContentDispatch();
   const { getLanguageInEn, getGameLanguages } = useGetLanguageInEn();
 
-  if (!selectedGame) {
-    return;
-  }
+  const languageList = !selectedGame
+    ? languages
+    : getGameLanguages(selectedGame.id);
 
   return (
     <Dropdown
@@ -47,7 +47,7 @@ const SettingsSelectLanguage = ({
         />
       }>
       <DropdownSelectionContent
-        content={getGameLanguages(selectedGame.id).map(lang => ({
+        content={languageList.map(lang => ({
           id: lang,
           title: `${t(`common:languages.${lang}`)} (${getLanguageInEn(
             lang as LanguageType,

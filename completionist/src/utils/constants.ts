@@ -1,5 +1,9 @@
+import { Dimensions } from 'react-native';
 import { GameKeyEnum } from './CustomEnums';
 import { LanguageType } from './CustomTypes';
+
+export const windowHeight = Dimensions.get('window').height;
+export const windowWidth = Dimensions.get('window').width;
 
 export const REFRESH_CACHE_KEY = 'REFRESH_EXPIRY_CACHE';
 export const CACHE_EXPIRY_TIME = 60 * 60 * 1000; // 1 hour in milliseconds

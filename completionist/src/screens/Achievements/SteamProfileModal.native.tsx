@@ -14,15 +14,13 @@ import Overlay from '@components/general/Layouts/Overlay.native';
 import Button from '@components/general/Button/Button.native';
 import StyledText from '@components/general/Text/StyledText.native';
 import { SteamProfile } from '@utils/CustomInterfaces';
-import { DEFAULT_BORDER_RADIUS } from '@styles/global.native';
+import { DEFAULT_BORDER_RADIUS, windowHeight } from '@styles/global.native';
 import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
 import IconButton from '@components/general/Icon/IconButton.native';
 import { IconTypeEnum } from '@utils/CustomEnums';
 import { Condition, Spacing } from '@components/general/index';
 import { isSmallScreen } from '@styles/global.native';
 import useAchievements from './hooks/useAchievements';
-
-const { height } = Dimensions.get('window');
 
 type ProfileViewType = 'add' | 'view';
 
@@ -41,7 +39,7 @@ const SteamProfileModal = ({
 }: SteamProfileProps) => {
   const { t } = useTranslation();
   const navigation = useReactNavigation();
-  const translateY = useRef(new Animated.Value(height)).current;
+  const translateY = useRef(new Animated.Value(windowHeight)).current;
   const theme = useGetTheme();
   const { viewModel, actions } = useAchievements();
 
@@ -53,7 +51,7 @@ const SteamProfileModal = ({
       }).start();
     } else {
       Animated.spring(translateY, {
-        toValue: height,
+        toValue: windowHeight,
         useNativeDriver: true,
       }).start();
     }

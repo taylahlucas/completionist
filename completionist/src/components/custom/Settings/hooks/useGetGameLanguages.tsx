@@ -2,7 +2,7 @@ import { gameLanguages } from '@utils/constants';
 import { GameKeyEnum } from '@utils/CustomEnums';
 import { LanguageType } from '@utils/CustomTypes';
 
-const useGetLanguageInEn = () => {
+const useGetGameLanguages = () => {
   const getLanguageInEn = (lang: LanguageType): string => {
     switch (lang) {
       case 'ar':
@@ -43,4 +43,4 @@ const useGetLanguageInEn = () => {
   return { getLanguageInEn, getGameLanguages };
 };
 
-export default useGetLanguageInEn;
+export default useGetGameLanguages;

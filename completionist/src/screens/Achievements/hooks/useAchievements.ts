@@ -6,7 +6,7 @@ import {
   SteamAchievementItem,
   SteamAchievementsState,
 } from '@utils/CustomInterfaces';
-import { useGetGameProgressData } from '@data/hooks/index';
+import { useEditUserData, useGetGameProgressData } from '@data/hooks/index';
 import { getCurrentGame } from '@data/hooks/index';
 import { GameKeyEnum } from '@utils/CustomEnums';
 
@@ -28,6 +28,7 @@ const useAchievements = () => {
   );
   const { getGameProgress } = useGetGameProgressData();
   const gameProgress = getGameProgress([selectedGame?.id] as GameKeyEnum[]);
+  const { updateUserData } = useEditUserData();
 
   useEffect(() => {
     const fetchData = async () => {
@@ -94,6 +95,7 @@ const useAchievements = () => {
       setAchievementsState,
       setSteamAchievementsOpen,
       setProgressViewOpen,
+      updateUserData,
     },
   };
 };
