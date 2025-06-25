@@ -10,7 +10,7 @@ import { allGameData } from '@utils/configs/gameConfigs';
 import { createPayment } from '@data/api/endpoints';
 import { Alert } from 'react-native';
 import { GameContentState, GameData } from '@utils/CustomInterfaces';
-import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
+import useReactNavigation from '@navigation/hooks/use-react-navigation';
 import { getPriceForGame } from '@data/hooks/index';
 import { getGameDataFromCache } from '@data/helpers/get-game-data-from-cache';
 import { getMappedGameData } from '@data/helpers/map-game-data';

@@ -1,8 +1,8 @@
-import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
 import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
 import { User } from '@utils/CustomInterfaces';
+import { useReactNavigation } from '.';
 
-const useGetNavigationPath = () => {
+export const useGetNavigationPath = () => {
   const navigation = useReactNavigation();
 
   const getAuthNavigationPath = (user: User) => {
@@ -17,5 +17,3 @@ const useGetNavigationPath = () => {
 
   return getAuthNavigationPath;
 };
-
-export default useGetNavigationPath;

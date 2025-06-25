@@ -14,7 +14,7 @@ import VerifyAccount from '@screens/SignupFlow/VerifyAccount/VerifyAccount';
 
 const Stack = createStackNavigator<UnauthorizedStackParamList>();
 
-const UnauthorizedStackNavigator = () => {
+export const UnauthorizedStackNavigator = () => {
   return (
     <Stack.Navigator
       initialRouteName={UnauthorizedScreenEnum.Login}
@@ -50,5 +50,3 @@ const UnauthorizedStackNavigator = () => {
     </Stack.Navigator>
   );
 };
-
-export default UnauthorizedStackNavigator;

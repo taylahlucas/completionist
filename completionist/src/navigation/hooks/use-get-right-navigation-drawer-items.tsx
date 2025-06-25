@@ -1,16 +1,16 @@
 import React from 'react';
 import { NavigationHeaderRightActionTypes } from '@utils/CustomTypes';
 import {
-  styles,
+  navigationStyles,
   NavigationEmptyContainer,
-} from '@navigation/NavigationStyledComponents.native';
+} from '@navigation/navigation-styled-components';
 import { IconTypeEnum, AuthScreenEnum } from '@utils/CustomEnums';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import IconButton from '@components/general/Icon/IconButton.native';
-import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
-import useGetLoginMethods from '@components/custom/LoginForm/hooks/useGetLoginMethods';
+import { useGetLoginMethods } from '@components/custom/login-form/hooks';
+import { useReactNavigation } from '.';
 
-const useGetRightNavigationItem = (
+export const useGetRightNavigationItem = (
   rightAction: NavigationHeaderRightActionTypes,
 ): JSX.Element => {
   const theme = useGetTheme();
@@ -21,7 +21,7 @@ const useGetRightNavigationItem = (
     case 'back':
       return (
         <IconButton
-          style={{ ...styles.iconButton, top: 2 }}
+          style={{ ...navigationStyles.iconButton, top: 2 }}
           name="arrow-forward"
           type={IconTypeEnum.Ionicons}
           color={theme.lightGrey}
@@ -31,7 +31,7 @@ const useGetRightNavigationItem = (
     case 'settings':
       return (
         <IconButton
-          style={styles.iconButton}
+          style={navigationStyles.iconButton}
           name="settings-outline"
           type={IconTypeEnum.Ionicons}
           color={theme.lightGrey}
@@ -44,7 +44,7 @@ const useGetRightNavigationItem = (
     case 'filter':
       return (
         <IconButton
-          style={styles.iconButton}
+          style={navigationStyles.iconButton}
           name="filter-outline"
           type={IconTypeEnum.MaterialCommunityIcons}
           color={theme.lightGrey}
@@ -57,7 +57,7 @@ const useGetRightNavigationItem = (
     case 'logout':
       return (
         <IconButton
-          style={styles.iconButton}
+          style={navigationStyles.iconButton}
           name="logout"
           color={theme.lightGrey}
           size={30}
@@ -68,5 +68,3 @@ const useGetRightNavigationItem = (
       return <NavigationEmptyContainer />;
   }
 };
-
-export default useGetRightNavigationItem;

@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
+import useReactNavigation from '@navigation/hooks/use-react-navigation';
 import { useMainState } from '@redux/hooks';
 import StyledText from '@components/general/Text/StyledText.native';
 import Button from '@components/general/Button/Button.native';

@@ -1,6 +1,6 @@
-import useMainState from '@redux/hooks/use-main-state';
+import { useMainState } from '@redux/hooks';
 
-const useCheckSectionEnabled = () => {
+export const useCheckSectionEnabled = () => {
   const { user, selectedGameSettings } = useMainState();
 
   const checkIsSectionEnabled = (section: string): boolean => {
@@ -20,5 +20,3 @@ const useCheckSectionEnabled = () => {
 
   return { checkIsSectionEnabled };
 };
-
-export default useCheckSectionEnabled;

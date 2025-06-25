@@ -3,7 +3,7 @@ import { Alert } from 'react-native';
 import { useTranslation } from 'react-i18next';
 import { checkUserExists } from '@data/api/auth-endpoints';
 import { useEditUserData } from '@data/hooks/index';
-import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
+import useReactNavigation from '@navigation/hooks/use-react-navigation';
 import useMainState from '@redux/hooks/use-main-state';
 import { DrawerScreenEnum } from '@utils/CustomEnums';
 import { isEmailValid, isPwValid, isNameValid } from '@utils/hooks/index';

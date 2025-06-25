@@ -1,7 +1,7 @@
 import { Alert } from 'react-native';
 import { useTranslation } from 'react-i18next';
 import { forgotPw } from '@data/api/auth-endpoints';
-import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
+import useReactNavigation from '@navigation/hooks/use-react-navigation';
 import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
 import useLoginState from '@components/custom/LoginForm/provider/useLoginState';
 import useLoginDispatch from '@components/custom/LoginForm/provider/useLoginDispatch';

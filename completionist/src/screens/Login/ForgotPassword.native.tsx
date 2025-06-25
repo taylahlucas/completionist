@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import StandardLayout from '@components/general/Layouts/StandardLayout.native';
-import NavigationHeader from '@navigation/NavigationHeader.native';
+import NavigationHeader from '@navigation/navigation-header';
 import StyledText from '@components/general/Text/StyledText.native';
 import TextInput from '@components/general/TextInput/TextInput.native';
 import Button from '@components/general/Button/Button.native';

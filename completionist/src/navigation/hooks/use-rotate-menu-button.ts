@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Animated, Easing } from 'react-native';
 
-const useRotateMenuButton = () => {
+export const useRotateMenuButton = () => {
   const [rotation] = useState(new Animated.Value(0));
   const rotateInterpolation = rotation.interpolate({
     inputRange: [0, 1],
@@ -23,5 +23,3 @@ const useRotateMenuButton = () => {
 
   return { rotateButton, animatedStyles };
 };
-
-export default useRotateMenuButton;

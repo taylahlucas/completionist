@@ -5,17 +5,19 @@ import Locations from '@screens/GameContent/Locations.native';
 import Quests from '@screens/GameContent/Quests.native';
 import Miscellaneous from '@screens/GameContent/Miscellaneous.native';
 import Collectables from '@screens/GameContent/Collectables.native';
-import useMainState from '@redux/hooks/use-main-state';
+import { useMainState } from '@redux/hooks';
 import useGetTheme from '@styles/hooks/useGetTheme';
-import { useTranslateGameContent } from '@data/hooks/index';
-import { Condition } from '@components/general/index';
-import { NavigationDrawerContainer } from './NavigationStyledComponents.native';
+import { useTranslateGameContent } from '@data/hooks';
+import { Condition } from '@components/general';
 import StyledText from '@components/general/Text/StyledText.native';
 import { DrawerScreenEnum } from '@utils/CustomEnums';
 import SendRequest from '@screens/SendRequest.native';
 import SteamAchievements from '@screens/Achievements/SteamAchievements.native';
-import NavigationDrawerBody from './NavigationDrawerBody.native';
-import { styles } from './NavigationStyledComponents.native';
+import {
+  navigationStyles,
+  NavigationDrawerBody,
+  NavigationDrawerContainer,
+} from '.';
 import Payments from '@screens/Payments.native';
 import AccountDetails from '@screens/Settings/AccountDetails.native';
 import Settings from '@screens/Settings/Settings.native';
@@ -23,7 +25,7 @@ import Achievements from '@screens/Achievements/Achievements.native';
 
 const Drawer = createDrawerNavigator<DrawerStackParamList>();
 
-const AuthDrawerStackNavigator = () => {
+export const AuthDrawerStackNavigator = () => {
   const theme = useGetTheme();
   const { selectedGame } = useMainState();
   const { translateGameName } = useTranslateGameContent();
@@ -49,7 +51,7 @@ const AuthDrawerStackNavigator = () => {
       screenOptions={{
         headerShown: false,
         drawerStyle: {
-          ...styles.drawerContainer,
+          ...navigationStyles.drawerContainer,
           backgroundColor: theme.darkGrey,
         },
       }}>
@@ -84,5 +86,3 @@ const AuthDrawerStackNavigator = () => {
     </Drawer.Navigator>
   );
 };
-
-export default AuthDrawerStackNavigator;

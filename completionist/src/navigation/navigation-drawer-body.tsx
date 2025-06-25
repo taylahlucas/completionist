@@ -5,19 +5,17 @@ import {
   NavigationDrawerFooterItem,
   NavigationDrawerFooterIcon,
   NavigationDrawerFooterTitle,
-} from './NavigationStyledComponents.native';
-import useReactNavigation from './hooks/useReactNavigation.native';
-import useGetNavigationDrawerItems from './hooks/useGetNavigationDrawerItems.native';
-import useGetLoginMethods from '@components/custom/LoginForm/hooks/useGetLoginMethods';
+} from './navigation-styled-components';
+import { useReactNavigation, useGetNavigationFooterDrawerItems } from './hooks';
+import useGetNavigationDrawerItems from './hooks/use-get-navigation-drawer-items';
+import { useGetLoginMethods } from '@components/custom/login-form/hooks';
 import { AuthScreenEnum } from '@utils/CustomEnums';
 import useGetTheme from '@styles/hooks/useGetTheme';
-import useMainState from '@redux/hooks/use-main-state';
-import useGetNavigationFooterDrawerItems from './hooks/useGetNavigationFooterDrawerItems.native';
-import NavigationDrawerItem from './NavigationDrawerItem.native';
+import { useMainState, useMainDispatch } from '@redux/hooks';
+import { NavigationDrawerItem } from '.';
 import { useTranslation } from 'react-i18next';
-import useMainDispatch from '@redux/hooks/use-main-dispatch';
 
-const NavigationDrawerBody: React.FunctionComponent = () => {
+export const NavigationDrawerBody: React.FunctionComponent = () => {
   const { t } = useTranslation();
   const navigation = useReactNavigation();
   const theme = useGetTheme();
@@ -83,5 +81,3 @@ const NavigationDrawerBody: React.FunctionComponent = () => {
     </NavigationDrawerBodyContainer>
   );
 };
-
-export default NavigationDrawerBody;

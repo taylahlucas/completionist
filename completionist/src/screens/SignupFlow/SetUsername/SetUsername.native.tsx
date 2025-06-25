@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import StandardLayout from '@components/general/Layouts/StandardLayout.native';
-import NavigationHeader from '@navigation/NavigationHeader.native';
+import NavigationHeader from '@navigation/navigation-header';
 import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
 import TextInput from '@components/general/TextInput/TextInput.native';
 import { KeyboardAvoidingScrollView } from '@components/general/Lists/index';

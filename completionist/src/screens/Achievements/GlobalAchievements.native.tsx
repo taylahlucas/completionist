@@ -1,10 +1,10 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import StandardLayout from '@components/general/Layouts/StandardLayout.native';
-import NavigationHeader from '@navigation/NavigationHeader.native';
+import NavigationHeader from '@navigation/navigation-header';
 import { AuthScreenEnum } from '@utils/CustomEnums';
 import { Dropdown } from '@components/general/Dropdown/index';
-import SteamAchievementView from '@components/custom/steam-achievement-view/SteamAchievementDropdownView.native';
+import SteamAchievementView from '@components/custom/steam-achievement-view/steam-achievement-dropdown-view';
 import { ScrollableList } from '@components/general/Lists/index';
 import SteamAchievementDropdownTitle from '@components/custom/steam-achievement-view/steam-achievement-dropdown-title';
 import Button from '@components/general/Button/Button.native';
@@ -13,7 +13,7 @@ import { View } from 'react-native';
 import StyledText from '@components/general/Text/StyledText.native';
 import useGlobalAchievements from './hooks/useGlobalAchievements';
 import ProgressViewDropdown from '@components/custom/ProgressView/ProgressViewDropdown.native';
-import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
+import useReactNavigation from '@navigation/hooks/use-react-navigation';
 import TextWithBackground from '@components/general/Text/TextWithBackground.native';
 
 const GlobalAchievements = () => {

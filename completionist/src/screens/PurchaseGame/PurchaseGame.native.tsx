@@ -4,7 +4,7 @@ import { StripeProvider } from '@stripe/stripe-react-native';
 import StandardLayout from '@components/general/Layouts/StandardLayout.native';
 import StyledText from '@components/general/Text/StyledText.native';
 import TextInput from '@components/general/TextInput/TextInput.native';
-import NavigationHeader from '@navigation/NavigationHeader.native';
+import NavigationHeader from '@navigation/navigation-header';
 import { AuthScreenEnum } from '@utils/CustomEnums';
 import { KeyboardAvoidingScrollView } from '@components/general/Lists/index';
 import Button from '@components/general/Button/Button.native';

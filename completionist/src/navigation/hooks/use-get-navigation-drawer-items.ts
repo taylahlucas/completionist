@@ -1,11 +1,11 @@
 import { useTranslation } from 'react-i18next';
 import { ContentSectionEnum, DrawerScreenEnum } from '@utils/CustomEnums';
-import { useGetUserGameData, useGetSettingsConfig } from '@data/hooks/index';
-import useCheckSectionEnabled from './useCheckSectionEnabled.native';
+import { useGetUserGameData, useGetSettingsConfig } from '@data/hooks';
+import { useCheckSectionEnabled } from './';
 import { NavigationDrawerItemData } from '@utils/CustomInterfaces';
-import useContentState from '@components/custom/ContentList/provider/useContentState';
+import { useContentState } from '@components/custom/content-list/provider';
 import { filterActiveSections } from '@data/helpers/filter-active-sessions';
-import useMainState from '@redux/hooks/use-main-state';
+import { useMainState } from '@redux/hooks';
 
 const useGetNavigationDrawerItems = (): NavigationDrawerItemData[] => {
   const { t } = useTranslation();

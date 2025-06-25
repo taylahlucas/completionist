@@ -1,5 +1,5 @@
 import Overlay from '@components/general/Layouts/Overlay.native';
-import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
+import useReactNavigation from '@navigation/hooks/use-react-navigation';
 import useAchievements from '@screens/Achievements/hooks/useAchievements';
 import {
   DEFAULT_BORDER_RADIUS,

@@ -3,20 +3,23 @@ import { Alert, Animated, Keyboard } from 'react-native';
 import { useTranslation } from 'react-i18next';
 import { NavigationHeaderLeftActionTypes } from '@utils/CustomTypes';
 import {
-  styles,
+  navigationStyles,
   NavigationHeaderMenuButton,
   NavigationHeaderMenuButtonBg,
   NavigationHeaderMenuIcon,
   NavigationEmptyContainer,
-} from '@navigation/NavigationStyledComponents.native';
-import { IconTypeEnum, AuthScreenEnum } from '@utils/CustomEnums';
-import useReactNavigation, { DrawerActions } from './useReactNavigation.native';
+} from '@navigation/navigation-styled-components';
+import { IconTypeEnum } from '@utils/CustomEnums';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import IconButton from '@components/general/Icon/IconButton.native';
-import useRotateMenuButton from './useRotateMenuButton.native';
-import useSafeDrawerStatus from './useSafeDrawerStatus.native';
+import {
+  useRotateMenuButton,
+  useSafeDrawerStatus,
+  useReactNavigation,
+  DrawerActions,
+} from './';
 
-const useGetLeftNavigationItem = (
+export const useGetLeftNavigationItem = (
   leftAction: NavigationHeaderLeftActionTypes,
   hasDrawer: boolean = false,
   isForm: boolean,
@@ -40,7 +43,7 @@ const useGetLeftNavigationItem = (
     case 'back':
       return (
         <IconButton
-          style={{ ...styles.iconButton, top: 2 }}
+          style={{ ...navigationStyles.iconButton, top: 2 }}
           name="arrow-back"
           type={IconTypeEnum.Ionicons}
           color={theme.lightGrey}
@@ -106,5 +109,3 @@ const useGetLeftNavigationItem = (
       return <NavigationEmptyContainer />;
   }
 };
-
-export default useGetLeftNavigationItem;

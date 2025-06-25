@@ -9,7 +9,7 @@ import {
 import styled from 'styled-components/native';
 
 const drawerWidth = 250;
-export const styles = StyleSheet.create({
+export const navigationStyles = StyleSheet.create({
   drawerContainer: {
     width: drawerWidth,
   },

@@ -7,13 +7,13 @@ import Settings from '@screens/Settings/Settings.native';
 import AccountDetails from '@screens/Settings/AccountDetails.native';
 import Landing from '@screens/Landing.native';
 import SteamAchievements from '@screens/Achievements/SteamAchievements.native';
-import AuthDrawerStackNavigator from './AuthDrawerStackNavigator.native';
+import { AuthDrawerStackNavigator } from '.';
 import PurchaseGame from '@screens/PurchaseGame/PurchaseGame.native';
 import GlobalAchievements from '@screens/Achievements/GlobalAchievements.native';
 
 const Stack = createStackNavigator<AuthStackParamList>();
 
-const AuthStackNavigator = () => {
+export const AuthStackNavigator = () => {
   return (
     <Stack.Navigator
       initialRouteName={AuthScreenEnum.GameSelection}
@@ -52,5 +52,3 @@ const AuthStackNavigator = () => {
     </Stack.Navigator>
   );
 };
-
-export default AuthStackNavigator;

@@ -13,7 +13,7 @@ import {
 import { NativeStackNavigationProp } from '@react-navigation/native-stack/src/types';
 import { NativeNavigation } from '@utils/CustomInterfaces';
 import { ScreenEnumType, NavigatorParams } from '@utils/CustomTypes';
-import useMainDispatch from '@redux/hooks/use-main-dispatch';
+import { useMainDispatch } from '@redux/hooks';
 
 export const DrawerActions = RNDrawerActions;
 
@@ -53,5 +53,3 @@ export const useReactNavigation = (): NativeNavigation => {
     setOptions: (options: any): void => navigation.setOptions(options),
   }).current;
 };
-
-export default useReactNavigation;

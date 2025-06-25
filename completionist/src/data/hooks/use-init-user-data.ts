@@ -6,8 +6,8 @@ import {
   useLoginState,
   useLoginDispatch,
 } from '@components/custom/login-form/provider';
-import useGetNavigationPath from '@navigation/hooks/useGetNavigationPath';
-import { useLoadUserFromCache } from '@data/cache/hooks/use-load-user-from-cache';
+import { useGetNavigationPath } from '@navigation/hooks';
+import { useLoadUserFromCache } from '@data/cache/hooks';
 
 export const useInitUserData = () => {
   const appStateRef = useRef(AppState.currentState);

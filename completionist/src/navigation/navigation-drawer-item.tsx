@@ -1,22 +1,22 @@
 import React from 'react';
 import { NavigationDrawerItemData } from '@utils/CustomInterfaces';
-import useReactNavigation from './hooks/useReactNavigation.native';
+import { useReactNavigation } from './hooks';
 import {
   NavigationHeaderSubTitle,
   NavigationHeaderTitleContainer,
   NavigationDrawerTitle,
-} from './NavigationStyledComponents.native';
+} from '.';
 import useGetTheme from '@styles/hooks/useGetTheme';
-import useContentDispatch from '@components/custom/ContentList/provider/useContentDispatch';
+import { useContentDispatch } from '@components/custom/content-list/provider';
 import { ContentSectionEnum } from '@utils/CustomEnums';
-import { Condition } from '@components/general/index';
+import { Condition } from '@components/general';
 
 interface NavigationDrawerItemProps {
   item: NavigationDrawerItemData;
   isActive: boolean;
 }
 
-const NavigationDrawerItem = ({
+export const NavigationDrawerItem = ({
   item,
   isActive,
 }: NavigationDrawerItemProps) => {
@@ -56,5 +56,3 @@ const NavigationDrawerItem = ({
     </Condition>
   );
 };
-
-export default NavigationDrawerItem;

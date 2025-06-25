@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 import { ScrollView, Text as RNText } from 'react-native';
 import { useTranslation } from 'react-i18next';
 import StandardLayout from '@components/general/Layouts/StandardLayout.native';
-import NavigationHeader from '@navigation/NavigationHeader.native';
+import NavigationHeader from '@navigation/navigation-header';
 import { ScrollableList, SelectionList } from '@components/general/Lists/index';
 import SettingsAccountDetails from '@components/custom/settings/settings-account-details';
 import { SettingsDescription } from '@components/custom/settings/settings-styled-components';

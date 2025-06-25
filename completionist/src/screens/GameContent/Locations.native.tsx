@@ -2,7 +2,7 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import StandardLayout from '@components/general/Layouts/StandardLayout.native';
 import { CompletedQuantityTitle } from '@components/general/Text/StyledTextStyledComponents.native';
-import NavigationHeader from '@navigation/NavigationHeader.native';
+import NavigationHeader from '@navigation/navigation-header';
 import CustomSearchBar from '@components/general/CustomSearchBar/CustomSearchBar.native';
 import ContentList from '@components/custom/ContentList/ContentList.native';
 import { DrawerScreenEnum } from '@utils/CustomEnums';

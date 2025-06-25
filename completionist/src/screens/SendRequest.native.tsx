@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Alert } from 'react-native';
 import { useTranslation } from 'react-i18next';
 import StandardLayout from '@components/general/Layouts/StandardLayout.native';
-import NavigationHeader from '@navigation/NavigationHeader.native';
+import NavigationHeader from '@navigation/navigation-header';
 import StyledText from '@components/general/Text/StyledText.native';
 import { sendEmail } from '@data/api/endpoints';
 import useMainState from '@redux/hooks/use-main-state';

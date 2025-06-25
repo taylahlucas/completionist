@@ -15,7 +15,7 @@ import Button from '@components/general/Button/Button.native';
 import StyledText from '@components/general/Text/StyledText.native';
 import { SteamProfile } from '@utils/CustomInterfaces';
 import { DEFAULT_BORDER_RADIUS, windowHeight } from '@styles/global.native';
-import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
+import useReactNavigation from '@navigation/hooks/use-react-navigation';
 import IconButton from '@components/general/Icon/IconButton.native';
 import { IconTypeEnum } from '@utils/CustomEnums';
 import { Condition, Spacing } from '@components/general/index';

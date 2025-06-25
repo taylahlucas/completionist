@@ -6,7 +6,7 @@ import Button from '@components/general/Button/Button.native';
 import { useLoginState, useLoginDispatch } from './provider';
 import { Condition } from '@components/general/index';
 import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
-import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
+import useReactNavigation from '@navigation/hooks/use-react-navigation';
 
 export const LoginForm = () => {
   const navigation = useReactNavigation();

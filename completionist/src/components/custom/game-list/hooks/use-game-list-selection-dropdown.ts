@@ -1,7 +1,7 @@
 import { AuthScreenEnum } from '@utils/CustomEnums';
 import { GameData } from '@utils/CustomInterfaces';
 import useMainDispatch from '@redux/hooks/use-main-dispatch';
-import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
+import useReactNavigation from '@navigation/hooks/use-react-navigation';
 import { GameListSelectionType } from '@utils/CustomTypes';
 import { useState } from 'react';
 import { getGameDataFromCache } from '@data/helpers/get-game-data-from-cache';

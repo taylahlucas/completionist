@@ -1,9 +1,6 @@
 import React from 'react';
 import useGetTheme from '@styles/hooks/useGetTheme';
-import {
-  NavigationHeaderContainer,
-  NavigationHeaderText,
-} from './NavigationStyledComponents.native';
+import { NavigationHeaderContainer, NavigationHeaderText } from '.';
 import {
   NavigationHeaderLeftActionTypes,
   NavigationHeaderRightActionTypes,
@@ -11,8 +8,7 @@ import {
   DrawerScreenEnum,
   UnauthorizedScreenEnum,
 } from '@utils/index';
-import useGetLeftNavigationItem from './hooks/useGetLeftNavigationItem.native';
-import useGetRightNavigationItem from './hooks/useGetRightNavigationItem.native';
+import { useGetLeftNavigationItem, useGetRightNavigationItem } from './hooks';
 
 interface NavigationHeaderProps {
   id: ScreenEnumType;
@@ -22,7 +18,7 @@ interface NavigationHeaderProps {
   rightAction?: NavigationHeaderRightActionTypes;
 }
 
-const NavigationHeader = ({
+export const NavigationHeader = ({
   id = UnauthorizedScreenEnum.Login,
   title,
   isForm = false,
@@ -49,5 +45,3 @@ const NavigationHeader = ({
     </NavigationHeaderContainer>
   );
 };
-
-export default NavigationHeader;
