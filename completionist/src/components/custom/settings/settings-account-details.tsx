@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import useReactNavigation from '@navigation/hooks/useReactNavigation.native';
-import useMainState from '@redux/hooks/use-main-state';
+import { useMainState } from '@redux/hooks';
 import StyledText from '@components/general/Text/StyledText.native';
 import Button from '@components/general/Button/Button.native';
 import { AuthScreenEnum, DrawerScreenEnum } from '@utils/CustomEnums';

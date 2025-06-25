@@ -15,7 +15,7 @@ interface SettingsMainItemProps {
   color: string;
 }
 
-export const styles = StyleSheet.create({
+export const settingsStyles = StyleSheet.create({
   scrollContent: {
     paddingBottom: 16,
   },

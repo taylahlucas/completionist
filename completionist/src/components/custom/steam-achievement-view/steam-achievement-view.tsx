@@ -4,7 +4,7 @@ import { Condition } from '@components/general';
 import {
   SteamAchievementIcon,
   SteamAchievementViewContainer,
-  SteamAchievementIconContainer,
+  SteamAchievementIconContainerCol,
   SteamItemTitle,
   SteamItemDescription,
 } from './';
@@ -26,7 +26,7 @@ export const SteamAchievementView = ({ item }: SteamAchievementViewProps) => {
       <Condition condition={!!item.icon}>
         <SteamAchievementIcon source={{ uri: item.icon }} />
       </Condition>
-      <SteamAchievementIconContainer>
+      <SteamAchievementIconContainerCol>
         <SteamItemTitle
           hasBottomPadding={!!item.description}
           align="left"
@@ -40,7 +40,7 @@ export const SteamAchievementView = ({ item }: SteamAchievementViewProps) => {
             {item.description}
           </SteamItemDescription>
         ) : null}
-      </SteamAchievementIconContainer>
+      </SteamAchievementIconContainerCol>
     </SteamAchievementViewContainer>
   );
 };

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Dropdown } from '@components/general/Dropdown';
 import { ProgressView } from './';
 import { ProgressItem } from '@utils/CustomInterfaces';
-import SteamAchievementDropdownSubtitle from '../steam-achievement-view/SteamAchievementDropdownSubtitle.native';
+import { SteamAchievementDropdownSubtitle } from '../steam-achievement-view';
 
 interface ProgressViewDropdownProps {
   title: string;

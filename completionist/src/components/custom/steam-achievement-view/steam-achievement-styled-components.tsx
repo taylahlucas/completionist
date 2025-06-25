@@ -4,7 +4,6 @@ import {
   SMALL_PADDING,
   MID_PADDING,
   MID_WIDTH,
-  LARGE_PADDING,
 } from '@styles/global.native';
 import StyledText from '@components/general/Text/StyledText.native';
 
@@ -34,7 +33,7 @@ export const SteamAchievementIcon = styled.Image`
   border-radius: 2px;
 `;
 
-export const SteamAchievementIconContainer = styled.View`
+export const SteamAchievementIconContainerCol = styled.View`
   flex-direction: column;
 `;
 

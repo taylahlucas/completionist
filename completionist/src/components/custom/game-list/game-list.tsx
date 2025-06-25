@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { ScrollableList } from '@components/general/Lists';
-import { styles } from './game-list-styled-components';
+import { gameListStyles } from './';
 import { GameListSectionDropdown } from './';
 import { useGameList } from './hooks';
 import { Condition } from '@components/general';
@@ -15,7 +15,7 @@ export const GameList = ({ searchValue }: GameListProps) => {
   const { viewModel, actions } = useGameList();
 
   return (
-    <ScrollableList contentContainerStyle={styles.scrollableContent}>
+    <ScrollableList contentContainerStyle={gameListStyles.scrollableContent}>
       <GameListSectionDropdown
         testID={'active-games'}
         type="active"

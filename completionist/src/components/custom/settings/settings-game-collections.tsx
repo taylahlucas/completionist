@@ -14,8 +14,7 @@ import {
   DropdownSelectionContent,
 } from '@components/general/Dropdown';
 import { filterGameList } from '../game-list/hooks/use-filter-game-list';
-import useMainState from '@redux/hooks/use-main-state';
-import useMainDispatch from '@redux/hooks/use-main-dispatch';
+import { useMainState, useMainDispatch } from '@redux/hooks';
 
 export const SettingsGameCollections = () => {
   const { t } = useTranslation();

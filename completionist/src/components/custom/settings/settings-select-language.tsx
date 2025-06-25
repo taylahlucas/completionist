@@ -6,8 +6,7 @@ import {
   DropdownSelectionContent,
 } from '@components/general/Dropdown/index';
 import { languages } from 'src/i18n/i18n-common';
-import useMainState from '@redux/hooks/use-main-state';
-import useMainDispatch from '@redux/hooks/use-main-dispatch';
+import { useMainState, useMainDispatch } from '@redux/hooks';
 import { LanguageType } from '@utils/CustomTypes';
 import { useGetGameLanguages } from './hooks';
 import { getGameDataFromCache } from '@data/helpers/getGameDataFromCache.native';

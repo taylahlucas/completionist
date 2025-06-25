@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react';
 import { ViewStyle } from 'react-native';
 import { useTranslation } from 'react-i18next';
-import { Dropdown } from '@components/general/Dropdown/index';
+import { Dropdown } from '@components/general/Dropdown';
 import { IsActive } from '@utils/CustomInterfaces';
 import {
-  styles,
+  settingsStyles,
   SettingsSubItemContainer,
   SettingsScrollView,
   SettingsTitle,
@@ -13,7 +13,7 @@ import {
 } from './';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import { useSettingsState, useSettingsDispatch } from './provider';
-import useMainState from '@redux/hooks/use-main-state';
+import { useMainState } from '@redux/hooks';
 import CheckBox from '@components/general/Checkbox/CheckBox.native';
 import { useUpdateGameSettings } from './hooks';
 import {
@@ -85,7 +85,7 @@ export const SettingsItemDropdown = ({
           {renderSettingsCheckbox(item)}
         </SettingsMainItem>
       }>
-      <SettingsScrollView contentContainerStyle={styles.scrollContent}>
+      <SettingsScrollView contentContainerStyle={settingsStyles.scrollContent}>
         {getUserSettingsSubConfig(item.id)
           .map((settingsItem, index) => (
             <SettingsSubItemContainer key={index} color={theme.darkGrey}>

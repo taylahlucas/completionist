@@ -3,7 +3,7 @@ import styled from 'styled-components/native';
 import { DEFAULT_BORDER_RADIUS, LARGE_WIDTH } from '@styles/global.native';
 import StyledText from '@components/general/Text/StyledText.native';
 
-export const styles = StyleSheet.create({
+export const gameListStyles = StyleSheet.create({
   scrollableContent: {
     display: 'flex',
     flexDirection: 'column',

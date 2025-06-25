@@ -11,7 +11,7 @@ import { MainState } from '@redux/main-state';
 import { SettingsState } from '@components/custom/settings/provider/settings-state';
 import { LoginState } from '@components/custom/LoginForm/provider/LoginState';
 import { ContentState } from '@components/custom/ContentList/provider/ContentState';
-import { SubscriptionState } from '@components/custom/SubscriptionContent/provider/SubscriptionState';
+import { SubscriptionState } from '@components/custom/subscriptions-content/provider/subscription-state';
 import { LanguageType, ScreenEnumType } from './CustomTypes';
 
 export interface ContentItem {
