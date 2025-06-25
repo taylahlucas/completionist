@@ -1,8 +1,8 @@
 import { useTranslation } from 'react-i18next';
-import useMainState from '@redux/hooks/use-main-state';
+import { useMainState } from '@redux/hooks';
 import { GameKeyEnum } from '@utils/CustomEnums';
 import { SettingsConfigItem, IsActive } from '@utils/CustomInterfaces';
-import useMainDispatch from '@redux/hooks/use-main-dispatch';
+import { useMainDispatch } from '@redux/hooks';
 import { getCurrentGame } from '@data/hooks/index';
 
 interface DLCOptionsReturnType {

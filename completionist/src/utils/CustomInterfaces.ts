@@ -8,10 +8,9 @@ import {
 } from './CustomEnums';
 import { NavigationAction, NavigationState } from '@react-navigation/native';
 import { MainState } from '@redux/main-state';
-import { SettingsState } from '@components/custom/settings/provider/settings-state';
-import { LoginState } from '@components/custom/LoginForm/provider/LoginState';
-import { ContentState } from '@components/custom/ContentList/provider/ContentState';
-import { SubscriptionState } from '@components/custom/subscriptions-content/provider/subscription-state';
+import { SettingsState } from '@components/custom/settings/provider';
+import { LoginState } from '@components/custom/login-form/provider';
+import { ContentState } from '@components/custom/content-list/provider';
 import { LanguageType, ScreenEnumType } from './CustomTypes';
 
 export interface ContentItem {
@@ -108,7 +107,6 @@ export interface StoreState {
   login: LoginState;
   settings: SettingsState;
   content: ContentState;
-  subscription: SubscriptionState;
 }
 
 export interface EnvironmentConfig {

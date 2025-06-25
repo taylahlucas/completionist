@@ -1,9 +1,11 @@
 import { useGetUserGameData } from '@data/hooks/index';
-import useMainState from '@redux/hooks/use-main-state';
-import useContentState from '@components/custom/ContentList/provider/useContentState';
-import useContentDispatch from '@components/custom/ContentList/provider/useContentDispatch';
+import { useMainState } from '@redux/hooks';
+import {
+  useContentState,
+  useContentDispatch,
+} from '@components/custom/content-list/provider';
 
-const useGameContent = () => {
+export const useGameContent = () => {
   const { selectedGame } = useMainState();
   const { setSearchValue } = useContentDispatch();
   const { searchValue, gameContent } = useContentState();
@@ -36,5 +38,3 @@ const useGameContent = () => {
     },
   };
 };
-
-export default useGameContent;

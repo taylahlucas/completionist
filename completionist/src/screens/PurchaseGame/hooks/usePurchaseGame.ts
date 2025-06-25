@@ -5,7 +5,7 @@ import {
 } from '@stripe/stripe-react-native';
 import { GameKeyEnum } from '@utils/CustomEnums';
 import { useActivateGame, useTranslateGameContent } from '@data/hooks/index';
-import useMainState from '@redux/hooks/use-main-state';
+import { useMainState } from '@redux/hooks';
 import { allGameData } from '@utils/configs/gameConfigs';
 import { createPayment } from '@data/api/endpoints';
 import { Alert } from 'react-native';

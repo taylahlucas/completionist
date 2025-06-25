@@ -1,9 +1,9 @@
 import { useGetGameProgressData } from '@data/hooks';
-import useMainState from '@redux/hooks/use-main-state';
+import { useMainState } from '@redux/hooks';
 import { GlobalSteamAchievementsState } from '@utils/CustomInterfaces';
 import { useState } from 'react';
 
-const useGlobalAchievements = () => {
+export const useGlobalAchievements = () => {
   const { user } = useMainState();
   const activeGames = user.gameData;
   const { getGameProgress } = useGetGameProgressData();
@@ -84,5 +84,3 @@ const useGlobalAchievements = () => {
     },
   };
 };
-
-export default useGlobalAchievements;

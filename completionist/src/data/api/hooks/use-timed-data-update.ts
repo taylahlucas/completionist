@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import useMainState from '@redux/hooks/use-main-state';
+import { useMainState } from '@redux/hooks';
 import useLoginState from '@components/custom/LoginForm/provider/useLoginState';
 import { useEditUserData } from '@data/hooks/use-edit-user-data';
 

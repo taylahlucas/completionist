@@ -3,7 +3,7 @@ import useDLCOptions from '@components/custom/settings/hooks/use-dlc-options';
 import useGetShowHideOptions from '@components/custom/settings/hooks/use-get-show-hide-options';
 import { handleScroll } from '@utils/hooks/index';
 import { SettingsOptionEnum } from '@utils/CustomEnums';
-import useMainState from '@redux/hooks/use-main-state';
+import { useMainState } from '@redux/hooks';
 import { getSteamUserById } from '@data/api/endpoints';
 import { SettingsOptionItem, SteamProfile } from '@utils/CustomInterfaces';
 import { useEditUserData } from '@data/hooks/use-edit-user-data';
@@ -11,7 +11,7 @@ import {
   NavigationHeaderLeftActionTypes,
   NavigationHeaderRightActionTypes,
 } from '@utils/CustomTypes';
-import useMainDispatch from '@redux/hooks/use-main-dispatch';
+import { useMainDispatch } from '@redux/hooks';
 
 interface ActionsType {
   left: NavigationHeaderLeftActionTypes;

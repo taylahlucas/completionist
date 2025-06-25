@@ -1,11 +1,11 @@
 import React from 'react';
 import StandardLayout from '@components/general/Layouts/StandardLayout.native';
-import NavigationHeader from '@navigation/navigation-header';
-import AddSteamIDContent from '@components/custom/steam-achievement-content/add-steam-id-content';
+import { NavigationHeader } from '@navigation/index';
+import { AddSteamIDContent } from '@components/custom';
 import { DrawerScreenEnum } from '@utils/CustomEnums';
-import useAchievements from './hooks/useAchievements';
+import { useAchievements } from './hooks';
 
-const SteamAchievements = () => {
+export const SteamAchievements = () => {
   const { viewModel } = useAchievements();
 
   return (
@@ -19,5 +19,3 @@ const SteamAchievements = () => {
     </StandardLayout>
   );
 };
-
-export default SteamAchievements;

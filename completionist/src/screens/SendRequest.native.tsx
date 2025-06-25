@@ -5,7 +5,7 @@ import StandardLayout from '@components/general/Layouts/StandardLayout.native';
 import NavigationHeader from '@navigation/navigation-header';
 import StyledText from '@components/general/Text/StyledText.native';
 import { sendEmail } from '@data/api/endpoints';
-import useMainState from '@redux/hooks/use-main-state';
+import { useMainState } from '@redux/hooks';
 import Button from '@components/general/Button/Button.native';
 import TextInput from '@components/general/TextInput/TextInput.native';
 import { KeyboardAvoidingScrollView } from '@components/general/Lists/index';

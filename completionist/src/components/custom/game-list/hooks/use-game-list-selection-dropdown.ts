@@ -1,13 +1,13 @@
 import { AuthScreenEnum } from '@utils/CustomEnums';
 import { GameData } from '@utils/CustomInterfaces';
-import useMainDispatch from '@redux/hooks/use-main-dispatch';
+import { useMainDispatch } from '@redux/hooks';
 import useReactNavigation from '@navigation/hooks/use-react-navigation';
 import { GameListSelectionType } from '@utils/CustomTypes';
 import { useState } from 'react';
 import { getGameDataFromCache } from '@data/helpers/get-game-data-from-cache';
 import { getMappedGameData } from '@data/helpers/map-game-data';
 import useGetGameLanguages from '@components/custom/settings/hooks/use-get-game-languages';
-import useMainState from '@redux/hooks/use-main-state';
+import { useMainState } from '@redux/hooks';
 import { useContentDispatch } from '@components/custom/content-list/provider';
 
 export const useGameListSelectionDropdown = () => {

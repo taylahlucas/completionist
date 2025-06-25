@@ -1,22 +1,22 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import StandardLayout from '@components/general/Layouts/StandardLayout.native';
-import NavigationHeader from '@navigation/navigation-header';
+import { NavigationHeader } from '@navigation/index';
 import CustomSearchBar from '@components/general/CustomSearchBar/CustomSearchBar.native';
 import { CompletedQuantityTitle } from '@components/general/Text/StyledTextStyledComponents.native';
-import ContentList from '@components/custom/ContentList/ContentList.native';
 import { DrawerScreenEnum } from '@utils/CustomEnums';
-import useGameContent from './hooks/useGameContent';
+import { useGameContent } from './hooks';
+import { ContentList } from '@components/custom';
 
-const Quests = () => {
+export const Collectables = () => {
   const { t } = useTranslation();
   const { viewModel, actions } = useGameContent();
 
   return (
     <StandardLayout>
       <NavigationHeader
-        id={DrawerScreenEnum.Quests}
-        title={t('common:screens.quests')}
+        id={DrawerScreenEnum.Collectables}
+        title={t('common:screens.collectables')}
       />
       <CustomSearchBar
         searchValue={viewModel.searchValue}
@@ -24,11 +24,9 @@ const Quests = () => {
         onReset={(): void => actions.setSearchValue('')}
       />
       <CompletedQuantityTitle type={'ListItemSubTitleBold'}>
-        {`${viewModel.quests.completed}/${viewModel.quests.total}`}
+        {`${viewModel.collectables.completed}/${viewModel.collectables.total}`}
       </CompletedQuantityTitle>
       <ContentList />
     </StandardLayout>
   );
 };
-
-export default Quests;

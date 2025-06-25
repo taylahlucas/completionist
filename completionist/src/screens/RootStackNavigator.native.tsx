@@ -1,14 +1,14 @@
 import React from 'react';
 import { I18nextProvider } from 'react-i18next';
 import { Condition } from '@components/general/index';
-import useMainState from '@redux/hooks/use-main-state';
+import { useMainState } from '@redux/hooks';
 import { useInitUserData } from '@data/hooks/index';
 import Landing from './Landing.native';
 import usePlaySplashScreen from '@utils/hooks/usePlaySplashScreen.native';
 import i18n from 'src/i18n/i18n.native';
-import useTimedDataUpdate from '@data/api/hooks/useTimedDataUpdate.native';
-import AuthStackNavigator from '@navigation/AuthStackNavigator.native';
-import UnauthorizedStackNavigator from '@navigation/UnauthorizedStackNavigator.native';
+import useTimedDataUpdate from '@data/api/hooks/use-timed-data-update';
+import AuthStackNavigator from '@navigation/auth-stack-navigator';
+import UnauthorizedStackNavigator from '@navigation/unauthorized-stack-navigator';
 import useLoginState from '@components/custom/LoginForm/provider/useLoginState';
 
 const RootStackNavigator = () => {

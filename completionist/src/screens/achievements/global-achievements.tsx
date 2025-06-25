@@ -1,22 +1,24 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import StandardLayout from '@components/general/Layouts/StandardLayout.native';
-import NavigationHeader from '@navigation/navigation-header';
+import { NavigationHeader } from '@navigation/index';
 import { AuthScreenEnum } from '@utils/CustomEnums';
-import { Dropdown } from '@components/general/Dropdown/index';
-import SteamAchievementView from '@components/custom/steam-achievement-view/steam-achievement-dropdown-view';
-import { ScrollableList } from '@components/general/Lists/index';
-import SteamAchievementDropdownTitle from '@components/custom/steam-achievement-view/steam-achievement-dropdown-title';
+import { Dropdown } from '@components/general/Dropdown';
+import { ScrollableList } from '@components/general/Lists';
+import {
+  SteamAchievementView,
+  SteamAchievementDropdownTitle,
+  ProgressViewDropdown,
+} from '@components/custom';
 import Button from '@components/general/Button/Button.native';
-import { Condition, Spacing } from '@components/general/index';
+import { Condition, Spacing } from '@components/general';
 import { View } from 'react-native';
 import StyledText from '@components/general/Text/StyledText.native';
-import useGlobalAchievements from './hooks/useGlobalAchievements';
-import ProgressViewDropdown from '@components/custom/ProgressView/ProgressViewDropdown.native';
-import useReactNavigation from '@navigation/hooks/use-react-navigation';
+import { useGlobalAchievements } from './hooks';
+import { useReactNavigation } from '@navigation/hooks';
 import TextWithBackground from '@components/general/Text/TextWithBackground.native';
 
-const GlobalAchievements = () => {
+export const GlobalAchievements = () => {
   const { t } = useTranslation();
   const navigation = useReactNavigation();
   const { viewModel, actions } = useGlobalAchievements();
@@ -50,8 +52,9 @@ const GlobalAchievements = () => {
             />
           ))}
         </Dropdown>
-
+        <></>
         {/* Steam Achievements */}
+        {/* // TODO: Fix here 
         <Dropdown
           isOpen={viewModel.achievementsState.isOpen}
           setOpen={(): void =>
@@ -66,7 +69,7 @@ const GlobalAchievements = () => {
               isOpen={viewModel.achievementsState.isOpen}
             />
           }>
-          {/* User doesn't have permission */}
+          {/* User doesn't have permission 
           <Condition
             condition={
               !!viewModel.steamId && !viewModel.achievementsState.hasPermission
@@ -89,7 +92,7 @@ const GlobalAchievements = () => {
             </View>
           </Condition>
 
-          {/* Steam Achievement List */}
+          {/* Steam Achievement List 
           <Condition
             condition={
               !!viewModel.steamId && viewModel.achievementsState.hasPermission
@@ -116,9 +119,8 @@ const GlobalAchievements = () => {
             />
           </Condition>
         </Dropdown>
+        */}
       </ScrollableList>
     </StandardLayout>
   );
 };
-
-export default GlobalAchievements;

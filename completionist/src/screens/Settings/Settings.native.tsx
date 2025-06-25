@@ -10,7 +10,7 @@ import SettingsSelectLanguage from '@components/custom/settings/settings-select-
 import { DrawerScreenEnum, AuthScreenEnum } from '@utils/CustomEnums';
 import SettingsGameCollections from '@components/custom/settings/settings-game-collections';
 import Button from '@components/general/Button/Button.native';
-import SteamProfileModal from '../Achievements/SteamProfileModal.native';
+import SteamProfileModal from '../achievements/steam-profile-modal';
 import { Condition, Spacing } from '@components/general/index';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import useSettings from './hooks/useSettings';

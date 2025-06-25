@@ -2,22 +2,24 @@ import React from 'react';
 import { View } from 'react-native';
 import { useTranslation } from 'react-i18next';
 import StandardLayout from '@components/general/Layouts/StandardLayout.native';
-import NavigationHeader from '@navigation/navigation-header';
+import { NavigationHeader } from '@navigation/index';
 import { DrawerScreenEnum } from '@utils/CustomEnums';
-import { Dropdown } from '@components/general/Dropdown/index';
-import { ScrollableList } from '@components/general/Lists/index';
-import SteamAchievementDropdownTitle from '@components/custom/steam-achievement-view/steam-achievement-dropdown-title';
-import ProgressView from '@components/custom/ProgressView/ProgressView.native';
-import useReactNavigation from '@navigation/hooks/use-react-navigation';
+import { Dropdown } from '@components/general/Dropdown';
+import { ScrollableList } from '@components/general/Lists';
+import { useReactNavigation } from '@navigation/hooks';
 import Button from '@components/general/Button/Button.native';
 import { Condition, Spacing } from '@components/general/index';
 import StyledText from '@components/general/Text/StyledText.native';
-import useAchievements from './hooks/useAchievements';
+import { useAchievements } from './hooks';
 import { SMALL_PADDING } from '@styles/global.native';
 import TextWithBackground from '@components/general/Text/TextWithBackground.native';
-import SteamAchievementView from '@components/custom/steam-achievement-view/steam-achievement-view';
+import {
+  ProgressView,
+  SteamAchievementView,
+  SteamAchievementDropdownTitle,
+} from '@components/custom';
 
-const Achievements = () => {
+export const Achievements = () => {
   const { t } = useTranslation();
   const navigation = useReactNavigation();
   const { viewModel, actions } = useAchievements();
@@ -122,5 +124,3 @@ const Achievements = () => {
     </StandardLayout>
   );
 };
-
-export default Achievements;

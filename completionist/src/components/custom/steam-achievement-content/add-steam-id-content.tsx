@@ -7,10 +7,10 @@ import { KeyboardAvoidingScrollView } from '@components/general/Lists';
 import { Spacing, ParagraphView } from '@components/general';
 import Button from '@components/general/Button/Button.native';
 import { getSteamUserById } from '@data/api/endpoints';
-import SteamProfileModal from '@screens/Achievements/SteamProfileModal.native';
+import { SteamProfileModal } from '@screens/achievements';
 import { SteamProfile } from '@utils/CustomInterfaces';
 
-const AddSteamIDContent = () => {
+export const AddSteamIDContent = () => {
   const { t } = useTranslation();
   const [steamId, setSteamId] = useState<string>('');
   const [profileVisible, setProfileVisible] = useState<boolean>(false);
@@ -76,5 +76,3 @@ const AddSteamIDContent = () => {
     </KeyboardAvoidingScrollView>
   );
 };
-
-export default AddSteamIDContent;

@@ -1,10 +1,12 @@
 import React from 'react';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 import { DrawerStackParamList } from '@utils/CustomInterfaces';
-import Locations from '@screens/GameContent/Locations.native';
-import Quests from '@screens/GameContent/Quests.native';
-import Miscellaneous from '@screens/GameContent/Miscellaneous.native';
-import Collectables from '@screens/GameContent/Collectables.native';
+import {
+  Quests,
+  Collectables,
+  Miscellaneous,
+  Locations,
+} from '@screens/game-content';
 import { useMainState } from '@redux/hooks';
 import useGetTheme from '@styles/hooks/useGetTheme';
 import { useTranslateGameContent } from '@data/hooks';
@@ -12,7 +14,7 @@ import { Condition } from '@components/general';
 import StyledText from '@components/general/Text/StyledText.native';
 import { DrawerScreenEnum } from '@utils/CustomEnums';
 import SendRequest from '@screens/SendRequest.native';
-import SteamAchievements from '@screens/Achievements/SteamAchievements.native';
+import { Achievements, SteamAchievements } from '@screens/achievements';
 import {
   navigationStyles,
   NavigationDrawerBody,
@@ -21,7 +23,6 @@ import {
 import Payments from '@screens/Payments.native';
 import AccountDetails from '@screens/Settings/AccountDetails.native';
 import Settings from '@screens/Settings/Settings.native';
-import Achievements from '@screens/Achievements/Achievements.native';
 
 const Drawer = createDrawerNavigator<DrawerStackParamList>();
 

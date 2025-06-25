@@ -6,10 +6,9 @@ import { AuthScreenEnum } from '@utils/CustomEnums';
 import Settings from '@screens/Settings/Settings.native';
 import AccountDetails from '@screens/Settings/AccountDetails.native';
 import Landing from '@screens/Landing.native';
-import SteamAchievements from '@screens/Achievements/SteamAchievements.native';
+import { GlobalAchievements, SteamAchievements } from '@screens/achievements';
 import { AuthDrawerStackNavigator } from '.';
 import PurchaseGame from '@screens/PurchaseGame/PurchaseGame.native';
-import GlobalAchievements from '@screens/Achievements/GlobalAchievements.native';
 
 const Stack = createStackNavigator<AuthStackParamList>();
 

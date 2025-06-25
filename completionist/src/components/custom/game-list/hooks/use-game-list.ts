@@ -1,5 +1,5 @@
 import { useMemo } from 'react';
-import useMainState from '@redux/hooks/use-main-state';
+import { useMainState } from '@redux/hooks';
 import { filterGameList } from './use-filter-game-list';
 import { allGameData } from '@utils/configs/gameConfigs';
 

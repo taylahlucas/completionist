@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import useMainDispatch from '@redux/hooks/use-main-dispatch';
+import { useMainDispatch } from '@redux/hooks';
 
 const usePlaySplashScreen = () => {
   const { setShowSplashScreen } = useMainDispatch();

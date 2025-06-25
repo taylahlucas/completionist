@@ -11,7 +11,7 @@ import {
 import { ContentItem } from '@utils/CustomInterfaces';
 import WikiWebView from '@components/general/WikiWebView/WikiWebView.native';
 
-const ContentList = () => {
+export const ContentList = () => {
   const { searchValue, webViewHref } = useContentState();
   const { setSearchValue, setWebViewHref } = useContentDispatch();
   const { getContentCategories } = useGetContentCategories();
@@ -59,5 +59,3 @@ const ContentList = () => {
     </Condition>
   );
 };
-
-export default ContentList;

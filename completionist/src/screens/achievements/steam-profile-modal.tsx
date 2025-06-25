@@ -15,12 +15,12 @@ import Button from '@components/general/Button/Button.native';
 import StyledText from '@components/general/Text/StyledText.native';
 import { SteamProfile } from '@utils/CustomInterfaces';
 import { DEFAULT_BORDER_RADIUS, windowHeight } from '@styles/global.native';
-import useReactNavigation from '@navigation/hooks/use-react-navigation';
+import { useReactNavigation } from '@navigation/hooks';
 import IconButton from '@components/general/Icon/IconButton.native';
 import { IconTypeEnum } from '@utils/CustomEnums';
 import { Condition, Spacing } from '@components/general/index';
 import { isSmallScreen } from '@styles/global.native';
-import useAchievements from './hooks/useAchievements';
+import { useAchievements } from './hooks';
 
 type ProfileViewType = 'add' | 'view';
 
@@ -31,7 +31,7 @@ interface SteamProfileProps {
   onClose: () => void;
 }
 
-const SteamProfileModal = ({
+export const SteamProfileModal = ({
   profile,
   isVisible = false,
   viewType = 'view',
@@ -178,5 +178,3 @@ const styles = StyleSheet.create({
     marginTop: 16,
   },
 });
-
-export default SteamProfileModal;

@@ -1,6 +1,6 @@
 import Overlay from '@components/general/Layouts/Overlay.native';
 import useReactNavigation from '@navigation/hooks/use-react-navigation';
-import useAchievements from '@screens/Achievements/hooks/useAchievements';
+import useAchievements from '@screens/achievements/hooks/use-achievements';
 import {
   DEFAULT_BORDER_RADIUS,
   isSmallScreen,
