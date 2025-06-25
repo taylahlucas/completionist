@@ -12,12 +12,9 @@ import { useRef } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Animated, Modal, StyleSheet, View } from 'react-native';
 
-const SelectLanguageModal = ({}) => {
-  const { t } = useTranslation();
-  const navigation = useReactNavigation();
+export const SelectLanguageModal = ({}) => {
   const translateY = useRef(new Animated.Value(windowHeight)).current;
   const theme = useGetTheme();
-  const { viewModel, actions } = useAchievements();
 
   return (
     <Modal transparent animationType="none">
@@ -70,5 +67,3 @@ const styles = StyleSheet.create({
     marginTop: 16,
   },
 });
-
-export default SelectLanguageModal;
