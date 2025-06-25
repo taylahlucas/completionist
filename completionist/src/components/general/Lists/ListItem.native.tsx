@@ -1,13 +1,13 @@
 import React, { useRef, useState, useEffect } from 'react';
 import { Animated } from 'react-native';
-import useGetTheme from '@styles/hooks/useGetTheme';
+import useGetTheme from '@styles/hooks';
 import {
   ListItemContainer,
   ListItemTitle,
   ListItemContentContainer,
   ListItemLocationContainer,
-} from '@components/general/Lists/index';
-import AnimatedCheckBox from '../Checkbox/AnimatedCheckBox.native';
+} from '@components/general/Lists';
+import { AnimatedCheckBox } from '../checkbox';
 import { Condition } from '@components/general/index';
 import { getLocationString } from '@utils/hooks/index';
 import StyledText from '../Text/StyledText.native';

@@ -6,10 +6,10 @@ import {
   GameItemTitleContainer,
   GameItemScore,
 } from './';
-import { GameData } from '@utils/CustomInterfaces';
+import { GameData } from '@utils/custom-interfaces';
 import { useGameListItem } from './hooks';
 import { Condition } from '@components/general';
-import { FlowType } from '@utils/CustomTypes';
+import { FlowType } from '@utils/custom-types';
 
 interface GameListItemProps {
   flow?: FlowType;

@@ -1,5 +1,5 @@
 import { useMainState } from '@redux/hooks';
-import { ContentSectionEnum, GameKeyEnum } from '@utils/CustomEnums';
+import { ContentSectionEnum, GameKeyEnum } from '@utils/custom-enums';
 import { getCurrentGame } from '@data/hooks/index';
 
 export const useGetGameProgress = () => {

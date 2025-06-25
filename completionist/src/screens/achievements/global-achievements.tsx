@@ -2,7 +2,7 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import StandardLayout from '@components/general/Layouts/StandardLayout.native';
 import { NavigationHeader } from '@navigation/index';
-import { AuthScreenEnum } from '@utils/CustomEnums';
+import { AuthScreenEnum } from '@utils/custom-enums';
 import { Dropdown } from '@components/general/Dropdown';
 import { ScrollableList } from '@components/general/Lists';
 import {
@@ -10,7 +10,7 @@ import {
   SteamAchievementDropdownTitle,
   ProgressViewDropdown,
 } from '@components/custom';
-import Button from '@components/general/Button/Button.native';
+import Button from '@components/general/button/button';
 import { Condition, Spacing } from '@components/general';
 import { View } from 'react-native';
 import StyledText from '@components/general/Text/StyledText.native';

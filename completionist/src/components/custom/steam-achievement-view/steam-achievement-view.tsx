@@ -1,5 +1,5 @@
 import React from 'react';
-import useGetTheme from '@styles/hooks/useGetTheme';
+import useGetTheme from '@styles/hooks/use-get-theme';
 import { Condition } from '@components/general';
 import {
   SteamAchievementIcon,
@@ -8,7 +8,7 @@ import {
   SteamItemTitle,
   SteamItemDescription,
 } from './';
-import { SteamAchievementItem } from '@utils/CustomInterfaces';
+import { SteamAchievementItem } from '@utils/custom-interfaces';
 
 interface SteamAchievementViewProps {
   item: SteamAchievementItem;

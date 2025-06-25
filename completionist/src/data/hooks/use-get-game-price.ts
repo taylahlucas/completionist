@@ -1,4 +1,4 @@
-import { PaymentTierEnum } from '@utils/CustomEnums';
+import { PaymentTierEnum } from '@utils/custom-enums';
 
 interface GamePriceReturnType {
   title: string;

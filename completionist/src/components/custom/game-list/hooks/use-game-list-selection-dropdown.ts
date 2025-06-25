@@ -1,8 +1,8 @@
-import { AuthScreenEnum } from '@utils/CustomEnums';
-import { GameData } from '@utils/CustomInterfaces';
+import { AuthScreenEnum } from '@utils/custom-enums';
+import { GameData } from '@utils/custom-interfaces';
 import { useMainDispatch } from '@redux/hooks';
-import useReactNavigation from '@navigation/hooks/use-react-navigation';
-import { GameListSelectionType } from '@utils/CustomTypes';
+import { useReactNavigation } from '@navigation/hooks';
+import { GameListSelectionType } from '@utils/custom-types';
 import { useState } from 'react';
 import { getGameDataFromCache } from '@data/helpers/get-game-data-from-cache';
 import { getMappedGameData } from '@data/helpers/map-game-data';

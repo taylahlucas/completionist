@@ -1,12 +1,12 @@
-import { GameKeyEnum } from '@utils/CustomEnums';
+import { GameKeyEnum } from '@utils/custom-enums';
 import {
   LoginFormData,
   User,
   SteamProfile,
   SteamAchievementItem,
   UserSettings,
-} from '@utils/CustomInterfaces';
-import { LanguageType, UserResponse } from '@utils/CustomTypes';
+} from '@utils/custom-interfaces';
+import { LanguageType, UserResponse } from '@utils/custom-types';
 
 export interface SignUpProps {
   data: LoginFormData;

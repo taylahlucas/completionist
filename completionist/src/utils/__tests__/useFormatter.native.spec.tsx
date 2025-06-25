@@ -1,4 +1,4 @@
-import { renderHook } from '@utils/testing/TestLibraryUtils.native';
+import { renderHook } from '@utils/testing/test-library-utils';
 import formatter from '@utils/hooks/formatter';
 
 // TODO: Fix

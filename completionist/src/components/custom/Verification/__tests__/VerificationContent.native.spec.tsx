@@ -4,7 +4,7 @@ import {
   screen,
   fireEvent,
   waitFor,
-} from '@utils/testing/TestLibraryUtils.native';
+} from '@utils/testing/test-library-utils';
 import VerificationContent from '../verification-content';
 import * as useSendVerificationEmail from '@components/custom/LoginForm/hooks/useSendVerificationEmail';
 import { mockAlert } from '@utils/testing/mocks';

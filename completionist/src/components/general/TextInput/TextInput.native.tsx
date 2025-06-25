@@ -5,7 +5,7 @@ import {
   TextInput as RNTextInput,
   TextInputProps as RNTextInputProps,
 } from 'react-native';
-import useGetTheme from '@styles/hooks/useGetTheme';
+import useGetTheme from '@styles/hooks/use-get-theme';
 import { TextInputIcon } from './TextInputStyledComponents.native';
 import { TextInputContainer } from './TextInputStyledComponents.native';
 import { Condition } from '@components/general/index';
@@ -13,7 +13,7 @@ import defaultStyle from '@styles/Font/FontStyle';
 import { TextInputStyleType, IconTypeEnum } from '@utils/index';
 import useGetTextContainerStyle from './hooks/useGetTextContainerStyle.native';
 import useGetTextInputStyle from './hooks/useGetTextInputStyle.native';
-import { LARGE_WIDTH } from '@styles/global.native';
+import { LARGE_WIDTH } from '@styles/global';
 
 export interface TextInputProps extends RNTextInputProps {
   onChangeText: (value: string) => void;

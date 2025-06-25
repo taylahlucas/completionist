@@ -1,7 +1,7 @@
 import React from 'react';
-import useGetTheme from '@styles/hooks/useGetTheme';
+import useGetTheme from '@styles/hooks/use-get-theme';
 import Icon from '@components/general/Icon/Icon.native';
-import { IconTypeEnum } from '@utils/CustomEnums';
+import { IconTypeEnum } from '@utils/custom-enums';
 import { DropdownTitleContainer } from '@components/general/Dropdown';
 import StyledText from '@components/general/Text/StyledText.native';
 

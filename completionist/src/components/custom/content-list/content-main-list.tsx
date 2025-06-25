@@ -5,12 +5,9 @@ import {
   useUpdateContent,
   useGetContent,
 } from './hooks';
-import { ContentItem } from '@utils/CustomInterfaces';
+import { ContentItem } from '@utils/custom-interfaces';
 import { ListItem, ScrollableList } from '@components/general/Lists';
-import {
-  EXTRA_LARGE_PADDING,
-  DEFAULT_ITEM_HEIGHT,
-} from '@styles/global.native';
+import { EXTRA_LARGE_PADDING, DEFAULT_ITEM_HEIGHT } from '@styles/global';
 import { useContentDispatch } from './provider';
 
 export interface ContentMainListProps {

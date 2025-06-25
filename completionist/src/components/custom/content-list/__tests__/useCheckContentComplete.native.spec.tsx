@@ -1,7 +1,7 @@
-import { renderHook } from '@utils/testing/TestLibraryUtils.native';
+import { renderHook } from '@utils/testing/test-library-utils';
 import { initialState as mainState } from '@redux/main-state';
 import useCheckContentComplete from '../hooks/use-check-content-complete';
-import { ContentSectionEnum, GameKeyEnum } from '@utils/CustomEnums';
+import { ContentSectionEnum, GameKeyEnum } from '@utils/custom-enums';
 import useGetContent from '../hooks/use-get-content';
 
 describe('useCheckContentComplete', () => {

@@ -1,5 +1,5 @@
 import styled from 'styled-components/native';
-import { LARGE_WIDTH } from '@styles/global.native';
+import { LARGE_WIDTH } from '@styles/global';
 import IconButton from '../Icon/IconButton.native';
 
 interface TextInputContainerProps {
@@ -13,7 +13,7 @@ export const TextInputContainer = styled.View<TextInputContainerProps>`
   width: ${(props): number => props.width}px;
   margin: 16px;
   padding-vertical: 8px;
-  justify-content: ${props => !props.multiline ? 'center' : 'none'};
+  justify-content: ${props => (!props.multiline ? 'center' : 'none')};
 `;
 
 export const TextInputTextContainer = styled.View`

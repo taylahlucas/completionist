@@ -1,7 +1,7 @@
 import { useGetSettingsConfig, useTranslateGameContent } from '@data/hooks';
 import { useMainState } from '@redux/hooks';
-import { GameKeyEnum } from '@utils/CustomEnums';
-import { ContentItem, GameContentItem } from '@utils/CustomInterfaces';
+import { GameKeyEnum } from '@utils/custom-enums';
+import { ContentItem, GameContentItem } from '@utils/custom-interfaces';
 import { useContentState } from '../provider';
 
 interface GameDataReturnType {

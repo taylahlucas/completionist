@@ -3,8 +3,8 @@ import MaterialIcon from 'react-native-vector-icons/MaterialIcons';
 import MaterialCommunityIcon from 'react-native-vector-icons/MaterialCommunityIcons';
 import Ionicon from 'react-native-vector-icons/Ionicons';
 import FontAwesome from 'react-native-vector-icons/FontAwesome';
-import { IconTypeEnum } from '@utils/CustomEnums';
-import { IconType } from '@utils/CustomTypes';
+import { IconTypeEnum } from '@utils/custom-enums';
+import { IconType } from '@utils/custom-types';
 
 export interface IconProps {
   name: IconType;
@@ -14,18 +14,37 @@ export interface IconProps {
   size?: number;
 }
 
-const Icon = ({ name, style, type = IconTypeEnum.MaterialIcons, color = 'white', size = 25 }: IconProps) => {
+const Icon = ({
+  name,
+  style,
+  type = IconTypeEnum.MaterialIcons,
+  color = 'white',
+  size = 25,
+}: IconProps) => {
   switch (type) {
     case IconTypeEnum.MaterialIcons:
-      return <MaterialIcon style={style} name={name} color={color} size={size} />
+      return (
+        <MaterialIcon style={style} name={name} color={color} size={size} />
+      );
     case IconTypeEnum.MaterialCommunityIcons:
-      return <MaterialCommunityIcon style={style} name={name} color={color} size={size} />
+      return (
+        <MaterialCommunityIcon
+          style={style}
+          name={name}
+          color={color}
+          size={size}
+        />
+      );
     case IconTypeEnum.Ionicons:
-      return <Ionicon style={style} name={name} color={color} size={size} />
+      return <Ionicon style={style} name={name} color={color} size={size} />;
     case IconTypeEnum.FontAwesome:
-      return <FontAwesome style={style} name={name} color={color} size={size} />
-    default: 
-      return <MaterialIcon style={style} name={name} color={color} size={size} />
+      return (
+        <FontAwesome style={style} name={name} color={color} size={size} />
+      );
+    default:
+      return (
+        <MaterialIcon style={style} name={name} color={color} size={size} />
+      );
   }
 };
 

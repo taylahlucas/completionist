@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Alert } from 'react-native';
 import { useTranslation } from 'react-i18next';
-import Button from '@components/general/Button/Button.native';
+import Button from '@components/general/button/button';
 import {
   LoginFormContentContainer,
   LoginFormFooterContainer,
@@ -14,7 +14,7 @@ import { Condition } from '@components/general/index';
 import { isEmailValid, isPwValid, isNameValid } from '@utils/hooks/validator';
 import { useSendVerificationEmail, useGetLoginMethods } from './hooks';
 import { checkUserExists } from '@data/api/auth-endpoints';
-import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
+import { UnauthorizedScreenEnum } from '@utils/custom-enums';
 
 export const LoginFormSignInButtons = () => {
   const { t } = useTranslation();

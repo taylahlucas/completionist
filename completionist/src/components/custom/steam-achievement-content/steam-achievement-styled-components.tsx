@@ -5,7 +5,7 @@ import {
   DEFAULT_BORDER_RADIUS,
   SMALL_PADDING,
   MID_PADDING,
-} from '@styles/global.native';
+} from '@styles/global';
 
 export const steamAchievementStyles = StyleSheet.create({
   scrollStyle: {

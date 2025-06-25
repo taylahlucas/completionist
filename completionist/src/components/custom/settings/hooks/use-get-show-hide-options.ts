@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import { useMainState } from '@redux/hooks';
-import { SettingsOptionEnum } from '@utils/CustomEnums';
+import { SettingsOptionEnum } from '@utils/custom-enums';
 
 interface SettingsOptionsItem {
   id: string;

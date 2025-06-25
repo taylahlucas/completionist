@@ -9,7 +9,7 @@ import {
   reset,
 } from './login-state';
 import { useAppDispatch } from '@redux/store';
-import { LoginFormData } from '@utils/CustomInterfaces';
+import { LoginFormData } from '@utils/custom-interfaces';
 
 interface LoginDispatch {
   setLoginFormData: (value: LoginFormData) => void;

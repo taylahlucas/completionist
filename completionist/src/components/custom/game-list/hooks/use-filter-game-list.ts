@@ -1,4 +1,4 @@
-import { GameData } from '@utils/CustomInterfaces';
+import { GameData } from '@utils/custom-interfaces';
 import { TFunction } from 'i18next';
 
 export const filterGameList = (

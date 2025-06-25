@@ -1,11 +1,11 @@
 import React from 'react';
 import { View } from 'react-native';
-import useGetTheme from '@styles/hooks/useGetTheme';
-import { ProgressItemData } from '@utils/CustomInterfaces';
+import useGetTheme from '@styles/hooks/use-get-theme';
+import { ProgressItemData } from '@utils/custom-interfaces';
 import { ProgressChartItem } from './';
-import { STANDARD_WIDTH } from '@styles/global.native';
+import { STANDARD_WIDTH } from '@styles/global';
 import { useGetGameProgress } from './hooks';
-import { GameKeyEnum } from '@utils/CustomEnums';
+import { GameKeyEnum } from '@utils/custom-enums';
 
 interface ProgressViewProps {
   gameId: string;

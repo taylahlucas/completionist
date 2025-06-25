@@ -8,7 +8,7 @@ import {
   SMALL_PADDING,
   MID_PADDING,
   windowWidth,
-} from '@styles/global.native';
+} from '@styles/global';
 import { ScrollableList } from '@components/general/Lists/index';
 
 interface SettingsMainItemProps {

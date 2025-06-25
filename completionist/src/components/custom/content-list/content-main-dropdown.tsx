@@ -10,7 +10,7 @@ import {
   useGetContent,
 } from './hooks';
 import { useContentState, useContentDispatch } from './provider';
-import { ContentItem } from '@utils/CustomInterfaces';
+import { ContentItem } from '@utils/custom-interfaces';
 
 export interface ContentMainDropdownProps {
   category: ContentItem;

@@ -1,4 +1,4 @@
-import { renderHook } from '@utils/testing/TestLibraryUtils.native';
+import { renderHook } from '@utils/testing/test-library-utils';
 import useFilterGameList from '../hooks/use-filter-game-list';
 import { userLoggedInMock } from '@utils/testing/test-helper/__mocks__/mocks';
 

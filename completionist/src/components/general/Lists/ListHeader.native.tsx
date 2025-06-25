@@ -1,13 +1,13 @@
 import React from 'react';
 import { View } from 'react-native';
-import useGetTheme from '@styles/hooks/useGetTheme';
+import useGetTheme from '@styles/hooks/use-get-theme';
 import {
   listStyles,
   ListItemHeaderContainer,
   ListItemHeaderCountTitle,
-  SubListHeaderTitle
+  SubListHeaderTitle,
 } from '@components/general/Lists/index';
-import {Condition} from '@components/general/index';
+import { Condition } from '@components/general/index';
 
 interface ListHeaderProps {
   title: string;
@@ -16,21 +16,29 @@ interface ListHeaderProps {
   total: string;
 }
 
-export const ListHeader = ({ title, enabled = true, completed, total }: ListHeaderProps): JSX.Element => {
+export const ListHeader = ({
+  title,
+  enabled = true,
+  completed,
+  total,
+}: ListHeaderProps): JSX.Element => {
   const theme = useGetTheme();
 
   return (
     <View style={listStyles.selectableButton}>
-      <ListItemHeaderContainer backgroundColor={theme.black} color={theme.darkGrey}>
+      <ListItemHeaderContainer
+        backgroundColor={theme.black}
+        color={theme.darkGrey}>
         <SubListHeaderTitle
-          type='ListItemSubTitleBold'
-          align='left'
-          color={theme.lightGrey}
-        >
+          type="ListItemSubTitleBold"
+          align="left"
+          color={theme.lightGrey}>
           {title}
         </SubListHeaderTitle>
         <Condition condition={enabled}>
-          <ListItemHeaderCountTitle type='ListItemSubTitleBold'color={theme.lightGrey}>
+          <ListItemHeaderCountTitle
+            type="ListItemSubTitleBold"
+            color={theme.lightGrey}>
             {`${completed} / ${total}`}
           </ListItemHeaderCountTitle>
         </Condition>

@@ -1,6 +1,6 @@
 import { urls } from './constants';
 import * as RNLocalize from 'react-native-localize';
-import { LanguageType } from './CustomTypes';
+import { LanguageType } from './custom-types';
 
 export function getApiNameFromUrl(url: string) {
   const currentUrl = urls.find((value: string) => url.includes(value));

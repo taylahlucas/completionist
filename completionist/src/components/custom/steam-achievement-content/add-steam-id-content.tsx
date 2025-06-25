@@ -5,10 +5,10 @@ import StyledText from '@components/general/Text/StyledText.native';
 import TextInput from '@components/general/TextInput/TextInput.native';
 import { KeyboardAvoidingScrollView } from '@components/general/Lists';
 import { Spacing, ParagraphView } from '@components/general';
-import Button from '@components/general/Button/Button.native';
+import Button from '@components/general/button/button';
 import { getSteamUserById } from '@data/api/endpoints';
 import { SteamProfileModal } from '@screens/achievements';
-import { SteamProfile } from '@utils/CustomInterfaces';
+import { SteamProfile } from '@utils/custom-interfaces';
 
 export const AddSteamIDContent = () => {
   const { t } = useTranslation();

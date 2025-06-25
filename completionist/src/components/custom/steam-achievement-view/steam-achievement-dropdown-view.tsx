@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import useGetTheme from '@styles/hooks/useGetTheme';
+import useGetTheme from '@styles/hooks/use-get-theme';
 import { ScrollableList } from '@components/general/Lists';
-import { SteamAchievementItem } from '@utils/CustomInterfaces';
+import { SteamAchievementItem } from '@utils/custom-interfaces';
 import { Condition } from '@components/general';
 import { Dropdown } from '@components/general/Dropdown';
 import { SteamAchievementDropdownShadow, SteamAchievementView } from './';

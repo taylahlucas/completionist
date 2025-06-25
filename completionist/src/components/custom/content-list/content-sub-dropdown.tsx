@@ -10,7 +10,7 @@ import {
   useGetContentCategories,
   useGetContent,
 } from './hooks';
-import { ContentItem } from '@utils/CustomInterfaces';
+import { ContentItem } from '@utils/custom-interfaces';
 
 export interface ContentSubDropdownProps {
   mainCategory: ContentItem;

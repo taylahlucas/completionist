@@ -3,15 +3,15 @@ import { View } from 'react-native';
 import { useTranslation } from 'react-i18next';
 import StandardLayout from '@components/general/Layouts/StandardLayout.native';
 import { NavigationHeader } from '@navigation/index';
-import { DrawerScreenEnum } from '@utils/CustomEnums';
+import { DrawerScreenEnum } from '@utils/custom-enums';
 import { Dropdown } from '@components/general/Dropdown';
 import { ScrollableList } from '@components/general/Lists';
 import { useReactNavigation } from '@navigation/hooks';
-import Button from '@components/general/Button/Button.native';
+import Button from '@components/general/button/button';
 import { Condition, Spacing } from '@components/general/index';
 import StyledText from '@components/general/Text/StyledText.native';
 import { useAchievements } from './hooks';
-import { SMALL_PADDING } from '@styles/global.native';
+import { SMALL_PADDING } from '@styles/global';
 import TextWithBackground from '@components/general/Text/TextWithBackground.native';
 import {
   ProgressView,

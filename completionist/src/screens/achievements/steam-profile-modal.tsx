@@ -9,17 +9,17 @@ import {
   Alert,
 } from 'react-native';
 import { useTranslation } from 'react-i18next';
-import useGetTheme from '@styles/hooks/useGetTheme';
+import useGetTheme from '@styles/hooks/use-get-theme';
 import Overlay from '@components/general/Layouts/Overlay.native';
-import Button from '@components/general/Button/Button.native';
+import Button from '@components/general/button/button';
 import StyledText from '@components/general/Text/StyledText.native';
-import { SteamProfile } from '@utils/CustomInterfaces';
-import { DEFAULT_BORDER_RADIUS, windowHeight } from '@styles/global.native';
+import { SteamProfile } from '@utils/custom-interfaces';
+import { DEFAULT_BORDER_RADIUS, windowHeight } from '@styles/global';
 import { useReactNavigation } from '@navigation/hooks';
 import IconButton from '@components/general/Icon/IconButton.native';
-import { IconTypeEnum } from '@utils/CustomEnums';
+import { IconTypeEnum } from '@utils/custom-enums';
 import { Condition, Spacing } from '@components/general/index';
-import { isSmallScreen } from '@styles/global.native';
+import { isSmallScreen } from '@styles/global';
 import { useAchievements } from './hooks';
 
 type ProfileViewType = 'add' | 'view';

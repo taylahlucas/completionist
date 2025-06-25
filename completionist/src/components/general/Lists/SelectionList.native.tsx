@@ -1,8 +1,12 @@
 import React from 'react';
-import { SelectionListContainer, SelectionListItemContainer, SelectListTitle } from '@components/general/Lists/index';
-import CheckBox from '../Checkbox/CheckBox.native';
-import useGetTheme from '@styles/hooks/useGetTheme';
-import { IsActive } from '@utils/CustomInterfaces';
+import {
+  SelectionListContainer,
+  SelectionListItemContainer,
+  SelectListTitle,
+} from '@components/general/Lists/index';
+import CheckBox from '../checkbox/checkbox';
+import useGetTheme from '@styles/hooks/use-get-theme';
+import { IsActive } from '@utils/custom-interfaces';
 import { useTranslation } from 'react-i18next';
 
 export type SelectionListType = 'enable-dlc' | 'show-hide-sections';
@@ -14,7 +18,12 @@ interface SelectionListProps {
   onPress: (title: string) => void;
 }
 
-export const SelectionList = ({ data, type, translationKey, onPress }: SelectionListProps) => {
+export const SelectionList = ({
+  data,
+  type,
+  translationKey,
+  onPress,
+}: SelectionListProps) => {
   const { t } = useTranslation();
   const theme = useGetTheme();
 
@@ -26,15 +35,15 @@ export const SelectionList = ({ data, type, translationKey, onPress }: Selection
         return t(`common:settings.${translationKey}`);
     }
   };
-  
+
   return (
     <SelectionListContainer>
       {data.map((item, index) => (
         <SelectionListItemContainer key={index}>
-          <SelectListTitle align='left' color={theme.lightGrey}>
+          <SelectListTitle align="left" color={theme.lightGrey}>
             {getTitleForType(item)}
           </SelectListTitle>
-          <CheckBox 
+          <CheckBox
             isActive={item.isActive}
             onPress={(): void => onPress(item.id)}
           />

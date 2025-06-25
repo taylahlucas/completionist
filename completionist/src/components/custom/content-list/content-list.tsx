@@ -8,7 +8,7 @@ import {
   useGetContentCategories,
   useGetContent,
 } from './hooks';
-import { ContentItem } from '@utils/CustomInterfaces';
+import { ContentItem } from '@utils/custom-interfaces';
 import WikiWebView from '@components/general/WikiWebView/WikiWebView.native';
 
 export const ContentList = () => {

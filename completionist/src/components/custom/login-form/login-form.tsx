@@ -2,11 +2,11 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import TextInput from '@components/general/TextInput/TextInput.native';
 import { LoginFormContainer, LoginFormContentContainer } from './';
-import Button from '@components/general/Button/Button.native';
+import Button from '@components/general/button/button';
 import { useLoginState, useLoginDispatch } from './provider';
 import { Condition } from '@components/general/index';
-import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
-import useReactNavigation from '@navigation/hooks/use-react-navigation';
+import { UnauthorizedScreenEnum } from '@utils/custom-enums';
+import { useReactNavigation } from '@navigation/hooks';
 
 export const LoginForm = () => {
   const navigation = useReactNavigation();

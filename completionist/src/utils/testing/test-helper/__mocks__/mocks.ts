@@ -3,7 +3,7 @@ import {
   User,
   BadgeItem,
   ProgressItem,
-} from '@utils/CustomInterfaces';
+} from '@utils/custom-interfaces';
 
 export const userLoggedInMock: User = {
   userId: '123',

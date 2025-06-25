@@ -1,6 +1,6 @@
 import uuid from 'react-native-uuid';
 import authInterceptor from './auth-interceptor';
-import { UserResponse } from '@utils/CustomTypes';
+import { UserResponse } from '@utils/custom-types';
 import {
   CredentialsExistProps,
   ForgotPwProps,

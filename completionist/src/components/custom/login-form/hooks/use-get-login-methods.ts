@@ -9,7 +9,7 @@ import {
   signIn,
   signUp,
 } from '@data/api/auth-endpoints';
-import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
+import { UnauthorizedScreenEnum } from '@utils/custom-enums';
 import { useEditUserData, useRemoveUserData } from '@data/hooks';
 import { useMainState, useMainDispatch } from '@redux/hooks';
 import { SignInProps } from '@data/api/endpoint-interfaces';

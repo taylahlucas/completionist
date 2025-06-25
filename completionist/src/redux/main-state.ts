@@ -3,9 +3,9 @@ import {
   UnauthorizedScreenEnum,
   GameKeyEnum,
   PaymentTierEnum,
-} from '@utils/CustomEnums';
-import { ScreenEnumType } from '@utils/CustomTypes';
-import { GameData, User } from '@utils/CustomInterfaces';
+} from '@utils/custom-enums';
+import { ScreenEnumType } from '@utils/custom-types';
+import { GameData, User } from '@utils/custom-interfaces';
 import { AppStateStatus } from 'react-native';
 import { initialFormData } from '@components/custom/login-form/provider';
 

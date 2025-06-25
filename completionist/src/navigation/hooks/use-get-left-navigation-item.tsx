@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { Alert, Animated, Keyboard } from 'react-native';
 import { useTranslation } from 'react-i18next';
-import { NavigationHeaderLeftActionTypes } from '@utils/CustomTypes';
+import { NavigationHeaderLeftActionTypes } from '@utils/custom-types';
 import {
   navigationStyles,
   NavigationHeaderMenuButton,
@@ -9,8 +9,8 @@ import {
   NavigationHeaderMenuIcon,
   NavigationEmptyContainer,
 } from '@navigation/navigation-styled-components';
-import { IconTypeEnum } from '@utils/CustomEnums';
-import useGetTheme from '@styles/hooks/useGetTheme';
+import { IconTypeEnum } from '@utils/custom-enums';
+import useGetTheme from '@styles/hooks/use-get-theme';
 import IconButton from '@components/general/Icon/IconButton.native';
 import {
   useRotateMenuButton,

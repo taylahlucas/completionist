@@ -1,9 +1,9 @@
 import React from 'react';
 import { View } from 'react-native';
 import { ScrollableList } from '@components/general/Lists';
-import { BadgeItem } from '@utils/CustomInterfaces';
-import { LARGE_WIDTH } from '@styles/global.native';
-import useGetTheme from '@styles/hooks/useGetTheme';
+import { BadgeItem } from '@utils/custom-interfaces';
+import { LARGE_WIDTH } from '@styles/global';
+import useGetTheme from '@styles/hooks/use-get-theme';
 
 interface BadgeViewProps {
   items: BadgeItem[];

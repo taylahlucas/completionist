@@ -5,10 +5,10 @@ import { getSteamPlayerAchievements } from '@data/api/endpoints';
 import {
   SteamAchievementItem,
   SteamAchievementsState,
-} from '@utils/CustomInterfaces';
+} from '@utils/custom-interfaces';
 import { useEditUserData, useGetGameProgressData } from '@data/hooks/index';
 import { getCurrentGame } from '@data/hooks/index';
-import { GameKeyEnum } from '@utils/CustomEnums';
+import { GameKeyEnum } from '@utils/custom-enums';
 
 export const useAchievements = () => {
   const { t } = useTranslation();

@@ -1,11 +1,11 @@
 import React from 'react';
 import { View } from 'react-native';
-import useGetTheme from '@styles/hooks/useGetTheme';
-import { 
+import useGetTheme from '@styles/hooks/use-get-theme';
+import {
   ListItemHeaderContainer,
   ListItemHeaderCountTitle,
   SubListHeaderTitle,
-  listStyles
+  listStyles,
 } from '@components/general/Lists/index';
 
 interface SubTypeListHeaderProps {
@@ -14,16 +14,25 @@ interface SubTypeListHeaderProps {
   total: string;
 }
 
-export const SubTypeListHeader = ({ title, completed, total }: SubTypeListHeaderProps): JSX.Element => {
+export const SubTypeListHeader = ({
+  title,
+  completed,
+  total,
+}: SubTypeListHeaderProps): JSX.Element => {
   const theme = useGetTheme();
 
   return (
     <View style={listStyles.subTypeSelectableButton}>
       <ListItemHeaderContainer color={theme.darkGrey}>
-        <SubListHeaderTitle type='ListItemSubTitleItalic' color={theme.lightGrey} align='left'>
+        <SubListHeaderTitle
+          type="ListItemSubTitleItalic"
+          color={theme.lightGrey}
+          align="left">
           {title}
         </SubListHeaderTitle>
-        <ListItemHeaderCountTitle type='ListItemSubTitleItalic' color={theme.lightGrey}>
+        <ListItemHeaderCountTitle
+          type="ListItemSubTitleItalic"
+          color={theme.lightGrey}>
           {`${completed} / ${total}`}
         </ListItemHeaderCountTitle>
       </ListItemHeaderContainer>

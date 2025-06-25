@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Alert } from 'react-native';
 import { useTranslation } from 'react-i18next';
-import Button from '@components/general/Button/Button.native';
+import Button from '@components/general/button/button';
 import VerificationEntry from '@components/general/VerificationEntry/VerificationEntry.native';
 import StyledText from '@components/general/Text/StyledText.native';
 import { KeyboardAvoidingScrollView } from '@components/general/Lists';

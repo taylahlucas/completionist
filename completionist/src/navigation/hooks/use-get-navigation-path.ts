@@ -1,5 +1,5 @@
-import { UnauthorizedScreenEnum } from '@utils/CustomEnums';
-import { User } from '@utils/CustomInterfaces';
+import { UnauthorizedScreenEnum } from '@utils/custom-enums';
+import { User } from '@utils/custom-interfaces';
 import { useReactNavigation } from '.';
 
 export const useGetNavigationPath = () => {

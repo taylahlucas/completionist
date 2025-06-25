@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import { useMainState } from '@redux/hooks';
-import { GameKeyEnum } from '@utils/CustomEnums';
-import { SettingsConfigItem, IsActive } from '@utils/CustomInterfaces';
+import { GameKeyEnum } from '@utils/custom-enums';
+import { SettingsConfigItem, IsActive } from '@utils/custom-interfaces';
 import { useMainDispatch } from '@redux/hooks';
 import { getCurrentGame } from '@data/hooks/index';
 

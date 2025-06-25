@@ -1,9 +1,5 @@
 import styled from 'styled-components/native';
-import {
-  EXTRA_LARGE_PADDING,
-  MID_PADDING,
-  windowHeight,
-} from '@styles/global.native';
+import { EXTRA_LARGE_PADDING, MID_PADDING, windowHeight } from '@styles/global';
 
 interface StandardLayoutContainerProps {
   color: string;

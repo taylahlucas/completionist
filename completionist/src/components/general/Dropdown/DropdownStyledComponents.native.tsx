@@ -1,9 +1,16 @@
 import styled from 'styled-components/native';
-import { DEFAULT_BORDER_RADIUS, LARGE_WIDTH, STANDARD_WIDTH, MID_WIDTH, MID_PADDING, windowWidth } from '@styles/global.native';
+import {
+  DEFAULT_BORDER_RADIUS,
+  LARGE_WIDTH,
+  STANDARD_WIDTH,
+  MID_WIDTH,
+  MID_PADDING,
+  windowWidth,
+} from '@styles/global';
 import StyledText from '../Text/StyledText.native';
 
 interface DropdownSelectionContainerProps {
-	color: string;
+  color: string;
 }
 
 export const DropdownSelectionContainer = styled.Pressable<DropdownSelectionContainerProps>`
@@ -33,37 +40,39 @@ export const DropdownSelectionItemTitle = styled(StyledText)`
 `;
 
 interface DropdownSelectionContentItemProps {
-	color: string;
-	last?: boolean;
+  color: string;
+  last?: boolean;
 }
 
 export const DropdownSelectionContentItem = styled.Pressable<DropdownSelectionContentItemProps>`
-  background-color: ${(props): string => props.color}; 
-	width: ${windowWidth - 64}px;
+  background-color: ${(props): string => props.color};
+  width: ${windowWidth - 64}px;
   height: 45px;
   justify-content: center;
-  border-bottom-left-radius: ${(props): number => !!props.last ? DEFAULT_BORDER_RADIUS : 0}px;
-  border-bottom-right-radius: ${(props): number => !!props.last ? DEFAULT_BORDER_RADIUS : 0}px;
+  border-bottom-left-radius: ${(props): number =>
+    !!props.last ? DEFAULT_BORDER_RADIUS : 0}px;
+  border-bottom-right-radius: ${(props): number =>
+    !!props.last ? DEFAULT_BORDER_RADIUS : 0}px;
 `;
 
 export const DropdownContainer = styled.View`
-	margin-top: 4px; 
-	margin-bottom: 4px; 
-	z-index: 2;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  z-index: 2;
 `;
 
 export const DropdownTitleContainer = styled.View`
-	flex-direction: row;
-	align-items: center;
-	align-self: center;
-	justify-content: space-between;
-	width: ${LARGE_WIDTH}px;
+  flex-direction: row;
+  align-items: center;
+  align-self: center;
+  justify-content: space-between;
+  width: ${LARGE_WIDTH}px;
 `;
 
 interface DropdownPressableProps {
-	enabled: boolean;
+  enabled: boolean;
 }
 
 export const DropdownPressable = styled.Pressable<DropdownPressableProps>`
-  opacity: ${(props): number => props.enabled ? 1 : 0.4};
+  opacity: ${(props): number => (props.enabled ? 1 : 0.4)};
 `;

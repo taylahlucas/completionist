@@ -1,11 +1,11 @@
 import React from 'react';
 import { View } from 'react-native';
-import useGetTheme from '@styles/hooks/useGetTheme';
+import useGetTheme from '@styles/hooks/use-get-theme';
 import {
   DEFAULT_BORDER_RADIUS,
   SMALL_PADDING,
   MID_PADDING,
-} from '@styles/global.native';
+} from '@styles/global';
 import StyledText from '@components/general/Text/StyledText.native';
 
 interface TextWithBackgroundProps {

@@ -1,14 +1,14 @@
 import React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
-import GameSelection from '@screens/GameSelection.native';
-import { AuthStackParamList } from '@utils/CustomInterfaces';
-import { AuthScreenEnum } from '@utils/CustomEnums';
-import Settings from '@screens/Settings/Settings.native';
-import AccountDetails from '@screens/Settings/AccountDetails.native';
-import Landing from '@screens/Landing.native';
+import GameSelection from '@screens/game-selection';
+import { AuthStackParamList } from '@utils/custom-interfaces';
+import { AuthScreenEnum } from '@utils/custom-enums';
+import Settings from '@screens/settings/settings';
+import AccountDetails from '@screens/settings/account-details';
+import Landing from '@screens/landing';
 import { GlobalAchievements, SteamAchievements } from '@screens/achievements';
 import { AuthDrawerStackNavigator } from '.';
-import PurchaseGame from '@screens/PurchaseGame/PurchaseGame.native';
+import PurchaseGame from '@screens/purchase-game/purchase-game';
 
 const Stack = createStackNavigator<AuthStackParamList>();
 

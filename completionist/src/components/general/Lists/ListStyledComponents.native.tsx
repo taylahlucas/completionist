@@ -7,9 +7,9 @@ import {
   MID_PADDING,
   LARGE_PADDING,
   windowWidth,
-} from '@styles/global.native';
-import Button from '../Button/Button.native';
-import { LARGE_WIDTH } from '@styles/global.native';
+} from '@styles/global';
+import Button from '../button/button';
+import { LARGE_WIDTH } from '@styles/global';
 
 export const listStyles = StyleSheet.create({
   scrollableContent: {

@@ -8,8 +8,8 @@ import {
   reset,
 } from './content-state';
 import { useAppDispatch } from '@redux/store';
-import { DropDownType, GameContentState } from '@utils/CustomInterfaces';
-import { ContentSectionEnum } from '@utils/CustomEnums';
+import { DropDownType, GameContentState } from '@utils/custom-interfaces';
+import { ContentSectionEnum } from '@utils/custom-enums';
 
 interface ContentDispatch {
   setSelectedSection: (type: ContentSectionEnum) => void;

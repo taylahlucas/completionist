@@ -1,6 +1,6 @@
 import styled from 'styled-components/native';
-import Button from '@components/general/Button/Button.native';
-import { LARGE_WIDTH, LARGE_PADDING } from '@styles/global.native';
+import Button from '@components/general/button/button';
+import { LARGE_WIDTH, LARGE_PADDING } from '@styles/global';
 
 export const LoginContentContainer = styled.View`
   align-items: center;
@@ -16,7 +16,7 @@ export const LoginFormContentContainer = styled.View`
 `;
 
 export const LoginButton = styled(Button)`
-	margin-bottom: ${LARGE_PADDING}px;
+  margin-bottom: ${LARGE_PADDING}px;
 `;
 
 export const LoginFormFooterContainer = styled.View`
@@ -24,9 +24,9 @@ export const LoginFormFooterContainer = styled.View`
 `;
 
 export const SelectFirstGameContentContainer = styled.View`
-	flex-direction: row;
-	margin-top: 16px;
-	flex-wrap: wrap;
-	justify-content: flex-start;
-	width: ${LARGE_WIDTH}px;
+  flex-direction: row;
+  margin-top: 16px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: ${LARGE_WIDTH}px;
 `;

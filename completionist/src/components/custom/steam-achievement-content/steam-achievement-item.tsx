@@ -1,13 +1,13 @@
 import React from 'react';
 import { Image } from 'react-native';
-import { SteamAchievement } from '@utils/CustomInterfaces';
+import { SteamAchievement } from '@utils/custom-interfaces';
 import StyledText from '@components/general/Text/StyledText.native';
 import {
   SteamAchievementItemContainer,
   SteamAchievementIconContainer,
   SteamAchievementContentContainer,
 } from './';
-import useGetTheme from '@styles/hooks/useGetTheme';
+import useGetTheme from '@styles/hooks/use-get-theme';
 
 interface SteamAchievementItemProps {
   achievement: SteamAchievement;

@@ -7,7 +7,7 @@ import {
 } from '@components/general/Dropdown/index';
 import { languages } from 'src/i18n/i18n-common';
 import { useMainState, useMainDispatch } from '@redux/hooks';
-import { LanguageType } from '@utils/CustomTypes';
+import { LanguageType } from '@utils/custom-types';
 import { useGetGameLanguages } from './hooks';
 import { getGameDataFromCache } from '@data/helpers/get-game-data-from-cache';
 import { getMappedGameData } from '@data/helpers/map-game-data';

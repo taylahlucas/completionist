@@ -1,5 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit';
-import { LoginFormData } from '@utils/CustomInterfaces';
+import { LoginFormData } from '@utils/custom-interfaces';
 
 export interface LoginState {
   readonly loginFormData: LoginFormData;

@@ -2,15 +2,15 @@ import React from 'react';
 import StyledText from '@components/general/Text/StyledText.native';
 import { DropdownTitleContainer } from './DropdownStyledComponents.native';
 import Icon from '@components/general/Icon/Icon.native';
-import useGetTheme from '@styles/hooks/useGetTheme';
-import { IconTypeEnum } from '@utils/CustomEnums';
+import useGetTheme from '@styles/hooks/use-get-theme';
+import { IconTypeEnum } from '@utils/custom-enums';
 import { Condition, Seperator } from '@components/general/index';
 import {
   SMALL_PADDING,
   MID_PADDING,
   MID_WIDTH,
   LARGE_PADDING,
-} from '@styles/global.native';
+} from '@styles/global';
 
 interface StyledDropdownHeaderProps {
   title: string;

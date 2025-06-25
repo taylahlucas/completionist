@@ -1,7 +1,7 @@
 import { ViewStyle } from 'react-native';
-import { DEFAULT_BORDER_RADIUS, windowWidth } from '@styles/global.native';
-import useGetTheme from '@styles/hooks/useGetTheme';
-import { TextInputStyleType } from '@utils/CustomTypes';
+import { DEFAULT_BORDER_RADIUS, windowWidth } from '@styles/global';
+import useGetTheme from '@styles/hooks/use-get-theme';
+import { TextInputStyleType } from '@utils/custom-types';
 
 const useGetTextContainerStyle = (
   inputStyle: TextInputStyleType,

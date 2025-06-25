@@ -5,7 +5,7 @@ import {
   DEFAULT_BORDER_RADIUS,
   LARGE_PADDING,
   isSmallScreen,
-} from '@styles/global.native';
+} from '@styles/global';
 import styled from 'styled-components/native';
 
 const drawerWidth = 250;

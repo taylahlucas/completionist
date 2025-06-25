@@ -1,14 +1,14 @@
 import React from 'react';
-import { NavigationDrawerItemData } from '@utils/CustomInterfaces';
+import { NavigationDrawerItemData } from '@utils/custom-interfaces';
 import { useReactNavigation } from './hooks';
 import {
   NavigationHeaderSubTitle,
   NavigationHeaderTitleContainer,
   NavigationDrawerTitle,
 } from '.';
-import useGetTheme from '@styles/hooks/useGetTheme';
+import useGetTheme from '@styles/hooks/use-get-theme';
 import { useContentDispatch } from '@components/custom/content-list/provider';
-import { ContentSectionEnum } from '@utils/CustomEnums';
+import { ContentSectionEnum } from '@utils/custom-enums';
 import { Condition } from '@components/general';
 
 interface NavigationDrawerItemProps {

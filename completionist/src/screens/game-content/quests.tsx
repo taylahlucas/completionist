@@ -2,13 +2,13 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import StandardLayout from '@components/general/Layouts/StandardLayout.native';
 import { NavigationHeader } from '@navigation/index';
-import CustomSearchBar from '@components/general/CustomSearchBar/CustomSearchBar.native';
+import CustomSearchBar from '@components/general/custom-search-bar/custom-search-bar';
 import { CompletedQuantityTitle } from '@components/general/Text/StyledTextStyledComponents.native';
 import { ContentList } from '@components/custom';
-import { DrawerScreenEnum } from '@utils/CustomEnums';
+import { DrawerScreenEnum } from '@utils/custom-enums';
 import { useGameContent } from './hooks';
 
-const Quests = () => {
+export const Quests = () => {
   const { t } = useTranslation();
   const { viewModel, actions } = useGameContent();
 
@@ -30,5 +30,3 @@ const Quests = () => {
     </StandardLayout>
   );
 };
-
-export default Quests;

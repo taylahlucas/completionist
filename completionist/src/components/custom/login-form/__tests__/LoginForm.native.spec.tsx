@@ -1,5 +1,5 @@
 import React from 'react';
-import { render, fireEvent } from '@utils/testing/TestLibraryUtils.native';
+import { render, fireEvent } from '@utils/testing/test-library-utils';
 import LoginForm from '../login-form';
 import { initialState as loginState } from '../provider/login-state';
 

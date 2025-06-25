@@ -1,6 +1,6 @@
 import { gameLanguages } from '@utils/constants';
-import { GameKeyEnum } from '@utils/CustomEnums';
-import { LanguageType } from '@utils/CustomTypes';
+import { GameKeyEnum } from '@utils/custom-enums';
+import { LanguageType } from '@utils/custom-types';
 
 export const useGetGameLanguages = () => {
   const getLanguageInEn = (lang: LanguageType): string => {

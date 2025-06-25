@@ -1,4 +1,4 @@
-import { SettingsConfigItem, IsActive } from '@utils/CustomInterfaces';
+import { SettingsConfigItem, IsActive } from '@utils/custom-interfaces';
 
 export const useUpdateSettingsConfig = () => {
   const updateConfig = (

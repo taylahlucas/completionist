@@ -1,4 +1,4 @@
-import { SettingsConfigItem } from '@utils/CustomInterfaces';
+import { SettingsConfigItem } from '@utils/custom-interfaces';
 
 // Filter active sections
 export const filterActiveSections = (

@@ -2,7 +2,7 @@ import React from 'react';
 import { Text, TextProps, View } from 'react-native';
 import { FontType, AlignmentType } from '@styles/Font/FontType';
 import defaultStyle from '@styles/Font/FontStyle';
-import useGetTheme from '@styles/hooks/useGetTheme';
+import useGetTheme from '@styles/hooks/use-get-theme';
 
 interface StyledTextProps extends TextProps {
   children: string;

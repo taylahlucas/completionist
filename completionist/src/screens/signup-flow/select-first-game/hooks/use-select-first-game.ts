@@ -1,0 +1,50 @@
+import { filterGameList } from '@components/custom/game-list/hooks/use-filter-game-list';
+import { useLoginDispatch } from '@components/custom/login-form/provider';
+import { useLoginState } from '@components/custom/login-form/provider';
+import { useIsRequestLoading } from '@data/api/hooks/use-is-request-loading';
+import { useMainState } from '@redux/hooks';
+import { useMainDispatch } from '@redux/hooks';
+import { useActivateGame, useEditUserData } from '@data/hooks/index';
+import { getFormattedSearchString } from '@utils/hooks/index';
+import { allGameData } from '@utils/configs/game-configs';
+import { useState } from 'react';
+import { GameKeyEnum } from '@utils/custom-enums';
+import { useTranslation } from 'react-i18next';
+
+export const useSelectFirstGame = () => {
+  const { t } = useTranslation();
+  const [selectedFirstGame, setSelectedFirstGame] = useState<GameKeyEnum>();
+  const [searchValue, setSearchValue] = useState('');
+  const { user } = useMainState();
+  const { setSelectedGameSettings } = useMainDispatch();
+  const { isGoogleSignIn } = useLoginState();
+  const { setIsGoogleSignIn } = useLoginDispatch();
+  const isRequestLoading = useIsRequestLoading();
+  const { updateUserData } = useEditUserData();
+  const { activateGame } = useActivateGame();
+  const filteredGames = filterGameList(
+    allGameData,
+    false,
+    getFormattedSearchString(searchValue),
+    t,
+  );
+
+  return {
+    viewModel: {
+      user,
+      searchValue,
+      selectedFirstGame,
+      filteredGames,
+      isLoading: isRequestLoading,
+      isGoogleSignIn,
+    },
+    actions: {
+      setSearchValue,
+      setSelectedFirstGame,
+      updateUserData,
+      activateGame,
+      setIsGoogleSignIn,
+      setSelectedGameSettings,
+    },
+  };
+};

@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { ViewStyle } from 'react-native';
 import { useTranslation } from 'react-i18next';
 import { Dropdown } from '@components/general/Dropdown';
-import { IsActive } from '@utils/CustomInterfaces';
+import { IsActive } from '@utils/custom-interfaces';
 import {
   settingsStyles,
   SettingsSubItemContainer,
@@ -11,10 +11,10 @@ import {
   SettingsMainItem,
   SettingsMainItemTitle,
 } from './';
-import useGetTheme from '@styles/hooks/useGetTheme';
+import useGetTheme from '@styles/hooks/use-get-theme';
 import { useSettingsState, useSettingsDispatch } from './provider';
 import { useMainState } from '@redux/hooks';
-import CheckBox from '@components/general/Checkbox/CheckBox.native';
+import CheckBox from '@components/general/checkbox/checkbox';
 import { useUpdateGameSettings } from './hooks';
 import {
   useEditUserData,

@@ -1,5 +1,5 @@
-import { ContentSectionEnum, GameKeyEnum } from '@utils/CustomEnums';
-import { GameContentItem } from '@utils/CustomInterfaces';
+import { ContentSectionEnum, GameKeyEnum } from '@utils/custom-enums';
+import { GameContentItem } from '@utils/custom-interfaces';
 import {
   fetchGameDataFromCache,
   getAllKeys,
@@ -8,7 +8,7 @@ import {
 } from '@data/cache/local-cache';
 import { Alert } from 'react-native';
 import { getGameData } from '@data/api/endpoints';
-import { LanguageType } from '@utils/CustomTypes';
+import { LanguageType } from '@utils/custom-types';
 import { log } from '@utils/hooks/index';
 
 interface GetGameDataFromCacheProps {

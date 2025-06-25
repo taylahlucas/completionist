@@ -1,12 +1,12 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import useReactNavigation from '@navigation/hooks/use-react-navigation';
+import { useReactNavigation } from '@navigation/hooks';
 import { useMainState } from '@redux/hooks';
 import StyledText from '@components/general/Text/StyledText.native';
-import Button from '@components/general/Button/Button.native';
-import { AuthScreenEnum, DrawerScreenEnum } from '@utils/CustomEnums';
+import Button from '@components/general/button/button';
+import { AuthScreenEnum, DrawerScreenEnum } from '@utils/custom-enums';
 import { SettingsEmail } from './settings-styled-components';
-import useGetTheme from '@styles/hooks/useGetTheme';
+import useGetTheme from '@styles/hooks/use-get-theme';
 
 export const SettingsAccountDetails = () => {
   const navigation = useReactNavigation();
