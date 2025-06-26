@@ -1,5 +1,5 @@
 import { useMainState } from '@redux/hooks';
-import { SettingsOptionEnum } from '@utils/custom-enums';
+import { SettingsOptionEnum } from '@utils/index';
 
 interface GetSettingsConfigReturnType {
   shouldShowCompletedItems: () => boolean;

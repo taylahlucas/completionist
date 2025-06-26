@@ -7,8 +7,8 @@ import {
   useLoginDispatch,
 } from '@components/custom/login-form/provider';
 import { useContentDispatch } from '@components/custom/content-list/provider';
-import { log } from '@utils/hooks/index';
-import { ContentSectionEnum } from '@utils/custom-enums';
+import { log } from '@utils/hooks';
+import { ContentSectionEnum } from '@utils/index';
 
 export const useRemoveUserData = () => {
   const { setUser, setSelectedGame } = useMainDispatch();

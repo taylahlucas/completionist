@@ -1,5 +1,8 @@
-import { ContentSectionEnum } from '@utils/custom-enums';
-import { GameContentItem, GameContentState } from '@utils/index';
+import {
+  GameContentItem,
+  GameContentState,
+  ContentSectionEnum,
+} from '@utils/index';
 
 export const mapDataToQuests = (
   gameData: GameContentItem[],

@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import { Alert, Animated, Keyboard } from 'react-native';
 import { useTranslation } from 'react-i18next';
-import { NavigationHeaderLeftActionTypes } from '@utils/custom-types';
 import {
   navigationStyles,
   NavigationHeaderMenuButton,
@@ -9,9 +8,9 @@ import {
   NavigationHeaderMenuIcon,
   NavigationEmptyContainer,
 } from '@navigation/navigation-styled-components';
-import { IconTypeEnum } from '@utils/custom-enums';
+import { IconTypeEnum, NavigationHeaderLeftActionTypes } from '@utils/index';
 import useGetTheme from '@styles/hooks/use-get-theme';
-import IconButton from '@components/general/icon/icon-button';
+import { IconButton } from '@components/general';
 import {
   useRotateMenuButton,
   useSafeDrawerStatus,

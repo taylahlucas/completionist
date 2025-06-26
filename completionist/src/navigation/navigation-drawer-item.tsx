@@ -8,7 +8,7 @@ import {
 } from '.';
 import useGetTheme from '@styles/hooks/use-get-theme';
 import { useContentDispatch } from '@components/custom/content-list/provider';
-import { ContentSectionEnum } from '@utils/custom-enums';
+import { ContentSectionEnum } from '@utils/index';
 import { Condition } from '@components/general';
 
 interface NavigationDrawerItemProps {

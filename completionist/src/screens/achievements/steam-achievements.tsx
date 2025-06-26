@@ -1,8 +1,8 @@
 import React from 'react';
-import StandardLayout from '@components/general/layouts/standard-layout';
+import { StandardLayout } from '@components/general';
 import { NavigationHeader } from '@navigation/index';
 import { AddSteamIDContent } from '@components/custom';
-import { DrawerScreenEnum } from '@utils/custom-enums';
+import { DrawerScreenEnum } from '@utils/index';
 import { useAchievements } from './hooks';
 
 export const SteamAchievements = () => {

@@ -3,17 +3,21 @@ import {
   initPaymentSheet,
   presentPaymentSheet,
 } from '@stripe/stripe-react-native';
-import { GameKeyEnum } from '@utils/custom-enums';
-import { useActivateGame, useTranslateGameContent } from '@data/hooks/index';
+import {
+  useActivateGame,
+  useTranslateGameContent,
+  getPriceForGame,
+} from '@data/hooks';
 import { useMainState } from '@redux/hooks';
 import { allGameData } from '@utils/configs/game-configs';
-import { createPayment } from '@data/api/endpoints';
+import {
+  createPayment,
+  getMappedGameData,
+  getGameDataFromCache,
+} from '@data/index';
 import { Alert } from 'react-native';
-import { GameContentState, GameData } from '@utils/index';
+import { GameKeyEnum, GameContentState, GameData } from '@utils/index';
 import { useReactNavigation } from '@navigation/hooks';
-import { getPriceForGame } from '@data/hooks/index';
-import { getGameDataFromCache } from '@data/helpers/get-game-data-from-cache';
-import { getMappedGameData } from '@data/helpers/map-game-data';
 import { useTranslation } from 'react-i18next';
 
 interface UsePurchaseGameReturnType {

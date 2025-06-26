@@ -1,13 +1,12 @@
 import { useEffect, useState } from 'react';
 import { Alert } from 'react-native';
 import { useTranslation } from 'react-i18next';
-import { checkUserExists } from '@data/api/auth-endpoints';
 import { useEditUserData } from '@data/hooks';
 import { useReactNavigation } from '@navigation/hooks';
 import { useMainState } from '@redux/hooks';
-import { DrawerScreenEnum } from '@utils/custom-enums';
+import { DrawerScreenEnum } from '@utils/index';
 import { isEmailValid, isPwValid, isNameValid } from '@utils/hooks';
-import { updateUser, changePw } from '@data/api/endpoints';
+import { updateUser, changePw, checkUserExists } from '@data/index';
 
 export interface ChangeAccountDetailsItem {
   value: string;

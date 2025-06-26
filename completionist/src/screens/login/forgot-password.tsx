@@ -1,14 +1,17 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import StandardLayout from '@components/general/layouts/standard-layout';
+import {
+  StandardLayout,
+  StyledText,
+  TextInput,
+  Button,
+  ErrorMessage,
+  KeyboardAvoidingScrollView,
+  Condition,
+  ParagraphView,
+} from '@components/general';
 import { NavigationHeader } from '@navigation/index';
-import StyledText from '@components/general/text/styled-text';
-import TextInput from '@components/general/text-input/text-input';
-import Button from '@components/general/button/button';
-import { UnauthorizedScreenEnum } from '@utils/custom-enums';
-import { KeyboardAvoidingScrollView } from '@components/general/lists/index';
-import { Condition, ParagraphView } from '@components/general/index';
-import ErrorMessage from '@components/general/text/error-message';
+import { UnauthorizedScreenEnum } from '@utils/index';
 import { useLogin } from './hooks';
 
 export const ForgotPassword = () => {

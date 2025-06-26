@@ -1,4 +1,4 @@
-import config from './get-environment-configs';
+import { config } from './get-environment-configs';
 
 const {
   ACCESS_TOKEN,

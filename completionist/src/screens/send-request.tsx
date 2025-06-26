@@ -17,7 +17,7 @@ interface RequestFormData {
   text: string;
 }
 
-const SendRequest = () => {
+export const SendRequest = () => {
   const { t } = useTranslation();
   const { user } = useMainState();
   const [formData, setFormData] = useState<RequestFormData>({
@@ -92,5 +92,3 @@ const SendRequest = () => {
     </StandardLayout>
   );
 };
-
-export default SendRequest;

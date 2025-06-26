@@ -1,13 +1,16 @@
 import { useTranslation } from 'react-i18next';
-import { ContentSectionEnum, DrawerScreenEnum } from '@utils/custom-enums';
 import { useGetUserGameData, useGetSettingsConfig } from '@data/hooks';
 import { useCheckSectionEnabled } from './';
-import { NavigationDrawerItemData } from '@utils/index';
+import {
+  NavigationDrawerItemData,
+  ContentSectionEnum,
+  DrawerScreenEnum,
+} from '@utils/index';
 import { useContentState } from '@components/custom/content-list/provider';
-import { filterActiveSections } from '@data/helpers/filter-active-sessions';
+import { filterActiveSections } from '@data/index';
 import { useMainState } from '@redux/hooks';
 
-const useGetNavigationDrawerItems = (): NavigationDrawerItemData[] => {
+export const useGetNavigationDrawerItems = (): NavigationDrawerItemData[] => {
   const { t } = useTranslation();
   const { userQuests, userCollectables, userLocations, userMiscItems } =
     useGetUserGameData();
@@ -87,5 +90,3 @@ const useGetNavigationDrawerItems = (): NavigationDrawerItemData[] => {
 
   return drawerItems;
 };
-
-export default useGetNavigationDrawerItems;

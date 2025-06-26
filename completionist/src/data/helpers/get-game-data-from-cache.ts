@@ -1,14 +1,17 @@
-import { ContentSectionEnum, GameKeyEnum } from '@utils/custom-enums';
-import { GameContentItem } from '@utils/index';
+import {
+  GameContentItem,
+  ContentSectionEnum,
+  GameKeyEnum,
+  LanguageType,
+} from '@utils/index';
 import {
   fetchGameDataFromCache,
   getAllKeys,
   removeItemFromCache,
   saveToCache,
-} from '@data/cache/local-cache';
+  getGameData,
+} from '@data/index';
 import { Alert } from 'react-native';
-import { getGameData } from '@data/api/endpoints';
-import { LanguageType } from '@utils/custom-types';
 import { log } from '@utils/hooks/index';
 
 interface GetGameDataFromCacheProps {

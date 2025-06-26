@@ -6,10 +6,13 @@ import {
   NavigationDrawerFooterIcon,
   NavigationDrawerFooterTitle,
 } from './navigation-styled-components';
-import { useReactNavigation, useGetNavigationFooterDrawerItems } from './hooks';
-import useGetNavigationDrawerItems from './hooks/use-get-navigation-drawer-items';
+import {
+  useGetNavigationDrawerItems,
+  useReactNavigation,
+  useGetNavigationFooterDrawerItems,
+} from './hooks';
 import { useGetLoginMethods } from '@components/custom/login-form/hooks';
-import { AuthScreenEnum } from '@utils/custom-enums';
+import { AuthScreenEnum } from '@utils/index';
 import useGetTheme from '@styles/hooks/use-get-theme';
 import { useMainState, useMainDispatch } from '@redux/hooks';
 import { NavigationDrawerItem } from '.';

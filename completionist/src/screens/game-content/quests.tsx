@@ -1,11 +1,13 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import StandardLayout from '@components/general/layouts/standard-layout';
+import {
+  StandardLayout,
+  CustomSearchBar,
+  CompletedQuantityTitle,
+} from '@components/general';
 import { NavigationHeader } from '@navigation/index';
-import CustomSearchBar from '@components/general/custom-search-bar/custom-search-bar';
-import { CompletedQuantityTitle } from '@components/general/text/styled-text-styled-components';
 import { ContentList } from '@components/custom';
-import { DrawerScreenEnum } from '@utils/custom-enums';
+import { DrawerScreenEnum } from '@utils/index';
 import { useGameContent } from './hooks';
 
 export const Quests = () => {

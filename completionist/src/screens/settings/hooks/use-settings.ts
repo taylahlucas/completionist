@@ -4,16 +4,16 @@ import {
   useDLCOptions,
 } from '@components/custom/settings/hooks';
 import { handleScroll } from '@utils/hooks';
-import { SettingsOptionEnum } from '@utils/custom-enums';
-import { useMainState } from '@redux/hooks';
-import { getSteamUserById } from '@data/api/endpoints';
-import { SettingsOptionItem, SteamProfile } from '@utils/index';
-import { useEditUserData } from '@data/hooks';
+import { getSteamUserById } from '@data/index';
 import {
   NavigationHeaderLeftActionTypes,
   NavigationHeaderRightActionTypes,
-} from '@utils/custom-types';
-import { useMainDispatch } from '@redux/hooks';
+  SettingsOptionItem,
+  SteamProfile,
+  SettingsOptionEnum,
+} from '@utils/index';
+import { useEditUserData } from '@data/hooks';
+import { useMainDispatch, useMainState } from '@redux/hooks';
 
 interface ActionsType {
   left: NavigationHeaderLeftActionTypes;

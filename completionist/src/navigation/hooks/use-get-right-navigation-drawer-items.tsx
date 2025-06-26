@@ -1,12 +1,15 @@
 import React from 'react';
-import { NavigationHeaderRightActionTypes } from '@utils/custom-types';
 import {
   navigationStyles,
   NavigationEmptyContainer,
 } from '@navigation/navigation-styled-components';
-import { IconTypeEnum, AuthScreenEnum } from '@utils/custom-enums';
+import {
+  IconTypeEnum,
+  AuthScreenEnum,
+  NavigationHeaderRightActionTypes,
+} from '@utils/index';
 import useGetTheme from '@styles/hooks/use-get-theme';
-import IconButton from '@components/general/icon/icon-button';
+import { IconButton } from '@components/general';
 import { useGetLoginMethods } from '@components/custom/login-form/hooks';
 import { useReactNavigation } from '.';
 

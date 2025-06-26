@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { useMainState } from '@redux/hooks';
-import { useLoginState } from '@components/custom/login-form/provider';
 import { useEditUserData } from '@data/hooks/use-edit-user-data';
+import { useLoginState } from '@components/custom/login-form/provider';
 
 export const useTimedDataUpdate = () => {
   const { user, shouldUpdateUser } = useMainState();

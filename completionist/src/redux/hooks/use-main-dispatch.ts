@@ -1,7 +1,11 @@
 import { Dispatch } from 'redux';
-import { GameKeyEnum } from '@utils/custom-enums';
-import { GameData, Item, User } from '@utils/index';
-import { ScreenEnumType } from '@utils/custom-types';
+import {
+  GameKeyEnum,
+  GameData,
+  Item,
+  User,
+  ScreenEnumType,
+} from '@utils/index';
 import {
   setShowSplashScreen,
   setAppState,

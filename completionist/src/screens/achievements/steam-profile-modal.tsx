@@ -1,24 +1,18 @@
 import React, { useRef, useEffect } from 'react';
-import {
-  Modal,
-  Image,
-  StyleSheet,
-  Animated,
-  Dimensions,
-  View,
-  Alert,
-} from 'react-native';
+import { Modal, Image, StyleSheet, Animated, View, Alert } from 'react-native';
 import { useTranslation } from 'react-i18next';
 import useGetTheme from '@styles/hooks/use-get-theme';
-import Overlay from '@components/general/layouts/overlay';
-import Button from '@components/general/button/button';
-import StyledText from '@components/general/text/styled-text';
-import { SteamProfile } from '@utils/index';
+import {
+  Overlay,
+  Button,
+  StyledText,
+  IconButton,
+  Spacing,
+  Condition,
+} from '@components/general';
+import { SteamProfile, IconTypeEnum } from '@utils/index';
 import { DEFAULT_BORDER_RADIUS, windowHeight } from '@styles/global';
 import { useReactNavigation } from '@navigation/hooks';
-import IconButton from '@components/general/icon/icon-button';
-import { IconTypeEnum } from '@utils/custom-enums';
-import { Condition, Spacing } from '@components/general/index';
 import { isSmallScreen } from '@styles/global';
 import { useAchievements } from './hooks';
 

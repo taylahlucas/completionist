@@ -2,8 +2,8 @@ import {
   IconTypeEnum,
   AuthScreenEnum,
   DrawerScreenEnum,
-} from '@utils/custom-enums';
-import { IconType } from '@utils/custom-types';
+  IconType,
+} from '@utils/index';
 import { useTranslation } from 'react-i18next';
 
 interface NavigationFooterDrawerItem {

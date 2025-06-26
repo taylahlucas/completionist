@@ -1,6 +1,5 @@
 import { Alert } from 'react-native';
 import i18next from 'i18next';
-import { AxiosErrorResponse, UserResponse } from '@utils/custom-types';
 import {
   ChangePwProps,
   CreatePaymentProps,
@@ -24,12 +23,14 @@ import {
   getGameDataUrl,
 } from '@data/api/urls';
 import {
+  requestCodes,
+  AxiosErrorResponse,
+  UserResponse,
   GameContentItem,
   SteamAchievementItem,
   SteamProfile,
   User,
 } from '@utils/index';
-import { requestCodes } from '@utils/constants';
 
 export const getUserByUserId = async ({
   userId,

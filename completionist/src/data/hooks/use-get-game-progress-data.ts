@@ -1,10 +1,13 @@
 import { useMainState } from '@redux/hooks';
-import { Item } from '@utils/index';
-import { ContentSectionEnum, GameKeyEnum } from '@utils/custom-enums';
-import { ProgressItem } from '@utils/index';
+import {
+  ProgressItem,
+  ContentSectionEnum,
+  GameKeyEnum,
+  Item,
+} from '@utils/index';
 import { getCurrentGame } from '@data/hooks';
 import { useContentState } from '@components/custom/content-list/provider';
-import { filterActiveSections } from '@data/helpers/filter-active-sessions';
+import { filterActiveSections } from '@data/index';
 
 export const useGetGameProgressData = () => {
   const { user, selectedGame } = useMainState();

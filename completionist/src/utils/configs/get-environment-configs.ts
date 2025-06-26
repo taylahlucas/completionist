@@ -1,6 +1,6 @@
 import { EnvironmentConfig } from '@utils/index';
 
-const getEnvironmentConfig: EnvironmentConfig = {
+export const config: EnvironmentConfig = {
   ACCESS_TOKEN: process.env.ACCESS_TOKEN ?? '',
   WEB_CLIENT_ID: process.env.WEB_CLIENT_ID ?? '',
   IOS_LOCAL_URL: process.env.IOS_LOCAL_URL ?? '',
@@ -10,5 +10,3 @@ const getEnvironmentConfig: EnvironmentConfig = {
   STRIPE_LIVE_TOKEN: process.env.STRIPE_LIVE_TOKEN ?? '',
   STRIPE_SECRET_KEY: process.env.STRIPE_SECRET_KEY ?? '',
 };
-
-export default getEnvironmentConfig;

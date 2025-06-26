@@ -1,6 +1,5 @@
 import { StyleSheet } from 'react-native';
-import Icon from '@components/general/icon/icon';
-import StyledText from '@components/general/text/styled-text';
+import { Icon, StyledText } from '@components/general';
 import {
   DEFAULT_BORDER_RADIUS,
   LARGE_PADDING,

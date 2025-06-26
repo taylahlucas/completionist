@@ -1,16 +1,14 @@
 import React from 'react';
 import { ScrollView } from 'react-native';
 import { useTranslation } from 'react-i18next';
-import StandardLayout from '../../components/general/layouts/standard-layout';
+import { StandardLayout, Condition, StyledText } from '@components/general';
 import { NavigationHeader } from '@navigation/index';
-import { Condition } from '@components/general/index';
-import StyledText from '@components/general/text/styled-text';
 import {
   LoginForm,
   LoginContentContainer,
   LoginFormSignInButtons,
 } from '@components/custom';
-import { UnauthorizedScreenEnum } from '@utils/custom-enums';
+import { UnauthorizedScreenEnum } from '@utils/index';
 import { useLogin } from './hooks';
 
 export const Login = () => {

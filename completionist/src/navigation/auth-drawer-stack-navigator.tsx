@@ -1,28 +1,26 @@
 import React from 'react';
 import { createDrawerNavigator } from '@react-navigation/drawer';
-import { DrawerStackParamList } from '@utils/index';
-import {
-  Quests,
-  Collectables,
-  Miscellaneous,
-  Locations,
-} from '@screens/game-content';
+import { DrawerStackParamList, DrawerScreenEnum } from '@utils/index';
 import { useMainState } from '@redux/hooks';
 import useGetTheme from '@styles/hooks/use-get-theme';
 import { useTranslateGameContent } from '@data/hooks';
-import { Condition } from '@components/general';
-import StyledText from '@components/general/text/styled-text';
-import { DrawerScreenEnum } from '@utils/custom-enums';
-import SendRequest from '@screens/send-request';
-import { Achievements, SteamAchievements } from '@screens/achievements';
+import { Condition, StyledText } from '@components/general';
 import {
   navigationStyles,
   NavigationDrawerBody,
   NavigationDrawerContainer,
 } from '.';
-import Payments from '@screens/payments';
-import AccountDetails from '@screens/settings/account-details';
-import Settings from '@screens/settings/settings';
+import {
+  Quests,
+  Collectables,
+  Miscellaneous,
+  Locations,
+  AccountDetails,
+  Settings,
+  SendRequest,
+  Achievements,
+  SteamAchievements,
+} from '@screens/index';
 
 const Drawer = createDrawerNavigator<DrawerStackParamList>();
 
@@ -78,7 +76,6 @@ export const AuthDrawerStackNavigator = () => {
         name={DrawerScreenEnum.SteamAchievements}
         component={SteamAchievements}
       />
-      <Drawer.Screen name={DrawerScreenEnum.Payments} component={Payments} />
       <Drawer.Screen name={DrawerScreenEnum.Settings} component={Settings} />
       <Drawer.Screen
         name={DrawerScreenEnum.AccountDetails}

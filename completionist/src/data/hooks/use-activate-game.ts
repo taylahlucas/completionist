@@ -1,7 +1,6 @@
 import { useEditUserData } from '@data/hooks';
 import { initialGameData } from '@redux/main-state';
-import { GameKeyEnum } from '@utils/custom-enums';
-import { User } from '@utils/index';
+import { User, GameKeyEnum } from '@utils/index';
 import {
   eldenRingGameData,
   fallout3GameData,

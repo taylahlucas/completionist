@@ -1,11 +1,17 @@
 import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useMainState } from '@redux/hooks';
-import { getSteamPlayerAchievements } from '@data/api/endpoints';
-import { SteamAchievementItem, SteamAchievementsState } from '@utils/index';
-import { useEditUserData, useGetGameProgressData } from '@data/hooks/index';
-import { getCurrentGame } from '@data/hooks/index';
-import { GameKeyEnum } from '@utils/custom-enums';
+import { getSteamPlayerAchievements } from '@data/index';
+import {
+  GameKeyEnum,
+  SteamAchievementItem,
+  SteamAchievementsState,
+} from '@utils/index';
+import {
+  useEditUserData,
+  useGetGameProgressData,
+  getCurrentGame,
+} from '@data/hooks/index';
 
 export const useAchievements = () => {
   const { t } = useTranslation();
