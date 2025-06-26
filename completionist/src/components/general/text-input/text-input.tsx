@@ -6,13 +6,11 @@ import {
   TextInputProps as RNTextInputProps,
 } from 'react-native';
 import useGetTheme from '@styles/hooks/use-get-theme';
-import { TextInputIcon } from './text-input-styled-components';
-import { TextInputContainer } from './text-input-styled-components';
-import { Condition } from '@components/general/index';
+import { TextInputIcon, TextInputContainer } from './';
+import { Condition } from '@components/general';
 import defaultStyle from '@styles/Font/FontStyle';
 import { TextInputStyleType, IconTypeEnum } from '@utils/index';
-import useGetTextContainerStyle from './hooks/use-get-text-container-style';
-import useGetTextInputStyle from './hooks/use-get-text-input-style';
+import { useGetTextContainerStyle, useGetTextInputStyle } from './hooks';
 import { LARGE_WIDTH } from '@styles/global';
 
 export interface TextInputProps extends RNTextInputProps {

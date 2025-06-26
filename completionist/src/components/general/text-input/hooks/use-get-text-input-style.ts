@@ -1,5 +1,5 @@
 import useGetTheme from '@styles/hooks/use-get-theme';
-import { TextInputStyleType } from '@utils/custom-types';
+import { TextInputStyleType } from '@utils/index';
 
 export const useGetTextInputStyle = (
   inputStyle: TextInputStyleType,

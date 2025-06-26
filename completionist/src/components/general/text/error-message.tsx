@@ -1,7 +1,7 @@
 import React from 'react';
 import { View } from 'react-native';
 import useGetTheme from '@styles/hooks/use-get-theme';
-import StyledText from '@components/general/text/styled-text';
+import { StyledText } from '@components/general';
 
 interface ErrorMessageProps {
   children: string;

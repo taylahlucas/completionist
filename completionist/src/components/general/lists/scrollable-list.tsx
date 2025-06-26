@@ -1,11 +1,7 @@
 import React, { useState } from 'react';
 import { ScrollView, ScrollViewProps, ViewStyle } from 'react-native';
-import {
-  listStyles,
-  ListShowMoreButton,
-} from '@components/general/lists/index';
-import { renderAmountConst } from '@utils/constants';
-import { Condition } from '@components/general/index';
+import { Condition, listStyles, ListShowMoreButton } from '@components/general';
+import { renderAmountConst } from '@utils/index';
 import { useTranslation } from 'react-i18next';
 
 interface CustomListProps extends ScrollViewProps {

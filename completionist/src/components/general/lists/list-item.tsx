@@ -1,17 +1,16 @@
 import React, { useRef, useState, useEffect } from 'react';
 import { Animated } from 'react-native';
-import useGetTheme from '@styles/hooks';
+import useGetTheme from '@styles/hooks/use-get-theme';
 import {
   ListItemContainer,
   ListItemTitle,
   ListItemContentContainer,
   ListItemLocationContainer,
-} from '@components/general/lists';
-import { AnimatedCheckBox } from '../checkbox';
-import { Condition } from '@components/general/index';
-import { getLocationString } from '@utils/hooks/index';
-import StyledText from '../text/styled-text';
-import { capitalize } from '@utils/hooks/index';
+  AnimatedCheckBox,
+  Condition,
+  StyledText,
+} from '../';
+import { getLocationString, capitalize } from '@utils/hooks/index';
 
 interface ListItemProps {
   id: string;

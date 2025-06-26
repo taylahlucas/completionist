@@ -1,15 +1,14 @@
 import { Animated, StyleSheet } from 'react-native';
 import styled from 'styled-components/native';
-import StyledText from '@components/general/text/styled-text';
+import { StyledText, Button } from '../';
 import {
   DEFAULT_BORDER_RADIUS,
   SMALL_PADDING,
   MID_PADDING,
   LARGE_PADDING,
+  LARGE_WIDTH,
   windowWidth,
 } from '@styles/global';
-import Button from '../button/button';
-import { LARGE_WIDTH } from '@styles/global';
 
 export const listStyles = StyleSheet.create({
   scrollableContent: {

@@ -3,8 +3,7 @@ import MaterialIcon from 'react-native-vector-icons/MaterialIcons';
 import MaterialCommunityIcon from 'react-native-vector-icons/MaterialCommunityIcons';
 import Ionicon from 'react-native-vector-icons/Ionicons';
 import FontAwesome from 'react-native-vector-icons/FontAwesome';
-import { IconTypeEnum } from '@utils/custom-enums';
-import { IconType } from '@utils/custom-types';
+import { IconType, IconTypeEnum } from '@utils/index';
 
 export interface IconProps {
   name: IconType;

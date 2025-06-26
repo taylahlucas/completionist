@@ -6,7 +6,7 @@ import {
   SMALL_PADDING,
   MID_PADDING,
 } from '@styles/global';
-import StyledText from '@components/general/text/styled-text';
+import { StyledText } from '../';
 
 interface TextWithBackgroundProps {
   value: string;

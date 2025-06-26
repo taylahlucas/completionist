@@ -1,12 +1,9 @@
 import React, { useRef, useState } from 'react';
 import { View } from 'react-native';
 import { WebView, WebViewNavigation } from 'react-native-webview';
-import { IconTypeEnum } from '@utils/custom-enums';
+import { IconTypeEnum } from '@utils/index';
 import useGetTheme from '@styles/hooks/use-get-theme';
-import {
-  WikiWebViewContainer,
-  WikiWebViewCloseButton,
-} from './wiki-web-view-styled-components';
+import { WikiWebViewContainer, WikiWebViewCloseButton } from './';
 import { IconButton } from '../';
 
 interface WikiWebViewProps {

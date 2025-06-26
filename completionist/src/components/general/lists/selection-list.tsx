@@ -1,10 +1,10 @@
 import React from 'react';
 import {
+  CheckBox,
   SelectionListContainer,
   SelectionListItemContainer,
   SelectListTitle,
-} from '@components/general/lists/index';
-import CheckBox from '../checkbox/checkbox';
+} from '../';
 import useGetTheme from '@styles/hooks/use-get-theme';
 import { IsActive } from '@utils/index';
 import { useTranslation } from 'react-i18next';

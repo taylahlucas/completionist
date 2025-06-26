@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text, TextProps, View } from 'react-native';
+import { Text, TextProps } from 'react-native';
 import { FontType, AlignmentType } from '@styles/Font/FontType';
 import defaultStyle from '@styles/Font/FontStyle';
 import useGetTheme from '@styles/hooks/use-get-theme';

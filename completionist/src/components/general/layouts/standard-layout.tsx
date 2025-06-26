@@ -1,14 +1,14 @@
 import React from 'react';
 import useGetTheme from '@styles/hooks/use-get-theme';
 import { StandardLayoutContainer } from './standard-layout-styled-components';
-import { Loading } from '@components/general/index';
+import { Loading } from '@components/general';
 
 interface StandardLayoutProps {
   children: any;
   isLoading?: boolean;
 }
 
-const StandardLayout = ({
+export const StandardLayout = ({
   children,
   isLoading = false,
 }: StandardLayoutProps) => {
@@ -21,5 +21,3 @@ const StandardLayout = ({
     </StandardLayoutContainer>
   );
 };
-
-export default StandardLayout;

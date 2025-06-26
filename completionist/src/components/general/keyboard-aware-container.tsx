@@ -1,7 +1,7 @@
 import React, { useMemo } from 'react';
 import { StatusBar, View, StyleProp, ViewStyle } from 'react-native';
-import { isIos } from '@utils/device';
-import useKeyboardHeight from '@utils/hooks/use-keyboard-height';
+import { isIos } from '@utils/index';
+import { useKeyboardHeight } from '@utils/hooks';
 
 interface KeyboardAwareContainerProps {
   children?: React.ReactElement;

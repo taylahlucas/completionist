@@ -4,7 +4,7 @@ import {
   DropdownSelectionItemTitle,
   DropdownSelectionContentItem,
 } from './dropdown-styled-components';
-import { ScrollableList } from '../lists';
+import { ScrollableList } from '../';
 
 interface DropdownSelectionProps {
   id: string;

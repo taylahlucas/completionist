@@ -2,12 +2,12 @@ import React from 'react';
 import { View } from 'react-native';
 import useGetTheme from '@styles/hooks/use-get-theme';
 import {
+  Condition,
   listStyles,
   ListItemHeaderContainer,
   ListItemHeaderCountTitle,
   SubListHeaderTitle,
-} from '@components/general/lists/index';
-import { Condition } from '@components/general/index';
+} from '@components/general';
 
 interface ListHeaderProps {
   title: string;

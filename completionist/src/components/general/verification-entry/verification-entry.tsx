@@ -1,6 +1,6 @@
 import React, { useRef, useState, RefObject, useEffect } from 'react';
 import { View, TextInput as RNTextInput } from 'react-native';
-import TextInput from '../text-input/text-input';
+import { TextInput } from '../';
 
 interface VerificationEntryProps {
   length: number;

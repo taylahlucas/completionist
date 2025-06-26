@@ -6,7 +6,7 @@ import {
   ListItemHeaderContainer,
   ListItemHeaderCountTitle,
   SubListHeaderTitle,
-} from '@components/general/lists/index';
+} from '@components/general';
 
 interface SubListHeaderProps {
   title: string;
