@@ -7,7 +7,7 @@ import { handleScroll } from '@utils/hooks';
 import { SettingsOptionEnum } from '@utils/custom-enums';
 import { useMainState } from '@redux/hooks';
 import { getSteamUserById } from '@data/api/endpoints';
-import { SettingsOptionItem, SteamProfile } from '@utils/custom-interfaces';
+import { SettingsOptionItem, SteamProfile } from '@utils/index';
 import { useEditUserData } from '@data/hooks';
 import {
   NavigationHeaderLeftActionTypes,

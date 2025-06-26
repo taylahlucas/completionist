@@ -4,13 +4,12 @@ import {
   Dropdown,
   DropdownSelection,
   DropdownSelectionContent,
-} from '@components/general/dropdown/index';
+} from '@components/general';
 import { languages } from 'src/i18n/i18n-common';
 import { useMainState, useMainDispatch } from '@redux/hooks';
-import { LanguageType } from '@utils/custom-types';
+import { LanguageType } from '@utils/index';
 import { useGetGameLanguages } from './hooks';
-import { getGameDataFromCache } from '@data/helpers/get-game-data-from-cache';
-import { getMappedGameData } from '@data/helpers/map-game-data';
+import { getGameDataFromCache, getMappedGameData } from '@data/index';
 import { useContentDispatch } from '../content-list/provider';
 
 interface SettingsSelectLanguageProps {

@@ -1,14 +1,17 @@
 import React, { useState } from 'react';
 import { Image } from 'react-native';
 import { useTranslation } from 'react-i18next';
-import StyledText from '@components/general/text/styled-text';
-import TextInput from '@components/general/text-input/text-input';
-import { KeyboardAvoidingScrollView } from '@components/general/lists';
-import { Spacing, ParagraphView } from '@components/general';
-import Button from '@components/general/button/button';
-import { getSteamUserById } from '@data/api/endpoints';
-import { SteamProfileModal } from '@screens/achievements';
-import { SteamProfile } from '@utils/custom-interfaces';
+import {
+  Spacing,
+  ParagraphView,
+  StyledText,
+  TextInput,
+  Button,
+  KeyboardAvoidingScrollView,
+} from '@components/general';
+import { getSteamUserById } from '@data/index';
+import { SteamProfileModal } from '@screens/index';
+import { SteamProfile } from '@utils/index';
 
 export const AddSteamIDContent = () => {
   const { t } = useTranslation();

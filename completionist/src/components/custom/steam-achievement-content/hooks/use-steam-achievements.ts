@@ -1,5 +1,5 @@
 import { useMainState } from '@redux/hooks';
-import { getSteamPlayerAchievements } from '@data/api/endpoints';
+import { getSteamPlayerAchievements } from '@data/index';
 
 export const useSteamAchievements = () => {
   const { user, selectedGame } = useMainState();

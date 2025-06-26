@@ -1,7 +1,5 @@
 import React from 'react';
-import { Condition } from '@components/general';
-import { Dropdown } from '@components/general/dropdown';
-import { ListHeader } from '@components/general/lists';
+import { ListHeader, Dropdown, Condition } from '@components/general';
 import { ContentMainList, ContentSubDropdown } from './';
 import { useMainState } from '@redux/hooks';
 import {
@@ -10,7 +8,7 @@ import {
   useGetContent,
 } from './hooks';
 import { useContentState, useContentDispatch } from './provider';
-import { ContentItem } from '@utils/custom-interfaces';
+import { ContentItem } from '@utils/index';
 
 export interface ContentMainDropdownProps {
   category: ContentItem;

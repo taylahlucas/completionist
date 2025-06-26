@@ -5,7 +5,7 @@ import {
   SteamProfile,
   SteamAchievementItem,
   UserSettings,
-} from '@utils/custom-interfaces';
+} from '@utils/index';
 import { LanguageType, UserResponse } from '@utils/custom-types';
 
 export interface SignUpProps {

@@ -1,6 +1,10 @@
 import React, { useEffect } from 'react';
-import { ScrollableList } from '@components/general/lists';
-import { Condition, Loading } from '@components/general';
+import {
+  ScrollableList,
+  Condition,
+  Loading,
+  WikiWebView,
+} from '@components/general';
 import { useContentState, useContentDispatch } from './provider';
 import { ContentMainDropdown, ContentSearchResults } from './';
 import {
@@ -8,8 +12,7 @@ import {
   useGetContentCategories,
   useGetContent,
 } from './hooks';
-import { ContentItem } from '@utils/custom-interfaces';
-import WikiWebView from '@components/general/WikiWebView/WikiWebView.native';
+import { ContentItem } from '@utils/index';
 
 export const ContentList = () => {
   const { searchValue, webViewHref } = useContentState();

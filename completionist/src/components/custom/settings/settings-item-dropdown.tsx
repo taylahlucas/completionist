@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
 import { ViewStyle } from 'react-native';
 import { useTranslation } from 'react-i18next';
-import { Dropdown } from '@components/general/dropdown';
-import { IsActive } from '@utils/custom-interfaces';
+import { Dropdown, CheckBox } from '@components/general';
+import { IsActive } from '@utils/index';
 import {
   settingsStyles,
   SettingsSubItemContainer,
@@ -14,7 +14,6 @@ import {
 import useGetTheme from '@styles/hooks/use-get-theme';
 import { useSettingsState, useSettingsDispatch } from './provider';
 import { useMainState } from '@redux/hooks';
-import CheckBox from '@components/general/checkbox/checkbox';
 import { useUpdateGameSettings } from './hooks';
 import {
   useEditUserData,

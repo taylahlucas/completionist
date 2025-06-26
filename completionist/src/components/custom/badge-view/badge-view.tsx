@@ -1,7 +1,7 @@
 import React from 'react';
 import { View } from 'react-native';
 import { ScrollableList } from '@components/general/lists';
-import { BadgeItem } from '@utils/custom-interfaces';
+import { BadgeItem } from '@utils/index';
 import { LARGE_WIDTH } from '@styles/global';
 import useGetTheme from '@styles/hooks/use-get-theme';
 

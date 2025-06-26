@@ -9,7 +9,7 @@ import { useMainState } from '@redux/hooks';
 import { allGameData } from '@utils/configs/game-configs';
 import { createPayment } from '@data/api/endpoints';
 import { Alert } from 'react-native';
-import { GameContentState, GameData } from '@utils/custom-interfaces';
+import { GameContentState, GameData } from '@utils/index';
 import { useReactNavigation } from '@navigation/hooks';
 import { getPriceForGame } from '@data/hooks/index';
 import { getGameDataFromCache } from '@data/helpers/get-game-data-from-cache';

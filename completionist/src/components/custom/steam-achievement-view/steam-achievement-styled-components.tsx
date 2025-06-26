@@ -5,7 +5,7 @@ import {
   MID_PADDING,
   MID_WIDTH,
 } from '@styles/global';
-import StyledText from '@components/general/text/styled-text';
+import { StyledText } from '@components/general';
 
 export const SteamAchievementDropdownShadow = styled.View`
   height: 1px;

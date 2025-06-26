@@ -1,5 +1,5 @@
 import { ContentSectionEnum, GameKeyEnum } from '@utils/custom-enums';
-import { GameContentItem } from '@utils/custom-interfaces';
+import { GameContentItem } from '@utils/index';
 import {
   fetchGameDataFromCache,
   getAllKeys,

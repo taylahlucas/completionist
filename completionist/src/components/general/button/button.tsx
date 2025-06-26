@@ -1,7 +1,7 @@
 import React from 'react';
 import { ViewStyle } from 'react-native';
 import _ from 'lodash';
-import StyledText from '../text/styled-text';
+import { StyledText, Icon } from '../';
 import {
   StyledButtonDefault,
   StyledButtonNavigation,
@@ -9,8 +9,7 @@ import {
   FooterButtonView,
 } from './button-styled-components';
 import useGetTheme from '@styles/hooks/use-get-theme';
-import { ButtonType } from '@utils/custom-types';
-import Icon from '../icon/icon';
+import { ButtonType } from '@utils/index';
 
 interface ButtonProps {
   testID?: string;

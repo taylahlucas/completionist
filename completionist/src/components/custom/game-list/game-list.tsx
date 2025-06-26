@@ -1,10 +1,8 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { ScrollableList } from '@components/general/lists';
-import { gameListStyles } from './';
-import { GameListSectionDropdown } from './';
+import { gameListStyles, GameListSectionDropdown } from './';
 import { useGameList } from './hooks';
-import { Condition } from '@components/general';
+import { ScrollableList, Condition } from '@components/general';
 
 interface GameListProps {
   searchValue: string;

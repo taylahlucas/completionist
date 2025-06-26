@@ -1,6 +1,5 @@
 import { useMainState } from '@redux/hooks';
-import { GameContentItem } from '@utils/custom-interfaces';
-import { ContentSectionEnum } from '@utils/custom-enums';
+import { ContentSectionEnum, GameContentItem } from '@utils/index';
 import { useContentState } from '../provider';
 
 interface CheckContentCompleteReturnType {

@@ -1,11 +1,11 @@
 import React from 'react';
-import { Dropdown } from '@components/general/dropdown';
 import {
+  Dropdown,
   ListItem,
   SubTypeListHeader,
   ScrollableList,
   listStyles,
-} from '@components/general/lists';
+} from '@components/general';
 import { useContentState, useContentDispatch } from './provider';
 import {
   useCheckContentComplete,

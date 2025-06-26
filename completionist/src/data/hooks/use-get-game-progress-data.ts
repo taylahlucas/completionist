@@ -1,7 +1,7 @@
 import { useMainState } from '@redux/hooks';
-import { Item } from '@utils/custom-interfaces';
+import { Item } from '@utils/index';
 import { ContentSectionEnum, GameKeyEnum } from '@utils/custom-enums';
-import { ProgressItem } from '@utils/custom-interfaces';
+import { ProgressItem } from '@utils/index';
 import { getCurrentGame } from '@data/hooks';
 import { useContentState } from '@components/custom/content-list/provider';
 import { filterActiveSections } from '@data/helpers/filter-active-sessions';

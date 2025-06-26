@@ -1,24 +1,20 @@
 import React, { useRef, useState } from 'react';
 import { View } from 'react-native';
-import {
-  WebView,
-  WebViewMessageEvent,
-  WebViewNavigation,
-} from 'react-native-webview';
+import { WebView, WebViewNavigation } from 'react-native-webview';
 import { IconTypeEnum } from '@utils/custom-enums';
 import useGetTheme from '@styles/hooks/use-get-theme';
 import {
   WikiWebViewContainer,
   WikiWebViewCloseButton,
-} from './WikiWebViewStyledComponents.native';
-import IconButton from '../icon/icon-button';
+} from './wiki-web-view-styled-components';
+import { IconButton } from '../';
 
 interface WikiWebViewProps {
   currentHref: string;
   setClose: () => void;
 }
 
-const WikiWebView = ({ currentHref, setClose }: WikiWebViewProps) => {
+export const WikiWebView = ({ currentHref, setClose }: WikiWebViewProps) => {
   const webViewRef = useRef<WebView>(null);
   const theme = useGetTheme();
 
@@ -84,5 +80,3 @@ const WikiWebView = ({ currentHref, setClose }: WikiWebViewProps) => {
     </WikiWebViewContainer>
   );
 };
-
-export default WikiWebView;

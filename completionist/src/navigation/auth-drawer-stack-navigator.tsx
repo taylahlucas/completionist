@@ -1,6 +1,6 @@
 import React from 'react';
 import { createDrawerNavigator } from '@react-navigation/drawer';
-import { DrawerStackParamList } from '@utils/custom-interfaces';
+import { DrawerStackParamList } from '@utils/index';
 import {
   Quests,
   Collectables,

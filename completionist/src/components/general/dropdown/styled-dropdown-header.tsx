@@ -1,9 +1,8 @@
 import React from 'react';
-import StyledText from '@components/general/text/styled-text';
 import { DropdownTitleContainer } from './dropdown-styled-components';
 import useGetTheme from '@styles/hooks/use-get-theme';
 import { IconTypeEnum } from '@utils/custom-enums';
-import { Icon, Condition, Seperator } from '@components/general/index';
+import { Icon, Seperator, StyledText } from '../';
 import {
   SMALL_PADDING,
   MID_PADDING,

@@ -1,7 +1,6 @@
 import { useMainState, useMainDispatch } from '@redux/hooks';
-import { Item } from '@utils/custom-interfaces';
+import { Item, ContentSectionEnum } from '@utils/index';
 import { useContentState } from '../provider';
-import { ContentSectionEnum } from '@utils/custom-enums';
 
 export const useUpdateContent = () => {
   const {

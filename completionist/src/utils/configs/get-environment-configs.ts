@@ -1,4 +1,4 @@
-import { EnvironmentConfig } from '@utils/custom-interfaces';
+import { EnvironmentConfig } from '@utils/index';
 
 const getEnvironmentConfig: EnvironmentConfig = {
   ACCESS_TOKEN: process.env.ACCESS_TOKEN ?? '',

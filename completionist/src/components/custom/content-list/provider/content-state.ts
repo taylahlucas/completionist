@@ -1,6 +1,9 @@
 import { createSlice } from '@reduxjs/toolkit';
-import { DropDownType, GameContentItem } from '@utils/custom-interfaces';
-import { ContentSectionEnum } from '@utils/custom-enums';
+import {
+  ContentSectionEnum,
+  DropDownType,
+  GameContentItem,
+} from '@utils/index';
 
 export interface ContentState {
   readonly sectionType: ContentSectionEnum;

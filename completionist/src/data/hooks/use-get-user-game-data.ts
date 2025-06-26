@@ -1,5 +1,5 @@
 import { useMainState } from '@redux/hooks';
-import { Item, IsActive } from '@utils/custom-interfaces';
+import { Item, IsActive } from '@utils/index';
 import { getCurrentGame } from '@data/hooks';
 
 interface GetUserGameDataReturnType {

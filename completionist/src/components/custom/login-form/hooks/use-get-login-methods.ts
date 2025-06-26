@@ -4,21 +4,25 @@ import uuid from 'react-native-uuid';
 import { GoogleSignin } from '@react-native-google-signin/google-signin';
 import auth from '@react-native-firebase/auth';
 import {
+  useEditUserData,
+  useRemoveUserData,
   checkUserExists,
   linkAndSignIn,
   signIn,
   signUp,
-} from '@data/api/auth-endpoints';
-import { UnauthorizedScreenEnum } from '@utils/custom-enums';
-import { useEditUserData, useRemoveUserData } from '@data/hooks';
+  SignInProps,
+  updateUser,
+} from '@data/index';
 import { useMainState, useMainDispatch } from '@redux/hooks';
-import { SignInProps } from '@data/api/endpoint-interfaces';
 import { useLoginDispatch } from '../provider';
-import { updateUser } from '@data/api/endpoints';
 import { log } from '@utils/hooks/index';
 import { useSendVerificationEmail } from './';
-import { maxPwAttempts, requestCodes } from '@utils/constants';
-import { getUserLang } from '@utils/helpers';
+import {
+  UnauthorizedScreenEnum,
+  getUserLang,
+  maxPwAttempts,
+  requestCodes,
+} from '@utils/index';
 
 interface GoogleError {
   code: number;

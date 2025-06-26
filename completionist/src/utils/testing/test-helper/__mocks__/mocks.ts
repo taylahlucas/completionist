@@ -1,9 +1,4 @@
-import {
-  SettingsConfig,
-  User,
-  BadgeItem,
-  ProgressItem,
-} from '@utils/custom-interfaces';
+import { SettingsConfig, User, BadgeItem, ProgressItem } from '@utils/index';
 
 export const userLoggedInMock: User = {
   userId: '123',

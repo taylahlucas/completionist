@@ -1,16 +1,14 @@
 import React from 'react';
-import { Dropdown } from '@components/general/dropdown';
-import { SubListHeader } from '@components/general/lists';
+import { Condition, SubListHeader, Dropdown } from '@components/general';
 import { useContentDispatch, useContentState } from './provider';
 import { useMainState } from '@redux/hooks';
-import { Condition } from '@components/general';
 import { ContentSubTypeDropdown, ContentMainList } from './';
 import {
   useCheckContentComplete,
   useGetContentCategories,
   useGetContent,
 } from './hooks';
-import { ContentItem } from '@utils/custom-interfaces';
+import { ContentItem } from '@utils/index';
 
 export interface ContentSubDropdownProps {
   mainCategory: ContentItem;

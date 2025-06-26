@@ -13,7 +13,7 @@ import useGetTheme from '@styles/hooks/use-get-theme';
 import Overlay from '@components/general/layouts/overlay';
 import Button from '@components/general/button/button';
 import StyledText from '@components/general/text/styled-text';
-import { SteamProfile } from '@utils/custom-interfaces';
+import { SteamProfile } from '@utils/index';
 import { DEFAULT_BORDER_RADIUS, windowHeight } from '@styles/global';
 import { useReactNavigation } from '@navigation/hooks';
 import IconButton from '@components/general/icon/icon-button';

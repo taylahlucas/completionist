@@ -11,7 +11,7 @@ import {
   useNavigationState,
 } from '@react-navigation/native';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack/src/types';
-import { NativeNavigation } from '@utils/custom-interfaces';
+import { NativeNavigation } from '@utils/index';
 import { ScreenEnumType, NavigatorParams } from '@utils/custom-types';
 import { useMainDispatch } from '@redux/hooks';
 

@@ -1,5 +1,5 @@
 import styled from 'styled-components/native';
-import Button from '@components/general/button/button';
+import { Button } from '@components/general';
 import { LARGE_WIDTH, LARGE_PADDING } from '@styles/global';
 
 export const LoginContentContainer = styled.View`

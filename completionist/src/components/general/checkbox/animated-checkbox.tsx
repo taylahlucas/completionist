@@ -1,13 +1,12 @@
 import React, { useState, useRef, useEffect } from 'react';
 import LottieView from 'lottie-react-native';
 import useGetTheme from '@styles/hooks/use-get-theme';
-import { IconTypeEnum } from '@utils/custom-enums';
-import Icon from '../icon/icon';
+import { IconTypeEnum } from '@utils/index';
+import { Icon, Condition } from '../';
 import {
   StyledAnimatedCheckBox,
   StyledAnimation,
 } from './checkbox-styled-components';
-import { Condition } from '@components/general/index';
 
 interface AnimatedCheckBoxProps {
   isToggled: boolean;

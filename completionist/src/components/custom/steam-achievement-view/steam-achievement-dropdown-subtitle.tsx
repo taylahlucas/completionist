@@ -1,10 +1,12 @@
 import React from 'react';
 import useGetTheme from '@styles/hooks/use-get-theme';
-import Icon from '@components/general/icon/icon';
-import { IconTypeEnum } from '@utils/custom-enums';
-import { DropdownTitleContainer } from '@components/general/dropdown';
-import StyledText from '@components/general/text/styled-text';
-import { Seperator } from '@components/general';
+import {
+  Icon,
+  StyledText,
+  DropdownTitleContainer,
+  Seperator,
+} from '@components/general';
+import { IconTypeEnum } from '@utils/index';
 
 interface SteamAchievementDropdownSubtitleProps {
   title: string;

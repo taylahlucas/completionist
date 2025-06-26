@@ -28,7 +28,7 @@ import {
   SteamAchievementItem,
   SteamProfile,
   User,
-} from '@utils/custom-interfaces';
+} from '@utils/index';
 import { requestCodes } from '@utils/constants';
 
 export const getUserByUserId = async ({

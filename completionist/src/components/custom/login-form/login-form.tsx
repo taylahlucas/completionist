@@ -1,10 +1,8 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import TextInput from '@components/general/text-input/text-input';
 import { LoginFormContainer, LoginFormContentContainer } from './';
-import Button from '@components/general/button/button';
 import { useLoginState, useLoginDispatch } from './provider';
-import { Condition } from '@components/general/index';
+import { Condition, TextInput, Button } from '@components/general';
 import { UnauthorizedScreenEnum } from '@utils/custom-enums';
 import { useReactNavigation } from '@navigation/hooks';
 

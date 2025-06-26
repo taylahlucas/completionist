@@ -1,14 +1,13 @@
 import React from 'react';
-import { Dropdown } from '@components/general/dropdown';
-import { GameData } from '@utils/custom-interfaces';
+import { Dropdown } from '@components/general';
+import { GameData, GameListSelectionType } from '@utils/index';
 import {
   GameListSectionHeader,
   GameListItem,
   GameListDropdownContainer,
 } from './';
-import useGetTheme from '@styles/hooks/use-get-theme';
 import { useGameListSelectionDropdown } from './hooks';
-import { GameListSelectionType } from '@utils/custom-types';
+import useGetTheme from '@styles/hooks/use-get-theme';
 
 interface GameListSectionDropdown {
   testID?: string;

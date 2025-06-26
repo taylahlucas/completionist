@@ -1,7 +1,6 @@
 import React from 'react';
 import { View, Alert } from 'react-native';
 import { useTranslation } from 'react-i18next';
-import Button from '@components/general/button/button';
 import {
   LoginFormContentContainer,
   LoginFormFooterContainer,
@@ -9,12 +8,11 @@ import {
 } from './';
 import { GoogleSigninButton } from '@react-native-google-signin/google-signin';
 import { useLoginState, useLoginDispatch } from './provider';
-import StyledText from '@components/general/text/styled-text';
-import { Condition } from '@components/general/index';
-import { isEmailValid, isPwValid, isNameValid } from '@utils/hooks/validator';
+import { Condition, Button, StyledText } from '@components/general';
+import { isEmailValid, isPwValid, isNameValid } from '@utils/hooks';
 import { useSendVerificationEmail, useGetLoginMethods } from './hooks';
-import { checkUserExists } from '@data/api/auth-endpoints';
-import { UnauthorizedScreenEnum } from '@utils/custom-enums';
+import { checkUserExists } from '@data/index';
+import { UnauthorizedScreenEnum } from '@utils/index';
 
 export const LoginFormSignInButtons = () => {
   const { t } = useTranslation();

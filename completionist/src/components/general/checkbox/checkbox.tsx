@@ -1,8 +1,8 @@
 import React from 'react';
-import IconButton from '@components/general/icon/icon-button';
+import { ViewStyle } from 'react-native';
+import { IconButton } from '../';
 import { IconTypeEnum } from '@utils/index';
 import useGetTheme from '@styles/hooks/use-get-theme';
-import { ViewStyle } from 'react-native';
 
 interface CheckBoxProps {
   isActive: boolean;

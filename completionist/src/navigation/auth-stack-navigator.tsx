@@ -1,7 +1,7 @@
 import React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
 import GameSelection from '@screens/game-selection';
-import { AuthStackParamList } from '@utils/custom-interfaces';
+import { AuthStackParamList } from '@utils/index';
 import { AuthScreenEnum } from '@utils/custom-enums';
 import Settings from '@screens/settings/settings';
 import AccountDetails from '@screens/settings/account-details';

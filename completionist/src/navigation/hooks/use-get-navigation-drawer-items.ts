@@ -2,7 +2,7 @@ import { useTranslation } from 'react-i18next';
 import { ContentSectionEnum, DrawerScreenEnum } from '@utils/custom-enums';
 import { useGetUserGameData, useGetSettingsConfig } from '@data/hooks';
 import { useCheckSectionEnabled } from './';
-import { NavigationDrawerItemData } from '@utils/custom-interfaces';
+import { NavigationDrawerItemData } from '@utils/index';
 import { useContentState } from '@components/custom/content-list/provider';
 import { filterActiveSections } from '@data/helpers/filter-active-sessions';
 import { useMainState } from '@redux/hooks';

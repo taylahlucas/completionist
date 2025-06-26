@@ -1,5 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit';
-import { DropDownType } from '@utils/custom-interfaces';
+import { DropDownType } from '@utils/index';
 
 export interface SettingsState {
   readonly selectedCategory: DropDownType;

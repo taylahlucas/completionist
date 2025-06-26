@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavigationDrawerItemData } from '@utils/custom-interfaces';
+import { NavigationDrawerItemData } from '@utils/index';
 import { useReactNavigation } from './hooks';
 import {
   NavigationHeaderSubTitle,

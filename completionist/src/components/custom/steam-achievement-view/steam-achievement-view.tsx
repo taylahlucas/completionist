@@ -8,7 +8,7 @@ import {
   SteamItemTitle,
   SteamItemDescription,
 } from './';
-import { SteamAchievementItem } from '@utils/custom-interfaces';
+import { SteamAchievementItem } from '@utils/index';
 
 interface SteamAchievementViewProps {
   item: SteamAchievementItem;

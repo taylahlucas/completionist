@@ -11,8 +11,8 @@ import { TextInputContainer } from './text-input-styled-components';
 import { Condition } from '@components/general/index';
 import defaultStyle from '@styles/Font/FontStyle';
 import { TextInputStyleType, IconTypeEnum } from '@utils/index';
-import useGetTextContainerStyle from './hooks/useGetTextContainerStyle.native';
-import useGetTextInputStyle from './hooks/useGetTextInputStyle.native';
+import useGetTextContainerStyle from './hooks/use-get-text-container-style';
+import useGetTextInputStyle from './hooks/use-get-text-input-style';
 import { LARGE_WIDTH } from '@styles/global';
 
 export interface TextInputProps extends RNTextInputProps {

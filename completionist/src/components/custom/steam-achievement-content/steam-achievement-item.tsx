@@ -1,7 +1,7 @@
 import React from 'react';
 import { Image } from 'react-native';
-import { SteamAchievement } from '@utils/custom-interfaces';
-import StyledText from '@components/general/text/styled-text';
+import { SteamAchievement } from '@utils/index';
+import { StyledText } from '@components/general';
 import {
   SteamAchievementItemContainer,
   SteamAchievementIconContainer,

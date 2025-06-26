@@ -1,12 +1,11 @@
 import React from 'react';
-import { listStyles } from '@components/general/lists';
+import { ListItem, ScrollableList, listStyles } from '@components/general';
 import {
   useCheckContentComplete,
   useUpdateContent,
   useGetContent,
 } from './hooks';
-import { ContentItem } from '@utils/custom-interfaces';
-import { ListItem, ScrollableList } from '@components/general/lists';
+import { ContentItem } from '@utils/index';
 import { EXTRA_LARGE_PADDING, DEFAULT_ITEM_HEIGHT } from '@styles/global';
 import { useContentDispatch } from './provider';
 

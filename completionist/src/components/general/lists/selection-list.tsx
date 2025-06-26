@@ -6,7 +6,7 @@ import {
 } from '@components/general/lists/index';
 import CheckBox from '../checkbox/checkbox';
 import useGetTheme from '@styles/hooks/use-get-theme';
-import { IsActive } from '@utils/custom-interfaces';
+import { IsActive } from '@utils/index';
 import { useTranslation } from 'react-i18next';
 
 export type SelectionListType = 'enable-dlc' | 'show-hide-sections';

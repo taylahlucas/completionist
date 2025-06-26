@@ -1,5 +1,5 @@
 import { AuthScreenEnum } from '@utils/custom-enums';
-import { GameData } from '@utils/custom-interfaces';
+import { GameData } from '@utils/index';
 import { useMainDispatch } from '@redux/hooks';
 import { useReactNavigation } from '@navigation/hooks';
 import { GameListSelectionType } from '@utils/custom-types';
