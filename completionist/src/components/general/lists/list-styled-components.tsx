@@ -1,6 +1,7 @@
 import { Animated, StyleSheet } from 'react-native';
 import styled from 'styled-components/native';
-import { StyledText, Button } from '../';
+import { Button } from '../button';
+import { StyledText } from '../text';
 import {
   DEFAULT_BORDER_RADIUS,
   SMALL_PADDING,

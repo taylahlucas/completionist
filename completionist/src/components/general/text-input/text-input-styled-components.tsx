@@ -1,6 +1,6 @@
 import styled from 'styled-components/native';
 import { LARGE_WIDTH } from '@styles/global';
-import { IconButton } from '../';
+import { IconButton } from '../icon';
 
 interface TextInputContainerProps {
   width: number;

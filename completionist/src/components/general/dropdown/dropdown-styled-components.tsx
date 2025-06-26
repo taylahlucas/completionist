@@ -7,7 +7,7 @@ import {
   MID_PADDING,
   windowWidth,
 } from '@styles/global';
-import { StyledText } from '../';
+import { StyledText } from '../text';
 
 interface DropdownSelectionContainerProps {
   color: string;

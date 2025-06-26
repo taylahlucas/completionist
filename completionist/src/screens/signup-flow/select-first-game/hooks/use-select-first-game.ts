@@ -1,14 +1,13 @@
-import { filterGameList } from '@components/custom/game-list/hooks/use-filter-game-list';
+import { filterGameList } from '@components/custom/game-list/hooks';
 import { useLoginDispatch } from '@components/custom/login-form/provider';
 import { useLoginState } from '@components/custom/login-form/provider';
-import { useIsRequestLoading } from '@data/api/hooks/use-is-request-loading';
-import { useMainState } from '@redux/hooks';
-import { useMainDispatch } from '@redux/hooks';
-import { useActivateGame, useEditUserData } from '@data/hooks/index';
-import { getFormattedSearchString } from '@utils/hooks/index';
+import { useIsRequestLoading } from '@data/api/hooks';
+import { useMainState, useMainDispatch } from '@redux/hooks';
+import { useActivateGame, useEditUserData } from '@data/hooks';
+import { getFormattedSearchString } from '@utils/hooks';
 import { allGameData } from '@utils/configs/game-configs';
 import { useState } from 'react';
-import { GameKeyEnum } from '@utils/custom-enums';
+import { GameKeyEnum } from '@utils/index';
 import { useTranslation } from 'react-i18next';
 
 export const useSelectFirstGame = () => {

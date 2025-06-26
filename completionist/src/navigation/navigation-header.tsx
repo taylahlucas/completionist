@@ -1,6 +1,6 @@
 import React from 'react';
 import useGetTheme from '@styles/hooks/use-get-theme';
-import { NavigationHeaderContainer, NavigationHeaderText } from '.';
+import { NavigationHeaderContainer, NavigationHeaderText } from './';
 import {
   NavigationHeaderLeftActionTypes,
   NavigationHeaderRightActionTypes,

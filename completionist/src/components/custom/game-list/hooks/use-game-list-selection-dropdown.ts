@@ -1,12 +1,9 @@
-import { AuthScreenEnum } from '@utils/custom-enums';
-import { GameData } from '@utils/index';
+import { GameData, AuthScreenEnum, GameListSelectionType } from '@utils/index';
 import { useMainDispatch } from '@redux/hooks';
 import { useReactNavigation } from '@navigation/hooks';
-import { GameListSelectionType } from '@utils/custom-types';
 import { useState } from 'react';
-import { getGameDataFromCache } from '@data/helpers/get-game-data-from-cache';
-import { getMappedGameData } from '@data/helpers/map-game-data';
-import useGetGameLanguages from '@components/custom/settings/hooks/use-get-game-languages';
+import { getMappedGameData, getGameDataFromCache } from '@data/index';
+import { useGetGameLanguages } from '@components/custom/settings/hooks';
 import { useMainState } from '@redux/hooks';
 import { useContentDispatch } from '@components/custom/content-list/provider';
 

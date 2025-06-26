@@ -3,7 +3,7 @@ import { I18nextProvider } from 'react-i18next';
 import { Condition } from '@components/general';
 import { useMainState } from '@redux/hooks';
 import { useInitUserData } from '@data/hooks';
-import { Landing } from '.';
+import { Landing } from './';
 import { usePlaySplashScreen } from '@utils/hooks';
 import i18n from 'src/i18n/i18n.native';
 import { useTimedDataUpdate } from '@data/api/hooks';

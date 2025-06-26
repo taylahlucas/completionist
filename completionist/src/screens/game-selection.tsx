@@ -1,11 +1,10 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import StandardLayout from '@components/general/layouts/standard-layout';
+import { StandardLayout, CustomSearchBar } from '@components/general';
 import { GameList } from '@components/custom';
 import { NavigationHeader } from '@navigation/index';
 import { useMainState } from '@redux/hooks';
-import CustomSearchBar from '@components/general/custom-search-bar/custom-search-bar';
-import { AuthScreenEnum } from '@utils/custom-enums';
+import { AuthScreenEnum } from '@utils/index';
 
 export const GameSelection = () => {
   const { t } = useTranslation();

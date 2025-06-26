@@ -1,8 +1,8 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import StandardLayout from '@components/general/layouts/standard-layout';
+import { StandardLayout } from '@components/general';
 import { NavigationHeader } from '@navigation/index';
-import { UnauthorizedScreenEnum } from '@utils/custom-enums';
+import { UnauthorizedScreenEnum } from '@utils/index';
 import { VerificationContent } from '@components/custom';
 import { useVerifyNewPassword } from './hooks';
 

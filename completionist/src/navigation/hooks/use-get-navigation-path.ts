@@ -1,5 +1,5 @@
 import { User, UnauthorizedScreenEnum } from '@utils/index';
-import { useReactNavigation } from '.';
+import { useReactNavigation } from './';
 
 export const useGetNavigationPath = () => {
   const navigation = useReactNavigation();

@@ -15,7 +15,7 @@ import { useGetLoginMethods } from '@components/custom/login-form/hooks';
 import { AuthScreenEnum } from '@utils/index';
 import useGetTheme from '@styles/hooks/use-get-theme';
 import { useMainState, useMainDispatch } from '@redux/hooks';
-import { NavigationDrawerItem } from '.';
+import { NavigationDrawerItem } from './';
 import { useTranslation } from 'react-i18next';
 
 export const NavigationDrawerBody: React.FunctionComponent = () => {

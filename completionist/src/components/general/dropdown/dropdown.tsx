@@ -1,10 +1,7 @@
 import React from 'react';
 import { LayoutAnimation } from 'react-native';
 import { Condition } from '../';
-import {
-  DropdownPressable,
-  DropdownContainer,
-} from './dropdown-styled-components';
+import { DropdownPressable, DropdownContainer } from './';
 
 interface DropdownProps {
   testID?: string;

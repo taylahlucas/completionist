@@ -1,7 +1,9 @@
-import { useLoginDispatch } from '@components/custom/login-form/provider';
-import { useLoginState } from '@components/custom/login-form/provider';
-import { signUp, linkAndSignIn } from '@data/api/auth-endpoints';
-import { useIsRequestLoading } from '@data/api/hooks/use-is-request-loading';
+import {
+  useLoginDispatch,
+  useLoginState,
+} from '@components/custom/login-form/provider';
+import { signUp, linkAndSignIn } from '@data/index';
+import { useIsRequestLoading } from '@data/api/hooks';
 import { useEditUserData } from '@data/hooks/index';
 import { useMainState } from '@redux/hooks';
 

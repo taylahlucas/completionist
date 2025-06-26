@@ -11,7 +11,7 @@ import {
 import useGetTheme from '@styles/hooks/use-get-theme';
 import { IconButton } from '@components/general';
 import { useGetLoginMethods } from '@components/custom/login-form/hooks';
-import { useReactNavigation } from '.';
+import { useReactNavigation } from './';
 
 export const useGetRightNavigationItem = (
   rightAction: NavigationHeaderRightActionTypes,

@@ -1,7 +1,7 @@
 import React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
 import { AuthStackParamList, AuthScreenEnum } from '@utils/index';
-import { AuthDrawerStackNavigator } from '.';
+import { AuthDrawerStackNavigator } from './';
 import {
   PurchaseGame,
   Settings,

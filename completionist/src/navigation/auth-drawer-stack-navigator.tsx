@@ -9,7 +9,7 @@ import {
   navigationStyles,
   NavigationDrawerBody,
   NavigationDrawerContainer,
-} from '.';
+} from './';
 import {
   Quests,
   Collectables,

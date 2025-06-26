@@ -45,7 +45,7 @@ export const SettingsCollectionList = styled(Animated.View)`
   border-radius: ${DEFAULT_BORDER_RADIUS}px;
   border-color: grey;
   align-self: center;
-  zindex: -1;
+  zindex: -1px;
   overflow: scroll;
 `;
 

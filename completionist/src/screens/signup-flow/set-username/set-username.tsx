@@ -1,14 +1,16 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import StandardLayout from '@components/general/layouts/standard-layout';
+import {
+  StandardLayout,
+  TextInput,
+  Button,
+  StyledText,
+  Spacing,
+  KeyboardAvoidingScrollView,
+} from '@components/general';
 import { NavigationHeader } from '@navigation/index';
-import { UnauthorizedScreenEnum } from '@utils/custom-enums';
-import TextInput from '@components/general/text-input/text-input';
-import { KeyboardAvoidingScrollView } from '@components/general/lists/index';
-import Button from '@components/general/button/button';
-import StyledText from '@components/general/text/styled-text';
-import { Spacing } from '@components/general/index';
-import { useSetUsername } from './hooks/use-set-username';
+import { UnauthorizedScreenEnum } from '@utils/index';
+import { useSetUsername } from './hooks';
 
 export const SetUsername = () => {
   const { t } = useTranslation();

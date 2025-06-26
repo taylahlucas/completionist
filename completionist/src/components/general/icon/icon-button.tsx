@@ -1,6 +1,6 @@
 import React from 'react';
 import { Pressable, ViewStyle } from 'react-native';
-import { Icon, IconProps } from '.';
+import { Icon, IconProps } from './';
 
 export interface IconButtonProps extends IconProps {
   testID?: string;

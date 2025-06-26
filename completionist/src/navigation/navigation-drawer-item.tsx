@@ -5,7 +5,7 @@ import {
   NavigationHeaderSubTitle,
   NavigationHeaderTitleContainer,
   NavigationDrawerTitle,
-} from '.';
+} from './';
 import useGetTheme from '@styles/hooks/use-get-theme';
 import { useContentDispatch } from '@components/custom/content-list/provider';
 import { ContentSectionEnum } from '@utils/index';

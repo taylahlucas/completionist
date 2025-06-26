@@ -1,21 +1,25 @@
 import React, { useRef } from 'react';
 import { ScrollView, Text as RNText } from 'react-native';
 import { useTranslation } from 'react-i18next';
-import StandardLayout from '@components/general/layouts/standard-layout';
 import { NavigationHeader } from '@navigation/index';
-import { ScrollableList, SelectionList } from '@components/general/lists';
+import {
+  StandardLayout,
+  Button,
+  Condition,
+  Spacing,
+  ScrollableList,
+  SelectionList,
+} from '@components/general';
 import {
   SettingsDescription,
   SettingsAccountDetails,
   SettingsGameCollections,
   SettingsSelectLanguage,
 } from '@components/custom';
-import { DrawerScreenEnum, AuthScreenEnum } from '@utils/custom-enums';
-import Button from '@components/general/button/button';
-import { Condition, Spacing } from '@components/general';
+import { DrawerScreenEnum, AuthScreenEnum } from '@utils/index';
 import useGetTheme from '@styles/hooks/use-get-theme';
 import { useSettings } from './hooks';
-import { SteamProfileModal } from '@screens/achievements';
+import { SteamProfileModal } from '@screens/index';
 
 export const Settings = () => {
   const { t } = useTranslation();
