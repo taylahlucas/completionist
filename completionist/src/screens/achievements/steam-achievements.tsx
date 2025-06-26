@@ -1,5 +1,5 @@
 import React from 'react';
-import StandardLayout from '@components/general/Layouts/StandardLayout.native';
+import StandardLayout from '@components/general/layouts/standard-layout';
 import { NavigationHeader } from '@navigation/index';
 import { AddSteamIDContent } from '@components/custom';
 import { DrawerScreenEnum } from '@utils/custom-enums';

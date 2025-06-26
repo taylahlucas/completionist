@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import LottieView from 'lottie-react-native';
 import useGetTheme from '@styles/hooks/use-get-theme';
 import { IconTypeEnum } from '@utils/custom-enums';
-import Icon from '../Icon/Icon.native';
+import Icon from '../icon/icon';
 import {
   StyledAnimatedCheckBox,
   StyledAnimation,

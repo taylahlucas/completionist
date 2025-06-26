@@ -1,5 +1,5 @@
 import React from 'react';
-import IconButton from '@components/general/Icon/IconButton.native';
+import IconButton from '@components/general/icon/icon-button';
 import { IconTypeEnum } from '@utils/index';
 import useGetTheme from '@styles/hooks/use-get-theme';
 import { ViewStyle } from 'react-native';

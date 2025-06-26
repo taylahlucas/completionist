@@ -1,7 +1,7 @@
 import React from 'react';
 import { Condition } from '@components/general';
-import { Dropdown } from '@components/general/Dropdown';
-import { ListHeader } from '@components/general/Lists';
+import { Dropdown } from '@components/general/dropdown';
+import { ListHeader } from '@components/general/lists';
 import { ContentMainList, ContentSubDropdown } from './';
 import { useMainState } from '@redux/hooks';
 import {

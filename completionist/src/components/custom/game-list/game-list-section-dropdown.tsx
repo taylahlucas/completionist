@@ -1,5 +1,5 @@
 import React from 'react';
-import { Dropdown } from '@components/general/Dropdown';
+import { Dropdown } from '@components/general/dropdown';
 import { GameData } from '@utils/custom-interfaces';
 import {
   GameListSectionHeader,

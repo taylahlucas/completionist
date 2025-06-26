@@ -10,13 +10,13 @@ import {
 } from 'react-native';
 import { useTranslation } from 'react-i18next';
 import useGetTheme from '@styles/hooks/use-get-theme';
-import Overlay from '@components/general/Layouts/Overlay.native';
+import Overlay from '@components/general/layouts/overlay';
 import Button from '@components/general/button/button';
-import StyledText from '@components/general/Text/StyledText.native';
+import StyledText from '@components/general/text/styled-text';
 import { SteamProfile } from '@utils/custom-interfaces';
 import { DEFAULT_BORDER_RADIUS, windowHeight } from '@styles/global';
 import { useReactNavigation } from '@navigation/hooks';
-import IconButton from '@components/general/Icon/IconButton.native';
+import IconButton from '@components/general/icon/icon-button';
 import { IconTypeEnum } from '@utils/custom-enums';
 import { Condition, Spacing } from '@components/general/index';
 import { isSmallScreen } from '@styles/global';

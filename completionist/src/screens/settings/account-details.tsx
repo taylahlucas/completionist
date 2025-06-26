@@ -1,15 +1,15 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import StandardLayout from '@components/general/Layouts/StandardLayout.native';
+import StandardLayout from '@components/general/layouts/standard-layout';
 import { NavigationHeader } from '@navigation/index';
 import { AccountDetailsFieldTitle } from '@components/custom';
-import TextInput from '@components/general/TextInput/TextInput.native';
+import TextInput from '@components/general/text-input/text-input';
 import Button from '@components/general/button/button';
 import { Condition } from '@components/general';
-import { KeyboardAvoidingScrollView } from '@components/general/Lists';
+import { KeyboardAvoidingScrollView } from '@components/general/lists';
 import { DrawerScreenEnum } from '@utils/custom-enums';
-import ErrorMessage from '@components/general/Text/ErrorMessage.native';
-import StyledText from '@components/general/Text/StyledText.native';
+import ErrorMessage from '@components/general/text/error-message';
+import StyledText from '@components/general/text/styled-text';
 import { useAccountDetails } from './hooks';
 
 export const AccountDetails = () => {

@@ -11,7 +11,7 @@ import {
 } from '@navigation/navigation-styled-components';
 import { IconTypeEnum } from '@utils/custom-enums';
 import useGetTheme from '@styles/hooks/use-get-theme';
-import IconButton from '@components/general/Icon/IconButton.native';
+import IconButton from '@components/general/icon/icon-button';
 import {
   useRotateMenuButton,
   useSafeDrawerStatus,

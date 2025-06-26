@@ -1,6 +1,6 @@
 import React from 'react';
-import { Dropdown } from '@components/general/Dropdown';
-import { SubListHeader } from '@components/general/Lists';
+import { Dropdown } from '@components/general/dropdown';
+import { SubListHeader } from '@components/general/lists';
 import { useContentDispatch, useContentState } from './provider';
 import { useMainState } from '@redux/hooks';
 import { Condition } from '@components/general';

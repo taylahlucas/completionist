@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { ScrollableList } from '@components/general/Lists';
+import { ScrollableList } from '@components/general/lists';
 import { gameListStyles } from './';
 import { GameListSectionDropdown } from './';
 import { useGameList } from './hooks';

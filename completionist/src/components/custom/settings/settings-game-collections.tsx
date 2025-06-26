@@ -12,7 +12,7 @@ import {
   Dropdown,
   DropdownSelection,
   DropdownSelectionContent,
-} from '@components/general/Dropdown';
+} from '@components/general/dropdown';
 import { filterGameList } from '../game-list/hooks/use-filter-game-list';
 import { useMainState, useMainDispatch } from '@redux/hooks';
 

@@ -6,7 +6,7 @@ import {
 } from '@navigation/navigation-styled-components';
 import { IconTypeEnum, AuthScreenEnum } from '@utils/custom-enums';
 import useGetTheme from '@styles/hooks/use-get-theme';
-import IconButton from '@components/general/Icon/IconButton.native';
+import IconButton from '@components/general/icon/icon-button';
 import { useGetLoginMethods } from '@components/custom/login-form/hooks';
 import { useReactNavigation } from '.';
 

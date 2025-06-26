@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
 import { Alert } from 'react-native';
 import { useTranslation } from 'react-i18next';
-import StandardLayout from '@components/general/Layouts/StandardLayout.native';
+import StandardLayout from '@components/general/layouts/standard-layout';
 import { NavigationHeader } from '@navigation/index';
-import StyledText from '@components/general/Text/StyledText.native';
+import StyledText from '@components/general/text/styled-text';
 import { sendEmail } from '@data/api/endpoints';
 import { useMainState } from '@redux/hooks';
 import Button from '@components/general/button/button';
-import TextInput from '@components/general/TextInput/TextInput.native';
-import { KeyboardAvoidingScrollView } from '@components/general/Lists/index';
+import TextInput from '@components/general/text-input/text-input';
+import { KeyboardAvoidingScrollView } from '@components/general/lists/index';
 import { DrawerScreenEnum } from '@utils/custom-enums';
 import { ParagraphView } from '@components/general/index';
 

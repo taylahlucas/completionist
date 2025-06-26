@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import useGetTheme from '@styles/hooks/use-get-theme';
-import { ScrollableList } from '@components/general/Lists';
+import { ScrollableList } from '@components/general/lists';
 import { SteamAchievementItem } from '@utils/custom-interfaces';
 import { Condition } from '@components/general';
-import { Dropdown } from '@components/general/Dropdown';
+import { Dropdown } from '@components/general/dropdown';
 import { SteamAchievementDropdownShadow, SteamAchievementView } from './';
-import StyledDropdownHeader from '@components/general/Dropdown/StyledDropdownHeader.native';
+import { StyledDropdownHeader } from '@components/general';
 
 interface SteamAchievementDropdownProps {
   gameId: string;

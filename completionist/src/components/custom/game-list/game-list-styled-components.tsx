@@ -1,7 +1,7 @@
 import { StyleSheet } from 'react-native';
 import styled from 'styled-components/native';
 import { DEFAULT_BORDER_RADIUS, LARGE_WIDTH } from '@styles/global';
-import StyledText from '@components/general/Text/StyledText.native';
+import StyledText from '@components/general/text/styled-text';
 
 export const gameListStyles = StyleSheet.create({
   scrollableContent: {

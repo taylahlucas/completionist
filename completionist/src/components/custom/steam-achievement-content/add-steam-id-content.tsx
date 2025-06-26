@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { Image } from 'react-native';
 import { useTranslation } from 'react-i18next';
-import StyledText from '@components/general/Text/StyledText.native';
-import TextInput from '@components/general/TextInput/TextInput.native';
-import { KeyboardAvoidingScrollView } from '@components/general/Lists';
+import StyledText from '@components/general/text/styled-text';
+import TextInput from '@components/general/text-input/text-input';
+import { KeyboardAvoidingScrollView } from '@components/general/lists';
 import { Spacing, ParagraphView } from '@components/general';
 import Button from '@components/general/button/button';
 import { getSteamUserById } from '@data/api/endpoints';

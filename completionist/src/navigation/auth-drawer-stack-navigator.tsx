@@ -11,7 +11,7 @@ import { useMainState } from '@redux/hooks';
 import useGetTheme from '@styles/hooks/use-get-theme';
 import { useTranslateGameContent } from '@data/hooks';
 import { Condition } from '@components/general';
-import StyledText from '@components/general/Text/StyledText.native';
+import StyledText from '@components/general/text/styled-text';
 import { DrawerScreenEnum } from '@utils/custom-enums';
 import SendRequest from '@screens/send-request';
 import { Achievements, SteamAchievements } from '@screens/achievements';

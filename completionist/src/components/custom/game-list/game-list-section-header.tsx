@@ -1,11 +1,11 @@
 import React from 'react';
-import StyledText from '@components/general/Text/StyledText.native';
+import StyledText from '@components/general/text/styled-text';
 import {
   GameListItemHeaderContainer,
   GameListItemHeaderTitleContainer,
 } from './';
 import { Seperator } from '@components/general';
-import Icon from '@components/general/Icon/Icon.native';
+import Icon from '@components/general/icon/icon';
 import { useGameListItem } from './hooks';
 
 interface GameListSectionHeaderProps {

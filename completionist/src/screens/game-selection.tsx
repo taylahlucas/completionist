@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import StandardLayout from '@components/general/Layouts/StandardLayout.native';
+import StandardLayout from '@components/general/layouts/standard-layout';
 import { GameList } from '@components/custom';
 import { NavigationHeader } from '@navigation/index';
 import { useMainState } from '@redux/hooks';

@@ -1,9 +1,9 @@
 import React, { useRef } from 'react';
 import { ScrollView, Text as RNText } from 'react-native';
 import { useTranslation } from 'react-i18next';
-import StandardLayout from '@components/general/Layouts/StandardLayout.native';
+import StandardLayout from '@components/general/layouts/standard-layout';
 import { NavigationHeader } from '@navigation/index';
-import { ScrollableList, SelectionList } from '@components/general/Lists';
+import { ScrollableList, SelectionList } from '@components/general/lists';
 import {
   SettingsDescription,
   SettingsAccountDetails,

@@ -1,16 +1,16 @@
 import React from 'react';
-import StandardLayout from '@components/general/Layouts/StandardLayout.native';
+import StandardLayout from '@components/general/layouts/standard-layout';
 import { NavigationHeader } from '@navigation/index';
 import CustomSearchBar from '@components/general/custom-search-bar/custom-search-bar';
 import useGetTheme from '@styles/hooks/use-get-theme';
 import { useTranslation } from 'react-i18next';
-import StyledText from '@components/general/Text/StyledText.native';
+import StyledText from '@components/general/text/styled-text';
 import {
   GameListItem,
   SelectFirstGameContentContainer,
 } from '@components/custom';
 import Button from '@components/general/button/button';
-import { KeyboardAvoidingScrollView } from '@components/general/Lists';
+import { KeyboardAvoidingScrollView } from '@components/general/lists';
 import { Condition, Spacing, ParagraphView } from '@components/general';
 import { UnauthorizedScreenEnum } from '@utils/custom-enums';
 import { useTranslateGameContent } from '@data/hooks';

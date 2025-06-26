@@ -1,12 +1,12 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { StripeProvider } from '@stripe/stripe-react-native';
-import StandardLayout from '@components/general/Layouts/StandardLayout.native';
-import StyledText from '@components/general/Text/StyledText.native';
-import TextInput from '@components/general/TextInput/TextInput.native';
+import StandardLayout from '@components/general/layouts/standard-layout';
+import StyledText from '@components/general/text/styled-text';
+import TextInput from '@components/general/text-input/text-input';
 import { NavigationHeader } from '@navigation/index';
 import { AuthScreenEnum } from '@utils/custom-enums';
-import { KeyboardAvoidingScrollView } from '@components/general/Lists';
+import { KeyboardAvoidingScrollView } from '@components/general/lists';
 import Button from '@components/general/button/button';
 import { GameListItem } from '@components/custom';
 import { usePurchaseGame } from './hooks';

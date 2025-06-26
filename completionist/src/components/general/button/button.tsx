@@ -1,7 +1,7 @@
 import React from 'react';
 import { ViewStyle } from 'react-native';
 import _ from 'lodash';
-import StyledText from '../Text/StyledText.native';
+import StyledText from '../text/styled-text';
 import {
   StyledButtonDefault,
   StyledButtonNavigation,
@@ -10,7 +10,7 @@ import {
 } from './button-styled-components';
 import useGetTheme from '@styles/hooks/use-get-theme';
 import { ButtonType } from '@utils/custom-types';
-import Icon from '../Icon/Icon.native';
+import Icon from '../icon/icon';
 
 interface ButtonProps {
   testID?: string;

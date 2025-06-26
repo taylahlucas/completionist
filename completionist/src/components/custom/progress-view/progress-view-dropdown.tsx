@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Dropdown } from '@components/general/Dropdown';
+import { Dropdown } from '@components/general/dropdown';
 import { ProgressView } from './';
 import { ProgressItem } from '@utils/custom-interfaces';
 import { SteamAchievementDropdownSubtitle } from '../steam-achievement-view';

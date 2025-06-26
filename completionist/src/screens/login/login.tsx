@@ -1,10 +1,10 @@
 import React from 'react';
 import { ScrollView } from 'react-native';
 import { useTranslation } from 'react-i18next';
-import StandardLayout from '../../components/general/Layouts/StandardLayout.native';
+import StandardLayout from '../../components/general/layouts/standard-layout';
 import { NavigationHeader } from '@navigation/index';
 import { Condition } from '@components/general/index';
-import StyledText from '@components/general/Text/StyledText.native';
+import StyledText from '@components/general/text/styled-text';
 import {
   LoginForm,
   LoginContentContainer,

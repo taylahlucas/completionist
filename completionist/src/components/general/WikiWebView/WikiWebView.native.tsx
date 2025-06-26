@@ -11,7 +11,7 @@ import {
   WikiWebViewContainer,
   WikiWebViewCloseButton,
 } from './WikiWebViewStyledComponents.native';
-import IconButton from '../Icon/IconButton.native';
+import IconButton from '../icon/icon-button';
 
 interface WikiWebViewProps {
   currentHref: string;

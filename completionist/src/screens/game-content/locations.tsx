@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import StandardLayout from '@components/general/Layouts/StandardLayout.native';
-import { CompletedQuantityTitle } from '@components/general/Text/StyledTextStyledComponents.native';
+import StandardLayout from '@components/general/layouts/standard-layout';
+import { CompletedQuantityTitle } from '@components/general/text/styled-text-styled-components';
 import { NavigationHeader } from '@navigation/index';
 import CustomSearchBar from '@components/general/custom-search-bar/custom-search-bar';
 import { ContentList } from '@components/custom';

@@ -3,7 +3,7 @@ import { View } from 'react-native';
 import { useTranslation } from 'react-i18next';
 import useGetTheme from '@styles/hooks/use-get-theme';
 import { styles } from './';
-import StyledText from '@components/general/Text/StyledText.native';
+import StyledText from '@components/general/text/styled-text';
 
 interface ProgressChartItemProps {
   id: string;

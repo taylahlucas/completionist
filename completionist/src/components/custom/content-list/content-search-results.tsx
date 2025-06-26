@@ -1,5 +1,5 @@
 import React from 'react';
-import { ListItem, ScrollableList } from '@components/general/Lists';
+import { ListItem, ScrollableList } from '@components/general/lists';
 import {
   useCheckContentComplete,
   useUpdateContent,

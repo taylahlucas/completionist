@@ -1,6 +1,6 @@
 import { StyleSheet, Animated } from 'react-native';
 import styled from 'styled-components/native';
-import StyledText from '@components/general/Text/StyledText.native';
+import StyledText from '@components/general/text/styled-text';
 import {
   DEFAULT_BORDER_RADIUS,
   SMALL_WIDTH,
@@ -9,7 +9,7 @@ import {
   MID_PADDING,
   windowWidth,
 } from '@styles/global';
-import { ScrollableList } from '@components/general/Lists/index';
+import { ScrollableList } from '@components/general/lists/index';
 
 interface SettingsMainItemProps {
   color: string;

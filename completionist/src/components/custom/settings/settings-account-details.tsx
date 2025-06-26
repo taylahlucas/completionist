@@ -2,7 +2,7 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { useReactNavigation } from '@navigation/hooks';
 import { useMainState } from '@redux/hooks';
-import StyledText from '@components/general/Text/StyledText.native';
+import StyledText from '@components/general/text/styled-text';
 import Button from '@components/general/button/button';
 import { AuthScreenEnum, DrawerScreenEnum } from '@utils/custom-enums';
 import { SettingsEmail } from './settings-styled-components';

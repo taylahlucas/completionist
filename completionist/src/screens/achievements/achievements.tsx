@@ -1,18 +1,18 @@
 import React from 'react';
 import { View } from 'react-native';
 import { useTranslation } from 'react-i18next';
-import StandardLayout from '@components/general/Layouts/StandardLayout.native';
+import StandardLayout from '@components/general/layouts/standard-layout';
 import { NavigationHeader } from '@navigation/index';
 import { DrawerScreenEnum } from '@utils/custom-enums';
-import { Dropdown } from '@components/general/Dropdown';
-import { ScrollableList } from '@components/general/Lists';
+import { Dropdown } from '@components/general/dropdown';
+import { ScrollableList } from '@components/general/lists';
 import { useReactNavigation } from '@navigation/hooks';
 import Button from '@components/general/button/button';
 import { Condition, Spacing } from '@components/general/index';
-import StyledText from '@components/general/Text/StyledText.native';
+import StyledText from '@components/general/text/styled-text';
 import { useAchievements } from './hooks';
 import { SMALL_PADDING } from '@styles/global';
-import TextWithBackground from '@components/general/Text/TextWithBackground.native';
+import TextWithBackground from '@components/general/text/text-with-background';
 import {
   ProgressView,
   SteamAchievementView,

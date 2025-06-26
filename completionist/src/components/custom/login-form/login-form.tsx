@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import TextInput from '@components/general/TextInput/TextInput.native';
+import TextInput from '@components/general/text-input/text-input';
 import { LoginFormContainer, LoginFormContentContainer } from './';
 import Button from '@components/general/button/button';
 import { useLoginState, useLoginDispatch } from './provider';

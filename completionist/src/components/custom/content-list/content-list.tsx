@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { ScrollableList } from '@components/general/Lists';
+import { ScrollableList } from '@components/general/lists';
 import { Condition, Loading } from '@components/general';
 import { useContentState, useContentDispatch } from './provider';
 import { ContentMainDropdown, ContentSearchResults } from './';

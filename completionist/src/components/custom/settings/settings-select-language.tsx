@@ -4,7 +4,7 @@ import {
   Dropdown,
   DropdownSelection,
   DropdownSelectionContent,
-} from '@components/general/Dropdown/index';
+} from '@components/general/dropdown/index';
 import { languages } from 'src/i18n/i18n-common';
 import { useMainState, useMainDispatch } from '@redux/hooks';
 import { LanguageType } from '@utils/custom-types';

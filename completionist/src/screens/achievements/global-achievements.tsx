@@ -1,10 +1,10 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import StandardLayout from '@components/general/Layouts/StandardLayout.native';
+import StandardLayout from '@components/general/layouts/standard-layout';
 import { NavigationHeader } from '@navigation/index';
 import { AuthScreenEnum } from '@utils/custom-enums';
-import { Dropdown } from '@components/general/Dropdown';
-import { ScrollableList } from '@components/general/Lists';
+import { Dropdown } from '@components/general/dropdown';
+import { ScrollableList } from '@components/general/lists';
 import {
   SteamAchievementView,
   SteamAchievementDropdownTitle,
@@ -13,10 +13,10 @@ import {
 import Button from '@components/general/button/button';
 import { Condition, Spacing } from '@components/general';
 import { View } from 'react-native';
-import StyledText from '@components/general/Text/StyledText.native';
+import StyledText from '@components/general/text/styled-text';
 import { useGlobalAchievements } from './hooks';
 import { useReactNavigation } from '@navigation/hooks';
-import TextWithBackground from '@components/general/Text/TextWithBackground.native';
+import TextWithBackground from '@components/general/text/text-with-background';
 
 export const GlobalAchievements = () => {
   const { t } = useTranslation();
