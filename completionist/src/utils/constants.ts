@@ -1,6 +1,6 @@
 import { Dimensions } from 'react-native';
-import { GameKeyEnum } from './CustomEnums';
-import { LanguageType } from './CustomTypes';
+import { GameKeyEnum } from './custom-enums';
+import { LanguageType } from './custom-types';
 
 export const windowHeight = Dimensions.get('window').height;
 export const windowWidth = Dimensions.get('window').width;

@@ -4,7 +4,7 @@ import { GoogleSignin } from '@react-native-google-signin/google-signin';
 import { NavigationContainer } from '@react-navigation/native';
 import configureStore from '@redux/store';
 import config from '@utils/configs/config';
-import RootStackNavigator from '@screens/RootStackNavigator.native';
+import { RootStackNavigator } from '@screens/index';
 
 GoogleSignin.configure({
   webClientId: config.webClientId,

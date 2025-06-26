@@ -1,0 +1,13 @@
+import { useEffect } from 'react';
+import { useMainDispatch } from '@redux/hooks';
+
+export const usePlaySplashScreen = () => {
+  const { setShowSplashScreen } = useMainDispatch();
+  useEffect(() => {
+    const timerId = setTimeout(() => {
+      setShowSplashScreen(false);
+    }, 1500);
+
+    return () => clearTimeout(timerId);
+  }, []);
+};

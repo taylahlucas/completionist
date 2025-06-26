@@ -1,4 +1,4 @@
-import { AxiosErrorResponse, LoggerType } from '../CustomTypes';
+import { AxiosErrorResponse, LoggerType } from '../custom-types';
 
 interface LoggerProps {
   type?: LoggerType;

@@ -1,6 +1,5 @@
 import { Alert } from 'react-native';
 import i18next from 'i18next';
-import { AxiosErrorResponse, UserResponse } from '@utils/CustomTypes';
 import {
   ChangePwProps,
   CreatePaymentProps,
@@ -9,8 +8,8 @@ import {
   SendEmailProps,
   SteamAchievementsProps,
   SteamAchievementsReturnType,
-} from './EndpointInterfaces.native';
-import authInterceptor from './authInterceptor';
+} from './endpoint-interfaces';
+import authInterceptor from './auth-interceptor';
 import {
   baseUrl,
   getUserByUserIdUrl,
@@ -24,12 +23,14 @@ import {
   getGameDataUrl,
 } from '@data/api/urls';
 import {
+  requestCodes,
+  AxiosErrorResponse,
+  UserResponse,
   GameContentItem,
   SteamAchievementItem,
   SteamProfile,
   User,
-} from '@utils/CustomInterfaces';
-import { requestCodes } from '@utils/constants';
+} from '@utils/index';
 
 export const getUserByUserId = async ({
   userId,
