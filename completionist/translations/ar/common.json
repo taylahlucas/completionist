@@ -296,12 +296,12 @@
       "categories": {
         "quests": {
           "mainQuests": "المهام الرئيسية",
-          "secondaryQuests": "المهام الثانوية",
+          "secondaryQuests": "أسئلة ثانوية",
           "contracts": "العقود",
-          "treasureHunts": "يطارد الكنز"
+          "treasureHunts": "البحث عن الكنز"
         },
         "collectables": {
-          "diagrams": "الرسوم البيانية"
+          "diagrams": "المخططات"
         },
         "locations": {
           "main": "رئيسي"

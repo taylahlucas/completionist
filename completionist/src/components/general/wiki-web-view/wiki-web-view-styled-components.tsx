@@ -5,7 +5,7 @@ import {
   isSmallScreen,
   SMALL_PADDING,
 } from '@styles/global';
-import { IconButton } from '../';
+import { IconButton } from '../icon';
 
 export const WikiWebViewContainer = styled.View`
   position: absolute;

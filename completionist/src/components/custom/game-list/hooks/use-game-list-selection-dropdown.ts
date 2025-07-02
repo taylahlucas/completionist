@@ -38,6 +38,7 @@ export const useGameListSelectionDropdown = () => {
           lang: user.settings.lang,
         }).then(response => {
           const gameData = getMappedGameData(response);
+          // TODO: Find a better way to do this
           setGameContent(gameData);
           navigateToGame(game);
         });

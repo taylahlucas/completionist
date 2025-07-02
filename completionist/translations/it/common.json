@@ -204,7 +204,7 @@
           "repeatableQuests": "Missioni Ripetibili"
         },
         "collectables": {
-          "bobbleheads": "Bobblehead",
+          "bobbleheads": "Bobbleheads",
           "uniqueArmor": "Armatura Unica",
           "uniqueWeapons": "Armi Uniche"
         },
@@ -213,16 +213,16 @@
         },
         "miscellaneous": {
           "holotapes": "Holotapes",
-          "notes": "Note",
+          "notes": "Appunti",
           "skillBooks": "Libri di Abilità"
         }
       },
       "dlc": {
         "brokenSteel": "Acciaio Rotto",
-        "mothershipZeta": "Mothership Zeta",
+        "mothershipZeta": "Nave madre Zeta",
         "operationAnchorage": "Operazione: Anchorage",
-        "pointLookout": "Point Lookout",
-        "thePitt": "The Pitt"
+        "pointLookout": "Punto di vedetta",
+        "thePitt": "Il Pitt"
       }
     },
     "fallout4": {
@@ -230,7 +230,7 @@
       "categories": {
         "quests": {
           "mainQuests": "Missioni Principali",
-          "factionQuests": "Missioni delle Fazioni",
+          "factionQuests": "Missioni di Fazione",
           "sideQuests": "Missioni Secondarie"
         },
         "collectables": {
@@ -243,14 +243,14 @@
           "main": "Principale"
         },
         "miscellaneous": {
-          "holotapes": "Holotapes"
+          "holotapes": "Olonastri"
         }
       },
       "dlc": {
         "automatron": "Automatron",
-        "farHarbor": "Far Harbor",
-        "nukaWorld": "Nuka-World",
-        "vaultTecWorkshop": "Vault-Tec Workshop"
+        "farHarbor": "Porto Lontano",
+        "nukaWorld": "Mondo Nuka",
+        "vaultTecWorkshop": "Workshop Vault-Tec"
       }
     },
     "skyrim": {
@@ -258,22 +258,22 @@
       "categories": {
         "quests": {
           "mainQuests": "Missioni Principali",
-          "factionQuests": "Missioni delle Fazioni",
+          "factionQuests": "Missioni di Fazione",
           "civilWar": "Guerra Civile",
           "daedricQuests": "Missioni Daedriche",
-          "dungeonQuests": "Missioni delle Cripte",
+          "dungeonQuests": "Missioni nei dungeon",
           "miscellaneousQuests": "Missioni Varie",
-          "bountyQuests": "Missioni di Taglie",
+          "bountyQuests": "Missioni di ricompensa",
           "globalQuests": "Missioni Globali"
         },
         "collectables": {
-          "dragonPriestMasks": "Maschere dei Sacerdoti del Drago",
-          "daedricArtefacts": "Artefatti Daedrici",
+          "dragonPriestMasks": "Maschere del Sacerdote Drago",
+          "daedricArtefacts": "Manufatti Daedrici",
           "bugInAJar": "Insetto in un Barattolo",
-          "shouts": "Urli",
+          "shouts": "Urla",
           "uniqueArmorSets": "Set di Armature Uniche",
           "uniqueWeapons": "Armi Uniche",
-          "shrines": "Santuarî",
+          "shrines": "Santuari",
           "stones": "Pietre"
         },
         "locations": {
@@ -281,14 +281,14 @@
         },
         "miscellaneous": {
           "books": "Libri",
-          "spellTomes": "Tomi degli Incantesimi",
-          "journals": "Diari"
+          "spellTomes": "Tomi di Incantesimi",
+          "journals": "Riviste"
         }
       },
       "dlc": {
         "dawnguard": "Dawnguard",
-        "dragonborn": "Dragonborn",
-        "hearthfire": "Hearthfire"
+        "dragonborn": "Sangue di Drago",
+        "hearthfire": "Focolare"
       }
     },
     "witcher3": {
@@ -298,7 +298,7 @@
           "mainQuests": "Missioni Principali",
           "secondaryQuests": "Missioni Secondarie",
           "contracts": "Contratti",
-          "treasureHunts": "Caccia al Tesoro"
+          "treasureHunts": "Cacce al tesoro"
         },
         "collectables": {
           "diagrams": "Diagrammi"
@@ -308,8 +308,8 @@
         }
       },
       "dlc": {
-        "bloodAndWine": "Blood And Wine",
-        "heartsOfStone": "Hearts Of Stone"
+        "bloodAndWine": "Sangue E Vino",
+        "heartsOfStone": "Cuori Di Pietra"
       }
     }
   }

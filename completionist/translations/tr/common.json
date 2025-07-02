@@ -296,7 +296,7 @@
       "categories": {
         "quests": {
           "mainQuests": "Ana Görevler",
-          "secondaryQuests": "Yan Görevler",
+          "secondaryQuests": "Missões Secundárias",
           "contracts": "Sözleşmeler",
           "treasureHunts": "Hazine Avları"
         },
@@ -308,8 +308,8 @@
         }
       },
       "dlc": {
-        "bloodAndWine": "Blood And Wine",
-        "heartsOfStone": "Hearts Of Stone"
+        "bloodAndWine": "Kan ve Şarap",
+        "heartsOfStone": "Taş Kalpler"
       }
     }
   }

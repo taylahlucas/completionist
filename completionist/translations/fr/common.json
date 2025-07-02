@@ -204,7 +204,7 @@
           "repeatableQuests": "Quêtes répétables"
         },
         "collectables": {
-          "bobbleheads": "Figurines à pompon",
+          "bobbleheads": "Figurines à pompons",
           "uniqueArmor": "Armure unique",
           "uniqueWeapons": "Armes uniques"
         },
@@ -213,15 +213,15 @@
         },
         "miscellaneous": {
           "holotapes": "Holobandes",
-          "notes": "Notes",
+          "notes": "Remarques",
           "skillBooks": "Livres de compétences"
         }
       },
       "dlc": {
         "brokenSteel": "Acier brisé",
         "mothershipZeta": "Vaisseau-mère Zeta",
-        "operationAnchorage": "Opération : Anchorage",
-        "pointLookout": "Point Lookout",
+        "operationAnchorage": "Opération : Ancrage",
+        "pointLookout": "Point d'observation",
         "thePitt": "Le Pitt"
       }
     },
@@ -234,8 +234,8 @@
           "sideQuests": "Quêtes secondaires"
         },
         "collectables": {
-          "bobbleheads": "Figurines à pompon",
-          "magazines": "Magazines",
+          "bobbleheads": "Figurines à pompons",
+          "magazines": "Les magazines",
           "uniqueArmor": "Armure unique",
           "uniqueWeapons": "Armes uniques"
         },
@@ -248,8 +248,8 @@
       },
       "dlc": {
         "automatron": "Automatron",
-        "farHarbor": "Far Harbor",
-        "nukaWorld": "Nuka-World",
+        "farHarbor": "Port lointain",
+        "nukaWorld": "Nuka-Monde",
         "vaultTecWorkshop": "Atelier Vault-Tec"
       }
     },
@@ -260,21 +260,21 @@
           "mainQuests": "Quêtes principales",
           "factionQuests": "Quêtes de faction",
           "civilWar": "Guerre civile",
-          "daedricQuests": "Quêtes daedriques",
+          "daedricQuests": "Misiones daédricas",
           "dungeonQuests": "Quêtes de donjon",
           "miscellaneousQuests": "Quêtes diverses",
           "bountyQuests": "Quêtes de prime",
-          "globalQuests": "Quêtes mondiales"
+          "globalQuests": "Misiones globales"
         },
         "collectables": {
-          "dragonPriestMasks": "Masques de prêtre-dragon",
-          "daedricArtefacts": "Artefacts daedriques",
-          "bugInAJar": "Insecte en bocal",
-          "shouts": "Cri de dragon",
+          "dragonPriestMasks": "Máscaras de sacerdote dragón",
+          "daedricArtefacts": "Artefacts Daedra",
+          "bugInAJar": "Error en un frasco",
+          "shouts": "Des cris",
           "uniqueArmorSets": "Ensembles d'armures uniques",
           "uniqueWeapons": "Armes uniques",
           "shrines": "Sanctuaires",
-          "stones": "Pierres"
+          "stones": "piedras"
         },
         "locations": {
           "main": "Principal"
@@ -286,9 +286,9 @@
         }
       },
       "dlc": {
-        "dawnguard": "Garde de l'Aube",
-        "dragonborn": "Enfant de dragon",
-        "hearthfire": "Hearthfire"
+        "dawnguard": "guardia del alba",
+        "dragonborn": "nacido de dragón",
+        "hearthfire": "fuego de hogar"
       }
     },
     "witcher3": {
@@ -301,15 +301,15 @@
           "treasureHunts": "Chasses au trésor"
         },
         "collectables": {
-          "diagrams": "Schémas"
+          "diagrams": "Diagrammes"
         },
         "locations": {
           "main": "Principal"
         }
       },
       "dlc": {
-        "bloodAndWine": "Sang et Vin",
-        "heartsOfStone": "Cœurs de Pierre"
+        "bloodAndWine": "Du sang et du vin",
+        "heartsOfStone": "Coeurs de pierre"
       }
     }
   }

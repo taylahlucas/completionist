@@ -200,7 +200,7 @@
           "tutorialQuests": "Tutorial-Quests",
           "mainQuests": "Hauptquests",
           "sideQuests": "Nebenquests",
-          "unmarkedQuests": "Unmarkierte Quests",
+          "unmarkedQuests": "Nicht markierte Quests",
           "repeatableQuests": "Wiederholbare Quests"
         },
         "collectables": {
@@ -213,16 +213,16 @@
         },
         "miscellaneous": {
           "holotapes": "Holobänder",
-          "notes": "Notizen",
+          "notes": "Anmerkungen",
           "skillBooks": "Fertigkeitsbücher"
         }
       },
       "dlc": {
-        "brokenSteel": "Broken Steel",
-        "mothershipZeta": "Mothership Zeta",
+        "brokenSteel": "Gebrochener Stahl",
+        "mothershipZeta": "Mutterschiff Zeta",
         "operationAnchorage": "Operation: Anchorage",
-        "pointLookout": "Point Lookout",
-        "thePitt": "The Pitt"
+        "pointLookout": "Aussichtspunkt",
+        "thePitt": "Der Pitt"
       }
     },
     "fallout4": {
@@ -235,7 +235,7 @@
         },
         "collectables": {
           "bobbleheads": "Wackelköpfe",
-          "magazines": "Magazine",
+          "magazines": "Zeitschriften",
           "uniqueArmor": "Einzigartige Rüstung",
           "uniqueWeapons": "Einzigartige Waffen"
         },
@@ -249,7 +249,7 @@
       "dlc": {
         "automatron": "Automatron",
         "farHarbor": "Far Harbor",
-        "nukaWorld": "Nuka-World",
+        "nukaWorld": "Nuka-Welt",
         "vaultTecWorkshop": "Vault-Tec Werkstatt"
       }
     },
@@ -263,32 +263,32 @@
           "daedricQuests": "Daedrische Quests",
           "dungeonQuests": "Dungeon-Quests",
           "miscellaneousQuests": "Verschiedene Quests",
-          "bountyQuests": "Kopfgeld-Quests",
+          "bountyQuests": "Kopfgeldquests",
           "globalQuests": "Globale Quests"
         },
         "collectables": {
           "dragonPriestMasks": "Drachenpriester-Masken",
           "daedricArtefacts": "Daedrische Artefakte",
           "bugInAJar": "Käfer im Glas",
-          "shouts": "Drachenrufe",
+          "shouts": "Geschrei",
           "uniqueArmorSets": "Einzigartige Rüstungssets",
           "uniqueWeapons": "Einzigartige Waffen",
           "shrines": "Schreine",
           "stones": "Steine"
         },
         "locations": {
-          "main": "Hauptorte"
+          "main": "Hauptsächlich"
         },
         "miscellaneous": {
           "books": "Bücher",
           "spellTomes": "Zauberbücher",
-          "journals": "Tagebücher"
+          "journals": "Zeitschriften"
         }
       },
       "dlc": {
-        "dawnguard": "Dämmerwacht",
-        "dragonborn": "Drachenblut",
-        "hearthfire": "Hearthfire"
+        "dawnguard": "Dawnguard",
+        "dragonborn": "Drachengeborenes",
+        "hearthfire": "Herdfeuer"
       }
     },
     "witcher3": {
@@ -296,20 +296,20 @@
       "categories": {
         "quests": {
           "mainQuests": "Hauptquests",
-          "secondaryQuests": "Nebenquests",
-          "contracts": "Aufträge",
+          "secondaryQuests": "Sekundäre Quests",
+          "contracts": "Verträge",
           "treasureHunts": "Schatzsuchen"
         },
         "collectables": {
-          "diagrams": "Baupläne"
+          "diagrams": "Diagramme"
         },
         "locations": {
-          "main": "Hauptorte"
+          "main": "Hauptsächlich"
         }
       },
       "dlc": {
         "bloodAndWine": "Blut und Wein",
-        "heartsOfStone": "Herz aus Stein"
+        "heartsOfStone": "Herzen aus Stein"
       }
     }
   }

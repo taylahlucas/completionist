@@ -230,27 +230,27 @@
       "categories": {
         "quests": {
           "mainQuests": "主线任务",
-          "factionQuests": "阵营任务",
+          "factionQuests": "派系任务",
           "sideQuests": "支线任务"
         },
         "collectables": {
           "bobbleheads": "摇头娃娃",
           "magazines": "杂志",
-          "uniqueArmor": "独特盔甲",
-          "uniqueWeapons": "独特武器"
+          "uniqueArmor": "独特的盔甲",
+          "uniqueWeapons": "独特的武器"
         },
         "locations": {
-          "main": "主区域"
+          "main": "主要的"
         },
         "miscellaneous": {
           "holotapes": "全息带"
         }
       },
       "dlc": {
-        "automatron": "自动机器人",
+        "automatron": "自动机",
         "farHarbor": "远港",
-        "nukaWorld": "核世界",
-        "vaultTecWorkshop": "Vault-Tec工作坊"
+        "nukaWorld": "核子世界",
+        "vaultTecWorkshop": "避难所科技工作坊"
       }
     },
     "skyrim": {
@@ -258,9 +258,9 @@
       "categories": {
         "quests": {
           "mainQuests": "主线任务",
-          "factionQuests": "阵营任务",
+          "factionQuests": "派系任务",
           "civilWar": "内战",
-          "daedricQuests": "戴德里克任务",
+          "daedricQuests": "魔族任务",
           "dungeonQuests": "地下城任务",
           "miscellaneousQuests": "杂项任务",
           "bountyQuests": "赏金任务",
@@ -268,27 +268,27 @@
         },
         "collectables": {
           "dragonPriestMasks": "龙祭司面具",
-          "daedricArtefacts": "戴德里克遗物",
-          "bugInAJar": "瓶中的虫子",
-          "shouts": "喊声",
-          "uniqueArmorSets": "独特盔甲套装",
-          "uniqueWeapons": "独特武器",
-          "shrines": "神殿",
-          "stones": "石碑"
+          "daedricArtefacts": "魔族神器",
+          "bugInAJar": "罐子里的虫子",
+          "shouts": "喊叫声",
+          "uniqueArmorSets": "独特的护甲套装",
+          "uniqueWeapons": "独特的武器",
+          "shrines": "神社",
+          "stones": "石头"
         },
         "locations": {
-          "main": "主区域"
+          "main": "主要的"
         },
         "miscellaneous": {
-          "books": "书籍",
-          "spellTomes": "法术典籍",
-          "journals": "日志"
+          "books": "图书",
+          "spellTomes": "法术书",
+          "journals": "期刊"
         }
       },
       "dlc": {
-        "dawnguard": "曙光卫队",
+        "dawnguard": "黎明守卫",
         "dragonborn": "龙裔",
-        "hearthfire": "火炉"
+        "hearthfire": "炉火"
       }
     },
     "witcher3": {
@@ -296,15 +296,15 @@
       "categories": {
         "quests": {
           "mainQuests": "主线任务",
-          "secondaryQuests": "支线任务",
-          "contracts": "契约任务",
-          "treasureHunts": "宝藏狩猎"
+          "secondaryQuests": "次要任务",
+          "contracts": "合约",
+          "treasureHunts": "寻宝"
         },
         "collectables": {
-          "diagrams": "图纸"
+          "diagrams": "图表"
         },
         "locations": {
-          "main": "主区域"
+          "main": "主要的"
         }
       },
       "dlc": {

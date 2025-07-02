@@ -174,7 +174,7 @@
       "title": "Elden Ring",
       "categories": {
         "quests": {
-          "mainQuests": "Missões principais"
+          "mainQuests": "Missões Principais"
         },
         "collectables": {
           "legendaryWeapons": "Armas Lendárias",
@@ -198,8 +198,8 @@
       "categories": {
         "quests": {
           "tutorialQuests": "Missões de tutorial",
-          "mainQuests": "Missões principais",
-          "sideQuests": "Missões secundárias",
+          "mainQuests": "Missões Principais",
+          "sideQuests": "Missões Secundárias",
           "unmarkedQuests": "Missões não marcadas",
           "repeatableQuests": "Missões repetíveis"
         },
@@ -229,35 +229,35 @@
       "title": "Fallout 4",
       "categories": {
         "quests": {
-          "mainQuests": "Missões principais",
-          "factionQuests": "Missões de facções",
-          "sideQuests": "Missões secundárias"
+          "mainQuests": "Missões Principais",
+          "factionQuests": "Missões de Facção",
+          "sideQuests": "Missões Secundárias"
         },
         "collectables": {
           "bobbleheads": "Bobbleheads",
           "magazines": "Revistas",
-          "uniqueArmor": "Armadura única",
-          "uniqueWeapons": "Armas únicas"
+          "uniqueArmor": "Armadura Única",
+          "uniqueWeapons": "Armas Únicas"
         },
         "locations": {
           "main": "Principal"
         },
         "miscellaneous": {
-          "holotapes": "Holofitas"
+          "holotapes": "Holotapes"
         }
       },
       "dlc": {
-        "automatron": "Automatron",
-        "farHarbor": "Far Harbor",
-        "nukaWorld": "Nuka-World",
-        "vaultTecWorkshop": "Vault-Tec Workshop"
+        "automatron": "Autômato",
+        "farHarbor": "Porto Distante",
+        "nukaWorld": "Nuka-Mundo",
+        "vaultTecWorkshop": "Oficina Vault-Tec"
       }
     },
     "skyrim": {
       "title": "Skyrim",
       "categories": {
         "quests": {
-          "mainQuests": "Missões principais",
+          "mainQuests": "Missões Principais",
           "factionQuests": "Missões de facções",
           "civilWar": "Guerra Civil",
           "daedricQuests": "Missões Daédricas",
@@ -295,10 +295,10 @@
       "title": "The Witcher 3: Wild Hunt",
       "categories": {
         "quests": {
-          "mainQuests": "Missões principais",
-          "secondaryQuests": "Missões secundárias",
+          "mainQuests": "Missões Principais",
+          "secondaryQuests": "Missões Secundárias",
           "contracts": "Contratos",
-          "treasureHunts": "Caçadas ao tesouro"
+          "treasureHunts": "Caça ao Tesouro"
         },
         "collectables": {
           "diagrams": "Diagramas"

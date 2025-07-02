@@ -235,12 +235,12 @@
         },
         "collectables": {
           "bobbleheads": "ボブルヘッド",
-          "magazines": "マガジン",
-          "uniqueArmor": "ユニークアーマー",
-          "uniqueWeapons": "ユニーク武器"
+          "magazines": "雑誌",
+          "uniqueArmor": "ユニークな鎧",
+          "uniqueWeapons": "ユニークな鎧"
         },
         "locations": {
-          "main": "メイン"
+          "main": "主要"
         },
         "miscellaneous": {
           "holotapes": "ホロテープ"
@@ -250,7 +250,7 @@
         "automatron": "オートマトロン",
         "farHarbor": "ファーハーバー",
         "nukaWorld": "ヌカ・ワールド",
-        "vaultTecWorkshop": "ヴォルト・テックワークショップ"
+        "vaultTecWorkshop": "Vault-Tecワークショップ"
       }
     },
     "skyrim": {
@@ -258,31 +258,31 @@
       "categories": {
         "quests": {
           "mainQuests": "メインクエスト",
-          "factionQuests": "ファクションクエスト",
+          "factionQuests": "派閥クエスト",
           "civilWar": "内戦",
-          "daedricQuests": "デイドリッククエスト",
+          "daedricQuests": "デイドラクエスト",
           "dungeonQuests": "ダンジョンクエスト",
           "miscellaneousQuests": "その他のクエスト",
-          "bountyQuests": "報酬クエスト",
+          "bountyQuests": "バウンティクエスト",
           "globalQuests": "グローバルクエスト"
         },
         "collectables": {
           "dragonPriestMasks": "ドラゴンプリーストのマスク",
-          "daedricArtefacts": "デイドリックアーティファクト",
+          "daedricArtefacts": "デイドラの遺物",
           "bugInAJar": "瓶の中の虫",
-          "shouts": "シャウト",
-          "uniqueArmorSets": "ユニーク防具セット",
-          "uniqueWeapons": "ユニーク武器",
-          "shrines": "神殿",
+          "shouts": "叫び声",
+          "uniqueArmorSets": "ユニークなアーマーセット",
+          "uniqueWeapons": "ユニークな武器",
+          "shrines": "神社",
           "stones": "石"
         },
         "locations": {
-          "main": "メイン"
+          "main": "主要"
         },
         "miscellaneous": {
           "books": "本",
-          "spellTomes": "呪文の書",
-          "journals": "日誌"
+          "spellTomes": "呪文の本",
+          "journals": "雑誌"
         }
       },
       "dlc": {
@@ -296,20 +296,20 @@
       "categories": {
         "quests": {
           "mainQuests": "メインクエスト",
-          "secondaryQuests": "サブクエスト",
+          "secondaryQuests": "二次クエスト",
           "contracts": "契約",
           "treasureHunts": "宝探し"
         },
         "collectables": {
-          "diagrams": "図面"
+          "diagrams": "図表"
         },
         "locations": {
-          "main": "メイン"
+          "main": "主要"
         }
       },
       "dlc": {
-        "bloodAndWine": "ブラッド・アンド・ワイン",
-        "heartsOfStone": "ハーツ・オブ・ストーン"
+        "bloodAndWine": "血とワイン",
+        "heartsOfStone": "ハート・オブ・ストーン"
       }
     }
   }

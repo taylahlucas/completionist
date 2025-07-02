@@ -232,27 +232,27 @@
           "categories": {
             "quests": {
               "mainQuests": "主线任务",
-              "factionQuests": "阵营任务",
+              "factionQuests": "派系任务",
               "sideQuests": "支线任务"
             },
             "collectables": {
               "bobbleheads": "摇头娃娃",
               "magazines": "杂志",
-              "uniqueArmor": "独特盔甲",
-              "uniqueWeapons": "独特武器"
+              "uniqueArmor": "独特的盔甲",
+              "uniqueWeapons": "独特的武器"
             },
             "locations": {
-              "main": "主区域"
+              "main": "主要的"
             },
             "miscellaneous": {
               "holotapes": "全息带"
             }
           },
           "dlc": {
-            "automatron": "自动机器人",
+            "automatron": "自动机",
             "farHarbor": "远港",
-            "nukaWorld": "核世界",
-            "vaultTecWorkshop": "Vault-Tec工作坊"
+            "nukaWorld": "核子世界",
+            "vaultTecWorkshop": "避难所科技工作坊"
           }
         },
         "skyrim": {
@@ -260,9 +260,9 @@
           "categories": {
             "quests": {
               "mainQuests": "主线任务",
-              "factionQuests": "阵营任务",
+              "factionQuests": "派系任务",
               "civilWar": "内战",
-              "daedricQuests": "戴德里克任务",
+              "daedricQuests": "魔族任务",
               "dungeonQuests": "地下城任务",
               "miscellaneousQuests": "杂项任务",
               "bountyQuests": "赏金任务",
@@ -270,27 +270,27 @@
             },
             "collectables": {
               "dragonPriestMasks": "龙祭司面具",
-              "daedricArtefacts": "戴德里克遗物",
-              "bugInAJar": "瓶中的虫子",
-              "shouts": "喊声",
-              "uniqueArmorSets": "独特盔甲套装",
-              "uniqueWeapons": "独特武器",
-              "shrines": "神殿",
-              "stones": "石碑"
+              "daedricArtefacts": "魔族神器",
+              "bugInAJar": "罐子里的虫子",
+              "shouts": "喊叫声",
+              "uniqueArmorSets": "独特的护甲套装",
+              "uniqueWeapons": "独特的武器",
+              "shrines": "神社",
+              "stones": "石头"
             },
             "locations": {
-              "main": "主区域"
+              "main": "主要的"
             },
             "miscellaneous": {
-              "books": "书籍",
-              "spellTomes": "法术典籍",
-              "journals": "日志"
+              "books": "图书",
+              "spellTomes": "法术书",
+              "journals": "期刊"
             }
           },
           "dlc": {
-            "dawnguard": "曙光卫队",
+            "dawnguard": "黎明守卫",
             "dragonborn": "龙裔",
-            "hearthfire": "火炉"
+            "hearthfire": "炉火"
           }
         },
         "witcher3": {
@@ -298,15 +298,15 @@
           "categories": {
             "quests": {
               "mainQuests": "主线任务",
-              "secondaryQuests": "支线任务",
-              "contracts": "契约任务",
-              "treasureHunts": "宝藏狩猎"
+              "secondaryQuests": "次要任务",
+              "contracts": "合约",
+              "treasureHunts": "寻宝"
             },
             "collectables": {
-              "diagrams": "图纸"
+              "diagrams": "图表"
             },
             "locations": {
-              "main": "主区域"
+              "main": "主要的"
             }
           },
           "dlc": {
@@ -934,7 +934,7 @@
           "categories": {
             "quests": {
               "mainQuests": "Ana Görevler",
-              "secondaryQuests": "Yan Görevler",
+              "secondaryQuests": "Missões Secundárias",
               "contracts": "Sözleşmeler",
               "treasureHunts": "Hazine Avları"
             },
@@ -946,8 +946,8 @@
             }
           },
           "dlc": {
-            "bloodAndWine": "Blood And Wine",
-            "heartsOfStone": "Hearts Of Stone"
+            "bloodAndWine": "Kan ve Şarap",
+            "heartsOfStone": "Taş Kalpler"
           }
         }
       }
@@ -1130,7 +1130,7 @@
           "title": "Elden Ring",
           "categories": {
             "quests": {
-              "mainQuests": "Missões principais"
+              "mainQuests": "Missões Principais"
             },
             "collectables": {
               "legendaryWeapons": "Armas Lendárias",
@@ -1154,8 +1154,8 @@
           "categories": {
             "quests": {
               "tutorialQuests": "Missões de tutorial",
-              "mainQuests": "Missões principais",
-              "sideQuests": "Missões secundárias",
+              "mainQuests": "Missões Principais",
+              "sideQuests": "Missões Secundárias",
               "unmarkedQuests": "Missões não marcadas",
               "repeatableQuests": "Missões repetíveis"
             },
@@ -1185,35 +1185,35 @@
           "title": "Fallout 4",
           "categories": {
             "quests": {
-              "mainQuests": "Missões principais",
-              "factionQuests": "Missões de facções",
-              "sideQuests": "Missões secundárias"
+              "mainQuests": "Missões Principais",
+              "factionQuests": "Missões de Facção",
+              "sideQuests": "Missões Secundárias"
             },
             "collectables": {
               "bobbleheads": "Bobbleheads",
               "magazines": "Revistas",
-              "uniqueArmor": "Armadura única",
-              "uniqueWeapons": "Armas únicas"
+              "uniqueArmor": "Armadura Única",
+              "uniqueWeapons": "Armas Únicas"
             },
             "locations": {
               "main": "Principal"
             },
             "miscellaneous": {
-              "holotapes": "Holofitas"
+              "holotapes": "Holotapes"
             }
           },
           "dlc": {
-            "automatron": "Automatron",
-            "farHarbor": "Far Harbor",
-            "nukaWorld": "Nuka-World",
-            "vaultTecWorkshop": "Vault-Tec Workshop"
+            "automatron": "Autômato",
+            "farHarbor": "Porto Distante",
+            "nukaWorld": "Nuka-Mundo",
+            "vaultTecWorkshop": "Oficina Vault-Tec"
           }
         },
         "skyrim": {
           "title": "Skyrim",
           "categories": {
             "quests": {
-              "mainQuests": "Missões principais",
+              "mainQuests": "Missões Principais",
               "factionQuests": "Missões de facções",
               "civilWar": "Guerra Civil",
               "daedricQuests": "Missões Daédricas",
@@ -1251,10 +1251,10 @@
           "title": "The Witcher 3: Wild Hunt",
           "categories": {
             "quests": {
-              "mainQuests": "Missões principais",
-              "secondaryQuests": "Missões secundárias",
+              "mainQuests": "Missões Principais",
+              "secondaryQuests": "Missões Secundárias",
               "contracts": "Contratos",
-              "treasureHunts": "Caçadas ao tesouro"
+              "treasureHunts": "Caça ao Tesouro"
             },
             "collectables": {
               "diagrams": "Diagramas"
@@ -1509,12 +1509,12 @@
             },
             "collectables": {
               "bobbleheads": "ボブルヘッド",
-              "magazines": "マガジン",
-              "uniqueArmor": "ユニークアーマー",
-              "uniqueWeapons": "ユニーク武器"
+              "magazines": "雑誌",
+              "uniqueArmor": "ユニークな鎧",
+              "uniqueWeapons": "ユニークな鎧"
             },
             "locations": {
-              "main": "メイン"
+              "main": "主要"
             },
             "miscellaneous": {
               "holotapes": "ホロテープ"
@@ -1524,7 +1524,7 @@
             "automatron": "オートマトロン",
             "farHarbor": "ファーハーバー",
             "nukaWorld": "ヌカ・ワールド",
-            "vaultTecWorkshop": "ヴォルト・テックワークショップ"
+            "vaultTecWorkshop": "Vault-Tecワークショップ"
           }
         },
         "skyrim": {
@@ -1532,31 +1532,31 @@
           "categories": {
             "quests": {
               "mainQuests": "メインクエスト",
-              "factionQuests": "ファクションクエスト",
+              "factionQuests": "派閥クエスト",
               "civilWar": "内戦",
-              "daedricQuests": "デイドリッククエスト",
+              "daedricQuests": "デイドラクエスト",
               "dungeonQuests": "ダンジョンクエスト",
               "miscellaneousQuests": "その他のクエスト",
-              "bountyQuests": "報酬クエスト",
+              "bountyQuests": "バウンティクエスト",
               "globalQuests": "グローバルクエスト"
             },
             "collectables": {
               "dragonPriestMasks": "ドラゴンプリーストのマスク",
-              "daedricArtefacts": "デイドリックアーティファクト",
+              "daedricArtefacts": "デイドラの遺物",
               "bugInAJar": "瓶の中の虫",
-              "shouts": "シャウト",
-              "uniqueArmorSets": "ユニーク防具セット",
-              "uniqueWeapons": "ユニーク武器",
-              "shrines": "神殿",
+              "shouts": "叫び声",
+              "uniqueArmorSets": "ユニークなアーマーセット",
+              "uniqueWeapons": "ユニークな武器",
+              "shrines": "神社",
               "stones": "石"
             },
             "locations": {
-              "main": "メイン"
+              "main": "主要"
             },
             "miscellaneous": {
               "books": "本",
-              "spellTomes": "呪文の書",
-              "journals": "日誌"
+              "spellTomes": "呪文の本",
+              "journals": "雑誌"
             }
           },
           "dlc": {
@@ -1570,20 +1570,20 @@
           "categories": {
             "quests": {
               "mainQuests": "メインクエスト",
-              "secondaryQuests": "サブクエスト",
+              "secondaryQuests": "二次クエスト",
               "contracts": "契約",
               "treasureHunts": "宝探し"
             },
             "collectables": {
-              "diagrams": "図面"
+              "diagrams": "図表"
             },
             "locations": {
-              "main": "メイン"
+              "main": "主要"
             }
           },
           "dlc": {
-            "bloodAndWine": "ブラッド・アンド・ワイン",
-            "heartsOfStone": "ハーツ・オブ・ストーン"
+            "bloodAndWine": "血とワイン",
+            "heartsOfStone": "ハート・オブ・ストーン"
           }
         }
       }
@@ -1796,7 +1796,7 @@
               "repeatableQuests": "Missioni Ripetibili"
             },
             "collectables": {
-              "bobbleheads": "Bobblehead",
+              "bobbleheads": "Bobbleheads",
               "uniqueArmor": "Armatura Unica",
               "uniqueWeapons": "Armi Uniche"
             },
@@ -1805,16 +1805,16 @@
             },
             "miscellaneous": {
               "holotapes": "Holotapes",
-              "notes": "Note",
+              "notes": "Appunti",
               "skillBooks": "Libri di Abilità"
             }
           },
           "dlc": {
             "brokenSteel": "Acciaio Rotto",
-            "mothershipZeta": "Mothership Zeta",
+            "mothershipZeta": "Nave madre Zeta",
             "operationAnchorage": "Operazione: Anchorage",
-            "pointLookout": "Point Lookout",
-            "thePitt": "The Pitt"
+            "pointLookout": "Punto di vedetta",
+            "thePitt": "Il Pitt"
           }
         },
         "fallout4": {
@@ -1822,7 +1822,7 @@
           "categories": {
             "quests": {
               "mainQuests": "Missioni Principali",
-              "factionQuests": "Missioni delle Fazioni",
+              "factionQuests": "Missioni di Fazione",
               "sideQuests": "Missioni Secondarie"
             },
             "collectables": {
@@ -1835,14 +1835,14 @@
               "main": "Principale"
             },
             "miscellaneous": {
-              "holotapes": "Holotapes"
+              "holotapes": "Olonastri"
             }
           },
           "dlc": {
             "automatron": "Automatron",
-            "farHarbor": "Far Harbor",
-            "nukaWorld": "Nuka-World",
-            "vaultTecWorkshop": "Vault-Tec Workshop"
+            "farHarbor": "Porto Lontano",
+            "nukaWorld": "Mondo Nuka",
+            "vaultTecWorkshop": "Workshop Vault-Tec"
           }
         },
         "skyrim": {
@@ -1850,22 +1850,22 @@
           "categories": {
             "quests": {
               "mainQuests": "Missioni Principali",
-              "factionQuests": "Missioni delle Fazioni",
+              "factionQuests": "Missioni di Fazione",
               "civilWar": "Guerra Civile",
               "daedricQuests": "Missioni Daedriche",
-              "dungeonQuests": "Missioni delle Cripte",
+              "dungeonQuests": "Missioni nei dungeon",
               "miscellaneousQuests": "Missioni Varie",
-              "bountyQuests": "Missioni di Taglie",
+              "bountyQuests": "Missioni di ricompensa",
               "globalQuests": "Missioni Globali"
             },
             "collectables": {
-              "dragonPriestMasks": "Maschere dei Sacerdoti del Drago",
-              "daedricArtefacts": "Artefatti Daedrici",
+              "dragonPriestMasks": "Maschere del Sacerdote Drago",
+              "daedricArtefacts": "Manufatti Daedrici",
               "bugInAJar": "Insetto in un Barattolo",
-              "shouts": "Urli",
+              "shouts": "Urla",
               "uniqueArmorSets": "Set di Armature Uniche",
               "uniqueWeapons": "Armi Uniche",
-              "shrines": "Santuarî",
+              "shrines": "Santuari",
               "stones": "Pietre"
             },
             "locations": {
@@ -1873,14 +1873,14 @@
             },
             "miscellaneous": {
               "books": "Libri",
-              "spellTomes": "Tomi degli Incantesimi",
-              "journals": "Diari"
+              "spellTomes": "Tomi di Incantesimi",
+              "journals": "Riviste"
             }
           },
           "dlc": {
             "dawnguard": "Dawnguard",
-            "dragonborn": "Dragonborn",
-            "hearthfire": "Hearthfire"
+            "dragonborn": "Sangue di Drago",
+            "hearthfire": "Focolare"
           }
         },
         "witcher3": {
@@ -1890,7 +1890,7 @@
               "mainQuests": "Missioni Principali",
               "secondaryQuests": "Missioni Secondarie",
               "contracts": "Contratti",
-              "treasureHunts": "Caccia al Tesoro"
+              "treasureHunts": "Cacce al tesoro"
             },
             "collectables": {
               "diagrams": "Diagrammi"
@@ -1900,8 +1900,8 @@
             }
           },
           "dlc": {
-            "bloodAndWine": "Blood And Wine",
-            "heartsOfStone": "Hearts Of Stone"
+            "bloodAndWine": "Sangue E Vino",
+            "heartsOfStone": "Cuori Di Pietra"
           }
         }
       }
@@ -2750,7 +2750,7 @@
               "repeatableQuests": "Quêtes répétables"
             },
             "collectables": {
-              "bobbleheads": "Figurines à pompon",
+              "bobbleheads": "Figurines à pompons",
               "uniqueArmor": "Armure unique",
               "uniqueWeapons": "Armes uniques"
             },
@@ -2759,15 +2759,15 @@
             },
             "miscellaneous": {
               "holotapes": "Holobandes",
-              "notes": "Notes",
+              "notes": "Remarques",
               "skillBooks": "Livres de compétences"
             }
           },
           "dlc": {
             "brokenSteel": "Acier brisé",
             "mothershipZeta": "Vaisseau-mère Zeta",
-            "operationAnchorage": "Opération : Anchorage",
-            "pointLookout": "Point Lookout",
+            "operationAnchorage": "Opération : Ancrage",
+            "pointLookout": "Point d'observation",
             "thePitt": "Le Pitt"
           }
         },
@@ -2780,8 +2780,8 @@
               "sideQuests": "Quêtes secondaires"
             },
             "collectables": {
-              "bobbleheads": "Figurines à pompon",
-              "magazines": "Magazines",
+              "bobbleheads": "Figurines à pompons",
+              "magazines": "Les magazines",
               "uniqueArmor": "Armure unique",
               "uniqueWeapons": "Armes uniques"
             },
@@ -2794,8 +2794,8 @@
           },
           "dlc": {
             "automatron": "Automatron",
-            "farHarbor": "Far Harbor",
-            "nukaWorld": "Nuka-World",
+            "farHarbor": "Port lointain",
+            "nukaWorld": "Nuka-Monde",
             "vaultTecWorkshop": "Atelier Vault-Tec"
           }
         },
@@ -2806,21 +2806,21 @@
               "mainQuests": "Quêtes principales",
               "factionQuests": "Quêtes de faction",
               "civilWar": "Guerre civile",
-              "daedricQuests": "Quêtes daedriques",
+              "daedricQuests": "Misiones daédricas",
               "dungeonQuests": "Quêtes de donjon",
               "miscellaneousQuests": "Quêtes diverses",
               "bountyQuests": "Quêtes de prime",
-              "globalQuests": "Quêtes mondiales"
+              "globalQuests": "Misiones globales"
             },
             "collectables": {
-              "dragonPriestMasks": "Masques de prêtre-dragon",
-              "daedricArtefacts": "Artefacts daedriques",
-              "bugInAJar": "Insecte en bocal",
-              "shouts": "Cri de dragon",
+              "dragonPriestMasks": "Máscaras de sacerdote dragón",
+              "daedricArtefacts": "Artefacts Daedra",
+              "bugInAJar": "Error en un frasco",
+              "shouts": "Des cris",
               "uniqueArmorSets": "Ensembles d'armures uniques",
               "uniqueWeapons": "Armes uniques",
               "shrines": "Sanctuaires",
-              "stones": "Pierres"
+              "stones": "piedras"
             },
             "locations": {
               "main": "Principal"
@@ -2832,9 +2832,9 @@
             }
           },
           "dlc": {
-            "dawnguard": "Garde de l'Aube",
-            "dragonborn": "Enfant de dragon",
-            "hearthfire": "Hearthfire"
+            "dawnguard": "guardia del alba",
+            "dragonborn": "nacido de dragón",
+            "hearthfire": "fuego de hogar"
           }
         },
         "witcher3": {
@@ -2847,15 +2847,15 @@
               "treasureHunts": "Chasses au trésor"
             },
             "collectables": {
-              "diagrams": "Schémas"
+              "diagrams": "Diagrammes"
             },
             "locations": {
               "main": "Principal"
             }
           },
           "dlc": {
-            "bloodAndWine": "Sang et Vin",
-            "heartsOfStone": "Cœurs de Pierre"
+            "bloodAndWine": "Du sang et du vin",
+            "heartsOfStone": "Coeurs de pierre"
           }
         }
       }
@@ -3061,10 +3061,10 @@
           "title": "Fallout 3",
           "categories": {
             "quests": {
-              "tutorialQuests": "Misiones de tutorial",
+              "tutorialQuests": "Misiones tutoriales",
               "mainQuests": "Misiones principales",
               "sideQuests": "Misiones secundarias",
-              "unmarkedQuests": "Misiones no marcadas",
+              "unmarkedQuests": "Misiones sin marcar",
               "repeatableQuests": "Misiones repetibles"
             },
             "collectables": {
@@ -3084,9 +3084,9 @@
           "dlc": {
             "brokenSteel": "Acero roto",
             "mothershipZeta": "Nave nodriza Zeta",
-            "operationAnchorage": "Operación: Anchorage",
+            "operationAnchorage": "Operación: Anclaje",
             "pointLookout": "Punto Lookout",
-            "thePitt": "The Pitt"
+            "thePitt": "La Pitt"
           }
         },
         "fallout4": {
@@ -3098,7 +3098,7 @@
               "sideQuests": "Misiones secundarias"
             },
             "collectables": {
-              "bobbleheads": "Muñecos cabezones",
+              "bobbleheads": "Muñecos",
               "magazines": "Revistas",
               "uniqueArmor": "Armadura única",
               "uniqueWeapons": "Armas únicas"
@@ -3111,9 +3111,9 @@
             }
           },
           "dlc": {
-            "automatron": "Automatron",
-            "farHarbor": "Far Harbor",
-            "nukaWorld": "Nuka-World",
+            "automatron": "Autómata",
+            "farHarbor": "Puerto lejano",
+            "nukaWorld": "Nuka-Mundo",
             "vaultTecWorkshop": "Taller Vault-Tec"
           }
         },
@@ -3126,33 +3126,33 @@
               "civilWar": "Guerra civil",
               "daedricQuests": "Misiones daédricas",
               "dungeonQuests": "Misiones de mazmorras",
-              "miscellaneousQuests": "Misiones misceláneas",
-              "bountyQuests": "Misiones de recompensas",
+              "miscellaneousQuests": "Misiones varias",
+              "bountyQuests": "Misiones de recompensa",
               "globalQuests": "Misiones globales"
             },
             "collectables": {
-              "dragonPriestMasks": "Máscaras de sacerdotes dragón",
+              "dragonPriestMasks": "Máscaras de sacerdote dragón",
               "daedricArtefacts": "Artefactos daédricos",
-              "bugInAJar": "Insecto en un frasco",
+              "bugInAJar": "Error en un frasco",
               "shouts": "Gritos",
-              "uniqueArmorSets": "Conjuntos de armadura única",
+              "uniqueArmorSets": "Conjuntos de armaduras únicos",
               "uniqueWeapons": "Armas únicas",
               "shrines": "Santuarios",
-              "stones": "Piedras"
+              "stones": "piedras"
             },
             "locations": {
               "main": "Principal"
             },
             "miscellaneous": {
               "books": "Libros",
-              "spellTomes": "Tomo de hechizos",
-              "journals": "Diarios"
+              "spellTomes": "Tomos de hechizos",
+              "journals": "Revistas"
             }
           },
           "dlc": {
-            "dawnguard": "Dawnguard",
-            "dragonborn": "Dragonborn",
-            "hearthfire": "Hearthfire"
+            "dawnguard": "guardia del alba",
+            "dragonborn": "nacido de dragón",
+            "hearthfire": "fuego de hogar"
           }
         },
         "witcher3": {
@@ -3162,7 +3162,7 @@
               "mainQuests": "Misiones principales",
               "secondaryQuests": "Misiones secundarias",
               "contracts": "Contratos",
-              "treasureHunts": "Cazas del tesoro"
+              "treasureHunts": "Búsqueda del tesoro"
             },
             "collectables": {
               "diagrams": "Diagramas"
@@ -3700,7 +3700,7 @@
               "tutorialQuests": "Tutorial-Quests",
               "mainQuests": "Hauptquests",
               "sideQuests": "Nebenquests",
-              "unmarkedQuests": "Unmarkierte Quests",
+              "unmarkedQuests": "Nicht markierte Quests",
               "repeatableQuests": "Wiederholbare Quests"
             },
             "collectables": {
@@ -3713,16 +3713,16 @@
             },
             "miscellaneous": {
               "holotapes": "Holobänder",
-              "notes": "Notizen",
+              "notes": "Anmerkungen",
               "skillBooks": "Fertigkeitsbücher"
             }
           },
           "dlc": {
-            "brokenSteel": "Broken Steel",
-            "mothershipZeta": "Mothership Zeta",
+            "brokenSteel": "Gebrochener Stahl",
+            "mothershipZeta": "Mutterschiff Zeta",
             "operationAnchorage": "Operation: Anchorage",
-            "pointLookout": "Point Lookout",
-            "thePitt": "The Pitt"
+            "pointLookout": "Aussichtspunkt",
+            "thePitt": "Der Pitt"
           }
         },
         "fallout4": {
@@ -3735,7 +3735,7 @@
             },
             "collectables": {
               "bobbleheads": "Wackelköpfe",
-              "magazines": "Magazine",
+              "magazines": "Zeitschriften",
               "uniqueArmor": "Einzigartige Rüstung",
               "uniqueWeapons": "Einzigartige Waffen"
             },
@@ -3749,7 +3749,7 @@
           "dlc": {
             "automatron": "Automatron",
             "farHarbor": "Far Harbor",
-            "nukaWorld": "Nuka-World",
+            "nukaWorld": "Nuka-Welt",
             "vaultTecWorkshop": "Vault-Tec Werkstatt"
           }
         },
@@ -3763,32 +3763,32 @@
               "daedricQuests": "Daedrische Quests",
               "dungeonQuests": "Dungeon-Quests",
               "miscellaneousQuests": "Verschiedene Quests",
-              "bountyQuests": "Kopfgeld-Quests",
+              "bountyQuests": "Kopfgeldquests",
               "globalQuests": "Globale Quests"
             },
             "collectables": {
               "dragonPriestMasks": "Drachenpriester-Masken",
               "daedricArtefacts": "Daedrische Artefakte",
               "bugInAJar": "Käfer im Glas",
-              "shouts": "Drachenrufe",
+              "shouts": "Geschrei",
               "uniqueArmorSets": "Einzigartige Rüstungssets",
               "uniqueWeapons": "Einzigartige Waffen",
               "shrines": "Schreine",
               "stones": "Steine"
             },
             "locations": {
-              "main": "Hauptorte"
+              "main": "Hauptsächlich"
             },
             "miscellaneous": {
               "books": "Bücher",
               "spellTomes": "Zauberbücher",
-              "journals": "Tagebücher"
+              "journals": "Zeitschriften"
             }
           },
           "dlc": {
-            "dawnguard": "Dämmerwacht",
-            "dragonborn": "Drachenblut",
-            "hearthfire": "Hearthfire"
+            "dawnguard": "Dawnguard",
+            "dragonborn": "Drachengeborenes",
+            "hearthfire": "Herdfeuer"
           }
         },
         "witcher3": {
@@ -3796,20 +3796,20 @@
           "categories": {
             "quests": {
               "mainQuests": "Hauptquests",
-              "secondaryQuests": "Nebenquests",
-              "contracts": "Aufträge",
+              "secondaryQuests": "Sekundäre Quests",
+              "contracts": "Verträge",
               "treasureHunts": "Schatzsuchen"
             },
             "collectables": {
-              "diagrams": "Baupläne"
+              "diagrams": "Diagramme"
             },
             "locations": {
-              "main": "Hauptorte"
+              "main": "Hauptsächlich"
             }
           },
           "dlc": {
             "bloodAndWine": "Blut und Wein",
-            "heartsOfStone": "Herz aus Stein"
+            "heartsOfStone": "Herzen aus Stein"
           }
         }
       }
@@ -4114,12 +4114,12 @@
           "categories": {
             "quests": {
               "mainQuests": "المهام الرئيسية",
-              "secondaryQuests": "المهام الثانوية",
+              "secondaryQuests": "أسئلة ثانوية",
               "contracts": "العقود",
-              "treasureHunts": "يطارد الكنز"
+              "treasureHunts": "البحث عن الكنز"
             },
             "collectables": {
-              "diagrams": "الرسوم البيانية"
+              "diagrams": "المخططات"
             },
             "locations": {
               "main": "رئيسي"

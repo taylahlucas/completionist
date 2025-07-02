@@ -4,7 +4,7 @@ import { WebView, WebViewNavigation } from 'react-native-webview';
 import { IconTypeEnum } from '@utils/index';
 import useGetTheme from '@styles/hooks/use-get-theme';
 import { WikiWebViewContainer, WikiWebViewCloseButton } from './';
-import { IconButton } from '../';
+import { IconButton } from '../icon';
 
 interface WikiWebViewProps {
   currentHref: string;
