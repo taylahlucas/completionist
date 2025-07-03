@@ -1,16 +1,16 @@
 require('dotenv').config();
 const { dynamoDbDocClient } = require('../client');
 const { PutCommand, UpdateCommand } = require('@aws-sdk/lib-dynamodb');
-const hashPw = require('../helpers/hash_password');
-const comparePws = require('../helpers/compare_passwords');
+const hashPw = require('../helpers/hash-password');
+const comparePws = require('../helpers/compare-passwords');
 const { response_code, response_message } = require('../helpers/response-code');
-const { checkEmailExists } = require('../helpers/check_existing_user');
+const { checkEmailExists } = require('../helpers/check-existing-user');
 const userSchema = require('../models/user');
-const createUser = require('../helpers/create_user');
+const createUser = require('../helpers/create-user');
 const {
   createSignedToken,
   createRefreshToken,
-} = require('../helpers/create_tokens');
+} = require('../helpers/create-tokens');
 const cache = require('../cache');
 
 var params = {

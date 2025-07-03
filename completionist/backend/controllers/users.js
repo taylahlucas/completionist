@@ -5,9 +5,9 @@ const {
   DeleteCommand,
 } = require('@aws-sdk/lib-dynamodb');
 const { response_code, response_message } = require('../helpers/response-code');
-const authWrapper = require('../helpers/auth_wrapper');
-const hashPw = require('../helpers/hash_password');
-const comparePws = require('../helpers/compare_passwords');
+const authWrapper = require('../helpers/auth-wrapper');
+const hashPw = require('../helpers/hash-password');
+const comparePws = require('../helpers/compare-passwords');
 
 var params = {
   TableName: process.env.AWS_TABLE_NAME,

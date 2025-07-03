@@ -1,7 +1,7 @@
 require('dotenv').config();
 const { dynamoDbDocClient } = require('../client');
 const { QueryCommand } = require('@aws-sdk/lib-dynamodb');
-const authWrapper = require('../helpers/auth_wrapper');
+const authWrapper = require('../helpers/auth-wrapper');
 const { response_code } = require('../helpers/response-code');
 
 var params = {

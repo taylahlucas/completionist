@@ -1,6 +1,6 @@
 const { dynamoDbDocClient } = require('../client');
 const { QueryCommand, UpdateCommand } = require('@aws-sdk/lib-dynamodb');
-const authWrapper = require('../helpers/auth_wrapper');
+const authWrapper = require('../helpers/auth-wrapper');
 const { response_code } = require('../helpers/response-code');
 const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
 

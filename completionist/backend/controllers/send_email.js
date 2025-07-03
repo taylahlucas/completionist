@@ -1,6 +1,6 @@
 const nodemailer = require('nodemailer');
 const { response_code } = require('../helpers/response-code');
-const authWrapper = require('../helpers/auth_wrapper');
+const authWrapper = require('../helpers/auth-wrapper');
 
 const sendVerificationEmail = async (req, res) => {
   try {

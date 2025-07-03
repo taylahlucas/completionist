@@ -17,4 +17,4 @@ const response_message = {
   WRONG_GOOGLE_ID: 'Wrong googleId.',
 };
 
-module.exports = { response-code, response_message };
+module.exports = { response_code, response_message };

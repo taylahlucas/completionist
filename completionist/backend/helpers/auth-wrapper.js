@@ -1,11 +1,8 @@
 require('dotenv').config();
-const checkAuthToken = require('./check_auth');
+const checkAuthToken = require('./check-auth');
 const cache = require('../cache');
 const { response_code, response_message } = require('./response-code');
-const {
-  createSignedToken,
-  createRefreshToken,
-} = require('../helpers/create_tokens');
+const { createSignedToken, createRefreshToken } = require('./create-tokens');
 
 // Calculate TTL for 60 days in seconds
 const ttlInSeconds = 60 * 24 * 60 * 60;
