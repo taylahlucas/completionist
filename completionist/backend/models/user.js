@@ -1,4 +1,19 @@
 const Joi = require('joi');
+const langs = [
+  'ar',
+  'de',
+  'en',
+  'es',
+  'fr',
+  'hi',
+  'id',
+  'it',
+  'ja',
+  'pt',
+  'tr',
+  'vi',
+  'zh',
+];
 
 const isActiveSchema = Joi.object().keys({
   id: Joi.string().required(),
@@ -15,6 +30,7 @@ const gameSchema = () =>
   Joi.object().keys({
     id: Joi.string().required(),
     appId: Joi.number().required(),
+    lang: Joi.string().valid(langs.values()).required(),
     quests: Joi.array().items(isActiveSchema).required(),
     collectables: Joi.array().items(isActiveSchema).required(),
     miscellaneous: Joi.array().items(isActiveSchema).required(),
@@ -50,23 +66,7 @@ const userSchema = Joi.object().keys({
     .required(),
   settings: Joi.object()
     .keys({
-      lang: Joi.string()
-        .valid(
-          'ar',
-          'de',
-          'en',
-          'es',
-          'fr',
-          'hi',
-          'id',
-          'it',
-          'ja',
-          'pt',
-          'tr',
-          'vi',
-          'zh',
-        )
-        .required(),
+      lang: Joi.string().valid(langs.values()).required(),
       configs: Joi.array().items(isActiveSchema).required(),
     })
     .required(),

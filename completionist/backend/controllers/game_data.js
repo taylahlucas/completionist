@@ -2,7 +2,7 @@ require('dotenv').config();
 const { dynamoDbDocClient } = require('../client');
 const { QueryCommand } = require('@aws-sdk/lib-dynamodb');
 const authWrapper = require('../helpers/auth_wrapper');
-const { response_code } = require('../helpers/response_code');
+const { response_code } = require('../helpers/response-code');
 
 var params = {
   TableName: process.env.AWS_GAME_TABLE_NAME,

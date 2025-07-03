@@ -4,7 +4,7 @@ const {
   UpdateCommand,
   DeleteCommand,
 } = require('@aws-sdk/lib-dynamodb');
-const { response_code, response_message } = require('../helpers/response_code');
+const { response_code, response_message } = require('../helpers/response-code');
 const authWrapper = require('../helpers/auth_wrapper');
 const hashPw = require('../helpers/hash_password');
 const comparePws = require('../helpers/compare_passwords');

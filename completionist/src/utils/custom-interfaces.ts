@@ -230,6 +230,7 @@ export interface IsActive {
 export interface GameData {
   id: GameKeyEnum;
   appId: number;
+  lang: LanguageType;
   tier: PaymentTierEnum;
   quests: Item[];
   collectables: Item[];

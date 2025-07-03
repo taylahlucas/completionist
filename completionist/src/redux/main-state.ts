@@ -11,6 +11,7 @@ import { initialFormData } from '@components/custom/login-form/provider';
 export const initialGameData: GameData = {
   id: GameKeyEnum.SKYRIM,
   appId: 0,
+  lang: 'en',
   tier: PaymentTierEnum.LARGE,
   quests: [],
   collectables: [],

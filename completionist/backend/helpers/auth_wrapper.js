@@ -1,7 +1,7 @@
 require('dotenv').config();
 const checkAuthToken = require('./check_auth');
 const cache = require('../cache');
-const { response_code, response_message } = require('./response_code');
+const { response_code, response_message } = require('./response-code');
 const {
   createSignedToken,
   createRefreshToken,

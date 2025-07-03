@@ -1511,7 +1511,7 @@
               "bobbleheads": "ボブルヘッド",
               "magazines": "雑誌",
               "uniqueArmor": "ユニークな鎧",
-              "uniqueWeapons": "ユニークな鎧"
+              "uniqueWeapons": "ユニークな武器"
             },
             "locations": {
               "main": "主要"
@@ -1826,7 +1826,7 @@
               "sideQuests": "Missioni Secondarie"
             },
             "collectables": {
-              "bobbleheads": "Bobblehead",
+              "bobbleheads": "Bobbleheads",
               "magazines": "Riviste",
               "uniqueArmor": "Armatura Unica",
               "uniqueWeapons": "Armi Uniche"
