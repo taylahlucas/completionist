@@ -150,6 +150,7 @@ export type AuthStackParamList = {
   GlobalAchievements: undefined;
   GlobalSteamAchievements: undefined;
   PurchaseGame: [gameId: GameKeyEnum];
+  SteamProfile: undefined;
   DrawerStack: undefined;
 };
 

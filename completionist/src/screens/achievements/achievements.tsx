@@ -11,7 +11,7 @@ import {
   ScrollableList,
 } from '@components/general';
 import { NavigationHeader } from '@navigation/index';
-import { DrawerScreenEnum } from '@utils/index';
+import { AuthScreenEnum, DrawerScreenEnum } from '@utils/index';
 import { Dropdown } from '@components/general/dropdown';
 import { useReactNavigation } from '@navigation/hooks';
 import { useAchievements } from './hooks';
@@ -117,8 +117,9 @@ export const Achievements = () => {
             <Button
               type="navigation"
               title={t('common:achievements.linkSteamAccount')}
-              onPress={(): void =>
-                navigation.navigate(DrawerScreenEnum.SteamAchievements)
+              onPress={
+                (): void => navigation.navigate(AuthScreenEnum.SteamProfile)
+                // navigation.navigate(DrawerScreenEnum.SteamAchievements)
               }
             />
           </Condition>

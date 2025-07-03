@@ -11,6 +11,7 @@ import {
   SteamAchievements,
   GlobalSettings,
 } from '@screens/index';
+import { SteamProfileSheet } from '@features/achievements';
 
 const Stack = createStackNavigator<AuthStackParamList>();
 
@@ -44,6 +45,11 @@ export const AuthStackNavigator = () => {
       <Stack.Screen
         name={AuthScreenEnum.GlobalSteamAchievements}
         component={SteamAchievements}
+      />
+      <Stack.Screen
+        name={AuthScreenEnum.SteamProfile}
+        component={SteamProfileSheet}
+        options={{ presentation: 'transparentModal', headerShown: false }}
       />
       <Stack.Screen
         name={AuthScreenEnum.PurchaseGame}

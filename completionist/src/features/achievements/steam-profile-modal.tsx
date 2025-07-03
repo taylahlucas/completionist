@@ -14,7 +14,7 @@ import { SteamProfile, IconTypeEnum } from '@utils/index';
 import { DEFAULT_BORDER_RADIUS, windowHeight } from '@styles/global';
 import { useReactNavigation } from '@navigation/hooks';
 import { isSmallScreen } from '@styles/global';
-import { useAchievements } from './hooks';
+import { useAchievements } from '../../screens/achievements/hooks';
 
 type ProfileViewType = 'add' | 'view';
 

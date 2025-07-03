@@ -5,6 +5,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import configureStore from '@redux/store';
 import config from '@utils/configs/config';
 import { RootStackNavigator } from '@screens/index';
+import { GestureHandlerRootView } from 'react-native-gesture-handler';
 
 GoogleSignin.configure({
   webClientId: config.webClientId,
@@ -15,9 +16,11 @@ const store = configureStore;
 const App = () => {
   return (
     <Provider store={store}>
-      <NavigationContainer>
-        <RootStackNavigator />
-      </NavigationContainer>
+      <GestureHandlerRootView style={{ flex: 1 }}>
+        <NavigationContainer>
+          <RootStackNavigator />
+        </NavigationContainer>
+      </GestureHandlerRootView>
     </Provider>
   );
 };

@@ -6,6 +6,7 @@ export enum AuthScreenEnum {
   GlobalSteamAchievements = 'GlobalSteamAchievements',
   GlobalAchievements = 'GlobalAchievements',
   PurchaseGame = 'PurchaseGame',
+  SteamProfile = 'SteamProfile',
   DrawerStack = 'DrawerStack',
 }
 
