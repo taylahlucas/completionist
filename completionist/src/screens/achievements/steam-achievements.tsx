@@ -1,9 +1,9 @@
 import React from 'react';
 import { StandardLayout } from '@components/general';
 import { NavigationHeader } from '@navigation/index';
-import { AddSteamIDContent } from '@components/custom';
 import { DrawerScreenEnum } from '@utils/index';
 import { useAchievements } from './hooks';
+import { SteamAchievementsContent } from '@features/achievements';
 
 export const SteamAchievements = () => {
   const { viewModel } = useAchievements();
@@ -15,7 +15,7 @@ export const SteamAchievements = () => {
         title={viewModel.steamAchievements.title}
         leftAction="back"
       />
-      <AddSteamIDContent />
+      <SteamAchievementsContent />
     </StandardLayout>
   );
 };

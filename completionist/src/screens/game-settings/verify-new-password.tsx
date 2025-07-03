@@ -4,7 +4,7 @@ import { StandardLayout } from '@components/general';
 import { NavigationHeader } from '@navigation/index';
 import { UnauthorizedScreenEnum } from '@utils/index';
 import { VerificationContent } from '@components/custom';
-import { useVerifyNewPassword } from './hooks';
+import { useVerifyNewPassword } from '../../features/settings/hooks';
 
 export const VerifyNewPassword = () => {
   const { t } = useTranslation();

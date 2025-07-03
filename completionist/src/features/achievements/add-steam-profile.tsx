@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Image } from 'react-native';
 import { useTranslation } from 'react-i18next';
 import {
@@ -6,36 +6,19 @@ import {
   ParagraphView,
   StyledText,
   TextInput,
-  Button,
-  KeyboardAvoidingScrollView,
 } from '@components/general';
-import { getSteamUserById } from '@data/index';
-import { SteamProfileModal } from '@screens/index';
-import { SteamProfile } from '@utils/index';
 
-export const AddSteamIDContent = () => {
+export const AddSteamProfile = ({
+  steamId,
+  setSteamId,
+}: {
+  steamId: string;
+  setSteamId: (id: string) => void;
+}) => {
   const { t } = useTranslation();
-  const [steamId, setSteamId] = useState<string>('');
-  const [profileVisible, setProfileVisible] = useState<boolean>(false);
-  const [profile, setProfile] = useState<SteamProfile | undefined>(undefined);
 
   return (
-    <KeyboardAvoidingScrollView
-      awareView={
-        <Button
-          title={t('common:continue')}
-          type="footer"
-          disabled={steamId.length < 17}
-          onPress={async (): Promise<void> => {
-            const profile = await getSteamUserById(steamId);
-
-            if (!!profile) {
-              setProfile(profile);
-              setProfileVisible(true);
-            }
-          }}
-        />
-      }>
+    <>
       <ParagraphView>
         <StyledText type={'ListItemSubTitleBold'}>
           {t('common:steamAchievements.addSteamIdDesc1')}
@@ -66,16 +49,6 @@ export const AddSteamIDContent = () => {
         source={require('@styles/images/steam-public-details.png')}
         resizeMode="contain"
       />
-      {profileVisible && !!profile ? (
-        <SteamProfileModal
-          profile={profile}
-          isVisible={profileVisible}
-          viewType="add"
-          onClose={(): void => setProfileVisible(false)}
-        />
-      ) : (
-        <></>
-      )}
-    </KeyboardAvoidingScrollView>
+    </>
   );
 };

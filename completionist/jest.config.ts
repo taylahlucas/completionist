@@ -22,6 +22,7 @@ const jestConfig: JestConfigWithTsJest = {
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
   moduleNameMapper: {
     '^@components/(.*)$': '<rootDir>/src/components/$1',
+    '^@features/(.*)$': '<rootDir>/src/features/$1',
     '^@data/(.*)$': '<rootDir>/src/data/$1',
     '^@navigation/(.*)$': '<rootDir>/src/navigation/$1',
     '^@redux/(.*)$': '<rootDir>/src/redux/$1',

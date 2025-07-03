@@ -7,7 +7,7 @@ import {
 } from '@components/general';
 import { languages } from 'src/i18n/i18n-common';
 import { useMainState, useMainDispatch } from '@redux/hooks';
-import { LanguageType } from '@utils/index';
+import { GameData, LanguageType } from '@utils/index';
 import { useGetGameLanguages } from './hooks';
 import { getGameDataFromCache, getMappedGameData } from '@data/index';
 import { useContentDispatch } from '../content-list/provider';
@@ -53,22 +53,44 @@ export const SettingsSelectLanguage = ({
         }))}
         onPress={(value): void => {
           setOpen(false);
-          if (selectedGame) {
-            getGameDataFromCache({
-              selectedGame: selectedGame.id,
-              lang: value as LanguageType,
-            }).then(response => {
-              const gameData = getMappedGameData(response);
-              setGameContent(gameData);
+          i18n.changeLanguage(value);
+          if (!selectedGame) {
+            return;
+          }
+
+          if (false) {
+            setUser({
+              ...user,
+              settings: {
+                ...user.settings,
+                lang: value as LanguageType,
+              },
+            });
+          } else {
+            let gameData = Object.entries(user.gameData).find(
+              item => item[1] === selectedGame,
+            );
+            if (!gameData) {
+              return;
+            }
+            const updatedGameData: GameData[] = [
+              ...user.gameData,
+              {
+                ...gameData[1],
+                lang: value as LanguageType,
+              },
+            ];
+            setUser({
+              ...user,
+              gameData: updatedGameData,
             });
           }
-          i18n.changeLanguage(value);
-          setUser({
-            ...user,
-            settings: {
-              ...user.settings,
-              lang: value as LanguageType,
-            },
+          getGameDataFromCache({
+            selectedGame: selectedGame.id,
+            lang: value as LanguageType,
+          }).then(response => {
+            const gameData = getMappedGameData(response);
+            setGameContent(gameData);
           });
         }}
       />

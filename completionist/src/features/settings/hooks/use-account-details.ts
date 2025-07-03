@@ -136,6 +136,7 @@ export const useAccountDetails = () => {
         pw: user.pw,
       },
       userInfo,
+      hasChanged: userInfo.email.changed || userInfo.username.changed,
       isNameValid:
         !isNameValid(userInfo.username.value) &&
         userInfo.username.changed &&

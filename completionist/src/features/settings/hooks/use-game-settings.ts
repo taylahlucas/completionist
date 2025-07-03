@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import {
   useGetShowHideOptions,
   useDLCOptions,
@@ -6,8 +6,6 @@ import {
 import { handleScroll } from '@utils/hooks';
 import { getSteamUserById } from '@data/index';
 import {
-  NavigationHeaderLeftActionTypes,
-  NavigationHeaderRightActionTypes,
   SettingsOptionItem,
   SteamProfile,
   SettingsOptionEnum,
@@ -15,32 +13,15 @@ import {
 import { useEditUserData } from '@data/hooks';
 import { useMainDispatch, useMainState } from '@redux/hooks';
 
-interface ActionsType {
-  left: NavigationHeaderLeftActionTypes;
-  right: NavigationHeaderRightActionTypes;
-}
-
 export const useSettings = () => {
   const [profileVisible, setProfileVisible] = useState<boolean>(false);
   const [profile, setProfile] = useState<SteamProfile | undefined>(undefined);
   const [isLanguagesOpen, setLanguagesOpen] = useState<boolean>(false);
-  const { user, selectedGame, selectedGameSettings } = useMainState();
+  const { user, selectedGameSettings } = useMainState();
   const { setUser, setShouldUpdateUser } = useMainDispatch();
   const { getDLCOptions, setDLCOptions } = useDLCOptions();
   const options = useGetShowHideOptions();
   const { deleteUserData } = useEditUserData();
-  const isGlobalSettings = !selectedGame;
-  const [navigationActions, setNavigationActions] = useState<ActionsType>({
-    left: 'back',
-    right: 'logout',
-  });
-
-  useEffect(() => {
-    setNavigationActions({
-      left: isGlobalSettings ? 'back' : 'menu',
-      right: isGlobalSettings ? 'logout' : 'none',
-    });
-  }, [isGlobalSettings]);
 
   const triggerItem = (id: SettingsOptionEnum): SettingsOptionItem[] => {
     const settings = [...user.settings.configs];
@@ -86,14 +67,12 @@ export const useSettings = () => {
 
   return {
     viewModel: {
-      isGlobalSettings,
       profileVisible,
       profile,
       isLanguagesOpen,
       options,
       user,
       selectedGameSettings,
-      navigationActions,
     },
     actions: {
       getSteamUserById,

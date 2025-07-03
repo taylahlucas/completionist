@@ -10,6 +10,7 @@ import {
   GameSelection,
   GlobalAchievements,
   SteamAchievements,
+  GlobalSettings,
 } from '@screens/index';
 
 const Stack = createStackNavigator<AuthStackParamList>();
@@ -26,7 +27,10 @@ export const AuthStackNavigator = () => {
         name={AuthScreenEnum.GameSelection}
         component={GameSelection}
       />
-      <Stack.Screen name={AuthScreenEnum.GlobalSettings} component={Settings} />
+      <Stack.Screen
+        name={AuthScreenEnum.GlobalSettings}
+        component={GlobalSettings}
+      />
       <Stack.Screen
         name={AuthScreenEnum.GlobalAccountDetails}
         component={AccountDetails}

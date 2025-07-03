@@ -1,9 +1,6 @@
 import React, { useRef } from 'react';
 import { ScrollView, Text as RNText } from 'react-native';
-import { useTranslation } from 'react-i18next';
-import { NavigationHeader } from '@navigation/index';
 import {
-  StandardLayout,
   Button,
   Condition,
   Spacing,
@@ -16,12 +13,12 @@ import {
   SettingsGameCollections,
   SettingsSelectLanguage,
 } from '@components/custom';
-import { DrawerScreenEnum, AuthScreenEnum } from '@utils/index';
 import useGetTheme from '@styles/hooks/use-get-theme';
-import { useSettings } from './hooks';
-import { SteamProfileModal } from '@screens/index';
+import { useSettings } from './hooks/use-game-settings';
+import { SteamProfileModal } from '@screens/achievements';
+import { useTranslation } from 'react-i18next';
 
-export const Settings = () => {
+export const GameSettingsContent = () => {
   const { t } = useTranslation();
   const theme = useGetTheme();
   const scrollViewRef = useRef<ScrollView>(null);
@@ -29,17 +26,7 @@ export const Settings = () => {
   const { viewModel, actions } = useSettings();
 
   return (
-    <StandardLayout>
-      <NavigationHeader
-        id={
-          viewModel.isGlobalSettings
-            ? AuthScreenEnum.GlobalSettings
-            : DrawerScreenEnum.Settings
-        }
-        title={t('common:screens.settings')}
-        leftAction={viewModel.navigationActions.left}
-        rightAction={viewModel.navigationActions.right}
-      />
+    <>
       <ScrollableList
         ref={scrollViewRef}
         contentContainerStyle={{
@@ -116,6 +103,7 @@ export const Settings = () => {
           onPress={(): void => actions.deleteUserData(viewModel.user.userId)}
         />
       </ScrollableList>
+      {/* // TODO: Replace with bottom sheet */}
       {!!viewModel.user.steamId &&
       !!viewModel.profile &&
       viewModel.profileVisible ? (
@@ -127,6 +115,6 @@ export const Settings = () => {
       ) : (
         <></>
       )}
-    </StandardLayout>
+    </>
   );
 };
