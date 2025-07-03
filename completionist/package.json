@@ -65,6 +65,7 @@
   "devDependencies": {
     "@babel/core": "^7.20.0",
     "@babel/node": "^7.23.9",
+    "@babel/plugin-transform-private-methods": "^7.27.1",
     "@babel/preset-env": "^7.20.0",
     "@babel/runtime": "^7.20.0",
     "@react-native/eslint-config": "^0.72.2",

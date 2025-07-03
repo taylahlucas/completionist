@@ -5,6 +5,7 @@ module.exports = {
   sourceMaps: true,
   plugins: [
     'react-native-reanimated/plugin',
+    ['@babel/plugin-transform-private-methods', { loose: true }],
     ['babel-plugin-styled-components', { pure: true }],
     [
       'module:react-native-dotenv',
