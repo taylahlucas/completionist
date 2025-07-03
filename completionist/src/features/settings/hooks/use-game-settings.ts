@@ -1,44 +1,37 @@
-import { useState } from 'react';
-import {
-  useGetShowHideOptions,
-  useDLCOptions,
-} from '@components/custom/settings/hooks';
-import { handleScroll } from '@utils/hooks';
-import { getSteamUserById } from '@data/index';
+import { useGetShowHideOptions } from '@components/custom/settings/hooks';
+import { getGameDataFromCache, getMappedGameData } from '@data/index';
 import {
   SettingsOptionItem,
-  SteamProfile,
   SettingsOptionEnum,
+  GameData,
+  LanguageType,
+  User,
 } from '@utils/index';
-import { useEditUserData } from '@data/hooks';
-import { useMainDispatch, useMainState } from '@redux/hooks';
+import { useMainDispatch } from '@redux/hooks';
+import { useContentDispatch } from '@components/custom/content-list/provider';
+import { useTranslation } from 'react-i18next';
 
-export const useSettings = () => {
-  const [profileVisible, setProfileVisible] = useState<boolean>(false);
-  const [profile, setProfile] = useState<SteamProfile | undefined>(undefined);
-  const [isLanguagesOpen, setLanguagesOpen] = useState<boolean>(false);
-  const { user, selectedGameSettings } = useMainState();
+const triggerItem = (
+  id: SettingsOptionEnum,
+  configs: SettingsOptionItem[],
+): SettingsOptionItem[] =>
+  configs.map(item => {
+    if (item.id === id) {
+      return {
+        id: item?.id,
+        isActive: !item.isActive,
+      };
+    } else {
+      return item;
+    }
+  });
+
+export const useGameSettings = () => {
+  const { i18n } = useTranslation();
   const { setUser, setShouldUpdateUser } = useMainDispatch();
-  const { getDLCOptions, setDLCOptions } = useDLCOptions();
-  const options = useGetShowHideOptions();
-  const { deleteUserData } = useEditUserData();
+  const { setGameContent } = useContentDispatch();
 
-  const triggerItem = (id: SettingsOptionEnum): SettingsOptionItem[] => {
-    const settings = [...user.settings.configs];
-
-    return settings.map(item => {
-      if (item.id === id) {
-        return {
-          id: item?.id,
-          isActive: !item.isActive,
-        };
-      } else {
-        return item;
-      }
-    });
-  };
-
-  const setSettingsOptionsOnPress = (id: string) => {
+  const setSettingsOptions = (id: string, user: User) => {
     switch (id) {
       // TODO: Translate id to type
       case 'completed-items':
@@ -46,7 +39,10 @@ export const useSettings = () => {
           ...user,
           settings: {
             ...user.settings,
-            configs: triggerItem(SettingsOptionEnum.COMPLETED_ITEMS),
+            configs: triggerItem(
+              SettingsOptionEnum.COMPLETED_ITEMS,
+              user.settings.configs,
+            ),
           },
         });
         setShouldUpdateUser(true);
@@ -57,7 +53,10 @@ export const useSettings = () => {
           ...user,
           settings: {
             ...user.settings,
-            configs: triggerItem(SettingsOptionEnum.DISABLED_SECTIONS),
+            configs: triggerItem(
+              SettingsOptionEnum.DISABLED_SECTIONS,
+              user.settings.configs,
+            ),
           },
         });
         setShouldUpdateUser(true);
@@ -65,25 +64,46 @@ export const useSettings = () => {
     }
   };
 
+  const onSetGameLanguage = (
+    value: string,
+    user: User,
+    selectedGame: GameData,
+  ): void => {
+    if (!selectedGame) return;
+
+    let gameData = Object.entries(user.gameData).find(
+      item => item[1].id === selectedGame.id,
+    );
+    if (!gameData) return;
+
+    const updatedGameData: GameData[] = [
+      ...user.gameData.filter(item => item.id !== selectedGame.id),
+      {
+        ...gameData[1],
+        lang: value as LanguageType,
+      },
+    ];
+
+    i18n.changeLanguage(value);
+    setUser({
+      ...user,
+      settings: {
+        ...user.settings,
+        lang: value as LanguageType,
+      },
+      gameData: updatedGameData,
+    });
+    getGameDataFromCache({
+      selectedGame: selectedGame.id,
+      lang: value as LanguageType,
+    }).then(response => {
+      const gameData = getMappedGameData(response);
+      setGameContent(gameData);
+    });
+  };
+
   return {
-    viewModel: {
-      profileVisible,
-      profile,
-      isLanguagesOpen,
-      options,
-      user,
-      selectedGameSettings,
-    },
-    actions: {
-      getSteamUserById,
-      deleteUserData,
-      setProfileVisible,
-      setProfile,
-      setLanguagesOpen,
-      getDLCOptions,
-      setDLCOptions,
-      handleScroll,
-      setSettingsOptionsOnPress,
-    },
+    setSettingsOptions,
+    onSetGameLanguage,
   };
 };

@@ -11,16 +11,17 @@ import {
   SettingsAccountDetails,
   SettingsSelectLanguage,
 } from '@components/custom';
-import { useMainState } from '@redux/hooks';
+import { useMainDispatch, useMainState } from '@redux/hooks';
 import { SteamProfile } from '@utils/custom-interfaces';
 import { useEditUserData, getSteamUserById } from '@data/index';
 import useGetTheme from '@styles/hooks/use-get-theme';
 import { handleScroll } from '@utils/hooks';
 import { useTranslation } from 'react-i18next';
 import { SteamProfileModal } from '@screens/achievements';
+import { LanguageType } from '@utils/custom-types';
 
 export const GlobalSettingsContent = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const theme = useGetTheme();
 
   const scrollViewRef = useRef<ScrollView>(null);
@@ -31,6 +32,7 @@ export const GlobalSettingsContent = () => {
   const [profile, setProfile] = useState<SteamProfile | undefined>(undefined);
 
   const { user } = useMainState();
+  const { setUser } = useMainDispatch();
   const { deleteUserData } = useEditUserData();
 
   return (
@@ -63,6 +65,7 @@ export const GlobalSettingsContent = () => {
         {t('common:settings.selectLanguage')}
       </SettingsDescription>
       <SettingsSelectLanguage
+        selectedLanguage={user.settings.lang}
         isOpen={isLanguagesOpen}
         setOpen={(value: boolean) => {
           setIsLanguagesOpen(value);
@@ -71,6 +74,17 @@ export const GlobalSettingsContent = () => {
               handleScroll(scrollViewRef, y + 100);
             });
           }
+        }}
+        onSetLanguage={(value): void => {
+          i18n.changeLanguage(value);
+          setUser({
+            ...user,
+            settings: {
+              ...user.settings,
+              lang: value as LanguageType,
+            },
+          });
+          setIsLanguagesOpen(false);
         }}
       />
 

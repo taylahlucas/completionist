@@ -1,4 +1,9 @@
-import { GameData, AuthScreenEnum, GameListSelectionType } from '@utils/index';
+import {
+  GameData,
+  AuthScreenEnum,
+  GameListSelectionType,
+  LanguageType,
+} from '@utils/index';
 import { useMainDispatch } from '@redux/hooks';
 import { useReactNavigation } from '@navigation/hooks';
 import { useState } from 'react';
@@ -33,9 +38,11 @@ export const useGameListSelectionDropdown = () => {
         //<SelectLanguageModal />
         // TODO: Show popup
       } else {
+        const gameLanguage: LanguageType =
+          user.gameData.find(item => item.id === game.id)?.lang ?? 'en';
         getGameDataFromCache({
           selectedGame: game.id,
-          lang: user.settings.lang,
+          lang: gameLanguage,
         }).then(response => {
           const gameData = getMappedGameData(response);
           // TODO: Find a better way to do this

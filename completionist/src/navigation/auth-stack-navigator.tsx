@@ -4,7 +4,6 @@ import { AuthStackParamList, AuthScreenEnum } from '@utils/index';
 import { AuthDrawerStackNavigator } from './';
 import {
   PurchaseGame,
-  Settings,
   AccountDetails,
   Landing,
   GameSelection,

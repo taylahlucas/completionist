@@ -13,18 +13,21 @@ import { getGameDataFromCache, getMappedGameData } from '@data/index';
 import { useContentDispatch } from '../content-list/provider';
 
 interface SettingsSelectLanguageProps {
+  selectedLanguage: LanguageType;
+  selectedGame?: GameData;
   isOpen: boolean;
   setOpen: (value: boolean) => void;
+  onSetLanguage: (value: string) => void;
 }
 
 export const SettingsSelectLanguage = ({
+  selectedLanguage,
+  selectedGame,
   isOpen,
   setOpen,
+  onSetLanguage,
 }: SettingsSelectLanguageProps) => {
-  const { t, i18n } = useTranslation();
-  const { setUser } = useMainDispatch();
-  const { user, selectedGame } = useMainState();
-  const { setGameContent } = useContentDispatch();
+  const { t } = useTranslation();
   const { getLanguageInEn, getGameLanguages } = useGetGameLanguages();
 
   const languageList = !selectedGame
@@ -38,8 +41,8 @@ export const SettingsSelectLanguage = ({
       header={
         <DropdownSelection
           title={`${t(
-            `common:languages.${user.settings.lang}`,
-          )} (${getLanguageInEn(user.settings.lang)})`}
+            `common:languages.${selectedLanguage}`,
+          )} (${getLanguageInEn(selectedLanguage)})`}
           isSelected={isOpen}
           onPress={(): void => setOpen(!isOpen)}
         />
@@ -51,48 +54,7 @@ export const SettingsSelectLanguage = ({
             lang as LanguageType,
           )})`,
         }))}
-        onPress={(value): void => {
-          setOpen(false);
-          i18n.changeLanguage(value);
-          if (!selectedGame) {
-            return;
-          }
-
-          if (false) {
-            setUser({
-              ...user,
-              settings: {
-                ...user.settings,
-                lang: value as LanguageType,
-              },
-            });
-          } else {
-            let gameData = Object.entries(user.gameData).find(
-              item => item[1] === selectedGame,
-            );
-            if (!gameData) {
-              return;
-            }
-            const updatedGameData: GameData[] = [
-              ...user.gameData,
-              {
-                ...gameData[1],
-                lang: value as LanguageType,
-              },
-            ];
-            setUser({
-              ...user,
-              gameData: updatedGameData,
-            });
-          }
-          getGameDataFromCache({
-            selectedGame: selectedGame.id,
-            lang: value as LanguageType,
-          }).then(response => {
-            const gameData = getMappedGameData(response);
-            setGameContent(gameData);
-          });
-        }}
+        onPress={(value): void => onSetLanguage(value)}
       />
     </Dropdown>
   );

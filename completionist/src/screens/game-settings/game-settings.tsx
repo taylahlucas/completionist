@@ -3,17 +3,15 @@ import { useTranslation } from 'react-i18next';
 import { NavigationHeader } from '@navigation/index';
 import { StandardLayout } from '@components/general';
 import { DrawerScreenEnum } from '@utils/index';
-import { useSettings } from '../../features/settings/hooks';
 import { GameSettingsContent } from '@features/settings';
 
-export const Settings = () => {
+export const GameSettings = () => {
   const { t } = useTranslation();
-  const { viewModel, actions } = useSettings();
 
   return (
     <StandardLayout>
       <NavigationHeader
-        id={DrawerScreenEnum.Settings}
+        id={DrawerScreenEnum.GameSettings}
         title={t('common:screens.settings')}
         leftAction="menu"
         rightAction="none"

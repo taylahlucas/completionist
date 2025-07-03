@@ -109,7 +109,7 @@ export type NavigatorParams = {
   [DrawerScreenEnum.Achievements]: undefined;
   [DrawerScreenEnum.SteamAchievements]: undefined;
   [DrawerScreenEnum.Payments]: undefined;
-  [DrawerScreenEnum.Settings]: undefined;
+  [DrawerScreenEnum.GameSettings]: undefined;
   [DrawerScreenEnum.AccountDetails]: undefined;
 };
 

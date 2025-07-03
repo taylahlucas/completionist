@@ -162,7 +162,7 @@ export type DrawerStackParamList = {
   Achievements: undefined;
   SteamAchievements: undefined;
   Payments: undefined;
-  Settings: undefined;
+  GameSettings: undefined;
   AccountDetails: undefined;
 };
 

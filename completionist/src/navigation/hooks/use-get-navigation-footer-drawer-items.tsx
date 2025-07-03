@@ -36,7 +36,8 @@ export const useGetNavigationFooterDrawerItems =
         icon: 'forward-to-inbox',
       },
       {
-        id: DrawerScreenEnum.Settings,
+        id: DrawerScreenEnum.GameSettings,
+        // TODO: Update to Game Settings
         title: t('common:screens.settings'),
         icon: 'settings-outline',
         iconType: IconTypeEnum.Ionicons,

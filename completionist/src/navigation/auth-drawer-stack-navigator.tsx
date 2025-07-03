@@ -16,7 +16,7 @@ import {
   Miscellaneous,
   Locations,
   AccountDetails,
-  Settings,
+  GameSettings,
   SendRequest,
   Achievements,
   SteamAchievements,
@@ -76,7 +76,10 @@ export const AuthDrawerStackNavigator = () => {
         name={DrawerScreenEnum.SteamAchievements}
         component={SteamAchievements}
       />
-      <Drawer.Screen name={DrawerScreenEnum.Settings} component={Settings} />
+      <Drawer.Screen
+        name={DrawerScreenEnum.GameSettings}
+        component={GameSettings}
+      />
       <Drawer.Screen
         name={DrawerScreenEnum.AccountDetails}
         component={AccountDetails}

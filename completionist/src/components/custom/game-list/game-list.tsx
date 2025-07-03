@@ -15,7 +15,7 @@ export const GameList = ({ searchValue }: GameListProps) => {
   return (
     <ScrollableList contentContainerStyle={gameListStyles.scrollableContent}>
       <GameListSectionDropdown
-        testID={'active-games'}
+        testID="active-games"
         type="active"
         title={t('common:active')}
         data={actions.filterGameList(

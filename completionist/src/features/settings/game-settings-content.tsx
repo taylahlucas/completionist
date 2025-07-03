@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import { ScrollView, Text as RNText } from 'react-native';
 import {
   Button,
@@ -14,40 +14,62 @@ import {
   SettingsSelectLanguage,
 } from '@components/custom';
 import useGetTheme from '@styles/hooks/use-get-theme';
-import { useSettings } from './hooks/use-game-settings';
+import { useGameSettings } from './hooks/use-game-settings';
 import { SteamProfileModal } from '@screens/achievements';
 import { useTranslation } from 'react-i18next';
+import { useMainState } from '@redux/hooks';
+import { LanguageType } from '@utils/custom-types';
+import { SteamProfile } from '@utils/custom-interfaces';
+import { getSteamUserById, useEditUserData } from '@data/index';
+import {
+  useDLCOptions,
+  useGetShowHideOptions,
+} from '@components/custom/settings/hooks';
+import { handleScroll } from '@utils/hooks';
 
 export const GameSettingsContent = () => {
   const { t } = useTranslation();
   const theme = useGetTheme();
   const scrollViewRef = useRef<ScrollView>(null);
   const languageViewRef = useRef<RNText>(null);
-  const { viewModel, actions } = useSettings();
+
+  const { onSetGameLanguage, setSettingsOptions } = useGameSettings();
+  const { deleteUserData } = useEditUserData();
+  const { getDLCOptions, setDLCOptions } = useDLCOptions();
+  const showHideOptions = useGetShowHideOptions();
+
+  const { user, selectedGame } = useMainState();
+  const [selectedLanguage, setSelectedLanguage] = useState<LanguageType>(
+    selectedGame?.lang ?? 'en',
+  );
+  const [isLanguagesOpen, setLanguagesOpen] = useState<boolean>(false);
+  const [profileVisible, setProfileVisible] = useState<boolean>(false);
+  const [profile, setProfile] = useState<SteamProfile | undefined>(undefined);
+
+  if (!selectedGame) return;
 
   return (
     <>
       <ScrollableList
         ref={scrollViewRef}
         contentContainerStyle={{
-          paddingBottom: viewModel.isLanguagesOpen ? 200 : 100,
+          paddingBottom: isLanguagesOpen ? 200 : 100,
         }}>
         <SettingsAccountDetails />
 
-        <Condition condition={!!viewModel.user.steamId}>
+        <Condition condition={!!user.steamId}>
           <Button
             type="navigation"
+            // TODO: Add to translations
             title="Steam Profile"
             style={{ marginTop: 0 }}
             onPress={async (): Promise<void> => {
-              if (viewModel.user.steamId) {
-                const profile = await actions.getSteamUserById(
-                  viewModel.user.steamId,
-                );
+              if (user.steamId) {
+                const profile = await getSteamUserById(user.steamId);
 
                 if (!!profile) {
-                  actions.setProfile(profile);
-                  actions.setProfileVisible(true);
+                  setProfile(profile);
+                  setProfileVisible(true);
                 }
               }
             }}
@@ -63,9 +85,9 @@ export const GameSettingsContent = () => {
         </SettingsDescription>
         <SelectionList
           type="enable-dlc"
-          data={actions.getDLCOptions()}
-          onPress={actions.setDLCOptions}
-          translationKey={viewModel.selectedGameSettings}
+          data={getDLCOptions()}
+          onPress={setDLCOptions}
+          translationKey={selectedGame?.id}
         />
 
         {/* Show sections */}
@@ -74,8 +96,8 @@ export const GameSettingsContent = () => {
         </SettingsDescription>
         <SelectionList
           type="show-hide-sections"
-          data={viewModel.options}
-          onPress={(id: string): void => actions.setSettingsOptionsOnPress(id)}
+          data={showHideOptions}
+          onPress={(id: string): void => setSettingsOptions(id, user)}
           translationKey="disabledSections"
         />
 
@@ -84,14 +106,20 @@ export const GameSettingsContent = () => {
           {t('common:settings.selectLanguage')}
         </SettingsDescription>
         <SettingsSelectLanguage
-          isOpen={viewModel.isLanguagesOpen}
+          selectedLanguage={selectedLanguage}
+          isOpen={isLanguagesOpen}
           setOpen={(value: boolean) => {
-            actions.setLanguagesOpen(value);
+            setLanguagesOpen(value);
             if (value) {
               languageViewRef?.current?.measureInWindow((_, y, _1, _2) => {
-                actions.handleScroll(scrollViewRef, y + 100);
+                handleScroll(scrollViewRef, y + 100);
               });
             }
+          }}
+          onSetLanguage={(value: string) => {
+            setSelectedLanguage(value as LanguageType);
+            onSetGameLanguage(value, user, selectedGame);
+            setLanguagesOpen(false);
           }}
         />
 
@@ -100,17 +128,15 @@ export const GameSettingsContent = () => {
         <Button
           title="Delete Account"
           color={theme.error}
-          onPress={(): void => actions.deleteUserData(viewModel.user.userId)}
+          onPress={(): void => deleteUserData(user.userId)}
         />
       </ScrollableList>
       {/* // TODO: Replace with bottom sheet */}
-      {!!viewModel.user.steamId &&
-      !!viewModel.profile &&
-      viewModel.profileVisible ? (
+      {!!user.steamId && !!profile && profileVisible ? (
         <SteamProfileModal
-          profile={viewModel.profile}
-          isVisible={viewModel.profileVisible}
-          onClose={(): void => actions.setProfileVisible(false)}
+          profile={profile}
+          isVisible={profileVisible}
+          onClose={(): void => setProfileVisible(false)}
         />
       ) : (
         <></>
