@@ -1,24 +1,37 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Image } from 'react-native';
 import { useTranslation } from 'react-i18next';
+import { AuthScreenEnum } from '@utils/index';
 import {
+  Button,
+  KeyboardAvoidingScrollView,
   Spacing,
   ParagraphView,
   StyledText,
   TextInput,
 } from '@components/general';
+import { useReactNavigation } from '@navigation/hooks';
 
-export const AddSteamProfile = ({
-  steamId,
-  setSteamId,
-}: {
-  steamId: string;
-  setSteamId: (id: string) => void;
-}) => {
+export const LinkSteamProfileContent = () => {
   const { t } = useTranslation();
+  const navigation = useReactNavigation();
+  const [steamId, setSteamId] = useState<string>('');
 
   return (
-    <>
+    <KeyboardAvoidingScrollView
+      awareView={
+        <Button
+          title={t('common:continue')}
+          type="footer"
+          disabled={steamId.length < 17}
+          onPress={async (): Promise<void> =>
+            navigation.navigate(AuthScreenEnum.SteamProfile, {
+              steamId,
+              viewType: 'add',
+            })
+          }
+        />
+      }>
       <ParagraphView>
         <StyledText type={'ListItemSubTitleBold'}>
           {t('common:steamAchievements.addSteamIdDesc1')}
@@ -49,6 +62,6 @@ export const AddSteamProfile = ({
         source={require('@styles/images/steam-public-details.png')}
         resizeMode="contain"
       />
-    </>
+    </KeyboardAvoidingScrollView>
   );
 };

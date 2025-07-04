@@ -18,7 +18,7 @@ export const useAchievements = () => {
   const { user, selectedGame } = useMainState();
   const [progressViewOpen, setProgressViewOpen] = useState<boolean>(true);
   const [steamAchievementsOpen, setSteamAchievementsOpen] =
-    useState<boolean>(false);
+    useState<boolean>(true);
   const [achievementsState, setAchievementsState] =
     useState<SteamAchievementsState>({
       hasPermission: !!user.steamId,

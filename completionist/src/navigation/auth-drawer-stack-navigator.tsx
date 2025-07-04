@@ -19,7 +19,7 @@ import {
   GameSettings,
   SendRequest,
   Achievements,
-  SteamAchievements,
+  LinkSteamProfile,
 } from '@screens/index';
 
 const Drawer = createDrawerNavigator<DrawerStackParamList>();
@@ -73,8 +73,8 @@ export const AuthDrawerStackNavigator = () => {
         component={Achievements}
       />
       <Drawer.Screen
-        name={DrawerScreenEnum.SteamAchievements}
-        component={SteamAchievements}
+        name={DrawerScreenEnum.LinkSteamProfile}
+        component={LinkSteamProfile}
       />
       <Drawer.Screen
         name={DrawerScreenEnum.GameSettings}

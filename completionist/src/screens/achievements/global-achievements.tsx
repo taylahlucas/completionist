@@ -15,8 +15,8 @@ import {
   SteamAchievementDropdownTitle,
   ProgressViewDropdown,
 } from '@components/custom';
-import { useGlobalAchievements } from './hooks';
 import { useReactNavigation } from '@navigation/hooks';
+import { useGlobalAchievements } from '@features/achievements/hooks';
 
 export const GlobalAchievements = () => {
   const { t } = useTranslation();

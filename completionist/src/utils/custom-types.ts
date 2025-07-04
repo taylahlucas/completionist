@@ -100,6 +100,7 @@ export type NavigatorParams = {
   [AuthScreenEnum.GlobalSteamAchievements]: undefined;
   [AuthScreenEnum.GlobalAchievements]: undefined;
   [AuthScreenEnum.PurchaseGame]: [gameId: GameKeyEnum];
+  [AuthScreenEnum.SteamProfile]: [steamId: string, viewType: 'add' | 'view'];
   [AuthScreenEnum.DrawerStack]: undefined;
   [DrawerScreenEnum.Quests]: undefined;
   [DrawerScreenEnum.Collectables]: undefined;
@@ -107,7 +108,7 @@ export type NavigatorParams = {
   [DrawerScreenEnum.Locations]: undefined;
   [DrawerScreenEnum.SendRequest]: undefined;
   [DrawerScreenEnum.Achievements]: undefined;
-  [DrawerScreenEnum.SteamAchievements]: undefined;
+  [DrawerScreenEnum.LinkSteamProfile]: undefined;
   [DrawerScreenEnum.Payments]: undefined;
   [DrawerScreenEnum.GameSettings]: undefined;
   [DrawerScreenEnum.AccountDetails]: undefined;
