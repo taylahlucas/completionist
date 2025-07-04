@@ -1,6 +1,6 @@
 import React from 'react';
-import { NavigationHeader } from '@navigation/index';
 import { useTranslation } from 'react-i18next';
+import { NavigationHeader } from '@navigation/index';
 import { StandardLayout } from '@components/general';
 import { UnauthorizedScreenEnum } from '@utils/index';
 import { SelectFirstGameContent } from '@features/signup';
