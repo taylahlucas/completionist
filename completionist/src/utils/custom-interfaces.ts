@@ -52,11 +52,11 @@ export interface PriceProps {
 }
 
 export interface SteamAchievementItem {
-  id: string;
-  name: string;
+  id?: string;
+  name?: string;
   description?: string;
-  icon: string;
-  unlocked: boolean;
+  icon?: string;
+  unlocked?: boolean;
 }
 
 export interface SteamAchievementsState {

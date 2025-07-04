@@ -109,7 +109,7 @@ export const getSteamPlayerAchievements = async ({
       return {
         hasPermission: response?.data.hasPermission,
         achievements: response?.data.achievements as SteamAchievementItem[],
-        noOfLocked: response?.data.noOfLocked,
+        noOfLocked: response?.data.noOfLocked || response?.data.remainingLocked,
       };
     }
   } catch (error: AxiosErrorResponse) {

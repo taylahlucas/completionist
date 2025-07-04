@@ -54,18 +54,17 @@ export const useAchievements = () => {
             hasPermission: false,
           });
         } else if (response && response?.achievements) {
-          const items: SteamAchievementItem[] =
-            response?.noOfLocked > 0
-              ? [
-                  {
-                    id: 'locked',
-                    name: response?.noOfLocked + ' Locked Achievements',
-                    description: 'Unlock these by playing more of the game',
-                    unlocked: false,
-                    icon: '',
-                  },
-                ]
-              : response?.achievements;
+          const items: SteamAchievementItem[] = [...response?.achievements];
+
+          if (response?.noOfLocked > 0) {
+            items.push({
+              id: 'locked',
+              name: `${response.noOfLocked} Locked Achievements`,
+              description: 'Unlock these by playing more of the game',
+              unlocked: false,
+              icon: '',
+            });
+          }
 
           setAchievementsState({
             ...achievementsState,
