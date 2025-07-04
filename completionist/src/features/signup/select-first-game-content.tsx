@@ -18,9 +18,9 @@ import {
 } from '@components/general';
 import { UnauthorizedScreenEnum } from '@utils/index';
 import { useTranslateGameContent } from '@data/hooks';
-import { useSelectFirstGame } from './hooks';
+import { useSelectFirstGame } from './hooks/use-select-first-game';
 
-export const SelectFirstGame = () => {
+export const SelectFirstGameContent = () => {
   const theme = useGetTheme();
   const { t } = useTranslation();
   const { viewModel, actions } = useSelectFirstGame();

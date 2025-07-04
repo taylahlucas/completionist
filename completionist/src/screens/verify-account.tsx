@@ -4,7 +4,7 @@ import { StandardLayout } from '@components/general';
 import { NavigationHeader } from '@navigation/index';
 import { UnauthorizedScreenEnum, UserResponse } from '@utils/index';
 import { VerificationContent } from '@components/custom';
-import { useVerifyAccount } from './hooks';
+import { useVerifyAccount } from './signup-flow/verify-account/hooks';
 import { getUserLang } from '@utils/helpers';
 
 export const VerifyAccount = () => {
