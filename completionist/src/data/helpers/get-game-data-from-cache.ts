@@ -42,10 +42,7 @@ export const getGameDataFromCache = async ({
       await saveToCache(response, newKey).then(() => {
         log({
           type: 'info',
-          title: 'Saved cached data with key',
-          data: {
-            key: newKey,
-          },
+          title: `Saved cached data with key: ${newKey}`,
         });
       });
 

@@ -5,3 +5,4 @@ export * from './navigation-drawer-item';
 export * from './navigation-header';
 export * from './navigation-styled-components';
 export * from './unauthorized-stack-navigator';
+export * from './sheet';

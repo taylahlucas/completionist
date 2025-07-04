@@ -14,6 +14,7 @@ import {
 } from '@components/general';
 import { IconTypeEnum } from '@utils/custom-enums';
 import { DEFAULT_BORDER_RADIUS, isSmallScreen } from '@styles/global';
+import { Sheet } from '@navigation/index';
 
 type ProfileViewType = 'add' | 'view';
 
@@ -40,15 +41,9 @@ export const SteamProfileSheet = () => {
   // }, []);
 
   return (
-    <View style={{ flex: 1, backgroundColor: 'rgba(0,0,0,0.4)' }}>
-      <BottomSheet
-        ref={bottomSheetRef}
-        index={1}
-        snapPoints={['50%']}
-        enablePanDownToClose>
-        <View style={{ flex: 1, height: 100, backgroundColor: 'white' }} />
-      </BottomSheet>
-    </View>
+    <Sheet>
+      <View style={{ height: 100, backgroundColor: 'white' }} />
+    </Sheet>
   );
 };
 

@@ -49,9 +49,11 @@ authInterceptor.interceptors.response.use(
       });
     }
     logSuccessfulApi({
-      title: getApiNameFromUrl(response.config.url ?? 'No Api Defined'),
+      title: 'Successful API Call',
       // data: response.data,
-      data: {},
+      data: {
+        api: getApiNameFromUrl(response.config.url ?? 'No Api Defined'),
+      },
     });
     return response;
   },
