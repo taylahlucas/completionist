@@ -2,9 +2,9 @@ import React from 'react';
 import { StandardLayout } from '@components/general';
 import { NavigationHeader } from '@navigation/index';
 import { DrawerScreenEnum } from '@utils/index';
-import { LinkSteamProfileContent } from '@features/achievements';
 import { useMainState } from '@redux/hooks';
 import { useTranslation } from 'react-i18next';
+import { LinkSteamProfileContent } from '@features/steam-profile';
 
 export const LinkSteamProfile = () => {
   const { t } = useTranslation();
