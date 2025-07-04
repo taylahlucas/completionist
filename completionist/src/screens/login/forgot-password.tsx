@@ -12,7 +12,7 @@ import {
 } from '@components/general';
 import { NavigationHeader } from '@navigation/index';
 import { UnauthorizedScreenEnum } from '@utils/index';
-import { useLogin } from './hooks';
+import { useLogin } from '@features/login/hooks';
 
 export const ForgotPassword = () => {
   const { t } = useTranslation();

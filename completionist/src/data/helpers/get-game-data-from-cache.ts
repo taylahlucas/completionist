@@ -39,12 +39,7 @@ export const getGameDataFromCache = async ({
         response?.filter(item => item.section === ContentSectionEnum.QUESTS)
           .length,
       );
-      await saveToCache(response, newKey).then(() => {
-        log({
-          type: 'info',
-          title: `Saved cached data with key: ${newKey}`,
-        });
-      });
+      await saveToCache(response, newKey);
 
       // Remove other databases from cache
       await getAllKeys().then(keys => {
