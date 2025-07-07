@@ -6,7 +6,7 @@ import {
   ContentSectionEnum,
   DrawerScreenEnum,
 } from '@utils/index';
-import { useContentState } from '@components/custom/content-list/provider';
+import { useContentState } from '@features/game-content/provider';
 import { filterActiveSections } from '@data/index';
 import { useMainState } from '@redux/hooks';
 

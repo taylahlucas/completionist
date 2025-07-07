@@ -4,8 +4,8 @@ import {
   useCheckContentComplete,
   useUpdateContent,
   useGetContent,
-} from './hooks';
-import { useContentDispatch } from './provider';
+} from '../hooks';
+import { useContentDispatch } from '../provider';
 
 export const ContentSearchResults = () => {
   const { setWebViewHref } = useContentDispatch();

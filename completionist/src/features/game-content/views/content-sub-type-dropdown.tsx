@@ -6,12 +6,12 @@ import {
   ScrollableList,
   listStyles,
 } from '@components/general';
-import { useContentState, useContentDispatch } from './provider';
+import { useContentState, useContentDispatch } from '../provider';
 import {
   useCheckContentComplete,
   useUpdateContent,
   useGetContent,
-} from './hooks';
+} from '../hooks';
 
 export interface ContentSubTypeDropdownProps {
   subCategory: string;

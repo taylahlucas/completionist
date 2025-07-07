@@ -8,7 +8,7 @@ import {
   User,
 } from '@utils/index';
 import { useMainDispatch } from '@redux/hooks';
-import { useContentDispatch } from '@components/custom/content-list/provider';
+import { useContentDispatch } from '@features/game-content/provider';
 import { useTranslation } from 'react-i18next';
 
 const triggerItem = (

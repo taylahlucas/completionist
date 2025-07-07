@@ -6,13 +6,11 @@ import {
   CompletedQuantityTitle,
 } from '@components/general';
 import { NavigationHeader } from '@navigation/index';
-import { DrawerScreenEnum } from '@utils/index';
-import { useGameContent } from './hooks';
-import { ContentList } from '@components/custom';
+import { ContentSectionEnum, DrawerScreenEnum } from '@utils/index';
+import { GameContent } from '@features/game-content/game-content';
 
 export const Collectables = () => {
   const { t } = useTranslation();
-  const { viewModel, actions } = useGameContent();
 
   return (
     <StandardLayout>
@@ -20,15 +18,7 @@ export const Collectables = () => {
         id={DrawerScreenEnum.Collectables}
         title={t('common:screens.collectables')}
       />
-      <CustomSearchBar
-        searchValue={viewModel.searchValue}
-        setSearchValue={actions.setSearchValue}
-        onReset={(): void => actions.setSearchValue('')}
-      />
-      <CompletedQuantityTitle type={'ListItemSubTitleBold'}>
-        {`${viewModel.collectables.completed}/${viewModel.collectables.total}`}
-      </CompletedQuantityTitle>
-      <ContentList />
+      <GameContent section={ContentSectionEnum.COLLECTABLES} />
     </StandardLayout>
   );
 };

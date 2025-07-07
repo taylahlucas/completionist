@@ -16,6 +16,7 @@ interface NavigationHeaderProps {
   isForm?: boolean;
   leftAction?: NavigationHeaderLeftActionTypes;
   rightAction?: NavigationHeaderRightActionTypes;
+  rightCallback?: () => void;
 }
 
 export const NavigationHeader = ({
@@ -24,11 +25,12 @@ export const NavigationHeader = ({
   isForm = false,
   leftAction = 'menu',
   rightAction = 'none',
+  rightCallback,
 }: NavigationHeaderProps) => {
   const theme = useGetTheme();
   const checkAuthScreen = (screen: ScreenEnumType) =>
     screen in DrawerScreenEnum;
-  const rightItem = useGetRightNavigationItem(rightAction);
+  const rightItem = useGetRightNavigationItem(rightAction, rightCallback);
   const leftItem = useGetLeftNavigationItem(
     leftAction,
     checkAuthScreen(id),

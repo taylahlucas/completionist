@@ -1,4 +1,5 @@
 export * from './achievements';
+export * from './game-content';
 export * from './game-selection';
 export * from './login';
 export * from './purchase-game';

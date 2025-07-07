@@ -7,7 +7,7 @@ import {
   NavigationDrawerTitle,
 } from './';
 import useGetTheme from '@styles/hooks/use-get-theme';
-import { useContentDispatch } from '@components/custom/content-list/provider';
+import { useContentDispatch } from '@features/game-content/provider';
 import { ContentSectionEnum } from '@utils/index';
 import { Condition } from '@components/general';
 

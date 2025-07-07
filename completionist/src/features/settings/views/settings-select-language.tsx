@@ -5,8 +5,7 @@ import {
   DropdownSelection,
   DropdownSelectionContent,
 } from '@components/general';
-import { languages } from 'src/i18n/i18n-common';
-import { GameData, LanguageType } from '@utils/index';
+import { GameData, languages, LanguageType } from '@utils/index';
 import { getGameLanguages, getLanguageInEn } from '@utils/hooks';
 
 interface SettingsSelectLanguageProps {

@@ -4,10 +4,10 @@ import {
   useCheckContentComplete,
   useUpdateContent,
   useGetContent,
-} from './hooks';
+} from '../hooks';
 import { ContentItem } from '@utils/index';
 import { EXTRA_LARGE_PADDING, DEFAULT_ITEM_HEIGHT } from '@styles/global';
-import { useContentDispatch } from './provider';
+import { useContentDispatch } from '../provider';
 
 export interface ContentMainListProps {
   mainCategory?: ContentItem;

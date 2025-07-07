@@ -1,11 +1,10 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import i18n from 'src/i18n/i18n.native';
 import { I18nextProvider } from 'react-i18next';
 import { Condition } from '@components/general';
-import { useMainState } from '@redux/hooks';
+import { useMainDispatch, useMainState } from '@redux/hooks';
 import { useInitUserData } from '@data/hooks';
 import { Landing } from './';
-import { usePlaySplashScreen } from '@utils/hooks';
 import { useTimedDataUpdate } from '@data/api/hooks';
 import {
   AuthStackNavigator,
@@ -15,9 +14,16 @@ import { useLoginState } from '@components/custom/login-form/provider';
 
 export const RootStackNavigator = () => {
   const { showSplashScreen } = useMainState();
+  const { setShowSplashScreen } = useMainDispatch();
   const { isAuthenticated } = useLoginState();
 
-  usePlaySplashScreen();
+  useEffect(() => {
+    const timerId = setTimeout(() => {
+      setShowSplashScreen(false);
+    }, 1500);
+
+    return () => clearTimeout(timerId);
+  }, []);
   useInitUserData();
   useTimedDataUpdate();
 

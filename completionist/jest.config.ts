@@ -15,12 +15,13 @@ const jestConfig: JestConfigWithTsJest = {
     ],
   },
   setupFiles: [
-    '<rootDir>/src/utils/testing/test-helper/setupReactAdapter.native.tsx',
+    '<rootDir>/src/utils/testing/test-helper/setup-react-adapter.tsx',
     '<rootDir>/src/utils/testing/test-helper/__mocks__/react-native-google-signin.js',
   ],
   setupFilesAfterEnv: ['@testing-library/jest-native/extend-expect'],
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
   moduleNameMapper: {
+    '^src/(.*)$': '<rootDir>/src/$1',
     '^@components/(.*)$': '<rootDir>/src/components/$1',
     '^@features/(.*)$': '<rootDir>/src/features/$1',
     '^@data/(.*)$': '<rootDir>/src/data/$1',

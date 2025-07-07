@@ -1,2 +1,2 @@
 export * from './global-achievements';
-export * from './link-steam-profile';
+export * from '../link-steam-profile';

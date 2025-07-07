@@ -6,7 +6,7 @@ import {
   initialFormData,
   useLoginDispatch,
 } from '@components/custom/login-form/provider';
-import { useContentDispatch } from '@components/custom/content-list/provider';
+import { useContentDispatch } from '@features/game-content/provider';
 import { log } from '@utils/hooks';
 import { ContentSectionEnum } from '@utils/index';
 

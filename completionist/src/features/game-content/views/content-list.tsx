@@ -5,8 +5,8 @@ import {
   Loading,
   WikiWebView,
 } from '@components/general';
-import { useContentState, useContentDispatch } from './provider';
-import { ContentMainDropdown, ContentSearchResults } from './';
+import { useContentState, useContentDispatch } from '../provider';
+import { ContentMainDropdown, ContentSearchResults } from '..';
 import {
   useCheckContentComplete,
   useGetContentCategories,

@@ -9,7 +9,7 @@ import { useReactNavigation } from '@navigation/hooks';
 import { useState } from 'react';
 import { getMappedGameData, getGameDataFromCache } from '@data/index';
 import { useMainState } from '@redux/hooks';
-import { useContentDispatch } from '@components/custom/content-list/provider';
+import { useContentDispatch } from '@features/game-content/provider';
 import { getGameLanguages } from '@utils/hooks';
 
 export const useGameListSelectionDropdown = () => {

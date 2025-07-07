@@ -35,7 +35,6 @@ jest.mock('react-i18next', () => ({
   Trans: ({ i18nKey, components }: TransProps): React.ReactElement | string =>
     components?.length ? components[0] : i18nKey,
 }));
-// jest.spyOn(i18next, 't').mockImplementation((key: string) => key);
 jest
   .spyOn(Image, 'resolveAssetSource')
   .mockImplementation(jest.fn())
@@ -59,3 +58,18 @@ jest.mock('@react-navigation/native', () => {
   };
 });
 jest.mock('react-native-localize', () => reactNativeLocalizeMock);
+jest.mock('react-native-webview', () => {
+  const { View } = require('react-native');
+  return {
+    WebView: (props: any) => <View {...props} />,
+  };
+});
+jest.mock('@stripe/stripe-react-native', () => {
+  return {
+    StripeProvider: ({ children }: { children: React.ReactNode }) => children,
+    useStripe: () => ({
+      initPaymentSheet: jest.fn(),
+      presentPaymentSheet: jest.fn(),
+    }),
+  };
+});

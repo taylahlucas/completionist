@@ -48,6 +48,22 @@ export const urls = [
   'ISteamUserStats',
 ];
 
+export const languages = [
+  'ar',
+  'de',
+  'en',
+  'es',
+  'fr',
+  'hi',
+  'id',
+  'it',
+  'ja',
+  'pt',
+  'tr',
+  'vi',
+  'zh',
+];
+
 // MARK: Update with new game data
 export const gameLanguages: { key: GameKeyEnum; langs: LanguageType[] }[] = [
   {

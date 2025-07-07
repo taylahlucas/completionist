@@ -1,6 +1,6 @@
 import { GameContentItem } from '@utils/index';
-import { useContentState } from '../provider';
 import { getFormattedSearchString } from '@utils/hooks';
+import { useContentState } from '@features/game-content/provider';
 
 interface GameDataReturnType {
   getFilteredContent: () => GameContentItem[];

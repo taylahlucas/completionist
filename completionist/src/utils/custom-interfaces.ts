@@ -10,7 +10,7 @@ import { NavigationAction, NavigationState } from '@react-navigation/native';
 import { MainState } from '@redux/main-state';
 import { SettingsState } from '@features/settings/provider';
 import { LoginState } from '@components/custom/login-form/provider';
-import { ContentState } from '@components/custom/content-list/provider';
+import { ContentState } from '@features/game-content/provider';
 import { LanguageType, ScreenEnumType } from './custom-types';
 
 export interface ContentItem {

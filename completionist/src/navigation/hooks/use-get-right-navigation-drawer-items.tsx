@@ -3,22 +3,17 @@ import {
   navigationStyles,
   NavigationEmptyContainer,
 } from '@navigation/navigation-styled-components';
-import {
-  IconTypeEnum,
-  AuthScreenEnum,
-  NavigationHeaderRightActionTypes,
-} from '@utils/index';
+import { IconTypeEnum, NavigationHeaderRightActionTypes } from '@utils/index';
 import useGetTheme from '@styles/hooks/use-get-theme';
 import { IconButton } from '@components/general';
-import { useGetLoginMethods } from '@components/custom/login-form/hooks';
 import { useReactNavigation } from './';
 
 export const useGetRightNavigationItem = (
   rightAction: NavigationHeaderRightActionTypes,
+  rightCallback?: () => void,
 ): JSX.Element => {
   const theme = useGetTheme();
   const navigation = useReactNavigation();
-  const { signOut } = useGetLoginMethods();
 
   switch (rightAction) {
     case 'back':
@@ -39,9 +34,7 @@ export const useGetRightNavigationItem = (
           type={IconTypeEnum.Ionicons}
           color={theme.lightGrey}
           size={34}
-          onPress={(): void =>
-            navigation.navigate(AuthScreenEnum.GlobalSettings)
-          }
+          onPress={(): void => rightCallback?.()}
         />
       );
     case 'filter':
@@ -52,9 +45,7 @@ export const useGetRightNavigationItem = (
           type={IconTypeEnum.MaterialCommunityIcons}
           color={theme.lightGrey}
           size={40}
-          onPress={() => {
-            console.log('SHOW FILTER');
-          }}
+          onPress={(): void => rightCallback?.()}
         />
       );
     case 'logout':
@@ -64,7 +55,7 @@ export const useGetRightNavigationItem = (
           name="logout"
           color={theme.lightGrey}
           size={30}
-          onPress={signOut}
+          onPress={(): void => rightCallback?.()}
         />
       );
     default:
