@@ -1,14 +1,14 @@
 import React from 'react';
 import useGetTheme from '@styles/hooks/use-get-theme';
 import { Condition } from '@components/general';
+import { SteamAchievementItem } from '@utils/index';
 import {
   SteamAchievementIcon,
   SteamAchievementViewContainer,
   SteamAchievementIconContainerCol,
   SteamItemTitle,
   SteamItemDescription,
-} from './';
-import { SteamAchievementItem } from '@utils/index';
+} from './steam-achievement-styled-components';
 
 interface SteamAchievementViewProps {
   item: SteamAchievementItem;

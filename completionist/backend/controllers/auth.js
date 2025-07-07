@@ -3,7 +3,12 @@ const { dynamoDbDocClient } = require('../client');
 const { PutCommand, UpdateCommand } = require('@aws-sdk/lib-dynamodb');
 const hashPw = require('../helpers/hash-password');
 const comparePws = require('../helpers/compare-passwords');
-const { response_code, response_message } = require('../helpers/response-code');
+const {
+  response_code,
+  response_message,
+  loggerType,
+  apiNames,
+} = require('../utils/constants');
 const { checkEmailExists } = require('../helpers/check-existing-user');
 const userSchema = require('../models/user');
 const createUser = require('../helpers/create-user');
@@ -12,6 +17,7 @@ const {
   createRefreshToken,
 } = require('../helpers/create-tokens');
 const cache = require('../cache');
+const { log } = require('../helpers/logger');
 
 var params = {
   TableName: process.env.AWS_TABLE_NAME,
@@ -22,15 +28,22 @@ const ttlInSeconds = 60 * 24 * 60 * 60;
 
 const checkUserExists = async (req, res) => {
   const { email } = req.body;
+  log(loggerType.request, apiNames.checkUserExists, { email });
   // Checks if user exists and whether they have a regular or google account set up
   const existingUser = await checkEmailExists(dynamoDbDocClient, email);
-  console.log('checkUserExists');
+
   if (existingUser) {
+    log(loggerType.success, apiNames.checkUserExists, {
+      existingUser: true,
+      regular: existingUser ? existingUser.pw : false,
+      google: existingUser ? existingUser.googleId : false,
+    });
     return res.status(response_code.SUCCESS).json({
-      regular: existingUser ? !!existingUser.pw : false,
-      google: existingUser ? !!existingUser.googleId : false,
+      regular: existingUser ? existingUser.pw : false,
+      google: existingUser ? existingUser.googleId : false,
     });
   } else {
+    log(loggerType.success, apiNames.checkUserExists, { existingUser: false });
     return res.status(response_code.SUCCESS).json({
       regular: false,
       google: false,
@@ -39,7 +52,6 @@ const checkUserExists = async (req, res) => {
 };
 
 const signup = async (req, res) => {
-  console.log('signup');
   const {
     userId,
     username,
@@ -50,8 +62,16 @@ const signup = async (req, res) => {
     signup,
     settings,
   } = req.body;
+  log(loggerType.request, apiNames.signup, {
+    userId,
+    email,
+  });
   const existingUser = await checkEmailExists(dynamoDbDocClient, email);
   if (existingUser) {
+    log(loggerType.error, apiNames.signup, {
+      code: response_code.EMAIL_TAKEN,
+      message: response_message.EMAIL_TAKEN,
+    });
     return res.status(response_code.EMAIL_TAKEN).json({
       error: response_message.EMAIL_TAKEN,
     });
@@ -80,7 +100,7 @@ const signup = async (req, res) => {
   const updatedUser = createUser(user);
   const { err, value: validatedUser } = userSchema.validate(updatedUser);
   if (err) {
-    console.log('Signup User Validation Error: ', err);
+    log(loggerType.error, apiNames.signup, { err });
     return res.status(response_code.FAILURE).json(err.message);
   }
   params = {
@@ -97,27 +117,34 @@ const signup = async (req, res) => {
 
     const { pw, googleId, ...rest } = validatedUser;
 
-    console.log('Signup Success');
+    log(loggerType.success, apiNames.signup);
     return res.json({
       token,
       refreshTokenExpiry: ttlInSeconds,
       user: rest,
     });
   } catch (err) {
-    console.log('Signup Error: ', err);
+    log(loggerType.error, apiNames.signup, { err });
     return res.status(response_code.FAILURE).json(err.message);
   }
 };
 
 const signin = async (req, res) => {
-  console.log('signin');
   try {
     const { email, pw, googleId } = req.body;
+    log(loggerType.request, apiNames.signin, {
+      email,
+    });
+
     const existingUser = await checkEmailExists(dynamoDbDocClient, email);
     if (!existingUser) {
+      log(loggerType.error, apiNames.signin, {
+        code: response_code.NO_USER_FOUND,
+        message: response_message.NO_USER_FOUND,
+      });
       return res
         .status(response_code.NO_USER_FOUND)
-        .json({ error: 'No user found.' });
+        .json({ error: response_message.NO_USER_FOUND });
     }
     const userId = existingUser.userId;
 
@@ -147,6 +174,10 @@ const signin = async (req, res) => {
         await dynamoDbDocClient.send(new UpdateCommand(params));
         console.log(`Password attemps for user ${email} updated successfully`);
 
+        log(loggerType.error, apiNames.signin, {
+          code: response_code.WRONG_PASSWORD,
+          message: response_code.WRONG_PASSWORD,
+        });
         // TODO: Add attempts + incorrect attemps
         return res.status(response_code.WRONG_PASSWORD).json({
           error: response_message.WRONG_PASSWORD,
@@ -155,6 +186,10 @@ const signin = async (req, res) => {
     } else if (existingUser.googleId && googleId) {
       const match = await comparePws(googleId, existingUser.googleId);
       if (!match) {
+        log(loggerType.error, apiNames.signin, {
+          code: response_code.WRONG_PASSWORD,
+          message: response_code.WRONG_PASSWORD,
+        });
         return res.status(response_code.WRONG_PASSWORD).json({
           error: response_message.WRONG_GOOGLE_ID,
         });
@@ -170,6 +205,8 @@ const signin = async (req, res) => {
     existingUser.googleId = undefined;
     existingUser.secret = undefined;
 
+    log(loggerType.success, apiNames.signin);
+
     // Response with token and user data
     return res.status(response_code.SUCCESS).json({
       token,
@@ -177,13 +214,16 @@ const signin = async (req, res) => {
       user: existingUser,
     });
   } catch (err) {
-    console.log('FAILED: ', err.message);
+    log(loggerType.error, apiNames.signin, {
+      err,
+    });
     return res.status(response_code.FAILURE).json(err.message);
   }
 };
 
 const linkAndSignIn = async (req, res) => {
   const { email, pw, googleId } = req.body;
+  log(loggerType.request, apiNames.linkAndSignIn, { email });
   const existingUser = await checkEmailExists(dynamoDbDocClient, email);
   if (!existingUser) {
     return res
@@ -231,14 +271,14 @@ const linkAndSignIn = async (req, res) => {
 
     const { pw, googleId, ...rest } = existingUser;
 
-    console.log('User successfully linked');
+    log(loggerType.success, apiNames.linkAndSignIn);
     return res.json({
       token,
       refreshTokenExpiry: ttlInSeconds,
       user: rest,
     });
   } catch (err) {
-    console.log('linkAndSignIn Error: ', err);
+    log(loggerType.error, apiNames.linkAndSignIn, { err });
     return res.status(response_code.FAILURE).json(err.message);
   }
 };
@@ -246,6 +286,7 @@ const linkAndSignIn = async (req, res) => {
 const forgotPw = async (req, res) => {
   try {
     const { email, newPw } = req.body;
+    log(loggerType.request, apiNames.forgotPw, { email });
     const existingUser = await checkEmailExists(dynamoDbDocClient, email);
     if (!existingUser) {
       return res
@@ -272,10 +313,10 @@ const forgotPw = async (req, res) => {
     };
 
     await dynamoDbDocClient.send(new UpdateCommand(params));
-    console.log(`Password for user with ID ${userId} updated successfully`);
+    log(loggerType.success, apiNames.forgotPw);
     return res.status(response_code.SUCCESS).json({ ok: true });
   } catch (err) {
-    console.log('forgotPw Error: ', err.message);
+    log(loggerType.error, apiNames.forgotPw, { err });
     return res.status(response_code.FAILURE).json(err.message);
   }
 };

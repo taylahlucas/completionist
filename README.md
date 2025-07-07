@@ -18,7 +18,7 @@ npx react-native run-ios --port 8002
 
 - cd backend
 - npm install
-- node server.js
+- npm run start or npm run start:dev
 
 # Packages
 

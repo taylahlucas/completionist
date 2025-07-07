@@ -5,7 +5,7 @@ import defaultStyle from '@styles/Font/FontStyle';
 import useGetTheme from '@styles/hooks/use-get-theme';
 
 interface StyledTextProps extends TextProps {
-  children: string;
+  children: React.ReactNode;
   type?: FontType;
   color?: string;
   style?: any;

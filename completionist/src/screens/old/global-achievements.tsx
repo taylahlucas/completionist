@@ -10,13 +10,11 @@ import {
 } from '@components/general';
 import { NavigationHeader } from '@navigation/index';
 import { AuthScreenEnum } from '@utils/index';
-import {
-  SteamAchievementView,
-  SteamAchievementDropdownTitle,
-  ProgressViewDropdown,
-} from '@components/custom';
+
 import { useReactNavigation } from '@navigation/hooks';
 import { useGlobalAchievements } from '@features/achievements/hooks';
+import { SteamAchievementDropdownTitle } from '@features/steam-profile/views';
+import { ProgressViewDropdown } from '@features/achievements/views';
 
 export const GlobalAchievements = () => {
   const { t } = useTranslation();

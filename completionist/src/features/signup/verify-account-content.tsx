@@ -3,9 +3,9 @@ import { useTranslation } from 'react-i18next';
 import { StandardLayout } from '@components/general';
 import { NavigationHeader } from '@navigation/index';
 import { UnauthorizedScreenEnum, UserResponse } from '@utils/index';
-import { VerificationContent } from '@components/custom';
 import { getUserLang } from '@utils/helpers';
 import { useVerifyAccount } from './hooks';
+import { VerificationContent } from './views/verification-content';
 
 export const VerifyAccountContent = () => {
   const { viewModel, actions } = useVerifyAccount();

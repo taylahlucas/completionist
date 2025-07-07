@@ -1,8 +1,9 @@
 const { dynamoDbDocClient } = require('../client');
 const { QueryCommand, UpdateCommand } = require('@aws-sdk/lib-dynamodb');
 const authWrapper = require('../helpers/auth-wrapper');
-const { response_code } = require('../helpers/response-code');
+const { response_code, loggerType, apiNames } = require('../utils/constants');
 const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
+const log = require('../helpers/logger');
 
 var params = {
   TableName: process.env.AWS_TABLE_NAME,
@@ -30,6 +31,7 @@ const updateStripeId = async (userId, customerId) => {
 const createPayment = authWrapper({
   authFunction: async (req, res, token) => {
     const userId = req.params.userId;
+    log(loggerType.request, apiNames.createPayment, { userId });
     const stripeAuthHeader = req.headers['x-secondary-auth'];
     const { amount, game } = req.body;
 
@@ -77,6 +79,7 @@ const createPayment = authWrapper({
       },
     });
 
+    log(loggerType.success, apiNames.createPayment);
     return res.status(response_code.SUCCESS).json({
       token: token,
       paymentIntent: paymentIntent.client_secret,
@@ -88,7 +91,7 @@ const createPayment = authWrapper({
     });
   },
   onError: (res, err) => {
-    console.log('Error creating payment intent:', err);
+    log(loggerType.error, apiNames.createPayment, { err });
     return res.status(500).json({ error: err.message });
   },
 });

@@ -10,7 +10,7 @@ import {
 } from '@components/general';
 import { Spacing } from '@components/general/index';
 import { VERIFICATION_ENTRY_LENGTH } from '@utils/index';
-import { useSendVerificationEmail } from '../login-form/hooks';
+import { useSendVerificationEmail } from '../../../components/custom/login-form/hooks';
 
 interface VerificationContentProps {
   email: string;

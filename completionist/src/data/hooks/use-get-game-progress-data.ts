@@ -5,9 +5,8 @@ import {
   GameKeyEnum,
   Item,
 } from '@utils/index';
-import { getCurrentGame } from '@data/hooks';
 import { useContentState } from '@components/custom/content-list/provider';
-import { filterActiveSections } from '@data/index';
+import { filterActiveSections, getCurrentGame } from '@data/index';
 
 export const useGetGameProgressData = () => {
   const { user, selectedGame } = useMainState();

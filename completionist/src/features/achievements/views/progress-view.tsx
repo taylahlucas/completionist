@@ -2,9 +2,10 @@ import React from 'react';
 import { View } from 'react-native';
 import useGetTheme from '@styles/hooks/use-get-theme';
 import { GameKeyEnum, ProgressItemData } from '@utils/index';
-import { ProgressChartItem } from './';
+import { ProgressChartItem } from '.';
 import { STANDARD_WIDTH } from '@styles/global';
-import { useGetGameProgress } from './hooks';
+import { useMainState } from '@redux/hooks';
+import { getGameProgressForSection } from './helpers';
 
 interface ProgressViewProps {
   gameId: string;
@@ -13,7 +14,7 @@ interface ProgressViewProps {
 
 export const ProgressView = ({ gameId, data }: ProgressViewProps) => {
   const theme = useGetTheme();
-  const { getGameProgress } = useGetGameProgress();
+  const { user } = useMainState();
   const colors = [theme.lightPurple, '#E63656', '#26AB9D', '#D1A34D'];
 
   return (
@@ -28,7 +29,11 @@ export const ProgressView = ({ gameId, data }: ProgressViewProps) => {
         <ProgressChartItem
           key={item.id}
           id={item.id}
-          current={getGameProgress(gameId as GameKeyEnum, item.id)}
+          current={getGameProgressForSection(
+            gameId as GameKeyEnum,
+            item.id,
+            user,
+          )}
           total={item.total}
           foregroundColor={colors[index]}
           backgroundColor={theme.darkGrey}

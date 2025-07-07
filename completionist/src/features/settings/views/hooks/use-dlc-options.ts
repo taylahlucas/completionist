@@ -2,7 +2,7 @@ import { useTranslation } from 'react-i18next';
 import { useMainState } from '@redux/hooks';
 import { GameKeyEnum, SettingsConfigItem, IsActive } from '@utils/index';
 import { useMainDispatch } from '@redux/hooks';
-import { getCurrentGame } from '@data/hooks/index';
+import { getCurrentGame } from '@data/helpers';
 
 interface DLCOptionsReturnType {
   getDLCOptions: () => IsActive[];

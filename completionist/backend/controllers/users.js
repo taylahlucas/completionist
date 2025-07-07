@@ -4,10 +4,16 @@ const {
   UpdateCommand,
   DeleteCommand,
 } = require('@aws-sdk/lib-dynamodb');
-const { response_code, response_message } = require('../helpers/response-code');
 const authWrapper = require('../helpers/auth-wrapper');
 const hashPw = require('../helpers/hash-password');
 const comparePws = require('../helpers/compare-passwords');
+const {
+  response_code,
+  response_message,
+  loggerType,
+  apiNames,
+} = require('../utils/constants');
+const log = require('../helpers/logger');
 
 var params = {
   TableName: process.env.AWS_TABLE_NAME,
@@ -16,6 +22,7 @@ var params = {
 const getUserByUserId = authWrapper({
   authFunction: async (req, res, token) => {
     const userId = req.params.userId;
+    log(loggerType.request, apiNames.getUserByUserId, { userId });
     params = {
       ...params,
       KeyConditionExpression: 'userId = :userId',
@@ -25,11 +32,11 @@ const getUserByUserId = authWrapper({
     };
     const response = await dynamoDbDocClient.send(new QueryCommand(params));
     if (!response.Items.length) {
-      console.log('getUserByUserId No Match');
+      log(loggerType.success, apiNames.getUserByUserId, { match: false });
       return res.status(response_code.SUCCESS);
     } else {
       const user = response.Items[0];
-      console.log('getUserByUserId Query succeeded');
+      log(loggerType.success, apiNames.getUserByUserId, { match: true });
       return res.status(response_code.SUCCESS).json({
         user,
         userId,
@@ -37,8 +44,8 @@ const getUserByUserId = authWrapper({
       });
     }
   },
-  onError: (res, error) => {
-    console.log('getUserByUserId Error: ', error.message);
+  onError: (res, err) => {
+    log(loggerType.error, apiNames.getUserByUserId, { err });
     return res.status(response_code.FAILURE);
   },
 });
@@ -46,6 +53,7 @@ const getUserByUserId = authWrapper({
 const updateUser = authWrapper({
   authFunction: async (req, res, token) => {
     const userId = req.params.userId;
+    log(loggerType.request, apiNames.updateUser, { userId });
     const { username, email, steamId, signup, settings, gameData } = req.body;
     let updateExpression =
       'set username = :username, email = :email, signup = :signup, settings = :settings, gameData = :gameData';
@@ -74,11 +82,11 @@ const updateUser = authWrapper({
     };
 
     await dynamoDbDocClient.send(new UpdateCommand(params));
-    console.log(`User with ID ${userId} updated successfully`);
+    log(loggerType.success, apiNames.updateUser);
     return res.status(response_code.SUCCESS).json({ ok: true, userId, token });
   },
   onError: (res, err) => {
-    console.log('updateUser Error: ', err.message);
+    log(loggerType.error, apiNames.updateUser, { err });
     return res.status(response_code.FAILURE).json(err.message);
   },
 });
@@ -86,6 +94,7 @@ const updateUser = authWrapper({
 const changePassword = authWrapper({
   authFunction: async (req, res, token) => {
     const userId = req.params.userId;
+    log(loggerType.request, apiNames.changePassword, { userId });
     const { oldPw, newPw } = req.body;
 
     // Get user pw from backend
@@ -101,7 +110,10 @@ const changePassword = authWrapper({
     };
     const response = await dynamoDbDocClient.send(new QueryCommand(params));
     if (!response.Items.length) {
-      console.log('getUserByUserId No Match');
+      log(loggerType.error, apiNames.changePassword, {
+        code: response_code.NO_USER_FOUND,
+        message: response_code.NO_USER_FOUND,
+      });
       return res
         .status(response_code.NO_USER_FOUND)
         .json({ error: response_message.NO_USER_FOUND });
@@ -112,6 +124,10 @@ const changePassword = authWrapper({
     if (user.pw && oldPw) {
       const match = await comparePws(oldPw, user.pw);
       if (!match) {
+        log(loggerType.error, apiNames.changePassword, {
+          code: response_code.WRONG_PASSWORD,
+          message: response_code.WRONG_PASSWORD,
+        });
         return res.status(response_code.WRONG_PASSWORD).json({
           error: response_message.WRONG_PASSWORD,
         });
@@ -137,11 +153,11 @@ const changePassword = authWrapper({
     };
 
     await dynamoDbDocClient.send(new UpdateCommand(params));
-    console.log(`Password for user with ID ${userId} updated successfully`);
+    log(loggerType.success, apiNames.changePassword);
     return res.status(response_code.SUCCESS).json({ ok: true, userId, token });
   },
   onError: (res, err) => {
-    console.log('changePassword Error: ', err.message);
+    log(loggerType.error, apiNames.changePassword, { err });
     return res.status(response_code.FAILURE).json(err.message);
   },
 });
@@ -149,7 +165,7 @@ const changePassword = authWrapper({
 const deleteUser = authWrapper({
   authFunction: async (req, res) => {
     const userId = req.params.userId;
-    console.log('deleting user userId: ', userId);
+    log(loggerType.request, apiNames.deleteUser, { userId });
     params = {
       ...params,
       Key: {
@@ -161,11 +177,11 @@ const deleteUser = authWrapper({
       },
     };
     await dynamoDbDocClient.send(new DeleteCommand(params));
-    console.log('User deleted successfully');
+    log(loggerType.success, apiNames.deleteUser);
     return res.status(response_code.SUCCESS).json({ ok: true });
   },
   onError: (res, err) => {
-    console.log('deleteUser Error: ', err.message);
+    log(loggerType.error, apiNames.deleteUser, { err });
     return res.status(response_code.FAILURE).json(err.message);
   },
 });

@@ -5,10 +5,9 @@ import {
   fireEvent,
   waitFor,
 } from '@utils/testing/test-library-utils';
-import VerificationContent from '../verification-content';
-import * as useSendVerificationEmail from '@components/custom/LoginForm/hooks/useSendVerificationEmail';
-import { mockAlert } from '@utils/testing/mocks';
-import { mockAuthEndpoints } from '@utils/testing/mocks/mockAuthEndpoints';
+import { mockAlert, mockAuthEndpoints } from '@utils/testing/mocks';
+import { VerificationContent } from '../views';
+import * as useSendVerificationEmail from '@components/custom/login-form/hooks';
 
 describe('VerificationContent', () => {
   const buttonActionMock = jest.fn();
@@ -85,7 +84,7 @@ describe('VerificationContent', () => {
     it('calls sendVerification and displays an alert when resend button is pressed', () => {
       const sendVerificationMock = jest.fn();
       jest
-        .spyOn(useSendVerificationEmail, 'default')
+        .spyOn(useSendVerificationEmail, 'useSendVerificationEmail')
         .mockReturnValue(sendVerificationMock);
 
       render(<VerificationContent {...props} />);

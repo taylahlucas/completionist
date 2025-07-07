@@ -6,19 +6,19 @@ import {
   ScrollableList,
   Spacing,
 } from '@components/general';
-import {
-  SettingsDescription,
-  SettingsAccountDetails,
-  SettingsSelectLanguage,
-} from '@components/custom';
 import { useMainDispatch, useMainState } from '@redux/hooks';
-import { useEditUserData, getSteamUserById } from '@data/index';
+import { useEditUserData } from '@data/index';
 import useGetTheme from '@styles/hooks/use-get-theme';
 import { handleScroll } from '@utils/hooks';
 import { useTranslation } from 'react-i18next';
 import { LanguageType } from '@utils/custom-types';
 import { useReactNavigation } from '@navigation/hooks';
 import { AuthScreenEnum } from '@utils/custom-enums';
+import {
+  SettingsAccountDetails,
+  SettingsDescription,
+  SettingsSelectLanguage,
+} from './views';
 
 export const GlobalSettingsContent = () => {
   const { t, i18n } = useTranslation();
@@ -72,7 +72,7 @@ export const GlobalSettingsContent = () => {
             });
           }
         }}
-        onSetLanguage={(value): void => {
+        onSetLanguage={(value: string): void => {
           i18n.changeLanguage(value);
           setUser({
             ...user,

@@ -15,10 +15,10 @@ import { useReactNavigation } from '@navigation/hooks';
 import { useAchievements } from './hooks';
 import { SMALL_PADDING } from '@styles/global';
 import {
-  ProgressView,
-  SteamAchievementView,
   SteamAchievementDropdownTitle,
-} from '@components/custom';
+  SteamAchievementView,
+} from '@features/steam-profile/views';
+import { ProgressView } from './views';
 
 export const AchievementsContent = () => {
   const { t } = useTranslation();

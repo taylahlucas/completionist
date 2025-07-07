@@ -8,8 +8,8 @@ import {
 } from '@utils/index';
 import { handleAxiosError } from './handle-axios-error';
 import envConfig from '@utils/configs/config';
-import { getCredentials, storeCredentials } from '@data/hooks';
 import { baseUrl } from './urls';
+import { getCredentials, storeCredentials } from '@data/cache';
 
 const authInterceptor = axios.create({
   baseURL: baseUrl,

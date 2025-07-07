@@ -1,8 +1,8 @@
 import React from 'react';
 // import { useTranslation } from 'react-i18next';
 import { UserResponse } from '@utils/index';
-import { VerificationContent } from '@components/custom';
 import { useVerifyAccount } from './hooks';
+import { VerificationContent } from './views';
 
 export const LinkAccountContent = () => {
   const { viewModel, actions } = useVerifyAccount();

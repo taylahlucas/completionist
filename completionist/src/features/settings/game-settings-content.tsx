@@ -8,20 +8,20 @@ import {
   ScrollableList,
   SelectionList,
 } from '@components/general';
-import {
-  SettingsDescription,
-  SettingsAccountDetails,
-  SettingsGameCollections,
-  SettingsSelectLanguage,
-} from '@components/custom';
 import useGetTheme from '@styles/hooks/use-get-theme';
 import { useGameSettings } from './hooks';
 import { useMainState } from '@redux/hooks';
-import { SteamProfile, LanguageType, AuthScreenEnum } from '@utils/index';
-import { getSteamUserById, useEditUserData } from '@data/index';
+import { LanguageType, AuthScreenEnum } from '@utils/index';
+import { useEditUserData } from '@data/index';
 import { handleScroll } from '@utils/hooks';
 import { useDLCOptions, useGetShowHideOptions } from './views/hooks';
 import { useReactNavigation } from '@navigation/hooks';
+import {
+  SettingsAccountDetails,
+  SettingsDescription,
+  SettingsGameCollections,
+  SettingsSelectLanguage,
+} from './views';
 
 export const GameSettingsContent = () => {
   const { t } = useTranslation();

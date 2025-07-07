@@ -13,6 +13,7 @@ export const ContentSearchResults = () => {
   const { checkContentComplete } = useCheckContentComplete();
   const { updateContentComplete } = useUpdateContent();
 
+  // TODO: Change here to display all data in sections
   return (
     <ScrollableList>
       {getFilteredContent().map((item, index) => (

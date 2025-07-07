@@ -1,6 +1,6 @@
 const axios = require('axios');
 const cheerio = require('cheerio');
-const { response_code } = require('../helpers/response-code');
+const { response_code } = require('../utils/constants');
 const authWrapper = require('../helpers/auth-wrapper');
 
 const getSteamProfile = authWrapper({

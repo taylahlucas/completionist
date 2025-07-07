@@ -9,7 +9,7 @@ import {
   KeyboardAvoidingScrollView,
 } from '@components/general';
 import { useAccountDetails } from '../../features/settings/hooks';
-import { AccountDetailsFieldTitle } from '@components/custom';
+import { AccountDetailsFieldTitle } from './views';
 
 export const AccountDetailsContent = ({
   setIsForm,

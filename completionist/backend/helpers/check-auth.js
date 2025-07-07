@@ -1,9 +1,13 @@
 const jwt = require('jsonwebtoken');
-const { response_code, response_message } = require('./response-code');
+const { response_code, response_message } = require('../utils/constants');
 
 async function checkAuthToken(token, secret, res) {
   try {
     if (!token) {
+      log(loggerType.error, apiNames.authToken, {
+        code: response_code.UNAUTHORIZED,
+        message: response_code.UNAUTHORIZED,
+      });
       res
         .status(response_code.UNAUTHORIZED)
         .json({ error: response_message.UNAUTHORIZED });
@@ -12,7 +16,7 @@ async function checkAuthToken(token, secret, res) {
     jwt.verify(token, secret);
     return true;
   } catch (err) {
-    console.log('Error with authentication: ', err.message);
+    log(loggerType.error, apiNames.authToken, { err });
     return false;
   }
 }

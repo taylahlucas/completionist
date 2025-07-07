@@ -1,11 +1,12 @@
 const nodemailer = require('nodemailer');
-const { response_code } = require('../helpers/response-code');
+const { response_code, loggerType, apiNames } = require('../utils/constants');
 const authWrapper = require('../helpers/auth-wrapper');
+const log = require('../helpers/logger');
 
 const sendVerificationEmail = async (req, res) => {
   try {
     const { to, subject, text } = req.body;
-
+    log(loggerType.request, apiNames.sendVerificationEmail, { to, subject });
     const transporter = nodemailer.createTransport({
       host: 'smtp.gmail.com',
       auth: {
@@ -22,12 +23,12 @@ const sendVerificationEmail = async (req, res) => {
       text,
     });
 
-    console.log('Verification Email sent successfully');
+    log(loggerType.success, apiNames.sendVerificationEmail);
     return res.status(response_code.SUCCESS).json({ ok: true });
-  } catch (error) {
-    console.log('Send Verification Email Error: ', error);
-    if (error.status) {
-      return res.status(error.status).json({ error: error.message });
+  } catch (err) {
+    log(loggerType.error, apiNames.sendVerificationEmail, { err });
+    if (err.status) {
+      return res.status(err.status).json({ error: err.message });
     }
   }
 };
@@ -35,7 +36,7 @@ const sendVerificationEmail = async (req, res) => {
 const sendEmail = authWrapper({
   authFunction: async (req, res) => {
     const { from, subject, text } = req.body;
-
+    log(loggerType.request, apiNames.sendEmail, { to, subject });
     const transporter = nodemailer.createTransport({
       host: 'smtp.gmail.com',
       auth: {
@@ -51,11 +52,11 @@ const sendEmail = authWrapper({
       text,
     });
 
-    console.log('Email sent successfully');
+    log(loggerType.success, apiNames.sendEmail);
     return res.status(response_code.SUCCESS).json({ ok: true });
   },
   onError: (res, err) => {
-    console.log('Send Email Error: ', err.message);
+    log(loggerType.error, apiNames.sendEmail, { err });
     if (error.status) {
       return res.status(error.status).json({ error: error.message });
     }
