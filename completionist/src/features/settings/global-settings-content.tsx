@@ -12,24 +12,23 @@ import {
   SettingsSelectLanguage,
 } from '@components/custom';
 import { useMainDispatch, useMainState } from '@redux/hooks';
-import { SteamProfile } from '@utils/custom-interfaces';
 import { useEditUserData, getSteamUserById } from '@data/index';
 import useGetTheme from '@styles/hooks/use-get-theme';
 import { handleScroll } from '@utils/hooks';
 import { useTranslation } from 'react-i18next';
-import { SteamProfileModal } from '@screens/achievements';
 import { LanguageType } from '@utils/custom-types';
+import { useReactNavigation } from '@navigation/hooks';
+import { AuthScreenEnum } from '@utils/custom-enums';
 
 export const GlobalSettingsContent = () => {
   const { t, i18n } = useTranslation();
   const theme = useGetTheme();
+  const navigation = useReactNavigation();
 
   const scrollViewRef = useRef<ScrollView>(null);
   const languageViewRef = useRef<RNText>(null);
 
   const [isLanguagesOpen, setIsLanguagesOpen] = useState<boolean>(false);
-  const [profileVisible, setProfileVisible] = useState<boolean>(false);
-  const [profile, setProfile] = useState<SteamProfile | undefined>(undefined);
 
   const { user } = useMainState();
   const { setUser } = useMainDispatch();
@@ -45,16 +44,14 @@ export const GlobalSettingsContent = () => {
       <Condition condition={!!user.steamId}>
         <Button
           type="navigation"
+          // TODO: Add to translations
           title="Steam Profile"
           style={{ marginTop: 0 }}
           onPress={async (): Promise<void> => {
             if (user.steamId) {
-              const response = await getSteamUserById(user.steamId);
-
-              if (!!response) {
-                setProfile(response);
-                setProfileVisible(true);
-              }
+              navigation.navigate(AuthScreenEnum.SteamProfile, {
+                steamId: user.steamId,
+              });
             }
           }}
         />
@@ -94,15 +91,6 @@ export const GlobalSettingsContent = () => {
         color={theme.error}
         onPress={(): void => deleteUserData(user.userId)}
       />
-      {!!user.steamId && !!profile && profileVisible ? (
-        <SteamProfileModal
-          profile={profile}
-          isVisible={profileVisible}
-          onClose={(): void => setProfileVisible(false)}
-        />
-      ) : (
-        <></>
-      )}
     </ScrollableList>
   );
 };

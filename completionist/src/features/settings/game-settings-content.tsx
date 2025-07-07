@@ -1,5 +1,6 @@
 import React, { useRef, useState } from 'react';
 import { ScrollView, Text as RNText } from 'react-native';
+import { useTranslation } from 'react-i18next';
 import {
   Button,
   Condition,
@@ -14,18 +15,18 @@ import {
   SettingsSelectLanguage,
 } from '@components/custom';
 import useGetTheme from '@styles/hooks/use-get-theme';
-import { useGameSettings } from './hooks/use-game-settings';
-import { useTranslation } from 'react-i18next';
+import { useGameSettings } from './hooks';
 import { useMainState } from '@redux/hooks';
-import { LanguageType } from '@utils/custom-types';
-import { SteamProfile } from '@utils/custom-interfaces';
+import { SteamProfile, LanguageType, AuthScreenEnum } from '@utils/index';
 import { getSteamUserById, useEditUserData } from '@data/index';
 import { handleScroll } from '@utils/hooks';
 import { useDLCOptions, useGetShowHideOptions } from './views/hooks';
+import { useReactNavigation } from '@navigation/hooks';
 
 export const GameSettingsContent = () => {
   const { t } = useTranslation();
   const theme = useGetTheme();
+  const navigation = useReactNavigation();
   const scrollViewRef = useRef<ScrollView>(null);
   const languageViewRef = useRef<RNText>(null);
 
@@ -39,8 +40,6 @@ export const GameSettingsContent = () => {
     selectedGame?.lang ?? 'en',
   );
   const [isLanguagesOpen, setLanguagesOpen] = useState<boolean>(false);
-  const [profileVisible, setProfileVisible] = useState<boolean>(false);
-  const [profile, setProfile] = useState<SteamProfile | undefined>(undefined);
 
   if (!selectedGame) return;
 
@@ -61,12 +60,9 @@ export const GameSettingsContent = () => {
             style={{ marginTop: 0 }}
             onPress={async (): Promise<void> => {
               if (user.steamId) {
-                const profile = await getSteamUserById(user.steamId);
-
-                if (!!profile) {
-                  setProfile(profile);
-                  setProfileVisible(true);
-                }
+                navigation.navigate(AuthScreenEnum.SteamProfile, {
+                  steamId: user.steamId,
+                });
               }
             }}
           />

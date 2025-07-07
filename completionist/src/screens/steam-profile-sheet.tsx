@@ -38,7 +38,6 @@ export const SteamProfileSheet = (params: any) => {
       const profile = await getSteamUserById(steamId);
 
       if (!profile) {
-        console.log('HERE-profile: ', profile);
         Alert.alert('Could not get profile', 'Please try again', [
           {
             text: t('common:alerts.cta.ok'),
