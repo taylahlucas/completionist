@@ -43,8 +43,7 @@ export const useAccountDetails = () => {
   }, []);
 
   useEffect(() => {
-    // Reset state
-    if (currentScreen === DrawerScreenEnum.Settings) {
+    if (currentScreen === DrawerScreenEnum.GameSettings) {
       resetState();
     }
   }, [currentScreen]);

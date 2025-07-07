@@ -9,11 +9,11 @@ import {
   SelectFirstGame,
   Landing,
   Login,
-  ForgotPassword,
-  VerifyNewPassword,
   SetUsername,
   VerifyAccount,
+  VerifyNewPassword,
 } from '@screens/index';
+import { ForgotPassword } from '@screens/forgot-password';
 
 const Stack = createStackNavigator<UnauthorizedStackParamList>();
 

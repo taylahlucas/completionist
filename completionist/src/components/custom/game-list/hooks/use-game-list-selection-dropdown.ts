@@ -8,9 +8,9 @@ import { useMainDispatch } from '@redux/hooks';
 import { useReactNavigation } from '@navigation/hooks';
 import { useState } from 'react';
 import { getMappedGameData, getGameDataFromCache } from '@data/index';
-import { useGetGameLanguages } from '@components/custom/settings/hooks';
 import { useMainState } from '@redux/hooks';
 import { useContentDispatch } from '@components/custom/content-list/provider';
+import { getGameLanguages } from '@utils/hooks';
 
 export const useGameListSelectionDropdown = () => {
   const [isOpen, setIsOpen] = useState<boolean>(true);
@@ -18,7 +18,6 @@ export const useGameListSelectionDropdown = () => {
   const { user } = useMainState();
   const { setSelectedGame, setSelectedGameSettings } = useMainDispatch();
   const { setGameContent } = useContentDispatch();
-  const { getGameLanguages } = useGetGameLanguages();
 
   const navigateToGame = (game: GameData) => {
     setSelectedGame(game);

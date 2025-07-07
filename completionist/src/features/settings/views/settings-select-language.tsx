@@ -6,11 +6,8 @@ import {
   DropdownSelectionContent,
 } from '@components/general';
 import { languages } from 'src/i18n/i18n-common';
-import { useMainState, useMainDispatch } from '@redux/hooks';
 import { GameData, LanguageType } from '@utils/index';
-import { useGetGameLanguages } from './hooks';
-import { getGameDataFromCache, getMappedGameData } from '@data/index';
-import { useContentDispatch } from '../content-list/provider';
+import { getGameLanguages, getLanguageInEn } from '@utils/hooks';
 
 interface SettingsSelectLanguageProps {
   selectedLanguage: LanguageType;
@@ -28,7 +25,6 @@ export const SettingsSelectLanguage = ({
   onSetLanguage,
 }: SettingsSelectLanguageProps) => {
   const { t } = useTranslation();
-  const { getLanguageInEn, getGameLanguages } = useGetGameLanguages();
 
   const languageList = !selectedGame
     ? languages

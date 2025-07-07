@@ -7,10 +7,9 @@ import {
   AccountDetails,
   Landing,
   GameSelection,
-  GlobalAchievements,
   GlobalSettings,
+  SteamProfileSheet,
 } from '@screens/index';
-import { SteamProfileSheet } from '@features/achievements';
 
 const Stack = createStackNavigator<AuthStackParamList>();
 
@@ -34,13 +33,13 @@ export const AuthStackNavigator = () => {
         name={AuthScreenEnum.GlobalAccountDetails}
         component={AccountDetails}
       />
-      <Stack.Screen
+      {/* <Stack.Screen
         name={AuthScreenEnum.GlobalAchievements}
         component={GlobalAchievements}
         options={{
           gestureDirection: 'horizontal-inverted',
         }}
-      />
+      /> */}
       {/* <Stack.Screen
         name={AuthScreenEnum.GlobalSteamAchievements}
         component={SteamAchievements}

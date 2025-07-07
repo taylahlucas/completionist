@@ -15,17 +15,13 @@ import {
 } from '@components/custom';
 import useGetTheme from '@styles/hooks/use-get-theme';
 import { useGameSettings } from './hooks/use-game-settings';
-import { SteamProfileModal } from '@screens/achievements';
 import { useTranslation } from 'react-i18next';
 import { useMainState } from '@redux/hooks';
 import { LanguageType } from '@utils/custom-types';
 import { SteamProfile } from '@utils/custom-interfaces';
 import { getSteamUserById, useEditUserData } from '@data/index';
-import {
-  useDLCOptions,
-  useGetShowHideOptions,
-} from '@components/custom/settings/hooks';
 import { handleScroll } from '@utils/hooks';
+import { useDLCOptions, useGetShowHideOptions } from './views/hooks';
 
 export const GameSettingsContent = () => {
   const { t } = useTranslation();
@@ -131,16 +127,6 @@ export const GameSettingsContent = () => {
           onPress={(): void => deleteUserData(user.userId)}
         />
       </ScrollableList>
-      {/* // TODO: Replace with bottom sheet */}
-      {!!user.steamId && !!profile && profileVisible ? (
-        <SteamProfileModal
-          profile={profile}
-          isVisible={profileVisible}
-          onClose={(): void => setProfileVisible(false)}
-        />
-      ) : (
-        <></>
-      )}
     </>
   );
 };

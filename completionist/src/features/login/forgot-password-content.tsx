@@ -1,7 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import {
-  StandardLayout,
   StyledText,
   TextInput,
   Button,
@@ -10,11 +9,9 @@ import {
   Condition,
   ParagraphView,
 } from '@components/general';
-import { NavigationHeader } from '@navigation/index';
-import { UnauthorizedScreenEnum } from '@utils/index';
 import { useLogin } from '@features/login/hooks';
 
-export const ForgotPassword = () => {
+export const ForgotPasswordContent = () => {
   const { t } = useTranslation();
   const { viewModel, actions } = useLogin();
 
@@ -29,12 +26,7 @@ export const ForgotPassword = () => {
   );
 
   return (
-    <StandardLayout>
-      <NavigationHeader
-        id={UnauthorizedScreenEnum.ForgotPassword}
-        title={t('common:screens.forgotPw')}
-        leftAction="back"
-      />
+    <>
       <ParagraphView>
         <StyledText>{t('common:auth.forgotPwDesc')}</StyledText>
       </ParagraphView>
@@ -84,6 +76,6 @@ export const ForgotPassword = () => {
           </ErrorMessage>
         </Condition>
       </KeyboardAvoidingScrollView>
-    </StandardLayout>
+    </>
   );
 };

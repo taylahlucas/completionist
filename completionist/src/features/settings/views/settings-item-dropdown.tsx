@@ -12,7 +12,7 @@ import {
   SettingsMainItemTitle,
 } from './';
 import useGetTheme from '@styles/hooks/use-get-theme';
-import { useSettingsState, useSettingsDispatch } from './provider';
+import { useSettingsState, useSettingsDispatch } from '../provider';
 import { useMainState } from '@redux/hooks';
 import { useUpdateGameSettings } from './hooks';
 import {

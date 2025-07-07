@@ -13,4 +13,6 @@ export * from './root-stack-navigator';
 export * from './send-request';
 export * from './set-username';
 export * from './select-first-game';
+export * from './steam-profile-sheet';
 export * from './verify-account';
+export * from './verify-new-password';

@@ -16,7 +16,7 @@ import {
 import { IconTypeEnum } from '@utils/custom-enums';
 import { DEFAULT_BORDER_RADIUS } from '@styles/global';
 import { Sheet } from '@navigation/index';
-import { useAchievements } from '../achievements/hooks';
+import { useAchievements } from '../features/achievements/hooks';
 import { getSteamUserById } from '@data/api';
 import { SteamProfile } from '@utils/custom-interfaces';
 

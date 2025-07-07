@@ -13,7 +13,7 @@ import {
   DropdownSelection,
   DropdownSelectionContent,
 } from '@components/general';
-import { filterGameList } from '../game-list/hooks/use-filter-game-list';
+import { filterGameList } from '../../../components/custom/game-list/hooks/use-filter-game-list';
 import { useMainState, useMainDispatch } from '@redux/hooks';
 
 export const SettingsGameCollections = () => {

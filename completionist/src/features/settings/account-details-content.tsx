@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import {
-  StandardLayout,
   TextInput,
   Button,
   ErrorMessage,
