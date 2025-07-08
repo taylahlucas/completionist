@@ -1,5 +1,9 @@
-import { useGetShowHideOptions } from '@components/custom/settings/hooks';
-import { getGameDataFromCache, getMappedGameData } from '@data/index';
+import {
+  getGameDataFromCache,
+  getMappedGameData,
+  updateUser,
+  useEditUserData,
+} from '@data/index';
 import {
   SettingsOptionItem,
   SettingsOptionEnum,
@@ -30,6 +34,7 @@ export const useGameSettings = () => {
   const { i18n } = useTranslation();
   const { setUser, setShouldUpdateUser } = useMainDispatch();
   const { setGameContent } = useContentDispatch();
+  const { saveUser } = useEditUserData();
 
   const setSettingsOptions = (id: string, user: User) => {
     switch (id) {
@@ -85,13 +90,16 @@ export const useGameSettings = () => {
     ];
 
     i18n.changeLanguage(value);
-    setUser({
+    let updatedUser = {
       ...user,
       settings: {
         ...user.settings,
         lang: value as LanguageType,
       },
       gameData: updatedGameData,
+    };
+    updateUser(updatedUser).then(() => {
+      saveUser(updatedUser);
     });
     getGameDataFromCache({
       selectedGame: selectedGame.id,
