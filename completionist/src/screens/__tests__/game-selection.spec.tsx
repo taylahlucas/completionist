@@ -100,6 +100,6 @@ describe('<GameSelection />', () => {
     await userEvent.press(settingsButton);
 
     expect(navigationMock).toHaveBeenCalledTimes(1);
-    expect(navigationMock).toHaveBeenCalledWith('global-settings');
+    expect(navigationMock).toHaveBeenCalledWith('GlobalSettings');
   });
 });
