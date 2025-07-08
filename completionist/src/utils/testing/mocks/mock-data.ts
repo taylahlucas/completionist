@@ -1,6 +1,6 @@
 import { initialState } from '@redux/main-state';
 import { eldenRingGameData, skyrimGameData } from '@utils/configs';
-import { GameData, SettingsOptionEnum, User } from '@utils/index';
+import { GameData, User } from '@utils/index';
 
 const mockEldenRingGameData = {
   ...eldenRingGameData,

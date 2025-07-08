@@ -1,6 +1,6 @@
 import { combineReducers } from '@reduxjs/toolkit';
 import mainReducer from '@redux/main-state';
-import loginReducer from '@components/custom/login-form/provider/login-state';
+import loginReducer from '@features/login/provider/login-state';
 import settingsReducer from '@features/settings/provider/settings-state';
 import contentReducer from '@features/game-content/provider/content-state';
 

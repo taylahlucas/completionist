@@ -7,7 +7,7 @@ import {
   LoginButton,
 } from './';
 import { GoogleSigninButton } from '@react-native-google-signin/google-signin';
-import { useLoginState, useLoginDispatch } from './provider';
+import { useLoginState, useLoginDispatch } from '../provider';
 import { Condition, Button, StyledText } from '@components/general';
 import { isEmailValid, isPwValid, isNameValid } from '@utils/hooks';
 import { useSendVerificationEmail, useGetLoginMethods } from './hooks';

@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { LoginFormContainer, LoginFormContentContainer } from './';
-import { useLoginState, useLoginDispatch } from './provider';
+import { useLoginState, useLoginDispatch } from '../provider';
 import { Condition, TextInput, Button } from '@components/general';
 import { UnauthorizedScreenEnum } from '@utils/custom-enums';
 import { useReactNavigation } from '@navigation/hooks';

@@ -2,7 +2,7 @@ import { useTranslation } from 'react-i18next';
 import { sendVerificationEmail } from '@data/index';
 import { UnauthorizedScreenEnum } from '@utils/index';
 import { useReactNavigation } from '@navigation/hooks';
-import { useLoginDispatch } from '../provider';
+import { useLoginDispatch } from '../../provider';
 
 export const useSendVerificationEmail = () => {
   const { t } = useTranslation();

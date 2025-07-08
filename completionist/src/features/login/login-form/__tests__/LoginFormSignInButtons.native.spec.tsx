@@ -6,7 +6,7 @@ import {
   waitFor,
 } from '@utils/testing/test-library-utils';
 import LoginFormSignInButtons from '../login-form-sign-in-buttons';
-import { initialState as loginState } from '../provider/login-state';
+import { initialState as loginState } from '../../provider/login-state';
 import * as useGetLoginMethods from '../hooks/use-get-login-methods';
 import { mockAuthEndpoints } from '@utils/testing/mocks';
 import { userLoggedInMock } from '@utils/testing/test-helper/__mocks__/mocks';

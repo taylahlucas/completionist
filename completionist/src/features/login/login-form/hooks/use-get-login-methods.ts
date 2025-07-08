@@ -14,7 +14,7 @@ import {
   updateUser,
 } from '@data/index';
 import { useMainState, useMainDispatch } from '@redux/hooks';
-import { useLoginDispatch } from '../provider';
+import { useLoginDispatch } from '../../provider';
 import { log } from '@utils/hooks/index';
 import { useSendVerificationEmail } from './';
 import {

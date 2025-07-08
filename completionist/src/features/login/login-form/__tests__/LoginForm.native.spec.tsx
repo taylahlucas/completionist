@@ -1,7 +1,7 @@
 import React from 'react';
 import { render, fireEvent } from '@utils/testing/test-library-utils';
 import LoginForm from '../login-form';
-import { initialState as loginState } from '../provider/login-state';
+import { initialState as loginState } from '../../provider/login-state';
 
 describe('LoginForm', () => {
   afterEach(() => {
