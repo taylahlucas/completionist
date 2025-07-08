@@ -35,14 +35,14 @@ export const GameSelectionContent = () => {
           testID="active-games"
           type="active"
           title={t('common:active')}
-          data={filterGameList(user.gameData, true, searchValue, t)}
+          data={filterGameList(user.gameData, searchValue, t)}
         />
         <Condition condition={disabledGameData.length > 0}>
           <GameListSectionDropdown
-            testID={'inactive-games'}
+            testID="inactive-games"
             type="inactive"
             title={t('common:inactive')}
-            data={filterGameList(disabledGameData, false, searchValue, t)}
+            data={filterGameList(disabledGameData, searchValue, t)}
           />
         </Condition>
       </ScrollableList>

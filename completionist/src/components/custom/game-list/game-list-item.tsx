@@ -34,7 +34,7 @@ export const GameListItem = ({
 
   return (
     <GameListItemContainer
-      testID={game.id}
+      testID={`game-list-item-${game.id}`}
       color={enabledColor}
       onPress={onPress}>
       <GameListImage

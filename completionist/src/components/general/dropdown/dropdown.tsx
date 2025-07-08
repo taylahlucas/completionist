@@ -28,6 +28,7 @@ export const Dropdown = ({
   return (
     <DropdownContainer testID={testID}>
       <DropdownPressable
+        testID={`dropdown-pressable-${testID}`}
         enabled={enabled}
         disabled={!enabled}
         onPress={toggleOpen}>

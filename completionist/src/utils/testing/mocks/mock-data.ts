@@ -1,5 +1,21 @@
 import { initialState } from '@redux/main-state';
-import { User } from '@utils/index';
+import { eldenRingGameData, skyrimGameData } from '@utils/configs';
+import { GameData, SettingsOptionEnum, User } from '@utils/index';
+
+const mockEldenRingGameData = {
+  ...eldenRingGameData,
+  quests: [],
+  collectables: [],
+  locations: [],
+  miscellaneous: [],
+};
+const mockSkyrimGameData: GameData = {
+  ...skyrimGameData,
+  quests: [],
+  collectables: [],
+  locations: [],
+  miscellaneous: [],
+};
 
 export const mockUser: User = {
   ...initialState.user,
@@ -12,4 +28,5 @@ export const mockUser: User = {
     setUsername: true,
     selectGame: true,
   },
+  gameData: [{ ...mockEldenRingGameData, ...mockSkyrimGameData }],
 };

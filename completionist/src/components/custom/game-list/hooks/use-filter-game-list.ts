@@ -3,7 +3,6 @@ import { TFunction } from 'i18next';
 
 export const filterGameList = (
   data: GameData[],
-  isActive: boolean,
   searchValue: string,
   t: TFunction,
 ) => {
