@@ -1,14 +1,16 @@
 import React from 'react';
-import { useTranslation } from 'react-i18next';
-import { CustomSearchBar, CompletedQuantityTitle } from '@components/general';
+import {
+  CustomSearchBar,
+  CompletedQuantityTitle,
+  Loading,
+} from '@components/general';
 import { ContentSectionEnum } from '@utils/index';
-import { ContentList } from '@features/game-content';
 import { useMainState } from '@redux/hooks';
 import { useContentDispatch, useContentState } from './provider';
 import { getCompletedGameDataForSection } from '@data/index';
+import { ContentList } from './views';
 
 export const GameContent = ({ section }: { section: ContentSectionEnum }) => {
-  const { t } = useTranslation();
   const { selectedGame } = useMainState();
   const { setSearchValue } = useContentDispatch();
   const { searchValue, gameContent } = useContentState();
@@ -29,6 +31,11 @@ export const GameContent = ({ section }: { section: ContentSectionEnum }) => {
     }
   };
 
+  // TODO: Test if this works
+  if (!selectedGame) {
+    return <Loading />;
+  }
+
   return (
     <>
       <CustomSearchBar
@@ -39,7 +46,7 @@ export const GameContent = ({ section }: { section: ContentSectionEnum }) => {
       <CompletedQuantityTitle type={'ListItemSubTitleBold'}>
         {`${sectionData.length}/${totalItems.length}`}
       </CompletedQuantityTitle>
-      <ContentList />
+      <ContentList section={section} selectedGame={selectedGame} />
     </>
   );
 };

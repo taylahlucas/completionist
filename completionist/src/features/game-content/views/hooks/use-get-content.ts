@@ -1,4 +1,4 @@
-import { GameContentItem } from '@utils/index';
+import { ContentSectionEnum, GameContentItem } from '@utils/index';
 import { getFormattedSearchString } from '@utils/hooks';
 import { useContentState } from '@features/game-content/provider';
 
@@ -15,10 +15,11 @@ interface GameDataReturnType {
   ) => GameContentItem[];
 }
 
-export const useGetContent = (): GameDataReturnType => {
-  const { sectionType } = useContentState();
+export const useGetContent = (
+  section: ContentSectionEnum,
+): GameDataReturnType => {
   const { searchValue, gameContent } = useContentState();
-  const items = gameContent?.[sectionType] ?? [];
+  const items = gameContent?.[section] ?? [];
 
   const getFilteredContent = () => {
     return items.filter(item =>
@@ -29,7 +30,20 @@ export const useGetContent = (): GameDataReturnType => {
   };
 
   const getContentForCategory = (mainCategory: string): GameContentItem[] => {
-    return items.filter(item => item.mainCategory === mainCategory);
+    return items.filter(item => {
+      // console.log(
+      //   'HERE: ',
+      //   JSON.stringify(
+      //     {
+      //       item: item.mainCategory,
+      //       mainCategory,
+      //     },
+      //     null,
+      //     2,
+      //   ),
+      // );
+      return item.mainCategory === mainCategory;
+    });
   };
 
   const getContentForSubCategory = (

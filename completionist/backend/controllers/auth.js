@@ -17,7 +17,7 @@ const {
   createRefreshToken,
 } = require('../helpers/create-tokens');
 const cache = require('../cache');
-const { log } = require('../helpers/logger');
+const log = require('../helpers/logger');
 
 var params = {
   TableName: process.env.AWS_TABLE_NAME,

@@ -1,7 +1,12 @@
 import { useGetSettingsConfig, useTranslateGameContent } from '@data/hooks';
+import { useContentState } from '@features/game-content/provider';
 import { useMainState } from '@redux/hooks';
-import { GameKeyEnum, ContentItem, GameContentItem } from '@utils/index';
-import { useContentState } from '../provider';
+import {
+  GameKeyEnum,
+  ContentItem,
+  GameContentItem,
+  ContentSectionEnum,
+} from '@utils/index';
 
 interface GameDataReturnType {
   getContentCategories: () => ContentItem[];
@@ -15,10 +20,11 @@ interface GameDataReturnType {
   ) => string[];
 }
 
-export const useGetContentCategories = (): GameDataReturnType => {
-  const { sectionType } = useContentState();
-  const { user, selectedGameSettings } = useMainState();
+export const useGetContentCategories = (
+  section: ContentSectionEnum,
+): GameDataReturnType => {
   const { gameContent } = useContentState();
+  const { user, selectedGameSettings } = useMainState();
   const { shouldHideDisabledSections } = useGetSettingsConfig();
   const { translateCategoryName, translateDLCName } = useTranslateGameContent();
 
@@ -27,8 +33,8 @@ export const useGetContentCategories = (): GameDataReturnType => {
       item => item.id === selectedGameSettings,
     );
 
-    const section = selectedGame?.settingsConfig.general.filter(
-      config => config.section.id === sectionType,
+    const sectionData = selectedGame?.settingsConfig.general.filter(
+      config => config.section.id === section,
     )[0] ?? {
       section: {
         id: '',
@@ -40,14 +46,14 @@ export const useGetContentCategories = (): GameDataReturnType => {
     if (selectedGame) {
       const mainCategories: ContentItem[] = (
         !shouldHideDisabledSections()
-          ? section?.categories.filter(category => category.isActive)
-          : section?.categories
+          ? sectionData?.categories.filter(category => category.isActive)
+          : sectionData?.categories
       ).map(category => {
         return {
           id: category.id,
           title: translateCategoryName(
             selectedGame.id,
-            section.section.id,
+            sectionData.section.id,
             category.id,
           ),
           isActive: category.isActive,
@@ -55,8 +61,8 @@ export const useGetContentCategories = (): GameDataReturnType => {
       });
       const dlcCategories: ContentItem[] = (
         !shouldHideDisabledSections()
-          ? section?.dlc.filter(dlc => dlc.isActive)
-          : section?.dlc
+          ? sectionData?.dlc.filter(dlc => dlc.isActive)
+          : sectionData?.dlc
       ).map(dlc => {
         return {
           id: dlc.id,
@@ -73,7 +79,7 @@ export const useGetContentCategories = (): GameDataReturnType => {
     category: string,
     selectedGameId?: GameKeyEnum,
   ): string[] => {
-    const items: GameContentItem[] = gameContent?.[sectionType] ?? [];
+    const items: GameContentItem[] = gameContent?.[section] ?? [];
     const filteredItems = items.filter(item => item.mainCategory === category);
 
     let itemSubCategories: string[] = [];
@@ -91,7 +97,7 @@ export const useGetContentCategories = (): GameDataReturnType => {
     subCategory: string,
     selectedGameId?: GameKeyEnum,
   ): string[] => {
-    const items: GameContentItem[] = gameContent?.[sectionType] ?? [];
+    const items: GameContentItem[] = gameContent?.[section] ?? [];
     const filteredItems = items.filter(
       collectable => collectable.subCategory === subCategory,
     );

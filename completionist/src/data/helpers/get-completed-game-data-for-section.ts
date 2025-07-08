@@ -26,3 +26,24 @@ export const getCompletedGameDataForSection = (
       return [];
   }
 };
+
+export const getAllCompletedGameDataForSection = (selectedGame?: GameData) => {
+  return {
+    userQuests: getCompletedGameDataForSection(
+      ContentSectionEnum.QUESTS,
+      selectedGame,
+    ),
+    userCollectables: getCompletedGameDataForSection(
+      ContentSectionEnum.COLLECTABLES,
+      selectedGame,
+    ),
+    userLocations: getCompletedGameDataForSection(
+      ContentSectionEnum.LOCATIONS,
+      selectedGame,
+    ),
+    userMiscellaneous: getCompletedGameDataForSection(
+      ContentSectionEnum.MISCELLANEOUS,
+      selectedGame,
+    ),
+  };
+};

@@ -6,7 +6,7 @@ import { useMainState } from '@redux/hooks';
 import { AuthScreenEnum } from '@utils/index';
 import { View } from 'react-native';
 import { useReactNavigation } from '@navigation/hooks';
-// import { GameSelectionContent } from '@features/game-selection';
+import { GameSelectionContent } from '@features/game-selection';
 
 export const GameSelection = () => {
   const { t } = useTranslation();
@@ -25,7 +25,7 @@ export const GameSelection = () => {
           navigation.navigate(AuthScreenEnum.GlobalSettings)
         }
       />
-      {/* <GameSelectionContent /> */}
+      <GameSelectionContent />
     </StandardLayout>
   );
 };

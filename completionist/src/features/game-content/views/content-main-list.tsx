@@ -1,15 +1,13 @@
 import React from 'react';
 import { ListItem, ScrollableList, listStyles } from '@components/general';
-import {
-  useCheckContentComplete,
-  useUpdateContent,
-  useGetContent,
-} from '../hooks';
 import { ContentItem } from '@utils/index';
 import { EXTRA_LARGE_PADDING, DEFAULT_ITEM_HEIGHT } from '@styles/global';
 import { useContentDispatch } from '../provider';
+import { isGameItemComplete } from './helpers';
+import { ContentListProps } from './content-list';
+import { useGetContent, useUpdateContent } from './hooks';
 
-export interface ContentMainListProps {
+export interface ContentMainListProps extends ContentListProps {
   mainCategory?: ContentItem;
   subCategory?: string;
   isSubCategory?: boolean;
@@ -19,14 +17,16 @@ export const ContentMainList = ({
   mainCategory,
   subCategory,
   isSubCategory = false,
+  ...props
 }: ContentMainListProps) => {
+  const { section, selectedGame } = props;
   const { setWebViewHref } = useContentDispatch();
-  const { getContentForCategory, getContentForSubCategory } = useGetContent();
-  const { updateContentComplete } = useUpdateContent();
+  const { getContentForCategory, getContentForSubCategory } =
+    useGetContent(section);
+  const { updateContentComplete } = useUpdateContent(selectedGame);
   const items = isSubCategory
     ? getContentForSubCategory(mainCategory?.title, subCategory)
     : getContentForCategory(mainCategory?.title ?? '');
-  const { checkContentComplete } = useCheckContentComplete();
   const scrollHeight =
     DEFAULT_ITEM_HEIGHT * items?.length + EXTRA_LARGE_PADDING;
   const maxHeight = 300;
@@ -40,7 +40,7 @@ export const ContentMainList = ({
           id={item.id}
           key={index}
           title={item.title}
-          isComplete={checkContentComplete(item.id)}
+          isComplete={isGameItemComplete(section, item.id, selectedGame)}
           onLongPress={(): void => setWebViewHref(item.href)}
           action={(): void => updateContentComplete(item.id)}
         />

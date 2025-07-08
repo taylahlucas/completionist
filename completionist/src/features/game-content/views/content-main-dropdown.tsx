@@ -1,16 +1,12 @@
 import React from 'react';
 import { ListHeader, Dropdown, Condition } from '@components/general';
-import { ContentMainList, ContentSubDropdown } from '..';
-import { useMainState } from '@redux/hooks';
-import {
-  useCheckContentComplete,
-  useGetContentCategories,
-  useGetContent,
-} from '../hooks';
+import { ContentListProps, ContentMainList, ContentSubDropdown } from './';
 import { useContentState, useContentDispatch } from '../provider';
 import { ContentItem } from '@utils/index';
+import { useGetContent, useGetContentCategories } from './hooks';
+import { isGameItemCompleteForCategory } from './helpers';
 
-export interface ContentMainDropdownProps {
+export interface ContentMainDropdownProps extends ContentListProps {
   category: ContentItem;
   completed: string;
   total: string;
@@ -20,18 +16,18 @@ export const ContentMainDropdown = ({
   category,
   completed,
   total,
+  ...props
 }: ContentMainDropdownProps) => {
-  const { selectedGame } = useMainState();
+  const { section, selectedGame } = props;
   const { setSelectedCategory } = useContentDispatch();
   const { selectedCategory } = useContentState();
   const { getContentSubCategories, getContentSubCategoriesTypes } =
-    useGetContentCategories();
-  const { getContentForSubCategory } = useGetContent();
+    useGetContentCategories(section);
+  const { getContentForSubCategory } = useGetContent(section);
   const subCategories = getContentSubCategories(
     category.title,
     selectedGame?.id,
   );
-  const { checkContentCompleteForCategory } = useCheckContentComplete();
 
   return (
     <Dropdown
@@ -58,8 +54,11 @@ export const ContentMainDropdown = ({
           category.title,
           subCategory,
         );
-        const completedQuests =
-          checkContentCompleteForCategory(questsForCategory);
+        const completedQuests = isGameItemCompleteForCategory(
+          section,
+          questsForCategory,
+          selectedGame,
+        );
         const subCategoryTypes = getContentSubCategoriesTypes(
           subCategory,
           selectedGame?.id,
@@ -75,11 +74,12 @@ export const ContentMainDropdown = ({
               ? questsForCategory
               : subCategoryTypes
             ).length.toString()}
+            {...props}
           />
         );
       })}
       <Condition condition={subCategories.length === 0}>
-        <ContentMainList mainCategory={category} />
+        <ContentMainList mainCategory={category} {...props} />
       </Condition>
     </Dropdown>
   );

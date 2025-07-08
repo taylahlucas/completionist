@@ -21,6 +21,7 @@ export const SettingsGameCollections = () => {
   const { user, selectedGameSettings } = useMainState();
   const { setSelectedGameSettings } = useMainDispatch();
   const { userSettingsMainConfig } = useGetUserGameData();
+
   const { translateGameName } = useTranslateGameContent();
   const minHeight = userSettingsMainConfig.length > 3 ? 200 : 150;
   const height = new Animated.Value(minHeight);

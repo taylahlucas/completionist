@@ -4,22 +4,29 @@ import {
   Condition,
   Loading,
   WikiWebView,
+  ListItem,
 } from '@components/general';
 import { useContentState, useContentDispatch } from '../provider';
-import { ContentMainDropdown, ContentSearchResults } from '..';
+import { ContentMainDropdown } from './';
 import {
-  useCheckContentComplete,
   useGetContentCategories,
   useGetContent,
+  useUpdateContent,
 } from './hooks';
-import { ContentItem } from '@utils/index';
+import { ContentItem, ContentSectionEnum, GameData } from '@utils/index';
+import { isGameItemComplete, isGameItemCompleteForCategory } from './helpers';
 
-export const ContentList = () => {
+export interface ContentListProps {
+  section: ContentSectionEnum;
+  selectedGame: GameData;
+}
+
+export const ContentList = ({ section, selectedGame }: ContentListProps) => {
   const { searchValue, webViewHref } = useContentState();
   const { setSearchValue, setWebViewHref } = useContentDispatch();
-  const { getContentCategories } = useGetContentCategories();
-  const { getContentForCategory } = useGetContent();
-  const { checkContentCompleteForCategory } = useCheckContentComplete();
+  const { getContentCategories } = useGetContentCategories(section);
+  const { getContentForCategory, getFilteredContent } = useGetContent(section);
+  const { updateContentComplete } = useUpdateContent(selectedGame);
   const categories = getContentCategories();
 
   useEffect(() => {
@@ -41,12 +48,27 @@ export const ContentList = () => {
   return (
     <Condition
       condition={searchValue.length < 2 && !!categories}
-      conditionalElement={<ContentSearchResults />}>
+      conditionalElement={
+        <ScrollableList>
+          {getFilteredContent().map((item, index) => (
+            <ListItem
+              key={index}
+              id={item.id}
+              title={item.title}
+              isComplete={isGameItemComplete(section, item.id, selectedGame)}
+              onLongPress={(): void => setWebViewHref(item.href)}
+              action={(): void => updateContentComplete(item.id)}
+            />
+          ))}
+        </ScrollableList>
+      }>
       <ScrollableList>
         {categories.map((category: ContentItem, index: number) => {
           const allContentForCategory = getContentForCategory(category.title);
-          const completedContent = checkContentCompleteForCategory(
+          const completedContent = isGameItemCompleteForCategory(
+            section,
             allContentForCategory,
+            selectedGame,
           );
 
           return (
@@ -55,6 +77,8 @@ export const ContentList = () => {
               category={category}
               completed={completedContent.toString()}
               total={allContentForCategory.length.toString()}
+              section={section}
+              selectedGame={selectedGame}
             />
           );
         })}

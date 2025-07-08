@@ -7,13 +7,11 @@ import {
   listStyles,
 } from '@components/general';
 import { useContentState, useContentDispatch } from '../provider';
-import {
-  useCheckContentComplete,
-  useUpdateContent,
-  useGetContent,
-} from '../hooks';
+import { useGetContent, useUpdateContent } from './hooks';
+import { ContentListProps } from './content-list';
+import { isGameItemComplete } from './helpers';
 
-export interface ContentSubTypeDropdownProps {
+export interface ContentSubTypeDropdownProps extends ContentListProps {
   subCategory: string;
   type: string;
   completed: string;
@@ -25,13 +23,14 @@ export const ContentSubTypeDropdown = ({
   type,
   completed,
   total,
+  ...props
 }: ContentSubTypeDropdownProps) => {
+  const { section, selectedGame } = props;
   const { setSelectedCategory, setWebViewHref } = useContentDispatch();
   const { selectedCategory } = useContentState();
-  const { getContentForSubCategoryType } = useGetContent();
-  const { updateContentComplete } = useUpdateContent();
+  const { getContentForSubCategoryType } = useGetContent(section);
+  const { updateContentComplete } = useUpdateContent(selectedGame);
   const items = getContentForSubCategoryType(subCategory, type);
-  const { checkContentComplete } = useCheckContentComplete();
 
   return (
     <Dropdown
@@ -56,7 +55,7 @@ export const ContentSubTypeDropdown = ({
             title={item.title}
             location={item.location}
             hold={item.hold}
-            isComplete={checkContentComplete(item.id)}
+            isComplete={isGameItemComplete(section, item.id, selectedGame)}
             onLongPress={(): void => setWebViewHref(item.href)}
             action={(): void => updateContentComplete(item.id)}
           />

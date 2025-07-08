@@ -1,16 +1,12 @@
 import React from 'react';
 import { Condition, SubListHeader, Dropdown } from '@components/general';
 import { useContentDispatch, useContentState } from '../provider';
-import { useMainState } from '@redux/hooks';
-import { ContentSubTypeDropdown, ContentMainList } from '..';
-import {
-  useCheckContentComplete,
-  useGetContentCategories,
-  useGetContent,
-} from '../hooks';
+import { ContentSubTypeDropdown, ContentMainList, ContentListProps } from './';
 import { ContentItem } from '@utils/index';
+import { useGetContent, useGetContentCategories } from './hooks';
+import { isGameItemCompleteForCategory } from './helpers';
 
-export interface ContentSubDropdownProps {
+export interface ContentSubDropdownProps extends ContentListProps {
   mainCategory: ContentItem;
   subCategory: string;
   completed: string;
@@ -22,13 +18,14 @@ export const ContentSubDropdown = ({
   subCategory,
   completed,
   total,
+  ...props
 }: ContentSubDropdownProps) => {
-  const { selectedGame } = useMainState();
+  const { section, selectedGame } = props;
   const { setSelectedCategory } = useContentDispatch();
   const { selectedCategory } = useContentState();
-  const { getContentForSubCategoryType } = useGetContent();
-  const { getContentSubCategoriesTypes } = useGetContentCategories();
-  const { checkContentCompleteForCategory } = useCheckContentComplete();
+  const { getContentForSubCategoryType } = useGetContent(section);
+  const { getContentSubCategoriesTypes } = useGetContentCategories(section);
+
   // TODO: Fix here
   const subCategoryTypes = getContentSubCategoriesTypes(
     subCategory,
@@ -60,6 +57,7 @@ export const ContentSubDropdown = ({
             mainCategory={mainCategory}
             subCategory={subCategory}
             isSubCategory
+            {...props}
           />
         }>
         {subCategoryTypes?.map((type, index) => {
@@ -67,8 +65,11 @@ export const ContentSubDropdown = ({
             subCategory,
             type,
           );
-          const completedContent =
-            checkContentCompleteForCategory(contentForType);
+          const completedContent = isGameItemCompleteForCategory(
+            section,
+            contentForType,
+            selectedGame,
+          );
 
           return (
             <ContentSubTypeDropdown
@@ -77,6 +78,7 @@ export const ContentSubDropdown = ({
               type={type}
               completed={completedContent.toString()}
               total={contentForType.length.toString()}
+              {...props}
             />
           );
         })}

@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import { useGetUserGameData, useGetSettingsConfig } from '@data/hooks';
+import { useGetSettingsConfig } from '@data/hooks';
 import { useCheckSectionEnabled } from './';
 import {
   NavigationDrawerItemData,
@@ -7,14 +7,17 @@ import {
   DrawerScreenEnum,
 } from '@utils/index';
 import { useContentState } from '@features/game-content/provider';
-import { filterActiveSections } from '@data/index';
+import {
+  filterActiveSections,
+  getAllCompletedGameDataForSection,
+} from '@data/index';
 import { useMainState } from '@redux/hooks';
 
 export const useGetNavigationDrawerItems = (): NavigationDrawerItemData[] => {
   const { t } = useTranslation();
-  const { userQuests, userCollectables, userLocations, userMiscItems } =
-    useGetUserGameData();
   const { selectedGame } = useMainState();
+  const { userQuests, userCollectables, userLocations, userMiscellaneous } =
+    getAllCompletedGameDataForSection(selectedGame);
   const { gameContent } = useContentState();
   const { checkIsSectionEnabled } = useCheckSectionEnabled();
 
@@ -81,7 +84,7 @@ export const useGetNavigationDrawerItems = (): NavigationDrawerItemData[] => {
       id: DrawerScreenEnum.Miscellaneous,
       title: t('common:screens.miscellaneous'),
       subTitle: miscItemsEnabled
-        ? `${userMiscItems.length}/${miscellaneousData.length}`
+        ? `${userMiscellaneous.length}/${miscellaneousData.length}`
         : '',
       isEnabled: miscItemsEnabled,
       isHidden: !shouldHideDisabledSections() && !miscItemsEnabled,

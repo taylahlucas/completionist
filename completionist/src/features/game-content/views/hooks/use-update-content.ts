@@ -1,15 +1,14 @@
-import { useMainState, useMainDispatch } from '@redux/hooks';
-import { Item, ContentSectionEnum } from '@utils/index';
-import { useContentState } from '../provider';
+import { useContentState } from '@features/game-content/provider';
+import { useMainDispatch } from '@redux/hooks';
+import { Item, ContentSectionEnum, GameData } from '@utils/index';
 
-export const useUpdateContent = () => {
+export const useUpdateContent = (selectedGame: GameData) => {
   const {
     setCompletedQuests,
     setCompletedCollectables,
     setCompletedLocations,
     setCompletedMiscItems,
   } = useMainDispatch();
-  const { selectedGame } = useMainState();
   const { sectionType } = useContentState();
 
   const updateContentAction = (
