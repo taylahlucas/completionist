@@ -16,6 +16,20 @@ const defaultPreloadedState: RootState = {
   content: initialContentState,
 };
 
+// export const createMockStore = (preloadedState?: Partial<RootState>) => {
+//   console.log('STATE: ', {
+//     ...defaultPreloadedState,
+//     ...preloadedState,
+//   });
+
+//   return configureStore({
+//     reducer: rootReducer,
+//     preloadedState: {
+//       ...defaultPreloadedState,
+//       ...preloadedState,
+//     },
+//   });
+// };
 export const createMockStore = (preloadedState?: Partial<RootState>) =>
   configureStore({
     reducer: rootReducer,

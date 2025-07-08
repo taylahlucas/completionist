@@ -22,7 +22,8 @@ export const CustomSearchBar = ({
 
   return (
     <TextInput
-      placeholder={!!placeholder ? placeholder : t('common:search')}
+      testID="search-bar"
+      placeholder={placeholder ? placeholder : t('common:search')}
       value={searchValue}
       height={42}
       onChangeText={setSearchValue}

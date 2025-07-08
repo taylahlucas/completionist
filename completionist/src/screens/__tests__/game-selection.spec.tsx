@@ -1,13 +1,13 @@
 import React from 'react';
 import { GameSelection } from '../game-selection';
 import {
-  expectTestIdToMatch,
+  expectTestIDToMatch,
   expectTextToMatch,
-  mockUseMainState,
   renderWithProvider,
 } from '../../utils/testing/helpers';
 import { mockUser } from '@utils/testing';
 import { initialState } from '@redux/main-state';
+import { screen } from '@testing-library/react-native';
 
 describe('<GameSelection />', () => {
   const renderView = () =>
@@ -22,12 +22,16 @@ describe('<GameSelection />', () => {
     jest.clearAllMocks();
   });
 
-  it('renders the header correctly', () => {
+  it('renders the header correctly', async () => {
     renderView();
 
-    expectTestIdToMatch('game-selection');
+    expectTestIDToMatch('game-selection');
     expectTextToMatch('Welcome\nTest User');
-    expectTestIdToMatch('settings-button');
+    expectTestIDToMatch('settings-button');
+    expectTestIDToMatch('search-bar');
+    expect(screen.queryByTestId('search-bar')?.props.placeholder).toBe(
+      'Search items...',
+    );
   });
 
   it('renders the game list', () => {

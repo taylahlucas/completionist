@@ -3,17 +3,14 @@ import {
   initPaymentSheet,
   presentPaymentSheet,
 } from '@stripe/stripe-react-native';
-import {
-  useActivateGame,
-  useTranslateGameContent,
-  getPriceForGame,
-} from '@data/hooks';
+import { useActivateGame, useTranslateGameContent } from '@data/hooks';
 import { useMainState } from '@redux/hooks';
 import { allGameData } from '@utils/configs/game-configs';
 import {
   createPayment,
   getMappedGameData,
   getGameDataFromCache,
+  getPriceForGame,
 } from '@data/index';
 import { Alert } from 'react-native';
 import { GameKeyEnum, GameContentState, GameData } from '@utils/index';

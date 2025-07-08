@@ -9,11 +9,9 @@ import {
 import { GameData, FlowType } from '@utils/index';
 import { useGameListItem } from './hooks';
 import { Condition } from '@components/general';
-import {
-  getGameImage,
-  getPriceForGame,
-  useTranslateGameContent,
-} from '@data/index';
+import { useTranslateGameContent } from '@data/hooks';
+import { useTranslation } from 'react-i18next';
+import { getGameImage, getPriceForGame } from '@data/helpers';
 
 interface GameListItemProps {
   flow?: FlowType;
@@ -30,6 +28,7 @@ export const GameListItem = ({
   enabled,
   onPress,
 }: GameListItemProps) => {
+  const { t } = useTranslation();
   const { viewModel } = useGameListItem();
   const { translateGameName } = useTranslateGameContent();
 

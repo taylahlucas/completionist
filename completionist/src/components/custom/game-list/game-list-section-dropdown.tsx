@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Dropdown } from '@components/general';
 import { GameData, GameListSelectionType } from '@utils/index';
 import {
@@ -23,14 +23,15 @@ export const GameListSectionDropdown = ({
   data,
 }: GameListSectionDropdown) => {
   const theme = useGetTheme();
-  const { viewModel, actions } = useGameListSelectionDropdown();
+  const [isOpen, setIsOpen] = useState<boolean>(true);
+  const { handleGameSelection } = useGameListSelectionDropdown();
 
   return (
     <Dropdown
       testID={testID}
-      header={<GameListSectionHeader isOpen={viewModel.isOpen} title={title} />}
-      isOpen={viewModel.isOpen}
-      setOpen={() => actions.setIsOpen(!viewModel.isOpen)}>
+      header={<GameListSectionHeader isOpen={isOpen} title={title} />}
+      isOpen={isOpen}
+      setOpen={() => setIsOpen(!isOpen)}>
       <GameListDropdownContainer>
         {data.map((game: GameData, index: number) => (
           <GameListItem
@@ -38,7 +39,7 @@ export const GameListSectionDropdown = ({
             game={game}
             enabled={type === 'active'}
             enabledColor={type === 'active' ? theme.lightGrey : theme.midGrey}
-            onPress={(): void => actions.handleGameSelection(game, type)}
+            onPress={(): void => handleGameSelection(game, type)}
           />
         ))}
       </GameListDropdownContainer>

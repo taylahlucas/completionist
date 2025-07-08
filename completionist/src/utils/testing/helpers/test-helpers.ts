@@ -1,6 +1,6 @@
 import { screen } from '@testing-library/react-native';
 
-export const expectTestIdToMatch = (value: string) =>
+export const expectTestIDToMatch = (value: string) =>
   expect(screen.queryByTestId(value)).toBeTruthy();
 
 export const expectTextToMatch = (value: string) =>

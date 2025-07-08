@@ -20,12 +20,11 @@ jest.mock('@react-native-async-storage/async-storage', () => mockAsyncStorage);
 jest.mock('react-i18next', () => {
   const t = (key: string): string => {
     const keys = key.replace('common:', '').split('.');
-    console.log('keys: ', keys);
+
     let translations: any = common;
     let translation;
     for (const k of keys) {
       translation = translations?.[k];
-      console.log('translation: ', translation);
       if (!translation) return key;
     }
 

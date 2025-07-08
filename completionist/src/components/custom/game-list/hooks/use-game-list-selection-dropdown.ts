@@ -13,7 +13,6 @@ import { useContentDispatch } from '@features/game-content/provider';
 import { getGameLanguages } from '@utils/hooks';
 
 export const useGameListSelectionDropdown = () => {
-  const [isOpen, setIsOpen] = useState<boolean>(true);
   const navigation = useReactNavigation();
   const { user } = useMainState();
   const { setSelectedGame, setSelectedGameSettings } = useMainDispatch();
@@ -55,12 +54,6 @@ export const useGameListSelectionDropdown = () => {
   };
 
   return {
-    viewModel: {
-      isOpen,
-    },
-    actions: {
-      setIsOpen,
-      handleGameSelection,
-    },
+    handleGameSelection,
   };
 };
