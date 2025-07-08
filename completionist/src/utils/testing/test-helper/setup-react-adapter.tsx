@@ -3,6 +3,7 @@ import 'react-native-gesture-handler/jestSetup';
 import mockAsyncStorage from '@react-native-async-storage/async-storage/jest/async-storage-mock';
 import { Image, NativeModules as RNNativeModules } from 'react-native';
 import * as reactNativeLocalizeMock from './react-native-localize-mock';
+import common from '../../../../translations/en/common.json';
 
 interface TransProps {
   i18nKey: string;
@@ -15,26 +16,44 @@ RNNativeModules.CameraView = {
 
 jest.useFakeTimers();
 jest.mock('@react-native-async-storage/async-storage', () => mockAsyncStorage);
-jest.mock('react-i18next', () => ({
-  initReactI18next: { type: '3rdParty', init: jest.fn() },
-  useTranslation: (): any => ({
-    t: (key: string): string => key,
-    i18n: jest.fn(),
-  }),
-  withTranslation: () => {
-    return (Component: JSX.Element): any => {
-      Component.props = {
-        ...Component.props,
-        t: (key: string): string => key,
-        i18n: jest.fn(),
-        tReady: true,
+// Translations
+jest.mock('react-i18next', () => {
+  const t = (key: string): string => {
+    const keys = key.replace('common:', '').split('.');
+    console.log('keys: ', keys);
+    let translations: any = common;
+    let translation;
+    for (const k of keys) {
+      translation = translations?.[k];
+      console.log('translation: ', translation);
+      if (!translation) return key;
+    }
+
+    return translation;
+  };
+
+  return {
+    useTranslation: () => ({
+      t,
+      i18n: {
+        changeLanguage: jest.fn(),
+      },
+    }),
+    Trans: ({ i18nKey }: { i18nKey: string }) => t(i18nKey),
+    initReactI18next: {
+      type: '3rdParty',
+      init: jest.fn(),
+    },
+    withTranslation: () => (Component: any) => {
+      Component.defaultProps = {
+        ...(Component.defaultProps || {}),
+        t,
+        i18n: { changeLanguage: jest.fn() },
       };
       return Component;
-    };
-  },
-  Trans: ({ i18nKey, components }: TransProps): React.ReactElement | string =>
-    components?.length ? components[0] : i18nKey,
-}));
+    },
+  };
+});
 jest
   .spyOn(Image, 'resolveAssetSource')
   .mockImplementation(jest.fn())

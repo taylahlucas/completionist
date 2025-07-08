@@ -17,13 +17,13 @@ export const GameSelection = () => {
       <NavigationHeader
         id={AuthScreenEnum.GameSelection}
         title={`${t('common:welcome')}\n${user.username}`}
-        leftAction="achievements"
+        // leftAction="achievements"
         rightAction="settings"
         rightCallback={(): void =>
           navigation.navigate(AuthScreenEnum.GlobalSettings)
         }
       />
-      {/* <GameSelectionContent /> */}
+      <GameSelectionContent />
     </StandardLayout>
   );
 };

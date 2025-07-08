@@ -19,6 +19,7 @@ export const useGetRightNavigationItem = (
     case 'back':
       return (
         <IconButton
+          testID="back-button"
           style={{ ...navigationStyles.iconButton, top: 2 }}
           name="arrow-forward"
           type={IconTypeEnum.Ionicons}
@@ -29,6 +30,7 @@ export const useGetRightNavigationItem = (
     case 'settings':
       return (
         <IconButton
+          testID="settings-button"
           style={navigationStyles.iconButton}
           name="settings-outline"
           type={IconTypeEnum.Ionicons}
@@ -40,6 +42,7 @@ export const useGetRightNavigationItem = (
     case 'filter':
       return (
         <IconButton
+          testID="filter-button"
           style={navigationStyles.iconButton}
           name="filter-outline"
           type={IconTypeEnum.MaterialCommunityIcons}
@@ -51,6 +54,7 @@ export const useGetRightNavigationItem = (
     case 'logout':
       return (
         <IconButton
+          testID="logout-button"
           style={navigationStyles.iconButton}
           name="logout"
           color={theme.lightGrey}

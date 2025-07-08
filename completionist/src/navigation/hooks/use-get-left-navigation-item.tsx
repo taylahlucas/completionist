@@ -42,6 +42,7 @@ export const useGetLeftNavigationItem = (
     case 'back':
       return (
         <IconButton
+          testID="back-button"
           style={{ ...navigationStyles.iconButton, top: 2 }}
           name="arrow-back"
           type={IconTypeEnum.Ionicons}
@@ -73,7 +74,7 @@ export const useGetLeftNavigationItem = (
       return !hasDrawer ? (
         <></>
       ) : (
-        <Animated.View style={[animatedStyles]}>
+        <Animated.View testID="menu-button" style={[animatedStyles]}>
           <NavigationHeaderMenuButton
             onPress={(): void => {
               dismissKeyboard();

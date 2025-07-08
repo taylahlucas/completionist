@@ -1,6 +1,8 @@
 import React from 'react';
 import { GameSelection } from '../game-selection';
 import {
+  expectTestIdToMatch,
+  expectTextToMatch,
   mockUseMainState,
   renderWithProvider,
 } from '../../utils/testing/helpers';
@@ -8,29 +10,27 @@ import { mockUser } from '@utils/testing';
 import { initialState } from '@redux/main-state';
 
 describe('<GameSelection />', () => {
-  // beforeEach(() => {
-  //   mockUseMainState();
-  // });
+  const renderView = () =>
+    renderWithProvider(<GameSelection />, {
+      main: {
+        ...initialState,
+        user: mockUser,
+      },
+    });
 
   afterEach(() => {
     jest.clearAllMocks();
   });
 
-  it('renders correctly', () => {
-    const { queryByTestId, queryByText } = renderWithProvider(
-      <GameSelection />,
-      {
-        main: {
-          ...initialState,
-          user: mockUser,
-        },
-      },
-    );
-    expect(queryByTestId('game-selection')).toBeTruthy();
-    // const title = queryByTestId('navigation-header-title');
-    // console.log('HERE: ', title);
-    expect(queryByText('Welcome\nTest User')).toBeTruthy();
+  it('renders the header correctly', () => {
+    renderView();
+
+    expectTestIdToMatch('game-selection');
+    expectTextToMatch('Welcome\nTest User');
+    expectTestIdToMatch('settings-button');
   });
 
-  // it('renders the game list', () => {});
+  it('renders the game list', () => {
+    renderView();
+  });
 });
