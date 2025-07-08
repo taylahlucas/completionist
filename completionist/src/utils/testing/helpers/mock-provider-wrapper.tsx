@@ -2,7 +2,7 @@ import React from 'react';
 import { Provider } from 'react-redux';
 import { RootState } from '@redux/index';
 import { initialState as initialMainState } from '@redux/main-state';
-import { initialState as initialLoginState } from '@components/custom/login-form/provider';
+import { initialState as initialLoginState } from '@features/login/provider';
 import { initialState as initialSettingsState } from '@features/settings/provider';
 import { initialState as initialContentState } from '@features/game-content/provider';
 import rootReducer from '@redux/reducer';

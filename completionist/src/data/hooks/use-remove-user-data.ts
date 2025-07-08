@@ -1,14 +1,11 @@
 import { useMainDispatch } from '@redux/hooks';
 import { deleteCredentials } from '@data/cache/keychain';
-import { initialUser } from '@redux/main-state';
+import { initialFormData, initialUser } from '@redux/main-state';
 import { clearCache } from '../cache/local-cache';
-import {
-  initialFormData,
-  useLoginDispatch,
-} from '@components/custom/login-form/provider';
 import { useContentDispatch } from '@features/game-content/provider';
 import { log } from '@utils/hooks';
 import { ContentSectionEnum } from '@utils/index';
+import { useLoginDispatch } from '@features/login';
 
 export const useRemoveUserData = () => {
   const { setUser, setSelectedGame } = useMainDispatch();

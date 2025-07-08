@@ -2,12 +2,9 @@ import { useEffect, useRef } from 'react';
 import { AppState } from 'react-native';
 import { useMainState, useMainDispatch } from '@redux/hooks';
 import { useEditUserData } from '@data/hooks';
-import {
-  useLoginState,
-  useLoginDispatch,
-} from '@components/custom/login-form/provider';
 import { useGetNavigationPath } from '@navigation/hooks';
 import { useLoadUserFromCache } from '@data/cache/hooks';
+import { useLoginDispatch, useLoginState } from '@features/login/provider';
 
 export const useInitUserData = () => {
   const appStateRef = useRef(AppState.currentState);

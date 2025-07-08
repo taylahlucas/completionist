@@ -1,11 +1,8 @@
-import {
-  useLoginDispatch,
-  useLoginState,
-} from '@components/custom/login-form/provider';
 import { signUp, linkAndSignIn } from '@data/index';
 import { useIsRequestLoading } from '@data/api/hooks';
 import { useEditUserData } from '@data/hooks/index';
 import { useMainState } from '@redux/hooks';
+import { useLoginDispatch, useLoginState } from '@features/login/provider';
 
 export const useVerifyAccount = () => {
   const { user } = useMainState();

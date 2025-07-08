@@ -5,12 +5,9 @@ import { useIsKeyboardVisible } from '@utils/hooks';
 import { isPwValid } from '@utils/hooks/index';
 import { UnauthorizedScreenEnum } from '@utils/index';
 import { checkUserExists } from '@data/index';
-import {
-  useLoginDispatch,
-  useLoginState,
-} from '@components/custom/login-form/provider';
-import { useSendVerificationEmail } from '@components/custom/login-form/hooks';
 import { useIsRequestLoading } from '@data/api/hooks';
+import { useLoginDispatch, useLoginState } from '../provider';
+import { useSendVerificationEmail } from '../login-form/hooks';
 
 export const useLogin = () => {
   const { t } = useTranslation();

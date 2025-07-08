@@ -3,11 +3,8 @@ import { useTranslation } from 'react-i18next';
 import { forgotPw } from '@data/index';
 import { useReactNavigation } from '@navigation/hooks';
 import { UnauthorizedScreenEnum } from '@utils/index';
-import {
-  useLoginState,
-  useLoginDispatch,
-  initialFormData,
-} from '@components/custom/login-form/provider';
+import { useLoginState, useLoginDispatch } from '@features/login';
+import { initialFormData } from '@redux/index';
 
 export const useVerifyNewPassword = () => {
   const navigation = useReactNavigation();

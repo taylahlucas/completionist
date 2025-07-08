@@ -10,7 +10,7 @@ import {
   AuthStackNavigator,
   UnauthorizedStackNavigator,
 } from '@navigation/index';
-import { useLoginState } from '@components/custom/login-form/provider';
+import { useLoginState } from '@features/login';
 
 export const RootStackNavigator = () => {
   const { showSplashScreen } = useMainState();

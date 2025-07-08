@@ -1,9 +1,9 @@
 import { getCredentials } from '../keychain';
 import { fetchUserFromCache, saveToCache } from '../local-cache';
 import { getUserByUserId } from '@data/index';
-import { useLoginDispatch } from '@components/custom/login-form/provider';
 import { useMainState, useMainDispatch } from '@redux/hooks';
 import { useEditUserData } from '@data/hooks/use-edit-user-data';
+import { useLoginDispatch } from '@features/login/provider';
 
 export const useLoadUserFromCache = () => {
   const { selectedGame } = useMainState();

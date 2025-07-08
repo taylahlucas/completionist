@@ -6,7 +6,6 @@ import {
 } from '@utils/index';
 import { useMainDispatch } from '@redux/hooks';
 import { useReactNavigation } from '@navigation/hooks';
-import { useState } from 'react';
 import { getMappedGameData, getGameDataFromCache } from '@data/index';
 import { useMainState } from '@redux/hooks';
 import { useContentDispatch } from '@features/game-content/provider';

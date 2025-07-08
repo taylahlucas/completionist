@@ -1,15 +1,13 @@
 import React from 'react';
 import { ScrollView } from 'react-native';
 import { useTranslation } from 'react-i18next';
-import { StandardLayout, Condition, StyledText } from '@components/general';
-import { NavigationHeader } from '@navigation/index';
-import {
-  LoginForm,
-  LoginContentContainer,
-  LoginFormSignInButtons,
-} from '@components/custom';
-import { UnauthorizedScreenEnum } from '@utils/index';
+import { Condition, StyledText } from '@components/general';
 import { useLogin } from './hooks';
+import {
+  LoginContentContainer,
+  LoginForm,
+  LoginFormSignInButtons,
+} from './login-form';
 
 export const LoginContent = () => {
   const { t } = useTranslation();

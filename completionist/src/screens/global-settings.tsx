@@ -4,7 +4,7 @@ import { AuthScreenEnum } from '@utils/custom-enums';
 import { useTranslation } from 'react-i18next';
 import { NavigationHeader } from '@navigation/index';
 import { GlobalSettingsContent } from '@features/settings';
-import { useGetLoginMethods } from '@components/custom/login-form/hooks';
+import { useGetLoginMethods } from '@features/login/login-form/hooks';
 
 export const GlobalSettings = () => {
   const { t } = useTranslation();

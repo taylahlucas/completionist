@@ -1,15 +1,6 @@
 import { initialFormData } from '@redux/main-state';
 import { createSlice } from '@reduxjs/toolkit';
-import { LoginFormData } from '@utils/index';
-
-export interface LoginState {
-  readonly loginFormData: LoginFormData;
-  readonly verificationToken?: string;
-  readonly isGoogleSignIn: boolean;
-  readonly isAuthenticated: boolean;
-  readonly isLoggedIn: boolean;
-  readonly isSigningUp: boolean;
-}
+import { LoginFormData, LoginState } from '@utils/index';
 
 export const initialState: LoginState = {
   loginFormData: initialFormData,

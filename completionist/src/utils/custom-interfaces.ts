@@ -9,9 +9,17 @@ import {
 import { NavigationAction, NavigationState } from '@react-navigation/native';
 import { MainState } from '@redux/main-state';
 import { SettingsState } from '@features/settings/provider';
-import { LoginState } from '@components/custom/login-form/provider';
 import { ContentState } from '@features/game-content/provider';
 import { LanguageType, ScreenEnumType } from './custom-types';
+
+export interface LoginState {
+  readonly loginFormData: LoginFormData;
+  readonly verificationToken?: string;
+  readonly isGoogleSignIn: boolean;
+  readonly isAuthenticated: boolean;
+  readonly isLoggedIn: boolean;
+  readonly isSigningUp: boolean;
+}
 
 export interface ContentItem {
   id: string;

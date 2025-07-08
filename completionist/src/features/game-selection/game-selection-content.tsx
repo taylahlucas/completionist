@@ -1,11 +1,11 @@
 import React, { useMemo, useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import {
   Condition,
   CustomSearchBar,
   ScrollableList,
 } from '@components/general';
 import { GameListSectionDropdown, gameListStyles } from '@components/custom';
-import { useTranslation } from 'react-i18next';
 import { useMainState } from '@redux/hooks';
 import { allGameData } from '@utils/configs';
 import { filterGameList } from '@components/custom/game-list/hooks';
