@@ -1,3 +1,4 @@
+import { initialFormData } from '@redux/main-state';
 import { createSlice } from '@reduxjs/toolkit';
 import { LoginFormData } from '@utils/index';
 
@@ -9,12 +10,6 @@ export interface LoginState {
   readonly isLoggedIn: boolean;
   readonly isSigningUp: boolean;
 }
-
-export const initialFormData: LoginFormData = {
-  userId: '',
-  username: '',
-  email: '',
-};
 
 export const initialState: LoginState = {
   loginFormData: initialFormData,

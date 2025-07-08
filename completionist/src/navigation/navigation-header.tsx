@@ -40,7 +40,10 @@ export const NavigationHeader = ({
   return (
     <NavigationHeaderContainer>
       {leftItem}
-      <NavigationHeaderText type="Heading" color={theme.lightGrey}>
+      <NavigationHeaderText
+        testID="navigation-header-title"
+        type="Heading"
+        color={theme.lightGrey}>
         {title}
       </NavigationHeaderText>
       {rightItem}

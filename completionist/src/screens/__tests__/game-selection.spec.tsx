@@ -1,16 +1,15 @@
 import React from 'react';
 import { GameSelection } from '../game-selection';
-import { mockMainState, renderWithProvider } from '../../utils/testing/helpers';
-import { initialState } from '../../redux/main-state';
-import { useMainState } from '../../redux/hooks';
-import { initialState as initialLoginState } from '../../components/custom/login-form/provider';
-import { initialState as initialSettingsState } from '../../features/settings/provider';
-import { initialState as initialContentState } from '../../features/game-content/provider';
+import {
+  mockUseMainState,
+  renderWithProvider,
+} from '../../utils/testing/helpers';
+import { mockUser } from '@utils/testing';
+import { initialState } from '@redux/main-state';
 
-// TODO: Fix here
 describe('<GameSelection />', () => {
   // beforeEach(() => {
-  //   mockMainState();
+  //   mockUseMainState();
   // });
 
   afterEach(() => {
@@ -18,15 +17,20 @@ describe('<GameSelection />', () => {
   });
 
   it('renders correctly', () => {
-    const { queryByTestId } = renderWithProvider(<GameSelection />, {
-      preloadedState: {
-        main: { ...initialState },
-        login: { ...initialLoginState },
-        settings: { ...initialSettingsState },
-        content: { ...initialContentState },
+    const { queryByTestId, queryByText } = renderWithProvider(
+      <GameSelection />,
+      {
+        main: {
+          ...initialState,
+          user: mockUser,
+        },
       },
-    });
-
-    queryByTestId('GameSelection');
+    );
+    expect(queryByTestId('game-selection')).toBeTruthy();
+    // const title = queryByTestId('navigation-header-title');
+    // console.log('HERE: ', title);
+    expect(queryByText('Welcome\nTest User')).toBeTruthy();
   });
+
+  // it('renders the game list', () => {});
 });

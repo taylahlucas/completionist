@@ -1,12 +1,17 @@
+import { AppStateStatus } from 'react-native';
 import { createSlice } from '@reduxjs/toolkit';
 import {
   UnauthorizedScreenEnum,
   GameKeyEnum,
   PaymentTierEnum,
 } from '@utils/custom-enums';
-import { GameData, User, ScreenEnumType } from '@utils/index';
-import { AppStateStatus } from 'react-native';
-import { initialFormData } from '@components/custom/login-form/provider';
+import { GameData, User, ScreenEnumType, LoginFormData } from '@utils/index';
+
+export const initialFormData: LoginFormData = {
+  userId: '',
+  username: '',
+  email: '',
+};
 
 export const initialGameData: GameData = {
   id: GameKeyEnum.SKYRIM,

@@ -4,7 +4,6 @@ import { StandardLayout } from '@components/general';
 import { NavigationHeader } from '@navigation/index';
 import { useMainState } from '@redux/hooks';
 import { AuthScreenEnum } from '@utils/index';
-import { View } from 'react-native';
 import { useReactNavigation } from '@navigation/hooks';
 import { GameSelectionContent } from '@features/game-selection';
 
@@ -14,8 +13,7 @@ export const GameSelection = () => {
   const navigation = useReactNavigation();
 
   return (
-    <StandardLayout>
-      <View />
+    <StandardLayout testID="game-selection">
       <NavigationHeader
         id={AuthScreenEnum.GameSelection}
         title={`${t('common:welcome')}\n${user.username}`}
@@ -25,7 +23,7 @@ export const GameSelection = () => {
           navigation.navigate(AuthScreenEnum.GlobalSettings)
         }
       />
-      <GameSelectionContent />
+      {/* <GameSelectionContent /> */}
     </StandardLayout>
   );
 };

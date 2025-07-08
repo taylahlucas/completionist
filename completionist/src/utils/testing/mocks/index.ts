@@ -1,3 +1,4 @@
-export { mockAlert } from './mockAlert';
-export { mockAxiosPost } from './mockAxios';
-export { mockAuthEndpoints } from './mockAuthEndpoints';
+export * from './mock-alert';
+// export * from './mock-auth-endpoints';
+export * from './mock-axios';
+export * from './mock-data';

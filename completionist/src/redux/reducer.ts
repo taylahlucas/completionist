@@ -1,5 +1,5 @@
 import { combineReducers } from '@reduxjs/toolkit';
-import mainReducer from './main-state';
+import mainReducer from '@redux/main-state';
 import loginReducer from '@components/custom/login-form/provider/login-state';
 import settingsReducer from '@features/settings/provider/settings-state';
 import contentReducer from '@features/game-content/provider/content-state';
@@ -11,7 +11,7 @@ export const reducers = {
   content: contentReducer,
 };
 
-const rootReducer = combineReducers({ ...reducers });
+const rootReducer = combineReducers(reducers);
 
 export type RootState = ReturnType<typeof rootReducer>;
 
