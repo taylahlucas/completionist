@@ -10,6 +10,7 @@ import { useContentState, useContentDispatch } from '../provider';
 import { useGetContent, useUpdateContent } from './hooks';
 import { ContentListProps } from './content-list';
 import { isGameItemComplete } from './helpers';
+import { useMainState } from '@redux/hooks';
 
 export interface ContentSubTypeDropdownProps extends ContentListProps {
   subCategory: string;
@@ -25,11 +26,12 @@ export const ContentSubTypeDropdown = ({
   total,
   ...props
 }: ContentSubTypeDropdownProps) => {
-  const { section, selectedGame } = props;
+  const { section } = props;
+  const { selectedGameData } = useMainState();
   const { setSelectedCategory, setWebViewHref } = useContentDispatch();
   const { selectedCategory } = useContentState();
   const { getContentForSubCategoryType } = useGetContent(section);
-  const { updateContentComplete } = useUpdateContent(selectedGame);
+  const { updateContentComplete } = useUpdateContent(selectedGameData);
   const items = getContentForSubCategoryType(subCategory, type);
 
   return (
@@ -55,7 +57,7 @@ export const ContentSubTypeDropdown = ({
             title={item.title}
             location={item.location}
             hold={item.hold}
-            isComplete={isGameItemComplete(section, item.id, selectedGame)}
+            isComplete={isGameItemComplete(section, item.id, selectedGameData)}
             onLongPress={(): void => setWebViewHref(item.href)}
             action={(): void => updateContentComplete(item.id)}
           />

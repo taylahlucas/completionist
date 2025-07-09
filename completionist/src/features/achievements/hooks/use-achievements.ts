@@ -1,21 +1,17 @@
 import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useMainState } from '@redux/hooks';
-import { getSteamPlayerAchievements } from '@data/index';
+import { getCurrentGame, getSteamPlayerAchievements } from '@data/index';
 import {
   GameKeyEnum,
   SteamAchievementItem,
   SteamAchievementsState,
 } from '@utils/index';
-import {
-  useEditUserData,
-  useGetGameProgressData,
-  getCurrentGame,
-} from '@data/hooks/index';
+import { useEditUserData, useGetGameProgressData } from '@data/hooks/index';
 
 export const useAchievements = () => {
   const { t } = useTranslation();
-  const { user, selectedGame } = useMainState();
+  const { user, selectedGameData } = useMainState();
   const [progressViewOpen, setProgressViewOpen] = useState<boolean>(true);
   const [steamAchievementsOpen, setSteamAchievementsOpen] =
     useState<boolean>(true);
@@ -26,11 +22,11 @@ export const useAchievements = () => {
       noOfLocked: 0,
     });
   const currentGame = getCurrentGame(
-    selectedGame?.id ?? user.gameData[0].id,
+    selectedGameData?.id ?? user.gameData[0].id,
     user,
   );
   const { getGameProgress } = useGetGameProgressData();
-  const gameProgress = getGameProgress([selectedGame?.id] as GameKeyEnum[]);
+  const gameProgress = getGameProgress([selectedGameData?.id] as GameKeyEnum[]);
   const { updateUserData } = useEditUserData();
 
   useEffect(() => {
@@ -77,12 +73,12 @@ export const useAchievements = () => {
     };
 
     fetchData();
-  }, [selectedGame, user.steamId]);
+  }, [selectedGameData, user.steamId]);
 
   return {
     viewModel: {
       user,
-      gameId: selectedGame?.id as GameKeyEnum,
+      gameId: selectedGameData?.id as GameKeyEnum,
       achievementsState,
       steamAchievementsOpen,
       progressViewOpen,

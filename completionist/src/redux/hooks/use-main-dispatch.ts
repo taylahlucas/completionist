@@ -10,8 +10,8 @@ import {
   setShowSplashScreen,
   setAppState,
   setCurrentScreen,
-  setSelectedGame,
-  setSelectedGameSettings,
+  setSelectedGameData,
+  setSelectedGameDataSettings,
   setWebSignInConfigured,
   setUser,
   setShouldUpdateUser,
@@ -29,8 +29,8 @@ interface MainDispatch {
   setShowSplashScreen: (value: boolean) => void;
   setAppState: (value: string) => void;
   setCurrentScreen: (value: ScreenEnumType) => void;
-  setSelectedGame: (value?: GameData) => void;
-  setSelectedGameSettings: (value: GameKeyEnum) => void;
+  setSelectedGameData: (value?: GameData) => void;
+  setSelectedGameDataSettings: (value: GameKeyEnum) => void;
   setWebSignInConfigured: (value: boolean) => void;
   setUser: (value: User) => void;
   setShouldUpdateUser: (value: boolean) => void;
@@ -55,11 +55,11 @@ export const useMainDispatch = (): MainDispatch => {
     setCurrentScreen(value: ScreenEnumType): void {
       dispatch(setCurrentScreen(value));
     },
-    setSelectedGame(value?: GameData): void {
-      dispatch(setSelectedGame(value));
+    setSelectedGameData(value?: GameData): void {
+      dispatch(setSelectedGameData(value));
     },
-    setSelectedGameSettings(value: GameKeyEnum): void {
-      dispatch(setSelectedGameSettings(value));
+    setSelectedGameDataSettings(value: GameKeyEnum): void {
+      dispatch(setSelectedGameDataSettings(value));
     },
     setWebSignInConfigured(value: boolean): void {
       dispatch(setWebSignInConfigured(value));

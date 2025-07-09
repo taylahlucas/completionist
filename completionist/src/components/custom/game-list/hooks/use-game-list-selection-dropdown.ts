@@ -14,12 +14,13 @@ import { getGameLanguages } from '@utils/hooks';
 export const useGameListSelectionDropdown = () => {
   const navigation = useReactNavigation();
   const { user } = useMainState();
-  const { setSelectedGame, setSelectedGameSettings } = useMainDispatch();
+  const { setSelectedGameData, setSelectedGameDataSettings } =
+    useMainDispatch();
   const { setGameContent } = useContentDispatch();
 
   const navigateToGame = (game: GameData) => {
-    setSelectedGame(game);
-    setSelectedGameSettings(game.id);
+    setSelectedGameData(game);
+    setSelectedGameDataSettings(game.id);
     navigation.navigate(AuthScreenEnum.DrawerStack);
   };
 

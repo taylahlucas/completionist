@@ -28,7 +28,7 @@ export const PurchaseGameContent = ({ gameId }: { gameId: GameKeyEnum }) => {
         <Button title={t('common:continue')} onPress={actions.handlePayment} />
       }>
       <GameListItem
-        game={viewModel.selectedGame}
+        game={viewModel.selectedGameData}
         enabled={true}
         onPress={(): void => {}}
       />

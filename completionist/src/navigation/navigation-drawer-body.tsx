@@ -22,7 +22,7 @@ export const NavigationDrawerBody: React.FunctionComponent = () => {
   const { t } = useTranslation();
   const navigation = useReactNavigation();
   const theme = useGetTheme();
-  const { setSelectedGame } = useMainDispatch();
+  const { setSelectedGameData } = useMainDispatch();
   const { currentScreen } = useMainState();
   const drawerItems = useGetNavigationDrawerItems();
   const footerItems = useGetNavigationFooterDrawerItems();
@@ -45,7 +45,7 @@ export const NavigationDrawerBody: React.FunctionComponent = () => {
             key={index}
             onPress={(): void => {
               if (item.id === AuthScreenEnum.GameSelection) {
-                setSelectedGame(undefined);
+                setSelectedGameData(undefined);
               }
               navigation.navigate(item.id);
             }}>

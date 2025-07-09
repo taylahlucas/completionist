@@ -5,6 +5,7 @@ import { ContentSubTypeDropdown, ContentMainList, ContentListProps } from './';
 import { ContentItem } from '@utils/index';
 import { useGetContent, useGetContentCategories } from './hooks';
 import { isGameItemCompleteForCategory } from './helpers';
+import { useMainState } from '@redux/hooks';
 
 export interface ContentSubDropdownProps extends ContentListProps {
   mainCategory: ContentItem;
@@ -20,7 +21,8 @@ export const ContentSubDropdown = ({
   total,
   ...props
 }: ContentSubDropdownProps) => {
-  const { section, selectedGame } = props;
+  const { section } = props;
+  const { selectedGameData } = useMainState();
   const { setSelectedCategory } = useContentDispatch();
   const { selectedCategory } = useContentState();
   const { getContentForSubCategoryType } = useGetContent(section);
@@ -29,7 +31,7 @@ export const ContentSubDropdown = ({
   // TODO: Fix here
   const subCategoryTypes = getContentSubCategoriesTypes(
     subCategory,
-    selectedGame?.id,
+    selectedGameData?.id,
   );
 
   return (
@@ -68,7 +70,7 @@ export const ContentSubDropdown = ({
           const completedContent = isGameItemCompleteForCategory(
             section,
             contentForType,
-            selectedGame,
+            selectedGameData,
           );
 
           return (

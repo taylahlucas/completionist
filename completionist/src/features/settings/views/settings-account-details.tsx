@@ -11,8 +11,8 @@ export const SettingsAccountDetails = () => {
   const navigation = useReactNavigation();
   const theme = useGetTheme();
   const { t } = useTranslation();
-  const { user, selectedGame } = useMainState();
-  const isGlobalSettings = !selectedGame;
+  const { user, selectedGameData } = useMainState();
+  const isGlobalSettings = !selectedGameData;
 
   return (
     <>

@@ -26,15 +26,15 @@ const Drawer = createDrawerNavigator<DrawerStackParamList>();
 
 export const AuthDrawerStackNavigator = () => {
   const theme = useGetTheme();
-  const { selectedGame } = useMainState();
+  const { selectedGameData } = useMainState();
   const { translateGameName } = useTranslateGameContent();
 
   const NavigationDrawerContent = (): JSX.Element => {
     return (
-      <Condition condition={!!selectedGame}>
+      <Condition condition={!!selectedGameData}>
         <NavigationDrawerContainer>
           <StyledText type={'SubHeading'} color={theme.lightGrey}>
-            {!!selectedGame ? translateGameName(selectedGame?.id) : ''}
+            {!!selectedGameData ? translateGameName(selectedGameData?.id) : ''}
           </StyledText>
           <NavigationDrawerBody />
         </NavigationDrawerContainer>

@@ -72,17 +72,17 @@ export const useGameSettings = () => {
   const onSetGameLanguage = (
     value: string,
     user: User,
-    selectedGame: GameData,
+    selectedGameData: GameData,
   ): void => {
-    if (!selectedGame) return;
+    if (!selectedGameData) return;
 
     let gameData = Object.entries(user.gameData).find(
-      item => item[1].id === selectedGame.id,
+      item => item[1].id === selectedGameData.id,
     );
     if (!gameData) return;
 
     const updatedGameData: GameData[] = [
-      ...user.gameData.filter(item => item.id !== selectedGame.id),
+      ...user.gameData.filter(item => item.id !== selectedGameData.id),
       {
         ...gameData[1],
         lang: value as LanguageType,
@@ -102,7 +102,7 @@ export const useGameSettings = () => {
       saveUser(updatedUser);
     });
     getGameDataFromCache({
-      selectedGame: selectedGame.id,
+      selectedGame: selectedGameData.id,
       lang: value as LanguageType,
     }).then(response => {
       const gameData = getMappedGameData(response);

@@ -23,7 +23,7 @@ interface UsePurchaseGameReturnType {
     collectablesLength: number;
     locationsLength: number;
     miscLength: number;
-    selectedGame: GameData;
+    selectedGameData: GameData;
     initialPointsAvailable: number;
     pointsAvailable: number;
     points: string;
@@ -49,7 +49,7 @@ export const usePurchaseGame = (
   const { t } = useTranslation();
   const { translateGameName } = useTranslateGameContent();
   const navigation = useReactNavigation();
-  const selectedGame = allGameData.find(game => game.id === gameId);
+  const selectedGameData = allGameData.find(game => game.id === gameId);
   const [gameContent, setGameContent] = useState<GameContentState>({
     quests: [],
     collectables: [],
@@ -72,12 +72,12 @@ export const usePurchaseGame = (
   );
   const [points, setPoints] = useState('');
 
-  if (!selectedGame) {
+  if (!selectedGameData) {
     // TODO: Throw error and log
     console.log('Could not find selected game');
     throw Error('Could not find selected game data');
   }
-  const gamePrice = getPriceForGame(selectedGame?.tier);
+  const gamePrice = getPriceForGame(selectedGameData?.tier);
 
   const openPaymentSheet = async () => {
     const { error } = await presentPaymentSheet();
@@ -90,7 +90,7 @@ export const usePurchaseGame = (
       }
     } else {
       try {
-        activateGame(user, selectedGame.id);
+        activateGame(user, selectedGameData.id);
         Alert.alert('Success', 'Your payment was confirmed!', [
           {
             text: t('common:alerts.cta.ok'),
@@ -111,7 +111,7 @@ export const usePurchaseGame = (
       const response = await createPayment({
         userId: user.userId,
         amount: gamePrice.amount,
-        game: selectedGame.id,
+        game: selectedGameData.id,
       });
       const { paymentIntent, ephemeralKey, customer } = response.data;
 
@@ -159,7 +159,7 @@ export const usePurchaseGame = (
       collectablesLength: gameContent?.collectables.length ?? 0,
       locationsLength: gameContent?.locations.length ?? 0,
       miscLength: gameContent?.miscellaneous.length ?? 0,
-      selectedGame: selectedGame ?? allGameData[0],
+      selectedGameData: selectedGameData ?? allGameData[0],
       initialPointsAvailable,
       pointsAvailable,
       points,

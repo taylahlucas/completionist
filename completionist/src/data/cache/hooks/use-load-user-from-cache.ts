@@ -6,8 +6,8 @@ import { useEditUserData } from '@data/hooks/use-edit-user-data';
 import { useLoginDispatch } from '@features/login/provider';
 
 export const useLoadUserFromCache = () => {
-  const { selectedGame } = useMainState();
-  const { setSelectedGameSettings } = useMainDispatch();
+  const { selectedGameData } = useMainState();
+  const { setSelectedGameDataSettings } = useMainDispatch();
   const { setLoggedIn } = useLoginDispatch();
   const { saveUser } = useEditUserData();
 
@@ -23,8 +23,8 @@ export const useLoadUserFromCache = () => {
                 saveUser(user);
                 saveToCache(user, user.userId);
                 setLoggedIn(true);
-                if (!selectedGame && user.gameData) {
-                  setSelectedGameSettings(user.gameData[0]?.id);
+                if (!selectedGameData && user.gameData) {
+                  setSelectedGameDataSettings(user.gameData[0]?.id);
                 }
               }
             })
@@ -33,8 +33,8 @@ export const useLoadUserFromCache = () => {
           if (cachedData) {
             saveUser(cachedData);
             setLoggedIn(true);
-            if (!selectedGame && cachedData.gameData) {
-              setSelectedGameSettings(cachedData?.gameData[0]?.id);
+            if (!selectedGameData && cachedData.gameData) {
+              setSelectedGameDataSettings(cachedData?.gameData[0]?.id);
             }
           }
         }

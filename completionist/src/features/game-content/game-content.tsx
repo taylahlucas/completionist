@@ -11,16 +11,16 @@ import { getCompletedGameDataForSection } from '@data/index';
 import { ContentList } from './views';
 
 export const GameContent = ({ section }: { section: ContentSectionEnum }) => {
-  const { selectedGame } = useMainState();
+  const { selectedGameData } = useMainState();
   const { setSearchValue } = useContentDispatch();
   const { searchValue, gameContent } = useContentState();
-  const sectionData = getCompletedGameDataForSection(section, selectedGame);
 
   // TODO: Test if this works
-  if (!selectedGame || !gameContent) {
+  if (!selectedGameData || !gameContent) {
     return <Loading />;
   }
 
+  const sectionData = getCompletedGameDataForSection(section, selectedGameData);
   let totalItems = 0;
   switch (section) {
     case ContentSectionEnum.QUESTS:
@@ -50,7 +50,7 @@ export const GameContent = ({ section }: { section: ContentSectionEnum }) => {
       <CompletedQuantityTitle type={'ListItemSubTitleBold'}>
         {`${sectionData.length}/${totalItems}`}
       </CompletedQuantityTitle>
-      <ContentList section={section} selectedGame={selectedGame} />
+      <ContentList section={section} />
     </>
   );
 };

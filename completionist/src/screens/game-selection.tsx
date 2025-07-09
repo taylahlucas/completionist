@@ -18,6 +18,7 @@ export const GameSelection = () => {
         id={AuthScreenEnum.GameSelection}
         title={`${t('common:welcome')}\n${user.username}`}
         // leftAction="achievements"
+        leftAction="none"
         rightAction="settings"
         rightCallback={(): void =>
           navigation.navigate(AuthScreenEnum.GlobalSettings)

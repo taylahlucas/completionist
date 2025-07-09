@@ -1,12 +1,15 @@
+import { initialGameData } from '@redux/main-state';
 import { createSlice } from '@reduxjs/toolkit';
 import {
   ContentSectionEnum,
   DropDownType,
   GameContentItem,
+  GameData,
 } from '@utils/index';
 
 export interface ContentState {
   readonly sectionType: ContentSectionEnum;
+  readonly selectedGameData: GameData;
   readonly searchValue: string;
   readonly selectedCategory: DropDownType;
   readonly webViewHref?: string;
@@ -20,6 +23,7 @@ export interface ContentState {
 
 export const initialState: ContentState = {
   sectionType: ContentSectionEnum.QUESTS,
+  selectedGameData: initialGameData,
   searchValue: '',
   selectedCategory: {
     category: '',
@@ -38,6 +42,9 @@ const slice = createSlice({
   reducers: {
     setSelectedSection: (state, action) => {
       state.sectionType = action.payload;
+    },
+    setSelectedGameData: (state, action) => {
+      state.selectedGameData = action.payload;
     },
     setSearchValue: (state, action) => {
       state.searchValue = action.payload;
@@ -65,6 +72,7 @@ const slice = createSlice({
 
 export const {
   setSelectedSection,
+  setSelectedGameData,
   setSearchValue,
   setSelectedCategory,
   setWebViewHref,

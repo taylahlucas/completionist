@@ -38,7 +38,8 @@ interface GetLoginMethodsReturnType {
 export const useGetLoginMethods = (): GetLoginMethodsReturnType => {
   const { t } = useTranslation();
   const { user, shouldUpdateUser } = useMainState();
-  const { setSelectedGameSettings, setShowSplashScreen } = useMainDispatch();
+  const { setSelectedGameDataSettings, setShowSplashScreen } =
+    useMainDispatch();
   const { setLoggedIn, triggerIsSigningUp, setIsGoogleSignIn } =
     useLoginDispatch();
   const { saveUser } = useEditUserData();
@@ -53,7 +54,7 @@ export const useGetLoginMethods = (): GetLoginMethodsReturnType => {
           setLoggedIn(true);
           setShowSplashScreen(false);
           if (userResponse.gameData) {
-            setSelectedGameSettings(userResponse.gameData[0]?.id);
+            setSelectedGameDataSettings(userResponse.gameData[0]?.id);
           }
         }
       })
@@ -93,7 +94,7 @@ export const useGetLoginMethods = (): GetLoginMethodsReturnType => {
                 saveUser(userResponse);
                 setLoggedIn(true);
                 if (userResponse.gameData) {
-                  setSelectedGameSettings(userResponse.gameData[0]?.id);
+                  setSelectedGameDataSettings(userResponse.gameData[0]?.id);
                 }
               }
             }),

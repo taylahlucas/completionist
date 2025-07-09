@@ -14,7 +14,7 @@ export const useSelectFirstGame = () => {
   const [selectedFirstGame, setSelectedFirstGame] = useState<GameKeyEnum>();
   const [searchValue, setSearchValue] = useState('');
   const { user } = useMainState();
-  const { setSelectedGameSettings } = useMainDispatch();
+  const { setSelectedGameDataSettings } = useMainDispatch();
   const { isGoogleSignIn } = useLoginState();
   const { setIsGoogleSignIn } = useLoginDispatch();
   const isRequestLoading = useIsRequestLoading();
@@ -41,7 +41,7 @@ export const useSelectFirstGame = () => {
       updateUserData,
       activateGame,
       setIsGoogleSignIn,
-      setSelectedGameSettings,
+      setSelectedGameDataSettings,
     },
   };
 };

@@ -32,7 +32,7 @@ export const SettingsItemDropdown = ({
 }: SettingsItemDropdownProps) => {
   const { t } = useTranslation();
   const theme = useGetTheme();
-  const { selectedGameSettings, user, selectedGame } = useMainState();
+  const { selectedGameDataSettings, user, selectedGameData } = useMainState();
   const { saveUser } = useEditUserData();
   const { setSelectedCategory } = useSettingsDispatch();
   const { selectedCategory } = useSettingsState();
@@ -50,7 +50,7 @@ export const SettingsItemDropdown = ({
           const updatedUser = updateGameSettings(
             user,
             item,
-            selectedGameSettings,
+            selectedGameDataSettings,
           );
           if (updatedUser) {
             saveUser(updatedUser);
@@ -90,7 +90,7 @@ export const SettingsItemDropdown = ({
             <SettingsSubItemContainer key={index} color={theme.darkGrey}>
               <SettingsTitle color={theme.lightGrey} align="left">
                 {translateCategoryName(
-                  selectedGameSettings,
+                  selectedGameDataSettings,
                   item.id,
                   settingsItem.id,
                 )}
@@ -104,7 +104,7 @@ export const SettingsItemDropdown = ({
                 key={`${dlcItem}-${index}`}
                 color={theme.darkGrey}>
                 <SettingsTitle color={theme.lightGrey} align="left">
-                  {translateDLCName(selectedGameSettings, dlcItem.id)}
+                  {translateDLCName(selectedGameDataSettings, dlcItem.id)}
                 </SettingsTitle>
                 {renderSettingsCheckbox(dlcItem, { marginRight: 5 })}
               </SettingsSubItemContainer>

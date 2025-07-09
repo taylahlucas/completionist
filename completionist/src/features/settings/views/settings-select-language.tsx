@@ -10,7 +10,7 @@ import { getGameLanguages, getLanguageInEn } from '@utils/hooks';
 
 interface SettingsSelectLanguageProps {
   selectedLanguage: LanguageType;
-  selectedGame?: GameData;
+  selectedGameData?: GameData;
   isOpen: boolean;
   setOpen: (value: boolean) => void;
   onSetLanguage: (value: string) => void;
@@ -18,16 +18,16 @@ interface SettingsSelectLanguageProps {
 
 export const SettingsSelectLanguage = ({
   selectedLanguage,
-  selectedGame,
+  selectedGameData,
   isOpen,
   setOpen,
   onSetLanguage,
 }: SettingsSelectLanguageProps) => {
   const { t } = useTranslation();
 
-  const languageList = !selectedGame
+  const languageList = !selectedGameData
     ? languages
-    : getGameLanguages(selectedGame.id);
+    : getGameLanguages(selectedGameData.id);
 
   return (
     <Dropdown

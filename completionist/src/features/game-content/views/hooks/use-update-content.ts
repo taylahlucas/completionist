@@ -2,7 +2,7 @@ import { useContentState } from '@features/game-content/provider';
 import { useMainDispatch } from '@redux/hooks';
 import { Item, ContentSectionEnum, GameData } from '@utils/index';
 
-export const useUpdateContent = (selectedGame: GameData) => {
+export const useUpdateContent = (selectedGameData?: GameData) => {
   const {
     setCompletedQuests,
     setCompletedCollectables,
@@ -40,19 +40,19 @@ export const useUpdateContent = (selectedGame: GameData) => {
     switch (sectionType) {
       case ContentSectionEnum.QUESTS:
         completedContent =
-          selectedGame?.quests.filter(item => item.isComplete) ?? [];
+          selectedGameData?.quests.filter(item => item.isComplete) ?? [];
         break;
       case ContentSectionEnum.COLLECTABLES:
         completedContent =
-          selectedGame?.collectables.filter(item => item.isComplete) ?? [];
+          selectedGameData?.collectables.filter(item => item.isComplete) ?? [];
         break;
       case ContentSectionEnum.LOCATIONS:
         completedContent =
-          selectedGame?.locations.filter(item => item.isComplete) ?? [];
+          selectedGameData?.locations.filter(item => item.isComplete) ?? [];
         break;
       case ContentSectionEnum.MISCELLANEOUS:
         completedContent =
-          selectedGame?.miscellaneous.filter(item => item.isComplete) ?? [];
+          selectedGameData?.miscellaneous.filter(item => item.isComplete) ?? [];
         break;
     }
     const itemToUpdate = completedContent.find(item => item.id === itemId);

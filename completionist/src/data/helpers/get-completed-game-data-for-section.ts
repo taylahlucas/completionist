@@ -3,47 +3,49 @@ import { GameData, Item } from '@utils/custom-interfaces';
 
 export const getCompletedGameDataForSection = (
   section: ContentSectionEnum,
-  selectedGame?: GameData,
+  selectedGameData?: GameData,
 ): Item[] => {
   switch (section) {
     case ContentSectionEnum.QUESTS:
-      return selectedGame
-        ? selectedGame?.quests.filter(item => item.isComplete)
+      return selectedGameData
+        ? selectedGameData?.quests.filter(item => item.isComplete)
         : [];
     case ContentSectionEnum.COLLECTABLES:
-      return selectedGame
-        ? selectedGame?.collectables.filter(item => item.isComplete)
+      return selectedGameData
+        ? selectedGameData?.collectables.filter(item => item.isComplete)
         : [];
     case ContentSectionEnum.LOCATIONS:
-      return selectedGame
-        ? selectedGame?.locations.filter(item => item.isComplete)
+      return selectedGameData
+        ? selectedGameData?.locations.filter(item => item.isComplete)
         : [];
     case ContentSectionEnum.MISCELLANEOUS:
-      return selectedGame
-        ? selectedGame?.miscellaneous.filter(item => item.isComplete)
+      return selectedGameData
+        ? selectedGameData?.miscellaneous.filter(item => item.isComplete)
         : [];
     default:
       return [];
   }
 };
 
-export const getAllCompletedGameDataForSection = (selectedGame?: GameData) => {
+export const getAllCompletedGameDataForSection = (
+  selectedGameData?: GameData,
+) => {
   return {
     userQuests: getCompletedGameDataForSection(
       ContentSectionEnum.QUESTS,
-      selectedGame,
+      selectedGameData,
     ),
     userCollectables: getCompletedGameDataForSection(
       ContentSectionEnum.COLLECTABLES,
-      selectedGame,
+      selectedGameData,
     ),
     userLocations: getCompletedGameDataForSection(
       ContentSectionEnum.LOCATIONS,
-      selectedGame,
+      selectedGameData,
     ),
     userMiscellaneous: getCompletedGameDataForSection(
       ContentSectionEnum.MISCELLANEOUS,
-      selectedGame,
+      selectedGameData,
     ),
   };
 };

@@ -6,6 +6,7 @@ import { useContentDispatch } from '../provider';
 import { isGameItemComplete } from './helpers';
 import { ContentListProps } from './content-list';
 import { useGetContent, useUpdateContent } from './hooks';
+import { useMainState } from '@redux/hooks';
 
 export interface ContentMainListProps extends ContentListProps {
   mainCategory?: ContentItem;
@@ -19,11 +20,12 @@ export const ContentMainList = ({
   isSubCategory = false,
   ...props
 }: ContentMainListProps) => {
-  const { section, selectedGame } = props;
+  const { section } = props;
+  const { selectedGameData } = useMainState();
   const { setWebViewHref } = useContentDispatch();
   const { getContentForCategory, getContentForSubCategory } =
     useGetContent(section);
-  const { updateContentComplete } = useUpdateContent(selectedGame);
+  const { updateContentComplete } = useUpdateContent(selectedGameData);
   const items = isSubCategory
     ? getContentForSubCategory(mainCategory?.title, subCategory)
     : getContentForCategory(mainCategory?.title ?? '');
@@ -40,7 +42,7 @@ export const ContentMainList = ({
           id={item.id}
           key={index}
           title={item.title}
-          isComplete={isGameItemComplete(section, item.id, selectedGame)}
+          isComplete={isGameItemComplete(section, item.id, selectedGameData)}
           onLongPress={(): void => setWebViewHref(item.href)}
           action={(): void => updateContentComplete(item.id)}
         />

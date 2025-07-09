@@ -15,19 +15,24 @@ import {
 } from './hooks';
 import { ContentItem, ContentSectionEnum, GameData } from '@utils/index';
 import { isGameItemComplete, isGameItemCompleteForCategory } from './helpers';
+import { useMainState } from '@redux/hooks';
 
 export interface ContentListProps {
   section: ContentSectionEnum;
-  selectedGame: GameData;
 }
 
-export const ContentList = ({ section, selectedGame }: ContentListProps) => {
+export const ContentList = ({ section }: ContentListProps) => {
+  const { selectedGameData } = useMainState();
   const { searchValue, webViewHref } = useContentState();
   const { setSearchValue, setWebViewHref } = useContentDispatch();
   const { getContentCategories } = useGetContentCategories(section);
   const { getContentForCategory, getFilteredContent } = useGetContent(section);
-  const { updateContentComplete } = useUpdateContent(selectedGame);
   const categories = getContentCategories();
+
+  if (!selectedGameData || !categories) {
+    return <Loading />;
+  }
+  const { updateContentComplete } = useUpdateContent(selectedGameData);
 
   useEffect(() => {
     setSearchValue('');
@@ -42,9 +47,7 @@ export const ContentList = ({ section, selectedGame }: ContentListProps) => {
       />
     );
   }
-  if (!categories) {
-    return <Loading />;
-  }
+
   return (
     <Condition
       condition={searchValue.length < 2 && !!categories}
@@ -55,7 +58,11 @@ export const ContentList = ({ section, selectedGame }: ContentListProps) => {
               key={index}
               id={item.id}
               title={item.title}
-              isComplete={isGameItemComplete(section, item.id, selectedGame)}
+              isComplete={isGameItemComplete(
+                section,
+                item.id,
+                selectedGameData,
+              )}
               onLongPress={(): void => setWebViewHref(item.href)}
               action={(): void => updateContentComplete(item.id)}
             />
@@ -68,7 +75,7 @@ export const ContentList = ({ section, selectedGame }: ContentListProps) => {
           const completedContent = isGameItemCompleteForCategory(
             section,
             allContentForCategory,
-            selectedGame,
+            selectedGameData,
           );
 
           return (
@@ -78,7 +85,6 @@ export const ContentList = ({ section, selectedGame }: ContentListProps) => {
               completed={completedContent.toString()}
               total={allContentForCategory.length.toString()}
               section={section}
-              selectedGame={selectedGame}
             />
           );
         })}

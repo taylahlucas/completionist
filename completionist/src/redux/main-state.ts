@@ -49,7 +49,7 @@ export interface MainState {
   readonly showSplashScreen: boolean;
   readonly appState?: AppStateStatus;
   readonly currentScreen?: ScreenEnumType;
-  readonly selectedGame?: GameData;
+  readonly selectedGameData?: GameData;
   readonly selectedGameSettings: GameKeyEnum;
   readonly webSignInConfigured: boolean;
   readonly user: User;
@@ -68,10 +68,11 @@ export const initialState: MainState = {
 };
 
 const getUserDataState = (state: MainState): GameData => {
-  if (state.selectedGame && state.user.gameData) {
+  if (state.selectedGameData && state.user.gameData) {
     return (
-      state.user.gameData.find(game => game.id === state.selectedGame?.id) ??
-      initialGameData
+      state.user.gameData.find(
+        game => game.id === state.selectedGameData?.id,
+      ) ?? initialGameData
     );
   }
   return initialGameData;
@@ -90,13 +91,13 @@ const slice = createSlice({
     setCurrentScreen: (state, action) => {
       state.currentScreen = action.payload;
     },
-    setSelectedGame: (state, action) => {
-      state.selectedGame = action.payload;
+    setSelectedGameData: (state, action) => {
+      state.selectedGameData = action.payload;
     },
     setWebSignInConfigured: (state, action) => {
       state.webSignInConfigured = action.payload;
     },
-    setSelectedGameSettings: (state, action) => {
+    setSelectedGameDataSettings: (state, action) => {
       state.selectedGameSettings = action.payload;
     },
     setUser: (state, action) => {
@@ -110,34 +111,34 @@ const slice = createSlice({
     },
     setCompletedQuests: (state, action) => {
       state.shouldUpdateUser = true;
-      if (state.selectedGame) {
+      if (state.selectedGameData) {
         const userData = getUserDataState(state);
         userData.quests = action.payload;
-        state.selectedGame.quests = action.payload;
+        state.selectedGameData.quests = action.payload;
       }
     },
     setCompletedCollectables: (state, action) => {
       state.shouldUpdateUser = true;
-      if (state.selectedGame) {
+      if (state.selectedGameData) {
         const userData = getUserDataState(state);
         userData.collectables = action.payload;
-        state.selectedGame.collectables = action.payload;
+        state.selectedGameData.collectables = action.payload;
       }
     },
     setCompletedLocations: (state, action) => {
       state.shouldUpdateUser = true;
-      if (state.selectedGame) {
+      if (state.selectedGameData) {
         const userData = getUserDataState(state);
         userData.locations = action.payload;
-        state.selectedGame.locations = action.payload;
+        state.selectedGameData.locations = action.payload;
       }
     },
     setCompletedMiscItems: (state, action) => {
       state.shouldUpdateUser = true;
-      if (state.selectedGame) {
+      if (state.selectedGameData) {
         const userData = getUserDataState(state);
         userData.miscellaneous = action.payload;
-        state.selectedGame.miscellaneous = action.payload;
+        state.selectedGameData.miscellaneous = action.payload;
       }
     },
     reset: state => {
@@ -152,8 +153,8 @@ export const {
   setShowSplashScreen,
   setAppState,
   setCurrentScreen,
-  setSelectedGame,
-  setSelectedGameSettings,
+  setSelectedGameData,
+  setSelectedGameDataSettings,
   setWebSignInConfigured,
   setUser,
   setShouldUpdateUser,

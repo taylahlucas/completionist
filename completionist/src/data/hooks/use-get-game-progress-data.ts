@@ -9,26 +9,26 @@ import { useContentState } from '@features/game-content/provider';
 import { filterActiveSections, getCurrentGame } from '@data/index';
 
 export const useGetGameProgressData = () => {
-  const { user, selectedGame } = useMainState();
+  const { user, selectedGameData } = useMainState();
   const { gameContent } = useContentState();
 
   const getGameProgress = (games: GameKeyEnum[]): ProgressItem[] => {
     return games.map(game => {
       const currentGame = getCurrentGame(game, user);
       const questData = filterActiveSections(
-        selectedGame?.settingsConfig.general ?? [],
+        selectedGameData?.settingsConfig.general ?? [],
         gameContent?.quests ?? [],
       );
       const collectablesData = filterActiveSections(
-        selectedGame?.settingsConfig.general ?? [],
+        selectedGameData?.settingsConfig.general ?? [],
         gameContent?.collectables ?? [],
       );
       const locationsData = filterActiveSections(
-        selectedGame?.settingsConfig.general ?? [],
+        selectedGameData?.settingsConfig.general ?? [],
         gameContent?.locations ?? [],
       );
       const miscellaneousData = filterActiveSections(
-        selectedGame?.settingsConfig.general ?? [],
+        selectedGameData?.settingsConfig.general ?? [],
         gameContent?.miscellaneous ?? [],
       );
 

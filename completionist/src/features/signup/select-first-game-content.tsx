@@ -54,7 +54,9 @@ export const SelectFirstGameContent = () => {
                   },
                 };
                 actions.activateGame(updatedUser, viewModel.selectedFirstGame);
-                actions.setSelectedGameSettings(viewModel.selectedFirstGame);
+                actions.setSelectedGameDataSettings(
+                  viewModel.selectedFirstGame,
+                );
                 actions.setIsGoogleSignIn(false);
               }
             }}

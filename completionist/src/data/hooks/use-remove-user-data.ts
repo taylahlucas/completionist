@@ -8,7 +8,7 @@ import { ContentSectionEnum } from '@utils/index';
 import { useLoginDispatch } from '@features/login';
 
 export const useRemoveUserData = () => {
-  const { setUser, setSelectedGame } = useMainDispatch();
+  const { setUser, setSelectedGameData } = useMainDispatch();
   const {
     setLoginFormData,
     triggerIsSigningUp,
@@ -32,7 +32,7 @@ export const useRemoveUserData = () => {
     setLoginFormData(initialFormData);
     triggerIsSigningUp(false);
     setUser(initialUser);
-    setSelectedGame(undefined);
+    setSelectedGameData(undefined);
     clearCache();
     deleteCredentials();
   };

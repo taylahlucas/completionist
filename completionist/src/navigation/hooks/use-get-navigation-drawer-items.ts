@@ -15,26 +15,26 @@ import { useMainState } from '@redux/hooks';
 
 export const useGetNavigationDrawerItems = (): NavigationDrawerItemData[] => {
   const { t } = useTranslation();
-  const { selectedGame } = useMainState();
+  const { selectedGameData } = useMainState();
   const { userQuests, userCollectables, userLocations, userMiscellaneous } =
-    getAllCompletedGameDataForSection(selectedGame);
+    getAllCompletedGameDataForSection(selectedGameData);
   const { gameContent } = useContentState();
   const { checkIsSectionEnabled } = useCheckSectionEnabled();
 
   const questData = filterActiveSections(
-    selectedGame?.settingsConfig.general ?? [],
+    selectedGameData?.settingsConfig.general ?? [],
     gameContent?.quests ?? [],
   );
   const collectablesData = filterActiveSections(
-    selectedGame?.settingsConfig.general ?? [],
+    selectedGameData?.settingsConfig.general ?? [],
     gameContent?.collectables ?? [],
   );
   const locationsData = filterActiveSections(
-    selectedGame?.settingsConfig.general ?? [],
+    selectedGameData?.settingsConfig.general ?? [],
     gameContent?.locations ?? [],
   );
   const miscellaneousData = filterActiveSections(
-    selectedGame?.settingsConfig.general ?? [],
+    selectedGameData?.settingsConfig.general ?? [],
     gameContent?.miscellaneous ?? [],
   );
   const { shouldHideDisabledSections } = useGetSettingsConfig();

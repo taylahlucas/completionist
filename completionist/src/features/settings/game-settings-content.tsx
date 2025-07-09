@@ -35,13 +35,13 @@ export const GameSettingsContent = () => {
   const { getDLCOptions, setDLCOptions } = useDLCOptions();
   const showHideOptions = useGetShowHideOptions();
 
-  const { user, selectedGame } = useMainState();
+  const { user, selectedGameData } = useMainState();
   const [selectedLanguage, setSelectedLanguage] = useState<LanguageType>(
-    selectedGame?.lang ?? 'en',
+    selectedGameData?.lang ?? 'en',
   );
   const [isLanguagesOpen, setLanguagesOpen] = useState<boolean>(false);
 
-  if (!selectedGame) return;
+  if (!selectedGameData) return;
 
   return (
     <>
@@ -79,7 +79,7 @@ export const GameSettingsContent = () => {
           type="enable-dlc"
           data={getDLCOptions()}
           onPress={setDLCOptions}
-          translationKey={selectedGame?.id}
+          translationKey={selectedGameData?.id}
         />
 
         {/* Show sections */}
@@ -110,7 +110,7 @@ export const GameSettingsContent = () => {
           }}
           onSetLanguage={(value: string) => {
             setSelectedLanguage(value as LanguageType);
-            onSetGameLanguage(value, user, selectedGame);
+            onSetGameLanguage(value, user, selectedGameData);
             setLanguagesOpen(false);
           }}
         />

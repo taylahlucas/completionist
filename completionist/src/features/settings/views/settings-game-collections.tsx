@@ -19,7 +19,7 @@ import { useMainState, useMainDispatch } from '@redux/hooks';
 export const SettingsGameCollections = () => {
   const { t } = useTranslation();
   const { user, selectedGameSettings } = useMainState();
-  const { setSelectedGameSettings } = useMainDispatch();
+  const { setSelectedGameDataSettings } = useMainDispatch();
   const { userSettingsMainConfig } = useGetUserGameData();
 
   const { translateGameName } = useTranslateGameContent();
@@ -58,7 +58,7 @@ export const SettingsGameCollections = () => {
           }))}
           onPress={(value): void => {
             triggerSelectionOpen(false);
-            setSelectedGameSettings(value as GameKeyEnum);
+            setSelectedGameDataSettings(value as GameKeyEnum);
           }}
         />
       </Dropdown>
