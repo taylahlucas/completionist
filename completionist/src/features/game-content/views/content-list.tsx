@@ -55,7 +55,7 @@ export const ContentList = ({ section }: ContentListProps) => {
         <ScrollableList>
           {getFilteredContent().map((item, index) => (
             <ListItem
-              key={index}
+              key={item.id}
               id={item.id}
               title={item.title}
               isComplete={isGameItemComplete(
