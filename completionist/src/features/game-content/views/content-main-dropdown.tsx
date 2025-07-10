@@ -26,10 +26,7 @@ export const ContentMainDropdown = ({
   const { getContentSubCategories, getContentSubCategoriesTypes } =
     useGetContentCategories(section);
   const { getContentForSubCategory } = useGetContent(section);
-  const subCategories = getContentSubCategories(
-    category.title,
-    selectedGameData?.id,
-  );
+  const subCategories = getContentSubCategories(category.title);
 
   return (
     <Dropdown
@@ -61,10 +58,7 @@ export const ContentMainDropdown = ({
           questsForCategory,
           selectedGameData,
         );
-        const subCategoryTypes = getContentSubCategoriesTypes(
-          subCategory,
-          selectedGameData?.id,
-        );
+        const subCategoryTypes = getContentSubCategoriesTypes(subCategory);
 
         return (
           <ContentSubDropdown

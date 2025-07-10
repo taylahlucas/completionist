@@ -25,7 +25,7 @@ export const ContentMainList = ({
   const { setWebViewHref } = useContentDispatch();
   const { getContentForCategory, getContentForSubCategory } =
     useGetContent(section);
-  const { updateContentComplete } = useUpdateContent(selectedGameData);
+  const { updateContentComplete } = useUpdateContent(section, selectedGameData);
   const items = isSubCategory
     ? getContentForSubCategory(mainCategory?.title, subCategory)
     : getContentForCategory(mainCategory?.title ?? '');

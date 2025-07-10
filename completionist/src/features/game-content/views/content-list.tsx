@@ -13,7 +13,7 @@ import {
   useGetContent,
   useUpdateContent,
 } from './hooks';
-import { ContentItem, ContentSectionEnum, GameData } from '@utils/index';
+import { ContentItem, ContentSectionEnum } from '@utils/index';
 import { isGameItemComplete, isGameItemCompleteForCategory } from './helpers';
 import { useMainState } from '@redux/hooks';
 
@@ -32,7 +32,7 @@ export const ContentList = ({ section }: ContentListProps) => {
   if (!selectedGameData || !categories) {
     return <Loading />;
   }
-  const { updateContentComplete } = useUpdateContent(selectedGameData);
+  const { updateContentComplete } = useUpdateContent(section, selectedGameData);
 
   useEffect(() => {
     setSearchValue('');

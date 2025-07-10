@@ -31,7 +31,7 @@ export const ContentSubTypeDropdown = ({
   const { setSelectedCategory, setWebViewHref } = useContentDispatch();
   const { selectedCategory } = useContentState();
   const { getContentForSubCategoryType } = useGetContent(section);
-  const { updateContentComplete } = useUpdateContent(selectedGameData);
+  const { updateContentComplete } = useUpdateContent(section, selectedGameData);
   const items = getContentForSubCategoryType(subCategory, type);
 
   return (

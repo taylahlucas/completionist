@@ -10,14 +10,8 @@ import {
 
 interface GameDataReturnType {
   getContentCategories: () => ContentItem[];
-  getContentSubCategories: (
-    category: string,
-    selectedGame?: GameKeyEnum,
-  ) => string[];
-  getContentSubCategoriesTypes: (
-    subCategory: string,
-    selectedGame?: GameKeyEnum,
-  ) => string[];
+  getContentSubCategories: (category: string) => string[];
+  getContentSubCategoriesTypes: (subCategory: string) => string[];
 }
 
 export const useGetContentCategories = (
@@ -75,10 +69,7 @@ export const useGetContentCategories = (
     return [];
   };
 
-  const getContentSubCategories = (
-    category: string,
-    selectedGameId?: GameKeyEnum,
-  ): string[] => {
+  const getContentSubCategories = (category: string): string[] => {
     const items: GameContentItem[] = gameContent?.[section] ?? [];
     const filteredItems = items.filter(item => item.mainCategory === category);
 
@@ -93,10 +84,7 @@ export const useGetContentCategories = (
     return itemSubCategories;
   };
 
-  const getContentSubCategoriesTypes = (
-    subCategory: string,
-    selectedGameId?: GameKeyEnum,
-  ): string[] => {
+  const getContentSubCategoriesTypes = (subCategory: string): string[] => {
     const items: GameContentItem[] = gameContent?.[section] ?? [];
     const filteredItems = items.filter(
       collectable => collectable.subCategory === subCategory,

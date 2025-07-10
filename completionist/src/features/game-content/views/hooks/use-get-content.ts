@@ -30,20 +30,7 @@ export const useGetContent = (
   };
 
   const getContentForCategory = (mainCategory: string): GameContentItem[] => {
-    return items.filter(item => {
-      // console.log(
-      //   'HERE: ',
-      //   JSON.stringify(
-      //     {
-      //       item: item.mainCategory,
-      //       mainCategory,
-      //     },
-      //     null,
-      //     2,
-      //   ),
-      // );
-      return item.mainCategory === mainCategory;
-    });
+    return items.filter(item => item.mainCategory === mainCategory);
   };
 
   const getContentForSubCategory = (
