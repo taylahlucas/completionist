@@ -29,10 +29,7 @@ export const ContentSubDropdown = ({
   const { getContentSubCategoriesTypes } = useGetContentCategories(section);
 
   // TODO: Fix here
-  const subCategoryTypes = getContentSubCategoriesTypes(
-    subCategory,
-    selectedGameData?.id,
-  );
+  const subCategoryTypes = getContentSubCategoriesTypes(subCategory);
 
   return (
     <Dropdown

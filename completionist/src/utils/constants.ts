@@ -1,5 +1,5 @@
 import { Dimensions } from 'react-native';
-import { GameKeyEnum } from './custom-enums';
+import { ContentSectionEnum, GameKeyEnum } from './custom-enums';
 import { LanguageType } from './custom-types';
 
 export const defaultLang = 'en';
@@ -62,6 +62,13 @@ export const languages = [
   'tr',
   'vi',
   'zh',
+];
+
+export const sectionTypes = [
+  ContentSectionEnum.QUESTS,
+  ContentSectionEnum.COLLECTABLES,
+  ContentSectionEnum.LOCATIONS,
+  ContentSectionEnum.MISCELLANEOUS,
 ];
 
 // MARK: Update with new game data

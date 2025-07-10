@@ -16,6 +16,7 @@ import {
 import { ContentItem, ContentSectionEnum } from '@utils/index';
 import { isGameItemComplete, isGameItemCompleteForCategory } from './helpers';
 import { useMainState } from '@redux/hooks';
+import { ContentSearchResults } from './content-search-results';
 
 export interface ContentListProps {
   section: ContentSectionEnum;
@@ -26,7 +27,8 @@ export const ContentList = ({ section }: ContentListProps) => {
   const { searchValue, webViewHref } = useContentState();
   const { setSearchValue, setWebViewHref } = useContentDispatch();
   const { getContentCategories } = useGetContentCategories(section);
-  const { getContentForCategory, getFilteredContent } = useGetContent(section);
+  const { getContentForCategory, getFilteredContentForSection } =
+    useGetContent(section);
   const categories = getContentCategories();
 
   if (!selectedGameData || !categories) {
@@ -52,22 +54,10 @@ export const ContentList = ({ section }: ContentListProps) => {
     <Condition
       condition={searchValue.length < 2 && !!categories}
       conditionalElement={
-        <ScrollableList>
-          {getFilteredContent().map((item, index) => (
-            <ListItem
-              key={item.id}
-              id={item.id}
-              title={item.title}
-              isComplete={isGameItemComplete(
-                section,
-                item.id,
-                selectedGameData,
-              )}
-              onLongPress={(): void => setWebViewHref(item.href)}
-              action={(): void => updateContentComplete(item.id)}
-            />
-          ))}
-        </ScrollableList>
+        <ContentSearchResults
+          section={section}
+          selectedGameData={selectedGameData}
+        />
       }>
       <ScrollableList>
         {categories.map((category: ContentItem, index: number) => {

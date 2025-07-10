@@ -3,7 +3,9 @@ import { getFormattedSearchString } from '@utils/hooks';
 import { useContentState } from '@features/game-content/provider';
 
 interface GameDataReturnType {
-  getFilteredContent: () => GameContentItem[];
+  getFilteredContentForSection: (
+    forSection: ContentSectionEnum,
+  ) => GameContentItem[] | undefined;
   getContentForCategory: (mainCategory: string) => GameContentItem[];
   getContentForSubCategory: (
     mainCategory?: string,
@@ -21,8 +23,8 @@ export const useGetContent = (
   const { searchValue, gameContent } = useContentState();
   const items = gameContent?.[section] ?? [];
 
-  const getFilteredContent = () => {
-    return items.filter(item =>
+  const getFilteredContentForSection = (forSection: ContentSectionEnum) => {
+    return gameContent?.[forSection].filter(item =>
       getFormattedSearchString(item.title).includes(
         getFormattedSearchString(searchValue),
       ),
@@ -55,7 +57,7 @@ export const useGetContent = (
   };
 
   return {
-    getFilteredContent,
+    getFilteredContentForSection,
     getContentForCategory,
     getContentForSubCategory,
     getContentForSubCategoryType,
