@@ -1,5 +1,10 @@
 const jwt = require('jsonwebtoken');
-const { response_code, response_message } = require('../utils/constants');
+const {
+  response_code,
+  loggerType,
+  response_message,
+  apiNames,
+} = require('../utils/constants');
 const log = require('../helpers/logger');
 
 async function checkAuthToken(token, secret, res) {

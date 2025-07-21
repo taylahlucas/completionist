@@ -9,7 +9,7 @@ import {
 import { GoogleSigninButton } from '@react-native-google-signin/google-signin';
 import { useLoginState, useLoginDispatch } from '../provider';
 import { Condition, Button, StyledText } from '@components/general';
-import { isEmailValid, isPwValid, isNameValid } from '@utils/hooks';
+import { isEmailValid, isPwValid, isNameValid } from '@utils/helpers/index';
 import { useSendVerificationEmail, useGetLoginMethods } from './hooks';
 import { checkUserExists } from '@data/index';
 import { UnauthorizedScreenEnum } from '@utils/index';

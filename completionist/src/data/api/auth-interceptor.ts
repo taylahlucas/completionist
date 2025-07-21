@@ -1,6 +1,10 @@
 import axios from 'axios';
 import { setupCache } from 'axios-cache-interceptor';
-import { logErrorData, logSuccessfulApi, logErrorApi } from '@utils/hooks';
+import {
+  logErrorData,
+  logSuccessfulApi,
+  logErrorApi,
+} from '@utils/helpers/index';
 import {
   getApiNameFromUrl,
   AxiosErrorResponse,

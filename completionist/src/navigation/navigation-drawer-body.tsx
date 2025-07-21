@@ -19,11 +19,11 @@ import { useTranslation } from 'react-i18next';
 import { useGetLoginMethods } from '@features/login/login-form/hooks';
 
 export const NavigationDrawerBody: React.FunctionComponent = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const navigation = useReactNavigation();
   const theme = useGetTheme();
   const { setSelectedGameData } = useMainDispatch();
-  const { currentScreen } = useMainState();
+  const { user, currentScreen } = useMainState();
   const drawerItems = useGetNavigationDrawerItems();
   const footerItems = useGetNavigationFooterDrawerItems();
   const { signOut } = useGetLoginMethods();
@@ -45,6 +45,7 @@ export const NavigationDrawerBody: React.FunctionComponent = () => {
             key={index}
             onPress={(): void => {
               if (item.id === AuthScreenEnum.GameSelection) {
+                i18n.changeLanguage(user.settings.lang);
                 setSelectedGameData(undefined);
               }
               navigation.navigate(item.id);

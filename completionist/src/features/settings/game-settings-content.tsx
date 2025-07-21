@@ -13,7 +13,7 @@ import { useGameSettings } from './hooks';
 import { useMainState } from '@redux/hooks';
 import { LanguageType, AuthScreenEnum } from '@utils/index';
 import { useEditUserData } from '@data/index';
-import { handleScroll } from '@utils/hooks';
+import { getGameLanguages, handleScroll } from '@utils/helpers/index';
 import { useDLCOptions, useGetShowHideOptions } from './views/hooks';
 import { useReactNavigation } from '@navigation/hooks';
 import {
@@ -79,7 +79,7 @@ export const GameSettingsContent = () => {
           type="enable-dlc"
           data={getDLCOptions()}
           onPress={setDLCOptions}
-          translationKey={selectedGameData?.id}
+          translationKey={selectedGameData.id}
         />
 
         {/* Show sections */}
@@ -98,6 +98,7 @@ export const GameSettingsContent = () => {
           {t('common:settings.selectLanguage')}
         </SettingsDescription>
         <SettingsSelectLanguage
+          languages={getGameLanguages(selectedGameData.id)}
           selectedLanguage={selectedLanguage}
           isOpen={isLanguagesOpen}
           setOpen={(value: boolean) => {

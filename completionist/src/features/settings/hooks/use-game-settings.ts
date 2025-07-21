@@ -14,6 +14,7 @@ import {
 import { useMainDispatch } from '@redux/hooks';
 import { useContentDispatch } from '@features/game-content/provider';
 import { useTranslation } from 'react-i18next';
+import { userWithUpdatedGameLanguage } from '@utils/helpers/index';
 
 const triggerItem = (
   id: SettingsOptionEnum,
@@ -74,39 +75,23 @@ export const useGameSettings = () => {
     user: User,
     selectedGameData: GameData,
   ): void => {
-    if (!selectedGameData) return;
-
-    let gameData = Object.entries(user.gameData).find(
-      item => item[1].id === selectedGameData.id,
+    const updatedUser = userWithUpdatedGameLanguage(
+      value,
+      user,
+      selectedGameData,
     );
-    if (!gameData) return;
-
-    const updatedGameData: GameData[] = [
-      ...user.gameData.filter(item => item.id !== selectedGameData.id),
-      {
-        ...gameData[1],
-        lang: value as LanguageType,
-      },
-    ];
-
     i18n.changeLanguage(value);
-    let updatedUser = {
-      ...user,
-      settings: {
-        ...user.settings,
-        lang: value as LanguageType,
-      },
-      gameData: updatedGameData,
-    };
-    updateUser(updatedUser).then(() => {
-      saveUser(updatedUser);
-    });
+
     getGameDataFromCache({
       selectedGame: selectedGameData.id,
       lang: value as LanguageType,
     }).then(response => {
       const gameData = getMappedGameData(response);
       setGameContent(gameData);
+
+      updateUser(updatedUser).then(() => {
+        saveUser(updatedUser);
+      });
     });
   };
 

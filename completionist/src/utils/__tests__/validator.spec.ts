@@ -1,4 +1,4 @@
-import { isEmailValid, isPwValid, isNameValid } from '../hooks';
+import { isEmailValid, isPwValid, isNameValid } from '../helpers';
 
 describe('isEmailValid', () => {
   it('returns true for valid email', () => {

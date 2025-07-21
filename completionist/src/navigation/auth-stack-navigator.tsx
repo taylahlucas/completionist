@@ -1,5 +1,8 @@
 import React from 'react';
-import { createStackNavigator } from '@react-navigation/stack';
+import {
+  createStackNavigator,
+  StackNavigationOptions,
+} from '@react-navigation/stack';
 import { AuthStackParamList, AuthScreenEnum } from '@utils/index';
 import { AuthDrawerStackNavigator } from './';
 import {
@@ -10,8 +13,14 @@ import {
   GlobalSettings,
   SteamProfileSheet,
 } from '@screens/index';
+import { SelectGameLanguageSheet } from '@screens/select-game-language-sheet';
 
 const Stack = createStackNavigator<AuthStackParamList>();
+
+const bottomSheetOptions: StackNavigationOptions = {
+  presentation: 'transparentModal',
+  headerShown: false,
+};
 
 export const AuthStackNavigator = () => {
   return (
@@ -33,6 +42,11 @@ export const AuthStackNavigator = () => {
         name={AuthScreenEnum.GlobalAccountDetails}
         component={AccountDetails}
       />
+      <Stack.Screen
+        name={AuthScreenEnum.SelectGameLanguage}
+        component={SelectGameLanguageSheet}
+        options={bottomSheetOptions}
+      />
       {/* <Stack.Screen
         name={AuthScreenEnum.GlobalAchievements}
         component={GlobalAchievements}
@@ -47,7 +61,7 @@ export const AuthStackNavigator = () => {
       <Stack.Screen
         name={AuthScreenEnum.SteamProfile}
         component={SteamProfileSheet}
-        options={{ presentation: 'transparentModal', headerShown: false }}
+        options={bottomSheetOptions}
       />
       <Stack.Screen
         name={AuthScreenEnum.PurchaseGame}

@@ -1,13 +1,13 @@
 import { useState } from 'react';
 import { Alert } from 'react-native';
 import { useTranslation } from 'react-i18next';
-import { useIsKeyboardVisible } from '@utils/hooks';
-import { isPwValid } from '@utils/hooks/index';
+import { isPwValid } from '@utils/helpers/index';
 import { UnauthorizedScreenEnum } from '@utils/index';
 import { checkUserExists } from '@data/index';
 import { useIsRequestLoading } from '@data/api/hooks';
 import { useLoginDispatch, useLoginState } from '../provider';
 import { useSendVerificationEmail } from '../login-form/hooks';
+import { useIsKeyboardVisible } from '@utils/hooks';
 
 export const useLogin = () => {
   const { t } = useTranslation();
@@ -21,7 +21,6 @@ export const useLogin = () => {
   const onSubmit = () => {
     setSubmitPressed(true);
     if (isPwValid(loginFormData.pw ?? '')) {
-      console.log('onSubmit checkUserExists: ', checkUserExists);
       checkUserExists(loginFormData.email).then(accounts => {
         if (accounts.regular || accounts.google) {
           sendVerificationEmail(

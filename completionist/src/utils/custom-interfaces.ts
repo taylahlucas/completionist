@@ -153,6 +153,7 @@ export type UnauthorizedStackParamList = {
 export type AuthStackParamList = {
   Landing: undefined;
   GameSelection: undefined;
+  SelectGameLanguage: [gameId: GameKeyEnum];
   GlobalSettings: undefined;
   GlobalAccountDetails: undefined;
   GlobalAchievements: undefined;

@@ -1,6 +1,7 @@
 export enum AuthScreenEnum {
   Landing = 'Landing',
   GameSelection = 'GameSelection',
+  SelectGameLanguage = 'SelectGameLanguage',
   GlobalSettings = 'GlobalSettings',
   GlobalAccountDetails = 'GlobalAccountDetails',
   GlobalSteamAchievements = 'GlobalSteamAchievements',

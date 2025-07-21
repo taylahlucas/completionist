@@ -12,7 +12,7 @@ import {
   getGameData,
 } from '@data/index';
 import { Alert } from 'react-native';
-import { log } from '@utils/hooks/index';
+import { log } from '@utils/helpers/index';
 
 interface GetGameDataFromCacheProps {
   selectedGame: GameKeyEnum;
@@ -34,11 +34,6 @@ export const getGameDataFromCache = async ({
     const response = await getGameData({ game: selectedGame, lang });
 
     if (response) {
-      console.log(
-        'response: ',
-        response?.filter(item => item.section === ContentSectionEnum.QUESTS)
-          .length,
-      );
       await saveToCache(response, newKey);
 
       // Remove other databases from cache

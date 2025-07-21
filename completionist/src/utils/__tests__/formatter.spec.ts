@@ -2,7 +2,7 @@ import {
   capitalize,
   getFormattedSearchString,
   getLocationString,
-} from '@utils/hooks';
+} from '@utils/helpers/index';
 
 describe('capitalize', () => {
   it('capitalizes a single word', () => {

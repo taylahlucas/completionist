@@ -35,3 +35,8 @@ export const getLanguageInEn = (lang: LanguageType): string => {
 export const getGameLanguages = (game: GameKeyEnum): LanguageType[] => {
   return gameLanguages.find(item => item.key === game)?.langs ?? ['en'];
 };
+
+export const isLangAvailableInGame = (lang: LanguageType, game: GameKeyEnum) =>
+  (gameLanguages.find(item => item.key === game)?.langs ?? ['en']).find(
+    item => item === lang,
+  );

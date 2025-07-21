@@ -14,7 +14,7 @@ import {
   useUpdateContent,
 } from './hooks';
 import { ContentItem, ContentSectionEnum } from '@utils/index';
-import { isGameItemComplete, isGameItemCompleteForCategory } from './helpers';
+import { isGameItemCompleteForCategory } from './helpers';
 import { useMainState } from '@redux/hooks';
 import { ContentSearchResults } from './content-search-results';
 
@@ -27,8 +27,7 @@ export const ContentList = ({ section }: ContentListProps) => {
   const { searchValue, webViewHref } = useContentState();
   const { setSearchValue, setWebViewHref } = useContentDispatch();
   const { getContentCategories } = useGetContentCategories(section);
-  const { getContentForCategory, getFilteredContentForSection } =
-    useGetContent(section);
+  const { getContentForCategory } = useGetContent(section);
   const categories = getContentCategories();
 
   if (!selectedGameData || !categories) {

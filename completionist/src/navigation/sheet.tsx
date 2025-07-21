@@ -7,6 +7,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { View } from 'react-native';
 import { BottomSheetDefaultBackdropProps } from '@gorhom/bottom-sheet/lib/typescript/components/bottomSheetBackdrop/types';
 import { LARGE_PADDING } from '@styles/global';
+import useGetTheme from '@styles/hooks/use-get-theme';
 
 interface SheetProps {
   backgroundColor?: string;
@@ -18,6 +19,8 @@ interface SheetProps {
 export const Sheet = forwardRef<BottomSheet, SheetProps>(
   ({ backgroundColor, enablePanGestures, children, onBackdropPress }, ref) => {
     const { bottom } = useSafeAreaInsets();
+    const theme = useGetTheme();
+    const bgColor = backgroundColor ?? theme.black;
 
     const renderBackdrop = useCallback(
       (props: BottomSheetDefaultBackdropProps) => (
@@ -41,13 +44,16 @@ export const Sheet = forwardRef<BottomSheet, SheetProps>(
         style={{
           backgroundColor,
           overflow: 'hidden',
-          borderTopLeftRadius: LARGE_PADDING,
-          borderTopRightRadius: LARGE_PADDING,
         }}>
         <BottomSheetView>
           <View
             testID="bottom-sheet"
-            style={{ backgroundColor, paddingBottom: Math.max(bottom, 16) }}>
+            style={{
+              borderTopLeftRadius: LARGE_PADDING,
+              borderTopRightRadius: LARGE_PADDING,
+              backgroundColor: bgColor,
+              paddingBottom: Math.max(bottom, 16),
+            }}>
             {children}
           </View>
         </BottomSheetView>

@@ -15,7 +15,7 @@ import {
 } from '@data/index';
 import { useMainState, useMainDispatch } from '@redux/hooks';
 import { useLoginDispatch } from '../../provider';
-import { log } from '@utils/hooks/index';
+import { log } from '@utils/helpers/index';
 import { useSendVerificationEmail } from './';
 import {
   UnauthorizedScreenEnum,

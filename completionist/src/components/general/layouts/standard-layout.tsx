@@ -1,6 +1,6 @@
 import React from 'react';
 import useGetTheme from '@styles/hooks/use-get-theme';
-import { StandardLayoutContainer } from './standard-layout-styled-components';
+import { StandardLayoutContainer } from './layout-styled-components';
 import { Loading } from '@components/general';
 
 interface StandardLayoutProps {

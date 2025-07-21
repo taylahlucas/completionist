@@ -7,9 +7,9 @@ import {
   Spacing,
 } from '@components/general';
 import { useMainDispatch, useMainState } from '@redux/hooks';
-import { useEditUserData } from '@data/index';
+import { updateUser, useEditUserData } from '@data/index';
 import useGetTheme from '@styles/hooks/use-get-theme';
-import { handleScroll } from '@utils/hooks';
+import { handleScroll } from '@utils/helpers/index';
 import { useTranslation } from 'react-i18next';
 import { LanguageType } from '@utils/custom-types';
 import { useReactNavigation } from '@navigation/hooks';
@@ -19,19 +19,20 @@ import {
   SettingsDescription,
   SettingsSelectLanguage,
 } from './views';
+import { languages } from '@utils/index';
 
 export const GlobalSettingsContent = () => {
   const { t, i18n } = useTranslation();
   const theme = useGetTheme();
   const navigation = useReactNavigation();
 
+  const { updateUserData } = useEditUserData();
   const scrollViewRef = useRef<ScrollView>(null);
   const languageViewRef = useRef<RNText>(null);
 
   const [isLanguagesOpen, setIsLanguagesOpen] = useState<boolean>(false);
 
   const { user } = useMainState();
-  const { setUser } = useMainDispatch();
   const { deleteUserData } = useEditUserData();
 
   return (
@@ -62,6 +63,7 @@ export const GlobalSettingsContent = () => {
         {t('common:settings.selectLanguage')}
       </SettingsDescription>
       <SettingsSelectLanguage
+        languages={languages}
         selectedLanguage={user.settings.lang}
         isOpen={isLanguagesOpen}
         setOpen={(value: boolean) => {
@@ -74,7 +76,7 @@ export const GlobalSettingsContent = () => {
         }}
         onSetLanguage={(value: string): void => {
           i18n.changeLanguage(value);
-          setUser({
+          updateUserData({
             ...user,
             settings: {
               ...user.settings,

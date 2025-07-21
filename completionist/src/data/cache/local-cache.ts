@@ -1,5 +1,5 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import { log } from '@utils/hooks';
+import { log } from '@utils/helpers/index';
 import {
   CACHE_EXPIRY_TIME,
   CachedData,

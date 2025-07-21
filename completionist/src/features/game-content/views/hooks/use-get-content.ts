@@ -1,5 +1,5 @@
 import { ContentSectionEnum, GameContentItem } from '@utils/index';
-import { getFormattedSearchString } from '@utils/hooks';
+import { getFormattedSearchString } from '@utils/helpers/index';
 import { useContentState } from '@features/game-content/provider';
 
 interface GameDataReturnType {

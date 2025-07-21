@@ -2,7 +2,7 @@ import { filterGameList } from '@components/custom/game-list/hooks';
 import { useIsRequestLoading } from '@data/api/hooks';
 import { useMainState, useMainDispatch } from '@redux/hooks';
 import { useActivateGame, useEditUserData } from '@data/hooks';
-import { getFormattedSearchString } from '@utils/hooks';
+import { getFormattedSearchString } from '@utils/helpers/index';
 import { allGameData } from '@utils/configs/game-configs';
 import { useState } from 'react';
 import { GameKeyEnum } from '@utils/index';

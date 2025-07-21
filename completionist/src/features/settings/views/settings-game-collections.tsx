@@ -13,7 +13,7 @@ import {
   DropdownSelection,
   DropdownSelectionContent,
 } from '@components/general';
-import { filterGameList } from '../../../components/custom/game-list/hooks/use-filter-game-list';
+import { filterGameList } from '../../../utils/helpers/filter-game-list';
 import { useMainState, useMainDispatch } from '@redux/hooks';
 
 export const SettingsGameCollections = () => {
@@ -21,7 +21,6 @@ export const SettingsGameCollections = () => {
   const { user, selectedGameSettings } = useMainState();
   const { setSelectedGameDataSettings } = useMainDispatch();
   const { userSettingsMainConfig } = useGetUserGameData();
-
   const { translateGameName } = useTranslateGameContent();
   const minHeight = userSettingsMainConfig.length > 3 ? 200 : 150;
   const height = new Animated.Value(minHeight);
@@ -52,7 +51,7 @@ export const SettingsGameCollections = () => {
           />
         }>
         <DropdownSelectionContent
-          content={filterGameList(user.gameData, true, '', t).map(game => ({
+          content={filterGameList(user.gameData, '', t).map(game => ({
             id: game.id,
             title: t(`common:categories.${game.id}.title`),
           }))}

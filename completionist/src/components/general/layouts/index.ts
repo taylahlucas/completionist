@@ -1,3 +1,4 @@
 export * from './overlay';
 export * from './standard-layout';
-export * from './standard-layout-styled-components';
+export * from './sheet-content-layout';
+export * from './layout-styled-components';

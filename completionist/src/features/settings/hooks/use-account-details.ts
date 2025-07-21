@@ -5,7 +5,7 @@ import { useEditUserData } from '@data/hooks';
 import { useReactNavigation } from '@navigation/hooks';
 import { useMainState } from '@redux/hooks';
 import { DrawerScreenEnum } from '@utils/index';
-import { isEmailValid, isPwValid, isNameValid } from '@utils/hooks';
+import { isEmailValid, isPwValid, isNameValid } from '@utils/helpers/index';
 import { updateUser, changePw, checkUserExists } from '@data/index';
 
 export interface ChangeAccountDetailsItem {
@@ -36,7 +36,6 @@ export const useAccountDetails = () => {
   const [submitPressed, setSubmitPressed] = useState<boolean>(false);
 
   useEffect(() => {
-    console.log('useAccountDetails checkUserExists: ', checkUserExists);
     checkUserExists(user.email).then(accounts =>
       setShowChangePw(accounts.google && !accounts.regular ? false : true),
     );
@@ -67,7 +66,6 @@ export const useAccountDetails = () => {
     // TODO: I don't think this would handle if I change multiple values at the same time?
     // TODO: Want to do verification check for changed email
     if (userInfo.email.changed && isEmailValid(userInfo.email.value)) {
-      console.log('useAccountDetails onSubmit checkUserExists');
       checkUserExists(userInfo.email.value).then(accounts => {
         if (!accounts.regular && !accounts.google) {
           let updatedUser = {

@@ -1,5 +1,5 @@
 import { renderHook } from '@utils/testing/test-library-utils';
-import useFilterGameList from '../hooks/use-filter-game-list';
+import useFilterGameList from '../../../../utils/helpers/filter-game-list';
 import { userLoggedInMock } from '@utils/testing/test-helper/__mocks__/mocks';
 
 // TODO: Fix tests

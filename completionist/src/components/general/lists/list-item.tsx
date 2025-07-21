@@ -10,7 +10,7 @@ import {
   Condition,
   StyledText,
 } from '../';
-import { getLocationString, capitalize } from '@utils/hooks/index';
+import { getLocationString, capitalize } from '@utils/helpers/index';
 
 interface ListItemProps {
   id: string;

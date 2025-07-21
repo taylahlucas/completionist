@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import {
   Condition,
@@ -11,7 +11,7 @@ import { allGameData } from '@utils/configs';
 import { filterGameList } from '@components/custom/game-list/hooks';
 
 export const GameSelectionContent = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const { user } = useMainState();
   const [searchValue, setSearchValue] = useState<string>('');
 

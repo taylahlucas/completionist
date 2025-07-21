@@ -9,9 +9,11 @@ import { useReactNavigation } from '@navigation/hooks';
 import { getMappedGameData, getGameDataFromCache } from '@data/index';
 import { useMainState } from '@redux/hooks';
 import { useContentDispatch } from '@features/game-content/provider';
-import { getGameLanguages } from '@utils/hooks';
+import { isLangAvailableInGame } from '@utils/helpers/index';
+import { useTranslation } from 'react-i18next';
 
 export const useGameListSelectionDropdown = () => {
+  const { i18n } = useTranslation();
   const navigation = useReactNavigation();
   const { user } = useMainState();
   const { setSelectedGameData, setSelectedGameDataSettings } =
@@ -29,21 +31,25 @@ export const useGameListSelectionDropdown = () => {
     type: GameListSelectionType,
   ): void => {
     if (type === 'active') {
-      const gameLanguages = getGameLanguages(game.id);
+      const gameLanguage: LanguageType =
+        user.gameData.find(item => item.id === game.id)?.lang ?? 'en';
+      const settingsLang = user.settings.lang;
+
       if (
-        gameLanguages.find(item => item === user.settings.lang) === undefined
+        gameLanguage !== settingsLang &&
+        isLangAvailableInGame(settingsLang, game.id)
       ) {
-        //<SelectLanguageModal />
-        // TODO: Show popup
+        navigation.navigate(AuthScreenEnum.SelectGameLanguage, {
+          gameId: game.id,
+        });
       } else {
-        const gameLanguage: LanguageType =
-          user.gameData.find(item => item.id === game.id)?.lang ?? 'en';
+        i18n.changeLanguage(gameLanguage);
         getGameDataFromCache({
           selectedGame: game.id,
           lang: gameLanguage,
         }).then(response => {
           const gameData = getMappedGameData(response);
-          // TODO: Find a better way to do this
+          // TODO: Find a better way to do this ?
           setGameContent(gameData);
           navigateToGame(game);
         });

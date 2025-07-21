@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { Alert, Image, StyleSheet, View } from 'react-native';
+import { Alert, Image, StyleSheet } from 'react-native';
 import BottomSheet from '@gorhom/bottom-sheet';
 import { useReactNavigation } from '@navigation/hooks';
 
@@ -10,6 +10,7 @@ import {
   Condition,
   IconButton,
   Loading,
+  SheetContentLayout,
   Spacing,
   StyledText,
 } from '@components/general';
@@ -57,28 +58,12 @@ export const SteamProfileSheet = (params: any) => {
   }, [steamId]);
 
   return (
-    <Sheet ref={bottomSheetRef} backgroundColor={theme.black}>
+    <Sheet ref={bottomSheetRef}>
       {!profile ? (
         <Loading />
       ) : (
-        <View style={styles.contentContainer}>
-          <View style={styles.titleContainer}>
-            <StyledText
-              style={styles.title}
-              type="Heading"
-              color={theme.lightGrey}>
-              {/* // TODO: Add to translations */}
-              {viewType === 'view' ? 'Steam Profile' : 'Confirm Profile'}
-            </StyledText>
-            <IconButton
-              style={styles.iconButton}
-              name={'arrow-down'}
-              type={IconTypeEnum.Ionicons}
-              color={theme.lightGrey}
-              onPress={(): void => navigation.goBack()}
-            />
-          </View>
-
+        <SheetContentLayout
+          title={viewType === 'view' ? 'Steam Profile' : 'Confirm Profile'}>
           <Spacing height={32} />
           <Condition condition={!!profile.profileImg}>
             <Image
@@ -144,29 +129,19 @@ export const SteamProfileSheet = (params: any) => {
               }}
             />
           )}
-        </View>
+        </SheetContentLayout>
       )}
     </Sheet>
   );
 };
 
 const styles = StyleSheet.create({
-  contentContainer: {
-    height: 460,
-    alignItems: 'center',
-  },
   imageContainer: {
     width: 100,
     height: 100,
     padding: 16,
     borderRadius: DEFAULT_BORDER_RADIUS,
-  },
-  titleContainer: {
-    marginTop: 8,
-    flexDirection: 'row',
-    width: '100%',
-    justifyContent: 'center',
-    alignItems: 'center',
+    alignSelf: 'center',
   },
   title: {
     paddingRight: 16,

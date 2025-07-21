@@ -3,7 +3,7 @@ import { deleteCredentials } from '@data/cache/keychain';
 import { initialFormData, initialUser } from '@redux/main-state';
 import { clearCache } from '../cache/local-cache';
 import { useContentDispatch } from '@features/game-content/provider';
-import { log } from '@utils/hooks';
+import { log } from '@utils/helpers/index';
 import { ContentSectionEnum } from '@utils/index';
 import { useLoginDispatch } from '@features/login';
 

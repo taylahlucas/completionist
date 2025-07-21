@@ -30,7 +30,7 @@ export const ContentSearchResults = ({
           const titlePadding =
             index !== 0 ? { paddingTop: 16 } : { paddingTop: 8 };
           return (
-            <>
+            <View key={`${sectionType}-${index}`}>
               <View style={{ paddingBottom: 8, ...titlePadding }}>
                 <StyledText>{t(`common:screens.${sectionType}`)}</StyledText>
               </View>
@@ -48,7 +48,7 @@ export const ContentSearchResults = ({
                   action={(): void => updateContentComplete(item.id)}
                 />
               ))}
-            </>
+            </View>
           );
         }
       })}

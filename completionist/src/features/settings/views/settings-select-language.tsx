@@ -6,28 +6,24 @@ import {
   DropdownSelectionContent,
 } from '@components/general';
 import { GameData, languages, LanguageType } from '@utils/index';
-import { getGameLanguages, getLanguageInEn } from '@utils/hooks';
+import { getGameLanguages, getLanguageInEn } from '@utils/helpers/index';
 
 interface SettingsSelectLanguageProps {
+  languages: LanguageType[];
   selectedLanguage: LanguageType;
-  selectedGameData?: GameData;
   isOpen: boolean;
   setOpen: (value: boolean) => void;
   onSetLanguage: (value: string) => void;
 }
 
 export const SettingsSelectLanguage = ({
+  languages,
   selectedLanguage,
-  selectedGameData,
   isOpen,
   setOpen,
   onSetLanguage,
 }: SettingsSelectLanguageProps) => {
   const { t } = useTranslation();
-
-  const languageList = !selectedGameData
-    ? languages
-    : getGameLanguages(selectedGameData.id);
 
   return (
     <Dropdown
@@ -43,7 +39,7 @@ export const SettingsSelectLanguage = ({
         />
       }>
       <DropdownSelectionContent
-        content={languageList.map(lang => ({
+        content={languages.map(lang => ({
           id: lang,
           title: `${t(`common:languages.${lang}`)} (${getLanguageInEn(
             lang as LanguageType,

@@ -48,7 +48,7 @@ export const urls = [
   'ISteamUserStats',
 ];
 
-export const languages = [
+export const languages: LanguageType[] = [
   'ar',
   'de',
   'en',
