@@ -2,14 +2,14 @@ import { initialState } from '@redux/main-state';
 import { eldenRingGameData, skyrimGameData } from '@utils/configs';
 import { GameData, User } from '@utils/index';
 
-const mockEldenRingGameData = {
+export const mockEldenRingGameData = {
   ...eldenRingGameData,
   quests: [],
   collectables: [],
   locations: [],
   miscellaneous: [],
 };
-const mockSkyrimGameData: GameData = {
+export const mockSkyrimGameData: GameData = {
   ...skyrimGameData,
   quests: [],
   collectables: [],

@@ -1,8 +1,4 @@
-import {
-  capitalize,
-  getFormattedSearchString,
-  getLocationString,
-} from '@utils/helpers/index';
+import { capitalize, getFormattedSearchString, getLocationString } from '../';
 
 describe('capitalize', () => {
   it('capitalizes a single word', () => {

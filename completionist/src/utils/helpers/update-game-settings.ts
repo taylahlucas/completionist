@@ -24,8 +24,3 @@ export const userWithUpdatedGameLanguage = (
     gameData: updatedGameData,
   };
 };
-
-// settings: {
-//   ...user.settings,
-//   lang: value as LanguageType,
-// },

@@ -1,4 +1,3 @@
-export * from './filter-game-list';
 export * from './formatter';
 export * from './get-game-language-info';
 export * from './logger';

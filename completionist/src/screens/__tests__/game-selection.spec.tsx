@@ -9,7 +9,7 @@ import {
 import { mockUser, navigationSpy } from '@utils/testing';
 import { initialState, MainState } from '@redux/main-state';
 import { screen, userEvent } from '@testing-library/react-native';
-import { GameKeyEnum } from '@utils/custom-enums';
+import { AuthScreenEnum, GameKeyEnum } from '@utils/custom-enums';
 
 const inactiveGames = [
   GameKeyEnum.FALLOUT_3,
@@ -100,6 +100,6 @@ describe('<GameSelection />', () => {
     await userEvent.press(settingsButton);
 
     expect(navigationMock).toHaveBeenCalledTimes(1);
-    expect(navigationMock).toHaveBeenCalledWith('GlobalSettings');
+    expect(navigationMock).toHaveBeenCalledWith(AuthScreenEnum.GlobalSettings);
   });
 });

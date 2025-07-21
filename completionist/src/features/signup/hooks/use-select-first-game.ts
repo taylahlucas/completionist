@@ -1,4 +1,4 @@
-import { filterGameList } from '@components/custom/game-list/hooks';
+import { useFilterGameList } from '@components/custom/game-list/hooks';
 import { useIsRequestLoading } from '@data/api/hooks';
 import { useMainState, useMainDispatch } from '@redux/hooks';
 import { useActivateGame, useEditUserData } from '@data/hooks';
@@ -20,10 +20,10 @@ export const useSelectFirstGame = () => {
   const isRequestLoading = useIsRequestLoading();
   const { updateUserData } = useEditUserData();
   const { activateGame } = useActivateGame();
+  const { filterGameList } = useFilterGameList();
   const filteredGames = filterGameList(
     allGameData,
     getFormattedSearchString(searchValue),
-    t,
   );
 
   return {

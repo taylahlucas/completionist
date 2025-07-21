@@ -1,4 +1,4 @@
-import { isEmailValid, isPwValid, isNameValid } from '../helpers';
+import { isEmailValid, isPwValid, isNameValid } from '../';
 
 describe('isEmailValid', () => {
   it('returns true for valid email', () => {

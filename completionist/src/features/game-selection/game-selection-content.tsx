@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useState } from 'react';
+import React, { useMemo, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import {
   Condition,
@@ -8,11 +8,12 @@ import {
 import { GameListSectionDropdown, gameListStyles } from '@components/custom';
 import { useMainState } from '@redux/hooks';
 import { allGameData } from '@utils/configs';
-import { filterGameList } from '@components/custom/game-list/hooks';
+import { useFilterGameList } from '@components/custom/game-list/hooks';
 
 export const GameSelectionContent = () => {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
   const { user } = useMainState();
+  const { filterGameList } = useFilterGameList();
   const [searchValue, setSearchValue] = useState<string>('');
 
   const disabledGameData = useMemo(() => {
@@ -35,14 +36,14 @@ export const GameSelectionContent = () => {
           testID="active-games"
           type="active"
           title={t('common:active')}
-          data={filterGameList(user.gameData, searchValue, t)}
+          data={filterGameList(user.gameData, searchValue)}
         />
         <Condition condition={disabledGameData.length > 0}>
           <GameListSectionDropdown
             testID="inactive-games"
             type="inactive"
             title={t('common:inactive')}
-            data={filterGameList(disabledGameData, searchValue, t)}
+            data={filterGameList(disabledGameData, searchValue)}
           />
         </Condition>
       </ScrollableList>
