@@ -2,10 +2,7 @@ import React from 'react';
 import { NavigationHeader } from '@navigation/index';
 import useGetTheme from '@styles/hooks/use-get-theme';
 import { useTranslation } from 'react-i18next';
-import {
-  GameListItem,
-  SelectFirstGameContentContainer,
-} from '@components/custom';
+import { GameListItem } from '@components/custom';
 import { KeyboardAvoidingScrollView } from '@components/general/lists';
 import {
   StandardLayout,
@@ -19,6 +16,7 @@ import {
 import { UnauthorizedScreenEnum } from '@utils/index';
 import { useTranslateGameContent } from '@data/hooks';
 import { useSelectFirstGame } from './hooks/use-select-first-game';
+import { SelectFirstGameContentContainer } from '@features/login/login-form';
 
 export const SelectFirstGameContent = () => {
   const theme = useGetTheme();

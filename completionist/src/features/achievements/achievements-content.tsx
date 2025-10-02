@@ -13,7 +13,7 @@ import { DrawerScreenEnum } from '@utils/index';
 import { Dropdown } from '@components/general/dropdown';
 import { useReactNavigation } from '@navigation/hooks';
 import { useAchievements } from './hooks';
-import { SMALL_PADDING } from '@styles/global';
+import { LARGE_PADDING, MID_PADDING, SMALL_PADDING } from '@styles/global';
 import {
   SteamAchievementDropdownTitle,
   SteamAchievementView,
@@ -26,7 +26,7 @@ export const AchievementsContent = () => {
   const { viewModel, actions } = useAchievements();
 
   return (
-    <ScrollableList style={{ maxHeight: 600 }}>
+    <ScrollableList style={{ marginBottom: LARGE_PADDING }}>
       {/* Game Progress */}
       <View style={{ paddingVertical: SMALL_PADDING }}>
         {viewModel.gameProgress.map((game, index) => (

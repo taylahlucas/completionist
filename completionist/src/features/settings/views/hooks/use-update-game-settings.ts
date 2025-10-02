@@ -1,6 +1,6 @@
 import { IsActive, User, GameKeyEnum } from '@utils/index';
 import { useUpdateSettingsConfig } from './';
-import { getCurrentGame } from '@data/hooks';
+import { getCurrentGame } from '@data/helpers';
 
 export const useUpdateGameSettings = () => {
   const { updateConfig } = useUpdateSettingsConfig();

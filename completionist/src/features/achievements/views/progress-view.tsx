@@ -2,7 +2,7 @@ import React from 'react';
 import { View } from 'react-native';
 import useGetTheme from '@styles/hooks/use-get-theme';
 import { GameKeyEnum, ProgressItemData } from '@utils/index';
-import { ProgressChartItem } from '.';
+import { ProgressChartItem } from './';
 import { STANDARD_WIDTH } from '@styles/global';
 import { useMainState } from '@redux/hooks';
 import { getGameProgressForSection } from './helpers';
