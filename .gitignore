@@ -1,13 +1,13 @@
 .DS_Store
 venv/
-completionist/.env
-completionist/.env.d.ts
-completionist/test.json
-completionist/package-lock.json
-completionist/ios/GoogleService-Info.plist
-completionist/ios/Podfile.lock
-completionist/android/app/google-services.json
-completionist/android/app/debug.keystore
+.env
+.env.d.ts
+test.json
+package-lock.json
+ios/GoogleService-Info.plist
+ios/Podfile.lock
+android/app/google-services.json
+android/app/debug.keystore
 
 # OSX
 #
