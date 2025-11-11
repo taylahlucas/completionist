@@ -83,3 +83,8 @@ completionist/ios/GoogleService-Info.plist
 ios/.xcode.env
 ios/GoogleService-Info.plist
 package-lock.json
+package-lock.json
+ios/GoogleService-Info.plist
+ios/.xcode.env
+android/app/src/main/AndroidManifest.xml
+.env
