@@ -2,23 +2,17 @@
 
 An app designed for game completionists which allows them to track their progress in various games.
 
-NOTE: Currently only available on localhost. Must request .env file to run.
+NOTE: Currently only available on localhost. Must have .env file to run.
 
 https://github.com/taylahlucas/Completionist/assets/53559103/2902dd9d-e1be-431f-91b8-9a85c4499336
 
-# Setup
+# Setup & Run Locally
 
 - cd completionist
 - npm install
 - npm start
 
 npx react-native run-ios --port 8002
-
-## Backend
-
-- cd backend
-- npm install
-- npm run start or npm run start:dev
 
 # Packages
 
@@ -83,22 +77,6 @@ npx react-native run-ios --port 8002
 
 - @stripe/stripe-react-native
 
-## Backend
-
-- express
-- dotenv
-- jsonwebtoken
-- express
-- body-parser
-- express-session
-- passport
-- passport-google-oauth20
-- crypto
-- nodemailer
-- node-cache
-- aws-sdk/client-dynamodb
-- stripe
-
 ## Updating translations
 
 Confirm:
@@ -116,13 +94,6 @@ Pull from master:
 Update:
 
 - git submodule update --init --recursive --remote translations
-
-## Migrating db
-
-- cd backend
-- npx migrate-mongo create migration_name
-- Run changes: npx migrate-mongo up
-- Drop changes: npx migrate-mongo down
 
 ## Steps for adding new game DB
 
