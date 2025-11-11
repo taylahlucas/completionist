@@ -75,3 +75,11 @@ yarn-error.log
 
 # testing
 /coverage
+.env
+android/app/src/main/AndroidManifest.xml
+completionist/android/app/src/main/AndroidManifest.xml
+completionist/ios/.xcode.env
+completionist/ios/GoogleService-Info.plist
+ios/.xcode.env
+ios/GoogleService-Info.plist
+package-lock.json
