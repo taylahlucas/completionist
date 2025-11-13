@@ -68,6 +68,7 @@
     "@babel/plugin-transform-private-methods": "^7.27.1",
     "@babel/preset-env": "^7.20.0",
     "@babel/runtime": "^7.20.0",
+    "@react-native-community/cli": "^20.0.2",
     "@react-native/eslint-config": "^0.72.2",
     "@react-native/metro-config": "^0.78.0",
     "@testing-library/react-native": "^12.4.3",
