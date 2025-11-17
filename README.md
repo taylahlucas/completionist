@@ -6,6 +6,8 @@ NOTE: Currently only available on localhost. Must have .env file to run.
 
 [demo-1.1.mov.zip](https://github.com/user-attachments/files/23588352/demo-1.1.mov.zip)
 
+[demo-1.2.mov.zip](https://github.com/user-attachments/files/23588448/demo-1.2.mov.zip)
+
 # Setup & Run Locally
 
 - cd completionist
