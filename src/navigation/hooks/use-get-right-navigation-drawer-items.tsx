@@ -11,7 +11,7 @@ import { useReactNavigation } from './';
 export const useGetRightNavigationItem = (
   rightAction: NavigationHeaderRightActionTypes,
   rightCallback?: () => void,
-): JSX.Element => {
+): React.JSX.Element => {
   const theme = useGetTheme();
   const navigation = useReactNavigation();
 

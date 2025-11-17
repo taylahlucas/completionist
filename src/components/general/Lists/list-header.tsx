@@ -21,7 +21,7 @@ export const ListHeader = ({
   enabled = true,
   completed,
   total,
-}: ListHeaderProps): JSX.Element => {
+}: ListHeaderProps): React.JSX.Element => {
   const theme = useGetTheme();
 
   return (

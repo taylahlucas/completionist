@@ -29,7 +29,7 @@ export const AuthDrawerStackNavigator = () => {
   const { selectedGameData } = useMainState();
   const { translateGameName } = useTranslateGameContent();
 
-  const NavigationDrawerContent = (): JSX.Element => {
+  const NavigationDrawerContent = (): React.JSX.Element => {
     return (
       <Condition condition={!!selectedGameData}>
         <NavigationDrawerContainer>
@@ -45,7 +45,7 @@ export const AuthDrawerStackNavigator = () => {
   return (
     <Drawer.Navigator
       backBehavior="history"
-      drawerContent={(): JSX.Element => <NavigationDrawerContent />}
+      drawerContent={(): React.JSX.Element => <NavigationDrawerContent />}
       initialRouteName={DrawerScreenEnum.Quests}
       screenOptions={{
         headerShown: false,

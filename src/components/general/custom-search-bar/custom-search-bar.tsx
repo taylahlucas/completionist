@@ -16,7 +16,7 @@ export const CustomSearchBar = ({
   searchValue,
   setSearchValue,
   onReset,
-}: CustomSearchBarProps): JSX.Element => {
+}: CustomSearchBarProps): React.JSX.Element => {
   const { t } = useTranslation();
   const theme = useGetTheme();
 

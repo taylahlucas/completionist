@@ -2,7 +2,7 @@ import { useRef, useCallback } from 'react';
 import {
   DrawerActions as RNDrawerActions,
   ParamListBase,
-} from '@react-navigation/routers';
+} from '@react-navigation/native';
 import {
   NavigationAction,
   NavigationState,
@@ -10,7 +10,7 @@ import {
   useNavigation,
   useNavigationState,
 } from '@react-navigation/native';
-import { NativeStackNavigationProp } from '@react-navigation/native-stack/src/types';
+import { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import {
   NativeNavigation,
   ScreenEnumType,
@@ -39,9 +39,10 @@ export const useReactNavigation = (): NativeNavigation => {
     page: ScreenEnumType,
     params?: NavigatorParams[ScreenEnumType],
   ) => {
-    if (navigation.getState()?.routeNames?.length > 0) {
-      navigation.navigate(page as any, params);
-    }
+    navigation.navigate(page as any, params);
+    // if (navigation.getState()?.routeNames?.length > 0) {
+    //   navigation.navigate(page as any, params);
+    // }
   };
 
   return useRef({

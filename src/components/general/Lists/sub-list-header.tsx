@@ -18,7 +18,7 @@ export const SubListHeader = ({
   title,
   completed,
   total,
-}: SubListHeaderProps): JSX.Element => {
+}: SubListHeaderProps): React.JSX.Element => {
   const theme = useGetTheme();
 
   return (

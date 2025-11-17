@@ -22,7 +22,7 @@ export const useGetLeftNavigationItem = (
   leftAction: NavigationHeaderLeftActionTypes,
   hasDrawer: boolean = false,
   isForm: boolean,
-): JSX.Element => {
+): React.JSX.Element => {
   const { t } = useTranslation();
   const theme = useGetTheme();
   const navigation = useReactNavigation();

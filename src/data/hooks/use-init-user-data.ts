@@ -14,7 +14,7 @@ export const useInitUserData = () => {
   const { isAuthenticated, isLoggedIn, isSigningUp } = useLoginState();
   const { loadUserFromCache } = useLoadUserFromCache();
   const { updateUserData } = useEditUserData();
-  const getAuthNavigationPath = useGetNavigationPath();
+  // const getAuthNavigationPath = useGetNavigationPath();
 
   useEffect(() => {
     if (!isAuthenticated && !user.userId) {
@@ -55,8 +55,9 @@ export const useInitUserData = () => {
       );
     }
 
-    if (!isAuthenticated && user.userId) {
-      getAuthNavigationPath(user);
-    }
+    // TODO: Fix here
+    // if (!isAuthenticated && user.userId) {
+    //   getAuthNavigationPath(user);
+    // }
   }, [isLoggedIn, isSigningUp, user.signup]);
 };

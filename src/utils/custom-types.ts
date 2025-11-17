@@ -95,6 +95,7 @@ export type NavigatorParams = {
   [UnauthorizedScreenEnum.VerifyNewPassword]: undefined;
   [AuthScreenEnum.Landing]: undefined;
   [AuthScreenEnum.GameSelection]: undefined;
+  [AuthScreenEnum.SelectGameLanguage]: undefined;
   [AuthScreenEnum.GlobalSettings]: undefined;
   [AuthScreenEnum.GlobalAccountDetails]: undefined;
   [AuthScreenEnum.GlobalSteamAchievements]: undefined;
