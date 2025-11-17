@@ -11,7 +11,6 @@ import {
   UnauthorizedStackNavigator,
 } from '@navigation/index';
 import { useLoginState } from '@features/login';
-import { View } from 'react-native';
 
 export const RootStackNavigator = () => {
   const { showSplashScreen } = useMainState();
@@ -29,7 +28,6 @@ export const RootStackNavigator = () => {
   useTimedDataUpdate();
 
   return (
-    // <View style={{ height: 100, width: 100, backgroundColor: 'red' }} />
     <Condition condition={!showSplashScreen} conditionalElement={<Landing />}>
       <I18nextProvider i18n={i18n}>
         {!isAuthenticated ? (

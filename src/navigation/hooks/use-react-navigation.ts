@@ -15,10 +15,13 @@ import {
   NativeNavigation,
   ScreenEnumType,
   NavigatorParams,
+  AuthScreenEnum,
+  DrawerScreenEnum,
 } from '@utils/index';
 import { useMainDispatch } from '@redux/hooks';
 
 export const DrawerActions = RNDrawerActions;
+const DRAWER_SCREENS = Object.values(DrawerScreenEnum);
 
 export const useReactNavigation = (): NativeNavigation => {
   const navigation = useNavigation<NativeStackNavigationProp<ParamListBase>>();
@@ -39,10 +42,17 @@ export const useReactNavigation = (): NativeNavigation => {
     page: ScreenEnumType,
     params?: NavigatorParams[ScreenEnumType],
   ) => {
-    navigation.navigate(page as any, params);
-    // if (navigation.getState()?.routeNames?.length > 0) {
-    //   navigation.navigate(page as any, params);
-    // }
+    if (
+      (page as DrawerScreenEnum) &&
+      DRAWER_SCREENS.includes(page as DrawerScreenEnum)
+    ) {
+      navigation.navigate(AuthScreenEnum.DrawerStack, {
+        screen: page,
+        params,
+      } as never);
+    } else {
+      navigation.navigate(page as any, params);
+    }
   };
 
   return useRef({
