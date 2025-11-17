@@ -3,7 +3,7 @@ import { KeyboardAvoidingView, Platform } from 'react-native';
 import { ScrollableList, KeyboardAwareContainer } from '@components/general';
 
 interface KeyboardAvoidingScrollViewProps {
-  children: JSX.Element[];
+  children: React.JSX.Element[];
   awareView: any;
 }
 

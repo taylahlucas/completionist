@@ -5,7 +5,7 @@ import { renderAmountConst } from '@utils/index';
 import { useTranslation } from 'react-i18next';
 
 interface CustomListProps extends ScrollViewProps {
-  children: JSX.Element[];
+  children: React.JSX.Element[];
   style?: any;
   contentContainerStyle?: ViewStyle;
   alignItems?: boolean;

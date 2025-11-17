@@ -25,7 +25,7 @@ export const ContentSearchResults = ({
         {
           const sectionData = getFilteredContentForSection(sectionType);
           if (sectionData?.length === 0) {
-            return <></>;
+            return <View key={`${sectionType}-${index}`}></View>;
           }
           const titlePadding =
             index !== 0 ? { paddingTop: 16 } : { paddingTop: 8 };
@@ -36,7 +36,7 @@ export const ContentSearchResults = ({
               </View>
               {sectionData?.map(item => (
                 <ListItem
-                  key={item.id}
+                  key={`${item.id}-${index}`}
                   id={item.id}
                   title={item.title}
                   isComplete={isGameItemComplete(

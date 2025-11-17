@@ -1,8 +1,4 @@
 import React from 'react';
-import {
-  createStackNavigator,
-  StackNavigationOptions,
-} from '@react-navigation/stack';
 import { AuthStackParamList, AuthScreenEnum } from '@utils/index';
 import { AuthDrawerStackNavigator } from './';
 import {
@@ -14,10 +10,14 @@ import {
   SteamProfileSheet,
 } from '@screens/index';
 import { SelectGameLanguageSheet } from '@screens/select-game-language-sheet';
+import {
+  createNativeStackNavigator,
+  NativeStackNavigationOptions,
+} from '@react-navigation/native-stack';
 
-const Stack = createStackNavigator<AuthStackParamList>();
+const Stack = createNativeStackNavigator<AuthStackParamList>();
 
-const bottomSheetOptions: StackNavigationOptions = {
+const bottomSheetOptions: NativeStackNavigationOptions = {
   presentation: 'transparentModal',
   headerShown: false,
 };

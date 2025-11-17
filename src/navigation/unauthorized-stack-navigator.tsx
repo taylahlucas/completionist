@@ -1,5 +1,4 @@
 import React from 'react';
-import { createStackNavigator } from '@react-navigation/stack';
 import {
   UnauthorizedScreenEnum,
   UnauthorizedStackParamList,
@@ -14,8 +13,9 @@ import {
   VerifyNewPassword,
 } from '@screens/index';
 import { ForgotPassword } from '@screens/forgot-password';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
-const Stack = createStackNavigator<UnauthorizedStackParamList>();
+const Stack = createNativeStackNavigator<UnauthorizedStackParamList>();
 
 export const UnauthorizedStackNavigator = () => {
   return (

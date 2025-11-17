@@ -8,7 +8,7 @@ import {
 import { GameListSectionDropdown, gameListStyles } from '@components/custom';
 import { useMainState } from '@redux/hooks';
 import { allGameData } from '@utils/configs';
-import { useFilterGameList } from '@components/custom/game-list/hooks';
+import { useFilterGameList } from '@utils/hooks';
 
 export const GameSelectionContent = () => {
   const { t } = useTranslation();

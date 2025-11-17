@@ -19,7 +19,7 @@ export interface TextInputProps extends RNTextInputProps {
   width?: number;
   height?: number;
   inputStyle?: TextInputStyleType;
-  leftComponent?: JSX.Element;
+  leftComponent?: React.JSX.Element;
 }
 
 export const TextInput = React.forwardRef<RNTextInput, TextInputProps>(

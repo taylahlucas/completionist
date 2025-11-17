@@ -26,7 +26,7 @@ export const render = (
     ...renderOptions
   }: any = {},
 ): RenderAPI => {
-  const wrapper = ({ children }: WrapperProps): JSX.Element => {
+  const wrapper = ({ children }: WrapperProps): React.JSX.Element => {
     return (
       <NavigationContainer>
         <Provider store={store}>{children}</Provider>

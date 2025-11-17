@@ -2,7 +2,7 @@ import { useRef, useCallback } from 'react';
 import {
   DrawerActions as RNDrawerActions,
   ParamListBase,
-} from '@react-navigation/routers';
+} from '@react-navigation/native';
 import {
   NavigationAction,
   NavigationState,
@@ -10,15 +10,18 @@ import {
   useNavigation,
   useNavigationState,
 } from '@react-navigation/native';
-import { NativeStackNavigationProp } from '@react-navigation/native-stack/src/types';
+import { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import {
   NativeNavigation,
   ScreenEnumType,
   NavigatorParams,
+  AuthScreenEnum,
+  DrawerScreenEnum,
 } from '@utils/index';
 import { useMainDispatch } from '@redux/hooks';
 
 export const DrawerActions = RNDrawerActions;
+const DRAWER_SCREENS = Object.values(DrawerScreenEnum);
 
 export const useReactNavigation = (): NativeNavigation => {
   const navigation = useNavigation<NativeStackNavigationProp<ParamListBase>>();
@@ -39,7 +42,15 @@ export const useReactNavigation = (): NativeNavigation => {
     page: ScreenEnumType,
     params?: NavigatorParams[ScreenEnumType],
   ) => {
-    if (navigation.getState()?.routeNames?.length > 0) {
+    if (
+      (page as DrawerScreenEnum) &&
+      DRAWER_SCREENS.includes(page as DrawerScreenEnum)
+    ) {
+      navigation.navigate(AuthScreenEnum.DrawerStack, {
+        screen: page,
+        params,
+      } as never);
+    } else {
       navigation.navigate(page as any, params);
     }
   };

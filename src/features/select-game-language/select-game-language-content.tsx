@@ -14,13 +14,15 @@ import { useContentDispatch } from '@features/game-content/provider';
 import { useReactNavigation } from '@navigation/hooks';
 import { useMainDispatch, useMainState } from '@redux/hooks';
 import useGetTheme from '@styles/hooks/use-get-theme';
-import { AuthScreenEnum, GameKeyEnum } from '@utils/custom-enums';
+import {
+  AuthScreenEnum,
+  DrawerScreenEnum,
+  GameKeyEnum,
+} from '@utils/custom-enums';
 import { GameData } from '@utils/custom-interfaces';
 import { LanguageType } from '@utils/custom-types';
-import {
-  filterGameListById,
-  userWithUpdatedGameLanguage,
-} from '@utils/helpers/index';
+import { userWithUpdatedGameLanguage } from '@utils/helpers/index';
+import { useFilterGameList } from '@utils/hooks';
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 
@@ -36,6 +38,7 @@ export const SelectGameLanguageContent = ({
   const { setSelectedGameData, setSelectedGameDataSettings } =
     useMainDispatch();
   const { setGameContent } = useContentDispatch();
+  const { filterGameListById } = useFilterGameList();
   const userGameData = filterGameListById(gameId, user.gameData);
   const { saveUser } = useEditUserData();
 
