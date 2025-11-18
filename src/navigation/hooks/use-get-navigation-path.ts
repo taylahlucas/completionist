@@ -1,18 +1,19 @@
-import { User, UnauthorizedScreenEnum } from '@utils/index';
+import { User, UnAuthorizedScreenEnum } from '@utils/index';
 import { useReactNavigation } from './';
 
 export const useGetNavigationPath = () => {
   const navigation = useReactNavigation();
 
-  const getAuthNavigationPath = (user: User) => {
+  const getNavigationPath = (user: User) => {
+    console.log('getNavigationPath: ', user.signup);
     if (!user.signup.verification) {
-      navigation.navigate(UnauthorizedScreenEnum.VerifyAccount);
+      navigation.navigate(UnAuthorizedScreenEnum.VerifyAccount);
     } else if (!user.signup.setUsername) {
-      navigation.navigate(UnauthorizedScreenEnum.SetUsername);
+      navigation.navigate(UnAuthorizedScreenEnum.SetUsername);
     } else if (!user.signup.selectGame) {
-      navigation.navigate(UnauthorizedScreenEnum.SelectFirstGame);
+      navigation.navigate(UnAuthorizedScreenEnum.SelectFirstGame);
     }
   };
 
-  return getAuthNavigationPath;
+  return getNavigationPath;
 };

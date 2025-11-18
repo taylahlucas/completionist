@@ -1,22 +1,40 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Alert } from 'react-native';
 import { useTranslation } from 'react-i18next';
 import { isPwValid } from '@utils/helpers/index';
-import { UnauthorizedScreenEnum } from '@utils/index';
+import { UnAuthorizedScreenEnum } from '@utils/index';
 import { checkUserExists } from '@data/index';
 import { useIsRequestLoading } from '@data/api/hooks';
 import { useLoginDispatch, useLoginState } from '../provider';
 import { useSendVerificationEmail } from '../login-form/hooks';
 import { useIsKeyboardVisible } from '@utils/hooks';
+import { useGetNavigationPath } from '@navigation/hooks';
+import { useMainState } from '@redux/hooks';
 
 export const useLogin = () => {
   const { t } = useTranslation();
-  const { isSigningUp, loginFormData } = useLoginState();
-  const { setLoginFormData } = useLoginDispatch();
+  const { user } = useMainState();
+  const { isLoggedIn, isSigningUp, loginFormData } = useLoginState();
+  const { setLoggedIn, setLoginFormData } = useLoginDispatch();
   const isRequestLoading = useIsRequestLoading();
   const isKeyboardVisible = useIsKeyboardVisible();
   const sendVerificationEmail = useSendVerificationEmail();
   const [submitPressed, setSubmitPressed] = useState<boolean>(false);
+  const getAuthNavigationPath = useGetNavigationPath();
+
+  useEffect(() => {
+    if (isLoggedIn || isSigningUp) {
+      console.log('setting-1: ', JSON.stringify(user));
+      setLoggedIn(
+        user.signup.verification &&
+          user.signup.selectGame &&
+          user.signup.setUsername,
+      );
+    }
+    if (!isLoggedIn && user.userId) {
+      getAuthNavigationPath(user);
+    }
+  }, [isLoggedIn, isSigningUp, user.signup]);
 
   const onSubmit = () => {
     setSubmitPressed(true);
@@ -26,7 +44,7 @@ export const useLogin = () => {
           sendVerificationEmail(
             loginFormData.email,
             t('common:auth.resetPw'),
-            UnauthorizedScreenEnum.VerifyNewPassword,
+            UnAuthorizedScreenEnum.VerifyNewPassword,
           );
         } else {
           Alert.alert(

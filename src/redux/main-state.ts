@@ -1,7 +1,7 @@
 import { AppStateStatus } from 'react-native';
 import { createSlice } from '@reduxjs/toolkit';
 import {
-  UnauthorizedScreenEnum,
+  UnAuthorizedScreenEnum,
   GameKeyEnum,
   PaymentTierEnum,
 } from '@utils/custom-enums';
@@ -60,7 +60,7 @@ export interface MainState {
 export const initialState: MainState = {
   showSplashScreen: true,
   webSignInConfigured: false,
-  currentScreen: UnauthorizedScreenEnum.Login,
+  currentScreen: UnAuthorizedScreenEnum.Login,
   selectedGameSettings: GameKeyEnum.SKYRIM,
   user: initialUser,
   shouldUpdateUser: false,

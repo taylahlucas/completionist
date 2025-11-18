@@ -3,6 +3,7 @@ import LottieView from 'lottie-react-native';
 import useGetTheme from '@styles/hooks/use-get-theme';
 import { StandardLayoutContainer } from '@components/general';
 import { LoadingAnimation } from '@components/animations';
+import { useGetNavigationPath } from '@navigation/hooks';
 
 export const Landing = () => {
   const theme = useGetTheme();

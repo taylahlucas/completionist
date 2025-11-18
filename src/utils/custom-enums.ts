@@ -24,7 +24,7 @@ export enum DrawerScreenEnum {
   AccountDetails = 'AccountDetails',
 }
 
-export enum UnauthorizedScreenEnum {
+export enum UnAuthorizedScreenEnum {
   Landing = 'Landing',
   Login = 'Login',
   VerifyAccount = 'VerifyAccount',

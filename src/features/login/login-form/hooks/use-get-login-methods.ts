@@ -2,7 +2,7 @@ import { Alert } from 'react-native';
 import { useTranslation } from 'react-i18next';
 import uuid from 'react-native-uuid';
 import { GoogleSignin } from '@react-native-google-signin/google-signin';
-import auth from '@react-native-firebase/auth';
+// import auth from '@react-native-firebase/auth';
 import {
   useEditUserData,
   useRemoveUserData,
@@ -12,13 +12,14 @@ import {
   signUp,
   SignInProps,
   updateUser,
+  useVerifyUser,
 } from '@data/index';
 import { useMainState, useMainDispatch } from '@redux/hooks';
 import { useLoginDispatch } from '../../provider';
 import { log } from '@utils/helpers/index';
 import { useSendVerificationEmail } from './';
 import {
-  UnauthorizedScreenEnum,
+  UnAuthorizedScreenEnum,
   getUserLang,
   maxPwAttempts,
   requestCodes,
@@ -45,17 +46,13 @@ export const useGetLoginMethods = (): GetLoginMethodsReturnType => {
   const { saveUser } = useEditUserData();
   const { removeUserData } = useRemoveUserData();
   const sendVerification = useSendVerificationEmail();
+  const handleUserVerification = useVerifyUser();
 
   const userSignIn = async ({ email, pw, googleId }: SignInProps) => {
     await signIn({ email, pw, googleId })
       .then(userResponse => {
         if (!!userResponse) {
-          saveUser(userResponse);
-          setLoggedIn(true);
-          setShowSplashScreen(false);
-          if (userResponse.gameData) {
-            setSelectedGameDataSettings(userResponse.gameData[0]?.id);
-          }
+          handleUserVerification(userResponse);
         }
       })
       .catch(error => {
@@ -118,7 +115,7 @@ export const useGetLoginMethods = (): GetLoginMethodsReturnType => {
             sendVerification(
               email,
               t('common:auth.linkAccountDesc'),
-              UnauthorizedScreenEnum.LinkAccount,
+              UnAuthorizedScreenEnum.LinkAccount,
             ),
         },
         {
@@ -151,40 +148,33 @@ export const useGetLoginMethods = (): GetLoginMethodsReturnType => {
     try {
       setShowSplashScreen(true);
       await GoogleSignin.hasPlayServices();
-      const { idToken } = await GoogleSignin.signIn();
-      const googleCredential = auth.GoogleAuthProvider.credential(idToken);
+      const { idToken, user } = await GoogleSignin.signIn();
 
-      return auth()
-        .signInWithCredential(googleCredential)
-        .then((response): void => {
-          const { uid, email } = response?.user || {};
-          if (email && idToken && uid) {
-            checkUserExists(email).then(accounts => {
-              // If google account not linked
-              if (accounts.regular && !accounts.google) {
-                linkGoogleAccount({ email: email, googleId: uid });
-              } else if (accounts.google) {
-                userSignIn({
-                  email: email,
-                  googleId: uid,
-                });
-              } else if (!accounts.google && !accounts.regular) {
-                signUp({
-                  data: {
-                    userId: uuid.v4().toString(),
-                    username: '',
-                    email: email,
-                    googleId: uid,
-                  },
-                  lang: getUserLang(),
-                }).then(response => {
-                  if (!!response) {
-                    saveUser(response);
-                    setShowSplashScreen(false);
-                    triggerIsSigningUp(true);
-                    setIsGoogleSignIn(true);
-                  }
-                });
+      if (idToken && user.email && user.id) {
+        checkUserExists(user.email).then(accounts => {
+          // If google account is not linked
+          if (accounts.regular && !accounts.google) {
+            linkGoogleAccount({ email: user.email, googleId: user.id });
+          } else if (accounts.google) {
+            userSignIn({
+              email: user.email,
+              googleId: user.id,
+            });
+          } else if (!accounts.google && !accounts.regular) {
+            signUp({
+              data: {
+                userId: uuid.v4().toString(),
+                username: '',
+                email: user.email,
+                googleId: user.id,
+              },
+              lang: getUserLang(),
+            }).then(response => {
+              if (!!response) {
+                saveUser(response);
+                setShowSplashScreen(false);
+                triggerIsSigningUp(true);
+                setIsGoogleSignIn(true);
               }
             });
           } else {
@@ -194,6 +184,7 @@ export const useGetLoginMethods = (): GetLoginMethodsReturnType => {
             );
           }
         });
+      }
     } catch (error: GoogleError | any) {
       setShowSplashScreen(false);
       log({

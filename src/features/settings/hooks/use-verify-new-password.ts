@@ -2,7 +2,7 @@ import { Alert } from 'react-native';
 import { useTranslation } from 'react-i18next';
 import { forgotPw } from '@data/index';
 import { useReactNavigation } from '@navigation/hooks';
-import { UnauthorizedScreenEnum } from '@utils/index';
+import { UnAuthorizedScreenEnum } from '@utils/index';
 import { useLoginState, useLoginDispatch } from '@features/login';
 import { initialFormData } from '@redux/index';
 
@@ -24,7 +24,7 @@ export const useVerifyNewPassword = () => {
             text: t('common:alerts.cta.ok'),
             onPress: () => {
               setLoginFormData(initialFormData);
-              navigation.navigate(UnauthorizedScreenEnum.Login);
+              navigation.navigate(UnAuthorizedScreenEnum.Login);
             },
           },
         ]);

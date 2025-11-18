@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import {
   TextInput,
@@ -7,28 +7,31 @@ import {
   Spacing,
   KeyboardAvoidingScrollView,
 } from '@components/general';
-import { useSetUsername } from './hooks';
+import { useMainState } from '@redux/hooks';
+import { useEditUserData } from '@data/hooks';
 
 export const SetUsernameContent = () => {
   const { t } = useTranslation();
-  const { viewModel, actions } = useSetUsername();
+  const { user } = useMainState();
+  const [username, setUsername] = useState<string>('');
+  const { updateUserData } = useEditUserData();
 
   const renderAwareView = () => (
     <Button
       title={t('common:continue')}
       type="footer"
-      disabled={viewModel.username.length === 0}
+      disabled={username.length === 0}
       onPress={async (): Promise<void> => {
-        if (viewModel.username.length > 0) {
+        if (username.length > 0) {
           const updatedUser = {
-            ...viewModel.user,
-            username: viewModel.username,
+            ...user,
+            username: username,
             signup: {
-              ...viewModel.user.signup,
+              ...user.signup,
               setUsername: true,
             },
           };
-          actions.updateUserData(updatedUser);
+          updateUserData(updatedUser);
         }
       }}
     />
@@ -41,9 +44,9 @@ export const SetUsernameContent = () => {
       <TextInput
         testID="username"
         placeholder={t('common:auth.username')}
-        value={viewModel.username}
-        onChangeText={value => actions.setUsername(value)}
-        onReset={(): void => actions.setUsername('')}
+        value={username}
+        onChangeText={value => setUsername(value)}
+        onReset={(): void => setUsername('')}
       />
     </KeyboardAvoidingScrollView>
   );

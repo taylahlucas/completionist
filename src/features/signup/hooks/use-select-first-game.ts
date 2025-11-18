@@ -1,4 +1,3 @@
-import { useFilterGameList } from '@components/custom/game-list/hooks';
 import { useIsRequestLoading } from '@data/api/hooks';
 import { useMainState, useMainDispatch } from '@redux/hooks';
 import { useActivateGame, useEditUserData } from '@data/hooks';
@@ -8,6 +7,7 @@ import { useState } from 'react';
 import { GameKeyEnum } from '@utils/index';
 import { useTranslation } from 'react-i18next';
 import { useLoginDispatch, useLoginState } from '@features/login/provider';
+import { useFilterGameList } from '@utils/hooks';
 
 export const useSelectFirstGame = () => {
   const { t } = useTranslation();
@@ -21,17 +21,16 @@ export const useSelectFirstGame = () => {
   const { updateUserData } = useEditUserData();
   const { activateGame } = useActivateGame();
   const { filterGameList } = useFilterGameList();
-  const filteredGames = filterGameList(
-    allGameData,
-    getFormattedSearchString(searchValue),
-  );
 
   return {
     viewModel: {
       user,
       searchValue,
       selectedFirstGame,
-      filteredGames,
+      filteredGames: filterGameList(
+        allGameData,
+        getFormattedSearchString(searchValue),
+      ),
       isLoading: isRequestLoading,
       isGoogleSignIn,
     },

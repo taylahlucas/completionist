@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import { sendVerificationEmail } from '@data/index';
-import { UnauthorizedScreenEnum } from '@utils/index';
+import { UnAuthorizedScreenEnum } from '@utils/index';
 import { useReactNavigation } from '@navigation/hooks';
 import { useLoginDispatch } from '../../provider';
 
@@ -24,7 +24,7 @@ export const useSendVerificationEmail = () => {
   const sendVerification = async (
     email: string,
     text: string,
-    navigateTo?: UnauthorizedScreenEnum,
+    navigateTo?: UnAuthorizedScreenEnum,
   ) => {
     const uniqueCode = generateVerificationToken(6);
     console.log('uniqueCode: ', uniqueCode);

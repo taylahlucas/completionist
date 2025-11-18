@@ -3,19 +3,20 @@ import i18n from 'src/i18n/i18n.native';
 import { I18nextProvider } from 'react-i18next';
 import { Condition } from '@components/general';
 import { useMainDispatch, useMainState } from '@redux/hooks';
-import { useInitUserData } from '@data/hooks';
 import { Landing } from './';
 import { useTimedDataUpdate } from '@data/api/hooks';
 import {
   AuthStackNavigator,
-  UnauthorizedStackNavigator,
+  UnAuthorizedStackNavigator,
 } from '@navigation/index';
 import { useLoginState } from '@features/login';
 
 export const RootStackNavigator = () => {
   const { showSplashScreen } = useMainState();
   const { setShowSplashScreen } = useMainDispatch();
-  const { isAuthenticated } = useLoginState();
+  // TODO: Move to main state?
+  const { isLoggedIn } = useLoginState();
+  useTimedDataUpdate();
 
   useEffect(() => {
     const timerId = setTimeout(() => {
@@ -24,17 +25,11 @@ export const RootStackNavigator = () => {
 
     return () => clearTimeout(timerId);
   }, []);
-  useInitUserData();
-  useTimedDataUpdate();
 
   return (
     <Condition condition={!showSplashScreen} conditionalElement={<Landing />}>
       <I18nextProvider i18n={i18n}>
-        {!isAuthenticated ? (
-          <UnauthorizedStackNavigator />
-        ) : (
-          <AuthStackNavigator />
-        )}
+        {isLoggedIn ? <AuthStackNavigator /> : <UnAuthorizedStackNavigator />}
       </I18nextProvider>
     </Condition>
   );

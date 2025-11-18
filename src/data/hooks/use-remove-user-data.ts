@@ -14,7 +14,6 @@ export const useRemoveUserData = () => {
     triggerIsSigningUp,
     setLoggedIn,
     setVerificationToken,
-    setIsAuthenticated,
   } = useLoginDispatch();
   const { setSelectedCategory, setSelectedSection } = useContentDispatch();
 
@@ -27,7 +26,6 @@ export const useRemoveUserData = () => {
       category: '',
     });
     setSelectedSection(ContentSectionEnum.QUESTS);
-    setIsAuthenticated(false);
     setLoggedIn(false);
     setLoginFormData(initialFormData);
     triggerIsSigningUp(false);

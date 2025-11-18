@@ -12,7 +12,7 @@ import { Condition, Button, StyledText } from '@components/general';
 import { isEmailValid, isPwValid, isNameValid } from '@utils/helpers/index';
 import { useSendVerificationEmail, useGetLoginMethods } from './hooks';
 import { checkUserExists } from '@data/index';
-import { UnauthorizedScreenEnum } from '@utils/index';
+import { UnAuthorizedScreenEnum } from '@utils/index';
 
 export const LoginFormSignInButtons = () => {
   const { t } = useTranslation();
@@ -41,7 +41,7 @@ export const LoginFormSignInButtons = () => {
                   sendVerification(
                     loginFormData.email,
                     'common:sendRequest.verifyAccount',
-                    UnauthorizedScreenEnum.VerifyAccount,
+                    UnAuthorizedScreenEnum.VerifyAccount,
                   );
                 } else {
                   Alert.alert(

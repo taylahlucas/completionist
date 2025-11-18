@@ -1,46 +1,32 @@
 import { getCredentials } from '../keychain';
-import { fetchUserFromCache, saveToCache } from '../local-cache';
-import { getUserByUserId } from '@data/index';
-import { useMainState, useMainDispatch } from '@redux/hooks';
-import { useEditUserData } from '@data/hooks/use-edit-user-data';
-import { useLoginDispatch } from '@features/login/provider';
+import { fetchUserFromCache } from '../local-cache';
+import { getUserByUserId, useVerifyUser } from '@data/index';
 
 export const useLoadUserFromCache = () => {
-  const { selectedGameData } = useMainState();
-  const { setSelectedGameDataSettings } = useMainDispatch();
-  const { setLoggedIn } = useLoginDispatch();
-  const { saveUser } = useEditUserData();
+  const handleUserVerification = useVerifyUser();
 
   const loadUserFromCache = async () => {
     const credentials = await getCredentials();
     if (credentials) {
       fetchUserFromCache(credentials.username).then(cachedData => {
         if (!cachedData && credentials.username) {
+          // Load user and store in cache
           getUserByUserId({ userId: credentials.username })
             .then(user => {
               if (user) {
-                // TODO: Fix save user
-                saveUser(user);
-                saveToCache(user, user.userId);
-                setLoggedIn(true);
-                if (!selectedGameData && user.gameData) {
-                  setSelectedGameDataSettings(user.gameData[0]?.id);
-                }
+                handleUserVerification(user);
               }
             })
             .catch(() => {});
         } else {
+          // Get cached user data
           if (cachedData) {
-            saveUser(cachedData);
-            setLoggedIn(true);
-            if (!selectedGameData && cachedData.gameData) {
-              setSelectedGameDataSettings(cachedData?.gameData[0]?.id);
-            }
+            handleUserVerification(cachedData);
           }
         }
       });
     }
   };
 
-  return { loadUserFromCache };
+  return loadUserFromCache;
 };

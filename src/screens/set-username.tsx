@@ -2,7 +2,7 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { StandardLayout } from '@components/general';
 import { NavigationHeader } from '@navigation/index';
-import { UnauthorizedScreenEnum } from '@utils/index';
+import { UnAuthorizedScreenEnum } from '@utils/index';
 import { SetUsernameContent } from '@features/signup';
 
 export const SetUsername = () => {
@@ -11,9 +11,9 @@ export const SetUsername = () => {
   return (
     <StandardLayout>
       <NavigationHeader
-        id={UnauthorizedScreenEnum.SetUsername}
+        id={UnAuthorizedScreenEnum.SetUsername}
         title={t('common:setUsername.title')}
-        leftAction="none"
+        leftAction="back"
       />
       <SetUsernameContent />
     </StandardLayout>

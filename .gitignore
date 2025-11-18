@@ -77,3 +77,4 @@ ios/Podfile.lock
 android/app/google-services.json
 android/app/debug.keystore
 android/app/src/main/AndroidManifest.xml
+.DS_Store

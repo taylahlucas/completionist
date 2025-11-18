@@ -16,11 +16,13 @@ export const useEditUserData = (): EditUserDataReturnType => {
   const { setUser, setShouldUpdateUser } = useMainDispatch();
   const { removeUserData } = useRemoveUserData();
 
+  // Save user locally without calling api
   const saveUser = (user: User) => {
     setUser(user);
     setShouldUpdateUser(false);
   };
 
+  // Updated user in db
   const updateUserData = async (user: User) => {
     updateUser(user).then(() => saveUser(user));
   };

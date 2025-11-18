@@ -6,7 +6,7 @@ import {
   NavigationHeaderRightActionTypes,
   ScreenEnumType,
   DrawerScreenEnum,
-  UnauthorizedScreenEnum,
+  UnAuthorizedScreenEnum,
 } from '@utils/index';
 import { useGetLeftNavigationItem, useGetRightNavigationItem } from './hooks';
 
@@ -20,7 +20,7 @@ interface NavigationHeaderProps {
 }
 
 export const NavigationHeader = ({
-  id = UnauthorizedScreenEnum.Login,
+  id = UnAuthorizedScreenEnum.Login,
   title,
   isForm = false,
   leftAction = 'menu',

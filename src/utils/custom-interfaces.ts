@@ -11,15 +11,7 @@ import { MainState } from '@redux/main-state';
 import { SettingsState } from '@features/settings/provider';
 import { ContentState } from '@features/game-content/provider';
 import { LanguageType, ScreenEnumType } from './custom-types';
-
-export interface LoginState {
-  readonly loginFormData: LoginFormData;
-  readonly verificationToken?: string;
-  readonly isGoogleSignIn: boolean;
-  readonly isAuthenticated: boolean;
-  readonly isLoggedIn: boolean;
-  readonly isSigningUp: boolean;
-}
+import { LoginState } from '@features/login';
 
 export interface ContentItem {
   id: string;

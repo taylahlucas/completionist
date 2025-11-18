@@ -2,7 +2,7 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { StandardLayout } from '@components/general';
 import { NavigationHeader } from '@navigation/index';
-import { UnauthorizedScreenEnum } from '@utils/index';
+import { UnAuthorizedScreenEnum } from '@utils/index';
 import { ForgotPasswordContent } from '@features/login';
 
 export const ForgotPassword = () => {
@@ -11,7 +11,7 @@ export const ForgotPassword = () => {
   return (
     <StandardLayout>
       <NavigationHeader
-        id={UnauthorizedScreenEnum.ForgotPassword}
+        id={UnAuthorizedScreenEnum.ForgotPassword}
         title={t('common:screens.forgotPw')}
         leftAction="back"
       />

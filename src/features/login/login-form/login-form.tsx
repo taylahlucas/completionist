@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { LoginFormContainer, LoginFormContentContainer } from './';
 import { useLoginState, useLoginDispatch } from '../provider';
 import { Condition, TextInput, Button } from '@components/general';
-import { UnauthorizedScreenEnum } from '@utils/custom-enums';
+import { UnAuthorizedScreenEnum } from '@utils/custom-enums';
 import { useReactNavigation } from '@navigation/hooks';
 
 export const LoginForm = () => {
@@ -82,7 +82,7 @@ export const LoginForm = () => {
           type="text"
           style={{ alignItems: 'flex-end' }}
           onPress={() =>
-            navigation.navigate(UnauthorizedScreenEnum.ForgotPassword)
+            navigation.navigate(UnAuthorizedScreenEnum.ForgotPassword)
           }
         />
       </Condition>

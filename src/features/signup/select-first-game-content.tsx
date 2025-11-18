@@ -1,5 +1,4 @@
 import React from 'react';
-import { NavigationHeader } from '@navigation/index';
 import useGetTheme from '@styles/hooks/use-get-theme';
 import { useTranslation } from 'react-i18next';
 import { GameListItem } from '@components/custom';
@@ -13,7 +12,7 @@ import {
   Spacing,
   ParagraphView,
 } from '@components/general';
-import { UnauthorizedScreenEnum } from '@utils/index';
+import { GameData } from '@utils/index';
 import { useTranslateGameContent } from '@data/hooks';
 import { useSelectFirstGame } from './hooks/use-select-first-game';
 import { SelectFirstGameContentContainer } from '@features/login/login-form';
@@ -25,12 +24,7 @@ export const SelectFirstGameContent = () => {
   const { translateGameName } = useTranslateGameContent();
 
   return (
-    <StandardLayout isLoading={viewModel.isLoading}>
-      <NavigationHeader
-        id={UnauthorizedScreenEnum.SelectFirstGame}
-        title={t('common:screens.selectGame')}
-        leftAction={viewModel.isGoogleSignIn ? 'back' : 'none'}
-      />
+    <>
       <CustomSearchBar
         searchValue={viewModel.searchValue}
         setSearchValue={(value: string): void => actions.setSearchValue(value)}
@@ -80,7 +74,7 @@ export const SelectFirstGameContent = () => {
           </ParagraphView>
         </Condition>
         <SelectFirstGameContentContainer>
-          {viewModel.filteredGames.map((game, index) => (
+          {viewModel.filteredGames.map((game: GameData, index: number) => (
             <GameListItem
               key={index}
               flow="signup"
@@ -96,6 +90,6 @@ export const SelectFirstGameContent = () => {
           ))}
         </SelectFirstGameContentContainer>
       </KeyboardAvoidingScrollView>
-    </StandardLayout>
+    </>
   );
 };

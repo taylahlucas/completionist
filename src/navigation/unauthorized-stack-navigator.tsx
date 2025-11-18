@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  UnauthorizedScreenEnum,
+  UnAuthorizedScreenEnum,
   UnauthorizedStackParamList,
 } from '@utils/index';
 import {
@@ -17,37 +17,37 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 const Stack = createNativeStackNavigator<UnauthorizedStackParamList>();
 
-export const UnauthorizedStackNavigator = () => {
+export const UnAuthorizedStackNavigator = () => {
   return (
     <Stack.Navigator
-      initialRouteName={UnauthorizedScreenEnum.Login}
+      initialRouteName={UnAuthorizedScreenEnum.Login}
       screenOptions={{
         headerShown: false,
       }}>
-      <Stack.Screen name={UnauthorizedScreenEnum.Landing} component={Landing} />
-      <Stack.Screen name={UnauthorizedScreenEnum.Login} component={Login} />
+      <Stack.Screen name={UnAuthorizedScreenEnum.Landing} component={Landing} />
+      <Stack.Screen name={UnAuthorizedScreenEnum.Login} component={Login} />
       <Stack.Screen
-        name={UnauthorizedScreenEnum.VerifyAccount}
+        name={UnAuthorizedScreenEnum.VerifyAccount}
         component={VerifyAccount}
       />
       <Stack.Screen
-        name={UnauthorizedScreenEnum.SelectFirstGame}
+        name={UnAuthorizedScreenEnum.SelectFirstGame}
         component={SelectFirstGame}
       />
       <Stack.Screen
-        name={UnauthorizedScreenEnum.SetUsername}
+        name={UnAuthorizedScreenEnum.SetUsername}
         component={SetUsername}
       />
       <Stack.Screen
-        name={UnauthorizedScreenEnum.LinkAccount}
+        name={UnAuthorizedScreenEnum.LinkAccount}
         component={LinkAccount}
       />
       <Stack.Screen
-        name={UnauthorizedScreenEnum.ForgotPassword}
+        name={UnAuthorizedScreenEnum.ForgotPassword}
         component={ForgotPassword}
       />
       <Stack.Screen
-        name={UnauthorizedScreenEnum.VerifyNewPassword}
+        name={UnAuthorizedScreenEnum.VerifyNewPassword}
         component={VerifyNewPassword}
       />
     </Stack.Navigator>

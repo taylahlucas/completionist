@@ -8,7 +8,7 @@ export const useFilterGameList = () => {
     data: GameData[],
     searchValue: string,
   ): GameData[] => {
-    return data.filter(item =>
+    return data?.filter(item =>
       searchValue?.length > 0
         ? t(`common:categories.${item.id as string}.title`)
             .toLocaleLowerCase()
@@ -21,7 +21,7 @@ export const useFilterGameList = () => {
     id: GameKeyEnum,
     data: GameData[],
   ): GameData | undefined => {
-    return data.find(item => item.id === id);
+    return data?.find(item => item.id === id);
   };
 
   return {

@@ -1,14 +1,21 @@
 import { initialFormData } from '@redux/main-state';
 import { createSlice } from '@reduxjs/toolkit';
-import { LoginFormData, LoginState } from '@utils/index';
+import { LoginFormData } from '@utils/index';
 
 export const initialState: LoginState = {
   loginFormData: initialFormData,
   isGoogleSignIn: false,
-  isAuthenticated: false,
   isLoggedIn: false,
   isSigningUp: false,
 };
+
+export interface LoginState {
+  readonly loginFormData: LoginFormData;
+  readonly verificationToken?: string;
+  readonly isGoogleSignIn: boolean;
+  readonly isLoggedIn: boolean;
+  readonly isSigningUp: boolean;
+}
 
 const slice = createSlice({
   name: 'settings',
@@ -23,20 +30,17 @@ const slice = createSlice({
     setVerificationToken: (state, action) => {
       state.verificationToken = action.payload;
     },
-    setIsAuthenticated: (state, action) => {
-      state.isAuthenticated = action.payload;
-    },
     setLoggedIn: (state, action) => {
       state.isLoggedIn = action.payload;
       state.isSigningUp = false;
     },
     triggerIsSigningUp: (state, action) => {
       state.isSigningUp = action.payload;
+      state.isLoggedIn = false;
     },
     reset: (state, _) => {
       // TODO: Not working ??
       state.isSigningUp = false;
-      state.isAuthenticated = false;
       state.isLoggedIn = false;
       state.loginFormData = initialFormData;
       state.verificationToken = undefined;
@@ -48,7 +52,6 @@ export const {
   setLoginFormData,
   setIsGoogleSignIn,
   setVerificationToken,
-  setIsAuthenticated,
   setLoggedIn,
   triggerIsSigningUp,
   reset,

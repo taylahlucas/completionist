@@ -4,7 +4,7 @@ import {
   AuthScreenEnum,
   DrawerScreenEnum,
   GameKeyEnum,
-  UnauthorizedScreenEnum,
+  UnAuthorizedScreenEnum,
 } from './custom-enums';
 
 // Styles
@@ -71,7 +71,7 @@ export type LanguageType =
 export type ScreenEnumType =
   | AuthScreenEnum
   | DrawerScreenEnum
-  | UnauthorizedScreenEnum;
+  | UnAuthorizedScreenEnum;
 export type NavigationHeaderLeftActionTypes =
   | 'back'
   | 'menu'
@@ -84,15 +84,15 @@ export type NavigationHeaderRightActionTypes =
   | 'logout'
   | 'none';
 export type NavigatorParams = {
-  [UnauthorizedScreenEnum.Landing]: undefined;
-  [UnauthorizedScreenEnum.Login]: undefined;
-  [UnauthorizedScreenEnum.VerifyAccount]: undefined;
-  [UnauthorizedScreenEnum.SelectInitialPlan]: undefined;
-  [UnauthorizedScreenEnum.SetUsername]: undefined;
-  [UnauthorizedScreenEnum.SelectFirstGame]: undefined;
-  [UnauthorizedScreenEnum.LinkAccount]: undefined;
-  [UnauthorizedScreenEnum.ForgotPassword]: undefined;
-  [UnauthorizedScreenEnum.VerifyNewPassword]: undefined;
+  [UnAuthorizedScreenEnum.Landing]: undefined;
+  [UnAuthorizedScreenEnum.Login]: undefined;
+  [UnAuthorizedScreenEnum.VerifyAccount]: undefined;
+  [UnAuthorizedScreenEnum.SelectInitialPlan]: undefined;
+  [UnAuthorizedScreenEnum.SetUsername]: undefined;
+  [UnAuthorizedScreenEnum.SelectFirstGame]: undefined;
+  [UnAuthorizedScreenEnum.LinkAccount]: undefined;
+  [UnAuthorizedScreenEnum.ForgotPassword]: undefined;
+  [UnAuthorizedScreenEnum.VerifyNewPassword]: undefined;
   [AuthScreenEnum.Landing]: undefined;
   [AuthScreenEnum.GameSelection]: undefined;
   [AuthScreenEnum.SelectGameLanguage]: undefined;
