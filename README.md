@@ -28,6 +28,7 @@ npx react-native run-ios --port 8002
 - @react-navigation/drawer
 - @react-navigation/native-stack
 - react-native-reanimated
+- react-native-worklets
 - react-native-gesture-handler
 
 - babel-plugin-module-resolver
@@ -42,7 +43,6 @@ npx react-native run-ios --port 8002
 - react-dom
 
 - @react-native-google-signin/google-signin
-- @react-native-firebase/auth
 
 - @apollo/client
 

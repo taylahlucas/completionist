@@ -1,13 +1,5 @@
 import { NativeModules } from 'react-native';
 
-jest.mock('@react-native-firebase/auth', () => ({
-  auth: {
-    GoogleAuthProvider: {
-      credential: jest.fn().mockReturnValue('123'),
-    },
-  },
-}));
-
 jest.mock('react-native-google-signin', () => {
   const mockGoogleSignin = require.requireActual('react-native-google-signin');
 

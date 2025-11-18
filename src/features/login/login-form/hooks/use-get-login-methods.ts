@@ -2,7 +2,6 @@ import { Alert } from 'react-native';
 import { useTranslation } from 'react-i18next';
 import uuid from 'react-native-uuid';
 import { GoogleSignin } from '@react-native-google-signin/google-signin';
-// import auth from '@react-native-firebase/auth';
 import {
   useEditUserData,
   useRemoveUserData,
