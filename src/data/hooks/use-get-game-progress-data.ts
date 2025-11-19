@@ -7,12 +7,16 @@ import {
 } from '@utils/index';
 import { useContentState } from '@features/game-content/provider';
 import { filterActiveSections, getCurrentGame } from '@data/index';
+import { useAuthState } from '@redux/auth';
 
 export const useGetGameProgressData = () => {
-  const { user, selectedGameData } = useMainState();
+  const { selectedGameData } = useMainState();
+  const { user } = useAuthState();
   const { gameContent } = useContentState();
 
   const getGameProgress = (games: GameKeyEnum[]): ProgressItem[] => {
+    // TODO: Handle no user
+    if (!user) return [];
     return games.map(game => {
       const currentGame = getCurrentGame(game, user);
       const questData = filterActiveSections(
@@ -32,7 +36,7 @@ export const useGetGameProgressData = () => {
         gameContent?.miscellaneous ?? [],
       );
 
-      let drawerItems = [];
+      const drawerItems = [];
       if (questData.length > 0) {
         drawerItems.push({
           id: ContentSectionEnum.QUESTS,

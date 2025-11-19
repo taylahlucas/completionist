@@ -1,12 +1,9 @@
-import useGetTheme from '@styles/hooks/use-get-theme';
 import { TextInputStyleType } from '@utils/index';
 
 export const useGetTextInputStyle = (
   inputStyle: TextInputStyleType,
   hasLeftComponent: boolean,
 ) => {
-  const theme = useGetTheme();
-
   switch (inputStyle) {
     case 'verification':
       return {};

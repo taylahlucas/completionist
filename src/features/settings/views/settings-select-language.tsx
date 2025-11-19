@@ -5,8 +5,8 @@ import {
   DropdownSelection,
   DropdownSelectionContent,
 } from '@components/general';
-import { GameData, languages, LanguageType } from '@utils/index';
-import { getGameLanguages, getLanguageInEn } from '@utils/helpers/index';
+import { LanguageType } from '@utils/index';
+import { getLanguageInEn } from '@utils/helpers/index';
 
 interface SettingsSelectLanguageProps {
   languages: LanguageType[];

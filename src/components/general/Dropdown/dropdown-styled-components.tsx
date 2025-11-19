@@ -50,9 +50,9 @@ export const DropdownSelectionContentItem = styled.Pressable<DropdownSelectionCo
   height: 45px;
   justify-content: center;
   border-bottom-left-radius: ${(props): number =>
-    !!props.last ? DEFAULT_BORDER_RADIUS : 0}px;
+    props.last ? DEFAULT_BORDER_RADIUS : 0}px;
   border-bottom-right-radius: ${(props): number =>
-    !!props.last ? DEFAULT_BORDER_RADIUS : 0}px;
+    props.last ? DEFAULT_BORDER_RADIUS : 0}px;
 `;
 
 export const DropdownContainer = styled.View`

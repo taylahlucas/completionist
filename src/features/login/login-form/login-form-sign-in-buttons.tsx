@@ -7,19 +7,19 @@ import {
   LoginButton,
 } from './';
 import { GoogleSigninButton } from '@react-native-google-signin/google-signin';
-import { useLoginState, useLoginDispatch } from '../provider';
 import { Condition, Button, StyledText } from '@components/general';
 import { isEmailValid, isPwValid, isNameValid } from '@utils/helpers/index';
 import { useSendVerificationEmail, useGetLoginMethods } from './hooks';
 import { checkUserExists } from '@data/index';
 import { UnAuthorizedScreenEnum } from '@utils/index';
+import { useAuthDispatch, useAuthState } from '@redux/auth';
 
 export const LoginFormSignInButtons = () => {
   const { t } = useTranslation();
   const { checkUserAccount, googleUserSignIn } = useGetLoginMethods();
-  const { triggerIsSigningUp } = useLoginDispatch();
   const sendVerification = useSendVerificationEmail();
-  const { loginFormData, isSigningUp } = useLoginState();
+  const { isSigningUp, loginFormData } = useAuthState();
+  const { triggerIsSigningUp } = useAuthDispatch();
   const isLoginDisabled =
     !isEmailValid(loginFormData.email) ||
     !isPwValid(loginFormData.pw ?? '') ||

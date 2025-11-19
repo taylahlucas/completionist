@@ -2,18 +2,18 @@ import { useTranslation } from 'react-i18next';
 import { sendVerificationEmail } from '@data/index';
 import { UnAuthorizedScreenEnum } from '@utils/index';
 import { useReactNavigation } from '@navigation/hooks';
-import { useLoginDispatch } from '../../provider';
+import { useAuthDispatch } from '@redux/auth';
 
 export const useSendVerificationEmail = () => {
   const { t } = useTranslation();
   const navigation = useReactNavigation();
-  const { setVerificationToken } = useLoginDispatch();
+  const { setVerificationToken } = useAuthDispatch();
 
   const generateVerificationToken = (length: number): string => {
     const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
     let code = '';
 
-    for (let i = 0; i < 6; i++) {
+    for (let i = 0; i < length; i++) {
       const randomIndex = Math.floor(Math.random() * characters.length);
       code += characters.charAt(randomIndex);
     }

@@ -1,9 +1,9 @@
 import { Alert } from 'react-native';
 import { useTranslation } from 'react-i18next';
-import { useMainDispatch } from '@redux/hooks';
 import { User } from '@utils/index';
 import { updateUser, deleteUser } from '@data/index';
 import { resetStore } from '@redux/reset-store';
+import { useAuthDispatch } from '@redux/auth';
 
 interface EditUserDataReturnType {
   saveUser: (user: User) => void;
@@ -13,7 +13,7 @@ interface EditUserDataReturnType {
 
 export const useEditUserData = (): EditUserDataReturnType => {
   const { t } = useTranslation();
-  const { setUser, setShouldUpdateUser } = useMainDispatch();
+  const { setUser, setShouldUpdateUser } = useAuthDispatch();
 
   // Save user locally without calling api
   const saveUser = (user: User) => {

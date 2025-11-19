@@ -3,10 +3,10 @@ import { Alert } from 'react-native';
 import { useTranslation } from 'react-i18next';
 import { useEditUserData } from '@data/hooks';
 import { useReactNavigation } from '@navigation/hooks';
-import { useMainState } from '@redux/hooks';
 import { DrawerScreenEnum } from '@utils/index';
 import { isEmailValid, isPwValid, isNameValid } from '@utils/helpers/index';
 import { updateUser, changePw, checkUserExists } from '@data/index';
+import { useAuthState } from '@redux/auth';
 
 export interface ChangeAccountDetailsItem {
   value: string;
@@ -23,10 +23,10 @@ interface ChangeAccountDetails {
 export const useAccountDetails = () => {
   const navigation = useReactNavigation();
   const { t } = useTranslation();
-  const { user, currentScreen } = useMainState();
+  const { user, currentScreen } = useAuthState();
   const initialState = {
-    username: { value: user.username, changed: false },
-    email: { value: user.email, changed: false },
+    username: { value: user?.username ?? '', changed: false },
+    email: { value: user?.email ?? '', changed: false },
     currentPw: { value: '', changed: false },
     newPw: { value: '', changed: false },
   };
@@ -36,9 +36,11 @@ export const useAccountDetails = () => {
   const [submitPressed, setSubmitPressed] = useState<boolean>(false);
 
   useEffect(() => {
-    checkUserExists(user.email).then(accounts =>
-      setShowChangePw(accounts.google && !accounts.regular ? false : true),
-    );
+    if (user) {
+      checkUserExists(user.email).then(accounts =>
+        setShowChangePw(accounts.google && !accounts.regular ? false : true),
+      );
+    }
   }, []);
 
   useEffect(() => {
@@ -65,72 +67,74 @@ export const useAccountDetails = () => {
     setSubmitPressed(true);
     // TODO: I don't think this would handle if I change multiple values at the same time?
     // TODO: Want to do verification check for changed email
-    if (userInfo.email.changed && isEmailValid(userInfo.email.value)) {
-      checkUserExists(userInfo.email.value).then(accounts => {
-        if (!accounts.regular && !accounts.google) {
-          let updatedUser = {
-            ...user,
-            name: userInfo.username.changed
-              ? userInfo.username.value
-              : user.username,
-            email: userInfo.email.value,
-          };
-          updateUser(updatedUser).then(() => {
-            saveUser(updatedUser);
-            Alert.alert(t('common:alerts.updateSuccess'));
-            setSubmitPressed(false);
-            navigation.goBack();
-          });
-        } else if (accounts.regular && accounts.google) {
-          Alert.alert(
-            t('common:errors.emailAlreadyExists'),
-            t('common:errors.differentEmail'),
-          );
-        } else if (!accounts.regular && accounts.google) {
-          Alert.alert(
-            t('common:errors.emailAlreadyExists'),
-            t('common:errors.linkedWithGoogle'),
-          );
-        } else if (!accounts.google && accounts.regular) {
-          Alert.alert(
-            t('common:errors.emailAlreadyExists'),
-            t('common:errors.linkedWithRegular'),
-          );
-        }
-      });
-    } else if (
-      userInfo.username.changed &&
-      isNameValid(userInfo.username.value)
-    ) {
-      updateUser({
-        ...user,
-        username: userInfo.username.value,
-      }).then(() => {
-        saveUser({
+    if (user) {
+      if (userInfo.email.changed && isEmailValid(userInfo.email.value)) {
+        checkUserExists(userInfo.email.value).then(accounts => {
+          if (!accounts.regular && !accounts.google) {
+            const updatedUser = {
+              ...user,
+              name: userInfo.username.changed
+                ? userInfo.username.value
+                : user.username,
+              email: userInfo.email.value,
+            };
+            updateUser(updatedUser).then(() => {
+              saveUser(updatedUser);
+              Alert.alert(t('common:alerts.updateSuccess'));
+              setSubmitPressed(false);
+              navigation.goBack();
+            });
+          } else if (accounts.regular && accounts.google) {
+            Alert.alert(
+              t('common:errors.emailAlreadyExists'),
+              t('common:errors.differentEmail'),
+            );
+          } else if (!accounts.regular && accounts.google) {
+            Alert.alert(
+              t('common:errors.emailAlreadyExists'),
+              t('common:errors.linkedWithGoogle'),
+            );
+          } else if (!accounts.google && accounts.regular) {
+            Alert.alert(
+              t('common:errors.emailAlreadyExists'),
+              t('common:errors.linkedWithRegular'),
+            );
+          }
+        });
+      } else if (
+        userInfo.username.changed &&
+        isNameValid(userInfo.username.value)
+      ) {
+        updateUser({
           ...user,
           username: userInfo.username.value,
-        });
-        successAlert();
-      });
-    } else if (userInfo.newPw.changed && isPwValid(userInfo.newPw.value)) {
-      changePw({
-        userId: user.userId,
-        oldPw: userInfo.currentPw.value,
-        newPw: userInfo.newPw.value,
-      }).then(response => {
-        if (response) {
+        }).then(() => {
+          saveUser({
+            ...user,
+            username: userInfo.username.value,
+          });
           successAlert();
-        }
-      });
+        });
+      } else if (userInfo.newPw.changed && isPwValid(userInfo.newPw.value)) {
+        changePw({
+          userId: user.userId,
+          oldPw: userInfo.currentPw.value,
+          newPw: userInfo.newPw.value,
+        }).then(response => {
+          if (response) {
+            successAlert();
+          }
+        });
+      }
     }
   };
 
   return {
     viewModel: {
       user: {
-        username: user.username,
-        email: user.email,
-        pw: user.pw,
+        username: user?.username,
+        email: user?.email,
+        pw: user?.pw,
       },
       userInfo,
       hasChanged: userInfo.email.changed || userInfo.username.changed,

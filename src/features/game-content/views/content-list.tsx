@@ -4,15 +4,10 @@ import {
   Condition,
   Loading,
   WikiWebView,
-  ListItem,
 } from '@components/general';
 import { useContentState, useContentDispatch } from '../provider';
 import { ContentMainDropdown } from './';
-import {
-  useGetContentCategories,
-  useGetContent,
-  useUpdateContent,
-} from './hooks';
+import { useGetContentCategories, useGetContent } from './hooks';
 import { ContentItem, ContentSectionEnum } from '@utils/index';
 import { isGameItemCompleteForCategory } from './helpers';
 import { useMainState } from '@redux/hooks';
@@ -33,7 +28,7 @@ export const ContentList = ({ section }: ContentListProps) => {
   if (!selectedGameData || !categories) {
     return <Loading />;
   }
-  const { updateContentComplete } = useUpdateContent(section, selectedGameData);
+  // const { updateContentComplete } = useUpdateContent(section, selectedGameData);
 
   useEffect(() => {
     setSearchValue('');

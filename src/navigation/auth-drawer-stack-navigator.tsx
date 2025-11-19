@@ -34,7 +34,7 @@ export const AuthDrawerStackNavigator = () => {
       <Condition condition={!!selectedGameData}>
         <NavigationDrawerContainer>
           <StyledText type={'SubHeading'} color={theme.lightGrey}>
-            {!!selectedGameData ? translateGameName(selectedGameData?.id) : ''}
+            {selectedGameData ? translateGameName(selectedGameData?.id) : ''}
           </StyledText>
           <NavigationDrawerBody />
         </NavigationDrawerContainer>

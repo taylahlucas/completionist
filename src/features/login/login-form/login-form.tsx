@@ -1,16 +1,16 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { LoginFormContainer, LoginFormContentContainer } from './';
-import { useLoginState, useLoginDispatch } from '../provider';
 import { Condition, TextInput, Button } from '@components/general';
 import { UnAuthorizedScreenEnum } from '@utils/custom-enums';
 import { useReactNavigation } from '@navigation/hooks';
+import { useAuthDispatch, useAuthState } from '@redux/auth';
 
 export const LoginForm = () => {
   const navigation = useReactNavigation();
   const { t } = useTranslation();
-  const { setLoginFormData } = useLoginDispatch();
-  const { loginFormData, isSigningUp } = useLoginState();
+  const { loginFormData, isSigningUp } = useAuthState();
+  const { setLoginFormData } = useAuthDispatch();
 
   return (
     <LoginFormContainer>

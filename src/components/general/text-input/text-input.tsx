@@ -90,3 +90,5 @@ export const TextInput = React.forwardRef<RNTextInput, TextInputProps>(
     );
   },
 );
+
+TextInput.displayName = 'TextInput';

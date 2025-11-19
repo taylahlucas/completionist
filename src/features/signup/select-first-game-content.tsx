@@ -4,7 +4,6 @@ import { useTranslation } from 'react-i18next';
 import { GameListItem } from '@components/custom';
 import { KeyboardAvoidingScrollView } from '@components/general/lists';
 import {
-  StandardLayout,
   Button,
   StyledText,
   Condition,

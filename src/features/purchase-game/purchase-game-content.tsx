@@ -1,21 +1,17 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { StripeProvider } from '@stripe/stripe-react-native';
-import { NavigationHeader } from '@navigation/index';
-import { AuthScreenEnum, GameKeyEnum } from '@utils/index';
+import { GameKeyEnum } from '@utils/index';
 import { GameListItem } from '@components/custom';
 import { usePurchaseGame } from './hooks';
 import {
   Spacing,
   Button,
-  StandardLayout,
   StyledText,
   TextInput,
   KeyboardAvoidingScrollView,
 } from '@components/general';
 import { View } from 'react-native';
 import useGetTheme from '@styles/hooks/use-get-theme';
-import config from '@utils/configs/config';
 
 export const PurchaseGameContent = ({ gameId }: { gameId: GameKeyEnum }) => {
   const { t } = useTranslation();

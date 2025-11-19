@@ -22,3 +22,5 @@ export const LoadingAnimation = React.forwardRef<LottieView, LottieViewProps>(
     );
   },
 );
+
+LoadingAnimation.displayName = 'LoadingAnimation';

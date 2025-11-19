@@ -1,14 +1,14 @@
 import { useEffect, useRef } from 'react';
 import { AppState } from 'react-native';
-import { useMainState, useMainDispatch } from '@redux/hooks';
 import { useEditUserData } from '@data/hooks';
-import { useLoginState } from '@features/login/provider';
+import { useAuthDispatch } from '@redux/auth/hooks/use-auth-dispatch';
+import { useAuthState } from '@redux/auth';
 
 export const useInitUserData = () => {
   const appStateRef = useRef(AppState.currentState);
-  const { setAppState } = useMainDispatch();
-  const { user, appState, shouldUpdateUser } = useMainState();
-  const { isLoggedIn } = useLoginState();
+  const { user, appState, shouldUpdateUser } = useAuthState();
+  const { setAppState } = useAuthDispatch();
+  const { isLoggedIn } = useAuthState();
   const { updateUserData } = useEditUserData();
 
   useEffect(() => {

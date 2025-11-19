@@ -1,18 +1,17 @@
-import React from 'react';
+import React, { ReactNode } from 'react';
 
 interface ConditionProps {
   condition: boolean;
-  children: any;
-  conditionalElement?: any;
-};
+  children: ReactNode;
+  conditionalElement?: ReactNode | ReactNode[];
+}
 
-export const Condition = ({ condition = false, children, conditionalElement }: ConditionProps) => {
+export const Condition = ({
+  condition = false,
+  children,
+  conditionalElement,
+}: ConditionProps) => {
   return (
-    <>
-      {condition
-        ? children
-        : !!conditionalElement ? conditionalElement : null
-      }
-    </>
+    <>{condition ? children : conditionalElement ? conditionalElement : null}</>
   );
 };

@@ -5,36 +5,37 @@ import { isPwValid } from '@utils/helpers/index';
 import { UnAuthorizedScreenEnum } from '@utils/index';
 import { checkUserExists } from '@data/index';
 import { useIsRequestLoading } from '@data/api/hooks';
-import { useLoginDispatch, useLoginState } from '../provider';
 import { useSendVerificationEmail } from '../login-form/hooks';
 import { useIsKeyboardVisible } from '@utils/hooks';
 import { useGetNavigationPath } from '@navigation/hooks';
-import { useMainState } from '@redux/hooks';
+
+import { useAuthDispatch, useAuthState } from '@redux/auth';
 
 export const useLogin = () => {
   const { t } = useTranslation();
-  const { user } = useMainState();
-  const { isLoggedIn, isSigningUp, loginFormData } = useLoginState();
-  const { setLoggedIn, setLoginFormData } = useLoginDispatch();
+  const { user, isLoggedIn, isSigningUp, loginFormData } = useAuthState();
+  const { setIsAuthenticated, setLoginFormData } = useAuthDispatch();
   const isRequestLoading = useIsRequestLoading();
   const isKeyboardVisible = useIsKeyboardVisible();
   const sendVerificationEmail = useSendVerificationEmail();
   const [submitPressed, setSubmitPressed] = useState<boolean>(false);
   const getNavigationPath = useGetNavigationPath();
 
-  // TODO: Move this to root stack nav
+  // TODO: Move this to root stack nav ?
   useEffect(() => {
     if (isLoggedIn || isSigningUp) {
-      setLoggedIn(
-        user.signup.verification &&
-          user.signup.selectGame &&
-          user.signup.setUsername,
+      setIsAuthenticated(
+        user
+          ? user.signup.verification &&
+              user.signup.selectGame &&
+              user.signup.setUsername
+          : false,
       );
     }
-    if (!isLoggedIn && user.userId) {
+    if (!isLoggedIn && user) {
       getNavigationPath(user);
     }
-  }, [isLoggedIn, isSigningUp, user.signup]);
+  }, [isLoggedIn, isSigningUp, user]);
 
   const onSubmit = () => {
     setSubmitPressed(true);

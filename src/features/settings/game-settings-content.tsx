@@ -22,6 +22,7 @@ import {
   SettingsGameCollections,
   SettingsSelectLanguage,
 } from './views';
+import { useAuthState } from '@redux/auth';
 
 export const GameSettingsContent = () => {
   const { t } = useTranslation();
@@ -35,7 +36,8 @@ export const GameSettingsContent = () => {
   const { getDLCOptions, setDLCOptions } = useDLCOptions();
   const showHideOptions = useGetShowHideOptions();
 
-  const { user, selectedGameData } = useMainState();
+  const { selectedGameData } = useMainState();
+  const { user } = useAuthState();
   const [selectedLanguage, setSelectedLanguage] = useState<LanguageType>(
     selectedGameData?.lang ?? 'en',
   );
@@ -52,14 +54,14 @@ export const GameSettingsContent = () => {
         }}>
         <SettingsAccountDetails />
 
-        <Condition condition={!!user.steamId}>
+        <Condition condition={!!user?.steamId}>
           <Button
             type="navigation"
             // TODO: Add to translations
             title="Steam Profile"
             style={{ marginTop: 0 }}
             onPress={async (): Promise<void> => {
-              if (user.steamId) {
+              if (user?.steamId) {
                 navigation.navigate(AuthScreenEnum.SteamProfile, {
                   steamId: user.steamId,
                 });
@@ -89,7 +91,7 @@ export const GameSettingsContent = () => {
         <SelectionList
           type="show-hide-sections"
           data={showHideOptions}
-          onPress={(id: string): void => setSettingsOptions(id, user)}
+          onPress={(id: string): void => user && setSettingsOptions(id, user)}
           translationKey="disabledSections"
         />
 
@@ -110,9 +112,12 @@ export const GameSettingsContent = () => {
             }
           }}
           onSetLanguage={(value: string) => {
-            setSelectedLanguage(value as LanguageType);
-            onSetGameLanguage(value, user, selectedGameData);
-            setLanguagesOpen(false);
+            // TODO: Handle now user
+            if (user) {
+              setSelectedLanguage(value as LanguageType);
+              onSetGameLanguage(value, user, selectedGameData);
+              setLanguagesOpen(false);
+            }
           }}
         />
 
@@ -121,7 +126,7 @@ export const GameSettingsContent = () => {
         <Button
           title="Delete Account"
           color={theme.error}
-          onPress={(): void => deleteUserData(user.userId)}
+          onPress={(): void => user && deleteUserData(user.userId)}
         />
       </ScrollableList>
     </>

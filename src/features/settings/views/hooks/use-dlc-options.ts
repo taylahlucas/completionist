@@ -1,8 +1,13 @@
 import { useTranslation } from 'react-i18next';
 import { useMainState } from '@redux/hooks';
-import { GameKeyEnum, SettingsConfigItem, IsActive } from '@utils/index';
-import { useMainDispatch } from '@redux/hooks';
+import {
+  GameKeyEnum,
+  SettingsConfigItem,
+  IsActive,
+  GameData,
+} from '@utils/index';
 import { getCurrentGame } from '@data/helpers';
+import { useAuthDispatch, useAuthState } from '@redux/auth';
 
 interface DLCOptionsReturnType {
   getDLCOptions: () => IsActive[];
@@ -11,14 +16,16 @@ interface DLCOptionsReturnType {
 
 export const useDLCOptions = (): DLCOptionsReturnType => {
   const { t } = useTranslation();
-  const { setUser, setShouldUpdateUser } = useMainDispatch();
-  const { selectedGameSettings, user } = useMainState();
+  const { user } = useAuthState();
+  const { setUser, setShouldUpdateUser } = useAuthDispatch();
+  const { selectedGameSettings } = useMainState();
 
   const updateDLCSettingsConfig = (gameKey: GameKeyEnum, id: string) => {
+    // TODO: Handle no user
+    if (!user) return;
     const currentGame = getCurrentGame(gameKey, user);
-    if (!currentGame) {
-      return;
-    }
+    if (!currentGame) return;
+
     const updatedGame = {
       ...currentGame,
       settingsConfig: {
@@ -48,7 +55,7 @@ export const useDLCOptions = (): DLCOptionsReturnType => {
     setUser({
       ...user,
       gameData: [
-        ...user.gameData?.filter(game => game.id !== currentGame.id),
+        ...user.gameData.filter((game: GameData) => game.id !== currentGame.id),
         updatedGame,
       ],
     });
@@ -56,10 +63,9 @@ export const useDLCOptions = (): DLCOptionsReturnType => {
   };
 
   const getDLCOptions = (): IsActive[] => {
+    if (!user) return [];
     const currentGame = getCurrentGame(selectedGameSettings, user);
-    if (!currentGame) {
-      return [];
-    }
+    if (!currentGame) return [];
     return currentGame.settingsConfig.dlc.map(item => {
       return {
         id: item.id,

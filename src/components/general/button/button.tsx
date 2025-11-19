@@ -1,6 +1,6 @@
 import React from 'react';
 import { ViewStyle } from 'react-native';
-import _ from 'lodash';
+import lodash from 'lodash';
 import { StyledText, Icon } from '../';
 import {
   StyledButtonDefault,
@@ -39,7 +39,7 @@ export const Button = ({
         <StyledButtonText
           testID={testID}
           style={style}
-          onPress={_.debounce(onPress, throttleValue, {
+          onPress={lodash.debounce(onPress, throttleValue, {
             leading: true,
             trailing: false,
           })}
@@ -55,7 +55,7 @@ export const Button = ({
         <StyledButtonNavigation
           testID={testID}
           style={style}
-          onPress={_.debounce(onPress, throttleValue, {
+          onPress={lodash.debounce(onPress, throttleValue, {
             leading: true,
             trailing: false,
           })}
@@ -75,11 +75,11 @@ export const Button = ({
           <StyledButtonDefault
             testID={testID}
             style={style}
-            onPress={_.debounce(onPress, throttleValue, {
+            onPress={lodash.debounce(onPress, throttleValue, {
               leading: true,
               trailing: false,
             })}
-            color={!!color ? color : theme.primaryPurple}
+            color={color ? color : theme.primaryPurple}
             disabled={disabled}>
             <StyledText type="Heading" color={theme.lightestGrey}>
               {title}
@@ -96,7 +96,7 @@ export const Button = ({
             leading: true,
             trailing: false,
           })}
-          color={!!color ? color : theme.primaryPurple}
+          color={color ? color : theme.primaryPurple}
           disabled={disabled}>
           <StyledText type="Heading" color={theme.lightestGrey}>
             {title}

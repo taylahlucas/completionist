@@ -3,15 +3,14 @@ import { useTranslation } from 'react-i18next';
 import { forgotPw } from '@data/index';
 import { useReactNavigation } from '@navigation/hooks';
 import { UnAuthorizedScreenEnum } from '@utils/index';
-import { useLoginState, useLoginDispatch } from '@features/login';
-import { initialFormData } from '@redux/index';
+import { initialFormData, useAuthDispatch, useAuthState } from '@redux/auth';
 
 export const useVerifyNewPassword = () => {
   const navigation = useReactNavigation();
   const { t } = useTranslation();
-  // TODO: Replace this with local state?
-  const { loginFormData, verificationToken } = useLoginState();
-  const { setLoginFormData } = useLoginDispatch();
+  // TODO: Replace loginFormData with local state?
+  const { loginFormData, verificationToken } = useAuthState();
+  const { setLoginFormData } = useAuthDispatch();
 
   const forgotPassword = () => {
     if (loginFormData.pw) {

@@ -13,7 +13,7 @@ import { DrawerScreenEnum } from '@utils/index';
 import { Dropdown } from '@components/general/dropdown';
 import { useReactNavigation } from '@navigation/hooks';
 import { useAchievements } from './hooks';
-import { LARGE_PADDING, MID_PADDING, SMALL_PADDING } from '@styles/global';
+import { LARGE_PADDING, SMALL_PADDING } from '@styles/global';
 import {
   SteamAchievementDropdownTitle,
   SteamAchievementView,

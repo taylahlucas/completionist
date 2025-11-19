@@ -1,11 +1,11 @@
-import React from 'react';
+import React, { ReactNode } from 'react';
 import useGetTheme from '@styles/hooks/use-get-theme';
 import { StandardLayoutContainer } from './layout-styled-components';
 import { Loading } from '@components/general';
 
 interface StandardLayoutProps {
   testID?: string;
-  children: any;
+  children: ReactNode;
   isLoading?: boolean;
 }
 

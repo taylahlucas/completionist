@@ -20,7 +20,7 @@ import {
 
 export const useGetLeftNavigationItem = (
   leftAction: NavigationHeaderLeftActionTypes,
-  hasDrawer: boolean = false,
+  hasDrawer = false,
   isForm: boolean,
 ): React.JSX.Element => {
   const { t } = useTranslation();

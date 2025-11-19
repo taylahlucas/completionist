@@ -12,8 +12,7 @@ import {
   updateUser,
   useVerifyUser,
 } from '@data/index';
-import { useMainState, useMainDispatch } from '@redux/hooks';
-import { useLoginDispatch } from '../../provider';
+import { useMainDispatch } from '@redux/hooks';
 import { log } from '@utils/helpers/index';
 import { useSendVerificationEmail } from './';
 import {
@@ -23,6 +22,7 @@ import {
   requestCodes,
 } from '@utils/index';
 import { resetStore } from '@redux/index';
+import { useAuthDispatch, useAuthState } from '@redux/auth';
 
 interface GoogleError {
   code: number;
@@ -37,11 +37,11 @@ interface GetLoginMethodsReturnType {
 
 export const useGetLoginMethods = (): GetLoginMethodsReturnType => {
   const { t } = useTranslation();
-  const { user, shouldUpdateUser } = useMainState();
   const { setSelectedGameDataSettings, setShowSplashScreen } =
     useMainDispatch();
-  const { setLoggedIn, triggerIsSigningUp, setIsGoogleSignIn } =
-    useLoginDispatch();
+  const { user, shouldUpdateUser } = useAuthState();
+  const { setIsAuthenticated, triggerIsSigningUp, setIsGoogleSignIn } =
+    useAuthDispatch();
   const { saveUser } = useEditUserData();
   const sendVerification = useSendVerificationEmail();
   const handleUserVerification = useVerifyUser();
@@ -49,13 +49,13 @@ export const useGetLoginMethods = (): GetLoginMethodsReturnType => {
   const userSignIn = async ({ email, pw, googleId }: SignInProps) => {
     await signIn({ email, pw, googleId })
       .then(userResponse => {
-        if (!!userResponse) {
+        if (userResponse) {
           handleUserVerification(userResponse);
         }
       })
       .catch(error => {
         if (error?.response?.status === requestCodes.WRONG_PASSWORD) {
-          const currentAttempts = user.account.pwAttempts;
+          const currentAttempts = user?.account.pwAttempts ?? 0;
           // TODO: Move this to BE & add to translations
           if (currentAttempts > maxPwAttempts) {
             Alert.alert(
@@ -85,9 +85,9 @@ export const useGetLoginMethods = (): GetLoginMethodsReturnType => {
               email: email,
               googleId: googleId,
             }).then(userResponse => {
-              if (!!userResponse) {
+              if (userResponse) {
                 saveUser(userResponse);
-                setLoggedIn(true);
+                setIsAuthenticated(true);
                 if (userResponse.gameData) {
                   setSelectedGameDataSettings(userResponse.gameData[0]?.id);
                 }
@@ -168,7 +168,7 @@ export const useGetLoginMethods = (): GetLoginMethodsReturnType => {
               },
               lang: getUserLang(),
             }).then(response => {
-              if (!!response) {
+              if (response) {
                 saveUser(response);
                 setShowSplashScreen(false);
                 triggerIsSigningUp(true);
@@ -198,20 +198,20 @@ export const useGetLoginMethods = (): GetLoginMethodsReturnType => {
 
   const signOut = async () => {
     try {
-      if (shouldUpdateUser) {
+      if (shouldUpdateUser && user) {
         updateUser(user).then(resetStore);
       } else {
         resetStore();
       }
       await GoogleSignin.revokeAccess();
       await GoogleSignin.signOut();
-    } catch (error: GoogleError | any) {
+    } catch (error: GoogleError | unknown) {
       log({
         type: 'error',
         title: 'Google Sign Out',
         data: {
-          code: error.code,
-          message: error.message,
+          code: (error as GoogleError)?.code,
+          message: (error as GoogleError)?.message,
         },
       });
     }

@@ -1,13 +1,11 @@
 import { signUp, linkAndSignIn } from '@data/index';
 import { useIsRequestLoading } from '@data/api/hooks';
 import { useEditUserData } from '@data/hooks/index';
-import { useMainState } from '@redux/hooks';
-import { useLoginDispatch, useLoginState } from '@features/login/provider';
+import { useAuthDispatch, useAuthState } from '@redux/auth';
 
 export const useVerifyAccount = () => {
-  const { user } = useMainState();
-  const { loginFormData, verificationToken } = useLoginState();
-  const { setVerificationToken, setLoggedIn } = useLoginDispatch();
+  const { loginFormData, verificationToken } = useAuthState();
+  const { setVerificationToken, setIsAuthenticated } = useAuthDispatch();
   const isRequestLoading = useIsRequestLoading();
   const { saveUser } = useEditUserData();
 
@@ -23,7 +21,7 @@ export const useVerifyAccount = () => {
       linkAndSignIn,
       saveUser,
       setVerificationToken,
-      setLoggedIn,
+      setIsAuthenticated,
     },
   };
 };

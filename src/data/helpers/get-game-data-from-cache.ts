@@ -1,9 +1,4 @@
-import {
-  GameContentItem,
-  ContentSectionEnum,
-  GameKeyEnum,
-  LanguageType,
-} from '@utils/index';
+import { GameContentItem, GameKeyEnum, LanguageType } from '@utils/index';
 import {
   fetchGameDataFromCache,
   getAllKeys,

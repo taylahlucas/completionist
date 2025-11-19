@@ -11,7 +11,7 @@ import { MainState } from '@redux/main-state';
 import { SettingsState } from '@features/settings/provider';
 import { ContentState } from '@features/game-content/provider';
 import { LanguageType, ScreenEnumType } from './custom-types';
-import { LoginState } from '@features/login';
+import { AuthState } from '@redux/auth';
 
 export interface ContentItem {
   id: string;
@@ -103,8 +103,8 @@ export interface Base {
 }
 
 export interface StoreState {
+  auth: AuthState;
   main: MainState;
-  login: LoginState;
   settings: SettingsState;
   content: ContentState;
 }

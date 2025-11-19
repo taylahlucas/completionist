@@ -8,13 +8,11 @@ import { useTranslation } from 'react-i18next';
 import {
   Button,
   Condition,
-  IconButton,
   Loading,
   SheetContentLayout,
   Spacing,
   StyledText,
 } from '@components/general';
-import { IconTypeEnum } from '@utils/custom-enums';
 import { DEFAULT_BORDER_RADIUS } from '@styles/global';
 import { Sheet } from '@navigation/index';
 import { useAchievements } from '../features/achievements/hooks';
@@ -135,6 +133,7 @@ export const SteamProfileSheet = (params: any) => {
   );
 };
 
+// TODO: Convert to styled component
 const styles = StyleSheet.create({
   imageContainer: {
     width: 100,
@@ -152,3 +151,5 @@ const styles = StyleSheet.create({
     right: 16,
   },
 });
+
+Sheet.displayName = 'Sheet';

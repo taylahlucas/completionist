@@ -6,25 +6,20 @@ import { useTranslation } from 'react-i18next';
 
 interface CustomListProps extends ScrollViewProps {
   children: React.JSX.Element[];
-  style?: any;
+  style?: ViewStyle;
   contentContainerStyle?: ViewStyle;
-  alignItems?: boolean;
   isHorizontal?: boolean;
   renderAmount?: number;
-  shouldAutoScroll?: boolean;
 }
 
 export const ScrollableList = React.forwardRef<ScrollView, CustomListProps>(
   (
     {
-      testID,
       children,
       style,
       contentContainerStyle,
-      alignItems = false,
       isHorizontal = false,
       renderAmount = renderAmountConst,
-      shouldAutoScroll = false,
       ...props
     }: CustomListProps,
     ref,
@@ -67,3 +62,5 @@ export const ScrollableList = React.forwardRef<ScrollView, CustomListProps>(
     );
   },
 );
+
+ScrollableList.displayName = 'ScrollableList';

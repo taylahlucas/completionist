@@ -3,6 +3,9 @@ const path = require('path');
 module.exports = {
   presets: ['module:@react-native/babel-preset'],
   sourceMaps: true,
+  env: {
+    node: true,
+  },
   plugins: [
     'react-native-reanimated/plugin',
     ['@babel/plugin-transform-private-methods', { loose: true }],

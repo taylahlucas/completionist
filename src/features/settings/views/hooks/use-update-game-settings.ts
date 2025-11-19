@@ -27,7 +27,7 @@ export const useUpdateGameSettings = () => {
     return {
       ...user,
       gameData: [
-        ...user.gameData?.filter(game => game.id !== currentGame.id),
+        ...user.gameData.filter(game => game.id !== currentGame.id),
         updatedGame,
       ],
     };

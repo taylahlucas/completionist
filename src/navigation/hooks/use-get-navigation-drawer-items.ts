@@ -39,7 +39,7 @@ export const useGetNavigationDrawerItems = (): NavigationDrawerItemData[] => {
   );
   const { shouldHideDisabledSections } = useGetSettingsConfig();
 
-  let drawerItems = [];
+  const drawerItems = [];
   const questsEnabled = checkIsSectionEnabled(ContentSectionEnum.QUESTS);
   if (questData.length > 0) {
     drawerItems.push({

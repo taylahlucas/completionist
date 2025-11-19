@@ -1,8 +1,8 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import { View } from 'react-native';
 
 interface OverlayProps {
-  children: any;
+  children: React.JSX.Element;
 }
 
 export const Overlay = ({ children }: OverlayProps) => {

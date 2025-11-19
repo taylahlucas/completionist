@@ -6,8 +6,7 @@ import {
   ScrollableList,
   Spacing,
 } from '@components/general';
-import { useMainDispatch, useMainState } from '@redux/hooks';
-import { updateUser, useEditUserData } from '@data/index';
+import { useEditUserData } from '@data/index';
 import useGetTheme from '@styles/hooks/use-get-theme';
 import { handleScroll } from '@utils/helpers/index';
 import { useTranslation } from 'react-i18next';
@@ -20,19 +19,17 @@ import {
   SettingsSelectLanguage,
 } from './views';
 import { languages } from '@utils/index';
+import { useAuthState } from '@redux/auth';
 
 export const GlobalSettingsContent = () => {
   const { t, i18n } = useTranslation();
   const theme = useGetTheme();
   const navigation = useReactNavigation();
-
   const { updateUserData } = useEditUserData();
   const scrollViewRef = useRef<ScrollView>(null);
   const languageViewRef = useRef<RNText>(null);
-
   const [isLanguagesOpen, setIsLanguagesOpen] = useState<boolean>(false);
-
-  const { user } = useMainState();
+  const { user } = useAuthState();
   const { deleteUserData } = useEditUserData();
 
   return (
@@ -42,14 +39,14 @@ export const GlobalSettingsContent = () => {
         paddingBottom: isLanguagesOpen ? 200 : 100,
       }}>
       <SettingsAccountDetails />
-      <Condition condition={!!user.steamId}>
+      <Condition condition={!!user?.steamId}>
         <Button
           type="navigation"
           // TODO: Add to translations
           title="Steam Profile"
           style={{ marginTop: 0 }}
           onPress={async (): Promise<void> => {
-            if (user.steamId) {
+            if (user?.steamId) {
               navigation.navigate(AuthScreenEnum.SteamProfile, {
                 steamId: user.steamId,
               });
@@ -64,7 +61,7 @@ export const GlobalSettingsContent = () => {
       </SettingsDescription>
       <SettingsSelectLanguage
         languages={languages}
-        selectedLanguage={user.settings.lang}
+        selectedLanguage={user?.settings.lang ?? 'en'}
         isOpen={isLanguagesOpen}
         setOpen={(value: boolean) => {
           setIsLanguagesOpen(value);
@@ -75,15 +72,18 @@ export const GlobalSettingsContent = () => {
           }
         }}
         onSetLanguage={(value: string): void => {
-          i18n.changeLanguage(value);
-          updateUserData({
-            ...user,
-            settings: {
-              ...user.settings,
-              lang: value as LanguageType,
-            },
-          });
-          setIsLanguagesOpen(false);
+          // TODO: Handle no user
+          if (user) {
+            i18n.changeLanguage(value);
+            updateUserData({
+              ...user,
+              settings: {
+                ...user.settings,
+                lang: value as LanguageType,
+              },
+            });
+            setIsLanguagesOpen(false);
+          }
         }}
       />
 

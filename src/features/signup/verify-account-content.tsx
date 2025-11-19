@@ -1,8 +1,5 @@
 import React from 'react';
-import { useTranslation } from 'react-i18next';
-import { StandardLayout } from '@components/general';
-import { NavigationHeader } from '@navigation/index';
-import { UnAuthorizedScreenEnum, UserResponse } from '@utils/index';
+import { UserResponse } from '@utils/index';
 import { getUserLang } from '@utils/helpers';
 import { useVerifyAccount } from './hooks';
 import { VerificationContent } from './views/verification-content';

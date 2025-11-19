@@ -2,11 +2,9 @@ import React from 'react';
 import { View } from 'react-native';
 
 interface SpacingProps {
-	height?: number;
-};
+  height?: number;
+}
 
 export const Spacing = ({ height = 16 }: SpacingProps) => {
-	return (
-		<View style={{ height: height }} />
-	);
+  return <View style={{ height: height }} />;
 };

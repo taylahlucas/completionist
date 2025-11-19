@@ -8,7 +8,7 @@ export const capitalize = (str: string) => {
 };
 
 export const getFormattedSearchString = (value: string) => {
-  return value.toLocaleLowerCase().replace(/[&\/\\#,+()$~%.'":*?<>{}]/g, '');
+  return value.toLocaleLowerCase().replace(/[&/\\#,+()$~%.'":*?<>{}]/g, '');
 };
 
 export const getLocationString = ({ hold = '', location = '' }): string => {

@@ -13,16 +13,10 @@ export const useIsRequestLoading = (): boolean => {
     });
 
     // Axios response interceptor to clear loading state on response
-    const responseInterceptor = axios.interceptors.response.use(
-      response => {
-        setIsLoading(false);
-        return response;
-      },
-      _ => {
-        setIsLoading(false);
-        return;
-      },
-    );
+    const responseInterceptor = axios.interceptors.response.use(response => {
+      setIsLoading(false);
+      return response;
+    });
 
     // Cleanup function to remove interceptors when component unmounts
     return () => {

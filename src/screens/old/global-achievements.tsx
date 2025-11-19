@@ -1,24 +1,15 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import {
-  Dropdown,
-  ScrollableList,
-  StandardLayout,
-  Button,
-  StyledText,
-  TextWithBackground,
-} from '@components/general';
+import { Dropdown, ScrollableList, StandardLayout } from '@components/general';
 import { NavigationHeader } from '@navigation/index';
 import { AuthScreenEnum } from '@utils/index';
-
-import { useReactNavigation } from '@navigation/hooks';
 import { useGlobalAchievements } from '@features/achievements/hooks';
 import { SteamAchievementDropdownTitle } from '@features/steam-profile/views';
 import { ProgressViewDropdown } from '@features/achievements/views';
 
 export const GlobalAchievements = () => {
   const { t } = useTranslation();
-  const navigation = useReactNavigation();
+  // const navigation = useReactNavigation();
   const { viewModel, actions } = useGlobalAchievements();
 
   return (

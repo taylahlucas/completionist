@@ -17,7 +17,7 @@ export const useUpdateContent = (
     completedContent: Item[],
     itemToUpdate?: Item,
   ) => {
-    if (!!itemToUpdate) {
+    if (itemToUpdate) {
       const updatedObject = {
         id: itemToUpdate?.id,
         isComplete: !itemToUpdate?.isComplete,

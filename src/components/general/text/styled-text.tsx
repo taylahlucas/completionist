@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text, TextProps } from 'react-native';
+import { Text, TextProps, ViewStyle } from 'react-native';
 import { FontType, AlignmentType } from '@styles/Font/FontType';
 import defaultStyle from '@styles/Font/FontStyle';
 import useGetTheme from '@styles/hooks/use-get-theme';
@@ -8,7 +8,7 @@ interface StyledTextProps extends TextProps {
   children: React.ReactNode;
   type?: FontType;
   color?: string;
-  style?: any;
+  style?: ViewStyle;
   align?: AlignmentType;
 }
 
@@ -44,3 +44,5 @@ export const StyledText = React.forwardRef<Text, StyledTextProps>(
     );
   },
 );
+
+StyledText.displayName = 'StyledText';

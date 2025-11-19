@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { ViewStyle } from 'react-native';
 import { useTranslation } from 'react-i18next';
 import { Dropdown, CheckBox } from '@components/general';
-import { GameKeyEnum, IsActive } from '@utils/index';
+import { IsActive } from '@utils/index';
 import {
   settingsStyles,
   SettingsSubItemContainer,
@@ -20,6 +20,7 @@ import {
   useTranslateGameContent,
   useGetUserGameData,
 } from '@data/hooks';
+import { useAuthState } from '@redux/auth';
 
 interface SettingsItemDropdownProps {
   item: IsActive;
@@ -32,7 +33,8 @@ export const SettingsItemDropdown = ({
 }: SettingsItemDropdownProps) => {
   const { t } = useTranslation();
   const theme = useGetTheme();
-  const { user, selectedGameData } = useMainState();
+  const { selectedGameData } = useMainState();
+  const { user } = useAuthState();
   const { saveUser } = useEditUserData();
   const { setSelectedCategory } = useSettingsDispatch();
   const { selectedCategory } = useSettingsState();

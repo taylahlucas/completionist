@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { StandardLayout, CustomSearchBar } from '@components/general';
+import { StandardLayout } from '@components/general';
 import { NavigationHeader } from '@navigation/index';
 import { ContentSectionEnum, DrawerScreenEnum } from '@utils/index';
 import { GameContent } from '@features/game-content/game-content';

@@ -9,13 +9,13 @@ import {
   AuthStackNavigator,
   UnAuthorizedStackNavigator,
 } from '@navigation/index';
-import { useLoginState } from '@features/login';
+import { useAuthState } from '@redux/auth';
 
 export const RootStackNavigator = () => {
   const { showSplashScreen } = useMainState();
   const { setShowSplashScreen } = useMainDispatch();
   // TODO: Move to main state?
-  const { isLoggedIn } = useLoginState();
+  const { isLoggedIn } = useAuthState();
   useTimedDataUpdate();
 
   useEffect(() => {

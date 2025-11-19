@@ -6,7 +6,7 @@ export const userWithUpdatedGameLanguage = (
   user: User,
   selectedGameData: GameData,
 ): User => {
-  let gameData = Object.entries(user.gameData).find(
+  const gameData = Object.entries(user.gameData).find(
     item => item[1].id === selectedGameData.id,
   );
   if (!gameData) return user;

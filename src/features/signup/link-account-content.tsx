@@ -20,7 +20,7 @@ export const LinkAccountContent = () => {
           .then((userResponse: UserResponse) => {
             if (userResponse) {
               actions.saveUser(userResponse);
-              actions.setLoggedIn(true);
+              actions.setIsAuthenticated(true);
               actions.setVerificationToken(undefined);
             }
             // TODO: Log user not found -- issue with linkAndSignIn

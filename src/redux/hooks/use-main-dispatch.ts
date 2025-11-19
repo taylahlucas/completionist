@@ -1,20 +1,10 @@
 import { Dispatch } from 'redux';
-import {
-  GameKeyEnum,
-  GameData,
-  Item,
-  User,
-  ScreenEnumType,
-} from '@utils/index';
+import { GameKeyEnum, GameData, Item } from '@utils/index';
 import {
   setShowSplashScreen,
-  setAppState,
-  setCurrentScreen,
   setSelectedGameData,
   setSelectedGameDataSettings,
   setWebSignInConfigured,
-  setUser,
-  setShouldUpdateUser,
   setSearchValue,
   setCompletedQuests,
   setCompletedCollectables,
@@ -26,13 +16,9 @@ import { useAppDispatch } from '../store';
 // TODO: Change from value to more descriptive value
 interface MainDispatch {
   setShowSplashScreen: (value: boolean) => void;
-  setAppState: (value: string) => void;
-  setCurrentScreen: (value: ScreenEnumType) => void;
   setSelectedGameData: (value?: GameData) => void;
   setSelectedGameDataSettings: (value: GameKeyEnum) => void;
   setWebSignInConfigured: (value: boolean) => void;
-  setUser: (value: User) => void;
-  setShouldUpdateUser: (value: boolean) => void;
   setSearchValue: (value: string) => void;
   setCompletedQuests: (value: Item[]) => void;
   setCompletedCollectables: (value: Item[]) => void;
@@ -47,12 +33,6 @@ export const useMainDispatch = (): MainDispatch => {
     setShowSplashScreen(value: boolean): void {
       dispatch(setShowSplashScreen(value));
     },
-    setAppState(value: string): void {
-      dispatch(setAppState(value));
-    },
-    setCurrentScreen(value: ScreenEnumType): void {
-      dispatch(setCurrentScreen(value));
-    },
     setSelectedGameData(value?: GameData): void {
       dispatch(setSelectedGameData(value));
     },
@@ -61,12 +41,6 @@ export const useMainDispatch = (): MainDispatch => {
     },
     setWebSignInConfigured(value: boolean): void {
       dispatch(setWebSignInConfigured(value));
-    },
-    setUser(value: User): void {
-      dispatch(setUser(value));
-    },
-    setShouldUpdateUser(value: boolean): void {
-      dispatch(setShouldUpdateUser(value));
     },
     setSearchValue(value: string): void {
       dispatch(setSearchValue(value));

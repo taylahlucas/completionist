@@ -15,7 +15,7 @@ export const SelectFirstGame = () => {
       <NavigationHeader
         id={UnAuthorizedScreenEnum.SelectFirstGame}
         title={t('common:screens.selectGame')}
-        // TODO: viewModel.isGoogleSignIn
+        // TODO: TODO: Fix viewModel.isGoogleSignIn
         leftAction={true ? 'back' : 'none'}
       />
       <SelectFirstGameContent />

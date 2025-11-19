@@ -36,8 +36,8 @@ export const useGetContent = (
   };
 
   const getContentForSubCategory = (
-    mainCategory: string = '',
-    subCategory: string = '',
+    mainCategory = '',
+    subCategory = '',
   ): GameContentItem[] => {
     return items.filter(
       item =>
@@ -47,7 +47,7 @@ export const useGetContent = (
 
   const getContentForSubCategoryType = (
     subCategory: string,
-    subCategoryType: string = '',
+    subCategoryType = '',
   ): GameContentItem[] => {
     return items.filter(
       item =>
