@@ -4,7 +4,6 @@ import {
   presentPaymentSheet,
 } from '@stripe/stripe-react-native';
 import { useActivateGame, useTranslateGameContent } from '@data/hooks';
-import { useMainState } from '@redux/hooks';
 import { allGameData } from '@utils/configs/game-configs';
 import {
   createPayment,
@@ -16,6 +15,7 @@ import { Alert } from 'react-native';
 import { GameKeyEnum, GameContentState, GameData } from '@utils/index';
 import { useReactNavigation } from '@navigation/hooks';
 import { useTranslation } from 'react-i18next';
+import { useAuthState } from '@redux/auth';
 
 interface UsePurchaseGameReturnType {
   viewModel: {
@@ -65,7 +65,7 @@ export const usePurchaseGame = (
   }, []);
 
   const { activateGame } = useActivateGame();
-  const { user } = useMainState();
+  const { user } = useAuthState();
   const initialPointsAvailable = 2000;
   const [pointsAvailable, setPointsAvailable] = useState(
     initialPointsAvailable,

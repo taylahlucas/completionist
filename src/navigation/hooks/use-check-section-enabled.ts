@@ -1,7 +1,9 @@
+import { useAuthState } from '@redux/auth';
 import { useMainState } from '@redux/hooks';
 
 export const useCheckSectionEnabled = () => {
-  const { user, selectedGameSettings } = useMainState();
+  const { selectedGameSettings } = useMainState();
+  const { user } = useAuthState();
 
   const checkIsSectionEnabled = (section: string): boolean => {
     const selectedGame = user.gameData?.find(

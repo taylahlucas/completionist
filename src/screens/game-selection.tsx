@@ -2,14 +2,14 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { StandardLayout } from '@components/general';
 import { NavigationHeader } from '@navigation/index';
-import { useMainState } from '@redux/hooks';
 import { AuthScreenEnum } from '@utils/index';
 import { useReactNavigation } from '@navigation/hooks';
 import { GameSelectionContent } from '@features/game-selection';
+import { useAuthState } from '@redux/auth';
 
 export const GameSelection = () => {
   const { t } = useTranslation();
-  const { user } = useMainState();
+  const { user } = useAuthState();
   const navigation = useReactNavigation();
 
   return (

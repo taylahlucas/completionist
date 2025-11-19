@@ -16,10 +16,12 @@ import {
 
 import { useMainState, useMainDispatch } from '@redux/hooks';
 import { useFilterGameList } from '@utils/hooks';
+import { useAuthState } from '@redux/auth';
 
 export const SettingsGameCollections = () => {
   const { t } = useTranslation();
-  const { user, selectedGameSettings } = useMainState();
+  const { selectedGameSettings } = useMainState();
+  const { user } = useAuthState();
   const { setSelectedGameDataSettings } = useMainDispatch();
   const { userSettingsMainConfig } = useGetUserGameData();
   const { translateGameName } = useTranslateGameContent();

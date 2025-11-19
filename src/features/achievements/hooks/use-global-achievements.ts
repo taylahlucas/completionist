@@ -1,10 +1,10 @@
 import { useGetGameProgressData } from '@data/hooks';
-import { useMainState } from '@redux/hooks';
+import { useAuthState } from '@redux/auth';
 import { GlobalSteamAchievementsState } from '@utils/index';
 import { useState } from 'react';
 
 export const useGlobalAchievements = () => {
-  const { user } = useMainState();
+  const { user } = useAuthState();
   const activeGames = user.gameData;
   const { getGameProgress } = useGetGameProgressData();
   const [progressViewOpen, setProgressViewOpen] = useState<boolean>(true);

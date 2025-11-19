@@ -13,17 +13,18 @@ import {
 } from './hooks';
 import { AuthScreenEnum } from '@utils/index';
 import useGetTheme from '@styles/hooks/use-get-theme';
-import { useMainState, useMainDispatch } from '@redux/hooks';
+import { useMainDispatch } from '@redux/hooks';
 import { NavigationDrawerItem } from './';
 import { useTranslation } from 'react-i18next';
 import { useGetLoginMethods } from '@features/login/login-form/hooks';
+import { useAuthState } from '@redux/auth';
 
 export const NavigationDrawerBody: React.FunctionComponent = () => {
   const { t, i18n } = useTranslation();
   const navigation = useReactNavigation();
   const theme = useGetTheme();
   const { setSelectedGameData } = useMainDispatch();
-  const { user, currentScreen } = useMainState();
+  const { user, currentScreen } = useAuthState();
   const drawerItems = useGetNavigationDrawerItems();
   const footerItems = useGetNavigationFooterDrawerItems();
   const { signOut } = useGetLoginMethods();

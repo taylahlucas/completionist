@@ -7,12 +7,12 @@ import {
   Spacing,
   KeyboardAvoidingScrollView,
 } from '@components/general';
-import { useMainState } from '@redux/hooks';
 import { useEditUserData } from '@data/hooks';
+import { useAuthState } from '@redux/auth';
 
 export const SetUsernameContent = () => {
   const { t } = useTranslation();
-  const { user } = useMainState();
+  const { user } = useAuthState();
   const [username, setUsername] = useState<string>('');
   const { updateUserData } = useEditUserData();
 
