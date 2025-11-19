@@ -27,7 +27,7 @@ export interface MainState {
 }
 
 export const initialState: MainState = {
-  showSplashScreen: true,
+  showSplashScreen: false,
   shouldUpdateUser: false,
   webSignInConfigured: false,
   selectedGameSettings: GameKeyEnum.SKYRIM,

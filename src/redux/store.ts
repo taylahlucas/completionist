@@ -11,18 +11,19 @@ const persistConfig = {
 };
 
 const persistedReducer = persistReducer(persistConfig, rootReducer);
+const ignoredActions = [
+  'persist/PERSIST',
+  'persist/REHYDRATE',
+  'persist/PURGE',
+  'content/setGameContent',
+];
 
 const store = configureStore({
   reducer: persistedReducer,
   middleware: getDefaultMiddleware =>
     getDefaultMiddleware({
       serializableCheck: {
-        ignoredActions: [
-          'persist/PERSIST',
-          'persist/REHYDRATE',
-          'persist/PURGE',
-          'content/setGameContent',
-        ],
+        ignoredActions,
       },
     }),
 });
@@ -33,12 +34,7 @@ export function setupStore(preloadedState?: Partial<RootState>) {
     middleware: getDefaultMiddleware =>
       getDefaultMiddleware({
         serializableCheck: {
-          ignoredActions: [
-            'persist/PERSIST',
-            'persist/REHYDRATE',
-            'persist/PURGE',
-            'content/setGameContent',
-          ],
+          ignoredActions,
         },
       }),
     ...preloadedState,

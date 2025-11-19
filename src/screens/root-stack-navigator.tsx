@@ -19,6 +19,8 @@ export const RootStackNavigator = () => {
   useTimedDataUpdate();
 
   useEffect(() => {
+    setShowSplashScreen(true);
+
     const timerId = setTimeout(() => {
       setShowSplashScreen(false);
     }, 1500);
