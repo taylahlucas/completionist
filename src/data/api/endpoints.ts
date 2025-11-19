@@ -24,12 +24,12 @@ import {
 } from '@data/api/urls';
 import {
   requestCodes,
-  AxiosErrorResponse,
   UserResponse,
   GameContentItem,
   SteamAchievementItem,
   SteamProfile,
   User,
+  AxiosErrorResponse,
 } from '@utils/index';
 
 export const getUserByUserId = async ({
@@ -89,7 +89,7 @@ export const getSteamUserById = async (
   await authInterceptor
     .get(`${baseUrl}/${steamProfileUrl}?steamId=${steamId}`)
     .then(response => {
-      if (!!response?.data) {
+      if (response?.data) {
         return response?.data?.profile as SteamProfile;
       } else {
         Alert.alert(i18next.t('common:errors.noSteamId'));
@@ -113,7 +113,10 @@ export const getSteamPlayerAchievements = async ({
       };
     }
   } catch (error: AxiosErrorResponse) {
-    if (error?.response?.status !== requestCodes.UNAUTHORIZED) {
+    if (
+      (error as AxiosErrorResponse)?.response?.status !==
+      requestCodes.UNAUTHORIZED
+    ) {
       Alert.alert(
         i18next.t('common:errors.error'),
         i18next.t('common:errors.steamAchievements'),
@@ -126,7 +129,8 @@ export const createPayment = async ({
   userId,
   amount,
   game,
-}: CreatePaymentProps): Promise<any> =>
+}: // eslint-disable-next-line @typescript-eslint/no-explicit-any
+CreatePaymentProps): Promise<any> =>
   await authInterceptor
     .post(`${baseUrl}/${createPaymentUrl}/${userId}`, {
       amount,

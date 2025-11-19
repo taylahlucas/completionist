@@ -119,6 +119,7 @@ export type NavigatorParams = {
 
 export type UserResponse = User | void;
 export type StringResponse = string | void;
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export type AxiosErrorResponse = AxiosError | any;
 
 // Utils

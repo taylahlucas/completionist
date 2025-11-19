@@ -9,6 +9,7 @@ import { useIsRequestLoading } from '@data/api/hooks';
 export const SelectFirstGame = () => {
   const { t } = useTranslation();
   const isRequestLoading = useIsRequestLoading();
+  const isGoogleSignIn = true;
 
   return (
     <StandardLayout isLoading={isRequestLoading}>
@@ -16,7 +17,7 @@ export const SelectFirstGame = () => {
         id={UnAuthorizedScreenEnum.SelectFirstGame}
         title={t('common:screens.selectGame')}
         // TODO: TODO: Fix viewModel.isGoogleSignIn
-        leftAction={true ? 'back' : 'none'}
+        leftAction={isGoogleSignIn ? 'back' : 'none'}
       />
       <SelectFirstGameContent />
     </StandardLayout>

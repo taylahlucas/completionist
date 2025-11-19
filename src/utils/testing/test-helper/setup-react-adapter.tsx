@@ -5,11 +5,6 @@ import { Image, NativeModules as RNNativeModules } from 'react-native';
 import * as reactNativeLocalizeMock from './react-native-localize-mock';
 import common from '../../../../translations/en/common.json';
 
-interface TransProps {
-  i18nKey: string;
-  components: any[];
-}
-
 RNNativeModules.CameraView = {
   getConstants: jest.fn(),
 };
@@ -21,7 +16,7 @@ jest.mock('react-i18next', () => {
   const t = (key: string): string => {
     const keys = key.replace('common:', '').split('.');
 
-    let translations: any = common;
+    const translations: any = common;
     let translation;
     for (const k of keys) {
       translation = translations?.[k];
@@ -77,6 +72,7 @@ jest.mock('@react-navigation/native', () => {
 });
 jest.mock('react-native-localize', () => reactNativeLocalizeMock);
 jest.mock('react-native-webview', () => {
+  // eslint-disable-next-line @typescript-eslint/no-var-requires
   const { View } = require('react-native');
   return {
     WebView: (props: any) => <View {...props} />,

@@ -61,3 +61,5 @@ export const Sheet = forwardRef<BottomSheet, SheetProps>(
     );
   },
 );
+
+Sheet.displayName = 'Sheet';

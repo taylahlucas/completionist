@@ -13,12 +13,16 @@ if (fs.existsSync(resourcesFile)) {
 
 const files = globSync(localesPattern);
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 const data: any = {};
 files.forEach(file => {
   const filenameArr = file.split('/');
   const locale = filenameArr[filenameArr.length - 2];
   const namespace = last<string>(filenameArr)?.split('.json')[0] ?? '';
-  data[locale] = { ...data[locale], [namespace]: JSON.parse(fs.readFileSync(file, 'utf8')) };
+  data[locale] = {
+    ...data[locale],
+    [namespace]: JSON.parse(fs.readFileSync(file, 'utf8')),
+  };
 });
 
 if (!fs.existsSync(resourcesDir)) {

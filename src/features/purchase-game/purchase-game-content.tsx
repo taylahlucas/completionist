@@ -26,6 +26,7 @@ export const PurchaseGameContent = ({ gameId }: { gameId: GameKeyEnum }) => {
       <GameListItem
         game={viewModel.selectedGameData}
         enabled={true}
+        // eslint-disable-next-line @typescript-eslint/no-empty-function
         onPress={(): void => {}}
       />
       <View style={{ width: 300, alignItems: 'flex-start', padding: 16 }}>

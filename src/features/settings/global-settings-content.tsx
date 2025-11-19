@@ -91,7 +91,7 @@ export const GlobalSettingsContent = () => {
       <Button
         title="Delete Account"
         color={theme.error}
-        onPress={(): void => deleteUserData(user.userId)}
+        onPress={(): void => user && deleteUserData(user.userId)}
       />
     </ScrollableList>
   );

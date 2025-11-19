@@ -3,9 +3,11 @@ import { AxiosErrorResponse, LoggerType } from '../custom-types';
 interface LoggerProps {
   type?: LoggerType;
   title: string;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   data?: any;
 }
 
+// TODO: Add logger to middleware?
 export const log = ({ type = 'info', title, data }: LoggerProps) => {
   if (__DEV__) {
     console.log(

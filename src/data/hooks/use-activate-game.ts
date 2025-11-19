@@ -34,7 +34,7 @@ export const useActivateGame = () => {
     let updatedData = [];
     if (user.gameData) {
       updatedData = [
-        ...user.gameData?.filter(game => game.id !== selectedGame),
+        ...user.gameData.filter(game => game.id !== selectedGame),
         getGameData(selectedGame),
       ];
     } else {

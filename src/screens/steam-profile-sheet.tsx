@@ -151,5 +151,3 @@ const styles = StyleSheet.create({
     right: 16,
   },
 });
-
-Sheet.displayName = 'Sheet';

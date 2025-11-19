@@ -50,9 +50,9 @@ export const useAchievements = () => {
             hasPermission: false,
           });
         } else if (response && response?.achievements) {
-          const items: SteamAchievementItem[] = [...response?.achievements];
+          const items: SteamAchievementItem[] = [...response.achievements];
 
-          if (response?.noOfLocked > 0) {
+          if (response.noOfLocked > 0) {
             items.push({
               id: 'locked',
               name: `${response.noOfLocked} Locked Achievements`,
@@ -66,7 +66,7 @@ export const useAchievements = () => {
             ...achievementsState,
             hasPermission: true,
             items,
-            noOfLocked: response?.achievements.length + response?.noOfLocked,
+            noOfLocked: response.achievements.length + response.noOfLocked,
           });
         }
       }
