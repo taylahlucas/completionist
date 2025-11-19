@@ -6,10 +6,10 @@ import { UnAuthorizedScreenEnum } from '@utils/custom-enums';
 import { useReactNavigation } from '@navigation/hooks';
 import { useAuthDispatch, useAuthState } from '@redux/auth';
 
-export const LoginForm = () => {
+export const LoginForm = ({ isSigningUp }: { isSigningUp: boolean }) => {
   const navigation = useReactNavigation();
   const { t } = useTranslation();
-  const { loginFormData, isSigningUp } = useAuthState();
+  const { loginFormData } = useAuthState();
   const { setLoginFormData } = useAuthDispatch();
 
   return (

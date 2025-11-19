@@ -12,7 +12,7 @@ import {
   updateUser,
   useVerifyUser,
 } from '@data/index';
-import { useMainDispatch } from '@redux/hooks';
+import { useMainDispatch, useMainState } from '@redux/hooks';
 import { log } from '@utils/helpers/index';
 import { useSendVerificationEmail } from './';
 import {
@@ -37,9 +37,10 @@ interface GetLoginMethodsReturnType {
 
 export const useGetLoginMethods = (): GetLoginMethodsReturnType => {
   const { t } = useTranslation();
+  const { shouldUpdateUser } = useMainState();
   const { setSelectedGameDataSettings, setShowSplashScreen } =
     useMainDispatch();
-  const { user, shouldUpdateUser } = useAuthState();
+  const { user } = useAuthState();
   const { setIsAuthenticated, triggerIsSigningUp, setIsGoogleSignIn } =
     useAuthDispatch();
   const { saveUser } = useEditUserData();

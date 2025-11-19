@@ -13,11 +13,12 @@ import { useAuthDispatch, useAuthState } from '@redux/auth';
 
 export const useLogin = () => {
   const { t } = useTranslation();
-  const { user, isLoggedIn, isSigningUp, loginFormData } = useAuthState();
+  const { user, isLoggedIn, loginFormData } = useAuthState();
   const { setIsAuthenticated, setLoginFormData } = useAuthDispatch();
   const isRequestLoading = useIsRequestLoading();
   const isKeyboardVisible = useIsKeyboardVisible();
   const sendVerificationEmail = useSendVerificationEmail();
+  const [isSigningUp, triggerIsSigningUp] = useState<boolean>(false);
   const [submitPressed, setSubmitPressed] = useState<boolean>(false);
   const getNavigationPath = useGetNavigationPath();
 
@@ -71,6 +72,9 @@ export const useLogin = () => {
       },
     },
     actions: {
+      login: {
+        triggerIsSigningUp,
+      },
       forgotPw: {
         setLoginFormData,
         onSubmit,

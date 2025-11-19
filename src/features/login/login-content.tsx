@@ -11,7 +11,7 @@ import {
 
 export const LoginContent = () => {
   const { t } = useTranslation();
-  const { viewModel } = useLogin();
+  const { viewModel, actions } = useLogin();
 
   return (
     <ScrollView
@@ -27,9 +27,12 @@ export const LoginContent = () => {
             {t('common:login.instructions2')}
           </StyledText>
         </Condition>
-        <LoginForm />
+        <LoginForm isSigningUp={viewModel.login.isSigningUp} />
       </LoginContentContainer>
-      <LoginFormSignInButtons />
+      <LoginFormSignInButtons
+        isSigningUp={viewModel.login.isSigningUp}
+        triggerIsSigningUp={actions.login.triggerIsSigningUp}
+      />
     </ScrollView>
   );
 };

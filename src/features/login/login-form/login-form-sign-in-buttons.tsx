@@ -12,14 +12,19 @@ import { isEmailValid, isPwValid, isNameValid } from '@utils/helpers/index';
 import { useSendVerificationEmail, useGetLoginMethods } from './hooks';
 import { checkUserExists } from '@data/index';
 import { UnAuthorizedScreenEnum } from '@utils/index';
-import { useAuthDispatch, useAuthState } from '@redux/auth';
+import { useAuthState } from '@redux/auth';
 
-export const LoginFormSignInButtons = () => {
+export const LoginFormSignInButtons = ({
+  isSigningUp,
+  triggerIsSigningUp,
+}: {
+  isSigningUp: boolean;
+  triggerIsSigningUp: (value: boolean) => void;
+}) => {
   const { t } = useTranslation();
   const { checkUserAccount, googleUserSignIn } = useGetLoginMethods();
   const sendVerification = useSendVerificationEmail();
-  const { isSigningUp, loginFormData } = useAuthState();
-  const { triggerIsSigningUp } = useAuthDispatch();
+  const { loginFormData } = useAuthState();
   const isLoginDisabled =
     !isEmailValid(loginFormData.email) ||
     !isPwValid(loginFormData.pw ?? '') ||
