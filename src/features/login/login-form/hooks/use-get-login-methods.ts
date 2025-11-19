@@ -35,14 +35,15 @@ interface GetLoginMethodsReturnType {
   signOut: () => Promise<void>;
 }
 
-export const useGetLoginMethods = (): GetLoginMethodsReturnType => {
+export const useGetLoginMethods = (
+  triggerIsSigningUp?: (value: boolean) => void,
+): GetLoginMethodsReturnType => {
   const { t } = useTranslation();
   const { shouldUpdateUser } = useMainState();
   const { setSelectedGameDataSettings, setShowSplashScreen } =
     useMainDispatch();
   const { user } = useAuthState();
-  const { setIsAuthenticated, triggerIsSigningUp, setIsGoogleSignIn } =
-    useAuthDispatch();
+  const { setIsAuthenticated, setIsGoogleSignIn } = useAuthDispatch();
   const { saveUser } = useEditUserData();
   const sendVerification = useSendVerificationEmail();
   const handleUserVerification = useVerifyUser();
@@ -172,7 +173,7 @@ export const useGetLoginMethods = (): GetLoginMethodsReturnType => {
               if (response) {
                 saveUser(response);
                 setShowSplashScreen(false);
-                triggerIsSigningUp(true);
+                triggerIsSigningUp?.(true);
                 setIsGoogleSignIn(true);
               }
             });

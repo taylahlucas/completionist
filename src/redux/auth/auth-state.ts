@@ -10,7 +10,6 @@ export const initialFormData: LoginFormData = {
 
 export interface AuthState {
   readonly isLoggedIn: boolean;
-  readonly isSigningUp: boolean;
   readonly isGoogleSignIn: boolean;
   readonly loginFormData: LoginFormData;
   readonly verificationToken?: string;
@@ -22,7 +21,6 @@ export interface AuthState {
 
 export const initialState: AuthState = {
   isLoggedIn: false,
-  isSigningUp: false,
   // TODO: Remove initial ? set ot optional
   loginFormData: initialFormData,
   isGoogleSignIn: false,
@@ -34,11 +32,6 @@ const slice = createSlice({
   reducers: {
     setIsAuthenticated: (state, action) => {
       state.isLoggedIn = action.payload;
-      state.isSigningUp = false;
-    },
-    triggerIsSigningUp: (state, action) => {
-      state.isSigningUp = action.payload;
-      state.isLoggedIn = false;
     },
     setLoginFormData: (state, action) => {
       state.loginFormData = action.payload;
@@ -63,7 +56,6 @@ const slice = createSlice({
 
 export const {
   setIsAuthenticated,
-  triggerIsSigningUp,
   setLoginFormData,
   setIsGoogleSignIn,
   setVerificationToken,

@@ -22,7 +22,8 @@ export const LoginFormSignInButtons = ({
   triggerIsSigningUp: (value: boolean) => void;
 }) => {
   const { t } = useTranslation();
-  const { checkUserAccount, googleUserSignIn } = useGetLoginMethods();
+  const { checkUserAccount, googleUserSignIn } =
+    useGetLoginMethods(triggerIsSigningUp);
   const sendVerification = useSendVerificationEmail();
   const { loginFormData } = useAuthState();
   const isLoginDisabled =

@@ -4,7 +4,6 @@ import {
   setIsGoogleSignIn,
   setVerificationToken,
   setIsAuthenticated,
-  triggerIsSigningUp,
   setUser,
   setCurrentScreen,
   setAppState,
@@ -15,7 +14,6 @@ import { LoginFormData, ScreenEnumType, User } from '@utils/index';
 interface AuthDispatch {
   setIsAuthenticated: (value: boolean) => void;
   setLoginFormData: (value: LoginFormData) => void;
-  triggerIsSigningUp: (value: boolean) => void;
   setIsGoogleSignIn: (value: boolean) => void;
   setVerificationToken: (token: string | undefined) => void;
   setUser: (value: User) => void;
@@ -29,9 +27,6 @@ export const useAuthDispatch = (): AuthDispatch => {
   return {
     setIsAuthenticated(value: boolean): void {
       dispatch(setIsAuthenticated(value));
-    },
-    triggerIsSigningUp(value: boolean): void {
-      dispatch(triggerIsSigningUp(value));
     },
     setLoginFormData(value: LoginFormData): void {
       dispatch(setLoginFormData(value));
