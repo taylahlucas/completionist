@@ -7,11 +7,11 @@ import {
 } from '@utils/index';
 import { useContentState } from '@features/game-content/provider';
 import { filterActiveSections, getCurrentGame } from '@data/index';
-import { useAuthState } from '@redux/auth';
+import { useAuthUser } from '@redux/auth';
 
 export const useGetGameProgressData = () => {
   const { selectedGameData } = useMainState();
-  const { user } = useAuthState();
+  const user = useAuthUser();
   const { gameContent } = useContentState();
 
   const getGameProgress = (games: GameKeyEnum[]): ProgressItem[] => {

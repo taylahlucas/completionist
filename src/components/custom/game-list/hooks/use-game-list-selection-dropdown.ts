@@ -16,6 +16,7 @@ import { useAuthState } from '@redux/auth';
 export const useGameListSelectionDropdown = () => {
   const { i18n } = useTranslation();
   const navigation = useReactNavigation();
+  // TODO: Move this out of components
   const { user } = useAuthState();
   const { setSelectedGameData, setSelectedGameDataSettings } =
     useMainDispatch();

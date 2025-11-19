@@ -18,7 +18,7 @@ import {
   AuthScreenEnum,
   DrawerScreenEnum,
 } from '@utils/index';
-import { useMainDispatch } from '@redux/hooks';
+import { useAuthDispatch } from '@redux/auth';
 
 export const DrawerActions = RNDrawerActions;
 const DRAWER_SCREENS = Object.values(DrawerScreenEnum);
@@ -28,7 +28,7 @@ export const useReactNavigation = (): NativeNavigation => {
   const screenName = useNavigationState(
     state => state?.routes[state?.index].name,
   );
-  const { setCurrentScreen } = useMainDispatch();
+  const { setCurrentScreen } = useAuthDispatch();
 
   useFocusEffect(
     useCallback(() => {

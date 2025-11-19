@@ -15,7 +15,7 @@ import { Alert } from 'react-native';
 import { GameKeyEnum, GameContentState, GameData } from '@utils/index';
 import { useReactNavigation } from '@navigation/hooks';
 import { useTranslation } from 'react-i18next';
-import { useAuthState } from '@redux/auth';
+import { useAuthUser } from '@redux/auth';
 
 interface UsePurchaseGameReturnType {
   viewModel: {
@@ -65,7 +65,7 @@ export const usePurchaseGame = (
   }, []);
 
   const { activateGame } = useActivateGame();
-  const { user } = useAuthState();
+  const user = useAuthUser();
   const initialPointsAvailable = 2000;
   const [pointsAvailable, setPointsAvailable] = useState(
     initialPointsAvailable,

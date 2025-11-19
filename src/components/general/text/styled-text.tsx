@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text, TextProps, ViewStyle } from 'react-native';
+import { Text, TextProps } from 'react-native';
 import { FontType, AlignmentType } from '@styles/Font/FontType';
 import defaultStyle from '@styles/Font/FontStyle';
 import useGetTheme from '@styles/hooks/use-get-theme';
@@ -8,7 +8,8 @@ interface StyledTextProps extends TextProps {
   children: React.ReactNode;
   type?: FontType;
   color?: string;
-  style?: ViewStyle;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  style?: any;
   align?: AlignmentType;
 }
 

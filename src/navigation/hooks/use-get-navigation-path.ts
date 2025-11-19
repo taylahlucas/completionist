@@ -5,7 +5,6 @@ export const useGetNavigationPath = () => {
   const navigation = useReactNavigation();
 
   const getNavigationPath = (user: User) => {
-    console.log('getNavigationPath: ', user.signup);
     if (!user.signup.verification) {
       navigation.navigate(UnAuthorizedScreenEnum.VerifyAccount);
     } else if (!user.signup.setUsername) {

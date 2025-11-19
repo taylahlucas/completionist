@@ -12,7 +12,7 @@ import {
 } from '@data/index';
 import { useContentDispatch } from '@features/game-content/provider';
 import { useReactNavigation } from '@navigation/hooks';
-import { useAuthState } from '@redux/auth';
+import { useAuthUser } from '@redux/auth';
 import { useMainDispatch } from '@redux/hooks';
 import useGetTheme from '@styles/hooks/use-get-theme';
 import { AuthScreenEnum, GameKeyEnum } from '@utils/custom-enums';
@@ -31,7 +31,7 @@ export const SelectGameLanguageContent = ({
   const { t, i18n } = useTranslation();
   const navigation = useReactNavigation();
   const theme = useGetTheme();
-  const { user } = useAuthState();
+  const user = useAuthUser();
   const { setSelectedGameData, setSelectedGameDataSettings } =
     useMainDispatch();
   const { setGameContent } = useContentDispatch();

@@ -7,10 +7,10 @@ import {
   GameItemScore,
 } from './';
 import { GameData, FlowType } from '@utils/index';
-import { useGameListItem } from './hooks';
 import { Condition } from '@components/general';
 import { useTranslateGameContent } from '@data/hooks';
 import { getGameImage, getPriceForGame } from '@data/helpers';
+import useGetTheme from '@styles/hooks/use-get-theme';
 
 interface GameListItemProps {
   flow?: FlowType;
@@ -27,7 +27,7 @@ export const GameListItem = ({
   enabled,
   onPress,
 }: GameListItemProps) => {
-  const { viewModel } = useGameListItem();
+  const theme = useGetTheme();
   const { translateGameName } = useTranslateGameContent();
 
   return (
@@ -40,16 +40,14 @@ export const GameListItem = ({
         style={{ opacity: enabled ? 0.5 : 0.2 }}
       />
       <Condition condition={flow === 'home' && !enabled}>
-        <GameItemScore
-          type="ListItemTitleBold"
-          color={viewModel.theme.lightestGrey}>
+        <GameItemScore type="ListItemTitleBold" color={theme.lightestGrey}>
           {getPriceForGame(game.tier).title}
         </GameItemScore>
       </Condition>
       <GameItemTitleContainer enabled={enabled}>
         <GameItemTitle
           type="SubHeading"
-          color={viewModel.theme.lightestGrey}
+          color={theme.lightestGrey}
           align="left"
           ellipsizeMode="tail"
           numberOfLines={2}>

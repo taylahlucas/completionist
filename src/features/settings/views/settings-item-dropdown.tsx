@@ -20,7 +20,7 @@ import {
   useTranslateGameContent,
   useGetUserGameData,
 } from '@data/hooks';
-import { useAuthState } from '@redux/auth';
+import { useAuthUser } from '@redux/auth';
 
 interface SettingsItemDropdownProps {
   item: IsActive;
@@ -34,7 +34,7 @@ export const SettingsItemDropdown = ({
   const { t } = useTranslation();
   const theme = useGetTheme();
   const { selectedGameData } = useMainState();
-  const { user } = useAuthState();
+  const user = useAuthUser();
   const { saveUser } = useEditUserData();
   const { setSelectedCategory } = useSettingsDispatch();
   const { selectedCategory } = useSettingsState();

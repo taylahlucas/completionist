@@ -1,5 +1,5 @@
 import { getCurrentGame } from '@data/helpers';
-import { useAuthState } from '@redux/auth';
+import { useAuthUser } from '@redux/auth';
 import { useMainState } from '@redux/hooks';
 import { IsActive } from '@utils/index';
 
@@ -11,7 +11,7 @@ interface GetUserGameDataReturnType {
 
 export const useGetUserGameData = (): GetUserGameDataReturnType => {
   const { selectedGameSettings } = useMainState();
-  const { user } = useAuthState();
+  const user = useAuthUser();
   const currentGame = getCurrentGame(selectedGameSettings, user);
 
   const userSettingsMainConfig =

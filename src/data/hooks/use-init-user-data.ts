@@ -6,7 +6,8 @@ import { useAuthState } from '@redux/auth';
 
 export const useInitUserData = () => {
   const appStateRef = useRef(AppState.currentState);
-  const { user, appState, shouldUpdateUser } = useAuthState();
+  const { appState, shouldUpdateUser } = useAuthState();
+  const { user } = useAuthState();
   const { setAppState } = useAuthDispatch();
   const { isLoggedIn } = useAuthState();
   const { updateUserData } = useEditUserData();

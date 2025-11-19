@@ -92,7 +92,7 @@ export const Button = ({
         <StyledButtonDefault
           testID={testID}
           style={style}
-          onPress={_.debounce(onPress, throttleValue, {
+          onPress={lodash.debounce(onPress, throttleValue, {
             leading: true,
             trailing: false,
           })}

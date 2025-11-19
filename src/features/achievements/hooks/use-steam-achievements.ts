@@ -1,10 +1,10 @@
 import { useMainState } from '@redux/hooks';
 import { getSteamPlayerAchievements } from '@data/index';
-import { useAuthState } from '@redux/auth';
+import { useAuthUser } from '@redux/auth';
 
 export const useSteamAchievements = () => {
   const { selectedGameData } = useMainState();
-  const { user } = useAuthState();
+  const user = useAuthUser();
 
   const fetchSteamAchievements = async () => {
     if (selectedGameData?.appId) {

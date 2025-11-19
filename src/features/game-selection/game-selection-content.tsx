@@ -8,11 +8,11 @@ import {
 import { GameListSectionDropdown, gameListStyles } from '@components/custom';
 import { allGameData } from '@utils/configs';
 import { useFilterGameList } from '@utils/hooks';
-import { useAuthState } from '@redux/auth';
+import { useAuthUser } from '@redux/auth';
 
 export const GameSelectionContent = () => {
   const { t } = useTranslation();
-  const { user } = useAuthState();
+  const user = useAuthUser();
   const { filterGameList } = useFilterGameList();
   const [searchValue, setSearchValue] = useState<string>('');
 

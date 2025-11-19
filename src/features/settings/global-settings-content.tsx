@@ -19,7 +19,7 @@ import {
   SettingsSelectLanguage,
 } from './views';
 import { DEFAULT_LANG, languages } from '@utils/index';
-import { useAuthState } from '@redux/auth';
+import { useAuthUser } from '@redux/auth';
 
 export const GlobalSettingsContent = () => {
   const { t, i18n } = useTranslation();
@@ -29,7 +29,7 @@ export const GlobalSettingsContent = () => {
   const scrollViewRef = useRef<ScrollView>(null);
   const languageViewRef = useRef<RNText>(null);
   const [isLanguagesOpen, setIsLanguagesOpen] = useState<boolean>(false);
-  const { user } = useAuthState();
+  const user = useAuthUser();
   const { deleteUserData } = useEditUserData();
 
   return (

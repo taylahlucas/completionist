@@ -3,8 +3,7 @@ import { useEditUserData } from '@data/hooks/use-edit-user-data';
 import { useAuthState } from '@redux/auth/hooks/use-auth-state';
 
 export const useTimedDataUpdate = () => {
-  const { user, shouldUpdateUser } = useAuthState();
-  const { isLoggedIn } = useAuthState();
+  const { user, isLoggedIn, shouldUpdateUser } = useAuthState();
   const { updateUserData } = useEditUserData();
 
   useEffect(() => {

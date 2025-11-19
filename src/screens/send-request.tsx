@@ -12,7 +12,7 @@ import {
 import { NavigationHeader } from '@navigation/index';
 import { sendEmail } from '@data/api/endpoints';
 import { DrawerScreenEnum } from '@utils/index';
-import { useAuthState } from '@redux/auth';
+import { useAuthUser } from '@redux/auth';
 
 interface RequestFormData {
   subject: string;
@@ -21,7 +21,7 @@ interface RequestFormData {
 
 export const SendRequest = () => {
   const { t } = useTranslation();
-  const { user } = useAuthState();
+  const user = useAuthUser();
   const [formData, setFormData] = useState<RequestFormData>({
     subject: '',
     text: '',

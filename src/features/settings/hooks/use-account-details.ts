@@ -6,7 +6,7 @@ import { useReactNavigation } from '@navigation/hooks';
 import { DrawerScreenEnum } from '@utils/index';
 import { isEmailValid, isPwValid, isNameValid } from '@utils/helpers/index';
 import { updateUser, changePw, checkUserExists } from '@data/index';
-import { useAuthState } from '@redux/auth';
+import { useAuthState, useAuthUser } from '@redux/auth';
 
 export interface ChangeAccountDetailsItem {
   value: string;
@@ -23,7 +23,8 @@ interface ChangeAccountDetails {
 export const useAccountDetails = () => {
   const navigation = useReactNavigation();
   const { t } = useTranslation();
-  const { user, currentScreen } = useAuthState();
+  const { currentScreen } = useAuthState();
+  const user = useAuthUser();
   const initialState = {
     username: { value: user?.username ?? '', changed: false },
     email: { value: user?.email ?? '', changed: false },

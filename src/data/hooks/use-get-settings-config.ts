@@ -1,4 +1,4 @@
-import { useAuthState } from '@redux/auth';
+import { useAuthUser } from '@redux/auth';
 import { SettingsOptionEnum } from '@utils/index';
 
 interface GetSettingsConfigReturnType {
@@ -7,7 +7,7 @@ interface GetSettingsConfigReturnType {
 }
 
 export const useGetSettingsConfig = (): GetSettingsConfigReturnType => {
-  const { user } = useAuthState();
+  const user = useAuthUser();
 
   const shouldShowCompletedItems = (): boolean => {
     return (

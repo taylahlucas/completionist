@@ -4,11 +4,11 @@ import { NavigationHeader } from '@navigation/index';
 import { DrawerScreenEnum } from '@utils/index';
 import { useTranslation } from 'react-i18next';
 import { LinkSteamProfileContent } from '@features/steam-profile';
-import { useAuthState } from '@redux/auth';
+import { useAuthUser } from '@redux/auth';
 
 export const LinkSteamProfile = () => {
   const { t } = useTranslation();
-  const { user } = useAuthState();
+  const user = useAuthUser();
 
   return (
     <StandardLayout>

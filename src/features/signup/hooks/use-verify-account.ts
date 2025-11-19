@@ -4,7 +4,7 @@ import { useEditUserData } from '@data/hooks/index';
 import { useAuthDispatch, useAuthState } from '@redux/auth';
 
 export const useVerifyAccount = () => {
-  const { loginFormData, verificationToken } = useAuthState();
+  const { user, loginFormData, verificationToken } = useAuthState();
   const { setVerificationToken, setIsAuthenticated } = useAuthDispatch();
   const isRequestLoading = useIsRequestLoading();
   const { saveUser } = useEditUserData();

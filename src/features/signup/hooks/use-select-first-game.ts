@@ -6,13 +6,14 @@ import { allGameData } from '@utils/configs/game-configs';
 import { useState } from 'react';
 import { GameKeyEnum } from '@utils/index';
 import { useFilterGameList } from '@utils/hooks';
-import { useAuthDispatch, useAuthState } from '@redux/auth';
+import { useAuthDispatch, useAuthState, useAuthUser } from '@redux/auth';
 
 export const useSelectFirstGame = () => {
   const [selectedFirstGame, setSelectedFirstGame] = useState<GameKeyEnum>();
   const [searchValue, setSearchValue] = useState('');
   const { setSelectedGameDataSettings } = useMainDispatch();
-  const { user, isGoogleSignIn } = useAuthState();
+  const { isGoogleSignIn } = useAuthState();
+  const user = useAuthUser();
   const { setIsGoogleSignIn } = useAuthDispatch();
   const isRequestLoading = useIsRequestLoading();
   const { updateUserData } = useEditUserData();

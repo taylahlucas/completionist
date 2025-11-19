@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import { SettingsOptionEnum } from '@utils/index';
-import { useAuthState } from '@redux/auth';
+import { useAuthUser } from '@redux/auth';
 
 interface SettingsOptionsItem {
   id: string;
@@ -10,7 +10,7 @@ interface SettingsOptionsItem {
 
 export const useGetShowHideOptions = (): SettingsOptionsItem[] => {
   const { t } = useTranslation();
-  const { user } = useAuthState();
+  const user = useAuthUser();
 
   return [
     {

@@ -1,4 +1,5 @@
 export * from './condition';
+export * from './error-boundary';
 export * from './keyboard-aware-container';
 export * from './loading';
 export * from './paragraph-view';

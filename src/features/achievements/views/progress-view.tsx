@@ -5,7 +5,7 @@ import { GameKeyEnum, ProgressItemData } from '@utils/index';
 import { ProgressChartItem } from './';
 import { STANDARD_WIDTH } from '@styles/global';
 import { getGameProgressForSection } from './helpers';
-import { useAuthState } from '@redux/auth';
+import { useAuthUser } from '@redux/auth';
 
 interface ProgressViewProps {
   gameId: string;
@@ -14,7 +14,7 @@ interface ProgressViewProps {
 
 export const ProgressView = ({ gameId, data }: ProgressViewProps) => {
   const theme = useGetTheme();
-  const { user } = useAuthState();
+  const user = useAuthUser();
   const colors = [theme.lightPurple, '#E63656', '#26AB9D', '#D1A34D'];
 
   return (

@@ -6,14 +6,14 @@ import { StyledText, Button } from '@components/general';
 import { AuthScreenEnum, DrawerScreenEnum } from '@utils/index';
 import { SettingsEmail } from './settings-styled-components';
 import useGetTheme from '@styles/hooks/use-get-theme';
-import { useAuthState } from '@redux/auth';
+import { useAuthUser } from '@redux/auth';
 
 export const SettingsAccountDetails = () => {
   const navigation = useReactNavigation();
   const theme = useGetTheme();
   const { t } = useTranslation();
   const { selectedGameData } = useMainState();
-  const { user } = useAuthState();
+  const user = useAuthUser();
   const isGlobalSettings = !selectedGameData;
 
   return (

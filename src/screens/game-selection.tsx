@@ -5,11 +5,11 @@ import { NavigationHeader } from '@navigation/index';
 import { AuthScreenEnum } from '@utils/index';
 import { useReactNavigation } from '@navigation/hooks';
 import { GameSelectionContent } from '@features/game-selection';
-import { useAuthState } from '@redux/auth';
+import { useAuthUser } from '@redux/auth';
 
 export const GameSelection = () => {
   const { t } = useTranslation();
-  const { user } = useAuthState();
+  const user = useAuthUser();
   const navigation = useReactNavigation();
 
   return (

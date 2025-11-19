@@ -8,11 +8,11 @@ import {
   KeyboardAvoidingScrollView,
 } from '@components/general';
 import { useEditUserData } from '@data/hooks';
-import { useAuthState } from '@redux/auth';
+import { useAuthUser } from '@redux/auth';
 
 export const SetUsernameContent = () => {
   const { t } = useTranslation();
-  const { user } = useAuthState();
+  const user = useAuthUser();
   const [username, setUsername] = useState<string>('');
   const { updateUserData } = useEditUserData();
 

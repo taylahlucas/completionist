@@ -1,6 +1,6 @@
 import { useGetSettingsConfig, useTranslateGameContent } from '@data/hooks';
 import { useContentState } from '@features/game-content/provider';
-import { useAuthState } from '@redux/auth';
+import { useAuthUser } from '@redux/auth';
 import { useMainState } from '@redux/hooks';
 import { ContentItem, GameContentItem, ContentSectionEnum } from '@utils/index';
 
@@ -15,7 +15,7 @@ export const useGetContentCategories = (
 ): GameDataReturnType => {
   const { gameContent } = useContentState();
   const { selectedGameSettings } = useMainState();
-  const { user } = useAuthState();
+  const user = useAuthUser();
   const { shouldHideDisabledSections } = useGetSettingsConfig();
   const { translateCategoryName, translateDLCName } = useTranslateGameContent();
 

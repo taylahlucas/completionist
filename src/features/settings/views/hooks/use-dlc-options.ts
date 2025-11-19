@@ -7,7 +7,7 @@ import {
   GameData,
 } from '@utils/index';
 import { getCurrentGame } from '@data/helpers';
-import { useAuthDispatch, useAuthState } from '@redux/auth';
+import { useAuthDispatch, useAuthUser } from '@redux/auth';
 
 interface DLCOptionsReturnType {
   getDLCOptions: () => IsActive[];
@@ -16,7 +16,7 @@ interface DLCOptionsReturnType {
 
 export const useDLCOptions = (): DLCOptionsReturnType => {
   const { t } = useTranslation();
-  const { user } = useAuthState();
+  const user = useAuthUser();
   const { setUser, setShouldUpdateUser } = useAuthDispatch();
   const { selectedGameSettings } = useMainState();
 

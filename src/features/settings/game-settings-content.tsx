@@ -22,7 +22,7 @@ import {
   SettingsGameCollections,
   SettingsSelectLanguage,
 } from './views';
-import { useAuthState } from '@redux/auth';
+import { useAuthUser } from '@redux/auth';
 
 export const GameSettingsContent = () => {
   const { t } = useTranslation();
@@ -37,7 +37,7 @@ export const GameSettingsContent = () => {
   const showHideOptions = useGetShowHideOptions();
 
   const { selectedGameData } = useMainState();
-  const { user } = useAuthState();
+  const user = useAuthUser();
   const [selectedLanguage, setSelectedLanguage] = useState<LanguageType>(
     selectedGameData?.lang ?? DEFAULT_LANG,
   );

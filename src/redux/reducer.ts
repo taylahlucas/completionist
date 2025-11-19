@@ -20,5 +20,6 @@ const rootReducer = (state: any, action: UnknownAction) => {
   return appReducer(state, action);
 };
 export type RootState = ReturnType<typeof rootReducer>;
+export const selectAuthUser = (state: RootState) => state.auth.user;
 
 export default rootReducer;

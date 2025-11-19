@@ -4,7 +4,7 @@ import {
   GameListItemHeaderTitleContainer,
 } from './';
 import { StyledText, Icon, Seperator } from '@components/general';
-import { useGameListItem } from './hooks';
+import useGetTheme from '@styles/hooks/use-get-theme';
 
 interface GameListSectionHeaderProps {
   title: string;
@@ -15,7 +15,7 @@ export const GameListSectionHeader = ({
   title,
   isOpen,
 }: GameListSectionHeaderProps) => {
-  const { viewModel } = useGameListItem();
+  const theme = useGetTheme();
 
   return (
     <GameListItemHeaderContainer>
@@ -25,7 +25,7 @@ export const GameListSectionHeader = ({
         </StyledText>
         <Icon
           name={isOpen ? 'arrow-drop-down' : 'arrow-right'}
-          color={viewModel.theme.midGrey}
+          color={theme.midGrey}
         />
       </GameListItemHeaderTitleContainer>
       <Seperator />
