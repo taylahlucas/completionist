@@ -26,6 +26,7 @@ export const LoginFormFooterContainer = styled.View`
 export const SelectFirstGameContentContainer = styled.View`
   flex-direction: row;
   margin-top: 16px;
+  padding-left: 16px;
   flex-wrap: wrap;
   justify-content: flex-start;
   width: ${LARGE_WIDTH}px;

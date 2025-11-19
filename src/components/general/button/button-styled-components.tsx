@@ -4,7 +4,6 @@ import {
   MID_PADDING,
   SMALL_PADDING,
   windowWidth,
-  isSmallScreen,
 } from '@styles/global';
 
 interface StyledButtonProps {
@@ -49,7 +48,7 @@ export const FooterButtonView = styled.View`
   position: absolute;
   width: 100%;
   height: 70px;
-  bottom: ${isSmallScreen ? 0 : 16}px;
+  bottom: 0px;
   padding-top: ${SMALL_PADDING}px;
   padding-bottom: ${SMALL_PADDING}px;
   justify-content: center;

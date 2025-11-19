@@ -70,5 +70,7 @@ export const GameListDropdownContainer = styled.View`
   width: 100%;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: flex-start;
   margin-top: 8px;
+  padding-left: 16px;
 `;
