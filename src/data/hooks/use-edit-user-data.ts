@@ -2,8 +2,8 @@ import { Alert } from 'react-native';
 import { useTranslation } from 'react-i18next';
 import { useMainDispatch } from '@redux/hooks';
 import { User } from '@utils/index';
-import { useRemoveUserData } from '@data/hooks';
 import { updateUser, deleteUser } from '@data/index';
+import { resetStore } from '@redux/reset-store';
 
 interface EditUserDataReturnType {
   saveUser: (user: User) => void;
@@ -14,11 +14,11 @@ interface EditUserDataReturnType {
 export const useEditUserData = (): EditUserDataReturnType => {
   const { t } = useTranslation();
   const { setUser, setShouldUpdateUser } = useMainDispatch();
-  const { removeUserData } = useRemoveUserData();
 
   // Save user locally without calling api
   const saveUser = (user: User) => {
     setUser(user);
+    // TODO: Do we need this?
     setShouldUpdateUser(false);
   };
 
@@ -38,7 +38,7 @@ export const useEditUserData = (): EditUserDataReturnType => {
           onPress: () =>
             deleteUser(userId).then(() => {
               Alert.alert(t('common:alerts.deleteSuccess'));
-              removeUserData();
+              resetStore();
             }),
         },
         {

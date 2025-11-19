@@ -64,9 +64,6 @@ const slice = createSlice({
     setGameContent: (state, action) => {
       state.gameContent = action.payload;
     },
-    reset: state => {
-      state = initialState;
-    },
   },
 });
 
@@ -77,7 +74,6 @@ export const {
   setSelectedCategory,
   setWebViewHref,
   setGameContent,
-  reset,
 } = slice.actions;
 
 export default slice.reducer;

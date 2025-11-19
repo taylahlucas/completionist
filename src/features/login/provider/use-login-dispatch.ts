@@ -5,7 +5,6 @@ import {
   setVerificationToken,
   setLoggedIn,
   triggerIsSigningUp,
-  reset,
 } from './login-state';
 import { useAppDispatch } from '@redux/store';
 import { LoginFormData } from '@utils/index';
@@ -16,7 +15,6 @@ interface LoginDispatch {
   setVerificationToken: (token: string | undefined) => void;
   setLoggedIn: (value: boolean) => void;
   triggerIsSigningUp: (value: boolean) => void;
-  reset: () => void;
 }
 
 export const useLoginDispatch = (): LoginDispatch => {
@@ -37,9 +35,6 @@ export const useLoginDispatch = (): LoginDispatch => {
     },
     triggerIsSigningUp(value: boolean): void {
       dispatch(triggerIsSigningUp(value));
-    },
-    reset(): void {
-      dispatch(reset(null));
     },
   };
 };

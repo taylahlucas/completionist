@@ -2,7 +2,6 @@ import { User } from '@utils/index';
 import { useEditUserData } from './use-edit-user-data';
 import { useLoginDispatch } from '@features/index';
 import { useMainDispatch, useMainState } from '@redux/hooks';
-import { saveToCache } from '@data/cache';
 import { useGetNavigationPath } from '@navigation/hooks';
 
 export const useVerifyUser = () => {
@@ -19,7 +18,6 @@ export const useVerifyUser = () => {
     setLoggedIn(isVerified);
     saveUser(user);
     if (isVerified) {
-      saveToCache(user, user.userId);
       if (!selectedGameData && user.gameData) {
         setSelectedGameDataSettings(user.gameData[0]?.id);
       }

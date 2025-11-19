@@ -38,13 +38,6 @@ const slice = createSlice({
       state.isSigningUp = action.payload;
       state.isLoggedIn = false;
     },
-    reset: (state, _) => {
-      // TODO: Not working ??
-      state.isSigningUp = false;
-      state.isLoggedIn = false;
-      state.loginFormData = initialFormData;
-      state.verificationToken = undefined;
-    },
   },
 });
 
@@ -54,7 +47,6 @@ export const {
   setVerificationToken,
   setLoggedIn,
   triggerIsSigningUp,
-  reset,
 } = slice.actions;
 
 export default slice.reducer;

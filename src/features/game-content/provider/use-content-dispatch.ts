@@ -5,7 +5,6 @@ import {
   setSelectedCategory,
   setWebViewHref,
   setGameContent,
-  reset,
   setSelectedGameData,
 } from './content-state';
 import { useAppDispatch } from '@redux/store';
@@ -23,7 +22,6 @@ interface ContentDispatch {
   setSelectedCategory: (category: DropDownType) => void;
   setWebViewHref: (value?: string) => void;
   setGameContent: (value: GameContentState) => void;
-  reset: () => void;
 }
 
 export const useContentDispatch = (): ContentDispatch => {
@@ -47,9 +45,6 @@ export const useContentDispatch = (): ContentDispatch => {
     },
     setGameContent(value: GameContentState): void {
       dispatch(setGameContent(value));
-    },
-    reset(): void {
-      dispatch(reset());
     },
   };
 };

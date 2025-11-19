@@ -1,8 +1,7 @@
 import { Alert } from 'react-native';
 import { requestCodes } from '@utils/index';
 import i18next from 'i18next';
-import { clearCache } from '@data/index';
-import { deleteCredentials } from '@data/hooks';
+import { clearCache, deleteCredentials } from '@data/index';
 
 export const handleAxiosError = (status?: number): void => {
   if (!status) {

@@ -19,6 +19,7 @@ interface GetGameDataFromCacheProps {
   lang?: LanguageType;
 }
 
+// TODO: If this is stored in redux persist, we should remove it from the cache
 // Get game data from cache or api
 export const getGameDataFromCache = async ({
   selectedGame,

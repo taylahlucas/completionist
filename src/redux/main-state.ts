@@ -141,11 +141,6 @@ const slice = createSlice({
         state.selectedGameData.miscellaneous = action.payload;
       }
     },
-    reset: state => {
-      state.searchValue = initialState.searchValue;
-      state.shouldUpdateUser = false;
-      state.user = initialUser;
-    },
   },
 });
 
@@ -163,7 +158,6 @@ export const {
   setCompletedCollectables,
   setCompletedMiscItems,
   setCompletedLocations,
-  reset,
 } = slice.actions;
 
 export default slice.reducer;

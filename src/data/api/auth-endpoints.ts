@@ -15,9 +15,8 @@ import {
   sendVerificationEmailUrl,
   signinUrl,
   signupUrl,
-  saveToCache,
 } from '@data/index';
-import { UserResponse, REFRESH_CACHE_KEY, requestCodes } from '@utils/index';
+import { UserResponse, requestCodes } from '@utils/index';
 import { handleAxiosError } from './handle-axios-error';
 
 export const checkUserExists = async (
@@ -58,9 +57,6 @@ export const signUp = async ({
       },
     })
     .then(response => {
-      if (response.data.refreshTokenExpiry) {
-        saveToCache(response.data.refreshTokenExpiry, REFRESH_CACHE_KEY);
-      }
       if (response.data.user) {
         return response.data.user as UserResponse;
       }
@@ -79,9 +75,6 @@ export const signIn = async ({
       googleId,
     })
     .then(response => {
-      if (response.data.refreshTokenExpiry) {
-        saveToCache(response.data.refreshTokenExpiry, REFRESH_CACHE_KEY);
-      }
       if (response.data.user) {
         return response.data.user as UserResponse;
       } else {
@@ -102,9 +95,6 @@ export const linkAndSignIn = async ({
       googleId,
     })
     .then(response => {
-      if (response.data.refreshTokenExpiry) {
-        saveToCache(response.data.refreshTokenExpiry, REFRESH_CACHE_KEY);
-      }
       if (response.data.user) {
         return response.data.user as UserResponse;
       }

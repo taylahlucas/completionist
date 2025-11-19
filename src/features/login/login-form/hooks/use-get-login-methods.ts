@@ -4,7 +4,6 @@ import uuid from 'react-native-uuid';
 import { GoogleSignin } from '@react-native-google-signin/google-signin';
 import {
   useEditUserData,
-  useRemoveUserData,
   checkUserExists,
   linkAndSignIn,
   signIn,
@@ -23,6 +22,7 @@ import {
   maxPwAttempts,
   requestCodes,
 } from '@utils/index';
+import { resetStore } from '@redux/index';
 
 interface GoogleError {
   code: number;
@@ -43,7 +43,6 @@ export const useGetLoginMethods = (): GetLoginMethodsReturnType => {
   const { setLoggedIn, triggerIsSigningUp, setIsGoogleSignIn } =
     useLoginDispatch();
   const { saveUser } = useEditUserData();
-  const { removeUserData } = useRemoveUserData();
   const sendVerification = useSendVerificationEmail();
   const handleUserVerification = useVerifyUser();
 
@@ -200,9 +199,9 @@ export const useGetLoginMethods = (): GetLoginMethodsReturnType => {
   const signOut = async () => {
     try {
       if (shouldUpdateUser) {
-        updateUser(user).then(() => removeUserData());
+        updateUser(user).then(resetStore);
       } else {
-        removeUserData();
+        resetStore();
       }
       await GoogleSignin.revokeAccess();
       await GoogleSignin.signOut();

@@ -20,7 +20,6 @@ import {
   setCompletedCollectables,
   setCompletedMiscItems,
   setCompletedLocations,
-  reset,
 } from '../main-state';
 import { useAppDispatch } from '../store';
 
@@ -39,7 +38,6 @@ interface MainDispatch {
   setCompletedCollectables: (value: Item[]) => void;
   setCompletedLocations: (value: Item[]) => void;
   setCompletedMiscItems: (value: Item[]) => void;
-  reset: () => void;
 }
 
 export const useMainDispatch = (): MainDispatch => {
@@ -84,9 +82,6 @@ export const useMainDispatch = (): MainDispatch => {
     },
     setCompletedMiscItems(value: Item[]): void {
       dispatch(setCompletedMiscItems(value));
-    },
-    reset(): void {
-      dispatch(reset());
     },
   };
 };

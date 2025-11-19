@@ -20,11 +20,11 @@ export const useLogin = () => {
   const isKeyboardVisible = useIsKeyboardVisible();
   const sendVerificationEmail = useSendVerificationEmail();
   const [submitPressed, setSubmitPressed] = useState<boolean>(false);
-  const getAuthNavigationPath = useGetNavigationPath();
+  const getNavigationPath = useGetNavigationPath();
 
+  // TODO: Move this to root stack nav
   useEffect(() => {
     if (isLoggedIn || isSigningUp) {
-      console.log('setting-1: ', JSON.stringify(user));
       setLoggedIn(
         user.signup.verification &&
           user.signup.selectGame &&
@@ -32,7 +32,7 @@ export const useLogin = () => {
       );
     }
     if (!isLoggedIn && user.userId) {
-      getAuthNavigationPath(user);
+      getNavigationPath(user);
     }
   }, [isLoggedIn, isSigningUp, user.signup]);
 
