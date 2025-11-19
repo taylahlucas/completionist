@@ -18,7 +18,7 @@ import {
   SettingsDescription,
   SettingsSelectLanguage,
 } from './views';
-import { languages } from '@utils/index';
+import { DEFAULT_LANG, languages } from '@utils/index';
 import { useAuthState } from '@redux/auth';
 
 export const GlobalSettingsContent = () => {
@@ -61,7 +61,7 @@ export const GlobalSettingsContent = () => {
       </SettingsDescription>
       <SettingsSelectLanguage
         languages={languages}
-        selectedLanguage={user?.settings.lang ?? 'en'}
+        selectedLanguage={user?.settings.lang ?? DEFAULT_LANG}
         isOpen={isLanguagesOpen}
         setOpen={(value: boolean) => {
           setIsLanguagesOpen(value);

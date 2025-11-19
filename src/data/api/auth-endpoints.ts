@@ -16,7 +16,7 @@ import {
   signinUrl,
   signupUrl,
 } from '@data/index';
-import { UserResponse, requestCodes } from '@utils/index';
+import { DEFAULT_LANG, UserResponse, requestCodes } from '@utils/index';
 import { handleAxiosError } from './handle-axios-error';
 
 export const checkUserExists = async (
@@ -52,7 +52,7 @@ export const signUp = async ({
         selectGame: false,
       },
       settings: {
-        lang: lang ?? 'en',
+        lang: lang ?? DEFAULT_LANG,
         configs: [],
       },
     })

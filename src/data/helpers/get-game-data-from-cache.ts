@@ -1,4 +1,9 @@
-import { GameContentItem, GameKeyEnum, LanguageType } from '@utils/index';
+import {
+  DEFAULT_LANG,
+  GameContentItem,
+  GameKeyEnum,
+  LanguageType,
+} from '@utils/index';
 import {
   fetchGameDataFromCache,
   getAllKeys,
@@ -18,7 +23,7 @@ interface GetGameDataFromCacheProps {
 // Get game data from cache or api
 export const getGameDataFromCache = async ({
   selectedGame,
-  lang = 'en',
+  lang = DEFAULT_LANG,
 }: GetGameDataFromCacheProps): Promise<GameContentItem[]> => {
   const newKey = `${selectedGame}-${lang}`;
   try {

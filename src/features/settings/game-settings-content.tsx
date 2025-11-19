@@ -11,7 +11,7 @@ import {
 import useGetTheme from '@styles/hooks/use-get-theme';
 import { useGameSettings } from './hooks';
 import { useMainState } from '@redux/hooks';
-import { LanguageType, AuthScreenEnum } from '@utils/index';
+import { LanguageType, AuthScreenEnum, DEFAULT_LANG } from '@utils/index';
 import { useEditUserData } from '@data/index';
 import { getGameLanguages, handleScroll } from '@utils/helpers/index';
 import { useDLCOptions, useGetShowHideOptions } from './views/hooks';
@@ -39,7 +39,7 @@ export const GameSettingsContent = () => {
   const { selectedGameData } = useMainState();
   const { user } = useAuthState();
   const [selectedLanguage, setSelectedLanguage] = useState<LanguageType>(
-    selectedGameData?.lang ?? 'en',
+    selectedGameData?.lang ?? DEFAULT_LANG,
   );
   const [isLanguagesOpen, setLanguagesOpen] = useState<boolean>(false);
 

@@ -8,19 +8,22 @@ import {
   SteamAchievementsState,
 } from '@utils/index';
 import { useEditUserData, useGetGameProgressData } from '@data/hooks/index';
+import { useAuthState } from '@redux/auth';
 
 export const useAchievements = () => {
   const { t } = useTranslation();
-  const { user, selectedGameData } = useMainState();
+  const { selectedGameData } = useMainState();
+  const { user } = useAuthState();
   const [progressViewOpen, setProgressViewOpen] = useState<boolean>(true);
   const [steamAchievementsOpen, setSteamAchievementsOpen] =
     useState<boolean>(true);
   const [achievementsState, setAchievementsState] =
     useState<SteamAchievementsState>({
-      hasPermission: !!user.steamId,
+      hasPermission: !!user?.steamId,
       items: [],
       noOfLocked: 0,
     });
+  // TODO: Handle no user
   const currentGame = getCurrentGame(
     selectedGameData?.id ?? user.gameData[0].id,
     user,

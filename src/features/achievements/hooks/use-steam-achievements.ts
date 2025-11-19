@@ -9,7 +9,7 @@ export const useSteamAchievements = () => {
   const fetchSteamAchievements = async () => {
     if (selectedGameData?.appId) {
       const results = await getSteamPlayerAchievements({
-        steamId: user.steamId ?? '',
+        steamId: user?.steamId ?? '',
         gameId: selectedGameData?.appId.toString(),
       });
       if (results) {

@@ -1,4 +1,4 @@
-import { useMainState } from '@redux/hooks';
+import { useAuthState } from '@redux/auth';
 import { SettingsOptionEnum } from '@utils/index';
 
 interface GetSettingsConfigReturnType {
@@ -7,11 +7,11 @@ interface GetSettingsConfigReturnType {
 }
 
 export const useGetSettingsConfig = (): GetSettingsConfigReturnType => {
-  const { user } = useMainState();
+  const { user } = useAuthState();
 
   const shouldShowCompletedItems = (): boolean => {
     return (
-      user.settings.configs.find(
+      user?.settings.configs.find(
         item => item.id === SettingsOptionEnum.COMPLETED_ITEMS,
       )?.isActive ?? true
     );
@@ -19,7 +19,7 @@ export const useGetSettingsConfig = (): GetSettingsConfigReturnType => {
 
   const shouldHideDisabledSections = (): boolean => {
     return (
-      user.settings.configs.find(
+      user?.settings.configs.find(
         item => item.id === SettingsOptionEnum.DISABLED_SECTIONS,
       )?.isActive ?? true
     );

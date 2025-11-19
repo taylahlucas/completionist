@@ -1,4 +1,4 @@
-import { urls } from './constants';
+import { DEFAULT_LANG, urls } from './constants';
 import * as RNLocalize from 'react-native-localize';
 import { LanguageType } from './custom-types';
 
@@ -44,11 +44,11 @@ export function getApiNameFromUrl(url: string) {
 
 export const getUserLang = (): LanguageType => {
   const locales = RNLocalize.getLocales();
-  const currentLang = locales[0]?.languageTag.split('-')[0] || 'en';
+  const currentLang = locales[0]?.languageTag.split('-')[0] || DEFAULT_LANG;
 
   if (currentLang as LanguageType) {
     return currentLang as LanguageType;
   } else {
-    return 'en' as LanguageType;
+    return DEFAULT_LANG;
   }
 };

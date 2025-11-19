@@ -25,7 +25,7 @@ export const useInitUserData = () => {
   useEffect(() => {
     switch (appState) {
       case 'inactive':
-        if (isLoggedIn && !!user.userId && shouldUpdateUser) {
+        if (isLoggedIn && user && shouldUpdateUser) {
           updateUserData(user);
         }
         return;

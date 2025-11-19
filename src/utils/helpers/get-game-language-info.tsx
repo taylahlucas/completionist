@@ -1,4 +1,9 @@
-import { gameLanguages, GameKeyEnum, LanguageType } from '@utils/index';
+import {
+  gameLanguages,
+  GameKeyEnum,
+  LanguageType,
+  DEFAULT_LANG,
+} from '@utils/index';
 
 export const getLanguageInEn = (lang: LanguageType): string => {
   switch (lang) {
@@ -33,10 +38,10 @@ export const getLanguageInEn = (lang: LanguageType): string => {
   }
 };
 export const getGameLanguages = (game: GameKeyEnum): LanguageType[] => {
-  return gameLanguages.find(item => item.key === game)?.langs ?? ['en'];
+  return gameLanguages.find(item => item.key === game)?.langs ?? [DEFAULT_LANG];
 };
 
 export const isLangAvailableInGame = (lang: LanguageType, game: GameKeyEnum) =>
-  (gameLanguages.find(item => item.key === game)?.langs ?? ['en']).find(
+  (gameLanguages.find(item => item.key === game)?.langs ?? [DEFAULT_LANG]).find(
     item => item === lang,
   );

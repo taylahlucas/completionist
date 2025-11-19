@@ -2,7 +2,7 @@ import { Dimensions } from 'react-native';
 import { ContentSectionEnum, GameKeyEnum } from './custom-enums';
 import { LanguageType } from './custom-types';
 
-export const defaultLang = 'en';
+export const DEFAULT_LANG = 'en';
 
 export const windowHeight = Dimensions.get('window').height;
 export const windowWidth = Dimensions.get('window').width;

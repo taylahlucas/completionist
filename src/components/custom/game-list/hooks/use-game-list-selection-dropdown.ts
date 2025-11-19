@@ -3,19 +3,20 @@ import {
   AuthScreenEnum,
   GameListSelectionType,
   LanguageType,
+  DEFAULT_LANG,
 } from '@utils/index';
 import { useMainDispatch } from '@redux/hooks';
 import { useReactNavigation } from '@navigation/hooks';
 import { getMappedGameData, getGameDataFromCache } from '@data/index';
-import { useMainState } from '@redux/hooks';
 import { useContentDispatch } from '@features/game-content/provider';
 import { isLangAvailableInGame } from '@utils/helpers/index';
 import { useTranslation } from 'react-i18next';
+import { useAuthState } from '@redux/auth';
 
 export const useGameListSelectionDropdown = () => {
   const { i18n } = useTranslation();
   const navigation = useReactNavigation();
-  const { user } = useMainState();
+  const { user } = useAuthState();
   const { setSelectedGameData, setSelectedGameDataSettings } =
     useMainDispatch();
   const { setGameContent } = useContentDispatch();
@@ -32,8 +33,8 @@ export const useGameListSelectionDropdown = () => {
   ): void => {
     if (type === 'active') {
       const gameLanguage: LanguageType =
-        user.gameData.find(item => item.id === game.id)?.lang ?? 'en';
-      const settingsLang = user.settings.lang;
+        user?.gameData.find(item => item.id === game.id)?.lang ?? DEFAULT_LANG;
+      const settingsLang = user?.settings.lang ?? DEFAULT_LANG;
 
       if (
         gameLanguage !== settingsLang &&

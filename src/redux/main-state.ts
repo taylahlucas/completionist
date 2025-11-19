@@ -1,11 +1,11 @@
 import { createSlice } from '@reduxjs/toolkit';
 import { GameKeyEnum, PaymentTierEnum } from '@utils/custom-enums';
-import { GameData } from '@utils/index';
+import { DEFAULT_LANG, GameData } from '@utils/index';
 
 export const initialGameData: GameData = {
   id: GameKeyEnum.SKYRIM,
   appId: 0,
-  lang: 'en',
+  lang: DEFAULT_LANG,
   tier: PaymentTierEnum.LARGE,
   quests: [],
   collectables: [],
