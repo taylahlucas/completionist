@@ -15,6 +15,7 @@ import { useContentDispatch } from '@features/game-content/provider';
 import { useTranslation } from 'react-i18next';
 import { userWithUpdatedGameLanguage } from '@utils/helpers/index';
 import { useAuthDispatch } from '@redux/auth';
+import { useMainDispatch } from '@redux/hooks';
 
 const triggerItem = (
   id: SettingsOptionEnum,
@@ -33,7 +34,8 @@ const triggerItem = (
 
 export const useGameSettings = () => {
   const { i18n } = useTranslation();
-  const { setUser, setShouldUpdateUser } = useAuthDispatch();
+  const { setUser } = useAuthDispatch();
+  const { setShouldUpdateUser } = useMainDispatch();
   const { setGameContent } = useContentDispatch();
   const { saveUser } = useEditUserData();
 

@@ -15,7 +15,6 @@ export const useAuthUser = (): User => {
   }, [user, resetStore]);
 
   if (!user) {
-    // TODO: Log properly
     throw new Error('Auth user not set'); // helps TS narrow type
   }
 

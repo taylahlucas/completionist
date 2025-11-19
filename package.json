@@ -8,7 +8,7 @@
     "clean-ios": "rm -rf node_modules package-lock.json yarn.lock && cd ios && rm -rf Pods Podfile.lock build && cd .. && rm -rf ~/Library/Developer/Xcode/DerivedData && npm install && rm -rf $TMPDIR/metro* && cd ios && pod install",
     "kill": "pkill -f 'react-native' && pkill -f 'Simulator'",
     "lint": "eslint .",
-    "start": "react-native start --reset-cache watchman watch-del-all",
+    "start": "watchman watch-del-all && react-native start --reset-cache",
     "test": "jest",
     "generate-locale": "babel-node --presets @babel/preset-env --extensions .ts scripts/locale.ts"
   },

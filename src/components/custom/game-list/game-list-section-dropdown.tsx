@@ -9,7 +9,7 @@ import {
 import { useGameListSelectionDropdown } from './hooks';
 import useGetTheme from '@styles/hooks/use-get-theme';
 
-interface GameListSectionDropdown {
+interface GameListSectionDropdownProps {
   testID?: string;
   type: GameListSelectionType;
   title: string;
@@ -21,7 +21,7 @@ export const GameListSectionDropdown = ({
   type,
   title,
   data,
-}: GameListSectionDropdown) => {
+}: GameListSectionDropdownProps) => {
   const theme = useGetTheme();
   const [isOpen, setIsOpen] = useState<boolean>(true);
   const { handleGameSelection } = useGameListSelectionDropdown();

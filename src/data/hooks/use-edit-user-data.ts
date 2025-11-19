@@ -4,6 +4,7 @@ import { User } from '@utils/index';
 import { updateUser, deleteUser } from '@data/index';
 import { resetStore } from '@redux/reset-store';
 import { useAuthDispatch } from '@redux/auth';
+import { useMainDispatch } from '@redux/hooks';
 
 interface EditUserDataReturnType {
   saveUser: (user: User) => void;
@@ -13,7 +14,8 @@ interface EditUserDataReturnType {
 
 export const useEditUserData = (): EditUserDataReturnType => {
   const { t } = useTranslation();
-  const { setUser, setShouldUpdateUser } = useAuthDispatch();
+  const { setUser } = useAuthDispatch();
+  const { setShouldUpdateUser } = useMainDispatch();
 
   // Save user locally without calling api
   const saveUser = (user: User) => {

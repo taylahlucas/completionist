@@ -5,7 +5,6 @@ import {
   setVerificationToken,
   setIsAuthenticated,
   triggerIsSigningUp,
-  setShouldUpdateUser,
   setUser,
   setCurrentScreen,
   setAppState,
@@ -19,7 +18,6 @@ interface AuthDispatch {
   triggerIsSigningUp: (value: boolean) => void;
   setIsGoogleSignIn: (value: boolean) => void;
   setVerificationToken: (token: string | undefined) => void;
-  setShouldUpdateUser: (value: boolean) => void;
   setUser: (value: User) => void;
   setCurrentScreen: (value: ScreenEnumType) => void;
   setAppState: (value: string) => void;
@@ -43,9 +41,6 @@ export const useAuthDispatch = (): AuthDispatch => {
     },
     setVerificationToken(token: string | undefined): void {
       dispatch(setVerificationToken(token));
-    },
-    setShouldUpdateUser(value: boolean): void {
-      dispatch(setShouldUpdateUser(value));
     },
     setUser(value: User): void {
       dispatch(setUser(value));

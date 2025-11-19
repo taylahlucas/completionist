@@ -12,7 +12,6 @@ export interface AuthState {
   readonly isLoggedIn: boolean;
   readonly isSigningUp: boolean;
   readonly isGoogleSignIn: boolean;
-  readonly shouldUpdateUser: boolean;
   readonly loginFormData: LoginFormData;
   readonly verificationToken?: string;
   readonly user?: User;
@@ -27,7 +26,6 @@ export const initialState: AuthState = {
   // TODO: Remove initial ? set ot optional
   loginFormData: initialFormData,
   isGoogleSignIn: false,
-  shouldUpdateUser: false,
 };
 
 const slice = createSlice({
@@ -51,9 +49,6 @@ const slice = createSlice({
     setVerificationToken: (state, action) => {
       state.verificationToken = action.payload;
     },
-    setShouldUpdateUser: (state, action) => {
-      state.shouldUpdateUser = action.payload;
-    },
     setUser: (state, action) => {
       state.user = action.payload;
     },
@@ -72,7 +67,6 @@ export const {
   setLoginFormData,
   setIsGoogleSignIn,
   setVerificationToken,
-  setShouldUpdateUser,
   setUser,
   setAppState,
   setCurrentScreen,

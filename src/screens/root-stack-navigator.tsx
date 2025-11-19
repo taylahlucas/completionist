@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import i18n from 'src/i18n/i18n.native';
 import { I18nextProvider } from 'react-i18next';
-import { AuthErrorBoundary, Condition } from '@components/general';
+import { Condition } from '@components/general';
 import { useMainDispatch, useMainState } from '@redux/hooks';
 import { Landing } from './';
 import { useTimedDataUpdate } from '@data/api/hooks';
@@ -17,7 +17,6 @@ export const RootStackNavigator = () => {
   // TODO: Generate isLoggedIn ?
   const { isLoggedIn } = useAuthState();
   useTimedDataUpdate();
-  console.log('isLoggedIn: ', isLoggedIn);
 
   useEffect(() => {
     const timerId = setTimeout(() => {
@@ -30,14 +29,7 @@ export const RootStackNavigator = () => {
   return (
     <Condition condition={!showSplashScreen} conditionalElement={<Landing />}>
       <I18nextProvider i18n={i18n}>
-        {isLoggedIn ? (
-          <AuthErrorBoundary
-            onAuthError={(): void => console.log('AuTH ERROR')}>
-            <AuthStackNavigator />
-          </AuthErrorBoundary>
-        ) : (
-          <UnAuthorizedStackNavigator />
-        )}
+        {isLoggedIn ? <AuthStackNavigator /> : <UnAuthorizedStackNavigator />}
       </I18nextProvider>
     </Condition>
   );

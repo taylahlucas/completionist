@@ -17,25 +17,9 @@ export const initialGameData: GameData = {
   },
 };
 
-// export const initialUser: User = {
-//   ...initialFormData,
-//   signup: {
-//     verification: false,
-//     setUsername: false,
-//     selectGame: false,
-//   },
-//   account: {
-//     pwAttempts: 0,
-//   },
-//   settings: {
-//     lang: 'en',
-//     configs: [],
-//   },
-//   gameData: [],
-// };
-
 export interface MainState {
   readonly showSplashScreen: boolean;
+  readonly shouldUpdateUser: boolean;
   readonly selectedGameData?: GameData;
   readonly selectedGameSettings: GameKeyEnum;
   readonly webSignInConfigured: boolean;
@@ -44,6 +28,7 @@ export interface MainState {
 
 export const initialState: MainState = {
   showSplashScreen: true,
+  shouldUpdateUser: false,
   webSignInConfigured: false,
   selectedGameSettings: GameKeyEnum.SKYRIM,
   searchValue: '',
@@ -67,6 +52,9 @@ const slice = createSlice({
     setShowSplashScreen: (state, action) => {
       state.showSplashScreen = action.payload;
     },
+    setShouldUpdateUser: (state, action) => {
+      state.shouldUpdateUser = action.payload;
+    },
     setSelectedGameData: (state, action) => {
       state.selectedGameData = action.payload;
     },
@@ -80,42 +68,43 @@ const slice = createSlice({
       state.searchValue = action.payload;
     },
     setCompletedQuests: (state, action) => {
-      // state.shouldUpdateUser = true;
-      // if (state.selectedGameData) {
-      //   const userData = getUserDataState(state);
-      //   userData.quests = action.payload;
-      //   state.selectedGameData.quests = action.payload;
-      // }
+      state.shouldUpdateUser = true;
+      if (state.selectedGameData) {
+        // const userData = getUserDataState(state);
+        // userData.quests = action.payload;
+        state.selectedGameData.quests = action.payload;
+      }
     },
     setCompletedCollectables: (state, action) => {
-      // state.shouldUpdateUser = true;
-      // if (state.selectedGameData) {
-      //   const userData = getUserDataState(state);
-      //   userData.collectables = action.payload;
-      //   state.selectedGameData.collectables = action.payload;
-      // }
+      state.shouldUpdateUser = true;
+      if (state.selectedGameData) {
+        // const userData = getUserDataState(state);
+        // userData.collectables = action.payload;
+        state.selectedGameData.collectables = action.payload;
+      }
     },
     setCompletedLocations: (state, action) => {
-      // state.shouldUpdateUser = true;
-      // if (state.selectedGameData) {
-      //   const userData = getUserDataState(state);
-      //   userData.locations = action.payload;
-      //   state.selectedGameData.locations = action.payload;
-      // }
+      state.shouldUpdateUser = true;
+      if (state.selectedGameData) {
+        // const userData = getUserDataState(state);
+        // userData.locations = action.payload;
+        state.selectedGameData.locations = action.payload;
+      }
     },
     setCompletedMiscItems: (state, action) => {
-      // state.shouldUpdateUser = true;
-      // if (state.selectedGameData) {
-      //   const userData = getUserDataState(state);
-      //   userData.miscellaneous = action.payload;
-      //   state.selectedGameData.miscellaneous = action.payload;
-      // }
+      state.shouldUpdateUser = true;
+      if (state.selectedGameData) {
+        // const userData = getUserDataState(state);
+        // userData.miscellaneous = action.payload;
+        state.selectedGameData.miscellaneous = action.payload;
+      }
     },
   },
 });
 
 export const {
   setShowSplashScreen,
+  setShouldUpdateUser,
   setSelectedGameData,
   setSelectedGameDataSettings,
   setWebSignInConfigured,

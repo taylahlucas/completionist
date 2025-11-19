@@ -1,5 +1,6 @@
 import React, { useCallback } from 'react';
 
+// TODO: Remove this?
 function AuthErrorBoundaryInner({
   onAuthError,
   children,

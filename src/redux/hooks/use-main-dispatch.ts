@@ -2,6 +2,7 @@ import { Dispatch } from 'redux';
 import { GameKeyEnum, GameData, Item } from '@utils/index';
 import {
   setShowSplashScreen,
+  setShouldUpdateUser,
   setSelectedGameData,
   setSelectedGameDataSettings,
   setWebSignInConfigured,
@@ -16,6 +17,7 @@ import { useAppDispatch } from '../store';
 // TODO: Change from value to more descriptive value
 interface MainDispatch {
   setShowSplashScreen: (value: boolean) => void;
+  setShouldUpdateUser: (value: boolean) => void;
   setSelectedGameData: (value?: GameData) => void;
   setSelectedGameDataSettings: (value: GameKeyEnum) => void;
   setWebSignInConfigured: (value: boolean) => void;
@@ -32,6 +34,9 @@ export const useMainDispatch = (): MainDispatch => {
   return {
     setShowSplashScreen(value: boolean): void {
       dispatch(setShowSplashScreen(value));
+    },
+    setShouldUpdateUser(value: boolean): void {
+      dispatch(setShouldUpdateUser(value));
     },
     setSelectedGameData(value?: GameData): void {
       dispatch(setSelectedGameData(value));

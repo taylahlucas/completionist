@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import { useMainState } from '@redux/hooks';
+import { useMainDispatch, useMainState } from '@redux/hooks';
 import {
   GameKeyEnum,
   SettingsConfigItem,
@@ -17,8 +17,9 @@ interface DLCOptionsReturnType {
 export const useDLCOptions = (): DLCOptionsReturnType => {
   const { t } = useTranslation();
   const user = useAuthUser();
-  const { setUser, setShouldUpdateUser } = useAuthDispatch();
+  const { setUser } = useAuthDispatch();
   const { selectedGameSettings } = useMainState();
+  const { setShouldUpdateUser } = useMainDispatch();
 
   const updateDLCSettingsConfig = (gameKey: GameKeyEnum, id: string) => {
     // TODO: Handle no user
