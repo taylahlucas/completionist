@@ -4,10 +4,10 @@ import {
   UnauthorizedStackParamList,
 } from '@utils/index';
 import {
-  LinkAccount,
-  SelectFirstGame,
   Landing,
+  LinkAccount,
   Login,
+  SelectFirstGame,
   SetUsername,
   VerifyAccount,
   VerifyNewPassword,
@@ -17,10 +17,10 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 const Stack = createNativeStackNavigator<UnauthorizedStackParamList>();
 
-export const UnAuthorizedStackNavigator = () => {
+export const UnAuthorizedStackNavigator = ({ showSplashScreen }: { showSplashScreen: boolean }) => {
   return (
     <Stack.Navigator
-      initialRouteName={UnAuthorizedScreenEnum.Login}
+      initialRouteName={showSplashScreen ? UnAuthorizedScreenEnum.Landing : UnAuthorizedScreenEnum.Login}
       screenOptions={{
         headerShown: false,
       }}>

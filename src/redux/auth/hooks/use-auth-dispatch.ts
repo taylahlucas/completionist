@@ -3,7 +3,6 @@ import {
   setLoginFormData,
   setIsGoogleSignIn,
   setVerificationToken,
-  setIsAuthenticated,
   setUser,
   setCurrentScreen,
   setAppState,
@@ -12,7 +11,6 @@ import { useAppDispatch } from '@redux/store';
 import { LoginFormData, ScreenEnumType, User } from '@utils/index';
 
 interface AuthDispatch {
-  setIsAuthenticated: (value: boolean) => void;
   setLoginFormData: (value: LoginFormData) => void;
   setIsGoogleSignIn: (value: boolean) => void;
   setVerificationToken: (token: string | undefined) => void;
@@ -25,9 +23,6 @@ export const useAuthDispatch = (): AuthDispatch => {
   const dispatch: Dispatch = useAppDispatch();
 
   return {
-    setIsAuthenticated(value: boolean): void {
-      dispatch(setIsAuthenticated(value));
-    },
     setLoginFormData(value: LoginFormData): void {
       dispatch(setLoginFormData(value));
     },

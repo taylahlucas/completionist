@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { Alert } from 'react-native';
 import { useTranslation } from 'react-i18next';
 import { isPwValid } from '@utils/helpers/index';
@@ -7,36 +7,17 @@ import { checkUserExists } from '@data/index';
 import { useIsRequestLoading } from '@data/api/hooks';
 import { useSendVerificationEmail } from '../login-form/hooks';
 import { useIsKeyboardVisible } from '@utils/hooks';
-import { useGetNavigationPath } from '@navigation/hooks';
-
 import { useAuthDispatch, useAuthState } from '@redux/auth';
 
 export const useLogin = () => {
   const { t } = useTranslation();
-  const { user, isLoggedIn, loginFormData } = useAuthState();
-  const { setIsAuthenticated, setLoginFormData } = useAuthDispatch();
+  const { loginFormData } = useAuthState();
+  const { setLoginFormData } = useAuthDispatch();
   const isRequestLoading = useIsRequestLoading();
   const isKeyboardVisible = useIsKeyboardVisible();
   const sendVerificationEmail = useSendVerificationEmail();
   const [isSigningUp, triggerIsSigningUp] = useState<boolean>(false);
   const [submitPressed, setSubmitPressed] = useState<boolean>(false);
-  const getNavigationPath = useGetNavigationPath();
-
-  // TODO: Move this to root stack nav ?
-  useEffect(() => {
-    if (isLoggedIn || isSigningUp) {
-      setIsAuthenticated(
-        user
-          ? user.signup.verification &&
-              user.signup.selectGame &&
-              user.signup.setUsername
-          : false,
-      );
-    }
-    if (!isLoggedIn && user) {
-      getNavigationPath(user);
-    }
-  }, [isLoggedIn, isSigningUp, user]);
 
   const onSubmit = () => {
     setSubmitPressed(true);

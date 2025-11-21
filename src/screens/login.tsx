@@ -5,12 +5,10 @@ import { NavigationHeader } from '@navigation/index';
 import { UnAuthorizedScreenEnum } from '@utils/index';
 import { LoginContent } from '@features/login';
 import { useIsRequestLoading } from '@data/api/hooks';
-import { useInitUserData } from '@data/hooks';
 
 export const Login = () => {
   const { t } = useTranslation();
   const isRequestLoading = useIsRequestLoading();
-  useInitUserData();
 
   return (
     <StandardLayout isLoading={isRequestLoading}>

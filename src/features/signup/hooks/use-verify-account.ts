@@ -5,7 +5,7 @@ import { useAuthDispatch, useAuthState } from '@redux/auth';
 
 export const useVerifyAccount = () => {
   const { user, loginFormData, verificationToken } = useAuthState();
-  const { setVerificationToken, setIsAuthenticated } = useAuthDispatch();
+  const { setVerificationToken } = useAuthDispatch();
   const isRequestLoading = useIsRequestLoading();
   const { saveUser } = useEditUserData();
 
@@ -21,7 +21,6 @@ export const useVerifyAccount = () => {
       linkAndSignIn,
       saveUser,
       setVerificationToken,
-      setIsAuthenticated,
     },
   };
 };

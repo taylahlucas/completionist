@@ -43,7 +43,7 @@ export const useGetLoginMethods = (
   const { setSelectedGameDataSettings, setShowSplashScreen } =
     useMainDispatch();
   const { user } = useAuthState();
-  const { setIsAuthenticated, setIsGoogleSignIn } = useAuthDispatch();
+  const { setIsGoogleSignIn } = useAuthDispatch();
   const { saveUser } = useEditUserData();
   const sendVerification = useSendVerificationEmail();
   const handleUserVerification = useVerifyUser();
@@ -89,7 +89,6 @@ export const useGetLoginMethods = (
             }).then(userResponse => {
               if (userResponse) {
                 saveUser(userResponse);
-                setIsAuthenticated(true);
                 if (userResponse.gameData) {
                   setSelectedGameDataSettings(userResponse.gameData[0]?.id);
                 }
@@ -152,6 +151,7 @@ export const useGetLoginMethods = (
 
       if (idToken && user.email && user.id) {
         checkUserExists(user.email).then(accounts => {
+          console.log('accounts: ', accounts);
           // If google account is not linked
           if (accounts.regular && !accounts.google) {
             linkGoogleAccount({ email: user.email, googleId: user.id });
@@ -185,6 +185,7 @@ export const useGetLoginMethods = (
           }
         });
       }
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
     } catch (error: GoogleError | any) {
       setShowSplashScreen(false);
       log({

@@ -42,6 +42,7 @@ export const useReactNavigation = (): NativeNavigation => {
     page: ScreenEnumType,
     params?: NavigatorParams[ScreenEnumType],
   ) => {
+    console.log('page: ', page);
     if (
       (page as DrawerScreenEnum) &&
       DRAWER_SCREENS.includes(page as DrawerScreenEnum)

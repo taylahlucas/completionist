@@ -1,9 +1,7 @@
 import React, { useEffect } from 'react';
 import i18n from 'src/i18n/i18n.native';
 import { I18nextProvider } from 'react-i18next';
-import { Condition } from '@components/general';
 import { useMainDispatch, useMainState } from '@redux/hooks';
-import { Landing } from './';
 import { useTimedDataUpdate } from '@data/api/hooks';
 import {
   AuthStackNavigator,
@@ -12,11 +10,14 @@ import {
 import { useAuthState } from '@redux/auth';
 
 export const RootStackNavigator = () => {
+  const { user } = useAuthState();
   const { showSplashScreen } = useMainState();
   const { setShowSplashScreen } = useMainDispatch();
-  // TODO: Generate isLoggedIn ?
-  const { isLoggedIn } = useAuthState();
-  useTimedDataUpdate();
+  const isLoggedIn = user
+    ? Object.values(user.signup).every(value => value === true)
+    : false;
+
+  useTimedDataUpdate(isLoggedIn, user);
 
   useEffect(() => {
     setShowSplashScreen(true);
@@ -29,10 +30,17 @@ export const RootStackNavigator = () => {
   }, []);
 
   return (
-    <Condition condition={!showSplashScreen} conditionalElement={<Landing />}>
-      <I18nextProvider i18n={i18n}>
-        {isLoggedIn ? <AuthStackNavigator /> : <UnAuthorizedStackNavigator />}
-      </I18nextProvider>
-    </Condition>
+    // <Condition condition={!showSplashScreen} conditionalElement={<Landing />}>
+    //   <I18nextProvider i18n={i18n}>
+    //     {isLoggedIn ? <AuthStackNavigator /> : <UnAuthorizedStackNavigator />}
+    //   </I18nextProvider>
+    // </Condition>
+    <I18nextProvider i18n={i18n}>
+      {isLoggedIn ? (
+        <AuthStackNavigator />
+      ) : (
+        <UnAuthorizedStackNavigator showSplashScreen={showSplashScreen} />
+      )}
+    </I18nextProvider>
   );
 };
