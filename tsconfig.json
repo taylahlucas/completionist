@@ -10,7 +10,6 @@
     "moduleSuffixes": [".android", ".ios", ""],
     "baseUrl": "./",
     "paths": {
-      "@animations/*": ["src/animations/*"],
       "@components/*": ["src/components/*"],
       "@data/*": ["src/data/*"],
       "@features/*": ["src/features/*"],

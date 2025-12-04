@@ -38,6 +38,7 @@ module.exports = {
           '@components': path.resolve(__dirname, 'src/components/'),
           '@features': path.resolve(__dirname, 'src/features/'),
           '@data': path.resolve(__dirname, 'src/data/'),
+          '@hooks': path.resolve(__dirname, 'src/hooks/'),
           '@redux': path.resolve(__dirname, 'src/redux/'),
           '@navigation': path.resolve(__dirname, 'src/navigation/'),
           '@screens': path.resolve(__dirname, 'src/screens/'),
