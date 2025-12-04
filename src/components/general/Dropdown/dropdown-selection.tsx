@@ -5,7 +5,7 @@ import {
   DropdownSelectionInnerContainer,
   DropdownSelectionTitle,
 } from './dropdown-styled-components';
-import { IconButton } from '../';
+import { IconButton } from '..';
 
 interface DropdownSelectionProps {
   title: string;

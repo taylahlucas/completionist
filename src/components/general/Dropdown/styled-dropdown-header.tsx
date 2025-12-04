@@ -2,7 +2,7 @@ import React from 'react';
 import { DropdownTitleContainer } from './dropdown-styled-components';
 import useGetTheme from '@styles/hooks/use-get-theme';
 import { IconTypeEnum } from '@utils/index';
-import { Icon, Seperator, StyledText } from '../';
+import { Icon, Seperator, StyledText } from '..';
 import {
   SMALL_PADDING,
   MID_PADDING,

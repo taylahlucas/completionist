@@ -1,8 +1,7 @@
 import React from 'react';
 import { render } from '@utils/testing/test-library-utils';
 import { initialState as mainState } from '@redux/main-state';
-import { userLoggedInMock } from '@utils/testing/test-helper/__mocks__/mocks';
-import GameListSectionDropdown from '../game-list-section-dropdown';
+import { GameListSectionDropdown } from '../game-list-section-dropdown';
 
 const props = {
   title: 'Active',
@@ -13,7 +12,7 @@ const props = {
 const initialState = {
   main: {
     ...mainState,
-    user: userLoggedInMock,
+    user: {},
   },
 };
 

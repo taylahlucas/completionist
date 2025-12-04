@@ -1,12 +1,12 @@
 import React from 'react';
 import { LayoutAnimation } from 'react-native';
-import { Condition } from '../';
 import { DropdownPressable, DropdownContainer } from './';
+import { Condition } from '../condition';
 
 interface DropdownProps {
   testID?: string;
-  header: any;
-  children: any;
+  header: React.ReactNode;
+  children: React.ReactNode;
   isOpen: boolean;
   setOpen: (value: boolean) => void;
   enabled?: boolean;

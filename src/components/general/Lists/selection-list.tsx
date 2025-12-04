@@ -4,7 +4,7 @@ import {
   SelectionListContainer,
   SelectionListItemContainer,
   SelectListTitle,
-} from '../';
+} from '..';
 import useGetTheme from '@styles/hooks/use-get-theme';
 import { IsActive } from '@utils/index';
 import { useTranslation } from 'react-i18next';

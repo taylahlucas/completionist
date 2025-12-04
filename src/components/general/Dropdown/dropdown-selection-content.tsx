@@ -4,7 +4,7 @@ import {
   DropdownSelectionItemTitle,
   DropdownSelectionContentItem,
 } from './dropdown-styled-components';
-import { ScrollableList } from '../';
+import { ScrollableList } from '..';
 
 interface DropdownSelectionProps {
   id: string;
@@ -23,10 +23,7 @@ export const DropdownSelectionContent = ({
   const theme = useGetTheme();
 
   return (
-    <ScrollableList
-      bounces={false}
-      alignItems={true}
-      style={{ maxHeight: content.length * 45 }}>
+    <ScrollableList bounces={false} style={{ maxHeight: content.length * 45 }}>
       {content.map((item, index) => (
         <DropdownSelectionContentItem
           key={index}

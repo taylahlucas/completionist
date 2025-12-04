@@ -9,7 +9,7 @@ import {
   AnimatedCheckBox,
   Condition,
   StyledText,
-} from '../';
+} from '..';
 import { getLocationString, capitalize } from '@utils/helpers/index';
 
 interface ListItemProps {
