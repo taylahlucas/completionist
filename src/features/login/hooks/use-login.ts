@@ -6,7 +6,7 @@ import { UnAuthorizedScreenEnum } from '@utils/index';
 import { checkUserExists } from '@data/index';
 import { useIsRequestLoading } from '@data/api/hooks';
 import { useSendVerificationEmail } from '../login-form/hooks';
-import { useIsKeyboardVisible } from '@utils/hooks';
+import { useIsKeyboardVisible } from '@hooks/';
 import { useAuthDispatch, useAuthState } from '@redux/auth';
 
 export const useLogin = () => {

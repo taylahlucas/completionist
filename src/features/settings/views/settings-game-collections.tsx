@@ -15,7 +15,7 @@ import {
 } from '@components/general';
 
 import { useMainState, useMainDispatch } from '@redux/hooks';
-import { useFilterGameList } from '@utils/hooks';
+import { useFilterGameList } from '@hooks/';
 import { useAuthUser } from '@redux/auth';
 
 export const SettingsGameCollections = () => {

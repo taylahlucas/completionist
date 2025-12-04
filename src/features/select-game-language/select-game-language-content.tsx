@@ -19,7 +19,7 @@ import { AuthScreenEnum, GameKeyEnum } from '@utils/custom-enums';
 import { GameData } from '@utils/custom-interfaces';
 import { LanguageType } from '@utils/custom-types';
 import { userWithUpdatedGameLanguage } from '@utils/helpers/index';
-import { useFilterGameList } from '@utils/hooks';
+import { useFilterGameList } from '@hooks/';
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 

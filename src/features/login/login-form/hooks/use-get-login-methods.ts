@@ -30,6 +30,8 @@ interface GoogleError {
 }
 
 interface GetLoginMethodsReturnType {
+  userSignIn: ({ email, pw, googleId }: SignInProps) => Promise<void>;
+  linkAccount: (email: string) => void;
   checkUserAccount: ({ email, pw }: SignInProps) => Promise<void>;
   googleUserSignIn: () => Promise<void>;
   signOut: () => Promise<void>;
@@ -102,7 +104,7 @@ export const useGetLoginMethods = (
     );
   };
 
-  const linkAccount = (email: string) => {
+  const linkAccount = (email: string): void => {
     Alert.alert(
       t('common:errors.accountExists'),
       t('common:errors.accountExistsMsg'),
@@ -124,23 +126,21 @@ export const useGetLoginMethods = (
     );
   };
 
-  const checkUserAccount = async ({ email, pw }: SignInProps) => {
+  const checkUserAccount = async ({ account, email, pw }: SignInProps) => {
     // Only runs on regular sign in
-    checkUserExists(email).then(accounts => {
-      if (accounts.regular) {
-        userSignIn({
-          email,
-          pw,
-        });
-      } else if (accounts.google && !accounts.regular) {
-        linkAccount(email);
-      } else {
-        Alert.alert(
-          t('common:errors.emailNotFound'),
-          t('common:errors.checkCredentials'),
-        );
-      }
-    });
+    if (account?.regular) {
+      userSignIn({
+        email,
+        pw,
+      });
+    } else if (account?.google && !account?.regular) {
+      linkAccount(email);
+    } else {
+      Alert.alert(
+        t('common:errors.emailNotFound'),
+        t('common:errors.checkCredentials'),
+      );
+    }
   };
 
   const googleUserSignIn = async () => {
@@ -221,6 +221,8 @@ export const useGetLoginMethods = (
   };
 
   return {
+    userSignIn,
+    linkAccount,
     checkUserAccount,
     googleUserSignIn,
     signOut,

@@ -5,7 +5,7 @@ import { getFormattedSearchString } from '@utils/helpers/index';
 import { allGameData } from '@utils/configs/game-configs';
 import { useState } from 'react';
 import { GameKeyEnum } from '@utils/index';
-import { useFilterGameList } from '@utils/hooks';
+import { useFilterGameList } from '@hooks/';
 import { useAuthDispatch, useAuthState, useAuthUser } from '@redux/auth';
 
 export const useSelectFirstGame = () => {

@@ -10,13 +10,14 @@
     "moduleSuffixes": [".android", ".ios", ""],
     "baseUrl": "./",
     "paths": {
-      "@components/*": ["src/components/*"],
-      "@features/*": ["src/features/*"],
-      "@data/*": ["src/data/*"],
-      "@redux/*": ["src/redux/*"],
-      "@navigation/*": ["src/navigation/*"],
-      "@screens/*": ["src/screens/*"],
       "@animations/*": ["src/animations/*"],
+      "@components/*": ["src/components/*"],
+      "@data/*": ["src/data/*"],
+      "@features/*": ["src/features/*"],
+      "@hooks/*": ["src/hooks/"],
+      "@navigation/*": ["src/navigation/*"],
+      "@redux/*": ["src/redux/*"],
+      "@screens/*": ["src/screens/*"],
       "@styles/*": ["src/styles/*"],
       "@utils/*": ["src/utils/*"]
     }

@@ -121,3 +121,7 @@ export const forgotPw = async ({
     email: email.toLocaleLowerCase(),
     newPw,
   });
+
+export const authEndpoints = {
+  checkUserExists,
+};

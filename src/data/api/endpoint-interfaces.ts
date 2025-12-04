@@ -17,6 +17,7 @@ export interface SignUpProps {
 
 export interface SignInProps {
   email: string;
+  account?: CredentialsExistProps;
   pw?: string;
   googleId?: string;
 }

@@ -126,3 +126,5 @@ SMALL => < 50 Quests
 DynamoDB & Node.js -> https://docs.aws.amazon.com/sdk-for-javascript/v3/developer-guide/dynamodb-example-dynamodb-utilities.html
 
 Mock test card number: 4242 4242 4242 4242
+
+// https://www.reddit.com/r/reactjs/comments/18z3nsi/tanstack_react_query_architecture/
