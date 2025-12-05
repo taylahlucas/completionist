@@ -19,6 +19,27 @@ const axiosInstance = axios.create({
   baseURL: baseUrl,
 });
 
+// To be used with orval type generation
+export async function customAxiosInstance<T>({
+  url,
+  method,
+  data,
+  headers,
+}: {
+  url: string;
+  method: string;
+  data?: unknown;
+  headers?: Record<string, string>;
+}): Promise<T> {
+  const response = await axiosInstance.request<T>({
+    url,
+    method,
+    data,
+    headers,
+  });
+  return response.data;
+}
+
 setupCache(axiosInstance);
 
 axiosInstance.interceptors.request.use(
