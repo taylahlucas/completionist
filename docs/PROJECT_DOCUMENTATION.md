@@ -3,7 +3,7 @@
 ### Overview
 - **Platform**: React Native (iOS & Android) with React 19.
 - **State management**: Redux Toolkit with feature-specific slices, async persistence hooks, and migration toward an `auth`-centric session slice.
-- **Networking**: Axios instance (`authInterceptor`) that attaches auth headers, logs, and error handling; endpoints defined in `src/data/api`.
+- **Networking**: Axios instance (`axiosInstance`) that attaches auth headers, logs, and error handling; endpoints defined in `src/api`.
 - **Caching**: `AsyncStorage` for hydrated game data and `react-native-keychain` for credentials.
 
 ---
@@ -108,8 +108,8 @@
 ---
 
 ## API Reference
-- **Base URL**: `baseUrl` set via `IOS_LOCAL_URL` / `ANDROID_LOCAL_URL` in `.env` (see `src/data/api/urls.ts`). Every endpoint is accessed as `${baseUrl}/<path>`.
-- **Client**: `authInterceptor` wraps Axios, adds auth headers, stores refresh tokens, logs success/failure, and centralizes error handling via `handleAxiosError`.
+- **Base URL**: `baseUrl` set via `IOS_LOCAL_URL` / `ANDROID_LOCAL_URL` in `.env` (see `src/api/urls.ts`). Every endpoint is accessed as `${baseUrl}/<path>`.
+- **Client**: `axiosInstance` wraps Axios, adds auth headers, stores refresh tokens, logs success/failure, and centralizes error handling via `handleAxiosError`.
 
 ### Authentication Endpoints
 | Endpoint | Method | Path | Description |

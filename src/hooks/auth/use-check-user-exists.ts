@@ -1,4 +1,4 @@
-import { authEndpoints, CredentialsExistProps } from '@data/api';
+import { authEndpoints, CredentialsExistProps } from '@api/';
 import { useQuery } from '@tanstack/react-query';
 
 // export const checkUserExists = async ({

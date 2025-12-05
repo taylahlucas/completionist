@@ -4,7 +4,7 @@ import { StandardLayout } from '@components/general';
 import { NavigationHeader } from '@navigation/index';
 import { UnAuthorizedScreenEnum } from '@utils/index';
 import { LoginContent } from '@features/login';
-import { useIsRequestLoading } from '@data/api/hooks';
+import { useIsRequestLoading } from '@api/';
 
 export const Login = () => {
   const { t } = useTranslation();

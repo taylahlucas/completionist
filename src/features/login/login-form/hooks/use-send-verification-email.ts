@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import { sendVerificationEmail } from '@data/index';
+import { sendVerificationEmail } from '@api/';
 import { UnAuthorizedScreenEnum } from '@utils/index';
 import { useReactNavigation } from '@navigation/hooks';
 import { useAuthDispatch } from '@redux/auth';

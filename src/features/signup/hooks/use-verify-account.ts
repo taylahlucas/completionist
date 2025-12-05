@@ -1,5 +1,4 @@
-import { signUp, linkAndSignIn } from '@data/index';
-import { useIsRequestLoading } from '@data/api/hooks';
+import { signUp, linkAndSignIn, useIsRequestLoading } from '@api/';
 import { useEditUserData } from '@data/hooks/index';
 import { useAuthDispatch, useAuthState } from '@redux/auth';
 

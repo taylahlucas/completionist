@@ -1,7 +1,8 @@
 import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useMainState } from '@redux/hooks';
-import { getCurrentGame, getSteamPlayerAchievements } from '@data/index';
+import { getCurrentGame } from '@data/index';
+import { getSteamPlayerAchievements } from '@api/';
 import {
   GameKeyEnum,
   SteamAchievementItem,

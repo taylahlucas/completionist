@@ -35,6 +35,7 @@ module.exports = {
           '.json',
         ],
         alias: {
+          '@api': path.resolve(__dirname, 'src/api/'),
           '@components': path.resolve(__dirname, 'src/components/'),
           '@features': path.resolve(__dirname, 'src/features/'),
           '@data': path.resolve(__dirname, 'src/data/'),

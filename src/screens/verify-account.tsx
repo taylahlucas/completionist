@@ -4,7 +4,7 @@ import { StandardLayout } from '@components/general';
 import { NavigationHeader } from '@navigation/index';
 import { UnAuthorizedScreenEnum } from '@utils/index';
 import { VerifyAccountContent } from '@features/signup';
-import { useIsRequestLoading } from '@data/api/hooks';
+import { useIsRequestLoading } from '@api/';
 
 export const VerifyAccount = () => {
   const { t } = useTranslation();

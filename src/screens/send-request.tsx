@@ -10,7 +10,7 @@ import {
   ParagraphView,
 } from '@components/general';
 import { NavigationHeader } from '@navigation/index';
-import { sendEmail } from '@data/api/endpoints';
+import { sendEmail } from '@api/';
 import { DrawerScreenEnum } from '@utils/index';
 import { useAuthUser } from '@redux/auth';
 

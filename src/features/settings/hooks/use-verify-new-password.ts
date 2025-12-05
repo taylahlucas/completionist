@@ -1,6 +1,6 @@
 import { Alert } from 'react-native';
 import { useTranslation } from 'react-i18next';
-import { forgotPw } from '@data/index';
+import { forgotPw } from '@api/';
 import { useReactNavigation } from '@navigation/hooks';
 import { UnAuthorizedScreenEnum } from '@utils/index';
 import { initialFormData, useAuthDispatch, useAuthState } from '@redux/auth';

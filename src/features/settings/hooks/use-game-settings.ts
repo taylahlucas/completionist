@@ -1,9 +1,9 @@
 import {
   getGameDataFromCache,
   getMappedGameData,
-  updateUser,
   useEditUserData,
 } from '@data/index';
+import { updateUser } from '@api/';
 import {
   SettingsOptionItem,
   SettingsOptionEnum,

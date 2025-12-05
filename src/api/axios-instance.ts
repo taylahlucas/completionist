@@ -15,13 +15,13 @@ import envConfig from '@utils/configs/config';
 import { baseUrl } from './urls';
 import { getCredentials, storeCredentials } from '@data/cache';
 
-const authInterceptor = axios.create({
+const axiosInstance = axios.create({
   baseURL: baseUrl,
 });
 
-setupCache(authInterceptor);
+setupCache(axiosInstance);
 
-authInterceptor.interceptors.request.use(
+axiosInstance.interceptors.request.use(
   async function (config) {
     const credentials = await getCredentials();
 
@@ -43,7 +43,7 @@ authInterceptor.interceptors.request.use(
   },
 );
 
-authInterceptor.interceptors.response.use(
+axiosInstance.interceptors.response.use(
   function (response) {
     // Store refresh token when it is returned by the api
     if (response.data.user?.userId && response.data.token) {
@@ -80,4 +80,4 @@ authInterceptor.interceptors.response.use(
   },
 );
 
-export default authInterceptor;
+export default axiosInstance;

@@ -9,7 +9,7 @@ import {
   SteamAchievementsProps,
   SteamAchievementsReturnType,
 } from './endpoint-interfaces';
-import authInterceptor from './auth-interceptor';
+import axiosInstance from './axios-instance';
 import {
   baseUrl,
   getUserByUserIdUrl,
@@ -21,7 +21,7 @@ import {
   steamPlayerAchievementsUrl,
   createPaymentUrl,
   getGameDataUrl,
-} from '@data/api/urls';
+} from 'src/api/urls';
 import {
   requestCodes,
   UserResponse,
@@ -35,7 +35,7 @@ import {
 export const getUserByUserId = async ({
   userId,
 }: GetUserByUserIdProps): Promise<UserResponse> =>
-  await authInterceptor
+  await axiosInstance
     .get(`${baseUrl}/${getUserByUserIdUrl}/${userId}`)
     .then(response => {
       if (response.data.user) {
@@ -45,7 +45,7 @@ export const getUserByUserId = async ({
     });
 
 export const updateUser = async (user: User): Promise<UserResponse> =>
-  await authInterceptor
+  await axiosInstance
     .patch(`${baseUrl}/${updateUserUrl}/${user.userId}`, {
       username: user.username,
       email: user.email,
@@ -62,7 +62,7 @@ export const changePw = async ({
   oldPw,
   newPw,
 }: ChangePwProps): Promise<boolean> =>
-  await authInterceptor
+  await axiosInstance
     .patch(`${baseUrl}/${changePwUrl}/${userId}`, {
       oldPw,
       newPw,
@@ -74,19 +74,19 @@ export const sendEmail = async ({
   subject,
   text,
 }: SendEmailProps): Promise<void> =>
-  await authInterceptor.post(`${baseUrl}/${sendEmailUrl}`, {
+  await axiosInstance.post(`${baseUrl}/${sendEmailUrl}`, {
     from: emailTo,
     subject: subject,
     text: `${emailTo}\n\n${text}`,
   });
 
 export const deleteUser = async (userId: string): Promise<void> =>
-  await authInterceptor.delete(`${baseUrl}/${deleteUserUrl}/${userId}`);
+  await axiosInstance.delete(`${baseUrl}/${deleteUserUrl}/${userId}`);
 
 export const getSteamUserById = async (
   steamId: string,
 ): Promise<SteamProfile | void> =>
-  await authInterceptor
+  await axiosInstance
     .get(`${baseUrl}/${steamProfileUrl}?steamId=${steamId}`)
     .then(response => {
       if (response?.data) {
@@ -102,7 +102,7 @@ export const getSteamPlayerAchievements = async ({
   gameId,
 }: SteamAchievementsProps): Promise<SteamAchievementsReturnType | void> => {
   try {
-    const response = await authInterceptor.get(
+    const response = await axiosInstance.get(
       `${baseUrl}/${steamPlayerAchievementsUrl}?steamId=${steamId}&gameId=${gameId}`,
     );
     if (response?.data) {
@@ -131,7 +131,7 @@ export const createPayment = async ({
   game,
 }: // eslint-disable-next-line @typescript-eslint/no-explicit-any
 CreatePaymentProps): Promise<any> =>
-  await authInterceptor
+  await axiosInstance
     .post(`${baseUrl}/${createPaymentUrl}/${userId}`, {
       amount,
       game,
@@ -142,6 +142,6 @@ export const getGameData = async ({
   game,
   lang,
 }: GetGameDataProps): Promise<GameContentItem[] | void> =>
-  await authInterceptor
+  await axiosInstance
     .get(`${baseUrl}/${getGameDataUrl}/?game=${game}&lang=${lang}`)
     .then(response => response.data.response.Items as GameContentItem[]);

@@ -2,16 +2,15 @@ import { Alert } from 'react-native';
 import { useTranslation } from 'react-i18next';
 import uuid from 'react-native-uuid';
 import { GoogleSignin } from '@react-native-google-signin/google-signin';
+import { useEditUserData, useVerifyUser } from '@data/index';
 import {
-  useEditUserData,
   checkUserExists,
   linkAndSignIn,
   signIn,
   signUp,
   SignInProps,
   updateUser,
-  useVerifyUser,
-} from '@data/index';
+} from '@api/';
 import { useMainDispatch, useMainState } from '@redux/hooks';
 import { log } from '@utils/helpers/index';
 import { useSendVerificationEmail } from './';

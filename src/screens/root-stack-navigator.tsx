@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import i18n from 'src/i18n/i18n.native';
 import { I18nextProvider } from 'react-i18next';
 import { useMainDispatch, useMainState } from '@redux/hooks';
-import { useTimedDataUpdate } from '@data/api/hooks';
+import { useTimedDataUpdate } from '@api/';
 import {
   AuthStackNavigator,
   UnAuthorizedStackNavigator,

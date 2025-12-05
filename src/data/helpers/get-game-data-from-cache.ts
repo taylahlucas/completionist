@@ -9,8 +9,8 @@ import {
   getAllKeys,
   removeItemFromCache,
   saveToCache,
-  getGameData,
 } from '@data/index';
+import { getGameData } from '@api/';
 import { Alert } from 'react-native';
 import { log } from '@utils/helpers/index';
 

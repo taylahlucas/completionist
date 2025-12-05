@@ -1,13 +1,11 @@
 import uuid from 'react-native-uuid';
-import authInterceptor from './auth-interceptor';
+import axiosInstance from './axios-instance';
 import {
   CredentialsExistProps,
   ForgotPwProps,
   SendEmailProps,
   SignInProps,
   SignUpProps,
-} from './endpoint-interfaces';
-import {
   baseUrl,
   checkUserExistsUrl,
   forgotPwUrl,
@@ -15,14 +13,14 @@ import {
   sendVerificationEmailUrl,
   signinUrl,
   signupUrl,
-} from '@data/index';
+} from './';
 import { DEFAULT_LANG, UserResponse, requestCodes } from '@utils/index';
 import { handleAxiosError } from './handle-axios-error';
 
 export const checkUserExists = async (
   email: string,
 ): Promise<CredentialsExistProps> =>
-  await authInterceptor
+  await axiosInstance
     .post(`${baseUrl}/${checkUserExistsUrl}`, {
       email: email.toLocaleLowerCase(),
     })
@@ -36,7 +34,7 @@ export const signUp = async ({
   data,
   lang,
 }: SignUpProps): Promise<UserResponse> =>
-  await authInterceptor
+  await axiosInstance
     .post(`${baseUrl}/${signupUrl}`, {
       userId: data.userId ? data.userId : uuid.v4(),
       username: data.username,
@@ -68,7 +66,7 @@ export const signIn = async ({
   pw,
   googleId,
 }: SignInProps): Promise<UserResponse> =>
-  await authInterceptor
+  await axiosInstance
     .post(`${baseUrl}/${signinUrl}`, {
       email: email.toLocaleLowerCase(),
       pw,
@@ -88,7 +86,7 @@ export const linkAndSignIn = async ({
   pw,
   googleId,
 }: SignInProps): Promise<UserResponse> =>
-  await authInterceptor
+  await axiosInstance
     .patch(`${baseUrl}/${linkAndSignInUrl}`, {
       email: email.toLocaleLowerCase(),
       pw,
@@ -107,7 +105,7 @@ export const sendVerificationEmail = async ({
   subject,
   text,
 }: SendEmailProps): Promise<void> =>
-  await authInterceptor.post(`${baseUrl}/${sendVerificationEmailUrl}`, {
+  await axiosInstance.post(`${baseUrl}/${sendVerificationEmailUrl}`, {
     to: emailTo,
     subject,
     text,
@@ -117,7 +115,7 @@ export const forgotPw = async ({
   email,
   newPw,
 }: ForgotPwProps): Promise<void> =>
-  await authInterceptor.patch(`${baseUrl}/${forgotPwUrl}`, {
+  await axiosInstance.patch(`${baseUrl}/${forgotPwUrl}`, {
     email: email.toLocaleLowerCase(),
     newPw,
   });

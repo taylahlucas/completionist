@@ -6,11 +6,11 @@ import {
 import { useActivateGame, useTranslateGameContent } from '@data/hooks';
 import { allGameData } from '@utils/configs/game-configs';
 import {
-  createPayment,
   getMappedGameData,
   getGameDataFromCache,
   getPriceForGame,
 } from '@data/index';
+import { createPayment } from '@api/';
 import { Alert } from 'react-native';
 import { GameKeyEnum, GameContentState, GameData } from '@utils/index';
 import { useReactNavigation } from '@navigation/hooks';

@@ -7,9 +7,9 @@ import {
 import {
   getGameDataFromCache,
   getMappedGameData,
-  updateUser,
   useEditUserData,
 } from '@data/index';
+import { updateUser } from '@api/';
 import { useContentDispatch } from '@features/game-content/provider';
 import { useReactNavigation } from '@navigation/hooks';
 import { useAuthUser } from '@redux/auth';

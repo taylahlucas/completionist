@@ -4,7 +4,7 @@ import { NavigationHeader } from '@navigation/index';
 import { StandardLayout } from '@components/general';
 import { UnAuthorizedScreenEnum } from '@utils/index';
 import { SelectFirstGameContent } from '@features/signup';
-import { useIsRequestLoading } from '@data/api/hooks';
+import { useIsRequestLoading } from '@api/';
 
 export const SelectFirstGame = () => {
   const { t } = useTranslation();

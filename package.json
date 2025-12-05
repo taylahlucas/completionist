@@ -4,13 +4,14 @@
   "private": true,
   "scripts": {
     "android": "ENVFILE=.env react-native run-android",
-    "ios": "ENVFILE=.env react-native run-ios",
+    "ios": "ENVFILE=.env watchman watch-del-all && react-native run-ios",
     "clean-ios": "rm -rf node_modules package-lock.json yarn.lock && cd ios && rm -rf Pods Podfile.lock build && cd .. && rm -rf ~/Library/Developer/Xcode/DerivedData && npm install && rm -rf $TMPDIR/metro* && cd ios && pod install",
     "kill": "pkill -f 'react-native' && pkill -f 'Simulator'",
     "lint": "eslint .",
-    "start": "watchman watch-del-all && react-native start --reset-cache",
+    "start": "ENVFILE=.env watchman watch-del-all && react-native start --reset-cache",
     "test": "jest",
-    "generate-locale": "babel-node --presets @babel/preset-env --extensions .ts scripts/locale.ts"
+    "generate-locale": "babel-node --presets @babel/preset-env --extensions .ts scripts/locale.ts",
+    "generate:api": "orval"
   },
   "dependencies": {
     "@apollo/client": "^3.8.8",
@@ -88,6 +89,7 @@
     "eslint": "^8.19.0",
     "eslint-plugin-unused-imports": "^4.3.0",
     "jest": "^29.2.1",
+    "orval": "^7.17.0",
     "prettier": "^2.4.1",
     "typescript": "^5.3.3",
     "typescript-plugin-styled-components": "^3.0.0"

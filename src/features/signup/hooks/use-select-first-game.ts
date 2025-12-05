@@ -1,4 +1,4 @@
-import { useIsRequestLoading } from '@data/api/hooks';
+import { useIsRequestLoading } from '@api/';
 import { useMainDispatch } from '@redux/hooks';
 import { useActivateGame, useEditUserData } from '@data/hooks';
 import { getFormattedSearchString } from '@utils/helpers/index';

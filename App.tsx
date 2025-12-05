@@ -9,7 +9,7 @@ import { Landing, RootStackNavigator } from '@screens/index';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import { PersistGate } from 'redux-persist/integration/react';
 import { DevToolsBubble } from 'react-native-react-query-devtools';
-import { queryClient } from '@data/api';
+import { queryClient } from 'src/api';
 
 GoogleSignin.configure({
   webClientId: config.webClientId,

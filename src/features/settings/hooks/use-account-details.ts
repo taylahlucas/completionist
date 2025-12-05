@@ -5,7 +5,7 @@ import { useEditUserData } from '@data/hooks';
 import { useReactNavigation } from '@navigation/hooks';
 import { DrawerScreenEnum } from '@utils/index';
 import { isEmailValid, isPwValid, isNameValid } from '@utils/helpers/index';
-import { updateUser, changePw, checkUserExists } from '@data/index';
+import { updateUser, changePw, checkUserExists } from '@api/';
 import { useAuthState, useAuthUser } from '@redux/auth';
 
 export interface ChangeAccountDetailsItem {

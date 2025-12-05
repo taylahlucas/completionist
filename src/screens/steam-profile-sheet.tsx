@@ -16,7 +16,7 @@ import {
 import { DEFAULT_BORDER_RADIUS } from '@styles/global';
 import { Sheet } from '@navigation/index';
 import { useAchievements } from '../features/achievements/hooks';
-import { getSteamUserById } from '@data/api';
+import { getSteamUserById } from '@api/';
 import { SteamProfile } from '@utils/custom-interfaces';
 
 type ProfileViewType = 'add' | 'view';
