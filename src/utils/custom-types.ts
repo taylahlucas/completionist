@@ -1,11 +1,10 @@
 import { AxiosError } from 'axios';
-import { User } from './custom-interfaces';
 import {
   AuthScreenEnum,
   DrawerScreenEnum,
-  GameKeyEnum,
   UnAuthorizedScreenEnum,
 } from './custom-enums';
+import { GameKey, User } from '@api/';
 
 // Styles
 
@@ -51,21 +50,6 @@ export type ButtonType = 'default' | 'text' | 'navigation' | 'footer';
 export type TextInputStyleType = 'default' | 'text' | 'verification';
 export type ValidatorType = 'none' | 'email';
 
-export type LanguageType =
-  | 'ar'
-  | 'de'
-  | 'en'
-  | 'es'
-  | 'fr'
-  | 'hi'
-  | 'id'
-  | 'it'
-  | 'ja'
-  | 'pt'
-  | 'tr'
-  | 'vi'
-  | 'zh';
-
 // Navigation
 
 export type ScreenEnumType =
@@ -100,7 +84,7 @@ export type NavigatorParams = {
   [AuthScreenEnum.GlobalAccountDetails]: undefined;
   [AuthScreenEnum.GlobalSteamAchievements]: undefined;
   [AuthScreenEnum.GlobalAchievements]: undefined;
-  [AuthScreenEnum.PurchaseGame]: [gameId: GameKeyEnum];
+  [AuthScreenEnum.PurchaseGame]: [gameId: GameKey];
   [AuthScreenEnum.SteamProfile]: [steamId: string, viewType: 'add' | 'view'];
   [AuthScreenEnum.DrawerStack]: undefined;
   [DrawerScreenEnum.Quests]: undefined;

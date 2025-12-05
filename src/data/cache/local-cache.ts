@@ -1,10 +1,10 @@
+import { User } from '@api/';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { log } from '@utils/helpers/index';
 import {
   CACHE_EXPIRY_TIME,
   CachedData,
   GameContentItem,
-  User,
   UserResponse,
 } from '@utils/index';
 

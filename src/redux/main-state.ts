@@ -1,9 +1,10 @@
+import { GameData, GameKey } from '@api/';
 import { createSlice } from '@reduxjs/toolkit';
-import { GameKeyEnum, PaymentTierEnum } from '@utils/custom-enums';
-import { DEFAULT_LANG, GameData } from '@utils/index';
+import { PaymentTierEnum } from '@utils/custom-enums';
+import { DEFAULT_LANG } from '@utils/index';
 
 export const initialGameData: GameData = {
-  id: GameKeyEnum.SKYRIM,
+  id: GameKey.skyrim,
   appId: 0,
   lang: DEFAULT_LANG,
   tier: PaymentTierEnum.LARGE,
@@ -21,7 +22,7 @@ export interface MainState {
   readonly showSplashScreen: boolean;
   readonly shouldUpdateUser: boolean;
   readonly selectedGameData?: GameData;
-  readonly selectedGameSettings: GameKeyEnum;
+  readonly selectedGameSettings: GameKey;
   readonly webSignInConfigured: boolean;
   readonly searchValue: string;
 }
@@ -30,7 +31,7 @@ export const initialState: MainState = {
   showSplashScreen: false,
   shouldUpdateUser: false,
   webSignInConfigured: false,
-  selectedGameSettings: GameKeyEnum.SKYRIM,
+  selectedGameSettings: GameKey.skyrim,
   searchValue: '',
 };
 

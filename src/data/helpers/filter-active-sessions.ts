@@ -1,8 +1,8 @@
-import { SettingsConfigItem } from '@utils/index';
+import { GameSettingsItem } from 'src/api/generated/types';
 
 // Filter active sections
 export const filterActiveSections = (
-  config: SettingsConfigItem[],
+  config: GameSettingsItem[],
   data: any[],
 ) => {
   const filteredConfig = config.filter(item => !item.section.isActive);

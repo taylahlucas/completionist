@@ -9,25 +9,20 @@ import {
   getMappedGameData,
   useEditUserData,
 } from '@data/index';
-import { updateUser } from '@api/';
+import { GameData, GameKey, updateUser } from '@api/';
 import { useContentDispatch } from '@features/game-content/provider';
 import { useReactNavigation } from '@navigation/hooks';
 import { useAuthUser } from '@redux/auth';
 import { useMainDispatch } from '@redux/hooks';
 import useGetTheme from '@styles/hooks/use-get-theme';
-import { AuthScreenEnum, GameKeyEnum } from '@utils/custom-enums';
-import { GameData } from '@utils/custom-interfaces';
+import { AuthScreenEnum } from '@utils/custom-enums';
 import { LanguageType } from '@utils/custom-types';
 import { userWithUpdatedGameLanguage } from '@utils/helpers/index';
 import { useFilterGameList } from '@hooks/';
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 
-export const SelectGameLanguageContent = ({
-  gameId,
-}: {
-  gameId: GameKeyEnum;
-}) => {
+export const SelectGameLanguageContent = ({ gameId }: { gameId: GameKey }) => {
   const { t, i18n } = useTranslation();
   const navigation = useReactNavigation();
   const theme = useGetTheme();
@@ -59,7 +54,7 @@ export const SelectGameLanguageContent = ({
 
     getGameDataFromCache({
       selectedGame: gameId,
-      lang: lang,
+      lang: lang as LanguageType,
     }).then(response => {
       const gameData = getMappedGameData(response);
       setGameContent(gameData);

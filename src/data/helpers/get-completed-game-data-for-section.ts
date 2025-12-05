@@ -1,26 +1,26 @@
+import { GameData, IsActive } from '@api/';
 import { ContentSectionEnum } from '@utils/custom-enums';
-import { GameData, Item } from '@utils/custom-interfaces';
 
 export const getCompletedGameDataForSection = (
   section: ContentSectionEnum,
   selectedGameData?: GameData,
-): Item[] => {
+): IsActive[] => {
   switch (section) {
     case ContentSectionEnum.QUESTS:
       return selectedGameData
-        ? selectedGameData?.quests.filter(item => item.isComplete)
+        ? selectedGameData?.quests.filter(IsActive => IsActive.isActive)
         : [];
     case ContentSectionEnum.COLLECTABLES:
       return selectedGameData
-        ? selectedGameData?.collectables.filter(item => item.isComplete)
+        ? selectedGameData?.collectables.filter(IsActive => IsActive.isActive)
         : [];
     case ContentSectionEnum.LOCATIONS:
       return selectedGameData
-        ? selectedGameData?.locations.filter(item => item.isComplete)
+        ? selectedGameData?.locations.filter(IsActive => IsActive.isActive)
         : [];
     case ContentSectionEnum.MISCELLANEOUS:
       return selectedGameData
-        ? selectedGameData?.miscellaneous.filter(item => item.isComplete)
+        ? selectedGameData?.miscellaneous.filter(IsActive => IsActive.isActive)
         : [];
     default:
       return [];

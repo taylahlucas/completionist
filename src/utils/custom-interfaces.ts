@@ -1,17 +1,15 @@
 import {
-  SettingsOptionEnum,
-  GameKeyEnum,
   DatePeriodEnum,
   ContentSectionEnum,
   DrawerScreenEnum,
-  PaymentTierEnum,
 } from './custom-enums';
 import { NavigationAction, NavigationState } from '@react-navigation/native';
 import { MainState } from '@redux/main-state';
 import { SettingsState } from '@features/settings/provider';
 import { ContentState } from '@features/game-content/provider';
-import { LanguageType, ScreenEnumType } from './custom-types';
+import { ScreenEnumType } from './custom-types';
 import { AuthState } from '@redux/auth';
+import { GameKey } from '@api/';
 
 export interface ContentItem {
   id: string;
@@ -66,7 +64,7 @@ export interface SteamAchievementsState {
 }
 
 export interface GlobalSteamAchievementsState {
-  gameId: GameKeyEnum;
+  gameId: GameKey;
   items: SteamAchievementsState[];
 }
 
@@ -145,12 +143,12 @@ export type UnauthorizedStackParamList = {
 export type AuthStackParamList = {
   Landing: undefined;
   GameSelection: undefined;
-  SelectGameLanguage: [gameId: GameKeyEnum];
+  SelectGameLanguage: [gameId: GameKey];
   GlobalSettings: undefined;
   GlobalAccountDetails: undefined;
   GlobalAchievements: undefined;
   GlobalSteamAchievements: undefined;
-  PurchaseGame: [gameId: GameKeyEnum];
+  PurchaseGame: [gameId: GameKey];
   SteamProfile: [steamId: string, viewType: 'add' | 'view'];
   DrawerStack: undefined;
 };
@@ -196,68 +194,6 @@ export interface SteamPlayerAchievement {
 export interface CachedData {
   data: any;
   timestamp: number;
-}
-
-export interface Item {
-  id: string;
-  isComplete: boolean;
-}
-
-export interface SettingsOptionItem {
-  id: SettingsOptionEnum;
-  isActive: boolean;
-}
-
-export interface UserSettings {
-  lang: LanguageType;
-  configs: SettingsOptionItem[];
-}
-
-export interface SettingsConfig {
-  general: SettingsConfigItem[];
-  dlc: IsActive[];
-}
-
-export interface SettingsConfigItem {
-  section: IsActive;
-  categories: IsActive[];
-  dlc: IsActive[];
-}
-
-export interface IsActive {
-  id: GameKeyEnum | string;
-  isActive: boolean;
-}
-
-export interface GameData {
-  id: GameKeyEnum;
-  appId: number;
-  lang: LanguageType;
-  tier: PaymentTierEnum;
-  quests: Item[];
-  collectables: Item[];
-  locations: Item[];
-  miscellaneous: Item[];
-  settingsConfig: SettingsConfig;
-}
-
-export interface AccountData {
-  pwAttempts: number;
-  expiry?: Date;
-}
-
-export interface SignupData {
-  verification: boolean;
-  setUsername: boolean;
-  selectGame: boolean;
-}
-
-export interface User extends LoginFormData {
-  steamId?: string;
-  signup: SignupData;
-  account: AccountData;
-  settings: UserSettings;
-  gameData: GameData[];
 }
 
 export interface LoginFormData {

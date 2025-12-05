@@ -1,6 +1,6 @@
+import { GameData, GameKey, User } from '@api/';
 import { useEditUserData } from '@data/hooks';
 import { initialGameData } from '@redux/main-state';
-import { User, GameKeyEnum } from '@utils/index';
 import {
   eldenRingGameData,
   fallout3GameData,
@@ -30,11 +30,11 @@ export const useActivateGame = () => {
   };
 
   // User set up and premium users
-  const activateGame = (user: User, selectedGame: GameKeyEnum) => {
+  const activateGame = (user: User, selectedGame: GameKey) => {
     let updatedData = [];
     if (user.gameData) {
       updatedData = [
-        ...user.gameData.filter(game => game.id !== selectedGame),
+        ...user.gameData.filter((game: GameData) => game.id !== selectedGame),
         getGameData(selectedGame),
       ];
     } else {

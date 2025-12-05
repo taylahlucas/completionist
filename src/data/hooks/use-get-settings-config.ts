@@ -1,5 +1,5 @@
+import { IsActive, SettingsOptionsKey } from '@api/';
 import { useAuthUser } from '@redux/auth';
-import { SettingsOptionEnum } from '@utils/index';
 
 interface GetSettingsConfigReturnType {
   shouldShowCompletedItems: () => boolean;
@@ -12,7 +12,7 @@ export const useGetSettingsConfig = (): GetSettingsConfigReturnType => {
   const shouldShowCompletedItems = (): boolean => {
     return (
       user?.settings.configs.find(
-        item => item.id === SettingsOptionEnum.COMPLETED_ITEMS,
+        (item: IsActive) => item.id === SettingsOptionsKey.completedItems,
       )?.isActive ?? true
     );
   };
@@ -20,7 +20,7 @@ export const useGetSettingsConfig = (): GetSettingsConfigReturnType => {
   const shouldHideDisabledSections = (): boolean => {
     return (
       user?.settings.configs.find(
-        item => item.id === SettingsOptionEnum.DISABLED_SECTIONS,
+        (item: IsActive) => item.id === SettingsOptionsKey.disabledSections,
       )?.isActive ?? true
     );
   };

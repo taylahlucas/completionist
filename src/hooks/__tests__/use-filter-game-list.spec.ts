@@ -1,7 +1,7 @@
 import { mockEldenRingGameData, mockSkyrimGameData } from '@utils/testing';
 import { renderHook } from '@testing-library/react-native';
 import { useFilterGameList } from '../use-filter-game-list';
-import { GameKeyEnum } from '@utils/custom-enums';
+import { GameKey } from '@api/';
 
 describe('useFilterGameList', () => {
   describe('filterGameList', () => {
@@ -46,20 +46,20 @@ describe('useFilterGameList', () => {
     it('returns the correct item by id', () => {
       const { result } = renderHook(() => useFilterGameList());
 
-      const gameData = result.current.filterGameListById(
-        GameKeyEnum.ELDEN_RING,
-        [mockEldenRingGameData, mockSkyrimGameData],
-      );
+      const gameData = result.current.filterGameListById(GameKey.eldenRing, [
+        mockEldenRingGameData,
+        mockSkyrimGameData,
+      ]);
       expect(gameData?.id).toBe(mockEldenRingGameData.id);
     });
 
     it('returns undefined if id not found', () => {
       const { result } = renderHook(() => useFilterGameList());
 
-      const gameData = result.current.filterGameListById(
-        GameKeyEnum.FALLOUT_4,
-        [mockEldenRingGameData, mockSkyrimGameData],
-      );
+      const gameData = result.current.filterGameListById(GameKey.fallout4, [
+        mockEldenRingGameData,
+        mockSkyrimGameData,
+      ]);
       expect(gameData).toBe(undefined);
     });
   });

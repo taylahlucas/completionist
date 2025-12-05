@@ -8,9 +8,10 @@
     "resolveJsonModule": true,
     "esModuleInterop": true,
     "moduleSuffixes": [".android", ".ios", ""],
+    "types": ["node"],
     "baseUrl": "./",
     "paths": {
-      "@api/*": ["src/api/"],
+      "@api/": ["src/api/"],
       "@components/*": ["src/components/*"],
       "@data/*": ["src/data/*"],
       "@features/*": ["src/features/*"],

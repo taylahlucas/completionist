@@ -1,8 +1,9 @@
 import { Dimensions } from 'react-native';
-import { ContentSectionEnum, GameKeyEnum } from './custom-enums';
+import { ContentSectionEnum } from './custom-enums';
 import { LanguageType } from './custom-types';
+import { GameKey } from '@api/';
 
-export const DEFAULT_LANG = 'en';
+export const DEFAULT_LANG: LanguageType = 'en';
 
 export const windowHeight = Dimensions.get('window').height;
 export const windowWidth = Dimensions.get('window').width;
@@ -14,10 +15,11 @@ export const maxPwAttempts = 3;
 
 // MARK: Update with new game data
 export const games = [
-  GameKeyEnum.FALLOUT_3,
-  GameKeyEnum.FALLOUT_4,
-  GameKeyEnum.SKYRIM,
-  GameKeyEnum.WITCHER_3,
+  GameKey.eldenRing,
+  GameKey.fallout3,
+  GameKey.fallout4,
+  GameKey.skyrim,
+  GameKey.witcher3,
 ];
 
 export const requestCodes = {
@@ -71,25 +73,25 @@ export const sectionTypes = [
 ];
 
 // MARK: Update with new game data
-export const gameLanguages: { key: GameKeyEnum; langs: LanguageType[] }[] = [
+export const gameLanguages: { key: GameKey; langs: LanguageType[] }[] = [
   {
-    key: GameKeyEnum.ELDEN_RING,
+    key: GameKey.eldenRing,
     langs: ['ar', 'de', 'en', 'es', 'fr', 'it', 'ja', 'pt', 'zh'],
   },
   {
-    key: GameKeyEnum.FALLOUT_3,
+    key: GameKey.fallout3,
     langs: ['de', 'en', 'es', 'fr', 'it'],
   },
   {
-    key: GameKeyEnum.FALLOUT_4,
+    key: GameKey.fallout4,
     langs: ['de', 'en', 'es', 'fr', 'it', 'ja', 'pt', 'zh'],
   },
   {
-    key: GameKeyEnum.SKYRIM,
+    key: GameKey.skyrim,
     langs: ['de', 'en', 'es', 'fr', 'it', 'ja', 'zh'],
   },
   {
-    key: GameKeyEnum.WITCHER_3,
+    key: GameKey.witcher3,
     langs: ['ar', 'de', 'en', 'es', 'fr', 'it', 'ja', 'pt', 'tr', 'zh'],
   },
 ];

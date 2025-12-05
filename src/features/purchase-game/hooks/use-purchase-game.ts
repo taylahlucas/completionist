@@ -10,9 +10,9 @@ import {
   getGameDataFromCache,
   getPriceForGame,
 } from '@data/index';
-import { createPayment } from '@api/';
+import { createPayment, GameData, GameKey } from '@api/';
 import { Alert } from 'react-native';
-import { GameKeyEnum, GameContentState, GameData } from '@utils/index';
+import { GameContentState } from '@utils/index';
 import { useReactNavigation } from '@navigation/hooks';
 import { useTranslation } from 'react-i18next';
 import { useAuthUser } from '@redux/auth';
@@ -30,7 +30,7 @@ interface UsePurchaseGameReturnType {
     gamePrice: string;
   };
   actions: {
-    translateGameName: (title: GameKeyEnum) => string;
+    translateGameName: (title: GameKey) => string;
     setPoints: (value: string) => void;
     setPointsAvailable: (value: number) => void;
     handlePayment: () => void;
@@ -43,9 +43,7 @@ interface PaymentIntentReturnType {
   customer: string;
 }
 
-export const usePurchaseGame = (
-  gameId: GameKeyEnum,
-): UsePurchaseGameReturnType => {
+export const usePurchaseGame = (gameId: GameKey): UsePurchaseGameReturnType => {
   const { t } = useTranslation();
   const { translateGameName } = useTranslateGameContent();
   const navigation = useReactNavigation();

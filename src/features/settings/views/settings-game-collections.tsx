@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Animated } from 'react-native';
 import { useTranslation } from 'react-i18next';
-import { IsActive, GameKeyEnum } from '@utils/index';
 import { useGetUserGameData, useTranslateGameContent } from '@data/hooks';
 import {
   SettingsItemDropdown,
@@ -17,6 +16,7 @@ import {
 import { useMainState, useMainDispatch } from '@redux/hooks';
 import { useFilterGameList } from '@hooks/';
 import { useAuthUser } from '@redux/auth';
+import { GameKey, IsActive } from '@api/';
 
 export const SettingsGameCollections = () => {
   const { t } = useTranslation();
@@ -61,7 +61,7 @@ export const SettingsGameCollections = () => {
           }))}
           onPress={(value): void => {
             triggerSelectionOpen(false);
-            setSelectedGameDataSettings(value as GameKeyEnum);
+            setSelectedGameDataSettings(value as GameKey);
           }}
         />
       </Dropdown>

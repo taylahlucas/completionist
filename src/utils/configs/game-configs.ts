@@ -1,6 +1,7 @@
 import { DEFAULT_LANG } from '@utils/constants';
-import { GameKeyEnum, PaymentTierEnum } from '../custom-enums';
+import { GameKey, PaymentTierEnum } from '../custom-enums';
 import { GameData, SettingsConfig } from '../custom-interfaces';
+import { GameKey } from '@api/';
 
 // MARK: Add settings configs for new games here
 const eldenRingSettingsConfig = {
@@ -715,7 +716,7 @@ const initialGameData = {
 };
 
 export const eldenRingGameData: GameData = {
-  id: GameKeyEnum.ELDEN_RING,
+  id: GameKey.ELDEN_RING,
   appId: 1245620,
   lang: DEFAULT_LANG,
   tier: PaymentTierEnum.SMALL,
@@ -724,7 +725,7 @@ export const eldenRingGameData: GameData = {
 };
 
 export const fallout3GameData: GameData = {
-  id: GameKeyEnum.FALLOUT_3,
+  id: GameKey.FALLOUT_3,
   appId: 22300,
   lang: DEFAULT_LANG,
   tier: PaymentTierEnum.MEDIUM,
@@ -733,7 +734,7 @@ export const fallout3GameData: GameData = {
 };
 
 export const fallout4GameData: GameData = {
-  id: GameKeyEnum.FALLOUT_4,
+  id: GameKey.FALLOUT_4,
   appId: 377160,
   lang: DEFAULT_LANG,
   tier: PaymentTierEnum.LARGE,
@@ -742,7 +743,7 @@ export const fallout4GameData: GameData = {
 };
 
 export const skyrimGameData: GameData = {
-  id: GameKeyEnum.SKYRIM,
+  id: GameKey.SKYRIM,
   appId: 72850,
   lang: DEFAULT_LANG,
   tier: PaymentTierEnum.LARGE,
@@ -751,7 +752,7 @@ export const skyrimGameData: GameData = {
 };
 
 export const witcher3GameData: GameData = {
-  id: GameKeyEnum.WITCHER_3,
+  id: GameKey.WITCHER_3,
   tier: PaymentTierEnum.LARGE,
   appId: 292030,
   lang: DEFAULT_LANG,

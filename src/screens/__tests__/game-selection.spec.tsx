@@ -9,13 +9,10 @@ import {
 import { mockUser, navigationSpy } from '@utils/testing';
 import { initialState, MainState } from '@redux/main-state';
 import { screen, userEvent } from '@testing-library/react-native';
-import { AuthScreenEnum, GameKeyEnum } from '@utils/custom-enums';
+import { AuthScreenEnum } from '@utils/custom-enums';
+import { GameKey } from '@api/';
 
-const inactiveGames = [
-  GameKeyEnum.FALLOUT_3,
-  GameKeyEnum.FALLOUT_4,
-  GameKeyEnum.WITCHER_3,
-];
+const inactiveGames = [GameKey.FALLOUT_3, GameKey.FALLOUT_4, GameKey.WITCHER_3];
 const activeGames = mockUser.gameData.map(item => item.id);
 
 const defaultProps = {

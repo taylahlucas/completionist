@@ -1,10 +1,10 @@
-import { SettingsConfigItem, IsActive } from '@utils/index';
+import { GameSettingsItem, IsActive } from '@api/';
 
 export const useUpdateSettingsConfig = () => {
   const updateConfig = (
-    config: SettingsConfigItem[],
+    config: GameSettingsItem[],
     item: IsActive,
-  ): SettingsConfigItem[] => {
+  ): GameSettingsItem[] => {
     return config.map(section => {
       // Main category
       if (item.id === section.section.id) {
@@ -53,7 +53,7 @@ export const useUpdateSettingsConfig = () => {
           }),
         };
       }
-    }) as SettingsConfigItem[];
+    }) as GameSettingsItem[];
   };
 
   return { updateConfig };

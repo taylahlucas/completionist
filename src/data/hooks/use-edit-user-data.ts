@@ -1,7 +1,6 @@
 import { Alert } from 'react-native';
 import { useTranslation } from 'react-i18next';
-import { User } from '@utils/index';
-import { updateUser, deleteUser } from '@api/';
+import { updateUser, deleteUser, User } from '@api/';
 import { resetStore } from '@redux/reset-store';
 import { useAuthDispatch } from '@redux/auth';
 import { useMainDispatch } from '@redux/hooks';

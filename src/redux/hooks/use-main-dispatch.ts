@@ -1,5 +1,4 @@
 import { Dispatch } from 'redux';
-import { GameKeyEnum, GameData, Item } from '@utils/index';
 import {
   setShowSplashScreen,
   setShouldUpdateUser,
@@ -13,19 +12,20 @@ import {
   setCompletedLocations,
 } from '../main-state';
 import { useAppDispatch } from '../store';
+import { GameData, GameKey, IsActive } from '@api/';
 
 // TODO: Change from value to more descriptive value
 interface MainDispatch {
   setShowSplashScreen: (value: boolean) => void;
   setShouldUpdateUser: (value: boolean) => void;
   setSelectedGameData: (value?: GameData) => void;
-  setSelectedGameDataSettings: (value: GameKeyEnum) => void;
+  setSelectedGameDataSettings: (value: GameKey) => void;
   setWebSignInConfigured: (value: boolean) => void;
   setSearchValue: (value: string) => void;
-  setCompletedQuests: (value: Item[]) => void;
-  setCompletedCollectables: (value: Item[]) => void;
-  setCompletedLocations: (value: Item[]) => void;
-  setCompletedMiscItems: (value: Item[]) => void;
+  setCompletedQuests: (value: IsActive[]) => void;
+  setCompletedCollectables: (value: IsActive[]) => void;
+  setCompletedLocations: (value: IsActive[]) => void;
+  setCompletedMiscItems: (value: IsActive[]) => void;
 }
 
 export const useMainDispatch = (): MainDispatch => {
@@ -41,7 +41,7 @@ export const useMainDispatch = (): MainDispatch => {
     setSelectedGameData(value?: GameData): void {
       dispatch(setSelectedGameData(value));
     },
-    setSelectedGameDataSettings(value: GameKeyEnum): void {
+    setSelectedGameDataSettings(value: GameKey): void {
       dispatch(setSelectedGameDataSettings(value));
     },
     setWebSignInConfigured(value: boolean): void {
@@ -50,16 +50,16 @@ export const useMainDispatch = (): MainDispatch => {
     setSearchValue(value: string): void {
       dispatch(setSearchValue(value));
     },
-    setCompletedQuests(value: Item[]): void {
+    setCompletedQuests(value: IsActive[]): void {
       dispatch(setCompletedQuests(value));
     },
-    setCompletedCollectables(value: Item[]): void {
+    setCompletedCollectables(value: IsActive[]): void {
       dispatch(setCompletedCollectables(value));
     },
-    setCompletedLocations(value: Item[]): void {
+    setCompletedLocations(value: IsActive[]): void {
       dispatch(setCompletedLocations(value));
     },
-    setCompletedMiscItems(value: Item[]): void {
+    setCompletedMiscItems(value: IsActive[]): void {
       dispatch(setCompletedMiscItems(value));
     },
   };

@@ -1,20 +1,20 @@
+import { GameKey } from '@api/';
 import { useTranslation } from 'react-i18next';
-import { GameKeyEnum } from '@utils/index';
 
 export const useTranslateGameContent = () => {
   const { t } = useTranslation();
 
-  const translateGameName = (title: GameKeyEnum): string =>
+  const translateGameName = (title: GameKey): string =>
     t(`common:categories.${title}.title`);
 
   const translateCategoryName = (
-    selectedGame: GameKeyEnum,
+    selectedGame: GameKey,
     section: string,
     category: string,
   ): string =>
     t(`common:categories.${selectedGame}.categories.${section}.${category}`);
 
-  const translateDLCName = (selectedGame: GameKeyEnum, dlc: string): string =>
+  const translateDLCName = (selectedGame: GameKey, dlc: string): string =>
     t(`common:categories.${selectedGame}.dlc.${dlc}`);
 
   return { translateCategoryName, translateGameName, translateDLCName };

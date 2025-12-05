@@ -43,14 +43,6 @@ export enum IconTypeEnum {
   FontAwesome = 'FontAwesome',
 }
 
-export enum GameKeyEnum {
-  ELDEN_RING = 'eldenRing',
-  FALLOUT_3 = 'fallout3',
-  FALLOUT_4 = 'fallout4',
-  SKYRIM = 'skyrim',
-  WITCHER_3 = 'witcher3',
-}
-
 export enum PaymentTierEnum {
   SMALL,
   MEDIUM,
@@ -60,11 +52,6 @@ export enum PaymentTierEnum {
 export enum DatePeriodEnum {
   MONTHLY = 'monthly',
   YEARLY = 'yearly',
-}
-
-export enum SettingsOptionEnum {
-  COMPLETED_ITEMS = 'completedItems',
-  DISABLED_SECTIONS = 'disabledSections',
 }
 
 export enum ContentSectionEnum {

@@ -1,18 +1,15 @@
 import {
   LoginFormData,
-  User,
   SteamProfile,
   SteamAchievementItem,
-  UserSettings,
-  LanguageType,
   UserResponse,
-  GameKeyEnum,
 } from '@utils/index';
+import { GameKey, LanguageType, Settings, User } from './generated';
 
 export interface SignUpProps {
   data: LoginFormData;
   lang: LanguageType;
-  settings?: UserSettings;
+  settings?: Settings;
 }
 
 export interface SignInProps {
@@ -62,11 +59,11 @@ export interface SteamAchievementsReturnType {
 export interface CreatePaymentProps {
   userId: string;
   amount: number;
-  game: GameKeyEnum;
+  game: GameKey;
 }
 
 export interface GetGameDataProps {
-  game: GameKeyEnum;
+  game: GameKey;
   lang: LanguageType;
 }
 

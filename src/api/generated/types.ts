@@ -5,49 +5,7 @@
  * API documentation for Completionist app
  * OpenAPI spec version: 0.1.9
  */
-import { customAxiosInstance } from '../axios-instance';
-export type UserResponseUserAccount = {
-  pwAttempts: number;
-  expiry?: string;
-};
-
-export type UserResponseUserSignup = {
-  verification: boolean;
-  setUsername: boolean;
-  selectGame: boolean;
-};
-
-export enum UserResponseUserSettingsLang {
-  ar = 'ar',
-  de = 'de',
-  en = 'en',
-  es = 'es',
-  fr = 'fr',
-  hi = 'hi',
-  id = 'id',
-  it = 'it',
-  ja = 'ja',
-  pt = 'pt',
-  tr = 'tr',
-  vi = 'vi',
-  zh = 'zh',
-}
-export type UserResponseUserSettingsConfigsItem = {
-  id: string;
-  isActive: boolean;
-};
-
-export type UserResponseUserSettings = {
-  lang: UserResponseUserSettingsLang;
-  configs: UserResponseUserSettingsConfigsItem[];
-};
-
-export type UserResponseUserGameDataItem = {
-  id: string;
-  isActive: boolean;
-};
-
-export type UserResponseUser = {
+export interface User {
   userId: string;
   stripeId?: string;
   steamId?: string;
@@ -55,71 +13,116 @@ export type UserResponseUser = {
   email: string;
   googleId?: string;
   pw?: string;
-  account: UserResponseUserAccount;
-  signup: UserResponseUserSignup;
-  settings: UserResponseUserSettings;
-  gameData: UserResponseUserGameDataItem[];
-};
-
-export interface UserResponse {
-  user: UserResponseUser;
-  token: string;
+  account: Account;
+  signup: Signup;
+  settings: Settings;
+  gameData: GameData[];
 }
 
+/**
+ * Game ID
+ */
+export enum GameKey {
+  eldenRing= 'eldenRing',
+  fallout3= 'fallout3',
+  fallout4= 'fallout4',
+  skyrim= 'skyrim',
+  witcher3= 'witcher3',
+
+}
+/**
+ * Language code
+ */
+export enum LanguageType {
+  ar= 'ar',
+  de= 'de',
+  en= 'en',
+  es= 'es',
+  fr= 'fr',
+  hi= 'hi',
+  id= 'id',
+  it= 'it',
+  ja= 'ja',
+  pt= 'pt',
+  tr= 'tr',
+  vi= 'vi',
+  zh= 'zh',
+
+}
 export interface Signup {
   verification: boolean;
   setUsername: boolean;
   selectGame: boolean;
 }
 
-export enum SettingsLang {
-  ar = 'ar',
-  de = 'de',
-  en = 'en',
-  es = 'es',
-  fr = 'fr',
-  hi = 'hi',
-  id = 'id',
-  it = 'it',
-  ja = 'ja',
-  pt = 'pt',
-  tr = 'tr',
-  vi = 'vi',
-  zh = 'zh',
+export interface Account {
+  pwAttempts: number;
+  expiry?: string;
 }
-export type SettingsConfigsItem = {
-  id: string;
+
+export interface GameSettingsItem {
+  section: IsActive;
+  categories: IsActive[];
+  dlc: IsActive[];
+}
+
+export interface GameSettings {
+  general: GameSettingsItem[];
+  dlc: IsActive[];
+}
+
+/**
+ * Game ID
+ */
+export enum SettingsOptionsKey {
+  completedItems= 'completedItems',
+  disabledSections= 'disabledSections',
+
+}
+export interface SettingsItem {
+  id: SettingsOptionsKey;
   isActive: boolean;
-};
+}
 
 export interface Settings {
-  lang: SettingsLang;
-  configs: SettingsConfigsItem[];
+  lang: LanguageType;
+  configs: SettingsItem[];
 }
 
-export type GameDataItem = {
+export interface IsActive {
   id: string;
   isActive: boolean;
-};
+}
 
-export type GameData = GameDataItem[];
+export interface GameData {
+  id: GameKey;
+  /** Application ID */
+  appId: number;
+  lang: LanguageType;
+  quests: IsActive[];
+  collectables: IsActive[];
+  miscellaneous: IsActive[];
+  locations: IsActive[];
+  settingsConfig: GameSettings;
+}
+
+export interface SuccessResponse {
+  ok?: boolean;
+}
+
+export interface UserResponse {
+  user: User;
+  token: string;
+}
+
+export interface UserIdResponse {
+  userId: string;
+  token: string;
+}
 
 export interface ErrorResponse {
   message?: string;
   code?: number;
 }
 
-/**
- * Retrieves a user by their ID. Returns the user object, userId, and a token.
- * @summary Get user by ID
- */
-export const getUsersIdUserId = (userId: string) => {
-  return customAxiosInstance<UserResponse | void>({
-    url: `/users/id/${userId}`,
-    method: 'GET',
-  });
-};
 
-export type GetUsersIdUserIdResult = NonNullable<
-  Awaited<ReturnType<typeof getUsersIdUserId>>
->;

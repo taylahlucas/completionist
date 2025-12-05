@@ -11,7 +11,7 @@
     "start": "ENVFILE=.env watchman watch-del-all && react-native start --reset-cache",
     "test": "jest",
     "generate-locale": "babel-node --presets @babel/preset-env --extensions .ts scripts/locale.ts",
-    "generate:api": "orval"
+    "generate:api": "orval && ts-node scripts/post-generate-api.ts"
   },
   "dependencies": {
     "@apollo/client": "^3.8.8",

@@ -28,9 +28,9 @@ import {
   GameContentItem,
   SteamAchievementItem,
   SteamProfile,
-  User,
   AxiosErrorResponse,
 } from '@utils/index';
+import { User } from './generated';
 
 export const getUserByUserId = async ({
   userId,

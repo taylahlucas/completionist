@@ -1,20 +1,16 @@
 import { useMainState } from '@redux/hooks';
-import {
-  ProgressItem,
-  ContentSectionEnum,
-  GameKeyEnum,
-  Item,
-} from '@utils/index';
+import { ProgressItem, ContentSectionEnum } from '@utils/index';
 import { useContentState } from '@features/game-content/provider';
 import { filterActiveSections, getCurrentGame } from '@data/index';
 import { useAuthUser } from '@redux/auth';
+import { GameKey, IsActive } from '@api/';
 
 export const useGetGameProgressData = () => {
   const { selectedGameData } = useMainState();
   const user = useAuthUser();
   const { gameContent } = useContentState();
 
-  const getGameProgress = (games: GameKeyEnum[]): ProgressItem[] => {
+  const getGameProgress = (games: GameKey[]): ProgressItem[] => {
     // TODO: Handle no user
     if (!user) return [];
     return games.map(game => {
@@ -41,7 +37,7 @@ export const useGetGameProgressData = () => {
         drawerItems.push({
           id: ContentSectionEnum.QUESTS,
           current:
-            currentGame?.quests.filter((item: Item) => item.isComplete)
+            currentGame?.quests.filter((item: IsActive) => item.isActive)
               .length ?? 0,
           total: questData.length,
           data: currentGame?.quests,
@@ -51,7 +47,7 @@ export const useGetGameProgressData = () => {
         drawerItems.push({
           id: ContentSectionEnum.COLLECTABLES,
           current:
-            currentGame?.collectables.filter((item: Item) => item.isComplete)
+            currentGame?.collectables.filter((item: IsActive) => item.isActive)
               .length ?? 0,
           total: collectablesData.length,
           data: currentGame?.collectables,
@@ -61,7 +57,7 @@ export const useGetGameProgressData = () => {
         drawerItems.push({
           id: ContentSectionEnum.LOCATIONS,
           current:
-            currentGame?.locations.filter((item: Item) => item.isComplete)
+            currentGame?.locations.filter((item: IsActive) => item.isActive)
               .length ?? 0,
           total: locationsData.length,
           data: currentGame?.locations,
@@ -71,7 +67,7 @@ export const useGetGameProgressData = () => {
         drawerItems.push({
           id: ContentSectionEnum.MISCELLANEOUS,
           current:
-            currentGame?.miscellaneous.filter((item: Item) => item.isComplete)
+            currentGame?.miscellaneous.filter((item: IsActive) => item.isActive)
               .length ?? 0,
           total: miscellaneousData.length,
           data: currentGame?.miscellaneous,

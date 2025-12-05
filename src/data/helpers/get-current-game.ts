@@ -1,4 +1,4 @@
-import { User, GameKeyEnum } from '@utils/index';
+import { GameKey, User } from '@api/';
 
-export const getCurrentGame = (id: GameKeyEnum, user: User) =>
+export const getCurrentGame = (id: GameKey, user: User) =>
   user.gameData?.find(game => game.id === id);

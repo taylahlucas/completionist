@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
-import { SettingsOptionEnum } from '@utils/index';
 import { useAuthUser } from '@redux/auth';
+import { SettingsOptionsKey } from '@api/';
 
 interface SettingsOptionsItem {
   id: string;
@@ -18,7 +18,8 @@ export const useGetShowHideOptions = (): SettingsOptionsItem[] => {
       title: t('common:settings.disabledSections'),
       isActive:
         user.settings.configs.find(
-          item => item.id === SettingsOptionEnum.DISABLED_SECTIONS,
+          (item: SettingsOptionsItem) =>
+            item.id === SettingsOptionsKey.disabledSections,
         )?.isActive ?? false,
     },
   ];

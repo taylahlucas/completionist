@@ -1,7 +1,7 @@
+import { IsActive } from '@api/';
 import { getCurrentGame } from '@data/helpers';
 import { useAuthUser } from '@redux/auth';
 import { useMainState } from '@redux/hooks';
-import { IsActive } from '@utils/index';
 
 interface GetUserGameDataReturnType {
   userSettingsMainConfig: IsActive[];

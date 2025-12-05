@@ -1,17 +1,17 @@
-import { GameKeyEnum } from '@utils/index';
+import { GameKey } from '@api/';
 import { ImageURISource } from 'react-native';
 
-export const getGameImage = (game: GameKeyEnum): ImageURISource => {
+export const getGameImage = (game: GameKey): ImageURISource => {
   switch (game) {
-    case GameKeyEnum.ELDEN_RING:
+    case GameKey.eldenRing:
       return require('@styles/images/games/eldenring.jpg');
-    case GameKeyEnum.FALLOUT_3:
+    case GameKey.fallout3:
       return require('@styles/images/games/fallout3.jpg');
-    case GameKeyEnum.FALLOUT_4:
+    case GameKey.fallout4:
       return require('@styles/images/games/fallout4.jpg');
-    case GameKeyEnum.SKYRIM:
+    case GameKey.skyrim:
       return require('@styles/images/games/skyrim.jpg');
-    case GameKeyEnum.WITCHER_3:
+    case GameKey.witcher3:
       return require('@styles/images/games/witcher3.jpeg');
     default:
       // TODO: Change this to 'No image'

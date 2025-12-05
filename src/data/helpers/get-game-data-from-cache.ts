@@ -1,21 +1,16 @@
-import {
-  DEFAULT_LANG,
-  GameContentItem,
-  GameKeyEnum,
-  LanguageType,
-} from '@utils/index';
+import { DEFAULT_LANG, GameContentItem } from '@utils/index';
 import {
   fetchGameDataFromCache,
   getAllKeys,
   removeItemFromCache,
   saveToCache,
 } from '@data/index';
-import { getGameData } from '@api/';
+import { GameKey, getGameData, LanguageType } from '@api/';
 import { Alert } from 'react-native';
 import { log } from '@utils/helpers/index';
 
 interface GetGameDataFromCacheProps {
-  selectedGame: GameKeyEnum;
+  selectedGame: GameKey;
   lang?: LanguageType;
 }
 
@@ -23,7 +18,7 @@ interface GetGameDataFromCacheProps {
 // Get game data from cache or api
 export const getGameDataFromCache = async ({
   selectedGame,
-  lang = DEFAULT_LANG,
+  lang = DEFAULT_LANG as LanguageType,
 }: GetGameDataFromCacheProps): Promise<GameContentItem[]> => {
   const newKey = `${selectedGame}-${lang}`;
   try {

@@ -2,12 +2,8 @@ import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useMainState } from '@redux/hooks';
 import { getCurrentGame } from '@data/index';
-import { getSteamPlayerAchievements } from '@api/';
-import {
-  GameKeyEnum,
-  SteamAchievementItem,
-  SteamAchievementsState,
-} from '@utils/index';
+import { GameKey, getSteamPlayerAchievements } from '@api/';
+import { SteamAchievementItem, SteamAchievementsState } from '@utils/index';
 import { useEditUserData, useGetGameProgressData } from '@data/hooks/index';
 import { useAuthUser } from '@redux/auth';
 
@@ -30,7 +26,7 @@ export const useAchievements = () => {
     user,
   );
   const { getGameProgress } = useGetGameProgressData();
-  const gameProgress = getGameProgress([selectedGameData?.id] as GameKeyEnum[]);
+  const gameProgress = getGameProgress([selectedGameData?.id] as GameKey[]);
   const { updateUserData } = useEditUserData();
 
   useEffect(() => {
@@ -82,7 +78,7 @@ export const useAchievements = () => {
   return {
     viewModel: {
       user,
-      gameId: selectedGameData?.id as GameKeyEnum,
+      gameId: selectedGameData?.id as GameKey,
       achievementsState,
       steamAchievementsOpen,
       progressViewOpen,

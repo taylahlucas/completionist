@@ -1,15 +1,11 @@
-import { IsActive, User, GameKeyEnum } from '@utils/index';
 import { useUpdateSettingsConfig } from './';
 import { getCurrentGame } from '@data/helpers';
+import { GameData, GameKey, IsActive, User } from '@api/';
 
 export const useUpdateGameSettings = () => {
   const { updateConfig } = useUpdateSettingsConfig();
 
-  const updateGameSettings = (
-    user: User,
-    item: IsActive,
-    gameKey: GameKeyEnum,
-  ) => {
+  const updateGameSettings = (user: User, item: IsActive, gameKey: GameKey) => {
     const currentGame = getCurrentGame(gameKey, user);
     if (!currentGame) {
       return;
@@ -27,7 +23,7 @@ export const useUpdateGameSettings = () => {
     return {
       ...user,
       gameData: [
-        ...user.gameData.filter(game => game.id !== currentGame.id),
+        ...user.gameData.filter((game: GameData) => game.id !== currentGame.id),
         updatedGame,
       ],
     };

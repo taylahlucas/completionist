@@ -1,4 +1,4 @@
-import { GameData, GameKeyEnum } from '@utils/index';
+import { GameData, GameKey } from '@api/';
 import { useTranslation } from 'react-i18next';
 
 export const useFilterGameList = () => {
@@ -18,7 +18,7 @@ export const useFilterGameList = () => {
   };
 
   const filterGameListById = (
-    id: GameKeyEnum,
+    id: GameKey,
     data: GameData[],
   ): GameData | undefined => {
     return data?.find(item => item.id === id);

@@ -3,14 +3,14 @@ import {
   getMappedGameData,
   useEditUserData,
 } from '@data/index';
-import { updateUser } from '@api/';
 import {
-  SettingsOptionItem,
-  SettingsOptionEnum,
   GameData,
   LanguageType,
+  SettingsItem,
+  SettingsOptionsKey,
+  updateUser,
   User,
-} from '@utils/index';
+} from '@api/';
 import { useContentDispatch } from '@features/game-content/provider';
 import { useTranslation } from 'react-i18next';
 import { userWithUpdatedGameLanguage } from '@utils/helpers/index';
@@ -18,9 +18,9 @@ import { useAuthDispatch } from '@redux/auth';
 import { useMainDispatch } from '@redux/hooks';
 
 const triggerItem = (
-  id: SettingsOptionEnum,
-  configs: SettingsOptionItem[],
-): SettingsOptionItem[] =>
+  id: SettingsOptionsKey,
+  configs: SettingsItem[],
+): SettingsItem[] =>
   configs.map(item => {
     if (item.id === id) {
       return {
@@ -48,7 +48,7 @@ export const useGameSettings = () => {
           settings: {
             ...user.settings,
             configs: triggerItem(
-              SettingsOptionEnum.COMPLETED_ITEMS,
+              SettingsOptionsKey.completedItems,
               user.settings.configs,
             ),
           },
@@ -62,7 +62,7 @@ export const useGameSettings = () => {
           settings: {
             ...user.settings,
             configs: triggerItem(
-              SettingsOptionEnum.DISABLED_SECTIONS,
+              SettingsOptionsKey.disabledSections,
               user.settings.configs,
             ),
           },
